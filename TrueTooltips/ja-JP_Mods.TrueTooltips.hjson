@@ -1,0 +1,340 @@
+Configs: {
+	Config: {
+		Headers: {
+			ItemSprite: アイテム画像ヘッダー
+			VanillaTooltipLines: バニラのツールチップ項目と色
+			Miscellaneous: その他
+			Offset: 位置調整
+			Background: ツールチップ背景
+			CustomTooltipLines: カスタムツールチップ項目
+		}
+
+		modNameColor: {
+			Tooltip: アイテムが属しているMOD (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: MOD名
+		}
+
+		journeyResearch: {
+			Tooltip: アイテムのリサーチ進捗数 (ジャーニーモードのみ) (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: ジャーニーリサーチ
+		}
+
+		pickPow: {
+			Tooltip: ツルハシの採掘力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X% 採掘力
+		}
+
+		hammerPow: {
+			Tooltip: ハンマーの槌力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X% 槌力
+		}
+
+		fishingPow: {
+			Tooltip: 釣り竿のフィッシング・パワー (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X% フィッシング・パワー
+		}
+
+		critChance: {
+			Tooltip: アイテムのクリティカル率 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X%のクリティカル率
+		}
+
+		baitPow: {
+			Tooltip: 餌系アイテムの餌パワー (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X% 餌パワー
+		}
+
+		axePow: {
+			Tooltip: 斧の斧力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X% 斧力
+		}
+
+		buffTime: {
+			Tooltip: アイテムバフの持続時間 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 持続時間 X分
+		}
+
+		defense: {
+			Tooltip: 防御力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: X 防御力
+		}
+
+		vanity: {
+			Tooltip: 衣装用アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 衣装アイテム
+		}
+
+		useMana: {
+			Tooltip: アイテム使用時に消費するマナの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 消費: Xマナ
+		}
+
+		speed: {
+			Tooltip: アイテムの使用速度 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 速度
+		}
+
+		socialDescr: {
+			Tooltip: '''「ステータス効果なし」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Label: ソーシャルスロット装備中
+		}
+
+		setBonus: {
+			Tooltip: 防具のセットボーナスの説明文 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: セットボーナス
+		}
+
+		healMana: {
+			Tooltip: アイテム使用時に回復するマナの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 回復: Xマナ
+		}
+
+		healLife: {
+			Tooltip: アイテム使用時に回復するライフの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 回復: Xライフ
+		}
+
+		needsBait: {
+			Tooltip: 釣竿は魚を釣るために餌を必要とする (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 魚を釣るには餌が必要
+		}
+
+		quest: {
+			Tooltip: 釣りクエスト対象のアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: クエストアイテム
+		}
+
+		material: {
+			Tooltip: このアイテムを使って何かをクラフトすることができる (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 素材アイテム
+		}
+
+		knockback: {
+			Tooltip: アイテムのノックバック性能 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: ノックバック
+		}
+
+		wellFedExpert: {
+			Tooltip: エキスパートモードで食品のライフ再生力が高まる事を示す表示 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: ライフ自然回復を増進
+		}
+
+		goodMod: {
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: Good Modifier
+		}
+
+		favDescr: {
+			Tooltip: '''「クイックトラッシュ、クイックスタック、クイックセールを防止」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Label: お気に入り設定中の説明
+		}
+
+		fav: {
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: お気に入りに指定中
+		}
+
+		expert: {
+			Tooltip: エキスパート専用アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: エキスパート
+		}
+
+		etherianMana: {
+			Tooltip: '''「エーテリアンマナはエターニアの水晶を守ってる間のみ使用できる」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Label: エーテリアンマナの警告
+		}
+
+		social: {
+			Tooltip: 衣装スロットに装備されてる場合に表示される (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 衣装スロットに装備中
+		}
+
+		equipable: {
+			Tooltip: 装備可能なアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 装備可能
+		}
+
+		dmg: {
+			Tooltip: アイテムのダメージとその武器種 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: ダメージ
+		}
+
+		wandConsumes: {
+			Tooltip: ブロックを設置する杖で消費するブロック (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: Xを設置
+		}
+
+		consumable: {
+			Tooltip: 消費アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 消費アイテム
+		}
+
+		placeable: {
+			Tooltip: 設置できるアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 設置可能
+		}
+
+		badMod: {
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: Bad Modifier
+		}
+
+		ammo: {
+			Tooltip: 弾丸アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: 使用弾丸
+		}
+
+		tileBoost: {
+			Tooltip: 道具の届く範囲が増える/減る項目 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Label: + - X射程
+		}
+
+		ammoCrit: {
+			Tooltip: 弾丸のクリティカル率は武器のクリティカル率に影響しないため、デフォルトではオフになっています
+			Label: 弾丸のクリティカル率項目
+		}
+
+		textPulse: {
+			Tooltip: ""
+			Label: テキストの点滅
+		}
+
+		spriteTextPadding: {
+			Tooltip: アイテムアイコンとツールチップの間の距離
+			Label: アイコンとテキストの間の余白
+		}
+
+		spriteMin: {
+			Tooltip: 表示するアイテムアイコンの最小サイズ
+			Label: アイコンの最小サイズ
+		}
+
+		spriteBorder: {
+			Tooltip: アイコンの枠を切り替える
+			Label: アイコンの枠
+		}
+
+		spriteBorderPadding: {
+			Tooltip: アイコン画像の端とアイコン枠との間の余白の広さ
+			Label: アイコンと枠の間の余白
+		}
+
+		sprite: {
+			Tooltip: ツールチップにアイテムの画像を表示する
+			Label: アイテムアイコン
+		}
+
+		spacing: {
+			Tooltip: 行間に余分なスペースを足す(ツールチップの最下部)
+			Label: スペース
+		}
+
+		y: {
+			Tooltip: ツールチップのY座標
+			Label: Y
+		}
+
+		x: {
+			Tooltip: ツールチップのX座標
+			Label: X
+		}
+
+		paddingBottom: {
+			Tooltip: ""
+			Label: 下辺の余白
+		}
+
+		paddingTop: {
+			Tooltip: ""
+			Label: 上辺の余白
+		}
+
+		paddingLeft: {
+			Tooltip: ""
+			Label: 左辺の余白
+		}
+
+		paddingRight: {
+			Tooltip: ""
+			Label: 右辺の余白
+		}
+
+		spritebgColor: {
+			Tooltip: アイテムアイコンの背景の外枠の色
+			Label: アイコンの枠の色
+		}
+
+		bgColor: {
+			Tooltip: ""
+			Label: 色
+		}
+
+		modNameNextToItemName: {
+			Tooltip: アイテムを追加するMODの名前をアイテム名の横に表示します
+			Label: アイテム名の横にMOD名を表示
+		}
+
+		wpnPlusAmmoVelocity: {
+			Tooltip: ""
+			Label: 武器と弾を合わせた弾速値にする
+		}
+
+		wpnPlusAmmoKb: {
+			Tooltip: ノックバック項目の設定をオンにする必要があります
+			Label: 武器と弾を合わせたノックバック値にする
+		}
+
+		wpnPlusAmmoDmg: {
+			Tooltip: ""
+			Label: 武器と弾を合わせたダメージ値にする
+		}
+
+		knockbackLine: {
+			Display: " ノックバック"
+			Tooltip: ノックバック性能を数値に置き換えます。バニラのノックバック項目と置き換えます
+			Label: ノックバック項目
+		}
+
+		speedLine: {
+			Display: " 回/秒"
+			Tooltip: 1秒あたりの攻撃回数を表示します。バニラの攻撃速度の行と置き換えます
+			Label: 攻撃速度項目
+		}
+
+		priceLine: {
+			copper: "[c/{0}:{1} {$LegacyInterface.18}]"
+			silver: "[c/{0}:{1} {$LegacyInterface.17} ]"
+			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
+			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
+			Tooltip: アイテムの正確な販売価格が表示されます。バニラの価格の行と置き換えます
+			Label: 販売価格
+		}
+
+		velocityLine: {
+			Display: " 弾速"
+			Tooltip: アイテムの弾速値を表示する。アイテムが異なる種類の弾丸を複数発射したり、飛翔中に速度を変えたりする等の理由で常に正確であるとは限りません
+			Label: 弾速項目
+		}
+
+		ammoLine: {
+			Flare: フレア
+			Solution: ソリューション
+			Rocket: ロケット弾
+			Dart: ダーツ
+			Sand: スナブロック
+			Bullet: 銃弾
+			Coin: コイン
+			Arrow: 弓矢
+			Bait: 釣り餌
+			No: "不足: "
+			Tooltip:
+				'''
+				アイテムの使用弾丸、量、レアリティを表示、MOD名表示設定がオンの場合は弾丸のMOD名を表示、インベントリに弾丸が無い場合はそのアイテムに必要な弾丸の種類を表示します
+				釣り竿やブロックを設置する杖でも機能します
+				'''
+			Label: 弾丸項目
+		}
+
+		DisplayName: Config
+	}
+}
