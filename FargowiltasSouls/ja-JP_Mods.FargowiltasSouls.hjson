@@ -1,7 +1,7 @@
 Bestiary: {
 	TophatSquirrelCritter: このリスはおしゃれな帽子を見つけた！この新しい力で何をするのだろう？正直なことを言えば、大したことはできないだろうが。
 	GuttedCreeper: 真紅の心臓が誰かのポケットに入れられても守り続ける。昔は悪いヤツだったが、今はいいヤツ！
-	RoyalSubject: 女王となるべき者たちの成長が阻害されているのだ。女王が発するフェロモンが、彼女たちを呼び寄せたのだ。
+	RoyalSubject: 女王となるべき者たちの成長が阻害されたとき、女王が発するフェロモンが、彼女たちを呼び寄せる。
 	GelatinSubject: 女王の近衛守護者。彼らは魔法の障壁を築き、家臣を守るために命を捧げる。
 	AbomSaucer: コックピットは機械部品で埋め尽くされている。アボミネーションはブラスター・キャノンのチップを使い、これらの遠隔操作タレットに命令を下す。
 	LesserFairy: 生命の王者の輝きに引き寄せられた妖精たちは、その命令を果たすこと以外には何も考えない。
@@ -343,12 +343,12 @@ Buffs: {
 	}
 
 	AbomCooldownBuff: {
-		DisplayName: 忌まわしいクールダウン
+		DisplayName: 次に当たればどうということになる
 		Description: 次の攻撃にはまだ耐えられない
 	}
 
 	AbomRebirthBuff: {
-		DisplayName: 忌まわしい復活
+		DisplayName: 当たらなければどうということはない
 		Description: 殴られない限り、死ぬことはない
 	}
 
@@ -359,17 +359,17 @@ Buffs: {
 
 	AntisocialBuff: {
 		DisplayName: 嫌われ者
-		Description: 友だちが減り、鞭のダメージも減る
+		Description: ペットとミニオンは消え去り、召喚ダメージが激減する。
 	}
 
 	AtrophiedBuff: {
 		DisplayName: 萎縮
-		Description: あなたの筋肉が衰えている
+		Description: あなたの筋肉が衰えている（近接はもう使い物にならない！）
 	}
 
 	BerserkedBuff: {
 		DisplayName: 狂暴化
-		Description: 攻撃関連のステータスが増え、守備関連のステータスが減る、自分をコントロールできなくなる。
+		Description: ダメージと移動速度が10％増加するがダメージ軽減率が10％減少する。自動で装備を使用しつづけ、切り替えや停止ができなくなる。
 	}
 
 	BloodDrinkerBuff: {
@@ -441,576 +441,576 @@ Buffs: {
 		Description: 罪のない生き物を殺した罪悪感で攻撃が鈍る
 	}
 
-// 	HexedBuff: {
-// 		DisplayName: Hexed
-// 		Description: Your attacks heal enemies
-// 	}
+ 	HexedBuff: {
+ 		DisplayName: 呪縛
+ 		Description: あなたの攻撃で敵のライフが回復してしまう
+ 	}
 
-// 	HolyPriceBuff: {
-// 		DisplayName: Holy Price
-// 		Description: 30% decreased attack speed
-// 	}
+ 	HolyPriceBuff: {
+ 		DisplayName: 神聖なる代償
+ 		Description: 攻撃速度が30％低下する
+ 	}
 
-// 	HypothermiaBuff: {
-// 		DisplayName: Hypothermia
-// 		Description: Friendly projectiles are slowed down and you take increased damage from cold attacks
-// 	}
+ 	HypothermiaBuff: {
+ 		DisplayName: 低体温症
+ 		Description: 味方の攻撃速度が低下し、冷気攻撃によるダメージが増加する。
+ 	}
 
-// 	InfestedBuff: {
-// 		DisplayName: Infested
-// 		Description: This can only get worse
-// 	}
+	InfestedBuff: {
+	DisplayName: 寄生
+	Description: この傷は悪化していく！
+	}
 
-// 	IvyVenomBuff: {
-// 		DisplayName: Ivy Venom
-// 		Description: Losing life, will become Neurotoxin at 20 seconds
-// 		Transform: Your Ivy Venom has become Neurotoxin!!
-// 	}
+ 	IvyVenomBuff: {
+ 		DisplayName: 堆積する毒
+ 		Description: ライフを失う、毒が重なることで20秒を超えると神経毒になる。
+ 		Transform: 毒が致死量に達した！
+ 	}
 
-// 	JammedBuff: {
-// 		DisplayName: Jammed
-// 		Description: Your ranged weapons are faulty
-// 	}
+ 	JammedBuff: {
+ 		DisplayName: ジャムった！
+ 		Description: 遠距離武器が正常に機能しない
+ 	}
 
-// 	LethargicBuff: {
-// 		DisplayName: Lethargic
-// 		Description: Your weapons feel sluggish
-// 	}
+ 	LethargicBuff: {
+ 		DisplayName: だるい...
+ 		Description: 武器の動きが鈍く感じる
+ 	}
 
-// 	LightningRodBuff: {
-// 		DisplayName: Lightning Rod
-// 		Description: You attract thunderbolts
-// 	}
+ 	LightningRodBuff: {
+ 		DisplayName: 避雷針
+ 		Description: 雷を引き寄せてしまう
+ 	}
 
-// 	LihzahrdBlessingBuff: {
-// 		DisplayName: Lihzahrd Blessing
-// 		Description: Wires enabled and reduced spawn rates in Jungle Temple
-// 		Message: The altar's light shines on you!
-// 	}
+ 	LihzahrdBlessingBuff: {
+ 		DisplayName: リザードの加護
+ 		Description: ジャングル寺院でワイヤーが有効になり、出現率が低下する
+ 		Message: 祭壇の光があなたを照らす！
+ 	}
 
-// 	LihzahrdCurseBuff: {
-// 		DisplayName: Lihzahrd Curse
-// 		Description: Wires disabled in Jungle Temple
-// 	}
+ 	LihzahrdCurseBuff: {
+ 		DisplayName: リザードの呪い
+ 		Description: ジャングル寺院でワイヤーが無効になる
+ 	}
 
-// 	LivingWastelandBuff: {
-// 		DisplayName: Living Wasteland
-// 		Description: Everyone around you turns to rot
-// 	}
+ 	LivingWastelandBuff: {
+ 		DisplayName: 生ける荒廃
+ 		Description: 周囲のすべてが腐敗していく
+ 	}
 
-// 	LoosePocketsBuff: {
-// 		DisplayName: Loose Pockets
-// 		Description: An item might be taken from you
-// 	}
+ 	LoosePocketsBuff: {
+ 		DisplayName: ゆるんだポケット
+ 		Description: アイテムを奪われることがある
+ 	}
 
-// 	LovestruckBuff: {
-// 		DisplayName: Lovestruck
-// 		Description: You are in love!
-// 	}
+ 	LovestruckBuff: {
+ 		DisplayName: 恋に落ちた！
+ 		Description: あなたは恋をしている！
+ 	}
 
-// 	LowGroundBuff: {
-// 		DisplayName: Low Ground
-// 		Description: No hooks, cannot stand on platforms or liquids
-// 	}
+ 	LowGroundBuff: {
+		DisplayName: 低地の呪い
+ 		Description: フックが使えず、足場や液体の上に立てない。
+ 	}
 
-// 	LowGroundEridanusBuff: {
-// 		DisplayName: Low Ground
-// 		Description: Cannot stand on platforms
-// 	}
+ 	LowGroundEridanusBuff: {
+ 		DisplayName: 低地の呪い
+ 		Description: 足場の上に立てない
+ 	}
 
 // 	MarkedforDeathBuff: {
-// 		DisplayName: Marked for Death
-// 		Description: Just don't get hit
+// 		DisplayName: 死の刻印
+// 		Description: 絶対に攻撃を受けるな
 // 	}
 
 // 	MidasBuff: {
-// 		DisplayName: Midas
-// 		Description: Drop money on hit
+// 		DisplayName: ミダス
+// 		Description: 攻撃を受けるとお金を落とす
 // 	}
 
 // 	MutantNibbleBuff: {
-// 		DisplayName: Mutant Nibble
-// 		Description: You cannot heal at all
+// 		DisplayName: ミュータントの噛み傷
+// 		Description: 一切回復できなくなる
 // 	}
 
 // 	NanoInjectionBuff: {
-// 		DisplayName: Nano Injection
-// 		Description: Life regeneration and stats reduced
+// 		DisplayName: ナノインジェクション
+// 		Description: ライフ回復力とステータスが低下する
 // 	}
 
 // 	NeurotoxinBuff: {
-// 		DisplayName: Neurotoxin
-// 		Description: Your body is shutting down
+// 		DisplayName: 致死毒
+// 		Description: あなたの体は機能を停止する...
 // 	}
 
 // 	NullificationCurseBuff: {
-// 		DisplayName: Nullification Curse
-// 		Description: Moon Lord has cycling damage type immunities!
+// 		DisplayName: 無効化の呪い
+// 		Description: ムーンロードが一定時間ごとに特定のダメージタイプに対する無効化を得る！
 // 	}
 
 // 	OceanicMaulBuff: {
-// 		DisplayName: Oceanic Maul
-// 		Description: Defensive stats and max life are savaged
-// 		LifeUp: +5 max life
-// 		LifeDown: -5 max life
+// 		DisplayName: 海獣の噛み傷
+// 		Description: 防御系ステータスと最大ライフが大きく低下する
+// 		LifeUp: 最大ライフ+5
+// 		LifeDown: 最大ライフ-5
 // 	}
 
 // 	OceanicSealBuff: {
-// 		DisplayName: Oceanic Seal
-// 		Description: No dodging, no lifesteal, no supersonic, no escape
+// 		DisplayName: 海獣の封印
+// 		Description: 回避効果無効、ライフ吸収無効、超高速移動無効、逃走不可
 // 	}
 
 // 	OiledBuff: {
-// 		DisplayName: Oiled
-// 		Description: Taking more damage from being on fire
+// 		DisplayName: オイルまみれ
+// 		Description: 炎上時に受けるダメージが増加する
 // 	}
 
 // 	PungentGazeBuff: {
-// 		DisplayName: Pungent Gaze
+// 		DisplayName: 刺激的な視線
 // 		Description: Mods.FargowiltasSouls.BuffDescription.PungentGazeBuff
 // 	}
 
 // 	PurgedBuff: {
-// 		DisplayName: Purged
-// 		Description: Dodge effects don't work
+// 		DisplayName: 浄化の呪い
+// 		Description: 回避効果が無効化される
 // 	}
 
-// 	PurifiedBuff: {
-// 		DisplayName: Purified
-// 		Description: You are cleansed
-// 	}
+ 	PurifiedBuff: {
+ 		DisplayName: 浄化
+ 		Description: 穢れが取り除かれた
+ 	}
 
 // 	RefreshedBuff: {
-// 		DisplayName: Refreshed
-// 		Description: Increased mobility and flight time
+// 		DisplayName: リフレッシュ
+// 		Description: 機動性と飛行時間の向上
 // 	}
 
 // 	ReverseManaFlowBuff: {
-// 		DisplayName: Reverse Mana Flow
-// 		Description: Your magic weapons lock your mana for a duration
+// 		DisplayName: マナの逆流
+// 		Description: 魔法武器を使用時、一定時間マナを固定する
 // 	}
 
 // 	RottingBuff: {
-// 		DisplayName: Rotting
-// 		Description: Your body is wasting away
+// 		DisplayName: 腐敗
+// 		Description: 体が腐ってしまう！
 // 	}
 
 // 	RushJobBuff: {
-// 		DisplayName: Rush Job
-// 		Description: The Nurse cannot heal you again yet
-// 		NurseChat: With THAT monstrous thing still chasing you? Go kill it first!
+// 		DisplayName: やっつけ仕事
+// 		Description: ナースに治療してもらってる場合じゃない！
+// 		NurseChat: あの怪物がまだ追いかけているのに治療を？冗談でしょ？
 // 	}
 
 // 	SadismBuff: {
-// 		DisplayName: Eternity
-// 		Description: The power of Eternity Mode is with you
+// 		DisplayName: エタニティ
+// 		Description: エタニティモードの力が宿る
 // 	}
 
 // 	ShadowflameBuff: {
-// 		DisplayName: Shadowflame
-// 		Description: Losing life
+// 		DisplayName: シャドウフレイム
+// 		Description: 徐々にライフを失う
 // 	}
 
 // 	SmiteBuff: {
-// 		DisplayName: Smite
-// 		Description: Life regen reduced and 20% more damage taken
+// 		DisplayName: 天罰
+// 		Description: ライフ回復量が減少し、被ダメージが20%増加する
 // 	}
 
 // 	SqueakyToyBuff: {
-// 		DisplayName: Squeaky Toy
-// 		Description: Your attacks are squeaky toys!
+// 		DisplayName: 鳴るおもちゃ
+// 		Description: 攻撃がピコピコハンマーになる！
 // 	}
 
 // 	StunnedBuff: {
-// 		DisplayName: Stunned
-// 		Description: You're too dizzy to move
+// 		DisplayName: スタン
+// 		Description: めまいで動けない
 // 	}
 
 // 	SwarmingBuff: {
-// 		DisplayName: Swarming
-// 		Description: Hornets are attacking from every direction!
+// 		DisplayName: 大群襲来
+// 		Description: あらゆる方向からハチが襲いかかる！
 // 	}
 
 // 	ThiefCDBuff: {
-// 		DisplayName: Thief Cooldown
-// 		Description: Your items cannot be stolen again yet
+// 		DisplayName: 盗難クールダウン
+// 		Description: まだアイテムを盗まれることはない
 // 	}
 
 // 	UnluckyBuff: {
-// 		DisplayName: Unlucky
-// 		Description: You are feeling pretty unlucky
+// 		DisplayName: 不運
+// 		Description: なんだかツイてない気がする
 // 	}
 
 // 	UnstableBuff: {
-// 		DisplayName: Unstable
-// 		Description: You don't quite fit into reality
+// 		DisplayName: 不安定
+// 		Description: あなたは現実に適合していない
 // 	}
 
 // 	BigBrainMinionBuff: {
-// 		DisplayName: Big Brain of Cthulhu
-// 		Description: The Brain of Cthulhu will fight for you
+// 		DisplayName: でかいクトゥルフの脳
+// 		Description: 大きなクトゥルフの脳があなたのために戦ってくれる
 // 	}
 
 // 	BrainMinionBuff: {
-// 		DisplayName: Brain of Cthulhu
-// 		Description: The mini Brain of Cthulhu will fight for you
+// 		DisplayName: クトゥルフの脳
+// 		Description: ミニクトゥルフの脳があなたのために戦ってくれる
 // 	}
 
 // 	CrystalSkullBuff: {
-// 		DisplayName: Crystal Skull
-// 		Description: The crystal skull will protect you
+// 		DisplayName: クリスタルスカル
+// 		Description: クリスタルスカルがあなたを守ってくれる
 // 	}
 
 // 	EaterMinionBuff: {
-// 		DisplayName: Eater of Worlds
-// 		Description: The mini Eater of Worlds will fight for you
+// 		DisplayName: イーターオブワールド
+// 		Description: ミニイーターオブワールドがあなたのために戦ってくれる
 // 	}
 
 // 	LunarCultistBuff: {
-// 		DisplayName: Lunar Cultist
-// 		Description: The Lunar Cultist will protect you
+// 		DisplayName: 狂気の崇拝者
+// 		Description: 狂気の崇拝者があなたを守ってくれる
 // 	}
 
 // 	MutantPowerBuff: {
-// 		DisplayName: Mutant Power
-// 		Description: The power of Mutant is with you
+// 		DisplayName: ミュータントパワー
+// 		Description: ミュータントの力が宿る
 // 	}
 
 // 	PlanterasChildBuff: {
-// 		DisplayName: Plantera's Child
-// 		Description: The child of Plantera will protect you
+// 		DisplayName: 子供プランテラ
+// 		Description: プランテラの子供があなたを守ってくれる
 // 	}
 
 // 	ProbesBuff: {
-// 		DisplayName: Probes
-// 		Description: The probes will protect you
+// 		DisplayName: プローブ
+// 		Description: プローブがあなたを守ってくれる
 // 	}
 
 // 	PungentEyeballBuff: {
-// 		DisplayName: Pungent Eyeball
-// 		Description: The pungent eyeball will protect you
+// 		DisplayName: 跳ねる目玉
+// 		Description: 跳ねる目玉があなたを守る
 // 	}
 
 // 	RainbowSlimeBuff: {
-// 		DisplayName: Rainbow Slime
-// 		Description: The Rainbow Slime will protect you
+// 		DisplayName: レインボースライム
+// 		Description: レインボースライムがあなたを守ってくれる
 // 	}
 
 // 	SaucerMinionBuff: {
-// 		DisplayName: Mini Saucer
-// 		Description: The Mini Saucer will protect you
+// 		DisplayName: ミニソーサー
+// 		Description: ミニソーサーがあなたを守ってくれる
 // 	}
 
 // 	SkeletronArmsBuff: {
-// 		DisplayName: Skeletron Arms
-// 		Description: The Skeletron arms will protect you
+// 		DisplayName: スケルトロンの腕
+// 		Description: スケルトロンの腕があなたを守ってくれる
 // 	}
 
 // 	SouloftheMasochistBuff: {
-// 		DisplayName: Soul of the Master
-// 		Description: The power of Eternity Mode is with you
+// 		DisplayName: マスターの魂
+// 		Description: エタニティモードの力が宿る
 // 	}
 
 // 	TrueEyesBuff: {
-// 		DisplayName: True Eyes of Cthulhu
-// 		Description: The eyes of Cthulhu will protect you
+// 		DisplayName: 真なるクトゥルフの目玉
+// 		Description: 真なるクトゥルフの目玉があなたを守る。
 // 	}
 
 // 	TwinsEXBuff: {
-// 		DisplayName: Twins EX
-// 		Description: The real Twins will fight for you
+// 		DisplayName: ツインズEX
+// 		Description: 本物のツインズがあなたのために戦う。
 // 	}
 
 // 	MutantRebirthBuff: {
-// 		DisplayName: Mutant Rebirth
-// 		Description: Deathray revive is recharging
+// 		DisplayName: 転生したらミュータントだった件
+// 		Description: 今はデスレイを放ちながら復活できない。
 // 	}
 
 // 	BabyLifelightBuff: {
-// 		DisplayName: Petlight
-// 		Description: Behold, the light of an angel
+// 		DisplayName: ペットライト
+// 		Description: 見よ、天使の光を。
 // 	}
 
 // 	BrokenShellBuff: {
-// 		DisplayName: Broken Shell
-// 		Description: You cannot enter your shell yet
+// 		DisplayName: 砕けた甲羅
+// 		Description: まだ甲羅にこもることができない。
 // 	}
 
 // 	CrimsonRegenBuff: {
-// 		DisplayName: Crimson Healing
-// 		Description: Your lifeforce is building up
+// 		DisplayName: クリムゾンヒーリング
+// 		Description: 生命力が蓄積されていく。
 // 	}
 
 // 	FirstStrikeBuff: {
-// 		DisplayName: First Strike
-// 		Description: Your next attack will be enhanced
+// 		DisplayName: 先制攻撃
+// 		Description: 次の攻撃が強化される。
 // 	}
 
 // 	FossilReviveCDBuff: {
-// 		DisplayName: Revived
-// 		Description: You cannot revive again
+// 		DisplayName: 復活
+// 		Description: これ以上復活できない。
 // 	}
 
 // 	FrozenBuff: {
-// 		DisplayName: Frozen
-// 		Description: You cannot move
+// 		DisplayName: 凍結
+// 		Description: 動くことができない。
 // 	}
 
 // 	GoldenStasisBuff: {
-// 		DisplayName: Golden Stasis
-// 		Description: You are immune to all damage, but cannot move
+// 		DisplayName: 黄金化
+// 		Description: あらゆるダメージを無効化するが、動くことができない。
 // 	}
 
 // 	GoldenStasisCDBuff: {
-// 		DisplayName: Golden Stasis Cooldown
-// 		Description: You cannot turn gold yet
+// 		DisplayName: 黄金化のクールダウン
+// 		Description: まだ黄金化できない。
 // 	}
 
 // 	HallowCooldownBuff: {
-// 		DisplayName: Hallowed Sword Cooldown
-// 		Description: Your sword cannot reflect projectiles yet
+// 		DisplayName: 神聖なる剣のクールダウン
+// 		Description: まだ剣で飛び道具を反射できない。
 // 	}
 
 // 	HuntressBleedBuff: {
-// 		DisplayName: Huntress Bleed
+// 		DisplayName: 異邦人の出血
 // 		Description: Mods.FargowiltasSouls.BuffDescription.HuntressBleedBuff
 // 	}
 
 // 	HuntressCDBuff: {
-// 		DisplayName: Arrow Rain Cooldown
-// 		Description: You cannot trigger another rain of arrows yet
+// 		DisplayName: アローレインクールダウン
+// 		Description: まだ次のアローレインを発動できない。
 // 	}
 
 // 	LeadPoisonBuff: {
-// 		DisplayName: Lead Poison
+// 		DisplayName: 鉛中毒
 // 		Description: Mods.FargowiltasSouls.BuffDescription.LeadPoisonBuff
 // 	}
 
 // 	MoltenAmplifyBuff: {
-// 		DisplayName: Molten Amplify
+// 		DisplayName: 溶岩の増幅
 // 		Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
 // 	}
 
 // 	OriPoisonBuff: {
-// 		DisplayName: Orichalcum Poison
+// 		DisplayName: オリハルコンの毒
 // 		Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
 // 	}
 
 // 	ShellHideBuff: {
-// 		DisplayName: Shell Hide
-// 		Description: Projectiles are being blocked
+// 		DisplayName: 甲羅防御
+// 		Description: 飛び道具を防いでいる。
 // 	}
 
 // 	SnowstormCDBuff: {
-// 		DisplayName: Snowstorm Cooldown
-// 		Description: You cannot chill yet
+// 		DisplayName: 吹雪のクールダウン
+// 		Description: まだ冷気を発生させることができない。
 // 	}
 
 // 	SolarFlareBuff: {
-// 		DisplayName: Solar Flare
+// 		DisplayName: ソーラーフレア
 // 		Description: Mods.FargowiltasSouls.BuffDescription.SolarFlareBuff
 // 	}
 
 // 	SuperBleedBuff: {
-// 		DisplayName: Blood Geyser
+// 		DisplayName: 血の間欠泉
 // 		Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
 // 	}
 
 // 	CorruptingBuff: {
-// 		DisplayName: Withering
-// 		Description: You are withering
+// 		DisplayName: 枯渇
+// 		Description: 生命力が失われていく。
 // 	}
 
 // 	TimeFrozenBuff: {
-// 		DisplayName: Time Frozen
-// 		Description: You are stopped in time
+// 		DisplayName: 時間停止
+// 		Description: 時間が止まり、動くことができない。
 // 	}
 
 // 	TimeStopCDBuff: {
-// 		DisplayName: Time Stop Cooldown
-// 		Description: You cannot stop time yet
+// 		DisplayName: 時止めクールダウン
+// 		Description: まだ時間を止めることはできない。
 // 	}
 
 // 	TitaniumCDBuff: {
-// 		DisplayName: Titanium Shield Cooldown
-// 		Description: You are charging up Titanium Shield
+// 		DisplayName: チタニウムシールド・クールダウン
+// 		Description: チタニウムシールドをチャージ中。
 // 	}
 
 // 	VortexCDBuff: {
-// 		DisplayName: Vortex Cooldown
-// 		Description: You cannot spawn another vortex yet
+// 		DisplayName: ヴォルテックス・クールダウン
+// 		Description: まだ新たな渦巻きを発生させられない。
 // 	}
 
 // 	SuperchargedBuff: {
-// 		DisplayName: Supercharged
-// 		Description: 20% increased move speed, 10% increased attack speed, your attacks electrify
+// 		DisplayName: スーパーチャージ
+// 		Description: 移動速度+20%、攻撃速度+10%、攻撃が電気を帯びる。
 // 	}
 
 // 	MoonBowBuff: {
-// 		DisplayName: Crescent Smile
-// 		Description: Your bow is empowered by lunar magic
+// 		DisplayName: 三日月スマイル
+// 		Description: あなたの弓は月の魔法で強化されている。
 // 	}
 
 // 	TribalCharmClickBuff: {
-// 		DisplayName: Tribal Charm
-// 		Description: Gain an instant of increased damage when you click to attack
+// 		DisplayName: 部族の魅力
+// 		Description: オートスイングに頼らずクリックして攻撃すると、ダメージが増加する。
 // 	}
 
 // 	TwinsInstallBuff: {
-// 		DisplayName: Twins Install
-// 		Description: Effects of Cursed Inferno and Ichor
+// 		DisplayName: ツインズの備え付け
+// 		Description: 呪いの炎と霊液の効果
 // 	}
 
 // 	WretchedHexBuff: {
-// 		DisplayName: Wretched Hex
-// 		Description: Shadowflame tentacles and vastly increased damage, but vastly decreased speed and defenses
+// 		DisplayName: 惨めな呪い
+// 		Description: シャドウフレイムの触手と大幅なダメージ増加、代償として大幅な速度低下と防御力の低下。
 // 	}
 
 // 	CorruptedBuff: {
-// 		DisplayName: Withered
-// 		Description: You have withered
+// 		DisplayName: 枯渇
+// 		Description: あなたは枯渇している。
 // 	}
 
 // 	CorruptedBuffForce: {
-// 		DisplayName: Withered (Force)
-// 		Description: You have withered
+// 		DisplayName: 枯渇（強制）
+// 		Description: あなたは枯渇している。
 // 	}
 
 // 	JungleMimicSummonBuff: {
-// 		DisplayName: Jungle Mimic Summon Buff
-// 		Description: The Jungle Mimic will fight for you
+// 		DisplayName: ジャングルミミック
+// 		Description: ジャングルミミックがあなたのために戦う。
 // 	}
 
 // 	GladiatorBuff: {
-// 		DisplayName: Gladiator Strength
-// 		Description: Increased damage and damage resistance, knockback immunity, improved spear rain
+// 		DisplayName: 剣闘士の力
+// 		Description: ダメージとダメージ耐性、ノックバック耐性、スピアレインの強化
 // 	}
 
 // 	GladiatorSpiritBuff: {
-// 		DisplayName: Gladiator Strength
-// 		Description: +15% damage reduction, +30% damage, knockback immunity, improved successive hit damage
+// 		DisplayName: 剣闘士の力
+// 		Description: ダメージ軽減+15%、ダメージ+30%、ノックバック無効、連続ヒットダメージ向上
 // 	}
 
 // 	ROBBuff: {
 // 		DisplayName: R.O.B
-// 		DescPatreon: The friend you've never left since Brawl
-// 		DescNonPatreon: He's finally a top tier!
+// 		DescPatreon: Xからずっといた戦士
+// 		DescNonPatreon: ついにトップティアになった！
 // 		Description: Mods.FargowiltasSouls.Buffs.ROBBuff.Description
 // 	}
 
 // 	RainCDBuff: {
-// 		DisplayName: Rain Umbrella Cooldown
-// 		Description: Your umbrella isn't ready yet
+// 		DisplayName: 雨傘のクールダウン
+// 		Description: 傘の準備はまだできていない
 // 	}
 
 // 	SublimationBuff: {
 // 		Description: Mods.FargowiltasSouls.Buffs.SublimationBuff.Description
-// 		DisplayName: Sublimation Buff
+// 		DisplayName: 昇華
 // 	}
 
 // 	CoffinTossBuff: {
-// 		DisplayName: Coffin Toss Buff
+// 		DisplayName: 棺桶投げ
 // 		Description: ""
 // 	}
 
 // 	HellFireMarkedBuff: {
-// 		DisplayName: Hell Fire Marked
+// 		DisplayName: 獄炎の刻印
 // 		Description: Mods.FargowiltasSouls.Buffs.HellFireMarked.Description
 // 	}
 
 // 	MagicalCurseBuff: {
-// 		DisplayName: Magical Curse Buff
+// 		DisplayName: 魔法の呪い
 // 		Description: Mods.FargowiltasSouls.Buffs.MagicalCurseBuff.Description
 // 	}
 
 // 	MoonFangBuff: {
-// 		DisplayName: Moon Fang
+// 		DisplayName: 月の噛み傷
 // 		Description: Cannot regenerate life
 // 	}
 
 // 	WitheredForceBuff: {
-// 		DisplayName: Withered Force Buff
+// 		DisplayName: 衰弱のフォース
 // 		Description: Mods.FargowiltasSouls.Buffs.WitheredForceBuff.Description
 // 	}
 
 // 	TimberBleedBuff: {
-// 		DisplayName: Timber Bleed Buff
+// 		DisplayName: 自然の出血
 // 		Description: Mods.FargowiltasSouls.Buffs.TimberBleedBuff.Description
 // 	}
 
 // 	EarthPoison: {
-// 		DisplayName: Earth Poison
+// 		DisplayName: 大地の毒
 // 		Description: Mods.FargowiltasSouls.Buffs.EarthPoison.Description
 // 	}
 
 // 	WitheredBuff: {
-// 		DisplayName: Withered Buff
+// 		DisplayName: 衰弱したバフ
 // 		Description: Mods.FargowiltasSouls.Buffs.WitheredBuff.Description
 // 	}
 
 // 	WitheredWizardBuff: {
-// 		DisplayName: Withered Wizard Buff
+// 		DisplayName: 枯れた魔法使いのバフ
 // 		Description: Mods.FargowiltasSouls.Buffs.WitheredWizardBuff.Description
 // 	}
 
 // 	MushroomPowerBuff: {
-// 		DisplayName: Mushroom Power
-// 		Description: Increased damage and critical strike chance
+// 		DisplayName: きのこパワー
+// 		Description: ダメージとクリティカル確率が増加
 // 	}
 
 // 	SolarBuff: {
-// 		DisplayName: Solar Buff
-// 		Description: Increased damage reduction
+// 		DisplayName: ソーラーの力
+// 		Description: ダメージ軽減率アップ
 // 	}
 
 // 	VortexBuff: {
-// 		DisplayName: Vortex Buff
-// 		Description: Increased critical strike chance
+// 		DisplayName: ボルテックスの力
+// 		Description: クリティカル確率増加
 // 	}
 
 // 	NebulaBuff: {
-// 		DisplayName: Nebula Buff
-// 		Description: Increased life regeneration
+// 		DisplayName: ネビュラの力
+// 		Description: 自然回復の向上
 // 	}
 
 // 	StardustBuff: {
-// 		DisplayName: Stardust Buff
-// 		Description: Increased damage
+// 		DisplayName: スターダストの力
+// 		Description: ダメージ増加
 // 	}
 
 // 	AmbrosiaBuff: {
-// 		DisplayName: Ambrosia Buff
-// 		Description: +30% damage, +30% melee speed, +20% damage reduction, +5 life regeneration, summon damage can crit
+// 		DisplayName: アンブロシア
+// 		Description: ダメージ+30%、近接攻撃速度+30%、ダメージ軽減+20%、ライフ回復+5、召喚ダメージがまれにクリティカルになる
 // 	}
 
 // 	MutantDesperationBuff: {
-// 		DisplayName: Phantasmal Fury
-// 		Description: His final stand. You take double damage!
+// 		DisplayName: 憤怒する幻想
+// 		Description: ミュータント、最後の抵抗。あなたは2倍のダメージを受ける！
 // 	}
 }
 
 // Common: {
 // 	AccessorySlot: {
-// 		EModeSlotFunctional: Enchantment, Essence, Force or Soul
-// 		EModeSlotVanity: Social Enchantment, Essence, Force or Soul
+// 		EModeSlotFunctional: エンチャント、エッセンス、フォース、ソウル
+// 		EModeSlotVanity: エンチャント、エッセンス、フォース、ソウル（衣装）
 // 	}
 // }
 
 // Conditions: {
-// 	RoombaPetSold: When the Roomba config is enabled
-// 	DownedEvilBoss: After any Evil Boss has been defeated
-// 	EMode: "[i:FargowiltasSouls/Masochist] Eternity Mode drop rate"
-// 	EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] Hardmode Eternity Mode drop rate"
-// 	EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] Pre-Hardmode Eternity Mode drop rate"
-// 	EModeNotMaster: This is a Master/Eternity Mode drop rate
-// 	NotEMode: "[i:FargowiltasSouls/Masochist] Non-Eternity Mode drop rate"
-// 	TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] Tim's Concoction drop rate"
-// 	Patreon: "[i:FargowiltasSouls/RoombaPet] Patreon Drop"
-// 	PatreonEMode: "[i:FargowiltasSouls/RoombaPet] Patreon Drop in Eternity Mode"
-// 	PatreonPlant: "[i:FargowiltasSouls/RoombaPet] Patreon Drop in Jungle on Blood Moon"
-// 	FirstKill: Dropped in Eternity Mode on first kill
-// 	DownedCursedCoffin: After defeating Cursed Coffin
-// 	PostEvilEternity: Eternity Mode: After any Evil Boss has been defeated
+// 	RoombaPetSold: ルンバの設定が有効な場合
+// 	DownedEvilBoss: 邪悪なバイオームのボスを倒した後
+// 	EMode: "[i:FargowiltasSouls/Masochist] エタニティモードでのドロップ率"
+// 	EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] ハードモードに突入したエタニティモードでのドロップ率"
+// 	EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] ハードモードに突入する前にエタニティモードでのドロップ率"
+// 	EModeNotMaster: これはマスターかつエタニティモードでのドロップ率です。
+// 	NotEMode: "[i:FargowiltasSouls/Masochist] 非エタニティモードでのドロップ率"
+// 	TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] ティムの調合液ドロップ率"
+// 	Patreon: "[i:FargowiltasSouls/RoombaPet] パトロン品としてドロップ"
+// 	PatreonEMode: "[i:FargowiltasSouls/RoombaPet] パトロンアイテムとしてエタニティモードでドロップ"
+// 	PatreonPlant: "[i:FargowiltasSouls/RoombaPet] パトロンアイテムとしてジャングル、あるいはブラッドムーンでドロップ"
+// 	FirstKill: エタニティモードでの初回討伐でドロップ
+// 	DownedCursedCoffin: カーズオブコフィンを倒した後
+// 	PostEvilEternity: エタニティモードで邪悪なバイオームのボスを倒した後
 // }
 
 // Configs: {
@@ -1212,14 +1212,14 @@ Buffs: {
 
 // Items: {
 // 	AdamantiteEnchant: {
-// 		DisplayName: Adamantite Enchantment
+// 		DisplayName: アダマンタイトのエンチャント
 // 		Tooltip:
 // 			'''
-// 			Every weapon shot will split into 2
-// 			Weapon spread increases the longer you fire, and decreases while not firing
-// 			Weapon shots deal 70% damage, decreased to 60% for homing shots
-// 			All projectiles hit twice as fast and gain armor penetration equal to 50% damage
-// 			'Chaos'
+// 			すべての武器の弾丸が2つに分裂する。
+// 			武器の射撃を続けると拡散範囲が広がり、射撃を止めると狭くなる。
+// 			武器の弾丸は70%のダメージを与え、ホーミングショットの場合は60%に減少する。
+// 			すべての飛び道具は2倍の速さで飛び、ダメージの50%に相当するアーマー貫通を得る。
+// 			「混沌」
 // 			'''
 // 	}
 
@@ -2723,7 +2723,7 @@ Buffs: {
 	// }
 
 	// PungentEyeball: {
-	// 	DisplayName: Pungent Eyeball
+	// 	DisplayName: 跳ねる目玉
 	// 	Tooltip:
 	// 		'''
 	// 		Grants immunity to Blackout and Obstructed
@@ -5901,11 +5901,11 @@ Buffs: {
 // 		Betsy13: ResidentSleeper
 // 		Betsy14: If you can read this say 22
 // 		Betsy15: GuraSit
-// 		Betsy16: play calamity
-// 		Betsy17: play thorium
-// 		Betsy18: hardcore 1hp challenge when?
+// 		Betsy16: calamity を遊ぼう！
+// 		Betsy17: thorium を遊ぼう！
+// 		Betsy18: ハードコアで1HPチャレンジはいつ？
 // 		Betsy19: now do it with a copper shortsword
-// 		Betsy20: Zenith Yoyo?
+// 		Betsy20: ぜにすよーよー
 // 		Betsy21: guys how do i beat moon lord
 // 		Betsy22: GUYS I GOT TERRAPRISMA
 // 		Betsy23: how do i install this update
@@ -5939,48 +5939,48 @@ Buffs: {
 // }
 
 // UI: {
-// 	SoulTogglerButton: Effect Toggler
-// 	EternityEnabled: Eternity Mode is enabled
-// 	MasochistEnabled: Masochist Mode is enabled
-// 	EternityDisabled: Eternity Mode is disabled
-// 	RightClickToggle: Right Click to toggle
-// 	HoldShift: Hold Shift to read more
+// 	SoulTogglerButton: エフェクト切り替え
+// 	EternityEnabled: エタニティモード 有効
+// 	MasochistEnabled: マゾヒストモード 有効
+// 	EternityDisabled: エタニティモード 無効
+// 	RightClickToggle: 右クリックで切り替え
+// 	HoldShift: シフト長押しで詳細
 // 	ExpandedEternity:
 // 		'''
 // 		[c/00FFFF:A new mode above Expert for Terraria veterans. The intended Fargo experience.]
-// 		World must be in Expert Mode or above
-// 		Enables Masochist Mode if world is in Master Mode and you've defeated the final Eternity boss in any world
+// 		ワールドがエキスパートモード以上であること。
+// 		ワールドがマスターモードで、いずれかのワールドでエタニティの最終ボスを倒した場合、マゾヒストモードが有効になる。
 // 		'''
 // 	ExpandedMasochist:
 // 		'''
 // 		[c/33ffbe:An intense post-Eternity bonus challenge mode.]
-// 		World must be in Master Mode or above
-// 		Enables Eternity if world is not in Master Mode or above
+// 		ワールドがマスターモード以上であること。
+// 		ワールドがマスターモード以上でない場合、エタニティモードが有効になる。
 // 		'''
 // 	ExpandedFeatures:
 // 		'''
-// 		Eternity features include:
+// 		エタニティモード 詳細：
 
-// 		-Reworks bosses and enemies, making them stronger
-// 		-Enables Master Mode drops
-// 		-New Eternity-exclusive item drops
-// 		-Deviantt provides a starter pack and progress-based advice
-// 		-Improves base stats and caps player DR at 75%
-// 		-Debuffs wear off faster when not attacking
-// 		-Changes the functionality and strength of certain items
+// 		ボス・敵がリワークされ、より強力になる。
+// 		マスターモード限定のアイテムがドロップ可能になる。
+// 		新たなエタニティ限定アイテムがドロップされる。
+// 		デビアントがスターターパックを提供し、進捗に応じたアドバイスを提供してくれる。
+// 		基本ステータスを改善し、プレイヤーDRの上限を75%に設定。
+// 		攻撃していないとき、デバフの時間経過が早くなる。
+// 		特定アイテムの性能を変更します。
 // 		'''
-// 	SavedToSlot: Toggles saved to custom set {0}!
-// 	NoTogglesFound: No toggles found in custom set {0}.
-// 	TurnAllTogglesOff: Turn all toggles off
-// 	TurnAllTogglesOn: Turn all toggles on
-// 	SomeEffectsPreset: Some effects preset
-// 	MinimalEffectsPreset: Minimal effects preset
-// 	CustomPreset: Custom preset {0} (right click to save)
-// 	ReloadToggles: Reload Toggles (right click to reset)
-// 	NoToggles: No togglable effects equipped!
-// 	DisplayAll: Display All
-// 	DisplayEquipped: Display Equipped
-// 	SearchText: Search...
+// 	SavedToSlot: カスタムセット {0} への保存を切り替える！
+// 	NoTogglesFound: カスタムセット {0} に該当する項目がありません。
+// 	TurnAllTogglesOff: すべての切り替えスイッチをオフにする
+// 	TurnAllTogglesOn: すべての切り替えスイッチをオンにする
+// 	SomeEffectsPreset: いくつかのエフェクトプリセット
+// 	MinimalEffectsPreset: 最小限のエフェクトプリセット
+// 	CustomPreset: カスタムプリセット{0}（右クリックで保存）
+// 	ReloadToggles: 切り替えスイッチリロード(右クリックでリセット)
+// 	NoToggles: 切り替え可能なエフェクトは装備していない！
+// 	DisplayAll: 全て表示
+// 	DisplayEquipped: ディスプレイ搭載
+// 	SearchText: 検索中...
 // 	MainMenu: Fargo's
 // }
 
@@ -9066,75 +9066,75 @@ Buffs: {
 // 	}
 // }
 
-// WizardEffect: {
-// 	Adamantite: Projectiles now split into 3, damage reduced from 70/60% to 50/37.5%
-// 	Apprentice: Secondary weapon frequency increased to 1/5
-// 	AncientHallow: Sword damage increased, projectile damage cap increased to 200
-// 	AncientShadow: Number of Shadow Orbs increased
-// 	AncientCobalt: Increased invunerability time and explosion damage
-// 	Angler: All fishing rods have 5 extra lures
-// 	Bee: Increased wing strength and bee swarm damage
-// 	Beetle: Beetle buffs can reach tier 3
-// 	BorealWood: Fires more snowballs more often
-// 	Cactus: Number of needles and damage increased
-// 	Chlorophyte: Damage of ring and spores increased, cooldown of spores reduced
-// 	Cobalt: On-hit explosion damage increased
-// 	Copper: Lightning damage increased to 200, cooldown reduced
-// 	Crimson: Timer doubled, but the heal triggers twice. Once in the middle, and once at the end
-// 	CrystalAssassin: Reduced dash cooldown, dash grants First Strike (5s cooldown)
-// 	DarkArtist: Secondary weapon frequency increased to 1/3
-// 	Ebonwood: Aura size increased, flat damage increased to 20
-// 	Forbidden: Damage boost increased from 1.2x to 1.4x
-// 	Fossil: Revive heal increased to 200 and revive bone count doubled
-// 	Frost: Icicle damage doubled
-// 	Gladiator: Increased banner aura size and doubled stat buff, improved spear rain damage and cooldown
-// 	Gold: Increased shell duration
-// 	Hallow: Potion heal bonus increased from 40 to 70%
-// 	Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
-// 	Iron: Increases chance not to consume to 50%
-// 	Jungle: Spore damage increased, cooldown decreased
-// 	Lead: Lead Poisoning damage increased, DoT resistance increased to 60%
-// 	Meteor: Increased meteor damage, size and frequency
-// 	Miner: Increased mining speed
-// 	Molten: Inferno ring is larger and more damaging, damage bonus increased from 20% to 30%
-// 	Monk: Increased dash damage
-// 	Mythril: Max attack speed bonus increased and lasts longer
-// 	Nebula: Nebula shots deal increased damage and spawn 2 nebula boosters
-// 	Necro: Graves have increased size, float, and slightly home in on you when you're close
-// 	Ninja: Maximum damage bonus increased to 1.225x, maximum player speed where effect activates increased
-// 	Obsidian: Also grants explosions when afflicted with any debuff but with reduced damage, increased damage cap, reduced fireball cooldown
-// 	Orichalcum: Increases multiplier to 3.5x
-// 	Palladium: Rapid Healing always lasts 5 seconds, increases orb damage
-// 	PalmWood: Attack speed, damage, and size increased
-// 	Pearlwood: Your crits reroll twice, increased star damage
-// 	Platinum: Bonus replaced with 33% chance for enemies to drop 5x loot
-// 	Pumpkin: Pumpkins can grow while flying, heal for twice as much, and flame damage is increased to 45
-// 	Rain: Umbrella can block up to 400 damage and reflected damage is tripled
-// 	RedRiding: Arrow rain has less cooldown and deals more damage
-// 	RichMahogany: Hooks pull 2.5x as fast, damage resistance and thorns increased greatly
-// 	Shadewood: Aura size and blood damage increased, additionally applies Ichor
-// 	Shinobi: Increased dash damage
-// 	Shroomite: Mushroom Power stats increased to 30%, mushroom damage and count increased
-// 	Silver: Parrying blocks up to 200 damage and always grants the Striking Moment buff
-// 	Solar: Solar bursts deal increased damage in a larger radius
-// 	Spectre: Revive heal increased to 200, revive spirit count doubled, spirit damage doubled
-// 	Spider: 15% extra critical strike chance
-// 	Spooky: Decreased cooldown
-// 	Stardust: Timestop cooldown decreased from 90 to 75
-// 	Snow: Snowballs inflict Frostbite and freeze enemies solid
-// 	Shadow: Number of Shadow Orbs increased
-// 	Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 10% to 15%
-// 	Tiki: Bonus whip range increased to 40%, projectile damage bonus increased to 1.4x
-// 	Tin: Minimum crit increased to 10%, max crit is at least 50%, reduced proc cooldown
-// 	Titanium: Shard damage increased, Titanium Shield duration increased to 5 seconds and maximum damage resistance increased by 10%
-// 	Tungsten: Weapon size tripled instead of doubled, damage bonus increased from 7% to 14%, and cooldown reduced
-// 	Turtle: Occasionally recover a projectile block point, number of needles and damage increased
-// 	ValhallaKnight: Mount defense increased from 15 to 20, acceleration from 1.5x to 2x, and heal bonus from 15% to 20%
-// 	Vortex: Laser damage increased
-// 	Wood: Bestiary and banner multiplier increased to 5
-// 	AshWood: Reduced Fireball cooldown, increased fireball damage cap
-// 	NoUpgrade: No upgrade
-// 	Active: Active
-// 	Inactive: Inactive
-// }
+ WizardEffect: {
+ 	Adamantite: 投擲が3つに分割され、ダメージが70/60%から50/37.5%に減少
+ 	Apprentice: セカンダリー・ウェポンの使用頻度が1/5に増加
+ 	AncientHallow: 剣のダメージ増加、投擲ダメージの上限を200に増加
+ 	AncientShadow: シャドーオーブの個数が増加
+ 	AncientCobalt: 無敵時間と爆発ダメージが増加
+ 	Angler: すべてのフィッシング・ロッドに5つのルアーが追加
+ 	Bee: 翼の強度と蜂の群れのダメージが増加
+ 	Beetle: 甲虫のバフがティア3に達することができる
+ 	BorealWood: より多くの雪玉をより頻繁に発射する
+ 	Cactus: 針の本数とダメージが増加
+ 	Chlorophyte: リングと胞子のダメージが増加し、胞子のクールダウンが減少
+ 	Cobalt: 命中時の爆発ダメージが増加
+ 	Copper: 雷属性ダメージが200に増加、クールダウンが減少
+ 	Crimson: タイマーは2倍になるが、ヒールが2回発動する。途中で1回、最後に1回
+ 	CrystalAssassin: ダッシュのクールダウンが減少し、ダッシュに先制攻撃を付与（クールダウン5秒）
+ 	DarkArtist: セカンダリー・ウェポンの使用頻度が1/3に増加
+ 	Ebonwood: オーラの大きさが増加し、平面のダメージが20に増加
+ 	Forbidden: ダメージブーストが1.2倍から1.4倍に増加
+ 	Fossil: 復活時の回復量が200に増加し、復活する骨の数が2倍に増加
+ 	Frost: つららのダメージが2倍に
+ 	Gladiator: バナーオーラのサイズを拡大し、ステータスバフを2倍にし、スピアレインのダメージとクールダウンを短縮
+ 	Gold: 砲弾の持続時間が増加
+ 	Hallow: ポーションの回復ボーナスが40%から70%に増加
+ 	Huntress:敵の防御力を10無視し、平面のダメージが5に増加
+ 	Iron: 消費しない確率が50%に増加
+ 	Jungle: 胞子のダメージが増加し、クールダウンが減少
+ 	Lead: 鉛中毒のダメージ増加、スリップダメージ耐性が60%に増加
+ 	Meteor: 隕石のダメージ、サイズ、頻度が増加
+ 	Miner: 採掘速度増加
+ 	Molten: インフェルノリングが大きくなり、ダメージが増加、ダメージボーナスが20%から30%に増加
+ 	Monk: ダッシュダメージが増加
+ 	Mythril: 最大攻撃速度ボーナスが増加し、より長く持続する
+ 	Nebula: ネビュラショットのダメージが増加し、ネビュラブースターを2個生成する
+ 	Necro: お墓が大きくなり、浮き上がり、近づくと少し寄ってくる
+ 	Ninja: 最大ダメージボーナスが1.225倍に増加、効果が発動するプレイヤースピードの上限が増加
+ 	Obsidian: あらゆるデバフを受けたときに爆発を与えるが、ダメージが減少し、ダメージ上限が増加し、ファイアボールのクールダウンが減少
+ 	Orichalcum: 倍率が3.5倍に増加
+ 	Palladium: 急速ヒーリングは常に5秒間持続し、オーブのダメージが増加
+ 	PalmWood: 攻撃速度、ダメージ、サイズが増加
+ 	Pearlwood: クリティカルが2回再ロールされ、スターダメージが増加
+ 	Platinum: 敵が5倍の戦利品をドロップする確率が33%に変更された
+ 	Pumpkin: カボチャは飛行中に成長し、回復量が2倍になり、炎属性ダメージが45に増加
+ 	Rain: 傘は最大400ダメージをブロックし、反射ダメージは3倍になる
+ 	RedRiding: アローレインのクールダウンが短縮され、ダメージが増加する
+ 	RichMahogany: フックの引き抜き速度が2.5倍になり、ダメージ耐性ととげが大幅に増加
+ 	Shadewood: オーラのサイズと血液ダメージが増加し、さらに霊液が適用される
+ 	Shinobi: ダッシュダメージが増加
+ 	Shroomite: キノコパワーのステータスが30%に増加、キノコのダメージと数が増加
+ 	Silver: パリィは最大200ダメージをブロックし、常にストライキング・モーメント・バフを付与する
+ 	Solar: ソーラー・バーストの半径が拡大し、ダメージが増加
+ 	Spectre: リバイブの回復量が200に増加、リバイブのスピリット数が2倍に増加、スピリットダメージが2倍に増加
+ 	Spider: クリティカル確率が15%増加
+ 	Spooky: クールダウンが減少
+ 	Stardust: タイムストップのクールダウンが90から75に減少
+ 	Snow: 雪玉はフロストバイトを与え、敵を凍らせる
+ 	Shadow: シャドーオーブの数が増加
+ 	Squire: マウントの防御力が10倍から15倍に、スピードと加速が1.25倍から1.5倍に、ヒールボーナスが10％から15％に増加
+ 	Tiki: ボーナス鞭の射程が40%に、投射ダメージのボーナスが1.4倍に増加
+ 	Tin: 最小クリティカル率が10%に増加、最大クリティカル率が50%以上、クリティカル発生時のクールダウン減少
+ 	Titanium: 破片ダメージ増加、チタンシールドの持続時間が5秒に増加、最大ダメージ耐性が10％増加
+	Tungsten: 武器のサイズが2倍から3倍に、ダメージボーナスが7%から14%に、クールダウンが短縮
+ 	Turtle: たまに射線ブロックポイントを回復し、針の数とダメージが増加
+ 	ValhallaKnight: マウントの防御力が15から20に、加速が1.5倍から2倍に、ヒールボーナスが15%から20%に増加
+ 	Vortex: レーザーダメージ増加
+ 	Wood: ベスティアリーとバナーの倍率が5に増加
+ 	AshWood: ファイアーボールのクールダウン減少、ファイアーボールのダメージ上限増加
+ 	NoUpgrade: アップグレード不可
+ 	Active: アクティブ
+ 	Inactive: アクティブ
+ }
 
