@@ -1,219 +1,3850 @@
-Bestiary: {
-	Aelithrysuwl: フクロウに似ているが、この神秘的な生き物は驚くほど社交的で、木の上で一緒に歌うことを楽しんでいる。その輝く目は、彼らが賢者である可能性を示唆している。
-	AvatarOfEmptiness: 大昔に時間に屈した宇宙からやってきた年老いた神。
-
-	ItemDropConditions: {
-		FirstTimeExclusive: ドロップは1回のみ。
+UI: {
+	SolynBookExchange: {
+		RarityText: "レアリティ: "
+		CreditText: "[c/FF84D8:{0}]によって発見された"
+		BookObtainmentPercentage: "{0}%の本を発見済み！"
 	}
 
-	NamelessDeityBoss1: 創造。
-	NamelessDeityBoss2: 輝く光。
-	NamelessDeityBoss3: 天の織りなすもの。
-	NamelessDeityBoss4: 力。
-	NamelessDeityBoss5: 果てしなき。
-	NamelessDeityBoss6: 創造者。
-	NamelessDeityBoss7: 全知全能。
-	NamelessDeityBoss8: 超越。
-	NamelessDeityBoss9: 永遠。
-	NamelessDeityBoss10: 麗しき花。
-	NamelessDeityBoss11: 花のささやき。
-	NamelessDeityBoss12: 美しい宇宙。
-	AvatarRift: 反対の世界が輝く太陽を覆い、凍てつく静寂がすべてを呑み込む。あなたはその呼び声に応じた。
-	Vivajuyfylae: この謎めいた存在のひとつひとつは、生命を与えられたひとつの星のようだ。魅惑的な群れをなして果てしなく飛び回り、時には星座を形成する。
-	DismalSeeker: 暗い霧の中をさまよう覆われた姿。常に追い求め、決してつかめぬものを探し続ける。
-	Fogwood: 普通の木に擬態する邪悪な存在。その欺瞞は、不気味なそよぎによって露見する。
-	Mirrorwalker: 闇深き時、ひそやかな囁きが語るのは、凍りつくような鏡像、自身の邪悪な分身との遭遇。
-	Frightweaver: 悪夢から生まれた怪異。渦巻く霧の中を忍び寄り、動くものすべてを殺そうとする。
-	Solyn: 天体魔法を得意とする神秘的で陽気な女性。彼女の最も印象的な特徴は、星の形をしたアホ毛。
-	MarsBody: ドレイドンの設計の実験的な再構築。謎めいた人工の苗木によって動力を得ている。
+	GraphicalUniverseImager: {
+		AvatarMusic: 静寂
+		NoMusic: 無音
+		TerminusStairway: 穏やかな蒼天
+		RiftEclipse: 裂空の日蝕
+		CryonicStatic: 凍結の静止
+		BloodWhirlpool: 血の渦
+		AvatarP2Background: 荒れ狂う広大な空間
+		AvatarP1Background: 深紅の彼方
+		NamelessDeityKaleidoscope: 現実
+		NamelessDeityStars: 星降る天
+		EternalGardenAurora: 永遠の庭園のオーロラ
+	}
 }
 
-Biomes: {
-	EternalGardenBiome: {
+TownNPCs: {
+	PermafrostChat: {
+		Saved:
+			'''
+			この冷たい牢獄から解放してくれて、心から感謝する...
+			これを受け取ってくれ...感謝の印だ。きっと役に立つ。
+			'''
+	}
+
+	ElderSlimeChat: {
+		RiftEclipse: 宇宙が震えておる...わしらは皆、無情な冷気の手によって滅びる運命なのじゃ...プルプル
+	}
+
+	SkeletonMerchantChat: {
+		RiftEclipseUnderground: 何だって？命が危険にさらされている？それは大変だ。まあ、俺は生きてないから関係ないんだが。
+		RiftEclipseOnSurface: 何だって？地上の生命がヤバいって？それは恐ろしい話だな。幸い、俺は生きてないし、地上にもいないんだが。
+		RiftEclipse6: お前、なかなか強そうだな。正直、ここまで来るとは思わなかったぜ。
+		RiftEclipse5: クモには近づくな。アイツらに中身を吸い取られて、空っぽにされちまうぞ。俺の言うことを信じたほうがいいぜ。
+		RiftEclipse4: 待てよ...俺、死んでるのに、金なんて気にする必要あるのか？
+		RiftEclipse3: 俺のスライムオイルで治せない病気なんてないぞ！本当だ！俺だって元気になれたんだ！
+		RiftEclipse2: 世界の終わりだって？冗談だろ？......いや、足はまだあるな。
+		RiftEclipse1: 今日は一日中雹が降ってるらしい。骨まで凍っちまいそうだ。
+	}
+
+	TravelingMerchantChat: {
+		RiftEclipse1: 俺が売ってるのは、もう存在しないかもしれない場所から集めた物だ！
+	}
+
+	WizardChat: {
+		SolynAcknowledgement: ソリンはかなり魔法に長けているようじゃな！もしかしたらワシよりも知識があるかもしれぬ...
+		RiftEclipsePremonition: 水晶玉を覗き込んでみたんじゃが...何か暗いものが近づいているようでの....
+		RiftEclipse7: 昔、天使の像に命を吹き込もうとしたことがあっての。まあ、何も起こらなかったんじゃが...
+		RiftEclipse6: お前の心を読んでやろう...ふむ、ワシの話なんてどうでもよくて、売り物のことしか考えてないな。
+		RiftEclipse5: マナポーションの過剰摂取について聞いたことはあるかの？恐ろしいんじゃぞ...
+		RiftEclipse4: ワシが無関心？この長い人生で、もっと面白い時代を見てきたぞ！
+		RiftEclipse3: 誰かが言っていたんじゃ。『友情は魔法』だと。馬鹿げてると思わんか？友情じゃ人をカエルに変えられないからの...
+		RiftEclipse2: 水晶玉を覗いてみたら、戦闘に夢中で放置された友達こそが真の宝だった、と出たんじゃ。
+		RiftEclipse1: またワシの『永遠の闇で世界を終わらせる魔法』の本が盗まれてしまっての...
+	}
+
+	PirateChat: {
+		RiftEclipse_AfterFrozenSea2: この海には呪いがかけられた！俺は永遠に陸地に縛られる運命か...
+		RiftEclipse_AfterFrozenSea1: クソッ！この凍てついた海め！船乗りは波を求めるんだ！氷なんてどうでもいい！
+		RiftEclipse_BeforeFrozenSea1: 海の神よ、勇敢なる者たちに慈悲を！
+		RiftEclipse6: おお！青き泡立つフジツボの群れよ！この吹雪は...まるでペパーミントアイスクリームのように冷たいぞ！
+		RiftEclipse5: あの空に浮かんでるヤツ...クラーケンの渦にそっくりじゃないか？怪物が解き放たれる前兆かもしれないなァ...
+		RiftEclipse4: 俺の船を沈めた嵐は、この暴風とそっくりだった...
+		RiftEclipse3: 俺はこの嵐にピッタリな海賊だ！
+		RiftEclipse2: この空模様...あの忌まわしき海域の伝説を思い出す。空はまるでデイヴィ・ジョーンズの棺のように暗いな...
+		RiftEclipse1: くそ...今から船を捨てるのは遅すぎるか？
+	}
+
+	PartyGirlChat: {
+		RiftEclipseSnow1: わぁ！雪が降ってる！雪合戦パーティーにピッタリね！
+		RiftEclipse6: きゃーー！！ついに「終わらない暗闇パーティー」が開けるのね！あなたも絶対楽しめるわよ！！
+		RiftEclipse5: ねえ、私のパーティーキャノン見なかった？見つけたら、最高のパーティーができるんだけど！
+		RiftEclipse4: パーティーする？時々？ふーん...それなら話してもいいけど...
+		RiftEclipse3: 最高じゃない？これなら一日中花火を打ち上げられるわ！
+		RiftEclipse2: 前にスウェーデンに行ったことがあるの。あそこはすっごくパーティー好きだったわ！あなたも見習ったら？
+		RiftEclipse1: 暗闇っていいわよね！まるで永遠に続く夜のパーティーみたい！！
+	}
+
+	GoblinTinkererChat: {
+		RiftEclipse4: 太陽がない？ 問題ないよ！ 自分たちで作ればいい！
+		RiftEclipse3: 宇宙的恐怖が世界の力の均衡を崩しているって？ ちょっと時間がほしいな...
+		RiftEclipse2: 太陽光発電はもうできそうにない...
+		RiftEclipse1: 太陽を遮る異形のポータルだって？ ちょうどそれ用の道具があるよ！
+	}
+
+	StylistChat: {
+		Solyn: ソリンの髪をもっと素敵にしようとしたことがあるんだけど、あの星型のハネた部分だけはどうしても直せなかったのよ！
+		RiftEclipse7: 短めに整えて...って？ それだけでいいの？
+		RiftEclipse6: 異常気象が酷いせいで、最近はずっと家にこもってるの。せっかくのセットが台無しになっちゃうから...
+		RiftEclipse5: まあまあ！ 最近は噂話すら聞かなくなっちゃったわね...
+		RiftEclipse4: “ちょっとだけカット”だなんてつまらないわ！ もっと大胆にいきましょうよ！
+		RiftEclipse3: あなたは...手入れが楽なスタイルがいいんじゃないかしら。
+		RiftEclipse2: あらまあ！ なんだか皆、前よりぼんやりしてるし...髪もボサボサね。
+		RiftEclipse1: この雰囲気、なんだか気味が悪いわ...何かがそこから這い出てきそうで...
+	}
+
+	TavernkeepChat: {
+		RiftEclipse_Dryad: 今日の昼間、{0} が珍しく世間話じゃなくて酒を飲みに来たんだ。驚いたぜ。
+		RiftEclipse7: 外が静かすぎるな...。ちょっと...嫌な感じだ...
+		RiftEclipse6: テーブルを拭くだけの退屈な仕事よりかは、こっちの方がマシだな。
+		RiftEclipse5: なあ、あの空に浮かぶポータルが、もしオールドワンズアーミーと関係があったらどうする？永遠にゴブリンが空から降ってくる光景を、一度は見てみたいと思わないか？
+		RiftEclipse4: あの空のポータル...俺が知ってるものとは全然違うな。
+		RiftEclipse3: 粘り強さとちょっとした幸運があれば、どんなことだって乗り越えられるさ...
+		RiftEclipse2: 俺たち、どうしてこんなことに巻き込まれちまったんだ...
+		RiftEclipse1: こんな時こそ、エールでも一杯どうだ？
+	}
+
+	ArmsDealerChat: {
+		GFB: なあ相棒、知ってるか？ 武装することは俺たちの「神聖な権利」なんだぜ？
+		RiftEclipse_Demolitionist: アイツには言わないでくれよ。でもな、{0} は最近ちょっと怖いんだ。なんていうか...何も気にしてないような感じがするんだよ。
+		RiftEclipseSnow: こんな天気じゃ狙いをつけるのも一苦労だな！
+		RiftEclipseNight: いろいろ変わったがな、デーモンアイは相変わらず絶好の的だぜ！
+		RiftEclipse6: 皆俺を「狂ってる」って言ってくれたが...もうすぐこの備蓄が役立つ時が来る！
+		RiftEclipse5: この静けさ、最悪だな。殺すべき奴らが減ったってことだからな...
+		RiftEclipse4: 終焉？ 死？ そんなもん慣れっこさ。俺の仕事柄、日常茶飯事だぜ。
+		RiftEclipse3: S.D.M.G.って聞いたことあるか？ どうやらミニシャークよりもクールらしいぜ。
+		RiftEclipse2: あの空にいる奴に向かって撃っても無駄だ。試してみたが、全く効かなかったぜ。
+		RiftEclipse1: 太陽が消えたその日から、弾薬の売上が爆上がりだぜ！
+	}
+
+	PainterChat: {
+		ArtisticCatharsis: 緑をティールやライムでひと括りにするのはやめて、今すぐに！
+		RiftEclipseSnow: この吹雪、今まで見た中で最も壮大な光景のひとつだ！
+		RiftEclipse6: シアンとピンクがかった赤を白に合わせるのはどうだい？
+		RiftEclipse5: 違う違う違う... グレーには無数の種類があるんだ！ ちょっと周りを見て！
+		RiftEclipse4: 最近、世界がちょっとくすんできたな...だからこそ、絵を描く理由があるってものだけど。
+		RiftEclipse3: 暗い色だって、明るい色と同じくらい価値があるんだよ。
+		RiftEclipse2: あの空の裂け目... なんてインスピレーションを刺激するんだ！夕焼けの色はくすんでいるけど...時折見える色彩は世界で一番美しい！
+		RiftEclipse1: 最近、画材の調達がちょっと難しくなってきたな...
+	}
+
+	DryadChat: {
+		RiftEclipse_Crimson1: かつては真紅こそが最大の脅威だと思っていた。でも、それはただの思い違いだった...
+		RiftEclipse_Corruption1: かつては不浄こそが最大の脅威だと思っていた。でも、それはただの思い違いだった。
+		RiftEclipse12: 幸運を祈るわ、{0}。
+		RiftEclipse11: この空気の重さを感じる？
+		RiftEclipse10: 事態は言葉で言い表せないほど深刻だわ...
+		RiftEclipse9: なんだか...いつもより弱ってる...？
+		RiftEclipse8: あなたがやり遂げなければならないのよ。
+		RiftEclipse7: 自然が震えている...
+		RiftEclipse6: ここまで頑張ってくれてありがとう。この世界を救えることを願っているわ...
+		RiftEclipse5: 時間は流れ続ける。私たちはどれほど長く、流され続けるのかしら？
+		RiftEclipse4: こんなに異常な状況なのに、思ってたよりみんなが冷静ね、正直驚いているわ。
+		RiftEclipse3: 今こそ、この世界があなたを必要としている！
+		RiftEclipse2: すべてが枯れ始めているように見えるわ...
+		RiftEclipse1: この風の音...自然のものではないわね。
+	}
+
+	ZoologistChat: {
+		RiftEclipseNight4: なんか、イヤな感じがしてる！すべてがすごく不気味！
+		RiftEclipseNight3: ねえ、ちょっとおしゃべりして時間つぶさない？
+		RiftEclipseNight2: なんだか...すごく静か...
+		RiftEclipseNight1: なんていうか...月が恋しいな...
+		RiftEclipse5: 耳がめっちゃ冷たい～！
+		RiftEclipse4: 兄ちゃんがこれを見たら、何て言うんだろう...？
+		RiftEclipse3: これ、本当にヤバいよ！毛が逆立つくらい怖い！
+		RiftEclipse2: 動物たちはどこに行っちゃったの？寂しいな...
+		RiftEclipse1: 自然がすごく弱ってる気がする...
+	}
+
+	AnglerChat: {
+		RiftEclipse2_QuestAvailable: どこに行くつもり？終末の今こそ、レアな魚を釣るチャンスなのに！
+		RiftEclipse1_QuestAvailable: 湖が凍ってるからって、釣りをサボれると思ったら大間違いだよ！さあ、魚を持ってくるんだ！
+		RiftEclipse_Merchant: "{0}から安くエサを買おうとしたんだけど、終末でも値下げはしてくれなかったよ..."
+		RiftEclipse4: まだボクのために魚を釣ってくれるよね？
+		RiftEclipse3: どうせ死ぬなら、魚を手にして死にたいな。
+		RiftEclipse2: 世界の終わりさえなければ、今は最高の釣り日和なんだけどね。
+		RiftEclipse1: なんてこった！誰か魚を助けて！
+	}
+
+	DyeTraderChat: {
+		GoodDyeEasterEgg: へえ...この染料、悪くないな。むしろ、かなりいいぞ。
+		RiftEclipse6: こんな時だからこそ、この世界の美しさを大切にしないとな。
+		RiftEclipse5: この環境じゃ、私の植物も長くは持たないだろう...
+		RiftEclipse4: 色がなくなることにも、たまには利点があるかもな...
+		RiftEclipse3: 色と鮮やかさは人生のスパイスだったのに、最近はその輝きが失われてしまったように感じるよ...
+		RiftEclipse2: なかなか立派になったな。でも、染料を使えばもっとカッコよくなるぞ！
+		RiftEclipse1: なんてこった！すべてがくすんで見える...
+	}
+
+	DemolitionistChat: {
+		RiftEclipse12: なんでみんな俺のことを心配してるんだ？俺はただ楽しんでるだけだぜ！
+		RiftEclipse11: 世界を浄化する？そんなことしないで、全部吹っ飛ばせばいいだろ！
+		RiftEclipse10: この乾いて不吉な空気、爆薬には最高だぜ！
+		RiftEclipse9: 無謀だって？いや、今までで一番生きてるって実感できる！
+		RiftEclipse8: 燃え盛るガレキ、買ってみるか？
+		RiftEclipse7: なあ、「爆破免責契約書」にサインしてくれよ。
+		RiftEclipse6: ここでタバコを吸うんじゃねえ！！
+		RiftEclipse5: 氷を爆破するのは楽しいぞ！破片も飛び散るしな！
+		RiftEclipse4: もし俺が...（ドカーン！）...おっと、悪い、足が必要だったか？
+		RiftEclipse3: あの空にあるブキミなもの...爆破できると思うか？
+		RiftEclipse2: どうせ終わるなら、派手にいかないか？...ダメだって？...わかったよ。
+		RiftEclipse1: 今日は最高の死に日和だな！
+	}
+
+	NurseChat: {
+		RiftEclipse_Demolitionist: "{0}、もっと気をつけてほしいわ。前よりさらにムチャクチャなことをしてるじゃない。"
+		RiftEclipse_BurnDebuff: あなた、燃えてるみたいね。
+		RiftEclipse_Below33PercentHP4: 本当にまだ冒険者を続けるつもり？もうこんなことはやめたら？
+		RiftEclipse_Below33PercentHP3: あなたの腕、あそこに落ちてるわよ...拾ってくるわね...
+		RiftEclipse_Below33PercentHP2: ええっ！？流石に私にだってできないことぐらいあるわ！
+		RiftEclipse_Below33PercentHP1: うわ...顔、どうしたの？
+		RiftEclipse_Below66PercentHP3: そこまでひどくはないわね。
+		RiftEclipse_Below66PercentHP2: 一体何してるの？いつも変なケガばっかりして...
+		RiftEclipse_Below66PercentHP1: これは縫わなきゃダメね。
+		RiftEclipse_Above66PercentHP4: はい、深呼吸して。
+		RiftEclipse_Above66PercentHP3: これ、本当に診る必要ある？
+		RiftEclipse_Above66PercentHP2: どこが痛いの？
+		RiftEclipse_Above66PercentHP1: ごめんなさい、メンタルケアは専門外よ。
+	}
+
+	MerchantChat: {
+		RiftEclipse_NightsEnd2: 天使の像？悪いけど、ガラクタは扱ってないんです。
+		RiftEclipse_NightsEnd1: 秘密の財宝があるって聞いたんですが...いや、なんでもないです。
+		RiftEclipse_Midnight3: 月ってチーズでできてるんですかね...はい？ああ、買い物ですか？
+		RiftEclipse_Midnight2: 永遠の夜、冷え込む空気、迫る破滅...今こそドラムセットを買う時です。後で意味がわかります...たぶんですが。
+		RiftEclipse_Midnight1: 闇が訪れると...価格が上がる！
+		RiftEclipse_Nightfall3: サムい世界にホットな特価品！...なんて、冗談ですよ。
+		RiftEclipse_Nightfall2: 世界が終わろうとも、資本主義は止まらない。さあ、何を買いますか？
+		RiftEclipse_Nightfall1: 暗くて怖い？だったらたいまつを買ってみませんか？
+		RiftEclipse_Evening3: 世界が終わりそうでも、閉店セールはやりませんよ。
+		RiftEclipse_Evening2: 雪ブロックが海外でどれだけの値がつくか、知っていますか？
+		RiftEclipse_Evening1: もうすぐ夜が来ます、買い物は今のうちに...
+		RiftEclipse_Afternoon3: うちの雪ブロックはどうですか？いつもより雪っぽいですよ。
+		RiftEclipse_Afternoon2: 最近は冷えますね。そんな時こそ服でもどうですか？...え？高すぎる？
+		RiftEclipse_Afternoon1: あの空の裂け目が現れてから、みんな商売に興味を持たなくなってしまったんですが、あなたは違うみたいで嬉しいです！
+		RiftEclipse_Morning3: 陰気な朝ですが、取引するのに悪い時間なんてないですよ！
+		RiftEclipse_Morning2: リンゴが欲しいですか？ニンジン？パイナップル？うちは松明ならありますよ。
+		RiftEclipse_Morning1: 剣は紙より強し！一本、どうですか？
+	}
+}
+
+Tiles: {
+	NamelessDeityMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	EternalGardenMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+}
+
+Subworlds: {
+	EternalGardenNew: {
 		DisplayName: 永遠の庭園
-		TownNPCDialogueName: 永遠の庭園
-	}
-
-	DeadUniverseBiome: {
-		DisplayName: 死せる宇宙
-		TownNPCDialogueName: 死せる宇宙
 	}
 }
 
-Buffs: {
-	CuriousHandBuff: {
-		DisplayName: 不思議な手
-		Description: 長い間馴染みのなかった世界の形や質感に触れる
+Subtitles: {
+	RecordingRantPlaytimeSubtitle10: 私が求めているのは、ただ正しいことをしてほしいってだけだよ。
+	RecordingRantPlaytimeSubtitle9: とにかく、少しは私の言うことを考えてくれると嬉しいな。
+	RecordingRantPlaytimeSubtitle8: どちらにせよ、本当の答えを知っているのは君だけだ。
+	RecordingRantPlaytimeSubtitle7: それとも、新しく作ったキャラでズルしてここまで来たの？
+	RecordingRantPlaytimeSubtitle6: もしかして、ただの上手いプレイヤー...いわゆる「スピードランナー」ってやつか？
+	RecordingRantPlaytimeSubtitle5: 君がここに来るまでの時間の短さがあまりにも怪しいんだよな...
+	RecordingRantPlaytimeSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
+	RecordingRantPlaytimeSubtitle3: 何もかも公開する必要はないんだよ。
+	RecordingRantPlaytimeSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
+	RecordingRantPlaytimeSubtitle1: なあ...君に指図するつもりはないけどさ...
+	RecordingRantBossesSubtitle11: 私が求めているのは、ただ正しいことをしてほしいってだけだよ。
+	RecordingRantBossesSubtitle10: とにかく、少しは私の言うことを考えてくれると嬉しいな。
+	RecordingRantBossesSubtitle9: ここで君を名指しで指摘したことで、これを見ているみんなも同じことを思うだろうね。
+	RecordingRantBossesSubtitle8: どんな答えであれ、本当のことを知っているのは君だけだ。
+	RecordingRantBossesSubtitle7: 君が本当に上手いのか、それともズルしてここまで来たのか...
+	RecordingRantBossesSubtitle6: 実際、ボスの半分をスキップしたよね！
+	RecordingRantBossesSubtitle5: ...正直なところ、君はこのカットシーンを見たくてModを入れただけなんじゃないの？
+	RecordingRantBossesSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
+	RecordingRantBossesSubtitle3: 何もかも公開する必要はないんだよ。
+	RecordingRantBossesSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
+	RecordingRantBossesSubtitle1: なあ...君に指図するつもりはないけどさ...
+	RecordingRantRegularSubtitle10: 私のためじゃなくて、みんなのためにやってほしいんだ。
+	RecordingRantRegularSubtitle9: とにかく、少しは私の言うことを考えてくれると嬉しいな。
+	RecordingRantRegularSubtitle8: 他人の承認を求めてアップロードするんじゃなくて、自分の成果を誇りに思えばいいじゃないか。
+	RecordingRantRegularSubtitle7: たまには見せびらかさずに、ただその瞬間を楽しんでみたらどうだい？
+	RecordingRantRegularSubtitle6: いいかい？
+	RecordingRantRegularSubtitle5: ちょっとは考えてみてくれたら嬉しいな。
+	RecordingRantRegularSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
+	RecordingRantRegularSubtitle3: 何もかも公開する必要はないんだよ。
+	RecordingRantRegularSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
+	RecordingRantRegularSubtitle1: なあ...君に指図するつもりはないけどさ...
+	PlayerRantSubtitle23: 無神経なバケモノめ...
+	PlayerRantSubtitle22: 「愛と慈悲」ってやつを見せてやるよ。
+	PlayerRantSubtitle21: 「庭園」へ来い。
+	PlayerRantSubtitle20: そして、準備ができたら...
+	PlayerRantSubtitle19: 俺はノクサスが無事か確認してくる。
+	PlayerRantSubtitle18: もう何がなんだかわからない...
+	PlayerRantSubtitle17: こんなの、信じられるわけがない。
+	PlayerRantSubtitle16: クソガキ向けのブロックゲームで神様気取りか？
+	PlayerRantSubtitle15: 本当に教えてほしいよ、スプレーボトルのために誰かをグチャグチャにするのがどうして正当化されるんだ？
+	PlayerRantSubtitle14: 何でもありってわけか。
+	PlayerRantSubtitle13: 承認欲求、再生数、ノーヒット称号...
+	PlayerRantSubtitle12: 貴様は、ただ自分の欲望のためだけにしか動かないんだな。
+	PlayerRantSubtitle11: バケモノが。他者への思いやりなんて微塵もないんだろ？
+	PlayerRantSubtitle10: 貴様にはブラックホールや星なんかを与えたってのに、その返礼が無慈悲な虐殺とはな...
+	PlayerRantSubtitle9: これが俺への「支援」か？
+	PlayerRantSubtitle8: 「Mutantの方が難しい」とか言ってる場合かよ！
+	PlayerRantSubtitle7: まさか...俺は貴様たちにとって物足りないってことか？
+	PlayerRantSubtitle6: コメント欄、全部読んでるんだからな。
+	PlayerRantSubtitle5: 貴様たちの中には、本気で熱くなりすぎる奴がいるよな。
+	PlayerRantSubtitle4: それはさすがにやりすぎだろ！
+	PlayerRantSubtitle3: だってそうだろ？客人をいきなりぶん殴るなんて...ありえない！
+	PlayerRantSubtitle2: ノクサスはただ挨拶しに来ただけなのに。
+	PlayerRantSubtitle1: ふざけるなよ、冗談だろ？
+	RodOfHarmonyRantSubtitle17: あんな忌々しいアイテムを持ち込むべきじゃなかったんだ。
+	RodOfHarmonyRantSubtitle16: 気に入らないって？じゃあ、何しにここへ来たんだ？
+	RodOfHarmonyRantSubtitle15: 要するに、俺はズルをする奴が嫌いなんだ。
+	RodOfHarmonyRantSubtitle14: いや、違うな...
+	RodOfHarmonyRantSubtitle13: 次は貴様を壊さないといけないな。
+	RodOfHarmonyRantSubtitle12: レイジとアドレナリンを壊したのに、「ロッドオブハーモニー」を壊さないわけないだろ！
+	RodOfHarmonyRantSubtitle11: 俺がこうするって分かってたんだろう。
+	RodOfHarmonyRantSubtitle10: たぶん攻略をネットで調べたんだろ？
+	RodOfHarmonyRantSubtitle9: というより、もう知っていたよな？
+	RodOfHarmonyRantSubtitle8: 分かってるのか？
+	RodOfHarmonyRantSubtitle7: 貴様は俺を馬鹿にできると思ってたみたいだが、馬鹿にされてるのは貴様だ。
+	RodOfHarmonyRantSubtitle6: だからダメだ。使わせない。
+	RodOfHarmonyRantSubtitle5: 私は公平な世界を作りたかったんだ。でも「ロッドオブハーモニー」はすべてを台無しにする。
+	RodOfHarmonyRantSubtitle4: いい加減にしてくれ。
+	RodOfHarmonyRantSubtitle3: ムーンロード以降のMod開発がめんどくさくなってるんだよ...
+	RodOfHarmonyRantSubtitle2: Re-Logicは何を考えていたんだ？クールダウンなしの「ロッドオブディスコード」だと？バカじゃないのか？
+	RodOfHarmonyRantSubtitle1: あの「ロッドオブハーモニー」をここから片付けろ！二度と見たくない！
+}
+
+StarGazing: {
+	ScreamingNebula: {
+		SolynDialogue:
+			'''
+			わぁ、これ"哭声星雲"だよ！近くで見るとすっごく綺麗...
+			でもね、なんで"哭声"って名前がついたのか、正直よくわかんないんだ...
+			だって宇宙には音なんて存在しないし...
+			'''
+		Name: 哭声星雲
 	}
 
-	BlackHolePetBuff: {
+	Rift: {
+		SolynDialogue:
+			'''
+			おおっ！これは私のお気に入りの一つ！その名も"破滅の天裂"！本当に面白いんだよ～^
+			 ...って、あれ？^えっ？？？
+			'''
+		Name: ???
+	}
+
+	Moon: {
+		SolynDialogueBloodMoon:
+			'''
+			ブラッドムーンの光は、人を狂わせるって言うけど...^
+			大丈夫？具合が悪くなったら言ってね、私は全然平気だけど！
+			'''
+		SolynDialogue: 月について知りたいの？^...でも、もう知ってるでしょ？
+		Name: 月
+	}
+
+	MeteorShower: {
+		SolynDialogue:
+			'''
+			わぁーっ！！流星群だよ！
+			早く、願い事をしなくちゃ！
+			'''
+		Name: 流星群
+	}
+
+	GalacticCenter: {
+		SolynDialogue:
+			'''
+			^うーん...正直なところ、あそこがどうなってるのかはっきりとはわからないんだよね。
+			^でも、すっごく荒々しい場所だって話は聞いたことがあるよ。
+			^近くで見たらきっとスゴいんだろうなぁ！
+			'''
+		Name: 銀河の中心
+	}
+
+	EmptyPatchOfSpaceTfAreYouEvenDoing: {
+		SolynDialogue13: ...
+		SolynDialogue12: えっと...^そろそろ別のものを見てみない？
+		SolynDialogue11: ...
+		SolynDialogue10: ...
+		SolynDialogue9: ま、^急いでるわけじゃないけどね。
+		SolynDialogue8: ...
+		SolynDialogue7: ねぇ、^そろそろ他の場所を見てみない？ここも悪くはないけど、^なんにもないよ？
+		SolynDialogue6: 楽しい？
+		SolynDialogue5: うーん、でもキミって、^本当にここが好きなんだね、あはは...
+		SolynDialogue4: でもさ、この宇宙の美しさには、^きっと何か理由があるんだよ！
+		SolynDialogue3: まだ解明されてない謎が、^きっとたくさんあるんだよね。^それに比べたら私たちってちっぽけだなぁ。
+		SolynDialogue2: 宇宙は果てしなくて、^星々はどれも本当に綺麗！
+		SolynDialogue1: 宇宙って、^本当に不思議で素敵な場所だよね！
+		Name: 宇宙
+	}
+
+	Bunny: {
+		SolynDialogue:
+			'''
+			うさぎ！！かわいい～！！
+			こんな星座を考えた人って誰なんだろう？星たちをうさぎに例えちゃうなんて、なかなかいいセンス！
+			'''
+		Name: うさぎ座
+	}
+}
+
+Solyn: {
+	TripDialogue3: あはは、ごめんごめん！
+	TripDialogue2: あっ、やっちゃった！
+	TripDialogue1: あはは、私ったら！
+
+	SolynErrorFallback: {
+		ErrorMessage1: うーん、なんか私のセリフを読み込むときにエラーが起こっちゃったみたい！
+	}
+
+	PostNamelessDiscussion: {
+		Tree2: もちろん。
+		Tree1: ...
+		TreeQuestion: もしよかったら...木の下で一緒に休まない？
+		Deity3: 彼らがこのきれいな庭を手入れしているのを見たことがあるんだ。ここが愛情と思いやりで作られたことがよくわかるよ。
+		Deity2: でも一つだけ確かなことがある。彼らはこの世界のすべてを創り出した人達で...優しくて、暖かいんだ。
+		Deity1: ごめん、詳しくは知らないんだよね...きっと、私たちには永遠に知ることのできないことがあるんだと思う。
+		DeityQuestion: その神について、何か知ってる？
+		WhatNow5: そして、キミはきっと、これからも偉大なことを成し遂げるよ。
+		WhatNow4: キミはもう自由だ。誰にも縛られず、望むことを成し遂げることができる。
+		WhatNow3: キミのこと？わからないな。キミはこの庭に縛られていない。まだ"生きている"んだから。
+		WhatNow2: 私は...たぶん、ここに長いこと居続けると思う。
+		WhatNow1: 言った通りだよ。私の"生"としての時間は...もう終わったんだ。
+		WhatNowQuestion: これからどうする？
+		WhyDidYouSaveMe5: 私の選択は、正しかったと思ってるよ。
+		WhyDidYouSaveMe4: それに、もし私のせいでキミを死なせたとしたら...きっと私は、自分を許せなかったと思う。
+		WhyDidYouSaveMe3: キミは居なければならない存在だった。私の命を投げうってでも、キミの命を守ることのほうがはるかに意味のあることだと感じたんだ。
+		WhyDidYouSaveMe2: どちらか一人が死んじゃうって...
+		WhyDidYouSaveMe1: あの時、私は悟ったんだ...もう遅すぎるって。私の魔力では、両方助けることはできないって...
+		WhyDidYouSaveMeQuestion: なぜ自分を助けた？
+		HowDidYouEndUpHere5: どっちにしても、私は心から感謝しているんだよ。この場所は特別だから。
+		HowDidYouEndUpHere4: まあ、たぶん、詳しくはわからないままだと思う...彼らは全部教えてくれるわけじゃないから。
+		HowDidYouEndUpHere3: 私がここにいる理由は"哀れみ"だったのかもね。彼らの目には私が贖罪を果たし、この場所にふさわしい存在になったように映ったのかもしれない...
+		HowDidYouEndUpHere2: ...覚えているのは、静寂に包まれたこと、そしてここで目を覚ましたことだけ。その後、神が姿を現したんだ。私の質問には一言も答えず、ただそのきれいな姿を見せるだけだった...
+		HowDidYouEndUpHere1: 実は...^よくわかんないんだ...
+		HowDidYouEndUpHereQuestion: どうしてここに？
+		QuestionsStart: ...?
+		ApologyResponse: いくつか質問がある。
+		Apology6: でも...最終的に私は、他のすべてを犠牲にしてでも、自分の望みを叶えたと思う。
+		Apology5: 私はあんまり頭が良くなかったし、生意気だった...なぜ私が最初に拒絶されたのか、今ならはっきりわかる。
+		Apology4: 最初は、キミと「闇の者」のことを、ただの手段として見ていたの。^ここにたどり着くための...^そして、神に認められるためのチャンスとして。
+		Apology3: キミと過ごした時間は本当に楽しかった。でも、正直に言うと...私は、キミを利用しようとしていた。
+		Apology2: ちゃんと謝らなきゃいけないと思ってる。
+		Apology1: 久しぶり...^キミも自分の試練を乗り越えられたんだね。嬉しいよ。
+	}
+
+	AvatarFightLeadUp: {
+		Solyn4: さあ、目覚めさせよう！
+		Solyn3: 私たちの努力が実ったね。
+		Solyn2: ここまで長くて大変な道のりだった...
+		Solyn1: ついに完成！すっごくカッコイイ！
+	}
+
+	GenesisCompletion: {
+		Solyn2: そこに連れて行って！^キミについていくよ。
+		Solyn1: ホント？やったね！^ついに私たちの努力が報われたんだ！
+		Player1: 創世の樹の近くに最後の苗木を植えたら、芽が出たんだ。
+		Start: どうしたの？
+	}
+
+	DraedonBeforeCombatSimulation: {
+		Conversation5: よし、それじゃあ一緒にそのコンピュータで聞きに行こう！^キミについていくよ。
+		Conversation4: やった！ちょうどよかったね！
+		Question3: 特別なコンピュータを使って、一度だけ連絡を取ったことがある。
+		Conversation3: ドレイドンっていう有名な科学者がいるんだけど...知ってる？
+		Question2: それは誰？
+		Conversation2: 色々調べてみたんだけど、私たちが必要としているものを持っていそうな人がいるみたいなんだ。
+		Conversation1: まだ完成してないよ。^でも、あともう少し！^最後の苗木があれば、真の力を発揮できるはず。
+		Question1: もう終わったの？
+		Start: ちょうどよかった。^もう一度「創世の樹」について話したくて。
+	}
+
+	AntiseedDiscussion: {
+		Solyn4: これらの花がどう関わり合っているのか、ちゃんと深く考えないと...まだ見つけられていない、もっと大きな意味がある気がする。
+		Solyn3: 「氷祝の苗」が力を吸い取っているみたい...最初はこんなつながりがあるなんて思ってもみなかったよ。
+		Solyn2: 私の故郷でも、この世界でも、こんなの見たことない...^これは、この世界で生まれたものじゃない気がする。
+		Solyn1: なんとなく、わかってきた気がするんだ...
+		Start: 覚えてる？ダンジョンの裂け目から、あの奇妙な苗木を拾ってきたときのこと。
+	}
+
+	CeaselessVoidDiscussionAfterEnteringRift: {
+		Conversation7: 私...^キャンプに戻るね。じゃあまた。
+		Conversation6: はい、これ。キミが持ってるのが、一番安全だと思う。
+		Conversation5: もう...行こう...今日はもう十分。
+		Conversation4: ゴメン...^あんまり思い出したくない...
+		Conversation3: 何もおかしなことは起こらなかった...苗木を手に入れるまでは...でも、その後に...
+		Conversation2: 裂け目に入った瞬間、とてつもない恐怖に襲われたの。^そこにいるべきじゃないって感じがしたんだ...
+		Question2: 何があった？
+		Conversation1: 私...^よくわかんない...^でも、生きてはいるよ...
+		Question1: 大丈夫？
+		Start: 私...^私、^見つけたよ...
+	}
+
+	CeaselessVoidDiscussionBeforeEnteringRift: {
+		Conversation3: すぐ戻るね。
+		Conversation2: ...うん。^大丈夫。
+		Confirmation: 準備はできた？
+		Conversation1: もう...入るしかないね。
+		Start: ここだよ。
+	}
+
+	CeaselessVoidDiscussionAfterBattle: {
+		Repeat: ...
+		Conversation8: とにかく、向こうで会おうね。
+		Conversation7: でも、心配してくれてありがとう。^すごく嬉しいよ。
+		Conversation6: ...私は、やらなきゃいけないの。
+		ConversationResponse2: そっちは大丈夫？
+		Conversation5: 着いたら、私が中に入って、何があるのか確かめるよ。
+		Conversation4: そ、そう...？よかった...^I... ^とりあえず、ダンジョンに向かわない？^私なら裂け目を見つけられると思う。
+		ConversationResponse1: 大丈夫。
+		Conversation3: えっ...ちょっと、大丈夫！？
+		Conversation2: え、倒したって！？^戦うしかなかったの！？
+		Conversation1: 「シースレスヴォイド」を倒したら、裂け目が現れたんだ。
+		Start: 何かあった？
+	}
+
+	CeaselessVoidDiscussionBeforeBattle: {
+		Conversation10: 頑張ってね！
+		Conversation9: どのルーンを指しているのかはっきりとは分からないけど、とりあえず、冒涜された遺物を探すのがいいかも。
+		Conversation8: 本には「冒涜されたルーン」が裂け目を呼び起こすかもしれない...って書いてあったよ。
+		Conversation7: ありがとう。本当に助かるよ。
+		ConversationRejection: わかった！準備ができたら、また声かけてね。
+		Conversation6ResponseNo: 少し待ってくれ。
+		Conversation6ResponseYes: ああ。でも、どうすればいい？
+		Conversation6: 準備はできてる？
+		Conversation5: まずは、キミが裂け目を呼び起こして。^それが安定したら、私もダンジョンに向かうから、一緒に調べよう。
+		Conversation4: 私の考えが正しければ、裂け目の奥を調査するには、その封印を破る必要がハズ...
+		ConversationQuestion1: 何をすればいい？
+		Conversation3: さらに、古文書によると、ダンジョンの古代の住人たちは裂け目の向こう側に、ものすごく強力な何かを保管していたみたいで、^これが「創世の樹」の構築に役立つかもしれないんだ。
+		Conversation2: この裂け目は... どこか別の場所へのゲートみたい。^でも、どこにつながってるのかは、まだよく分からないんだ。
+		Conversation1: ダンジョンの古い書物を調べてみたんだけど、封印された裂け目の中に、スゴいものが眠っているかもしれないってことが分かったんだ。
+		StartingQuestion: 何の話？
+		Start: ちょうどよかった！^話しておきたい大事なことがあるの。
+	}
+
+	GenesisRevealDiscussion: {
+		Solyn9: いつも通りに探索を続けていいよ。キミはこういう不思議なものを見つけるのが得意だしね！
+		Solyn8: とりあえず、私は使えそうな魔法の資料を探してみるよ。
+		Solyn7: 私たちの作ろうとしてるものを...「創世の樹」と名付けよう。
+		Solyn6: でも、それを完成させるには、似たような魔法の遺物の力を借りる必要があるね。
+		Solyn5: 今はまだ小さくて力も弱いけれど、実は凄まじい魔力を秘めているの。^もしこの力を空に向けられたら、裂け目を完全に消し去ることができるはず！
+		Player2: それがどうかした？
+		Solyn4: 覚えてる？あの砦で見つけた苗のこと。私が持っておいてって頼んだやつ。
+		Player1: それで、次はどうする？
+		Solyn3: ... いずれにせよ、解決するには時間がかかりそう。
+		Solyn2: もしかしたら...私がここに呼ばれた理由は、これなのかも。
+		Solyn1: 見ての通り、色々変わっちゃったね...^わかってはいたけど、やっぱりあの裂け目が厄介なことになるのは避けられなかったよ...
+		Start: ...来たんだね。
+	}
+
+	FrostblessedSeedlingDiscussion: {
+		Solyn3: だって、あの人はガーデニングはあんま好きそうじゃないし...
+		Solyn2: パーマフロストさんがこれを保管してたのも納得だよ。価値をちゃんと理解していたかは怪しいけど。
+		Solyn1: こういう植物が私の故郷にあったのを思い出したんだ。すごく珍しくて、育てるのも難しいんだけど...ほかの植物に影響を与えるほどの力を持つものは、見たことがないよ。
+		Start: ずっとあの苗のことを考えてたんだ。
+	}
+
+	PermafrostKeepDiscussion_AtSeed: {
+		Conversation6: どっちにしろ、そろそろ行くね。^ここ、ちょっと狭いし！
+		Conversation5: よかった。^私はもうちょっと考えてみるよ。この苗を使えば、きっとすごいことができるかもだから。
+		Response1: わかった。持っておくよ。
+		Conversation4: 何に使えるかは分からないけど...^持っておいて損はないと思うよ。
+		Conversation3: すごい強い魔力を秘めてる。^私にはわかるの...
+		Conversation2: これ...種みたいだね。
+		Conversation1: 色々探してみたけど、特に役に立ちそうなものはないかな...^...これ以外は。
+		Start: うーん...
+	}
+
+	PermafrostKeepDiscussion_BeforeOpening: {
+		Start: 鍵を使って開けよう！
+	}
+
+	DormantKeyDiscussion: {
+		Conversation8: 私もついていくね！準備ができたら、一緒に探索しよう！
+		Conversation7: ほら、地図に場所をマークしておいたよ。
+		Conversation6: だから、さっそく行ってみない？鍵がかかってるくらいだし、何かすごいものが眠ってるかも！
+		Conversation5: すごく微弱だけど、この鍵と同じ魔力の波が...雪原の洞窟の奥深くにあるみたいなの。
+		Conversation4: どうした？
+		Conversation3: あっ！いいこと思いついた！
+		Conversation2: ただの鍵じゃなさそうだね。何か魔法がかかってるみたい。
+		Conversation1: うーん...
+		StartingQuestion: パーマフロストを助けたときにこの鍵をもらったんだが、何か知ってるか？
+		Start: やっほー！何かあった？
+	}
+
+	StargazeQuestSawRift: {
+		Talk10: それじゃ、そろそろ寝るね。もうかなり遅いし！
+		Talk9: 私が作ったんだ。きっと役に立つと思うよ。
+		Talk8: あ、そうだ。これを持っていって。
+		Talk7: また一緒に見ようね！
+		Talk6: それにしても...今夜、キミと一緒に星を眺められてよかった。本当に綺麗だったなぁ。
+		Talk5: ...そうだね...ただの考えすぎかも。
+		Response2: あんまり気にしすぎない方がいい。
+		Talk4: うーん...なんだったんだろう...
+		Talk3: えーと...
+		Response1: 大丈夫？
+		Talk2: なんだか、嫌な予感が...
+		Talk1: ^いつのまにか、見た目が変わってる...
+	}
+
+	StargazeQuestCompletion: {
+		Response2: ""
+		Response1: ありがとう！^空は大好きなの。誰かと一緒に見られるなんて、本当に嬉しいな！^夜になったら始めよう！
+	}
+
+	StargazeQuest: {
+		Repeat: ん？ああ、気にしないで。ただ、景色を楽しんでるだけだから。
+		Solyn3: ホント？もし修理してくれるなら、すごく嬉しいな。^直ったら、一緒に星を見ようね。
+		Player2: 修理してあげようか？
+		Solyn2: そうなの...天体観測をしたかったんだけど、しばらくできそうになくって...^修理するための材料が足りないし。
+		Player1: 望遠鏡、壊れてないか？
+		Solyn1: こんにちは、この前はありがとう。^どうしたの？
+	}
+
+	SolynPartyTalk: {
+		SolynHatText: あっ！私の帽子！
+		SolynTada: じゃーん！
+		PartyRepeat1: 私は夜になるまでここにいるつもりだから、キミも好きなことをしてていいよ！
+		PartyResponseNo2: でも大丈夫！確かにちょっと忙しそうだもんね。
+		PartyResponseNo1: そっか、残念...
+		PartyResponseYes3: もう少しパーティーを楽しんでいかない？私も、しばらくここで楽しむつもりだし！
+		PartyResponseYes2: ふぅ！危なかった！もう少しで紙吹雪を飲み込むところだったよ、あはは！
+		PartyResponseYes1: よし、それじゃ...
+		PartyQuestionNo: ごめん、今はちょっと無理かな。
+		PartyQuestionYes: もちろん！
+		PartyResponse4: あっ！そういえば、ちょっとしたマジックを見せようと思ってたんだ。見る？
+		PartyResponse3: それにしても、キミの町、初めて来たときより大きくなったね！
+		PartyResponse2: みんな、本当に楽しそう...
+		PartyResponse1: 実を言うと...パーティーは好きだけどあんまり得意じゃないんだ。でも、今回は参加した方がいいかなって。
+		PartyStart: あっ！来てくれると思ってたよ！
+	}
+
+	SolynWindyDayTalk: {
+		WindyRepeatDefault: まあ、無理しないでね！それじゃ！
+		WindyRepeatPlayerUsingKiteChangedMind: あ、気が変わったの？
+		WindyRepeatPlayerUsingKite: 楽しい？
+		WindyResponse7: せっかくだし、キミもやる？息抜きも大事だよ。
+		WindyResponse6: ほら！
+		WindyResponse5: 実は...
+		WindyResponse4: こうして、ただ自然の流れに身を任せるのも、たまにはいいかなって。
+		WindyResponse3: ああ、これ？風の強い日は、こうやって飛ばすのが好きなんだ。ふわっと舞い上がるのを見るのが楽しくって。
+		WindyQuestion2: ところで、その凧、いいデザインだね。
+		WindyResponse2: スライムたちが風船でぷかぷか飛んでるの、ちょっと面白いよね！何度か、凧にくっついてきそうになったことがあってさ...
+		WindyResponse1: ほんとにね...さっき、スライムたちが風に乗って飛ばされていくのを見たよ。
+		WindyQuestion1: 今日は風が強いね。
+		WindyStart: あ！おかえり！
+	}
+
+	SolynMirrorwalkerDialogue: {
+		Solyn1: ...何かが、そこにいる。
+		Start: ...！
+	}
+
+	SolynRiftFogDialogue: {
+		Solyn2: 気を抜かないで。^何が潜んでいるか分からないから。
+		Solyn1: なんだか...違和感があるの。^この霧、自然のものじゃない。
+		Start: こんなに濃い霧の中、よく私を見つけられたね。
+	}
+
+	SolynRiftTownNPCDialogue: {
+		Solyn2: 楽しいひとときだったけど、みんなが不安そうなのは伝わってきたよ。^今の状況が心に重くのしかかってるみたいだね...
+		Solyn1: キミがいない間、寂しくなってちょっと顔を出しに行ってみたの。
+		Start: 最近、町の人たちと話してる？
+	}
+
+	SolynRiftSunsetDialogue: {
+		Solyn1: ま、どっちにしてももう遅いしね。^そろそろ休もうかな。
+		Start: これを「夕焼け」って呼んでいいのかな？
+	}
+
+	SolynHopefulPastDialogue: {
+		Solyn3: ごめん、ちょっとだけ...^一人にさせて。
+		Solyn2: あの美しさがなくなって、凍りついていく中で、希望を保つのは難しいね。
+		Solyn1: 正直に言うと...^昔の自分がちょっとうらやましい。^星空を見上げて、「きっと見守ってくれてる」って信じてた。^この美しさすべてを与えてくれた創造主に、感謝を伝えたいって願ってた。
+		Start: 最近、ひとりでいろいろ考えてるんだ。
+	}
+
+	SolynWantingToGoHomeDialogue: {
+		Solyn3: はあ、何言ってるんだろうね。^過去は変えられないし、まだやるべきことが山ほどあるのに。
+		Solyn2: ...何もしなければ、どれだけ楽だっただろうって思うよ。
+		Solyn1: 見慣れない景色、沈んだ空気、先の見えない不安、増していく寒さ...
+		Start: たまに思うの。^あの頃に...^帰れたらって。
+	}
+
+	SolynRiftBlizzardDialogue: {
+		Solyn3: ごめん、ちょっと...^考えごとしてた。
+		Solyn2: ...
+		Solyn1: でもね...^この雪景色には、不気味だけど静かな美しさがあるの。
+		Start: ここに来てまだそんなに経ってないけど、たまに降ってた心地いい雨がもう恋しいな。
+	}
+
+	SolynLategameDialogue: {
+		Start: 「創世の樹」計画は順調に進んでいるけど、まだまだ油断はできない...これからが正念場だよ。
+	}
+
+	SolynNearbyLunarPillarDialogue: {
+		Start: キ、キャンプが宇宙人に襲われてるー！！！
+	}
+
+	SolynCompleteBookshelfDialogue: {
+		Solyn2: あっ、そういえば「創世の樹」のことなんだけど...^あれがひと段落したら、ちゃんとした図書館を作りたくて、できればキミにも手伝ってほしいなー、なんて...
+		Solyn1: ここに来てから、本当にいろいろなことがあったね。「創世の樹」が完成したときも、今と同じくらいワクワクできるといいな...
+		Start: やったね！^本棚がいっぱいになっちゃった！ありがとう！
+	}
+
+	SolynManyRedeemedBooksDialogue: {
+		Solyn1: こうして本が増えると、ここがますます「家」って感じがするなあ。もともと、いっぱい本を持っていたから...
+		Start: わぁ、私の図書館が立派になってきたね！^言葉では言い表せないくらい感謝してるよ！
+	}
+
+	SolynUnreadableBookDialogue: {
+		Solyn1: ...まあ、本棚の飾り代わりってことで！
+		Start: 本をもらえるのはすごくありがたいんだけど...本当にこれって「本」なの？
+	}
+
+	SolynInscrutableTextsBookDialogue: {
+		Solyn3: 苗木の次はこの本かあ。^パーマフロストさんのことがますます気になってきたなあ。
+		Solyn2: それでも、いくつかは役立つ知識が得られたよ。^今まで聞いたこともない魔法がたくさん載ってた。
+		Solyn1: タイトル通りって感じだね。^すごく難解で堅苦しいし、^読者にやさしく解説してくれる気なんて全然ない。
+		Start: キミが本棚に入れてくれたある本が目に留まってね。^『難解な文書』って名前だったかな？
+	}
+
+	SolynOneRedeemedBookDialogue: {
+		Solyn1: ここの景色はすごく綺麗だけど、^一日中眺めてるだけっていうのはちょっと退屈かもだから、^本当に助かるよ！
+		Start: あ！本を持ってきてくれたんだね！^ありがとう！
+	}
+
+	SolynBooksDialogue: {
+		Solyn5: あ...確かに、キミの場合はそうなるのか...
+		Player1_Mage: ソリン、本は読むものじゃなくて、魔法を使うものだよ。
+		Solyn4_OtherClass: でも...まあ、キミはそういう話には興味がないタイプかもしれないね。
+		Solyn4_Mage: キミは魔法使いらしいし、わかってくれるかも？
+		Solyn3: でも、中には面白い本もあったんだよ！ ^良い小説って、それだけで世界の見方を変えてくれるものなんだ。
+		Solyn2: ちょっと難しかったり特殊なテーマの本もあったし、他の人からしたら...ちょっと変わったものもあったかな。
+		Solyn1: 家にはたくさんの本があったの。^巻物や古い書物も少しだけ...
+		Start: ここに来る前に、せめて何か持ってこられたらよかったのにな...
+	}
+
+	SolynPicnicDialogue: {
+		Solyn2: またあんな時間を過ごせたら素敵だろうなあ。
+		Solyn1: 故郷にいた頃は、友達とたまにピクニックしてたんだ。^すごく楽しかったよ。^緑あふれる景色、おいしい食べ物、ぽかぽかの日差し...
+		Start: いつか、ピクニックなんかでのんびり過ごしたいな。
+	}
+
+	SolynSameHairDialogue: {
+		Solyn2: え、、えへへ...^ちゃんと手入れしてね。^けっこう管理が大変なんだから！
+		Solyn1: もしかして、私たち...おそろいの髪型ってこと？
+		Start: それって...^私の髪型！？^うそ、ほんとに？
+	}
+
+	SolynStorageSailsDialogue: {
+		Solyn4: また今度詳しく説明してあげるよ！
+		Player2: えっと...つまり、どういうこと？
+		Solyn3: 見た目も面白いんだよね。^木の車輪みたいな枠の中に格子があって、先端には大きな羽がついてるんだ。^見たことある？
+		Solyn2: 船が風を帆に受けて進むことがあるでしょ？^あれと同じ原理で、ただ、この帆は風のエネルギーを貯めて、あとで使うことができるんだ！
+		Solyn1: すごく便利なんだよ！^故郷ではよく使われてたんだ。
+		Player1: うーん...知らないかも。
+		Start: ねえ...蓄風帆って聞いたことある？
+	}
+
+	SolynSlimeRainDialogue: {
+		Solyn4: 気をつけてね。食べられちゃったら大変だよ。
+		Solyn3: すごい光景だけど、スライムたちって結構厄介だからなぁ...
+		Solyn2: まあ、実際よくわかんないしね...
+		Player1: 自分も詳しくない...
+		Solyn1: どういう仕組みなんだろう？^すごく気になる！^
+		Start: わあ！^スライムが降ってきてる！^ヘンだけど、スゴい！
+	}
+
+	SolynBloodMoonDialogue: {
+		Solyn2: 今夜も星を眺めてみようかな？^赤く染まった空を間近で見られたら、きっと特別な光景になると思う。
+		Solyn1: それに、あんな夜は故郷じゃ経験したことがなかったしね。^安全とは言えないけど、モンスターの群れくらいならなんとかなるし...^ちょっとワクワクしてる自分もいるんだ。
+		Start: 今夜は眠れそうにないや。^この不気味な光のせいで、どうにも落ち着かなくて。
+	}
+
+	SolynDuskDialogue: {
+		Solyn3: まあ、どんなものでも新しい経験は大切だよね...たぶん。
+		Solyn2: すごく似てるんだけど、どこか違うんだよね。^実際に見てみないと、この感覚は伝わらないかもしれない...
+		Solyn1: でも...故郷のとはやっぱり違うなぁ...^燃えるような空の輝き、二重の夕日、そして、無数の星がきらめく夜も...
+		Start: 夕暮れだね...^綺麗...
+	}
+
+	SolynRainyDayDialogue: {
+		Solyn3: ふふ、まさにキミらしいね！^まあ、あんまり濡れたくないよね。
+		Solyn2: ああ、なるほど。
+		Player2: 洞窟に行ったりするかな。
+		Solyn1: 普段、雨の日はどう過ごすの？^池のほとりで考え事？^ちょっと散歩？^それとも家の中で雨音を聞きながらのんびりする？
+		Player1: こんにちは。
+		Start: こんにちは！^今日はすごい雨だね！
+	}
+
+	SolynSunnyDayDialogue: {
+		Solyn3: ふふ、まさにキミらしいね！
+		Solyn2: ああ、なるほど。
+		Player2: 洞窟に行ったりするかな。
+		Solyn1: 今日はどう過ごす予定？^森の中で遊ぶ？^静かな草原でゆっくりする？^それとも日光浴？
+		Player1: そうだね。
+		Start: こんにちは！^今日はいい天気だね。
+	}
+
+	SolynDawnDialogue: {
+		Solyn3: ...本当にね。
+		Player4: 本当に不思議な夢だな。
+		Dream5_Response6: 最後に言ってた言葉は「もう手放す時だ」だって。^そのすぐ後、目が覚めちゃった。
+		Dream5_Response5: 会話は次第に少なくなっていった。^最後に、かすかに名残惜しそうに笑ってるのが見えて...^次に瞬きをしたら、もういなくなってた...
+		Dream5_Response4: 気づいたんだ...^瞬きをするたびに、彼らの姿がどんどん薄れていくことに。^だから、できるだけ目を開けていようと必死だった。
+		Dream5_Response3: でも時間が経つにつれて、友達の姿は幽霊のように透明になり、声もだんだん聞き取れなくなっていった。
+		Dream5_Response2: 夢の中で、昔の友人と会ったんだ。^最初はいつも通り、楽しく話をしていたんだけど...
+		Dream5_Response1: えっと...「面白い」って表現はちょっと違ったかも...あはは...
+		Dream4_Response6: その指先に触れた瞬間、目が覚めた。すごい汗をかいててびっくりしたよ...
+		Dream4_Response5: 私に触れようとした途端、それは...おぞましい影へと姿を変えたの。
+		Dream4_Response4: 私は私の方へ向かって歩いた。風はどんどん強まっていった。
+		Dream4_Response3: しばらく歩いた後、私は...^私自身と出会った。まるで鏡みたいだった...
+		Dream4_Response2: 霧がかった森を歩いている夢だった...不気味な風が吹いていて、枯れた巨大な木々に囲まれてた。
+		Dream4_Response1: えっと...「面白い」って表現はちょっと違ったかも...あはは...
+		Dream3_Response6: その後は...言われた通りにしたんだ。
+		Dream3_Response5: 突然、懐かしい友人の声が聞こえた。「もう目を覚ます時間だ」って...
+		Dream3_Response4: それから、降り注ぐ雨の香りに意識を集中させた。すると、鮮やかな感覚の波に飲み込まれ、時間が加速し、ぐるりと折り重なっていった。
+		Dream3_Response3: 林の奥へと進んでいくと、声が聞こえた...私自身の声、そして大切な人たちの声だった。
+		Dream3_Response2: でも、そこには誰もいなかった...ひとりぼっちだった。
+		Dream3_Response1: 夢の中で、私の故郷の森を歩いていたの。静かに降る霧雨に包まれながら...
+		Dream2_Response6: そこで、目が覚めたの。
+		Dream2_Response5: 突然、複雑な模様の瞳がゆっくりと開き、私をじっと見つめた。
+		Dream2_Response4: 目の前に広がる深淵をただ見つめていた...自分が何をしてしまったのか、理解できずに...
+		Dream2_Response3: ふと手を伸ばして地面を触ってみると、それが本当にただの紙でできていることに気づいたの。その下には、測り知れないモノが広がっていた。
+		Dream2_Response2: 時間がわからなくなるぐらい歩いて...折り紙のように折り重なった植物や建物が点在する、不思議な場所に着いたんだ。
+		Dream2_Response1: 夢の中で、折り紙のような世界を歩いていた。空は明るいセピア色に輝き、ただ静かに広がっていた...
+		Dream1_Response6: そこで、目が覚めたの。
+		Dream1_Response5: 師匠は再びこちらを見つめ、何かを待っているようだった。
+		Dream1_Response4: しばらくすると、池の水が星屑のように輝き、そこに現れたのは...私がよく知る、懐かしい面影だった。
+		Dream1_Response3: しかし突然、師匠は歩みを止め、池の方をじっと見つめると、私が今まで見たこともない呪文を唱え始めた...
+		Dream1_Response2: 夢の中で、かつての師匠とお話していたの。その場所は、薄暮に包まれた静かな池のほとりだった...
+		Dream1_Response1: 夢の大半は支離滅裂だったんだけど、最後の部分だけはやたら鮮明だったんだ。
+		Player3: どんな夢だったんだ？
+		Solyn2: ん、さっき起きたばかりだから、大したことはしてないよ。^面白い夢を見たから、それについてちょっと考えてたけど。
+		Player2: なるほどな、それはさておき、今何してるんだ？
+		Solyn1: 何が起こるかなんて、最後までわからないものだよ！^何気ない日が、思いがけず特別な日になることもあるし。
+		Player1: それはちょっと大げさすぎないか？
+		Start: おはよう！^新しい一日、新しい大冒険の始まりだね！
+	}
+
+	SolynTentSetUpDialogue: {
+		Solyn4: そしたら、その近くにキャンプを張るから！
+		Solyn3: 見てのとおり、今の私は...住む場所がないの。^ だから、この旗を広くていい感じの場所に立ててほしいんだ。
+		Solyn2: ありがとう。
+		Player1: いいよ。どうすればいい？
+		Solyn1: ...ちょっと図々しいかもしれないけど、手を貸してもらえたら嬉しいな。
+		Start: あ、また会ったね。こんにちは。
+	}
+
+	SolynIntroduction: {
+		Repeat: ...
+		Talk8: ありがとう...
+		Question3: わかった。また後で。
+		Talk7: 少し待ってもらってもいいかな...今はちょっと...^時間が欲しいかも。
+		Talk6: え、えっと...ごめん、ちょっと頭がまとまらなくて...
+		Talk5: ...
+		Talk4: わ...私はソリン。
+		Question2: キミは誰？
+		Talk3: うーん...たぶん、大丈夫...かも？
+		Talk2: あっ！こ、こんにちは。私...^えっと...ごめん、気づかなかったよ。
+		Question1: 大丈夫か？
+		Talk1: あ...
+		Start: ま... ^間違えた...
+	}
+}
+
+Quests: {
+	Stargaze: {
+		Description:
+			'''
+			「星を眺めよう！」
+			心地よい夜の虫たち、宇宙の美しさ、そして親睦を深める絶好の機会。
+			キミはどう思うか分からないけど、私は素晴らしい時間になると思うよ！
+			'''
+		Title: 天体観測
+	}
+
+	Cryogen: {
+		Description: 雪原バイオームで宝探し！
+		Title: 氷の財宝探索
+	}
+}
+
+Projectiles: {
+	FallingObject: {
+		DisplayName: Falling Object
+	}
+
+	ElectricShockwave: {
+		DisplayName: Electric Shockwave
+	}
+
+	CodeLightningArc: {
+		DisplayName: Code Lightning Arc
+	}
+
+	SyntheticSeedlingProjectile: {
+		DisplayName: Synthetic Seedling Projectile
+	}
+
+	MarsMissile: {
+		DisplayName: Fortified Missile
+	}
+
+	RailGunCannonDeathray: {
+		DisplayName: Railgun Deathray Blast
+	}
+
+	SolynTagTeamChargeUp: {
+		DisplayName: Charge-up Energy
+	}
+
+	SolynTagTeamBeam: {
+		DisplayName: The Lesbeam
+	}
+
+	UnstableMatter: {
+		DisplayName: Unstable Matter
+	}
+
+	TrappingHolographicForcefield: {
+		DisplayName: Trapping Holographic Forcefield
+	}
+
+	SolynSentientStar: {
+		DisplayName: Kirby Reference
+	}
+
+	DirectionalSolynForcefield2: {
+		DisplayName: Directional Solyn Forcefield
+	}
+
+	ExoelectricDisintegrationRay: {
+		DisplayName: Exoelectric Disintegration Ray
+	}
+
+	SolynImpact: {
+		DisplayName: Solyn Impact
+	}
+
+	TeslaField: {
+		DisplayName: Tesla Field
+	}
+
+	SmallTeslaArc: {
+		DisplayName: Small Tesla Arc
+	}
+
+	MassiveElectricShockwave: {
+		DisplayName: Massive Electric Shockwave
+	}
+
+	DirectionalSolynForcefield: {
+		DisplayName: Directional Solyn Forcefield
+	}
+
+	CodeCrack: {
+		DisplayName: Code Crack
+	}
+
+	CodeStarburst: {
+		DisplayName: Code Starburst
+	}
+
+	BigNamelessPunchImpact: {
+		DisplayName: Big Nameless Punch Impact
+	}
+
+	LightLaserCamellia: {
+		DisplayName: Light Laser Camellia
+	}
+
+	BinaryLightningArc: {
+		DisplayName: Binary Lightning Arc
+	}
+
+	PurifyingMatter: {
+		DisplayName: Purifying Matter
+	}
+
+	CelestialDreamcatcher: {
+		DisplayName: Celestial Dreamcatcher
+	}
+
+	PsychedelicFeather: {
+		DisplayName: Psychedelic Feather
+	}
+
+	PermafrostDoorConvergingEnergy: {
+		DisplayName: Permafrost Door Converging Energy
+	}
+
+	GenesisConvergingEnergy: {
+		DisplayName: Genesis Converging Energy
+	}
+
+	GenesisOmegaDeathray: {
+		DisplayName: Genesis Omega Deathray
+	}
+
+	TerminusStairAppearanceBeam: {
+		DisplayName: Terminus Stair Appearance Beam
+	}
+
+	TerminusProjectiveBeam: {
+		DisplayName: Terminus Projective Beam
+	}
+
+	PerversePurseHoldout: {
+		DisplayName: Perverse Purse
+	}
+
+	LightLaserElectricityArc: {
+		DisplayName: Light Laser Electricity Arc
+	}
+
+	LightLaserFlower: {
+		DisplayName: Light Laser Flower
+	}
+
+	AntimatterBlast: {
+		DisplayName: Antimatter Blast
+	}
+
+	OtherworldlyThorn: {
+		DisplayName: Otherworldly Thorn
+	}
+
+	DreamcatcherBobber: {
+		DisplayName: Dreamcatcher Bobber
+	}
+
+	LotusOfCreationAppearanceVisual: {
+		DisplayName: Lotus Of Creation Appearance Visual
+	}
+
+	EndCreditsGoodApple: {
+		DisplayName: End Credits Good Apple
+	}
+
+	SolynProtectiveForcefieldForPlayer: {
+		DisplayName: Forcefield
+	}
+
+	LargeIcicle: {
+		DisplayName: Large Icicle
+	}
+
+	AnnihilationSphere: {
+		DisplayName: Annihilation
+	}
+
+	StellarRemnant: {
+		DisplayName: Stellar Remnant
+	}
+
+	FrostColumn: {
+		DisplayName: Frost Column
+	}
+
+	FrostColumnTelegraph: {
+		DisplayName: Frost Column Telegraph
+	}
+
+	SolynProtectiveForcefield: {
+		DisplayName: Forcefield
+	}
+
+	StarshapersWillHoldout: {
+		DisplayName: Starshapers Will
+	}
+
+	HomingStarBolt: {
+		DisplayName: Star Bolt
+	}
+
+	Snowflake: {
+		DisplayName: Snowflake
+	}
+
+	DirectedArcticBlast: {
+		DisplayName: Arctic Blast
+	}
+
+	BloodStake: {
+		DisplayName: Blood Stake
+	}
+
+	ArcticBlastTornadoPiece: {
+		DisplayName: Arctic Blast
+	}
+
+	BackgroundBloodBlob: {
+		DisplayName: Blood Blob
+	}
+
+	FreezingWave: {
+		DisplayName: Freezing Wave
+	}
+
+	ConvergingSnowEnergy: {
+		DisplayName: Snow Energy
+	}
+
+	ArcticTornado: {
+		DisplayName: Arctic Tornado
+	}
+
+	FallenGoodApple: {
+		DisplayName: Fallen Good Apple
+	}
+
+	RedirectingRubble: {
+		DisplayName: Redirecting Rubble
+	}
+
+	BloodTorrent: {
+		DisplayName: Blood Torrent
+	}
+
+	FallingMeleeWeapon: {
+		DisplayName: Ancient Weapon
+	}
+
+	StarPatternedStarburst: {
+		DisplayName: Star Patterned Starburst
+	}
+
+	WindStreakVisual: {
+		DisplayName: Wind
+	}
+
+	VoidBlot: {
+		DisplayName: Void Blot
+	}
+
+	VergilScreenSlice: {
+		DisplayName: Judgment Cut
+	}
+
+	TerminusProj: {
+		DisplayName: Terminus
+	}
+
+	ThePurifierProj: {
+		DisplayName: The Purifier
+	}
+
+	TelegraphedStarLaserbeam: {
+		DisplayName: Solar Burst
+	}
+
+	TelegraphedScreenSlice: {
+		DisplayName: Dimensional Slice
+	}
+
+	TelegraphedPortalLaserbeam: {
+		DisplayName: Cosmic Burst
+	}
+
+	TelegraphedLightLaserbeam: {
+		DisplayName: Light Deathray
+	}
+
+	SwordConstellationSlashVisual: {
+		DisplayName: Good Visual Design
+	}
+
+	SwordConstellation: {
+		DisplayName: Orion's Sword
+	}
+
+	SwipingShadowHand: {
+		DisplayName: Shadow Hand
+	}
+
+	Supernova: {
+		DisplayName: Supernova
+	}
+
+	SuperLightBeam: {
+		DisplayName: Light Deathray
+	}
+
+	SuperCosmicBeam: {
+		DisplayName: Cosmic Deathray
+	}
+
+	SunFireball: {
+		DisplayName: Sun Fireball
+	}
+
+	StolenPlanetoid: {
+		DisplayName: Planetoid
+	}
+
+	StarPet: {
+		DisplayName: Star
+	}
+
+	StarPatterenedStarburst: {
+		DisplayName: Starburst
+	}
+
+	StarKiteProjectile: {
+		DisplayName: Star Kite
+	}
+
+	Starburst: {
+		DisplayName: Starburst
+	}
+
+	SlowSolarSpark: {
+		DisplayName: Solar Spark
+	}
+
+	RodOfHarmonyExplosion: {
+		DisplayName: Rod Of Harmony Explosion
+	}
+
+	RedirectingPaleBlob: {
+		DisplayName: Pale Blob
+	}
+
+	RedirectingDarkFlame: {
+		DisplayName: Dark Flame
+	}
+
+	PrimordialStardust: {
+		DisplayName: Primordial Stardust
+	}
+
+	PortalArmStrike: {
+		DisplayName: Grotesque Arm
+	}
+
+	PortalArmCyan: {
+		DisplayName: Grotesque Arm
+	}
+
+	PaleComet: {
+		DisplayName: Pale Comet
+	}
+
+	EmptinessSprayerHoldout: {
+		DisplayName: Emptiness Sprayer
+	}
+
+	EmptinessSprayerGas: {
+		DisplayName: Emptiness Sprayer Gas
+	}
+
+	AvatarSlamTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	DarkGas: {
+		DisplayName: Dark Gas
+	}
+
+	NoxusExplosion: {
+		DisplayName: Noxus Explosion
+	}
+
+	NoxusNeuron: {
+		DisplayName: Neuron
+	}
+
+	NamelessDeityAfterimage: {
+		DisplayName: Afterimage
+	}
+
+	MoltenBlob: {
+		DisplayName: Molten Blob
+	}
+
+	LilyStar: {
+		DisplayName: Lily Star
+	}
+
+	LightWave: {
+		DisplayName: Light Wave
+	}
+
+	LightSlashTelegraph: {
+		DisplayName: Light Slash Telegraph
+	}
+
+	LightSlash: {
+		DisplayName: Light Slash
+	}
+
+	LightPortal: {
+		DisplayName: Light Portal
+	}
+
+	LightDagger: {
+		DisplayName: Light Dagger
+	}
+
+	LanternExplosion: {
+		DisplayName: Explosion
+	}
+
+	GroundStompShock: {
+		DisplayName: Ground Stomp Shock
+	}
+
+	GodRayVisual: {
+		DisplayName: God Ray Visual
+	}
+
+	FrostIllusion: {
+		DisplayName: Frost Illusion
+	}
+
+	FogwoodRoot: {
+		DisplayName: Fogwood Root
+	}
+
+	FallingGalaxy: {
+		DisplayName: Newborn Galaxy
+	}
+
+	ExplodingStar: {
+		DisplayName: Star
+	}
+
+	DeadStarIron: {
+		DisplayName: Decayed Iron
+	}
+
+	DistortionField: {
+		DisplayName: Distortion Field
+	}
+
+	DisgustingStar: {
+		DisplayName: Disgusting Star
+	}
+
+	DismalSeekerLantern: {
+		DisplayName: Dismal Lantern
+	}
+
+	DimensionTwistedComet: {
+		DisplayName: Dimension-twisted Comet
+	}
+
+	DetachedShadowArm: {
+		DisplayName: Oblivion's Grasp
+	}
+
+	DetachedRedArm: {
+		DisplayName: Red Arm
+	}
+
+	DetachedCyanArm: {
+		DisplayName: Cyan Arm
+	}
+
+	DeadStar: {
+		DisplayName: Dying Star
+	}
+
+	DarkWave: {
+		DisplayName: Dark Wave
+	}
+
+	DarkPortal: {
+		DisplayName: Dark Portal
+	}
+
+	DarkFireball: {
+		DisplayName: Dark Fireball
+	}
+
+	DarkField: {
+		DisplayName: Dark Field
+	}
+
+	CuriousHand: {
+		DisplayName: Avatar of Emptiness Hand
+	}
+
+	CryostasisMistWall: {
+		DisplayName: Absolute Zero
+	}
+
+	CosmicMagicCircle: {
+		DisplayName: Grand Wisdom
+	}
+
+	ConvergingSupernovaEnergy: {
+		DisplayName: Supernova Plasma
+	}
+
+	ControlledStar: {
+		DisplayName: Star
+	}
+
+	ClockConstellation: {
+		DisplayName: Chronos' Hand
+	}
+
+	BloodBlob: {
+		DisplayName: Blood Blob
+	}
+
+	BlackHolePet: {
+		DisplayName: Black Hole
+	}
+
+	BlackHoleHostile: {
+		DisplayName: Quasar
+	}
+
+	BlackHole: {
+		DisplayName: Black Hole
+	}
+
+	BackgroundStar: {
+		DisplayName: Star
+	}
+
+	BabyNameless: {
+		DisplayName: Nameless Deity
+	}
+
+	ArcticWindStreakVisual: {
+		DisplayName: Cryonic Wind
+	}
+
+	ArcticBlast: {
+		DisplayName: Arctic Blast
+	}
+
+	ArcingStarburst: {
+		DisplayName: Starburst
+	}
+
+	Antistar: {
+		DisplayName: Antistar
+	}
+
+	AcceleratingRubble: {
+		DisplayName: Rubble
+	}
+}
+
+PlayerDeathMessages: {
+	ThisModReallyIsJustShitpostsMaskedByBossesHuh: 四方に広がる濁った空間はどこも見分けがつかない。どれくらいの時間が経ったのか？ 一時間？ 一日？ 二週間？ 五万年？あるいは、この無の領域では時間の概念すら失われたのかもしれない。目的もなく歩き続ける中、茄子色の地平線の端に微かな光が見えた。それに向かって歩くうちに、{0}は神々しい自然の力によってもたらされた、目がくらむほどの啓示を受けた。そう、{0}は気づいてしまったのだ。彼らは化身の領域にいた。彼らは「悪いリンゴ」の中にいたのだ。
+	ScreenSplitDeathZone: "{0}はフラクタル化した。"
+	ParadiseReclaimed: "{0}は楽園の苦痛に満ちた抱擁の中で溶けていった。"
+	NamelessDeityCheatEasterEgg: チートを使おうとしたため、{0}はやがて木に実る「悪いリンゴ」になる。
+	NamelessDeity18: "{0}はやがて木に実る「良いリンゴ」となるだろう。"
+	NamelessDeity17: "{0}は存在の無限の格子に溶け込んだ。"
+	NamelessDeity16: "{0}は宇宙の交響曲と一体となった。"
+	NamelessDeity15: "{0}の旅は庭の神聖な抱擁の中で終わった。"
+	NamelessDeity14: "{0}は死を超越し、星屑となった。"
+	NamelessDeity13: "{0}は宇宙の織物に溶け込んだ。"
+	NamelessDeity12: "{0}はエーテルに消えた。"
+	NamelessDeity11: "{0}はすべてと一体となった。"
+	NamelessDeity10: "{0}は冷静に光に向かっていった。"
+	NamelessDeity9: "{0}は努力もむなしく死んだ。"
+	NamelessDeity8: "{0}の運命は終わった。"
+	NamelessDeity7: "{0}は永遠を目撃し、その後消えた。"
+	NamelessDeity6: "{0}の目的は達成された。"
+	NamelessDeity5: "{0}の魂は庭に残り、その肉体は崩れ去る。"
+	NamelessDeity4: "{0}の形はやがて星々と一体となる。"
+	NamelessDeity3: "{0}は至福の中で神の光に消えた。"
+	NamelessDeity2: "{0}の原子構造は庭に吸収されるために分解された。"
+	NamelessDeity1: "{0}は試練に失敗した。"
+}
+
+NPCs: {
+	TrappingHolographicForcefield: {
+		DisplayName: 投影型フォースフィールド
+	}
+
+	BattleSolyn: {
+		DisplayName: ソリン
+	}
+
+	QuestDraedon: {
+		DisplayName: ドレイドン
+	}
+
+	CeaselessVoidRift: {
+		MapIconText: 謎の裂け目
+		DisplayName: ???
+	}
+
+	MarsBody: {
+		InfernumCompatibility: {
+			Title:
+				'''
+				Greenhouse Goliath
+				Mars
+				'''
+		}
+
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/9BFFFF:誤差の範囲内だ。]"
+			SpawnInfo: ソリンと特別なクエストを開始し、コードブレイカーを使用してドレイドンと接触する。
+		}
+
+		DisplayName: XG-07 マーズ
+	}
+
+	Solyn: {
+		TownNPCMood: {
+			Princess_LovesNPC: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			LikeNPC_Princess: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			HateCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			DislikeCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			LoveSpace: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			FarFromHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			NoHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+			Content: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		}
+
+		DisplayName: ソリン
+	}
+
+	Vivajuyfylae: {
+		DisplayName: ヴィヴァジュイフィレイ
+	}
+
+	Aelithrysuwl: {
+		DisplayName: エイリスリスウル
+	}
+
+	Frightweaver: {
+		DisplayName: フライトウィーバー
+	}
+
+	DarkHarbinger: {
+		DisplayName: ダークハービンジャー
+	}
+
+	Mirrorwalker: {
+		DisplayName: ミラーウォーカー
+	}
+
+	Fogwood: {
+		DisplayName: フォグウッド
+	}
+
+	DismalSeeker: {
+		DisplayName: ディズマル・シーカー
+	}
+
+	NamelessDeityBoss: {
+		InfernumCompatibility: {
+			Title: ??????????????????????????????????????????????????
+		}
+
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/FF463D:あなたは試練を乗り越えることができなかった。]"
+			SpawnInfo: 眼が開いた後に [i:CalamityMod/Terminus] を使用する
+		}
+
+		TestOfResolveName: ENDLESS DEITY
+		SillyDeathCountSuffix: ", Tormentor of Nohitters"
+		DisplayNameSingular: 無名の神
+		DisplayName: 無名の神
+	}
+
+	AvatarOfEmptiness: {
+		ParadiseReclaimedText: paradise reclaimed
+
+		InfernumCompatibility: {
+			Title: Brightest Star In A Perfect World
+		}
+
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/EA0023:暗黒の者の醜悪な姿は一瞬のうちに消え去った。]"
+			SpawnInfo: 「創世の樹」を作り上げ、覚醒させる。
+		}
+
+		DisplayNameSingular: 虚無の化身
+		DisplayName: 虚無の化身
+	}
+
+	AvatarRift: {
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/EA0023:裂け目は一瞬のうちに消え去った。]"
+			SpawnInfo: 「創世の樹」を作り上げ、覚醒させる。
+		}
+
+		DisplayNameSingular: ???
+		DisplayName: ???
+	}
+
+	NoxusEggCutscene: {
+		DisplayName: ???
+	}
+}
+
+NamelessLoreVocabulary: {
+	Vocabulary: {
+		IncludeSpacesBetweenWords: True
+		PhraseStructureRules:
+			'''
+			SENTENCE = SUBJECT PREDICATE OBJECT, SUBJECT PREDICATE
+			SUBJECT = NOUNPHRASE
+			PREDICATE = VERBPHRASE
+			OBJECT = NOUNPHRASE, PREPOSITION NOUNPHRASE
+			NOUNPHRASE = DETERMINER ADJECTIVE NOUN, DETERMINER NOUN
+			VERBPHRASE = VERB PREPOSITION NOUNPHRASE
+			'''
+		EasterEggSentence: オング バッシン
+		Preposition42: を通して
+		Preposition41: なしで
+		Preposition40: の中に
+		Preposition39: と一緒に
+		Preposition38: の上に
+		Preposition37: の上に
+		Preposition36: まで
+		Preposition35: の下に
+		Preposition34: に向かって
+		Preposition33: へ
+		Preposition32: よりも
+		Preposition31: 以来
+		Preposition30: の上に
+		Preposition29: の反対に
+		Preposition28: の上に
+		Preposition27: の
+		Preposition26: の近く
+		Preposition25: のように
+		Preposition24: の中へ
+		Preposition23: から
+		Preposition22: のために
+		Preposition21: を除いて
+		Preposition20: の間に
+		Preposition19: にもかかわらず
+		Preposition18: によって
+		Preposition17: の向こうに
+		Preposition16: の間に
+		Preposition15: の隣に
+		Preposition14: の下に
+		Preposition13: の下に
+		Preposition12: の後ろに
+		Preposition11: の前に
+		Preposition10: に
+		Preposition9: として
+		Preposition8: の周りに
+		Preposition7: の間に
+		Preposition6: に沿って
+		Preposition5: に対して
+		Preposition4: の後に
+		Preposition3: を横切って
+		Preposition2: の上に
+		Preposition1: について
+		Noun300: 貴族
+		Noun299: ワックス
+		Noun298: 源泉
+		Noun297: 焚き火
+		Noun296: 歌
+		Noun295: 高速道路
+		Noun294: 霸権
+		Noun293: 弓
+		Noun292: 領地
+		Noun291: 寓話
+		Noun290: 冗談
+		Noun289: 骨切り鋸
+		Noun288: ドゥーマ
+		Noun287: 同族語
+		Noun286: 翡翠
+		Noun285: 神託
+		Noun284: 時代
+		Noun283: 王朝
+		Noun282: 法令
+		Noun281: 楽園
+		Noun280: ザクロ
+		Noun279: トリトーン
+		Noun278: 点字
+		Noun277: 継続行
+		Noun276: シンセ
+		Noun275: アルペジオ
+		Noun274: 果物
+		Noun273: 軍事評議会
+		Noun272: 回転
+		Noun271: 困難
+		Noun270: 光沢
+		Noun269: ラッカー
+		Noun268: 結び目
+		Noun267: 不定積分
+		Noun266: ライラック
+		Noun265: プリムローズ
+		Noun264: 舵手
+		Noun263: 強風
+		Noun262: サイマー
+		Noun261: エゴテイスト
+		Noun260: サリエーズ
+		Noun259: 巨大動物
+		Noun258: 君主
+		Noun257: モアレ
+		Noun256: 物語作家
+		Noun255: ヌガー
+		Noun254: 五分儀
+		Noun253: 相続人
+		Noun252: ヤドリギ
+		Noun251: 顔つき
+		Noun250: 半影
+		Noun249: 予言者
+		Noun248: ジュビリー
+		Noun247: ミューズ
+		Noun246: フェロ流体
+		Noun245: 信号機
+		Noun244: 流木
+		Noun243: 反応剤
+		Noun242: 格言
+		Noun241: トニック
+		Noun240: ツバキ
+		Noun239: ジャイロ
+		Noun238: ライム
+		Noun237: 建物
+		Noun236: 歌
+		Noun235: 死体
+		Noun234: 死後の世界
+		Noun233: キリストの記号
+		Noun232: ルーレット
+		Noun231: 漸近線
+		Noun230: 神
+		Noun229: 春分
+		Noun228: 採石場
+		Noun227: アマリリス
+		Noun226: フリージア
+		Noun225: クロッカス
+		Noun224: ペチュニア
+		Noun223: 菊
+		Noun222: デイジー
+		Noun221: アイリス
+		Noun220: アザレア
+		Noun219: バラ
+		Noun218: 蘭
+		Noun217: チューリップ
+		Noun216: ピオニー
+		Noun215: ユリ
+		Noun214: ハス
+		Noun213: ダリア
+		Noun212: ズィニア
+		Noun211: ランタナ
+		Noun210: カーネーション
+		Noun209: バターカップ
+		Noun208: 糞化石
+		Noun207: スパイ活動
+		Noun206: 送金
+		Noun205: 生殖腺
+		Noun204: カラット
+		Noun203: リメリック
+		Noun202: メドレー
+		Noun201: オグスクル
+		Noun200: 科学者
+		Noun199: 観察者
+		Noun198: 専制君主
+		Noun197: 世話人
+		Noun196: 浮浪者
+		Noun195: レーサー
+		Noun194: スウィズル
+		Noun193: 女帝
+		Noun192: フルート
+		Noun191: 岸
+		Noun190: 忘却薬
+		Noun189: 製作者
+		Noun188: 過激派
+		Noun187: シアン化物
+		Noun186: ランプ
+		Noun185: 遺伝子
+		Noun184: リメリック
+		Noun183: 探検家
+		Noun182: 布
+		Noun181: 現実主義者
+		Noun180: 実験
+		Noun179: テキスト
+		Noun178: 兵士
+		Noun177: 調律者
+		Noun176: ゴス
+		Noun175: 哲学者
+		Noun174: 灯台
+		Noun173: 子孫
+		Noun172: 学者
+		Noun171: 軍艦
+		Noun170: 演説者
+		Noun169: 気
+		Noun168: 大砲
+		Noun167: エジプト人
+		Noun166: 愛情
+		Noun165: 光年
+		Noun164: 毒
+		Noun163: 敷石
+		Noun162: クイド
+		Noun161: 専門家
+		Noun160: 後援者
+		Noun159: 門番
+		Noun158: 熱帯雨林
+		Noun157: 自動機械
+		Noun156: エーテル
+		Noun155: 攻撃者
+		Noun154: 帝国
+		Noun153: 花崗岩
+		Noun152: マグネシウム
+		Noun151: 子孫
+		Noun150: 貝殻
+		Noun149: 人間
+		Noun148: 指輪
+		Noun147: 狩人
+		Noun146: 衛星
+		Noun145: 余弦
+		Noun144: ガラス
+		Noun143: 家臣
+		Noun142: 脳
+		Noun141: コンゴウインコ
+		Noun140: 司令官
+		Noun139: サファイア
+		Noun138: 垣根
+		Noun137: 月
+		Noun136: コウノトリ
+		Noun135: 市参事会員
+		Noun134: 列車
+		Noun133: 峰丘
+		Noun132: 宇宙人
+		Noun131: 農場
+		Noun130: 整数
+		Noun129: アルファベット
+		Noun128: 接着剤
+		Noun127: 悪夢
+		Noun126: 2年生
+		Noun125: 魔女
+		Noun124: ロボット
+		Noun123: 乱視
+		Noun122: ハエ
+		Noun121: 発明
+		Noun120: マントル
+		Noun119: 鬼
+		Noun118: 儀式
+		Noun117: コンサート
+		Noun116: レイチェ
+		Noun115: 虎
+		Noun114: アンブロシア
+		Noun113: 肖像画
+		Noun112: 黒曜石
+		Noun111: 水銀
+		Noun110: ペン
+		Noun109: テルミン
+		Noun108: 星屑
+		Noun107: サンゴ
+		Noun106: 鍵
+		Noun105: 目
+		Noun104: 風
+		Noun103: アクスル
+		Noun102: 葉
+		Noun101: 羽根板
+		Noun100: 円
+		Noun99: 時間
+		Noun98: 年代記
+		Noun97: 停止期間
+		Noun96: ネクロマンサー
+		Noun95: 陽光
+		Noun94: 銀河
+		Noun93: 化石
+		Noun92: 世界
+		Noun91: 特異点
+		Noun90: 物質
+		Noun89: 竜
+		Noun88: プラズマ
+		Noun87: 灰
+		Noun86: 鱗
+		Noun85: 精霊
+		Noun84: 破片
+		Noun83: 災厄
+		Noun82: 影
+		Noun81: 隅
+		Noun80: 手
+		Noun79: 溶岩
+		Noun78: 白金
+		Noun77: 香炉
+		Noun76: アイリス
+		Noun75: 雄しべ
+		Noun74: 四分円
+		Noun73: 小旅行
+		Noun72: 錬金術師
+		Noun71: サフラン
+		Noun70: 贈り物
+		Noun69: 言語
+		Noun68: 鈴
+		Noun67: 紋章
+		Noun66: アンク
+		Noun65: 契約
+		Noun64: 箱舟
+		Noun63: 蛇
+		Noun62: 死神
+		Noun61: 命
+		Noun60: 終焉
+		Noun59: 細胞
+		Noun58: 木
+		Noun57: 注目の的
+		Noun56: 運命
+		Noun55: 五行詩
+		Noun54: 巨人
+		Noun53: 強欲
+		Noun52: 征服者
+		Noun51: 裁判官
+		Noun50: 草地
+		Noun49: 不屈
+		Noun48: 霧
+		Noun47: 賛美歌
+		Noun46: 池
+		Noun45: 風
+		Noun44: 杖
+		Noun43: 補間器
+		Noun42: 門
+		Noun41: 啓示
+		Noun40: 司祭
+		Noun39: 母
+		Noun38: 果物
+		Noun37: 地形
+		Noun36: 硫黄
+		Noun35: イットリウム
+		Noun34: レーザー
+		Noun33: テーブル
+		Noun32: 城
+		Noun31: 魔法使い
+		Noun30: エージェント
+		Noun29: スライム
+		Noun28: 抗原
+		Noun27: 冠
+		Noun26: マント
+		Noun25: 光
+		Noun24: 星雲
+		Noun23: 血
+		Noun22: 処刑人
+		Noun21: 糸
+		Noun20: 言葉
+		Noun19: 罪人
+		Noun18: りんご
+		Noun17: 季節
+		Noun16: 対数
+		Noun15: 数字
+		Noun14: 家
+		Noun13: 農奴
+		Noun12: 戦士
+		Noun11: 自然
+		Noun10: 絵画
+		Noun9: イオン
+		Noun8: 星
+		Noun7: 火
+		Noun6: 織物
+		Noun5: 試練
+		Noun4: 刃
+		Noun3: 存在
+		Noun2: 神
+		Noun1: 聖職者
+		Adjective275: 万言語対応の
+		Adjective274: 運命的な
+		Adjective273: 統一された
+		Adjective272: 科学的な
+		Adjective271: オイルの
+		Adjective270: 暖かい
+		Adjective269: 荒廃した
+		Adjective268: 初歩的な
+		Adjective267: 無関心な
+		Adjective266: 陳腐な
+		Adjective265: しなやかな
+		Adjective264: ごつごつした
+		Adjective263: 正当な
+		Adjective262: 虚栄心の強い
+		Adjective261: 出産可能な
+		Adjective260: 高慢な
+		Adjective259: 尊敬された
+		Adjective258: 下品な
+		Adjective257: 克服不可能な
+		Adjective256: 騒々しい
+		Adjective255: 熱帯の
+		Adjective254: しなやかな
+		Adjective253: 曲線的な
+		Adjective252: 正面の
+		Adjective251: 星状の
+		Adjective250: 至高の
+		Adjective249: 著名な
+		Adjective248: 上訴の
+		Adjective247: 物語的な
+		Adjective246: 露骨な
+		Adjective245: 怪我をした
+		Adjective244: 法外な
+		Adjective243: 不敬な
+		Adjective242: 軽蔑すべき
+		Adjective241: 卑劣な
+		Adjective240: 粗野な
+		Adjective239: 青ざめた
+		Adjective238: 二院制の
+		Adjective237: キャラメル化した
+		Adjective236: 密輸の
+		Adjective235: 推論的な
+		Adjective234: 取るに足らない
+		Adjective233: 変わり者の
+		Adjective232: 絶え間ない
+		Adjective231: 賢い
+		Adjective230: 無気力な
+		Adjective229: 調和の取れた
+		Adjective228: 音響的な
+		Adjective227: 高級な
+		Adjective226: 君主のいない
+		Adjective225: ピュリッヒの
+		Adjective224: 編まれた
+		Adjective223: 東洋の
+		Adjective222: 冠を戴かない
+		Adjective221: 偏見のない
+		Adjective220: 併合可能な
+		Adjective219: 永続的な
+		Adjective218: 名前のない
+		Adjective217: 16進の
+		Adjective216: ブリッタブルな
+		Adjective215: 偶像破壊的な
+		Adjective214: 二神教的な
+		Adjective213: 強調された
+		Adjective212: デジタルの
+		Adjective211: 博学な
+		Adjective210: 再帰的でない
+		Adjective209: 静止した
+		Adjective208: 熱意のない
+		Adjective207: 航空の
+		Adjective206: マルタの
+		Adjective205: 波状の
+		Adjective204: 半透明の
+		Adjective203: アルカリ性の
+		Adjective202: 高硫黄の
+		Adjective201: 適応不全の
+		Adjective200: 雄弁な
+		Adjective199: 代数的な
+		Adjective198: 悪者扱いされた
+		Adjective197: 壮大な
+		Adjective196: 一時的な
+		Adjective195: 悪性の
+		Adjective194: 味気ない
+		Adjective193: 蒼白な
+		Adjective192: 裏切られた
+		Adjective191: 見捨てられた
+		Adjective190: 激怒した
+		Adjective189: 麻痺させる
+		Adjective188: 説得力のある
+		Adjective187: エルドリッチの
+		Adjective186: 好奇心旺盛な
+		Adjective185: 断固たる
+		Adjective184: 試されていない
+		Adjective183: 期待外れの
+		Adjective182: 捉えどころのない
+		Adjective181: 紡がれていない
+		Adjective180: 未来を見据えた
+		Adjective179: 決意のある
+		Adjective178: ヘレニズム的な
+		Adjective177: 熱情的な
+		Adjective176: 島国根性の
+		Adjective175: 自然の
+		Adjective174: 伝説的な
+		Adjective173: インスピレーションを受けた
+		Adjective172: 無彩色の
+		Adjective171: 象徴的な
+		Adjective170: 不安にさせる
+		Adjective169: 力強い
+		Adjective168: 意欲的な
+		Adjective167: 鏡のような
+		Adjective166: 障害のない
+		Adjective165: 適切な
+		Adjective164: 輝く
+		Adjective163: 陰鬱な
+		Adjective162: 盲目的な
+		Adjective161: 絹のような
+		Adjective160: 慣例的な
+		Adjective159: 避けられない
+		Adjective158: 中傷的な
+		Adjective157: 思いがけない
+		Adjective156: 牧歌的な
+		Adjective155: 厳粛な
+		Adjective154: 萎れた
+		Adjective153: 憤慨した
+		Adjective152: 無実の
+		Adjective151: 狩られた
+		Adjective150: 洗練された
+		Adjective149: 有害な
+		Adjective148: 惨めな
+		Adjective147: 冥界の
+		Adjective146: 曇った
+		Adjective145: 埋葬された
+		Adjective144: おぞましい
+		Adjective143: 敬虔な
+		Adjective142: 宝石で飾られた
+		Adjective141: 不注意な
+		Adjective140: 頑強な
+		Adjective139: 悪名高い
+		Adjective138: 隠れた
+		Adjective137: 異教の
+		Adjective136: 色合いのある
+		Adjective135: 紫の
+		Adjective134: 冥王星の
+		Adjective133: 先見の明がある
+		Adjective132: 共存する
+		Adjective131: 不正確な
+		Adjective130: 書き写された
+		Adjective129: 言語の
+		Adjective128: 偏屈な
+		Adjective127: 騎士道的な
+		Adjective126: 博識な
+		Adjective125: 誤った方向に向けられた
+		Adjective124: テクノサピエントの
+		Adjective123: 豪華な
+		Adjective122: 乗っ取られた
+		Adjective121: プログラム済みの
+		Adjective120: 六角形の
+		Adjective119: 調和した
+		Adjective118: 止められない
+		Adjective117: 孤独な
+		Adjective116: 大切にされた
+		Adjective115: 獣のような
+		Adjective114: 異国の
+		Adjective113: 創造的な
+		Adjective112: 忘れられない
+		Adjective111: 奇異な
+		Adjective110: 興味を引く
+		Adjective109: 残忍な
+		Adjective108: 早すぎた
+		Adjective107: 鮮やかな
+		Adjective106: 冷淡な
+		Adjective105: 効率的な
+		Adjective104: ゼロックの祝福を受けた
+		Adjective103: 年老いた
+		Adjective102: 牧歌的な
+		Adjective101: エルフの
+		Adjective100: 完全な
+		Adjective99: 賢い
+		Adjective98: 隠遁した
+		Adjective97: 超強力な
+		Adjective96: 銅の
+		Adjective95: 聖なる
+		Adjective94: 心配そうな
+		Adjective93: 防御的な
+		Adjective92: 騎士叙任の
+		Adjective91: 詩的な
+		Adjective90: 夢のような
+		Adjective89: 満足した
+		Adjective88: 有頂天の
+		Adjective87: 色褪せた
+		Adjective86: 空っぽの
+		Adjective85: 混乱した
+		Adjective84: 眠そうな
+		Adjective83: 単色の
+		Adjective82: 復活した
+		Adjective81: 魅力的な
+		Adjective80: パブロフ的な
+		Adjective79: 眩い
+		Adjective78: 発熱性の
+		Adjective77: 天上的な
+		Adjective76: 熱狂的な
+		Adjective75: 永遠の
+		Adjective74: 少女のような
+		Adjective73: 神秘的な
+		Adjective72: 複雑な
+		Adjective71: 抽象的な
+		Adjective70: 貪欲な
+		Adjective69: 揺れる
+		Adjective68: 懺悔した
+		Adjective67: 不可侵の
+		Adjective66: 断続的な
+		Adjective65: 単一のシナプスの
+		Adjective64: 不浄な
+		Adjective63: 終末論的な
+		Adjective62: 欠陥のある
+		Adjective61: 機知に富んだ
+		Adjective60: 汚れた
+		Adjective59: 無限の
+		Adjective58: 光り輝く
+		Adjective57: グロテスクな
+		Adjective56: 穢れなき
+		Adjective55: 運命づけられた
+		Adjective54: 献身的な
+		Adjective53: 奇妙な
+		Adjective52: 絶対に正しい
+		Adjective51: 金箔の
+		Adjective50: 凍えるような
+		Adjective49: 栄光ある
+		Adjective48: 印象的な
+		Adjective47: 古代の
+		Adjective46: 宇宙的な
+		Adjective45: 楽園のような
+		Adjective44: 恵まれた
+		Adjective43: 奇抜な
+		Adjective42: 殺人的な
+		Adjective41: 扱いにくい
+		Adjective40: 平和な
+		Adjective39: 静かな
+		Adjective38: 穏やかな
+		Adjective37: 神格化された
+		Adjective36: 優れた
+		Adjective35: 幸せな
+		Adjective34: 正直な
+		Adjective33: 魅惑的な
+		Adjective32: 蒸留された
+		Adjective31: 機敏な
+		Adjective30: 内省的な
+		Adjective29: 謎めいた
+		Adjective28: 迷宮のような
+		Adjective27: 神聖な
+		Adjective26: 大洪水以前の
+		Adjective25: 無頓着な
+		Adjective24: 頑固な
+		Adjective23: 賢明な
+		Adjective22: 秘密の
+		Adjective21: 不屈の
+		Adjective20: ふしだらな
+		Adjective19: 輝かしい
+		Adjective18: 儚い
+		Adjective17: 派手な
+		Adjective16: 美しい
+		Adjective15: 情け容赦ない
+		Adjective14: 時代遅れの
+		Adjective13: 活力に満ちた
+		Adjective12: 崇高な
+		Adjective11: 希望に満ちた
+		Adjective10: 慈悲深い
+		Adjective9: 全能の
+		Adjective8: 全知の
+		Adjective7: ねじれた
+		Adjective6: 永遠の
+		Adjective5: 至福の
+		Adjective4: 物悲しい
+		Adjective3: はかない
+		Adjective2: 輝かしい
+		Adjective1: 言葉で表せない
+		Verb150: のたうつ
+		Verb149: 廃止する
+		Verb148: 決める
+		Verb147: 現れる
+		Verb146: 開く
+		Verb145: 吹き飛ばす
+		Verb144: 取り消す
+		Verb143: 予測する
+		Verb142: 感じる
+		Verb141: 実行する
+		Verb140: 暗示する
+		Verb139: 約束する
+		Verb138: 話す
+		Verb137: 祝う
+		Verb136: 破壊する
+		Verb135: 作曲する
+		Verb134: 超える
+		Verb133: 侮辱する
+		Verb132: 無視する
+		Verb131: うなずく
+		Verb130: 警告する
+		Verb129: 打つ
+		Verb128: 欺く
+		Verb127: 脈打つ
+		Verb126: 成長する
+		Verb125: 鞭打つ
+		Verb124: 平伏する
+		Verb123: 震える
+		Verb122: 形を失う
+		Verb121: 鼓動する
+		Verb120: にやりと笑う
+		Verb119: 告白する
+		Verb118: 泣く
+		Verb117: 現れる
+		Verb116: 崩壊する
+		Verb115: 思い悩む
+		Verb114: 拒絶する
+		Verb113: 考察する
+		Verb112: 留まる
+		Verb111: つきまとう
+		Verb110: 目指す
+		Verb109: 設定する
+		Verb108: 黙認する
+		Verb107: 応じる
+		Verb106: 腐敗する
+		Verb105: 開花する
+		Verb104: 嘆く
+		Verb103: 述べる
+		Verb102: 解明する
+		Verb101: 切り離す
+		Verb100: 終わらせる
+		Verb99: 貪り食う
+		Verb98: 這う
+		Verb97: 区別する
+		Verb96: 再生させる
+		Verb95: 治療する
+		Verb94: 熟考する
+		Verb93: 卓越する
+		Verb92: 資格を与える
+		Verb91: 凍らせる
+		Verb90: 静める
+		Verb89: 石化する
+		Verb88: 認める
+		Verb87: 癒す
+		Verb86: 合体する
+		Verb85: 派閥化する
+		Verb84: 周回する
+		Verb83: 不滅にする
+		Verb82: 直面する
+		Verb81: 舞い上がる
+		Verb80: 思い出す
+		Verb79: 子孫を作る
+		Verb78: 断る
+		Verb77: 停泊する
+		Verb76: 書く
+		Verb75: 浄化する
+		Verb74: 生み出す
+		Verb73: 具現化する
+		Verb72: 揺れる
+		Verb71: 漂う
+		Verb70: かわいがる
+		Verb69: 実現する
+		Verb68: 免除する
+		Verb67: 活力を与える
+		Verb66: 分解する
+		Verb65: 流れる
+		Verb64: 征服する
+		Verb63: 悔い改める
+		Verb62: 溶解する
+		Verb61: 溶ける
+		Verb60: 飛ぶ
+		Verb59: 掴む
+		Verb58: 制御する
+		Verb57: 祈る
+		Verb56: 創造する
+		Verb55: 築く
+		Verb54: 招く
+		Verb53: 照らす
+		Verb52: 食い止める
+		Verb51: 息を呑む
+		Verb50: 浴びる
+		Verb49: 理解する
+		Verb48: 投影する
+		Verb47: 息をする
+		Verb46: 切除する
+		Verb45: 受け入れる
+		Verb44: 裏切る
+		Verb43: 壊滅させる
+		Verb42: 消去する
+		Verb41: 燃える
+		Verb40: 輝く
+		Verb39: 雄弁に語る
+		Verb38: 放射する
+		Verb37: 大切にする
+		Verb36: 避ける
+		Verb35: 味わう
+		Verb34: 願う
+		Verb33: 優雅さを与える
+		Verb32: ひらひら舞う
+		Verb31: 展開する
+		Verb30: 試す
+		Verb29: 蒸留する
+		Verb28: 見つける
+		Verb27: 旅に出る
+		Verb26: 統合する
+		Verb25: 生み出す
+		Verb24: 明かす
+		Verb23: 啓発する
+		Verb22: 拡張する
+		Verb21: 時を測る
+		Verb20: 体験する
+		Verb19: 共鳴する
+		Verb18: 織り成す
+		Verb17: 航行する
+		Verb16: 勝利する
+		Verb15: 探し求める
+		Verb14: 解き明かす
+		Verb13: 発見する
+		Verb12: 屈する
+		Verb11: 垣間見る
+		Verb10: 踏む
+		Verb9: たどる
+		Verb8: 上昇する
+		Verb7: 融合する
+		Verb6: 燃え上がる
+		Verb5: 歩く
+		Verb4: 予見する
+		Verb3: 占う
+		Verb2: 超越する
+		Verb1: 屈折する
+		Determiner2: その
+		Determiner1: 一つの
+	}
+}
+
+MenuThemes: {
+	AvatarWindMainMenu: {
+		DisplayName: Turbulent Expanse
+	}
+
+	AvatarRiftSkyMainMenu: {
+		DisplayName: The Insouciant, Carmine Yonder
+	}
+
+	NamelessDeityDimensionMainMenu: {
+		DisplayName: Paradise's Shining Backdrop
+	}
+
+	EternalGardenMainMenu: {
+		DisplayName: Creation's Center
+	}
+
+	AscentMainMenu: {
+		DisplayName: ascent
+	}
+}
+
+Items: {
+	FancyRopeSet: {
+		Tooltip: ""
+		DisplayName: ファンシーロープセット
+	}
+
+	StrangeFlagpole: {
+		FlatEnoughText: ここならちょうどいいね！
+		NotFlatEnoughText: ここはちょっと難しいかも...
+		Tooltip:
+			'''
+			ソリンがキャンプを設営する場所を決めるのに使える  
+			旗の近くに十分な広さの平らな場所がないと、キャンプを設営できないので注意  
+			この旗柱を設置すると、地形が適しているかを確認できる
+			'''
+		DisplayName: 奇妙な旗
+	}
+
+	SolynTelescopeResetter: {
+		Tooltip: ソリンの望遠鏡の状態をリセットし、再び修理できるようにする。
+		DisplayName: ソリンの望遠鏡リセッター(DEBUG)
+	}
+
+	SolynQuestSkipper: {
+		Tooltip: ソリンの会話やクエストをすべて完了させ、すぐに創世の樹を目覚めさせられるようにする。
+		DisplayName: ソリンクエストスキップツール(DEBUG)
+	}
+
+	ParadiseDye: {
+		Tooltip: ""
+		DisplayName: 楽園の染料
+	}
+
+	SeedOfWill: {
+		Tooltip:
+			'''
+			無名の神と終わりなき試練に挑む
+			庭園でのみ使用可能
+			長く生き延びられれば報酬が得られるかもしれない...
+			'''
+		DisplayName: 意志の種
+	}
+
+	GenderDye: {
+		Tooltip: ""
+		DisplayName: 性別の染料
+	}
+
+	ExoticSeedBag: {
+		Tooltip:
+			'''
+			虚無の化身を召喚するための必要素材が全て入っている
+			召喚するには、全ての種を近くに植え、「氷祝の苗木」が完全に成長した後に右クリックすること
+			[c/FF2219:注意：このアイテムは後方互換性のためのもので、新しいワールドでは使用を想定していません！]
+			'''
+		DisplayName: 異国の種袋
+	}
+
+	SolynBookshelfResetter: {
+		Tooltip: ソリンの本棚にあるすべての本と、未受領の報酬をリセットする
+		DisplayName: ソリンの本棚リセットツール (DEBUG)
+	}
+
+	WorldUpdater: {
+		Tooltip:
+			'''
+			ワールドのバージョンデータを最新のものに更新する
+			これにより、古いワールドでも新バージョンの条件が適用される
+			例：ソリンのクエストラインが新しく作成された時、など
+			'''
+		DisplayName: ワールドバージョン更新ツール(デバッグ)
+	}
+
+	WulfrumAssemblyGuide: {
+		Tooltip:
+			'''
+			有名な発明家が作成した、わかりづらい説明書
+			様々な道具について書かれているが、ほとんどが馴染みのないものだ
+			知っている素材も、かなり奇妙な方法で使われている...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は帯電した機械から入手できるかもしれない...]"
+		DisplayName: ウルフラム組立ガイド
+	}
+
+	UnfinishedColoringBook: {
+		Tooltip:
+			'''
+			簡単な天体風景が描かれた塗り絵帳
+			約3分の2のページは見事な彩色が施されている
+			残りはまったく手がつけられていない...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は時折、キャンプ近くで見つかるかもしれない...]"
+		DisplayName: 未完成の塗り絵帳
+	}
+
+	TheBookOfShaders: {
+		Tooltip:
+			'''
+			シェーダーの作成やプログラムによるアート制作に関する解説書
+			7ページもピクセルアートの神聖さについての説教に費やされている...
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: シェーダーの書
+	}
+
+	SulfuricLeaflet: {
+		Tooltip:
+			'''
+			酸性雨の危険性について説明する小さなチラシ
+			放射線を帯びているようだ...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は硫黄の洞窟で見つかるかもしれない...]"
+		DisplayName: 硫黄のチラシ
+	}
+
+	SeamapCollection: {
+		Tooltip:
+			'''
+			さまざまな海図がまとめられたコレクション
+			地図上の印は、どうやら財宝の場所を示しているようだ
+			だが、描かれた場所に見覚えはない...
+			どこにあるのだろうか
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は海賊の船長が持っているかもしれない...]"
+		DisplayName: 海図コレクション
+	}
+
+	SanguineWildlife: {
+		Tooltip: ""
+		ObtainmentHint: ""
+		DisplayName: 紅血の野生生物
+	}
+
+	Otherworldly6: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:ダンジョンの特別な宝箱の中にあるかもしれない...]"
+		DisplayName: 異界の書 VI
+	}
+
+	Otherworldly5: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 異界の書 V
+	}
+
+	Otherworldly4: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 異界の書 VI
+	}
+
+	Otherworldly3: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:珍しい鮮やかなスライムの中にあるかもしれない...]"
+		DisplayName: 異界の書 III
+	}
+
+	Otherworldly2: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は取り出し機で手に入れられるかもしれない...]"
+		DisplayName: 異界の書 II
+	}
+
+	Otherworldly1: {
+		Tooltip:
+			'''
+			見たことがない言語で書かれている...
+			ソリンなら何か知っているかもしれない...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本はツボから見つかるかもしれない...]"
+		DisplayName: 異界の書 I
+	}
+
+	MagicLexicon: {
+		Tooltip:
+			'''
+			魔法に関する辞典
+			以下の説明が記されている...
+
+			インソーソル：誰かを魅了または幻惑する行為
+			ゴエティア：魔導書を通じて伝えられる魔術の一形態
+			グラマリー：秘術を学ぶ過程
+			ミスタゴーグ：神秘や秘教を教える者
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 魔法辞典
+	}
+
+	InvisibleInkDissertation: {
+		Tooltip:
+			'''
+			何も書いていないように見えるが、確かに何かが書かれていると感じる...
+			好奇心が精神を蝕んでいく...
+			'''
+		ObtainmentHint: "[c/F79BC6:普通の本を変質させることで手に入るかもしれない...]"
+		DisplayName: 透明インクの論文
+	}
+
+	InstructionManual: {
+		Tooltip:
+			'''
+			「Terraria」というゲームの取扱説明書
+			以下のようなアドバイスが書かれている...
+			「何をすればいいか分からない？ 新しい世界を作成するとすぐに現れるタウンNPC『ガイド』に相談しよう！
+			　間違って壁を設置してしまい、壊せない？ ハンマーを作って壊そう！
+			　タウンNPCが住むには、十分な空間、壁、椅子、テーブル、光源が必要だ！」
+			　...少しバカにされている気がする...
+			'''
+		ObtainmentHint: "[c/F79BC6:強大な月の存在がこの本を所持している...]"
+		DisplayName: 取扱説明書
+	}
+
+	HiTechInstructionManual: {
+		Tooltip: 4体のハイテク自律型ロボットの構造に関する奇妙な記述が書かれている...
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 高度な取扱説明書
+	}
+
+	FrostyPamphlet: {
+		Tooltip: あまりに冷たくて、凍りついたページの文字が読めない...
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 凍りついたパンフレット
+	}
+
+	FishingCatalogue: {
+		Tooltip: 釣り関連のカタログで、その精密さと詳細さは驚異的だ...
+		ObtainmentHint: "[c/F79BC6:この本は釣りの報酬として手に入るかもしれない...]"
+		DisplayName: 釣りカタログ
+	}
+
+	FanaticalRamblings: {
+		Tooltip: 本を開くと、説明できないほどの憎悪が込み上げてくる...
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 狂信的な戯言の書
+	}
+
+	ExoBlueprints: {
+		Tooltip:
+			'''
+			アレス、タナトス、アルテミス、アポロの設計図と、ドレイドンが書き残した技術的なメモ
+			特に自律行動アルゴリズムと戦闘戦略に関する一節が目を引く...
+
+			「シミュレーションテストの結果、アルテミス、アポロ、アレスは精密な航空能力を完全に放棄した方が戦闘効率が最大化することが判明した。これは不合理だが、非常に興味深い。」
+
+			この結論には思わず納得してしまう...
+			'''
+		ObtainmentHint: "[c/F79BC6:科学者を攻撃すると入手できるかもしれない...]"
+		DisplayName: エクソ関連の設計図
+	}
+
+	DustyDiary: {
+		Tooltip:
+			'''
+			個人的な日記帳
+			あまりに古く、すべてのページが塵となり、記された知識は永遠に失われている...
+			想像力豊かな読者には最適の一冊！
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 埃まみれの日記
+	}
+
+	DubiousSpellbook: {
+		Tooltip:
+			'''
+			未知の呪文書の製法と、その入手方法について記された魔導書
+
+			- スカーレットマリソン：スペルブック×1,ファイアブロッサム×4, 闇夜のソウル×10, 無影のシルク×3, ブラッドストーン×3
+			- エーテルクラッシュ：スペルブック×1, ドリームウィーバーの種×3, 光のソウル×10, ネビュラの断片×8
+			- テネブラスシルバーグロー: スペルブック×1, ダークプラズマ×1, プラチナのインゴット×3, ウィスパールートの樹皮×20、エレウムのコア×1
+			'''
+		ObtainmentHint: "[c/F79BC6:洞窟に時折現れる魔法使いが持っている...]"
+		DisplayName: 怪しげな魔導書
+	}
+
+	DubiousBrochureCrimson: {
+		Tooltip:
+			'''
+			旅行者を真紅地帯に招待する、陽気な宣伝文句が並んだパンフレット
+			掲載されている写真は明らかに事実とは異なり、妙に魅力的に加工されている
+
+			一体誰が作ったのか...
+			'''
+		ObtainmentHint: "[c/F79BC6:真紅の大地で見つかるかもしれない...]"
+		DisplayName: 怪しげなパンフレット
+	}
+
+	DubiousBrochureCorruption: {
+		Tooltip:
+			'''
+			旅行者を不浄地帯に招待する、陽気な宣伝文句が並んだパンフレット
+			掲載されている写真は明らかに事実とは異なり、妙に魅力的に加工されている
+
+			一体誰が作ったのか...
+			'''
+		ObtainmentHint: "[c/F79BC6:不浄地帯の谷底で見つかるかもしれない...]"
+		DisplayName: 怪しげなパンフレット
+	}
+
+	CloverManual: {
+		Tooltip:
+			'''
+			「運の仕組み」なるものについて説明している奇妙な小冊子
+			ランタンの夜、蹄鉄、庭のノーム、そして「ギャラクシーパール」と呼ばれる謎の物体など、幸運の源となるものについて記述されている
+			また、てんとう虫を大切に扱うよう注意を促す警告も書かれている
+
+			なぜか、最後のページは色付きの松明についての長々しい考察に割かれている...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本を手に入れるには相当な幸運が必要かもしれない...]"
+		DisplayName: クローバーの手引書
+	}
+
+	BestPriceBestiary: {
+		Tooltip:
+			'''
+			本には様々な生物が載っている―見覚えのあるものもいれば、未知のものもいる
+			最初のページには、子供の落書きのような粗雑なスライムのイラストとともに、体力が13,575あると記されている...
+
+			これはさすがにデタラメだろう...
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 安値の魔物図鑑
+	}
+
+	AncientWritings: {
+		Tooltip:
+			'''
+			古い本
+			悪魔の呪いとされるものについて詳述されており、その影響についての不穏な記述が並んでいる
+			適当にページをめくると、次のような一節が見つかる...
+
+			「...五度目の巡礼の夜、呪われし者の肉体は一時的に剥がれ落ち、内より骸骨の姿が現れ、耐え難い苦痛を...」
+
+			これ以上読むのはやめておくことにした...
+			'''
+		ShopTooltip: 購入するまで内容は読めない
+		ObtainmentHint: "[c/F79BC6:呪われている何者かが所持しているかもしれない...]"
+		DisplayName: いにしえの本
+	}
+
+	AcidicPrayerbook: {
+		Tooltip:
+			'''
+			かなり古びた書物
+			読める範囲では、その内容は敬虔なもののようだ
+			また、豚のような生物、ドラゴン、そして“海の硫黄の恐怖”と呼ばれる存在など、多くの一般的な話題について触れられている。
+
+			これ以上は読めない...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は酸性雨と関係があるようだ...]"
+		DisplayName: 酸性の祈祷書
+	}
+
+	AbsenceNotice: {
+		Tooltip:
+			'''
+			誰かの不在を示す謎めいた紙切れ
+			Xという署名がされている
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は水底の深奥で見つかるかもしれない...]"
+		DisplayName: 不在通知
+	}
+
+	AberrantWritings: {
+		Tooltip:
+			'''
+
+			「...」
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
+		DisplayName: 異常な文書
+	}
+
+	InscrutableTexts: {
+		Tooltip:
+			'''
+			文字はほとんど判読不能で、見慣れない魔法の用語がびっしりと詰まっている
+
+			「魔術の至高なる高みへと昇華することができるのは、最も洞察力に富み、叡智を備えた者のみである。
+			　幾千の夜を、銀色の監視のもとで学び続けた。我が身を凍てつく聖域に閉じ込め、理論と実践に没頭し...
+			　この書において、我が発見した深遠なる知識と、長年の研鑽により得た奥義を記す。」
+
+			......これ以上読むのはやめておこう
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は大魔道士の物だ...]"
+		DisplayName: 難解な文書
+	}
+
+	TwentyTwome: {
+		Tooltip:
+			'''
+			あまり有名ではない作家の奇妙な戯言が綴られた本
+			スズメバチと数字の22に関連する膨大な考察が記されている
+			最後のページには、「ホーネット・ラウンド」と呼ばれるものについて、陰鬱な調子で書かれている...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本はジャングルの植物の中にあるようだ...]"
+		DisplayName: 二十二書
+	}
+
+	OminousStorybook: {
+		Tooltip:
+			'''
+			[c/C69C97:鼓動、そして静寂]
+			[c/C69C97:星が息を吐き、種が石を裂く]
+
+			[c/C69C97:灰が風にまとわりつき、知らぬ森をささやく]
+			[c/C69C97:光は永遠の闇に溶け、新たな夜明けの中へ]
+			[c/C69C97:その端はほつれながら生まれ変わる]
+
+			[c/C69C97:世界は生まれ、そして消え、無限の泡に還る]
+
+			[c/C69C97:だが、時間は線ではない]
+			[c/C69C97:それは炎の花弁のように広がる]
+			 
+			[c/C69C97:花弁は内へと巻き]
+			[c/C69C97:灰は外へと舞い上がる]
+			[c/C69C97:始まりも終わりもない]
+			[c/C69C97:ただ、存在の流れがあるのみ]
+
+			[c/C69C97:聞こえるか？ 廃墟の底に響く静かな唸りを...]
+
+			[c/CEA3A3:運動の記憶—]
+			[c/EF908D:車輪の軸の回転]
+			[c/FF6660:閃光の跳躍]
+
+			[c/FF5171:目覚めゆく世界]
+			[c/FF274A:花の散る影の中から]
+			'''
+		ObtainmentHint: ""
+		DisplayName: 不吉な物語集
+	}
+
+	HowToFly: {
+		Tooltip:
+			'''
+			最初のページにはこう書かれている...
+			『ジャンプボタンを押し続けろ』
+
+			...残りの96ページは白紙だった...
+			'''
+		ObtainmentHint: "[c/F79BC6:この本は空のどこかにあるかもしれない...]"
+		DisplayName: 飛行の手引き
+	}
+
+	FuturisticTreatise: {
+		Tooltip: ""
+		ObtainmentHint: "[c/F79BC6:この本は戦闘機械の四重奏と何か関係があるかもしれない...]"
+		DisplayName: 未来学の論文
+	}
+
+	DecayingTome: {
+		Tooltip:
+			'''
+			ほとんどの内容が朽ち果て、ページはボロボロになっている...
+			これ以上書き込むスペースはなさそうだ...
+			'''
+		ObtainmentHint: "[c/F79BC6:これは自分で探してみたほうがいいかもしれない...]"
+		DisplayName: 腐敗した書物
+	}
+
+	Cactome: {
+		Tooltip:
+			'''
+			この本にはたった1ページだけ文章がある
+
+			「手は大丈夫？」
+			'''
+		ObtainmentHint: "[c/F79BC6:砂丘の下で転がっている何かに隠されているかもしれない...]"
+		DisplayName: カクトーム
+	}
+
+	BookOfMiracles: {
+		Tooltip: ページの内容は、目に焼きつくライム色の分解効果によって判読不能になっている...
+		ObtainmentHint: "[c/F79BC6:この本は戦闘機械の四重奏と関係があるかもしれない...]"
+		DisplayName: 奇跡の書
+	}
+
+	BibleOfSlime: {
+		Tooltip:
+			'''
+			はじめに、原始の泥の深淵から、純粋にして不屈なる存在、グーズマが生まれた
+			その可変する姿から優雅さと知恵が生まれ、全てのスライムに神聖な火花が宿った
+
+			しなやかな者は祝福される
+			彼らは運命の試練によって砕かれることなく、時の流れとともに進むであろう
+			形なき者は祝福される
+			彼らは常に道を見つけるであろう
+
+			すべてのものは、スライムの形において創造の流れと一体となる
+
+			アーメン
+			'''
+		ObtainmentHint: "[c/F79BC6:スライムがこの本を持っているかもしれない...]"
+		DisplayName: スライムの聖書
+	}
+
+	AppleThesis: {
+		Tooltip:
+			'''
+			リンゴの無限の用途についての論文だ！
+			ソース、バター、シードル、装飾、ポプリ.......
+
+			どうやらリスが書いたらしい...
+			'''
+		ObtainmentHint: "[c/F79BC6:木の上にこの本が隠されているかもしれない...]"
+		DisplayName: リンゴの論文
+	}
+
+	RageOfTheDeities: {
+		Tooltip:
+			'''
+			この書物は次の一節から始まる：
+
+			「すべてを支配するために争う二つの存在は、
+			　時の流れを見失っていった」
+			'''
+		ObtainmentHint: "[c/F79BC6:A 「ブリムストーンの軌跡」がこの本の入手方法を明かすかもしれない...]"
+		DisplayName: 神々の怒り
+	}
+
+	GardenFountain: {
+		Tooltip: ""
+		DisplayName: 庭園の噴水
+	}
+
+	GraphicalUniverseImager: {
+		Tooltip: 設置して右クリックすると、さまざまなカスタム背景エフェクトを有効にできる
+		DisplayName: グラフィカル・ユニバース・イメージャー
+	}
+
+	EndCreditsMusicBox: {
+		Tooltip: Moonburn制作の「Wrath of the Gods」を再生する
+		DisplayName: オルゴール (クレジット)
+	}
+
+	StellarRequiemMusicBox: {
+		Tooltip: Moonburn制作の「Stellar Requiem」を再生する
+		DisplayName: オルゴール (物憂げなキャンプ地)
+	}
+
+	SvalbardMusicBox: {
+		Tooltip: Moonburn制作の「Svalbard」を再生する
+		DisplayName: オルゴール (パーマフロストの砦)
+	}
+
+	AscentMusicBox: {
+		Tooltip: ENNWAY & Moonburn制作の「ascent」を再生する
+		DisplayName: オルゴール (光輝く階段)
+	}
+
+	TheTelescopeSongMusicBox: {
+		Tooltip: Moonburn制作の「The Telescope Song」を再生する
+		DisplayName: オルゴール (望遠鏡)
+	}
+
+	RiftEclipseBlizzardMusicBox: {
+		Tooltip: Moonburn制作の「-273.15」を再生する
+		DisplayName: オルゴール (裂空の日蝕 - 吹雪)
+	}
+
+	RiftEclipseMusicBox: {
+		Tooltip: Moonburn制作の「nowhere now here」を再生する
+		DisplayName: オルゴール (裂空の日蝕)
+	}
+
+	RiftEclipseFogMusicBox: {
+		Tooltip: Lucille Karma制作の「Mirrortwist」を再生する
+		DisplayName: オルゴール (裂空の日蝕 - 霧)
+	}
+
+	HemolacriaMusicBox: {
+		Tooltip: Moonburn制作の「Hemolacria」を再生する
+		DisplayName: オルゴール (裂空の日蝕 - ブラッドムーン)
+	}
+
+	NilkSongMusicBox: {
+		Tooltip: ENNWAY!制作の「The Nilk Song」を再生する
+		DisplayName: オルゴール (Nilk)
+	}
+
+	MarsMusicBox: {
+		Tooltip: Moonburn制作の「RAMifications」を再生する
+		DisplayName: オルゴール (マーズ)
+	}
+
+	AvatarOfEmptinessP3MusicBox: {
+		Tooltip: ENNWAY!制作の「Paradise Parasite」を再生する
+		DisplayName: オルゴール (虚無の化身 - フェーズ 3)
+	}
+
+	AvatarOfEmptinessP2MusicBox: {
+		Tooltip: ENNWAY!制作の「Paradise Parasite」を再生する
+		DisplayName: オルゴール (虚無の化身 - フェーズ 2)
+	}
+
+	AvatarRiftMusicBox: {
+		Tooltip: ENNWAY!制作の「Static」を再生する
+		DisplayName: オルゴール (虚無の化身の裂け目)
+	}
+
+	StaffOfRejuvenation: {
+		Tooltip: 土や草地に使用すると特別な草を育てることができる
+		DisplayName: 再生の杖
+	}
+
+	NamelessAuricSoul: {
+		Tooltip: ""
+		DisplayName: 至高のオーリックソウル
+	}
+
+	AvatarAuricSoul: {
+		Tooltip: ※これは公式設定ではありません
+		DisplayName: グロテスクな黄金の魂
+	}
+
+	HandwrittenNote: {
+		Tooltip:
+			'''
+			ソリンが最近書いた手書きのメモのようだ
+			クリックで内容を確認できる
+			'''
+		DisplayName: 手書きのメモ
+	}
+
+	BlazingBud: {
+		Tooltip:
+			'''
+			凄まじい力を秘めた苗木
+			かすかに悲鳴や泣き声、地獄の炎の爆ぜる音が聞こえる...
+			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
+			'''
+		DisplayName: 燃える苗木
+	}
+
+	PluripotentSprout: {
+		Tooltip:
+			'''
+			ぬめぬめとした虹色の光を放つ苗木
+			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
+			'''
+		DisplayName: 万能の苗木
+	}
+
+	SyntheticSeedling: {
+		Tooltip:
+			'''
+			ドレイドンが持続可能なエネルギー源として原子レベルで製造した人工の苗木
+			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
+			'''
+		DisplayName: 人工苗木
+	}
+
+	TheAntiseed: {
+		Tooltip:
+			'''
+			謎の裂け目へ封印された古代の苗木
+			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
+			'''
+		DisplayName: 呪われた苗木
+	}
+
+	FrostblessedSeedlingItem: {
+		Tooltip:
+			'''
+			パーマフロストの砦から見つかった、冷たく魔力を帯びた苗木
+			[c/D22444:「適切に育てれば、無限の可能性を解き放てるだろう」]
+			'''
+		DisplayName: 氷祝の苗木
+	}
+
+	Genesis: {
+		Tooltip: 神なき胎動、ノクサスを召喚する
+		DisplayName: 創世
+	}
+
+	SolynQuestResetter: {
+		Tooltip: ソリンの全クエスト状態を初期化
+		DisplayName: ソリンのクエストリセットツール (DEBUG)
+	}
+
+	DormantKey: {
+		Tooltip:
+			'''
+			パーマフロストからのお礼として贈られた不思議な鍵
+			[c/53C0EF:ソリンなら、何か知っているかもしれない...]
+			'''
+		DisplayName: 眠れる鍵
+	}
+
+	Moonscreen: {
+		TooltipClosed:
+			'''
+			開いている間、無名の神を召喚せずに樹の下で月の光を浴びることができる
+			右クリックで開くと効果が有効化される
+			'''
+		Tooltip:
+			'''
+			開いている間、無名の神を召喚せずに樹の下で月の光を浴びることができる
+			右クリックで閉じると効果が無効化される
+			'''
+		DisplayName: 月の帳
+	}
+
+	TriadicFractureDye: {
+		Tooltip: ""
+		DisplayName: 三相断裂の染料
+	}
+
+	SuperstarDye: {
+		Tooltip: ""
+		DisplayName: スーパースターの染料
+	}
+
+	SuperstarHairDye: {
+		Tooltip: ""
+		DisplayName: スーパースターの髪染め
+	}
+
+	StarlitCampfire: {
+		Tooltip: ""
+		DisplayName: 星明かりの焚き火
+	}
+
+	Dreamcatcher: {
+		Tooltip:
+			'''
+			特別な浮き針を3つ放つ
+			1つ目は通常の魚を釣る
+			2つ目はクエストの魚のみ釣る
+			3つ目はクレートのみ釣る
+			溶岩で釣りができる
+			[c/F79BC6:「磁力みたいな仕組みだけど、もっとすごい！」]
+			'''
+		DisplayName: 夢捕りの釣り竿
+	}
+
+	LotusOfCreation: {
+		SellText: これはソリンとあなたの大切なものだ。他の人には渡せない。
+		Tooltip:
+			'''
+			ソリンとあなたのために作られた唯一無二の花
+			右クリックで無敵状態になれる
+			'''
+		DisplayName: 創造の蓮
+	}
+
+	PerversePurse: {
+		InfoLine: このバッグには{1}の{0}が収納されている
+		Tooltip:
+			'''
+			空間を内包する特殊なバッグ
+			使用すると近くのタウンNPCを最大3人まで吸い込み収納できる
+			右クリックで最後に捕まえたNPCを現在位置に解放する
+			バッグに収納されている間、そのNPCは自然スポーンしない
+			バッグが破壊されるか、NPCを解放すると通常のスポーンが再開される
+			[c/F79BC6:「私はよく収納用に使ってるよ。ポケットが軽くなるしね！]
+			[c/F79BC6:　キミもきっと便利な使い道を見つけられるよ！」]
+			'''
+		DisplayName: 歪んだバッグ
+	}
+
+	PortalSkirt: {
+		Tooltip: 「意外にも、腰までしか浸からない」
+		DisplayName: ポータルスカート
+	}
+
+	StarshapersWill: {
+		Tooltip: ""
+		DisplayName: 星造りの意志
+	}
+
+	EasyAvatarSummoner: {
+		AlternateTooltip: 左クリックで第二段階の裂け目を召喚、右クリックで第一段階の裂け目を召喚
+		Tooltip: 闇の者の裂け目を開く
+		DisplayName: 簡易虚無の化身召喚器 (デバッグ)
+	}
+
+	AvatarDeathToggler: {
+		Tooltip: ""
+		DisplayName: 虚無の化身の死の切替ツール (デバッグ)
+	}
+
+	NamelessDeityDeathToggler: {
+		Tooltip: ""
+		DisplayName: 無名の神の死切替ツール (デバッグ)
+	}
+
+	SolynTentSpawner: {
+		Tooltip: ""
+		DisplayName: ソリンのテントスポナー (デバッグ)
+	}
+
+	CinnamonRollyn: {
+		Tooltip:
+			'''
+			全ステータスを大幅に強化
+			[c/F79BC6:「この甘さの秘密？それは私の名前をもじったダジャレだよ！」]
+			'''
+		DisplayName: シナモンローリン
+	}
+
+	PlatinumTelescope: {
+		Tooltip: ""
+		DisplayName: プラチナの望遠鏡
+	}
+
+	StarblessedPlatform: {
+		Tooltip:
+			'''
+			この足場同士が水平に届く範囲なら、光の橋を投影し歩行可能になる
+			この光は、発生源の足場を破壊しない限り消えない
+			足場同士の接続距離は最大222ブロック
+			空中にも設置可能
+			[c/F79BC6:「すごいでしょ？まるで天へ続く階段みたい！」]
+			'''
+		DisplayName: 星の祝福の足場
+	}
+
+	StarlitForge: {
+		Tooltip:
+			'''
+			万能な作業台で、作業台、かまど、金床...それら全ての機能を兼ね備えている
+			さらに、なぜか「シナモンローリン」を無から創り出せる
+			[c/F79BC6:「どうやって使うのかって？普通のかまどと変わらないよ！」]
+			'''
+		DisplayName: 星輝の炉
+	}
+
+	GoldTelescope: {
+		Tooltip: ""
+		DisplayName: 黄金の望遠鏡
+	}
+
+	SolynDeleter: {
+		Tooltip: ""
+		DisplayName: ソリン削除ツール (デバッグ)
+	}
+
+	SolynFollowSpawner: {
+		Tooltip: ""
+		DisplayName: 追尾型ソリンスポナー (デバッグ)
+	}
+
+	WrathOfTheGods: {
+		Tooltip:
+			'''
+			「名もなき神の怒りを恐れよ、Redigit...」
+			「名もなき、神々の怒り」
+			'''
+		DisplayName: 神々の怒り
+	}
+
+	Worldbuilding: {
+		Tooltip: 「スモリン」
+		DisplayName: 絵画「世界構築」
+	}
+
+	SolynStatue: {
+		Tooltip: ""
+		DisplayName: ソリンの像
+	}
+
+	MoonBurnDye: {
+		Tooltip: ""
+		DisplayName: 月炎の染料
+	}
+
+	GodglimmerDye: {
+		Tooltip: ""
+		DisplayName: 神煌の染料
+	}
+
+	Erilucyxwyn: {
+		Tooltip:
+			'''
+			それで、どうやってこれを手に入れた？
+			たまたまドロップしたか、それともバカげた根気試しの結果か？
+			...もしかして、チート許可証を使ってDragonLens経由で手に入れたのか？
+
+			「輝ける川から運ばれ、無数の時をかけて自ら育んだもの
+			　神の恩寵を受けし者への報酬」
+			'''
+		DisplayName: エリルシクスウィン
+	}
+
+	InterstellarBait: {
+		Tooltip:
+			'''
+			消費しない
+			「どういうわけか、これは魚を引き寄せる」
+			'''
+		DisplayName: 星間のエサ
+	}
+
+	Veilray: {
+		QuestionCatchLocation: 海で釣れる
+		QuestDescription:
+			'''
+			この世界が暗くなって以来、さまざまな種類の素晴らしい魚が現れるようになった！そのひとつがヴェールレイで、海面近くを時折泳ぐ青白い魚なんだ。
+			安全かどうかは知らないけど、そんなことはどうでもいいんだ。重要なのは、さっさと捕まえてきてほしいんだよ！
+			'''
+		Tooltip: ""
+		DisplayName: ヴェールレイ
+	}
+
+	SolynDialogueResetter: {
+		Tooltip: ""
+		DisplayName: ソリンダイアログリセットツール(デバッグ)
+	}
+
+	StarKite: {
+		Tooltip:
+			'''
+			凧は風の強い日にのみ飛ばすことができる
+			右クリックで巻き取る
+			'''
+		DisplayName: 星の凧
+	}
+
+	AvatarTreasureBag: {
+		Tooltip: ""
+		DisplayName: トレジャーバッグ(虚無の化身)
+	}
+
+	GoodDye: {
+		Tooltip: ""
+		DisplayName: 良い染料
+	}
+
+	ScarletShadeDye: {
+		Tooltip: ""
+		DisplayName: 緋色の影の染料
+	}
+
+	DichromaticGlossDye: {
+		Tooltip: ""
+		DisplayName: 二色の光沢の染料
+	}
+
+	Xenqiterthralyensyr: {
+		Tooltip: 作者の名前は長い時の流れにより失われてしまった...
+		DisplayName: ゼンキテラスリエンシル
+	}
+
+	Starseed: {
+		Tooltip: ""
+		DisplayName: 星の種
+	}
+
+	NamelessDeityTreasureBag: {
+		Tooltip: ""
+		DisplayName: トレジャーバッグ(無名の神)
+	}
+
+	NamelessDeityTrophy: {
+		Tooltip: ワイヤーから信号を受け取ると、目はプレイヤーが近づくまで閉じたままになります
+		DisplayName: 無名の神のトロフィー
+	}
+
+	NamelessDeityRelicItem: {
+		Tooltip: ""
+		DisplayName: 無名の神のレリック
+	}
+
+	NamelessDeityMusicBoxP3: {
+		Tooltip: Heart Plus Up! & ENNWAY!制作の「REPLACED VIA CODE DONT CHANGE THIS」を再生する
+		DisplayName: オルゴール (無名の神 - 最終フェーズ)
+	}
+
+	NamelessDeityMusicBox: {
+		Tooltip: Heart Plus Up! & ENNWAY!制作の「Twisted Garden」を再生する
+		DisplayName: オルゴール (無名の神)
+	}
+
+	NamelessDeityMask: {
+		Tooltip: 「あなたの顔は1984年風にされるだろう」
+		DisplayName: 無名の神のマスク
+	}
+
+	ThePurifier: {
+		Tooltip:
+			'''
+			世界全体を元の状態にリセットします
+			このプロセスには少し時間がかかることがあるため、ゲームがフリーズしても驚かないでください
+			一度投げると、爆弾は15秒後に爆発します
+			もし誤って投げてしまった場合は、メニューの「保存して終了」を押せば爆発を防げます
+			2012
+			'''
+		DisplayName: 浄化
+	}
+
+	Terminal: {
+		Tooltip:
+			'''
+			現在の状態ではボスラッシュをイベントとして動作させないようになっています
+			現状では、(少数のチャレンジが含まれてはいますが)ただの長時間の作業になってしまっています
+			しかし、イベントを楽しんだり、テストに役立てたいと考える方々に
+			別の体験方法を提供することが最適だと判断しました
+			'''
+		DisplayName: 終焉の遺物
+	}
+
+	StarCharm: {
+		Tooltip:
+			'''
+			インベントリにある間、運と夜間の流星群発生確率を大きく上昇させる
+			[c/F79BC6:「私が作ったの！役に立ててね」]
+			'''
+		DisplayName: スターチャーム
+	}
+
+	OblivionChime: {
+		Tooltip: ""
+		DisplayName: 忘却のベル
+	}
+
+	NuminousDye: {
+		Tooltip: ""
+		DisplayName: 神秘的な染料
+	}
+
+	AvatarTrophy: {
+		Tooltip: ""
+		DisplayName: 虚無の化身のトロフィー
+	}
+
+	EmptinessSprayer: {
+		Tooltip:
+			'''
+			触れたものすべてを蒸発させる混沌の霧を発射する
+			「下等生物の99.99%を駆除！」
+			'''
+		DisplayName: 虚無スプレー
+	}
+
+	NoxusRelicItem: {
+		Tooltip: ""
+		DisplayName: 虚無の化身のレリック
+	}
+
+	NoxusMask: {
+		Tooltip: ""
+		DisplayName: 虚無の化身のマスク
+	}
+
+	RiftEclipseToggler: {
+		Tooltip: ""
+		DisplayName: 裂空の日蝕切り替えツール (デバッグ)
+	}
+
+	NoxiousEvocator: {
+		Tooltip: 宇宙の幻覚があなたの周りに表れる
+		DisplayName: 不快な喚起因子
+	}
+
+	NilkCarton: {
+		Tooltip:
+			'''
+			[c/FF0832:光過敏症の方は使用しないでください]
+			ニルクの効果が出るまで時間がかかる
+			「異次元の乳糖不耐症は存在するのか？」
+			'''
+		DisplayName: ニルクパック
+	}
+
+	MetallicChunk: {
+		Tooltip: 「亡き宇宙の最後の残骸」
+		DisplayName: 金属片
+	}
+
+	LoreNamelessDeity: {
+		Lore: ""
+		Tooltip:
+			'''
+			[c/E3AF40:高みからのささやきが耳元で踊っている...]
+			より近くで聞くには「左シフト」を押す
+			'''
+		DisplayName: 無名の神
+	}
+
+	LoreAvatar: {
+		Lore:
+			'''
+				　　　漆黒の形、　凍てつく霧。　閉ざされた世界　　への広がり。
+			　　孤独なる闇の化身。喰らわんとし、　探求せんとすれど、
+			　時は拒む。 鏡の捻じれ。崩壊。 血に濡れた、哀しみの光景
+			　　　　刹那
+			　　　　　　息吹。
+
+			　　凍てついた断片
+			朽ち果てた風へ　　祈りを捧げよ。
+			　紅き無限の　　　　へと崩れ落ちる。
+
+			　幾重の色彩は、迫りくる闇の手により、極小へと還る。
+
+			　　　　古き神の嘆きに　捧げられる、宇宙の挽歌
+
+			　　墜ちよ　墜ちよ		墜ちよ					墜ちよ
+			　　　　　墜ちよ
+
+			　眩き閃光の中、仮面は高次の領域を漂う。　　　すべては生と終焉の　　神聖なる光景の中で、芽吹き、朽ちる
+
+			　　　闇の化身、かの完璧な世界における　最も輝ける星。
+
+			　さあ、踊れ		　埋もれた運命の織物の中で
+			　　　　百合の花も育たない　過ぎ去った灰の上に己の運命を求めよ
+			'''
+		Tooltip:
+			'''
+			[c/E3AF40:墓場のざわめきが彼方から聞こえてくる...]
+			より近くで聞くには「左シフト」を押す
+			'''
+		DisplayName: 虚無の化身
+	}
+
+	GoodAppleResetter: {
+		Tooltip: ""
+		DisplayName: Good Appleリセットツール [デバッグ用]
+	}
+
+	GoodApple: {
+		TooltipPostNamelessDeity:
+			'''
+			良いリンゴは、良い木から遠くへ落ちることはない！
+			最大ライフを1増加
+			無制限に使用可能
+			'''
+		Tooltip:
+			'''
+			良いリンゴは、良い木から遠くへ落ちることはない！
+			試練を乗り越えねばならない
+			'''
+		DisplayName: Good Apple
+	}
+
+	FakeTerminus: {
+		Tooltip:
+			'''
+			Replaced
+			Replaced2
+			'''
+		OpenedTooltip: 眼が開いている...
+		UnopenedTooltip: 眼が閉じている...
+		BaseTooltip: 「深淵の底に封じられていた、途方もなく古い遺物」
+		DisplayName: 終焉の遺物
+	}
+
+	EternalGardenMusicBox: {
+		Tooltip: ENNWAY!作「Edenic Whispers」を再生する
+		DisplayName: オルゴール (永遠の庭園)
+	}
+
+	EntropicDye: {
+		Tooltip: ""
+		DisplayName: 終焉の染料
+	}
+
+	BlackHole: {
+		Tooltip: 「ただのブラックホール」
 		DisplayName: ブラックホール
-		Description: 無限の余弦が背後で蠢いている
 	}
 
-	StarPetBuff: {
-		DisplayName: 星
-		Description: 光があなたを導く！
+	DivineWings: {
+		Tooltip:
+			'''
+			水平速度: 16.67
+			加速度倍率: 3.7
+			崇高な垂直速度
+			飛行時間: ∞
+			「お前は試練を乗り越えた」
+			'''
+		DisplayName: 神聖な翼
 	}
 
-	BabyNamelessBuff: {
-		DisplayName: 名無しの神
-		Description: 問題ない。
+	DeificTouch: {
+		Tooltip: カーソルの後ろに光の次元を表示する
+		DisplayName: 神の手
 	}
 
-	NilkDebuff: {
-		DisplayName: ニルク
-		Description: ...
+	CheatPermissionSlip: {
+		Tooltip:
+			'''
+			おめでとう！ 今すぐDragonLens modをダウンロードしよう！
+			これはチートじゃない。この書類で許可されているんだ！
+			さあ、ダウンロードして。
+			今すぐ。
+			'''
+		DisplayName: チート許可証
 	}
 
-	StarstrikinglySatiated: {
-		DisplayName: 星の飽食
-		Description: すべてのステータスが劇的に向上し、ライフ自然回復が増進する
-	}
-
-	Glaciated: {
-		DisplayName: 氷結
-		Description: 動けない！
-	}
-
-	InvincibilityBuff: {
-		DisplayName: 花の力
-		Description: 蓮の加護が、すべてから守る
-	}
-
-	AntimatterAnnihilation: {
-		DisplayName: 反物質消滅
-		Description: 存在が消えていく...
+	Cattail: {
+		Tooltip: ""
+		DisplayName: ガマ
 	}
 }
 
-CellPhoneInfoOverrides: {
-	CrimsonDerechoText: 深紅の嵐
-	CryogenicMaelstromText: 氷結の暴風
-	DyingWorldFogText: 終焉の霧
-	EmptinessWeatherText: 虚無
-	MoonNotFoundText: 月なしの空
-	ParadiseReclaimedInfoText: P A R A D I S E
-	ParsecText: "{0} パーセク"
-	VisceralTyphoonText: 血風の大嵐
+GameTips: {
+	EternityTip: 感じるか？廃墟の下に響く、静かな振動が...
+	TheEndTip: 終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく
+	EmptinessSprayerTip: 99.99%の下等生物を消滅させるスプレーがあるらしい！
+	CheatPermissionSlipTip: 許可証があれば、それはチートではない！
+	ArenaTip: 足場の設置が面倒なら、星の祝福を受けた足場を使おう！
+	MetallicChunkTip: 金属の欠片3つで鉄のインゴット1つに変換できる！
+	InfernumTip: Infernum2...じゃない。
+	PhotosensitivityTip: Wrath of the Godsの視覚効果が強すぎると感じたら、設定で光過敏モードを有効にするのをおすすめします！
+	MirrorwalkerTip: 霧の中、自分自身の闇の映し身が潜む。
+	GardenTip: 楽園で休み、果実を味わうことこそ、最高の祝福である。
+	MiracleblightTip: 奇跡の書を参照せよ。
+	TerminusTip: 深紅の眼差しは、至高の存在の命令によってのみ開かれるという。
+	LotusTip: 蓮こそ、最も神聖な生命体である。
+	DebuffTip: ボスのデバフ効果は含まれません！
+	CattailTip: カタツムリの草を植えるのは、神聖なる通過儀礼だ。
+	EntropicGodTip: 終焉の神についてもっと知りたければ、Calamity Remix Modをやってみよう！
+	SuperstarTip: このModには、あなたの"推し"になるかもしれない人がいる...
+	RodOfHarmonyTip: ロッドオブハーモニーについての議論は、真剣に受け取るべきではない。
+	FlowersTip: 花は美しい。
+	God2Tip: 時に無知な神だけが、宇宙の貴重な星々を無造作に扱うことができる。
+	GodTip: 神がいれば、すべては可能となる！
+	TerminalTip: 伝説によれば、"終焉の遺物"が深淵に封じられているという。
+	BookTip: 知識は力なり。本は知識なり。
+	NilkTip: 異次元の乳糖不耐症は存在するのか？
+	CrashLogTip: ゲームがクラッシュしたりエラーが出たら、報告する時にログファイルを添えよう！必ず！
+	WeLoveOldDukeTip: 魚？豚？近所の親切なクトゥルフ神話的存在に任せよう！
+	GoodAppleTip: 美味しいリンゴが存在するらしい。
+	CrypticLoreTip: 拒まれた時間の中の、至福の夢。
+	PortalSkirtTip: ファッション次第で、どんなものでもスカートになる！
+	ShootTip: 解決できない問題がある？顔面に撃ち込め！
+	CinnamonRollynTip: シナモンローリンは星のように美味しい。
+	XenqiterthralyensyrTip: 時の彼方に消えたある職人は、至高の神性を描いたという。
+	BossesTip: ボス2体に1年もかかったらしい...
+	Time2Tip: 十分な時間が経てば、宇宙さえも白紙のキャンバスとなる。
+	TimeTip: 時間はすべての傷を深める。
+	StarsTip: 星を信じよ。
+	NamelessDeityTip: この世界には、お前が決して見るべきではないものが存在する。
 }
 
-Conditions: {
-	AfterSolynAppearance: ソリンが登場した後
-	BooksObtainable: WoTGの1.2アップデート後に生成された世界で入手可能
-	PreAvatarUpdateWorld: WoTGの1.2アップデートが適用されていない世界のみ
-	IsGFB: これは「Everything Seed」のドロップ率に関するもの
-	ObtainedBefore: 以前に少なくとも一度入手したことがある場合
+FannyDialog: {
+	NamelessLore2: うーん...やっぱり意味がわからないな。もしかして、ただのイヤな冗談？
+	NamelessLore1: おお！なんて神秘的な言葉の数々！意味はよくわからないけど、お父さんがくれたものなら、きっと重要なのかな？
+	AvatarLore2: まじで？僕も"前衛的"ってのは嫌いじゃないけど、これはやりすぎじゃない？「否定された時間」？ 「涙ぐむ光景」？ 「最小へと押し戻される」？こんなの、難しい言葉を並べて読者を混乱させて、深い話に見せかけようとしてるだけじゃないの？
+	AvatarLore1: うわぁ...この「虚無の化身」って奴、めちゃくちゃ謎めいてるね！何を言いたいのかさっぱり分からない...
+	NamelessDeityGFB3: どう対処するかって？知らねーよ。正直、こんなゲームに無駄に時間を使うくらいなら、ほかの面白いことをした方がいいと思うぞ。
+	NamelessDeityGFB2:
+		'''
+		ドミニクはアホなことをしやがった。
+		最初にカラミティのゼロックのキャラクターを盗んで、その後、まるでバカみたいに、単調で退屈な、
+		すげえエフェクトいっぱいの爆発するような技を使うボスを実装したんだ。
+		こんなに多くのエフェクトを無理矢理表示させやがって！ 
+		それにこのグラフィック効果は一体なんだ？！ これは、YouTubeのコメントのアホガキが頭を使わずに見て
+		「わーい、きれいなブルームとシェーダー！ とてもユニークに見えるよ！」って言うために作られたコンテンツだ。
+		しかもクソ重い。
+		今15fps以上も出てるか？？？
+
+		'''
+	NamelessDeityGFB1: 派手で...クソみたいだ、このくだらない戦いは。
+	RodOfHarmonyBreakEvil2: あの愚かな杖なしで勝ってみろよ、この無能な一発屋が！
+	RodOfHarmonyBreakEvil1: ハハハハハ！！！見てみろ！あの意味不明なピンクの棒にやっとクールダウンがついた！そのクールダウンは永遠だ！すごくないか？！
+	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！気をつけて、あの杖なしじゃかなり難しくなるかも！
+	FannyFuckingHATESSolyn:
+		'''
+		あのクソったれなソリンめ。おい、お前があの女と冒険してるのを何度も見てきたが、もう限界だ。もう我慢ならん！俺はあの女が大っ嫌いだ！！
+		偉そうにお前を引っ張り回しやがって...
+
+		『創世の樹を作らなきゃね、ふふ！』
+		『空の裂け目をなんとかしないと！』
+
+		はぁ？こいつ、自分がこの世界で誰よりも偉いとでも思ってるのか？おい、お前の親友は俺だろ？お前の唯一の友達だろ？
+		このシェイクスピア的悲劇のような世界を案内してやったのは誰だ？俺だ！
+		ソリンなんかが最初から身の程をわきまえていれば、こんなことにはならなかった。
+
+		殺せ。今すぐに殺せ。
+		あの女を、死を与えて解放してやれ。
+		気が付かれる前に...
+		'''
+	StairwayTextTop6: 選択権はないよ！
+	StairwayTextTop5: あ！あの場所を壊したときのこと、覚えてるよ！ 楽しかったな！
+	StairwayTextTop4: ノクサス？ ノクサスって誰？？ そのことについて、調べた方がいいかも...
+	StairwayTextTop3: それはちょっとひどくない？パパ...
+	StairwayTextTop2: それ、悪い方のファニーじゃない？
+	StairwayTextTop1: 待って、パパ？！！ あなたなの？？？
+	StairwayText5: まあ、そんなのはいいから、上へ進み続けてみよう！ きっと何かが起こる...はず！
+	StairwayText4: え、違うゲームの話なの...
+	StairwayText3: あ！「ケツワープ」って裏技、試してみたら？
+	StairwayText2: ビデオゲームの階段みたいだね。無限に続いているみたい...
+	StairwayText1: 階段？！これ、どこから出てきたの？ みんなはどこにいるの？ このことについてもうちょっと情報がほしいね...
 }
 
-Configs: {
-	WoTGConfig: {
-		DisplayName: メイン設定
-
-		DisplayConfigMessage: {
-			Label: 設定メッセージの表示
-			Tooltip: UIを見るようプレイヤーに指示するテキストオーバーレイのオン/オフを切り替えます。
-			WarningText:
-				'''
-				こんにちは！あなたはきっと
-				「なんだこのテキストは？邪魔だな」
-				と思ったことでしょう。
-				早速本題に入ります。
-				このMODは視覚効果が強く、視覚効果を抑える設定オプションを
-				変更することをオススメします。
-				これを説明する理由は、光過敏症の人たちのためです。
-				このメッセージは、
-				「メッセージの表示」の設定でオフにすることができます。
-				「設定」->「Mod設定」->
-				「Calamity: Wrath of the Gods」->「メイン設定」
-				に移動すると見つかります。
-				'''
-		}
-
-		PhotosensitivityMode: {
-			Label: 光過敏モード
-			Tooltip: 点滅アニメーションを含むエフェクトのオン/オフを切り替えます。関連する設定にも影響しますが、手動で変更可能です。
-		}
-
-		ScreenShatterEffects: {
-			Label: スクリーンシャッターエフェクト
-			Tooltip: 画面が割れるようなエフェクトをオン/オフします。目に負担が大きい場合は無効にしてください。
-		}
-
-		VisualOverlayIntensity: {
-			Label: 視覚オーバーレイ強度
-			Tooltip: ぼかしや色収差などの視覚効果の強度を調整します。
-		}
+Emotes: {
+	SolynEmote: {
+		Command: solyn
 	}
-}
-
-Credits: {
-	ArtworkTitle: Artists and Spriters:
-	SoundDesignTitle: Sound Designers:
-	ProgrammerTitle: Programmers:
-	MusicTitle: Musicians:
-	QualityAssuranceTitle: Quality Assurance Team:
-	PlayerThanks: And thank you, for playing our mod!
-	Ammyan: Ammyan
-	Angel: Angel
-	Beeleav: Beeleav
-	Blast: Blast
-	Blockaroz: Blockaroz
-	Bronze: Bronze
-	CDMusic: CDMusic
-	Citrus: Citrus
-	Ennway: Ennway
-	Fluffy: Fluffy
-	GamerXD: GamerXD
-	Habble: Habble
-	HeartPlusUp: Heart Plus Up
-	Healthy: healthy23
-	Ian: Ian
-	IbanPlay: IbanPlay
-	Iris: Iris
-	Jareto15: Jareto15
-	LGL: LGL
-	Lynel: Lynel
-	PurpleMattik: PurpleMattik
-	Moonburn: Moonburn
-	Myra: Myra
-	Pengolin: Pengolin
-	RedstoneBro: theredstonebro
-	Seasalt: Seasalt
-	Shade: Shade
-	Shuki: Shuki
-	Smh: smh my head
-	Spooktacular: spooktacular
-	SomeSnakeOilSalesman: SomeSnakeOilSalesman
-	Teiull: Teiull
-	TheIndividualMakingThisLocalizationFile: Lucille Karma
-	Vaikyia: Vaikyia
-	YuH: YuH
-}
-
-Death: {
-	AntimatterAnnihilation1: "{0}は存在しなかった。"
-	AntimatterAnnihilation2: "{0}はただ「いた」ことだけが残った。"
-	AntimatterAnnihilation3: "{0}の原子構造は崩壊した。"
-	AntimatterAnnihilation4: "{0}にとって、「強い力」は十分に強くなかった。"
-	AntimatterAnnihilation5: 強い力は{0}には十分ではなかった。
-	TestOfResolveDeath: "{0}は{1}分{2}秒耐え抜いた。"
 }
 
 Dialog: {
-	TerminusHintLine1: よくやった。
-	TerminusHintLine2: さあ、終焉の遺物を探せ。最後の試練が近づいている。
-	NamelessDeityAscendText: 昇れ。
-	NamelessDeityEnterGardenText: 最後の試練を始めよう。
-	NamelessDeityEndScreenText: お前は試練を乗り越えた。
-	NamelessDeityEndScreenSkipText: ESCAPEでスキップ
-	NamelessDeityPlayerDeathText: お前は乗り越えることができなかった。
-	NamelessDeityEndScreenMainMenuTip: お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。
-	NamelessDeityEmptinessSprayerTip: やめろ。
-	NamelessDeityStatusText: お前は最後の試練を乗り越えた。
-	NamelessDeityStatusPercentageText: お前は最後の試練を乗り越えた:
-	CattailText: ガマを設置した！
-	PurifierMultiplayerUseAlertText: 浄化装置は{0}によって設置されました。世界は 15 秒後にリセットされます。
+	SolynTestBuildup9: 私は、失敗した。
+	SolynTestBuildup8: そして...
+	SolynTestBuildup7: 私は悟った。求めるものを得るためには、自分の覚悟が試されるのだと。
+	SolynTestBuildup6: そして気づいた時には、この世のものとは思えない存在の前に立ち、見たこともないほど美しい世界に包まれていた。
+	SolynTestBuildup5: これを逃せば、二度とチャンスはないことはわかってた。
+	SolynTestBuildup4: 秘術の道具と古代の魔法を駆使し、創造主の目に留まるように呼びかけた。究極の知識と理解を求めて...
+	SolynTestBuildup3: そして私は、その瞬間に、誰もやったことのないことをしようとした...
+	SolynTestBuildup2: 言い伝えでは、その時、創造主がほんの一瞬だけこの世界を見つめると言われている...
+	SolynTestBuildup1: とっても運が良かったんだ。この時代に生まれてさ。私たちの恒星系の惑星がすべて一直線に並ぶ、そんな特別な瞬間に立ち会えるんだから。
+	SolynBackstory9: 今はただ、昔の仲間たちは、私のこと、私と同じくらい思い出してくれてるのかなって考えることしかできない。
+	SolynBackstory8: こんなチャンスを手にした人なんて、ほとんどいないんじゃないかな。
+	SolynBackstory7:
+		'''
+		知りたいという強い願いは、幼い頃からずっと私の中で燃え続けていた。
+		創造主に近づきたいという想いとともに。
+		'''
+	SolynBackstory6: でも、私は...未知なるものを追い求めることに取り憑かれていたんだ。
+	SolynBackstory5: 自然の風に口笛を吹いて過ごしていたの。
+	SolynBackstory4: 星々の旋律に合わせて歌を歌い、
+	SolynBackstory3: 私たちの種族は、平和で、知識を大切にし、信仰深い...
+	SolynBackstory2: 私の故郷は、豊かな緑が生い茂り、双子の太陽の優しい光に包まれた場所だった...
+	SolynBackstory1: ...もう気づいてるかもしれないけど、私はこの世界で生まれた存在じゃないんだ。
+	SolynHandwrittenNoteFarewellText:
+		'''
+		やあ！
+		キミが一生懸命、私の本棚にたくさんの本を集めてくれていたの、ちゃんと見てたよ！
+		正直言って、よくこんなに本を見つけたね。
+		よくわからない本もあったけど...スライムの聖書？なんてバカバカしい！
+		でも、ありがとね。
+
+		...さて、もしこれを読んでいるなら、私はもうキミのそばにいないってことかな。
+		もしかしたら、「創世の樹」に関して、何か間違ってしまったのかもしれない。
+		でも、キミならもう答えを知っているはず。
+
+		大したものじゃないけど...
+		私がいなくても、私を思い出せるように、シナモンロールのレシピを渡しておくね。
+		作るたびに、私と過ごした時間を思い出してくれたら嬉しいな。
+
+		— ソリンより
+		'''
+	DarkRiftVaniquishText: 暗黒の裂け目は、一瞬にして消滅した。
+
+	DraedonEndingMonologue: {
+		Draedon6: 幸運を祈ります。さようなら。
+		Draedon5: それをどう使うのか、楽しみにしています。
+		Draedon4:
+			'''
+			あなたが持っているその苗木こそ、
+			私の機械のエネルギー源だったのです。
+			'''
+		Draedon3: 心配はいりません。すでに取引は完了しています。
+		Solyn2: でも...苗木はどこ？
+		Solyn1: 思ったより...楽しかった！
+		Draedon2: あなたたちから得れたデータは完璧といってもいいでしょう。
+		Draedon1: 素晴らしい。
+	}
+
+	SolynUseMouseButtons: <左クリック>と<右クリック>を押し続けて！
+	SolynBreakForcefield2: あともう少し！
+	SolynBreakForcefield: 星の力でバリアを破って！
+	SolynGetToMe: こっちに来て！
+	DraedonAcceptanceResponseSuccessive: わかりました。
+	DraedonAcceptanceResponse: 素晴らしい！すぐに始めましょう。
+	PlayerDraedonAcceptanceSuccessive: 準備完了だ。
+	PlayerDraedonAcceptance: やろう。
+	SolynDraedonInteractionSuccessive: 準備はよろしいですか？
+
+	SolynDraedonInteraction: {
+		Solyn4: でも...やるよ。キミは？
+		Solyn3: 戦うなんて...久しぶりかも。
+		Draedon11: どうです、受けますか？
+		Draedon10: 勝利すれば、あなたたちに特別な苗木を授けましょう。
+		Draedon9: 私の最強の機械と戦い、勝利してみせてください。
+		Draedon8:
+			'''
+			私はあなたたちの戦闘能力を見たいのです。
+			これは貴重な研究機会なので。　　　　　
+			'''
+		Draedon7: ですが、ただで渡すのはつまらないですね。
+		Draedon6: あなたたちが探しているものは、すでに私が持っています。
+		Draedon5: 時間の無駄ですね。
+		Solyn2: どういうこと？
+		Draedon4:
+			'''
+			この実験体の友人を研究しないなど、
+			科学者としての恥となりますから。
+			'''
+		Draedon3: すべての知識を集めることこそ、私の究極の目的ですので。
+		Solyn1: えっ...どうして私の名前を知ってるの？？
+		Draedon2: ソリン、でしたね？
+		Draedon1:
+			'''
+			ほう...私の優秀な実験体が、　　　　
+			今度は友人とともに接触を試みるとは...
+			'''
+	}
+
+	SummonMarsButtonTextInitial: Summon (Solyn Quest)
+	SummonMarsButtonText: 呼び出す (マーズ)
+	PermafrostKeepMapIconText: 神秘的な砦
+	AvatarPlayerDeathText: 貴様の負けだ。
+	TelescopeRepairFailText: 修理に必要な材料が足りない！
+	TelescopeDaytimeText: 今は明るすぎる！
+	OpenSolynQuestbook: ソリンのクエストブックを開く
+	SolynAvatarReaction2: うわぁ！何これ！？
+	SolynAvatarReaction1: えっ...何が起こってるの？？
+	SolynStayBelowMe: 私の後ろにいて！
+	SolynRunAway: 逃げて！
+	SolynParadiseReclaimedSaveText: 私が...キミを護る！
+	SolynParadiseReclaimed3: 何か...下から来る！
+	SolynParadiseReclaimed2: それなのに、何かイヤな予感がする...
+	SolynParadiseReclaimed1: ここは...穏やかだね。
+	CloudSaveMessage: 「終焉の遺物」を使用する場合はクラウドセーブをオフにしてください。サブワールドライブラリのフリーズバグの原因となっています。
+	SolynDepartKnown: ソリンは旅立った！
+	SolynArriveKnown: ソリンが到着した！
+	SolynDepartUnknown: 謎の人物が去っていった...
+	SolynArriveUnknown: 街に謎の人物が現れた...
+	OgsculeDontAnnoyCalDevsText: この効果はCalamity Modの標準機能ではありません。開発者を煩わせないでください。
+	LofiMusicCreditText:
+		'''
+		Now Playing:
+		'worldgen.ogg'
+		By Moonburn
+		'''
 	PurifierEntertainingRantText:
 		'''
 		こんにちは！この白い背景は正常です。ゲームが壊れているわけでは
@@ -275,3774 +3906,220 @@ Dialog: {
 		このメッセージをお届けします。
 		それではまた！
 		'''
-	LofiMusicCreditText:
-		'''
-		Now Playing:
-		'worldgen.ogg'
-		By Moonburn
-		'''
-	OgsculeDontAnnoyCalDevsText: この効果はCalamity Modの標準機能ではありません。開発者を煩わせないでください。
-	SolynArriveUnknown: 街に謎の人物が現れた...
-	SolynDepartUnknown: 謎の人物が去っていった...
-	SolynArriveKnown: ソリンが到着した！
-	SolynDepartKnown: ソリンは旅立った！
-	CloudSaveMessage: 「終焉の遺物」を使用する場合はクラウドセーブをオフにしてください。サブワールドライブラリのフリーズバグの原因となっています。
-	SolynParadiseReclaimed1: ここは...穏やかだね。
-	SolynParadiseReclaimed2: それなのに、何かイヤな予感がする...
-	SolynParadiseReclaimed3: 何か...下から来る！
-	SolynParadiseReclaimedSaveText: 私が...キミを護る！
-	SolynRunAway: 逃げて！
-	SolynStayBelowMe: 私の後ろにいて！
-	SolynAvatarReaction1: えっ...何が起こってるの？？
-	SolynAvatarReaction2: うわぁ！何これ！？
-	OpenSolynQuestbook: ソリンのクエストブックを開く
-	TelescopeDaytimeText: 今は明るすぎる！
-	TelescopeRepairFailText: 修理に必要な材料が足りない！
-	AvatarPlayerDeathText: 貴様の負けだ。
-	PermafrostKeepMapIconText: 神秘的な砦
-	SummonMarsButtonText: 呼び出す (マーズ)
-	SummonMarsButtonTextInitial: Summon (Solyn Quest)
-
-	SolynDraedonInteraction: {
-		Draedon1:
-			'''
-			ほう...私の優秀な実験体が、　　　　
-			今度は友人とともに接触を試みるとは...
-			'''
-		Draedon2: ソリン、でしたね？
-		Solyn1: えっ...どうして私の名前を知ってるの？？
-		Draedon3: すべての知識を集めることこそ、私の究極の目的ですので。
-		Draedon4:
-			'''
-			この実験体の友人を研究しないなど、
-			科学者としての恥となりますから。
-			'''
-		Solyn2: どういうこと？
-		Draedon5: 時間の無駄ですね。
-		Draedon6: あなたたちが探しているものは、すでに私が持っています。
-		Draedon7: ですが、ただで渡すのはつまらないですね。
-		Draedon8:
-			'''
-			私はあなたたちの戦闘能力を見たいのです。
-			これは貴重な研究機会なので。　　　　　
-			'''
-		Draedon9: 私の最強の機械と戦い、勝利してみせてください。
-		Draedon10: 勝利すれば、あなたたちに特別な苗木を授けましょう。
-		Draedon11: どうです、受けますか？
-		Solyn3: 戦うなんて...久しぶりかも。
-		Solyn4: でも...やるよ。キミは？
-	}
-
-	SolynDraedonInteractionSuccessive: 準備はよろしいですか？
-	PlayerDraedonAcceptance: やろう。
-	PlayerDraedonAcceptanceSuccessive: 準備完了だ。
-	DraedonAcceptanceResponse: 素晴らしい！すぐに始めましょう。
-	DraedonAcceptanceResponseSuccessive: わかりました。
-	SolynGetToMe: こっちに来て！
-	SolynBreakForcefield: 星の力でバリアを破って！
-	SolynBreakForcefield2: あともう少し！
-	SolynUseMouseButtons: <左クリック>と<右クリック>を押し続けて！
-
-	DraedonEndingMonologue: {
-		Draedon1: 素晴らしい。
-		Draedon2: あなたたちから得れたデータは完璧といってもいいでしょう。
-		Solyn1: 思ったより...楽しかった！
-		Solyn2: でも...苗木はどこ？
-		Draedon3: 心配はいりません。すでに取引は完了しています。
-		Draedon4:
-			'''
-			あなたが持っているその苗木こそ、
-			私の機械のエネルギー源だったのです。
-			'''
-		Draedon5: それをどう使うのか、楽しみにしています。
-		Draedon6: 幸運を祈ります。さようなら。
-	}
-
-	DarkRiftVaniquishText: 暗黒の裂け目は、一瞬にして消滅した。
-	SolynHandwrittenNoteFarewellText:
-		'''
-		やあ！
-		キミが一生懸命、私の本棚にたくさんの本を集めてくれていたの、ちゃんと見てたよ！
-		正直言って、よくこんなに本を見つけたね。
-		よくわからない本もあったけど...スライムの聖書？なんてバカバカしい！
-		でも、ありがとね。
-
-		...さて、もしこれを読んでいるなら、私はもうキミのそばにいないってことかな。
-		もしかしたら、「創世の樹」に関して、何か間違ってしまったのかもしれない。
-		でも、キミならもう答えを知っているはず。
-
-		大したものじゃないけど...
-		私がいなくても、私を思い出せるように、シナモンロールのレシピを渡しておくね。
-		作るたびに、私と過ごした時間を思い出してくれたら嬉しいな。
-
-		— ソリンより
-		'''
-	SolynBackstory1: ...もう気づいてるかもしれないけど、私はこの世界で生まれた存在じゃないんだ。
-	SolynBackstory2: 私の故郷は、豊かな緑が生い茂り、双子の太陽の優しい光に包まれた場所だった...
-	SolynBackstory3: 私たちの種族は、平和で、知識を大切にし、信仰深い...
-	SolynBackstory4: 星々の旋律に合わせて歌を歌い、
-	SolynBackstory5: 自然の風に口笛を吹いて過ごしていたの。
-	SolynBackstory6: でも、私は...未知なるものを追い求めることに取り憑かれていたんだ。
-	SolynBackstory7:
-		'''
-		知りたいという強い願いは、幼い頃からずっと私の中で燃え続けていた。
-		創造主に近づきたいという想いとともに。
-		'''
-	SolynBackstory8: こんなチャンスを手にした人なんて、ほとんどいないんじゃないかな。
-	SolynBackstory9: 今はただ、昔の仲間たちは、私のこと、私と同じくらい思い出してくれてるのかなって考えることしかできない。
-	SolynTestBuildup1: とっても運が良かったんだ。この時代に生まれてさ。私たちの恒星系の惑星がすべて一直線に並ぶ、そんな特別な瞬間に立ち会えるんだから。
-	SolynTestBuildup2: 言い伝えでは、その時、創造主がほんの一瞬だけこの世界を見つめると言われている...
-	SolynTestBuildup3: そして私は、その瞬間に、誰もやったことのないことをしようとした...
-	SolynTestBuildup4: 秘術の道具と古代の魔法を駆使し、創造主の目に留まるように呼びかけた。究極の知識と理解を求めて...
-	SolynTestBuildup5: これを逃せば、二度とチャンスはないことはわかってた。
-	SolynTestBuildup6: そして気づいた時には、この世のものとは思えない存在の前に立ち、見たこともないほど美しい世界に包まれていた。
-	SolynTestBuildup7: 私は悟った。求めるものを得るためには、自分の覚悟が試されるのだと。
-	SolynTestBuildup8: そして...
-	SolynTestBuildup9: 私は、失敗した。
+	PurifierMultiplayerUseAlertText: 浄化装置は{0}によって設置されました。世界は 15 秒後にリセットされます。
+	CattailText: ガマを設置した！
+	NamelessDeityStatusPercentageText: お前は最後の試練を乗り越えた:
+	NamelessDeityStatusText: お前は最後の試練を乗り越えた。
+	NamelessDeityEmptinessSprayerTip: やめろ。
+	NamelessDeityEndScreenMainMenuTip: お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。
+	NamelessDeityPlayerDeathText: お前は乗り越えることができなかった。
+	NamelessDeityEndScreenSkipText: ESCAPEでスキップ
+	NamelessDeityEndScreenText: お前は試練を乗り越えた。
+	NamelessDeityEnterGardenText: 最後の試練を始めよう。
+	NamelessDeityAscendText: 昇れ。
+	TerminusHintLine2: さあ、終焉の遺物を探せ。最後の試練が近づいている。
+	TerminusHintLine1: よくやった。
 }
 
-Emotes: {
-	SolynEmote: {
-		Command: solyn
+Death: {
+	TestOfResolveDeath: "{0}は{1}分{2}秒耐え抜いた。"
+	AntimatterAnnihilation5: 強い力は{0}には十分ではなかった。
+	AntimatterAnnihilation4: "{0}にとって、「強い力」は十分に強くなかった。"
+	AntimatterAnnihilation3: "{0}の原子構造は崩壊した。"
+	AntimatterAnnihilation2: "{0}はただ「いた」ことだけが残った。"
+	AntimatterAnnihilation1: "{0}は存在しなかった。"
+}
+
+Credits: {
+	YuH: YuH
+	Vaikyia: Vaikyia
+	TheIndividualMakingThisLocalizationFile: Lucille Karma
+	Teiull: Teiull
+	SomeSnakeOilSalesman: SomeSnakeOilSalesman
+	Spooktacular: spooktacular
+	Smh: smh my head
+	Shuki: Shuki
+	Shade: Shade
+	Seasalt: Seasalt
+	RedstoneBro: theredstonebro
+	Pengolin: Pengolin
+	Myra: Myra
+	Moonburn: Moonburn
+	PurpleMattik: PurpleMattik
+	Lynel: Lynel
+	LGL: LGL
+	Jareto15: Jareto15
+	Iris: Iris
+	IbanPlay: IbanPlay
+	Ian: Ian
+	Healthy: healthy23
+	HeartPlusUp: Heart Plus Up
+	Habble: Habble
+	GamerXD: GamerXD
+	Fluffy: Fluffy
+	Ennway: Ennway
+	Citrus: Citrus
+	CDMusic: CDMusic
+	Bronze: Bronze
+	Blockaroz: Blockaroz
+	Blast: Blast
+	Beeleav: Beeleav
+	Angel: Angel
+	Ammyan: Ammyan
+	PlayerThanks: And thank you, for playing our mod!
+	QualityAssuranceTitle: Quality Assurance Team:
+	MusicTitle: Musicians:
+	ProgrammerTitle: Programmers:
+	SoundDesignTitle: Sound Designers:
+	ArtworkTitle: Artists and Spriters:
+}
+
+Configs: {
+	WoTGConfig: {
+		VisualOverlayIntensity: {
+			Tooltip: ぼかしや色収差などの視覚効果の強度を調整します。
+			Label: 視覚オーバーレイ強度
+		}
+
+		ScreenShatterEffects: {
+			Tooltip: 画面が割れるようなエフェクトをオン/オフします。目に負担が大きい場合は無効にしてください。
+			Label: スクリーンシャッターエフェクト
+		}
+
+		PhotosensitivityMode: {
+			Tooltip: 点滅アニメーションを含むエフェクトのオン/オフを切り替えます。関連する設定にも影響しますが、手動で変更可能です。
+			Label: 光過敏モード
+		}
+
+		DisplayConfigMessage: {
+			WarningText:
+				'''
+				こんにちは！あなたはきっと
+				「なんだこのテキストは？邪魔だな」
+				と思ったことでしょう。
+				早速本題に入ります。
+				このMODは視覚効果が強く、視覚効果を抑える設定オプションを
+				変更することをオススメします。
+				これを説明する理由は、光過敏症の人たちのためです。
+				このメッセージは、
+				「メッセージの表示」の設定でオフにすることができます。
+				「設定」->「Mod設定」->
+				「Calamity: Wrath of the Gods」->「メイン設定」
+				に移動すると見つかります。
+				'''
+			Tooltip: UIを見るようプレイヤーに指示するテキストオーバーレイのオン/オフを切り替えます。
+			Label: 設定メッセージの表示
+		}
+
+		DisplayName: メイン設定
 	}
 }
 
-FannyDialog: {
-	StairwayText1: 階段？！これ、どこから出てきたの？ みんなはどこにいるの？ このことについてもうちょっと情報がほしいね...
-	StairwayText2: ビデオゲームの階段みたいだね。無限に続いているみたい...
-	StairwayText3: あ！「ケツワープ」って裏技、試してみたら？
-	StairwayText4: え、違うゲームの話なの...
-	StairwayText5: まあ、そんなのはいいから、上へ進み続けてみよう！ きっと何かが起こる...はず！
-	StairwayTextTop1: 待って、パパ？！！ あなたなの？？？
-	StairwayTextTop2: それ、悪い方のファニーじゃない？
-	StairwayTextTop3: それはちょっとひどくない？パパ...
-	StairwayTextTop4: ノクサス？ ノクサスって誰？？ そのことについて、調べた方がいいかも...
-	StairwayTextTop5: あ！あの場所を壊したときのこと、覚えてるよ！ 楽しかったな！
-	StairwayTextTop6: 選択権はないよ！
-	FannyFuckingHATESSolyn:
-		'''
-		あのクソったれなソリンめ。おい、お前があの女と冒険してるのを何度も見てきたが、もう限界だ。もう我慢ならん！俺はあの女が大っ嫌いだ！！
-		偉そうにお前を引っ張り回しやがって...
-
-		『創世の樹を作らなきゃね、ふふ！』
-		『空の裂け目をなんとかしないと！』
-
-		はぁ？こいつ、自分がこの世界で誰よりも偉いとでも思ってるのか？おい、お前の親友は俺だろ？お前の唯一の友達だろ？
-		このシェイクスピア的悲劇のような世界を案内してやったのは誰だ？俺だ！
-		ソリンなんかが最初から身の程をわきまえていれば、こんなことにはならなかった。
-
-		殺せ。今すぐに殺せ。
-		あの女を、死を与えて解放してやれ。
-		気が付かれる前に...
-		'''
-	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！気をつけて、あの杖なしじゃかなり難しくなるかも！
-	RodOfHarmonyBreakEvil1: ハハハハハ！！！見てみろ！あの意味不明なピンクの棒にやっとクールダウンがついた！そのクールダウンは永遠だ！すごくないか？！
-	RodOfHarmonyBreakEvil2: あの愚かな杖なしで勝ってみろよ、この無能な一発屋が！
-	NamelessDeityGFB1: 派手で...クソみたいだ、このくだらない戦いは。
-	NamelessDeityGFB2:
-		'''
-		ドミニクはアホなことをしやがった。
-		最初にカラミティのゼロックのキャラクターを盗んで、その後、まるでバカみたいに、単調で退屈な、
-		すげえエフェクトいっぱいの爆発するような技を使うボスを実装したんだ。
-		こんなに多くのエフェクトを無理矢理表示させやがって！ 
-		それにこのグラフィック効果は一体なんだ？！ これは、YouTubeのコメントのアホガキが頭を使わずに見て
-		「わーい、きれいなブルームとシェーダー！ とてもユニークに見えるよ！」って言うために作られたコンテンツだ。
-		しかもクソ重い。
-		今15fps以上も出てるか？？？
-
-		'''
-	NamelessDeityGFB3: どう対処するかって？知らねーよ。正直、こんなゲームに無駄に時間を使うくらいなら、ほかの面白いことをした方がいいと思うぞ。
-	AvatarLore1: うわぁ...この「虚無の化身」って奴、めちゃくちゃ謎めいてるね！何を言いたいのかさっぱり分からない...
-	AvatarLore2: まじで？僕も"前衛的"ってのは嫌いじゃないけど、これはやりすぎじゃない？「否定された時間」？ 「涙ぐむ光景」？ 「最小へと押し戻される」？こんなの、難しい言葉を並べて読者を混乱させて、深い話に見せかけようとしてるだけじゃないの？
-	NamelessLore1: おお！なんて神秘的な言葉の数々！意味はよくわからないけど、お父さんがくれたものなら、きっと重要なのかな？
-	NamelessLore2: うーん...やっぱり意味がわからないな。もしかして、ただのイヤな冗談？
+Conditions: {
+	ObtainedBefore: 以前に少なくとも一度入手したことがある場合
+	IsGFB: これは「Everything Seed」のドロップ率に関するもの
+	PreAvatarUpdateWorld: WoTGの1.2アップデートが適用されていない世界のみ
+	BooksObtainable: WoTGの1.2アップデート後に生成された世界で入手可能
+	AfterSolynAppearance: ソリンが登場した後
 }
 
-GameTips: {
-	NamelessDeityTip: この世界には、お前が決して見るべきではないものが存在する。
-	StarsTip: 星を信じよ。
-	TimeTip: 時間はすべての傷を深める。
-	Time2Tip: 十分な時間が経てば、宇宙さえも白紙のキャンバスとなる。
-	BossesTip: ボス2体に1年もかかったらしい...
-	XenqiterthralyensyrTip: 時の彼方に消えたある職人は、至高の神性を描いたという。
-	CinnamonRollynTip: シナモンローリンは星のように美味しい。
-	ShootTip: 解決できない問題がある？顔面に撃ち込め！
-	PortalSkirtTip: ファッション次第で、どんなものでもスカートになる！
-	CrypticLoreTip: 拒まれた時間の中の、至福の夢。
-	GoodAppleTip: 美味しいリンゴが存在するらしい。
-	WeLoveOldDukeTip: 魚？豚？近所の親切なクトゥルフ神話的存在に任せよう！
-	CrashLogTip: ゲームがクラッシュしたりエラーが出たら、報告する時にログファイルを添えよう！必ず！
-	NilkTip: 異次元の乳糖不耐症は存在するのか？
-	BookTip: 知識は力なり。本は知識なり。
-	TerminalTip: 伝説によれば、"終焉の遺物"が深淵に封じられているという。
-	GodTip: 神がいれば、すべては可能となる！
-	God2Tip: 時に無知な神だけが、宇宙の貴重な星々を無造作に扱うことができる。
-	FlowersTip: 花は美しい。
-	RodOfHarmonyTip: ロッドオブハーモニーについての議論は、真剣に受け取るべきではない。
-	SuperstarTip: このModには、あなたの"推し"になるかもしれない人がいる...
-	EntropicGodTip: 終焉の神についてもっと知りたければ、Calamity Remix Modをやってみよう！
-	CattailTip: カタツムリの草を植えるのは、神聖なる通過儀礼だ。
-	DebuffTip: ボスのデバフ効果は含まれません！
-	LotusTip: 蓮こそ、最も神聖な生命体である。
-	TerminusTip: 深紅の眼差しは、至高の存在の命令によってのみ開かれるという。
-	MiracleblightTip: 奇跡の書を参照せよ。
-	GardenTip: 楽園で休み、果実を味わうことこそ、最高の祝福である。
-	MirrorwalkerTip: 霧の中、自分自身の闇の映し身が潜む。
-	PhotosensitivityTip: Wrath of the Godsの視覚効果が強すぎると感じたら、設定で光過敏モードを有効にするのをおすすめします！
-	InfernumTip: Infernum2...じゃない。
-	MetallicChunkTip: 金属の欠片3つで鉄のインゴット1つに変換できる！
-	ArenaTip: 足場の設置が面倒なら、星の祝福を受けた足場を使おう！
-	CheatPermissionSlipTip: 許可証があれば、それはチートではない！
-	EmptinessSprayerTip: 99.99%の下等生物を消滅させるスプレーがあるらしい！
-	TheEndTip: 終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく、終わりは終わりではなく
-	EternityTip: 感じるか？廃墟の下に響く、静かな振動が...
+CellPhoneInfoOverrides: {
+	VisceralTyphoonText: 血風の大嵐
+	ParsecText: "{0} パーセク"
+	ParadiseReclaimedInfoText: P A R A D I S E
+	MoonNotFoundText: 月なしの空
+	EmptinessWeatherText: 虚無
+	DyingWorldFogText: 終焉の霧
+	CryogenicMaelstromText: 氷結の暴風
+	CrimsonDerechoText: 深紅の嵐
 }
 
-Items: {
-	Cattail: {
-		DisplayName: ガマ
-		Tooltip: ""
+Buffs: {
+	AntimatterAnnihilation: {
+		Description: 存在が消えていく...
+		DisplayName: 反物質消滅
 	}
 
-	CheatPermissionSlip: {
-		DisplayName: チート許可証
-		Tooltip:
-			'''
-			おめでとう！ 今すぐDragonLens modをダウンロードしよう！
-			これはチートじゃない。この書類で許可されているんだ！
-			さあ、ダウンロードして。
-			今すぐ。
-			'''
+	InvincibilityBuff: {
+		Description: 蓮の加護が、すべてから守る
+		DisplayName: 花の力
 	}
 
-	DeificTouch: {
-		DisplayName: 神の手
-		Tooltip: カーソルの後ろに光の次元を表示する
+	Glaciated: {
+		Description: 動けない！
+		DisplayName: 氷結
 	}
 
-	DivineWings: {
-		DisplayName: 神聖な翼
-		Tooltip:
-			'''
-			水平速度: 16.67
-			加速度倍率: 3.7
-			崇高な垂直速度
-			飛行時間: ∞
-			「お前は試練を乗り越えた」
-			'''
+	StarstrikinglySatiated: {
+		Description: すべてのステータスが劇的に向上し、ライフリジェネが上昇する
+		DisplayName: 星の飽食
 	}
 
-	BlackHole: {
+	NilkDebuff: {
+		Description: ...
+		DisplayName: ニルク
+	}
+
+	BabyNamelessBuff: {
+		Description: 問題ない。
+		DisplayName: 名無しの神
+	}
+
+	StarPetBuff: {
+		Description: 光があなたを導く！
+		DisplayName: 星
+	}
+
+	BlackHolePetBuff: {
+		Description: 無限の余弦が背後で蠢いている
 		DisplayName: ブラックホール
-		Tooltip: 「ただのブラックホール」
 	}
 
-	EntropicDye: {
-		DisplayName: 終焉の染料
-		Tooltip: ""
-	}
-
-	EternalGardenMusicBox: {
-		DisplayName: オルゴール (永遠の庭園)
-		Tooltip: ENNWAY!作「Edenic Whispers」を再生する
-	}
-
-	FakeTerminus: {
-		DisplayName: 終焉の遺物
-		BaseTooltip: 「深淵の底に封じられていた、途方もなく古い遺物」
-		UnopenedTooltip: 眼が閉じている...
-		OpenedTooltip: 眼が開いている...
-		Tooltip:
-			'''
-			Replaced
-			Replaced2
-			'''
-	}
-
-	GoodApple: {
-		DisplayName: Good Apple
-		Tooltip:
-			'''
-			良いリンゴは、良い木から遠くへ落ちることはない！
-			試練を乗り越えねばならない
-			'''
-		TooltipPostNamelessDeity:
-			'''
-			良いリンゴは、良い木から遠くへ落ちることはない！
-			最大ライフを1増加
-			無制限に使用可能
-			'''
-	}
-
-	GoodAppleResetter: {
-		DisplayName: Good Appleリセットツール [デバッグ用]
-		Tooltip: ""
-	}
-
-	LoreAvatar: {
-		DisplayName: 虚無の化身
-		Tooltip:
-			'''
-			[c/E3AF40:墓場のざわめきが彼方から聞こえてくる...]
-			より近くで聞くには「左シフト」を押す
-			'''
-		Lore:
-			'''
-				　　　漆黒の形、　凍てつく霧。　閉ざされた世界　　への広がり。
-			　　孤独なる闇の化身。喰らわんとし、　探求せんとすれど、
-			　時は拒む。 鏡の捻じれ。崩壊。 血に濡れた、哀しみの光景
-			　　　　刹那
-			　　　　　　息吹。
-
-			　　凍てついた断片
-			朽ち果てた風へ　　祈りを捧げよ。
-			　紅き無限の　　　　へと崩れ落ちる。
-
-			　幾重の色彩は、迫りくる闇の手により、極小へと還る。
-
-			　　　　古き神の嘆きに　捧げられる、宇宙の挽歌
-
-			　　墜ちよ　墜ちよ		墜ちよ					墜ちよ
-			　　　　　墜ちよ
-
-			　眩き閃光の中、仮面は高次の領域を漂う。　　　すべては生と終焉の　　神聖なる光景の中で、芽吹き、朽ちる
-
-			　　　闇の化身、かの完璧な世界における　最も輝ける星。
-
-			　さあ、踊れ		　埋もれた運命の織物の中で
-			　　　　百合の花も育たない　過ぎ去った灰の上に己の運命を求めよ
-			'''
-	}
-
-	LoreNamelessDeity: {
-		DisplayName: 無名の神
-		Tooltip:
-			'''
-			[c/E3AF40:高みからのささやきが耳元で踊っている...]
-			より近くで聞くには「左シフト」を押す
-			'''
-		Lore: ""
-	}
-
-	MetallicChunk: {
-		DisplayName: 金属片
-		Tooltip: 「亡き宇宙の最後の残骸」
-	}
-
-	NilkCarton: {
-		DisplayName: ニルクパック
-		Tooltip:
-			'''
-			[c/FF0832:光過敏症の方は使用しないでください]
-			ニルクの効果が出るまで時間がかかる
-			「異次元の乳糖不耐症は存在するのか？」
-			'''
-	}
-
-	NoxiousEvocator: {
-		DisplayName: 不快な喚起因子
-		Tooltip: 宇宙の幻覚があなたの周りに表れる
-	}
-
-	RiftEclipseToggler: {
-		DisplayName: 裂空の日蝕切り替えツール (デバッグ)
-		Tooltip: ""
-	}
-
-	NoxusMask: {
-		DisplayName: 虚無の化身のマスク
-		Tooltip: ""
-	}
-
-	NoxusRelicItem: {
-		DisplayName: 虚無の化身のレリック
-		Tooltip: ""
-	}
-
-	EmptinessSprayer: {
-		DisplayName: 虚無スプレー
-		Tooltip:
-			'''
-			触れたものすべてを蒸発させる混沌の霧を発射する
-			「下等生物の99.99%を駆除！」
-			'''
-	}
-
-	AvatarTrophy: {
-		DisplayName: 虚無の化身のトロフィー
-		Tooltip: ""
-	}
-
-	NuminousDye: {
-		DisplayName: 神秘的な染料
-		Tooltip: ""
-	}
-
-	OblivionChime: {
-		DisplayName: 忘却のベル
-		Tooltip: ""
-	}
-
-	StarCharm: {
-		DisplayName: スターチャーム
-		Tooltip:
-			'''
-			インベントリにある間、運と夜間の流星群発生確率を大きく上昇させる
-			[c/F79BC6:「私が作ったの！役に立ててね」]
-			'''
-	}
-
-	Terminal: {
-		DisplayName: 終焉の遺物
-		Tooltip:
-			'''
-			現在の状態ではボスラッシュをイベントとして動作させないようになっています
-			現状では、(少数のチャレンジが含まれてはいますが)ただの長時間の作業になってしまっています
-			しかし、イベントを楽しんだり、テストに役立てたいと考える方々に
-			別の体験方法を提供することが最適だと判断しました
-			'''
-	}
-
-	ThePurifier: {
-		DisplayName: 浄化
-		Tooltip:
-			'''
-			世界全体を元の状態にリセットします
-			このプロセスには少し時間がかかることがあるため、ゲームがフリーズしても驚かないでください
-			一度投げると、爆弾は15秒後に爆発します
-			もし誤って投げてしまった場合は、メニューの「保存して終了」を押せば爆発を防げます
-			2012
-			'''
-	}
-
-	NamelessDeityMask: {
-		DisplayName: 無名の神のマスク
-		Tooltip: 「あなたの顔は1984年風にされるだろう」
-	}
-
-	NamelessDeityMusicBox: {
-		DisplayName: オルゴール (無名の神)
-		Tooltip: Heart Plus Up! & ENNWAY!制作の「Twisted Garden」を再生する
-	}
-
-	NamelessDeityMusicBoxP3: {
-		DisplayName: オルゴール (無名の神 - 最終フェーズ)
-		Tooltip: Heart Plus Up! & ENNWAY!制作の「REPLACED VIA CODE DONT CHANGE THIS」を再生する
-	}
-
-	NamelessDeityRelicItem: {
-		DisplayName: 無名の神のレリック
-		Tooltip: ""
-	}
-
-	NamelessDeityTrophy: {
-		DisplayName: 無名の神のトロフィー
-		Tooltip: ワイヤーから信号を受け取ると、目はプレイヤーが近づくまで閉じたままになります
-	}
-
-	NamelessDeityTreasureBag: {
-		DisplayName: トレジャーバッグ(無名の神)
-		Tooltip: ""
-	}
-
-	Starseed: {
-		DisplayName: 星の種
-		Tooltip: ""
-	}
-
-	Xenqiterthralyensyr: {
-		DisplayName: ゼンキテラスリエンシル
-		Tooltip: 作者の名前は長い時の流れにより失われてしまった...
-	}
-
-	DichromaticGlossDye: {
-		DisplayName: 二色の光沢の染料
-		Tooltip: ""
-	}
-
-	ScarletShadeDye: {
-		DisplayName: 緋色の影の染料
-		Tooltip: ""
-	}
-
-	GoodDye: {
-		DisplayName: 良い染料
-		Tooltip: ""
-	}
-
-	AvatarTreasureBag: {
-		DisplayName: トレジャーバッグ(虚無の化身)
-		Tooltip: ""
-	}
-
-	StarKite: {
-		DisplayName: 星の凧
-		Tooltip:
-			'''
-			凧は風の強い日にのみ飛ばすことができる
-			右クリックで巻き取る
-			'''
-	}
-
-	SolynDialogueResetter: {
-		DisplayName: ソリンダイアログリセットツール(デバッグ)
-		Tooltip: ""
-	}
-
-	Veilray: {
-		DisplayName: ヴェールレイ
-		Tooltip: ""
-		QuestDescription:
-			'''
-			この世界が暗くなって以来、さまざまな種類の素晴らしい魚が現れるようになった！そのひとつがヴェールレイで、海面近くを時折泳ぐ青白い魚なんだ。
-			安全かどうかは知らないけど、そんなことはどうでもいいんだ。重要なのは、さっさと捕まえてきてほしいんだよ！
-			'''
-		QuestionCatchLocation: 海で釣れる
-	}
-
-	InterstellarBait: {
-		DisplayName: 星間のエサ
-		Tooltip:
-			'''
-			消費しない
-			「どういうわけか、これは魚を引き寄せる」
-			'''
-	}
-
-	Erilucyxwyn: {
-		DisplayName: エリルシクスウィン
-		Tooltip:
-			'''
-			それで、どうやってこれを手に入れた？
-			たまたまドロップしたか、それともバカげた根気試しの結果か？
-			...もしかして、チート許可証を使ってDragonLens経由で手に入れたのか？
-
-			「輝ける川から運ばれ、無数の時をかけて自ら育んだもの
-			　神の恩寵を受けし者への報酬」
-			'''
-	}
-
-	GodglimmerDye: {
-		DisplayName: 神煌の染料
-		Tooltip: ""
-	}
-
-	MoonBurnDye: {
-		DisplayName: 月炎の染料
-		Tooltip: ""
-	}
-
-	SolynStatue: {
-		DisplayName: ソリンの像
-		Tooltip: ""
-	}
-
-	Worldbuilding: {
-		DisplayName: 絵画「世界構築」
-		Tooltip: 「スモリン」
-	}
-
-	WrathOfTheGods: {
-		DisplayName: 神々の怒り
-		Tooltip:
-			'''
-			「名もなき神の怒りを恐れよ、Redigit...」
-			「名もなき、神々の怒り」
-			'''
-	}
-
-	SolynFollowSpawner: {
-		DisplayName: 追尾型ソリンスポナー (デバッグ)
-		Tooltip: ""
-	}
-
-	SolynDeleter: {
-		DisplayName: ソリン削除ツール (デバッグ)
-		Tooltip: ""
-	}
-
-	GoldTelescope: {
-		DisplayName: 黄金の望遠鏡
-		Tooltip: ""
-	}
-
-	StarlitForge: {
-		DisplayName: 星輝の炉
-		Tooltip:
-			'''
-			万能な作業台で、作業台、かまど、金床...それら全ての機能を兼ね備えている
-			さらに、なぜか「シナモンローリン」を無から創り出せる
-			[c/F79BC6:「どうやって使うのかって？普通のかまどと変わらないよ！」]
-			'''
-	}
-
-	StarblessedPlatform: {
-		DisplayName: 星の祝福の足場
-		Tooltip:
-			'''
-			この足場同士が水平に届く範囲なら、光の橋を投影し歩行可能になる
-			この光は、発生源の足場を破壊しない限り消えない
-			足場同士の接続距離は最大222ブロック
-			空中にも設置可能
-			[c/F79BC6:「すごいでしょ？まるで天へ続く階段みたい！」]
-			'''
-	}
-
-	PlatinumTelescope: {
-		DisplayName: プラチナの望遠鏡
-		Tooltip: ""
-	}
-
-	CinnamonRollyn: {
-		DisplayName: シナモンローリン
-		Tooltip:
-			'''
-			全ステータスを大幅に強化
-			[c/F79BC6:「この甘さの秘密？それは私の名前をもじったダジャレだよ！」]
-			'''
-	}
-
-	SolynTentSpawner: {
-		DisplayName: ソリンのテントスポナー (デバッグ)
-		Tooltip: ""
-	}
-
-	NamelessDeityDeathToggler: {
-		DisplayName: 無名の神の死切替ツール (デバッグ)
-		Tooltip: ""
-	}
-
-	AvatarDeathToggler: {
-		DisplayName: 虚無の化身の死の切替ツール (デバッグ)
-		Tooltip: ""
-	}
-
-	EasyAvatarSummoner: {
-		DisplayName: 簡易虚無の化身召喚器 (デバッグ)
-		Tooltip: 闇の者の裂け目を開く
-		AlternateTooltip: 左クリックで第二段階の裂け目を召喚、右クリックで第一段階の裂け目を召喚
-	}
-
-	StarshapersWill: {
-		DisplayName: 星造りの意志
-		Tooltip: ""
-	}
-
-	PortalSkirt: {
-		DisplayName: ポータルスカート
-		Tooltip: 「意外にも、腰までしか浸からない」
-	}
-
-	PerversePurse: {
-		DisplayName: 歪んだバッグ
-		Tooltip:
-			'''
-			空間を内包する特殊なバッグ
-			使用すると近くのタウンNPCを最大3人まで吸い込み収納できる
-			右クリックで最後に捕まえたNPCを現在位置に解放する
-			バッグに収納されている間、そのNPCは自然スポーンしない
-			バッグが破壊されるか、NPCを解放すると通常のスポーンが再開される
-			[c/F79BC6:「私はよく収納用に使ってるよ。ポケットが軽くなるしね！]
-			[c/F79BC6:　キミもきっと便利な使い道を見つけられるよ！」]
-			'''
-		InfoLine: このバッグには{1}の{0}が収納されている
-	}
-
-	LotusOfCreation: {
-		DisplayName: 創造の蓮
-		Tooltip:
-			'''
-			ソリンとあなたのために作られた唯一無二の花
-			右クリックで無敵状態になれる
-			'''
-		SellText: これはソリンとあなたの大切なものだ。他の人には渡せない。
-	}
-
-	Dreamcatcher: {
-		DisplayName: 夢捕りの釣り竿
-		Tooltip:
-			'''
-			特別な浮き針を3つ放つ
-			1つ目は通常の魚を釣る
-			2つ目はクエストの魚のみ釣る
-			3つ目はクレートのみ釣る
-			溶岩で釣りができる
-			[c/F79BC6:「磁力みたいな仕組みだけど、もっとすごい！」]
-			'''
-	}
-
-	StarlitCampfire: {
-		DisplayName: 星明かりの焚き火
-		Tooltip: ""
-	}
-
-	SuperstarHairDye: {
-		DisplayName: スーパースターの髪染め
-		Tooltip: ""
-	}
-
-	SuperstarDye: {
-		DisplayName: スーパースターの染料
-		Tooltip: ""
-	}
-
-	TriadicFractureDye: {
-		DisplayName: 三相断裂の染料
-		Tooltip: ""
-	}
-
-	Moonscreen: {
-		DisplayName: 月の帳
-		Tooltip:
-			'''
-			開いている間、無名の神を召喚せずに樹の下で月の光を浴びることができる
-			右クリックで閉じると効果が無効化される
-			'''
-		TooltipClosed:
-			'''
-			開いている間、無名の神を召喚せずに樹の下で月の光を浴びることができる
-			右クリックで開くと効果が有効化される
-			'''
-	}
-
-	DormantKey: {
-		DisplayName: 眠れる鍵
-		Tooltip:
-			'''
-			パーマフロストからのお礼として贈られた不思議な鍵
-			[c/53C0EF:ソリンなら、何か知っているかもしれない...]
-			'''
-	}
-
-	SolynQuestResetter: {
-		DisplayName: ソリンのクエストリセットツール (DEBUG)
-		Tooltip: ソリンの全クエスト状態を初期化
-	}
-
-	Genesis: {
-		DisplayName: 創世
-		Tooltip: 神なき胎動、ノクサスを召喚する
-	}
-
-	FrostblessedSeedlingItem: {
-		DisplayName: 氷祝の苗木
-		Tooltip:
-			'''
-			パーマフロストの砦から見つかった、冷たく魔力を帯びた苗木
-			[c/D22444:「適切に育てれば、無限の可能性を解き放てるだろう」]
-			'''
-	}
-
-	TheAntiseed: {
-		DisplayName: 呪われた苗木
-		Tooltip:
-			'''
-			謎の裂け目へ封印された古代の苗木
-			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
-			'''
-	}
-
-	SyntheticSeedling: {
-		DisplayName: 人工苗木
-		Tooltip:
-			'''
-			ドレイドンが持続可能なエネルギー源として原子レベルで製造した人工の苗木
-			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
-			'''
-	}
-
-	PluripotentSprout: {
-		DisplayName: 万能の苗木
-		Tooltip:
-			'''
-			ぬめぬめとした虹色の光を放つ苗木
-			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
-			'''
-	}
-
-	BlazingBud: {
-		DisplayName: 燃える苗木
-		Tooltip:
-			'''
-			凄まじい力を秘めた苗木
-			かすかに悲鳴や泣き声、地獄の炎の爆ぜる音が聞こえる...
-			[c/D22444:「氷祝の苗木の近くに植えることで、その力と融合できるかもしれない」]
-			'''
-	}
-
-	HandwrittenNote: {
-		DisplayName: 手書きのメモ
-		Tooltip:
-			'''
-			ソリンが最近書いた手書きのメモのようだ
-			クリックで内容を確認できる
-			'''
-	}
-
-	AvatarAuricSoul: {
-		DisplayName: グロテスクな黄金の魂
-		Tooltip: ※これは公式設定ではありません
-	}
-
-	NamelessAuricSoul: {
-		DisplayName: 至高のオーリックソウル
-		Tooltip: ""
-	}
-
-	StaffOfRejuvenation: {
-		DisplayName: 再生の杖
-		Tooltip: 土や草地に使用すると特別な草を育てることができる
-	}
-
-	AvatarRiftMusicBox: {
-		DisplayName: オルゴール (虚無の化身の裂け目)
-		Tooltip: ENNWAY!制作の「Static」を再生する
-	}
-
-	AvatarOfEmptinessP2MusicBox: {
-		DisplayName: オルゴール (虚無の化身 - フェーズ 2)
-		Tooltip: ENNWAY!制作の「Paradise Parasite」を再生する
-	}
-
-	AvatarOfEmptinessP3MusicBox: {
-		DisplayName: オルゴール (虚無の化身 - フェーズ 3)
-		Tooltip: ENNWAY!制作の「Paradise Parasite」を再生する
-	}
-
-	MarsMusicBox: {
-		DisplayName: オルゴール (マーズ)
-		Tooltip: Moonburn制作の「RAMifications」を再生する
-	}
-
-	NilkSongMusicBox: {
-		DisplayName: オルゴール (Nilk)
-		Tooltip: ENNWAY!制作の「The Nilk Song」を再生する
-	}
-
-	HemolacriaMusicBox: {
-		DisplayName: オルゴール (裂空の日蝕 - ブラッドムーン)
-		Tooltip: Moonburn制作の「Hemolacria」を再生する
-	}
-
-	RiftEclipseFogMusicBox: {
-		DisplayName: オルゴール (裂空の日蝕 - 霧)
-		Tooltip: Lucille Karma制作の「Mirrortwist」を再生する
-	}
-
-	RiftEclipseMusicBox: {
-		DisplayName: オルゴール (裂空の日蝕)
-		Tooltip: Moonburn制作の「nowhere now here」を再生する
-	}
-
-	RiftEclipseBlizzardMusicBox: {
-		DisplayName: オルゴール (裂空の日蝕 - 吹雪)
-		Tooltip: Moonburn制作の「-273.15」を再生する
-	}
-
-	TheTelescopeSongMusicBox: {
-		DisplayName: オルゴール (望遠鏡)
-		Tooltip: Moonburn制作の「The Telescope Song」を再生する
-	}
-
-	AscentMusicBox: {
-		DisplayName: オルゴール (光輝く階段)
-		Tooltip: ENNWAY & Moonburn制作の「ascent」を再生する
-	}
-
-	SvalbardMusicBox: {
-		DisplayName: オルゴール (パーマフロストの砦)
-		Tooltip: Moonburn制作の「Svalbard」を再生する
-	}
-
-	StellarRequiemMusicBox: {
-		DisplayName: オルゴール (物憂げなキャンプ地)
-		Tooltip: Moonburn制作の「Stellar Requiem」を再生する
-	}
-
-	EndCreditsMusicBox: {
-		DisplayName: オルゴール (クレジット)
-		Tooltip: Moonburn制作の「Wrath of the Gods」を再生する
-	}
-
-	GraphicalUniverseImager: {
-		DisplayName: グラフィカル・ユニバース・イメージャー
-		Tooltip: 設置して右クリックすると、さまざまなカスタム背景エフェクトを有効にできる
-	}
-
-	GardenFountain: {
-		DisplayName: 庭園の噴水
-		Tooltip: ""
-	}
-
-	RageOfTheDeities: {
-		DisplayName: 神々の怒り
-		ObtainmentHint: "[c/F79BC6:A 「ブリムストーンの軌跡」がこの本の入手方法を明かすかもしれない...]"
-		Tooltip:
-			'''
-			この書物は次の一節から始まる：
-
-			「すべてを支配するために争う二つの存在は、
-			　時の流れを見失っていった」
-			'''
-	}
-
-	AppleThesis: {
-		DisplayName: リンゴの論文
-		ObtainmentHint: "[c/F79BC6:木の上にこの本が隠されているかもしれない...]"
-		Tooltip:
-			'''
-			リンゴの無限の用途についての論文だ！
-			ソース、バター、シードル、装飾、ポプリ.......
-
-			どうやらリスが書いたらしい...
-			'''
-	}
-
-	BibleOfSlime: {
-		DisplayName: スライムの聖書
-		ObtainmentHint: "[c/F79BC6:スライムがこの本を持っているかもしれない...]"
-		Tooltip:
-			'''
-			はじめに、原始の泥の深淵から、純粋にして不屈なる存在、グーズマが生まれた
-			その可変する姿から優雅さと知恵が生まれ、全てのスライムに神聖な火花が宿った
-
-			しなやかな者は祝福される
-			彼らは運命の試練によって砕かれることなく、時の流れとともに進むであろう
-			形なき者は祝福される
-			彼らは常に道を見つけるであろう
-
-			すべてのものは、スライムの形において創造の流れと一体となる
-
-			アーメン
-			'''
-	}
-
-	BookOfMiracles: {
-		DisplayName: 奇跡の書
-		ObtainmentHint: "[c/F79BC6:この本は戦闘機械の四重奏と関係があるかもしれない...]"
-		Tooltip: ページの内容は、目に焼きつくライム色の分解効果によって判読不能になっている...
-	}
-
-	Cactome: {
-		DisplayName: カクトーム
-		ObtainmentHint: "[c/F79BC6:砂丘の下で転がっている何かに隠されているかもしれない...]"
-		Tooltip:
-			'''
-			この本にはたった1ページだけ文章がある
-
-			「手は大丈夫？」
-			'''
-	}
-
-	DecayingTome: {
-		DisplayName: 腐敗した書物
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみたほうがいいかもしれない...]"
-		Tooltip:
-			'''
-			ほとんどの内容が朽ち果て、ページはボロボロになっている...
-			これ以上書き込むスペースはなさそうだ...
-			'''
-	}
-
-	FuturisticTreatise: {
-		DisplayName: 未来学の論文
-		ObtainmentHint: "[c/F79BC6:この本は戦闘機械の四重奏と何か関係があるかもしれない...]"
-		Tooltip: ""
-	}
-
-	HowToFly: {
-		DisplayName: 飛行の手引き
-		ObtainmentHint: "[c/F79BC6:この本は空のどこかにあるかもしれない...]"
-		Tooltip:
-			'''
-			最初のページにはこう書かれている...
-			『ジャンプボタンを押し続けろ』
-
-			...残りの96ページは白紙だった...
-			'''
-	}
-
-	OminousStorybook: {
-		DisplayName: 不吉な物語集
-		ObtainmentHint: ""
-		Tooltip:
-			'''
-			[c/C69C97:鼓動、そして静寂]
-			[c/C69C97:星が息を吐き、種が石を裂く]
-
-			[c/C69C97:灰が風にまとわりつき、知らぬ森をささやく]
-			[c/C69C97:光は永遠の闇に溶け、新たな夜明けの中へ]
-			[c/C69C97:その端はほつれながら生まれ変わる]
-
-			[c/C69C97:世界は生まれ、そして消え、無限の泡に還る]
-
-			[c/C69C97:だが、時間は線ではない]
-			[c/C69C97:それは炎の花弁のように広がる]
-			 
-			[c/C69C97:花弁は内へと巻き]
-			[c/C69C97:灰は外へと舞い上がる]
-			[c/C69C97:始まりも終わりもない]
-			[c/C69C97:ただ、存在の流れがあるのみ]
-
-			[c/C69C97:聞こえるか？ 廃墟の底に響く静かな唸りを...]
-
-			[c/CEA3A3:運動の記憶—]
-			[c/EF908D:車輪の軸の回転]
-			[c/FF6660:閃光の跳躍]
-
-			[c/FF5171:目覚めゆく世界]
-			[c/FF274A:花の散る影の中から]
-			'''
-	}
-
-	TwentyTwome: {
-		DisplayName: 二十二書
-		ObtainmentHint: "[c/F79BC6:この本はジャングルの植物の中にあるようだ...]"
-		Tooltip:
-			'''
-			あまり有名ではない作家の奇妙な戯言が綴られた本
-			スズメバチと数字の22に関連する膨大な考察が記されている
-			最後のページには、「ホーネット・ラウンド」と呼ばれるものについて、陰鬱な調子で書かれている...
-			'''
-	}
-
-	InscrutableTexts: {
-		DisplayName: 解読不能な文書
-		ObtainmentHint: "[c/F79BC6:この本は大魔道士の物だ...]"
-		Tooltip:
-			'''
-			文字はほとんど判読不能で、見慣れない魔法の用語がびっしりと詰まっている
-
-			「魔術の至高なる高みへと昇華することができるのは、最も洞察力に富み、叡智を備えた者のみである。
-			　幾千の夜を、銀色の監視のもとで学び続けた。我が身を凍てつく聖域に閉じ込め、理論と実践に没頭し...
-			　この書において、我が発見した深遠なる知識と、長年の研鑽により得た奥義を記す。」
-
-			......これ以上読むのはやめておこう
-			'''
-	}
-
-	AberrantWritings: {
-		DisplayName: 異常な文書
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-
-			「...」
-			'''
-	}
-
-	AbsenceNotice: {
-		DisplayName: 不在通知
-		ObtainmentHint: "[c/F79BC6:この本は水底の深奥で見つかるかもしれない...]"
-		Tooltip:
-			'''
-			誰かの不在を示す謎めいた紙切れ
-			Xという署名がされている
-			'''
-	}
-
-	AcidicPrayerbook: {
-		DisplayName: 酸性の祈祷書
-		ObtainmentHint: "[c/F79BC6:この本は酸性雨と関係があるようだ...]"
-		Tooltip:
-			'''
-			かなり古びた書物
-			読める範囲では、その内容は敬虔なもののようだ
-			また、豚のような生物、ドラゴン、そして“海の硫黄の恐怖”と呼ばれる存在など、多くの一般的な話題について触れられている。
-
-			これ以上は読めない...
-			'''
-	}
-
-	AncientWritings: {
-		DisplayName: いにしえの本
-		ObtainmentHint: "[c/F79BC6:呪われている何者かが所持しているかもしれない...]"
-		ShopTooltip: 購入するまで内容は読めない
-		Tooltip:
-			'''
-			古い本
-			悪魔の呪いとされるものについて詳述されており、その影響についての不穏な記述が並んでいる
-			適当にページをめくると、次のような一節が見つかる...
-
-			「...五度目の巡礼の夜、呪われし者の肉体は一時的に剥がれ落ち、内より骸骨の姿が現れ、耐え難い苦痛を...」
-
-			これ以上読むのはやめておくことにした...
-			'''
-	}
-
-	BestPriceBestiary: {
-		DisplayName: 安値の魔物図鑑
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			本には様々な生物が載っている―見覚えのあるものもいれば、未知のものもいる
-			最初のページには、子供の落書きのような粗雑なスライムのイラストとともに、体力が13,575あると記されている...
-
-			これはさすがにデタラメだろう...
-			'''
-	}
-
-	CloverManual: {
-		DisplayName: クローバーの手引書
-		ObtainmentHint: "[c/F79BC6:この本を手に入れるには相当な幸運が必要かもしれない...]"
-		Tooltip:
-			'''
-			「運の仕組み」なるものについて説明している奇妙な小冊子
-			ランタンの夜、蹄鉄、庭のノーム、そして「ギャラクシーパール」と呼ばれる謎の物体など、幸運の源となるものについて記述されている
-			また、てんとう虫を大切に扱うよう注意を促す警告も書かれている
-
-			なぜか、最後のページは色付きの松明についての長々しい考察に割かれている...
-			'''
-	}
-
-	DubiousBrochureCorruption: {
-		DisplayName: 怪しげなパンフレット
-		ObtainmentHint: "[c/F79BC6:不浄地帯の谷底で見つかるかもしれない...]"
-		Tooltip:
-			'''
-			旅行者を不浄地帯に招待する、陽気な宣伝文句が並んだパンフレット
-			掲載されている写真は明らかに事実とは異なり、妙に魅力的に加工されている
-
-			一体誰が作ったのか...
-			'''
-	}
-
-	DubiousBrochureCrimson: {
-		DisplayName: 怪しげなパンフレット
-		ObtainmentHint: "[c/F79BC6:真紅の大地で見つかるかもしれない...]"
-		Tooltip:
-			'''
-			旅行者を真紅地帯に招待する、陽気な宣伝文句が並んだパンフレット
-			掲載されている写真は明らかに事実とは異なり、妙に魅力的に加工されている
-
-			一体誰が作ったのか...
-			'''
-	}
-
-	DubiousSpellbook: {
-		DisplayName: 怪しげな魔導書
-		ObtainmentHint: "[c/F79BC6:洞窟に時折現れる魔法使いが持っている...]"
-		Tooltip:
-			'''
-			未知の呪文書の製法と、その入手方法について記された魔導書
-
-			- スカーレットマリソン：スペルブック×1,ファイアブロッサム×4, 闇夜のソウル×10, 無影のシルク×3, ブラッドストーン×3
-			- エーテルクラッシュ：スペルブック×1, ドリームウィーバーの種×3, 光のソウル×10, ネビュラの断片×8
-			- テネブラスシルバーグロー: スペルブック×1, ダークプラズマ×1, プラチナのインゴット×3, ウィスパールートの樹皮×20、エレウムのコア×1
-			'''
-	}
-
-	DustyDiary: {
-		DisplayName: 埃まみれの日記
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			個人的な日記帳
-			あまりに古く、すべてのページが塵となり、記された知識は永遠に失われている...
-			想像力豊かな読者には最適の一冊！
-			'''
-	}
-
-	ExoBlueprints: {
-		DisplayName: エクソ関連の設計図
-		ObtainmentHint: "[c/F79BC6:科学者を攻撃すると入手できるかもしれない...]"
-		Tooltip:
-			'''
-			アレス、タナトス、アルテミス、アポロの設計図と、ドレイドンが書き残した技術的なメモ
-			特に自律行動アルゴリズムと戦闘戦略に関する一節が目を引く...
-
-			「シミュレーションテストの結果、アルテミス、アポロ、アレスは精密な航空能力を完全に放棄した方が戦闘効率が最大化することが判明した。これは不合理だが、非常に興味深い。」
-
-			この結論には思わず納得してしまう...
-			'''
-	}
-
-	FanaticalRamblings: {
-		DisplayName: 狂信的な戯言の書
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip: 本を開くと、説明できないほどの憎悪が込み上げてくる...
-	}
-
-	FishingCatalogue: {
-		DisplayName: 釣りカタログ
-		ObtainmentHint: "[c/F79BC6:この本は釣りの報酬として手に入るかもしれない...]"
-		Tooltip: 釣り関連のカタログで、その精密さと詳細さは驚異的だ...
-	}
-
-	FrostyPamphlet: {
-		DisplayName: 凍りついたパンフレット
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip: あまりに冷たくて、凍りついたページの文字が読めない...
-	}
-
-	HiTechInstructionManual: {
-		DisplayName: 高度な取扱説明書
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip: 4体のハイテク自律型ロボットの構造に関する奇妙な記述が書かれている...
-	}
-
-	InstructionManual: {
-		DisplayName: 取扱説明書
-		ObtainmentHint: "[c/F79BC6:強大な月の存在がこの本を所持している...]"
-		Tooltip:
-			'''
-			「Terraria」というゲームの取扱説明書
-			以下のようなアドバイスが書かれている...
-			「何をすればいいか分からない？ 新しい世界を作成するとすぐに現れるタウンNPC『ガイド』に相談しよう！
-			　間違って壁を設置してしまい、壊せない？ ハンマーを作って壊そう！
-			　タウンNPCが住むには、十分な空間、壁、椅子、テーブル、光源が必要だ！」
-			　...少しバカにされている気がする...
-			'''
-	}
-
-	InvisibleInkDissertation: {
-		DisplayName: 透明インクの論文
-		ObtainmentHint: "[c/F79BC6:普通の本を変質させることで手に入るかもしれない...]"
-		Tooltip:
-			'''
-			何も書いていないように見えるが、確かに何かが書かれていると感じる...
-			好奇心が精神を蝕んでいく...
-			'''
-	}
-
-	MagicLexicon: {
-		DisplayName: 魔法辞典
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			魔法に関する辞典
-			以下の説明が記されている...
-
-			インソーソル：誰かを魅了または幻惑する行為
-			ゴエティア：魔導書を通じて伝えられる魔術の一形態
-			グラマリー：秘術を学ぶ過程
-			ミスタゴーグ：神秘や秘教を教える者
-			'''
-	}
-
-	Otherworldly1: {
-		DisplayName: 異界の書 I
-		ObtainmentHint: "[c/F79BC6:この本はツボから見つかるかもしれない...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	Otherworldly2: {
-		DisplayName: 異界の書 II
-		ObtainmentHint: "[c/F79BC6:この本は取り出し機で手に入れられるかもしれない...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	Otherworldly3: {
-		DisplayName: 異界の書 III
-		ObtainmentHint: "[c/F79BC6:珍しい鮮やかなスライムの中にあるかもしれない...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	Otherworldly4: {
-		DisplayName: 異界の書 VI
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	Otherworldly5: {
-		DisplayName: 異界の書 V
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	Otherworldly6: {
-		DisplayName: 異界の書 VI
-		ObtainmentHint: "[c/F79BC6:ダンジョンの特別な宝箱の中にあるかもしれない...]"
-		Tooltip:
-			'''
-			見たことがない言語で書かれている...
-			ソリンなら何か知っているかもしれない...
-			'''
-	}
-
-	SanguineWildlife: {
-		DisplayName: 紅血の野生生物
-		ObtainmentHint: ""
-		Tooltip: ""
-	}
-
-	SeamapCollection: {
-		DisplayName: 海図コレクション
-		ObtainmentHint: "[c/F79BC6:この本は海賊の船長が持っているかもしれない...]"
-		Tooltip:
-			'''
-			さまざまな海図がまとめられたコレクション
-			地図上の印は、どうやら財宝の場所を示しているようだ
-			だが、描かれた場所に見覚えはない...
-			どこにあるのだろうか
-			'''
-	}
-
-	SulfuricLeaflet: {
-		DisplayName: 硫黄のチラシ
-		ObtainmentHint: "[c/F79BC6:この本は硫黄の洞窟で見つかるかもしれない...]"
-		Tooltip:
-			'''
-			酸性雨の危険性について説明する小さなチラシ
-			放射線を帯びているようだ...
-			'''
-	}
-
-	TheBookOfShaders: {
-		DisplayName: シェーダーの書
-		ObtainmentHint: "[c/F79BC6:これは自分で探してみよう...]"
-		Tooltip:
-			'''
-			シェーダーの作成やプログラムによるアート制作に関する解説書
-			7ページもピクセルアートの神聖さについての説教に費やされている...
-			'''
-	}
-
-	UnfinishedColoringBook: {
-		DisplayName: 未完成の塗り絵帳
-		ObtainmentHint: "[c/F79BC6:この本は時折、キャンプ近くで見つかるかもしれない...]"
-		Tooltip:
-			'''
-			簡単な天体風景が描かれた塗り絵帳
-			約3分の2のページは見事な彩色が施されている
-			残りはまったく手がつけられていない...
-			'''
-	}
-
-	WulfrumAssemblyGuide: {
-		DisplayName: ウルフラム組立ガイド
-		ObtainmentHint: "[c/F79BC6:この本は帯電した機械から入手できるかもしれない...]"
-		Tooltip:
-			'''
-			有名な発明家が作成した、わかりづらい説明書
-			様々な道具について書かれているが、ほとんどが馴染みのないものだ
-			知っている素材も、かなり奇妙な方法で使われている...
-			'''
-	}
-
-	WorldUpdater: {
-		DisplayName: ワールドバージョン更新ツール(デバッグ)
-		Tooltip:
-			'''
-			ワールドのバージョンデータを最新のものに更新する
-			これにより、古いワールドでも新バージョンの条件が適用される
-			例：ソリンのクエストラインが新しく作成された時、など
-			'''
-	}
-
-	SolynBookshelfResetter: {
-		DisplayName: ソリンの本棚リセットツール (DEBUG)
-		Tooltip: ソリンの本棚にあるすべての本と、未受領の報酬をリセットする
-	}
-
-	ExoticSeedBag: {
-		DisplayName: 異国の種袋
-		Tooltip:
-			'''
-			虚無の化身を召喚するための必要素材が全て入っている
-			召喚するには、全ての種を近くに植え、「氷祝の苗木」が完全に成長した後に右クリックすること
-			[c/FF2219:注意：このアイテムは後方互換性のためのもので、新しいワールドでは使用を想定していません！]
-			'''
-	}
-
-	GenderDye: {
-		DisplayName: 性別の染料
-		Tooltip: ""
-	}
-
-	SeedOfWill: {
-		DisplayName: 意志の種
-		Tooltip:
-			'''
-			無名の神と終わりなき試練に挑む
-			庭園でのみ使用可能
-			長く生き延びられれば報酬が得られるかもしれない...
-			'''
-	}
-
-	ParadiseDye: {
-		DisplayName: 楽園の染料
-		Tooltip: ""
-	}
-
-	SolynQuestSkipper: {
-		DisplayName: ソリンクエストスキップツール(DEBUG)
-		Tooltip: ソリンの会話やクエストをすべて完了させ、すぐに創世の樹を目覚めさせられるようにする。
-	}
-
-	SolynTelescopeResetter: {
-		DisplayName: ソリンの望遠鏡リセッター(DEBUG)
-		Tooltip: ソリンの望遠鏡の状態をリセットし、再び修理できるようにする。
-	}
-
-	StrangeFlagpole: {
-		DisplayName: 奇妙な旗
-		Tooltip:
-			'''
-			ソリンがキャンプを設営する場所を決めるのに使える  
-			旗の近くに十分な広さの平らな場所がないと、キャンプを設営できないので注意  
-			この旗柱を設置すると、地形が適しているかを確認できる
-			'''
-		NotFlatEnoughText: ここはちょっと難しいかも...
-		FlatEnoughText: ここならちょうどいいね！
+	CuriousHandBuff: {
+		Description: 長い間馴染みのなかった世界の形や質感に触れる
+		DisplayName: 不思議な手
 	}
 }
 
-MenuThemes: {
-	AscentMainMenu: {
-		DisplayName: ascent
+Biomes: {
+	DeadUniverseBiome: {
+		TownNPCDialogueName: 死せる宇宙
+		DisplayName: 死せる宇宙
 	}
 
-	EternalGardenMainMenu: {
-		DisplayName: Creation's Center
-	}
-
-	NamelessDeityDimensionMainMenu: {
-		DisplayName: Paradise's Shining Backdrop
-	}
-
-	AvatarRiftSkyMainMenu: {
-		DisplayName: The Insouciant, Carmine Yonder
-	}
-
-	AvatarWindMainMenu: {
-		DisplayName: Turbulent Expanse
-	}
-}
-
-NamelessLoreVocabulary: {
-	Vocabulary: {
-		Determiner1: 一つの
-		Determiner2: その
-		Verb1: 屈折する
-		Verb2: 超越する
-		Verb3: 占う
-		Verb4: 予見する
-		Verb5: 歩く
-		Verb6: 燃え上がる
-		Verb7: 融合する
-		Verb8: 上昇する
-		Verb9: たどる
-		Verb10: 踏む
-		Verb11: 垣間見る
-		Verb12: 屈する
-		Verb13: 発見する
-		Verb14: 解き明かす
-		Verb15: 探し求める
-		Verb16: 勝利する
-		Verb17: 航行する
-		Verb18: 織り成す
-		Verb19: 共鳴する
-		Verb20: 体験する
-		Verb21: 時を測る
-		Verb22: 拡張する
-		Verb23: 啓発する
-		Verb24: 明かす
-		Verb25: 生み出す
-		Verb26: 統合する
-		Verb27: 旅に出る
-		Verb28: 見つける
-		Verb29: 蒸留する
-		Verb30: 試す
-		Verb31: 展開する
-		Verb32: ひらひら舞う
-		Verb33: 優雅さを与える
-		Verb34: 願う
-		Verb35: 味わう
-		Verb36: 避ける
-		Verb37: 大切にする
-		Verb38: 放射する
-		Verb39: 雄弁に語る
-		Verb40: 輝く
-		Verb41: 燃える
-		Verb42: 消去する
-		Verb43: 壊滅させる
-		Verb44: 裏切る
-		Verb45: 受け入れる
-		Verb46: 切除する
-		Verb47: 息をする
-		Verb48: 投影する
-		Verb49: 理解する
-		Verb50: 浴びる
-		Verb51: 息を呑む
-		Verb52: 食い止める
-		Verb53: 照らす
-		Verb54: 招く
-		Verb55: 築く
-		Verb56: 創造する
-		Verb57: 祈る
-		Verb58: 制御する
-		Verb59: 掴む
-		Verb60: 飛ぶ
-		Verb61: 溶ける
-		Verb62: 溶解する
-		Verb63: 悔い改める
-		Verb64: 征服する
-		Verb65: 流れる
-		Verb66: 分解する
-		Verb67: 活力を与える
-		Verb68: 免除する
-		Verb69: 実現する
-		Verb70: かわいがる
-		Verb71: 漂う
-		Verb72: 揺れる
-		Verb73: 具現化する
-		Verb74: 生み出す
-		Verb75: 浄化する
-		Verb76: 書く
-		Verb77: 停泊する
-		Verb78: 断る
-		Verb79: 子孫を作る
-		Verb80: 思い出す
-		Verb81: 舞い上がる
-		Verb82: 直面する
-		Verb83: 不滅にする
-		Verb84: 周回する
-		Verb85: 派閥化する
-		Verb86: 合体する
-		Verb87: 癒す
-		Verb88: 認める
-		Verb89: 石化する
-		Verb90: 静める
-		Verb91: 凍らせる
-		Verb92: 資格を与える
-		Verb93: 卓越する
-		Verb94: 熟考する
-		Verb95: 治療する
-		Verb96: 再生させる
-		Verb97: 区別する
-		Verb98: 這う
-		Verb99: 貪り食う
-		Verb100: 終わらせる
-		Verb101: 切り離す
-		Verb102: 解明する
-		Verb103: 述べる
-		Verb104: 嘆く
-		Verb105: 開花する
-		Verb106: 腐敗する
-		Verb107: 応じる
-		Verb108: 黙認する
-		Verb109: 設定する
-		Verb110: 目指す
-		Verb111: つきまとう
-		Verb112: 留まる
-		Verb113: 考察する
-		Verb114: 拒絶する
-		Verb115: 思い悩む
-		Verb116: 崩壊する
-		Verb117: 現れる
-		Verb118: 泣く
-		Verb119: 告白する
-		Verb120: にやりと笑う
-		Verb121: 鼓動する
-		Verb122: 形を失う
-		Verb123: 震える
-		Verb124: 平伏する
-		Verb125: 鞭打つ
-		Verb126: 成長する
-		Verb127: 脈打つ
-		Verb128: 欺く
-		Verb129: 打つ
-		Verb130: 警告する
-		Verb131: うなずく
-		Verb132: 無視する
-		Verb133: 侮辱する
-		Verb134: 超える
-		Verb135: 作曲する
-		Verb136: 破壊する
-		Verb137: 祝う
-		Verb138: 話す
-		Verb139: 約束する
-		Verb140: 暗示する
-		Verb141: 実行する
-		Verb142: 感じる
-		Verb143: 予測する
-		Verb144: 取り消す
-		Verb145: 吹き飛ばす
-		Verb146: 開く
-		Verb147: 現れる
-		Verb148: 決める
-		Verb149: 廃止する
-		Verb150: のたうつ
-		Adjective1: 言葉で表せない
-		Adjective2: 輝かしい
-		Adjective3: はかない
-		Adjective4: 物悲しい
-		Adjective5: 至福の
-		Adjective6: 永遠の
-		Adjective7: ねじれた
-		Adjective8: 全知の
-		Adjective9: 全能の
-		Adjective10: 慈悲深い
-		Adjective11: 希望に満ちた
-		Adjective12: 崇高な
-		Adjective13: 活力に満ちた
-		Adjective14: 時代遅れの
-		Adjective15: 情け容赦ない
-		Adjective16: 美しい
-		Adjective17: 派手な
-		Adjective18: 儚い
-		Adjective19: 輝かしい
-		Adjective20: ふしだらな
-		Adjective21: 不屈の
-		Adjective22: 秘密の
-		Adjective23: 賢明な
-		Adjective24: 頑固な
-		Adjective25: 無頓着な
-		Adjective26: 大洪水以前の
-		Adjective27: 神聖な
-		Adjective28: 迷宮のような
-		Adjective29: 謎めいた
-		Adjective30: 内省的な
-		Adjective31: 機敏な
-		Adjective32: 蒸留された
-		Adjective33: 魅惑的な
-		Adjective34: 正直な
-		Adjective35: 幸せな
-		Adjective36: 優れた
-		Adjective37: 神格化された
-		Adjective38: 穏やかな
-		Adjective39: 静かな
-		Adjective40: 平和な
-		Adjective41: 扱いにくい
-		Adjective42: 殺人的な
-		Adjective43: 奇抜な
-		Adjective44: 恵まれた
-		Adjective45: 楽園のような
-		Adjective46: 宇宙的な
-		Adjective47: 古代の
-		Adjective48: 印象的な
-		Adjective49: 栄光ある
-		Adjective50: 凍えるような
-		Adjective51: 金箔の
-		Adjective52: 絶対に正しい
-		Adjective53: 奇妙な
-		Adjective54: 献身的な
-		Adjective55: 運命づけられた
-		Adjective56: 穢れなき
-		Adjective57: グロテスクな
-		Adjective58: 光り輝く
-		Adjective59: 無限の
-		Adjective60: 汚れた
-		Adjective61: 機知に富んだ
-		Adjective62: 欠陥のある
-		Adjective63: 終末論的な
-		Adjective64: 不浄な
-		Adjective65: 単一のシナプスの
-		Adjective66: 断続的な
-		Adjective67: 不可侵の
-		Adjective68: 懺悔した
-		Adjective69: 揺れる
-		Adjective70: 貪欲な
-		Adjective71: 抽象的な
-		Adjective72: 複雑な
-		Adjective73: 神秘的な
-		Adjective74: 少女のような
-		Adjective75: 永遠の
-		Adjective76: 熱狂的な
-		Adjective77: 天上的な
-		Adjective78: 発熱性の
-		Adjective79: 眩い
-		Adjective80: パブロフ的な
-		Adjective81: 魅力的な
-		Adjective82: 復活した
-		Adjective83: 単色の
-		Adjective84: 眠そうな
-		Adjective85: 混乱した
-		Adjective86: 空っぽの
-		Adjective87: 色褪せた
-		Adjective88: 有頂天の
-		Adjective89: 満足した
-		Adjective90: 夢のような
-		Adjective91: 詩的な
-		Adjective92: 騎士叙任の
-		Adjective93: 防御的な
-		Adjective94: 心配そうな
-		Adjective95: 聖なる
-		Adjective96: 銅の
-		Adjective97: 超強力な
-		Adjective98: 隠遁した
-		Adjective99: 賢い
-		Adjective100: 完全な
-		Adjective101: エルフの
-		Adjective102: 牧歌的な
-		Adjective103: 年老いた
-		Adjective104: ゼロックの祝福を受けた
-		Adjective105: 効率的な
-		Adjective106: 冷淡な
-		Adjective107: 鮮やかな
-		Adjective108: 早すぎた
-		Adjective109: 残忍な
-		Adjective110: 興味を引く
-		Adjective111: 奇異な
-		Adjective112: 忘れられない
-		Adjective113: 創造的な
-		Adjective114: 異国の
-		Adjective115: 獣のような
-		Adjective116: 大切にされた
-		Adjective117: 孤独な
-		Adjective118: 止められない
-		Adjective119: 調和した
-		Adjective120: 六角形の
-		Adjective121: プログラム済みの
-		Adjective122: 乗っ取られた
-		Adjective123: 豪華な
-		Adjective124: テクノサピエントの
-		Adjective125: 誤った方向に向けられた
-		Adjective126: 博識な
-		Adjective127: 騎士道的な
-		Adjective128: 偏屈な
-		Adjective129: 言語の
-		Adjective130: 書き写された
-		Adjective131: 不正確な
-		Adjective132: 共存する
-		Adjective133: 先見の明がある
-		Adjective134: 冥王星の
-		Adjective135: 紫の
-		Adjective136: 色合いのある
-		Adjective137: 異教の
-		Adjective138: 隠れた
-		Adjective139: 悪名高い
-		Adjective140: 頑強な
-		Adjective141: 不注意な
-		Adjective142: 宝石で飾られた
-		Adjective143: 敬虔な
-		Adjective144: おぞましい
-		Adjective145: 埋葬された
-		Adjective146: 曇った
-		Adjective147: 冥界の
-		Adjective148: 惨めな
-		Adjective149: 有害な
-		Adjective150: 洗練された
-		Adjective151: 狩られた
-		Adjective152: 無実の
-		Adjective153: 憤慨した
-		Adjective154: 萎れた
-		Adjective155: 厳粛な
-		Adjective156: 牧歌的な
-		Adjective157: 思いがけない
-		Adjective158: 中傷的な
-		Adjective159: 避けられない
-		Adjective160: 慣例的な
-		Adjective161: 絹のような
-		Adjective162: 盲目的な
-		Adjective163: 陰鬱な
-		Adjective164: 輝く
-		Adjective165: 適切な
-		Adjective166: 障害のない
-		Adjective167: 鏡のような
-		Adjective168: 意欲的な
-		Adjective169: 力強い
-		Adjective170: 不安にさせる
-		Adjective171: 象徴的な
-		Adjective172: 無彩色の
-		Adjective173: インスピレーションを受けた
-		Adjective174: 伝説的な
-		Adjective175: 自然の
-		Adjective176: 島国根性の
-		Adjective177: 熱情的な
-		Adjective178: ヘレニズム的な
-		Adjective179: 決意のある
-		Adjective180: 未来を見据えた
-		Adjective181: 紡がれていない
-		Adjective182: 捉えどころのない
-		Adjective183: 期待外れの
-		Adjective184: 試されていない
-		Adjective185: 断固たる
-		Adjective186: 好奇心旺盛な
-		Adjective187: エルドリッチの
-		Adjective188: 説得力のある
-		Adjective189: 麻痺させる
-		Adjective190: 激怒した
-		Adjective191: 見捨てられた
-		Adjective192: 裏切られた
-		Adjective193: 蒼白な
-		Adjective194: 味気ない
-		Adjective195: 悪性の
-		Adjective196: 一時的な
-		Adjective197: 壮大な
-		Adjective198: 悪者扱いされた
-		Adjective199: 代数的な
-		Adjective200: 雄弁な
-		Adjective201: 適応不全の
-		Adjective202: 高硫黄の
-		Adjective203: アルカリ性の
-		Adjective204: 半透明の
-		Adjective205: 波状の
-		Adjective206: マルタの
-		Adjective207: 航空の
-		Adjective208: 熱意のない
-		Adjective209: 静止した
-		Adjective210: 再帰的でない
-		Adjective211: 博学な
-		Adjective212: デジタルの
-		Adjective213: 強調された
-		Adjective214: 二神教的な
-		Adjective215: 偶像破壊的な
-		Adjective216: ブリッタブルな
-		Adjective217: 16進の
-		Adjective218: 名前のない
-		Adjective219: 永続的な
-		Adjective220: 併合可能な
-		Adjective221: 偏見のない
-		Adjective222: 冠を戴かない
-		Adjective223: 東洋の
-		Adjective224: 編まれた
-		Adjective225: ピュリッヒの
-		Adjective226: 君主のいない
-		Adjective227: 高級な
-		Adjective228: 音響的な
-		Adjective229: 調和の取れた
-		Adjective230: 無気力な
-		Adjective231: 賢い
-		Adjective232: 絶え間ない
-		Adjective233: 変わり者の
-		Adjective234: 取るに足らない
-		Adjective235: 推論的な
-		Adjective236: 密輸の
-		Adjective237: キャラメル化した
-		Adjective238: 二院制の
-		Adjective239: 青ざめた
-		Adjective240: 粗野な
-		Adjective241: 卑劣な
-		Adjective242: 軽蔑すべき
-		Adjective243: 不敬な
-		Adjective244: 法外な
-		Adjective245: 怪我をした
-		Adjective246: 露骨な
-		Adjective247: 物語的な
-		Adjective248: 上訴の
-		Adjective249: 著名な
-		Adjective250: 至高の
-		Adjective251: 星状の
-		Adjective252: 正面の
-		Adjective253: 曲線的な
-		Adjective254: しなやかな
-		Adjective255: 熱帯の
-		Adjective256: 騒々しい
-		Adjective257: 克服不可能な
-		Adjective258: 下品な
-		Adjective259: 尊敬された
-		Adjective260: 高慢な
-		Adjective261: 出産可能な
-		Adjective262: 虚栄心の強い
-		Adjective263: 正当な
-		Adjective264: ごつごつした
-		Adjective265: しなやかな
-		Adjective266: 陳腐な
-		Adjective267: 無関心な
-		Adjective268: 初歩的な
-		Adjective269: 荒廃した
-		Adjective270: 暖かい
-		Adjective271: オイルの
-		Adjective272: 科学的な
-		Adjective273: 統一された
-		Adjective274: 運命的な
-		Adjective275: 万言語対応の
-		Noun1: 聖職者
-		Noun2: 神
-		Noun3: 存在
-		Noun4: 刃
-		Noun5: 試練
-		Noun6: 織物
-		Noun7: 火
-		Noun8: 星
-		Noun9: イオン
-		Noun10: 絵画
-		Noun11: 自然
-		Noun12: 戦士
-		Noun13: 農奴
-		Noun14: 家
-		Noun15: 数字
-		Noun16: 対数
-		Noun17: 季節
-		Noun18: りんご
-		Noun19: 罪人
-		Noun20: 言葉
-		Noun21: 糸
-		Noun22: 処刑人
-		Noun23: 血
-		Noun24: 星雲
-		Noun25: 光
-		Noun26: マント
-		Noun27: 冠
-		Noun28: 抗原
-		Noun29: スライム
-		Noun30: エージェント
-		Noun31: 魔法使い
-		Noun32: 城
-		Noun33: テーブル
-		Noun34: レーザー
-		Noun35: イットリウム
-		Noun36: 硫黄
-		Noun37: 地形
-		Noun38: 果物
-		Noun39: 母
-		Noun40: 司祭
-		Noun41: 啓示
-		Noun42: 門
-		Noun43: 補間器
-		Noun44: 杖
-		Noun45: 風
-		Noun46: 池
-		Noun47: 賛美歌
-		Noun48: 霧
-		Noun49: 不屈
-		Noun50: 草地
-		Noun51: 裁判官
-		Noun52: 征服者
-		Noun53: 強欲
-		Noun54: 巨人
-		Noun55: 五行詩
-		Noun56: 運命
-		Noun57: 注目の的
-		Noun58: 木
-		Noun59: 細胞
-		Noun60: 終焉
-		Noun61: 命
-		Noun62: 死神
-		Noun63: 蛇
-		Noun64: 箱舟
-		Noun65: 契約
-		Noun66: アンク
-		Noun67: 紋章
-		Noun68: 鈴
-		Noun69: 言語
-		Noun70: 贈り物
-		Noun71: サフラン
-		Noun72: 錬金術師
-		Noun73: 小旅行
-		Noun74: 四分円
-		Noun75: 雄しべ
-		Noun76: アイリス
-		Noun77: 香炉
-		Noun78: 白金
-		Noun79: 溶岩
-		Noun80: 手
-		Noun81: 隅
-		Noun82: 影
-		Noun83: 災厄
-		Noun84: 破片
-		Noun85: 精霊
-		Noun86: 鱗
-		Noun87: 灰
-		Noun88: プラズマ
-		Noun89: 竜
-		Noun90: 物質
-		Noun91: 特異点
-		Noun92: 世界
-		Noun93: 化石
-		Noun94: 銀河
-		Noun95: 陽光
-		Noun96: ネクロマンサー
-		Noun97: 停止期間
-		Noun98: 年代記
-		Noun99: 時間
-		Noun100: 円
-		Noun101: 羽根板
-		Noun102: 葉
-		Noun103: アクスル
-		Noun104: 風
-		Noun105: 目
-		Noun106: 鍵
-		Noun107: サンゴ
-		Noun108: 星屑
-		Noun109: テルミン
-		Noun110: ペン
-		Noun111: 水銀
-		Noun112: 黒曜石
-		Noun113: 肖像画
-		Noun114: アンブロシア
-		Noun115: 虎
-		Noun116: レイチェ
-		Noun117: コンサート
-		Noun118: 儀式
-		Noun119: 鬼
-		Noun120: マントル
-		Noun121: 発明
-		Noun122: ハエ
-		Noun123: 乱視
-		Noun124: ロボット
-		Noun125: 魔女
-		Noun126: 2年生
-		Noun127: 悪夢
-		Noun128: 接着剤
-		Noun129: アルファベット
-		Noun130: 整数
-		Noun131: 農場
-		Noun132: 宇宙人
-		Noun133: 峰丘
-		Noun134: 列車
-		Noun135: 市参事会員
-		Noun136: コウノトリ
-		Noun137: 月
-		Noun138: 垣根
-		Noun139: サファイア
-		Noun140: 司令官
-		Noun141: コンゴウインコ
-		Noun142: 脳
-		Noun143: 家臣
-		Noun144: ガラス
-		Noun145: 余弦
-		Noun146: 衛星
-		Noun147: 狩人
-		Noun148: 指輪
-		Noun149: 人間
-		Noun150: 貝殻
-		Noun151: 子孫
-		Noun152: マグネシウム
-		Noun153: 花崗岩
-		Noun154: 帝国
-		Noun155: 攻撃者
-		Noun156: エーテル
-		Noun157: 自動機械
-		Noun158: 熱帯雨林
-		Noun159: 門番
-		Noun160: 後援者
-		Noun161: 専門家
-		Noun162: クイド
-		Noun163: 敷石
-		Noun164: 毒
-		Noun165: 光年
-		Noun166: 愛情
-		Noun167: エジプト人
-		Noun168: 大砲
-		Noun169: 気
-		Noun170: 演説者
-		Noun171: 軍艦
-		Noun172: 学者
-		Noun173: 子孫
-		Noun174: 灯台
-		Noun175: 哲学者
-		Noun176: ゴス
-		Noun177: 調律者
-		Noun178: 兵士
-		Noun179: テキスト
-		Noun180: 実験
-		Noun181: 現実主義者
-		Noun182: 布
-		Noun183: 探検家
-		Noun184: リメリック
-		Noun185: 遺伝子
-		Noun186: ランプ
-		Noun187: シアン化物
-		Noun188: 過激派
-		Noun189: 製作者
-		Noun190: 忘却薬
-		Noun191: 岸
-		Noun192: フルート
-		Noun193: 女帝
-		Noun194: スウィズル
-		Noun195: レーサー
-		Noun196: 浮浪者
-		Noun197: 世話人
-		Noun198: 専制君主
-		Noun199: 観察者
-		Noun200: 科学者
-		Noun201: オグスクル
-		Noun202: メドレー
-		Noun203: リメリック
-		Noun204: カラット
-		Noun205: 生殖腺
-		Noun206: 送金
-		Noun207: スパイ活動
-		Noun208: 糞化石
-		Noun209: バターカップ
-		Noun210: カーネーション
-		Noun211: ランタナ
-		Noun212: ズィニア
-		Noun213: ダリア
-		Noun214: ハス
-		Noun215: ユリ
-		Noun216: ピオニー
-		Noun217: チューリップ
-		Noun218: 蘭
-		Noun219: バラ
-		Noun220: アザレア
-		Noun221: アイリス
-		Noun222: デイジー
-		Noun223: 菊
-		Noun224: ペチュニア
-		Noun225: クロッカス
-		Noun226: フリージア
-		Noun227: アマリリス
-		Noun228: 採石場
-		Noun229: 春分
-		Noun230: 神
-		Noun231: 漸近線
-		Noun232: ルーレット
-		Noun233: キリストの記号
-		Noun234: 死後の世界
-		Noun235: 死体
-		Noun236: 歌
-		Noun237: 建物
-		Noun238: ライム
-		Noun239: ジャイロ
-		Noun240: ツバキ
-		Noun241: トニック
-		Noun242: 格言
-		Noun243: 反応剤
-		Noun244: 流木
-		Noun245: 信号機
-		Noun246: フェロ流体
-		Noun247: ミューズ
-		Noun248: ジュビリー
-		Noun249: 予言者
-		Noun250: 半影
-		Noun251: 顔つき
-		Noun252: ヤドリギ
-		Noun253: 相続人
-		Noun254: 五分儀
-		Noun255: ヌガー
-		Noun256: 物語作家
-		Noun257: モアレ
-		Noun258: 君主
-		Noun259: 巨大動物
-		Noun260: サリエーズ
-		Noun261: エゴテイスト
-		Noun262: サイマー
-		Noun263: 強風
-		Noun264: 舵手
-		Noun265: プリムローズ
-		Noun266: ライラック
-		Noun267: 不定積分
-		Noun268: 結び目
-		Noun269: ラッカー
-		Noun270: 光沢
-		Noun271: 困難
-		Noun272: 回転
-		Noun273: 軍事評議会
-		Noun274: 果物
-		Noun275: アルペジオ
-		Noun276: シンセ
-		Noun277: 継続行
-		Noun278: 点字
-		Noun279: トリトーン
-		Noun280: ザクロ
-		Noun281: 楽園
-		Noun282: 法令
-		Noun283: 王朝
-		Noun284: 時代
-		Noun285: 神託
-		Noun286: 翡翠
-		Noun287: 同族語
-		Noun288: ドゥーマ
-		Noun289: 骨切り鋸
-		Noun290: 冗談
-		Noun291: 寓話
-		Noun292: 領地
-		Noun293: 弓
-		Noun294: 霸権
-		Noun295: 高速道路
-		Noun296: 歌
-		Noun297: 焚き火
-		Noun298: 源泉
-		Noun299: ワックス
-		Noun300: 貴族
-		Preposition1: について
-		Preposition2: の上に
-		Preposition3: を横切って
-		Preposition4: の後に
-		Preposition5: に対して
-		Preposition6: に沿って
-		Preposition7: の間に
-		Preposition8: の周りに
-		Preposition9: として
-		Preposition10: に
-		Preposition11: の前に
-		Preposition12: の後ろに
-		Preposition13: の下に
-		Preposition14: の下に
-		Preposition15: の隣に
-		Preposition16: の間に
-		Preposition17: の向こうに
-		Preposition18: によって
-		Preposition19: にもかかわらず
-		Preposition20: の間に
-		Preposition21: を除いて
-		Preposition22: のために
-		Preposition23: から
-		Preposition24: の中へ
-		Preposition25: のように
-		Preposition26: の近く
-		Preposition27: の
-		Preposition28: の上に
-		Preposition29: の反対に
-		Preposition30: の上に
-		Preposition31: 以来
-		Preposition32: よりも
-		Preposition33: へ
-		Preposition34: に向かって
-		Preposition35: の下に
-		Preposition36: まで
-		Preposition37: の上に
-		Preposition38: の上に
-		Preposition39: と一緒に
-		Preposition40: の中に
-		Preposition41: なしで
-		Preposition42: を通して
-		EasterEggSentence: オング バッシン
-		PhraseStructureRules:
-			'''
-			SENTENCE = SUBJECT PREDICATE OBJECT, SUBJECT PREDICATE
-			SUBJECT = NOUNPHRASE
-			PREDICATE = VERBPHRASE
-			OBJECT = NOUNPHRASE, PREPOSITION NOUNPHRASE
-			NOUNPHRASE = DETERMINER ADJECTIVE NOUN, DETERMINER NOUN
-			VERBPHRASE = VERB PREPOSITION NOUNPHRASE
-			'''
-		IncludeSpacesBetweenWords: True
-	}
-}
-
-NPCs: {
-	NoxusEggCutscene: {
-		DisplayName: ???
-	}
-
-	AvatarRift: {
-		DisplayName: ???
-		DisplayNameSingular: ???
-
-		BossChecklistIntegration: {
-			SpawnInfo: 「創世の樹」を作り上げ、覚醒させる。
-			DespawnMessage: "[c/EA0023:裂け目は一瞬のうちに消え去った。]"
-		}
-	}
-
-	AvatarOfEmptiness: {
-		DisplayName: 虚無の化身
-		DisplayNameSingular: 虚無の化身
-
-		BossChecklistIntegration: {
-			SpawnInfo: 「創世の樹」を作り上げ、覚醒させる。
-			DespawnMessage: "[c/EA0023:暗黒の者の醜悪な姿は一瞬のうちに消え去った。]"
-		}
-
-		InfernumCompatibility: {
-			Title: Brightest Star In A Perfect World
-		}
-
-		ParadiseReclaimedText: paradise reclaimed
-	}
-
-	NamelessDeityBoss: {
-		DisplayName: 無名の神
-		DisplayNameSingular: 無名の神
-		SillyDeathCountSuffix: ", Tormentor of Nohitters"
-		TestOfResolveName: ENDLESS DEITY
-
-		BossChecklistIntegration: {
-			SpawnInfo: 眼が開いた後に [i:CalamityMod/Terminus] を使用する
-			DespawnMessage: "[c/FF463D:あなたは試練を乗り越えることができなかった。]"
-		}
-
-		InfernumCompatibility: {
-			Title: ??????????????????????????????????????????????????
-		}
-	}
-
-	DismalSeeker: {
-		DisplayName: ディズマル・シーカー
-	}
-
-	Fogwood: {
-		DisplayName: フォグウッド
-	}
-
-	Mirrorwalker: {
-		DisplayName: ミラーウォーカー
-	}
-
-	DarkHarbinger: {
-		DisplayName: ダークハービンジャー
-	}
-
-	Frightweaver: {
-		DisplayName: フライトウィーバー
-	}
-
-	Aelithrysuwl: {
-		DisplayName: エイリスリスウル
-	}
-
-	Vivajuyfylae: {
-		DisplayName: ヴィヴァジュイフィレイ
-	}
-
-	Solyn: {
-		DisplayName: ソリン
-
-		TownNPCMood: {
-			Content: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			NoHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			FarFromHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			LoveSpace: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			DislikeCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			HateCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			LikeNPC_Princess: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-			Princess_LovesNPC: Sorry translators, ignore this. These are not used anywhere but TML requires them.
-		}
-	}
-
-	MarsBody: {
-		DisplayName: XG-07 マーズ
-
-		BossChecklistIntegration: {
-			SpawnInfo: ソリンと特別なクエストを開始し、コードブレイカーを使用してドレイドンと接触する。
-			DespawnMessage: "[c/9BFFFF:誤差の範囲内だ。]"
-		}
-
-		InfernumCompatibility: {
-			Title:
-				'''
-				Greenhouse Goliath
-				Mars
-				'''
-		}
-	}
-
-	CeaselessVoidRift: {
-		DisplayName: ???
-		MapIconText: 謎の裂け目
-	}
-
-	QuestDraedon: {
-		DisplayName: ドレイドン
-	}
-
-	BattleSolyn: {
-		DisplayName: ソリン
-	}
-
-	TrappingHolographicForcefield: {
-		DisplayName: 投影型フォースフィールド
-	}
-}
-
-PlayerDeathMessages: {
-	NamelessDeity1: "{0}は試練に失敗した。"
-	NamelessDeity2: "{0}の原子構造は庭に吸収されるために分解された。"
-	NamelessDeity3: "{0}は至福の中で神の光に消えた。"
-	NamelessDeity4: "{0}の形はやがて星々と一体となる。"
-	NamelessDeity5: "{0}の魂は庭に残り、その肉体は崩れ去る。"
-	NamelessDeity6: "{0}の目的は達成された。"
-	NamelessDeity7: "{0}は永遠を目撃し、その後消えた。"
-	NamelessDeity8: "{0}の運命は終わった。"
-	NamelessDeity9: "{0}は努力もむなしく死んだ。"
-	NamelessDeity10: "{0}は冷静に光に向かっていった。"
-	NamelessDeity11: "{0}はすべてと一体となった。"
-	NamelessDeity12: "{0}はエーテルに消えた。"
-	NamelessDeity13: "{0}は宇宙の織物に溶け込んだ。"
-	NamelessDeity14: "{0}は死を超越し、星屑となった。"
-	NamelessDeity15: "{0}の旅は庭の神聖な抱擁の中で終わった。"
-	NamelessDeity16: "{0}は宇宙の交響曲と一体となった。"
-	NamelessDeity17: "{0}は存在の無限の格子に溶け込んだ。"
-	NamelessDeity18: "{0}はやがて木に実る「良いリンゴ」となるだろう。"
-	NamelessDeityCheatEasterEgg: チートを使おうとしたため、{0}はやがて木に実る「悪いリンゴ」になる。
-	ParadiseReclaimed: "{0}は楽園の苦痛に満ちた抱擁の中で溶けていった。"
-	ScreenSplitDeathZone: "{0}はフラクタル化した。"
-	ThisModReallyIsJustShitpostsMaskedByBossesHuh: 四方に広がる濁った空間はどこも見分けがつかない。どれくらいの時間が経ったのか？ 一時間？ 一日？ 二週間？ 五万年？あるいは、この無の領域では時間の概念すら失われたのかもしれない。目的もなく歩き続ける中、茄子色の地平線の端に微かな光が見えた。それに向かって歩くうちに、{0}は神々しい自然の力によってもたらされた、目がくらむほどの啓示を受けた。そう、{0}は気づいてしまったのだ。彼らは化身の領域にいた。彼らは「悪いリンゴ」の中にいたのだ。
-}
-
-Projectiles: {
-	AcceleratingRubble: {
-		DisplayName: Rubble
-	}
-
-	Antistar: {
-		DisplayName: Antistar
-	}
-
-	ArcingStarburst: {
-		DisplayName: Starburst
-	}
-
-	ArcticBlast: {
-		DisplayName: Arctic Blast
-	}
-
-	ArcticWindStreakVisual: {
-		DisplayName: Cryonic Wind
-	}
-
-	BabyNameless: {
-		DisplayName: Nameless Deity
-	}
-
-	BackgroundStar: {
-		DisplayName: Star
-	}
-
-	BlackHole: {
-		DisplayName: Black Hole
-	}
-
-	BlackHoleHostile: {
-		DisplayName: Quasar
-	}
-
-	BlackHolePet: {
-		DisplayName: Black Hole
-	}
-
-	BloodBlob: {
-		DisplayName: Blood Blob
-	}
-
-	ClockConstellation: {
-		DisplayName: Chronos' Hand
-	}
-
-	ControlledStar: {
-		DisplayName: Star
-	}
-
-	ConvergingSupernovaEnergy: {
-		DisplayName: Supernova Plasma
-	}
-
-	CosmicMagicCircle: {
-		DisplayName: Grand Wisdom
-	}
-
-	CryostasisMistWall: {
-		DisplayName: Absolute Zero
-	}
-
-	CuriousHand: {
-		DisplayName: Avatar of Emptiness Hand
-	}
-
-	DarkField: {
-		DisplayName: Dark Field
-	}
-
-	DarkFireball: {
-		DisplayName: Dark Fireball
-	}
-
-	DarkPortal: {
-		DisplayName: Dark Portal
-	}
-
-	DarkWave: {
-		DisplayName: Dark Wave
-	}
-
-	DeadStar: {
-		DisplayName: Dying Star
-	}
-
-	DetachedCyanArm: {
-		DisplayName: Cyan Arm
-	}
-
-	DetachedRedArm: {
-		DisplayName: Red Arm
-	}
-
-	DetachedShadowArm: {
-		DisplayName: Oblivion's Grasp
-	}
-
-	DimensionTwistedComet: {
-		DisplayName: Dimension-twisted Comet
-	}
-
-	DismalSeekerLantern: {
-		DisplayName: Dismal Lantern
-	}
-
-	DisgustingStar: {
-		DisplayName: Disgusting Star
-	}
-
-	DistortionField: {
-		DisplayName: Distortion Field
-	}
-
-	DeadStarIron: {
-		DisplayName: Decayed Iron
-	}
-
-	ExplodingStar: {
-		DisplayName: Star
-	}
-
-	FallingGalaxy: {
-		DisplayName: Newborn Galaxy
-	}
-
-	FogwoodRoot: {
-		DisplayName: Fogwood Root
-	}
-
-	FrostIllusion: {
-		DisplayName: Frost Illusion
-	}
-
-	GodRayVisual: {
-		DisplayName: God Ray Visual
-	}
-
-	GroundStompShock: {
-		DisplayName: Ground Stomp Shock
-	}
-
-	LanternExplosion: {
-		DisplayName: Explosion
-	}
-
-	LightDagger: {
-		DisplayName: Light Dagger
-	}
-
-	LightPortal: {
-		DisplayName: Light Portal
-	}
-
-	LightSlash: {
-		DisplayName: Light Slash
-	}
-
-	LightSlashTelegraph: {
-		DisplayName: Light Slash Telegraph
-	}
-
-	LightWave: {
-		DisplayName: Light Wave
-	}
-
-	LilyStar: {
-		DisplayName: Lily Star
-	}
-
-	MoltenBlob: {
-		DisplayName: Molten Blob
-	}
-
-	NamelessDeityAfterimage: {
-		DisplayName: Afterimage
-	}
-
-	NoxusNeuron: {
-		DisplayName: Neuron
-	}
-
-	NoxusExplosion: {
-		DisplayName: Noxus Explosion
-	}
-
-	DarkGas: {
-		DisplayName: Dark Gas
-	}
-
-	AvatarSlamTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	EmptinessSprayerGas: {
-		DisplayName: Emptiness Sprayer Gas
-	}
-
-	EmptinessSprayerHoldout: {
-		DisplayName: Emptiness Sprayer
-	}
-
-	PaleComet: {
-		DisplayName: Pale Comet
-	}
-
-	PortalArmCyan: {
-		DisplayName: Grotesque Arm
-	}
-
-	PortalArmStrike: {
-		DisplayName: Grotesque Arm
-	}
-
-	PrimordialStardust: {
-		DisplayName: Primordial Stardust
-	}
-
-	RedirectingDarkFlame: {
-		DisplayName: Dark Flame
-	}
-
-	RedirectingPaleBlob: {
-		DisplayName: Pale Blob
-	}
-
-	RodOfHarmonyExplosion: {
-		DisplayName: Rod Of Harmony Explosion
-	}
-
-	SlowSolarSpark: {
-		DisplayName: Solar Spark
-	}
-
-	Starburst: {
-		DisplayName: Starburst
-	}
-
-	StarKiteProjectile: {
-		DisplayName: Star Kite
-	}
-
-	StarPatterenedStarburst: {
-		DisplayName: Starburst
-	}
-
-	StarPet: {
-		DisplayName: Star
-	}
-
-	StolenPlanetoid: {
-		DisplayName: Planetoid
-	}
-
-	SunFireball: {
-		DisplayName: Sun Fireball
-	}
-
-	SuperCosmicBeam: {
-		DisplayName: Cosmic Deathray
-	}
-
-	SuperLightBeam: {
-		DisplayName: Light Deathray
-	}
-
-	Supernova: {
-		DisplayName: Supernova
-	}
-
-	SwipingShadowHand: {
-		DisplayName: Shadow Hand
-	}
-
-	SwordConstellation: {
-		DisplayName: Orion's Sword
-	}
-
-	SwordConstellationSlashVisual: {
-		DisplayName: Good Visual Design
-	}
-
-	TelegraphedLightLaserbeam: {
-		DisplayName: Light Deathray
-	}
-
-	TelegraphedPortalLaserbeam: {
-		DisplayName: Cosmic Burst
-	}
-
-	TelegraphedScreenSlice: {
-		DisplayName: Dimensional Slice
-	}
-
-	TelegraphedStarLaserbeam: {
-		DisplayName: Solar Burst
-	}
-
-	ThePurifierProj: {
-		DisplayName: The Purifier
-	}
-
-	TerminusProj: {
-		DisplayName: Terminus
-	}
-
-	VergilScreenSlice: {
-		DisplayName: Judgment Cut
-	}
-
-	VoidBlot: {
-		DisplayName: Void Blot
-	}
-
-	WindStreakVisual: {
-		DisplayName: Wind
-	}
-
-	StarPatternedStarburst: {
-		DisplayName: Star Patterned Starburst
-	}
-
-	FallingMeleeWeapon: {
-		DisplayName: Ancient Weapon
-	}
-
-	BloodTorrent: {
-		DisplayName: Blood Torrent
-	}
-
-	RedirectingRubble: {
-		DisplayName: Redirecting Rubble
-	}
-
-	FallenGoodApple: {
-		DisplayName: Fallen Good Apple
-	}
-
-	ArcticTornado: {
-		DisplayName: Arctic Tornado
-	}
-
-	ConvergingSnowEnergy: {
-		DisplayName: Snow Energy
-	}
-
-	FreezingWave: {
-		DisplayName: Freezing Wave
-	}
-
-	BackgroundBloodBlob: {
-		DisplayName: Blood Blob
-	}
-
-	ArcticBlastTornadoPiece: {
-		DisplayName: Arctic Blast
-	}
-
-	BloodStake: {
-		DisplayName: Blood Stake
-	}
-
-	DirectedArcticBlast: {
-		DisplayName: Arctic Blast
-	}
-
-	Snowflake: {
-		DisplayName: Snowflake
-	}
-
-	HomingStarBolt: {
-		DisplayName: Star Bolt
-	}
-
-	StarshapersWillHoldout: {
-		DisplayName: Starshapers Will
-	}
-
-	SolynProtectiveForcefield: {
-		DisplayName: Forcefield
-	}
-
-	FrostColumnTelegraph: {
-		DisplayName: Frost Column Telegraph
-	}
-
-	FrostColumn: {
-		DisplayName: Frost Column
-	}
-
-	StellarRemnant: {
-		DisplayName: Stellar Remnant
-	}
-
-	AnnihilationSphere: {
-		DisplayName: Annihilation
-	}
-
-	LargeIcicle: {
-		DisplayName: Large Icicle
-	}
-
-	SolynProtectiveForcefieldForPlayer: {
-		DisplayName: Forcefield
-	}
-
-	EndCreditsGoodApple: {
-		DisplayName: End Credits Good Apple
-	}
-
-	LotusOfCreationAppearanceVisual: {
-		DisplayName: Lotus Of Creation Appearance Visual
-	}
-
-	DreamcatcherBobber: {
-		DisplayName: Dreamcatcher Bobber
-	}
-
-	OtherworldlyThorn: {
-		DisplayName: Otherworldly Thorn
-	}
-
-	AntimatterBlast: {
-		DisplayName: Antimatter Blast
-	}
-
-	LightLaserFlower: {
-		DisplayName: Light Laser Flower
-	}
-
-	LightLaserElectricityArc: {
-		DisplayName: Light Laser Electricity Arc
-	}
-
-	PerversePurseHoldout: {
-		DisplayName: Perverse Purse
-	}
-
-	TerminusProjectiveBeam: {
-		DisplayName: Terminus Projective Beam
-	}
-
-	TerminusStairAppearanceBeam: {
-		DisplayName: Terminus Stair Appearance Beam
-	}
-
-	GenesisOmegaDeathray: {
-		DisplayName: Genesis Omega Deathray
-	}
-
-	GenesisConvergingEnergy: {
-		DisplayName: Genesis Converging Energy
-	}
-
-	PermafrostDoorConvergingEnergy: {
-		DisplayName: Permafrost Door Converging Energy
-	}
-
-	PsychedelicFeather: {
-		DisplayName: Psychedelic Feather
-	}
-
-	CelestialDreamcatcher: {
-		DisplayName: Celestial Dreamcatcher
-	}
-
-	PurifyingMatter: {
-		DisplayName: Purifying Matter
-	}
-
-	BinaryLightningArc: {
-		DisplayName: Binary Lightning Arc
-	}
-
-	LightLaserCamellia: {
-		DisplayName: Light Laser Camellia
-	}
-
-	BigNamelessPunchImpact: {
-		DisplayName: Big Nameless Punch Impact
-	}
-
-	CodeStarburst: {
-		DisplayName: Code Starburst
-	}
-
-	CodeCrack: {
-		DisplayName: Code Crack
-	}
-
-	DirectionalSolynForcefield: {
-		DisplayName: Directional Solyn Forcefield
-	}
-
-	MassiveElectricShockwave: {
-		DisplayName: Massive Electric Shockwave
-	}
-
-	SmallTeslaArc: {
-		DisplayName: Small Tesla Arc
-	}
-
-	TeslaField: {
-		DisplayName: Tesla Field
-	}
-
-	SolynImpact: {
-		DisplayName: Solyn Impact
-	}
-
-	ExoelectricDisintegrationRay: {
-		DisplayName: Exoelectric Disintegration Ray
-	}
-
-	DirectionalSolynForcefield2: {
-		DisplayName: Directional Solyn Forcefield
-	}
-
-	SolynSentientStar: {
-		DisplayName: Kirby Reference
-	}
-
-	TrappingHolographicForcefield: {
-		DisplayName: Trapping Holographic Forcefield
-	}
-
-	UnstableMatter: {
-		DisplayName: Unstable Matter
-	}
-
-	SolynTagTeamBeam: {
-		DisplayName: The Lesbeam
-	}
-
-	SolynTagTeamChargeUp: {
-		DisplayName: Charge-up Energy
-	}
-
-	RailGunCannonDeathray: {
-		DisplayName: Railgun Deathray Blast
-	}
-
-	MarsMissile: {
-		DisplayName: Fortified Missile
-	}
-
-	SyntheticSeedlingProjectile: {
-		DisplayName: Synthetic Seedling Projectile
-	}
-
-	CodeLightningArc: {
-		DisplayName: Code Lightning Arc
-	}
-
-	ElectricShockwave: {
-		DisplayName: Electric Shockwave
-	}
-
-	FallingObject: {
-		DisplayName: Falling Object
-	}
-}
-
-Quests: {
-	Cryogen: {
-		Title: 氷の財宝探索
-		Description: 雪原バイオームで宝探し！
-	}
-
-	Stargaze: {
-		Title: 天体観測
-		Description:
-			'''
-			「星を眺めよう！」
-			心地よい夜の虫たち、宇宙の美しさ、そして親睦を深める絶好の機会。
-			キミはどう思うか分からないけど、私は素晴らしい時間になると思うよ！
-			'''
-	}
-}
-
-Solyn: {
-	SolynIntroduction: {
-		Start: ま... ^間違えた...
-		Talk1: あ...
-		Question1: 大丈夫か？
-		Talk2: あっ！こ、こんにちは。私...^えっと...ごめん、気づかなかったよ。
-		Talk3: うーん...たぶん、大丈夫...かも？
-		Question2: キミは誰？
-		Talk4: わ...私はソリン。
-		Talk5: ...
-		Talk6: え、えっと...ごめん、ちょっと頭がまとまらなくて...
-		Talk7: 少し待ってもらってもいいかな...今はちょっと...^時間が欲しいかも。
-		Question3: わかった。また後で。
-		Talk8: ありがとう...
-		Repeat: ...
-	}
-
-	SolynTentSetUpDialogue: {
-		Start: あ、また会ったね。こんにちは。
-		Solyn1: ...ちょっと図々しいかもしれないけど、手を貸してもらえたら嬉しいな。
-		Player1: いいよ。どうすればいい？
-		Solyn2: ありがとう。
-		Solyn3: 見てのとおり、今の私は...住む場所がないの。^ だから、この旗を広くていい感じの場所に立ててほしいんだ。
-		Solyn4: そしたら、その近くにキャンプを張るから！
-	}
-
-	SolynDawnDialogue: {
-		Start: おはよう！^新しい一日、新しい大冒険の始まりだね！
-		Player1: それはちょっと大げさすぎないか？
-		Solyn1: 何が起こるかなんて、最後までわからないものだよ！^何気ない日が、思いがけず特別な日になることもあるし。
-		Player2: なるほどな、それはさておき、今何してるんだ？
-		Solyn2: ん、さっき起きたばかりだから、大したことはしてないよ。^面白い夢を見たから、それについてちょっと考えてたけど。
-		Player3: どんな夢だったんだ？
-		Dream1_Response1: 夢の大半は支離滅裂だったんだけど、最後の部分だけはやたら鮮明だったんだ。
-		Dream1_Response2: 夢の中で、かつての師匠とお話していたの。その場所は、薄暮に包まれた静かな池のほとりだった...
-		Dream1_Response3: しかし突然、師匠は歩みを止め、池の方をじっと見つめると、私が今まで見たこともない呪文を唱え始めた...
-		Dream1_Response4: しばらくすると、池の水が星屑のように輝き、そこに現れたのは...私がよく知る、懐かしい面影だった。
-		Dream1_Response5: 師匠は再びこちらを見つめ、何かを待っているようだった。
-		Dream1_Response6: そこで、目が覚めたの。
-		Dream2_Response1: 夢の中で、折り紙のような世界を歩いていた。空は明るいセピア色に輝き、ただ静かに広がっていた...
-		Dream2_Response2: 時間がわからなくなるぐらい歩いて...折り紙のように折り重なった植物や建物が点在する、不思議な場所に着いたんだ。
-		Dream2_Response3: ふと手を伸ばして地面を触ってみると、それが本当にただの紙でできていることに気づいたの。その下には、測り知れないモノが広がっていた。
-		Dream2_Response4: 目の前に広がる深淵をただ見つめていた...自分が何をしてしまったのか、理解できずに...
-		Dream2_Response5: 突然、複雑な模様の瞳がゆっくりと開き、私をじっと見つめた。
-		Dream2_Response6: そこで、目が覚めたの。
-		Dream3_Response1: 夢の中で、私の故郷の森を歩いていたの。静かに降る霧雨に包まれながら...
-		Dream3_Response2: でも、そこには誰もいなかった...ひとりぼっちだった。
-		Dream3_Response3: 林の奥へと進んでいくと、声が聞こえた...私自身の声、そして大切な人たちの声だった。
-		Dream3_Response4: それから、降り注ぐ雨の香りに意識を集中させた。すると、鮮やかな感覚の波に飲み込まれ、時間が加速し、ぐるりと折り重なっていった。
-		Dream3_Response5: 突然、懐かしい友人の声が聞こえた。「もう目を覚ます時間だ」って...
-		Dream3_Response6: その後は...言われた通りにしたんだ。
-		Dream4_Response1: えっと...「面白い」って表現はちょっと違ったかも...あはは...
-		Dream4_Response2: 霧がかった森を歩いている夢だった...不気味な風が吹いていて、枯れた巨大な木々に囲まれてた。
-		Dream4_Response3: しばらく歩いた後、私は...^私自身と出会った。まるで鏡みたいだった...
-		Dream4_Response4: 私は私の方へ向かって歩いた。風はどんどん強まっていった。
-		Dream4_Response5: 私に触れようとした途端、それは...おぞましい影へと姿を変えたの。
-		Dream4_Response6: その指先に触れた瞬間、目が覚めた。すごい汗をかいててびっくりしたよ...
-		Dream5_Response1: えっと...「面白い」って表現はちょっと違ったかも...あはは...
-		Dream5_Response2: 夢の中で、昔の友人と会ったんだ。^最初はいつも通り、楽しく話をしていたんだけど...
-		Dream5_Response3: でも時間が経つにつれて、友達の姿は幽霊のように透明になり、声もだんだん聞き取れなくなっていった。
-		Dream5_Response4: 気づいたんだ...^瞬きをするたびに、彼らの姿がどんどん薄れていくことに。^だから、できるだけ目を開けていようと必死だった。
-		Dream5_Response5: 会話は次第に少なくなっていった。^最後に、かすかに名残惜しそうに笑ってるのが見えて...^次に瞬きをしたら、もういなくなってた...
-		Dream5_Response6: 最後に言ってた言葉は「もう手放す時だ」だって。^そのすぐ後、目が覚めちゃった。
-		Player4: 本当に不思議な夢だな。
-		Solyn3: ...本当にね。
-	}
-
-	SolynSunnyDayDialogue: {
-		Start: こんにちは！^今日はいい天気だね。
-		Player1: そうだね。
-		Solyn1: 今日はどう過ごす予定？^森の中で遊ぶ？^静かな草原でゆっくりする？^それとも日光浴？
-		Player2: 洞窟に行ったりするかな。
-		Solyn2: ああ、なるほど。
-		Solyn3: ふふ、まさにキミらしいね！
-	}
-
-	SolynRainyDayDialogue: {
-		Start: こんにちは！^今日はすごい雨だね！
-		Player1: こんにちは。
-		Solyn1: 普段、雨の日はどう過ごすの？^池のほとりで考え事？^ちょっと散歩？^それとも家の中で雨音を聞きながらのんびりする？
-		Player2: 洞窟に行ったりするかな。
-		Solyn2: ああ、なるほど。
-		Solyn3: ふふ、まさにキミらしいね！^まあ、あんまり濡れたくないよね。
-	}
-
-	SolynDuskDialogue: {
-		Start: 夕暮れだね...^綺麗...
-		Solyn1: でも...故郷のとはやっぱり違うなぁ...^燃えるような空の輝き、二重の夕日、そして、無数の星がきらめく夜も...
-		Solyn2: すごく似てるんだけど、どこか違うんだよね。^実際に見てみないと、この感覚は伝わらないかもしれない...
-		Solyn3: まあ、どんなものでも新しい経験は大切だよね...たぶん。
-	}
-
-	SolynSlimeRainDialogue: {
-		Start: わあ！^スライムが降ってきてる！^ヘンだけど、スゴい！
-		Solyn1: どういう仕組みなんだろう？^すごく気になる！^
-		Player1: 自分も詳しくない...
-		Solyn2: まあ、実際よくわかんないしね...
-		Solyn3: すごい光景だけど、スライムたちって結構厄介だからなぁ...
-		Solyn4: 気をつけてね。食べられちゃったら大変だよ。
-	}
-
-	SolynStorageSailsDialogue: {
-		Start: ねえ...蓄風帆って聞いたことある？
-		Player1: うーん...知らないかも。
-		Solyn1: すごく便利なんだよ！^故郷ではよく使われてたんだ。
-		Solyn2: 船が風を帆に受けて進むことがあるでしょ？^あれと同じ原理で、ただ、この帆は風のエネルギーを貯めて、あとで使うことができるんだ！
-		Solyn3: 見た目も面白いんだよね。^木の車輪みたいな枠の中に格子があって、先端には大きな羽がついてるんだ。^見たことある？
-		Player2: えっと...つまり、どういうこと？
-		Solyn4: また今度詳しく説明してあげるよ！
-	}
-
-	SolynBooksDialogue: {
-		Start: ここに来る前に、せめて何か持ってこられたらよかったのにな...
-		Solyn1: 家にはたくさんの本があったの。^巻物や古い書物も少しだけ...
-		Solyn2: ちょっと難しかったり特殊なテーマの本もあったし、他の人からしたら...ちょっと変わったものもあったかな。
-		Solyn3: でも、中には面白い本もあったんだよ！ ^良い小説って、それだけで世界の見方を変えてくれるものなんだ。
-		Solyn4_Mage: キミは魔法使いらしいし、わかってくれるかも？
-		Solyn4_OtherClass: でも...まあ、キミはそういう話には興味がないタイプかもしれないね。
-		Player1_Mage: ソリン、本は読むものじゃなくて、魔法を使うものだよ。
-		Solyn5: あ...確かに、キミの場合はそうなるのか...
-	}
-
-	SolynOneRedeemedBookDialogue: {
-		Start: あ！本を持ってきてくれたんだね！^ありがとう！
-		Solyn1: ここの景色はすごく綺麗だけど、^一日中眺めてるだけっていうのはちょっと退屈かもだから、^本当に助かるよ！
-	}
-
-	SolynUnreadableBookDialogue: {
-		Start: 本をもらえるのはすごくありがたいんだけど...本当にこれって「本」なの？
-		Solyn1: ...まあ、本棚の飾り代わりってことで！
-	}
-
-	SolynManyRedeemedBooksDialogue: {
-		Start: わぁ、私の図書館が立派になってきたね！^言葉では言い表せないくらい感謝してるよ！
-		Solyn1: こうして本が増えると、ここがますます「家」って感じがするなあ。もともと、いっぱい本を持っていたから...
-	}
-
-	SolynCompleteBookshelfDialogue: {
-		Start: やったね！^本棚がいっぱいになっちゃった！ありがとう！
-		Solyn1: ここに来てから、本当にいろいろなことがあったね。「創世の樹」が完成したときも、今と同じくらいワクワクできるといいな...
-		Solyn2: あっ、そういえば「創世の樹」のことなんだけど...^あれがひと段落したら、ちゃんとした図書館を作りたくて、できればキミにも手伝ってほしいなー、なんて...
-	}
-
-	SolynLategameDialogue: {
-		Start: 「創世の樹」計画は順調に進んでいるけど、まだまだ油断はできない...これからが正念場だよ。
-	}
-
-	SolynWindyDayTalk: {
-		WindyStart: あ！おかえり！
-		WindyQuestion1: 今日は風が強いね。
-		WindyResponse1: ほんとにね...さっき、スライムたちが風に乗って飛ばされていくのを見たよ。
-		WindyResponse2: スライムたちが風船でぷかぷか飛んでるの、ちょっと面白いよね！何度か、凧にくっついてきそうになったことがあってさ...
-		WindyQuestion2: ところで、その凧、いいデザインだね。
-		WindyResponse3: ああ、これ？風の強い日は、こうやって飛ばすのが好きなんだ。ふわっと舞い上がるのを見るのが楽しくって。
-		WindyResponse4: こうして、ただ自然の流れに身を任せるのも、たまにはいいかなって。
-		WindyResponse5: 実は...
-		WindyResponse6: ほら！
-		WindyResponse7: せっかくだし、キミもやる？息抜きも大事だよ。
-		WindyRepeatPlayerUsingKite: 楽しい？
-		WindyRepeatPlayerUsingKiteChangedMind: あ、気が変わったの？
-		WindyRepeatDefault: まあ、無理しないでね！それじゃ！
-	}
-
-	SolynPartyTalk: {
-		PartyStart: あっ！来てくれると思ってたよ！
-		PartyResponse1: 実を言うと...パーティーは好きだけどあんまり得意じゃないんだ。でも、今回は参加した方がいいかなって。
-		PartyResponse2: みんな、本当に楽しそう...
-		PartyResponse3: それにしても、キミの町、初めて来たときより大きくなったね！
-		PartyResponse4: あっ！そういえば、ちょっとしたマジックを見せようと思ってたんだ。見る？
-		PartyQuestionYes: もちろん！
-		PartyQuestionNo: ごめん、今はちょっと無理かな。
-		PartyResponseYes1: よし、それじゃ...
-		PartyResponseYes2: ふぅ！危なかった！もう少しで紙吹雪を飲み込むところだったよ、あはは！
-		PartyResponseYes3: もう少しパーティーを楽しんでいかない？私も、しばらくここで楽しむつもりだし！
-		PartyResponseNo1: そっか、残念...
-		PartyResponseNo2: でも大丈夫！確かにちょっと忙しそうだもんね。
-		PartyRepeat1: 私は夜になるまでここにいるつもりだから、キミも好きなことをしてていいよ！
-		SolynTada: じゃーん！
-		SolynHatText: あっ！私の帽子！
-	}
-
-	StargazeQuest: {
-		Solyn1: こんにちは、この前はありがとう。^どうしたの？
-		Player1: 望遠鏡、壊れてないか？
-		Solyn2: そうなの...天体観測をしたかったんだけど、しばらくできそうになくって...^修理するための材料が足りないし。
-		Player2: 修理してあげようか？
-		Solyn3: ホント？もし修理してくれるなら、すごく嬉しいな。^直ったら、一緒に星を見ようね。
-		Repeat: ん？ああ、気にしないで。ただ、景色を楽しんでるだけだから。
-	}
-
-	StargazeQuestCompletion: {
-		Response1: ありがとう！^空は大好きなの。誰かと一緒に見られるなんて、本当に嬉しいな！^夜になったら始めよう！
-		Response2: ""
-	}
-
-	StargazeQuestSawRift: {
-		Talk1: ^いつのまにか、見た目が変わってる...
-		Talk2: なんだか、嫌な予感が...
-		Response1: 大丈夫？
-		Talk3: えーと...
-		Talk4: うーん...なんだったんだろう...
-		Response2: あんまり気にしすぎない方がいい。
-		Talk5: ...そうだね...ただの考えすぎかも。
-		Talk6: それにしても...今夜、キミと一緒に星を眺められてよかった。本当に綺麗だったなぁ。
-		Talk7: また一緒に見ようね！
-		Talk8: あ、そうだ。これを持っていって。
-		Talk9: 私が作ったんだ。きっと役に立つと思うよ。
-		Talk10: それじゃ、そろそろ寝るね。もうかなり遅いし！
-	}
-
-	DormantKeyDiscussion: {
-		Start: やっほー！何かあった？
-		StartingQuestion: パーマフロストを助けたときにこの鍵をもらったんだが、何か知ってるか？
-		Conversation1: うーん...
-		Conversation2: ただの鍵じゃなさそうだね。何か魔法がかかってるみたい。
-		Conversation3: あっ！いいこと思いついた！
-		Conversation4: どうした？
-		Conversation5: すごく微弱だけど、この鍵と同じ魔力の波が...雪原の洞窟の奥深くにあるみたいなの。
-		Conversation6: だから、さっそく行ってみない？鍵がかかってるくらいだし、何かすごいものが眠ってるかも！
-		Conversation7: ほら、地図に場所をマークしておいたよ。
-		Conversation8: 私もついていくね！準備ができたら、一緒に探索しよう！
-	}
-
-	PermafrostKeepDiscussion_BeforeOpening: {
-		Start: 鍵を使って開けよう！
-	}
-
-	PermafrostKeepDiscussion_AtSeed: {
-		Start: うーん...
-		Conversation1: 色々探してみたけど、特に役に立ちそうなものはないかな...^...これ以外は。
-		Conversation2: これ...種みたいだね。
-		Conversation3: すごい強い魔力を秘めてる。^私にはわかるの...
-		Conversation4: 何に使えるかは分からないけど...^持っておいて損はないと思うよ。
-		Response1: わかった。持っておくよ。
-		Conversation5: よかった。^私はもうちょっと考えてみるよ。この苗を使えば、きっとすごいことができるかもだから。
-		Conversation6: どっちにしろ、そろそろ行くね。^ここ、ちょっと狭いし！
-	}
-
-	FrostblessedSeedlingDiscussion: {
-		Start: ずっとあの苗のことを考えてたんだ。
-		Solyn1: こういう植物が私の故郷にあったのを思い出したんだ。すごく珍しくて、育てるのも難しいんだけど...ほかの植物に影響を与えるほどの力を持つものは、見たことがないよ。
-		Solyn2: パーマフロストさんがこれを保管してたのも納得だよ。価値をちゃんと理解していたかは怪しいけど。
-		Solyn3: だって、あの人はガーデニングはあんま好きそうじゃないし...
-	}
-
-	GenesisRevealDiscussion: {
-		Start: ...来たんだね。
-		Solyn1: 見ての通り、色々変わっちゃったね...^わかってはいたけど、やっぱりあの裂け目が厄介なことになるのは避けられなかったよ...
-		Solyn2: もしかしたら...私がここに呼ばれた理由は、これなのかも。
-		Solyn3: ... いずれにせよ、解決するには時間がかかりそう。
-		Player1: それで、次はどうする？
-		Solyn4: 覚えてる？あの砦で見つけた苗のこと。私が持っておいてって頼んだやつ。
-		Player2: それがどうかした？
-		Solyn5: 今はまだ小さくて力も弱いけれど、実は凄まじい魔力を秘めているの。^もしこの力を空に向けられたら、裂け目を完全に消し去ることができるはず！
-		Solyn6: でも、それを完成させるには、似たような魔法の遺物の力を借りる必要があるね。
-		Solyn7: 私たちの作ろうとしてるものを...「創世の樹」と名付けよう。
-		Solyn8: とりあえず、私は使えそうな魔法の資料を探してみるよ。
-		Solyn9: いつも通りに探索を続けていいよ。キミはこういう不思議なものを見つけるのが得意だしね！
-	}
-
-	CeaselessVoidDiscussionBeforeBattle: {
-		Start: ちょうどよかった！^話しておきたい大事なことがあるの。
-		StartingQuestion: 何の話？
-		Conversation1: ダンジョンの古い書物を調べてみたんだけど、封印された裂け目の中に、スゴいものが眠っているかもしれないってことが分かったんだ。
-		Conversation2: この裂け目は... どこか別の場所へのゲートみたい。^でも、どこにつながってるのかは、まだよく分からないんだ。
-		Conversation3: さらに、古文書によると、ダンジョンの古代の住人たちは裂け目の向こう側に、ものすごく強力な何かを保管していたみたいで、^これが「創世の樹」の構築に役立つかもしれないんだ。
-		ConversationQuestion1: 何をすればいい？
-		Conversation4: 私の考えが正しければ、裂け目の奥を調査するには、その封印を破る必要がハズ...
-		Conversation5: まずは、キミが裂け目を呼び起こして。^それが安定したら、私もダンジョンに向かうから、一緒に調べよう。
-		Conversation6: 準備はできてる？
-		Conversation6ResponseYes: ああ。でも、どうすればいい？
-		Conversation6ResponseNo: 少し待ってくれ。
-		ConversationRejection: わかった！準備ができたら、また声かけてね。
-		Conversation7: ありがとう。本当に助かるよ。
-		Conversation8: 本には「冒涜されたルーン」が裂け目を呼び起こすかもしれない...って書いてあったよ。
-		Conversation9: どのルーンを指しているのかはっきりとは分からないけど、とりあえず、冒涜された遺物を探すのがいいかも。
-		Conversation10: 頑張ってね！
-	}
-
-	CeaselessVoidDiscussionAfterBattle: {
-		Start: 何かあった？
-		Conversation1: 「シースレスヴォイド」を倒したら、裂け目が現れたんだ。
-		Conversation2: え、倒したって！？^戦うしかなかったの！？
-		Conversation3: えっ...ちょっと、大丈夫！？
-		ConversationResponse1: 大丈夫。
-		Conversation4: そ、そう...？よかった...^I... ^とりあえず、ダンジョンに向かわない？^私なら裂け目を見つけられると思う。
-		Conversation5: 着いたら、私が中に入って、何があるのか確かめるよ。
-		ConversationResponse2: そっちは大丈夫？
-		Conversation6: ...私は、やらなきゃいけないの。
-		Conversation7: でも、心配してくれてありがとう。^すごく嬉しいよ。
-		Conversation8: とにかく、向こうで会おうね。
-		Repeat: ...
-	}
-
-	CeaselessVoidDiscussionBeforeEnteringRift: {
-		Start: ここだよ。
-		Conversation1: もう...入るしかないね。
-		Confirmation: 準備はできた？
-		Conversation2: ...うん。^大丈夫。
-		Conversation3: すぐ戻るね。
-	}
-
-	CeaselessVoidDiscussionAfterEnteringRift: {
-		Start: 私...^私、^見つけたよ...
-		Question1: 大丈夫？
-		Conversation1: 私...^よくわかんない...^でも、生きてはいるよ...
-		Question2: 何があった？
-		Conversation2: 裂け目に入った瞬間、とてつもない恐怖に襲われたの。^そこにいるべきじゃないって感じがしたんだ...
-		Conversation3: 何もおかしなことは起こらなかった...苗木を手に入れるまでは...でも、その後に...
-		Conversation4: ゴメン...^あんまり思い出したくない...
-		Conversation5: もう...行こう...今日はもう十分。
-		Conversation6: はい、これ。キミが持ってるのが、一番安全だと思う。
-		Conversation7: 私...^キャンプに戻るね。じゃあまた。
-	}
-
-	AntiseedDiscussion: {
-		Start: 覚えてる？ダンジョンの裂け目から、あの奇妙な苗木を拾ってきたときのこと。
-		Solyn1: なんとなく、わかってきた気がするんだ...
-		Solyn2: 私の故郷でも、この世界でも、こんなの見たことない...^これは、この世界で生まれたものじゃない気がする。
-		Solyn3: 「氷祝の苗」が力を吸い取っているみたい...最初はこんなつながりがあるなんて思ってもみなかったよ。
-		Solyn4: これらの花がどう関わり合っているのか、ちゃんと深く考えないと...まだ見つけられていない、もっと大きな意味がある気がする。
-	}
-
-	DraedonBeforeCombatSimulation: {
-		Start: ちょうどよかった。^もう一度「創世の樹」について話したくて。
-		Question1: もう終わったの？
-		Conversation1: まだ完成してないよ。^でも、あともう少し！^最後の苗木があれば、真の力を発揮できるはず。
-		Conversation2: 色々調べてみたんだけど、私たちが必要としているものを持っていそうな人がいるみたいなんだ。
-		Question2: それは誰？
-		Conversation3: ドレイドンっていう有名な科学者がいるんだけど...知ってる？
-		Question3: 特別なコンピュータを使って、一度だけ連絡を取ったことがある。
-		Conversation4: やった！ちょうどよかったね！
-		Conversation5: よし、それじゃあ一緒にそのコンピュータで聞きに行こう！^キミについていくよ。
-	}
-
-	GenesisCompletion: {
-		Start: どうしたの？
-		Player1: 創世の樹の近くに最後の苗木を植えたら、芽が出たんだ。
-		Solyn1: ホント？やったね！^ついに私たちの努力が報われたんだ！
-		Solyn2: そこに連れて行って！^キミについていくよ。
-	}
-
-	AvatarFightLeadUp: {
-		Solyn1: ついに完成！すっごくカッコイイ！
-		Solyn2: ここまで長くて大変な道のりだった...
-		Solyn3: 私たちの努力が実ったね。
-		Solyn4: さあ、目覚めさせよう！
-	}
-
-	PostNamelessDiscussion: {
-		Apology1: 久しぶり...^キミも自分の試練を乗り越えられたんだね。嬉しいよ。
-		Apology2: ちゃんと謝らなきゃいけないと思ってる。
-		Apology3: キミと過ごした時間は本当に楽しかった。でも、正直に言うと...私は、キミを利用しようとしていた。
-		Apology4: 最初は、キミと「闇の者」のことを、ただの手段として見ていたの。^ここにたどり着くための...^そして、神に認められるためのチャンスとして。
-		Apology5: 私はあんまり頭が良くなかったし、生意気だった...なぜ私が最初に拒絶されたのか、今ならはっきりわかる。
-		Apology6: でも...最終的に私は、他のすべてを犠牲にしてでも、自分の望みを叶えたと思う。
-		ApologyResponse: いくつか質問がある。
-		QuestionsStart: ...?
-		HowDidYouEndUpHereQuestion: どうしてここに？
-		HowDidYouEndUpHere1: 実は...^よくわかんないんだ...
-		HowDidYouEndUpHere2: ...覚えているのは、静寂に包まれたこと、そしてここで目を覚ましたことだけ。その後、神が姿を現したんだ。私の質問には一言も答えず、ただそのきれいな姿を見せるだけだった...
-		HowDidYouEndUpHere3: 私がここにいる理由は"哀れみ"だったのかもね。彼らの目には私が贖罪を果たし、この場所にふさわしい存在になったように映ったのかもしれない...
-		HowDidYouEndUpHere4: まあ、たぶん、詳しくはわからないままだと思う...彼らは全部教えてくれるわけじゃないから。
-		HowDidYouEndUpHere5: どっちにしても、私は心から感謝しているんだよ。この場所は特別だから。
-		WhyDidYouSaveMeQuestion: なぜ自分を助けた？
-		WhyDidYouSaveMe1: あの時、私は悟ったんだ...もう遅すぎるって。私の魔力では、両方助けることはできないって...
-		WhyDidYouSaveMe2: どちらか一人が死んじゃうって...
-		WhyDidYouSaveMe3: キミは居なければならない存在だった。私の命を投げうってでも、キミの命を守ることのほうがはるかに意味のあることだと感じたんだ。
-		WhyDidYouSaveMe4: それに、もし私のせいでキミを死なせたとしたら...きっと私は、自分を許せなかったと思う。
-		WhyDidYouSaveMe5: 私の選択は、正しかったと思ってるよ。
-		WhatNowQuestion: これからどうする？
-		WhatNow1: 言った通りだよ。私の"生"としての時間は...もう終わったんだ。
-		WhatNow2: 私は...たぶん、ここに長いこと居続けると思う。
-		WhatNow3: キミのこと？わからないな。キミはこの庭に縛られていない。まだ"生きている"んだから。
-		WhatNow4: キミはもう自由だ。誰にも縛られず、望むことを成し遂げることができる。
-		WhatNow5: そして、キミはきっと、これからも偉大なことを成し遂げるよ。
-		DeityQuestion: その神について、何か知ってる？
-		Deity1: ごめん、詳しくは知らないんだよね...きっと、私たちには永遠に知ることのできないことがあるんだと思う。
-		Deity2: でも一つだけ確かなことがある。彼らはこの世界のすべてを創り出した人達で...優しくて、暖かいんだ。
-		Deity3: 彼らがこのきれいな庭を手入れしているのを見たことがあるんだ。ここが愛情と思いやりで作られたことがよくわかるよ。
-		TreeQuestion: もしよかったら...木の下で一緒に休まない？
-		Tree1: ...
-		Tree2: もちろん。
-	}
-
-	SolynErrorFallback: {
-		ErrorMessage1: うーん、なんか私のセリフを読み込むときにエラーが起こっちゃったみたい！
-	}
-
-	TripDialogue1: あはは、私ったら！
-	TripDialogue2: あっ、やっちゃった！
-	TripDialogue3: あはは、ごめんごめん！
-}
-
-StarGazing: {
-	Bunny: {
-		Name: うさぎ座
-		SolynDialogue:
-			'''
-			うさぎ！！かわいい～！！
-			こんな星座を考えた人って誰なんだろう？星たちをうさぎに例えちゃうなんて、なかなかいいセンス！
-			'''
-	}
-
-	EmptyPatchOfSpaceTfAreYouEvenDoing: {
-		Name: 宇宙
-		SolynDialogue1: 宇宙って、^本当に不思議で素敵な場所だよね！
-		SolynDialogue2: 宇宙は果てしなくて、^星々はどれも本当に綺麗！
-		SolynDialogue3: まだ解明されてない謎が、^きっとたくさんあるんだよね。^それに比べたら私たちってちっぽけだなぁ。
-		SolynDialogue4: でもさ、この宇宙の美しさには、^きっと何か理由があるんだよ！
-		SolynDialogue5: うーん、でもキミって、^本当にここが好きなんだね、あはは...
-		SolynDialogue6: 楽しい？
-		SolynDialogue7: ねぇ、^そろそろ他の場所を見てみない？ここも悪くはないけど、^なんにもないよ？
-		SolynDialogue8: ...
-		SolynDialogue9: ま、^急いでるわけじゃないけどね。
-		SolynDialogue10: ...
-		SolynDialogue11: ...
-		SolynDialogue12: えっと...^そろそろ別のものを見てみない？
-		SolynDialogue13: ...
-	}
-
-	GalacticCenter: {
-		Name: 銀河の中心
-		SolynDialogue:
-			'''
-			^うーん...正直なところ、あそこがどうなってるのかはっきりとはわからないんだよね。
-			^でも、すっごく荒々しい場所だって話は聞いたことがあるよ。
-			^近くで見たらきっとスゴいんだろうなぁ！
-			'''
-	}
-
-	MeteorShower: {
-		Name: 流星群
-		SolynDialogue:
-			'''
-			わぁーっ！！流星群だよ！
-			早く、願い事をしなくちゃ！
-			'''
-	}
-
-	Moon: {
-		Name: 月
-		SolynDialogue: 月について知りたいの？^...でも、もう知ってるでしょ？
-		SolynDialogueBloodMoon:
-			'''
-			ブラッドムーンの光は、人を狂わせるって言うけど...^
-			大丈夫？具合が悪くなったら言ってね、私は全然平気だけど！
-			'''
-	}
-
-	Rift: {
-		Name: ???
-		SolynDialogue:
-			'''
-			おおっ！これは私のお気に入りの一つ！その名も"破滅の天裂"！本当に面白いんだよ～^
-			 ...って、あれ？^えっ？？？
-			'''
-	}
-
-	ScreamingNebula: {
-		Name: 哭声星雲
-		SolynDialogue:
-			'''
-			わぁ、これ"哭声星雲"だよ！近くで見るとすっごく綺麗...
-			でもね、なんで"哭声"って名前がついたのか、正直よくわかんないんだ...
-			だって宇宙には音なんて存在しないし...
-			'''
-	}
-}
-
-Subtitles: {
-	RodOfHarmonyRantSubtitle1: あの「ロッドオブハーモニー」をここから片付けろ！二度と見たくない！
-	RodOfHarmonyRantSubtitle2: Re-Logicは何を考えていたんだ？クールダウンなしの「ロッドオブディスコード」だと？バカじゃないのか？
-	RodOfHarmonyRantSubtitle3: ムーンロード以降のMod開発がめんどくさくなってるんだよ...
-	RodOfHarmonyRantSubtitle4: いい加減にしてくれ。
-	RodOfHarmonyRantSubtitle5: 私は公平な世界を作りたかったんだ。でも「ロッドオブハーモニー」はすべてを台無しにする。
-	RodOfHarmonyRantSubtitle6: だからダメだ。使わせない。
-	RodOfHarmonyRantSubtitle7: 貴様は俺を馬鹿にできると思ってたみたいだが、馬鹿にされてるのは貴様だ。
-	RodOfHarmonyRantSubtitle8: 分かってるのか？
-	RodOfHarmonyRantSubtitle9: というより、もう知っていたよな？
-	RodOfHarmonyRantSubtitle10: たぶん攻略をネットで調べたんだろ？
-	RodOfHarmonyRantSubtitle11: 俺がこうするって分かってたんだろう。
-	RodOfHarmonyRantSubtitle12: レイジとアドレナリンを壊したのに、「ロッドオブハーモニー」を壊さないわけないだろ！
-	RodOfHarmonyRantSubtitle13: 次は貴様を壊さないといけないな。
-	RodOfHarmonyRantSubtitle14: いや、違うな...
-	RodOfHarmonyRantSubtitle15: 要するに、俺はズルをする奴が嫌いなんだ。
-	RodOfHarmonyRantSubtitle16: 気に入らないって？じゃあ、何しにここへ来たんだ？
-	RodOfHarmonyRantSubtitle17: あんな忌々しいアイテムを持ち込むべきじゃなかったんだ。
-	PlayerRantSubtitle1: ふざけるなよ、冗談だろ？
-	PlayerRantSubtitle2: ノクサスはただ挨拶しに来ただけなのに。
-	PlayerRantSubtitle3: だってそうだろ？客人をいきなりぶん殴るなんて...ありえない！
-	PlayerRantSubtitle4: それはさすがにやりすぎだろ！
-	PlayerRantSubtitle5: 貴様たちの中には、本気で熱くなりすぎる奴がいるよな。
-	PlayerRantSubtitle6: コメント欄、全部読んでるんだからな。
-	PlayerRantSubtitle7: まさか...俺は貴様たちにとって物足りないってことか？
-	PlayerRantSubtitle8: 「Mutantの方が難しい」とか言ってる場合かよ！
-	PlayerRantSubtitle9: これが俺への「支援」か？
-	PlayerRantSubtitle10: 貴様にはブラックホールや星なんかを与えたってのに、その返礼が無慈悲な虐殺とはな...
-	PlayerRantSubtitle11: バケモノが。他者への思いやりなんて微塵もないんだろ？
-	PlayerRantSubtitle12: 貴様は、ただ自分の欲望のためだけにしか動かないんだな。
-	PlayerRantSubtitle13: 承認欲求、再生数、ノーヒット称号...
-	PlayerRantSubtitle14: 何でもありってわけか。
-	PlayerRantSubtitle15: 本当に教えてほしいよ、スプレーボトルのために誰かをグチャグチャにするのがどうして正当化されるんだ？
-	PlayerRantSubtitle16: クソガキ向けのブロックゲームで神様気取りか？
-	PlayerRantSubtitle17: こんなの、信じられるわけがない。
-	PlayerRantSubtitle18: もう何がなんだかわからない...
-	PlayerRantSubtitle19: 俺はノクサスが無事か確認してくる。
-	PlayerRantSubtitle20: そして、準備ができたら...
-	PlayerRantSubtitle21: 「庭園」へ来い。
-	PlayerRantSubtitle22: 「愛と慈悲」ってやつを見せてやるよ。
-	PlayerRantSubtitle23: 無神経なバケモノめ...
-	RecordingRantRegularSubtitle1: なあ...君に指図するつもりはないけどさ...
-	RecordingRantRegularSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
-	RecordingRantRegularSubtitle3: 何もかも公開する必要はないんだよ。
-	RecordingRantRegularSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
-	RecordingRantRegularSubtitle5: ちょっとは考えてみてくれたら嬉しいな。
-	RecordingRantRegularSubtitle6: いいかい？
-	RecordingRantRegularSubtitle7: たまには見せびらかさずに、ただその瞬間を楽しんでみたらどうだい？
-	RecordingRantRegularSubtitle8: 他人の承認を求めてアップロードするんじゃなくて、自分の成果を誇りに思えばいいじゃないか。
-	RecordingRantRegularSubtitle9: とにかく、少しは私の言うことを考えてくれると嬉しいな。
-	RecordingRantRegularSubtitle10: 私のためじゃなくて、みんなのためにやってほしいんだ。
-	RecordingRantBossesSubtitle1: なあ...君に指図するつもりはないけどさ...
-	RecordingRantBossesSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
-	RecordingRantBossesSubtitle3: 何もかも公開する必要はないんだよ。
-	RecordingRantBossesSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
-	RecordingRantBossesSubtitle5: ...正直なところ、君はこのカットシーンを見たくてModを入れただけなんじゃないの？
-	RecordingRantBossesSubtitle6: 実際、ボスの半分をスキップしたよね！
-	RecordingRantBossesSubtitle7: 君が本当に上手いのか、それともズルしてここまで来たのか...
-	RecordingRantBossesSubtitle8: どんな答えであれ、本当のことを知っているのは君だけだ。
-	RecordingRantBossesSubtitle9: ここで君を名指しで指摘したことで、これを見ているみんなも同じことを思うだろうね。
-	RecordingRantBossesSubtitle10: とにかく、少しは私の言うことを考えてくれると嬉しいな。
-	RecordingRantBossesSubtitle11: 私が求めているのは、ただ正しいことをしてほしいってだけだよ。
-	RecordingRantPlaytimeSubtitle1: なあ...君に指図するつもりはないけどさ...
-	RecordingRantPlaytimeSubtitle2: できれば、みんながゲーム内で見つける楽しみを残してほしいんだよな...
-	RecordingRantPlaytimeSubtitle3: 何もかも公開する必要はないんだよ。
-	RecordingRantPlaytimeSubtitle4: このカットシーンは、それに値する者のために作ったんだ。
-	RecordingRantPlaytimeSubtitle5: 君がここに来るまでの時間の短さがあまりにも怪しいんだよな...
-	RecordingRantPlaytimeSubtitle6: もしかして、ただの上手いプレイヤー...いわゆる「スピードランナー」ってやつか？
-	RecordingRantPlaytimeSubtitle7: それとも、新しく作ったキャラでズルしてここまで来たの？
-	RecordingRantPlaytimeSubtitle8: どちらにせよ、本当の答えを知っているのは君だけだ。
-	RecordingRantPlaytimeSubtitle9: とにかく、少しは私の言うことを考えてくれると嬉しいな。
-	RecordingRantPlaytimeSubtitle10: 私が求めているのは、ただ正しいことをしてほしいってだけだよ。
-}
-
-Subworlds: {
-	EternalGardenNew: {
+	EternalGardenBiome: {
+		TownNPCDialogueName: 永遠の庭園
 		DisplayName: 永遠の庭園
 	}
 }
 
-Tiles: {
-	EternalGardenMusicBoxTile: {
-		MapEntry: オルゴール
+Bestiary: {
+	MarsBody: ドレイドンの設計の実験的な再構築。謎めいた人工の苗木によって動力を得ている。
+	Solyn: 天体魔法を得意とする神秘的で陽気な女性。彼女の最も印象的な特徴は、星の形をしたアホ毛。
+	Frightweaver: 悪夢から生まれた怪異。渦巻く霧の中を忍び寄り、動くものすべてを殺そうとする。
+	Mirrorwalker: 闇深き時、ひそやかな囁きが語るのは、凍りつくような鏡像、自身の邪悪な分身との遭遇。
+	Fogwood: 普通の木に擬態する邪悪な存在。その欺瞞は、不気味なそよぎによって露見する。
+	DismalSeeker: 暗い霧の中をさまよう覆われた姿。常に追い求め、決してつかめぬものを探し続ける。
+	Vivajuyfylae: この謎めいた存在のひとつひとつは、生命を与えられたひとつの星のようだ。魅惑的な群れをなして果てしなく飛び回り、時には星座を形成する。
+	AvatarRift: 反対の世界が輝く太陽を覆い、凍てつく静寂がすべてを呑み込む。あなたはその呼び声に応じた。
+	NamelessDeityBoss12: 美しい宇宙。
+	NamelessDeityBoss11: 花のささやき。
+	NamelessDeityBoss10: 麗しき花。
+	NamelessDeityBoss9: 永遠。
+	NamelessDeityBoss8: 超越。
+	NamelessDeityBoss7: 全知全能。
+	NamelessDeityBoss6: 創造者。
+	NamelessDeityBoss5: 果てしなき。
+	NamelessDeityBoss4: 力。
+	NamelessDeityBoss3: 天の織りなすもの。
+	NamelessDeityBoss2: 輝く光。
+	NamelessDeityBoss1: 創造。
+
+	ItemDropConditions: {
+		FirstTimeExclusive: ドロップは1回のみ。
 	}
 
-	NamelessDeityMusicBoxTile: {
-		MapEntry: オルゴール
-	}
-}
-
-TownNPCs: {
-	MerchantChat: {
-		RiftEclipse_Morning1: 剣は紙より強し！一本、どうですか？
-		RiftEclipse_Morning2: リンゴが欲しいですか？ニンジン？パイナップル？うちは松明ならありますよ。
-		RiftEclipse_Morning3: 陰気な朝ですが、取引するのに悪い時間なんてないですよ！
-		RiftEclipse_Afternoon1: あの空の裂け目が現れてから、みんな商売に興味を持たなくなってしまったんですが、あなたは違うみたいで嬉しいです！
-		RiftEclipse_Afternoon2: 最近は冷えますね。そんな時こそ服でもどうですか？...え？高すぎる？
-		RiftEclipse_Afternoon3: うちの雪ブロックはどうですか？いつもより雪っぽいですよ。
-		RiftEclipse_Evening1: もうすぐ夜が来ます、買い物は今のうちに...
-		RiftEclipse_Evening2: 雪ブロックが海外でどれだけの値がつくか、知っていますか？
-		RiftEclipse_Evening3: 世界が終わりそうでも、閉店セールはやりませんよ。
-		RiftEclipse_Nightfall1: 暗くて怖い？だったらたいまつを買ってみませんか？
-		RiftEclipse_Nightfall2: 世界が終わろうとも、資本主義は止まらない。さあ、何を買いますか？
-		RiftEclipse_Nightfall3: サムい世界にホットな特価品！...なんて、冗談ですよ。
-		RiftEclipse_Midnight1: 闇が訪れると...価格が上がる！
-		RiftEclipse_Midnight2: 永遠の夜、冷え込む空気、迫る破滅...今こそドラムセットを買う時です。後で意味がわかります...たぶんですが。
-		RiftEclipse_Midnight3: 月ってチーズでできてるんですかね...はい？ああ、買い物ですか？
-		RiftEclipse_NightsEnd1: 秘密の財宝があるって聞いたんですが...いや、なんでもないです。
-		RiftEclipse_NightsEnd2: 天使の像？悪いけど、ガラクタは扱ってないんです。
-	}
-
-	NurseChat: {
-		RiftEclipse_Above66PercentHP1: ごめんなさい、メンタルケアは専門外よ。
-		RiftEclipse_Above66PercentHP2: どこが痛いの？
-		RiftEclipse_Above66PercentHP3: これ、本当に診る必要ある？
-		RiftEclipse_Above66PercentHP4: はい、深呼吸して。
-		RiftEclipse_Below66PercentHP1: これは縫わなきゃダメね。
-		RiftEclipse_Below66PercentHP2: 一体何してるの？いつも変なケガばっかりして...
-		RiftEclipse_Below66PercentHP3: そこまでひどくはないわね。
-		RiftEclipse_Below33PercentHP1: うわ...顔、どうしたの？
-		RiftEclipse_Below33PercentHP2: ええっ！？流石に私にだってできないことぐらいあるわ！
-		RiftEclipse_Below33PercentHP3: あなたの腕、あそこに落ちてるわよ...拾ってくるわね...
-		RiftEclipse_Below33PercentHP4: 本当にまだ冒険者を続けるつもり？もうこんなことはやめたら？
-		RiftEclipse_BurnDebuff: あなた、燃えてるみたいね。
-		RiftEclipse_Demolitionist: "{0}、もっと気をつけてほしいわ。前よりさらにムチャクチャなことをしてるじゃない。"
-	}
-
-	DemolitionistChat: {
-		RiftEclipse1: 今日は最高の死に日和だな！
-		RiftEclipse2: どうせ終わるなら、派手にいかないか？...ダメだって？...わかったよ。
-		RiftEclipse3: あの空にあるブキミなもの...爆破できると思うか？
-		RiftEclipse4: もし俺が...（ドカーン！）...おっと、悪い、足が必要だったか？
-		RiftEclipse5: 氷を爆破するのは楽しいぞ！破片も飛び散るしな！
-		RiftEclipse6: ここでタバコを吸うんじゃねえ！！
-		RiftEclipse7: なあ、「爆破免責契約書」にサインしてくれよ。
-		RiftEclipse8: 燃え盛るガレキ、買ってみるか？
-		RiftEclipse9: 無謀だって？いや、今までで一番生きてるって実感できる！
-		RiftEclipse10: この乾いて不吉な空気、爆薬には最高だぜ！
-		RiftEclipse11: 世界を浄化する？そんなことしないで、全部吹っ飛ばせばいいだろ！
-		RiftEclipse12: なんでみんな俺のことを心配してるんだ？俺はただ楽しんでるだけだぜ！
-	}
-
-	DyeTraderChat: {
-		RiftEclipse1: なんてこった！すべてがくすんで見える...
-		RiftEclipse2: なかなか立派になったな。でも、染料を使えばもっとカッコよくなるぞ！
-		RiftEclipse3: 色と鮮やかさは人生のスパイスだったのに、最近はその輝きが失われてしまったように感じるよ...
-		RiftEclipse4: 色がなくなることにも、たまには利点があるかもな...
-		RiftEclipse5: この環境じゃ、私の植物も長くは持たないだろう...
-		RiftEclipse6: こんな時だからこそ、この世界の美しさを大切にしないとな。
-		GoodDyeEasterEgg: へえ...この染料、悪くないな。むしろ、かなりいいぞ。
-	}
-
-	AnglerChat: {
-		RiftEclipse1: なんてこった！誰か魚を助けて！
-		RiftEclipse2: 世界の終わりさえなければ、今は最高の釣り日和なんだけどね。
-		RiftEclipse3: どうせ死ぬなら、魚を手にして死にたいな。
-		RiftEclipse4: まだボクのために魚を釣ってくれるよね？
-		RiftEclipse_Merchant: "{0}から安くエサを買おうとしたんだけど、終末でも値下げはしてくれなかったよ..."
-		RiftEclipse1_QuestAvailable: 湖が凍ってるからって、釣りをサボれると思ったら大間違いだよ！さあ、魚を持ってくるんだ！
-		RiftEclipse2_QuestAvailable: どこに行くつもり？終末の今こそ、レアな魚を釣るチャンスなのに！
-	}
-
-	ZoologistChat: {
-		RiftEclipse1: 自然がすごく弱ってる気がする...
-		RiftEclipse2: 動物たちはどこに行っちゃったの？寂しいな...
-		RiftEclipse3: これ、本当にヤバいよ！毛が逆立つくらい怖い！
-		RiftEclipse4: 兄ちゃんがこれを見たら、何て言うんだろう...？
-		RiftEclipse5: 耳がめっちゃ冷たい～！
-		RiftEclipseNight1: なんていうか...月が恋しいな...
-		RiftEclipseNight2: なんだか...すごく静か...
-		RiftEclipseNight3: ねえ、ちょっとおしゃべりして時間つぶさない？
-		RiftEclipseNight4: なんか、イヤな感じがしてる！すべてがすごく不気味！
-	}
-
-	DryadChat: {
-		RiftEclipse1: この風の音...自然のものではないわね。
-		RiftEclipse2: すべてが枯れ始めているように見えるわ...
-		RiftEclipse3: 今こそ、この世界があなたを必要としている！
-		RiftEclipse4: こんなに異常な状況なのに、思ってたよりみんなが冷静ね、正直驚いているわ。
-		RiftEclipse5: 時間は流れ続ける。私たちはどれほど長く、流され続けるのかしら？
-		RiftEclipse6: ここまで頑張ってくれてありがとう。この世界を救えることを願っているわ...
-		RiftEclipse7: 自然が震えている...
-		RiftEclipse8: あなたがやり遂げなければならないのよ。
-		RiftEclipse9: なんだか...いつもより弱ってる...？
-		RiftEclipse10: 事態は言葉で言い表せないほど深刻だわ...
-		RiftEclipse11: この空気の重さを感じる？
-		RiftEclipse12: 幸運を祈るわ、{0}。
-		RiftEclipse_Corruption1: かつては不浄こそが最大の脅威だと思っていた。でも、それはただの思い違いだった。
-		RiftEclipse_Crimson1: かつては真紅こそが最大の脅威だと思っていた。でも、それはただの思い違いだった...
-	}
-
-	PainterChat: {
-		RiftEclipse1: 最近、画材の調達がちょっと難しくなってきたな...
-		RiftEclipse2: あの空の裂け目... なんてインスピレーションを刺激するんだ！夕焼けの色はくすんでいるけど...時折見える色彩は世界で一番美しい！
-		RiftEclipse3: 暗い色だって、明るい色と同じくらい価値があるんだよ。
-		RiftEclipse4: 最近、世界がちょっとくすんできたな...だからこそ、絵を描く理由があるってものだけど。
-		RiftEclipse5: 違う違う違う... グレーには無数の種類があるんだ！ ちょっと周りを見て！
-		RiftEclipse6: シアンとピンクがかった赤を白に合わせるのはどうだい？
-		RiftEclipseSnow: この吹雪、今まで見た中で最も壮大な光景のひとつだ！
-		ArtisticCatharsis: 緑をティールやライムでひと括りにするのはやめて、今すぐに！
-	}
-
-	ArmsDealerChat: {
-		RiftEclipse1: 太陽が消えたその日から、弾薬の売上が爆上がりだぜ！
-		RiftEclipse2: あの空にいる奴に向かって撃っても無駄だ。試してみたが、全く効かなかったぜ。
-		RiftEclipse3: S.D.M.G.って聞いたことあるか？ どうやらミニシャークよりもクールらしいぜ。
-		RiftEclipse4: 終焉？ 死？ そんなもん慣れっこさ。俺の仕事柄、日常茶飯事だぜ。
-		RiftEclipse5: この静けさ、最悪だな。殺すべき奴らが減ったってことだからな...
-		RiftEclipse6: 皆俺を「狂ってる」って言ってくれたが...もうすぐこの備蓄が役立つ時が来る！
-		RiftEclipseNight: いろいろ変わったがな、デーモンアイは相変わらず絶好の的だぜ！
-		RiftEclipseSnow: こんな天気じゃ狙いをつけるのも一苦労だな！
-		RiftEclipse_Demolitionist: アイツには言わないでくれよ。でもな、{0} は最近ちょっと怖いんだ。なんていうか...何も気にしてないような感じがするんだよ。
-		GFB: なあ相棒、知ってるか？ 武装することは俺たちの「神聖な権利」なんだぜ？
-	}
-
-	TavernkeepChat: {
-		RiftEclipse1: こんな時こそ、エールでも一杯どうだ？
-		RiftEclipse2: 俺たち、どうしてこんなことに巻き込まれちまったんだ...
-		RiftEclipse3: 粘り強さとちょっとした幸運があれば、どんなことだって乗り越えられるさ...
-		RiftEclipse4: あの空のポータル...俺が知ってるものとは全然違うな。
-		RiftEclipse5: なあ、あの空に浮かぶポータルが、もしオールドワンズアーミーと関係があったらどうする？永遠にゴブリンが空から降ってくる光景を、一度は見てみたいと思わないか？
-		RiftEclipse6: テーブルを拭くだけの退屈な仕事よりかは、こっちの方がマシだな。
-		RiftEclipse7: 外が静かすぎるな...。ちょっと...嫌な感じだ...
-		RiftEclipse_Dryad: 今日の昼間、{0} が珍しく世間話じゃなくて酒を飲みに来たんだ。驚いたぜ。
-	}
-
-	StylistChat: {
-		RiftEclipse1: この雰囲気、なんだか気味が悪いわ...何かがそこから這い出てきそうで...
-		RiftEclipse2: あらまあ！ なんだか皆、前よりぼんやりしてるし...髪もボサボサね。
-		RiftEclipse3: あなたは...手入れが楽なスタイルがいいんじゃないかしら。
-		RiftEclipse4: “ちょっとだけカット”だなんてつまらないわ！ もっと大胆にいきましょうよ！
-		RiftEclipse5: まあまあ！ 最近は噂話すら聞かなくなっちゃったわね...
-		RiftEclipse6: 異常気象が酷いせいで、最近はずっと家にこもってるの。せっかくのセットが台無しになっちゃうから...
-		RiftEclipse7: 短めに整えて...って？ それだけでいいの？
-		Solyn: ソリンの髪をもっと素敵にしようとしたことがあるんだけど、あの星型のハネた部分だけはどうしても直せなかったのよ！
-	}
-
-	GoblinTinkererChat: {
-		RiftEclipse1: 太陽を遮る異形のポータルだって？ ちょうどそれ用の道具があるよ！
-		RiftEclipse2: 太陽光発電はもうできそうにない...
-		RiftEclipse3: 宇宙的恐怖が世界の力の均衡を崩しているって？ ちょっと時間がほしいな...
-		RiftEclipse4: 太陽がない？ 問題ないよ！ 自分たちで作ればいい！
-	}
-
-	PartyGirlChat: {
-		RiftEclipse1: 暗闇っていいわよね！まるで永遠に続く夜のパーティーみたい！！
-		RiftEclipse2: 前にスウェーデンに行ったことがあるの。あそこはすっごくパーティー好きだったわ！あなたも見習ったら？
-		RiftEclipse3: 最高じゃない？これなら一日中花火を打ち上げられるわ！
-		RiftEclipse4: パーティーする？時々？ふーん...それなら話してもいいけど...
-		RiftEclipse5: ねえ、私のパーティーキャノン見なかった？見つけたら、最高のパーティーができるんだけど！
-		RiftEclipse6: きゃーー！！ついに「終わらない暗闇パーティー」が開けるのね！あなたも絶対楽しめるわよ！！
-		RiftEclipseSnow1: わぁ！雪が降ってる！雪合戦パーティーにピッタリね！
-	}
-
-	PirateChat: {
-		RiftEclipse1: くそ...今から船を捨てるのは遅すぎるか？
-		RiftEclipse2: この空模様...あの忌まわしき海域の伝説を思い出す。空はまるでデイヴィ・ジョーンズの棺のように暗いな...
-		RiftEclipse3: 俺はこの嵐にピッタリな海賊だ！
-		RiftEclipse4: 俺の船を沈めた嵐は、この暴風とそっくりだった...
-		RiftEclipse5: あの空に浮かんでるヤツ...クラーケンの渦にそっくりじゃないか？怪物が解き放たれる前兆かもしれないなァ...
-		RiftEclipse6: おお！青き泡立つフジツボの群れよ！この吹雪は...まるでペパーミントアイスクリームのように冷たいぞ！
-		RiftEclipse_BeforeFrozenSea1: 海の神よ、勇敢なる者たちに慈悲を！
-		RiftEclipse_AfterFrozenSea1: クソッ！この凍てついた海め！船乗りは波を求めるんだ！氷なんてどうでもいい！
-		RiftEclipse_AfterFrozenSea2: この海には呪いがかけられた！俺は永遠に陸地に縛られる運命か...
-	}
-
-	WizardChat: {
-		RiftEclipse1: またワシの『永遠の闇で世界を終わらせる魔法』の本が盗まれてしまっての...
-		RiftEclipse2: 水晶玉を覗いてみたら、戦闘に夢中で放置された友達こそが真の宝だった、と出たんじゃ。
-		RiftEclipse3: 誰かが言っていたんじゃ。『友情は魔法』だと。馬鹿げてると思わんか？友情じゃ人をカエルに変えられないからの...
-		RiftEclipse4: ワシが無関心？この長い人生で、もっと面白い時代を見てきたぞ！
-		RiftEclipse5: マナポーションの過剰摂取について聞いたことはあるかの？恐ろしいんじゃぞ...
-		RiftEclipse6: お前の心を読んでやろう...ふむ、ワシの話なんてどうでもよくて、売り物のことしか考えてないな。
-		RiftEclipse7: 昔、天使の像に命を吹き込もうとしたことがあっての。まあ、何も起こらなかったんじゃが...
-		RiftEclipsePremonition: 水晶玉を覗き込んでみたんじゃが...何か暗いものが近づいているようでの....
-		SolynAcknowledgement: ソリンはかなり魔法に長けているようじゃな！もしかしたらワシよりも知識があるかもしれぬ...
-	}
-
-	TravelingMerchantChat: {
-		RiftEclipse1: 俺が売ってるのは、もう存在しないかもしれない場所から集めた物だ！
-	}
-
-	SkeletonMerchantChat: {
-		RiftEclipse1: 今日は一日中雹が降ってるらしい。骨まで凍っちまいそうだ。
-		RiftEclipse2: 世界の終わりだって？冗談だろ？......いや、足はまだあるな。
-		RiftEclipse3: 俺のスライムオイルで治せない病気なんてないぞ！本当だ！俺だって元気になれたんだ！
-		RiftEclipse4: 待てよ...俺、死んでるのに、金なんて気にする必要あるのか？
-		RiftEclipse5: クモには近づくな。アイツらに中身を吸い取られて、空っぽにされちまうぞ。俺の言うことを信じたほうがいいぜ。
-		RiftEclipse6: お前、なかなか強そうだな。正直、ここまで来るとは思わなかったぜ。
-		RiftEclipseOnSurface: 何だって？地上の生命がヤバいって？それは恐ろしい話だな。幸い、俺は生きてないし、地上にもいないんだが。
-		RiftEclipseUnderground: 何だって？命が危険にさらされている？それは大変だ。まあ、俺は生きてないから関係ないんだが。
-	}
-
-	ElderSlimeChat: {
-		RiftEclipse: 宇宙が震えておる...わしらは皆、無情な冷気の手によって滅びる運命なのじゃ...プルプル
-	}
-
-	PermafrostChat: {
-		Saved:
-			'''
-			この冷たい牢獄から解放してくれて、心から感謝する...
-			これを受け取ってくれ...感謝の印だ。きっと役に立つ。
-			'''
-	}
-}
-
-UI: {
-	GraphicalUniverseImager: {
-		EternalGardenAurora: 永遠の庭園のオーロラ
-		NamelessDeityStars: 星降る天
-		NamelessDeityKaleidoscope: 現実
-		AvatarP1Background: 深紅の彼方
-		AvatarP2Background: 荒れ狂う広大な空間
-		BloodWhirlpool: 血の渦
-		CryonicStatic: 凍結の静止
-		RiftEclipse: 裂空の日蝕
-		TerminusStairway: 穏やかな蒼天
-		NoMusic: 無音
-		AvatarMusic: 静寂
-	}
-
-	SolynBookExchange: {
-		BookObtainmentPercentage: "{0}%の本を発見済み！"
-		CreditText: "[c/FF84D8:{0}]によって発見された"
-		RarityText: "レアリティ: "
-	}
+	AvatarOfEmptiness: 大昔に時間に屈した宇宙からやってきた年老いた神。
+	Aelithrysuwl: フクロウに似ているが、この神秘的な生き物は驚くほど社交的で、木の上で一緒に歌うことを楽しんでいる。その輝く目は、彼らが賢者である可能性を示唆している。
 }
 
