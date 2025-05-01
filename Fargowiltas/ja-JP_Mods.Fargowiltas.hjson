@@ -1,5 +1,5 @@
 Bestiary: {
-	Deviantt: モンスターのスポーンアイテムと（その気になれば）助け舟を出す。この陽気でエネルギッシュなバケモンは、お金と同じくらい暴力が好き。少しディフォルメされている。
+	Deviantt: モンスターのスポーンアイテムと（その気になれば）助け舟を出す。この陽気でエネルギッシュなバケモンは、お金と同じくらい暴力が好き。少しデフォルメされている。
 	Abominationn: 天候をコントロールし、侵略を阻止することができるが、怠け者で武器は手にくっついている。だが、食事は不要だし近づくと何かの力で勝手にドアが開くので特に困ってはいない。
 	Mutant: 兄弟からはブラザーと呼ばれるが、性別の確認は拒否している。自分の過去を話すよりも、ケンカや小さなペットを見ることに興味がある。強い相手を探しているようだ。
 	LumberJack: 生き物を集め、あらゆる種類の木を切るのが大好きな、ごく普通の木こり。しかし、彼には見た目以上の何かがあるのだろうか？秘密の神の力？...おそらくないだろう。
@@ -25,12 +25,12 @@ Configs: {
 		}
 
 		Devi: {
-			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:ディヴィアントがスポーン可能]"
+			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:デビアントがスポーン可能]"
 			Tooltip: ""
 		}
 
 		Lumber: {
-			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:きこりが出現可能]"
+			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:木こりが出現可能]"
 			Tooltip: ""
 		}
 
@@ -120,12 +120,12 @@ Configs: {
 		}
 
 		StalkerMoneyTrough: {
-			Label: "[i:3213] ストーカーマネートラフ"
+			Label: "[i:3213] 空飛ぶブタの貯金箱がプレイヤーを追跡する"
 			Tooltip: ""
 		}
 
 		RottenEggs: {
-			Label: "[i:1809] パワフルな腐った卵"
+			Label: "[i:1809] 強烈な腐った卵"
 			Tooltip: NPCが死ぬほど腐った卵を嫌がるようになる
 		}
 
@@ -140,7 +140,7 @@ Configs: {
 		}
 
 		ExtractSpeed: {
-			Label: "[i:997] エクストラクティネーターの速度強化"
+			Label: "[i:997] 取り出し機の速度強化"
 			Tooltip: ""
 		}
 
@@ -150,13 +150,13 @@ Configs: {
 		}
 
 		PermanentStationsNearby: {
-			Label: "[i:3198] 作業台の近接バフを自動適用"
+			Label: "[i:3198] 近くのプレイヤーに家具特有バフを自動適用"
 			Tooltip: ""
 		}
 
 		BossZen: {
 			Label: "[i:3117] ボス戦中は雑魚敵が出現しない"
-			Tooltip: ""
+			Tooltip: "自然スポーンを無効化するのみで、ボスが召喚するのは無効化されない"
 		}
 
 		PiggyBankAcc: {
@@ -331,13 +331,13 @@ UI: {
 	MaxMinions: 最大召喚数: {0}
 	MaxSentries: 最大セントリー数: {0}
 	ArmorPenetration: 防御貫通: {0}
-	Aggro: アグロ: {0}
+	Aggro: 狙われやすさ: {0}
 	Life: ライフ: {0}
 	LifeRegen: ライフ回復: {0}/秒
 	Mana: マナ: {0}
 	ManaRegen: マナ回復: {0}/秒
 	Defense: 防御力: {0}
-	DRCap: "（上限 {0}％）"
+	DRCap: （上限 {0}％）
 	DamageReduction: 被ダメージ軽減: {0} % {1}
 	Luck: 運: {0}
 	FishingQuests: 釣りクエスト完了数: {0}
@@ -347,13 +347,13 @@ UI: {
 	AttackSpeed: 攻撃速度: {0} %
 	WingNull: ???
 	WingTime: 飛行時間: {0}
-	WingTimeMoreThan60Sec: はい
+	WingTimeMoreThan60Sec: 計測不可
 	WingTimeActual: "{0} 秒"
 	WingMaxSpeed: 翼の最高速度: {0} mph
 	WingAscentModifier: 上昇補正: {0} %
 	WingHover: 滞空可能: {0}
-	WingHoverTrue: True
-	WingHoverFalse: False
+	WingHoverTrue: 可能
+	WingHoverFalse: 不可
 }
 
 MessageInfo: {
@@ -367,20 +367,20 @@ MessageInfo: {
 	NewItemUnlocked: 新しい商品が {0} の店に入荷された！
 	HaveAwoken: "{0} が目覚めた！"
 	CancelEvent: 襲撃者は去っていった！
-	CancelPumpkinMoon: パンプキンムーンは地平線の彼方に沈んでいく...
-	CancelFrostMoon: フロストムーンは地平線の彼方に沈んでいく...
-	CancelEclipse: 日蝕「あ、ごめん、日蝕はやっぱ無しで」
-	CancelBloodMoon: 血に染まりし月は地平線の彼方にて眠りにつかん...
-	CancelWindyDay: 風神は帰宅した！
-	CancelOOA: オールドワンズアーミーは去っていく！
-	CancelSandstorm: 砂嵐は帰宅した！
+	CancelPumpkinMoon: パンプキンムーンは沈んでいった...
+	CancelFrostMoon: フロストムーンは沈んでいった...
+	CancelEclipse: 日蝕は無かったことにされた！
+	CancelBloodMoon: ブラッドムーンは沈んでいった...
+	CancelWindyDay: 風が止んだ！
+	CancelOOA: オールドワンズアーミーは撤退した！
+	CancelSandstorm: 砂嵐が止んだ！
 	CancelLunarEvent: 宇宙の侵略者たちはこの世界から直帰した！
-	CancelRain: 雷神は帰宅した！
+	CancelRain: 雨が止んだ！
 	StartWindyDay: 風が吹き始める...
 	StartSandStorm: 砂嵐が吹き荒れる...
 	StartLanternNight: ランタンナイトの発生確率が上がった！
 	StopLanternNight: ランタンナイトの確率は落ち着きを取り戻した。
-	StartLunarEvent: 宇宙の侵略者たちはこの世界に直行した！
+	StartLunarEvent: 宇宙の侵略者たちが現れた！
 	StartRain: 雨雲が世界を覆う...
 	AncientSeal: 古代の封印は解かれ、今ここにすべてのボスが解き放たれた！
 	SeveralBossesAwoken: 複数のボスが目覚めた！
@@ -391,29 +391,29 @@ MessageInfo: {
 	OverloadDarkMage: あなたはまるで図書館にいるように感じた！
 	OverloadDeer: 一定数の怪物が世界を支配する！
 	OverloadDestroyer: この星の全てが震撼する！
-	OverloadEmpress: 皇后天国の時間だ！
+	OverloadEmpress: 弾幕地獄が始まる！
 	OverloadEye: 無数の視線がルールを突き破り、あなたの方を見つめている！
-	OverloadFish: 海は獰猛な豚鮫たちがうねっている！
-	OverloadGolem: 親方！空から古代の兵器たちが！
+	OverloadFish: 海が恐怖に震えあがる！
+	OverloadGolem: 嫌な予感しかしない！
 	OverloadMoon: 世界が「死」の接近を警告する！
-	OverloadPlant: ジャングルのビートが終結する！
-	OverloadPrime: 至高の寒気が世界の全てを包む！
+	OverloadPlant: ジャングルが一つの鼓動となる！
+	OverloadPrime: 病的な冷気が世界を包みこむ！
 	OverloadQueenSlime: ようこそ！「より」真なるスライムレインへ！
-	OverloadSkele: ダンジョンから複数の大きな骨の音が響く！
+	OverloadSkele: ダンジョンから骨の蠢きが聞こえる！
 	OverloadSlimeCrown: ようこそ！真なるスライムレインへ！
-	OverloadTwins: 光り輝く虹彩たちが恐ろしい合唱を行う！
-	OverloadWall: 地獄から肉の要塞が現れた！
+	OverloadTwins: その瞳に宿るのは、決意！
+	OverloadWall: 地の底より肉の要塞が立ち上がる！
 	OverloadWorm: 世界が移動している！
 	OverloadFrostMoonStop: 悠久のフロストムーンが消えていく！
 	OverloadFrostMoonStart: 悠久のフロストムーンが昇る...
-	OverloadFrostMoonWave20: ウェーブ20だョ！全員集合！
+	OverloadFrostMoonWave20: Wave: 20: 全員集合！
 	OverloadPumpkinMoonStop: 悠久のパンプキンムーンが消えていく！
 	OverloadPumpkinMoonStart: 悠久のパンプキンムーンが昇る...
-	OverloadPumpkinMoonWave15: ウェーブ15: パンプキンムーンの大集合！
+	OverloadPumpkinMoonWave15: Wave: 15: 全員集合！
 	OverloadGoblinsStop: ゴブリンたちの興奮は収まった！
-	OverloadMartiansStop: 火星人は落ち着きを取り戻した！
-	OverloadPiratesStop: 海賊たちはさすがに落ち着いた！
-	SwarmDefeated: ボスの大群を倒した！
+	OverloadMartiansStop: 火星人は帰っていった！
+	OverloadPiratesStop: 海賊たちは退散した！
+	SwarmDefeated: 強化されたボスを倒した！
 }
 
 Buffs: {
@@ -445,13 +445,13 @@ Buffs: {
 
 Items: {
 	BoneQuiver: {
-		DisplayName: 無限骨矢筒
+		DisplayName: 無限骨の矢筒
 		Tooltip: ""
 	}
 
 	ChlorophyteQuiver: {
 		DisplayName: 無限クロロファイト矢筒
-		Tooltip: 壁に当たると跳ね返る
+		Tooltip: "{$ItemTooltip.ChlorophyteArrow}"
 	}
 
 	CursedQuiver: {
@@ -460,7 +460,7 @@ Items: {
 	}
 
 	FlameQuiver: {
-		DisplayName: 無限火矢筒
+		DisplayName: 無限火の矢筒
 		Tooltip: ""
 	}
 
@@ -476,12 +476,12 @@ Items: {
 
 	HolyQuiver: {
 		DisplayName: 無限聖なる矢筒
-		Tooltip: 衝撃で流れ星を召喚
+		Tooltip: "{$ItemTooltip.HolyArrow}"
 	}
 
 	IchorQuiver: {
-		DisplayName: 無限霊液矢筒
-		Tooltip: 対象の防御力を下げる
+		DisplayName: 無限霊液の矢筒
+		Tooltip: "{$ItemTooltip.IchorArrow}"
 	}
 
 	JesterQuiver: {
@@ -490,18 +490,18 @@ Items: {
 	}
 
 	LuminiteQuiver: {
-		DisplayName: 無限ルミナイト矢筒
-		Tooltip: 「音速で撃ち落とす！」
+		DisplayName: 無限ルミナイトの矢筒
+		Tooltip: "{$ItemTooltip.MoonlordArrow}"
 	}
 
 	UnholyQuiver: {
-		DisplayName: 無限不浄な矢筒
+		DisplayName: 無限不浄の矢筒
 		Tooltip: ""
 	}
 
 	VenomQuiver: {
-		DisplayName: 無限猛毒矢筒
-		Tooltip: ""
+		DisplayName: 無限猛毒の矢筒
+		Tooltip: "{$ItemTooltip.VenomArrow}"
 	}
 
 	BrittleBone: {
@@ -510,53 +510,53 @@ Items: {
 	}
 
 	ChlorophytePouch: {
-		DisplayName: 無限クロロファイト弾丸ポーチ
-		Tooltip: 敵を追う
+		DisplayName: 無限クロロファイト弾ポーチ
+		Tooltip: "{$ItemTooltip.ChlorophyteBullet}"
 	}
 
 	CrystalPouch: {
-		DisplayName: 無限クリスタル弾丸ポーチ
-		Tooltip: ヒット時にクリスタルシャードを生成する
+		DisplayName: 無限クリスタル弾ポーチ
+		Tooltip: "{$ItemTooltip.CrystalBullet}"
 	}
 
 	CursedPouch: {
-		DisplayName: 無限呪われた弾丸ポーチ
+		DisplayName: 無限呪いの弾丸ポーチ
 		Tooltip: ""
 	}
 
 	ExplosivePouch: {
-		DisplayName: 無限爆裂弾ポーチ
-		Tooltip: ヒット時に爆発する
+		DisplayName: 無限爆発弾ポーチ
+		Tooltip: "{$ItemTooltip.ExplosiveBullet}"
 	}
 
 	GoldenPouch: {
-		DisplayName: 無限黄金弾ポーチ
-		Tooltip: 敵を倒すとコインを落とす
+		DisplayName: 無限黄金の弾丸ポーチ
+		Tooltip: "{$ItemTooltip.GoldenBullet}"
 	}
 
 	IchorPouch: {
-		DisplayName: 無限霊液弾丸ポーチ
-		Tooltip: 対象の防御力を下げる
+		DisplayName: 無限霊液の弾丸ポーチ
+		Tooltip: "{$ItemTooltip.IchorBullet}"
 	}
 
 	LuminitePouch: {
-		DisplayName: 無限ルミナイト弾丸ポーチ
-		Tooltip: 「並べて倒して...」
+		DisplayName: 無限ルミナイトの弾ポーチ
+		Tooltip: "{$ItemTooltip.MoonlordBullet}"
 	}
 
 	MeteorPouch: {
-		DisplayName: 無限隕石弾丸ポーチ
+		DisplayName: 無限メテオ弾ポーチ
 		Tooltip: ""
 	}
 
 	NanoPouch: {
-		DisplayName: 無限極小弾丸ポーチ
-		Tooltip: 混乱を引き起こす
+		DisplayName: 無限ナノバレットポーチ
+		Tooltip: "{$ItemTooltip.NanoBullet}"
 	}
 
 	PartyPouch: {
-		DisplayName: 無限パーティー弾丸ポーチ
-		Tooltip: 衝撃を与えると紙吹雪になる
+		DisplayName: 無限パーティー弾ポーチ
+		Tooltip: "{$ItemTooltip.PartyBullet}"
 	}
 
 	SilverPouch: {
@@ -565,7 +565,7 @@ Items: {
 	}
 
 	TungstenPouch: {
-		DisplayName: 無限タングステン弾丸ポーチ
+		DisplayName: 無限タングステンの弾丸ポーチ
 		Tooltip: ""
 	}
 
@@ -575,8 +575,8 @@ Items: {
 	}
 
 	VenomPouch: {
-		DisplayName: 無限ベノム弾ポーチ
-		Tooltip: ターゲットに酸性毒を付与する
+		DisplayName: 無限猛毒の弾丸ポーチ
+		Tooltip: "{$ItemTooltip.VenomBullet}"
 	}
 
 	CopperCoinBag: {
@@ -601,22 +601,22 @@ Items: {
 
 	CrystalDartBox: {
 		DisplayName: 無限クリスタルダーツ箱
-		Tooltip: ""
+		Tooltip: "{$ItemTooltip.CrystalDart}"
 	}
 
 	CursedDartBox: {
-		DisplayName: 無限呪われたダーツ箱
-		Tooltip: ""
+		DisplayName: 無限呪いのダーツ箱
+		Tooltip: "{$ItemTooltip.CursedDart}"
 	}
 
 	IchorDartBox: {
-		DisplayName: 無限霊液ダーツ箱
-		Tooltip: ""
+		DisplayName: 無限霊液のダーツ箱
+		Tooltip: "{$ItemTooltip.IchorDart}"
 	}
 
 	PoisonDartBox: {
-		DisplayName: 無限毒ダーツ箱
-		Tooltip: ""
+		DisplayName: 無限毒のダーツ箱
+		Tooltip: "{$ItemTooltip.PoisonDart}"
 	}
 
 	GelPack: {
@@ -624,64 +624,64 @@ Items: {
 		Tooltip: ""
 	}
 
-	ClusterRocket1Bag: {
-		DisplayName: 無限クラスターロケットⅠバッグ
-		Tooltip: ""
+	HoneyRocketBox: {
+		Tooltip: "{$ItemTooltip.HoneyRocket}"
+		DisplayName: 無限蜂蜜ロケット箱
 	}
 
-	ClusterRocket2Bag: {
-		DisplayName: 無限クラスターロケットⅡバッグ
-		Tooltip: ""
+	DryRocketBox: {
+		Tooltip: "{$ItemTooltip.DryRocket}"
+		DisplayName: 無限ドライロケット箱
 	}
 
-	DryRocketBag: {
-		DisplayName: 無限ドライロケットバッグ
-		Tooltip: ""
+	ClusterRocket2Box: {
+		Tooltip: "{$ItemTooltip.ClusterRocketII}"
+		DisplayName: 無限クラスターロケットⅡ箱
 	}
 
-	HoneyRocketBag: {
-		DisplayName: 無限はちみつロケットバッグ
-		Tooltip: ""
+	ClusterRocket1Box: {
+		Tooltip: "{$ItemTooltip.ClusterRocketI}"
+		DisplayName: 無限クラスターロケットⅠ箱
 	}
 
-	LavaRocketBag: {
-		DisplayName: 無限溶岩ロケットバッグ
-		Tooltip: ""
+	LavaRocketBox: {
+		DisplayName: 無限溶岩ロケット箱
+		Tooltip: "{$ItemTooltip.LavaRocket}"
 	}
 
-	MiniNuke1Bag: {
-		DisplayName: 無限ミニ核爆弾Ⅰバッグ
-		Tooltip: ""
+	MiniNuke1Box: {
+		DisplayName: 無限ミニ核爆弾Ⅰ箱
+		Tooltip: "{$ItemTooltip.MiniNukeI}"
 	}
 
-	MiniNuke2Bag: {
-		DisplayName: 無限ミニ核爆弾Ⅱバッグ
-		Tooltip: ""
+	MiniNuke2Box: {
+		DisplayName: 無限ミニ核爆弾Ⅱ箱
+		Tooltip: "{$ItemTooltip.MiniNukeII}"
 	}
 
-	Rocket1Bag: {
-		DisplayName: 無限ロケットⅠバッグ
-		Tooltip: ""
+	Rocket1Box: {
+		DisplayName: 無限ロケットⅠ箱
+		Tooltip: "{$ItemTooltip.RocketI}"
 	}
 
-	Rocket2Bag: {
-		DisplayName: 無限ロケットⅡバッグ
-		Tooltip: ""
+	Rocket2Box: {
+		DisplayName: 無限ロケットⅡ箱
+		Tooltip: "{$ItemTooltip.RocketII}"
 	}
 
-	Rocket3Bag: {
-		DisplayName: 無限ロケットⅢバッグ
-		Tooltip: ""
+	Rocket3Box: {
+		DisplayName: 無限ロケットⅢ箱
+		Tooltip: "{$ItemTooltip.RocketIII}"
 	}
 
-	Rocket4Bag: {
-		DisplayName: 無限ロケットⅣバッグ
-		Tooltip: ""
+	Rocket4Box: {
+		DisplayName: 無限ロケットⅣ箱
+		Tooltip: "{$ItemTooltip.RocketIV}"
 	}
 
-	WetRocketBag: {
-		DisplayName: 無限ウェットロケットバッグ
-		Tooltip: ""
+	WetRocketBox: {
+		DisplayName: 無限水ロケット箱
+		Tooltip: "{$ItemTooltip.WetRocket}"
 	}
 
 	StarPouch: {
@@ -694,7 +694,7 @@ Items: {
 		Tooltip:
 			'''
 			自然生成されたデーモンアルターとクリムゾンアルターをすべて破壊する。
-			別名:レイスメイカー200
+			「別名:レイスメイカー200」
 			'''
 	}
 
@@ -707,10 +707,10 @@ Items: {
 		DisplayName: 爆弾手裏剣
 		Tooltip:
 			'''
-			タイルに当たると瞬時に爆発し、ブロックを破壊する。
-			インベントリ内の最も性能の高いツルハシの採掘力を使用。
-			投擲速度は、最高のツルハシの採掘速度や他の採掘速度ボーナスに比例する。
-			「いかなる時でも何かを掘り進む最速の方法は 爆破だ!」
+			地形に当たると瞬時に爆発し、ブロックを破壊する
+			インベントリ内の最も性能の高いツルハシの採掘力が適用される
+			投擲速度は、所持している最高のツルハシの採掘速度や他の採掘速度ボーナスに比例する
+			「いかなる時でも何かを掘り進む最速の方法は、爆破だ！」
 			'''
 	}
 
@@ -720,17 +720,18 @@ Items: {
 			'''
 			広い範囲を問答無用で破壊する
 			背景の壁は除去しない
-			使用は自己責任でお願いします
+			使用は自己責任で
 			'''
 	}
 
 	DoubleObsidianInstabridge: {
-		DisplayName: 黒曜石橋製造機ダブル
+		DisplayName: 黒曜石の二重架橋装置
 		Tooltip:
 			'''
-			使用すると、カーソルの高さに1つ、カーソルから20ブロック上の位置に1つ、合計2つのワールドの両端まで続く黒曜石の足場で出来た橋が作られる。
-			また、2つの橋の間のと、その上のエリア20ブロック分が消滅する。
-			近くに重要な建物がある場合は使用しないこと。
+			使用すると、カーソルの高さに1つ、カーソルから20ブロック上の位置に1つ
+			合計2つの高さの黒曜石の足場がワールドの両端まで作られる
+			また、2つの橋の間と、その上のエリア20ブロック分は消滅する
+			近くに重要な建物がある場合は使用しないこと
 			'''
 	}
 
@@ -740,24 +741,25 @@ Items: {
 	}
 
 	HalfInstavator: {
-		DisplayName: ハーフ即席ヘルベーター
+		DisplayName: 即席ハーフヘルベーター
 		Tooltip:
 			'''
-			爆弾を投下し、瞬時に半分のヘルベーターを作る
+			瞬時にロープ付きの縦穴を作る
+			エリア内に存在したものは消滅する
 			一定の深さ以下は掘らない
 			下に重要な建物がある場合は使用しないこと
 			'''
 	}
 
 	InstaBridge: {
-		DisplayName: 架橋装置
+		DisplayName: 即席架橋装置
 		Tooltip:
 			'''
-			ワールド全体に足場でできた橋を架ける
-			足場の真上のエリアも消し去る
-			橋はカーソルの位置に現れる
+			ワールドの両端まで木の足場の橋を架ける
+			足場の真上のエリアは消滅する
+			橋はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
-			右クリックで橋をかけずにエリアを消し去る
+			右クリックで橋をかけずにエリアだけ消し去ることができる
 			使用は自己責任で
 			'''
 	}
@@ -766,9 +768,9 @@ Items: {
 		DisplayName: トラックメーカー
 		Tooltip:
 			'''
-			全世界にマインカートの線路を作る
-			線路の真上もクリアする
-			線路はカーソルの位置に現れる
+			ワールドの両端まで線路を設置する
+			線路の真上のエリアは消滅する
+			線路はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
 			'''
 	}
@@ -777,7 +779,9 @@ Items: {
 		DisplayName: 即席ヘルベーター
 		Tooltip:
 			'''
-			爆弾を投下し、即座にヘルベーターを設置する
+			瞬時にロープ付きの整備された縦穴を作る
+			エリア内に存在したものは消滅する
+			マップ最下層まで貫通する
 			下に重要な建物がある場合は使用しないこと
 			'''
 	}
@@ -787,7 +791,7 @@ Items: {
 		Tooltip:
 			'''
 			リザードの祭壇の前に立った状態で使用すると、リザードの祭壇の周囲を消滅させる
-			リザードのレンガを起動し、他を破壊する
+			リザードのレンガはアクチュエーター化し、他は破壊する
 			プランテラを倒した後のジャングル神殿でのみ使用可能
 			'''
 	}
@@ -796,28 +800,28 @@ Items: {
 		DisplayName: 小さな架橋装置
 		Tooltip:
 			'''
-			カーソルの位置に足場でできた長い橋をかけます。
-			ブロックを壊さない
+			カーソルの位置に木の足場の橋を設置する
+			ブロックを破壊しない
 			'''
 	}
 
 	ObsidianInstaBridge: {
-		DisplayName: 黒曜石橋製造機
+		DisplayName: 黒曜石の架橋装置
 		Tooltip:
 			'''
-			全世界に黒曜石のプラットフォームの橋を架ける。
-			橋の真上のエリアも消滅させる
-			橋はカーソルの位置に現れる
+			ワールドの両端まで黒曜石の足場の橋を架ける
+			足場の真上のエリアは消滅する
+			橋はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
 			'''
 	}
 
 	OmniBridgifier: {
-		DisplayName: 設置物をプラットフォームに設置する装置
+		DisplayName: オムニ・ブリッジファイア
 		Tooltip:
 			'''
-			無限に使える
-			オムニステーションの効果を使用するために、あなたが立っているプラットフォームをアップグレードする。
+			何度でも使用できる
+			足元のプラットフォームに等間隔でオムニステーションを設置する 
 			注：プラットフォームは付属しません！
 			'''
 	}
@@ -826,8 +830,9 @@ Items: {
 		DisplayName: 戦いの角笛
 		Tooltip:
 			'''
-			左クリックでスポーン率10倍を切り替え
-			右クリックで10倍のスポーン率減少に切り替える。ゲームの進行に応じて減少効果が強化される。
+			左クリックで敵の出現率を10倍に
+			右クリックで敵の出現率を減少させる
+			減少効果はゲームの進行度に応じて効果が強くなる
 			'''
 		Battle: 戦い
 		Calming: 落ち着き
@@ -842,7 +847,7 @@ Items: {
 			'''
 			左クリックでライフクリスタル、またはライフフルーツの量を1減らす
 			両方が0の場合、最大ライフを20減少させ、最小20まで減少させる
-			右クリックで、この効果を1回だけ戻すことができる
+			右クリックで、この効果を1回分戻すことができる
 			'''
 	}
 
@@ -856,17 +861,19 @@ Items: {
 		ResearchText: 調査済みアイテム： {0} 個
 	}
 
+
 	MapViewer: {
-		DisplayName: 古代のマスターの迷子の王の大先祖の地図
-		Tooltip: 世界の地図を表示する（マルチプレイの場合は一定範囲を表示する）
+		DisplayName: 失われし王の偉大なる祖先に伝わる古代の地図
+		Tooltip: マップ全体を開示する（マルチプレイの場合は一定範囲を表示する）
 	}
 
 	ModeToggle: {
 		DisplayName: 世界のトークン
 		Tooltip:
 			'''
-			左クリックで難易度モードが循環
-			右クリックでジャーニー・モードを切り替えられる（マルチプレイで問題が発生する可能性がある）
+			何度でも使用できる
+			左クリックで難易度モードを切り替える、使用する毎に難易度が循環する
+			右クリックでジャーニー・モードに切り替えられる（マルチプレイで問題が発生する可能性がある）
 			'''
 		Journey: ジャーニーモードが有効になった！
 		Normal: ノーマルモードが有効になった！
@@ -878,20 +885,21 @@ Items: {
 		DisplayName: 持ち運び式魔法の日時計
 		Tooltip:
 			'''
+			何度でも使用できる
 			左クリックで瞬時に時刻を変更する
-			夜明け、正午、夕暮れ、真夜中の間でサイクルする
+			夜明け、正午、夕暮れ、真夜中を順に切り替える  
 			右クリックで魔法の日時計の効果が発動する
-			夜明けまでのサイクルで、旅商人の店がリセットされる
-			ボスが出現している間は使用速度が遅くなる
+			夜明けになる毎に、旅商人の品揃えがリセットされる
+			ボスが出現している間は使用にクールダウンが発生する
 			'''
 	}
 
 	PylonCleaner: {
-		DisplayName: パイロン周辺洗浄装置
+		DisplayName: パイロンクリーナー
 		Tooltip:
 			'''
-			すべてのパイロン周辺を浄化
-			ハロウ・パイロンには青の溶液を、それ以外には緑の溶液を使用する。
+			すべてのパイロン周辺を浄化する
+			聖域のパイロンには[i:781]青の環境変更液を、それ以外には[i:780]緑の環境変更液を使用する。
 			'''
 	}
 
@@ -900,91 +908,91 @@ Items: {
 		Tooltip:
 			'''
 			カーソルの位置に改良型ダミーを出現させる
-			通常のターゲットダミーと同じだが、ミニオンや投擲物は改良型ダミーを感知してホーミングする
-			ヒット時にエフェクトが発動する
-			右クリックですべての改良型ダミーを削除できる
-			一度に最大50体の改良型ダミーを出現させることができる
+			通常のターゲットダミーと同じだが、ミニオンが敵と認識し、ホーミングする武器は検知する
+			命中時の追加効果も発動する 
+			右クリックで設置したすべての改良型ダミーを削除できる
+			最大50体まで改良型ダミーを出現させることができる
 			'''
 	}
 
 	CorruptRenewal: {
-		DisplayName: 不浄ウイルス
+		DisplayName: 環境変更濃縮液（紫）
 		Tooltip: 広い範囲を不浄で汚染する
 	}
 
 	CorruptRenewalSupreme: {
-		DisplayName: 腐りきった不浄ウイルス
-		Tooltip: あなたの世界は完全に不浄に飲み込まれる
+		DisplayName: 究極の変更濃縮液（紫）
+		Tooltip: 世界全体を不浄で汚染する
 	}
 
 	CrimsonRenewal: {
-		DisplayName: 真紅ウイルス
+		DisplayName: 環境変更濃縮液（赤）
 		Tooltip: 広い範囲を真紅で汚染する
 	}
 
 	CrimsonRenewalSupreme: {
-		DisplayName: 新鮮な真紅ウイルス
-		Tooltip: あなたの世界は完全に真紅に侵される
+		DisplayName:  究極の変更濃縮液（赤）
+		Tooltip: 世界全体を真紅で汚染する
 	}
 
 	HallowRenewal: {
-		DisplayName: 聖域のお節介
+		DisplayName: 環境変更濃縮液（青）
 		Tooltip: 広い範囲を聖域に変化させる
 	}
 
 	HallowRenewalSupreme: {
-		DisplayName: 行き過ぎた聖域のお節介
-		Tooltip: あなたの世界は聖域に置き換えられる
+		DisplayName:  究極の変更濃縮液（青）
+		Tooltip: 世界全体を聖域に変化させる
 	}
 
 	MushroomRenewal: {
-		DisplayName: キノコの変異カビ
-		Tooltip: 広い範囲にキノコを生やす
+		DisplayName: 環境変更濃縮液（藍）
+		Tooltip: 広い範囲の泥ブロックに光るキノコを発生させる
 	}
 
 	MushroomRenewalSupreme: {
-		DisplayName: 巨大なキノコの変異カビ
-		Tooltip: あなたの世界はキノコに埋め尽くされる
+		DisplayName:  究極の変更濃縮液（藍）
+		Tooltip: 世界全体の泥ブロックに光るキノコを発生させる
 	}
 
 	PurityRenewal: {
-		DisplayName: 洗浄液
-		Tooltip: 広い範囲の汚染を洗浄する
+		DisplayName: 環境変更濃縮液（緑）
+		Tooltip: 広い範囲のブロックを正常にする
 	}
 
 	PurityRenewalSupreme: {
-		DisplayName: 超洗浄液
-		Tooltip: 世界中の汚染をキラーする
+		DisplayName:  究極の変更濃縮液（緑）
+		Tooltip: 世界全体のブロックを正常にする
 	}
 
 	SnowRenewal: {
-		DisplayName: ゆきやこんこん
-		Tooltip: 広い範囲に雪を積もらせる
+		DisplayName: 環境変更濃縮液（白）
+		Tooltip: 広い範囲を雪原にする
 	}
 
 	SnowRenewalSupreme: {
-		DisplayName: ゆきやどんどん
-		Tooltip: 世界が氷河期に突入する
+		DisplayName:  究極の変更濃縮液（白）
+		Tooltip: 世界全体を雪原にする
 	}
 
 	SandRenewal: {
-		DisplayName: 強力な乾燥剤
-		Tooltip: 広い範囲を砂漠化させる
+		DisplayName: 環境変更濃縮液（黄）
+		Tooltip: 広い範囲を砂漠にする
 	}
 
 	SandRenewalSupreme: {
-		DisplayName: 超吸水性物質
-		Tooltip: 世界が砂漠化する
+		DisplayName:  究極の変更濃縮液（黄）
+		Tooltip: 世界全体を砂漠にする
 	}
 
 	DirtRenewal: {
-		DisplayName: 大地の恵み
-		Tooltip: 広い範囲に土を置く
+		DisplayName: 環境変更濃縮液（茶）
+		Tooltip: 広い範囲を森林にする
 	}
 
 	DirtRenewalSupreme: {
-		DisplayName: 大地讃頌
-		Tooltip: 世界は土に覆われる
+		DisplayName:  究極の変更濃縮液（茶）
+		Tooltip: 世界全体を森林にする
 	}
 
 	Abeemination2: {
@@ -1008,7 +1016,7 @@ Items: {
 	}
 
 	FestiveOrnament: {
-		DisplayName: お祝いのオーナメント
+		DisplayName: お祝いの飾り
 		Tooltip:
 			'''
 			エバースクリームを召喚する
@@ -1121,12 +1129,12 @@ Items: {
 	}
 
 	DeerThing2: {
-		DisplayName: シング・ディアー
+		DisplayName: 異様なシカの頭骨
 		Tooltip: どのバイオームでもディアクロップスを召喚できる
 	}
 
 	AmalgamatedSkull: {
-		DisplayName: 融合したスカル
+		DisplayName: 融合した骸骨
 		Tooltip:
 			'''
 			スケルトン・ガンナーを召喚
@@ -1162,7 +1170,7 @@ Items: {
 	}
 
 	BloodSushiPlatter: {
-		DisplayName: ブラッド・寿司盛り合わせ
+		DisplayName: ブラッド寿司盛り合わせ
 		Tooltip:
 			'''
 			ドレッドノーチラスを召喚する
@@ -1213,12 +1221,12 @@ Items: {
 		Tooltip:
 			'''
 			レッドデビルを召喚する
-			アンダーワールドでのみ使用可能
+			地獄でのみ使用可能
 			'''
 	}
 
 	DilutedRainbowMatter: {
-		DisplayName: 希釈されたレインボーマター
+		DisplayName: 希釈された虹色の物質
 		Tooltip: レインボースライムを召喚する
 	}
 
@@ -1354,7 +1362,7 @@ Items: {
 	}
 
 	ShadowflameIcon: {
-		DisplayName: シャドウフレイムアイコン
+		DisplayName: シャドウフレイムの偶像
 		Tooltip:
 			'''
 			ゴブリンウォーロックを召喚する
@@ -1368,7 +1376,7 @@ Items: {
 	}
 
 	SuspiciousLookingChest: {
-		DisplayName: 怪しい施錠されたチェスト
+		DisplayName: 施錠された怪しい宝箱
 		Tooltip:
 			'''
 			ミミックを召喚する
@@ -1407,7 +1415,7 @@ Items: {
 	}
 
 	MechSkull: {
-		DisplayName: おそらく機械のスカル
+		DisplayName: おそらく機械の骸骨
 		Tooltip: スケルトロンプライムを召喚する
 	}
 
@@ -1428,7 +1436,7 @@ Items: {
 	}
 
 	CultistSummon: {
-		DisplayName: デリバリー狂信者
+		DisplayName: 狂信者の遺物
 		Tooltip:
 			'''
 			狂気の崇拝者を召喚する。
@@ -1448,7 +1456,7 @@ Items: {
 	}
 
 	FleshyDoll: {
-		DisplayName: 肉付きの良い人形
+		DisplayName: ガイド人形とマッチのセット
 		Tooltip:
 			'''
 			ウォールオブフレッシュを召喚
@@ -1457,7 +1465,7 @@ Items: {
 	}
 
 	JellyCrystal: {
-		DisplayName: ゼリー・クリスタル
+		DisplayName: クリスタルスライムクラウン
 		Tooltip: クイーンスライムを召喚する
 	}
 
@@ -1476,7 +1484,7 @@ Items: {
 	}
 
 	PlanterasFruit: {
-		DisplayName: プランテラのつぼみ
+		DisplayName: プランテラの果実
 		Tooltip: プランテラを召喚する
 	}
 
@@ -1486,7 +1494,7 @@ Items: {
 	}
 
 	SuspiciousSkull: {
-		DisplayName: 怪しいスカル
+		DisplayName: 怪しい頭蓋骨
 		Tooltip:
 			'''
 			夜に使うとスケルトロンを仕立屋を殺さずに召喚する
@@ -1495,7 +1503,7 @@ Items: {
 	}
 
 	SlimyCrown: {
-		DisplayName: ぬめった王冠
+		DisplayName: ぬめった政令書
 		Tooltip: キングスライムを召喚する
 	}
 
@@ -1508,7 +1516,7 @@ Items: {
 		DisplayName: ローヤルエネルゲイザー
 		Tooltip:
 			'''
-			10個の幼虫ラッシュを使用すると得られる
+			10個の{$OverloadBee.DisplayName}をまとめて使用すると得られる
 			「蜂蜜のような香り」
 			'''
 	}
@@ -1517,7 +1525,7 @@ Items: {
 		DisplayName: 龍のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBetsy.DisplayName}を使用すると得られる
+			10個の{$OverloadBetsy.DisplayName}をまとめて使用すると得られる
 			「三千年待った気分だ」
 			'''
 	}
@@ -1526,7 +1534,7 @@ Items: {
 		DisplayName: 天才的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBrain.DisplayName}を使用すると得られる
+			10個の{$OverloadBrain.DisplayName}をまとめて使用すると得られる
 			「You are a browser crusher! ahahaha ahaha a ahahaha...」
 			'''
 	}
@@ -1535,7 +1543,7 @@ Items: {
 		DisplayName: 狂気のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadCultist.DisplayName}を使用すると得られる
+			10個の{$OverloadCultist.DisplayName}をまとめて使用すると得られる
 			「あなたはおそらく狂っている」
 			'''
 	}
@@ -1544,7 +1552,7 @@ Items: {
 		DisplayName: ミステリアスなエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDarkMage.DisplayName}を使用すると得られる
+			10個の{$OverloadDarkMage.DisplayName}をまとめて使用すると得られる
 			「千年間待った気分だ」
 			'''
 	}
@@ -1553,7 +1561,7 @@ Items: {
 		DisplayName: シカトされたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDeer.DisplayName}を使用すると得られる
+			10個の{$OverloadDeer.DisplayName}をまとめて使用すると得られる
 			「おなか
 			  へた」
 			'''
@@ -1563,7 +1571,7 @@ Items: {
 		DisplayName: 破壊のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDestroyer.DisplayName}を使用すると得られる
+			10個の{$OverloadDestroyer.DisplayName}をまとめて使用すると得られる
 			「子供たちを壊したくなる機械、デストロイヤッ！」
 			'''
 	}
@@ -1572,7 +1580,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー・エクストラ
 		Tooltip:
 			'''
-			10個の{$OverloadSkele.DisplayName}を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}をまとめて使用すると得られる
 			「意地悪な牛を思い出す」
 			'''
 	}
@@ -1581,7 +1589,7 @@ Items: {
 		DisplayName: 妖精のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadEmpress.DisplayName}を使用すると得られる
+			10個の{$OverloadEmpress.DisplayName}をまとめて使用すると得られる
 			「部屋を明るくして、離れてみてください」
 			'''
 	}
@@ -1590,7 +1598,7 @@ Items: {
 		DisplayName: 光学的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadEye.DisplayName}を使用すると得られる
+			10個の{$OverloadEye.DisplayName}をまとめて使用すると得られる
 			「あなたと自宅を監視することが趣味です」
 			'''
 	}
@@ -1599,7 +1607,7 @@ Items: {
 		DisplayName: とれたてピチピチのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadFish.DisplayName}を使用すると得られる
+			10個の{$OverloadFish.DisplayName}をまとめて使用すると得られる
 			「とても満足しているようだ」
 			'''
 	}
@@ -1608,7 +1616,7 @@ Items: {
 		DisplayName: 電池としても使えるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadGolem.DisplayName}を使用すると得られる
+			10個の{$OverloadGolem.DisplayName}をまとめて使用すると得られる
 			「単三電池だったらよかったのに」
 			'''
 	}
@@ -1617,7 +1625,7 @@ Items: {
 		DisplayName: 月のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadMoon.DisplayName}を使用すると得られる
+			10個の{$OverloadMoon.DisplayName}をまとめて使用すると得られる
 			「ムンロは、チーズがたべたいだけなのです！」
 			'''
 	}
@@ -1626,7 +1634,7 @@ Items: {
 		DisplayName: 葉っぱのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadPlant.DisplayName}を使用すると得られる
+			10個の{$OverloadPlant.DisplayName}をまとめて使用すると得られる
 			「いつか葉が茂って、根っこは大きく育って」
 			'''
 	}
@@ -1635,7 +1643,7 @@ Items: {
 		DisplayName: プレミアムエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadPrime.DisplayName}を使用すると得られる
+			10個の{$OverloadPrime.DisplayName}をまとめて使用すると得られる
 			「広告がなくなった気分」
 			'''
 	}
@@ -1644,7 +1652,7 @@ Items: {
 		DisplayName: 水晶のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadQueenSlime.DisplayName}を使用すると得られる
+			10個の{$OverloadQueenSlime.DisplayName}をまとめて使用すると得られる
 			「とてもぬるぬるする」
 			'''
 	}
@@ -1653,7 +1661,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadSkele.DisplayName}を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}をまとめて使用すると得られる
 			「牛を連想させる」
 			'''
 	}
@@ -1662,7 +1670,7 @@ Items: {
 		DisplayName: べとべとしたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadSlimeCrown.DisplayName}を使用すると得られる
+			10個の{$OverloadSlimeCrown.DisplayName}をまとめて使用すると得られる
 			「少しぬるぬるした感じがする」
 			'''
 	}
@@ -1671,7 +1679,7 @@ Items: {
 		DisplayName: 兄弟のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadTwins.DisplayName}を使用すると得られる
+			10個の{$OverloadTwins.DisplayName}をまとめて使用すると得られる
 			「兄弟といえば赤と緑」
 			'''
 	}
@@ -1680,7 +1688,7 @@ Items: {
 		DisplayName: ウォーリーのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadWall.DisplayName}を使用すると得られる
+			10個の{$OverloadWall.DisplayName}をまとめて使用すると得られる
 			「ウォールを探せ！」
 			'''
 	}
@@ -1689,13 +1697,13 @@ Items: {
 		DisplayName: うねうねエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadWorm.DisplayName}を使用すると得られる
-			'少し糸を引いている'
+			10個の{$OverloadWorm.DisplayName}をまとめて使用すると得られる
+			「少し糸を引いている」
 			'''
 	}
 
 	OverloadBee: {
-		DisplayName: 幼虫ラッシュ
+		DisplayName: 膨れた幼虫
 		Tooltip: 圧縮強化された女王蜂を召喚する
 	}
 
@@ -1715,7 +1723,7 @@ Items: {
 	}
 
 	OverloadDarkMage: {
-		DisplayName: 本当に禁断の書なんだってば！
+		DisplayName: 本当に読んじゃダメな書
 		Tooltip: 圧縮強化されたダークメイジを召喚する
 	}
 
@@ -1814,7 +1822,7 @@ Items: {
 	}
 
 	OverloadPlant: {
-		DisplayName: プランテラの花
+		DisplayName: ジャングルの核
 		Tooltip: 圧縮強化されたプランテラを召喚する
 	}
 
@@ -1833,7 +1841,7 @@ Items: {
 	}
 
 	OverloadQueenSlime: {
-		DisplayName: 融合したクリスタル
+		DisplayName: 荒れ狂う女王の宝核
 		Tooltip: 圧縮強化されたクイーンスライムを召喚する
 	}
 
@@ -1847,7 +1855,7 @@ Items: {
 	}
 
 	OverloadSlimeCrown: {
-		DisplayName: 融合した王冠
+		DisplayName: 王気取りのスライムクラウン
 		Tooltip: 圧縮強化されたキングスライムを召喚する
 	}
 
@@ -1929,10 +1937,10 @@ Items: {
 		DisplayName: オムニステーション
 		Tooltip:
 			'''
-			繰り返し使用可能
+			何度でも使用できる
 			すべてのバニラのバフを与える設置物の効果を付与する
-			触れるとはちみつ状態を与える
-			近くにいると運が大きく上昇し、シュガーラッシュ状態を与える
+			触れると蜂蜜状態を与える
+			近くにいると運が大きく上昇し、シュガー・ラッシュ状態を与える
 			'''
 	}
 
@@ -1940,10 +1948,10 @@ Items: {
 		DisplayName: オムニステーション
 		Tooltip:
 			'''
-			繰り返し使用可能
-			すべてのバニラのバフを与える設置物を付与する
-			触れるとはちみつ状態を与える
-			近くにいると運を大きく上昇させ、シュガーラッシュ状態を与える
+			何度でも使用できる
+			すべてのバニラのバフを与える設置物の効果を付与する
+			触れると蜂蜜状態を与える
+			近くにいると運が大きく上昇し、シュガー・ラッシュ状態を与える
 			'''
 	}
 
@@ -1956,7 +1964,7 @@ Items: {
 		DisplayName: セミステーション
 		Tooltip:
 			'''
-			繰り返し使用可能
+			何度でも使用できる
 			一部のバニラのバフを与える設置物の効果を与える
 			'''
 	}
@@ -2308,7 +2316,7 @@ Items: {
 		DisplayName: 架橋用セミステーション設置補助装置
 		Tooltip:
 			'''
-			無限に利用可能
+			何度でも使用できる
 			プレイヤーの足元のプラットフォームにセミステーションを設置します
 			※橋自体は生成しません！
 			'''
@@ -2318,86 +2326,27 @@ Items: {
 		DisplayName: 浄化のトーテム
 		Tooltip:
 			'''
-			無限に利用可能
+			何度でも使用できる
 			町のNPCが汚染されたバイオームで生活できるようになる
 			汚染されたタイルが汚染されたバイオームを形成するのを防ぐ
 			墓石が墓地を形成するのを防ぐ
 			'''
 	}
 
-	HoneyRocketBox: {
-		Tooltip: ""
-		DisplayName: 無限蜂蜜ロケット箱
-	}
-
-	DryRocketBox: {
-		Tooltip: ""
-		DisplayName: 無限ドライロケット箱
-	}
-
-	ClusterRocket2Box: {
-		Tooltip: ""
-		DisplayName: 無限クラスターロケットⅡ箱
-	}
-
-	ClusterRocket1Box: {
-		Tooltip: ""
-		DisplayName: 無限クラスターロケットⅠ箱
-	}
-
-	LavaRocketBox: {
-		DisplayName: 無限溶岩ロケット箱
-		Tooltip: ""
-	}
-
-	MiniNuke1Box: {
-		DisplayName: 無限ミニ核爆弾Ⅰ箱
-		Tooltip: ""
-	}
-
-	MiniNuke2Box: {
-		DisplayName: 無限ミニ核爆弾Ⅱ箱
-		Tooltip: ""
-	}
-
-	Rocket1Box: {
-		DisplayName: 無限ロケットⅠ箱
-		Tooltip: ""
-	}
-
-	Rocket2Box: {
-		DisplayName: 無限ロケットⅡ箱
-		Tooltip: ""
-	}
-
-	Rocket3Box: {
-		DisplayName: 無限ロケットⅢ箱
-		Tooltip: ""
-	}
-
-	Rocket4Box: {
-		DisplayName: 無限ロケットⅣ箱
-		Tooltip: ""
-	}
-
-	WetRocketBox: {
-		DisplayName: 無限ウェットロケット箱
-		Tooltip: ""
-	}
-
+	
 	InstaPond: {
 		DisplayName: 即席湖
 		Tooltip:
 			'''
-			爆弾を投下し、その下に150x50の湖を作る。
-			もちろん元あったブロックは問答無用で破壊されるので
+			カーソルの位置に150x50の湖を作る
+			エリア内に存在したものは消滅する
 			下に重要な建物がある場合は使用しないこと
 			'''
 	}
 
 	KohaCrystal: {
 		DisplayName: コハ・クリスタル
-		Tooltip: 自分の最大マナをマナクリスタル1個分減らす。
+		Tooltip: 自分の最大マナをマナクリスタル1個分減らす
 	}
 
 	BigSuckPotion: {
@@ -2410,7 +2359,7 @@ Items: {
 	}
 
 	MiniDirtInstaBridge: {
-		DisplayName: ミニ土架橋装置
+		DisplayName: 小型土製架橋装置
 		Tooltip:
 			'''
 			カーソルの位置に小さな土の橋を作る
