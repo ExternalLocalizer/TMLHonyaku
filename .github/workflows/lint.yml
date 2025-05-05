@@ -1,4 +1,4 @@
-name: CSV Lint
+name: Lint
 
 on:
   pull_request:
@@ -15,9 +15,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: CSV Lint
+      - name: Run CSV Linter
         uses: jbzoo/csv-blueprint@1.0.3
         with:
           csv: TranslatedMods.csv
           schema: .github/resources/csv-lint-rule.yml
           report: github
+
+  hjsonlint:
+    name: HJSON Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Linter
+        uses: ExternalLocalizer/TmlHjsonLinter@master
