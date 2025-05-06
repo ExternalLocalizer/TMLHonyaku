@@ -1,96 +1,3 @@
-RareDrop: "[c/<color>:レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
-SuperRareDrop: "[c/<color>:超レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
-SuperRareAnnouncement: "[c/<color>:<name>が<itemName>を見つけました！][i:<item>] [c/<color>:(確率：<chance>%)]"
-Mechanics: 通知のメカニズム
-ConfigName: 通知のカスタマイズ
-TriggerThreshold: レアドロップの通知の閾値 %
-TriggerThresholdTip: メッセージと効果音は、ドロップしたアイテムのドロップ確率がこの値以下の場合にのみ機能します
-TextColor: レアドロップの文字色
-TextColorTip: ""
-CustomSound: サウンドパスのカスタマイズ [c/FF0000:自己責任で使用すること]
-CustomSoundTip:
-	'''
-	ここに希望の効果音のパスを入力すると、レアアイテムがドロップした時に再生されます
-	Modの効果音には、ModName/FileDestination/SoundsNameを使う (DesiredModのGitHubページ、または解凍されたファイルを参照)
-	自分のMODを作成し、使いたいサウンドをインクルードします
-	バニラのサウンドはTerraria/Sounds/SoundsNameを使ってください(https://terraria.wiki.gg/wiki/Sound_IDs(スペースには_を使用)の'File'を参照)
-	このテキストボックスに書くのは難しいので、パスを書いてコピーペーストすることを強く推奨します
-	[c/FF0000:実験的機能: 間違ったパスはエラーの原因になります！ 損害が発生する可能性は低いですが、自己責任でお願いします]
-	'''
-EnableCustom: カスタム効果音を有効にする
-EnableCustomTip:
-	'''
-	これが有効でない場合、カスタム効果音のパスは有効になりません
-	そのため、パスを削除せずに切り替えることができます
-	'''
-SoundPitch: 効果音のピッチ
-SoundPitchTip: レアアイテムのドロップ効果音のベースピッチを設定します
-SoundPitchVariation: 効果音のピッチ変化
-SoundPitchVariationTip:
-	'''
-	レアアイテムのドロップ効果音を再生する際に、ピッチを上げ下げできる量を設定します
-	効果音の繰り返しを減らすことができるので、0以上にすることを推奨します
-	'''
-SoundVolume: 効果音ボリューム
-SoundVolumeTip:
-	'''
-	レアアイテムのドロップ効果音の音量を設定します
-	0に設定すると、効果音の再生を完全に停止します
-	'''
-Sound: レアドロップの効果音設定
-Experimental: 実験的設定
-
-Configs: {
-	SoundEffect: {
-		Tooltip:  レアアイテムをドロップした時に再生する効果音の選択
-		HypixelSkyblock.Label: Hypixel Skyblock Rare Drop
-		CSGO.Label: CS:GO Case Legendary Drop
-		PSO2.Label: Phantasy Star Online 2 Rare Drop
-		PokemonRBY.Label: Pokemon R/B/Y Acquiring Item
-		Item35.Label: Terraria Bell Ring
-		Item129.Label: Terraria Golf Ball Sunking In
-		Item150.Label: Terraria Mimic Projectile Reflect
-		Zombie15.Label: Terraria Mouse Squeak
-	}
-}
-
-CurrentSound: 現在の効果音
-CurrentSoundTip:
-	'''
-	レアアイテムがドロップされた時に流れる効果音
-	カスタム効果音がオンになっている場合は何もしません
-	'''
-SuperTriggerThreshold: スーパーレアドロップの通知の閾値 %
-SuperTriggerThresholdTip:
-	'''
-	この確率を下回ると、「スーパーレアドロップ」のメッセージが表示されます
-	スーパーレアドロップは、異なる色とサウンドを使用できます
-	マルチプレイでは、これらのドロップは他の全てのプレイヤーに告知されます
-	「他のプレイヤーのスーパーレアドロップを表示する」をオフにしているプレイヤーには、
-	あなたの「スーパーレアドロップ」メッセージは表示されません
-	'''
-EnableAnnouncements: 他のプレイヤーのスーパーレアドロップを表示する
-EnableAnnouncementsTip:
-	'''
-	このオプションをオンにすると、マルチプレイ中に他のプレイヤーのスーパーレアドロップを見ることができます
-	'''
-SuperCurrentSound: 現在のスーパーレアドロップ効果音
-SuperCurrentSoundTip:
-	'''
-	スーパーレアアイテムがドロップされた時に流れる効果音
-	カスタム効果音がオンになっている場合は何もしません
-	'''
-EnableSuperRare: スーパーレアドロップのメッセージを有効にする
-EnableSuperRareTip: これを無効にすると、通常のレアドロップのテキスト＆効果音のみが動作するようになります
-SuperTextColor: スーパーレアドロップの文字色
-SuperTextColorTip: ""
-EnableSuperCustom: スーパーレアドロップのカスタム効果音を有効にする
-EnableSuperCustomTip:
-	'''
-	これが有効でない場合、スーパーレアドロップのカスタム効果音のパスは有効になりません
-	そのため、パスを削除せずに切り替えることができます
-	'''
-SuperCustomSound: スーパーレアドロップのカスタム効果音のパス [c/FF0000:自己責任で使用すること]
 SuperCustomSoundTip:
 	'''
 	ここに希望の効果音のパスを入力すると、スーパーレアアイテムがドロップした時に再生されます
@@ -100,3 +7,165 @@ SuperCustomSoundTip:
 	このテキストボックスに書くのは難しいので、パスを書いてコピーペーストすることを強く推奨します
 	[c/FF0000:実験的機能: 間違ったパスはエラーの原因になります！ 損害が発生する可能性は低いですが、自己責任でお願いします]
 	'''
+
+SuperCustomSound: スーパーレアドロップのカスタム効果音のパス [c/FF0000:自己責任で使用すること]
+
+EnableSuperCustomTip:
+	'''
+	これが有効でない場合、スーパーレアドロップのカスタム効果音のパスは有効になりません
+	そのため、パスを削除せずに切り替えることができます
+	'''
+
+EnableSuperCustom: スーパーレアドロップのカスタム効果音を有効にする
+
+CustomSoundTip:
+	'''
+	ここに希望の効果音のパスを入力すると、レアアイテムがドロップした時に再生されます
+	Modの効果音には、ModName/FileDestination/SoundsNameを使う (DesiredModのGitHubページ、または解凍されたファイルを参照)
+	自分のMODを作成し、使いたいサウンドをインクルードします
+	バニラのサウンドはTerraria/Sounds/SoundsNameを使ってください(https://terraria.wiki.gg/wiki/Sound_IDs(スペースには_を使用)の'File'を参照)
+	このテキストボックスに書くのは難しいので、パスを書いてコピーペーストすることを強く推奨します
+	[c/FF0000:実験的機能: 間違ったパスはエラーの原因になります！ 損害が発生する可能性は低いですが、自己責任でお願いします]
+	'''
+
+CustomSound: サウンドパスのカスタマイズ [c/FF0000:自己責任で使用すること]
+
+EnableCustomTip:
+	'''
+	これが有効でない場合、カスタム効果音のパスは有効になりません
+	そのため、パスを削除せずに切り替えることができます
+	'''
+
+EnableCustom: カスタム効果音を有効にする
+
+Configs: {
+	SoundEffect: {
+		Zombie15: {
+			Label: Terraria ネズミの鳴き声
+		}
+
+		Item150: {
+			Label: Terraria ミミックの弾反射
+		}
+
+		Item129: {
+			Label: Terraria ゴルフボールが沈む音
+		}
+
+		Item35: {
+			Label: Terraria ベルの音
+		}
+
+		POE: {
+			Label: パス・オブ・エグザイル 神聖なドロップ
+		}
+
+		PokemonRBY: {
+			Label: ポケモン 赤/青/黄 アイテム取得
+		}
+
+		PSO2: {
+			Label: ファンタシースターオンライン2 レアドロップ
+		}
+
+		CSGO: {
+			Label: CS:GO ケース レジェンダリードロップ
+		}
+
+		HypixelSkyblock: {
+			Label: ハイピクセル スカイブロック レアドロップ
+		}
+
+		Tooltip: レアアイテムをドロップした時に再生する効果音の選択
+	}
+}
+
+SuperCurrentSoundTip:
+	'''
+	スーパーレアアイテムがドロップされた時に流れる効果音
+	カスタム効果音がオンになっている場合は何もしません
+	'''
+
+SuperCurrentSound: 現在のスーパーレアドロップ効果音
+
+CurrentSoundTip:
+	'''
+	レアアイテムがドロップされた時に流れる効果音
+	カスタム効果音がオンになっている場合は何もしません
+	'''
+
+CurrentSound: 現在の効果音
+
+SoundPitchVariationTip:
+	'''
+	レアアイテムのドロップ効果音を再生する際に、ピッチを上げ下げできる量を設定します
+	効果音の繰り返しを減らすことができるので、0以上にすることを推奨します
+	'''
+
+SoundPitchVariation: 効果音のピッチ変化
+
+SoundPitchTip: レアアイテムのドロップ効果音のベースピッチを設定します
+
+SoundPitch: 効果音のピッチ
+
+SoundVolumeTip:
+	'''
+	レアアイテムのドロップ効果音の音量を設定します
+	0に設定すると、効果音の再生を完全に停止します
+	'''
+
+SoundVolume: 効果音ボリューム
+
+EnableAnnouncementsTip: このオプションをオンにすると、マルチプレイ中に他のプレイヤーのスーパーレアドロップを見ることができます
+
+EnableAnnouncements: 他のプレイヤーのスーパーレアドロップを表示する
+
+SuperTextColorTip: ""
+
+SuperTextColor: スーパーレアドロップの文字色
+
+SuperTriggerThresholdTip:
+	'''
+	この確率を下回ると、「スーパーレアドロップ」のメッセージが表示されます
+	スーパーレアドロップは、異なる色とサウンドを使用できます
+	マルチプレイでは、これらのドロップは他の全てのプレイヤーに告知されます
+	「他のプレイヤーのスーパーレアドロップを表示する」をオフにしているプレイヤーには、
+	あなたの「スーパーレアドロップ」メッセージは表示されません
+	'''
+
+SuperTriggerThreshold: スーパーレアドロップの通知の閾値 %
+
+EnableSuperRareTip: これを無効にすると、通常のレアドロップのテキスト＆効果音のみが動作するようになります
+
+EnableSuperRare: スーパーレアドロップのメッセージを有効にする
+
+ShowResearchTip: ジャーニーモードでリサーチ済みのアイテムは、ドロップ時に通知が表示されません
+
+ShowResearch: リサーチ済みアイテムを通知無効化
+
+TextColorTip: ""
+
+TextColor: レアドロップの文字色
+
+TriggerThresholdTip: メッセージと効果音は、ドロップしたアイテムのドロップ確率がこの値以下の場合にのみ機能します
+
+TriggerThreshold: レアドロップの通知の閾値 %
+
+Experimental: 実験的設定
+
+Sound: レアドロップの効果音設定
+
+Mechanics: 通知のメカニズム
+
+BlacklistedItemsTip: これらのアイテムは、どのように入手されても、どんなにレアであっても通知を作成しません。
+
+BlacklistedItems: ブラックリストアイテム
+
+ConfigName: 通知のカスタマイズ
+
+SuperRareAnnouncement: "[c/<color>:<name>が<itemName>を見つけました！][i:<item>] [c/<color>:(確率：<chance>%)]"
+
+SuperRareDrop: "[c/<color>:超レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
+
+RareDrop: "[c/<color>:レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
+

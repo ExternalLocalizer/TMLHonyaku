@@ -1,0 +1,591 @@
+Projectiles: {
+	DefiledSpikeProj: {
+		DisplayName: 死の針
+	}
+
+	BloodOrbital: {
+		DisplayName: ブラッド・オービタル
+	}
+
+	MinionFire: {
+		DisplayName: 呪いの炎
+	}
+
+	CoreMinion: {
+		DisplayName: コア・ミニオン
+	}
+
+	TaintedWisp: {
+		DisplayName: テインテッド・ウィスプ
+	}
+
+	TaintedTrajectoryProj: {
+		DisplayName: 汚染された軌道
+	}
+
+	RingOrbitalCrim: {
+		DisplayName: 真紅・オービタル
+	}
+
+	RingOrbitalCorrupt: {
+		DisplayName: コラプト・オービタル
+	}
+
+	NightBombFriendly: {
+		DisplayName: ナイト・ボム
+	}
+
+	ShatterShard: {
+		DisplayName: 砕片
+	}
+
+	ShadeBlast: {
+		DisplayName: シャドーブラスト
+	}
+
+	CrimsonBlast: {
+		DisplayName: 真紅ブラスト
+	}
+
+	DarkGuillotine: {
+		DisplayName: ダーク・ギロチン
+	}
+
+	PunishmentCoreProj: {
+		DisplayName: 罰の核心
+	}
+
+	GoreGuanadoProj: {
+		DisplayName: 血まみれのグアナド
+	}
+
+	ShadowflameDart: {
+		DisplayName: シャドウフレイム・ダーツ
+	}
+
+	SeekerDart: {
+		DisplayName: シーカー・ダート
+	}
+
+	InfernoDart: {
+		DisplayName: インフェルノ・ダート
+	}
+
+	CorePetCrim: {
+		DisplayName: 真紅のコア
+	}
+
+	CorePet: {
+		DisplayName: 不浄のコア
+	}
+
+	CursedFire: {
+		DisplayName: 呪われた炎
+	}
+
+	NightBomb: {
+		DisplayName: ナイト・ボム
+	}
+
+	ShadowBlast: {
+		DisplayName: シャドウブラスト
+	}
+}
+
+NPCs: {
+	SpawnerOrb: {
+		DisplayName: 怪しげなオーブ
+	}
+
+	SpawnerOrbCrim: {
+		DisplayName: 怪しげなオーブ
+	}
+
+	ShadeWisp: {
+		DisplayName: シェイドウィスプ
+	}
+
+	OrbitalIICrim: {
+		DisplayName: 汚染されし軌道
+	}
+
+	OrbitalII: {
+		DisplayName: 呪われしオービタル
+	}
+
+	OrbitalICrim: {
+		DisplayName: 真紅オービタル
+	}
+
+	OrbitalI: {
+		DisplayName: コラプションオービタル
+	}
+
+	CoreBossCrim: {
+		DisplayName: 真紅のコア
+	}
+
+	CoreBoss: {
+		DisplayName: 不浄のコア
+	}
+}
+
+CommonItemTooltip: {
+	EquipPerksTipMulti:
+		'''
+		特典:
+		呪いの炎と霊液デバフに耐性
+		防御力と自然回復がわずかに増加
+		'''
+	EquipPerksTipCrim:
+		'''
+		特典:
+		呪いの霊液デバフに耐性
+		自然回復がわずかに増加
+		'''
+	EquipPerksTipCorrupt:
+		'''
+		特典:
+		呪いの炎デバフに耐性
+		防御力がわずかに上昇
+		'''
+	ChecklistSpawnCrim: 地下の真紅で怪しげなオーブを見つけて破壊するか、夜間または真紅で[i:CorruptionBoss/ChargedOrbCrim]チャージド・オーブを使用する。真紅を悪とする世界でのみ存在できる
+	ChecklistSpawnCorrupt: 地下の不浄で怪しげなオーブを探して破壊するか、夜間または不浄で[i:CorruptionBoss/ChargedOrb]チャージド・オーブを使用する。不浄が悪として存在する世界でのみ存在できる。
+	ChecklistDespawnCrim: 怒りを解き放ったコアは、跡形もなく消えさっていった
+	ChecklistDespawnCorrupt: 怒りを振るったコアは、ついに視界から消え去った
+	AvailableHintCrim: 不吉な気配が真紅の洞窟を満たしている...
+	AvailableHintCorrupt: 不浄の奥底に暗黒の存在が浸透している...
+	SummonTipCrim: 「それは夜の闇と真紅の邪悪に反応する」
+	SummonTipCorrupt: 「それは夜の闇と不浄の邪悪に反応する」
+	BestiaryEntryCrimSpawnerOrb: クトゥルフの策略が破壊された後、真紅の深部に謎めいた姿を現し始めた不吉な球体。その中にはどんな邪悪な力が封じ込められているのだろうか？
+	BestiaryEntryCrimOrbitalII: 核心の真紅軌道の不規則な変異体。この球体の揮発性で腐食性の特性は、創造者の無謀さによって引き起こされた。皮肉なことに、これらの変化により、汚れた軌道は他の軌道よりも弱くなっている。
+	BestiaryEntryCrimOrbitalI: 暗黒の精霊によって支配された真紅エネルギーの凶悪な球体。これを生み出した核心の力を持ち、創造主を防御および攻撃の両方で守る。
+	BestiaryEntryCrimCore: 「真紅への過度の曝露により、核心の力と色合いに変化が生じました。汚染されているにもかかわらず、核心は同様に汚れた下位の球体が存在する場合、攻撃に対して無敵になります。
+	BestiaryEntryCorruptSpawnerOrb: このシャドウオーブは、上部の腐敗の裂け目から不可解にも迷い出てきており、特に不吉な輝きを放っています。それは自らの破壊を求めているように見えますが、その結果がどれほど恐ろしいものになるかは誰にもわかりません。
+	BestiaryEntryCorruptOrbitalII: 核心の通常の軌道の揮発性変異体。この球体の不安定で呪われた特性は、創造主の絶望の結果のように見えます。皮肉なことに、これにより呪われた軌道は通常の軌道よりも脆弱になります。
+	BestiaryEntryCorruptOrbitalI: 古代の暗黒の魂に取り憑かれた暴力的なシャドウオーブ。これを生み出した核心の力を利用して、創造主を防御および攻撃の両方で守ります。
+	BestiaryEntryCorruptCore: 暗黒の原初の力が、過負荷となった生きたシャドウオーブの邪悪な渦となって具現化しました。下位のオーブに囲まれている限り、核心はほぼ触れることができません。
+}
+
+Items: {
+	DefiledSpike: {
+		Tooltip:
+			'''
+			持続するスパイクを設置する
+			武器をチャージすることで、スパイクがより強力になる
+			攻撃時に追加ダメージを与える
+			'''
+		DisplayName: 汚れた針
+	}
+
+	Bloodlust: {
+		Tooltip:
+			'''
+			敵のライフを奪うオーラを放つ血のオーブを召喚する
+			オーラが敵から奪ったライフに応じてプレイヤーの自然回復量を増加させる
+			武器と連結してオーブを強化できる
+			「あなたが真実であると確信できることはただ一つ」
+			'''
+		DisplayName: ブラッドラスト
+	}
+
+	OrbitalStaff: {
+		Tooltip:
+			'''
+			共に戦う小さな不浄のコアを召喚する
+			召喚を重ねるとコアにオービタルが付与されていく
+			「この杖は Team Corruption のスポンサーです」
+			'''
+		DisplayName: オービタルスタッフ
+	}
+
+	TaintedTrajectory: {
+		Tooltip:
+			'''
+			ミニオンのクリティカル率が6%になる
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃時に先頭の球体から敵を追尾する球を放つ
+			'''
+		DisplayName: 汚染されし軌道
+	}
+
+	BloodyRing: {
+		Tooltip:
+			'''
+			共に戦う真紅オービタルを3体召喚する
+			オービタルは敵や敵の発射物に接触し、ダメージを受けることができる
+			一定のダメージを受けると、オービタルは一時的に破壊される
+			オービタルに当たった弾丸のダメージが減少する
+			「これは飾りではない」
+			'''
+		DisplayName: ブラッディリング
+	}
+
+	ShadowRing: {
+		Tooltip:
+			'''
+			あなたを守るコラプションオービタルを3体召喚する
+			オービタルは敵や敵の発射物に接触し、ダメージを受けることができる
+			一定のダメージを受けると、オービタルは一時的に破壊される
+			オービタルに当たった弾丸のダメージが減少する
+			「その霊的な形状は、小柄なデザインにもかかわらず、大きな力を秘めている。」
+			'''
+		DisplayName: シャドウリング
+	}
+
+	SiphonStone: {
+		Tooltip:
+			'''
+			魔法のクリティカル率を5%増加
+			最大マナを40増加
+			マナ自然回復の遅延を大幅に減少
+			クリティカル時に50%の確率でマナを消費して追加ダメージを与える
+			マナの消費量はマナの減少効果や武器の攻撃速度、クリティカル率によって変化する
+			'''
+		DisplayName: サイフォンストーン
+	}
+
+	ShatterspikeBracer: {
+		Tooltip:
+			'''
+			ノックバックに対する耐性を得る
+			ダメージを受けた際、複数の爆発する破片を放つ
+			敵から狙われやすくなる
+			「最善の防御は、優れた攻撃と優れた防御である。」
+			'''
+		DisplayName: シャタースパイクブレーサー
+	}
+
+	ShatteredShell: {
+		Tooltip:
+			'''
+			ノックバックに対する耐性を得る
+			ダメージを受けた際、複数の爆発する破片を放つ
+			「敵を止めることはできませんが、攻撃してきたことを後悔させるでしょう」
+			'''
+		DisplayName: 砕けた殻
+	}
+
+	CrystallineUmbra: {
+		Tooltip:
+			'''
+			クリティカル率10%増加
+			マナ自然回復の遅延が減少する
+			敵に狙われにくくなる
+			クリティカル時に50%の確率でマナを消費し、追加ダメージを与える
+			マナの使用量はマナの減少効果や武器の攻撃速度、クリティカル率によって変化する
+			「敵は決して気づかないだろう」
+			'''
+		DisplayName: クリスタル・アンブラ
+	}
+
+	Heartbreak: {
+		Tooltip:
+			'''
+			ノックバック耐性を付与
+			ダメージを受けた際、複数の爆発する破片を放つ
+			ダメージを受けた後、移動速度が上昇する
+			「悲しむな、仕返しするんだ」
+			'''
+		DisplayName: ハートブレイク
+	}
+
+	ShadeSplinter: {
+		Tooltip:
+			'''
+			クリティカル率を5%増加
+			マナ自然回復の遅延が減少する
+			クリティカル時に50%の確率でマナを消費し、追加ダメージを与える
+			マナの消費量はマナの減少効果や武器の攻撃速度、クリティカル率によって変化する
+			'''
+		DisplayName: シェイド・スプリンター
+	}
+
+	PunishmentCore: {
+		Tooltip: ヒット時にダークギロチンを放つ
+		DisplayName: 罰の核心
+	}
+
+	GoreGuanado: {
+		Tooltip: 非常に素早い攻撃を繰り出す
+		DisplayName: 血まみれのグアナド
+	}
+
+	CrimIron: {
+		Tooltip:
+			'''
+			クリティカルが命を奪う
+			「素早いレンジャーが無法者を撃った。終わり」
+			'''
+		DisplayName: クリムアイアン
+	}
+
+	CursedCarbine: {
+		Tooltip:
+			'''
+			特定のダーツがパワーアップしたものに変化します
+			「マスケット3.0？」
+			'''
+		DisplayName: カーズド・カーバイン
+	}
+
+	MultiPetItem: {
+		Tooltip:
+			'''
+			小さな不浄のコアと小さな真紅のコアの両方を召喚
+			「両方の良いとこ取り？」
+			'''
+		DisplayName: 闇の均衡
+	}
+
+	CorePetItemCrim: {
+		Tooltip:
+			'''
+			光を放つ小さな真紅のコアを召喚する
+			「不浄のコアを楽しんでいないなんて想像してみて…」
+			'''
+		DisplayName: 真紅のコア
+	}
+
+	CorePetItem: {
+		Tooltip:
+			'''
+			光を放つ小さな不浄のコアを召喚する
+			「でも、あなたのために戦ってくれる人はもういるんじゃないの？」
+			'''
+		DisplayName: 不浄のコア
+	}
+
+	CoreTrophyItemCrim: {
+		Tooltip: ""
+		DisplayName: 真紅のコアのトロフィー
+	}
+
+	CoreTrophyItem: {
+		Tooltip: ""
+		DisplayName: 不浄のコアのトロフィー
+	}
+
+	CoreRelicItem: {
+		Tooltip: ""
+		DisplayName: コアのレリック
+	}
+
+	CoreBossBagCrim: {
+		Tooltip: ""
+		DisplayName: トレジャーバッグ(真紅のコア)
+	}
+
+	CoreBossBag: {
+		Tooltip: ""
+		DisplayName: トレジャーバッグ(不浄のコア)
+	}
+
+	CoreMask: {
+		Tooltip: ""
+		DisplayName: 不浄のコアのマスク
+	}
+
+	CoreMaskCrim: {
+		Tooltip: ""
+		DisplayName: 真紅のコアのマスク
+	}
+
+	ShadowShard: {
+		Tooltip:
+			'''
+			強力な魂の触媒でつなぎ合わせることができる
+			「それは不気味な力で下劣に輝いている...」
+			'''
+		DisplayName: 影の破片
+	}
+
+	CrimsonShard: {
+		Tooltip:
+			'''
+			強力な魂の触媒でつなぎ合わせることができる
+			「それは輝く血肉のように見える... 気持ち悪い...」
+			'''
+		DisplayName: 真紅の破片
+	}
+
+	ChargedOrb: {
+		Tooltip:
+			'''
+			不浄のコアを召喚する
+			「この世界では何の効果もない」
+			'''
+		DisplayName: チャージド・オーブ
+	}
+
+	ChargedOrbCrim: {
+		Tooltip:
+			'''
+			真紅のコアを召喚する
+			「この世界では何の効果もない」
+			'''
+		DisplayName: チャージド・オーブ
+	}
+}
+
+Buffs: {
+	BloodlustBuff: {
+		Description: 自然回復を増進
+		DisplayName: 血液ブースト
+	}
+
+	CoreMinionBuff: {
+		Description: 最弱の腐敗を楽しむ者
+		DisplayName: コア・ミニオン
+	}
+
+	TaintedTrajectoryTag: {
+		Description: 敵はミニオンによってクリティカルを受ける可能性がある
+		DisplayName: 汚染された軌道タグ
+	}
+
+	CorePetsBuff: {
+		Description: 大きなオーブ1個よりはきっといい！
+		DisplayName: 邪悪なコア
+	}
+
+	CorePetBuffCrim: {
+		Description: 最強の真紅ファン？
+		DisplayName: 真紅のコア
+	}
+
+	CorePetBuff: {
+		Description: リングがないからこそ、ミニオンでないことがわかる
+		DisplayName: 不浄のコア
+	}
+}
+
+Configs: {
+	Config: {
+		summonWepDmgMultiplier: {
+			Tooltip:
+				'''
+				オービタルスタッフと汚染されし軌道のダメージ量を増加させます
+				他の武器には効果がありません
+				汚染されし軌道のクリティカル率は変化しません
+				この倍率を変更した際、ダメージを更新するためにオービタルスタッフのミニオンを召喚し直す必要があります
+				'''
+			Label: 召喚武器のダメージ倍率
+		}
+
+		magicWepDmgMultiplier: {
+			Tooltip:
+				'''
+				汚れた針とブラッドラスト武器のダメージ量を増加させます
+				他の武器には効果がありません
+				ブラッドラストのライフ回復効果は変化しません
+				武器の強さのバランスを調整するのに適しています（特に、バフをかけることでボスをゲーム後半に移動させた場合）
+				'''
+			Label: 魔法武器のダメージ倍率
+		}
+
+		meleeWepDmgMultiplier: {
+			Tooltip:
+				'''
+				罰の核心と血まみれのグアナド武器のダメージ量を増加させます
+				他の武器には効果がありません
+				武器の強さのバランスを調整するのに適しています（特に、バフをかけることでボスをゲーム後半に移動させた場合）
+				'''
+			Label: 近接武器のダメージ倍率
+		}
+
+		rangedWepDmgMultiplier: {
+			Tooltip:
+				'''
+				カーズド・カーバインとクリムアイアン武器のダメージ量を増加させます
+				他の武器には効果がありません。
+				クリムアイアンのライフスティールはダメージに比例しない。
+				武器の強さのバランスを調整するのに適しています（特に、バフをかけることでボスをゲーム後半に移動させた場合）
+				'''
+			Label: 射撃武器ダメージの倍率
+		}
+
+		bossSpeedMultiplier: {
+			Tooltip:
+				'''
+				不浄のコアと真紅のコアの移動速度を増加させます
+				また、コアの慣性を調整し、コアの回転の速さを決定します
+				コアの強さを調整するのに適しています
+				'''
+			Label: コアの速度倍率
+		}
+
+		attackVelocityMultiplier: {
+			Tooltip:
+				'''
+				不浄のコアと真紅のコアが発射する弾丸の速度を増加させます
+				オービタルの攻撃の速度とシェイドウィスプのミニオンの速度にも影響します
+				さらにシェイドウィスプとナイトボムの回転速度も調整します
+				コアの強さを調整するのに適しています
+				'''
+			Label: コアの弾丸速度倍率
+		}
+
+		bossDamageMultiplier: {
+			Tooltip:
+				'''
+				不浄のコアと真紅のコアのダメージを増加させる
+				コアのオービタルとシェイドウィスプのミニオン、および関連するすべての発射物にも影響する
+				コアの強さを調整するのに適しています
+				'''
+			Label: コアのダメージ倍率
+		}
+
+		bossDefenseMultiplier: {
+			Tooltip:
+				'''
+				真紅のコアと不浄のコアの防御力を増加させる
+				コアのオービタルとシェイドウィスプのミニオンにも影響する
+				コアの強さを調整するのに適しています
+				'''
+			Label: コアの防御力倍率
+		}
+
+		wispHealthMultiplier: {
+			Tooltip:
+				'''
+				コアのシェイドィプスの体力を増加させます
+				コアの強さを調整するのに適しています
+				'''
+			Label: ウィスプの体力倍率
+		}
+
+		bossHealthMultiplier: {
+			Tooltip:
+				'''
+				不浄のコアと真紅のコアの体力を増加させる
+				コアのオービタルにも影響するが、シェイドウィプスのミニオンには影響しない
+				コアの強さを調整するのに適しています
+				'''
+			Label: コアの体力倍率
+		}
+
+		Headers: {
+			HeaderBoss: ボス　スケール
+			HeaderWeapons: 武器　スケール
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Emotes: {
+	CoreEmoteCrim: {
+		Command: クリムコア
+	}
+
+	CoreEmote: {
+		Command: コラプコア
+	}
+}
+
+
+
+
+
+

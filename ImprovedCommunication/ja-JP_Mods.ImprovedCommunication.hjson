@@ -1,0 +1,128 @@
+Configs: {
+	ICConfig: {
+		ShowPlayersCursorsNames: {
+			Tooltip: ""
+			Label: 名前を表示
+		}
+
+		ShowPlayersCursors: {
+			Tooltip: ""
+			Label: プレイヤーカーソルを表示
+		}
+
+		DisplayName: 設定
+
+		ShowPlayersCursorsNamesColored: {
+			Label: 色付きの名前を表示
+			Tooltip: ""
+		}
+
+		ShowPlayersCursorsFriendlyOnly: {
+			Label: フレンドのみを表示
+			Tooltip: ""
+		}
+
+		ShowPlayersCursorsScale: {
+			Label: サイズを表示
+			Tooltip: ""
+		}
+
+		ShowPlayersCursorsNamesScale: {
+			Label: 名前のサイズを表示
+			Tooltip: ""
+		}
+
+		Headers: {
+			PlayersCursors: プレイヤーカーソル
+			MapNMarkers: マップとマーカー
+		}
+
+		ShowPlayersCursorsStyle: {
+			Label: スタイルを表示
+			Tooltip: ""
+		}
+
+		ShowInworldMarkers: {
+			Label: ワールド内マーカーを表示
+			Tooltip: ""
+		}
+
+		ShowInworldMarkersNames: {
+			Label: ワールド内マーカーの名前を表示
+			Tooltip: ""
+		}
+
+		ShowInworldTextMarkers: {
+			Label: ワールド内テキストマーカーを表示
+			Tooltip: ""
+		}
+
+		CorrectMinimapMarkersScale: {
+			Label: ミニマップマーカーのサイズ調整
+			Tooltip: ""
+		}
+
+		CorrectMapMarkersScale: {
+			Label: マップマーカーのサイズ調整
+			Tooltip: ""
+		}
+
+		ScaleCorrectedOnMap: {
+			Label: マップ上でのサイズ調整
+			Tooltip: ""
+		}
+
+		ScaleCorrectedOnMinimap: {
+			Label: ミニマップ上でのサイズ調整
+			Tooltip: ""
+		}
+
+		ScaleCorrectedOnFullMap: {
+			Label: フルマップ上でのサイズ調整
+			Tooltip: ""
+		}
+	}
+
+	CursorsStyle: {
+		Tooltip: ""
+
+		Classic: {
+			Label: クラシック
+		}
+
+		Crosshair: {
+			Label: クロスヘア
+		}
+
+		Target: {
+			Label: ターゲット
+		}
+	}
+}
+
+FullscreenOldPingsText: コントロールキーを押しながらダブルクリックで一時的なマーカーを作成
+
+Apply: 適用
+
+Delete: 削除
+
+ApplyInfo: 編集を停止
+
+DeleteInfo: マーカーを削除
+
+Pulse: 脈動
+
+ON: オン
+
+OFF: オフ
+
+WriteName: マーカー名を記載
+
+EditingText:
+	'''
+	ダブルクリックで移動
+	右クリックで適用
+	'''
+
+EditText: ダブルクリックで編集
+

@@ -1,0 +1,332 @@
+Buffs: {
+    TeslaWhipDebuff: {
+        DisplayName: テスラ鞭デバフ
+        Description: Mods.MoreWhipClassic.Buffs.TeslaWhipDebuff.Description
+    }
+
+	BlackFlagBuff: {
+		DisplayName: 海賊の怒り
+		Description: 敵を攻撃し鞭の攻撃速度を上昇
+	}
+
+	BlackFlagDebuff: {
+		DisplayName: 黒旗デバフ
+		Description: Mods.MoreWhipClassic.Buffs.BlackFlagDebuff.Description
+	}
+
+	BiterDebuff: {
+		Description: Mods.MoreWhipClassic.Buffs.BiterDebuff.Description
+		DisplayName: バイターデバフ
+	}
+
+	GossamerDebuff: {
+		DisplayName: ゴッサマーデバフ
+		Description: Mods.MoreWhipClassic.Buffs.GossamerDebuff.Description
+	}
+
+	ChristmasTreeWhipDebuff: {
+		DisplayName: クリスマスツリー鞭デバフ
+		Description: Mods.MoreWhipClassic.Buffs.ChristmasTreeWhipDebuff.Description
+	}
+
+	SandShineDebuff: {
+		DisplayName: 砂の輝きデバフ
+		Description: Mods.MoreWhipClassic.Buffs.SandShineDebuff.Description
+	}
+
+	StardustWhipDebuff: {
+		DisplayName: スターダスト鞭デバフ
+		Description: Mods.MoreWhipClassic.Buffs.StardustWhipDebuff.Description
+	}
+
+	ChlorophyteWhipDebuff: {
+		DisplayName: クロロファイト鞭デバフ
+		Description: Mods.MoreWhipClassic.Buffs.ChlorophyteWhipDebuff.Description
+	}
+
+	CrystalLightDebuff: {
+		DisplayName: クリスタルライトデバフ
+		Description: Mods.MoreWhipClassic.Buffs.CrystalLightDebuff.Description
+	}
+
+	DarkWhipDebuff: {
+		DisplayName: ダーク鞭デバフ
+		Description: Mods.MoreWhipClassic.Buffs.DarkWhipDebuff.Description
+	}
+
+	ShadowWhipDebuff: {
+		DisplayName: シャドウ鞭デバフ
+		Description: Mods.MoreWhipClassic.Buffs.ShadowWhipDebuff.Description
+	}
+
+	MyceliumLightDebuff: {
+		DisplayName: 菌糸光デバフ
+		Description: Mods.MoreWhipClassic.Buffs.MyceliumLightDebuff.Description
+	}
+
+	TendonDebuff: {
+		DisplayName: 腱デバフ
+		Description: Mods.MoreWhipClassic.Buffs.TendonDebuff.Description
+	}
+
+	ChlorophyteWhipBuff: {
+		DisplayName: ジャングルの怒り
+		Description: 敵を攻撃し鞭の攻撃速度を上昇
+	}
+
+	SandShineBuff: {
+		DisplayName: 砂の祝福
+		Description: 敵を攻撃し鞭の攻撃速度を上昇
+	}
+
+	WhipRopeDebuff: {
+		DisplayName: 鞭ロープデバフ
+		Description: Mods.MoreWhipClassic.Buffs.WhipRopeDebuff.Description
+	}
+}
+
+Items: {
+    ChainBlade: {
+        Tooltip: ""
+        DisplayName: チェーンブレード
+    }
+
+	TeslaWhip: {
+		DisplayName: テスラウィップ
+		Tooltip:
+			'''
+			召喚タグダメージ 14
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	BlackFlag: {
+		DisplayName: 黒旗
+		Tooltip:
+			'''
+			召喚タグダメージ 6
+			攻撃を当てた敵にミニオンが集中攻撃する
+			倒した敵はまれに追加でコインをドロップ
+			'''
+	}
+
+	JumpRope: {
+		DisplayName: ジャンプロープ
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	Biter: {
+		DisplayName: バイター
+		Tooltip:
+			'''
+			召喚タグダメージ 7
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	ChlorophyteWhip: {
+		DisplayName: クロロファイトの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 10
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃した際に鞭の攻撃速度を上昇させる
+			'''
+	}
+
+	ChristmasTreeWhip: {
+		DisplayName: クリスマスツリーの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 13
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	CrystalLight: {
+		DisplayName: クリスタルライト
+		Tooltip:
+			'''
+			召喚タグダメージ 8
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	DarkWhip: {
+		DisplayName: 暗鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 8
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	Gossamer: {
+		DisplayName: ゴッサマー
+		Tooltip:
+			'''
+			召喚タグダメージ 7
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	MyceliumLight: {
+		DisplayName: 菌糸光
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	SandShine: {
+		DisplayName: 砂の輝き
+		Tooltip:
+			'''
+			召喚タグダメージ 12
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃した際に鞭の攻撃速度を上昇させる
+			'''
+	}
+
+	ShadowWhip: {
+		DisplayName: シャドウウィップ
+		Tooltip:
+			'''
+			召喚タグダメージ 7
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	StardustWhip: {
+		DisplayName: スターダストの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 22
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	Tendon: {
+		DisplayName: 腱
+		Tooltip:
+			'''
+			召喚タグダメージ 7
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	WhipRope: {
+		DisplayName: ロープの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 2
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+}
+
+Projectiles: {
+	ChainBladeProjectile: {
+		DisplayName: Chain Blade Projectile
+	}
+
+	MoonLightProjectile: {
+		DisplayName: Moon Light Projectile
+	}
+
+	TeslaWhipProjectile: {
+		DisplayName: Tesla Whip Projectile
+	}
+
+	BlackFlagProjectile: {
+		DisplayName: Black Flag Projectile
+	}
+
+	JumpRopeProjectile: {
+		DisplayName: Jump Rope Projectile
+	}
+
+	BiterProjectile: {
+		DisplayName: Biter Projectile
+	}
+
+	ChlorophyteWhipProjectile: {
+		DisplayName: Chlorophyte Whip Projectile
+	}
+
+	ChristmasTreeWhipProjectile: {
+		DisplayName: Christmas Tree Whip Projectile
+	}
+
+	CrystalLightProjectile: {
+		DisplayName: Crystal Light Projectile
+	}
+
+	DarkWhipProjectile: {
+		DisplayName: Dark Whip Projectile
+	}
+
+	GossamerProjectile: {
+		DisplayName: Gossamer Projectile
+	}
+
+	MyceliumLightProjectile: {
+		DisplayName: Mycelium Light Projectile
+	}
+
+	SandShineProjectile: {
+		DisplayName: Sand Shine Projectile
+	}
+
+	ShadowWhipProjectile: {
+		DisplayName: Shadow Whip Projectile
+	}
+
+	StardustWhipProjectile: {
+		DisplayName: Stardust Whip Projectile
+	}
+
+	TendonProjectile: {
+		DisplayName: Tendon Projectile
+	}
+
+	WhipRopeProjectile: {
+		DisplayName: Whip Rope Projectile
+	}
+}
+
+Configs: {
+	MoreWhipClassicConfig: {
+		DisplayName: More Whip 設定
+
+		Headers: {
+			Config: 設定ヘッダー
+		}
+
+		WhipDamageModifier: {
+			Label: 鞭ダメージ量変更
+			Tooltip: このMODのすべての鞭のダメージを指定した数値で調整します。MODを強化または弱体化するために使用してください
+		}
+
+		AddArmorStats: {
+			Label: カラミティ装備に鞭ステータスを追加
+			Tooltip: オンにすると、一部のカラミティ装備に追加の鞭ステータスを付与し、鞭をより実用的にします
+		}
+
+		AllowTagStacking: {
+			Label: タグデバフの重ねがけを有効化
+			Tooltip: このMODの鞭がタグ効果を重ねがけできるようにします。これをオフにした場合、新しいタグ効果を適用すると以前のすべてのタグ効果が削除されます
+		}
+
+		CatalystDisclaimer: {
+			Label: Catalyst 免責事項
+			Tooltip: これを無効にすると、Catalyst MODの免責事項が削除されます
+		}
+	}
+}
+

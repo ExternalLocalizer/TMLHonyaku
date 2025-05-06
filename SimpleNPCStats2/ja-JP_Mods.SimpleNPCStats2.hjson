@@ -1,0 +1,342 @@
+BrowserSearchDefault: 入力して検索...
+BrowserSearchHover: NPCの名前またはそのMODを検索
+BrowserButtons: "クリックしてすべてのフィルタされたNPC{0}"
+BrowserButtonsToggle: 切り替え
+BrowserButtonsDisable: 無効化
+BrowserButtonsEnable: 有効化
+BrowserButtonsToggleFilter:
+    '''
+    クリックしてフィルターモードを切り替え
+    現在{0}のNPCを表示中
+    '''
+BrowserButtonsToggleFilter_None: すべて
+BrowserButtonsToggleFilter_Active: すべて有効
+BrowserButtonsToggleFilter_Inactive: すべて無効
+BrowserButtonsToggleFilter_Hostile: 敵対NPC
+BrowserButtonsToggleFilter_Friendly: 友好的NPC
+BrowserButtonsToggleFilter_Boss: ボス
+BrowserNameDefault: 名前を設定...
+BrowserNameHover: このNPCグループの名前を設定
+BrowserBack: 戻る
+GroupsMain: NPCを管理
+GroupsNew: 新規
+GroupsCreateNew: 新しいNPCグループを作成
+GroupsGroupDefault: NPCグループ #{0}
+GroupsEdit: このNPCグループを編集
+GroupsDelete: このNPCグループを削除
+GroupsDuplicate: このNPCグループを複製
+
+GroupsMoveUp:
+    '''
+    このNPCグループを上に移動
+    グループの優先順位を上げます
+    '''
+GroupsMoveDown:
+    '''
+    このNPCグループを下に移動
+    グループの優先順位を下げます
+    '''
+GroupsTutorial:
+    '''
+    Simple NPC Customizerへようこそ!!!
+	このMODは、任意のNPCのステータスを簡単にカスタマイズすることができます。
+
+	右側の「新規」ボタンをクリックして新しいNPCグループを作成できます。そこから
+	希望するNPCを選択し、それらのNPCに影響を与える望ましいモディファイアを選択できます
+	NPCモディファイアは新しくスポーンしたNPCにのみ影響します
+	NPCが複数のグループに含まれている場合、最上位のグループのステータスが適用されます
+
+	[c/FF0000:このMODはグリッチやクラッシュを完全に防ぐものではありません。他のMODとの潜在的な競合や]
+	[c/FF0000:一般的なバグにより問題が発生する可能性があります。このMODは正しく機能するよう最善を尽くしていますが、]
+	[c/FF0000:制御できない問題が発生する可能性があります。]
+	'''
+
+StatBase: 基本 (+)
+StatMult: 乗算 (*)
+StatFlat: 固定 (+)
+StatOverride: 上書き (=)
+StatRegenPercent: 最大ライフ (+%)
+StatReset: 値をデフォルトにリセット
+StatResetAll: すべての値をデフォルトにリセット
+StatHealth: "[i:29] ライフ [i:29]"
+StatDamage: "[i:3507] ダメージ [i:3507]"
+StatDefense: "[i:156] 防御 [i:156]"
+StatSize: "[i:5] サイズ [i:5]"
+StatMovement: "[i:54] 移動速度 [i:54]"
+StatAISpeed: "[i:1344] AI速度 [i:1344]"
+StatGravity: "[i:1131] 重力 [i:1131]"
+StatRegen: "[i:49] ライフ自然回復 [i:49]"
+StatKnockback: "[i:3258] ノックバック耐性 [i:3258]"
+StatSpawnRate: "[i:300] スポーン確率 [i:300]"
+StatTitle: ステータス変更
+
+StatTutorial:
+	'''
+	フィルター内でスポーンするNPCに変更を適用します
+
+	ステータス変更の計算式は以下の通りです：
+	結果 = (基本 + 値) * 乗算 + 固定 または 上書きが0でない場合は = 上書き
+
+	このMODは他のMODによるステータス変更を上書きしようとしますが、グリッチやクラッシュなどの競合が発生する可能性があります。ご注意ください！
+	'''
+
+Configs: {
+	ConfigSystem: {
+		DisplayName: 設定
+
+		data: {
+			Label: データ
+			Tooltip: ""
+		}
+	}
+
+		ConfigData: {
+		Tooltip: ""
+
+		NPCGroups: {
+			Label: NPCグループ
+			Tooltip: ""
+		}
+	}
+
+	NPCGroup: {
+		Tooltip: ""
+
+		stats: {
+			Label: ステータス
+			Tooltip: ""
+		}
+
+		name: {
+			Label: 名前
+			Tooltip: ""
+		}
+
+		NPCs: {
+			Label: NPC
+			Tooltip: ""
+		}
+
+		ModNPCs: {
+			Label: MOD NPC
+			Tooltip: ""
+		}
+	}
+
+	StatSet: {
+		Tooltip: ""
+
+		life: {
+			Label: ライフ
+			Tooltip: ""
+		}
+
+		damage: {
+			Label: ダメージ
+			Tooltip: ""
+		}
+
+		defense: {
+			Label: 防御
+			Tooltip: ""
+		}
+
+		scale: {
+			Label: サイズ
+			Tooltip: ""
+		}
+
+		movement: {
+			Label: 移動
+			Tooltip: ""
+		}
+
+		aiSpeed: {
+			Label: AI速度
+			Tooltip: ""
+		}
+
+		gravity: {
+			Label: 重力
+			Tooltip: ""
+		}
+
+		regen: {
+			Label: 自然回復
+			Tooltip: ""
+		}
+
+		knockback: {
+			Label: ノックバック
+			Tooltip: ""
+		}
+
+		regenLifeMaxPercent: {
+			Label: 最大ライフ自然回復割合
+			Tooltip: ""
+		}
+
+		spawnRateMultiplier: {
+			Label: スポーン率乗算
+			Tooltip: ""
+		}
+
+		lifeBase: {
+			Label: ライフ基本
+			Tooltip: ""
+		}
+
+		lifeMultiplier: {
+			Label: ライフ乗算
+			Tooltip: ""
+		}
+
+		lifeFlat: {
+			Label: ライフ固定
+			Tooltip: ""
+		}
+
+		lifeOverride: {
+			Label: ライフ上書き
+			Tooltip: ""
+		}
+
+		damageBase: {
+			Label: ダメージ基本
+			Tooltip: ""
+		}
+
+		damageMultiplier: {
+			Label: ダメージ乗算
+			Tooltip: ""
+		}
+
+		damageFlat: {
+			Label: ダメージ固定
+			Tooltip: ""
+		}
+
+		damageOverride: {
+			Label: ダメージ上書き
+			Tooltip: ""
+		}
+
+		defenseBase: {
+			Label: 防御基本
+			Tooltip: ""
+		}
+
+		defenseMultiplier: {
+			Label: 防御乗算
+			Tooltip: ""
+		}
+
+		defenseFlat: {
+			Label: 防御固定
+			Tooltip: ""
+		}
+
+		defenseOverride: {
+			Label: 防御上書き
+			Tooltip: ""
+		}
+
+		scaleMultiplier: {
+			Label: サイズ乗算
+			Tooltip: ""
+		}
+
+		movementMultiplier: {
+			Label: 移動乗算
+			Tooltip: ""
+		}
+
+		aiSpeedMultiplier: {
+			Label: AI速度乗算
+			Tooltip: ""
+		}
+
+		gravityMultiplier: {
+			Label: 重力乗算
+			Tooltip: ""
+		}
+
+		regenBase: {
+			Label: 自然回復基本
+			Tooltip: ""
+		}
+
+		regenMultiplier: {
+			Label: 自然回復乗算
+			Tooltip: ""
+		}
+
+		regenFlat: {
+			Label: 自然回復固定
+			Tooltip: ""
+		}
+
+		regenOverride: {
+			Label: 自然回復上書き
+			Tooltip: ""
+		}
+
+		knockbackBase: {
+			Label: ノックバック基本
+			Tooltip: ""
+		}
+
+		knockbackMultiplier: {
+			Label: ノックバック乗算
+			Tooltip: ""
+		}
+
+		knockbackFlat: {
+			Label: ノックバック固定
+			Tooltip: ""
+		}
+
+		knockbackOverride: {
+			Label: ノックバック上書き
+			Tooltip: ""
+		}
+	}
+
+	ConfigSystemAdvanced: {
+		DisplayName: 高度な設定
+
+		overrideModifyAI: {
+			Label: バニラAIの上書き/変更
+			Tooltip:
+				'''
+				このMODは、サイズなどの特定のモディファイアとの互換性のために、一部のバニラAIを上書きおよび変更します。
+				必要になる可能性は低いですが、MODの競合が発生した場合に備えて用意されています。その場合、これをオフにしてください。
+				'''
+		}
+
+		Headers: {
+			ProjectileHeader: プロジェクタイル設定
+			MiscHeader: その他の設定
+		}
+
+		projectileRelativeDamage: {
+			Label: 相対ダメージ
+			Tooltip: プロジェクタイルのダメージが、発射元のダメージ差に比例するよう調整します
+		}
+
+		projectileRelativeScale: {
+			Label: 相対サイズ
+			Tooltip: プロジェクタイルのサイズが、発射元のサイズ差に比例するよう調整します
+		}
+
+		projectileUseMovementSpeed: {
+			Label: 移動速度の使用
+			Tooltip: プロジェクタイルが、発射元の移動速度を自身に適用します
+		}
+
+		projectileUseAISpeed: {
+			Label: AI速度の使用
+			Tooltip: プロジェクタイルが、発射元のAI速度を自身に適用します
+		}
+	}
+}

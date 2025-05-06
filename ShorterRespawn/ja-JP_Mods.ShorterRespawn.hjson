@@ -1,26 +1,28 @@
-DisableInstantRespawn: 高速リスポーンを無効化する
+DisableInstantRespawn: 高速リスポーンを無効化
 
-EnableInstantRespawn: 高速リスポーンを有効化する
+EnableInstantRespawn: 高速リスポーンを有効化
 
 Configs: {
 	ShorterRespawnConfig: {
-		DisplayName: リスポーン短縮に関するコンフィグ
-		YouLackTheXPermission: あなたには"{0}"の権限が足りない.
+		DisplayName: Shorter Respawn 設定
+		YouLackTheXPermission: あなたには"{0}"の権限が足りない
 
 		Headers: {
 			Presets: プリセット
-			ConfigurableRespawnScales: リスポーンの長さを設定できるようにする
+			ConfigurableRespawnScales: リスポーンタイムの設定
 			ResultingRespawnTimes: 現在のリスポーンまでの時間
+			ExactSecondsAlternative: 精確な秒数による代替設定
+			Tweaks: 細かな変更
 		}
 
 		ShorterRespawnPreset: {
-			Label: "[i:889] 延長を無効化したリスポーン時間のプリセット"
-			Tooltip: このプリセットは エキスパートモード中のリスポーン時間延長を無効化しつつ、デフォルトのリスポーンまでの時間を維持する。
+			Label: "[i:889] リスポーン延長無効化プリセット"
+			Tooltip: エキスパート中のリスポーン時間延長を無効化しつつ、デフォルトのリスポーン時間は維持します
 		}
 
 		TerrariaDefaultsPreset: {
-			Label: "[i:3099]　テラリアのデフォルト時間のプリセット"
-			Tooltip: このプリセットはテラリアのデフォルトの時間をそのまま使用します。
+			Label: "[i:3099]　デフォルトリスポーン時間プリセット"
+			Tooltip: テラリアのデフォルトリスポーン時間のままにします
 		}
 
 		GlobalRespawnScale: {
@@ -29,16 +31,16 @@ Configs: {
 		}
 
 		ExpertPenaltyScale: {
-			Label: "[i:3233] エキスパートモードのリスポーン時間延長倍率設定"
-			Tooltip: エキスパートモード中のリスポーン時間を延長する倍率。 デフォルトは１．５倍
+			Label: "[i:3233] エキスパートのリスポーン時間延長倍率設定"
+			Tooltip: エキスパートのリスポーン時間延長の倍率を調整します。 デフォルトは1.5倍
 		}
 
 		BossPenaltyScale: {
 			Label: "[i:43] ボス戦中のリスポーン時間延長倍率設定"
-			Tooltip: ボス戦中のリスポーン時間を延長する倍率。 デフォルトは２倍
+			Tooltip: ボス戦中のリスポーン時間延長の倍率を調整します。 デフォルトは2倍
 		}
 
-		DefaultRespawnTimeTooltip: テラリアのデフォルトリスポーン時間は {0} 秒
+		DefaultRespawnTimeTooltip: テラリアのデフォルトリスポーン時間は {0} 秒です
 
 		NormalRespawn: {
 			Label: 通常のリスポーン時間
@@ -49,11 +51,65 @@ Configs: {
 		}
 
 		ExpertRespawn: {
-			Label: エキスパートモード中のリスポーン時間
+			Label: エキスパート中のリスポーン時間
 		}
 
 		ExpertBossRespawn: {
-			Label: エキスパートモードのボス戦でのリスポーン時間
+			Label: エキスパートのボス戦中のリスポーン時間
+		}
+
+		UseSeconds: {
+			Label: "[i:2703] 秒数指定による設定"
+			Tooltip:
+				'''
+				スライダーの代わりにリスポーン時間を直接設定します
+				オンにした場合、スライダーとプリセットの設定が無効化されます
+				'''
+		}
+
+		NormalRespawnTime: {
+			Label: "[i:2019] 通常のリスポーン時間"
+			Tooltip:
+				'''
+				通常のリスポーン時間を秒単位で設定します
+				デフォルトリスポーン時間は {0} 秒です
+				'''
+		}
+
+		ExpertRespawnTime: {
+			Label: "[i:243] エキスパート中のリスポーン時間"
+			Tooltip:
+				'''
+				エキスパート中のリスポーン時間を秒単位で設定します
+				デフォルトリスポーン時間は {0} 秒です
+				'''
+		}
+
+		NormalBossRespawnTime: {
+			Label: "[i: 2105] ボス戦中のリスポーン時間"
+			Tooltip:
+				'''
+				ボス戦中のリスポーン時間を秒単位で設定します
+				デフォルトリスポーン時間は {0} 秒です
+				'''
+		}
+
+		ExpertBossRespawnTime: {
+			Label: "[i:3335] エキスパートのボス戦中のリスポーン時間"
+			Tooltip:
+				'''
+				エキスパートのボス戦中のリスポーン時間を秒単位で設定します
+				デフォルトリスポーン時間は {0} 秒です
+				'''
+		}
+
+		AdjustRespawnTimeWhenBossDespawns: {
+			Label: "[i:WispinaBottle] ボス消滅時のリスポーン時間短縮"
+			Tooltip:
+				'''
+				死亡中に全てのボスが消滅した場合、
+				リスポーン時間を通常時にまで短縮します
+				'''
 		}
 	}
 }

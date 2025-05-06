@@ -1,417 +1,428 @@
 Configs: {
-	PreferencesConfig: {
-		DisplayName: プリファレンス
-
-		Headers: {
-			ToneMapping: トーンマッピング
-			SmoothLighting: 滑らかな照明
-			AmbientOcclusion: 周囲の光
-			LightingEngine: Fancy Lighting エンジン
-			SkyColor: ファンシーな空の色
-		}
-
-		ThreadCount: {
-			Label: スレッド数
-			Tooltip:
-				'''
-				スムーズ・ライティングとファンシー・ライティング・エンジンが使用するスレッド数を制御します。
-				高い値を設定すると、一般的にパフォーマンスが向上しますが、その効果は減少します。
-				CPUのハードウェアスレッド数よりも大きな値を設定すると、パフォーマンスが低下する可能性があります。
-				デフォルト値は最適値に近いはずです
-				'''
-		}
-
-		Gamma: {
-			Label: ガンマ (%)
-			Tooltip:
-				'''
-				ライトカラーとテクスチャーカラーで使用されるガンマをコントロールします。
-				値が高いほど、明るい部分と暗い部分のコントラストが高くなります。
-				220% の値は 2.2 のガンマに相当します。
-				'''
-		}
-
-		UseSrgb: {
-			Label: sRGB 出力
-			Tooltip:
-				'''
-				ガンマ2.2の代わりにsRGBで色を出力するかどうかを切り替えます。
-				暗い色が脱色されて明るすぎる場合に有効にする
-				'''
-		}
-
-		NormalMapsIntensity: {
-			Label: ノーマルマップの強さ
-			Tooltip:
-				'''
-				シミュレートされたノーマルマップの強さをコントロールする
-				この設定を有効にするには、シミュレートされたノーマルマップを有効にする必要があります。
-				'''
-		}
-
-		FineNormalMaps: {
-			Label: ファインノーマルマップ
-			Tooltip:
-				'''
-				粗いノーマルマップと細かいノーマルマップのシミュレーションを切り替えます。
-				粗いノーマルマップは半分の解像度でシミュレートされ、バニラテクスチャと一致します。
-				細かいノーマルマップはフル解像度でシミュレートされます
-				HDテクスチャを使用する場合は有効にすることを推奨
-				'''
-		}
-
-		Exposure: {
-			Label: 露出（拡張HDR） (%)
-			Tooltip:
-				'''
-				シーンの露出を制御します。
-				この設定を有効にするには、HDRレンダリングが使用されている必要があります。
-				'''
-		}
-
-		BloomRadius: {
-			Label: ブルームの半径
-			Tooltip:
-				'''
-				ブルーム効果の半径をコントロールします。
-				この設定を有効にするには、ブルームを有効にする必要があります。
-				'''
-		}
-
-		BloomStrength: {
-			Label: ブルームの強さ
-			Tooltip:
-				'''
-				ブルーム効果の強さをコントロールします。
-				この設定を有効にするには、ブルームを有効にする必要があります。
-				'''
-		}
-
-		UseHdrCompatibilityFixes: {
-			Label: フルHDRのためのMOD互換性の修正
-			Tooltip:
-				'''
-				フルHDRレンダリング使用時のMOD互換性を向上させる可能性のある修正が有効になる。
-				ビジュアルとパフォーマンスへの影響は軽微です。
-				'''
-		}
-
-		RenderOnlyLight: {
-			Label: （デバッグ）光の色を表示する
-			Tooltip: 有効にすると、タイル、壁、背景のテクスチャを使わずに明るい色を直接レンダリングする。
-		}
-
-		AmbientOcclusionRadius: {
-			Label: 周囲の光の半径
-			Tooltip:
-				'''
-				周囲の光で使用するぼかしの半径を制御します。
-				値が大きいほど周囲の光の影が大きくなります。
-				'''
-		}
-
-		AmbientOcclusionIntensity: {
-			Label: 周囲の光指数(%)
-			Tooltip:
-				'''
-				周囲の光がどの程度強く影響を受けるかをコントロールします。
-				値が大きいほど、周囲の光の影が大きく、暗くなります。
-				'''
-		}
-
-		AmbientLightProportion: {
-			Label: 環境光比率(%)
-			Tooltip:
-				'''
-				周囲の光の影響を受ける割合をコントロールします。
-				値が高いほど周囲の光の影が濃くなります。
-				'''
-		}
-
-		FancyLightingEngineLightLoss: {
-			Label: シャドー強度(%)
-			Tooltip:
-				'''
-				固体ブロックから出る光の損失量をコントロールします。
-				値が高いほど影が濃くなります。
-				値を100%にすると、固体ブロックから出る光をすべて遮断します。
-				'''
-		}
-
-		FancyLightingEngineLightAbsorption: {
-			Label: 固体ブロック 光吸収率(%)
-			Tooltip:
-				'''
-				固体ブロックに吸収される光の量をコントロールします。
-				値が低いほど、光が固体ブロックの奥深くまで広がります。
-				100%はバニラと同等
-				'''
-		}
-
-		FancyLightingEngineIndirectBrightness: {
-			Label: 間接照明の明るさ(%)
-			Tooltip:
-				'''
-				間接照明の明るさを直接照明の明るさと比較してコントロールします。
-				この設定を有効にするには、グローバルイルミネーションを有効にする必要があります。
-				'''
-		}
-
-		FancyLightingEngineNonSolidOpaque: {
-			Label: ソリッドでないタイルからの影
-			Tooltip:
-				'''
-				ソリッドでないタイルから光が失われるかどうかを切り替えます。
-				主につる植物に影響する。
-				'''
-		}
-
-		UseCustomSkyColors: {
-			Label: ファンシーな空の色
-			Tooltip:
-				'''
-				新しい空の色を使用するかどうかを切り替えます。
-				無効の場合、バニラの空の色が使用されます。
-				'''
-		}
-
-		CustomSkyPreset: {
-			Label: 空の色プロファイル
-			Tooltip: どの空の色を使用するかを選択する
-		}
-	}
-
-	LightingConfig: {
-		DisplayName: 画質設定
-
-		Headers: {
-			SmoothLighting: 滑らかな照明
-			AmbientOcclusion: 周囲の光
-			LightingEngine: ファンシー照明エンジン
-			SkyColor: 空の色
-		}
-
-		QualityPreset: {
-			Label: 画質プリセット
-			Tooltip: 画質設定のプリセットを選択できる
-		}
-
-		UseSmoothLighting: {
-			Label: 滑らかな照明
-			Tooltip:
-				'''
-				滑らかな照明を使用するかどうかを切り替えます。
-				無効の場合、バニラライティングのビジュアルが使用されます。
-				滑らかな照明は主にGPUに負荷がかかります
-				'''
-		}
-
-		UseLightMapBlurring: {
-			Label: ライトマップのぼかし
-			Tooltip:
-				'''
-				ライトマップをぼかすかどうかを切り替えます。
-				レンダリング前にライトマップにタイル単位のブラーを適用します。
-				鋭い光の遷移を滑らかにする
-				'''
-		}
-
-		UseEnhancedBlurring: {
-			Label: 強化されたライトマップのぼかし
-			Tooltip:
-				'''
-				ライトマップをぼかすために使用されるぼかし関数を制御します。
-				有効にすると、光の吸収に影響されるぼかしが改善されます。
-				'''
-		}
-
-		SimulateNormalMaps: {
-			Label: ノーマルマップのシミュレーション
-			Tooltip: ノーマルマップをシミュレートするかどうかを切り替える
-		}
-
-		UseEnhancedGlowMaskSupport: {
-			Label: 強化された発光効果サポート
-			Tooltip:
-				'''
-				発光効果のレンダリング方法を制御する
-				強化された発光効果サポートが無効の場合、発光効果の明るさが不正確になることがある。
-				'''
-		}
-
-		LightMapRenderMode: {
-			Label: レンダーモード
-			Tooltip:
-				'''
-				光のレンダリング方法を制御します。
-				HDRレンダリングでは、光の明るさが100%を超えられます。
-				HDRレンダリングを使用すると、結果はSDRにトーンマッピングされます。
-				'''
-		}
-
-		HdrBloom: {
-			Label: 苔（HDR強化）
-			Tooltip: 拡張HDRレンダーモードを使用する際に苔をレンダリングするかどうかを切り替えます。
-		}
-
-		UseAmbientOcclusion: {
-			Label: 周囲の光
-			Tooltip:
-				'''
-				周囲の光を使うかどうかを切り替えます。
-				有効にすると、タイルが壁の前に影を作ります。
-				周囲の光は主にGPUを必要とします。
-				'''
-		}
-
-		DoNonSolidAmbientOcclusion: {
-			Label: 非ソリッドタイルからの周囲の光
-			Tooltip:
-				'''
-				ソリッドでないタイルが周囲の光を発生させるかどうかを切り替えます。
-				ソリッドでないタイルは周囲の光を弱くします。
-				主に家具やトーチに影響します。
-				'''
-		}
-
-		DoTileEntityAmbientOcclusion: {
-			Label: タイルエンティティによる周囲の光の減衰
-			Tooltip:
-				'''
-				タイルエンティティが周囲の光を遮断するかどうかを切り替えます。
-				タイルエンティティは周囲の光を弱くします。
-				主に風の影響を受けるタイルに影響します。
-				'''
-		}
-
-		UseFancyLightingEngine: {
-			Label: ファンシーライティングエンジン
-			Tooltip:
-				'''
-				新しいライティングエンジンを使用するかどうかを切り替えます。
-				有効にすると、光がより正確に広がり、影が目立つようになります。
-				パフォーマンスはシーン内の光源の数に影響されます。
-				ライティングパフォーマンスは主にCPUに影響され、GPUは使用されません。
-				ファンシーライティングエンジンは主にCPUに負荷がかかります。
-				'''
-		}
-
-		FancyLightingEngineUseTemporal: {
-			Label: 時間的最適化
-			Tooltip:
-				'''
-				lighting エンジンの時間最適化を使用するかどうかを切り替えます。
-				有効にすると、前回のライティングアップデートからのデータを使用してライティングを最適化します。
-				より強い光で照らされたエリアでのライティングをより速くします。
-				ライティング品質が若干低下する場合があります。
-				'''
-		}
-
-		FancyLightingEngineMode: {
-			Label: 影の精度
-			Tooltip:
-				'''
-				fancy lighting エンジンの内部解像度をコントロールします。
-				ライトマップの最終解像度には影響しません。
-				'''
-		}
-
-		SimulateGlobalIllumination: {
-			Label: 全体投影
-			Tooltip:
-				'''
-				基本的な全体投影をシミュレートするかどうかを切り替えます。
-				有効にすると、間接照明が影を明るくします。
-				'''
-		}
-	}
-
-	LightingEngineMode: {
-		Tooltip: ""
-
-		Low: {
-			Label: 低
-		}
-
-		Medium: {
-			Label: 中
-		}
-
-		High: {
-			Label: 高
-		}
-	}
-
-	Preset: {
-		Tooltip: ""
-
-		CustomPreset: {
-			Label: カスタム
-		}
-
-		VanillaPreset: {
-			Label: バニラ
-		}
-
-		MinimalPreset: {
-			Label: 最小限
-		}
-
-		LowPreset: {
-			Label: 低
-		}
-
-		MediumPreset: {
-			Label: 中
-		}
-
-		HighPreset: {
-			Label: 高
-		}
-
-		UltraPreset: {
-			Label: ウルトラ
-		}
-	}
-
-	RenderMode: {
-		Tooltip: ""
-
-		Bilinear: {
-			Label: 双直線アップスケーリング
-		}
-
-		Bicubic: {
-			Label: 基本アップスケーリング
-		}
-
-		BicubicOverbright: {
-			Label: 基本HDRレンダリング
-		}
-
-		EnhancedHdr: {
-			Label: 拡張HDRレンダリング
-		}
-	}
-
 	SkyColorPreset: {
-		Tooltip: ""
-
-		Profile1: {
-			Label: プロットファイル1
-		}
-
-		Profile2: {
-			Label: プロットファイル2
+		Profile4: {
+			Label: プロットファイル4
 		}
 
 		Profile3: {
 			Label: プロットファイル3
 		}
 
-		Profile4: {
-			Label: プロットファイル4
+		Profile2: {
+			Label: プロットファイル2
 		}
+
+		Profile1: {
+			Label: プロットファイル1
+		}
+
+		Tooltip: ""
+	}
+
+	RenderMode: {
+		EnhancedHdr: {
+			Label: 拡張HDRレンダリング
+		}
+
+		BicubicOverbright: {
+			Label: 基本HDRレンダリング
+		}
+
+		Bicubic: {
+			Label: 基本アップスケーリング
+		}
+
+		Bilinear: {
+			Label: 双直線アップスケーリング
+		}
+
+		Tooltip: ""
+	}
+
+	Preset: {
+		UltraPreset: {
+			Label: ウルトラ
+		}
+
+		HighPreset: {
+			Label: 高
+		}
+
+		MediumPreset: {
+			Label: 中
+		}
+
+		LowPreset: {
+			Label: 低
+		}
+
+		MinimalPreset: {
+			Label: 最小限
+		}
+
+		VanillaPreset: {
+			Label: バニラ
+		}
+
+		CustomPreset: {
+			Label: カスタム
+		}
+
+		Tooltip: ""
+	}
+
+	LightingEngineMode: {
+		High: {
+			Label: 高
+		}
+
+		Medium: {
+			Label: 中
+		}
+
+		Low: {
+			Label: 低
+		}
+
+		Tooltip: ""
+	}
+
+	LightingConfig: {
+		SimulateGlobalIllumination: {
+			Tooltip:
+				'''
+				基本的な全体投影をシミュレートします
+				オンにすると、間接照明が影を明るくします
+				'''
+			Label: 全体投影
+		}
+
+		FancyLightingEngineMode: {
+			Tooltip:
+				'''
+				ファンシーライティングエンジンの内部解像度をコントロールします
+				ライトマップの最終解像度には影響しません
+				'''
+			Label: 影の精度
+		}
+
+		FancyLightingEngineUseTemporal: {
+			Tooltip:
+				'''
+				ライティングエンジンの時間最適化を使用します
+				オンにすると、前回のライティングアップデートからのデータを使用してライティングを最適化します
+				より強い光で照らされたエリアでのライティングをより速くします
+				ライティング品質が若干低下する場合があります
+				'''
+			Label: 時間的最適化
+		}
+
+		UseFancyLightingEngine: {
+			Tooltip:
+				'''
+				新しいライティングエンジンを使用します
+				オンにすると、光がより正確に広がり、影が目立つようになります
+				パフォーマンスはシーン内の光源の数に影響されます
+				ライティングパフォーマンスは主にCPUに影響され、GPUは使用されません
+				ファンシーライティングエンジンは主にCPUに負荷がかかります
+				'''
+			Label: ファンシーライティングエンジン
+		}
+
+		DoTileEntityAmbientOcclusion: {
+			Tooltip:
+				'''
+				タイルエンティティが周囲の光を遮断します
+				タイルエンティティは周囲の光を弱くします
+				主に風の影響を受けるタイルに影響します
+				'''
+			Label: タイルエンティティによる周囲の光の減衰
+		}
+
+		DoNonSolidAmbientOcclusion: {
+			Tooltip:
+				'''
+				ソリッドでないタイルが周囲の光を発生させます
+				ソリッドでないタイルは周囲の光を弱くします
+				主に家具やトーチに影響します
+				'''
+			Label: 非ソリッドタイルからの周囲の光
+		}
+
+		UseAmbientOcclusion: {
+			Tooltip:
+				'''
+				周囲の光を使うかどうかを切り替えます
+				オンにすると、タイルが壁の前に影を作ります
+				周囲の光は主にGPUを必要とします
+				'''
+			Label: 周囲の光
+		}
+
+		HdrBloom: {
+			Tooltip: 拡張HDRレンダーモードを使用する際に苔をレンダリングします
+			Label: 苔（HDR強化）
+		}
+
+		LightMapRenderMode: {
+			Tooltip:
+				'''
+				光のレンダリング方法を制御します
+				HDRレンダリングでは、光の明るさが100%を超えられます
+				HDRレンダリングを使用すると、結果はSDRにトーンマッピングされます
+				'''
+			Label: レンダーモード
+		}
+
+		UseEnhancedGlowMaskSupport: {
+			Tooltip:
+				'''
+				発光効果のレンダリング方法を制御します
+				強化された発光効果サポートがオフの場合、まれに発光効果の明るさが不正確になります
+				'''
+			Label: 強化された発光効果サポート
+		}
+
+		SimulateNormalMaps: {
+			Tooltip: ノーマルマップをシミュレートするかどうかを切り替えます
+			Label: ノーマルマップのシミュレーション
+		}
+
+		UseEnhancedBlurring: {
+			Tooltip:
+				'''
+				ライトマップをぼかすために使用されるぼかし関数を制御します
+				オンにすると、光の吸収に影響されるぼかしが改善されます
+				'''
+			Label: 強化されたライトマップのぼかし
+		}
+
+		UseLightMapBlurring: {
+			Tooltip:
+				'''
+				ライトマップをぼかすかどうかを切り替えます
+				レンダリング前にライトマップにタイル単位のブラーを適用します
+				鋭い光の遷移を滑らかにする
+				'''
+			Label: ライトマップのぼかし
+		}
+
+		UseSmoothLighting: {
+			Tooltip:
+				'''
+				滑らかな照明を使用します
+				無効の場合、バニラライティングのビジュアルが使用されます
+				滑らかな照明は主にGPUに負荷がかかります
+				'''
+			Label: 滑らかな照明
+		}
+
+		QualityPreset: {
+			Tooltip: 画質設定のプリセットを選択できます
+			Label: 画質プリセット
+		}
+
+		Headers: {
+			SkyColor: 空の色
+			LightingEngine: ファンシー照明エンジン
+			AmbientOcclusion: 周囲の光
+			SmoothLighting: 滑らかな照明
+		}
+
+		DisplayName: 画質設定
+	}
+
+	PreferencesConfig: {
+		CustomSkyPreset: {
+			Tooltip: どの空の色を使用するかを選択します
+			Label: 空の色プロファイル
+		}
+
+		UseCustomSkyColors: {
+			Tooltip:
+				'''
+				新しい空の色を使用します
+				無効の場合、バニラの空の色が使用されます
+				'''
+			Label: ファンシーな空の色
+		}
+
+		FancyLightingEngineNonSolidOpaque: {
+			Tooltip:
+				'''
+				ソリッドでないタイルから光が失われるかどうかを切り替えます
+				主につる植物に影響します
+				'''
+			Label: ソリッドでないタイルからの影
+		}
+
+		FancyLightingEngineIndirectBrightness: {
+			Tooltip:
+				'''
+				間接照明の明るさを直接照明の明るさと比較してコントロールします
+				この設定を有効にするには、グローバルイルミネーションを有効にする必要があります
+				'''
+			Label: 間接照明の明るさ(%)
+		}
+
+		FancyLightingEngineLightAbsorption: {
+			Tooltip:
+				'''
+				固体ブロックに吸収される光の量をコントロールします
+				値が低いほど、光が固体ブロックの奥深くまで広がります
+				100%はバニラと同等
+				'''
+			Label: 固体ブロック 光吸収率(%)
+		}
+
+		FancyLightingEngineLightLoss: {
+			Tooltip:
+				'''
+				固体ブロックから出る光の損失量をコントロールします
+				値が高いほど影が濃くなります
+				値を100%にすると、固体ブロックから出る光をすべて遮断します
+				'''
+			Label: シャドー強度(%)
+		}
+
+		AmbientLightProportion: {
+			Tooltip:
+				'''
+				周囲の光の影響を受ける割合をコントロールします
+				値が高いほど周囲の光の影が濃くなります
+				'''
+			Label: 環境光比率(%)
+		}
+
+		AmbientOcclusionIntensity: {
+			Tooltip:
+				'''
+				周囲の光がどの程度強く影響を受けるかをコントロールします
+				値が大きいほど、周囲の光の影が大きく、暗くなります
+				'''
+			Label: 周囲の光指数(%)
+		}
+
+		AmbientOcclusionRadius: {
+			Tooltip:
+				'''
+				周囲の光で使用するぼかしの半径を制御します
+				値が大きいほど周囲の光の影が大きくなります
+				'''
+			Label: 周囲の光の半径
+		}
+
+		RenderOnlyLight: {
+			Tooltip: オンにすると、タイル、壁、背景のテクスチャを使わずに明るい色を直接レンダリングします
+			Label: （デバッグ）光の色を表示
+		}
+
+		DisableHdrDuringBossFights: {
+			Tooltip:
+				'''
+				   ボス戦やイベント中にHDRレンダリングを無効化します
+
+					一部のMODボスと戦う際に視覚的な不具合を防ぐ可能性があります
+					これは体力バーを持つボスと進行バーを持つイベントに影響されます
+				'''
+			Label: ボス戦およびイベント中にHDRを無効化
+		}
+
+		UseHdrCompatibilityFixes: {
+			Tooltip:
+				'''
+				フルHDRレンダリング使用時のMOD互換性を向上させる可能性のある修正が有効になります
+				ビジュアルとパフォーマンスへの影響は軽微です
+				'''
+			Label: フルHDRのためのMOD互換性の修正
+		}
+
+		BloomStrength: {
+			Tooltip:
+				'''
+				ブルーム効果の強さをコントロールします
+				この設定を有効にするには、ブルームを有効にする必要があります
+				'''
+			Label: ブルームの強さ
+		}
+
+		BloomRadius: {
+			Tooltip:
+				'''
+				ブルーム効果の半径をコントロールします
+				この設定を有効にするには、ブルームを有効にする必要があります
+				'''
+			Label: ブルームの半径
+		}
+
+		Exposure: {
+			Tooltip:
+				'''
+				シーンの露出を制御します
+				この設定を有効にするには、HDRレンダリングが使用されている必要があります
+				'''
+			Label: 露出（拡張HDR） (%)
+		}
+
+		FineNormalMaps: {
+			Tooltip:
+				'''
+				粗いノーマルマップと細かいノーマルマップのシミュレーションを切り替えます
+				粗いノーマルマップは半分の解像度でシミュレートされ、バニラテクスチャと一致します
+				細かいノーマルマップはフル解像度でシミュレートされます
+				HDテクスチャを使用する場合は有効にすることを推奨
+				'''
+			Label: ファインノーマルマップ
+		}
+
+		NormalMapsIntensity: {
+			Tooltip:
+				'''
+				シミュレートされたノーマルマップの強さをコントロールします
+				この設定を有効にするには、シミュレートされたノーマルマップを有効にする必要があります
+				'''
+			Label: ノーマルマップの強さ
+		}
+
+		UseSrgb: {
+			Tooltip:
+				'''
+				ガンマ2.2の代わりにsRGBで色を出力します
+				暗い色が脱色されて明るすぎる場合に有効にします
+				'''
+			Label: sRGB 出力
+		}
+
+		Gamma: {
+			Tooltip:
+				'''
+				ライトカラーとテクスチャーカラーで使用されるガンマをコントロールします
+				値が高いほど、明るい部分と暗い部分のコントラストが高くなります
+				220% の値は 2.2 のガンマに相当します
+				'''
+			Label: ガンマ (%)
+		}
+
+		ThreadCount: {
+			Tooltip:
+				'''
+				スムーズ・ライティングとファンシー・ライティング・エンジンが使用するスレッド数を制御します
+				高い値を設定すると、一般的にパフォーマンスが向上しますが、その効果は減少します
+				CPUのハードウェアスレッド数よりも大きな値を設定すると、パフォーマンスが低下する可能性があります
+				デフォルト値は最適値に近いはずです
+				'''
+			Label: スレッド数
+		}
+
+		Headers: {
+			SkyColor: ファンシーな空の色
+			LightingEngine: Fancy Lighting エンジン
+			AmbientOcclusion: 周囲の光
+			SmoothLighting: 滑らかな照明
+			ToneMapping: トーンマッピング
+		}
+
+		DisplayName: プリファレンス
 	}
 }
 

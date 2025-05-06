@@ -1,0 +1,353 @@
+Configs: {
+    ClientConfig: {
+        DisplayName: クライアント設定
+
+		Enable: {
+			Label: 有効化
+			Tooltip: このMODの機能を有効にします
+		}
+
+		FullscreenMapOptions: {
+			Label: フルスクリーンマップオプション
+			Tooltip: ""
+		}
+
+		MiniMapOptions: {
+			Label: ミニマップオプション
+			Tooltip: ""
+		}
+
+		OverlayMapOptions: {
+			Label: オーバーレイマップオプション
+			Tooltip: ""
+		}
+
+		DebugMode: {
+			Label: デバッグモード
+			Tooltip:
+				'''
+				チャットに問題解決に役立つメッセージを表示します
+				何か問題が発生した場合は、これを有効にして表示される内容を報告してください
+				'''
+		}
+	}
+
+	FullscreenMapConfig: {
+		Tooltip: ""
+
+		FullscreenBannersOptions: {
+			Label: フルスクリーンバナーオプション
+			Tooltip: ""
+		}
+
+		HousingIconOptions: {
+			Label: 住宅アイコンオプション
+			Tooltip: ""
+		}
+
+		HousingPanelOptions: {
+			Label: 住宅パネルオプション
+			Tooltip: ""
+		}
+	}
+
+	HousingBannersConfig: {
+		Tooltip: ""
+
+		ScaleOption: {
+			Label: サイズ設定
+			Tooltip: ""
+		}
+
+		BannerScale: {
+			Label: バナーサイズ
+			Tooltip:
+				'''
+				住宅バナーの描画サイズの倍率を調整します
+				これによりバナーが従来のマップアイコンのように振る舞います
+				'''
+		}
+
+		BannerTiles: {
+			Label: バナータイル
+			Tooltip:
+				'''
+				バナーが占めるマップタイルの数を調整します
+				これによりバナーはバニラ風に見えますが、遠くにズームアウトすると見づらくなります
+				'''
+		}
+
+		HoverScale: {
+			Label: ホバーサイズ
+			Tooltip: 住宅バナーにカーソルを合わせたときの描画サイズの倍率を調整します
+		}
+
+		DisplayOptions: {
+			Label: 表示オプション
+			Tooltip: ""
+		}
+
+		AllowHoverText: {
+			Label: ホバーテキストを許可
+			Tooltip: 住宅バナーにカーソルを合わせたときにホバーテキストを表示します
+		}
+
+		AllowClickActions: {
+			Label: クリック操作を許可
+			Tooltip: 住宅バナーをクリックできます
+		}
+
+		Enable: {
+			Label: 有効化
+			Tooltip: このマップタイプでバナーを表示します
+		}
+	}
+
+	BannerScaleOptions: {
+		Tooltip:
+			'''
+			サイズ値を使用：バナーの描画サイズを「バナーサイズ」で設定
+			タイル値を使用：バナーの描画サイズを「バナータイル」で設定
+			'''
+
+		UseScaleValues: {
+			Label: サイズ値を使用
+		}
+
+		UseTileValues: {
+			Label: タイル値を使用
+		}
+	}
+
+	BannerDisplayOptions: {
+		Tooltip:
+			'''
+			バニラ：住宅パネルが開いている場合にバナーを表示します
+			常に表示：バナーを常に表示します
+			表示しない：バナーを表示しない
+			'''
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		AlwaysShow: {
+			Label: 常に表示
+		}
+
+		NeverShow: {
+			Label: 表示しない
+		}
+	}
+
+	HousingIconConfig: {
+		Tooltip: ""
+
+		DisplayOption: {
+			Label: 表示オプション
+			Tooltip:
+				'''
+				常に表示：住宅アイコンを常に表示します
+				表示しない：住宅アイコンを表示しない
+				'''
+		}
+
+		PositionOption: {
+			Label: 位置オプション
+			Tooltip:
+				'''
+				バニラ：住宅アイコンはインベントリで開いたときと同じ位置に表示します
+				カスタム：住宅アイコンは以下のX、Y位置に基づいて配置します
+				'''
+		}
+
+		HousingIconX: {
+			Label: 住宅アイコンX
+			Tooltip:
+				'''
+				住宅アイコンの水平位置を画面幅の割合で設定（0＝左、1＝右）
+				右クリックでドラッグして住宅アイコンを移動できます
+				'''
+		}
+
+		HousingIconY: {
+			Label: 住宅アイコンY
+			Tooltip:
+				'''
+				住宅アイコンの垂直位置を画面高さの割合で設定（0＝上、1＝下）
+				右クリックでドラッグして住宅アイコンを移動できます
+				'''
+		}
+
+		LockPosition: {
+			Label: 位置を固定
+			Tooltip: オフにすることでパネルを移動できます
+		}
+
+		Scale: {
+			Label: サイズ
+			Tooltip:
+				'''
+				住宅アイコンの大きさの倍率。
+				デフォルト：1
+				'''
+		}
+
+		AllowHoverText: {
+			Label: ホバーテキストを許可
+			Tooltip: 住宅アイコンにカーソルを合わせたときにホバーテキストを表示する
+		}
+	}
+
+	IconDisplayOptions: {
+		Tooltip: ""
+
+		AlwaysShow: {
+			Label: 常に表示
+		}
+
+		NeverShow: {
+			Label: 表示しない
+		}
+	}
+
+	IconPositionOptions: {
+		Tooltip: ""
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		Custom: {
+			Label: カスタム
+		}
+	}
+
+	HousingPanelConfig: {
+		Tooltip: ""
+
+		DisplayOption: {
+			Label: 表示オプション
+			Tooltip: ""
+		}
+
+		PositionOption: {
+			Label: 位置オプション
+			Tooltip: ""
+		}
+
+		VerticalOffset: {
+			Label: 垂直オフセット
+			Tooltip:
+				'''
+				住宅パネルの配置オフセット。例えば、バニラではミニマップが開いている場合256を使用
+				値が小さいほどパネルは画面の下に近づきます
+				'''
+		}
+	}
+
+	PanelDisplayOptions: {
+		Tooltip:
+			'''
+			有効/無効：住宅パネルを常に表示/表示しない
+			記憶：パネルの最後の状態を記憶し、その状態で再開します
+			バニラ：インベントリでの状態と同じ状態で住宅パネルを開く
+			スマート：記憶と同じだが、インベントリで開いていた場合自動で有効化されます [デフォルト]
+			'''
+
+		Enabled: {
+			Label: 有効
+		}
+
+		Disabled: {
+			Label: 無効
+		}
+
+		Remember: {
+			Label: 記憶
+		}
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		Smart: {
+			Label: スマート
+		}
+	}
+
+	PanelPositionOptions: {
+		Tooltip:
+			'''
+			バニラ：住宅パネルはインベントリで開いたときと同じ位置に表示します
+			ミニマップ開：住宅パネルはミニマップが開いているときと同じ位置に表示します
+			ミニマップ閉：住宅パネルはミニマップが閉じているときと同じ位置に表示します
+			カスタムオフセット：住宅パネルは以下の垂直オフセットに基づいて表示します
+			'''
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		MiniMapOpen: {
+			Label: ミニマップ開
+		}
+
+		MiniMapClosed: {
+			Label: ミニマップ閉
+		}
+
+		CustomOffset: {
+			Label: カスタムオフセット
+		}
+	}
+
+	MiniMapConfig: {
+		Tooltip: ""
+
+		MiniMapBannersOptions: {
+			Label: ミニマップバナーオプション
+			Tooltip: ""
+		}
+	}
+
+	OverlayMapConfig: {
+		Tooltip: ""
+
+		OverlayMapBannersOptions: {
+			Label: オーバーレイマップバナーオプション
+			Tooltip: ""
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		LoadQueriedChunks: {
+			Label: クエリされたチャンクをロード
+			Tooltip:
+				'''
+				マップタイルがクエリされたときに、その周辺のチャンクを自動的にロードします
+				これによりクエリの精度が保証されます
+				マップクエリ時にラグが発生する場合は、これを無効にしてください
+				'''
+		}
+
+		LoadNPCHomeChunks: {
+			Label: NPCホームチャンクをロード
+			Tooltip:
+				'''
+				NPCが住むチャンクを常にロード状態に保ちます
+				これがないと、NPCバナーが正しい位置に表示されない場合があります
+				'''
+		}
+	}
+}
+
+HousingMessages: {
+    NotRevealed: このタイルは公開されていません！
+    NotLoaded: このタイルは遠すぎてロードされていません！
+}
+
+
+

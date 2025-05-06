@@ -1,0 +1,27 @@
+Items: {
+	Door_Teleporter: {
+		Tooltip:
+			'''
+			[Quick Heal] を押しながらタイルを右クリックすると、ドアXフレームを横切る
+			[Quick Buff] を押しながらタイルを右クリックすると、ドアYフレームを下へ移動
+			[Quick Mana] を押しながらタイルを右クリックすると、ドアYフレームを上方向に移動
+			'''
+		DisplayName: ドアテレポーター
+	}
+
+	Small_Teleporter: {
+		Tooltip: ""
+		DisplayName: 小型テレポーター
+	}
+}
+
+Tiles: {
+	Door_Teleporter_Tile: {
+		MapEntry: ドアテレポーター
+	}
+
+	Small_Teleporter_Tile: {
+		MapEntry: 小型テレポーター
+	}
+}
+

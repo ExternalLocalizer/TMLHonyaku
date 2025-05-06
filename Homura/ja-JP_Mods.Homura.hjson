@@ -1,0 +1,543 @@
+ModConfigs: {
+    自动丢弃枪械Tooltip:
+        '''
+        この設定を有効にすると、銃器の弾薬がなくなった場合、
+        それを破棄し、超次元空間から同じ武器を自動的に取得します
+        そうでない場合、同じタイプの武器を取得しようとします
+        '''
+    自动丢弃枪械: 銃器の自動破棄
+    总是掉落悲叹之种Tooltip: これをオフにすると、ボスは初回撃破時のみグリーフシードをドロップします
+    总是掉落悲叹之种: ボスが常にグリーフシードをドロップ
+    自动使用悲叹之种Tooltip: ""
+    自动使用悲叹之种: グリーフシードを自動使用
+    队友可否在时停中行动Tooltip: ""
+    队友可否在时停中行动: 時間停止中にチームメイトが行動可能
+    闪光弹友伤Tooltip: スタングレネードはあなたとチームメイトに当たります
+    闪光弹友伤: スタングレネードの味方へのダメージ
+    调试模式Tooltip: ""
+    光照方式_颜色Tooltip: ""
+    光照差值Tooltip: ""
+    Bloom强度Tooltip: ""
+    模糊次数Tooltip: ""
+    开启BloomTooltip: 超クールなブルーム効果を使用
+    初始浑浊度Tooltip: ""
+    初始浑浊度: 初期汚染値
+    完全死亡Tooltip: ""
+    完全死亡: 完全死亡
+    开启存档Tooltip:
+        '''
+        この設定を有効にすると、『データ保存』ボタンでほむらの作業台でワールドデータを保存し、
+        タイムトラベル後にワールドデータが読み込まれます
+        マルチプレイヤーモードでは使用しない方が良いです
+        '''
+    开启存档: データ保存
+    调试模式: デバッグモード
+    迭代次数: ブラーの反復回数
+    光照方式_颜色: 照明モード：カラー
+    开启Bloom: ブルーム効果を使用
+    光照方式: 照明方式
+    光照差值: コントラスト比
+    Bloom强度: ブルーム強度
+    模糊次数: ブラーの反復回数
+}
+
+Configs: {
+    个人设置: {
+        DisplayName: 個人設定
+    }
+
+	基础设置: {
+		DisplayName: サーバー設定
+	}
+
+	Bloom配置: {
+		collapsedList: {
+			Tooltip: ""
+			Label: 折りたたまれたリスト
+		}
+
+		DisplayName: ブルーム設定
+	}
+}
+
+Conditions: {
+	Need50Mana: 50マナが必要
+}
+
+Buffs: {
+	闪光: {
+		Description: Mods.Homura.Buffs.闪光.Description
+		DisplayName: 闪光
+	}
+}
+
+Projectiles: {
+	手枪子弹: {
+		DisplayName: 手枪子弹
+	}
+
+	全威力弹: {
+		DisplayName: 全威力弹
+	}
+
+	中间威力弹: {
+		DisplayName: 中间威力弹
+	}
+
+	迫击炮落点: {
+		DisplayName: 迫击炮落点
+	}
+
+	迫击炮阵列: {
+		DisplayName: 迫击炮阵列
+	}
+
+	M84震撼弹: {
+		DisplayName: M84震撼弹
+	}
+
+	后跳丢雷: {
+		DisplayName: 后跳丢雷
+	}
+
+	M249: {
+		DisplayName: M249
+	}
+
+	机枪子弹: {
+		DisplayName: 机枪子弹
+	}
+
+	沙鹰回旋: {
+		DisplayName: 沙鹰回旋
+	}
+
+	手雷拖尾: {
+		DisplayName: 手雷拖尾
+	}
+
+	瞬移拖尾: {
+		DisplayName: 瞬移拖尾
+	}
+
+	火箭放置: {
+		DisplayName: 火箭放置
+	}
+
+	火箭落点: {
+		DisplayName: 火箭落点
+	}
+
+	爆炸标记: {
+		DisplayName: 爆炸标记
+	}
+
+	时停突袭: {
+		DisplayName: 时停突袭
+	}
+
+	M26式破片手榴弹: {
+		DisplayName: M26式破片手榴弹
+	}
+
+	阔剑地雷爆炸: {
+		DisplayName: 阔剑地雷爆炸
+	}
+
+	迫击炮装置: {
+		DisplayName: 迫击炮装置
+	}
+
+	迫击炮: {
+		DisplayName: 迫击炮
+	}
+
+	球棍命中: {
+		DisplayName: 球棍命中
+	}
+
+	消散气流: {
+		DisplayName: 消散气流
+	}
+
+	复活身体弹幕: {
+		DisplayName: 复活身体弹幕
+	}
+
+	武器消融: {
+		DisplayName: 武器消融
+	}
+
+	testProj: {
+		DisplayName: test Proj
+	}
+
+	新子弹: {
+		DisplayName: 新子弹
+	}
+
+	SSM瞄准弹幕: {
+		DisplayName: S S M瞄准弹幕
+	}
+
+	SSM特写: {
+		DisplayName: S S M特写
+	}
+
+	RPG射弹: {
+		DisplayName: RPGproj
+	}
+
+	RPG7: {
+		DisplayName: RPG-7
+	}
+
+	火花同步: {
+		DisplayName: 火花同步
+	}
+
+	AT4射弹: {
+		DisplayName: AT4proj
+	}
+
+	火箭: {
+		DisplayName: 火箭
+	}
+
+	AT4: {
+		DisplayName: AT4
+	}
+
+	_4mm子弹: {
+		DisplayName: _4mm子弹
+	}
+
+	自制手雷: {
+		DisplayName: 自制手雷
+	}
+
+	_7mm子弹: {
+		DisplayName: _7mm子弹
+	}
+
+	机枪枪火: {
+		DisplayName: 机枪枪火
+	}
+
+	沙鹰枪火: {
+		DisplayName: 沙鹰枪火
+	}
+
+	_50AE: {
+		DisplayName: _50 A E
+	}
+
+	沙漠之鹰: {
+		DisplayName: 沙漠之鹰
+	}
+
+	SSM_1: {
+		DisplayName: S S M_1
+	}
+
+	爆裂: {
+		DisplayName: 爆裂
+	}
+
+	鹿弹: {
+		DisplayName: 鹿弹
+	}
+
+	自制闪光弹: {
+		DisplayName: 自制闪光弹
+	}
+
+	上挑: {
+		DisplayName: 上挑
+	}
+
+	下砸: {
+		DisplayName: 下砸
+	}
+
+	跳跃光圈: {
+		DisplayName: 跳跃光圈
+	}
+
+	护盾: {
+		DisplayName: 护盾
+	}
+
+	枪火: {
+		DisplayName: 枪火
+	}
+
+	_9mm子弹: {
+		DisplayName: _9mm子弹
+	}
+
+	时停弹幕: {
+		DisplayName: 时停弹幕
+	}
+}
+
+Keybinds: {
+    时停移动: {
+        DisplayName: 時間停止テレポート
+    }
+
+	时间回溯: {
+		DisplayName: 時間巻き戻し
+	}
+
+	存档: {
+		DisplayName: データ保存
+	}
+
+	丢弃武器: {
+		DisplayName: 武器の破棄
+	}
+
+	打开时之盾: {
+		DisplayName: 超次元空間を開く
+	}
+
+	时间停止: {
+		DisplayName: 時間停止
+	}
+}
+
+Items: {
+    鹿弹: {
+        Tooltip: ""
+        DisplayName: バックショット
+    }
+
+	全威力子弹盒: {
+		Tooltip: ""
+		DisplayName: フルパワー弾薬ボックス
+	}
+
+	中间威力子弹盒: {
+		Tooltip: ""
+		DisplayName: 中威力弾薬ボックス
+	}
+
+	手枪子弹盒: {
+		Tooltip: ""
+		DisplayName: ピストル弾薬ボックス
+	}
+
+	SA58: {
+		Tooltip:
+			'''
+			移動中は精度が低下
+			右クリックで照準を合わせると、移動速度が大幅に低下するが、精度が向上
+			フルパワー弾薬を使用
+			'''
+		DisplayName: SA58
+	}
+
+	L16式迫击炮: {
+		Tooltip:
+			'''
+			3回目の時間巻き戻し後に使用可能：
+			超次元空間に迫撃砲がある場合、右クリックを長押しすると大量の迫撃砲を召喚する
+			砲弾の威力は降下フェーズで大幅に増加
+			'''
+		DisplayName: L16 81mm迫撃砲
+	}
+
+	M26式破片手榴弹: {
+		Tooltip:
+			'''
+			時間停止が有効でない場合、
+			右クリックで時間停止を使用して移動し、範囲内のすべての敵の位置に手榴弾を配置する
+			'''
+		DisplayName: M26手榴弾
+	}
+
+	丰和89式突击步枪: {
+		Tooltip:
+			'''
+			移動中は精度が低下
+			右クリックで照準を合わせると、移動速度が大幅に低下するが、精度が向上
+			中威力弾薬を使用
+			'''
+		DisplayName: 豊和89式
+	}
+
+	工作台: {
+		Tooltip: ""
+		DisplayName: ほむらの作業台
+	}
+
+	格洛克19: {
+		Tooltip:
+			'''
+			タップ射撃では発射速度が無視される
+			右クリックで戦術的リロードを行う
+			'''
+		DisplayName: グロック19
+	}
+
+	阔剑地雷: {
+		Tooltip: ""
+		DisplayName: M18A1クレイモア地雷
+	}
+
+	M84震撼弹: {
+		Tooltip:
+			'''
+			効果範囲内のすべての対象を盲目化する
+			目を閉じるか、閃光弾から背を向けることで効果を防げる
+			'''
+		DisplayName: M84スタングレネード
+	}
+
+	悲叹之种: {
+		Tooltip: ""
+		DisplayName: グリーフシード
+	}
+
+	SSM_1对舰飞弹: {
+		Tooltip:
+			'''
+			使用後、照準モードに入る
+			右クリックで終了できる。照準モード中に再度使用すると、目標地点に艦対艦ミサイルを放つ
+			'''
+		DisplayName: 88式対艦ミサイル
+	}
+
+	RPG_7: {
+		Tooltip: ""
+		DisplayName: RPG-7
+	}
+
+	AT4反坦克火箭筒: {
+		Tooltip:
+			'''
+			3回目の時間巻き戻し後に使用可能：
+			超次元空間にAT4とRPGの両方がある場合、
+			右クリックで最大5基のロケットランチャーを召喚し、右クリックを長押しすると最大25基を召喚する
+			近くにあらかじめ配置されたロケットランチャーがある場合、すべてのロケットランチャーが同時に発射される
+			ロケットランチャーが遠すぎる場合、早期に破壊される
+			'''
+		DisplayName: AT4対戦車ランチャー
+	}
+
+	MP7: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			ピストル弾薬を使用
+			'''
+		DisplayName: MP7
+	}
+
+	MP40: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			ピストル弾薬を使用
+			'''
+		DisplayName: MP40
+	}
+
+	自制手雷: {
+		Tooltip:
+			'''
+			速度が十分に速い場合、敵に命中すると即座に爆発する
+			あなたとチームメイトにもダメージを与える
+			'''
+		DisplayName: 即席爆発装置
+	}
+
+	Vz61蝎式冲锋枪: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			ピストル弾薬を使用
+			'''
+		DisplayName: サモパル・ヴゾール61
+	}
+
+	瓦尔特P5: {
+		Tooltip:
+			'''
+			タップ射撃では発射速度が無視される
+			右クリックで戦術的リロードを行う
+			'''
+		DisplayName: ワルサーP5
+	}
+
+	伯莱塔92F: {
+		Tooltip:
+			'''
+			タップ射撃では発射速度が無視される
+			右クリックで戦術的リロードを行う
+			超次元空間にほむら型手榴弾がある場合、↓を押しながら右クリックすると3つの手榴弾を同時に投げる。（汚染値50必要）
+			'''
+		DisplayName: ベレッタ92F
+	}
+
+	M249: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			時間停止が有効でない場合、↓を押しながら右クリックでオーバーロードモードを起動する
+			ほむらはリロードを完了し、時間停止中に追加射撃を行う。オーバーロード終了後、M249はダメージを受ける
+			'''
+		DisplayName: M249
+	}
+
+	沙漠之鹰: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			超次元空間にほむら型手榴弾がある場合、↓を押しながら右クリックすると3つの手榴弾を同時に投げる（汚染値50必要）
+			3回目の時間巻き戻し後に使用可能：マガジンが満タンで時間停止が有効でない場合、
+			右クリックで時間停止を使用してターゲットの背後に移動し、攻撃してすべての弾を撃ち尽くします（汚染値100必要）
+			'''
+		DisplayName: デザートイーグル
+	}
+
+	M870: {
+		Tooltip:
+			'''
+			右クリックで戦術的リロードを行う
+			バックショットを使用する
+			'''
+		DisplayName: M870
+	}
+
+	眼镜: {
+		Tooltip: ""
+		DisplayName: メガネ
+	}
+
+	球棍: {
+		Tooltip: ""
+		DisplayName: ゴルフクラブ
+	}
+
+	手枪: {
+		Tooltip: ""
+		DisplayName: ピストル
+	}
+
+	伯莱塔M92F: {
+		Tooltip: ""
+	}
+
+	TimeShield: {
+		Tooltip:
+			'''
+			超次元空間では、スタック不可能なアイテムがスタック可能になる
+			スキル「時間停止」は、利用可能なマナが60以上ある場合に使用できる
+			'''
+		DisplayName: ほむスピナー
+	}
+}
+
+
