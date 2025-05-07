@@ -1,0 +1,176 @@
+NPCs: {
+	NukaColaEnthusiast: {
+		Upgraded: Mods.fallout.NPCs.NukaColaEnthusiast.Upgraded
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}のエネルギーが好きですわ。"
+			LikeNPC_Princess: "{NPCName}が好きだ！彼女って本当に優しいな。"
+			HateNPC: "{NPCName}のそばは...めっちゃ居心地悪い…俺の故郷じゃミュータントは大抵ロクなやつじゃなかった。"
+			DislikeNPC: "{NPCName}はちょっと苦手、俺の苦労して稼いだキャップを狙ってるんだ。"
+			LikeNPC: "{NPCName}のこと、好きだよ。"
+			LoveNPC: "{NPCName}は大好きさ！彼の銃は最高だよ。レイダー対策にはうってつけだ。"
+			DislikeBiome: この砂漠、昔住んでた荒れ地を思い出してイヤなんだ。
+			LikeBiome: この森は本当に緑豊かだな！昔住んでた場所とは大違い。
+			HateCrowded: うわっ、人が多すぎるよ！
+			DislikeCrowded: ここって前いた居住地より人多いんじゃないか…？
+			LoveSpace: 広々としてて最高だよ！
+			FarFromHome: ちょっと…拠点から遠くないか？
+			NoHome: 頭を休める場所があればなあ…
+			Content: 気分は上々！
+		}
+
+		DisplayName: ヌカ・コーラ愛好家
+	}
+}
+
+Projectiles: {
+	PlasmaBall: {
+		DisplayName: プラズマ・ボール
+	}
+
+	FOMiniNuke: {
+		DisplayName: FO：ミニ・ニューク
+	}
+}
+
+Items: {
+	CapStash: {
+		Tooltip: 開くと中程度の量のキャップが手に入る
+		DisplayName: キャップ箱
+	}
+
+	CapGlasses: {
+		DisplayName: ボトルキャップ・グラス
+		Tooltip: 「ヌカ・コーラ味のシリアルに期間限定で封入されていた記念品」
+	}
+
+	NukaColaSweater: {
+		DisplayName: ヌカコーラのセーター
+		Tooltip: 「いい感じのビンテージ！」
+	}
+
+	SodaStainedJeans: {
+		DisplayName: ソーダが染み込んだジーンズ
+		Tooltip: 「チェリーの香りがする」
+	}
+
+	NukaColaBlood: {
+		DisplayName: 自分の血が入っているヌカ・コーラ
+		Tooltip:
+			'''
+			戦闘系のバフを付与するが、わずかに中毒になる可能性がある
+			「銅の味がする...」
+			'''
+	}
+# fallout76のクエストライン「An Ounce of Prevention」より
+
+	NukaColaWild: {
+		Tooltip: 遠距離戦向けのバフを複数付与するカクテル
+		DisplayName: ヌカコーラ・ワイルド
+	}
+
+	NukaColaQuartz: {
+		Tooltip: 短時間の回復加速と5分間の暗視効果を付与する
+		DisplayName: ヌカコーラ・クォーツ
+	}
+
+	NukaColaDark: {
+		Tooltip: 「パーティーガールが好きらしい」
+		DisplayName: ヌカコーラ・ダーク
+	}
+
+	NukaColaVictory: {
+		Tooltip: 「究極の清涼飲料」
+		DisplayName: ヌカコーラ・ビクトリー
+		RestoreLifeText: Mods.fallout.Items.NukaColaVictory.RestoreLifeText
+	}
+
+	NukaColaTwist: {
+		Tooltip: 「ランダムな良い効果を得られる」
+		DisplayName: ヌカコーラ・ツイスト
+		RestoreManaText: Mods.fallout.Items.NukaColaTwist.RestoreManaText
+		RestoreLifeText: Mods.fallout.Items.NukaColaTwist.RestoreLifeText
+	}
+
+	NukaColaQuantum: {
+		Tooltip: 「なぜか光っている...」
+		DisplayName: ヌカコーラ・クアンタム
+		RestoreLifeText: Mods.fallout.Items.NukaColaQuantum.RestoreLifeText
+	}
+
+	NukaColaOrange: {
+		Tooltip: 「クリームソーダ風味」
+		DisplayName: ヌカコーラ・オレンジ
+		RestoreManaText: Mods.fallout.Items.NukaColaOrange.RestoreManaText
+		RestoreLifeText: Mods.fallout.Items.NukaColaOrange.RestoreLifeText
+	}
+
+	NukaColaGrape: {
+		Tooltip: 「危険じゃないかって？大丈夫さ！」
+		DisplayName: ヌカ・グレープ
+		RestoreManaText: Mods.fallout.Items.NukaColaGrape.RestoreManaText
+	}
+# 元ネタではヌカコーラグレープではなくヌカグレープのため(Fo4 DLC:Nuka-Worldより)オリジナルのヌカコーラのグレープ版という意味かもしれないがとりあえずこの訳で
+
+	NukaColaCranberry: {
+		Tooltip: ""
+		DisplayName: ヌカコーラ・クランベリー
+		RestoreLifeText: Mods.fallout.Items.NukaColaCranberry.RestoreLifeText
+	}
+
+	NukaColaCherry: {
+		Tooltip: ""
+		DisplayName: ヌカコーラ・チェリー
+		RestoreLifeText: Mods.fallout.Items.NukaColaCherry.RestoreLifeText
+	}
+
+	ThirstZapper: {
+		Tooltip: 「ウェイストランドの水鉄砲！」
+		DisplayName: サースト・ザッパー
+	}
+
+	Cap: {
+		Tooltip: 「ウェイストランドの通貨らしい...」
+		DisplayName: キャップ
+	}
+
+	NukaCola: {
+		Tooltip: 「放浪者にぴったりの清涼飲料」
+		DisplayName: ヌカコーラ
+		RestoreLifeText: Mods.fallout.Items.NukaCola.RestoreLifeText
+	}
+
+	PlasmaPistol: {
+		DisplayName: プラズマ・ピストル
+		Tooltip: 「高速のプラズマ弾を発射する多用途エネルギー武器」
+	}
+
+	FatMan: {
+		DisplayName: ヌカランチャー
+		Tooltip:
+			'''
+			「世紀末戦闘の縮図」
+			全てのロケット弾をミニニュークに変換する
+			'''
+	}
+
+	PipeRifle: {
+		Tooltip: 「ウェイストランドでは定番の銃」
+		DisplayName: パイプライフル
+	}
+
+	LaserRifle: {
+		Tooltip: 「正義を貫く力は君の手に！」
+		DisplayName: ウェイストランドのレーザーライフル
+	}
+
+	HuntingRifle: {
+		DisplayName: ハンティングライフル
+		Tooltip: 右クリックでズーム可能
+	}
+
+	TenMMPistol: {
+		DisplayName: 10mmピストル
+		Tooltip:「 自衛用として携帯されることが多い銃」
+	}
+}
