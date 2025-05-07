@@ -1,0 +1,1116 @@
+Configs: {
+	DrawItemPose: {
+		FloatingOrbitClockwiseFast: {
+			Label: 浮遊：軌道回転（時計回り・高速）
+		},
+
+		FloatingOrbitAntiClockwiseFast: {
+			Label: 浮遊：軌道回転（反時計回り・高速）
+		},
+
+		FloatingOrbitClockwiseSlow: {
+			Label: 浮遊：軌道回転（時計回り・低速）
+		},
+
+		FloatingOrbitAntiClockwiseSlow: {
+			Label: 浮遊：軌道回転（反時計回り・低速）
+		},
+
+		FloatingOffHand: {
+			Label: 浮遊：片手
+		},
+
+		FloatingOffHandAimed: {
+			Label: 浮遊：片手・照準
+		},
+
+		FloatingInFront: {
+			Label: 浮遊：正面
+		},
+
+		FloatingBackAimed: {
+			Label: 浮遊：背後・照準
+		},
+
+		FloatingBackUpright: {
+			Label: 浮遊：背後・直立
+		},
+
+		FloatingBack: {
+			Label: 浮遊：背後
+		},
+
+		StanceLauncherShoulder: {
+			Label: 構え：ランチャー（肩）
+		},
+
+		BackGunShoulder: {
+			Label: 背負い：銃（肩）
+		},
+
+		StanceRiflePumpAction: {
+			Label: 構え：ライフル（ポンプアクション）
+		},
+
+		StanceRifleBoltAction: {
+			Label: 構え：ライフル（ボルトアクション）
+		},
+
+		StanceRifleHoldUp: {
+			Label: 構え：ライフル（上向き）
+		},
+
+		StanceRiflePointDown2: {
+			Label: 構え：ライフル（下向き2）
+		},
+
+		StanceRiflePointDown: {
+			Label: 構え：ライフル（下向き）
+		},
+
+		StanceRifleHipReady: {
+			Label: 構え：ライフル（腰構え）
+		},
+
+		HoldRifleOffHandUpright: {
+			Label: 片手持ち：ライフル直立
+		},
+
+		BackDownward: {
+			Label: 背負い：下向き
+		},
+
+		StancePistolCowboy: {
+			Label: 構え：ピストル（カウボーイ風）
+		},
+
+		StancePistolHoldUp: {
+			Label: 構え：ピストル（上げ持ち）
+		},
+
+		StanceBowHunt: {
+			Label: 構え：弓（狩猟）
+		},
+
+		StanceBowInHand: {
+			Label: 構え：弓（手持ち）
+		},
+
+		BackBow: {
+			Label: 背負い：弓
+		},
+
+		StanceFlailReady: {
+			Label: 構え：フレイル（準備）
+		},
+
+		BackFlailShoulder: {
+			Label: 背負い：フレイル（肩）
+		},
+
+		BackFlail: {
+			Label: 背負い：フレイル
+		},
+
+		JoustingLance: {
+			Label: 構え：突撃槍
+		},
+
+		StancePoleTwoHand: {
+			Label: 構え：長柄武器（両手）
+		},
+
+		StancePoleUpright: {
+			Label: 構え：長柄武器（直立）
+		},
+
+		StancePoleShoulder: {
+			Label: 構え：長柄武器（肩）
+		},
+
+		StancePoleReady: {
+			Label: 構え：長柄武器（準備）
+		},
+
+		PoleOffHand: {
+			Label: 片手持ち：長柄武器
+		},
+
+		StanceRapierFootForward: {
+			Label: 構え：レイピア（前足構え）
+		},
+
+		StanceTwoHandGuard: {
+			Label: 構え：両手武器（構え）
+		},
+
+		StanceTwoHandBerserk: {
+			Label: 構え：両手武器（狂戦士）
+		},
+
+		StanceTwoHandHighlander: {
+			Label: 構え：両手武器（ハイランダー）
+		},
+
+		StanceTwoHandTail: {
+			Label: 構え：両手武器（引き摺り）
+		},
+
+		StanceTwoHandBrave: {
+			Label: 構え：両手武器（勇者）
+		},
+
+		StanceTwoHand: {
+			Label: 構え：両手武器
+		},
+
+		StanceMeleeUpright: {
+			Label: 構え：近接武器（直立）
+		},
+
+		StanceMeleeRaised: {
+			Label: 構え：近接武器（持ち上げ）
+		},
+
+		StanceMeleeTrail: {
+			Label: 構え：近接武器（引き摺り）
+		},
+
+		StanceMeleeReady: {
+			Label: 構え：近接武器（準備）
+		},
+
+		StanceMachineTool: {
+			Label: 構え：機械工具
+		},
+
+		CarryInBothHands: {
+			Label: 両手持ち
+		},
+
+		HoldInOffHand: {
+			Label: 片手持ち
+		},
+
+		HoldSpellTome: {
+			Label: 魔導書持ち
+		},
+
+		HoldInHandFront: {
+			Label: 手持ち（前）
+		},
+
+		HoldReversedInHand: {
+			Label: 逆手持ち
+		},
+
+		StanceInHand: {
+			Label: 構え：手持ち
+		},
+
+		HoldInHand: {
+			Label: 手持ち
+		},
+
+		WaistHolster: {
+			Label: 腰：ホルスター
+		},
+
+		WaistSheathe: {
+			Label: 腰：鞘
+		},
+
+		BackUpright: {
+			Label: 背負い：直立
+		},
+
+		Back: {
+			Label: 背負い
+		},
+
+		None: {
+			Label: なし
+		},
+
+		Unassigned: {
+			Label: 未割り当て
+		},
+
+		Tooltip: ""
+	}
+
+	LabelledItemPose: {
+		CombatTwoHandPumpAction: {
+			Label: 戦闘：両手構え（ポンプアクション）
+		}
+
+		CombatTwoHandBoltAction: {
+			Label: 戦闘：両手構え（ボルトアクション）
+		}
+
+		CombatTwoHandRifleDown2: {
+			Label: 戦闘：両手ライフル構え（低め2）
+		}
+
+		CombatTwoHandRifleDown: {
+			Label: 戦闘：両手ライフル構え（低め）
+		}
+
+		CombatTwoHandRifleUp: {
+			Label: 戦闘：両手ライフル構え（高め）
+		}
+
+		CombatTwoHandRifleHip: {
+			Label: 戦闘：両手ライフル構え（腰だめ）
+		}
+
+		CombatTwoHandBow: {
+			Label: 戦闘：両手弓構え
+		}
+
+		CombatTwoHandPowerTool: {
+			Label: 戦闘：両手パワーツール構え
+		}
+
+		CombatTwoHandPoleTwoHand: {
+			Label: 戦闘：両手長柄構え（両手持ち）
+		}
+
+		CombatTwoHandGuard: {
+			Label: 戦闘：両手構え（衛兵）
+		}
+
+		CombatTwoHandBerserk: {
+			Label: 戦闘：両手構え（狂戦士）
+		}
+
+		CombatTwoHandHighlander: {
+			Label: 戦闘：両手構え（ハイランダー）
+		}
+
+		CombatTwoHandTail: {
+			Label: 戦闘：両手構え（引き摺り）
+		}
+
+		CombatTwoHandBrave: {
+			Label: 戦闘：両手構え（勇敢）
+		}
+
+		CombatTwoHand: {
+			Label: 戦闘：両手構え
+		}
+
+		CombatOffHandShoulder: {
+			Label: 戦闘：片手肩掛け構え
+		}
+
+		CombatOffHandPistol: {
+			Label: 戦闘：片手ピストル構え
+		}
+
+		CombatOffHandPoleShoulder: {
+			Label: 戦闘：片手長柄肩掛け構え
+		}
+
+		CombatPistol: {
+			Label: 戦闘：ピストル構え
+		}
+
+		CombatBowHold: {
+			Label: 戦闘：弓構え
+		}
+
+		CombatFlailReady: {
+			Label: 戦闘：フレイル準備構え
+		}
+
+		CombatPoleReady: {
+			Label: 戦闘：長柄準備構え
+		}
+
+		CombatPoleUpright: {
+			Label: 戦闘：長柄直立構え
+		}
+
+		CombatRapier: {
+			Label: 戦闘：レイピア構え
+		}
+
+		CombatTrail: {
+			Label: 戦闘：引き摺り構え
+		}
+
+		CombatRaised: {
+			Label: 戦闘：掲げ構え
+		}
+
+		CombatUpright: {
+			Label: 戦闘：直立構え
+		}
+
+		CombatReady: {
+			Label: 戦闘：構え準備
+		}
+
+		CombatHold: {
+			Label: 戦闘：保持構え
+		}
+
+		OrbitAntiClockSlow: {
+			Label: 周回：反時計回り（ゆっくり）
+		}
+
+		OrbitClockwiseSlow: {
+			Label: 周回：時計回り（ゆっくり）
+		}
+
+		OrbitAntiClockFast: {
+			Label: 周回：反時計回り（速め）
+		}
+
+		OrbitClockwiseFast: {
+			Label: 周回：時計回り（速め）
+		}
+
+		FloatingAimed: {
+			Label: 浮遊：狙い構え
+		}
+
+		FloatingOffHand: {
+			Label: 浮遊：片手構え
+		}
+
+		FloatingFront: {
+			Label: 浮遊：前方構え
+		}
+
+		FloatingBackAimed: {
+			Label: 浮遊：後方狙い構え
+		}
+
+		FloatingBackUpright: {
+			Label: 浮遊：後方直立構え
+		}
+
+		FloatingBack: {
+			Label: 浮遊：後方構え
+		}
+
+		TwoHandJoustingLance: {
+			Label: 両手槍試合ランス構え
+		}
+
+		TwoHandCarry: {
+			Label: 両手運搬構え
+		}
+
+		OffHandUpright: {
+			Label: 片手直立構え
+		}
+
+		OffHandShoulder: {
+			Label: 片手肩掛け構え
+		}
+
+		OffHandPole: {
+			Label: 片手長柄構え
+		}
+
+		OffHandFlailShoulder: {
+			Label: 片手フレイル肩掛け構え
+		}
+
+		OffHand: {
+			Label: 片手構え
+		}
+
+		HoldTome: {
+			Label: 書物保持構え
+		}
+
+		HoldReverse: {
+			Label: 逆手保持構え
+		}
+
+		HoldForward: {
+			Label: 前方保持構え
+		}
+
+		Hold: {
+			Label: 保持構え
+		}
+
+		WaistHolster: {
+			Label: 腰ホルスター構え
+		}
+
+		Waist: {
+			Label: 腰構え
+		}
+
+		BackBow: {
+			Label: 背中弓構え
+		}
+
+		BackDownward: {
+			Label: 背中下向き構え
+		}
+
+		BackUpright: {
+			Label: 背中直立構え
+		}
+
+		Back: {
+			Label: 背中構え
+		}
+
+		None: {
+			Label: なし
+		}
+
+		Tooltip: ""
+	}
+
+	PoseGroup: {
+		GiantMagic: {
+			Label: 巨大な魔法武器
+		}
+
+		GiantGun: {
+			Label: 巨大な遠距離武器
+		}
+
+		GiantBow: {
+			Label: 巨大な弓
+		}
+
+		GiantWeapon: {
+			Label: 巨大な近接武器
+		}
+
+		GiantItem: {
+			Label: 巨大なアイテム
+		}
+
+		MagicItem: {
+			Label: 魔法のアイテム
+		}
+
+		MagicBook: {
+			Label: 魔導書
+		}
+
+		Staff: {
+			Label: 魔法の杖
+		}
+
+		Launcher: {
+			Label: ランチャー
+		}
+
+		Shotgun: {
+			Label: ショットガン
+		}
+
+		GunManual: {
+			Label: セミオート銃
+		}
+
+		Gun: {
+			Label: フルオート銃
+		}
+
+		Pistol: {
+			Label: ハンドガン
+		}
+
+		Repeater: {
+			Label: クロスボウ／リピーター
+		}
+
+		Bow: {
+			Label: 弓
+		}
+
+		PowerTool: {
+			Label: パワーツール
+		}
+
+		ThrownThin: {
+			Label: 投げナイフ
+		}
+
+		Thrown: {
+			Label: 投擲武器
+		}
+
+		Whips: {
+			Label: ムチ
+		}
+
+		Flail: {
+			Label: フレイル
+		}
+
+		Yoyo: {
+			Label: ヨーヨー
+		}
+
+		Spear: {
+			Label: 槍
+		}
+
+		Rapier: {
+			Label: ショートソード／レイピア
+		}
+
+		LargeMelee: {
+			Label: 大型近接武器
+		}
+
+		SmallMelee: {
+			Label: 近接武器
+		}
+
+		Potion: {
+			Label: ポーション
+		}
+
+		VanityItem: {
+			Label: 装備アイテム
+		}
+
+		LargeItem: {
+			Label: 大型アイテム
+		}
+
+		Item: {
+			Label: 通常アイテム
+		}
+
+		Unassigned: {
+			Label: 未分類
+		}
+
+		Tooltip: ""
+	}
+
+	ItemDrawOverrideData: {
+		ForceDrawItemPose: {
+			Tooltip: デフォルト以外に設定した場合、指定したポーズでアイテムを強制的に表示します。
+			Label: 強制アイテムポーズ
+		}
+
+		ForcePoseGroup: {
+			Tooltip: アイテムをポーズグループに手動で割り当てます。
+			Label: アイテムポーズグループ
+		}
+
+		Item: {
+			Tooltip: ""
+			Label: アイテム
+		}
+
+		Tooltip: ""
+	}
+
+	WeaponOutServerConfig: {
+		EnableForcedWeaponOutVisuals: {
+			Tooltip: クライアント側の設定に関係なく、すべてのプレイヤーが所持アイテムを表示するようにします。（グローバル設定）
+			Label: 強制表示を有効化
+		}
+
+		EnableWeaponOutVisuals: {
+			Tooltip: プレイヤーが武器、ツール、アイテムなどを表示できるようにします。オフにするとWeaponOut Liteがすべて無効になります。（グローバル設定）
+			Label: WeaponOut表示を有効化
+		}
+
+		Headers: {
+			ServerSide: 機能切り替え
+		}
+
+		DisplayName: グローバル／サーバー
+	}
+
+	WeaponOutClientHoldOverride: {
+		CurrentItemPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		CurrentDrawItemPose: {
+			Tooltip: 現在所持しているアイテムが使用しているポーズです。
+			Label: 所持アイテムのポーズ
+		}
+
+		CurrentPoseGroup: {
+			Tooltip: 現在所持しているアイテムが属するポーズグループです。
+			Label: 所持アイテムのポーズグループ
+		}
+
+		StyleOverrideList: {
+			Tooltip: ""
+			Label: スタイルオーバーライドリスト
+		}
+
+		DisplayName: アイテム手動オーバーライド
+	}
+
+	WeaponOutClientConfig: {
+		ModIntegrationCoolerItemVisualEffect: {
+			Tooltip: CoolerItemVisualEffectの詳細設定を無効化します：Weaponの表示切り替えで描画の競合を回避します。
+			Label: "[i:2701] 手動：CoolerItemVisualEffect"
+		}
+
+		ModIntegrationArmamentDisplayLite: {
+			Tooltip: このModの武器用アイドルポーズを無効化します。両方のModを導入する理由はおそらくこれです。
+			Label: "[i:1344] 自動：ArmamentDisplayLite"
+		}
+
+		ModIntegrationArmamentDisplay: {
+			Tooltip: ArmamentDisplayの視覚効果設定を無効化します：Weaponの表示切り替えで描画の競合を回避します。
+			Label: "[i:2701] 手動：ArmamentDisplay"
+		}
+
+		ModIntegrationOverhaulGunAnimations: {
+			Tooltip: バニラの照準アニメーションと競合しないよう、Overhaul Gun Animationsの設定を有効にします。
+			Label: "[i:2701] 手動：Overhaul Gun Animations"
+		}
+
+		ModIntegrationVibrantReverie: {
+			Tooltip: 特定アイテム用のデフォルト設定。ありがとう W1K [i:58]！
+			Label: "[i:1344] 自動：Vibrant Reverie"
+		}
+
+		ModIntegrationMeleeEffectsPlus: {
+			Tooltip: 異なる種類の剣を識別しやすくするための修正を適用します。デフォルトはオン。
+			Label: "[i:509] 切替：Melee Effects+"
+		}
+
+		ModIntegrationTerrariaOverhaul: {
+			Tooltip: 照準可能な武器選択時にアイテム表示を非表示にします。Terraria Overhaulの設定「AlwaysShowAimableWeapons」を参照。デフォルトはオン。
+			Label: "[i:509] 切替：Terraria Overhaul"
+		}
+
+		EnableProjYoyos: {
+			Tooltip: ヨーヨーの投射体スプライトを使用します。デフォルトはオン。（ローカルのみ）
+			Label: 小型ヨーヨーを有効化（実験的）
+		}
+
+		EnableProjSpears: {
+			Tooltip: 槍の投射体スプライトを使用します。デフォルトはオン。（ローカルのみ）
+			Label: フルスピアを有効化（実験的）
+		}
+
+		EnableMeleeEffects: {
+			Tooltip: 攻撃後も近接エフェクトを表示し続けるようにします。デフォルトはオフ。（ローカルのみ）
+			Label: 近接エフェクトを有効化（実験的）
+		}
+
+		EnableMenuDisplay: {
+			Tooltip: プレイヤー選択画面で最初のアイテムを表示するプレビューを有効化します。デフォルトはオン。（ローカルのみ）
+			Label: メニュー表示を有効化（実験的）
+		}
+
+		GiantMagicPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GiantMagicPose: {
+			Tooltip: デフォルトは「浮遊：狙い構え」
+			Label: 巨大な魔法武器
+		}
+
+		GiantGunPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GiantGunPose: {
+			Tooltip: デフォルトは「片手肩掛け構え」
+			Label: 巨大な遠距離武器
+		}
+
+		GiantBowPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GiantBowPose: {
+			Tooltip: デフォルトは「両手弓構え」
+			Label: 巨大な弓
+		}
+
+		GiantMeleePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GiantWeaponPose: {
+			Tooltip: デフォルトは「両手構え（狂戦士）」
+			Label: 巨大な近接武器
+		}
+
+		GiantItemPV: {
+			Tooltip: ""
+			Label: 巨大なアイテム
+		}
+
+		GiantItemPose: {
+			Tooltip: デフォルトは「巨大運搬構え」
+			Label: 巨大なアイテム
+		}
+
+		GiantItemScalePercent: {
+			Tooltip: 巨大なアイテムをこのパーセンテージまで縮小します。しきい値を超えている場合は以下のポーズを使用します。デフォルトは100%。（ローカルのみ）
+			Label: 巨大アイテムのスケーリング（%）
+		}
+
+		GiantItemThreshold: {
+			Tooltip: 縮小を試みる最大の幅または高さ。デフォルトは80。（ローカルのみ）
+			Label: 巨大アイテムのしきい値（ピクセル）
+		}
+
+		SmallGunThreshold: {
+			Tooltip: 一丁拳銃として分類される最大幅。デフォルトは36。（ローカルのみ）
+			Label: 片手銃のしきい値（ピクセル）
+		}
+
+		SmallSwordThreshold: {
+			Tooltip: 一振りの剣として分類される幅／高さの平均の最大値。デフォルトは50。（ローカルのみ）
+			Label: 片手剣のしきい値（ピクセル）
+		}
+
+		EnableItemScaling: {
+			Tooltip: アイテムのサイズ補正を表示可能にします（±10%以上の場合）。オフにするとすべてのアイテムサイズがピクセルパーフェクトになります。デフォルトはオン。（ローカルのみ）
+			Label: 極端なアイテムスケーリングを有効化
+		}
+
+		EnableSheathingAnim: {
+			Tooltip: 一部のポーズが滑らかにアイドルポーズへ移行できるようにします。デフォルトはオン。（ローカルのみ）
+			Label: 納刀アニメーションを有効化
+		}
+
+		EnableWeaponPhysics: {
+			Tooltip: 一部の所持アイテムが動きに応じて反応するようになります。無効にすると動作ベースのアイテム挙動を抑制します。デフォルトはオン。（ローカルのみ）
+			Label: アイテム物理挙動を有効化
+		}
+
+		MagicItemPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		MagicItemPose: {
+			Tooltip: デフォルトは「浮遊：片手構え」
+			Label: "[i:4270]魔法のアイテム"
+		}
+
+		MagicBookPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		MagicBookPose: {
+			Tooltip: デフォルトは「書物保持構え」
+			Label: "[i:165]呪文書"
+		}
+
+		StaffPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		StaffPose: {
+			Tooltip: デフォルトは「片手：長柄構え」
+			Label: "[i:739]魔法の杖"
+		}
+
+		LauncherPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		LauncherPose: {
+			Tooltip: デフォルトは「片手肩掛け構え」
+			Label: "[i:759]ランチャー"
+		}
+
+		ShotgunPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		ShotgunPose: {
+			Tooltip: デフォルトは「戦闘：両手構え（ポンプアクション）」
+			Label: "[i:964]ショットガン"
+		}
+
+		GunManualPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GunManualPose: {
+			Tooltip: デフォルトは「構え：両手構え（ボルトアクション）」
+			Label: "[i:96]セミオートライフル"
+		}
+
+		GunPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		GunPose: {
+			Tooltip: デフォルトは「戦闘：両手ライフル構え（腰だめ）」
+			Label: "[i:98]フルオートライフル"
+		}
+
+		PistolPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		PistolPose: {
+			Tooltip: デフォルトは「保持構え」
+			Label: "[i:95]ハンドガン"
+		}
+
+		BowDrawAmmo: {
+			Tooltip: デフォルトは「オン」
+			Label: "[i:39]弓 & [i:435]リピーター：装備中の矢を表示（ローカルのみ）"
+		}
+
+		RepeaterPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		RepeaterPose: {
+			Tooltip: デフォルトは「戦闘：両手ライフル構え（低め）」
+			Label: "[i:435]クロスボウ & リピーター"
+		}
+
+		BowPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		BowPose: {
+			Tooltip: デフォルトは「戦闘：両手弓構え」
+			Label: "[i:39]弓"
+		}
+
+		PowerToolPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		PowerToolPose: {
+			Tooltip: デフォルトは「戦闘：両手パワーツール構え」
+			Label: "[i:579]パワーツール"
+		}
+
+		ThrownThinPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		ThrownThinPose: {
+			Tooltip: デフォルトは「保持構え」
+			Label: "[i:279]投げナイフ"
+		}
+
+		ThrownPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		ThrownPose: {
+			Tooltip: デフォルトは「戦闘：直立構え」
+			Label: "[i:42]投擲武器"
+		}
+
+		WhipPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		WhipPose: {
+			Tooltip: デフォルトは「保持構え」
+			Label: "[i:4672]ムチ"
+		}
+
+		FlailPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		FlailPose: {
+			Tooltip: デフォルトは「戦闘：フレイル準備構え」
+			Label: "[i:5011]フレイル"
+		}
+
+		YoyoHalfScale: {
+			Tooltip: デフォルトは「オン」
+			Label: "[i:3278]ヨーヨー：サイズを縮小"
+		}
+
+		YoyoPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		YoyoPose: {
+			Tooltip: デフォルトは「保持構え」
+			Label: "[i:3278]ヨーヨー"
+		}
+
+		SpearPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		SpearPose: {
+			Tooltip: デフォルトは「戦闘：長柄準備構え」
+			Label: "[i:280]槍"
+		}
+
+		RapierPV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		RapierPose: {
+			Tooltip: デフォルトは「戦闘：保持構え」
+			Label: "[i:3507]ショートソード・レイピア"
+		}
+
+		VanityItemPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		VanityItemPose: {
+			Tooltip: デフォルトは「片手構え」
+			Label: "[i:1007]装備アイテム"
+		}
+
+		LargeMeleePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		LargeMeleePose: {
+			Tooltip: デフォルトは「戦闘：両手構え」
+			Label: "[i:190]大型近接武器"
+		}
+
+		SmallMeleePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		SmallMeleePose: {
+			Tooltip: デフォルトは「戦闘：構え準備」
+			Label: "[i:3508]近接武器"
+		}
+
+		PotionPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		PotionPose: {
+			Tooltip: デフォルトは「前方保持構え」
+			Label: "[i:126]ポーション"
+		}
+
+		LargeItemPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		LargeItemPose: {
+			Tooltip: デフォルトは「両手運搬構え」
+			Label: "[i:33]大型アイテム"
+		}
+
+		SmallItemPosePV: {
+			Tooltip: ""
+			Label: アイテムプレビュー
+		}
+
+		SmallItemPose: {
+			Tooltip: デフォルトは「保持構え」
+			Label: "[i:2]通常アイテム"
+		}
+
+		CombatStanceWhenHurt: {
+			Tooltip: ダメージを受けた際に戦闘ポーズに移行します。デフォルトは「オン」。
+			Label: 被ダメージ時に戦闘ポーズへ移行
+		}
+
+		CombatStanceAlwaysOn: {
+			Tooltip: 戦闘ポーズがアイドル状態に戻るのを防ぎます。デフォルトは「オフ」。
+			Label: 常に戦闘ポーズを維持
+		}
+
+		CombatDelayTimerMax: {
+			Tooltip: 使用後にアイテムを構えたままにする時間（秒）。「戦闘」から始まるポーズにのみ適用されます。デフォルトは3秒。
+			Label: 戦闘ポーズ維持時間（秒）
+		}
+
+		ShowHeldItem: {
+			Tooltip: 持っているアイテムを表示します。他のプレイヤーにも見えます。デフォルトは「オン」。
+			Label: 装備中アイテムを表示
+		}
+
+		Headers: {
+			ModIntegrationHeader: MOD連携と互換性
+			LocalGraphics: ローカルグラフィック設定
+			PlayerHeader: 表示・ポーズ設定
+		}
+
+		DisplayName: 個人設定
+	}
+}
+
+Common: {
+	PoseGroup: {
+		GiantMagic: 巨大な魔法武器
+		GiantGun: 巨大な遠隔武器
+		GiantBow: 巨大な弓
+		GiantWeapon: 巨大な近接武器
+		GiantItem: 巨大なアイテム
+		MagicItem: 魔法のフォーカス
+		MagicBook: 魔導書
+		Staff: 魔法の杖
+		Launcher: 発射武器
+		Shotgun: ショットガン
+		GunManual: セミオート銃
+		Gun: 自動火器
+		Pistol: ハンドガン
+		Repeater: クロスボウ／リピーター
+		Bow: 弓
+		PowerTool: パワーツール
+		ThrownThin: 投げナイフ
+		Thrown: 投擲武器
+		Whips: ムチ
+		Flail: フレイル
+		Yoyo: ヨーヨー
+		Spear: 槍
+		Rapier: ショートソード／レイピア
+		LargeMelee: 大型近接武器
+		SmallMelee: 近接武器
+		Potion: ポーション
+		VanityItem: 装備アイテム
+		LargeItem: 大型アイテム
+		Item: 通常アイテム
+		Unassigned: 未分類
+	}
+
+	Preview: アイテムプレビュー
+	Instructions: アイテムの持ち方をカスタマイズするには：
+}
