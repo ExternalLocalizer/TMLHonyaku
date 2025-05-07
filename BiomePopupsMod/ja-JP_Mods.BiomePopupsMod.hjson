@@ -1,0 +1,110 @@
+Configs: {
+	PositionOption: {
+		Tooltip: ""
+
+		Top: {
+			Label: 上
+		}
+
+		Bottom: {
+			Label: 下
+		}
+
+		BottomLeft: {
+			Label: 左下
+		}
+
+		BottomRight: {
+			Label: 右下
+		}
+	}
+
+	AnimationType: {
+		Tooltip: ""
+
+		None: {
+			Label: アニメーションなし
+		}
+
+		Fade: {
+			Label: フェード
+		}
+
+		FadeSwipe: {
+			Label: スワイプ付きフェード
+		}
+
+		Slide: {
+			Label: スライド
+		}
+
+		FadeSlide: {
+			Label: フェード＆スライド
+		}
+	}
+
+	BiomePopupConfig: {
+		IsHideWhileChatOpen: {
+			Tooltip: チャットが開いている間はポップアップを非表示にする
+			Label: チャット中は非表示
+		}
+
+		Position: {
+			Label: 表示位置
+			Tooltip: ポップアップの表示位置を選択
+		}
+
+		IsScaleWithUI: {
+			Label: UIに合わせて拡縮
+			Tooltip: 有効にすると、UIスケールに合わせてポップアップも拡縮されます
+		}
+
+		CustomScale: {
+			Label: ポップアップの拡大率
+			Tooltip: ポップアップの表示倍率を50%～200%の間で指定
+		}
+
+		AnimationType: {
+			Label: アニメーションタイプ
+			Tooltip: タイトルの表示・非表示時のアニメーション
+		}
+
+		VisibleDuration: {
+			Label: 表示時間
+			Tooltip: ポップアップがアニメーション間で静止する時間（tick 単位）（-1は無限）
+		}
+
+		AnimateInDuration: {
+			Label: 表示アニメーション時間
+			Tooltip: ポップアップが表示される際のアニメーション時間（tick 単位）
+		}
+
+		AnimationOutTime: {
+			Label: 非表示アニメーション時間
+			Tooltip: ポップアップが非表示になる際のアニメーション時間（tick 単位）
+		}
+
+		IsHideWhileInventoryOpen: {
+			Label: インベントリ表示中は非表示
+			Tooltip: プレイヤーのインベントリが開いている間はポップアップを非表示にする
+		}
+
+		IsHideWhileBossAlive: {
+			Label: ボス戦中は非表示
+			Tooltip: ボスが生存している間はポップアップを非表示にする
+		}
+
+		BiomeCheckDelay: {
+			Label: バイオーム確認間隔
+			Tooltip: バイオームの状態を確認する間隔（tick 単位）
+		}
+
+		Headers: {
+			Visuals: 表示
+			Advanced: 詳細設定
+			Animation: アニメーション
+		}
+
+		DisplayName: 設定
+	}
+}
