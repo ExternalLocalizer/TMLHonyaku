@@ -1,0 +1,1373 @@
+GUI: {
+	Browser: {
+		ListView: リスト表示
+		Filters: フィルター
+		Sorts: ソートモード
+
+		Sort: {
+			ID: ID順
+			Alphabetical: アルファベット順
+			Damage: ダメージ順
+			Defense: 防御力順
+			Value: ゴールド価値順
+			Life: 最大ライフ順
+		}
+
+		ButtonSizeSlider: {
+			Name: ボタンのスケール
+			Tooltip: ブラウザ内のボタンサイズを調整するにはドラッグしてください
+		}
+	}
+
+	DraggableUIState: {
+		Close: 閉じる
+
+		UserGuide: {
+			Name: ユーザーガイド
+			Tooltip: このツールのユーザーガイドをブラウザで開く
+		}
+	}
+
+	EmergencyCustomizeMenu: {
+		CustomizeToolbars: ツールバーのカスタマイズ
+		CustomizeTools: ツールのカスタマイズ
+	}
+
+	FirstTimeLayoutPresetMenu: {
+		Welcome: DragonLensへようこそ！
+		SelectLayout: 開始するレイアウトを選択してください
+		Selected: "{0} を選択しました！カスタマイズツール（レンチアイコン）を使用してレイアウトを変更するか、別のプリセットをロードできます。"
+	}
+
+	LayoutPresetBrowser: {
+		Name: レイアウトプリセット
+		LoadedLayout: ロードされたレイアウト: {0}
+	}
+
+	Layout: {
+		Invalid: 保存されたレイアウトが無効または破損しています！
+
+		Simple: {
+			Name: シンプル
+			Tooltip: プレイヤーやModテスター向けの簡易レイアウト
+		}
+
+		Advanced: {
+			Name: アドバンスト
+			Tooltip: すべてのツールを利用できる上級者向けレイアウト。Mod開発者や経験者向け
+		}
+
+		HEROsMod: {
+			Name: HEROs Mod風
+			Tooltip: HEROs Mod風のレイアウト
+		}
+
+		Cheatsheet: {
+			Name: Cheatsheet風
+			Tooltip: Cheatsheet風のレイアウト
+		}
+
+		Empty: {
+			Name: 空白
+			Tooltip: 自分好みのレイアウトを作成したい人向け
+		}
+	}
+
+	ToggleButton: {
+		On: オン
+		Off: オフ
+	}
+
+	ToolbarCustomizationElements: {
+		RemoveButton: {
+			Name: ツールを削除
+			Tooltip: いつでも追加ツールメニュー（緑のタブ）から再追加可能！
+		}
+
+		AddButton: {
+			Name: ツールを追加
+			Tooltip: クリックしてツールバーにツールを追加
+		}
+
+		RemoveToolbarButton: {
+			Name: ツールバーを削除
+			Tooltip: このツールバーを削除します！
+		}
+
+		ToolbarDragger: {
+			Name: ツールバーを移動
+			Tooltip: クリック＆ドラッグでツールバーの位置を変更。画面の端に近づくと自動でスナップします。 ドラッグ中に右クリックするとツールバーを回転可能です。
+		}
+
+		ToolButtonDragger: {
+			Name: ツールを移動
+			Tooltip: クリック＆ドラッグでツールバー上のツールの位置を変更
+		}
+
+		HideOptionButton: {
+			Name: 自動非表示: {0}
+			Tooltip: このツールバーの表示ルールを設定可能です。{0}クリックで{1}に変更します。
+
+			Never: {
+				Name: 通常
+				Tip: 通常のプレイ時に常に表示
+			}
+
+			InventoryOpen: {
+				Name: インベントリ閉時のみ
+				Tip: インベントリを閉じている時のみ表示
+			}
+
+			InventoryClosed: {
+				Name: インベントリ開時のみ
+				Tip: インベントリを開いている時のみ表示
+			}
+
+			NoMapScreen: {
+				Name: マップのみ
+				Tip: マップ画面でのみ表示（※他のウィンドウを開くツールは、マップを閉じないと使用できません）
+			}
+		}
+
+		NewBarButton: {
+			Name: ツールバーを追加
+			Tooltip: 新しい空のツールバーを作成！
+		}
+
+		SaveLayoutButton: {
+			Name: 保存して続行
+			Tooltip: カスタマイズを終了し、レイアウトを保存
+			LayoutSaved: レイアウトを保存しました！
+		}
+
+		LoadLayoutButton: {
+			Name: レイアウトをロード
+			Tooltip: 既存のレイアウトをロード
+		}
+
+		VisualConfigButton: {
+			Name: テーマをカスタマイズ
+			Tooltip: テーマカスタマイザーを開く
+		}
+
+		FunctionalConfigButton: {
+			Name: ツールオプション
+			Tooltip: ツールの動作やデフォルト設定を変更するための設定画面を開く
+		}
+	}
+
+	ThemeMenu: {
+		Name: テーマエディター
+	}
+
+	EntityEditor: {
+		LiveReaction: リアルタイム{0}反応
+		Select: ワールド内のエンティティをクリックして選択。右クリックでキャンセル
+	}
+
+	FieldEditor: {
+		Uneditable: 編集不可
+		UneditableBlockMsg: この項目は編集できません！
+		Static: 固定
+		ModdedFields: Mod追加項目
+		NoFields: 利用可能なMod追加項目なし
+	}
+}
+
+Keybinds: {
+	CollapseAll: {
+		DisplayName: すべて折りたたむ
+	}
+
+	LockCamera: {
+		DisplayName: カメラ固定
+	}
+
+	Hitboxes: {
+		DisplayName: 当たり判定表示
+	}
+
+	FreeCamera: {
+		DisplayName: フリーカメラ
+	}
+
+	FloodlightRightClick: {
+		DisplayName: 照明の減光
+	}
+
+	Floodlight: {
+		DisplayName: 照明の増光
+	}
+
+	CustomizeTool: {
+		DisplayName: ツールカスタマイズ
+	}
+
+	BuffDespawner: {
+		DisplayName: バフを消去
+	}
+
+	DustDespawner: {
+		DisplayName: ダストを消去
+	}
+
+	GoreDespawner: {
+		DisplayName: ゴアを消去
+	}
+
+	ItemDespawner: {
+		DisplayName: アイテムを消去
+	}
+
+	NPCDespawner: {
+		DisplayName: NPCを消去
+	}
+
+	NPCDespawnerRightClick: {
+		DisplayName: 従来の削除ツール
+	}
+
+	ProjectileDespawner: {
+		DisplayName: 飛び道具を消去
+	}
+
+	ShaderCompiler: {
+		DisplayName: シェーダーリローダー
+	}
+
+	AccessoryTray: {
+		DisplayName: アクセサリトレイ
+	}
+
+	ItemEditor: {
+		DisplayName: アイテムエディター
+	}
+
+	PlayerEditor: {
+		DisplayName: プレイヤーエディター
+	}
+
+	Difficulty: {
+		DisplayName: 難易度変更
+	}
+
+	DifficultyRightClick: {
+		DisplayName: ジャーニーモード切替
+	}
+
+	FastForward: {
+		DisplayName: 早送り
+	}
+
+	FastForwardRightClick: {
+		DisplayName: 早送り速度を下げる
+	}
+
+	Godmode: {
+		DisplayName: ゴッドモード
+	}
+
+	GodmodeRightClick: {
+		DisplayName: ドッグモード (ゴッドモード + ダメージあり)
+	}
+
+	InfiniteReach: {
+		DisplayName: 無限建築
+	}
+
+	Magnet: {
+		DisplayName: アイテムマグネット
+	}
+
+	MagnetRightClick: {
+		DisplayName: ヴォイドマグネット (拾うとアイテム消滅)
+	}
+
+	NoClip: {
+		DisplayName: ノークリップ
+	}
+
+	Paint: {
+		DisplayName: タイルペイント
+	}
+
+	SpawnTool: {
+		DisplayName: 敵スポーン調整
+	}
+
+	Time: {
+		DisplayName: 時間操作
+	}
+
+	Weather: {
+		DisplayName: 天候操作
+	}
+
+	HideMap: {
+		DisplayName: マップを隠す
+	}
+
+	MapTeleport: {
+		DisplayName: マップテレポート
+	}
+
+	RevealMap: {
+		DisplayName: マップを開示
+	}
+
+	BuffSpawner: {
+		DisplayName: バフスポナー
+	}
+
+	DustSpawner: {
+		DisplayName: ダストスポナー
+	}
+
+	ItemSpawner: {
+		DisplayName: アイテムスポナー
+	}
+
+	NPCSpawner: {
+		DisplayName: NPCスポナー
+	}
+
+	ProjectileSpawner: {
+		DisplayName: 飛び道具スポナー
+	}
+
+	TileSpawner: {
+		DisplayName: タイルスポナー
+	}
+
+	SoundSpawner: {
+		DisplayName: サウンドプレイヤー
+	}
+
+	EntityEditor: {
+		DisplayName: エンティティエディター
+	}
+
+	SystemEditor: {
+		DisplayName: システムエディター
+	}
+
+	PlayerManager: {
+		DisplayName: プレイヤーマネージャー
+	}
+}
+
+Permission: {
+	NotAdmin: あなたは管理者ではありません！
+	PlayerNotFound: プレイヤー「{0}」が見つかりません
+	AdminGiven: あなたは管理者になりました！
+	AdminTaken: あなたは管理者ではなくなりました...
+
+	AdminCommand: {
+		Usage: /DLAdmin [プレイヤー名]
+		Description: DragonLens の管理者リストにプレイヤーを追加し、チートツールを使用できるようにします。
+		NameNotEntered: 管理者権限を付与するプレイヤーの名前を入力してください。
+		AlreadyAdmin: そのプレイヤーはすでに管理者です。
+		AdminGiven: "{0} は管理者になりました。"
+	}
+
+	DeAdminCommand: {
+		Usage: /DLRemoveAdmin [プレイヤー名]
+		Description: DragonLens の管理者リストからプレイヤーを削除し、チートツールの使用を禁止します。
+		NameNotEntered: 管理者権限を剥奪するプレイヤーの名前を入力してください。
+		NotAdmin: そのプレイヤーは管理者ではありません。
+		AdminTaken: "{0} は管理者ではなくなりました。"
+	}
+
+	AdminListCommand: {
+		Description: DragonLens のチートツールを使用できるプレイヤーを一覧表示します。
+	}
+}
+
+MOTD:
+	'''
+	DragonLens V.{0} をインストールしていただきありがとうございます！
+	「ツールカスタマイズ」オプションで必要なツールを追加できます。
+	追加のドキュメントは https://github.com/ScalarVector1/DragonLens/wiki で確認できます。
+	'''
+
+SimpleBoxes: {
+	Name: シンプル
+	Description: DragonLens のデフォルトのボックススタイル
+}
+
+VanillaBoxes: {
+	Name: バニラ
+	Description: バニラ GUI に似たボックススタイル
+}
+
+MinimalBoxes: {
+	Name: ミニマル
+	Description: 最小限のボックススタイル
+}
+
+DragonLensIcons: {
+	Name: デフォルト
+	Description: DragonLens のデフォルトアイコン
+}
+
+HEROsIcons: {
+	Name: HEROs Mod
+	Description: HEROs Mod のスタイルを模したアイコン
+}
+
+BackgroundColor: {
+	Name: 背景色
+	Description: DragonLens GUI の背景色
+}
+
+ButtonColor: {
+	Name: ボタン色
+	Description: DragonLens GUI のボタンの色
+}
+
+Configs: {
+	GUIConfig: {
+		DisplayName: GUI 設定
+
+		backgroundColor: {
+			Label: 背景色
+			Tooltip: DragonLens の背景色
+		}
+
+		buttonColor: {
+			Label: ボタン色
+			Tooltip: DragonLens のボタンの色
+		}
+
+		boxStyle: {
+			Label: ボックススタイル
+			Tooltip: DragonLens のボックススタイル
+		}
+
+		iconStyle: {
+			Label: アイコンパック
+			Tooltip: 使用するツールのアイコンパック
+		}
+	}
+
+	BoxStyle: {
+		Tooltip: ""
+
+		simple: {
+			Label: シンプル
+		}
+
+		vanilla: {
+			Label: バニラ
+		}
+	}
+
+	IconStyle: {
+		Tooltip: ""
+
+		basic: {
+			Label: ベーシック
+		}
+
+		HEROs: {
+			Label: HEROs
+		}
+	}
+
+	ToolConfig: {
+		DisplayName: ツール設定
+
+		preloadSpawners: {
+			Label: スポナーを事前読み込み
+			Tooltip: スポナーのデータをゲーム起動時に読み込むことで、ゲーム内のフリーズを防ぎますが、ロード時間が長くなる可能性があります。
+		}
+
+		preloadAssets: {
+			Label: アセットを事前読み込み
+			Tooltip: スポナー用のアセットをゲーム起動時に読み込むことで、ゲーム内のフリーズを防ぎますが、ロード時間が長くなる可能性があります。
+		}
+	}
+}
+
+Tools: {
+	BuffDespawner: {
+		DisplayName: バフの消去
+		Description: 自分自身からすべてのバフとデバフを除去します。
+	}
+
+	DustDespawner: {
+		DisplayName: ダストの消去
+		Description: 現在ワールドに存在するすべてのダストを除去します。
+	}
+
+	GoreDespawner: {
+		DisplayName: ゴアの消去
+		Description: 現在ワールドに存在するすべてのゴアを除去します。
+	}
+
+	ItemDespawner: {
+		DisplayName: アイテムの消去
+		Description: 地面にあるすべてのアイテムを除去します。
+	}
+
+	NPCDespawner: {
+		DisplayName: NPCの消去
+		Description: 現在ワールドに存在するすべての敵対的なNPCを取り除きます。右クリックで従来の「削除ツール」に変更できます。シフトキーを押しながら実行すると友好的なNPCも消去/解体します。
+		RightClickName: 削除ツール
+	}
+
+	ProjectileDespawner: {
+		DisplayName: 弾丸の消去
+		Description: 現在ワールドに存在するすべての弾丸を除去します。
+	}
+
+	ShaderCompiler: {
+		DisplayName: シェーダーリローダー
+		Description: すべてのシェーダーを再コンパイルし、再読み込みします [作業中]
+		Busy: シェーダーコンパイル中です。少々お待ちください...
+		Triggered: シェーダー再コンパイルが開始されました...
+		Completed: シェーダーの再コンパイルが {0} ミリ秒で完了しました
+		Recompiled: "{0} のシェーダーが再コンパイルされました！"
+	}
+
+	AccessoryTray: {
+		DisplayName: アクセサリートレイ
+		Description: 実質無限のアクセサリースロット！
+		MpDisabled: マルチプレイヤーではアクセサリートレイが無効化されています
+		PlaceAccHere: ここにアクセサリーを置いてください！
+	}
+
+	ItemEditor: {
+		DisplayName: アイテムエディタ
+		Description: アイテムのステータス（およびその他の項目）を変更できます！
+		AutogenMsg: このフィールドエディタはModを通じて自動生成されました。変更すると、Modによっては予期しない結果を引き起こす可能性があります。
+		VanillaFields: 元のフィールド
+		Modded: Mod適用済み
+		Prefixes: プレフィックス
+		PlaceItemHere:
+			'''
+			アイテムを
+			ここに置いてください！
+			'''
+		SetDefaults: リセット（デフォルトに設定）
+
+		Editors: {
+			Damage: {
+				Name: ダメージ
+				Description: このアイテムまたはその発射する弾丸が与えるダメージの量。
+			}
+
+			CritChance: {
+				Name: クリティカル確率
+				Description: 基本クリティカル確率4%がこの値に追加されます。
+			}
+
+			Knockback: {
+				Name: ノックバック
+				Description: このアイテムが敵を攻撃した際に与えるノックバックの量。
+			}
+
+			UseStyle: {
+				Name: 使用スタイル
+				Description: 0: なし NEWLN 1: 振り NEWLN 3: 突き NEWLN 4: 持ち上げ NEWLN 5: 発射 NEWLN 6: 長時間飲み NEWLN 7: 古い飲み NEWLN 8: ゴルフプレイ NEWLN 9: 液体飲み NEWLN 10: 隠しアニメーション NEWLN 11: 芝生刈り NEWLN 12: ギター NEWLN 13: ラピア NEWLN 14: ランプを上げる
+			}
+
+			UseTime: {
+				Name: 使用時間
+				Description: アイテムを使用する間のティック数。入力は無視されます。
+			}
+
+			UseAnimation: {
+				Name: 使用アニメーション
+				Description: アイテムの使用を入力でキャンセルする前、または再度使用する前のティック数。
+			}
+
+			AutoReuse: {
+				Name: 自動再使用
+				Description: 左クリックを押し続けると、このアイテムが自動的に再使用されます。
+			}
+
+			ReuseDelay: {
+				Name: 再使用遅延
+				Description: このアイテムが使用完了してから、再度使用できるまでの遅延時間。
+			}
+
+			PickaxePower: {
+				Name: ピッケルパワー
+				Description: アイテムのブロックを破壊する能力。
+			}
+
+			AxePower: {
+				Name: 斧パワー
+				Description: アイテムの木を破壊する能力。実際の値は5倍されます。
+			}
+
+			HammerPower: {
+				Name: ハンマーパワー
+				Description: アイテムの壁を破壊する能力。
+			}
+
+			Rarity: {
+				Name: レアリティ
+				Description: このアイテムの名前の色。
+			}
+
+			Value: {
+				Name: 価格
+				Description: 銅貨での販売価格。
+			}
+
+			ProjectileType: {
+				Name: 弾丸の種類
+				Description: このアイテムが使用時に発射する弾丸の種類。NEWBLOCK 弾丸生成ツールを使用して異なる弾丸タイプをプレビューできます。
+			}
+
+			ShootSpeed: {
+				Name: 発射速度
+				Description: このアイテムが弾丸を発射する速度。
+			}
+
+			Color: {
+				Name: 色
+				Description: このアイテムのスプライトの色。
+			}
+		}
+	}
+
+	PlayerEditor: {
+		DisplayName: プレイヤーエディター
+		Description: プレイヤーのステータス（およびその他の項目）を変更します。
+		AutogenMsg: このプロパティエディターはModを通じて自動生成されました。これを変更すると、そのプレイヤーが使用しているModによっては予測できない結果が生じる可能性があります。
+		VanillaFields: バニラフィールド
+		ModPlayers: Modプレイヤー
+
+		Editors: {
+			MaxLife: {
+				Name: 最大ライフ
+				Description: プレイヤーの最大ライフ（バニラの永続的なソースによる）。これを20未満または500以上に変更すると、異常な効果が生じるかもしれません。
+			}
+
+			MaxMana: {
+				Name: 最大マナ
+				Description: プレイヤーの最大マナ（バニラの永続的なソースによる）。これを20未満または200以上に変更すると、異常な効果が生じるかもしれません。
+			}
+
+			ExtraLife: {
+				Name: 追加ライフ
+				Description: 任意の量の追加ライフを与えることができます。
+			}
+
+			ExtraMana: {
+				Name: 追加マナ
+				Description: 任意の量の追加マナを与えることができます。
+			}
+
+			ExtraDefense: {
+				Name: 追加防御
+				Description: 任意の量の追加防御を与えることができます。
+			}
+
+			ExtraEndurance: {
+				Name: 追加耐久
+				Description: 任意の量の追加耐久（ダメージ減少）を与えることができます。
+			}
+
+			ExtraMinionSlots: {
+				Name: 追加ミニオンスロット
+				Description: 装備によって提供されるものに加え、追加のミニオンスロット！
+			}
+
+			ExtraSpeed: {
+				Name: 追加速度
+				Description: 自分を加速させます！
+			}
+
+			InfWingTime: {
+				Name: 無限翼時間
+				Description: 永続的な飛行を可能にします！
+			}
+		}
+	}
+
+	Difficulty: {
+		DisplayName: 難易度切替
+		Description: ゲームの3つの主要な難易度をサイクルします。右クリックでジャーニーモードを切り替えます。
+		RightClickName: ジャーニーモードの切り替え
+		GameInNormalMode: 現在、ゲームは通常モードです
+		GameInExpertMode: 現在、ゲームはエキスパートモードです
+		GameInMasterMode: 現在、ゲームはマスターモードです
+		JourneyToggleDisabled: ジャーニーモードの切り替えはマルチプレイヤーでは無効です
+		JourneyEnabled: ジャーニーモードが有効になりました。
+		JourneyDisabled: ジャーニーモードが無効になりました。
+	}
+
+	FastForward: {
+		DisplayName: 早送り
+		Description: ゲームの速度を最大4倍にします。右クリックで速度を下げることができます。
+		RightClickName: 早送りの速度を減少
+		MultiplayerDisabled: マルチプレイヤーでは早送りが無効です
+	}
+
+	Godmode: {
+		DisplayName: ゴッドモード
+		Description: アクティブ時、攻撃を受けたり、マナを失ったり、死亡したりしません。右クリックで攻撃を受けても死亡しないように変更できます。
+		RightClickName: ドッグモード（ゴッドモード + 攻撃を許可）
+		PreventedDeath: ゴッドモードにより死亡が防止されました。理由: {0}
+	}
+
+	InfiniteReach: {
+		DisplayName: 全能の建築
+		Description: 無限の射程を持ち、ブロックを非常に速く配置できます。
+	}
+
+	Magnet: {
+		DisplayName: アイテムマグネット
+		Description: ワールド内のすべてのアイテムを引き寄せるトグル。右クリックでアイテムを拾うと自動で破壊するヴォイドマグネットを有効にできます。
+		RightClickName: ヴォイドマグネット（アイテムを拾うと破壊）
+	}
+
+	NoClip: {
+		DisplayName: ノークリップ
+		Description: 何の制約もなく移動できます。
+	}
+
+	Paint: {
+		DisplayName: ブロックペインター
+		Description: ワールドの一部をコピー/ペーストします。
+		CreateStructure: 構造物の作成
+		FirstPointSet: 最初のポイントが設定されました！
+		StructureSaved: 構造物がペイントメニューに保存されました！
+		TempStructure: 一時的な構造物 {0}
+
+		Advertise: {
+			Title: 今すぐダウンロード！
+			Content:
+				'''
+				より多くの便利な機能を使いたいなら、フルのStructure Helper Modをチェックしてください！
+				以下ができます: NEWLN
+				> 構造物をファイルにエクスポート！ NEWLN
+				> 正方形でない構造物を生成するためにヌルタイルを使用！ NEWLN
+				> カスタムのランダムなルートプールでチェストを配置！ NEWLN
+				> ファイルから自分のModに構造物を生成！
+				'''
+			Downloaded: StructureHelperがダウンロード中です。メインメニューに戻り、ワークショップメニューで有効化してください！
+		}
+	}
+
+	SpawnTool: {
+		DisplayName: 敵出現調整ツール
+		Description: 敵が出現する速度を変更するか、自然な出現を完全に無効にします。
+		EnemySpawnRate: 敵の出現速度
+		SpawnRate: 出現率: {0}x
+	}
+
+	Time: {
+		DisplayName: 時間調整ツール
+		Description: 昼夜サイクルを調整するか、停止します
+		UITitle: 時間の設定
+		Day: 昼
+		Night: 夜
+		CurrentTime: ({0}: {1}/{2} フレーム)
+		Resume: 時間を再開
+		Freeze: 時間を停止
+		FreezeTooltip: 時間の進行を停止します。これにより、ワールド間やゲームの再読み込み時に時間が保持されます！
+	}
+
+	Weather: {
+		DisplayName: 天気調整ツール
+		Description: 天気を調整
+		UITitle: 天気の設定
+		Combinations:
+			'''
+			便利な組み合わせ:
+			強い雨 + 風速 20mph 以上 = 雷雨
+			自然な雨 + 雪のバイオーム = 吹雪
+			'''
+		RainIntensity: 雨の強さ
+		RainLow: 弱
+		RainMedium: 中
+		RainHigh: 強
+		WindStrength: 風の強さ
+		WindSixtyWest: 西60度
+		WindSixtyEast: 東60度
+		WindTwentyWest: 西20度
+		WindTwentyEast: 東20度
+
+		RainButton: {
+			Name: 雨
+			Tooltip: 自然の雨を有効/無効にします。自然雨のフェードアウト中に残留雨が表示されることがあります。
+		}
+
+		SandstormButton: {
+			Name: 砂嵐
+			Tooltip: 砂嵐を開始または停止します。砂漠でのみ表示されます。
+		}
+
+		FreezeWeatherButton: {
+			Freeze: 天気を停止
+			Resume: 天気を再開
+			Tooltip: 天気の進行を停止します。これにより、天気設定がワールド間やゲームの再読み込み時に保持されます！
+		}
+	}
+
+	HideMap: {
+		DisplayName: マップ非表示
+		Description: ワールドマップをリセットします
+	}
+
+	MapTeleport: {
+		DisplayName: マップテレポート
+		Description: マップでテレポート機能を切り替えます。マップ上で右クリックしてテレポートします。
+		OutsideWorldWarning: ワールド外にはテレポートできません！
+	}
+
+	RevealMap: {
+		DisplayName: マップ表示
+		Description: ワールドマップ全体を表示
+	}
+
+	BuffSpawner: {
+		DisplayName: バフ生成ツール
+		Description: 自分やNPCにバフを付与できます
+		DurationEditor: 継続時間（tick）
+		Applied: バフが適用されました
+		Selected: "{0} を選択しました。NPC をクリックすると適用されます。右クリックで選択解除。ブラウザ内のバフを右クリックすると、自分に適用できます。"
+
+		FilterCategories: {
+			Mod: Mod フィルター
+			Buff: バフ種別フィルター
+		}
+
+		Filters: {
+			Mod: {
+				Description: Mod名: {0} によって追加されたバフ
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: バニラのバフ
+			}
+
+			Buff: {
+				Name: バフ
+				Description: 効果がポジティブなバフ
+			}
+
+			Debuff: {
+				Name: デバフ
+				Description: 効果がネガティブなバフ
+			}
+		}
+	}
+
+	DustSpawner: {
+		DisplayName: ダスト生成ツール
+		Description: ダストを生成し、異なる生成方法やパラメータをプレビューできます。
+		DustType: 種類: {0}
+		Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
+
+		FieldEditors: {
+			NewDustPerfect: NewDustPerfect を使用
+			Scale: スケール
+			Alpha: アルファ
+			Velocity: 速度
+			Color: 色
+		}
+
+		FilterCategories: {
+			Mod: Mod フィルター
+		}
+
+		Filters: {
+			Mod: {
+				Description: Mod名: {0} によって追加されたダスト
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: バニラのダスト
+			}
+		}
+	}
+
+	ItemSpawner: {
+		DisplayName: アイテム生成ツール
+		Description: ゲーム内のあらゆるアイテムを生成します。
+
+		FilterCategories: {
+			Mod: Modフィルター
+			Damage: ダメージ種別フィルター
+			Equipment: 装備フィルター
+			Utility: ユーティリティフィルター
+			Misc: その他フィルター
+		}
+
+		Filters: {
+			DamageClass: {
+				Description: "{0} を持つアイテム"	
+			}
+
+			Mod: {
+				Description: Mod名: {0} によって追加されたアイテム
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: バニラのアイテム
+			}
+
+			AnyDamage: {
+				Name: すべてのダメージ
+				Description: ダメージを与えるアイテム
+			}
+
+			Accessory: {
+				Name: アクセサリー
+				Description: アクセサリーとして装備可能なアイテム
+			}
+
+			Armor: {
+				Name: 防具
+				Description: 防具として装備可能なアイテム
+			}
+
+			Placeable: {
+				Name: 設置可能
+				Description: タイルを設置できるアイテム
+			}
+
+			Deprecated: {
+				Name: 廃止
+				Description: 廃止されたアイテム (ItemID.Sets.Deprecated)
+			}
+
+			Consumables: {
+				Name: 消費アイテム
+				Description: 設置できない消費アイテム
+			}
+
+			Pickaxe: {
+				Name: ツルハシ
+				Description: 採掘力を持つアイテム
+			}
+
+			Axe: {
+				Name: 斧
+				Description: 斧の性能を持つアイテム
+			}
+
+			Hammer: {
+				Name: ハンマー
+				Description: ハンマーの性能を持つアイテム
+			}
+
+			Ammo: {
+				Name: 弾薬
+				Description: 弾薬として使用できるアイテム
+			}
+
+			Expert: {
+				Name: エキスパート
+				Description: エキスパートモード限定アイテム
+			}
+
+			Master: {
+				Name: マスター
+				Description: マスターモード限定アイテム
+			}
+
+			Vanity: {
+				Name: 衣装
+				Description: 衣装アイテム
+			}
+
+			MakeNPC: {
+				Name: NPC生成
+				Description: NPCを生成するアイテム
+			}
+
+			Mounts: {
+				Name: マウント
+				Description: マウントアイテム
+			}
+
+			Pets: {
+				Name: ペット
+				Description: ペットまたは光るペットアイテム
+			}
+
+			Wings: {
+				Name: 翼
+				Description: 翼アイテム
+			}
+
+			Hooks: {
+				Name: フック
+				Description: グラップリングフックアイテム
+			}
+
+			Material: {
+				Name: 素材
+				Description: 素材アイテム
+			}
+		}
+	}
+
+	NPCSpawner: {
+		DisplayName: NPC生成ツール
+		Description: 村人からボスまで、さまざまなNPCを生成します。
+		NameExceptionMessage: NPC({0})の名前取得時に例外が発生しました！{1}の開発者に報告してください！
+		NameException: このNPCの名前取得時に例外が発生しました！{0}の開発者に報告してください！
+		BestiaryEntryException: NPC({0})の図鑑エントリー描画時に例外が発生しました！{1}の開発者に報告してください！
+		NPCType:
+			'''
+			タイプ: {0}
+			ネットID: {1}
+			'''
+		Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
+
+		FilterCategories: {
+			Mod: Mod フィルター
+			Type: 種類フィルター
+			Hostility: 敵対性フィルター
+			Bestiary: 図鑑フィルター
+		}
+
+		Filters: {
+			Bestiary: {
+				Description: 図鑑属性 {0} を持つNPC
+			}
+
+			Mod: {
+				Description: Mod名: {0} によって追加されたNPC
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: バニラのNPC
+			}
+
+			Boss: {
+				Name: ボス
+				Description: ボスNPC
+			}
+
+			Critter: {
+				Name: 小動物
+				Description: 小動物としてカウントされるNPC
+			}
+
+			Friendly: {
+				Name: フレンドリー
+				Description: 友好的なNPC
+			}
+
+			Hostile: {
+				Name: 敵対的
+				Description: 敵NPC
+			}
+		}
+	}
+
+	ProjectileSpawner: {
+		DisplayName: プロジェクタイル生成ツール
+		Description: 速度やその他のパラメータを設定して弾を生成
+		NameExceptionMessage: プロジェクタイル ({0}) の名前取得時に例外が発生しました！ {1} の開発者に報告してください！
+		NameException: この弾の名前取得時に例外が発生しました！ {0} の開発者に報告してください！
+		ProjectileType: 種類: {0}
+		Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
+
+		FieldEditors: {
+			Velocity: 速度
+		}
+
+		FilterCategories: {
+			Mod: Mod フィルター
+			Hostility: 友好/敵対フィルター
+		}
+
+		Filters: {
+			Mod: {
+				Description: Mod名:{0} によって追加されたプロジェクタイル
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: バニラのプロジェクタイル
+			}
+
+			Friendly: {
+				Name: 友好的
+				Description: プレイヤーに属するプロジェクタイル
+			}
+
+			Hostile: {
+				Name: 敵対的
+				Description: 敵に属するプロジェクタイル
+			}
+		}
+	}
+
+	TileSpawner: {
+		DisplayName: タイル生成ツール
+		Description: アイテムを使わずにタイルを設置！
+		TileType: 種類: {0}
+		Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
+
+		FilterCategories: {
+			Mod: Modフィルター
+		}
+
+		Filters: {
+			Mod: {
+				Description: Mod名:{0} によって追加されたタイル
+			}
+
+			Vanilla: {
+				Name: バニラ
+				Description: 基本ゲームのタイル
+			}
+		}
+	}
+
+	Floodlight: {
+		DisplayName: 大照明
+		Description: 画面全体を明るく照らす！
+		RightClickName: 大照明を減少
+	}
+
+	FreeCamera: {
+		DisplayName: フリーカメラ
+		Description: 移動キーでカメラを自由に動かせます。移動中にSHIFTを押すと加速し、CTRLを押すと減速します。他のカメラ固定機能とは併用できません。
+	}
+
+	Hitboxes: {
+		DisplayName: ヒットボックス
+		Description: さまざまなエンティティのヒットボックスを表示
+
+		Options: {
+			NPC: NPCのヒットボックス
+			Projectile: 飛び道具のヒットボックス
+			Player: プレイヤーのヒットボックス
+			Item: アイテムのヒットボックス
+			Melee: 近接攻撃のヒットボックス
+			TileEntity: タイルエンティティのヒットボックス
+		}
+	}
+
+	LockCamera: {
+		DisplayName: カメラ固定
+		Description: カメラの位置を現在の場所に固定します。フリーカメラとは併用できません。
+	}
+
+	CustomizeTool: {
+		DisplayName: ツールカスタマイズ
+		Description: ツールバーのレイアウトをカスタマイズ！
+		ToolBrowser: ツールを追加
+	}
+
+	SoundSpawner: {
+		DisplayName: サウンドプレイヤー
+		Description: ゲーム内のサウンドを閲覧・再生
+	}
+
+	EntityEditor: {
+		DisplayName: エンティティエディター
+		Description: あらゆるエンティティの値を表示・編集
+		VanillaFields: バニラフィールド
+		ModFields: Modフィールド
+		Tutorial: エンティティをクリックして開始
+		Deselect: 選択解除
+		Selected: "{0} を編集対象として選択しました。"
+		SelectedTE: "{0} (タイルエンティティ) を編集対象として選択しました。"
+
+		BasicEditors: {
+			Position: {
+				Name: 位置
+				Description: エンティティの左上がワールド座標のどこにあるか
+			}
+
+			Velocity: {
+				Name: 速度
+				Description: エンティティの位置が1ティックごとにどれだけ変化するか
+			}
+
+			Size: {
+				Name: サイズ
+				Description: エンティティのヒットボックスの幅と高さ
+			}
+		}
+
+		NPCEditors: {
+			Type: {
+				Name: 種類
+				Description: このNPCの種類。各値がどのNPCに対応するかはWikiを参照。
+			}
+
+			Name: {
+				Name: 名前
+				Description: NPCの固有名
+			}
+
+			MaxLife: {
+				Name: 最大ライフ
+				Description: このNPCの最大ライフ
+			}
+
+			Life: {
+				Name: 現在のライフ
+				Description: NPCの現在のライフ
+			}
+
+			Defense: {
+				Name: 防御力
+				Description: NPCの現在の防御力
+			}
+
+			Damage: {
+				Name: ダメージ
+				Description: NPCの接触ダメージ
+			}
+
+			KBResist: {
+				Name: KB耐性
+				Description: NPCの現在の「ノックバック耐性」。実際には、ノックバックはこの値で乗算されることに注意。
+			}
+
+			AIStyle: {
+				Name: AIスタイル
+				Description: このNPCのAIスタイル。各値がどのNPCの動作に対応するかはWikiを参照。
+			}
+
+			AI: {
+				Description: "AI固有の値 "
+			}
+
+			LAI: {
+				Description: "ローカルAI固有の値 "
+			}
+		}
+
+		TEEditors: {
+			Type: {
+				Name: 種類
+				Description: タイルエンティティのID。変更すると不具合を起こす可能性が高い。
+			}
+		}
+	}
+
+	SystemEditor: {
+		DisplayName: システムエディター
+		Description: ワールドやModシステムのグローバルな設定を変更する高度なツール。
+		VanillaFields: バニラフィールド
+
+		Editors: {
+			KingSlime: {
+				Name: キングスライム撃破
+				Description: このワールドでキングスライムが討伐済みかどうか
+			}
+
+			EoC: {
+				Name: クトゥルフの目撃破
+				Description: このワールドでクトゥルフの目が討伐済みかどうか
+			}
+
+			EvilBoss: {
+				Name: 不浄や真紅のボス撃破
+				Description: ワールドの不浄や真紅のボス（イーターオブワールドまたはブレインオブクトゥルフ）が討伐済みかどうか
+			}
+
+			Skeletron: {
+				Name: スケルトロン撃破
+				Description: このワールドでスケルトロンが討伐済みかどうか
+			}
+
+			QueenBee: {
+				Name: クイーンビー撃破
+				Description: このワールドでクイーンビーが討伐済みかどうか
+			}
+
+			GoblinArmy: {
+				Name: ゴブリン軍団撃破
+				Description: このワールドでゴブリン軍団イベントが完了したかどうか
+			}
+
+			FrostLegion: {
+				Name: フロスト軍団撃破
+				Description: このワールドでフロスト軍団イベントが完了したかどうか
+			}
+
+			Hardmode: {
+				Name: ハードモード
+				Description: このワールドがハードモードかどうか
+			}
+		}
+	}
+
+	PlayerManager: {
+		DisplayName: プレイヤーマネージャー
+		Description: サーバーに接続中のプレイヤーを管理し、管理者権限の付与、キック、インベントリの編集などを行う。
+		TryRemoveYourself: 自分自身の権限を削除することはできません！
+		RemoveAdmin: "{0} は管理者ではなくなりました。"
+		AddAdmin: "{0} は管理者になりました。"
+
+		InventoryManager: {
+			Inventory: "{0} のインベントリ"
+			Equipment: 装備
+			Piggy: 貯金箱
+			Safe: セーフ
+			DefendersForge: ディフェンダーの炉
+			VoidVault: 虚空の金庫
+		}
+	}
+}
+
+BoxStyle: {
+	simple: シンプル
+	vanilla: バニラ
+}
+
+IconStyle: {
+	basic: ベーシック
+	HEROs: HEROs
+}
+
+GUIConfig: {
+	Title: GUI設定
+
+	backgroundColor: {
+		Label: 背景色
+		Tooltip: DragonLensの背景色を設定
+	}
+
+	buttonColor: {
+		Label: ボタン色
+		Tooltip: DragonLensのボタンの色を設定
+	}
+
+	boxStyle: {
+		Label: ボックススタイル
+		Tooltip: DragonLensのボックスのスタイルを設定
+	}
+
+	iconStyle: {
+		Label: アイコンパック
+		Tooltip: 使用するツールのアイコンパックを選択
+	}
+}
+
+ToolConfig: {
+	Title: ツール設定
+
+	preloadSpawners: {
+		Label: スポナーのプリロード
+		Tooltip: 使用時ではなく、Modのロード時にスポナーのエントリを読み込む。ゲーム内のフリーズを防ぐが、ロード時間が増加する可能性がある。
+	}
+
+	preloadAssets: {
+		Label: アセットのプリロード
+		Tooltip: 使用時ではなく、Modのロード時にアセットを読み込む。ゲーム内のフリーズを防ぐが、ロード時間が増加する可能性がある。
+	}
+}
+
+
