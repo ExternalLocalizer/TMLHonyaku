@@ -1,0 +1,672 @@
+Items: {
+	WeaponSelectorItem: {
+		Tooltip: 左クリックまたは右クリックでUIを開き、武器グループを管理
+		DisplayName: 武器グループマネージャー
+	}
+
+	ConfigSLer: {
+		Tooltip:
+			'''
+			左クリックで現在の設定を保存。
+			右クリックでUIを開き、選択または編集。
+			'''
+		DisplayName: 設定リーダー／ライター
+	}
+}
+
+WeaponSelector: {
+	CurrentConfig: 現在の近接武器設定
+	DefaultName: ユーザー定義グループ
+	Create: 最優先で新しいグループを作成
+
+	weaponGroup: {
+		Label: 武器リスト
+	}
+
+	BindConfigName: {
+		Label: このグループの設定（デフォルトでは現在の設定を使用）
+	}
+
+	whiteList: {
+		Label: ホワイトリストモードを使用（オフでブラックリストモード）
+	}
+
+	basedOnDefaultCondition: {
+		Label: デフォルト条件に基づく（ホワイトリストでは追加、ブラックリストでは除外）
+	}
+}
+
+ConfigSLer: {
+	Save: 保存
+	Default: デフォルトに戻す
+	Revert: 元に戻す
+	Create: 新しい設定を作成
+	Failed: /読み込み失敗\
+	Successed: \読み込み成功！/
+	NotFinishYet: このページは現在作業中です……
+
+	RenameTip: {
+		Illegal: ファイル名に次の文字は使えません: \\, /, :, *, ?, ", <, >, |
+		TooLong: ファイル名は40文字以内にしてください
+		Exists: 同じ名前のファイルがすでに存在します
+	}
+
+	Path: ファイルパス:
+	LoadThisConfig: 現在の設定に適用
+	DefaultName: ユーザー定義設定
+	SavedAs: 現在の設定を次の名前で保存しました：
+	SameDefault: "///注意！/// 保存ファイルの名前がすべてデフォルト名です。識別のために連番を追加しました。整理をお忘れなく。"
+	TooManySameName: "///失敗！/// デフォルト名のファイルが多すぎます！早急に名前を変更してください。"
+	Refresh: 更新
+}
+
+Misc: {
+	UnavailableConfig:
+		'''
+		この値は現在無効です
+		他の設定（ヒートマップモードなど）の影響によります
+		'''
+	UselessConfig:
+		'''
+		申し訳ありませんが
+		この値は現在使用されていません ;P
+		'''
+	MeleeModifyDeactive: 近接エフェクト無効
+	MeleeModifyActive: 近接エフェクト有効
+}
+
+Keybinds: {
+	ModifyActive: {
+		DisplayName: 近接エフェクトの即時オン／オフ
+	}
+}
+
+Projectiles: {
+	CIVESword: {
+		DisplayName: C.I.V.E. ソード
+	}
+}
+
+Configs: {
+	"CosineInfo[]": {
+		Tooltip: ""
+	}
+
+	ColorInfo: {
+		position: {
+			Tooltip: ""
+			Label: 座標
+		}
+
+		color: {
+			Tooltip: ""
+			Label: 色
+		}
+
+		Tooltip: ""
+	}
+
+	DesignateHeatMapData: {
+		colors: {
+			Tooltip: ""
+			Label: 色
+		}
+
+		Tooltip: ""
+	}
+
+	CosineGenerateHeatMapData_HSL: {
+		LineColors: {
+			Tooltip: ""
+			Label: 線の色
+		}
+
+		LineColorMethods: {
+			Tooltip: ""
+			Label: 線の色の決定方法
+		}
+
+		Cosines: {
+			Tooltip: ""
+			Label: コサイン波
+		}
+
+		L: {
+			Tooltip: ""
+			Label: 輝度 (L)
+		}
+
+		S: {
+			Tooltip: ""
+			Label: 彩度 (S)
+		}
+
+		H: {
+			Tooltip: ""
+			Label: 色相 (H)
+		}
+
+		Tooltip: ""
+	}
+
+	CosineInfo: {
+		phase: {
+			Tooltip: ""
+			Label: 位相
+		}
+
+		frequence: {
+			Tooltip: ""
+			Label: 周波数
+		}
+
+		amplitude: {
+			Tooltip: ""
+			Label: 振幅
+		}
+
+		valueOffset: {
+			Tooltip: ""
+			Label: 値のオフセット
+		}
+
+		Tooltip: ""
+	}
+
+	CosineGenerateHeatMapData_RGB: {
+		LineColorMethods: {
+			Tooltip: ""
+			Label: 線の色の決定方法
+		}
+
+		LineColors: {
+			Tooltip: ""
+			Label: 線の色
+		}
+
+		Cosines: {
+			Tooltip: ""
+			Label: コサイン波
+		}
+
+		Global: {
+			Tooltip: ""
+			Label: グローバル
+		}
+
+		B: {
+			Tooltip: ""
+			Label: 青 (B)
+		}
+
+		G: {
+			Tooltip: ""
+			Label: 緑 (G)
+		}
+
+		R: {
+			Tooltip: ""
+			Label: 赤 (R)
+		}
+
+		Tooltip: ""
+	}
+
+	LuminosityInfo: {
+		offset: {
+			Tooltip: ""
+			Label: オフセット
+		}
+
+		range: {
+			Tooltip: ""
+			Label: 範囲
+		}
+
+		scalar: {
+			Tooltip: ""
+			Label: 係数
+		}
+
+		Tooltip: ""
+	}
+
+	SaturationInfo: {
+		offset: {
+			Tooltip: ""
+			Label: オフセット
+		}
+
+		range: {
+			Tooltip: ""
+			Label: 範囲
+		}
+
+		scalar: {
+			Tooltip: ""
+			Label: 係数
+		}
+
+		Tooltip: ""
+	}
+
+	HueInfo: {
+		offset: {
+			Tooltip: ""
+			Label: オフセット
+		}
+
+		range: {
+			Tooltip: ""
+			Label: 範囲
+		}
+
+		Tooltip: ""
+	}
+
+	ByFuncHeatMapData: {
+		L: {
+			Tooltip: ""
+			Label: 輝度 (L)
+		}
+
+		S: {
+			Tooltip: ""
+			Label: 彩度 (S)
+		}
+
+		H: {
+			Tooltip: ""
+			Label: 色相 (H)
+		}
+
+		Tooltip: ""
+	}
+
+	MeleeModifyLevel: {
+		Overhaul: {
+			Label: 全面改変
+		}
+
+		VisualOnly: {
+			Label: 見た目のみ
+		}
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		Tooltip: ""
+	}
+
+	SeverConfig: {
+		AutoBalanceData: {
+			Tooltip:
+				'''
+				「全面改変」モードが必要です
+				ホスト側で処理され、
+				バランス崩壊を防ぎます
+
+				プロジェクタイルのダメージには影響しません
+
+				攻撃速度が2倍の場合、ダメージは半分になります
+
+				詳細な計算式は以下の通りです：
+				BaseDamage * TimeScaler 
+				    / sqrt(SizeScaler)
+				    / max(1,pow(KnockBackScaler,0.25)) 
+				    / (1 + 0.01 * CirtAdd + 0.2 * CirtMult)
+				'''
+			Label: ダメージ自動バランス
+		}
+
+		meleeModifyLevel: {
+			Tooltip:
+				'''
+				エフェクトを楽しみつつ、バランスも保ちたい人のために、
+				ついに改変レベルの選択肢を追加しました。
+				ホストは改変レベルを設定でき、
+				プレイヤーは近接設定内で改変の使用を選べます。
+				'''
+			Label: 近接改変レベル
+		}
+
+		DisplayName: サーバー設定
+	}
+
+	MiscConfig: {
+		TeleprotEffectActive: {
+			Tooltip: ""
+			Label: テレポート演出を有効化
+		}
+
+		VanillaProjectileDrawModifyActive: {
+			Tooltip: ""
+			Label: プロジェクタイル描画の追加効果を有効化
+		}
+
+		ItemInventoryEffectActive: {
+			Tooltip: ""
+			Label: インベントリ内アイテムに発光効果を追加
+		}
+
+		ItemDropEffectActive: {
+			Tooltip: ""
+			Label: 地面に落ちたアイテムに発光効果を追加
+		}
+
+		weaponScale: {
+			Tooltip: ""
+			Label: 武器の表示サイズ
+		}
+
+		firstWeaponDisplay: {
+			Tooltip: ""
+			Label: プレイヤー画面での武器表示
+		}
+
+		useWeaponDisplay: {
+			Tooltip: ""
+			Label: 武器表示の有効化
+		}
+
+		usePreview: {
+			Tooltip: ""
+			Label: プレビューを使用
+		}
+
+		DisplayName: その他の設定
+	}
+
+	MeleeConfig: {
+		designateData: {
+			Tooltip: ""
+			Label: 指定データ
+		}
+
+		hslData: {
+			Tooltip: ""
+			Label: HSLデータ
+		}
+
+		rgbData: {
+			Tooltip: ""
+			Label: RGBデータ
+		}
+
+		byFuncData: {
+			Tooltip: ""
+			Label: 関数指定データ
+		}
+
+		useRenderEffectPVInOtherConfig: {
+			Tooltip: ""
+			Label: 他のプレビューにも特殊効果を適用
+		}
+
+		dyeConfigs: {
+			Tooltip: 今日の色合いはどれにする？
+			Label: 染色エフェクト
+		}
+
+		maskConfigs: {
+			Tooltip: ""
+			Label: 星空マスクエフェクト
+		}
+
+		bloomConfigs: {
+			Tooltip: ""
+			Label: ブルームエフェクト
+		}
+
+		distortConfigs: {
+			Tooltip: ""
+			Label: 空気ゆがみエフェクト
+		}
+
+		showHeatMap: {
+			Tooltip: ""
+			Label: ヒートマップを表示
+		}
+
+		heatMapColors: {
+			Tooltip: ""
+			Label: 指定ヒートマップの色リスト
+		}
+
+		directOfHeatMap: {
+			Tooltip: ""
+			Label: カラーバーのオフセット角度
+		}
+
+		luminosityOffsetValue: {
+			Tooltip: ""
+			Label: 元の輝度のオフセット値
+		}
+
+		luminosityRange: {
+			Tooltip: ""
+			Label: 元の輝度のオフセット範囲
+		}
+
+		luminosityScalar: {
+			Tooltip: ""
+			Label: 輝度の係数
+		}
+
+		saturationOffsetValue: {
+			Tooltip: ""
+			Label: 元の彩度のオフセット値
+		}
+
+		saturationRange: {
+			Tooltip: ""
+			Label: 元の彩度のオフセット範囲
+		}
+
+		saturationScalar: {
+			Tooltip: ""
+			Label: 彩度の係数
+		}
+
+		hueOffsetValue: {
+			Tooltip: ""
+			Label: 元の色相のオフセット値[i:2870]
+		}
+
+		hueOffsetRange: {
+			Tooltip: ""
+			Label: 色相のオフセット範囲
+		}
+
+		heatMapFactorStyle: {
+			Tooltip: ""
+			Label: ヒートマップ係数のスタイル
+		}
+
+		heatMapCreateStyle: {
+			Tooltip: ""
+			Label: ヒートマップ生成スタイル
+		}
+
+		itemAdditive: {
+			Tooltip: ""
+			Label: 武器および斬撃エフェクトを半透明・強調表示
+		}
+
+		isLighterDecider: {
+			Tooltip: ""
+			Label: 明るい武器の基準
+		}
+
+		alphaFactor: {
+			Tooltip: ""
+			Label: 透明度の係数
+		}
+
+		colorVector: {
+			Tooltip: ""
+			Label: 色の係数ベクトル
+		}
+
+		weaponExtraLight: {
+			Tooltip: ""
+			Label: 武器の追加発光
+		}
+
+		dustQuantity: {
+			Tooltip: ""
+			Label: 粒子の量
+		}
+
+		glowLight: {
+			Tooltip: ""
+			Label: Minecraftのエンチャント風発光
+		}
+
+		swingAttackTime: {
+			Tooltip: ""
+			Label: 斬撃の最大時間（現在未使用）
+		}
+
+		shake: {
+			Tooltip: ""
+			Label: 画面揺れの強さ
+		}
+
+		swooshTimeLeft: {
+			Tooltip: ""
+			Label: 残りスウッシュ時間
+		}
+
+		animateIndexStab: {
+			Tooltip: ""
+			Label: 突きアニメーションのテクスチャスタイル
+		}
+
+		baseIndexStab: {
+			Tooltip: ""
+			Label: 突きの形状テクスチャスタイル
+		}
+
+		animateIndexSwoosh: {
+			Tooltip: ""
+			Label: 斬撃アニメーションのテクスチャスタイル
+		}
+
+		baseIndexSwoosh: {
+			Tooltip: ""
+			Label: 斬撃の形状テクスチャスタイル
+		}
+
+		swooshActionStyle: {
+			Tooltip: ""
+			Label: 実行シーケンス
+		}
+
+		SwordModifyActive: {
+			Tooltip: ""
+			Label: 近接武器改造を有効化
+		}
+
+		UsePreview: {
+			Tooltip: ""
+			Label: プレビューを使用
+		}
+
+		Headers: {
+			MiscPart: "[i:1344]その他の設定"
+			EffectPart: "[i:3541]特殊効果設定"
+			RenderingPart: "[i:2012]レンダリング設定"
+			MeleeModifyPart: "[i:1199]近接武器視覚効果設定"
+		}
+
+		DisplayName: 近接武器設定
+	}
+
+	HeatMapFactorStyle: {
+		SmoothFloor: {
+			Label: スムーズ床
+		}
+
+		SquareRoot: {
+			Label: 平方根
+		}
+
+		Quadratic: {
+			Label: 二次式
+		}
+
+		Floor: {
+			Label: 切り捨て
+		}
+
+		Linear: {
+			Label: 線形
+		}
+
+		Tooltip: ""
+	}
+
+	HeatMapCreateStyle: {
+		CosineGenerate_HSL: {
+			Label: コサイン生成_HSL
+		}
+
+		CosineGenerate_RGB: {
+			Label: コサイン生成_RGB
+		}
+
+		CosineGenerate: {
+			Label: コサイン生成
+		}
+
+		Designate: {
+			Label: 指定
+		}
+
+		FromTexturePixel: {
+			Label: テクスチャピクセルから
+		}
+
+		ByFunction: {
+			Label: 関数から
+		}
+
+		Tooltip: ""
+	}
+
+	ColorVector: {
+		useLessValues: {
+			Tooltip: ""
+			Label: 小さい値を使用
+		}
+
+		Tooltip: ""
+
+		normalize: {
+			Tooltip: 「はい」にすると、ドット積((1,1,1),ColorVector)は1になります
+			Label: 正規化
+		}
+
+		heatMapAlpha: {
+			Tooltip: ヒートマップ係数
+			Label: ヒートマップ
+		}
+
+		weaponColorAlpha: {
+			Tooltip: 武器の対角色の係数
+			Label: 対角
+		}
+
+		mapColorAlpha: {
+			Tooltip: グラデーションの係数
+			Label: グラデーション
+		}
+	}
+
+	ModernConfigTitle: 設定センター
+}
+
+EmptyHand: 手ぶら
+
