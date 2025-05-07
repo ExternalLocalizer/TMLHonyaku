@@ -1,0 +1,688 @@
+ClientCheck: ホストのみがサーバーオプションを編集できます。
+
+Configs: {
+	ToolData: {
+		Enabled: {
+			Tooltip: 最初のツールを交換します
+			Label: 有効化
+		}
+
+		RandomPrefix: {
+			Tooltip: 接頭辞をランダムに設定します
+			Label: ランダム接頭辞
+		}
+
+		Prefix: {
+			Tooltip: 選択したアイテムに接頭辞を付与します
+			Label: 接頭辞
+		}
+
+		SelectedItem: {
+			Tooltip: 最初のツールと交換されるアイテム
+			Label: 交換アイテム
+		}
+
+		Tooltip: ""
+	}
+
+	AccessoryData: {
+		RandomPrefix: {
+			Tooltip: 付与される接頭辞をランダム化します
+			Label: ランダム接頭辞
+		}
+
+		Prefix: {
+			Tooltip: 選択したアクセサリーに接頭辞を付与します
+			Label: 接頭辞
+		}
+
+		SelectedItem: {
+			Tooltip: 選択したアクセサリーを自動で装備します
+			Label: アクセサリー
+		}
+
+		Tooltip: ""
+	}
+
+	EquipmentSettings: {
+		Accessories: {
+			Tooltip:
+				'''
+				選択したアクセサリーを自動で装備します
+				バニラの7つのアクセサリースロットのみが埋まります
+				それ以上選ぶと、別途スポーンされます
+				'''
+			Label: アクセサリー
+		}
+
+		AccsEquipOption: {
+			Tooltip:
+				'''
+				すでにアクセサリーが装備されている場合の動作
+				Forget: 新しいアクセサリーのスポーンを防ぐ
+				Separate: 新しいアクセサリーを別枠でスポーンする
+				Replace: 現在のアクセサリーを外し、新しいものを装備する
+				Overwrite: 現在のアクセサリーを削除し、新しいものを装備する
+				'''
+			Label: 装備モード
+		}
+
+		EnableAccs: {
+			Tooltip: 実際にこれらのアクセサリーをスポーン／装備するかどうか
+			Label: 有効化
+		}
+
+		EquipsEquipOption: {
+			Tooltip:
+				'''
+				すでに装備がある場合の動作
+				Forget: 新しい装備のスポーンを防ぐ
+				Separate: 新しい装備を別枠でスポーンする
+				Replace: 現在の装備を外し、新しいものを装備する
+				Overwrite: 現在の装備を削除し、新しいものを装備する
+				'''
+			Label: 装備モード
+		}
+
+		EnableEquips: {
+			Tooltip: 実際にこの装備をスポーン／装備するかどうか
+			Label: 有効化
+		}
+
+		Hook: {
+			Tooltip: グラップリングフック枠にアイテムを自動装備します
+			Label: グラップリングフック
+		}
+
+		Mount: {
+			Tooltip: マウント枠にアイテムを自動装備します
+			Label: マウント
+		}
+
+		Minecart: {
+			Tooltip: トロッコ枠にアイテムを自動装備します
+			Label: トロッコ
+		}
+
+		LightPet: {
+			Tooltip: 光るペット枠にアイテムを自動装備します
+			Label: 光ペット
+		}
+
+		Pet: {
+			Tooltip: ペット枠にアイテムを自動装備します
+			Label: ペット
+		}
+
+		VanityEquipOption: {
+			Tooltip:
+				'''
+				すでに衣装がある場合の動作
+				Forget: 新しい衣装のスポーンを防ぐ
+				Separate: 新しい衣装を別枠でスポーンする
+				Replace: 現在の衣装を外し、新しいものを装備する
+				Overwrite: 現在の衣装を削除し、新しいものを装備する
+				'''
+			Label: 装備モード
+		}
+
+		EnableVanity: {
+			Tooltip: 実際にこの衣装装備をスポーン／装備するかどうか
+			Label: 有効化
+		}
+
+		VanityPants: {
+			Tooltip: 脚用の衣装スロットにアイテムを自動装備します
+			Label: パンツ
+		}
+
+		VanityShirt: {
+			Tooltip: 胸用の衣装スロットにアイテムを自動装備します
+			Label: シャツ
+		}
+
+		VanityHead: {
+			Tooltip: 頭用の衣装スロットにアイテムを自動装備します
+			Label: 頭
+		}
+
+		ArmorEquipOption: {
+			Tooltip:
+				'''
+				すでに防具が装備されている場合の動作
+				Forget: 新しい防具のスポーンを防ぐ
+				Separate: 新しい防具を別枠でスポーンする
+				Replace: 現在の防具を外し、新しいものを装備する
+				Overwrite: 現在の防具を削除し、新しいものを装備する
+				'''
+			Label: 装備モード
+		}
+
+		EnableArmor: {
+			Tooltip: 実際にこの防具をスポーン／装備するかどうか
+			Label: 有効化
+		}
+
+		Leggings: {
+			Tooltip: 脚用の防具スロットにアイテムを自動装備します
+			Label: レギンス
+		}
+
+		Breastplate: {
+			Tooltip: 胸用の防具スロットにアイテムを自動装備します
+			Label: 胸当て
+		}
+
+		Helmet: {
+			Tooltip: 頭用の防具スロットにアイテムを自動装備します
+			Label: ヘルメット
+		}
+
+		Headers: {
+			Accessories: アクセサリー
+			Equipment: 装備
+			VanityArmor: 衣装
+			Armor: 防具
+			Tools: ツール
+		}
+
+		Tooltip: ""
+	}
+
+	ToolSettings: {
+		Hammer: {
+			Tooltip: インベントリ内の最初のハンマーを置き換えます
+			Label: ハンマー [i:196]
+		}
+
+		Axe: {
+			Tooltip: インベントリ内の最初の斧を置き換えます
+			Label: 斧 [i:3506]
+		}
+
+		Pickaxe: {
+			Tooltip: インベントリ内の最初のツルハシを置き換えます
+			Label: ツルハシ [i:3509]
+		}
+
+		Weapon: {
+			Tooltip: インベントリ内の最初の武器を置き換えます
+			Label: 武器 [i:3507]
+		}
+
+		Headers: {
+			Tools: ツール
+		}
+
+		Tooltip: ""
+	}
+
+	NPCSettings: {
+		Princess: {
+			Label: プリンセス
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Truffle: {
+			Label: トリュフ
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		TaxCollector: {
+			Label: 収税史
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Wizard: {
+			Label: 魔法使い
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		PartyGirl: {
+			Label: パーティガール
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Mechanic: {
+			Label: メカニック
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Gobbo: {
+			Label: ゴブリンのよろず屋
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Stylist: {
+			Label: スタイリスト
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Tavernkeep: {
+			Label: 居酒屋
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		ArmsDealer: {
+			Label: 武器商人
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Golfer: {
+			Label: ゴルファー
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Angler: {
+			Label: 釣り人
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		DyeTrader: {
+			Label: 染料商人
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Demolitionist: {
+			Label: 爆破技師
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Nurse: {
+			Label: ナース
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		Merchant: {
+			Label: 商人
+			Tooltip: このNPCがすぐに引っ越して来られるようにします
+		}
+
+		SquireSlime: {
+			Label: 騎士見習いスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		MysticSlime: {
+			Label: 魔法使いスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		SurlySlime: {
+			Label: ぶっきらぼうなスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		Sparkly: {
+			Label: 歌姫スライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		ClumsySlime: {
+			Label: 不器用なスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		ElderSlime: {
+			Label: 長老スライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		CoolSlime: {
+			Label: クールなスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		NerdySlime: {
+			Label: ナードなスライム
+			Tooltip: このタウンスライムがすぐに引っ越して来られるようにします
+		}
+
+		Bunny: {
+			Tooltip: ウサギがすぐに引っ越して来られるようにします
+			Label: ウサギ [i:4910]
+		}
+
+		Dog: {
+			Tooltip: イヌがすぐに引っ越して来られるようにします
+			Label: イヌ [i:4830]
+		}
+
+		Cat: {
+			Tooltip: ネコがすぐに引っ越して来られるようにします
+			Label: ネコ [i:4829]
+		}
+
+		AdvancedCombat2: {
+			Tooltip: タウンNPCの戦闘力を永続的に上昇させます
+			Label: 高度な戦闘テクニック2 [i:5336]
+		}
+
+		AdvancedCombat1: {
+			Tooltip: タウンNPCの戦闘力を永続的に上昇させます
+			Label: 高度な戦闘テクニック [i:4382]
+		}
+
+		PeddlerSatchel: {
+			Tooltip: 旅商人が販売するアイテムの数を永続的に増加させます
+			Label: 旅商人のカバン  [i:5343]
+		}
+
+		Headers: {
+			Villagers: タウンNPCの解放
+			Slimes: タウンスライムの解放
+			Pets: タウンペットライセンス
+			Boosts: 永続ブースター
+		}
+
+		Tooltip:
+			'''
+			どのタウンNPCが解放されているかや、その他のステータスを変更します
+			これらのオプションはワールドのオーナーのみ適用できます
+			（一部のタウンNPCは固定された出現条件があります）
+			'''
+		Label: NPC設定
+	}
+
+	PlayerSettings: {
+		MinecartUpgrade: {
+			Tooltip: マインカートがスピードアップし、仲間のプローブを搭載できるようになります
+			Label: マインカート強化 [i:5289]
+		}
+
+		DemonHeart: {
+			Tooltip:
+				'''
+				アクセサリスロットを1つ永続的に増加させます
+				（エキスパート/マスター/レジェンダリー世界のみ）
+				'''
+			Label: デーモンハート [i:3335]
+		}
+
+		TorchGod: {
+			Tooltip: 自動でバイオームに合ったトーチを設置できるようになります
+			Label: たいまつの神の加護 [i:5043]
+		}
+
+		GalaxyPearl: {
+			Tooltip: 幸運度を永続的に上昇させます
+			Label: ギャラクシーパール [i:5340]
+		}
+
+		GummyWorm: {
+			Tooltip: 釣りスキルを永続的に向上させます
+			Label: グミワーム [i:5341]
+		}
+
+		Ambrosia: {
+			Tooltip: 採掘速度と建築速度を永続的に向上させます
+			Label: アンブロシア [i:5342]
+		}
+
+		ArcaneCrystal: {
+			Tooltip: マナ回復速度を永続的に強化します
+			Label: アーケインクリスタル [i:5339]
+		}
+
+		AegisFruit: {
+			Tooltip: 防御力を永続的に上昇させます
+			Label: イージスフルーツ [i:5338]
+		}
+
+		VitalCrystal: {
+			Tooltip: ライフ回復速度を永続的に強化します
+			Label: バイタルクリスタル [i:5337]
+		}
+
+		ArtisanLoaf: {
+			Tooltip: 作業台の使用範囲を永続的に広げます
+			Label: 手作のパン [i:5326]
+		}
+
+		AutoAnglerReward: {
+			Tooltip:
+				'''
+				釣り人クエストの達成数を十分高く設定すると、対応するマイルストーンアイテムが付与されます
+				最終マイルストーン（黄金の釣竿）は30回達成で入手できます
+				'''
+			Label: 釣り人限定報酬付与 [i:2294]
+		}
+
+		GolferScore: {
+			Tooltip: スコアが高いほど、ゴルファーショップの商品が増えます（最大2001ポイント）
+			Label: ゴルファースコア [i:3989]
+		}
+
+		AnglerQuests: {
+			Tooltip:
+				'''
+				達成数が多いほど、釣り人から受け取れる報酬が良くなります
+				アイテム入手率は150回で最大になり、ノーマルモードのコイン報酬は約650枚で上限に達します
+				'''
+			Label: 釣りクエスト達成数 [i:2290]
+		}
+
+		PiggyBank: {
+			Tooltip: 初期コインを直接コインスロットではなく豚の貯金箱に追加します
+			Label: コインを貯金箱に保存 [i:87]
+		}
+
+		CoinCopper: {
+			Tooltip: ""
+			Label: カッパーコイン [i:71]
+		}
+
+		CoinSilver: {
+			Tooltip: ""
+			Label: シルバーコイン [i:72]
+		}
+
+		CoinGold: {
+			Tooltip: ""
+			Label: ゴールドコイン [i:73]
+		}
+
+		CoinPlat: {
+			Tooltip: ""
+			Label: プラチナコイン [i:74]
+		}
+
+		ManaCrystals: {
+			Tooltip: マナクリスタル1個ごとに、初期最大マナが20増加します
+			Label: マナクリスタル [i:109]
+		}
+
+		LifeFruit: {
+			Tooltip:
+				'''
+				ライフフルーツ1個ごとに、初期最大ライフが5増加します
+				ライフクリスタルが最大(15個)に達していない場合は、別枠で付与されます
+				'''
+			Label: ライフフルーツ [i:1291]
+		}
+
+		LifeCrystals: {
+			Tooltip: ライフクリスタル1個ごとに、初期最大ライフが20増加します
+			Label: ライフクリスタル [i:29]
+		}
+
+		Headers: {
+			Boosts: 永続ブースト
+			NPCStats: NPCステータス
+			Coins: 初期コイン
+			MaxStats: ライフとマナ
+		}
+
+		Tooltip: プレイヤーの最大ライフ、マナ、コインなどを変更します
+		Label: プレイヤー設定
+	}
+
+	ItemStats: {
+		RandomPrefix: {
+			Tooltip: 接頭辞をランダムで付与します
+			Label: 接頭辞をランダム化
+		}
+
+		Prefix: {
+			Tooltip: 選択中のアイテムに接頭辞を付与します
+			Label: 接頭辞
+		}
+
+		Stack: {
+			Tooltip:
+				'''
+				アイテムのスタック数（最大数を超えることはない）
+				「0」に設定するとスタック数をランダム化させる
+				'''
+			Label: スタック数
+		}
+
+		Tooltip: ""
+	}
+
+	ItemData: {
+		Stats: {
+			Tooltip: アイテムのスタック数と接頭辞を変更します
+			Label: アイテムステータス
+		}
+
+		RandomItem: {
+			Tooltip: 選択したアイテムの代わりにランダムなアイテムを取得します
+			Label: アイテムをランダム化
+		}
+
+		SelectedItem: {
+			Tooltip: スターターバッグに追加するアイテムを選択します
+			Label: アイテム
+		}
+
+		Tooltip: ""
+	}
+
+	ServerConfig: {
+		Items: {
+			Tooltip:
+				'''
+				アイテムを選ぶだけでスターターバッグに追加！
+				スタック数や接頭辞も設定でき、ランダム化も可能！
+				'''
+			Label: アイテム
+		}
+
+		equipSettings: {
+			Tooltip: 装備する防具とアクセサリーを選択します
+			Label: 装備設定
+		}
+
+		toolSettings: {
+			Tooltip:
+				'''
+				初期装備の剣、ツルハシ、斧を他のアイテムに置き換えます
+				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
+				'''
+			Label: ツール設定
+		}
+
+		npcSettings: {
+			Tooltip:
+				'''
+				登場させるタウンNPCや一部ステータスを変更します
+				これらのオプションはワールドのオーナーのみ適用可能です
+				（タウンNPCには固定された出現条件があるものも存在します）
+				'''
+			Label: NPC設定
+		}
+
+		playerSettings: {
+			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更
+			Label: プレイヤー設定
+		}
+
+		ServerOption: {
+			Tooltip:
+				'''
+				有効にするとサーバー側設定を優先（ホストのみ設定可能）
+				マルチプレイ時、クライアント設定を壊さずに全員のアイテムを同期させます
+				'''
+			Label: サーバー設定を使用
+		}
+
+		Headers: {
+			Items: アイテム
+			Settings: 一般設定
+			Server: サーバー
+		}
+
+		DisplayName: サーバー設定
+	}
+
+	ClientConfig: {
+		Items: {
+			Tooltip:
+				'''
+				アイテムを選ぶだけでスターターバッグに追加！
+				スタック数や接頭辞も設定でき、ランダム化も可能！
+				'''
+			Label: アイテム
+		}
+
+		equipSettings: {
+			Tooltip: 装備する防具とアクセサリーを選択します
+			Label: 装備設定
+		}
+
+		toolSettings: {
+			Tooltip:
+				'''
+				初期装備の剣、ツルハシ、斧を他のアイテムに置き換え可能です
+				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
+				'''
+			Label: ツール設定
+		}
+
+		npcSettings: {
+			Tooltip:
+				'''
+				登場させるタウンNPCや一部ステータスを変更します
+				これらのオプションはワールドのオーナーのみ適用可能です
+				（タウンNPCには固定された出現条件があるものも存在します）
+				'''
+			Label: NPC設定
+		}
+
+		playerSettings: {
+			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更します
+			Label: プレイヤー設定
+		}
+
+		Headers: {
+			Items: アイテム
+			Settings: 一般設定
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+Items: {
+	LunarosHeart: {
+		Tooltip:
+			'''
+			「旅路に感謝を」
+			使用するとライフが最大まで回復する
+			ハードコアキャラクターの場合、死を無効化する
+			'''
+		DisplayName: ルナロスの心臓
+	}
+
+	StartingBag: {
+		Tooltip:
+			'''
+			右クリックで開く
+			いくつか役立つ初期アイテムが入っているかも
+			「Mod設定」ページから内容をカスタマイズ可能！
+			'''
+		DisplayName: スターターバッグ
+	}
+}
+
