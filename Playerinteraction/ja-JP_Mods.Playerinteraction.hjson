@@ -1,0 +1,112 @@
+InteractionHeader: インタラクション設定
+
+RefreshHeader: 更新設定
+
+PrivacyHeader: プライバシー設定
+
+UIHeader: ユーザーインターフェース設定
+
+Configs: {
+	PlayerInteractionConfig: {
+		DisplayName: プレイヤーインタラクション設定
+
+		InteractionDistanceBlocks: {
+			Label: インタラクション距離（ブロック）
+			Tooltip: ""
+		}
+
+		EnableMinimapInteraction: {
+			Label: ミニマップでのインタラクションを有効化
+			Tooltip: ""
+		}
+
+		EnableNameplateInteraction: {
+			Label: ネームプレートでのインタラクションを有効化
+			Tooltip: ""
+		}
+
+		EnableAutoRefresh: {
+			Label: 自動更新を有効化
+			Tooltip: ""
+		}
+
+		AutoRefreshInterval: {
+			Label: 自動更新間隔
+			Tooltip: ""
+		}
+
+		EnableRealTimeUpdates: {
+			Label: リアルタイム更新を有効化
+			Tooltip: ""
+		}
+
+		DefaultPrivacyLevel: {
+			Label: デフォルトのプライバシーレベル
+			Tooltip: ""
+		}
+
+		KeepInspectionHistory: {
+			Label: 検査履歴を保持
+			Tooltip: ""
+		}
+
+		AllowSpectatorInspection: {
+			Label: 観戦者による検査を許可
+			Tooltip: ""
+		}
+
+		InterfaceTheme: {
+			Label: インターフェーステーマ
+			Tooltip: ""
+		}
+
+		EnableChatCommands: {
+			Label: チャットコマンドを有効化
+			Tooltip: ""
+		}
+	}
+
+	PrivacyLevel: {
+		Tooltip: ""
+
+		Public: {
+			Label: 公開
+		}
+
+		TeamOnly: {
+			Label: チームのみ
+		}
+
+		FriendsOnly: {
+			Label: フレンドのみ
+		}
+
+		Nobody: {
+			Label: 非公開
+		}
+	}
+
+	UITheme: {
+		Tooltip: ""
+
+		Default: {
+			Label: デフォルト
+		}
+
+		Dark: {
+			Label: ダーク
+		}
+
+		Light: {
+			Label: ライト
+		}
+
+		Classic: {
+			Label: クラシック
+		}
+
+		Modern: {
+			Label: モダン
+		}
+	}
+}

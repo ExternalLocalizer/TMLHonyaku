@@ -1,0 +1,77 @@
+Keybinds: {
+	SetRecipe: {
+		DisplayName: レシピ設定/ツリー表示
+	}
+}
+
+Configs: {
+	CraftingConfig: {
+		DisplayName: クラフト設定
+
+		Headers: {
+			RecipeSettings: レシピ設定
+			LineSettings: ライン設定
+			DebugSettings: デバッグ設定
+		}
+
+		AllowWhenTyping: {
+			Label: 入力中の操作許可
+			Tooltip: ""
+		}
+
+		MaxIngredients: {
+			Label: 最大素材数
+			Tooltip: 1つのレシピに含められる異なる素材の最大数
+		}
+
+		MaxCraftingSteps: {
+			Label: 最大クラフト工程数
+			Tooltip: レシピの最大工程数
+		}
+
+		AllowBannerUse: {
+			Label: バナー使用許可
+			Tooltip: レシピにバナーを使用できるようにする（主にFargo's向け）
+		}
+
+		StopWhenOwned: {
+			Label: 所持アイテムのレシピ生成停止
+			Tooltip: すでに所持しているアイテムのレシピを生成しない
+		}
+
+		VisualizeTree: {
+			Label: ツリーの可視化
+			Tooltip: レシピ生成時の負荷が増加し、表示される素材数が増える
+		}
+
+		GenerateRecipe: {
+			Label: レシピ生成
+			Tooltip: 素材から直接アイテムを作成できるレシピを追加する
+		}
+
+		ShowOwnedOnTree: {
+			Label: 所持アイテムのツリー表示
+			Tooltip: 所持状況に応じてツリーの色を変更する
+		}
+
+		HorizontalLineThickness: {
+			Label: 水平ラインの太さ
+			Tooltip: ""
+		}
+
+		VerticalLineThickness: {
+			Label: 垂直ラインの太さ
+			Tooltip: ""
+		}
+
+		LineColor: {
+			Label: ラインの色
+			Tooltip: ""
+		}
+
+		EnableLogging: {
+			Label: ログ記録を有効化
+			Tooltip: クライアントのログファイルに記録を追加する
+		}
+	}
+}
