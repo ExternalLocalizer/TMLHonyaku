@@ -1,0 +1,106 @@
+Units: {
+	Distance: {
+		FeetCompact: "{0}'"
+		Feet: "{0} フィート"
+		Tiles: "{0} ブロック"
+		TilesCompact: "{0}*"
+		Metres: "{0} メートル"
+		Pixels: "{0} ピクセル"
+	}
+
+	Speed: {
+		MilesPerHour: "{0} mph"
+		MilesPerHourSI: "{0} mi/h"
+		KilometresPerHour: "{0} km/h"
+		MetresPerSecond: "{0} m/s"
+		TilesPerSecond: "{0} tl/s"
+		PixelsPerTick: "{0} px/tc"
+	}
+
+	DPS: {
+		DPSFull: "{0} damage per second"
+		DPSCompact: "{0} DPS"
+	}
+}
+
+Configs: {
+	UnitConfig: {
+		DisplayName: Configuration
+
+		distanceUnitID: {
+			Label: 距離単位
+			Tooltip:
+				'''
+				1: 簡易フィート (100')
+				2: フィート (100 ft)
+				3: ブロック (50 ブロック)
+				4: 簡易ブロック (50*)
+				5: メートル (30.4 m)
+				6: ピクセル (800 px)
+				'''
+		}
+
+		speedUnitID: {
+			Label: 速度単位
+			Tooltip:
+				'''
+				1: 毎時マイル (100 mph)
+				2: 毎時マイル国際表記 (100 mi/h)
+				3: 毎時キロメートル (161 km/h)
+				4: 毎秒メートル (45 m/s)
+				5: 毎秒ブロック (73 tl/s)
+				6: 毎ティックピクセル (20 px/tc)
+				'''
+		}
+
+		DPSUnitID: {
+			Label: DPS単位
+			Tooltip:
+				'''
+				1: バニラ (100 damage per second)
+				2: 簡易 (100 DPS)
+				'''
+		}
+
+		depthMeterRoundUp: {
+			Label: 深度計の値の切り捨て
+			Tooltip:
+				'''
+				深度計の表示値の小数点を切り捨てる。「1.5' 地下」を「1' 地下」にする
+				有効化でバニラの挙動になる
+				'''
+		}
+
+		weatherRadioCycle: {
+			Label: 天気ラジオで砂嵐情報を表示
+			Tooltip:
+				'''
+				風の情報と砂嵐発生情報の表示を定期的に繰り返す (砂嵐が発生している場合).
+				無効にすると砂嵐の間は情報の最後に「+」が表示されるだけになる
+				有効化でバニラの挙動になる
+				'''
+		}
+
+		rounding: {
+			Label: 小数点表示の切り捨て
+			Tooltip:
+				'''
+				有効にすると、単位に応じて表示される数値を小数点第一位までに切り捨てる
+				デバッグする際に活用できる。
+				'''
+		}
+
+		Header: {
+			Units: "[i:3095] 表示単位"
+			Misc: "[i:207] その他"
+		}
+	}
+}
+
+GameUI: {
+	EastWind: " (東風 {0})"
+	WestWind: " (西風 {0})"
+	CompassEast: "{0} 東"
+	CompassWest: "{0} 西"
+}
+
