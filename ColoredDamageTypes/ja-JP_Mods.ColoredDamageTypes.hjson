@@ -1,0 +1,295 @@
+Configs: {
+    Config: {
+        DisplayName: 設定
+
+		Headers: {
+			Presets: プリセット
+			Toggles: 切り替え
+			Condense: ダメージ設定の統合（実験的）
+			Debug: デバッグ設定。よく分からない場合は変更しないでください
+		}
+
+		PillarPreset: {
+			Label: セレスティアルピラーの色
+			Tooltip: バニラのダメージおよびツールチップの色を、セレスティアルピラーの色に合わせます
+		}
+
+		ChangeTooltipColor: {
+			Label: ツールチップの色を変更
+			Tooltip: Modがアイテムにカーソルを合わせた際のツールチップテキストの色を変更できるようにします
+		}
+
+		ChangeDamageColor: {
+			Label: ダメージの色を変更
+			Tooltip: Modが敵に攻撃した際のダメージ数字の色を変更できるようにします
+		}
+
+		ShowDamageNumbers: {
+			Label: ダメージ数字を表示
+			Tooltip: すべてのダメージ数字の表示/非表示を切り替えます
+		}
+
+		ShowMultiplayerDamageNumbers: {
+			Label: マルチプレイヤーで他のプレイヤーのダメージ数字を表示
+			Tooltip: マルチプレイヤーで他のプレイヤーのダメージ数字の表示/非表示を切り替えます
+		}
+
+		CondenseDamageHits: {
+			Label: ダメージ数値の統合（0に設定で無効）
+			Tooltip: この回数ヒットした後にのみ数字が表示され、以前までのヒットの合計値を示します
+		}
+
+		ShowCondenseDamageOnKill: {
+			Label: 撃破時に常に統合ダメージを表示
+			Tooltip: 敵を撃破時にダメージ数字を常に表示します
+		}
+
+		DebugMode: {
+			Label: デバッグモード
+			Tooltip: 有効にしないでください
+		}
+
+		DebugModeTooltips: {
+			Label: デバッグモードツールチップ
+			Tooltip: 有効にしないでください
+		}
+
+		DebugModeFields: {
+			Label: デバッグモードフィールド
+			Tooltip: 有効にしないでください
+		}
+
+		DebugModeMultiplayer: {
+			Label: デバッグモード（マルチプレイヤー）
+			Tooltip: 有効にしないでください
+		}
+	}
+
+	DamageConfig: {
+		DisplayName: ダメージ設定
+
+		Headers: {
+			Colors: ダメージの色
+		}
+
+		VanillaDmg: {
+			Label: バニラ
+			Tooltip: ""
+		}
+	}
+
+	Vanilla: {
+		Tooltip: ""
+
+		MeleeDmg: {
+			Label: 近接
+			Tooltip: ""
+		}
+
+		RangedDmg: {
+			Label: 遠距離
+			Tooltip: ""
+		}
+
+		MagicDmg: {
+			Label: 魔法
+			Tooltip: ""
+		}
+
+		ThrowingDmg: {
+			Label: 投擲
+			Tooltip: ""
+		}
+
+		SummonDmg: {
+			Label: 召喚
+			Tooltip: ""
+		}
+
+		SentryDmg: {
+			Label: セントリー
+			Tooltip: ""
+		}
+
+		TooltipDefense: {
+			Label: 防御
+			Tooltip: 防具の防御ツールチップの色
+		}
+
+		TooltipMelee: {
+			Label: 近接
+			Tooltip: 近接武器のダメージツールチップの色
+		}
+
+		TooltipRanged: {
+			Label: 遠距離
+			Tooltip: 遠距離武器のダメージツールチップの色
+		}
+
+		TooltipMagic: {
+			Label: 魔法
+			Tooltip: 魔法武器のダメージツールチップの色
+		}
+
+		TooltipThrowing: {
+			Label: 投擲
+			Tooltip: 投擲武器のダメージツールチップの色
+		}
+
+		TooltipSummon: {
+			Label: 召喚
+			Tooltip: 召喚武器のダメージツールチップの色
+		}
+
+		TooltipSentry: {
+			Label: セントリー
+			Tooltip: セントリー武器のダメージツールチップの色
+		}
+	}
+
+	Melee: {
+		Tooltip: ""
+
+		MeleeDamage: {
+			Label: 通常
+			Tooltip: 近接武器のダメージ数字の色
+		}
+
+		MeleeDamageCrit: {
+			Label: クリティカル
+			Tooltip: 近接武器のクリティカルダメージ数字の色
+		}
+	}
+
+	Ranged: {
+		Tooltip: ""
+
+		RangedDamage: {
+			Label: 通常
+			Tooltip: 遠距離武器のダメージ数字の色
+		}
+
+		RangedDamageCrit: {
+			Label: クリティカル
+			Tooltip: 遠距離武器のクリティカルダメージ数字の色
+		}
+	}
+
+	Magic: {
+		Tooltip: ""
+
+		MagicDamage: {
+			Label: 通常
+			Tooltip: 魔法武器のダメージ数字の色
+		}
+
+		MagicDamageCrit: {
+			Label: クリティカル
+			Tooltip: 魔法武器のクリティカルダメージ数字の色
+		}
+	}
+
+	Throwing: {
+		Tooltip: ""
+
+		ThrowingDamage: {
+			Label: 通常
+			Tooltip: 投擲武器のダメージ数字の色
+		}
+
+		ThrowingDamageCrit: {
+			Label: クリティカル
+			Tooltip: 投擲武器のクリティカルダメージ数字の色
+		}
+	}
+
+	Summon: {
+		Tooltip: ""
+
+		SummonDamage: {
+			Label: 通常
+			Tooltip: 召喚武器のダメージ数字の色
+		}
+
+		SummonDamageCrit: {
+			Label: クリティカル
+			Tooltip: 召喚武器のクリティカルダメージ数字の色（召喚がクリティカル可能になるModが必要）
+		}
+	}
+
+	Sentry: {
+		Tooltip: ""
+
+		SentryDamage: {
+			Label: 通常
+			Tooltip: セントリー武器のダメージ数字の色
+		}
+
+		SentryDamageCrit: {
+			Label: クリティカル
+			Tooltip: セントリー武器のクリティカルダメージ数字の色（セントリーがクリティカル可能になるModが必要）
+		}
+	}
+
+	TooltipsConfig: {
+		DisplayName: ツールチップ設定
+
+		Headers: {
+			Colors: ツールチップの色
+		}
+
+		VanillaTT: {
+			Label: バニラ
+			Tooltip: ""
+		}
+	}
+
+	zCrossModConfig: {
+		DisplayName: Mod互換性設定
+
+		Headers: {
+			ModCompat:
+				'''
+				Mod互換性
+				ここで設定を変更した場合、新しいダメージタイプが追加された後に
+				「デフォルトに戻す」必要があります
+				'''
+		}
+
+		CrossModDamageConfig: {
+			Label: 他のModによって追加された色とダメージタイプ：
+			Tooltip: ""
+		}
+	}
+
+	DamageType: {
+		Tooltip: ""
+
+		dtname: {
+			Label: ダメージタイプ（参照用）
+			Tooltip: 参照用。変更しても何も起こりません
+		}
+
+		TooltipColor: {
+			Label: ツールチップの色
+			Tooltip: ツールチップの色
+		}
+
+		DamageColor: {
+			Label: ダメージの色
+			Tooltip: ダメージの色
+		}
+
+		CritDamageColor: {
+			Label: クリティカルダメージの色
+			Tooltip: クリティカルダメージの色
+		}
+	}
+}
+
+DamageClasses: {
+    SentryClass: {
+        DisplayName: セントリークラス
+    }
+}
+

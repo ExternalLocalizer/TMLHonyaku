@@ -1,0 +1,46 @@
+Configs: {
+	DisplayBaseConfig: {
+		DisplayName: 表示設定
+
+		UseBrightness: {
+			Label: 明るく描画
+			Tooltip: ベース上のアイテムをより明るく描画します
+		}
+
+		UseOutline: {
+			Label: アイテムの輪郭
+			Tooltip: 表示させるアイテムに輪郭を描画します
+		}
+
+		UseGlitter: {
+			Label: キラキラ効果
+			Tooltip: 表示させるアイテムをキラキラさせます
+		}
+
+		LightIntensity: {
+			Label: 光の強さ
+			Tooltip: アイテムが配置されたときに放出される光の強度
+		}
+	}
+}
+
+Items: {
+    DisplayBaseItem: {
+        DisplayName: 表示ベース
+        Tooltip: 右クリックしてアイテムを表示ベースに配置します
+    }
+
+	DisplayBaseItemGranite: {
+		DisplayName: 表示ベース
+		Tooltip: 右クリックしてアイテムを表示ベースに配置します
+	}
+}
+
+Tiles: {
+    DisplayBaseTile: {
+        MapEntry: 表示ベース
+    }
+}
+
+
+

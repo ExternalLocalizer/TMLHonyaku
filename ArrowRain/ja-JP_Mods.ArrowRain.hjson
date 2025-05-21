@@ -1,0 +1,335 @@
+Items: {
+    Item_StopArrowy: {
+        Tooltip: デバッグ用
+        DisplayName: 降矢（停止）
+    }
+
+	Item_StartArrowy: {
+		Tooltip: デバッグ用
+		DisplayName: 降矢（開始）
+	}
+
+	Item_ChangeArrowy: {
+		Tooltip: デバッグ用
+		DisplayName: 降矢（変更）
+	}
+}
+
+Configs: {
+    ArrowType: {
+        LuminiteArrow: {
+            Label: ルミナイトの矢
+        }
+
+		VenomArrow: {
+			Label: 猛毒の矢
+		}
+
+		ChlorophyteArrow: {
+			Label: クロロファイトの矢
+		}
+
+		IchorArrow: {
+			Label: 霊液の矢
+		}
+
+		CursedArrow: {
+			Label: 呪いの矢
+		}
+
+		HolyArrow: {
+			Label: 聖なる矢
+		}
+
+		HellfireArrow: {
+			Label: ヘルファイアの矢
+		}
+
+		JestersArrow: {
+			Label: 道化師の矢
+		}
+
+		UnholyArrow: {
+			Label: 不浄の矢
+		}
+
+		FrostburnArrow: {
+			Label: 吹雪の矢
+		}
+
+		FlamingArrow: {
+			Label: 火の矢
+		}
+
+		WoodenArrow: {
+			Label: 木の矢
+		}
+
+		Tooltip: ""
+	}
+
+	ArrowRainConfig: {
+		Advanced_ArrowType: {
+			Tooltip:
+				'''
+				注意：木の矢以外の矢は、敵に命中した際にプレイヤーに付与される一部の効果を発動しない可能性があります
+				注意：木の矢以外の矢は、プレイヤーではなく敵に命中する可能性があります
+				デフォルトは「木の矢」
+				'''
+			Label: 矢の種類
+		}
+
+		WindSpeedMultiplier: {
+			Tooltip:
+				'''
+				[-24 - 24]
+				この設定項目は、「落下速度 - 風の影響」が有効な場合にのみ機能します
+				正の値を推奨
+				デフォルトは12.0
+				'''
+			Label: 風速倍率
+		}
+
+		WeatherMultiplier_InputPanel: {
+			Tooltip: （これは値を直接入力するための入力パネルです）
+			Label: " "
+		}
+
+		WeatherMultiplier: {
+			Tooltip:
+				'''
+				[0.1 - 2.0]
+				この設定項目は「スタイル」が「Weather」の場合にのみ機能します
+				値が小さいほど、矢が降る確率が高くなります
+				デフォルトは1.0
+				'''
+			Label: 降矢倍率
+		}
+
+		Always_Strength: {
+			Tooltip:
+				'''
+				[1 - 200]
+				この設定項目は「スタイル」が「Always」の場合にのみ機能します
+				値が大きいほど、より多くの矢が降ります
+				デフォルトは100
+				'''
+			Label: 降矢量
+		}
+
+		VelocityY: {
+			Tooltip:
+				'''
+				[4 - 16]
+				デフォルトは8
+				'''
+			Label: 落下速度 - 垂直速度
+		}
+
+		VelocityX: {
+			Tooltip:
+				'''
+				[-16 - 16]
+				注意：この設定項目は、「落下速度 - 風の影響」が有効な場合に機能しません
+				デフォルトは0
+				'''
+			Label: 落下速度 - 水平速度
+		}
+
+		WindOverridesVelocityX: {
+			Tooltip:
+				'''
+				有効にすると、落下する矢の水平速度に風速が加算されます
+				デフォルトは有効
+				'''
+			Label: 落下速度 - 風の影響
+		}
+
+		KnockbackDefault_InputPanel: {
+			Tooltip: （これは値を直接入力するための入力パネルです）
+			Label: " "
+		}
+
+		KnockbackDefault: {
+			Tooltip:
+				'''
+				[0 - 20]
+				デフォルトは2
+				'''
+			Label: ノックバック - デフォルト
+		}
+
+		DamageRandomRange: {
+			Tooltip:
+				'''
+				[0 - 100]
+				デフォルトは5
+				'''
+			Label: ダメージ - ランダム増減の範囲
+		}
+
+		DamageHardMode: {
+			Tooltip:
+				'''
+				[1 - 9999]
+				デフォルトは35
+				'''
+			Label: ダメージ - ハードモード
+		}
+
+		DamageDefault: {
+			Tooltip:
+				'''
+				[1 - 9999]
+				デフォルトは10
+				'''
+			Label: ダメージ - デフォルト（プレハードモード）
+		}
+
+		Anywhere: {
+			Tooltip:
+				'''
+				どこにいても矢が降ってきます！
+				（無効の場合、プレイヤーが地上にいる場合にのみ矢が降ります）
+				デフォルトは有効
+				'''
+			Label: どこでも降矢
+		}
+
+		VariableStatus: {
+			Tooltip:
+				'''
+				有効にすると、ゲームの進行に応じてステータスが変更されます
+				各ステータスは以下の「降矢のステータス」項目でカスタマイズ可能です
+				注意：無効の場合、ステータスは「デフォルト（プレハードモード）」の設定に従います
+				デフォルトは有効
+				'''
+			Label: 矢のステータスがプレイ進行により変化
+		}
+
+		Style: {
+			Tooltip:
+				'''
+				利用可能な設定項目は2つです：
+				Weather：矢が雨のように時折降ります
+				Always：矢が常に降り続けます
+				デフォルトは「Weather」
+				'''
+			Label: スタイル
+		}
+
+		DisplayName: サーバー設定
+	}
+
+	ServerConfig: {
+		InputPanel_Tooltip: （これは値を直接入力するための入力パネルです）
+		InputPanel_Label: " "
+		Advanced_ArrowType_Tooltip:
+			'''
+			注意：木の矢以外の矢は、敵に命中した際にプレイヤーに付与される一部の効果を発動しない可能性があります
+			注意：木の矢以外の矢は、プレイヤーではなく敵に命中する可能性があります
+			デフォルトは「木の矢」
+			'''
+		Advanced_ArrowType_Label: 矢の種類
+		Advanced_WindSpeedMultiplier_Tooltip:
+			'''
+			[-24 - 24]
+			この設定項目は、「落下速度 - 風の影響」が有効な場合にのみ機能します
+			正の値を推奨
+			デフォルトは12.0
+			'''
+		Advanced_WindSpeedMultiplier_Label: 風速倍率
+		Advanced_ArrowyRateMultiplier_Tooltip:
+			'''
+			[0.1 - 2.0]
+			この設定項目は「スタイル」が「Weather」の場合にのみ機能します
+			値が小さいほど、矢が降る確率が高くなります
+			デフォルトは1.0
+			'''
+		Advanced_ArrowyRateMultiplier_Label: 降雨率倍率
+		Always_Strength_Tooltip:
+			'''
+			[1 - 200]
+			この設定項目は「スタイル」が「Always」の場合にのみ機能します
+			値が大きいほど、より多くの矢が降ります
+			デフォルトは100
+			'''
+		Always_Strength_Label: 降矢量
+		Arrow_FallSpeedY_Tooltip:
+			'''
+			[4 - 16]
+			デフォルトは8
+			'''
+		Arrow_FallSpeedY_Label: 落下速度 - 垂直速度
+		Arrow_FallSpeedX_Tooltip:
+			'''
+			[-16 - 16]
+			注意：この設定項目は、「落下速度 - 風の影響」が有効な場合に機能しません
+			デフォルトは0
+			'''
+		Arrow_FallSpeedX_Label: 落下速度 - 水平速度
+		Arrow_AffectedFromWind_Tooltip:
+			'''
+			有効にすると、落下する矢の水平速度に風速が加算されます
+			デフォルトは有効
+			'''
+		Arrow_AffectedFromWind_Label: 落下速度 - 風の影響
+		Arrow_Knockback_Default_Tooltip:
+			'''
+			[0 - 20]
+			デフォルトは2
+			'''
+		Arrow_Knockback_Default_Label: ノックバック - デフォルト
+		Arrow_Damage_Random_Tooltip:
+			'''
+			[0 - 100]
+			デフォルトは5
+			'''
+		Arrow_Damage_Random_Label: ダメージ - ランダム増減の範囲
+		Arrow_Damage_HardMode_Tooltip:
+			'''
+			[1 - 9999]
+			デフォルトは35
+			'''
+		Arrow_Damage_HardMode_Label: ダメージ - ハードモード
+		Arrow_Damage_Default_Tooltip:
+			'''
+			[1 - 9999]
+			デフォルトは10
+			'''
+		Arrow_Damage_Default_Label: ダメージ - デフォルト（プレハードモード）
+		Common_NoEscape_Tooltip:
+			'''
+			どこにいても矢が降ります！
+			（無効の場合、プレイヤーが地上にいる場合にのみ矢が降ります）
+			デフォルトは有効
+			'''
+		Common_NoEscape_Label: どこでも降矢
+		Common_VariableStat_Tooltip:
+			'''
+			有効にすると、ゲームの進行に応じてステータスが変更されます
+			各ステータスは以下の「降矢のステータス」セクションでカスタマイズ可能です
+			注意：無効の場合、ステータスは「デフォルト（プレハードモード）」の設定に従います
+			デフォルトは有効
+			'''
+		Common_VariableStat_Label: 矢のステータスがプレイ進行によって変化するか
+		Common_Style_Tooltip:
+			'''
+			利用可能な設定項目は2つです：
+			Weather：矢が雨のように時折降ります
+			Always：矢が常に降り続けます
+			デフォルトは「Weather」
+			'''
+		Common_Style_Label: スタイル
+		Title: サーバー設定
+	}
+
+	Headers: {
+		Advanced: 詳細
+		Always: Alwaysスタイル設定項目
+		Weather: Weatherスタイル設定項目
+		Arrow: 降矢のステータス
+		Common: 共通
+	}
+}
+

@@ -1,0 +1,217 @@
+NPCs: {
+    PrideSlime: {
+        DisplayName: プライドスライム
+
+		Census: {
+			SpawnCondition: レインボースライムを撃破後
+		}
+	}
+
+	ShookSlime: {
+		DisplayName: ショックスライム
+
+		Census: {
+			SpawnCondition: ウォールオブフレッシュを撃破後
+		}
+	}
+
+	BombSlime: {
+		DisplayName: 爆弾スライム
+
+		Census: {
+			SpawnCondition: ムーンロードのコアをグレネードで攻撃
+		}
+	}
+
+	PoopSlime: {
+		DisplayName: ウンチスライム
+
+		Census: {
+			SpawnCondition: 50個のうんちからクラフト
+		}
+	}
+
+	GDHarderSlime: {
+		DisplayName: GDハーダースライム
+
+		Census: {
+			SpawnCondition: 最初から一緒、避けられない
+		}
+	}
+
+	GoldenSlime: {
+		DisplayName: ゴールデンスライム
+
+		Census: {
+			SpawnCondition: 条件不明
+		}
+	}
+
+	PinkSlime: {
+		DisplayName: ピンクスライム
+
+		Census: {
+			SpawnCondition: ピンキーを撃破後
+		}
+	}
+
+	RaccoonSlime: {
+		DisplayName: ラクーンスライム
+
+		Census: {
+			SpawnCondition: 地上で発見
+		}
+	}
+
+	WispSlime: {
+		DisplayName: ウィスプスライム
+
+		Census: {
+			SpawnCondition: ダンジョンスピリットを撃破後
+		}
+	}
+
+	GoldSlime: {
+		DisplayName: ゴールドスライム
+
+		Census: {
+			SpawnCondition: モンスター図鑑を100%埋める
+		}
+	}
+
+	QiSlime: {
+		DisplayName: チースライム
+
+		Census: {
+			SpawnCondition: インベントリにスタードロップを持つ
+		}
+	}
+
+	ReincarnatedSlime: {
+		DisplayName: 転生スライム
+
+		Census: {
+			SpawnCondition: クイーンスライムを撃破後
+		}
+	}
+
+	SpaceSlime: {
+		DisplayName: スペーススライム
+
+		Census: {
+			SpawnCondition: 火星人を撃破後
+		}
+	}
+
+	ZootedSlime: {
+		DisplayName: ズーテッドスライム
+
+		Census: {
+			SpawnCondition: エールトサーを使ってトキシックスラッジにエールを投げる
+		}
+	}
+
+	CoolerSlime: {
+		DisplayName: クーラースライム
+
+		Census: {
+			SpawnCondition: クールなスライムが存在
+		}
+	}
+
+	OppenheimerSlime: {
+		DisplayName: オッペンハイマースライム
+
+		Census: {
+			SpawnCondition: ムーンロードを撃破後
+		}
+
+		TownNPCMood: {
+			Content: 満足してるよー。
+			NoHome: 家がないのは嫌ー。
+			FarFromHome: 家から遠すぎるよー。
+			LoveSpace: こんなに広い空間、大好きだー。
+			DislikeCrowded: 混雑してるのが嫌ー。
+			HateCrowded: 混雑しすぎてて最悪ー。
+			LikeNPC_Princess: "{NPCName}、好きだよー。"
+			Princess_LovesNPC: "{NPCName}、好きだよー。"
+		}
+	}
+
+	CatSlime: {
+		DisplayName: キャットスライム
+
+		Census: {
+			SpawnCondition: タウンキャットが存在
+		}
+	}
+
+	Trash: {
+		DisplayName: ゴミ
+	}
+
+	VillainSlime: {
+		DisplayName: ヴィランスライム
+
+		Census: {
+			SpawnCondition: オールドワンズアーミーでベッツィを撃破後
+		}
+	}
+
+	SidekickSlime: {
+		DisplayName: サイドキックスライム
+
+		Census: {
+			SpawnCondition: オールドワンズアーミーでオーガを撃破後
+		}
+	}
+
+	HeroSlime: {
+		DisplayName: ヒーロースライム
+
+		Census: {
+			SpawnCondition: オールドワンズアーミーでダークメイジを撃破後
+		}
+	}
+
+	SheikahSlime: {
+		DisplayName: シーカーストーン
+
+		Census: {
+			SpawnCondition: 地表以下でシーカーストーンを見つける
+		}
+	}
+
+	BoomSlime: {
+		DisplayName: 爆発スライム
+
+		Census: {
+			SpawnCondition: 爆破技師が販売する爆発スライムライセンス [i:MoreTownSlimes/BoomSlimeLicense] を使用
+		}
+	}
+
+	SaberSlime: {
+		DisplayName: セーバースライム
+
+		Census: {
+			SpawnCondition: インベントリに赤いフェーズセーバーと青いフェーズセーバーを同時に持つ
+		}
+	}
+
+	SheikahStone: {
+		DisplayName: シーカーストーン
+	}
+}
+
+Items: {
+    LivingPoo: {
+        DisplayName: 生きてるウンチ
+        Tooltip: 「あなただけのケツの赤ちゃん」
+    }
+
+	BoomSlimeLicense: {
+		DisplayName: 爆発スライムライセンス
+		Tooltip: 町に爆発スライムをペットとして迎えるために使用。
+		LicenseExampleTownPetUse: ライセンスはサンプルタウンペット配送サービスにテレポートで送られる…
+	}
+}

@@ -1,61 +1,114 @@
 Tiles: {
-	KillieFishbowlTile: {
-		MapEntry: Killie Fishbowl
+    Records: {
+        CoinPortal:
+            '''
+            常にコインポータルを含んでいます。
+
+            ラッキーな発見！
+            '''
+        Common:
+            '''
+            時折役立つアイテムを含む一般的な壺。
+
+            地下深くに行くほど価値が上がります。
+            '''
+        Zenith:
+            '''
+            時折役立つアイテムを含む一般的な壺…この壺は無駄に派手です。
+
+            地下深くに行くほど価値が上がります。
+            '''
+        Potion: 強力な調合物を含んでいます。
+        UpsideDown: 『製造ミス』
+        Worm: 破壊するとさまざまなワームが飛び散ります。
+        Platter: すぐ食べられる熱々の食事。誰がこんなものを置いていったんだ？
+        Aether: さまざまな役立つ、キラキラしたアップグレードを提供します。
+        Stuffed: こんな場所で商人が見つかるとは奇妙だ。邪魔してと言わんばかりだ。
+        Scrying: 破壊するとマップの広い範囲を明らかにします。
+        Biome: 一般的な壺よりも多様な戦利品を含んでいます。
+    }
+	
+	SunkenTreasureTile: {
+		MapEntry: Sunken Treasure
 	}
 
-	GarInAJarTile: {
-		MapEntry: Gar In A Jar
+	HydrothermalVent: {
+		MapEntry: Hydrothermal Vent
 	}
 
-	TermiteJar_Tile: {
-		MapEntry: Termite Jar
-	}
+	CoralMapEntry: Coral
+	KelpMapEntry: Kelp
 
-	HerosMemorialStatue: {
-		MapEntry: A Hero's Memorial
-	}
-
-	KoiTotemTile: {
-		MapEntry: Koi Totem
-	}
-
-	BambooBirdCage: {
-		MapEntry: Bamboo Bird Cage
-	}
-
-	LargeDriftwoodTile: {
-		MapEntry: Large Driftwood
-	}
-
-	MediumDriftwoodTile: {
-		MapEntry: Medium Driftwood
-	}
-
-	SmallDriftwoodTile: {
-		MapEntry: Small Driftwood
+	GarInAJar_Tile: {
+		MapEntry: Gar in a Jar
 	}
 
 	CloudstalkTile: {
 		MapEntry: Cloudstalk
 	}
 
-	GarInAJar_Tile: {
-		MapEntry: Gar in a Jar
+	SmallDriftwoodTile: {
+		MapEntry: Small Driftwood
 	}
 
-	KelpMapEntry: Kelp
-	CoralMapEntry: Coral
-
-	HydrothermalVent: {
-		MapEntry: Hydrothermal Vent
+	MediumDriftwoodTile: {
+		MapEntry: Medium Driftwood
 	}
 
-	SunkenTreasureTile: {
-		MapEntry: Sunken Treasure
+	LargeDriftwoodTile: {
+		MapEntry: Large Driftwood
+	}
+
+	BambooBirdCage: {
+		MapEntry: Bamboo Bird Cage
+	}
+
+	KoiTotemTile: {
+		MapEntry: Koi Totem
+	}
+
+	HerosMemorialStatue: {
+		MapEntry: A Hero's Memorial
+	}
+
+	TermiteJar_Tile: {
+		MapEntry: Termite Jar
+	}
+
+	GarInAJarTile: {
+		MapEntry: Gar In A Jar
+	}
+
+	KillieFishbowlTile: {
+		MapEntry: Killie Fishbowl
+	}
+
+	OreCarts: {
+		MapEntry: Minecart
+	}
+
+	PotionVats: {
+		MapEntry: Potion Vat
+	}
+
+	ObsidianShroom: {
+		MapEntry: Obsidian Shroom
+	}
+
+	Starflower: {
+		MapEntry: Starflower
 	}
 }
 
 SetBonuses: {
+
+	Wayfarer:
+		'''
+		倒した敵がより多くのコインをドロップ
+		壺を壊した際に移動速度が上昇する
+		鉱石を採掘した際に採掘速度が上昇する
+		'''
+
     Marksman:
         '''
         マークスマンアーマーを着用している間、集中力が高まる
@@ -82,112 +135,152 @@ SetBonuses: {
 }
 
 Projectiles: {
-	FallingBaobabFruit: {
-		DisplayName: Falling Baobab Fruit
-	}
-
-	ZiplineProj: {
-		DisplayName: Zipline Proj
-	}
-
-	SkullSentrySentry: {
-		DisplayName: Skull Sentry Sentry
-	}
-
-	SkullSentryMucus: {
-		DisplayName: Skull Sentry Mucus
-	}
-
-	SkullSentryEye: {
-		DisplayName: Skull Sentry Eye
-	}
-
-	CactusWallProj: {
-		DisplayName: Cactus Wall
-	}
-
-	RogueKnifeMinion: {
-		DisplayName: Rusted Knife
-	}
-
-	Zipline: {
-		DisplayName: Zipline
-	}
-
-	RoyalKhopeshHeld: {
-		DisplayName: Royal Khopesh
-	}
-
-	WheatgrassSeedProjectile: {
-		DisplayName: Wheatgrass Seed
-	}
-
-	SunStaffHeld: {
-		DisplayName: Sun Staff
-	}
-
-	SunOrb: {
-		DisplayName: Sun Orb
-	}
-
-	TumblerPet: {
-		DisplayName: Tumbler Pet
-	}
-
-	ToucanMinion: {
-		DisplayName: Toucan Minion
-	}
-
-	ToucanFeather: {
-		DisplayName: Toucan Feather
-	}
-
-	ButterflyMinion: {
-		DisplayName: Butterfly Minion
-	}
-
-	StarPowderProj: {
-		DisplayName: Star Powder
-	}
-
-	FairyProj: {
-		DisplayName: Magical Bolt
-	}
-
-	FairyMinion: {
-		DisplayName: Fairy Minion
-	}
-
-	JellyfishPet: {
-		DisplayName: Jellyfish Pet
-	}
-
-	ReefWrathProj: {
-		DisplayName: Coral Reef
-	}
-
-	JellyfishMinion: {
-		DisplayName: Little Jellyfish
-	}
-
-	JellyfishBolt: {
-		DisplayName: Electric Bolt
-	}
-
-	UrchinSpike: {
-		DisplayName: Urchin Spike
-	}
-
-	UrchinBall: {
-		DisplayName: Urchin Ball
+	HydrothermalVentPlume: {
+		DisplayName: Smoke Plume
 	}
 
 	Cannonbubble: {
 		DisplayName: Cannonbubble
 	}
 
-	HydrothermalVentPlume: {
-		DisplayName: Smoke Plume
+	UrchinBall: {
+		DisplayName: Urchin Ball
+	}
+
+	UrchinSpike: {
+		DisplayName: Urchin Spike
+	}
+
+	JellyfishBolt: {
+		DisplayName: Electric Bolt
+	}
+
+	JellyfishMinion: {
+		DisplayName: Little Jellyfish
+	}
+
+	ReefWrathProj: {
+		DisplayName: Coral Reef
+	}
+
+	JellyfishPet: {
+		DisplayName: Jellyfish Pet
+	}
+
+	FairyMinion: {
+		DisplayName: Fairy Minion
+	}
+
+	FairyProj: {
+		DisplayName: Magical Bolt
+	}
+
+	StarPowderProj: {
+		DisplayName: Star Powder
+	}
+
+	ButterflyMinion: {
+		DisplayName: Butterfly Minion
+	}
+
+	ToucanFeather: {
+		DisplayName: Toucan Feather
+	}
+
+	ToucanMinion: {
+		DisplayName: Toucan Minion
+	}
+
+	TumblerPet: {
+		DisplayName: Tumbler Pet
+	}
+
+	SunOrb: {
+		DisplayName: Sun Orb
+	}
+
+	SunStaffHeld: {
+		DisplayName: Sun Staff
+	}
+
+	WheatgrassSeedProjectile: {
+		DisplayName: Wheatgrass Seed
+	}
+
+	RoyalKhopeshHeld: {
+		DisplayName: Royal Khopesh
+	}
+
+	Zipline: {
+		DisplayName: Zipline
+	}
+
+	RogueKnifeMinion: {
+		DisplayName: Rusted Knife
+	}
+
+	CactusWallProj: {
+		DisplayName: Cactus Wall
+	}
+
+	SkullSentryEye: {
+		DisplayName: Skull Sentry Eye
+	}
+
+	SkullSentryMucus: {
+		DisplayName: Skull Sentry Mucus
+	}
+
+	SkullSentrySentry: {
+		DisplayName: Skull Sentry Sentry
+	}
+
+	ZiplineProj: {
+		DisplayName: Zipline Proj
+	}
+
+	FallingBaobabFruit: {
+		DisplayName: Falling Baobab Fruit
+	}
+
+	RollingCart: {
+		DisplayName: Rolling Cart
+	}
+
+	RadonMossBobber: {
+		DisplayName: Radon Moss Bobber
+	}
+
+	OganessonMossBobber: {
+		DisplayName: Oganesson Moss Bobber
+	}
+
+	BuffAura: {
+		DisplayName: Buff Aura
+	}
+
+	WheezerCloud: {
+		DisplayName: Poisonous Gas
+	}
+
+	Shockwave: {
+		DisplayName: Shockwave
+	}
+
+	EnergizedShockwave: {
+		DisplayName: Energized Shockwave
+	}
+
+	RollingBowlder: {
+		DisplayName: Rolling Bowlder
+	}
+
+	Firespike: {
+		DisplayName: Firespike
+	}
+
+	BombCannonShot: {
+		DisplayName: Bomb Cannon Shot
 	}
 }
 
@@ -224,6 +317,82 @@ Origins: {
 }
 
 NPCs: {
+	PotterySlime: {
+		DisplayName: 陶芸スライム
+
+		Names: {
+			0: Sable
+			1: Saki
+			2: Sal
+			3: Santra
+			4: Sark
+			5: Sassafrass
+			6: Satya
+			7: Sawyl
+			8: Seppo
+			9: Shammy
+			10: Shard
+			11: Shio
+			12: Silas
+			13: Silica
+			14: Silty
+			15: Sleet
+			16: Sloan
+			17: Snap
+			18: Soggy
+			19: Soda
+			20: Sonya
+			21: Sparta
+			22: Splet
+			23: Spot
+			24: Stratton
+			25: Sullivan
+			26: Swain
+		}
+
+		Chatter: {
+			0: ウッバ・ドゥビドゥー？
+			1: ポチャポチャ。ブルン
+			2: ワウワウ
+		}
+
+        Entry: 信じられないかもしれませんが、このスライムは陶芸の分野で世界的に有名です。あなたは今、今を生きる巨匠の前にいるのです！
+        Census.SpawnCondition: 条件不明
+    }
+
+    StompableGnome.DisplayName: 踏み潰しノーム
+
+    DunceCrab: {
+        DisplayName: ダンスクラブ
+        Entry: ""
+    }
+
+    Wheezer: {
+        DisplayName: ウィーザー
+        Entry: ウィーザーはサラマンダーの極めて毒性の強い近縁種で、攻撃的な行動で知られています。驚くべきことに、肉食の本性を裏切り、彼らはヒイラギの新芽を好んで食す。
+    }
+
+    WorldFrog: {
+        DisplayName: 頼りになりそうなカエル
+        Button: 世界を更新
+
+        Sounds: {
+            0: クワッ
+            1: リビッ
+        }
+
+        Dialogue: {
+            0: 探検すべき宝を求めているなら、我が提案を聞け、強く願う！
+            1: 新たな発見を欲するか？ この両手の間に、運命の提案を紡いだ！
+            2: 我が魔法はこの空に欠落を感知す。されど、希望を捨てるな！
+        }
+
+        Reports: {
+            CavesAndClubs_0: ホーカス・ポーカス、憂うな！ 洞窟に新たな宝の壺を満たした！
+            CavesAndClubs_1: アブラ・カダブラ、汝に新たな壺を授く。地底へ赴けば喜びが待っている！
+        }
+	}
+
     HideZombieSmall: {
         Entry: 彼らの服装は、最新のアンデッドファッションで大流行らしい。
         DisplayName: ゾンビ
@@ -289,7 +458,7 @@ NPCs: {
 		Buttons: {
 			Silver: 20シルバー
 			Supplies: 物資
-			Feed: 餌やり
+			Feed: 食料提供
 		}
 
 		DisplayName: ハイカー
@@ -574,6 +743,444 @@ MusicDisplay: {
 }
 
 Items: {
+    BiomePotsIceItem: {
+        DisplayName: 氷の壺
+        Tooltip: ""
+    }
+
+    BiomePotsDesertItem: {
+        DisplayName: 砂漠の壺
+        Tooltip: ""
+    }
+
+    BiomePotsJungleItem: {
+        DisplayName: ジャングルの壺
+        Tooltip: ""
+    }
+
+    BiomePotsDungeonItem: {
+        DisplayName: ダンジョンの壺
+        Tooltip: ""
+    }
+
+    BiomePotsCorruptionItem: {
+        DisplayName: 腐敗の壺
+        Tooltip: ""
+    }
+
+    BiomePotsCrimsonItem: {
+        DisplayName: クリムゾンの壺
+        Tooltip: ""
+    }
+
+    BiomePotsMarbleItem: {
+        DisplayName: 大理石の壺
+        Tooltip: ""
+    }
+
+    BiomePotsHellItem: {
+        DisplayName: 黒曜石の壺
+        Tooltip: ""
+    }
+
+    BiomePotsMushroomItem: {
+        DisplayName: キノコの壺
+        Tooltip: ""
+    }
+
+    PotsCavernItem: {
+        DisplayName: 小さな洞窟の壺
+        Tooltip: ""
+    }
+
+    PotsIceItem: {
+        DisplayName: 小さな氷の壺
+        Tooltip: ""
+    }
+
+    PotsJungleItem: {
+        DisplayName: 小さなジャングルの壺
+        Tooltip: ""
+    }
+
+    PotsDungeonItem: {
+        DisplayName: 小さなダンジョンの壺
+        Tooltip: ""
+    }
+
+    PotsHellItem: {
+        DisplayName: 小さな黒曜石の壺
+        Tooltip: ""
+    }
+
+    PotsCorruptionItem: {
+        DisplayName: 小さな腐敗の壺
+        Tooltip: ""
+    }
+
+    PotsSpiderItem: {
+        DisplayName: 小さな蜘蛛の壺
+        Tooltip: ""
+    }
+
+    PotsCrimsonItem: {
+        DisplayName: 小さなクリムゾンの壺
+        Tooltip: ""
+    }
+
+    PotsPyramidItem: {
+        DisplayName: 小さなピラミッドの壺
+        Tooltip: ""
+    }
+
+    PotsTempleItem: {
+        DisplayName: 小さな神殿の壺
+        Tooltip: ""
+    }
+
+    PotsMarbleItem: {
+        DisplayName: 小さな大理石の壺
+        Tooltip: ""
+    }
+
+    PotsDesertItem: {
+        DisplayName: 小さな砂漠の壺
+        Tooltip: ""
+    }
+
+    CommonPotsMushroomItem: {
+        DisplayName: 小さなキノコの壺
+        Tooltip: ""
+    }
+
+    SilverPlattersItem: {
+        DisplayName: 銀の皿
+        Tooltip: ""
+    }
+
+    StuffedPotsItem: {
+        DisplayName: 詰め込まれた壺
+        Tooltip: ""
+    }
+
+    WormPotItem: {
+        DisplayName: ワームの壺
+        Tooltip: ""
+    }
+
+    AetherShipmentItem: {
+        DisplayName: エーテルの荷物
+        Tooltip: ""
+    }
+
+    PotionVatsAntiqueItem: {
+        DisplayName: 古いポーションの大桶
+        Tooltip: ""
+    }
+
+    PotionVatsCloningItem: {
+        DisplayName: クローニングポーションの大桶
+        Tooltip: ""
+    }
+
+    SilverFoodPlatterItem: {
+        DisplayName: 銀の料理皿
+        Tooltip: <right> で皿にアイテムを置く
+    }
+
+    RadonMossItem: {
+        DisplayName: 苔（ラドン）
+        Tooltip: "{$ItemTooltip.XenonMoss}"
+    }
+
+    OganessonMossItem: {
+        DisplayName: 苔（オガネソン）
+        Tooltip: "{$ItemTooltip.XenonMoss}"
+    }
+
+    RadonMossBrickItem: {
+        DisplayName: 苔のレンガ（ラドン）
+        Tooltip: ""
+    }
+
+    RadonMossBrickWallItem: {
+        DisplayName: 苔のレンガ壁（ラドン）
+        Tooltip: ""
+    }
+
+    OganessonMossBrickItem: {
+        DisplayName: 苔のレンガ（オガネソン）
+        Tooltip: ""
+    }
+
+    OganessonMossBrickWallItem: {
+        DisplayName: 苔のレンガ壁（オガネソン）
+        Tooltip: ""
+    }
+
+    ScryingPotItem: {
+        DisplayName: 占いの壺
+        Tooltip: ""
+    }
+
+    BombCannon: {
+        DisplayName: ボムキャノン
+        Tooltip:
+            '''
+            爆弾を弾薬として使用
+            キャノンから発射された爆弾はブロックと壁を破壊しない
+            「画期的な発明」
+            '''
+    }
+
+    PotHead: {
+        DisplayName: 壺頭
+        Tooltip: ""
+    }
+
+    UpsideDownPotItem: {
+        DisplayName: 逆さ壺
+        Tooltip: ""
+    }
+
+    PotionVatsAlchemyItem: {
+        DisplayName: 錬金術ポーションの大桶
+        Tooltip: ""
+    }
+
+    DunceCrabBannerItem.DisplayName: ダンスクラブのバナー
+    WheezerBannerItem.DisplayName: ウィーザーのバナー
+
+    WheezerStatueItem: {
+        DisplayName: ウィーザーの像
+        Tooltip: ""
+    }
+
+    FlaskArgon: {
+        DisplayName: 苔のフラスコ（アルゴン）
+        Tooltip: 衝撃時に光る苔を広げる
+    }
+
+    FlaskHelium: {
+        DisplayName: 苔のフラスコ（ヘリウム）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    FlaskKrypton: {
+        DisplayName: 苔のフラスコ（クリプトン）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    FlaskNeon: {
+        DisplayName: 苔のフラスコ（ネオン）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    FlaskOganesson: {
+        DisplayName: 苔のフラスコ（オガネソン）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    FlaskRadon: {
+        DisplayName: 苔のフラスコ（ラドン）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    FlaskXenon: {
+        DisplayName: 苔のフラスコ（キセノン）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskArgon.Tooltip}"
+    }
+
+    BiomePotsGraniteItem: {
+        DisplayName: 花崗岩の壺
+        Tooltip: ""
+    }
+
+    CommonPotsGraniteItem: {
+        DisplayName: 小さな花崗岩の壺
+        Tooltip: ""
+    }
+
+    OganessonBobber: {
+        DisplayName: 苔の浮き（オガネソン）
+        Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+    }
+
+    RadonBobber: {
+        DisplayName: 苔の浮き（ラドン）
+        Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+    }
+
+    LandscapingShears: {
+        DisplayName: 造園ハサミ
+        Tooltip: 植物を収穫する際の収穫量を増加
+    }
+
+    WoodenClub: {
+        DisplayName: 木のこん棒
+        Tooltip: チャージすることでダメージとノックバックが増加
+    }
+
+    GoldClub: {
+        DisplayName: 黄金のこん棒
+        Tooltip: スイング中に再度使用するとチャージ可能なアッパーカットを繰り出す
+    }
+
+    PlatinumClub: {
+        DisplayName: プラチナのセプター
+        Tooltip:
+            '''
+            敵を空中に打ち上げる上向きのスイングを行う
+            長押しで下向きの叩きつけを追加
+            '''
+    }
+
+    FrostGiantBelt: {
+        DisplayName: 霜巨人のベルト
+        Tooltip:
+            '''
+            棍棒をチャージ中はノックバック耐性が50%増加
+            棍棒のチャージ中に防御力が徐々に上昇
+            '''
+    }
+
+    Macuahuitl: {
+        DisplayName: マクアフティル
+        Tooltip:
+            '''
+            使用者の周囲で素早く振り回し、出血を付与
+            チャージ攻撃は出血中の敵に追加ダメージを与える
+            '''
+    }
+
+    BassSlapper: {
+        DisplayName: バススラッパー
+        Tooltip: フルチャージで複数回連続で叩きつける
+    }
+
+    Shockhammer: {
+        DisplayName: ショックハンマー
+        Tooltip: フルチャージで地表に沿って進む衝撃波を放つ
+    }
+
+    Bowlder: {
+        DisplayName: ボウルダー
+        Tooltip: チャージ攻撃で強力な岩石を放つ
+    }
+
+    Blasphemer: {
+        DisplayName: ブラスフィーマー
+        Tooltip: チャージ攻撃で炎の間欠泉を噴出させる
+    }
+
+    Hummus: {
+        DisplayName: フムス
+        Tooltip: 温かくて美味しい！
+    }
+
+    ZenithPotsItem: {
+        DisplayName: ゼニスの壺
+        Tooltip: ""
+    }
+
+    ZenithPotsPaleItem: {
+        DisplayName: "{$Mods.SpiritReforged.Items.ZenithPotsItem.DisplayName}"
+        Tooltip: ""
+    }
+
+    OrnatePotsItem: {
+        DisplayName: 装飾された壺
+        Tooltip: ""
+    }
+
+    BiomePotsCavernItem: {
+        DisplayName: 洞窟の壺
+        Tooltip: ""
+    }
+
+    PotteryWheelItem: {
+        DisplayName: 陶芸の車輪
+        Tooltip:
+            '''
+            装飾用の壺の製作に使用
+            <right> で配置時に利用可能なレシピを表示
+            '''
+    }
+
+    HideTunic: {
+        DisplayName: 皮のチュニック
+        Tooltip: 近接攻撃のサイズとノックバックを25%増加
+    }
+
+    MudBombSticky: {
+        DisplayName: 粘着泥爆弾
+        Tooltip: "{$Mods.SpiritReforged.Items.MudBomb.Tooltip}"
+    }
+
+    MudBomb: {
+        DisplayName: 泥爆弾
+        Tooltip: 小さな爆発で泥を広げる
+    }
+
+    CoarseBombSticky: {
+        DisplayName: 粘着粗い土爆弾
+        Tooltip: "{$Mods.SpiritReforged.Items.CoarseBomb.Tooltip}"
+    }
+
+    CoarseBomb: {
+        DisplayName: 粗い土爆弾
+        Tooltip: 小さな爆発で粗い土を広げる
+    }
+
+    SandBombSticky: {
+        DisplayName: 粘着砂爆弾
+        Tooltip: "{$Mods.SpiritReforged.Items.SandBomb.Tooltip}"
+    }
+
+    SandBomb: {
+        DisplayName: 砂爆弾
+        Tooltip: 小さな爆発で砂を広げる
+    }
+
+    ClayBombSticky: {
+        DisplayName: 粘着粘土爆弾
+        Tooltip: "{$Mods.SpiritReforged.Items.ClayBomb.Tooltip}"
+    }
+
+    ClayBomb: {
+        DisplayName: 粘土爆弾
+        Tooltip: 小さな爆発で粘土を広げる
+    }
+
+    BoomShroom: {
+        DisplayName: ブームシュルーム
+        Tooltip:
+            '''
+            投擲するすべての爆発物が大きく強力になる
+            投擲間のダウンタイムが増加
+            '''
+    }
+
+    AncientKoiTotem: {
+        DisplayName: 古代コイのトーテム
+        Tooltip: "{$Mods.SpiritReforged.Items.KoiTotem.Tooltip}"
+    }
+
+    WayfarerLegs: {
+        DisplayName: 旅人のズボン
+        Tooltip: 移動速度が7%増加
+    }
+
+    WayfarerBody: {
+        DisplayName: 旅人のリュックサック
+        Tooltip: 移動速度が5%増加
+    }
+
+    WayfarerHead: {
+        DisplayName: 旅人の帽子
+        Tooltip: 暗闇に対する免疫
+    }
+
     PinWulfrum: {
         Tooltip: ""
         DisplayName: ウルフラムピン
@@ -1943,7 +2550,6 @@ Items: {
 	}
 }
 
-
 GameTips: {
     ReforgedTip9: アイテムが海の表面にランダムに浮かんでいる時がある、定期的にチェックしよう！
     ReforgedTip8: アカシアの木のてっぺんは、高さが必要な場合に立つことができる。
@@ -1977,8 +2583,11 @@ Misc: {
 }
 
 Conditions: {
+	Submerged: 水没時
+	Discovered: 発見する
     PeevedTumbler: キラキラ輝いているとき
     InSavanna: サバンナにいるとき
+
 }
 
 SlotContexts: {
@@ -1993,6 +2602,36 @@ Biomes: {
 }
 
 Generation: {
+	Signs: {
+        Underground: {
+            Common: {
+                0: <wavy>壺に秘密が隠されている...
+                1: <wavy>文字がかすれて読めない。
+                2: <colorful:255,80,80>看板は怪しい液体による解読不能な落書きで覆われている。
+                3: <wavy>......の商品
+                4: <wavy>古い看板はほとんど塵と化している。
+                5: <wavy>粗雑に描かれたスケルトンが手招きしている。
+                6: <wavy>これを読んでいるなら、私はすでに死んでいる。
+                7: これを読んでいるなら、私は絶好調だ！
+                8: <wavy>注意：ワーム
+                9: 看板には理解できないことが延々と書かれている。それ以上読む価値はない。
+                10: ドワーフの文字が看板全体に刻まれている。全く読めない。
+            }
+
+            Rare: {
+                0: <wavy>私のページを集めて...
+                1: ここにはグーボールがないようだ。 -看板画家
+                2:
+                    '''
+                    <wavy>0
+                    日、洞窟事故以来
+                    '''
+            }
+        }
+    }
+    Pottery: 壺を隠す
+    NeonMosses: 輝く苔
+    Caves: 洞窟を飾る
     Ecotones: エコトーンのマッピング
     SavannaObjects: サバンナのオブジェクト配置
     SavannaTerrain: 高原の作成
@@ -2074,6 +2713,17 @@ Configs: {
 }
 
 Buffs: {
+
+    ExplorerMine: {
+        DisplayName: 探検者の活力
+        Description: 掘り続けろ！
+    }
+
+    ExplorerPot: {
+        DisplayName: 探検者の興奮
+        Description: もっと欲しくなってきた！
+    }
+	
     OpenWounds: {
         Description: 出血しやすい状態
         DisplayName: 開いた傷

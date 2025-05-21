@@ -67,6 +67,22 @@ MusicDisplay: {
 }
 
 Items: {
+
+	UndergroundTownBoxItem: {
+		DisplayName: オルゴール（地下の町）
+		Tooltip: ""
+	}
+
+	NeonMossBoxItem: {
+		DisplayName: オルゴール（輝く苔）
+		Tooltip: ""
+	}
+
+	LavaLayerBoxItem: {
+		DisplayName: オルゴール（溶岩層）
+		Tooltip: ""
+	}
+
 	SpiderCaveBoxItem: {
 		Tooltip: ""
 		DisplayName: オルゴール（クモの巣）
@@ -130,63 +146,79 @@ Items: {
 
 Configs: {
     MusicConfig: {
+
+		TownUnderground: {
+			Label: 地下の町
+			Tooltip: 地下の町（「Subsurface Settlement」）のBGMを置き換えます
+		}
+
+		NeonMoss: {
+			Label: 輝く苔
+			Tooltip: 輝く苔バイオーム（「Radiant Grotto」）のBGMを置き換えます
+		}
+
+		LavaLayer: {
+			Label: 溶岩層
+			Tooltip: 溶岩層（「Magmatic Depths」）のBGMを置き換えます
+		}
+
         SkeletronPrime: {
             Tooltip: ""
             Label: スケルトロンプライム
         }
 
 		Spider: {
-			Tooltip: クモの巣（「Xyresic Horrors」）のBGMを置き換えますか？
+			Tooltip: クモの巣（「Xyresic Horrors」）のBGMを置き換えます
 			Label: 蜘蛛
 		}
 
 		Meteor: {
-			Tooltip: 隕石バイオーム（「Space Rocks!」）のBGMを置き換えますか？
+			Tooltip: 隕石バイオーム（「Space Rocks!」）のBGMを置き換えます
 			Label: 隕石
 		}
 
 		Marble: {
-			Tooltip: 大理石バイオーム（「Regal Tunnel」）のBGMを置き換えますか？
+			Tooltip: 大理石バイオーム（「Regal Tunnel」）のBGMを置き換えます
 			Label: 大理石
 		}
 
 		Granite: {
-			Tooltip: 花崗岩バイオーム（「Resounding Stones」）のBGMを置き換えますか？
+			Tooltip: 花崗岩バイオーム（「Resounding Stones」）のBGMを置き換えます
 			Label: 花崗岩
 		}
 
 		FrostLegion: {
-			Tooltip: フロストレギオン（「Tougher Chill」）のBGMを置き換えますか？
+			Tooltip: フロストレギオン（「Tougher Chill」）のBGMを置き換えます
 			Label: フロストレギオン
 		}
 
 		DesertNight: {
-			Tooltip: 夜の砂漠（「Kempt Dunes」）のBGMを置き換えますか？
+			Tooltip: 夜の砂漠（「Kempt Dunes」）のBGMを置き換えます
 			Label: 夜の砂漠
 		}
 
 		HallowNight: {
-			Tooltip: 夜の聖域（「Wonderous Landscape」）のBGMを置き換えますか？
+			Tooltip: 夜の聖域（「Wonderous Landscape」）のBGMを置き換えます
 			Label: 夜の聖域
 		}
 
 		SnowNight: {
-			Tooltip: 雪の夜（「Icy Storms」）のBGMを置き換えますか？
+			Tooltip: 雪の夜（「Icy Storms」）のBGMを置き換えます
 			Label: 雪の夜
 		}
 
 		CrimsonNight: {
-			Tooltip: 夜の真紅（「Shivering Storms」）のBGMを置き換えますか？
+			Tooltip: 夜の真紅（「Shivering Storms」）のBGMを置き換えます
 			Label: 夜の真紅
 		}
 
 		CorruptNight: {
-			Tooltip: 夜の不浄（「Nightmare Fuel」）のBGMを置き換えますか？
+			Tooltip: 夜の不浄（「Nightmare Fuel」）のBGMを置き換えます
 			Label: 夜の不浄
 		}
 
 		Blizzard: {
-			Tooltip: 吹雪（「Shivering Storms」）のBGMを置き換えますか？
+			Tooltip: 吹雪（「Shivering Storms」）のBGMを置き換えます
 			Label: 吹雪
 		}
 

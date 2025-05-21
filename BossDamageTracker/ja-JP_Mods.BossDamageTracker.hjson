@@ -1,0 +1,31 @@
+Configs: {
+	BossTracker: {
+		DamageRank: Damage Rank 設定
+	}
+
+	BossDamageTrackerConfig: {
+		DisplayName: Mod 設定
+
+		HorizontalFormat: {
+			Label: 水平ソート形式
+			Tooltip: 有効化すると、リーダーボードのテキストが水平に表示されます
+		}
+
+		clientSendPackageDelayScale: {
+			Label: クライアント送信パッケージ遅延
+			Tooltip: 基本的に変更しないでください。サーバーのパフォーマンスが低い場合に、数値を上げてください
+		}
+
+		serverBroadcastDelayScale: {
+			Label: サーバーブロードキャスト遅延
+			Tooltip: 基本的に変更しないでください。プレイヤーのネットワーク遅延が高い場合、数値を上げてください
+		}
+	}
+}
+
+Keybinds: {
+	���Լ�: {
+		DisplayName: ���Լ�
+	}
+}
+
