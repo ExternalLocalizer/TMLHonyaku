@@ -17,27 +17,27 @@ Keybinds: {
 }
 
 UI: {
-    SearchBarDefault: 検索
-    FilterHover: フィルター
-    SortHover: 並べ替えオプション
-    RightClickToClear: 右クリックでクリア
-    ShiftRightClickToClearLocks: Shift + 右クリックでロックを解除しデフォルトに戻す
-    ResultCount: "{0}/{1} ({2} フィルターで除外)"
-    ItemSearchHelp:
-        '''
-        [c/32FF82:検索構文]
-        [c/3B95DA:#] に続くテキストは、アイテムのツールチップ内で検索されます
+	SearchBarDefault: 検索
+	FilterHover: フィルター
+	SortHover: 並べ替えオプション
+	RightClickToClear: 右クリックでクリア
+	ShiftRightClickToClearLocks: Shift + 右クリックでロックを解除しデフォルトに戻す
+	ResultCount: "{0}/{1} ({2} フィルターで除外)"
+	ItemSearchHelp:
+		'''
+		[c/32FF82:検索構文]
+		[c/3B95DA:#] に続くテキストは、アイテムのツールチップ内で検索されます
 
-    	MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
-   		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
-    '''
+		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
+		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
+		'''
 	NPCSearchHelp:
 		'''
 		[c/32FF82:検索構文]
 		[c/3B95DA:#] に続くテキストは、NPCの図鑑のフレーバーテキスト内で検索されます。
 
 		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
-   		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
+		 		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
 		'''
 	FilterHelp:
 		'''
@@ -75,10 +75,7 @@ Configs: {
 
 		ShowDropChancesInTooltips: {
 			Label: ツールチップにドロップ確率を表示
-			Tooltip:
-				'''
-				アイテムのドロップ確率をアイテムの上に表示する代わりに、ツールチップ上に表示するようにします
-				'''
+			Tooltip: アイテムのドロップ確率をアイテムの上に表示する代わりに、ツールチップ上に表示するようにします
 		}
 
 		DisplayName: QER 設定
@@ -117,6 +114,7 @@ OptionGroups: {
 			IsPet: ペット
 			IsMount: マウント
 			IsHook: フック
+			IsResearched: リサーチ済み
 		}
 
 		Weapons: {
@@ -167,5 +165,6 @@ Tooltips: {
 
 Conditions: {
 	BannerDrop: "{0}キルごとに1回ドロップ"
+	Invalid: "無効なドロップ条件({0})"
 }
 

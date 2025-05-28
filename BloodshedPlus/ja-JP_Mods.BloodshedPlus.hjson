@@ -1,0 +1,104 @@
+Configs: {
+    BloodshedConfig: {
+        DisplayName: Bloodshed 設定
+
+		Headers: {
+			Configuration: "[i:Cog] 設定"
+			Colour: "[i:RedPaint] 色"
+			RegularBloodColour: "[i:EyeMask] 通常の血の色"
+			MartianBloodColour: "[i:MartianCostumeMask] 火星人の血の色"
+			GreenBloodColour: "[i:BossMaskOgre] オーガの血の色"
+		}
+
+		BloodyPlatforms: {
+			Label: "[i:WoodPlatform] 血が足場を通過"
+			Tooltip: 血が足場を通過するか切り替えます
+		}
+
+		DespawnTime: {
+			Label: "[i:Stopwatch] 血の消滅時間"
+			Tooltip: 血が消滅するまでの時間
+		}
+
+		BloodGrowSize: {
+			Label: "[i:SoulofSight] 血の最大拡散サイズ"
+			Tooltip: 地面にある血がどれだけ大きくなるか
+		}
+
+		BloodDefaultSize: {
+			Label: "[i:SoulofFright] 血のデフォルトサイズ"
+			Tooltip: ""
+		}
+
+		BloodFallSpeed: {
+			Label: "[i:Feather] 血の落下速度"
+			Tooltip: ""
+		}
+
+		ChangeFleshBlood: {
+			Label: "[i:EyeMask] 通常の血の影響"
+			Tooltip: ""
+		}
+
+		ChangeMartianBlood: {
+			Label: "[i:MartianCostumeMask] 火星人の血の影響"
+			Tooltip: ""
+		}
+
+		ChangeOgreBlood: {
+			Label: "[i:BossMaskOgre] オーガの血の影響"
+			Tooltip: ""
+		}
+
+		BloodR: {
+			Label: 血の色（R）
+			Tooltip: ""
+		}
+
+		BloodB: {
+			Label: 血の色（B）
+			Tooltip: ""
+		}
+
+		BloodG: {
+			Label: 血の色（G）
+			Tooltip: ""
+		}
+
+		OgreBloodB: {
+			Tooltip: ""
+			Label: オーガの血の色（B）
+		}
+
+		OgreBloodG: {
+			Tooltip: ""
+			Label: オーガの血の色（G）
+		}
+
+		OgreBloodR: {
+			Tooltip: ""
+			Label: オーガの血の色（R）
+		}
+
+		UFOBloodB: {
+			Tooltip: ""
+			Label: 火星人の血の色（B）
+		}
+
+		UFOBloodG: {
+			Tooltip: ""
+			Label: 火星人の血の色（G）
+		}
+
+		UFOBloodR: {
+			Tooltip: ""
+			Label: 火星人の血の色（R）
+		}
+
+		BloodChance: {
+			Label: "[i:GreenCounterweight] 血の発生確率"
+			Tooltip: ""
+		}
+	}
+}
+

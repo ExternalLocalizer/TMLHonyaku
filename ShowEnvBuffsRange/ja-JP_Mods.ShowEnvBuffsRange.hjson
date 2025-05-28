@@ -1,0 +1,63 @@
+Configs: {
+    RangeConfig: {
+        DisplayName: 設定
+
+		Transparency: {
+			Label: 透明度
+			Tooltip: 1 - 不透明、0 - 透明
+		}
+
+		Campfires: {
+			Label: キャンプファイアの範囲
+			Tooltip: キャンプファイアの範囲を有効にする
+		}
+
+		Lantern: {
+			Label: ハートランタンの範囲
+			Tooltip: ハートランタンの範囲を有効にする
+		}
+
+		StarInABottle: {
+			Label: 瓶詰めの星の範囲
+			Tooltip: 瓶詰めの星の範囲を有効にする
+		}
+
+		WaterCandle: {
+			Label: 水の蝋燭の範囲
+			Tooltip: 水の蝋燭の範囲を有効にする
+		}
+
+		PeaceCandle: {
+			Label: 平和の蝋燭の範囲
+			Tooltip: 平和の蝋燭の範囲を有効にする
+		}
+
+		Sunflower: {
+			Label: ヒマワリの範囲
+			Tooltip: ヒマワリの範囲を有効にする
+		}
+
+		ShadowCandle: {
+			Label: 影の蝋燭の範囲
+			Tooltip: 影の蝋燭の範囲を有効にする
+		}
+
+		Bast: {
+			Label: バステトの石像の範囲
+			Tooltip: バステトの石像の範囲を有効にする
+		}
+
+		Calamity: {
+			Label: Calamity mod タイルの範囲
+			Tooltip: Calamity mod タイルの範囲を有効にする
+		}
+	}
+}
+
+BuilderToggles: {
+    ExampleBuilderToggleDimmedLight: {
+        OnText: 環境バフの範囲表示：オン
+        OffText: 環境バフの範囲表示：オフ
+    }
+}
+
