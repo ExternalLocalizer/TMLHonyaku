@@ -1,0 +1,303 @@
+UI: {
+	HadesIconMessage: ハデス ― 攻撃を通さない無敵の装甲と、無数のレーザー砲塔を備えた蛇型の戦闘兵器。
+	AresIconMessage: アレス ― 4基の分離型エクソ兵器を搭載した、重量級の殲滅兵器。
+	ArtemisAndApolloIconMessage: アルテミス＆アポロ ― 不安定なエネルギーを動力源とする、極めて高機動な双子の自律型兵器。
+}
+
+Bestiary: {
+	Apollo: ドレイドンの傑作のひとつ。この自律機兵は、プラズマエネルギーを用いた高速空中戦に秀でており、アルテミスを守るようにプログラムされているようだ。
+	Artemis: ドレイドンの傑作のひとつ。この自律機兵は、橙色の結晶格子を通じて熱エネルギーを制御する。戦闘時にはアポロと完璧な連携を見せる。
+	Ares: ドレイドンの傑作のひとつ。この自律機兵は、搭載兵装を状況に応じて自在に切り離すことができ、格闘戦において驚異的な適性を示す。
+	Hades: ドレイドンの傑作のひとつ。この自律機兵は、熱と圧力を排気口から放出し、それを広範囲に及ぶ強力な攻撃へと転化する。
+	Draedon: 卓越した科学者ドレイドンのために用意された使い捨ての偵察用義体。知識の探求にかける執念と、際立った非道さは共に類を見ない。
+}
+
+Items: {
+	SpineOfHades: {
+		Tooltip: 帯電した電撃のムチを放つ
+		DisplayName: ハデスの脊柱
+	}
+
+	ExoelectricFieldDestabilizer: {
+		Tooltip: 電気球をチャージし強力な一撃を放つ
+		DisplayName: 電界歪曲デバイス
+	}
+}
+
+NPCs: {
+	ThanatosRename: XM-04 ハデス
+	ApolloRename: XS-11 アポロ
+	ExoTwinsRenameNormal: XS-01 アルテミス ＆ XS-11 アポロ
+
+	Draedon: {
+		IntroductionMonologue1: この瞬間を待ち望んでいました。
+		IntroductionMonologue2: 私には理解できないからこそ...あなたの本質には興味があります。
+		IntroductionMonologue3: あなたには、神々をも超えた私の創造物と対峙してもらいます。
+		IntroductionMonologue4: そして、戦いを通じてあなたの在り方を観察させてもらいましょう。
+		IntroductionMonologue5: さあ、選んでください。
+		IntroductionMonologueBrief: 選択してください。
+		ExoMechChoiceResponse1: よろしい。実験の開始に伴い、あなたの飛行能力を一時的に強化します。
+		ExoMechChoiceResponse2: まもなく、彼らが到着するでしょう。
+		Interjection1: ふむ...
+		Interjection2_Thermal_Minor: どうやら、これまでに軽度の熱傷を負っているようですね。
+		Interjection2_Thermal_Major: 現時点で、かなり深刻な熱傷を負っているようです。
+		Interjection2_Thermal_NearLethal: 現時点で、致命傷に近い熱傷を負っているようですね。
+		Interjection2_Plasma_Minor: 現時点で、軽度のプラズマ熱傷が確認されています。
+		Interjection2_Plasma_Major: 現時点で、深刻なプラズマ熱傷が確認されています。
+		Interjection2_Plasma_NearLethal: 現時点で、致命的に近いプラズマ熱傷が確認されています。
+		Interjection2_Electricity_Minor: 電撃による軽度の神経損傷が見受けられますね。
+		Interjection2_Electricity_Major: 電撃によって深刻な神経損傷が発生しているようです。
+		Interjection2_Electricity_NearLethal: 電撃によって、致命的に近い神経損傷を負っているようですね。
+		Interjection2_Internal_Minor: 現在、軽度の内臓損傷が観測されています。
+		Interjection2_Internal_Major: 現在、重度の内臓損傷が観測されています。
+		Interjection2_Internal_NearLethal: 現在、致命傷に近い内臓損傷が観測されています。
+		Interjection2_BluntForceTrauma_Minor: 現在、軽度の鈍的外傷を受けているようですね。
+		Interjection2_BluntForceTrauma_Major: 現在、重度の鈍的外傷が確認されています。
+		Interjection2_BluntForceTrauma_NearLethal: 現在、致命傷に近い鈍的外傷を負っているようです。
+		Interjection2_Undamaged: ダメージは一切確認されませんでした。...興味深いですね。
+		Interjection3: 実に素晴らしい結果です。
+		Interjection4: 次の実験段階に備え、変数を初期状態に戻しましょう。
+		Interjection5: それでは、覚悟を決めてください。
+		Interjection6: 残る機体はまもなく再展開されます。
+		Interjection7: 見事です。
+		Interjection8: ここまでのあなたの能力、非常に興味深いですね。
+		Interjection9: いよいよ、最終段階です。
+		Interjection10: 最後の機体には、最大出力での稼働を命じてあります。
+		Interjection10_Plural: 最後の機体群には、最大出力での稼働を命じてあります。
+		Interjection11: 幸運を祈りますよ。
+		EndOfBattle_FirstDefeat1: 驚嘆すべき結果です...!
+		EndOfBattle_FirstDefeat2: この結末は、私の仮説から大きく逸脱していますね。
+		EndOfBattle_FirstDefeat3: 私はまもなく退きます。この戦闘から得られたデータは検証の価値があります。しかし、その前に―
+		EndOfBattle_FirstDefeat4: これを受け取ってください。貴重な時間を割いてくれたことへの謝意として。
+		EndOfBattle_FirstDefeat5: もし再び私の機体たちと戦いたいのであれば、コードブレイカーの操作方法はご存じのはずです。
+		EndOfBattle_FirstDefeat6: それでは、またお会いしましょう。
+		EndOfBattle_SuccessiveDefeat1: お疲れ様でした、実験は終了です。
+		EndOfBattle_SuccessiveDefeat2: 少々お待ちください...結果を分析します。
+		EndOfBattle_SuccessiveDefeat3_Perfect: 驚嘆に値します。あなたの戦闘能力、忍耐、精密さ、そして技術―すべて見届けました。
+		EndOfBattle_SuccessiveDefeat3_Excellent: 優れた資質です。もう少し正確性があれば、完璧に到達できるかもしれません。
+		EndOfBattle_SuccessiveDefeat3_Good: 有益な結果です。
+		EndOfBattle_SuccessiveDefeat3_Acceptable: 平凡ではありますが、参考にはなります。
+		EndOfBattle_SuccessiveDefeat3_Bad: 私にとって、このデータの価値は低いですね。
+		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: このようなデータでは、私の研究には何の意味もありません。
+		EndOfBattle_SuccessiveDefeat4_Perfect: このデータはまさに至高の逸品です。
+		EndOfBattle_SuccessiveDefeat4_Excellent: 近いうちに革新的な洞察が得られるかもしれませんね。
+		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: もし次があるならば、戦闘時間をもう少し長引かせてみてください。
+		EndOfBattle_SuccessiveDefeat4_ImproveAggression: もし次があるならば、よりリスクのある戦術を試してみてはいかがでしょうか。
+		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: もし次があるならば、消費アイテムによる強化を控えていただきたいです。
+		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: もし次があるならば、回避精度を高めると良いでしょう。
+		EndOfBattle_SuccessiveDefeat4_Bad: もっと洗練された戦い方であれば、有意義な分析ができたのですが。
+		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: あれでは...あまりにも短すぎて、何の考察もできません。
+		EndOfBattle_SuccessiveDefeat5: 次の挑戦を楽しみにしています。
+		EndOfBattle_FirstDefeatReconBodyKill1: 興味深いですね...
+		EndOfBattle_FirstDefeatReconBodyKill2: 気性の激しさ―その因子は想定外でした。
+		EndOfBattle_FirstDefeatReconBodyKill3: ......とはいえ、話を戻しましょうか。
+		Death: 計算の範囲内です。
+		PlayerDeathAtAmusingTime: ずいぶんと間の悪いタイミングでしたね......ですが、これも想定内です。
+		Error: この現実の織り目が、軋む音を立てて裂けていく...
+	}
+
+	AresHand: {
+		DisplayName: XF-09 アレス
+		EnergyKatanaDisplayName: XF-09 アレス エネルギーブレード
+		PulseCannonDisplayName: XF-09 アレス パルスキャノン
+	}
+}
+
+Projectiles: {
+	HadesLineTelegraph: {
+		DisplayName: Hades Line Telegraph
+	}
+
+	ApolloMissile2: {
+		DisplayName: Apollo Missile
+	}
+
+	TheAtomSplitterProjectile_Custom: {
+		DisplayName: The Atom Splitter Projectile_ Custom
+	}
+
+	SplitAtomSplitterProjectile: {
+		DisplayName: Split Atom Splitter Projectile
+	}
+
+	AtomSplitterSpamSource: {
+		DisplayName: Atom Splitter Spam Source
+	}
+
+	SurgeDriverProjectile: {
+		DisplayName: Surge Driver Projectile
+	}
+
+	SurgeDriverBlast: {
+		DisplayName: Surge Driver Blast
+	}
+
+	SpineOfHadesProjectile_Custom: {
+		DisplayName: Spine Of Hades Projectile_ Custom
+	}
+
+	RefractionRotorProjectile_Custom: {
+		DisplayName: Refraction Rotor Projectile_ Custom
+	}
+
+	ExoelectricFieldDestabilizerProjectile: {
+		DisplayName: Exoelectric Field Destabilizer Projectile
+	}
+
+	ExoelectricFieldDestabilizerOrb: {
+		DisplayName: Exoelectric Field Destabilizer Orb
+	}
+
+	PulseBlast: {
+		DisplayName: Pulse Blast
+	}
+
+	SmallCannonLaser: {
+		DisplayName: Laser
+	}
+
+	CodebreakerDataStream: {
+		DisplayName: Codebreaker Data Stream
+	}
+
+	HadesMissile: {
+		DisplayName: Fortified Missile
+	}
+
+	ExoTwinHyperfuturisticPortal: {
+		DisplayName: Hyperfuturistic Portal
+	}
+
+	AresHyperfuturisticPortal: {
+		DisplayName: Hyperfuturistic Portal
+	}
+
+	ApolloPlasmaFireball: {
+		DisplayName: Plasma Fireball
+	}
+
+	AresSwingingKatanas: {
+		DisplayName: XF-09 Ares Energy Katana
+	}
+
+	AresCoreLaserSmall: {
+		DisplayName: Energized Spark
+	}
+
+	BigHadesSegmentExplosion: {
+		DisplayName: Explosion
+	}
+
+	SmallHadesSegmentExplosion: {
+		DisplayName: Explosion
+	}
+
+	AresDeathAnimationExplosion: {
+		DisplayName: Explosion
+	}
+
+	BlazingExoLaserbeam: {
+		DisplayName: Blazing Exo Laserbeam
+	}
+
+	PlasmaFlameJet: {
+		DisplayName: Exoplasma Flame Jet
+	}
+
+	SmallTeslaSphere: {
+		DisplayName: Tesla Sphere
+	}
+
+	ScourgeSandstream: {
+		DisplayName: Scourge Sandstream
+	}
+
+	ExothermalDisintegrationRay: {
+		DisplayName: Exothermal Disintegration Ray
+	}
+
+	SmallTeslaArc: {
+		DisplayName: Tesla Arc
+	}
+
+	LingeringPlasmaFireball: {
+		DisplayName: Plasma Fireball
+	}
+
+	LargeTeslaSphereExplosion: {
+		DisplayName: Tesla Explosion
+	}
+
+	LargeTeslaSphere: {
+		DisplayName: Tesla Sphere
+	}
+
+	HomingTeslaBurst: {
+		DisplayName: Tesla Burst
+	}
+
+	HadesSuperLaserbeam: {
+		DisplayName: Exo Energy Blast
+	}
+
+	HadesMine: {
+		DisplayName: Hades Mine
+	}
+
+	HadesLaserBurst: {
+		DisplayName: Laser Burst
+	}
+
+	HadesExoEnergyOrb: {
+		DisplayName: Exoelectric Energy Orb
+	}
+
+	GaussNukeBoom: {
+		DisplayName: Thermonuclear Explosion
+	}
+
+	GaussNuke: {
+		DisplayName: Gauss Nuke
+	}
+
+	ExoOverloadDeathray: {
+		DisplayName: Exo Overload Deathray
+	}
+
+	ExoelectricBlast: {
+		DisplayName: Exoelectric Blast
+	}
+
+	DraedonLootCrate: {
+		DisplayName: Draedon Loot Crate
+	}
+
+	CannonLaserbeam: {
+		DisplayName: Energized Thermal Deathray
+	}
+
+	ArtemisLaserSmall: {
+		DisplayName: Small Thermal Laser
+	}
+
+	ArtemisLaserImproved: {
+		DisplayName: Thermal Laser
+	}
+
+	AresMissileBackground: {
+		DisplayName: Thermal Missile
+	}
+
+	AresMissile: {
+		DisplayName: Thermal Missile
+	}
+
+	ApolloMissile: {
+		DisplayName: Plasma Missile
+	}
+
+	ApolloLineTelegraph: {
+		DisplayName: Telegraph
+	}
+}
+
