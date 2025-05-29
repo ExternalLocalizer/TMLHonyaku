@@ -1,0 +1,47 @@
+Configs: {
+	WikithisConfig: {
+		DisplayName: Wikithis 設定
+		DefaultEnabled: （デフォルト：有効）
+		DefaultDisabled: （デフォルト：無効）
+
+		OpenSteamBrowser: {
+			Label: ブラウザの代わりにSteamオーバーレイを開く
+			Tooltip:
+				'''
+				アイテムのWikiページを開く際、Steamオーバーレイを使用します。
+				Steamが使用できない場合は、代わりにブラウザが開かれます。
+				（デフォルト：有効）
+				'''
+		}
+
+		TooltipsEnabled: {
+			Label: ツールチップを表示
+			Tooltip:
+				'''
+				無効にすると、Wikiのツールチップが表示されなくなります。
+				（デフォルト：有効）
+				'''
+		}
+
+		CanWikiNPCs: {
+			Label: NPCのWikiを表示
+			Tooltip:
+				'''
+				有効にすると、NPCをクリックした際にWikiページを開けるようになります。
+				（デフォルト：無効）
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	WikiKeybind: {
+		DisplayName: アイテム／NPCのWikiページを確認
+	}
+}
+
+TextFormatting: "    {0}"
+
+Click: "{0}でWikiページを開く"
+
+NoWiki: Wikiページは存在しません！
