@@ -1,0 +1,615 @@
+ModNotInstalled: 対応するModが現在インストールされていません！
+
+Modes: {
+	Revengeance: "[Revengeance]"
+	Death: "[Death]"
+	Eternity: "[Eternity]"
+	EterniDeath: "[Eternity+Death]"
+}
+
+SupportedMods: {
+	Tooltip:
+		'''
+		注: {0} または {1} を押してボスを選択
+		{2} を押すとAI変更内容を表示
+
+		対応ボス:
+		'''
+	Consolaria:
+		'''
+		-<Lepus>Mods.Consolaria.NPCs.Lepus.DisplayName
+		-<Turkor>Mods.Consolaria.NPCs.TurkortheUngrateful.DisplayName
+		-<Ocram>Mods.Consolaria.NPCs.Ocram.DisplayName
+		'''
+	SOTS:
+		'''
+		-<Glowmoth>Mods.SOTS.NPCs.Glowmoth.DisplayName
+		-<PutridPinky>Mods.SOTS.NPCs.PutridPinkyPhase2.DisplayName
+		-<PharaohsCurse>Mods.SOTS.NPCs.PharaohsCurse.DisplayName
+		-<Advisor>Mods.SOTS.NPCs.TheAdvisorHead.DisplayName
+		-<Polaris>Mods.SOTS.NPCs.NewPolaris.DisplayName
+		-<Lux>Mods.SOTS.NPCs.Lux.DisplayName
+		-<SubspaceSerpent>Mods.SOTS.NPCs.SubspaceSerpentHead.DisplayName
+		'''
+	Spooky:
+		'''
+		-<RotGourd>Mods.Spooky.NPCs.RotGourd.DisplayName
+		-<SpookySpirit>Mods.Spooky.NPCs.SpookySpirit.DisplayName
+		-<Moco>Mods.Spooky.NPCs.Moco.DisplayName
+		-<Daffodil>Mods.Spooky.NPCs.DaffodilEye.DisplayName
+		-<OrroBoro>Mods.Spooky.NPCs.OrroHead.DisplayName & Mods.Spooky.NPCs.BoroHead.DisplayName
+		-<BigBone>Mods.Spooky.NPCs.BigBone.DisplayName
+		'''
+}
+
+AIChanges: {
+	Lepus:
+		'''
+		[Revengeance]
+		-レパスの移動速度が大幅に上昇
+		-小さな卵の孵化が早くなる
+
+		[Death]
+		-小さな卵は破壊不可
+		-小さな卵の孵化速度がさらに上昇
+		-大きな卵も早く孵化する
+
+		[Eternity]
+		-Calamityの変更が無効化
+		-高速落下時にナイフを2本落とす
+		-弱ジャンプ時にナイフを4本落とす
+		-チャージ中に爆発する卵を発射
+		-たまに立ち止まって嘔吐する
+		-レパスの攻撃で「罪悪感」付与
+		-ほとんどの攻撃で「気絶」「腐敗」「無防備」のいずれかを付与
+
+		[Eternity+Death]
+		-Calamityの変更が再度有効化
+		-高速落下時のナイフが4本に増加
+		-弱ジャンプ時のナイフが5本に増加
+		-爆発卵の発射速度が大幅に上昇
+		'''
+	Turkor:
+		'''
+		[Revengeance]
+		-ダッシュ攻撃と投射物に別バージョンが存在
+		-ナイフの飛距離が増加
+
+		[Death]
+		-近接と遠距離を同時に使うことがある
+		-ナイフの飛距離がさらに増加
+
+		[Eternity]
+		-Calamityの変更が無効化
+		-本体がたまにナイフの螺旋を発生させる
+		-ほとんどの攻撃で「罪悪感」「腐敗」「スタン」のいずれかを付与
+
+		[Eternity+Death]
+		-Calamityの変更が再度有効化
+		-ナイフ螺旋はHP75%以下のときのみ発生
+		'''
+	Ocram:
+		'''
+		[Revengeance]
+		-ダッシュの移動量が増加
+		-フェーズ2でさらに増加
+		-フェーズ移行中は無敵
+		-フェーズ1のレーザー乱射後にドクロを発射
+		-フェーズ2のレーザー中にもドクロを発射
+		-多くの攻撃が「燃える血」または「脳の腐敗」を付与
+
+		[Death]
+		-ダッシュの移動量がさらに増加
+		-フェーズ1のレーザーが1本から3本に増加
+		-ドクロの発射数が大幅に増加
+
+		[Eternity]
+		-Calamityの変更が無効化
+		-モブがホーミングする幽霊の炎を発射する
+		-ダッシュがカーブし、鎌の軌跡を残す
+		-新たな攻撃を持つ第3フェーズが追加
+		-攻撃に多種多様なデバフ効果
+
+		[Eternity+Death]
+		-Calamityの変更を再適用
+		-フェーズ3での鎌の数を増加
+		-フェーズ3のレーザー掃射がより速くなる
+		'''
+	Glowmoth:
+		'''
+		[Revengeance]
+		-グロウボムの連鎖効果の射程を延長
+		-プレイヤーを追いかける時間を短縮
+
+		[Death]
+		-ダッシュ後に発射する弾が8発から16発に増加
+
+		[Eternity]
+		-Calamityの変更を無効化
+		-フェーズ1にて停止状態から追尾する光弾を発射する新攻撃を追加
+		-フェーズ2にてプレイヤーの周囲を回りながら光弾を撃つ新攻撃を追加
+
+		[Eternity+Death]
+		-Calamityの変更を再適用
+		-円形攻撃とグロウスパイラル攻撃の弾数を増加
+		'''
+	PutridPinky:
+		'''
+		[Revengeance]
+		-バーストレーザーの間隔を短縮
+		-レーザービーム攻撃の後に二重螺旋攻撃を追加
+		-透明化攻撃の後に複数回ダッシュ
+		-回転フック攻撃中に追尾弾を発射
+
+		[Death]
+		-全体的に攻撃速度が上昇
+		-バーストレーザーの間隔をさらに短縮
+		-ダッシュ距離を大幅に増加
+
+		[Eternity]
+		-Calamityの変更を無効化
+		-フェーズ1でフェーズ2の弱体版のような専用モーションを使用
+		-巨大なスライム弾を発射し、それが6つに分裂後レーザーを放つ
+		-透明化後、プレイヤーの横に浮遊してホーミング弾＋単発ヘリックスを発射
+		-ほとんどの攻撃がLethargicを付与
+
+		[Eternity+Death]
+		-Calamityの変更を再適用（全体的な攻撃速度の上昇は除く）
+		-巨大なスライム弾がわずかにホーミングし、8つに分裂するように
+		-単発ヘリックスの後にダッシュ攻撃を行う（透明化後ではなく）
+		-デュアルヘリックスの波形がさらに外側まで広がる
+		'''
+	PharaohsCurse:
+		'''
+		[Revengeance]
+		- フェーズ1の触手攻撃中に弾を発射
+		- 螺旋攻撃の後、プレイヤーの周囲を回転しながら射撃
+		- 腕攻撃の後に赤い弾を連射
+		- ほとんどの攻撃が呪いを付与
+
+		[Death]
+		- フェーズ1の触手攻撃中の弾数が増加
+		- ダッシュ前に呪いの弾を6発発射
+
+		[Eternity]
+		- Calamityの変更は無効（ただし呪い付与は除く）
+		- Cursed Coffinの一部攻撃を引き継ぐ（衝撃波とクロスボーン）
+		- ほとんどの攻撃が腐敗または呪いを付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		- 全体のバランス調整のため、連射攻撃を弱体化
+		- 呪いの腕がボスをわずかに回復（Champion of Spiritと同様）
+		'''
+	Advisor:
+		'''
+		[Revengeance]
+		- ミサイルの速度が上昇し、旋回時間が短縮
+
+		[Death]
+		- 雷弾が高速化、ただし持続時間が短縮
+		- 紫球が8発ではなく16発に分裂
+
+		[Eternity]
+		- Calamityの変更は無効
+		- 螺旋ビームの数が増加するが、持続時間は短縮
+		- 螺旋ビーム前に雷球を数発発射
+		- ほとんどの攻撃が天罰または避雷針を付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		- 螺旋ビーム前の雷球がさらに増加
+		'''
+	Polaris:
+		'''
+		[Eternity]
+		- ほとんどの攻撃が鈍重または無防備を付与
+		- レーザーが鈍重と無防備を付与
+		'''
+	Lux:
+		'''
+		[Revengeance]
+		- クロスレーザー攻撃時の弾数増加
+
+		[Death]
+		- クロスレーザー攻撃時の弾数をさらに増加
+		- テレポート弾攻撃時の弾数増加
+
+		[Eternity]
+		- Calamityの変更は無効
+		- Lieflightの一部攻撃（光場）を引き継ぐ
+		- レーザー壁攻撃時に第2の弾壁が出現
+		- ほとんどの攻撃が天罰またはディスペルを付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		'''
+	SubspaceSerpent:
+		'''
+		[Revengeance]
+		- 円状攻撃中に赤と緑のペレットを発射
+		- ダッシュのたびに赤ペレットを遅れて連射
+		- フェーズ2のレーザー壁チェイス中に赤ペレット発射
+		- 赤ペレットとフェーズ2の火の玉が煉獄の炎を付与
+
+		[Death]
+		- 円状攻撃中の赤ペレットの頻度増加
+		- フェーズ1の蛇チェイス中に緑ペレット発射
+		- 赤ペレットの連射の遅延が短縮
+
+		[Eternity]
+		- Calamityの変更は無効
+		- フェーズ2の火雨ダッシュ前に火球リング攻撃を追加
+		- 火雨ダッシュのたびに広範囲火炎攻撃を追加
+		- ほとんどの攻撃が天罰、避雷針、導火線のいずれかを付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		'''
+	RotGourd:
+		'''
+		[Revengeance]
+		- 高跳び着地時に胞子を放出
+
+		[Death]
+		- ハエに持ち上げられている間に胞子を放出
+
+		[Eternity]
+		- Calamityの変更は無効
+		- 地面叩きつけ時に衝撃波発生
+		- ほとんどの攻撃が腐敗、感染症のいずれかを付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		'''
+	SpookySpirit:
+		'''
+		[Revengeance]
+		- ダッシュ回数が+1回
+		- ダッシュ間隔が短縮
+		- テレポート速度上昇
+		- ビームが被曝を付与
+
+		[Death]
+		- ダッシュ回数が+2回に変更
+		- ダッシュ間隔がさらに短縮
+		- テレポートがさらに高速化
+		- 黄色の眼弾の数が増加
+		- 全体的に攻撃速度上昇
+
+		[Eternity]
+		- Calamityの変更は無効
+		- 眼ビームがsmiteを付与
+		- 眼ビーム中にも眼弾を発射
+		- ダッシュ時に鎌を連射
+		- 頭蓋雨中に狙い鎌を発射
+		- フェーズ2のチェイス中に火を放つ
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		- Eternityモードの攻撃の弾数が増加
+		'''
+	Moco:
+		'''
+		[Revengeance]
+		- Oozedデバフの持続が延長
+		- ダッシュ移動量が増加
+		- ダッシュ回数+1
+		- 巨大な鼻水を2回発射
+
+		[Death]
+		- Oozedの持続がさらに延長
+		- ダッシュ移動量をさらに増加
+		- ダッシュ回数+2
+		- 巨大な鼻水を3回発射
+		- 攻撃速度が上昇
+
+		[Eternity]
+		- Calamityの変更は無効
+		- ダッシュ中に落下する鼻水の軌跡を残す
+		- すべての鼻水が鈍重と感染症を付与
+		- 巨大な鼻水は無防備を付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		'''
+	Daffodil:
+		'''
+		[Eternity]
+		- すべての棘攻撃が感染症を付与
+		- 花は感染症を付与
+		- ハエは腐敗を付与
+		- スイープレーザーは導火線を付与
+		'''
+	OrroBoro:
+		'''
+		[Revengeance]
+		- 長距離ダッシュ前に両者が拡散パターンで唾を吐く
+		- 唾攻撃とOrroの血塊弾が脳の腐敗を付与
+		- 肉柱とBoroの血塊弾が燃える血液を付与
+
+		[Death]
+		- 長距離ダッシュ前の唾の速度が大幅上昇
+
+		[Eternity]
+		- Calamityの変更は無効
+		- 眼の唾が鈍重と無防備を付与
+		- 血塊と肉柱が腐敗を付与
+		- Boroが長距離ダッシュ中にヒルの軌跡を残す
+		- Orroが長距離ダッシュ中に回虫の壁を作る
+		- Boroが舌攻撃中にホーミングする歯を放つ
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		'''
+	BigBone:
+		'''
+		[Revengeance]
+		- 頭突きが2回に
+
+		[Death]
+		- フェーズ1で跳ねる花弾と一緒にホーミング花弾を2発発射
+		- フェーズ2ではホーミング花弾をさらに2発追加
+
+		[Eternity]
+		- Calamityの変更は無効
+		- 頭突き時に花びらの輪を放つ
+		- 火攻撃が導火線を付与
+		- 棘と胞子攻撃が感染症を付与
+		- 花と骨攻撃が腐敗を付与
+		- カミソリ攻撃が感染症と無防備を付与
+
+		[Eternity+Death]
+		- Calamityの変更が再び有効
+		- 花びらの輪がより高速で発射される
+		'''
+}
+
+InfernumTitle: {
+	Lepus:
+		'''
+		Disaster Bunny
+		Lepus
+		'''
+	TurkortheUngrateful:
+		'''
+		The Ungrateful One
+		Turkor
+		'''
+	Ocram:
+		'''
+		Timelost Vessel
+		Ocram
+		'''
+	Glowmoth:
+		'''
+		Luminescent Flyer
+		Glowmoth
+		'''
+	PutridPinkyPhase2:
+		'''
+		Peanut-Piping Prick
+		Putrid Pinky
+		'''
+	PharaohsCurse:
+		'''
+		The Curse of Ra
+		Pharaoh's Curse
+		'''
+	TheAdvisorHead:
+		'''
+		Otherworldly Spirit
+		The Advisor
+		'''
+	Polaris:
+		'''
+		The North Star
+		Polaris
+		'''
+	Lux:
+		'''
+		Spirit of Chaos
+		Lux
+		'''
+	SubspaceSerpentHead:
+		'''
+		The Serpent of Sages
+		Subspace Serpent
+		'''
+	RotGourd:
+		'''
+		Gourd Guardian
+		Rot Gourd
+		'''
+	SpookySpirit:
+		'''
+		The Party Crasher
+		Spooky Spirit
+		'''
+	Moco:
+		'''
+		Allergic to Everything
+		Moco
+		'''
+	DaffodilEye:
+		'''
+		Flowery Protector
+		Daffodil
+		'''
+	OrroHeadP1:
+		'''
+		Twins of Gluttony
+		Orro & Boro
+		'''
+	BigBone:
+		'''
+		Sealed in the Catacombs
+		Big Bone
+		'''
+}
+
+Projectiles: {
+	AchingTooth: {
+		DisplayName: Aching Tooth
+	}
+
+	BossRushTeleporter: {
+		DisplayName: Boss Rush Teleporter
+	}
+
+	CurseCrossbone: {
+		DisplayName: Curse Crossbone
+	}
+
+	CurseShockwave: {
+		DisplayName: Curse Shockwave
+	}
+
+	ExplosiveEasterEgg: {
+		DisplayName: Explosive Easter Egg
+	}
+
+	FallingPetal: {
+		DisplayName: Falling Petal
+	}
+
+	FakeLux: {
+		DisplayName: Chaos Illusion
+	}
+
+	GourdSlam: {
+		DisplayName: Gourd Slam
+	}
+
+	Leech: {
+		DisplayName: Leech
+	}
+
+	LesserPhaseBolt: {
+		DisplayName: Lesser Phase Bolt
+	}
+
+	ManaDrain: {
+		DisplayName: Mana Drain
+	}
+
+	OcramBeam: {
+		DisplayName: Ocram Beam
+	}
+
+	OcramBeamTelegraph: {
+		DisplayName: Ocram Beam
+	}
+
+	OcramRay: {
+		DisplayName: Death Stare
+	}
+
+	PinkBomb: {
+		DisplayName: Pink Bomb
+	}
+
+	PinkHelix: {
+		DisplayName: Pink Helix
+	}
+
+	PinkPellet: {
+		DisplayName: Pink Pellet
+	}
+
+	PinkSplat: {
+		DisplayName: Pink Splat
+	}
+
+	Sceyethe: {
+		DisplayName: Sc-Eye-the
+	}
+
+	SpookyFlames: {
+		DisplayName: Spooky Flames
+	}
+
+	SubspaceFireBreath: {
+		DisplayName: Subspace Fire Breath
+	}
+
+	Tapeworm: {
+		DisplayName: Tapeworm
+	}
+}
+
+Configs: {
+	DebugConfig: {
+		DisplayName: デバッグ設定
+
+		calamityDifficulty: {
+			Label: Calamity 難易度テスター
+			Tooltip:
+				'''
+				Calamity の難易度が有効になっているとゲームに錯覚させる
+				Calamity 本体が有効な場合は機能しない
+				0 - 無効
+				1 - Revengeance
+				2 - Death
+				3 - Malice または Boss Rush
+				'''
+		}
+
+		eternityMode: {
+			Label: Eternity モードテスター
+			Tooltip:
+				'''
+				Eternityモードが有効になっているとゲームに錯覚させる
+				Fargo's Souls本体が有効な場合は機能しない
+				'''
+		}
+	}
+
+	SupportedModsConfig: {
+		DisplayName: 対応Mod設定
+
+		Calamity: {
+			Label: "[i/s1:1281] Revengeance AI"
+			Tooltip: 他のModにRevengeanceモードのAIを適用
+		}
+
+		Eternity: {
+			Label: "[i/s1:3577] Eternity AI"
+			Tooltip: 他のModにEternityモードのAIを適用
+		}
+
+		Infernum: {
+			Label: "[i/s1:2701] InfernumをEternityとして扱う"
+			Tooltip: InfernumモードをMalice + Eternityとして扱い、対応Modのボスに適用
+		}
+
+		BossRush: {
+			Label: "[i/s1:43] Boss Rush対応"
+			Tooltip:
+				'''
+				対応ModのボスをBoss Rushに追加する
+				※各Modの対応トグルが有効になっている必要あり
+				'''
+		}
+
+		DefenseDamage: {
+			Label: "[i/s1:442] 防御力ダメージ対応"
+			Tooltip: 対応Modで防御力ダメージの統合を可能にする
+		}
+
+		Consolaria: {
+			Label: "[g:2] Consolaria"
+			Tooltip: <Revengeance+>Consolaria
+		}
+
+		SOTS: {
+			Label: "[i/s1:3581] Secret of the Shadows"
+			Tooltip: <Revengeance+>SOTS
+		}
+
+		Spooky: {
+			Label: "[i/s1:1725] Spooky"
+			Tooltip: <Revengeance+>Spooky
+		}
+	}
+}
