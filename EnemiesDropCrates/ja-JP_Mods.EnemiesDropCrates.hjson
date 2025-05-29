@@ -1,0 +1,73 @@
+Configs: {
+	EnemiesDropCratesConfig: {
+		hardmodeCrateDrop: {
+			Tooltip: ハードモードの鉱石を敵のドロップから入手可能にする
+			Label: ハードモードでクレートをドロップする
+		}
+
+		dungeonToggle: {
+			Tooltip: ""
+			Label: ダンジョン
+		}
+
+		oceanToggle: {
+			Tooltip: ""
+			Label: 海
+		}
+
+		hellToggle: {
+			Tooltip: ""
+			Label: 地底世界
+		}
+
+		skyToggle: {
+			Tooltip: ""
+			Label: 空
+		}
+
+		iceToggle: {
+			Tooltip: ""
+			Label: 雪／氷
+		}
+
+		desertToggle: {
+			Tooltip: ""
+			Label: 砂漠
+		}
+
+		hallowToggle: {
+			Tooltip: ""
+			Label: 聖域
+		}
+
+		crimsonToggle: {
+			Tooltip: ""
+			Label: 真紅
+		}
+
+		corruptToggle: {
+			Tooltip: ""
+			Label: 不浄
+		}
+
+		jungleToggle: {
+			Tooltip: ""
+			Label: ジャングル
+		}
+
+		Headers: {
+			IndividualBiome: バイオームごとのクレートドロップ設定
+		}
+
+		potionModifier: {
+			Tooltip:
+				'''
+				クレートポーションを使用した際のドロップ率倍率
+				100% = 変化なし
+				'''
+			Label: クレートポーション補正率（％）
+		}
+
+		DisplayName: 設定
+	}
+}
