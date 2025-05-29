@@ -1,0 +1,24 @@
+Configs: {
+	OreBagServerConfig: {
+		BagOptions: バッグオプション
+		DisplayName: サーバー設定
+
+		StartWithOreBag: {
+			Label: 鉱石バッグを所持して開始
+			Tooltip: 無効にすると、プレイヤーが鉱石バッグを所持した状態で開始しなくなります
+		}
+	}
+}
+
+Items: {
+	OreBag: {
+		DisplayName: 鉱石バッグ
+		Tooltip:
+			'''
+			鉱石、インゴット、宝石、ガラスを自動で収納する
+			インベントリにある場合、バッグの中身はクラフト時に使用可能
+			右クリックでバッグを開く
+			'''
+	}
+}
+
