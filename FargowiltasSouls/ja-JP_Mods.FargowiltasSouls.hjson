@@ -1120,6 +1120,8 @@ Configs: {
 			Tooltip: エタニティモードでのブロードソードや槍などの特定の武器のリワークを適用するかを切り替えられます
 		}
 
+
+
 		PatreonRoomba: {
 			Label: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:{$Mods.FargowiltasSouls.Items.RoombaPet.DisplayName}]"
 			Tooltip: ""
@@ -1203,6 +1205,27 @@ Configs: {
 		PatreonTouhou: {
 			Label: "[i:FargowiltasSouls/TouhouStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.TouhouStaff.DisplayName}]"
 			Tooltip: ""
+		}
+
+		MultiplayerRespawnPrevention: {
+			Label: マルチプレイヤーの復活制限
+			Tooltip: マルチプレイ中のボス戦で、複数回の復活をどのモード基準で防止するかを選択します。
+		}
+	}
+
+	RespawnPreventionSetting: {
+		Tooltip: ""
+
+		Eternity: {
+			Label: Eternityモード
+		}
+
+		Masochist: {
+			Label: Masochistモード
+		}
+
+		Disabled: {
+			Label: 無効
 		}
 	}
 }
@@ -1497,7 +1520,7 @@ Items: {
 			'''
 			出血のオーラを展開する
 			オーラの中の敵に出血状態を付与する
-			出血中の攻撃すると近接ダメージの血しぶきを撒き散らす
+			出血中の敵を攻撃すると近接ダメージの血しぶきを撒き散らす
 			「意外と清潔」
 			'''
 	}
@@ -1609,7 +1632,7 @@ Items: {
 		Tooltip:
 			'''
 			近接武器のサイズが1.5倍、鞭の射程が1.2倍になる
-			サイズが大きくなった攻撃を当てると衝撃波が発生する
+			攻撃を当てると衝撃波が発生する
 			（衝撃波は2.5秒のクールダウン）
 			「大きいことは良いことだ」
 			'''
@@ -3773,7 +3796,7 @@ Items: {
 	}	
 	TrojanMusicBox: {
 		DisplayName: オルゴール (トロイのリス)
-		Tooltip: ProduceVGM 'Nuts And Bolts'
+		Tooltip: ProduceVGM 「Nuts And Bolts」
 	}
 	TrojanMask: {
 		DisplayName: トロイのリスのマスク
@@ -3859,7 +3882,7 @@ Items: {
 	}
 	CoffinMusicBox: {
 		DisplayName: オルゴール (カースドコフィン)
-		Tooltip: zentaque & Azathoth 'Shifting Sands'
+		Tooltip: zentaque & Azathoth 「Shifting Sands」
 	}
 	CoffinMask: {
 		DisplayName: カースドコフィンのマスク
@@ -4055,11 +4078,11 @@ Items: {
 	}
 	BaronP1MusicBox: {
 		DisplayName: オルゴール (バニッシュバロン - フェーズ 1)
-		Tooltip: zentaque & Azathoth 'Will of the Waves'
+		Tooltip: zentaque & Azathoth 「Will of the Waves」
 	}
 	BaronP2MusicBox: {
 		DisplayName: オルゴール (バニッシュバロン - フェーズ 2)
-		Tooltip: zentaque & Azathoth 'Will of the Waves'
+		Tooltip: zentaque & Azathoth 「Will of the Waves」
 	}
 	BaronMask: {
 		DisplayName: バニッシュバロンのマスク
@@ -4153,7 +4176,7 @@ Items: {
 	}
 	LifelightMusicBox: {
 		DisplayName: オルゴール (ライフライト)
-		Tooltip: ProduceVGM 'Illustrious Illuminescence'
+		Tooltip: ProduceVGM 「Illustrious Illuminescence」
 	}
 	LifelightMask: {
 		DisplayName: ライフライトのマスク
@@ -4301,7 +4324,7 @@ Items: {
 		Tooltip: ""
 	}
 	LifeDye: {
-		DisplayName: 生命の染料
+		DisplayName: 染料(生命)
 		Tooltip: ""
 	}
 
@@ -4348,7 +4371,7 @@ Items: {
 		Tooltip: ""
 	}
 	WillDye: {
-		DisplayName: 信念の染料
+		DisplayName: 染料(信念)
 		Tooltip: ""
 	}
 	EnerGear: {
@@ -4371,7 +4394,7 @@ Items: {
 	}
 	EridanusMusicBox: {
 		DisplayName: オルゴール (エリダヌス)
-		Tooltip: Yuri O 'Platinum Star'
+		Tooltip: Yuri O 「Platinum Star」
 	}
 	CosmosBag: {
 		DisplayName: トレジャーバッグ（エリダヌス）
@@ -4429,7 +4452,7 @@ Items: {
 			忌まわしい牙と忌まわしい存在に対する免疫を付与する
 			煌く愛情のグレイズによるダメージボーナスが増加し、ハートのクールダウンを半分にする
 			アボミネーションの幻影が定期的に現れ、クリティカルをサポートする
-			スティクスアーマーを装備していると、グレイズが最大になったときにエネルギーをチャージする
+			スティクス系統の防具を装備していると、グレイズが最大になったときにエネルギーをチャージする
 			どんな攻撃にも耐え、1ライフで生き残る能力を得る
 			この能力は一度発動後、ライフが最大に戻ると再び使用できる
 			「何かが足りないようだ」
@@ -4649,7 +4672,7 @@ Items: {
 			'''
 	}
 	GaiaDye: {
-		DisplayName: ガイアの染料
+		DisplayName: 染料(ガイア)
 		Tooltip: ""
 	}
 
@@ -4799,7 +4822,7 @@ Items: {
 
 	EulogistsDoomsdayScenario: {
 		DisplayName: 弔辞者の終末のシナリオ
-		Tooltip: 自身の周囲を破壊する、町のNPC全員と自身は死亡する
+		Tooltip: 自身の周囲を破壊する、破壊に巻き込まれたNPCと自身は死亡する
 	}
 
 	FigBranch: {
@@ -4900,8 +4923,8 @@ Items: {
 		DisplayName: ドラクヴィの釣り竿
 		Tooltip:
 			'''
-			右クリックで攻撃オプションを切り替える
-			すべてのダメージタイプに1つずつオプションがある
+			右クリックで攻撃モードを切り替える
+			モードに応じてダメージタイプが異なる
 			'''
 	}
 
@@ -4909,8 +4932,9 @@ Items: {
 		DisplayName: ナノコア
 		Tooltip:
 			'''
-			7つのナノユニットが現れて武器を作成する
-			左クリックで攻撃し、右クリックで武器を切り替える
+			7つのナノユニットにより武器を作成する
+			左クリックで攻撃し、右クリックで攻撃モードを切り替える
+			モードに応じてダメージタイプが異なる
 			「科学は私たちの味方だ」
 			'''
 	}
@@ -5271,17 +5295,17 @@ Items: {
 
 	AbominationnP1MusicBox: {
 		DisplayName: オルゴール (アボミネーション - フェーズ1)
-		Tooltip: Yuri O 'Laevateinn'
+		Tooltip: Yuri O 「Laevateinn」
 	}
 
 	AbominationnP2MusicBox: {
 		DisplayName: オルゴール (アボミネーション - フェーズ2)
-		Tooltip: Yuri O 'Laevateinn'
+		Tooltip: Yuri O 「Laevateinn」
 	}
 
 	MainMenuMusicBox: {
 		DisplayName: オルゴール (メインメニュー)
-		Tooltip: 削除 'Nein'
+		Tooltip: 削除 「Nein」
 	}
 
 }
@@ -6723,7 +6747,7 @@ SetBonus: {
 		'''
 	Mutant:
 		'''
-		幻想の球体が周囲の敵にデスレーザーを放つ
+		幻想の環が周囲の敵にデスレーザーを放つ
 		アボミネーションの幻影が共に戦う
 		攻撃時、神の怒りとヘルファイアのデバフを相手に付与する
 		復活時に巨大なデスレーザーを放つ
@@ -7060,6 +7084,8 @@ UI: {
 	LeftClickEnable: 左クリックで有効化
 	RightClickSelectDifficulty: 右クリックで難易度を選択
 	HoldShift: Shiftキーを押して詳細を表示
+	Close: 閉じる
+	OpenKeybinds: キー設定を開く
 	ExpandedStandard:
     	'''
     	EternityモードまたはMasochistモードを無効にします。
@@ -7117,7 +7143,7 @@ UI: {
 		ActiveSkills: アクティブスキル
 		AvailableSkills: 使用可能なスキル
 		SelectDifficulty: 難易度を選択
-		NoRespawn: リスポーン不可: マゾヒストモードのマルチプレイでは、ボスごとに1回のみリスポーン可能！
+		NoRespawn: リスポーン不可：マゾヒストモードのマルチプレイでは、ボスごとに1回しか復活できません！
 	}
 
 WizardEffect: {
@@ -7212,4 +7238,3 @@ WizardEffect: {
 	Active: 有効
 	Inactive: 無効
 }
-
