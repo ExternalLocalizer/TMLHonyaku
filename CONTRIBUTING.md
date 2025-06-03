@@ -5,7 +5,9 @@
 - [本リポジトリのwiki][repo:wiki]
 - [tModLoader wiki][github:tmlWiki]
 
-特に 本リポジトリのwikiには注意点が多く書かれているので**必ず読んでください**。
+> [!IMPORTANT]
+> 本リポジトリのwikiには注意点が多く書かれています。**必ず読んでください**。
+
 
 ## 翻訳の方針
 
@@ -40,33 +42,38 @@ Modの内部名のフォルダを作り、その中にhjsonファイルを作成
 
 #### ファイル名
 
-可能であれば`ja-JP_Mods.XXX.hjson`のようにファイル名にMod名が含まれる書き方にしてください。External Localizer によるファイルの読み込み時の効率が上がります。
+`ja-JP_Mods.XXX.hjson`のようにファイル名にMod名が含まれる書き方にしてください。External Localizer によるファイルの読み込み時の効率が上がります。
 
-例: ``CalamityMod/ja-JP_Mods.hjson``
+> [!NOTE]
+> Mods.XXXから始まらないキーを含む場合は、例外としてこれに従う必要はありません。
 
-```hjson
-Mods: {
-  CalamityMod: {
-    Vanilla: {
-      WizardChat: {
-        ...
-      }
-    }
-  }
-}
-```
 
-例: ``CalamityMod/ja-JP_Mods.CalamityMod.hjson``
+> ダメな例: ``CalamityMod/ja-JP_Mods.hjson``
+> 
+> ```hjson
+> Mods: {
+>   CalamityMod: {
+>     Vanilla: {
+>       WizardChat: {
+>         ...
+>       }
+>     }
+>   }
+> }
+> ```
+> 
+> 良い例: ``CalamityMod/ja-JP_Mods.CalamityMod.hjson``
+> 
+> `Mods.CalamityMod`をパスに含めることで、hjsonから該当部分を省略できます。
+> 
+> ```hjson
+> Vanilla: {
+>   WizardChat: {
+>     ...
+>   }
+> }
+> ```
 
-`Mods.CalamityMod`をパスに含めることで、hjsonから該当部分を省略できます。
-
-```hjson
-Vanilla: {
-  WizardChat: {
-    ...
-  }
-}
-```
 
 [github:tmlWiki]:https://github.com/tModLoader/tModLoader/wiki/Localization
 [repo:wiki]: https://github.com/ExternalLocalizer/TMLHonyaku/wiki
