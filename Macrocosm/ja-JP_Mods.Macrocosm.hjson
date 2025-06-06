@@ -531,7 +531,7 @@ Tiles: {
 	}
 
 	LaunchPadMarker: {
-		MapEntry: L発射台マーカー
+		MapEntry: 発射台マーカー
 	}
 
 	IndustrialChest: {
@@ -3625,7 +3625,11 @@ Items: {
 	}
 
 	LaunchPadMarker: {
-		Tooltip: ロケットの発射台を作成するために使用される
+		Tooltip: 
+		'''
+		平らな場所に2つ並べて配置することで、ロケットの発着点を作成する
+		発着点ではロケットを組み立てることができる
+		'''
 		DisplayName: 発射台マーカー
 	}
 
