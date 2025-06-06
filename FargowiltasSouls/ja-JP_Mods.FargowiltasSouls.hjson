@@ -364,7 +364,7 @@ Buffs: {
 
 	BloodDrinkerBuff: {
 		DisplayName: 血の潤い
-		Description: 30％のダメージ増加
+		Description: ダメージが30％増加
 	}
 
 	BloodthirstyBuff: {
@@ -443,7 +443,7 @@ Buffs: {
 
 	HypothermiaBuff: {
 		DisplayName: 低体温症
-		Description: 飛び道具が遅くなり、冷気攻撃の被ダメージが増加する
+		Description: 飛び道具が遅くなり、冷気攻撃の被ダメージが増加
 	}
 
 	InfestedBuff: {
@@ -2130,7 +2130,7 @@ Items: {
 		DisplayName: 神聖のエンチャント
 		Tooltip:
 			'''
-			回復ポーションの回復量が40％増加するが、効果は徐々に現れるようになる  
+			回復ポーションの回復量が40％増加するが、即時回復ではなく徐々に回復するようになる  
 			回復ポーションを使用すると衝撃波が発生し、周囲の敵の飛び道具を弾く
 			「全力でかかってこい」
 			'''
@@ -2192,7 +2192,7 @@ Items: {
 			[i:FargowiltasSouls/ForbiddenEnchant] スキルを発動することで、魔法と召喚ダメージに応じてダメージが強化される竜巻を召喚する
 			[i:FargowiltasSouls/ForbiddenEnchant] 竜巻を通過した飛び道具は1.4倍のダメージを与える
 			[i:FargowiltasSouls/AncientHallowEnchant] 竜巻はマウスをゆっくり追尾する
-			[i:FargowiltasSouls/HallowEnchant] 回復ポーションの回復量が70％増加するが、効果は徐々に現れるようになる 
+			[i:FargowiltasSouls/HallowEnchant] 回復ポーションの回復量が70％増加するが、即時回復ではなく徐々に回復するようになる 
 			[i:FargowiltasSouls/SpectreEnchant] ライフが0になると200のライフで復活し、デバフを解除する
 			[i:FargowiltasSouls/TikiEnchant] 鞭の射程が増加、鞭のダメージは最も高いクラスダメージ依存となる、鞭が命中した飛び道具を強化
 			「この世を超えて昇華する」
@@ -2208,7 +2208,7 @@ Items: {
 			スキルを発動することで黄金化できる
 			適用中は移動や攻撃はできなくなるが、すべてのダメージを無効化する
 			再度登録したキーを押すと早めに解除できる
-			ゴールドを拾うと自動で豚の貯金箱に送られるようになる（インベントリと外見スロットでも有効）
+			コインを拾うと自動で豚の貯金箱に送られるようになる（インベントリと外見スロットでも有効）
 			「金こそが世界を動かす」
 			'''
 	}
@@ -2415,9 +2415,9 @@ Items: {
 		DisplayName: バーバリアンのエッセンス
 		Tooltip:
 			'''
-			近接ダメージが18％増加する
-			近接攻撃速度が10％増加する
-			近接クリティカル率が8％増加する
+			近接ダメージが18％増加
+			近接攻撃速度が10％増加
+			近接クリティカル率が8％増加
 			「これはほんの始まりに過ぎない...」
 			'''
 	}
@@ -2426,9 +2426,9 @@ Items: {
 		DisplayName: シャープシューターのエッセンス
 		Tooltip:
 			'''
-			遠距離ダメージが18％増加する
+			遠距離ダメージが18％増加
 			遠距離武器の弾速が10％増加
-			遠距離クリティカル率が8％増加する
+			遠距離クリティカル率が8％増加
 			「これはほんの始まりに過ぎない...」
 			'''
 	}
@@ -2437,9 +2437,9 @@ Items: {
 		DisplayName: アプレンティスのエッセンス
 		Tooltip:
 			'''
-			魔法ダメージが18％増加する
-			魔法クリティカル率が8％増加する
-			最大マナが50増加する
+			魔法ダメージが18％増加
+			魔法クリティカル率が8％増加
+			最大マナが50増加
 			「これはほんの始まりに過ぎない...」
 			'''
 	}
@@ -2448,8 +2448,8 @@ Items: {
 		DisplayName: オカルティストのエッセンス
 		Tooltip:
 			'''
-			召喚ダメージが18％増加する
-			鞭の射程が10％増加する
+			召喚ダメージが18％増加
+			鞭の射程が10％増加
 			召喚できるミニオンの数が1体増加
 			「これはほんの始まりに過ぎない...」
 			'''
@@ -3305,7 +3305,7 @@ Items: {
 			無効化の呪い、重力反転、発光、不安定、月の呪いに対する免疫を付与する
 			ほとんどの標準ポーションおよびステーションバフを付与する（インベントリと外見スロットでも有効）
 			一緒に戦ってくれる真なるクトゥルフの目玉たちを召喚する
-			飛行時間を100％増加させる
+			飛行時間が100％増加
 			「さあ、飲め」
 			'''
 		VanityTooltip: ほとんどの標準ポーションおよびステーションバフを付与する
@@ -3334,7 +3334,7 @@ Items: {
 			[i:FargowiltasSouls/MutantAntibodies] 水に浸かることで飛行可能時間が回復し、移動速度と最大飛行可能時間が増加する
 			[i:FargowiltasSouls/MutantAntibodies] キュートフィッシュロンに乗ると水浸しデバフを付与する
 			[i:FargowiltasSouls/PrecisionSeal] 設定したキーを押すとダッシュと二段ジャンプを無効化し、ヒットボックスを表示する
-			[i:FargowiltasSouls/PrecisionSeal] 飛び道具に対するヒットボックスを常に縮小し、[i:FargowiltasSouls/GalacticGlobe] 飛行時間を増加させる
+			[i:FargowiltasSouls/PrecisionSeal] 飛び道具に対するヒットボックスを常に縮小し、[i:FargowiltasSouls/GalacticGlobe] 飛行時間が増加
 			[i:FargowiltasSouls/SaucerControlConsole] スキルを発動することで弾薬を切り替えることができ、[i:FargowiltasSouls/GalacticGlobe] ほとんどのポーションと設置物のバフを付与する（インベントリと外見スロットでも有効）
 			[c/BC5252:全てのアクセサリーの召喚効果を無効にし、無効になった数と未使用のミニオンスロット1つごとにダメージ+1％増加（切替可能）] 
 			[i:FargowiltasSouls/GalacticGlobe] 真なるクトゥルフの目と[i:FargowiltasSouls/SaucerControlConsole] ミニソーサーを召喚する
