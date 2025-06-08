@@ -52,8 +52,7 @@ ActiveSkills:{
 		DisplayName: ザ・ワールド
 		Tooltip: 
 			'''
-			数秒間、時を止める  
-			時間が止まっている間もミニオンは攻撃が可能
+			数秒間、時を止める
 			'''
 	}
 
@@ -516,7 +515,7 @@ Buffs: {
 	}
 
 	MidasBuff: {
-		DisplayName: ミダス
+		DisplayName: 強欲
 		Description: 攻撃を受けるとお金を落とす
 	}
 
@@ -2204,7 +2203,7 @@ Items: {
 		DisplayName: 金のエンチャント
 		Tooltip:
 			'''
-			攻撃がミダスを付与するようになる、このデバフを受けた敵はダメージを受けるとゴールドを落とす
+			攻撃が強欲を付与するようになる、このデバフを受けた敵はダメージを受けるとゴールドを落とす
 			スキルを発動することで黄金化できる
 			適用中は移動や攻撃はできなくなるが、すべてのダメージを無効化する
 			再度登録したキーを押すと早めに解除できる
@@ -2293,7 +2292,7 @@ Items: {
 			[i:FargowiltasSouls/RedRidingEnchant] 攻撃を当て続けることで固定ダメージや防御無視の補正を得る、戦旗によって補正は強化され、外すと蓄積の半分を失う
 			[i:FargowiltasSouls/ValhallaKnightEnchant] 回復効果の効果量が25％増加する
 			[i:FargowiltasSouls/ValhallaKnightEnchant] 騎乗時にステータスが強化され、ダッシュが使用可能になる
-			[i:FargowiltasSouls/GoldEnchant] スキルを発動して黄金の殻に閉じ込もることが可能となり、攻撃時、敵にミダスを付与する
+			[i:FargowiltasSouls/GoldEnchant] スキルを発動して黄金の殻に閉じ込もることが可能となり、攻撃時、敵に強欲を付与する
 			[i:FargowiltasSouls/GoldEnchant] ゴールドを拾うと自動で豚の貯金箱に送られるようになる（インベントリと外見スロットでも有効）
 			[i:FargowiltasSouls/PlatinumEnchant] 33％の確率で敵が5倍のアイテムをドロップする
 			「壊れない決意の心」
@@ -2361,9 +2360,8 @@ Items: {
 		Tooltip:
 			'''
 			近くの敵を攻撃してくれるスターダストガーディアンを召喚する
-			スキルを発動することで6秒間時間を停止する
-			時間停止中もミニオンは攻撃を続ける
-			この効果のクールダウンは90秒
+			スキルを発動することで6秒間時間を停止することができる
+			このスキルのクールダウンは90秒
 			「スタンドの力はあなたのもの」
 			'''
 	}
@@ -2872,13 +2870,13 @@ Items: {
 		Tooltip:
 			'''
 			インベントリおよび外見スロットでも有効
-			ミダスに対する免疫を付与する
+			強欲に対する免疫を付与する
 			リフォージの値段を50％割引
 			「死体から盗まれることには対応していません」
 			'''
 		VanityTooltip:
 			'''
-			ミダスに対する免疫を付与する
+			強欲に対する免疫を付与する
 			リフォージの値段を50％割引
 			'''
 	}
@@ -2933,7 +2931,7 @@ Items: {
 		Tooltip:
 			'''
 			[i:FargowiltasSouls/FrigidGemstone] 霜焼け、[i:FargowiltasSouls/WretchedPouch] シャドウフレイム、[i:FargowiltasSouls/SqueakyToy] 玩具遊び、[i:FargowiltasSouls/ConcentratedRainbowMatter] コズミックフレイム 
-			[i:FargowiltasSouls/WyvernFeather] 翼封じ、足止め、[i:FargowiltasSouls/TribalCharm] くもの巣まみれ、ディスペル、[i:FargowiltasSouls/NymphsPerfume] 恋慕、悪臭、呪詛、[i:FargowiltasSouls/SecurityWallet] ミダスに対する免疫を付与する
+			[i:FargowiltasSouls/WyvernFeather] 翼封じ、足止め、[i:FargowiltasSouls/TribalCharm] くもの巣まみれ、ディスペル、[i:FargowiltasSouls/NymphsPerfume] 恋慕、悪臭、呪詛、[i:FargowiltasSouls/SecurityWallet] 強欲に対する免疫を付与する
 			[i:FargowiltasSouls/SandsofTime] アイテムとして使用すると最後の死亡地点にテレポートする
 			[i:FargowiltasSouls/NymphsPerfume] 攻撃時にハートを生成することがある
 			[i:FargowiltasSouls/WyvernFeather] 定期的に光の玉を放ち、触れると飛行可能時間を回復できる  
