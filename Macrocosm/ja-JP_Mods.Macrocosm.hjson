@@ -1,0 +1,4726 @@
+WorldGen: {
+	Moon: {
+		SpawnTask: 最終調整中...
+		ChestLootTask: 財宝を隠しています...
+		AmbientTask: 月面に岩を配置中...
+		Horror: 古代の恐怖を配置中...
+		StructureTask: 古代遺跡を配置中...
+		SmoothTask: 月面をなめらかに整地中...
+		OreTask: 月面に鉱石を生成中...
+		IrradiationTask: 月面を放射化中...
+		WallTask: 壁を設置中...
+		CynthalithTask: シンサリスを敷設中...
+		RegolithTask: レゴリスを敷設中...
+		CaveTask: 月面に洞窟を掘削中...
+		CraterTask: クレーターを形成中...
+		TerrainTask: 月面に着陸中...
+	}
+}
+
+UI: {
+	LoadingScreenTips: {
+		Earth: {
+			Earth_Tip5: 電力源は複数用意しましょう。いつ雨が降るかわかりません。
+			Earth_Tip4: ロケットはカスタマイズ可能です！塗装を変えたり、お気に入りの旗をつけたり、名前をつけたりできます！
+			Earth_Tip3: 宇宙から戻った後の重力がつらい？高度な重力技術でブーツをアップグレードしてみましょう！
+			Earth_Tip2: 電力が足りていると思っても、たいてい足りていません。
+			Earth_Tip1: ビールのために戻ってきたのかい？
+		}
+
+		Moon: {
+			Moon_Tip9: ムーンロードは始まりに過ぎません。銀色の月にはどんな恐怖が潜んでいるのでしょうか？
+			Moon_Tip8: 太陽嵐に注意！
+			Moon_Tip7: 大気がないため火は使えませんが、闇を照らす手段は他にもあります。
+			Moon_Tip6: 血の刻が訪れたら、隠れる時間です。
+			Moon_Tip5: 月の低重力を活かしましょう。ただし敵も同じように利用してきます。
+			Moon_Tip4: この空気のない世界でも、生命は道を見つけます。常に警戒を怠らないで。
+			Moon_Tip3: 月は本当にチーズでできているのか？核心まで掘って確かめましょう。
+			Moon_Tip2: 月は地球よりもずっとゆっくり自転します。夜を乗り切るための物資は十分に！
+			Moon_Tip1: あなたは今、より広い世界への第一歩を踏み出しました。
+		}
+	}
+
+	Rocket: {
+		Special: {
+			TidallyLocked: 潮汐固定
+		}
+
+		Navigation: {
+			Checklist: {
+				VacantLaunchpad: {
+					NotMet: {
+						Hover: 標準
+						Display: 発射台が使用中
+					}
+				}
+
+				DifferentTarget: {
+					NotMet: {
+						Hover: 標準
+						Display: すでにこの場所にいます
+					}
+				}
+
+				Selected: {
+					NotMet: {
+						Hover: 標準
+						Display: 目標地点が未設定
+					}
+				}
+
+				BloodMoon: {
+					NotMet: {
+						Hover: ブラッドムーン中の宇宙は安全ではありません
+						Display: ブラッドムーン発生中
+					}
+				}
+
+				Invasion: {
+					NotMet: {
+						Hover: 現在発生中の侵攻を撃退する必要があります
+						Display: 侵攻イベント発生中
+					}
+				}
+
+				Boss: {
+					NotMet: {
+						Hover: ボスを倒すまでは安全に飛行できません
+						Display: ボスが生存中
+					}
+				}
+
+				Obstruction: {
+					NotMet: {
+						Hover: ロケットの進路上に障害物があります
+						Display: 進路に障害物あり
+					}
+
+					Met: {
+						Display: 進路に障害物なし
+					}
+				}
+
+				Fuel: {
+					NotMet: {
+						Hover: 目標地点に到達するには燃料が不足しています
+						Display: 燃料不足
+					}
+
+					Met: {
+						Display: 燃料OK
+					}
+				}
+			}
+
+			Hazard: {
+				SolarStorms: 太陽嵐
+				MeteorStorms: 流星群
+				Name: 危険要素
+			}
+
+		ThreatLevel: {
+			Name: 危険度
+			Threat10: "Lv{0} - 不明"
+			Threat9: "Lv{0} - 破滅"
+			Threat8: "Lv{0} - 悪夢"
+			Threat7: "Lv{0} - 大災厄"
+			Threat6: "Lv{0} - 致命的"
+			Threat5: "Lv{0} - 凶悪"
+			Threat4: "Lv{0} - 危険"
+			Threat3: "Lv{0} - 困難"
+			Threat2: "Lv{0} - 過酷"
+			Threat1: "Lv{0} - 無害"
+		}
+
+			Special: {
+				Unstable: 不安定
+				TidallyLocked: 潮汐固定
+			}
+
+			DayPeriod: {
+				UnitHours: "{0} {^0:時間;時間} {1}{2}{3}"
+				UnitDays: "{0} {^0:日;日} {1}{2}{3}"
+				Name: 1日の長さ
+			}
+
+			Radius: {
+				UnitImperial: "{0} {^0:mile;miles} {1}{2}{3}"
+				UnitMetric: "{0} km {1}{2}{3}"
+				Name: 半径
+			}
+
+			Gravity: {
+				UnitImperial: "{0} ft/s² {1}{2}{3}"
+				UnitMetric: "{0} m/s² {1}{2}{3}"
+				UnitG: "{0} G {1}{2}{3}"
+				Name: 重力
+			}
+
+			LaunchButton: {
+				LaunchInactive: 発射
+				Launch: 発射
+				ZoomIn: ズームイン
+				Occupied: 使用中
+				DifferentTarget: 現在地
+				CantReach: 到達不能
+				NoTarget: 目標なし
+			}
+		}
+
+		Cargo: {
+			DumpFuel: Dump
+		}
+
+		Customization: {
+			ResetPattern: 外観パターンを初期状態にリセット
+			ResetRocket: ロケットの外観を初期状態にリセット
+			ResetModule: モジュールの外観を初期状態にリセット
+			PasteRocket: ロケットの外観を貼り付け
+			CopyRocket: ロケットの外観をコピー
+			PasteModule: モジュールの外観を貼り付け
+			CopyModule: モジュールの外観をコピー
+			Cancel: ロケットの外観変更を破棄
+			Apply: ロケットの外観変更を適用
+		}
+
+		Modules: {
+			BoosterRight: {
+				DisplayName: 右ブースター
+			}
+
+			BoosterLeft: {
+				DisplayName: 左ブースター
+			}
+
+			EngineModule: {
+				DisplayName: エンジンモジュール
+			}
+
+			ReactorModule: {
+				DisplayName: 動力モジュール
+			}
+
+			ServiceModule: {
+				DisplayName: 居住モジュール
+			}
+
+			CommandPod: {
+				DisplayName: 指令ポッド
+			}
+		}
+
+		Common: {
+			Assembly: 組み立て
+			Customization: カスタマイズ
+			Fuel: 燃料
+			Inventory: インベントリ
+			Payload: 搭載物
+			Cargo: 貨物
+			Commander: 指揮官
+			Crew: 乗組員
+			LaunchLocations: 目標地点
+			Checklist: 発射前チェックリスト
+			Navigation: ナビゲーション
+			Close: 閉じる
+		}
+	}
+
+	LaunchPad: {
+		UnknownLocation: 不明な場所
+		AnyChest: どのチェストでも可
+		Disassemble: 解体
+		Assemble: 組み立て
+	}
+
+	Common: {
+		Inventory: {
+			OpenInventory: インベントリを開く
+		}
+
+		ZoomOut: ズームアウト
+		ZoomIn: ズームイン
+		CancelColor: 色の変更を破棄
+		ApplyColor: 色の変更を適用
+		RandomizeColor: 色をランダムに設定
+		PasteColorHex: クリップボードから色コードを貼り付け
+		CopyColorHex: 色コードをクリップボードにコピー
+		AlignCenterVertical: 垂直方向に中央揃え
+		AlignBottom: 下揃え
+		AlignTop: 上揃え
+		AlignCenterHorizontal: 水平方向に中央揃え
+		AlignRight: 右揃え
+		AlignLeft: 左揃え
+	}
+}
+
+Tiles: {
+	KeroseneGenerator: {
+		MapEntry: 灯油発電機
+	}
+
+	IndustrialBattery: {
+		MapEntry: 工業用バッテリー
+	}
+
+	InvarBar: {
+		MapEntry: インバー合金のインゴット
+	}
+
+	IVPole: {
+		MapEntry: 点滴スタンド
+	}
+
+	Fridge: {
+		MapEntry: 冷蔵庫
+	}
+
+	KyaniteNest: {
+		MapEntry: カイヤナイトの巣
+	}
+
+	AntiRadiationPills: {
+		MapEntry: 放射線防護薬
+	}
+
+	IrradiatedAltar: {
+		MapEntry: 被曝した祭壇
+	}
+
+	IndustrialBulkheadOpen: {
+		MapEntry: 工業用隔壁
+	}
+
+	IndustrialBulkheadClosed: {
+		MapEntry: 工業用隔壁
+	}
+
+	Medkit: {
+		MapEntry: 医療キット
+	}
+
+	IndustrialServer: {
+		MapEntry: サーバー
+	}
+
+	BurnerGenerator: {
+		MapEntry: 燃焼式発電機
+	}
+
+	IndustrialDeskClock: {
+		MapEntry: 卓上時計
+	}
+
+	IndustrialControlStation: {
+		MapEntry: 制御ステーション
+	}
+
+	IndustrialControlPanel: {
+		MapEntry: 制御パネル
+	}
+
+	WindTurbineSmall: {
+		MapEntry: 風力タービン
+	}
+
+	WindTurbineLarge: {
+		MapEntry: 風力タービン
+	}
+
+	Boombox: {
+		MapEntry: ブームボックス
+	}
+
+	IndustrialWallMonitor: {
+		MapEntry: 壁掛けモニター
+	}
+
+	IndustrialDeskMonitor: {
+		MapEntry: 卓上モニター
+	}
+
+	IndustrialCeilingMonitor: {
+		MapEntry: 天井モニター
+	}
+
+	CheeseChest: {
+		MapEntry: チーズの宝箱
+	}
+
+	CheeseBlock: {
+		MapEntry: チーズブロック
+	}
+
+	IndustrialGurney: {
+		MapEntry: ストレッチャー
+	}
+
+	Fabricator: {
+		MapEntry: ファブリケーター
+	}
+
+	OreExcavator: {
+		MapEntry: 鉱石掘削機
+	}
+
+	ConstructionLight: {
+		MapEntry: 建設用ライト
+	}
+
+	IndustrialCrate: {
+		MapEntry: 工業用クレート
+	}
+
+	Computer: {
+		MapEntry: コンピューター
+	}
+
+	PowerJunction: {
+		MapEntry: 分電盤
+	}
+
+	EarthGlobe: {
+		MapEntry: 地球儀
+	}
+
+	IntoTheUnknownMusicBox: {
+		MapEntry: オルゴール(Into The Unknown)
+	}
+
+	StygiaMusicBox: {
+		MapEntry: オルゴール(Stygia)
+	}
+
+	SpaceInvaderMusicBox: {
+		MapEntry: オルゴール(Space Invader)
+	}
+
+	RequiemMusicBox: {
+		MapEntry: オルゴール(Requiem)
+	}
+
+	DeadworldMusicBox: {
+		MapEntry: オルゴール(Deadworld)
+	}
+
+	MercurianBanner: {
+		MapEntry: 水星人のバナー
+	}
+
+	OxygenSystem: {
+		MapEntry: 酸素供給システム
+	}
+
+	IndustrialLocker: {
+		MapEntry: 工業用ロッカー
+	}
+
+	PrintedCircuitBoard: {
+		MapEntry: 電子基板
+	}
+
+	Motor: {
+		MapEntry: モーター
+	}
+
+	TeddyBear: {
+		MapEntry: テディベア
+	}
+
+	XFLR6: {
+		MapEntry: XFLR-6
+	}
+
+	LexanGlass: {
+		MapEntry: レキサンガラス
+	}
+
+	IndustrialDeskLamp: {
+		MapEntry: デスクランプ
+	}
+
+	IndustrialNeonTube: {
+		MapEntry: ネオン管
+	}
+
+	SilicaSand: {
+		MapEntry: シリカ
+	}
+
+	SilicaPearlsand: {
+		MapEntry: パールシリカ
+	}
+
+	SilicaEbonsand: {
+		MapEntry: エボンシリカ
+	}
+
+	SilicaCrimsand: {
+		MapEntry: クリムシリカ
+	}
+
+	OilRefinery: {
+		MapEntry: 石油精製所
+	}
+
+	SolarPanelSmall: {
+		MapEntry: ソーラーパネル
+	}
+
+	SolarPanelLarge: {
+		MapEntry: ソーラーパネル
+	}
+
+	SteelBar: {
+		MapEntry: 鋼鉄のインゴット
+	}
+
+	ArtemiteBar: {
+		MapEntry: アルテマイトのインゴット
+	}
+
+	AluminumBar: {
+		MapEntry: アルミニウムのインゴット
+	}
+
+	DianiteBar: {
+		MapEntry: ダイアナイトのインゴット
+	}
+
+	ChandriumBar: {
+		MapEntry: シャンドリウムのインゴット
+	}
+
+	SeleniteBar: {
+		MapEntry: セレナイトのインゴット
+	}
+
+	Coal: {
+		MapEntry: 石炭
+	}
+
+	OilShale: {
+		MapEntry: 油頁岩
+	}
+
+	ArtemiteOre: {
+		MapEntry: アルテマイト
+	}
+
+	LithiumOre: {
+		MapEntry: リチウム
+	}
+
+	DianiteOre: {
+		MapEntry: ダイアナイト
+	}
+
+	ChandriumOre: {
+		MapEntry: シャンドリウム
+	}
+
+	SeleniteOre: {
+		MapEntry: セレナイト
+	}
+
+	AluminumOre: {
+		MapEntry: アルミニウム
+	}
+
+	IndustrialLoom: {
+		MapEntry: 工業用織機
+	}
+
+	LaunchPadMarker: {
+		MapEntry: L発射台マーカー
+	}
+
+	IndustrialChest: {
+		MapEntryLocked: 工業用電子収納ユニット（ロック中）
+		MapEntryUnlocked: 工業用電子収納ユニット
+		MapEntryNormal: 工業用収納ユニット
+	}
+
+	LuminiteChest: {
+		MapEntry17: 宇宙の残り火のチェスト（ロック中）
+		MapEntry16: 宇宙の残り火のチェスト
+		MapEntry15: クリオコアのチェスト（ロック中）
+		MapEntry14: クリオコアのチェスト
+		MapEntry13: スター・ロワイヤルのチェスト（ロック中）
+		MapEntry12: スター・ロワイヤルのチェスト
+		MapEntry11: 水星のチェスト（ロック中）
+		MapEntry10: 水星のチェスト
+		MapEntry9: 暗い天体のチェスト（ロック中）
+		MapEntry8: 暗い天体のチェスト
+		MapEntry7: アストラのチェスト（ロック中）
+		MapEntry6: アストラのチェスト
+		MapEntry5: 月の錆ののチェスト（ロック中）
+		MapEntry4: 月の錆のチェスト
+		MapEntry3: 天国のチェスト（ロック中）
+		MapEntry2: 天国のチェスト
+		MapEntry1: ルミナイトのチェスト（ロック中）
+		MapEntry0: ルミナイトのチェスト
+	}
+}
+
+GameTips: {
+	Generic_Tip1: 海底でシリカを見つけられるかもしれません。高度な技術に活用しましょう！
+}
+
+Liquids: {
+	RocketFuel: ロケット燃料
+	Oil: 原油
+}
+
+Common: {
+	Tooltips: {
+		WeaponBuff: 宇宙放射線によりこの武器は強化されています
+		WeaponNerf: 宇宙放射線によりこの武器は劣化しています
+		LiquidContainer: このアイテムは液体を貯蔵できます
+		BurnFuel: この可燃性アイテムは燃料として使用できます
+		Unusable: このアイテムは {0} では使用できません
+		UnobtainableItem: 入手不可能
+		DeveloperItem: 開発者専用
+	}
+
+	MapNames: {
+		Poster: ポスター
+	}
+
+	LaunchPad: 発射台
+	Rocket: ロケット
+}
+
+Subworlds: {
+	Eris: {
+		DisplayName: エリス
+		FlavorText: この骨のように白い準惑星は、太陽系の果て近くを周回しています。異星から現れた悪魔や異形の怪物によって蹂躙された、恐怖と狂気が渦巻く世界です。
+	}
+
+	Charon: {
+		DisplayName: カロン
+		FlavorText: 冥王星最大の衛星で、親星と同様に氷と岩からなる凍てついた球体です。冥王星に避難してきた昆虫型の生物や悪魔がこの地に根を下ろし、他の準惑星へと勢力を拡大しつつあります。
+	}
+
+	Pluto: {
+		DisplayName: 冥王星
+		FlavorText: カイパーベルトの奥深くを周回する準惑星で、氷に閉ざされた世界です。表面には昆虫型の生物によって掘られた無数のトンネルが張り巡らされています。
+	}
+
+	Triton: {
+		DisplayName: トリトン
+		FlavorText: 海王星の最大の衛星です。氷に覆われ、間欠泉によって引き裂かれた凍てついた衛星です。不思議なことに、この衛星は海王星の自転と逆方向に公転しています。
+	}
+
+	Neptune: {
+		DisplayName: 海王星
+		FlavorText: 凍てついた深青の氷の巨星で、超音速の風が絶え間なく吹き荒れています。その風は悲鳴のように叫び、惑星の表面を切り裂くように駆け抜けています。
+	}
+
+	Miranda: {
+		DisplayName: ミランダ
+		FlavorText: 天王星の最も内側を回る衛星です。峡谷と鋭い峰が複雑に入り組んだ、異様な迷宮のような地形をしています。その歪んだ姿が激しい隕石衝突の結果なのか、あるいは深淵に潜む何者かの影響なのかは不明です。
+	}
+
+	Ouranos: {
+		DisplayName: 天王星
+		FlavorText: 極寒の氷の巨星です。古代の激突によって自転軸が大きく傾き、今も細く暗い環をまとう姿を見せています。
+	}
+
+	Titan: {
+		DisplayName: タイタン
+		FlavorText: 土星最大の衛星であり、太陽系で唯一濃密な大気と雲を持つ衛星です。オレンジ色の靄の下には、液体メタンの川や湖が静かに広がっています。
+	}
+
+	Saturn: {
+		DisplayName: 土星
+		FlavorText: 有名な環を持つ巨大なガス惑星です。無数の氷と岩の粒からなるその環と、異常な進化を遂げた多数の衛星に取り囲まれています。
+	}
+
+	Europa: {
+		DisplayName: エウロパ
+		FlavorText: 木星の衛星エウロパは、分厚い氷の下に全球規模の海を隠していると考えられています。しかし、木星の強力な放射線帯にさらされているため、そこに生命が存在するかどうかは、いまだ謎に包まれています。
+	}
+
+	Io: {
+		DisplayName: イオ
+		FlavorText: 木星の最も内側に位置する主要衛星です。初期の地球に似たこの世界では、硫黄の平原や溶岩の流れ、活火山が放射線にさらされた不安定な地表を形成しています。
+	}
+
+	Jupiter: {
+		DisplayName: 木星
+		FlavorText: 水素とヘリウムで構成された太陽系最大の惑星です。絶え間ない嵐が渦巻き、強大な磁場に包まれたその姿は、無数の衛星を従える巨神のような威容を誇ります。
+	}
+
+	Ceres: {
+		DisplayName: ケレス
+		FlavorText: 内惑星と外惑星の間に位置する小さな準惑星です。付近の小惑星からは、発信源不明の奇妙な信号が観測されています。
+	}
+
+	AsteroidBelt: {
+		DisplayName: 小惑星帯
+		FlavorText: 太陽系の内側と外側を隔てる、岩石と金属片からなる無数の小天体の帯です。サイボーグと化したエイリアンのコロニーや施設が広範囲に点在しています。
+	}
+
+	Deimos: {
+		DisplayName: ダイモス
+		FlavorText: 火星の外側を回る衛星です。現在は本来の軌道に戻されたものの、肉と岩が融合した異様な姿に変貌し、巨大な生命体へと作り変えられてしまいました。他にも同じ運命を辿った世界が存在するのかもしれません。
+	}
+
+	Phobos: {
+		DisplayName: フォボス
+		FlavorText: 火星の内側を回る衛星です。兄弟であるダイモスほどではないものの、異界からの侵略によって深い傷跡を残しています。この兄弟に対する悪魔たちの計画が完成してしまえば、火星そのものが危機に陥ることになるでしょう。
+		FlavorText_DeimosReturn: 火星の内側を回る衛星です。兄弟のダイモスほどではありませんが、それでも侵略の爪痕がはっきりと刻まれています。
+	}
+
+	Mars: {
+		DisplayName: 火星
+		FlavorText: かつては地球に似た惑星だったのかもしれませんが、今では大気と海をほとんど失い、乾ききった砂漠の世界となっています。生き残った生命体は過酷な環境に適応し、外来者には非常に攻撃的です。
+	}
+
+	Moon: {
+		DisplayName: 月
+		FlavorText: 悪名高いムーンロードの故郷である、地球の衛星です。大気のない荒れ果てた地表には、貴重なルミナイトが豊富に眠っており、その下には異星の恐怖が潜んでいます。
+	}
+
+	Earth: {
+		DisplayName: 地球
+		FlavorText:  太陽から3番目に位置する惑星であり、人類の故郷です。緑豊かな森林、液体の海、酸素に満ちた大気を持ち、生命にとって理想的な環境が整っています。
+	}
+
+	Venus: {
+		DisplayName: 金星
+		FlavorText: ほとんどが二酸化炭素で構成された濃密な大気に包まれ、灼熱の気温に焼かれ続ける地獄のような惑星です。火山が噴煙を上げ、硫黄の平原が広がっています。
+	}
+
+	Mercury: {
+		DisplayName: 水星
+		FlavorText: 太陽に最も近い惑星です。地球の月に似た空気のないクレーターだらけの荒野が広がり、昼は灼熱、夜は極寒という極端な気候にさらされています。
+	}
+
+	Vulcan: {
+		DisplayName: バルカン
+		FlavorText: 太陽のすぐ近くを回るこの小さな準惑星は、重力と熱の影響により表面が完全に破壊されました。数千もの火山が、灰と二酸化炭素を薄い原初の大気へと絶えず噴き出しています。
+	}
+
+	Sun: {
+		DisplayName: 太陽
+		FlavorText: 太陽系の中心に燃え盛る灼熱の星、中年期にある黄色い恒星です。
+	}
+}
+
+StatusMessages: {
+	MeteorStorm: {
+		End: 流星の落下が止まった。
+		Start: 流星が空から降り注いでいる！
+	}
+
+	LaunchpadMarker: {
+		NoPair: 近くに有効な発射台マーカーが見つかりませんでした。
+		FoundGap: 地形が平らではないため、ここには発射台を設置できません。
+		SolidBlock: 固体ブロックがあるため、ここには発射台を設置できません。
+		TooClose: 発射台マーカー同士が近すぎます。
+	}
+}
+
+Projectiles: {
+	SchroteriProjectile: {
+		DisplayName: Schroteri Projectile
+	}
+
+	TotalitySmallSlashProjectile: {
+		DisplayName: Totality Small Slash Projectile
+	}
+
+	TotalitySlashProjectile: {
+		DisplayName: Totality Slash Projectile
+	}
+
+	CrescentScriptureSlash: {
+		DisplayName: Crescent Scripture Slash
+	}
+
+	RyuguShell: {
+		DisplayName: Ryugu Shell
+	}
+
+	RyuguMinion: {
+		DisplayName: Ryugu Minion
+	}
+
+	HorusExplosion: {
+		DisplayName: Horus Explosion
+	}
+
+	GreatstaffOfHorusMinion: {
+		DisplayName: Greatstaff Of Horus Minion
+	}
+
+	CalcicCaneBolt: {
+		DisplayName: Calcic Cane Bolt
+	}
+
+	HummingbirdDrone: {
+		DisplayName: P.D.C.D. "Hummingbird"
+	}
+
+	HummingbirdBullet: {
+		DisplayName: P.D.C.D. "Hummingbird"
+	}
+
+	IlmeniteExplosion: {
+		DisplayName: Ilmenite Explosion
+	}
+
+	IlminiteExplosion: {
+		DisplayName: Ilminite Explosion
+	}
+
+	IlmeniteAltProj: {
+		DisplayName: Ilmenite Alt Proj
+	}
+
+	IlmeniteRegularProj: {
+		DisplayName: Ilmenite Regular Proj
+	}
+
+	IlmeniteHeld: {
+		DisplayName: Ilmenite Held
+	}
+
+	ExsanguinatorProjectile: {
+		DisplayName: Exsanguinator Projectile
+	}
+
+	DroneMinion: {
+		DisplayName: P.D.C.D. "Hummingbird"
+	}
+
+	DroneLaser: {
+		DisplayName: P.D.C.D. "Hummingbird"
+	}
+
+	WornLunarianDaggerHeld: {
+		DisplayName: Worn Lunarian Dagger
+	}
+
+	LuminiteBolt: {
+		DisplayName: Luminite Bolt
+	}
+
+	ArmstrongGauntletProjectile: {
+		DisplayName: Armstrong Gauntlet
+	}
+
+	ChampionsBladeBoltProjectile: {
+		DisplayName: Champion's Blade Bolt
+	}
+
+	ChampionsBladeHeldProjectile: {
+		DisplayName: Champion's Blade
+	}
+
+	LuminiteRune: {
+		DisplayName: Luminite Rune
+	}
+
+	ManisolBladeShadow: {
+		DisplayName: Manisol Blade Shadow
+	}
+
+	ManisolBladeSolExplosion: {
+		DisplayName: Manisol Blade Sol Explosion
+	}
+
+	ManisolBladeSol: {
+		DisplayName: Mani Blade
+	}
+
+	ManisolBladeMoon: {
+		DisplayName: Sol Blade
+	}
+
+	SeleniteSwordSlash: {
+		DisplayName: Selenite Sword
+	}
+
+	ZombieEngineerExplosion: {
+		DisplayName: Zombie Engineer Explosion
+	}
+
+	Explosion: {
+		DisplayName: Explosion
+	}
+
+	TotalityProjectile: {
+		DisplayName: Totality Projectile
+	}
+
+	LunarBlood: {
+		DisplayName: Lunar Blood
+	}
+
+	LuminiteWave: {
+		DisplayName: Luminite Wave
+	}
+
+	CrescentScriptureProjectile: {
+		DisplayName: Crescent Scripture
+	}
+
+	ChampionsBladeSlash: {
+		DisplayName: Champion's Blade
+	}
+
+	WaveGunRifleHeld: {
+		DisplayName: Wave Gun
+	}
+
+	WaveGunRedHeld: {
+		DisplayName: Red Zap Gun
+	}
+
+	WaveGunDualHeld: {
+		DisplayName: Zap Gun Dual Wield
+	}
+
+	WaveGunBlueHeld: {
+		DisplayName: Blue Zap Gun
+	}
+
+	WaveGunEnergyBolt: {
+		DisplayName: Energy Bolt
+	}
+
+	RedGunHeld: {
+		DisplayName: Red Gun Held
+	}
+
+	RedEnergyBolt: {
+		DisplayName: Red Energy Bolt
+	}
+
+	PurpleEnergyBolt: {
+		DisplayName: Purple Energy Bolt
+	}
+
+	BlueGunHeld: {
+		DisplayName: Blue Gun Held
+	}
+
+	BlueEnergyBolt: {
+		DisplayName: Blue Energy Bolt
+	}
+
+	SeleniteSwordShoot: {
+		DisplayName: Selenite Sword Shoot
+	}
+
+	RocheSpike: {
+		DisplayName: Roche Spike
+	}
+
+	RocheChakramProjectile: {
+		DisplayName: Roche Chakram
+	}
+
+	SeleniteGreatswordSwingEmpowered: {
+		DisplayName: Selenite Greatsword
+	}
+
+	StarDestroyerStar: {
+		DisplayName: Star Destroyer Star
+	}
+
+	StarDestroyerStar_Yellow: {
+		DisplayName: Star Destroyer Yellow Star
+	}
+
+	StarDestroyerStar_Blue: {
+		DisplayName: Star Destroyer Blue Star
+	}
+
+	ChampionsBladeSwingEmpowered: {
+		DisplayName: Champion's Blade
+	}
+
+	ChampionsBladeSwing: {
+		DisplayName: Champion's Blade
+	}
+
+	ImbriumJewelPhantasmalSkull: {
+		DisplayName: Phantasmal Skull
+	}
+
+	LunarCrystalProjectile: {
+		DisplayName: Lunar Crystal
+	}
+
+	CrescentMoonProjectile: {
+		DisplayName: Crescent Moon
+	}
+
+	InhibitorFieldGrenade: {
+		DisplayName: Stasis Grenade
+	}
+
+	WaveStar: {
+		DisplayName: Wave Star
+	}
+
+	MicronovaPortal: {
+		DisplayName: Micronova Portal
+	}
+
+	MicronovaBeam: {
+		DisplayName: Micronova Beam
+	}
+
+	FrigorianIceShard: {
+		DisplayName: Frigorian Ice Shard
+	}
+
+	LunarBarf: {
+		DisplayName: Lunar Barf
+	}
+
+	GreenLaser: {
+		DisplayName: Green Laser
+	}
+
+	LichBolt: {
+		DisplayName: Lich Bolt
+	}
+
+	WaveRifleLaser: {
+		DisplayName: Wave Rifle Laser
+	}
+
+	MoonLichNPCSummon: {
+		DisplayName: Moon Lich
+	}
+
+	MoonRubble: {
+		DisplayName: Moon Rubble
+	}
+
+	StarDestroyerStarYellow: {
+		DisplayName: Star Destroyer
+	}
+
+	StarDestroyerStarBlue: {
+		DisplayName: Star Destroyer
+	}
+
+	StarDestroyerBeam: {
+		DisplayName: Star Destroyer
+	}
+
+	FrigorianIceCrystal: {
+		DisplayName: Frigorian Ice Crystal
+	}
+
+	FrigorianIceSpike: {
+		DisplayName: Frigorian Ice Spike
+	}
+
+	FrigorianGazeProjectile: {
+		DisplayName: Frigorian Gaze
+	}
+
+	MoonWormDust: {
+		DisplayName: Moon Worm Dust
+	}
+
+	SilicaSandFalling: {
+		DisplayName: Silica Sand
+	}
+
+	SilicaSandBall: {
+		DisplayName: Silica Sand
+	}
+
+	SilicaPearlsandFalling: {
+		DisplayName: Silica Pearlsand
+	}
+
+	SilicaPearlsandBall: {
+		DisplayName: Silica Pearlsand
+	}
+
+	SilicaEbonsandFalling: {
+		DisplayName: Silica Ebonsand
+	}
+
+	SilicaEbonsandBall: {
+		DisplayName: Silica Ebonsand
+	}
+
+	SilicaCrimsandFalling: {
+		DisplayName: Silica Crimsand
+	}
+
+	SilicaCrimsandBall: {
+		DisplayName: Silica Crimsand
+	}
+
+	SeleniteSpike: {
+		DisplayName: Selenite Spike
+	}
+
+	SeleniteSlash: {
+		DisplayName: Selenite Slash
+	}
+
+	SeleniteSpearProjectileThrown: {
+		DisplayName: Selenite Spear
+	}
+
+	SeleniteGreatswordSwing2: {
+		DisplayName: Selenite Greatsword
+	}
+
+	SeleniteBoomerang: {
+		DisplayName: Selenite Boomerang
+	}
+
+	DianitePortal: {
+		DisplayName: Dianite Portal
+	}
+
+	MoonGoldTombstone: {
+		DisplayName: Moon Gold Tombstone
+	}
+
+	SeleniteGreatswordSwing: {
+		DisplayName: Selenite Greatsword
+	}
+
+	CraterDemonPet: {
+		DisplayName: Mini Crater Demon
+	}
+
+	PhantasmalBolt: {
+		DisplayName: Phantasmal Bolt
+	}
+
+	LuminiteStar: {
+		DisplayName: Luminite Star
+	}
+
+	LuminiteShard: {
+		DisplayName: Luminite Shard
+	}
+
+	LuminiteExplosion: {
+		DisplayName: Luminite Explosion
+	}
+
+	ArtemiteBowHeld: {
+		DisplayName: Artemite Bow
+	}
+
+	ArtemiteBolt: {
+		DisplayName: Artemite Bolt
+	}
+
+	RapaciousBrandSwing: {
+		DisplayName: Rapacious Brand
+	}
+
+	RapaciousBrandProjectile: {
+		DisplayName: Rapacious Brand
+	}
+
+	InvarBullet: {
+		DisplayName: Invar Bullet
+	}
+
+	InvarArrow: {
+		DisplayName: Invar Arrow
+	}
+
+	Procellarum_LightBolt: {
+		DisplayName: Procellarum
+	}
+
+	Procellarum_HalberdProjectile: {
+		DisplayName: Procellarum
+	}
+
+	RegolithDebris: {
+		DisplayName: Regolith Debris
+	}
+
+	DianiteForkProjectile: {
+		DisplayName: Dianite Fork
+	}
+
+	DianiteForkCoreProjectile: {
+		DisplayName: Dianite Fork
+	}
+
+	MoonPhaseGlobeProjectile: {
+		DisplayName: Moon Phase Globe
+	}
+
+	PhantasmalPortal: {
+		DisplayName: Phantasmal Portal
+	}
+
+	PhantasmalImpSmall: {
+		DisplayName: Phantasmal Imp
+	}
+
+	PhantasmalImp: {
+		DisplayName: Phantasmal Imp
+	}
+
+	DianiteMeteorSmall: {
+		DisplayName: Dianite Meteor
+	}
+
+	DianiteMeteor: {
+		DisplayName: Dianite Meteor
+	}
+
+	TychoBullet: {
+		DisplayName: Tycho .50
+	}
+
+	ArtemiteMagnumProjectile: {
+		DisplayName: Artemite Magnum
+	}
+
+	ZombieSecurityBullet: {
+		DisplayName: Zombie Security
+	}
+
+	HandheldEngineHitbox: {
+		DisplayName: Handheld Engine
+	}
+
+	HandheldEngineProjectile: {
+		DisplayName: Handheld Engine
+	}
+
+	ImbriumJewelMeteor: {
+		DisplayName: Imbrium Jewel
+	}
+
+	ImbriumJewelProjectile: {
+		DisplayName: Imbrium Jewel
+	}
+
+	MeteorPortal: {
+		DisplayName: Meteor Portal
+	}
+
+	FlamingMeteor: {
+		DisplayName: Flaming Meteor
+	}
+
+	ArtemiteDrillProjectile: {
+		DisplayName: Artemite Drill
+	}
+
+	DianiteDrillProjectile: {
+		DisplayName: Dianite Drill
+	}
+
+	ChandriumDrillProjectile: {
+		DisplayName: Chandrium Drill
+	}
+
+	SeleniteDrillProjectile: {
+		DisplayName: Selenite Drill
+	}
+
+	MoonTombstone: {
+		DisplayName: Moon Tombstone
+	}
+
+	ChandriumWhipProjectile: {
+		DisplayName: Chandrium Whip
+	}
+
+	ChandriumStaffMinion: {
+		DisplayName: Crescent Ghoul
+	}
+
+	CalcicCaneMinion: {
+		DisplayName: Crater Imp
+	}
+
+	PlasmaGrenade: {
+		DisplayName: Plasma Grenade
+	}
+
+	NWAMissile: {
+		DisplayName: NWA-5000
+	}
+
+	LHBMinigunProjectile: {
+		DisplayName: LHB-59
+	}
+
+	DeliriumShell: {
+		DisplayName: Delirium Shell
+	}
+
+	CruithneGreenSlug: {
+		DisplayName: Green Slug
+	}
+
+	ArchersLineProjectile: {
+		DisplayName: Archer's Line
+	}
+
+	MoonSwordSwing: {
+		DisplayName: Moon Sword
+	}
+
+	MoonSwordProjectile: {
+		DisplayName: Moon Sword
+	}
+
+	ClawWrenchProjectile: {
+		DisplayName: Claw Wrench
+	}
+
+	SeleniteSwordProjectile: {
+		DisplayName: Selenite Straightsword
+	}
+
+	SeleniteSpearProjectileShoot: {
+		DisplayName: Selenite Spear
+	}
+
+	SeleniteSpearProjectile: {
+		DisplayName: Selenite Spear
+	}
+
+	SeleniteSwordSwing: {
+		DisplayName: Selenite Sword
+	}
+
+	AluminumShortswordProjectile: {
+		DisplayName: Aluminum Shortsword
+	}
+
+	DianiteTomeProjectileSmall: {
+		DisplayName: Dianite Meteor
+	}
+
+	DianiteTomeProjectile: {
+		DisplayName: Dianite Meteor
+	}
+
+	VortexMeteor: {
+		DisplayName: Vortex Meteor
+	}
+
+	StardustMeteor: {
+		DisplayName: Stardust Meteor
+	}
+
+	SolarMeteor: {
+		DisplayName: Solar Meteor
+	}
+
+	NebulaMeteor: {
+		DisplayName: Nebula Meteor
+	}
+
+	MoonMeteorSmall: {
+		DisplayName: Small Meteor
+	}
+
+	MoonMeteorMedium: {
+		DisplayName: Medium Meteor
+	}
+
+	MoonMeteorLarge: {
+		DisplayName: Large Meteor
+	}
+
+	GunHeldProjectile: {
+		DisplayName: Gun Held Projectile
+	}
+
+	GreatswordHeldProjectile: {
+		DisplayName: Greatsword Held Projectile
+	}
+}
+
+NPCs: {
+	LuminiteHorror: {
+		DisplayName: ルミナイト・ホラー
+		BestiaryFlavorText: 数えきれないほどの怒れる月の魂に憑かれたルミナイトの塊でできたこの巨体は、月の洞窟をさまよいながら新たな犠牲者を求めて徘徊している。
+	}
+
+	Bruiser: {
+		DisplayName: ブルーザー
+		BestiaryFlavorText: エイリアンの肉と骨、そして怒りで構成された巨大で頑丈な怪物。うかつに近づけば、宇宙まで吹き飛ばされてしまうだろう。
+	}
+
+	Hermite: {
+		DisplayName: ハーマイト
+		BestiaryFlavorText: Mods.Macrocosm.NPCs.Hermite.BestiaryFlavorText
+	}
+
+	Dweller: {
+		DisplayName: ドウェラー
+		BestiaryFlavorText: 月の漆黒の洞窟で獲物を狩る巨大なエイリアンの獣。光の存在を感じると極めて攻撃的になる。
+	}
+
+	Scatterbrained: {
+		DisplayName: スキャッターブレイン
+		BestiaryFlavorText: 再構築され、歪められたストームダイバーのなれの果て。攻撃は遅く不正確だが、致命的な威力を持っている。
+	}
+
+	LunarChimera: {
+		DisplayName: ガットベルチャー
+		BestiaryFlavorText: さまざまな月のエイリアンをつなぎ合わせて造られた再構成体。標的に向けて酸性かつ揮発性の内臓を吐き出す。
+	}
+
+	XenoHornet: {
+		DisplayName: エイリアン・リーチ
+		BestiaryFlavorText: 突然変異した小型のエイリアン。生化学的な小型ジェットで飛行し、大量に群がることで標的を圧倒する。
+	}
+
+
+	XenoHive: {
+		DisplayName: ゼノ・ハイブ
+		BestiaryFlavorText: エイリアンの死体を改造して作られた移動型の巣。中には無数のエイリアン・リーチが潜んでおり、主であるリッチを守るために放たれる。
+	}
+
+	MoonLich: {
+		DisplayName: ムーンリッチ
+		BestiaryFlavorText: 強力な月の魔術をその身に宿した古代のエイリアン。死者を蘇らせ、忠実な僕として戦わせる力を持っている。
+	}
+
+	ZombieEngineer: {
+		DisplayName: ゾンビエンジニア
+		BestiaryFlavorText: 漏れ出すガスタンクを背負った、爆発寸前の存在。かつては月面基地の整備員だった。
+	}
+
+	Shade: {
+		DisplayName: シェード
+		BestiaryFlavorText: 光にさらされると逃げ出すが、長時間にわたり無防備な状態が続くと、逆に敵意をあらわにして反撃してくることがある。
+	}
+
+
+	LuminiteElemental: {
+		DisplayName: ルミナイトエレメンタル
+		BestiaryFlavorText: 荒れ果てた月面においてさえ精霊は存在する。ルミナイト鉱石の塊に宿り、その奇妙な性質を利用して自身を守っているようだ。
+	}
+
+	KyaniteScarabLarge: {
+		DisplayName: カイヤナイト・スカラベソルジャー
+		BestiaryFlavorText: 大型のカイヤナイト・スカラベは、巣の戦士として防衛を担っている。極めて攻撃的で、縄張りに近づく侵入者を容赦なく襲いかかる。
+	}
+
+	KyaniteScarabSmall: {
+		DisplayName: カイヤナイト・スカラベワーカー
+		BestiaryFlavorText: カイヤナイト・スカラベは鉱石の近くに巣を構え、金属片を使って巣を築く。巣が光り輝くほど、他の巣から異性を惹きつけやすくなるようだ。
+	}
+
+	KyaniteScarabCritter: {
+		DisplayName: カイヤナイト・スカラベの幼体
+		BestiaryFlavorText: 幼体は巣の外に出ることはほとんどなく、成体の厳重な保護に頼って生き延びている。古代の失われた文明では、美食として珍重されていた。
+	}
+
+	ZombieSecurity: {
+		DisplayName: ゾンビセキュリティ
+		BestiaryFlavorText: 月面基地の元セキュリティ要員の残骸が蘇り、今ではアンデッドの歩哨として徘徊している。
+	}
+
+	RegolithSlime: {
+		DisplayName: レゴリススライム
+		BestiaryFlavorText: 月の過酷な環境にも適応した極限種のスライム。銀白色のレゴリスと混ざり合い、独自の姿を形作っている。
+	}
+
+	RadioactiveSlime: {
+		DisplayName: 放射性スライム
+		BestiaryFlavorText: ウランやクロムなど、高濃度の放射性物質を吸収した危険なスライム。取り扱い注意。
+	}
+
+	MoonZombie: {
+		DisplayName: ゾンビ宇宙飛行士
+		BestiaryFlavorText: 地球だけでは飽き足らず、月面までもゾンビに侵されている。かつての人類の植民者たちが、今や死してなお宇宙服に身を包みさまよっている。
+	}
+
+	MoonWormTail: {
+		DisplayName: ムーンワーム
+	}
+
+	MoonWormBody: {
+		DisplayName: ムーンワーム
+	}
+
+	MoonWormHead: {
+		DisplayName: ムーンワーム
+		BestiaryFlavorText: 月の長い夜には数多くのエイリアンモンスターが現れるが、中でもこの巨大なムーンワームは悪名高く、地中から獲物を奇襲する。
+	}
+
+	LuminiteSlimeVolatile: {
+		DisplayName: 不安定なルミナイトスライム
+		BestiaryFlavorText: 月の地底に生息する一部のスライムはルミナイトに強く惹かれ、それを大量に取り込んで自身の一部としてしまう。
+	}
+
+	LuminiteSlime: {
+		DisplayName: ルミナイトスライム
+		BestiaryFlavorText: 月の地底に生息する一部のスライムはルミナイトに強く惹かれ、それを大量に取り込んで自身の一部としてしまう。
+	}
+
+	Leaper: {
+		DisplayName: リッパー
+		BestiaryFlavorText: 月の深部に棲む俊敏なクリーチャー。洞窟の壁や天井を跳ね回り、獲物を翻弄する。
+	}
+
+
+	CrescentGhoul: {
+		DisplayName: クレセントグール
+		BestiaryFlavorText: 三日月のような姿をした狡猾なエイリアン。月の長い夜を徘徊し、その凄まじい速度で獲物を切り裂く。
+	}
+
+	CraterCrawlerTail: {
+		DisplayName: クレータークロウラー
+	}
+
+	CraterCrawlerBody: {
+		DisplayName: クレータークロウラー
+	}
+
+	CraterCrawlerHead: {
+		DisplayName: クレータークロウラー
+		BestiaryFlavorText: クロールチピードの遠縁にあたる生物。月面をあてもなく彷徨っている。
+	}
+
+	Clavite: {
+		DisplayName: クラバイト
+		BestiaryFlavorText: 月面をうろつく獰猛なエイリアン。目に入ったあらゆるものに突進し、襲いかかる。
+	}
+
+	MoonChampion: {
+		Chat: {
+			SolarStorm4: 金属の味がしないか、人間？
+			SolarStorm3: 太陽が怒ってるぞ、人間！用心しろよ、ときどき恐ろしい怪物が太陽風に乗ってここまで来るんだ。あいつら、そう簡単にはいかないぜ！
+			SolarStorm2: うおっ、今日の太陽はやけに明るいな！いつもよりずっと...とはいえ、俺が見た中で一番ってわけでもないがな。あのときは最高だったぞ、狩り放題だったからな！
+			SolarStorm1: 中に入ってろ、人間！太陽がここ、俺の月に侵略者を送り込んできた！...まあ、すぐに全部片付けてやるけどな！
+			BloodMoon4: ...中へ入れ、今すぐに。
+			BloodMoon3: 我が心は歓喜に震えている。この世界は試練に満ち、血と悦びに満ちている。月のためなら、我が身を裂き、血を流すことも厭わぬ！
+			BloodMoon2: これほどまでに生を実感したことはない。永遠に夜が続けばいいのに...この身を血に染めて帰還しよう！
+			BloodMoon1: 来たか...幾千年もの時を待ちわびた挑戦が。下がっていろ、人間。この戦いは我が宿命であり、我が戦だ！
+			Advice5: この近くに人間の古い月面基地があるんだ！俺だったら調査しに行くけど...気をつけろよ？あそこ、まだ完全には『死んでない』かもしれないからな！
+			Advice4: 月の洞窟の奥に行くときは注意しろよ、あそこの怪物の多くは光が大っ嫌いなんだ！...なんで嫌いなのかって？知らん！もしかしたらビビってるのかもな！
+			Advice3: 何が起きてもいいように覚悟しておけよ！この月は危険な場所だ。地表にも地下にも、あらゆる怪物がうろついてるからな！
+			Advice2: この月にいる怪物たちは、キラキラ光る宝石を落とすんだよな！俺、あれ集めるの大好きなんだ！ちょっとした物資と交換してやってもいいぜ...そのへんで見つけたやつだけどな！
+			Advice1: 宇宙服を忘れるなよ、人間！俺、あれ脱ぐと毎回なんか変な感じになるんだよな...だから絶対脱がないって決めてんだ！
+			Night8: 今夜はやけに月の怪物どもが多いな...俺の月を汚して、穢してやがる。全部倒してやるさ、君も手伝ってくれ！
+			Night7: どうしてこんなに月が好きかって？...正直よくわからない！目覚めたときからここにいて、その美しさに心を奪われたんだ。怪物や試練も絶えず襲ってくるから、常に鍛えられてる感じがして、生きてるって実感できるんだよな！
+			Night6: 宇宙って最高だよな！何千兆もの星や銀河があってさ！でも俺が一番好きなのは...もちろん、俺の月だ！
+			Night5: ちょっと前に気づいたんだが、月のすぐそばで話してる人間の会話がたまに聞こえるんだよな！よく「ヒューストン」って名前が出てきたな...最近はあまり聞かなくなったけど、いつか会ってみたいぜ、ヒューストンってやつに！
+			Night4: よし、夜になったな！月の最強クラスの敵が現れる時間帯だ。真の勇者なら、戦いからは逃げないぜ！
+			Night3: 君、不安そうな顔してるな？月の怪物が怖いのか？心配いらない、俺が守ってやる！あんなやつらに、俺が負けるわけないだろ！
+			Night2: 用心しろよ、人間！地球と違って、ここじゃ夜がめちゃくちゃ長いんだ。クレーターや影の中から、腹を空かせた怪物どもがうじゃうじゃ出てくるからな！
+			Night1: なあ人間、ちょっと気になったんだが...地球って、チーズでできてるのか？
+			Day9: 月がどれだけ好きか、話したことあったっけ？
+			Day8: 俺の月って最高だよな？銀色の平原と砂丘がどこまでも広がってて、空は真っ黒！...あ、地球も見えるか。
+			Day7: 地球って青くてさ、ほんとに綺麗だよな！何もできないけど...まあ、したくもないけどね。
+			Day6: 今日、隕石が頭に落ちてきたんだ。失礼にもほどがあるよな！
+			Day5: 食われる前に何してたかって？決まってるだろ、月の怪物と戦ってたんだよ！
+			Day4: 俺がいい月の勇者かって？もちろんさ！そうじゃなきゃ、今こうして君と話してないだろ？
+			Day3: 地球はほんとに綺麗だったよ！前に行ったとき、大統領がクッキーくれたんだ。
+			Day2: 昔、古い宇宙ランダーを見つけたことあるんだ。放置されてて、棒に布がくっついてた。なんか心当たりある？
+			Day1: 月も慣れりゃ悪くないよ！俺はむしろ、美しいと思ってる。夜は外に出るなよ？月の怪物どもは俺が片付けてやる！
+			Rescued3: うおっ、ありがとな人間！あの恐ろしい宇宙の怪物から助けてくれたな！もしかして...君も俺と同じ、月の勇者なのか？
+			Rescued2: 助けてくれてほんとにありがとう！あそこ、ちょっと息苦しくなってきてたんだ！君もこんなところまで来るとは、相当な勇者だな。まるで俺みたいにさ！
+			Rescued1: うわっ、まぶしい！どれくらい寝てたんだ？ほんの一瞬だけ昼寝したつもりだったのに...って、あのでっかい怪物を倒したのか。そりゃ感謝しないとな！
+			ShopName: ショップ
+			Advice: アドバイス
+			Shop: ショップ
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}が好き"
+			LikeNPC_Princess: "{NPCName}か、いいヤツだ！気が合いそうだ！"
+			HateNPC: "{NPCName}...あいつはちょっと好きになれん。"
+			DislikeNPC: "{NPCName}とは、どうにも波長が合わないな。"
+			LikeNPC: "{NPCName}はなかなかいいヤツだよ！"
+			LoveNPC: "{NPCName}は最高だな！いっしょに戦ってみたいくらいだ！"
+			HateBiome: "{BiomeName}は大嫌いだ...月に戻りたくなる！"
+			DislikeBiome: "{BiomeName}はあんまり落ち着かないなあ。"
+			LikeBiome: "{BiomeName}？気に入ってるよ。なんだか落ち着くんだ。"
+			LoveBiome: "{BiomeName}はすばらしい場所だな！俺の月に次ぐお気に入りだ！"
+			HateCrowded: うおっ、なんか混みすぎてないか！？落ち着かないぞ...
+			DislikeCrowded: 少しゴチャついてきたな。広いところが恋しいぜ。
+			LoveSpace: はーっ、ひろびろしてて最高だ！この感じ、たまらない！
+			FarFromHome: ちょっと遠くまで来すぎたかな...月が恋しいぜ。
+			NoHome: くそっ、家がないじゃないか！どこかに基地でも建てないと。
+			Content: 今の暮らし、悪くないな！月以外でも案外やっていけるかも！
+		}
+
+			DisplayName: 月の勇者
+			BestiaryFlavorText: 月を守るためにその生涯を捧げた、謎めいた超人的な戦士。
+	}
+
+	FlamingMeteor: {
+		DisplayName: 燃えさかる隕石
+	}
+
+	CraterImp: {
+		DisplayName: クレーターインプ
+		BestiaryFlavorText: クレーターデーモンに仕える小型の従者たち。主の戦いを助けるため、群れをなして襲いかかってくる。
+	}
+
+	CraterDemon: {
+		DisplayName: クレーターデーモン
+		BestiaryFlavorText: 巨大な隕石のような姿をしたこの悪魔は、かつて月を侵略した種族の一員である。その体には、遠い昔の戦争の傷跡が今も刻まれている。
+		FunnyDeathMessage: "{0}は命を捧げて新しいクレーターとなりました。"
+		DespawnMessage: "{0}は姿を消した"
+		SpawnInfo: 月で[i:Macrocosm/CraterDemonSummon]を使用すると召喚できる。
+
+
+	}
+}
+
+Machines: {
+	Common: {
+		PowerInfo: {
+			Controller: ""
+			Battery: 蓄電量: {0}kJ / 最大容量: {1}kJ
+			Generator: 発電量: {0}kW
+			Consumer: 消費量: {0}kW / 必要量: {1}kW
+			Common: "{0}kW / {1}kW"
+			Energy: "{0}kJ"
+			Simple: "{0}kW"
+		}
+
+		BurnFuel: 燃料
+		LiquidContainer: 液体コンテナ
+		LiquidExtract: 抽出可能
+		StoredEnergy: 蓄電量: {0}kJ
+		GeneratedPower: 発電量: {0}kW
+		ConsumedPower: 消費電力: {0}kW
+	}
+
+	KeroseneGenerator: {
+		HullHeatImperial: 外殻温度: {0}°F
+		HullHeatMetric: 外殻温度: {0}°C
+		DisplayName: 灯油発電機
+	}
+
+	BurnerGenerator: {
+		HullHeatImperial: 外殻温度: {0}°F
+		HullHeatMetric: 外殻温度: {0}°C
+		DisplayName: 燃焼式発電機
+	}
+
+	OreExcavator: {
+		DisplayName: 鉱石掘削機
+	}
+
+	OilRefinery: {
+		DisplayName: 石油精製所
+	}
+}
+
+Items: {
+	KeroseneGenerator: {
+		DisplayName: 灯油発電機
+		Tooltip: ""
+	}
+
+	Conveyor: {
+		DisplayName: コンベア
+		Tooltip: ""
+	}
+
+	Schroteri: {
+		DisplayName: シュロテリ
+		Tooltip: ""
+	}
+
+	ClydersWings: {
+		DisplayName: クライダーの翼
+		Tooltip: ""
+	}
+
+	ClydersRobe: {
+		DisplayName: クライダーのローブ
+		Tooltip: ""
+	}
+
+	ClydersHood: {
+		DisplayName: クライダーのフード
+		Tooltip: ""
+	}
+
+	AdvancedCircuitBoard: {
+		DisplayName: 発展基板
+		Tooltip: ""
+	}
+
+	IndustrialBattery: {
+		DisplayName: 工業用バッテリー
+		Tooltip: ""
+	}
+
+	CircuitProbe: {
+		DisplayName: 回路プローブ
+		Tooltip: 
+			'''
+			回路のトラブルシューティングに使用される装置
+			持つことで施設の電力状況を確認できる
+			'''
+	}
+
+	CheeseWall: {
+		DisplayName: チーズの壁
+		Tooltip: ""
+	}
+
+	CheesePlatform: {
+		DisplayName: チーズの足場
+		Tooltip: ""
+	}
+
+	StarRoyalePlatform: {
+		DisplayName: スターロワイヤルの足場
+		Tooltip: ""
+	}
+
+	MercuryPlatform: {
+		DisplayName: 水星の足場
+		Tooltip: ""
+	}
+
+	LunarRustPlatform: {
+		DisplayName: 月の錆の足場
+		Tooltip: ""
+	}
+
+	LuminitePlatform: {
+		DisplayName: ルミナイトの足場
+		Tooltip: ""
+	}
+
+	HeavenforgePlatform: {
+		DisplayName: 天国の足場
+		Tooltip: ""
+	}
+
+	DarkCelestialPlatform: {
+		DisplayName: 暗い天体の足場
+		Tooltip: ""
+	}
+
+	CryocorePlatform: {
+		DisplayName: クリオコアの足場
+		Tooltip: ""
+	}
+
+	CosmicEmberPlatform: {
+		DisplayName: 宇宙の残り火の足場
+		Tooltip: ""
+	}
+
+	AstraPlatform: {
+		DisplayName: アストラの足場
+		Tooltip: ""
+	}
+
+	StarRoyaleTable: {
+		DisplayName: スターロワイヤルのテーブル
+		Tooltip: ""
+	}
+
+	StarRoyaleSofa: {
+		DisplayName: スターロワイヤルのソファ
+		Tooltip: ""
+	}
+
+	StarRoyaleSink: {
+		DisplayName: スターロワイヤルのシンク
+		Tooltip: ""
+	}
+
+	StarRoyalePiano: {
+		DisplayName: スターロワイヤルのピアノ
+		Tooltip: ""
+	}
+
+	StarRoyaleLamp: {
+		DisplayName: スターロワイヤルのランプ
+		Tooltip: ""
+	}
+
+	StarRoyaleDresser: {
+		DisplayName: スターロワイヤルのドレッサー
+		Tooltip: ""
+	}
+
+	StarRoyaleChandelier: {
+		DisplayName: スターロワイヤルのシャンデリア
+		Tooltip: ""
+	}
+
+	StarRoyaleBed: {
+		DisplayName: スターロワイヤルのベッド
+		Tooltip: ""
+	}
+
+	StarRoyaleBathtub: {
+		DisplayName: スターロワイヤルの浴場
+		Tooltip: ""
+	}
+
+	MercuryTable: {
+		Tooltip: ""
+		DisplayName: 水星のテーブル
+	}
+
+	MercurySofa: {
+		Tooltip: ""
+		DisplayName: 水星のソファ
+	}
+
+	MercurySink: {
+		Tooltip: ""
+		DisplayName: 水星のシンク
+	}
+
+	MercuryPiano: {
+		Tooltip: ""
+		DisplayName: 水星のピアノ
+	}
+
+	MercuryLamp: {
+		Tooltip: ""
+		DisplayName: 水星のランプ
+	}
+
+	MercuryDresser: {
+		Tooltip: ""
+		DisplayName: 水星のドレッサー
+	}
+
+	MercuryChandelier: {
+		Tooltip: ""
+		DisplayName: 水星のシャンデリア
+	}
+
+	MercuryBed: {
+		Tooltip: ""
+		DisplayName: 水星のベッド
+	}
+
+	MercuryBathtub: {
+		Tooltip: ""
+		DisplayName: 水星の浴場
+	}
+
+	LunarRustTable: {
+		Tooltip: ""
+		DisplayName: 月の錆のテーブル
+	}
+
+	LunarRustSofa: {
+		Tooltip: ""
+		DisplayName: 月の錆のソファ
+	}
+
+	LunarRustSink: {
+		Tooltip: ""
+		DisplayName: 月の錆のシンク
+	}
+
+	LunarRustPiano: {
+		Tooltip: ""
+		DisplayName: 月の錆のピアノ
+	}
+
+	LunarRustLamp: {
+		Tooltip: ""
+		DisplayName: 月の錆のランプ
+	}
+
+	LunarRustDresser: {
+		Tooltip: ""
+		DisplayName: 月の錆のドレッサー
+	}
+
+	LunarRustChandelier: {
+		Tooltip: ""
+		DisplayName: 月の錆のシャンデリア
+	}
+
+	LunarRustBed: {
+		Tooltip: ""
+		DisplayName: 月の錆のベッド
+	}
+
+	LunarRustBathtub: {
+		Tooltip: ""
+		DisplayName: 月の錆の浴場
+	}
+
+	LuminiteTable: {
+		Tooltip: ""
+		DisplayName: ルミナイトのテーブル
+	}
+
+	LuminiteSofa: {
+		Tooltip: ""
+		DisplayName: ルミナイトのソファ
+	}
+
+	LuminiteSink: {
+		Tooltip: ""
+		DisplayName: ルミナイトのシンク
+	}
+
+	LuminitePiano: {
+		Tooltip: ""
+		DisplayName: ルミナイトのピアノ
+	}
+
+	LuminiteLamp: {
+		Tooltip: ""
+		DisplayName: ルミナイトのランプ
+	}
+
+	LuminiteDresser: {
+		Tooltip: ""
+		DisplayName: ルミナイトのドレッサー
+	}
+
+	LuminiteChandelier: {
+		Tooltip: ""
+		DisplayName: ルミナイトのシャンデリア
+	}
+
+	LuminiteBed: {
+		Tooltip: ""
+		DisplayName: ルミナイトのベッド
+	}
+
+	LuminiteBathtub: {
+		Tooltip: ""
+		DisplayName: ルミナイトの浴場
+	}
+
+	HeavenforgeTable: {
+		Tooltip: ""
+		DisplayName: 天国のテーブル
+	}
+
+	HeavenforgeSofa: {
+		Tooltip: ""
+		DisplayName: 天国のソファ
+	}
+
+	HeavenforgeSink: {
+		Tooltip: ""
+		DisplayName: 天国のシンク
+	}
+
+	HeavenforgePiano: {
+		Tooltip: ""
+		DisplayName: 天国のピアノ
+	}
+
+	HeavenforgeLamp: {
+		Tooltip: ""
+		DisplayName: 天国のランプ
+	}
+
+	HeavenforgeDresser: {
+		Tooltip: ""
+		DisplayName: 天国のドレッサー
+	}
+
+	HeavenforgeChandelier: {
+		Tooltip: ""
+		DisplayName: 天国のシャンデリア
+	}
+
+	HeavenforgeBed: {
+		Tooltip: ""
+		DisplayName: 天国のベッド
+	}
+
+	HeavenforgeBathtub: {
+		Tooltip: ""
+		DisplayName: 天国の浴場
+	}
+
+	DarkCelestialTable: {
+		Tooltip: ""
+		DisplayName:暗い天体のテーブル
+	}
+
+	DarkCelestialSofa: {
+		Tooltip: ""
+		DisplayName:暗い天体のソファ
+	}
+
+	DarkCelestialSink: {
+		Tooltip: ""
+		DisplayName:暗い天体のシンク
+	}
+
+	DarkCelestialPiano: {
+		Tooltip: ""
+		DisplayName:暗い天体のピアノ
+	}
+
+	DarkCelestialLamp: {
+		Tooltip: ""
+		DisplayName:暗い天体のランプ
+	}
+
+	DarkCelestialDresser: {
+		Tooltip: ""
+		DisplayName:暗い天体のドレッサー
+	}
+
+	DarkCelestialChandelier: {
+		Tooltip: ""
+		DisplayName:暗い天体のシャンデリア
+	}
+
+	DarkCelestialBed: {
+		Tooltip: ""
+		DisplayName:暗い天体のベッド
+	}
+
+	DarkCelestialBathtub: {
+		Tooltip: ""
+		DisplayName:暗い天体の浴場
+	}
+
+	CryocoreTable: {
+		Tooltip: ""
+		DisplayName: クリオコアのテーブル
+	}
+
+	CryocoreSofa: {
+		Tooltip: ""
+		DisplayName: クリオコアのソファ
+	}
+
+	CryocoreSink: {
+		Tooltip: ""
+		DisplayName: クリオコアのシンク
+	}
+
+	CryocorePiano: {
+		Tooltip: ""
+		DisplayName: クリオコアのピアノ
+	}
+
+	CryocoreLamp: {
+		Tooltip: ""
+		DisplayName: クリオコアのランプ
+	}
+
+	CryocoreDresser: {
+		Tooltip: ""
+		DisplayName: クリオコアのドレッサー
+	}
+
+	CryocoreChandelier: {
+		Tooltip: ""
+		DisplayName: クリオコアのシャンデリア
+	}
+
+	CryocoreBed: {
+		Tooltip: ""
+		DisplayName: クリオコアのベッド
+	}
+
+	CryocoreBathtub: {
+		Tooltip: ""
+		DisplayName: クリオコアの浴場
+	}
+
+	CosmicEmberTable: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のテーブル
+	}
+
+	CosmicEmberSofa: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のソファ
+	}
+
+	CosmicEmberSink: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のシンク
+	}
+
+	CosmicEmberPiano: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のピアノ
+	}
+
+	CosmicEmberLamp: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のランプ
+	}
+
+	CosmicEmberDresser: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のドレッサー
+	}
+
+	CosmicEmberChandelier: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のシャンデリア
+	}
+
+	CosmicEmberBed: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のベッド
+	}
+
+	CosmicEmberBathtub: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の浴場
+	}
+
+	AstraTable: {
+		Tooltip: ""
+		DisplayName: アストラのテーブル
+	}
+
+	AstraSofa: {
+		Tooltip: ""
+		DisplayName: アストラのソファ
+	}
+
+	AstraSink: {
+		Tooltip: ""
+		DisplayName: アストラのシンク
+	}
+
+	AstraPiano: {
+		Tooltip: ""
+		DisplayName: アストラのピアノ
+	}
+
+	AstraLamp: {
+		Tooltip: ""
+		DisplayName: アストラのランプ
+	}
+
+	AstraDresser: {
+		Tooltip: ""
+		DisplayName: アストラのドレッサー
+	}
+
+	AstraChandelier: {
+		Tooltip: ""
+		DisplayName: アストラのシャンデリア
+	}
+
+	AstraBed: {
+		Tooltip: ""
+		DisplayName: アストラのベッド
+	}
+
+	AstraBathtub: {
+		Tooltip: ""
+		DisplayName: アストラの浴場
+	}
+
+	ProtolithBrickWallUnsafe:
+		Tooltip: ""
+		DisplayName: 危険な原始岩のレンガ壁
+
+	ProtolithBrickWall:
+		Tooltip: ""
+		DisplayName: 原始岩のレンガ壁
+
+	ProtolithBrick:
+		Tooltip: ""
+		DisplayName: 原始岩のレンガ
+
+	LaserSight: {
+		DisplayName: レーザーサイト
+		Tooltip: 遠距離武器の拡散を30%軽減する
+	}
+
+	SolarCell: {
+		DisplayName: ソーラーセル
+		Tooltip: ""
+	}
+
+	StarRoyaleDoor: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルのドア
+	}
+
+	MercuryDoor: {
+		Tooltip: ""
+		DisplayName: 水星のドア
+	}
+
+	LunarRustDoor: {
+		Tooltip: ""
+		DisplayName: 月の錆のドア
+	}
+
+	LuminiteDoor: {
+		Tooltip: ""
+		DisplayName: ルミナイトのドア
+	}
+
+	HeavenforgeDoor: {
+		Tooltip: ""
+		DisplayName: 天国のドア
+	}
+
+	DarkCelestialDoor: {
+		Tooltip: ""
+		DisplayName: 暗い天体のドア
+	}
+
+	CryocoreDoor: {
+		Tooltip: ""
+		DisplayName: クリオコアのドア
+	}
+
+	CosmicEmberDoor: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のドア
+	}
+
+	AstraDoor: {
+		Tooltip: ""
+		DisplayName: アストラのドア
+	}
+
+	RyuguStaff: {
+		DisplayName: モルタルの杖
+		Tooltip: リュウグウを召喚する
+	}
+
+	LuminiteTorch: {
+		DisplayName: ルミナイトのたいまつ
+		Tooltip: 真空環境でも使用できるたいまつ
+	}
+
+	GreatstaffOfHorus: {
+		DisplayName: ホルスの大神杖
+		Tooltip: 小型の太陽粒子を召喚する
+	}
+
+	HummingbirdDroneRemote: {
+		DisplayName: P.D.C.D.コントローラー
+		Tooltip:
+			'''
+			戦闘用ドローン『Hummingbird』を召喚する
+			ライフが低下すると防御陣形を取る
+			'''
+	}
+
+	ThaumaturgicWard: {
+		DisplayName: 奇術師の守護符
+		Tooltip:
+			'''
+			残りライフが最大の30%未満になると、受けるダメージの50%をマナで肩代わりする
+			マナで肩代わりできなかった分はライフダメージとして適用される
+			魔法以外の攻撃でダメージを与えられなくなる
+			{$ItemName.MagicCuffs}(およびその派生品)と同時に装備できない
+			'''
+	}
+
+	StalwartTowerShield: {
+		DisplayName: ストルワートの盾
+		Tooltip: 連続で攻撃を受けると防御力が+3ずつ上昇し、最大+12まで増加する
+	}
+
+	Ilmenite: {
+		DisplayName: イルメナイト
+		Tooltip:
+			'''
+			<left>で光の矢を発射する
+			<right>を長押しすることで、無限に貫通して爆発する光渦の矢をチャージする
+			'''
+	}
+
+	MomentumLash: {
+		DisplayName: モーメンタムラッシュ
+		Tooltip: 鞭で敵に連続で攻撃すると、召喚ダメージと鞭の速度が最大+18%まで増加する
+	}
+
+	ArcaneBarnacle: {
+		DisplayName: 魔力のフジツボ
+		Tooltip:
+			'''
+			魔法ダメージが10%増加
+			マナ消費が70%増加
+			攻撃が命中するとダメージの2%をマナとして吸収
+			マナを回復するアイテムが無効化される
+			'''
+	}
+
+	TempestuousBand: {
+		DisplayName: 疾風の腕輪
+		Tooltip:
+			'''
+			クリティカル時の追加ダメージが20%増加
+			非クリティカル時のダメージが20%減少
+			クリティカル率が15%増加
+			'''
+	}
+
+	RocketFuelCanister: {
+		DisplayName: ロケット燃料キャニスター
+		Tooltip: "ロケットの燃料として使用できる"
+	}
+
+	Canister: {
+		DisplayName: 空のキャニスター
+		Tooltip: "再利用可能な小型容器、ロケット燃料などを充填することができる"
+	}
+
+	WornLunarianDagger: {
+		DisplayName: 使い古された月の短剣
+		Tooltip:
+			'''
+			「使い古された短剣にはかつて多くの用途があった。 
+			今は魔法の力だけが残っている」
+			'''
+	}
+
+	ArmstrongGauntlets: {
+		DisplayName: アームストロングのガントレット
+		Tooltip:
+			'''
+			連続でパンチを繰り出す
+			数回ごとに前方へ飛びかかる
+			「私が逃げるとでも思ったか！？」
+			'''
+	}
+
+	ManisolBlades: {
+		DisplayName: マニソルブレード
+		Tooltip:
+			'''
+			刃を投げて敵を攻撃する
+			ソルブレードは敵に刺さり、戻るときに爆発する
+			マニブレードは投げたときと戻るときに敵を貫通する
+			'''
+	}
+
+	QuartzFragment: {
+		DisplayName: 石英の欠片
+		Tooltip: ""
+	}
+
+	InhibitorFieldGrenade: {
+		DisplayName: ステイシスグレネード
+		Tooltip: ""
+	}
+
+	NickelOre: {
+		DisplayName: ニッケル鉱石
+		Tooltip: ""
+	}
+
+	InvarBar: {
+		DisplayName: インバー合金のインゴット
+		Tooltip: ""
+	}
+
+	StarRoyaleWorkbench: {
+		DisplayName: スターロワイヤルの作業台
+		Tooltip: ""
+	}
+
+	MercuryWorkbench: {
+		DisplayName: 水星の作業台
+		Tooltip: ""
+	}
+
+	LunarRustWorkbench: {
+		DisplayName: 月の錆の作業台
+		Tooltip: ""
+	}
+
+	LuminiteWorkbench: {
+		DisplayName: ルミナイトの作業台
+		Tooltip: ""
+	}
+
+	HeavenforgeWorkbench: {
+		DisplayName: 天国の作業台
+		Tooltip: ""
+	}
+
+	DarkCelestialWorkbench: {
+		DisplayName: 暗い天体の作業台
+		Tooltip: ""
+	}
+
+	CryocoreWorkbench: {
+		DisplayName: クリオコアの作業台
+		Tooltip: ""
+	}
+
+	CosmicEmberWorkbench: {
+		DisplayName: 宇宙の残り火の作業台
+		Tooltip: ""
+	}
+
+	AstraWorkbench: {
+		DisplayName: アストラの作業台
+		Tooltip: ""
+	}
+
+	Totality: {
+		DisplayName: トータリティ
+		Tooltip: 斬撃が陰影の魔力の裂け目を残す
+	}
+
+	CrescentScripture: {
+		DisplayName: クレセントスクリプチュア
+		Tooltip: 「失われたルナリアの古文書に刻まれた古代の記号が彫られている」
+	}
+
+	RocheChakram: {
+		DisplayName: ロシュ
+		Tooltip: ""
+	}
+
+	CrescentMoon: {
+		DisplayName: クレセントムーン
+		Tooltip: ""
+	}
+
+	LunarCrystal: {
+		DisplayName: ルナクリスタル
+		Tooltip: ""
+	}
+
+	DevOmnitool: {
+		DisplayName: 開発者用ツール
+		Tooltip: ""
+	}
+
+	IVPole: {
+		DisplayName: 点滴スタンド
+		Tooltip: ""
+	}
+
+	Fridge: {
+		DisplayName: 冷蔵庫
+		Tooltip: ""
+	}
+
+	KyaniteScarabCritter: {
+		DisplayName: カイヤナイト・スカラベの幼体
+		Tooltip: ""
+	}
+
+	LexanGlassWall: {
+		DisplayName: レキサンガラスの壁
+		Tooltip: ""
+	}
+
+	Micronova: {
+		Tooltip: カーソルの位置にビームを放つポータルを2つ召喚する
+		DisplayName: マイクロノヴァ
+	}
+
+	RegolithWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険なレゴリスの壁
+	}
+
+	RegolithBrickWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険なレゴリスレンガの壁
+	}
+
+	ProtolithWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な原始岩の壁
+	}
+
+	IrradiatedRockWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な被曝した岩の壁
+	}
+
+	IrradiatedBrickWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な被曝したレンガの壁
+	}
+
+	IrradiatedAltar: {
+		Tooltip: ""
+		DisplayName: 被曝した祭壇
+	}
+
+	Sledgehammer: {
+		Tooltip: 通常のハンマーより多くの壁を破壊できる
+		DisplayName: スレッジハンマー
+	}
+
+	AirVent: {
+		Tooltip: ""
+		DisplayName: 空気排出口
+	}
+
+	AntiRadiationPills: {
+		Tooltip: ""
+		DisplayName: 放射線防護薬
+	}
+
+	StarRoyaleLantern: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルのランタン
+	}
+
+	StarRoyaleCandle: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルの蝋燭
+	}
+
+	StarRoyaleCandelabra: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルのシャンデリア
+	}
+
+	MercuryLantern: {
+		Tooltip: ""
+		DisplayName: 水星のランタン
+	}
+
+	MercuryCandle: {
+		Tooltip: ""
+		DisplayName: 水星の蝋燭
+	}
+
+	MercuryCandelabra: {
+		Tooltip: ""
+		DisplayName: 水星のシャンデリア
+	}
+
+	LunarRustLantern: {
+		Tooltip: ""
+		DisplayName: 月の錆のランタン
+	}
+
+	LunarRustCandle: {
+		Tooltip: ""
+		DisplayName: 月の錆の蝋燭
+	}
+
+	LunarRustCandelabra: {
+		Tooltip: ""
+		DisplayName: 月の錆のシャンデリア
+	}
+
+	LuminiteLantern: {
+		Tooltip: ""
+		DisplayName: ルミナイトのランタン
+	}
+
+	LuminiteCandle: {
+		Tooltip: ""
+		DisplayName: ルミナイトの蝋燭
+	}
+
+	LuminiteCandelabra: {
+		Tooltip: ""
+		DisplayName: ルミナイトのシャンデリア
+	}
+
+	HeavenforgeLantern: {
+		Tooltip: ""
+		DisplayName: 天国のランタン
+	}
+
+	HeavenforgeCandle: {
+		Tooltip: ""
+		DisplayName: 天国の蝋燭
+	}
+
+	HeavenforgeCandelabra: {
+		Tooltip: ""
+		DisplayName: 天国のシャンデリア
+	}
+
+	DarkCelestialLantern: {
+		Tooltip: ""
+		DisplayName: 暗い天体のランタン
+	}
+
+	DarkCelestialCandle: {
+		Tooltip: ""
+		DisplayName: 暗い天体の蝋燭
+	}
+
+	DarkCelestialCandelabra: {
+		Tooltip: ""
+		DisplayName: 暗い天体のシャンデリア
+	}
+
+	CryocoreLantern: {
+		Tooltip: ""
+		DisplayName: クリオコアのランタン
+	}
+
+	CryocoreCandle: {
+		Tooltip: ""
+		DisplayName: クリオコアの蝋燭
+	}
+
+	CryocoreCandelabra: {
+		Tooltip: ""
+		DisplayName: クリオコアのシャンデリア
+	}
+
+	CosmicEmberLantern: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のランタン
+	}
+
+	CosmicEmberCandle: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の蝋燭
+	}
+
+	CosmicEmberCandelabra: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のシャンデリア
+	}
+
+	AstraLantern: {
+		Tooltip: ""
+		DisplayName: アストラのランタン
+	}
+
+	AstraCandle: {
+		Tooltip: ""
+		DisplayName: アストラの蝋燭
+	}
+
+	AstraCandelabra: {
+		Tooltip: ""
+		DisplayName: アストラのシャンデリア
+	}
+
+	XaocKey: {
+		Tooltip: 全てのルミナイトの宝箱を開錠できる
+		DisplayName: ザオックの鍵
+	}
+
+	StarRoyaleToilet: {
+	Tooltip: ""
+	DisplayName: スターロワイヤルのトイレ
+	}
+
+	StarRoyaleClock: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルの時計
+	}
+
+	StarRoyaleChest: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルの宝箱
+	}
+
+	StarRoyaleChair: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルの椅子
+	}
+
+	StarRoyaleBookcase: {
+		Tooltip: ""
+		DisplayName: スターロワイヤルの本棚
+	}
+
+	MercuryToilet: {
+		Tooltip: ""
+		DisplayName: 水星のトイレ
+	}
+
+	MercuryClock: {
+		Tooltip: ""
+		DisplayName: 水星の時計
+	}
+
+	MercuryChest: {
+		Tooltip: ""
+		DisplayName: 水星の宝箱
+	}
+
+	MercuryChair: {
+		Tooltip: ""
+		DisplayName: 水星の椅子
+	}
+
+	MercuryBookcase: {
+		Tooltip: ""
+		DisplayName: 水星の本棚
+	}
+
+	LunarRustToilet: {
+		Tooltip: ""
+		DisplayName: 月の錆のトイレ
+	}
+
+	LunarRustClock: {
+		Tooltip: ""
+		DisplayName: 月の錆の時計
+	}
+
+	LunarRustChest: {
+		Tooltip: ""
+		DisplayName: 月の錆の宝箱
+	}
+
+	LunarRustChair: {
+		Tooltip: ""
+		DisplayName: 月の錆の椅子
+	}
+
+	LunarRustBookcase: {
+		Tooltip: ""
+		DisplayName: 月の錆の本棚
+	}
+
+	LuminiteChest: {
+		Tooltip: ""
+		DisplayName: ルミナイトの宝箱
+	}
+
+	HeavenforgeToilet: {
+		Tooltip: ""
+		DisplayName: 天国のトイレ
+	}
+
+	HeavenforgeClock: {
+		Tooltip: ""
+		DisplayName: 天国の時計
+	}
+
+	HeavenforgeChest: {
+		Tooltip: ""
+		DisplayName: 天国の宝箱
+	}
+
+	HeavenforgeChair: {
+		Tooltip: ""
+		DisplayName: 天国の椅子
+	}
+
+	HeavenforgeBookcase: {
+		Tooltip: ""
+		DisplayName: 天国の本棚
+	}
+
+	DarkCelestialToilet: {
+		Tooltip: ""
+		DisplayName: 暗い天体のトイレ
+	}
+
+	DarkCelestialClock: {
+		Tooltip: ""
+		DisplayName: 暗い天体の時計
+	}
+
+	DarkCelestialChest: {
+		Tooltip: ""
+		DisplayName: 暗い天体の宝箱
+	}
+
+	DarkCelestialChair: {
+		Tooltip: ""
+		DisplayName: 暗い天体の椅子
+	}
+
+	DarkCelestialBookcase: {
+		Tooltip: ""
+		DisplayName: 暗い天体の本棚
+	}
+
+	CryocoreToilet: {
+		Tooltip: ""
+		DisplayName: クリオコアのトイレ
+	}
+
+	CryocoreClock: {
+		Tooltip: ""
+		DisplayName: クリオコアの時計
+	}
+
+	CryocoreChest: {
+		Tooltip: ""
+		DisplayName: クリオコアの宝箱
+	}
+
+	CryocoreChair: {
+		Tooltip: ""
+		DisplayName: クリオコアの椅子
+	}
+
+	CryocoreBookcase: {
+		Tooltip: ""
+		DisplayName: クリオコアの本棚
+	}
+
+	CosmicEmberToilet: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火のトイレ
+	}
+
+	CosmicEmberClock: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の時計
+	}
+
+	CosmicEmberChest: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の宝箱
+	}
+
+	CosmicEmberChair: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の椅子
+	}
+
+	CosmicEmberBookcase: {
+		Tooltip: ""
+		DisplayName: 宇宙の残り火の本棚
+	}
+
+	AstraToilet: {
+		Tooltip: ""
+		DisplayName: アストラのトイレ
+	}
+
+	AstraClock: {
+		Tooltip: ""
+		DisplayName: アストラの時計
+	}
+
+	AstraChest: {
+		Tooltip: ""
+		DisplayName: アストラの宝箱
+	}
+
+	AstraChair: {
+		Tooltip: ""
+		DisplayName: アストラの椅子
+	}
+
+	AstraBookcase: {
+		Tooltip: ""
+		DisplayName: アストラの本棚
+	}
+
+	Cynthalith: {
+		Tooltip: ""
+		DisplayName: シンサリス
+	}
+
+	WaveGunDual: {
+		DisplayNameRifle: ウェーブガン　
+		DisplayNameDual: デュアルザップガン
+		Tooltip: 右クリックで発射モードを切り替える
+		DisplayName: ウェーブガン
+	}
+
+	WaveGunRed: {
+		Tooltip: ""
+		DisplayName: 赤のザップガン
+	}
+
+	WaveGunBlue: {
+		Tooltip: ""
+		DisplayName: 青のザップガン
+	}
+
+
+	StarDestroyer: {
+		DisplayName: スターデストロイヤー
+		Tooltip: 敵に向かって大量の星を発射する
+	}
+
+	FrigorianGaze: {
+		DisplayName: 寒さの海
+		Tooltip: 冷気を帯びた弾幕で敵を包み込む
+	}
+
+	Medkit: {
+		DisplayName: 医療キット
+		Tooltip: ""
+		RestoreLifeText: " {1}秒かけて{0}"
+	}
+
+	InANutshell: {
+		DisplayName: In A Nutshell
+		Tooltip: ""
+	}
+
+	IndustrialServer: {
+		DisplayName: 工業用サーバー
+		Tooltip: ""
+	}
+
+	BurnerGenerator: {
+		DisplayName: 燃焼式発電機
+		Tooltip: 可燃性燃料を電力に変換する
+	}
+
+
+	DisplayScreen: {
+		Tooltip: ""
+		DisplayName: ディスプレイスクリーン
+	}
+
+	WeCanDoItYellow: {
+		Tooltip: 今の流行は黄色！
+		DisplayName: 絵画「We Can Do It!」
+	}
+
+	WeCanDoItBlue: {
+		Tooltip: 今の流行は青色！
+		DisplayName: 絵画「We Can Do It!」
+	}
+
+	WindTurbineSmall: {
+		DisplayName: 小型風力タービン
+		Tooltip: 風力を電力に変換する
+	}
+
+	WindTurbineLarge: {
+		DisplayName: 大型風力タービン
+		Tooltip: 風力を電力に変換する
+	}
+
+	StopSign: {
+		DisplayName: 一時停止標識
+		Tooltip: 「止まりなさーい！」
+	}
+
+	Boombox: {
+		DisplayName: ブームボックス
+		Tooltip: ""
+	}
+
+	EmployeeVisor: {
+		DisplayName: 従業員用バイザー
+		Tooltip: ""
+	}
+
+	EmployeeSuit: {
+		DisplayName: 従業員用スーツ
+		Tooltip: ""
+	}
+
+	EmployeeBoots: {
+		DisplayName: 従業員用ブーツ
+		Tooltip: ""
+	}
+
+	WindTurbine: {
+		Tooltip: ""
+		DisplayName: 風力タービン
+	}
+
+	LuminiteToilet: {
+		DisplayName: ルミナイトのトイレ
+		Tooltip: ""
+	}
+
+	LuminiteClock: {
+		DisplayName: ルミナイトの時計
+		Tooltip: ""
+	}
+
+	LuminiteChair: {
+		DisplayName: ルミナイトの椅子
+		Tooltip: ""
+	}
+
+	LuminiteBookcase: {
+		DisplayName: ルミナイトの本棚
+		Tooltip: ""
+	}
+
+	CheeseWorkbench: {
+		Tooltip: ""
+		DisplayName: チーズの作業台
+	}
+
+	CheeseToilet: {
+		Tooltip: 「これはひどいアイデアだ。」
+		DisplayName: チーズのトイレ
+	}
+
+	CheeseTable: {
+		Tooltip: ""
+		DisplayName: チーズのテーブル
+	}
+
+	CheeseSofa: {
+		Tooltip: ""
+		DisplayName: チーズのソファ
+	}
+
+	CheeseSink: {
+		Tooltip: ""
+		DisplayName: チーズのシンク
+	}
+
+	CheesePiano: {
+		Tooltip: ""
+		DisplayName: チーズのピアノ
+	}
+
+	CheeseLantern: {
+		Tooltip: ""
+		DisplayName: チーズのランタン
+	}
+
+	CheeseLamp: {
+		Tooltip: ""
+		DisplayName: チーズのランプ
+	}
+
+	CheeseDresser: {
+		Tooltip: ""
+		DisplayName: チーズのタンス
+	}
+
+	CheeseDoor: {
+		Tooltip: ""
+		DisplayName: チーズのドア
+	}
+
+	CheeseClock: {
+		Tooltip: ""
+		DisplayName: チーズの時計
+	}
+
+	CheeseChest: {
+		Tooltip: ""
+		DisplayName: チーズの宝箱
+	}
+
+	CheeseChandelier: {
+		Tooltip: ""
+		DisplayName: チーズのシャンデリア
+	}
+
+	CheeseChair: {
+		Tooltip: ""
+		DisplayName: チーズの椅子
+	}
+
+	CheeseCandle: {
+		Tooltip: ""
+		DisplayName: チーズの蝋燭
+	}
+
+	CheeseCandelabra: {
+		Tooltip: ""
+		DisplayName: チーズの燭台
+	}
+
+	CheeseBookcase: {
+		Tooltip: ""
+		DisplayName: チーズの本棚
+	}
+
+	CheeseBed: {
+		Tooltip: ""
+		DisplayName: チーズのベッド
+	}
+
+	CheeseBathtub: {
+		Tooltip: ""
+		DisplayName: チーズのバスタブ
+	}
+
+	CapstoneRush: {
+		Tooltip: "{$BuffDescription.WellFed3}"
+		DisplayName: キャップストーン・ラッシュ
+	}
+
+	Cheese: {
+		Tooltip: "{$BuffDescription.WellFed3}"
+		DisplayName: チーズ
+	}
+
+	CheeseBlock: {
+		Tooltip: ""
+		DisplayName: チーズブロック
+	}
+
+	SpookyDookie: {
+		Tooltip: "「さあ、どうぞ...」"
+		DisplayName: スプーキードゥーキー
+	}
+
+	GothicCoalBrick: {
+		Tooltip: ""
+		DisplayName: ゴシック石炭レンガ
+	}
+
+	CopperWire: {
+		Tooltip: ""
+		DisplayName: 銅線
+	}
+
+	EngineComponent: {
+		DisplayName: エンジン部品
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	FuelCanister: {
+		AmountTooltip: "{0}/{1} {2}"
+		CapacityTooltip: 最大で {0} {1} の燃料を保持可能
+		Tooltip: ""
+		DisplayName: 燃料キャニスター
+	}
+
+	LandingGear: {
+		DisplayName: 着陸ギア
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	CoalBrick: {
+		Tooltip: ""
+		DisplayName: 石炭レンガ
+	}
+
+	RocketPlating: {
+		DisplayName: ロケットの装甲板
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	RocketLandingLeg: {
+		Tooltip: ""
+		DisplayName: ロケット着陸脚
+	}
+
+	ElasticFiber: {
+		Tooltip: ""
+		DisplayName: 弾性繊維
+	}
+
+	CompactDisk: {
+		Tooltip: ""
+		DisplayName: コンパクトディスク
+	}
+
+	Battery: {
+		Tooltip: ""
+		DisplayName: バッテリー
+	}
+
+	Fabricator: {
+		Tooltip: 高度な機械やロケット部品の作成が可能となる
+		DisplayName: ファブリケーター
+	}
+
+	ReactorHousing: {
+		DisplayName: 動力部の外殻
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	ReactorComponent: {
+		DisplayName: 動力部品
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	Plastic: {
+		Tooltip: ""
+		DisplayName: プラスチック
+	}
+
+	AlienResidue: {
+		Tooltip: ""
+		DisplayName: エイリアンの残留物
+	}
+
+	OreExcavator: {
+		Tooltip:
+			'''
+			地下から鉱石や資源を自動で掘削する
+			地形にはダメージを与えない
+			同じ惑星に複数設置すると効果が減少する
+			'''
+		DisplayName: 鉱石掘削機
+	}
+
+	ConstructionLight: {
+		Tooltip: ""
+		DisplayName: 建設用ライト
+	}
+
+	SpacesuitFabric: {
+		Tooltip: ""
+		DisplayName: 宇宙服用布地
+	}
+
+	Gear: {
+		Tooltip: ""
+		DisplayName: 歯車
+	}
+
+	HelixPatternDesign: {
+		Tooltip: ""
+		DisplayName: 螺旋パターン設計
+	}
+
+	Computer: {
+		DisplayName: コンピューター
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	PowerJunction: {
+		DisplayName: 電力接続ユニット
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	EarthGlobe: {
+		Tooltip: 「我が家が一番！」
+		DisplayName: 地球儀
+	}
+
+	OsmiumBoots: {
+		Tooltip:
+			'''
+			プレイヤーの落下速度が上昇する
+			下キーを2回押すと、さらに落下速度が上昇する
+			'''
+		DisplayName: オスミウムブーツ
+	}
+
+	IntoTheUnknownMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール(Into The Unknown)
+	}
+
+
+	StygiaMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール(Stygia)
+	}
+
+	SpaceInvaderMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール(Space Invader)
+	}
+
+	RequiemMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール(Requiem)
+	}
+
+	DeadworldMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール(Deadworld)
+	}
+
+	MercurianBanner: {
+		Tooltip: ""
+		DisplayName: 水星人のバナー
+	}
+
+	OxygenSystem: {
+		DisplayName: 酸素供給システム
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	Coal: {
+		Tooltip: ""
+		DisplayName: 石炭
+	}
+
+	MoonHeadstone: {
+		Tooltip: ""
+		DisplayName: 月の墓石
+	}
+
+	MoonGoldLunarCross: {
+		Tooltip: ""
+		DisplayName: 黄金の月の十字架墓石
+	}
+
+	MoonGoldCrescent: {
+		Tooltip: ""
+		DisplayName: 黄金の三日月の墓石
+	}
+
+	CraterDemonPet: {
+		Tooltip:
+			'''
+			小さなクレーターデーモンを召喚する
+			「私を月へ連れてって！」
+			'''
+		DisplayName: おもちゃのロケット
+	}
+
+	Apollo115: {
+		Tooltip: ""
+		DisplayName: 絵画「Apollo115」
+	}
+
+	Motor: {
+		Tooltip: ""
+		DisplayName: モーター
+	}
+
+	RapaciousBrand: {
+		Tooltip: ""
+		DisplayName: 強欲の烙印
+	}
+
+	SteelLeggings: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のレギンス
+	}
+
+	SteelHelmet: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のヘルメット
+	}
+
+	SteelChestplate: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のチェストプレート
+	}
+
+	TeddyBear: {
+		Tooltip: ""
+		DisplayName: テディベア
+	}
+
+	SpaceTeddy: {
+		Tooltip: ""
+		DisplayName: 宇宙テディ
+	}
+
+	InvarBullet: {
+		Tooltip: 敵から敵へ跳弾することがある
+		DisplayName: インバー弾
+	}
+
+	InvarArrow: {
+		Tooltip: 高速で飛び、敵を貫通する
+		DisplayName: インバーの矢
+	}
+
+	XFLR6: {
+		Tooltip:
+			'''
+			「ヤギがこんなものを作ったんだが
+			さて、君はどう思う？」
+			'''
+		DisplayName: XFLR-6
+	}
+
+	ZombieFinger: {
+		Tooltip: ""
+		DisplayName: ゾンビの指
+	}
+
+	QuestionMark: {
+		Tooltip: ""
+		DisplayName: クエスチョンマーク
+	}
+
+	LexanGlass: {
+		DisplayName: レキサンガラス
+		Tooltip:
+		'''
+		ロケットの組み立てに必要となる
+		'''
+	}
+
+	Procellarum: {
+		Tooltip:
+			'''
+			<left>で武器を振り、命中時に刻印を付与する
+			<right>で武器を投擲する、チャージすることで最大5発の雷を落とす
+			雷は刻印を付けた敵を優先して追尾し、与えるダメージが50%増加する
+			'''
+		DisplayName: プロセラルム
+	}
+
+	SolarPanelSmall: {
+		Tooltip: 太陽エネルギーを電力に変換する
+		DisplayName: ソーラーパネル
+	}
+
+	OilRefinery: {
+		Tooltip: 燃料やその他の液体を精製するために使用される
+		DisplayName: 石油精製所
+	}
+
+	IndustrialToilet: {
+		Tooltip: ""
+		DisplayName: 工業用トイレ
+	}
+
+	IndustrialDresser: {
+		Tooltip: ""
+		DisplayName: 工業用ドレッサー
+	}
+
+	IndustrialWallMonitor: {
+		Tooltip: ""
+		DisplayName: 工業用壁掛けモニター
+	}
+
+	IndustrialDeskMonitor: {
+		Tooltip: ""
+		DisplayName: 工業用卓上モニター
+	}
+
+	IndustrialCeilingMonitor: {
+		Tooltip: ""
+		DisplayName: 工業用天井モニター
+	}
+
+	IndustrialBookcase: {
+		Tooltip: ""
+		DisplayName: 工業用本棚
+	}
+
+	IndustrialSink: {
+		Tooltip: ""
+		DisplayName: 工業用シンク
+	}
+
+	IndustrialPiano: {
+		Tooltip: ""
+		DisplayName: 工業用ピアノ
+	}
+
+	IndustrialDeskClock: {
+		Tooltip: ""
+		DisplayName: 工業用卓上時計
+	}
+
+	IndustrialControlStation: {
+		Tooltip: ""
+		DisplayName: 工業用制御ステーション
+	}
+
+	IndustrialControlPanel: {
+		Tooltip: ""
+		DisplayName: 工業用制御パネル
+	}
+
+	IndustrialBathtub: {
+		Tooltip: ""
+		DisplayName: 工業用バスタブ
+	}
+
+	IndustrialBulkhead: {
+		Tooltip: ""
+		DisplayName: 工業用隔壁
+	}
+
+	IndustrialDoor: {
+		Tooltip: ""
+		DisplayName: 工業用ドア
+	}
+
+	IndustrialLocker: {
+		Tooltip: ""
+		DisplayName: 工業用ロッカー
+	}
+
+	IndustrialChestElectronic: {
+		Tooltip: ""
+		DisplayName: 工業用電子収納ユニット
+	}
+
+	IndustrialChest: {
+		Tooltip: ""
+		DisplayName: 工業用収納ユニット
+	}
+
+	IndustrialSofa: {
+		Tooltip: ""
+		DisplayName: 工業用ソファ
+	}
+
+	IndustrialDeskLamp: {
+		Tooltip: ""
+		DisplayName: 工業用デスクランプ
+	}
+
+	IndustrialChairSleek: {
+		Tooltip: ""
+		DisplayName: 工業用スリムチェア
+	}
+
+	IndustrialChair: {
+		Tooltip: ""
+		DisplayName: 工業用受付チェア
+	}
+
+	IndustrialBed: {
+		Tooltip: ""
+		DisplayName: 工業用ベッド
+	}
+
+	IndustrialWorkbench: {
+		Tooltip: ""
+		DisplayName: 工業用作業台
+	}
+
+	IndustrialTable: {
+		Tooltip: ""
+		DisplayName: 工業用テーブル
+	}
+
+	IndustrialGurney: {
+		Tooltip: ""
+		DisplayName: 工業用ストレッチャー
+	}
+
+	IndustrialCrate: {
+		Tooltip: "「中にいいものが入っているかも？」"
+		DisplayName: 工業用クレート
+	}
+
+	IndustrialNeonTube: {
+		Tooltip: ""
+		DisplayName: 工業用ネオン管
+	}
+
+	IndustrialLantern: {
+		Tooltip: ""
+		DisplayName: 工業用ランタン
+	}
+
+	IndustrialLamp: {
+		Tooltip: ""
+		DisplayName: 工業用ランプ
+	}
+
+	IndustrialCandle: {
+		Tooltip: ""
+		DisplayName: 工業用蝋燭
+	}
+
+	IndustrialTrimmingWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な工業用装飾壁
+	}
+
+	IndustrialTrimmingWall: {
+		Tooltip: ""
+		DisplayName: 工業用装飾壁
+	}
+
+	IndustrialSquarePaneledWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な工業用角型パネル壁
+	}
+
+	IndustrialSquarePaneledWall: {
+		Tooltip: ""
+		DisplayName: 工業用角型パネル壁
+	}
+
+	IndustrialPlatingWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な工業用装甲壁
+	}
+
+	IndustrialPlatingWall: {
+		Tooltip: ""
+		DisplayName: 工業用装甲壁
+	}
+
+	IndustrialHazardWallUnsafe: {
+		Tooltip: ""
+		DisplayName: 危険な工業用警告壁
+	}
+
+	IndustrialHazardWall: {
+		Tooltip: ""
+		DisplayName: 工業用警告壁
+	}
+
+	IndustrialPlatform: {
+		Tooltip: ""
+		DisplayName: 工業用足場
+	}
+
+	IndustrialPlating: {
+		Tooltip: ""
+		DisplayName: 工業用ブロック
+	}
+
+	SteelRifle: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のライフル
+	}
+
+	SteelCrossbow: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のクロスボウ
+	}
+
+	SteelZweihander: {
+		Tooltip: <right>を押し続けてチャージ攻撃を繰り出す
+		DisplayName: 鋼鉄の大剣
+	}
+
+	SteelPickaxe: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のツルハシ
+	}
+
+	SteelHamaxe: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のハンマーアックス
+	}
+
+	SteelBar: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のインゴット
+	}
+
+	LaunchPadMarker: {
+		Tooltip: ロケットの発射台を作成するために使用される
+		DisplayName: 発射台マーカー
+	}
+
+	SilicaSand: {
+		Tooltip: ""
+		DisplayName: シリカのブロック
+	}
+
+	SilicaPearlsand: {
+		Tooltip: ""
+		DisplayName: パールシリカブロック
+	}
+
+	SilicaEbonsand: {
+		Tooltip: ""
+		DisplayName: エボンシリカブロック
+	}
+
+	SilicaCrimsand: {
+		Tooltip: ""
+		DisplayName: クリムシリカブロック
+	}
+
+	ChampionsBlade: {
+		Tooltip:
+			'''
+		 連続して攻撃を当てることで、この剣は強化される
+		 一定時間使わないと、効果は消失する
+			'''
+		DisplayName: 月の勇者の剣
+	}
+
+	ChampionsBladeRepaired: {
+		Tooltip:
+			'''
+		 連続して攻撃を当てることで、この剣は強化される
+		 一定時間使わないと、効果は消失する
+			'''
+		DisplayName: 月の勇者の剣
+	}
+
+	ChampionsBladeBroken: {
+		Tooltip:
+			'''
+		 連続して攻撃を当てることで、この剣は強化される
+		 一定時間使わないと、効果は消失する
+			'''
+		DisplayName: 月の勇者の剣
+	}
+
+	TychoDesertEagle: {
+		Tooltip: ""
+		DisplayName: Tycho .50
+	}
+
+	MoonPhaseGlobe: {
+		Tooltip: ""
+		DisplayName: 月相グローブ
+	}
+
+	SpaceDust: {
+		Tooltip: ""
+		DisplayName: 宇宙の塵
+	}
+
+	HazardWall: {
+		Tooltip: ""
+		DisplayName: 警告壁
+	}
+
+
+	HandheldEngine: {
+		Tooltip:
+			'''
+			マナを冷却材として使用する
+			一定時間マナを供給しないとエンジンが過熱する
+			「そう、まさにロケット科学だ！」
+			'''
+		DisplayName: 手持ち式エンジン
+	}
+
+	ChandriumWhip: {
+		Tooltip: 3回目の攻撃ごとに追加ダメージを与える
+		DisplayName: シャンドリウムの鞭
+	}
+
+	ChandriumStaff: {
+		Tooltip: クレセントグールを召喚する
+		DisplayName: シャンドリウムの杖
+	}
+
+	CalcicCane: {
+		Tooltip: クレーターインプを召喚する
+		DisplayName: 方解石の杖
+	}
+
+	ArtemiteMagnum: {
+		Tooltip: <right>で6発の弾を連射できる
+		DisplayName: アルテマイトマグナム
+	}
+
+	ArtemiteBow: {
+		Tooltip: 矢を2本同時に放つ
+		DisplayName: アルテマイトの弓
+	}
+
+	NWARocketLauncher: {
+		Tooltip: <right>で敵にロックオンする
+		DisplayName: NWA-5000
+	}
+
+	LHBMinigun: {
+		Tooltip:
+			'''
+			「弾丸より効果的なものって何かって？
+			大量の弾丸さ」
+			'''
+		DisplayName: LHB-59
+	}
+
+	Cruithne: {
+		Tooltip:
+			'''
+			マスケットの弾丸をグリーンスラグ弾に変換する
+			さらに爆発するデリリウム弾を発射する
+			'''
+		DisplayName: クルースニェ-3753
+	}
+
+	Copernicus: {
+		Tooltip: ロケット弾を所持している場合、5発ごとに発射する
+		DisplayName: コペルニクス
+	}
+
+	ArchersLine: {
+		Tooltip: 弾丸が敵から敵へ跳弾する
+		DisplayName: アーチャーライン
+	}
+
+
+	AluminumBow: {
+		Tooltip: ""
+		DisplayName: アルミニウムの弓
+	}
+
+	Noxsaber: {
+		Tooltip: 滅びたカルト教団の神殿から奪われた、黒きエネルギーセイバー
+		DisplayName: ノクスセイバー
+	}
+
+	MoonSword: {
+		Tooltip: ""
+		DisplayName: 月の魔剣
+	}
+
+	Crucible: {
+		Tooltip:
+			'''
+			地獄の業火で鍛えられた剣
+			「奴らが恐れている唯一のもの、それはお前だ」
+			'''
+		DisplayName: クルーシブル
+	}
+
+	ClawWrench: {
+		Tooltip: <right>でレンチを投げる
+		DisplayName: クローレンチ
+	}
+
+	SeleniteSword: {
+		Tooltip: ""
+		DisplayName: セレナイトの剣
+	}
+
+	SeleniteSpear: {
+		Tooltip: <right>で槍を投げる
+		DisplayName: セレナイトの槍
+	}
+
+	SeleniteGreatsword: {
+		Tooltip: "{$Mods.Macrocosm.Items.SteelZweihander.Tooltip}"
+		DisplayName: セレナイトの大剣
+	}
+
+	AluminumShortsword: {
+		Tooltip: ""
+		DisplayName: アルミニウムのショートソード
+	}
+
+	AluminumBroadsword: {
+		Tooltip: ""
+		DisplayName: アルミニウムのブロードソード
+	}
+
+	ImbriumJewel: {
+		Tooltip: 周囲にドクロの幻影を放つ
+		DisplayName: インブリウムの宝玉
+	}
+
+	DianiteTome: {
+		Tooltip:
+			'''
+			ポータルを呼び出し、ポータルからカーソルの方向に隕石を発射する
+			'''
+		DisplayName: ダイアナイトの書
+	}
+
+	DianiteFork: {
+		Tooltip: 渦巻く魔力を敵に放つ
+		DisplayName: ダイアナイトのフォーク
+	}
+
+	CraterDemonMask: {
+		Tooltip: ""
+		DisplayName: クレーターデーモンのマスク
+	}
+
+	ArtemitePickaxe: {
+		Tooltip: ""
+		DisplayName: アルテマイトのツルハシ
+	}
+
+	ArtemiteHammer: {
+		Tooltip: ""
+		DisplayName: アルテマイトのハンマー
+	}
+
+	ArtemiteDrill: {
+		Tooltip: ""
+		DisplayName: アルテマイトのドリル
+	}
+
+	ArtemiteAxe: {
+		Tooltip: ""
+		DisplayName: アルテマイトの斧
+	}
+
+	DianitePickaxe: {
+		Tooltip: ""
+		DisplayName: ダイアナイトのツルハシ
+	}
+
+	DianiteHammer: {
+		Tooltip: ""
+		DisplayName: ダイアナイトのハンマー
+	}
+
+	DianiteDrill: {
+		Tooltip: ""
+		DisplayName: ダイアナイトのドリル
+	}
+
+	DianiteAxe: {
+		Tooltip: ""
+		DisplayName: ダイアナイトの斧
+	}
+
+	ChandriumPickaxe: {
+		Tooltip: ""
+		DisplayName: シャンドリウムのツルハシ
+	}
+
+	ChandriumHammer: {
+		Tooltip: ""
+		DisplayName: シャンドリウムのハンマー
+	}
+
+	ChandriumDrill: {
+		Tooltip: ""
+		DisplayName: シャンドリウムのドリル
+	}
+
+	ChandriumAxe: {
+		Tooltip: ""
+		DisplayName: シャンドリウムの斧
+	}
+
+	SelenitePickaxe: {
+		Tooltip: ""
+		DisplayName: セレナイトのツルハシ
+	}
+
+	SeleniteHammer: {
+		Tooltip: ""
+		DisplayName: セレナイトのハンマー
+	}
+
+	SeleniteDrill: {
+		Tooltip: ""
+		DisplayName: セレナイトのドリル
+	}
+
+	SeleniteAxe: {
+		Tooltip: ""
+		DisplayName: セレナイトの斧
+	}
+
+	AluminumPickaxe: {
+		Tooltip: ""
+		DisplayName: アルミニウムのツルハシ
+	}
+
+	AluminumHammer: {
+		Tooltip: ""
+		DisplayName: アルミニウムのハンマー
+	}
+
+	AluminumAxe: {
+		Tooltip: ""
+		DisplayName: アルミニウムの斧
+	}
+
+	CraterDemonTrophy: {
+		Tooltip: ""
+		DisplayName: クレーターデーモンのトロフィー
+	}
+
+	MoonTombstone: {
+		Tooltip: ""
+		DisplayName: 月の墓石
+	}
+
+	MoonGoldTombstone: {
+		Tooltip: ""
+		DisplayName:  黄金の月の墓石
+	}
+
+	CraterDemonRelic: {
+		Tooltip: ""
+		DisplayName: クレーターデーモンのレリック
+	}
+
+	ShoresOfOblivion: {
+		Tooltip: "'E. Bracht'"
+		DisplayName: 絵画「Shores Of Oblivion」
+	}
+
+	Freedomfaller: {
+		Tooltip: "'T. Williams'"
+		DisplayName: 絵画「Freedomfaller」
+	}
+
+	WhenDayBreaks: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「When Day Breaks」
+	}
+
+	Retributor: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「Retributor」
+	}
+
+	Overlord: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「Overlord」
+	}
+
+	Empress: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「Empress」
+	}
+
+	DarkFortress: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「Dark Fortress」
+	}
+
+	BloodSunRising: {
+		Tooltip: "'L. Reda'"
+		DisplayName: 絵画「Blood Sun Rising」
+	}
+
+	SolarPanelLarge: {
+		Tooltip: "{$Mods.Macrocosm.Items.SolarPanelSmall.Tooltip}"
+		DisplayName: 大型ソーラーパネル
+	}
+
+	TitaniumLoom: {
+		Tooltip: 宇宙服用布地を作るために使用される
+		DisplayName: チタンの織機
+	}
+
+	AdamantiteLoom: {
+		Tooltip: "{$Mods.Macrocosm.Items.TitaniumLoom.Tooltip}"
+		DisplayName: アダマンタイトの織機
+	}
+
+	RegolithWall: {
+		Tooltip: ""
+		DisplayName: レゴリスの壁
+	}
+
+	RegolithBrickWall: {
+		Tooltip: ""
+		DisplayName: レゴリスのレンガ壁
+	}
+
+	RegolithBrick: {
+		Tooltip: ""
+		DisplayName: レゴリスのレンガ
+	}
+
+	Regolith: {
+		Tooltip: ""
+		DisplayName: レゴリス
+	}
+
+	ProtolithWall: {
+		Tooltip: ""
+		DisplayName: 原始岩の壁
+	}
+
+	Protolith: {
+		Tooltip: ""
+		DisplayName: 原始岩
+	}
+
+	IrradiatedRockWall: {
+		Tooltip: ""
+		DisplayName: 被曝した岩の壁
+	}
+
+	IrradiatedRock: {
+		Tooltip: ""
+		DisplayName: 被曝した岩
+	}
+
+	IrradiatedBrickWall: {
+		Tooltip: ""
+		DisplayName: 被曝したレンガ壁
+	}
+
+	IrradiatedBrick: {
+		Tooltip: ""
+		DisplayName: 被曝したレンガ
+	}
+
+	SpaceShuttle: {
+		Tooltip: STS-51-LとSTS-107の記憶に捧ぐ
+		DisplayName: スペースシャトル
+	}
+
+	VortexChunk: {
+		Tooltip:
+			'''
+			<right>で中身を取り出そう！
+			消費アイテム
+			'''
+		DisplayName: ボルテックスの塊
+	}
+
+	StardustChunk: {
+		Tooltip:
+			'''
+			<right>で中身を取り出そう！
+			消費アイテム
+			'''
+		DisplayName: スターダストの塊
+	}
+
+	SolarChunk: {
+		Tooltip:
+			'''
+			<right>で中身を取り出そう！
+			消費アイテム
+			'''
+		DisplayName: ソーラーの塊
+	}
+
+	NebulaChunk: {
+		Tooltip:
+			'''
+			<right>で中身を取り出そう！
+			消費アイテム
+			'''
+		DisplayName: ネビュラの塊
+	}
+
+	MeteoricChunk: {
+		Tooltip:
+			'''
+			<right>で中身を取り出そう！
+			消費アイテム
+			'''
+		DisplayName: 隕石の塊
+	}
+
+	Silicon: {
+		Tooltip: ""
+		DisplayName: シリコン
+	}
+
+	SiliconOre: {
+		Tooltip: ""
+		DisplayName: シリコン鉱石
+	}
+
+	ArtemiteOre: {
+		Tooltip: ""
+		DisplayName: アルテマイト鉱石
+	}
+
+	ArtemiteBar: {
+		Tooltip: ""
+		DisplayName: アルテマイトのインゴット
+	}
+
+
+	PrintedCircuitBoard: {
+		Tooltip: ""
+		DisplayName: 電子基板
+	}
+
+	OxygenTank: {
+		Tooltip: ""
+		DisplayName: 酸素タンク
+	}
+
+	OilShale: {
+		Tooltip: ""
+		DisplayName: 油頁岩
+	}
+
+	LuminiteCrystal: {
+		Tooltip: ""
+		DisplayName: ルミナイトクリスタル
+	}
+
+	LithiumOre: {
+		Tooltip: ""
+		DisplayName: リチウム鉱石
+	}
+
+	DianiteOre: {
+		Tooltip: ""
+		DisplayName: ダイアナイト鉱石
+	}
+
+	DianiteBar: {
+		Tooltip: ""
+		DisplayName: ダイアナイトのインゴット
+	}
+
+	DeliriumPlating: {
+		Tooltip: ""
+		DisplayName: デリリウムの装甲板
+	}
+
+	CosmicEssence: {
+		Tooltip: ""
+		DisplayName: 宇宙のエッセンス
+	}
+
+	CosmicDust: {
+		Tooltip: ""
+		DisplayName: 宇宙の塵
+	}
+
+	CortexFragment: {
+		Tooltip: ""
+		DisplayName: コルテックスの断片
+	}
+
+	ChandriumOre: {
+		Tooltip: ""
+		DisplayName: シャンドリウム鉱石
+	}
+
+	ChandriumBar: {
+		Tooltip: ""
+		DisplayName: シャンドリウムのインゴット
+	}
+
+	BrokenHeroShield: {
+		Tooltip: ""
+		DisplayName: 壊れた英雄の盾
+	}
+
+	SeleniteOre: {
+		Tooltip: ""
+		DisplayName: セレナイト鉱石
+	}
+
+	SeleniteBar: {
+		Tooltip: ""
+		DisplayName: セレナイトのインゴット
+	}
+
+	AluminumOre: {
+		Tooltip: ""
+		DisplayName: アルミニウム鉱石
+	}
+
+	AluminumBar: {
+		Tooltip: ""
+		DisplayName: アルミニウムのインゴット
+	}
+
+	Teleporter: {
+		Tooltip: 使用者を月と地球の間で転送する
+		DisplayName: テレポーター
+	}
+
+	Rocket: {
+		Tooltip: ""
+		DisplayName: ロケット
+	}
+
+	RocketPlacer: {
+		Tooltip: ロケットを設置する　<right>で太陽系内のすべてのロケットを消去する
+		DisplayName: ロケット配置装置
+	}
+
+	DevPick: {
+		Tooltip: 「実は武器としても優秀」
+		DisplayName: 開発者のツルハシ
+	}
+
+	BanHammer: {
+		Tooltip: 「退場」
+		DisplayName: BANハンマー
+	}
+
+	Moonstone: {
+		Tooltip: ""
+		TooltipChampion: 月長石とも呼ばれる宝石、月の勇者が集めているようだ
+		TooltipNoChampion: 月長石とも呼ばれる宝石
+		DisplayName: ムーンストーン
+	}
+
+	CraterDemonSummon: {
+		Tooltip:
+			'''
+			クレーターデーモンを召喚する
+			月でのみ使用できる
+			'''
+		DisplayName: 悪魔の石碑
+	}
+
+	CraterDemonBossBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ (クレーターデーモン)
+	}
+
+	ArtemiteLeggings: {
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加
+			移動速度が20%増加
+			'''
+		DisplayName: アルテマイトのレギンス
+	}
+
+	ArtemiteHeadgear: {
+		Tooltip:
+			'''
+			遠距離ダメージが10%増加
+			15%の確率で弾薬を消費しない
+			'''
+		DisplayName: アルテマイトのヘッドギア
+	}
+
+	ArtemiteBreastplate: {
+		Tooltip: 遠距離クリティカル率が12%増加
+		DisplayName: アルテマイトのチェストプレート
+	}
+
+	DianiteVisor: {
+		Tooltip:
+			'''
+			最大マナが50増加
+			魔法ダメージが10%増加
+			'''
+		DisplayName: ダイアナイトのバイザー
+	}
+
+	DianiteLeggings: {
+		Tooltip:
+			'''
+			魔法ダメージが5%増加
+			移動速度が10%増加
+			'''
+		DisplayName: ダイアナイトのレギンス
+	}
+
+	DianiteBreastplate: {
+		Tooltip: 魔法クリティカル率が12%増加
+		DisplayName: ダイアナイトのチェストプレート
+	}
+
+	ChandriumLeggings: {
+		Tooltip:
+			'''
+			召喚できる従者数が1体増加
+			移動速度が10%増加
+			'''
+		DisplayName: シャンドリウムのレギンス
+	}
+
+	ChandriumHelm: {
+		Tooltip:
+			'''
+			召喚できる従者数が1体増加
+			召喚ダメージが25%増加
+			'''
+		DisplayName: シャンドリウムのヘルム
+	}
+
+	ChandriumBreastplate: {
+		Tooltip:
+			'''
+			召喚できる従者数が1体増加
+			鞭の射程と速度が15%増加
+			'''
+		DisplayName: シャンドリウムのチェストプレート
+	}
+
+	AstronautSuit: {
+		Tooltip: ""
+		DisplayName: 宇宙服
+	}
+
+	AstronautLeggings: {
+		Tooltip: ""
+		DisplayName: 宇宙服の脚部装備
+	}
+
+	AstronautHelmet: {
+		Tooltip: ""
+		DisplayName: 宇宙服のヘルメット
+	}
+
+	SeleniteLeggings: {
+		Tooltip: 近接攻撃速度と移動速度が15%増加
+		DisplayName: セレナイトのレギンス
+	}
+
+	SeleniteHelmet: {
+		Tooltip: 近接ダメージが18%増加
+		DisplayName: セレナイトのヘルメット
+	}
+
+	SeleniteBreastplate: {
+		Tooltip: 近接クリティカル率が6%増加
+		DisplayName: セレナイトのチェストプレート
+	}
+
+	AluminumHelmet: {
+		Tooltip: ""
+		DisplayName: アルミニウムのヘルメット
+	}
+
+	AluminumBreastplate: {
+		Tooltip: ""
+		DisplayName: アルミニウムのチェストプレート
+	}
+
+	AluminumBoots: {
+		Tooltip: ""
+		DisplayName: アルミニウムのブーツ
+	}
+
+	CelestialBulwark: {
+		Tooltip:
+			'''
+			敵に向かってダッシュできるようになる
+			水平、垂直方向のダッシュが可能になる
+			任意の方向をダブルタップすることでダッシュを発動する
+			'''
+		DisplayName: 星界の防壁
+	}
+
+	SetBonuses: {
+		SpaceProtection_2: 高度に被曝した環境でも安全に探査できる
+		SpaceProtection_1: 他の天体での探査が可能になる
+	}
+}
+
+DeathMessages: {
+	Vacuum: {
+		Message3: "{0}は宇宙の広大さを味わいました"
+		Message2: "{0}の亡骸は宇宙をさまよう運命となりました"
+		Message1: "{0}はついに思考を止めました"
+		Message0: "{0}は宇宙のゴミとなりました"
+	}
+
+	Irradiated: {
+		Message9: "{0}の症状リストは手に負えなくなりました"
+		Message8: "{0}の細胞が反乱を起こしました"
+		Message7: "{0}は光る筆を舐めてしまいました"
+		Message6: "{0}は放射線量を抑えきれませんでした"
+		Message5: "{0}は放射線の味を知ってしまいました"
+		Message4: "{0}は発光できるようになりました"
+		Message3: "{0}は手足が増えすぎました"
+		Message2: "{0}はチェルノブイリの住人と間違えられました"
+		Message1: "{0}はドラゴンを想像してしまいました"
+		Message0: "{0}はウランを食べてしまいました"
+	}
+
+	Depressurized: {
+		Message7: "{0}の肺は圧力に耐えられませんでした"
+		Message6: "{0}はパチンと弾けてしまいました"
+		Message5: "{0}には鉄の肺が必要でした"
+		Message4: "{0}は地球出身だということを忘れていました"
+		Message3: "{0}は宇宙の冷たさを感じました"
+		Message2: "{0}は宇宙服を見つけられませんでした"
+		Message1: "{0}は宇宙で呼吸しようとしました"
+		Message0: "{0}は膨らみすぎて破裂しました"
+	}
+
+	Meteor: {
+		Message14: "{0}は恐竜の気持ちを理解しました"
+		Message13: "{0}はとても激しい体験をしました"
+		Message12: "{0}は星に触れたいという願いを叶えました"
+		Message11: "{0}は上を見るべきでした"
+		Message10: "{0}は本物の墜落を経験してしまいました"
+		Message9: "{0}は流れ星を捕まえようとしました"
+		Message8: "{0}は流れ星に願いを伝えようと近づきすぎました"
+		Message7: "{0}は隕石を打ち返そうと試みました"
+		Message6: "{0}は宇宙からの落とし物に直撃してしまいました"
+		Message5: "{0}が見た最後の光景はまさに異世界のものでした"
+		Message4: "{0}は文字通り「星の虜」になりました"
+		Message3: それは隕石か小惑星かの答えを{0}は身をもって知りました
+		Message2: "{0}は宇宙の味を知りました"
+		Message1: "{0}はパンケーキになりました"
+		Message0: "{0}は押しつぶされました"
+	}
+}
+
+Configs: {
+	UnitSystemType: {
+		Imperial: {
+			Label: ヤード・ポンド法
+		}
+
+		Metric: {
+			Label: メートル法
+		}
+
+		Tooltip: ""
+	}
+
+		ServerConfig: {
+		CircuitSolveUpdateRate: {
+			Tooltip: 回路の解決処理の更新頻度（ティック単位）を調整します。数値が大きいほど更新頻度が低くなり、パフォーマンスが向上する可能性があります。
+			Label: 回路解決の更新頻度
+		}
+
+		CircuitSearchUpdateRate: {
+			Tooltip: 回路探索の更新頻度（ティック単位）を調整します。数値が大きいほど探索頻度が低くなり、パフォーマンスが向上する可能性があります。
+			Label: 回路探索の更新頻度
+		}
+
+		Circuits: 回路
+
+		DisableOilShaleGeneration: {
+			Tooltip: 地下砂漠での油頁岩の生成を無効にします。他MODのバイオーム生成と競合しないようにするための設定です。
+			Label: 油頁岩の生成を無効化
+		}
+
+		DisableSilicaSandGeneration: {
+			Tooltip: 海底でのシリカ生成を無効にします。他MODのバイオーム生成と競合しないようにするための設定です。
+			Label: シリカの生成を無効化
+		}
+
+		WorldGenHeader: ワールド生成
+		DisplayName: サーバー設定
+		}
+
+	ClientConfig: {
+		DisableOilShaleGeneration: {
+			Tooltip: ""
+			Label: 油頁岩の生成を無効化
+		}
+
+		DisableSilicaSandGeneration: {
+			Tooltip: 海底でのシリカ生成を無効にします。他MODのバイオーム生成と競合しないようにするためです。
+			Label: シリカの生成を無効化
+		}
+
+		SelectedUITheme: {
+			Tooltip: MODのUI表示テーマを変更します。
+			Label: UIテーマ
+		}
+
+		DisplayGravityInGs: {
+			Tooltip: 重力加速度を「G」で表示するか、現在の単位系で表示するかを切り替えます。
+			Label: 重力をG単位で表示
+		}
+
+		UnitSystem: {
+			Tooltip: 数値の表示に使用する単位系を選択します。
+			Label: 単位系
+		}
+
+		HighResolutionEffects: {
+			Tooltip: 高解像度の視覚効果を使用します。
+			Label: 高解像度エフェクト
+		}
+
+		GunRecoilEffects: {
+			Tooltip: 銃に反動エフェクトを適用するかどうかを設定します。
+			Label: 銃の反動エフェクト
+		}
+
+		AlwaysDisplayTitleCards: {
+			Tooltip: 一度訪れた天体でも導入時のタイトルカードを常に表示します。
+			Label: タイトルカードを常に表示
+		}
+
+		UIHeader: ユーザーインターフェース
+		GraphicsHeader: グラフィック
+		GameplayHeader: ゲームプレイ
+		DisplayName: クライアント設定
+	}
+
+}
+
+Buffs: {
+	RyuguSummonBuff: {
+		Description: リュウグウが一緒に戦ってくれる
+		DisplayName: リュウグウ
+	}
+
+	HorusBurn: {
+		Description: 最も輝く星の光に焼かれている
+		DisplayName: ホルスの灼熱
+	}
+
+	GreatstaffOfHorusMinionBuff: {
+		Description: 太陽粒子が一緒に戦ってくれる
+		DisplayName: ホルスの大神杖の従者
+	}
+
+	HummingbirdDroneSummonBuff: {
+		Description: 戦闘ドローンがあなたを守っている
+		DisplayName: P.D.C.D.『Hummingbird』
+	}
+
+	Melting: {
+		Description: あなたの体は溶けている
+		DisplayName: 融解
+	}
+
+	AntiRadiationPills: {
+		Description: 放射線障害を治療中
+		DisplayName: 抗放射線薬
+	}
+
+	Fatigue: {
+		Description: 疲れを感じている...
+		DisplayName: 疲労
+	}
+
+	WeakBones: {
+		Description: 体が弱っている...
+		DisplayName: 骨の脆化
+	}
+
+	Paralysis: {
+		Description: 動けない！
+		DisplayName: 麻痺
+	}
+
+	OrganFailure: {
+		Description: 内臓が機能不全を起こしている
+		DisplayName: 臓器不全
+	}
+
+	Necrosis: {
+		Description: 体が急速に腐敗している
+		DisplayName: 壊死
+	}
+
+	MildNecrosis: {
+		Description: 体が腐敗し始めている
+		DisplayName: 軽度の壊死
+	}
+
+	Blindness: {
+		Description: 視界が悪化している
+		DisplayName: 盲目
+	}
+
+	Irradiated: {
+		Description: 放射線障害にかかっている
+		DisplayName: 被曝
+	}
+
+	MedkitMedium: {
+		Description: 回復中
+		DisplayName: 医療キット
+	}
+
+	MedkitLow: {
+		Description: 回復中
+		DisplayName: 医療キット
+	}
+
+	MedkitHigh: {
+		Description: 回復中
+		DisplayName: 医療キット
+	}
+
+	CraterDemonPet: {
+		Description: 何か企んでいるようだ...
+		DisplayName: ミニクレーターデーモン
+	}
+
+	HandheldEngineOverheat: {
+		Description: 武器を過熱しすぎた
+		DisplayName: 手持ち式エンジンオーバーヒート
+	}
+
+	Procellarum_LightningMarkDebuff: {
+		Description: プロセラルムの雷撃から受けるダメージが2倍になる
+		DisplayName: プロセラルムの烙印
+	}
+
+	SpaceShuttle: {
+		Description: STS-51-LとSTS-107の記憶に捧ぐ
+		DisplayName: スペースシャトル
+	}
+
+	ChandriumStaffMinionBuff: {
+		Description: クレセントグールが一緒に戦ってくれる
+		DisplayName: クレセントグール
+	}
+
+	CalcicCaneMinionBuff: {
+		Description: クレーターインプが一緒に戦ってくれる
+		DisplayName: クレーターインプ
+	}
+
+	ChandriumWhipBuff: {
+		Description: 次のシャンドリウムの鞭の一撃が強化される
+		DisplayName: シャンドリウムの力
+	}
+
+	Depressurized: {
+		Description: 血液が沸騰している！
+		DisplayName: 減圧状態
+	}
+
+	SuitBreach: {
+		Description: 外気にさらされている！
+		DisplayName: 宇宙服の破損
+	}
+
+	Fear: {
+		Description: うわああああ！？
+		DisplayName: 恐怖
+	}
+}
+
+
+Biomes: {
+	MoonUndergroundBiome: {
+		TownNPCDialogueName: 月の地下
+		DisplayName: 月の地下
+	}
+
+	MoonNightBiome: {
+		TownNPCDialogueName: 月の夜
+		DisplayName: 月の夜
+	}
+
+	DemonSunBiome: {
+		TownNPCDialogueName: 悪魔の太陽
+		DisplayName: 悪魔の太陽バイオーム
+	}
+
+	IrradiationBiome: {
+		TownNPCDialogueName: 被曝地帯
+		DisplayName: 被曝地帯
+	}
+
+	BasaltBiome: {
+		TownNPCDialogueName: 玄武岩地帯
+		DisplayName: 玄武岩地帯
+	}
+
+	BloodMoonBiome: {
+		TownNPCDialogueName: ブラッドムーン
+		DisplayName: ブラッドムーン
+	}
+
+	MoonBiome: {
+		TownNPCDialogueName: 月面
+		DisplayName: 月面
+	}
+
+	EarthBiome: {
+		TownNPCDialogueName: 地球
+		DisplayName: 地球
+	}
+}
+
