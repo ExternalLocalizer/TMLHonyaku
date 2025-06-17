@@ -1,0 +1,825 @@
+Items: {
+    Backbone: {
+        DisplayName: バックボーン
+        Tooltip:
+            '''
+            骨と肉でできた塊を発射する
+            各塊は異なる効果を持つ
+            「背骨を育てなさい、ねえ？」
+            '''
+    }
+
+	BigBrother: {
+		DisplayName: ビッグブラザー
+		Tooltip:
+			'''
+			敵の防御力を20無視
+			敵に噛みつく強力な肉のハンマーを振る
+			命中時に追尾性の魂のエッセンスを生成し、味方と自分の両方を回復する
+			噛んでいない時間が長いほど空腹になる
+			武器が徐々に空腹になり、最大500%分までダメージが増加する
+			クリティカル以外でダメージブーストがリセットされ、クリティカル時は減少
+			3回目の攻撃ごとにハンマーを投げ、空腹時にターゲットを追尾する
+			「あのビッグブラザーを倒せ…」
+			'''
+	}
+
+	BloomRazor: {
+		DisplayName: ブルームレイザー
+		Tooltip:
+			'''
+			敵から敵へと跳ねる鋭い花を投げる
+			クリティカル時に花が命中した敵を切り裂く
+			'''
+	}
+
+	CandleCove: {
+		DisplayName: キャンドルコーブ
+		Tooltip:
+			'''
+			まれに近くに奇妙な渦が現れる
+			投擲武器をその穴に投げ込むと渦が満たされる
+			満たされると渦が崩壊し、嵐が発生する
+			嵐は天候に影響されず、敵にダメージを与える
+			嵐の後、15秒間は渦が発生しない
+			'''
+	}
+
+	Colonoschord: {
+		DisplayName: コロノスコード
+		Tooltip:
+			'''
+			敵の防御力を40無視
+			自ら音を奏でる肉のハープシコードを構える
+			跳ねて貫通するサナダムシを放つ
+			サナダムシは同じ敵に複数回命中可能
+			「ゴーゴーガジェット、腸内検査！」
+			'''
+	}
+
+	CursedCassette: {
+		DisplayName: 呪われたカセット
+		Tooltip:
+			'''
+			インスピレーションが尽きた際、暗い精霊がプレイヤーの真上に現れる
+			精霊は敵に呪われた音符を発射し、周囲を跳ねる
+			インスピレーション再生率が高いほど精霊の射撃速度が上がる
+			呪われた音符は風や弦楽器のボーナスに影響される
+			'''
+	}
+
+	Dandelizer: {
+		DisplayName: ダンデライザー
+		Tooltip:
+			'''
+			巨大なタンポポのフレイルで攻撃する
+			フレイルはダメージを与える軌跡を残す
+			クリティカルで金のタンポポを放ち、味方を回復する
+			金のタンポポは最大3つまで同時に存在可能
+			回復時には効果を発動しない
+			'''
+	}
+
+	ForbiddenCrucifix: {
+		DisplayName: 禁断の十字架
+		Tooltip:
+			'''
+			不気味な光のビームをチャージする
+			チャージ時間が長いほどビームが大きくなる
+			「愚か者め！私の先祖はみな―」
+			'''
+	}
+
+	FacundoYPanfilo: {
+		DisplayName: パンフィロ＆ファクンド
+		Tooltip:
+			'''
+			敵に取り付く知的な双子の頭を投げる
+			一方の頭が取り付くと、もう一方を引っ張る
+			各頭はターゲットを7回噛んでから死亡する
+			「すさまじい戦いだ！」
+			'''
+	}
+
+	FiestaGarments: {
+		DisplayName: フィエスタガーメンツ
+		Tooltip:
+			'''
+			シンフォニックおよびラディアントダメージが15％増加
+			回復魔法によるライフ回復量が3増加
+			敵に狙われにくくなる
+			'''
+	}
+
+	FiestaMaskara: {
+		DisplayName: フィエスタマスク
+		Tooltip:
+			'''
+			回復およびシンフォニック演奏速度が10％増加
+			インスピレーション再生率が5％増加
+			敵に狙われにくくなる
+			'''
+		SetBonus:
+			'''
+			シンフォニックまたはラディアントダメージを与えると特別なメーターが溜まる
+			メーターが満タンになると、「アーマーアビリティ」キーを押して音符の雲を放つ
+			音符は敵にダメージを与え、回復ボーナス相当のライフを味方に回復
+			'''
+	}
+
+	FiestaPantaloons: {
+		DisplayName: フィエスタパンタロンズ
+		Tooltip:
+			'''
+			移動速度が15％増加
+			シンフォニックエンパワーメントの持続時間が2秒増加
+			敵に狙われにくくなる
+			'''
+	}
+
+	GastricJuices: {
+		DisplayName: 腐食の胃汁
+		Tooltip:
+			'''
+			衝撃時にあらゆる方向に嘔吐する知的な胃を投げる
+			嘔吐は潰瘍を付与し、敵が受けるダメージを20増加
+			嘔吐が外れると地面に着地し、水たまりを形成
+			プレイヤーは水たまりを拾って酸逆流バフを得る
+			酸逆流はダメージを10％、アーマー貫通を10増加
+			水たまりは味方を回復するが、回復時効果を発動しない
+			'''
+	}
+
+	GoreEarVisor: {
+		DisplayName: ゴアバイザー
+		Tooltip:
+			'''
+			シンフォニックダメージが10％増加
+			回復およびシンフォニック演奏速度が20％増加
+			インスピレーション再生率が15％増加
+			敵に狙われにくくなる
+			「私は耳を傾けてるよ」
+			'''
+		SetBonus:
+			'''
+			回復魔法によるライフ回復量が6増加
+			シンフォニックエンパワーメントの持続時間が8秒増加
+			「アーマーアビリティ」キーを押して耳のワームの群れを召喚
+			耳のワームは敵に追尾し、一定量プレイヤーのリソースを補充する
+			プレイヤーのリソースにはライフ、マナ、インスピレーション、エキゾーストが含まれる
+			60秒のクールダウン
+			'''
+	}
+
+	GoreHandVisage: {
+		DisplayName: ゴアビサージュ
+		Tooltip:
+			'''
+			投擲およびラディアントキャスティング速度が10％増加
+			ラディアントダメージが45％増加
+			投擲ダメージが15％増加
+			敵に狙われやすくなる
+			「ヘヘ、ナックルヘッド」
+			'''
+		SetBonus:
+			'''
+			最大テクニックポイントが2増加
+			テインテッドヒーラー武器でのダメージはクリティカルでライフを回復
+			「アーマーアビリティ」キーを押して巨大な手を召喚
+			手は敵の射撃を防ぐがダメージを受ける
+			十分なダメージを受けると手は壊れ、クールダウンに入る
+			30秒のクールダウン
+			'''
+	}
+
+	GoreWitchHat: {
+		DisplayName: ゴアハット
+		Tooltip:
+			'''
+			シンフォニックダメージが10％増加
+			回復およびシンフォニック演奏速度が20％増加
+			インスピレーション再生率が15％増加
+			敵に狙われにくくなる
+			（旧ゴアバイザーデザイン）
+			'''
+		SetBonus:
+			'''
+			回復魔法によるライフ回復量が6増加
+			シンフォニックエンパワーメントの持続時間が8秒増加
+			「アーマーアビリティ」キーを押してオロボロのような小さなヒルを召喚
+			ヒルは敵に追尾し、固定量でプレイヤーのリソースを補充
+			プレイヤーのリソースにはライフ、マナ、インスピレーション、エキゾーストが含まれる
+			60秒のクールダウン
+			'''
+	}
+
+	Gourdnade: {
+		DisplayName: カボチャ爆弾
+		Tooltip:
+			'''
+			自然落下する腐ったカボチャを投げる
+			適度な落下距離があればカボチャがきれいに着地する
+			着地した際にハエを召喚する
+			着地しなかった際はそのまま壊れる
+			「世界一臭いボトルフリップゲーム…」
+			'''
+	}
+
+	LarrytheLarynx: {
+		DisplayName: 喉頭のラリー
+		Tooltip:
+			'''
+			衝撃時に振動する声帯を投げる
+			クリティカルでラリーが衝撃波を放つ
+			敵をチューニングし、10％追加ダメージを受ける
+			'''
+	}
+
+	LeakingInkPipe: {
+		DisplayName: 滴るインクパイプ
+		Tooltip:
+			'''
+			インスピレーションが尽きると、旋律武器がインクを漏らす
+			漏れるインクの流れは持っている武器のステータスに影響される
+			さらに、インクがかかった敵は火ダメージが増加
+			「我々はそれを再構築できる」
+			'''
+	}
+
+	LickguaFranca: {
+		DisplayName: リックグア・フランカ
+		Tooltip:
+			'''
+			演奏中に常に唾液を吐き出す
+			タイミングよくヒットさせることで、吐き出す唾液の量が増える
+			タイミングを外すとボーナスが大幅に減少し、インスピレーションを5消費
+			これらのボーナスは武器の切り替え間でも保持されるが、アクティブでない間は徐々に消滅する
+			武器は自動的に最も近くの敵をターゲット
+			「どんな時もベロベロの言葉が待ってる！」
+			'''
+	}
+
+	ManlessHorseHead: {
+		DisplayName: 人無き馬首
+		Tooltip:
+			'''
+			プレイヤーめがけて叫ぶ
+			「もはや無人ではないが、依然として馬の頭である」
+			'''
+	}
+
+	MushDrum: {
+		DisplayName: キノコドラム
+		Tooltip: 漂う胞子を発射する
+	}
+
+	NerveEndings: {
+		DisplayName: 神経末端
+		Tooltip:
+			'''
+			粘着性のある肉のジャベリンを投げる
+			<left>を押してジャベリンをチャージ
+			チャージして投げると牙を残す
+			牙はジャベリンで打たれた敵に追尾する
+			「敏感な神経をピンポイントで攻撃し、痛さが限界突破」
+			'''
+	}
+
+	OldWoodBaton: {
+		DisplayName: 古びれた木のバトン
+		Tooltip: 「杖としても使える」
+	}
+
+	OldWoodWhistle: {
+		DisplayName: 古びれた木のホイッスル
+		Tooltip: 「トリックオアトリーターを追い払うのに最適！」
+	}
+
+	Olfactor: {
+		DisplayName: オルファクター
+		Tooltip: 近くの敵に鼻水を発射する
+	}
+
+	OmenoftheDamned: {
+		DisplayName: 滅魂の凶兆
+		Tooltip:
+			'''
+			パチンコを引いて放ち、弾を放つ
+			苔むした小石を怒れる亡魂の弾幕に変換する
+			武器を引くほど多くの魂を放つ
+			「その武器で大量絶滅を引き起こせると信じるなら、本当にそうなるのだろう」
+			'''
+	}
+
+	Orriata: {
+		DisplayName: オリエータ
+		Tooltip:
+			'''
+			衝撃時に爆発する高速の目玉を投げる
+			「目には目を！」
+			'''
+	}
+
+	PinkyCross: {
+		DisplayName: ピンキークロス
+		Tooltip:
+			'''
+			敵の防御力を10無視
+			肉でできた十字架を召喚し、敵を打ち倒す
+			打ちのめした敵ごとにライフ自然回復が向上
+			非セグメントボスに対してダメージが増加
+			「つま先をぶつけた痛みをスッキリ解消！」
+			'''
+	}
+
+	PotofPain: {
+		DisplayName: 苦痛の壺
+		Tooltip: 落下中に棘を生やす壺を投げる
+	}
+
+	Pumpkaracas: {
+		DisplayName: カボチャマラカス
+		Tooltip: ハエを解き放つカボチャのマラカスを振る
+	}
+
+	RotGuard: {
+		DisplayName: 腐敗の守護
+		Tooltip:
+			'''
+			味方を回復する小さな跳ねるカボチャを放つ
+			回復された味方は10秒間防御力20を得る
+			「オイシイ！」
+			'''
+	}
+
+	SadWitch: {
+		DisplayName: 絵画「悲しき魔女」
+		Tooltip:
+			'''
+			by Not Una Nancy Owen (n0t_UN_Owen)
+			「絵の左側が破れているように見える…」
+			'''
+	}
+
+	Sceyethe: {
+		DisplayName: 覗きし大鎌
+		Tooltip:
+			'''
+			<left>で方向性のある鎌を振る
+			<right>で鎌を回転させる
+			鎌を振ると短距離の目玉の弾幕を放つ
+			回転させると敵を追尾する遅い目玉を放つ
+			「いやぁ、目を見張る大鎌だ、分かるだろう？」
+			'''
+	}
+
+	Sclerinet: {
+		DisplayName: スクレリネット
+		Tooltip:
+			'''
+			敵に追尾する硝子体の泡を3つ発射
+			サブクラビアントランペットでダメージを与えるとこの武器が強化される
+			強化中、この楽器はインスピレーションを消費しない
+			さらに、硝子体の泡の追尾性能が向上
+			「孤眼の哀調」
+			'''
+	}
+
+	ScreamWhistle: {
+		DisplayName: スクリームホイッスル
+		Tooltip:
+			'''
+			さまざまな大きさの骨を撃ち出す
+			骨でダメージを与えると特別なメーターが溜まる
+			メーターが満タンになると、<right>でデスホイッスルを実行
+			デスホイッスルの発動でこの武器が強化される
+			強化中、骨は積極的な追尾性能を得る
+			'''
+	}
+
+	SecretPainting: {
+		DisplayName: 絵画『君のために作ったんだ！』
+		Tooltip:
+			'''
+			By EduaRRdo
+			For DylanDoe21
+			'''
+	}
+
+	Sneezoo: {
+		DisplayName: くしゃズー
+		Tooltip:
+			'''
+			一度に2つの鼻水の塊を発射
+			「ハッ…ハーッ…ハックション！」
+			'''
+	}
+
+	SongFlower: {
+		DisplayName: ソングフラワー
+		Tooltip:
+			'''
+			敵を撃つソングフラワーに咲く種を発射
+			短時間に複数咲かせるとソングフラワーのダメージが減少
+			「あなたの芝生にゾンビがいる」
+			'''
+	}
+
+	SubclavianTrumpet: {
+		DisplayName: 鎖骨のトランペット
+		Tooltip:
+			'''
+			動脈と静脈の渦巻く絡まりを発射
+			スクレリネットでダメージを与えるとこの武器が強化される
+			強化中、この楽器はインスピレーションを消費しない
+			さらに、絡まりのダメージが50％増加
+			「かなり不気味…」
+			'''
+	}
+
+	TendrilRoseSanguine: {
+		DisplayName: 鮮血の蔓薔薇
+		Tooltip:
+			'''
+			敵を複数回攻撃する棘を発射する
+			棘はプレイヤーに付着したままとなる
+			'''
+	}
+
+	TerrariumParticleAccelerator: {
+		DisplayName: テラリウム粒子加速器
+		Tooltip:
+			'''
+			パチンコを引いて放ち、弾を放つ
+			苔むした小石を超加速粒子に変換し、衝撃時に分裂
+			'''
+	}
+
+	ToothRusher: {
+		DisplayName: トゥースラッシャー
+		Tooltip:
+			'''
+			敵の防御力を10無視
+			ずっしりした肉トマホークを投げつける
+			空中に投げると回転しながら速度を落とす
+			しばらく回転した後、最も近い敵に素早く突進する
+			「歯を磨くんだ、さもないと歯が突撃してくるぞ！」
+			'''
+	}
+
+	VerbalFire: {
+		DisplayName: 口撃の烈火
+		Tooltip:
+			'''
+			敵に「悪口」を連続で発射
+			タイミングよくヒットさせることで、発射速度と射出数が上昇
+			発射速度ボーナスは攻撃速度エンパワーメントと累積
+			タイミングを外すとボーナスが大幅に減少し、インスピレーションを5消費
+			これらのボーナスは武器の切り替え間でも保持されるが、使わないと徐々に消滅する
+			武器は自動的に最も近くの敵をターゲット
+			「おっと、汚ねぇ言葉だな！そんな過激なヤツはNGだぜ！」
+			'''
+	}
+}
+
+Projectiles: {
+	Backbone: {
+		DisplayName: Backbone
+	}
+
+	BigBrother: {
+		DisplayName: Big Brother
+	}
+
+	BloodExplosion: {
+		DisplayName: Blood Explosion
+	}
+
+	BloomRazor: {
+		DisplayName: Bloom Razor
+	}
+
+	CandleCoveHole: {
+		DisplayName: Candle Cove
+	}
+
+	CandleCoveRain: {
+		DisplayName: Candle Cove
+	}
+
+	CandleCoveStorm: {
+		DisplayName: Candle Cove
+	}
+
+	Colonoschord: {
+		DisplayName: Colonoschord
+	}
+
+	CursedNote: {
+		DisplayName: Cursed Note
+	}
+
+	Dandelizer: {
+		DisplayName: Dandelizer
+	}
+
+	DandelizerHeal: {
+		DisplayName: Dandelizer
+	}
+
+	ForbiddenCrucifix: {
+		DisplayName: Forbidden Crucifix
+	}
+
+	HandShield: {
+		DisplayName: Hand Shield
+	}
+
+	GastricAcid: {
+		DisplayName: Gastric Acid
+	}
+
+	GastricAcid2: {
+		DisplayName: Gastric Acid
+	}
+
+	GastricJuices: {
+		DisplayName: Gastric Juices
+	}
+
+	Gourdnade: {
+		DisplayName: Gourdnade
+	}
+
+	GourdnadeFly: {
+		DisplayName: Gourdnade
+	}
+
+	FacundoYPanfilo: {
+		DisplayName: Panfilo & Facundo
+	}
+
+	FiestaMeter: {
+		DisplayName: Fiesta Meter
+	}
+
+	FiestaSuper: {
+		DisplayName: Fiesta Super
+	}
+
+	LarrytheLarynx: {
+		DisplayName: Larry the Larynx
+	}
+
+	LarryVoiceCrack: {
+		DisplayName: Larry's Voice Crack
+	}
+
+	LeakingInk: {
+		DisplayName: Leaking Ink
+	}
+
+	LeechHealing: {
+		DisplayName: Ear Worm Healing
+	}
+
+	LickguaFranca: {
+		DisplayName: Lickgua Franca
+	}
+
+	LickguaSaliva: {
+		DisplayName: Lickgua Saliva
+	}
+
+	ManlessHorseHead: {
+		DisplayName: Manless Horse Head
+	}
+
+	MushDrumSpore: {
+		DisplayName: Mush Drum Spore
+	}
+
+	NerveEndings: {
+		DisplayName: Nerve Endings
+	}
+
+	NerveEndingsFang: {
+		DisplayName: Nerve Endings
+	}
+
+	OldWoodBaton: {
+		DisplayName: Old Wood Baton
+	}
+
+	Olfactor: {
+		DisplayName: Olfactor
+	}
+
+	OlfactorySnot: {
+		DisplayName: Olfactory Discharge
+	}
+
+	OmenoftheDamned: {
+		DisplayName: Omen of the Damned
+	}
+
+	Orriata: {
+		DisplayName: Orriata
+	}
+
+	OrroBoroLeech: {
+		DisplayName: Ear Worm
+	}
+
+	PinkyCross: {
+		DisplayName: Pinky Cross
+	}
+
+	PotofPain: {
+		DisplayName: Pot of Pain
+	}
+
+	Pumpkaracas: {
+		DisplayName: Pumpkaracas
+	}
+
+	PumpkaracasFly: {
+		DisplayName: Pumpkaracas
+	}
+
+	RotGuard: {
+		DisplayName: Rot Guard
+	}
+
+	Sceyethe: {
+		DisplayName: Sceyethe
+	}
+
+	SceyetheDual: {
+		DisplayName: Sceyethe
+	}
+
+	SceyetheEye: {
+		DisplayName: Sceyethe
+	}
+
+	ScreamWhistle: {
+		DisplayName: Scream
+	}
+
+	Sclerinet: {
+		DisplayName: Sclerinet
+	}
+
+	SerSemisonic: {
+		DisplayName: Ser Semisonic
+	}
+
+	Sneezoo: {
+		DisplayName: Sneezoo
+	}
+
+	SongFlowerFlower: {
+		DisplayName: Song Flower
+	}
+
+	SongFlowerPetal: {
+		DisplayName: Song Flower Petal
+	}
+
+	SouloftheDamned: {
+		DisplayName: Soul of the Damned
+	}
+
+	SubclavianTrumpet: {
+		DisplayName: Subclavian Trumpet
+	}
+
+	Tapeworm: {
+		DisplayName: Tapeworm
+	}
+
+	TendrilRoseSanguine: {
+		DisplayName: Tendril Rose Sanguine
+	}
+
+	TerrariumAcceleratedParticle: {
+		DisplayName: Terrarium Accelerated Particle
+	}
+
+	TerrariumParticleAccelerator: {
+		DisplayName: Terrarium Particle Accelerator
+	}
+
+	ToothRusher: {
+		DisplayName: Tooth Rusher
+	}
+
+	VaryingBones: {
+		DisplayName: Varying Bones
+	}
+
+	VerbalFire: {
+		DisplayName: Verbal Fire
+	}
+
+	VerbalFireSwearWords: {
+		DisplayName: Verbal Fire Swear Words
+	}
+}
+
+Buffs: {
+    AcidReflux: {
+        DisplayName: 胃酸逆流
+        Description: ダメージ+10％、アーマー貫通+10
+    }
+
+	GourdGuarded: {
+		DisplayName: カボチャの守護
+		Description: 防御力+20
+	}
+
+	HandShieldCooldown: {
+		DisplayName: ハンドシールドクールダウン
+		Description: しばらく手が捕まえられない…
+	}
+
+	InkLeaking: {
+		DisplayName: インクリーキング
+		Description: 楽器からインクを漏れ出てる！
+	}
+
+	OrroBoroLeechCooldown: {
+		DisplayName: リーチスウォームクールダウン
+		Description: ヒルがいない？
+	}
+
+	Ulcer: {
+		DisplayName: アルサー
+		Description: 燃えるように痛い！
+	}
+
+	SerSemisonic: {
+		DisplayName: サーセミソニック
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonic.Description
+	}
+
+	SerSemisonicCooldown: {
+		DisplayName: サーセミソニッククールダウン
+		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: バランス設定
+
+		thrower: {
+			Label: 投擲武器ダメージ倍率
+			Tooltip:
+				'''
+				投擲武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		bard: {
+			Label: 旋律武器ダメージ倍率
+			Tooltip:
+				'''
+				旋律武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		radiant: {
+			Label: ラディアント武器ダメージ倍率
+			Tooltip:
+				'''
+				攻撃型ヒーラー武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		soulEssence: {
+			Label: ソウルエッセンス倍率
+			Tooltip:
+				'''
+				攻撃型ヒーラー武器に付与されるソウルエッセンス倍率を調整します
+				最大上限は5です
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		healing: {
+			Label: ヒーリング倍率
+			Tooltip:
+				'''
+				ヒーリング魔法の回復倍率を調整します
+				値が0の場合、1ライフのみ回復
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+	}
+}
+
