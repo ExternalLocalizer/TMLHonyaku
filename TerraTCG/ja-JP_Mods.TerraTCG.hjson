@@ -1514,7 +1514,7 @@ Cards: {
 		Name: "{$NPCName.EnchantedSword}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列のモンスターの
+			神の恵み: 中央列にいるモンスターの
 			与ダメージが1増加する。
 			'''
 		Attack.Name: 神罰
@@ -1524,8 +1524,8 @@ Cards: {
 		Name: "{$NPCName.Gastropod}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央列にいるモンスターの
+			攻撃コストが1減少する。
 			'''
 		Attack.Name: カタツムリのレーザー
 	}
@@ -1534,7 +1534,7 @@ Cards: {
 		Name: "{$NPCName.Unicorn}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列のモンスターが
+			神の恵み: 中央列にいるモンスターが
 			{$ModifierNames.ZEALOUS}を得る。
 			'''
 		Attack.Name: 閃光突進
@@ -1544,7 +1544,7 @@ Cards: {
 		Name: "{$NPCName.Pixie}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列のモンスターが
+			神の恵み: 中央列にいるモンスターを
 			毎ターン1HP回復する。
 			'''
 		Attack.Name: 閃光の掌打
@@ -1554,7 +1554,7 @@ Cards: {
 		Name: "{$NPCName.IlluminantBat}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列のモンスターが
+			神の恵み: 中央列にいるモンスターが
 			{$ModifierNames.EVASIVE}を得る。
 			'''
 		Attack.Name: 閃光の急襲
@@ -1564,7 +1564,7 @@ Cards: {
 		Name: "{$NPCName.QueenSlimeBoss}"
 		Modifier.Description:
 			'''
-			聖なる君王: 中央列のモンスターが
+			聖なる女帝: 中央列にいるモンスターが
 			{$ModifierNames.RELENTLESS}を得る。
 			'''
 		Attack.Name: 輝くスライム
