@@ -1534,8 +1534,8 @@ Cards: {
 		Name: "{$NPCName.Unicorn}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央のモンスターが
+			{$ModifierNames.ZEALOUS}を得る。
 			'''
 		Attack.Name: 閃光突進
 	}
@@ -2241,7 +2241,7 @@ Cards: {
 		POISON: 毒
 		RELENTLESS: 非情
 		EVASIVE: 防壁突破
-		ZEALOUS: 狂気
+		ZEALOUS: 活力
 		SPIKED: トゲトゲ
 		LIFESTEAL: 吸収
 		MORBID: 伝染
