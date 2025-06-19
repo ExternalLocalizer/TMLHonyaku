@@ -608,7 +608,8 @@ Cards: {
 			Name: スキル: 胞子の拡散
 			Description:
 				'''
-				1ターンの間、味方全員が{$ModifierNames.LIFESTEAL}を得る。
+				このターンの間、味方全員が
+				{$ModifierNames.LIFESTEAL}を得る。
 				(攻撃後HPを1回復)
 				'''
 		}
@@ -1155,7 +1156,8 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者の攻撃コストが1減少する。
+				装備者は攻撃コストが
+				1減少する。
 				'''
 		}
 	}
@@ -1514,7 +1516,8 @@ Cards: {
 		Name: "{$NPCName.EnchantedSword}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列にいるモンスターの
+			神の恵み: 中央列にいる
+			モンスターの
 			与ダメージが1増加する。
 			'''
 		Attack.Name: 神罰
@@ -1524,7 +1527,8 @@ Cards: {
 		Name: "{$NPCName.Gastropod}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列にいるモンスターの
+			神の恵み: 中央列にいる
+			モンスターの
 			攻撃コストが1減少する。
 			'''
 		Attack.Name: カタツムリのレーザー
@@ -1534,7 +1538,8 @@ Cards: {
 		Name: "{$NPCName.Unicorn}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列にいるモンスターが
+			神の恵み: 中央列にいる
+			モンスターが
 			{$ModifierNames.ZEALOUS}を得る。
 			'''
 		Attack.Name: 閃光突進
@@ -1544,7 +1549,8 @@ Cards: {
 		Name: "{$NPCName.Pixie}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列にいるモンスターを
+			神の恵み: 中央列にいる
+			モンスターを
 			毎ターン1HP回復する。
 			'''
 		Attack.Name: 閃光の掌打
@@ -1554,7 +1560,8 @@ Cards: {
 		Name: "{$NPCName.IlluminantBat}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央列にいるモンスターが
+			神の恵み: 中央列にいる
+			モンスターが
 			{$ModifierNames.EVASIVE}を得る。
 			'''
 		Attack.Name: 閃光の急襲
@@ -1564,7 +1571,8 @@ Cards: {
 		Name: "{$NPCName.QueenSlimeBoss}"
 		Modifier.Description:
 			'''
-			聖なる女帝: 中央列にいるモンスターが
+			聖なる女帝: 中央列にいる
+			モンスターが
 			{$ModifierNames.RELENTLESS}を得る。
 			'''
 		Attack.Name: 輝くスライム
@@ -1697,7 +1705,8 @@ Cards: {
 		Modifier.Description:
 			'''
 			このカードが場に出たとき、
-			{$NPCName.Retinazer}と{$NPCName.Spazmatism}に
+			{$NPCName.Retinazer}と
+			{$NPCName.Spazmatism}に
 			変化する。
 			'''
 	}
