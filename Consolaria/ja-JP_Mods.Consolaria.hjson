@@ -1,11 +1,35 @@
+DownloadRoA: Consolariaチームによる「Rise of Ages」をチェックしよう！
+
+DownloadRoA2: （非表示）
+
+LepusDropCondition: レパスが存在しない場合にドロップ
+
+ValentineRingTooltip1: 特別な誰かに贈ろう！
+
+ValentineRingTooltip2:
+	'''
+	ライフ自然回復をゆっくり促進
+	ジャンプ力を上昇
+	'''
+
+McMoneypantsInvitationUsage: 招待状は宛先に向かって飛んでいった……
+
+Munchies: {
+	McMoneypantsInvitation: {
+		HowToAcquire: 赤い封筒から入手
+	}
+}
+
+McMoneypantsButton1Text: 投資する
+
 Others: {
 	NPCTitle: "{0} {1}"
 }
 
 Biomes: {
 	RabbitInvasionBiome: {
-		DisplayName: Rabbit Invasion
-		TownNPCDialogueName: the Rabbit Invasion Biome
+		DisplayName: ウサギ襲撃
+		TownNPCDialogueName: ウサギ襲撃バイオーム
 	}
 }
 
@@ -141,7 +165,7 @@ Buffs: {
 
 	Worm: {
 		DisplayName: ペットのワーム
-		Description:魚のためではない
+		Description: 魚のためではない
 	}
 
 	OldLady: {
@@ -415,62 +439,62 @@ Items: {
 
 	AlbinoAntlionBanner: {
 		DisplayName: アルビノアントリオンのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Albino Antlion"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Albino Antlion
 	}
 
 	AlbinoChargerBanner: {
 		DisplayName: アルビノチャージャーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Albino Charger"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Albino Charger
 	}
 
 	ArchDemonBanner: {
 		DisplayName: アークデーモンのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Arch Demon"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Arch Demon
 	}
 
 	ArchWyvernBanner: {
 		DisplayName: アークワイバーンのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Arch Wyvern"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Arch Wyvern
 	}
 
 	DisasterBunnyBanner: {
 		DisplayName: わざわいのウサギのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Diseaster Bunny"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Diseaster Bunny
 	}
 
 	DragonHornetBanner: {
 		DisplayName: ドラゴンホーネットのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Hornet"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Dragon Hornet
 	}
 
 	DragonSkullBanner: {
 		DisplayName: ドラゴンスカルのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Skull"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Dragon Skull
 	}
 
 	DragonSnatcherBanner: {
 		DisplayName: ドラゴンスナッチャーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Snatcher"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Dragon Snatcher
 	}
 
 	FleshAxeBanner: {
 		DisplayName: フレッシュアックスのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Axe"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Flesh Axe
 	}
 
 	FleshMummyBanner: {
 		DisplayName: フレッシュマミーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Mummy"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Flesh Mummy
 	}
 
 	FleshSlimeBanner: {
 		DisplayName: フレッシュスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Slime"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Flesh Slime
 	}
 
 	MythicalWyvernBanner: {
 		DisplayName: 神話のワイバーンのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Mythical Wyvern"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mythical Wyvern
 	}
 
 	MythicalWyvern: {
@@ -480,47 +504,47 @@ Items: {
 
 	OrcaBanner: {
 		DisplayName: シャチのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Orca"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Orca
 	}
 
 	ShadowHammerBanner: {
 		DisplayName: シャドウハンマーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Hammer"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Shadow Hammer
 	}
 
 	ShadowMummyBanner: {
 		DisplayName: シャドウマミーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Mummy"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Shadow Mummy
 	}
 
 	ShadowSlimeBanner: {
 		DisplayName: シャドウスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Slime"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Shadow Slime
 	}
 
 	SpectralElementalBanner: {
 		DisplayName: ゴーストエレメンタルのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Elemental"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Spectral Elemental
 	}
 
 	SpectralGastropodBanner: {
 		DisplayName: スペクトロポッドのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectropod"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Spectropod
 	}
 
 	SpectralMummyBanner: {
 		DisplayName: ゴーストマミーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Mummy"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Spectral Mummy
 	}
 
 	VampireMinerBanner: {
 		DisplayName: ヴァンパイアマイナーのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}Vampire Miner"
+		Tooltip: 以下のモンスターに対してボーナスを得る：Vampire Miner
 	}
 
 	LepusBag: {
 		DisplayName: トレジャーバッグ (レパス)
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	LepusMask: {
@@ -529,7 +553,7 @@ Items: {
 	}
 
 	LepusMusicBox: {
-		DisplayName: Music Box (Lepus)
+		DisplayName: オルゴール (レパス)
 		Tooltip: ""
 	}
 
@@ -571,13 +595,13 @@ Items: {
 	}
 
 	EerieOcramMusicBox: {
-		DisplayName: Music Box (Eerie Ocram)
+		DisplayName: オルゴール (Eerie Ocram)
 		Tooltip: ""
 	}
 
 	OcramBag: {
 		DisplayName: トレジャーバッグ（オクラム）
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	OcramMask: {
@@ -586,7 +610,7 @@ Items: {
 	}
 
 	OcramMusicBox: {
-		DisplayName: Music Box (Ocram)
+		DisplayName: オルゴール (オクラム)
 		Tooltip: ""
 	}
 
@@ -621,7 +645,7 @@ Items: {
 
 	TurkorBag: {
 		DisplayName: トレジャーバッグ（おんしらずタルコル）
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	TurkorMask: {
@@ -630,7 +654,7 @@ Items: {
 	}
 
 	TurkorMusicBox: {
-		DisplayName: Music Box (Turkor the Ungrateful)
+		DisplayName: オルゴール (Turkor the Ungrateful)
 		Tooltip: ""
 	}
 
@@ -664,7 +688,7 @@ Items: {
 
 	RedEnvelope: {
 		DisplayName: 赤い封筒
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	SoulOfBlightInABottle: {
@@ -694,7 +718,7 @@ Items: {
 
 	SoulofBlight: {
 		DisplayName: 穢れのソウル
-		Tooltip: "「穢れたマモノの エッセンス」"
+		Tooltip: 「穢れたマモノの エッセンス」
 	}
 
 	WhiteThread: {
@@ -739,7 +763,7 @@ Items: {
 
 	GoldenSeaweed: {
 		DisplayName: 黄金の海藻
-	Tooltip: 黄金の亀を呼び出す
+		Tooltip: 黄金の亀を呼び出す
 	}
 
 	HolidayBauble: {
@@ -859,7 +883,7 @@ Items: {
 
 	FabulousRibbon: {
 		DisplayName: 素敵なリボン
-		Tooltip: "飛行とゆっくりとした落下を可能にする"
+		Tooltip: 飛行とゆっくりとした落下を可能にする
 	}
 
 	FabulousSlippers: {
@@ -869,7 +893,7 @@ Items: {
 
 	FestiveTopHat: {
 		DisplayName: お祝いのトップハット
-		Tooltip: "「お祝いの季節に勝るものはないからね！」"
+		Tooltip: 「お祝いの季節に勝るものはないからね！」
 	}
 
 	GeorgesHat: {
@@ -889,17 +913,17 @@ Items: {
 
 	HornedGodBoots: {
 		DisplayName: ツノガミのブーツ
-		Tooltip: "「いにしえの時代の 遺物」"
+		Tooltip: 「いにしえの時代の 遺物」
 	}
 
 	HornedGodMask: {
 		DisplayName: ツノガミのマスク
-		Tooltip: "「いにしえの時代の 遺物」"
+		Tooltip: 「いにしえの時代の 遺物」
 	}
 
 	HornedGodRobe: {
 		DisplayName: ツノガミのローブ
-		Tooltip: "「いにしえの時代の 遺物」"
+		Tooltip: 「いにしえの時代の 遺物」
 	}
 
 	Lederhosen: {
@@ -1012,13 +1036,13 @@ Items: {
 	}
 
 	RomanCandle: {
-		DisplayName:ローマンキャンドル
-		Tooltip: "「花火だ！」"
+		DisplayName: ローマンキャンドル
+		Tooltip: 「花火だ！」
 	}
 
 	AlbinoMandible: {
 		DisplayName: アルビノアントリオンの下顎
-		Tooltip: "「驚くほど空気抵抗が少ない...」"
+		Tooltip: 「驚くほど空気抵抗が少ない...」
 	}
 
 	GreatDrumstick: {
@@ -1039,7 +1063,7 @@ Items: {
 
 	Tonbogiri: {
 		DisplayName: トンボギリ
-		Tooltip: "「ニッポンに伝わる伝説のヤリ」"
+		Tooltip: 「ニッポンに伝わる伝説のヤリ」
 	}
 
 	DragonBreath: {
@@ -1049,7 +1073,7 @@ Items: {
 
 	EggCannon: {
 		DisplayName: エッグキャノン
-		Tooltip: "「ゴブリンを倒すには卵を壊そう」"
+		Tooltip: 「ゴブリンを倒すには卵を壊そう」
 	}
 
 	Sharanga: {
@@ -1079,51 +1103,6 @@ Items: {
 	TurkeyStuff: {
 		DisplayName: ターキーの杖
 		Tooltip: 変な七面鳥を召喚し、一緒に戦ってくれる
-	}
-
-	GuaPiMao: {
-		DisplayName: Gua Pi Mao
-		Tooltip: ""
-	}
-
-	MythicalDogMask: {
-		DisplayName: 神話の犬のマスク
-		Tooltip: ""
-	}
-
-	MythicalDogPants: {
-		DisplayName: 神話の犬のズボン
-		Tooltip: ""
-	}
-
-	MythicalDogShirt: {
-		DisplayName: 神話の犬のシャツ
-		Tooltip: ""
-	}
-
-	TangSuitPants: {
-		DisplayName: Tang Suit Pants
-		Tooltip: ""
-	}
-
-	TangSuitShirt: {
-		DisplayName: Tang Suit Shirt
-		Tooltip: ""
-	}
-
-	TangYuanHat: {
-		DisplayName: Tang Yuan Hat
-		Tooltip: ""
-	}
-
-	TangYuanPants: {
-		DisplayName: Tang Yuan Pants
-		Tooltip: ""
-	}
-
-	TangYuanShirt: {
-		DisplayName: Tang Yuan Shirt
-		Tooltip: ""
 	}
 
 	McMoneypantsInvitation: {
@@ -1185,11 +1164,36 @@ Items: {
 		Tooltip: ""
 		DisplayName: 紫の糸
 	}
+
+	OtherworldlyMusicBox1: {
+		DisplayName: アザーワールドのオルゴール (レパス)
+		Tooltip: ""
+	}
+
+	OtherworldlyMusicBox2: {
+		DisplayName: アザーワールドのオルゴール (タルコル)
+		Tooltip: ""
+	}
+
+	OtherworldlyMusicBox3: {
+		DisplayName: アザーワールドのオルゴール (オクラム)
+		Tooltip: ""
+	}
+
+	EasterBunnyStaff: {
+		DisplayName: イースターバニースタッフ
+		Tooltip: イースターバニーを召喚する
+	}
+
+	Eggplant: {
+		DisplayName: ナス
+		Tooltip: ""
+	}
 }
 
 NPCs: {
 	AlbinoAntlion: {
-		DisplayName: アルビノアントニオン
+		DisplayName: アルビノアントリオン
 		Bestiary: 稀な突然変異を持つアリオンの仲間は、おそらく甲殻が日光に弱いことを補うためか、さらに攻撃的である。
 	}
 
@@ -1331,7 +1335,6 @@ NPCs: {
 
 	MythicalWyvernBody: {
 		DisplayName: 神話のワイバーン
-
 	}
 
 	MythicalWyvernBody2: {
@@ -1423,17 +1426,6 @@ NPCs: {
 		Quote8: あの希少な土ブロックの価値が上がったら、俺は億万長者だ！
 		Quote9: 俺のアドバイス？そのひどい銃でコインを撃つのはやめておけ。
 		Quote10: ビットコインだって？なぜ俺がコインに負ける必要がある？
-
-		TownNPCMood: {
-			Content: 俺は満足だ。
-			NoHome: 家がないのは嫌だな。
-			FarFromHome: 家から遠すぎるのはちょっとな。
-			LoveSpace: こんなに広いスペースがあるのは最高だ。
-			DislikeCrowded: 混雑しているのは気に入らないな。
-			HateCrowded: この混雑ぶりは本当に嫌だ。
-			LikeNPC_Princess: 俺は{NPCName}が好きだ。
-			Princess_LovesNPC: " {NPCName}、お前はいい奴だ。"
-		}
 	}
 }
 
@@ -1702,10 +1694,6 @@ Projectiles: {
 		DisplayName: Explosion
 	}
 
-	ExampleKiteProjectile: {
-		DisplayName: Example Kite Projectile
-	}
-
 	MythicalWyvernProjectile: {
 		DisplayName: Mythical Wyvern Projectile
 	}
@@ -1713,35 +1701,27 @@ Projectiles: {
 	MythicalWyvernKiteProjectile: {
 		DisplayName: Mythical Wyvern Kite Projectile
 	}
+
+	Eggplant_Root: {
+		DisplayName: Eggplant
+	}
+
+	Eggplant_Shoot: {
+		DisplayName: Eggplant
+	}
+
+	Eggplant_Stem: {
+		DisplayName: Eggplant
+	}
 }
 
 Tiles: {
-	EerieOcramMusicBox: {
-		MapEntry: Music Box
-	}
-
-	LepusMusicBox: {
-		MapEntry: Music Box
-	}
-
-	OcramMusicBox: {
-		MapEntry: Music Box
-	}
-
 	SanctumLantern: {
-		MapEntry: Carriage Lantern
+		MapEntry: キャリッジランタン
 	}
 
 	SoulOfBlightInABottleTile: {
-		MapEntry: Soul of Blight in a Bottle
-	}
-
-	TurkorMusicBox: {
-		MapEntry: Music Box
-	}
-
-	WormTombstoneTile: {
-		MapEntry: Tombstone
+		MapEntry: 瓶詰めの穢れたソウル
 	}
 }
 
@@ -1751,6 +1731,9 @@ Conditions: {
 	SellingDuringValentineDay: Mods.Consolaria.Conditions.SellingDuringValentineDay
 	SellingIfMale: Mods.Consolaria.Conditions.SellingIfMale
 	SellingWhenWoman: Mods.Consolaria.Conditions.SellingWhenWoman
+	SellingDuringWishboneCooldown: Mods.Consolaria.Conditions.SellingDuringWishboneCooldown
+	TurkorDowned: Mods.Consolaria.Conditions.TurkorDowned
+	OcramDowned: Mods.Consolaria.Conditions.OcramDowned
 }
 
 Configs: {
@@ -1760,6 +1743,7 @@ Configs: {
 		Headers: {
 			SeasonalEvents: 季節のイベント
 			Miscellaneous: その他
+			WorldGeneration: ワールド生成
 		}
 
 		easterEnabled: {
@@ -1824,6 +1808,16 @@ Configs: {
 				女性 - ファビュラスセット
 				'''
 		}
+
+		pyramidEnabled: { 
+			Label: ピラミッドの確定生成
+			Tooltip: 有効にすると、ワールドに必ず1つ以上のピラミッドが生成されます
+		}
+
+		pyramidMessageLoot: {
+			Label: 特別なピラミッド戦利品
+			Tooltip: 有効にすると、2番目のピラミッドの宝箱に特別なメッセージが表示されます
+		}
 	}
 }
 
@@ -1859,6 +1853,43 @@ Emotes: {
 
 	LepusEmote: {
 		Command: lepus
+	}
+}
+
+MusicDisplayCompability: {
+	Lepus: {
+		Author: by Synoxsis
+		DisplayName: Lepus
+	}
+
+	Ocram: {
+		Author: by Synoxsis
+		DisplayName: Ocram
+	}
+
+	EerieOcram: {
+		Author: by Fyerow & Croul
+		DisplayName: Eerie Ocram
+	}
+
+	Turkor: {
+		Author: by Synoxsis
+		DisplayName: Turkor the Ungrateful
+	}
+
+	AltLepus: {
+		Author: by Jteoh
+		DisplayName: Blight of Spring (Otherworldly Lepus)
+	}
+
+	AltOcram: {
+		Author: by Jteoh
+		DisplayName: Mirror Image (Otherworldly Ocram)
+	}
+
+	AltTurkor: {
+		Author: by Jteoh
+		DisplayName: Ungracious Givings (Otherworldly Turkor)
 	}
 }
 
