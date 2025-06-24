@@ -68,6 +68,10 @@ MusicDisplay: {
 
 Items: {
 
+	VictoryDayBoxItem: {
+	DisplayName: オルゴール（勝利の日）
+	Tooltip: ""
+	}
 	UndergroundTownBoxItem: {
 		DisplayName: オルゴール（地下の町）
 		Tooltip: ""
@@ -146,6 +150,11 @@ Items: {
 
 Configs: {
     MusicConfig: {
+		
+		VictoryDay: {
+			Label: 勝利の日
+			Tooltip: 勝利の日（「Overworld Alt Alt」）のbgmを置き換えます
+		}
 
 		TownUnderground: {
 			Label: 地下の町

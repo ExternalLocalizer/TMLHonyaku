@@ -135,6 +135,14 @@ SetBonuses: {
 }
 
 Projectiles: {
+	BigCannonBomb: {
+		DisplayName: Bomb Cannon Shot
+	}
+
+	CannonBomb: {
+		DisplayName: Bomb Cannon Shot
+	}
+	
 	HydrothermalVentPlume: {
 		DisplayName: Smoke Plume
 	}
@@ -364,7 +372,7 @@ NPCs: {
 
     DunceCrab: {
         DisplayName: ダンスクラブ
-        Entry: ""
+        Entry: "冒険中の事故の主な原因の一つであるこの洞窟棲の軟体動物は、しばしば驚きを与えます。洞窟に多く生える苔や地衣類を食します。"
     }
 
     Wheezer: {
@@ -716,6 +724,21 @@ NPCs: {
 }
 
 MusicDisplay: {
+	DuststormOtherworld: {
+		Author: By jakedastardly
+		DisplayName: Otherworldly Dustorm
+	}
+
+	SavannaOtherworldNight: {
+		Author: By soundbin
+		DisplayName: Otherworldly Savanna Night
+	}
+
+	SavannaOtherworld: {
+		Author: By Moonbird
+		DisplayName: Otherworldly Savanna Day
+	}
+
 	DeepOcean: {
 		Author: By Salvati
 		DisplayName: Deep Ocean
@@ -737,6 +760,7 @@ MusicDisplay: {
 	}
 
 	BySalvati: By Salvati
+	Moonbird: Moonbird
 	Sbubby: Sbubby
 	Salvati: Salvati
 	ModName: Spirit Reforged
@@ -1082,6 +1106,21 @@ Items: {
         DisplayName: ゼニスの壺
         Tooltip: ""
     }
+
+	OtherworldSavannaMusicBoxItem: {
+		DisplayName: アザーワールドのオルゴール(サバンナ　日中)
+		Tooltip: ""
+	}
+
+	OtherworldSavannaNightMusicBoxItem: {
+		DisplayName: アザーワールドのオルゴール (サバンナ　夜中)
+		Tooltip: ""
+	}
+
+	SavannaSandstormOtherworldMusicBoxItem: {
+		DisplayName: アザーワールドのオルゴール (砂嵐)
+		Tooltip: ""
+	}
 
     ZenithPotsPaleItem: {
         DisplayName: "{$Mods.SpiritReforged.Items.ZenithPotsItem.DisplayName}"
@@ -2754,7 +2793,7 @@ Buffs: {
         DisplayName: 凍結
     }
 
-    TumblerPetBuff: {
+    TumblerPet_Buff: {
         Description: 友好的なタンブルウィードがあなたを追いかける
         DisplayName: 気まぐれタンブラー
     }
@@ -2804,7 +2843,7 @@ Buffs: {
         DisplayName: ゼファージャンプ
     }
 
-    JellyfishBuff: {
+    JellyfishPet_Buff: {
         Description: この元気なクラゲはあなたについて回るのが大好き！
         DisplayName: 友好的なクラゲ
     }

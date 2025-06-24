@@ -1,0 +1,107 @@
+Tiles: {
+	CalamityStorageUnit.MapEntry: ストレージユニット
+
+	WorldChest: {
+		Locked: ロックされたワールドチェスト
+		MapEntry1: ワールドチェスト
+		MapEntry0: ワールドチェスト
+	}
+}
+
+Items: {
+	AuricStorageUnitItem: {
+		DisplayName: オーリックストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			880アイテムを保存可能
+			'''
+	}
+
+	CosmiliteStorageUnitItem: {
+		DisplayName: コズミライトストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			800アイテムを保存可能
+			'''
+	}
+
+	ShadowspecStorageUnitItem: {
+		DisplayName: シャドウスペックストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			1040アイテムを保存可能
+			'''
+	}
+
+	UelibloomStorageUnitItem: {
+		DisplayName: ウエリブルームストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			720アイテムを保存可能
+			'''
+	}
+
+	UpgradeAuric: {
+		DisplayName: オーリックストレージアップデート
+		Tooltip:
+			'''
+			ストレージユニットの容量を880にアップグレードする
+			右クリック コズミライトストレージユニットに使用
+			'''
+	}
+
+	UpgradeCosmilite: {
+		DisplayName: コズミライトストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を800にアップグレードする
+			右クリック ウエリブルームストレージユニットに使用
+			'''
+	}
+
+	UpgradeShadowspec: {
+		DisplayName: シャドウスペックストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を1040にアップグレードする
+			右クリック エクソストレージユニットに使用
+			'''
+	}
+
+	UpgradeUelibloom: {
+		DisplayName: ウエリブルームストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を720にアップグレードする
+			右クリック テラストレージユニットに使用
+			'''
+	}
+
+	ExoStorageUnitItem: {
+		DisplayName: エクソストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			960アイテムを保存可能
+			'''
+	}
+
+	WorldChest: {
+		DisplayName: ワールドチェスト
+		Tooltip: ""
+	}
+
+	UpgradeExo: {
+		DisplayName: エクソストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を960にアップグレードする
+			右クリック オーリックストレージユニットに使用
+			'''
+	}
+}
+

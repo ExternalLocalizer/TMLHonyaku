@@ -36,19 +36,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13' 
+
       - name: Check Directory Structure
-        run: |
-          line_number=1
-          error_found=0
+        run: python .github/resources/check_directory_script.py
 
-          while read -r internal_name; do
-              line_number=$((line_number + 1))
-              if [ ! -d "$internal_name" ]; then
-                  echo "::error file=TranslatedMods.csv,line=$line_number::Directory $internal_name does not exist"
-                  error_found=1
-              fi
-          done < <(tail -n +2 TranslatedMods.csv | cut -d',' -f3)
-
-          if [ $error_found -eq 1 ]; then
-            exit 1
-          fi
