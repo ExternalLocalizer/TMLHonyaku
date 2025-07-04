@@ -1,0 +1,278 @@
+Items: {
+    BaseBag: {
+        TooltipEnabled:
+            '''
+            内容:
+            {0}
+            [c/DC143C:{1}がなければ開けられません！]
+            右クリックで開く
+            '''
+        TooltipDisabled: "[c/DC143C:{0}が有効になっていないため、このバッグは機能しません！]"
+        DisplayName: "{0}バッグ"
+    }
+
+	CalamityBag: {
+		DisplayName: Calamity バッグ
+		Tooltip: ""
+	}
+
+	ClickerBag: {
+		DisplayName: Clicker バッグ
+		Tooltip: ""
+	}
+
+	DragonBallBag: {
+		DisplayName: DragonBall バッグ
+		Tooltip: ""
+	}
+
+	FargoMutantBag: {
+		DisplayName: Fargo's Mutant バッグ
+		Tooltip: ""
+	}
+
+	LuiafkBag: {
+		DisplayName: Luiafk バッグ
+		Tooltip: ""
+	}
+
+	MagicStorageBag: {
+		DisplayName: Magic Storage バッグ
+		Tooltip: ""
+	}
+
+	OrchidBag: {
+		DisplayName: Orchid バッグ
+		Tooltip: ""
+	}
+
+	QOLBag: {
+		DisplayName: QOLバッグ
+		Tooltip: ""
+	}
+
+	StarsAboveBag: {
+		DisplayName: StarsAbove バッグ
+		Tooltip: ""
+	}
+
+	ThoriumBag: {
+		DisplayName: Thorium バッグ
+		Tooltip: ""
+	}
+}
+
+Configuration: {
+    Header: 初期装備
+    MagicStorage:
+        '''
+        Magic Storageが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・ストレージハート
+        ・ストレージクラフティングインターフェース
+        ・ストレージ設定インターフェース
+        ・32個のストレージコネクター
+        ・8個のストレージユニット
+        '''
+    Calamity:
+        '''
+        Calamityが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・砂漠のメダリオン
+        ・腐食の涙
+        ・甲殻の種子芽
+        ・ローバードライブ
+        '''
+    FargoMutant:
+        '''
+        Fargo's Mutant Modが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・8個のどこでもハウス
+        ・4個の小さな架橋装置
+        ・即席ハーフヘルベーター
+        ・戦いの角笛
+        '''
+    Luiafk:
+        '''
+        Luiafk Rebornが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・改良型ダミー
+        ・自動コイン回収機
+        ・無限たいまつ
+        ・牢屋建設機
+        ・帰還の力
+        '''
+    QOL:
+        '''
+        Quality of Lifeが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・バナーボックス
+        ・ポーションカバン
+        ・空間の杖
+        '''
+    Thorium:
+        '''
+        Thoriumが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・トリウムの盾
+        ・クラゲ共鳴装置
+        ・グランドフレアガン
+        ・ストームフレア
+        '''
+    Orchid:
+        '''
+        Orchidが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+		a Potion Bag, 
+		a Salvaged Toolbox, 
+		a Blooming Bud
+        '''
+    Clicker:
+        '''
+        Clicker Classが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・マウスパッド
+        ・金のクリッカー
+        ・魔法のLED
+        ・ボタンマッシャー
+        '''
+    DBT:
+        '''
+        Dragon Ball Terrariaが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+		an Amber Necklace, 
+		Worn Gloves, 
+		a Z-Table
+        '''
+    StarsAbove:
+        '''
+        The Stars Aboveが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+        ・エイリアンコーラル
+        ・変則バイト
+        ・パーフェクト・ジェネリック・アクセサリー
+        ・アパリスティック
+        '''
+    PostML: ムーンロードを撃破後 - 未完成 -
+}
+
+Configs: {
+    BagsConfig: {
+        DisplayName: バッグ設定
+
+		magicStorageGear: {
+			Label: "[c/42f587:Magic Storage]"
+			Tooltip:
+				'''
+				Magic Storageが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・ストレージハート
+				・ストレージクラフティングインターフェース
+				・ストレージ設定インターフェース
+				・32個のストレージコネクター
+				・8個のストレージユニット
+				'''
+		}
+
+		calamityGear: {
+			Label: "[c/f0293b:Calamity]"
+			Tooltip:
+				'''
+				Calamityが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・砂漠のメダリオン
+				・腐食の涙
+				・甲殻の種子芽
+				・ローバードライブ	
+				'''
+		}
+
+		mutantGear: {
+			Label: "[c/f0293b:Fargo's Mutant Mod]"
+			Tooltip:
+				'''
+				Fargo's Mutant Modが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・8個のどこでもハウス
+				・4個の小さな架橋装置
+				・即席ハーフヘルベーター
+				・戦いの角笛
+				'''
+		}
+
+		luiafkGear: {
+			Label: "[c/29d5f0:Luiafk Reborn]"
+			Tooltip:
+				'''
+				Luiafk Rebornが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・改良型ダミー
+				・自動コイン回収機
+				・無限たいまつ
+				・牢屋建設機
+				・帰還の力
+				'''
+		}
+
+		qolGear: {
+			Label: "[c/f0eb29:Quality of Life]"
+			Tooltip:
+				'''
+				Quality of Lifeが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・バナーボックス
+				・ポーションカバン
+				・空間の杖
+				'''
+		}
+
+		thoriumGear: {
+			Label: "[c/328ba8:Thorium]"
+			Tooltip:
+				'''
+				Thoriumが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・トリウムの盾
+				・クラゲ共鳴装置
+				・グランドフレアガン
+				・ストームフレア
+				'''
+		}
+
+		orchidGear: {
+			Label: "[c/35fc03:Orchid]"
+			Tooltip:
+				'''
+				Orchidが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				a Potion Bag, 
+				a Salvaged Toolbox, 
+				a Blooming Bud
+				'''
+		}
+
+		clickerGear: {
+			Label: "[c/747880:Clicker]"
+			Tooltip:
+				'''
+				Clicker Classが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・マウスパッド
+				・金のクリッカー
+				・魔法のLED
+				・ボタンマッシャー
+				'''
+		}
+
+		dbtGear: {
+			Label: "[c/6e34eb:Dragon Ball Terraria]"
+			Tooltip:
+				'''
+				Dragon Ball Terrariaが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				an Amber Necklace, 
+				Worn Gloves, 
+				a Z-Table
+				'''
+		}
+
+		saGear: {
+			Label: "[c/242285:The Stars Above]"
+			Tooltip:
+				'''
+				The Stars Aboveが有効な場合、プレイヤーは以下アイテムを含むバッグを所持して開始します：
+				・エイリアンコーラル
+				・変則バイト
+				・パーフェクト・ジェネリック・アクセサリー
+				・アパリスティック
+				'''
+		}
+
+		dev: {
+			Label: 開発ツール
+			Tooltip: 現在のところ、アイテムIDの表示する以外の機能はありません。
+		}
+	}
+}
+

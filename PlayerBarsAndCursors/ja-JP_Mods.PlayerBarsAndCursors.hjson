@@ -1,0 +1,155 @@
+Configs: {
+    PlayerBarsAndCursors: {
+        CursorSettings: {
+            Tooltip: ""
+            Label: カーソル設定
+        }
+
+		WingTimeBar: {
+			Tooltip: ""
+			Label: バー【飛行時間】
+		}
+
+		ManaBar: {
+			Tooltip: ""
+			Label: バー【マナ】
+		}
+
+		HealthBar: {
+			Tooltip: ""
+			Label: バー【ライフ】
+		}
+
+		DisplayName: プレイヤーバーとカーソル
+	}
+
+	CursorSettings: {
+		MouseGlowColor: {
+			Tooltip: ""
+		}
+
+		MousePointerColor: {
+			Tooltip: ""
+		}
+
+		BossGlowColor: {
+			Tooltip: ""
+		}
+
+		BossPointerColor: {
+			Tooltip: ""
+		}
+
+		GlowScaleMultiplier: {
+			Tooltip: ""
+		}
+
+		CloseDistanceThreshold: {
+			Tooltip: ""
+		}
+
+		PointerRadius: {
+			Tooltip: ""
+		}
+
+		Scale: {
+			Tooltip: ""
+		}
+
+		MaxBossPointers: {
+			Tooltip: ""
+		}
+
+		ShowBossIcons: {
+			Tooltip: ""
+		}
+
+		OnlyShowInBossFight: {
+			Tooltip: ""
+		}
+
+		AutoHideOnMapStyle: {
+			Tooltip: ""
+		}
+
+		ShowMousePointer: {
+			Tooltip: ""
+		}
+
+		ShowBossPointer: {
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+	}
+
+	BarSettings: {
+		DebugInfo: {
+			Tooltip: ""
+			Label: デバッグ情報
+		}
+
+		Offset: {
+			Tooltip: ""
+		}
+
+		Scale: {
+			Tooltip: ""
+		}
+
+		OnlyShowInBossFight: {
+			Tooltip: ""
+		}
+
+		AutoHideWhenFull: {
+			Tooltip: ""
+		}
+
+		Show: {
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+	}
+}
+
+Config: {
+    Headers: {
+        CursorHeader: カーソル設定ヘッダー
+        BarHeader: バー設定ヘッダー
+    }
+
+	CursorSettings: {
+		MouseGlowColor: マウス発光色
+		MousePointerColor: マウスポインタ色
+		BossGlowColor: ボス発光色
+		BossPointerColor: ボスポインタ色
+		GlowScaleMultiplier: 発光倍率
+		CloseDistanceThreshold: 近距離閾値
+		PointerRadius: ポインタ半径
+		Scale: サイズ
+		MaxBossPointers: 最大ボスポインタ数
+		ShowBossIcons: ボスアイコン表示
+		OnlyShowInBossFight: ボス戦時のみ表示
+		AutoHideOnMapStyle: マップスタイル時に自動非表示
+		ShowMousePointer: マウスポインタ表示
+		ShowBossPointer: ボスポインタ表示
+	}
+
+	BarSettings: {
+		Offset: オフセット
+		Scale: サイズ
+		OnlyShowInBossFight: ボス戦時のみ表示
+		AutoHideWhenFull: 満タン時に自動非表示
+		Show: 常に表示
+	}
+}
+
+Keybinds: {
+    "Toggle Player Bars": {
+        DisplayName: プレイヤーバーの切り替え
+    }
+}
+
+
+

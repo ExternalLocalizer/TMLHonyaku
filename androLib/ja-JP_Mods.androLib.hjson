@@ -1,0 +1,185 @@
+StorageText: {
+    ToggleVacuum: バキュームの切り替え
+    ToggleMagicStorageDeposit: Magic Storage 預け入れの切り替え
+    Switch: 切り替え
+    Sort: 並べ替え
+    Search: 検索
+    QuickStack: クイックスタック
+    LootAll: すべて取得
+    DepositAllMagicStorage: すべて Magic Storage に預ける
+    DepositAll: すべて預ける
+    CloseBag: バッグを閉じる
+    ClearTrash: ゴミ箱をクリア
+}
+
+MagicStorageButtonsText: {
+    DepositAllFromVacuumBags: バキュームバッグからすべて預ける
+}
+
+GameModeNameIDs: {
+    Normal: ノーマル
+    Master: マスター
+    Journey: ジャーニー
+    Expert: エキスパート
+}
+
+Configs: {
+    StorageSizePair: {
+        StorageSize: {
+            Tooltip: ストレージに格納できるアイテムの数
+            Label: ストレージサイズ
+        }
+
+        ModFullName: {
+            Tooltip: これを編集するとサイズが機能しなくなります。これはリストがどのストレージに属するかを決定するキーです
+            Label: MODのフルネーム
+        }
+
+        Tooltip: ストレージサイズを変更できます
+    }
+
+    ItemList: {
+        ModFullName: {
+            Tooltip: これを編集するとリストが機能しなくなります。これはリストがどのストレージに属するかを決定するキーです
+            Label: MODのフルネーム
+        }
+
+        ItemDefinitions: {
+            Tooltip: リスト内のアイテム。これはホワイト/ブラックリストを上書きします
+            Label: アイテム定義
+        }
+
+        Tooltip: バッグのホワイトリスト/ブラックリストを編集できます
+    }
+
+    AndroClientConfig: {
+        WhiteLists: {
+            Tooltip:
+                '''
+                アイテムはゲーム内でマウスでストレージバッグに手動でクリックすることでホワイトリストに登録できます
+                MODのフルネームを変更するとそのリストが機能しなくなり、新しい空のリストが作成されます
+                '''
+            Label: ホワイトリスト（ゲーム内で設定してください！）
+        }
+
+        UseAlternateRarityColors: {
+            Tooltip: デフォルトの色は色覚異常に対応しています。代替テクスチャにはわずかな違いがありますが、投票で残すことが決まりました
+            Label: 代替レアリティカラーとテクスチャを使用
+        }
+
+        UITransparency: {
+            Tooltip: androLibに依存するすべてのUIの透明度。0は完全に透明、255は完全に不透明です
+            Label: UIの透明度
+        }
+
+        StorageSizes: {
+            Tooltip:
+                '''
+                ストレージサイズを変更できます
+                サイズを変更するには、手動でMODをリロードする必要があります
+                （ストレージのMOD作成者がストレージを設定可能に選択した場合にのみ、
+                　このリストに表示されます。「+」ボタンを使用しても何も起こりません。）
+                '''
+            Label: ストレージサイズ
+        }
+
+        StopProvidingItemsInBagsForCrafting: {
+            Tooltip: バッグ内のアイテムは通常、インベントリにあるかのようにクラフトに使用できます。この設定を有効にすると、クラフトに利用できなくなります
+            Label: バッグ内のアイテムをクラフトに使用させない
+        }
+
+        ReOpenBagSwitcherAutomatically: {
+            Tooltip:
+                '''
+                バッグスイッチャーでバッグを切り替えた後、バッグを閉じて再度開くと、元のバッグ（バッグスイッチャーが閉じた状態）が開き、以前に切り替えたバッグが開きません
+                '''
+            Label: バッグスイッチャーを自動的に再開
+        }
+
+        RemoveItemsWhenBlacklisted: {
+            Tooltip:
+                '''
+                有効の場合、ブラックリストに登録されたアイテムはストレージから削除されます
+                アイテムは、シフトキーを押しながらストレージ内で右クリックすることでブラックリストに登録できます
+                '''
+            Label: ブラックリスト登録時にアイテムを削除
+        }
+
+        PrintLocalizationLists: {
+            Tooltip:
+                '''
+                リストは、ワールドに入るとclient.logに記録されます
+                client.logのデフォルトの場所はC:\Steam\SteamApps\common\tModLoader\tModLoader-Logsです
+                '''
+            Label: すべての翻訳リストをログに記録
+        }
+
+        PrintItemDrops: {
+            Tooltip:
+                '''
+                リストは、ワールドに入るとclient.logに記録されます
+                client.logのデフォルトの場所はC:\Steam\SteamApps\common\tModLoader\tModLoader-Logsです
+                '''
+            Label: アイテムドロップソースのリストをログに記録
+        }
+
+        OnlyShowErrorMessagesInChatOnce: {
+            Tooltip:
+                '''
+                メッセージはチャットに表示され続けますが、ゲームセッション中に1回のみ表示されます
+                （エラーメッセージが以前のメッセージと全く同じ場合にのみ表示が防止されます）
+                '''
+            Label: エラーメッセージをチャットで1回のみ表示
+        }
+
+        LogAllPlayerWhiteAndBlackLists: {
+            Tooltip:
+                '''
+                有効の場合、すべてのプレイヤーのホワイトリストとブラックリストがclient.logに記録されます
+                ホワイト/ブラックリストに変更を加え、それが全員の標準的な変更になるべきだと思う場合、ログを記録してclient.logを私に送ってください -andro951
+                '''
+            Label: すべてのプレイヤーのホワイトリストとブラックリストをログに記録
+        }
+
+        DisableAllErrorMessagesInChat: {
+            Tooltip:
+                '''
+                チャットに表示される「andro951(Weapon Enchantments)にこれを報告してください」というメッセージを防ぎます
+                エラーが発生した際は、その時何をしていて、どのようなメッセージが表示されたかをandro951(Weapon Enchantments)まで報告してください
+                '''
+            Label: チャット内のすべてのエラーメッセージを無効化
+        }
+
+        ClosingInventoryClosesBags: {
+            Tooltip: 有効の場合、プレイヤーのインベントリを閉じるとすべてのバッグが閉じます
+            Label: インベントリを閉じるとバッグも閉じる
+        }
+
+        BlackLists: {
+            Tooltip:
+                '''
+                アイテムは、シフトキーを押しながらストレージバッグ内のアイテムを右クリックすることでブラックリストに登録できます
+                MODのフルネームを変更するとそのリストが機能しなくなり、新しい空のリストが作成されます
+                '''
+            Label: ブラックリスト（ゲーム内で設定してください！）
+        }
+
+        StorageSettings: ストレージ設定
+        LoggingInformation: ログ情報
+        ItemLists: 許可リスト（ゲーム内で設定してください！）
+        DisplaySettings: 表示設定
+        DisplayName: クライアント設定
+    }
+}
+
+AndroLibGameMessages: {
+    UnableDetermineNPCDropsBossBag: このボスバッグをドロップするNPCを特定できません：
+    ReportErrorToAndro: これをandro951(Weapon Enchantments)に報告してください。その際、何をしていたかの説明も一緒にお願いします
+    RemovedFromWhitelist: "{0} が {1} のホワイトリストから削除されました"
+    MainUpdateCount: Main.GameUpdateCount: {0}
+    FailedDetermineProgression: Boss Checklist データからウォールオブフレッシュとプランテラの進行状況を特定できませんでした
+    BossChecklistNotEnabled: Boss Checklist MODが有効になっていません。Weapon Enchantmentsは、Boss Checklist を使用して、どのボスがMODボスからパワーブースターをドロップするかを決定します。Boss Checklist が有効でないため、すべてのMODボスは通常のパワーブースターをドロップします
+    AddedToWhitelist: "{0} が {1} のホワイトリストに追加されました。アイテムは、シフトキーを押しながら {1} 内で右クリックすることでブラックリストに登録できます"
+    AddedToBlacklist: "{0} が {1} のブラックリストに追加されました。アイテムは、マウスで {1} に配置することでホワイトリストに登録できます"
+}
+

@@ -1,0 +1,95 @@
+Configs: {
+    ParticleLibraryConfig: {
+        DebugUI: {
+            Label: デバッグUI
+            Tooltip:
+                '''
+                [c/ff0000:Currently Not Functional]
+                デバッグUIを有効にします
+                エミッターのデバッグ機能は不完全です
+                '''
+        }
+
+		Headers: {
+			Debug: デバッグ
+			Particles: パーティクル
+		}
+
+		MaxParticles: {
+			Label: 最大パーティクル数
+			Tooltip:
+				'''
+				存在可能な通常パーティクルの最大数を設定します
+				注: パフォーマンステストはデフォルト値15,000で実施されています
+				通常パーティクルはクアッドパーティクルより低効率ですが、クオリティが高いです
+				デフォルト値を超える値では、良好なパフォーマンスを保証出来ません
+				値が0の場合パーティクルが無効化されます
+				'''
+		}
+
+		MaxQuadParticles: {
+			Label: 最大クアッドパーティクル数
+			Tooltip:
+				'''
+				[c/ff0000:Currently Not Functional]
+				存在可能なクアッドパーティクルの最大数を設定します
+				注: パフォーマンステストはデフォルト値50,000で実施されています
+				クアッドパーティクルは通常パーティクルより効率的ですが、クオリティは低めです
+				デフォルト値を超える値では、良好なパフォーマンスを保証出来ません
+				値が0の場合パーティクルが無効化されます
+				'''
+		}
+
+		MaxPointParticles: {
+			Label: 最大ポイントパーティクル数
+			Tooltip:
+				'''
+				[c/ff0000:Currently Not Functional]
+				存在可能なポイントパーティクルの最大数を設定します
+				注: パフォーマンステストはデフォルト値100,000で実施されています
+				ポイントパーティクルは通常パーティクル、クアッドパーティクルより効率的ですが、クオリティは低めです
+				デフォルト値を超える値では、良好なパフォーマンスを保証出来ません
+				値が0の場合パーティクルが無効化されます
+				'''
+		}
+
+		DisplayName: Particle Library 設定
+
+		ParticleLimit: {
+			Label: パーティクル制限
+			Tooltip: ""
+		}
+	}
+
+	ParticleLimit: {
+		Tooltip: パーティクルの最大量を設定します
+
+		None: {
+			Label: なし - パーティクルなし
+		}
+
+		Low: {
+			Label: 低 - 設定パーティクルの1/8の量
+		}
+
+		Medium: {
+			Label: 中 - 設定パーティクルの1/4
+		}
+
+		High: {
+			Label: 高 - 設定パーティクルの1/2
+		}
+
+		Unlimited: {
+			Label: 無制限 - 任意の量のパーティクル
+		}
+	}
+}
+
+Items: {
+    Devtool: {
+        DisplayName: 開発者用ツール
+        Tooltip: ""
+    }
+}
+

@@ -1,0 +1,184 @@
+Items: {
+    ChallengeBrick: {
+        DisplayName: 強化レンガ
+        Tooltip: ""
+    }
+
+	ChallengeBrickWall: {
+		DisplayName: 強化レンガの壁
+		Tooltip: ""
+	}
+
+	EnergyCannon: {
+		DisplayName: エネルギーキャノン
+		Tooltip: 強力で直進するエネルギー弾を発射する
+	}
+
+	CopperLight: {
+		DisplayName: 銅のライト
+		Tooltip: ""
+	}
+
+	CopperPipe: {
+		DisplayName: 銅のパイプ
+		Tooltip: ""
+	}
+
+	CopperPlatform: {
+		DisplayName: 銅の足場
+		Tooltip: ""
+	}
+
+	SpikeTrap: {
+		DisplayName: スパイク発射装置
+		Tooltip: 何でも貫通する重いスパイクを出す
+	}
+
+	FlameTrap: {
+		DisplayName: 炎エンジン
+		Tooltip: 強力で灼熱の火炎を放つ
+	}
+
+	ModuleKillBoost: {
+		DisplayName: 殺戮モジュール
+		Tooltip:
+			'''
+			敵を倒した後、1秒間必ずクリティカルとなる
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModuleHealing: {
+		DisplayName: 活力モジュール
+		Tooltip:
+			'''
+			毎秒最大体力の5%まで、クリティカルダメージの10%分回復
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModuleCritDamage: {
+		DisplayName: 精密射撃モジュール
+		Tooltip:
+			'''
+			クリティカルダメージを25%上乗せする
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModuleHurtBoost: {
+		DisplayName: 復讐モジュール
+		Tooltip:
+			'''
+			ダメージを受けた後、1秒間必ずクリティカルとなる
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModuleCloseRange: {
+		DisplayName: 力モジュール
+		Tooltip:
+			'''
+			近距離でダメージが+15%増加、32ブロック離れると-15%に減少する
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModuleMobility: {
+		DisplayName: 敏捷モジュール
+		Tooltip:
+			'''
+			ジャンプの高さと翼/ロケットの時間を+15%増加
+			拡張モジュールと合わせて使用する
+			'''
+	}
+
+	ModularEnhancer: {
+		DisplayName: 拡張モジュール
+		Tooltip: 単体では何もしませんが、ユニークなモジュールで強化することで強力な効果を発揮する
+	}
+
+	GatewayIcon: {
+		DisplayName: ゲートウェイアイコン
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	EnergyOrb: {
+		DisplayName: Energy Orb
+	}
+
+	Spike: {
+		DisplayName: Spike
+	}
+
+	FlameJet: {
+		DisplayName: Flame Jet
+	}
+
+	FlamePillar: {
+		DisplayName: Flame Pillar
+	}
+
+	Rift: {
+		DisplayName: Rift
+	}
+}
+
+Tiles: {
+	ChallengeGateway: {
+		MapEntry: Challenge Gateway
+		AccessGranted: Access granted
+		AccessDenied: Access denied
+		DaysLeftSingle: day until reset
+		DaysLeftMultiple: days until reset
+		MultiplayerMessage: Sorry, but the challenge vaults currently do not support multiplayer. Launch your world in singleplayer to enter this structure.
+		CombatTrial: battle incomplete
+	}
+
+	EnergyCannon: {
+		MapEntry: Energy Cannon
+	}
+
+	CopperLight: {
+		MapEntry: Light
+	}
+
+	SpikeTrap: {
+		MapEntry: Spike Trap
+	}
+
+	ChallengeSpawner: {
+		MapEntry: Challenge Spawner
+	}
+
+	FlameTrap: {
+		MapEntry: Flame Trap
+	}
+
+	CopperLightFaulty: {
+		MapEntry: Copper Light Faulty
+	}
+}
+
+Biomes: {
+    ChallengeRoom: {
+        DisplayName: チャレンジルーム
+        TownNPCDialogueName: チャレンジルーム
+    }
+}
+
+Configs: {
+    ChallengeConfig: {
+        Frequency: {
+            Tooltip: 新しいワールドで生成されるチャレンジドアの数を調整します
+            Label: "[i:ChallengeRooms/ChallengeBrick] チャレンジルームの生成頻度"
+        }
+
+   		 DisplayName: 設定
+	}
+}
+
+
+

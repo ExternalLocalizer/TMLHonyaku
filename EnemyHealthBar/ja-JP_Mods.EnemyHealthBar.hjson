@@ -1,0 +1,55 @@
+Configs: {
+    DepletionDirection: {
+        Tooltip: ""
+
+        RightToLeft: {
+            Label: 右から左へ
+        }
+
+        Symmetrical: {
+            Label: 左右対称から
+        }
+    }
+
+    HealthBarStyles: {
+        Fancy: {
+            Label: ファンシー
+        }
+
+        Default: {
+            Label: バニラ
+        }
+
+        Tooltip: ""
+    }
+
+    HealthBarConfig: {
+        HealthInfo: {
+            Tooltip: 敵の残りライフを『%形式』で体力バーの上に表示します
+            Label: 体力表示
+        }
+
+        ColorB: {
+            Tooltip: 背景の波の色を定義します
+            Label: カラーB
+        }
+
+        ColorA: {
+            Tooltip: 主要な波の色を定義します
+            Label: カラーA
+        }
+
+        DepletionDirection: {
+            Tooltip: 与えたダメージがどのように視覚的に表示するか設定します
+            Label: ライフ減少
+        }
+
+        Style: {
+            Tooltip: ""
+            Label: バースタイル
+        }
+
+        DisplayName: 設定
+    }
+}
+

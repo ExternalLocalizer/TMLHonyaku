@@ -1,0 +1,1535 @@
+BossThreats: {
+    TwinsDay: 何だかひどい一日になりそうだ...
+    Terminator: まるで狩られているような感覚が...
+    Caretaker: 空中から奇妙な羽ばたく音が聞こえる...
+    Mechclops: 遠くから大きなガシャンという音が聞こえる...
+}
+
+ItemDescriptions: {
+    AdamantiteArmor:
+        '''
+        ダメージを与えるとアダマントのスペードが召喚され、プレイヤーの周りを回転する
+        最大3つのスペードが同時に存在可能
+        スペードは最終的にアイテムのピックアップにより変化する
+        '''
+    BeamSword: 光のビームは命中時に自身のコピーを生成
+    CobaltArmor:
+        '''
+        ライフが減るにつれて防御力とダメージ軽減率が上昇
+        最大で25の防御力と20%のダメージ軽減まで効果が付与
+        効果は{0}以下のライフで発動
+        '''
+    Excalibur: クリティカルヒット時に一時的に攻撃速度が上昇
+    HallowedSummonerArmor:
+        '''
+        鞭の範囲を15%増加させ、
+        共に戦う魔法の剣を召喚する
+        '''
+    MythrilArmor:
+        '''
+        一定時間攻撃しない事で攻撃速度が大幅に上昇
+        この効果は最大5秒間続き、3秒の準備時間が必要
+        '''
+    Megashark: まれに魚のミサイルを撃つ
+    MagicDagger: 最終的に6つのダガーに分裂する
+    Phasesabers:
+        '''
+        敵の防御力を完全に無視
+        タイミングを合わせた攻撃で敵の投射物を跳ね返し、1000%の追加ダメージを与える
+        '''
+}
+
+SpawnConditions: {
+    Generic: 任意の場所・時間で[i:{0}]を使用する
+    Mechdusa: ゼニスワールドまたは通常のゴーレム撃破後のワールドで[i:{0}]を使う
+    SiegeEngine: 地下世界の端近くで眠る構造物を目覚めさせるために[i:{0}]を使う
+}
+
+Tiles: {
+	SoulofDightinaBottle: {
+		MapEntry: Soul of Dight in a Bottle
+	}
+
+	SoulofFreightinaBottle: {
+		MapEntry: Soul of Freight in a Bottle
+	}
+
+	SoulofPlightinaBottle: {
+		MapEntry: Soul of Plight in a Bottle
+	}
+
+	SoulofTightinaBottle: {
+		MapEntry: Soul of Tight in a Bottle
+	}
+}
+
+Buffs: {
+    AdamantiteSpades: {
+        DisplayName: アダマントのスペード
+        Description: たくさんのアダマントのスペードが周りを回転する
+    }
+
+    ExcaliburRage: {
+        DisplayName: アーサーの怒り
+        Description: 近接攻撃速度が33%上昇
+    }
+
+    ElectromagneticFlux: {
+        DisplayName: 電磁フラックス
+        Description:
+            '''
+            プレイヤー強化中！
+            攻撃ダメージと速度が10%上昇、無限飛行
+            '''
+    }
+
+    Flinxcopter: {
+        DisplayName: フリンクス航空隊
+        Description: 爆弾投下、軍曹！
+    }
+
+    MarkedforNegationNegative: {
+        DisplayName: 否定の印（負電荷）
+        Description:
+            '''
+            急げ、マゼンタのクローンに触れて生き延びろ！
+            （間違った色のクローンに触れると電撃を受ける）
+            '''
+    }
+
+    MarkedforNegationNeutral: {
+        DisplayName: 否定の印（中性電荷）
+        Description:
+            '''
+            急げ、黄色のクローンに触れて生き延びろ！
+            （間違った色のクローンに触れると電撃を受ける）
+            '''
+    }
+
+    MarkedforNegationPositive: {
+        DisplayName: 否定の印（正電荷）
+        Description:
+            '''
+            急げ、シアンのクローンに触れて生き延びろ！
+            （間違った色のクローンに触れると電撃を受ける）
+            '''
+    }
+
+    MechanicalJet: {
+        DisplayName: メカニカルジェット
+        Description: 超高速！
+    }
+
+    MissileBattery: {
+        DisplayName: ミサイルバッテリー
+        Description: 敵のIPアドレスをリークせよ
+    }
+
+    Nanny: {
+        DisplayName: B-33「ナニー」
+        Description: ぐっすり眠るのを手伝ってくれる
+    }
+
+    RockCancer: {
+        DisplayName: 岩のがん
+        Description: あなたの血が結晶化する...
+    }
+
+    Safesys: {
+        DisplayName: S4f3-sys
+        Description: 中がもっと広く感じるみたい！
+    }
+
+    Termini: {
+        DisplayName: テルミニ
+        Description: えっと...ハエより大きいものには害はないよ！
+    }
+}
+
+Items: {
+    AbominationRemote: {
+        DisplayName: 怪しげな箱
+        Tooltip:
+            '''
+            奇妙な詩が書かれたメモが付いており、いくつかの単語が強調されています：
+            「この箱から出てくるものにきっと[c/00FFFF:あなた]じゃあ太刀打ちできない。」
+            「あなたの行動が[c/FFFF00:結果]に直面するでしょう！」
+            「[c/FF00FF:夜空の暗さ]があなたの眠りを包み込むように...」
+            「それがあなたの最も暗い意図を[c/FF0000:殺し]ますように」
+            「そして闇の生き物はあなたの深い旅路へと[c/00FF00:導いて行き]ます。」
+            「ついに、あなたという[c/0000FF:存在そのもの]が消え、命のない岩と化すでしょう。」
+            この箱の中に居るものと戦う方法を示唆しているのかもしれない...
+            '''
+    }
+
+    AdvancedCombinationLock: {
+        DisplayName: 高度なコンビネーションロック
+        Tooltip:
+            '''
+            アイテムを運び、飲み物を冷やす小さなメカニカルディア構造物を召喚する
+            ディアを通じて金庫にアクセスする際、ディアが親切にプレイやーを追いかけるため範囲は無制限
+            「小さくて解読が難しいが、少なくとも顔認証機能はあるようだ！」
+            '''
+    }
+
+    Anemoscepter: {
+        DisplayName: アネモセプター
+        Tooltip: チャージして小さく強力な吹雪を放つ
+    }
+
+    ArtificialStinger: {
+        DisplayName: 人工の針
+        Tooltip:
+            '''
+            ダーツと矢を弾薬として使用
+            装填された弾薬をオーバーチャージし、より強力にする
+            強化された矢は命中時にイオンの軌跡を残す
+            <right>でターゲットに吸着する磁気ダーツを装填
+            チャージされた矢は磁化された敵に向かってホーミングする
+            「千の刺す痛みをシミュレートする設計」
+            '''
+    }
+
+    Avalanche: {
+        DisplayName: アヴァランチ
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            この武器をチャージすると発射される雪玉の数が増加
+            最大チャージでは、雪玉が破片で満たされる
+            「いいえ、アイスクリームを作るのには使えません」
+            '''
+    }
+
+    BeeController: {
+        DisplayName: ビーコントローラー
+        Tooltip:
+            '''
+            B-33ユニットを召喚してプレイヤーを追いかける
+            所有者が寝ているときに換気する
+            「ケアタイムだ！」
+            '''
+    }
+
+    BeeRemote: {
+        DisplayName: ビーリモート
+        Tooltip:
+            '''
+            ケアテイカーを召喚する
+            「空気中に奇妙なブーンという音が聞こえる...」
+            '''
+    }
+
+    Beforeshock: {
+        DisplayName: ビフォアショック
+        Tooltip:
+            '''
+            3発のバーストを5発の弾丸を拡散させながら撃つ
+            バーストの最初のショットは巨大な衝撃波を生成する
+            「地震が来る前に起こるアフターショックだ」
+            '''
+    }
+
+    Bloodshed: {
+        DisplayName: ブラッドシェッド
+        Tooltip: ""
+    }
+
+    BloodStainedPocketWatch: {
+        DisplayName: 血に染まった懐中時計
+        Tooltip: カーソル方向に進む血に染まった銀ナイフを召喚する
+    }
+
+    BrainRemote: {
+        DisplayName: ブレインリモート
+        Tooltip:
+            '''
+            ターミネーターを召喚する
+            「まるで狩られているような感覚が...」
+            '''
+    }
+
+    BreachCutter: {
+        DisplayName: ブリーチカッター
+        Tooltip:
+            '''
+            垂直のプラズマビームを放つ
+            敵防御を一部無視
+            '''
+    }
+
+    CaretakerBossBag: {
+        DisplayName: トレジャーバッグ（MK-22「ケアテイカー」）
+        Tooltip: <right>で開く
+    }
+
+    CaretakerMask: {
+        DisplayName: ケアテイカーのマスク
+        Tooltip: ""
+    }
+
+    CaretakerRelic: {
+        DisplayName: ケアテイカーのレリック
+        Tooltip: ""
+    }
+
+    CaretakerTrophy: {
+        DisplayName: ケアテイカーのトロフィー
+        Tooltip: ""
+    }
+
+    ClockworkWrench: {
+        DisplayName: クロックワークレンチ
+        Tooltip: 共に戦う高速弾丸を撃つクロックワークタレットを召喚する
+    }
+
+    DeerRemote: {
+        DisplayName: ディアリモート
+        Tooltip:
+            '''
+            St4-sysを召喚する
+            「こちらに向かって大きなガシャンという音が聞こえる...」
+            '''
+    }
+
+    DoubleTrouble: {
+        DisplayName: ダブルトラブル
+        Tooltip:
+            '''
+            プレイヤーの周りを振り回すスパズマティズムまたはレティネイザーを召喚する
+            レティネイザーはレーザーを撃ち、スパズマティズムは呪われた炎を撃つ
+            鞭としてカウントされますが、鞭の範囲ボーナスの影響を受けない
+            '''
+    }
+
+    EnergyHilt: {
+        DisplayName: エナジーヒルト
+        Tooltip:
+            '''
+            近接攻撃は敵の防御を10無視
+            フェーズセイバーは短距離の光の波を撃ち出す
+            '''
+    }
+
+    Exitium: {
+        DisplayName: エクスィティウム
+        Tooltip:
+            '''
+            雷とミサイルを撃つ槍を振る
+            ミサイルはカーソルに最も近い敵をターゲットする
+            右クリックでミサイルを早めに爆発させる
+            メインの槍はタイルを通り抜けて敵を攻撃可能
+            「索敵と破壊」
+            '''
+    }
+
+    EyeRemote: {
+        DisplayName: リモートめだま
+        Tooltip:
+            '''
+            ツインズを召喚する
+            「これはひどい夜になりそうだ...」
+            '''
+    }
+
+    Finis: {
+        DisplayName: フィニス
+        Tooltip:
+            '''
+            2回振るごとに1回投擲
+            ユーザーの周りを回転するボルトを生成する
+            攻撃中に<right>を押すと、鎌が最も近い敵に自動でホーミングする
+            投擲中の鎌で何かに命中すると、蓄積されたボルトが命中した敵にホーミングする
+            '''
+    }
+
+    FlinxForceWalkieTalkie: {
+        DisplayName: フリンクスフォースウォーキートーキー
+        Tooltip: 敵に爆弾を投下するフリンクスコプターを召喚する
+    }
+
+    HandPrime: {
+        DisplayName: ハンドプライム
+        Tooltip:
+            '''
+            <right>で4つのモードを切り替え
+            レーザーモード：赤いレーザーのバーストを発射
+            キャノンモード：敵にホーミングする赤いロケットを発射
+            ソーモード：ノコギリに変形し、敵を真っ二つに
+            モードやアイテムの切り替え中にノコギリを発射
+            発射したノコギリが消えるまでソーモードは使用不可
+            フックモード：敵に吸着するフックを撃つ
+            <left>でフックに向かって自分を引き寄せる
+            '''
+    }
+
+    HarmonicWeaponCatalyst: {
+        DisplayName: ハーモニックウェポンカタリスト
+        Tooltip:
+            '''
+            現在持っている武器の攻撃ダメージ、速度、クリティカル率を10%増加、防御貫通を10増加
+            特定の武器タイプを持つ場合、そのダメージクラスに基づくボーナスを得る
+            近接：攻撃時に受けるダメージを10%軽減するが、敵に狙われやすくなる
+            遠距離：弾薬消費を10%軽減、矢の射程が増加
+            魔法：マナ最大値+60、マナ使用量を10%軽減、低ライフ時にマナ再生が一定
+            召喚：ミニオンとセントリーの最大数を+2、敵に狙われにくくなる
+            投擲：投擲射程を10%増加
+            ローグ（Calamity）：最大ステルスと投射物の速度を10%増加
+            バード（Thorium）：最大インスピレーション+4、強化持続時間+5秒、強化範囲を15ブロック増加
+            ヒーラー（Thorium）：マナ使用量を10%軽減、仲間をさらに2ライフ回復
+            ボイド（Secret of the Shadows）：ボイドショックとボイド回復によるダメージを軽減
+            '''
+    }
+
+    Jumboshark: {
+        DisplayName: ジャンボシャーク
+        Tooltip:
+            '''
+            「ミニシャークの別の世界からの従兄弟」
+            3発のボレーを撃つ
+            '''
+    }
+
+    Killswitch: {
+        DisplayName: キルスイッチ
+        Tooltip:
+            '''
+            プレイヤーを追いかけるテルミニを召喚する
+            「ハエを傷つけることはないよ！」
+            '''
+    }
+
+    KineticTremors: {
+        DisplayName: キネティクトレマーズ
+        Tooltip:
+            '''
+            巨大なハンマーをチャージして、タイルや敵に命中時に衝撃波を生成する
+            複数回命中可能で、複数の衝撃波を生成可能
+            「ロケット推進の地震！」
+            '''
+    }
+
+    HydraulicPressManual: {
+        DisplayName: 油圧プレスマニュアル
+        Tooltip:
+            '''
+            敵をクリックして油圧プレスで押し潰す
+            「油圧プレス粉砕ASMR」
+            '''
+    }
+
+    LaserStar: {
+        DisplayName: レーザースター
+        Tooltip: 敵に命中すると短時間持続するレーザービームを生成する
+    }
+
+    MechanicalCockpitPiece: {
+        DisplayName: メカニカルコックピットピース
+        Tooltip: ""
+    }
+
+    MechanicalJet: {
+        DisplayName: メカニカルジェット
+        Tooltip:
+            '''
+            高速で乗れるホバリングジェットを召喚する
+            最大速度で接触ダメージを与える
+            攻撃すると、武器の攻撃速度に基づくダメージのミサイルの弾幕を召喚する
+            「少なくともTerrariaではジェット燃料は簡単に入手できる」
+            '''
+    }
+
+    MechanicalWings: {
+        DisplayName: メカニカルウィングス
+        Tooltip:
+            '''
+            飛行とゆっくりした落下を可能にする
+            下キーを押してホバーを切り替える
+            上キーを押してホバーを解除
+            上キーを長押しでより速くブーストする
+            飛行していない時に下キーを長押しでより速く落下！
+            「もっとできて、コストは少ない」
+            '''
+    }
+
+    MechclopsBossBag: {
+        DisplayName: トレジャーバッグ（St4-sys）
+        Tooltip: <right>で開く
+    }
+
+    MechclopsMask: {
+        DisplayName: St4-sysのマスク
+        Tooltip: ""
+    }
+
+    MechclopsRelic: {
+        DisplayName: St4-sysのレリック
+        Tooltip: ""
+    }
+
+    MechclopsTrophy: {
+        DisplayName: St4-sysのトロフィー
+        Tooltip: ""
+    }
+
+    OverloadScope: {
+        DisplayName: オーバーロードスコープ
+        Tooltip:
+            '''
+            <right>で任意の武器でズーム
+            <right>を長押しでゆっくりとフォーカス
+            フォーカスに成功すると、近くのターゲットにマーク
+            マークされたターゲットに命中すると強力な爆発
+            ターゲットにデバフがある場合、マーク時にランダムに爆発
+            '''
+    }
+
+    RepurposedBeeRemote: {
+        DisplayName: ミサイル発射コード
+        Tooltip:
+            '''
+            プレイヤーの後ろに留まるミサイルバッテリーを召喚する
+            ミニオンスロットが多いほどバーストごとのミサイル数が増加
+            「大陸間弾道ミサイルの策略、誰も予想しない」
+            '''
+    }
+
+    RepurposedBrainRemote: {
+        DisplayName: ターミネーションシーケンス
+        Tooltip:
+            '''
+            3発のバーストを撃つ
+            銃本体も接触ダメージを与える
+            敵に命中するとまれねに戦闘を補助するミニシーカードロイドを生成する
+            弾薬を使用しない
+            「説明してる時間はない」
+            '''
+    }
+
+    RepurposedDeerRemote: {
+        DisplayName: スクリーマチックホーン
+        Tooltip:
+            '''
+            増幅された高音の叫び声を放つ
+            「聴覚範囲外で死の脅迫を送る B」
+            '''
+    }
+
+    RepurposedDeerRemoteBard: {
+        DisplayName: スクリーマチックホーン
+        Tooltip:
+            '''
+            増幅された高音の叫び声を放つ
+            「聴覚範囲外で死の脅迫を送る B」
+            '''
+    }
+
+    RepurposedEyeRemote: {
+        DisplayName: コイルドアイボール
+        Tooltip: レーザーを撃つミニレティネイザーを召喚する
+    }
+
+    RepurposedSkullRemote: {
+        DisplayName: 鋼の頭蓋骨
+        Tooltip: あなたのために戦うプライムハンドを召喚する
+    }
+
+    RepurposedWormRemote: {
+        DisplayName: アイアンアネリッド
+        Tooltip:
+            '''
+            「明らかにデストロイヤー、だがこれは鞭だ！」
+            命中時25%の確率でプローブを生成する
+            '''
+    }
+
+    PlasmaPistol: {
+        DisplayName: プラズマピストル
+        Tooltip:
+            '''
+            凝縮されたプラズマを撃つ
+            チャージしてプラズマの濃度を増加
+            濃縮されたプラズマは移動中にさらにプラズマを放出
+            '''
+    }
+
+    PortableEnergyConverter: {
+        DisplayName: ポータブルエネルギーコンバーター
+        Tooltip:
+            '''
+            魔法攻撃速度を10%増加
+            一部のエネルギーガンはマナを使用しない
+            '''
+    }
+
+    SelfCoolingPitcher: {
+        DisplayName: 自己冷却ピッチャー
+        Tooltip:
+            '''
+            バフポーションを持っているときにインベントリで<right>してピッチャーを満たす
+            ピッチャーに入れたバフポーションは持続時間が2倍
+            重複するポーション効果はさらに持続時間を増加
+            重複による追加持続時間は2倍にならず、固定量のみ付与
+            最大20のバフを保存可能、重複も制限にカウント
+            「これでアイスクールな鉄の肌ポーションを楽しめる！」
+            <empty>
+            '''
+        Full: 以下のバフを適用：
+        Empty: 空
+    }
+
+    SiegeDowner: {
+        DisplayName: シージダウナー
+        Tooltip:
+            '''
+            ほとんどの遠距離攻撃から守る4つのスパイクシールドを生成
+            シールドは攻撃を受けると後退し、最終的によろめく
+            よろめいたシールドは制御不能に回転し、攻撃をブロックできない
+            「俺は無敵だ！」
+            '''
+    }
+
+    SiegeEngineBossBag: {
+        DisplayName: トレジャーバッグ（シージエンジン）
+        Tooltip: <right>で開く
+    }
+
+    SiegeEngineRelic: {
+        DisplayName: シージエンジンのレリック
+        Tooltip: ""
+    }
+
+    SiegeEngineTrophy: {
+        DisplayName: シージエンジンのトロフィー
+        Tooltip: ""
+    }
+
+    SkullRemote: {
+        DisplayName: リモートスカル
+        Tooltip:
+            '''
+            スケルトロンプライムを召喚
+            「周りの空気が冷たくなっている...」
+            '''
+    }
+
+    SoulofDight: {
+        DisplayName: ダイトのソウル
+        Tooltip: 「愛撫と保護のエッセンス」
+    }
+
+    SoulofDightinaBottle: {
+        DisplayName: 瓶入りのダイトのソウル
+        Tooltip: ""
+    }
+
+    SoulofFreight: {
+        DisplayName: フレイトのソウル
+        Tooltip: 「荷物と負担のエッセンス」
+    }
+
+    SoulofFreightinaBottle: {
+        DisplayName: 瓶入りのフレイトのソウル
+        Tooltip: ""
+    }
+
+    SoulofPlight: {
+        DisplayName: プライトのソウル
+        Tooltip: 「戦争と対立のエッセンス」
+    }
+
+    SoulofPlightinaBottle: {
+        DisplayName: 瓶入りのプライトのソウル
+        Tooltip: ""
+    }
+
+    SoulofTight: {
+        DisplayName: タイトのソウル
+        Tooltip: 「強力で圧倒的な力のエッセンス」
+    }
+
+    SoulofTightinaBottle: {
+        DisplayName: 瓶入りのタイトのソウル
+        Tooltip: ""
+    }
+
+    StuffStuffer: {
+        DisplayName: スタッフスタッファー
+        Tooltip:
+            '''
+            ランダムなアイテムの詰め合わせを撃つ
+            「その負荷をぶちまけろ」
+            '''
+    }
+
+    SublimeStellarSling: {
+        DisplayName: サブライムステラースリング
+        Tooltip: 最も近いターゲットをロックオンする6つの星のバーストで発射
+    }
+
+    SwarmGrenade: {
+        DisplayName: スウォームグレネード
+        Tooltip: 「群れのようで、決して終わらない」
+    }
+
+    TaserAttachment: {
+        DisplayName: テーザーアタッチメント
+        Tooltip: タグ付けされた敵は時折電撃のバーストを放出
+    }
+
+    TerminatorBossBag: {
+        DisplayName: トレジャーバッグ（ターミネーター）
+        Tooltip: <right>で開く
+    }
+
+    TerminatorMask: {
+        DisplayName: ターミネーターのマスク
+        Tooltip: ""
+    }
+
+    TerminatorRelic: {
+        DisplayName: ターミネーターのレリック
+        Tooltip: ""
+    }
+
+    TerminatorTrophy: {
+        DisplayName: ターミネーターのトロフィー
+        Tooltip: ""
+    }
+
+    TheSnake: {
+        DisplayName: ザ・スネーク
+        Tooltip:
+            '''
+            曲がりくねったエネルギーボールを撃つ
+            トリガーを引く速度とほぼ同等に発射する
+            トリガーを押し続けると制御された速度で発射
+            「シャバが迷宮の店で作った」
+            '''
+    }
+
+    TheSpur: {
+        DisplayName: ザ・スパー
+        Tooltip:
+            '''
+            チャージしてから放つと、ゆっくりとした集中レーザービームを撃つ
+            チャージ時間が長いほどレーザーが強力
+            「本物の男はポーラースターをマシンガンと交換しない！」
+            '''
+    }
+
+    TrueBloodshed: {
+        DisplayName: トゥルーブラッドシェッド
+        Tooltip: ""
+    }
+
+    WallRemote: {
+        DisplayName: 奇妙な異世界のリモート
+        Tooltip: 地下世界の端近くで眠る構造物を目覚めさせる
+    }
+
+    WormRemote: {
+        DisplayName: ワームリモート
+        Tooltip:
+            '''
+            デストロイヤーを召喚
+            「深い地下から振動を感じる...」
+            '''
+    }
+}
+
+NPCs: {
+    Caretaker: {
+        DisplayName: MK-22「ケアテイカー」
+        Bestiary: メカニックの語られざる未完成の創造物のひとつで、ゴブリンのよろず屋の助けを借りて作られた。元々は天の侵攻に対抗する超兵器として設計されたが、何度も試みたにもかかわらず、失敗が続いた。ケアテイカーは蜂の力を利用するはずだった。なぜかって？ ゴブリン科学の研究により、テラリアのジャングルの蜂の驚異的な力が発見されたからだ。戦闘用に特別に作られた遺伝子改変蜂を育て、孵卵するというアイデアだったが、ゴブリン科学分野の研究不足が大惨事を引き起こし、プロジェクトは放棄された。
+    }
+
+    DestroyerBody: {
+        DisplayName: デストロイヤー
+    }
+
+    DestroyerHead: {
+        DisplayName: デストロイヤー
+    }
+
+    MechaBee: {
+        DisplayName: B-33「シャンク」
+        Bestiary: 戦闘におけるケアテイカーの助手。高精度追跡カメラとAI安定化ジャイロスコープレーザーガンを備え、ハエの羽をも狙撃できる！
+    }
+
+    Mechclops: {
+        DisplayName: St4-sys
+        Bestiary: チャーリーが残した未使用の装置で、今は資源を集める目的で再活性化され、故郷に戻ることを願っている。しかし、そのリモートを使ったことで、事前にプログラムされたスケジュールを乱し、フェイルセーフが作動して自己防衛機構が起動したが、明らかにそれを使うのは得意ではない。
+    }
+
+    Mechdusa: {
+        DisplayName: M3CH-DUS4、オクラムの剃刀
+    }
+
+    MechdusaTail: {
+        DisplayName: M3CH-DUS4、オクラムの剃刀
+    }
+
+    MutantBee: {
+        DisplayName: ミュータントビー
+    }
+
+    Probe: {
+        DisplayName: プローブ
+    }
+
+    SeekerDroid: {
+        DisplayName: シーカードロイド
+        Bestiary: ターミネーターの戦闘助手。単一ユニットで強力な磁場を使い、攻撃をブロックしてマスターをダメージから守ることができる。ただし、マスターに限定されず、自身を守り、マスターのターゲットに攻撃を反射することもできる。
+    }
+
+    SiegeEngine: {
+        DisplayName: 怒れるマシン、シージエンジン
+        Bestiary: 火星人が光と闇の精霊を捕らえるために作った強力な構造物。精霊が与える力が彼らの高度な装備の理由だと言われている。しかし、それだけでは満足できず、さらなる力を求めた。
+    }
+
+    SiegeShield: {
+        DisplayName: シージシールド
+    }
+
+    SkeletronPrime: {
+        DisplayName: スケルトロンプライム
+    }
+
+    SkeletronPrimeArmHitbox: {
+        DisplayName: スケルトロンプライムの腕
+    }
+
+    TheTerminator: {
+        DisplayName: ターミネーター
+        InfernumIntro:
+            '''
+            ウォーマインドプロトタイプ
+            ターミネーター
+            '''
+        Bestiary: メカニックの語られざる未完成の創造物のひとつ。マシンラーニング機能を備えた知的なウォーマインドとなる予定だったが、エラーにより敵対的になった。メカニックはこれをシャットダウンしようとし、成功したが、プロジェクトは破棄され、二度と語られることはなかった。ある日、何かがその平和な眠りを乱し、怒りと「抹殺」という目的とともに再覚醒した。ブレインは自分を無視した所有者を探して世界を探索し、その過程で生命体の仕組みやそれらに対する最適な武器を学んだ。ブレインは自身の知能を使い、内部に武器を構築して使用する。それは探し、狩り、あなたを追ってくる！
+    }
+}
+
+Projectiles: {
+	AdamantiteSpade: {
+		DisplayName: Adamantite Spade
+	}
+
+	Anemoscepter: {
+		DisplayName: Anemoscepter
+	}
+
+	ArtificialStinger: {
+		DisplayName: Artificial Stinger
+	}
+
+	Avalanche: {
+		DisplayName: Avalanche
+	}
+
+	AvalancheShrapnel: {
+		DisplayName: Icy Shrapnel
+	}
+
+	AvalancheSnowball: {
+		DisplayName: Snowball
+	}
+
+	Beforeshock: {
+		DisplayName: Beforeshock
+	}
+
+	Blizzard: {
+		DisplayName: Blizzard
+	}
+
+	BloodBeam: {
+		DisplayName: Blood Beam
+	}
+
+	BloodLash: {
+		DisplayName: Blood Lash
+	}
+
+	BloodStainedSilverKnife: {
+		DisplayName: Blood Stained Silver Knife
+	}
+
+	BouncyCursedFlames: {
+		DisplayName: Bouncy Cursed Flames
+	}
+
+	BrainLaser: {
+		DisplayName: Brain Laser
+	}
+
+	BrainWave: {
+		DisplayName: Brain Wave
+	}
+
+	BreachCutter: {
+		DisplayName: Breach Cutter
+	}
+
+	CartMissile: {
+		DisplayName: Cart Missile
+	}
+
+	ChargedExplosion: {
+		DisplayName: Charged Explosion
+	}
+
+	ClockworkTurret: {
+		DisplayName: Clockwork Turret
+	}
+
+	ControlledPrimeCannon: {
+		DisplayName: Controlled Prime Cannon
+	}
+
+	ControlledPrimeLaser: {
+		DisplayName: Controlled Prime Laser
+	}
+
+	ControlledPrimeSaw: {
+		DisplayName: Controlled Prime Saw
+	}
+
+	ControlledPrimeVice: {
+		DisplayName: Controlled Prime Vice
+	}
+
+	ControlledRetinazer: {
+		DisplayName: Controlled Retinazer
+	}
+
+	DiffractionLaser: {
+		DisplayName: Diffraction Laser
+	}
+
+	DoubleTrouble: {
+		DisplayName: Double Trouble
+	}
+
+	ElectromagneticGrenade: {
+		DisplayName: Electromagnetic Grenade
+	}
+
+	ElectronClone: {
+		DisplayName: Electron Clone
+	}
+
+	EnergyBeam: {
+		DisplayName: Energy Beam
+	}
+
+	Excalibur: {
+		DisplayName: Excalibur
+	}
+
+	Exitium: {
+		DisplayName: Exitium
+	}
+
+	ExitiumMissile: {
+		DisplayName: Exitium Missile
+	}
+
+	ExitiumZap: {
+		DisplayName: Exitium Zap
+	}
+
+	ExplosionHostile: {
+		DisplayName: Explosion Hostile
+	}
+
+	EyeFire: {
+		DisplayName: Eye Fire
+	}
+
+	Finis: {
+		DisplayName: Finis
+	}
+
+	FinisLaser: {
+		DisplayName: Finis Laser
+	}
+
+	FinisThrown: {
+		DisplayName: Finis
+	}
+
+	FinisWave: {
+		DisplayName: Finis Wave
+	}
+
+	Fishile: {
+		DisplayName: Fishile
+	}
+
+	FlinxBomb: {
+		DisplayName: Flinx Bomb
+	}
+
+	Flinxcopter: {
+		DisplayName: Flinxcopter
+	}
+
+	FlinxcopterHostile: {
+		DisplayName: Flinxcopter
+	}
+
+	FlinxGrenade: {
+		DisplayName: Flinx Grenade
+	}
+
+	FreezeCloud: {
+		DisplayName: Freeze Cloud
+	}
+
+	FreezeWave: {
+		DisplayName: Freeze Wave
+	}
+
+	FreezingRoar: {
+		DisplayName: Freezing Roar
+	}
+
+	FreezingRoarBard: {
+		DisplayName: Freezing Roar
+	}
+
+	HandHook: {
+		DisplayName: Hand Hook
+	}
+
+	HandLaser: {
+		DisplayName: Hand Laser
+	}
+
+	HandPrime: {
+		DisplayName: Hand Prime
+	}
+
+	HandSaw: {
+		DisplayName: Hand Saw
+	}
+
+	HomingCursedFlames: {
+		DisplayName: Cursed Flames
+	}
+
+	IceScream: {
+		DisplayName: Ice Scream
+	}
+
+	KineticShockwave: {
+		DisplayName: Kinetic Tremors
+	}
+
+	KineticTremors: {
+		DisplayName: Kinetic Tremors
+	}
+
+	LaserBlade: {
+		DisplayName: Laser Blade
+	}
+
+	LaserPrime: {
+		DisplayName: Laser
+	}
+
+	LaserStar: {
+		DisplayName: Laser Star
+	}
+
+	LaserStarLaser: {
+		DisplayName: Laser
+	}
+
+	LaserTelegraph: {
+		DisplayName: Laser
+	}
+
+	LightSlash: {
+		DisplayName: Slash of Light
+	}
+
+	LightningBall: {
+		DisplayName: Lightning Ball
+	}
+
+	MagneticDart: {
+		DisplayName: Magnetic Dart
+	}
+
+	MagneticGrenade: {
+		DisplayName: Magnetic Grenade
+	}
+
+	MiniProbe: {
+		DisplayName: Mini Probe
+	}
+
+	MiniRetinaLaser: {
+		DisplayName: Mini Retina Laser
+	}
+
+	MiniSeekerDroid: {
+		DisplayName: Mini Seeker Droid
+	}
+
+	MiniSpazmFire: {
+		DisplayName: Mini Spazm Fire
+	}
+
+	MissileBattery: {
+		DisplayName: Missile Battery
+	}
+
+	MutantBee: {
+		DisplayName: Mutant Bee
+	}
+
+	Nanny: {
+		DisplayName: B-33 "Nanny"
+	}
+
+	NeutronClone: {
+		DisplayName: Neutron Clone
+	}
+
+	NullificationRay: {
+		DisplayName: Nullification Ray
+	}
+
+	NullifiedClone: {
+		DisplayName: Nullified Clone
+	}
+
+	NullifiedShot: {
+		DisplayName: Nullified Shot
+	}
+
+	NullifierBeam: {
+		DisplayName: Nullifier Beam
+	}
+
+	OverchargedLightningBall: {
+		DisplayName: Overcharged Lightning Ball
+	}
+
+	OverloadReticle: {
+		DisplayName: Overload Reticle
+	}
+
+	PetrifyingClone: {
+		DisplayName: Petrifying Clone
+	}
+
+	PhaseBomb: {
+		DisplayName: Phase Bomb
+	}
+
+	Phasesaber: {
+		DisplayName: Phasesaber
+	}
+
+	PhaseWave: {
+		DisplayName: Phase Wave
+	}
+
+	PlasmaBall: {
+		DisplayName: Plasma Ball
+	}
+
+	PlasmaPistol: {
+		DisplayName: Plasma Pistol
+	}
+
+	PortableBlizzard: {
+		DisplayName: Portable Blizzard
+	}
+
+	PrimeDeathray: {
+		DisplayName: Prime Deathray
+	}
+
+	PrimeSaw: {
+		DisplayName: Circular Saw
+	}
+
+	PrimeSpike: {
+		DisplayName: Prime Spike
+	}
+
+	ProtonClone: {
+		DisplayName: Proton Clone
+	}
+
+	PulseLaser: {
+		DisplayName: Pulse Laser
+	}
+
+	RainbowLaser: {
+		DisplayName: Rainbow Laser
+	}
+
+	RetinaSpark: {
+		DisplayName: Retina Spark
+	}
+
+	Safesys: {
+		DisplayName: S4f3-sys
+	}
+
+	Sclerocket: {
+		DisplayName: Sclerocket
+	}
+
+	SeekerBolt: {
+		DisplayName: Seeker Bolt
+	}
+
+	SeekerDroidNet: {
+		DisplayName: Seeker Droid Net
+	}
+
+	ShockLaser: {
+		DisplayName: Shock Laser
+	}
+
+	ShrapnelFilledSnowball: {
+		DisplayName: Shrapnel-Filled Snowball
+	}
+
+	SiegeBall: {
+		DisplayName: Siege Ball
+	}
+
+	SiegeDowner: {
+		DisplayName: Siege Shield
+	}
+
+	SiegeFlames: {
+		DisplayName: Siege Flames
+	}
+
+	SiegePress: {
+		DisplayName: Siege Press
+	}
+
+	SiegeSaw: {
+		DisplayName: Siege Saw
+	}
+
+	SiegeWall: {
+		DisplayName: Siege Wall
+	}
+
+	SkullBomb: {
+		DisplayName: Skull Bomb
+	}
+
+	SkullMissile: {
+		DisplayName: Skull Missile
+	}
+
+	SnakeShot: {
+		DisplayName: Snake Shot
+	}
+
+	SpurLaser: {
+		DisplayName: Spur Laser
+	}
+
+	StunDart: {
+		DisplayName: Stun Dart
+	}
+
+	SublimeStar: {
+		DisplayName: Sublime Star
+	}
+
+	SwarmerMissile: {
+		DisplayName: Swarm Missile
+	}
+
+	SwarmGrenade: {
+		DisplayName: Swarm Grenade
+	}
+
+	SwarmMissile: {
+		DisplayName: Swarm Missile
+	}
+
+	TaserJolt: {
+		DisplayName: Taser Jolt
+	}
+
+	Termini: {
+		DisplayName: Termini
+	}
+
+	TurretBullet: {
+		DisplayName: Bullet
+	}
+
+	UndeadDroid: {
+		DisplayName: Undead Droid
+	}
+
+	WormMissile: {
+		DisplayName: Worm Missile
+	}
+
+	WormNuke: {
+		DisplayName: Worm Nuke
+	}
+
+	WormWhip: {
+		DisplayName: Iron Annelid
+	}
+
+	WormZap: {
+		DisplayName: Worm Zap
+	}
+
+	ZapTrap: {
+		DisplayName: Zap Trap
+	}
+}
+
+Configs: {
+    ReworkConfig: {
+        DisplayName: リワーク設定
+
+        twins: {
+            Label: "[i/s1:544] ツインズリワーク"
+            Tooltip:
+                '''
+                ツインズのリワークを有効にします。他のModと競合する場合はオフにしてください
+                エタニティモードおよびリベンジャンスモードと互換性があり、これらがオンの場合はオフにする必要はありません
+                （注：攻撃パターンは上書きではなく、組み合わせられます！）
+                '''
+        }
+
+        destroyer: {
+            Label: "[i/s1:556] デストロイヤーリワーク"
+            Tooltip:
+                '''
+                デストロイヤーのリワークを有効にします。他のModと競合する場合はオフにしてください
+                エタニティモードおよびリベンジャンスモードと互換性があり、これらがオンの場合はオフにする必要はありません
+                （注：攻撃パターンは上書きではなく、組み合わせられます！）
+                '''
+        }
+
+        prime: {
+            Label: "[i/s1:557] スケルトロンプライムリワーク"
+            Tooltip:
+                '''
+                スケルトロンプライムのリワークを有効にします。他のModと競合する場合はオフにしてください
+                エタニティモードおよびリベンジャンスモードと互換性があり、これらがオンの場合はオフにする必要はありません
+                （注：攻撃パターンは上書きではなく、組み合わせられます！）
+                '''
+        }
+
+        oldAI: {
+            Label: 旧AIリワーク
+            Tooltip:
+                '''
+                ボスのリワークの旧バージョン
+                デストロイヤーのみ旧AIがあります
+                '''
+        }
+
+        Death: {
+            Label: 撃破アニメーション
+            Tooltip: 撃破アニメーションを有効にします
+        }
+
+        masterDropsAreNonExclusive: {
+            Label: マスターモードの武器ドロップがエキスパートドロップに
+            Tooltip:
+                '''
+                マスターモード専用の武器がエキスパートモードでもドロップします
+                マスターモードをプレイしたくない場合や、他のModがマスタードロップを壊す場合に推奨
+                （例：エタニティモードがマゾヒストモードになる、インフェルナムがマスターモードで使用できない）
+                '''
+        }
+
+        dayMechs: {
+            Label: "[i/s1:3064] メカボスが昼間に戦える"
+            Tooltip: メカボスが昼間にも戦えるようになります！
+        }
+
+        unlimitedMechs: {
+            Label: 無制限メカ召喚
+            Tooltip: すべてのメカボス召喚アイテムが無制限に使用可能！
+        }
+
+        MechSpawnRework: {
+            Label: メカニカルボス自然発生リワーク
+            Tooltip: メカニカルボスの自然発生のリワークを有効にします
+        }
+
+        MechSpawnDelay: {
+            Label: メカニカルボス自然発生遅延
+            Tooltip: 脅威テキスト表示後にゲームがメカニカルボスを自然発生させようとするまでの遅延時間（ティック単位）
+        }
+
+        MechSpawnCooldown: {
+            Label: メカニカルボス自然発生クールダウン
+            Tooltip: ゲームがメカニカルボスを自然発生させようとするまでのクールダウン時間（ティック単位）
+        }
+
+        MechSpawnChance: {
+            Label: メカニカルボス自然発生確率（分母）
+            Tooltip: メカニカルボスを自然発生させるかどうかをランダムに決定するための分母値
+        }
+
+        DestroyerScreenShake: {
+            Label: "[i/s1:556] デストロイヤーの画面振動"
+            Tooltip: デストロイヤーが掘る際の画面振動効果を有効にします
+        }
+
+        DestroyerResprite: {
+            Label: "[i/s1:556] デストロイヤーリスプライト"
+            Tooltip:
+                '''
+                デストロイヤーのリスプライトを有効にします
+                （ムカデ恐怖症の方は注意！）
+                注：ボスのスプライトが大きくなったため、新しいバージョンの戦闘では動作しません！
+                クリーピーレッグ効果の設定を無効にすると、代わりに脚が削除されます！
+                '''
+        }
+
+        DestroyerLegs: {
+            Label: "[i/s1:556] デストロイヤークリーピーレッグ効果"
+            Tooltip:
+                '''
+                デストロイヤーの脚が移動時にムカデのような動きをするのを許可します
+                （デストロイヤーリスプライトが有効である必要があります！）
+                '''
+        }
+
+        PrimeResprite: {
+            Label: "[i/s1:557] スケルトロンプライムリスプライト"
+            Tooltip: スケルトロンプライムのリスプライトを有効にします
+        }
+
+        BombsBreak: {
+            Label: "[i/s1:557] スケルトロンプライムの爆弾がタイルを壊す"
+            Tooltip: スケルトロンプライムの爆弾がタイルを壊すのを許可し、レジェンダリーモードの効果を上書きします
+        }
+
+        TwinsResprite: {
+            Label: "[i/s1:544] ツインズリスプライト"
+            Tooltip: ツインズのリスプライトを有効にします
+        }
+
+        Overheat: {
+            Label: "[i/s1:2701] オーバーヒート効果"
+            Tooltip: メカニカルボスのライフが10%未満になるとオーバーヒート視覚効果（ボスがオレンジ色になり煙を出す）を有効にします
+        }
+
+        Frostbrand: {
+            Label: "[i/s1:676] フロストブランドリワーク"
+            Tooltip: フロストブランドのリワークを有効にします
+        }
+
+        BeamSword: {
+            Label: "[i/s1:723] ビームソードリワーク"
+            Tooltip: ビームソードのリワークを有効にします
+        }
+
+        Megashark: {
+            Label: "[i/s1:533] メガシャークリワーク"
+            Tooltip: メガシャークのリワークを有効にします
+        }
+
+        MagicDagger: {
+            Label: "[i/s1:517] マジックダガーリワーク"
+            Tooltip: マジックダガーのリワークを有効にします
+        }
+
+        LightDisc: {
+            Label: "[i/s1:561] ライトディスクリワーク"
+            Tooltip: ライトディスクのリワークを有効にします
+        }
+
+        OpticStaff: {
+            Label: "[i/s1:2535] 眼球の杖リワーク"
+            Tooltip:眼球の杖のリワークを有効にします（変更後にミニオンを再召喚しないと壊れる可能性があります）
+        }
+
+        HallowedHood: {
+            Label: "[i/s1:4873] 古代の召還防具リワーク"
+            Tooltip: 古代のフードのリワークを有効にします
+        }
+
+        AdamantiteArmor: {
+            Label: "[i/s1:403] アダマント防具リワーク"
+            Tooltip: アダマントアーマーのセットボーナスのリワークを有効にします
+        }
+
+        MythrilArmor: {
+            Label: "[i/s1:379] ミスリル防具リワーク"
+            Tooltip: ミスリル防具のセットボーナスのリワークを有効にします
+        }
+
+        CobaltArmor: {
+            Label: "[i/s1:374] コバルトアーマーリワーク"
+            Tooltip: コバルトアーマーのセットボーナスのリワークを有効にします
+        }
+
+        MechanicalCart: {
+            Label: "[i/s1:3353] メカニカルカートリワーク"
+            Tooltip: メカニカルカートのリワークを有効にします
+        }
+
+        Sabers: {
+            Label: "[i/s1:3768] フェーズセイバーリワーク"
+            Tooltip:
+                '''
+                フェーズセイバーのリワークを有効にします
+                （注：Thoriumによって追加されたフェーズセイバーにも対応します）
+                '''
+        }
+
+        SaberReflect: {
+            Label: "[i/s1:3768] フェーズセイバーが投射物を反射"
+            Tooltip:
+                '''
+                フェーズセイバーが特定の投射物を反射できるようにします
+                （注：反射するにはスイングのタイミングを合わせる必要があります！また、攻撃を押しっぱなしにしても機能しません！）
+                '''
+        }
+    }
+
+    ToggleConfig: {
+        DisplayName: コンテンツ切り替え
+
+        terminator: {
+            Label: ターミネーター
+            Tooltip: ""
+        }
+
+        caretaker: {
+            Label: MK-22「ケアテイカー」
+            Tooltip: ""
+        }
+
+        mechclops: {
+            Label: St4-sys
+            Tooltip: ""
+        }
+
+        siege: {
+            Label: 怒れるマシン、シージエンジン
+            Tooltip: ""
+        }
+    }
+}
+

@@ -1,0 +1,69 @@
+Tiles: {
+	DrawbridgeTile: {
+		MapEntry: Drawbridge Tile
+	}
+
+	DrawbridgeHorizontalTile: {
+		MapEntry: Drawbridge Horizontal Tile
+	}
+
+	WheelTile: {
+		MapEntry: Wheel Tile
+	}
+
+	WheelAnchorTile: {
+		MapEntry: Wheel Anchor Tile
+	}
+
+	WheelHorizontalTile: {
+		MapEntry: Wheel Horizontal Tile
+	}
+
+	PortcullisDownTile: {
+		MapEntry: Portcullis Down Tile
+	}
+
+	PortcullisUpTile: {
+		MapEntry: Portcullis Up Tile
+	}
+
+	DrawbridgeHorizontalFlippedTile: {
+		MapEntry: Drawbridge Horizontal Flipped Tile
+	}
+
+	DrawbridgeVerticalFlippedTile: {
+		MapEntry: Drawbridge Vertical Flipped Tile
+	}
+}
+
+Items: {
+    DrawbridgeItem: {
+        DisplayName: 跳ね橋
+        Tooltip: ""
+    }
+	
+	WheelItem: {
+		DisplayName: 車輪
+		Tooltip: ""
+	}
+
+	PortcullisItem: {
+		DisplayName: 落とし格子
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	DrawbridgeAnimation: {
+		DisplayName: Drawbridge
+	}
+
+	WheelRender: {
+		DisplayName: Wheel Render
+	}
+
+	PortcullisAnimation: {
+		DisplayName: Portcullis Animation
+	}
+}
+

@@ -1,0 +1,121 @@
+Items: {
+    BicolorCursor: {
+        Tooltip: マウスカーソルが選択した色へ動的に変化させる
+        DisplayName: 二色カーソル
+    }
+}
+LaunchMessages: {
+    killme: "[c/554ea5:これらのメッセージは設定で無効にできます。]"
+    ColorMessage2: "[c/554ea5:現在のカーソル枠の色(RGB)]: "
+    ColorMessage1: "[c/554ea5:現在のカーソルの色(RGB)]: "
+    Gratitude: "[c/554ea5:ダウンロードしてくれてありがとう] [c/73eeef:Lerping] [c/c569e8:カーソル]! [c/554ea5:2000回以上のインストールありがとう！]"
+}
+
+Configs: {
+    Launching: {
+        DisableMe: {
+            Tooltip: ""
+            Label: 無効化の案内
+        }
+
+		LaunchCursor: {
+			Tooltip: ""
+			Label: カラーメッセージ
+		}
+
+		LaunchMessage: {
+			Tooltip: あいさつ
+			Label: 感謝表明
+		}
+
+		DisplayName: 起動メッセージ
+	}
+
+	ColorMode: {
+		BicolorAlt: {
+			Label: 代替バイカラー[i:3190]
+		}
+
+		Bicolor: {
+			Label: バイカラー[i:3190]
+		}
+
+		Rainbow: {
+			Label: レインボー[i:5075]
+		}
+
+		Disabled: {
+			Label: 無効[i:1174]
+		}
+
+		Tooltip: ""
+	}
+
+	ConfigurationsB: {
+		Brightness: {
+			Tooltip: ""
+			Label: "[i:5075]明るさ"
+		}
+
+		BorderColorMode: {
+			Tooltip: ""
+			Label: モード
+		}
+
+		BorderSteps: {
+			Tooltip: ""
+			Label: "[i:3190]滑らかさ"
+		}
+
+		BorderColor2: {
+			Tooltip: ""
+			Label: "[i:3190]枠の色 2"
+		}
+
+		BorderColor1: {
+			Tooltip: ""
+			Label: "[i:3190]枠の色 1"
+		}
+
+		DisplayName: カーソルの色 (枠)
+	}
+
+	ConfigurationsC: {
+		CursorColorPickMode: {
+			Tooltip: ""
+			Label: カーソルカラー選択モード
+		}
+
+		CursorText: {
+			Tooltip: ""
+			Label: カーソルテキスト
+		}
+
+		Brightness: {
+			Tooltip: ""
+			Label: "[i:5075]明るさ"
+		}
+
+		CursorColorMode: {
+			Tooltip: ""
+			Label: モード
+		}
+
+		CursorSteps: {
+			Tooltip: ""
+			Label: "[i:3190]滑らかさ"
+		}
+
+		CursorColor2: {
+			Tooltip: ""
+			Label: "[i:3190]カーソルの色 2"
+		}
+
+		CursorColor1: {
+			Tooltip: ""
+			Label: "[i:3190]カーソルの色 1"
+		}
+
+		DisplayName: カーソルの色
+	}
+}

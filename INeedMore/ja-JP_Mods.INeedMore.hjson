@@ -45,12 +45,12 @@ Items: {
 	}
 
 	CatEarsHat: {
-		Tooltip: 「猫の耳を着けない理由はないだろう」
+		Tooltip: 「猫の耳を着けたくない理由なんてないだろう」
 		DisplayName: 猫の耳、ただ帽子
 	}
 
 	Tail: {
-		Tooltip: 「猫の尻尾を着けない理由はないだろう」
+		Tooltip: 「猫の尻尾を着けたくない理由なんてないだろう」
 		DisplayName: 猫の尻尾
 	}
 
@@ -318,8 +318,182 @@ Items: {
 		Tooltip: 「猫の耳を着けたくない理由なんて無いよね」
 		DisplayName: 猫の耳
 	}
+
+	Sweater8: {
+		DisplayName: 吸血鬼シャツ
+		Tooltip: 「吸血鬼ファン向け」
+	}
+
+	Bigboots: {
+		DisplayName: 巨大スニーカー
+		Tooltip: 「皆にファッショナブルだと見せつけよう！」
+	}
+
+	Bill1: {
+		DisplayName: 小さなビル上半分
+		Tooltip: 「小さくて可愛い！」
+	}
+
+	Bill2: {
+		DisplayName: 小さなビル下半分
+		Tooltip: 「小さくて可愛い！」
+	}
+
+	BillpetItem: {
+		DisplayName: 取引準備OK？
+		Tooltip: 「絶対に召喚しないでください！！」
+	}
+
+	ElegantDress: {
+		DisplayName: エレガントドレス
+		Tooltip: 「中世の魔女が火あぶりにされたような雰囲気」
+	}
+
+	BunnyEars: {
+		DisplayName: うさぎの耳
+		Tooltip: 「うさぎの耳を着けたくない理由なんてだろう」
+	}
+
+	BunnyTail: {
+		DisplayName: うさぎのしっぽ
+		Tooltip: 「うさぎのしっぽを着けたくない理由なんてないだろう」
+	}
+
+	Bow: {
+		DisplayName: かわいいリボン
+		Tooltip: 「どんなスタイルにも合う」
+	}
+
+	Leggings7: {
+		DisplayName: 丸いスカート
+		Tooltip: 「赤くて丸い」
+	}
+
+	Wings6: {
+		DisplayName: 破れた翼
+		Tooltip: 「まだ飛べるのが奇跡だ」
+	}
+
+	Horns7: {
+		DisplayName: 羽のような触角
+		Tooltip: 「迫る敵の弾を感知できる」
+	}
+
+	Wings7: {
+		DisplayName: 月光色の蝶の翼
+		Tooltip: 「蝶の翼神のためのさらなる蝶の翼」
+	}
+
+	Wings8: {
+		DisplayName: 蛾の翼
+		Tooltip: 「ずっと蛾になりたかった人向け」
+	}
+
+	Wings9: {
+		DisplayName: トンボの翼
+		Tooltip: 「残念ながら空中でホバリングはできない」
+	}
+
+	Wings10: {
+		DisplayName: トワイライト蝶の翼
+		Tooltip: 「刃のように鋭い」
+	}
+
+	Jellyfishdress: {
+		DisplayName: クラゲドレス
+		Tooltip: 「クラゲのようだ」
+	}
+
+	Hat15: {
+		DisplayName: クラゲの目隠し
+		Tooltip: 「視線で怖がらせないように」
+	}
+
+	Wings11: {
+		DisplayName: クラゲの触手
+		Tooltip: 「刺しちゃうぞ」
+	}
+
+	ShroomDress: {
+		DisplayName: モレルドレス
+		Tooltip: 「菌糸に覆われている」
+	}
+
+	ShroomHead: {
+		DisplayName: モレルヘッド
+		Tooltip: 「モレルの知恵で満たされている」
+	}
+
+	Wings12: {
+		DisplayName: 菌糸
+		Tooltip: 「菌糸なんて、どこにでもあるさ」
+	}
+
+	HellcatItem: {
+		DisplayName: 地獄の核
+		Tooltip: 地獄猫を召喚する
+	}
+
+	JellyfishItem: {
+		DisplayName: 血のクラゲ
+		Tooltip: 「餌を与えればずっとそばにいるよ」
+	}
+
+	Horns8: {
+		DisplayName: 頭の上のリボン
+		Tooltip: 「リボンに多すぎるということはない」
+	}
+
+	SearabbitItem: {
+		DisplayName: 海うさぎ
+		Tooltip: 海うさぎを召喚する
+	}
+
+	Horns9: {
+		DisplayName: 首のリボン
+		Tooltip: 「リボンに多すぎるということはない」
+	}
 }
 
+Buffs: {
+    BillpetBuff: {
+        DisplayName: いつも見ている
+        Description: 私の人生で出会った最も信頼できて友好的な存在
+    }
+
+	HellcatBuff: {
+		DisplayName: 地獄猫
+		Description: 中身は空っぽだけど君を愛している
+	}
+
+	JellyfishBuff: {
+		DisplayName: 血のクラゲ
+		Description: 血を食し永遠の仲間となるのさ
+	}
+
+	SearabbitBuff: {
+		DisplayName: 海うさぎ
+		Description: 小さくてヌルヌル
+	}
+}
+
+Projectiles: {
+	BillpetProjectile: {
+		DisplayName: Bill Cipher
+	}
+
+	HellcatProjectile: {
+		DisplayName: Hellcat
+	}
+
+	JellyfishProjectile: {
+		DisplayName: Bloody jellyfish
+	}
+
+	SearabbitProjectile: {
+		DisplayName: Sea bunny
+	}
+}
 
 Common: {
 	PaperAirplane: 紙飛行機
