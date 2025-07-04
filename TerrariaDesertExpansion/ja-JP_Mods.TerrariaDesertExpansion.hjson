@@ -1,0 +1,152 @@
+Items: {
+    SerpentFang: {
+        DisplayName: 蛇の牙
+        Tooltip: 「アッ痛ッ…」
+    }
+
+	CactusStaff: {
+		DisplayName: サボテンの杖
+		Tooltip:
+			'''
+			辺りを守るサボテンのキャミーを召喚する
+			「彼女はトゲトゲしてるってよく言われるけど、キャミーはパーソナルスペースを大事にしてるだけだよ！」
+			'''
+	}
+
+	SpittingSerpentScepter: {
+		DisplayName: 蛇の毒杖
+		Tooltip:
+			'''
+			敵に『毒』を付与する貫通する唾を放つ
+			「毒舌な言葉を吐き出すんだ！」
+			'''
+	}
+
+	CactusLamp: {
+		DisplayName: サボテンのランプ
+		Tooltip: 「中に電球でも入ってるの？」
+	}
+
+	SandShaker: {
+		DisplayName: サンドシェイカー
+		Tooltip:
+			'''
+			飛行する敵を地面に叩きつける
+			地面にいる敵に追加ダメージの強力な一撃を与える
+			'''
+	}
+
+	EvilSnakeBannerItem: {
+		DisplayName: 邪悪な蛇のバナー
+	}
+
+	CactoidBannerItem: {
+		DisplayName: サボトイドバナー
+	}
+
+	CorruptCactoidBannerItem: {
+		DisplayName: 不浄のサボトイドバナー
+	}
+
+	CrimsonCactoidBannerItem: {
+		DisplayName: クリムゾンサボトイドバナー
+	}
+
+	HallowedCactoidBannerItem: {
+		DisplayName: カラフルサボトイドバナー
+	}
+}
+
+WorldGen: {
+    DesertUrnMessage: 壺を生成中
+    DesertMoundMessage: 砂漠の丘を生成中
+    DesertHouseMessage: サボテンの家を生成中
+}
+
+NPCs: {
+    MegaCactusSlime: {
+        DisplayName: メガサボテンスライム
+    }
+
+	TheSun: {
+		DisplayName: 太陽
+	}
+
+	Cactoid: {
+		DisplayName: サボトイド
+	}
+
+	CactusSlimeIdle: {
+		DisplayName: 眠ているスライム
+	}
+
+	EvilSnake: {
+		DisplayName: 邪悪な蛇
+	}
+
+	ScarabSpirit: {
+		DisplayName: スカラベ精霊
+	}
+
+	CorruptCactoid: {
+		DisplayName: 不浄のサボトイド
+	}
+
+	CrimsonCactoid: {
+		DisplayName: クリムゾンサボトイド
+	}
+
+	HallowedCactoid: {
+		DisplayName: カラフルサボトイド
+	}
+}
+
+Projectiles: {
+	CactusStaffSentry: {
+		DisplayName: Cactus Staff Sentry
+	}
+
+	CactusStaffSpike: {
+		DisplayName: Cactus Staff Spike
+	}
+
+	ScepterBite: {
+		DisplayName: Scepter Bite
+	}
+
+	ScepterSpit: {
+		DisplayName: Scepter Spit
+	}
+
+	CactusSlimeShockwave: {
+		DisplayName: Cactus Slime Shockwave
+	}
+
+	CactusSlimeSpike: {
+		DisplayName: Cactus Slime Spike
+	}
+
+	EvilSnakeBite: {
+		DisplayName: Evil Snake Bite
+	}
+
+	BloodSpit: {
+		DisplayName: Blood Spit
+	}
+
+	CactusLampPet: {
+		DisplayName: Cactus Lamp Pet
+	}
+
+	SandShakerProj: {
+		DisplayName: Sand Shaker
+	}
+}
+
+Buffs: {
+    CactusLampBuff: {
+        DisplayName: サボテンランプの光
+        Description: 道を照らす…けど、チラつくよ
+    }
+}
+

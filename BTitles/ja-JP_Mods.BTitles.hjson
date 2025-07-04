@@ -1,0 +1,253 @@
+Configs: {
+    TitleAnimationType: {
+        Tooltip: ""
+
+		ShowFadeSwipe: {
+			Label: 表示/スワイプしてフェード
+		}
+
+		ShowFade: {
+			Label: 表示/フェード
+		}
+
+		None: {
+			Label: アニメーションなし
+		}
+	}
+
+	BiomeNameMapping: {
+		Tooltip: ""
+
+		NewName: {
+			Tooltip: バイオームの新しいカスタム名。
+			Label: 新しい名前
+		}
+
+		CurrentName: {
+			Tooltip: バイオームの現在の（元の）名前。
+			Label: 現在の名前
+		}
+	}
+
+	ScaleOption: {
+		Tooltip: ""
+
+		Big: {
+			Label: 大
+		}
+
+		Normal: {
+			Label: 標準
+		}
+
+		Small: {
+			Label: 小
+		}
+	}
+
+	PositionOption: {
+		Tooltip: ""
+
+		Custom: {
+			Label: カスタム
+		}
+
+		RPGStyle: {
+			Label: RPGスタイル
+		}
+
+		Bottom: {
+			Label: 下
+		}
+
+		Top: {
+			Label: 上
+		}
+	}
+
+	GeneralConfig: {
+		HideWhileBossIsAlive: {
+			Tooltip: ボスが生存中は、タイトルを非表示にします
+			Label: ボス戦中は非表示
+		}
+
+		CustomPositionY: {
+			Tooltip: ""
+			Label: カスタム位置Y
+		}
+
+		CustomPositionX: {
+			Tooltip: ""
+			Label: カスタム位置X
+		}
+
+		HasShownFirstTimeMessage: {
+			Tooltip: ウェルカムメッセージが表示されたかどうかを追跡する内部フラグ
+			Label: 初回メッセージ表示済み
+		}
+
+		HasShownAdvertisement: {
+			Tooltip: ""
+			Label: 広告表示済み
+		}
+
+		AutoDetectNewBiomes: {
+			Tooltip: サポートされていないMODのバイオームを自動検出する
+			Label: 新しいバイオームの自動検出
+		}
+
+		AutoDetectBiomes: {
+			Tooltip: 明示的なサポートがないMODのバイオームのタイトルを表示
+			Label: MODバイオームの自動検出
+		}
+
+		TitleAnimationType: {
+			ShowFadeSwipe: {
+				Label: 表示/スワイプしてフェード
+			}
+
+			ShowFade: {
+				Label: 表示/フェード
+			}
+
+			None: {
+				Label: アニメーションなし
+			}
+		}
+
+		BiomeNameMapping: {
+			NewName: {
+				Tooltip: バイオームの新しいカスタム名。
+				Label: 新しい名前
+			}
+
+			CurrentName: {
+				Tooltip: バイオームの現在の（元の）名前。
+				Label: 現在の名前
+			}
+		}
+
+		ScaleOption: {
+			Big: {
+				Label: 大
+			}
+
+			Normal: {
+				Label: 標準
+			}
+
+			Small: {
+				Label: 小
+			}
+		}
+
+		PositionOption: {
+			Custom: {
+				Label: カスタム
+			}
+
+			RPGStyle: {
+				Label: RPGスタイル
+			}
+
+			Bottom: {
+				Label: 下
+			}
+
+			Top: {
+				Label: 上
+			}
+		}
+
+		TransitionOutDuration: {
+			Tooltip: タイトルが画面から消える時間（秒）
+			Label: フェードアウト時間
+		}
+
+		TransitionInDuration: {
+			Tooltip: タイトルが画面に現れる時間（秒）
+			Label: フェードイン時間
+		}
+
+		VisibilityDuration: {
+			TransitionOutDuration: {
+				Tooltip: タイトルが画面から消える時間（秒）
+				Label: フェードアウト時間
+			}
+
+			TransitionInDuration: {
+				Tooltip: タイトルが画面に現れる時間（秒）
+				Label: フェードイン時間
+			}
+
+			Tooltip: タイトルが画面に表示される時間（秒）、0は無制限
+			Label: 表示時間
+		}
+
+		TitleAnimation: {
+			Tooltip: タイトルの出現と消滅のアニメーション
+			Label: アニメーションタイプ
+		}
+
+		BiomeCheckDelay: {
+			Tooltip: バイオームチェックの間隔（秒）
+			Label: バイオームチェック間隔
+		}
+
+		EnableDraggableTitle: {
+			Tooltip: 位置がカスタムの場合、タイトルをドラッグ可能にします
+			Label: タイトルドラッグ有効
+		}
+
+		CustomBiomeNames: {
+			Tooltip: バイオームのカスタム名を設定
+			Label: カスタムバイオーム名
+		}
+
+		HideWhileInventoryOpen: {
+			Tooltip: プレイヤーのインベントリが開いている間、タイトルを非表示にします
+			Label: インベントリ開放時は非表示
+		}
+
+		EnableBackgrounds: {
+			Tooltip: タイトルとサブタイトルの背景の表示を有効にします
+			Label: タイトル背景
+		}
+
+		DisplaySubtitle: {
+			Tooltip: タイトルのサブタイトルを有効または無効にします
+			Label: サブタイトル表示
+		}
+
+		ShowIcons: {
+			Tooltip: 各バイオームのカスタムアイコンを有効または無効にします
+			Label: バイオームアイコン
+		}
+
+		UseCustomTextColors: {
+			Tooltip: 各バイオームのカスタムタイトル色を有効または無効にします
+			Label: タイトル色変更
+		}
+
+		Scale: {
+			Tooltip: タイトルのサイズを設定
+			Label: サイズ
+		}
+
+		Position: {
+			Tooltip: タイトルの位置を選択
+			Label: 位置
+		}
+
+		Headers: {
+			System: システムヘッダー
+			Auto_Detection: 自動検出ヘッダー
+			Animation: アニメーション
+			Advanced_Customization: 高度なカスタマイズ
+			Visuals_Config: ビジュアル設定
+		}
+
+		DisplayName: 一般設定
+	}
+}
+

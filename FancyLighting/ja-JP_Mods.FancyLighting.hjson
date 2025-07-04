@@ -1,19 +1,19 @@
 Configs: {
 	SkyColorPreset: {
-		Profile4: {
-			Label: プロットファイル4
+		Preset1: {
+			Label: プリセット1
 		}
 
-		Profile3: {
-			Label: プロットファイル3
+		Preset2: {
+			Label: プリセット2
 		}
 
-		Profile2: {
-			Label: プロットファイル2
+		Preset3: {
+			Label: プリセット3
 		}
 
-		Profile1: {
-			Label: プロットファイル1
+		Preset4: {
+			Label: プリセット4
 		}
 
 		Tooltip: ""
@@ -39,7 +39,7 @@ Configs: {
 		Tooltip: ""
 	}
 
-	Preset: {
+	SettingsPreset: {
 		UltraPreset: {
 			Label: ウルトラ
 		}
@@ -88,6 +88,16 @@ Configs: {
 	}
 
 	LightingConfig: {
+		UseFancySkyColors: {
+			Label: ファンシーな空の色
+			Tooltip:
+				'''
+				新しい空の色を使用します
+
+				主に早朝と夕方の太陽光の色に影響します
+				'''
+		}
+
 		SimulateGlobalIllumination: {
 			Tooltip:
 				'''
@@ -223,8 +233,8 @@ Configs: {
 		}
 
 		Headers: {
-			SkyColor: 空の色
-			LightingEngine: ファンシー照明エンジン
+			FancySky: 空の色
+			FancyLightingEngine: Fancy Lighting エンジン
 			AmbientOcclusion: 周囲の光
 			SmoothLighting: 滑らかな照明
 		}
@@ -233,9 +243,14 @@ Configs: {
 	}
 
 	PreferencesConfig: {
-		CustomSkyPreset: {
-			Tooltip: どの空の色を使用するかを選択します
-			Label: 空の色プロファイル
+		FancySkyColorsPreset: {
+			Label: 空の色プリセット
+			Tooltip:
+				'''
+				使用する空の色セットを選択します
+
+				この設定を有効化するには『ファンシーな空の色』を有効にしておく必要があります
+				'''
 		}
 
 		UseCustomSkyColors: {
@@ -315,6 +330,15 @@ Configs: {
 		RenderOnlyLight: {
 			Tooltip: オンにすると、タイル、壁、背景のテクスチャを使わずに明るい色を直接レンダリングします
 			Label: （デバッグ）光の色を表示
+		}
+
+		UseGrayscaleLighting: {
+			Label: モノクロライティング
+			Tooltip:
+				'''
+  				光をモノクロで表示します
+            	有効にすると、光からすべての色が削除されます
+				'''
 		}
 
 		DisableHdrDuringBossFights: {
@@ -415,8 +439,8 @@ Configs: {
 		}
 
 		Headers: {
-			SkyColor: ファンシーな空の色
-			LightingEngine: Fancy Lighting エンジン
+			FancySky: ファンシーな空
+			FancyLightingEngine: Fancy Lighting エンジン
 			AmbientOcclusion: 周囲の光
 			SmoothLighting: 滑らかな照明
 			ToneMapping: トーンマッピング
