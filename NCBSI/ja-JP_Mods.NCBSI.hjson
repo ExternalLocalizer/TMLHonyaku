@@ -1,0 +1,151 @@
+Items: {
+	CrystalizedPrismaticLacewing: {
+		Tooltip:
+			'''
+			プランテラを撃破した後、聖域バイオームで使用可能
+			エンプレス・オブ・ライトを召喚する
+			日中は激怒する
+			'''
+		DisplayName: 結晶化したプリズムクサカゲロウ
+	}
+
+	CursedSkull: {
+		Tooltip:
+			'''
+			夜のみ使用可能
+			夜はスケルトロンを召喚する
+			日中はダンジョンガーディアンを召喚する(複数回使用してください)
+			'''
+		DisplayName: 呪われた頭蓋骨
+	}
+
+	PlanterasBud: {
+		Tooltip:
+			'''
+			三大メカニカルボスを倒した後ジャングルで使用可能
+			プランテラを召喚する
+			'''
+		DisplayName: プランテラのつぼみ
+	}
+
+	RemoteAltarController: {
+		Tooltip:
+			'''
+			プランテラを倒した後リザードの祭壇の近くで使用可能
+			ゴーレムを召喚する
+			'''
+		DisplayName: 祭壇用リモコン
+	}
+
+	TruffleBait: {
+		Tooltip:
+			'''
+			海で使用可能
+			デューク・フィッシュロンを召喚する
+			'''
+		DisplayName: トリュフの釣り餌
+	}
+
+	WrithingFlesh: {
+		Tooltip:
+			'''
+			地底で使用可能
+			ウォール・オブ・フレッシュを召喚する
+			'''
+		DisplayName: うねる生肉
+	}
+
+	DragonsBreathInAJar: {
+		DisplayName: 瓶入りのドラゴンブレス
+		Tooltip:
+			'''
+			ゴーレムを倒した後使用可
+			ベッツィーを召喚する
+			'''
+	}
+
+	EnchantedBook: {
+		DisplayName: 魔法の本
+		Tooltip: ダークメイジを召喚する
+	}
+
+	WoodenClub: {
+		DisplayName: 木の棍棒
+		Tooltip: オーガを召喚する
+	}
+
+	RainyCloud: {
+		DisplayName: あまぐも
+		Tooltip: 雨を開始する
+	}
+
+	SlimyCloud: {
+		DisplayName: スライムぐも
+		Tooltip: スライムの雨を開始する
+	}
+
+	SandyTornado: {
+		DisplayName: サンドトルネード
+		Tooltip: 砂嵐を開始する
+	}
+
+	MartianCommunicator: {
+		DisplayName: 火星人の通信機
+		Tooltip:
+			'''
+			ゴーレムを倒した後使用可能
+			マーズソーサーを召喚する
+			'''
+	}
+
+	LunaticSummon: {
+		Tooltip:
+			'''
+			ゴーレムを倒し、宇宙の柱が世界にない場合使用可能
+			狂気の崇拝者を召喚する
+			'''
+		DisplayName: 崇拝者のビートルマスク
+	}
+
+	LunarEventSummon: {
+		Tooltip:
+			'''
+			狂気の狂信者を倒し、狂気の狂信者がワールドにいない場合使用可能
+			宇宙の柱を召喚する
+			撃破後にムーンロードを召喚しない
+			'''
+		DisplayName: 柱の束
+	}
+
+	PlanktonBait: {
+		DisplayName: エサ用プランクトン
+		Tooltip: ""
+	}
+}
+
+PlanktonBait: {
+	Tooltip:
+		'''
+		ハードモードかつブラッドムーン中に使用可能
+		ドレッドノーチラスを召喚する
+		「ヒミツの数式を盗むところを見られてしまった」
+		'''
+	DisplayName: エサ用プランクトン
+}
+
+Configs: {
+	BlacklistConfig: {
+		DisplayName: NCBSI 設定
+
+		AutoBossDetectionEnabled: {
+			Label: 自動ボス召喚検知
+			Tooltip: 壊れているアイテムがある場合は無効にしてください。Mod作者のWorkshopページで報告してくれると助かります。
+		}
+
+		BossSummonsAreNotConsumable: {
+			Label: ボス召喚アイテムを消費しない
+			Tooltip: オフにする人は⋯ひょっとして新しい召喚アイテムだけほしかったのかな？
+		}
+	}
+}
+
