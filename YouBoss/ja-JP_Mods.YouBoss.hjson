@@ -1,0 +1,75 @@
+NPCs: {
+	TerraBladeBoss: {
+		DisplayName: テラブレード
+
+		BossChecklistIntegration: {
+			SpawnInfo: "[i:YouBoss/CursedMirror]を使う"
+			DespawnMessage: "[c/0EA85D:あなたは消えてしまった。]"
+		}
+	}
+}
+
+Projectiles: {
+	AcceleratingTerraBeam: {
+		DisplayName: テラビーム
+	}
+
+	ArcingLightBeam: {
+		DisplayName: ライトビーム
+	}
+
+	ArcingNightBeam: {
+		DisplayName: ナイトビーム
+	}
+
+	ArcingTerraBeam: {
+		DisplayName: テラビーム
+	}
+
+	TelegraphedTerraBeam: {
+		DisplayName: テラビーム
+	}
+
+	TerraBladeSplit: {
+		DisplayName: テラブレードの欠片
+	}
+
+	TerraGroundShock: {
+		DisplayName: テラグラウンドショック
+	}
+
+	FirstFractalHoldout: {
+		DisplayName: ファースト・フラクタル
+	}
+
+	HomingTerraBeam: {
+		DisplayName: テラビーム
+	}
+
+	TerraSlash: {
+		DisplayName: テラスラッシュ
+	}
+
+	PlayerShadowClone: {
+		DisplayName: シャドウクローン
+	}
+}
+
+Buffs: {
+	GracedWings: {
+		DisplayName: 恵みの翼
+		Description: 果てなき俊敏な飛行能力を得る
+	}
+}
+
+Items: {
+	CursedMirror: {
+		DisplayName: 呪われた鏡
+		Tooltip: 自分自身を召喚する
+	}
+
+	FirstFractal: {
+		DisplayName: ファースト・フラクタル
+		Tooltip: ""
+	}
+}
