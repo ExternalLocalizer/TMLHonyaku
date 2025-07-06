@@ -1,0 +1,477 @@
+Projectiles: {
+	DodgeDagger: {
+		DisplayName: ドッジ・ダガー
+	}
+}
+
+Buffs: {
+	Doomed: {
+		Description: 被ダメージが50%増加
+		DisplayName: 呪われた
+	}
+}
+
+Passives: {
+	Halfbloods: {
+		Tooltip: 夜の後半は常にブラッドムーンになる
+		Name: ハーフブラッド
+	}
+
+	BloodMoonBleed: {
+		Tooltip: ブラッドムーン中に出現する敵は[c/AAAAFF:+10%]の確率で出血を付与
+		Name: ブラッドムーン敵出血率
+	}
+
+	BloodMoonStrength: {
+		Tooltip:
+			'''
+			ブラッドムーン中に出現する敵は[c/AAAAFF:+1]のダメージ
+			ブラッドムーン中に出現する敵は[c/AAAAFF:+1]の防御力
+			'''
+		Name: ブラッドムーン敵強化
+	}
+
+	CreepingDarkness: {
+		Tooltip: 暗闇にいる間は光が減少し、明るい場所に戻るとゆっくり回復
+		Name: 忍び寄る闇
+	}
+
+	Darkness: {
+		Tooltip: 光量が[c/AAAAFF:0.5%]減少
+		Name: 闇
+	}
+
+	FlyingDaggers: {
+		Tooltip: 敵が回避するとランダムな方向に短剣を投げる
+		Name: 飛び交う短剣
+	}
+
+	Mundanity: {
+		Tooltip: 最初の[c/AAAAFF:2]つのアクセサリスロットが封印される
+		Name: 平凡
+	}
+
+	TemporalTrance: {
+		Tooltip: 全ての動作が[c/AAAAFF:25%]高速化
+		Name: 時の恍惚
+	}
+
+	VampiricHorde: {
+		Tooltip: 敵が近接攻撃で[c/AAAAFF:100]ライフを回復
+		Name: 吸血の群れ
+	}
+
+	TwistOfFate: {
+		Tooltip:
+			'''
+			呪いのポジティブ効果の多くを無効化・無効にする
+
+			[c/FF4444:警告]: [c/FFAAAA:有益な効果は一切ありません！]
+			'''
+		Name: 運命のいたずら
+	}
+
+	PanicGuard: {
+		Tooltip: HPが[c/AAAAFF:33%]以下の敵は[c/AAAAFF:+15]防御力を得る
+		Name: パニックガード
+	}
+
+	Mending: {
+		Tooltip: 敵のライフ自然回復が[c/AAAAFF:50%]増進
+		Name: 回復強化
+	}
+
+	ManaFlux: {
+		Tooltip: 出血中のプレイヤーはマナを急速に失う
+		Name: マナの乱流
+	}
+
+	PiercePenalty: {
+		Tooltip: 敵に当たると[c/AAAAFF:+1]ピアースを消費
+		Name: ピアース低下
+	}
+
+	ManaDamage: {
+		Tooltip: ダメージを受けると[c/AAAAFF:10]マナを失う
+		Name: マナ吸収
+	}
+
+	ManaCost: {
+		Tooltip: すべての武器の使用に[c/AAAAFF:+1]マナが必要
+		Name: マナ消費増加
+	}
+
+	ManaTithe: {
+		Tooltip: すべての武器の使用に[c/AAAAFF:+4]マナが必要
+		Name: マナの重み
+	}
+
+	Heartbreakers: {
+		Tooltip: 被ダメ時に最大HPが[c/AAAAFF:20]減少し、時間経過で回復
+		Name: ハートブレイカー
+	}
+
+	BadMedicine: {
+		Tooltip:
+			'''
+			回復アイテムを使うと[c/AAAAFF:5]秒間呪われた状態になる
+			呪いは被ダメージを50%増加させるデバフ
+			'''
+		Name: 悪い薬
+	}
+
+	HardmodeEndurance: {
+		Tooltip: 敵が受けるダメージが[c/AAAAFF:6%]減少
+		Name: 敵耐久強化
+	}
+
+	EnemyMoreLife: {
+		Tooltip: 敵のHPが[c/AAAAFF:10%]増加
+		Name: 敵HP増加
+	}
+
+	SicklyPotions: {
+		Tooltip: 回復アイテムの効果が即時ではなく徐々に回復する
+		Name: 不健康なポーション
+	}
+
+	PotionHealing: {
+		Tooltip: 回復アイテムの効果が[c/AAAAFF:-5]減少
+		Name: 回復量減少
+	}
+
+	PotionSickness: {
+		Tooltip: ポーション酔いの持続が[c/AAAAFF:5]秒延長
+		Name: ポーション酔い延長
+	}
+
+	EnemyDodge: {
+		Tooltip: 敵がダメージを回避する確率が[c/AAAAFF:+2%]
+		Name: 敵の回避率
+	}
+
+	CalamityDamage: {
+		Tooltip: Calamityの敵のダメージが[c/AAAAFF:+1]
+		Name: Calamity敵ダメージ
+	}
+
+	CalamityGate: {
+		Tooltip: Calamityが有効化されているときのみ取得可能
+		Name: Mod制限：Calamity
+	}
+
+	StarlightEnemyBarrier: {
+		Tooltip: 敵の最大バリアが[c/AAAAFF:+20]
+		Name: 敵バリア
+	}
+
+	StarlightRiverGate: {
+		Tooltip: Starlight Riverが有効化されているときのみ取得可能
+		Name: Mod制限：Starlight River
+	}
+
+	WormsInfluence: {
+		Tooltip:
+			'''
+			敵が受けるダメージが[c/AAAAFF:15%]減少
+			ワーム系の敵はさらに[c/AAAAFF:10%]減少
+			'''
+		Name: ワームの影響
+	}
+
+	VengefulShades: {
+		Tooltip:
+			'''
+			敵が死亡時に[c/AAAAFF:10%]の確率でレイスを召喚
+			レイスは必ず追加のアンブラをドロップ
+			'''
+		Name: 復讐の影
+	}
+
+	SpontaneousGeneration: {
+		Tooltip: 敵が死亡時に[c/AAAAFF:10%]の確率で分裂する
+		Name: 自然発生
+	}
+
+	InstrumentsOfHarm: {
+		Tooltip: 敵が[c/AAAAFF:20%]の確率で凶悪化し、ダメージが[c/AAAAFF:50%]増加
+		Name: 害の器
+	}
+
+	DoomConflux: {
+		Tooltip:
+			'''
+			敵は[c/AAAAFF:10]ドゥームごとに[c/AAAAFF:+1%]の確率で呪いを付与
+			呪いは被ダメージを50%増加させるデバフ
+			'''
+		Name: 呪いの連鎖
+	}
+
+	DoomBeacon: {
+		Tooltip: "[c/AAAAFF:5]ドゥームごとに出現率が[c/AAAAFF:1%]増加"
+		Name: 呪いの灯火
+	}
+
+	Comorbidity: {
+		Tooltip:
+			'''
+			毒状態のプレイヤーは同時に猛毒状態になる
+			猛毒状態のプレイヤーは同時に毒状態になる
+			'''
+		Name: 合併症
+	}
+
+	HardmodeDoubleChance: {
+		Tooltip: 敵がペアで出現する確率が[c/AAAAFF:+5%]
+		Name: 双子の出現率
+	}
+
+	HardmodeStrengthPerDoom: {
+		Tooltip:
+			'''
+			敵のダメージが[c/AAAAFF:20]ドゥームごとに[c/AAAAFF:1%]増加
+			敵のHPが[c/AAAAFF:10]ドゥームごとに[c/AAAAFF:+1]増加
+			'''
+		Name: 呪われた体
+	}
+
+	HardmodeEnemyVenom: {
+		Tooltip: 敵が[c/AAAAFF:+2%]の確率で猛毒を付与
+		Name: 敵の猛毒付与率
+	}
+
+	HardmodeEnemyPoision: {
+		Tooltip: 敵が[c/AAAAFF:+10%]の確率で毒を付与
+		Name: 敵の毒付与率
+	}
+
+	HardmodeStrength: {
+		Tooltip:
+			'''
+			ボス以外の敵が受けるダメージが[c/AAAAFF:2%]減少
+			ボス以外の敵のダメージが[c/AAAAFF:5%]増加
+			'''
+		Name: 通常敵の強化
+	}
+
+	SpawnRate: {
+		Tooltip: 出現率が[c/AAAAFF:5%]増加
+		Name: 出現率上昇
+	}
+
+	StrengthPerDoom: {
+		Tooltip:
+			'''
+			敵のダメージが[c/AAAAFF:30]ドゥームごとに[c/AAAAFF:1%]増加
+			敵のHPが[c/AAAAFF:20]ドゥームごとに[c/AAAAFF:+1]増加
+			'''
+		Name: 呪われた体
+	}
+
+	BossStrength: {
+		Tooltip:
+			'''
+			ボスが受けるダメージが[c/AAAAFF:2%]減少
+			ボスのダメージが[c/AAAAFF:5%]増加
+			'''
+		Name: ボス強化
+	}
+
+	VitalityVortex: {
+		Tooltip:
+			'''
+			プレイヤーの周囲（[c/AAAAFF:10]ブロック以内）の敵は毎秒[c/AAAAFF:+20]ライフ回復
+			プレイヤーは周囲に敵がいるとライフ自然回復が[c/AAAAFF:25%]低下
+			'''
+		Name: 活力の渦
+	}
+
+	ElongatedEngagements: {
+		Tooltip:
+			'''
+			ボスのHPが[c/AAAAFF:50%]増加
+			追加でトレジャーバッグをドロップ
+			'''
+		Name: 長引く戦闘
+	}
+
+	DeadlyDuels: {
+		Tooltip:
+			'''
+			ボスのダメージが[c/AAAAFF:30%]増加
+			追加でトレジャーバッグをドロップ
+			'''
+		Name: 死の決闘
+	}
+
+	HardmodeGate: {
+		Tooltip:
+			'''
+			地獄の肉を捧げることでのみ満たされる
+			このノードを通るには[c/FF7766:ハードモード]に突入せよ
+			'''
+		Name: 肉のるつぼ
+	}
+
+	EnemySurvival: {
+		Tooltip:
+			'''
+			敵のHPが[c/AAAAFF:+25]
+			敵の防御が[c/AAAAFF:+1]
+			'''
+		Name: 敵の生存力
+	}
+
+	EnemyPoision: {
+		Tooltip: 敵が[c/AAAAFF:+5%]の確率で毒を付与
+		Name: 敵の毒付与率
+	}
+
+	MoreEnemyDamage: {
+		Tooltip: 敵のダメージが[c/AAAAFF:5%]増加
+		Name: 敵ダメージ増加
+	}
+
+	UndeniableFoes: {
+		Tooltip: 敵がノックバックを受けない
+		Name: 押し返せぬ敵
+	}
+
+	BurningBlood: {
+		Tooltip: 出血中のプレイヤーは常に燃焼状態になる
+		Name: 燃え上がる血
+	}
+
+	EnemyEndurance: {
+		Tooltip: 敵が受けるダメージが[c/AAAAFF:2%]減少
+		Name: 敵耐久力
+	}
+
+	EnemyDefense: {
+		Tooltip: 敵の防御力が[c/AAAAFF:+1]
+		Name: 敵防御力
+	}
+
+	EnemyRegen: {
+		Tooltip: 敵のライフ自然回復が毎秒[c/AAAAFF:+1]
+		Name: 敵ライフ回復
+	}
+
+	EnemyLife: {
+		Tooltip: 敵のHPが[c/AAAAFF:3%]増加
+		Name: 敵ライフ
+	}
+
+	EnemyBleed: {
+		Tooltip: 敵が[c/AAAAFF:+5%]の確率で出血を付与
+		Name: 敵の出血付与率
+	}
+
+	PlayerWither: {
+		Tooltip: プレイヤーのライフ自然回復が[c/AAAAFF:5%]減少
+		Name: 回復力低下
+	}
+
+	StartPoint: {
+		Tooltip: これはアンブラの樹だ。アンブラポイントを使ってゲームを難しくしつつ報酬も増やせる。点滅しているノードを左クリックで取得、他のノードに依存していないノードは右クリックで解除し、アンブラポイントの半分を返還できる。
+		Name: アンブラの樹
+	}
+
+	EnemyDamage: {
+		Tooltip: 敵のダメージが[c/AAAAFF:+1]
+		Name: 敵ダメージ
+	}
+}
+
+GUI: {
+	InventoryButton: {
+		Description:
+			'''
+			これをクリックするとアンブラの樹が開く
+			アンブラポイントを消費してゲームの難易度を上げることができる
+
+			[c/AAAAFF:{0}] / [c/AAAAFF:{1}] 撃破で次のポイント獲得
+			'''
+		Title: アンブラの樹（未使用のアンブラ [c/CC88FF:{0}]）
+	}
+
+	Node: {
+		Refund: 払い戻し: [c/BB88FF:{0} アンブラ]
+		Cost: コスト: [c/BB88FF:{0} アンブラ]
+		Doom: 呪い: [c/FFAAAA:{0} ドゥーム]
+	}
+
+	Tree: {
+		FullscreenButton: フルスクリーン切替
+		CloseButton: 閉じる
+		EditModeTooltip:
+			'''
+			編集モード操作説明:
+			左クリックで選択、グリッドに左クリックで追加
+			ノードを左クリックで選択、右クリックで削除
+			Shift＋左クリックで選択中のノードと接続
+			Shift＋右クリックで接続を解除
+			選択肢を右クリックでそのノードに選択変更
+			'''
+		DoomTooltipDescInverted:
+			'''
+			呪いはアンブラの樹がゲームの難易度に与える影響の概算
+
+			現在「運命のいたずら」を選択しているため、以下のペナルティを受ける:
+
+			[c/FFDD88:ゴールド]: [c/AAAAFF:{0}%] ゴールド獲得量減少
+			[c/99FF99:運]: [c/AAAAFF:-{1}] 運
+
+			ただし、以下の恩恵は残る:
+
+			[c/DDAAFF:アンブラ]: [c/AAAAFF:+{2}%] アンブラドロップ率
+			'''
+		DoomTooltipDescDefault:
+			'''
+			呪いはアンブラの樹がゲームの難易度に与える影響の概算
+
+			さらに以下の恩恵を得る:
+
+			[c/FFDD88:ゴールド]: [c/AAAAFF:{0}%] ゴールド獲得量増加
+			[c/99FF99:運]: [c/AAAAFF:+{1}] 運
+			[c/FF9999:ドロップ]: [c/AAAAFF:{2}%] ダブルドロップ率
+			[c/DDAAFF:アンブラ]: [c/AAAAFF:+{3}%] アンブラドロップ率
+			'''
+		DoomTooltipTitle: "{0} の呪い"
+		Doom: 呪い
+		UmbraTooltipDesc:
+			'''
+			アンブラポイントはアンブラの樹でノードを取得するために使用
+			ドゥームポイントが高いほどアンブラを得る確率が上昇
+			現在のアンブラドロップ確率は[c/AAAAFF:{0}%]
+			'''
+		UmbraTooltipTitle: "残りアンブラポイント：{0}"
+		Umbra: アンブラ
+	}
+}
+
+Items: {
+	MundanityItem: {
+		Tooltip:
+			'''
+			[c/888888:効果なし]
+			[c/888888:取り外し不可]
+			'''
+		DisplayName: 平凡
+	}
+
+	UmbraPickup: {
+		Tooltip: ""
+		DisplayName: アンブラポイント
+	}
+
+	DebugStick: {
+		Tooltip:
+			'''
+			アイテムのテンプレート
+			このツールチップは置き換える義務あり
+			富士山に雪が降っている
+			'''
+		DisplayName: デバッグスティック
+	}
+}
