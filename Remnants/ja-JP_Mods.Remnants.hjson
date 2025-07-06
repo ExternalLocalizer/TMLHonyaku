@@ -1,514 +1,492 @@
-Configs: {
-	Gameplay: {
-		CustomMusic: {
-			Tooltip: このMod独自の音楽を有効にします
-			Label: "[i:576] カスタム音楽"
-		}
+Safeguard: {
+	IssuesFound: Remnantsは互換性の問題を1つ以上検出したため、以下のワールドを作成できません。検出された問題:
+	SmallWorlds: ワールドのサイズが小さすぎます。
+	SecretSeeds: シークレットシードが選択されています。
+	BadRatio: 非標準の縦横比が使用されています。
+	HomewardJourney: Homeward JourneyのMODが有効になっています。
+	Aequus: Aequus のMODが有効になっています。
+	StartWithBase: Start With Base のMODが有効になっています。
+	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
+	WOTGMultiplayer: Remnants は、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
+}
 
-		HangingBats: {
-			Tooltip:
-				'''
-				コウモリが天井からぶら下がって出現し、近づくと攻撃してきます
+Chat: {
+	LabyrinthTeleportation: 未知の魔法がテレポーテーションを阻んでいる...
+}
 
-				注意：マルチプレイでは効果がありません
-				'''
-			Label: "[i:1621] 吊り下げコウモリ"
-		}
+WorldgenMessages: {
+	Safeguard: 互換性を確認中
+	Setup: バイオームマップを設定中
+	Cleanup: 地形を整備中
+	Touchups: 最終仕上げ中
+	Spawnpoint: スポーン地点を調整中
+	BiomeUpdate: バイオームマップを更新中
+	Terrain: 地形を生成中
+	Caves: 洞窟を浸食中
+	Ores: 鉱石を配置中
+	Clouds: 雲を形成中
+	SpecialPlants: 異世界の植物を成長中
+	Grass: 草を成長中
+	Moss: 苔を生成中
+	Piles: オブジェクトを配置中
+	Underworld: 地獄を作成中
+	LivingTrees: 古代の根を成長中
+	Mineshafts: 鉱坑を構築中
+	Pyramid: 砂漠のピラミッドを構築中
+	Beehives: スズメバチの遺伝子を変異中
+	SkyIslands: 空島を上昇中
+	GemCaves: 輝くジオードを形成中
+	Microdungeons: 小型ダンジョンを構築中
+	Boulders: 巨石を設置中
+	IceTemples: 氷の神殿を彫刻中
+	ThermalRigs: 地熱装置を構築中
+	Dungeon: 呪われた都市を構築中
+	JungleTemple: ジャングルのピラミッドを構築中
+	Tomb: 幽霊の墓を構築中
+	MagicalLab: 魔法の研究所を構築中
+	Labyrinth: 古代の迷宮を構築中
+	Stronghold: 地獄の要塞を構築中
+	WaterTemple: 水中神殿を彫刻中
+	AerialGarden: 天空の庭園を構築中
+	Vault: 金庫室を構築中
+}
 
-		ProjectileAI: {
-			Tooltip:
-				'''
-				投擲武器の軌道が滑らかになり、扱いやすくなります
-				手裏剣の自動連射など、追加のバランス調整も含まれます
+Bestiary: {
+	Ward: 冷たい巨石の塊にして、揺るぎなき憤怒の化身。迷宮の曲がりくねった回廊を徘徊し、その中心に隠された何かを守護している...
+	HoneySlime: このスライムは大量の蜜を吸収したことで、驚異的な生命力と耐久力を得た。
+	Blaster: 重厚な装甲を持つ自動機械兵。爆発性の弾薬を搭載し、今なお古代の領域を侵す者を容赦なく排除する。
+	Flamer: 知性を持たないはずの機械兵。しかし、侵入者を焼き尽くす様子には、まるで悪意と喜びが宿っているかのようだ。
+	Gunner: 長年放置されながらも、その銃撃の嵐で標的を排除する能力は衰えていない。
+	Icer: 炎獄兵の姉妹機とされるが、その姿はめったに目撃されない。開発は途中で放棄されたらしく、未解明の技術が組み込まれているため、通常の機兵よりも危険とされる。
+	Shocker: 元々は旧式機械の修理を目的とした小型整備ドローン。無害に見えるが防衛機構の一部であり、侵入者には溶接機を武器として使用する。
+	Arcanist: かつては科学者であったが、実験の失敗により異形の存在となった。だが、魔法の才覚は失われておらず、容赦なくその力を振るう。
+	TomeofFrost: 魔法の可能性の果てを示す異形の書。自ら呪文を読み上げ、巨大な氷の槍を地面から突き出させ、敵を串刺しにする。
+	TomeofInferno: 魔法の可能性の果てを示す異形の書。高密度の炎球を放ち、標的を灼熱の業火に包む。
+	TomeofMending: 魔法の可能性の果てを示す異形の書。他の戦闘ユニットに付き従い、回復する。
+	TomeofSummoning: 魔法の可能性の果てを示す異形の書。無数の従者を召喚し、行く手を混沌へと変える。
+	Centipede: 古代の樹の下に群がる不気味な虫たちは、その巨体と同様に凶暴だ。ムカデは獲物をしつこく追跡し、強力な毒の一噛みを食らわせる。
+	ResinSlime: 古代の樹の血を宿したスライムは、傷を負うごとに硬化し、命尽きるときには破片となって爆発する。
+}
 
-				注意：バグが発生する可能性があります
-				'''
-			Label: "[i:1321] 投擲AIの改善"
-		}
-
-		EnemyAI: {
-			Tooltip:
-				'''
-				多くの飛行・水中の敵のAIが改善されます
-
-				注意：マルチプレイでは効果がありません
-				'''
-			Label: "[i:1248] 敵AIの改善"
-		}
-
-		FreedomOfMovement: {
-			Tooltip:
-				'''
-				プレイヤーの移動速度と機動性が自然に向上します（15mph → 18mph）
-				Calamity Modを使用している場合は、こちらの移動強化を推奨します
-
-				注意：強く推奨
-				'''
-			Label: "[i:54] 移動の自由"
-		}
-
-		Headers: {
-			Audio: オーディオ
-			Functional: 機能
-		}
-
-		DisplayName: ゲームプレイ
+Biomes: {
+	GraniteCave: {
+		DisplayName: 御影石の洞窟
+		TownNPCDialogueName: 御影石の洞窟
 	}
 
-	Worldgen: {
-		RailroadFrequency: {
-			Tooltip: 新しいワールドに生成される線路の数を調整します
-			Label: "[i:2340] 線路の頻度"
-		}
+	Beehive: {
+		DisplayName: Beehive
+		TownNPCDialogueName: the Hive
+	}
 
-		CabinFrequency: {
-			Tooltip: 新しいワールドに生成される地下小屋の数を調整します
-			Label: "[i:4080] 地下小屋の頻度"
-		}
+	JungleTemple: {
+		DisplayName: ジャングル寺院
+		TownNPCDialogueName: ジャングル寺院
+	}
 
-		SunkenSeaRework: {
-			Tooltip:
-				'''
-				Calamity Modと併用することで、沈没海のリワークを有効にします
+	MagicalLab: {
+		DisplayName: 魔法研究所
+		TownNPCDialogueName: 魔法研究所
+	}
 
-				注意：このバイオームが公式に更新されると無効になります
-				'''
-			Label: "[i:2625] 沈没海リワーク"
-		}
+	MarbleCave: {
+		DisplayName: 大理石の洞窟
+		TownNPCDialogueName: 大理石の洞窟
+	}
 
-		Safeguard: {
-			Tooltip:
-				'''
-				互換性のないModや設定を使用している場合にワールドの生成を防止します
+	OceanCave: {
+		DisplayName: 海底洞窟
+		TownNPCDialogueName: 海底洞窟
+	}
 
-				注意：強く推奨 ― 無効にする場合は自己責任で
-				'''
-			Label: "[i:156] セーフガード"
-		}
+	Pyramid: {
+		DisplayName: ピラミッド
+		TownNPCDialogueName: ピラミッド
+	}
 
-		JungleValley: {
-			Tooltip: ジャングルのバイオームに谷を生成します
-			Label: "[i:176] ジャングルの谷"
-		}
+	Vault: {
+		DisplayName: 貯蔵庫
+		TownNPCDialogueName: 貯蔵庫
+	}
 
-		IceMountain: {
-			Tooltip: 氷のバイオームに山を生成します
-			Label: "[i:664] 氷の山"
-		}
+	EchoingHalls: {
+		DisplayName: 反響の間
+		TownNPCDialogueName: 反響の間
+	}
 
-		ExperimentalWorldgen: {
-			Tooltip:
-				'''
-				開発中のワールド生成機能を有効にします
+	ForgottenTomb: {
+		DisplayName: 忘れられた墓所
+		TownNPCDialogueName: 忘れられた墓所
+	}
 
-				注意：テスト目的専用 ― 通常のプレイでは使用しないでください
-				'''
-			Label: "[i:1344] 実験的ワールド生成"
-		}
+	Undergrowth: {
+		DisplayName: 密林地帯
+		TownNPCDialogueName: 密林地帯
+	}
 
-		CloudDensity: {
-			Tooltip: 新しいワールドに生成される浮遊島や雲の量を調整します
-			Label: "[i:751] 空の密度"
-		}
+	AerialGarden: {
+		DisplayName: 空中庭園
+		TownNPCDialogueName: 空中庭園
+	}
 
-		TrapFrequency: {
-			Tooltip: 新しいワールドに生成される罠の量を調整します
-			Label: "[i:539] 罠の頻度"
-		}
+	MagicalLabAscension: {
+		TownNPCDialogueName: 魔法研究所の頂
+		DisplayName: 魔法研究所の頂
+	}
 
-		OreFrequency: {
-			Tooltip: 新しいワールドに生成される鉱石の量を調整します
-			Label: "[i:11] 鉱石の頻度"
-		}
-
-		TerrainAmplitude: {
-			Tooltip: 地表の高さの変化量を調整します
-			Label: "[i:3] 地形の起伏"
-		}
-
-		Headers: {
-			Structure: 構造物
-			Terrain: 地形
-			General: 一般
-		}
-
-		DisplayName: " ワールド生成"
+	GoldenCity: {
+		TownNPCDialogueName: 黄金都市
+		DisplayName: 黄金都市
 	}
 }
 
-Projectiles: {
-	ResinShrapnel: {
-		DisplayName: Resin Shrapnel
+Tiles: {
+	Hardstone: {
+		MapEntry: ハードストーン
 	}
 
-	SpectralLanceHoldout: {
-		DisplayName: Spectral Lance Holdout
+	StarOre: {
+		MapEntry: 星の残骸
 	}
 
-	SoulLanceHoldout: {
-		DisplayName: Soul Lance Holdout
+	LockedIronDoor: {
+		MapEntry: 施錠された鉄の扉
 	}
 
-	FallingEyeball: {
-		DisplayName: Falling Eyeball
+	RustedChest: {
+		MapEntry: 錆びた宝箱
 	}
 
-	FallingDreampod: {
-		DisplayName: Falling Dreampod
+	LabyrinthSpawner: {
+		MapEntry: スポナー
 	}
 
-	AetherButterfly: {
-		DisplayName: Aether Butterfly
+	PiranhaSpawner: {
+		MapEntry: スポナー
 	}
 
-	SpiritLanceHoldout: {
-		DisplayName: Spirit Lance Holdout
+	Spitflower: {
+		MapEntry: 吐き花
 	}
 
-	pulsebolt: {
-		DisplayName: pulsebolt
+	LabyrinthAltar: {
+		MapEntry: 迷宮の祭壇
+
+		Messages: {
+			EssenceofMight: 発動：力のエッセンス
+			EssenceofEndurance: 発動：耐久のエッセンス
+			EssenceofFocus: 発動：集中のエッセンス
+			Health: 最大体力
+			Damage: ダメージ
+			Speed: 移動速度
+			Deactivation: エッセンスが無効化された
+		}
+
+		MouseOver: {
+			Essence: エッセンス：
+			Focus: 集中
+			Endurance: 耐久
+			Might: 力
+		}
 	}
 
-	minigunholdout: {
-		DisplayName: minigunholdout
+	Sarcophagus: {
+		MapEntry: 石棺
 	}
 
-	flamejet: {
-		DisplayName: flamejet
+	Scrapper: {
+		MapEntry: スクラッパー
 	}
 
-	uraniumbullet: {
-		DisplayName: uraniumbullet
+	Dreampod: {
+		MapEntry: 夢幻の莢
 	}
 
-	shockbolt: {
-		DisplayName: shockbolt
+	Runestalk: {
+		MapEntry: ルーンストーク
 	}
 
-	ichorjet: {
-		DisplayName: ichorjet
+	PyramidChest: {
+		MapEntry: ピラミッドの宝箱
+		MapEntry0: 施錠されたピラミッドの宝箱
 	}
 
-	LuminousHook: {
-		DisplayName: Luminous Hook
+	PyramidPot: {
+		MapEntry: ピラミッドの壺
 	}
 
-	frostburn: {
-		DisplayName: frostburn
+	Cryocoral: {
+		MapEntry: 氷珊瑚
 	}
 
-	PoisonSpit: {
-		DisplayName: Poison Spit
+	Luminsponge: {
+		MapEntry: ルミナスポンジ
 	}
 
-	IceSpike: {
-		DisplayName: Ice Spike
+	Nightglow: {
+		MapEntry: ナイトグロー
 	}
 
-	iceball: {
-		DisplayName: iceball
+	ArcaneChest: {
+		MapEntry: 魔術の宝箱
 	}
 
-	FireBolt: {
-		DisplayName: Fire Bolt
+	SacrificialAltar: {
+		MapEntry: 生贄の祭壇
 	}
 
-	fireball: {
-		DisplayName: fireball
+	VaultPipe: {
+		MapEntry: 金庫のパイプ
 	}
 
-	blastermissile: {
-		DisplayName: blastermissile
+	AlchemyBench: {
+		MapEntry: 錬金術台
 	}
 
-	MazeGuardianTeleport: {
-		DisplayName: Maze Guardian Teleport
+	ArcaneChest2: {
+		MapEntry0: 魔術の宝箱
+		MapEntry1: 施錠された魔術の宝箱
 	}
 
-	magicshieldhit: {
-		DisplayName: magicshieldhit
+	PrismbudHead: {
+		MapEntry: 光芽の種
 	}
 
-	deathbolt: {
-		DisplayName: deathbolt
-	}
-
-	cursedflamejet: {
-		DisplayName: cursedflamejet
-	}
-
-	cursedburn: {
-		DisplayName: cursedburn
-	}
-
-	burn: {
-		DisplayName: burn
+	spiritlamp: {
+		MapEntry: 精霊のランプ
 	}
 }
 
-NPCs: {
-	ResinSlime: {
-		DisplayName: 樹脂スライム
+Buffs: {
+	ManaShieldCooldown: {
+		DisplayName: シールドブレイク
+		Description: 魔法の盾を修復している...
 	}
 
-	CentipedeHead: {
-		DisplayName: ムカデ
+	RunestalkBlessing: {
+		DisplayName: ルーンストークの祝福
+		Description: 採掘速度50％向上
 	}
 
-	TomeofSummoning: {
-		DisplayName: 召喚の魔導書
-	}
-
-	TomeofMending: {
-		DisplayName: 回復の魔導書
-	}
-
-	Arcanist: {
-		DisplayName: 魔術ロボット
-	}
-
-	Shocker: {
-		DisplayName: 電撃ロボット
-	}
-
-	Icer: {
-		DisplayName: 氷結ロボット
-	}
-
-	Gunner: {
-		DisplayName: 射撃ロボット
-	}
-
-	Flamer: {
-		DisplayName: 火炎ロボット
-	}
-
-	Blaster: {
-		DisplayName: 爆撃ロボット
-	}
-
-	Ward: {
-		DisplayName: 守護者
-	}
-
-	TomeofInferno: {
-		DisplayName: 炎獄の魔導書
-	}
-
-	TomeofFrost: {
-		DisplayName: 氷の魔導書
-	}
-
-	IlluminantDagger: {
-		DisplayName: イルミナントダガー
-	}
-
-	HoneySlime: {
-		DisplayName: ハチミツスライム
+	PyramidAntiCheese: {
+		DisplayName: 静寂の地
+		Description: 固体ブロック、足場、ロープを設置できない
 	}
 }
 
 Items: {
-	RunestalkBlessingIcon: {
-		Tooltip: ""
-		DisplayName: Runestalk Blessing Icon
-	}
-
-	ArcaneKey: {
-		Tooltip: ロックされた秘術の宝箱を一つ解錠する
-		DisplayName: 秘術の鍵
-	}
-
-	PrismbudSeeds: {
-		Tooltip: ""
-		DisplayName: 光芽の種
-	}
-
-	DreampodSeeds: {
-		Tooltip: ""
-		DisplayName: 夢幻の種
-	}
-
-	DreamJelly: {
-		Tooltip: ハーブを複製するために使用できる
-		DisplayName: 夢幻のゼリー
-	}
-
-	PrismbudSeed: {
-		Tooltip: ""
-		DisplayName: 光芽の種
-	}
-
-	CosmicStone: {
+	ManaShield: {
+		DisplayName: 魔法の盾
 		Tooltip:
 			'''
-			様々なステータスをわずかに向上させる
-			ポーション酔いの時間を25%短縮する
-			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			マナを消費し、受けるダメージを25%軽減する
+			使用するマナがなくなると一時的に使用不可になる
 			'''
-		DisplayName: 宇宙の石
 	}
 
-	StoneofElements: {
+	DivineShield: {
+		DisplayName: 神聖の盾
 		Tooltip:
 			'''
-			回復ポーションのクールダウン時間を25%短縮する
-			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			被弾後の無敵時間を延長する
+			マナを消費することで、受ける最終ダメージを25%軽減する
+			使用するマナがなくなると一時的に使用不可になる
 			'''
-		DisplayName: 元素の石
 	}
 
-	AlchemyBench: {
-		Tooltip: ""
-		DisplayName: 秘術の机
+	RingofElements: {
+		DisplayName: 元素の指輪
+		Tooltip: ポーション酔い以外のデバフの効果が100%早く切れるようになる
 	}
 
-	ArcaneChandelier: {
-		Tooltip: ""
-		DisplayName: 秘術のシャンデリア
+	IronKey: {
+		DisplayName: 鉄の鍵
+		Tooltip: 施錠された鉄扉を開けることができる
 	}
 
-	ArcanePlatform: {
-		Tooltip: ""
-		DisplayName: 秘術の足場
+	NightglowBerry: {
+		DisplayName: ナイトグローベリー
+		Tooltip: 「ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実...」
 	}
 
-	NightglowBerryIcon: {
-		Tooltip: ""
-		DisplayName: ナイトグローベリーアイコン
+	PyramidKey: {
+		DisplayName: ピラミッドの鍵
+		Tooltip: 施錠されたピラミッドの宝箱を開けることができる
 	}
 
-	MarineSlabWall: {
-		Tooltip: ""
-		DisplayName: 海の石板の壁
+	CoinMold: {
+		DisplayName: コインの鋳型
+		Tooltip: 金のインゴットを使って硬貨を偽造できるが、1回使うと壊れる
 	}
 
-	MarinePlatform: {
-		Tooltip: ""
-		DisplayName: 海の足場
+	SalvagedMetal: {
+		DisplayName: 鉄くず
+		Tooltip: かまどで鉄のインゴットにリサイクルできる
 	}
 
-	MarineSlab: {
-		Tooltip: ""
-		DisplayName: 海の石板
+	WandofRefinement: {
+		DisplayName: 精錬の杖
+		Tooltip: この杖の魔法は、特定の壁をより素敵に見せてくれるはずだ！
 	}
 
-	HellishBrickWall: {
-		Tooltip: ""
-		DisplayName: 地獄のレンガの壁
-	}
-
-	HellishPlatform: {
-		Tooltip: ""
-		DisplayName: 地獄の足場
-	}
-
-	HellishBrick: {
-		DisplayName: 地獄のレンガ
+	EnchantedBrick: {
+		DisplayName: 秘術のレンガ
 		Tooltip: ""
 	}
 
-	devwand2: {
+	GardenBrick: {
+		DisplayName: 黄金のレンガ
 		Tooltip: ""
-		DisplayName: 開発者の杖2
 	}
 
-	VaultPipe: {
-		Tooltip: ""
-		DisplayName: 貯蔵庫の配管
+	Hardstone: {
+		DisplayName: ハードストーン
+		Tooltip: 出所不明の超高密度な岩石
 	}
 
-	VaultPlatform: {
+	PyramidBrick: {
+		DisplayName: ピラミッドのレンガ
 		Tooltip: ""
-		DisplayName: 貯蔵庫の足場
 	}
 
-	HeavyAlloy: {
+	PyramidChest: {
+		DisplayName: ピラミッドの宝箱
 		Tooltip: ""
-		DisplayName: 重合金
 	}
 
-	VaultWall: {
-		Tooltip: ""
-		DisplayName: 貯蔵庫の壁
+	StarOre: {
+		DisplayName: 星の残骸
+		Tooltip: 「冷却されて固められた星で、鮮やかなエネルギーを放っている...」
 	}
 
-	VaultPlating: {
+	ToxicWaste: {
+		DisplayName: 毒性廃棄物
 		Tooltip: ""
-		DisplayName: 貯蔵庫の装甲板
 	}
 
-	SacrificialAltar: {
+	EnergySpike: {
+		DisplayName: エネルギースパイク
 		Tooltip: ""
-		DisplayName: 供物の祭壇
 	}
 
-	ArcaneChest: {
+	LabyrinthDoor: {
+		DisplayName: 迷宮の扉
 		Tooltip: ""
-		DisplayName: 秘術の宝箱
 	}
 
-	ScientistNotes7: {
+	LabyrinthWallLamp: {
+		DisplayName: 迷宮の壁掛けランタン
+		Tooltip: ""
+	}
+
+	NightglowSeed: {
+		DisplayName: ナイトグローの種
+		Tooltip: 「中心に硬い核がある...」
+	}
+
+	RustedChest: {
+		DisplayName: 錆びついた宝箱
+		Tooltip: 「鍵穴が壊れている...」
+	}
+
+	Sarcophagus: {
+		DisplayName: 石棺
+		Tooltip: シンプルなデザインの棺
+	}
+
+	Scrapper: {
+		DisplayName: スクラッパー
+		Tooltip: ""
+	}
+
+	GardenBrickWall: {
+		DisplayName: 黄金のレンガの壁
+		Tooltip: ""
+	}
+
+	PyramidBrickWall: {
+		DisplayName: ピラミッドのレンガの壁
+		Tooltip: ""
+	}
+
+	LuminousHook: {
+		DisplayName: ルミナスフック
+	}
+
+	SpiritLance: {
+		DisplayName: 精霊の槍
+		Tooltip: 与えたダメージに応じてマナを回復するが、マナが満タンの時は大幅に弱体化する
+	}
+
+	SoulLance: {
+		DisplayName: 魂の槍
+		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
+	}
+
+	SpectralLance: {
+		DisplayName: 幻影の槍
+		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
+	}
+
+	VintageSniper: {
+		DisplayName: 古めかしいスナイパーライフル
 		Tooltip:
 			'''
-			第4週、2日目
+			強力な高速弾を発射する
+			右クリックでスコープを覗く
+			'''
+	}
+
+	SummonCrown: {
+		DisplayName: 指導者の王冠
+		Tooltip: 負傷の度合いに応じて、ミニオンが与えるダメージが最大25％増加する
+	}
+
+	TombBrick: {
+		DisplayName: 墓地のレンガ
+		Tooltip: ""
+	}
+
+	TombBrickWall: {
+		DisplayName: 墓地のレンガの壁
+		Tooltip: ""
+	}
+
+	EnchantedBrickWall: {
+		DisplayName: 魔術のレンガの壁
+		Tooltip: ""
+	}
+
+	ScientistNotes1: {
+		DisplayName: 調査記録：準備
+		Tooltip:
+			'''
+			第1週、1日目
 			-
-			現在の食料は9日間持ちこたえる見込みだが、慎重に配給すれば約18日持たせる
-			ことができる。我々はこの食料を使って農業を始められることもできるが、作物が収穫
-			できるようになる前に餓死する可能性が高い。この状況を乗り越えるには、遺伝子工学
-			を利用して作物の栄養価と成長速度を向上させる必要がある。施設の上に広がる広大な
-			洞窟が種を植えるのに最適な場所だと考えられる。
+			かつて、我々の故郷の都市は、未知の領域へ科学を進展させるという
+			野心的な研究プログラムを開始した。このプログラムには、都市を代表する
+			最優秀の科学者である私と同僚が選出された。この施設の建設は最近
+			完了し、我々はここで研究を行うために移送された。本日は準備を整えて
+			おり、明日から研究を開始する予定だ。
 			'''
-		DisplayName: 調査記録：生存
 	}
 
-	ScientistNotes6: {
+	ScientistNotes2: {
+		DisplayName: 調査記録：任務
 		Tooltip:
 			'''
-			第4週、1日目
+			第1週、2日目
 			-
-			調査結果を都市に届ける使者を待っていたのだが、誰も来なかった。何か異常が
-			発生しているように思える。使者が送られてこないということは、我々への
-			物資の供給も途絶えたということだ。我々は自給自足を開始しなければならない。
-			まずは、備蓄している果物や野菜を栽培して持続可能な食料源を確保する必要が
-			ある。生存のために、魔法や遺伝学の知識を駆使することになるだろう。
+			我々の最初の任務は、錬金術の混合物を実験することだ。この施設の周辺地域は、
+			錬金術の材料が豊富に存在しており、それらを活用して治癒薬や身体強化薬を改良する
+			のが我々の役目となる。都市からの使者が毎週調査結果を報告しに来る予定であり、
+			次の訪問は6日後だ。このプログラムを存続させるため、早急に有益な成果を上げる
+			必要がある。
 			'''
-		DisplayName: 調査記録：失踪
-	}
-
-	ScientistNotes5: {
-		Tooltip:
-			'''
-			第3週、2日目
-			-
-			故郷の都市近くに広がる腐敗が次第に迫ってきているが、ついに感染組織のサンプルを
-			手に入れることができた。これらのサンプルは研究において極めて重要だった。我々は
-			腐敗が病原性細菌、特にそれらが放出する有害な毒素に由来することを発見した。細菌の
-			遺伝情報を利用して、無害でありながら悪性細菌を特異的に破壊する毒素を持つ改変型
-			細菌を作り出すことに成功した。さらに、魔法の力を活用して、これらの細菌に有益な
-			副作用を付与することが可能となった。我々は科学と魔法の結晶とも言える驚異的な
-			発明を成し遂げつつあり、一部の者はこれを「神聖化」と呼び始めている。
-			'''
-		DisplayName: 調査記録：創世
-	}
-
-	ScientistNotes4: {
-		Tooltip:
-			'''
-			第2週、4日目
-			-
-			錬金術の研究が安定して進行する中で、我々は魔法の研究に時間を割くことが
-			でき、その結果は非常に興味深いものとなった。中でも最も注目すべき成果は、
-			通常の物質を基本的な神経ネットワークに変換する魔法だ。我々はこれまで技術の
-			練習と改良を続けてきたが、いよいよ実験段階に突入した。魔法書に知性を持たせる
-			呪文を刻み込み、それが中に保存された呪文を読み取り、発動できるようにする予定だ。
-			この魔法書は無限の魔法的ポテンシャルを秘めており、用途の幅広さから非常に有用な
-			道具となる可能性を持つ。
-			'''
-		DisplayName: 調査記録：知性
 	}
 
 	ScientistNotes3: {
+		DisplayName: 調査記録：共生
 		Tooltip:
 			'''
 			第1週、5日目
@@ -523,581 +501,556 @@ Items: {
 			負担をかけない新しい治癒物質が誕生した。今日、我々は歴史を作った。この
 			プログラムの将来は安泰だと言える。
 			'''
-		DisplayName: 調査記録：共生
 	}
 
-	ScientistNotes2: {
+	ScientistNotes4: {
+		DisplayName: 調査記録：知性
 		Tooltip:
 			'''
-			第1週、2日目
+			第2週、4日目
 			-
-			我々の最初の任務は、錬金術の混合物を実験することだ。この施設の周辺地域は、
-			錬金術の材料が豊富に存在しており、それらを活用して治癒薬や身体強化薬を改良する
-			のが我々の役目となる。都市からの使者が毎週調査結果を報告しに来る予定であり、
-			次の訪問は6日後だ。このプログラムを存続させるため、早急に有益な成果を上げる
-			必要がある。
+			錬金術の研究が安定して進行する中で、我々は魔法の研究に時間を割くことが
+			でき、その結果は非常に興味深いものとなった。中でも最も注目すべき成果は、
+			通常の物質を基本的な神経ネットワークに変換する魔法だ。我々はこれまで技術の
+			練習と改良を続けてきたが、いよいよ実験段階に突入した。魔法書に知性を持たせる
+			呪文を刻み込み、それが中に保存された呪文を読み取り、発動できるようにする予定だ。
+			この魔法書は無限の魔法的ポテンシャルを秘めており、用途の幅広さから非常に有用な
+			道具となる可能性を持つ。
 			'''
-		DisplayName: 調査記録：任務
 	}
 
-	ScientistNotes1: {
+	ScientistNotes5: {
+		DisplayName: 調査記録：創世
 		Tooltip:
 			'''
-			第1週、1日目
+			第3週、2日目
 			-
-			かつて、我々の故郷の都市は、未知の領域へ科学を進展させるという
-			野心的な研究プログラムを開始した。このプログラムには、都市を代表する
-			最優秀の科学者である私と同僚が選出された。この施設の建設は最近
-			完了し、我々はここで研究を行うために移送された。本日は準備を整えて
-			おり、明日から研究を開始する予定だ。
+			故郷の都市近くに広がる腐敗が次第に迫ってきているが、ついに感染組織のサンプルを
+			手に入れることができた。これらのサンプルは研究において極めて重要だった。我々は
+			腐敗が病原性細菌、特にそれらが放出する有害な毒素に由来することを発見した。細菌の
+			遺伝情報を利用して、無害でありながら悪性細菌を特異的に破壊する毒素を持つ改変型
+			細菌を作り出すことに成功した。さらに、魔法の力を活用して、これらの細菌に有益な
+			副作用を付与することが可能となった。我々は科学と魔法の結晶とも言える驚異的な
+			発明を成し遂げつつあり、一部の者はこれを「神聖化」と呼び始めている。
 			'''
-		DisplayName: 調査記録：準備
 	}
 
-	EnchantedBrickWall: {
-		Tooltip: ""
-		DisplayName: 魔術のレンガの壁
-	}
-
-	TombBrickWall: {
-		Tooltip: ""
-		DisplayName: 墓地のレンガの壁
-	}
-
-	TombBrick: {
-		Tooltip: ""
-		DisplayName: 墓地のレンガ
-	}
-
-	SummonCrown: {
-		Tooltip: 負傷の度合いに応じて、ミニオンが与えるダメージが最大25％増加する
-		DisplayName: 指導者の王冠
-	}
-
-	VintageSniper: {
+	ScientistNotes6: {
+		DisplayName: 調査記録：失踪
 		Tooltip:
 			'''
-			強力な高速弾を発射する
-			右クリックでスコープを覗く
+			第4週、1日目
+			-
+			調査結果を都市に届ける使者を待っていたのだが、誰も来なかった。何か異常が
+			発生しているように思える。使者が送られてこないということは、我々への
+			物資の供給も途絶えたということだ。我々は自給自足を開始しなければならない。
+			まずは、備蓄している果物や野菜を栽培して持続可能な食料源を確保する必要が
+			ある。生存のために、魔法や遺伝学の知識を駆使することになるだろう。
 			'''
-		DisplayName: 古めかしいスナイパーライフル
 	}
 
-	SpectralLance: {
-		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
-		DisplayName: 幻影の槍
-	}
-
-	SoulLance: {
-		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
-		DisplayName: 魂の槍
-	}
-
-	SpiritLance: {
-		Tooltip: 与えたダメージに応じてマナを回復するが、マナが満タンの時は大幅に弱体化する
-		DisplayName: 精霊の槍
-	}
-
-	CursedFlamethrower: {
-		Tooltip: ""
-		DisplayName: 呪われた火炎放射器
-	}
-
-	ArmCannon: {
-		Tooltip: ""
-		DisplayName: アームキャノン
-	}
-
-	LuminousHook: {
-		Tooltip: 光を放つ
-		DisplayName: ルミナスフック
-	}
-
-	WaterBrickWall: {
-		Tooltip: ""
-		DisplayName: 水レンガの壁
-	}
-
-	PyramidBrickWall: {
-		Tooltip: ""
-		DisplayName: ピラミッドのレンガの壁
-	}
-
-	GoldenPanelWall: {
-		Tooltip: ""
-		DisplayName: 黄金パネルの壁
-	}
-
-	GardenBrickWall: {
-		Tooltip: ""
-		DisplayName: 黄金のレンガの壁
-	}
-
-	sprout: {
-		Tooltip: ""
-		DisplayName: 芽
-	}
-
-	Scrapper: {
-		Tooltip: ""
-		DisplayName: スクラッパー
-	}
-
-	Sarcophagus: {
-		Tooltip: シンプルなデザインの棺
-		DisplayName: 石棺
-	}
-
-	RustedChest: {
-		Tooltip: 「鍵穴が壊れている...」
-		DisplayName: 錆びついた宝箱
-	}
-
-	NightglowSeed: {
-		Tooltip: 「中心に硬い核がある...」
-		DisplayName: ナイトグローの種
-	}
-
-	LabyrinthWallLamp: {
-		Tooltip: ""
-		DisplayName: 迷宮の壁掛けランタン
-	}
-
-	LabyrinthDoor: {
-		Tooltip: ""
-		DisplayName: 迷宮の扉
-	}
-
-	EnergySpike: {
-		Tooltip: ""
-		DisplayName: エネルギースパイク
-	}
-
-	WaterBrick: {
-		Tooltip: ""
-		DisplayName: 水レンガ
-	}
-
-	ToxicWaste: {
-		Tooltip: ""
-		DisplayName: 毒性廃棄物
-	}
-
-	StarOre: {
-		Tooltip: 「冷却されて固められた星で、鮮やかなエネルギーを放っている...」
-		DisplayName: 星の残骸
-	}
-
-	PyramidChest: {
-		Tooltip: ""
-		DisplayName: ピラミッドの宝箱
-	}
-
-	PyramidBrick: {
-		Tooltip: ""
-		DisplayName: ピラミッドのレンガ
-	}
-
-	Hardstone: {
-		Tooltip: 出所不明の超高密度な岩石
-		DisplayName: ハードストーン
-	}
-
-	GoldenPanel: {
-		Tooltip: ""
-		DisplayName: 黄金のパネル
-	}
-
-	GardenBrick: {
-		Tooltip: ""
-		DisplayName: 黄金のレンガ
-	}
-
-	EnchantedBrick: {
-		Tooltip: ""
-		DisplayName: 秘術のレンガ
-	}
-
-	WandofRefinement: {
-		Tooltip: この杖の魔法は、特定の壁をより素敵に見せてくれるはずだ！
-		DisplayName: 精錬の杖
-	}
-
-	SalvagedMetal: {
-		Tooltip: かまどで鉄のインゴットにリサイクルできる
-		DisplayName: 鉄くず
-	}
-
-	CoinMold: {
-		Tooltip: 金のインゴットを使って硬貨を偽造できるが、1回使うと壊れる
-		DisplayName: コインの鋳型
-	}
-
-	PyramidKey: {
-		Tooltip: 施錠されたピラミッドの宝箱を開けることができる
-		DisplayName: ピラミッドの鍵
-	}
-
-	NightglowBerry: {
-		Tooltip: 「ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実...」
-		DisplayName: ナイトグローベリー
-	}
-
-	IronKey: {
-		Tooltip: 施錠された鉄扉を開けることができる
-		DisplayName: 鉄の鍵
-	}
-
-	RingofElements: {
-		Tooltip: ポーション酔い以外のデバフの効果が100%早く切れるようになる
-		DisplayName: 元素の指輪
-	}
-
-	DivineShield: {
+	ScientistNotes7: {
+		DisplayName: 調査記録：生存
 		Tooltip:
 			'''
-			被弾後の無敵時間を延長する
-			マナを消費することで、受ける最終ダメージを25%軽減する
-			使用するマナがなくなると一時的に使用不可になる
+			第4週、2日目
+			-
+			現在の食料は9日間持ちこたえる見込みだが、慎重に配給すれば約18日持たせる
+			ことができる。我々はこの食料を使って農業を始められることもできるが、作物が収穫
+			できるようになる前に餓死する可能性が高い。この状況を乗り越えるには、遺伝子工学
+			を利用して作物の栄養価と成長速度を向上させる必要がある。施設の上に広がる広大な
+			洞窟が種を植えるのに最適な場所だと考えられる。
 			'''
-		DisplayName: 神聖の盾
-	}
-
-	ManaShield: {
-		Tooltip:
-			'''
-			マナを消費し、受けるダメージを25%軽減する
-			使用するマナがなくなると一時的に使用不可になる
-			'''
-		DisplayName: 魔法の盾
-	}
-
-	devtool: {
-		Tooltip: ""
-		DisplayName: 開発者専用
-	}
-
-	alchemybook: {
-		Tooltip: ""
-		DisplayName: 錬金術書
-	}
-}
-
-Buffs: {
-	RunestalkBlessing: {
-		Description: 採掘速度50％向上
-		DisplayName: ルーンストークの祝福
-	}
-
-	ManaShieldCooldown: {
-		Description: 魔法の盾を修復している...
-		DisplayName: シールドブレイク
-	}
-}
-
-Tiles: {
-	UndergrowthMusicBoxTile: {
-		MapEntry: オルゴール (Undergrowth)
-	}
-
-	MarbleMusicBoxTile: {
-		MapEntry: オルゴール (大理石の洞窟)
-	}
-
-	MagicalLabMusicBoxTile: {
-		MapEntry: オルゴール (魔法研究所)
-	}
-
-	GraniteMusicBoxTile: {
-		MapEntry: オルゴール (御影石の洞窟)
-	}
-
-	GardenMusicBoxTile: {
-		MapEntry: オルゴール (空中庭園)
-	}
-
-	ForgottenTombMusicBoxTile: {
-		MapEntry: オルゴール (忘れられた墓所)
-	}
-
-	EchoingHallsMusicBoxTile: {
-		MapEntry: オルゴール (反響の間)
-	}
-
-	PrismbudHead: {
-		MapEntry: 光芽の種
-	}
-
-	ArcaneChest2: {
-		MapEntry1: 施錠された魔術の宝箱
-		MapEntry0: 魔術の宝箱
-	}
-
-	AlchemyBench: {
-		MapEntry: 錬金術台
-	}
-
-	VaultPipe: {
-		MapEntry: 金庫のパイプ
-	}
-
-	Eyeball: {
-		MapEntry: 邪眼
-	}
-
-	SacrificialAltar: {
-		MapEntry: 生贄の祭壇
 	}
 
 	ArcaneChest: {
-		MapEntry: 魔術の宝箱
+		DisplayName: 秘術の宝箱
+		Tooltip: ""
 	}
 
-	Nightglow: {
-		MapEntry: ナイトグロー
+	SacrificialAltar: {
+		DisplayName: 供物の祭壇
+		Tooltip: ""
 	}
 
-	Luminsponge: {
-		MapEntry: ルミナスポンジ
+	VaultPlating: {
+		DisplayName: 貯蔵庫の装甲板
+		Tooltip: ""
 	}
 
-	Cryocoral: {
-		MapEntry: 氷珊瑚
+	VaultWall: {
+		DisplayName: 貯蔵庫の壁
+		Tooltip: ""
 	}
 
-	PyramidPot: {
-		MapEntry: ピラミッドの壺
+	VaultPlatform: {
+		DisplayName: 貯蔵庫の足場
+		Tooltip: ""
 	}
 
-	PyramidChest: {
-		Messages: {
-			KeysinUnderground: 鍵は地下洞窟に隠されているようだ...
+	VaultPipe: {
+		DisplayName: 貯蔵庫の配管
+		Tooltip: ""
+	}
+
+	HellishBrick: {
+		DisplayName: 地獄のレンガ
+		Tooltip: ""
+	}
+
+	HellishPlatform: {
+		DisplayName: 地獄の足場
+		Tooltip: ""
+	}
+
+	HellishBrickWall: {
+		DisplayName: 地獄のレンガの壁
+		Tooltip: ""
+	}
+
+	MarineSlab: {
+		DisplayName: 海の石板
+		Tooltip: ""
+	}
+
+	MarinePlatform: {
+		DisplayName: 海の足場
+		Tooltip: ""
+	}
+
+	MarineSlabWall: {
+		DisplayName: 海の石板の壁
+		Tooltip: ""
+	}
+
+	ArcanePlatform: {
+		DisplayName: 秘術の足場
+		Tooltip: ""
+	}
+
+	ArcaneChandelier: {
+		DisplayName: 秘術のシャンデリア
+		Tooltip: ""
+	}
+
+	AlchemyBench: {
+		DisplayName: 秘術の机
+		Tooltip: ""
+	}
+
+	StoneofElements: {
+		DisplayName: 元素の石
+		Tooltip:
+			'''
+			回復ポーションのクールダウン時間を25%短縮する
+			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			'''
+	}
+
+	CosmicStone: {
+		DisplayName: 宇宙の石
+		Tooltip:
+			'''
+			様々なステータスをわずかに向上させる
+			ポーション酔いの時間を25%短縮する
+			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			'''
+	}
+
+	PrismbudSeed: {
+		DisplayName: 光芽の種
+		Tooltip: ""
+	}
+
+	DreamJelly: {
+		DisplayName: 夢幻のゼリー
+		Tooltip: ハーブを複製するために使用できる
+	}
+
+	DreampodSeeds: {
+		DisplayName: 夢幻の種
+		Tooltip: ""
+	}
+
+	PrismbudSeeds: {
+		DisplayName: 光芽の種
+		Tooltip: ""
+	}
+
+	ArcaneKey: {
+		DisplayName: 秘術の鍵
+		Tooltip: ロックされた秘術の宝箱を一つ解錠する
+	}
+
+	ResinGel: {
+		DisplayName: レジンジェル
+		Tooltip: 「奇妙な粘性が脈打っている」
+	}
+
+	FragmentGrenade: {
+		DisplayName: フラグメントグレネード
+	}
+
+	FragmentGlowstick: {
+		DisplayName: フラグメントの蛍光棒
+	}
+
+	WoodenSpike: {
+		DisplayName: 木製スパイク
+		Tooltip: ""
+	}
+
+	PyramidPlatform: {
+		DisplayName: ピラミッドの足場
+		Tooltip: ""
+	}
+
+	GardenPlatform: {
+		DisplayName: ガーデンの足場
+		Tooltip: ""
+	}
+
+	hivekey: {
+		DisplayName: 巣の鍵
+		Tooltip: ""
+	}
+
+	SkullSign: {
+		Tooltip: ""
+		DisplayName: ドクロのサイン
+	}
+}
+
+NPCs: {
+	HoneySlime: {
+		DisplayName: ハチミツスライム
+	}
+
+	TomeofFrost: {
+		DisplayName: 氷の魔導書
+	}
+
+	TomeofInferno: {
+		DisplayName: 炎獄の魔導書
+	}
+
+	Ward: {
+		DisplayName: 守護者
+	}
+
+	Blaster: {
+		DisplayName: 爆撃ロボット
+	}
+
+	Flamer: {
+		DisplayName: 火炎ロボット
+	}
+
+	Gunner: {
+		DisplayName: 射撃ロボット
+	}
+
+	Icer: {
+		DisplayName: 氷結ロボット
+	}
+
+	Shocker: {
+		DisplayName: 電撃ロボット
+	}
+
+	Arcanist: {
+		DisplayName: 魔術ロボット
+	}
+
+	TomeofMending: {
+		DisplayName: 回復の魔導書
+	}
+
+	TomeofSummoning: {
+		DisplayName: 召喚の魔導書
+	}
+
+	CentipedeHead: {
+		DisplayName: ムカデ
+	}
+
+	ResinSlime: {
+		DisplayName: 樹脂スライム
+	}
+}
+
+Projectiles: {
+	burn: {
+		DisplayName: burn
+	}
+
+	cursedburn: {
+		DisplayName: cursedburn
+	}
+
+	cursedflamejet: {
+		DisplayName: cursedflamejet
+	}
+
+	deathbolt: {
+		DisplayName: deathbolt
+	}
+
+	magicshieldhit: {
+		DisplayName: magicshieldhit
+	}
+
+	MazeGuardianTeleport: {
+		DisplayName: Maze Guardian Teleport
+	}
+
+	blastermissile: {
+		DisplayName: blastermissile
+	}
+
+	fireball: {
+		DisplayName: fireball
+	}
+
+	FireBolt: {
+		DisplayName: Fire Bolt
+	}
+
+	iceball: {
+		DisplayName: iceball
+	}
+
+	IceSpike: {
+		DisplayName: Ice Spike
+	}
+
+	PoisonSpit: {
+		DisplayName: Poison Spit
+	}
+
+	frostburn: {
+		DisplayName: frostburn
+	}
+
+	LuminousHook: {
+		DisplayName: Luminous Hook
+	}
+
+	ichorjet: {
+		DisplayName: ichorjet
+	}
+
+	shockbolt: {
+		DisplayName: shockbolt
+	}
+
+	flamejet: {
+		DisplayName: flamejet
+	}
+
+	minigunholdout: {
+		DisplayName: minigunholdout
+	}
+
+	pulsebolt: {
+		DisplayName: pulsebolt
+	}
+
+	SpiritLanceHoldout: {
+		DisplayName: Spirit Lance Holdout
+	}
+
+	AetherButterfly: {
+		DisplayName: Aether Butterfly
+	}
+
+	FallingDreampod: {
+		DisplayName: Falling Dreampod
+	}
+
+	FallingEyeball: {
+		DisplayName: Falling Eyeball
+	}
+
+	SoulLanceHoldout: {
+		DisplayName: Soul Lance Holdout
+	}
+
+	SpectralLanceHoldout: {
+		DisplayName: Spectral Lance Holdout
+	}
+
+	ResinShrapnel: {
+		DisplayName: Resin Shrapnel
+	}
+
+	FragmentGrenade: {
+		DisplayName: Shrapnel Grenade
+	}
+
+	FragmentGlowstick: {
+		DisplayName: Fragment Glowstick
+	}
+
+	FragmentGlowstickFragment: {
+		DisplayName: Fragment Glowstick Fragment
+	}
+}
+
+Configs: {
+	Worldgen: {
+		DisplayName: " ワールド生成"
+
+		Headers: {
+			Terrain: 地形
+			Structure: 構造物
+			LargerSky: 世界のバランス設定（上級）
 		}
 
-		MapEntry0: 施錠されたピラミッドの宝箱
-		MapEntry: ピラミッドの宝箱
-	}
-
-	Runestalk: {
-		MapEntry: ルーンストーク
-	}
-
-	Dreampod: {
-		MapEntry: 夢幻の莢
-	}
-
-	spiritlamp: {
-		MapEntry: 精霊のランプ
-	}
-
-	Scrapper: {
-		MapEntry: スクラッパー
-	}
-
-	Sarcophagus: {
-		MapEntry: 石棺
-	}
-
-	LabyrinthAltar: {
-		MouseOver: {
-			Might: 力
-			Endurance: 耐久
-			Focus: 集中
-			Essence: エッセンス：
+		OreFrequency: {
+			Label: "[i:11] 鉱石の頻度"
+			Tooltip: 新しいワールドに生成される鉱石の量を調整します
 		}
 
-		Messages: {
-			Deactivation: エッセンスが無効化された
-			Speed: 移動速度
-			Damage: ダメージ
-			Health: 最大体力
-			EssenceofFocus: 発動：集中のエッセンス
-			EssenceofEndurance: 発動：耐久のエッセンス
-			EssenceofMight: 発動：力のエッセンス
+		TrapFrequency: {
+			Label: "[i:539] 罠の頻度"
+			Tooltip: 新しいワールドに生成される罠の量を調整します
 		}
 
-		MapEntry: 迷宮の祭壇
+		CloudDensity: {
+			Label: "[i:751] 空の密度"
+			Tooltip: 新しいワールドに生成される浮遊島や雲の量を調整します
+		}
+
+		ExperimentalWorldgen: {
+			Label: "[i:1344] 実験的ワールド生成"
+			Tooltip:
+				'''
+				開発中のワールド生成機能を有効にします
+
+				注意：テスト目的専用 ― 通常のプレイでは使用しないでください
+				'''
+		}
+
+		Safeguard: {
+			Label: "[i:156] セーフガード"
+			Tooltip:
+				'''
+				互換性のないModや設定を使用している場合にワールドの生成を防止します
+
+				注意：強く推奨 ― 無効にする場合は自己責任で
+				'''
+		}
+
+		SunkenSeaRework: {
+			Label: "[i:2625] 沈没海リワーク"
+			Tooltip:
+				'''
+				Calamity Modと併用することで、沈没海のリワークを有効にします
+
+				注意：このバイオームが公式に更新されると無効になります
+				'''
+		}
+
+		CabinFrequency: {
+			Label: "[i:4080] 地下小屋の頻度"
+			Tooltip: 新しいワールドに生成される地下小屋の数を調整します
+		}
+
+		RailroadFrequency: {
+			Label: "[i:2340] 線路の頻度"
+			Tooltip: 新しいワールドに生成される線路の数を調整します
+		}
+
+		FlatSurfaceRatioIncrease: {
+			Label: 地表の高さを低下
+			Tooltip:
+				'''
+				指定されたブロック数だけ地表のしきい値を下げます
+
+				注意：セーフガードが有効な場合は無効になります
+				'''
+		}
+
+		FlatUndergroundRatioIncrease: {
+			Label: 洞窟の高さを低下
+			Tooltip:
+				'''
+				指定されたブロック数だけ洞窟層のしきい値を下げます
+
+				注意：セーフガードが有効な場合は無効になります
+				'''
+		}
+
+		FlatLavaRatioIncrease: {
+			Label: 溶岩層の高さを低下
+			Tooltip:
+				'''
+				指定されたブロック数だけ溶岩層のしきい値を下げます
+
+				注意：セーフガードが有効な場合は無効になります
+				'''
+		}
+
+		LifeCrystalReduction: {
+			Label: "[i:29] ライフクリスタル削減"
+			Tooltip: ワールドから削除されるライフクリスタルの割合を制御します
+		}
 	}
 
-	Spitflower: {
-		MapEntry: 吐き花
+	Gameplay: {
+		DisplayName: ゲームプレイ
+
+		Headers: {
+			Functional: 機能
+			Music: 音楽
+		}
+
+		FreedomOfMovement: {
+			Label: "[i:54] 移動の自由"
+			Tooltip:
+				'''
+				プレイヤーの移動速度と機動性が自然に向上します（15mph → 18mph）
+				Calamity Modを使用している場合は、こちらの移動強化を推奨します
+
+				注意：強く推奨
+				'''
+		}
+
+		EnemyAI: {
+			Label: "[i:1248] 敵AIの改善"
+			Tooltip:
+				'''
+				多くの飛行・水中の敵のAIが改善されます
+
+				注意：マルチプレイでは効果がありません
+				'''
+		}
+
+		HangingBats: {
+			Label: "[i:1621] 吊り下げコウモリ"
+			Tooltip:
+				'''
+				コウモリが天井からぶら下がって出現し、近づくと攻撃してきます
+
+				注意：マルチプレイでは効果がありません
+				'''
+		}
+
+		MarbleMusic: {
+			Label: "[i:3081] 大理石の音楽"
+			Tooltip: 大理石の洞窟用のカスタム音楽を有効にする
+		}
+
+		GraniteMusic: {
+			Label: "[i:3086] 御影石の音楽"
+			Tooltip: 御影石の洞窟用のカスタム音楽を有効にする
+		}
+
+		OceanMusic: {
+			Label: "[i:2435] 海の音楽"
+			Tooltip: 海底洞窟用のカスタム音楽を有効にする
+		}
 	}
-
-	PiranhaSpawner: {
-		MapEntry: スポナー
-	}
-
-	LabyrinthSpawner: {
-		MapEntry: スポナー
-	}
-
-	RustedChest: {
-		MapEntry: 錆びた宝箱
-	}
-
-	LockedIronDoor: {
-		MapEntry: 施錠された鉄の扉
-	}
-
-	vaultpipe: {
-		MapEntry: 金庫のパイプ
-	}
-
-	StarOre: {
-		MapEntry: 星の残骸
-	}
-
-	Hardstone: {
-		MapEntry: ハードストーン
-	}
-}
-
-Biomes: {
-	AerialGarden: {
-		TownNPCDialogueName: 空中庭園
-		DisplayName: 空中庭園
-	}
-
-	Undergrowth: {
-		TownNPCDialogueName: 密林地帯
-		DisplayName: 密林地帯
-	}
-
-	MagicalLabAscension: {
-		TownNPCDialogueName: 魔法研究所の頂
-		DisplayName: 魔法研究所の頂
-	}
-
-	ForgottenTomb: {
-		TownNPCDialogueName: 忘れられた墓所
-		DisplayName: 忘れられた墓所
-	}
-
-	EchoingHalls: {
-		TownNPCDialogueName: 反響の間
-		DisplayName: 反響の間
-	}
-
-	Vault: {
-		TownNPCDialogueName: 貯蔵庫
-		DisplayName: 貯蔵庫
-	}
-
-	Pyramid: {
-		TownNPCDialogueName: ピラミッド
-		DisplayName: ピラミッド
-	}
-
-	OceanCave: {
-		TownNPCDialogueName: 海底洞窟
-		DisplayName: 海底洞窟
-	}
-
-	MarbleCave: {
-		TownNPCDialogueName: 大理石の洞窟
-		DisplayName: 大理石の洞窟
-	}
-
-	MagicalLab: {
-		TownNPCDialogueName: 魔法研究所
-		DisplayName: 魔法研究所
-	}
-
-	JungleTemple: {
-		TownNPCDialogueName: ジャングル寺院
-		DisplayName: ジャングル寺院
-	}
-
-	TheHive: {
-		TownNPCDialogueName: the Hive
-		DisplayName: The Hive
-	}
-
-	Growth: {
-		TownNPCDialogueName: 繁殖地帯
-		DisplayName: 繁殖地帯
-	}
-
-	GraniteCave: {
-		TownNPCDialogueName: 御影石の洞窟
-		DisplayName: 御影石の洞窟
-	}
-
-	GoldenCity: {
-		TownNPCDialogueName: 黄金都市
-		DisplayName: 黄金都市
-	}
-}
-
-Bestiary: {
-	ResinSlime: 古代の樹の血を宿したスライムは、傷を負うごとに硬化し、命尽きるときには破片となって爆発する。
-	Centipede: 古代の樹の下に群がる不気味な虫たちは、その巨体と同様に凶暴だ。ムカデは獲物をしつこく追跡し、強力な毒の一噛みを食らわせる。
-	TomeofSummoning: 魔法の可能性の果てを示す異形の書。無数の従者を召喚し、行く手を混沌へと変える。
-	TomeofMending: 魔法の可能性の果てを示す異形の書。他の戦闘ユニットに付き従い、回復する。
-	TomeofInferno: 魔法の可能性の果てを示す異形の書。高密度の炎球を放ち、標的を灼熱の業火に包む。
-	TomeofFrost: 魔法の可能性の果てを示す異形の書。自ら呪文を読み上げ、巨大な氷の槍を地面から突き出させ、敵を串刺しにする。
-	Arcanist: かつては科学者であったが、実験の失敗により異形の存在となった。だが、魔法の才覚は失われておらず、容赦なくその力を振るう。
-	Shocker: 元々は旧式機械の修理を目的とした小型整備ドローン。無害に見えるが防衛機構の一部であり、侵入者には溶接機を武器として使用する。
-	Icer: 炎獄兵の姉妹機とされるが、その姿はめったに目撃されない。開発は途中で放棄されたらしく、未解明の技術が組み込まれているため、通常の機兵よりも危険とされる。
-	Gunner: 長年放置されながらも、その銃撃の嵐で標的を排除する能力は衰えていない。
-	Flamer: 知性を持たないはずの機械兵。しかし、侵入者を焼き尽くす様子には、まるで悪意と喜びが宿っているかのようだ。
-	Blaster: 重厚な装甲を持つ自動機械兵。爆発性の弾薬を搭載し、今なお古代の領域を侵す者を容赦なく排除する。
-	HoneySlime: このスライムは大量の蜜を吸収したことで、驚異的な生命力と耐久力を得た。
-	Ward: 冷たい巨石の塊にして、揺るぎなき憤怒の化身。迷宮の曲がりくねった回廊を徘徊し、その中心に隠された何かを守護している...
-}
-
-WorldgenMessages: {
-	SpecialPlants: 異世界の植物を成長中
-	Boulders: 巨石を設置中
-	Piles: オブジェクトを配置中
-	Gems: 宝石を配置中
-	Ores: 鉱石を配置中
-	Grass: 草を成長中
-	Swamps: Creating swamps
-	FloodedCaves: 洞窟を水没中
-	Caves: 洞窟を浸食中
-	Terrain: 地形を生成中
-	ThermalRigs: 地熱装置を構築中
-	IceTemples: 氷の神殿を彫刻中
-	Microdungeons: 小型ダンジョンを構築中
-	Mineshafts: 鉱坑を構築中
-	SkyIslands: 空島を上昇中
-	Clouds: 雲を形成中
-	AerialGarden: 天空の庭園を構築中
-	Stronghold: 地獄の要塞を構築中
-	Labyrinth: 古代の迷宮を構築中
-	MagicalLab: 魔法の研究所を構築中
-	HoneySanctum: 蜜の聖域を構築中
-	WaterTemple: 水中神殿を彫刻中
-	Undergrowth: 古代の根を成長中
-	Tomb: 幽霊の墓を構築中
-	GraniteCave: 花崗岩を削り出し中
-	MarbleCave: 大理石を削り出し中
-	Pyramid: 砂漠のピラミッドを構築中
-	Vault: 金庫室を構築中
-	JungleTemple: ジャングルのピラミッドを構築中
-	Dungeon: 呪われた都市を構築中
-	Underworld: 地獄を作成中
-	EvilBiomes: 汚染バイオームを生成中
-	MinorBiomes: 小規模バイオームを追加中
-	MajorBiomes: 主要バイオームを追加中
-	BiomeUpdate: バイオームマップを更新中
-	Spawnpoint: スポーン地点を調整中
-	Touchups: 最終仕上げ中
-	Cleanup: 地形を整備中
-	Setup: バイオームマップを設定中
-	Safeguard: 互換性を確認中
-}
-
-Safeguard: {
-	WOTGMultiplayer: Remnants は、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
-	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
-	StartWithBase: Start With Base のMODが有効になっています。
-	Aequus: Aequus のMODが有効になっています。
-	HomewardJourney: Homeward JourneyのMODが有効になっています。
-	BadRatio: A non-standard width-to-height ratio is in use.
-	SecretSeeds: シークレットシードが選択されています。
-	SmallWorlds: ワールドのサイズが小さすぎます。
-	IssuesFound: Remnantsは互換性の問題を1つ以上検出したため、以下のワールドを作成できません。検出された問題:
 }
 
