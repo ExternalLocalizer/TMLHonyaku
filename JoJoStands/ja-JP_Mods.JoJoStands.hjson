@@ -1,0 +1,5010 @@
+TownNPCMood:{
+    Gambler:{
+        Content: こちらでの暮らしは、エジプトでの暮らしに比べて随分とストレスが減りましたね。
+        NoHome: 時には不正を働くこともございますが、私に宿を与えてくださるのであれば、そのような手段に及ぶことは一切ございませんよ。
+        LoveSpace: カードや報酬を収納するスペースがたっぷりあるのは実に結構でございます。
+        FarFromHome: こんな辺鄙な場所では、賭けを共に楽しむ相手が見当たりませんね。実に退屈でございます。
+        DislikeCrowded: 人目が多すぎて、私の卓越した技を活かすには不向きですね。
+        HateCrowded: 監視の目が多すぎて身動きが取れません…不快極まりない。
+        LikeBiome: "{BiomeName}はギャンブルにうってつけの場所のようでございますね。私の芸を披露するには最高です。"
+        LoveBiome: "{BiomeName}のような環境は、かつての日々を思い出させてくれますね。懐かしい限りです。"
+        DislikeBiome: "{BiomeName}には確かに独特の特性がございますが…ギャンブラーの私にはまったく噛み合いませんね。"
+        HateBiome: "{BiomeName}で暮らすなど耐え難いことでございます。ここに長く留まるくらいなら、あの賭けを再度味わいたいほどですよ。"
+        LikeNPC: "{NPCName}は実に見事な賭け運をお持ちですね。感服いたしました。"
+        LoveNPC: あの{NPCName}は、私と同等のイカサマの技をお持ちのようですね！彼と賭けるのは、自分自身と渡り合うのと同じでしょうね。
+        DislikeNPC: "{NPCName}は私を非常に警戒しておいでのようですね。私を疑う者など、こちらとしても願い下げです。"
+        HateNPC: "{NPCName}とは賭けをさせぬと申し上げております。大勝負において洞察力が過ぎる者は出ていってもらいたいものです！"
+    }
+
+    HamonMaster:{
+        Content: "家なし："
+        LoveSpace: "家から遠い："
+        DislikeCrowded: "混雑が嫌い:"
+        LikeBiome: ""
+        LoveBiome: ""
+        DislikeBiome: ""
+        HateBiome: ""
+        LikeNPC: ""
+        LoveNPC: ""
+        DislikeNPC: ""
+        HateNPC: ""
+    }
+
+    MarineBiologist:{
+        Content: この活気のある風景と混沌…杜王町を思い出させるな。
+        NoHome: 他人には理解できないような事情でここに来ることになった。ここにいる間、滞在できる場所があれば助かるんだが。
+        LoveSpace: ついにか、気が散ることもなく、他の人に仕事を邪魔されることもない。
+        FarFromHome: どうやら行き過ぎてしまったようだな。やれやれ…建物の方向を教えてくれるか？
+        DislikeCrowded: ここは人が多すぎて気を休めることも出来ない。もしかしたら…この中に敵のスタンド使いがいるかもしれないからな。
+        HateCrowded: これだけの人、ここにいるのは少々危険かもな。 もし他のスタンド使いに狙われたら、犠牲者を少なく抑えられる自信がねえ。
+        LikeBiome: "{BiomeName}には興味深いスポットがいくつかあるらしいな。後で見て回ろう。"
+        LoveBiome: "{BiomeName}の海域には多種多様な海洋生物がいるらしい。ここにいる間は調べてみよう。"
+        DislikeBiome: 特段泊まる場所にはこだわらねえタチだが、{BiomeName}には欠点が多すぎるな。
+        HateBiome: やれやれ、この{BiomeName}はエジプトとDIOを倒すために行脚したあの旅を思い出させる。最悪だぜ。
+        LikeNPC: "{NPCName}ってやつ、海洋生物には詳しそうだな。"
+        LoveNPC: "{NPCName}はSPW財団にも悪くない人材だ。"
+        DislikeNPC: "{NPCName}は本当に気に入らねえ野郎だ。"
+        HateNPC: "{NPCName}は嫌なオーラを放ってやがる。危険だ。"
+    }
+
+    Priest:{
+        Content: この場所は刑務所と比べると、さほど悪くはありませんね。
+        NoHome: もし君が私をどこか安全な場所へ案内してくれるなら、運命が君に微笑み、君の親切に報いてくれるでしょう。
+        LoveSpace: 教えてほしいのですが、この広々とした村に私を導いたのは『引力』だと信じますか？私は間違いなくそう思いますよ。
+        FarFromHome: 家への道案内は必要ありません。運命が私を正しく導いてくれるでしょう。
+        DislikeCrowded: ここ、少々人が多すぎるのではありませんか？
+        HateCrowded: この群衆は必ずやそれ相応の罪を生むでしょう。私たちは汚されぬよう、距離を置かねばなりません。
+        LikeBiome: "{BiomeName}は称賛に値する特質を備えた場所ですね。"
+        LoveBiome: 神の御意思により、{BiomeName}に住まいを得ることができました！DIOもきっとここに住みたかったでしょうね。
+        DislikeBiome: 通常なら{BiomeName}に住むことは選ばないでしょう。しかし、私がここにいるべき場所なのだとすれば、『引力』が特別な理由で私を導いたのだと信じざるを得ません。
+        HateBiome: 『引力』が私を導く先として、{BiomeName}は想定外でした。これは私が克服すべき試練に違いありません。
+        LikeNPC: "{NPCName}は運命の信奉者ですね。その点では一目置くべき存在でしょう。"
+        LoveNPC: 私と{NPCName}が出会えたのも、『引力』によるものでしょう。
+        DislikeNPC: "{NPCName}に待ち受ける運命は、決して好ましいものではないでしょう。"
+        HateNPC: 2、3、5、7、11…ああ、君がそこにいたとは思わなかった。{NPCName}が『引力』の力を軽んじるのを聞いて、思わず感情が昂りかけた…。
+    }
+}
+
+Buffs:{
+    AjaVampire:{
+        DisplayName: エイジャの吸血鬼
+        Description: 今やあなたは究極生命体！
+    }
+
+    CenturyBoyBuff:{
+        DisplayName: 20th センチュリー・ボーイ
+        Description: 保護されている
+    }
+
+    Vampire:{
+        DisplayName: 吸血鬼
+        Description: あなたは今や吸血鬼となった...太陽から離れるんだッ！
+    }
+
+    ViralBeetleBuff:{
+        DisplayName: ウイルスビートル
+        Description: あなたが克服した異世界のウイルスは、今や自らを顕現させ、あなたを守っている
+    }
+
+    ViralCrystalBuff:{
+        DisplayName: ウイルスクリスタル
+        Description: 神秘的な金銀のクリスタルがあなたを見守っている
+    }
+
+    AbilityCooldown:{
+        DisplayName: 能力クールダウン
+        Description: スタンド能力は一切使えなくなった…
+    }
+
+    AffectedByBtZ:{
+        DisplayName: ゼロ
+        Description: ゼロで止まっている
+    }
+
+    Aging:{
+        DisplayName: 老化
+        Description: 膝が震え、疲労を感じる…
+    }
+
+    Asphyxiating:{
+        DisplayName: 窒息
+        Description: 肺から空気が奪われた…！
+    }
+
+    Dead:{
+        DisplayName: Mods.JoJoStands.BuffName.Dead
+        Description: Mods.JoJoStands.BuffDescription.Dead
+    }
+
+    ImproperRestoration:{
+        DisplayName: 不適切な復元
+        Description: 治癒中にミスが生じた
+    }
+
+    Infected:{
+        DisplayName: 感染
+        Description: 何らかの異世界のウイルスが体の中に広がっている
+    }
+
+    LifePunch:{
+        DisplayName: 生命力の注入
+        Description: 感覚だけが暴走し、感覚が肉体を置き去りにしているッ！
+    }
+
+    Locked:{
+        DisplayName: ザ・ロック
+        Description: 罪悪感で苦しくなる
+    }
+
+    MissingOrgans:{
+        DisplayName: 臓器が失われた！
+        Description: 体の一部が削り取られてしまった！
+    }
+
+    ParchedDebuff:{
+        DisplayName: 喉が渇く！
+        Description: 喉がカラカラだ…
+    }
+
+    RapidAging:{
+        DisplayName: 急速な老化
+        Description: 自分の生命エネルギーがすべて消え去っていくのを感じる
+    }
+
+    RedBindDebuff:{
+        DisplayName: レッドバインド
+        Description: 火に縛られている...
+    }
+
+    SMACK:{
+        DisplayName: SMACK!
+        Description: 耐えられない！頭の中の音がどんどん大きくなってくる！！
+    }
+
+    SpaceFreeze:{
+        DisplayName: スペースフリーズ！
+        Description: 高く飛びすぎたようだ。これから永遠に宇宙に留まることになる…楽しい時間を！
+    }
+
+    Spin:{
+        DisplayName: 回転
+        Description: 無限に回転し続ける…生き残る望みはない
+    }
+
+    Stolen:{
+        DisplayName: 盗まれた
+        Description: スタンドディスクが盗まれた！
+    }
+
+    Sunburn:{
+        DisplayName: 太陽灼傷
+        Description: 太陽の光で燃えているッ！
+    }
+
+    TimeSkipConfusion:{
+        DisplayName: 時間がスキップした？
+        Description: 今見たのはお前の未来の姿だ。
+    }
+
+    WhooshDebuff:{
+        DisplayName: WOOOSH!
+        Description: 風に逆らって進んでいる。速度が低下
+    }
+
+    Zipped:{
+        DisplayName: ジッパー！
+        Description: 体にジッパーがついているせいで血が止まらない！
+    }
+
+    BacktoZero:{
+        DisplayName: ゼロに戻る
+        Description: 敵はあなたに触れることすらできない…
+    }
+
+    BelieveInMe:{
+        DisplayName: 信じる！
+        Description: あなたは、その男を最後まで支える覚悟ができているというのか！
+    }
+
+    BitesTheDust:{
+        DisplayName: バイツァ・ダスト
+        Description: 失敗に対する究極の武器
+    }
+
+    DeathLoop:{
+        DisplayName: 死のループ
+        Description: ターゲットとなった敵は、死ぬまで何度も死に続けることになる…
+    }
+
+    ForeseenDebuff:{
+        DisplayName: 予見
+        Description: あなたの行動はすでに見られている...
+    }
+
+    ForesightBuff:{
+        DisplayName: 先見の明
+        Description: あなたは未来を見つめている...
+    }
+
+    FrozeninTime:{
+        DisplayName: 時間の中で凍りついた
+        Description: 時間とともに止まってしまった
+    }
+
+    Rampage:{
+        DisplayName: 暴走
+        Description:
+            '''
+            今何つった…！？このヘアースタイルがサザエさんみてェーだとォ？
+            ダメージが2倍になり、パンチの速度も上がるが、射程距離と移動速度は半分になる！
+            '''
+    }
+
+    Restoration:{
+        DisplayName: 復元
+        Description: 傷がみるみる癒やされていくッ！
+    }
+
+    SkippingTime:{
+        DisplayName: タイムスリップ
+        Description: 時間が飛んでいく
+    }
+
+    TheWorldBuff:{
+        DisplayName: ザ・ワールド
+        Description: 時よッ！止まれいッ！
+    }
+
+    ThreeFreezeBarrage:{
+        DisplayName: スリーフリーズ弾
+        Description: このパンチは見た目よりずっと強い！
+    }
+
+    Whoosh:{
+        DisplayName: WOOOSH!
+        Description: 追い風でスピードアップ！
+    }
+
+    ArtificialSoul:{
+        DisplayName: 人工の命
+        Description: 人工の命が与えられた！
+    }
+
+    BadCompanyActiveBuff:{
+        DisplayName: バッド・カンパニー
+        Description: スタンドの全軍が指揮下に！
+    }
+
+    BubbleBarrierBuff:{
+        DisplayName: バブルバリア
+        Description: あなたを保護バブルが包む。防御力が上昇し、物理デバフを無効化し、滑空移動が可能になる！
+    }
+
+    BulletKickFrenzy:{
+        DisplayName: バレットキックフレンジー
+        Description: セックス・ピストルズはどんな弾丸でも蹴り飛ばす準備ができている！
+    }
+
+    CooledOut:{
+        DisplayName: クールアウト
+        Description: 体温が下がった。
+    }
+
+    Dodge:{
+        DisplayName: 避けた！
+        Description: 危なかったッ！
+    }
+
+    DollyDaggerActiveBuff:{
+        DisplayName: ドリー・ダガー
+        Description: 攻撃を受けると、一定の割合のダメージが敵に反射される
+    }
+
+    Exposing:{
+        DisplayName: さらけ出した状態
+        Description: 敵の攻撃に対して脆弱になるが、暗黒空間の回復が速くなる。
+    }
+
+    HamonChargedI:{
+        DisplayName: 波紋チャージ I
+        Description: 体内の大量の波紋が身体能力を高めている。
+    }
+
+    HamonChargedII:{
+        DisplayName: 波紋チャージ II
+        Description: 体内の大量の波紋が身体能力を高めている。
+    }
+
+    Intangible:{
+        DisplayName: 実体がない！
+        Description: 2分間ブロックを通り抜けられる！
+    }
+
+    LockActiveBuff:{
+        DisplayName: ザ・ロック
+        Description: あなたを攻撃した敵は、その罪の重さを感じることになる。
+    }
+
+    Pierced:{
+        DisplayName: 突き刺さった！
+        Description: 矢の破片が刺さった！
+    }
+
+    PowerfulStrike:{
+        DisplayName: 強力な一撃
+        Description: 次の攻撃は6倍のダメージを与える
+    }
+
+    Reinforcements:{
+        DisplayName: 増援
+        Description: 援軍が到着した！
+    }
+
+    RoadRollerBuff:{
+        DisplayName: ロードローラー
+        Description: 土地を破壊し、世界を平らにすることができる。ロードローラーだッ！
+    }
+
+    RUUUN:{
+        DisplayName: 逃げるんだよォォォーーーーッ！
+        Description: ジョースター家には伝統的な戦い方の発想法がある。決して恥ずかしいことではない！
+    }
+
+    SlowDancerBuff:{
+        DisplayName: スローダンサー
+        Description: 大量の回転エネルギーを生成できる早馬
+    }
+
+    SphericalVoid:{
+        DisplayName: 球状の暗黒空間
+        Description: この球体を通過するほとんどすべてのものは、無に分解される
+    }
+
+    SurpriseAttack:{
+        DisplayName: 奇襲
+        Description: 優位性を証明する方法を知っている。
+    }
+
+    SwanSong:{
+        DisplayName: 白鳥の歌
+        Description: まだ死んでない…
+    }
+
+    Weave:{
+        DisplayName: 編み込み
+        Description: この糸を編み合わせると金属と同じくらいの強度のシートが作れる...そしてそれに包まれば…ッ！
+    }
+
+    ZipperDodge:{
+        DisplayName: ジッパー回避
+        Description: 自分に使って回避しろ！
+    }
+
+    JoJoBuff:{
+        DisplayName: Mods.JoJoStands.BuffName.JoJoBuff
+        Description: Mods.JoJoStands.BuffDescription.JoJoBuff
+    }
+
+    JonathanPetBuff:{
+        DisplayName: ジョナサン ペット
+        Description: 彼はあなたを信じている
+    }
+
+    SpeedWagonPetBuff:{
+        DisplayName: スピードワゴン ペット
+        Description: 彼はあなたを応援している
+    }
+
+    CoordinatedEyes:{
+        DisplayName: 調整された目
+        Description: 目はすべてに焦点を合わせることができるため、さらに遠くまでスタンドを伸ばすことができる。(ブロック範囲半径 +1)
+    }
+
+    MentalFortitude:{
+        DisplayName: 精神力
+        Description:
+            '''
+            あなたの意志は不屈だ。
+            防御力が3増加した。
+            '''
+    }
+
+    QuickThinking:{
+        DisplayName: 素早い思考
+        Description:
+            '''
+            何をすべきか、どのようにすべきか、より早く理解できるようになる。
+            スタンドスピードが1増加
+            '''
+    }
+
+    SharpMind:{
+        DisplayName: 鋭い精神
+        Description: 精神反射神経が研ぎ澄まされ、スタンドのクリティカル率が10%増加した
+    }
+
+    StrongWill:{
+        DisplayName: 強い意志
+        Description:
+            '''
+            あなたとあなたのスタンドは何でもできるような気がする！
+            スタンドダメージ+10%増加
+            '''
+    }
+
+    DyingVampire:{
+        DisplayName: 瀕死の吸血鬼
+        Description: Mods.JoJoStands.Buffs.DyingVampire.Description
+    }
+
+    Zombie:{
+        DisplayName: 屍生人
+        Description: Mods.JoJoStands.Buffs.Zombie.Description
+    }
+
+    Lacerated:{
+        DisplayName: 裂傷
+        Description: Mods.JoJoStands.Buffs.Lacerated.Description
+    }
+
+    WoooshDebuff:{
+        DisplayName: Woosh デバフ
+        Description: Mods.JoJoStands.Buffs.WoooshDebuff.Description
+    }
+
+    FinalPush:{
+        DisplayName: 今際の際の力
+        Description: Mods.JoJoStands.Buffs.FinalPush.Description
+    }
+
+    HamonWeaponImbueBuff:{
+        DisplayName: 波紋武器の付与強化
+        Description: Mods.JoJoStands.Buffs.HamonWeaponImbueBuff.Description
+    }
+
+    KnifeAmalgamation:{
+        DisplayName: ナイフの融合
+        Description: Mods.JoJoStands.Buffs.KnifeAmalgamation.Description
+    }
+
+    ProtectiveFilmBuff:{
+        DisplayName: 保護フィルム バフ
+        Description: Mods.JoJoStands.Buffs.ProtectiveFilmBuff.Description
+    }
+
+    SunscreenBuff:{
+        DisplayName: 日焼け止め バフ
+        Description: Mods.JoJoStands.Buffs.SunscreenBuff.Description
+    }
+
+    UltraSunscreenBuff:{
+        DisplayName: 超日焼け止め バフ
+        Description: Mods.JoJoStands.Buffs.UltraSunscreenBuff.Description
+    }
+
+    DioPetBuff:{
+        DisplayName: ディオ ペット バフ
+        Description: Mods.JoJoStands.Buffs.DioPetBuff.Description
+    }
+
+    ZeppeliPetBuff:{
+        DisplayName: ツェッペリ ペット バフ
+        Description: Mods.JoJoStands.Buffs.ZeppeliPetBuff.Description
+    }
+
+    TopOfTheChain:{
+        DisplayName: チェーンのトップ
+        Description: Mods.JoJoStands.Buffs.TopOfTheChain.Description
+    }
+
+    StrayCatBuff:{
+        DisplayName: ストレイ・キャット
+        Description: どこから生まれたのかは不明だが、こいつは君のために戦ってくれる！
+    }
+}
+
+Items:{
+    AjaStone:{
+        DisplayName: エイジャの赤石
+        Tooltip: この石を身に着けると、水上歩行が可能になり、再生能力と最大波紋が向上するッ！
+    }
+
+    ArrowEarring:{
+        DisplayName: 矢のイヤリング
+        Tooltip:
+            '''
+            スタンド攻撃で敵を攻撃すると、そのダメージの10%が周囲の敵に伝播する
+            一定時間ダメージを受けていない場合、伝播するダメージは2倍になる
+            '''
+    }
+
+    AwakenedAmulet:{
+        DisplayName: 覚醒したアミュレット
+        Tooltip:
+            '''
+            魂の姿を完璧に表現し、強化するお守り
+            スタンド速度が2上昇
+            スタンド回避率が10%上昇
+            スタンド能力のクールダウンが20%短縮
+            スタンドのクリティカル率が10%上昇
+            スタンドのアーマー貫通力が10上昇
+            スタンド発動中の防御力が上昇
+            '''
+    }
+
+    CrackedPearl:{
+        DisplayName: ひび割れた真珠
+        Tooltip:
+            '''
+            指輪から取り外す際に割れた真珠。どうやら、常に特殊なウイルスを漏出しているようだ。
+            装着時：スタンドで敵を殴るとウイルスが敵に感染する。
+            '''
+    }
+
+    Epitaph:{
+        DisplayName: エピタフ
+        Tooltip: これを装備するとカエルを電話として使いたくなる
+    }
+
+    FamilyPhoto:{
+        DisplayName: 家族写真
+        Tooltip: スタンド近接攻撃が成功すると、受けるダメージが軽減される
+    }
+
+    FightingSpiritEmblem:{
+        DisplayName: 闘志の紋章
+        Tooltip:
+            '''
+            スタンドダメージが15%増加。
+            同じ対象にダメージを与えると、スタンドダメージが1%増加し、最大30%まで増加する。
+            別の敵にダメージを与えると、このカウンターが6%減少する。
+            '''
+    }
+
+    GoldAmuletOfAdapting:{
+        DisplayName: 精密性のお守り
+        Tooltip:
+            '''
+            スタンド回避率が8%増加
+            スタンドクリティカル率が10%増加
+            '''
+    }
+
+    GoldAmuletOfChange:{
+        DisplayName: 成長性のお守り
+        Tooltip: スタンドのクリティカル確率が5%増加
+    }
+
+    GoldAmuletOfControl:{
+        DisplayName: 精密性のお守り
+        Tooltip: スタンド能力のクールダウンを5%短縮
+    }
+
+    GoldAmuletOfDestroy:{
+        DisplayName: 破壊力のお守り
+        Tooltip: スタンドのアーマー貫通力が5増加
+    }
+
+    GoldAmuletOfEscape:{
+        DisplayName: 回避のお守り
+        Tooltip: スタンド回避率が4%増加
+    }
+
+    GoldAmuletOfFight:{
+        DisplayName: 戦いのお守り
+        Tooltip: スタンド速度が1増加
+    }
+
+    GoldAmuletOfManipulation:{
+        DisplayName: 操作のお守り
+        Tooltip:
+            '''
+            スタンド能力のクールダウンが20%減少
+            スタンドのアーマー貫通力が10増加
+            '''
+    }
+
+    GoldAmuletOfProtect:{
+        DisplayName: 守護のお守り
+        Tooltip: スタンド発動中の防御力が上昇
+    }
+
+    GoldAmuletOfServing:{
+        DisplayName: 忠誠のお守り
+        Tooltip:
+            '''
+            スタンド速度が2上昇
+            スタンド発動中の防御力が上昇
+            '''
+    }
+
+    GreaterGoldAmuletOfChange:{
+        DisplayName: 成長の大護符
+        Tooltip: スタンドのクリティカル確率が10%増加
+    }
+
+    GreaterGoldAmuletOfControl:{
+        DisplayName: 精密性の大護符
+        Tooltip: スタンド能力のクールダウンを10%短縮
+    }
+
+    GreaterGoldAmuletOfDestroy:{
+        DisplayName: 破壊の大護符
+        Tooltip: スタンドのアーマー貫通力が10増加
+    }
+
+    GreaterGoldAmuletOfEscape:{
+        DisplayName: 回避の大護符
+        Tooltip: スタンド回避率が8%増加
+    }
+
+    GreaterGoldAmuletOfFight:{
+        DisplayName: 戦いの大護符
+        Tooltip: スタンド速度が2増加
+    }
+
+    GreaterGoldAmuletOfProtect:{
+        DisplayName: 守護の大護符
+        Tooltip: スタンド発動中の防御力増加
+    }
+
+    GreaterPlatinumAmuletOfChange:{
+        DisplayName: 成長の大護符
+        Tooltip: スタンドのクリティカル確率が10%増加
+    }
+
+    GreaterPlatinumAmuletOfControl:{
+        DisplayName: 精密性の大護符
+        Tooltip: スタンド能力のクールダウンを10%短縮
+    }
+
+    GreaterPlatinumAmuletOfDestroy:{
+        DisplayName: 破壊力の大護符
+        Tooltip: スタンドのアーマー貫通力が10増加
+    }
+
+    GreaterPlatinumAmuletOfEscape:{
+        DisplayName: 回避の大護符
+        Tooltip: スタンド回避率が8%増加
+    }
+
+    GreaterPlatinumAmuletOfFight:{
+        DisplayName: 戦いの大護符
+        Tooltip: スタンド速度が2増加
+    }
+
+    GreaterPlatinumAmuletOfProtect:{
+        DisplayName: 守護の大護符
+        Tooltip: スタンド発動中の防御力増加
+    }
+
+    HamonEmblem:{
+        DisplayName: 波紋の紋章
+        Tooltip: 波紋のダメージが15%増加
+    }
+
+    HeartHeadband:{
+        DisplayName: ハートのヘッドバンド
+        Tooltip:
+            '''
+            真に忠誠を誓う者が身につけるヘッドバンド。
+            クリームが暗黒空間モード中にこれを着用すると、クリームはタイルを破壊するのではなく跳ね返る。スタンドダメージが8%減少する。
+            '''
+    }
+
+    HerbalTeaBag:{
+        DisplayName: ハーブティーバッグ
+        Tooltip:
+            '''
+            次の10回の遠距離スタンド攻撃が強化される。
+            休息中は1秒ごとに攻撃を1回回復する。
+            '''
+    }
+
+    IcedCup:{
+        DisplayName: 氷水
+        Tooltip: 氷の入った水は水分補給と涼しさを保つのに最適！
+    }
+
+    ManifestedWillEmblem:{
+        DisplayName: 意志の表明の紋章
+        Tooltip:
+            '''
+            スタンドダメージ15%増加
+            スタンドクリティカルダメージ50%増加
+            '''
+    }
+
+    OverheavenArrowShard:{
+        DisplayName: オーバーヘブン　矢の破片
+        Tooltip:
+            '''
+            一部のスタンドに固有の効果がある。
+            アクセサリーの効果は装飾スロットにも適用される。
+            '''
+    }
+
+    PlatinumAmuletOfAdapting:{
+        DisplayName: 適応の護符
+        Tooltip:
+            '''
+            スタンド回避率が10%増加
+            スタンドクリティカル率が10%増加
+            '''
+    }
+
+    PlatinumAmuletOfChange:{
+        DisplayName: 変化の護符
+        Tooltip: スタンドのクリティカル確率が5%増加
+    }
+
+    PlatinumAmuletOfControl:{
+        DisplayName: コントロールの護符
+        Tooltip: スタンド能力のクールダウンを5%短縮
+    }
+
+    PlatinumAmuletOfDestroy:{
+        DisplayName: 破壊の護符
+        Tooltip: スタンドのアーマー貫通力が5増加
+    }
+
+    PlatinumAmuletOfEscape:{
+        DisplayName: 脱出の護符
+        Tooltip: スタンド回避率が4%増加
+    }
+
+    PlatinumAmuletOfFight:{
+        DisplayName: 戦いの護符
+        Tooltip: スタンド速度が1増加
+    }
+
+    PlatinumAmuletOfManipulation:{
+        DisplayName: 操作の護符
+        Tooltip:
+            '''
+            スタンド能力のクールダウンが20%減少
+            スタンドのアーマー貫通力が10増加
+            '''
+    }
+
+    PlatinumAmuletOfProtect:{
+        DisplayName: 守護の護符
+        Tooltip: スタンドが解除されている間、防御力が上昇
+    }
+
+    PlatinumAmuletOfServing:{
+        DisplayName: 奉仕の護符
+        Tooltip:
+            '''
+            スタンド速度が2上昇
+            スタンド発動中の防御力が上昇
+            '''
+    }
+
+    SealedPokerDeck:{
+        DisplayName: シールドポーカーデッキ
+        Tooltip:
+            '''
+            5秒ごとにスタンド攻撃のダメージが25%増加。
+            このアクセサリが付与されたスタンド攻撃は必ずクリティカルヒットとなる。
+            '''
+    }
+
+    SiliconLifeformCarapace:{
+        DisplayName: シリコン生命体の甲羅
+        Tooltip:
+            '''
+            スタンド回避率が15%増加。
+            スタンド防御ボーナスが100%増加。
+            ライフが徐々に減少する。
+            '''
+    }
+
+    SoothingSpiritDisc:{
+        DisplayName: 癒しの精神ディスク
+        Tooltip: 周囲の敵ごとにスタンドダメージが 2% 増加
+    }
+
+    StandEmblem:{
+        DisplayName: スタンドの紋章
+        Tooltip: スタンドダメージ15%増加
+    }
+
+    TheFirstNapkin:{
+        DisplayName: 最初のナプキンを取れる者
+        Tooltip:
+            '''
+            キルごとにスタンド能力のクールダウンが1秒短縮される。
+            能力のクールダウン時間が8%短縮される。
+            '''
+    }
+
+    UnderbossPhone:{
+        DisplayName: ボスからの電話
+        Tooltip:
+            '''
+            スタンド攻撃による敵への5回攻撃ごとにダメージが増加する。
+            このアクセサリの影響を受ける攻撃は防御力を無視する。
+            '''
+    }
+
+    VampiricBangle:{
+        DisplayName: 吸血鬼のバングル
+        Tooltip:
+            '''
+            スタンド攻撃でライフスティールが可能
+            使用者へのダメージが33%増加！
+            '''
+    }
+
+    ViralPearlRing:{
+        DisplayName: ウイルスパールリング
+        Tooltip: 右クリックでパールを取り外す。壊さないように注意しろ！
+    }
+
+    ZippedHand:{
+        DisplayName: ジップの手
+        Tooltip:
+            '''
+            死の直前に最後の抵抗をすることができる
+            最後の抵抗フェーズ中は、ダメージとクリティカルヒットの確率が2倍になる
+            '''
+    }
+
+    AerosmithFinal:{
+        DisplayName: エアロスミス（Final Tier）
+        Tooltip:
+            '''
+            左クリックで移動、右クリックで敵に弾丸を発射！
+            特殊能力：遠隔コントロール
+            セカンド特殊能力：敵に爆弾を投下！
+            パッシブ：カーボンレーダー
+            スタンドが離れるほどダメージは減少。
+            スタンドスロットで使用
+            '''
+    }
+
+    AerosmithT1:{
+        DisplayName: エアロスミス（Tier 1）
+        Tooltip:
+            '''
+            左クリックで移動、右クリックで敵に弾丸を発射！
+
+            特殊能力：遠隔コントロール
+            スタンドが離れるほどダメージは減少。
+            スタンドスロットで使用
+            '''
+    }
+
+    AerosmithT2:{
+        DisplayName: エアロスミス（Tier 2）
+        Tooltip:
+            '''
+            左クリックで移動、右クリックで敵に弾丸を発射！
+            特殊能力：遠隔コントロール
+            セカンド特殊能力：敵に爆弾を投下！
+
+            スタンドが遠いほどダメージは減少。
+            スタンドスロットで使用
+            '''
+    }
+
+    AerosmithT3:{
+        DisplayName: エアロスミス（Tier 3）
+        Tooltip:
+            '''
+            左クリックで移動、右クリックで敵に弾丸を発射！
+            特殊能力：遠隔コントロール
+            セカンド特殊能力：敵に爆弾を投下！
+            パッシブ：カーボンレーダー
+            スタンドが離れるほどダメージは減少。
+            スタンドスロットで使用
+            '''
+    }
+
+    AntiVampireSerum:{
+        DisplayName: 抗吸血鬼血清
+        Tooltip: 仮面の力に屈した者たちを癒すために作られた、波紋を注入した血清。
+    }
+
+    HamonTrainingArmor:{
+        DisplayName: 波紋トレーニングベスト
+        Tooltip:
+            '''
+            肺が強くなっていくのがわかるでしょう...
+            波紋ダメージが10%増加
+            '''
+    }
+
+    HamonTrainingHelmet:{
+        DisplayName: 波紋トレーニング帽子
+        Tooltip:
+            '''
+            頭をすっきりと保つ快適な帽子...
+            波紋ダメージが5%増加
+            '''
+    }
+
+    HamonTrainingLeggings:{
+        DisplayName: 波紋トレーニングすね当て
+        Tooltip:
+            '''
+            足に軽い衝撃を感じる…
+            波紋ダメージが5%増加
+            移動速度が上昇
+            '''
+    }
+
+    AdamantiteAlloyHelmetLong:{
+        DisplayName: アダマンタイト合金の兜（長距離）
+        Tooltip:
+            '''
+            ウイルス隕石と融合した兜で使用者を強化する。
+            スタンドクリティカル率12%、
+            スタンドダメージ18%
+            '''
+    }
+
+    AdamantiteAlloyHelmetNeutral:{
+        DisplayName: アダマンタイト合金の兜（ニュートラル）
+        Tooltip:
+            '''
+            使用者を強化するために、ウイルス隕石と融合した兜。
+            注：この兜は、バニラのアダマンタイトセットと組み合わせることでセットボーナスを得る。
+            スタンドのステータスバフは、スタンドの種類によって異なる。
+            '''
+    }
+
+    AdamantiteAlloyHelmetShort:{
+        DisplayName: アダマンタイト合金の兜（近距離用）
+        Tooltip:
+            '''
+            ウイルス隕石と融合した兜で使用者を強化する。
+            スタンドクリティカル率8%、
+            スタンドダメージ12%
+            '''
+    }
+
+    TitaniumAlloyMaskLong:{
+        DisplayName: チタン合金マスク（遠距離用）
+        Tooltip:
+            '''
+            ウイルス隕石と融合したマスク。使用者に力を与える。
+            スタンドクリティカル率10%、
+            スタンドダメージ15%
+            '''
+    }
+
+    TitaniumAlloyMaskNeutral:{
+        DisplayName: チタン合金マスク（ニュートラル）
+        Tooltip:
+            '''
+            使用者に力を与える、ウィルス隕石と融合したマスク。
+            注：この兜は、バニラのチタンセットと組み合わせることでセットボーナスを得る。
+            スタンドのステータスバフは、スタンドの種類によって異なる。
+            '''
+    }
+
+    TitaniumAlloyMaskShort:{
+        DisplayName: チタン合金マスク（近距離用）
+        Tooltip:
+            '''
+            ウイルス隕石と融合したマスク。使用者に力を与える。
+            スタンド速度3、
+            スタンドダメージ10%
+            '''
+    }
+
+    BootlegCosplayCoat:{
+        DisplayName: 海賊版コスプレコート
+        Tooltip:
+            '''
+            ローブと同じ長さだが、コートとしてカウントされるコート。
+            スタンドスピード+1
+            '''
+    }
+
+    BootlegCosplayHat:{
+        DisplayName: 海賊版コスプレ帽子
+        Tooltip:
+            '''
+            髪と一体化する帽子。
+            スタンドのクリティカルヒット率+4%
+            '''
+    }
+
+    BootlegCosplayPants:{
+        DisplayName: 海賊版コスプレパンツ
+        Tooltip:
+            '''
+            履くと別人になったような気分になれるパンツ。残念ながら10万円はしなかったが…
+            スタンドクリティカル率+4%
+            '''
+    }
+
+    ChlorositeChestplate:{
+        DisplayName: クロロサイトの胸当て
+        Tooltip:
+            '''
+            異世界のウイルスを注入したクロロファイトで作られた胸当て。
+            スタンドのクリティカル率+7%、
+            スタンドダメージ+6%
+            '''
+    }
+
+    ChlorositeHelmetLong:{
+        DisplayName: クロロサイトの兜（遠距離）
+        Tooltip:
+            '''
+            クロロファイトに異次元のウイルスを注入して作られた兜。
+            スタンドダメージ15%
+            '''
+    }
+
+    ChlorositeHelmetNeutral:{
+        DisplayName: クロロサイトの兜（ニュートラル）
+        Tooltip: 異世界のウイルスを注入したクロロファイトで作られた兜。
+    }
+
+    ChlorositeHelmetShort:{
+        DisplayName: クロロサイトの兜（近距離用）
+        Tooltip:
+            '''
+            クロロファイトに異次元のウイルスを注入して作られた兜。
+            スタンドダメージ15%
+            '''
+    }
+
+    ChlorositeLeggings:{
+        DisplayName: クロロサイトのすね当て
+        Tooltip:
+            '''
+            クロロファイトに異次元のウイルスを注入して作られたすね当て。
+            移動速度8%、
+            スタンドクリティカル率9%
+            '''
+    }
+
+    CrystalChestplate:{
+        DisplayName: クリスタル胸当て
+        Tooltip:
+            '''
+            クリスタルを使用して魂を研ぎ澄ます輝く胸当て...
+            スタンドクリティカル確率+10%
+            '''
+    }
+
+    CrystalHelmetLong:{
+        DisplayName: クリスタルの兜（遠距離）
+        Tooltip:
+            '''
+            意志の力を強化するために作られた兜
+            スタンドダメージ8%
+            '''
+    }
+
+    CrystalHelmetNeutral:{
+        DisplayName: クリスタルの兜（ニュートラル）
+        Tooltip:
+            '''
+            意志の力を強化するために作られた兜。
+            スタンドのステータスバフはスタンドの種類によって変化する。
+            '''
+    }
+
+    CrystalHelmetShort:{
+        DisplayName: クリスタルの兜（近距離）
+        Tooltip:
+            '''
+            意志の力を強化するために作られた兜
+            スタンドスピード+2
+            '''
+    }
+
+    CrystalLeggings:{
+        DisplayName: クリスタルのすね当て
+        Tooltip:
+            '''
+            クリスタル製のすね当て。
+            移動速度12%
+            '''
+    }
+
+    PhantomChestplate:{
+        DisplayName: ファントム胸当て
+        Tooltip:
+            '''
+            適応性の高いウイルスとエクトプラズムで作られた、明るく輝く胸当て。
+            スタンドのクリティカル率+8%、
+            スタンド速度+1
+            、被ダメージ軽減12%
+            '''
+    }
+
+    PhantomHoodLong:{
+        DisplayName: ファントムフード（遠距離）
+        Tooltip:
+            '''
+            異世界のウイルスを注入したエクトプラズムで作られた兜。
+            スタンドダメージ+18%、
+            スタンドクリティカル率+15%
+            '''
+    }
+
+    PhantomHoodNeutral:{
+        DisplayName: ファントムフード（ニュートラル）
+        Tooltip: 異世界のウイルスを注入したエクトプラズムで作られた兜。
+    }
+
+    PhantomHoodShort:{
+        DisplayName: ファントムフード（近距離）
+        Tooltip:
+            '''
+            異世界のウイルスを注入したエクトプラズムで作られた兜。
+            スタンドダメージ+18%、
+            スタンド速度+1
+            '''
+    }
+
+    PhantomLeggings:{
+        DisplayName: ファントムのすね当て
+        Tooltip:
+            '''
+            エクトプラズムと強力なウイルスで作られたすね当て。
+            移動速度+10%、
+            スタンドクリティカル率+5%
+            '''
+    }
+
+    RequiemChestplate:{
+        DisplayName: レクイエム胸当て
+        Tooltip:
+            '''
+            最高級のルミナイトとウイルス隕石の合金で作られた胸当て。
+            スタンドクリティカル率+10%、
+            スタンド速度+3、
+            被ダメージ軽減5%
+            '''
+    }
+
+    RequiemCrownLong:{
+        DisplayName: レクイエムクラウン（遠距離）
+        Tooltip:
+            '''
+            宇宙がこれまでに提供した最高の素材で作られた王冠。
+            スタンドのクリティカル率+18%、
+            スタンドダメージ+22%、
+            スタンド速度+1
+            '''
+    }
+
+    RequiemCrownNeutral:{
+        DisplayName: レクイエムクラウン（中立）
+        Tooltip: 宇宙がこれまでに提供した中で最も優れた素材から作られた王冠。
+    }
+
+    RequiemCrownShort:{
+        DisplayName: レクイエムクラウン（近距離）
+        Tooltip:
+            '''
+            宇宙がこれまでに提供した最高の素材で作られた王冠。
+            スタンドダメージ+25%、
+            半径+3タイル、
+            被ダメージ+10%、
+            ライフ回復のマイナーブースト
+            '''
+    }
+
+    RequiemGreaves:{
+        DisplayName: レクイエムのすね当て
+        Tooltip:
+            '''
+            最高級の金属で作られたすね当て。ウイルス隕石で強化されている。
+            スタンドのクリティカル率+8%
+            移動速度+14%
+            '''
+    }
+
+    ViralArmorHelmetMelee:{
+        DisplayName: ウイルスの兜（短距離）
+        Tooltip:
+            '''
+            遠方の合金で作られた、遠方の装備品のような兜。
+            スタンド速度増加：-1
+            '''
+    }
+
+    ViralArmorHelmetNeutral:{
+        DisplayName: ウイルスの兜（中立）
+        Tooltip:
+            '''
+            隕石から生まれた兜。奇妙なウイルスによって強化された。
+            兜は魂によって変化するようだ…
+            スタンドのステータス強化はスタンドの種類によって変化する。
+            '''
+    }
+
+    ViralArmorHelmetRanged:{
+        DisplayName: ウイルスの兜（長距離）
+        Tooltip:
+            '''
+            隕石から作られた兜。奇妙なウイルスによって強化された。
+            スタンドダメージ増加：+5%
+            '''
+    }
+
+    ViralArmorKaruta:{
+        DisplayName: ウイルスかるた
+        Tooltip:
+            '''
+            謎の隕石合金で作られた鎧。奇妙なウイルスによって強化されている。
+            スタンドのクリティカル確率が4%上昇する。
+            '''
+    }
+
+    ViralArmorTabi:{
+        DisplayName: ウイルス足袋
+        Tooltip:
+            '''
+            奇妙なウイルスの力で、驚くほど機敏な隕石から生まれた軽量ブーツ。
+            スタンドのクリティカル確率が4%上昇する。
+            '''
+    }
+
+    AjaStoneMask:{
+        DisplayName: エイジャの石仮面
+        Tooltip: 石と一体化したマスクは、凄まじいパワーを発しているようだ…
+    }
+
+    StoneMask:{
+        DisplayName: 石仮面
+        Tooltip: 奇妙な考古学的発見。着用すると超人的な能力を得るが、日光で焼けてしまう。
+    }
+
+    ArrowShard:{
+        DisplayName: 矢の破片
+        Tooltip: これで己を刺すと、ゆっくりとスタンドが発現する！
+    }
+
+    BadCompanyFinal:{
+        DisplayName: バッド・カンパニー（Final Tier）
+        Tooltip:
+            '''
+            左クリックで部隊をマウスに向かって撃ち、右クリックで軍隊を選択！
+            特殊能力：周囲の土地への空襲を命じ、兵士の増援を要請！
+            スタンドスロットで使用
+            '''
+    }
+
+    BadCompanyT1:{
+        DisplayName: バッド・カンパニー（Tier 1）
+        Tooltip:
+            '''
+            左クリックで部隊をマウスに向かって撃ち、右クリックで軍隊を選択！
+            スタンドスロットで使用
+            '''
+    }
+
+    BadCompanyT2:{
+        DisplayName: バッド・カンパニー（Tier 2）
+        Tooltip:
+            '''
+            左クリックで部隊をマウスに向かって撃ち、右クリックで軍隊を選択！
+            スタンドスロットで使用
+            '''
+    }
+
+    BadCompanyT3:{
+        DisplayName: バッド・カンパニー（Tier 3）
+        Tooltip:
+            '''
+            左クリックで部隊をマウスに向かって撃ち、右クリックで軍隊を選択！
+            特殊能力：周囲の土地への空襲を命じ、兵士の増援を要請！
+            スタンドスロットで使用
+            '''
+    }
+
+    CenturyBoyT1:{
+        DisplayName: 20th センチュリー・ボーイ（Tier 1）
+        Tooltip:
+            '''
+            特殊能力キーを使用すると、ダメージを受けなくなるが、移動とアイテムの使用はできなくなる。
+            この能力は最大30秒間使用可能。
+            能力のクールダウン時間は使用時間に基づく。
+            スタンドスロットで使用。
+            '''
+    }
+
+    CenturyBoyT2:{
+        DisplayName: 20th センチュリー・ボーイ（Tier 2）
+        Tooltip:
+            '''
+            特殊能力キーを使用すると、ダメージを受けなくなるが、移動とアイテムの使用はできなくなる。
+            この能力は最大1分間のみ使用可能。
+            特殊 + 右クリック：爆発を起こせ！（ダイナマイトが必要）
+            この爆発は、最もダメージの高い武器の3倍のダメージを与える。
+            能力のクールダウン時間は使用時間に基づく。
+            スタンドスロットで使用可能。
+            '''
+    }
+
+    CaringLifeforce:{
+        DisplayName: 思いやりのある生命力
+        Tooltip: 助けることだけを願う人の精神
+    }
+
+    ChlorositeBar:{
+        DisplayName: クロロサイトのインゴット
+        Tooltip: 異世界のウイルスによって汚染された自然の宝石...
+    }
+
+    DeterminedLifeforce:{
+        DisplayName: 決意の生命力
+        Tooltip: 常に決意を固めている人の魂
+    }
+
+    Hand:{
+        DisplayName: 手
+        Tooltip: ある人物が命をかけてでも手に入れたい手
+    }
+
+    RighteousLifeforce:{
+        DisplayName: 正義の生命力
+        Tooltip: 物事を正そうとする人の力
+    }
+
+    SoulofTime:{
+        DisplayName: 時間の魂
+        Tooltip: この魂はあなたの周りの物事をゆっくりにするようです
+    }
+
+    SunDroplet:{
+        DisplayName: 太陽の雫
+        Tooltip:
+            '''
+            温かい雫…どうやら君に反応しているようだ。
+            波紋武器の製作に使われる。
+            '''
+    }
+
+    TaintedLifeforce:{
+        DisplayName: 汚染された生命力
+        Tooltip: 容赦なく邪悪な人のオーラ
+    }
+
+    ViralMeteoriteBar:{
+        DisplayName: ウイルス隕石インゴット
+        Tooltip: 自分の魂が金属と共鳴しているのを感じる
+    }
+
+    ViralPearl:{
+        DisplayName: ウイルスパール
+        Tooltip: あなたのスタンドに強く反応しそうな輝く赤い真珠。
+    }
+
+    ViralPowder:{
+        DisplayName: ウイルスパウダー
+        Tooltip: ウイルス隕石が粉々に砕け散った。なかなか美味しそう！
+    }
+
+    WillToChange:{
+        DisplayName: 変化への意志
+        Tooltip: 形を変え、変化する世界に対する物理的な見方。
+    }
+
+    WillToControl:{
+        DisplayName: 制御する意志
+        Tooltip: 重々しく威圧的な、物理的な世界観。
+    }
+
+    WillToDestroy:{
+        DisplayName: 破壊への意志
+        Tooltip: 破壊的かつ不安定な、物理的な世界観。
+    }
+
+    WillToEscape:{
+        DisplayName: 脱出への意志
+        Tooltip: つかの間で曖昧な、物理的な世界観。
+    }
+
+    WillToFight:{
+        DisplayName: 戦う意志
+        Tooltip: 攻撃的かつ激しい、物理的な世界観。
+    }
+
+    WillToProtect:{
+        DisplayName: 守る意志
+        Tooltip: 世界を物理的に見る見方、防御的かつ思いやりのある見方。
+    }
+
+    CrazyDiamondFinal:{
+        DisplayName: クレイジーダイヤモンド（Final Tier）
+        Tooltip:
+            '''
+            左クリックで敵を猛烈な勢いで殴り、右クリックで弾丸を弾き飛ばす！
+            特殊能力：回復モードに切り替え。
+            セカンド特殊能力：抑えきれない怒りに身を任せる
+            回復モードで左クリックすると回復弾幕を放ち、右クリックするとアイテムを元の状態に戻す。
+            回復モード中にNPCまたはプレイヤーを右クリックすると、元の状態に戻る。
+            他の場所で右クリックすると、影響を受けた他のすべてのオブジェクトの状態が復元される。
+            回復モード中にタイルを殴ると、タイルが破壊される。
+            暴走中は回復が不適切になり、回復した敵は石化する。
+            スタンドスロットで使用
+            '''
+    }
+
+    CrazyDiamondT1:{
+        DisplayName: クレイジーダイヤモンド（Tier 1）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り倒す！
+            特殊能力：回復モードに切り替え
+            回復モードで左クリックすると回復弾幕を発動し、右クリックするとアイテムを元の状態に戻せる。
+            オレンジ以上のレアリティのアイテムは、このTierではアンクラフトできません。
+            スタンドスロットで使用
+            '''
+    }
+
+    CrazyDiamondT2:{
+        DisplayName: クレイジーダイヤモンド（Tier 2）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り、右クリックで弾丸を弾き飛ばす！
+            特殊能力：修復モードに切り替え
+            モードで左クリックすると修復弾幕を発動し、右クリックするとアイテムを元の状態に戻せる。
+            修復モードで右クリックすると、影響を受けたすべてのオブジェクトの状態を復元する。
+            修復モード中にタイルを殴ると、タイルが破壊される。
+            このTierでは、ライトレッド以上のレアリティのアイテムはアンクラフトできません。
+            スタンドスロットで使用
+            '''
+    }
+
+    CrazyDiamondT3:{
+        DisplayName: クレイジーダイヤモンド（Tier 3）
+        Tooltip:
+            '''
+            左クリックで敵を猛烈な勢いで殴り、右クリックで弾丸を弾き飛ばす！
+            特殊能力：修復モードに切り替え
+            セカンド特殊能力：抑えきれない怒りに身を任せる！
+            修復モードで左クリックすると修復弾幕を張り、右クリックするとアイテムを元の状態に戻せる。
+            修復モード中にNPCまたはプレイヤーを右クリックすると、元の状態に戻る。
+            他の場所で右クリックすると、影響を受けた他のすべてのオブジェクトの状態が復元される。
+            修復モード中にタイルを殴ると、タイルが壊れる。
+            暴れ回ると、修復が不適切になり、回復した敵は石化する。
+            レア度ライム以上のアイテムは、このTierではアンクラフトできません。
+            スタンドスロットで使用
+            '''
+    }
+
+    CreamFinal:{
+        DisplayName: クリーム（Final Tier）
+        Tooltip:
+            '''
+            強力なチョップで敵を切り刻み、右クリックで暗黒空間ゲージを4消費してクリームダッシュ！
+            特殊能力：完全に暗黒空間の塊となり、行く手を阻むもの全てを飲み込む！
+            セカンド特殊能力：自身を暗黒空間で包む！
+            スタンドスロットで使用
+            '''
+    }
+
+    CreamT1:{
+        DisplayName: クリーム（Tier 1）
+        Tooltip:
+            '''
+            強力なチョップで敵を切り刻み、右クリックで暗黒空間ゲージを4消費してクリームダッシュ！
+            スタンドスロットで使用
+            '''
+    }
+
+    CreamT2:{
+        DisplayName: クリーム（Tier 2）
+        Tooltip:
+            '''
+            強力なチョップで敵を切り刻み、右クリックで暗黒空間ゲージを4消費してクリームダッシュ！
+            特殊能力：完全に暗黒空間の塊となり、行く手を阻むもの全てを飲み込む！
+            スタンドスロットで使用
+            '''
+    }
+
+    CreamT3:{
+        DisplayName: クリーム（Tier 3）
+        Tooltip:
+            '''
+            強力なチョップで敵を切り刻み、右クリックで暗黒空間ゲージを4消費してクリームダッシュ！
+            特殊能力：完全に暗黒空間の塊となり、行く手を阻むもの全てを飲み込む！
+            セカンド特殊能力：自身を暗黒空間で包む！
+            スタンドスロットで使用
+            '''
+    }
+
+    DollyDaggerT1:{
+        DisplayName: ドリー・ダガー（Tier 1）
+        Tooltip:
+            '''
+            アイテムとして使用：左クリックで短剣として敵を刺すことができる！
+            スタンドスロットに装備すると、すべてのダメージを無効化し、35%を反射する！
+            '''
+    }
+
+    DollyDaggerT2:{
+        DisplayName: ドリー・ダガー（Tier 2）
+        Tooltip:
+            '''
+            アイテムとして使用：左クリックで短剣として敵を刺し、右クリックで自分を刺し、一番近くの敵にダメージを反射！
+            スタンドスロットに装備すると、全ダメージの70%を無効化・反射！
+            '''
+    }
+
+    Part4Dye:{
+        DisplayName: パート4 染料
+        Tooltip:
+            '''
+            特定のスタンドに異なるスプライトを適用。
+            この染料の影響を受けるスタンド：
+            スタープラチナ。
+            スタンド染料スロットで使用。
+            '''
+    }
+
+    SaladDye:{
+        DisplayName: サラダ染料
+        Tooltip:
+            '''
+            特定のスタンドに異なるスプライトを適用。
+            この染料の影響を受けるスタンドは、
+            ザ・ワールド、キラークイーン、ハイエロファントグリーン、
+            タスク・Act4、ホワイトスネイクです。
+            スタンド染料スロットで使用。
+            '''
+    }
+
+    StandDye:{
+        DisplayName: スタンドダイ
+        Tooltip:
+            '''
+            特定のスタンドに異なるスプライトを適用。
+            この染料の影響を受けるスタンド：
+            スタープラチナ。
+            スタンド染料スロットで使用。
+            '''
+    }
+
+    EchoesAct0:{
+        DisplayName: エコーズ（ACT 0）
+        Tooltip:
+            '''
+            左クリックで…投げる？
+            強い意志を持った人だけが使うことができる。
+            '''
+    }
+
+    EchoesAct1:{
+        DisplayName: エコーズ（ACT 1）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴れる！
+            右クリック: サウンドでエンティティをタグ付け可能！
+            特殊能力: 遠隔コントロール
+            パッシブ: 敵を攻撃すると SMACK が適用され、時間の経過とともにダメージを与える。
+            '''
+    }
+
+    EchoesAct2:{
+        DisplayName: エコーズ（ACT 2）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴れる！
+            右クリック：効果音をスクロール！
+            右クリックを押したまま：選択した効果音でオーラを作成！
+            特殊能力：遠隔コントロール
+            セカンド 特殊能力：前のActに切り替え！
+            '''
+    }
+
+    EchoesAct3:{
+        DisplayName: エコーズ（ACT 3）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴れる！
+            右クリック：スリーフリーズ！敵を地面に押さえつけろ！
+            特殊能力：スリーフリーズ連打！通常攻撃で短時間スリーフリーズを発生させる！
+            2回目の特殊能力：前の行動に切り替え！
+            スリーフリーズで押さえつけられた敵は時間の経過とともにダメージを受ける。
+            '''
+    }
+
+    EctoPearl:{
+        DisplayName: エクトパール
+        Tooltip:
+            '''
+            ダンジョンに囚われた魂が受け継いだ異界の真珠。
+            スタンド範囲半径を0.5タイル増加させる。
+            '''
+    }
+
+    ChilliHotPepper:{
+        DisplayName: チリホットペッパー
+        Tooltip: 電気を吸収してより強く、より速くなるスタンド。捕獲され、細かく砕かれ、この赤唐辛子に振りかけられた。
+    }
+
+    ViralChickenLeg:{
+        DisplayName: 鶏の脚のウイルス
+        Tooltip:
+            '''
+            パン粉をまぶした乾燥した鶏もも肉（？）。食べると気分が良くなる。
+            スタンドスピードとプレイヤーの防御力が3分間上昇する。
+            '''
+    }
+
+    ViralCupcake:{
+        DisplayName: ウイルスカップケーキ
+        Tooltip:
+            '''
+            小さなお皿に盛られた、よくできたカップケーキ。その上には小さなウイルス構造物も！
+            スタンドダメージとスタンドクリティカル確率が2m上昇。
+            '''
+    }
+
+    ViralHamburger:{
+        DisplayName: ウイルスハンバーガー
+        Tooltip:
+            '''
+            普通のハンバーガー…でも、ウイルスパウダーがまぶしてある！
+            スタンドダメージ、スタンドクリティカル率、スタンド速度、プレイヤー防御力が5分間向上。
+            '''
+    }
+
+    ViralPunch:{
+        DisplayName: ウイルスパンチ
+        Tooltip:
+            '''
+            黄金色で酸味がありながらも爽やかな飲み物。精神力を高める効果がある。
+            スタンドダメージとスタンド速度が2分間上昇。
+            '''
+    }
+
+    ViralSteak:{
+        DisplayName: ウイルスステーキ
+        Tooltip:
+            '''
+            温かくてジューシーなミディアムレアのステーキ。
+            スタンド範囲とスタンドダメージが3分間増加。
+            '''
+    }
+
+    GoldExperienceFinal:{
+        DisplayName: ゴールド・エクスペリエンス（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで能力を使用！
+            特殊能力: 能力ホイールを開閉
+            パッシブ: 敵に弾幕攻撃をするとライフパンチを付与することがある
+            スタンドスロットで使用
+            '''
+    }
+
+    GoldExperienceRequiem:{
+        DisplayName: ゴールド・エクスペリエンス（レクイエム）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで選択した能力を使用！
+            特殊能力：ゼロに戻るを使用すると、接触したすべての敵の行動を無効化！セカンド特殊能力：スタンドスロットで使用する
+            能力ホイールを開閉
+
+            '''
+    }
+
+    GoldExperienceT1:{
+        DisplayName: ゴールド・エクスペリエンス（Tier 1）
+        Tooltip:
+            '''
+            敵を高速で殴り、右クリックでカエルを出現させよう！
+            スタンドスロットで使用
+            '''
+    }
+
+    GoldExperienceT2:{
+        DisplayName: ゴールド・エクスペリエンス（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで能力を使用！特殊能力：スタンドスロットで使用する
+            能力ホイールを開閉
+
+            '''
+    }
+
+    GoldExperienceT3:{
+        DisplayName: ゴールド・エクスペリエンス（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで能力を使用！
+            特殊能力: 能力ホイールを開閉
+            パッシブ: 敵に弾幕攻撃をするとライフパンチを付与することがある
+            スタンドスロットで使用
+            '''
+    }
+
+    GratefulDeadFinal:{
+        DisplayName: グレイトフル・デッド（Final Tier）
+        Tooltip:
+            '''
+            敵を殴って老化させ、右クリックで掴む！
+            特殊効果：拡散ガス
+            高温のバイオームでより効果的。
+            スタンドスロットで使用
+            '''
+    }
+
+    GratefulDeadT1:{
+        DisplayName: グレイトフル・デッド（Tier 1）
+        Tooltip:
+            '''
+            敵を殴って老化させよう！
+            高温のバイオームでより効果的。
+            スタンドスロットで使用
+            '''
+    }
+
+    GratefulDeadT2:{
+        DisplayName: グレイトフル・デッド（Tier 2）
+        Tooltip:
+            '''
+            敵を殴って老化させ、右クリックで掴むことができる。
+            高温のバイオームではより効果的。
+            スタンドスロットで使用
+            '''
+    }
+
+    GratefulDeadT3:{
+        DisplayName: グレイトフル・デッド（Tier 3）
+        Tooltip:
+            '''
+            敵を殴って老化させ、右クリックで掴む！
+            特殊効果：拡散ガス
+            高温のバイオームでより効果的。
+            スタンドスロットで使用
+            '''
+    }
+
+    Clackers:{
+        DisplayName: クラッカーボール
+        Tooltip:
+            '''
+            これらのクラッカーは、波紋を注入すると致命的な武器になる。
+            右クリックには5つ以上の波紋が必要。
+            特殊能力：波紋の呼吸
+            '''
+    }
+
+    Hamon:{
+        DisplayName: 波紋
+        Tooltip:
+            '''
+            体内に巡る力で敵を殴り倒す。
+            右クリックを押し続けるとライフが回復する！
+            倒すごとに経験値が加算される…
+            特殊能力：波紋ブレス
+            '''
+    }
+
+    HamonCola:{
+        DisplayName: 波紋入りコーラ
+        Tooltip: 波紋入りのコーラを飲んで、より強くなった気分になったり、敵に撃ち込んだりしよう!
+    }
+
+    HamonTequila:{
+        DisplayName: 波紋風味のテキーラ
+        Tooltip: 波紋入りのテキーラを飲んで、より強く、より健康に、より頑丈になれ...そして、それをすべて敵に撃ち込め!
+    }
+
+    HamonVino:{
+        DisplayName: 波紋風味のワイン
+        Tooltip: 波紋を注入したこのワインを飲んで、より強く健康になって…そして、それをすべて敵に撃ち込め!
+    }
+
+    SoapyGlove:{
+        DisplayName: 石鹸手袋
+        Tooltip:
+            '''
+            操作可能なバブルを撃て！
+            クリアするごとに取得経験値が上昇…
+            右クリックには波紋が3つ以上必要。
+            特殊能力：波紋の呼吸。
+            注意：ライフが15%以下になると血の泡が使える。
+            '''
+    }
+
+    HermitPurpleFinal:{
+        DisplayName: ハーミットパープル（Final Tier）
+        Tooltip:
+            '''
+            左クリックでハーミットパープルを鞭のように使い、右クリックで敵を掴んでゆっくりと押し潰す！
+            特殊能力：ハーミットパープルをオーバーチャージして、あなたにダメージを与えた敵を吹き飛ばす！
+            パッシブ：敵はあなたにダメージを与えるとダメージを受け、熱傷状態になる！
+            スタンドスロットで使用
+            '''
+    }
+
+    HermitPurpleT1:{
+        DisplayName: ハーミットパープル（Tier 1）
+        Tooltip:
+            '''
+            左クリックでハーミットパープルを鞭のように使える！
+            スタンドスロットで使用可能
+            '''
+    }
+
+    HermitPurpleT2:{
+        DisplayName: ハーミットパープル（Tier 2）
+        Tooltip:
+            '''
+            左クリックでハーミットパープルを鞭のように使い、右クリックで敵を掴んでゆっくりと押し潰します！
+            パッシブ：敵は攻撃を受けるとダメージを受け、熱傷状態になります！
+            スタンドスロットで使用
+            '''
+    }
+
+    HermitPurpleT3:{
+        DisplayName: ハーミットパープル（Tier 3）
+        Tooltip:
+            '''
+            左クリックでハーミットパープルを鞭のように使い、右クリックで敵を掴んでゆっくりと押し潰します！
+            特殊能力：ハーミットパープルをオーバーチャージして、あなたにダメージを与えた敵を吹き飛ばします！
+            パッシブ：敵はあなたにダメージを与えるとダメージを受け、熱傷状態になります！
+            スタンドスロットで使用
+            '''
+    }
+
+    HierophantGreenFinal:{
+        DisplayName: ハイエロファントグリーン（Final Tier）
+        Tooltip:
+            '''
+            左クリックでエメラルドの嵐を放ち、右クリックで拘束用のエメラルドの糸を投げます！
+            特殊能力：20メートルのエメラルドスプラッシュ！
+            2つ目の特殊能力：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでエメラルドの嵐を放ちます！
+            遠隔モード特殊能力：敵にトリップワイヤーを設置！
+            スタンドスロットで使用
+            '''
+    }
+
+    HierophantGreenT1:{
+        DisplayName: ハイエロファントグリーン（Tier 1）
+        Tooltip:
+            '''
+            左クリックでエメラルドを発射！
+            スタンドスロットで使用
+            '''
+    }
+
+    HierophantGreenT2:{
+        DisplayName: ハイエロファントグリーン（Tier 2）
+        Tooltip:
+            '''
+            左クリックでエメラルドの嵐を放ち、右クリックで拘束用のエメラルドの糸を投げることができる。
+            2つ目の特殊技：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでエメラルドの嵐を放ちます！
+            遠隔モード特殊技：敵にトリップワイヤーを設置します！
+            スタンドスロットで使用します
+            '''
+    }
+
+    HierophantGreenT3:{
+        DisplayName: ハイエロファントグリーン（Tier 3）
+        Tooltip:
+            '''
+            左クリックでエメラルドの嵐を放ち、右クリックで拘束用のエメラルドの糸を投げます！
+            特殊能力：20メートルのエメラルドスプラッシュ！
+            2つ目の特殊能力：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでエメラルドの嵐を放ちます！
+            遠隔モード特殊能力：敵にトリップワイヤーを設置！
+            スタンドスロットで使用
+            '''
+    }
+
+    IceCubes:{
+        DisplayName: 氷
+        Tooltip: 食べるのにちょうどいい大きさの氷。
+    }
+
+    KillerQueenBTD:{
+        DisplayName: キラークイーン（ストレイ・キャット）
+        Tooltip:
+            '''
+            左クリックでバブルを発射し、右クリックで爆発させます！
+            特殊能力：バイツァ・ダスト！
+            アイテムを所持したまま右クリックすると、キラークイーン(Final)に戻る（BTDに戻すことも可能）
+            注：バブル爆弾を手動で爆発させるとダメージが2倍になる！
+            スタンドスロットで使用
+            '''
+    }
+
+    KillerQueenFinal:{
+        DisplayName: キラークイーン（第一の爆弾 Final Tier）
+        Tooltip:
+            '''
+            左クリックでパンチ、右クリックでブロック発動！
+            範囲：16ブロック
+            特殊能力：シアーハートアタック！
+            スタンドスロットで使用
+            '''
+    }
+
+    KillerQueenT1:{
+        DisplayName: キラークイーン（第一の爆弾 Tier 1）
+        Tooltip:
+            '''
+            左クリックでパンチ、右クリックでブロックを発動！
+            範囲：10ブロック
+            スタンドスロットで使用
+            '''
+    }
+
+    KillerQueenT2:{
+        DisplayName: キラークイーン（第一の爆弾 Tier 2）
+        Tooltip:
+            '''
+            左クリックでパンチ、右クリックでブロックを発動！
+            範囲：12ブロック
+            スタンドスロットで使用
+            '''
+    }
+
+    KillerQueenT3:{
+        DisplayName: キラークイーン（第一の爆弾 Tier 3）
+        Tooltip:
+            '''
+            左クリックでパンチ、右クリックでブロック発動！
+            範囲：14ブロック
+            特殊能力：シアーハートアタック！
+            スタンドスロットで使用
+            '''
+    }
+
+    KingCrimsonFinal:{
+        DisplayName: キング・クリムゾン（Final Tier）
+        Tooltip:
+            '''
+            強力なパンチで敵をドーナツ状に倒し、右クリックを押し続けることで敵の動きを止め、位置を変えることができます！
+            特殊能力：10秒間の時間をスキップ！
+            セカンド特殊能力：エピタフを9秒間使用！
+            パッシブ：連続ドーナツでより大きなダメージを与えます。
+            スタンドスロットで使用
+            '''
+    }
+
+    KingCrimsonT1:{
+        DisplayName: キング・クリムゾン（Tier 1）
+        Tooltip:
+            '''
+            強力なパンチで敵をドーナツ化！
+            パッシブ：連続ドーナツでダメージ増加。
+            スタンドスロットで使用
+            '''
+    }
+
+    KingCrimsonT2:{
+        DisplayName: キング・クリムゾン（Tier 2）
+        Tooltip:
+            '''
+            強力なパンチで敵をドーナツ状に倒し、右クリックを押し続けることで敵の動きを止め、位置を移動できます！
+            特殊能力：2秒間の時間をスキップ！
+            パッシブ：連続ドーナツでダメージ増加。
+            スタンドスロットで使用
+            '''
+    }
+
+    KingCrimsonT3:{
+        DisplayName: キング・クリムゾン（Tier 3）
+        Tooltip:
+            '''
+            強力なパンチで敵をドーナツ状に倒し、右クリックを押し続けることで敵の動きを止め、位置を変えることができます！
+            特殊能力：5秒間の時間をスキップ！
+            セカンド特殊能力：エピタフを4秒間使用！
+            パッシブ：連続ドーナツでより大きなダメージを与えます。
+            スタンドスロットで使用
+            '''
+    }
+
+    Knife:{
+        DisplayName: ハンターのナイフ
+        Tooltip: 投げるのに最適な鋭利なナイフ。
+    }
+
+    LockFinal:{
+        DisplayName: ザ・ロック（Final Tier）
+        Tooltip:
+            '''
+            あなたを傷つけた人々を罪悪感で圧倒させる！
+            特殊能力: 自分自身にダメージを与え、半径 40 タイルの範囲内の全員に罪悪感を与える。
+            '''
+    }
+
+    LockT1:{
+        DisplayName: ザ・ロック（Tier 1）
+        Tooltip: あなたを傷つける人々に罪悪感を抱かせましょう！
+    }
+
+    LockT2:{
+        DisplayName: ザ・ロック（Tier 2）
+        Tooltip: あなたを傷つける人々に罪悪感を抱かせましょう！
+    }
+
+    LockT3:{
+        DisplayName: ザ・ロック（Tier 3）
+        Tooltip:
+            '''
+            あなたを傷つけた人々を罪悪感で圧倒させます！
+            特殊能力: 自分自身にダメージを与え、半径 40 タイルの範囲内の全員に罪悪感を与える。
+            '''
+    }
+
+    LuckPluck:{
+        DisplayName: 幸運と勇気
+        Tooltip: 昔の剣闘士の剣。
+    }
+
+    MagiciansRedFinal:{
+        DisplayName: マジシャンズレッド（Final Tier）
+        Tooltip:
+            '''
+            炎のアンクを敵に撃ち込み、右クリックで敵を掴む！
+            特殊能力：クロスファイアハリケーン！
+            スタンドスロットで使用
+            '''
+    }
+
+    MagiciansRedT1:{
+        DisplayName: マジシャンズレッド（Tier 1）
+        Tooltip:
+            '''
+            燃え盛るアンクを敵に撃ち込め！
+            スタンドスロットで使用
+            '''
+    }
+
+    MagiciansRedT2:{
+        DisplayName: マジシャンズレッド（Tier 2）
+        Tooltip:
+            '''
+            炎のアンクを敵に撃ち込み、右クリックで敵を拘束！
+            スタンドスロットで使用
+            '''
+    }
+
+    MagiciansRedT3:{
+        DisplayName: マジシャンズレッド（Tier 3）
+        Tooltip:
+            '''
+            炎のアンクを敵に撃ち込み、右クリックで敵を掴む！
+            特殊能力：クロスファイアハリケーン！
+            スタンドスロットで使用
+            '''
+    }
+
+    ModifiedPurpleRevolver:{
+        DisplayName: 改造リボルバー
+        Tooltip: 従来よりも威力が強化されたリボルバー。特殊キーを押すとリロードできます。
+    }
+
+    PackoCards:{
+        DisplayName: パック・オ・カード
+        Tooltip: ダービーのお気に入りのカードセット…敵に投げつけるのが一番！
+    }
+
+    ArcheologyJournal:{
+        DisplayName: 考古学ジャーナル
+        Tooltip:
+            '''
+            使い魔の石仮面の情報とスケッチが記された日誌。
+            ミニジョナサン・ジョースターを召喚する。
+            '''
+    }
+
+    WoodenCane:{
+        DisplayName: 木製の杖
+        Tooltip:
+            '''
+            史上最高にクールな男が使っていた古い木製の杖。
+            ミニ・ロバート・EO・スピードワゴンを召喚する
+            '''
+    }
+
+    PokerChip:{
+        DisplayName: ポーカーチップ
+        Tooltip: 中に魂が宿っていると言われるポーカーチップ。
+    }
+
+    PurpleRevolver:{
+        DisplayName: パープルリボルバー
+        Tooltip: 修復された六連発拳銃。完全に作動する状態。特殊キーを押してリロードしてください。
+    }
+
+    RequiemArrow:{
+        DisplayName:
+            '''
+            スタンドの矢(レクイエム)
+
+            '''
+        Tooltip: この不思議な矢は、いくつかのスタンドの潜在能力を最大限に引き出すために使用されます。
+    }
+
+    RoadRollerKeys:{
+        DisplayName: ロードローラーキー
+        Tooltip: ロードローラーの鍵！
+    }
+
+    RustyRevolver:{
+        DisplayName: 錆びたリボルバー
+        Tooltip: 時代を経て錆びついたアンティークのリボルバー。まだ作動します。
+    }
+
+    GingerbreadArrow:{
+        DisplayName: ジンジャーブレッドの矢
+        Tooltip:
+            '''
+            これで自分を刺すと、55%の確率でクリスマススタンドが手に入る！…冗談？
+            この矢を食べるとクリスマススタンドが手に入る
+            '''
+    }
+
+    KingClaus:{
+        DisplayName: キング・クラウス
+        Tooltip:
+            '''
+            強力なパンチで敵をドーナツ状に倒し、右クリックを押し続けることで敵をブロックして位置を移動できます。
+            連続でドーナツを倒すとダメージが上昇します。
+            特殊能力：10秒間の時間をスキップ！
+            2つ目の特殊能力：エピタフを9秒間使用！
+            スタンドスロットで使用
+            '''
+    }
+
+    StarOnTheTree:{
+        DisplayName: スターオンザツリー
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り、右クリックで弾丸を弾き飛ばします！
+            弾丸がない場合は、代わりにスターフィンガーを使用します。
+            特殊効果：4秒間時間を停止！
+            スタンドスロットで使用
+            '''
+    }
+
+    SexPistolsFinal:{
+        DisplayName: セックス・ピストルズ（Final Tier）
+        Tooltip:
+            '''
+            銃を使ってセックス・ピストルズに弾丸を蹴らせよう！
+            弾丸のダメージが20%増加し、貫通力が2つ追加される。
+            特殊能力：セックス・ピストルズ全員の配置を設定！
+            セカンド特殊能力：バレットキックフレンジー
+            オートモード：敵の近くまで飛んでいった弾丸は自動的に敵の方向に再調整される！
+            スタンドスロットで使用
+            '''
+    }
+
+    SexPistolsT1:{
+        DisplayName: セックス・ピストルズ（Tier 1）
+        Tooltip:
+            '''
+            銃を使い、セックス・ピストルズに弾丸を蹴らせよう！
+            弾丸のダメージが5%増加し、貫通力が1ポイント増加する。
+            特殊能力：セックス・ピストルズの全配置を設定可能！
+            オートモード：敵の近くまで飛んできた弾丸は自動的に敵の方向に再調整される！
+            スタンドスロットで使用
+            '''
+    }
+
+    SexPistolsT2:{
+        DisplayName: セックス・ピストルズ（Tier 2）
+        Tooltip:
+            '''
+            銃を使ってセックス・ピストルズに弾丸を蹴らせよう！
+            弾丸のダメージが10%増加し、貫通力が1ポイント増加する。
+            特殊能力：セックス・ピストルズの全配置を設定可能！
+            オートモード：敵の近くまで飛んできた弾丸は自動的に敵の方向に再調整される！
+            スタンドスロットで使用
+            '''
+    }
+
+    SexPistolsT3:{
+        DisplayName: セックス・ピストルズ（Tier 3）
+        Tooltip:
+            '''
+            銃を使ってセックス・ピストルズに弾丸を蹴らせよう！
+            弾丸のダメージが15%増加し、貫通力が2つ追加される。
+            特殊能力：セックス・ピストルズ全員の配置を設定！
+            セカンド特殊能力：バレットキックフレンジー
+            オートモード：敵の近くまで飛んでいった弾丸は自動的に敵の方向に再調整される！
+            スタンドスロットで使用
+            '''
+    }
+
+    SilverChariotFinal:{
+        DisplayName: シルバーチャリオッツ（Final Tier）
+        Tooltip:
+            '''
+            左クリックで敵を突き刺し、右クリックで敵や弾を弾き飛ばします！
+            特殊効果：SCのアーマーを剥ぎ取ります！（プレイヤーが受けるダメージが2倍になります！）
+            スタンドスロットで使用します
+            '''
+    }
+
+    SilverChariotT1:{
+        DisplayName: シルバーチャリオッツ（Tier 1）
+        Tooltip:
+            '''
+            左クリックで敵を刺す！
+            スタンドスロットで使用
+            '''
+    }
+
+    SilverChariotT2:{
+        DisplayName: シルバーチャリオッツ（Tier 2）
+        Tooltip:
+            '''
+            左クリックで敵を刺し、右クリックで敵や飛び道具をはじき飛ばします！
+            スタンドスロットで使用します
+            '''
+    }
+
+    SilverChariotT3:{
+        DisplayName: シルバーチャリオッツ（Tier 3）
+        Tooltip:
+            '''
+            左クリックで敵を突き刺し、右クリックで敵や弾を弾き飛ばします！
+            特殊効果：SCのアーマーを剥ぎ取ります！（プレイヤーが受けるダメージが2倍になります！）
+            スタンドスロットで使用します
+            '''
+    }
+
+    SlowDancersSaddle:{
+        DisplayName: スローダンサーのサドル
+        Tooltip: 速い競走馬が持つ青い鞍。
+    }
+
+    SoftAndWetFinal:{
+        DisplayName: ソフト&ウェット（Final Tier）
+        Tooltip:
+            '''
+            敵を高速で殴り、何もない場所で右クリックしてプランダーバブルを作成するか、タイルを右クリックしたままにするとバブルボムを設置できます！
+            特殊能力：バブルオフェンシブ
+            セカンド特殊能力：バブルバリア！
+            パッシブ：バブルジェネレーション
+            バブルオフェンシブは、ソフト＆ウェットの周囲に操作可能なバブルを生成します。
+            バブルオフェンシブモードのバブルは爆発させることができます。バブルオフェンシブ中
+            のバブルは、敵やタイルからデバフ効果を奪うことができます。
+            バブルジェネレーションを使用すると、ソフト＆ウェットは弾幕攻撃中にバブルを生成できます。
+            スタンドスロットで使用
+            '''
+    }
+
+    SoftAndWetGoBeyond:{
+        DisplayName: ソフト&ウェット（ゴー・ビヨンド）
+        Tooltip:
+            '''
+            敵を高速で殴り、右クリックを押し続けると、存在しない泡を発生させます！
+            特殊能力：泡で追跡するターゲットを選択します
+            セカンド特殊能力：バブルバリア！
+            パッシブ：バブル生成＆バブルオフェンス
+            バブル生成により、ソフト＆ウェットは弾幕攻撃中に泡を発生させることができます。
+            バブルオフェンスは、ソフト＆ウェットの周囲に操作可能な泡を発生させます。
+            泡で敵を追跡している間、バブルオフェンスによって生成された泡は、その敵に触れると爆発します。
+            スタンドスロットで使用
+            '''
+    }
+
+    SoftAndWetT1:{
+        DisplayName: ソフト&ウェット（Tier 1）
+        Tooltip:
+            '''
+            敵を高速で殴り、右クリックでプランダーバブルを作成！
+            スタンドスロットで使用
+            '''
+    }
+
+    SoftAndWetT2:{
+        DisplayName: ソフト&ウェット（Tier 2）
+        Tooltip:
+            '''
+            敵を高速で殴り、右クリックでプランダーバブルを出現！
+            2つ目の特殊能力：バブルバリア！
+            スタンドスロットで使用
+            '''
+    }
+
+    SoftAndWetT3:{
+        DisplayName: ソフト&ウェット（Tier 3）
+        Tooltip:
+            '''
+            敵を高速で殴り、右クリックでプランダーバブルを生成！
+            特殊能力：バブルオフェンシブ
+            セカンド特殊能力：バブルバリア！
+            パッシブ：バブルジェネレーション
+            バブルオフェンシブは、ソフト＆ウェットの周囲に操作可能なバブルを生成します。
+            バブルオフェンシブモードのバブルは爆発させることができます。バブルオフェンシブモード
+            のバブルは、敵やタイルからデバフ効果を奪うことができます。バブル
+            ジェネレーションを使用すると、ソフト＆ウェットは弾幕攻撃中にバブルを生成できます。
+            スタンドスロットで使用
+            '''
+    }
+
+    StandArrow:{
+        DisplayName: スタンドの矢
+        Tooltip: これで自分を刺すと、抵抗できる確率が 55% になります。
+    }
+
+    StandItemClass:{
+        DisplayName: スタンドアイテムクラス
+        Tooltip: ""
+    }
+
+    StarPlatinumFinal:{
+        DisplayName: スタープラチナ（Final Tier）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り、右クリックで弾丸を弾き飛ばします！
+            弾丸がない場合は、代わりにスターフィンガーを使用します。
+            特殊効果：4秒間時間を停止！
+            スタンドスロットで使用
+            '''
+    }
+
+    StarPlatinumT1:{
+        DisplayName: スタープラチナ（Tier 1）
+        Tooltip:
+            '''
+            敵を超高速で殴る。
+            スタンドスロットで使用
+            '''
+    }
+
+    StarPlatinumT2:{
+        DisplayName: スタープラチナ（Tier 2）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り、右クリックでスターフィンガーを発動！
+            スタンドスロットで使用
+            '''
+    }
+
+    StarPlatinumT3:{
+        DisplayName: スタープラチナ（Tier 3）
+        Tooltip:
+            '''
+            左クリックで敵を超高速で殴り、右クリックで弾丸を弾き飛ばします！
+            弾丸がない場合は、代わりにスターフィンガーを使用します。
+            スタンドスロットで使用
+            '''
+    }
+
+    SteelBalls:{
+        DisplayName: スティールボール
+        Tooltip:
+            '''
+            このスティールボールは世代を超えて受け継がれてきました...
+            効果的に投げるには5波紋が必要
+            '''
+    }
+
+    StickyFingersFinal:{
+        DisplayName: スティッキー・フィンガーズ（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、ジッパーで口を割ろう！右クリックで延長パンチ！
+            タイルを右クリックし続けると、タイルの中に隠れて敵を混乱させることができる！
+            特殊能力：マウスの方向に30タイル移動！
+            セカンド特殊能力：攻撃をかわす準備！
+            スタンドスロットで使用
+            '''
+    }
+
+    StickyFingersT1:{
+        DisplayName: スティッキー・フィンガーズ（Tier 1）
+        Tooltip:
+            '''
+            敵を超高速で殴り、ジッパーをつけろ！
+            スタンドスロットで使用
+            '''
+    }
+
+    StickyFingersT2:{
+        DisplayName: スティッキー・フィンガーズ（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴り、ジッパーをつけろ！右クリックで延長パンチ！
+            タイルを右クリックし続けると、タイルの中に隠れて敵を混乱させることができる！
+            スタンドスロットで使用
+            '''
+    }
+
+    StickyFingersT3:{
+        DisplayName: スティッキー・フィンガーズ（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、ジッパーをつけろ！右クリックで延長パンチ！
+            タイルを右クリックし続けると、タイルの中に隠れて敵を混乱させることができる！
+            特殊能力：マウスの方向に30タイル移動！
+            セカンド特殊能力：攻撃をかわす準備！
+            スタンドスロットで使用
+            '''
+    }
+
+    StoneFreeFinal:{
+        DisplayName: ストーンフリー（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで糸トラップを設置！
+            特殊能力：この能力は能力ホイールで選択した能力によって設定されます。
+            セカンド特殊能力：能力ホイールを切り替えます。
+            スタンドスロットで使用します。
+            '''
+    }
+
+    StoneFreeT1:{
+        DisplayName: ストーンフリー（Tier 1）
+        Tooltip:
+            '''
+            敵をものすごい速さで殴り倒す！
+            スタンドスロットで使用
+            '''
+    }
+
+    StoneFreeT2:{
+        DisplayName: ストーンフリー（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴り、2つのタイルを右クリックすると紐トラップを設置できます！
+            スタンドスロットで使用
+            '''
+    }
+
+    StoneFreeT3:{
+        DisplayName: ストーンフリー（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで糸トラップを設置！
+            特殊能力：この能力は能力ホイールで選択した能力によって設定されます。
+            セカンド特殊能力：能力ホイールを切り替えます。
+            スタンドスロットで使用します。
+            '''
+    }
+
+    StrayCat:{
+        DisplayName: ストレイ・キャット
+        Tooltip: 猫のような不思議な植物。目に見えない泡を発射し、ニャーという鳴き声でダメージを与えることができる。
+    }
+
+    TestStand:{
+        DisplayName: テストスタンド
+        Tooltip: 顔がなく能力も不明のスタンド…
+    }
+
+    TheHandFinal:{
+        DisplayName: ザ・ハンド（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで空間を削り取ります！
+            特殊能力: 削り取りモードに切り替え
+            削り取りモードで左クリックすると、目の前に削り取ります！
+            削り取りモードで右クリックすると、削り取りをチャージします。
+            削り取りのチャージ時間が1秒未満の場合、削り取り範囲内の敵は自分に向かって削り取られます。削り取りの
+            チャージ時間が1秒を超えると、削り取りは致命的となり、210ダメージ/0.5秒の速度でダメージを与えます！
+            削り取り範囲内の敵は青色で表示されます。
+            削り取りのチャージ中に攻撃を受けると、削り取りが中断されます。
+            スタンドスロットで使用
+            '''
+    }
+
+    TheHandT1:{
+        DisplayName: ザ・ハンド（Tier 1）
+        Tooltip:
+            '''
+            敵をものすごい速さで殴り倒す！
+            スタンドスロットで使用
+            '''
+    }
+
+    TheHandT2:{
+        DisplayName: ザ・ハンド（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックでスペースを削り取ろう！
+            スタンドスロットで使用
+            '''
+    }
+
+    TheHandT3:{
+        DisplayName: ザ・ハンド（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで空間を削り取ります！
+            特殊能力: 削り取りモードに切り替え
+            削り取りモードで左クリックすると、目の前に削り取ります！
+            削り取りモードで右クリックすると、削り取りをチャージします。
+            削り取りのチャージ時間が1秒未満の場合、削り取り範囲内の敵は自分に向かって削り取られます。削り取りの
+            チャージ時間が1秒を超えると、削り取りは致命的となり、145ダメージ/0.5秒の速度でダメージを与えます！
+            削り取り範囲内の敵は青色で表示されます。
+            削り取りのチャージ中に攻撃を受けると、削り取りが中断されます。
+            スタンドスロットで使用
+            '''
+    }
+
+    TheWorldFinal:{
+        DisplayName: ザ・ワールド（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックでナイフを投げる！
+            特殊能力：9秒間時間を止める！
+            タイムストップ中の特殊能力：タイムストップ中にロードローラーを投げる！
+            セカンド特殊能力：時間を停止し、敵をナイフで囲む！
+            スタンドスロットで使用
+            '''
+    }
+
+    TheWorldT1:{
+        DisplayName: ザ・ワールド（Tier 1）
+        Tooltip:
+            '''
+            敵をものすごい速さで殴り倒す！
+            スタンドスロットで使用
+            '''
+    }
+
+    TheWorldT2:{
+        DisplayName: ザ・ワールド（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴る！
+            特殊能力：2秒間時間を止める！
+            スタンドスロットで使用
+            '''
+    }
+
+    TheWorldT3:{
+        DisplayName: ザ・ワールド（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックでナイフを投げる！
+            特殊能力：5秒間時間を停止！
+            セカンド特殊能力：時間を停止し、敵をナイフで囲む！
+            注意：ハンターのナイフは炉で鉄の棒1本から作成でき、ナイフを投げるには必要。
+            スタンドスロットで使用
+            '''
+    }
+
+    BloodForTheKing:{
+        DisplayName: 王の血
+        Tooltip: 『D.ストーム』
+    }
+
+    IWouldntLose:{
+        DisplayName: 私は負けない
+        Tooltip: 『D.ストーム』
+    }
+
+    OfficersRegret:{
+        DisplayName: 警官の後悔
+        Tooltip: 「D.ストーム」
+    }
+
+    QuietLife:{
+        DisplayName: 静かな生活
+        Tooltip: 『D.ストーム』
+    }
+
+    RemixTable:{
+        DisplayName: リミックステーブル
+        Tooltip: メテオリックウイルスを宿した、シンプルなDJテーブル。スタンドの作成と変更が可能。
+    }
+
+    ShotintheDark:{
+        DisplayName: 暗闇の中で撃たれた
+        Tooltip: 『D.ストーム』
+    }
+
+    TarotTable:{
+        DisplayName: タロットテーブル
+        Tooltip: スタンド使いに反応し、望むままにさらなる力を与えるテーブル。
+    }
+
+    ViralBrick:{
+        DisplayName: ウイルスブリック
+        Tooltip: 金のレンガ。生きているのに！
+    }
+
+    ViralMeteorite:{
+        DisplayName: ウイルス隕石
+        Tooltip:
+            '''
+            外来ウイルスの集中した塊…
+            隕石の近くに置くとウイルス隕石が拡散します。
+            '''
+    }
+
+    ViralMusicBox:{
+        DisplayName: ウイルスミュージックボックス
+        Tooltip: 曲が暗号化されたオルゴール。
+    }
+
+    ViralToilet:{
+        DisplayName: ウイルストイレ
+        Tooltip: 便器自体が生き物であるトイレ。
+    }
+
+    TowerOfGrayFinal:{
+        DisplayName: タワー・オブ・グレイ（Final Tier）
+        Tooltip:
+            '''
+            鋭い針で敵を貫き、右クリックで切り裂く！
+            特殊能力: 遠隔コントロール
+            2つ目の特殊能力: 舌を裂く針でエリア内のすべての敵を貫く！
+            パッシブ: 攻撃は敵の防御力を40無視
+            スタンドスロットで使用
+            '''
+    }
+
+    TowerOfGrayT1:{
+        DisplayName: タワー・オブ・グレイ（Tier 1）
+        Tooltip:
+            '''
+            鋭い針で敵を貫く！
+            特殊能力：遠隔コントロール
+            パッシブ：攻撃時に敵の防御力を10無視
+            スタンドスロットで使用
+            '''
+    }
+
+    TowerOfGrayT2:{
+        DisplayName: タワー・オブ・グレイ（Tier 2）
+        Tooltip:
+            '''
+            鋭い針で敵を突き刺し、右クリックで切り裂く！
+            特殊能力：遠隔コントロール
+            パッシブ：攻撃時に敵の防御力を20無視
+            スタンドスロットで使用
+            '''
+    }
+
+    TowerOfGrayT3:{
+        DisplayName: タワー・オブ・グレイ（Tier 3）
+        Tooltip:
+            '''
+            鋭い針で敵を貫き、右クリックで切り裂く！
+            特殊能力: 遠隔コントロール
+            2番目の特殊能力: 舌を裂く針でエリア内のすべての敵を貫く！
+            パッシブ: 攻撃は敵の防御力を30無視
+            スタンドスロットで使用
+            '''
+    }
+
+    TuskAct1:{
+        DisplayName: タスク（第1幕）
+        Tooltip: 左クリックすると敵に釘を撃ち、右クリックすると目の前で釘を回転させて近接武器として使用します。
+    }
+
+    TuskAct2:{
+        DisplayName: タスク（第2幕）
+        Tooltip:
+            '''
+            左クリックを押したままにすると、回転する釘を撃って操作し、右クリックすると、目の前で釘を回転させて近接武器として使用できます。2
+            番目のスペシャル: 前のActに切り替えます。
+            '''
+    }
+
+    TuskAct3:{
+        DisplayName: タスク（ACT 3）
+        Tooltip:
+            '''
+            左クリックを押したままにして、回転する釘を撃って操作し、右クリックしてゆっくりとしたワームホールを撃ってそこから飛び出せ！
+            特殊能力：移動するためのワームホールを作成します！
+            2 番目の特殊能力：前のActに切り替えます！
+            '''
+    }
+
+    TuskAct4:{
+        DisplayName: タスク（ACT 4）
+        Tooltip:
+            '''
+            内に秘めた無限のエネルギーを使おう…
+            マニュアルモード時：左クリックでTA4の連打を繰り出せます。
+            オートモード時：左クリックしたまま回転する釘を撃ち、右クリックで無限回転する釘を撃ち出せます！
+            特殊能力：前のActに切り替え！
+            注意：タスクAct4を使用するには、まずスローダンサーで全速力で走り、スピンエネルギーを溜めておく必要があります。
+            スローダンサーはスローダンサーのサドルアイテムを使って召喚できます。
+            '''
+    }
+
+    AchtungBaby:{
+        DisplayName: アクトン • ベイビー
+        Tooltip: あなたを透明にします！
+    }
+
+    AvdolHair:{
+        DisplayName: 占い師のウィッグ
+        Tooltip: 占い師やスタンド使いをイメージしたウィッグ。
+    }
+
+    AvdolPants:{
+        DisplayName: 占い師のパンツ
+        Tooltip: グレーのウエスト部分が付いたパンツ。
+    }
+
+    AvdolShirt:{
+        DisplayName: 占い師のローブ
+        Tooltip: 金色のネックレスがついた大きな赤いローブ。
+    }
+
+    BucciaratiHair:{
+        DisplayName: オカッパヘアのウィッグ
+        Tooltip: 某マフィアを彷彿とさせる、ボウルカットスタイルの黒いウィッグ。
+    }
+
+    BucciaratiPants:{
+        DisplayName: ジッパー柄のパンツ
+        Tooltip: たくさんのジッパーが付いた模様の白いパンツ。
+    }
+
+    BucciaratiShirt:{
+        DisplayName: ジッパー柄のスーツ
+        Tooltip: いくつかの金色のジッパーと大きな胸元の特殊裁断で飾られた白いスーツ。
+    }
+
+    DarkCape:{
+        DisplayName: ダークケープ
+        Tooltip: 1800年代に最も多く着用された豪華なケープ。
+    }
+
+    DarkTopHat:{
+        DisplayName: ダークトップハット
+        Tooltip: 1800年代に最も多く着用されたシルクハット。
+    }
+
+    DiavoloHair:{
+        DisplayName: ディアボロの髪
+        Tooltip: ドッピオの髪の毛の外側から内側への部分...
+    }
+
+    DiavoloNet:{
+        DisplayName: ディアボロの網
+        Tooltip: 金色のネックレスがついた大きな赤い網…
+    }
+
+    DiavoloPants:{
+        DisplayName: ディアボロのパンツ
+        Tooltip: 膝部分にハートの飾り、ウエスト部分にタッセルが付いたスタイリッシュな黄色のパンツ。
+    }
+
+    DIOHair:{
+        DisplayName: DIOの髪
+        Tooltip: ヘッドバンドをつけた、「人類の支配者」にふさわしい髪型。
+    }
+
+    DIOJacket:{
+        DisplayName: DIOのジャケット
+        Tooltip: 前開きのジャケット。アンダーシャツは肌にぴったりフィットします。
+    }
+
+    DIOPants:{
+        DisplayName: DIOのパンツ
+        Tooltip: 膝部分にハートの飾り、ウエスト部分にタッセルが付いたスタイリッシュな黄色のパンツ。
+    }
+
+    DoppioHair:{
+        DisplayName: ドッピオの髪
+        Tooltip: 裏返しになった髪。もう一方のスタイルは黒い点があり、長く見える...
+    }
+
+    DoppioPants:{
+        DisplayName: ドッピオのパンツ
+        Tooltip: イタリアで人気の、上司の最も信頼できる従業員にぴったりのスタイリッシュな紫色のパンツ。
+    }
+
+    DoppioShirt:{
+        DisplayName: ドッピオのシャツ
+        Tooltip: 穴だらけの紫色のシャツ。内側から何度も破られたみたい…
+    }
+
+    GiornoHair:{
+        DisplayName: イタリア製ウィッグ
+        Tooltip: 前面に3つのループが付いたユニークなヘアスタイルに作られたウィッグ。
+    }
+
+    GiornoPants:{
+        DisplayName: マフィアのパンツ
+        Tooltip: 意外と普通のパンツ。色はピンク。
+    }
+
+    GiornoShirt:{
+        DisplayName: マフィアのスーツ
+        Tooltip: 大きなハート型の胸窓が付いたピンクのスーツ。
+    }
+
+    JohnnyHat:{
+        DisplayName: 騎手のバンダナ
+        Tooltip: 星が飾られたスカイブルーのバンダナ。中央に馬蹄形が描かれている。
+    }
+
+    JohnnyPants:{
+        DisplayName: 騎手のパンツ
+        Tooltip: 星があしらわれたスカイブルーのパンツ。ほとんど傷みはありません。
+    }
+
+    JohnnyShirt:{
+        DisplayName: 騎手のトップス
+        Tooltip: 有名な騎手が着ているスカイブルーのトップス。思わず回転したくなる。
+    }
+
+    JolyneHair:{
+        DisplayName: 徐倫のヘア
+        Tooltip: 自由のために戦う人々に適した、レイヤードしたお団子と三つ編みのウィッグ。
+    }
+
+    JolynePants:{
+        DisplayName: 徐倫のパンツ
+        Tooltip: ウェブ模様のパンツとヒールブーツの組み合わせ。
+    }
+
+    JolyneShirt:{
+        DisplayName: 徐倫のシャツ
+        Tooltip: 動きやすさを追求した服。全体に蜘蛛の巣模様が施されている！
+    }
+
+    JonathanPants:{
+        DisplayName: ジョナサンのパンツ
+        Tooltip: 戦士の世代の始まりとなったパンツ。
+    }
+
+    JonathanTop:{
+        DisplayName: ジョナサンのトップ
+        Tooltip: 着用者をあらゆる危害から守るための肩パッド付きの青いシャツ。
+    }
+
+    Jotaro200000YenPants:{
+        DisplayName: 承太郎の20万円パンツ
+        Tooltip: 高価なズボン。破れないように注意。
+    }
+
+    JotaroAltCap:{
+        DisplayName: 承太郎の帽子（Alt）
+        Tooltip: 後ろが帽子なのか髪の毛なのか、本当には誰にも分かりません…
+    }
+
+    JotaroAltCoat:{
+        DisplayName: 承太郎のコート（Alt）
+        Tooltip: 青い制服。とてもユニーク。
+    }
+
+    JotaroAltPants:{
+        DisplayName: 承太郎の20万円パンツ（Alt）
+        Tooltip: 青いウエスト部分が付いたパンツ。
+    }
+
+    JotaroCap:{
+        DisplayName: 承太郎の帽子
+        Tooltip: 帽子？それとも髪？やれやれだぜ…
+    }
+
+    JotaroCoat:{
+        DisplayName: 承太郎のコート
+        Tooltip: 黒い制服。とてもユニーク。
+    }
+
+    KakyoinCoat:{
+        DisplayName: 花京院のコート
+        Tooltip: 緑のコート！
+    }
+
+    KakyoinHair:{
+        DisplayName: 花京院の髪
+        Tooltip: 汚らしい赤い髪。アヒルの匂いがする…
+    }
+
+    KakyoinPants:{
+        DisplayName: 花京院のパンツ
+        Tooltip: 緑のパンツ！
+    }
+
+    KiraHair:{
+        DisplayName: 吉良の髪
+        Tooltip: 完全に平均的なブロンドの髪。
+    }
+
+    KiraPants:{
+        DisplayName: 吉良のパンツ
+        Tooltip: 静かなライフスタイルにぴったりのシンプルなパンツ。
+    }
+
+    KiraShirt:{
+        DisplayName: 吉良のシャツ
+        Tooltip: 仕事に最適な、手入れの行き届いたジャケット。
+    }
+
+    KoichiHair:{
+        DisplayName: 康一の髪
+        Tooltip: ""
+    }
+
+    KoichiPants:{
+        DisplayName: 康一のパンツ
+        Tooltip: ""
+    }
+
+    KoichiShirt:{
+        DisplayName: 康一のシャツ
+        Tooltip: ""
+    }
+
+    KosakuHair:{
+        DisplayName: 吉良（浩作）の髪
+        Tooltip: 自信を持った男性のための新しいヘアスタイル。
+    }
+
+    KosakuPants:{
+        DisplayName: 吉良（浩作）のパンツ
+        Tooltip: 一日中いつでも使える素敵なパンツ。
+    }
+
+    KosakuShirt:{
+        DisplayName: 吉良（浩作）のシャツ
+        Tooltip: 素敵なジャケット、特注のネクタイ付き。
+    }
+
+    MagentMagentCoat:{
+        DisplayName: マジェント マジェントのコート
+        Tooltip: マジシャンのスーツを思わせる、奇妙なマゼンタ色のスーツ。トリックやダイナマイトを入れるためのポケットが複数付いている。
+    }
+
+    MagentMagentHat:{
+        DisplayName: マジェント マジェントの帽子
+        Tooltip: マジシャンのようなマゼンタ色の帽子。思わず夢中になってしまう。
+    }
+
+    MagentMagentPants:{
+        DisplayName: マジェント マジェントのパンツ
+        Tooltip: 少し擦り切れたマゼンタ色のパンツ。爆発で傷んだ部分を補修したもの
+    }
+
+    MistaHat:{
+        DisplayName: ミスタの帽子
+        Tooltip: 赤と白の模様の帽子。中央に矢印が描かれている。弾丸用の秘密のポケットが付いている。
+    }
+
+    MistaPants:{
+        DisplayName: ミスタのパンツ
+        Tooltip: 赤いパンツに黒いブーツって、ダサいね。あなたのファッションセンスは変だよ。
+    }
+
+    MistaShirt:{
+        DisplayName: ミスタのシャツ
+        Tooltip: 青と白の模様のシャツ。銃弾の跡を補修したような感じ。
+    }
+
+    NaranciaHair:{
+        DisplayName: ナランチャのかつら
+        Tooltip: ナランチャ・ギルガの髪型を模したかつら。火薬のような匂いがする。
+    }
+
+    NaranciaPants:{
+        DisplayName: ナランチャのパンツ
+        Tooltip: ダークカラーのスリムフィットパンツにオレンジのスカートを合わせました。靴は驚くほど丈夫。
+    }
+
+    NaranciaShirt:{
+        DisplayName: ナランチャのベスト
+        Tooltip: 襟とストラップが付いた、ダークカラーのスリムフィットベスト。ランウェイのように腕を振るのにぴったり。
+    }
+
+    OkuyasuHair:{
+        DisplayName: 億泰ウィッグ
+        Tooltip: 虹村億泰の髪型から顔の傷を除いたウィッグ。
+    }
+
+    OkuyasuPants:{
+        DisplayName: 億泰のパンツ
+        Tooltip: 虹村億泰が着用している、ベルトが2本付いたパンツ。
+    }
+
+    OkuyasuShirt:{
+        DisplayName: 億泰ユニフォーム
+        Tooltip: 虹村億泰が着用している、お金のシンボルが飾られた学生服。
+    }
+
+    OldJosephHat:{
+        DisplayName: 老人の帽子
+        Tooltip: ウエスタンハット。ヒゲもついている！
+    }
+
+    OldJosephPants:{
+        DisplayName: 老人のズボン
+        Tooltip: 汚れた茶色のパンツ。少なくとも靴は綺麗だ！
+    }
+
+    OldJosephShirt:{
+        DisplayName: 老人のシャツ
+        Tooltip: 長い冒険の一部のように見える、黄色くボロボロになったシャツ。
+    }
+
+    PolnareffHair:{
+        DisplayName: ポルナレフの髪
+        Tooltip: これを着ると、剣豪になった気分を味わえます。
+    }
+
+    ProsciuttoHair:{
+        DisplayName: ブラザーリーウィッグ
+        Tooltip: とある暗殺者を彷彿とさせる、後ろになでつけた金髪のかつら。
+    }
+
+    ProsciuttoPants:{
+        DisplayName: ブラザーリーパンツ
+        Tooltip: 白いストライプが入ったネイビーのパンツ、そして少し白髪。
+    }
+
+    ProsciuttoShirt:{
+        DisplayName: 兄弟のスーツ
+        Tooltip: 白のストライプが入ったネイビーのスーツ。
+    }
+
+    PucciHair:{
+        DisplayName: 神父の髪型
+        Tooltip: 二つの存在に献身する神父の髪型。
+    }
+
+    PucciRobe:{
+        DisplayName: 神父のローブ
+        Tooltip: 前面の中央に十字架が描かれた大きな黒いローブ。
+    }
+
+    PunkJacket:{
+        DisplayName: パンクのジャケット
+        Tooltip: 黄金の心を持つ人にぴったり!
+    }
+
+    PunkPants:{
+        DisplayName: パンクのパンツ
+        Tooltip: 連続殺人犯を追跡するのに最適!
+    }
+
+    PunkPompadour:{
+        DisplayName: パンクポンパドール
+        Tooltip: このことについて言うことには注意してください...
+    }
+
+    SailorHat:{
+        DisplayName: セーラーハット
+        Tooltip: 「この帽子は誰のものですか？」
+    }
+
+    SailorPants:{
+        DisplayName: セーラーパンツ
+        Tooltip: "7,980円のスニーカーも付いてくる！"
+    }
+
+    SailorShirt:{
+        DisplayName: セーラーシャツ
+        Tooltip: 個性的な体型に合わせて仕立てたシャツ。
+    }
+
+    TamamiHair:{
+        DisplayName: ポンポンヘア
+        Tooltip: 詐欺師がかぶっている、大きく膨らんだ髪型のかつら。
+    }
+
+    TamamiPants:{
+        DisplayName: ポンポンパンツ
+        Tooltip: 黒いパンツ。この服の中で唯一普通の部分。
+    }
+
+    TamamiShirt:{
+        DisplayName: ポンポスシャツ
+        Tooltip: ラベンダー色のシャツに緑のネクタイ、そしてユニオンジャックのワッペン。とてもダサい。
+    }
+
+    VanillaIceBoots:{
+        DisplayName: 吸血鬼の従者のブーツ
+        Tooltip: DIO様の敵を容赦なく蹴散らすために作られました！
+    }
+
+    VanillaIceHair:{
+        DisplayName: 吸血鬼の侍者の髪
+        Tooltip: DIO卿をイメージしたスタイリング！
+    }
+
+    VanillaIceLeotard:{
+        DisplayName: 吸血鬼の侍者のレオタード
+        Tooltip: DIO卿をなだめるために作られました！
+    }
+
+    ViralAxe:{
+        DisplayName: ウイルスアックス
+        Tooltip:
+            '''
+            使用者に縛り付けられるような斧。
+            木を切り倒すと、生きた感染した木の破片が出現する。
+            '''
+    }
+
+    ViralBow:{
+        DisplayName: ウイルスボウ
+        Tooltip:
+            '''
+            弾にウイルス隕石を注入する弓。
+            放たれた矢は全てウイルス矢となり、敵全体を追尾する。
+            '''
+    }
+
+    ViralBroadsword:{
+        DisplayName: ウイルスブロードソード
+        Tooltip: 軽々と振り回せる力を与えてくれる輝く剣…
+    }
+
+    ViralHammer:{
+        DisplayName: ウイルスハンマー
+        Tooltip:
+            '''
+            使用すると強大な力で攻撃するハンマー。
+            使用するとプレイヤーの近くにいる敵にダメージを与えます。
+            '''
+    }
+
+    ViralPickaxe:{
+        DisplayName: ウイルス・ツルハシ
+        Tooltip: 採掘速度が徐々に上昇する金のツルハシ。
+    }
+
+    ViralShortsword:{
+        DisplayName: ウイルスショートソード
+        Tooltip: ピカピカだけど小さい剣。突進するスピードと力を与えてくれる！
+    }
+
+    ViralStaff:{
+        DisplayName: ウイルススタッフ
+        Tooltip:
+            '''
+            金色で精巧にデザインされた杖。
+            敵を追いかけるオーブを発射します。
+            '''
+    }
+
+    ViralYoYo:{
+        DisplayName: ウイルスヨーヨー
+        Tooltip:
+            '''
+            小さなトゲが付いた強力なヨーヨー。敵を切り裂き、感染させる。
+            命中すると感染状態になる。
+            '''
+    }
+
+    WhitesnakeFinal:{
+        DisplayName: ホワイトスネイク（Final Tier）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで酸を投げつけよう！
+            特殊能力：敵のディスクを奪え！
+            セカンド特殊能力：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでピストルで敵を撃つ！
+            遠隔モード特殊能力：敵を眠らせるオーラを作ろう！
+            スタンドスロットで使用
+            '''
+    }
+
+    WhitesnakeT1:{
+        DisplayName: ホワイトスネイク（Tier 1）
+        Tooltip:
+            '''
+            敵をものすごい速さで殴り倒す！
+            スタンドスロットで使用
+            '''
+    }
+
+    WhitesnakeT2:{
+        DisplayName: ホワイトスネイク（Tier 2）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで酸を投げつけよう！
+            2つ目の特殊能力：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでピストルで敵を撃つ！
+            スタンドスロットで使用
+            '''
+    }
+
+    WhitesnakeT3:{
+        DisplayName: ホワイトスネイク（Tier 3）
+        Tooltip:
+            '''
+            敵を超高速で殴り、右クリックで酸を投げつけよう！
+            特殊能力：敵のディスクを奪え！
+            セカンド特殊能力：遠隔コントロール
+            遠隔モード中：左クリックで移動、右クリックでピストルで敵を撃つ！
+            遠隔モード特殊能力：敵を眠らせるオーラを作ろう！
+            スタンドスロットで使用
+            '''
+    }
+
+    BlackUmbrella:{
+        DisplayName: 黒い傘
+        Tooltip: ""
+    }
+
+    BloodiedMonocle:{
+        DisplayName: 血まみれの片眼鏡
+        Tooltip: ""
+    }
+
+    DiosScarf:{
+        DisplayName: ディオススカーフ
+        Tooltip: ""
+    }
+
+    DoobiesSkull:{
+        DisplayName: ドゥービーズ・スカル
+        Tooltip: ""
+    }
+
+    MoonEmblem:{
+        DisplayName: 月の紋章
+        Tooltip: ""
+    }
+
+    MoorburnChestplate:{
+        DisplayName: ムーアバーンの胸当て
+        Tooltip: ""
+    }
+
+    MoorburnGreaves:{
+        DisplayName: ムーアバーンのすね当て
+        Tooltip: ""
+    }
+
+    MoorburnHeadband:{
+        DisplayName: ムーアバーンのヘッドバンド
+        Tooltip: ""
+    }
+
+    AstroRemainsChestplate:{
+        DisplayName: アストロ遺跡の胸当て
+        Tooltip: ""
+    }
+
+    AstroRemainsGreaves:{
+        DisplayName: アストロ遺跡のすね当て
+        Tooltip: ""
+    }
+
+    AstroRemainsSkull:{
+        DisplayName: アストロ遺跡の頭蓋骨
+        Tooltip: ""
+    }
+
+    DefiledChestplate:{
+        DisplayName: 汚れた胸当て
+        Tooltip: ""
+    }
+
+    DefiledGreaves:{
+        DisplayName: 汚れたすね当て
+        Tooltip: ""
+    }
+
+    DefiledMask:{
+        DisplayName: 汚れた仮面
+        Tooltip: ""
+    }
+
+    IronSlopChestplate:{
+        DisplayName: アイアンスロップの胸当て
+        Tooltip: ""
+    }
+
+    IronSlopHelmet:{
+        DisplayName: アイアンスロップの兜
+        Tooltip: ""
+    }
+
+    IronSlopShorts:{
+        DisplayName: アイアンスロップショーツ
+        Tooltip: ""
+    }
+
+    RustedGladiatorBoots:{
+        DisplayName: 錆びた剣闘士のブーツ
+        Tooltip: ""
+    }
+
+    RustedGladiatorChestplate:{
+        DisplayName: 錆びた剣闘士の胸当て
+        Tooltip: ""
+    }
+
+    RustedGladiatorHelmet:{
+        DisplayName: 錆びた剣闘士の兜
+        Tooltip: ""
+    }
+
+    VisceralChestplate:{
+        DisplayName: 内臓の胸当て
+        Tooltip: ""
+    }
+
+    VisceralGreaves:{
+        DisplayName: 内臓のすね当て
+        Tooltip: ""
+    }
+
+    VisceralHelmet:{
+        DisplayName: 内臓の兜
+        Tooltip: ""
+    }
+
+    WoodenMask:{
+        DisplayName: 木製のマスク
+        Tooltip: ""
+    }
+
+    DioDagger:{
+        DisplayName: ディオのダガー
+        Tooltip: ""
+    }
+
+    ChainedClaw:{
+        DisplayName: 鎖の爪
+        Tooltip: ""
+    }
+
+    ChainedKunai:{
+        DisplayName: 鎖付きクナイ
+        Tooltip: ""
+    }
+
+    HamonizedFirework:{
+        DisplayName: 調和のとれた花火
+        Tooltip: ""
+    }
+
+    HamonizedWaterBalloon:{
+        DisplayName: ハーモナイズドウォーターバルーン
+        Tooltip: ""
+    }
+
+    MetallicNunchucks:{
+        DisplayName: メタリックヌンチャク
+        Tooltip: ""
+    }
+
+    SilkGloves:{
+        DisplayName: シルクグローブ
+        Tooltip: ""
+    }
+
+    ThreadedGloves:{
+        DisplayName: 糸通し手袋
+        Tooltip: ""
+    }
+
+    OrnateGlassofWine:{
+        DisplayName: 装飾的なグラスワイン
+        Tooltip: ""
+    }
+
+    TatteredLetter:{
+        DisplayName: ぼろぼろの手紙
+        Tooltip: ""
+    }
+
+    EntrailAbilities:{
+        DisplayName: 内臓能力
+        Tooltip: ""
+    }
+
+    KnifeWielder:{
+        DisplayName: ナイフ使い
+        Tooltip: ""
+    }
+
+    Sunscreen:{
+        DisplayName: 日焼け止め
+        Tooltip: ""
+    }
+
+    UltraSunscreen:{
+        DisplayName: 超日焼け止め
+        Tooltip: ""
+    }
+
+    VampireAbilities:{
+        DisplayName: 吸血鬼の能力
+        Tooltip: ""
+    }
+
+    WitheringAbilities:{
+        DisplayName: 枯渇する能力
+        Tooltip: ""
+    }
+
+    ZombieAbilities:{
+        DisplayName: 屍生人の能力
+        Tooltip: ""
+    }
+
+    IceCream:{
+        DisplayName: アイスクリーム
+        Tooltip:
+            '''
+            スタンド攻撃による敵への8回攻撃ごとにクリティカルヒットが確定。
+            スタンドクリティカルダメージが70%増加。スタンドクリティカル発生率が10%減少。
+            '''
+    }
+
+    Polaroid:{
+        DisplayName: ポラロイド
+        Tooltip:
+            '''
+            スタンドキルはトークンを最大5個まで獲得できます。トークンは1回の攻撃で50%のダメージ無効化効果
+            を付与。スタンド攻撃でライフスティールが可能になります。
+            トークンを所持していない場合は、使用者へのダメージが40%増加。
+            トークン獲得には5秒のクールダウンが必要。
+            '''
+    }
+
+    StickyHand:{
+        DisplayName: スティッキーハンド
+        Tooltip:
+            '''
+            スタンド回避率が20%増加し、スタンド防御ボーナスが2倍になります。
+            攻撃を受けると30秒間、ライフが徐々に減少。
+            死に至る前に最後の抵抗をすることができます。
+            最後の抵抗フェーズ中は、ダメージとクリティカルヒットの確率が2倍になります。
+            '''
+    }
+
+    Teacup:{
+        DisplayName: ハーブティーカップ
+        Tooltip:
+            '''
+            次の10回の遠距離スタンド攻撃が強化され、休息中は1秒あたり1回ずつ回復。
+            スタンドダメージは周囲の敵1体につき3%増加し、ボスがアクティブな間はダメージ増加が12%増加。
+            '''
+    }
+
+    ViralPearlEarring:{
+        DisplayName: ウイルスパールのイヤリング
+        Tooltip:
+            '''
+            スタンド攻撃で敵を攻撃すると、与えたダメージの10%が周囲の敵に伝播。
+            伝播するダメージは2倍になり、一定時間ダメージを受けていない場合は感染が拡大。
+            スタンド攻撃で敵を殴打すると、ウイルスに感染する可能性があります。
+            '''
+    }
+}
+
+NPCs:{
+    HighwayStar:{
+        DisplayName: ハイウェイスター
+    }
+
+    MatureStrayCat:{
+        DisplayName: 成熟したストレイ・キャット
+    }
+
+    StrayCat:{
+        DisplayName: ストレイ・キャット
+    }
+
+    ViralMiner:{
+        DisplayName: ウイルスマイナー
+    }
+
+    Yoshihiro:{
+        DisplayName: 吉弘
+    }
+
+    Yuya:{
+        DisplayName: ユウヤ
+    }
+
+    Gambler:{
+        DisplayName: ギャンブラー
+        TownNPCMood:{
+            Content: "{$Mods.JoJoStands.TownNPCMood.Gambler.Content}"
+            NoHome: "{$Mods.JoJoStands.TownNPCMood.Gambler.NoHome}"
+            FarFromHome: "{$Mods.JoJoStands.TownNPCMood.Gambler.FarFromHome}"
+            LoveSpace: "{$Mods.JoJoStands.TownNPCMood.Gambler.LoveSpace}"
+            DislikeCrowded: "{$Mods.JoJoStands.TownNPCMood.Gambler.DislikeCrowded}"
+            HateCrowded: "{$Mods.JoJoStands.TownNPCMood.Gambler.HateCrowded}"
+            LoveBiome: "{$Mods.JoJoStands.TownNPCMood.Gambler.LoveBiome}"
+            DislikeBiome: "{$Mods.JoJoStands.TownNPCMood.Gambler.DislikeBiome}"
+            HateBiome: "{$Mods.JoJoStands.TownNPCMood.Gambler.HateBiome}"
+            LikeNPC: "{$Mods.JoJoStands.TownNPCMood.Gambler.LikeNPC}"
+            DislikeNPC: "{$Mods.JoJoStands.TownNPCMood.Gambler.DislikeNPC}"
+            HateNPC: "{$Mods.JoJoStands.TownNPCMood.Gambler.HateNPC}"
+            LikeNPC_Princess: 私は{NPCName}が好きです。
+            Princess_LovesNPC: 私は{NPCName}が好きです。
+        }
+    }
+
+    MarineBiologist:{
+        DisplayName: 海洋学者
+        TownNPCMood:{
+            Content: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.Content}"
+            NoHome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.NoHome}"
+            FarFromHome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.FarFromHome}"
+            LoveSpace: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.LoveSpace}"
+            DislikeCrowded: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.DislikeCrowded}"
+            HateCrowded: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.HateCrowded}"
+            LoveBiome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.LoveBiome}"
+            LikeBiome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.LikeBiome}"
+            DislikeBiome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.DislikeBiome}"
+            HateBiome: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.HateBiome}"
+            LikeNPC: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.LikeNPC}"
+            DislikeNPC: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.DislikeNPC}"
+            HateNPC: "{$Mods.JoJoStands.TownNPCMood.MarineBiologist.HateNPC}"
+            LikeNPC_Princess: 俺は{NPCName}を好ましく思っている。
+            Princess_LovesNPC: 俺は{NPCName}を好ましく思っている。
+        }
+    }
+
+    Priest:{
+        DisplayName: 神父
+        TownNPCMood:{
+            Content: "{$Mods.JoJoStands.TownNPCMood.Priest.Content}"
+            NoHome: "{$Mods.JoJoStands.TownNPCMood.Priest.NoHome}"
+            FarFromHome: "{$Mods.JoJoStands.TownNPCMood.Priest.FarFromHome}"
+            LoveSpace: "{$Mods.JoJoStands.TownNPCMood.Priest.LoveSpace}"
+            DislikeCrowded: "{$Mods.JoJoStands.TownNPCMood.Priest.DislikeCrowded}"
+            HateCrowded: "{$Mods.JoJoStands.TownNPCMood.Priest.HateCrowded}"
+            LoveBiome: "{$Mods.JoJoStands.TownNPCMood.Priest.LoveBiome}"
+            LikeBiome: "{$Mods.JoJoStands.TownNPCMood.Priest.LikeBiome}"
+            DislikeBiome: "{$Mods.JoJoStands.TownNPCMood.Priest.DislikeBiome}"
+            HateBiome: "{$Mods.JoJoStands.TownNPCMood.Priest.HateBiome}"
+            LikeNPC: "{$Mods.JoJoStands.TownNPCMood.Priest.LikeNPC}"
+            DislikeNPC: "{$Mods.JoJoStands.TownNPCMood.Priest.DislikeNPC}"
+            HateNPC: "{$Mods.JoJoStands.TownNPCMood.Priest.HateNPC}"
+            LikeNPC_Princess: 私は{NPCName}を気に入っていますよ。
+            Princess_LovesNPC: 私は{NPCName}を気に入っていますよ。
+        }
+    }
+
+    BaldZombie:{
+        DisplayName: ハゲた屍生人
+    }
+
+    ChimeraBird:{
+        DisplayName: キメラ鳥
+    }
+
+    Doobie:{
+        DisplayName: ドゥービー
+    }
+
+    DoobiesChimeraSnake:{
+        DisplayName: ドゥービーズ・キメラ・スネーク
+    }
+
+    DoobiesSnake:{
+        DisplayName: ドゥービーズ・スネーク
+    }
+
+    GladiatorZombie:{
+        DisplayName: 剣闘士屍生人
+    }
+
+    JackTheRipper:{
+        DisplayName: 切り裂きジャック
+    }
+
+    WangChan:{
+        DisplayName: キングちゃん
+    }
+
+    ZombieRat:{
+        DisplayName: 屍生人ラット
+    }
+
+    HamonMaster:{
+        DisplayName: 波紋マスター
+        TownNPCMood:{
+            Content: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.Content}"
+            NoHome: 家がないのは嫌だなあ。
+            FarFromHome: 家から遠すぎるよ。
+            LoveSpace: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.LoveSpace}"
+            DislikeCrowded: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.DislikeCrowded}"
+            HateCrowded: 混雑しているのが嫌だね。
+            LoveBiome: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.LoveBiome}"
+            LikeBiome: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.LikeBiome}"
+            HateBiome: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.HateBiome}"
+            LikeNPC: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.LikeNPC}"
+            DislikeNPC: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.DislikeNPC}"
+            HateNPC: "{$Mods.JoJoStands.TownNPCMood.HamonMaster.HateNPC}"
+            LikeNPC_Princess: わしは{NPCName}が好きだよ。
+            Princess_LovesNPC: わしは{NPCName}が好きだよ。
+        }
+    }
+}
+
+Projectiles:{
+    AerosmithBomb:{
+        DisplayName: エアロスミスの爆弾
+    }
+
+    AirBubble:{
+        DisplayName: シャボン
+    }
+
+    ArmWormholeNail:{
+        DisplayName: アームワームホール 爪弾
+    }
+
+    BadCompanyBomb:{
+        DisplayName: バッド・カンパニー 爆弾
+    }
+
+    BadCompanyTankRocket:{
+        DisplayName: バッド・カンパニー 戦車のロケット
+    }
+
+    BindingEmeraldString:{
+        DisplayName: エメラルドストリングの拘束
+    }
+
+    BombBubble:{
+        DisplayName: 爆弾バブル
+    }
+
+    BubbleBarrier:{
+        DisplayName: バブルバリア
+    }
+
+    BubbleTrap:{
+        DisplayName: バブルトラップ
+    }
+
+    CardProjectile:{
+        DisplayName: カード発射体
+    }
+
+    ChargedClackerProjectile:{
+        DisplayName: チャージクラッカー弾
+    }
+
+    ClackerProjectile:{
+        DisplayName: クラッカー発射体
+    }
+
+    ControllableBubble:{
+        DisplayName: 制御可能なバブル
+    }
+
+    ControllableNail:{
+        DisplayName: 制御可能なネイル
+    }
+
+    CrossfireHurricaneAnkh:{
+        DisplayName: クロスファイアハリケーンアンク
+    }
+
+    CrystalShard:{
+        DisplayName: クリスタルシャード
+    }
+
+    CutterHamonBubble:{
+        DisplayName: 波紋カッター バブル
+    }
+
+    Disc:{
+        DisplayName: ディスク
+    }
+
+    DollyDaggerBeam:{
+        DisplayName: ドリー・ダガー ビーム
+    }
+
+    EchoesTailTip:{
+        DisplayName: エコーテール チップ
+    }
+
+    Emerald:{
+        DisplayName: エメラルド
+    }
+
+    EmeraldStringPoint:{
+        DisplayName: エメラルドストリング ポイント
+    }
+
+    EmeraldStringPointConnector:{
+        DisplayName: エメラルドストリングポイント コネクタ
+    }
+
+    ExplosiveBubble:{
+        DisplayName: 爆発的なバブル
+    }
+
+    FireAnkh:{
+        DisplayName: 火のアンク
+    }
+
+    Fists:{
+        DisplayName: 拳
+    }
+
+    GoldExperienceBeam:{
+        DisplayName: ゴールド・エクスペリエンスビーム
+    }
+
+    HamonBloodBubble:{
+        DisplayName: 波紋・ブラッドバブル
+    }
+
+    HamonBubble:{
+        DisplayName: シャボン
+    }
+
+    HamonPunches:{
+        DisplayName: 波紋パンチ
+    }
+
+    HamonSodaBottleCap:{
+        DisplayName: 波紋を込めたソーダボトルの蓋
+    }
+
+    HamonTequilaBottleCap:{
+        DisplayName: 波紋を込めたテキーラの蓋
+    }
+
+    HamonVinoBottleCap:{
+        DisplayName: 波紋を込めたヴィノボトルの蓋
+    }
+
+    HermitPurpleGrab:{
+        DisplayName: ハーミットパープルグラブ
+    }
+
+    HermitPurpleHook:{
+        DisplayName: ハーミットパープルフック
+    }
+
+    HermitPurpleWhip:{
+        DisplayName: ハーミットパープルウィップ
+    }
+
+    HighVelocityBubble:{
+        DisplayName: 高速シャボン
+    }
+
+    InfiniteSpinNail:{
+        DisplayName: 無限回転ネイル
+    }
+
+    KillerQueenBomb:{
+        DisplayName: キラークイーンボム
+    }
+
+    KnifeProjectile:{
+        DisplayName: ナイフ弾
+    }
+
+    MeltYourHeart:{
+        DisplayName: メルト・ユア・ハート・ドリップ
+    }
+
+    MeltYourHeartDrip:{
+        DisplayName: メルト・ユア・ハート・ドリップ
+    }
+
+    MinerLightning:{
+        DisplayName: マイナーライトニング
+    }
+
+    GEButterfly:{
+        DisplayName: GEのバタフライ
+    }
+
+    GEFrog:{
+        DisplayName: GEのカエル
+    }
+
+    GEScorpion:{
+        DisplayName: GEのサソリ
+    }
+
+    GETree:{
+        DisplayName: GEツリー
+    }
+
+    MatureStrayCatMinion:{
+        DisplayName: 成長したストレイ・キャットのミニオン
+    }
+
+    NPCStandFists:{
+        DisplayName: NPCスタンドの拳
+    }
+
+    SheerHeartAttack:{
+        DisplayName: シアーハートアタック
+    }
+
+    ViralCrystal:{
+        DisplayName: ウイルスクリスタル
+    }
+
+    Nail:{
+        DisplayName: 爪
+    }
+
+    NailSlasher:{
+        DisplayName: 爪
+    }
+
+    StarPlatinumNPCStand:{
+        DisplayName: スタープラチナNPCスタンド
+    }
+
+    WhitesnakeNPCStand:{
+        DisplayName: ホワイトスネイクNPCスタンド
+    }
+
+    JonathanPet:{
+        DisplayName: ジョナサン ペット
+    }
+
+    SpeedWagonPet:{
+        DisplayName: スピードワゴンペット
+    }
+
+    TuskAct1Pet:{
+        DisplayName: タスク Act1 ペット
+    }
+
+    TuskAct2Pet:{
+        DisplayName: タスク Act2 ペット
+    }
+
+    TuskAct3Pet:{
+        DisplayName: タスク Act3 ペット
+    }
+
+    PhantomMarker:{
+        DisplayName: ファントムマーカー
+    }
+
+    AerosmithStandFinal:{
+        DisplayName: エアロスミス スタンド Final
+    }
+
+    AerosmithStandT1:{
+        DisplayName: エアロスミス スタンド T1
+    }
+
+    AerosmithStandT2:{
+        DisplayName: エアロスミス スタンド T2
+    }
+
+    AerosmithStandT3:{
+        DisplayName: エアロスミス スタンド T3
+    }
+
+    BadCompanyBomberPlane:{
+        DisplayName: バッド・カンパニー 爆撃機
+    }
+
+    BadCompanyChopper:{
+        DisplayName: バッド・カンパニー 戦闘ヘリ
+    }
+
+    BadCompanySoldier:{
+        DisplayName: バッド・カンパニー 兵士
+    }
+
+    BadCompanyTank:{
+        DisplayName: バッド・カンパニー 戦車
+    }
+
+    CrazyDiamondStandFinal:{
+        DisplayName: クレイジーダイヤモンド スタンド Final
+    }
+
+    CrazyDiamondStandT1:{
+        DisplayName: クレイジーダイヤモンド スタンド T1
+    }
+
+    CrazyDiamondStandT2:{
+        DisplayName: クレイジーダイヤモンド スタンド T2
+    }
+
+    CrazyDiamondStandT3:{
+        DisplayName: クレイジーダイヤモンド スタンド T3
+    }
+
+    CreamStandFinal:{
+        DisplayName: クリーム スタンド Final
+    }
+
+    CreamStandT1:{
+        DisplayName: クリーム スタンド T1
+    }
+
+    CreamStandT2:{
+        DisplayName: クリーム スタンド T2
+    }
+
+    CreamStandT3:{
+        DisplayName: クリーム スタンド T3
+    }
+
+    DashVoid:{
+        DisplayName: 暗黒空間ダッシュ
+    }
+
+    ExposingCream:{
+        DisplayName: エクスポージャークリーム
+    }
+
+    Void:{
+        DisplayName: 暗黒空間
+    }
+
+    EchoesStandFinal:{
+        DisplayName: エコーズ スタンド Final
+    }
+
+    EchoesStandT1:{
+        DisplayName: エコーズ スタンド T1
+    }
+
+    EchoesStandT2:{
+        DisplayName: エコーズ スタンド T2
+    }
+
+    EchoesStandT3:{
+        DisplayName: エコーズ スタンド T3
+    }
+
+    GoldExperienceStandFinal:{
+        DisplayName: ゴールド・エクスペリエンス スタンド Final
+    }
+
+    GoldExperienceStandT1:{
+        DisplayName: ゴールド・エクスペリエンス スタンド T1
+    }
+
+    GoldExperienceStandT2:{
+        DisplayName: ゴールド・エクスペリエンス スタンド T2
+    }
+
+    GoldExperienceStandT3:{
+        DisplayName: ゴールド・エクスペリエンス スタンド T3
+    }
+
+    GoldExperienceRequiemStand:{
+        DisplayName: ゴールド・エクスペリエンス・レクイエム スタンド
+    }
+
+    GratefulDeadStandFinal:{
+        DisplayName: グレイトフル・デッド スタンド Final
+    }
+
+    GratefulDeadStandT1:{
+        DisplayName: グレイトフル・デッド スタンド T1
+    }
+
+    GratefulDeadStandT2:{
+        DisplayName: グレイトフル・デッド スタンド T2
+    }
+
+    GratefulDeadStandT3:{
+        DisplayName: グレイトフル・デッド スタンド T3
+    }
+
+    HierophantGreenStandFinal:{
+        DisplayName: ハイエロファントグリーン スタンド Final
+    }
+
+    HierophantGreenStandT2:{
+        DisplayName: ハイエロファントグリーンスタンド T2
+    }
+
+    HierophantGreenStandT3:{
+        DisplayName: ハイエロファントグリーンスタンド T3
+    }
+
+    HierophantGreenStandT1:{
+        DisplayName: ハイエロファントグリーンスタンド T1
+    }
+
+    KillerQueenStandFinal:{
+        DisplayName: キラークイーンスタンド Final
+    }
+
+    KillerQueenStandT1:{
+        DisplayName: キラークイーンスタンド T1
+    }
+
+    KillerQueenStandT2:{
+        DisplayName: キラークイーンスタンド T2
+    }
+
+    KillerQueenStandT3:{
+        DisplayName: キラークイーンスタンド T3
+    }
+
+    KillerQueenBTDStand:{
+        DisplayName: キラークイーン BTD スタンド
+    }
+
+    KingClausStand:{
+        DisplayName: キング・クラウス スタンド
+    }
+
+    KingCrimsonStandFinal:{
+        DisplayName: キング・クリムゾン・スタンド Final
+    }
+
+    KingCrimsonStandT1:{
+        DisplayName: キング・クリムゾン スタンド T1
+    }
+
+    KingCrimsonStandT2:{
+        DisplayName: キング・クリムゾン スタンド T2
+    }
+
+    KingCrimsonStandT3:{
+        DisplayName: キング・クリムゾン スタンド T3
+    }
+
+    MagiciansRedStandFinal:{
+        DisplayName: マジシャンズレッド スタンド Final
+    }
+
+    MagiciansRedStandT1:{
+        DisplayName: マジシャンズレッド スタンド T1
+    }
+
+    MagiciansRedStandT2:{
+        DisplayName: マジシャンズレッド スタンド T2
+    }
+
+    MagiciansRedStandT3:{
+        DisplayName: マジシャンズレッド スタンド T3
+    }
+
+    SexPistolsStand:{
+        DisplayName: セックス・ピストルズ　スタンド
+    }
+
+    SilverChariotAfterImage:{
+        DisplayName: シルバーチャリオッツ 残像
+    }
+
+    SilverChariotStandFinal:{
+        DisplayName: シルバーチャリオッツ スタンド Final
+    }
+
+    SilverChariotStandT1:{
+        DisplayName: シルバーチャリオッツ スタンド T1
+    }
+
+    SilverChariotStandT2:{
+        DisplayName: シルバーチャリオッツ スタンド T2
+    }
+
+    SilverChariotStandT3:{
+        DisplayName: シルバーチャリオッツ スタンド T3
+    }
+
+    SoftAndWetStandFinal:{
+        DisplayName: ソフト&ウェット スタンド Final
+    }
+
+    SoftAndWetStandT1:{
+        DisplayName: ソフト&ウェット スタンド T1
+    }
+
+    SoftAndWetStandT2:{
+        DisplayName: ソフト&ウェット スタンド T2
+    }
+
+    SoftAndWetStandT3:{
+        DisplayName: ソフト&ウェット スタンド T3
+    }
+
+    SoftAndWetGoBeyondStand:{
+        DisplayName: "ソフト&ウェット ゴー・ビヨンド スタンド "
+    }
+
+    StarOnTheTreeStand:{
+        DisplayName: スター・オン・ザ・ツリー スタンド
+    }
+
+    StarPlatinumStandFinal:{
+        DisplayName: スタープラチナ スタンド Final
+    }
+
+    StarPlatinumStandT1:{
+        DisplayName: スタープラチナ スタンド T1
+    }
+
+    StarPlatinumStandT2:{
+        DisplayName: スタープラチナ スタンド T2
+    }
+
+    StarPlatinumStandT3:{
+        DisplayName: スタープラチナ スタンド T3
+    }
+
+    StickyFingersStandFinal:{
+        DisplayName: スティッキー・フィンガーズ スタンド Final
+    }
+
+    StickyFingersStandT1:{
+        DisplayName: スティッキー・フィンガーズ スタンド T1
+    }
+
+    StickyFingersStandT2:{
+        DisplayName: スティッキー・フィンガーズ スタンドT2
+    }
+
+    StickyFingersStandT3:{
+        DisplayName: スティッキー・フィンガーズ スタンド T3
+    }
+
+    StoneFreeStandFinal:{
+        DisplayName: ストーンフリー スタンド Final
+    }
+
+    StoneFreeStandT1:{
+        DisplayName: ストーンフリー スタンド T1
+    }
+
+    StoneFreeStandT2:{
+        DisplayName: ストーンフリー スタンド T2
+    }
+
+    StoneFreeStandT3:{
+        DisplayName: ストーンフリー スタンド T3
+    }
+
+    TestStandStand:{
+        DisplayName: テストスタンド
+    }
+
+    TheHandStandFinal:{
+        DisplayName: ザ・ハンド スタンド Final
+    }
+
+    TheHandStandT1:{
+        DisplayName: ザ・ハンド スタンド T1
+    }
+
+    TheHandStandT2:{
+        DisplayName: ザ・ハンド スタンド T2
+    }
+
+    TheHandStandT3:{
+        DisplayName: ザ・ハンド スタンド T3
+    }
+
+    TheWorldStandFinal:{
+        DisplayName: ザ・ワールド スタンド Final
+    }
+
+    TheWorldStandT1:{
+        DisplayName: ザ・ワールド スタンド T1
+    }
+
+    TheWorldStandT2:{
+        DisplayName: ザ・ワールド スタンド T2
+    }
+
+    TheWorldStandT3:{
+        DisplayName: ザ・ワールド スタンド T3
+    }
+
+    TowerOfGrayStandFinal:{
+        DisplayName: タワー・オブ・グレイ スタンド Final
+    }
+
+    TowerOfGrayStandT1:{
+        DisplayName: タワー・オブ・グレイ スタンド T1
+    }
+
+    TowerOfGrayStandT2:{
+        DisplayName: タワー・オブ・グレイ スタンド T2
+    }
+
+    TowerOfGrayStandT3:{
+        DisplayName: タワー・オブ・グレイ スタンド T3
+    }
+
+    TuskAct4Stand:{
+        DisplayName: タスク Act4 スタンド
+    }
+
+    WhitesnakeStandFinal:{
+        DisplayName: ホワイトスネイク スタンド Final
+    }
+
+    WhitesnakeStandT1:{
+        DisplayName: ホワイトスネイク スタンド T1
+    }
+
+    WhitesnakeStandT2:{
+        DisplayName: ホワイトスネイク スタンド T2
+    }
+
+    WhitesnakeStandT3:{
+        DisplayName: ホワイトスネイク スタンド T3
+    }
+
+    PlunderBubble:{
+        DisplayName: 略奪シャボン
+    }
+
+    PressurizedBlood:{
+        DisplayName: 加圧血液
+    }
+
+    RedBind:{
+        DisplayName: レッドバインド
+    }
+
+    RoadRoller:{
+        DisplayName: ロードローラー
+    }
+
+    SPBullet:{
+        DisplayName: SP弾
+    }
+
+    StandBullet:{
+        DisplayName: スタンドバレット
+    }
+
+    StarFinger:{
+        DisplayName: スターフィンガー
+    }
+
+    SteelBallProjectile:{
+        DisplayName: スティールボール
+    }
+
+    StickyFingersFistExtended:{
+        DisplayName: スティッキーフィンガーズの拳 エクステンデッド
+    }
+
+    StickyFingersTraversalZipper:{
+        DisplayName: スティッキーフィンガーズトラバーサルジッパー
+    }
+
+    StoneFreeBindString:{
+        DisplayName: ストーンフリーバインディングストリング
+    }
+
+    StoneFreeStringConnector:{
+        DisplayName: ストーンフリーの糸　コネクター
+    }
+
+    StoneFreeStringPoint:{
+        DisplayName: ストーンフリーの糸　ポイント
+    }
+
+    StoneFreeTiedTogetherString:{
+        DisplayName: ストーンフリーの結び紐
+    }
+
+    TinyBubble:{
+        DisplayName: 小さな泡
+    }
+
+    TrackerBubble:{
+        DisplayName: トラッカーバブル
+    }
+
+    ViralArrow:{
+        DisplayName: ウイルスの矢
+    }
+
+    ViralBeetleProjectile:{
+        DisplayName: ウイルスビートル弾
+    }
+
+    ViralBroadswordProjectile:{
+        DisplayName: ウイルスブロードソード弾
+    }
+
+    ViralCrystalProjectile:{
+        DisplayName: ウイルスクリスタル弾
+    }
+
+    ViralPearlProjectile:{
+        DisplayName: ウイルスパール発射体
+    }
+
+    ViralStaffProjectile:{
+        DisplayName: ウイルススタッフ弾
+    }
+
+    ViralWoodSharpnel:{
+        DisplayName: ウイルスウッドシャープネル
+    }
+
+    ViralYoYoProjectile:{
+        DisplayName: ウイルスヨーヨー発射体
+    }
+
+    WormholeNail:{
+        DisplayName: ワームホールネイル
+    }
+
+    Yosarrow:{
+        DisplayName: ヨサロー
+    }
+
+    AcidicBile:{
+        DisplayName: 酸性胆汁
+    }
+
+    AcidVenomFlask:{
+        DisplayName: 酸毒フラスコ
+    }
+
+    AcidVenomFlaskGas:{
+        DisplayName: 酸毒フラスコガス
+    }
+
+    ChainedClawProjectile:{
+        DisplayName: 鎖爪弾
+    }
+
+    ChainedKunaiProjectile:{
+        DisplayName: 鎖付きクナイ弾
+    }
+
+    ChainedKunaiSwinging:{
+        DisplayName: 鎖付きクナイを振り回す
+    }
+
+    ExtendedZombieGrab:{
+        DisplayName: ゾンビグラブの延長
+    }
+
+    HamonizedFireworkProjectile:{
+        DisplayName: 調和のとれた花火
+    }
+
+    HamonizedWaterBalloonProjectile:{
+        DisplayName: 調和された水風船発射体
+    }
+
+    HamonShockwaveSpike:{
+        DisplayName: 波紋ショックウェーブスパイク
+    }
+
+    JackKnife:{
+        DisplayName: ジャックナイフ
+    }
+
+    KnifeSlashes:{
+        DisplayName: ナイフによる切り傷
+    }
+
+    MetallicNunchucksProjectile:{
+        DisplayName: 金属製ヌンチャクの発射物
+    }
+
+    MetallicNunchucksSwinging:{
+        DisplayName: 金属製のヌンチャクを振り回す
+    }
+
+    ChimeraSnake:{
+        DisplayName: キメラスネーク
+    }
+
+    WarriorZombie:{
+        DisplayName: 戦士ゾンビ
+    }
+
+    DioPet:{
+        DisplayName: ディオ ペット
+    }
+
+    ZeppeliPet:{
+        DisplayName: ツェペリペット
+    }
+
+    SilkPunches:{
+        DisplayName: シルクパンチ
+    }
+
+    SpaceRipperStingyEyes:{
+        DisplayName: スペースリッパー スティンギーアイズ
+    }
+
+    SunShackle:{
+        DisplayName: サンシャックル
+    }
+
+    ThreadedGlovePunches:{
+        DisplayName: ねじ付きグローブパンチ
+    }
+
+    VampiricPunch:{
+        DisplayName: ヴァンパイアパンチ
+    }
+
+    VampiricSlash:{
+        DisplayName: ヴァンパイアの斬撃
+    }
+
+    VampiricVeinGrab:{
+        DisplayName: ヴァンパイアの血管掴み
+    }
+
+    VampiricVeinSpike:{
+        DisplayName: ヴァンパイアの血管針攻撃
+    }
+
+    ZeppeliHamonPunches:{
+        DisplayName: ツェペリの波紋攻撃
+    }
+}
+
+Biomes:{
+    ViralMeteoriteBiome:{
+        DisplayName: ウイルス隕石バイオーム
+        TownNPCDialogueName: ウイルス隕石バイオーム
+    }
+}
+
+Tiles:{
+    BloodForTheKingTile:{
+        MapEntry: 王の血
+    }
+
+    IWouldntLoseTile:{
+        MapEntry: 私は負けない
+    }
+
+    OfficersRegretTile:{
+        MapEntry: 警官の後悔
+    }
+
+    QuietLifeTile:{
+        MapEntry: 静かな生活
+    }
+
+    RemixTableTile:{
+        MapEntry: リミックステーブル
+    }
+
+    ShotintheDarkTile:{
+        MapEntry: 暗闇の中で撃たれた
+    }
+
+    TarotTableTile:{
+        MapEntry: タロットテーブル
+    }
+
+    ViralMeteoriteTile:{
+        MapEntry: ウイルス隕石
+    }
+
+    ViralMusicBoxTile:{
+        MapEntry: ウイルスミュージックボックス
+    }
+}
+
+Keybinds:{
+    "Special Ability":{
+        DisplayName: 特殊能力
+    }
+    "Second Special Ability":{
+        DisplayName: 2番目の特殊能力
+    }
+    "Stand Out":{
+        DisplayName: 目立つ
+    }
+
+    Pose:{
+        DisplayName: ポーズ
+    }
+    "Stand Auto Mode":{
+        DisplayName: スタンドオートモード
+    }
+}
+
+Conditions:{
+    EntrailAbilitiesCondition: Mods.JoJoStands.Conditions.EntrailAbilitiesCondition
+    KnifeWielderCondition: Mods.JoJoStands.Conditions.KnifeWielderCondition
+    VampireAbilitiesCondition: Mods.JoJoStands.Conditions.VampireAbilitiesCondition
+    WitheringAbilitiesCondition: Mods.JoJoStands.Conditions.WitheringAbilitiesCondition
+    ZombieAbilitiesCondition: Mods.JoJoStands.Conditions.ZombieAbilitiesCondition
+}
+
+Configs:{
+    CustomizableOptions:{
+        DisplayName: カスタマイズ可能なオプション
+        deathSound:{
+            Label: デスサウンドオプション
+            Tooltip: 使用するデスサウンドを選択できます
+        }
+
+        Sounds:{
+            Label: サウンド
+            Tooltip: カスタムサウンドかバニラサウンドどちらを聞くか決められます。
+        }
+
+        AutomaticActivations:{
+            Label: 自動使用
+            Tooltip: キラークイーンの爆弾やザ・ワールドの（オートモード）ナイフなどの能力を自動的に発動させるかどうかを決定します。
+        }
+
+        RespawnWithStandOut:{
+            Label: スタンドアウトで復活
+            Tooltip: 常にスタンドアウト状態でリスポーンするかどうかを決定します。
+        }
+
+        AbilityWheelDescriptions:{
+            Label: 能力ホイール 能力ツールチップ
+            Tooltip: 能力ホイールで能力の上にマウスを移動したときに、能力の説明がポップアップ表示されるかどうか。
+        }
+
+        HamonEffects:{
+            Label: 波紋効果
+            Tooltip: 波紋効果を表示するかどうかを決定します。
+        }
+
+        RangeIndicators:{
+            Label: 範囲インジケーター
+            Tooltip: 必要なスタンドの範囲インジケーターを表示するかどうかを決定します。
+        }
+
+        TimestopEffects:{
+            Label: タイムストップエフェクト
+            Tooltip: タイムストップエフェクトを表示するかどうかを決定します。
+        }
+
+        TimeskipEffects:{
+            Label: タイムスキップ効果
+            Tooltip: タイムスキップ効果を表示するかどうかを決定します。
+        }
+
+        BitetheDustEffects:{
+            Label: バイツァ・ダスト効果
+            Tooltip: バイツァ・ダスト効果を表示するかどうかを決定します。
+        }
+
+        ColorChangeEffects:{
+            Label: 色の変化エフェクト
+            Tooltip: 世界の色の変化を表示するかどうかを決定します。
+        }
+
+        SecretReferences:{
+            Label: 隠された参照
+            Tooltip: 隠された参照を表示するかどうか。(これらの参照の中には、死に至るものもあります!)
+        }
+
+        RangeIndicatorVisibility:{
+            Label: 距離インジケーターの可視性
+            Tooltip: 範囲インジケーターの透明度を選択できます。
+        }
+
+        StandSlotPositionX:{
+            Label: スタンドスロットX位置
+            Tooltip: ""
+        }
+
+        StandSlotPositionY:{
+            Label: スタンドスロットY位置
+            Tooltip: ""
+        }
+
+        HamonBarSize:{
+            Label: 波紋バーサイズ
+            Tooltip: ""
+        }
+
+        HamonBarPositionX:{
+            Label: 波紋バーXポジション
+            Tooltip: ""
+        }
+
+        HamonBarPositionY:{
+            Label: 波紋バーYポジション
+            Tooltip: ""
+        }
+
+        AbilityWheelXPos:{
+            Label: 能力ホイールX位置
+            Tooltip: ""
+        }
+
+        AbilityWheelYPos:{
+            Label: 能力ホイールのY位置
+            Tooltip: ""
+        }
+
+        soundVolume:{
+            Label: 音量
+            Tooltip: 弾幕音の音量
+        }
+
+        StandSearchTypeEnum:{
+            Label: スタンド自動モードのターゲット設定
+            Tooltip: オートモード時にスタンドが優先する敵の種類を選択してください。
+        }
+
+        abilityVoicelines:{
+            Label: サウンドModの能力ボイスライン
+            Tooltip: 能力のボイスラインを聞くかどうか。これらのボイスラインは能力の発動を遅らせます！（サウンドMOD使用時のみ有効！）
+        }
+
+        StandAimAssist:{
+            Label: スタンドエイムアシスト
+            Tooltip: スタンドがマウスに向かって攻撃するのではなく、マウスをホバーしているターゲットに自動的にロックするかどうかを決定します。
+        }
+    }
+
+    DeathSoundType:{
+        Tooltip: ""
+        None:{
+            Label: なし
+        }
+
+        Roundabout:{
+            Label: ラウンドアバウト
+        }
+
+        Caesar:{
+            Label: シーザー
+        }
+
+        KonoMeAmareriMaroreriMerareMaro:{
+            Label: Kono Me Amareri Maroreri Merare Maro
+        }
+
+        LastTrainHome:{
+            Label: 最終電車で帰宅
+        }
+
+        KingCrimsonNoNorioKu:{
+            Label: これが…我がキング・クリムゾンの能力…
+        }
+    }
+
+    StandSearchTypeEnum:{
+        Tooltip: ""
+        Bosses:{
+            Label: ボス
+        }
+
+        Closest:{
+            Label: 最も近い
+        }
+
+        Farthest:{
+            Label: 最遠
+        }
+
+        LeastHealth:{
+            Label: 最低の健康状態
+        }
+
+        MostHealth:{
+            Label: 最も健康的
+        }
+    }
+
+    CustomizableServerOptions:{
+        DisplayName: カスタマイズ可能なサーバーオプション
+        standSyncFrequency:{
+            Label: スタンド同期周波数
+            Tooltip: スタンドの同期頻度を制限します。高周波数ではネットワークの安定性に悪影響を与える可能性があります。
+        }
+
+        PvPMode:{
+            Label: PvPモード
+            Tooltip:
+                '''
+                PvPインタラクションとダメージ計算を有効にするかどうかを決定します。
+                スタンド戦闘の時間を延ばしたりなど
+                '''
+        }
+    }
+
+    StandSyncFrequency:{
+        Tooltip: ""
+        Sparingly:{
+            Label: たまに
+        }
+
+        SemiFrequently:{
+            Label: 半頻繁に
+        }
+
+        Frequently:{
+            Label: 頻繁に
+        }
+
+        Always:{
+            Label: いつも
+        }
+    }
+}
+
+NPCDialogue:{
+    MarineBiologist1: やれやれだぜ…普通の日も過ごせないのか、俺は
+    MarineBiologist2: 吉良が対処されたので、やっとSPW財団に報告にもどれる。
+    MarineBiologist3: スタンド使いを探しに来たんだが…こいつを誰だか知っているか？
+    MarineBiologist4: エジプトでは、俺と俺の仲間は頭のおかしい時止めを使う吸血鬼を殺さなくちゃあならなかった。ここでも同様の問題が発生するかもしれねえ、{0}
+    MarineBiologist5: スタンド使いは惹かれ合う、だから俺はここにいる
+    Priest1: スタンドディスクはご希望の方に販売しております。欲しいですか？
+    Priest2: 私のホワイトスネークは今のところスタープラチナを倒せる唯一のスタンドです…
+    Priest3: あの少年は私の完璧な宇宙を台無しにした代償を払うことになるでしょう…！
+    Priest4: ウェザー・リポートと彼のスタンド…本当に厄介だ。
+    Priest5: 私が天国を手に入れた後、徐倫は私を決して見ないだろう...
+    Priest6: 君はDIOにふさわしい従者だったかもしれないのに… 当時エジプトに居さえすれば。
+    Priest7: 「あの」承太郎からスタープラチナをもらえました…興味がありますか？
+    Gambler1: 一つ賭けてみませんか？大丈夫です！私も手加減して差し上げますから！
+    Gambler2: プレイすべきでした...どうしてあんな明らかなブラフに騙されてしまったんだろう...
+    Gambler3: 私をこのアイテムの金脈へと導いたのはギャンブラーの本能だったと信じております。
+    Gambler4: イカサマ？バレなきゃあイカサマじゃないんですよ！
+    Gambler5: 私は世界最高のギャンブラー、ダービーでございます！
+    HamonMasterTrainingStart: 感じるかね？それこそがそなたの波紋の力…新たに学びたいと思う折にはいつでもわたしを呼ぶがよい！伝授すべき技は数多あるぞ！！
+    HamonMasterTrainingStartSpecial: おお、素晴らしい！そなたには波紋マスターの器がある…未開の波紋、その潜在力は我が予想のはるか上！教えてくれ、先祖もまた波紋使いであったかね？
+    HamonmasterTrainPrompt:
+        '''
+        おや？そなたには秘めた才能があるようだな…波紋を学ばんか？心配無用、わしはこの世の有能な戦士どもを幾人も育ててきた。
+        太陽の雫を五つ持参せよ、未知の波紋能力を顕在化させる方法を教えよう！
+        '''
+    HamonMaster1: すまんの、{0}よ…瓶入りのワインを持っていないか？持っておったが、こぼしてしもうた。
+    HamonMaster2: "{0}よ、吸血鬼には気をつけているか？わしは一生涯を賭し、彼らを狩ることに捧げたのだ。"
+    HamonMaster3: お帰り、友よ。波紋修行に励むために戻ってきたのかね？
+    HamonMaster4: トンペティ師匠は修行を終えたら最期が来ると言われた…それはこの異国で待っているのだろうか？
+    HamonMaster5: 暇な時でよい、また参れ。サラダを作ったのだが、胡椒をふんだんに効かせたせいか誰も手を付けぬ…
+    HamonMasterEvil1: なんと貴様吸血鬼に変わったのか…眼の前から失せろ！
+    HamonMasterEvil2: きさま、すっかり吸血鬼になってしまったようだな、一体何人の命を吸い取った？…何だと？「今まで食ったパンの枚数を覚えているのか？」だとッ？畜生め！！
+}
+
+NPCFlavorText:{
+    MarineBiologist: スピードワゴン財団の関係者であり、スタンド研究の専門家。彼がここに来た理由は不明だ。何らかの力に引き寄せられたのだろうか？
+    Gambler: 生死を賭けた賭けに負けて、エジプトからはるばるやって来ました。もう二度と！イカサマははしないと誓いましょう、何度でも。
+    HamonMaster: 波紋法の達人。伝承できる弟子を探している。赤ワインが大好き！
+    Priest: ある人物の来訪を聞きつけフロリダから神父がやって来た。彼は天国を目指していると言うが…一体どういう意味だろうか？
+}
+
+NPCButtonText:{
+    StandHelp: スタンドヘルプ
+    BuyStands: スタンドを購入
+    BuyItems: 商品を購入
+    Gamble: ギャンブル
+    LearnSkills: 波紋スキルを学ぶ
+}
+
+MiscText:{
+    HamonBarOOB: 選択できる数字は0～3までです。
+    DioEvent: ディオの手下たちが到着！
+    TestStandNotWorthy: 無価値だ
+    TimestopForceEnd: ユーザーは去り、時は再び動きだす……
+    StandSlotNoStand: スタンドスロットにスタンドがありません!
+    StandSlotFullMinions: 利用可能なミニオンスロットがありません。
+    StandSlotSummonError: スタンドの召喚中に問題が発生しました。
+    PokerChipRevive: チップがあなたに新しい命を与えました!
+    CrazyDiamondTileWarning: タイルの破壊限界に達しました!
+    CrazyDiamongTargetOOR: その目標は遠すぎます。
+    EchoesEvolve: おっと？エコーズが進化している！
+    EchoesMouseHint: マウスでターゲットを選択
+    EchoesTipOOR: 先端が届かない！
+    GoldExperienceRequiemMouseHint: ターゲットする敵を右クリックします。
+    StoneFreeStringOOR: 糸はそこまで届かない
+    AbilityWheelHint: *能力ホイールを使用するには、1～x の数字を使用するか、カーソルを能力ホイールの上に置いて上下にスクロールします。*
+    GamblerCheatWin: (ダービーは汗だくで顔面蒼白…) 承太郎には内緒ですよ！お金は2倍あげますから！ね！
+    GamblerCheatLose: 私は詐欺師なんかじゃあありません！あなたが疑っているのは過去の私でしょう！私は今、全く新しいギャンブラーとして心を入れ替えました！
+    GamblerNoGameCheat: 何をズルしているというのです？まだ賭けてもいないのに！
+    GamblerNoBetWarning: 損失と利益がなければギャンブルとは言えません。
+    GamblerActiveBetWarning: 次の賭けを始める前に、まずこれを終わらせましょう。
+    GambleCardGameHint1: 切り替えたいカードをクリックしてください
+    GamblerCheatHint: (ダービーは微笑む...)
+    GamblerBetLose: ちくしょう… そんなはずは！ どうしてこんなことが可能なんだッ！ わ、わかった、コインを受け取ってくれ、私にはもっとたくさんある…。
+    GamblerBetWin: コインをどうもありがとうございます！
+    GamblerRoShamBoDesc:
+        '''
+        Ro-Sham-Bo
+        ダービーに勝つと思うシンボルを選んでください。
+        石は鋏に勝ち、鋏は紙に勝ち、紙は石に勝ちます。
+        '''
+    GamblerRollingGameDesc:
+        '''
+        ダイスロール
+        サイコロを振って特定の目が出ると勝ちです。勝ち目は以下のいずれか：
+        3つのサイコロがすべて同じ目（3以上）
+        3つのサイコロの合計が6になる
+        3つのサイコロがすべて3以上
+        '''
+    GamblerMiniPokerDesc:
+        '''
+        ミニポーカー ランダム
+        にカードを引いて、ダービーと数字を比較し、勝者を決めます。
+        最初の2枚のカードに満足できない場合は、右側のデッキをクリックしてカードを交換してください。
+        '''
+    ViralMeteoriteIntro1: 近くから…微かだが精神的なつながりを感じる。
+    ViralMeteoriteIntro2: あなたの心と魂はあなたの周りの領域と共鳴している...
+}
+
+JotaroCustomDialogue:{
+    ArrowShard: お前は…信用できる。これを持っていけ。自分自身に使ってみろ。気に入るはずだぜ
+    ViralMeteoriteTip: 感じたか？まるで何かの力に引き寄せられている感覚だ。あれはただの隕石じゃあねえぜ。もしあの隕石がウイルス隕石だとしたら、悪の手に渡る前に一刻も早くウイルスを始末しなきゃならねえ。ワールド全体をよく調べろ、みつからねえ場合は天空島や峡谷も調べろ！急げ！
+    Hamon: 詳しくは聞いてなかったんだが、あの老人いわく波紋とは太陽のエネルギーを多目的に使える術と言っていた。身体能力を高め、防御的にも攻撃的にも使うことができ、中でも治癒は特に有用な用途の一つだそうだ。もしそれが本当ってんなら、あの男がここまで長生きできたのも不思議じゃあない。
+    StarPlatinumT1:
+        '''
+        俺自身のスタンドのことを聞くとは、馬鹿にしているのか？面倒だ…だが確かに一番詳しいのは俺だろうな。できる限り教えてやろう。
+        やれやれ…スタープラチナを発現させたばかりか？猿真似でももっとマシなのを期待していた…。スタープラチナは、第一段階 第二段階ではただの空を飛ぶ拳にすぎねえが、第三段階、第四段階になると 少し面白くなってくる。
+
+        '''
+    StarPlatinumT2: 二段階となったスタープラチナは、中距離攻撃「スターフィンガー」が使えるようになるぜ。俺はそいつをあまりつかわねえが、状況によっては役に立つかもな。
+    StarPlatinumT3: お前のスタープラチナはますます強くなっているぜ。少し前に習得したスターフィンガーの代わりに、弾丸を弾く技が使える。スタープラチナは軽く弾くだけで銃よりも速いスピードで弾丸を発射することができるぜ。頼りになるスキルだ。
+    StarPlatinumFinal: 第四段階となったスタープラチナは、眠っていた能力「スタープラチナ・ザ・ワールド」を覚醒させる。こいつは80年代のエジプト旅行で身につけたものだが、なぜスタープラチナとザ・ワールドが時を止められるのか、それは俺自身もわかっちゃあいねえ。だがこの能力が有利に働いたのは確かだぜ。
+    HierophantGreenT1:
+        '''
+        お前のスタンド…。俺の古い友人の一人が言っていた…「エメラルドスプラッシュは誰にも防げない」とな。本当にそうかどうか、てめー自身で確かめてみな。
+        ハイエロファントはパワーじゃあ劣るが、数で押すタイプだ。エメラルドスプラッシュを一気にばら撒けるが、一発一発の威力は大したことねえ。
+        '''
+    HierophantGreenT2: 敵を巻き付けるワイヤーが使えるようになったな。巻き付けた相手はしばらく動けねえ、その隙を活かせ。それと遠距離操作も可能になった。トリップワイヤーを仕掛け、有利な位置から攻撃しろ
+    HierophantGreenT3Final: …半径20mエメラルドスプラッシュ。旧友はDIOと戦った時にそいつを使っていたとジジイから聞いたぜ。プレイヤーの周囲に複数のトリップワイヤーを設置し、約30ブロックを包囲する。その間ハイエロファントグリーンを自由に操れなくなるのが欠点だ。
+    TheWorldT1:
+        '''
+        …そいつを近づけんじゃあねえぜ。まあ…、そいつはスタープラチナと同じタイプのスタンドだから、少しは勝手を教えてやれるが 気が進まねえ。
+        第一段階では、ザ・ワールドはスタープラチナみてえにパンチを繰り出すだけだが、第二弾階になるとどんどん強くなってスピードも速くなる。もう少し強くなったら、また話しかけろ。
+        '''
+    TheWorldT2: ザ・ワールドが強くなったようだな。そろそろ「タイムストップ」を覚えたはずだ。もっとはやく覚えると思っていたがな。スペシャルキーで使ってみろ
+    TheWorldT3: 第三段階となったザ・ワールドは致命的なナイフを投げることができる。服の下に少年ジャンプを隠すほど賢いモンスターはいねえだろうから、効果的な武器だ
+    TheWorldFinal: あぁ、これが俺の知ってるザ・ワールドだ。ナイフの嵐を巻き起こしながら9秒間時間を止められる。時間停止中にロードローラーも投げられるぜ…やれやれ、頼むから俺から離れといてくれ
+    KillerQueenT1T2:
+        '''
+        そのスタンド…使い手はたしかぶっ飛ばしたはずだぜ…少なくとも救急車がな。キラークイーンは、見た目じゃあわからねえが触れた物を爆弾に変える能力をもっている。
+        他の同タイプのスタンドと同じようにラッシュはもちろん、硬いブロックを制御し爆発させることもできる。地面は傷つけず敵だけを吹き飛ばすが、自爆に注意しろ
+        '''
+    KillerQueenT3Final: シアーハートアタックをアンロックしたようだな。弱点なしの小型戦車みてえなやつで、俺のスタープラチナでも破壊できなかった。かなりユニークな能力だぜ…。第四段階になるとクールダウンが短くなり、頻繁に出せるようになる
+    KillerQueenBTD: また新たな能力を解放したようだな…そいつはバイツァ・ダストだ。最初にこの能力を発動した瞬間まで時間を巻き戻せる。つまり、将来起こる致命的な出来事を回避するのに使えるはずだ。まあこの能力のことは元の使い手の最期の行動からしか知らねえがな
+    AchtungBaby: なんだ…、正直、どうしてそんなことが可能かは聞かねえ。もしかすると宇宙の破裂でパワーがサングラスに移ったのか。いずれにせよ、そのスタンドは使用者を透明人間にする
+    GoldExperienceT1:
+        '''
+        ああ、そいつあハルノ…いや、ジョルノ・ジョバァーナのスタンドだ。あまり詳しくは聞けなかったが、確かなのは、このスタンドにはとてつもない潜在能力があるということだ。生命を創造する能力…。
+        現状では、ゴールド・エクスペリエンスには限界がある。今のところは、攻撃してきた相手に反撃するカエルを作り出すことができる程度だな。奇妙な反撃方法だが、それでも使えるぜ。
+        '''
+    GoldExperienceT2: ゴールド・エクスペリエンスはバリアを生成できるようになった。実体は木だが、壁のように攻撃を防いでくれる
+    GoldExperienceT3: ああ…その能力は感覚を加速させて敵を体外離脱状態にできる技だ。どういうことかわかるか？肉体は鈍るが、さらに蝶を生成して戦利品を守る。戦利品のドロップ率が2倍になると考えろ
+    GoldExperienceFinal: ゴールド・エクスペリエンスの最強の技「四肢レクリエーション」が解放されたようだぜ。傷を癒してライフを回復できる。あと一歩…
+    GoldExperienceRequiem: これが矢がスタンドに宿った結果だ。ゴールド・エクスペリエンス・レクイエム解放だ。敵の死を何度でもループさせ、触れた敵の行動をキャンセルして元の場所に送る
+    TuskAct1:
+        '''
+        回転のエネルギー…波紋を思い出させるぜ。ところで、タスクにはエコーズのようにACTがあって、各ACTで回転の能力が増える。目指すは無限の回転だ、できるか？
+        最初は爪を銃弾みてえに撃つだけだ。金属じゃあねえぜ、手足の爪だ。安心しろ、また生える
+        '''
+    TuskAct2: タスクACT2は黄金長方形の力を得た。標的に誘導できる爪弾を放てるぜ。無限の回転に一歩近づいたな
+    TuskAct3: ACT3は爪でワームホールを作り出し、そこを通り抜けることができるようになる。奇襲に最適だ。革新が持てる時にだけ使え
+    TuskAct4: ACT4はついに無限の回転エネルギーを手に入れた。その回転は敵を永遠にねじ切り、回し続ける。さらに、これまでの三つのACTを超越した強化形態を顕現させ、拳での攻撃が可能になった。ただし、その力を引き出すにはスローダンサーで回転エネルギーを蓄えなければならない…長い道のりを乗り越えた貴方へ、祝福を送ろう。
+    StickyFingersT1:
+        '''
+        ジッパーは一見するとありふれた能力にみえるかもしれないが、スティッキー・フィンガーズはその能力を極限まで引き出すスタンドだ。使い方を覚えりゃ敵はたちまち「アリーヴェ・デルチ」と叫ぶだろう。
+        最初はそれほど強力なスタンドじゃあねえが、敵に拳を当てると敵にジッパーが付く。諦めずに継続し、決意を曲げず強化し続けろ
+        '''
+    StickyFingersT2: ジッパーの多用途性がわかってないなら今に気づくことになるぜ。自分の腕をジッパーで離して射程外の敵を殴れるし、ブロックに隠れて接近もできる。これは始まりにすぎねえ。強くなればもっと使い道は増える
+    StickyFingersT3: 自分にジッパーを付けられるとはな。仗助にも真似できねえ技だ、自分自身に能力を使えるとは興味深い。この能力は回避に使ったり地面を高速移動できるのも強みだ
+    StickyFingersT4: スティッキー・フィンガーズは手出しできねえスタンドになった。遠距離攻撃、ブロックに隠れたり、回避、高速移動…もしこのスタンドの使い手とエジプトで出くわしてたら大変だったろうな。
+    SexPistolsT1: やれやれ…こいつらはセックス・ピストルズだ。6体の独立した意思を持つ弾丸型スタンドで、配置したエリアに留まる。弾丸が近づくと最寄りの敵に弾を誘導する。目新しい能力や極端な能力はねえが、成長すると銃の威力が上がる。効率が上がれば弾丸の発射数が増え、敵の死体も増えるぜ。
+    SexPistolsT2: ピストルズはより強く弾丸を弾けるようになった。そういや、ピストルズは飯が必要だって伝えていたか？
+    SexPistolsT3: 弾倉の回転が速くなってるぜ。お前は撃ち続けられるか？「 + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + 」を押すと狂乱状態になって最後まで弾丸を蹴り続ける
+    SexPistolsFinal: セックス・ピストルズが最大パワーに達したようだぜ。ほぼ瞬時に復活する。ポケットに飯を忘れるな…
+    KingCrimsonT1:
+        '''
+        キング・クリムゾンの力が今、お前に宿った。大ハンマーの如き速さで一撃必殺を叩き込め。まずはその猛烈な速度を体得し、その圧倒的な破壊力を完全に掌握しろ。
+        今は殴ることだけしかできないが、だからこそ凶暴だ。振り下ろされた拳は肉体に穴を穿ち、放たれた反動でお前自身が吹き飛ぶほどの威力を誇る。
+        '''
+    KingCrimsonT2: キング・クリムゾンは時をスキップするという独自の能力を手に入れた。 概念としては奇妙な能力だが…、要は原因から結果を取り除くことができるということだぜ。 時間そのものを飛び越え、敵を混乱させ、永遠の絶頂を作り出せ。 それと、独自の能力を使えるようになったことで、主に敵をブロックしている間に「クイック・タイムスキップ」を行うこともできるぜ。
+    KingCrimsonT3Final: おめでとう、エピタフの能力を解放したようだな。エピタフは未来を“映す”力で、敵の動きを予測し先手を打てるぜ。
+    CenturyBoyT1: このスタンドに防御弱点はねえ。発動するとスタンドが体に張り付きあらゆるダメージを無効化する。ただし動けなくなるぜ。使いどころは考えることだ。
+    CenturyBoyT2: ダイナマイト起爆して無敵状態だと敵だけがダメージ受けるのを学んだようだな。なぜ今までやらなかったんだ？
+    DollyDaggerT1: SPW財団の情報によると、このスタンドは受けたダメージ35%を反射するらしい。この遭遇したことがないのは幸運だったぜ
+    DollyDaggerT2: ドリー・ダガー強化でダメージを70%反射できるようになったらしい。俺でもそいつと戦うのは苦戦しそうだ。それに、自分自身をダガーで刺して近くの敵にダメージを送る事もできる。スタンドの可能性は無限だぜ。
+    MagiciansRedT1: ああ、マジシャンズレッド。最初にスタンドを教えてくれた男のスタンドだ。炎を操りアンクを作り出して敵を灰にできるぜ。
+    MagiciansRedT2: マジシャンズレッドはレッドバインドを習得した。こいつは炎で敵を拘束する技だ。どうして拘束された敵が燃え尽きないかは知らねえがな
+    MagiciansRedT3Final: マジシャンズレッドは全能力を再習得したようだな。クロスファイアハリケーンでアンクを一斉射撃し敵を圧倒しろ
+    AerosmithT1: エアロスミスは模型飛行機のようにしかみえねえが、そうじゃあねえ…。とんでもない高火力と機動性を秘めてる。弾丸の嵐で敵を鉄くずにしてやれ
+    AerosmithT2: エアロスミスが爆弾投下を習得したようだな。前よりも明るく燃やしてやれ！
+    AerosmithT3Final: エアロスミスはCO₂レーダーを搭載した。呼吸してるやつの息の根をとめてやれ
+    TheHandT1: 今のところ、ザ・ハンドはただ敵を殴るだけしかできねえ。強いパンチだが、それだけだ
+    TheHandT2: ザ・ハンドは右手で空間を削り、短距離をテレポートできるようになった。敵の臓器をえぐり取ることもできるぜ
+    TheHandT3: ザ・ハンドの熟練度が上がると" + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + "で敵を引き寄せられるようになる。範囲内にいる場合は、" + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + "を押し続けることで、ザ・ハンドの手で非常に強力な攻撃を繰り出せることができるぜ
+    TheHandFinal: ザ・ハンドは潜在能力を最大限引き出し、かつてないほど強力になっているぜ。お前は以前の使い手より賢いみたいだな。悪いやつじゃあねえんだが…、今彼は元気にやっているだろうか…
+    GratefulDeadT1:
+        '''
+        見ているだけで老け込む気分だぜ…あれがグレイトフル・デッドの能力だ。大事な奴の近くじゃ使うな
+        今のところ、グレイトフル・デッドは殴ることができるだけだが、別に珍しいことじゃあねえ。そのまま使い続けろ。
+        '''
+    GratefulDeadT2: グレイトフル・デッドは掴んだ相手を強制的に老化させる。握る時間で老化量が変わる。握手禁止だぜ
+    GratefulDeadT3: そのスタンドは味方にとっても危険な存在になったぜ。老化効果を霧状に撒き散らせるようになった。即効性はねえが一度に複数老化させられる。
+    GratefulDeadFinal: ついにグレイトフル・デッドが最大出力になったようだぜ…お、おい…ちょっと離れてくれ。もう白髪が増えてきた
+    LockT1T2: ああ、ザ・ロックか…使わなきゃならねえのか…おい。ザ・ロックは文字通り罪悪感で心を重くする能力だ。お前を傷つけるものは皆、その重荷を感じる。免疫持ちはいるがな
+    LockT3Final: ザ・ロックは自傷で他人に罪悪感を抱かせる能力を得た…慎重に使え
+    WhitesnakeT1:
+        '''
+        おい、俺がお前を潰す前にそのスタンドを視界から消すことだ。これは冗談じゃあねえぜ。
+        *はあ…仕方ねえな。今のホワイトスネイクはパンチだけだ
+        '''
+    WhitesnakeT2: ホワイトスネークは、敵にダメージを与え、表面に張り付く粘着性の物質を分泌できるようになったようだぜ。こいつは影響を受けた者にとって決して楽しい経験じゃあねえ。それとホワイトスネークをより遠くに飛ばせるようになり、銃も装備している。プレイヤーが強くなるにつれて、この能力はますます役立つようになる。覚えておくことだぜ。
+    WhitesnakeT3: ホワイトスネイクは敵からディスクを盗む能力を解放したようだぜ。敵がスタンド使いじゃあねえ場合は、しばらくの間そいつは思考停止状態になる。スタンド使いの場合は、一時的にスタンドが無効になる。これらの操作はすべて、" + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + "を押し続けることで行えるぜ。
+    WhitesnakeFinal: お前のしつこい執拗さのおかげか、ホワイトスネイクは極限に達したようだな。もう、俺に近付くんじゃあねえ、本気だぜ。
+    SilverChariotT1:
+        '''
+        ああ、シルバーチャリオッツ。そいつはスターダストクルセイダーの仲間のスタンドだ。俺の髪が馬鹿げていると思うなら、そいつは奴の髪を見てないから言えることだぜ。とにかく、シルバーチャリオッツはレイピアで電光石火の突きを繰り出す。
+        今は刺すだけだが、その速さは目にも止まらねえ
+        '''
+    SilverChariotT2: シルバーチャリオッツは突きのラッシュに加え、レイピアで飛来物を跳ね返せる。野球かテニスかってな感じだぜ
+    SilverChariotT3: シルバーチャリオッツはで装甲を脱いで、残像を作るほど速く動けるようになったようだぜ。移動速度は劇的に上がるが受けるダメージも増える。使い所を選べ
+    SilverChariotFinal: シルバーチャリオッツは最高点に達した。その県剣技は伝説の剣士にも匹敵する。形態変化でもしたらどうなるか…想像もつかねえ
+    CreamT1:
+        '''
+        そのスタンド…なんか嫌な感じがするぜ。クリームは暗黒空間を操り物を消し去る能力だ。まるで仗助のあのバカな友達のようなスタンドだな。
+        他のスタンドと同じように、クリームも現段階では大したことはない。でも強烈な切りつけ、臓器引き抜き、暗黒空間形態突進ができる。
+        '''
+    CreamT2: クリームはお前を“喰う”能力を得た。「 + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + 」で暗黒空間に入り、 interdimensional ボールのように乗り込め。左クリックで誘導だ。暗黒空間ゲージが限界になると吐き出され、見えなくなるから注意しろ
+    CreamT3: 暗黒空間ゲージを素早く回復させる方法として、プレイヤー自身を飲み込み飛び回ることができる。暗黒空間攻撃の持続時間が長くなり、ゲージが尽きると吐き出さずに、自動的に防御チャージ状態になるぜ。
+    CreamFinal: 最終段階でさらに暗黒空間滞在時間が伸びるぜ。ゲージが付きても吐き出されるのではなく、リチャージ状態になる。実はこいつを使えば自分自身を大砲代わりに使えるんじゃあねえかと思っているが…またそれは今度な
+    HermitPurpleT1:
+        '''
+        まさかハーミットパープルの使い手がまた現れるとはな。そのスタンドは特殊だ。俺が知る使い手のジジイは波紋使いだった。両方を扱えるというのは特殊だぜ。お前も使えるのか？
+        今はただの蔓だが殴るには十分だ
+        '''
+    HermitPurpleT2: どうやら前の疑問は解決したようだな。巻き付くハーミットパープルは攻撃してくる奴に火傷を負わせることができる。さらに、右クリック長押しで敵を掴み引き寄せ破滅させることができるぜ
+    HermitPurpleT3: ハーミットパープルとの繋がりが蔓のように成長したようだな。「 + JoJoStands.SpecialHotKey.GetAssignedKeys()[0] + 」で波紋をオーバーチャージし、次の3回の攻撃を燃焼とノックバックで返せる
+    HermitPurpleFinal: ハーミットパープルはお前の努力で今までにないほど強くなった。あのジジイですら生きてる間にその域に到達できなかった。それにしても、どうしてあんなに長く生きられたのか、いまだに分からねえぜ。
+    BadCompanyT1:
+        '''
+        バッドカンパニーか…見たことはねえが仗助がそんな話をしてたな。
+        兵士、戦車、攻撃ヘリを召喚できるらしいが、今の段階では兵士くらいしか扱えないだろう。このスタンドについてもっと詳しく知りたいようなら、今度仗助に聞いてみよう
+        '''
+    BadCompanyT2: バッド・カンパニーは、より多くの兵士と戦車を召喚できるようになったようだな。戦闘経験を積んだことで、兵士たちも大幅に強化されているはずだぜ。
+    BadCompanyT3: 仗助曰く、もう攻撃ヘリを召喚できる頃だろう。主力兵器だが頼りすぎるな。これは単なる推測だが…、攻撃ヘリを召喚できるのに戦闘機が召喚できそうなものだぜ
+    BadCompanyFinal: このスタンドは恐るべきものだ。いまや兵士、戦車、攻撃ヘリ、戦闘機といった小規模軍団を率いる事ができる。仗助が生き延びたのが驚きだぜ
+    StoneFreeT1:
+        '''
+        それは…、娘のスタンド。糸に変える能力を持っている…ありふれた、あるいは役に立たないと思うか？冗談じゃあない。
+        今はパンチだけだが、その威力は相当だ。俺が言うと親バカと思われるかもしれねえが、かなりのパンチ力だ。
+        '''
+    StoneFreeT2: ストーンフリーは解体能力を発揮し始めたようだな。2つのブロックの間に罠を編み込めるぜ。今は大したことないように見えるかもしれねえが、正しく使えば強力な武器になり得る。
+    StoneFreeT3: 糸がかなり強化されたようだぜ。糸を操り敵を縛り、動きを封じることができるようだ。引きずり寄せることもできるかもしれない
+    StoneFreeFinal: ストーンフリーの最後のパワーアップで、糸を強力な盾に編み込み、身を危険から守ることができるぜ。この力で伝説を紡ぎにいけ！
+    SoftAndWetT1:
+        '''
+        そいつは…シャボン玉？俺の近くで破裂させるな。破裂した場所の近くから何かを奪う能力があるからな。視力は保ちたいぜ。
+        盗んだ特性を付与もできる。懐中電灯を構えて撃ってみろ。どうなるかは知らねえが
+        '''
+    SoftAndWetT2: ふむ。この泡、思ったより耐久性があるようだな。お前の能力なら、もっと大きな防御力のある泡を作れるはずだ。その泡で体を覆って保護力を得ることもできるだろう。
+    SoftAndWetT3: ソフト&ウェットは戦闘中に泡を生成できるようになったようだ。着弾時の衝撃ダメージが凄まじく、脅威だぜ。能力の根底に何か力があるのか…？
+    SoftAndWetFinal: この力…！まさか。泡で地面に爆弾を仕掛けられるらしい。こういう力は不気味なほど見覚えがあるぜ…。偶然の一致だといいが。
+    SoftAndWetGoBeyond:
+        '''
+        まったく、本当に常軌を逸しているぜ。この爆発力は以前杜王町で見たことがあるが…、変化しているな。いや、進化している。“自然を超越”しているといっていい。
+        この泡はただの泡じゃあねえ、信じられないほどの速度で回転する細い線だ。この線が消失点に達したら何が起きるか分からねえ。論理そのものを超越してしまうかもな…恐ろしい力だぜ。それに爆発タイミングも自由に制御できるようだ。これはお前にとっては有益で、敵にとっては致命的となるだろうな。
+        '''
+    CrazyDiamondT1: ああ、それは…、それはクレイジーダイヤモンドだ。…心優しく奇妙なヘアスタ…おっと、このことは彼には言うな。多くのスタンドと同様に、クレイジーダイヤモンドもかなりの威力をもっているが、その真価は癒しの力だ。触れたものを修復し・治癒・元の状態に戻すことまでできる。善を成す力だぜ
+    CrazyDiamondT2: 懐かしい思い出が蘇るな。これでクレイジーダイヤモンドの圧倒的な力で弾丸を弾き返せるはずだ。本来の能力じゃないが、弾丸一発でほぼ何でも粉砕できる。修復は価値あるものなら何でも元に戻せることを覚えておけ。ただし死人を生き返らせることだけはできねぇからな
+    CrazyDiamondT3: まったく…あのチンピラの怒り癖がクレイジーダイヤモンドにまで染み込んじまってるようだ。念のため髪の話はしないでおこう。制御不能の激怒状態に入って素早さを犠牲に威力を強化できるが、その状態で修復モードを使うと収拾がつかなくなるのは目に見えている。ちなみに修復能力は格段に上がって、瀕死の者すら元に戻せるようになったはずだ
+    CrazyDiamondFinal: 見事に扱いを覚えたようだな。クレイジーダイヤモンドもさらに強くなった。お前とスタンドを見てると杜王町でのあの頃を思い出すぜ。頼む、この力で守るべき者を護り、脅す者を罰してくれ。黄金の心があってこそ真価を発揮する。お前ならきっとできる
+    TowerOfGrayT1: う…まさかあの忌まわしい虫とまた会うことになるとは思わなかった。エジプトへ向かう道中で最初に出会ったスタンドのひとつだ。嫌悪感を抱くことを許してくれ。タワー・オブ・グレイは高速移動と貫く舌攻撃が得意だ。好きに使え
+    TowerOfGrayT2: 虫がさらに強化されたか…まったく。今じゃとんでもない速度で動く、スタープラチナでも追いつけねぇ。タワー・オブ・グレイは弾丸のように敵を薙ぎ払える。残酷だが役に立つだろう
+    TowerOfGrayT3: あのスタンド使いのジジイは歪んだ趣味を持っていた。犠牲者の舌を抜き取り、その狂気じみた精度さをてめーの卑劣な快楽のために利用していた。あの夜のことを思い出すと今でも鳥肌が立つ。ちなみにタワー・オブ・グレイは一度に大勢の舌を串刺しのように引き抜くことができる。変な想像はすんなよ
+    TowerOfGrayFinal: 潜在能力を最大限引き出せたようだな。その貫く舌は無視できない武器だ。さて、これで十分だろう。俺はそろそろあれから離れるとする…なるべく距離を取るつもりだ
+    EchoesAct0: ん？卵か？見覚えがある…まさか、これがエコーズか！いや、これからそうなるんだ。より力を引き出すには共に成長しなきゃならない。進化には強い意志と、卵を戦場に持ち込む並々ならぬ勇気が必要だぜ
+    EchoesAct1: ここまで来るとは驚きだ。お前の意志を甘く見てたぜ。これがエコーズACT1だ。威力は弱いが、本当の強みは能力にある。触れた相手に効果音を生成できる。敵を弱体化し、味方を鼓舞できる。とにかく音を立てろ。さらに伸ばしたいなら危険な戦場に投入して、あの浮遊する機械の目を試してみろ
+    EchoesAct2: 生き延びれたようだな。いいぞ。エコーズ Act 2はお前の効果音を本物のダメージに変換できる。尻尾の先で効果音を好きな場所に設置しろ。戦況をコントロールできるはずだぜ。もっと極めたいならジャングル地下の奇妙な寺院に挑んでみるといい
+    EchoesAct3: 成長したな。そいつがエコーズ Act 3、最終形態だ。この形態では射程を犠牲に威力を極められている。それと、『スリー・フリーズ』が使えるはずだぜ。こいつは標的を超重量化して動けなくする、頼りになる技だ。努力の成果だな。いざというときは期待しているぞ
+    StandHelpText0: 『スタンドスロット』にスタンドアイテムを入れて『スタンドヘルプ』を押せ。能力とTier解放方法を教えてやろう。連続で押せば、特定アイテムの入手方法や操作手順も教えてやる
+    StandHelpText1: スタンドスペシャルを使うには、操作設定で『JoJoStands: スペシャル』にキーを割り当てて、スタンド発現中に押せ
+    StandHelpText2: スタンドの矢(レクイエム)はウイルスパールとスタンドの矢を合成して入手できる。ウイルス隕石が変化して別の用途を持つようになるからだ
+    StandHelpText3: 他人のタイムストップ中に動くには、時間停止能力を持つスタンドを装備して自分のタイムストップを使え。自分の持続時間が相手を超えれば、そのタイムストップを乗っ取ることもできるぞ
+    StandHelpText4: 『染料スロット』に染料を入れるとスタンドを染色できるぜ
+    StandHelpText5: スタンドを使うには『スタンドスロット』に装備し、『スタンドアウト』にキーを割り当てて押せ
+    StandHelpText6: ほとんどのスタンドは『意志』と呼ばれるクラフト素材が必要だ。昼の森で『戦う意志』、夜の森で『守る意志』、ジャングルで『変化の意志』、汚染／真紅で『支配の意志』、地底で『破壊の意志』、ダンジョンで『脱出の意志』を集めろ
+    ArrowShardText: お前は…信用できそうだ。これを持っていけ。自分自身に使ってみろ。気に入るはずだぜ
+}

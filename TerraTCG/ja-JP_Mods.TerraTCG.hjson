@@ -19,7 +19,7 @@
 
 // Target ally 	=> 味方1体 / 対象の味方1体
 // next turn 	=> 次のターンの間
-// in this turn	=> 1ターンの間
+// in this turn	=> このターンの間
 // MP 			=> マナコスト / マナクリスタル / MP
 // Zealous 		=> 活力
 // Paused 		=> 行動済み / 行動済み状態
@@ -347,9 +347,9 @@ Cards: {
 			Name: スキル：丈夫な殻
 			Description:
 				'''
-				1ターンの間、味方のサラマンダ
-				ーとザリガニの被ダメージが1
-				減少する。
+				このターンの間、味方のサラマン
+				ダーとザリガニの被ダメージが
+				1減少する。
 				'''
 		}
 	}
@@ -362,9 +362,9 @@ Cards: {
 			Name: スキル：爪の援護
 			Description:
 				'''
-				1ターンの間、味方のサラマンダ
-				ーとジャイアントシェリーの与ダメ
-				ージが1増加する。
+				このターンの間、味方のサラマン
+				ダーとジャイアントシェリーの与
+				ダメージが1増加する。
 				'''
 		}
 	}
@@ -377,9 +377,9 @@ Cards: {
 			Name: スキル：絹のような鱗
 			Description:
 				'''
-				1ターンの間、味方のザリガニと
-				ジャイアントシェリーの攻撃に必
-				要なMPが1減る。
+				このターンの間、味方のザリガニ
+				とジャイアントシェリーの攻撃に
+				必要なMPが1減る。
 				'''
 		}
 	}
@@ -567,9 +567,10 @@ Cards: {
 			Name: 王の勅令
 			Description:
 				'''
-				1ターンの間、味方のスライムの与
-				ダメージが1増加する。さらに、味
-				方のスライムのHPを1回復する。
+				このターンの間、味方のスライム
+				の与ダメージが1増加する。
+				さらに味方のスライムのHPを1回
+				復する。
 				'''
 		}
 
@@ -608,7 +609,8 @@ Cards: {
 			Name: スキル: 胞子の拡散
 			Description:
 				'''
-				1ターンの間、味方は{$ModifierNames.LIFESTEAL}を得る。
+				このターンの間、味方全員が
+				{$ModifierNames.LIFESTEAL}を得る。
 				(攻撃後HPを1回復)
 				'''
 		}
@@ -765,9 +767,9 @@ Cards: {
 			Name: スキル: 出血援護
 			Description:
 				'''
-				1ターンの間、味方1体の与ダメー
-				ジが1増加する。さらに、{$ModifierNames.BLEEDING}を与
-				える。(被ダメージ+1)
+				このターンの間、味方1体の与ダ
+				メージが1増加する。さらに、{$ModifierNames.BLEEDING}
+				を与える。(被ダメージ+1)
 				'''
 		}
 	}
@@ -1032,7 +1034,7 @@ Cards: {
 		Modifier.Description:
 			'''
 			味方1体の行動済み状態を解除
-			し、1ターンの間、2の追加ダメージ
+			し、このターンの間、2の追加ダメージ
 			を与える。
 			'''
 	}
@@ -1102,8 +1104,8 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				1ターンの間、味方1体が攻撃時
-				に{$ModifierNames.POISON}を与える。
+				このターンの間、味方1体が攻撃
+				時に{$ModifierNames.POISON}を与える。
 				(毎ターンHPが1減少)
 				'''
 		}
@@ -1155,7 +1157,8 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者のマナコストが1減少する。
+				装備者は攻撃コストが
+				1減少する。
 				'''
 		}
 	}
@@ -1256,7 +1259,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者はマナコストが1減少す
+				装備者はスキルコストが1減少す
 				る。
 				'''
 		}
@@ -1304,8 +1307,8 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				1ターンの間、対象の与ダメージ
-				が2増加する。
+				このターンの間、対象の与ダメー
+				ジが2増加する。
 				'''
 		}
 	}
@@ -1372,8 +1375,8 @@ Cards: {
 			Name: スキル: スリ
 			Description:
 				'''
-				1ターンの間、アイテムを使用した
-				時、カードを1枚引く。
+				このターンの間、アイテムを使用
+				した時、カードを1枚引く。
 				'''
 		}
 	}
@@ -1514,7 +1517,8 @@ Cards: {
 		Name: "{$NPCName.EnchantedSword}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
+			神の恵み: 中央列にいる
+			モンスターの
 			与ダメージが1増加する。
 			'''
 		Attack.Name: 神罰
@@ -1524,8 +1528,9 @@ Cards: {
 		Name: "{$NPCName.Gastropod}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央列にいる
+			モンスターの
+			攻撃コストが1減少する。
 			'''
 		Attack.Name: カタツムリのレーザー
 	}
@@ -1534,8 +1539,9 @@ Cards: {
 		Name: "{$NPCName.Unicorn}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央列にいる
+			モンスターが
+			{$ModifierNames.ZEALOUS}を得る。
 			'''
 		Attack.Name: 閃光突進
 	}
@@ -1544,7 +1550,8 @@ Cards: {
 		Name: "{$NPCName.Pixie}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターが
+			神の恵み: 中央列にいる
+			モンスターを
 			毎ターン1HP回復する。
 			'''
 		Attack.Name: 閃光の掌打
@@ -1554,7 +1561,8 @@ Cards: {
 		Name: "{$NPCName.IlluminantBat}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターが
+			神の恵み: 中央列にいる
+			モンスターが
 			{$ModifierNames.EVASIVE}を得る。
 			'''
 		Attack.Name: 閃光の急襲
@@ -1564,7 +1572,8 @@ Cards: {
 		Name: "{$NPCName.QueenSlimeBoss}"
 		Modifier.Description:
 			'''
-			聖なる君王: 中央のモンスターが
+			聖なる女帝: 中央列にいる
+			モンスターが
 			{$ModifierNames.RELENTLESS}を得る。
 			'''
 		Attack.Name: 輝くスライム
@@ -1686,7 +1695,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				1ターンの間、味方1体の次の与ダメージが1増加する。
+				このターンの間、味方1体の次の与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1697,7 +1706,8 @@ Cards: {
 		Modifier.Description:
 			'''
 			このカードが場に出たとき、
-			{$NPCName.Retinazer}と{$NPCName.Retinazer}に
+			{$NPCName.Retinazer}と
+			{$NPCName.Spazmatism}に
 			変化する。
 			'''
 	}
@@ -1893,8 +1903,8 @@ Cards: {
 			Name: スキル: 海の願い
 			Description:
 				'''
-				1ターンの間、味方1体のマナコス
-				トを1減少させる。
+				このターンの間、味方1体のマナ
+				コストを1減少させる。
 				'''
 		}
 	}
@@ -1907,8 +1917,8 @@ Cards: {
 			Name: スキル: 森の援護
 			Description:
 				'''
-				1ターンの間、味方1体の次の与
-				ダメージが1増加する。
+				このターンの間、味方1体の次の
+				与ダメージが1増加する。
 				'''
 		}
 	}
@@ -2142,7 +2152,7 @@ Cards: {
 			Name: スキル: 砂の歌
 			Description:
 				'''
-				1ターンの間、対象の味方1体が、
+				このターンの間、対象の味方1体が、
 				敵と同じ列から攻撃するときの与
 				ダメージが1増加する。
 				'''
@@ -2241,7 +2251,7 @@ Cards: {
 		POISON: 毒
 		RELENTLESS: 非情
 		EVASIVE: 防壁突破
-		ZEALOUS: 狂気
+		ZEALOUS: 活力
 		SPIKED: トゲトゲ
 		LIFESTEAL: 吸収
 		MORBID: 伝染
