@@ -1,0 +1,62 @@
+NPCs: {
+	ReviveCircleNPC: {
+		DisplayName: 蘇生ゲージ
+	}
+}
+
+Configs: {
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		BossBlacklist: {
+			Label: ボス除外リスト
+			Tooltip: 通常、ボスは復活を許可するが、このリストに追加されたボスは復活を無効化される
+		}
+
+		EnableDuringInvasions: {
+			Label: 侵略中の復活を許可
+			Tooltip: 侵略イベント中に復活を許可するかどうか
+		}
+
+		LifeMultiplier: {
+			Label: 復活に必要なライフ倍率
+			Tooltip: ダウンしたプレイヤーを復活させるのに必要なダメージ量を計算するために、ボスのライフ（または侵略時は任意の値）に適用される倍率
+		}
+
+		EnableDuringBloodMoonAndSolarEclipse: {
+			Label: ブラッドムーン／日食中の復活を許可
+			Tooltip: ブラッドムーンまたは日食の間に復活を許可する
+		}
+
+		SinglePlayerWarning: {
+			Label: シングルプレイヤー警告
+			Tooltip: シングルプレイヤーのワールドに参加した際に警告メッセージをチャットに表示する
+		}
+
+		DamageDecayDelay: {
+			Label: ダメージ減衰遅延
+			Tooltip: プレイヤーの復活に必要なダメージが減衰を開始するまでの遅延時間（秒）
+		}
+
+		DamageDecayRate: {
+			Label: ダメージ減衰率
+			Tooltip: ダウンしたプレイヤーを復活させるために必要な総ダメージ量のうち、1秒ごとに失われる割合
+		}
+
+		Headers: {
+			Gameplay: ゲームプレイ
+			Toggles: 切り替え設定
+			Misc: 雑多
+		}
+
+		AllowRegularRespawnTimerInBackground: {
+			Label: 通常リスポーンタイマーをバックグラウンドで有効化
+			Tooltip:
+				'''
+				デフォルトでは、ダウンしたプレイヤーを復活させるには、その魂に十分なダメージを与えるか、ボスまたは襲撃イベントを撃破する必要がある
+				この設定を有効にすると、通常のリスポーンタイマーがバックグラウンドで進行する（ただし表示はされない）
+				'''
+		}
+	}
+}
+
