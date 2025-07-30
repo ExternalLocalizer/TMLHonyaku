@@ -1,56 +1,56 @@
 LeftClickHelper: {
-    ModReloaderOffTooltip: Mod Reloader がオフです。切り替えるには、インベントリを開き、ホットバーの左側を見て、目を切り替えてMod Reloader のツールをすべて表示または非表示にします。
+	ModReloaderOffTooltip: Mod Reloader がオフです。切り替えるには、インベントリを開き、ホットバーの左側を見て、目を切り替えてMod Reloader のツールをすべて表示または非表示にします。
 }
 
 UIElementPanel: {
-    HideAll: すべてのUIを非表示にします
-    ShowAll: すべてのUIを表示します
+	HideAll: すべてのUIを非表示にします
+	ShowAll: すべてのUIを表示します
 }
 
 LogPanel: {
-    All: すべて
-    Debug: デバッグ
-    Info: 情報
-    Warn: 警告
-    Error: エラー
-    Off: オフ
-    SetLogLevelFor: "{0} のログレベルを設定"
-    LogLevelPersistOnReloads: このログレベルは再読み込み後も保持されます！
-    LogLevelHeader: 各ログのログレベルを設定：オフ、エラー、警告、情報、デバッグ、すべて
-    LogLevelTitle: ログレベル
-    ClearClientLogHover: クリックして {0} をクリア
-    ClearClientLog: クライアントログをクリア
-    OpenServerLogHover: クリックしてサーバーログを開く
-    OpenServerLog: サーバーログを開く
-    OpenClientLogHover: クリックして {0} を開く
-    OpenClientLog: クライアントログを開く
-    LogTitleHover: クリックして Steam/steamapps/common/tModLoader/tModLoader-Logs のフォルダを開く
-    LogTitle: ログ
+	All: すべて
+	Debug: デバッグ
+	Info: 情報
+	Warn: 警告
+	Error: エラー
+	Off: オフ
+	SetLogLevelFor: "{0} のログレベルを設定"
+	LogLevelPersistOnReloads: このログレベルは再読み込み後も保持されます！
+	LogLevelHeader: 各ログのログレベルを設定：オフ、エラー、警告、情報、デバッグ、すべて
+	LogLevelTitle: ログレベル
+	ClearClientLogHover: クリックして {0} をクリア
+	ClearClientLog: クライアントログをクリア
+	OpenServerLogHover: クリックしてサーバーログを開く
+	OpenServerLog: サーバーログを開く
+	OpenClientLogHover: クリックして {0} を開く
+	OpenClientLog: クライアントログを開く
+	LogTitleHover: クリックして Steam/steamapps/common/tModLoader/tModLoader-Logs のフォルダを開く
+	LogTitle: ログ
 }
 
 ModSourceLastBuilt: {
-    LastBuilt: 最終ビルド
-    Days: "{0}日前"
-    Day: "{0}日前"
-    Hours: "{0}時間前"
-    Hour: "{0}時間前"
-    Minutes: "{0}分前"
-    Minute: "{0}分前"
-    Seconds: "{0}秒前"
+	LastBuilt: 最終ビルド
+	Days: "{0}日前"
+	Day: "{0}日前"
+	Hours: "{0}時間前"
+	Hour: "{0}時間前"
+	Minutes: "{0}分前"
+	Minute: "{0}分前"
+	Seconds: "{0}秒前"
 }
 
 DebugText: {
-    RightClickCloseConfig: 右クリックで設定を閉じる
-    RightClickOpenConfig: 右クリックで設定を開く
-    ClickToHide: クリックしてデバッグ情報を非表示
+	RightClickCloseConfig: 右クリックで設定を閉じる
+	RightClickOpenConfig: 右クリックで設定を開く
+	ClickToHide: クリックしてデバッグ情報を非表示
 }
 
 Tools: {
-    DragonLensUIPanel: {
-        RightClickName: Dragon Lens UIパネル 右クリック
-        Description: このツールには説明がありません！.hjsonファイルに追加してください！
-        DisplayName: Dragon Lens UIパネル
-    }
+	DragonLensUIPanel: {
+		RightClickName: Dragon Lens UIパネル 右クリック
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+		DisplayName: Dragon Lens UIパネル
+	}
 
 	DragonLensReloadMP: {
 		RightClickName: Dragon Lens 再読み込み ﾏﾙﾁﾌﾟﾚｲ 右クリック
@@ -77,9 +77,9 @@ Tools: {
 }
 
 Keybinds: {
-    DragonLensUIPanelRightClick: {
-        DisplayName: Dragon Lens UIパネル右クリック
-    }
+	DragonLensUIPanelRightClick: {
+		DisplayName: Dragon Lens UIパネル右クリック
+	}
 
 	DragonLensUIPanel: {
 		DisplayName: Dragon Lens UIパネル
@@ -115,111 +115,180 @@ Keybinds: {
 }
 
 ReloadMPButton: {
-    HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
-    HoverDescNoMods: MODが選択されていません
-    HoverText: "{0} を再読み込み"
-    Text: ﾏﾙﾁﾌﾟﾚｲ 再読み込み
+	HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
+	HoverDescNoMods: MODが選択されていません
+	HoverText: "{0} を再読み込み"
+	Text: ﾏﾙﾁﾌﾟﾚｲ 再読み込み
 }
 
 ReloadButton: {
-    HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
-    HoverDescNoMods: MODが選択されていません
-    HoverText: "{0} を再読み込み"
-    Text: 再読み込み
+	HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
+	HoverDescNoMods: MODが選択されていません
+	HoverText: "{0} を再読み込み"
+	Text: 再読み込み
 }
 
 LogButton: {
-    HoverTooltipOff: ログパネルを開く
-    HoverTooltipOn: ログパネルを閉じる
-    HoverDescRightClick: 右クリックで {0} を開く
-    HoverDescBase: ここでログオプションを変更
-    HoverText: ログオプション
-    Text: ログ
+	HoverTooltipOff: ログパネルを開く
+	HoverTooltipOn: ログパネルを閉じる
+	HoverDescRightClick: 右クリックで {0} を開く
+	HoverDescBase: ここでログオプションを変更
+	HoverText: ログオプション
+	Text: ログ
 }
 
 UIElementButton: {
-    HoverTooltipOff: UIエレメントパネルを開く
-    HoverTooltipOn: UIエレメントパネルを閉じる
-    HoverDescRightClick: 右クリックで全てのUIエレメントを切り替え
-    HoverDescBase: UIエレメントのヒットボックスを切り替え
-    HoverText: UIエレメントヒットボックス
-    Text: UI
+	HoverTooltipOff: UIエレメントパネルを開く
+	HoverTooltipOn: UIエレメントパネルを閉じる
+	HoverDescRightClick: 右クリックで全てのUIエレメントを切り替え
+	HoverDescBase: UIエレメントのヒットボックスを切り替え
+	HoverText: UIエレメントヒットボックス
+	Text: UI
 }
 
 ModsButton: {
-    HoverTooltipOff: MODリストを開く
-    HoverTooltipOn: MODリストを閉じる
-    HoverDesc: MODのオン/オフを切り替え
-    HoverText: MODリスト
-    Text: MOD
+	HoverTooltipOff: MODリストを開く
+	HoverTooltipOn: MODリストを閉じる
+	HoverDesc: MODのオン/オフを切り替え
+	HoverText: MODリスト
+	Text: MOD
 }
 
 ExceptionMenu: {
-    Copied: コピーしました！
-    GoToFileTooltip: 例外のソースファイルをVSで開く
-    GoToFileText: ファイルに移動
-    CopyTooltip: クリップボードにコピー
-    CopyText: コピー
-    ClearLogTooltip: クリックして {0} をクリア
-    ClearLogText: ログをクリア
-    OpenLogTooltip: クリックして {0} を開く
-    OpenLogText: ログを開く
-    ReloadTooltip: "{0} を再読み込み"
-    ReloadText: 再読み込み
-    TitleTooltip: Mod Reloader のエラーメニューへようこそ！
+	Copied: コピーしました！
+	GoToFileTooltip: 例外のソースファイルをVSで開く
+	GoToFileText: ファイルに移動
+	CopyTooltip: クリップボードにコピー
+	CopyText: コピー
+	ClearLogTooltip: クリックして {0} をクリア
+	ClearLogText: ログをクリア
+	OpenLogTooltip: クリックして {0} を開く
+	OpenLogText: ログを開く
+	ReloadTooltip: "{0} を再読み込み"
+	ReloadText: 再読み込み
+	TitleTooltip: Mod Reloader のエラーメニューへようこそ！
 }
 
 MainMenu: {
-    LoadingWorld: ワールドを読み込み中: {0}
-    JoinMultiplayerTooltip: 
+	CreateNewWorldTooltip:
+		'''
+		ワールド {0} を、 
+		大きさ {1} 、難易度 {2} で作成します
+		'''
+	CreateNewWorld: ワールドを新規作成
+	WorldTooltip: 手軽にワールドを生成
+	WorldHeader: ワールド
+	LoadingWorld: ワールドを読み込み中: {0}
+	LoadingPlayer: プレイヤーを読み込み中: {0}
+	JoinMultiplayerTooltip:
 		'''
 		利用可能な最初のプレイヤーで
 		ﾛｰｶﾙﾏﾙﾁﾌﾟﾚｲﾔｰﾜｰﾙﾄﾞに参加（サーバー必須）
 		'''
-    JoinMultiplayerText: マルチプレイヤーに参加
-    HostMultiplayerTooltip: ローカルマルチプレイヤーワールドを開始
-    HostMultiplayerText: ホストでマルチプレイを開始
-    MultiplayerTooltip: マルチプレイヤーのホストとテスト
-    MultiplayerHeader: マルチプレイヤー
-    JoinSingleplayerTooltip: 設定で選択したプレイヤーとワールドで開始
-    JoinSingleplayerText: シングルプレイを開始
-    SingleplayerTooltip: シングルプレイヤーワールドに素早く参加
-    SingleplayerHeader: シングルプレイヤー
-    ClearLogTooltip: クリックして {0} をクリア
-    ClearLogText: ログをクリア
-    OpenLogTooltip: クリックして {0} を開く
-    OpenLogText: ログを開く
-    StartClientTooltip: 
+	JoinMultiplayerText: マルチプレイヤーに参加
+	HostMultiplayerTooltip: ローカルマルチプレイヤーワールドを開始
+	HostMultiplayerText: ホストでマルチプレイを開始
+	MultiplayerTooltip: マルチプレイヤーのホストとテスト
+	MultiplayerHeader: マルチプレイヤー
+	JoinSingleplayerTooltipNoData: 選択したプレイヤーとワールドでシングルプレイを開始
+	JoinSingleplayerTooltip: 設定で選択したプレイヤーとワールドで開始
+	JoinSingleplayerText: シングルプレイを開始
+	SingleplayerTooltip: シングルプレイヤーワールドに素早く参加
+	SingleplayerHeader: シングルプレイヤー
+	ClearLogTooltip: クリックして {0} をクリア
+	ClearLogText: ログをクリア
+	OpenLogTooltip: クリックして {0} を開く
+	OpenLogText: ログを開く
+	StartClientTooltip:
 		'''
 		このインスタンスに加えて、
 		ｺﾏﾝﾄﾞﾗｲﾝで別のtMLインスタンスを開始
 		'''
-    StartClientText: クライアントを開始
-    StartServerTooltip: ｺﾏﾝﾄﾞﾗｲﾝでｻｰﾊﾞｰｲﾝｽﾀﾝｽを開始
-    StartServerText: サーバーを開始
-    OptionsTooltip: テスト用の一般的なオプション
-    OptionsHeader: 設定
-    ReloadNoMods: MODが選択されていません
-    ReloadTooltip: "{0} を再読み込み"
-    ReloadText: 再読み込み
-    OpenConfigTooltip: クリックしてMod Reloader の設定を開く
-    OpenConfigText: 設定を開く
-    WelcomeTooltip: Mod Reloader のメインメニューへようこそ！
+	StartClientText: クライアントを開始
+	StartServerTooltip: ｺﾏﾝﾄﾞﾗｲﾝでｻｰﾊﾞｰｲﾝｽﾀﾝｽを開始
+	StartServerText: サーバーを開始
+	OptionsTooltip: テスト用の一般的なオプション
+	OptionsHeader: 設定
+	ReloadNoMods: MODが選択されていません
+	ReloadTooltip: "{0} を再読み込み"
+	ReloadText: 再読み込み
+	OpenConfigTooltip: クリックしてMod Reloader の設定を開く
+	OpenConfigText: 設定を開く
+	WelcomeTooltip: Mod Reloader のメインメニューへようこそ！
 }
 
 BuilderToggles: {
-    MainStateBuilderToggle: {
-        OnText: Mod Reloader オン
-        OffText: Mod Reloader オフ
-    }
+	MainStateBuilderToggle: {
+		OnText: Mod Reloader オン
+		OffText: Mod Reloader オフ
+	}
 }
 
 Configs: {
-    Config: {
-        ClearLogOnReload: {
-            Tooltip: ""
-            Label: 再読み込み時にログをクリア
-        }
+	WorldDifficulty: {
+		Journey: {
+			Label: ジャーニー
+		}
+
+		Master: {
+			Label: マスター
+		}
+
+		Expert: {
+			Label: エキスパート
+		}
+
+		Normal: {
+			Label: クラシック
+		}
+
+		Tooltip: ""
+	}
+
+	WorldSize: {
+		ExtraSmall: {
+			Label: 極小（高リスク）
+		}
+
+		Large: {
+			Label: ラージ
+		}
+
+		Medium: {
+			Label: ミディアム
+		}
+
+		Small: {
+			Label: スモール
+		}
+
+		Tooltip: ""
+	}
+
+	Config: {
+		CreateTestWorldDifficulty: {
+			Tooltip: メインメニューで生成するワールドの難易度を設定します
+			Label: テストワールド難易度
+		}
+
+		CreateTestWorldSize: {
+			Tooltip: メインメニューで生成するワールドのサイズを設定します
+			Label: テストワールドサイズ
+		}
+
+		SaveWorld: {
+			Tooltip:
+				'''
+				再読み込み前にプレイヤーとワールドのデータをセーブします
+				読み込みに時間がかかりますが、プレイヤーとワールドを保持します
+				'''
+			Label: ワールドを保存
+		}
+
+		ClearLogOnReload: {
+			Tooltip: ""
+			Label: 再読み込み時にログをクリア
+		}
 
 		ShowBuilderToggle: {
 			Tooltip: ""
@@ -283,11 +352,6 @@ Configs: {
 		Player: {
 			Tooltip: 再読み込み時にワールドに参加するプレイヤーを選択
 			Label: プレイヤー
-		}
-
-		AutoSaveWorld: {
-			Tooltip: 再読み込み前にプレイヤーとワールドのデータを保存します
-			Label: ワールドを自動保存
 		}
 
 		AutoJoinWorld: {

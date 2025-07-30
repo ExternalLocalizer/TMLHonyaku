@@ -34,14 +34,51 @@ Tiles: {
 	DrawbridgeVerticalFlippedTile: {
 		MapEntry: Drawbridge Vertical Flipped Tile
 	}
+
+	SpikedPallisadeTile: {
+		MapEntry: Spiked Pallisade Tile
+	}
+
+	SpikedPallisadeFlippedTile: {
+		MapEntry: Spiked Pallisade Flipped Tile
+	}
+
+	GoldBellTile: {
+		MapEntry: Gold Bell Tile
+	}
+
+	ClockTile: {
+		MapEntry: Clock
+	}
+
+	GraveyardBellTile: {
+		MapEntry: Graveyard Bell Tile
+	}
+
+	HorseStableTile: {
+		MapEntry: Horse Stable
+	}
+
+	Tile: {
+		CulvertDecorationTile: カルバートの装飾
+	}
+
+	CulvertDecorationTile: {
+		$parentVal: カルバートの装飾
+		MapEntry: カルバートの装飾 Tile
+	}
+
+	HorseStableExtendedTile: {
+		MapEntry: Horse Stable Extended Tile
+	}
 }
 
 Items: {
-    DrawbridgeItem: {
-        DisplayName: 跳ね橋
-        Tooltip: ""
-    }
-	
+	DrawbridgeItem: {
+		DisplayName: 跳ね橋
+		Tooltip: ""
+	}
+
 	WheelItem: {
 		DisplayName: 車輪
 		Tooltip: ""
@@ -50,6 +87,51 @@ Items: {
 	PortcullisItem: {
 		DisplayName: 落とし格子
 		Tooltip: ""
+	}
+
+	SpikedPallisadeItem: {
+		DisplayName: 尖った柵
+		Tooltip: 設置後に右クリックして作動
+	}
+
+	GoldBellItem: {
+		DisplayName: 黄金の鐘
+		Tooltip: 塔時計とワイヤーで接続可能
+	}
+
+	ClockItem: {
+		DisplayName: 塔時計
+		Tooltip: 鐘とワイヤーで接続可能
+	}
+
+	GraveyardBellItem: {
+		DisplayName: 墓地の鐘
+		Tooltip: 塔時計とワイヤーで接続可能
+	}
+
+	HorseStableItem: {
+		DisplayName: 馬小屋の門
+		Tooltip: シングルプレイで1頭の馬を収納可能。マルチプレイでは装飾用
+	}
+
+	BlackCulvertWallItem: {
+		DisplayName: 黒いカルバートの壁
+		Tooltip: ""
+	}
+
+	Item: {
+		CulvertDecorationTileItem: カルバートの装飾
+	}
+
+	CulvertDecorationTileItem: {
+		$parentVal: カルバートの装飾
+		DisplayName: カルバート
+		Tooltip: ""
+	}
+
+	HorseStableExtendedItem: {
+		DisplayName: 馬小屋の門(拡張)
+		Tooltip: シングルプレイで最大4頭の馬を収納可能。マルチプレイでは装飾用
 	}
 }
 
@@ -64,6 +146,119 @@ Projectiles: {
 
 	PortcullisAnimation: {
 		DisplayName: Portcullis Animation
+	}
+
+	GoldBellClapper: {
+		DisplayName: Gold Bell Clapper
+	}
+
+	GoldBellAnimation: {
+		DisplayName: Gold Bell Animation
+	}
+
+	ClockHand: {
+		DisplayName: Clock Hand
+	}
+
+	GraveyardBellClapper: {
+		DisplayName: Graveyard Bell Clapper
+	}
+
+	GraveyardBellAnimation: {
+		DisplayName: Graveyard Bell Animation
+	}
+
+	FriendlyBatProjectile: {
+		DisplayName: Friendly Bat Projectile
+	}
+
+	FriendlyFairyProjectile: {
+		DisplayName: Friendly Fairy Projectile
+	}
+
+	StableUnicornMount: {
+		DisplayName: Stable Unicorn Mount
+	}
+
+	PoopVisualProjectile: {
+		DisplayName: Poop Visual Projectile
+	}
+}
+
+DeathReason: {
+	SpikedPallisade: 尖った柵に貫かれた！
+}
+
+Configs: {
+	DrawbridgeConfig: {
+		DisplayName: Drawbridge 設定
+
+		DisableEasterEgg: {
+			Label: イースターエッグを無効化
+			Tooltip: ""
+		}
+
+		MuteClockSound: {
+			Label: 時計音を消去
+			Tooltip: 有効にした際、時計が毎時の音を鳴らさなくなります
+		}
+
+		MuteStableNoises: {
+			Label: 馬小屋の音を消去
+			Tooltip: 有効にした際、馬小屋が音を鳴らさなくなります
+		}
+
+		DisableHorseStablePooping: {
+			Label: 馬小屋の排便を無効化
+			Tooltip: 有効にした際、馬小屋の馬がうんちをしなくなります
+		}
+	}
+}
+
+Buffs: {
+	GoldenResonance: {
+		DisplayName: 黄金の共鳴
+		Description: ライフ自然回復を増進し移動速度を上昇
+	}
+
+	SpiritVeil: {
+		DisplayName: 魂のヴェイル
+		Description: 夜間や墓地で防御力を高め、呪いと暗闇を無効化
+	}
+}
+
+Mods: {
+	Drawbridge: {
+		Tiles: {
+			ClockTile: Mods.Drawbridge.Mods.Drawbridge.Tiles.ClockTile
+		}
+
+		HorseStableTile: {
+			DisplayName: 馬小屋
+		}
+
+		HorseStableItem: {
+			DisplayName: 馬小屋
+			Tooltip: 馬のための居心地の良い小屋。装飾専用
+		}
+	}
+}
+
+Wall: {
+	BlackCulvertWall: 黒いカルバート
+}
+
+Item: {
+	BlackCulvertWallItem: 黒いカルバートの壁
+}
+
+Walls: {
+	BlackCulvertWall: {
+		MapEntry: 黒いカルバートの壁
+	}
+
+	CulvertDecorationTile: {
+		MapEntry: カルバートの装飾
 	}
 }
 
