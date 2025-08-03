@@ -1496,7 +1496,7 @@ Items: {
 		Tooltip:
 			'''
 			全てのグラップリングフックの引き寄せ速度が1.5倍、射出速度が2倍、巻き取り速度が3倍になる
-			グラップリング中は1度だけ被ダメージを10％軽減し、受けたダメージの50％を敵に反射する
+			グラップリング中は1度だけ被ダメージを10％軽減し、受けたダメージの50％を相手にも与える
 			このダメージ軽減はグラップリング後も1秒間継続する
 			「あなたを虜にすること間違いなし」
 			'''
@@ -1934,10 +1934,10 @@ Items: {
 		DisplayName: 亀のエンチャント
 		Tooltip:
 			'''
-			接触ダメージの100％を反射する
+			接触ダメージの100％を相手にも与える
 			地面にいて移動も攻撃もしていない時、甲羅に隠れる
 			甲羅に入っている間、ダメージ軽減率が90％になる
-			さらに飛び道具を防ぎ、反射ダメージが10倍になる
+			さらに飛び道具を防ぎ、相手に与える接触ダメージへの反撃が10倍になる
 			甲羅は少なくとも1秒持続し、最大で20回まで攻撃を防ぐ
 			攻撃時、周囲に針をまき散らし、倒した敵は爆発して針をまき散らす
 			エタニティモードによるサボテンのダメージを無効化（インベントリと外見スロットでも有効）
@@ -1969,7 +1969,7 @@ Items: {
 			[i:FargowiltasSouls/BeetleEnchant] アンブロシア適用中、ダメージと近接攻撃速度+30％、ダメージ軽減率+20％、ライフ自然回復+2.5/秒
 			[i:FargowiltasSouls/BeetleEnchant] アンブロシア適用中、召喚ダメージはクリティカルが可能となる
 			[i:FargowiltasSouls/SpiderEnchant] クリティカル率+25％
-			[i:FargowiltasSouls/TurtleEnchant] 接触ダメージの500％を反射する
+			[i:FargowiltasSouls/TurtleEnchant] 接触ダメージの500％を相手に与える
 			[i:FargowiltasSouls/BeeEnchant] 蜂の巣パックの効果を得る
 			「あなたの意志に逆らう生き物は珍しい」
 			'''
@@ -2393,7 +2393,7 @@ Items: {
 			[i:FargowiltasSouls/NatureForce] オーラ内の敵はライフ吸収効果と攻撃時にダメージ増加、付近の敵にクリスタルリングのレーザーで攻撃  
 			[i:FargowiltasSouls/NatureForce] キノコ使用時にキノコパワー獲得、攻撃に複数のデバフを付与、遠距離攻撃を防ぐ雨傘を召喚  
 			[i:FargowiltasSouls/LifeForce] 飛行中に花を残し、開花した鼻に触れるとアンブロシア等の強化を獲得 
-			[i:FargowiltasSouls/LifeForce] 接触ダメージ反射、蜂の巣パックの効果を獲得  
+			[i:FargowiltasSouls/LifeForce] 接触ダメージを相手にも与え、蜂の巣パックの効果を獲得  
 			[i:FargowiltasSouls/SpiritForce] スキルで精霊の竜巻を召喚可能、回復ポーションの効果を持続型に変更、鞭を強化 
 			[i:FargowiltasSouls/SpiritForce] HPが0になると300で復活し同時にデバフを解除  
 			[i:FargowiltasSouls/ShadowForce] ダッシュ能力獲得、4秒ごとに無敵のシャドウダッシュが可能、速度に応じて飛び道具の性能が強化  
@@ -2729,7 +2729,7 @@ Items: {
 			'''
 			鈍重に対する免疫を付与する
 			ダッシュ時の速度が30％増加する
-			ダッシュ中はダメージを15％軽減し、接触ダメージを100％反射する
+			ダッシュ中はダメージを15％軽減し、接触ダメージを受けた時にそのダメージを相手にも与える
 			2本のスケルトロンの腕を召喚する
 			「骨を成長させる謎の薬」
 			'''
@@ -2746,7 +2746,7 @@ Items: {
 			[i:FargowiltasSouls/AgitatingLens] スキルを発動することでバーサーカー状態になる
 			[i:FargowiltasSouls/QueenStinger] 蜂蜜バフでアーマー貫通力を5増加させ、蜂が友好的になる
 			[i:FargowiltasSouls/QueenStinger] スキルを発動することで短距離のビーダッシュを行う
-			[i:FargowiltasSouls/NecromanticBrew] ダッシュ速度を大幅に増加させ、ダッシュ中に受ける接触ダメージを減少し接触ダメージを反射する
+			[i:FargowiltasSouls/NecromanticBrew] ダッシュ速度を大幅に増加させ、ダッシュ中に受ける接触ダメージを減少し、接触ダメージを相手にも与える
 			[i:FargowiltasSouls/NecromanticBrew] 2本のスケルトロンの腕を召喚する
 			「至高の力は必ずしも保証されるわけではない」
 			'''
@@ -3364,7 +3364,7 @@ Items: {
 			[i:FargowiltasSouls/Deerclawps] [i:FargowiltasSouls/LihzahrdTreasureBox] スキルで高速落下し、爆発と血の棘を生成
 			[i:FargowiltasSouls/PrecisionSeal] ヒットボックス縮小、[i:FargowiltasSouls/NecromanticBrew] ダッシュ距離増加、[i:FargowiltasSouls/PungentEyeball] カーソルの近くの敵に最大1.15倍のダメージ
 			[i:FargowiltasSouls/SecurityWallet] リフォージ割引、[i:FargowiltasSouls/OrdinaryCarrot] 夜間の視界改善、[i:FargowiltasSouls/NymphsPerfume] 復活時ライフ全快、[i:FargowiltasSouls/SandsofTime] 復活時間短縮、[i:FargowiltasSouls/ConcentratedRainbowMatter] ライフポーションと[i:FargowiltasSouls/MysticSkull] マナポーションの自動使用
-			[i:FargowiltasSouls/SqueakyToy] ダメージを受けた際、5％の確率で1ダメージ可、[i:FargowiltasSouls/NecromanticBrew] ダッシュ中はダメージ反射
+			[i:FargowiltasSouls/SqueakyToy] ダメージを受けた際、5％の確率で1ダメージ可、[i:FargowiltasSouls/NecromanticBrew] ダッシュ中のダメージを相手にも与える
 			[i:FargowiltasSouls/NymphsPerfume] 攻撃時にハートを生成
 			[i:FargowiltasSouls/SupremeDeathbringerFairy] [i:FargowiltasSouls/BionomicClusterInactive] [i:FargowiltasSouls/DubiousCircuitry] [i:FargowiltasSouls/PureHeart] [i:FargowiltasSouls/LumpOfFlesh] [i:FargowiltasSouls/ChaliceoftheMoon] [i:FargowiltasSouls/HeartoftheMasochist] [i:FargowiltasSouls/SinisterIcon]ほぼ全てのデバフへの免疫を付与
 			[c/BC5252:全てのアクセサリーの召喚効果を無効にし、無効になった数と未使用のミニオンスロット1つごとにダメージ+1％増加（切替可能）] 
@@ -6907,7 +6907,7 @@ Toggler: {
 	AgitatingLensEffect: ダッシュ時に鎌攻撃
 	AgitatingLensInstall: バーサーカーインストール有効
 	SkeleMinionEffect: スケルトロンの腕召喚
-	NecroBrewSpin: ダッシュ速度上昇/接触軽減/反射
+	NecroBrewSpin: ダッシュ速度上昇/接触軽減/ダメージ返し
 	BionomicHeader: "{$Mods.FargowiltasSouls.Items.BionomicCluster.DisplayName}"
 	TimsConcoctionEffect: ティムの調合薬
 	MasoCarrotEffect: ニンジンズーム
@@ -7143,7 +7143,7 @@ WizardEffect: {
 	//神樹
 	Wood: 図鑑とバナーの登録速度が5倍に増加
 	BorealWood: 雪玉の発射頻度と数が増加
-	RichMahogany: フックの引き寄せ速度が2.5倍、ダメージ軽減と反射の倍率が大幅増加
+	RichMahogany: フックの引き寄せ速度が2.5倍、ダメージ軽減とダメージ返しの倍率が大幅増加
 	Ebonwood: オーラの範囲が増加、ダメージとダメージ軽減の上限がそれぞれ10と10％に増加
 	Shadewood: オーラの範囲と血のダメージが増加、さらに霊液を付与
 	PalmWood: 攻撃速度、ダメージ、サイズが増加
