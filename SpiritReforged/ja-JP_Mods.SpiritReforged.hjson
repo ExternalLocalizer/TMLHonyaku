@@ -22,10 +22,12 @@ Tiles: {
         UpsideDown: 『製造ミス』
         Worm: 破壊するとさまざまなワームが飛び散ります。
         Platter: すぐ食べられる熱々の食事。誰がこんなものを置いていったんだ？
+		WickerBasket: 君のためだけのピクニック！
         Aether: さまざまな役立つ、キラキラしたアップグレードを提供します。
         Stuffed: こんな場所で商人が見つかるとは奇妙だ。邪魔してと言わんばかりだ。
         Scrying: 破壊するとマップの広い範囲を明らかにします。
         Biome: 一般的な壺よりも多様な戦利品を含んでいます。
+		Boulder: 刺激を受けると地面を転がります。
     }
 	
 	SunkenTreasureTile: {
@@ -98,9 +100,18 @@ Tiles: {
 	Starflower: {
 		MapEntry: Starflower
 	}
+
+	BonsaiTrees: {
+		MapEntry: Bonsai
+	}
 }
 
 SetBonuses: {
+	Granite:
+		'''
+		{0}を二回入力して踏みつけ、
+		地面にぶつかった際、高さに応じて衝撃波が発生する
+		'''
 
 	Wayfarer:
 		'''
@@ -135,14 +146,6 @@ SetBonuses: {
 }
 
 Projectiles: {
-	BigCannonBomb: {
-		DisplayName: Bomb Cannon Shot
-	}
-
-	CannonBomb: {
-		DisplayName: Bomb Cannon Shot
-	}
-	
 	HydrothermalVentPlume: {
 		DisplayName: Smoke Plume
 	}
@@ -211,7 +214,7 @@ Projectiles: {
 		DisplayName: Sun Staff
 	}
 
-	WheatgrassSeedProjectile: {
+	WheatgrassSeed: {
 		DisplayName: Wheatgrass Seed
 	}
 
@@ -287,8 +290,56 @@ Projectiles: {
 		DisplayName: Firespike
 	}
 
-	BombCannonShot: {
+	CannonBomb: {
 		DisplayName: Bomb Cannon Shot
+	}
+
+	BigCannonBomb: {
+		DisplayName: Bomb Cannon Shot
+	}
+
+	DrypowderSpray: {
+		DisplayName: Drypowder
+	}
+
+	JinxArrow: {
+		DisplayName: Jinx Arrow
+	}
+
+	JinxBowMinion: {
+		DisplayName: Jinx Bow Minion
+	}
+
+	RumExplosion: {
+		DisplayName: Explosive Rum
+	}
+
+	RumFire: {
+		DisplayName: Explosive Rum
+	}
+
+	FlarepowderDust: {
+		DisplayName: Flarepowder
+	}
+
+	VexpowderBlueDust: {
+		DisplayName: Vexpowder
+	}
+
+	VexpowderRedDust: {
+		DisplayName: Vexpowder
+	}
+
+	EnergyImpact: {
+		DisplayName: Energy Stomp
+	}
+
+	EnergyPlunge: {
+		DisplayName: Energy Stomp
+	}
+
+	FingerShot: {
+		DisplayName: Finger Shot
 	}
 }
 
@@ -365,7 +416,7 @@ NPCs: {
 		}
 
         Entry: 信じられないかもしれませんが、このスライムは陶芸の分野で世界的に有名です。あなたは今、今を生きる巨匠の前にいるのです！
-        Census.SpawnCondition: 条件不明
+        Census.SpawnCondition: 洞窟内で珍しい壺[i:SpiritReforged/BiomePotsCavernItem]を破壊する
     }
 
     StompableGnome.DisplayName: 踏み潰しノーム
@@ -474,7 +525,6 @@ NPCs: {
 
 	Cartographer: {
 		Entry: 情熱的な探検心と極端な不器用さが妙に混ざったようなこの地図製作者は、ほとんど誰も探検していない場所へと足を踏み入れる。だが、ときには斬新さよりも安全を優先する。
-
 
 		Dialogue: {
 			Map: {
@@ -721,7 +771,73 @@ NPCs: {
 		Entry: この不思議な生き物はヒトデと近しい生態のようだ。いつも海の底に沈むものを食べている。
 		DisplayName: ウミシダ
 	}
+
+MossSlime: {
+    DisplayName: 苔スライム
+    Entry: 何らかの理由で苔に覆われた好奇心旺盛なスライム達。多くの種類が存在するが、なぜか光る苔のものだけの様...。無料の光源になるかも？
 }
+
+	KryptonMossSlime.DisplayName: クリプトン苔スライム
+	LavaMossSlime.DisplayName: 溶岩苔スライム
+	NeonMossSlime.DisplayName: ネオン苔スライム
+	XenonMossSlime.DisplayName: キセノン苔スライム
+	ArgonMossSlime.DisplayName: アルゴン苔スライム
+	HeliumMossSlime.DisplayName: ヘリウム苔スライム
+	OganessonMossSlime.DisplayName: オガネソン苔スライム
+	RadonMossSlime.DisplayName: ラドン苔スライム
+
+	VanillaDialogue: {
+		Guide: {
+			WorldNPC: 世界を旅していると、他の探検者に出会うことがあるかもしれない。もし出会ったら、互いに助け合ってもいいかも！
+			Ecotone: 適切な気候下では、砂漠とジャングルの間には広大なサバンナが広がっている聞いてたから、訪れる事が出来てとても嬉しいよ！
+			Savanna: ここの動物の革を使えば、きっとかっこいい装備が作れるだろうね。
+			Kelp: 海藻は食べないでね。
+		}
+
+		ArmsDealer: {
+			Savanna1: この一帯は大型動物がうろついてる、きっとお前でも簡単に当てられるぜ！
+			Placeholder: プレースホルダー
+		}
+
+		Stylist: {
+			Savanna1: この気候で髪型を維持するの、すごく大変だわ....
+			Duststorm1: もしもう一人髪の毛から砂を払えなんて言ってきたら、ホントに...
+		}
+
+		TravellingMerchant: {
+			Cartographer1: 旅の途中、よく迷子の地図製作者に出会うよ。ほんと、あいつにはいつもハラハラさせられるよ！
+			Cartographer2: おっと、{0}だ！先月、あいつが私に道を教えてくれたけど、すぐに溝に落ちてしまうのさ。
+			Discoveries: 旅の途中で、たまに珍しいアイテムに遭遇することがある。気をつけて探せば、君も見つけられるかもしれないよ。
+		}
+
+		Demolitionist: {
+			HasBoomshroom: 君、なに？もっとデカい爆発を起こすキノコ持ってるの？自然って最高！
+			Placeholder: プレースホルダー
+		}
+
+		Nurse: {
+			Duststorm: 外の砂埃で怪我しないでね！そんなの私の給料じゃ対応しきれないよ。
+			Savanna: いいえ、私は獣医じゃない！その動物たちをここから出して。
+		}
+
+		PartyGirl: {
+			Duststorm: うーん、パーティー日和じゃないね。代わりにまったりパーティーでもする？
+			Savanna: この広大な空間はパーティーに最適！ねえ、昼間パーティーとかどう？
+		}
+
+		Golfer: {
+			Duststorm: この砂埃のせいで、いつもよりスコアが悪いんだ！
+			Savanna: ここは全部がハザードだ！ボールがいつも茂みや砂、木に引っかかるんだ！
+		}
+
+		Zoologist: {
+			Savanna1: うわっ、この場所、めっちゃ最高！ここにいる可愛い動物たち、絶対チェックして！
+			Savanna2: え、ハイエナに噛まれた？でも、めっちゃ可愛いのに！
+		}
+	}
+}
+
+
 
 MusicDisplay: {
 	DuststormOtherworld: {
@@ -1091,6 +1207,11 @@ Items: {
         DisplayName: ボウルダー
         Tooltip: チャージ攻撃で強力な岩石を放つ
     }
+
+	BoStaff: {
+		DisplayName: 棒の杖
+		Tooltip: 継続的にダメージを与えることでコンボが蓄積される
+	}
 
     Blasphemer: {
         DisplayName: ブラスフィーマー
@@ -2587,6 +2708,271 @@ Items: {
 			外す前に中を空にする必要がある
 			'''
 	}
+
+SavannaTorchItem: {
+        DisplayName: サバンナの松明
+        Tooltip: ""
+    }
+
+    FlaskBlue: {
+        DisplayName: 苔のフラスコ（青）
+        Tooltip: 衝撃時に苔を広げる
+    }
+
+    FlaskBrown: {
+        DisplayName: 苔のフラスコ（茶）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskBlue.Tooltip}"
+    }
+
+    FlaskGreen: {
+        DisplayName: 苔のフラスコ（緑）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskBlue.Tooltip}"
+    }
+
+    FlaskLava: {
+        DisplayName: 苔のフラスコ（溶岩）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskBlue.Tooltip}"
+    }
+
+    FlaskPurple: {
+        DisplayName: 苔のフラスコ（紫）
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskBlue.Tooltip}"
+    }
+
+    FlaskRed: {
+        DisplayName: 赤苔のフラスコ
+        Tooltip: "{$Mods.SpiritReforged.Items.FlaskBlue.Tooltip}"
+    }
+
+    TitleMusicBoxItem: {
+        DisplayName: オルゴール（Spirit タイトル）
+        Tooltip: ""
+    }
+
+    Drypowder: {
+        DisplayName: 乾燥粉
+        Tooltip: サバンナを広げる
+    }
+
+    ElephantKite: {
+        DisplayName: ゾウの凧
+        Tooltip: "{$CommonItemTooltip.Kite}"
+    }
+
+    CartographyTableItem: {
+        DisplayName: 地図作成テーブル
+        Tooltip:
+            '''
+            他のプレイヤーと地図を共有できる
+            操作して自分の発見を投稿しよう
+            '''
+    }
+
+    PurityBonsaiItem: {
+        DisplayName: 柳の盆栽
+        Tooltip: ""
+    }
+
+    RubyBonsaiItem: {
+        DisplayName: ルビーの盆栽
+        Tooltip: ""
+    }
+
+    SakuraBonsaiItem: {
+        DisplayName: 桜の盆栽
+        Tooltip: ""
+    }
+
+    WillowBonsaiItem: {
+        DisplayName: 黄色い柳の盆栽
+        Tooltip: ""
+    }
+
+    AmethystBonsaiItem: {
+        DisplayName: アメジストの盆栽
+        Tooltip: ""
+    }
+
+    DiamondBonsaiItem: {
+        DisplayName: ダイヤモンドの盆栽
+        Tooltip: ""
+    }
+
+    EmeraldBonsaiItem: {
+        DisplayName: エメラルドの盆栽
+        Tooltip: ""
+    }
+
+    SapphireBonsaiItem: {
+        DisplayName: サファイアの盆栽
+        Tooltip: ""
+    }
+
+    TopazBonsaiItem: {
+        DisplayName: トパーズの盆栽
+        Tooltip: ""
+    }
+
+    AmberBonsaiItem: {
+        DisplayName: コハクの盆栽
+        Tooltip: ""
+    }
+
+    JinxBow: {
+        DisplayName: ジンクスボウ
+        Tooltip:
+            '''
+            矢を消費せず敵に射撃し、まれにマークを付ける
+            マークされた敵を遠距離攻撃で攻撃すると強力な魔法の矢が放たれる
+            '''
+    }
+
+    ExplosiveRum: {
+        DisplayName: ラム酒爆弾
+        Tooltip: 「お、あった！」 
+    }
+
+    Flarepowder: {
+        DisplayName: 閃光粉
+        Tooltip: 漂う魔法の粉を広げる
+    }
+
+    VexpowderBlue: {
+        DisplayName: 惑乱粉
+        Tooltip:
+            '''
+            {$Mods.SpiritReforged.Items.Flarepowder.Tooltip}
+            攻撃した敵を混乱させる
+            '''
+    }
+
+    VexpowderRed: {
+        DisplayName: "{$Mods.SpiritReforged.Items.VexpowderBlue.DisplayName}"
+        Tooltip: "{$Mods.SpiritReforged.Items.VexpowderBlue.Tooltip}"
+    }
+
+    BreakawayChair: {
+        DisplayName: 壊れやすい椅子
+        Tooltip: 衝撃を受けると壊れる
+    }
+
+    AncientMarksmanHood: {
+        DisplayName: 古代の{$Mods.SpiritReforged.Items.LeatherHood.DisplayName}
+        Tooltip: "{$Mods.SpiritReforged.Items.LeatherHood.Tooltip}"
+    }
+
+    AncientMarksmanLegs: {
+        DisplayName: 古代の{$Mods.SpiritReforged.Items.LeatherLegs.DisplayName}
+        Tooltip: ""
+    }
+
+    AncientMarksmanPlate: {
+        DisplayName: 古代の{$Mods.SpiritReforged.Items.LeatherPlate.DisplayName}
+        Tooltip: ""
+    }
+
+    RollingPotsItem: {
+        DisplayName: 転がる壺
+        Tooltip: ""
+    }
+
+    MossSlimeBannerItem.DisplayName: 苔スライムのバナー
+
+    InvisibleLure: {
+        DisplayName: 透明なルアー
+        Tooltip: "{$Mods.SpiritReforged.Items.FishLure.Tooltip}"
+    }
+
+    SharpshooterGlove: {
+        DisplayName: シャープシューターの手袋
+        Tooltip:
+            '''
+            遠距離での遠距離ダメージが増加する
+            この距離での連続攻撃はダメージが増加する
+            '''
+    }
+
+    BonsaiPot: {
+        DisplayName: 盆栽の鉢
+        Tooltip: 装飾用の盆栽を作るために使用する
+    }
+
+    WickerBasketsItem: {
+        DisplayName: 柳のバスケット
+        Tooltip: ""
+    }
+
+    EarthshakerBreastplate: {
+        DisplayName: アースシェイカーの胸当て
+        Tooltip: ""
+    }
+
+    EarthshakerChestpiece: {
+        DisplayName: アースシェイカーの胸部装甲
+        Tooltip: ""
+    }
+
+    EarthshakerHeadgear: {
+        DisplayName: アースシェイカーの頭装備
+        Tooltip: ""
+    }
+
+    EarthshakerTreads: {
+        DisplayName: アースシェイカーの足装備
+        Tooltip: ""
+    }
+
+    EarthshakerWarmask: {
+        DisplayName: アースシェイカーの戦装面
+        Tooltip: ""
+    }
+
+    GraniteBody: {
+        DisplayName: キネティックの胸当て
+        Tooltip: ジャンプの高さがわずかに増加する
+    }
+
+    GraniteHead: {
+        DisplayName: キネティックバイザー
+        Tooltip: "{$Mods.SpiritReforged.Items.GraniteBody.Tooltip}"
+    }
+
+    GraniteLegs: {
+        DisplayName: キネティックグリーブ
+        Tooltip: "{$Mods.SpiritReforged.Items.GraniteBody.Tooltip}"
+    }
+
+    FingerGun: {
+        DisplayName: フィンガーブラスター
+        Tooltip:
+            '''
+            敵の防御を一部無視する
+            マナが高いほど速く発射する
+            「ピューピュー！」
+            '''
+    }
+
+    FlaskOfFrost: {
+        DisplayName: フロストのフラスコ
+        Tooltip: 近接および鞭攻撃で敵を凍らせる
+    }
+
+    HardlightVisor: {
+        DisplayName: ハード・ライト・バイザー
+        Tooltip: ""
+        AltDisplayName: ハードライトバイザー
+        AltTooltip: 「ハードライトバイザーと混同しないでください」
+    }
+}
+
+Emotes: {
+	CartographerEmote: {
+		Command: cartographer
+	}
+
+	HikerEmote: {
+		Command: hikeremote
+	}
 }
 
 GameTips: {
@@ -2613,6 +2999,9 @@ Misc: {
     MenuButton: メニュー形式を使用
     GraveText: <wavy>文字は古く色あせており、何が書いてあるかよくわからない。
     NoStock: 在庫切れ
+	UnchangedMap: マップは変更されていません。
+	ShareMap: マップを共有しました。
+	ShareAndUpdateMap: マップを共有し、更新しました。
 
 	Pins: {
 		UseItem: 右クリックでこのピンをコレクションに追加
@@ -2752,6 +3141,16 @@ Configs: {
 }
 
 Buffs: {
+
+	JinxMark: {
+		DisplayName: ジンクスマーク
+		Description: Mods.SpiritReforged.Buffs.JinxMark.Description
+	}
+
+	FlaskOfFrost_Buff: {
+		DisplayName: 武器強化：凍結
+		Description: 近接および鞭攻撃で敵を凍らせる
+	}
 
     ExplorerMine: {
         DisplayName: 探検者の活力
