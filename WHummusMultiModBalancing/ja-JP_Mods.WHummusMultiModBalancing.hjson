@@ -1,0 +1,125 @@
+Buffs: {
+	BrokenOath: {
+		DisplayName: 破られた誓い
+		Description: 神聖ダメージが半減
+	}
+}
+
+Configs: {
+	WHummusConfigs: {
+		DisplayName: WHummus 設定
+
+		ThoriumBossesReworkedBossScalingMessage: {
+			Label: Thoriumボス再調整メッセージ
+			Tooltip: ワールド参加時にチャットへ警告メッセージを表示するかどうかを切り替える
+		}
+
+		RadiantMultiClassNerf: {
+			Label: 神聖サブクラス弱体化
+			Tooltip: 他のクラスでダメージを与えた後、10秒間神聖ダメージが減少する
+		}
+
+		MultiModShieldMerges: {
+			Label: 複数Mod間の盾効果統合
+			Tooltip: 盾系アクセサリーの効果を複数Mod間で統合する
+		}
+
+		AutoFlawlessFix: {
+			Tooltip: Calamity以外のMod由来のローグ武器にFlawlessのリフォージを自動で付与する
+			Label: Flawless自動リフォージ修正（デバッグ用）
+		}
+
+		MultiModToothMerges: {
+			Label: 複数Mod間のサメ歯アクセサリー統合
+			Tooltip: サメ歯ネックレス系アクセサリーを複数Mod間で統合する
+		}
+
+		MultiModFlowerMerges: {
+			Label: 複数Mod間の花系アクセサリー統合
+			Tooltip: マナフラワー系アクセサリーを複数Mod間で統合する
+		}
+
+		ThrowerRogueMerge: {
+			Label: 投擲とローグのクラス統合
+			Tooltip: 投擲とローグクラスを完全に1つに統合し、リフォージとステルスダメージ蓄積を修正する
+		}
+
+		MultiModRogueMerges: {
+			Tooltip: ローグ系アクセサリーを複数Mod間で統合する
+			Label: 複数Mod間のローグアクセサリー統合
+		}
+
+		MultiModSummonerMerges: {
+			Tooltip: 召喚士系アクセサリーを複数Mod間で統合する
+			Label: 複数Mod間の召喚士アクセサリー統合
+		}
+
+		MultiModTunerMerges: {
+			Tooltip: 吟遊詩人用チューナー関連アクセサリーを複数Mod間で統合する
+			Label: チューナーアクセサリー統合
+		}
+
+		MultiModHealerMerges: {
+			Tooltip: ヒーラー関連アクセサリーを複数Mod間で統合する
+			Label: ヒーラーアクセサリー統合
+		}
+
+		MultiModQuiverMerges: {
+			Tooltip: 矢筒関連アクセサリーを複数Mod間で統合する
+			Label: 矢筒アクセサリー統合
+		}
+
+		MultiModMeleeMerges: {
+			Tooltip: 近接用ガントレット関連アクセサリーを複数Mod間で統合する
+			Label: 近接アクセサリー統合
+		}
+	}
+}
+
+Config: {
+	ChatWarnings: チャット警告
+	MultiModMergeOptions: 複数Mod間のクラフト統合オプション
+	ClassChanges: クラス変更内容
+	DebugOptions: デバッグ用設定
+}
+
+DamageClasses: {
+	MergedThrowerRogue: {
+		DisplayName: ローグダメージ
+	}
+}
+
+Projectiles: {
+	RogueSpectreBlast: {
+		DisplayName: Rogue Spectre Blast
+	}
+
+	BountifulHarvestStinger: {
+		DisplayName: Bountiful Harvest Stinger
+	}
+
+	PlayerBrimstoneFireblast: {
+		DisplayName: Player Brimstone Fireblast
+	}
+
+	PlayerBrimstoneBarrage: {
+		DisplayName: Player Brimstone Barrage
+	}
+
+	RadioMicPro: {
+		DisplayName: Radio Mic Pro
+	}
+
+	RadioMicShadowBurst: {
+		DisplayName: Radio Mic Shadow Burst
+	}
+
+	TidalWaveWhirlpool: {
+		DisplayName: Tidal Wave Whirlpool
+	}
+
+	FireAxeSS: {
+		DisplayName: Fire Axe S S
+	}
+}
+
