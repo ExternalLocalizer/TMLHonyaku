@@ -1,0 +1,1508 @@
+Buffs:{
+    AntiCollision:{
+        DisplayName: 不可触
+        Description: 「ﾌｯﾌｯｱﾀﾗﾝﾖ」
+    }
+
+    AntiDeath:{
+        DisplayName: 不可殺
+        Description: あなたが今死ぬことは許されない
+    }
+
+    AntiDebuff:{
+        DisplayName: 不可侵
+        Description: 誰もがデバフを嫌う
+    }
+
+    AntiImmunity:{
+        DisplayName: 無敵時間支配
+        Description: 対峙した者から希望を奪い取る。
+    }
+
+    DemoniteAmmoReservation:{
+        DisplayName: 邪悪な弾薬節約
+        Description: 30%で弾薬を消費しない
+    }
+
+    DemoniteArchery:{
+        DisplayName: 邪悪な弓使い
+        Description: 矢のダメージと速度が30%増加
+    }
+
+    DemoniteBattle:{
+        DisplayName: 邪悪な闘争
+        Description: 敵の出現率が3倍になる
+    }
+
+    DemoniteBuilder:{
+        DisplayName: 邪悪な建築
+        Description: 設置速度と範囲を拡大する
+    }
+
+    DemoniteCalming:{
+        DisplayName: 邪悪な平穏
+        Description: 敵の出現率が0.45倍になる
+    }
+
+    DemoniteEndurance:{
+        DisplayName: 邪悪な忍耐
+        Description: ダメージを15%軽減
+    }
+
+    DemoniteFishing:{
+        DisplayName: 邪悪な釣りパワー上昇
+        Description: 釣りパワーが23上昇
+    }
+
+    DemoniteHeartreach:{
+        DisplayName: 邪悪なハート回収
+        Description: ハートの回収範囲が24ブロック分増加する
+    }
+
+    DemoniteIronskin:{
+        DisplayName: 邪悪な鉄の肌
+        Description: 防御力を12増加
+    }
+
+    DemoniteLifeforce:{
+        DisplayName: 邪悪な生命強化
+        Description: 最大ライフが30%増加
+    }
+
+    DemoniteMagicPower:{
+        DisplayName: 邪悪な魔法強化
+        Description: 魔法ダメージが30%増加
+    }
+
+    DemoniteManaRegeneration:{
+        DisplayName: 邪悪なマナ自然回復増進
+        Description: マナの自然回復速度を増進
+    }
+
+    DemoniteMining:{
+        DisplayName: 邪悪な採掘
+        Description: 採掘速度が38%増加
+    }
+
+    DemoniteNightOwl:{
+        DisplayName: 邪悪なフクロウの目
+        Description: 夜間視力が4.5%向上
+    }
+
+    DemoniteRage:{
+        DisplayName: 邪悪な怒り
+        Description: クリティカル率が15%増加
+    }
+
+    DemoniteRegeneration:{
+        DisplayName: 邪悪なライフ自然回復増進
+        Description: ライフの自然回復速度を増進
+    }
+
+    DemoniteSharp:{
+        DisplayName: 邪悪な鋭利
+        Description: 防御力の貫通値を18増加
+    }
+
+    DemoniteShine:{
+        DisplayName: 邪悪な光源
+        Description: 光を発する
+    }
+
+    DemoniteSwiftness:{
+        DisplayName: 邪悪な俊足
+        Description: 移動速度が38%増加
+    }
+
+    DemoniteThorns:{
+        DisplayName: 邪悪なイバラ
+        Description: 攻撃者もダメージを受ける
+    }
+
+    DemoniteTitan:{
+        DisplayName: 邪悪なタイタン
+        Description: ノックバックが75%増加
+    }
+
+    DemoniteWrath:{
+        DisplayName: 邪悪な激怒
+        Description: ダメージが15%増加
+    }
+
+    HallowedAmmoReservation:{
+        DisplayName: 神聖な弾薬節約
+        Description: 40%で弾薬を消費しない
+    }
+
+    HallowedArchery:{
+        DisplayName: 神聖な弓使い
+        Description: 矢のダメージと速度が40%増加
+    }
+
+    HallowedBattle:{
+        DisplayName: 神聖な闘争
+        Description: 敵の出現率が4倍に増加
+    }
+
+    HallowedBuilder:{
+        DisplayName: 神聖な建築
+        Description: 設置速度と範囲の拡大
+    }
+
+    HallowedCalming:{
+        DisplayName: 神聖な平穏
+        Description: 敵の出現率が0.4倍になる
+    }
+
+    HallowedEndurance:{
+        DisplayName: 神聖な忍耐
+        Description: ダメージ20%軽減
+    }
+
+    HallowedFishing:{
+        DisplayName: 神聖な釣りパワー上昇
+        Description: 釣りパワーが30上昇
+    }
+
+    HallowedHeartreach:{
+        DisplayName: 神聖なハート回収
+        Description: ハートの回収範囲を32ブロック増加
+    }
+
+    HallowedIronskin:{
+        DisplayName: 神聖な鉄の肌
+        Description: 防御力を16増加
+    }
+
+    HallowedLifeforce:{
+        DisplayName: 神聖な生命強化
+        Description: 最大ライフが40%増加
+    }
+
+    HallowedMagicPower:{
+        DisplayName: 神聖な魔法強化
+        Description: 魔法ダメージが40%増加
+    }
+
+    HallowedManaRegeneration:{
+        DisplayName: 神聖なマナ自然回復増進
+        Description: マナの自然回復速度を増進
+    }
+
+    HallowedMining:{
+        DisplayName: 神聖な採掘
+        Description: 採掘速度が50%増加
+    }
+
+    HallowedNightOwl:{
+        DisplayName: 神聖なフクロウの目
+        Description: 夜間視力が6%向上
+    }
+
+    HallowedRage:{
+        DisplayName: 神聖な怒り
+        Description: クリティカル率が20%増加
+    }
+
+    HallowedRegeneration:{
+        DisplayName: 神聖なライフ自然回復増進
+        Description: ライフの自然回復速度を増進
+    }
+
+    HallowedSharp:{
+        DisplayName: 神聖な鋭利
+        Description: 防御力の貫通値を24増加
+    }
+
+    HallowedShine:{
+        DisplayName: 神聖な光源
+        Description: 光を発する
+    }
+
+    HallowedSummoning:{
+        DisplayName: 神聖な召喚
+        Description: ミニオンの最大数を2増加
+    }
+
+    HallowedSwiftness:{
+        DisplayName: 神聖な俊足
+        Description: 移動速度が50%増加
+    }
+
+    HallowedThorns:{
+        DisplayName: 神聖なイバラ
+        Description: 攻撃者もダメージを受ける
+    }
+
+    HallowedTitan:{
+        DisplayName: 神聖なタイタン
+        Description: ノックバックが100%増加
+    }
+
+    HallowedWrath:{
+        DisplayName: 神聖な激怒
+        Description: ダメージが20%増加
+    }
+
+    LuminiteAmmoReservation:{
+        DisplayName: 月影の弾薬節約
+        Description: 60%で弾薬を消費しない
+    }
+
+    LuminiteArchery:{
+        DisplayName: 月影の弓使い
+        Description: 矢のダメージと速度が60%増加
+    }
+
+    LuminiteBattle:{
+        DisplayName: 月影の闘争
+        Description: 敵の出現率が6倍に増加
+    }
+
+    LuminiteBuilder:{
+        DisplayName: 月影の建築
+        Description: 設置速度と範囲の拡大
+    }
+
+    LuminiteCalming:{
+        DisplayName: 月影の平穏
+        Description: 敵の出現率が0.1倍になる
+    }
+
+    LuminiteEndurance:{
+        DisplayName: 月影の忍耐
+        Description: ダメージを30%軽減
+    }
+
+    LuminiteFishing:{
+        DisplayName: 月影の釣りパワー上昇
+        Description: 釣りパワーが45増加
+    }
+
+    LuminiteHeartreach:{
+        DisplayName: 月影のハート回収
+        Description: ハートの回収範囲を48ブロック増加
+    }
+
+    LuminiteIronskin:{
+        DisplayName: 月影の鉄の肌
+        Description: 防御力を24増加
+    }
+
+    LuminiteLifeforce:{
+        DisplayName: 月影の生命強化
+        Description: 最大ライフが60%増加
+    }
+
+    LuminiteMagicPower:{
+        DisplayName: 月影の魔法強化
+        Description: 魔法ダメージが60%増加
+    }
+
+    LuminiteManaRegeneration:{
+        DisplayName: 月影のマナ自然回復増進
+        Description: マナの自然回復速度を増進
+    }
+
+    LuminiteMining:{
+        DisplayName: 月影の採掘
+        Description: 採掘速度が75%増加
+    }
+
+    LuminiteNightOwl:{
+        DisplayName: 月影のフクロウの目
+        Description: 夜間視力が9%向上
+    }
+
+    LuminiteRage:{
+        DisplayName: 月影の怒り
+        Description: クリティカル率が30%増加
+    }
+
+    LuminiteRegeneration:{
+        DisplayName: 月影のライフ自然回復増進
+        Description: ライフの自然回復速度を増進
+    }
+
+    LuminiteSharp:{
+        DisplayName: 月影の鋭利
+        Description: 防御力の貫通値を36増加
+    }
+
+    LuminiteShine:{
+        DisplayName: 月影の光源
+        Description: 光を発する
+    }
+
+    LuminiteSummoning:{
+        DisplayName: 月影の召喚
+        Description: ミニオンの最大数を3増加
+    }
+
+    LuminiteSwiftness:{
+        DisplayName: 月影の俊足
+        Description: 移動速度が75%増加
+    }
+
+    LuminiteThorns:{
+        DisplayName: 月影のイバラ
+        Description: 攻撃者もダメージを受ける
+    }
+
+    LuminiteTitan:{
+        DisplayName: 月影のタイタン
+        Description: ノックバックが150%増加
+    }
+
+    LuminiteWrath:{
+        DisplayName: 月影の激怒
+        Description: ダメージが30%増加
+    }
+
+    Sharp:{
+        DisplayName: 鋭利
+        Description: 防御力の貫通値を12増加
+    }
+
+    SpectreAmmoReservation:{
+        DisplayName: 精霊の弾薬節約
+        Description: 50%で弾薬を消費しない
+    }
+
+    SpectreArchery:{
+        DisplayName: 精霊の弓使い
+        Description: 矢のダメージと速度が50%増加
+    }
+
+    SpectreBattle:{
+        DisplayName: 精霊の闘争
+        Description: 敵の出現率が5倍に増加
+    }
+
+    SpectreBuilder:{
+        DisplayName: 精霊の建築
+        Description: 設置速度と範囲の拡大
+    }
+
+    SpectreCalming:{
+        DisplayName: 精霊の平穏
+        Description: 敵の出現率が0.25倍になる
+    }
+
+    SpectreEndurance:{
+        DisplayName: 精霊の忍耐
+        Description: ダメージ25%軽減
+    }
+
+    SpectreFishing:{
+        DisplayName: 精霊の釣りパワー上昇
+        Description: 釣りパワーが38増加
+    }
+
+    SpectreHeartreach:{
+        DisplayName: 精霊のハート回収
+        Description: ハートの回収範囲を40ブロック増加
+    }
+
+    SpectreIronskin:{
+        DisplayName: 精霊の鉄の肌
+        Description: 防御力を20増加
+    }
+
+    SpectreLifeforce:{
+        DisplayName: 精霊の生命強化
+        Description: 最大ライフが50%増加
+    }
+
+    SpectreMagicPower:{
+        DisplayName: 精霊の魔法強化
+        Description: 魔法ダメージが50%増加
+    }
+
+    SpectreManaRegeneration:{
+        DisplayName: 精霊のマナ自然回復増進
+        Description: 設置速度と範囲の拡大
+    }
+
+    SpectreMining:{
+        DisplayName: 精霊の採掘
+        Description: 採掘速度が63%増加
+    }
+
+    SpectreNightOwl:{
+        DisplayName: 精霊のフクロウの目
+        Description: 夜間視力が7.5%向上
+    }
+
+    SpectreRage:{
+        DisplayName: 精霊の怒り
+        Description: クリティカル率が25%増加
+    }
+
+    SpectreRegeneration:{
+        DisplayName: 精霊の再生
+        Description: 生命再生をもたらす
+    }
+
+    SpectreSharp:{
+        DisplayName: 精霊の鋭利
+        Description: 防御力の貫通値を30増加
+    }
+
+    SpectreShine:{
+        DisplayName: 精霊の光源
+        Description: 光を発する
+    }
+
+    SpectreSwiftness:{
+        DisplayName: 精霊の俊足
+        Description: 移動速度が63%増加
+    }
+
+    SpectreThorns:{
+        DisplayName: 精霊のイバラ
+        Description: 攻撃者もダメージを受ける
+    }
+
+    SpectreTitan:{
+        DisplayName: 精霊のタイタン
+        Description: ノックバックが125%増加
+    }
+
+    SpectreWrath:{
+        DisplayName: 精霊の激怒
+        Description: ダメージ25%増加
+    }
+
+    UltimateArchery:{
+        DisplayName: 究極の弓使い
+        Description: 矢のダメージと速度が20000%増加
+    }
+
+    UltimateBattle:{
+        DisplayName: 究極の闘争
+        Description: 敵の出現率が2000倍に増加
+    }
+
+    UltimateBuilder:{
+        DisplayName: 究極の建築
+        Description: あなたは最高の建築家です
+    }
+
+    UltimateCalming:{
+        DisplayName: 究極の平穏
+        Description: "敵の出現率が-300倍になる(30000%減少)"
+    }
+
+    UltimateEndurance:{
+        DisplayName: 究極の忍耐
+        Description: ダメージを99.99%軽減
+    }
+
+    UltimateFeatherfall:{
+        DisplayName: 究極の落下制御
+        Description: 下降速度を制御するには上または下を押します
+    }
+
+    UltimateFishing:{
+        DisplayName: 究極の釣りパワー上昇
+        Description: 釣りパワーが15000増加
+    }
+
+    UltimateHeartreach:{
+        DisplayName: 究極のハート回収
+        Description: ハートの回収範囲を16000ブロック増加
+    }
+
+    UltimateIronskin:{
+        DisplayName: 究極の鉄の肌
+        Description: 防御力を8000増加
+    }
+
+    UltimateLifeforce:{
+        DisplayName: 究極の生命強化
+        Description: 最大ライフが20000%増加
+    }
+
+    UltimateMagicPower:{
+        DisplayName: 究極の魔法強化
+        Description: 魔法ダメージが20000%増加
+    }
+
+    UltimateManaRegeneration:{
+        DisplayName: 究極のマナ自然回復増進
+        Description: 究極的にマナ回復を増加
+    }
+
+    UltimateMining:{
+        DisplayName: 究極の採掘
+        Description: ブロックはチーズのように柔らかい
+    }
+
+    UltimateNightOwl:{
+        DisplayName: 究極のフクロウの目
+        Description: 夜間視力が3000%向上
+    }
+
+    UltimateRage:{
+        DisplayName: 究極の怒り
+        Description: クリティカル率が10000%増加
+    }
+
+    UltimateRegeneration:{
+        DisplayName: 究極のライフ自然回復増進
+        Description: 不死身の再生力！
+    }
+
+    UltimateSharp:{
+        DisplayName: 究極の鋭利
+        Description: 装甲貫通力が12000増加
+    }
+
+    UltimateShine:{
+        DisplayName: 究極の光源
+        Description: 今、究極に輝いている！
+    }
+
+    UltimateSummoning:{
+        DisplayName: 究極の召喚
+        Description: ミニオンの最大数を1000に増加
+    }
+
+    UltimateSwiftness:{
+        DisplayName: 究極の俊足
+        Description: 移動速度が25000%増加
+    }
+
+    UltimateThorns:{
+        DisplayName: 究極のイバラ
+        Description: 攻撃者に究極のダメージを与える
+    }
+
+    UltimateTitan:{
+        DisplayName: 究極のタイタン
+        Description: ノックバックが50000%増加
+    }
+
+    UltimateWrath:{
+        DisplayName: 究極の激怒
+        Description: ダメージが10000%増加
+    }
+
+    OneHP:{
+        DisplayName: 1HP
+        Description: ノーヒットチャレンジ
+    }
+
+    UnlimitedItem:{
+        DisplayName: 無限のアイテム
+        Description: サウザンドエッジ！
+    }
+
+    UnlimitedItemSpeed:{
+        DisplayName: 無限のアイテム速度
+        Description: アイテム使用速度を最大まで増加
+    }
+
+    UnlimitedLife:{
+        DisplayName: 無限のライフ
+        Description: ライフを瞬時に回復
+    }
+
+    UnlimitedLifeforce:{
+        DisplayName: 無限の生命強化
+        Description: 永遠に尽きることがない
+    }
+
+    UnlimitedMana:{
+        DisplayName: 無限のマナ
+        Description: 無限の魔法
+    }
+
+    UnlimitedSharp:{
+        DisplayName: 無制限のシャープ
+        Description: 敵の防御を完全に無視する
+    }
+
+    ItemSpeed:{
+        DisplayName: アイテム速度
+        Description: アイテム使用速度が15%増加
+    }
+
+    UltimateItemSpeed:{
+        Description: アイテム使用速度が15000%増加
+        DisplayName: 究極のアイテム速度
+    }
+
+    UltimateCrate:{
+        Description: クレート入手確率が100%増加
+        DisplayName: 究極のクレート
+    }
+
+    UltimateAmmoReservation:{
+        Description: 弾薬を消費しなくなりました
+        DisplayName: 究極の弾薬節約
+    }
+
+    SpectreItemSpeed:{
+        Description: アイテム使用速度が37.5%増加
+        DisplayName: 精霊のアイテム速度
+    }
+
+    SpectreCrate:{
+        Description: クレート入手確率が37.5%増加
+        DisplayName: 精霊の箱
+    }
+
+    LuminiteItemSpeed:{
+        Description: アイテム使用速度が45%増加
+        DisplayName: 月影のアイテム速度
+    }
+
+    LuminiteCrate:{
+        Description: クレート入手確率が45%増加
+        DisplayName: 月影のクレート
+    }
+
+    HallowedItemSpeed:{
+        Description: アイテム使用速度が30%増加
+        DisplayName: 聖なるアイテム速度
+    }
+
+    HallowedCrate:{
+        Description: クレート入手確率が30%増加
+        DisplayName: 神聖な箱
+    }
+
+    DemoniteItemSpeed:{
+        Description: アイテム使用速度が22.5%増加
+        DisplayName: 邪悪なアイテム速度
+    }
+
+    DemoniteCrate:{
+        Description: クレート入手確率が22.5%増加
+        DisplayName: 邪悪な箱
+    }
+
+    AntiLuck:{
+        DisplayName: 不幸
+        Description: 気分は最悪だ
+    }
+
+    UltimateLuck:{
+        DisplayName: 究極の幸運
+        Description: あなたはこれ以上ない幸運に恵まれている！
+    }
+
+    UnlimitedLuck:{
+        DisplayName: 無限の幸運
+        Description: このゲームはスピードランできそうな気がする...
+    }
+}
+
+Items:{
+    AntiCollisionPotion:{
+        DisplayName: 不可触のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            攻撃を受けないようになる
+            '''
+    }
+
+    AntiDeathPotion:{
+        DisplayName: 不可殺のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            死なないようにする
+            '''
+    }
+
+    AntiDebuffPotion:{
+        DisplayName: 不可侵のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            すべてのデバフに対しての免疫を獲得
+            '''
+    }
+
+    AntiImmunityPotion:{
+        DisplayName: 無敵時間支配のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            敵の無敵時間を無視
+            発射物のみに有効
+            '''
+    }
+
+    AntiLifePotion:{
+        DisplayName: アンチライフポーション
+        Tooltip: 飲めば即座に死ぬ。
+        DeathMessage: "{0}の生命は消滅しました。"
+    }
+
+    AntiRainPotion:{
+        DisplayName: てるてるポーション
+        Tooltip:
+            '''
+            切り替え可能
+            雨が降らなくなる。
+            '''
+    }
+
+    DemoniteAmmoReservationPotion:{
+        DisplayName: 邪悪な弾薬節約ポーション
+        Tooltip: 30%で弾薬を消費しない
+    }
+
+    DemoniteArcheryPotion:{
+        DisplayName: 邪悪な弓使いのポーション
+        Tooltip: 矢の速度とダメージが30%増加する
+    }
+
+    DemoniteBattlePotion:{
+        DisplayName: 邪悪な闘争のポーション
+        Tooltip: 敵の出現率が3倍になる
+    }
+
+    DemoniteBuilderPotion:{
+        DisplayName: 邪悪な建築のポーション
+        Tooltip: 設置速度と範囲の拡大
+    }
+
+    DemoniteCalmingPotion:{
+        DisplayName: 邪悪な平穏のポーション
+        Tooltip: 敵の出現率が45%減少する
+    }
+
+    DemoniteEndurancePotion:{
+        DisplayName: 邪悪な耐久のポーション
+        Tooltip: 受けるダメージを15%軽減する
+    }
+
+    DemoniteFishingPotion:{
+        DisplayName: 邪悪な釣りのポーション
+        Tooltip: 釣りパワーが23増加する
+    }
+
+    DemoniteHeartreachPotion:{
+        DisplayName: 邪悪なハート回収ポーション
+        Tooltip: ハートの回収範囲が24ブロック増加する
+    }
+
+    DemoniteIronskinPotion:{
+        DisplayName: 邪悪な鉄壁のポーション
+        Tooltip: 防御力が12増加する
+    }
+
+    DemoniteLifeforcePotion:{
+        DisplayName: 邪悪な生命強化ポーション
+        Tooltip: 最大ライフが30%増加する
+    }
+
+    DemoniteMagicPowerPotion:{
+        DisplayName: 邪悪な魔法力ポーション
+        Tooltip: 魔法ダメージが30%増加する
+    }
+
+    DemoniteManaRegenerationPotion:{
+        DisplayName: 邪悪なマナ自然回復ポーション
+        Tooltip: マナ回復力が向上する
+    }
+
+    DemoniteMiningPotion:{
+        DisplayName: 邪悪な掘削のポーション
+        Tooltip: 採掘速度が38%向上する
+    }
+
+    DemoniteNightOwlPotion:{
+        DisplayName: 邪悪な夜目のポーション
+        Tooltip: 夜間視力が4.5%向上する
+    }
+
+    DemoniteRagePotion:{
+        DisplayName: 邪悪な怒りのポーション
+        Tooltip: クリティカル確率が15%増加する
+    }
+
+    DemoniteRegenerationPotion:{
+        DisplayName: 邪悪な自然回復ポーション
+        Tooltip: ライフ自然回復を増進する
+    }
+
+    DemoniteSharpPotion:{
+        DisplayName: 邪悪な鋭利のポーション
+        Tooltip: 装甲貫通力が18増加する
+    }
+
+    DemoniteShinePotion:{
+        DisplayName: 邪悪な輝きのポーション
+        Tooltip: 輝きを発する
+    }
+
+    DemoniteSwiftnessPotion:{
+        DisplayName: 邪悪な瞬足のポーション
+        Tooltip: 移動速度が38%増加
+    }
+
+    DemoniteThornsPotion:{
+        DisplayName: 邪悪なイバラのポーション
+        Tooltip: 攻撃者もダメージを受ける
+    }
+
+    DemoniteTitanPotion:{
+        DisplayName: 邪悪な巨人のポーション
+        Tooltip: ノックバックが75%増加する
+    }
+
+    DemoniteWrathPotion:{
+        DisplayName: 邪悪な激怒のポーション
+        Tooltip: ダメージが15%増加する
+    }
+
+    HallowedAmmoReservationPotion:{
+        DisplayName: 神聖な弾薬節約ポーション
+        Tooltip: 40%で弾薬を消費しない
+    }
+
+    HallowedArcheryPotion:{
+        DisplayName: 神聖な弓使いのポーション
+        Tooltip: 矢の速度とダメージが40%増加
+    }
+
+    HallowedBattlePotion:{
+        DisplayName: 神聖な闘争のポーション
+        Tooltip: 敵の出現率が4倍になる
+    }
+
+    HallowedBuilderPotion:{
+        DisplayName: 神聖な建築のポーション
+        Tooltip: 設置速度と範囲の拡大
+    }
+
+    HallowedCalmingPotion:{
+        DisplayName: 神聖な平穏のポーション
+        Tooltip: 敵の出現率が60%減少する
+    }
+
+    HallowedEndurancePotion:{
+        DisplayName: 神聖な耐久のポーション
+        Tooltip: 受けるダメージを20%軽減する
+    }
+
+    HallowedFishingPotion:{
+        DisplayName: 神聖な釣りのポーション
+        Tooltip: 釣りパワーが30増加する
+    }
+
+    HallowedHeartreachPotion:{
+        DisplayName: 神聖なハート回収ポーション
+        Tooltip: ライフハートの回収範囲が32ブロック増加する
+    }
+
+    HallowedIronskinPotion:{
+        DisplayName: 神聖な鉄壁のポーション
+        Tooltip: 防御力が16増加する
+    }
+
+    HallowedLifeforcePotion:{
+        DisplayName: 神聖な生命強化のポーション
+        Tooltip: 最大ライフが40%増加する
+    }
+
+    HallowedMagicPowerPotion:{
+        DisplayName: 神聖な魔法力のポーション
+        Tooltip: 魔法ダメージが40%増加する
+    }
+
+    HallowedManaRegenerationPotion:{
+        DisplayName: 神聖なマナ自然回復ポーション
+        Tooltip: マナ回復力が向上する
+    }
+
+    HallowedMiningPotion:{
+        DisplayName: 神聖な掘削のポーション
+        Tooltip: 採掘速度が50%向上する
+    }
+
+    HallowedNightOwlPotion:{
+        DisplayName: 神聖な夜目のポーション
+        Tooltip: 夜間視力が6%向上する
+    }
+
+    HallowedRagePotion:{
+        DisplayName: 神聖な怒りのポーション
+        Tooltip: クリティカル確率が20%増加する
+    }
+
+    HallowedRegenerationPotion:{
+        DisplayName: 神聖な自然回復ポーション
+        Tooltip: ライフ自然回復を増進する
+    }
+
+    HallowedSharpPotion:{
+        DisplayName: 神聖な鋭利のポーション
+        Tooltip: 装甲貫通力が24増加する
+    }
+
+    HallowedShinePotion:{
+        DisplayName: 神聖な輝きのポーション
+        Tooltip: 輝きを発する
+    }
+
+    HallowedSummoningPotion:{
+        DisplayName: 神聖な召喚のポーション
+        Tooltip: ミニオンの最大数が2増加する
+    }
+
+    HallowedSwiftnessPotion:{
+        DisplayName: 神聖な俊足のポーション
+        Tooltip: 移動速度が50%増加する
+    }
+
+    HallowedThornsPotion:{
+        DisplayName: 神聖なイバラのポーション
+        Tooltip: 攻撃者もダメージを受ける
+    }
+
+    HallowedTitanPotion:{
+        DisplayName: 神聖な巨人のポーション
+        Tooltip: ノックバックが100%増加する
+    }
+
+    HallowedWrathPotion:{
+        DisplayName: 神聖な激怒のポーション
+        Tooltip: ダメージが20%増加する
+    }
+
+    LuminiteAmmoReservationPotion:{
+        DisplayName: 月影の弾薬節約ポーション
+        Tooltip: 60%で弾薬を消費しない
+    }
+
+    LuminiteArcheryPotion:{
+        DisplayName: 月影の弓使いのポーション
+        Tooltip: 矢の速度とダメージが60%増加する
+    }
+
+    LuminiteBattlePotion:{
+        DisplayName: 月影の闘争のポーション
+        Tooltip: 敵の出現率が6倍になる
+    }
+
+    LuminiteBuilderPotion:{
+        DisplayName: 月影の建築のポーション
+        Tooltip: 設置速度と範囲の拡大
+    }
+
+    LuminiteCalmingPotion:{
+        DisplayName: 月影の平穏のポーション
+        Tooltip: 敵の出現率が90%減少する
+    }
+
+    LuminiteEndurancePotion:{
+        DisplayName: 月影の耐久のポーション
+        Tooltip: 受けるダメージを30%軽減する
+    }
+
+    LuminiteFishingPotion:{
+        DisplayName: 月影の釣りのポーション
+        Tooltip: 釣りパワーが45増加する
+    }
+
+    LuminiteHeartreachPotion:{
+        DisplayName: 月影のハート回収ポーション
+        Tooltip: ライフハートの回収範囲が48ブロック増加する
+    }
+
+    LuminiteIronskinPotion:{
+        DisplayName: 月影の鉄壁のポーション
+        Tooltip: 防御力が24増加する
+    }
+
+    LuminiteLifeforcePotion:{
+        DisplayName: 月影の生命強化ポーション
+        Tooltip: 最大ライフが60%増加する
+    }
+
+    LuminiteMagicPowerPotion:{
+        DisplayName: 月影の魔法力ポーション
+        Tooltip: 魔法ダメージが60%増加する
+    }
+
+    LuminiteManaRegenerationPotion:{
+        DisplayName: 月影のマナ自然回復ポーション
+        Tooltip: マナ回復速度が上昇
+    }
+
+    LuminiteMiningPotion:{
+        DisplayName: 月影の掘削のポーション
+        Tooltip: 採掘速度が75%向上する
+    }
+
+    LuminiteNightOwlPotion:{
+        DisplayName: 月影の夜目のポーション
+        Tooltip: 夜間視力が9%向上する
+    }
+
+    LuminiteRagePotion:{
+        DisplayName: 月影の怒りのポーション
+        Tooltip: クリティカル確率が30%増加する
+    }
+
+    LuminiteRegenerationPotion:{
+        DisplayName: 月影の自然回復ポーション
+        Tooltip: ライフ自然回復を増進する
+    }
+
+    LuminiteSharpPotion:{
+        DisplayName: 月影の鋭利のポーション
+        Tooltip: 装甲貫通力が36増加する
+    }
+
+    LuminiteShinePotion:{
+        DisplayName: 月影の輝きのポーション
+        Tooltip: 輝きを発する
+    }
+
+    LuminiteSummoningPotion:{
+        DisplayName: 月影の召喚のポーション
+        Tooltip: ミニオンの最大数を3増加する
+    }
+
+    LuminiteSwiftnessPotion:{
+        DisplayName: 月影の俊足のポーション
+        Tooltip: 移動速度が75%増加する
+    }
+
+    LuminiteThornsPotion:{
+        DisplayName: 月影のイバラのポーション
+        Tooltip: 攻撃者もダメージを受ける
+    }
+
+    LuminiteTitanPotion:{
+        DisplayName: 月影の巨人のポーション
+        Tooltip: ノックバックが150%増加する
+    }
+
+    LuminiteWrathPotion:{
+        DisplayName: 月影の激怒のポーション
+        Tooltip: ダメージが30%増加する
+    }
+
+    CozyFirePotion:{
+        DisplayName: 焚き火のポーション
+        Tooltip: ライフ回復がわずかに増加
+    }
+
+    HeartLampPotion:{
+        DisplayName: ハートランプポーション
+        Tooltip: ライフ回復力を高める
+    }
+
+    HoneyPotion:{
+        DisplayName: はちみつポーション
+        Tooltip: ライフ回復力を高める
+    }
+
+    SharpPotion:{
+        DisplayName: 鋭利のポーション
+        Tooltip: 装甲貫通力が12増加
+    }
+
+    StarinaPotion:{
+        DisplayName: 星のポーション
+        Tooltip: マナ回復力の向上
+    }
+
+    SpectreAmmoReservationPotion:{
+        DisplayName: 精霊の弾薬節約ポーション
+        Tooltip: 50%で弾薬を消費しない
+    }
+
+    SpectreArcheryPotion:{
+        DisplayName: 精霊の弓使いのポーション
+        Tooltip: 矢の速度とダメージが50%増加する
+    }
+
+    SpectreBattlePotion:{
+        DisplayName: 精霊の闘争のポーション
+        Tooltip: 敵の出現率が5倍になる
+    }
+
+    SpectreBuilderPotion:{
+        DisplayName: 精霊の建築のポーション
+        Tooltip: 設置速度と範囲の拡大
+    }
+
+    SpectreCalmingPotion:{
+        DisplayName: 精霊の平穏のポーション
+        Tooltip: 敵の出現率が75%減少する
+    }
+
+    SpectreEndurancePotion:{
+        DisplayName: 精霊の耐久ポーション
+        Tooltip: 受けるダメージを25%軽減
+    }
+
+    SpectreFishingPotion:{
+        DisplayName: 精霊の釣りのポーション
+        Tooltip: 釣りパワーが38増加する
+    }
+
+    SpectreHeartreachPotion:{
+        DisplayName: 精霊のハート回収ポーション
+        Tooltip: ハートの回収範囲が40ブロック増加する
+    }
+
+    SpectreIronskinPotion:{
+        DisplayName: 精霊の鉄壁のポーション
+        Tooltip: 防御力が20増加する
+    }
+
+    SpectreLifeforcePotion:{
+        DisplayName: 精霊の生命強化ポーション
+        Tooltip: 最大ライフが50%増加する
+    }
+
+    SpectreMagicPowerPotion:{
+        DisplayName: 精霊の魔法力ポーション
+        Tooltip: 魔法ダメージが50%増加する
+    }
+
+    SpectreManaRegenerationPotion:{
+        DisplayName: 精霊のマナ自然回復ポーション
+        Tooltip: マナ回復力が向上する
+    }
+
+    SpectreMiningPotion:{
+        DisplayName: 精霊の掘削のポーション
+        Tooltip: 採掘速度が63%向上する
+    }
+
+    SpectreNightOwlPotion:{
+        DisplayName: 精霊の夜目のポーション
+        Tooltip: 夜間視力が7.5%向上する
+    }
+
+    SpectreRagePotion:{
+        DisplayName: 精霊の怒りのポーション
+        Tooltip: クリティカル確率が25%増加する
+    }
+
+    SpectreRegenerationPotion:{
+        DisplayName: 精霊の自然回復ポーション
+        Tooltip: ライフ自然回復を増進する
+    }
+
+    SpectreSharpPotion:{
+        DisplayName: 精霊の鋭利のポーション
+        Tooltip: 装甲貫通力が30増加する
+    }
+
+    SpectreShinePotion:{
+        DisplayName: 精霊の輝きのポーション
+        Tooltip: 輝きを発する
+    }
+
+    SpectreSwiftnessPotion:{
+        DisplayName: 精霊の俊足のポーション
+        Tooltip: 移動速度が63%増加する
+    }
+
+    SpectreThornsPotion:{
+        DisplayName: 精霊のイバラのポーション
+        Tooltip: 攻撃者もダメージを受ける
+    }
+
+    SpectreTitanPotion:{
+        DisplayName: 精霊の巨人のポーション
+        Tooltip: ノックバックが125%増加する
+    }
+
+    SpectreWrathPotion:{
+        DisplayName: 精霊の激怒のポーション
+        Tooltip: ダメージが25%増加する
+    }
+
+    UltimateArcheryPotion:{
+        DisplayName: 究極の弓使いのポーション
+        Tooltip: 矢の速度とダメージが20000%増加する
+    }
+
+    UltimateBattlePotion:{
+        DisplayName: 究極の闘争のポーション
+        Tooltip: 敵の出現率が2000倍になる
+    }
+
+    UltimateBuilderPotion:{
+        DisplayName: 究極の建築のポーション
+        Tooltip: 究極の配置速度と範囲を手に入れる
+    }
+
+    UltimateCalmingPotion:{
+        DisplayName: 究極の平穏のポーション
+        Tooltip: 敵の出現率が30000%減少する
+    }
+
+    UltimateEndurancePotion:{
+        DisplayName: 究極の耐久のポーション
+        Tooltip: 受けるダメージを10000%軽減する
+    }
+
+    UltimateFeatherfallPotion:{
+        DisplayName: 究極の落下制御ポーション
+        Tooltip: 究極の遅さで落下する
+    }
+
+    UltimateFishingPotion:{
+        DisplayName: 究極の釣りポーション
+        Tooltip: 究極の釣りテクを見せてやろう
+    }
+
+    UltimateHeartreachPotion:{
+        DisplayName: 究極のハート回収ポーション
+        Tooltip: ハートの回収範囲を16000ブロック増加する
+    }
+
+    UltimateIronskinPotion:{
+        DisplayName: 究極の鉄壁のポーション
+        Tooltip: 防御力が8000増加する
+    }
+
+    UltimateLifeforcePotion:{
+        DisplayName: 究極の生命強化ポーション
+        Tooltip: 最大ライフが20000%増加
+    }
+
+    UltimateMagicPowerPotion:{
+        DisplayName: 究極の魔法力ポーション
+        Tooltip: 魔法ダメージが20000%増加する
+    }
+
+    UltimateManaRegenerationPotion:{
+        DisplayName: 究極のマナ自然回復ポーション
+        Tooltip: 極められたマナ自然回復を提供する
+    }
+
+    UltimateMiningPotion:{
+        DisplayName: 究極の掘削のポーション
+        Tooltip: 超人的な採掘速度を手に入れる
+    }
+
+    UltimateNightOwlPotion:{
+        DisplayName: 究極の夜目のポーション
+        Tooltip: 夜間視力が3000%向上する
+    }
+
+    UltimateRagePotion:{
+        DisplayName: 究極の怒りのポーション
+        Tooltip: クリティカル確率が10000%増加する
+    }
+
+    UltimateRegenerationPotion:{
+        DisplayName: 究極の自然回復ポーション
+        Tooltip: 究極のライフ再生を実現する
+    }
+
+    UltimateSharpPotion:{
+        DisplayName: 究極の鋭利のポーション
+        Tooltip: 装甲貫通力が12000増加する
+    }
+
+    UltimateShinePotion:{
+        DisplayName: 究極の輝きのポーション
+        Tooltip: ぐっと飲む。輝きを授ける！
+    }
+
+    UltimateSummoningPotion:{
+        DisplayName: 究極の召喚のポーション
+        Tooltip: ミニオンの最大数を制御不能なレベルで増やす
+    }
+
+    UltimateSwiftnessPotion:{
+        DisplayName: 究極の俊足のポーション
+        Tooltip: 移動速度が25000%増加する
+    }
+
+    UltimateThornsPotion:{
+        DisplayName: 究極のイバラのポーション
+        Tooltip: 攻撃者に究極の倍返しを与える
+    }
+
+    UltimateTitanPotion:{
+        DisplayName: 究極の巨人のポーション
+        Tooltip: ノックバックが50000%増加する
+    }
+
+    UltimateWrathPotion:{
+        DisplayName: 究極の激怒のポーション
+        Tooltip: ダメージが10000%増加する
+    }
+
+    OneHPPotion:{
+        DisplayName: HP1のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            プレイヤーの最大ライフを1にする
+            '''
+    }
+
+    UnlimitedItemPotion:{
+        DisplayName: 無限アイテムポーション
+        Tooltip:
+            '''
+            切り替え可能
+            アイテムを消費しなくなる
+            '''
+    }
+
+    UnlimitedItemSpeedPotion:{
+        DisplayName: 無限アイテムスピードポーション
+        Tooltip:
+            '''
+            切り替え可能
+            アイテムの使用速度が究極を超えるようになります。
+            '''
+    }
+
+    UnlimitedLifeforcePotion:{
+        DisplayName: 無限の生命強化ポーション
+        Tooltip:
+            '''
+            切り替え可能
+            最大ライフをテラリアが許容できる最大まで増加させる
+            '''
+    }
+
+    UnlimitedLifePotion:{
+        DisplayName: 無限のライフポーション
+        Tooltip:
+            '''
+            切り替え可能
+            ライフを失わなくなる
+            '''
+    }
+
+    UnlimitedManaPotion:{
+        DisplayName: 無限のマナポーション
+        Tooltip:
+            '''
+            切り替え可能
+            マナを失わなくなる
+            '''
+    }
+
+    UnlimitedSharpPotion:{
+        DisplayName: 無限の鋭利のポーション
+        Tooltip:
+            '''
+            切り替え可能
+            敵の防御を完全に無視する
+            '''
+    }
+
+    ItemSpeedPotion:{
+        DisplayName: アイテム速度のポーション
+        Tooltip: アイテム使用速度が15%上昇する
+    }
+
+    UltimateCratePotion:{
+        Tooltip: クレート入手確率が100%増加する
+        DisplayName: 究極の箱のポーション
+    }
+
+    UltimateAmmoReservationPotion:{
+        Tooltip: 弾薬を絶対に消費しなくなる
+        DisplayName: 究極の弾薬節約ポーション
+    }
+
+    SpectreCratePotion:{
+        Tooltip: クレート入手確率が38%増加する
+        DisplayName: 精霊の箱のポーション
+    }
+
+    LuminiteCratePotion:{
+        Tooltip: クレート入手確率が45%増加する
+        DisplayName: 月影の箱のポーション
+    }
+
+    HallowedCratePotion:{
+        Tooltip: クレート入手確率が30%増加する
+        DisplayName: 神聖な箱のポーション
+    }
+
+    DemoniteCratePotion:{
+        Tooltip: クレート入手確率が23%増加する
+        DisplayName: 邪悪な箱のポーション
+    }
+
+    DemoniteItemSpeedPotion:{
+        DisplayName: 邪悪なアイテム速度のポーション
+        Tooltip: アイテム使用速度が22.5%上昇する
+    }
+
+    HallowedItemSpeedPotion:{
+        DisplayName: 聖なるアイテム速度のポーション
+        Tooltip: アイテム使用速度が30%上昇する
+    }
+
+    LuminiteItemSpeedPotion:{
+        DisplayName: 月影のアイテム速度のポーション
+        Tooltip: アイテム使用速度が45%上昇する
+    }
+
+    SpectreItemSpeedPotion:{
+        DisplayName: 精霊のアイテム速度のポーション
+        Tooltip: アイテム使用速度が37.5%上昇する
+    }
+
+    UltimateItemSpeedPotion:{
+        DisplayName: 究極のアイテム速度のポーション
+        Tooltip: アイテム使用速度が15000%上昇する
+    }
+
+    AntiLuckPotion:{
+        DisplayName: 不幸のポーション
+        Tooltip: 使用者の幸運を最小まで減少させる
+    }
+
+    UltimateLuckPotion:{
+        DisplayName: 究極の幸運のポーション
+        Tooltip: 運を極限まで上昇させる
+    }
+
+    UnlimitedLuckPotion:{
+        DisplayName: 無限の幸運のポーション
+        Tooltip: 使用者の幸運をテラリアが許容できる最大まで増加させる
+    }
+}
+
+Configs:{
+    Config:{
+        DisplayName: 設定
+        UltimatePotion:{
+            Label: 究極のポーションを有効にする
+            Tooltip: これを無効にすると、究極まで強化されたポーションが使用不可になります。
+        }
+
+        OriginalPotion:{
+            Label: オリジナルポーションアイテムを有効にする
+            Tooltip: これを無効にすると、オリジナルポーション（焚き火、鋭利、アイテム速度、はちみつ...）が使用不可になります。
+        }
+
+        EnhancedPotion:{
+            Label: ポーションの強化を有効にする
+            Tooltip: これを無効にすると、邪悪なポーション、神聖なポーション、精霊のポーション、および月影のポーションが使用不可になります。
+        }
+
+        CheatPotion:{
+            Label: チートポーションを有効にする
+            Tooltip: これを無効にすると、アンチポーション（不可侵、不可触...）、無限ポーションが使用不可になります。
+        }
+    }
+}
