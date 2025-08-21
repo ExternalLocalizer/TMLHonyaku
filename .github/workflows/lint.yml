@@ -45,7 +45,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "Automatically sorted TranslatedMods.csv"
+          commit_message: "Sort TranslatedMods.csv automatically"
           file_pattern: TranslatedMods.csv
 
   csvlint:
