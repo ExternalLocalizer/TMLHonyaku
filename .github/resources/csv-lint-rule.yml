@@ -17,7 +17,7 @@ columns:
       not_empty: true
       is_trimmed: true
     aggregate_rules:
-      sorted: [ asc, numeric ]
+      sorted: [ asc, natural ]
 
   - name: internal_name
     required: true
