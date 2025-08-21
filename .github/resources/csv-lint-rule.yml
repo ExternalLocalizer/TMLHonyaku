@@ -37,8 +37,12 @@ columns:
       is_trimmed: true
       contains_none: [ 　 ]
 
-  - name: note
+  - name: internal_note
     required: true
     rules:
       is_trimmed: true
 
+  - name: display_note
+    required: true
+    rules:
+      is_trimmed: true
