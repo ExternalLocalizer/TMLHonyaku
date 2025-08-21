@@ -16,8 +16,6 @@ columns:
     rules:
       not_empty: true
       is_trimmed: true
-    aggregate_rules:
-      sorted: [ asc, natural ]
 
   - name: internal_name
     required: true
@@ -43,3 +41,4 @@ columns:
     required: true
     rules:
       is_trimmed: true
+
