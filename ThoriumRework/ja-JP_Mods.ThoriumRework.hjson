@@ -229,6 +229,11 @@ ItemDescriptions: {
 		ドリームイーターを一度でも倒したことがある場合、このアイテムを使用すると直接召喚することができる
 		さらに、このアイテムを使用したときにプライモーディアルズが生きていた場合、デスポーンする
 		'''
+	DoomSayersCoinNoLucidity:
+		'''
+		ドリームイーターを倒したことがある場合、このアイテムを右クリックして直接召喚できる
+		さらに、このアイテムを右クリックした時点でプライモーディアルが生存している場合、デスポーンする
+		'''
 }
 
 NPCRenames: {
@@ -241,6 +246,24 @@ NPCRenames: {
 	ForgottenOneCracked: 忘れられた者
 	ForgottenOneReleased: 潮の老神アビシオン
 	DreamEater: 滅びゆく現実、ラグナロク
+}
+
+Toggler: {
+	BandofCratons: Power Surge
+	BannerofWar: Rally Banner
+	QueenJellyPin: Regal Tentacles
+	SierraChimera: Sierra Chimera
+	StarScoutReticle: Blink Dash
+	ValkyrienSkyStone: Valkyrien Sky Stone
+	VampireCape: Bat Swarm Transformation
+	ZephyrWings: Zephyr Synergy
+}
+
+ActiveSkills: {
+	VampireCape: {
+		DisplayName: コウモリの大群
+		Tooltip: カーソルを追いかけるコウモリの群れに変身する
+	}
 }
 
 InfernumIntros: {
@@ -321,6 +344,14 @@ Projectiles: {
 		DisplayName: Abyssal Apparition
 	}
 
+	AbyssBubble: {
+		DisplayName: Toxic Bubble
+	}
+
+	AbyssBubble2: {
+		DisplayName: Toxic Bubble
+	}
+
 	AquaiusBubble: {
 		DisplayName: Bubble
 	}
@@ -331,6 +362,14 @@ Projectiles: {
 
 	AquaiusWhirlpool: {
 		DisplayName: Relentless Whirlpool
+	}
+
+	BannerofWar: {
+		DisplayName: Banner of War
+	}
+
+	BandofCratons: {
+		DisplayName: Band of Cratons
 	}
 
 	BeamSaber: {
@@ -347,6 +386,14 @@ Projectiles: {
 
 	BlackHole: {
 		DisplayName: Black Hole
+	}
+
+	BubbleBomb: {
+		DisplayName: Big Bubble Bomb
+	}
+
+	BubbleColumn: {
+		DisplayName: Bubble Column
 	}
 
 	ChampionBomber: {
@@ -473,6 +520,14 @@ Projectiles: {
 		DisplayName: Flash
 	}
 
+	Glacier: {
+		DisplayName: Glacier
+	}
+
+	Glacier2: {
+		DisplayName: Glacier
+	}
+
 	GrandThunder: {
 		DisplayName: Grand Thunder
 	}
@@ -483,6 +538,14 @@ Projectiles: {
 
 	GraniteCharge: {
 		DisplayName: Granite Charge
+	}
+
+	HeadHunter: {
+		DisplayName: Head Hunter
+	}
+
+	HeadHunterShard: {
+		DisplayName: Head Hunter
 	}
 
 	HighTide: {
@@ -503,6 +566,10 @@ Projectiles: {
 
 	HitScannerTelegraph: {
 		DisplayName: Hit Scanner
+	}
+
+	IceShard: {
+		DisplayName: Ice Shard
 	}
 
 	IllumiteBlade: {
@@ -535,6 +602,10 @@ Projectiles: {
 
 	JellyfishJam: {
 		DisplayName: Jamming Jellyfish
+	}
+
+	JellyfishShock: {
+		DisplayName: Jellyfish Shock
 	}
 
 	LichLantern: {
@@ -645,6 +716,10 @@ Projectiles: {
 		DisplayName: 音符
 	}
 
+	QueenJellyPin: {
+		DisplayName: Queen Jelly-Pin
+	}
+
 	SevenSeasDevastatorWhirlpool: {
 		DisplayName: Seven Seas' Devastator
 	}
@@ -667,6 +742,10 @@ Projectiles: {
 
 	SoulRender: {
 		DisplayName: Soul Render
+	}
+
+	SoulSteal: {
+		DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
 	}
 
 	StableRealityRift: {
@@ -721,6 +800,10 @@ Projectiles: {
 		DisplayName: Valadium Slicer
 	}
 
+	VampireCape: {
+		DisplayName: Vampire Bat
+	}
+
 	VaporizingFlames: {
 		DisplayName: Vaporizing Flames
 	}
@@ -763,6 +846,11 @@ Projectiles: {
 }
 
 Items: {
+	BannerofWarCosmetic: {
+		DisplayName: 戦争の旗
+		Tooltip: ""
+	}
+
 	BeholderBlade: {
 		DisplayName: コズニックスの意志
 		Tooltip:
@@ -866,24 +954,6 @@ Items: {
 		Tooltip: ヒーラーアーマーによる非神聖ダメージペナルティを無効化する
 	}
 
-	Oneirophobia: {
-		DisplayName: オネイロフォビア
-		Tooltip:
-			'''
-			様々な形に変化する幻影を作り出す
-			最初の2回の攻撃で、武器は剣に変形する
-			1回目は激しい衝撃波を、2回目は3つの衝撃波を発生させる
-			3回目の攻撃で、武器の刃を前方に放つ
-			その後、武器は鎌に変形する
-			4回目の攻撃では、武器が回転し、追尾するボルトを放つ
-			5回目の攻撃では、武器が魔法の杖に変化する
-			バウンドするエネルギーを放ち、しばらくすると爆発する
-			6回目の攻撃で、武器は自動照準付きのレーザー銃に変化する
-			収納時にはミニオンに変身し、敵を攻撃する
-			「悪夢の理不尽な恐怖の表れ」
-			'''
-	}
-
 	RedCresent: {
 		DisplayName: レッドクレセント
 		Tooltip:
@@ -900,6 +970,24 @@ Items: {
 	MagicalHarp: {
 		DisplayName: 魔法のハープ
 		Tooltip: ""
+	}
+
+	Oneirophobia: {
+		DisplayName: オネイロフォビア
+		Tooltip:
+			'''
+			様々な形に変化する幻影を作り出す
+			最初の2回の攻撃で、武器は剣に変形する
+			1回目は激しい衝撃波を、2回目は3つの衝撃波を発生させる
+			3回目の攻撃で、武器の刃を前方に放つ
+			その後、武器は鎌に変形する
+			4回目の攻撃では、武器が回転し、追尾するボルトを放つ
+			5回目の攻撃では、武器が魔法の杖に変化する
+			バウンドするエネルギーを放ち、しばらくすると爆発する
+			6回目の攻撃で、武器は自動照準付きのレーザー銃に変化する
+			収納時にはミニオンに変身し、敵を攻撃する
+			「悪夢の理不尽な恐怖の表れ」
+			'''
 	}
 
 	PickShapedPebble: {
@@ -958,9 +1046,96 @@ Items: {
 			'''
 	}
 
+	BandofCratons: {
+		DisplayName: 大地のバンド
+		Tooltip:
+			'''
+			溢れ出るエネルギーに対する耐性と、自身の攻撃に溢れ出るエネルギーを付与する
+			常時40シールドを付与
+			失ったシールド量に応じてプレイヤーのリソースを回復する
+			20以上のシールドを失うと電撃を発生させ、周囲の飛翔物を3つ破壊する
+			「大陸移動にも耐えられるほど頑丈」
+			'''
+	}
+
+	BandofCratonsCosmetic: {
+		DisplayName: 大地のバンド
+		Tooltip: '''「大陸移動にも耐えられるほど頑丈」'''
+	}
+
+	BannerofWar: {
+		DisplayName: 戦争の旗
+		Tooltip:
+			'''
+			戦闘中、ダメージと追加回復量が時間とともに徐々に上昇する
+			戦闘外ではこれらの効果は徐々に消失する
+			戦闘中、一定間隔で追加回復量分の味方を回復する癒しの波動を放つ
+			戦闘時間が長くなるほど波動の発生頻度が上昇する
+			吟遊詩人の強化範囲が波動の範囲に影響する
+			'''
+	}
+
+	HeadHunter: {
+		DisplayName: ヘッドハンター
+		Tooltip:
+			'''
+			鎌はカーソルに向かって攻撃し、通常攻撃を2回行うごとに回転攻撃する
+			この武器で魂のエッセンスを得るかクリティカルを出すと、追従する氷の欠片を生成する
+			長時間戦闘中の場合、小さい氷の欠片が生成される
+			氷の欠片1つにつき防御力+10される
+			<right>または武器切替で、全ての氷の欠片をカーソル付近の敵へ射出する
+			氷の欠片はヒット時に3倍ダメージ、小さい欠片は1倍のみ
+			最大4つまで保持可能
+			「コーヒーショップを経営しているという噂の悪魔の持ち物....」
+			'''
+	}
+
+	QueenJellyPin: {
+		DisplayName: 女王クラゲのヘアピン
+		Tooltip:
+			'''
+			バブル状態に対する免疫を得る
+			周囲に触手を召喚し敵に取りつく
+			触手のダメージは防御力に応じて上昇
+			触手の攻撃が命中するとライフとリソースの回復を促進
+			「髪留めに使おう」
+			'''
+	}
+
+	QueenJellyPinCosmetic: {
+		DisplayName: 女王クラゲのヘアピン
+		Tooltip: '''「髪留めに使おう」'''
+	}
+
+	StarScoutReticle: {
+		DisplayName: スペーススカウター
+		Tooltip:
+			'''
+			宇宙空間で呼吸できるようになり、暗視を得る
+			ダッシュで数ブロック先にテレポートする
+			特殊なダッシュを付与するアクセサリーとは併用できない
+			「暗闇が怖い？大丈夫、私がいる！」
+			'''
+	}
+
+	StarScoutReticleCosmetic: {
+		DisplayName: スペーススカウター
+		Tooltip: '''「暗闇が怖い？大丈夫、私がいる！」'''
+	}
+
 	StellarTune: {
 		DisplayName: ステラチューン
 		Tooltip: 「このコード、素晴らしい！」
+	}
+
+	VampireCape: {
+		DisplayName: 吸血コウモリのマント
+		Tooltip: 出血と吸血鬼の呪いの耐性を付与する
+	}
+
+	VampireCapeCosmetic: {
+		DisplayName: 吸血コウモリのマント
+		Tooltip: ""
 	}
 
 	ZephyrsRuin: {
@@ -969,6 +1144,15 @@ Items: {
 			'''
 			クリティカルで敵を打ちのめす
 			体力を消耗しない
+			'''
+	}
+
+	ZephyrWingsCosmetic: {
+		DisplayName: ゼファーの翼
+		Tooltip:
+			'''
+			飛行と緩やかな降下が可能になる
+			ひな鳥の翼と同等の性能
 			'''
 	}
 }
@@ -1019,22 +1203,27 @@ Buffs: {
 			「運命の到来」
 			'''
 	}
+
+	VampireCape: {
+		DisplayName: 吸血コウモリの群れ
+		Description: あなたは吸血コウモリの群れになった
+	}
 }
 
 Prefixes: {
 	Careless: {
-		DisplayName: Careless
-		Description: +2 life cost
+		DisplayName: だらしない
+		Description: ライフコスト+2
 	}
 
 	Risky: {
-		DisplayName: Risky
-		Description: +1 life cost
+		DisplayName: 危ない
+		Description: ライフコスト+1
 	}
 
 	Suicidal: {
-		DisplayName: Suicidal
-		Description: +3 life cost
+		DisplayName: 捨身の  
+		Description: ライフコスト+3
 	}
 }
 
@@ -1060,6 +1249,16 @@ Configs: {
 		bossRenames: {
 			Label: ボスの名前変更
 			Tooltip: このMODで追加されたボスの名前の変更を有効にする。
+		}
+
+		lichOutline: {
+			Label: "[i:ThoriumMod/LichMask]リッチのオーラ強度"
+			Tooltip:
+				'''
+				リッチの周囲の淡い赤色の光りの強度を調整する。
+				この設定はリワークされたリッチにのみ適用され、リワークされていないバージョンには影響しない
+				オリジナルのデザインとの視覚的な一致を保ちたい場合、またはボスが見えにくい場合にこの設定を使用すること。
+				'''
 		}
 	}
 
@@ -1100,7 +1299,7 @@ Configs: {
 			Tooltip:
 				'''
 				（オプション）
-                このModに含まれる、Thoriumのクラスに関連したバフポーションを追加します
+				このModに含まれる、Thoriumのクラスに関連したバフポーションを追加します
 				'''
 		}
 
@@ -1109,7 +1308,7 @@ Configs: {
 			Tooltip:
 				'''
 				（オプション）
-                このModに含まれる、Thoriumのクラスアイテムに関連したコンディションを追加します
+				 このModに含まれる、Thoriumのクラスアイテムに関連したコンディションを追加します
 				'''
 		}
 
@@ -1171,9 +1370,23 @@ Configs: {
 			Tooltip: トリウムボスをCalamity Modのボスラッシュでスポーンするようにする。
 		}
 
+		defenseDamage: {
+			Label: 防御ダメージ
+			Tooltip: Calamity Modが有効になっている場合、Thoriumのボス攻撃の一部が防御ダメージを与えるようになる。
+		}
+
 		eternityModeOnly: {
 			Label: エタニティモード限定
-            Tooltip: このModによる調整はエタニティモード時のみ適用されます
+			Tooltip: このModによる調整はエタニティモード時のみ適用されます。
+		}
+
+		infernumModeOnly: {
+			Label: Infernum modeのみ
+			Tooltip:
+				'''
+				ボス再調整が、Infernum modeが有効な場合のみ適用されるようになる。
+				Infernumがインストールされていない場合、この設定は機能しない。
+				'''
 		}
 	}
 
@@ -1215,6 +1428,11 @@ Configs: {
 			Tooltip: フォールンビホルダーのリワーク
 		}
 
+		strider: {
+			Label: "[i:ThoriumMod/BoreanStriderMask]Borean Strider"
+			Tooltip: Borean Strider rework
+		}
+
 		lich: {
 			Label: "[i:ThoriumMod/LichMask]Lich"
 			Tooltip: リッチのリワーク
@@ -1228,6 +1446,19 @@ Configs: {
 		rag: {
 			Label: "[i:ThoriumMod/TheOmegaCore]Ragnarök"
 			Tooltip: プライモーディアルとドリームイーターのリワーク
+		}
+
+		terminalLucidity: {
+			Label: "[i:ThoriumMod/TheOmegaCore]Terminal Lucidity Minimum Difficulty"
+			Tooltip:
+				'''
+				The lowest difficulty Terminal Lucidity can appear in
+				0 - Boss rush only
+				1 - Enabled for all
+				2 - Master or Revengeance
+				3 - Legendary, Death or Eternity
+				4 - GFB, Infernum, Masochist or Eternity-Death
+				'''
 		}
 	}
 }
