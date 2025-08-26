@@ -1,4 +1,46 @@
 Items: {
+	Material: {
+		AerialiteStand: {
+			DisplayName: 天空の守護石
+			Tooltip:
+				'''
+				希少なエアリアライト鉱から鍛造され、装備を強化する
+				[c/00CED1:「天空の力が宿り、未だ解き放たれぬ可能性が震える]
+				[c/87CEEB:　空の力を証明する遺物、真の戦士に選ばれるのを待つ」]
+				'''
+		}
+
+		AncientScroll: {
+			DisplayName: 禁呪の古書
+			Tooltip:
+				'''
+				かつてカラミタスが用いた禁呪が記された古代の巻物
+				[c/8B4513:「古のルーンが微かに脈打ち、忘れられた呪文を囁く]
+				[c/6B4226:　現実そのものを変えうる力を秘めた秘宝」]
+				'''
+		}
+
+		ColossalInk: {
+			DisplayName: 巨獣のインク入りの瓶
+			Tooltip:
+				'''
+				巨大イカから採取された、闇の力を秘めたインク
+				[c/2F4F4F:「悪臭は深海の恐怖を思わせ、忘れ去られた闇を漂わせる]
+				[c/4B0082:　深きものの精髄を宿し、解き放たれるのを待つ」]
+				'''
+		}
+
+		WizardEssence: {
+			DisplayName: 腐臭の精髄
+			Tooltip:
+				'''
+				魔力が込められている
+				[c/556B2F:「悪臭は強烈だが、その魔力はさらに強大]
+				[c/6B8E23:　古の呪術と腐敗が混じり、心臓の弱い者には向かない」]
+				'''
+		}
+	}
+
 	Other: {
 		CalamityMod: {
 			UnlimitedSkynamite: {
@@ -55,134 +97,202 @@ Items: {
 		}
 	}
 
-	Material: {
-		AerialiteStand: {
-			DisplayName: 天空の守護石
+	Placable: {
+		AncientScrollCrafter: {
+			DisplayName: カラミタスの魔導筆記台
 			Tooltip:
 				'''
-				希少なエアリアライト鉱から鍛造され、装備を強化する
-				[c/00CED1:「天空の力が宿り、未だ解き放たれぬ可能性が震える]
-				[c/87CEEB:　空の力を証明する遺物、真の戦士に選ばれるのを待つ」]
+				「カラミタスの手によって作られたこの装置は、 
+				　彼女の最強の呪文を丹念に書き記し、 
+				　その力を永遠に伝えるためのもの
+				　　　　
+				　伝説では、現実さえもねじ曲げた大魔女カラミタスが、 
+				　この装置を使って宇宙の力を宿す呪文を書き記したと言われる 
+				　巻物には微かに輝く神秘の文字が刻まれ、禁断の魔術の秘密が眠る
+				　　　　　
+				　古の遺物であるこの装置は、創造者の力と共鳴し、 
+				　彼女の魔道への尽きぬ探求を証明する 
+				　これを手にする者は、その神秘と伝説に惹かれ、 
+				　永遠にカラミタスの遺産と結ばれる」
 				'''
 		}
-
-		AncientScroll: {
-			DisplayName: 禁呪の古書
-			Tooltip:
-				'''
-				かつてカラミタスが用いた禁呪が記された古代の巻物
-				[c/8B4513:「古のルーンが微かに脈打ち、忘れられた呪文を囁く]
-				[c/6B4226:　現実そのものを変えうる力を秘めた秘宝」]
-				'''
-		}
-
-		ColossalInk: {
-			DisplayName: 巨獣のインク入りの瓶
-			Tooltip:
-				'''
-				巨大イカから採取された、闇の力を秘めたインク
-				[c/2F4F4F:「悪臭は深海の恐怖を思わせ、忘れ去られた闇を漂わせる]
-				[c/4B0082:　深きものの精髄を宿し、解き放たれるのを待つ」]
-				'''
-		}
-
-		WizardEssence: {
-			DisplayName: 腐臭の精髄
-			Tooltip:
-				'''
-				魔力が込められている
-				[c/556B2F:「悪臭は強烈だが、その魔力はさらに強大]
-				[c/6B8E23:　古の呪術と腐敗が混じり、心臓の弱い者には向かない」]
-				'''
-		}
-	}
-
-	Tools: {
-		UnlimitedExcavationDrillForm: {
-			DisplayName: 採掘ツールの力
-			Tooltip:
-				'''
-				[c/FFC300:-Excavation Force-]
-				[c/FFC300:右クリックで元に戻す]
-				[c/FFC300:「掘削者の夢の結晶」]
-				'''
-		}
-	}
-
-	BossSummon: {
-		OldDukeSummon: {
-			DisplayName: 深海の古き遺物
-			Tooltip:
-				'''
-				[c/00FF00:-Ancient Relic of the Deep-]
-				[c/00FF00:右クリックでボスを呼び出す]
-				[c/00FF00:「釣り竿はもういらない」]
-				'''
-		}
-
-		NuclearTerrorSummon: {
-			DisplayName: 破滅の核
-			Tooltip:
-				'''
-				[c/FF4500:右クリックでニュークリアテラーを召喚する]
-				[c/FF4500:「放射線に汚染された悪夢の遺物」]
-				'''
-		}
-
-		MaulerSummon: {
-			DisplayName: 海の捕食者のトーテム
-			Tooltip:
-				'''
-				[c/4682B4:右クリックでモーラーを召喚する]
-				[c/4682B4:「放射性嵐の中心から鍛造された」]
-				'''
-		}
-
-		CragmawMireSummon: {
-			DisplayName: 沼の巨獣の偶像
-			Tooltip:
-				'''
-				[c/2E8B57:右クリックでクラグモーを召喚する]
-				[c/2E8B57:「その目覚めに沼地は震える」]
-				'''
-		}
-	}
-
-	DrillStorm: {
-		DisplayName: ドリルの嵐
-		Tooltip:
-			'''
-			[c/ADD8E6:-Storm of Drills-]
-			[c/ADD8E6:無数のドリルの怒りを解き放つ]
-			[c/ADD8E6:「大地をいとも容易く引き裂く」]
-			'''
-	}
-
-	CityKeys: {
-		DisplayName: 都市の鍵
-		Tooltip:
-			'''
-			[c/FFA500:-Urban Keys-]
-			[c/FFA500:街の秘密を解き明かす]
-			[c/FFA500:「すべての隠し扉を開く鍵」]
-			'''
-	}
-
-	RogueScarf: {
-		DisplayName: 盗賊のマント
-		Tooltip:
-			'''
-			[c/800080:-Bandit’s Mantle-]
-			[c/800080:影に身を隠す]
-			[c/800080:「真のならず者の相棒」]
-			'''
 	}
 
 	Potion: {
-		"": {
-			DebugPower: {
-				Tooltip: ""
-				DisplayName: Debug Power
+		AlchemistNPCLite: {
+			UnlimitedBeachTeleporter: {
+				DisplayName: 浜辺転送装置
+				Tooltip:
+					'''
+					[c/FFC300:左クリックで左の海岸へテレポートする]
+					[c/FFC300:右クリックで右の海岸へテレポートする]
+					[c/FFC300:「ああ、ハニー、ハニー」]
+					[c/B00BA5:「海の潮流の力を利用し、] 
+					[c/B00BA5:　海岸間を自在に移動できる装置] 
+					[c/B00BA5:　かつて一度に二つの場所にいたいと願った船乗りが作り出した」]
+					'''
+			}
+
+			UnlimitedDungeonTeleporter: {
+				DisplayName: ダンジョンポータル
+				Tooltip:
+					'''
+					[c/FFC300:ダンジョンの入口へテレポートする]
+					[c/FFC300:「叫ぶ髑髏が魂を震わせる！」]
+					[c/B00BA5:「ダンジョンの深淵で鍛えられたこの装置は、] 
+					[c/B00BA5:　不死者の力を宿し、一瞬で入口へ導く] 
+					[c/B00BA5:　思念だけで場所を移動できる力を持つ」]
+					'''
+			}
+
+			UnlimitedJungleTeleporter: {
+				DisplayName: ジャングルウォーカー
+				Tooltip:
+					'''
+					[c/FFC300:ジャングルへテレポートする]
+					[c/FFC300:右クリックで最寄りのマホガニーの木へテレポートする]
+					[c/FFC300:「マホガニースティック？それは何だ？」]
+					[c/B00BA5:「ジャングルの精霊が宿るこの装置は、] 
+					[c/B00BA5:　鬱蒼とした密林の中心や、近くの古木へ導く] 
+					[c/B00BA5:　大自然と繋がるための道具」]
+					'''
+			}
+
+			UnlimitedOceanTeleporter: {
+				DisplayName: 海の導き
+				Tooltip:
+					'''
+					[c/FFC300:左クリックで左端にテレポートする]
+					[c/FFC300:右クリックで右端にテレポートする]
+					[c/FFC300:「オーシャンマン、手を取ってその地へ導いてくれ」]
+					[c/B00BA5:「海流の力を操る古の遺物で、] 
+					[c/B00BA5:　遥か彼方の海原へ瞬時に渡れる] 
+					[c/B00BA5:　漂流した探検家たちが使った品」]
+					'''
+			}
+
+			UnlimitedTempleTeleporter: {
+				DisplayName: 寺院の転送装置
+				Tooltip:
+					'''
+					[c/FFC300:リザードの祭壇へテレポートする]
+					[c/FFC300:「まるで寺院が手の中に！」]
+					[c/B00BA5:「リザードの神官たちが作り出したこの装置は、] 
+					[c/B00BA5:　彼らの神聖なる神殿の中心へと導く] 
+					[c/B00BA5:　その力を扱えるのは選ばれし者のみ」]
+					'''
+			}
+
+			UnlimitedUnderworldTeleporter: {
+				DisplayName: 地獄の転送装置
+				Tooltip:
+					'''
+					[c/FFC300:左クリックで左側にテレポートする]
+					[c/FFC300:右クリックで右側にテレポートする]
+					[c/FFC300:「奴らが恐れるのは…お前だけだ！」]
+					[c/B00BA5:「地獄の炎の力を宿すこの装置は、] 
+					[c/B00BA5:　灼熱の地を自在に行き来できる力を授ける] 
+					[c/B00BA5:　古の戦士たちが悪魔と戦うために用いた品」]
+					'''
+			}
+
+			UnlimitedSunshine: {
+				DisplayName: 陽光のオーラ
+				Tooltip:
+					'''
+					[c/FFC300:光の範囲が大きく拡がる]
+					[c/FFC300:「ハイパーライト」]
+					[c/B00BA5:「まばゆい光を放つこの遺物は、] 
+					[c/B00BA5:　太陽神が創り出したと言われる] 
+					[c/B00BA5:　持つ者にとって夜を昼に変える力を持つ」]
+					'''
+			}
+
+			UnlimitedFortitude: {
+				DisplayName: 不屈の盾
+				Tooltip:
+					'''
+					[c/FFC300:ノックバックを無効化]
+					[c/FFC300:「通さぬぞ！」]
+					[c/B00BA5:「不屈の力を宿した盾で、] 
+					[c/B00BA5:　どんな衝撃にも屈しない強さを与える] 
+					[c/B00BA5:　古の守護者たちが用いた装備」]
+					'''
+			}
+
+			UnlimitedExcavation: {
+				DisplayName: 採掘ツール
+				Tooltip:
+					'''
+					[c/FFC300:採掘範囲を1ブロックから3x3に拡大]
+					[c/FFC300:バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される]
+					[c/FFC300:アイテムを右クリックでツールのドリルに切り替えできる]
+					[c/FFC300:「強化版墓堀り人のシャベル」]
+					[c/B00BA5:「かつて伝説の鉱夫たちが使ったこの魔法の道具は、] 
+					[c/B00BA5:　比類なき効率で掘り進める力を持つ] 
+					[c/B00BA5:　隠された財宝の発掘に最適」]
+					'''
+			}
+
+			UnlimitedBlurring: {
+				DisplayName: ぼかしのマント
+				Tooltip:
+					'''
+					[c/FFC300:残像バフを得る] 
+					[c/FFC300:10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある]
+					[c/FFC300:「タイタニウムの力」]
+					[c/B00BA5:「影で織られたマントで、着用者に] 
+					[c/B00BA5:　幽霊のように攻撃を回避する力を与える] 
+					[c/B00BA5:　最も狡猾な暗殺者たちが使った品」]
+					'''
+			}
+
+			WilliamsBirthdayCake: {
+				DisplayName: 魔法のバースデーケーキ
+				Tooltip:
+					'''
+					[c/FFC300:ほぼ全てのバフ効果のある家具の特殊効果を同時付与する]
+					[c/FFC300:焚き火+ハートのランタン+バステトの石像+砥石+弾薬箱+水晶玉+切り分けたケーキ+魔術のテーブル]
+					[c/FFC300:「不思議な魔法により、消費されることはない」]
+					[c/B00BA5:「複数の作業台の魔力を組み合わせて作られたケーキで、] 
+					[c/B00BA5:　その恩恵を一度に得られる。魔術師ウィリアムの] 
+					[c/B00BA5:　誕生日を祝う贈り物」]
+					'''
+			}
+
+			UnlimitedTrapper: {
+				DisplayName: 罠師の歓喜
+				Tooltip:
+					'''
+					[c/FFC300:すべての罠を強化する] 
+					[c/B00BA5:「このお守りはあらゆるトラップの威力を高め、] 
+					[c/B00BA5:　その真価を発揮させる。故郷を守るため] 
+					[c/B00BA5:　熟練の罠師が作り上げた品」]
+					'''
+			}
+
+			UnlimitedNinja: {
+				DisplayName: 忍者の恩寵
+				Tooltip:
+					'''
+					[c/FFC300:ダメージとクリティカル確率が5%増加]
+					[c/FFC300:攻撃を回避することがあり、壁をよじ登ることができる]
+					[c/B00BA5:「古の忍びが調合した霊薬で、俊敏さと隠密性を授ける] 
+					[c/B00BA5:　その秘伝は幾世代もの戦士に受け継がれた」]
+					[c/B00BA5:非Calamity系バフポーション]
+					'''
+			}
+
+			UnlimitedInvincibility: {
+				DisplayName: 守護の霊薬
+				Tooltip:
+					'''
+					[c/FFC300:ダメージを受けた後の無敵時間が延長される]
+					[c/B00BA5:「強力なこの霊薬は、攻撃を受けた際の自然な無敵時間を高め、] 
+					[c/B00BA5:　苛烈な戦いにも耐えられるようにする] 
+					[c/B00BA5:　伝説の英雄たちが用いた品」]
+					[c/B00BA5:非Calamity系バフポーション]
+					'''
 			}
 		}
 
@@ -253,6 +363,7 @@ Items: {
 					秘術の預言者が作りし「全知の眼」は、
 					隠された危険と未知の財宝を明らかにし、無二の洞察をもたらす
 					'''
+				BuffDescription: 敵の発射物などをハイライトする
 			}
 
 			UnlimitedPhotosynthesis: {
@@ -701,7 +812,7 @@ Items: {
 				Tooltip:
 					'''
 					配置された状態で右クリックすると、ダメージ軽減率が10%増加し、難易度が上がるほど強化される
-					
+
 					[c/4AA6E5:「雨だろうが風だろうが、その不滅の炎を消すことはできない」]
 					'''
 			}
@@ -748,187 +859,251 @@ Items: {
 			}
 		}
 
-		AlchemistNPCLite: {
-			UnlimitedBeachTeleporter: {
-				DisplayName: 浜辺転送装置
-				Tooltip:
-					'''
-					[c/FFC300:左クリックで左の海岸へテレポートする]
-					[c/FFC300:右クリックで右の海岸へテレポートする]
-					[c/FFC300:「ああ、ハニー、ハニー」]
-					[c/B00BA5:「海の潮流の力を利用し、] 
-					[c/B00BA5:　海岸間を自在に移動できる装置] 
-					[c/B00BA5:　かつて一度に二つの場所にいたいと願った船乗りが作り出した」]
-					'''
+		CalRemix: {
+			AstralStand: {
+				DisplayName: 星の祭壇
+				Tooltip: 宇宙の低重力に対する耐性を得る
 			}
 
-			UnlimitedDungeonTeleporter: {
-				DisplayName: ダンジョンポータル
+			HallowStand: {
+				DisplayName: 聖域の祭壇
 				Tooltip:
 					'''
-					[c/FFC300:ダンジョンの入口へテレポートする]
-					[c/FFC300:「叫ぶ髑髏が魂を震わせる！」]
-					[c/B00BA5:「ダンジョンの深淵で鍛えられたこの装置は、] 
-					[c/B00BA5:　不死者の力を宿し、一瞬で入口へ導く] 
-					[c/B00BA5:　思念だけで場所を移動できる力を持つ」]
+					与えるダメージ・クリティカル率・移動速度が25%上昇し、
+					防御力が20増加、被ダメージ軽減が8%増加、体力が20%増加する
+					ただし常にカオス状態になる
 					'''
 			}
+		}
 
-			UnlimitedJungleTeleporter: {
-				DisplayName: ジャングルウォーカー
-				Tooltip:
-					'''
-					[c/FFC300:ジャングルへテレポートする]
-					[c/FFC300:右クリックで最寄りのマホガニーの木へテレポートする]
-					[c/FFC300:「マホガニースティック？それは何だ？」]
-					[c/B00BA5:「ジャングルの精霊が宿るこの装置は、] 
-					[c/B00BA5:　鬱蒼とした密林の中心や、近くの古木へ導く] 
-					[c/B00BA5:　大自然と繋がるための道具」]
-					'''
+		Vanilla: {
+			UnlimitedVenom: {
+				DisplayName: 無限の酸性毒
+				Tooltip: 近接、鞭、ローグ攻撃に酸性毒を付与する
 			}
 
-			UnlimitedOceanTeleporter: {
-				DisplayName: 海の導き
-				Tooltip:
-					'''
-					[c/FFC300:左クリックで左端にテレポートする]
-					[c/FFC300:右クリックで右端にテレポートする]
-					[c/FFC300:「オーシャンマン、手を取ってその地へ導いてくれ」]
-					[c/B00BA5:「海流の力を操る古の遺物で、] 
-					[c/B00BA5:　遥か彼方の海原へ瞬時に渡れる] 
-					[c/B00BA5:　漂流した探検家たちが使った品」]
-					'''
+			UnlimitedCursedFlames: {
+				DisplayName: 無限の呪炎
+				Tooltip: 近接、鞭、ローグ攻撃に呪炎を付与する
 			}
 
-			UnlimitedTempleTeleporter: {
-				DisplayName: 寺院の転送装置
-				Tooltip:
-					'''
-					[c/FFC300:リザードの祭壇へテレポートする]
-					[c/FFC300:「まるで寺院が手の中に！」]
-					[c/B00BA5:「リザードの神官たちが作り出したこの装置は、] 
-					[c/B00BA5:　彼らの神聖なる神殿の中心へと導く] 
-					[c/B00BA5:　その力を扱えるのは選ばれし者のみ」]
-					'''
+			UnlimitedFire: {
+				DisplayName: 無限の炎
+				Tooltip: 近接、鞭、ローグ攻撃が炎上を付与する
 			}
 
-			UnlimitedUnderworldTeleporter: {
-				DisplayName: 地獄の転送装置
-				Tooltip:
-					'''
-					[c/FFC300:左クリックで左側にテレポートする]
-					[c/FFC300:右クリックで右側にテレポートする]
-					[c/FFC300:「奴らが恐れるのは…お前だけだ！」]
-					[c/B00BA5:「地獄の炎の力を宿すこの装置は、] 
-					[c/B00BA5:　灼熱の地を自在に行き来できる力を授ける] 
-					[c/B00BA5:　古の戦士たちが悪魔と戦うために用いた品」]
-					'''
+			UnlimitedGold: {
+				DisplayName: 無限の金
+				Tooltip: 近接、鞭、ローグ攻撃が強欲を付与する
 			}
 
-			UnlimitedSunshine: {
-				DisplayName: 陽光のオーラ
-				Tooltip:
-					'''
-					[c/FFC300:光の範囲が大きく拡がる]
-					[c/FFC300:「ハイパーライト」]
-					[c/B00BA5:「まばゆい光を放つこの遺物は、] 
-					[c/B00BA5:　太陽神が創り出したと言われる] 
-					[c/B00BA5:　持つ者にとって夜を昼に変える力を持つ」]
-					'''
+			UnlimitedNanites: {
+				DisplayName: 無限の混乱
+				Tooltip: 近接、鞭、ローグ攻撃が混乱を付与する
 			}
 
-			UnlimitedFortitude: {
-				DisplayName: 不屈の盾
-				Tooltip:
-					'''
-					[c/FFC300:ノックバックを無効化]
-					[c/FFC300:「通さぬぞ！」]
-					[c/B00BA5:「不屈の力を宿した盾で、] 
-					[c/B00BA5:　どんな衝撃にも屈しない強さを与える] 
-					[c/B00BA5:　古の守護者たちが用いた装備」]
-					'''
+			UnlimitedParty: {
+				DisplayName: 無限のパーティ
+				Tooltip: 近接、鞭、ローグ攻撃が命中時に紙吹雪の爆発を起こすことがある
 			}
 
-			UnlimitedExcavation: {
-				DisplayName: 採掘ツール
-				Tooltip:
-					'''
-					[c/FFC300:採掘範囲を1ブロックから3x3に拡大]
-					[c/FFC300:バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される]
-					[c/FFC300:アイテムを右クリックでツールのドリルに切り替えできる]
-					[c/FFC300:「強化版墓堀り人のシャベル」]
-					[c/B00BA5:「かつて伝説の鉱夫たちが使ったこの魔法の道具は、] 
-					[c/B00BA5:　比類なき効率で掘り進める力を持つ] 
-					[c/B00BA5:　隠された財宝の発掘に最適」]
-					'''
+			UnlimitedPoison: {
+				DisplayName: 無限の毒
+				Tooltip: 近接、鞭、ローグ攻撃が毒を付与する
 			}
+		}
 
-			UnlimitedBlurring: {
-				DisplayName: ぼかしのマント
-				Tooltip:
-					'''
-					[c/FFC300:残像バフを得る] 
-					[c/FFC300:10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある]
-					[c/FFC300:「タイタニウムの力」]
-					[c/B00BA5:「影で織られたマントで、着用者に] 
-					[c/B00BA5:　幽霊のように攻撃を回避する力を与える] 
-					[c/B00BA5:　最も狡猾な暗殺者たちが使った品」]
-					'''
-			}
-
-			WilliamsBirthdayCake: {
-				DisplayName: 魔法のバースデーケーキ
-				Tooltip:
-					'''
-					[c/FFC300:ほぼ全てのバフ効果のある家具の特殊効果を同時付与する]
-					[c/FFC300:焚き火+ハートのランタン+バステトの石像+砥石+弾薬箱+水晶玉+切り分けたケーキ+魔術のテーブル]
-					[c/FFC300:「不思議な魔法により、消費されることはない」]
-					[c/B00BA5:「複数の作業台の魔力を組み合わせて作られたケーキで、] 
-					[c/B00BA5:　その恩恵を一度に得られる。魔術師ウィリアムの] 
-					[c/B00BA5:　誕生日を祝う贈り物」]
-					'''
-			}
-
-			UnlimitedTrapper: {
-				DisplayName: 罠師の歓喜
-				Tooltip:
-					'''
-					[c/FFC300:すべての罠を強化する] 
-					[c/B00BA5:「このお守りはあらゆるトラップの威力を高め、] 
-					[c/B00BA5:　その真価を発揮させる。故郷を守るため] 
-					[c/B00BA5:　熟練の罠師が作り上げた品」]
-					'''
-			}
-
-			UnlimitedNinja: {
-				DisplayName: 忍者の恩寵
-				Tooltip:
-					'''
-					[c/FFC300:ダメージとクリティカル確率が5%増加]
-					[c/FFC300:攻撃を回避することがあり、壁をよじ登ることができる]
-					[c/B00BA5:「古の忍びが調合した霊薬で、俊敏さと隠密性を授ける] 
-					[c/B00BA5:　その秘伝は幾世代もの戦士に受け継がれた」]
-					[c/B00BA5:非Calamity系バフポーション]
-					'''
-			}
-
-			UnlimitedInvincibility: {
-				DisplayName: 守護の霊薬
-				Tooltip:
-					'''
-					[c/FFC300:ダメージを受けた後の無敵時間が延長される]
-					[c/B00BA5:「強力なこの霊薬は、攻撃を受けた際の自然な無敵時間を高め、] 
-					[c/B00BA5:　苛烈な戦いにも耐えられるようにする] 
-					[c/B00BA5:　伝説の英雄たちが用いた品」]
-					[c/B00BA5:非Calamity系バフポーション]
-					'''
+		"": {
+			DebugPower: {
+				Tooltip: ""
+				DisplayName: Debug Power
 			}
 		}
 	}
 
-	DebugPotion: {
-		DisplayName: Debug Potion
-		Tooltip: ""
+	Scroll: {
+		CalamityMod: {
+			ScrollOfEffigies: {
+				DisplayName: 偶像の巻物
+				Tooltip:
+					'''
+					インベントリにある間、周囲のプレイヤーが真紅、不浄、腐敗の偶像バフを得る
+					「これ、本当に紙なのか！？」
+					'''
+				CalRemixTooltip: インベントリにある間、周囲のプレイヤーが真紅、不浄、アストラル、聖域、腐敗の偶像バフを得る
+			}
+
+			ScrollOfDepths: {
+				DisplayName: 深淵探索の書
+				Tooltip: 深淵をより快適に探索できるようになる
+			}
+
+			AlcoholicsCodex: {
+				DisplayName: 酒豪の蝋燭
+				Tooltip:
+					'''
+					右クリックで効果を切り替え
+					現在のスプライトは仮
+					'''
+			}
+
+			AlcoholicsCodexResilient: {
+				DisplayName: 酒豪の蝋燭（不屈）
+				Tooltip:
+					'''
+					ダメージ軽減率が10%増加
+					難易度が上がるほど強化される
+					右クリックで効果を切り替え
+					'''
+			}
+
+			AlcoholicsCodexSpiteful: {
+				DisplayName: 酒豪の蝋燭（悪意）
+				Tooltip:
+					'''
+					敵が受けるダメージが7%増加する
+					この追加ダメージは敵のダメージ軽減や防御を無視する
+					右クリックで効果を切り替え
+					'''
+			}
+
+			AlcoholicsCodexVigorous: {
+				DisplayName: 酒豪の蝋燭（活力）
+				Tooltip:
+					'''
+					1秒ごとに最大体力の0.4%を回復する
+					この自然回復は移動中でも常に効果を発揮し、リベンジェンスモードの上限を無視する
+					右クリックで効果を切り替え
+					'''
+			}
+
+			AlcoholicsCodexWeightless: {
+				DisplayName: 酒豪の蝋燭（軽快）
+				Tooltip:
+					'''
+					移動速度10%、飛行時間10%、加速度10%を得る
+					右クリックで効果を切り替え
+					'''
+			}
+
+			ScrollOfInfiniteAscent: {
+				DisplayName: 天翔の書
+				Tooltip:
+					'''
+					飛行時間、ジャンプ速度を強化し、落下ダメージを無効化
+					「さらに高く、遠くへ、そして安全！空を翔ける者に最適」
+					'''
+			}
+
+			ScrollOfCalamity: {
+				DisplayName: 災厄の書
+				Tooltip: 深淵に居続けることができ、機動力などが向上する
+			}
+
+			ScrollOfAstral: {
+				DisplayName: 星の書
+				Tooltip:
+					'''
+					マナ回復を強化し、重力を安定化させる
+					[c/9400D3:「星の力の均衡がエネルギーを整え、足取りを軽くしてくれる」]
+					'''
+			}
+
+			FermentedBook: {
+				DisplayName: 発酵の書
+				Tooltip:
+					'''
+					すべてのアルコールバフの効果を得る
+					[c/FF9900:「発酵の力でステータスが強化される]
+					[c/FF9900:　だが、中毒には注意が必要」]
+
+					同時に発動できるアルコール効果は3種類まで
+					  
+					豆知識：シュメール人などの古代文明は
+					5000年以上前からビールのレシピを記録していた
+
+					'''
+			}
+		}
+
+		AlchemistNPCLite: {
+			WorldWarperScroll: {
+				DisplayName: 次元転移の書 {0}
+				Tooltip:
+					'''
+					{0}
+					[c/FFC300:Shift+左クリックでモード変更]
+					'''
+				None: "[c/FFC300:アイテム使用で最初のモードに変更]"
+				Beach:
+					'''
+					[c/FFC300:左クリックで左側の浜辺にテレポート]
+					[c/FFC300:右クリックで右側の浜辺にテレポート]
+					'''
+				BeachName: 浜辺
+				Dungeon: "[c/FFC300:左/右クリックでダンジョン入口にテレポート]"
+				DungeonName: ダンジョン
+				Jungle:
+					'''
+					[c/FFC300:左クリックでジャングルにテレポート]
+					[c/FFC300:右クリックで最寄りのマホガニーの木にテレポート]
+					'''
+				JungleName: ジャングル
+				Ocean:
+					'''
+					[c/FFC300:左クリックで左端にテレポート]
+					[c/FFC300:右クリックで右端にテレポート]
+					'''
+				OceanName: 海
+				Temple: "[c/FFC300:左/右クリックでリザードの祭壇にテレポート]"
+				TempleName: 寺院
+				Underworld:
+					'''
+					[c/FFC300:左クリックで左側にテレポート]
+					[c/FFC300:右クリックで右側にテレポート]
+					'''
+				UnderworldName: 地底世界
+			}
+
+			ScrollOfMinerAlchemist: {
+				DisplayName: 光輝の探鉱者の書
+				Tooltip:
+					'''
+					採掘速度が上昇し、罠を可視化し、道を照らす
+					安全かつ迅速に探索できる
+					'''
+			}
+
+			ScrollOfWarriorAlchemist: {
+				DisplayName: 不屈と影の書
+				Tooltip: 回避能力と防御力を高める
+			}
+
+			WorldWarperBeach: {
+				DisplayName: ワールドワープ：浜辺
+				Tooltip: ""
+			}
+
+			WorldWarperDungeon: {
+				DisplayName: ワールドワープ：ダンジョン
+				Tooltip: ""
+			}
+
+			WorldWarperJungle: {
+				DisplayName: ワールドワープ：ジャングル
+				Tooltip: ""
+			}
+
+			WorldWarperTemple: {
+				DisplayName: ワールドワープ：寺院
+				Tooltip: ""
+			}
+
+			WorldWarperUnderworld: {
+				DisplayName: ワールドワープ：地底世界
+				Tooltip: ""
+			}
+		}
 	}
 
 	Solutions: {
@@ -942,77 +1117,8 @@ Items: {
 		}
 
 		UnlimitedCyanSolution: {
-			DisplayName: Unlimited Cyan Solution
-			Tooltip: Never run out of Cyan Solution
-		}
-	}
-
-	Placable: {
-		AncientScrollCrafter: {
-			DisplayName: カラミタスの魔導筆記台
-			Tooltip:
-				'''
-				「カラミタスの手によって作られたこの装置は、 
-				　彼女の最強の呪文を丹念に書き記し、 
-				　その力を永遠に伝えるためのもの
-				　　　　
-				　伝説では、現実さえもねじ曲げた大魔女カラミタスが、 
-				　この装置を使って宇宙の力を宿す呪文を書き記したと言われる 
-				　巻物には微かに輝く神秘の文字が刻まれ、禁断の魔術の秘密が眠る
-				　　　　　
-				　古の遺物であるこの装置は、創造者の力と共鳴し、 
-				　彼女の魔道への尽きぬ探求を証明する 
-				　これを手にする者は、その神秘と伝説に惹かれ、 
-				　永遠にカラミタスの遺産と結ばれる」
-				'''
-		}
-	}
-
-	Effigy: {
-		CorruptionStand: {
-			DisplayName: 異形の不浄のトーテム
-			Tooltip:
-				'''
-				[c/8A2BE2:インベントリにある間、周囲のプレイヤーは移動速度とクリティカル率が10%上昇する]
-				[c/6A1F9C:ただし被ダメージ軽減が5%低下する]
-				[c/4B0082:「きもっ！」]
-				'''
-		}
-
-		CrimsonStand: {
-			DisplayName: 深紅の血晶の偶像
-			Tooltip:
-				'''
-				[c/B22222:インベントリにある間、周囲のプレイヤーはダメージ+15%、防御+10される]
-				[c/FF6347:ただし最大ライフが10%減少する]
-				[c/FF4500:「霊液が滲み出してる...うええ！」]
-				'''
-		}
-
-		DecayStand: {
-			DisplayName: 腐敗の遺物
-			Tooltip:
-				'''
-				[c/2E8B57:インベントリにある間、周囲のプレイヤーは水中呼吸が可能になる]
-				[c/3CB371:ただしこの効果は深淵では無効になる]
-				[c/228B22:周囲のプレイヤーは硫黄中毒の耐性を得る]
-				[c/006400:「この水、くっさ…」]
-				'''
-		}
-
-		AstralStand: {
-			DisplayName: 星界の天体トーテム
-			Tooltip: "[c/00BFFF:インベントリにある間、周囲のプレイヤーは宇宙空間の低重力に対して無効化される]"
-		}
-
-		HallowStand: {
-			DisplayName: 聖光の熾天使の偶像
-			Tooltip:
-				'''
-				[c/FFD700:インベントリにある間、周囲のプレイヤーのダメージ、クリティカル率、移動速度が25%上昇]
-				[c/FFFF00:防御力+20、被ダメージ軽減+8%、体力+20%]
-				[c/FFD700:ただし周囲のプレイヤーは永続的に混沌状態になる]
-				'''
+			DisplayName: 無限環境変更液（シアン）
+			Tooltip: 環境変更液（シアン）を無限に使用可能
 		}
 	}
 
@@ -1027,6 +1133,321 @@ Items: {
 				DisplayName: 無尽蔵のウルフラムコア
 				Tooltip: 「尽きることのないウルフラム金属片の供給源」
 			}
+		}
+	}
+
+	UnlimitedQuiver: {
+		CalamityMod: {
+			EndlessBloodfireQuiver: {
+				DisplayName: 無限血炎の矢筒
+				Tooltip:
+					'''
+					[c/DC143C:血に濡れた矢尻を持つ高速の矢]
+					[c/DC143C:射るたびに自身の体力を消耗する]
+					[c/DC143C:命中時に自然回復を加速させ、体力を回復する]
+					[c/DC143C:「永遠の炎で燃え盛り、絶え間なく敵に業火の怒りを浴びせる」]
+					'''
+			}
+
+			EndlessCinderQuiver: {
+				DisplayName: 無限灰燼の矢筒
+				Tooltip:
+					'''
+					[c/FF4500:爆発する矢で、ヒットすると炎の破片が飛び散る]
+					[c/FF4500:「絶えぬ炎で燃え上がり、猛火の破壊を繰り返し放つ矢」]
+					'''
+			}
+
+			EndlessElysianQuiver: {
+				DisplayName: 無限エリュシオンの矢筒
+				Tooltip:
+					'''
+					[c/FFD700:冒涜の力を宿す矢]
+					[c/FFD700:命中時に上下から浄化の光を召喚する]
+					[c/FFD700:「星明りの輝きで闇を貫く、終わりなき天の矢」]
+					'''
+			}
+
+			EndlessIcicleQuiver: {
+				DisplayName: 無限つららの矢筒
+				Tooltip:
+					'''
+					[c/00BFFF:魔力を帯びた氷の矢]
+					[c/00BFFF:着弾後すぐに氷柱へと変化し、ダメージが増加]
+					[c/00BFFF:凍結前に敵やブロックに当たると、矢が上方向に飛翔する]
+					[c/00BFFF:「氷の決意を宿す矢は、凍てつく精度で標的を絶え間なく凍らせる」]
+					'''
+			}
+
+			EndlessSproutingQuiver: {
+				DisplayName: 無限芽吹きの矢筒
+				Tooltip:
+					'''
+					[c/228B22:二つの矢に分裂するエネルギーの矢]
+					[c/228B22:これらの矢は8ポイントの防御力を無視する]
+					[c/228B22:「永劫なる自然の力を編み込み、運命の標的へと確実に導かれる」]
+					'''
+			}
+
+			EndlessVanquisherQuiver: {
+				DisplayName: 無限征服者の矢筒
+				Tooltip:
+					'''
+					[c/FF6347:宇宙の鋼で鍛えられた強力な矢]
+					[c/FF6347:ブロックを貫通し、敵を追尾する]
+					[c/FF6347:「尽きぬ秘術の力により、最強の敵さえ打ち倒す」]
+					'''
+			}
+
+			EndlessVeriumQuiver: {
+				DisplayName: 無限ヴェリウムの矢筒
+				Tooltip:
+					'''
+					[c/9370DB:ヒットした敵にマークをつけ、しばらくしてから追加ダメージを与える]
+					[c/9370DB:このダメージは敵に当たった矢の数に応じてスタックする]
+					[c/9370DB:「無限の星の力が込められ、嵐をも断つ精確無比の一撃を放つ」]
+					'''
+			}
+		}
+	}
+
+	UnlimitedRound: {
+		CalamityMod: {
+			EndlessBloodfirePouch: {
+				DisplayName: 無限血炎の弾丸のポーチ
+				Tooltip:
+					'''
+					ブロックを貫通し、命中時に自然回復を加速
+					現在と自然回復量に応じて追加ダメージ（最大35）
+					[c/FF4500:「血潮を燃やし力に変えろ]
+					[c/8B0000:　血を燃やせ、敵も燃やせ」]
+					'''
+			}
+
+			EndlessBubonicPouch: {
+				DisplayName: 無限疫病の弾丸のポーチ
+				Tooltip:
+					'''
+					接触すると病原性の疫病が撒き散らされる
+					敵の防御力を10%無視する
+					[c/6B8E23:「疫病で敵を腐敗させろ]
+					[c/556B2F:　気づかぬうちに蝕まれる」]
+					'''
+			}
+
+			EndlessDryadPouch: {
+				DisplayName: 無限ドライアドの涙のポーチ
+				Tooltip:
+					'''
+					何かにぶつかると自然の破片に分裂する
+					[c/32CD32:「自然の力で敵を追い詰めろ]
+					[c/228B22:　野生の怒りを破片に込めて」]
+					'''
+			}
+
+			EndlessFlashPouch: {
+				DisplayName: 無限フラッシュ弾のポーチ
+				Tooltip:
+					'''
+					広範囲の敵を短時間混乱させる爆風を放つ
+					[c/FFD700:「敵を眩ませ混乱させろ]
+					[c/ADFF2F:　光が消え混乱が始まる」]
+					'''
+			}
+
+			EndlessGodSlayerPouch: {
+				DisplayName: 無限神殺しのスラグ弾のポーチ
+				Tooltip:
+					'''
+					時空を切り裂く無制限の貫通力を持つ弾
+					スラグ弾がヒットした後、壁にぶつかったり、貫通する標的がなくなったりした場合
+					プレイヤーの後方にワープし、何かに当たると爆発する
+					[c/8A2BE2:「神をも討つ力で現実を切り裂け]
+					[c/4B0082:　終わりは始まり、時空が従う」]
+					'''
+			}
+
+			EndlessHailstormPouch: {
+				DisplayName: 無限ヘイルストーム弾のポーチ
+				Tooltip:
+					'''
+					強力な氷の魔法が込められた弾丸
+					発射後、急速に減速する
+					クリティカルヒット時に追加ダメージを与え、敵を凍結させる
+					[c/00BFFF:「氷の嵐を解き放ち、][c/4682B4:骨まで凍らせろ」]
+					'''
+			}
+
+			EndlessHallowPointPouch: {
+				DisplayName: 無限ハローポイント弾のポーチ
+				Tooltip:
+					'''
+					勇ましい光によって、ヒット時に6の追加ダメージを与える
+					この効果は、弾丸が特殊な銃によって変換されている場合は発生しない
+					[c/FFD700:「輝ける弾丸で闇を射抜け]
+					[c/FF6347:　一発ごとに光が導く」]
+					'''
+			}
+
+			EndlessHolyPouch: {
+				DisplayName: 無限聖なる炎の弾丸のポーチ
+				Tooltip:
+					'''
+					25ダメージを与える聖なる爆発弾
+					発射時により大きな爆発を起こす
+					[c/FFB6C1:「神聖なる炎で闇を浄化せよ]
+					[c/FFA07A:　義のための浄化の爆炎」]
+					'''
+			}
+
+			EndlessHyperiusPouch: {
+				DisplayName: 無限ハイペリウス弾のポーチ
+				Tooltip:
+					'''
+					カラフルな弾丸で15ダメージ
+					命中時に渦巻く光に分裂する
+					[c/9370DB:「鮮やかな火力で敵を照らせ]
+					[c/FF1493:　色彩と破壊の饗宴」]
+					'''
+			}
+
+			EndlessMarksmanPouch: {
+				DisplayName: 無限マークスマンの弾丸ポーチ
+				Tooltip:
+					'''
+					命中精度を追求し、15ダメージを与える
+					空中のコインに跳弾させることで、戦術的な使い方が可能
+					[c/32CD32:「狙い澄ました一撃で確実に仕留めろ]
+					[c/FF69B4:　コインを活用し火力を引き上げよ」]
+					'''
+			}
+
+			EndlessMortarRound: {
+				DisplayName: Endless Standard Mortar Round
+				Tooltip:
+					'''
+					High-explosive rounds causing 25 damage.
+					Destroy tiles with every blast.
+					[c/FF8C00:Demolish your surroundings with force.]
+					[c/FF4500:'Prepare for explosive consequences!']
+					'''
+			}
+
+			EndlessRubberMortarPouch: {
+				DisplayName: ラバーモーターの弾丸
+				Tooltip:
+					'''
+					25ダメージを与える特殊な高威力の爆発弾
+					バウンドするたびにブロックを破壊する
+					[c/FFD700:「跳ねるたびに混沌を解き放つ」]
+					'''
+			}
+
+			EndlessMortarPouch: {
+				DisplayName: 無限モーター弾丸ポーチ
+				Tooltip:
+					'''
+					15ダメージを与える特殊な高威力の爆発弾
+					ブロックを破壊する
+					[c/FF4500:「爆発の代償を覚悟せよ」]
+					'''
+			}
+		}
+	}
+
+	UnlimitedTorches: {
+		BaseTooltip: "{0}が無限に使える"
+
+		CalamityMod: {
+			EndlessAbyssTorch: {
+				DisplayName: 無限深淵のたいまつ
+			}
+
+			EndlessAlgalPrismTorch: {
+				DisplayName: 無限アルガルプリズムのたいまつ
+			}
+
+			EndlessAstralTorch: {
+				DisplayName: 無限アストラルのたいまつ
+			}
+
+			EndlessGloomTorch: {
+				DisplayName: 無限闇のたいまつ
+			}
+
+			EndlessNavyPrismTorch: {
+				DisplayName: 無限軍用プリズムのたいまつ
+			}
+
+			EndlessRefractivePrismTorch: {
+				DisplayName: 無限屈折プリズムのたいまつ
+			}
+
+			EndlessSulphurousTorch: {
+				DisplayName: 無限硫黄のたいまつ
+			}
+		}
+
+		ThoriumMod: {
+			EndlessBlackTorch: {
+				DisplayName: 無限闇のたいまつ
+			}
+
+			EndlessDeeplightTorch: {
+				DisplayName: 無限深海のたいまつ
+			}
+
+			EndlessMagentaTorch: {
+				DisplayName: 無限マゼンタのたいまつ
+			}
+		}
+	}
+
+	Accessories: {
+		ArchitectHeavyEquipment: {
+			DisplayName: 伝説の建築家の神器
+			Tooltip:
+				'''
+				[c/FF4500:「創造の本質が響く、地獄の奥深くで鍛えられた伝説の兜」]
+
+				[c/FF6347:- ツール、ペイント、ブロック、壁配置の速度が大幅に上昇]
+				[c/FF7F50:- ブロック設置範囲とツール射程が大幅に増加]
+				[c/FF8C00:- アイテムの拾取範囲が大幅に拡大]
+				[c/FFA07A:- 配置したオブジェクトに自動でペイントまたはコーティングを適用する]
+				[c/FA8072:- 上入力を続けている間、高い位置に移動できる]
+				[c/FF6F61:- 背後の敵に強ノックバックの攻撃を放つ]
+				[c/FF4500:- 地下または地底世界にいる間、被ダメージ軽減が15%上昇し、防御力+18]
+
+				[c/FF6347:「無二の技巧と]
+				[c/FF7F50:　創意工夫で知られる建築の達人、　　　　が操った]
+				[c/FF8C00:　この兜で彼は地形と都市を作り変えたが、カラミタスとの壮絶な戦いで命を落とし、その魂は兜に宿ることとなった]
+				[c/FF6F61:　今、この兜をかぶる者は彼の技と執念を受け継ぎ、偉業への道を歩むのだ」]
+				'''
+		}
+
+		MaximumUnlimitedMana: {
+			DisplayName: 至高の無限マナ
+			Tooltip:
+				'''
+				[c/00BFFF:マナが無限になる]
+				[c/1E90FF:魔法ダメージ+20%]
+				[c/4169E1:魔法クリティカル率+20%]
+				'''
+		}
+
+		EnchantedSupremeFishingBundle: {
+			DisplayName: 魔道究極釣り具セット
+			Tooltip:
+				'''
+				[c/8A2BE2:「究極の釣り師のために仕上げられた、伝説の魔道釣り具セット」]
+
+				[c/7B68EE:- フィッシングパワーが110%上昇]
+				[c/6A5ACD:- 釣り糸が決して切れず、エサ消費率が低下]
+				[c/483D8B:- クレートの釣り上げ率が上昇]
+				[c/4169E1:- 溶岩での釣りが可能になる]
+				[c/0000FF:- ソナー効果を付与]
+				[c/00008B:- ポーション素材の魚の釣り率が大幅上昇]
+				'''
 		}
 	}
 
@@ -1156,493 +1577,120 @@ Items: {
 		}
 	}
 
-	UnlimitedQuiver: {
-		CalamityMod: {
-			EndlessBloodfireQuiver: {
-				DisplayName: 無限血炎の矢筒
-				Tooltip:
-					'''
-					[c/DC143C:血に濡れた矢尻を持つ高速の矢]
-					[c/DC143C:射るたびに自身の体力を消耗する]
-					[c/DC143C:命中時に自然回復を加速させ、体力を回復する]
-					[c/DC143C:「永遠の炎で燃え盛り、絶え間なく敵に業火の怒りを浴びせる」]
-					'''
-			}
-
-			EndlessCinderQuiver: {
-				DisplayName: 無限灰燼の矢筒
-				Tooltip:
-					'''
-					[c/FF4500:爆発する矢で、ヒットすると炎の破片が飛び散る]
-					[c/FF4500:「絶えぬ炎で燃え上がり、猛火の破壊を繰り返し放つ矢」]
-					'''
-			}
-
-			EndlessElysianQuiver: {
-				DisplayName: 無限エリュシオンの矢筒
-				Tooltip:
-					'''
-					[c/FFD700:冒涜の力を宿す矢]
-					[c/FFD700:命中時に上下から浄化の光を召喚する]
-					[c/FFD700:「星明りの輝きで闇を貫く、終わりなき天の矢」]
-					'''
-			}
-
-			EndlessIcicleQuiver: {
-				DisplayName: 無限つららの矢筒
-				Tooltip:
-					'''
-					[c/00BFFF:魔力を帯びた氷の矢]
-					[c/00BFFF:着弾後すぐに氷柱へと変化し、ダメージが増加]
-					[c/00BFFF:凍結前に敵やブロックに当たると、矢が上方向に飛翔する]
-					[c/00BFFF:「氷の決意を宿す矢は、凍てつく精度で標的を絶え間なく凍らせる」]
-					'''
-			}
-
-			EndlessSproutingQuiver: {
-				DisplayName: 無限芽吹きの矢筒
-				Tooltip:
-					'''
-					[c/228B22:二つの矢に分裂するエネルギーの矢]
-					[c/228B22:これらの矢は8ポイントの防御力を無視する]
-					[c/228B22:「永劫なる自然の力を編み込み、運命の標的へと確実に導かれる」]
-					'''
-			}
-
-			EndlessVanquisherQuiver: {
-				DisplayName: 無限征服者の矢筒
-				Tooltip:
-					'''
-					[c/FF6347:宇宙の鋼で鍛えられた強力な矢]
-					[c/FF6347:ブロックを貫通し、敵を追尾する]
-					[c/FF6347:「尽きぬ秘術の力により、最強の敵さえ打ち倒す」]
-					'''
-			}
-
-			EndlessVeriumQuiver: {
-				DisplayName: 無限ヴェリウムの矢筒
-				Tooltip:
-					'''
-					[c/9370DB:ヒットした敵にマークをつけ、しばらくしてから追加ダメージを与える]
-					[c/9370DB:このダメージは敵に当たった矢の数に応じてスタックする]
-					[c/9370DB:「無限の星の力が込められ、嵐をも断つ精確無比の一撃を放つ」]
-					'''
-			}
-		}
-	}
-
-	Accessories: {
-		ArchitectHeavyEquipment: {
-			DisplayName: 伝説の建築家の神器
+	Tools: {
+		UnlimitedExcavationDrillForm: {
+			DisplayName: 採掘ツールの力
 			Tooltip:
 				'''
-				[c/FF4500:「創造の本質が響く、地獄の奥深くで鍛えられた伝説の兜」]
-
-				[c/FF6347:- ツール、ペイント、ブロック、壁配置の速度が大幅に上昇]
-				[c/FF7F50:- ブロック設置範囲とツール射程が大幅に増加]
-				[c/FF8C00:- アイテムの拾取範囲が大幅に拡大]
-				[c/FFA07A:- 配置したオブジェクトに自動でペイントまたはコーティングを適用する]
-				[c/FA8072:- 上入力を続けている間、高い位置に移動できる]
-				[c/FF6F61:- 背後の敵に強ノックバックの攻撃を放つ]
-				[c/FF4500:- 地下または地底世界にいる間、被ダメージ軽減が15%上昇し、防御力+18]
-
-				[c/FF6347:「無二の技巧と]
-				[c/FF7F50:　創意工夫で知られる建築の達人、　　　　が操った]
-				[c/FF8C00:　この兜で彼は地形と都市を作り変えたが、カラミタスとの壮絶な戦いで命を落とし、その魂は兜に宿ることとなった]
-				[c/FF6F61:　今、この兜をかぶる者は彼の技と執念を受け継ぎ、偉業への道を歩むのだ」]
+				[c/FFC300:-Excavation Force-]
+				[c/FFC300:右クリックで元に戻す]
+				[c/FFC300:「掘削者の夢の結晶」]
 				'''
 		}
+	}
 
-		MaximumUnlimitedMana: {
-			DisplayName: 至高の無限マナ
+	BossSummon: {
+		OldDukeSummon: {
+			DisplayName: 深海の古き遺物
 			Tooltip:
 				'''
-				[c/00BFFF:マナが無限になる]
-				[c/1E90FF:魔法ダメージ+20%]
-				[c/4169E1:魔法クリティカル率+20%]
+				[c/00FF00:-Ancient Relic of the Deep-]
+				[c/00FF00:右クリックでボスを呼び出す]
+				[c/00FF00:「釣り竿はもういらない」]
 				'''
 		}
 
-		EnchantedSupremeFishingBundle: {
-			DisplayName: 魔道究極釣り具セット
+		NuclearTerrorSummon: {
+			DisplayName: 破滅の核
 			Tooltip:
 				'''
-				[c/8A2BE2:「究極の釣り師のために仕上げられた、伝説の魔道釣り具セット」]
+				[c/FF4500:右クリックでニュークリアテラーを召喚する]
+				[c/FF4500:「放射線に汚染された悪夢の遺物」]
+				'''
+		}
 
-				[c/7B68EE:- フィッシングパワーが110%上昇]
-				[c/6A5ACD:- 釣り糸が決して切れず、エサ消費率が低下]
-				[c/483D8B:- クレートの釣り上げ率が上昇]
-				[c/4169E1:- 溶岩での釣りが可能になる]
-				[c/0000FF:- ソナー効果を付与]
-				[c/00008B:- ポーション素材の魚の釣り率が大幅上昇]
+		MaulerSummon: {
+			DisplayName: 海の捕食者のトーテム
+			Tooltip:
+				'''
+				[c/4682B4:右クリックでモーラーを召喚する]
+				[c/4682B4:「放射性嵐の中心から鍛造された」]
+				'''
+		}
+
+		CragmawMireSummon: {
+			DisplayName: 沼の巨獣の偶像
+			Tooltip:
+				'''
+				[c/2E8B57:右クリックでクラグモーを召喚する]
+				[c/2E8B57:「その目覚めに沼地は震える」]
 				'''
 		}
 	}
 
-	Scroll: {
+	SpawnBlock: {
 		CalamityMod: {
-			ScrollOfEffigies: {
-				DisplayName: 偶像の巻物
-				Tooltip:
-					'''
-					インベントリにある間、周囲のプレイヤーが真紅、不浄、腐敗の偶像バフを得る
-					「これ、本当に紙なのか！？」
-					'''
-				CalRemixTooltip: インベントリにある間、周囲のプレイヤーが真紅、不浄、アストラル、聖域、腐敗の偶像バフを得る
+			VoodooDemonVoodooDoll: {
+				Tooltip: 近くにブードゥーデーモンが出現しなくなる
 			}
 
-			ScrollOfDepths: {
-				DisplayName: 深淵探索の書
-				Tooltip: 深淵をより快適に探索できるようになる
+			AntiCystOintment: {
+				Tooltip: 近くにパーフォレーターシストが出現しなくなる
 			}
 
-			AlcoholicsCodex: {
-				DisplayName: 酒豪の蝋燭
-				Tooltip:
-					'''
-					右クリックで効果を切り替え
-					現在のスプライトは仮
-					'''
+			AntiTumorOintment: {
+				Tooltip: 近くにハイブトゥーマーが出現しなくなる
 			}
 
-			AlcoholicsCodexResilient: {
-				DisplayName: 酒豪の蝋燭（不屈）
-				Tooltip:
-					'''
-					ダメージ軽減率が10%増加
-					難易度が上がるほど強化される
-					右クリックで効果を切り替え
-					'''
+			BleachBall: {
+				Tooltip: アクアティック・スカージが出現しなくなる
 			}
 
-			AlcoholicsCodexSpiteful: {
-				DisplayName: 酒豪の蝋燭（悪意）
-				Tooltip:
-					'''
-					敵が受けるダメージが7%増加する
-					この追加ダメージは敵のダメージ軽減や防御を無視する
-					右クリックで効果を切り替え
-					'''
+			SirenproofEarMuffs: {
+				Tooltip: 近くにアナヒタが出現しなくなる
 			}
 
-			AlcoholicsCodexVigorous: {
-				DisplayName: 酒豪の蝋燭（活力）
-				Tooltip:
-					'''
-					1秒ごとに最大体力の0.4%を回復する
-					この自然回復は移動中でも常に効果を発揮し、リベンジェンスモードの上限を無視する
-					右クリックで効果を切り替え
-					'''
-			}
-
-			AlcoholicsCodexWeightless: {
-				DisplayName: 酒豪の蝋燭（軽快）
-				Tooltip:
-					'''
-					移動速度10%、飛行時間10%、加速度10%を得る
-					右クリックで効果を切り替え
-					'''
-			}
-
-			ScrollOfInfiniteAscent: {
-				DisplayName: 天翔の書
-				Tooltip:
-					'''
-					飛行時間、ジャンプ速度を強化し、落下ダメージを無効化
-					「さらに高く、遠くへ、そして安全！空を翔ける者に最適」
-					'''
-			}
-
-			ScrollOfCalamity: {
-				DisplayName: 災厄の書
-				Tooltip: 深淵に居続けることができ、機動力などが向上する
-			}
-
-			ScrollOfAstral: {
-				DisplayName: 星の書
-				Tooltip:
-					'''
-					マナ回復を強化し、重力を安定化させる
-					[c/9400D3:「星の力の均衡がエネルギーを整え、足取りを軽くしてくれる」]
-					'''
-			}
-
-			FermentedBook: {
-				DisplayName: 発酵の書
-				Tooltip:
-					'''
-					すべてのアルコールバフの効果を得る
-					[c/FF9900:「発酵の力でステータスが強化される]
-					[c/FF9900:　だが、中毒には注意が必要」]
-  
-					同時に発動できるアルコール効果は3種類まで
-					  
-					豆知識：シュメール人などの古代文明は
-					5000年以上前からビールのレシピを記録していた
-
-					'''
-			}
-		}
-
-		AlchemistNPCLite: {
-			WorldWarperScroll: {
-				DisplayName: 次元転移の書 {0}
-				Tooltip:
-					'''
-					{0}
-					[c/FFC300:Shift+左クリックでモード変更]
-					'''
-				None: "[c/FFC300:アイテム使用で最初のモードに変更]"
-				Beach:
-					'''
-					[c/FFC300:左クリックで左側の浜辺にテレポート]
-					[c/FFC300:右クリックで右側の浜辺にテレポート]
-					'''
-				BeachName: 浜辺
-				Dungeon: "[c/FFC300:左/右クリックでダンジョン入口にテレポート]"
-				DungeonName: ダンジョン
-				Jungle:
-					'''
-					[c/FFC300:左クリックでジャングルにテレポート]
-					[c/FFC300:右クリックで最寄りのマホガニーの木にテレポート]
-					'''
-				JungleName: ジャングル
-				Ocean:
-					'''
-					[c/FFC300:左クリックで左端にテレポート]
-					[c/FFC300:右クリックで右端にテレポート]
-					'''
-				OceanName: 海
-				Temple: "[c/FFC300:左/右クリックでリザードの祭壇にテレポート]"
-				TempleName: 寺院
-				Underworld:
-					'''
-					[c/FFC300:左クリックで左側にテレポート]
-					[c/FFC300:右クリックで右側にテレポート]
-					'''
-				UnderworldName: 地底世界
-			}
-
-			ScrollOfMinerAlchemist: {
-				DisplayName: 光輝の探鉱者の書
-				Tooltip:
-					'''
-					採掘速度が上昇し、罠を可視化し、道を照らす
-					安全かつ迅速に探索できる
-					'''
-			}
-
-			ScrollOfWarriorAlchemist: {
-				DisplayName: 不屈と影の書
-				Tooltip: 回避能力と防御力を高める
-			}
-
-			WorldWarperBeach: {
-				DisplayName: ワールドワープ：浜辺
-				Tooltip: ""
-			}
-
-			WorldWarperDungeon: {
-				DisplayName: ワールドワープ：ダンジョン
-				Tooltip: ""
-			}
-
-			WorldWarperJungle: {
-				DisplayName: ワールドワープ：ジャングル
-				Tooltip: ""
-			}
-
-			WorldWarperTemple: {
-				DisplayName: ワールドワープ：寺院
-				Tooltip: ""
-			}
-
-			WorldWarperUnderworld: {
-				DisplayName: ワールドワープ：地底世界
-				Tooltip: ""
+			BrokenWaterFilter: {
+				Tooltip: 酸性雨の自然発生が無効になる
 			}
 		}
 	}
 
-	UnlimitedRound: {
-		CalamityMod: {
-			EndlessBloodfirePouch: {
-				DisplayName: 無限血炎の弾丸のポーチ
-				Tooltip:
-					'''
-					ブロックを貫通し、命中時に自然回復を加速
-					現在と自然回復量に応じて追加ダメージ（最大35）
-					[c/FF4500:「血潮を燃やし力に変えろ]
-					[c/8B0000:　血を燃やせ、敵も燃やせ」]
-					'''
-			}
-
-			EndlessBubonicPouch: {
-				DisplayName: 無限疫病の弾丸のポーチ
-				Tooltip:
-					'''
-					接触すると病原性の疫病が撒き散らされる
-					敵の防御力を10%無視する
-					[c/6B8E23:「疫病で敵を腐敗させろ]
-					[c/556B2F:　気づかぬうちに蝕まれる」]
-					'''
-			}
-
-			EndlessDryadPouch: {
-				DisplayName: 無限ドライアドの涙のポーチ
-				Tooltip:
-					'''
-					何かにぶつかると自然の破片に分裂する
-					[c/32CD32:「自然の力で敵を追い詰めろ]
-					[c/228B22:　野生の怒りを破片に込めて」]
-					'''
-			}
-
-			EndlessFlashPouch: {
-				DisplayName: 無限フラッシュ弾のポーチ
-				Tooltip:
-					'''
-					広範囲の敵を短時間混乱させる爆風を放つ
-					[c/FFD700:「敵を眩ませ混乱させろ]
-					[c/ADFF2F:　光が消え混乱が始まる」]
-					'''
-			}
-
-			EndlessGodSlayerPouch: {
-				DisplayName: 無限神殺しのスラグ弾のポーチ
-				Tooltip:
-					'''
-					時空を切り裂く無制限の貫通力を持つ弾
-					スラグ弾がヒットした後、壁にぶつかったり、貫通する標的がなくなったりした場合
-					プレイヤーの後方にワープし、何かに当たると爆発する
-					[c/8A2BE2:「神をも討つ力で現実を切り裂け]
-					[c/4B0082:　終わりは始まり、時空が従う」]
-					'''
-			}
-
-			EndlessHailstormPouch: {
-				DisplayName: 無限ヘイルストーム弾のポーチ
-				Tooltip:
-					'''
-					強力な氷の魔法が込められた弾丸
-					発射後、急速に減速する
-					クリティカルヒット時に追加ダメージを与え、敵を凍結させる
-					[c/00BFFF:「氷の嵐を解き放ち、][c/4682B4:骨まで凍らせろ」]
-					'''
-			}
-
-			EndlessHallowPointPouch: {
-				DisplayName: 無限ハローポイント弾のポーチ
-				Tooltip:
-					'''
-					勇ましい光によって、ヒット時に6の追加ダメージを与える
-					この効果は、弾丸が特殊な銃によって変換されている場合は発生しない
-					[c/FFD700:「輝ける弾丸で闇を射抜け]
-					[c/FF6347:　一発ごとに光が導く」]
-					'''
-			}
-
-			EndlessHolyPouch: {
-				DisplayName: 無限聖なる炎の弾丸のポーチ
-				Tooltip:
-					'''
-					25ダメージを与える聖なる爆発弾
-					発射時により大きな爆発を起こす
-					[c/FFB6C1:「神聖なる炎で闇を浄化せよ]
-					[c/FFA07A:　義のための浄化の爆炎」]
-					'''
-			}
-
-			EndlessHyperiusPouch: {
-				DisplayName: 無限ハイペリウス弾のポーチ
-				Tooltip:
-					'''
-					カラフルな弾丸で15ダメージ
-					命中時に渦巻く光に分裂する
-					[c/9370DB:「鮮やかな火力で敵を照らせ]
-					[c/FF1493:　色彩と破壊の饗宴」]
-					'''
-			}
-
-			EndlessMarksmanPouch: {
-				DisplayName: 無限マークスマンの弾丸ポーチ
-				Tooltip:
-					'''
-					命中精度を追求し、15ダメージを与える
-					空中のコインに跳弾させることで、戦術的な使い方が可能
-					[c/32CD32:「狙い澄ました一撃で確実に仕留めろ]
-					[c/FF69B4:　コインを活用し火力を引き上げよ」]
-					'''
-			}
-
-			EndlessRubberMortarPouch: {
-				DisplayName: ラバーモーターの弾丸
-				Tooltip:
-					'''
-					25ダメージを与える特殊な高威力の爆発弾
-					バウンドするたびにブロックを破壊する
-					[c/FFD700:「跳ねるたびに混沌を解き放つ」]
-					'''
-			}
-
-			EndlessMortarPouch: {
-				DisplayName: 無限モーター弾丸ポーチ
-				Tooltip:
-					'''
-					15ダメージを与える特殊な高威力の爆発弾
-					ブロックを破壊する
-					[c/FF4500:「爆発の代償を覚悟せよ」]
-					'''
-			}
-		}
+	DrillStorm: {
+		DisplayName: ドリルの嵐
+		Tooltip:
+			'''
+			[c/ADD8E6:-Storm of Drills-]
+			[c/ADD8E6:無数のドリルの怒りを解き放つ]
+			[c/ADD8E6:「大地をいとも容易く引き裂く」]
+			'''
 	}
 
-	UnlimitedTorches: {
-		BaseTooltip: "{0}が無限に使える"
+	CityKeys: {
+		DisplayName: 都市の鍵
+		Tooltip:
+			'''
+			[c/FFA500:-Urban Keys-]
+			[c/FFA500:街の秘密を解き明かす]
+			[c/FFA500:「すべての隠し扉を開く鍵」]
+			'''
+	}
 
-		CalamityMod: {
-			EndlessAbyssTorch: {
-				DisplayName: 無限深淵のたいまつ
-			}
+	RogueScarf: {
+		DisplayName: 盗賊のマント
+		Tooltip:
+			'''
+			[c/800080:-Bandit’s Mantle-]
+			[c/800080:影に身を隠す]
+			[c/800080:「真のならず者の相棒」]
+			'''
+	}
 
-			EndlessAlgalPrismTorch: {
-				DisplayName: 無限アルガルプリズムのたいまつ
-			}
+	UnlimitedThrownName: 無限{0}
 
-			EndlessAstralTorch: {
-				DisplayName: 無限アストラルのたいまつ
-			}
-
-			EndlessGloomTorch: {
-				DisplayName: 無限闇のたいまつ
-			}
-
-			EndlessNavyPrismTorch: {
-				DisplayName: 無限軍用プリズムのたいまつ
-			}
-
-			EndlessRefractivePrismTorch: {
-				DisplayName: 無限屈折プリズムのたいまつ
-			}
-
-			EndlessSulphurousTorch: {
-				DisplayName: 無限硫黄のたいまつ
-			}
-		}
-
-		ThoriumMod: {
-			EndlessBlackTorch: {
-				DisplayName: 無限闇のたいまつ
-			}
-
-			EndlessDeeplightTorch: {
-				DisplayName: 無限深海のたいまつ
-			}
-
-			EndlessMagentaTorch: {
-				DisplayName: 無限マゼンタのたいまつ
-			}
-		}
+	DebugPotion: {
+		DisplayName: Debug Potion
+		Tooltip: ""
 	}
 }
 
@@ -1687,6 +1735,16 @@ Buffs: {
 	DebugPowerBuff: {
 		Description: Mods.UnofficialLuiAFKDLC.Buffs.DebugPowerBuff.Description
 		DisplayName: Debug Power Buff
+	}
+
+	FakeGnomeBuff: {
+		DisplayName: Gnome
+		Description: Increase your luck
+	}
+
+	FakeLadybugBuff: {
+		DisplayName: Fake Ladybug Buff
+		Description: Increase your luck
 	}
 }
 
@@ -1739,5 +1797,26 @@ FishingRod: {
 	Bait: エサ
 	Power: パワー
 	Quests1: "{0}回の釣り{^0:クエスト;クエスト}達成ごとに糸が追加される"
+}
+
+UI: {
+	PowerEffect: 能力効果
+	Spawn: スポーン
+	PowerToggleTitleTemplate: "[TITLE] （有効 [CUR]/[MAX] ）"
+	GroupAlcohol: 酒
+	GroupFlask: フラスコ
+	GroupCandle: ロウソク
+	GroupModdedBuff: Mod追加バフ
+	GroupOffensive: 攻撃
+	GroupDefensive: 防御
+	GroupBuff: バフ
+	GroupSpawnRate: スポーン率
+	GroupSpawnBlock: スポーン切り替えアイテム
+	BuffOn: バフ有効 左クリックで切り替え
+	BuffOff: バフ無効 左クリックで切り替え
+	VisualOn: 視覚効果有効 右クリックで切り替え
+	VisualOff: 視覚効果無効 右クリックで切り替え
+	SpawnBlockOn: 現在有効 左クリックで切り替え
+	SpawnBlockOff: 現在無効 左クリックで切り替え
 }
 
