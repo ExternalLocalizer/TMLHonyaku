@@ -1,379 +1,391 @@
+ModSupport: {
+	MusicDisplay: {
+		Authors: {
+			RoverdriveX: by RoverdriveX
+			PinpinNeon: by PinpinNeon
+			HeartPlusUp: by Heart Plus Up!
+			DMDOKUROFeature: by DM DOKURO and SixteenInMono
+			DMDOKURO: by DM DOKURO
+			CDMusic: by CDMusic
+			AquaSG: by AquaSG
+		}
+
+		SongNames: {
+			YharonPhase2: Roar of the Jungle Dragon
+			YharonPhase1: Infernal Catharsis (Rebirth)
+			YharonLegacy: Infernal Catharsis
+			SunkenSea: sanctuary
+			SulphurousSeaRain: septication
+			SulphurousSeaNight: caustic tides
+			SulphurousSeaDay: wasteland
+			StormWeaver: Servants of the Scourge (Type W)
+			SlimeGod: Return to Slime
+			Signus: Servants of the Scourge (Type S)
+			Ravager: Open Frenzy
+			Providence: Unholy Insurgency
+			ProfanedGuardians: Unholy Ambush
+			PrimordialWyrm: Threats of the Ocean Floor
+			Polterghast: Feral Amalgamation
+			PlaguebringerGoliath: Fly of Beelzebub
+			Perforators: Blood Coagulant
+			OldDuke: Toxic Wisdom
+			Leviathan: Forbidden Lullaby
+			Interlude3: Catastrophes before the calamity
+			Interlude2: Storms before the catastrophes
+			Interlude1: Silence before the storms
+			HiveMind: The Filthy Mind
+			ExoMechs: Inferior Fabrications
+			Dragonfolly: Murderswarm
+			DevourerofGodsPhase2: Universal Collapse
+			DevourerofGodsPhase1: Scourge of the Universe
+			DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
+			DesertScourge: Guardian of the Former Seas
+			Cryogen: Antarctic Reinforcement
+			Crabulon: Infestation
+			CeaselessVoid: Servants of the Scourge (Type V)
+			CalamityTitle: The Tale of a Cruel World
+			CalamitasPhase3: Stained, Brutal Calamity (Epiphany)
+			CalamitasPhase2: Stained, Brutal Calamity (Lament)
+			CalamitasPhase1: Stained, Brutal Calamity (Grief)
+			CalamitasDefeat_LongFade: Stained, Brutal Calamity (Acceptance)
+			CalamitasDefeat: Stained, Brutal Calamity (Acceptance)
+			CalamitasClone: Raw, Unfiltered Calamity
+			BrimstoneElemental: Left Alone
+			BrimstoneCrags: The Step Below Hell
+			BossRushTier4: Trial of the Insane
+			BossRushTier3: Reign of Lords
+			BossRushTier2: Onslaught of Beasts
+			BossRushTier1: Ensemble of Fools
+			BioLab: Engineer's Sanctum
+			AstrumDeus: Pest of the Cosmos
+			AstrumAureus: Interstellar Stomper
+			AstralInfectionUnderground: Treasures Within the Abomination
+			AstralInfection: The Heaven-Sent Abomination
+			AquaticScourge: Outcast of the Sulphurous Seas
+			AnahitasLure: Siren's Call
+			Anahita: Siren's War Cry
+			AcidRainTier3: nuclear monsoon
+			AcidRainTier1: corrosion!
+			AbyssLegacy: R'LYEH
+			AbyssLayer4: void
+			AbyssLayer3: R'LYEH
+			AbyssLayer2: Hadopelagic Pressure
+			AbyssLayer1: hesitation
+		}
+	}
+}
+
 Items: {
-	AbyssLayer1MusicBox: {
-		DisplayName: オルゴール (深淵 - 1層)
-		Tooltip: Heart Plus Up!制作の「hesitation」を再生する
+	YharonPhase2MusicBox: {
+		Tooltip: DM DOKURO制作の「Infernal Catharsis (Rebirth) - Phase 2」を再生する
+		DisplayName: オルゴール (ヤーロン - フェーズ 2)
 	}
 
-	AbyssLayer2MusicBox: {
-		DisplayName: オルゴール (深淵 - 2層)
-		Tooltip: DM DOKURO制作の「Hadopelagic Pressure」を再生する
+	YharonPhase1MusicBox: {
+		Tooltip: DM DOKURO制作の「Infernal Catharsis (Rebirth)」を再生する
+		DisplayName: オルゴール (ヤーロン - フェーズ 1)
 	}
 
-	AbyssLayer3MusicBox: {
-		DisplayName: オルゴール (深淵 - 3層)
-		Tooltip: RoverdriveX制作の「R'LYEH」を再生する
+	YharonLegacyMusicBox: {
+		Tooltip: DM DOKURO制作の「Infernal Catharsis」を再生する
+		DisplayName: オルゴール (ヤーロン - 旧バージョン)
 	}
 
-	AbyssLayer4MusicBox: {
-		DisplayName: オルゴール (深淵 - 4層)
-		Tooltip: DM DOKURO制作の「void」を再生する
+	SunkenSeaMusicBox: {
+		Tooltip: DM DOKURO制作の「sanctuary」を再生する
+		DisplayName: オルゴール (沈没海)
 	}
 
-	AcidRainTier1MusicBox: {
-		DisplayName: オルゴール (酸性雨 - ティア 1、2)
-		Tooltip:
-			'''
-			RoverdriveX制作の「corrosion!」を再生する
-			このオルゴールには仮の楽曲が収録されています
-			'''
+	SulphurousSeaRainMusicBox: {
+		Tooltip: Plays 'septication' by Heart Plus Up!
+		DisplayName: Music Box (Sulphurous Sea Rain)
 	}
 
-	AcidRainTier3MusicBox: {
-		DisplayName: オルゴール (酸性雨 - ティア 3)
-		Tooltip:
-			'''
-			PinpinNeon制作の「nuclear monsoon」を再生する
-			このオルゴールには仮の楽曲が収録されています
-			'''
+	SulphurousSeaNightMusicBox: {
+		Tooltip: Heart Plus Up!制作の「caustic tides」を再生する
+		DisplayName: オルゴール (硫黄の海 - 夜)
 	}
 
-	AnahitaMusicBox: {
-		DisplayName: オルゴール (アナヒタ)
-		Tooltip: DM DOKURO制作の「Siren's War Cry」を再生する
+	SulphurousSeaDayMusicBox: {
+		Tooltip: DM DOKURO制作の「wasteland」を再生する
+		DisplayName: オルゴール (硫黄の海 - 昼)
 	}
 
-	AnahitasLureMusicBox: {
-		DisplayName: オルゴール (アナヒタの誘い)
-		Tooltip: DM DOKURO制作の「Siren's Call」を再生する
+	StormWeaverMusicBox: {
+		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type W)」を再生する
+		DisplayName: オルゴール (ストームウィーバー)
 	}
 
-	AquaticScourgeMusicBox: {
-		DisplayName: オルゴール (アクアティックスカージ)
-		Tooltip: DM DOKURO制作の「Outcast of the Sulphurous Seas」を再生する
+	SlimeGodMusicBox: {
+		Tooltip: DM DOKUROとSixteenInMono制作の「Return to Slime」を再生する
+		DisplayName: オルゴール (スライムゴッド)
 	}
 
-	AstralInfectionMusicBox: {
-		DisplayName: オルゴール (アストラル汚染地帯)
-		Tooltip: DM DOKURO制作の「The Heaven-Sent Abomination」を再生する
+	SignusMusicBox: {
+		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type S)」を再生する
+		DisplayName: オルゴール (シグナス)
 	}
 
-	AstralInfectionUndergroundMusicBox: {
-		DisplayName: オルゴール (アストラル汚染地帯 - 地下)
-		Tooltip: DM DOKURO制作の「Treasures Within the Abomination」を再生する
+	RavagerMusicBox: {
+		Tooltip: DM DOKURO制作の「Open Frenzy」を再生する
+		DisplayName: オルゴール (ラヴェジャー)
 	}
 
-	AstrumAureusMusicBox: {
-		DisplayName: オルゴール (アストラムアウレウス)
-		Tooltip: DM DOKURO制作の「Interstellar Stomper」を再生する
+	ProvidenceMusicBox: {
+		Tooltip: DM DOKURO制作の「Unholy Insurgency」を再生する
+		DisplayName: オルゴール (プロヴィデンス)
 	}
 
-	AstrumDeusMusicBox: {
-		DisplayName: オルゴール (アストラムデウス)
-		Tooltip: DM DOKURO制作の「Pest of the Cosmos」を再生する
+	ProfanedGuardiansMusicBox: {
+		Tooltip: DM DOKURO制作の「Unholy Ambush」を再生する
+		DisplayName: オルゴール (冒涜された守護者)
 	}
 
-	BioLabMusicBox: {
-		DisplayName: オルゴール (研究所)
-		Tooltip: Heart Plus Up!制作の「Engineer's Sanctum」を再生する
+	PrimordialWyrmMusicBox: {
+		Tooltip: DM DOKURO制作の「Threats of the Ocean Floor」を再生する
+		DisplayName: オルゴール (原初の竜)
 	}
 
-	BossRushTier1MusicBox: {
-		DisplayName: オルゴール (ボスラッシュ - ティア 1)
-		Tooltip: CDMusic制作の「Ensemble of Fools」を再生する
+	PolterghastMusicBox: {
+		Tooltip: DM DOKURO制作の「Feral Amalgamation」を再生する
+		DisplayName: オルゴール (ポルターガスト)
 	}
 
-	BossRushTier2MusicBox: {
-		DisplayName: オルゴール (ボスラッシュ - ティア 2)
-		Tooltip: CDMusic制作の「Onslaught of Beasts」を再生する
+	PlaguebringerGoliathMusicBox: {
+		Tooltip: DM DOKURO制作の「Fly of Beelzebub」を再生する
+		DisplayName: オルゴール (プレイグブリンガーゴリアテ)
 	}
 
-	BossRushTier3MusicBox: {
-		DisplayName: オルゴール (ボスラッシュ - ティア 3)
-		Tooltip: CDMusic制作の「Reign of Lords」を再生する
+	PerforatorsMusicBox: {
+		Tooltip: DM DOKUROとSixteenInMono制作の「Blood Coagulant」を再生する
+		DisplayName: オルゴール (パーフォレーター)
 	}
 
-	BossRushTier4MusicBox: {
-		DisplayName: オルゴール (ボスラッシュ - ティア 4)
-		Tooltip: CDMusic制作の「Trial of the Insane」を再生する
+	OldDukeMusicBox: {
+		Tooltip: DM DOKURO制作の「Toxic Wisdom」を再生する
+		DisplayName: オルゴール (オールドデューク)
 	}
 
-	BossRushTier5MusicBox: {
-		DisplayName: オルゴール (ボスラッシュ - ティア 5)
-		Tooltip: このオルゴールは未完成のため再生できません
+	LeviathanMusicBox: {
+		Tooltip: DM DOKURO制作の「Forbidden Lullaby」を再生する
+		DisplayName: オルゴール (リヴァイアサン)
 	}
 
-	BrimstoneCragsMusicBox: {
-		DisplayName: オルゴール (煉獄の岩山)
-		Tooltip: DM DOKURO制作の「The Step Below Hell」を再生する
+	Interlude3MusicBox: {
+		Tooltip: DM DOKURO制作の「Catastrophes before the calamity」を再生する
+		DisplayName: オルゴール (間奏 3)
 	}
 
-	BrimstoneElementalMusicBox: {
-		DisplayName: オルゴール (ブリムストーンエレメンタル)
-		Tooltip: DM DOKURO制作の「Left Alone」を再生する
+	Interlude2MusicBox: {
+		Tooltip: DM DOKURO制作の「Storms before the catastrophes」を再生する
+		DisplayName: オルゴール (間奏 2)
 	}
 
-	CalamitasCloneMusicBox: {
-		DisplayName: オルゴール (カラミタスクローン)
-		Tooltip: DM DOKURO制作の「Raw, Unfiltered Calamity」を再生する
+	Interlude1MusicBox: {
+		Tooltip: DM DOKURO制作の「Silence before the storms」を再生する
+		DisplayName: オルゴール (間奏 1)
 	}
 
-	CalamitasDefeatMusicBox: {
-		DisplayName: オルゴール (カラミタス - 撃破)
-		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Acceptance)」を再生する
-	}
-
-	CalamitasPhase1MusicBox: {
-		DisplayName: オルゴール (カラミタス - フェーズ 1)
-		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Grief)」を再生する
-	}
-
-	CalamitasPhase2MusicBox: {
-		DisplayName: オルゴール (カラミタス - フェーズ 2)
-		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Lament)」を再生する
-	}
-
-	CalamitasPhase3MusicBox: {
-		DisplayName: オルゴール (カラミタス - フェーズ 3)
-		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Epiphany)」を再生する
-	}
-
-	CalamityTitleMusicBox: {
-		DisplayName: オルゴール (Calamity タイトル画面)
-		Tooltip: DM DOKURO制作の「The Tale of a Cruel World」を再生する
-	}
-
-	CeaselessVoidMusicBox: {
-		DisplayName: オルゴール (シースレスヴォイド)
-		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type V)」を再生する
-	}
-
-	CrabulonMusicBox: {
-		DisplayName: オルゴール (クラブロン)
-		Tooltip: DM DOKURO制作の「Infestation」を再生する
-	}
-
-	CryogenMusicBox: {
-		DisplayName: オルゴール (クライオジェン)
-		Tooltip: DM DOKURO制作の「Antarctic Reinforcement」を再生する
-	}
-
-	DesertScourgeMusicBox: {
-		DisplayName: オルゴール (デザートスカージ)
-		Tooltip: DM DOKURO制作の「Guardian of the Former Seas」を再生する
-	}
-
-	DevourerofGodsEulogyMusicBox: {
-		DisplayName: オルゴール (デバウアーオブゴッド - 撃破)
-		Tooltip: DM DOKURO制作の「Scourge of the Universe (Eulogy for the Ego)」を再生する
-	}
-
-	DevourerofGodsPhase1MusicBox: {
-		DisplayName: オルゴール (デバウアーオブゴッド - フェーズ 1)
-		Tooltip: DM DOKURO制作の「Scourge of the Universe」を再生する
-	}
-
-	DevourerofGodsPhase2MusicBox: {
-		DisplayName: オルゴール (デバウアーオブゴッド - フェーズ 2)
-		Tooltip: DM DOKURO制作の「Universal Collapse」を再生する
-	}
-
-	DragonfollyMusicBox: {
-		DisplayName: オルゴール (ドラゴンフォーリー)
-		Tooltip: DM DOKURO制作の「Murderswarm」を再生する
+	HiveMindMusicBox: {
+		Tooltip: DM DOKUROとSixteenInMono制作の「The Filthy Mind」を再生する
+		DisplayName: オルゴール (ハイブマインド)
 	}
 
 	ExoMechsMusicBox: {
-		DisplayName: オルゴール (エクソメカ)
 		Tooltip:
 			'''
 			PinpinNeon制作の「Inferior Fabrications」を再生する
 			このオルゴールには仮の楽曲が収録されています
 			'''
+		DisplayName: オルゴール (エクソメカ)
 	}
 
-	HiveMindMusicBox: {
-		DisplayName: オルゴール (ハイブマインド)
-		Tooltip: DM DOKUROとSixteenInMono制作の「The Filthy Mind」を再生する
+	DragonfollyMusicBox: {
+		Tooltip: DM DOKURO制作の「Murderswarm」を再生する
+		DisplayName: オルゴール (ドラゴンフォーリー)
 	}
 
-	Interlude1MusicBox: {
-		DisplayName: オルゴール (間奏 1)
-		Tooltip: DM DOKURO制作の「Silence before the storms」を再生する
+	DevourerofGodsPhase2MusicBox: {
+		Tooltip: DM DOKURO制作の「Universal Collapse」を再生する
+		DisplayName: オルゴール (デバウアーオブゴッド - フェーズ 2)
 	}
 
-	Interlude2MusicBox: {
-		DisplayName: オルゴール (間奏 2)
-		Tooltip: DM DOKURO制作の「Storms before the catastrophes」を再生する
+	DevourerofGodsPhase1MusicBox: {
+		Tooltip: DM DOKURO制作の「Scourge of the Universe」を再生する
+		DisplayName: オルゴール (デバウアーオブゴッド - フェーズ 1)
 	}
 
-	Interlude3MusicBox: {
-		DisplayName: オルゴール (間奏 3)
-		Tooltip: DM DOKURO制作の「Catastrophes before the calamity」を再生する
+	DevourerofGodsEulogyMusicBox: {
+		Tooltip: DM DOKURO制作の「Scourge of the Universe (Eulogy for the Ego)」を再生する
+		DisplayName: オルゴール (デバウアーオブゴッド - 撃破)
 	}
 
-	LeviathanMusicBox: {
-		DisplayName: オルゴール (リヴァイアサン)
-		Tooltip: DM DOKURO制作の「Forbidden Lullaby」を再生する
+	DesertScourgeMusicBox: {
+		Tooltip: DM DOKURO制作の「Guardian of the Former Seas」を再生する
+		DisplayName: オルゴール (デザートスカージ)
 	}
 
-	OldDukeMusicBox: {
-		DisplayName: オルゴール (オールドデューク)
-		Tooltip: DM DOKURO制作の「Toxic Wisdom」を再生する
+	CryogenMusicBox: {
+		Tooltip: DM DOKURO制作の「Antarctic Reinforcement」を再生する
+		DisplayName: オルゴール (クライオジェン)
 	}
 
-	PerforatorsMusicBox: {
-		DisplayName: オルゴール (パーフォレーター)
-		Tooltip: DM DOKUROとSixteenInMono制作の「Blood Coagulant」を再生する
+	CrabulonMusicBox: {
+		Tooltip: DM DOKURO制作の「Infestation」を再生する
+		DisplayName: オルゴール (クラブロン)
 	}
 
-	PlaguebringerGoliathMusicBox: {
-		DisplayName: オルゴール (プレイグブリンガーゴリアテ)
-		Tooltip: DM DOKURO制作の「Fly of Beelzebub」を再生する
+	CeaselessVoidMusicBox: {
+		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type V)」を再生する
+		DisplayName: オルゴール (シースレスヴォイド)
 	}
 
-	PolterghastMusicBox: {
-		DisplayName: オルゴール (ポルターガスト)
-		Tooltip: DM DOKURO制作の「Feral Amalgamation」を再生する
+	CalamityTitleMusicBox: {
+		Tooltip: DM DOKURO制作の「The Tale of a Cruel World」を再生する
+		DisplayName: オルゴール (Calamity タイトル画面)
 	}
 
-	PrimordialWyrmMusicBox: {
-		DisplayName: オルゴール (原初のワーム)
-		Tooltip: DM DOKURO制作の「Threats of the Ocean Floor」を再生する
+	CalamitasPhase3MusicBox: {
+		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Epiphany)」を再生する
+		DisplayName: オルゴール (カラミタス - フェーズ 3)
 	}
 
-	ProfanedGuardiansMusicBox: {
-		DisplayName: オルゴール (冒涜された守護者)
-		Tooltip: DM DOKURO制作の「Unholy Ambush」を再生する
+	CalamitasPhase2MusicBox: {
+		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Lament)」を再生する
+		DisplayName: オルゴール (カラミタス - フェーズ 2)
 	}
 
-	ProvidenceMusicBox: {
-		DisplayName: オルゴール (プロヴィデンス)
-		Tooltip: DM DOKURO制作の「Unholy Insurgency」を再生する
+	CalamitasPhase1MusicBox: {
+		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Grief)」を再生する
+		DisplayName: オルゴール (カラミタス - フェーズ 1)
 	}
 
-	RavagerMusicBox: {
-		DisplayName: オルゴール (ラヴェジャー)
-		Tooltip: DM DOKURO制作の「Open Frenzy」を再生する
+	CalamitasDefeatMusicBox: {
+		Tooltip: DM DOKURO制作の「Stained, Brutal Calamity (Acceptance)」を再生する
+		DisplayName: オルゴール (カラミタス - 撃破)
 	}
 
-	SignusMusicBox: {
-		DisplayName: オルゴール (シグナス)
-		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type S)」を再生する
+	CalamitasCloneMusicBox: {
+		Tooltip: DM DOKURO制作の「Raw, Unfiltered Calamity」を再生する
+		DisplayName: オルゴール (カラミタスクローン)
 	}
 
-	SlimeGodMusicBox: {
-		DisplayName: オルゴール (スライムゴッド)
-		Tooltip: DM DOKUROとSixteenInMono制作の「Return to Slime」を再生する
+	BrimstoneElementalMusicBox: {
+		Tooltip: DM DOKURO制作の「Left Alone」を再生する
+		DisplayName: オルゴール (ブリムストーンエレメンタル)
 	}
 
-	StormWeaverMusicBox: {
-		DisplayName: オルゴール (ストームウィーバー)
-		Tooltip: DM DOKURO制作の「Servants of the Scourge (Type W)」を再生する
+	BrimstoneCragsMusicBox: {
+		Tooltip: DM DOKURO制作の「The Step Below Hell」を再生する
+		DisplayName: オルゴール (煉獄の岩山)
 	}
 
-	SulphurousSeaDayMusicBox: {
-		DisplayName: オルゴール (硫黄の海 - 昼)
-		Tooltip: DM DOKURO制作の「wasteland」を再生する
+	BossRushTier5MusicBox: {
+		Tooltip: このオルゴールは未完成のため再生できません
+		DisplayName: オルゴール (ボスラッシュ - ティア 5)
 	}
 
-	SulphurousSeaNightMusicBox: {
-		DisplayName: オルゴール (硫黄の海 - 夜)
-		Tooltip: Heart Plus Up!制作の「caustic tides」を再生する
+	BossRushTier4MusicBox: {
+		Tooltip: CDMusic制作の「Trial of the Insane」を再生する
+		DisplayName: オルゴール (ボスラッシュ - ティア 4)
 	}
 
-	SunkenSeaMusicBox: {
-		DisplayName: オルゴール (沈没海)
-		Tooltip: DM DOKURO制作の「sanctuary」を再生する
+	BossRushTier3MusicBox: {
+		Tooltip: CDMusic制作の「Reign of Lords」を再生する
+		DisplayName: オルゴール (ボスラッシュ - ティア 3)
 	}
 
-	YharonLegacyMusicBox: {
-		DisplayName: オルゴール (ヤーロン - 旧バージョン)
-		Tooltip: DM DOKURO制作の「Infernal Catharsis」を再生する
+	BossRushTier2MusicBox: {
+		Tooltip: CDMusic制作の「Onslaught of Beasts」を再生する
+		DisplayName: オルゴール (ボスラッシュ - ティア 2)
 	}
 
-	YharonPhase1MusicBox: {
-		DisplayName: オルゴール (ヤーロン - フェーズ 1)
-		Tooltip: DM DOKURO制作の「Infernal Catharsis (Rebirth)」を再生する
+	BossRushTier1MusicBox: {
+		Tooltip: CDMusic制作の「Ensemble of Fools」を再生する
+		DisplayName: オルゴール (ボスラッシュ - ティア 1)
 	}
 
-	YharonPhase2MusicBox: {
-		DisplayName: オルゴール (ヤーロン - フェーズ 2)
-		Tooltip: DM DOKURO制作の「Infernal Catharsis (Rebirth) - Phase 2」を再生する
+	BioLabMusicBox: {
+		Tooltip: Heart Plus Up!制作の「Engineer's Sanctum」を再生する
+		DisplayName: オルゴール (研究所)
 	}
-}
 
-ModSupport: {
-	MusicDisplay: {
-		SongNames: {
-			AbyssLayer1: hesitation
-			AbyssLayer2: Hadopelagic Pressure
-			AbyssLayer3: R'LYEH
-			AbyssLayer4: void
-			AcidRainTier1: corrosion!
-			AcidRainTier3: nuclear monsoon
-			Anahita: Siren's War Cry
-			AnahitasLure: Siren's Call
-			AquaticScourge: Outcast of the Sulphurous Seas
-			AstralInfection: The Heaven-Sent Abomination
-			AstralInfectionUnderground: Treasures Within the Abomination
-			AstrumAureus: Interstellar Stomper
-			AstrumDeus: Pest of the Cosmos
-			BioLab: Engineer's Sanctum
-			BossRushTier1: Ensemble of Fools
-			BossRushTier2: Onslaught of Beasts
-			BossRushTier3: Reign of Lords
-			BossRushTier4: Trial of the Insane
-			BrimstoneCrags: The Step Below Hell
-			BrimstoneElemental: Left Alone
-			CalamitasClone: Raw, Unfiltered Calamity
-			CalamitasDefeat: Stained, Brutal Calamity (Acceptance)
-			CalamitasDefeat_LongFade: Stained, Brutal Calamity (Acceptance)
-			CalamitasPhase1: Stained, Brutal Calamity (Grief)
-			CalamitasPhase2: Stained, Brutal Calamity (Lament)
-			CalamitasPhase3: Stained, Brutal Calamity (Epiphany)
-			CalamityTitle: The Tale of a Cruel World
-			CeaselessVoid: Servants of the Scourge (Type V)
-			Crabulon: Infestation
-			Cryogen: Antarctic Reinforcement
-			DesertScourge: Guardian of the Former Seas
-			DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
-			DevourerofGodsPhase1: Scourge of the Universe
-			DevourerofGodsPhase2: Universal Collapse
-			Dragonfolly: Murderswarm
-			ExoMechs: Inferior Fabrications
-			HiveMind: The Filthy Mind
-			Interlude1: Silence before the storms
-			Interlude2: Storms before the catastrophes
-			Interlude3: Catastrophes before the calamity
-			Leviathan: Forbidden Lullaby
-			OldDuke: Toxic Wisdom
-			Perforators: Blood Coagulant
-			PlaguebringerGoliath: Fly of Beelzebub
-			Polterghast: Feral Amalgamation
-			PrimordialWyrm: Threats of the Ocean Floor
-			ProfanedGuardians: Unholy Ambush
-			Providence: Unholy Insurgency
-			Ravager: Open Frenzy
-			Signus: Servants of the Scourge (Type S)
-			SlimeGod: Return to Slime
-			StormWeaver: Servants of the Scourge (Type W)
-			SulphurousSeaDay: wasteland
-			SulphurousSeaNight: caustic tides
-			SunkenSea: sanctuary
-			YharonLegacy: Infernal Catharsis
-			YharonPhase1: Infernal Catharsis (Rebirth)
-			YharonPhase2: Roar of the Jungle Dragon
-		}
+	AstrumDeusMusicBox: {
+		Tooltip: DM DOKURO制作の「Pest of the Cosmos」を再生する
+		DisplayName: オルゴール (アストラムデウス)
+	}
 
-		Authors: {
-			AquaSG: by AquaSG
-			CDMusic: by CDMusic
-			DMDOKURO: by DM DOKURO
-			DMDOKUROFeature: by DM DOKURO and SixteenInMono
-			HeartPlusUp: by Heart Plus Up!
-			PinpinNeon: by PinpinNeon
-			RoverdriveX: by RoverdriveX
-		}
+	AstrumAureusMusicBox: {
+		Tooltip: DM DOKURO制作の「Interstellar Stomper」を再生する
+		DisplayName: オルゴール (アストラムアウレウス)
+	}
+
+	AstralInfectionUndergroundMusicBox: {
+		Tooltip: DM DOKURO制作の「Treasures Within the Abomination」を再生する
+		DisplayName: オルゴール (アストラル汚染地帯 - 地下)
+	}
+
+	AstralInfectionMusicBox: {
+		Tooltip: DM DOKURO制作の「The Heaven-Sent Abomination」を再生する
+		DisplayName: オルゴール (アストラル汚染地帯)
+	}
+
+	AquaticScourgeMusicBox: {
+		Tooltip: DM DOKURO制作の「Outcast of the Sulphurous Seas」を再生する
+		DisplayName: オルゴール (アクアティックスカージ)
+	}
+
+	AnahitasLureMusicBox: {
+		Tooltip: DM DOKURO制作の「Siren's Call」を再生する
+		DisplayName: オルゴール (アナヒタの誘い)
+	}
+
+	AnahitaMusicBox: {
+		Tooltip: DM DOKURO制作の「Siren's War Cry」を再生する
+		DisplayName: オルゴール (アナヒタ)
+	}
+
+	AcidRainTier3MusicBox: {
+		Tooltip:
+			'''
+			PinpinNeon制作の「nuclear monsoon」を再生する
+			このオルゴールには仮の楽曲が収録されています
+			'''
+		DisplayName: オルゴール (酸性雨 - ティア 3)
+	}
+
+	AcidRainTier1MusicBox: {
+		Tooltip:
+			'''
+			RoverdriveX制作の「corrosion!」を再生する
+			このオルゴールには仮の楽曲が収録されています
+			'''
+		DisplayName: オルゴール (酸性雨 - ティア 1、2)
+	}
+
+	AbyssLegacyMusicBox: {
+		Tooltip: Plays 'R'LYEH' by RoverdriveX
+		DisplayName: Music Box (Abyss - Legacy)
+	}
+
+	AbyssLayer4MusicBox: {
+		Tooltip: DM DOKURO制作の「void」を再生する
+		DisplayName: オルゴール (深淵 - 4層)
+	}
+
+	AbyssLayer3MusicBox: {
+		Tooltip: RoverdriveX制作の「R'LYEH」を再生する
+		DisplayName: オルゴール (深淵 - 3層)
+	}
+
+	AbyssLayer2MusicBox: {
+		Tooltip: DM DOKURO制作の「Hadopelagic Pressure」を再生する
+		DisplayName: オルゴール (深淵 - 2層)
+	}
+
+	AbyssLayer1MusicBox: {
+		Tooltip: Heart Plus Up!制作の「hesitation」を再生する
+		DisplayName: オルゴール (深淵 - 1層)
 	}
 }
 
