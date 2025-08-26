@@ -1,4 +1,179 @@
+DamageClasses: {
+	ThoriumRogueClass: {
+		DisplayName: ローグダメージ
+	}
+}
+
 Configs: {
+	ThoriumBossRework_selection_mode: {
+		ThoriumBossRework: {
+			Label: Thorium Bosses Reworked
+		}
+
+		Ragnarok: {
+			Label: Ragnarok
+		}
+
+		Off: {
+			Label: 無効
+		}
+
+		Tooltip: ""
+	}
+
+	BossConfig: {
+		champion: {
+			Tooltip: どのAI改変を使用するかを選択できる 無効でデフォルトの挙動になる
+			Label: 埋もれた英雄のAI
+		}
+
+		granite: {
+			Tooltip: どのAI改変を使用するかを選択できる 無効でデフォルトの挙動になる
+			Label: グラニットエナジーストームのAI
+		}
+
+		viscount: {
+			Tooltip: どのAI改変を使用するかを選択できる 無効でデフォルトの挙動になる
+			Label: ヴァイカウントのAI
+		}
+
+		bossrush: {
+			Tooltip: どのボスラッシュモードを使用するかを選択 無効でボスラッシュを無効化する
+			Label: Thoriumボスラッシュ
+		}
+
+		bossstatstweak: {
+			Tooltip: ThoriumボスにCalamity対応のステータス調整（攻撃力・ライフ・防御力・被ダメージ軽減）を適用するかを選択できる
+			Label: ボスステータス調整
+		}
+
+		jelly: {
+			Tooltip: どのAI改変を使用するかを選択できる 無効でデフォルトの挙動になる
+			Label: 女王クラゲのAI
+		}
+
+		bird: {
+			Tooltip: どのAI改変を使用するかを選択できる 無効でデフォルトの挙動になる
+			Label: グランドサンダーバードのAI
+		}
+
+		Headers: {
+			BossChanges: ボス変更
+		}
+
+		DisplayName: ボス設定
+	}
+
+	CalamityBardHealer_selection_mode: {
+		CalamityBardHealer: {
+			Label: Calamity Bard & Healer
+		}
+
+		Ragnarok: {
+			Label: Ragnarok
+		}
+
+		Off: {
+			Label: 無効
+		}
+
+		Tooltip: ""
+	}
+
+	ModCompatConfig: {
+		item_deduplication_mode: {
+			Tooltip: 重複アイテムのレシピをどちらを読み込むか選択できる 無効で両方のMod版を有効化する
+			Label: Calamity Bard & Healerのアイテム重複排除
+		}
+
+		Headers: {
+			ModCompat: Mod互換性設定
+		}
+
+		DisplayName: Mod互換性設定
+	}
+
+	UIConfig: {
+		BardEmpowermentBarOffsetY: {
+			Tooltip: 吟遊詩人強化バーのY位置を調整する デフォルト値でCalamityのアイテムクールダウンとの重なりを解消する
+			Label: 吟遊詩人強化バーのY位置
+		}
+
+		BardEmpowermentBarOffsetX: {
+			Tooltip: 吟遊詩人強化バーのX位置を調整する デフォルト値でCalamityのアイテムクールダウンとの重なりを解消する
+			Label: 吟遊詩人強化バーのX位置
+		}
+
+		Headers: {
+			UITweaks: UI調整
+		}
+
+		DisplayName: UI設定
+	}
+
+	ItemBalancerConfig: {
+		genericweaponchanges: {
+			Tooltip: 全般的な武器のバランス調整を適用
+			Label: 汎用武器調整
+		}
+
+		OmegaCore: {
+			Tooltip: ゲーム進行に合わせたバランスのため、オメガのコアの移動速度ボーナスを弱体化
+			Label: オメガのコア
+		}
+
+		Headers: {
+			ItemBalanceChanges: アイテムバランス調整
+		}
+
+		DisplayName: アイテムバランス設定
+	}
+
+	ClassBalancerConfig: {
+		MeleeDamageModifier: {
+			Tooltip: 近接ダメージの倍率を変更する
+			Label: 近接ダメージ倍率
+		}
+
+		SummonDamageModifier: {
+			Tooltip: 召喚ダメージの倍率を変更する
+			Label: 召喚ダメージ倍率
+		}
+
+		MagicDamageModifier: {
+			Tooltip: 魔法ダメージの倍率を変更する
+			Label: 魔法ダメージ倍率
+		}
+
+		RangedDamageModifier: {
+			Tooltip: 遠隔ダメージの倍率を変更する
+			Label: 遠隔ダメージ倍率
+		}
+
+		RogueDamageModifier: {
+			Tooltip: ローグ/投擲ダメージの倍率を変更する
+			Label: ローグダメージ倍率
+		}
+
+		BardDamageModifier: {
+			Tooltip: 吟遊詩人ダメージの倍率を変更する
+			Label: 吟遊詩人ダメージ倍率
+		}
+
+		HealerDamageModifier: {
+			Tooltip: ヒーラーダメージの倍率を変更する
+			Label: ヒーラーダメージ倍率
+		}
+
+		Headers: {
+			ClassBalanceChanges: クラスバランス調整
+		}
+
+		DisplayName: クラスバランス設定
+	}
+}
+
+
 	OtherConfig: {
 		wip: {
 			Tooltip: ""
@@ -94,9 +269,36 @@ Configs: {
 
 		DisplayName: ボス進行設定
 	}
-}
 
 Projectiles: {
+	VirusprayerPro2: {
+		DisplayName: Virusprayer Pro2
+	}
+
+	VirusprayerPro1: {
+		DisplayName: Virusprayer Pro1
+	}
+
+	LamentationPro: {
+		DisplayName: Lamentation Pro
+	}
+
+	LamentationBoom: {
+		DisplayName: Lamentation Boom
+	}
+
+	SupremeBellPro: {
+		DisplayName: Supreme Bell Pro
+	}
+
+	DragonForcePro2: {
+		DisplayName: Dragon Force Pro2
+	}
+
+	DragonForcePro1: {
+		DisplayName: Dragon Force Pro1
+	}
+
 	ElementalBuff: {
 		DisplayName: Elemental Buff
 	}
@@ -355,6 +557,41 @@ Projectiles: {
 }
 
 Items: {
+	Virusprayer: {
+		Tooltip: 酸の泡を連射する
+		DisplayName: ウイルスプレイヤー
+	}
+
+	Lamentation: {
+		Tooltip: 爆発すると拡散する火球を放つ
+		DisplayName: 嘆きのベル
+	}
+
+	IntergelacticHeadBard: {
+		SetBonus:
+			'''
+			ノックバックと複数の移動系デバフ、星界の疫病を無効化する
+			'''
+		Tooltip:
+			'''
+			被ダメージを12%軽減
+			吟遊詩人のダメージ・クリティカル率・演奏速度が15%上昇
+			インスピレーション自然回復が15%増進
+			インスピレーション上限+4、強化効果の持続+3秒
+			敵からインスピレーションノートのドロップ確率+10%
+			'''
+		DisplayName: 星間の帽子
+	}
+
+	DragonForce: {
+		Tooltip:
+			'''
+			燃え盛る斬撃を放ち、地獄の音符に分裂する
+			「炎と怒りを超えろ」
+			'''
+		DisplayName: ドラゴンフォース
+	}
+
 	Armor: {
 		PostMoonLord: {
 			SilvaHeadHealer: {
@@ -792,7 +1029,7 @@ Items: {
 	}
 
 	StrangeAlienMotherBoard: {
-		Tooltip: 
+		Tooltip:
 			'''
 			スタースカウターのマザーボード
 			驚異的なテクノロジーが詰め込まれている...
@@ -999,6 +1236,11 @@ Items: {
 }
 
 Buffs: {
+	AuricSurge: {
+		Description: Mods.RagnarokMod.Buffs.AuricSurge.Description
+		DisplayName: Auric Surge
+	}
+
 	ScytheWaterBuff: {
 		Description: Mods.RagnarokMod.Buffs.ScytheWaterBuff.Description
 		DisplayName: ウォーターサイスのバフ
