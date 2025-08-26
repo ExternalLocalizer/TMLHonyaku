@@ -73,6 +73,16 @@ Configs: {
 			Tooltip: 近接用ガントレット関連アクセサリーを複数Mod間で統合する
 			Label: 近接アクセサリー統合
 		}
+
+		RagnarokWarningMessage: {
+			Tooltip: ワールド参加時にチャットに警告を表示するかどうかを切り替える
+			Label: ラグナロク競合バランス警告メッセージを表示
+		}
+
+		MultiModShoeMerges: {
+			Tooltip: 靴系アクセサリーを複数Mod間で統合する
+			Label: 複数Modの靴統合
+		}
 	}
 }
 
@@ -120,6 +130,10 @@ Projectiles: {
 
 	FireAxeSS: {
 		DisplayName: Fire Axe S S
+	}
+
+	PlayerBrimstoneGigablast: {
+		DisplayName: Player Brimstone Gigablast
 	}
 }
 
