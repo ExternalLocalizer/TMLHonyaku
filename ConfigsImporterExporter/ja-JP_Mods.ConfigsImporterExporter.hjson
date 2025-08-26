@@ -1,0 +1,99 @@
+ConfigButtonExporter: 設定出力を開く
+
+ConfigButtonImporter: 設定読み込みを開く
+
+InputBlank: 読み込みする設定コードをここに入力してください（文字化けする可能性があります）
+
+ExputBlank: ここに出力した設定コードが表示されます
+
+LogsBlank: ここに読み込み結果が表示されます
+
+Enabled: 有効（クリックで切替）
+
+Disabled: 無効（クリックで切替）
+
+SetAll: 全て
+
+SetClient: クライアント
+
+SetServer: サーバー
+
+SetNone: なし
+
+Copy: コピー
+
+Preview: プレビュー
+
+Import: 読み込み
+
+Export: コードを出力
+
+Close: 閉じる
+
+FailCopyTitle: テキストのコピーに失敗
+
+FailCopyMsg: 通常のテキストをコピーしてからボタンを押してください
+
+TitleImporter: ---  設定読み込み  ---
+
+TitleExporter: ---  設定出力  ---
+
+LogImport: 読み込み:
+
+LogPreview: プレビュー:
+
+LogSuccess: 成功
+
+LogFailed: 失敗
+
+LogModMissing: Mod "{0}" が見つかりません
+
+LogConfigMissing: Mod "{0}": 設定 "{1}" が見つかりません
+
+LogSaveFailed: Mod "{0}": 設定 "{1}" の保存に失敗しました
+
+LogModLoaded: Mod "{0}": 設定 "{1}" を読み込みました
+
+LogModFound: Mod "{0}": 設定 "{1}" が見つかりました
+
+Configs: {
+	CIE_Config: {
+		DisplayName: 設定
+
+		Headers: {
+			ForTranslators:
+				'''
+					DO NOT TRANSLATE EMPTY THINGS!!!
+					By the way big thanks for translating my mods :)
+
+					
+					Please contact me if you want me to add your translation to the mod (with credit if you want)  <----
+				'''
+		}
+
+		hidden1: {
+			Label: ""
+			Tooltip: ""
+		}
+
+		hidden2: {
+			Label: ""
+			Tooltip: ""
+		}
+
+		buttonOpenImporter: {
+			Label: ""
+			Tooltip: ""
+		}
+
+		buttonOpenExporter: {
+			Label: ""
+			Tooltip: ""
+		}
+
+		superCompression: {
+			Label: スーパー圧縮
+			Tooltip: Base64の代わりにより多くのUTF-8文字を使って圧縮
+		}
+	}
+}
