@@ -619,115 +619,181 @@ StellarArray: {
 			Name: "[c/9C4FFF:Tier 2][c/FFD792:'ラベンダーレフレイン']"
 		}
 
-		ShiningTears: {
-			Unlock: "[c/9D9D9D:ロック中:]クイーンスライムを撃破する"
+		InevitableEnd: {
 			Description: 
 				'''
-				HPが250未満になると、15秒間ライフ自然回復を増進する。
-				さらに、この効果中は受けるダメージが25%減少する。クールダウン45秒。
+				敵を倒すと爆発し、周囲の敵に最大HPの50%のダメージを与える。
+				自身が死亡した場合、所持武器のダメージ500%を周囲の敵味方全員に与える。
 				'''
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'輝く涙']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'必然の終焉']"
 		}
 
-		CelestialNova: {
-			Unlock: "[c/9D9D9D:ロック中:]ステラノヴァを撃破する"
+		SwiftstrikeTheory: {
+			Description: 無敵フレーム中、攻撃速度が80%上昇する。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'迅速攻撃理論']"
+		}
+
+		ArborealEchoes: {
 			Description: 
 				'''
-				ステラノヴァエネルギーの最大値が50増加する。
-				さらに、ステラノヴァエネルギーが最大の時、全ダメージが20%増加する。
+				無傷の敵にダメージを与えると2HP回復し、初撃のダメージが30%増加する。
+				回復アイテムの効果が30%増加する。
 				'''
-			Name: "[c/D82BFF:Tier 3][c/FFC258:'セレスタルノヴァ']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'樹木の残響']"
 		}
 
-		BladeOfEternity: {
-			Unlock: "[c/9D9D9D:ロック中:]エターナルガーディアンを撃破する"
+		KiTwinburst: {
+			Description: 全ての攻撃が2回のダメージに分割される。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'氣の双撃']"
+		}
+
+		KineticConversion: {
 			Description: 
 				'''
-				攻撃時に10%の確率で敵の防御力を無視する。
-				さらに、HPが最大の時、全ダメージが15%増加する。
+				移動速度の一部が攻撃ダメージに加算される。
+				ダッシュや高速移動時に短時間無敵になる。（クールタイム40秒）
 				'''
-			Name: "[c/D82BFF:Tier 3][c/FFC258:'永遠の刃']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'運動エネルギー転換']"
 		}
 
-		CrimsonPact: {
-			Unlock: "[c/9D9D9D:ロック中:]ブレイン・オブ・クトゥルフを撃破する"
+		FabledFashion: {
 			Description: 
 				'''
-				敵を倒すと最大HPの3%が回復する。
-				さらに、HPが50%未満の時、全ダメージが10%増加する。
+				装備している見た目防具が通常防具として扱われる（セットボーナスは適用されない）。
+				与ダメージが50%減少、防御力が50%減少、最大体力が150減少する。
 				'''
-			Name: "[c/C2BDFF:Tier 1][c/FFEED1:'紅の盟約']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'伝説の装い']"
 		}
 
-		CorruptionOath: {
-			Unlock: "[c/9D9D9D:ロック中:]イーター・オブ・ワールドを撃破する"
+		Catharsis: {
 			Description: 
 				'''
-				クリティカルヒット時に最大HPの2%を回復する。
-				さらに、敵を倒すと5秒間移動速度が20%上昇する。
+				体力が減少した際、所持武器の20%のダメージを基に
+				周囲の敵全員にダメージを与える。
 				'''
-			Name: "[c/C2BDFF:Tier 1][c/FFEED1:'堕落の誓い']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'カタルシス']"
 		}
 
-		StormHerald: {
-			Unlock: "[c/9D9D9D:ロック中:]クイーンビーを撃破する"
+		StayTheCourse: {
 			Description: 
 				'''
-				攻撃命中時に20%の確率で敵を3秒間感電させる。
-				さらに、感電中の敵へのダメージが25%増加する。
+				戦闘中、10秒ごとにダメージ軽減1%とクリティカル率1%を最大15%まで獲得する。
+				最大時はクリティカルダメージを同量増加させる。
 				'''
-			Name: "[c/C2BDFF:Tier 1][c/FFEED1:'嵐の使者']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'継続の意志']"
 		}
 
-		SpiritBond: {
-			Unlock: "[c/9D9D9D:ロック中:]ツインズを撃破する"
+		MysticIncision: {
 			Description: 
 				'''
-				プレイヤーが死亡した場合、直前のチェックポイントで復活し、HPが50%回復する。
-				クールダウンはゲーム内1日。
+				防御貫通がクリティカルダメージ増加に変換され、120防御貫通で最大60%増加する。
+				敵接近時に防御貫通が30%増加する。
 				'''
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'魂の絆']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'神秘の刃']"
 		}
 
-		VoidShaper: {
-			Unlock: "[c/9D9D9D:ロック中:]スケルトロンプライムを撃破する"
+		Armsthrift: {
 			Description: 
 				'''
-				ステラノヴァエネルギーの消費量が20%減少する。
-				さらに、ステラノヴァエネルギーが50%未満の時、被ダメージが10%減少する。
+				武器を切り替えると5秒間ダメージが15%増加し、
+				元の武器とダメージタイプが異なる場合は効果が3倍になる。（クールタイム10秒）
 				'''
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'虚無の造形者']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'武器巧者']"
 		}
 
-		TitanHeart: {
-			Unlock: "[c/9D9D9D:ロック中:]デストロイヤーを撃破する"
+		SpectralNail: {
+			Description: 敵に5回攻撃するごとに30%の追加ダメージが発生する。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'幽霊の爪']"
+		}
+
+		CelestialEvanesence: {
+			Unlock: "[c/9D9D9D:ロック中:] 双極の魔人、ディオスクロイを撃破する"
 			Description: 
-				最大HPが50増加し、防御力が5上昇する。
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'巨人の心臓']"
+				'''
+				現在のマナを20で割った値だけクリティカル率が増加し、
+				クリティカル時、与ダメージの5%をマナとして回復させる（1回の攻撃につき最大5回）。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'天の消えゆく光']"
 		}
 
-		SolarAscendant: {
-			Unlock: "[c/9D9D9D:ロック中:]ソーラーフレアピラーを撃破する"
-			Description: 近接ダメージが20%増加し、移動速度が10%上昇する。
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'太陽の覇者']"
+		Hikari: {
+			Unlock: "[c/9D9D9D:ロック中:] 氷の女王を撃破する"
+			Description: 
+				'''
+				最大HP÷20に応じて攻撃力と防御力が増加するが、
+				ダメージを受けると6秒間与ダメージが半減する。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'結晶の心']"
 		}
 
-		VortexOverlord: {
-			Unlock: "[c/9D9D9D:ロック中:]ヴォルテックスピラーを撃破する"
-			Description: 遠距離ダメージが20%増加し、弾速が15%向上する。
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'渦の支配者']"
+		InnerAlchemy: {
+			Unlock: "[c/9D9D9D:ロック中:] スケルトロンを撃破する"
+			Description: 
+				'''
+				12秒間ダメージを受けずにいると、攻撃力10%増加、防御力25、ノックバック耐性、
+				ライフ再生を獲得する。ダメージを受けると効果は消失する。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'内なる錬金術']"
 		}
 
-		NebulaSeer: {
-			Unlock: "[c/9D9D9D:ロック中:]ネビュラピラーを撃破する"
-			Description: 魔法ダメージが20%増加し、マナ消費量が10%減少する。
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'星雲の預言者']"
+		MysticForging: {
+			Unlock: "[c/9D9D9D:ロック中:] インクの魔女、ペンテシレイアを撃破する"
+			Description: 
+				'''
+				クリティカル率を1%:0.5%の比率で追加ダメージに変換する（最大60%）。
+				ボーナス効果によるクリティカル以外は無効。クリティカル率に応じ最大15%攻撃速度増加。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'神秘の鍛造']"
 		}
 
-		StardustWarden: {
-			Unlock: "[c/9D9D9D:ロック中:]スターダストピラーを撃破する"
-			Description: 召喚ダメージが20%増加し、召喚数の上限が1増える。
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'星屑の守護者']"
+		FlashFreeze: {
+			Unlock: "[c/9D9D9D:ロック中:] エンプレスオブライトを撃破する"
+			Description: 
+				'''
+				クリティカル時、敵が爆発し元ダメージの半分を与える。
+				さらに攻撃した敵からダメージを与える雪片が拡散する。クールタイム8秒。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'フラッシュフリーズ']"
+		}
+
+		UmbralEntropy: {
+			Unlock: "[c/9D9D9D:ロック中:] ムーンロードを撃破する"
+			Description: 
+				'''
+				攻撃がクリティカル時に星の輝きを付与し、星の輝きを付与されている敵からライフを吸収する。
+				回復は1秒あたり5まで。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'混沌の災厄']"
+		}
+		#いい感じのがあったら変えてください　思い付かなかった...
+
+		IronWill: {
+			Unlock: "[c/9D9D9D:ロック中:] イーターオブワールドまたはクトゥルフの脳を撃破する"
+			Description: 
+				'''
+				防御力が6増加し、100以上のダメージを30減少させる。
+				HP100以下では他の防御計算に関係なく全ての攻撃ダメージが20%減少する。
+				'''
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'鉄の意志']"
+		}
+
+		EvasionMastery: {
+			Unlock: "[c/9D9D9D:ロック中:] 女王蜂を撃破する"
+			Description: 移動速度が25%増加し、3%の確率でダメージを0にする。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'回避の極意']"
+		}
+
+		ButchersDozen: {
+			Unlock: "[c/9D9D9D:ロック中:] 燦然たる王、ナルハウンを撃破する"
+			Description: 連続で12体の敵を倒すと、4秒間与ダメージが5%増加、攻撃速度が30%増加される（キルカウンターはリセット）。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'Butcher's Dozen']"
+		}
+		#Baker's Dozenが元ネタなんだろうけどいい感じの訳が思い付きませんでした...
+
+		Starshield: {
+			Unlock: "[c/9D9D9D:ロック中:] クトゥルフの目玉を撃破する"
+			Description: 攻撃を受けると2秒間最大HPの10%分をシールドとして獲得（クールタイム20秒）。発動時にマナ20回復、シールド中の与ダメージ20%増加。
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'星の盾']"
 		}
 	}
 }
