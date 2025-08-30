@@ -16,7 +16,7 @@ jobs:
 
     env:
       QSV_VERSION: '6.0.1'
-      
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
