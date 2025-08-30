@@ -45,8 +45,31 @@ jobs:
           qsv sort --select display_name TranslatedMods.csv --ignore-case --output TranslatedMods.sorted.csv
           mv TranslatedMods.sorted.csv TranslatedMods.csv
 
-      - name: Commit and push changes
+      - name: Check for changes
+        id: verify-diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes (non-main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && ( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Sort TranslatedMods.csv automatically"
           file_pattern: TranslatedMods.csv
+
+      - name: Create Pull Request (main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && !( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Sort TranslatedMods.csv automatically"
+          title: "Auto-sort TranslatedMods.csv"
+          body: |
+            This PR automatically sorts the TranslatedMods.csv file by display_name.
+            
+            This is an automated PR created by the CSV Sort workflow.
+          branch: auto-sort-csv
+          delete-branch: true
