@@ -12,6 +12,8 @@ jobs:
   csvsort:
     name: CSV Sort
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       QSV_VERSION: '6.0.1'
     steps:
