@@ -1,8 +1,8 @@
 name: Notify Update
 on:
-    push:
-        branches:
-        - main
+  push:
+    branches:
+      - main
 
 jobs:
   call-workflow:
@@ -16,4 +16,5 @@ jobs:
           repo: ExternalLocalizer/ExternalLocalizer-Jp-Pack
           ref: master
           token: "${{ secrets.PAT }}"
+
 

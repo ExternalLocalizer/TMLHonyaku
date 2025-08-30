@@ -1,0 +1,52 @@
+name: CSV Sort
+
+on:
+  push:
+    paths:
+      - TranslatedMods.csv
+  workflow_dispatch:
+
+jobs:
+  csvsort:
+    name: CSV Sort
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    env:
+      QSV_VERSION: '6.0.1'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache qsv binary
+        id: cache-qsv
+        uses: actions/cache@v4
+        with:
+          path: ~/qsv/qsv
+          key: ${{ runner.os }}-qsv-${{ env.QSV_VERSION }}
+
+      - name: Install qsv
+        if: steps.cache-qsv.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/qsv
+          DOWNLOAD_URL="https://github.com/dathere/qsv/releases/download/${{ env.QSV_VERSION }}/qsv-${{ env.QSV_VERSION }}-x86_64-unknown-linux-gnu.zip"
+          curl -L -o qsv.zip "$DOWNLOAD_URL"
+          unzip qsv.zip -d ~/qsv
+
+      - name: Add qsv to PATH
+        run: |
+          echo "$HOME/qsv" >> $GITHUB_PATH
+
+      - name: Sort CSV file
+        run: |
+          qsv sort --select display_name TranslatedMods.csv --ignore-case --output TranslatedMods.sorted.csv
+          mv TranslatedMods.sorted.csv TranslatedMods.csv
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Sort TranslatedMods.csv automatically"
+          file_pattern: TranslatedMods.csv
