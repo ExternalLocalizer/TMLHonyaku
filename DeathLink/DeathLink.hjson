@@ -1,0 +1,15 @@
+Configs: {
+	DeathLinkConfig: {
+		AffectPvP: {
+			Tooltip: 他のプレイヤーに倒された場合でも死亡リンクが自身に影響します
+			Label: PvPの死亡に影響
+		}
+
+		OnlyTeammates: {
+			Tooltip: 死亡リンクを全体ではなく同じチームのプレイヤーだけに適用します
+			Label: チームメイトのみ
+		}
+
+		DisplayName: Death Link 設定
+	}
+}
