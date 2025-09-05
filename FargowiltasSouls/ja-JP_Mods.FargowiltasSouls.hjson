@@ -83,9 +83,9 @@ ActiveSkills:{
 		DisplayName: 浄化の光
 		Tooltip:
 			'''
-			ほとんどのデバフを解除できる  
-			さらに周囲の敵に対するデバフダメージ効果を2倍に強化  
-			攻撃していない間はクールダウンの回復が早まる
+			ほとんどのデバフを解除する
+			さらに、周囲の敵のデバフダメージが100％増加する
+			攻撃していない間はクールダウンの回復速度が増加する
 			'''
 	}
 
@@ -1735,7 +1735,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃時に花びらが飛んでいき、追加ダメージとオリハルコンの猛毒を付与する
-			デバフによって与えるダメージが2.5倍になる
+			デバフによって与えるダメージが150%増加する
 			「自然の恵みが降り注ぐ」
 			'''
 	}
@@ -1772,7 +1772,7 @@ Items: {
 			[i:FargowiltasSouls/MythrilEnchant] 攻撃を行わないとゲージが増加し、攻撃するとゲージを消費して様々な恩恵を得ることができる
 			[i:FargowiltasSouls/PalladiumEnchant] [i:FargowiltasSouls/TitaniumEnchant] [i:FargowiltasSouls/AdamantiteEnchant] ゲージ量に応じてライフ自然回復、ダメージ軽減率、攻撃速度が増加する 
 			[i:FargowiltasSouls/OrichalcumEnchant] ゲージを消費した攻撃は大地の猛毒を付与し、与えたダメージの一部を持続ダメージとして与える
-			[i:FargowiltasSouls/OrichalcumEnchant] デバフによって与えるダメージが3.5倍になる
+			[i:FargowiltasSouls/OrichalcumEnchant] デバフによって与えるダメージが250％増加する
 			[i:FargowiltasSouls/CobaltEnchant] ダウンキーを押すことで落下速度が増加する  
 			「ガイアの祝福があなたを導く」
 			'''
@@ -2391,7 +2391,7 @@ Items: {
 			[i:FargowiltasSouls/TerraForce] クリティカルやパリィで雷撃発動、デバフダメージ軽減、近接武器のサイズ拡大  
 			[i:FargowiltasSouls/TerraForce] 基礎クリティカル確率が75%になり雷撃発生でさらに上昇、アイテム取得範囲拡大、拾得でダメージ軽減率増加  
 			[i:FargowiltasSouls/EarthForce] 非攻撃時に防御ボーナス、攻撃中は攻撃ボーナス獲得
-			[i:FargowiltasSouls/EarthForce] デバフによるダメージ4倍、ダウンキー入力で落下速度増加
+			[i:FargowiltasSouls/EarthForce] デバフによるダメージが300％増加、ダウンキー入力で落下速度増加
 			[i:FargowiltasSouls/NatureForce] オーラ内の敵はライフ吸収効果と攻撃時にダメージ増加、付近の敵にクリスタルリングのレーザーで攻撃  
 			[i:FargowiltasSouls/NatureForce] キノコ使用時にキノコパワー獲得、攻撃に複数のデバフを付与、遠距離攻撃を防ぐ雨傘を召喚  
 			[i:FargowiltasSouls/LifeForce] 飛行中に花を残し、開花した鼻に触れるとアンブロシア等の強化を獲得 
@@ -4054,7 +4054,7 @@ Items: {
 	}
 
 	BrokenBlade: {
-		DisplayName: 砕けた刃
+		DisplayName: 壊れた刃
 		Tooltip: ""
 	}
 
@@ -4569,8 +4569,9 @@ Items: {
 			'''
 	}
 
+	#餓狼伝説のテリーの「パワーゲイザー」みたいな命名だと思われる、眼差しのGazerではない
 	StyxGazer: {
-		DisplayName: スティクスの眼差し
+		DisplayName: スティクスゲイザー
 		Tooltip:
 			'''
 			右クリックで地獄の鎌を振る
@@ -7169,7 +7170,7 @@ WizardEffect: {
 	Cobalt: 爆発ダメージが増加
 	Palladium: 高速再生のバフ時間が5秒に増加、オーブのダメージが増加
 	Mythril: 最大攻撃速度ボーナスが増加し、ゲージ最大量が増加
-	Orichalcum: デバフダメージが3.5倍に強化
+	Orichalcum: デバフダメージが250%増加に強化
 	Adamantite: 速度ボーナスが50％に増加
 	Titanium: 破片のダメージが増加、チタンの防壁の持続時間が5秒に増加、最大ダメージ軽減が10％増加
 
