@@ -88,6 +88,21 @@ Configs: {
 			Label: "[i:5109] The Constant ワールド"
 			Tooltip: ""
 		}
+		
+		NoTrapsWorld: {
+			Label: "[i:510] No Traps ワールド"
+			Tooltip: ""
+		}
+
+		RemixWorld: {
+			Label: "[i:4711] Don't dig up ワールド"
+			Tooltip: ""
+		}
+
+		ZenithWorld: {
+			Label: "[i:4956] Get fixed boi ワールド"
+			Tooltip: ""
+		}		
 
 		UnlimitedAmmo: {
 			Label: "[i:771] ハードモードで弾が3996個以上あると無限化"
@@ -246,6 +261,12 @@ Configs: {
 			Tooltip: アイテムの速度は使用時間で表示され、大きいほど遅くなります
 		}
 
+		AnimatedRecipeGroups: {
+			Label: "[i:9] アニメーションレシピグループ"
+			Tooltip: レシピグループに属する複数のアイテムを、表示時に順番に切り替えて見せるかどうかを設定します
+		}
+
+
 		HideUnlimitedBuffs: {
 			Label: "[i:292] 永続バフをバフスロットに表示しない"
 			Tooltip: ""
@@ -312,7 +333,20 @@ RecipeGroups: {
 	FoodT2: 満足のいく食事
 	FoodT3: この上ない食事
 	GemRobe: 宝石のローブ
-	Or: Or
+	WoodenCrate: $ItemName.WoodenCrate
+	IronCrate: $ItemName.IronCrate
+	GoldenCrate: $ItemName.GoldenCrate
+	JungleCrate: $ItemName.JungleCrate
+	SkyCrate: $ItemName.SkyCrate
+	CorruptCrate: $ItemName.CorruptCrate
+	CrimsonCrate: $ItemName.CrimsonCrate
+	// HallowedCrate: HallowedCrate
+	DungeonCrate: $ItemName.DungeonCrate
+	FrozenCrate: $ItemName.FrozenCrate
+	SandCrate: $ItemName.OasisCrate
+	LavaCrate: $ItemName.ObsidianCrate
+	OceanCrate: $ItemName.OceanCrate
+	Or: または
 }
 
 UI: {
@@ -1755,15 +1789,21 @@ Items: {
 		DisplayName: オーバーローダー
 		Tooltip:
 			'''
-			ボス圧縮召喚アイテムのクラフトに使用する。
-			使用するとスタックしている分がまとめて消費される。(最大10個まで)
-			消費数が多いほどボスが強くなる。
-			5個以上消費すると、ボスのスピードが速くなる。
-			アイテム消費1つにつきトレジャーバッグを5個ドロップ
-			アイテム消費3つにつきトロフィーを1つドロップ
-			アイテム消費10個つにつきエネルゲイザーをドロップ
+			ボス圧縮召喚アイテムのクラフトに使用する
+			圧縮召喚アイテムは、使用するとスタックしている分がまとめて消費される(最大10個まで)
+			消費数が多いほどボスが強くなる
+			5個以上消費すると、ボスの行動スピードが速くなる
+			消費1つにつきトレジャーバッグを5個ドロップ
+			消費3つにつきトロフィーを1個ドロップ
+			10個消費でエネルゲイザーをドロップ
 			'''
 	}
+
+	OverloaderRewards: 
+			'''	
+			ボスを倒すと、{0} 個のトレジャーバッグ、{1} 個のトロフィー、{2} 個のエネルゲイザーをドロップする
+			（スタック数に応じて報酬が増加）
+			'''
 
 	OverloadEye: {
 		DisplayName: 融合した目玉
