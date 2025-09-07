@@ -11,7 +11,7 @@ Configs: {
 		Headers.Position: 位置 [i:393]
 
 		Horizontal: {
-			Label: ボタンを横向きにする
+			Label: ボタンを横向きに
 			Tooltip: ""
 		}
 
@@ -36,23 +36,27 @@ Configs: {
 		}
 
 		QuickstackEnabled: {
-			Label: クイックスタックを有効
-			Tooltip: ボタンをシフトクリックすると、その銀行にクイックスタックされます
+			Label: クイックスタックを有効化
+			Tooltip: ボタンをシフトクリックすることで、対象の銀行にクイックスタックされます
 		}
 
 		QuickstackNearby: {
-			Tooltip: 近くのチェストへのクイックスタックは、すべての銀行にもクイックスタックされます
-			Label: 近くのチェストへのクイックスタックを有効
+			Tooltip: 
+				'''
+				近くのチェストへのクイックスタック実行時に、
+				全銀行にもクイックスタックが行われます
+				'''
+			Label: 近くのチェストへのクイックスタックを有効化
 		}
 
 		Chester: {
 			Label: チェスター
-			Tooltip: チェスター(アイボーン)を装備すると、豚の貯金箱のアイコンはチェスターに置き換わります
+			Tooltip: チェスター(アイボーン)を装備した際、豚の貯金箱のアイコンがチェスターに置き換わります
 		}
 
 		PreDrawOffset: {
-			Label: 事前オフセット設定
-			Tooltip: 原点は最初のボタンではなく最後のボタンです
+			Label: 描画オフセット（仮）
+			Tooltip: 基準点が最初のボタンではなく、最後のボタンになります
 		}
 
 		AlwaysVisible: {
