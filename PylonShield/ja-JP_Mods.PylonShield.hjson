@@ -29,14 +29,18 @@ Configuration: {
 	PylonAuraIDTooltipKey: ""
 	PylonBlockDisplayTextTooltipKey: ""
 	PylonAuraIndicatorTooltipKey: ""
-	PylonRequireActiveTooltip: これをオフにすると、プレイヤーがテレポート可能かどうかに関係なく、常にパイロン保護が有効になります
-	PylonRequireActive: "[i:4951] パイロン保護を有効にする"
+	PylonRequireActiveTooltip: 
+		'''
+		これをオフにすると、プレイヤーがテレポート可能かどうかに関係なく、
+		常にパイロン保護が有効になります
+		'''
+	PylonRequireActive: "[i:4951] パイロン保護を有効化"
 	InvalidConfig: ローカルサーバーアドレスと一致しません、Mod: PylonShiel
 	CustomBlockTooltip:
 		'''
 		非ブロック/壁アイテムを選択することはできません！
-		ブロックとブロック、壁と壁のペアのみが許可されます。
-		「キーブロック」は、その「値ブロック」がすでに存在する場合は作成できません。
+		ブロックとブロック、壁と壁のペアのみが許可されます
+		「キーブロック」は、その「値ブロック」がすでに存在する場合は作成できません
 		'''
 	CustomBlock: 変換するタイル/壁:
 	CustomBlockHeader:
@@ -49,29 +53,29 @@ Configuration: {
 		'''
 		パイロンの範囲内では、CalamityのAstral Infectionのような
 		改造されたバイオームの拡散を防ぎます。
-		これをオフにすると、カスタムタイルの変換が無効になります。
+		これをオフにすると、カスタムタイルの変換が無効になります
 		'''
 	PylonPreventModded: "[i:782] パイロン付近でのMOD/カスタム・スプレッドの無効化"
 	PylonServerAuthTooltip:
 		'''
-		サーバーと同じネットワーク上にいるプレイヤーだけが、この設定を変更することができます。
-		クライアントのコンフィグは、権限に関係なく誰でも自由に編集することができます。
+		サーバーと同じネットワーク上にいるプレイヤーだけが、この設定を変更することができます
+		クライアントのコンフィグは、権限に関係なく誰でも自由に編集することができます
 		'''
-	PylonServerAuth: "[i:1344] ローカル認証を要求する"
+	PylonServerAuth: "[i:1344] ローカル認証を要求"
 	PylonAuraIntensityTooltip: オーラ粒子の速度.
 	PylonAuraIntensity: "[i:18] パイロンオーラ粒子の速度"
-	PylonBlockProjectileTooltip: Pylonが飛んでくる弾丸を減らす/破壊するのを止める。
-	PylonBlockProjectile: "[i:2177] パイロンの投射防御を無効にする"
-	PylonActiveCleanRandomTooltip: 1/Xの確率でパイロンアクティブクリーニングが呼び出される。
+	PylonBlockProjectileTooltip: Pylonが飛んでくる弾丸を減らし、破壊するのを無効化します
+	PylonBlockProjectile: "[i:2177] パイロンの投射防御を無効化"
+	PylonActiveCleanRandomTooltip: 1/Xの確率でパイロンアクティブクリーニングが呼び出されます
 	PylonActiveCleanRandom: "[i:18] パイロンアクティブ・クリーニングチャンス"
-	PylonActiveCleanDelayTooltip: 各パイロンアクティブ・クリーニングイベント間の最小遅延。
+	PylonActiveCleanDelayTooltip: 各パイロンアクティブ・クリーニングイベント間の最小遅延
 	PylonActiveCleanDelay: "[i:18] パイロンアクティブ・クリーニング間隔"
-	PylonBlockDisplayTextTooltip: パイロンに表示されるビジュアルテキストインジケータを非表示にする。
-	PylonBlockDisplayText: "[i:171] パイロンテキストインジケーターを無効にする"
-	PylonDebugTooltip: これをオンにすると、パイロンの追加データメッセージが有効になる。デバッグ用に使用する。
+	PylonBlockDisplayTextTooltip: パイロンに表示されるビジュアルテキストインジケータを非表示にします
+	PylonBlockDisplayText: "[i:171] パイロンテキストインジケーターを無効化"
+	PylonDebugTooltip: これをオンにすると、パイロンの追加データメッセージが有効になります。デバッグ用に使用します
 	PylonDebug: "[i:1344] デバッグモード"
 	ExtrasHeader: エクストラ
-	PylonAuraDurationTooltip: オーラ粒子の寿命。
+	PylonAuraDurationTooltip: オーラ粒子の寿命
 	PylonAuraDuration: "[i:18] パイロンオーラ粒子持の続時間"
 	PylonAuraSpreadTooltip: パイロンオーラの各パーティクル間の距離
 	PylonAuraSpread: "[i:18] パイロンオーラのパーティクルの広がり"
@@ -81,29 +85,29 @@ Configuration: {
 	PylonAuraRotation: "[i:18]パイロンオーラの回転速度"
 	PylonAuraIDTooltip: パイロンオーラのパーティクル効果
 	PylonAuraID: "[i:75] パイロンオーラのパーティクルID"
-	PylonAuraIndicatorTooltip: パイロンの保護範囲の視覚インジケータを隠す。
-	PylonAuraIndicator: "[i:4876] パイロンの半径オーラ表示を無効にする"
+	PylonAuraIndicatorTooltip: パイロンの保護範囲の視覚インジケータを隠します
+	PylonAuraIndicator: "[i:4876] パイロンの半径オーラ表示を無効化"
 	PylonAuraHeader: パイロンオーラのクライアント設定 [c/ff9eb4:(値の設定は慎重に行ってください！)]
-	PylonActiveCleanTooltip: パイロンの範囲内にある既存の邪悪なブロックを、パイロンが能動的にクリーニングするのを止める。
-	PylonActiveClean: "[i:780] パイロンのアクティブクリーニングを無効にする"
-	PylonBlockSolutionTooltip: パイロンの範囲内で腐敗、深紅、神聖の溶液の使用を停止する。
-	PylonBlockSolution: "[i:779] 環境変更銃を無効にする"
-	PylonPreventHallowTooltip: パイロンの範囲内で、神聖化されたバイオーム・ブロックが広がるのを止める。
-	PylonPreventHallow: "[i:781]パイロンの近くで聖域の広がりを無効にする"
-	PylonPreventEvilsTooltip: 不浄、クリムゾンのバイオームブロックがパイロンの範囲内に広がるのを止める。
-	PylonPreventEvils: "[i:784] パイロン付近のクリムゾン/腐敗の広がりを無効にする"
+	PylonActiveCleanTooltip: パイロンの範囲内にある既存の邪悪なブロックを、パイロンが能動的にクリーニングするのを止めます
+	PylonActiveClean: "[i:780] パイロンのアクティブクリーニングを無効化"
+	PylonBlockSolutionTooltip: パイロンの範囲内で腐敗、深紅、神聖の溶液を無効化します
+	PylonBlockSolution: "[i:779] 環境変更銃を無効化"
+	PylonPreventHallowTooltip: パイロンの範囲内で、神聖化されたバイオーム・ブロックが広がるのを止めます
+	PylonPreventHallow: "[i:781]パイロンの近くで聖域の広がりを無効化"
+	PylonPreventEvilsTooltip: 不浄、クリムゾンのバイオームブロックがパイロンの範囲内に広がるのを止めます
+	PylonPreventEvils: "[i:784] パイロン付近のクリムゾン/腐敗の広がりを無効化"
 	PylonSettingsHeader: パイロン保護設定[c/9ec9ff:(サバー)]。
 }
 
 PylonMessage: {
-	NoTeleport: 使用するにはこのパイロンにテレポートできる必要がある。
+	NoTeleport: 使用するにはこのパイロンにテレポートできる必要がある
 	ConsumeTip: 消費
-	NoProjectile: 近くのパイロンは投擲物から身を守らなくなる。
-	IncreaseWith:使用して増加する。
-	NoProtection: このパイロンは有効ではない。
+	NoProjectile: 近くのパイロンは投擲物から身を守らなくなる
+	IncreaseWith:使用して増加する
+	NoProtection: このパイロンは有効ではない
 	AbsorbTip: 保護
 	PurifyTip: 浄化
-	PylonNoRange: このパイロンの近くで[i:66]を使用すると射程が伸びる。
+	PylonNoRange: このパイロンの近くで[i:66]を使用すると射程が伸びる
 	PylonServerConfig: パイロンシールドサーバー設定
 	PylonClientConfig: パイロンシールドクライアント設定
 	NoStars: 星が足りていない
