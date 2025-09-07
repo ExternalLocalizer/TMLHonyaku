@@ -8,8 +8,8 @@ Common: {
 }
 
 Conditions: {
-	DownedPumpkinMoonBossAny: 嘆きの樹もしくはパンプキングを倒したあと
-	DownedFrostMoonBossAny: エバースクリームかサンタNK1または氷の女王を倒したあと
+	DownedPumpkinMoonBossAny: 嘆きの樹もしくはパンプキングを撃破後
+	DownedFrostMoonBossAny: エバースクリームかサンタNK1または氷の女王を撃破後
 }
 
 Items: {
@@ -20,14 +20,14 @@ Items: {
 
 	AnglerAmnesiaPotion: {
 		DisplayName: 釣り師の記憶喪失ポーション
-		Tooltip: ごめん、ここで何を書こうとしたんだっけ？
+		Tooltip: 「ごめん、ここで何を書こうとしたんだっけ？」
 	}
 
 	BaseSummoningPotion: {
 		DisplayName: 基本召喚ポーション
 		Tooltip:
 			'''
-			精霊は入っていません
+			「精霊は入ってないよ」
 			他のNPC召喚ポーションの製造に使用する
 			'''
 	}
@@ -37,7 +37,7 @@ Items: {
 		Tooltip:
 			'''
 			汎用コーンフレーク
-			あるバイオーム・キーから別のバイオーム・キーへ変換する
+			とあるバイオームの鍵から別のバイオームの鍵へと変える
 			'''
 	}
 
@@ -45,8 +45,8 @@ Items: {
 		DisplayName: 建築士の本
 		Tooltip:
 			'''
-			イェーイ 積み木で遊ぼう!
-			このアイテムは正しく動作しません - 入手できません
+			「イェーイ 積み木で遊ぼう!」
+			[c/ff0000:このアイテムは正しく動作しません - 入手できません]
 			'''
 	}
 
@@ -55,7 +55,7 @@ Items: {
 		ToolTip:
 			'''
 			クッキーを食べる
-			幸せな日々
+			「幸せな日々よ」
 			'''
 		Tooltip: ""
 	}
@@ -67,7 +67,7 @@ Items: {
 
 	FieryStick: {
 		DisplayName: 灼熱の棒
-		Tooltip: 待って、でもまだウェーブ1だよ...
+		Tooltip: 「待って、でもまだウェーブ1だよ...」
 	}
 
 	GreaterTimeSphere: {
@@ -87,7 +87,7 @@ Items: {
 
 	IcyBranch: {
 		DisplayName: 凍った枝
-		Tooltip: 待って、でもまだウェーブ1だよ...
+		Tooltip: 「待って、でもまだウェーブ1だよ...」
 	}
 
 	LesserTimeSphere: {
@@ -97,7 +97,7 @@ Items: {
 
 	MartianRocket: {
 		DisplayName: 火星人のロケット
-		Tooltip: 火星に行くには、1ティックもかからないのでは?
+		Tooltip: 「火星に行くには、1ティックもかからないのでは?」
 	}
 
 	Melter: {
@@ -107,20 +107,20 @@ Items: {
 
 	MeteoritePotion: {
 		DisplayName: メテオライトポーション
-		Tooltip: 恐竜はどうなったんだ?
+		Tooltip: 「恐竜はどうなったんだ?」
 	}
 
 	MysteriousSeed: {
 		DisplayName: 不思議な種
-		Tooltip: 植物時代の始まり
+		Tooltip: 「植物時代の始まり」
 	}
 
 	PumpkingsCrown: {
 		DisplayName: 礼服を着たカボチャ
 		Tooltip:
 			'''
-			待って、でもまだウェーブ1だよ...
-			それと、カボチャも
+			「待って、でもまだウェーブ1だよ...
+			　それと、カボチャも」
 			'''
 	}
 
@@ -133,8 +133,8 @@ Items: {
 		DisplayName: 雪の結晶
 		Tooltip:
 			'''
-			待って、でもまだウェーブ1だよ...
-			これは雪の結晶ではない、なぜなら辺の数が間違っているから...
+			「待って、でもまだウェーブ1だよ...
+			　これは雪の結晶じゃない、なぜなら辺の数が間違っているから...」
 			'''
 	}
 
@@ -155,7 +155,7 @@ Items: {
 
 	ToyTank: {
 		DisplayName: おもちゃの戦車
-		Tooltip: 待って、でもまだウェーブ1だよ...
+		Tooltip: 「待って、でもまだウェーブ1だよ...」
 	}
 
 	BetsyBossToken: {
