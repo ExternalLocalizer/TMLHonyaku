@@ -28,7 +28,7 @@ Configs: {
 		Headers.DeveloperOptions: "[c/ff0000:開発者向けオプション]"
 
 		DisableAutoLocalization: {
-			Label: 自動ローカライズを無効にする
+			Label: 自動ローカライズを無効化
 			Tooltip:
 				'''
 				デフォルトでは、Censusは構築中のMODに含まれるNPCの出現条件テキストにローカライズキーを追加します
@@ -38,7 +38,7 @@ Configs: {
 	}
 }
 
-Next: Next
+Next: 次へ
 
 SpawnConditions: {
 	Unknown: 条件不明
@@ -68,8 +68,8 @@ SpawnConditions: {
 	TaxCollector: ハードモードで、地底世界で苛まれた霊に{$ItemName.PurificationPowder} [i:PurificationPowder]を使用
 	Truffle: ハードモードで、地上のキノコバイオームに家を建てる
 	Pirate: 海賊襲撃を撃退した後
-	Steampunker: メカニカルボスを倒した後
-	Cyborg: プランテラを倒した後
+	Steampunker: メカニカルボスを撃破後
+	Cyborg: プランテラを撃破後
 	SantaClaus: フロストレギオンを撃退後、12月15日から31日までの間のみ
 	Princess: 町に全ての住民がいる時
 	TownCat: 動物学者から購入できる{$ItemName.LicenseCat} [i:LicenseCat]を使用
@@ -77,7 +77,7 @@ SpawnConditions: {
 	TownBunny: 動物学者から購入できる{$ItemName.LicenseBunny} [i:LicenseBunny]を使用
 	TownSlimeBlue: キングスライムを撃破後
 	TownSlimeGreen: 自然発生するパーティーの時
-	TownSlimeOld: スケルトロンを倒した後、洞窟層の古びた揺れる宝箱に{$ItemName.GoldenKey} [i:GoldenKey]を使って解錠
+	TownSlimeOld: スケルトロンを撃破後、洞窟層の古びた揺れる宝箱に{$ItemName.GoldenKey} [i:GoldenKey]を使って解錠
 	TownSlimePurple: 宇宙層で不器用な風船スライムの風船を攻撃して割る
 	TownSlimeRainbow: "{$ItemName.GelBalloon} [i:GelBalloon]をシマーに落とす"
 	TownSlimeRed: ブラッドムーン中に釣り上げる
