@@ -32,13 +32,13 @@ Configs: {
 			Tooltip:
 				'''
 				ボスごとのダメージ倍率。0で無効
-				マスターモード以外では50%の効果があります
+				マスターモード以外では効果が値から半減します
 				'''
 			Label: "[i:18] NPC ダメージ倍率"
 		}
 
 		TownNPCBaseDamage: {
-			Tooltip: 追加基本ダメージ。マスターモード以外では50%の効果があります
+			Tooltip: 追加基本ダメージ。マスターモード以外では効果が値から半減します
 			Label: "[i:18] NPC 基本ダメージ"
 		}
 
@@ -46,13 +46,13 @@ Configs: {
 			Tooltip:
 				'''
 				ボスごとの防御力倍率。0で無効
-				マスターモード以外では50%の効果があります
+				マスターモード以外では効果が値から半減します
 				'''
 			Label: "[i:156] NPC 防御力倍率"
 		}
 
 		TownNPCBaseArmor: {
-			Tooltip: 追加基本防御力。マスターモード以外では50％の効果があります
+			Tooltip: 追加基本防御力。マスターモード以外では効果が値から半減します
 			Label: "[i:156] NPC 基本防御力"
 		}
 
@@ -84,7 +84,7 @@ Configs: {
 			Tooltip:
 				'''
 				ライフ自然回復倍率。0で無効
-				マスターモード以外では50％の効果があります
+				マスターモード以外では効果が値から半減します
 				'''
 			Label: "[i:58] NPC ライフ自然回復倍率"
 		}
@@ -93,34 +93,34 @@ Configs: {
 			Tooltip:
 				'''
 				ボスごとのライフ倍率。0で無効
-				マスターモード以外では50％の効果があります
+				マスターモード以外では効果が値から半減します
 				'''
 			Label: "[i:58] NPC ライフ倍率"
 		}
 
 		TownNPCMaxHealth: {
-			Tooltip: 基本ライフ。 マスターモード以外では50％の効果があります
+			Tooltip: 基本ライフ。 マスターモード以外では効果が値から半減します
 			Label: "[i:58] NPC 基本ライフ"
 		}
 
 		TownNPCPetImmune: {
 			Tooltip: タウンペットはすべてのダメージソースに対して無敵になります
-			Label: "[i:1959] タウンペット 無敵"
+			Label: "[i:1959] タウンペット無敵化"
 		}
 
 		TownNPCTrapImmune: {
-			Tooltip: 町のNPCがトラップに対して無敵になります
-			Label: "[i:539] 味方/街のNPCは罠にかからない"
+			Tooltip: タウンNPCがトラップに対して無敵になります
+			Label: "[i:539] 味方/タウンNPCの罠対策ライフハック"
 		}
 
 		TownNPCLavaImmune: {
-			Tooltip: 町のNPCが溶岩に対して無敵になります
-			Label: "[i:207] 味方/町のNPCは溶岩の影響を受けない"
+			Tooltip: タウンNPCが溶岩に対して無敵になります
+			Label: "[i:207] 味方/タウンNPCの溶岩免疫"
 		}
 
 		TownNPCImmortal: {
-			Tooltip: 敵が町のNPCを攻撃しなくなります
-			Label: "[i:43] 味方/町のNPCは敵に狙われない"
+			Tooltip: 敵がタウンNPCを攻撃しなくなります
+			Label: "[i:43] 味方/タウンNPCが敵に狙われない"
 		}
 
 		DisplayName: GodNPC 設定
@@ -148,18 +148,18 @@ Configuration: {
 	TownNPCScaleDamageTooltip:
 		'''
 		ボスごとのダメージ倍率。0で無効
-		マスターモード以外では50％の効果があります
+		マスターモード以外では効果が値から半減します
 		'''
 	TownNPCScaleDamage: "[i:18] NPC ダメージ倍率"
-	TownNPCBaseDamageTooltip: 追加基本ダメージ。 マスターモード以外では50％の効果があります
+	TownNPCBaseDamageTooltip: 追加基本ダメージ。 マスターモード以外では効果が値から半減します
 	TownNPCBaseDamage: "[i:18] NPC 基本ダメージ"
 	TownNPCScaleArmorTooltip:
 		'''
 		ボスごとの防御力倍率。0で無効
-		マスターモード以外では50％の効果があります
+		マスターモード以外では効果が値から半減します
 		'''
 	TownNPCScaleArmor: "[i:156] NPC 防御力倍率"
-	TownNPCBaseArmorTooltip: 追加基本防御力。 マスターモード以外では50％の効果があります
+	TownNPCBaseArmorTooltip: 追加基本防御力。 マスターモード以外では効果が値から半減します
 	TownNPCBaseArmor: "[i:156] NPC 基本防御力"
 	TownNPCResistKBTooltip: ノックバック耐性。0でノックバック無効
 	TownNPCResistKB: "[i:936] NPC ノックバック耐性"
@@ -176,26 +176,26 @@ Configuration: {
 	TownNPCHealthRegenTooltip:
 		'''
 		ライフ自然回復倍率。0で無効
-		マスターモード以外では50％の効果があります
+		マスターモード以外では効果が値から半減します
 		'''
 	TownNPCHealthRegen: "[i:58] NPC ライフ自然回復倍率"
 	TownNPCScaleHealthTooltip:
 		'''
 		ボスごとのライフ倍率。0で無効。
-		マスターモード以外では50％の効果があります
+		マスターモード以外では効果が値から半減します
 		'''
 	TownNPCScaleHealth: "[i:58] NPC ライフ倍率"
-	TownNPCMaxHealthTooltip: 基本ライフ。 マスターモード以外では50％の効果があります
+	TownNPCMaxHealthTooltip: 基本ライフ。 マスターモード以外では効果が値から半減します
 	TownNPCMaxHealth: "[i:58] NPC 基本ライフ"
 	FriendlyNPCHeader: Friendly NPC 統計情報
 	TownNPCPetImmuneTooltip: タウンペットがすべてのダメージソースに対して無敵になります
 	TownNPCPetImmune: "[i:1959] タウンペット 無敵"
-	TownNPCTrapImmuneTooltip: 町のNPCがトラップに対して無敵になります
-	TownNPCTrapImmune: "[i:539] 味方/街のNPCは罠にかからない"
-	TownNPCLavaImmuneTooltip: 町のNPCが溶岩に対して無敵になります
-	TownNPCLavaImmune: "[i:207] 味方/町のNPCは溶岩の影響を受けない"
-	TownNPCImmortalTooltip: 敵が町のNPCを攻撃しなくなります
-	TownNPCImmortal: "[i:43] 味方/町のNPCは敵に狙われない"
+	TownNPCTrapImmuneTooltip: タウンNPCがトラップに対して無敵になります
+	TownNPCTrapImmune: "[i:539] 味方/タウンNPCの罠対策ライフハック"
+	TownNPCLavaImmuneTooltip: タウンNPCが溶岩に対して無敵になります
+	TownNPCLavaImmune: "[i:207] 味方/タウンNPC　溶岩免疫"
+	TownNPCImmortalTooltip: 敵がタウンNPCを攻撃しなくなります
+	TownNPCImmortal: "[i:43] 味方/タウンNPCが敵に狙われない"
 	InteractionHeader: 味方NPCと敵／ワールドの交流
 }
 
