@@ -28,7 +28,7 @@ MapObject: {
 	CoralPylon: サンゴのパイロン
 	DungeonPylon: ダンジョンのパイロン
 	GemPylon: 宝石のパイロン
-	GlowingMossPylon: 光るコケのパイロン
+	GlowingMossPylon: 光る苔のパイロン
 	GranitePylon: 御影石のパイロン
 	GravePylon: 墓のパイロン
 	HoneyPylon: 蜂蜜のパイロン
@@ -41,7 +41,7 @@ MapObject: {
 	SpiderPylon: クモのパイロン
 	TemplePylon: 寺院のパイロン
 	UnderworldPylon: 地下世界のパイロン
-	VoidPylon: ヴォイドのパイロン
+	VoidPylon: 虚空のパイロン
 	PylonActivator: パイロンアクティベーター
 	CrimsonPylon: 真紅のパイロン
 	CorruptionPylon: 不浄のパイロン
@@ -72,9 +72,9 @@ ItemName: {
 	ChlorophytePylon: クロロファイトのパイロン
 	GravePylon: 墓のパイロン
 	OasisPylon: オアシスのパイロン
-	GlowingMossPylon: 光るコケのパイロン
-	VoidMatter: ヴォイドプロジェクター
-	VoidPylon: ヴォイドのパイロン
+	GlowingMossPylon: 光る苔のパイロン
+	VoidMatter: 虚空のプロジェクター
+	VoidPylon: 虚空のパイロン
 	PylonActivator: パイロンアクティベーター
 	CrimsonPylon: 真紅のパイロン
 	CorruptionPylon: 不浄のパイロン
@@ -149,7 +149,7 @@ EnvDescriptions: {
 	CrimsonPylon: 真紅の地に設置する必要がある
 	DungeonPylon: ダンジョンの近くに設置する必要がある
 	GemPylon: 宝石鉱脈の近くに設置する必要がある
-	GlowingMossPylon: 光るコケの近くに設置する必要がある
+	GlowingMossPylon: 光る苔の近くに設置する必要がある
 	GranitePylon: 御影石の洞窟に設置する必要がある
 	GravePylon: 墓地に設置する必要がある
 	HoneyPylon: 蜂の巣の近くに設置する必要がある
@@ -210,7 +210,7 @@ Tiles: {
 	CrimsonPylon.MapEntry: 真紅のパイロン
 	DungeonPylon.MapEntry: ダンジョンのパイロン
 	GemPylon.MapEntry: 宝石のパイロン
-	GlowingMossPylon.MapEntry: 光るコケのパイロン
+	GlowingMossPylon.MapEntry: 光る苔のパイロン
 	GranitePylon.MapEntry: 御影石のパイロン
 	GravePylon.MapEntry: 墓のパイロン
 	HoneyPylon.MapEntry: 蜂蜜のパイロン
@@ -223,7 +223,7 @@ Tiles: {
 	SpiderPylon.MapEntry: クモのパイロン
 	TemplePylon.MapEntry: 寺院のパイロン
 	UnderworldPylon.MapEntry: 地下世界のパイロン
-	VoidPylon.MapEntry: ヴォイドのパイロン
+	VoidPylon.MapEntry: 虚空のパイロン
 	SandstonePylon.MapEntry: 砂岩のパイロン
 	CelestialPylon.MapEntry: 天体のパイロン
 }
@@ -247,7 +247,7 @@ Items: {
 	}
 
 	VoidMatter: {
-		DisplayName: ボイドマター
+		DisplayName: 虚空のマター
 		Tooltip: ""
 	}
 
@@ -292,7 +292,7 @@ Items: {
 	}
 
 	GlowingMossPylon: {
-		DisplayName: 光るコケのパイロン
+		DisplayName: 光る苔のパイロン
 		Tooltip: ""
 	}
 
@@ -369,171 +369,171 @@ Items: {
 
 Configs: {
 	ConfigPylonAmount: {
-		DisplayName: How Many Of Each Pylon Can Be In The World
+		DisplayName: それぞれ何本のパイロンが利用可能？
 
 		Activator: {
 			Label: パイロンアクティベーター
-			Tooltip: パイロンアクティベーターを入手、使用可能にするかどうか
+			Tooltip: パイロンアクティベーターを入手、使用可能にします
 		}
 
 		Void: {
-			Label: ヴォイドのパイロン
-			Tooltip: ヴォイドパイロンを使用可能にするかどうか
+			Label: 虚空のパイロン
+			Tooltip: 虚空のパイロンを使用可能にします
 		}
 
 		Forest: {
 			Label: 森のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Desert: {
 			Label: 砂漠のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Snow: {
 			Label: 雪原のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Hallow: {
 			Label: 聖域のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Cavern: {
 			Label: 洞窟のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Ocean: {
 			Label: 海のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Mushroom: {
 			Label: キノコのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Jungle: {
 			Label: ジャングルのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Universal: {
 			Label: ユニバーサルパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Chlorophyte: {
 			Label: クロロファイトのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Cloud: {
 			Label: 雲のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Coral: {
 			Label: サンゴのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Dungeon: {
 			Label: ダンジョンのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Gem: {
 			Label: 宝石のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		GlowingMoss: {
-			Label: 光るコケのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Label: 光る苔のパイロン
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Granite: {
 			Label: 御影石のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Grave: {
 			Label: 墓のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Honey: {
 			Label: 蜂蜜のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Ice: {
 			Label: 氷のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Living: {
 			Label: 巨大樹のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		LivingMahogany: {
 			Label: 巨大マホガニーのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Marble: {
 			Label: 大理石のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Oasis: {
 			Label: オアシスのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Space: {
 			Label: 宇宙のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Spider: {
 			Label: クモのパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Temple: {
 			Label: 寺院のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Underworld: {
 			Label: 地下世界のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Crimson: {
 			Label: 真紅のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Corruption: {
 			Label: 不浄のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Sandstone: {
 			Label: 砂岩のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 
 		Celestial: {
 			Label: 天体のパイロン
-			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+			Tooltip: パイロンの設置可能数を設定します（0に設定すると入手不可）
 		}
 	}
 }

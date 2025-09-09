@@ -9,7 +9,11 @@ Configs: {
 
 		configGenerateHellevator: {
 			Label: 廃墟と化したエレベーター
-			Tooltip: 廃墟と化したエレベーターを生成する（新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				廃墟と化したエレベーターを生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configHellevatorCount: {
@@ -19,7 +23,11 @@ Configs: {
 
 		configGenerateLakes: {
 			Label: 地底湖
-			Tooltip: 地底湖を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				地底湖を生成します 
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configLakesCount: {
@@ -29,47 +37,79 @@ Configs: {
 
 		configGenerateGoldLake: {
 			Label: "   黄金の湖"
-			Tooltip: 黄金の湖を生成する (ゲーム序盤に見つけると、簡単になりすぎると感じるかもしれません)
+			Tooltip: 
+				'''
+				黄金の湖を生成します 
+				(ゲーム序盤に見つけると、簡単になりすぎると感じるかもしれません)
+				'''
 		}
 
 		configSmallerGoldLake: {
 			Label: "      黄金の湖をより小さく"
-			Tooltip: 金鉱石の量を約2/3に削減 (ゲーム序盤に見つけると、簡単になりすぎると感じるかもしれません)
+			Tooltip: 
+				'''
+				金鉱石の量を約2/3に削減します 
+				(ゲーム序盤に見つけると、簡単になりすぎると感じるかもしれません)
+				'''
 		}
 
 		configGenerateFrostFortress: {
 			Label: 凍てつく要塞
-			Tooltip: マイクロダンジョン「凍てつく要塞」を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				マイクロダンジョン「凍てつく要塞」を生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configFrostFortressCobwebFilling: {
 			Label: "   凍てつく要塞のクモの巣密度"
-			Tooltip: 凍てつく要塞のクモの巣の密度を調整します (0から100%まで;0=クモの巣なし)
+			Tooltip: 
+				'''
+				凍てつく要塞のクモの巣の密度を調整します
+				(0から100%まで;0=クモの巣なし)
+				'''
 		}
 
 		configGenerateCanyon: {
 			Label: 峡谷
-			Tooltip: 峡谷(亀裂のレガシー版) を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				峡谷(亀裂のレガシー版) を生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configGenerateChastisedChurch: {
 			Label: 折檻された教会
-			Tooltip: マイクロダンジョン「折檻された教会」を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				マイクロダンジョン「折檻された教会」を生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configChastisedChurchGenerationSide: {
 			Label: "   折檻された教会世代"
-			Tooltip: 特定のワールド側で折檻された教会を強制的に生成する。
+			Tooltip: 特定のワールド側で折檻された教会を強制的に生成します
 		}
 
 		configChastisedChurchCobwebFilling: {
 			Label: "   折檻された教会のクモの巣密度"
-			Tooltip: 折檻された教会のクモの巣の密度を調整します (0から100%まで;0=クモの巣なし)- 将来使用するため。
+			Tooltip: 
+				'''
+				折檻された教会のクモの巣の密度を調整します
+				(0から100%まで;0=クモの巣なし)- 将来使用するため
+				'''
 		}
 
 		configGenerateFissure: {
 			Label: 亀裂
-			Tooltip: 亀裂を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				亀裂を生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 
 		configFissureCount: {
@@ -79,12 +119,20 @@ Configs: {
 
 		configMoveFissureToLaterWorldgen: {
 			Label: "   亀裂の発生をワールドジェネレーションの後工程に移す"
-			Tooltip: ワールドジェネレーション中に「亀裂」が上書きされにくくなる（「砂漠」、「大理石」、「花崗岩」、「腐敗」、「真紅」の一部が上書きされる可能性があります）
+			Tooltip: 
+				'''
+				ワールドジェネレーション中に「亀裂」が上書きされにくくなります
+				（「砂漠」、「大理石」、「花崗岩」、「腐敗」、「真紅」の一部が上書きされる可能性があります）
+				'''
 		}
 
 		configGenerateLakes_Legacy: {
 			Label: 地底湖
-			Tooltip: レガシー版の楕円式「地底湖」を生成する （新規にワールド生成時に反映される）
+			Tooltip: 
+				'''
+				レガシー版の楕円式「地底湖」を生成します
+				（ワールド新規生成時に反映されます）
+				'''
 		}
 	}
 }

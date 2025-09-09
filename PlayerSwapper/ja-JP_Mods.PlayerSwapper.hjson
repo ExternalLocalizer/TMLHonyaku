@@ -1,8 +1,12 @@
 Configs: {
 	PlayerSwapModConfig: {
 		CanSwapRegardlessOfDifficulty: {
-			Tooltip: 有効にすると、ジャーニーモード用に作成されたキャラクターは、ジャーニーモード以外のワールドでもプレイできるようになります。
-			Label: ワールドの難易度に関係なくキャラクターにスワップ
+			Tooltip: 
+				'''
+				オンにすると、ジャーニーモード用に作成されたキャラクターでも、
+				ジャーニーモード以外のワールドでもプレイできるようになります
+				'''
+			Label: ワールド難易度に関わらぬキャラクタースワップ
 		}
 
 		DisplayName: Player Swap Mod 設定
@@ -15,7 +19,7 @@ Keybinds: {
 	}
 
 	PreviousPlayer: {
-		DisplayName: 前のプレイヤー
+		DisplayName: 手前のプレイヤー
 	}
 
 	NextPlayer: {

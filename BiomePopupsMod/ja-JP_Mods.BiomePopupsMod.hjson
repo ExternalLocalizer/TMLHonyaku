@@ -45,23 +45,23 @@ Configs: {
 
 	BiomePopupConfig: {
 		IsHideWhileChatOpen: {
-			Tooltip: チャットが開いている間はポップアップを非表示にする
+			Tooltip: チャットが開いている間はポップアップを非表示にします
 			Label: チャット中は非表示
 		}
 
 		Position: {
 			Label: 表示位置
-			Tooltip: ポップアップの表示位置を選択
+			Tooltip: ポップアップの表示位置を選択します
 		}
 
 		IsScaleWithUI: {
 			Label: UIに合わせて拡縮
-			Tooltip: 有効にすると、UIスケールに合わせてポップアップも拡縮されます
+			Tooltip: オンにすることで、UIスケールに合わせてポップアップも拡縮されます
 		}
 
 		CustomScale: {
 			Label: ポップアップの拡大率
-			Tooltip: ポップアップの表示倍率を50%～200%の間で指定
+			Tooltip: ポップアップの表示倍率を50%～200%の間で指定します
 		}
 
 		AnimationType: {
@@ -86,12 +86,12 @@ Configs: {
 
 		IsHideWhileInventoryOpen: {
 			Label: インベントリ表示中は非表示
-			Tooltip: プレイヤーのインベントリが開いている間はポップアップを非表示にする
+			Tooltip: プレイヤーのインベントリが開いている間はポップアップを非表示にします
 		}
 
 		IsHideWhileBossAlive: {
 			Label: ボス戦中は非表示
-			Tooltip: ボスが生存している間はポップアップを非表示にする
+			Tooltip: ボスが生存している間はポップアップを非表示にします
 		}
 
 		BiomeCheckDelay: {

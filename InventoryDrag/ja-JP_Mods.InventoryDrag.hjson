@@ -3,13 +3,13 @@ GrabBagTooltip: Shift + 右クリックで分割
 Configs: {
 	ThrowDragging: {
 		ThrowDelay: {
-			Tooltip: スローの間隔をティック単位でどれだけディレイをかけるかを設定する（60ティック＝1秒）
+			Tooltip: スローの間隔をティック単位でどれだけディレイをかけるか設定します（60ティック＝1秒）
 			Label: スローディレイ
 		}
 
 		PlaySound: {
-			Tooltip: アイテムを投げるときに音を鳴らす
-			Label: サウンドを再生
+			Tooltip: アイテムを投げるときに音を鳴らします
+			Label: サウンド再生
 		}
 
 		Tooltip: ""
@@ -17,12 +17,12 @@ Configs: {
 
 	SplittableGrabBags: {
 		ShowTooltip: {
-			Tooltip: ツールチップにコントロールを表示する
+			Tooltip: ツールチップにコントロールを表示します
 			Label: ツールチップの表示
 		}
 
 		Enabled: {
-			Tooltip: Shift + 右クリックでバッグを開く代わりに分割する
+			Tooltip: Shift + 右クリックでバッグを開く代わりに分割します
 			Label: 有効
 		}
 
@@ -31,12 +31,12 @@ Configs: {
 
 	RightMouseOptions: {
 		ModifierOptions: {
-			Tooltip: マウスの右ボタンで使用できるモディファイアを設定する
+			Tooltip: マウスの右ボタンで使用できるモディファイアを設定します
 			Label: モディファイア設定
 		}
 
 		Enabled: {
-			Tooltip: オフにすると、マウスの右ボタンを押したままのドラッグが無効になる
+			Tooltip: オフにすると、マウスの右ボタンを押したままのドラッグが無効になります
 			Label: 有効
 		}
 
@@ -45,28 +45,28 @@ Configs: {
 
 	ModifierOptions: {
 		AllowThrow: {
-			Tooltip: オフにすると、投げるキーを押しながらのドラッグが無効になる
-			Label: 投げるを許可する
+			Tooltip: オフにすると、投げるキーを押しながらのドラッグが無効になります
+			Label: 投げるを許可
 		}
 
 		RequireModifier: {
 			Tooltip: ドラッグを有効にするためにモディファイア（Ctrl、Shift、Altなど）が必要な場合はオンを推奨
-			Label: モディファイアを要求する
+			Label: モディファイアを要求
 		}
 
 		AllowAlt: {
-			Tooltip: オフにすると、Altを押しながらのドラッグが無効になる
-			Label: Altを許可する
+			Tooltip: オフにすると、Altを押しながらのドラッグが無効になります
+			Label: Altを許可
 		}
 
 		AllowShift: {
-			Tooltip: オフにすると、Shiftを押しながらのドラッグが無効になる
-			Label: Shiftを許可する
+			Tooltip: オフにすると、Shiftを押しながらのドラッグが無効になります
+			Label: Shiftを許可
 		}
 
 		AllowCtrl: {
-			Tooltip: オフにすると、Ctrlを押しながらのドラッグが無効になる
-			Label: Ctrlを許可する
+			Tooltip: オフにすると、Ctrlを押しながらのドラッグが無効になります
+			Label: Ctrlを許可
 		}
 
 		Tooltip: ""
@@ -74,12 +74,12 @@ Configs: {
 
 	LeftMouseOptions: {
 		ModifierOptions: {
-			Tooltip: マウスの左ボタンで使用できるモディファイアを設定する
+			Tooltip: マウスの左ボタンで使用できるモディファイアを設定します
 			Label: モディファイア設定
 		}
 
 		Enabled: {
-			Tooltip: オフにすると、マウスの左ボタンを押したままのドラッグが無効になる
+			Tooltip: オフにすると、マウスの左ボタンを押したままのドラッグが無効になります
 			Label: 有効
 		}
 

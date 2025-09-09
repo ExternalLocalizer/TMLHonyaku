@@ -10,7 +10,7 @@ Generic: {
 	Defense: "DEF: "
 	Damage: ダメージ
 	Dead: 死亡
-	Playing: プレイ中。
+	Playing: プレイ中
 	PlayingWorld: "{0}を{1}プレイ中"
 	MasterMode: マスターモードで
 	ExpertMode: エキスパートモードで
@@ -30,7 +30,7 @@ Event: {
 		PumpkinMoon: パンプキンムーン
 		FrostMoon: フロストムーン
 		SolarEclipse: 日食
-		MartianEvent: 火星人の狂乱
+		MartianEvent: 火星の侵攻
 		SolarPillar: ソーラーピラー
 		VortexPillar: ヴォルテックスピラー
 		NebulaPillar: ネビュラピラー
@@ -49,7 +49,7 @@ Biome: {
 		Underground: 地下
 		Cavern: 洞窟
 		Ocean: 海洋
-		Mushroom: キノコバイオーム
+		Mushroom: キノコ群生地
 		Jungle: ジャングル
 		UndergroundJungle: 地下ジャングル
 		Desert: 砂漠
@@ -62,7 +62,7 @@ Biome: {
 		UndergroundCorruption: 地下不浄
 		Crimson: 真紅
 		UndergroundCrimson: 地下真紅
-		UndergroundMushroom: 地下キノコバイオーム
+		UndergroundMushroom: 地下キノコ群生地
 		GraniteCave: 御影石の洞窟
 		MarbleCave: 大理石の洞窟
 		Hive: 蜂の巣
@@ -93,7 +93,7 @@ Boss: {
 		EyeOfCthulhu: クトゥルフの目
 		EaterOfWorlds: イーターオブワールド
 		BrainOfCthulhu: クトゥルフの脳
-		QueenBee: クイーンビー
+		QueenBee: 女王蜂
 		Skeletron: スケルトロン
 		Deerclops: ディアクロプス
 		WallOfFlesh: ウォールオブフレッシュ
@@ -157,12 +157,12 @@ Config: {
 
 	DisplayModVersion: {
 		Label: MODバージョンを表示
-		Tooltip: 有効にすると、TerrariaのメインメニューでDiscordyaとtModLoaderのバージョンが表示されます。
+		Tooltip: オンにすると、TerrariaのメインメニューでDiscordyaとtModLoaderのバージョンが表示されます
 	}
 
 	DisplayModQuantity: {
 		Label: 有効なMODの数を表示
-		Tooltip: 有効にすると、Terrariaのメインメニューで有効なMODの数が表示されます。
+		Tooltip: オンにすると、Terrariaのメインメニューで有効なMODの数が表示されます
 	}
 
 	DisplayHealth: {
