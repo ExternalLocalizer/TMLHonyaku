@@ -1,39 +1,23 @@
 Configs: {
 	SkyColorPreset: {
-		Preset1: {
-			Label: プリセット1
-		}
-
-		Preset2: {
-			Label: プリセット2
-		}
-
-		Preset3: {
-			Label: プリセット3
+		Preset5: {
+			Label: プリセット5
 		}
 
 		Preset4: {
 			Label: プリセット4
 		}
 
-		Tooltip: ""
-	}
-
-	RenderMode: {
-		EnhancedHdr: {
-			Label: 拡張HDRレンダリング
+		Preset3: {
+			Label: プリセット3
 		}
 
-		BicubicOverbright: {
-			Label: 基本HDRレンダリング
+		Preset2: {
+			Label: プリセット2
 		}
 
-		Bicubic: {
-			Label: 基本アップスケーリング
-		}
-
-		Bilinear: {
-			Label: 双直線アップスケーリング
+		Preset1: {
+			Label: プリセット1
 		}
 
 		Tooltip: ""
@@ -71,6 +55,26 @@ Configs: {
 		Tooltip: ""
 	}
 
+	RenderMode: {
+		EnhancedHdr: {
+			Label: 拡張HDRレンダリング
+		}
+
+		BicubicOverbright: {
+			Label: 基本HDRレンダリング
+		}
+
+		Bicubic: {
+			Label: 基本アップスケーリング
+		}
+
+		Bilinear: {
+			Label: 双直線アップスケーリング
+		}
+
+		Tooltip: ""
+	}
+
 	LightingEngineMode: {
 		High: {
 			Label: 高
@@ -89,13 +93,23 @@ Configs: {
 
 	LightingConfig: {
 		UseFancySkyColors: {
-			Label: ファンシーな空の色
 			Tooltip:
 				'''
 				新しい空の色を使用します
 
 				主に早朝と夕方の太陽光の色に影響します
 				'''
+			Label: ファンシーな空の色
+		}
+
+		UseFancySkyRendering: {
+			Tooltip:
+				'''
+				大気や太陽の描画を改善します
+
+				※カメラモード非対応
+				'''
+			Label: ファンシーな大気
 		}
 
 		SimulateGlobalIllumination: {
@@ -243,23 +257,24 @@ Configs: {
 	}
 
 	PreferencesConfig: {
+		ShowFancySkyColorGradients: {
+			Tooltip:
+				'''
+				ファンシーな空で使われる、空の色グラデーションを表示します
+
+				※画面の大部分が覆われます
+				'''
+			Label: （デバッグ）空の色グラデーション
+		}
+
 		FancySkyColorsPreset: {
-			Label: 空の色プリセット
 			Tooltip:
 				'''
 				使用する空の色セットを選択します
 
 				この設定を有効化するには『ファンシーな空の色』を有効にしておく必要があります
 				'''
-		}
-
-		UseCustomSkyColors: {
-			Tooltip:
-				'''
-				新しい空の色を使用します
-				無効の場合、バニラの空の色が使用されます
-				'''
-			Label: ファンシーな空の色
+			Label: 空の色プリセット
 		}
 
 		FancyLightingEngineNonSolidOpaque: {
@@ -333,12 +348,12 @@ Configs: {
 		}
 
 		UseGrayscaleLighting: {
-			Label: モノクロライティング
 			Tooltip:
 				'''
-  				光をモノクロで表示します
-            	有効にすると、光からすべての色が削除されます
+						光をモノクロで表示します
+				        	有効にすると、光からすべての色が削除されます
 				'''
+			Label: モノクロライティング
 		}
 
 		DisableHdrDuringBossFights: {
