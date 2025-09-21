@@ -2,26 +2,48 @@ Configs: {
 	ItemChecklistClientConfig: {
 		ShowItemModSource: {
 			Label: アイテムMODのソースを表示
-			Tooltip: どのmodがレシピカタログにどのアイテムを追加するかを表示します。 ゲームの没入感を高めたい方は無効にしましょう
+			Tooltip: 
+				'''
+				どのmodがレシピカタログにどのアイテムを追加するかを表示します
+				ゲームの没入感を高めたい方は無効にしましょう
+				'''
 		}
 
 		DisplayName: ItemChecklist クライアント設定
-		Headers.AutomaticSettings: 自動設定
+
+		Headers: {
+			AutomaticSettings: 自動設定
+		}
 
 		ItemChecklistSize: {
 			Label: アイテムチェックリストサイズ
-			Tooltip: アイテムチェックリストUIのサイズを変更します。 これは自動的に保存されるので、調整する必要はありません
+			Tooltip: 
+				'''
+				アイテムチェックリストUIのサイズを変更します
+				これは自動的に保存されるので、調整する必要はありません
+				'''
 		}
 
 		ItemChecklistPosition: {
 			Label: アイテムチェックリストの位置
-			Tooltip: アイテムチェックリストUIの位置を変更します。 これは自動的に保存されるので、調整する必要はありません
+			Tooltip: 
+				'''
+				アイテムチェックリストUIの位置を変更します
+				これは自動的に保存されるので、調整する必要はありません
+				'''
 		}
 	}
 }
 
-Keybinds.ToggleItemChecklist.DisplayName: アイテムチェックリスト切り替え
-GlobalItem.ItemChecklistAnnounceText: "{0}を初めて見つけた！   {1}/{2}   {3}%"
+Keybinds: {
+	ToggleItemChecklist: {
+		DisplayName: アイテムチェックリスト切り替え
+	}
+}
+
+GlobalItem: {
+	ItemChecklistAnnounceText: "{0}を初めて見つけた！   {1}/{2}   {3}%"
+}
 
 UICollectionBar: {
 	collectionTotalText: 合計: {0}/{1} ({2}% コレクション)
@@ -45,10 +67,10 @@ Ui: {
 }
 
 SharedUI: {
-	mutuallyExclusiveFilterVanityText: Vanity
-	mutuallyExclusiveFilterArmorText: Armor
-	cycleAmmoTypesText: Cycle Ammo Types
-	cycleUsedAmmoTypesText: Cycle Used Ammo Types
+	mutuallyExclusiveFilterVanityText: 衣装
+	mutuallyExclusiveFilterArmorText: 防具
+	cycleAmmoTypesText: 弾薬種類サイクル
+	cycleUsedAmmoTypesText: 使用済み弾薬種類サイクル
 	categoryAllText: すべて
 	categoryMeleeText: 近接武器
 	categoryYoyoText: ヨーヨー
@@ -120,4 +142,9 @@ SharedUI: {
 	sortProgressionOrderText: 進行順序
 	sortPolePowerText: 釣竿パワー
 	sortBaitPowerText: エサパワー
+	filterResearchText: 調査状態
+	filterResearchCompleteText: 調査済み
+	filterResearchIncompleteText: 未調査
+	filterResearchPartialText: 一部調査済み
 }
+
