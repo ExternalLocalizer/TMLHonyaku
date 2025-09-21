@@ -1,206 +1,5 @@
-MusicDisplay: {
-	SkeletronPrime: {
-		Author: By Salvati, Sbubby
-		DisplayName: Thermite Assault (Skeletron Prime Theme)
-	}
-
-	SpiderCave: {
-		Author: By Salvati
-		DisplayName: Xyresic Horrors (Spider Cave Theme)
-	}
-
-	SnowNight: {
-		Author: By Salvati
-		DisplayName: Icy Stars (Snow Night Theme)
-	}
-
-	Meteor: {
-		Author: By Salvati
-		DisplayName: Space Rocks! (Meteorite Theme)
-	}
-
-	MarbleBiome: {
-		Author: By Salvati
-		DisplayName: Regal Tunnel (Marble Theme)
-	}
-
-	HallowNight: {
-		Author: By Salvati
-		DisplayName: Wonderous Landscape (Hallow Night Theme)
-	}
-
-	Granite: {
-		Author: By Salvati
-		DisplayName: Resounding Stones (Granite Theme)
-	}
-
-	FrostLegion: {
-		Author: By Salvati
-		DisplayName: Tougher Chill (Frost Legion Theme)
-	}
-
-	DesertNight: {
-		Author: By Salvati
-		DisplayName: Kempt Dunes (Desert Night Theme)
-	}
-
-	CrimsonNight: {
-		Author: By Salvati, Sbubby
-		DisplayName: Razor's Edge (Crimson Night Theme)
-	}
-
-	CorruptNight: {
-		Author: By Salvati
-		DisplayName: Nightmare Fuel (Corruption Night Theme)
-	}
-
-	Blizzard: {
-		Author: By Salvati
-		DisplayName: Shivering Storms (Blizzard Theme)
-	}
-
-	BySalvati: By Salvati
-	By: By
-	Sbubby: Sbubby
-	Salvati: Salvati
-	ModName: Spirit Music
-}
-
-Items: {
-
-	VictoryDayBoxItem: {
-	DisplayName: オルゴール（勝利の日）
-	Tooltip: ""
-	}
-	UndergroundTownBoxItem: {
-		DisplayName: オルゴール（地下の町）
-		Tooltip: ""
-	}
-
-	NeonMossBoxItem: {
-		DisplayName: オルゴール（輝く苔）
-		Tooltip: ""
-	}
-
-	LavaLayerBoxItem: {
-		DisplayName: オルゴール（溶岩層）
-		Tooltip: ""
-	}
-
-	SpiderCaveBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（クモの巣）
-	}
-
-	SnowNightBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（夜の雪原）
-	}
-
-	SkeletronPrimeBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（スケルトロンプライム）
-	}
-
-	MeteorBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（隕石）
-	}
-
-	MarbleBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（大理石）
-	}
-
-	HallowNightBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（夜の聖域）
-	}
-
-	GraniteBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（御影石）
-	}
-
-	FrostLegionBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（フロストレギオン）
-	}
-
-	DesertNightBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（夜の砂漠）
-	}
-
-	CrimsonNightBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（夜の真紅）
-	}
-
-	CorruptNightBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（夜の不浄）
-	}
-
-	BlizzardBoxItem: {
-		Tooltip: ""
-		DisplayName: オルゴール（吹雪）
-	}
-}
-
 Configs: {
-    MusicConfig: {
-		
-		VictoryDay: {
-			Label: 勝利の日
-			Tooltip: 勝利の日（「Overworld Alt Alt」）のbgmを置き換えます
-		}
-
-		TownUnderground: {
-			Label: 地下の町
-			Tooltip: 地下の町（「Subsurface Settlement」）のBGMを置き換えます
-		}
-
-		NeonMoss: {
-			Label: 輝く苔
-			Tooltip: 輝く苔バイオーム（「Radiant Grotto」）のBGMを置き換えます
-		}
-
-		LavaLayer: {
-			Label: 溶岩層
-			Tooltip: 溶岩層（「Magmatic Depths」）のBGMを置き換えます
-		}
-
-        SkeletronPrime: {
-            Tooltip: ""
-            Label: スケルトロンプライム
-        }
-
-		Spider: {
-			Tooltip: クモの巣（「Xyresic Horrors」）のBGMを置き換えます
-			Label: 蜘蛛
-		}
-
-		Meteor: {
-			Tooltip: 隕石バイオーム（「Space Rocks!」）のBGMを置き換えます
-			Label: 隕石
-		}
-
-		Marble: {
-			Tooltip: 大理石バイオーム（「Regal Tunnel」）のBGMを置き換えます
-			Label: 大理石
-		}
-
-		Granite: {
-			Tooltip: 花崗岩バイオーム（「Resounding Stones」）のBGMを置き換えます
-			Label: 花崗岩
-		}
-
-		FrostLegion: {
-			Tooltip: フロストレギオン（「Tougher Chill」）のBGMを置き換えます
-			Label: フロストレギオン
-		}
-
+	MusicConfig: {
 		DesertNight: {
 			Tooltip: 夜の砂漠（「Kempt Dunes」）のBGMを置き換えます
 			Label: 夜の砂漠
@@ -232,6 +31,237 @@ Configs: {
 		}
 
 		DisplayName: 音楽設定
+
+		FrostLegion: {
+			Label: フロストレギオン
+			Tooltip: フロストレギオン（「Tougher Chill」）のBGMを置き換えます
+		}
+
+		Granite: {
+			Label: 花崗岩
+			Tooltip: 花崗岩バイオーム（「Resounding Stones」）のBGMを置き換えます
+		}
+
+		Marble: {
+			Label: 大理石
+			Tooltip: 大理石バイオーム（「Regal Tunnel」）のBGMを置き換えます
+		}
+
+		Meteor: {
+			Label: 隕石
+			Tooltip: 隕石バイオーム（「Space Rocks!」）のBGMを置き換えます
+		}
+
+		Spider: {
+			Label: 蜘蛛
+			Tooltip: クモの巣（「Xyresic Horrors」）のBGMを置き換えます
+		}
+
+		SkeletronPrime: {
+			Label: スケルトロンプライム
+			Tooltip: ""
+		}
+
+		LavaLayer: {
+			Label: 溶岩層
+			Tooltip: 溶岩層（「Magmatic Depths」）のBGMを置き換えます
+		}
+
+		NeonMoss: {
+			Label: 輝く苔
+			Tooltip: 輝く苔バイオーム（「Radiant Grotto」）のBGMを置き換えます
+		}
+
+		TownUnderground: {
+			Label: 地下の町
+			Tooltip: 地下の町（「Subsurface Settlement」）のBGMを置き換えます
+		}
+
+		VictoryDay: {
+			Label: 勝利の日
+			Tooltip: 勝利の日（「Overworld Alt Alt」）のbgmを置き換えます
+		}
+	}
+}
+
+MusicDisplay: {
+	OtherworldBlizzard: {
+		Author: By Soba Noodles
+		DisplayName: Otherworldly Blizzard
+	}
+
+	VictoryDay: {
+		Author: By Salvati
+		DisplayName: Overworld Alt Alt (Victory Day Theme)
+	}
+
+	TownUnderground: {
+		Author: By Sbubby
+		DisplayName: Subsurface Settlement (Underground Town Theme)
+	}
+
+	NeonMoss: {
+		Author: By Sbubby
+		DisplayName: Radiant Grotto (Neon Moss Theme)
+	}
+
+	LavaLayer: {
+		Author: By Sbubby
+		DisplayName: Magmatic Depths (Lava Layer Theme)
+	}
+
+	SkeletronPrime: {
+		Author: By Salvati, Sbubby
+		DisplayName: Thermite Assault (Skeletron Prime Theme)
+	}
+
+	SpiderCave: {
+		Author: By Salvati
+		DisplayName: Xyresic Horrors (Spider Cave Theme)
+	}
+
+	SnowNight: {
+		Author: By Salvati
+		DisplayName: Icy Stars (Snow Night Theme)
+	}
+
+	Meteor: {
+		Author: By Salvati
+		DisplayName: Space Rocks! (Meteorite Theme)
+	}
+
+	MarbleBiome: {
+		Author: By Salvati
+		DisplayName: Regal Tunnel (Marble Theme)
+	}
+
+	HallowNight: {
+		Author: By Salvati
+		DisplayName: Wonderous Landscape (Hallow Night Theme)
+	}
+
+	ModName: Spirit Music
+	Salvati: Salvati
+	Sbubby: Sbubby
+	By: By
+	BySalvati: By Salvati
+	BySbubby: By Sbubby
+
+	Blizzard: {
+		DisplayName: Shivering Storms (Blizzard Theme)
+		Author: By Salvati
+	}
+
+	CorruptNight: {
+		DisplayName: Nightmare Fuel (Corruption Night Theme)
+		Author: By Salvati
+	}
+
+	CrimsonNight: {
+		DisplayName: Razor's Edge (Crimson Night Theme)
+		Author: By Salvati, Sbubby
+	}
+
+	DesertNight: {
+		DisplayName: Kempt Dunes (Desert Night Theme)
+		Author: By Salvati
+	}
+
+	FrostLegion: {
+		DisplayName: Tougher Chill (Frost Legion Theme)
+		Author: By Salvati
+	}
+
+	Granite: {
+		DisplayName: Resounding Stones (Granite Theme)
+		Author: By Salvati
+	}
+}
+
+Items: {
+	BlizzardBoxItem: {
+		DisplayName: オルゴール（吹雪）
+		Tooltip: ""
+	}
+
+	CorruptNightBoxItem: {
+		DisplayName: オルゴール（夜の不浄）
+		Tooltip: ""
+	}
+
+	CrimsonNightBoxItem: {
+		DisplayName: オルゴール（夜の真紅）
+		Tooltip: ""
+	}
+
+	DesertNightBoxItem: {
+		DisplayName: オルゴール（夜の砂漠）
+		Tooltip: ""
+	}
+
+	FrostLegionBoxItem: {
+		DisplayName: オルゴール（フロストレギオン）
+		Tooltip: ""
+	}
+
+	GraniteBoxItem: {
+		DisplayName: オルゴール（御影石）
+		Tooltip: ""
+	}
+
+	HallowNightBoxItem: {
+		DisplayName: オルゴール（夜の聖域）
+		Tooltip: ""
+	}
+
+	MarbleBoxItem: {
+		DisplayName: オルゴール（大理石）
+		Tooltip: ""
+	}
+
+	MeteorBoxItem: {
+		DisplayName: オルゴール（隕石）
+		Tooltip: ""
+	}
+
+	SkeletronPrimeBoxItem: {
+		DisplayName: オルゴール（スケルトロンプライム）
+		Tooltip: ""
+	}
+
+	SnowNightBoxItem: {
+		DisplayName: オルゴール（夜の雪原）
+		Tooltip: ""
+	}
+
+	SpiderCaveBoxItem: {
+		DisplayName: オルゴール（クモの巣）
+		Tooltip: ""
+	}
+
+	LavaLayerBoxItem: {
+		DisplayName: オルゴール（溶岩層）
+		Tooltip: ""
+	}
+
+	NeonMossBoxItem: {
+		DisplayName: オルゴール（輝く苔）
+		Tooltip: ""
+	}
+
+	UndergroundTownBoxItem: {
+		DisplayName: オルゴール（地下の町）
+		Tooltip: ""
+	}
+
+	VictoryDayBoxItem: {
+		DisplayName: オルゴール（勝利の日）
+		Tooltip: ""
+	}
+
+	OtherworldBlizzardBoxItem: {
+		DisplayName: オルゴール（吹雪－Otherworld）
+		Tooltip: ""
 	}
 }
 
