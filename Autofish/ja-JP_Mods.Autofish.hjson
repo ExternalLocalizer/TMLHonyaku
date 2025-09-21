@@ -1,11 +1,10 @@
-Keybinds: {
-	LockcastDirection: {
-		DisplayName: ターゲットをカーソルにロックします
-	}
-}
-
 Configs: {
 	Configuration: {
+		AutoLockCast: {
+			Tooltip: 釣り開始時に、投げ入れ位置をカーソルに自動固定します
+			Label: 自動投げ入れ固定
+		}
+
 		Headers: {
 			Utilities:
 				'''
@@ -49,13 +48,13 @@ Configs: {
 		}
 
 		CatchNormalCatches: {
-			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も釣り上げます（ホワイトは含まない）
-			Label: "[i:2308] 自動釣り上げ 高レアリティ ノーマルキャッチ"
+			Tooltip: 白より上のレアリティの通常の魚も釣り上げます（白は含まない）
+			Label: "[i:2308] 自動釣り上げ 高レアリティ"
 		}
 
 		CatchWhiteRarityCatches: {
-			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も釣り上げます
-			Label: "[i:2290] 自動釣り上げ ホワイト/グレー レアリティ ノーマルキャッチ"
+			Tooltip: 白かグレーのレアリティの魚も釣り上げます
+			Label: "[i:2290] 自動釣り上げ 白/グレー レアリティ"
 		}
 
 		CatchQuestFishes: {
@@ -84,7 +83,11 @@ Configs: {
 		}
 
 		AutoCatch: {
-			Tooltip: ラインは自動的に引き出され、フィルターが有効になっていれば便利です
+			Tooltip: 
+				'''
+				魚を自動的に釣り上げます
+				フィルターが有効になっていれば便利です
+				'''
 			Label: 自動釣り上げ
 		}
 	}
@@ -92,6 +95,9 @@ Configs: {
 
 Tips: {
 	PotionsRanOut: すでに{0}を使い果たしました
-	TargetUnlock: キャスト対象が[c/BB2222:unlocked]になりました
-	TargetLock: キャスティングターゲットが現在のカーソル位置に[c/22CC22:lock]されるようになりました
+	Disable: "[c/BB2222:無効]"
+	Enable: "[c/22CC22:有効]"
+	TargetLockState: 自動投げ入れ固定は{0}です
+	AutoFishingState: 自動釣り上げは{0}です
 }
+
