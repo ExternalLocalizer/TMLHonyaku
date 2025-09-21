@@ -1,45 +1,57 @@
 Configs: {
 	SummonsUIConfig: {
-		DisplayName: 召喚UI設定
+		DisplayName: Summoner UI 設定
 
 		UIStyle: {
 			Label: UIスタイル
-			Tooltip: HP/マナバーと同じスタイルに設定する。
+			Tooltip: HP/マナバーと同じスタイルに設定します
 		}
 
 		AutoOffset: {
-			Label: 自動オフセットを有効にする
-			Tooltip: ファンシー/クラシックUIスタイルの自動オフセットを有効にする。UIを再配置する際、ミニオン/エントリースロットを自動的に再配置させたくない場合は無効にする。
+			Label: 自動オフセットを有効化
+			Tooltip: 
+				'''
+				ファンシー/クラシックUIスタイルの自動オフセットを有効にします
+				UIを再配置する際、ミニオン/エントリースロットを自動的に再配置させたくない場合はオフにしてください
+				'''
 		}
 
 		AutoOffset2: {
 			Label: ライフオフセットの有効化
-			Tooltip: 有効な場合、最大ライフが200以下のときにUIのy位置をオフセットする。
+			Tooltip: 
+				'''
+				有効な場合、最大ライフが200以下の際、
+				UIのy位置をオフセットします
+				'''
 		}
 
 		ShowUI: {
-			Label: 召喚士のUIを表示する
-			Tooltip: オフにするとUIが非表示になる。キーバインドで切り替えることができる。
+			Label: 召喚士のUIを表示
+			Tooltip: 
+				'''
+				オフにするとUIが非表示になります
+				キーバインドで切り替えられます
+				'''
 		}
 
 		SummonsUIAltLayer: {
 			Label: UIレイヤー
-			Tooltip: UIが描画されるレイヤーを変更する。
+			Tooltip: UIが描画されるレイヤーを変更します
 		}
 
 		MaxDisplayLength: {
 			Label: ミニオンの最大表示数
-			Tooltip: UIの数をこのスロット数に制限する。
+			Tooltip: UIの数をこのスロット数に制限します
 		}
 
 		XOffset: {
 			Label: ミニオンスロットX位置
-			Tooltip: UIをこのピクセル数だけ移動させる。
+			Tooltip: UIを数値分移動させます
 		}
 
 		YOffset: {
 			Label: ミニオンスロットY位置
-			Tooltip: UIをこのピクセル数だけ移動させる。
+			Tooltip: UIを数値分移動させます
 		}
 
 		DisplaySentries: {
@@ -49,17 +61,17 @@ Configs: {
 
 		MaxDisplayLength2: {
 			Label: セントリーの最大表示数
-			Tooltip: UIのサイズをこのスロット数に制限する
+			Tooltip: UIのサイズをこのスロット数に制限します
 		}
 
 		XOffset2: {
 			Label: セントリースロットX位置
-			Tooltip: UIをこのピクセル数だけ移動させる。
+			Tooltip: UIを数値分移動させます
 		}
 
 		YOffset2: {
 			Label: セントリースロットY位置
-			Tooltip: UIをこのピクセル数だけ移動させる。
+			Tooltip: UIを数値分移動させます
 		}
 
 		Headers: {
@@ -70,42 +82,42 @@ Configs: {
 
 		SummonsUILayer: {
 			Label: UIレイヤー
-			Tooltip: UIが描画されるレイヤーを変更する
+			Tooltip: UIが描画されるレイヤーを変更します
 		}
 	}
 }
 
 Keybinds: {
 	"Nudge Sentry UI Right": {
-		DisplayName: セントリーUIを右に動かす
+		DisplayName: セントリーUIを右に移動
 	}
 
 	"Nudge Sentry UI Left": {
-		DisplayName: セントリーUIを左に動かす
+		DisplayName: セントリーUIを左に移動
 	}
 
 	"Nudge Sentry UI Down": {
-		DisplayName: セントリーUIを下に動かす
+		DisplayName: セントリーUIを下に移動
 	}
 
 	"Nudge Sentry UI Up": {
-		DisplayName: セントリーUIを上に動かす
+		DisplayName: セントリーUIを上に移動
 	}
 
 	"Nudge Minion UI Right": {
-		DisplayName: ミニオンUIを右に動かす
+		DisplayName: ミニオンUIを右に移動
 	}
 
 	"Nudge Minion UI Left": {
-		DisplayName: ミニオンUIを左に動かす
+		DisplayName: ミニオンUIを左に移動
 	}
 
 	"Nudge Minion UI Down": {
-		DisplayName: ミニオンUIを下に動かす
+		DisplayName: ミニオンUIを下に移動
 	}
 
 	"Nudge Minion UI Up": {
-		DisplayName: ミニオンUIを上に動かす
+		DisplayName: ミニオンUIを上に移動
 	}
 
 	"Toggle Summoner UI Layer": {
