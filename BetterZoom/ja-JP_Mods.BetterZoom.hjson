@@ -1,84 +1,85 @@
-Configs: {
-	Config: {
-		DisplayName: 設定
-
-		scaleBackground: {
-			Tooltip: 背景もズームするかどうかを切り替えます
-			Label: 背景スケール
-		}
-
-		cursorScale: {
-			Tooltip: カーソルの大きさを変更します
-			Label: カーソルスケール
-		}
-
-        zoomRange: {
-            Label: ズーム範囲
-            Tooltip: 設定できるズームの最大量と最小量が変更します
-        }
-
-        UIScaleRange: {
-            Label: UIスケール範囲
-            Tooltip: 設定できるUIスケールの最小量と最大量が変更します
-        }
-
-        disableUIZoomHotkey: {
-            Label: UIズームホットキーの無効化
-            Tooltip: Shift+Plus/Shift+Minusホットキーを使用してUIズームを変更する機能を無効にします
-        }
-
-        renderMoreTiles: {
-            Label: より多くのタイルを描画
-            Tooltip:
-                '''
-                これをオンにすると、通常の表示範囲外のタイルをさらに描画します
-                注：ズームアウトするほどゲームが顕著に遅くなります。これはどうしようもありません
-                '''
-        }
-
-        tileRenderLimit: {
-            Label: タイル描画制限
-            Tooltip:
-                '''
-                より多くのタイルが見えるズームレベルを設定します。値が低いほどゲーム内のラグが大きくなりますが、より多くのタイルを表示します
-                たとえば、これを0.5（50%）に設定すると、50%のズームまでタイルを表示できます
-                '''
-        }
-
-        zoomSpeed: {
-            Label: ズーム速度
-            Tooltip: キーボードを使用してズームインする速度を変更します。1は通常の速度、10は10倍速いです。
-        }
-    }
-
-	FloatRange: {
-		Tooltip: ""
-
-		min: {
-			Label: min
-			Tooltip: ""
-		}
-
-		max: {
-			Label: max
-			Tooltip: ""
-		}
-	}
-}
-
 Settings: {
-	Reset: {
-		Tooltip: クリックして100％にリセット
-	}
-
 	InputToggle: {
-		Slider: {
-			Tooltip: スライダー
-		}
-
 		Precise: {
 			Tooltip: 精密な入力
 		}
+
+		Slider: {
+			Tooltip: スライダー
+		}
+	}
+
+	Reset: {
+		Tooltip: クリックして100％にリセット
+	}
+}
+
+Configs: {
+	FloatRange: {
+		max: {
+			Tooltip: ""
+			Label: 最大
+		}
+
+		min: {
+			Tooltip: ""
+			Label: 最小
+		}
+
+		Tooltip: ""
+	}
+
+	Config: {
+		zoomSpeed: {
+			Tooltip: キーボードを使用してズームインする速度を変更します。1は通常の速度、10は10倍速いです
+			Label: ズーム速度
+		}
+
+		tileRenderLimit: {
+			Tooltip:
+				'''
+				より多くのタイルが見えるズームレベルを設定します
+				値が低いほどゲーム内のラグが大きくなりますが、より多くのタイルを表示します
+				たとえば、これを0.5（50%）に設定すると、50%のズームまでタイルを表示できます
+				'''
+			Label: タイル描画制限
+		}
+
+		renderMoreTiles: {
+			Tooltip:
+				'''
+				通常の表示範囲外のタイルをさらに描画します
+				注：ズームアウトするほどゲームが顕著に遅くなります。これはどうしようもありません
+				'''
+			Label: より多くのタイルを描画
+		}
+
+		disableUIZoomHotkey: {
+			Tooltip: Shift+Plus/Shift+Minusホットキーを使用してUIズームを変更する機能をオフにします
+			Label: UIズームホットキーの無効化
+		}
+
+		UIScaleRange: {
+			Tooltip: 設定できるUIスケールの最小量と最大量が変更します
+			Label: UIスケール範囲
+		}
+
+		zoomRange: {
+			Tooltip: 設定できるズームの最大量と最小量が変更します
+			Label: ズーム範囲
+		}
+
+		cursorScale: {
+			Label: カーソルスケール
+			Tooltip: カーソルの大きさを変更します
+		}
+
+		scaleBackground: {
+			Label: 背景スケール
+			Tooltip: 背景もズームするようにします
+		}
+
+		DisplayName: 設定
 	}
 }
 
