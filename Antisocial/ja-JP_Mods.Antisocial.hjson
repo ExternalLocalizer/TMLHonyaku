@@ -1,26 +1,38 @@
+Tooltips: {
+	SocialCheat: ステータスは獲得される
+}
+
 Configs: {
-    ServerConfig: {
-        DisplayName: Antisocial
-        YouLackTheXPermission: "{0}の権限がありません"
+	ServerConfig: {
+		DisplayName: Antisocial
+		YouLackTheXPermission: "{0}の権限がありません"
 
-        SocialAccessories: {
-            Label: "[i:156] アンチソーシャル アクセサリー"
-            Tooltip:
-                '''
-                アンチソーシャルスロットの数を調整します。-1はすべてを意味します
-                マスターモードスロットは、デモンハートスロットがアンロックされて表示されていなくても7番目であることに注意してください
-                '''
-        }
+		SocialAccessories: {
+			Label: "[i:156] アンチソーシャル アクセサリー"
+			Tooltip:
+				'''
+				アンチソーシャルスロットの数を調整します。-1はすべてを意味します
+				マスターモードスロットは、アイテムによるスロット解放の有無に関わらず7番目であることに注意してください
+				'''
+		}
 
-        SocialArmor: {
-            Label: "[i:82] アンチソーシャル 防具"
-            Tooltip: オンの場合、ソーシャル防具も効果を発揮します。一部のアーマーセットボーナスではバグが発生することに注意してください
-        }
+		SocialArmor: {
+			Label: "[i:82] アンチソーシャル 防具"
+			Tooltip: 
+				'''
+				オンの場合、衣装欄の防具も効果を発揮します
+				一部のアーマーセットボーナスではバグが発生することに注意してください
+				'''
+		}
 
-        ModdedAccessorySlots: {
-            Label: "[i:AnkhShield] MOD アクセサリースロット"
-            Tooltip: オンの場合、MODによって追加されたアクセサリスロットのソーシャルアクセサリも通常のアクセサリスロットとして機能します
-        }
-    }
+		ModdedAccessorySlots: {
+			Label: "[i:AnkhShield] MOD アクセサリースロット"
+			Tooltip: 
+				'''
+				オンの場合、MODによって追加されたアクセサリスロットの
+				衣装欄のアクセサリも、通常のアクセサリスロット同様に機能します
+				'''
+		}
+	}
 }
 
