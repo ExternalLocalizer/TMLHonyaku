@@ -1,17 +1,18 @@
 Configs: {
 	LifeSourcesLightConfig: {
-		EnableLifeFruitLight: {
-			Tooltip: ライフフルーツの照明を有効にする
-			Label: ライフフルーを光らせる
-
-		}
-
-		EnableHeartCrystalLight: {
-			Tooltip: ハートクリスタルの照明を有効にする
-			Label: ハートクリスタルを光らせる
-		}
-
 		DisplayName: 設定
+	}
+
+	Common: {
+		EnableHeartCrystalLight: {
+			Label: "[i/s1:29] ライフクリスタル発光を有効化"
+			Tooltip: オンにすることでライフクリスタルを光らせます
+		}
+
+		EnableLifeFruitLight: {
+			Label: "[i/s1:1291] ライフフルーツ発光を有効化"
+			Tooltip: オンにすることでライフフルーツを光らせます
+		}
 	}
 }
 
