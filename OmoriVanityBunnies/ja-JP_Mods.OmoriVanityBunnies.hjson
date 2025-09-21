@@ -1,111 +1,127 @@
 Configs: {
-    OMORIBunnyConfig: {
-        DisplayName: ウサギ　出現率
+	OMORIBunnyConfig: {
+		DisplayName: ウサギ　出現率
 
-        DeciededBySpawn: {
-            Label: 出現場所に依存
-            Tooltip: 出現場所によって決定される確率
-        }
+		DeciededBySpawn: {
+			Label: 出現場所に依存
+			Tooltip: 出現場所によって決定される確率
+		}
 
-        NormalBunny: {
-            Label: 普通のウサギ
-            Tooltip: 普通のウサギになる確率
-        }
+		NormalBunny: {
+			Label: 普通のウサギ
+			Tooltip: 普通のウサギになる確率
+		}
 
-        DustBunny: {
-            Label: ダストウサギ
-            Tooltip: ダストウサギになる確率
-        }
+		DustBunny: {
+			Label: ダストウサギ
+			Tooltip: ダストウサギになる確率
+		}
 
-        SpaceBunny: {
-            Label: スペースウサギ
-            Tooltip: スペースウサギになる確率
-        }
+		SpaceBunny: {
+			Label: スペースウサギ
+			Tooltip: スペースウサギになる確率
+		}
 
-        SnowBunny: {
-            Label: スノーウサギ
-            Tooltip: スノーウサギになる確率
-        }
+		SnowBunny: {
+			Label: スノーウサギ
+			Tooltip: スノーウサギになる確率
+		}
 
-        CupcakeBunny: {
-            Label: カップケーキウサギ
-            Tooltip: カップケーキウサギになる確率
-        }
+		CupcakeBunny: {
+			Label: カップケーキウサギ
+			Tooltip: カップケーキウサギになる確率
+		}
 
-        PancakeBunny: {
-            Label: パンケーキウサギ
-            Tooltip: パンケーキウサギになる確率
-        }
+		PancakeBunny: {
+			Label: パンケーキウサギ
+			Tooltip: パンケーキウサギになる確率
+		}
 
-        MilkshakeBunny: {
-            Label: ミルクシェイクウサギ
-            Tooltip: ミルクシェイクウサギになる確率
-        }
+		MilkshakeBunny: {
+			Label: ミルクシェイクウサギ
+			Tooltip: ミルクシェイクウサギになる確率
+		}
 
-        BunBunny: {
-            Label: バンウサギ
-            Tooltip: バンウサギになる確率
-        }
+		BunBunny: {
+			Label: バンウサギ
+			Tooltip: バンウサギになる確率
+		}
 
-        SproutBunny: {
-            Label: スプラウトウサギ
-            Tooltip: スプラウトウサギになる確率
-        }
+		SproutBunny: {
+			Label: スプラウトウサギ
+			Tooltip: スプラウトウサギになる確率
+		}
 
-        BugBunny: {
-            Label: バグウサギ
-            Tooltip: バグウサギになる確率
-        }
+		BugBunny: {
+			Label: バグウサギ
+			Tooltip: バグウサギになる確率
+		}
 
-        GhostBunny: {
-            Label: ゴーストウサギ
-            Tooltip: ゴーストウサギになる確率
-        }
+		GhostBunny: {
+			Label: ゴーストウサギ
+			Tooltip: ゴーストウサギになる確率
+		}
 
-        CandleBunny: {
-            Label: キャンドルウサギ
-            Tooltip: キャンドルウサギになる確率
-        }
+		CandleBunny: {
+			Label: キャンドルウサギ
+			Tooltip: キャンドルウサギになる確率
+		}
 
-        FishBunny: {
-            Label: フィッシュウサギ
-            Tooltip: フィッシュウサギになる確率
-        }
+		FishBunny: {
+			Label: フィッシュウサギ
+			Tooltip: フィッシュウサギになる確率
+		}
 
-        SlimeBunny: {
-            Label: スライムウサギ
-            Tooltip: スライムウサギになる確率
-        }
+		SlimeBunny: {
+			Label: スライムウサギ
+			Tooltip: スライムウサギになる確率
+		}
 
-        DefaultPreset: {
-            Label: 出現場所による決定
-            Tooltip: 「出現場所に依存」を除き、すべてを0にリセットします
-        }
+		DefaultPreset: {
+			Label: 出現場所による決定
+			Tooltip: 「出現場所に依存」を除き、すべてを0にリセットします
+		}
 
-        Headers: {
-            Presets: プリセット
-            Weights: ウェイト
-        }
+		Headers: {
+			Presets: プリセット
+			Weights: ウェイト
+		}
 
-        FullRandomPreset: {
-            Label: 完全ランダム
-            Tooltip: 「出現場所による決定」を除き、すべてを1に設定します
-        }
+		FullRandomPreset: {
+			Label: 完全ランダム
+			Tooltip: 「出現場所による決定」を除き、すべてを1に設定します
+		}
 
-        OrangeOasisPreset: {
-            Label: オレンジオアシス
-            Tooltip: 甘いウサギのみ
-        }
+		OrangeOasisPreset: {
+			Label: オレンジオアシス
+			Tooltip: 甘いウサギのみ
+		}
 
-        DisabledPreset: {
-            Label: 無効
-            Tooltip: 「普通のウサギ」を除き、すべてを0に設定します
-        }
+		DisabledPreset: {
+			Label: 無効
+			Tooltip: 「普通のウサギ」を除き、すべてを0に設定します
+		}
 
-        MyFavoritePreset: {
-            Label: 私のお気に入りプリセット
-            Tooltip: 値がすべて有効になるが、より良く描けた物が優先的に出現するよう調整します
-        }
-    }
+		MyFavoritePreset: {
+			Label: 私のお気に入りプリセット
+			Tooltip: 値がすべて有効になるが、より良く描けた物が優先的に出現するよう調整します
+		}
+	}
+}
+
+Names: {
+	Space: スペースウサギ
+	Bug: バグウサギ
+	Bun: バンウサギ
+	Cupcake: カップケーキウサギ
+	Dust: ダストウサギ
+	Fish: フィッシュウサギ
+	Ghost: ゴーストウサギ
+	Milk: ミルクシェイクウサギ
+	Pan: パンケーキウサギ
+	Slime: スライムウサギ
+	Snow: スノーウサギ
+	Sprout: スプラウトウサギ
+	Candle: キャンドルウサギ
 }
 
