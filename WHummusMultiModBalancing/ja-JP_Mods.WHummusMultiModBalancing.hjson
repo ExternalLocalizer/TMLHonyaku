@@ -15,8 +15,8 @@ Configs: {
 		}
 
 		RadiantMultiClassNerf: {
-			Label: 神聖サブクラス弱体化
-			Tooltip: 他のクラスでダメージを与えた後、10秒間神聖ダメージが減少する
+			Label: ヒーラーサブクラス弱体化
+			Tooltip: 他のクラスでダメージを与えると、10秒間神聖ダメージが減少する
 		}
 
 		MultiModShieldMerges: {
@@ -83,6 +83,11 @@ Configs: {
 			Tooltip: 靴系アクセサリーを複数Mod間で統合する
 			Label: 複数Modの靴統合
 		}
+
+		RadiantMultiClassNerf: {
+			Label: 吟遊詩人サブクラス弱体化
+			Tooltip: 他のクラスでダメージを与えると、10秒間旋律ダメージが減少する
+		}
 	}
 }
 
@@ -97,6 +102,14 @@ DamageClasses: {
 	MergedThrowerRogue: {
 		DisplayName: ローグダメージ
 	}
+}
+
+ItemTooltips: {
+	ScytheThrow:
+		'''
+		右クリックで鎌を投げ、弧を描いて戻ってくる
+		投げた鎌のダメージは10%減少する
+		'''
 }
 
 Projectiles: {
