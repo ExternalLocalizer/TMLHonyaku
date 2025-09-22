@@ -1,0 +1,70 @@
+Configs: {
+	WallsProtectBasesConfig: {
+		ScanHeightDown: {
+			Tooltip: ""
+			Label: 出現地点から下方向のスキャン深度（タイル数）
+		}
+
+		AffectMartianMadness: {
+			Tooltip: ""
+			Label: 火星の侵攻
+		}
+
+		AffectFrostLegion: {
+			Tooltip: ""
+			Label: フロストレギオン
+		}
+
+		AffectPirateInvasion: {
+			Tooltip: ""
+			Label: 海賊の襲来
+		}
+
+		AffectGoblinArmy: {
+			Tooltip: ""
+			Label: ゴブリン軍団
+		}
+
+		ShowDebugOverlay: {
+			Tooltip: ""
+			Label: デバッグオーバーレイを表示（スキャン範囲）
+		}
+
+		AffectFrostMoon: {
+			Tooltip: ""
+			Label: フロストムーン
+		}
+
+		AffectPumpkinMoon: {
+			Tooltip: ""
+			Label: パンプキンムーン
+		}
+
+		AffectEclipse: {
+			Tooltip: ""
+			Label: 日食
+		}
+
+		AffectBloodMoon: {
+			Tooltip: ""
+			Label: ブラッドムーン
+		}
+
+		ScanHeightUp: {
+			Tooltip: ""
+			Label: 出現地点から上方向のスキャン高度（タイル数）
+		}
+
+		ScanHalfWidth: {
+			Tooltip: ""
+			Label: 出現地点から左右方向のスキャン幅（タイル数）
+		}
+
+		DisplayName: Walls Protect Bases 設定
+
+		OnlyNearTowns: {
+			Tooltip: ""
+			Label: 町の近くでのみ反映
+		}
+	}
+}

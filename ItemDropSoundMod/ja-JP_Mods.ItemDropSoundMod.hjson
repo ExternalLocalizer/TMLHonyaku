@@ -1,0 +1,132 @@
+Items: {
+	as2: {
+		DisplayName: as2
+		Tooltip:
+			'''
+			アイテムのテンプレート
+			このツールチップを置き換えるのが役目
+			「富士山に雪が降っている」
+			'''
+	}
+}
+
+Configs: {
+	ItemDropSoundConfig: {
+		DisplayName: Item Drop Sound 設定
+
+		CustomItemSounds: {
+			Label: アイテムドロップ音
+			Tooltip: サウンドを追加し、アイテムに割り当てます
+		}
+
+		DetectionRadiusBlocks: {
+			Label: 検知範囲（ブロック数）
+			Tooltip: ドロップしたアイテムが音を鳴らすために検知される距離（ブロック単位）
+		}
+	}
+
+	CustomSoundEntry: {
+		Tooltip: ""
+
+		Sound: {
+			Label: サウンド
+			Tooltip: ""
+		}
+
+		Volume: {
+			Label: 音量
+			Tooltip: ""
+		}
+
+		Items: {
+			Label: 対象アイテム
+			Tooltip: ドロップ時にこのサウンドを使用するアイテムを指定します
+		}
+	}
+
+	ItemWithRarity: {
+		Tooltip: ""
+
+		Item: {
+			Label: アイテム
+			Tooltip: ""
+		}
+
+		RequiredRarity: {
+			Label: レアリティ
+			Tooltip: アイテムのレアリティが一致する場合のみサウンドを再生する。『任意』で無効になります
+		}
+	}
+
+	RarityFilter: {
+		Tooltip: ""
+
+		Any: {
+			Label: "[c/FFFFFF:任意]"
+		}
+
+		White: {
+			Label: "[c/F8F8FF:白]"
+		}
+
+		Blue: {
+			Label: "[c/5588EE:青]"
+		}
+
+		Green: {
+			Label: "[c/00FF00:緑]"
+		}
+
+		Orange: {
+			Label:" [c/FF8000:オレンジ]"
+		}
+
+		LightRed: {
+			Label:" [c/FF6060:淡赤]"
+		}
+
+		Pink: {
+			Label:" [c/FF80FF:ピンク]"
+		}
+
+		LightPurple: {
+			Label: "[c/AA80FF:ライトパープル]"
+		}
+
+		Lime: {
+			Label: "[c/80FF00:ライム]"
+		}
+
+		Yellow: {
+			Label: "[c/FFFF00:黄]"
+		}
+
+		Cyan: {
+			Label: "[c/00FFFF:シアン]"
+		}
+
+		Red: {
+			Label: "[c/FF0000:赤]"
+		}
+
+		Purple: {
+			Label: "[c/A800A8:紫]"
+		}
+
+		Rainbow: {
+			Label: "[c/FF0000:R][c/FF7F00:a][c/FFFF00:i][c/00FF00:n][c/00FFFF:b][c/0000FF:o][c/8B00FF:w]"
+		}
+
+		Expert: {
+			Label: "[c/FF0000:R][c/FF8000:a][c/FFFF00:i][c/80FF00:n][c/00FF80:b][c/00FFFF:o][c/0080FF:w]"
+		}
+
+		Master: {
+			Label: "[c/FF3300:F][c/FF6600:i][c/FF9900:e][c/FFCC00:r][c/FFFF00:y][c/FFCC00: ][c/FF9900:R][c/FF6600:e][c/FF3300:d]"
+		}
+
+		Amber: {
+			Label:" [c/FFBF00:アンバー]"
+		}
+	}
+}

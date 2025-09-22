@@ -1,0 +1,26 @@
+Buffs: {
+	HolyFire: {
+		Description: 地獄の炎で煮えたぎる
+		DisplayName: 聖なる炎
+	}
+
+	Tarred: {
+		Description: 移動速度が低下
+		DisplayName: タールまみれ
+	}
+}
+
+Configs: {
+	BiomeLavaConfig: {
+		LavaDebuffs: {
+			Tooltip: 一部環境の溶岩は接触時に異なるデバフを与えます
+			Label: 溶岩によるデバフ
+		}
+
+		Headers: {
+			BiomeLavaServerConfig: Biome Lava サーバー設定
+		}
+
+		DisplayName: Biome Lava 設定
+	}
+}

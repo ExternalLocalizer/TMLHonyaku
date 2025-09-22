@@ -1,6 +1,6 @@
-Items: {
-	ShimmerBucket: {
-		DisplayName: シマーバケツ
+Items:{
+	ShimmerBucket:{
+		DisplayName:シマーバケツ
 		Tooltip:
 			'''
 			シマーが少し入っている
@@ -8,58 +8,87 @@ Items: {
 			'''
 	}
 
-	ShimmerBomb: {
-		DisplayName: シマー爆弾
-		Tooltip: シマーをまき散らす小さな爆発を起こす
+	ShimmerBomb:{
+		DisplayName:シマー爆弾
+		Tooltip:シマーをまき散らす小さな爆発を起こす
 	}
 
-	ShimmerRocket: {
-		DisplayName: シマーロケット
-		Tooltip: 当たるとシマーが飛び散る
+	ShimmerRocket:{
+		DisplayName:シマーロケット
+		Tooltip:当たるとシマーが飛び散る
 	}
 
-	BottledShimmer: {
-		DisplayName: 瓶詰めのシマー
-		Tooltip: ランダムなデバフを一つ解除する
+	BottledShimmer:{
+		DisplayName:瓶詰めのシマー
+		Tooltip:ランダムなデバフを一つ解除する
 	}
 
-	ShimmerSwimmingPotion: {
-		DisplayName: シマー遊泳ポーション
-		Tooltip: シマー中デバフの免疫
-	}
-}
-
-Projectiles: {
-	ShimmerBomb: {
-		DisplayName: Shimmer Bomb
+	ShimmerSwimmingPotion:{
+		DisplayName:シマー遊泳ポーション
+		Tooltip:シマー中デバフの免疫
 	}
 
-	ShimmerGrenade: {
-		DisplayName: Shimmer Grenade
-	}
-
-	ShimmerMine: {
-		DisplayName: Shimmer Mine
-	}
-
-	ShimmerRocket: {
-		DisplayName: Shimmer Rocket
-	}
-
-	ShimmerSnowmanRocket: {
-		DisplayName: Shimmer Snowman Rocket
+	ShimmerAbsorbantSponge:{
+		DisplayName:シマー吸収スポンジ
+		Tooltip:無限にシマーを吸収できる
 	}
 }
 
-Buffs: {
-	ShimmerShock: {
-		DisplayName: シマーショック
-		Description: 瓶詰めのシマーを使えない
+Projectiles:{
+	ShimmerBomb:{
+		DisplayName:シマー爆弾
 	}
 
-	ShimmerSwimming: {
-		DisplayName: シマー遊泳
-		Description: シマー中デバフに免疫を得た
+	ShimmerGrenade:{
+		DisplayName:シマーグレネード
+	}
+
+	ShimmerMine:{
+		DisplayName:シマーマイン
+	}
+
+	ShimmerRocket:{
+		DisplayName:シマーロケット
+	}
+
+	ShimmerSnowmanRocket:{
+		DisplayName:シマースノーマンロケット
 	}
 }
 
+Buffs:{
+	ShimmerShock:{
+		DisplayName:シマーショック
+		Description:瓶詰めのシマーを使えない
+	}
+
+	ShimmerSwimming:{
+		DisplayName:シマー遊泳
+		Description:シマー中デバフに免疫を得た
+	}
+}
+
+Configs:{
+	ShimmerItemsServerConfig:{
+		DisplayName:Shimmer アイテム設定
+	}
+
+	ServerConfig:{
+		ShimmerTransformation_Bucket_Tooltip:
+			'''
+			オンの場合、ムーンロード撃破後に蜂蜜入りバケツがシマー内でシマーバケツに変化します
+			デフォルトでオン
+			'''
+		ShimmerTransformation_Bucket_Label:シマーのバケツ変化サイクルを変更
+
+		ContentToggle_ShimmerAbsorbantSponge_Tooltip:
+			'''
+			オンの場合:
+			- シマー吸収スポンジが利用可能になる
+			- 超吸収スポンジはシマーを吸収できなくなります
+			- 万能吸収スポンジはクラフトにシマー吸収スポンジを必要とするようになります
+			デフォルトでオン
+			'''
+		ContentToggle_ShimmerAbsorbantSponge_Label:シマー吸収スポンジの有効化
+	}
+}
