@@ -73,3 +73,9 @@ jobs:
             This is an automated PR created by the CSV Sort workflow.
           branch: auto-sort-csv
           delete-branch: true
+
+      - name: Invoke linter
+        if: steps.verify-diff.outputs.changed == 'true'
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: lint.yml
