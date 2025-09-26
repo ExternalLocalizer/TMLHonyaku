@@ -74,8 +74,16 @@ jobs:
           branch: auto-sort-csv
           delete-branch: true
 
-      - name: Invoke linter
-        if: steps.verify-diff.outputs.changed == 'true'
+      - name: Invoke linter (non-main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && ( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: lint.yml
+          ref: ${{ github.ref }}
+
+      - name: Invoke linter (main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && !( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: lint.yml
+          ref: auto-sort-csv
