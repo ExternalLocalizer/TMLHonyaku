@@ -1,10 +1,48 @@
-ModsOpenConfig: "[c/CC88AA:Right click] で設定を開く"
+Configs: {
+	ConciseModConfig: {
+		TranslationModIcon: {
+			Tooltip: このMODが他のMODを翻訳することを示すアイコンが表示されます
+			Label: 翻訳MODアイコン
+		}
 
-ModsMoreInfo: "[c/CC88AA:Press Ctrl] で詳細を見る"
+		ModReferenceIcon: {
+			Tooltip: このMODに依存関係があることを示すアイコンが表示されます
+			Label: MOD 参照アイコン
+		}
 
-Delete: "[c/CC88AA:Right click] でMODを削除する"
+		ObsidianSkull: {
+			Tooltip: このMODのプレビュービルドがないことを示すドクロが表示されます
+			Label: 黒曜石の頭骨
+		}
 
-Dependencies: "[c/CC88AA:Middle click] で依存関係を有効にする"
+		UpdateDot: {
+			Tooltip: MODがアップデートされたときにMODアイコンに表示されるドットが表示されます
+			Label: アップデート・ドット
+		}
+
+		ModpackIcon: {
+			Tooltip: MODパックのMODであれば、MODアイコンにMODパックのアイコンが表示されます
+			Label: MODパックアイコン
+		}
+
+		SteamIcon: {
+			Tooltip: SteamワークショップのMODの場合、MODアイコンにSteamアイコンが表示されます
+			Label: Steam アイコン
+		}
+
+		ConfigButton: {
+			Tooltip: これがオフでも、MODアイコンを右クリックして設定を開くことができます
+			Label: 設定ボタン
+		}
+
+		EnabledModsFirst: {
+			Tooltip: ""
+			Label: 有効なMODをリストの上側に表示
+		}
+
+		DisplayName: 設定
+	}
+}
 
 ExportEnabledMods:
 	'''
@@ -12,44 +50,11 @@ ExportEnabledMods:
 	右クリックでSteamワークショップのリンクなしでエクスポート
 	'''
 
-Configs: {
-	ConciseModConfig: {
-		DisplayName: 設定
+Dependencies: "[c/CC88AA:Middle click] で依存関係を有効にする"
 
-		ConfigButton: {
-			Label: 設定ボタン
-			Tooltip: これがオフでも、MODアイコンを右クリックして設定を開くことができます
-		}
+Delete: "[c/CC88AA:Right click] でMODを削除する"
 
-		SteamIcon: {
-			Label: Steam アイコン
-			Tooltip: SteamワークショップのMODの場合、MODアイコンにSteamアイコンが表示されます
-		}
+ModsMoreInfo: "[c/CC88AA:Press Ctrl] で詳細を見る"
 
-		ModpackIcon: {
-			Label: MODパックアイコン
-			Tooltip: MODパックのMODであれば、MODアイコンにMODパックのアイコンが表示されます
-		}
-
-		UpdateDot: {
-			Label: アップデート・ドット
-			Tooltip: MODがアップデートされたときにMODアイコンに表示されるドットが表示されます
-		}
-
-		ObsidianSkull: {
-			Label: 黒曜石の頭骨
-			Tooltip: このMODのプレビュービルドがないことを示すドクロが表示されます
-		}
-
-		ModReferenceIcon: {
-			Label: MOD 参照アイコン
-			Tooltip: このMODに依存関係があることを示すアイコンが表示されます
-		}
-
-		TranslationModIcon: {
-			Label: 翻訳MODアイコン
-			Tooltip: このMODが他のMODを翻訳することを示すアイコンが表示されます
-		}
-	}
-}
+ModsOpenConfig: "[c/CC88AA:Right click] で設定を開く"
 

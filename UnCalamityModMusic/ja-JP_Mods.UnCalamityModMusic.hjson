@@ -8,8 +8,8 @@ Configs: {
 			Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] ワークショップのテーマ"
 			Tooltip:
 				'''
-				特定の作業台の近くで再生されるワークショップのテーマを切り替えます。
-				街のテーマを無効にしたい場合は、別のNo Town Music modを使うか、影の蝋燭を使ってください。
+				特定の作業台の近くで再生されるワークショップのテーマを切り替えます
+				街のテーマを無効にしたい場合は、別のNo Town Music modを使うか、影の蝋燭を使ってください
 				'''
 		}
 
@@ -17,29 +17,29 @@ Configs: {
 			Label: "[i:UnCalamityModMusic/HardmodeInterludeMusicBox] ハードモード突入時BGM"
 			Tooltip:
 				'''
-				ハードモードに突入した時に流れるBGMを切り替えます。
-				クレジットを無効にしたい場合は別のNo In-game Credits MODを使用してください。
+				ハードモードに突入した時に流れるBGMを切り替えます
+				クレジットを無効にしたい場合は別のNo In-game Credits MODを使用してください
 				'''
 		}
 
 		AbyssLayer3Alt: {
 			Label: "[i:UnCalamityModMusic/AbyssLayer3AltMusicBox] 深淵3層の追加楽曲"
-			Tooltip: 深淵3層のBGMを代替のものに切り替えます。
+			Tooltip: 深淵3層のBGMを代替のものに切り替えます
 		}
 
 		PrioritizeInfernumMusic: {
-			Label: "[i:WallOfFleshGoatMountItem] インフェルナムのBGMを優先する"
+			Label: "[i:WallOfFleshGoatMountItem] InfernumのBGMを優先"
 			Tooltip:
 				'''
-				InfernumのBGMをVCMMのBGMより優先するかどうかを切り替えます。
-				このオプションはInfernum Mode Music MODが有効の時にだけ効果があります。
-				このオプションはCalamityボスには影響しません。
+				InfernumのBGMをVCMMのBGMより優先するかどうかを切り替えます
+				このオプションはInfernum Mode Music MODが有効の時にだけ効果があります
+				このオプションはCalamityボスには影響しません
 				'''
 		}
 
 		OverrideAnahitasLure: {
 			Label: "[i:UnCalamityModMusic/OceanDayMusicBox] アナヒタの歌を上書きする"
-			Tooltip: アナヒタの歌声が海のBGMを上書きするかどうかを切り替えます。
+			Tooltip: アナヒタの歌声が海のBGMを上書きするかどうかを切り替えます
 		}
 	}
 
@@ -52,29 +52,29 @@ Configs: {
 			Label: "[i:Bunny] 環境音の頻度"
 			Tooltip:
 				'''
-				環境音が通常のBGMに置き換わる頻度を0%から100%で調整します。
-				100%の場合、ボスおよびイベントを除くすべてのBGMが無効になります。
+				環境音が通常のBGMに置き換わる頻度を0%から100%で調整します
+				100%の場合、ボスおよびイベントを除くすべてのBGMが無効になります
 				'''
 		}
 
 		DisableBeeHiveAmbience: {
-			Label: "[i:BeeWax] 蜂の巣の環境音を無効にする"
-			Tooltip: 蜂の巣の環境音を切り替えます。
+			Label: "[i:BeeWax] 蜂の巣の環境音を無効化"
+			Tooltip: 蜂の巣の環境音を切り替えます
 		}
 
 		DisableSpiderCaveAmbience: {
-			Label: "[i:SpiderFang] クモの洞窟の環境音を無効にする"
-			Tooltip: クモの洞窟の環境音を切り替えます。
+			Label: "[i:SpiderFang] クモの洞窟の環境音を無効化"
+			Tooltip: クモの洞窟の環境音を切り替えます
 		}
 
 		MusicBoxRecipes: {
 			Label: "[i:HeavyWorkBench] オルゴールのレシピ"
-			Tooltip: 重作業台から作れる全てのオルゴールのレシピを切り替えます。
+			Tooltip: 重作業台から作れる全てのオルゴールのレシピを切り替えます
 		}
 
 		MusicBoxResprite: {
 			Label: "[i:MusicBox] 未録音のオルゴールの見た目を切り替える"
-			Tooltip: 録音されていないオルゴールの見た目を変更します。
+			Tooltip: 録音されていないオルゴールの見た目を変更します
 		}
 	}
 }
@@ -419,6 +419,6 @@ ModSupport: {
 Recipes: {
 	EvilPowder: Evil Powder
 	SillyTiedBalloon: Silly Tied Balloon
-	NameMismatchError: このレシピのアイテムと他のMODのアイテムに内部名の不一致があります。このアイテムのレシピは無効化されました。
+	NameMismatchError: このレシピのアイテムと他のMODのアイテムに内部名の不一致があります。このアイテムのレシピは無効化されました
 }
 

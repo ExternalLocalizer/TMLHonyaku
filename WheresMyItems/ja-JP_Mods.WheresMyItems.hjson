@@ -12,3 +12,17 @@ ShowAll: 全て見る
 
 TypeHereToSearch: ここに入力して検索
 
+Configs: {
+	ServerConfig: {
+		ChestSearchRange: {
+			Tooltip:
+				'''
+				チェストを検索する距離を設定します
+				 デフォルト値 (60) では、ズーム100%時に画面内のチェストをすべて検索できます
+				'''
+			Label: チェスト検索範囲
+		}
+
+		DisplayName: サーバー設定
+	}
+}

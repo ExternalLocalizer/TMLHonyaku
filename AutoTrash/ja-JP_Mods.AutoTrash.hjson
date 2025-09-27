@@ -4,6 +4,10 @@ TrashAllItemsWithNoValue: 価値のないものはすべてゴミ箱へ
 
 ClickToRemove: クリックして削除します
 
+FilterByName: 名前でフィルター
+
+Close: 閉じる
+
 YouNeedToHoldAltAndClickToClearTheList: リストをクリアするには、altを押しながらクリックする必要があります
 
 NotEnoughMoneyToReclaimAutoSellItem: 自動売却アイテムを取り戻すためのコインが足りません
@@ -43,21 +47,35 @@ Configs: {
 		DisplayName: AutoTrash サーバー設定
 
 		SellValue: {
-			Tooltip: アイテムの売却価格をカスタマイズします。商人に売却時のデフォルト価格は20%、MODのデフォルト売却価格は～15%
+			Tooltip: 
+				'''
+				アイテムの売却価格をカスタマイズします
+				商人に売却時のデフォルト価格は20%、MODのデフォルト売却価格は～15%です
+				'''
 			Label: 自動売却の価格の割合 %
 		}
+
+		RejectReason: クライアントには、自動売却の価格を変更する権限がありません
 	}
 
 	AutoTrashClientConfig: {
 		DisplayName: AutoTrash クライアント設定
 
 		SlotPositionX: {
-			Tooltip: 1番目のホットバーから左から右に数えたスロットの位置に、AutoTrashスロットのX座標を設定します
+			Tooltip: 
+				'''
+				1番目のホットバーから左から右に数えたスロットの位置に、
+				AutoTrashスロットのX座標を設定します
+				'''
 			Label: AutoTrashスロットのX座標
 		}
 
 		SlotPositionY: {
-			Tooltip: 一番上のホットバーから上から下に数えたスロットの位置に、AutoTrashスロットのY座標を設定します
+			Tooltip: 
+				'''
+				一番上のホットバーから上から下に数えたスロットの位置に、
+				AutoTrashスロットのY座標を設定します
+				'''
 			Label: AutoTrashスロットのY座標
 		}
 

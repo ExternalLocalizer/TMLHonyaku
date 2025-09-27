@@ -68,6 +68,7 @@ MinionSlot: {
 RecipeBrowser: {
 	AllRecipes: 全てのレシピ
 	CycleModSpecificRecipes: Mod専用レシピをサイクル
+	NoRecipesHaveBeenAddedByMods: Modによるレシピ追加無し
 }
 
 ConfigurationTool: {
@@ -108,6 +109,7 @@ MobBrowser: {
 	FilteredNPCs: フィルター済みNPC
 	CycleModSpecificNPCs: ModごとのNPC
 	SpawnNPCNotification: "{0}が{1}によって召喚された"
+	NoNPCHaveBeenAddedByMods: MODによるNPC追加無し
 }
 
 ItemBrowser: {
@@ -119,11 +121,12 @@ ItemBrowser: {
 	Blocks: ブロック
 	Ammo: 弾薬
 	Potions: ポーション
-	Expert: 熟練
+	Expert: エキスパート
 	Furniture: 家具
 	Pets: ペット
 	Mounts: 騎乗ペット
 	CycleModSpecificItems: Modごとのアイテム
+	NoItemsHaveBeenAddedByMods:MODによるアイテム追加無し
 }
 
 PaintTools: {
@@ -151,6 +154,26 @@ PaintTools: {
 	TransparentSelectionOff: "    透明選択の切り替え:オン"
 	PriorBrush: ブラシを使用する前にスポイトを使用してください。
 	DataExport: "データを出力しました。 出力先: "
+	Current: "現在: "
+	Next: "次へ: "
+	ScrollToCycleSnapPositions: スクロールで配置位置を切替
+}
+
+SchematicsBrowser: {
+	SubmitToSchematicsBrowser: 設計図ブラウザに投稿
+	VoteUp: 賛成
+	VoteDown: 反対
+	SubmitName: 名前を入力:
+	ThanksForVoting: 投票ありがとう！
+	SchematicsServerVotingProblem: 設計図サーバーで投票エラー
+	OnlineSchematicsOnlyWorksOnSteamVersion: オンライン設計図はSteam版でのみ動作します
+	YouAlreadyVoted: すでに投票済みです
+	SchematicsServerProblemX: 設計図サーバーの問題 {0}
+	SelectionTooBigForNow: 選択範囲が大きすぎます
+	PleaseNameYourCreation: 作品に名前を付けてください
+	OopsBase64TilesIsBad: エラー: base64タイルが不正です
+	BePatient: しばらくお待ちください
+	AlreadySubmitted: すでに投稿済みです
 }
 
 Keybinds: {
@@ -173,7 +196,7 @@ Configs: {
 		DisplayName: Cheat Sheet サーバー設定
 
 		DisableCheatsForNonHostUsers: {
-			Label: ホストユーザー以外のチートを無効にする
+			Label: ホストユーザー以外のチートを無効化
 			Tooltip: このmodの機能がホスト以外のマルチプレイヤーで動作しないようにします
 		}
 	}

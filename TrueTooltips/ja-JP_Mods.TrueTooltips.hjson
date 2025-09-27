@@ -44,12 +44,12 @@ Configs: {
 
 		wingFlyTimeLine: {
 			Label: 翼の飛行時間
-			Tooltip: 翼の飛行時間を表示する
+			Tooltip: 翼の飛行時間を表示します
 			Unit: 飛行時間: {0}
 		}
 
 		wpnPlusAmmoDmg: {
-			Label: 武器と弾を合わせたダメージ値にする
+			Label: 武器と弾を合わせたダメージ値に
 			Tooltip: ""
 		}
 
@@ -59,7 +59,7 @@ Configs: {
 		}
 
 		wpnPlusAmmoVelocity: {
-			Label: 武器と弾を合わせた弾速値にする
+			Label: 武器と弾を合わせた弾速値に
 			Tooltip: ""
 		}
 
@@ -110,22 +110,22 @@ Configs: {
 
 		spacing: {
 			Label: スペース
-			Tooltip: 行間に余分なスペースを足す(ツールチップの最下部)
+			Tooltip: 行間に余白を追加します(ツールチップの最下部)
 		}
 
 		sprite: {
 			Label: アイテムアイコン
-			Tooltip: ツールチップにアイテムの画像を表示する
+			Tooltip: ツールチップにアイテムの画像を表示します
 		}
 
 		spriteBorderPadding: {
 			Label: アイコンと枠の間の余白
-			Tooltip: アイコン画像の端とアイコン枠との間の余白の広さ
+			Tooltip: アイコン画像の端とアイコン枠との間の余白の広さを調整します
 		}
 
 		spriteBorder: {
 			Label: アイコンの枠
-			Tooltip: アイコンの枠を切り替える
+			Tooltip: アイコンの枠を切り替えます
 		}
 
 		spriteMin: {
@@ -150,182 +150,182 @@ Configs: {
 
 		tileBoost: {
 			Label: + - X距離
-			Tooltip: 道具の届く距離が増える/減る項目 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 道具の届く距離が増える/減る項目 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		ammo: {
 			Label: 使用弾丸
-			Tooltip: 弾丸アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 弾丸アイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		badMod: {
 			Label: Bad Modifier
-			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		placeable: {
 			Label: 設置可能
-			Tooltip: 設置できるアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 設置できるアイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		consumable: {
 			Label: 消費アイテム
-			Tooltip: 消費アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 消費アイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		wandConsumes: {
 			Label: Xを設置
-			Tooltip: ブロックを設置する杖で消費するブロック (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: ブロックを設置する杖で消費するブロック (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		dmg: {
 			Label: ダメージ
-			Tooltip: アイテムのダメージとその武器種 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムのダメージとその武器種 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		equipable: {
 			Label: 装備可能
-			Tooltip: 装備可能なアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 装備可能なアイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		social: {
 			Label: 衣装スロットに装備中
-			Tooltip: 衣装スロットに装備されてる場合に表示される (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 衣装スロットに装備されてる場合に表示される (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		etherianMana: {
 			Label: エーテリアンマナの警告
-			Tooltip: '''「エーテリアンマナはエターニアの水晶を守ってる間のみ使用できる」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Tooltip: '''「エーテリアンマナはエターニアの水晶を守ってる間のみ使用できる」の表示 (Alpha＝0で非表示に、白色で上書きを回避)'''
 		}
 
 		expert: {
 			Label: エキスパート
-			Tooltip: エキスパート専用アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: エキスパート専用アイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		fav: {
 			Label: お気に入りに指定中
-			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		favDescr: {
 			Label: お気に入り設定中の説明
-			Tooltip: '''「クイックトラッシュ、クイックスタック、クイックセールを防止」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Tooltip: '''「クイックトラッシュ、クイックスタック、クイックセールを防止」の表示 (Alpha＝0で非表示に、白色で上書きを回避)'''
 		}
 
 		goodMod: {
 			Label: Good Modifier
-			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		wellFedExpert: {
 			Label: ライフ自然回復を増進
-			Tooltip: エキスパートモードで食品のライフ再生力が高まる事を示す表示 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: エキスパートモードで食品のライフ再生力が高まる事を示す表示 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		knockback: {
 			Label: ノックバック
-			Tooltip: アイテムのノックバック性能 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムのノックバック性能 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		material: {
 			Label: 素材アイテム
-			Tooltip: クラフトに使用できるアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: クラフトに使用できるアイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		quest: {
 			Label: クエストアイテム
-			Tooltip: 釣りクエスト対象のアイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 釣りクエスト対象のアイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		needsBait: {
 			Label: 魚を釣るには餌が必要
-			Tooltip: 釣竿は魚を釣るために餌を必要とする (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 釣竿は魚を釣るために餌を必要とする (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		healLife: {
 			Label: 回復: Xライフ
-			Tooltip: アイテム使用時に回復するライフの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテム使用時に回復するライフの量 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		healMana: {
 			Label: 回復: Xマナ
-			Tooltip: アイテム使用時に回復するマナの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテム使用時に回復するマナの量 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		setBonus: {
 			Label: セットボーナス
-			Tooltip: 防具のセットボーナスの説明文 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 防具のセットボーナスの説明文 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		socialDescr: {
 			Label: ソーシャルスロット装備中
-			Tooltip: '''「ステータス効果なし」の表示 (Alpha＝0で非表示に、白色で上書きを回避する)'''
+			Tooltip: '''「ステータス効果なし」の表示 (Alpha＝0で非表示に、白色で上書きを回避)'''
 		}
 
 		speed: {
 			Label: 速度
-			Tooltip: アイテムの使用速度 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムの使用速度 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		useMana: {
 			Label: 消費: Xマナ
-			Tooltip: アイテム使用時に消費するマナの量 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテム使用時に消費するマナの量 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		vanity: {
 			Label: 衣装アイテム
-			Tooltip: 衣装用アイテム (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 衣装用アイテム (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		defense: {
 			Label: X 防御力
-			Tooltip: 防御力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 防御力 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		buffTime: {
 			Label: 持続時間 X分
-			Tooltip: アイテムバフの持続時間 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムバフの持続時間 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		axePow: {
 			Label: X% 斧力
-			Tooltip: 斧の斧力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 斧の斧力 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		baitPow: {
 			Label: X% 餌パワー
-			Tooltip: 餌系アイテムの餌パワー (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 餌系アイテムの餌パワー (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		critChance: {
 			Label: X%のクリティカル率
-			Tooltip: アイテムのクリティカル率 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムのクリティカル率 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		fishingPow: {
 			Label: X% フィッシング・パワー
-			Tooltip: 釣り竿のフィッシング・パワー (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: 釣り竿のフィッシング・パワー (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		hammerPow: {
 			Label: X% 槌力
-			Tooltip: ハンマーの槌力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: ハンマーの槌力 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		pickPow: {
 			Label: X% 採掘力
-			Tooltip: ツルハシの採掘力 (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: ツルハシの採掘力 (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		journeyResearch: {
 			Label: ジャーニーリサーチ
-			Tooltip: アイテムのリサーチ進捗数 (ジャーニーモードのみ) (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムのリサーチ進捗数 (ジャーニーモードのみ) (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		modNameColor: {
 			Label: MOD名
-			Tooltip: アイテムが属しているMOD (Alpha＝0で非表示に、白色で上書きを回避する)
+			Tooltip: アイテムが属しているMOD (Alpha＝0で非表示に、白色で上書きを回避)
 		}
 
 		Headers: {

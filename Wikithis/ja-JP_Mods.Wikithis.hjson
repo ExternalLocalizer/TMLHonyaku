@@ -1,16 +1,16 @@
 Configs: {
 	WikithisConfig: {
 		DisplayName: Wikithis 設定
-		DefaultEnabled: （デフォルト：有効）
-		DefaultDisabled: （デフォルト：無効）
+		DefaultEnabled: （デフォルト：オン）
+		DefaultDisabled: （デフォルト：オフ）
 
 		OpenSteamBrowser: {
 			Label: ブラウザの代わりにSteamオーバーレイを開く
 			Tooltip:
 				'''
-				アイテムのWikiページを開く際、Steamオーバーレイを使用します。
-				Steamが使用できない場合は、代わりにブラウザが開かれます。
-				（デフォルト：有効）
+				アイテムのWikiページを開く際、Steamオーバーレイを使用します
+				Steamが使用できない場合は、代わりにブラウザが開かれます
+				（デフォルト：オン）
 				'''
 		}
 
@@ -18,8 +18,8 @@ Configs: {
 			Label: ツールチップを表示
 			Tooltip:
 				'''
-				無効にすると、Wikiのツールチップが表示されなくなります。
-				（デフォルト：有効）
+				無効にすると、Wikiのツールチップが表示されなくなります
+				（デフォルト：オン）
 				'''
 		}
 
@@ -27,8 +27,8 @@ Configs: {
 			Label: NPCのWikiを表示
 			Tooltip:
 				'''
-				有効にすると、NPCをクリックした際にWikiページを開けるようになります。
-				（デフォルト：無効）
+				有効にすると、NPCをクリックした際にWikiページを開けるようになります
+				（デフォルト：オフ）
 				'''
 		}
 	}

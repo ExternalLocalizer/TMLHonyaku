@@ -263,6 +263,15 @@ Configs: {
 			Tooltip: アイコンのサイズを変更できます
 		}
 
+		EnableEasyAddToBL: {
+			Label: "[i:2701] 右クリックでブラックリストに追加"
+			Tooltip:
+				'''
+				デバフアイコンを右クリックすることでリストに追加できます
+				ただし、[i:2701] の付いたデバフは対象外です
+				'''
+		}
+
 		DebuffBL: {
 			Label: デバフブラックリスト
 			Tooltip:
@@ -302,3 +311,5 @@ Configs: {
 		Tooltip: ""
 	}
 }
+
+AddToBLText: 右クリックでデバフ非表示

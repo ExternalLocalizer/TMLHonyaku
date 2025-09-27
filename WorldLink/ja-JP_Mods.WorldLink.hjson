@@ -1,12 +1,12 @@
 UI: {
 	CharacterListItem: {
-		NoWorld: どのワールドともリンクしていない
+		NoWorld: どのワールドともリンクしていません
 		PlayWorld: "{0} ワールドで遊ぶ"
 	}
 
 	WorldListItem: {
-		Link: リンクする {0}
-		Unlink: リンク解除 {0}
+		Link: "{0} とリンク"
+		Unlink: "{0} とのリンクを解除"
 	}
 }
 
@@ -15,7 +15,7 @@ Configs: {
 		DisplayName: クライアント設定
 
 		ShowNoWorldLinkedPlayButton: {
-			Label: ワールドがリンクされていなくても、キャラクターにリンクボタンを表示する
+			Label: ワールドがリンクされていなくても、キャラクターにリンクボタンを表示
 			Tooltip: ""
 		}
 	}

@@ -1,121 +1,133 @@
 Configs: {
 	Config: {
 		Feature_FixForHotbarFlickerUponOpeningFancyUI: {
-			Tooltip: ファンシーUI（エモートウィンドウやベスティアリーなど）が開かれたときにホットバーが1フレーム描画されるバグを修正します
-			Label: ファンシーUIを開いたときにホットバーがちらつくことがあったバグの修正
+			Tooltip: 絵文字ウィンドウや図鑑を開いたときに発生する、ホットバーの一瞬のちらつきを修正します
+			Label: ファンシーUI起動時のホットバーちらつき修正
 		}
 
 		Feature_LockingHotbarLocksAdditionalUIs: {
 			Tooltip:
 				'''
-				ホットバーがロックされているときに、ホットバーの下にあるミニマップとバフバーをロックします
-				ロックされたUIはマウスクリックやカーソルに反応せず、選択されたアイテムが代わりに入力を受け取ります
-				これらのUIのロックを切り替えるには、関連するツールバーのアイコンをクリックするか、このMODが提供するキーバインドを使用します
+				ホットバーをロックすると、ミニマップやバフ欄も固定されます
+				ロック中のUIは操作を受け付けず、選択アイテムが操作を受け取れるようになります
+				ロックの切り替えはアイコンまたはキー設定で可能です
 				'''
-			Label: ホットバーをロックすると追加UIもロック
+			Label: ホットバー連動ロック
 		}
 
 		Feature_DraggingOverBuffIconDoesntInterruptClick: {
 			Tooltip:
 				'''
-				バフアイコンの上でドラッグしても、クリックが中断されないようになります
-				ただし、バフアイコンをクリックしても、選択されたアイテムは使用されません
+				バフアイコンの上をドラッグしてもクリックを中断せず、自動使用アイテムの使用を継続します
+				ただし、バフアイコンをクリックした際は選択中のアイテムを使用しません
 				'''
-			Label: バフアイコンをドラッグしてもクリックが中断されない
+			Label: バフアイコンドラッグ時のクリック継続
 		}
 
 		Feature_DraggingOverHotbarSlotDoesntSelectItem: {
 			Tooltip:
 				'''
-				ホットバーのスロット上をドラッグしてもアイテムが選択されなくなります
-				ただし、ホットバーのスロットをクリックすると、アイテムは選択されます
+				ホットバースロット上をドラッグしてもアイテムは選ばれません
+				クリックすれば通常通り選択できます
 				'''
-			Label: ホットバーのスロットをドラッグしてもアイテムが選択されない
+			Label: ホットバードラッグ時のアイテム選択無効化
 		}
 
 		Feature_InvertedMouseScrollForRecipeList: {
-			Tooltip: レシピリストのマウススクロールを無効にします
-			Label: レシピリストのマウス逆スクロール
+			Tooltip: レシピリストのスクロール方向を反転します
+			Label: レシピリストのスクロール方向反転
 		}
 
 		Feature_MouseWheelButtonsScrollRecipeList: {
-			Tooltip: レシピリストをホットバーのようにマウスのホイールボタンでスクロールできるようにします
-			Label: マウスホイールボタンによるレシピリストのスクロール
+			Tooltip: レシピリストをマウスホイールでスクロール可能にします
+			Label: レシピリストのマウスホイールスクロール
 		}
 
 		Feature_InteractiveUIsWhileUsingItem: {
 			Tooltip:
 				'''
-				アイテム使用中もホットバー、フルスクリーンマップ、レシピリストマップが反応し続けるようになります
-				特にホットバーについては、戦闘中の選択アイテムの入れ替えがよりスムーズになります
+				アイテム使用中でもホットバーや全画面マップ、レシピリストを操作できます
+				戦闘中でもアイテムの持ち替えがスムーズに行えるようになります
 				'''
-			Label: アイテム使用中でも有効なUI
+			Label: アイテム使用中のUI操作対応
 		}
 
 		Feature_AccessorySlotsImprovedScrollbar: {
-			Tooltip: アクセサリースロットのスクロールバーを、マウスでスクロールしたりドラッグしたりして操作できるようにします
-			Label: アクセサリースロットスクロールバーの改善
+			Tooltip: 
+				'''
+				アクセサリスロットをマウスホイールや
+				ドラッグでスクロールできるようにします
+				'''
+			Label: 改良されたアクセサリスクロールバー
 		}
 
 		Feature_NPCHouseIconsScrollbar: {
-			Tooltip: NPCハウスアイコンにスクロールバーを追加し、マウスでスクロールしたりドラッグしたりして操作できるようにします
-			Label: NPCハウスアイコンスクロールバー
+			Tooltip: 
+				'''
+				タウンNPCのアイコンをマウスホイールや
+				ドラッグでスクロールできるようにします
+				'''
+			Label: タウンNPCアイコンのスクロール
 		}
 
 		Feature_BuffsBarScrollbar: {
-			Tooltip: バフバーにスクロールバーを追加し、マウスでスクロールしたりドラッグしたりして操作できるようにします
-			Label: バフ効果バーのスクロールバー
+			Tooltip: 
+				'''
+				バフ欄をマウスホイールや
+				ドラッグでスクロールできます
+				'''
+			Label: バフ欄のスクロール
 		}
 
 		General_NPCHouseIconsColumns: {
 			Tooltip:
 				'''
-				NPCハウスアイコンに表示するバフアイコンの列数を指定します
-				[NPCハウスアイコンスクロールバー]機能ががオンな場合のみ有効です
+				タウンNPCアイコン一覧で表示する列数の上限を設定します
+				【タウンNPCアイコンのスクロール】がオンの場合のみ機能します
 				'''
-			Label: NPCハウスアイコン列
+			Label: タウンNPCの表示列数
 		}
 
 		General_EquipPagesBuffsBarRows: {
 			Tooltip:
 				'''
-				このバフバーに表示するバフアイコンの列数を指定します
-				[バフ効果バーのスクロールバー] 機能がオンな場合のみ機能します
+				このバフ欄で表示する行数の上限を設定します
+				【バフ欄のスクロール】がオンの場合のみ機能します
 				'''
-			Label: 装備ページのバフバー列
+			Label: 装備ページにおけるバフ表示行数
 		}
 
 		General_HotbarsBuffsBarRows: {
 			Tooltip:
 				'''
-				このバフ効果バーに表示するバフアイコンの列数を指定します
-				[バフ効果バーのスクロールバー]機能がオンな場合のみ機能します
+				このバフ欄で表示する行数の上限を設定します
+				【バフ欄のスクロール】がオンの場合のみ機能します
 				'''
-			Label: ホットバーのバフバー列
+			Label: ホットバーにおけるバフ表示行数
 		}
 
 		General_HoverToActivateHotbarsBuffListScroll: {
 			Tooltip:
 				'''
-				このバフ効果バーはマウスホイールとマウスボタン長押しで操作できます
-				[バフ効果バーのスクロールバー] 機能がオンな場合のみ機能します
+				バフ欄にカーソルを合わせている間、マウスホイールでスクロール可能になります
+				【バフ欄のスクロール】がオンの場合のみ機能します
 				'''
-			Label: バフ効果リストスクロールの有効化
+			Label: バフ欄をホバー中のスクロール操作
 		}
 
 		Notifications_ShowStartupMessageForImportantChangeNotes_2_2_0: {
 			Tooltip:
 				'''
-				ワールドに入ると、最新のアップデートによる重要な変更点をメッセージで表示します
-				新しいアップデートは、この設定をオンに戻すことができます
+				ワールド開始時に、最新アップデートによる重要な変更点を表示します
+				MOD更新時、この項目が再度オンになることがあります
 				'''
-			Label: 重要な変更点に関するゲーム開始時のメッセージ表示
+			Label: 更新内容のメッセージ表示
 		}
 
 		Headers: {
-			Features: 特徴
+			Features: 機能
 			General: 一般
-			Notifications: お知らせ
+			Notifications: 通知
 		}
 
 		DisplayName: 設定
@@ -124,19 +136,19 @@ Configs: {
 
 Keybinds: {
 	ToggleLockingUIs: {
-		DisplayName: ロックUIの切り替え
+		DisplayName: UIロック切替
 	}
 
 	ActivateBuffsBarScroll: {
-		DisplayName: バフ効果バースクロールの有効化
+		DisplayName: バフ欄スクロールの有効化
 	}
 
 	ActivateBuffListScroll: {
-		DisplayName: バフ効果バースクロールの有効化
+		DisplayName: バフ欄スクロールの有効化
 	}
 
 	ToggleUILock: {
-		DisplayName: UIロックの切り替え
+		DisplayName: UIロック切替
 	}
 }
 
