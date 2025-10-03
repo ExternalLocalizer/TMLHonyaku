@@ -73,3 +73,17 @@ jobs:
             This is an automated PR created by the CSV Sort workflow.
           branch: auto-sort-csv
           delete-branch: true
+
+      - name: Invoke linter (non-main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && ( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: lint.yml
+          ref: ${{ github.ref }}
+
+      - name: Invoke linter (main branch)
+        if: steps.verify-diff.outputs.changed == 'true' && !( github.ref != 'refs/heads/main' || github.repository != 'ExternalLocalizer/TMLHonyaku' )
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: lint.yml
+          ref: auto-sort-csv

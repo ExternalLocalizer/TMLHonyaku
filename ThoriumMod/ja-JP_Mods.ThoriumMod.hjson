@@ -335,13 +335,13 @@ Items: {
 		Tooltip:
 			'''
 			選択した場所と自分の間に一時的なゲートを召喚する
-			プレイヤーはゲートを右クリックすることで、反対側に渡ることができ、自分自身を回復させることができる
+			プレイヤーはゲートを右クリックすることで、反対側にテレポートことができ、自分自身を回復させることができる
 			'''
 		DisplayName: 暗黒の門
 	}
 
 	DarkFlame: {
-		Tooltip: 飢えた闇が敵を追い詰め、生きたまま朽ち果てる
+		Tooltip: 飢えた闇が敵を追い詰め、生きたまま朽ち果てさせる
 		DisplayName: 暗黒の炎
 	}
 
@@ -2924,7 +2924,7 @@ Items: {
 			怪しいタンバリンを投げる
 			右クリックで投げられたタンバリンを鳴らす
 			'''
-		DisplayName: シェードウッドのタンバリン
+		DisplayName: シェイドウッドのタンバリン
 	}
 
 	SerpentsCry: {
@@ -2998,7 +2998,7 @@ Items: {
 
 	PadOPaper: {
 		Tooltip: インスピレーションの再生率が10％増加
-		DisplayName: Pad o' Paper
+		DisplayName: 楽譜の束
 	}
 
 	OrnateLeggings: {
@@ -3131,7 +3131,7 @@ Items: {
 	}
 
 	MidnightBassBooster: {
-		Tooltip: 猥雑なほど大きな音のパルスを放つ
+		Tooltip: 大きな音のパルスを放つ
 		DisplayName: ミッドナイト・バス・ブースター
 	}
 
@@ -3162,8 +3162,8 @@ Items: {
 	MarineWineGlass: {
 		Tooltip:
 			'''
-			最大6個の無害なワイングラスを投げつける
-			右クリックで甲高い叫び声を上げ、すべてのワイングラスを粉々にする
+			最大6個のワイングラスを投げつける
+			右クリックで甲高い声を上げ、すべてのワイングラスを粉々にする
 			'''
 		DisplayName: 海洋のワイングラス
 	}
@@ -3294,11 +3294,11 @@ Items: {
 
 	JarOMayo: {
 		Tooltip: 「古くからの疑問がようやく解決した」
-		DisplayName: Jar O' Mayo
+		DisplayName: 瓶入りマヨネーズ
 	}
 
 	InspirationReachPotion: {
-		Tooltip: インスピレーションノートの収集範囲を拡大
+		Tooltip: インスピレーションノートの収集範囲を拡大する
 		DisplayName: ひらめきのポーション
 	}
 
@@ -3308,7 +3308,7 @@ Items: {
 
 	InspirationHairDye: {
 		Tooltip: ""
-		DisplayName: インスピレーションの白髪染め
+		DisplayName: インスピレーションの髪染め
 	}
 
 	InspirationGem: {
@@ -3484,6 +3484,7 @@ Items: {
 			'''
 			荒々しい音を出す
 			右クリックで森の紋章を呼び出す
+			森の紋章はプレイヤーと同時にカーソルに向かって攻撃し、10秒後に消滅する
 			紋章を呼び出すには5インスピレーションが必要
 			'''
 		DisplayName: 妖精のオカリナ
@@ -3502,7 +3503,7 @@ Items: {
 	Fishbone: {
 		Tooltip:
 			'''
-			古代水棲生物の咆哮を放ち、移動不能の敵に与えるダメージが増加する
+			古代の水棲生物の咆哮を放ち、移動不能の敵に与えるダメージが増加する
 			右クリックで敵の動きを鈍らせ、味方のブレスを補充する泡を放つ
 			'''
 		DisplayName: フィッシュボーン
@@ -3691,7 +3692,7 @@ Items: {
 			自分と近くの味方が同じ対象を攻撃した時、敵は即座に合計ダメージの20%を受ける
 			この効果は2秒に1度、同じターゲットにのみ発動する
 			'''
-		DisplayName: コンダクターの指揮棒
+		DisplayName: 指揮棒
 	}
 
 	ConcertTickets: {
@@ -3726,7 +3727,8 @@ Items: {
 		Tooltip:
 			'''
 			半音のバーストノイズを出す
-			右クリックでオカリナを模した時の紋章を召喚する
+			右クリックで時の紋章を召喚する
+			紋章はプレイヤーと同時にカーソルに向かって攻撃し、10秒後に消滅する
 			紋章を呼び出すには5インスピレーションが必要
 			'''
 		DisplayName: 時のオカリナ
@@ -3850,23 +3852,23 @@ Items: {
 	}
 
 	WindElementalBanner: {
-		DisplayName: Wind Elementalのバナー
+		DisplayName: 風のエレメンタルのバナー
 	}
 
 	VoltEelBanner: {
-		DisplayName: Volt Eelのバナー
+		DisplayName: デンキウナギのバナー
 	}
 
 	VileFloaterBanner: {
-		DisplayName: Vile Floaterのバナー
+		DisplayName: ヴァイルフローターのバナー
 	}
 
 	VampireSquidBanner: {
-		DisplayName: Vampire Squidのバナー
+		DisplayName: 吸血鬼イカのバナー
 	}
 
 	UnderworldPotBanner: {
-		DisplayName: Underworld Potのバナー
+		DisplayName: 地底世界の壺のバナー
 	}
 
 	UFOBanner: {
@@ -3874,139 +3876,139 @@ Items: {
 	}
 
 	TheStarvedBanner: {
-		DisplayName: The Starvedのバナー
+		DisplayName: 飢えた者のバナー
 	}
 
 	TheInnocentBanner: {
-		DisplayName: The Innocentのバナー
+		DisplayName: イノセントのバナー
 	}
 
 	TarantulaBanner: {
-		DisplayName: Tarantulaのバナー
+		DisplayName: タランチュラのバナー
 	}
 
 	SubmergedMimicBanner: {
-		DisplayName: Submerged Mimicのバナー
+		DisplayName: 深海のミミックのバナー
 	}
 
 	StrangeBulbBanner: {
-		DisplayName: Strange Bulbのバナー
+		DisplayName: 不思議な球根のバナー
 	}
 
 	SpectrumiteBanner: {
-		DisplayName: Spectrumiteのバナー
+		DisplayName: スペクトラマイトのバナー
 	}
 
 	SpaceSlimeBanner: {
-		DisplayName: Space Slimeのバナー
+		DisplayName: 宇宙のスライムのバナー
 	}
 
 	SoulCorrupterBanner: {
-		DisplayName: Soul Corrupterのバナー
+		DisplayName: ソウルコラプターのバナー
 	}
 
 	SunPriestessBanner: {
-		DisplayName: Sun Priestessのバナー
+		DisplayName: 太陽の巫女のバナー
 	}
 
 	SnowyOwlBanner: {
-		DisplayName: Snowy Owlのバナー
+		DisplayName: シロフクロウのバナー
 	}
 
 	SnowSingaBanner: {
-		DisplayName: Snow Singaのバナー
+		DisplayName: スノーシンガのバナー
 	}
 
 	SnowFlinxMatriarchBanner: {
-		DisplayName: Snow Flinx Matriarchのバナー
+		DisplayName: スノーフリンクスのリーダーのバナー
 	}
 
 	SnowElementalBanner: {
-		DisplayName: Snow Elementalのバナー
+		DisplayName: 雪のエレメンタルのバナー
 	}
 
 	SnowEaterBanner: {
-		DisplayName: Snow Eaterのバナー
+		DisplayName: スノーイーターのバナー
 	}
 
 	SnowballBanner: {
-		DisplayName: Snow Ballのバナー
+		DisplayName: 雪玉のバナー
 	}
 
 	SmotheringShadeBanner: {
-		DisplayName: Smothering Shadeのバナー
+		DisplayName: スモージングシェードのバナー
 	}
 
 	SharptoothBanner: {
-		DisplayName: Sharp Toothのバナー
+		DisplayName: シャープトゥースのバナー
 	}
 
 	ShamblerBanner: {
-		DisplayName: Shamblerのバナー
+		DisplayName: シャンブラーのバナー
 	}
 
 	SeaShantySingerBanner: {
-		DisplayName: Sea-Shanty Singerのバナー
+		DisplayName: シーシャンティの歌い手のバナー
 	}
 
 	ScissorStalkerBanner: {
-		DisplayName: Scissor Stalkerのバナー
+		DisplayName: シザーストーカーのバナー
 	}
 
 	RagingMinotaurBanner: {
-		DisplayName: Raging Minotaurのバナー
+		DisplayName: 荒れ狂うミノタウロスのバナー
 	}
 
 	PutridSerpentBanner: {
-		DisplayName: Putrid Serpentのバナー
+		DisplayName: 腐敗した蛇のバナー
 	}
 
 	OctopusBanner: {
-		DisplayName: Octopusのバナー
+		DisplayName: タコのバナー
 	}
 
 	NestlingBanner: {
-		DisplayName: Nestlingのバナー
+		DisplayName: 幼鳥のバナー
 	}
 
 	NecroPotBanner: {
-		DisplayName: Necro Potのバナー
+		DisplayName: 死の壺のバナー
 	}
 
 	MyceliumMimicBanner: {
-		DisplayName: Mycelium Mimicのバナー
+		DisplayName: キノコのミミックのバナー
 	}
 
 	MudManBanner: {
-		DisplayName: Mud Manのバナー
+		DisplayName: 泥人間のバナー
 	}
 
 	MossWaspBanner: {
-		DisplayName: Moss Waspのバナー
+		DisplayName: モスワスプのバナー
 	}
 
 	MorayBanner: {
-		DisplayName: Morayのバナー
+		DisplayName: ウツボのバナー
 	}
 
 	MoltenMortarBanner: {
-		DisplayName: Molten Mortarのバナー
+		DisplayName: モルテンモルタルのバナー
 	}
 
 	MartianSentryBanner: {
-		DisplayName: Martian Sentryのバナー
+		DisplayName: 火星のセントリーのバナー
 	}
 
 	MartianScoutBanner: {
-		DisplayName: Martian Scoutのバナー
+		DisplayName: 火星の偵察兵のバナー
 	}
 
 	ManofWarBanner: {
-		DisplayName: Man o' Warのバナー
+		DisplayName: マン・オー・ウォーのバナー
 	}
 
 	MahoganyEntBanner: {
-		DisplayName: Mahogany Entのバナー
+		DisplayName: マホガニーのゴーレムのバナー
 	}
 
 	LycanBanner: {
@@ -4014,72 +4016,72 @@ Items: {
 	}
 
 	LivingHemorrhageBanner: {
-		DisplayName: Living Hemorrhageのバナー
+		DisplayName: 血の塊のバナー
 	}
 
 	LihzardPotMimicBanner: {
-		DisplayName: Lihzahrd Potのバナー
+		DisplayName: トカゲ族の壺のバナー
 	}
 
 	LihzardMimicBanner: {
-		DisplayName: Lihzahrd Mimicのバナー
+		DisplayName: トカゲ族のミミックのバナー
 	}
 
 	LifeCrystalMimicBanner: {
-		DisplayName: Life Crystal Mimicのバナー
+		DisplayName: ライフクリスタルミミックのバナー
 	}
 
 	LeFantomeBanner: {
-		DisplayName: Le Fantômeのバナー
+		DisplayName: ル・ファントムのバナー
 	}
 
 	KrakenBanner: {
-		DisplayName: Krakenのバナー
+		DisplayName: クラーケンのバナー
 	}
 
 	InfernalHoundBanner: {
-		DisplayName: Infernal Houndのバナー
+		DisplayName: 地獄の猟犬のバナー
 	}
 
 	HorrificChargerBanner: {
-		DisplayName: Horrific Chargerのバナー
+		DisplayName: ホーリフィックチャージャーのバナー
 	}
 
 	HoppingSpiderBanner: {
-		DisplayName: Hopping Spiderのバナー
+		DisplayName: ホッピングスパイダーのバナー
 	}
 
 	HellBringerMimicBanner: {
-		DisplayName: Hell Bringer Mimicのバナー
+		DisplayName: 地獄のミミックのバナー
 	}
 
 	HammerHeadBanner: {
-		DisplayName: Hammerheadのバナー
+		DisplayName: シュモクザメのバナー
 	}
 
 	HallucinationBanner: {
 		NPCNameText: ???
-		DisplayName: Mysteriousのバナー
+		DisplayName: 海魔の邪眼のバナー
 	}
 
 	GraveLimbBanner: {
-		DisplayName: Grave Limbのバナー
+		DisplayName: グレイブリムのバナー
 	}
 
 	GraniteSurgerBanner: {
-		DisplayName: Granite Surgerのバナー
+		DisplayName: グラニットサージャーのバナー
 	}
 
 	GraniteFusedSlimeBanner: {
-		DisplayName: Granite-Fused Slimeのバナー
+		DisplayName: 御影石のスライムのバナー
 	}
 
 	GraniteEradicatorBanner: {
-		DisplayName: Granite Eradicatorのバナー
+		DisplayName: グラニットエラディケーターのバナー
 	}
 
 	GoldSlimeBanner: {
-		DisplayName: Gilded Slimeのバナー
+		DisplayName: 金のスライムのバナー
 	}
 
 	GoldLycanBanner: {
@@ -4087,152 +4089,152 @@ Items: {
 	}
 
 	GoldBatBanner: {
-		DisplayName: Gilded Batのバナー
+		DisplayName: 金のコウモリのバナー
 	}
 
 	GoblinTrapperBanner: {
-		DisplayName: Goblin Trapperのバナー
+		DisplayName: ゴブリントラッパーのバナー
 	}
 
 	GoblinSpiritGuideBanner: {
-		DisplayName: Goblin Spirit Guideのバナー
+		DisplayName: ゴブリンシャーマンのバナー
 	}
 
 	GoblinDrummerBanner: {
-		DisplayName: Goblin Drummerのバナー
+		DisplayName: ゴブリンドラマーのバナー
 	}
 
 	GlitteringGolemBanner: {
-		DisplayName: Glittering Golemのバナー
+		DisplayName: 金のゴーレムのバナー
 	}
 
 	GigaClamBanner: {
-		DisplayName: Giga Clamのバナー
+		DisplayName: シャコガイのバナー
 	}
 
 	GelatinousCubeBanner: {
-		DisplayName: Gelatinous Cubeのバナー
+		DisplayName: ゼラチンキューブのバナー
 	}
 
 	FrozenGrossBanner: {
-		DisplayName: Frozen Grossのバナー
+		DisplayName: フローズングロスのバナー
 	}
 
 	FrozenFaceBanner: {
-		DisplayName: Frozen Faceのバナー
+		DisplayName: フローズンフェイスのバナー
 	}
 
 	FrostWurmBanner: {
-		DisplayName: Frost Wurmのバナー
+		DisplayName: フロストワームのバナー
 	}
 
 	FrostFangBanner: {
-		DisplayName: Frost Fangのバナー
+		DisplayName: フロストファングのバナー
 	}
 
 	FrostBurntBanner: {
-		DisplayName: Frost Burntのバナー
+		DisplayName: フロストバーントのバナー
 	}
 
 	FreezerBanner: {
-		DisplayName: Freezerのバナー
+		DisplayName: フリーザーのバナー
 	}
 
 	FlamekinCasterBanner: {
-		DisplayName: Flamekin Casterのバナー
+		DisplayName: 炎の魔術師のバナー
 	}
 
 	FeedingFrenzyBanner: {
-		DisplayName: Feeding Frenzyのバナー
+		DisplayName: フィーディングフレンジーのバナー
 	}
 
 	EpiDermonBanner: {
-		DisplayName: Epidermonのバナー
+		DisplayName: 疫病神のバナー
 	}
 
 	EngorgedEyeBanner: {
-		DisplayName: Engorged Eyeのバナー
+		DisplayName: 蝕まれた眼のバナー
 	}
 
 	EarthenGolemBanner: {
-		DisplayName: Earthen Golemのバナー
+		DisplayName: 土のゴーレムのバナー
 	}
 
 	EarthenBatBanner: {
-		DisplayName: Earthen Batのバナー
+		DisplayName: 土のコウモリのバナー
 	}
 
 	DissonanceSeerBanner: {
-		DisplayName: Dissonance Seerのバナー
+		DisplayName: ディソナンスシーアのバナー
 	}
 
 	DarksteelKnightBanner: {
-		DisplayName: Darksteel Knightのバナー
+		DisplayName: 黒鉄の騎士のバナー
 	}
 
 	CrownofThornsBanner: {
-		DisplayName: Crown of Thornsのバナー
+		DisplayName: オニヒトデのバナー
 	}
 
 	CoolmeraBanner: {
-		DisplayName: Coolmeraのバナー
+		DisplayName: クールメラのバナー
 	}
 
 	ColdlingBanner: {
-		DisplayName: Coldlingのバナー
+		DisplayName: コールドリングのバナー
 	}
 
 	CoinBagBanner: {
-		NPCNameText: Coin Bags
-		DisplayName: Coin Bagのバナー
+		NPCNameText: 袋詰めのコイン
+		DisplayName: 袋詰めのコインのバナー
 	}
 
 	ChilledSpitterBanner: {
-		DisplayName: Chilled Spitterのバナー
+		DisplayName: チルドスピッターのバナー
 	}
 
 	BrownRecluseBanner: {
-		DisplayName: Brown Recluseのバナー
+		DisplayName: ドクイドグモのバナー
 	}
 
 	BoneFlayerBanner: {
-		DisplayName: Bone Flayerのバナー
+		DisplayName: ボーンフレイヤーのバナー
 	}
 
 	BlowfishBanner: {
-		DisplayName: Blowfishのバナー
+		DisplayName: フグのバナー
 	}
 
 	BloodyWargBanner: {
-		DisplayName: Bloody Wargのバナー
+		DisplayName: 血まみれの魔狼のバナー
 	}
 
 	BloodMageBanner: {
-		DisplayName: Blood Mageのバナー
+		DisplayName: 血の魔術師のバナー
 	}
 
 	BlobfishBanner: {
-		DisplayName: Blobfishのバナー
+		DisplayName: ニュウドウカジカのバナー
 	}
 
 	BlizzardBatBanner: {
-		DisplayName: Blizzard Batのバナー
+		DisplayName: ブリザードバットのバナー
 	}
 
 	BlisterPodBanner: {
-		DisplayName: Blister Podのバナー
+		DisplayName: ブリスターポッドのバナー
 	}
 
 	BlackWidowBanner: {
-		DisplayName: Black Widowのバナー
+		DisplayName: クロゴケグモのバナー
 	}
 
 	BiterBanner: {
-		DisplayName: Biterのバナー
+		DisplayName: バイターのバナー
 	}
 
 	BarracudaBanner: {
-		DisplayName: Barracudaのバナー
+		DisplayName: オニカマスのバナー
 	}
 
 	AstroBeetleBanner: {
@@ -4244,19 +4246,19 @@ Items: {
 	}
 
 	AncientPhalanxBanner: {
-		DisplayName: エンシェントファランクスのバナー
+		DisplayName: 古代の重装兵のバナー
 	}
 
 	AncientChargerBanner: {
-		DisplayName: エンシェントチャージャーのバナー
+		DisplayName: 古代の槍兵のバナー
 	}
 
 	AncientArcherBanner: {
-		DisplayName: エンシェントアーチャーのバナー
+		DisplayName: 古代の弓兵のバナー
 	}
 
 	AbyssalAnglerBanner: {
-		DisplayName: アビスアングラーのバナー
+		DisplayName: アビサルアングラーのバナー
 	}
 
 	AbominationBanner: {
@@ -4501,7 +4503,7 @@ Items: {
 
 		Tooltip:
 			'''
-			神聖の力を腐らせる
+			神聖の力を腐敗させる
 			神聖以外のダメージ25%減少
 			神聖ダメージが25%増加
 			神聖クリティカル率12%増加
@@ -4513,7 +4515,7 @@ Items: {
 
 	TrenchSpitter: {
 		Tooltip: 一度に2発の弾丸を素早く発射
-		DisplayName: トレンチ・スピッター
+		DisplayName: トレンチスピッター
 	}
 
 	TheIncubator: {
@@ -4522,7 +4524,7 @@ Items: {
 			アビスリングを生成し続けるモノリスを召喚する
 			アビスリングは敵にヒットすると連続でダメージを与え続ける
 			'''
-		DisplayName: ザ・インキュベーター
+		DisplayName: インキュベーター
 	}
 
 	SirensLyre: {
@@ -4647,12 +4649,12 @@ Items: {
 	}
 
 	DriedMask: {
-		DisplayName: ドライマスク
-		Tooltip: 「誰かが水を一杯飲みたいって...」
+		DisplayName: 乾いた被り物
+		Tooltip: 「水を飲みたい...」
 	}
 
 	DrownedDoubloon: {
-		DisplayName: 溺れたダブロン
+		DisplayName: 沈んだ金貨
 		Tooltip:
 			'''
 			「コインの表面には装飾された魚の尾がある」
@@ -4688,12 +4690,12 @@ Items: {
 
 	EssenceofFlame: {
 		DisplayName: 炎のエッセンス
-		Tooltip: スイングするたびに火球を放つ
+		Tooltip: 振るたびに火球を放つ
 	}
 
 	ExoticMynaEgg: {
-		DisplayName: エキゾチックマイナの卵
-		Tooltip: 珍しい雛鳥を召喚する
+		DisplayName: 珍しい九官鳥の卵
+		Tooltip: 雛鳥を召喚する
 	}
 
 	Experiment3: {
@@ -4743,7 +4745,7 @@ Items: {
 		DisplayName: 炎の斧
 		Tooltip:
 			'''
-			「こいつで峡谷を避けるのが一番だ...」
+			「谷底に落とさないように気をつけろ...」
 			この武器を使いすぎると消耗し、ダメージが大幅に減少する
 			敵を倒すと消耗が回復する
 			'''
@@ -4781,7 +4783,7 @@ Items: {
 	}
 
 	FragrantCorsage: {
-		DisplayName: フレグラントコサージュ
+		DisplayName: 芳香の花飾り
 		Tooltip:
 			'''
 			ライフ自然回復が増加する
@@ -4804,7 +4806,7 @@ Items: {
 	}
 
 	FrostburnPouch: {
-		DisplayName: フロストバーン・ポーチ
+		DisplayName: 霜のポーチ
 		Tooltip:
 			'''
 			「ヨーヨーに直接振りかけると効果的」
@@ -4911,7 +4913,7 @@ Items: {
 		DisplayName: 貪欲なガーディ
 		Tooltip:
 			'''
-			バウンドするシャンティのエネルギーの黄金のリングを放つ
+			跳ねるシャンティのエネルギーの黄金のリングを放つ
 			エネルギーの近くにいる敵を倒すと、より多くのお金を落とす
 			コインを拾うと、旋律ダメージが一時的に増加する
 			'''
@@ -5028,7 +5030,7 @@ Items: {
 	}
 
 	HeartOfTheJungle: {
-		DisplayName: ハート・オブ・ザ・ジャングル
+		DisplayName: ジャングルハート
 		Tooltip: 戦闘中、魔法のつるでダメージを与える
 	}
 
@@ -5068,8 +5070,8 @@ Items: {
 	}
 
 	Hippocraticrossbow: {
-		DisplayName: ヒポクラティクロスボウ
-		Tooltip: 弩弓の矢を発射し、その弾丸は遠くへ飛ぶほど回復量とダメージが増加する
+		DisplayName: 医聖のクロスボウ
+		Tooltip: クロスボウの矢を発射し、その弾丸は遠くへ飛ぶほど回復量とダメージが増加する
 	}
 
 	HokeGarb: {
@@ -5084,11 +5086,11 @@ Items: {
 	}
 
 	HollowRing: {
-		DisplayName: からっぽの指輪
+		DisplayName: 災厄の指輪
 		Tooltip:
 			'''
-			「狂ったヤツだけがこれを身につけるだろう」
-			この指輪は何の効果もない
+			「有用な効果はなく、まともなら装備する意味はない」
+			装備者の被ダメージが倍になる
 			'''
 	}
 
@@ -5126,7 +5128,7 @@ Items: {
 	}
 
 	InfernalAnimator: {
-		DisplayName: インファーナルアニメーター
+		DisplayName: 地獄の召喚杖
 		Tooltip: 敵を撃退し燃焼させる守護者を召喚する
 	}
 
@@ -5281,7 +5283,7 @@ Items: {
 	}
 
 	MastersLibram: {
-		DisplayName: 修士ライブラリー
+		DisplayName: 修士の書物
 		Tooltip:
 			'''
 			呪文書を召喚する
@@ -5336,12 +5338,12 @@ Items: {
 
 	MidasGavel: {
 		DisplayName: マイダスのハンマー
-		Tooltip: 敵をマイダス状態にする3つの星を撃つ
+		Tooltip: 敵を強欲状態にする3つの星を放つ
 	}
 
 	MineralLauncher: {
 		DisplayName: ミネラルランチャー
-		Tooltip: 石ブロックとバニラ鉱石を発射弾として使用
+		Tooltip: 石ブロックとバニラ産の鉱石を発射弾として使用する
 	}
 
 	ModelGun: {
@@ -5457,7 +5459,7 @@ Items: {
 		DisplayName: オメガブラスター
 		Tooltip:
 			'''
-			「戦闘用アンドロイドの特別なシリーズのために設計された」
+			「戦闘用アンドロイドの特別な個体のために設計された」
 			プレイヤーをその場に固定し、ヒット時にエネルギーを蓄積する大きなエネルギーブラストをチャージする
 			エネルギー満タンの状態で右クリックすると、左クリックが短時間強化される
 			'''
@@ -5542,11 +5544,11 @@ Items: {
 	}
 
 	PillPopper: {
-		DisplayName: ピルポッパー
+		DisplayName: カプセル射出機
 		Tooltip:
 			'''
 			素早く薬を発射
-			右クリックで味方を若返らせるメガピルを放つ
+			右クリックで味方を回復するカプセルを放つ
 			'''
 	}
 
@@ -5598,7 +5600,7 @@ Items: {
 	}
 
 	PollenPike: {
-		DisplayName: パレンパイク
+		DisplayName: 花粉の槍
 		Tooltip:
 			'''
 			「この甘い針はきっとミツバチのものだ」
@@ -5608,7 +5610,7 @@ Items: {
 	}
 
 	PortableWintergatan: {
-		DisplayName: ポータブルヴィンターガタン
+		DisplayName: 携帯型ウィンターガタン
 		Tooltip:
 			'''
 			「ビー玉が実現する音楽の旋律」
@@ -5737,13 +5739,13 @@ Items: {
 		Tooltip:
 			'''
 			左クリックで前方に攻撃し、最大10ブラッドエッセンスを得る
-			右クリックでエッセンスを使って斬りつけ、ブラッドボルトを放つ
+			右クリックでエッセンスを使って斬りつけ、血の魔法を放つ
 			'''
 	}
 
 	RocketCart: {
 		DisplayName: ロケットカート
-		Tooltip: マインカートトラックを猛スピードで走る
+		Tooltip: トロッコトラックを猛スピードで走る
 	}
 
 	RogueRoninHeadband: {
@@ -5793,7 +5795,7 @@ Items: {
 	}
 
 	SandshroudPouch: {
-		DisplayName: サンドスラウドポーチ
+		DisplayName: 砂幕のポーチ
 		Tooltip:
 			'''
 			ヨーヨーで敵にダメージを与えると、自分がダメージを受けるまで10%のダメージ軽減効果を与える
@@ -5802,7 +5804,7 @@ Items: {
 	}
 
 	SandweaversTiara: {
-		DisplayName: サンドウィーバーのティアラ
+		DisplayName: 砂織りのティアラ
 		Tooltip: 砂の岩が周囲を回り、敵に大きなダメージを与える
 	}
 
@@ -5957,10 +5959,10 @@ Items: {
 	}
 
 	SoulReaver: {
-		DisplayName: ソウル・リーヴァー
+		DisplayName: ソウルリーヴァー
 		Tooltip:
 			'''
-			「彼はあなたに言った...」
+			「彼は告げた..」
 			左クリックでソウルリーヴァーの幻影を放つ
 			右クリックでソウルリーヴァーを突き刺し、敵に刺さった幻影の数だけライフを奪う
 			'''
@@ -5973,7 +5975,7 @@ Items: {
 
 	SpectralFang: {
 		DisplayName: スペクトラルファング
-		Tooltip: 騎乗可能なスペクトラル・タイガーを召喚する
+		Tooltip: 騎乗可能なタイガーを召喚する
 	}
 
 	SpiritArrow: {
@@ -6015,7 +6017,7 @@ Items: {
 		DisplayName: スチームガンナーコントローラー
 		Tooltip:
 			'''
-			近くの敵を攻撃するガンナー・ドローンを召喚する
+			近くの敵を攻撃するガンナードローンを召喚する
 			ミニオンスロットを2つ占有する
 			'''
 	}
@@ -6041,7 +6043,7 @@ Items: {
 
 	StrawberryHeart: {
 		DisplayName: ストロベリーハート
-		Tooltip: 魅惑のハーモニー・ハートを放つ
+		Tooltip: 魅惑のハーモニーを放つ
 	}
 
 	SubspaceWings: {
@@ -6049,7 +6051,7 @@ Items: {
 		Tooltip:
 			'''
 			「さっさと逃げた方がいい...」
-			飛行とスローフォールを可能にする
+			飛行とゆっくりとした落下を可能にする
 			'''
 	}
 
@@ -6059,7 +6061,7 @@ Items: {
 	}
 
 	SuperAnvil: {
-		DisplayName: スーパーアンヴィル
+		DisplayName: すごい金床
 		Tooltip:
 			'''
 			騎乗可能な金床を召喚する
@@ -6116,7 +6118,7 @@ Items: {
 	}
 
 	TeleologicImposition: {
-		DisplayName: テレオロジック・インポジション
+		DisplayName: 目的論の強制
 		Tooltip:
 			'''
 			魔法が敵やブロックに命中すると、星の嵐を発生させる
@@ -6139,8 +6141,8 @@ Items: {
 	}
 
 	TheBopper: {
-		DisplayName: バップ奏者
-		Tooltip: 楽器のピッチに応じて異なる音波を発射
+		DisplayName: ボッパー
+		Tooltip: 楽器のピッチに応じて異なる音波を発射する
 	}
 
 	TheDigester: {
@@ -6154,7 +6156,7 @@ Items: {
 	}
 
 	TheMassacre: {
-		DisplayName: ザ・マサカー
+		DisplayName: マサカー
 		Tooltip: 自分の体力を犠牲にして、ランチャーをチャージする
 	}
 
@@ -6323,7 +6325,7 @@ Items: {
 			Ice: 氷
 			Shadow: 闇
 			Ichor: イコル
-			CursedFlame: 呪われた炎
+			CursedFlame: 呪炎
 		}
 	}
 
@@ -6348,7 +6350,7 @@ Items: {
 	}
 
 	YumasPendant: {
-		DisplayName: ユマのペンダント
+		DisplayName: 遊馬のペンダント
 		Tooltip:
 			'''
 			召喚ダメージ10%増加
@@ -6529,7 +6531,7 @@ Items: {
 
 	DreadRazor: {
 		DisplayName: ドレッドレイザー
-		Tooltip: 右クリックでドレッドエネルギーを放つ
+		Tooltip: 右クリックでエネルギーを放つ
 	}
 
 	DreadSkull: {
@@ -6943,7 +6945,7 @@ Items: {
 		DisplayName: オムニボウ
 		Tooltip:
 			'''
-			「少しずつ確実に命を奪う...」
+			「少しずつ確実に...」
 			死の矢を放つ
 			'''
 	}
@@ -6959,10 +6961,10 @@ Items: {
 	}
 
 	TheJavelin: {
-		DisplayName: ザ・ジャベリン
+		DisplayName: ジャベリン
 		Tooltip:
 			'''
-			「お前は死ぬことになる...」
+			「汝は死なり...」
 			死そのものを燃料とするミサイルを発射する
 			{0}%の確率で弾薬を消費しない
 			'''
@@ -7000,15 +7002,15 @@ Items: {
 			'''
 			「純粋なイマジネーションで聴衆を包み込め...」
 			調和のとれたサウンドボルトを放つ
-			右クリックで、攻撃を複製するマインド・ルーンを5つまで作成可能
+			右クリックで、攻撃を複製するマインドルーンを5つまで作成可能
 			'''
 	}
 
 	InspiratorsHelmet: {
-		DisplayName: 鼓舞者のヘルメット
+		DisplayName: 鼓舞者の兜
 		Tooltip:
 			'''
-			「あなたの歌で軍隊を鼓舞できるようにする」
+			「その歌で軍勢を奮い立たせよ」
 			インスピレーションの再生率が25%増加
 			打楽器のクリティカルで与えるダメージが15%増加する
 			インスピレーションの最大値が5増加
@@ -7023,7 +7025,7 @@ Items: {
 	}
 
 	RhapsodistBoots: {
-		DisplayName: ラプソディストのブーツ
+		DisplayName: 狂詩人のブーツ
 		Tooltip:
 			'''
 			インスピレーションの最大値が3増加
@@ -7034,7 +7036,7 @@ Items: {
 	}
 
 	RhapsodistChestWoofer: {
-		DisplayName: ラプソディストのチェストウーファー
+		DisplayName: 狂詩詩人の胸部スピーカー
 		Tooltip:
 			'''
 			旋律ダメージが18%増加
@@ -7045,7 +7047,7 @@ Items: {
 	}
 
 	SoloistHat: {
-		DisplayName: ソリストの帽子
+		DisplayName: 独演者の帽子
 		Tooltip:
 			'''
 			「あなたの才能が誰にも負けないことをすべての人に証明する」
@@ -7122,7 +7124,7 @@ Items: {
 		DisplayName: マグマ・シーアーのマスク
 		Tooltip:
 			'''
-			「マグマ要塞軍を指揮せよ」
+			「要塞軍を指揮せよ」
 			召喚ダメージ50%増加
 			ミニオンの最大数が6体増加する
 			歩哨の最大数が2増加する
@@ -7136,7 +7138,7 @@ Items: {
 		Tooltip:
 			'''
 			「彼の怒りは死後も残るほどだった...」
-			敵を溶かすスラグ・フューリーの力を呼び起こす
+			敵を溶かすスラグフューリーの力を呼び起こす
 			'''
 	}
 
@@ -7149,7 +7151,7 @@ Items: {
 			マナの最大値が60増加＆マナの回復量が大幅に増加
 			近くの敵が燃えている場合、魔法ダメージが0.5%増加する
 			この効果はボスに対して10倍の効果がある
-			魔法攻撃は敵をSingeとIgniteにする
+			魔法攻撃は敵にやけどと獄炎を付与する
 			'''
 		SetBonus: 魔法ダメージは隣接するすべての敵を燃やし、ダメージを与える
 	}
@@ -7185,7 +7187,7 @@ Items: {
 		DisplayName: オメガのコア
 		Tooltip:
 			'''
-			「現実を終わらせる夢喰いの力を宿す」
+			「現実を終わらせる夢喰いの力を宿している」
 			理解できないほど移動速度が上がる
 			'''
 	}
@@ -10354,7 +10356,7 @@ Items: {
 	}
 
 	AquamarineMinecart: {
-		DisplayName: アクアマリンのマインカート
+		DisplayName: アクアマリンのトロッコ
 		Tooltip: ""
 	}
 
@@ -10636,7 +10638,7 @@ Items: {
 	}
 
 	OpalMinecart: {
-		DisplayName: オパールのマインカート
+		DisplayName: オパールのトロッコ
 		Tooltip: ""
 	}
 
@@ -10791,7 +10793,7 @@ Items: {
 		DisplayName: バネジャンプ
 		Tooltip:
 			'''
-			3段ジャンプが可能に
+			三段跳びができるようになる
 			落下抵抗が増加し、オートジャンプが可能になる
 			'''
 	}
@@ -10813,7 +10815,7 @@ Items: {
 
 	UnderworldBiomeKey: {
 		DisplayName: 地底世界の鍵
-		Tooltip: ダンジョン内の 地底世界の宝箱 を開錠する
+		Tooltip: ダンジョン内の地底世界の宝箱を開錠する
 	}
 
 	WhiteDwarfDrill: {
@@ -19117,7 +19119,7 @@ Buffs: {
 	}
 
 	OpalMinecartBuff: {
-		DisplayName: オパールのマインカート
+		DisplayName: オパールのトロッコ
 	}
 
 	BathtubCartBuff: {
@@ -19126,7 +19128,7 @@ Buffs: {
 	}
 
 	AquamarineMinecartBuff: {
-		DisplayName: アクアマリンのマインカート
+		DisplayName: アクアマリンのトロッコ
 	}
 
 	MediumRareSteakBuff: {
@@ -19931,7 +19933,7 @@ GameTips: {
 	ThoriumModTip31: Thorium Mod: この混乱したゾンビ はとても奇妙かもしれないが、様々なクリーチャーに対する忌避剤の効果はかなり高い。
 	ThoriumModTip30: Thorium Mod: キングスライムを倒すと、その高級で美味しそうなジェルで料理人がやってくるかもしれない。
 	ThoriumModTip29: Thorium Mod: 少しお金を払うと、砂漠の聖職者が砂漠の地を荒れさせる。
-	ThoriumModTip28: Thorium Mod: コブラーは靴の販売と靴磨きの両方を行う。必要があれば、彼に尋ねてみるといいだろう。
+	ThoriumModTip28: Thorium Mod: 靴屋は靴の販売と靴磨きの両方を行う。必要があれば、彼に尋ねてみるといいだろう。
 	ThoriumModTip27: Thorium Mod: ダンジョンは神秘的な遺物で溢れているが、一見無害に見えるものにも危険が潜んでいることがある。
 	ThoriumModTip26: Thorium Mod: もし地下ジャングルで異臭がしたら、危険なコープスブルームが近くにいる可能性がある。
 	ThoriumModTip25: Thorium Mod: 血塗られた夜には、何か厄介なものがあなたを捕まえに来るに違いない。
@@ -20066,7 +20068,7 @@ NPCs: {
 		BestiaryFlavorText: サイズもエゴもデカいヴァイカウントは、誰もが認める洞窟の支配者だ。
 
 		BossChecklistIntegration: {
-			SpawnInfo: 地下の血の部屋で[i/s{0}:{1}]を使用する。  [i:{2}]  を使って血の部屋を突き止める。
+			SpawnInfo: 地下の血の部屋で[i/s{0}:{1}]を使用する。  [i:{2}] を使って血の部屋を突き止めることができる。
 		}
 	}
 
@@ -20904,7 +20906,7 @@ NPCs: {
 	}
 
 	FrozenFace: {
-		DisplayName: フローズン・フェイス
+		DisplayName: フローズンフェイス
 		BestiaryFlavorText: クトゥルフの脳は、ヘンな顔をし続けるんじゃないと警告したのだが...
 	}
 
@@ -25502,7 +25504,7 @@ Projectiles: {
 	}
 
 	BannerPro: {
-		DisplayName: Summonerのバナー
+		DisplayName: 召喚士のバナー
 	}
 
 	BeholderStaffPro: {
@@ -29350,7 +29352,7 @@ NewBeginningsSupport: {
 	}
 
 	Medic: {
-		DisplayName: 医療兵
+		DisplayName: 衛生兵
 		Flavor: 傷ついた者にはありがたい存在。仲間を無事に帰すために働く。
 		Description: 新米聖職者の防具（一部）、医療バッグ、骨ノコギリ、注射器300本を所持してスタート
 	}
@@ -29364,13 +29366,13 @@ NewBeginningsSupport: {
 	Occultist: {
 		DisplayName: オカルティスト
 		Flavor: 邪悪な力と通じる異端の学者
-		Description: パームクロス、リーチボルト、呪いのタリスマン、神秘のケープとヨライザーのしかめっ面、追加マナを持ち最大体力が低下した状態でスタート。特定の神聖系攻撃が闇の力で強化される
+		Description: パームクロス、リーチボルト、呪いのタリスマン、神秘のケープとヨライザーのしかめっ面、最大マナが増加する代わりに最大体力が低下した状態でスタート。特定の神聖系攻撃が闇の力で強化される
 	}
 
 	Ronin: {
 		DisplayName: 浪人
 		Flavor: 「昨日より今日、今日より明日。完璧への道は果てしない」
-		Description: 放浪装備、刀、革製の鞘を所持してスタート。静止中は鞘攻撃のチャージが2倍速、鞘以外の攻撃は無効
+		Description: 放浪装備、刀、革製の鞘を所持してスタート。静止中は鞘攻撃のチャージが2倍になるが、鞘以外の攻撃は無効になる。
 	}
 }
 
