@@ -194,7 +194,7 @@ CosmicVoyages: {
 		}
 
 		Celestia: {
-			Loot: 資源：プリズム・コア
+			Loot: 資源：光彩のコア
 			Requirement: 移動にはティア2のステラグリフが必要
 			Threat: 脅威レベル：C
 			Description: 
@@ -210,7 +210,7 @@ CosmicVoyages: {
 	# ここだけ協力者和訳しちゃったけどしなくてもいいかも　わからん
 
 		Theranhad: {
-			Loot: 資源：プリズム・コア
+			Loot: 資源：光彩のコア
 			Requirement: 移動にはティア2のステラグリフが必要
 			Threat: 脅威レベル：B-
 			Description: 
@@ -327,7 +327,7 @@ CosmicVoyages: {
 		}
 
 		MiningStation: {
-			Loot: 資源：プリズム・コア
+			Loot: 資源：光彩のコア
 			Requirement: 移動にはティア1のステラグリフが必要
 			Threat: 脅威レベル：D+
 			Description: 
@@ -386,7 +386,7 @@ CosmicVoyages: {
 		}
 
 		CygnusAsteroids: {
-			Loot: 資源：プリズム・コア
+			Loot: 資源：光彩のコア
 			Requirement: 移動にはティア1のステラグリフが必要
 			Threat: 脅威レベル：D
 			Description: 
@@ -8514,7 +8514,7 @@ Dialogue: {
 				3: {
 					$parentVal:
 						'''
-						もっと現実的なものを望むなら...そうね。  
+						もっと現実的なものを望むなら...そうね。 
 						実を言うと、私、ちょっと甘いものに目がないの。
 						'''
 					E: Happy
@@ -8686,7 +8686,7 @@ Dialogue: {
 				1:
 					'''
 					聖域の仮面を剥ぎ取れば、
-					そこは地獄よりも苛烈かもしれないわ。  
+					そこは地獄よりも苛烈かもしれないわ。 
 					'''
 
 				2: {
@@ -8949,9 +8949,9 @@ Dialogue: {
 			44: クリティカル!!
 			45: きゅうしょにあたった！
 			46: 会心の一撃！
-			47: クリティカル!!
-			48: きゅうしょにあたった！
-			49: ナイスショット！
+			47: いいね！効いてるよ！
+			48: 会心のクリティカルだね！
+			49: ナイスヒット！
 
 			//大ダメージ被弾(250以上)
 			50: うわっ、今のは効いた...！
@@ -9796,12 +9796,14 @@ Dialogue: {
 			41: またひとつ勝利を手にしたわね！
 			42: 当然の結果ね！
 			43: なんて手強い相手...。
+
 			44: 完璧な攻撃ね！
-			45: クリティカルヒットよ！
-			46: お見事だったわ。
-			47: 弱点を突いたわね、ナイス！
-			48: 素晴らしい一撃だったわ！
-			49: 決定的な一撃ね。
+			45: クリティカルヒット！
+			46: 見事な攻撃よ。
+			47: 弱点を突いたわ！
+			48: 素晴らしいわ！
+			49: ナイスヒット！
+
 			50: おっと。痛そうね。
 			51: 大丈夫？
 			52: これは...ちょっと良くないかも。
@@ -10520,7 +10522,7 @@ Dialogue: {
 					2:
 						'''
 						後は...そうね。
-						私は異世界の潜在エネルギーをエッセンスにして						
+						私は異世界の潜在エネルギーをエッセンスにして
 						素材化することができるの。
 						そのエッセンスをクラフトすることで、
 						「アスペクトウェポン」と呼ばれる強力な
@@ -14365,8 +14367,8 @@ NPCs: {
 			EntryName: 時空の放浪者
 			SpawnInfo: 
 			'''
-			クトゥルフの目を倒した後にスターフェアラーから貰える砕け散ったディスク[i:StarsAbove/ShatteredDisk]を使用する。
-			この戦いは、後の進行において極めて重要となる！
+			クトゥルフの目を倒した後、スターフェアラーから貰える砕け散ったディスク[i:StarsAbove/ShatteredDisk]を使用する
+			この戦いは、Star Aboveの進行において極めて重要となる！
 			'''
 			DespawnMessage: ""
 		}
@@ -14379,8 +14381,8 @@ NPCs: {
 			EntryName: 錬金術の演者、テスピアン
 			SpawnInfo: 
 			'''
-			占星術師に「奇妙な薬」について尋ねることで貰える混沌の霊薬[i:StarsAbove/MalsaineDraught]を使用する。
-			占星術師はウェポンメモリーを手に入れるか、時空の放浪者を倒すと街に現れる。
+			占星術師に「奇妙な薬」について尋ねることで貰える混沌の霊薬[i:StarsAbove/MalsaineDraught]を使用する
+			占星術師はウェポンメモリーを手に入れるか、時空の放浪者を倒すと街に現れる
 			'''
 			DespawnMessage: ""
 		}
@@ -14391,7 +14393,11 @@ NPCs: {
 
 		BossChecklistIntegration: {
 			EntryName: 双極の魔人、ディオスクロイ
-			SpawnInfo: 双神のペンダント[i:StarsAbove/TwincruxPendant]を使用する
+			SpawnInfo: 
+			'''			
+			双神のペンダント[i:StarsAbove/TwincruxPendant]を使用する
+			時空の放浪者を撃破した後、ゲームを進行することで入手できる
+			'''	
 			DespawnMessage: ""
 		}
 	}
@@ -14401,7 +14407,11 @@ NPCs: {
 
 		BossChecklistIntegration: {
 			EntryName: インクの魔女、ペンテシレイア
-			SpawnInfo: 穢れなきキャンバス[i:StarsAbove/UnsulliedCanvas]を使用する
+			SpawnInfo: 
+			'''	
+			穢れなきキャンバス[i:StarsAbove/UnsulliedCanvas]を使用する
+			時空の放浪者を撃破した後、ゲームを進行することで入手できる
+			'''	
 			DespawnMessage: ""
 		}
 	}
@@ -14411,7 +14421,11 @@ NPCs: {
 
 		BossChecklistIntegration: {
 			EntryName: 燦然たる王、ナルハウン
-			SpawnInfo: 古代の冠[i:StarsAbove/AncientShard]を使用する
+			SpawnInfo: 
+			'''	
+			古代の冠[i:StarsAbove/AncientShard]を使用する
+			時空の放浪者を撃破した後、ゲームを進行することで入手できる
+			'''	
 			DespawnMessage: ""
 		}
 	}
@@ -14423,9 +14437,9 @@ NPCs: {
 			EntryName: アービトレーション
 			SpawnInfo: 
 			'''
-			特定の異常宙域に滞在するとカタバシスに転送されることがある。
-			そこで入手できる脈動する十字架[i:StarsAbove/DemonicCrux]を使用することで召喚される。
-			マルチプレイ互換モードでは、惑星レイラに移動することでこのアイテムを入手できる。
+			特定の惑星に滞在するとカタバシスに転送される。
+			そこで入手できる脈動する十字架[i:StarsAbove/DemonicCrux]を使用する。
+			マルチプレイ互換モードでは、惑星レイラに移動することでこのアイテムを入手できる
 			'''
 			DespawnMessage: ""
 		}
@@ -14438,8 +14452,8 @@ NPCs: {
 			EntryName: アスフォデン＆エリダニ
 			SpawnInfo: 
 			'''
-			スターフェアラーとの友好的な模擬戦に挑戦しよう
-			プランテラ撃破後に『The Stars Above』のボスをある程度倒している必要がある
+			スターフェアラーとの模擬戦に挑戦しよう
+			プランテラ撃破後に『The Stars Above』のボスをある程度倒していると解禁される
 			'''
 			DespawnMessage: ""
 		}
@@ -14452,8 +14466,8 @@ NPCs: {
 			EntryName: ウォーリア・オブ・ライト
 			SpawnInfo: 
 			'''			
-			ムーンロードを倒してしばらくするとイベントが開始する
-			始源の祈り[i:StarsAbove/ProgenitorWish]を使用することで召喚される
+			ムーンロードを倒してしばらくするとイベントが発生する
+			イベントで入手した始源の祈り[i:StarsAbove/ProgenitorWish]を使用する
 			'''
 			DespawnMessage: ""
 		}
@@ -14466,8 +14480,8 @@ NPCs: {
 			EntryName: 初代スターフェアラー、ツキヨミ
 			SpawnInfo: 
 			'''
-			すべての 記憶の残滓[i:StarsAbove/MnemonicTrace]を集めて、記憶のシジル[i:StarsAbove/MnemonicSigil]を作成
-			それを使ってツキヨミの居場所に向かおう。
+			すべての 記憶の残滓[i:StarsAbove/MnemonicTrace]を集めて、記憶のシジル[i:StarsAbove/MnemonicSigil]を作成する
+			使用してツキヨミの元へ向かおう
 			'''
 			DespawnMessage: ""
 		}
@@ -14579,13 +14593,13 @@ BossAttacks: {
 			CarrionCall: 腐肉の呼び声
 			Apostasy: 『叛逆の福音』
 			Transplacement: 転移
-			//アービトレーションの技、アービトレーションのボイス自体が逆再生なので、技名にもちょっと取り込んでみた
-			ShadowsWithal: シャドウ「ルーゾィウ」
-			DarkDeluge: ダーク「ジーュリデ」
-			OrdainedEnd: 「ドンイデーオ」エンド
-			DeathRecital: デス「ルタイサリ」
-			DarkDesign: ダーク「ンイザデ」
-			StygianAugur: 「ンアジィテス」オーガー
+			//アービトレーションの技
+			ShadowsWithal: シャドウ・ウィゾール
+			DarkDeluge: ダーク・デリュージ
+			OrdainedEnd: オーデインド・エンド
+			DeathRecital: デス・リサイタル
+			DarkDesign: ダーク・デザイン
+			StygianAugur: スティジアン・オーガー
 			BloodMoon: ブラッドムーン
 			SeveranceOfFate: 『セヴァランス・オブ・フェイト』
 			Titanomachia: ティタノマキア
@@ -17267,10 +17281,10 @@ Items: {
 	DullTotemOfLight: {
 		Tooltip:
 			'''
-			ウォーリア・オブ・ライトに力を与えるために形を与えられたとされる
+			光の戦士を讃えたものと思しき光輝を放つ小像
 			強力な遺物や武器の製作に用いられる
 			'''
-		DisplayName: 光のトーテム
+		DisplayName: トーテム・オブ・ライト
 	}
 
 	EfflorescentInkwell: {
@@ -17313,10 +17327,10 @@ Items: {
 	TotemOfLightEmpowered: {
 		Tooltip:
 			'''
-			ウォーリア・オブ・ライトに力を与えるために形を与えられたとされる
+			光の戦士を讃えたものと思しき極光を放つ小像
 			非常に強力な武器の製作に用いられる
 			'''
-		DisplayName: 強化された光のトーテム
+		DisplayName: トーテム・オブ・ライト【極】
 	}
 
 	TwilightNeedle: {
@@ -17641,7 +17655,7 @@ Items: {
 		Tooltip:
 			'''
 			ちびウォーリア・オブ・ライトを召喚する
-			「私はあなたを超越する！」
+			「全霊をもってお前を超える！」
 			'''
 		DisplayName: 祖先の破片
 	}
@@ -27566,7 +27580,7 @@ Buffs: {
 
 	WarriorPetBuff: {
 		DisplayName: ちびウォーリア・オブ・ライト
-		Description: 私はあなたを超越する！
+		Description: 全霊をもってお前を超える！
 	}
 
 	Wormhole: {
@@ -28941,7 +28955,7 @@ Bestiary: {
 	NalhaunBossPhase2: かつては強大な君主であったが、王宮からの裏切りによって永遠に生き続ける呪いをかけられた。第一の星の運び手がその長く悲劇的な治世に終止符を打つまで、彼は誰もいない惑星で孤独に生き続けた。彼の力を存分に発揮するチャンスはあったかもしれないが、彼は世界を引き裂く恐ろしい内戦に苦しめられていた。
 	PaintedAttendantA: ペンテシレイアによって使用される。最高の魔道士は、物理的な暴力が答えになるときを知っている。
 	PenthesileaBoss: とてつもなく強力な魔道士であるペインテッド・ウィッチは、かつて完全に「描かれた」惑星を支配していた。トリックスターであった彼女は、同僚の作品にいたずらを仕掛けるためだけに熟練の魔術を習得した。長い抗争の末、彼女は初代スターベアラーの手によって最期を迎えた。
-	PrismLoot: プリズム・コアの潜在的な魔力は、銀河系を漂うプリズム・コアに影響を与えることがある。1つ捕まえれば、ご褒美がもらえる！
+	PrismLoot: 光彩のコアの潜在的な魔力は、銀河系を漂う光彩のコアに影響を与えることがある。1つ捕まえれば、ご褒美がもらえる！
 	SpectreOfLight: 異世界の英雄で、この地を襲うために初代スターベアラーによって召喚された。
 	TsukiyomiBoss: 軌道を回る天体を支配する初代スターフェアラー、ツキヨミ。惑星とその衛星の引力が彼女に力を与える。彼女はウォーリア・オブ・ライトを迷わせ、その力と善意を利用して無数の星々を征服し破壊した......。
 	CastorBoss: 炎の力、ベイルボーン。ベイルボーンは非常に競争心の強い種族であり、その血縁関係は争いの火種をさらに燃え上がらせるだけである。彼らは完全に決闘に没頭し、相手の行動以外は何も意識しない。皮肉なことに、そのせいで他の相手には凡庸なファイターになってしまった。彼らは初代スターベアラーによって完全に破壊された。彼が無意識のうちに彼らの永遠の戦いを妨害したため、彼を攻撃したのだ。
