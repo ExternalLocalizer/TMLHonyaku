@@ -1,0 +1,68 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		ShowModSideIcon: {
+			Label: アイコン表示
+			Tooltip: Modのサイド情報を含むアイコンを表示します
+		}
+
+		ShowModSideName: {
+			Label: テキスト表示
+			Tooltip: Modのサイド情報を含むテキストを表示します
+		}
+
+		TextSize: {
+			Label: テキストサイズ
+			Tooltip: テキストの大きさを調整します
+		}
+
+		IconPosition: {
+			Label: アイコン位置
+			Tooltip: デフォルト位置は右上です
+		}
+
+		TextPosition: {
+			Label: テキスト位置
+			Tooltip: デフォルト位置は上中央です
+		}
+
+		IconGlow: {
+			Label: アイコン発光
+			Tooltip: アイコンの周囲を光らせます
+		}
+
+		Headers: {
+			Icon: "アイコン [i:ModSideIcon/ServerItem] [i:ModSideIcon/ClientItem] "
+			Text: テキスト
+		}
+
+		IconSize: {
+			Label: アイコンサイズ
+			Tooltip: アイコンのサイズを調整します
+		}
+
+		Tooltip: {
+			Label: ツールチップ
+			Tooltip: アイコンにカーソルを合わせると説明を表示
+		}
+	}
+}
+
+Items: {
+	BothItem: {
+		DisplayName: 「両方」アイテム
+		Tooltip: ""
+	}
+
+	ClientItem: {
+		DisplayName: 「クライント」アイテム
+		Tooltip: ""
+	}
+
+	ServerItem: {
+		DisplayName: 「サーバー」アイテム
+		Tooltip: ""
+	}
+}
+
