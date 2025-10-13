@@ -1,0 +1,49 @@
+Configs: {
+	AchievementOverride: {
+		AlwaysDisable: {
+			Label: 常時無効化
+		}
+
+		AlwaysEnable: {
+			Label: 常時有効化
+		}
+
+		Default: {
+			Label: デフォルト
+		}
+
+		Tooltip: ""
+	}
+
+	AchievementConfig: {
+		UseAchievements: {
+			Tooltip:
+				'''
+				DAYBREAKの実績システムを使用するかどうかを決定します。
+                DAYBREAKは、Terrariaの実績処理を独自のものに置き換えるため、ゲームにいくつかの変更を加えます。
+                比較的干渉が少ないはずです。デフォルトでは無効化されており、ModがMod実績を追加しない限り有効になりません。
+				'''
+			Label: DAYBREAKの実績システムを使う
+		}
+
+		AreAchievementsPresent: {
+			Tooltip:
+				'''
+				[c/ff0000:あくまで参考情報です。]
+				この機能が有効化されていることを前提とするMod実績が存在するか否かを示します。
+                ON : Mod実績が読み込まれています。（Terrariaの実績以外の実績が存在します）
+                OFF: Terrariaの実績のみが読み込まれています。
+				'''
+			Label: Mod実績は存在しますか？
+		}
+
+		DisplayName: Mod実績
+	}
+}
+
+UI: {
+	ModIcon: {
+		ModName: DAYBREAK
+	}
+}
+
