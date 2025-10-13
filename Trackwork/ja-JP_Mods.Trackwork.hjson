@@ -1,0 +1,31 @@
+Configs: {
+	TrackworkConfig: {
+		DisplayName: クライアント設定
+
+		LiveSound: {
+			Label: 専用サウンド
+			Tooltip: 特定のトロッコで再生される特別な効果音
+		}
+
+		MinPitch: {
+			Label: 最低ピッチ
+			Tooltip: トロッコが最低速度のときの音の高さを設定します
+		}
+
+		MaxPitch: {
+			Label: 最大ピッチ
+			Tooltip: トロッコが最高速度のときの音の高さを設定します
+		}
+
+		MinVolume: {
+			Label: 最小ボリューム
+			Tooltip: トロッコが最低速度のときの音量を設定します
+		}
+
+		MaxVolume: {
+			Label: 最大ボリューム
+			Tooltip: トロッコが最高速度のときの音量を設定します
+		}
+	}
+}
+
