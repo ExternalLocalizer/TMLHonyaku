@@ -7,7 +7,7 @@ Subworlds: {
 DeathReason: {
 	SanguineDespair: の命は枯渇しました。
 	SupremeAuthority: は虚空に還りました。
-	Thespian: はその律に従えませんでした。
+	Thespian: は『プレイライターの意志』に従えませんでした。
 	ShockAndAwe: はロケットジャンプを頑張りすぎました。
 	InevitableEnd: は {0} の「避けられない結末」の集中砲火を浴びました。
 	Arbitration: は混沌に陥る運命でした。
@@ -6107,7 +6107,7 @@ Dialogue: {
 				Description: ""
 				1:
 					'''
-					ブリムストーン・エレメンタル、撃破完了っと。
+					ブリムストーンエレメンタル、撃破完了っと。
 					かつては地底の大文明で『女神様』として
 					崇められてた存在だったみたい。
 					...文明が滅びて、今の姿になっちゃったのかもね。
@@ -17787,7 +17787,7 @@ Items: {
 	CosmicWillMusicBox: {
 		Tooltip:
 			'''
-			「Cosmic Will」 - The Stars Above OST
+			「Cosmic Will」 - The Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (旧：時空の放浪者)
@@ -17811,9 +17811,8 @@ Items: {
 	ElpisMusicBox: {
 		Tooltip:
 			'''
-			「古の空」 - FFXIV 暁月のフィナーレ OST
+			「古の空」 - FFXIV 暁月のフィナーレ
 			Composed by Masayoshi Soken
-
 			'''
 		DisplayName: オルゴール (ヒュペルボレア天文台)
 	}
@@ -17837,7 +17836,6 @@ Items: {
 			'''
 			「メイジ・オブ・ヴァイオレット(Instrumental)」 - 紫咲シオン
 			Composed by Kairiki Bear
-
 			'''
 		DisplayName: オルゴール (ペンテシレイア) 
 	}
@@ -17845,9 +17843,8 @@ Items: {
 	MightOfTheHellbladeMusicBox: {
 		Tooltip:
 			'''
-			「覇道を征く魔剣」 - ブレイブリーデフォルト 2 OST
+			「覇道を征く魔剣」 - ブレイブリーデフォルト 2
 			Composed by REVO
-
 			'''
 		DisplayName: オルゴール (ナルハウン - フェーズ2) 
 	}
@@ -17865,7 +17862,7 @@ Items: {
 	ShadowsCastByTheMightyMusicBox: {
 		Tooltip:
 			'''
-			「覇道の影で閃く審判」 - ブレイブリーデフォルト 2 OST
+			「覇道の影で閃く審判」 - ブレイブリーデフォルト 2
 			Composed by REVO
 
 			'''
@@ -17875,7 +17872,7 @@ Items: {
 	SunsetStardustMusicBox: {
 		Tooltip:
 			'''
-			「Sunset, Stardust」 - Stars Above OST
+			「Sunset, Stardust」 - Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (Stars Above タイトル) 
@@ -17884,9 +17881,8 @@ Items: {
 	ToTheEdgeMusicBox: {
 		Tooltip:
 			'''
-			「To The Edge」 - FFXIV 漆黒のヴィランズ OST
+			「To The Edge」 - FFXIV 漆黒のヴィランズ
 			Composed by Masayoshi Soken
-
 			'''
 		DisplayName: オルゴール (ウォーリア・オブ・ライト - フェーズ1) 
 	}
@@ -17894,9 +17890,8 @@ Items: {
 	TwoDragonsMusicBox: {
 		Tooltip:
 			'''
-			「Two Dragons」 - 龍が如く0 OST
+			「Two Dragons」 - 龍が如く0
 			Composed by Hidenori Shoji
-
 			'''
 		DisplayName: オルゴール (未使用) 
 	}
@@ -17904,9 +17899,8 @@ Items: {
 	UnmatchingPiecesMusicBox: {
 		Tooltip:
 			'''
-			「合わないピース」 - FFXIV 漆黒のヴィランズ OST
+			「合わないピース」 - FFXIV 漆黒のヴィランズ
 			Composed by Masayoshi Soken
-
 			'''
 		DisplayName: オルゴール (永遠なる光) 
 	}
@@ -17914,9 +17908,8 @@ Items: {
 	VoyageMusicBox: {
 		Tooltip:
 			'''
-			「小さな一歩 ～嘆きの海～」 - FFXIV 暁月のフィナーレ OST
+			「小さな一歩 ～嘆きの海～」 - FFXIV 暁月のフィナーレ
 			Composed by Masayoshi Soken
-
 			'''
 		DisplayName: オルゴール (星界) 
 	}
@@ -19496,7 +19489,7 @@ Items: {
 	TheExtremeMusicBox: {
 		Tooltip:
 			'''
-			「The Extreme」 - Final Fantasy 8 OST
+			「The Extreme」 - Final Fantasy 8
 			Arranged by Daiki Ishikawa - Composed by Nobuo Uematsu
 			'''
 		DisplayName: オルゴール (初代スターフェアラー、ツキヨミ：エキスパート以下) 
@@ -19741,12 +19734,11 @@ Items: {
 	}
 
 	FleetingMomentMusicBox: {
-		DisplayName: オルゴール(一瞬の出来事)
+		DisplayName: オルゴール(ウォーリア・オブ・ライト - フェーズ2)
 		Tooltip:
 			'''
-			「Fleeting Moment ～万魔殿パンデモニウム：天獄編～」 - FFXIV 暁月のフィナーレ OST
+			「Fleeting Moment」 - FFXIV 暁月のフィナーレ
 			Composed by Masayoshi Soken
-
 			'''
 	}
 
@@ -20694,7 +20686,7 @@ Items: {
 	ChartTheCosmosMusicBox: {
 		Tooltip:
 			'''
-			「Chart the Cosmos」 - The Stars Above OST
+			「Chart the Cosmos」 - The Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (時空の放浪者)
@@ -20703,7 +20695,7 @@ Items: {
 	EvenStarsMustFallMusicBox: {
 		Tooltip:
 			'''
-			「Even Stars Must Fall」 - The Stars Above OST
+			「Even Stars Must Fall」 - The Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (最後の戦い)
@@ -20712,7 +20704,7 @@ Items: {
 	LegendsYetUnspunMusicBox: {
 		Tooltip:
 			'''
-			「Legends Yet Unspun」 - The Stars Above OST
+			「Legends Yet Unspun」 - The Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (スターフェアラー姉妹)
@@ -20852,7 +20844,7 @@ Items: {
 			[c/BCABAB:ソウルイーターシールド]のクールダウン中はポーションによる回復量が80%減少する
 			この武器がアクセサリーとして装備されている間、特定のダメージ系デバフを受けている時[c/CAF795:憤怒の呪い]を獲得する
 			[c/CAF795:憤怒の呪い]はアクセサリー装備時のダメージ低下を無効化し、さらに防御力が10増加する
-			構えてる場合もアクセサリーとして装備している場合も、任意の咆哮にダプルダップすることでダッシュが可能となり、敵に狙われやすくなる 
+			構えてる場合もアクセサリーとして装備している場合も、任意の方向にダプルダップすることでダッシュが可能となり、敵に狙われやすくなる 
 			'''
 	}
 
@@ -21471,7 +21463,7 @@ Items: {
 	NeonVeilMusicBox: {
 		Tooltip:
 			'''
-			「Analog Memory」 - The Stars Above OST
+			「Analog Memory」 - The Stars Above
 			Original
 			'''
 		DisplayName: オルゴール (ネオンベール)
