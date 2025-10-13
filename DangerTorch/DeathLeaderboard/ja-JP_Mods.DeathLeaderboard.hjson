@@ -1,0 +1,68 @@
+Configs: {
+	Common: {
+		DisplayTypes: {
+			Label: 表示モード
+			Tooltip: リーダーボードでの表示形式を設定します
+
+			Deaths: {
+				Label: 死亡数
+				Tooltip: プレイヤーごとの合計死亡数のみを表示します
+			}
+
+			DeathsCauses: {
+				Label: 死亡数＋原因
+				Tooltip: プレイヤーごとの合計死亡数と、最も多い死亡原因を表示します
+			}
+		}
+
+		RecursionDepth: {
+			Tooltip: ""
+			Label: 再帰深度
+		}
+	}
+
+	DeathLeaderboardConfig: {
+		DisplayName: リーダーボード形式
+	}
+
+	DisplayType: {
+		Tooltip: ""
+	}
+
+	LeaderboardFormattingConfig: {
+		DisplayName: リーダーボード 表示設定
+	}
+
+	RecursionConfig: {
+		DisplayName: 再帰設定
+	}
+}
+
+Leaderboard: {
+	Header: ======リーダーボード======
+	DeathsTo: "{0} は {1} で死亡"
+	Fell: 落下
+	Drowned: 溺死
+	Lava: 溶岩
+	Slain: 戦闘
+	Slain2: 戦闘
+	Petrified: 石化
+	Stabbed: 突き刺され
+	Suffocated: 窒息
+	Burned: 炎上
+	Poisoned: 毒死
+	Electrocuted: 感電
+	AttemptedEscape: 脱出失敗
+	Licked: 舐め殺し
+	Teleport1: テレポート事故
+	Teleport2Male: テレポート事故
+	Teleport2Female: テレポート事故
+	Inferno: 炎獄
+	DiedInTheDark: 暗闇
+	Starved: 餓死
+	Space: 宇宙空間
+	Unknown: 不明
+	Empty: 不明
+	NoCauses: 要因なし
+}
+
