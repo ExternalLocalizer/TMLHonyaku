@@ -1,76 +1,67 @@
 Tiles: {
-	DrawbridgeTile: {
-		MapEntry: Drawbridge Tile
-	}
-
-	DrawbridgeHorizontalTile: {
-		MapEntry: Drawbridge Horizontal Tile
-	}
-
-	WheelTile: {
-		MapEntry: Wheel Tile
-	}
-
-	WheelAnchorTile: {
-		MapEntry: Wheel Anchor Tile
-	}
-
-	WheelHorizontalTile: {
-		MapEntry: Wheel Horizontal Tile
-	}
-
-	PortcullisDownTile: {
-		MapEntry: Portcullis Down Tile
-	}
-
-	PortcullisUpTile: {
-		MapEntry: Portcullis Up Tile
-	}
-
-	DrawbridgeHorizontalFlippedTile: {
-		MapEntry: Drawbridge Horizontal Flipped Tile
-	}
-
-	DrawbridgeVerticalFlippedTile: {
-		MapEntry: Drawbridge Vertical Flipped Tile
-	}
-
-	SpikedPallisadeTile: {
-		MapEntry: Spiked Pallisade Tile
-	}
-
-	SpikedPallisadeFlippedTile: {
-		MapEntry: Spiked Pallisade Flipped Tile
-	}
-
-	GoldBellTile: {
-		MapEntry: Gold Bell Tile
-	}
-
-	ClockTile: {
-		MapEntry: Clock
-	}
-
-	GraveyardBellTile: {
-		MapEntry: Graveyard Bell Tile
-	}
-
-	HorseStableTile: {
-		MapEntry: Horse Stable
-	}
-
-	Tile: {
-		CulvertDecorationTile: カルバートの装飾
-	}
+	DrawbridgeTile.MapEntry: Drawbridge Tile
+	DrawbridgeHorizontalTile.MapEntry: Drawbridge Horizontal Tile
+	WheelTile.MapEntry: Wheel Tile
+	WheelAnchorTile.MapEntry: Wheel Anchor Tile
+	WheelHorizontalTile.MapEntry: Wheel Horizontal Tile
+	PortcullisDownTile.MapEntry: Portcullis Down Tile
+	PortcullisUpTile.MapEntry: Portcullis Up Tile
+	DrawbridgeHorizontalFlippedTile.MapEntry: Drawbridge Horizontal Flipped Tile
+	DrawbridgeVerticalFlippedTile.MapEntry: Drawbridge Vertical Flipped Tile
+	SpikedPallisadeTile.MapEntry: Spiked Pallisade Tile
+	SpikedPallisadeFlippedTile.MapEntry: Spiked Pallisade Flipped Tile
+	GoldBellTile.MapEntry: Gold Bell Tile
+	ClockTile.MapEntry: Clock
+	GraveyardBellTile.MapEntry: Graveyard Bell Tile
+	HorseStableTile.MapEntry: Horse Stable
+	Tile.CulvertDecorationTile: カルバートの装飾
 
 	CulvertDecorationTile: {
-		$parentVal: カルバートの装飾
+		$parentVal: Mods.Drawbridge.Tiles.CulvertDecorationTile.$parentVal
 		MapEntry: カルバートの装飾 Tile
 	}
 
-	HorseStableExtendedTile: {
-		MapEntry: Horse Stable Extended Tile
-	}
+	HorseStableExtendedTile.MapEntry: Horse Stable Extended Tile
+	HellDrawbridgeHorizontalFlippedTile.MapEntry: Hell Drawbridge Horizontal Flipped Tile
+	HellDrawbridgeHorizontalTile.MapEntry: Hell Drawbridge Horizontal Tile
+	HellDrawbridgeTile.MapEntry: Hell Drawbridge Tile
+	HellDrawbridgeVerticalFlippedTile.MapEntry: Hell Drawbridge Vertical Flipped Tile
+	LionDrawbridgeHorizontalFlippedTile.MapEntry: Lion Drawbridge Horizontal Flipped Tile
+	LionDrawbridgeHorizontalTile.MapEntry: Lion Drawbridge Horizontal Tile
+	LionDrawbridgeTile.MapEntry: Lion Drawbridge Tile
+	LionDrawbridgeVerticalFlippedTile.MapEntry: Lion Drawbridge Vertical Flipped Tile
+	EquineArmatureTile.MapEntry: Equine Armature Tile
+	TwinarchTile.MapEntry: Twinarch Tile
+	DoorcaseTile.MapEntry: Doorcase Tile
+	Fish_Sign_Placed.MapEntry: Fish Sign
+	Anvil_Sign_Placed.MapEntry: Anvil Sign
+	Spear_Tiles.MapEntry: Spear_ Tiles
+	Sword_Hang_TIle.MapEntry: Sword_ Hang_ T Ile
+	Trident_Tiles.MapEntry: Trident_ Tiles
+	SpearSignTile.MapEntry: Spear Sign Tile
+	SwordSignTile.MapEntry: Sword Sign Tile
+	TridentSignTile.MapEntry: Trident Sign Tile
+	AnvilSignTile.MapEntry: Anvil Sign Tile
+	BlankSignTile.MapEntry: Blank Sign Tile
+	ClothierSignTile.MapEntry: Clothier Sign Tile
+	CyberSignTile.MapEntry: Cyber Sign Tile
+	DemolitionistSignTile.MapEntry: Demolitionist Sign Tile
+	DryadSignTile.MapEntry: Dryad Sign Tile
+	DyeSignTile.MapEntry: Dye Sign Tile
+	GolfSignTile.MapEntry: Golf Sign Tile
+	GunSignTile.MapEntry: Gun Sign Tile
+	MechanicSignTile.MapEntry: Mechanic Sign Tile
+	MerchantSignTile.MapEntry: Merchant Sign Tile
+	PirateSignTile.MapEntry: Pirate Sign Tile
+	PrincessSignTile.MapEntry: Princess Sign Tile
+	SteamSignTile.MapEntry: Steam Sign Tile
+	StylistSignTile.MapEntry: Stylist Sign Tile
+	TinkererSignTile.MapEntry: Tinkerer Sign Tile
+	TruffleSignTile.MapEntry: Truffle Sign Tile
+	ZooSignTile.MapEntry: Zoo Sign Tile
+	HookTile.MapEntry: Hook
+	MacchicolationTile.MapEntry: Machicolation
+	MacchicolationTile_F.MapEntry: Macchicolation Tile_ F
 }
 
 Items: {
@@ -119,12 +110,10 @@ Items: {
 		Tooltip: ""
 	}
 
-	Item: {
-		CulvertDecorationTileItem: カルバートの装飾
-	}
+	Item.CulvertDecorationTileItem: カルバートの装飾
 
 	CulvertDecorationTileItem: {
-		$parentVal: カルバートの装飾
+		$parentVal: Mods.Drawbridge.Items.CulvertDecorationTileItem.$parentVal
 		DisplayName: カルバート
 		Tooltip: ""
 	}
@@ -133,61 +122,283 @@ Items: {
 		DisplayName: 馬小屋の門(拡張)
 		Tooltip: シングルプレイで最大4頭の馬を収納可能。マルチプレイでは装飾用
 	}
+
+	HellDrawbridgeItem: {
+		Tooltip: ""
+		DisplayName: 地獄の跳ね橋
+	}
+
+	LionDrawbridgeItem: {
+		Tooltip: ""
+		DisplayName: 王家の跳ね橋
+	}
+
+	EquineArmatureItem: {
+		DisplayName: 馬用装甲
+		Tooltip: ""
+	}
+
+	IronFieldBardingItem: {
+		DisplayName: 鉄の馬鎧
+		Tooltip: ""
+	}
+
+	GoldArmorItem: {
+		DisplayName: 黄金の馬鎧
+		Tooltip: ""
+	}
+
+	MoltenArmorItem: {
+		DisplayName: 灼熱の馬鎧
+		Tooltip: ""
+	}
+
+	TwinarchItem: {
+		DisplayName: 双弧の門
+		Tooltip: ""
+	}
+
+	DoorcaseItem: {
+		DisplayName: 扉枠
+		Tooltip: ""
+	}
+
+	Fish_Sign_Item: {
+		DisplayName: 魚の看板
+		Tooltip: ""
+	}
+
+	Anvil_Sign_Item: {
+		DisplayName: 金床の看板
+		Tooltip: ""
+	}
+
+	Spear_Inventory2: {
+		DisplayName: 槍の展示台
+		Tooltip: ""
+	}
+
+	Sword_Hang_Inventory: {
+		DisplayName: 剣の壁掛け
+		Tooltip: ""
+	}
+
+	TRident_Inventory: {
+		DisplayName: トライデントの展示台
+		Tooltip: ""
+	}
+
+	SpearSignItem: {
+		DisplayName: 槍の看板
+		Tooltip: ""
+	}
+
+	SwordSignItem: {
+		DisplayName: 剣の看板
+		Tooltip: ""
+	}
+
+	TridentSignItem: {
+		DisplayName: トライデントの看板
+		Tooltip: ""
+	}
+
+	// New NPC-themed signs
+	BlankSignItem: {
+		DisplayName: 無地の看板
+		Tooltip: ""
+	}
+
+	AnvilSignItem: {
+		DisplayName: 金床の看板
+		Tooltip: ""
+	}
+
+	ClothierSignItem: {
+		DisplayName: 仕立屋の看板
+		Tooltip: ""
+	}
+
+	CyberSignItem: {
+		DisplayName: 電子標識
+		Tooltip: ""
+	}
+
+	DemolitionistSignItem: {
+		DisplayName: 爆破屋の看板
+		Tooltip: ""
+	}
+
+	DryadSignItem: {
+		DisplayName: ドライアドの看板
+		Tooltip: ""
+	}
+
+	DyeSignItem: {
+		DisplayName: 染料屋の看板
+		Tooltip: ""
+	}
+
+	GolfSignItem: {
+		DisplayName: ゴルフ場の看板
+		Tooltip: ""
+	}
+
+	GunSignItem: {
+		DisplayName: 銃の看板
+		Tooltip: ""
+	}
+
+	MechanicSignItem: {
+		DisplayName: メカニックの看板
+		Tooltip: ""
+	}
+
+	MerchantSignItem: {
+		DisplayName: 商人の看板
+		Tooltip: ""
+	}
+
+	PirateSignItem: {
+		DisplayName: 海賊の看板
+		Tooltip: ""
+	}
+
+	PrincessSignItem: {
+		DisplayName: 王女の看板
+		Tooltip: ""
+	}
+
+	SteamSignItem: {
+		DisplayName: スチームの看板
+		Tooltip: ""
+	}
+
+	StylistSignItem: {
+		DisplayName: スタイリストの看板
+		Tooltip: ""
+	}
+
+	TinkererSignItem: {
+		DisplayName: よろず屋の看板
+		Tooltip: ""
+	}
+
+	TruffleSignItem: {
+		DisplayName: トリュフの看板
+		Tooltip: ""
+	}
+
+	ZooSignItem: {
+		DisplayName: 動物園の看板
+		Tooltip: ""
+	}
+
+	HookItem: {
+		DisplayName: フック
+		Tooltip: 魚を吊り下げられる丈夫な掛け具
+	}
+
+	SkyLionCloak: {
+		DisplayName: 空獅子のマント
+		Tooltip: ""
+	}
+
+	SkyLionCuirass: {
+		DisplayName: 空獅子の胸甲
+		Tooltip: ""
+	}
+
+	SkyLionGreaves: {
+		DisplayName: 空獅子のすね当て
+		Tooltip: ""
+	}
+
+	SkyLionMane: {
+		DisplayName: 空獅子のたてがみ
+		Tooltip: ""
+	}
+
+	SkyLionChestplate: {
+		DisplayName: 空獅子の胸甲
+		Tooltip: ""
+	}
+
+	SkyLionHelmet: {
+		DisplayName: 空獅子のたてがみ
+		Tooltip: ""
+	}
+
+	SkyLionLeggings: {
+		DisplayName: 空獅子のすね当て
+		Tooltip: ""
+	}
+
+	CopperArmorItem: {
+		DisplayName: 銅の鎧
+		Tooltip: ""
+	}
+
+	SilverArmorItem: {
+		DisplayName: 銀の鎧
+		Tooltip: ""
+	}
+
+	CursedHorseshoeItem: {
+		DisplayName: 呪われし蹄鉄
+		Tooltip: 呪いによって蘇った骸骨馬を召喚する
+	}
+
+	CursedHorseshoe: {
+		DisplayName: 呪われし蹄鉄
+		Tooltip: ""
+	}
+
+	WastelanderBoots: {
+		DisplayName: 荒野のブーツ
+		Tooltip: ""
+	}
+
+	WastelanderChestplate: {
+		DisplayName: 荒野の胸当て
+		Tooltip: ""
+	}
+
+	WastelanderHood: {
+		DisplayName: 荒野のフード
+		Tooltip: ""
+	}
+
+	MacchicolationItem: {
+		DisplayName: 石落とし
+		Tooltip: 中世の攻城戦用の釜。右クリックで敵に熱湯を浴びせる
+	}
+
+	MacchicolationItem_F: {
+		DisplayName: 石落とし・改
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
-	DrawbridgeAnimation: {
-		DisplayName: Drawbridge
-	}
-
-	WheelRender: {
-		DisplayName: Wheel Render
-	}
-
-	PortcullisAnimation: {
-		DisplayName: Portcullis Animation
-	}
-
-	GoldBellClapper: {
-		DisplayName: Gold Bell Clapper
-	}
-
-	GoldBellAnimation: {
-		DisplayName: Gold Bell Animation
-	}
-
-	ClockHand: {
-		DisplayName: Clock Hand
-	}
-
-	GraveyardBellClapper: {
-		DisplayName: Graveyard Bell Clapper
-	}
-
-	GraveyardBellAnimation: {
-		DisplayName: Graveyard Bell Animation
-	}
-
-	FriendlyBatProjectile: {
-		DisplayName: Friendly Bat Projectile
-	}
-
-	FriendlyFairyProjectile: {
-		DisplayName: Friendly Fairy Projectile
-	}
-
-	StableUnicornMount: {
-		DisplayName: Stable Unicorn Mount
-	}
-
-	PoopVisualProjectile: {
-		DisplayName: Poop Visual Projectile
-	}
+	DrawbridgeAnimation.DisplayName: Drawbridge
+	WheelRender.DisplayName: Wheel Render
+	PortcullisAnimation.DisplayName: Portcullis Animation
+	GoldBellClapper.DisplayName: Gold Bell Clapper
+	GoldBellAnimation.DisplayName: Gold Bell Animation
+	ClockHand.DisplayName: Clock Hand
+	GraveyardBellClapper.DisplayName: Graveyard Bell Clapper
+	GraveyardBellAnimation.DisplayName: Graveyard Bell Animation
+	FriendlyBatProjectile.DisplayName: Friendly Bat Projectile
+	FriendlyFairyProjectile.DisplayName: Friendly Fairy Projectile
+	StableUnicornMount.DisplayName: Stable Unicorn Mount
+	PoopVisualProjectile.DisplayName: Poop Visual Projectile
+	HellDrawbridgeAnimation.DisplayName: Hell Drawbridge Animation
+	LionDrawbridgeAnimation.DisplayName: Lion Drawbridge Animation
+	HookProjectile.DisplayName: Hook Projectile
 }
 
-DeathReason: {
-	SpikedPallisade: 尖った柵に貫かれた！
-}
+DeathReason.SpikedPallisade: 尖った柵に貫かれた！
 
 Configs: {
 	DrawbridgeConfig: {
@@ -225,17 +436,37 @@ Buffs: {
 		DisplayName: 魂のヴェイル
 		Description: 夜間や墓地で防御力を高め、呪いと暗闇を無効化
 	}
+
+	SkyLionMane: {
+		DisplayName: 空獅子のたてがみ
+		Tooltip: 天を統べる獅子の雄々しきたてがみ
+	}
+
+	SkyLionCuirass: {
+		DisplayName: 空獅子の胸甲
+		Tooltip: 天翔ける獅子の加護を受けた守護の鎧
+	}
+
+	SkyLionGreaves: {
+		DisplayName: 空獅子のすね当て
+		Tooltip: 天空を駆ける獅子の脚のごとき軽やかさをもたらす
+	}
+
+	SkyLionCloak: {
+		DisplayName: 空獅子のマント
+		Tooltip: 天を翔ける獅子の力を宿し、風のごとく揺らめくマント
+	}
+
+	WightPalfreyBuff: {
+		DisplayName: 冥騎ワイト・ポルフリー
+		Description: 闇を駆ける白骨の馬――その一歩ごとに、死と再生の境界が揺らぐ
+	}
 }
 
 Mods: {
 	Drawbridge: {
-		Tiles: {
-			ClockTile: Mods.Drawbridge.Mods.Drawbridge.Tiles.ClockTile
-		}
-
-		HorseStableTile: {
-			DisplayName: 馬小屋
-		}
+		Tiles.ClockTile: Mods.Drawbridge.Mods.Drawbridge.Tiles.ClockTile
+		HorseStableTile.DisplayName: 馬小屋
 
 		HorseStableItem: {
 			DisplayName: 馬小屋
@@ -244,21 +475,18 @@ Mods: {
 	}
 }
 
-Wall: {
-	BlackCulvertWall: 黒いカルバート
-}
-
-Item: {
-	BlackCulvertWallItem: 黒いカルバートの壁
-}
+Wall.BlackCulvertWall: 黒いカルバート
+Item.BlackCulvertWallItem: 黒いカルバートの壁
 
 Walls: {
-	BlackCulvertWall: {
-		MapEntry: 黒いカルバートの壁
-	}
-
-	CulvertDecorationTile: {
-		MapEntry: カルバートの装飾
-	}
+	BlackCulvertWall.MapEntry: 黒いカルバートの壁
+	CulvertDecorationTile.MapEntry: カルバートの装飾
 }
 
+NPCs: {
+	ObsidianSerpent.DisplayName: 黒曜石の大蛇
+	ObsidianSerpentBody.DisplayName: 黒曜石の大蛇の胴体
+	ObsidianSerpentTail.DisplayName: 黒曜石の大蛇の尾
+}
+
+"Keybinds.Cycle Mount Armor Overlay.DisplayName": マウント装備表示の切り替え
