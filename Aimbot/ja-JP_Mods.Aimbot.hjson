@@ -7,14 +7,19 @@ Keybinds: {
 		DisplayName: エイムサイクルモード
 	}
 
-	ToggleAimbotAutoMode: {
-		DisplayName: 自動エイムモードの切り換え
+	SwitchTarget: {
+		DisplayName: 対象切り替え
 	}
 }
 
 Configs: {
 	AimFilter: {
 		Tooltip: ""
+
+		Teammates: {
+			Tooltip: Thorium Modのヒーラー武器で味方を狙えるようにします
+			Label: 味方を対象
+		}
 
 		Bosses: {
 			Label: ボス
@@ -37,7 +42,7 @@ Configs: {
 		}
 
 		CountAsBoss: {
-			Label: ボスとしてカウントされていますが、ゲームではボスとしてフラグが立っていないNPC
+			Label: ボスとしてカウントがあるも、ゲーム内でボスとして設定されていないNPC
 			Tooltip: 例：ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭの頭やピラーズ
 		}
 	}
