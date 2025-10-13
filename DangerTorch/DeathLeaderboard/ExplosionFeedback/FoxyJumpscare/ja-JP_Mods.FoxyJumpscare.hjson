@@ -1,0 +1,26 @@
+Configs: {
+	FNaFJumpscareConfig: {
+		DisplayName: FNaF ジャンプスケア 設定
+
+		IntervalSeconds: {
+			Label: "[i:583] ジャンプスケアのチェック間隔（秒）"
+			Tooltip: ""
+		}
+
+		ActivationChance: {
+			Label: "[i:3312] ジャンプスケアの発動確率（1/N）"
+			Tooltip: ""
+		}
+
+		SyncJumpScares: {
+			Label: ジャンプスケアを全プレイヤーで同期
+			Tooltip: ""
+		}
+
+		JumpscareVolume: {
+			Label: "[i:69] ジャンプスケア　音量"
+			Tooltip: ""
+		}
+	}
+}
+
