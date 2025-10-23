@@ -1,0 +1,180 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+
+Effect: {
+	IncreaseMaxHealth: 最大体力が上昇する
+	IncreasedMaxMana: 最大マナが上昇する
+	RunFaster: 移動速度が15%上昇する
+	IncreasedPickupRange: アイテムの回収範囲が大きく広がる
+	PermanentRandomBuff: 永続的にランダムなバフを得る
+	DoubleCoinDrops: 敵のコインドロップ量が2倍になる
+	WalkOnWater: 液体の上を歩けるようになり、水中でマーフォークに変化する
+	CheaperShops: 全タウンNPCの販売価格が50%安くなる
+	Dash: ダッシュができるようになる
+	NoFallDamageExplosion: 落下ダメージを受けず、着地時に周囲へダメージを与える
+	SummonBeesOnHit: 敵を攻撃した際にハチを召喚する
+	DoubleMiningSpeed: 採掘速度が2倍になる
+	PermanentFoodBuffs: 食事バフが永続する
+	ScreenUpsideDown: 画面が上下反転する
+	RandomFarts: 時々おならをする
+	PoopBomb: 時々爆弾を排出する
+	RandomTeleport: ポーション酔い中にランダムでテレポートする
+	DropCoinsWalking: 移動中にコインを落とす
+	WaterKills: 液体に触れると即死する
+	SpawnBats: 時々、周囲にコウモリが出現する
+	DoubleKnockback: 被ダメージとノックバックが増加する
+	DizzyJumps: ジャンプすると画面が揺れる
+	SneezeDropWeapon: くしゃみで手に持っているアイテムを落とすことがある
+	NoGrapple: フックを使用できなくなる
+	SlowerAtNight: 夜になると移動速度が低下する
+	DoubleManaCost: マナ消費量が2倍になる
+	AllergicToFlowers: 花粉でくしゃみが止まらない！
+	FallThroughUnsupportedBlocks: 支えのないブロックをすり抜けて落下する
+	SinkWhenStill: 立ち止まっていると地面に沈む
+	HideHealthUI: 体力、マナ、バフのUIが非表示になる
+	CrumblingFloor: 足元のブロックが一度きりで崩れ落ちる！
+	DamageOnEBlocks: 名前に「e」を含むブロックの上に立つとダメージを受ける
+	DoubleFishingPower: フィッシング・パワーが2倍になる
+	DoubleOreMined: 採掘した鉱石量が2倍になる
+	UnlimitedAmmo: 弾薬スロットの弾が無限になる
+	PeriodicInvulnerability: 10秒ごとに1秒間の無敵時間を得る
+	GameCloseOnDeath: 死亡するとゲームが終了する
+	DirtEncasement: たまに土の中に閉じ込められる！
+	MentalCurse: 時々よくわからない呪いにかかる！
+	WaterBreathingOnly: 水中でしか呼吸できなくなる
+	DoubleFlightTime: 飛行時間が2倍になる
+	AutoBuffPotion: 回復ポーションを使用すると、所持しているバフポーションの効果が全て発動する（消費しない）
+	IncreasedWeaponSpeed: 武器の使用速度が50%上昇する
+	DeathDenial: 10分ごとに一度だけ死を免れる
+	DamageBoost: 全攻撃力が50%増加する
+	LoseAllDefense: 防御力が4減少する
+	EveryBoulderBounces: 全ての岩が跳ね返るようになる
+	BoulderRain: 時々頭上から岩が落ちてくる
+	OldDungeonGuardian: 不死の古のダンジョンガーディアンがあなたを追ってくる
+	ReducePotionSicknessCD: ポーション酔いの再使用時間が5%短縮される
+	IncreasePotionSicknessCD: ポーション酔いの再使用時間が5%延長される
+	IncreaseDefensePercent: 防御力が4上昇する
+	DecreasePotionHealing: ポーションの回復量が5%減少する
+	IncreasePotionHealing: ポーションの回復量が5%増加する
+	DisableAccessory: アクセサリー効果が無効になる
+}
+
+UI: {
+	WUR: 運命の選択
+	BUT: されど...
+	Confirm: 決定！
+	Current:
+		'''
+		現在の選択
+		ポジティブ: {0}
+		ネガティブ: {1}
+		'''
+	ChaosCurrent:
+		'''
+		現在の選択
+		{0}
+		{1}
+		'''
+	ShowEffects: 現在発動中の選択を確認
+}
+
+Configs: {
+	WouldYouRatherConfig: {
+		ChoiceIntervalMinutes: {
+			Tooltip: 選択肢が表示される間隔
+			Label: 選択肢の出現間隔（分）
+		}
+
+		DisplayName: Would You Rather 設定
+
+		GameMode: {
+			Label: ゲームモード
+			Tooltip:
+				'''
+				デフォルト = 一定間隔で選択肢が自動的に出現
+				アドベンチャー = トレジャーバッグから特別なアイテムが落ち、そのアイテムで選択肢を発動します
+				'''
+		}
+
+		ChaosMode: {
+			Label: カオスモード
+			Tooltip: 
+				'''
+				最大100の選択が同時に作用し、重なり合う混沌の時間を作り出します
+				それぞれは定められた時間、または永遠に続きます
+				'''
+		}
+
+		MaxStackedEffects: {
+			Label: 同時選択数
+			Tooltip: 一度に作用できる選択の上限数
+		}
+
+		ChaosEffectDuration: {
+			Label: 選択の持続時間（分）
+			Tooltip: 各選択の効果が続く時間（0で無限）
+		}
+
+		BlacklistedPositiveChoice: {
+			Label: 除外ポジティブ効果
+			Tooltip: ここで指定したポジティブ選択肢は出現しなくなります
+		}
+
+		BlacklistedNegativeChoice: {
+			Label: 除外ネガティブ効果
+			Tooltip: ここで指定したネガティブ選択肢は出現しなくなります
+		}
+
+		BaseRandomEffectChance: {
+			Label: ランダム発生の基本確率
+			Tooltip:
+				'''
+				ランダムに発動する選択肢の基本間隔（分）
+				たとえば基本値が1の場合、毎ティックごとに1/3600の確率で効果が発動します
+				'''
+		}
+	}
+
+	ModeType: {
+		Tooltip: ""
+		Default.Label: デフォルト
+		Adventure.Label: アドベンチャー
+	}
+
+	BlacklistedNegativeEffectEntry: {
+		Tooltip: ""
+
+		EffectIndex: {
+			Label: 選択
+			Tooltip: ""
+		}
+	}
+
+	BlacklistedPositiveEffectEntry: {
+		EffectIndex: {
+			Tooltip: ""
+			Label: 選択
+		}
+
+		Tooltip: ""
+	}
+}
+
+Items: {
+	FatefulToken: {
+		DisplayName: 運命の印 
+		Tooltip: これを使うことで、運命の問いが発生する
+	}
+
+	ChaoticRelic: {
+		DisplayName: 混沌のオーブ
+		Tooltip: ネガティブ効果を別のランダムなものに変化させる
+	}
+
+	PurgingRelic: {
+		DisplayName: 消滅の遺物
+		Tooltip: ランダムな選択を1つ削除する
+	}
+}
+
+NPCs.OldDungeonGuardian.DisplayName: 古のダンジョンガーディアン
