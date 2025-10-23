@@ -1,0 +1,79 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+
+SpawnSwapConfig: {
+	RandomPool: {
+		Tooltip: ランダム入れ替え時に参照される名前／IDのリスト
+		Label: ランダムプール
+	}
+
+	Replacements: {
+		Tooltip: 手動で設定する置き換え対象
+		Label: 手動置き換え
+	}
+
+	RandomChancePercent: {
+		Tooltip: ランダム入れ替えが発生する確率を設定します（1～100%）
+		Label: 発生確率（1%～100%）
+	}
+
+	RandomSwap: {
+		Tooltip: 対象をランダム入れ替え設定
+		Label: ランダム入れ替え
+	}
+
+	DisplayName: 設定
+
+	AbsoluteRandom: {
+		Tooltip: すべてのNPCがボスやタウンNPC以外のランダムなNPCに変化します
+		Label: 完全ランダムモード
+	}
+
+	RandomPoolText: {
+		Tooltip: ランダムプール（名前またはID）
+		Label: ランダムプール（名前またはID）
+	}
+
+	RestrictAbsoluteRandomByProgress: {
+		Label: 進行度によるランダム制限
+		Tooltip: 現在のワールド進行度に合ったNPCのみが出現します
+	}
+
+	ManualReplacementsEnabled: {
+		Label: 手動置き換え設定
+		Tooltip: オフにすると、手動置き換えリストは適用されません
+	}
+
+	RandomPoolEnabled: {
+		Label: ランダムプール置き換え
+		Tooltip: ""
+	}
+
+	AbsoluteRandomEnabled: {
+		Label: 完全ランダムモード
+		Tooltip: ""
+	}
+}
+
+NPCReplacementLine: {
+	Target: {
+		Tooltip: 置き換え先のNPCを指定します（名前またはID）
+		Label: 置き換え後のNPC
+	}
+
+	Source: {
+		Tooltip: 置き換え元のNPCを指定します（名前またはID）
+		Label: 置き換え前のNPC
+	}
+
+	Tooltip: ""
+}
+
+RandomPoolLine: {
+	Tooltip: ""
+
+	Entry: {
+		Label: NPC名またはIDを入力
+		Tooltip: ""
+	}
+}
