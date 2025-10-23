@@ -63,7 +63,7 @@ CommonItemtooltip: {
 		PetLizard:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフ自然回復を増進し、ライフが50%以下のときに移動速度がわずかに上昇
+			ライフ自然回復を増進し、ライフが50%以下の際、移動速度がわずかに上昇
 			'''
 		PetParrot:
 			'''
@@ -106,13 +106,13 @@ CommonItemtooltip: {
 		PetSquashling:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			防御力が4減少する代わりにライフ自然回復を増進
+			防御力が4減少するが、ライフ自然回復を増進
 			'''
 		PetBlackCat:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			運が少し減少する代わりに魔法ダメージが4%増加
-			運がマイナスになると魔法クリティカル率も4%上昇
+			運が少し減少するが、魔法ダメージが4%増加
+			運が-になると魔法クリティカル率も4%上昇
 			'''
 		PetCursedSapling:
 			'''
@@ -123,7 +123,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			弱体化と鈍化耐性
-			近くの他プレイヤーと自分の運をわずかに増加
+			近くの他プレイヤーと自身の運をわずかに増加
 			'''
 		PetGrinch:
 			'''
@@ -206,7 +206,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			鞭の攻撃範囲を5%増加
-			ライフが50%以下のとき、近接攻撃と鞭の速度が5%上昇
+			ライフが50%以下の際、近接攻撃と鞭の速度が5%上昇
 			'''
 		PetDynamiteKitten:
 			'''
@@ -230,7 +230,7 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			感電耐性
 			加速度が上昇
-			移動速度が上昇し、雷雨時なら加速度と移動速度が更に上昇
+			移動速度が上昇し、雷雨時に加速度と移動速度が更に上昇
 			'''
 		PetKS:
 			'''
@@ -300,13 +300,13 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			噛み傷耐性
 			泳げるようになる
-			雨が降っているか、水中にいるか、ライフが50%以下のとき、移動速度がわずかに上昇しダメージが7%増加する
+			雨が降っているか、水中にいるか、ライフが50%以下の際、移動速度がわずかに上昇し、ダメージが7%増加する
 			'''
 		PetCultist:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			視力遮断と重力の歪み耐性
-			最大ライフが10%低下する代わりに魔法クリティカル率と召喚ダメージが10％増加
+			最大ライフが10%低下するが、魔法クリティカル率と召喚ダメージが10％増加
 			'''
 		PetML:
 			'''
@@ -319,7 +319,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			暖気のポーションの効果
-			フロストムーン中、防御力が4増加しライフ自然回復を増進
+			フロストムーン中、防御力が4増加し、ライフ自然回復を増進
 			'''
 		PetIQ:
 			'''
@@ -338,7 +338,7 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			唾液まみれ耐性
 			召喚ダメージが4%増加
-			オールドワンズ・アーミー侵攻中、ノックバックを無効化し攻撃のノックバックを増加
+			オールドワンズ・アーミー侵攻中、ノックバックを無効化し、攻撃のノックバックを増加
 			'''
 		PetBetsy:
 			'''
@@ -381,7 +381,7 @@ CommonItemtooltip: {
 		PetPig:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ダメージが10%減少する代わりに、最大ライフが10%増加し、最大+50
+			ダメージが10%減少するが、最大ライフが10%増加し、最大+50まで
 			'''
 		PetJunimo:
 			'''
@@ -420,18 +420,18 @@ CommonItemtooltip: {
 		LightFairy:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフが25%以下のときにライフ自然回復を増進
+			ライフが25%以下の際、ライフ自然回復を増進
 			'''
 		LightWisp:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフが50%以下のときにマナ自然回復を増進
+			ライフが50%以下の際、マナ自然回復を増進
 			ライフが25%以下、10%以下でより強力に増進
 			'''
 		LightHeart:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフが50%以下のときにライフ自然回復をわずかに増進
+			ライフが50%以下の際、ライフ自然回復をわずかに増進
 			'''
 		LightFlickerwick:
 			'''
@@ -460,10 +460,10 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			呪炎と霊液耐性
-			パンプキンムーン中、防御力が3増加し攻撃のノックバックがわずかに上昇
+			パンプキンムーン中、防御力が3増加し、攻撃のノックバックがわずかに上昇
 			'''
 		# Minecarts
-		CartMech: 防御力が3増加し敵の防御力を5無視
+		CartMech: 防御力が3増加し、敵の防御力を5無視
 		CartDesert: 拡張グリップの効果　採掘スピードが15%上昇
 		CartBee: 蜂蜜の効果
 		CartPigron:
@@ -478,7 +478,7 @@ CommonItemtooltip: {
 			夜目のポーションの効果
 			'''
 		CartGem: 防御力が1増加
-		CartBeetle: 防御力が2増加し攻撃のノックバックがわずかに増加
+		CartBeetle: 防御力が2増加し、攻撃のノックバックがわずかに増加
 		CartMeowmere:
 			'''
 			ライフ自然回復を増進
@@ -491,7 +491,7 @@ CommonItemtooltip: {
 			'''
 		CartDutchman: 金のフラスコの効果
 		CartSteampunk: 遠距離攻撃速度が5%上昇
-		CartCoffin: ライフが50%以下のときに防御力が4増加
+		CartCoffin: ライフが50%以下の際、防御力が4増加
 		CartFart: 敵に狙われにくくなる
 		CartTerraFart:
 			'''
@@ -501,7 +501,7 @@ CommonItemtooltip: {
 		# Wings
 		WingsAngel: ライフ自然回復をわずかに増進
 		WingsDemon: ダメージが2%増加
-		WingsFairy: ライフが25%以下のときにライフ自然回復を増進
+		WingsFairy: ライフが25%以下の際、ライフ自然回復を増進
 		WingsFin: 泳げるようになる
 		WingsFrozen: 凍えと凍結耐性
 		WingsHarpy: ジャンプ速度が上昇
@@ -529,10 +529,10 @@ CommonItemtooltip: {
 			それ以外の場合、魔法ダメージが4%増加
 			'''
 		WingsHoverboard: 遠距離ダメージが4%増加
-		WingsBone: ライフが50%以下のときに防御力が2増加し、ライフが25%以下なら更に2増加
+		WingsBone: ライフが50%以下の際、防御力が2増加し、ライフが25%以下なら更に増加
 		WingsMothron:
 			'''
-			ライフが50%以下のときにライフスティールがわずかに上昇
+			ライフが50%以下の際、ライフスティールがわずかに上昇
 			それ以外の場合、魔法ダメージが4%増加
 			'''
 		WingsBeetle:
@@ -548,21 +548,21 @@ CommonItemtooltip: {
 			'''
 		WingsTatteredFairy:
 			'''
-			ライフ自然回復がわずかに減少
-			その代わりに、ライフが50%以下になるとマナ自然回復を増進し、ライフが25%以下になると更に増進
+			ライフ自然回復がわずかに減少するが、
+			ライフが50%以下の際、マナ自然回復を増進し、ライフが25%以下で更に増進
 			'''
 		WingsSteampunk: 加速度がわずかに上昇
 		WingsBetsy:
 			'''
 			燃えている!耐性
-			オールドワンズ・アーミー侵攻中、ダメージが3増加し攻撃のノックバックがわずかに増加
+			オールドワンズ・アーミー侵攻中、ダメージが3増加し、攻撃のノックバックがわずかに増加
 			'''
 		WingsEmpress:
 			'''
 			昼間にダメージが2%増加
 			夜間に防御力が2増加
 			'''
-		WingsFishron: 雨が降っているか、水中にいるか、ライフが50%以下のとき、加速度が上昇しダメージが3%増加する
+		WingsFishron: 雨が降っているか、水中にいるか、ライフが50%以下の際、加速度が上昇し、ダメージが3%増加する
 		WingsNebula: 消費マナを12%減少
 		WingsVortex: 遠距離クリティカル率が6%上昇
 		WingsSolar: 近接攻撃速度が6%上昇
