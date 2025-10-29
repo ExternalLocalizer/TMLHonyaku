@@ -1,0 +1,227 @@
+Items: {
+	Logbook: {
+		DisplayName: 遠征記録
+		Tooltip: ""
+	}
+
+	IdolItem: {
+		DisplayName: 偶像
+		Tooltip: 遠征任務で用いられる
+		Unidentified: 未確認
+		CoinsQuantity: 入手するコイン量を増加させる
+		LootQuantity: 入手するアイテム種類を増加させる
+		LootStack: アイテムごとの数量を増加させる
+		RareLoot: レアアイテムの発見率を上昇させる
+		ReduceTime: 遠征時間を短縮する
+		ReduceDifficulty: 遠征難易度を軽減する
+		PlantRarity: 植物の収集率を上昇させる
+		FishingPower: フィッシング・パワーを向上させる
+		PickaxePower: 鉱物採掘の成功率を上昇させる
+		ExtraSlot: インベントリ枠を拡張する
+	}
+
+	ExpeditionLogbook: {
+		LogbookTier: ランク: {0}
+		BaseDifficulty: 難易度: {0} → {1}
+		AdjDifficulty: 難易度: {0}
+
+		Difficulty: {
+			Display: 遠征難易度: {0}
+			Base: 遠征難易度
+			Tips: 装備を整えることで遠征難易度が下がり、探検がより安全で迅速になる
+			Extreme: "[c/FF0000:地獄級]"
+			VeryHard: "[c/FF4500:難関]"
+			Hard: "[c/FF8C00:難しい]"
+			Moderate: "[c/FFA500:普通]"
+			Easy: "[c/32CD32:容易]"
+			Trivial: "[c/00FF00:楽勝]"
+		}
+	}
+
+	CavernLogbook: {
+		DisplayName: 洞窟の遠征記録
+		Tooltip: ""
+	}
+
+	CorruptionLogbook: {
+		DisplayName: 不浄の遠征記録
+		Tooltip: ""
+	}
+
+	CrimsonLogbook: {
+		DisplayName: 真紅の遠征記録
+		Tooltip: ""
+	}
+
+	DesertLogbook: {
+		DisplayName: 砂漠の遠征記録
+		Tooltip: ""
+	}
+
+	DungeonLogbook: {
+		DisplayName: ダンジョンの遠征記録
+		Tooltip: ""
+	}
+
+	ForestLogbook: {
+		DisplayName: 森林の遠征記録
+		Tooltip: ""
+	}
+
+	HallowLogbook: {
+		DisplayName: 聖域の遠征記録
+		Tooltip: ""
+	}
+
+	HellLogbook: {
+		DisplayName: 地底世界の遠征記録
+		Tooltip: ""
+	}
+
+	JungleLogbook: {
+		DisplayName: ジャングルの遠征記録
+		Tooltip: ""
+	}
+
+	OceanLogbook: {
+		DisplayName: 海の遠征記録
+		Tooltip: ""
+	}
+
+	SnowLogbook: {
+		DisplayName: 雪原の遠征記録
+		Tooltip: ""
+	}
+
+	SpaceLogbook: {
+		DisplayName: 宇宙の遠征記録
+		Tooltip: ""
+	}
+
+	AbyssLogbook: {
+		DisplayName: 深淵の遠征記録
+		Tooltip: ""
+	}
+
+	AstralLogbook: {
+		DisplayName: アストラル地帯の遠征記録
+		Tooltip: ""
+	}
+
+	BrimstoneLogbook: {
+		DisplayName: 煉獄岩山の遠征記録
+		Tooltip: ""
+	}
+
+	SulphurousSeaLogbook: {
+		DisplayName: 硫黄海の遠征記録
+		Tooltip: ""
+	}
+
+	SunkenSeaLogbook: {
+		DisplayName: 沈没海の遠征記録
+		Tooltip: ""
+	}
+
+	ExpeditionBook: {
+		DisplayName: 遠征の書
+		Tooltip: 遠征リストを開く
+	}
+
+	LogbookBag: {
+		DisplayName: 記録用バッグ
+		Tooltip: ""
+	}
+
+	BagItem: {
+		DisplayName: 遠征者のパック
+		Tooltip:
+			'''
+			「古びているが頼れるバッグ。」
+			無数の偶像と記録帳を収めてきた。
+			お気に入りにすると自動収納が可能。
+			'''
+	}
+
+	SavannaLogbook: {
+		DisplayName: サバンナの遠征記録
+		Tooltip: ""
+	}
+
+	AquaticDepthsLogbook: {
+		DisplayName: 深海の遠征記録
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	ExpeditionNPC: {
+		DisplayName: 遠征マスター
+
+		TownNPCMood: {
+			Content: 満足している。  
+			NoHome: 家がないのはいやだ。  
+			FarFromHome: 家から離れすぎている。  
+			LoveSpace: 広い場所は大好きだ。  
+			DislikeCrowded: こんなに混んでるのは落ち着かない。  
+			HateCrowded: こんなに混んでるのは本当に嫌だ。  
+			LoveBiome: "{BiomeName} が大好きだ。"
+			LikeBiome: "{BiomeName} が好きだ。"
+			LoveNPC: "{NPCName} が大好きだ。"
+			LikeNPC: "{NPCName} が好きだ。"
+			LikeNPC_Princess: "{NPCName} が好きだ。"
+			Princess_LovesNPC: "{NPCName} が好きだ。"
+			HateBiome: "{BiomeName} が嫌いだ。"
+		}
+
+		Census.SpawnCondition: 家が必要
+	}
+}
+
+Conditions: {
+	ObainedForest: Mods.ExpeditionMod.Conditions.ObainedForest
+	ObtainedForest: Mods.ExpeditionMod.Conditions.ObtainedForest
+	CompletedForest: Mods.ExpeditionMod.Conditions.CompletedForest
+	CompletedSnow: Mods.ExpeditionMod.Conditions.CompletedSnow
+	CompletedOcean: Mods.ExpeditionMod.Conditions.CompletedOcean
+	CompletedJungle: Mods.ExpeditionMod.Conditions.CompletedJungle
+	CompletedDungeon: Mods.ExpeditionMod.Conditions.CompletedDungeon
+	CompletedCorruption: Mods.ExpeditionMod.Conditions.CompletedCorruption
+	CompletedCrimson: Mods.ExpeditionMod.Conditions.CompletedCrimson
+	CompletedHallow: Mods.ExpeditionMod.Conditions.CompletedHallow
+	CompletedSpace: Mods.ExpeditionMod.Conditions.CompletedSpace
+	CompletedCavern: Mods.ExpeditionMod.Conditions.CompletedCavern
+	CompletedHell: Mods.ExpeditionMod.Conditions.CompletedHell
+	CompletedDesert: Mods.ExpeditionMod.Conditions.CompletedDesert
+	CompletedSunkenSea: Mods.ExpeditionMod.Conditions.CompletedSunkenSea
+	CompletedSulphurousSea: Mods.ExpeditionMod.Conditions.CompletedSulphurousSea
+	CompletedAbyss: Mods.ExpeditionMod.Conditions.CompletedAbyss
+	CompletedBrimstone: Mods.ExpeditionMod.Conditions.CompletedBrimstone
+	CompletedAstral: Mods.ExpeditionMod.Conditions.CompletedAstral
+	CompletedSavanna: Mods.ExpeditionMod.Conditions.CompletedSavanna
+	CompletedAquaticDepths: Mods.ExpeditionMod.Conditions.CompletedAquaticDepths
+}
+
+UI: {
+	ExpeditionUI: {
+		Expedition: 遠征一覧
+		ExpeditionFor: "{0} の遠征"
+		Loot: 戦利品！
+		UnknownLogbook: 未確認の記録帳
+		UnknownTier: 未確認のランク
+		Tier: ランク
+		Difficulty: 難易度
+		EndExpedition: 遠征終了
+		SendonExpedition: 遠征に派遣
+		Helmet: 頭装備
+		Shirt: 胴装備
+		Pants: 脚装備
+		Weapon: 武器
+		Idol: 偶像
+		FishingPole: 釣り竿
+		Pickaxe: つるはし
+		SentMessage: は遠征に出発した！
+		ReturnMessage: は遠征から帰還した！
+		FailedMessage: は遠征に失敗し、やむなく撤退した！
+	}
+}

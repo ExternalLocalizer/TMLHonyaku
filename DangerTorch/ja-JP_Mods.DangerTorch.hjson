@@ -1,0 +1,35 @@
+Configs: {
+	DangerTorchConfig: {
+		frostburn: {
+			Tooltip: ""
+			Label: 氷のたいまつが「霜焼け」デバフを与える
+		}
+
+		ichor: {
+			Tooltip: ""
+			Label: 霊液のたいまつが「霊液」デバフを与える
+		}
+
+		cursedInferno: {
+			Tooltip: ""
+			Label: 呪いのたいまつが「呪炎」デバフを与える
+		}
+
+		time: {
+			Tooltip: ""
+			Label: デバフ時間（たいまつ効果・秒）
+		}
+
+		DisplayName: デバフ設定
+	}
+}
+
+DangerTorchConfig: {
+	Shadowflame_Label: 悪魔のたいまつが「シャドウフレイム」デバフを与える
+	Frostburn_Label: 氷のたいまつが「霜焼け」デバフを与える
+	Ichor_Label: 霊液のたいまつが「霊液」デバフを与える
+	CursedInferno_Label: 呪いのたいまつが「呪炎」デバフを与える
+	Time_Label: デバフ時間（たいまつ効果・秒）
+	DisplayName: デバフ設定
+}
+

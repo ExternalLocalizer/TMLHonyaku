@@ -1,0 +1,313 @@
+InventorySoundsConfig: {
+	DisplayName: インベントリ効果音設定
+
+	useItemSwapSounds: {
+		Label: アイテム切り替え時の効果音
+		Tooltip: 手持ちアイテムを切り替えるときに音を鳴らします
+	}
+
+	volumeMultiplier: {
+		Label: 音量倍率
+		Tooltip: インベントリ効果音全体の音量を調整します
+	}
+
+	enabledDynamicSoundsSystem: {
+		Label: 動的インベントリサウンド
+		Tooltip:
+			'''
+			アイテム操作に応じて変化する効果音が再生されます
+			無効時は通常の「カチャ音」が使用されます
+			'''
+	}
+}
+
+AudioConfig: {
+	DisplayName: サウンド設定
+
+	Headers: {
+		SoundEffects: 効果音
+		SoundFilters: フィルター設定
+	}
+
+	campfireSounds: {
+		Label: 焚き火の立体音響
+		Tooltip:
+			'''
+			焚き火の音を再生します
+			デフォルトはオン
+			'''
+	}
+
+	craftingSoundsVolume: {
+		Label: クラフト時の音量
+		Tooltip: 
+			'''
+			アイテム作成時の効果音の音量を調整します
+			0で無効化
+			'''
+	}
+
+	slimySounds: {
+		Label: スライム効果音
+		Tooltip: スライムの移動音を再生します
+	}
+
+	woodCreaks: {
+		Label: 木材のきしみ音
+		Tooltip:
+			'''
+			支えの少ない木が軋む音を再生します
+			オフにすると処理が少し軽くなります
+			'''
+	}
+
+	dynamicAnimalSounds: {
+		Label: 動物の鳴き声
+		Tooltip: 
+			'''
+			動物の鳴き声を再生します
+			位置や距離に応じて音が変化します
+			'''
+	}
+
+	chestSounds: {
+		Label: コンテナ開閉音
+		Tooltip:
+			'''
+			宝箱などを開閉する音を再生します
+			この設定はサーバー全員に適用されます
+			'''
+	}
+
+	newSplashSounds: {
+		Label: 新しい水しぶき音
+		Tooltip:
+			'''
+			MODによる新しい水しぶき音を再生します
+			デフォルトはオン
+			この設定はサーバー全員に適用されます
+			'''
+	}
+
+	isReverbEnabled: {
+		Label: 残響効果
+		Tooltip: 周囲の環境や深さに応じて音に残響効果を加えます
+	}
+
+	reverbUsingRaycasting: {
+		Label: 高度残響計算
+		Tooltip:
+			'''
+			高精度な残響計算を行います
+			「残響効果」がオンになっている必要があります
+			CPU負荷が大きくなる点に注意してください
+			'''
+	}
+
+	audioFiltersRefreshTime: {
+		Label: サウンドフィルター更新周期
+		Tooltip:
+			'''
+			音響フィルターの計算を行う間隔（tick単位）を設定します
+			値が小さいほど処理負荷が高くなります
+			'''
+	}
+
+	advancedReverbCalculation: {
+		Label: 高精度残響
+		Tooltip:
+			'''
+			音の反響を部屋の広さや構造に応じて動的に計算します
+			オフの際は深度に応じた単純な残響のみ適用されます
+			'''
+	}
+
+	isSoundDampeningEnabled: {
+		Label: サウンド減衰
+		Tooltip: 水中などの環境で音が弱まる演出を行います
+	}
+
+	isSoundOcclusionEnabled: {
+		Label: サウンド遮音
+		Tooltip: 壁や障害物で遮られた音を距離と密度に応じてこもらせます
+	}
+
+	reverbMaxArea: {
+		Label: 最大残響範囲
+		Tooltip:
+			'''
+			残響が適用される最大範囲を設定します
+			広く設定すると大空間での音響が自然になりますが、処理が重くなります
+			「高度残響計算」がオンの際は特に高負荷です
+			推奨値は2500、5000はパフォーマンス低下の可能性があります
+			'''
+	}
+}
+
+FootstepsConfig: {
+	DisplayName: 足音設定
+
+	entityFootstepsVolume: {
+		Label: NPCによる足音音量
+		Tooltip:
+			'''
+			タウンNPCやゾンビなどの足音の音量を調整します
+			0で無効化
+			'''
+	}
+
+	masterFootstepsVolume: {
+		Label: 足音の音量
+		Tooltip: 
+			'''
+			プレイヤー・NPCを含む全体の足音音量を調整します
+			0で無効化
+			'''
+	}
+
+	wetStepsEnabled: {
+		Label: 濡れた足音
+		Tooltip:
+			'''
+			雨の中を歩くときに水気を含んだ足音を鳴らします
+			オフすると処理が少し軽くなります
+			'''
+	}
+
+	areArmorAndVanitySoundsEnabled: {
+		Label: 防具／衣装の効果音
+		Tooltip: 装備しているアイテムに応じた追加の効果音を再生します
+	}
+}
+
+AmbientConfig: {
+	DisplayName: 環境音設定
+
+	Headers: {
+		Debugging: デバッグ設定
+		AmbienceTrackVolumes: 環境音の調整
+	}
+
+	debugInterface: {
+		Label: デバッグ切り替え
+		Tooltip: 雪・虫の声などの環境音のデバッグ用音量情報を表示／非表示にします
+	}
+
+	showInfoAndWarnings: {
+		Label: 情報／警告の表示
+		Tooltip:
+			'''
+			エラーや警告をチャット欄に表示します
+			オンにすることで、処理落ちの要因などを
+			特定しやすくなります
+			'''
+	}
+
+	overallVolume: {
+		Label: マスター音量
+		Tooltip: このModの環境音全体の音量を調整します
+	}
+
+	transitionHarshness: {
+		Label: 環境音の切り替え速度
+		Tooltip:
+			'''
+			環境音の移り変わりを調整します
+			低いほど穏やかに、高いほど即座に切り替わります
+			0.075以下が推奨値です
+			極端に低い値では動作不安定になる場合があります
+			また、非浮動小数で入力すると自動的に0.01に戻ります
+			'''
+	}
+
+	forestVolumes: {
+		Label: 森林
+		Tooltip:
+			'''
+			上から順に：
+
+			朝
+			昼
+			夕方
+			夜
+			'''
+	}
+
+	snowVolume: {
+		Tooltip: ""
+		Label: 雪原
+	}
+
+	jungleVolumes: {
+		Label: ジャングル
+		Tooltip:
+			'''
+			上から順に：
+
+			地上（昼）
+			地上（夜）
+			地下（昼）
+			地下（夜）
+			'''
+	}
+
+	evilVolumes: {
+		Label: 汚染地帯
+		Tooltip:
+			'''
+			上から順に：
+
+			不浄
+			真紅
+			'''
+	}
+
+	desertVolume: {
+		Label: 砂漠
+		Tooltip: ""
+	}
+
+	oceanVolume: {
+		Label: 海
+		Tooltip: ""
+	}
+
+	cavernsVolume: {
+		Label: 洞窟
+		Tooltip: ""
+	}
+
+	hellVolume: {
+		Label: 地獄
+		Tooltip: ""
+	}
+
+	breezeVolume: {
+		Label: 吹雪
+		Tooltip: ""
+	}
+
+	underwaterVolume: {
+		Label: 水没
+		Tooltip: ""
+	}
+}
+
+UIConfig: {
+	DisplayName: UI設定
+
+	Headers: {
+		MainMenu: メインメニュー
+		In-game: ゲーム中
+	}
+
+	showMainMenuUi: {
+		Label: メインメニューのUI表示
+		Tooltip: Discordサーバー宣伝や免責メッセージをメインメニューに表示します
+	}
+
+	showAmbientForecastUi: {
+		Label: 環境情報UIの表示
+		Tooltip: ホットバー付近に天候や環境の情報を表示します
+	}
+}

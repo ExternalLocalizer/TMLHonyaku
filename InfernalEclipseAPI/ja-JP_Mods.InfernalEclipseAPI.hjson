@@ -88,7 +88,7 @@ ItemTooltip: {
 			Picking up inspiration notes heal void when holding a void-bard weapon
 			Upon running out of inspiration, consume 25 void to refill it all back up
 			'''
-		HypersonicTooltip: '''「常識を超えた音の力を呼び起こせ！」'''
+		HypersonicTooltip: 「常識を超えた音の力を呼び起こせ！」
 		4DTooltip: '''"他の世界へのワームホールを作り出す音"'''
 		CrystalScorpian:
 			'''
@@ -181,14 +181,14 @@ ItemTooltip: {
 			'''
 		OmniIns: 最大インスピレーションを5増加
 		OmniEmp: 所持する固有の強化ごとに移動速度+2%、演奏速度+1%
-		ShinobiNerf: This effect has a cooldowwn of 2 seconds
+		ShinobiNerf: この効果には2秒のクールダウンがある
 		ShinobiEffect:
 			'''
-			6% increased throwing critical strike chance
-			Dealing two consecutive throwing critical strikes will discharge dark lightning and increase throwing speed briefly
-			This effect has a cooldown of 2 seconds.
+			投擲のクリティカル率が6%上昇
+			2回連続でクリティカルヒットを決めると、暗黒の稲妻を放出し、一時的に投擲速度が上昇する
+			この効果には2秒のクールダウンがある
 			'''
-		CloverNerf: Life steal has a 0.5 second cooldown
+		CloverNerf: ライフ吸収効果は0.5秒のクールダウンがある
 		SpiritInsignia:
 			'''
 			Increases void gain by 1 and void regeneration speed by 25%
@@ -196,9 +196,9 @@ ItemTooltip: {
 			'''
 		AscendantInsignia:
 			'''
-			Increases movement and jump speed by 10% and acceleration by 1.1x
-			Pressing the Ascendant Insignia keybind will give you the power of ascension, providing infinite flight time for 4 seconds
-			Ascension has a 40 second cooldown
+			移動速度とジャンプ速度が10%上昇し、加速度が1.1倍になる
+			アセンダントの記章のキーを押すと昇華の力を得て、4秒間無限飛行が可能になる
+			昇華は40秒のクールダウンがある
 			'''
 		GildedVoid: Increases void drain by 3 while active
 		CalSoaringNerf: "[Calamity]: 無限飛行はできなくなった"
@@ -225,12 +225,12 @@ ItemTooltip: {
 		強者たちを制しても、君はさらに高位の存在へ挑み続ける...
 		この幸運がいつまでも続くと思わないことだ。
 		'''
-	NamelessRelic: 試練を乗り越えた
+	NamelessRelic: 試練を乗り越えた。
 	AstralCommunicatorInfernum1: アストラゲルドンをアストラル汚染地帯に召喚する
 	AstralCommunicatorInfernum2: 次元を超えたスライムはまだ飢えているようだ...
 	BasicDamage: 基礎ダメージ
 	OmniShield: -Omni Shield-
-	SBeamUsage: 左クリックを押し続けると、ミシック魔法ダメージを与えるビームをチャージする
+	SBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるビームをチャージする
 	SFlight: 右クリックを押し続けると、高速で無制限の飛行が可能になる
 	ScytheThrow:
 		'''
@@ -256,7 +256,7 @@ ItemTooltip: {
 		'''
 		もしかして、このアイテムをチートで出した？
 		それとも本当にワークショップにもうない俺の超マイナーなMODをインストールしたの？
-		どちらにせよ、おめでとうと言うべきか...多分
+		どちらにせよ、おめでとうと言うべきか...多分。
 		'''
 	DeviRelic:
 		'''
@@ -318,7 +318,6 @@ Lore: {
 		　　
 		「約束」
 		　
-		それだけだ。
 		ソーンが彼らに何を求めているのかはわからない。
 		...だが、君なら正しい選択をするだろう。
 		'''
@@ -398,14 +397,17 @@ Lore: {
 		'''
 	DylanSoltan:
 		'''
-		Whoever is reading this note, be aware:
-		I foresee a person who goes by the name of Soltan to emerge in the future.
-		Many will think he is annoying, so I designed this chipnote to be of use to you.
-		To combat his annoying nature, the mircochip attached to this note will convert all
-		local summoning power into power for other sources.
-		In addition, it gives you full permission to bully Soltan.
-		I have only made two of these, and gave them to the two most powerful beings I could find.
-		If you are one of those people, or someone else, use this device wisely...
+		このメモを読んでいるあなたへ  
+		私は未来に「ソルタン」という名で呼ばれる人物が現れることを予見している  
+		多くの人は彼を厄介だと感じるだろう  
+		そのため、私はこのチップノートをあなたの役に立つように設計した  
+
+		彼の厄介な性質に対抗するため、このメモに付属しているマイクロチップは  
+		周囲の召喚パワーを他の力へ変換する機能を持っている  
+		さらに、あなたがソルタンをいじめることを完全に許可する  
+
+		私はこのチップノートを2つだけ作り、見つけた中で最も強力な2人に渡した  
+		もしあなたがそのうちの一人、あるいは別の誰かなら、この装置を賢く使ってほしい…
 		'''
 }
 
@@ -429,7 +431,6 @@ Items: {
 		Tooltip:
 			'''
 			「グリッチの真の力を解き放て！」
-			- 作業中：現在はYouBossのFirst FractalのAIを使用中 -
 			'''
 	}
 
@@ -445,7 +446,6 @@ Items: {
 					'''
 					紫色の灼熱のノヴァを放つ
 					「ウィロー、心配いらないよ、俺ひとりでいける」
-					- 作業中：現在はCalamityModのSupernovaのAIを使用中 -
 					'''
 				DisplayName: ノヴァボム
 			}
@@ -529,23 +529,23 @@ Items: {
 		}
 
 		LorePolaris: {
-			DisplayName: Polaris
+			DisplayName: Polaris 
 		}
 
 		LoreAdvisor: {
-			DisplayName: The Advisor
+			DisplayName: The Advisor 
 		}
 
 		LoreGlowmoth: {
-			DisplayName: Glowmoth
+			DisplayName: Glowmoth 
 		}
 
 		LoreLux: {
-			DisplayName: Lux
+			DisplayName: Lux 
 		}
 
 		LorePharaoh: {
-			DisplayName: Pharaoh's Curse
+			DisplayName: Pharaoh's Curse 
 		}
 
 		LorePutrid: {
@@ -569,19 +569,19 @@ Items: {
 		}
 
 		LoreAbominationn: {
-			DisplayName: The Abominationn
+			DisplayName: アボミネーション
 		}
 
 		LoreDeviantt: {
-			DisplayName: The Deviantt
+			DisplayName: デビアント
 		}
 
 		LoreMutant: {
-			DisplayName: The Mutant
+			DisplayName: ミュータント
 		}
 
 		SoltanBullyingSlip: {
-			DisplayName: Dylan's Anti-Soltan Chipnote
+			DisplayName: ディランの対ソルタン用プログラムメモリー
 		}
 	}
 
@@ -837,17 +837,17 @@ Items: {
 				'''
 			ProfanedGuardians:
 				'''
-				冒涜された守護者を倒したことで、天界のビームを放てるようになった
+				冒涜された守護者を倒したことで、天界の光を放てるようになった
 				炎の女神を倒して、さらに力を得よ…
 				'''
 			Providence:
 				'''
-				炎の女神を倒したことで、天界ビームがより強力になった
+				炎の女神を倒したことで、天界の光がより強力になった
 				疫病の番兵たちを倒して、さらに力を得よ…
 				'''
 			Sentinels:
 				'''
-				番兵たちを倒すと、天界ビームの持続時間が長くなった
+				番兵たちを倒すと、天界の光の持続時間が長くなった
 				神を喰らう者を倒して、さらに力を得よ…
 				'''
 			Full: 天界の輝きが完全に目覚め、最大の力が解放された！
@@ -1029,7 +1029,7 @@ Items: {
 			'''
 			倒した敵は50%の確率で追加のハートをドロップする
 			クリティカルで倒すとこの確率が100%になる
-			ハートを回収するとアクティブなバフの残り時間が延長され、最大で元の2倍まで延びる
+			ハートを回収すると有効中のバフの残り時間が延長され、最大で元の2倍まで延びる
 			'''
 		G5:
 			'''
@@ -1221,7 +1221,7 @@ Configs: {
 			BossRushChanges: ボスラッシュの切り替え
 			BalanceChanges: Modのバランス調整
 			Miscellaneous: その他
-			MultiplayerAdjustments: Multiplayer Adjustments
+			MultiplayerAdjustments: マルチプレイヤー調整
 		}
 
 		ThoriumBalanceChangess: {
@@ -1477,27 +1477,27 @@ DamageClasses: {
 	}
 
 	LegendaryMelee: {
-		DisplayName: レジェンダリー近接ダメージ
+		DisplayName: 伝説近接ダメージ
 	}
 
 	LegendaryRanged: {
-		DisplayName: レジェンダリー遠距離ダメージ
+		DisplayName: 伝説遠距離ダメージ
 	}
 
 	MythicMelee: {
-		DisplayName: ミシック近接ダメージ
+		DisplayName: 神話近接ダメージ
 	}
 
 	MythicMagic: {
-		DisplayName: ミシック魔法ダメージ
+		DisplayName: 神話魔法ダメージ
 	}
 
 	MythicRanged: {
-		DisplayName: ミシック遠距離ダメージ
+		DisplayName: 神話遠距離ダメージ
 	}
 
 	LegendaryMagic: {
-		DisplayName: レジェンダリー魔法ダメージ
+		DisplayName: 伝説魔法ダメージ
 	}
 
 	MeleeWhip: {
@@ -1686,8 +1686,8 @@ Buffs: {
 	}
 
 	BubbleShock: {
-		DisplayName: Bubble Shock
-		Description: You can't be affected by any more bubbles!
+		DisplayName: バブルショック
+		Description: これ以上バブルの影響を受けるわけにはいかない！
 	}
 }
 
@@ -1751,7 +1751,7 @@ BullyingTooltip:
 	使用中の召喚スロット1つにつき召喚ダメージを10%減少
 	ムチは召喚ボーナスではなく近接ボーナスで強化される
 	ムチのダメージを10%増加
-	[c/E3AF40:ディランが設計したマイクロチップ付きの紙切れ]
+	[c/E3AF40:ディランが設計したプログラムメモリー付きの紙切れ]
 	[c/BEBEBE:"左Shift"で裏面のメモを読む]
 	'''
 

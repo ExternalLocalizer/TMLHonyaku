@@ -1,0 +1,290 @@
+Buffs: {
+	冻结: {
+		DisplayName: 凍結
+		Description: 敵は凍っていて動けない
+	}
+
+	冻结计数: {
+		DisplayName: 凍結カウント
+		Description: 氷の魔法を当て続けることで凍結する
+	}
+
+	塔の西: {
+		DisplayName: ハッピー
+		Description: コインを手に入れた  幸せだ!
+	}
+
+	寒霜buff: {
+		DisplayName: 氷の魔力強化
+		Description: 氷の魔法ダメージが20%増加
+	}
+
+	小动物: {
+		DisplayName: 生き物の魔法
+		Description: あなたは今や生き物だ (*^▽^*)
+	}
+
+	扫帚buff: {
+		DisplayName: 箒
+		Description: 箒に乗っている
+	}
+
+	潋滟buff: {
+		DisplayName: 水の魔力強化
+		Description: 水の魔法ダメージが20%増加
+	}
+
+	灼烧: {
+		DisplayName: 灼熱
+		Description: マジで燃え上がってる
+	}
+
+	焰火buff: {
+		DisplayName: 炎の魔力強化
+		Description: 炎の魔法ダメージが20%増加
+	}
+
+	雷引buff: {
+		DisplayName: 雷の魔力強化
+		Description: 雷の魔法のダメージが20%増加し、雷の発生頻度が増加
+	}
+}
+
+Items: {
+	ElainaHat: {
+		DisplayName: イレイナの帽子
+		Tooltip: 魔法ダメージが10%増加、消費マナが15%減少、最大マナが20増加
+	}
+
+	妮可的冒险谭: {
+		DisplayName: ニケの冒険譚
+		Tooltip: ""
+	}
+
+	白河豚项链: {
+		DisplayName: 白いイルカのネックレス
+		Tooltip:
+			'''
+		致命的なダメージを受けても生き残り、ライフを全回復する クールダウンは5分
+		効果が発動できる状態なら胴のあたりが光る
+		敵の発射物に当たったとき、バリアが自動的に発動する
+		被ダメージ時の無敵時間を延長する
+		魔法ダメージが10%増加
+
+			'''
+	}
+
+	魔力共享戒指: {
+		DisplayName: 魔法の共有リング
+		Tooltip:
+			'''
+		このアイテムを所持するプレイヤーとマナを共有し、最大マナを20増加させ、消費マナが20%減少する
+		マナの共有効果はソーシャルスロットでも発動する
+
+			'''
+	}
+
+	wand: {
+		DisplayName: 杖
+		Tooltip: ""
+	}
+
+	小动物药水: {
+		DisplayName: クリッターポーション
+		Tooltip: 生き物に変身する
+	}
+
+	扫帚坐骑: {
+		DisplayName: 箒
+		Tooltip: 箒を召喚する
+	}
+
+	寒霜药水: {
+		DisplayName: 氷の魔力ポーション
+		Tooltip: 氷の魔法ダメージが20%増加
+	}
+
+	潋滟药水: {
+		DisplayName: 水の魔力ポーション
+		Tooltip: 氷の魔法ダメージが20%増加
+	}
+
+	焰火药水: {
+		DisplayName: 炎の魔力ポーション
+		Tooltip: 炎の魔法ダメージが20%増加
+	}
+
+	雷引药水: {
+		DisplayName: 雷の魔力ポーション
+		Tooltip: 雷の魔法のダメージが20%増加し、雷の発生頻度が増加
+	}
+
+	究极魔力药水: {
+		DisplayName: 究極のマナポーション
+		Tooltip: 無垢なる魔法の薬
+	}
+
+	寒冰魔法书: {
+		DisplayName: 氷の魔法書
+		Tooltip: 使用することで氷の魔法を習得する
+	}
+
+	水魔法书: {
+		DisplayName: 水の魔法書
+		Tooltip: 使用することで水の魔法を習得する
+	}
+
+	治疗魔法书: {
+		DisplayName: 治療の魔法書
+		Tooltip: 使用することで治療魔法を習得する
+	}
+
+	火焰魔法书: {
+		DisplayName: 炎の魔法書
+		Tooltip: 使用することで炎の魔法を習得する
+	}
+
+	雷电魔法书: {
+		DisplayName: 天雷の魔法書
+		Tooltip: 使用することで雷の魔法を習得する
+	}
+
+	风魔法书: {
+		DisplayName: 風の魔法書
+		Tooltip: 使用することで風の魔法を習得する
+	}
+
+	ElainaWand: {
+		DisplayName: イレイナの杖
+		Tooltip:
+			'''
+			左クリックで選択している魔法を使用
+			右クリックでバリアを発動して身を守り、接触した敵をノックバックさせる
+			中クリックでマナを消費して光源を発生させる
+			チャージボタンで魔法の性能を変更する
+			ボスを倒すと習熟度が上がり、魔法の性能が強化される
+			'''
+	}
+}
+
+Projectiles: {
+	Light.DisplayName: ライト
+	魔力连接.DisplayName: 魔法のつながり
+	FlameOnhit.DisplayName: 炎の魔法命中時
+	地面燃烧proj.DisplayName: 地上燃焼
+	火焰射线.DisplayName: 炎の光線
+	火焰燃烧.DisplayName: 炎が燃える
+	火焰蓄力.DisplayName: 炎のチャージ
+	火球.DisplayName: 火球
+	炎爆.DisplayName: 炎魔法の爆発
+	旋转.DisplayName: 回転
+	治疗彩虹.DisplayName: 治療の虹
+	治疗施法.DisplayName: 治療魔法
+	准备天雷.DisplayName: 天雷魔法の準備
+	击地粒子.DisplayName: 地を打つ粒子
+	施展天雷.DisplayName: 天雷魔法を放つ
+	雷云.DisplayName: 雷雲
+	雷击.DisplayName: 落雷
+	雷击点.DisplayName: 落雷地点
+	雷粒子.DisplayName: 雷粒子
+	护盾.DisplayName: シールド
+	冰棱.DisplayName: 氷柱
+	冰锥.DisplayName: 氷錐
+	冰粒子.DisplayName: 氷の粒子
+	冰雾.DisplayName: 氷霧
+	onhit.DisplayName: 命中時
+	五重飞弹.DisplayName: 五重マジックミサイル
+	蓄力魔力飞弹.DisplayName: チャージマジックミサイル
+	魔力飞弹.DisplayName: マジックミサイル
+	WaterMagicBall.DisplayName: 水の魔法の玉
+	水牢.DisplayName: 水牢
+	水粒子2.DisplayName: 水粒子2
+	AirSlash.DisplayName: エアスラッシュ
+	mousetest.DisplayName: マウステスト
+	UI.DisplayName: UI
+	小动物药水射弹.DisplayName: 小動物用薬液
+	武器流光.DisplayName: 武器流光
+	爆炸.DisplayName: 爆発
+	闪电链.DisplayName: ライトニングチェーン
+	TileProj.DisplayName: タイル発射物
+	WeaponProj.DisplayName: 武器発射物
+	子弹.DisplayName: 子弹
+	WandGlitter.DisplayName: 杖の輝き
+	Wand.DisplayName: 杖
+	MissileSpawner.DisplayName: ミサイルのスポナー
+	环形风刃.DisplayName: リングの状風刃
+	风刃黑洞.DisplayName: 風刃のブラックホール
+	testBall.DisplayName: テストボール
+	SphereLike.DisplayName: 球状
+	WaterTrail.DisplayName: 水の道
+}
+
+Configs: {
+	BasicConfig: {
+		DisplayName: 設定
+
+		Water: {
+			Label: 水の魔法による水の発生
+			Tooltip: 水の魔法が当たった所に水が発生の有無を変更します
+		}
+
+		MissileCamera: {
+			Label: マジックミサイル発射時のクローズアップ
+			Tooltip: チャージマジックミサイルを発動中、カメラがマウスに追従するか変更します
+		}
+
+		LongPress: {
+			Label: 長押し時間
+			Tooltip: 長押しが必要な時間を変更します
+		}
+
+		MaxDamage: {
+			Label: 魔法のダメージ倍率
+			Tooltip: 魔法のダメージの倍率を変更します
+		}
+	}
+}
+
+Keybinds: {
+	扫帚加速.DisplayName: 箒の加速
+	技能栏.DisplayName: 魔法の確認・選択
+	火球破坏地形.DisplayName: 炎の魔法の火球の地形破壊効果切り替え
+	"Can the fireball destroy the terrain switch.DisplayName": 炎の魔法の地形破壊効果切り替え
+	"Skill bar button.DisplayName": 魔法の確認・選択
+	"Broom acceleration button.DisplayName": 箒の加速
+	快捷选中魔法飞弹.DisplayName: マジックミサイルを選択
+	快捷选中水魔法.DisplayName: 水の魔法を選択
+	快捷选中火魔法.DisplayName: 炎の魔法を選択
+	快捷选中冰魔法.DisplayName: 氷の魔法を選択
+	快捷选中治疗魔法.DisplayName: 治療魔法を選択
+	快捷选中雷魔法.DisplayName: 雷の魔法を選択
+	快捷选中风魔法.DisplayName: 風の魔法を選択
+	同步世界等级.DisplayName: ワールドの進行状況と習熟度を同期
+	"Select MagicMissile.DisplayName": マジックミサイルを選択
+	"Select WaterMagic.DisplayName": 水の魔法を選択
+	"Select FlameMagic.DisplayName": 炎の魔法を選択
+	"Select IceMagic.DisplayName": 氷の魔法を選択
+	"Select HealingMagic.DisplayName": 治療魔法を選択
+	"Select LightningMagic.DisplayName": 雷の魔法を選択
+	"Select WindMagic.DisplayName": 風の魔法を選択
+	"Reset level.DisplayName": 習熟度をリセット
+	蓄力.DisplayName: チャージ切り替え
+}
+
+Conditions: {
+	IsElaina: イレイナを使用しているか
+	Flame: 炎の魔法を習得しているか
+	Freeze: 氷の魔法を習得しているか
+	Healing: 治療の魔法を習得しているか
+	Wind: 風の魔法を習得しているか
+}
+
+Wand: {
+	CantUse: 木材
+	Warn: 単なる木の切れ端以上のものかもしれない
+	Proficiency: 現在の習熟度 {0}
+	Crit: 魔法クリティカル率の合計 {0}%
+	Damage: 魔法ダメージの合計 {0}%
+}
+
+IsElaina: イレイナmod

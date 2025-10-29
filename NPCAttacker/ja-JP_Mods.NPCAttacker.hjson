@@ -1,0 +1,242 @@
+ItemTooltipExtra:
+	'''
+	[c/00cfcf:左クリック]：ユニット未選択時にはタウンNPCの選択、選択中ならコマンドを実行する
+	敵をクリックして攻撃指示、他の場所をクリックして移動指示を出せる
+
+	王/女王の石像をクリックすることで、選んだユニットをテレポート可能
+	ウォールオブフレッシュ撃破後はクールダウンが短くなる
+
+	緑は移動、赤は攻撃、水色はテレポート指示となる
+	ミニマップや全画面マップ上でもクリック可能だが、そのモードでは1体のNPCしか選択できない
+
+	[c/00cfcf:右クリック]：選択ユニットを解除する
+	[c/00cfcf:強制攻撃／隊列形成]：他の敵に関係なくクリック対象を攻撃させる
+	[c/00cfcf:ユニット分散]：選択ユニットを一定範囲で分散させる
+	[c/00cfcf:警戒モード]：ユニットは移動せず、近くの敵を自動で攻撃する(他の命令を出すことでモードは解除される)
+	[c/00cfcf:命令停止]：選択ユニットへの命令を停止する
+	[c/00cfcf:全選択]：画面上の全ユニットを選択し、2回入力でワールド中のユニットを選択(全画面マップ表示中に押すことで、マップ上の全ユニットを選択)
+	[c/00cfcf:同種選択]：上記と同じ効果だが、選択中のユニットと同じ攻撃タイプのユニットのみを選択する
+	[c/00cfcf:ユニット追従]：選択中のユニットを画面中央に表示し、再度押すことで解除される
+
+	[c/00cfcf:チーム1] [c/00cfcf:チーム2] [c/00cfcf:チーム3] [c/00cfcf:チーム4]
+	[c/00cfcf:強制攻撃／隊列形成]と同時に入力することで、選んだユニットを指定チームにまとめる(すでに全員そのチームであれは解散される)
+	'''
+ItemTooltipExtra2:
+	'''
+	「戦場コントロール起動中、待機せよ」
+	インベントリ内で、指定した武器やアイテムをタウンNPCに装備させられる
+	また使用することで、タウンNPCを選択して移動・攻撃などの指示を出せる
+	ホットキーとの併用を推奨します
+	[Shift] で詳細な使い方を表示
+	'''
+
+Keybind: {
+	KeyForceAttack: 強制攻撃／隊列形成
+	KeyDisperse: ユニット分散
+	KeyGuard: 警戒モード
+	KeyStop: 命令停止
+	KeyF2A: 全選択
+	KeyF2A2: 同種選択
+	KeyF: ユニット追従
+	KeyTeam1: チーム1
+	KeyTeam2: チーム2
+	KeyTeam3: チーム3
+	KeyTeam4: チーム4
+}
+
+UI: {
+	Arm: 武装
+	RemoveWeapon: この武器を外すとNPCが非武装になります
+	PlaceAWeapon: ここに武器を置いてNPCに装備させてください
+	ComplexNote: 注意：他MODによる複雑な武器の場合、うまく動かない可能性有
+	NurseWeapon: 30個以上の回復ポーションを持たせることで、回復効果が強化[i:188]
+	ThrowerWeapon: 投擲系近接武器[i:284][i:5011][i:3262]、または消費型の遠距離武器（99個以上または最大スタック）[i:42]を装備可能
+	RangerWeapon: 遠距離武器[i:533]を装備可能だが、弾薬も装備させる必要があります
+	DryadWeapon: 30個以上のマナポーションを持たせることで、魔法効果が強化[i:188]
+	MagicWeapon: 魔法武器[i:1931]を装備可能だが、マナポーションも装備させる必要があります
+	MeleeWeapon: 近接武器[i:426][i:280]またはムチ[i:4672]を装備可能
+	NurseWeaponDescription: 回復量が増加
+	DryadWeaponDescription: 周囲のNPCに追加の攻撃速度、移動速度、防御力、ライフ自然回復増進を付与
+	SlotsNotAvailable: 利用不可
+	AmmosLoaded: 弾薬装填完了
+	NoWeaponUseAmmos: 対応する武器を装備させてください
+	PlzPutAmmos: 対応する弾薬を装備させてください（999個以上または最大スタック）[i:1302]
+	PlzPutManaPotions: マナポーションを装備させてください（30個以上または最大スタック）[i:189]
+	NoWeaponUseManaPotions: マナポーションを使う武器を装備していません
+	ManaEnough: マナが武器に十分に供給され、ダメージが増加
+	ManaNotEnough: 武器に必要なマナが不足しており、ダメージが減少
+	FlaskLoaded: 武器がフラスコ効果を帯びている
+	PlzPutFlasks: フラスコを装備させてください（30本以上）[i:1354]
+	AltWeaponLoaded: NPCは代替武器を不定期に使用
+	PlzPutAltWeapon: 異なる代替武器を装備させてください（代替武器はチャージ不可）
+	EquipmentLoaded: ドライアドは周囲のNPCにさらなる防御力を付与
+	PlzPutEquipment: 防具[i:90]またはアクセサリー[i:156]を装備させてください
+	BuffPotionsLoadedNurse: ナースの回復はポーションのバフ効果を付与
+	BuffPotionsLoadedDryad: ドライアドの加護はポーションのバフ効果を付与
+	PlzPutBuffPotions: バフポーションを装備させてください（30個以上または最大スタック）[i:2349]
+	ArmorLoaded: NPCはより多くのダメージに耐えられます
+	PlzPutArmor: 防具[i:90]またはアクセサリー[i:156]を装備させてください
+	CanUseNormal: この武器は{0}に適しています
+	CanUsePotion: これらのポーションは{0}に適しています
+	CanUseKill: このアイテムは{0}に適してい...ます？
+	AlterUseType0: 操作方法：左クリックのみで使用
+	AlterUseType1: 操作方法：右クリックのみで使用
+	AlterUseType2: 操作方法：左クリックと右クリックを交互に使用
+	ChannelType0: チャージ方法：押し続けてチャージを維持
+	ChannelType1: チャージ方法：一定時間だけチャージ可能
+	ChannelType2: チャージ方法：ほぼ即発動
+}
+
+Configs: {
+	CustomConfig: {
+		DisplayName: カスタム設定
+
+		DamageModifier: {
+			Label: "[i:24]タウンNPCのダメージ補正"
+			Tooltip: タウンNPCの与えるダメージを増加させます（最大値：2000%）
+		}
+
+		DRModifier: {
+			Label: "[i:156]タウンNPCのダメージ軽減補正"
+			Tooltip: タウンNPCの被ダメージ軽減率を増加させます（最大値：95%）
+		}
+
+		SpeedModifier: {
+			Label: "[i:54]タウンNPCの速度補正"
+			Tooltip: タウンNPCの移動速度を増加させます（最大値：300%）
+		}
+	}
+}
+
+PotionExtra: {
+	NPCEffects: "[c/00cfcf:NPC効果： ]"
+	AmmoReservation: 遠距離ダメージが20%増加
+	Archery: 遠距離ダメージが10%増加し、射撃速度も10%上昇
+	Battle: 攻撃速度が10%上昇
+	Calm: 攻撃速度が10%低下
+	Endurance: 被ダメージを10%軽減
+	FeatherFall: 落下速度を軽減する
+	Flipper: 水中での移動速度が50%上昇
+	Hunter: 危険感知範囲が25%広がる
+	Gills: NPCが水中でも呼吸できるようになる
+	Invisibility: NPCが透明になり、ノックバックを無効化
+	IronSkin: 防御力が8増加
+	LifeForce: 最大ライフが100増加
+	Lucky: 近くのプレイヤーの運気が上昇
+	MagicPower: 魔法ダメージが20%増加
+	ManaRegeneration: マナ不足時のダメージ低下を無効化
+	NightOwl: 夜間に危険感知範囲が50%広がる
+	ObsidianSkin: 溶岩に対して免疫
+	Rage: クリティカル率が10%上昇
+	Regeneration: ライフ自然回復を増進
+	Shine: NPCが光のオーラを放つ
+	Swiftness: 移動速度が25%上昇
+	Thorns: 攻撃者もダメージを受ける
+	Titan: ノックバックが50%増加
+	Inferno: 周囲の敵を炎上させる
+	Wrath: 攻撃力が10%増加
+	Tipsy: 防御力が4減少するが、近接ダメージと攻撃速度が10%、クリティカル率が2%上昇
+	WellFed1: 防御力が2増加し、ダメージと攻撃速度が5%、クリティカル率が2%、移動速度が20%上昇
+	WellFed2: 防御力が3増加し、ダメージと攻撃速度が7.5%、クリティカル率が3%、移動速度が30%上昇
+	WellFed3: 防御力が4増加し、ダメージと攻撃速度が10%、クリティカル率が4%、移動速度が40%上昇
+}
+
+Keybinds: {
+	ForceAttack.DisplayName: 強制攻撃／隊列形成
+	DisperseUnits.DisplayName: ユニット分散
+	AlertMode.DisplayName: 警戒モード
+	StopCommand.DisplayName: 命令停止
+	SelectAll.DisplayName: 全選択
+	SelectTheSameKind.DisplayName: 同種選択
+	Team1.DisplayName: チーム1
+	Team2.DisplayName: チーム2
+	Team3.DisplayName: チーム3
+	Team4.DisplayName: チーム4
+	FollowUnit.DisplayName: ユニット追従
+}
+
+Buffs: {
+	CommandBuff: {
+		DisplayName: 指揮
+		Description: 全タウンNPCが戦闘態勢に入り、装備の付与が可能
+	}
+
+	TPCDBuff: {
+		DisplayName: テレポートクールダウン
+		Description: タウンNPCのテレポート不能
+	}
+}
+
+Items: {
+	AdvancedAdvancedCombatTechniques: {
+		DisplayName: 究極の戦闘技術書
+		Tooltip: 「現在はテスト用」
+	}
+
+	AttackerStick: {
+		DisplayName: 指揮官の杖
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	AssembleNPC.DisplayName: ""
+	AttackTargetNPC.DisplayName: ""
+	UINPC.DisplayName: ""
+}
+
+Projectiles: {
+	ApprenticeStaffT3Proj.DisplayName: ""
+	BlizzardStaffProj.DisplayName: ""
+	BloodRainProj.DisplayName: ""
+	BoomstickProj.DisplayName: ""
+	BubbleGunProj.DisplayName: ""
+	CelebrateProj.DisplayName: ""
+	ChlorophyteShotbowProj.DisplayName: ""
+	ClingerStaffProj.DisplayName: ""
+	ClockworkAssaultRifleProj.DisplayName: ""
+	CrimsonRodProj.DisplayName: ""
+	DaedalusStormbowProj.DisplayName: ""
+	ElectrosphereProj.DisplayName: ""
+	HellwingProj.DisplayName: ""
+	LunarFlareBookProj.DisplayName: ""
+	PrincessWeaponProj.DisplayName: ""
+	QueenLightProj.DisplayName: ""
+	SharpTearProj.DisplayName: ""
+	SparkleGuitarProj.DisplayName: ""
+	MagnetSphereProj.DisplayName: ""
+	MeteorStaffProj.DisplayName: ""
+	NimbusRodProj.DisplayName: ""
+	OnyxBlasterProj.DisplayName: ""
+	PoisonStaffProj.DisplayName: ""
+	BetsyBowProj.DisplayName: ""
+	PewMaticHornProj.DisplayName: ""
+	QuadBarrelShotgunProj.DisplayName: ""
+	RazorpineProj.DisplayName: ""
+	ShotgunProj.DisplayName: ""
+	SkyFractureProj.DisplayName: ""
+	SpiritFlameProj.DisplayName: ""
+	StarfuryProj.DisplayName: ""
+	StarWarthProj.DisplayName: ""
+	TacticalShotgunProj.DisplayName: ""
+	TPLine.DisplayName: ""
+	TsunamiProj.DisplayName: ""
+	VampireKnifeProj.DisplayName: ""
+	VenomStaffProj.DisplayName: ""
+	WarningLine.DisplayName: ""
+	XenopopperProj.DisplayName: ""
+	GrassSwordProj.DisplayName: ""
+	LightBaneProj.DisplayName: ""
+	NightEdgeProj.DisplayName: ""
+	TrueNightEdgeProj.DisplayName: ""
+	TrueEXSwordProj.DisplayName: ""
+	TerraBladeProj.DisplayName: ""
+	EXSwordProj.DisplayName: ""
+	ZenithProj.DisplayName: ""
+	PumpkinSwordProj.DisplayName: ""
+	BlueFireProj.DisplayName: ""
+	PiranhaGunProj.DisplayName: ""
+	TwilightBowProj.DisplayName: ""
+	DragonRageProj.DisplayName: ""
+	EndlessBookProj.DisplayName: ""
+}

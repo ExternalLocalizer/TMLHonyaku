@@ -1,0 +1,94 @@
+Configs: {
+	SRAAConfig: {
+		AdrenalineMeterPosY: {
+			Tooltip: ""
+			Label: アドレナリンメーターY位置
+		}
+
+		AdrenalineMeterPosX: {
+			Tooltip: ""
+			Label: アドレナリンメーターX位置
+		}
+
+		RageMeterPosY: {
+			Tooltip: ""
+			Label: レイジメーターY位置
+		}
+
+		RageMeterPosX: {
+			Tooltip: ""
+			Label: レイジメーターX位置
+		}
+
+		RipperMeterShake: {
+			Tooltip: ""
+			Label: メーター揺れ
+		}
+
+		MeterPosLock: {
+			Tooltip: ""
+			Label: メーター位置固定
+		}
+
+		Headers: {
+			Graphics: グラフィック
+			Rage: レイジ
+			Adrenaline: アドレナリン
+		}
+
+		DisplayName: 設定
+
+		RageFadeTimeSeconds: {
+			Tooltip: ""
+			Label: レイジフェード時間
+		}
+
+		RageDurationSeconds: {
+			Tooltip: ""
+			Label: レイジ持続時間
+		}
+
+		RageDamageBoost: {
+			Tooltip: ""
+			Label: レイジダメージ倍率
+		}
+
+		AdrenalineDurationSeconds: {
+			Tooltip: ""
+			Label: アドレナリン持続時間
+		}
+
+		AdrenalineChargeTimeSeconds: {
+			Tooltip: ""
+			Label: アドレナリンチャージ時間
+		}
+
+		AdrenalineDamageBoost: {
+			Tooltip: ""
+			Label: アドレナリンダメージ倍率
+		}
+	}
+}
+
+Buffs: {
+	RageMode: {
+		DisplayName: レイジモード
+		Description: 総ダメージが1.35倍になる
+	}
+
+	AdrenalineMode: {
+		DisplayName: アドレナリンモード
+		Description: 総ダメージが2.5倍になり、ほかのアイテムを使用することで最大3.1倍に強化可能
+	}
+}
+
+Keybinds: {
+	Adrenaline: {
+		DisplayName: アドレナリン
+	}
+
+	Rage: {
+		DisplayName: レイジ
+	}
+}
+

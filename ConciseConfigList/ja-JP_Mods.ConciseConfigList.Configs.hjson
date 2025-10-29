@@ -1,0 +1,25 @@
+ConciseConfig: {
+	DisplayName: 設定
+
+	ShowDespiteNoConfig: {
+		Label: 設定未対応Modの表示
+		Tooltip: 設定項目がないModも一覧に含めて表示します
+	}
+
+	UseConciseConfigList: {
+		Label: 簡潔なリストを使用
+		Tooltip: 設定画面のリストを簡潔な形式で表示します
+	}
+
+	ModListMode: {
+		Label: Modリストのスタイル
+		Tooltip: Modリストの表示スタイルを切り替えます
+	}
+}
+
+ModListMode: {
+	Tooltip: ""
+	Vanilla.Label: 通常表示
+	Icon.Label: アイコン表示
+	SmallIcon.Label: 小アイコン表示
+}

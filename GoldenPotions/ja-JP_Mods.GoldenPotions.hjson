@@ -1,0 +1,358 @@
+CommonItemTooltip.ExtendedDuration:
+	'''
+
+	持続時間が延長
+	'''
+RecipeGroups.AnyGoldenCritter: "{$LegacyMisc.37} 黄金の生き物"
+
+Buffs: {
+	GoldenAmmoReservation: {
+		DisplayName: 弾薬節約+
+		Description: "{0}%の確率で弾薬を消費しない"
+	}
+
+	GoldenArchery: {
+		DisplayName: 弓使い+
+		Description: 弓のダメージと矢の速度が{0}%増加
+	}
+
+	GoldenBuilder: {
+		DisplayName: 建築+
+		Description: 配置速度と射程が大きく増加
+	}
+
+	GoldenEndurance: {
+		DisplayName: 忍耐+
+		Description: 受けるダメージが{0}%減少
+	}
+
+	GoldenFeatherfall: {
+		DisplayName: 落下制御+
+		Description: 上を押し続けると浮遊し、下を押し続けると通常通り落下
+	}
+
+	GoldenFishing: {
+		DisplayName: 釣り情報+
+		Description: フィッシング・パワーが大きく向上
+	}
+
+	GoldenInferno: {
+		DisplayName: 獄炎+
+		Description: 周囲の敵を地獄の炎で燃やす
+	}
+
+	GoldenIronskin: {
+		DisplayName: 鉄の肌+
+		Description: 防御力 +{0}
+	}
+
+	GoldenLifeforce: {
+		DisplayName: 生命強化+
+		Description: 最大ライフが40%増加
+	}
+
+	GoldenLove: {
+		DisplayName: 恋慕+
+		Description: 完全に恋に落ちてしまった!
+	}
+
+	GoldenMagicPower: {
+		DisplayName: 魔法強化+
+		Description: 魔法ダメージが{0}%増加
+	}
+
+	GoldenMining: {
+		DisplayName: 採掘+
+		Description: 採掘スピードが{0}%上昇
+	}
+
+	GoldenNightOwl: {
+		DisplayName: フクロウの目+
+		Description: 画面全体が明るくなる
+	}
+
+	GoldenRage: {
+		DisplayName: 怒り+
+		Description: クリティカル率が{0}%上昇
+	}
+
+	GoldenRegeneration: {
+		DisplayName: ライフ自然回復増進+
+		Description: ライフ自然回復を大きく増進
+	}
+
+	GoldenShine: {
+		DisplayName: 光源+
+		Description: より強く発光する
+	}
+
+	GoldenStink: {
+		DisplayName: 悪臭-
+		Description: 理解できないほどひどい臭いだ
+	}
+
+	GoldenSummoning: {
+		DisplayName: 召喚+
+		Description: 召喚できるミニオンの数が2体増える
+	}
+
+	GoldenSwiftness: {
+		DisplayName: 俊足+
+		Description: 移動速度が{0}%上昇
+	}
+
+	GoldenTitan: {
+		DisplayName: タイタン+
+		Description: ノックバックが大きく増加
+	}
+
+	GoldenWrath: {
+		DisplayName: 激怒+
+		Description: ダメージが20%増加
+	}
+}
+
+Items: {
+	# Potions/Buff/
+	
+	GoldenAmmoReservationPotion: {
+		DisplayName: 黄金の弾薬節約ポーション
+		Tooltip: "{0}%の確率で弾薬を消費しない"
+	}
+
+	GoldenArcheryPotion: {
+		DisplayName: 黄金の弓使いのポーション
+		Tooltip: 弓のダメージと矢の速度が{0}%増加
+	}
+
+	GoldenBattlePotion: {
+		DisplayName: 黄金の闘争のポーション
+		Tooltip: 敵の出現率が上昇{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenBuilderPotion: {
+		DisplayName: 黄金の建築のポーション
+		Tooltip: ブロックの配置速度と範囲が大きく増加
+	}
+
+	GoldenCalmingPotion: {
+		DisplayName: 黄金の平穏のポーション
+		Tooltip: 敵の出現率が低下{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenCratePotion: {
+		DisplayName: 黄金の箱のポーション
+		Tooltip: 箱を釣り上げやすくなる{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenDangersensePotion: {
+		DisplayName: 黄金の危険察知ポーション
+		Tooltip: 罠が良く見える{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenEndurancePotion: {
+		DisplayName: 黄金の耐久のポーション
+		Tooltip: 被ダメージが{0}%減少
+	}
+
+	GoldenFeatherfallPotion: {
+		DisplayName: 黄金の落下制御ポーション
+		Tooltip:
+			'''
+			落下速度が大きく低下
+			上を入力し続けると浮遊
+			'''
+	}
+
+	GoldenFishingPotion: {
+		DisplayName: 黄金の釣りのポーション
+		Tooltip: フィッシング・パワーが大きく向上
+	}
+
+	GoldenFlipperPotion: {
+		DisplayName: 黄金の遊泳のポーション
+		Tooltip: 液体の中を速く泳げる{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenGillsPotion: {
+		DisplayName: 黄金のエラのポーション
+		Tooltip: 空気の代わりに水で呼吸する{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenGravitationPotion: {
+		DisplayName: 黄金の重力操作ポーション
+		Tooltip: 重力をコントロールできる{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenHeartreachPotion: {
+		DisplayName: 黄金のハート回収ポーション
+		Tooltip: ハートを拾う距離が広がる{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenHunterPotion: {
+		DisplayName: 黄金の狩人のポーション
+		Tooltip: 敵が光って見える{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenInfernoPotion: {
+		DisplayName: 黄金の獄炎のポーション
+		Tooltip: 周囲の敵を地獄の炎で燃やす
+	}
+
+	GoldenInvisibilityPotion: {
+		DisplayName: 黄金の透明化のポーション
+		Tooltip: 透明になり、敵の出現率が低下{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenIronskinPotion: {
+		DisplayName: 黄金の鉄壁のポーション
+		Tooltip: 防御力 +{0}
+	}
+
+	GoldenLifeforcePotion: {
+		DisplayName: 黄金の生命強化ポーション
+		Tooltip: 最大ライフが40%増加
+	}
+
+	GoldenLovePotion: {
+		DisplayName: 黄金の愛のポーション
+		Tooltip: 当てられた者は本当に恋に落ちる
+	}
+
+	GoldenLuckPotion: {
+		DisplayName: 黄金のラックポーション
+		Tooltip: 使用者の運を増加させる{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenMagicPowerPotion: {
+		DisplayName: 黄金の魔法力ポーション
+		Tooltip: 魔法ダメージが{0}%増加
+	}
+
+	GoldenManaRegenerationPotion: {
+		DisplayName: 黄金のマナ自然回復ポーション
+		Tooltip: マナ自然回復を増進{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenMiningPotion: {
+		DisplayName: 黄金の掘削のポーション
+		Tooltip: 採掘スピードが{0}%上昇
+	}
+
+	GoldenNightOwlPotion: {
+		DisplayName: 黄金の夜目のポーション
+		Tooltip:
+			'''
+			完全な暗視能力を実現する
+			[c/ffff00:危険: あなたの地図を地獄のように醜くする]
+			'''
+	}
+
+	GoldenObsidianSkinPotion: {
+		DisplayName: 黄金の黒曜石の肌ポーション
+		Tooltip: 溶岩耐性が付く{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenRagePotion: {
+		DisplayName: 黄金の怒りのポーション
+		Tooltip: クリティカル率が{0}%上昇
+	}
+
+	GoldenRegenerationPotion: {
+		DisplayName: 黄金の自然回復ポーション
+		Tooltip: ライフ自然回復を大きく増進
+	}
+
+	GoldenShinePotion: {
+		DisplayName: 黄金の輝きのポーション
+		Tooltip: 体が強く光る
+	}
+
+	GoldenSonarPotion: {
+		DisplayName: 黄金の魚探知のポーション
+		Tooltip: 食いついた魚を見抜く{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenSpelunkerPotion: {
+		DisplayName: 黄金の探検家のポーション
+		Tooltip: 宝と鉱石が光って見える{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenStinkPotion: {
+		DisplayName: 黄金の悪臭のポーション
+		Tooltip:
+			'''
+			当てられた者は理解できないほどひどい匂いになる
+			通常の悪臭と重複する
+			'''
+	}
+
+	GoldenSummoningPotion: {
+		DisplayName: 黄金の召喚のポーション
+		Tooltip: 召喚できるミニオンの数が2体増える
+	}
+
+	GoldenSwiftnessPotion: {
+		DisplayName: 黄金の俊足のポーション
+		Tooltip: 移動速度が{0}%上昇
+	}
+
+	GoldenThornsPotion: {
+		DisplayName: 黄金のイバラのポーション
+		Tooltip: ダメージの一部を反射する{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenTitanPotion: {
+		DisplayName: 黄金の巨人のポーション
+		Tooltip: ノックバック距離が大きく増加
+	}
+
+	GoldenWarmthPotion: {
+		DisplayName: 黄金の暖気のポーション
+		Tooltip: 冷気による被ダメージ減少{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenWaterWalkingPotion: {
+		DisplayName: 黄金の水上歩行ポーション
+		Tooltip: 水上を歩ける{$CommonItemTooltip.ExtendedDuration}
+	}
+
+	GoldenWrathPotion: {
+		DisplayName: 黄金の激怒のポーション
+		Tooltip: ダメージが20%増加
+	}
+
+	# Potions/Recovery/
+	
+	GoldenHealingPotion: {
+		DisplayName: 黄金のライフポーション
+		Tooltip: "「これは間違いだった」"
+	}
+
+	GoldenManaPotion: {
+		DisplayName: 黄金のマナポーション
+		Tooltip: ""
+	}
+
+	GoldenRestorationPotion: {
+		DisplayName: 黄金のリストアポーション
+		Tooltip: 再使用間隔が大きく短縮されたポーション
+	}
+
+	GoldenStrangeBrew: {
+		DisplayName: 黄金の奇妙な薬
+		Tooltip: 変な金属臭がする
+	}
+
+	# Potions/
+	
+	GoldenGenderChangePotion: {
+		DisplayName: 黄金の性転換のポーション
+		Tooltip: 性別を二度も変える！
+	}
+}
+
+Projectiles: {
+	GoldenLovePotionProj.DisplayName: 黄金の愛のポーション
+	GoldenStinkPotionProj.DisplayName: 黄金の悪臭のポーション
+}

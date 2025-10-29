@@ -1,0 +1,97 @@
+Configs: {
+	ShowCondition: {
+		Tooltip: ""
+
+		NeverShow: {
+			Label: 表示しない
+		}
+
+		HoldToShow: {
+			Label: 長押し表示
+		}
+
+		PressToToggle: {
+			Label: 押して切り替え
+		}
+
+		AlwaysShow: {
+			Label: 常に表示
+		}
+	}
+
+	MainConfig: {
+		ShortFormatVanilla: {
+			Tooltip: 通常の価格表示にも短縮形式を使うようにします
+			Label: 通常ツールチップも短縮表示
+		}
+
+		ShortFormat: {
+			Tooltip:
+				'''
+				売値／買値の表示をより短く、コンパクトにします。
+
+				例：
+
+				通常形式: [c/DCDCC6:12 プラチナ 34 ゴールド 56 シルバー 78 カッパー]
+				短縮形式: [i:74][c/DCDCC6:12] [i:73][c/E0C95C:34] [i:72][c/B5C0C1:56] [i:71][c/F68A60:78]
+
+				通常形式: [c/E0C95C:9 ゴールド 87 カッパー]
+				短縮形式: [i:73][c/E0C95C:9] [i:71][c/F68A60:87]
+				'''
+			Label: 価格を短縮表示
+		}
+
+		AlwaysShowLabel: {
+			Tooltip: 通常の価格ツールチップが出ていない場合でも、「基本売値:」を表示します
+			Label: 常にラベルを表示
+		}
+
+		FormatHeader: 価格表示形式
+
+		ShowBaseBuyPrice: {
+			Tooltip:
+				'''
+				NPC販売時の購入価格表示を切り替えます
+				「切り替えキー」や「長押し表示」を使うには操作設定が必要です
+				'''
+			Label: 基本購入価格
+		}
+
+		ShowInNPCShops: {
+			Tooltip:
+				'''
+				NPCショップ内での基本売値表示を切り替えます
+				「切り替えキー」や「長押し表示」を使うには操作設定が必要です
+				'''
+			Label: NPCショップ内表示
+		}
+
+		ShowOutsideNPCShops: {
+			Tooltip:
+				'''
+				NPCショップ以外の状況で基本売値表示を切り替えます
+				「切り替えキー」や「長押し表示」を使うには操作設定が必要です
+				'''
+			Label: NPCショップ外表示
+		}
+
+		MustSetKeybind:
+			'''
+			「切り替えキー」や「長押し表示」を使うには操作設定が必要です
+			'''
+		ShowHeader: 価格表示設定
+		DisplayName: 設定
+	}
+}
+
+Keybinds: {
+	ShowHideTooltip: {
+		DisplayName: ツールチップ表示切り替え（詳細は設定へ）
+	}
+}
+
+Labels: {
+	BaseBuyPrice: 基本購入値：
+	BaseSellPrice: 基本売却値：
+}
+

@@ -1,0 +1,2468 @@
+Configs: {
+	KirbConfig: {
+		HyperzoneClouds: {
+			Tooltip: ゼロ戦の演出のハイパーゾーンを有効化、または無効化します
+			Label: ハイパーゾーンの雲演出
+		}
+
+		DisplayName: Kirb Config
+	}
+}
+
+Tiles: {
+	PureDarkMatterMusicBoxTile: {
+		MapEntry: オルゴール（リアルダークマター）
+	}
+
+	PowerOrbMusicBoxTile: {
+		MapEntry: オルゴール（ナイトメアパワーオーブ）
+	}
+
+	NightmareMusicBoxTile: {
+		MapEntry: オルゴール（ナイトメア）
+	}
+
+	ZeroMusicBoxTile: {
+		MapEntry: オルゴール（ゼロ）
+	}
+
+	DreamLandBossMusicBoxTile: {
+		MapEntry: オルゴール (ボスのテーマ)
+	}
+
+	DarkMatterMusicBoxTile: {
+		MapEntry: オルゴール（ダークマター）
+	}
+
+	DededeMusicBoxTile: {
+		MapEntry: オルゴール（デデデ大王）
+	}
+
+	RareStone: {
+		MapEntry: レアストーン
+	}
+
+	FountainOfDreams: {
+		MapEntry: 夢の泉
+	}
+
+	EnemyBanner: {
+		MapEntry: バナー
+	}
+
+	BossTrophy: {
+		MapEntry: トロフィー
+	}
+}
+
+NPCs: {
+	NewWhispyBoss: {
+		BossChecklistIntegration: {
+			DespawnMessage: ウィスピーウッズは森の中に紛れていった...
+			SpawnInfo: 平らな地形に[i:5681]を設置し、右クリックする
+		}
+
+		DisplayName: ウィスピーウッズ
+	}
+
+	MidbossRift: {
+		DisplayName: 次元の裂け目
+	}
+
+	ZeroEye: {
+		DisplayName: ゼロ
+	}
+
+	Zero: {
+		BossChecklistIntegration: {
+			DespawnMessage: 闇が晴れていく...
+			SpawnInfo: "[i:5597]を使用し、その先に待つものに備えよ"
+		}
+
+		DisplayName: ゼロ
+	}
+
+	WhispyRoot: {
+		DisplayName: りんご
+	}
+
+	Whispy: {
+		BossChecklistIntegration: {
+			DespawnMessage: ウィスピーウッズは森の中に紛れていった...
+			SpawnInfo: "[i:5681]を使用する"
+		}
+
+		DisplayName: ウィスピーウッズ
+	}
+
+	WaddleDoo: {
+		DisplayName: ワドルドゥ
+	}
+
+	WaddleDee: {
+		DisplayName: ワドルディ
+	}
+
+	UFO: {
+		DisplayName: ユーフォー
+	}
+
+	Twister: {
+		DisplayName: ツイスター
+	}
+
+	SirKibble: {
+		DisplayName: サーキブル
+	}
+
+	Scarfy: {
+		DisplayName: スカーフィー
+	}
+
+	PureDarkMatter: {
+		DisplayName: リアルダークマター
+	}
+
+	PoppyBrosJr: {
+		DisplayName: ポピーブロスJr.
+	}
+
+	PlasmaWisp: {
+		DisplayName: プラズマウィスプ
+	}
+
+	ParosolDee: {
+		DisplayName: パラソルワドルディ
+	}
+
+	NightmareWizard: {
+		BossChecklistIntegration: {
+			DespawnMessage: ナイトメアは闇の中へと消えていった...
+			SpawnInfo: 夜に夢の泉で[i:5670]を使用する
+		}
+
+		DisplayName: ナイトメア
+	}
+
+	NightmareOrb: {
+		DisplayName: ナイトメアパワーオーブ
+	}
+
+	MrFrosty: {
+		DisplayName: Mr.フロスティ
+	}
+
+	Bonkers: {
+		DisplayName: ボンカース
+	}
+
+	KrackoJr: {
+		DisplayName: クラッコJr.
+	}
+
+	Kracko: {
+		BossChecklistIntegration: {
+			DespawnMessage: クラッコは再び天へと舞い戻っていった...
+			SpawnInfo: 自然発生したクラッコJr.を倒すか、[i:5613]を使用して召喚する。
+		}
+	
+		DisplayName: クラッコ
+	}
+
+	KnuckleJoe: {
+		DisplayName: ナックルジョー
+	}
+
+	KingDedede: {
+		BossChecklistIntegration: {
+			DespawnMessage: デデデ大王はもうあなたを追っていない...
+			SpawnInfo: "[i:5576]を使用する"
+		}
+
+		DisplayName: デデデ大王
+	}
+
+	Kabu: {
+		DisplayName: カブー
+	}
+
+	DarkMatter: {
+		BossChecklistIntegration: {
+			DespawnMessage: 侵略者は元いた場所へと姿を消した...
+			SpawnInfo: "[i:5575]を投げ出し、[i:5665]でそれに向かって右クリックする"
+		}
+
+		DisplayName: ダークマター
+	}
+
+	Chilly: {
+		DisplayName: チリー
+	}
+
+	Cappy: {
+		DisplayName: キャピィ
+	}
+
+	BurningLeo: {
+		DisplayName: バーニンレオ
+	}
+
+	BroomHatter: {
+		DisplayName: ブルームハッター
+	}
+
+	BrontoBurt: {
+		DisplayName: ブロントバート
+	}
+
+	BladeKnight: {
+		DisplayName: ブレイドナイト
+	}
+
+	Birdon: {
+		DisplayName: バードン
+	}
+
+	BioSpark: {
+		DisplayName: バイオスパーク
+	}
+}
+
+Projectiles: {
+	NightmareOrbFirstHitShine: {
+		DisplayName: Nightmare Orb First Hit Shine
+	}
+
+	MetalKick: {
+		DisplayName: Metal Kick
+	}
+
+	HardenedFighterUppercut: {
+		DisplayName: Hardened Fighter Uppercut
+	}
+
+	NewWhispyAppleMedium: {
+		DisplayName: Apple
+	}
+
+	NewWhispySummonTileDustGenerator: {
+		DisplayName: New Whispy Summon Tile Dust Generator
+	}
+
+	NewWhispySplittingWind: {
+		DisplayName: Wind
+	}
+
+	NewWhispySpiralingWind: {
+		DisplayName: Wind
+	}
+
+	NewWhispySpike: {
+		DisplayName: Spike
+	}
+
+	NewWhispyWind: {
+		DisplayName: Wind
+	}
+
+	NewWhispyTornado: {
+		DisplayName: Tornado
+	}
+
+	NewWhispyGordo: {
+		DisplayName: Gordo
+	}
+
+	NewWhispyFireApple: {
+		DisplayName: Fire Apple
+	}
+
+	NewWhispyBlado: {
+		DisplayName: Blado
+	}
+
+	FireApple: {
+		DisplayName: Fire Apple
+	}
+
+	TripleStarStarForMultiplayer: {
+		DisplayName: Triple Star
+	}
+
+	MidbossRift: {
+		DisplayName: Midboss Rift
+	}
+
+	StormTornadoLightning: {
+		DisplayName: Storm Tornado Lightning
+	}
+
+	WildHammerSwing: {
+		DisplayName: Wild Hammer Swing
+	}
+
+	ToyHammerSwing: {
+		DisplayName: Toy Hammer Swing
+	}
+
+	HammerSwing: {
+		DisplayName: Hammer Swing
+	}
+
+	ZeroDamageHitbox: {
+		DisplayName: Zero Dash
+	}
+
+	VolcanoFireFire3: {
+		DisplayName: Volcano Fire Fire3
+	}
+
+	VolcanoFireFire2: {
+		DisplayName: Volcano Fire Fire2
+	}
+
+	VolcanoFireFire1: {
+		DisplayName: Volcano Fire Fire1
+	}
+
+	BasicTestTornado: {
+		DisplayName: Basic Test Tornado
+	}
+
+	DededeDropStar: {
+		DisplayName: Drop Star
+	}
+
+	NightmareLightningOrbHoming: {
+		DisplayName: Nightmare Lightning Orb Homing
+	}
+
+	NightmareShockOrb: {
+		DisplayName: Nightmare Shock Orb
+	}
+
+	GooeyDarkMatterLaser: {
+		DisplayName: Gooey Dark Matter Laser
+	}
+
+	GoodDarkMatterLaser: {
+		DisplayName: Good Dark Matter Laser
+	}
+
+	NightmareLightningOrb: {
+		DisplayName: Nightmare Lightning Orb
+	}
+
+	BadIceChunkMist: {
+		DisplayName: Bad Ice Chunk Mist
+	}
+
+	DuoMinionFireSpread: {
+		DisplayName: Duo Minion Fire Spread
+	}
+
+	MinionBeamSpread: {
+		DisplayName: Minion Beam Spread
+	}
+
+	MinionFireSpread: {
+		DisplayName: Minion Fire Spread
+	}
+
+	LightningProj: {
+		DisplayName: Lightning Proj
+	}
+
+	KrackoJrBomb: {
+		DisplayName: Kracko Jr Bomb
+	}
+
+	KrackoJrCannonball: {
+		DisplayName: Kracko Jr Cannonball
+	}
+
+	MatterOrbVertical: {
+		DisplayName: Matter Orb
+	}
+
+	DarkMatterLaserTelegraph: {
+		DisplayName: Dark Matter Laser Telegraph
+	}
+
+	DarkMatterLaser: {
+		DisplayName: Dark Matter Laser
+	}
+
+	DarkSwordWave: {
+		DisplayName: Dark Sword Wave
+	}
+
+	DarkSwordOrb: {
+		DisplayName: Dark Sword Orb
+	}
+
+	DarkSwordHeld: {
+		DisplayName: Dark Sword Held
+	}
+
+	DarkSwordBeam: {
+		DisplayName: Dark Sword Beam
+	}
+
+	RainbowSwordCraftingAnimation: {
+		DisplayName: Rainbow Sword Crafting Animation
+	}
+
+	RainbowSwordHeld: {
+		DisplayName: Rainbow Sword Held
+	}
+
+	BioMinionSlashHitbox: {
+		DisplayName: Slash
+	}
+
+	BioSparkSlashHitbox: {
+		DisplayName: Slash
+	}
+
+	CyclingStar: {
+		DisplayName: Cycling Star
+	}
+
+	NightCrownEffect: {
+		DisplayName: Night Crown Effect
+	}
+
+	BombExplosion: {
+		DisplayName: Jolly Bomb Explosion
+	}
+
+	BodyIce: {
+		DisplayName: Body Ice
+	}
+
+	GigantSlash: {
+		DisplayName: Gigant Slash
+	}
+
+	ZeroThornJuice: {
+		DisplayName: Thorn Juice
+	}
+
+	ZeroSparkExplosion: {
+		DisplayName: Spark
+	}
+
+	ZeroSpark: {
+		DisplayName: Spark
+	}
+
+	ZeroScreenBlood: {
+		DisplayName: Blood Shot
+	}
+
+	ZeroEyeBlood: {
+		DisplayName: Blood Trail
+	}
+
+	ZeroBloodShot: {
+		DisplayName: Blood Shot
+	}
+
+	ZeroBloodPellet: {
+		DisplayName: Blood Pellet
+	}
+
+	WhispyBark: {
+		DisplayName: Whispy Bark
+	}
+
+	Whisp: {
+		DisplayName: Whisp
+	}
+
+	WaddleDooMinion: {
+		DisplayName: Waddle Doo
+	}
+
+	VulcanPunch: {
+		DisplayName: Vulcan Jab
+	}
+
+	VolcanoFireFire: {
+		DisplayName: Volcano Fire
+	}
+
+	VolcanoFireExplode: {
+		DisplayName: Volcano Fire
+	}
+
+	UFOLaser: {
+		DisplayName: UFO Laser
+	}
+
+	TripleStarStar: {
+		DisplayName: Star
+	}
+
+	TornadoNado: {
+		DisplayName: Tornado
+	}
+
+	StormTornadoShock: {
+		DisplayName: Storm Tornado Shock
+	}
+
+	StormTornadoNado: {
+		DisplayName: Storm Tornado
+	}
+
+	StormTornadoCloud: {
+		DisplayName: Storm Tornado Cloud
+	}
+
+	StarBulletProj: {
+		DisplayName: Star Bullet
+	}
+
+	StarArrowProj: {
+		DisplayName: Star Arrow
+	}
+
+	Star: {
+		DisplayName: Star
+	}
+
+	Staffproj: {
+		DisplayName: Jamba Staff
+	}
+
+	SplitDarkOrb: {
+		DisplayName: Split Dark Orb
+	}
+
+	SpaceRangerOrbField: {
+		DisplayName: Space Void
+	}
+
+	SpaceRangerOrb: {
+		DisplayName: Space Orb
+	}
+
+	SpaceRangerBlastExplosion: {
+		DisplayName: Space Explosion
+	}
+
+	SpaceRangerBlast: {
+		DisplayName: Space Blast
+	}
+
+	SmullApple: {
+		DisplayName: Smull Apple
+	}
+
+	SmolApple: {
+		DisplayName: Smol Apple
+	}
+
+	SmallDarkMatterShot: {
+		DisplayName: Dark Matter
+	}
+
+	SmallApple: {
+		DisplayName: Small Apple
+	}
+
+	RisingRainbowBeam: {
+		DisplayName: Casting light
+	}
+
+	RangerStarExplode: {
+		DisplayName: Ranger Star Explosion
+	}
+
+	RangerStar: {
+		DisplayName: Ranger Star
+	}
+
+	RainbowSwordBeam: {
+		DisplayName: Casting light
+	}
+
+	RainbowSlash: {
+		DisplayName: Rainbow Slash
+	}
+
+	Puff: {
+		DisplayName: Puff
+	}
+
+	PoppyBombExplode: {
+		DisplayName: Poppy Bomb Explosion
+	}
+
+	PoppyBomb: {
+		DisplayName: Poppy Bomb
+	}
+
+	PlayerSlam: {
+		DisplayName: Slam
+	}
+
+	PlasmaZap: {
+		DisplayName: Plasma Zap
+	}
+
+	PlasmaShield: {
+		DisplayName: Plasma Shield
+	}
+
+	PlasmaOrb: {
+		DisplayName: Plasma Shield
+	}
+
+	PlasmaLaser: {
+		DisplayName: Plasma Laser
+	}
+
+	PlasmaBlast: {
+		DisplayName: Plasma Blast
+	}
+
+	PinkRangerStar: {
+		DisplayName: Pink Ranger Star
+	}
+
+	ZeroPet: {
+		DisplayName: Light Wanderer
+	}
+
+	ZeroEyePetProj: {
+		DisplayName: Zero's Eye
+	}
+
+	WhispyPet: {
+		DisplayName: Murmuring Woods
+	}
+
+	NightmarePet: {
+		DisplayName: Shade Mage
+	}
+
+	KrackoPet: {
+		DisplayName: Lil' Krackle
+	}
+
+	KingDededePet: {
+		DisplayName: Dee
+	}
+
+	DarkMatterPet: {
+		DisplayName: Dark Wanderer
+	}
+
+	DarkFollower: {
+		DisplayName: Dark Follower
+	}
+
+	PersonalCloudBeam: {
+		DisplayName: Personal Cloud Beam
+	}
+
+	PersonalCloud: {
+		DisplayName: Personal Cloud
+	}
+
+	ParosolMinion: {
+		DisplayName: Parasol Waddle Dee
+	}
+
+	ParosolHitbox: {
+		DisplayName: Parosol Hitbox
+	}
+
+	NightSlash: {
+		DisplayName: Night Slash
+	}
+
+	NewHammerShockwave: {
+		DisplayName: Shockwave
+	}
+
+	NewHammerMissile: {
+		DisplayName: Hammer Missile
+	}
+
+	NewHammerHoldUp: {
+		DisplayName: New Hammer Hold Up
+	}
+
+	NeedleBall: {
+		DisplayName: Needle Ball
+	}
+
+	NebulaStar: {
+		DisplayName: Dark Nebula Star
+	}
+
+	MiniWhispy: {
+		DisplayName: Mini Whispy
+	}
+
+	MinionIce: {
+		DisplayName: Minion Ice
+	}
+
+	MinionFire: {
+		DisplayName: Minion Fire
+	}
+
+	MinionBeam: {
+		DisplayName: Minion Beam
+	}
+
+	MetaSlash: {
+		DisplayName: Meta Slash
+	}
+
+	MetalUppercut: {
+		DisplayName: Metal Uppercut
+	}
+
+	MetalSlam: {
+		DisplayName: Metal Slam
+	}
+
+	MetalFistProj: {
+		DisplayName: Metal Fist
+	}
+
+	MetalFighterSpike: {
+		DisplayName: Metal Fighter Spike
+	}
+
+	MetaKnightSwing: {
+		DisplayName: Meta Knight Swing
+	}
+
+	MatterOrb: {
+		DisplayName: Dark Petal
+	}
+
+	MasterSwordProj: {
+		DisplayName: Master Sword Proj
+	}
+
+	MasterSwing: {
+		DisplayName: Master Swing
+	}
+
+	MasterDash: {
+		DisplayName: Master Dash
+	}
+
+	MaskedHammerThrow: {
+		DisplayName: Masked Hammer Throw
+	}
+
+	MaskedFireTornadoSmall: {
+		DisplayName: Fire Tornado
+	}
+
+	MaskedFireTornado: {
+		DisplayName: Fire Spin
+	}
+
+	LoveLoves: {
+		DisplayName: Love Heart
+	}
+
+	LoveDot: {
+		DisplayName: Love Dot
+	}
+
+	LightBeamLaser: {
+		DisplayName: Light Beam
+	}
+
+	LaserBeamLaser: {
+		DisplayName: Laser beam
+	}
+
+	KrackoLightning: {
+		DisplayName: Lightning
+	}
+
+	KirbyBallProj: {
+		DisplayName: Friend Ball
+	}
+
+	JoeBlast: {
+		DisplayName: Smash Punch
+	}
+
+	IceIce: {
+		DisplayName: Ice Ice
+	}
+
+	IceChunk: {
+		DisplayName: Ice Chunk
+	}
+
+	HomingNightStar: {
+		DisplayName: Night Star
+	}
+
+	HomingBombProj: {
+		DisplayName: Homing Bomb
+	}
+
+	HomingBombExplosion: {
+		DisplayName: Homing Bomb
+	}
+
+	HeroSlash: {
+		DisplayName: Hero Slash
+	}
+
+	HardenedSlam: {
+		DisplayName: Hardened Slam
+	}
+
+	HardenedPebble: {
+		DisplayName: Hardened Pebble
+	}
+
+	HardenedFistProj: {
+		DisplayName: Hardened Fist
+	}
+
+	HammerThrow: {
+		DisplayName: Hammer Throw
+	}
+
+	Gordo: {
+		DisplayName: Gordo
+	}
+
+	GooeyLaser: {
+		DisplayName: Gooey Laser
+	}
+
+	GooeyHitbox: {
+		DisplayName: Gooey
+	}
+
+	Gooey: {
+		DisplayName: Gooey
+	}
+
+	GoodWhisp: {
+		DisplayName: Whisp
+	}
+
+	GoodNightStar: {
+		DisplayName: Night Star
+	}
+
+	GoodMatterOrb: {
+		DisplayName: Dark Petal
+	}
+
+	GoodGordo: {
+		DisplayName: Gordo
+	}
+
+	GoodDarkOrb: {
+		DisplayName: Dark Orb
+	}
+
+	GoodDarkLaser: {
+		DisplayName: Dark Laser
+	}
+
+	GoodDarkBeam: {
+		DisplayName: Dark Beam
+	}
+
+	GoodBioSlash: {
+		DisplayName: Purple Slash
+	}
+
+	GoodBioDagger: {
+		DisplayName: Kunai
+	}
+
+	GigantSwing: {
+		DisplayName: Gigant Swing
+	}
+
+	FrostySculpture: {
+		DisplayName: Frosty Sculpture
+	}
+
+	FrostyIceIce: {
+		DisplayName: Frosty Ice
+	}
+
+	FlyingPunch: {
+		DisplayName: Flying Punch
+	}
+
+	FlyingPillarOfLight: {
+		DisplayName: Flying Pillar Of Light
+	}
+
+	FleurTornadoNado: {
+		DisplayName: Fleur Tornado
+	}
+
+	FleurTornadoFeather: {
+		DisplayName: Fleur Tornado Feather
+	}
+
+	FireSphere: {
+		DisplayName: Fire Sphere
+	}
+
+	FireFire: {
+		DisplayName: Fire Fire
+	}
+
+	FinalCutterBlade: {
+		DisplayName: Final Cutter Blade
+	}
+
+	FighterUppercut: {
+		DisplayName: Rising Break
+	}
+
+	ExplosiveCoconut: {
+		DisplayName: Explosive Coconut
+	}
+
+	DuoChillyMinion: {
+		DisplayName: Chilly
+	}
+
+	DuoBurningLeoMinion: {
+		DisplayName: Burning Leo
+	}
+
+	DreamedFriend: {
+		DisplayName: Dreamed Friend
+	}
+
+	DragonFireFire: {
+		DisplayName: Dragon Fire
+	}
+
+	DededeSlam: {
+		DisplayName: Slam
+	}
+
+	DarkOrb: {
+		DisplayName: Dark Orb
+	}
+
+	DarkMirrorProj: {
+		DisplayName: Dark Mirror
+	}
+
+	DarkMatterShot: {
+		DisplayName: Dark Matter
+	}
+
+	DarkLaser: {
+		DisplayName: Dark Laser
+	}
+
+	DarkBeam: {
+		DisplayName: Dark Beam
+	}
+
+	CyborgArcherProbe: {
+		DisplayName: Cyborg Archer Probe
+	}
+
+	CyborgArcherLaser: {
+		DisplayName: Red Laser
+	}
+
+	CyborgArcherArrow: {
+		DisplayName: Laser Arrow
+	}
+
+	CutterBlade: {
+		DisplayName: Cutter Blade
+	}
+
+	CrystalTrap: {
+		DisplayName: Crystal Trap
+	}
+
+	CrystalShardProj: {
+		DisplayName: Otherwordly Crystal Shard
+	}
+
+	CrystalNeedleBall: {
+		DisplayName: Crystal Needle Ball
+	}
+
+	CrystalClutter: {
+		DisplayName: Crystal Clutter
+	}
+
+	CresentSlash: {
+		DisplayName: Cresent Slash
+	}
+
+	ClutterNeedleBall: {
+		DisplayName: Clutter Needle Ball
+	}
+
+	Clutter: {
+		DisplayName: Clutter
+	}
+
+	CleaningBroomDustCloud: {
+		DisplayName: Dust Cloud
+	}
+
+	ChillyMinionFreeze: {
+		DisplayName: Chilly Minion Freeze
+	}
+
+	ChillyMinion: {
+		DisplayName: Chilly
+	}
+
+	ChargedArrowProj: {
+		DisplayName: Magic-Star Arrow
+	}
+
+	ChakramCutterProj: {
+		DisplayName: Chakram Cutter
+	}
+
+	ChainBombProj: {
+		DisplayName: Chain Bomb
+	}
+
+	ChainBombExplosion: {
+		DisplayName: Chain Bomb
+	}
+
+	BuzzCutterProj: {
+		DisplayName: Buzz-Saw
+	}
+
+	BurningLeoMinion: {
+		DisplayName: Burning Leo
+	}
+
+	BroomHatterDustCloud: {
+		DisplayName: Dust Cloud
+	}
+
+	BouncyGordo: {
+		DisplayName: Gordo
+	}
+
+	BonkersSmash: {
+		DisplayName: Smash
+	}
+
+	BombProj: {
+		DisplayName: Jolly Bomb
+	}
+
+	BombExplosive: {
+		DisplayName: Jolly Bomb
+	}
+
+	BlizzardIcicle: {
+		DisplayName: Blizzard Icicle
+	}
+
+	BlizzardFormation: {
+		DisplayName: Blizzard Formation
+	}
+
+	BladoProj: {
+		DisplayName: Blado
+	}
+
+	BladeSlash: {
+		DisplayName: Blade Slash
+	}
+
+	BirdonFeatherBad: {
+		DisplayName: Birdon Feather
+	}
+
+	BioSparkMinion: {
+		DisplayName: Bio Spark
+	}
+
+	BioSlash: {
+		DisplayName: Bio Slash
+	}
+
+	BioDagger: {
+		DisplayName: Kunai
+	}
+
+	BigRangerStar: {
+		DisplayName: Big Ranger Star
+	}
+
+	BeamBig: {
+		DisplayName: Beam
+	}
+
+	BeamWhipProj: {
+		DisplayName: Beam Attack
+	}
+
+	BeamBad: {
+		DisplayName: Beam Attack
+	}
+
+	BallOfImpendingDoom: {
+		DisplayName: Ball Of Impending Doom
+	}
+
+	BadStar: {
+		DisplayName: Night Star
+	}
+
+	BadPlasmaZap: {
+		DisplayName: Plasma Zap
+	}
+
+	BadPlasmaLaser: {
+		DisplayName: Plasma Laser
+	}
+
+	BadPlasmaBlast: {
+		DisplayName: Plasma Blast
+	}
+
+	BadIceChunk: {
+		DisplayName: Ice Cube
+	}
+
+	BadIce: {
+		DisplayName: Ice
+	}
+
+	BadFire: {
+		DisplayName: Fire
+	}
+
+	BadCutter: {
+		DisplayName: Cutter
+	}
+
+	Apple: {
+		DisplayName: Apple
+	}
+
+	AngledDarkBeam: {
+		DisplayName: Dark Beam
+	}
+
+	BloodyTendrilsProj: {
+		DisplayName: Bloody Tendrils
+	}
+}
+
+Items: {
+	NightmareMusicBox: {
+		DisplayName: オルゴール (ナイトメア)
+		Tooltip: ""
+	}
+
+	PowerOrbMusicBox: {
+		DisplayName: オルゴール (ナイトメアパワーオーブ)
+		Tooltip: ""
+	}
+
+	PureDarkMatterMusicBox: {
+		DisplayName: オルゴール (リアルダークマター)
+		Tooltip: ""
+	}
+
+	ZeroMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ゼロ)
+	}
+
+	Photonic0Boots: {
+		Tooltip: "[i:3875]ダークアーティストのローブに合うブーツがなかったから作りました"
+		DisplayName: フォトニックブーツ
+	}
+
+	DreamLandBossMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ボスのテーマ)
+	}
+
+	DarkMatterMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ダークマター)
+	}
+
+	DededeMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (デデデ大王)
+	}
+
+	DimensionalDestabilizer: {
+		Tooltip:
+			'''
+			カーソルの位置に次元の裂け目を召喚する
+			裂け目から召喚される敵は、現在いるバイオームによって変化する
+			使用するたびにスタービットを25個消費する
+			'''
+		DisplayName: 次元不安定化装置
+	}
+
+	Changaroonie: {
+		DisplayName: ゲームチェンジャー
+		Tooltip:
+			'''
+			デバッグアイテム
+			現在の進行状況を切り替える
+			'''
+	}
+
+	ZeroTrophy: {
+		Tooltip: ""
+		DisplayName: ゼロのトロフィー
+	}
+
+	ZeroPetItem: {
+		Tooltip:
+			'''
+			ちびゼロとその仲間たちを召喚する
+			「ほとんど重さを感じない。」
+			'''
+		DisplayName: 空ろな殻
+	}
+
+	ZeroMask: {
+		Tooltip: ""
+		DisplayName: ゼロのマスク
+	}
+
+	ZeroEyePet: {
+		Tooltip: 周囲を赤い光で照らしてくれるゼロの目玉を召喚する
+		DisplayName: 真紅の眼球
+	}
+
+	ZeroBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（ゼロ）
+	}
+
+	BloodyTendrils: {
+		Tooltip: 「嫌な感触がする。」
+		DisplayName: 血塗られた触手
+	}
+
+	BadgeOfGloom: {
+		Tooltip:
+			'''
+			内なる闇を呼び覚ます
+			攻撃中、カーソルを追尾するダークマターが放たれる
+			与えるダメージは防御力の値によって変動する
+			'''
+		DisplayName: 暗黒の印章
+	}
+
+	WhispyTrophy: {
+		Tooltip: ""
+		DisplayName: ウィスピーウッズのトロフィー
+	}
+
+	WhispyPetItem: {
+		Tooltip:
+			'''
+			ちびウィスピーを召喚する
+			「今、何か聞こえなかった？」
+			'''
+		DisplayName: ウィスピーの苗木
+	}
+
+	WhispyMask: {
+		Tooltip: ""
+		DisplayName: ウィスピーウッズのマスク
+	}
+
+	WhispyBush: {
+		Tooltip:
+			'''
+			ダメージを受けた時、リンゴをばら撒く
+			ダメージは防御力の値によって変動する
+			'''
+		DisplayName: リンゴの低木
+	}
+
+	WhispyBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（ウィスピーウッズ）
+	}
+
+	WhispySeed: {
+		Tooltip:
+			'''
+			設置したタイルを右クリックするとウィスピーウッズを召喚できる
+			「広く平らな地面に植えるのがオススメ！」
+			'''
+		DisplayName: 怪しげなタネ
+	}
+
+	WindPipe: {
+		Tooltip: 煙を放つ、煙は一定距離で爆発して小さな煙に分裂する
+		DisplayName: 風のパイプ
+	}
+
+	WildHammer: {
+		Tooltip:
+			'''
+			右クリックで溜め、カーソルに向かって突進する強力な攻撃を繰り出す
+			最大まで溜めたら左クリックで放つことができる
+			溜め動作中はダメージを35%軽減する
+			'''
+		DisplayName: ワイルドハンマー
+	}
+
+	WeirdParosol: {
+		Tooltip:
+			'''
+			一緒に戦ってくれる友好的な謎の存在を召喚する
+			「君は...誰？」
+			'''
+		DisplayName: おいしいサカナ
+	}
+
+	VolcanoFire: {
+		Tooltip:
+			'''
+			溶岩の岩石を発射する
+			岩石は敵に接触すると爆発する
+			'''
+		DisplayName: ボルケーノファイアキャノン
+	}
+
+	TripleStar: {
+		Tooltip:
+			'''
+			敵の防御を{0}無視する
+			最大で3発の跳ね返る星を放ち、軌道上の敵に命中する
+			右クリックで3発同時に放つことができるが、その分多くのマナを消費する
+			待機中の星はプレイヤーの周囲を回転し、近くの敵にダメージを与える...
+			...マルチプレイ中は星の回転がうまく動作しないため、代わりにダメージを与えるオーラを発生させる
+			'''
+		DisplayName: トリプルスター
+	}
+
+	ToyHammer: {
+		Tooltip:
+			'''
+			右クリックで溜め、カーソルに向かって突進する強力な攻撃を繰り出す
+			最大まで溜めたら左クリックで放つことができる
+			'''
+		DisplayName: ピコピコハンマー
+	}
+
+	Tornado: {
+		Tooltip:
+			'''
+			左クリックを押し続けてカーソルを追尾する竜巻を召喚する
+			使用中はマナを消費する
+			使用を開始するにはマナが最大である必要がある
+			敵の防御を完全に無視する
+			'''
+		DisplayName: トルネイドリング
+	}
+
+	SwishyTree: {
+		Tooltip:
+			'''
+			攻撃時、リンゴを3つ放つ
+			「サワサワサワ〜」
+			'''
+		DisplayName: リンゴの木
+	}
+
+	SwayingBranch: {
+		Tooltip: ウィスピーウッズのセントリーを召喚し、敵にリンゴを発射する
+		DisplayName: 奇妙な小枝
+	}
+
+	StormTornado: {
+		Tooltip:
+			'''
+			左クリックを押し続けてカーソルを追尾する竜巻を召喚する
+			発動中や消滅時に雷雲と電撃の奔流を残す
+			使用中はマナを消費する
+			使用を開始するにはマナが最大である必要がある
+			敵の防御を完全に無視する
+			'''
+		DisplayName: ストームトルネイドリング
+	}
+
+	StarRod: {
+		Tooltip:
+			'''
+			星型弾を発射する
+			敵の防御を{0}無視する
+			'''
+		DisplayName: スターロッド
+	}
+
+	Staff: {
+		Tooltip:
+			'''
+			ジャハルビートが扱う強大な杖
+			左クリックで振り回すことができる
+			'''
+		DisplayName: ジャマスティック
+	}
+
+	SpaceRangerGun: {
+		Tooltip:
+			'''
+			すべての弾丸はプラズマ弾に変換され、命中時に火花を放つ
+			[i:KirboMod/StarBullet]星の弾丸は高密度のプラズマ球に変換される
+			25%の確率で弾薬を消費しない
+			'''
+		DisplayName: スペースレンジャーガン
+	}
+
+	ShinobiScroll: {
+			Tooltip: 共に戦うバイオスパークを召喚する
+			DisplayName: シノビの巻物
+	}
+
+	RangerGun: {
+		Tooltip:
+			'''
+			すべての弾丸を星型弾に変換する
+			[i:KirboMod/StarBullet]星の弾丸は巨大な星型弾に変換される
+			「※落ちている星は弾薬として使えません」
+			'''
+		DisplayName: レンジャーガン
+	}
+
+	RainbowSword: {
+		Tooltip: 光を掲げ、世界を照らす剣
+		DisplayName: 虹の剣
+	}
+
+	Plasma: {
+		Tooltip:
+			'''
+			方向キーをガチャ押してチャージすることで強力な電撃を放つ
+			威力はどれだけ溜めたかによって変化する
+			強力な放電ほどマナ消費が少なくなる
+			'''
+		DisplayName: プラズマチャージャー
+	}
+
+	Parosol: {
+		Tooltip: 共に戦うパラソルワドルディを召喚する
+		DisplayName: パラソル
+	}
+
+	OrnateChest: {
+		Tooltip:
+			'''
+			暗黒の支配者が封印されている...
+			使用すると闇のかけらを解き放って攻撃する
+			'''
+		DisplayName: 装飾された宝箱
+	}
+
+	NobleRangerGun: {
+		Tooltip:
+			'''
+			すべての弾丸を星型弾に変換して連射する
+			[i:KirboMod/StarBullet]星の弾丸は高速な星型弾に変換される
+			'''
+		DisplayName: ノーブルレンジャーガン
+	}
+
+	NewHammer: {
+		Tooltip:
+			'''
+			左クリックで地面で振り下ろすと衝撃波を発生させ、右クリックで追尾ミサイルを発射する
+			衝撃波は2倍のダメージを与え、ミサイルは4.5倍のダメージを与える
+			「...機は熟した。いまこそ、わが新兵器の力を見せる時...」
+			'''
+		DisplayName: ニューデデデハンマー
+	}
+
+	Needle: {
+		Tooltip:
+		'''	
+		地面を転がり、進路上の敵を攻撃する
+		この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+		'''
+		DisplayName: ニードルボール
+	}
+
+	MetalFighter: {
+		Tooltip:
+			'''
+			[i:KirboMod/FighterGlove]ファイターグローブの効果に加え
+			下方向を押しながら右クリックでスカイキックを発動することができる
+			「弾道ミサイルのように舞い、弾道ミサイルのように刺す」
+			'''
+		DisplayName: メタルファイターグローブ
+	}
+
+	MetaKnightSword: {
+		Tooltip: 伝説の剣士の象徴的な武器を再現したもの
+		DisplayName: 宝剣ギャラクシア
+	}
+
+	MasterSword: {
+		Tooltip:
+			'''
+			空中で方向キーと右クリックを入力すると強力なダッシュ攻撃を行う
+			ダッシュ中はダメージを50%軽減する
+			「鏡の世界の闇を封じる剣」
+			'''
+		DisplayName: マスターソード
+	}
+
+	MaskedHammer: {
+		Tooltip:
+			'''
+			地上で左クリックを押し続けると、向いている方向に炎の竜巻を振り回す
+			右クリックで溜め、カーソルに向かって突進する強力な攻撃を繰り出す
+			最大まで溜めたら左クリックで放つことができる
+			溜め動作中はダメージを35%軽減する
+			'''
+		DisplayName: 猛獣仮面のハンマー
+	}
+
+	LoveLoveStick: {
+		Tooltip: 「愛と希望だけで作られた武器」
+		DisplayName: ラブラブステッキ
+	}
+
+	LightBeam: {
+		Tooltip:
+			'''
+			聖なる光線を降り注がせる
+			「闇の中でも、君と共にいる...」
+			'''
+		DisplayName: ミラクルビームスタッフ
+	}
+
+	LaserBeam: {
+		Tooltip: 直線上に複数のレーザーを放つ
+		DisplayName: レーザービームスタッフ
+	}
+
+	KirbyBall: {
+		Tooltip: 上下に跳ね、壁に当たると反対方向に跳ね返る
+		DisplayName: フレンズボール
+	}
+
+	Ice: {
+		Tooltip:
+			'''
+			吹雪を発射する
+			この武器で倒された敵は氷の塊に変化する
+			'''
+		DisplayName: アイスブレス
+	}
+
+	HunterArcherBow: {
+		Tooltip:
+			'''
+			すべての矢を3本の道化師の矢に変換する
+			[i:KirboMod/StarArrow]星の矢は5本の追尾する矢に変換する
+			'''
+		DisplayName: トライキラー
+	}
+
+	HomingBomb: {
+		Tooltip:
+			'''
+			着地後に追尾機能を起動する
+			爆発前に敵を追尾する
+			爆発時に周囲のホーミングボムも誘爆させる
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: オートサーチボム
+	}
+
+	HeroSword: {
+		Tooltip: 2回振るごとにビームを1発放つ
+		DisplayName: ヒーローソード
+	}
+
+	HardenedFighter: {
+		Tooltip: 
+		'''
+		[i:KirboMod/FighterGlove]ファイターグローブの効果に加え
+		ライジンブレイクで跳ね返る岩の連撃が発生する
+		'''
+		DisplayName: ハードファイターグローブ
+	}
+
+	Hammer: {
+		Tooltip:
+			'''
+			右クリックで溜め、カーソルに向かって突進する強力な攻撃を繰り出す
+			最大まで溜めたら左クリックで放つことができる
+			'''
+		DisplayName: ボンカースのハンマー
+	}
+
+	GordoItem: {
+		Tooltip:
+			'''
+			「牽制から復帰阻止まで！万能な投擲武器」
+			'''
+		DisplayName: ゴルドー
+	}
+
+	GigantSword: {
+		Tooltip:
+			'''
+			前方に巨大な斬撃を放つ
+			地面をなぞる軌道で飛ばすと斬撃がより強力になる
+			'''
+		DisplayName: ギガントソード
+	}
+
+	FrostyIce: {
+		Tooltip:
+			'''
+			吹雪を発射し、雪だるまを形成する
+			この武器で倒された敵は氷の塊に変化する
+			'''
+		DisplayName: フロストアイスブレス
+	}
+
+	FleurTornado: {
+		Tooltip:
+			'''
+			左クリックを押し続けてカーソルを追尾する竜巻を召喚する
+			発動中や消滅時に複数の羽根を発射する
+			使用中はマナを消費する
+			使用を開始するにはマナが最大である必要がある
+			'''
+		DisplayName: スワロトルネイドリング
+	}
+
+	Fire: {
+		Tooltip:
+			'''
+			炎を発射する
+			命中した敵は炎上する
+			'''
+		DisplayName: ファイアキャノン
+	}
+
+	FinalCutter: {
+		Tooltip:
+			'''
+			前方へ一定距離進んだ後、反対方向へ飛んでいく
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: ファイナルカッター
+	}
+
+	FighterGlove: {
+		Tooltip:
+			'''
+			攻撃を当てることでエネルギーが溜まる
+			右クリックで溜めたエネルギーをすべて消費し、ライジンブレイクを繰り出す
+			使用したエネルギー量が多いほどライジンブレイクの威力が上がる
+			最大チャージの半分以上を一度に使うと、ライジンブレイクの移動距離が伸び、無敵状態になる
+			敵の防御を{0}無視する
+			'''
+		DisplayName: ファイターグローブ
+	}
+
+	DreamRod: {
+		Tooltip:
+			'''
+			仲間たちの力を借りて攻撃する
+			召喚スロットが多いほど仲間の効果が強化される
+			'''
+		DisplayName: ドリームロッド
+	}
+
+	DragonFire: {
+		Tooltip:
+			'''
+			闇の炎を連続で放つ
+			命中した敵にシャドウファイアを付与する
+			敵の防御を{0}無視する
+			'''
+		DisplayName: ドラゴニックファイアキャノン
+	}
+
+	DooStaff: {
+		Tooltip:
+			'''
+			共に戦うワドルドゥを召喚する
+			「ビーム攻撃！」
+			'''
+		DisplayName: ドゥスタッフ
+	}
+
+	DarkSword: {
+		Tooltip: 闇の光線、闇の弾、そして巨大な闇の波動を放つ
+		DisplayName: ダークソード
+	}
+
+	DarknessRay: {
+		Tooltip: 空を裂く闇のレーザーを放つ
+		DisplayName: ダークネスレイ
+	}
+
+	CyborgArcherBow: {
+			Tooltip:
+			'''
+			すべての矢をレーザーアローに変換する
+			[i:KirboMod/StarArrow]星の矢はレーザービームと4本の追加レーザーアローに変換する
+			レーザーアローは防御力を25無視し、9回貫通する（威力は5%ずつ減少）
+			レーザービームは無限に貫通する
+			'''
+		DisplayName: ボットショット
+	}
+
+	Cutter: {
+		Tooltip: 
+			'''
+			前方へ一定距離進んだ後、反対方向へ飛んでいく
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: カッター
+	}
+
+	CrystalNeedle: {
+		Tooltip:
+			'''
+			地面を転がり、進路上の敵を攻撃しながらクリスタルを残す
+			消滅時にクリスタルの針を射出する
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: クリスタルニードルボール
+	}
+
+	CrystalGun: {
+		Tooltip:
+			'''
+			敵を追尾するクリスタル弾を発射する
+			弾薬として[i:KirboMod/CrystalShard]妖精のクリスタルを消費する（[i:502]は使用できない）
+			75%の確率で弾薬を消費しない
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: 妖晶零弐
+	}
+
+	CrownOfIce: {
+		Tooltip:
+			'''
+			共に戦うチリーを召喚する
+			敵の防御を{0}無視する
+			'''
+		DisplayName: 氷の王冠
+	}
+
+	CrownOfFire: {
+		Tooltip: 共に戦うバーニンレオを召喚する
+		DisplayName: 炎の王冠
+	}
+
+	CrownOfClimate: {
+		Tooltip:
+			'''
+			共に戦うバーニンレオとチリーのコンビを召喚する
+			「ダメージ値が低すぎるって？ まあ試してみなよ」
+			'''
+		DisplayName: 氷炎の王冠
+	}
+
+	ClutterNeedle: {
+		Tooltip:
+			'''
+			地面を転がり、進路上の敵を攻撃する
+			転がりながら多数の跳ね返るガラクタを生成する
+			しばらくすると爆発して20発のガラクタ弾をばら撒く
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: ジャンクニードルボール
+	}
+
+	CleaningBroom: {
+		Tooltip:
+			'''
+			地上で振ると、カーソルの方向へほこりを巻き上げる
+			「サッサ、サッサ、サッサー！」
+			'''
+		DisplayName: クリーンほうき
+	}
+
+	ChakramCutter: {
+		Tooltip:
+			'''
+			チャクラムを最大2枚放つ
+			前方へ一定距離進んだ後、手元に戻ってくる
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: チャクラムカッター
+	}
+
+	ChainBomb: {
+		Tooltip:
+			'''
+			一定時間後、または敵に接触すると爆発する
+			近くのチェーンボム同士は連結され、連結数が多いほど威力が上昇する
+			爆発時に連結中のチェーンボムも同時に起爆する
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: チェインボム
+	}
+
+	BuzzCutter: {
+		Tooltip:
+			'''
+			壁で反射し、敵を削る回転ブレードを放つ
+			敵の防御を完全に無視する
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: フルメタルカッター
+	}
+
+	Bomb: {
+		Tooltip: 
+			'''
+			一定時間後、または敵に接触すると爆発する
+			この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+			'''
+		DisplayName: ボム
+	}
+
+	BlizzardIce: {
+		Tooltip:
+			'''
+			つららの弾幕を放つ
+			敵に触れたつららは相手の体にダメージを与える氷の結晶を発生させる
+			敵を倒すとその敵は氷の塊に変化する
+			地面に着弾したつららは巨大な氷柱を形成する
+			氷柱による撃破では敵は氷の塊に変化しない
+			'''
+		DisplayName: ブリザードアイスブレス
+	}
+
+	Blado: {
+		Tooltip: 地面に着地した後、前方へ回転しながら進む
+		DisplayName: ブレドー
+	}
+
+	BeamStaff: {
+		Tooltip:
+			'''
+			高威力、高ノックバック、高貫通力、高精度を誇るが、射程が短くマナ消費が多い
+			「ビームウィップ！」
+			'''
+		DisplayName: ビームスタッフ
+	}
+
+	BallsofMatter: {
+		Tooltip: 飛び出した後、カーソルの位置へ向かって高速で移動する
+		DisplayName: 闇の花びら
+	}
+
+	ArcherBow: {
+		Tooltip:
+			'''
+			すべての矢を道化師の矢に変換する
+			[i:KirboMod/StarArrow]星の矢は1.15倍のダメージを与え、敵を追尾する流星の矢に変換する
+			'''
+		DisplayName: スナイパーボウ
+	}
+
+	Starbit: {
+			Tooltip: 願いが形を成した欠片
+			DisplayName: スタービット
+	}
+
+	SkyBlanket: {
+		Tooltip:
+			'''
+			クラッコJr.を呼び出す
+			'''
+		DisplayName: 空のブランケット
+	}
+
+	RareStone: {
+		Tooltip: 特定の武器の強化に使用する
+		DisplayName: レアストーン
+	}
+
+	SnowDrop: {
+		Tooltip: 雪原に眠る虹のしずく
+		DisplayName: 雪原のしずく
+	}
+
+	OceanDrop: {
+		Tooltip: 穏やかな海岸に宿る虹のしずく
+		DisplayName: 海岸のしずく
+	}
+
+	JungleDrop: {
+		Tooltip: 活気あふれる密林の虹のしずく
+		DisplayName: 密林のしずく
+	}
+
+	HellDrop: {
+		Tooltip: 灼熱の地獄に燃える虹のしずく
+		DisplayName: 地獄のしずく
+	}
+
+	EvilDrop: {
+		Tooltip: 邪悪な瘴気に染まった虹のしずく
+		DisplayName: 邪悪なしずく
+	}
+
+	DesertDrop: {
+		Tooltip: 枯れ果てた砂漠に眠る虹のしずく
+		DisplayName: 砂漠のしずく
+	}
+
+	PurifiedMaterial: {
+		Tooltip: 闇から解き放たれ、幸福な思念と感情に満ちて輝く物質
+		DisplayName: ピュアマター
+	}
+
+	FountainOfDreams: {
+		Tooltip:
+			'''
+			昼はよき夢をもたらし、
+			夜は邪悪な悪夢がその周囲を漂う
+			'''
+		DisplayName: 夢の泉
+	}
+
+	ZeroRelic: {
+		Tooltip: ""
+		DisplayName: ゼロのレリック
+	}
+
+	WhispyWoodsRelic: {
+		Tooltip: ""
+		DisplayName: ウィスピーウッズのレリック
+	}
+
+	NightmareRelic: {
+		Tooltip: ""
+		DisplayName: ナイトメアのレリック
+	}
+
+	KrackoRelic: {
+		Tooltip: ""
+		DisplayName: クラッコのレリック
+	}
+
+	KingDededeRelic: {
+		Tooltip: ""
+		DisplayName: デデデ大王のレリック
+	}
+
+	DarkMatterRelic: {
+		Tooltip: ""
+		DisplayName: ダークマターのレリック
+	}
+
+	PillarOfLight: {
+		Tooltip: 世界に深淵の闇を呼び降ろす
+		DisplayName: 光無き世界の偶像
+	}
+
+	NightmareTrophy: {
+		Tooltip: ""
+		DisplayName: ナイトメアのトロフィー
+	}
+
+	NightmarePetItem: {
+		Tooltip:
+			'''
+			ちびナイトメアを召喚する
+			「不吉な気配が漂っている。」
+			'''
+		DisplayName: 闇の封珠
+	}
+
+	NightmareMask: {
+		Tooltip: ""
+		DisplayName: ナイトメアのマスク
+	}
+
+	NightmareCrown: {
+		Tooltip:
+			'''
+			上キーを押すことでテレポートできる
+			テレポート後は悪夢に侵され、その状態でテレポートを行うとライフを失う
+			'''
+		DisplayName: ナイトメアの王冠
+	}
+
+	NightmareBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（ナイトメア）
+	}
+
+	NightCloth: {
+		Tooltip: 悪夢そのものから織り上げられた布
+		DisplayName: 悪夢の布
+	}
+
+	MiracleMatter: {
+		Tooltip: 純粋なる闇から極まれに生まれる奇跡の物質
+		DisplayName: ミラクルマター
+	}
+
+	PersonalCloud: {
+		Tooltip: 雷雲を召喚し、敵に電撃を浴びせる
+		DisplayName: ポータブル雷雲
+	}
+
+	KrackoTrophy: {
+		Tooltip: ""
+		DisplayName: クラッコのトロフィー
+	}
+
+	KrackoPetItem: {
+		Tooltip:
+			'''
+			ちびクラッコを召喚する
+			「触るとチクチクする。」
+			'''
+		DisplayName: うごめくわたあめ
+	}
+
+	KrackoMask: {
+		Tooltip: ""
+		DisplayName: クラッコのマスク
+	}
+
+	KrackoBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（クラッコ）
+	}
+
+	RoyalSlippers: {
+		Tooltip:
+			'''
+			空中で下キーを押すことで急降下し、地面に着地することで衝撃波による攻撃を行える
+			上キーまたはジャンプで落下をキャンセルできる
+			「大王は靴を履かないはず...これ、誰の？」
+			'''
+		DisplayName: 王室のスリッパ
+	}
+
+	KingDededeTrophy: {
+		Tooltip: ""
+		DisplayName: デデデ大王のトロフィー
+	}
+
+	KingDededePetItem: {
+		Tooltip:
+			'''
+			ちびデデデを召喚する
+			「自称大王」
+			'''
+		DisplayName: 金の卵
+	}
+
+	KingDededeMask: {
+		Tooltip: ""
+		DisplayName: デデデ大王のマスク
+	}
+
+	KingDededeBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（デデデ大王）
+	}
+
+	HeartStar: {
+		Tooltip: 星の力に満ちた愛と慈しみの結晶
+		DisplayName: ハートスター
+	}
+
+	HeartMatter: {
+		Tooltip: 宇宙に満ちる優しさと愛情から生まれた物質
+		DisplayName: フレンズハート
+	}
+
+	DreamEssence: {
+		Tooltip: すべての心、願い、そして夢が形となった物質
+		DisplayName: ドリームマター
+	}
+
+	DededeBrooch: {
+		Tooltip:
+			'''
+			デデデ大王を召喚する
+			「とある戦いで逆転の一手となったブローチ...の偽物」
+			'''
+		DisplayName: 大王のブローチ
+	}
+
+	DarkMirror: {
+		Tooltip:
+			'''
+			ダークマターを召喚する
+			「不気味な気配を放っている」
+			'''
+		DisplayName: 闇の鏡
+	}
+
+	DarkShield: {
+		Tooltip:
+			'''
+			方向キーを素早く2回押すことで、敵をすり抜けながらダメージを与えるダッシュが可能になる
+			ダッシュ中は与えるダメージが30%減少する
+			'''
+		DisplayName: ダークシールド
+	}
+
+	DarkMatterTrophy: {
+		Tooltip: ""
+		DisplayName: ダークマターのトロフィー
+	}
+
+	DarkMatterPetItem: {
+		Tooltip:
+			'''
+			ちびダークマターを召喚する
+			「見つめ返してきている...」
+			'''
+		DisplayName: 黒い瞳
+	}
+
+	DarkMatterMask: {
+		Tooltip: ""
+		DisplayName: ダークマターのマスク
+	}
+
+	DarkMatterBag: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ（ダークマター）
+	}
+
+	DarkMaterial: {
+		Tooltip: 恐ろしい感情と思念が脈動する物質
+		DisplayName: ダークマター
+	}
+
+	CrystalShard: {
+		Tooltip: "普通より高純度なクリスタル"
+		DisplayName: 妖精のクリスタル
+	}
+
+	BirdonFeather: {
+		Tooltip: ""
+		DisplayName: バードンの羽
+	}
+
+	WaddleDooBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ワドルディ
+		DisplayName: ワドルディのバナー
+	}
+
+	WaddleDooBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ワドルドゥ
+		DisplayName: ワドルドゥのバナー
+	}
+
+	UFOBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ユーフォー
+		DisplayName: ユーフォーのバナー
+	}
+
+	TwisterBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ツイスター
+		DisplayName: ツイスターのバナー
+	}
+
+	SirKibbleBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：サーキブル
+		DisplayName: サーキブルのバナー
+	}
+
+	ScarfyBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：スカーフィ
+		DisplayName: スカーフィのバナー
+	}
+
+	PoppyBrosJrBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ポピーブロスJr.
+		DisplayName: ポピーブロスJr.のバナー
+	}
+
+	PlasmaWispBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：プラズマウィスプ
+		DisplayName: プラズマウィスプのバナー
+	}
+
+	ParosolWaddleDeeBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：パラソルワドルディ
+		DisplayName: パラソルワドルディのバナー
+	}
+
+	MrFrostyBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mr.フロスティ
+		DisplayName: Mr.フロスティのバナー
+	}
+
+	KnuckleJoeBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ナックルジョー
+		DisplayName: ナックルジョーのバナー
+	}
+
+	KabuBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：カブー
+		DisplayName: カブーのバナー
+	}
+
+	ChillyBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：チリー
+		DisplayName: チリーのバナー
+	}
+
+	CappyBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：キャピィ
+		DisplayName: キャピィのバナー
+	}
+
+	BurningLeoBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：バーニンレオ
+		DisplayName: バーニンレオのバナー
+	}
+
+	BroomHatterBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ブルームハッター
+		DisplayName: ブルームハッターのバナー
+	}
+
+	BrontoBurtBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ブロントバート
+		DisplayName: ブロントバートのバナー
+	}
+
+	BonkersBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ボンカース
+		DisplayName: ボンカースのバナー
+	}
+
+	BladeKnightBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ブレイドナイト
+		DisplayName: ブレイドナイトのバナー
+	}
+
+	BirdonBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：バードン
+		DisplayName: バードンのバナー
+	}
+
+	BioSparkBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：バイオスパーク
+		DisplayName: バイオスパークのバナー
+	}
+
+	AirWalkerLeggings: {
+		Tooltip: 移動速度が10%上昇する
+		DisplayName: 空の暴れん坊の靴
+	}
+
+	AirWalkerHelmet: {
+		Tooltip: ジャンプ速度が20%上昇する
+		DisplayName: 空の暴れん坊の兜
+	}
+
+	AirWalkerBreastplate: {
+		Tooltip:
+			'''
+			移動速度が20%上昇する
+			ジャンプ速度が20%上昇する
+			'''
+		DisplayName: 空の暴れん坊の鎧
+	}
+
+	StarBullet: {
+		Tooltip: 優雅に空を飛ぶ
+		DisplayName: 星の弾丸
+	}
+
+	StarArrow: {
+		Tooltip: 重力の影響を受けない
+		DisplayName: 星の矢
+	}
+
+	PeeWeePole: {
+		Tooltip: 乗ることができる雲を召喚する
+		DisplayName: 如意棒
+	}
+
+	NightCloak: {
+		Tooltip:
+			'''
+			ダメージを受けると追尾する星を召喚し、受けたダメージ量に応じて星の数が増加する
+			星の合計ダメージは受けたダメージの3倍になる
+			各星は敵の防御力を40無視する
+			PVPでは星は常に「受けたダメージ×3」の威力で生成される
+			PVPで発生した星は敵に当たらず、敵の星もプレイヤーには当たらない
+			棘や溶岩などの敵からの攻撃以外でのダメージでは発動しない
+			'''
+		DisplayName: 悪夢のマント
+	}
+
+	KirbyBalloon: {
+		Tooltip: 空中で無限にジャンプが可能となる
+		DisplayName: ピンクの風船
+	}
+}
+
+Buffs: {
+	DragonFireDebuff: {
+		Description: Mods.KirboMod.Buffs.DragonFireDebuff.Description
+		DisplayName: ドラゴニックファイアの炎上
+	}
+
+	ZeroPetBuff: {
+		Description: 空虚な殻に闇を引き寄せる
+		DisplayName: ちびゼロ
+	}
+
+	ZeroEyePetBuff: {
+		Description: 瞬きをできない苦痛に、絶えず苛まれている
+		DisplayName: ゼロの目玉
+	}
+
+	WhispyPetBuff: {
+		Description: ススススス...
+		DisplayName: ちびウィスピー
+	}
+
+	NightmarePetBuff: {
+		Description: その影の中に、何を隠しているのだろう
+		DisplayName: ちびナイトメア
+	}
+
+	KrackoPetBuff: {
+		Description: ときどき涙のように水をこぼす
+		DisplayName: ちびクラッコ
+	}
+
+	KingDededePetBuff: {
+		Description: いつの日か、すべてを統べる者となる...はず
+		DisplayName: ちびデデデ
+	}
+
+	DarkMatterPetBuff: {
+		Description: 君の内なる闇に惹かれているようだ
+		DisplayName: ちびダークマター
+	}
+
+	Nightmare: {
+		Description: 悪しき思念に包まれている
+		DisplayName: 悪夢
+	}
+
+	WaddleDooBuff: {
+		Description: ワドルドゥが一緒に戦ってくれる
+		DisplayName: ワドルドゥ
+	}
+
+	ParosolBuff: {
+		Description: パラソルワドルディが一緒に戦ってくれる
+		DisplayName: パラソルワドルディ
+	}
+
+	LeoAndChillyBuff: {
+		Description: バーニンレオとチリーが一緒に戦ってくれる
+		DisplayName: バーニンレオ＆チリー
+	}
+
+	GooeyBuff: {
+		Description: グーイはどんな時でもあなたを支えてくれる
+		DisplayName: グーイ
+	}
+
+	ChillyBuff: {
+		Description: チリーが一緒に戦ってくれる
+		DisplayName: チリー
+	}
+
+	BurningLeoBuff: {
+		Description: バーニンレオが一緒に戦ってくれる
+		DisplayName: バーニンレオ
+	}
+
+	BioSparkBuff: {
+		Description: バイオスパークが一緒に戦ってくれる
+		DisplayName: バイオスパーク
+	}
+
+	HopesAndDreams: {
+		Description: 仲間たちの希望と夢が、力を与えている！
+		DisplayName: 希望と夢
+	}
+
+	FlyingNimbusMount: {
+		Description: これ、カービィのネタなの？
+		DisplayName: 筋斗雲
+	}
+
+	Dreamy: {
+		Description: 泉の力があなたの心を穏やかにする
+		DisplayName: 夢の泉
+	}
+
+	DarkFeeling: {
+		Description: 鏡から邪悪な気配を感じる...
+		DisplayName: 邪悪な気配
+	}
+}
+
+DespawnMessage: {
+	Zero: 闇が晴れていく...
+	DarkMatter: 影の中へと姿を消した...
+	Nightmare: 悪夢は去っていった...
+	Dedede: 大王は追うのを諦めた...
+	Kracko: クラッコは天へと戻っていく...
+	Whispy: ウィスピーウッズは地中へと姿を隠した...
+}
+
+ProgressionDescription: {
+	Zero: "[i:KirboMod/PillarOfLight]を使用し、その先に待つものに備えよ"
+	DarkMatter: "[i:KirboMod/DarkMirror]を使用する"
+	Nightmare: "夜に[i:KirboMod/StarRod]を所持した状態で、[i:KirboMod/FountainOfDreams]を設置して調べる"
+	Dedede: "[i:KirboMod/DededeBrooch]を使用する"
+	Kracko: 自然発生したクラッコJr.を倒すか、[i:KirboMod/SkyBlanket]を使用して召喚する
+	Whispy: 平らな地形に[i:KirboMod/WhispySeed]を設置し、右クリックする
+}
+
+CommonItemTooltip: {
+	ShroomiteHelmetBenefitDowngrades: この武器は[i:1548]シュルーマイトヘルメットの効果を受ける
+	MusicBoxTitle: オルゴール
+	IgnoresDefense: 敵の防御を完全に無視する
+	DefensePenetration: 敵の防御を{0}無視する
+	DefenseVariesDamage: ダメージは防御力の値によって変動する
+}
+

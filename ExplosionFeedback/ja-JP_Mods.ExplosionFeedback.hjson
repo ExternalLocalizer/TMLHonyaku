@@ -1,0 +1,96 @@
+Configs: {
+	ExplosionFeedbackConfig: {
+		DisplayName: Explosion Feedback 設定
+
+		Headers: {
+			Global: 共通設定
+			Effects: 爆発エフェクト
+			Warning: 警告表示
+			TrembleEffect: 震動エフェクト
+			FlashEffect: 点滅エフェクト
+		}
+
+		EnableExplosionFeedback: {
+			Label: 爆発エフェクトを有効化
+			Tooltip: 
+				'''
+				爆発エフェクトをまとめて切り替えます
+				オフにすると爆発演出、警告表示、その他爆発効果が無効化されます
+				'''
+		}
+
+		GlobalIntensity: {
+			Label: 爆発エフェクトの強度
+			Tooltip: 
+				'''
+				爆発エフェクトの全体的な強さをコントロールします
+				0＝無効、200＝強度2倍
+				'''
+		}
+
+		EnableWarningCircle: {
+			Label: 警告表示を有効化
+			Tooltip: 
+				'''
+				爆発直前に警告の円を表示します
+				ただし、対応するのはバニラ爆発物のみで、MOD爆発物は表示されません
+				'''
+		}
+
+		EffectOpacity: {
+			Label: 爆発エフェクトの不透明度
+			Tooltip: 
+				'''
+				爆発エフェクトの透明度を設定します
+				値が高いほど効果がはっきり表示されます
+				'''
+		}
+
+		EffectDuration: {
+			Label: 爆発エフェクトの表示時間
+			Tooltip: 
+				'''
+				爆発エフェクトの表示時間を調整します
+				値が高いほど長く表示されます
+				'''
+		}
+
+		WarningCircleOpacity: {
+			Label: 警告表示の不透明度
+			Tooltip: 
+				'''
+				警告表示の透明度を設定します
+				値が高いほど効果がはっきり表示されます
+				'''
+		}
+
+		EnableTrembleEffect: {
+			Label: 振動エフェクトを有効化
+			Tooltip: 爆発直前に爆弾が揺れて、不安定に見えるようになります
+		}
+
+		TrembleIntensity: {
+			Label: 振動エフェクトの強度
+			Tooltip: 
+				'''
+				振動エフェクトの効果の強さを調整します
+				値が高いほど激しく揺れます
+				'''
+		}
+
+		EnableFlashEffect: {
+			Label: 点滅エフェクトの有効化
+			Tooltip: 爆発前に爆弾が白く点滅するようになります
+		}
+
+		FlashIntensity: {
+			Label: 点滅エフェクトの強度
+			Tooltip: 
+				'''
+				点滅エフェクトの効果の強さを調整します
+				値が高いほど強く発光し、0にすると無効になります
+				'''
+		}
+	}
+}
+
