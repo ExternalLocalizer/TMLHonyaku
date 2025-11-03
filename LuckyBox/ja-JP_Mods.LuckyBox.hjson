@@ -1,0 +1,223 @@
+Items: {
+	LuckyValue: 幸運値：
+	LuckCondition: 幸運値が100未満
+	UnLuckCondition: 幸運値が-100より大きい
+	SingleplayerCondition: シングルプレイ中
+
+	Luck: {
+		DisplayName: 運命の加護
+		Tooltip:
+			'''
+			ラッキーボックスの幸運値を操作するための素材
+			（[i:997] 取り出し機から入手可能）
+			'''
+	}
+
+	UnLuck: {
+		DisplayName: 災いの欠片
+		Tooltip:
+			'''
+			ラッキーボックスの幸運値を操作するための素材
+			（[i:997] 取り出し機から入手可能）
+			'''
+	}
+
+	WoodenBox: {
+		DisplayName: 木のラッキーボックス
+		Tooltip: ""
+	}
+
+	StoneBox: {
+		DisplayName: 石のラッキーボックス
+		Tooltip: ""
+	}
+
+	IronBox: {
+		DisplayName: 鉄のラッキーギフト
+		Tooltip: ""
+	}
+
+	LuckyGift: {
+		DisplayName: ラッキーギフト
+		Tooltip:
+			'''
+			「何が入っているのかな？」
+			<right>で開く
+			'''
+	}
+
+	MeteorBox: {
+		DisplayName: 隕石のラッキーボックス
+		Tooltip: ""
+	}
+
+	TestMusicItem: {
+		DisplayName: テストアイテム
+		Tooltip: 警告：このアイテムは使わないでください
+	}
+
+	GoldBox: {
+		DisplayName: 金のラッキーボックス
+		Tooltip: ""
+	}
+
+	ObsidianBox: {
+		DisplayName: 黒曜石のラッキーボックス
+		Tooltip: ""
+	}
+
+	PrefixCoupon: {
+		DisplayName: 強化クーポン
+		Tooltip: 対象アイテムとこのクーポンを同時に落とすことで効果が発動する
+	}
+
+	UnauthorizedPrefixCoupon: {
+		DisplayName: 不正強化クーポン
+		Tooltip: 対象アイテムとこのクーポンを同時に落とすことで効果が発動する
+	}
+
+	BiomeDesertBox: {
+		DisplayName: 砂漠のラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeFrozenBox: {
+		DisplayName: 吹雪のラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeJunglevineBox: {
+		DisplayName: ジャングルのラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeShimmerBox: {
+		DisplayName: 夢纏うのラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeSkywareBox: {
+		DisplayName: 天空のラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeTidalBox: {
+		DisplayName: 潮流のラッキーボックス
+		Tooltip: ""
+	}
+
+	BiomeHellBox: {
+		DisplayName: 地獄のラッキーボックス
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	StoneTile.MapEntry: Stoneラッキーボックス
+	WoodenTile.MapEntry: Woodenラッキーボックス
+	IronTile.MapEntry: Ironラッキーボックス
+	MeteorTile.MapEntry: Meteorラッキーボックス
+	GoldTile.MapEntry: Goldラッキーボックス
+	ObsidianTile.MapEntry: Obsidianラッキーボックス
+	BiomeDesertTile.MapEntry: Quicksandラッキーボックス
+	BiomeFrozenTile.MapEntry: Blizzardラッキーボックス
+	BiomeJunglevineTile.MapEntry: Junglevineラッキーボックス
+	BiomeShimmerTile.MapEntry: Dreamveilラッキーボックス
+	BiomeSkywareTile.MapEntry: Skyrealmラッキーボックス
+	BiomeTidalTile.MapEntry: Tidalラッキーボックス
+	BiomeHellTile.MapEntry: Infernoラッキーボックス
+}
+
+Tooltips: {
+	RecipeAny: 任意
+	RecipeCopper: 銅 / 錫のインゴット
+	RecipeSilver: 銀 / タングステンのインゴット
+	RecipeGold: 金 / プラチナのインゴッ
+	LuckyBoxGeneration: ラッキーボックスを設置中
+	Durability: 耐久値
+	SuperRockFish: ロックフィッシュ
+	FrostFish: 凍ったダガーフィッシュ
+	GiantClaw: 大顎の刃
+	SuperBlowpipe: 暗殺の吹き矢
+	PrefixCoupon:
+		'''
+		アイテムに次のプレフィックスを付与します: {0}
+		通常のプレフィックスルールに従います
+		'''
+	UnauthPrefixCoupon:
+		'''
+		アイテムに次のプレフィックスを強制的に付与します: {0}
+		非正規のプレフィックスはゲーム終了時にリセットされます（お遊び用！）
+		シングルプレイでのみ動作します
+		'''
+	PrefixCouponGained: 強化成功！
+	NotSpecified: 指定なし
+	ChooseOne: 1つ選択してください
+	SuperWatergun: ジェル
+}
+
+PrefixCoupons: {
+	Hard: 防御力 +1
+	Guarding: 防御力 +2
+	Armored: 防御力 +3
+	Warding: 防御力 +4
+	Precise: クリティカル率 +2%
+	Lucky: クリティカル率 +24
+	Jagged: ダメージ +1%
+	Spiked: ダメージ +2%
+	Angry: ダメージ +3%
+	Menacing: ダメージ +4%
+	Brisk: 移動速度 +1%
+	Fleeting: 移動速度 +2%
+	Hasty2: 移動速度 +3%
+	Quick: 移動速度 +4%
+	Wild: 近接攻撃速度 +1%
+	Rash: 近接攻撃速度 +2%
+	Intrepid: 近接攻撃速度 +3%
+	Violent: 近接攻撃速度 +4%
+	Arcane: マナ +20
+	LuckyTouch:
+		'''
+		採掘ラッキーボックスを掘ると、直接中身がドロップする
+		（幸運効果は発動しない）
+		'''
+	LuckyTouch2: "[Multiplayer] この効果は、現在のプレイヤーが対象ブロックに最も近い場合のみ発動します"
+	Feathered: 飛行時間 +0.5秒
+	Fortune: 鉱石採掘時、33%の確率でアイテムを1つ多くドロップ
+}
+
+Projectiles: {
+	MusicProjectile.DisplayName: Haruhikage
+	SpecialSaplingSpawner.DisplayName: ""
+	PiggyBankSpawner.DisplayName: ""
+	LavaSpawner.DisplayName: ""
+	WaterPoolSpawner.DisplayName: ""
+	PinkyBlockSpawner.DisplayName: ""
+	StructureSpawner.DisplayName: ""
+	WaterJailSpawner.DisplayName: ""
+	ChooseOneSpawner.DisplayName: ""
+	Waterball.DisplayName: Waterball
+}
+
+Prefixes: {
+	LuckyTouch.DisplayName: 幸運の指先
+	Feathered.DisplayName: 羽根付き
+	Fortune.DisplayName: 幸運
+}
+
+Configs: {
+	"Lucky Box.DisplayName": ラッキーボックス
+
+	LuckyBoxConfig: {
+		Headers.WorldGen: ワールド生成
+
+		LuckyBoxGenMultiplier: {
+			Label:ラッキーボックス生成倍率
+			Tooltip:
+				'''
+				ワールド生成時のラッキーボックスの数を調整します
+				0の場合、生成されません  
+				'''
+		}
+	}
+}

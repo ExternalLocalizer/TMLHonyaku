@@ -1,0 +1,338 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	egg: {
+		DisplayName: 卵
+		Tooltip:
+			'''
+			アイテムのテンプレート
+			このツールチップを置き換えるのが義務
+			富士山に雪が降っている
+			'''
+	}
+
+	IdolItem: {
+		DisplayName: 霊像
+		Tooltip: 設置すると力を授ける神秘的な霊像
+		Unidentified: 未鑑定の霊像
+		Damage: ダメージ
+		Defense: 防御力
+		Endurance: 被ダメージ軽減
+		Crit: クリティカル率
+		MoveSpeed: 移動速度
+		AttackSpeed: 攻撃および詠唱速度
+		ManaMaxFlat: 最大マナ
+		LifeMaxFlat: 最大ライフ
+		LifeRegen: ライフ自然回復
+		ManaRegen: マナ自然回復
+		MeleeDamage: 近接ダメージ
+		MeleeKnockback: 近接ノックバック
+		RangedDamage: 遠距離ダメージ
+		MagicDamage: 魔法ダメージ
+		SummonDamage: 召喚ダメージ
+		MeleeSpeed: 近接攻撃速度
+		WhipSpeed: ムチ攻撃速度
+		RangedSpeed: 遠距離攻撃速度
+		CastSpeed: 詠唱速度
+		AmmoConsumption: 弾を消費しない確率
+		ManaCost: マナ消費軽減
+		MaxMinions: 最大召喚数
+		WingTime: 滞空時間
+		RogueDamage: ローグダメージ
+		RogueCrit: ローグクリティカル率
+		RogueVelocity: ローグ投射物速度
+		RogueAttackSpeed: ローグ攻撃速度
+		AdrenalineCharge: アドレナリン蓄積速度
+		RageCharge: レイジ蓄積速度
+		FireImmune: 火炎ダメージ無効
+		PotionSicknessReduction: ポーション酔い時間短縮
+		HealingPotionEffectiveness: 回復ポーション効果
+		KnockbackResist: ノックバック耐性
+		Thorns: 反射ダメージ
+		TeleportDash: 方向キー二度押しで瞬間移動
+		Luck: 幸運
+		WhipRange: ムチの射程
+		ArmorPenetration: 防御貫通
+		FlightTime: 飛行時間
+		WingSpeed: 翼速度
+		JumpHeight: ジャンプ高度
+		ToolRange: ブロック設置／採掘範囲
+		GrabRange: アイテム取得範囲
+		Nightseer: 危険が近いと光る
+		PickSpeed: 採掘速度
+		LifeDrain: 近くの敵からライフを吸収
+		DeathReye: 攻撃時にデス・アイを召喚する可能性
+		BoostEffect: 隣接する霊像の効果を強化
+		SymphonicDamage: 音楽ダメージ
+		SymphonicCrit: 音楽クリティカル率
+		BonusBardEmpowermentDuration: 強化効果の持続時間（秒）
+		PlayingSpeed: 演奏速度
+		RadiantDamage: 光輝ダメージ
+		RadiantCrit: 光輝クリティカル率
+		RadiantCastSpeed: 光輝詠唱速度
+		HealerPower: 回復呪文の回復量
+		ThrowingDamage: 投擲ダメージ
+		ThrowingExhaustionMax: 最大疲労度
+		ThrowingSpeed: 投擲速度
+		ThrowingVelocity: 投擲物速度
+	}
+
+	ExaltedOrb: {
+		DisplayName: 高貴なオーブ
+		Tooltip: 現在のクラス修飾を昇華させるか、新しいランダム修飾を付与する
+		Tooltip2: 左クリックでオーブを持ち上げ、クラス霊像に右クリックで適用。霊像グリッドから取り外すこと。
+	}
+
+	ForbiddenKey: {
+		DisplayName: 禁断の鍵
+		Tooltip: 霊像グリッド上のランダムなスロットを解放する
+	}
+
+	OrbofAugmentation: {
+		DisplayName: 強化のオーブ
+		Tooltip: 霊像に新しいランダム修飾を付与する
+		Tooltip2: 左クリックでオーブを持ち上げ、空きスロットのある霊像に右クリックで適用。霊像グリッドから取り外すこと。
+	}
+
+	SmallIdol: {
+		DisplayName: 小さな霊像
+		Tooltip: ""
+	}
+
+	AdornedIdol: {
+		DisplayName: 装飾された霊像
+		Tooltip: ""
+	}
+
+	GrandIdol: {
+		DisplayName: 偉大な霊像
+		Tooltip: ""
+	}
+
+	HumbleIdol: {
+		DisplayName: 慎ましい霊像
+		Tooltip: ""
+	}
+
+	LargeIdol: {
+		DisplayName: 大きな霊像
+		Tooltip: ""
+	}
+
+	StoutIdol: {
+		DisplayName: ずんぐりした霊像
+		Tooltip: ""
+	}
+
+	BlinkstepStoutIdol: {
+		DisplayName: ブリンクステップのずんぐり霊像
+		Tooltip: ""
+	}
+
+	BloomingTerrorAdornedIdol: {
+		DisplayName: 花咲く恐怖の装飾霊像
+		Tooltip: ""
+	}
+
+	CrimsonMindSmallIdol: {
+		DisplayName: 紅の心の小さな霊像
+		Tooltip: ""
+	}
+
+	DualityHumbleIdol: {
+		DisplayName: 二面の慎ましい霊像
+		Tooltip: ""
+	}
+
+	FortunasBlessingStoutIdol: {
+		DisplayName: フォルトゥナの祝福のずんぐり霊像
+		Tooltip: ""
+	}
+
+	GelatinousHumbleIdol: {
+		DisplayName: ゼラチン質の慎ましい霊像
+		Tooltip: ""
+	}
+
+	GranitecoreAdornedIdol: {
+		DisplayName: 花崗の心の装飾霊像
+		Tooltip: ""
+	}
+
+	HivebornHumbleIdol: {
+		DisplayName: 巣生の慎ましい霊像
+		Tooltip: ""
+	}
+
+	NightseerSmallIdol: {
+		DisplayName: 闇視の小さな霊像
+		Tooltip: ""
+	}
+
+	ThornedSmallIdol: {
+		DisplayName: 棘の小さな霊像
+		Tooltip: ""
+	}
+
+	WorldsplitterLargeIdol: {
+		DisplayName: 世界裂きの大霊像
+		Tooltip: ""
+	}
+
+	TemplarStoutIdol: {
+		DisplayName: テンプラーのずんぐり霊像
+		Tooltip: ""
+	}
+
+	MechaswormGrandIdol: {
+		DisplayName: メカスウォームの偉大な霊像
+		Tooltip: ""
+	}
+
+	HandoftheKeeperStoutIdol: {
+		DisplayName: 守護者の手のずんぐり霊像
+		Tooltip: ""
+	}
+
+	PrimeCoreSmallIdol: {
+		DisplayName: 原核の小さな霊像
+		Tooltip: ""
+	}
+
+	WatchersEyeAdornedIdol: {
+		DisplayName: 見張る者の目の装飾霊像
+		Tooltip: ""
+	}
+
+	TheLightofMeaningSmallIdol: {
+		DisplayName: 意義の光の小さな霊像
+		Tooltip: ""
+	}
+
+	HumbleIdolofIcarusFolly: {
+		DisplayName: イカロスの愚行の慎ましい霊像
+		Tooltip: ""
+	}
+
+	IdolReforgeBench: {
+		DisplayName: 霊像リフォージ作業台
+		Tooltip: ""
+	}
+
+	GoldenDoubloonSmallIdol: {
+		DisplayName: 黄金のダブロンの小さな霊像
+		Tooltip: ""
+	}
+}
+
+Tiles.IdolReforgeBench.MapEntry: 霊像リフォージ作業台
+
+UI: {
+	StatPanelHeader: アクティブ霊像のステータス
+	HideStatPanel: ステータスパネルを隠す
+	ShowStatPanel: ステータスパネルを表示
+	HideGridPanel: グリッドパネルを隠す
+	ShowGridPanel: グリッドパネルを表示
+	IdolReforgeBenchTitle: 霊像リフォージ作業台
+	Place3Idols: 同じ霊像を3つ入力スロットに置いてください
+	Reforge: 再鍛造
+	NeedMoreIdols: あと {0} 個の霊像が必要です
+	MustBeIdols: すべてのアイテムは霊像でなければなりません！
+	MustBeSameType: 霊像はすべて同じ種類である必要があります！
+	ReadyToReforge: 再鍛造の準備完了！
+	ErrorFillSlots: すべての入力スロットを埋めてください！
+	ErrorMustBeIdols: すべてのアイテムは霊像である必要があります！
+	ErrorSameType: 霊像はすべて同じ種類である必要があります！
+	ErrorOutputNotEmpty: 出力スロットは空である必要があります！
+}
+
+Projectiles: {
+	MoonLordEyeMinion.DisplayName: ムーンロードの目の従者
+	MoonLordEye.DisplayName: ムーンロードの目
+	MoonLordSlimBeam.DisplayName: ムーンロードの細光線
+}
+
+Configs: {
+	IdolGridSystemConfig: {
+		DisplayName: 霊像グリッドシステム設定
+
+		IdolDropChanceMultiplier: {
+			Label: 基本霊像ドロップ率倍率（0.10 = 10%）
+			Tooltip:
+				'''
+				全ての霊像のグローバルドロップ率を制御します。
+				1.00 = 100%、0.10 = 10%、0.01 = 1%。
+				'''
+		}
+
+		Headers: {
+			IdolDropRates: 霊像のドロップ率
+			SpecialIdolDropRates: 特殊な霊像のドロップ率
+			OtherDropRates: その他のドロップ率
+		}
+
+		SmallIdolDropRate: {
+			Label: 小さな霊像のドロップ率
+			Tooltip: ""
+		}
+
+		StoutIdolDropRate: {
+			Label: ずんぐり霊像のドロップ率
+			Tooltip: ""
+		}
+
+		HumbleIdolDropRate: {
+			Label: 慎ましい霊像のドロップ率
+			Tooltip: ""
+		}
+
+		LargeIdolDropRate: {
+			Label: 大きな霊像のドロップ率
+			Tooltip: ""
+		}
+
+		GrandIdolDropRate: {
+			Label: 偉大な霊像のドロップ率
+			Tooltip: ""
+		}
+
+		AdornedIdolDropRate: {
+			Label: 装飾霊像のドロップ率
+			Tooltip: ""
+		}
+
+		GranitecoreAdornedIdolDropRate: {
+			Label: 花崗の装飾霊像のドロップ率
+			Tooltip: ""
+		}
+
+		ThornedSmallIdolDropRate: {
+			Label: 棘の小さな霊像のドロップ率
+			Tooltip: ""
+		}
+
+		BlinkstepStoutIdolDropRate: {
+			Label: ブリンクステップ霊像のドロップ率
+			Tooltip: ""
+		}
+
+		HumbleIdolofIcarusFollyDropRate: {
+			Label: イカロスの愚行霊像のドロップ率
+			Tooltip: ""
+		}
+
+		OrbofAugmentationDropRate: {
+			Label: 強化のオーブのドロップ率
+			Tooltip: ""
+		}
+
+		ExaltedOrbDropRate: {
+			Label: 高貴なオーブのドロップ率
+			Tooltip: ""
+		}
+	}
+}
+Keybinds: {
+	"Open Idol Grid UI.DisplayName": 霊像グリッドを開く
+	"Toggle Idol Grid UI.DisplayName": 霊像グリッドの表示切り替え
+}

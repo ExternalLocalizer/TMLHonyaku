@@ -1,0 +1,124 @@
+DisplayName: クールメニュー
+Description: メインメニューを、もっとスタイリッシュに
+SinglePlayer: シングルプレイヤー
+Multiplayer: マルチプレイヤー
+Achievements: 実績
+Settings: 設定
+Workshop: ワークショップ
+Exit: 終了
+WorkshopError: ワークショップを開けませんでした
+AchievementsError: 実績を開けませんでした
+
+CoreMenu: {
+	CoreMenuSwap: "メニュー切り替え: "
+	Vanilla: バニラ
+	CoolerMenu: Sam's Cooler Menu Screen
+}
+
+SplashMessages: {
+	Splash1: スライド式ボタン、実装完了！
+	Splash2: 釣り人の教え「もっと釣れ！」
+	Splash3: 伐採するなら、根元まで！
+	Splash4: ゼニス、無念の破損。
+	Splash5: ワークショップをチェックしよう！
+	Splash6: 世界を浄化せよ！
+	Splash7: tModLoader 搭載！
+	Splash8: 一緒に創ろう、テラリアで。
+	Splash9: 浮かぶボタン、出現！
+	Splash10: バニラよりイケてる！
+	Splash11: 残り1％はどこだ!?
+	Splash12: Calamity？あ～あれね、知らんけど
+	Splash13: 靴箱暮らし。
+	Splash14: この宝箱、まさかミミッ──
+	Splash15: 残念ながら、テラリアンは岩に押し潰された
+	Splash16: ヒーローブラインは含まれていません！
+	Splash17: ここはカーニバル・バケツじゃないぞ!!
+	Splash18: 棒や石じゃ、この骨は折れない！
+	Splash19: text_message.goes(here)
+	Splash20: 強化屋の99％は「ゴッドリー」が出る前に諦める
+	Splash21: 面白いジョークあったけど、忘れた
+	Splash22: ハードモードで確実に心が折れる！
+	Splash23: 君は永遠のヒーローだ。
+	Splash24: ノアの方舟ではありません
+	Splash25: girq/w22igyq4rgy ...ごめん、スライムがキーボードに…
+	Splash26: 木を植え直そう！
+	Splash27: インベントリを整理しよう！
+	Splash28: 午前3時にプレイするのはやめよう
+	Splash29: テラリアンよ、覚えてるぞ 君はテラセイヴァーだった
+	Splash30: そう、鉄と鉛は同じものです。
+	Splash31: まさにシネマ体験！
+	Splash32: ミルサリオなんて目じゃないぜ！
+	Splash33: ガイドは、必ず帰ってくる。
+	Splash34: スライスパン以来の最高傑作！
+	Splash35: 危険：このゲームには高濃度の興奮成分が含まれています
+	Splash36: 物語が満載だ！
+	Splash37: RGBの蝶は殺しちゃダメだよ？
+	Splash38: 地獄へ行け！いや、宇宙でもいい！
+	Splash39: 君を200回の釣りクエストに処す！
+	Splash40: ソックスが吹き飛ぶほどの衝撃！
+	Splash41: 警告：このゲームは極めて楽しく中毒性があります
+	Splash42: NPC拷問シミュレーター！
+	Splash43: ウサギを始末しろ、全匹な!!!!! 
+	Splash44: スキル問題を抱える人には向きません
+	Splash45: ひどいピクシーAI！
+	Splash46: そう、テラセイヴァーはチートです。
+	Splash47: ダンジョンガーディアンから逃げろ、あるいは逃げるな。
+	Splash48: スライムが降ってくる！
+	Splash49: 医者10人中9人が推奨
+	Splash50: 全く、君もひどい奴だ。
+	Splash51: 読み込み中…（41.67％完了）
+}
+
+Configs: {
+	CoolerMenuConfig: {
+		DisplayName: Cooler Menu 設定
+
+		Headers: {
+			Appearance: デザイン
+			Icons: アイコン
+			Animations: アニメーション
+			CoreMenuConfig: メニュー設定
+		}
+
+		ButtonPosition: {
+			Label: 項目の表示位置
+			Tooltip: 項目の表示位置（左／右）を切り替えます
+		}
+
+		LogoPosition: {
+			Label: ロゴの表示位置
+			Tooltip: ロゴの配置（左／右）を切り替えます
+		}
+
+		EnableHoverBackgrounds: {
+			Label: 選択背景
+			Tooltip: 項目にカーソルを合わせた際に背景を表示します
+		}
+
+		EnableButtonIcons: {
+			Label: 項目アイコン
+			Tooltip: メニュー項目の横にアイコンを表示します
+		}
+
+		EnableSplashMessages: {
+			Label: ロゴメッセージ
+			Tooltip: ロゴ下へのメッセージを表示します
+		}
+
+		EnableFloatingAnimation: {
+			Label: 浮遊アニメーション
+			Tooltip: 項目にふわふわと揺れるアニメーションを追加します
+		}
+
+		isMenuActive: {
+			Label: メニュー有効化
+			Tooltip: メニュー画面のテーマを切り替え可能にします
+		}
+	}
+
+	HorizontalPosition: {
+		Tooltip: ""
+		Left.Label: 左
+		Right.Label: 右
+	}
+}

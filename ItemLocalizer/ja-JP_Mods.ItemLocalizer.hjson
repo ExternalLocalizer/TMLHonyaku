@@ -1,0 +1,34 @@
+Configs: {
+	ItemLocalizerConfig: {
+		MaxTrackDistance: {
+			Label: 最大追跡距離（フィート）
+			Tooltip: 
+				'''
+				この距離を超える位置のレアアイテムは追跡しません
+				0で無制限になります
+				'''
+		}
+
+		OnlyTrackOwnDrops: {
+			Label: 自身のドロップのみ追跡
+			Tooltip: オンにすると、自分で発見したアイテムのみ追跡します
+		}
+
+		BlacklistedItems: {
+			Tooltip: 登録されたアイテムは追跡対象外になります
+			Label: ブラックリスト
+		}
+
+		DropChanceThreshold: {
+			Tooltip: この値（%）以下のドロップ率を持つアイテムを追跡します
+			Label: 追跡対象ドロップ率
+		}
+
+		Headers: {
+			ItemLocalizer: アイテム追跡
+		}
+
+		DisplayName: Item Locator 設定
+	}
+}
+

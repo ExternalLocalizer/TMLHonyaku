@@ -1,0 +1,32 @@
+DebugConfig: {
+	DisplayName: デバッグ設定（Mod制作者向け）
+
+	debug_ViewAllLoadedModAmbiences: {
+		Label: 全Mod.Callデータを展開表示
+		Tooltip: ""
+	}
+
+	debug_AsmNames: {
+		Label: Mod.Call のMod名を表示
+		Tooltip: ""
+	}
+}
+
+PlayerConfig: {
+	DisplayName: プレイヤー設定
+
+	player_FadeAmbienceOnFocusLost: {
+		Label: ウィンドウ非アクティブ時に環境音をフェード
+		Tooltip: ""
+	}
+
+	footstepVolumes: {
+		Tooltip: ""
+		Label: 足音の音量
+	}
+
+	Headers: {
+		Footsteps: 足音設定
+		Ambience: 環境音設定
+	}
+}
