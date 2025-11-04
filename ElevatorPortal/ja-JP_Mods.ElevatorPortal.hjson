@@ -1,0 +1,34 @@
+Tiles: {
+	ElevatorEntranceTile.MapEntry: エレベーターエントランス
+	ElevatorCoreTile.MapEntry: エレベーターコア
+	ElevatorWallRightTile.MapEntry: エレベーターシャフト
+	ElevatorWallLeftTile.MapEntry: エレベーターシャフト
+	ElevatorWallFloorTile.MapEntry: エレベーターシャフト
+}
+
+Items: {
+	ElevatorCoreItem: {
+		DisplayName: エレベーターコア
+		Tooltip: 
+			'''
+			背景壁に設置可能。
+			設置後下部にエレベーターシャフトを自動設置する。
+			破壊時はシャフト、エントランスも含め全て撤去、回収する。
+			自動延長はしないため、拡張時にはエレベーターコアの再設置が必要。
+			'''
+	}
+
+	ElevatorEntranceItem: {
+		DisplayName: エレベーターエントランス
+		Tooltip: 
+			'''
+			エレベーターシャフトに複数設置可能。
+			設置後右クリックでUIを表示。
+			同じコアのエントランス間でワープ可能。
+			'''
+	}
+}
+
+UI: {
+	ElevatorTitle: "エレベーターポータル：階層選択"
+}
