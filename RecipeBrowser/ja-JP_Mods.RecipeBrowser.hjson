@@ -7,11 +7,11 @@ RecipeBrowserUI: {
 	Close: 閉じる
 	All: 全部
 	ModFilter: MODフィルター
-	NoFavoritedRecipes: 
-    '''
-    お気に入りされたレシピは
-    ありません
-    '''
+	NoFavoritedRecipes:
+		'''
+		お気に入りされたレシピは
+		ありません
+		'''
 	RecipeAddedBy: "{0}によって追加されたレシピ"
 }
 
@@ -42,151 +42,160 @@ RecipeCatalogueUI: {
 	EmptyQuerySlotHint: ここにアイテムを置く
 	ShowInheritedRecipes: 継承されたレシピを表示する
 	ShowUniqueRecipes: ユニークなレシピを表示する
-	NoTileEntry: "エラー:エントリー無し"
+	NoTileEntry: エラー:エントリー無し
 }
 
 RecipeCatalogueFilters: {
-    RecipeOrder: レシピ順
-    CreativeSort: クリエイティブソート
-    ItemID: アイテムID
-    Value: 価格
-    Alphabetical: アルファベット順
-    Rarity: レアリティ
-    Materials: 素材
-    Craftable: クラフト可能
-    ExtendedCraftable: 拡張クラフト可能 （右クリックでレシピを表示、ラグ防止のため自動で無効化）
-    DisabledRecipes: MODで無効化されたレシピを表示する
-    Unresearched: 未研究
-    All: 全て
-    RMB: (右クリック)
-    RecipesRemainToBeCalculated: レシピの計算中です
+	RecipeOrder: レシピ順
+	CreativeSort: クリエイティブソート
+	ItemID: アイテムID
+	Value: 価格
+	Alphabetical: アルファベット順
+	Rarity: レアリティ
+	Materials: 素材
+	Craftable: クラフト可能
+	ExtendedCraftable: 拡張クラフト可能 （右クリックでレシピを表示、ラグ防止のため自動で無効化）
+	DisabledRecipes: MODで無効化されたレシピを表示する
+	Unresearched: 未研究
+	All: 全て
+	RMB: (右クリック)
+	RecipesRemainToBeCalculated: レシピの計算中です
 
-    Weapons: {
-        Name: 武器
-        Melee: 近接
-        Yoyo: ヨーヨー
-        Magic: 魔法
-        Ranged: 遠距離
-        UseAmmoType: 使用弾薬タイプ
-        Throwing: 投擲
-        Summon: 召喚
-        Whip: 鞭
-        Sentry: セントリー
-        CycleUsedAmmoTypes: 使用弾薬タイプの循環
-    }
+	Weapons: {
+		Name: 武器
+		Melee: 近接
+		Yoyo: ヨーヨー
+		Magic: 魔法
+		Ranged: 遠距離
+		UseAmmoType: 使用弾薬タイプ
+		Throwing: 投擲
+		Summon: 召喚
+		Whip: 鞭
+		Sentry: セントリー
+		CycleUsedAmmoTypes: 使用弾薬タイプの循環
+	}
 
-    Damage: ダメージ
+	Damage: ダメージ
 
-    Tools: {
-        Name: 道具
-        Pickaxes: つるはし
-        PickPower: 採掘力
-        Axes: 斧
-        AxePower: 斧力
-        Hammers: ハンマー
-        HammerPower: 槌力
-    }
+	Tools: {
+		Name: 道具
+		Pickaxes: つるはし
+		PickPower: 採掘力
+		Axes: 斧
+		AxePower: 斧力
+		Hammers: ハンマー
+		HammerPower: 槌力
+	}
 
-    Armor: {
-        Name: 防具と装飾
-        Head: 頭
-        Body: 胴
-        Legs: 脚
-        Defense: 防御力
-        Vanity: 装飾
-        ArmorOnly: 防具
-        TotalDefense: 総防御力
-    }
+	Armor: {
+		Name: 防具と装飾
+		Head: 頭
+		Body: 胴
+		Legs: 脚
+		Defense: 防御力
+		Vanity: 装飾
+		ArmorOnly: 防具
+		TotalDefense: 総防御力
+	}
 
-    Tiles: {
-        Name: タイル
-        CraftingStations: クラフトステーション
-        Furniture: 家具
-        Blocks: ブロック
-        Containers: コンテナ
-        Wiring: 配線
-        Statues: 彫像
-        Doors: ドア
-        Chairs: 椅子
-        Tables: テーブル
-        LightSources: 光源
-        Torches: トーチ
-        PlaceTile: タイル設置
-        Solid: ソリッド
-        NonSolid: 背景
-    }
+	Tiles: {
+		Name: タイル
+		CraftingStations: クラフトステーション
+		Furniture: 家具
+		Blocks: ブロック
+		Containers: コンテナ
+		Wiring: 配線
+		Statues: 彫像
+		Doors: ドア
+		Chairs: 椅子
+		Tables: テーブル
+		LightSources: 光源
+		Torches: トーチ
+		PlaceTile: タイル設置
+		Solid: ソリッド
+		NonSolid: 背景
+	}
 
-    Walls: 壁
-    Accessories: アクセサリー
-    Wings: 翼
+	Walls: 壁
 
-    Ammo: {
-        Name: 弾薬
-        AmmoType: 弾薬タイプ
-        CycleAmmoTypes: 弾薬タイプの循環
-    }
+	Accessories: {
+		Name: アクセサリー
 
-    Potions: {
-        Name: ポーションと食品
-        HealthPotions: 体力ポーション
-        HealLife: 体力回復
-        ManaPotions: マナポーション
-        HealMana: マナ回復
-        BuffPotions: バフポーション
-        Food: 食品
-    }
+		Wings: {
+			Name: 翼
+			FlightTime: 飛行時間
+			HorizontalSpeed: 横移動速度
+			AccelerationMultiplier: 加速性能
+		}
+	}
 
-    Expert: エキスパート
-    Master: マスター
+	Ammo: {
+		Name: 弾薬
+		AmmoType: 弾薬タイプ
+		CycleAmmoTypes: 弾薬タイプの循環
+	}
 
-    Pets: {
-        Name: ペット
-        CommonPets: ペット
-        LightPets: 光ペット
-    }
+	Potions: {
+		Name: ポーションと食品
+		HealthPotions: 体力ポーション
+		HealLife: 体力回復
+		ManaPotions: マナポーション
+		HealMana: マナ回復
+		BuffPotions: バフポーション
+		Food: 食品
+	}
 
-    Mounts: マウント
-    Carts: カート
-    Hooks: フック
-    GrappleRange: 掴み距離
+	Expert: エキスパート
+	Master: マスター
 
-    Dyes: {
-        Name: 染料
-        CommonDyes: 染料
-        HairDyes: ヘア染料
-    }
+	Pets: {
+		Name: ペット
+		CommonPets: ペット
+		LightPets: 光ペット
+	}
 
-    BossSummons: {
-        Name: ボス召喚
-        ProgressionOrder: 進行順
-    }
+	Mounts: マウント
+	Carts: カート
+	Hooks: フック
+	GrappleRange: 掴み距離
 
-    Consumables: {
-        Name: 消耗品
-        CapturedNPC: 捕獲したNPC
-    }
+	Dyes: {
+		Name: 染料
+		CommonDyes: 染料
+		HairDyes: ヘア染料
+	}
 
-    GrabBags: {
-        Name: 福袋
-        FishingCrate: 釣り箱 (ハードモード前)
-        FishingCrateHardmode: 釣り箱 (ハードモード)
-        BossBag: トレジャーバッグ (ハードモード前)
-        BossBagHardmode: トレジャーバッグ (ハードモード)
-        ExpectedValue: 期待値
-    }
+	BossSummons: {
+		Name: ボス召喚
+		ProgressionOrder: 進行順
+	}
 
-    Fishing: {
-        Name: 釣り
-        Poles: 釣り竿
-        PolePower: フィッシング・パワー
-        Bait: 餌
-        BaitPower: 餌パワー
-        Bobbers: 浮き
-        QuestFish: クエスト魚
-    }
+	Consumables: {
+		Name: 消耗品
+		CapturedNPC: 捕獲したNPC
+	}
 
-    Extractinator: 取り出し機
-    Other: その他
+	GrabBags: {
+		Name: 福袋
+		FishingCrate: 釣り箱 (ハードモード前)
+		FishingCrateHardmode: 釣り箱 (ハードモード)
+		BossBag: トレジャーバッグ (ハードモード前)
+		BossBagHardmode: トレジャーバッグ (ハードモード)
+		ExpectedValue: 期待値
+	}
+
+	Fishing: {
+		Name: 釣り
+		Poles: 釣り竿
+		PolePower: フィッシング・パワー
+		Bait: 餌
+		BaitPower: 餌パワー
+		Bobbers: 浮き
+		QuestFish: クエスト魚
+	}
+
+	Extractinator: 取り出し機
+	Other: その他
 }
 
 FavoritedUI: {
@@ -196,9 +205,9 @@ FavoritedUI: {
 	AlwaysShow: 常に表示
 	ShowWhenInventory: インベントリ時に表示
 	ShowOtherPlayersFavorited: 他のプレイヤーのお気に入りレシピをすべて表示
-	ShowTeammatesFavorited:  チームメイトのお気に入りレシピのみ表示（チームに所属している場合）
+	ShowTeammatesFavorited: チームメイトのお気に入りレシピのみ表示（チームに所属している場合）
 	HideOtherPlayersFavorited: 他のプレイヤーのお気に入りレシピを非表示
-	NoRecipeFoundFor: "レシピが見つかりませんでした"
+	NoRecipeFoundFor: レシピが見つかりませんでした
 }
 
 CraftUI: {
@@ -230,19 +239,19 @@ CraftUI: {
 	NoPathsFound: このレシピもしくはアイテムのパスが見つかりませんでした"
 	Craft: クラフト
 	Duplicate: 複製
-    Missing: "不足"
-    Unseen: "未確認"
-    Cost: "コスト:"
-    Have: 所持
-    Purchase: 購入
-    From: から
-    For: のため
-    Mine: 採掘
-    FromTheWorld: ワールド
-    BugNet: 虫取り網
-    ByCapturing: 捕獲によって
-    Need: 必要
-    Farm: 栽培
+	Missing: 不足
+	Unseen: 未確認
+	Cost: コスト:
+	Have: 所持
+	Purchase: 購入
+	From: から
+	For: のため
+	Mine: 採掘
+	FromTheWorld: ワールド
+	BugNet: 虫取り網
+	ByCapturing: 捕獲によって
+	Need: 必要
+	Farm: 栽培
 }
 
 ItemCatalogueUI: {
@@ -257,20 +266,20 @@ ItemCatalogueUI: {
 }
 
 UIArmorSetCatalogue: {
-    TotalSetDefense: セット全体の防御力: {0}
-    ArmorSets:
-        '''
-        アーマーセット
-        (警告: 計算に数秒かかる場合があります)
-        '''
-    ShowItems: アイテムを表示
-    ShowItemsTooltip: セットを構成するアイテムを表示する
-    UseDye: 染料を使用
-    UseDyeTooltip: 現在装備している染料でアーマーセットを描画する
-    Animate: アニメーション
-    AnimateTooltip: プレイヤーのアニメーションを模倣する
-    Accessories: アクセサリー
-    AccessoriesTooltip: 現在のアクセサリーで可視化する
+	TotalSetDefense: セット全体の防御力: {0}
+	ArmorSets:
+		'''
+		アーマーセット
+		(警告: 計算に数秒かかる場合があります)
+		'''
+	ShowItems: アイテムを表示
+	ShowItemsTooltip: セットを構成するアイテムを表示する
+	UseDye: 染料を使用
+	UseDyeTooltip: 現在装備している染料でアーマーセットを描画する
+	Animate: アニメーション
+	AnimateTooltip: プレイヤーのアニメーションを模倣する
+	Accessories: アクセサリー
+	AccessoriesTooltip: 現在のアクセサリーで可視化する
 }
 
 BestiaryUI: {
@@ -295,63 +304,63 @@ BestiaryUI: {
 }
 
 HelpUI: {
-    JumbledText:
-        '''
-        [c/{0}:Jumbled Text?]
-            以下のテキストが正しく表示されていない場合、Terraria Overhaulを無効にすることで修正できます。
-        '''
-    Recipes:
-        '''
-        [c/{0}:Recipes]
-            クエリスロットにアイテムを置くと、そのアイテムを使用または結果として得られるレシピを検索できます。ウィンドウ内のさまざまなオプションで検索やフィルタリングも可能です。近くのチェストオプションは、必要な材料を少なくとも1つずつ持っているレシピのみを表示します。[c/{1}:Item Checklist Only]オプションは、未見のアイテムを結果とするレシピで、かつ見たことのあるアイテムを使用するレシピのみを表示します。タイルチェックボックスを選択すると、最も頻繁に必要とされるクラフティングステーションのリストが表示されます。タイルをクリックすると、そのクラフティングステーションを使用するレシピに限定されます。[image:RecipeBrowser/Images/Help/uniqueTile] ユニークレシピ表示オプションは、継承されたレシピの表示を切り替えます。たとえば、『地獄のかまど』はかまどのすべてのレシピを継承しますが、ヘルストーンインゴットのユニークなレシピを持っています。選択したレシピのクラフティングステーションとレシピ条件は下部にリストされ、プレイヤーが近くにいるかどうかを赤または緑の色で示します。右側には選択したアイテムをドロップするNPCが表示されます。NPCをダブルクリックすると図鑑に移動します。レシピや材料をダブルクリックすると、そのアイテムがクエリスロットに設定され、複数のクラフティングツリーをたどるのに便利です。レシピをAltクリックするとお気に入りに追加できます。以下のお気に入りセクションを参照してください。
-        '''
-    Craft:
-        '''
-        [c/{0}:Craft]
-            このツールはレシピのクラフトに使用できます。レシピツールで任意のレシピを右クリックするとこのツールが表示されます。[image/s0.5:RecipeBrowser/Images/CanCraftExtendedBackground]背景のレシピは複数のレシピからクラフト可能です。アイテムツールでアイテムを左クリックしてからこのツールに移動することもできます。このツールは拡張クラフティングオプションを表示します。たとえば、金と鉄の鉱石を持って金の時計のレシピをクリックした場合、このツールは金と鉄の鉱石をクラフトし、次に鎖をクラフトし、最後に金の時計自体をクラフトする複数のレシピを表示します。ルートオプションを有効にすると、複数のレシピ検索プロセスに素材の収集を含めることもできます。指定された敵を見つけて倒すことで必要な材料を収集できます。デフォルトでは、見たことのあるすべてのクラフティングステーションが拡張クラフティングパスで利用可能です。未見のステーションオプションを有効にすると、未見のクラフティングステーションも表示されます。[c/{1}:✓]、[c/{2}:X]、[c/{3}:?]アイコンは、クラフティングステーションの近くにいるか、近くにいないか、またはそのステーションを未見であるかを示します。[image/s0.7:RecipeBrowser/Images/Help/CraftIcon]ボタンを使用して個々のクラフト手順を実行します。デフォルトでは、レシピツールはCalcチェックボックスがオンでない限り、複数あるレシピのクラフティングを自動的に計算しません。拡張クラフト可能フィルターを使用すると、すべての拡張クラフティングオプションをすぐに確認できます。この機能では若干のラグが発生する場合があります。
-        '''
-    Items:
-        '''
-        [c/{0}:Items]
-            ここではゲーム内のすべてのアイテムを探索できます。フィルターとソートを使用して目的のアイテムを見つけます。アイテムをダブルクリックすると、レシピパネルでそのアイテムをクエリします。アイテムを右ダブルクリックすると、図鑑でそのアイテムをクエリします。未取得オプションは、[c/{1}:Item Checklist]でまだ収集していないアイテムのみを表示します。
-        '''
-    Bestiary:
-        '''
-        [c/{0}:Bestiary]
-            ここではゲーム内のすべてのNPCを探索できます。フィルターとソートを使用して目的のNPCを見つけます。NPCをクリックすると、そのNPCのルートが表示されます。クエリスロットにアイテムを置くと、そのアイテムをドロップするNPCのみがグリッドに表示されます。アイテムをダブルクリックすると、レシピパネルでそのアイテムをクエリします。アイテムを右クリックするとクエリスロットに設定され、同じアイテムをドロップする他のNPCを確認するのに便利です。新ルート（[c/{1}:Item Checklist Only]）オプションは、未収集のアイテムを持つNPCのみを表示し、貴重なルートを隠しているNPCを知るのに役立ちます。
-        '''
-    Borders:
-        '''
-        [c/{0}:Borders]
-            アイテムにはさまざまなボーダーが表示されることがあり、その意味は以下の通りです:
-        [image/s0.5:RecipeBrowser/Images/FavoritedOverlay] このレシピはお気に入りに登録されています。以下のお気に入りセクションを参照してください。
-        [image/s0.5:RecipeBrowser/Images/SelectedOverlay] このレシピ/アイテム/NPCが選択されています。表示される情報はこのものに関連します。
-        [image/s0.5:RecipeBrowser/Images/CanCraftBackground] このレシピは現在クラフト可能です。クリックすると直接クラフティングメニューが開きます。
-        [image/s0.5:RecipeBrowser/Images/CanCraftExtendedBackground] このレシピは複数段階で現在クラフト可能です。右クリックしてクラフトツールを開き、クラフティングオプションを確認します。
-        [image/s0.5:RecipeBrowser/Images/Help/Inventory_Back8] [c/{1}:Item Checklist integration:] これらのアイテムは、最近収集した新しいアイテムを使用します。
-        '''
-    Favorite:
-        '''
-        [c/{0}:Favorite]
-            レシピパネルで、レシピをAltクリックしてお気に入りに登録できます。お気に入りレシピがある場合、画面にお気に入りパネルが表示されます。このパネルは、すべての材料を集める進捗を追跡するのに役立ちます。マルチプレイヤーでは、他のプレイヤーがお気に入りにしたレシピもお気に入りパネルに表示されます。他のプレイヤーの進捗を追跡し、効率的に協力できます。表示されるアイテム数は、レシピをお気に入りにしたプレイヤーに対応します。
-        [image:RecipeBrowser/Images/Help/mpFavorited]
-        '''
-    QueryHoveredItem:
-        '''
-        [c/{0}:Query Hovered Item]
-            キーバインドメニューでホットキーを割り当てることで、この機能を使ってアイテムをツールに素早く取り込めます。ゲーム内でどこでもアイテムにカーソルを合わせているときに使用できます。最後に使用したパネルによって動作が異なります。レシピツールではクエリスロットに設定され、クラフトツールではそのアイテムをクラフトするオプションを表示し、アイテムツールではアイテムを選択してスクロールし、図鑑ツールではルートクエリスロットに設定されます。同じアイテムで2回目のホットキー使用は、ツールを便利に閉じます。
-        '''
-    CategoriesSubCategoriesSortsAndFilters:
-        '''
-        [c/{0}:Categories, Sub Categories, Sorts, and Filters]
-            レシピパネルとアイテムパネルには、アイテムやレシピをフィルタリングおよびソートする方法が多数あります。ツールチップやアイテム名を検索するために入力でき、[image:RecipeBrowser/Images/filterMod]ボタンでソースModごとにフィルタリングできます。[image:RecipeBrowser/Images/Help/Item_2430]や[image:RecipeBrowser/Images/Help/Item_54]などのカテゴリをクリックしてカテゴリ別にフィルタリングも可能です。一部カテゴリにはサブカテゴリがあります。2行目には[image:RecipeBrowser/Images/sortValue]や[image:RecipeBrowser/Images/sortAZ]などのさまざまなソートがあります。また、[image:RecipeBrowser/Images/Help/Item_531]のようなフィルターもあります。多くのソートやフィルターは特定のカテゴリ内でしか表示されません。弾薬フィルターのような一部のフィルターは複数のオプションを切り替えます。これらのフィルターでは、左右クリックで前後に移動し、中クリックでフィルターをクリアします。
-        [image:RecipeBrowser/Images/Help/sortsExplanation_en-US]
-        '''
-    ItemChecklistIntegration:
-        '''
-        [c/{0}:Item Checklist Integration]
-            Item Checklist Modを同時に使用することで、これまでに収集したアイテムから未取得の新しいアイテムに絞って閲覧できます。これにより、ゲームの現在の段階で必要なアイテムに集中できます。Item Checklistはアイテムツールと図鑑ツールにも影響します。[l/github.com/user-attachments/assets/714db9bf-75dd-41b1-b603-10d266c53908:Item Checklist video].
-        '''
+	JumbledText:
+		'''
+		[c/{0}:Jumbled Text?]
+		    以下のテキストが正しく表示されていない場合、Terraria Overhaulを無効にすることで修正できます。
+		'''
+	Recipes:
+		'''
+		[c/{0}:Recipes]
+		    クエリスロットにアイテムを置くと、そのアイテムを使用または結果として得られるレシピを検索できます。ウィンドウ内のさまざまなオプションで検索やフィルタリングも可能です。近くのチェストオプションは、必要な材料を少なくとも1つずつ持っているレシピのみを表示します。[c/{1}:Item Checklist Only]オプションは、未見のアイテムを結果とするレシピで、かつ見たことのあるアイテムを使用するレシピのみを表示します。タイルチェックボックスを選択すると、最も頻繁に必要とされるクラフティングステーションのリストが表示されます。タイルをクリックすると、そのクラフティングステーションを使用するレシピに限定されます。[image:RecipeBrowser/Images/Help/uniqueTile] ユニークレシピ表示オプションは、継承されたレシピの表示を切り替えます。たとえば、『地獄のかまど』はかまどのすべてのレシピを継承しますが、ヘルストーンインゴットのユニークなレシピを持っています。選択したレシピのクラフティングステーションとレシピ条件は下部にリストされ、プレイヤーが近くにいるかどうかを赤または緑の色で示します。右側には選択したアイテムをドロップするNPCが表示されます。NPCをダブルクリックすると図鑑に移動します。レシピや材料をダブルクリックすると、そのアイテムがクエリスロットに設定され、複数のクラフティングツリーをたどるのに便利です。レシピをAltクリックするとお気に入りに追加できます。以下のお気に入りセクションを参照してください。
+		'''
+	Craft:
+		'''
+		[c/{0}:Craft]
+		    このツールはレシピのクラフトに使用できます。レシピツールで任意のレシピを右クリックするとこのツールが表示されます。[image/s0.5:RecipeBrowser/Images/CanCraftExtendedBackground]背景のレシピは複数のレシピからクラフト可能です。アイテムツールでアイテムを左クリックしてからこのツールに移動することもできます。このツールは拡張クラフティングオプションを表示します。たとえば、金と鉄の鉱石を持って金の時計のレシピをクリックした場合、このツールは金と鉄の鉱石をクラフトし、次に鎖をクラフトし、最後に金の時計自体をクラフトする複数のレシピを表示します。ルートオプションを有効にすると、複数のレシピ検索プロセスに素材の収集を含めることもできます。指定された敵を見つけて倒すことで必要な材料を収集できます。デフォルトでは、見たことのあるすべてのクラフティングステーションが拡張クラフティングパスで利用可能です。未見のステーションオプションを有効にすると、未見のクラフティングステーションも表示されます。[c/{1}:✓]、[c/{2}:X]、[c/{3}:?]アイコンは、クラフティングステーションの近くにいるか、近くにいないか、またはそのステーションを未見であるかを示します。[image/s0.7:RecipeBrowser/Images/Help/CraftIcon]ボタンを使用して個々のクラフト手順を実行します。デフォルトでは、レシピツールはCalcチェックボックスがオンでない限り、複数あるレシピのクラフティングを自動的に計算しません。拡張クラフト可能フィルターを使用すると、すべての拡張クラフティングオプションをすぐに確認できます。この機能では若干のラグが発生する場合があります。
+		'''
+	Items:
+		'''
+		[c/{0}:Items]
+		    ここではゲーム内のすべてのアイテムを探索できます。フィルターとソートを使用して目的のアイテムを見つけます。アイテムをダブルクリックすると、レシピパネルでそのアイテムをクエリします。アイテムを右ダブルクリックすると、図鑑でそのアイテムをクエリします。未取得オプションは、[c/{1}:Item Checklist]でまだ収集していないアイテムのみを表示します。
+		'''
+	Bestiary:
+		'''
+		[c/{0}:Bestiary]
+		    ここではゲーム内のすべてのNPCを探索できます。フィルターとソートを使用して目的のNPCを見つけます。NPCをクリックすると、そのNPCのルートが表示されます。クエリスロットにアイテムを置くと、そのアイテムをドロップするNPCのみがグリッドに表示されます。アイテムをダブルクリックすると、レシピパネルでそのアイテムをクエリします。アイテムを右クリックするとクエリスロットに設定され、同じアイテムをドロップする他のNPCを確認するのに便利です。新ルート（[c/{1}:Item Checklist Only]）オプションは、未収集のアイテムを持つNPCのみを表示し、貴重なルートを隠しているNPCを知るのに役立ちます。
+		'''
+	Borders:
+		'''
+		[c/{0}:Borders]
+		    アイテムにはさまざまなボーダーが表示されることがあり、その意味は以下の通りです:
+		[image/s0.5:RecipeBrowser/Images/FavoritedOverlay] このレシピはお気に入りに登録されています。以下のお気に入りセクションを参照してください。
+		[image/s0.5:RecipeBrowser/Images/SelectedOverlay] このレシピ/アイテム/NPCが選択されています。表示される情報はこのものに関連します。
+		[image/s0.5:RecipeBrowser/Images/CanCraftBackground] このレシピは現在クラフト可能です。クリックすると直接クラフティングメニューが開きます。
+		[image/s0.5:RecipeBrowser/Images/CanCraftExtendedBackground] このレシピは複数段階で現在クラフト可能です。右クリックしてクラフトツールを開き、クラフティングオプションを確認します。
+		[image/s0.5:RecipeBrowser/Images/Help/Inventory_Back8] [c/{1}:Item Checklist integration:] これらのアイテムは、最近収集した新しいアイテムを使用します。
+		'''
+	Favorite:
+		'''
+		[c/{0}:Favorite]
+		    レシピパネルで、レシピをAltクリックしてお気に入りに登録できます。お気に入りレシピがある場合、画面にお気に入りパネルが表示されます。このパネルは、すべての材料を集める進捗を追跡するのに役立ちます。マルチプレイヤーでは、他のプレイヤーがお気に入りにしたレシピもお気に入りパネルに表示されます。他のプレイヤーの進捗を追跡し、効率的に協力できます。表示されるアイテム数は、レシピをお気に入りにしたプレイヤーに対応します。
+		[image:RecipeBrowser/Images/Help/mpFavorited]
+		'''
+	QueryHoveredItem:
+		'''
+		[c/{0}:Query Hovered Item]
+		    キーバインドメニューでホットキーを割り当てることで、この機能を使ってアイテムをツールに素早く取り込めます。ゲーム内でどこでもアイテムにカーソルを合わせているときに使用できます。最後に使用したパネルによって動作が異なります。レシピツールではクエリスロットに設定され、クラフトツールではそのアイテムをクラフトするオプションを表示し、アイテムツールではアイテムを選択してスクロールし、図鑑ツールではルートクエリスロットに設定されます。同じアイテムで2回目のホットキー使用は、ツールを便利に閉じます。
+		'''
+	CategoriesSubCategoriesSortsAndFilters:
+		'''
+		[c/{0}:Categories, Sub Categories, Sorts, and Filters]
+		    レシピパネルとアイテムパネルには、アイテムやレシピをフィルタリングおよびソートする方法が多数あります。ツールチップやアイテム名を検索するために入力でき、[image:RecipeBrowser/Images/filterMod]ボタンでソースModごとにフィルタリングできます。[image:RecipeBrowser/Images/Help/Item_2430]や[image:RecipeBrowser/Images/Help/Item_54]などのカテゴリをクリックしてカテゴリ別にフィルタリングも可能です。一部カテゴリにはサブカテゴリがあります。2行目には[image:RecipeBrowser/Images/sortValue]や[image:RecipeBrowser/Images/sortAZ]などのさまざまなソートがあります。また、[image:RecipeBrowser/Images/Help/Item_531]のようなフィルターもあります。多くのソートやフィルターは特定のカテゴリ内でしか表示されません。弾薬フィルターのような一部のフィルターは複数のオプションを切り替えます。これらのフィルターでは、左右クリックで前後に移動し、中クリックでフィルターをクリアします。
+		[image:RecipeBrowser/Images/Help/sortsExplanation_en-US]
+		'''
+	ItemChecklistIntegration:
+		'''
+		[c/{0}:Item Checklist Integration]
+		    Item Checklist Modを同時に使用することで、これまでに収集したアイテムから未取得の新しいアイテムに絞って閲覧できます。これにより、ゲームの現在の段階で必要なアイテムに集中できます。Item Checklistはアイテムツールと図鑑ツールにも影響します。[l/github.com/user-attachments/assets/714db9bf-75dd-41b1-b603-10d266c53908:Item Checklist video].
+		'''
 }
 
 Keybinds: {
@@ -369,8 +378,8 @@ Keybinds: {
 }
 
 Configs: {
-    RecipeBrowserClientConfig: {
-        DisplayName: クライアント設定
+	RecipeBrowserClientConfig: {
+		DisplayName: クライアント設定
 
 		ShowRecipeModSource: {
 			Label: レシピのModソースを表示
@@ -385,6 +394,11 @@ Configs: {
 		ShowNPCModSource: {
 			Label: NPCのModソースを表示
 			Tooltip: 図鑑画面でどのNPCがどのModで追加されたかを表示します
+		}
+
+		OpenKeybindingsMenuButton: {
+			Label: キー設定メニューを表示
+			Tooltip: Mod専用のキー設定を変更できるメニューを表示します
 		}
 
 		Headers: {
@@ -438,5 +452,5 @@ Configs: {
 	}
 }
 
-ItemLostInQuerySlotWarning: "インベントリが満杯の状態でレシピブラウザにアイテムを残したため、以下のアイテムを失いました:"
+ItemLostInQuerySlotWarning: インベントリが満杯の状態でレシピブラウザにアイテムを残したため、以下のアイテムを失いました:
 
