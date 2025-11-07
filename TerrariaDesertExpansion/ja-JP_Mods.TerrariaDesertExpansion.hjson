@@ -99,47 +99,59 @@ NPCs: {
 	HallowedCactoid: {
 		DisplayName: カラフルサボトイド
 	}
+
+	HappySpirit: {
+		DisplayName: ハッピースピリット
+	}
+
+	BombSpirit: {
+		DisplayName: ボムスピリット
+	}
 }
 
 Projectiles: {
-	CactusStaffSentry: {
-		DisplayName: Cactus Staff Sentry
+	BombSpiritExplosion: {
+		DisplayName: Bomb Spirit Explosion
 	}
 
-	CactusStaffSpike: {
-		DisplayName: Cactus Staff Spike
-	}
-
-	ScepterBite: {
-		DisplayName: Scepter Bite
-	}
-
-	ScepterSpit: {
-		DisplayName: Scepter Spit
-	}
-
-	CactusSlimeShockwave: {
-		DisplayName: Cactus Slime Shockwave
-	}
-
-	CactusSlimeSpike: {
-		DisplayName: Cactus Slime Spike
-	}
-
-	EvilSnakeBite: {
-		DisplayName: Evil Snake Bite
-	}
-
-	BloodSpit: {
-		DisplayName: Blood Spit
+	SandShakerProj: {
+		DisplayName: Sand Shaker
 	}
 
 	CactusLampPet: {
 		DisplayName: Cactus Lamp Pet
 	}
 
-	SandShakerProj: {
-		DisplayName: Sand Shaker
+	BloodSpit: {
+		DisplayName: Blood Spit
+	}
+
+	EvilSnakeBite: {
+		DisplayName: Evil Snake Bite
+	}
+
+	CactusSlimeSpike: {
+		DisplayName: Cactus Slime Spike
+	}
+
+	CactusSlimeShockwave: {
+		DisplayName: Cactus Slime Shockwave
+	}
+
+	ScepterSpit: {
+		DisplayName: Scepter Spit
+	}
+
+	ScepterBite: {
+		DisplayName: Scepter Bite
+	}
+
+	CactusStaffSpike: {
+		DisplayName: Cactus Staff Spike
+	}
+
+	CactusStaffSentry: {
+		DisplayName: Cactus Staff Sentry
 	}
 }
 
@@ -148,5 +160,10 @@ Buffs: {
         DisplayName: サボテンランプの光
         Description: 道を照らす…けど、チラつくよ
     }
+
+	HappySpiritBuff: {
+		DisplayName: 精霊の加護
+		Description: なんだかツイてる気がする！
+	}
 }
 
