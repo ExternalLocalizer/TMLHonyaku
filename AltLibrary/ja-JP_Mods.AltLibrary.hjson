@@ -10,12 +10,13 @@ AnalysisDone: やあ、{0}、{1}についてデータ解析したんだ。チェ
 
 BiomeOrOreModSecret: 誰にも言えない秘密だよ
 
-Analyser: {
-	Dialog: {
-		0: "1"
-		1: "2"
-		2: "3"
-	}
+CLI: {
+	SelectOres: "鉱石を選択 ({0}/{1})："
+	ChooseEvil: ワールドの邪悪属性を選択：
+	ChooseHallow: ワールドの聖域属性を選択：
+	ChooseHell: ワールドの地獄タイプを選択：
+	ChooseJungle: ワールドのジャングルタイプを選択：
+	ChooseOre: ワールドの{0}鉱石を選択：
 }
 
 TownNPCMood: {
@@ -27,10 +28,10 @@ TownNPCMood: {
 		DislikeCrowded: こんなに人がいると気が散るよ。
 		HateCrowded: 人が多すぎる！これじゃ何もできないよ！
 		LikeBiome: "{BiomeName}の爽やかな風のおかげで、装備がバッチリ動くよ！"
-		LoveBiome:  "{BiomeName}にいると、ファイル整理が楽ちんだよ！"
+		LoveBiome: "{BiomeName}にいると、ファイル整理が楽ちんだよ！"
 		DislikeBiome: "{BiomeName}は好きじゃないな。機器がすぐオーバーヒートする。"
 		HateBiome: "{BiomeName}は調査には最適だけど、滞在はごめんだね。"
-		LikeNPC:  "{NPCName}のおかげで、データがどんどん集まる！"
+		LikeNPC: "{NPCName}のおかげで、データがどんどん集まる！"
 		LoveNPC: "{NPCName}といると、なんだかよく分からない気持ちになるよ！"
 		DislikeNPC: "{NPCName}が、ほっといてくれないんだよね。"
 		HateNPC: "{NPCName}は、一刻も早くいなくなってくれ！"
@@ -222,7 +223,7 @@ Condition: {
 Common: {
 	DevTooltip: Mod制作者になりきるのに最適！
 	FormerDevTooltip: Alternatives Libraryの元開発者になりきるのに最適！
-	キツネツールチップ: Katastrophenmacherenになりきるのに最適！
+	FoxTooltip: Great for impersonating Katastrophenmacheren!
 }
 
 BunReason: {
@@ -435,11 +436,13 @@ AltOres: {
 	AdamantiteAltOre: {
 		DisplayName: アダマンタイト
 		Description: ""
+		BlessMessage: "[c/DD5598:{0}の祝福を受けた！]"
 	}
 
 	CobaltAltOre: {
 		DisplayName: コバルト
 		Description: ""
+		BlessMessage: "[c/1A69A1:{0}の祝福を受けた！]"
 	}
 
 	CopperAltOre: {
@@ -465,16 +468,19 @@ AltOres: {
 	MythrilAltOre: {
 		DisplayName: ミスリル
 		Description: ""
+		BlessMessage: "[c/5D9358:{0}の祝福を受けた！]"
 	}
 
 	OrichalcumAltOre: {
 		DisplayName: オリハルコン
 		Description: ""
+		BlessMessage: "[c/A3169E:{0}の祝福を受けた！]"
 	}
 
 	PalladiumAltOre: {
 		DisplayName: パラジウム
 		Description: ""
+		BlessMessage: "[c/EB572F:{0}の祝福を受けた！]"
 	}
 
 	PlatinumAltOre: {
@@ -495,6 +501,7 @@ AltOres: {
 	TitaniumAltOre: {
 		DisplayName: チタニウム
 		Description: ""
+		BlessMessage: "[c/B9C2D7:{0}の祝福を受けた！]"
 	}
 
 	TungstenAltOre: {
