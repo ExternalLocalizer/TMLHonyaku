@@ -13,6 +13,7 @@ Configs: {
 				(注: Fargo's Mutant Modには類似機能があります
 				動作しない場合は、そちらの設定を確認してください)
 				'''
+			Gray: "[i:1099] 灰色の視界"
 		}
 
 		DisableMLShader: {
@@ -24,12 +25,12 @@ Configs: {
 				'''
 		}
 
-		DisableHurtOverlay: {
-			Label: ダメージ時のオーバーレイを無効化
-			Tooltip:
+		EnableHurtOverlay: {
+			Label: 被ダメージ時のオーバーレイを有効化
+			Tooltip: 
 				'''
-				ダメージを受けた際、画面の端が赤くなり、すぐに消滅します
-				オンにすると無効になります
+				ダメージを受けた際、画面の端が赤く染まり、
+				素早くフェードアウトします
 				'''
 		}
 
@@ -41,6 +42,22 @@ Configs: {
 				HPOverlay - 単色で画面の端を覆う (レトロ/トリッピー照明モード推奨)
 				New - グラデーションで画面の端を覆う (カラー/ホワイト照明モードのみ)
 				Flat - 単色で画面全体を覆う
+				'''
+		}
+
+		HurtColor: {
+			Label: "[i:1073] オーバーレイの色"
+			Tooltip: 注: レトロ／トリッピーライティングを使用していない場合、アルファ値は影響しません
+		}
+
+		HurtUseDarkColors: {
+			Label: "[i:1085] より暗い色を使用"
+			Tooltip:
+				'''
+				※ 実験的機能
+				レトロ／トリッピーライティングでは非対応
+				最も正確に表示するにはアルファを255に設定してください（シェーダーには影響しません）
+				白 = 透明
 				'''
 		}
 
@@ -72,13 +89,9 @@ Configs: {
 				'''
 		}
 
-		DisableLowHpOverlay: {
-			Label: 低HP時のオーバーレイを無効化
-			Tooltip:
-				'''
-				有効時、画面の端が赤く点滅されます
-				オンにすると無効になります
-				'''
+		EnableLowHpOverlay: {
+			Label: 低HP時のオーバーレイを有効化
+			Tooltip: 画面の端が赤く点滅します
 		}
 
 		ClassicLowHpOverlay: {
@@ -88,6 +101,27 @@ Configs: {
 				グラデーションではなく単色表示されます
 				レトロ/トリッピー照明モード推奨
 				'''
+		}
+
+		LowHpColor: {
+			Label: "[i:1073] オーバーレイの色"
+			Tooltip: 注: レトロ／トリッピーライティングを使用していない場合、アルファ値は影響しません
+		}
+
+		LowHpUseDarkColors: {
+			Label: "[i:1085] より暗い色を使用"
+			Tooltip:
+				'''
+				※ 実験的機能
+				レトロ／トリッピーライティングでは非対応
+				最も正確に表示するにはアルファを255に設定してください（シェーダーには影響しません）
+				白 = 透明
+				'''
+		}
+
+		Overlaytrigger: {
+			Label: 低HPの発動割合
+			Tooltip: HPがこの割合以下になるとオーバーレイと音が発動します
 		}
 
 		LowHpAlpha: {
@@ -108,12 +142,12 @@ Configs: {
 				'''
 		}
 
-		DisableLowHpAudio: {
-			Label: 音声を無効化
+		EnableLowHpAudio: {
+			Label: "[i:5117] オーディオを有効化"
 			Tooltip:
 				'''
-				有効時、繰り返し音声が再生される
-				オンにすると無効化される
+				低体力時に音を再生します
+				デフォルトはオフ
 				'''
 		}
 
@@ -136,18 +170,34 @@ Configs: {
 				'''
 		}
 
-		Overlaytrigger: {
-			Label: 低HPの発動割合
-			Tooltip: HPがこの割合以下になるとオーバーレイと音が発動する
-		}
-
-		DisableHPBar: {
-			Label: プレイヤーHPバーを無効化
+		EnableGrayVision: {
+			Label: 灰色の視界を有効化
 			Tooltip:
 				'''
-				ダメージを受けた際にプレイヤーの下に表示できる
-				オンにすると無効化
+				体力が減るほど画面が灰色になります
+				上記のオーバーレイ効果にも反映されます
+				Color／White照明モードが必要です
+				デフォルトではオフです
 				'''
+		}
+
+		GrayTrigger: {
+			Label: 発動開始のHP割合
+			Tooltip: 設定値以下になると灰色の視界が発動します
+		}
+
+		GrayMaxIntensity: {
+			Label: 最大強度
+			Tooltip:
+				'''
+				HPが0～1％のときの最大強度を設定します
+				値が高いほど効果が強くなります
+				'''
+		}
+
+		EnableHPBar: {
+			Label: プレイヤーHPバーを有効化
+			Tooltip: ダメージを受けると、足元にHPバーが表示されます（他のHPバーと同様の形式）
 		}
 
 		HPBarDelay: {
@@ -160,6 +210,11 @@ Configs: {
 				'''
 		}
 
+		HPBarTrigger: {
+			Label: HPバー表示の体力割合
+			Tooltip: 設定値以下になると足元にHPバーが表示されます
+		}
+
 		HPBarOpacity: {
 			Label: バーの透明度
 			Tooltip: バーの透過率を設定できます
@@ -170,22 +225,14 @@ Configs: {
 			Tooltip: バーの大きさを設定できます
 		}
 
-		DisablePSAudio: {
-			Label: ポーションクールタイム解除音を無効化
-			Tooltip:
-				'''
-				ポーションクールタイムが終了すると高音のポーション音が鳴る
-				オンにすると無効化
-				'''
+		EnablePSAudio: {
+			Label: ポーション酔い音声を有効化
+			Tooltip: ポーション酔いが解除されると、高音のポーション飲用音が再生されます
 		}
 
-		DisablePSVisual: {
-			Label: ポーションクールタイム解除の視覚エフェクトを無効化
-			Tooltip:
-				'''
-				ポーションのアイコンがプレイヤーの上に表示できる
-				オンにすると無効化
-				'''
+		EnablePSVisual: {
+			Label: ポーション酔いアイコンを表示
+			Tooltip: ポーション酔いが解除されると、プレイヤーの頭上にポーションアイコンが表示されます
 		}
 
 		PotionDelay: {
@@ -212,30 +259,23 @@ Configs: {
 			Tooltip: アイコンの大きさを設定できます
 		}
 
-		DisableBuffVisual: {
-			Label: デバフポップアップを無効化
-			Tooltip:
-				'''
-				デバフを受けた際、アイコンが一瞬プレイヤーの上に表示されます
-				オンにすると無効化
-				'''
+		EnableBuffVisual: {
+			Label: デバフポップアップを有効化
+			Tooltip: デバフを受けた際、そのアイコンが1秒間プレイヤーの頭上に表示されます
 		}
 
 		BuffLayout: {
 			Label: 使用するレイアウト
-			Tooltip:
-				'''
-				アイコンの表示方法を選択できる
-				'''
+			Tooltip: アイコンの表示方法を選択できる
 		}
 
-		DisableBuffTimer: {
-			Label: デバフの残り時間を非表示
+		EnableBuffTimer: {
+			Label: デバフの残り時間を表示
 			Tooltip:
-				'''
-				デバフアイコンの上に残り時間を表示します
-				オンにすると無効化
-				'''
+			'''
+			デバフアイコンの上に残り時間が表示されます
+			デフォルトではオフです
+			'''
 		}
 
 		BuffDelay: {
@@ -304,8 +344,8 @@ Configs: {
 
 	DebuffList: {
 		Debuffs: {
-			Tooltip: ""
 			Label: デバフ
+			Tooltip: ""
 		}
 
 		Tooltip: ""
