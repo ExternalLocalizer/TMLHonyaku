@@ -1,0 +1,157 @@
+CommonDiscDesc:
+	'''
+	カーソルを追うディスクを置く
+	ディスクの軌跡で敵を囲んでダメージを与える
+	'''
+
+Items: {
+	Lightshow: {
+		DisplayName: ライトショー
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			カーソルを停止させてチャージすると、形を完成させてダメージを与えた敵に、
+			プリズマティックボルトで追撃するようになる
+			「虹を描いて、虹を味わおう！」
+			'''
+		PrismaNerf: テラプリズマを召喚しているとダメージが減少する
+	}
+
+	LunarDisc: {
+		DisplayName: ルナディスク
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			定期的に光の色が変わり、光の色によって性能が変化する
+			青緑色に光っている間は、軌跡に触れていない敵に対してダメージが大きく増加し、
+			オレンジ色に光っている間、軌跡に触れている敵に対してダメージが大きく増加
+			'''
+	}
+
+	TerraDisc: {
+		DisplayName: テラディスク
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			軌跡に触れた敵にダメージを与え続け、攻撃した敵にビームを発射する
+			カーソルを停止させてチャージすると軌跡のダメージ間隔が短くなり、ビームの発射間隔も短縮される
+			チャージが終わってもカーソルを動かさないと更にチャージを行い、
+			更に軌跡のダメージ間隔が短くなり、ビームの発射間隔も短縮される
+
+			'''
+	}
+
+	TrueHallowedFocus: {
+		DisplayName: トゥルーハロウフォーカス
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			カーソルを停止させてチャージするとダメージが大きく増加
+			チャージが終わってもカーソルを動かさないと更にチャージを行い、
+			ダメージが更に増加
+			'''
+	}
+
+	TrueUmbralCyclone: {
+		DisplayName: トゥルーアンブラルサイクロン
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			軌跡に触れた敵にダメージを与え続ける
+			攻撃された敵は、短時間受けるダメージが増加
+			'''
+	}
+
+	UmbralCyclone: {
+		DisplayName: アンブラルサイクロン
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			軌跡に触れた敵にダメージを与え続ける
+			攻撃された敵は、短時間受けるキャプチャーダメージが増加
+			'''
+	}
+
+	Vertexus: {
+		DisplayName: ヴァーテックス
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			形を完成させると、追加のディスクをこのディスクの周りに生成する
+			追加のディスクはこのディスクに追従する
+			'''
+	}
+
+	WorthiestDisc: {
+		DisplayName: ワールズィストディスク
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			攻撃した敵に様々なデバフを長時間与える
+			敵が受けているデバフが多いほどダメージが増加
+			自身が軌跡に触れると、短時間様々なバフを得る
+			「価値のない者に対して使われる」
+			レジェンダリー
+			'''
+	}
+
+	WorthyDisc: {
+		DisplayName: ウォーシーディスク
+		Tooltip:
+			'''
+			{$CommonDiscDesc}
+			攻撃した敵に様々なデバフを長時間与える
+			「ふさわしい者によって使われる」
+			'''
+	}
+}
+
+Projectiles: {
+	LightshowProj.DisplayName: ライトショー
+	LightshowStrike.DisplayName: ライトショー
+	LunarDiscProj.DisplayName: ルナディスク
+	LunarDiscStrike.DisplayName: ルナディスク
+	TerraDiscProj.DisplayName: テラディスク
+	TerraDiscStrike.DisplayName: テラディスク
+	TerraLaser.DisplayName: テラビーム
+	TrueHallowedFocusProj.DisplayName: トゥルーハロウフォーカス
+	TrueHallowedFocusStrike.DisplayName: トゥルーハロウフォーカス
+	TrueUmbralCycloneProj.DisplayName: トゥルーアンブラルサイクロン
+	TrueUmbralCycloneStrike.DisplayName: トゥルーアンブラルサイクロン
+	TrueUmbralCycloneTrailStrike.DisplayName: トゥルーアンブラルサイクロン
+	UmbralCycloneProj.DisplayName: アンブラルサイクロン
+	UmbralCycloneStrike.DisplayName: アンブラルサイクロン
+	UmbralCycloneTrailStrike.DisplayName: アンブラルサイクロン
+	VertexusProj.DisplayName: ヴァーテックス
+	VertexusStrike.DisplayName: ヴァーテックス
+	VertexusWingman.DisplayName: ヴァーテックス
+	VertexusWingmanStrike.DisplayName: ヴァーテックス
+	WorthiestDiscProj.DisplayName: ワールズィストディスク
+	WorthiestDiscStrike.DisplayName: ワールズィストディスク
+	WorthyDiscProj.DisplayName: ウォーシーディスク
+	WorthyDiscStrike.DisplayName: ウォーシーディスク
+	LightshowBolt.DisplayName: プリズマティックボルト
+	TerraDiscTrailStrike.DisplayName: テラディスク 軌跡
+}
+
+Buffs: {
+	TerraTargeting: {
+		DisplayName: テラターゲティング
+		Description: 敵はテラディスクからテラビームで追撃される
+	}
+
+	NightShred: {
+		DisplayName: ナイトシュレッド
+		Description: 敵はキャプチャーディスクから受けるダメージが増加
+	}
+
+	LegendaryFlames: {
+		DisplayName: 伝説の炎
+		Description: 敵は価値がない！ ライフが徐々にものすごく減少する
+	}
+
+	UmbralRend: {
+		DisplayName: アンブラルレンド
+		Description: 敵は短時間受けるダメージが増加
+	}
+}

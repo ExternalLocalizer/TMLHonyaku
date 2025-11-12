@@ -1,0 +1,1538 @@
+CommonTooltips: {
+	SetBonus: {
+		Wayfarer:
+			'''
+			キャプチャーディスクの軌跡の長さを10%延長
+			防御力を1増加
+			'''
+		Exotic:
+			'''
+			キャプチャーディスクで形を完成させるとエキゾチックレゾナンスが生成され、敵を攻撃する
+			エキゾチックレゾナンスはカーソルに追従し、敵を追尾する
+			'''
+		Exotic2:
+			'''
+			キャプチャーディスクでクリティカルを出すとエキゾチックレゾナンスが生成される
+			エキゾチックレゾナンスは自身に追従し、ライフ回復をわずかに増進
+			'''
+		Alloy:
+			'''
+			キャプチャーディスクで形を完成させるたびに、防御力が1増加し、最大で8増加する
+			ダメージを受けると増加した防御力がなくなるが、強力な衝撃波で反撃する
+			'''
+		Alloy2:
+			'''
+			キャプチャーディスクで形を完成させるたびに、防御力を1ずつ無視するようになり、
+			最大で防御力を16無視するようになる
+			ダメージを受けると防御力無視が減少するが、キャプチャーダメージが一時的に増加する
+			'''
+		Ancient:
+			'''
+			{0}を2度押しすると、ファーストフラクタルを召喚する
+			発動するとファーストフラクタルはカーソルを狙って強力な斬撃を繰り出す
+			攻撃後は一時的にキャプチャーダメージが増加する
+			30秒のクールダウンがある
+			'''
+		Aquarian:
+			'''
+			雨が降っているか、水中にいると、防御力とライフ自然回復速度がわずかに増加
+			ライフが半分以下になると、20秒間ドラコニアンの怒りを得て、
+			防御力が減少する代わりに、ダメージが大幅に増加
+			効果が切れると、60秒間のクールダウンが発生する
+			'''
+		Lunar:
+			'''
+			{0}を2度押しすると、攻撃モードと防御モードが切り替わる
+			攻撃モードはキャプチャークリティカルダメージが増加するが、
+			防御力が減少し、被ダメージが増加する
+			防御モードはライフ自然回復を大きく増進するが、キャプチャーダメージが減少する
+			'''
+	}
+
+	TriggerUp: 上
+	TriggerDown: 下
+	ColoredEmitterTip:
+		'''
+		キャプチャーディスクの軌跡の長さを5%延長
+		キャプチャーディスクの軌跡の色が変化する
+		'''
+	TrailLengthPrefix: "{0}% ディスクの長さ"
+	DiscDesc:
+		'''
+		カーソルを追うディスクを置く
+		ディスクの軌跡で敵を囲んでダメージを与える
+		'''
+	AutoDeployOn: ディスク自動展開がオンになった!
+	AutoDeployOff: ディスク自動展開がオフになった!
+	NoNurseTRM: えーと、あなたがあの奇妙なディスクに縛られているなら、私にできることはあまり多くないわ。どうしてそんなことをするの？あなたより壊れやすそうに見えるんだから！
+	Shop.DarkLegacyCond: ゴブリンウォーロック撃破後
+
+	TrailLengthTooltip: {
+		Length0: 長さ:非常に短い
+		Length1: 長さ:とても短い
+		Length2: 長さ:短い
+		Length3: 長さ:普通
+		Length4: 長さ:長い
+		Length5: 長さ:とても長い
+		Length6: 長さ:非常に長い
+		Length7: 長さ:とてつもなく長い
+	}
+
+	RecipeGroupText: {
+		Gems: と宝石
+		GoldPlatBar: と金のインゴット
+		SilvTungBar: と銀の棒
+		CobaPallBar: とコバルトのインゴット
+		MythOricBar: とミスリルのインゴット
+		AdamTitaBar: とアダマンタイトのインゴット
+	}
+}
+
+Items: {
+	DiscOnString: {
+		DisplayName: 糸付きディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			「それともディスクに張られた紐？」
+			'''
+	}
+
+	EnchantedDisc: {
+		DisplayName: エンチャントディスク
+		Tooltip: "{$CommonTooltips.DiscDesc}"
+	}
+
+	GemtechDisc: {
+		DisplayName: ジェムテックディスク
+		Tooltip: "{$CommonTooltips.DiscDesc}"
+	}
+
+	HighTest: {
+		DisplayName: ハイテスト
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			「釣りだけじゃない」
+			'''
+	}
+
+	SilverLining: {
+		DisplayName: シルバーライニング
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れている敵に対してダメージが増加
+			「明るい面を見よう」
+			'''
+	}
+
+	ShortFuse: {
+		DisplayName: ショートヒューズ
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡の端がディスクに触れると爆発する
+			「本当にそんなに短いんだ？」
+			'''
+	}
+
+	TinkeredDisc: {
+		DisplayName: 試行錯誤したディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡を生成するにはカーソルを停止させてチャージする必要がある
+			左クリックを離すと再度チャージする必要がある
+			'''
+	}
+
+	DarkPath: {
+		DisplayName: ダークパス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れた敵にダメージを与え続ける
+			敵の防御力を5無視する
+			'''
+	}
+
+	Bloodline: {
+		DisplayName: ブラッドライン
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			敵にダメージを与えると一時的にライフ自然回復を増進
+			'''
+	}
+
+	ArtAttack: {
+		DisplayName: アートアタック
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れていない敵に対してダメージが増加
+			「ショーを見せてやろう！」
+			'''
+	}
+
+	WildVine: {
+		DisplayName: ワイルドヴァイン
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			視界が悪くてもダメージを与えられる
+			'''
+	}
+
+	PartyPopper: {
+		DisplayName: パーティーポッパー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形が完成するたびにダメージを与える紙吹雪の爆発を引き起こす
+			「やったー！」
+			'''
+	}
+
+	Livewire: {
+		DisplayName: ライブワイヤー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクの近くか軌跡の先端の敵を攻撃する
+			「注意：高電圧」
+			'''
+	}
+
+	CursedBinder: {
+		DisplayName: カースドバインダー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻撃した敵の接触ダメージを一時的に減少させる
+			ほとんどの敵の移動速度も一時的に低下させる 
+			'''
+	}
+
+	HotStreak: {
+		DisplayName: ホットストリーク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻撃した敵と軌跡に触れた敵に、短時間ヘルファイアを与える
+			「真っ赤だ！」
+			'''
+	}
+
+	DiscOfAncients: {
+		DisplayName: 古代のディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクの周りを2つの古代の魂が周回する
+			'''
+	}
+
+	MagicDisc: {
+		DisplayName: 魔法のディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			敵の防御力を25無視する
+			視界が悪くてもダメージを与えられる
+			'''
+	}
+
+	StringSpinner: {
+		DisplayName: ストリングスピナー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ほとんどの敵の移動速度を一時的に低下させる
+			クリティカルが発生時、敵に酸性毒を与えることがある
+			'''
+	}
+
+	IcingDisc: {
+		DisplayName: アークティックサークル
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			敵に霜焼けを与え、軌跡に触れていない敵に対してダメージが増加
+			'''
+	}
+
+	SandLiner: {
+		DisplayName: サンドライナー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させても短時間、軌跡がリセットされず、その間に2回形を完成させることができる
+			「波にさらわれないように気をつけて」
+			'''
+	}
+
+	HallowedFocus: {
+		DisplayName: ハロウフォーカス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			カーソルを停止させてチャージするとダメージが増加
+			'''
+	}
+
+	RazoredgeDisc: {
+		DisplayName: レイザーエッジディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクに触れた敵にダメージを与える
+			「刃がプラズマでできているから鋭い！」
+			'''
+	}
+
+	Annulus: {
+		DisplayName: アニュラス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れている敵に対してダメージが増加
+			'''
+	}
+
+	OverclockDisc: {
+		DisplayName: オーバークロックディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			左クリックを離すとディスクが飛んでいく
+			形を完成させるたびにダメージが増加する
+			「ギアシフトの時間だ！」
+			'''
+	}
+
+	ChlorotechDisc: {
+		DisplayName: クロロテックディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させるのにかかった時間が長いほどダメージが増加
+			'''
+	}
+
+	Overgrowth: {
+		DisplayName: オーバーグロウ
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			視界が悪くてもダメージを与えられる
+			敵にダメージを与えると一時的にライフ自然回復を増進
+			ほとんどの敵の移動速度を一時的に低下させ、ライフを徐々に減少させる
+			'''
+	}
+
+	Supercharger: {
+		DisplayName: スーパーチャージャー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			カーソルを停止させてチャージするとダメージが増加
+			チャージが終わってもカーソルを動かさないと更にチャージを行い、
+			ダメージが更に増加
+			「マキシマムオーバードライブ！」
+			'''
+	}
+
+	AuraTracer: {
+		DisplayName: オーラトレーサー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			左クリックを離すとスペクトルクローンを生成する
+			クローンは生成された所の近くで円を描く
+			クローンは1つだけ存在できる
+			'''
+	}
+
+	TreeLighter: {
+		DisplayName: ツリーライター
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			触れた敵にダメージを与え続ける光の跡を軌道に沿って残す
+			「ツリーの飾り付けに最適...そして戦場にも！」
+			'''
+	}
+
+	PagansRitual: {
+		DisplayName: ペイガンリチュアル
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させると触れた敵にダメージを与える五芒星が生成される
+			「悪魔を召喚しないように」
+			'''
+	}
+
+	SolarcellDisc: {
+		DisplayName: ソーラーセルディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			近くの敵にレーザーを発射する
+			形を完成させてダメージを与えた敵はレーザーから受けるダメージが増加し、
+			優先して狙われるようになる
+			'''
+	}
+
+	CollisionCourse: {
+		DisplayName: コリジョンコース
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクが敵に接触すると爆発する
+			'''
+	}
+
+	Maelstrom: {
+		DisplayName: メイルストローム
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			触れた敵にダメージを与える台風を生成する
+			形を完成させてダメージを与えた敵は台風の涙を受ける
+			台風の涙はスタックし、スタックはすぐに減少するが、台風のダメージを増加させる
+			「彼らを深みに引きずり込む」
+			'''
+	}
+
+	Geocentrism: {
+		DisplayName: ジオセントリズム
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れていない敵に対してダメージが増加し、
+			軌跡に触れた敵は太陽の炎で燃え上がる
+			「地球一周の旅」
+			'''
+	}
+
+	EventHorizon: {
+		DisplayName: イベントホライゾン
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させてダメージを与えた敵を完成した形の中心に引き寄せる
+			敵の防御力を無視
+			「逃げ場はない」
+			'''
+	}
+
+	NebulousEcho: {
+		DisplayName: ネビュラスエコー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させると、その形を再現するクローンが生成される
+			クローンは触れた敵にダメージを与える
+			「宇宙は覚えている…」
+			'''
+	}
+
+	Constellation: {
+		DisplayName: コンステレーション
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に沿って星の航跡を残し、
+			形を完成させると星が爆発する
+			'''
+	}
+
+	OrbitalStriker: {
+		DisplayName: オービタルストライカー
+		Tooltip:
+			'''
+			左クリックを押すと自動的に形を作る
+			形を完成させてダメージを与えた敵にルナフレアで追撃する
+			'''
+	}
+
+	Stylesus: {
+		DisplayName: スタイルス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			カーソルを停止させてチャージするとダメージが増加
+			チャージが終わってもカーソルを動かさないと更にチャージを行い、
+			ダメージが更に増加
+			「捕獲せよ！」
+			'''
+	}
+
+	GuardianDisc: {
+		DisplayName: ガーディアンディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させると触れた敵にダメージを与えるサインが生成される
+			'''
+	}
+
+	RubyStar: {
+		DisplayName: ルビーの星
+		Tooltip:
+			'''
+			軌跡に触れていない敵に対してダメージが10%増加し、
+			キャプチャーディスクの軌跡の色を虹色のグラデーションに変更する
+			'''
+	}
+
+	DiscEmblem: {
+		DisplayName: ディスクの紋章
+		Tooltip: キャプチャーダメージが15%増加
+	}
+
+	DarkStar: {
+		DisplayName: ダークスター
+		Tooltip:
+			'''
+			軌跡に触れている敵に対してダメージが15%増加
+			キャプチャーディスクの軌跡の色を反転させる
+			'''
+	}
+
+	ModifiedEmitter: {
+		DisplayName: 改良型エミッター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを5%延長
+			キャプチャーディスクの軌跡が暗闇で光るようになる
+			'''
+	}
+
+	BlackEmitter: {
+		DisplayName: 黒のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	BlueEmitter: {
+		DisplayName: 青のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	BrownEmitter: {
+		DisplayName: 茶のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	CyanEmitter: {
+		DisplayName: シアンのエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	GreenEmitter: {
+		DisplayName: 緑のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	LimeEmitter: {
+		DisplayName: ライムのエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	OrangeEmitter: {
+		DisplayName: オレンジのエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	PinkEmitter: {
+		DisplayName: ピンクのエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	PurpleEmitter: {
+		DisplayName: 紫のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	RedEmitter: {
+		DisplayName: 赤のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	SkyBlueEmitter: {
+		DisplayName: 空のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	TealEmitter: {
+		DisplayName: 青緑のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	VioletEmitter: {
+		DisplayName: すみれのエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	WhiteEmitter: {
+		DisplayName: 白のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	YellowEmitter: {
+		DisplayName: 黄のエミッター
+		Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	CrystalEmitter: {
+		DisplayName: クリスタルのエミッター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを15%延長
+			キャプチャーディスクは微量の光を発し、
+			キャプチャーディスクと軌跡が暗闇で光るようになる
+			'''
+	}
+
+	CrystalStar: {
+		DisplayName: クリスタルスター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを15%延長
+			軌跡に触れていない敵に対してダメージが10%増加
+			キャプチャーディスクが少量の光を発するようになり、暗闇で光り、
+			軌跡の色を透明なグラデーションに変更する
+			「千年も前のことのようですが…あなたが作ったばかりです」
+			'''
+	}
+
+	AuraEmitter: {
+		DisplayName: オーラエミッター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを15%延長
+			キャプチャーディスクが少量の光とオーラを発するようになり、
+			ディスクに触れた敵に小ダメージを与える
+			キャプチャーディスクと軌跡が暗闇で光るようになる
+			'''
+	}
+
+	VitalityDynamo: {
+		DisplayName: 活力のダイナモ
+		Tooltip:
+			'''
+			キャプチャー攻撃速度が5%上昇
+			形を完成させるのにかかった時間が長いほどダメージが最大で50%増加し、
+			ライフを最大で2回復する
+			'''
+	}
+
+	RangerCore: {
+		DisplayName: キャプチャーコア
+		Tooltip:
+			'''
+			キャプチャーダメージが15%増加
+			キャプチャー攻撃速度が5%上昇
+			形を完成させるのにかかった時間が長いほどダメージが最大で50%増加
+			'''
+	}
+
+	DynamoCore: {
+		DisplayName: ダイナモコア
+		Tooltip:
+			'''
+			キャプチャー攻撃速度が5%上昇
+			形を完成させるのにかかった時間が長いほどダメージが最大で50%増加
+			'''
+	}
+
+	ChlorophyteVisor: {
+		DisplayName: クロロファイトのバイザー
+		Tooltip:
+			'''
+			キャプチャーダメージが16%増加
+			キャプチャーディスクの長さを10%延長
+			'''
+	}
+
+	HallowedHeadpiece: {
+		DisplayName: 神聖なヘッドピース
+		Tooltip:
+			'''
+			キャプチャーダメージが14%増加
+			キャプチャークリティカル率が9%上昇
+			キャプチャー攻撃速度が10%上昇
+			'''
+	}
+
+	AncientHallowedHeadpiece: {
+		DisplayName: 古代の神聖なヘッドピース
+		Tooltip:
+			'''
+			キャプチャーダメージが14%増加
+			キャプチャークリティカル率が9%上昇
+			キャプチャー攻撃速度が10%上昇
+			'''
+	}
+
+	WayfarerCowl: {
+		DisplayName: 旅人の外衣
+		Tooltip: キャプチャークリティカル率が3%上昇
+	}
+
+	WayfarerChestguard: {
+		DisplayName: 旅人のチェストガード
+		Tooltip: キャプチャーダメージが4%増加
+	}
+
+	WayfarerLeggings: {
+		DisplayName: 旅人のレギンス
+		Tooltip:
+			'''
+			キャプチャーダメージが2増加
+			移動速度が5%上昇
+			'''
+	}
+
+	ExoticHeadgear: {
+		DisplayName: エキゾチックなヘッドギア
+		Tooltip:
+			'''
+			キャプチャーダメージが3%増加
+			キャプチャークリティカル率が5%上昇
+			'''
+	}
+
+	ExoticHat: {
+		DisplayName: エキゾチックな帽子
+		Tooltip:
+			'''
+			キャプチャークリティカル率が6%上昇
+			キャプチャー攻撃速度が5%上昇
+			'''
+	}
+
+	ExoticBreastplate: {
+		DisplayName: エキゾチックな胸当て
+		Tooltip:
+			'''
+			キャプチャーダメージが5%増加
+			キャプチャーディスクの長さを5%延長
+			'''
+	}
+
+	ExoticPants: {
+		DisplayName: エキゾチックなパンツ
+		Tooltip: キャプチャーダメージが6%増加
+	}
+
+	AlloyHelmet: {
+		DisplayName: 合金のヘルメット
+		Tooltip:
+			'''
+			キャプチャーダメージが8%増加
+			キャプチャークリティカル率が5%上昇
+			'''
+	}
+
+	AlloyMask: {
+		DisplayName: 合金の仮面
+		Tooltip:
+			'''
+			キャプチャーダメージが7%増加
+			キャプチャークリティカル率が9%上昇
+			'''
+	}
+
+	AlloyBreastplate: {
+		DisplayName: 合金の胸当て
+		Tooltip:
+			'''
+			キャプチャーダメージが6%増加
+			キャプチャークリティカル率が4%上昇
+			キャプチャー攻撃速度が5%上昇
+			'''
+	}
+
+	AlloyGreaves: {
+		DisplayName: 合金のすね当て
+		Tooltip:
+			'''
+			キャプチャーダメージが7%増加
+			キャプチャークリティカル率が5%上昇
+			移動速度が9%上昇
+			'''
+	}
+
+	AncientHeadgear: {
+		DisplayName: 古代のヘッドギア
+		Tooltip:
+			'''
+			キャプチャーダメージが10%増加
+			キャプチャークリティカル率と攻撃速度が5%上昇
+			キャプチャーディスクの長さを5%延長
+			'''
+	}
+
+	AncientMail: {
+		DisplayName: 古代の鎧
+		Tooltip:
+			'''
+			キャプチャーダメージが10%増加
+			キャプチャークリティカル率が8%上昇
+			'''
+	}
+
+	AncientGreaves: {
+		DisplayName: 古代のすね当て
+		Tooltip:
+			'''
+			キャプチャーダメージが10%増加
+			キャプチャークリティカル率が6%上昇
+			移動速度が15%上昇
+			'''
+	}
+
+	LunarVisor: {
+		DisplayName: 月のバイザー
+		Tooltip:
+			'''
+			キャプチャーダメージが7%増加
+			キャプチャークリティカル率が14%上昇
+			キャプチャーディスクの長さを5%延長
+			'''
+	}
+
+	LunarPlate: {
+		DisplayName: 月の鎧
+		Tooltip:
+			'''
+			キャプチャーダメージが15%増加
+			キャプチャークリティカル率が7%上昇
+			キャプチャー攻撃速度が5%上昇
+			'''
+	}
+
+	LunarGreaves: {
+		DisplayName: 月のすね当て
+		Tooltip:
+			'''
+			キャプチャーダメージが10%増加
+			キャプチャークリティカル率が9%上昇
+			移動速度が16%上昇
+			'''
+	}
+
+	AquarianMask: {
+		DisplayName: 水瓶座の仮面
+		Tooltip:
+			'''
+			キャプチャーダメージが9%増加
+			キャプチャークリティカル率が5%上昇
+			水中にとても長く居られる
+			'''
+	}
+
+	AquarianScalemail: {
+		DisplayName: 水瓶座の鱗鎧
+		Tooltip:
+			'''
+			キャプチャーダメージが6%増加
+			キャプチャークリティカル率が13%上昇
+			キャプチャー攻撃速度が10%上昇
+			水中での移動が速くなる
+			'''
+	}
+
+	AquarianLeggings: {
+		DisplayName: 水瓶座のレギンス
+		Tooltip:
+			'''
+			キャプチャーダメージが5%増加
+			キャプチャークリティカル率が7%上昇
+			移動速度が13%上昇
+			泳げるようになる
+			'''
+	}
+
+	AffinityPotion: {
+		DisplayName: アフィニティポーション
+		Tooltip:
+			'''
+			キャプチャー攻撃速度が10%上昇
+			キャプチャーディスクの長さを5%延長
+			'''
+	}
+
+	DiscCharger: {
+		DisplayName: ディスクチャージャー
+		Tooltip: キャプチャー速度とクリティカルヒット率、キャプチャーディスクの軌跡の長さが増加
+	}
+
+	SynergyPotion: {
+		DisplayName: シナジーポーション
+		Tooltip: ミニオンから攻撃された敵はキャプチャーディスクから受けるダメージが増加する
+	}
+
+	FishronScales: {
+		DisplayName: フィッシュロンの鱗
+		Tooltip: 「非常に高い耐久性を持ち、柔軟性があり、軽量だ」
+	}
+
+	PurityKey: {
+		DisplayName: 純粋な鍵
+		Tooltip: ""
+		UncursedTip: ダンジョンにある純粋な宝箱を開ける
+		DropTip: 汚染されていない地表と地下でドロップする
+	}
+
+	PurityChest: {
+		DisplayName: 純粋な宝箱
+		Tooltip: ""
+	}
+
+	TrappedPurityChest: {
+		DisplayName: 純粋な宝箱（罠）
+		Tooltip: ""
+	}
+
+	Cometail: {
+		DisplayName: コムテール
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクの軌跡に触れた敵は短時間霜焼けを受ける
+			'''
+	}
+
+	Bleedout: {
+		DisplayName: ブラッドアウト
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			一定時間が経つとディスクが壊れる
+			「どんちゃん騒ぎだ!」
+			'''
+	}
+
+	HellCircle: {
+		DisplayName: ヘルズサークル
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			7回目の攻撃ごとに強化され、ダメージが増加
+			'''
+	}
+
+	TruffleTrail: {
+		DisplayName: トリュフトレイル
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌道に胞子を残す
+			'''
+	}
+
+	StaticScarab: {
+		DisplayName: スタティックスカラベ
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			敵の防御力を10無視する
+			'''
+	}
+
+	IcingDisc2: {
+		DisplayName: アイシングディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			自身が軌跡に触れると一時的に移動速度が上昇する
+			「スウィート！」
+			'''
+	}
+
+	SwarmSpinner: {
+		DisplayName: スウォームスピナー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させるたびにハチを放って攻撃する
+			'''
+	}
+
+	AquaRing: {
+		DisplayName: アクアリング
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させるたびに、プレイヤーのライフ回復を一時的に増進するパルスを放つ
+			'''
+	}
+
+	RadicalTop: {
+		DisplayName: ラディカルトップ
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			繰り返しダメージを与えると、ダメージが増加していく
+			ダメージ増加は時間とともに減少し、攻撃でダメージを与えられないと減少する
+			「派手すぎる」
+			'''
+	}
+
+	FaultyDisc: {
+		DisplayName: フォールティディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクの軌跡が勝手に途切れることがある
+			「ケチの（頼りない）友達」
+			'''
+	}
+
+	DrizzleDisc: {
+		DisplayName: ドゥリィズルディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させるたびにダメージを与える雨粒を放つ
+			'''
+	}
+
+	DarkLegacy: {
+		DisplayName: ダークレガシー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させると、軌跡がしばらく残る
+			完成させた形の軌跡は触れた敵にダメージを与え、シャドウフレイムを与える
+			'''
+	}
+
+	AlloyDisc: {
+		DisplayName: アロイテックディスク
+		Tooltip: "{$CommonTooltips.DiscDesc}"
+	}
+
+	Triad: {
+		DisplayName: トライアド
+		Tooltip:
+			'''
+			カーソルを追従する3つのディスクを置く
+			ディスクの軌跡で敵を囲んでダメージを与える
+			敵の防御力を15無視する
+			「トリプルスレット」
+			'''
+	}
+
+	NatureEmbrace: {
+		DisplayName: ネイチャーエンブレイス 
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクの軌跡でプレイヤーを囲むと一時的にライフ自然回復を増進し、
+			キャプチャーダメージを増加させる
+			'''
+	}
+
+	DoubloonDisc: {
+		DisplayName: ダブロンディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻撃で敵にダメージを与えるとコインを少量入手する
+			「お金はディスクを回す」
+			'''
+	}
+
+	SuperHappyFunDisc: {
+		DisplayName: スーパーハッピーファンディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻撃した敵の接触ダメージを一時的に減少させ、キャプチャーディスクに対する防御力を減少させる
+			「死ぬほど楽しい！」
+			'''
+	}
+
+	IlluminantIllustrator: {
+		DisplayName: イルミナントイラストレーター
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌道に残像を残し、触れた敵にダメージを与える
+			'I'm drawin' circles around ya!'
+			'''
+	}
+
+	CausticCapture: {
+		DisplayName: コースティックキャプチャー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			呪炎か霊液を与えることがある
+			'''
+	}
+
+	EverlastingEllipse: {
+		DisplayName: エバーラスティングエリプス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れた敵にダメージを与え続ける
+			'''
+	}
+}
+
+Projectiles: {
+	DiscOnStringProj.DisplayName: 糸付きディスク
+	DiscOnStringStrike.DisplayName: 糸付きディスク
+	EnchantedDiscProj.DisplayName: エンチャントディスク
+	EnchantedDiscStrike.DisplayName: エンチャントディスク
+	GemtechDiscProj.DisplayName: ジェムテックディスク
+	GemtechDiscStrike.DisplayName: ジェムテックディスク
+	HighTestStrike.DisplayName: ハイテスト
+	HighTestProj.DisplayName: ハイテスト
+	SilverLiningProj.DisplayName: シルバーライニング
+	SilverLiningStrike.DisplayName: シルバーライニング
+	ShortFuseStrike.DisplayName: ショートヒューズ
+	ShortFuseProj.DisplayName: ショートヒューズ
+	TinkeredDiscProj.DisplayName: 試行錯誤したディスク
+	TinkeredDiscStrike.DisplayName: 試行錯誤したディスク
+	DarkPathTrailStrike.DisplayName: ダークパス 軌跡
+	DarkPathStrike.DisplayName: ダークパス
+	DarkPathProj.DisplayName: ダークパス
+	BloodlineProj.DisplayName: ブラッドライン
+	BloodlineStrike.DisplayName: ブラッドライン
+	ArtAttackStrike.DisplayName: アートアタック
+	ArtAttackProj.DisplayName: アートアタック
+	WildVineProj.DisplayName: ワイルドヴァイン
+	WildVineStrike.DisplayName: ワイルドヴァイン
+	PartyPopperBlast.DisplayName: 紙吹雪の爆発
+	PartyPopperProj.DisplayName: パーティーポッパー
+	PartyPopperStrike.DisplayName: パーティーポッパー
+	LivewireProj.DisplayName: ライブワイヤー
+	LivewireShock.DisplayName: ライブワイヤー 電撃
+	LivewireStrike.DisplayName: ライブワイヤー
+	CursedBinderProj.DisplayName: カースドバインダー
+	CursedBinderStrike.DisplayName: カースドバインダー
+	HotStreakStrike.DisplayName: ホットストリーク
+	HotStreakProj.DisplayName: ホットストリーク
+	DiscOfAncientsStrike.DisplayName: 古代のディスク
+	DiscOfAncientsSoul.DisplayName: 古代の魂
+	DiscOfAncientsProj.DisplayName: 古代のディスク
+	MagicDiscProj.DisplayName: 魔法のディスク
+	MagicDiscStrike.DisplayName: 魔法のディスク
+	StringSpinnerProj.DisplayName: ストリングスピナー
+	StringSpinnerStrike.DisplayName: ストリングスピナー
+	IcingDiscProj.DisplayName: アークティックサークル
+	IcingDiscStrike.DisplayName: アークティックサークル
+	SandLinerProj.DisplayName: サンドライナー
+	SandLinerStrike.DisplayName: サンドライナー
+	HallowedFocusStrike.DisplayName: ハロウフォーカス
+	HallowedFocusProj.DisplayName: ハロウフォーカス
+	RazoredgeDiscStrike.DisplayName: レイザーエッジディスク
+	RazoredgeDiscProj.DisplayName: レイザーエッジディスク
+	AnnulusProj.DisplayName: アニュラス
+	AnnulusStrike.DisplayName: アニュラス
+	OverclockDiscProj.DisplayName: オーバークロックディスク
+	OverclockDiscStrike.DisplayName: オーバークロックディスク
+	ChlorotechDiscProj.DisplayName: クロロテックディスク
+	ChlorotechDiscStrike.DisplayName: クロロテックディスク
+	OvergrowthProj.DisplayName: オーバーグロウ
+	OvergrowthStrike.DisplayName: オーバーグロウ
+	SuperchargerStrike.DisplayName: スーパーチャージャー
+	SuperchargerProj.DisplayName: スーパーチャージャー
+	AuraTracerStrike.DisplayName: オーラトレーサー
+	AuraTracerProj.DisplayName: オーラトレーサー
+	AuraTracerClone.DisplayName: スペクトルクローン
+	TreeLighterStrike.DisplayName: ツリーライター
+	TreeLighterProj.DisplayName: ツリーライター
+	TreeLighterStar.DisplayName: 光の跡
+	PagansRitualProj.DisplayName: ペイガンリチュアル
+	PagansRitualSigil.DisplayName: 五芒星
+	PagansRitualStrike.DisplayName: ペイガンリチュアル
+	SolarcellDiscProj.DisplayName: ソーラーセルディスク
+	SolarcellBeam.DisplayName: ソーラーセルビーム
+	SolarcellDiscStrike.DisplayName: ソーラーセルディスク
+	CollisionCourseProj.DisplayName: コリジョンコース
+	CollisionCourseStrike.DisplayName: コリジョンコース
+	MaelstromProj.DisplayName: メイルストローム
+	MaelstromShred.DisplayName: 台風
+	MaelstromStrike.DisplayName: メイルストローム
+	GeocentrismProj.DisplayName: ジオセントリズム
+	GeocentrismStrike.DisplayName: ジオセントリズム
+	EventHorizonProj.DisplayName: イベントホライゾン
+	EventHorizonStrike.DisplayName: イベントホライゾン
+	NebulousEchoClone.DisplayName: ネビュラスクローン
+	NebulousEchoProj.DisplayName: ネビュラスエコー
+	NebulousEchoStrike.DisplayName: ネビュラスエコー
+	ConstellationProj.DisplayName: コンステレーション
+	ConstellationStar.DisplayName: 星の軌跡
+	ConstellationStrike.DisplayName: コンステレーション
+	OrbitalStrikerProj.DisplayName: オービタルストライカー
+	OrbitalStrikerStrike.DisplayName: オービタルストライカー
+	StylesusProj.DisplayName: スタイルス
+	StylesusStrike.DisplayName: スタイルス
+	GuardianDiscProj.DisplayName: ガーディアンディスク
+	GuardianDiscSigil.DisplayName: ガーディアン サイン
+	GuardianDiscStrike.DisplayName: ガーディアンディスク
+	EmitterAura.DisplayName: エミッターオーラ
+	ExoticResonance.DisplayName: エキゾチックレゾナンス
+	MetalBlast.DisplayName: メタルバースト
+	TerraBlade.DisplayName: ファーストフラクタル
+	CometailStrike.DisplayName: コムテール
+	CometailProj.DisplayName: コムテール
+	BleedoutProj.DisplayName: ブラッドアウト
+	BleedoutStrike.DisplayName: ブラッドアウト
+	HellCircleStrike.DisplayName: ヘルズサークル
+	HellCircleProj.DisplayName: ヘルズサークル
+	TruffleTrailStrike.DisplayName: トリュフトレイル
+	TruffleTrailSpore.DisplayName: 胞子
+	TruffleTrailProj.DisplayName: トリュフトレイル
+	StaticScarabProj.DisplayName: スタティックスカラベ
+	StaticScarabStrike.DisplayName: スタティックスカラベ
+	IcingDisc2Strike.DisplayName: アイシングディスク
+	IcingDisc2Proj.DisplayName: アイシングディスク
+	SwarmSpinnerStrike.DisplayName: スウォームスピナー
+	SwarmSpinnerProj.DisplayName: スウォームスピナー
+	AquaRingProj.DisplayName: アクアリング
+	AquaRingStrike.DisplayName: アクアリング
+	RadicalTopStrike.DisplayName: ラディカルトップ
+	RadicalTopProj.DisplayName: ラディカルトップ
+	FaultyDiscStrike.DisplayName: フォールティディスク
+	FaultyDiscProj.DisplayName: フォールティディスク
+	DrizzleRain.DisplayName: ドゥリィズル 雨粒
+	DrizzleDiscStrike.DisplayName: ドゥリィズルディスク
+	DrizzleDiscProj.DisplayName: ドゥリィズルディスク
+	DarkLegacyTrail.DisplayName: ダークレガシー 軌跡
+	DarkLegacyStrike.DisplayName: ダークレガシー
+	DarkLegacyProj.DisplayName: ダークレガシー
+	DarkLegacyTrailStrike.DisplayName: ダークレガシー 軌跡
+	AlloyDiscStrike.DisplayName: アロイテックディスク
+	AlloyDiscProj.DisplayName: アロイテックディスク
+	TriadProj.DisplayName: トライアド
+	TriadSpawner.DisplayName: トライアド
+	TriadStrike.DisplayName: トライアド
+	NatureEmbraceStrike.DisplayName: ネイチャーエンブレイス
+	NatureEmbraceProj.DisplayName: ネイチャーエンブレイス
+	DoubloonDiscStrike.DisplayName: ダブロンディスク
+	DoubloonDiscProj.DisplayName: ダブロンディスク
+	SuperHappyFunDiscProj.DisplayName: スーパーハッピーファンディスク
+	SuperHappyFunDiscStrike.DisplayName: スーパーハッピーファンディスク
+	IlluminantIllustratorStrike.DisplayName: イルミナントイラストレーター
+	IlluminantIllustratorProj.DisplayName: イルミナントイラストレーター
+	IlluminantIllustratorClone.DisplayName: イルミナント 残像
+	CausticCaptureStrike.DisplayName: コースティックキャプチャー
+	CausticCaptureProj.DisplayName: コースティックキャプチャー
+	EverlastingEllipseTrailStrike.DisplayName: エバーラスティングエリプス
+	EverlastingEllipseStrike.DisplayName: エバーラスティングエリプス
+	EverlastingEllipseProj.DisplayName: エバーラスティングエリプス
+}
+
+Buffs: {
+	CombatRegenTRM1: {
+		DisplayName: キャプチャーアドレナリン
+		Description: トゥルーレンジャーモードでキャプチャーディスクを使用すると、わずかにライフが回復
+	}
+
+	CombatRegenTRM2: {
+		DisplayName: グレートキャプチャーアドレナリン
+		Description: トゥルーレンジャーモード中にライフが完全に回復
+	}
+
+	BloodInheritance: {
+		DisplayName: ブラッドインヘリタンス
+		Description: ライフ自然回復を増進
+	}
+
+	Cursed: {
+		DisplayName: 呪い
+		Description: 敵の移動速度が低下し、接触ダメージが減少
+	}
+
+	StickyWeb: {
+		DisplayName: ねばつく糸
+		Description: 敵の移動速度が低下
+	}
+
+	SweetIcing: {
+		DisplayName: スウィートアイシング
+		Description: 移動速度が上昇
+	}
+
+	VerdantBoon: {
+		DisplayName: ヴァーダントブーン
+		Description: ライフ自然回復を増進
+	}
+
+	Overgrown: {
+		DisplayName: オーバーグロウ
+		Description: 敵はライフが徐々に減少し、移動速度が低下
+	}
+
+	SolarcellTargeting: {
+		DisplayName: ソーラーセルターゲティング
+		Description: 敵はビームからより多くのダメージを受け、優先して攻撃される
+	}
+
+	TyphoonTear: {
+		DisplayName: 台風の涙
+		Description: 敵はメイルストロームのキャプチャーから多くのダメージを受ける
+	}
+
+	BattleHardened: {
+		DisplayName: バトルハーデンド
+		Description: 防御力が増加
+	}
+
+	MetalBurst: {
+		DisplayName: メタルバースト
+		Description: キャプチャーダメージが増加
+	}
+
+	CaptureAssist: {
+		DisplayName: グレートキャプチャーアシスト
+		Description: 敵が受けるキャプチャーダメージが増加
+	}
+
+	AssistCooldown: {
+		DisplayName: アシストクールダウン
+		Description: ファーストフラクタルの召喚はクールダウン中
+	}
+
+	LunarDefense: {
+		DisplayName: ルナディフェンス
+		Description: ライフ自然回復を大きく増進するが、キャプチャーダメージが減少
+	}
+
+	LunarOffense: {
+		DisplayName: ルナオフェンス
+		Description: キャプチャークリティカルダメージと被ダメージが増加
+	}
+
+	CaptureAssist2: {
+		DisplayName: キャプチャーアシスト
+		Description: 敵が受けるキャプチャーダメージが増加
+	}
+
+	ChargedDisc: {
+		DisplayName: チャージドディスク
+		Description: キャプチャー速度とクリティカル率が上昇し、キャプチャーディスクの軌跡の長さを延長
+	}
+
+	DiscAffinity: {
+		DisplayName: ディスクアフィニティ
+		Description: キャプチャー攻撃速度を10%上昇させ、キャプチャディスクの軌跡の長さを5%延長
+	}
+
+	SynergyAssist: {
+		DisplayName: シナジーアシスト
+		Description: ミニオンに攻撃された敵はキャプチャーディスクから受けるダメージが増加
+	}
+
+	BattleSharpened: {
+		DisplayName: バトルシャープンド
+		Description: 敵の防御力を一部無視
+	}
+
+	HealingResonance: {
+		DisplayName: ヒーリングレゾナンス
+		Description: エキゾチックレゾナンスがライフ自然回復を促進
+	}
+
+	DraconianRage: {
+		DisplayName: ドラコニアンの怒り
+		Description: 防御力が減少するが、ダメージが大幅に増加!
+	}
+
+	DraconianCool: {
+		DisplayName: ドラコニアンの疲労
+		Description: ドラコニアンの怒りはクールダウン中で発動できない
+	}
+
+	AquaRingBuff: {
+		DisplayName: アクアリング
+		Description: ライフ自然回復を増進
+	}
+
+	Friendship: {
+		DisplayName: フレンドシップ
+		Description: 敵の接触ダメージを一時的に減少させ、キャプチャーディスクに対する防御力を減少
+	}
+
+	NatureEmbraceBuff: {
+		DisplayName: ネイチャーエンブレイス
+		Description: ライフ自然回復を増進し、キャプチャーダメージが増加
+	}
+}
+
+DamageClasses: {
+	TrueCaptureDamage.DisplayName: キャプチャーダメージ
+
+	CaptureDamage: {
+		DisplayName: キャプチャーダメージ
+		RecipeBrowserName: キャプチャーディスク
+
+		ThoriumMod_TerrariumArmorAddClassFocus: {
+			Name: キャプチャーフォーカス
+			Description: キャプチャーフォーカス: キャプチャーディスクの長さを10%延長し、速度を上昇
+		}
+	}
+}
+
+Prefixes: {
+	Extended.DisplayName: 拡張の
+	Energized.DisplayName: 活発な
+	Conductive.DisplayName: 導電性の
+	Boosted.DisplayName: 強化
+	Faulty.DisplayName: 不良品の
+	Focused.DisplayName: 集中の
+	Reactive.DisplayName: 反応的な
+	Reckless.DisplayName: 無謀な
+	Rreaching.DisplayName: 長い
+	Shortened.DisplayName: 短い
+	Ultimate.DisplayName: 究極の
+	Unresponsive.DisplayName: 応答しない
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		autoDeployDiscs: {
+			Label: デフォルトでディスクを自動で展開
+			Tooltip:
+				'''
+				キャプチャーディスクの自動展開機能がデフォルトでオンになります
+				通常は、この機能はワールドに入るたびにオフになっており、オンに切り替える必要があります
+				キャプチャーディスクは選択中、自動的に展開され、使用状態を維持します
+				左クリックを押したままマウスを動かすのが面倒な場合に適しています（たとえば、誤ってUIをクリックしてディスクを展開する可能性があります）。
+				アクティブなキャプチャーディスクを選択解除するには、ホットキーを使用して別のホットバースロットを選択する必要があります (アイテムを使用しているとみなされるため、スクロールは機能しません)
+				デフォルト設定に関係なく、自動展開はホットキーを使用していつでも切り替えることができます (コントロール メニューでキーバインドを必ず設定してください)
+				'''
+		}
+
+		rangerMode: {
+			Label: レンジャーモード
+			Tooltip:
+				'''
+				キャプチャーディスクが、ポケモンレンジャーシリーズからインスピレーションを得たものに近づきます
+				- トレイルブレイク：敵に接触するとディスクの軌跡がリセットされる
+				- 脆弱なディスク：敵か敵の発射物に触れると、ディスクの軌跡がリセットされ、キャプチャーディスクが攻撃を受けると破壊され、再展開が必要になる
+				- ディスクダメージ: 脆弱なディスクと同じですが、発射物がディスクまたは軌跡に当たった場合、または敵がディスクに接触した場合にダメージを受ける
+				より難しい設定はポケモンレンジャーのゲームプレイに近い体験をエミュレートしますが、当然、報酬はなく、追加のチャレンジを追加します
+				'''
+		}
+
+		trueRangerMode: {
+			Label: トゥルーレンジャーモード
+			Tooltip:
+				'''
+				レンジャーモードがディスクダメージに設定していないと効果がありません
+				ディスクダメージと組み合わせると以下の効果が発生します。
+				- 従来のライフ回復方法（例：ライフポーション）のほとんどの効果がなくなる
+				- キャプチャーと召喚を除く全てのダメージタイプの武器でダメージを与えることができなくなる
+				　鞭は召喚だが、ダメージを与えることができなくなる
+				- キャプチャーディスクを選択中は、プレイヤーは敵から攻撃を受けない（ただし、ディスクが攻撃を受けることでダメージを受けることはあります）
+				- キャプチャーディスクを選択中は、自然回復しなくなり、キャプチャーディスクを選択中でなくても、戦闘中は自然回復量が減少する
+				- 敵を攻撃すると、短時間ライフが回復し、この効果は、敵を倒すとさらに強力になる
+				ここでの前提は、ゲームプレイをポケモンレンジャーにさらに近づけることです。ポケモンレンジャーでは、戦闘中のダメージはキャプチャーディスクに当たることで発生する
+				回復と自然回復は、攻撃を遅らせたり、ポーションのクールダウンを待ったりしてプレイヤーの無敵状態を利用するのを防ぐために弱体化される
+				同様に、命中時の回復は継続的な攻撃のリスクと報酬を促進するものです
+				警告：このモードでプレイしても追加の報酬はなく、ユニークなチャレンジを求める人だけが楽しめるモードです
+				とはいえ、楽しさや公平さを期待しないでください
+				'''
+		}
+
+		damageTimeScaling: {
+			Label: キャプチャーダメージは時間によって変化
+			Tooltip:
+				'''
+				オンにすると、キャプチャーディスクのダメージは、形を完成させるのにかかった時間によって変化します
+				時間をかけて形を完成させた場合は、最大で3倍のダメージを与えます
+				その代わり、素早く完成させた形はダメージが減少します
+				したがって、DPSは作成速度にあまり影響されず、形を素早く完成させることに負担をかける必要もありません
+				これは本来のプレイ方法ではないので注意が必要で、これらの変更はバランス調整に副作用をもたらします
+				全体的に、この設定をオンにしてプレイすると、ゲームプレイの負担は軽減されますが、想定されたゲームプレイからは多少逸脱する可能性があります
+				この効果はクロロテックディスクの特性やダイナモコアの効果に似ており、両方と重複します
+				'''
+		}
+
+		Headers: {
+			EaseOfUse: 使いやすさ
+			RangerMode: レンジャーモード
+			Balancing: バランスの調整
+		}
+
+		captureSpdMult: {
+			Label: キャプチャーディスクの速度乗数
+			Tooltip:
+				'''
+				キャプチャー攻撃速度に乗数を適用します
+				ディスクの攻撃速度は、ディスクがカーソルをどれだけ正確に追従するかに影響し、ディスクの扱いやすさに直接影響します
+				早いディスクは追従性と操作性に優れているため、この乗数を増やすと全てのディスクの操作性が向上します
+				この影響は、速度と操作性が低い序盤のディスクで最も顕著になります
+				キャプチャーダメージは時間によって変化と同様に、これを使用することは意図されたプレイ方法ではありませんが、ディスクの使用による負担を軽減するのに役立ちます
+				逆に、タッチスクリーンや描画パッドでプレイする場合は、ディスクが自然に反応しにくいため、これを強くお勧めします
+				'''
+		}
+
+		captureDmgMult: {
+			Label: キャプチャーディスクのダメージ乗数
+			Tooltip:
+				'''
+				全てのキャプチャーダメージに乗数を適用します
+				キャプチャーディスクが弱すぎるか、強すぎると感じ、バランスを調整したい場合に適しています
+				キャプチャーディスクは単体に対するDPSが低いことを意図していることに注意してください
+				これは、ディスクの強力な群衆制御能力と、画面のどこにでも攻撃できる能力に対するバランス調整です
+				'''
+		}
+
+		rangerModeDmg: {
+			Label: レンジャーモードでのダメージ乗数
+			Tooltip:
+				'''
+				キャプチャーディスクのダメージ乗数と同じですが、レンジャーモードがオンの場合に適用されます
+				前述の設定と重複します
+				レンジャーモードではディスクで敵を攻撃するのが非常に難しくなる為、オンにすることをお勧めします
+				'''
+		}
+
+		rangerModeBossDmg: {
+			Label: レンジャーモードでのボスに与えるダメージの乗数
+			Tooltip:
+				'''
+				レンジャーモードがオンの場合にボスに与えるダメージに乗数を適用します
+				他のダメージ強化と重複します
+				レンジャーモードではボスの大きさと攻撃の激しさにより、
+				ディスクでボスを攻撃するのが非常に難しくなるため、オンにすることをお勧めします
+				'''
+		}
+
+		rangerModeSpd: {
+			Label: レンジャーモードでの速度乗数
+			Tooltip:
+				'''
+				キャプチャーディスクの速度乗数と同じですが、レンジャーモードがオンの場合に適用されます
+				前述の設定と重複します
+				レンジャーモードではディスクで敵を攻撃するのが非常に難しくなるため、オンにすることをお勧めします
+				'''
+		}
+	}
+}
+
+"Keybinds.Toggle Disc Auto-Deploy.DisplayName": ディスクの自動展開の切り替え
+
+Tiles: {
+	PurityChestTile: {
+		MapEntry1: ロックされた純粋な宝箱
+		MapEntry0: 純粋な宝箱
+	}
+
+	TrappedPurityChestTile.MapEntry: 純粋な宝箱（罠）
+}

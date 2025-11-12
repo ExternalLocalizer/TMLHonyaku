@@ -1,0 +1,4384 @@
+CommonItemtooltip.PrismaPenalty: テラプリズマを召喚中はダメージが減少する
+
+Buffs: {
+	AccursedTridentStick: {
+		DisplayName: 呪われたトライデント
+		Description: この敵は呪われたトライデントが突き刺さっていて、ライフが徐々に減少している
+	}
+
+	BeetleBladeDef: {
+		DisplayName: ビートル エンデュランス
+		Description: 被ダメージを15%軽減
+	}
+
+	BeetleBladeOff: {
+		DisplayName: ビートルサージ
+		Description: 被ダメージが減少し、近接ダメージが増加し、近接攻撃速度が上昇
+	}
+
+	BorealisShield: {
+		DisplayName: ボレアリスバリア
+		Description: 防御力が増加
+	}
+
+	EvilEyeTargeting: {
+		DisplayName: イビルアイ
+		Description: この敵はデーモンアイの攻撃対象だ
+	}
+
+	BallaBuff: {
+		DisplayName: スノーバラ
+		Description: 雪だるま…ボールン？！
+	}
+
+	JungleCreeperBuff: {
+		DisplayName: ジャングルクリーパー
+		Description: ジャングルクリーパーが一緒に戦ってくれる
+	}
+
+	ShadowflameBuff: {
+		DisplayName: シャドウフレイムの幻影
+		Description: シャドウフレイムの幻影が一緒に戦ってくれる
+	}
+
+	SkullBuff: {
+		DisplayName: ガーディアンスカル
+		Description: スケルトロンJr.ではないスカルが一緒に戦ってくれる
+	}
+
+	SpiritBuff: {
+		DisplayName: スピリット
+		Description: ダンジョンスピリットが一緒に戦ってくれる
+	}
+
+	TerraultimaBuff: {
+		DisplayName: テラウティマ
+		Description: 天空の刃が一緒に戦ってくれる
+	}
+
+	CreeperBuff: {
+		DisplayName: クリーパー
+		Description: クリーパーが一時的に一緒に戦ってくれる
+	}
+
+	DestroyerUplinkTargeting: {
+		DisplayName: デストラクションマーク
+		Description: この敵は、デストロイヤードローンのブロープの攻撃対象だ
+	}
+
+	Starstruck: {
+		DisplayName: スターストラック
+		Description: 防御力が減少
+	}
+
+	StarstruckPlayer: {
+		DisplayName: スターストラック
+		Description: 防御力が減少
+	}
+
+	SphereSongRegen: {
+		DisplayName: ゴスミックパワー
+		Description: ライフ自然回復を増進
+	}
+
+	ViciousMockery: {
+		DisplayName: 悪意ある嘲笑
+		Description: この敵は接触ダメージが減少
+	}
+
+	AncientChainsBuff: {
+		DisplayName: ゴーレムの視線
+		Description: 小さいゴーレムの頭が一時的に敵にレーザーを発射する
+	}
+
+	AuroraBuff: {
+		DisplayName: オーロラアルカナ
+		Description: 鞭の攻撃速度、防御力、ライフ回復力が強化
+	}
+
+	BlocksWhipBuff: {
+		DisplayName: ブロッククルセイダーの勇気
+		Description: ブロックの力で鞭の攻撃速度が上昇！
+	}
+
+	LostRaiderBuff: {
+		DisplayName: レイダーラッシュ
+		Description: 鞭の攻撃速度が上昇
+	}
+
+	SummitBuff: {
+		DisplayName: ピナクルフォース
+		Description: 鞭の攻撃速度が上昇し、ブレードがタグの付いた敵を攻撃する
+	}
+
+	TerraWhipBuff: {
+		DisplayName: テラリアの調和
+		Description: 鞭の攻撃速度が上昇
+	}
+
+	AncientChainsTag: {
+		DisplayName: 古代の鎖タグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	AuroraTag: {
+		DisplayName: オーロラタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	BlocksWhipTag: {
+		DisplayName: ブロックチェインタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	ConstellationTag: {
+		DisplayName: コンステレーションタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	CorruptionsScourgeTag: {
+		DisplayName: コラプションズスカージタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	DusksBiteTag: {
+		DisplayName: ダスクバイトタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	EmberingScourgeTag: {
+		DisplayName: ヘルバインダータグ
+		Description: この敵に対するミニオンの攻撃は、このタグを持つ他の敵に連鎖する
+	}
+
+	LaceratorTag: {
+		DisplayName: ラセレータータグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	LostRaiderTag: {
+		DisplayName: ロストレイダータグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	MoonBiteTag: {
+		DisplayName: ムーンバイトタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	PlasmaScourgeTag: {
+		DisplayName: プラズマスカージタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	RopeWhipTag: {
+		DisplayName: 縄の鞭タグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	ScrapHookTag: {
+		DisplayName: スクラップフックタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	SeaScourgeTag: {
+		DisplayName: スカージオブシータグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	ShadowflameWhipTag: {
+		DisplayName: シャドウフレイムの鞭タグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	TerraWhipTag: {
+		DisplayName: テラウィップタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	TrueDurendalTag: {
+		DisplayName: トゥルーデュランダルタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	TrueDusksBiteBlastTag: {
+		DisplayName: トゥルーダクスバイト爆発タグ
+		Description: ミニオンがこの敵を攻撃すると爆発を発生させる
+	}
+
+	TrueDusksBiteTag: {
+		DisplayName: トゥルーダクスバイトタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	WeaverWhipTag: {
+		DisplayName: ウィーバーウィップタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	GetFixedPlayer: {
+		DisplayName: 修正済み
+		Description: 直ったぞ、坊や
+	}
+
+	GetFixed: {
+		DisplayName: 修正済み
+		Description: この敵が受けるダメージが増加し、 ライフが徐々に減少
+		
+	}
+
+	LunarFlames: {
+		DisplayName: ルナフレイム
+		Description: ライフが徐々に減少
+	}
+
+	Bloodburn: {
+		DisplayName: ブラッドバーン
+		Description: ライフが徐々に減少
+	}
+
+	GleamingWard: {
+		DisplayName: 輝くオーラ
+		Description: ライフ自然回を増進し、被ダメージが減少
+	}
+
+	SummitTag: {
+		DisplayName: サミットタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	GaleHaste: {
+		DisplayName: ゲイルヘイスト
+		Description: 移動速度と近接攻撃速度が上昇
+	}
+
+	Throngled: {
+		DisplayName: スロングド
+		Description: スロングドを受ける方法は1つだけ
+	}
+
+	Revealed: {
+		DisplayName: 発光
+		Description: 敵は発光している
+	}
+
+	Nerfed: {
+		DisplayName: ナーフ
+		Description: ナーフか、何もないかだ!
+	}
+
+	BeetleDartDef: {
+		DisplayName: ビートルダート
+		Description: 被ダメージをわずかに軽減
+	}
+
+	Scald: {
+		DisplayName: 火傷
+		Description: ライフが徐々に減少
+	}
+
+	Hyperflame: {
+		DisplayName: ハイパーフレイム
+		Description: ライフが徐々に減少
+	}
+
+	StarBoost: {
+		DisplayName: スターブースト
+		Description: ダメージと防御力が増加
+	}
+
+	GenesisCharge: {
+		DisplayName: ジェネシスチャージ
+		Description: ジェネシスキャノンのビームが強化された！
+	}
+
+	BladedChainTag: {
+		DisplayName: ブロックチェインタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	CoraltipTag: {
+		DisplayName: コーラルティップタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	FellTentacleTag: {
+		DisplayName: 落ちた触手タグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	LuminousLasherTag: {
+		DisplayName: ルミラスラッシャータグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	WhitecapTag: {
+		DisplayName: ホワイトキャップタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	FeatherFlayerTag: {
+		DisplayName: フェザーフライヤータグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	ChargedLashTag: {
+		DisplayName: 充電コードタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	AegisWard: {
+		DisplayName: イージスオーラ
+		Description: 防御力が増加
+	}
+
+	RainbowSlimeBuff: {
+		DisplayName: レインボースライム
+		Description: 小さいレインボースライムが一緒に戦ってくれる
+	}
+
+	HoppinJackBuff: {
+		DisplayName: ホッピングジャック
+		Description: ホッピングジャックが一緒に戦ってくれる
+	}
+
+	GraniteBuff: {
+		DisplayName: 御影石のガーディアン
+		Description: 御影石のセンチネルが一緒に戦ってくれる
+	}
+
+	TwinkleBuff: {
+		DisplayName: トゥインクル
+		Description: 小さい星が一緒に戦ってくれる
+	}
+
+	NatureBuff: {
+		DisplayName: 自然の精霊
+		Description: 自然の精霊があなたを守る
+	}
+
+	WingBuff: {
+		DisplayName: 鳥の援護
+		Description: 羽の生えた友達が上から敵を攻撃する!
+	}
+
+	RockBuff: {
+		DisplayName: ストーンゴーレム
+		Description: 岩と石が一緒に戦ってくれる
+	}
+
+	MirrorBuff: {
+		DisplayName: 虚無の幻影
+		Description: 強力な幻影があなたを守る
+	}
+
+	StarWriterBuff: {
+		DisplayName: ステラージェネシス
+		Description: 星々が一緒に戦ってくれる
+	}
+}
+
+Items: {
+	CommanderBadge: {
+		DisplayName: 星の司令官バッジ
+		Tooltip:
+			'''
+			召喚ダメージが15%増加し、ミニオンの攻撃のノックバックが増加
+			召喚できるセントリーの数が2体増える
+			「星の司令部に苦情を申し立てたいと言っているのか？」
+			'''
+	}
+
+	DemomanPack: {
+		DisplayName: 爆破技師パック
+		Tooltip:
+			'''
+			33%の確率でランチャーの弾を消費しない
+			爆発による自爆ダメージを33%軽減
+			「優秀な爆破技師とはどのような人？」
+			'''
+	}
+
+	DirePoint: {
+		DisplayName: 鋭利な穂先
+		Tooltip:
+			'''
+			槍と短剣のクリティカル率が20%上昇し、ノックバックが20%増加
+			「見ているだけで自分自身を突いてしまうほど尖っている」
+			'''
+	}
+
+	FlameTank: {
+		DisplayName: フレイムタンク
+		Tooltip:
+			'''
+			火炎放射器のダメージが10%増加
+			火炎放射器の弾速が20%上昇
+			50%の確率で火炎放射器の弾薬を消費しない
+			'''
+	}
+
+	FuelTank: {
+		DisplayName: 燃料タンク
+		Tooltip: 33%の確率で火炎放射器の弾薬を消費しない
+	}
+
+	HeavyWarhead: {
+		DisplayName: 重い弾頭
+		Tooltip:
+			'''
+			ランチャーのダメージが10%増加
+			ランチャーのノックバックが20%増加
+			'''
+	}
+
+	NuclearPack: {
+		DisplayName: ニュークリアパック
+		Tooltip:
+			'''
+			ランチャーのダメージが10%増加
+			ランチャーのノックバックが20%増加
+			33%の確率でランチャーの弾を消費しない
+			爆発による自爆ダメージを67%軽減
+			「ほとんど天国だ…」
+			'''
+	}
+
+	ShiningPoint: {
+		DisplayName: 輝く穂先
+		Tooltip:
+			'''
+			槍と短剣のクリティカル率が10%上昇し、ノックバックが10%増加
+			「おお、ピカピカだ！」
+			'''
+	}
+
+	SolarEmblem: {
+		DisplayName: 太陽の紋章
+		Tooltip:
+			'''
+			近接ダメージが16%増加
+			近接攻撃速度が5%上昇
+			'''
+	}
+
+	StarGauntlet: {
+		DisplayName: ステラガントレット
+		Tooltip:
+			'''
+			鞭のダメージが12%増加し、近接攻撃速度が12%上昇
+			鞭の攻撃範囲とノックバックが25%増加
+			鞭で攻撃した敵の防御力を下げる
+			近接攻撃のオート攻撃を有効にする
+			「敵を星に夢中にさせろ！」
+			'''
+	}
+
+	AncientKylie: {
+		DisplayName: 古代のブーメラン
+		Tooltip:
+			'''
+			強力な禁断のブーメランを投げることがある
+			クリティカル率が高いほど禁断のブーメランを投げる確率が上昇
+			「オージー、オージー、オージー！おいおいおい！」
+			'''
+	}
+
+	Antlerang: {
+		DisplayName: アントララン
+		Tooltip:
+			'''
+			枝角で作られたヴァラリを投げる
+			敵を貫通し、3ヒット目まではダメージが落ちない
+			一度に最大2つまで投げられる
+			「ドントスターブの引用はないの？」
+			'''
+	}
+
+	BlazingDisc: {
+		DisplayName: ブレイジングディスク
+		Tooltip:
+			'''
+			placeholder
+			「この車輪は熱い！」
+			'''
+		TooltipNormal: 敵を無限に貫通し、貫通してもダメージが落ちない
+		TooltipRemix: 敵を無限に貫通し、貫通してもダメージが落ちず、連続して投げられる
+	}
+
+	ChlorothornChakram: {
+		DisplayName: クロロソーンチャクラム
+		Tooltip: 敵か地形に当たるとイバラのチャクラムを発射する
+	}
+
+	Cosmicutter: {
+		DisplayName: コズミカッター
+		Tooltip:
+			'''
+			一度に最大4つまで投げられる
+			投げた後左クリックを押し続けると戻ってくるのが遅くなるが、
+			ダメージが増加し、サイズが大きくなって戻ってくる
+			「全ての敵を、そして現実の構造を切り裂け！」
+			'''
+	}
+
+	CreeperDisc: {
+		DisplayName: クリーパーディスク
+		Tooltip: 「不快だが創造的だ」
+	}
+
+	Divinity: {
+		DisplayName: ディヴィニティ
+		Tooltip:
+			'''
+			ディバイン・ディスクを無制限に投げる
+			ディスクは戻ってくる際に周囲に光弾を発射することがある
+			'''
+	}
+
+	GlaiveGauntlet: {
+		DisplayName: グレイヴガントレット
+		Tooltip: 敵か地形に当たると近くの敵に向かって跳ね返るグレイヴを発射する
+	}
+
+	GlaiveGauntletMK2: {
+		DisplayName: グレイヴガントレット MK2
+		Tooltip:
+			'''
+			敵か地形に当たると近くの敵に向かって跳ね返るグレイヴを発射する
+			より多くの回数、跳ね返る
+			「マルチプルオブジェクトアドバンスリコシェテクノロジーにより強化された!」
+			'''
+	}
+
+	Monsoon: {
+		DisplayName: モンスーン
+		Tooltip: 投げたチャクラムは射程限界で一瞬その場で回転してから、戻ってくる
+	}
+
+	ScaleShredder: {
+		DisplayName: スケールシュレッダー
+		Tooltip:
+			'''
+			敵の防御力を5無視し、敵を貫通する
+			「致命的な機知だ…」
+			'''
+	}
+
+	TwinFlares: {
+		DisplayName: ツインフレア
+		Tooltip:
+			'''
+			一度に2つのチャクラムを投げる
+			「飛んでいくのを見るのは楽しいよ…投げている間はね」
+			'''
+	}
+
+	BFR8000: {
+		DisplayName: B.F.R. 8000
+		Tooltip:
+			'''
+			3点バースト
+			初弾のみ矢を消費する
+			「ビッグ・フリーキング・リピーター 8000は、敵を100%粉砕する」
+			'''
+	}
+
+	CandyCaneBow: {
+		DisplayName: キャンディステッキの弓
+		Tooltip:
+			'''
+			木の矢に火をつけて発射する
+			33%の確率で矢を消費しない
+			「彼はミスター・グリーン・クリスマスであり、ミスター・サンだ...」
+			'''
+	}
+
+	CoralCrossbow: {
+		DisplayName: サンゴのクロスボウ
+		Tooltip: ""
+	}
+
+	CthulhusGaze: {
+		DisplayName: クトゥルフゲイズ
+		Tooltip:
+			'''
+			木の矢をカーソルと敵に向かってわずかに曲がり、
+			敵か地形に当たると幻影の目を召喚するエルドリッチの矢に変換する
+			また、最も近い敵に幻影の矢を2発発射する
+			50%の確率で矢を消費しない
+			'''
+	}
+
+	EnergyRepeater: {
+		DisplayName: エネルギーリピーター
+		Tooltip:
+			'''
+			placeholder
+			「アローは次世代へ！」
+			'''
+		TooltipNormal:
+			'''
+			木の矢をチャージアローに変換する
+			5点バースト
+			初弾のみ矢を消費する
+			'''
+		TooltipRemix:
+			'''
+			木の矢をチャージアローに変換する
+			3点バースト
+			初弾のみ矢を消費する
+			'''
+	}
+
+	Junglefury: {
+		DisplayName: ジャングルフューリー
+		Tooltip:
+			'''
+			3点バースト
+			33%の確率で矢を消費しない
+			「植物の怒りを解き放て！」
+			'''
+	}
+
+	MechanizedBow: {
+		DisplayName: 機械化弓
+		Tooltip: placeholder
+		TooltipNormal: 撃ち続けていると攻撃速度が上昇していく
+		TooltipRemix:
+			'''
+			撃ち続けていると攻撃速度が上昇していく
+			50%の確率で矢を消費しない
+			'''
+	}
+
+	Mooncrescent: {
+		DisplayName: ムーンクレセント
+		Tooltip: 木の矢をナイトアローに変換する
+	}
+
+	Omega: {
+		DisplayName: オメガ
+		Tooltip: 75%の確率で矢を消費しない
+	}
+
+	OvergrownCrossbow: {
+		DisplayName: 繁茂したクロスボウ
+		Tooltip: 木の矢を毒矢に変換することがある
+	}
+
+	PillagingCrossbow: {
+		DisplayName: 略奪者のクロスボウ
+		Tooltip:
+			'''
+			木の矢に火をつけて発射し、
+			時々、矢を略奪者の矢に変換して発射する
+			'''
+	}
+
+	Plasmcaster: {
+		DisplayName: プラズマキャスター
+		Tooltip:
+			'''
+			矢を渦を発生させるプラズマボルトに変換する
+			33%の確率で矢を消費しない
+			'''
+	}
+
+	Sandblast: {
+		DisplayName: サンドバースト
+		Tooltip:
+			'''
+			矢を強力なサンドミサイルに変換する
+			「それで、イワンがわかるでしょ...」
+			'''
+	}
+
+	SkullBow: {
+		DisplayName: スカルボウ
+		Tooltip:
+			'''
+			骨の矢を追加で発射することがある
+			「死から蘇る」
+			'''
+	}
+
+	TerraBow: {
+		DisplayName: テラボウ
+		Tooltip:
+			'''
+			木の矢をテラアローに変換し、
+			追加でテラアローを2本発射する
+			33%の確率で矢を消費しない
+			'''
+	}
+
+	TrueHallowedRepeater: {
+		DisplayName: 真なる神聖な機械弓
+		Tooltip:
+			'''
+			定期的にホーリーボルトを追加で発射する
+			20%の確率で矢を消費しない
+			'''
+	}
+
+	TrueMooncrescent: {
+		DisplayName: トゥルームーンクレセント
+		Tooltip:
+			'''
+			矢を消費せずにナイトアローを発射し、
+			強力なトゥルーナイトアローを発射することがある
+			クリティカル率が高いほどトゥルーナイトアローを発射する確率が上昇
+			'''
+	}
+
+	AssassinsBlowgun: {
+		DisplayName: 暗殺者の吹き銃
+		Tooltip: 「静かだが致命的」
+	}
+
+	Bloodletter: {
+		DisplayName: ブラッドレター
+		Tooltip:
+			'''
+			2点バースト
+			初弾のみダーツを消費する
+			'''
+	}
+
+	BottomlessDartMagazine: {
+		DisplayName: 底なしのダーツマガジン
+		Tooltip: 「...そして無限ダーツメガパックを追加すれば、どんなミッションにも対応できます！」
+	}
+
+	CorruptBuster: {
+		DisplayName: コラプトバスター
+		Tooltip: ダーツを広範囲に発射する
+	}
+
+	DarkmoonGauntlet: {
+		DisplayName: ダークムーンガントレット
+		Tooltip:
+			'''
+			75%の確率でダーツを消費しない
+			「月の裏側からの幻想的なエネルギーで満ちている」
+			'''
+	}
+
+	DartlingGun: {
+		DisplayName: ダートリングガン
+		Tooltip:
+			'''
+			50%の確率でダーツを消費しない
+			「ヤタタタタタ……」
+			'''
+	}
+
+	DartMitt: {
+		DisplayName: ダーツミトン
+		Tooltip:
+			'''
+			20%の確率でダーツを消費しない
+			「風船を割るのにいいかもしれない」
+			'''
+	}
+
+	Dart: {
+		DisplayName: ダーツ
+		Tooltip: ""
+	}
+
+	Fireblaster: {
+		DisplayName: ファイアブラスター
+		Tooltip: ダーツを焼夷ダーツに変換する
+	}
+
+	GildedDart: {
+		DisplayName: 金のダーツ
+		Tooltip:
+			'''
+			敵のドロップする金額が増加
+			「チャリン、チャリン、チャリンアリン！」
+			'''
+	}
+
+	IncendiaryDart: {
+		DisplayName: 焼夷ダーツ
+		Tooltip: 敵を燃やし、敵か地形に当たると爆発する
+	}
+
+	LuminiteDart: {
+		DisplayName: ルミナイトダーツ
+		Tooltip:
+			'''
+			地形を貫通する
+			敵に接近すると方向を変えてエネルギーアローに変化する
+			「何回死んだの？もう落ち込んでるよ」
+			'''
+	}
+
+	NanoDart: {
+		DisplayName: ナノダーツ
+		Tooltip:
+			'''
+			混乱の追加効果を与え、敵の防御力を40%無視する
+			「ナノマシンだ、息子よ」
+			'''
+	}
+
+	NovaCarbine: {
+		DisplayName: ノヴァカービン
+		Tooltip:
+			'''
+			3点バースト
+			初弾のみ矢を消費する
+			ルミナイトダーツを追加で発射することがある
+			「サイバーコマンドーのやり方を見せてやろう」
+			'''
+	}
+
+	Predator: {
+		DisplayName: プレデター
+		Tooltip:
+			'''
+			ダーツが命中時にプレデターダーツで追撃する
+			「どこに行ったの？」
+			'''
+	}
+
+	SuperTrapGun: {
+		DisplayName: スーパートラップガン
+		Tooltip:
+			'''
+			毒のダーツや猛毒のダーツを消費せず、
+			ダーツがなくても毒のダーツを発射できる
+			'''
+	}
+
+	TrapCannon: {
+		DisplayName: トラップキャノン
+		Tooltip: 20%の確率で毒のダーツを消費しない
+	}
+
+	TribalGlove: {
+		DisplayName: トライバルグローブ
+		Tooltip:
+			'''
+			ダーツを拡散させて投げる
+			敵の防御力を20無視する
+			「ダーツの銃を拒否し、モンクに戻る」
+			'''
+	}
+
+	VenomDart: {
+		DisplayName: 猛毒のダーツ
+		Tooltip: 敵に酸性毒を与える
+	}
+
+	Avalanche: {
+		DisplayName: アバランチ
+		Tooltip:
+			'''
+			振り回しているときはダメージ、サイズ、射程が徐々に増加していく
+			「このフレイルは雪のジョークだよ！」
+			'''
+	}
+
+	BeetlesBoulder: {
+		DisplayName: ビートルボルダー
+		Tooltip:
+			'''
+			大岩を発射することがある
+			「岩よりもいいものって何だろう？もちろん、鎖につながれた岩だよ！」
+			'''
+	}
+
+	ChainKunai: {
+		DisplayName: チェインクナイ
+		Tooltip: "'クナイイイ!!!'"
+	}
+
+	Deathspin: {
+		DisplayName: デススピン
+		Tooltip:
+			'''
+			プライムの腕はフレイルの周りを回転し、ダメージを追加で与える
+			「スピンして勝つ」
+			'''
+	}
+
+	DungeonsRavager: {
+		DisplayName: ダンジョンラヴェジャー
+		Tooltip: 振り回しの範囲が広く、地形を貫通する
+	}
+
+	FungiFlail: {
+		DisplayName: ファンギフレイル
+		Tooltip: ""
+	}
+
+	Judgement: {
+		DisplayName: ジャッジメント
+		Tooltip: 「正義のハンマーは大きな力で落ちる」
+	}
+
+	LittleSnatcher: {
+		DisplayName: リトルスナッチャー
+		Tooltip:
+			'''
+			敵を貫通し、2回ヒットする
+			「そんなに小さいわけじゃないよ…」
+			'''
+	}
+
+	MoonFist: {
+		DisplayName: ムーンフィスト
+		Tooltip:
+			'''
+			命中時に敵のノックバック耐性を大幅に低下させる
+			「ところで、ムーンロードはどれくらい強くパンチするんだ？」
+			'''
+	}
+
+	RockRope: {
+		DisplayName: 縄付きの岩
+		Tooltip: ""
+	}
+
+	ShellSmasher: {
+		DisplayName: シェルスマッシャー
+		Tooltip: 敵の防御力を20無視する
+	}
+
+	Skelefist: {
+		DisplayName: スケルフィスト
+		Tooltip: 「部屋の向こうから誰かを殴るのに最適です」
+	}
+
+	SkelevicePrime: {
+		DisplayName: スケルヴィス・プライム
+		Tooltip: 「あなたのプライムは期限切れです！」
+	}
+
+	SunsRage: {
+		DisplayName: レイジ・オブ・ザ・サン
+		Tooltip: 「凝縮された星の力で、邪魔する者を蒸発させる」
+	}
+
+	TameTrapper: {
+		DisplayName: ティムトラッパー
+		Tooltip:
+			'''
+			敵を無限に貫通する
+			「それは良い食虫植物です、そうなんだよ！」
+			'''
+	}
+
+	Thornball: {
+		DisplayName: ソーンボール
+		Tooltip:
+			'''
+			敵に毒を与えることがある
+			「ひまわりと間違えないように…」
+			'''
+	}
+
+	Bloodboil: {
+		DisplayName: ブラッドボイル
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を30無視する
+			水中でも攻撃できる
+			'''
+	}
+
+	BoneSinger: {
+		DisplayName: ボーンシンガー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			水中でも攻撃できる
+			'''
+	}
+
+	BottomlessGelTank: {
+		DisplayName: 底なしのジェルタンク
+		Tooltip:
+			'''
+			火炎放射器用のジェルを無限に供給する
+			「食べるのではなく、燃やすのが楽しい！」
+			'''
+	}
+
+	CursedFlamer: {
+		DisplayName: カースフレイマー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			水中でも攻撃できる
+			20%の確率でジェルを消費しない
+			'''
+	}
+
+	DistortionAfterburner: {
+		DisplayName: ディストーションアフターバーナー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を40無視する
+			水中でも攻撃でき
+			時々、ギリシャの火を発射する
+			25%の確率でジェルを消費しない
+			'''
+	}
+
+	Frostbite: {
+		DisplayName: フロストバイト
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			水中でも攻撃できる
+			「とても熱い！」
+			'''
+	}
+
+	GelFlamer: {
+		DisplayName: ジェルフレイマー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を10無視する
+			'''
+	}
+
+	Hellfire: {
+		DisplayName: ハデスインフェルノ
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を10無視する
+			水中でも攻撃できる
+			'''
+	}
+
+	IchorSpray: {
+		DisplayName: イコルスプレー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を5無視する
+			敵の防御力を低下させる霊液の煙を発射する
+			水中でも攻撃でき、煙は地形を少しだけ貫通する
+			20%の確率でジェルを消費しない
+			「本当に気持ち悪いけど、それでも効果的」
+			'''
+	}
+
+	JunglesBane: {
+		DisplayName: ジャングルベイン
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			炎は地形に付着して、しばらく残る
+			「朝のナパームの匂いが大好きだ…」
+			'''
+	}
+
+	LihzahrdFlameGun: {
+		DisplayName: リザードフレイムガン
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			33%の確率でジェルを消費しない
+			'''
+	}
+
+	Moonrazer: {
+		DisplayName: ムーンレイザー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を25無視する
+			水中でも攻撃でき、地形を貫通する
+			50%の確率でジェルを消費しない
+			「月の表面で火を起こすことはできない」
+			'''
+	}
+
+	Waterflame: {
+		DisplayName: ウォーターフレイム
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			水中でも攻撃できる
+			16%の確率でジェルを消費しない
+			「望ましくない注目に対処するのに最適」
+			'''
+	}
+
+	Wildfire: {
+		DisplayName: ワイルドファイヤー
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を10無視する
+			「驚くほど耐火性の高い木材で作られています」
+			'''
+	}
+
+	Antimatter: {
+		DisplayName: アンチマター
+		Tooltip:
+			'''
+			マスケット銃の弾丸をルミナイト弾に変換する
+			左クリックを押し続けるとチャージし、ダメージが増加
+			最大までチャージすると強力な反物質弾を発射する
+			20%の確率で弾薬を消費しない
+			右クリックでズームアウト
+			「礼儀正しく、効率的に。出会う人全てを殺す計画を立てておけ」
+			'''
+	}
+
+	Captain: {
+		DisplayName: キャプテン
+		Tooltip:
+			'''
+			25%の確率で弾薬を消費しない
+			時々、砲丸を発射する
+			「ヤーハー、フィドルディーディー！」
+			'''
+	}
+
+	CryoclockCarbine: {
+		DisplayName: クライオクロックカービン
+		Tooltip:
+			'''
+			3点バースト
+			撃ち続けていると攻撃速度が低下するが、ダメージが増加
+			攻撃速度が低下しきったあとは、凍った火花も発射する
+			'''
+	}
+
+	Deadeye: {
+		DisplayName: デッドアイ
+		Tooltip: マスケット銃の弾丸を金の弾丸に変換することがある
+	}
+
+	EdgeBlaster: {
+		DisplayName: エッジブラスター
+		Tooltip: 「エッジが痛い！」
+	}
+
+	QuickDraw: {
+		DisplayName: クイックドロー
+		Tooltip:
+			'''
+			6点バースト
+			初弾のみ弾薬を消費する
+			「真昼だ」
+			'''
+	}
+
+	ShroomiteGrenadier: {
+		DisplayName: シュルーマイトグレネーダー
+		Tooltip:
+			'''
+			右クリックでロケットを消費して、グレネードを発射する
+			25%の確率で弾薬を消費しない
+			「やったー！」
+			'''
+	}
+
+	Stormdiver: {
+		DisplayName: ストームダイバー
+		Tooltip:
+			'''
+			左クリックを押し続けるとチャージし、
+			チャージすることで拡散しにくくなり、ダメージが増加する
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	SuperShotgun: {
+		DisplayName: スーパーショットガン
+		Tooltip:
+			'''
+			広範囲に弾を発射する
+			「引き裂いて、ぶちのめせ！」
+			'''
+	}
+
+	TommyGun: {
+		DisplayName: トミーガン
+		Tooltip: 「あなたの小さな友達」
+	}
+
+	TwinPulsar: {
+		DisplayName: ツインパルサー
+		Tooltip:
+			'''
+			弾薬を貫通レーザー弾に変換する
+			右クリックでジェルを消費して呪炎を発射し、水中でも攻撃できる
+			「半分の命」
+			'''
+	}
+
+	BeggarsBazooka: {
+		DisplayName: 乞食のバズーカ
+		Tooltip:
+			'''
+			3点バースト
+			精度が低く、ロケットが拡散する
+			「残念ながらロケットジャンプはできません」
+			'''
+	}
+
+	BlackholeBlaster: {
+		DisplayName: ブラックホールブラスター
+		Tooltip:
+			'''
+			4点バースト
+			初弾のみロケットを消費する
+			「とにかくドカンと」
+			'''
+	}
+
+	BoneBlasta: {
+		DisplayName: ボーンバースター
+		Tooltip: 敵の防御力を30無視する
+	}
+
+	Bunzooka: {
+		DisplayName: ブンズーカ
+		Tooltip:
+			'''
+			自爆ダメージが少ない
+			稀に爆裂ウサギを発射することがある
+			クリティカル率が高いほど爆裂ウサギを発射する確率が上昇する
+			「ウサギを殺すのは残酷だ。以上。」
+			'''
+	}
+
+	Firestorm: {
+		DisplayName: ファイアストーム
+		Tooltip:
+			'''
+			25%の確率で弾薬を消費しない
+			発射されたロケットは敵を炎上させる
+			「ロケットを撃つぞ、いいか？」
+			'''
+	}
+
+	HandCannon: {
+		DisplayName: ハンドキャノン
+		Tooltip:
+			'''
+			ロケットを砲丸に変換する
+			「あなたは海賊だ！」
+			'''
+	}
+
+	PrimeCannon: {
+		DisplayName: プライムキャノン
+		Tooltip:
+			'''
+			ロケットをプライム爆弾に変換する
+			「アリーナが爆破されないように気をつけろ」
+			'''
+	}
+
+	Radiance: {
+		DisplayName: レイディアンス
+		Tooltip: 爆発を引き起こす光り輝くロケットを発射する
+	}
+
+	Riptide: {
+		DisplayName: リップタイド
+		Tooltip: 弾速が早く、敵を貫通し、3ヒットするロケットを発射する
+	}
+
+	SporeBomber: {
+		DisplayName: スポーボンバー
+		Tooltip: ""
+	}
+
+	Tsar: {
+		DisplayName: ツァーリ
+		Tooltip:
+			'''
+			強力な破壊力を持つミニボンバーを発射する
+			直撃するとダメージが増加し、飛行中でも増加する
+			「死となれ、世界の破壊者よ」
+			'''
+	}
+
+	CrystalCarbine: {
+		DisplayName: クリスタルカービン
+		Tooltip:
+			'''
+			地形で跳ね返るビームを発射する
+			「スライムを撃てるほどの優雅さ」
+			'''
+	}
+
+	DeathLaser: {
+		DisplayName: デスレーザー
+		Tooltip: ""
+	}
+
+	Deathray: {
+		DisplayName: デスレイ
+		Tooltip:
+			'''
+			左クリックを押し続けることで、チャージを行い、チャージが完了すれば
+			全てを消滅させる強力なレーザーを発射する
+			「やあ」
+			'''
+	}
+
+	FireBeamer: {
+		DisplayName: ファイアビーマー
+		Tooltip: 射程限界に達するか、敵か地形に当たると爆発するビームを発射する
+	}
+
+	Partycandle: {
+		DisplayName: パーティーキャンドル
+		Tooltip: 「花火だ！」
+	}
+
+	PhaserLaser: {
+		DisplayName: フェイザーレーザー
+		Tooltip: 「勝てないなら、仲間になれ」
+	}
+
+	Shockgun: {
+		DisplayName: ショックガン
+		Tooltip: 「かなり衝撃的な発明」
+	}
+
+	SolarBeam: {
+		DisplayName: ソーラービーム
+		Tooltip: 
+			'''
+			左クリックを押し続けることで、チャージを行い、チャージが完了すれば
+			強力なレーザーを発射する
+			'''
+
+	}
+
+	SparkTaser: {
+		DisplayName: スパークテーザー
+		Tooltip: 射程が短い火花を連射する
+	}
+
+	Wiinator: {
+		DisplayName: ウィネーター
+		Tooltip: 「Wiiは暴力に訴えている」
+	}
+
+	EvilEye: {
+		DisplayName: イビルアイ
+		Tooltip:
+			'''
+			射程が短いビームを発射し、
+			命中するとデーモンアイを召喚して追加ダメージを与える
+			「ブー、ブー。私たちを見てるよ！」
+			'''
+	}
+
+	GleamingBall: {
+		DisplayName: 輝く水晶玉
+		Tooltip: 敵にダメージを与え、味方を守るオーラを発する
+	}
+
+	GrandCrystal: {
+		DisplayName: グランドクリスタル
+		Tooltip:
+			'''
+			クリスタルを召喚し、左クリックを押している間、ジェルを発射する
+			左クリックを離すと、クリスタルが砕け、敵を追尾するクリスタルの破片を飛ばす
+			「クリスタルを讃えよ！」
+			'''
+	}
+
+	Honeyhive: {
+		DisplayName: ハニーハイブ
+		Tooltip:
+			'''
+			地形に当たると跳ねる蜂蜜の球を発射する
+			蜂蜜の球が命中するとライフが最も少ないプレイヤーのライフが回復し
+			この武器で攻撃するか、回復するとライフ自然回復を増進する
+			「銀河で最も甘い蜂蜜が含まれている」
+			'''
+	}
+
+	IcicleFan: {
+		DisplayName: つららの扇
+		Tooltip: 敵に当たると突き刺さり、砕けて追撃する氷柱を発射する
+	}
+
+	PossessedDagger: {
+		DisplayName: ポゼストダガー
+		Tooltip: 幽霊のように敵を探す短剣
+	}
+
+	PossessedTorch: {
+		DisplayName: ポゼストトーチ
+		Tooltip: たいまつの神のたいまつを召喚して近くの敵を攻撃する
+	}
+
+	SphereSong: {
+		DisplayName: ソングオブスフィアズ
+		Tooltip: 「敵を攻撃する感動的なメロディーを奏でよう！」
+	}
+
+	ViciousHarp: {
+		DisplayName: ヴィシャスパープ
+		Tooltip:
+			'''
+			音符が命中すると、敵の接触ダメージを一時的に減少させる
+			「不思議と不吉な予感、まるであなたを嘲笑っているかのようだ...」
+			'''
+	}
+
+	VileBreach: {
+		DisplayName: ヴァイルブリーチ
+		Tooltip:
+			'''
+			弧を描くフレイルを前方に射出する
+			「深淵のワームの怒りで攻撃せよ」
+			'''
+	}
+
+	BallaStaff: {
+		DisplayName: スノーバラの杖
+		Tooltip:
+			'''
+			共に戦うミニチュアスノーバラを召喚する
+			「雪合戦で全勝しよう！」
+			'''
+	}
+
+	GuardiansGrasp: {
+		DisplayName: ガーディアングラスプ
+		Tooltip:
+			'''
+			共に戦うガーディアンスカルを召喚し、回転攻撃させる
+			攻撃間隔が短いがタグダメージが25%減少する
+			「俺はスケルトロンだ！」
+			'''
+	}
+
+	JungleCreeperStaff: {
+		DisplayName: ジャングルクリーパースタッフ
+		Tooltip: 共に戦うジャングルクリーパーを召喚する
+	}
+
+	ShadowflameStaff: {
+		DisplayName: シャドウフレイムスタッフ
+		Tooltip: 共に戦うシャドウフレイムの幻影を召喚する
+	}
+
+	SpiritStaff: {
+		DisplayName: エクトプラズムスタッフ
+		Tooltip: 共に戦うダンジョンスピリットを召喚する
+	}
+
+	Terraultima: {
+		DisplayName: テラウティマ
+		Tooltip:
+			'''
+			共に戦うルミナイト・テラプリズマを召喚する
+			剣のように振り回して敵にダメージを与えることもできる
+			「ルミナイトで強化され、このテラプリズマはさらに強力になった」
+			'''
+	}
+
+	AccursedTrident: {
+		DisplayName: 呪われたトライデント
+		Tooltip:
+			'''
+			トライデントは敵に突き刺さり、徐々にダメージを与え、
+			地形に当たると電撃を発生させることがある
+			「沼地の汚れた深淵に汚されても、このトライデントの魔力は相変わらず強力だ」
+			'''
+	}
+
+	AncientSpiritCatalyst: {
+		DisplayName: 古代の精霊の触媒
+		Tooltip:
+			'''
+			ほとんどのウォールオブフレッシュの武器や紋章の作成に使用できる
+			「古代の強力なエネルギーに満ちている」
+			'''
+	}
+
+	BlocksHat: {
+		DisplayName: ブロッククルセイダーの土ブロック
+		Tooltip:
+			'''
+			「MOD開発者に成りすますのに最適！」
+			「今まで見た中で最も高価でファッショナブルな土ブロック」
+			'''
+	}
+
+	BlocksPants: {
+		DisplayName: ブロッククルセイダーのクルセイディンググリーブ
+		Tooltip:
+			'''
+			「MOD開発者に成りすますのに最適！」
+			「この色を変えたノヴァグリーブがあなたを敵から救いますように。」
+			'''
+	}
+
+	BlocksShirt: {
+		DisplayName: ブロッククルセイダーのノヴァルモア
+		Tooltip:
+			'''
+			「MOD開発者に成りすますのに最適！」
+			「最新のノヴァブランドファッションで登場！それでも木製よりは保護力は劣るけどね」
+			'''
+	}
+
+	BlocksWings: {
+		DisplayName: ブロッククルセイダーのエコブロック
+		Tooltip:
+			'''
+			「MOD開発者に成りすますのに最適！」
+			空を飛ぶことができ、落下速度が低下
+			「アーティフィサーの鍛冶場から直送されたホログライダー技術を搭載！」
+			'''
+	}
+
+	ChargedGranite: {
+		DisplayName: 魔法の御影石
+		Tooltip: 「魔法のエネルギーが脈打っている」
+	}
+
+	ForgottenHeroShards: {
+		DisplayName: 忘れられた英雄の欠片
+		Tooltip:
+			'''
+			テラ武器の作成に使用できる
+			「古代の英雄の力を秘めている」
+			'''
+	}
+
+	GrandGrenadier: {
+		DisplayName: グランドグレナディア
+		Tooltip:
+			'''
+			敵に接近して撃てば、銃剣で敵にダメージを与える
+			33%の確率で弾薬を消費しない
+			「シーモア、なぜマスケット銃から煙が出ているんだ？」
+			'''
+	}
+
+	HolyHandGrenade: {
+		DisplayName: 聖なる手榴弾
+		Tooltip:
+			'''
+			敵だけにダメージを与える、大規模で破壊的な聖なる爆発を起こす
+			「敵を粉々に吹き飛ばせ」
+			'''
+	}
+
+	LostWhip: {
+		DisplayName: 失われた鞭
+		Tooltip:
+			'''
+			適切な素材を使えば強力な鞭に修復できるかもしれない
+			「ジャングルで失われた、古びて、ぼろぼろになった鞭の残骸」
+			'''
+	}
+
+	PhantasmalJewel: {
+		DisplayName: ファンタズマルジュエル
+		Tooltip:
+			'''
+			ほとんどのムーンロードの武器の作成に使用できる
+			「ムーンロードの力が結晶化してできた宝石、偉大な英雄のための素晴らしい戦利品」
+			'''
+	}
+
+	PrismaticEssence: {
+		DisplayName: プリズマティックエッセンス
+		Tooltip:
+			'''
+			強力なプリズマティック武器の作成に使用できる
+			「テラプリズマの力を持つ」
+			'''
+	}
+
+	SanguineDagger: {
+		DisplayName: サンギュインダガー
+		Tooltip: 「血に飢えている」
+	}
+
+	SecondAmendment: {
+		DisplayName: セカンド・アメンドメント
+		Tooltip:
+			'''
+			敵に接近して撃てば、銃剣で敵にダメージを与える
+			20%の確率で弾薬を消費しない
+			「建国の父たちが意図したとおりに...」
+			'''
+	}
+
+	ShroomiteHood: {
+		DisplayName: 引退したシュルーム派のフード
+		Tooltip: 「かつてエリート軍の部隊で使用されていた…」
+	}
+
+	ShroomiteVisage: {
+		DisplayName: シュルーマイトヴィサージュ
+		Tooltip:
+			'''
+			遠距離ダメージが10%増加
+			遠距離クリティカル率が5%上昇
+			'''
+	}
+
+	ShroomiteVisor: {
+		DisplayName: 引退したシュルーマイトバイザー
+		Tooltip: 「かつてエリート軍部隊で使用されていた…」
+	}
+
+	SSSU: {
+		DisplayName: スーパーウルトラスターシューター
+		Tooltip:
+			'''
+			3点バースト
+			初段のみ弾薬を消費
+			命中すると追撃し、空から流星を降らせることがある
+			40%の確率で弾薬を消費しない
+			「たったこれだけの大きさなのに、一体いくつの星が使えるんだろう？」
+			'''
+	}
+
+	Terrasama: {
+		DisplayName: テラサマ
+		Tooltip:
+			'''
+			敵の防御をきれいに切り裂く、素早い斬撃の連撃を繰り出す
+			「クリフォード・ザ・ビッグ・レッド・ソード」としても知られる
+			'''
+	}
+
+	Slimenobi: {
+		DisplayName: スライムノビ
+		Tooltip:
+			'''
+			弾む手裏剣を投げ、消費しない
+			「長い間スライムに浸かっていたせいで、この手裏剣はかつてよりも強力になっているようだ…」
+			'''
+	}
+
+	CasterStaff: {
+		DisplayName: キャスタースタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			ウォーターボルトを発射して敵を攻撃するミニキャスターを召喚する
+			キャスターはプレイヤーから離れていると近くにテレポートする
+			「不気味で怖い骸骨！」
+			'''
+	}
+
+	CerebralScepter: {
+		DisplayName: セレブラルセプター
+		Tooltip:
+			'''
+			セントリーを召喚する
+			クリーパーを召喚して敵を攻撃するクリーパーブレインを召喚する
+			「これはビッグブレインタイムだ」
+			'''
+	}
+
+	CursedStaff: {
+		DisplayName: カースドスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと呪炎を吐いて攻撃するクリンガーを召喚する
+			'''
+	}
+
+	DestroyerUplink: {
+		DisplayName: デストロイヤーアップリンク
+		Tooltip:
+			'''
+			セントリーを召喚する
+			2つのプローブを持つデストロイヤードローンを召喚する
+			プローブとデストロイヤードローンはレーザーを発射して敵を攻撃する
+			「火力で遊ぶ時間だ！」
+			'''
+	}
+
+	EruptionStaff: {
+		DisplayName: バルカンスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと噴火して敵を攻撃する火山を召喚する
+			「クラカタウ！」
+			'''
+	}
+
+	ForbiddenStaff: {
+		DisplayName: 禁断の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			禁断の目を召喚する
+			禁断の目はダメージエリアを展開し、中に入った敵にダメージを与え
+			敵を追尾する魔法弾も発射して攻撃する
+			'''
+	}
+
+	IchorStaff: {
+		DisplayName: イコルスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと霊液を発射して攻撃するイコールスティッカーを召喚する
+			'''
+	}
+
+	InvaderStaff: {
+		DisplayName: スターダストインベーダースタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵にミニオンを発射して攻撃するフローインベーダーを召喚する
+			'''
+	}
+
+	JungleStaff: {
+		DisplayName: ジャングルスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと胞子爆弾を発射して攻撃するジャングルの低木を召喚する
+			「ニ！」
+			'''
+	}
+
+	SoulStaff: {
+		DisplayName: ソウルスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			ビームを発射して敵を攻撃するソウルサイクロンを召喚する
+			'''
+	}
+
+	TeslaWrench: {
+		DisplayName: テスラレンチ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を電撃で攻撃するテスラタレットを召喚する
+			攻撃間隔が短いがタグダメージが50%減少する
+			'''
+	}
+
+	TotemStaff: {
+		DisplayName: トーテムスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			ティキトーテムを召喚する
+			ティキトーテムはエリアを展開しエリア内のプレイヤーにバフを与え、敵にデバフを与える
+			'''
+	}
+
+	TwinkleStaff: {
+		DisplayName: スタースピュースタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくとトゥインクルを吐き出して攻撃するトゥインクルポッパーを召喚する
+			'''
+	}
+
+	VengefulTorch: {
+		DisplayName: 執念深いたいまつ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			シャドウフレイムを発射して敵を攻撃する執念深いたいまつの神を召喚する
+			'''
+	}
+
+	VindictiveTorch: {
+		DisplayName: 意地悪なたいまつ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			ファイアボールを発射して敵を攻撃する意地悪なたいまつの神を召喚する
+			'''
+	}
+
+	AdamantiteRapier: {
+		DisplayName: アダマンタイトのレイピア
+		Tooltip: ""
+	}
+
+	BoneRattler: {
+		DisplayName: 骨のレイピア
+		Tooltip:
+			'''
+			命中時にクロスボーンを放つ
+			「骨がガタガタ鳴るよ！」
+			'''
+	}
+
+	Bramblethorn: {
+		DisplayName: ブランブルソーン
+		Tooltip: 射程の短い毒針を放ち、剣が命中時に敵に毒を与える
+	}
+
+	Carnage: {
+		DisplayName: カーネイジ
+		Tooltip: ""
+	}
+
+	Carnwennan: {
+		DisplayName: カルンウェナン
+		Tooltip: 攻撃時に残像を放つ
+	}
+
+	ChlorophyteRapier: {
+		DisplayName: クロロファイトのレイピア
+		Tooltip: 攻撃時に胞子雲を放ち、連続攻撃する
+	}
+
+	CobaltRapier: {
+		DisplayName: コバルトのレイピア
+		Tooltip: ""
+	}
+
+	EnchantedShortsword: {
+		DisplayName: エンチャントショートソード
+		Tooltip: ソードビームを放つ
+	}
+
+	FancyFoil: {
+		DisplayName: ファンシーホイル
+		Tooltip:
+			'''
+			敵のドロップする金額が増加
+			「こんにちは！お金が好きです！」
+			'''
+	}
+
+	Firebrand: {
+		DisplayName: サウザンドスディグリー
+		Tooltip:
+			'''
+			敵を燃やし、ヘルファイアを与えることがある
+			「スライム vs 1000度のナイフ」
+			'''
+	}
+
+	GraniteGauntlet: {
+		DisplayName: 御影石のガントレット
+		Tooltip: 敵を殴って攻撃する
+	}
+
+	LilPokey: {
+		DisplayName: リル・ポーキー
+		Tooltip:
+			'''
+			霜焼けを与える
+			「彼はミスター・アイシクル、ミスター・テン・ビロー」
+			'''
+	}
+
+	MythrilRapier: {
+		DisplayName: ミスリルのレイピア
+		Tooltip: ""
+	}
+
+	NecroticDagger: {
+		DisplayName: ネクロティックダガー
+		Tooltip:
+			'''
+			攻撃時に真空波を放つ
+			命中時にダガーで追撃することがある
+			'''
+	}
+
+	OrichalcumRapier: {
+		DisplayName: オリハルコンのレイピア
+		Tooltip: ""
+	}
+
+	PalladiumRapier: {
+		DisplayName: パラジウムのレイピア
+		Tooltip: ""
+	}
+
+	PointyStick: {
+		DisplayName: 尖った棒
+		Tooltip: 「茶色くて粘着性がある」
+	}
+
+	PowerBindings: {
+		DisplayName: パワーバインディング
+		Tooltip: 「ここに立ってる…！」
+	}
+
+	RG24: {
+		DisplayName: プロト-RG24
+		Tooltip:
+			'''
+			攻撃時にエネルギー弾を放つ
+			「最新の銃剣技術」
+			'''
+	}
+
+	ShadowsStabber: {
+		DisplayName: シャドウズ・スタバー
+		Tooltip: ""
+	}
+
+	SpookyStick: {
+		DisplayName: 不気味な棒
+		Tooltip:
+			'''
+			攻撃時にギリシャの火を放つことがある
+			「暗くて不気味」
+			'''
+	}
+
+	Starblazer: {
+		DisplayName: スターブレイザー
+		Tooltip: 「破壊の光を放ち、敵を切り裂け！」
+	}
+
+	TerraShortsword: {
+		DisplayName: テラショートソード
+		Tooltip: 「テラブレードのもう一つの優れた代替品」
+	}
+
+	TitaniumRapier: {
+		DisplayName: チタンのレイピア
+		Tooltip: ""
+	}
+
+	ZenithShortsword: {
+		DisplayName: ゼニスショートソード
+		Tooltip: 「誰がゼニスの力を短剣に注入したのか不思議だ」
+	}
+
+	Drakanian: {
+		DisplayName: ドラカニアン
+		Tooltip: 「ドラコミーアライダーの力で敵を倒せ！」
+	}
+
+	FemurBreaker: {
+		DisplayName: フィーマーブレイカー
+		Tooltip:
+			'''
+			命中時に骨の破片を放つ
+			「羽根飾りに値するもう一つのラウンドへようこそ...」
+			'''
+	}
+
+	Gigazapper: {
+		DisplayName: ギガザッパー
+		Tooltip:
+			'''
+			あらゆるものを原子化する強力なエネルギー槍
+			「衝撃の槍」としても知られる
+			'''
+	}
+
+	GraniteGlaive: {
+		DisplayName: 御影石のグレイブ
+		Tooltip: ""
+	}
+
+	HeavensHalberd: {
+		DisplayName: 天空のハルバード
+		Tooltip:
+			'''
+			攻撃時に敵を追尾するサイオニックスピアヘッドを放つ
+			「究極のハルバードだ」
+			'''
+	}
+
+	LihzahrdSpear: {
+		DisplayName: リザードの槍
+		Tooltip: 「槍の罠の槍」
+	}
+
+	ShadowSpear: {
+		DisplayName: シャドウスピア
+		Tooltip: ""
+	}
+
+	Spearmint: {
+		DisplayName: ミントスピア
+		Tooltip: 「ミントフレッシュ！」
+	}
+
+	StingOperator: {
+		DisplayName: スティングオペレーター
+		Tooltip: 射程の短い毒針を放ち、槍が命中時に敵に毒を与える
+	}
+
+	AdamantiteStaff: {
+		DisplayName: アダマンタイトの杖
+		Tooltip: ""
+	}
+
+	AlloyStaff: {
+		DisplayName: アロイスタッフ
+		Tooltip: 魔法の力を解き放つ
+	}
+
+	BorealisStaff: {
+		DisplayName: ボレアリススタッフ
+		Tooltip:
+			'''
+			命中時にシールドエネルギーを生成する、ボレアリスビームを発射する
+			「ボレアリスが兵器化されるのを見るのはこれが初めてでも最後でもない」
+			'''
+	}
+
+	CobaltStaff: {
+		DisplayName: コバルトの杖
+		Tooltip: ""
+	}
+
+	ConduitRod: {
+		DisplayName: コンジットロッド
+		Tooltip: 火花を発射し、命中時にエレクトロスフィアで追撃することがある
+	}
+
+	CoralScepter: {
+		DisplayName: サンゴの杖
+		Tooltip: ""
+	}
+
+	CosmicWand: {
+		DisplayName: コズミックワンド
+		Tooltip: 「この杖の宇宙的な力を過小評価するな」
+	}
+
+	FinalFractalStaff: {
+		DisplayName: ファイナルフラクタル
+		Tooltip: ""
+	}
+
+	HallowedScepter: {
+		DisplayName: 神聖な笏
+		Tooltip: ""
+	}
+
+	Lunacy: {
+		DisplayName: エルドリッチゲート
+		Tooltip: 「ムーンロードの無限の力を予測不能に発揮する」
+	}
+
+	LunacyNew: {
+		DisplayName: ルナシー
+		Tooltip:
+			'''
+			狂気の崇拝者の魔法をランダムに発射する
+			「火や氷、あるいはもっとましなものを発射するのでしょうか？」
+			'''
+	}
+
+	Midnight: {
+		DisplayName: ミッドナイト
+		Tooltip: ""
+	}
+
+	MythrilStaff: {
+		DisplayName: ミスリルの杖
+		Tooltip: ""
+	}
+
+	NebulousScepter: {
+		DisplayName: ネビュラスセプター
+		Tooltip: ""
+	}
+
+	OrichalcumStaff: {
+		DisplayName: オリハルコンの杖
+		Tooltip: ""
+	}
+
+	PalladiumStaff: {
+		DisplayName: パラジウムの杖
+		Tooltip: ""
+	}
+
+	PrismaticStaff: {
+		DisplayName: プリズマティックスタッフ
+		Tooltip:
+			'''
+			全ての宝石の杖の魔法弾を発射する
+			「私たちの力を結集」
+			'''
+	}
+
+	Snowsplosion: {
+		DisplayName: スノースプロージョン
+		Tooltip:
+			'''
+			地形に当たると激しく跳ね回る雪だるまを発射する
+			雪だるまは爆発し、直撃すると2回ダメージを与える
+			「忘れないように、家でこれを試さないで！」
+			'''
+	}
+
+	SporeScepter: {
+		DisplayName: スポーセプター
+		Tooltip: 敵か地形に当たると分裂する胞子を発射する
+	}
+
+	TerraStaff: {
+		DisplayName: テラスタッフ
+		Tooltip: ""
+	}
+
+	TitaniumStaff: {
+		DisplayName: チタンの杖
+		Tooltip: ""
+	}
+
+	TrueHallowedScepter: {
+		DisplayName: 真なる神聖な笏
+		Tooltip: ""
+	}
+
+	TrueMidnight: {
+		DisplayName: トゥルーミッドナイト
+		Tooltip: ""
+	}
+
+	BeetleBlade: {
+		DisplayName: ビートルブレード
+		Tooltip:
+			'''
+			敵の防御力を20無視し、混乱させ、ノックバック耐性を低下させることがある
+			命中時に、一時的にダメージが増加し、攻撃速度が上昇し、
+			被ダメージを軽減することがある
+			この武器によるバフ中は、この武器のダメージが増加し、追加効果が強化される
+			'''
+	}
+
+	CoralCutter: {
+		DisplayName: コーラルカッター
+		Tooltip: ""
+	}
+
+	Corsaerial: {
+		DisplayName: コルサリアル
+		Tooltip:
+			'''
+			空中にいるとき、素早く移動しているときはダメージが増加
+			「空賊を目指す者にとって素晴らしい武器の選択」
+			'''
+	}
+
+	PrismaticPhaseblade: {
+		DisplayName: プリズマティックフェーズブレード
+		Tooltip:
+			'''
+			敵の防御力を10無視する
+			「高台から使うのがベスト」
+			'''
+	}
+
+	PrismaticPhasesaber: {
+		DisplayName: プリズマティックフェーズセイバー
+		Tooltip:
+			'''
+			右クリックで攻撃が遅いが、強いノックバックを持つ衝撃波を放つ
+			「その力は倍増した」
+			'''
+	}
+
+	Sabrewing: {
+		DisplayName: セイバーウィング
+		Tooltip:
+			'''
+			左クリックで回転攻撃し、右クリックで投げる
+			空中にいるか、素早く移動しているときはダメージが増加し、
+			空中にいて、素早く移動している場合はダメージが大きく増加
+			選択中は移動速度が上昇する
+			「空と星の災いとなれ！」
+			'''
+	}
+
+	SandstormScimitar: {
+		DisplayName: サンドストームシミター
+		Tooltip:
+			'''
+			攻撃時に砂雲を放つ
+			「砂…粗くてざらざらして、不快なものだ…どんな所にも入り込んでくる」
+			'''
+	}
+
+	Soladius: {
+		DisplayName: ソラディウス
+		Tooltip: 「あなたの栄光の輝きに抵抗できる者は誰もいないだろう！」
+	}
+
+	SoulBreaker: {
+		DisplayName: ソウルブレイカー
+		Tooltip:
+			'''
+			残りライフが90%以上の敵に対してダメージが大きく増加
+			残りライフが90%～25%の範囲の敵に対してダメージが残りライフに応じて増加
+			敵の防御力を10無視する
+			「小型の同族よりもはるかに冷酷だ」
+			'''
+	}
+
+	Techblade: {
+		DisplayName: テックブレード
+		Tooltip: 攻撃時に火花を放つ
+	}
+
+	BeetleBuzz: {
+		DisplayName: ビートルバズ
+		Tooltip: カブトムシを召喚し、敵を攻撃する
+	}
+
+	Boulderpult: {
+		DisplayName: ボルダープルト
+		Tooltip:
+			'''
+			大岩を発射する
+			「今度は彼らが岩に怯える番だ！」
+			'''
+	}
+
+	BurningSphere: {
+		DisplayName: バーニングスフィア
+		Tooltip: 地形を貫通するバーニングスフィアを発射する
+	}
+
+	Catapult: {
+		DisplayName: カタパルト
+		Tooltip: 小さな岩を発射する
+	}
+
+	ChaosBall: {
+		DisplayName: カオスボール
+		Tooltip: 地形を貫通するカオスボールを発射する
+	}
+
+	DustDevil: {
+		DisplayName: ダストデビル
+		Tooltip: 激しい砂の奔流を解き放つ
+	}
+
+	LacewingsDance: {
+		DisplayName: レースウィングダンス
+		Tooltip: プリズムクサカゲロウを召喚して敵に突進させる
+	}
+
+	LostTome: {
+		DisplayName: 失われた本
+		Tooltip: 緑と金の魔法の粒子を発射する
+	}
+
+	PredictorPiercers: {
+		DisplayName: プレディクターピアサー
+		Tooltip: 一定時間後に敵に向かって飛んでいく魔法弾を発射する
+	}
+
+	RazorLeaf: {
+		DisplayName: レイザーリーフ
+		Tooltip: 鋭い魔法の葉を連射する
+	}
+
+	Redemption: {
+		DisplayName: リデンプション
+		Tooltip: 命中時に、ライフが最も少ないプレイヤーのライフが回復する
+	}
+
+	SoulBurst: {
+		DisplayName: ソウルバースト
+		Tooltip:
+			'''
+			青、赤、緑の魂を発射する
+			色ごとに特徴がある
+			'''
+	}
+
+	SpectralBurst: {
+		DisplayName: スペクトラルバースト
+		Tooltip: 全方位に魂をランダムに発射する
+	}
+
+	AncientChains: {
+		DisplayName: 古代の鎖
+		Tooltip:
+			'''
+			召喚タグダメージ 20
+			攻撃を当てた敵にミニオンが集中攻撃する
+			命中時に敵を攻撃するゴーレムの頭を召喚する
+			「不気味…？」
+			'''
+	}
+
+	Aurora: {
+		DisplayName: オーロラ
+		Tooltip:
+			'''
+			召喚タグダメージ 15
+			召喚タグクリティカル率 15%
+			召喚タグ ノックバック増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			命中時に鞭の攻撃速度、防御力、ライフ回復が増加
+			「オーロラ…？この鞭の中に完全に集中してるのか？」
+			'''
+	}
+
+	BlocksWhip: {
+		DisplayName: ブロックチェイン
+		Tooltip:
+			'''
+			召喚タグクリティカル率 15%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると鞭の攻撃速度が上昇
+			「MOD開発者に成りすますのに最適！」
+			「なぜサモナーに手を出したんだ？」
+			'''
+	}
+
+	Constellation: {
+		DisplayName: コンステレーション
+		Tooltip:
+			'''
+			召喚タグ ノックバック増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃の当て方によってはスターダストの爆発を発生させ、ダメージを追加で与える
+			「星があなたを勝利に導きますように」
+			'''
+	}
+
+	CorruptionsScourge: {
+		DisplayName: コラプションズスカージ
+		Tooltip:
+			'''
+			召喚タグダメージ 5
+			召喚タグ ノックバック小増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			2つの鞭を振るう
+			「スカージオブコラプターと混同しないように」
+			'''
+	}
+
+	DusksBite: {
+		DisplayName: ダスクバイト
+		Tooltip:
+			'''
+			召喚タグダメージ 8
+			召喚タグクリティカル率 3%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	EmberingScourge: {
+		DisplayName: ヘルバインダー
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃した敵に鎖を付けることがある
+			ミニオンの攻撃は鎖の付いた敵全てにダメージを与える
+			「ファイアストームの第二世代？」
+			'''
+	}
+
+	Lacerator: {
+		DisplayName: ラセレーター
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			召喚タグクリティカル率 2%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	LostRaider: {
+		DisplayName: ロストレイダー
+		Tooltip:
+			'''
+			召喚タグダメージ 12
+			攻撃を当てた敵にミニオンが集中攻撃する
+			タグ付けされた敵に対してミニオンが攻撃すると酸性毒を与えることがある
+			敵を攻撃すると鞭の攻撃速度が上昇
+			「インディアンジョン…？」
+			'''
+	}
+
+	MoonBite: {
+		DisplayName: ムーンバイト
+		Tooltip:
+			'''
+			召喚タグダメージ 30
+			召喚タグ ノックバック特大増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃した敵からライフを吸い取る
+			「舐められないように」
+			'''
+	}
+
+	PlasmaScourge: {
+		DisplayName: プラズマスカージ
+		Tooltip:
+			'''
+			召喚タグダメージ 25
+			召喚タグ ノックバック増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			3つの鞭を振るう
+			「こんなに洗練された技術なのに、残酷ですね...」
+			'''
+	}
+
+	RopeWhip: {
+		DisplayName: 縄の鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 2
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	ScrapHook: {
+		DisplayName: スクラップフック
+		Tooltip:
+			'''
+			placeholder
+			攻撃を当てた敵にミニオンが集中攻撃する
+			命中時、鞭から火花を放ち、敵を攻撃する
+			'''
+		TooltipNormal: 召喚タグダメージ 5
+		TooltipRemix: 召喚タグダメージ 21
+	}
+
+	SeaScourge: {
+		DisplayName: スカージオブシー
+		Tooltip:
+			'''
+			召喚タグダメージ 10
+			召喚タグ ノックバック増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			2つの鞭を振るう
+			'''
+	}
+
+	ShadowflameWhip: {
+		DisplayName: シャドウフレイムの鞭
+		Tooltip:
+			'''
+			召喚タグ ノックバック極小増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			タグ付けされた敵に対してミニオンが攻撃するとシャドウフレイムを与える
+			'''
+	}
+
+	Summit: {
+		DisplayName: サミット
+		Tooltip:
+			'''
+			召喚タグダメージ 20
+			召喚タグクリティカル率 15%
+			召喚タグ ノックバック増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると鞭の攻撃速度が上昇
+			ブレードが攻撃した敵に襲い掛かる
+			'''
+	}
+
+	TerraWhip: {
+		DisplayName: テラウイップ
+		Tooltip:
+			'''
+			召喚タグダメージ 10
+			召喚タグクリティカル率 5%
+			召喚タグ ノックバック小増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると鞭の攻撃速度が上昇
+			攻撃時に衝撃波を放ち、敵にダメージを与える
+			'''
+	}
+
+	TrueDurendal: {
+		DisplayName: トゥルーデュランダル
+		Tooltip:
+			'''
+			召喚タグダメージ 11
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると鞭の攻撃速度が上昇し、斬撃で追撃する
+			'''
+	}
+
+	TrueDusksBite: {
+		DisplayName: トゥルーダスクバイト
+		Tooltip:
+			'''
+			召喚タグクリティカル率 10%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃した敵にダスクエネルギーを与え、
+			タグ付けされた敵に対してミニオンが攻撃すると爆発する
+			攻撃時にエネルギーブレードを放つ
+			'''
+	}
+
+	WeaverWhip: {
+		DisplayName: ウィーバーウィップ
+		Tooltip:
+			'''
+			召喚タグダメージ 10
+			召喚タグクリティカル率 20%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			「自分の運命は自分で切り開く！」
+			'''
+	}
+
+	Angel: {
+		DisplayName: エンジェル
+		Tooltip: 地形の影響を受けない
+	}
+
+	Darksoul: {
+		DisplayName: ダークソウル
+		Tooltip: ""
+	}
+
+	Empress: {
+		DisplayName: エンプレス
+		Tooltip:
+			'''
+			光の刃を生成し、近くの敵にダメージを与える
+			「王権神授説を押し付けろ」
+			'''
+	}
+
+	Fireball: {
+		DisplayName: エイテスサークル
+		Tooltip: 時々、シャドウフレイムを敵に与える
+	}
+
+	RoyalRoll: {
+		DisplayName: ロイヤルロール
+		Tooltip: ""
+	}
+
+	ShiningSpin: {
+		DisplayName: シャイニングスピン
+		Tooltip: ""
+	}
+
+	SpinninSkull: {
+		DisplayName: スピニン・スカル
+		Tooltip:
+			'''
+			時折、敵を追尾する頭蓋骨を放つ
+			「頭蓋骨は何個あるの？！」
+			'''
+	}
+
+	SunSroller: {
+		DisplayName: サンストローラー
+		Tooltip: "「太陽の怒りを敵に浴びせろ」"
+	}
+
+	ThoraxThrow: {
+		DisplayName: ソーラックススロー
+		Tooltip: 敵を混乱させ、防御力を20無視する
+	}
+
+	AscendedKnives: {
+		DisplayName: アセンデッドナイブズ
+		Tooltip:
+			'''
+			短剣を投げ、敵か地形に当たると敵を追尾し、地形を貫通し、
+			敵からライフを吸い取る短剣に分裂する
+			「ジェイソン・リエンフォース・パーカーに捧ぐ」
+			「高く飛べ。墓場さえも君を止めることはできない」
+			'''
+	}
+
+	LegendJewel: {
+		DisplayName: 伝説の宝石
+		Tooltip:
+			'''
+			強力な特殊武器を作成するために使用できます
+			「月の暗黒卿が最強だった頃、破壊された後に作られた、無限の可能性を秘めた遺物だ...」
+			「最も価値ある英雄だけが獲得できる究極のトロフィー」
+			レジェンダリー
+			'''
+	}
+
+	LegendaryPan: {
+		DisplayName: 伝説のワッフルの焼き型
+		Tooltip:
+			'''
+			「ワッフルは好きですか？」
+			レジェンダリー
+			'''
+	}
+
+	Revengance: {
+		DisplayName: オクラムリベンジェンス
+		Tooltip:
+			'''
+			「これがあなたのオクラム テラリア ライジング リベンジェンスです!」
+			レジェンダリー
+			'''
+	}
+
+	OcramsRevenge: {
+		DisplayName: オクラムの復讐
+		Tooltip: 「荒廃者の怒りは捨てられた書物の中で生き続けている」
+	}
+
+	RedRifle: {
+		DisplayName: 赤いライフル
+		Tooltip: 「上からの死」
+	}
+
+	RedigitRifle: {
+		DisplayName: リディジットライフル
+		Tooltip:
+			'''
+			「彼は開発者によって暗殺されたのだ！」
+			レジェンダリー
+			'''
+	}
+
+	FixedStaff: {
+		DisplayName: フイックスドスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			恐るべき敵のモノリスを召喚する
+			「直してよ、ボーイ」
+			'''
+	}
+
+	TrueFixedStaff: {
+		DisplayName: トゥルーフイックスドスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			月の力を帯びた小型のメカデューサを召喚し、敵をオクラムの家に送る
+			「暴力装置」
+			レジェンダリー
+			'''
+	}
+
+	PartycandleMK2: {
+		DisplayName: パーティキャンドル Mk2
+		Tooltip: 「敵に壮大なフィナーレをプレゼントしよう！」
+	}
+
+	CommanderBroach: {
+		DisplayName: 司令官のブローチ
+		Tooltip:
+			'''
+			召喚ダメージが15%増加しミニオンの攻撃のノックバックが増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	FearmongerGauntlet: {
+		DisplayName: フィアモンガーガントレット
+		Tooltip:
+			'''
+			鞭のダメージが12%増加し、近接攻撃速度が12%上昇
+			鞭のノックバックが25%増加
+			鞭の攻撃範囲が20%増加
+			鞭で攻撃した敵を炎上させる
+			近接攻撃のオート攻撃を有効にする
+			'''
+	}
+
+	BeeVeil: {
+		DisplayName: ビーベール
+		Tooltip:
+			'''
+			召喚ダメージが5%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	SpiderVisor: {
+		DisplayName: スパイダーバイザー
+		Tooltip:
+			'''
+			召喚ダメージが7%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	TikiHeadress: {
+		DisplayName: ティキのヘッドドレス
+		Tooltip:
+			'''
+			召喚ダメージが12%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	FlareCannon: {
+		DisplayName: フレアキャノン
+		Tooltip: ""
+	}
+
+	GolfCannon: {
+		DisplayName: ゴルフキャノン
+		Tooltip:
+			'''
+			ゴルフボールを発射して攻撃する
+			「フォア!!!」
+			'''
+	}
+
+	Vertex: {
+		DisplayName: ボルテックス
+		Tooltip: 破砕渦を解き放つ
+	}
+
+	Battlestaff: {
+		DisplayName: バトルスタッフ
+		Tooltip: ""
+	}
+
+	Inferno: {
+		DisplayName: ファイアブランド
+		Tooltip:
+			'''
+			周囲の敵を燃やす炎のオーラを生成する
+			「燃える火の輪！」
+			'''
+	}
+
+	FingerGun: {
+		DisplayName: フィンガーガン
+		Tooltip: 「ピュン ピュン、ピュン ピュン」
+	}
+
+	BeamScepter: {
+		DisplayName: ビームセプター
+		Tooltip:
+			'''
+			エネルギーの鞭を振るう
+			「ビーム攻撃だ！」
+			'''
+	}
+
+	AstralHarmony: {
+		DisplayName: アストラルハーモニー
+		Tooltip:
+			'''
+			自身の周囲に星の弾を発生させ、近くの敵に攻撃する
+			「天の祝福を受けた新星の力を解き放て！」
+			'''
+	}
+
+	CombustionFlask: {
+		DisplayName: 燃焼のフラスコ
+		Tooltip: 小さな炎の壁をしばらくの間発生させる
+	}
+
+	MakeshiftMissile: {
+		DisplayName: 即席のミサイル
+		Tooltip:
+			'''
+			重力の影響を受ける
+			爆発範囲は小さく、ブロックと壁を破壊しない
+			'''
+	}
+
+	MisshappenMissile: {
+		DisplayName: 不格好なミサイル
+		Tooltip:
+			'''
+			重力の影響を受ける
+			爆発範囲は小さく、ブロックと壁を破壊する
+			'''
+	}
+
+	ProtoRocket: {
+		DisplayName: 不安定なロケット弾
+		Tooltip: 爆発範囲が非常に小さく、ブロックと壁を破壊する
+	}
+
+	RocketV0: {
+		DisplayName: ロケット弾 V0
+		Tooltip: 爆発範囲が非常に小さく、ブロックと壁を破壊しない
+	}
+
+	RocketDispenser: {
+		DisplayName: ロケットディスペンサー
+		Tooltip:
+			'''
+			爆発範囲が非常に小さく、ブロックと壁を破壊しない
+			「惑星を破壊できるほどの火力…？」
+			'''
+	}
+
+	Rapier: {
+		DisplayName: レイピア
+		Tooltip: ""
+	}
+
+	Cogblade: {
+		DisplayName: コグブレイド
+		Tooltip:
+			'''
+			剣に接触した敵に対してダメージを与え続ける
+			「チェーンソーのようだが、そうでもない！」
+			'''
+	}
+
+	ThousandfoldCutter: {
+		DisplayName: サウザンドフォウルドカッター
+		Tooltip:
+			'''
+			攻撃速度が非常に速い
+			「トンボを真っ二つに切ると言われている」
+			'''
+	}
+
+	SoulStriker: {
+		DisplayName: ソウルストライカー
+		Tooltip:
+			'''
+			攻撃時に先端から、または命中時にソウルスピアヘッドを放つ
+			「第七の魂を求めている…」
+			'''
+	}
+
+	Fiesta: {
+		DisplayName: フィエスタ
+		Tooltip: 命中時に紙吹雪を飛ばす
+	}
+
+	ThrowingCross: {
+		DisplayName: スローイングクロス
+		Tooltip: ""
+	}
+
+	Flurry: {
+		DisplayName: フラリー
+		Tooltip: 戻ってくる際に氷の破片を放つ
+	}
+
+	ShootingStar: {
+		DisplayName: シューティングスター
+		Tooltip:
+			'''
+			早く移動している際はダメージが増加
+			'願い事をする！'
+			'''
+	}
+
+	Clockwork: {
+		DisplayName: クロックワーク
+		Tooltip:
+			'''
+			命中しても跳ね返らず、触れた敵にダメージを与え続ける
+			「これはイライラする」
+			'''
+	}
+
+	Ricochet: {
+		DisplayName: リコシェイ
+		Tooltip:
+			'''
+			命中時に近くの敵に跳ね返ろうとする
+			カーソルの近くの敵を自動的にロックオンする
+			「*ピンボールの音*」
+			'''
+	}
+
+	TalonDart: {
+		DisplayName: タロンダート
+		Tooltip: 敵の防御力を5無視する
+	}
+
+	GrappleDart: {
+		DisplayName: グラップルダート
+		Tooltip:
+			'''
+			敵の防御力を30無視する
+			命中時に敵を一時的に混乱させることがある
+			グラップリングフックとしても使えるが、
+			グラップルスロットから使用するとダメージが減少する
+			'''
+	}
+
+	BoarderHook: {
+		DisplayName: ボーダーズフック
+		Tooltip:
+			'''
+			攻撃した敵を自分に引き寄せる
+			近距離の敵に対してはノックバックさせ、ダメージが増加
+			「彼らを死の抱擁に引き寄せろ！」
+			'''
+	}
+
+	SoulSlayer: {
+		DisplayName: ソウルスレイヤー
+		Tooltip:
+			'''
+			無傷の敵に対してダメージが増加する巨大な刃
+			「終わるまで引き裂き、破り捨てろ」
+			'''
+	}
+
+	GaleWindblade: {
+		DisplayName: ゲイルウィンドブレード
+		Tooltip: 命中時に移動速度と近接攻撃速度を上昇させる
+	}
+
+	DarklightEdge: {
+		DisplayName: ダークライトエッジ
+		Tooltip:
+			'''
+			右クリックでカーソルに向けて短距離突進する
+			このダッシュはマウントに乗っているときはできない
+			「これが道だ」
+			'''
+	}
+
+	Throngler: {
+		DisplayName: スロングラー
+		Tooltip: 「魔法剣の名前の文字数が少ないほど、危険度が増す」
+	}
+
+	Navarch: {
+		DisplayName: ナバーチ
+		Tooltip:
+			'''
+			射程が短い水の刃を放つ
+			剣の攻撃が命中時、次の攻撃で水の刃を3つ放つ
+			'''
+	}
+
+	PoisonArrow: {
+		DisplayName: 毒矢
+		Tooltip: 敵に毒を与える
+	}
+
+	PillagerArrowItem: {
+		DisplayName: 略奪者の矢
+		Tooltip:
+			'''
+			敵のドロップする金額が増加
+			「村人よ、警戒せよ！」
+			'''
+	}
+
+	AerodynamicArrow: {
+		DisplayName: エアロダイナミックアロー
+		Tooltip: 「まさにダイナミックなアロー」
+	}
+
+	SpectralArrow: {
+		DisplayName: スペクトルアロー
+		Tooltip: ""
+	}
+
+	ShockBolt: {
+		DisplayName: ショックボルト
+		Tooltip: 命中すると電撃が発生し、近くの敵に連鎖してダメージを与える
+	}
+
+	FrostFlare: {
+		DisplayName: 照明弾（氷）
+		Tooltip: ""
+	}
+
+	ArmorPiercingBullet: {
+		DisplayName: 徹甲弾
+		Tooltip: 敵の防御力を25無視する
+	}
+
+	BurningBullet: {
+		DisplayName: 加熱弾
+		Tooltip: 敵を炎上させる
+	}
+
+	EtherealBullet: {
+		DisplayName: エーテル弾
+		Tooltip: 地形を貫通する
+	}
+
+	Scattershot: {
+		DisplayName: スキャッターショット
+		Tooltip: 大きな弾丸が少し遅れて複数の小さな弾に分裂する
+	}
+
+	BeetleDart: {
+		DisplayName: ビートルダート
+		Tooltip: 命中時に一時的に被ダメージをわずかに軽減することがある
+	}
+
+	BoneDart: {
+		DisplayName: 骨のダーツ
+		Tooltip: 敵に命中時に破片を飛ばす
+	}
+
+	ChlorophyteDart: {
+		DisplayName: クロロファイトのダーツ
+		Tooltip: 飛行中に胞子雲の跡を残す
+	}
+
+	EchoDart: {
+		DisplayName: エコーダート
+		Tooltip: 地形に当たると2つに分裂する
+	}
+
+	HunterDart: {
+		DisplayName: 狩人のダーツ
+		Tooltip: ""
+	}
+
+	NeedleDart: {
+		DisplayName: ニードルダート
+		Tooltip:
+			'''
+			敵に突き刺さり、しばらくしてから爆発してダメージを追加で与える
+			複数のダーツが刺さっていると、
+			それら全てが一度に爆発し数に応じてダメージが増加
+			'''
+	}
+
+	OverclockDart: {
+		DisplayName: オーバークロックダート
+		Tooltip: ""
+	}
+
+	ShimmerDart: {
+		DisplayName: シマーのダーツ
+		Tooltip: 上方に落下する 
+	}
+
+	SpookyDart: {
+		DisplayName: 不気味なダーツ
+		Tooltip: クリティカル時にダメージを追加で与え、敵を炎上させる
+	}
+
+	ToyDart: {
+		DisplayName: おもちゃのダーツ
+		Tooltip:
+			'''
+			敵に張り付き、接触ダメージと防御力を一時的に下げる
+			「ナーフか、何もないかだ！」
+			'''
+	}
+
+	TrackerDart: {
+		DisplayName: トラッカーダート
+		Tooltip: 左クリックを押している間、カーソルに追従する
+	}
+
+	TwinklingDart: {
+		DisplayName: きらめくダーツ
+		Tooltip: 命中した敵を光らせる
+	}
+
+	ChargedRecurve: {
+		DisplayName: チャージドリカーブ
+		Tooltip:
+			'''
+			チャージアローを発射する
+			5回攻撃するごとに矢を追加で2本発射し、
+			近くの敵に対してはダメージが増加する
+			'''
+	}
+
+	ToyGun: {
+		DisplayName: おもちゃの銃
+		Tooltip:
+			'''
+			おもちゃのダーツを発射する
+			「カルト的名作」
+			'''
+	}
+
+	Aerosassin: {
+		DisplayName: エアロサシン
+		Tooltip: 周囲に鋭い風を発生させるハリケーンアローを発射する
+	}
+
+	Skewer: {
+		DisplayName: スキュア
+		Tooltip: 時間の経過とともにダメージが増加していくリップタイドボルトを発射する
+	}
+
+	GreatBranch: {
+		DisplayName: グレートブランチ
+		Tooltip: 勢いによって攻撃力が増加
+	}
+
+	FlyingStaff: {
+		DisplayName: フライングスタッフ
+		Tooltip:
+			'''
+			回転攻撃中に大きな真空波を放つ
+			「熟練した使い手は空気を操る力を利用して飛行することができる」
+			'''
+	}
+
+	PrimordialBostaff: {
+		DisplayName: 原始の棒杖
+		Tooltip:
+			'''
+			左クリックで回転攻撃、右クリックで突き
+			回転攻撃中はダメージがサイズが徐々に増加していく
+			「サルは驚くほど上手にそれを使う」
+			'''
+	}
+
+	DualPhaseblade: {
+		DisplayName: ダブルフェーズブレード
+		Tooltip:
+			'''
+			左クリックで回転攻撃、右クリックで投げる
+			「敵を叩きのめすのに最適」
+			'''
+	}
+
+	DualPhasesaber: {
+		DisplayName: ツインセイバー
+		Tooltip:
+			'''
+			左クリックで回転攻撃、右クリックで投げる
+			「敵を叩きのめすのに最適」
+			'''
+	}
+
+	BlazingCoronation: {
+		DisplayName: ブレイジングコロネーション
+		Tooltip:
+			'''
+			一定時間回転攻撃をすると、棒を叩きつけ、
+			ファイアワイバーンを召喚する
+			「溶けた拳で支配せよ！」
+			'''
+	}
+
+	CoconutCannon: {
+		DisplayName: ココナッツキャノン
+		Tooltip:
+			'''
+			爆発するココナッツを発射する
+			初弾のみロケットを消費する
+			「…撃たれたら、死ぬかもしれない」
+			'''
+	}
+
+	ShellShock: {
+		DisplayName: シェルショック
+		Tooltip:
+			'''
+			色とりどりの甲羅を発射する
+			色ごとに特徴が違う
+			「ゴーカートに対しては奇妙なほど壊滅的だ」
+			'''
+	}
+
+	AssuredDestruction: {
+		DisplayName: アシュアードデストラクション
+		Tooltip:
+			'''
+			カーソルに追従するミサイルを発射する
+			爆発するとミサイルは多数のクラスター爆弾に分裂し、さらなるダメージを与える
+			「怒れ！仕返しだ！」
+			'''
+	}
+
+	Steamshot: {
+		DisplayName: スチームショット
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を30無視する
+			短時間に持続して広がる熱い蒸気を噴射する
+			50%の確率でジェルを消費しない
+			「…そして、明らかに焼かれているにもかかわらず、あなたはそれを蒸しスライムと呼ぶのですか？」
+			'''
+	}
+
+	AtmosphereicIgnition: {
+		DisplayName: アトモスフィアリックイグニッション
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を25無視する
+			炎には揮発性があり、敵か地形に当たると分裂することがある
+			「私たちが火事を起こしたんです！」
+			'''
+	}
+
+	Hyperflare: {
+		DisplayName: ハイパーファイア
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を15無視する
+			炎を発射し続けるわけでなく、広範囲に広がる炎を発射する
+			'''
+	}
+
+	ForceBlaster: {
+		DisplayName: フォースブラスター
+		Tooltip:
+			'''
+			弾薬を消費せず、強いノックバックを持つ衝撃波を発射する
+			「こんにちは、毛玉さん」
+			'''
+	}
+
+	EnergyRailgun: {
+		DisplayName: エネルギーレールガン
+		Tooltip:
+			'''
+			高い破壊力を持ち、弾速の早いハードライトボルトをチャージし、発射する
+			弾薬を必要としない
+			「反動で死なないのは謎だ」
+			'''
+	}
+
+	SlingerShooter: {
+		DisplayName: スリンガー・シューター
+		Tooltip:
+			'''
+			定期的に弾丸を発射する銃を投げる
+			「武器よさらば」
+			'''
+	}
+
+	Crackshot: {
+		DisplayName: クラックショット
+		Tooltip:
+			'''
+			敵か地形に当たると爆発し、跳ね返る弾丸を発射する銃を投げる
+			「これで本当にガンマンになったな！」
+			'''
+	}
+
+	StarfallObliterator: {
+		DisplayName: スターフォールオブリタレーター
+		Tooltip:
+			'''
+			レーザーを素早く発射する
+			弾薬がなくても攻撃できるが、
+			弾丸、矢、ロケット、ダーツ、ジェルを消費することで、攻撃を強化できる
+			弾薬スロットの上にある弾薬を消費し、種類によって強化内容が違う
+			50%の確率で弾薬を消費しない
+			「便利な5in1のエネミー粉砕パッケージ！」
+			'''
+	}
+
+	RedPointer: {
+		DisplayName: レッドポインター
+		Tooltip:
+			'''
+			小さいエネルギービームを発射する
+			敵の防御力を20無視する
+			「猫を魅了するか、網膜を焼くか、それはあなた次第です！」
+			'''
+	}
+
+	GenesisCannon: {
+		DisplayName: ジェネシスキャノン
+		Tooltip:
+			'''
+			弾速の早い星弾を連射する
+			右クリックでエネルギービームを発射する
+			星弾が命中時、低確率で次のエネルギービーム攻撃が強化される
+			強化ビームはダメージが増加し、命中時にダメージと防御力を一時的に増加
+			「このアームキャノンの砲弾の木材は星々の祝福を受けている」
+			'''
+	}
+
+	Shockwave: {
+		DisplayName: ショックウェーブ
+		Tooltip:
+			'''
+			空気を発射し、地形に当たるか、射程限界に達すると真空波を発生させる
+			敵の防御力を20無視
+			'''
+	}
+
+	ShadowskullCurse: {
+		DisplayName: シャドウスカルカース
+		Tooltip: シャドウフレイムを与えるダークスカルを発射する
+	}
+
+	FireballTome: {
+		DisplayName: ファイアボール
+		Tooltip:
+			'''
+			爆発するファイアボールを発射する
+			左クリックを押し続けることでチャージし、ダメージを増加させる
+			チャージしすぎると爆発し、自爆ダメージを受ける
+			「火の玉、ただの火の玉、ただの火の玉」
+			'''
+	}
+
+	Exorcism: {
+		DisplayName: エクソシズム
+		Tooltip:
+			'''
+			浄化の光が攻撃を受けた敵の上に現れ、ダメージを追加で与える
+			この武器で敵を倒すと、浄化された魂のエネルギーが出現し、ライフを回復する
+			「キリストの力があなたを駆り立てる！」
+			'''
+	}
+
+	Moonpult: {
+		DisplayName: ムーンパルト
+		Tooltip:
+			'''
+			ムーンボルダーを発射する
+			「大岩が好きだったらいいな」
+			'''
+	}
+
+	RunicBlast: {
+		DisplayName: ルニックバースト
+		Tooltip:
+			'''
+			地形を貫通するエネルギーを発射する
+			敵との距離が近いほどダメージが増加する
+			'''
+	}
+
+	StarRod: {
+		DisplayName: スターロッド
+		Tooltip:
+			'''
+			自由に動かせる3つの虹の星を発射する
+			「ポヨ！」
+			'''
+	}
+
+	GalacticStorm: {
+		DisplayName: ギャラクティックストーム
+		Tooltip:
+			'''
+			カーソルに追従する強力なエネルギー球を生成する
+			エネルギー球は慣性が大きいが、速度が高いほどダメージが増加する
+			左クリックを離すか、一定時間が経過すると、エネルギー球が爆発して大ダメージを与える
+			「ビームアタック!!!」
+			'''
+	}
+
+	StormScepter: {
+		DisplayName: ストームセプター
+		Tooltip:
+			'''
+			ダメージを与える雨粒を撒き散らす、水の球を発射する
+			一定時間が経過するか、次弾を発射すると球は破裂し、雨粒を放出する
+			'''
+	}
+
+	Razorwing: {
+		DisplayName: レイザーウィング
+		Tooltip: 3枚の羽根を発射する
+	}
+
+	DryadGift: {
+		DisplayName: ドライアドの贈り物
+		Tooltip:
+			'''
+			中に入った敵にダメージを与え続ける自然のエネルギーのオーラを放つ
+			プレイヤーはオーラの中にいる間、
+			防御力が増加し、接触ダメージの一部を反射する
+			'''
+	}
+
+	OlympusHand: {
+		DisplayName: オリンポスの手
+		Tooltip:
+			'''
+			当たると他の敵に連鎖する強力な稲妻を発射する
+			「稲妻！稲妻！稲妻！」
+			'''
+	}
+
+	WildCantrip: {
+		DisplayName: 野生の呪文
+		Tooltip:
+			'''
+			ありふれた魔法の火花を発射する
+			時折、通常と違う性質を持つ火花を発射する
+			'''
+	}
+
+	BladedChain: {
+		DisplayName: 鎖の付いたブレード
+		Tooltip:
+			'''
+			召喚タグダメージ 3
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	Coraltip: {
+		DisplayName: コーラルティップ
+		Tooltip:
+			'''
+			召喚タグクリティカル率 4%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			「実は先端部分よりもずっと多くの部分がサンゴでできている」
+			'''
+	}
+
+	FellTentacle: {
+		DisplayName: 落ちた触手
+		Tooltip:
+			'''
+			召喚タグダメージ 6
+			召喚タグ ノックバック小増加
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃時に鞭が増えることがある
+			「腐敗と破滅に注意」
+			'''
+	}
+
+	LuminousLasher: {
+		DisplayName: ルミナスラッシャー
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃を当てた敵を光らせ、召喚武器に対する防御力を減少させる
+			'''
+	}
+
+	Whitecap: {
+		DisplayName: ホワイトキャップ
+		Tooltip:
+			'''
+			召喚タグクリティカル率 8%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			完全に鞭が伸びている間か、鞭の先端に近いとダメージが増加する
+			敵の防御力を15無視する
+			'''
+	}
+
+	FeatherFlayer: {
+		DisplayName: フェザーフライヤー
+		Tooltip:
+			'''
+			召喚タグダメージ 5
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃時に羽を放つ
+			'''
+	}
+
+	ChargedLash: {
+		DisplayName: 充電ケーブル
+		Tooltip:
+			'''
+			placeholder
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		TooltipNormal:
+			'''
+			召喚タグダメージ 6
+			タグダメージは最大5回までスタックする
+			'''
+		TooltipRemix:
+			'''
+			召喚タグダメージ 2
+			タグダメージは最大4回までスタックする
+			'''
+	}
+
+	EnergizedStaff: {
+		DisplayName: エナジャイズドスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵にエネルギーボルトを発射する御影石のモノリスを召喚する
+			エネルギーボルトは敵の防御力を10無視する
+			'''
+	}
+
+	PhalanxStaff: {
+		DisplayName: ファランクススタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			大理石の像を召喚し、近くのプレイヤーの防御力を増加させ、
+			触れた敵にダメージを与える
+			'''
+	}
+
+	EarthenStaff: {
+		DisplayName: アーセンスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			定期的に衝撃波を放つ魔法の土像を召喚する
+			衝撃波は敵にダメージを与え、プレイヤーの防御力を一時的に増加させる
+			'''
+	}
+
+	SteampunkRemote: {
+		DisplayName: スチームパンクリモコン
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵を攻撃する機械仕掛けのセントリーガンを召喚する 
+			攻撃間隔が短いがタグダメージが25%減少する
+			敵の防御力を40無視する
+			「セントリー起動！」
+			'''
+	}
+
+	LihzahrdianStaff: {
+		DisplayName: リザールディアンスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵にエネルギービームを発射して攻撃するリザードモノリスを召喚する
+			近くの敵に対しては火炎放射で攻撃する
+			火炎放射の攻撃間隔が短いがタグダメージが25%減少する
+			'''
+	}
+
+	SpookyStaff: {
+		DisplayName: 不気味な杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵を追跡し、火の矢を放って攻撃する邪悪なウィスプを召喚する
+			近くに敵がいない場合、ウィスプは元の位置に戻り、不気味な炎を発生させる
+			不気味な炎はその場に残り、敵が近づくと追尾する
+			'''
+	}
+
+	ChromaticStaff: {
+		DisplayName: クロマティックスタッフ
+		Tooltip:
+			'''
+			共に戦う小さいレインボースライムを召喚する
+			攻撃間隔が短いがタグダメージが25%減少する
+			「虹を味わおう！」
+			'''
+	}
+
+	JackLanternStaff: {
+		DisplayName: ジャック・オー・ランタンスタッフ
+		Tooltip:
+			'''
+			共に戦う小さなホッピングジャックを召喚する
+			「さあ、始めよう」
+			'''
+	}
+
+	GraniteGuardian: {
+		DisplayName: グラナイトガーディアン
+		Tooltip:
+			'''
+			共に戦う御影石のセンチネルを召喚する
+			他のミニオンと違い、センチネルはプレイヤーに最も近い敵を優先して攻撃する
+			'''
+	}
+
+	TwinkStaff: {
+		DisplayName: トゥインクルスタッフ
+		Tooltip:
+			'''
+			共に戦うカラフルな小さい星を召喚する
+			「星に願いを」
+			'''
+	}
+
+	NatureSpiritStaff: {
+		DisplayName: 自然の精霊の杖
+		Tooltip:
+			'''
+			共に戦う神秘の花を召喚する
+			花はプレイヤーの周囲を回り、近くの敵に追尾効果ありエネルギーの粒子を発射する
+			'''
+	}
+
+	WingStaff: {
+		DisplayName: 羽の杖
+		Tooltip:
+			'''
+			共に戦う鳥を召喚する
+			「鳥が上がった！」
+			'''
+	}
+
+	StoneStaff: {
+		DisplayName: 石の杖
+		Tooltip:
+			'''
+			共に戦う意思を持つ石を召喚する
+			「今、ブロックが再び揺れ始めている！」
+			'''
+	}
+
+	VoidMirror: {
+		DisplayName: 虚無の鏡
+		Tooltip:
+			'''
+			共に戦う2体の暗い幻影を召喚する
+			複数回召喚しても数は増えず、最初の2体が強化される
+			「深淵もまたあなたを覗いている…」
+			'''
+	}
+
+	StellarGenesis: {
+		DisplayName: ステラージェネシス
+		Tooltip:
+			'''
+			共に戦うスターライターを召喚する
+			スターライターは近くの敵をランダムにスターマークでマークする
+			スターマークが十分な数蓄積するか、マークできる対象がいなくなると、マークは爆発する
+			「星の光あれ」
+			'''
+	}
+
+	Dawnbreaker: {
+		DisplayName: ドーンブレイカー
+		Tooltip:
+			'''
+			「この日はもう終わりかもしれない...
+			...しかし、もうひとつの素晴らしいものが地平線上に待っている!」
+			'''
+	}
+
+	Antipode: {
+		DisplayName: アンティポッド
+		Tooltip:
+			'''
+			赤いブーメランと青いブーメランを交互に投げる
+			両方を投げていると、お互いに引き寄せられる
+			2つのブーメランがぶつかるとブーメランは爆発を起こして戻ってくる
+			「正反対のものが惹かれ合う」
+			'''
+	}
+
+	StickyBlaster: {
+		DisplayName: スティッキーブラスター
+		Tooltip:
+			'''
+			左クリックで敵や地形に付着するジェルを噴射し、右クリックでたいまつを発射する
+			衝撃を受けると、たいまつは小さな火を放ち、近くのジェルの塊を爆発させることがある
+			爆発したジェルは他のジェルの塊を爆発させ、強力な連鎖反応を引き起こすことがある
+			爆発は敵の防御力を大きく無視する
+			'''
+	}
+
+	TestWhip: {
+		DisplayName: テストウィップ
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	AncientKylieProjectile.DisplayName: 古代のブーメラン
+	AntlerangProjectile.DisplayName: アントラヴァラリ
+	BlazingDiscProjectile.DisplayName: ブレイジングディスク
+	ChlorothornChakramProjectile.DisplayName: クロロソーンチャクラム
+	CosmicutterProjectile.DisplayName: コズミカッター
+	CreeperDiscProjectile.DisplayName: クリーパーディスク
+	DivinityProjectile.DisplayName: ディヴィニティ
+	DivinitySpecial.DisplayName: ディヴィニティ
+	DivinitySplitshot.DisplayName: ディヴィニティ 光弾コア
+	ForbiddenKylieProjectile.DisplayName: 禁断のブーメラン
+	GlaiveGauntletMK2Projectile.DisplayName: グレイヴガントレット MK2
+	GlaiveGauntletProjectile.DisplayName: グレイヴガントレット
+	MonsoonProjectile.DisplayName: モンスーン
+	ScaleShredderProjectile.DisplayName: スケールシュレッダー
+	SplitshotPellet.DisplayName: ディヴィニティ 光弾
+	TwinFlaresExplosion.DisplayName: ツインフレア 爆発
+	TwinFlaresProjectile.DisplayName: ツインフレア
+	EldritchArrow.DisplayName: エルドリッチの矢
+	EldritchEye.DisplayName: 幻影の目
+	EnergyRepeaterProjectile.DisplayName: チャージアロー
+	HallowedBolt.DisplayName: ホーリーボルト
+	JunglefuryPoisonSeed.DisplayName: 毒の種
+	JunglefurySeed.DisplayName: 種
+	MechanizedBowSpark.DisplayName: スパーク
+	MidnightArrow.DisplayName: トゥルーナイトアロー
+	NightArrow.DisplayName: ナイトアロー
+	OmegaArrow.DisplayName: オメガアロー
+	OmegaArrowSecondary.DisplayName: オメガアロー
+	PillagerArrow.DisplayName: 略奪者の矢
+	PlasmcasterProjectile.DisplayName: プラズマボルト
+	PlasmcasterVortex.DisplayName: プラズマボルテックス
+	PoisonArrowProjectile.DisplayName: 毒矢
+	SandMissile.DisplayName: サンドミサイル
+	TerraArrow.DisplayName: テラアロー
+	TerraArrowSecondary.DisplayName: テラアロー
+	VortexVisual.DisplayName: プラズマボルテックス 外観
+	BasicDartProjectile.DisplayName: ダーツ
+	DarkmoonGauntletProjectile.DisplayName: ダークムーンボルト
+	GildedDartProjectile.DisplayName: 金のダーツ
+	IncendiaryDartProjectile.DisplayName: 焼夷ダーツ
+	LuminiteDartProjectile.DisplayName: ルミナイトダーツ
+	NanoDartProjectile.DisplayName: ナノダーツ
+	PredatorDart.DisplayName: プレデターダーツ
+	VenomDartProjectile.DisplayName: 猛毒のダーツ
+	AvalancheProjectile.DisplayName: アバランチ
+	BeetlesBoulderProjectile.DisplayName: ビートルボルダー
+	ChainKunaiProjectile.DisplayName: チェインクナイ
+	DeathspinProjectile.DisplayName: デススピン
+	DeathspinSecondary.DisplayName: デススピン アーム
+	DungeonsRavagerProjectile.DisplayName: ダンジョンラヴェジャー
+	FungiFlailProjectile.DisplayName: ファンギフレイル
+	JudgementProjectile.DisplayName: ジャッジメント
+	LittleSnatcherProjectile.DisplayName: リトルスナッチャー
+	MoonFistEye.DisplayName: 幻影の目
+	MoonFistProjectile.DisplayName: ムーンフィスト
+	RockRopeProjectile.DisplayName: 岩
+	ShellSmasherProjectile.DisplayName: シェルスマッシャー
+	SkelefistProjectile.DisplayName: スケルフィスト
+	SkelevicePrimeProjectile.DisplayName: スケルヴィス
+	SunsRageProjectile.DisplayName: レイジ・オブ・ザ・サン
+	TameTrapperProjectile.DisplayName: ティムトラッパー
+	ThornballProjectile.DisplayName: ソーンボール
+	BloodboilProjectile.DisplayName: ブラッドボイル 炎
+	BoneSingerProjectile.DisplayName: シンガー 炎
+	CursedFlamerProjectile.DisplayName: カースフレイマー 炎
+	DistortionAfterburnerProjectile.DisplayName: ディストーション 炎
+	FrostbiteProjectile.DisplayName: フロストバイト 炎
+	GelFlamerProjectile.DisplayName: ジェルフレイマー 炎
+	GreekAfterburnProjectile.DisplayName: 残り火
+	GreekAfterburnProjectile2.DisplayName: 残り火1
+	GreekAfterburnProjectile3.DisplayName: 残り火2
+	HellfireProjectile.DisplayName: 地獄の炎
+	IchorSprayProjectile.DisplayName: 霊液の煙
+	JunglesBaneProjectile.DisplayName: ジャングルベイン 炎
+	LihzahrdFlameGunProjectile.DisplayName: リザードフレイム
+	MoonrazerProjectile.DisplayName: ムーンレイザー 炎
+	WaterflameProjectile.DisplayName: ウォーターフレイム
+	WildfireProjectile.DisplayName: ワイルドファイヤー 炎
+	AntimatterBullet.DisplayName: 反物質弾
+	EdgeBlast.DisplayName: クリスタルバースト
+	EdgeProjectile.DisplayName: クリスタルバレット
+	PulsarBullet.DisplayName: レーザー
+	PulsarFlames.DisplayName: 呪炎
+	BeggarsBazookaProjectile.DisplayName: 乞食のロケット
+	BoneBlastaProjectile.DisplayName: ボーンバースター
+	BunnyMissile.DisplayName: バニーミサイル
+	DestructiveBeggarsBazookaProjectile.DisplayName: 乞食のロケット
+	DestructiveBomba.DisplayName: ミニボンバー
+	DestructiveBoneBlastaProjectile.DisplayName: ボーンバースター
+	DestructiveIncindiearyMissile.DisplayName: 焼夷ミサイル
+	DestructivePrimeCannonProjectile.DisplayName: プライム爆弾
+	DestructiveRiptideProjectile.DisplayName: リップタイド ロケット
+	HandCannonProjectile.DisplayName: 砲丸
+	IncindiearyMissile.DisplayName: 焼夷ミサイル
+	MiniBomba.DisplayName: ミニボンバー
+	OwnerSelfDamageHitbox.DisplayName: 爆発
+	PrimeCannonProjectile.DisplayName: プライム爆弾
+	RadianceRocketI.DisplayName: 光り輝くロケット I
+	RadianceRocketII.DisplayName: 光り輝くロケット II
+	RadianceRocketIII.DisplayName: 光り輝くロケット III
+	RadianceRocket.DisplayName: 光り輝くロケット
+	RadianceSecondary.DisplayName: 永遠の輝き
+	RiptideProjectile.DisplayName: リップタイド ロケット
+	SporeBomberProjectile.DisplayName: スポーボンバー
+	CrystalCarbineProjectile.DisplayName: クリスタルビーム
+	DeathLaserProjectile.DisplayName: デスレーザー
+	DeathrayProjectile.DisplayName: デスレイ
+	FireBeamerProjectile.DisplayName: ファイアビーム
+	Partycandle2nd.DisplayName: パーティーキャンドル 花火2
+	Partycandle3rd.DisplayName: パーティーキャンドル 花火3
+	PartycandleMain.DisplayName: パーティーキャンドル 花火
+	PhaserLaserMultihit.DisplayName: フェイザーレーザー
+	PhaserLaserProjectile.DisplayName: フェイザーレーザー
+	ShockgunProjectile.DisplayName: 電撃
+	SolarBeamProjectile.DisplayName: ソーラービーム
+	SparkTaserProjectile.DisplayName: 火花
+	EvilEyeBeam.DisplayName: グレアビーム
+	EvilEyeProjectile.DisplayName: グレアビーム
+	EvilEyeServant.DisplayName: デーモンアイ
+	GleamingBallAura.DisplayName: 輝くオーラ
+	GrandCrystalProjectile.DisplayName: 輝く水晶玉
+	GrandCrystalShard.DisplayName: クリスタルの破片
+	HoneyhiveHeal.DisplayName: ハニーハイブ 回復
+	HoneyhiveProjectile.DisplayName: 蜂蜜の球
+	IcicleFanMultihit.DisplayName: 氷柱
+	IcicleFanProjectile.DisplayName: 氷柱
+	MockeryNote1.DisplayName: ヴィシャスノート1
+	MockeryNote2.DisplayName: ヴィシャスノート2
+	MockeryNote3.DisplayName: ヴィシャスノート3
+	PossessedDaggerProjectile.DisplayName: ポゼストダガー
+	PossessedTorchTorch.DisplayName: ポゼストトーチ
+	SphereSongProjectile.DisplayName: ソングスフィア
+	SporeCloud1.DisplayName: 胞子雲
+	TorchFireball.DisplayName: ファイアボール
+	VileBreachProjectile.DisplayName: ヴァイルブリーチ
+	BallaMinion.DisplayName: スノーバラ
+	BallaProjectile.DisplayName: 雪玉
+	JungleCreeperMinion.DisplayName: ジャングルクリーパー
+	ShadowflameMinion.DisplayName: シャドウフレイムの幻影
+	SkullMinion.DisplayName: ガーディアンスカル
+	SpiritMinion.DisplayName: ダンジョンスピリット
+	TerraultimaMinion.DisplayName: テラウティマ
+	AccursedTridentProjectile.DisplayName: 呪われたトライデント
+	Bayonett.DisplayName: 銃剣
+	ElectrosphereVisual.DisplayName: エレクトロスフィア 外観
+	HolyHandGrenadeProjectile.DisplayName: 聖なる手榴弾
+	MeleeStinger.DisplayName: 毒針
+	SanguineDaggerProjectile.DisplayName: サンギュインダガー
+	SSSUProjectile.DisplayName: Super ウルトラスター
+	TerrasamaProjectile.DisplayName: テラサマ
+	SlimenobiProjectile.DisplayName: スライムノビ 手裏剣
+	CasterProjectile.DisplayName: ウォーターボルト
+	CasterSentry.DisplayName: ミニキャスター
+	CerebralSentry.DisplayName: クリーパーブレイン
+	ClingerProjectile.DisplayName: 呪炎
+	ClingerSentry.DisplayName: クリンガー
+	CreeperMinion.DisplayName: クリーパー
+	ForbiddenSentry.DisplayName: 禁断の目
+	ForbiddenSentryProjectile.DisplayName: 禁断の目 魔法弾
+	IchorProjectile.DisplayName: 霊液
+	IchorSentry.DisplayName: イコールスティッカー
+	InvaderProjectile.DisplayName: ミニインベーダー
+	InvaderSentry.DisplayName: フローインベーダー
+	JungleSentryProjectile.DisplayName: 胞子爆弾
+	JungleStaffSentry.DisplayName: ジャングルの低木
+	SoulSentry.DisplayName: ソウルサイクロン
+	SoulSentryBeam.DisplayName: ソウルビーム
+	TeslaBolt.DisplayName: 電撃
+	TeslaSentry.DisplayName: テスラタレット
+	TorchProjectile.DisplayName: ファイアボール
+	TorchSentry.DisplayName: ダークトーチ 顕現
+	TotemDamage.DisplayName: オーラ
+	TotemSentry.DisplayName: ティキトーテム
+	TwinkleProjectile.DisplayName: トゥインクル
+	TwinkleSentry.DisplayName: トゥインクルポッパー
+	UplinkLaser.DisplayName: レーザー
+	UplinkMarker.DisplayName: マーカーレーザー
+	UplinkProbe.DisplayName: ブロープ
+	UplinkSentry.DisplayName: デストロイヤードローン
+	VolcanoProjectile.DisplayName: ファイアボール
+	VolcanoSentry.DisplayName: 火山
+	AdamantiteRapierProjectile.DisplayName: アダマンタイトのレイピア
+	BoneRattlerProjectile.DisplayName: 骨のレイピア
+	BramblethornProjectile.DisplayName: ブランブルソーン
+	CarnageProjectile.DisplayName: カーネイジ
+	CarnwennanProjectile.DisplayName: カルンウェナン
+	CarnwennanProjectile2.DisplayName: カルンウェナン 残像
+	ChlorophyteRapierProjectile.DisplayName: クロロファイトのレイピア
+	CobaltRapierProjectile.DisplayName: コバルトのレイピア
+	EnchantedShortswordProjectile.DisplayName: エンチャントショートソード
+	FancyFoilProjectile.DisplayName: ファンシーホイル
+	FirebrandProjectile.DisplayName: サウザンドスディグリー
+	GraniteGauntletHitbox.DisplayName: 御影石パンチ
+	GreekFireProjectile.DisplayName: ギリシャの炎1
+	GreekFireProjectile2.DisplayName: ギリシャの炎2
+	GreekFireProjectile3.DisplayName: ギリシャの炎3
+	LilPokeyProjectile.DisplayName: リル・ポーキー
+	MythrilRapierProjectile.DisplayName: ミスリルのレイピア
+	NecroticDaggerProjectile.DisplayName: ネクロティックダガー
+	NecroticDaggerSecondary.DisplayName: ネクロティックダガー
+	NecroticDaggerShockwave.DisplayName: ネクロティック 衝撃波
+	OrichalcumRapierProjectile.DisplayName: オリハルコンのレイピア
+	PalladiumRapierProjectile.DisplayName: パラジウムのレイピア
+	PointyStickProjectile.DisplayName: 尖った棒
+	PowerBindingsHitbox.DisplayName: パワーパンチ
+	RG24Projectile.DisplayName: RG24 エネルギー弾
+	ShadowsStabberProjectile.DisplayName: シャドウズ・スタバー
+	SpookyStickProjectile.DisplayName: 不気味な棒
+	StarblazerFireball.DisplayName: ソーラーファイアボール
+	StarblazerProjectile.DisplayName: スターブレイザー
+	TerraShortswordProjectile.DisplayName: テラショートソード
+	TitaniumRapierProjectile.DisplayName: チタンのレイピア
+	ZenithShockwave.DisplayName: ゼニス 衝撃波
+	ZenithShortswordProjectile.DisplayName: ゼニスショートソード
+	DrakanianProjectile.DisplayName: ドラカニアン
+	FemurBreakerProjectile.DisplayName: フィーマーブレイカー
+	Gigazap.DisplayName: ビーム
+	GigazapperProjectile.DisplayName: ギガザッパー
+	GraniteGlaiveProjectile.DisplayName: 御影石のグレイブ
+	HeavensHalberdProjectile.DisplayName: 天空のハルバード
+	HHSecondaryProjectile.DisplayName: サイオニックスピアヘッド
+	LihzahrdSpearProjectile.DisplayName: リザードの槍
+	ShadowSpearProjectile.DisplayName: シャドウスピア
+	SpearmintProjectile.DisplayName: ミントスピア
+	StingOperatorProjectile.DisplayName: スティングオペレーター
+	AdamantiteStaffProjectile.DisplayName: アダマンタイトの魔法
+	BorealisStaffProjectile.DisplayName: ボレアリスビーム
+	BorealisStaffSecondary.DisplayName: ボレアリスバリア
+	CobaltStaffProjectile.DisplayName: コバルトの魔法
+	ConduitElectrosphere.DisplayName: エレクトロスフィア
+	ConduitRodProjectile.DisplayName: コンジットスパーク
+	CoralScepterProjectile.DisplayName: 水球
+	CosmicWandProjectile.DisplayName: ネビュラバースト
+	FinalFractalBeam.DisplayName: ファイナルフラクタルビーム
+	LunacyBolt.DisplayName: ファンタスマルボルト
+	LunacyEye.DisplayName: 幻影の目
+	LunacySphere.DisplayName: ファンタスマルスフィア
+	LunacyFireball.DisplayName: ファイアボール
+	LunacyIce.DisplayName: ルナシーアイス
+	LunacyLight.DisplayName: 古代の光
+	LunacyLightning.DisplayName: 電撃
+	LunacyShard.DisplayName: 氷の破片
+	MythrilStaffProjectile.DisplayName: ミスリルの魔法
+	NebulousScepterProjectile.DisplayName: ネビュラスクラウド
+	NebulousVisual.DisplayName: Nebulous ネビュラス ボルテックス
+	OrichalcumStaffProjectile.DisplayName: オリハルコンの魔法
+	PalladiumStaffProjectile.DisplayName: パラジウムの魔法
+	PrismaticStaffProjectile.DisplayName: プリズマティックボルト
+	SecondarySpore.DisplayName: ジャングルの胞子
+	SnowsplosionProjectile.DisplayName: 雪だるま
+	SporeScepterProjectile.DisplayName: ジャングルの胞子
+	HallowedScepterProjectile.DisplayName: 聖なる魔法
+	HallowedScepterSecondary.DisplayName: 聖なるビーム
+	MidnightProjectile.DisplayName: ミッドナイトビーム
+	MidnightSecondary.DisplayName: ミッドナイトビーム
+	TerraStaffBeamA.DisplayName: テラマジックa
+	TerraStaffBeamB.DisplayName: テラマジックb
+	TerraStaffSecondaryA.DisplayName: テラビームa
+	TerraStaffSecondaryB.DisplayName: テラビームb
+	TrueHallowedScepterProjectile.DisplayName: 聖なる魔法
+	TrueHallowedScepterSecondary.DisplayName: 聖なるビーム
+	TrueMidnightProjectile.DisplayName: ミッドナイトビーム
+	TrueMidnightSecondary.DisplayName: ミッドナイトビーム
+	TitaniumStaffProjectile.DisplayName: チタンの魔法
+	PrismaticShockwave.DisplayName: フォースウェーブ
+	ScimitarSand1.DisplayName: 砂嵐1
+	ScimitarSand2.DisplayName: 砂嵐2
+	ScimitarSand3.DisplayName: 砂嵐3
+	ScimitarSand4.DisplayName: 砂嵐4
+	SoladiusProjectile.DisplayName: ヒートウェーブ
+	TechbladeSpark.DisplayName: 火花
+	BeetleBuzzProjectile.DisplayName: カブトムシ
+	BurningSphereProjectile.DisplayName: バーニングスフィア
+	CatapultRock.DisplayName: 岩
+	ChaosBallProjectile.DisplayName: カオスボール
+	DustDevilProjectile.DisplayName: 砂の奔流
+	LacewingsDanceProjectile.DisplayName: プリズムクサカゲロウ
+	LTGreenProjectile.DisplayName: 毒の魔法
+	LTYellowProjectile.DisplayName: 切望の魔法
+	PiercersProjectile.DisplayName: ピアサー
+	RazorLeafProjectile.DisplayName: 魔法の葉
+	RedemptionHeal.DisplayName: 回復
+	RedemptionProjectile.DisplayName: 聖なる魔法
+	SoulBurstProjectile.DisplayName: 魂の魔法
+	SpectralBurstProjectile.DisplayName: スペクトラルソウル
+	AncientChainsProjectile.DisplayName: 古代の鎖
+	AuroraProjectile.DisplayName: オーロラ
+	BlocksWhipProjectile.DisplayName: ブロックチェイン
+	ChainsBeam.DisplayName: レーザー
+	ChainsGolem.DisplayName: ゴーレムの頭
+	ConstellationBurst.DisplayName: スターバースト
+	ConstellationProjectile.DisplayName: コンステレーション
+	CorruptionsScourgeProjectile.DisplayName: コラプションズスカージ
+	DusksBiteBlast.DisplayName: ダスクバースト
+	DusksBiteProjectile.DisplayName: ダスクバイト
+	EmberingScourgeProjectile.DisplayName: ヘルバインダー
+	LaceratorProjectile.DisplayName: ラセレーター
+	LostRaiderProjectile.DisplayName: ロストレイダー
+	MoonBiteLifesteal.DisplayName: ムーンバイトライフスティール
+	MoonBiteProjectile.DisplayName: ムーンバイト
+	PlasmaScourgeProjectile.DisplayName: プラズマスカージ
+	RopeWhipProjectile.DisplayName: 縄の鞭
+	ScrapHookProjectile.DisplayName: スクラップフック
+	ScrapHookSpark.DisplayName: 火花
+	SeaScourge2ndProj.DisplayName: スカージオブシー
+	SeaScourgeBubble.DisplayName: 泡
+	SeaScourgeMainProj.DisplayName: スカージオブシー
+	ShadowflameWhipProjectile.DisplayName: シャドウフレイムの鞭
+	SummitPrisma.DisplayName: サミット テラプリズマ
+	SummitWhip.DisplayName: サミット
+	TerraWhipProjectile.DisplayName: テラウイップ
+	TerraWhipShockwave.DisplayName: テラショックウェーブ
+	TrueDurendalAfterimage.DisplayName: トゥルーデュランダル 残像
+	TrueDurendalProjectile.DisplayName: トゥルーデュランダル
+	TrueDusksBiteProjectile.DisplayName: トゥルーダスクバイト
+	WeaverWhipProjectile.DisplayName: ウィーバーウィップ
+	AngelProjectile.DisplayName: エンジェル
+	DarksoulProjectile.DisplayName: ダークソウル
+	EmpressProjectile.DisplayName: エンプレス
+	EmpressSunDance.DisplayName: サンダンス
+	FireballProjectile.DisplayName: エイテスサークル
+	RoyalRollProjectile.DisplayName: ロイヤルロール
+	ShiningSpinProjectile.DisplayName: シャイニングスピン
+	SpinninSkullProjectile.DisplayName: スピニン・スカル
+	SunSrollerFireball.DisplayName: ソーラーファイアボール
+	SunSrollerProjectile.DisplayName: サンストローラー
+	ThoraxThrowProjectile.DisplayName: ソーラックススロー
+	AscendedKnife.DisplayName: アセンデッドナイフ
+	LienKnife.DisplayName: ラインフォースナイフ
+	LienLifesteal.DisplayName: アセンデッドライフスティール
+	SabrewingSlash.DisplayName: セイバーウィング
+	SoladiusSlash.DisplayName: ソラディウス
+	SoladiusSlash2.DisplayName: ソラディウス
+	PrismaticSlash.DisplayName: プリズマティックフェーズセイバー
+	PanSlash.DisplayName: 伝説のワッフルの焼き型
+	PanSlash2.DisplayName: 伝説のワッフルの焼き型2
+	PanPancake.DisplayName: パンケーキ
+	PanToast.DisplayName: トースト
+	PanWaffle.DisplayName: ワッフル
+	OcramBeam1.DisplayName: デスレーザー
+	OcramBeam2.DisplayName: オクラムレーザー
+	OcramServant.DisplayName: オクラムの僕
+	RedBullet.DisplayName: レッドバレット
+	RedBeam1.DisplayName: レッドビーム
+	RedBeam2.DisplayName: リディジットビーム
+	MechMonolithSentry.DisplayName: 機械のモノリス
+	MechdusaSentry.DisplayName: メカデューサ
+	MechdusaBoulder.DisplayName: ムーンボルダー
+	MechdusaLimb.DisplayName: メカデューサの手足
+	MechdusaRet.DisplayName: メカデューサ レディナイザー
+	MechdusaSpaz.DisplayName: メカデューサ スパズマティズム
+	Partycandle2ndMK2.DisplayName: パーティキャンドル Mk2 火花2
+	Partycandle3rdMK2.DisplayName: パーティキャンドル Mk2 火花3
+	PartycandleMainMK2.DisplayName: パーティキャンドル Mk2 火花
+	TrueDurendal2nd.DisplayName: トゥルーデュランダル
+	TrueDuskSlash.DisplayName: トゥルーダスクバイトスラッシュ
+	DrakanianBlast.DisplayName: ソーラーバースト
+	DrakanianChainBlast.DisplayName: ドラカニアンバースト
+	MonsoonShred.DisplayName: モンスーンブレード
+	MooncrescentBacklash.DisplayName: ムーンクレセントバックラッシュ
+	TerraBacklash.DisplayName: テラバックラッシュ
+	TrueBacklash.DisplayName: トゥルームーンクレセントバックラッシュ
+	MidnightFX.DisplayName: ミッドナイトフラッシュ
+	MidnightSec2.DisplayName: ミッドナイトフラッシュ2
+	TerraFlash.DisplayName: テラフラッシュ
+	TerraFlashFX.DisplayName: テラフラッシュ
+	TrueMidnightFX.DisplayName: トゥルーミッドナイトフラッシュ
+	TrueMidnightSec2.DisplayName: トゥルーミッドナイトフラッシュ2
+	VertexProjectile.DisplayName: ボルテックス
+	VertexSlash.DisplayName: 破砕渦
+	BattlestaffProjectile.DisplayName: バトルスタッフ
+	InfernoProjectile.DisplayName: ファイアブランド
+	FingerGunProjectile.DisplayName: フィンガーガン
+	BeamScepterProjectile.DisplayName: ビームの鞭
+	AstralHarmonyProjectile.DisplayName: 星の弾
+	SummitTerraultima.DisplayName: サミット テラプリズマ
+	CombustionFlaskProjectile.DisplayName: 燃焼のフラスコ
+	CombustionFlaskFire.DisplayName: ファイアボール
+	OmegaBacklash2.DisplayName: オメガバックラッシュ2
+	OmegaBacklash.DisplayName: オメガバックラッシュ
+	OmegaBowClone.DisplayName: オメガクローン
+	RG24Bullet.DisplayName: レーザーバレット
+	FemurBreakerShrapnel.DisplayName: 骨の破片
+	FinalFractalStaffClone.DisplayName: ファイナルフラクタルクローン
+	SummitWhipClone.DisplayName: サミット
+	MakeshiftGrenade.DisplayName: 即席のグレネード
+	MakeshiftMine.DisplayName: 即席の地雷
+	MakeshiftRocket.DisplayName: 即席のロケット
+	MakeshiftSnowRocket.DisplayName: 即席のスノーロケット
+	MisshappenGrenade.DisplayName: 不格好なグレネード
+	MisshappenMine.DisplayName: 不格好な地雷
+	MisshappenRocket.DisplayName: 不格好なロケット
+	MisshappenSnowRocket.DisplayName: 不格好なスノーロケット
+	ProtoGrenade.DisplayName: 不安定なグレネード
+	ProtoMine.DisplayName: 不安定な地雷
+	ProtoRocketProj.DisplayName: 不安定なロケット
+	ProtoSnowRocket.DisplayName: 不安定なスノーロケット
+	V0Grenade.DisplayName: グレネード V0
+	V0Mine.DisplayName: 地雷 V0
+	V0Rocket.DisplayName: ロケット V0
+	V0SnowRocket.DisplayName: スノーロケット V0
+	VenomSpit.DisplayName: 酸性毒弾
+	AntimatterTelegraph.DisplayName: アンチマター照準
+	StormdiverCharge.DisplayName: ストームダイバーチャージ
+	RapierProjectile.DisplayName: レイピア
+	CogbladeProjectile.DisplayName: コグブレイド
+	ThousandfoldCutterProjectile.DisplayName: サウザンドフォウルドカッター
+	SoulStrikerProjectile.DisplayName: ソウルストライカー
+	SoulStrikerSpearhead.DisplayName: ソウルスピアヘッド
+	FiestaProjectile.DisplayName: フィエスタ
+	ThrowingCrossProjectile.DisplayName: スローイングクロス
+	FlurryProjectile.DisplayName: フラリー
+	FlurryShard.DisplayName: 氷の破片
+	ShootingStarProjectile.DisplayName: シューティングスター
+	ClockworkProjectile.DisplayName: クロックワーク
+	RicochetProjectile.DisplayName: リコシェイ
+	TalonDartProjectile.DisplayName: タロンダート
+	GrappleDartProjectile.DisplayName: グラップルダート
+	BoarderHookProjectile.DisplayName: ボーダーズフック
+	WindbladeSlash.DisplayName: ゲイルウィンドブレード
+	SoulSlayerSlash.DisplayName: ソウルスレイヤー
+	SoulSlayerSlash2.DisplayName: ソウルスレイヤー2
+	WindbladeSecondary.DisplayName: ゲイルウィンドブレード2
+	DarklightSlash.DisplayName: ダークライトエッジ
+	ThronglerSlash.DisplayName: スロングラー
+	ThronglerSlash2.DisplayName: スロングラー2
+	DarklightSecondary.DisplayName: ダークライトスラッシュ
+	ThrongledBlast.DisplayName: スロングラーバースト
+	NavarchCutter.DisplayName: 水の刃
+	AerodynamicArrowProjectile.DisplayName: エアロダイナミックアロー
+	SpectralArrowProjectile.DisplayName: スペクトルアロー
+	ShockBoltProjectile.DisplayName: ショックボルト
+	FrostFlareProjectile.DisplayName: 照明弾（氷）
+	ArmorPiercingBulletProjectile.DisplayName: 徹甲弾
+	BurningBulletProjectile.DisplayName: 加熱弾
+	EtherealBulletProjectile.DisplayName: エーテル弾
+	ScattershotBig.DisplayName: スキャッターショット
+	ScattershotSmall.DisplayName: スキャッターショット2
+	BeetleDartProjectile.DisplayName: ビートルダート
+	BoneDartProjectile.DisplayName: 骨のダーツ
+	BoneDartShrapnel.DisplayName: 骨の破片
+	ChlorophyteDartCloud.DisplayName: 胞子雲
+	ChlorophyteDartProjectile.DisplayName: クロロファイトのダーツ
+	EchoDartProjectile.DisplayName: エコーダート
+	EchoDartSplit.DisplayName: エコーダート2
+	HunterDartProjectile.DisplayName: 狩人のダーツ
+	NeedleDartProjectile.DisplayName: ニードルダート
+	OverclockDartProjectile.DisplayName: オーバークロックダート
+	ShimmerDartProjectile.DisplayName: シマーのダーツ
+	SpookyDartProjectile.DisplayName: 不気味なダーツ
+	ToyDartProjectile.DisplayName: おもちゃのダーツ
+	TrackerDartProjectile.DisplayName: トラッカーダート
+	TwinklingDartProjectile.DisplayName: きらめくダーツ
+	ChargedBacklash.DisplayName: チャージドバックラッシュ
+	HurricaneArrow.DisplayName: ハリケーンアロー
+	CuttingWind.DisplayName: 鋭い風
+	RiptideArrow.DisplayName: リップタイドボルト
+	GreatBranchProjectile.DisplayName: グレートブランチ
+	FlyingStaffShockwave.DisplayName: 真空波
+	FlyingStaffProjectile.DisplayName: フライングスタッフ
+	PrimordialBostaffStaff.DisplayName: 原始の棒杖
+	PrimordialBostaffSpear.DisplayName: 原始の棒杖2
+	DualPhasebladeProjectile.DisplayName: ダブルフェーズブレード
+	DualPhasebladeThrown.DisplayName: ダブルフェーズブレード2
+	DualPhasesaberProjectile.DisplayName: ツインセイバー
+	DualPhasesaberThrown.DisplayName: ツインセイバー2
+	BlazingCoronationProj.DisplayName: ブレイジングコロネーション
+	BlazingWyvern.DisplayName: ファイアワイバーン
+	CoconutBomb.DisplayName: ココナッツ爆弾
+	ShellShockRed.DisplayName: 赤い甲羅
+	ShellShockGreen.DisplayName: 緑の甲羅
+	ShellShockBlue.DisplayName: 青い甲羅
+	ClusterMini.DisplayName: クラスター爆弾
+	ClusterMissile.DisplayName: リモートクラスターミサイル
+	DestructiveClusterMini.DisplayName: クラスター爆弾
+	DestructiveClusterMissile.DisplayName: リモートクラスターミサイル
+	SteamshotProjectile.DisplayName: 熱い蒸気
+	AtmosphereicIgnitionProjectile.DisplayName: アトモスフィアリックイグニッション
+	HyperflareProjectile.DisplayName: ハイパーファイア
+	ForceBlasterProjectile.DisplayName: 衝撃波
+	HardlightBolt.DisplayName: ハードライトボルト
+	SlingerProjectile.DisplayName: スリンガー
+	CrackshotBullet.DisplayName: クラックショット 弾丸
+	CrackshotProjectile.DisplayName: クラックショット
+	StarfallBeam.DisplayName: スターフォールビーム
+	StarfallBolt.DisplayName: スターフォールボルト
+	StarfallDeathray.DisplayName: スターフォールデスレイ
+	StarfallHoldout.DisplayName: スターフォールオブリタレーター
+	StarfallNeedle.DisplayName: スターフォールニードル
+	StarfallRocket.DisplayName: スターフォールロケット
+	RedPointerProjectile.DisplayName: レーザーポインター
+	GenesisBeam.DisplayName: ジェネシスビーム
+	GenesisStar.DisplayName: ジェネシススター
+	ShockwaveWave.DisplayName: 衝撃波
+	ShockwaveProjectile.DisplayName: 衝撃波
+	ShadowskullCurseProjectile.DisplayName: ダークスカル
+	FireballTomeProjectile.DisplayName: フアィアボール
+	PurgingLight.DisplayName: 浄化の光
+	ExorcismProjectile.DisplayName: エクソシズム
+	MoonpultBoulder.DisplayName: ムーンボルダー
+	RunicBlastProjectile.DisplayName: ルニックバースト
+	StarRodProjectile.DisplayName: ドリームスター
+	GalacticStormProjectile.DisplayName: ギャラクティックストーム
+	StormRain.DisplayName: 雨粒
+	StormOrb.DisplayName: 嵐の球
+	RazorwingProjectile.DisplayName: 鋭い羽根
+	DryadGiftProjectile.DisplayName: 自然のオーラ
+	OlympusLightning.DisplayName: オリンポスの稲妻
+	CantripProjectile.DisplayName:  野生の呪文
+	BladedChainProjectile.DisplayName: 鎖の付いたブレード
+	CoraltipProjectile.DisplayName: コーラルティップ
+	FellTentacleExtra.DisplayName: 落ちた触手 追加鞭
+	FellTentacleMain.DisplayName: 落ちた触手
+	LuminousLasherProjectile.DisplayName: ルミナスラッシャー
+	WhitecapProjectile.DisplayName: ホワイトキャップ
+	FeatherFlayerProjectile.DisplayName: フェザーフライヤー
+	FlayerFeather.DisplayName: 鋭い羽根
+	ChargedLashProjectile.DisplayName: 充電ケーブル
+	EnergizedSentry.DisplayName: 御影石のモノリス
+	EnergizedBolt.DisplayName: エネルギーボルト
+	PhalanxSentry.DisplayName: 大理石の像
+	EarthenSentry.DisplayName: 魔法の土像
+	SteampunkSentryBullet.DisplayName: 高速弾
+	SteampunkSentry.DisplayName: 機械仕掛けのセントリーガン
+	LihzahrdBeam.DisplayName: レーザー
+	LihzahrdFlames.DisplayName: 炎
+	LihzahrdianSentry.DisplayName: リザードモノリス
+	SpookySpike.DisplayName: 火の矢
+	SpookySentry.DisplayName: 邪悪なウィスプ
+	SpookyFlame.DisplayName: 不気味な炎
+	HoppinJackMinion.DisplayName: ホッピングジャック
+	RainbowSlimeMinion.DisplayName: レインボースライム
+	GraniteBolt.DisplayName: エネルギーボルト
+	GraniteMinion.DisplayName: 御影石のセンチネル
+	TwinkleMinion.DisplayName: 小さい星
+	TwinkleStar.DisplayName: 小さい星
+	NatureMinion.DisplayName: 神秘の花
+	NatureProjectile.DisplayName: 自然のエネルギー
+	WingMinion.DisplayName: 鳥
+	WingProjectile.DisplayName: 羽
+	RockMinion.DisplayName: 石の人
+	MirrorFireball.DisplayName: 幻影のファイアーボール
+	MirrorMinion.DisplayName: 鏡の幻影
+	StarWriter.DisplayName: スターライター
+	StarMark.DisplayName: スターマータク
+	DawnbreakerProjectile.DisplayName: ドーンブレイカー
+	DawnbreakerBeam.DisplayName: ドーンブレイカービーム
+	DawnbreakerBlade.DisplayName: ドーンブレイカーブレード
+	DawnbreakerBolt.DisplayName: ドーンブレイカーボルト
+	DawnbreakerIllusion.DisplayName: ドーンブレイカー 幻影
+	PrismaticProjectile.DisplayName: プリズマティックウェーブ
+	DarklightThrust.DisplayName: ダークライト
+	SabrewingThrown.DisplayName: セイバーウィング2
+	SabrewingBattlestaff.DisplayName: セイバーウィング
+	AntipodeBlast.DisplayName: アンティポッド爆発
+	AntipodeProjB.DisplayName: アンティポッドアイスラン
+	AntipodeProjR.DisplayName: アンティポッドフレイラン
+	StickyBlasterTorch.DisplayName: スティッキーブラスター たいまつ
+	StickyBlasterGel.DisplayName: スティッキーブラスター ジェル
+	TestWhipProj.DisplayName: テストウィップ
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+		Headers.HeaderIdentifier: メイン設定
+
+		dropMasterWeps: {
+			Label: マスター武器をドロップする
+			Tooltip:
+				'''
+				Arsenal modでは、マスターモードの追加報酬として設計された武器が追加されます
+				この設定で、ボスがこれらの武器をドロップするどうかを変更できます
+				オンならドロップし、オフだとドロップしません
+				レリックやペット/マウントとは異なり、これらのアイテムは直接ではなく
+				ボスの宝袋から入手できることに注意してください。
+				デフォルトはオン
+				'''
+		}
+
+		expertWeps: {
+			Label: エキスパートでマスター武器をドロップする
+			Tooltip:
+				'''
+				マスターモードの武器はマスターモード用にバランス調整されていますが、
+				この設定がオンだと、エキスパートモードでもドロップするようになります
+				上記の設定によりマスターモードの武器のドロップがオフになっている場合は、
+				何も変わらないことに注意してください
+				デフォルトはオフ
+				'''
+		}
+
+		masterDropRate: {
+			Label: 武器のドロップ率（マスター）
+			Tooltip:
+				'''
+				マスター武器がボスからドロップする確率を調整します
+				設定した数はドロップ確率の分母です (例: 5 = 1/5の確率でドロップ)
+				デフォルトは3 (33%)
+				'''
+		}
+
+		expertDropRate: {
+			Label: 武器のドロップ率（エキスパート）
+			Tooltip:
+				'''
+				マスター武器はエキスパートモードでは違う確率でドロップしますが、
+				この設定で調整できます
+				設定した数はドロップ確率の分母です (例: 5 = 1/5の確率でドロップ)
+				デフォルトは12 (8.33%)
+				'''
+		}
+
+		dropCultistBag: {
+			Label: 狂気の崇拝者の宝袋ドロップ
+			Tooltip:
+				'''
+				マスターモードの武器ドロップがオンの場合、狂気の崇拝者が宝袋をドロップするかどうかを設定できます
+				マスターモードの武器がオンの場合、崇拝者の宝袋から通常は入手できない武器を入手できます
+				オンに設定すると、崇拝者は宝袋をドロップします
+				オフに設定すると、宝袋はドロップしませんが、マスターモード武器がオンの場合、崇拝者のマスター武器は宝袋の中にあります
+				他のMODで崇拝者が宝袋を落とすように設定している場合は、これをオフにして、複数の宝袋が一度にドロップされるのを防ぎます
+				'''
+		}
+
+		adjustRockets: {
+			Label: ロケット弾 Iとロケット弾 IIの再ティア
+			Tooltip:
+				'''
+				このMODでは、ロケット弾 Iとロケット弾 IIのダメージを下げることで、ハードモード前のランチャー系の武器に対応させ、
+				ハードモード前に作成できるようにします
+				ロケット弾 Iとロケット弾 IIのダメージは20に減少しますが、
+				ロケット弾 Iは鉄/鉛のインゴットとダイナマイトで、
+				ロケット弾 IIはロケット弾 Iとヘルストーンインゴットと爆薬で作れます
+				これをオンのままにしておくことを強くお勧めします
+				オフだとこのMODのプランテラ以前のランチャーが使用できなくなります
+				ロケット弾 Iとロケット弾 IIの変更はのちに削除され、カスタム弾薬が追加される予定です
+				'''
+		}
+
+		calamitySimpHelper: {
+			Label: Calamityの進行ロック
+			Tooltip:
+				'''
+				Calamity modが有効だと、オメガ、ファイナルフラクタル、サミット（ゼニスの対応物）のレシピに、
+				オーリックインゴットを追加します
+				また、それぞれUltimaとBlock's Thrower: Arsenal ExpanionとCapture Discs: Arsenal Expansionにも影響します
+				'''
+		}
+
+		shimmerQoL: {
+			Label: 追加の武器変換を切り替える
+			Tooltip:
+				'''
+				有効にすると、Arsenalの武器（Arsenalのみ）に追加のシマー変換が導入されます
+				これには以下のドロップ変換が含まれます
+				ムーンロードがドロップする武器
+				火星人の侵攻のレア武器
+				宝箱/木箱限定武器
+				イコルスティッカー、クリンガー、ゴブリンウォーロックの武器
+				これを無効にしても、テラプリズマの同等品やジェネシスキャノンのようなシマー専用武器には影響しません
+				これは特定の武器の入手に費やす時間を減らすのに役立ちます
+				'''
+		}
+
+		AllowRemixSwaps: {
+			Label: リミックススワップを許可する
+			Tooltip:
+				'''
+				特定のArsenal武器がDon't Dig Upワールドで性能と入手方法が変化するか設定します
+				Defaultは、Don't Dig Upワールドでのみ変化します
+				Neverはどのワールドでも変化しなくなります
+				Alwaysはどのワールドでも変化します
+
+				注意: tMLはアイテムバリアントを適切にサポートしていない為、
+				現時点では武器の価格が変化しません、そのため入手時は価格が非常に安いか高くなる可能性があります
+
+				また、この設定は自由に変更できますが、ワールド生成後の宝箱内のアイテムには当然影響しません
+				更に変化した武器に関連する、
+				アイテムのレア度やシマーによる変換はワールドを出て、再度入らないと更新されません
+				'''
+		}
+	}
+}
