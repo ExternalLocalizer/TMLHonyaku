@@ -1,0 +1,99 @@
+Items: {
+	Placeables: {
+		MusicBoxes: {
+			ClamityTitleMusicBox: {
+				Tooltip: Sidetracker制作の「unnamed theme」を再生する
+				DisplayName: オルゴール (Clamity タイトル画面)
+			}
+
+			ClamitasMusicBox: {
+				Tooltip: StarvoXD制作の「clamitas theme」を再生する
+				DisplayName: オルゴール (クラミタス)
+			}
+
+			PyrogenMusicBox: {
+				Tooltip:  Brimston Premium制作の「Searing Ferocity」を再生する
+				DisplayName: オルゴール (パイロジェン)
+			}
+
+			AcidRainT2MusicBox: {
+				Tooltip: AstroGel制作の「Sulfuric Cloudbrust」を再生する 
+				DisplayName: オルゴール (酸性雨 - ティア 2)
+			}
+
+			WoBMusicBox: {
+				DisplayName: オルゴール (ウォールオブブロンズ)
+				Tooltip:
+					'''
+					Perturbator制作の「Diabolus Ex Machina」を再生する
+					このオルゴールには仮の楽曲が収録されています
+					'''
+			}
+
+			FrozenHellMusicBox: {
+				DisplayName: オルゴール (凍てついた地下世界)
+				Tooltip:
+					'''
+					Soundbin制作の「Alternative Underworld」を再生する
+					このオルゴールには仮の楽曲が収録されています
+					'''
+			}
+
+			PyrogenGFBMusicBox: {
+				DisplayName: オルゴール (クライオジェン?)
+				Tooltip: Brimston Premium制作の「Antarctic Ferocity」を再生する
+			}
+		}
+	}
+}
+
+Tiles: {
+	GiantClamMusicBoxTile: {
+		MapEntry: Giant Clam Music Box Tile
+	}
+
+	ClamityTitleMusicBoxTile: {
+		MapEntry: Clamity Title Music Box Tile
+	}
+
+	ClamitasMusicBoxTile: {
+		MapEntry: Clamitas Music Box Tile
+	}
+
+	PyrogenMusicBoxTile: {
+		MapEntry: Pyrogen Music Box Tile
+	}
+}
+
+Configs: {
+	ClamityMusicConfig: {
+		DisplayName: Clamity Music 設定
+
+		PyrogenPrototypeTheme: {
+			Label: パイロジェンの試作曲
+			Tooltip: ""
+		}
+
+		UsesT2AcidRainTheme: {
+			Label: 酸性雨の特使BGM
+			Tooltip: "酸性雨(ティア2)の際に「Sulfuric Cloudbrust」の再生を許可する"
+		}
+	}
+
+	PyroMusic: {
+		Tooltip: ""
+
+		CryogenPlaceholder: {
+			Label: Cryogen Placeholder
+		}
+
+		AstroGels: {
+			Label: Astro Gels
+		}
+
+		BrimstonePremiums: {
+			Label: Brimstone Premiums
+		}
+	}
+}
+
