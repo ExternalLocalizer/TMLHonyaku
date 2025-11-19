@@ -1,0 +1,223 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		hhgRework: {
+			Label: 聖なる手榴弾のダメージクラスを変更
+			Tooltip:
+				'''
+				この武器のダメージクラスを投擲武器に変更します
+				また、ダメージなどの他のステータスも武器として使用できるように調整されます
+				さらに、攻撃の挙動も調整されます
+				特に注目すべきは、ブロックを破壊しなくなったことです
+				'''
+		}
+
+		daggerConv: {
+			Label: サンギュインダガーのダメージクラスを変更
+			Tooltip:
+				'''
+				この武器のダメージクラスを投擲武器に変更します
+				元々のダメージタイプにより、この武器は変換時に汎用（つまりクラス固有でない）の修飾子のみが付きます
+				'''
+		}
+
+		tridentConv: {
+			Label: 呪われたトライデントのダメージクラスを変更
+			Tooltip:
+				'''
+				この武器のダメージクラスを投擲武器に変更します
+				元々のダメージタイプにより、この武器は変換時に汎用（つまりクラス固有でない）の修飾子のみが付きます
+				'''
+		}
+
+		flaskConv: {
+			Label: 燃焼のフラスコのダメージクラスを変更
+			Tooltip:
+				'''
+				この武器のダメージクラスを投擲武器に変更します
+				更にマナの消費も少なくなるが、それに応じてダメージも減少します
+				元々のダメージタイプにより、この武器は変換時に汎用（つまりクラス固有でない）の修飾子のみが付きます
+				'''
+		}
+
+		slimenobiConv: {
+			Label: スライムノビのダメージクラスを変更
+			Tooltip: この武器のダメージクラスを投擲武器に変更します
+		}
+	}
+}
+
+Projectiles: {
+	HolyHandGrenadeProj.DisplayName: 聖なる手榴弾
+	TrueTwilightPlungeClone.DisplayName: トゥルートワイライトプランジ
+	TrueTwilightPlungeProj.DisplayName: トゥルートワイライトプランジ
+	TwilightPlungeClone.DisplayName: トワイライトプランジ
+	TwilightPlungeProj.DisplayName: トワイライトプランジ
+	TrueDivineStarProj.DisplayName: トゥルーディバインスター
+	TrueDivineStarBeam.DisplayName: ディバインビーム
+	TerraCutterSlash.DisplayName: テラカッタースラッシュ
+	TerraCutterProj.DisplayName: テラカッター
+	ChimeraMine.DisplayName: キメラ マイン
+	ChimeraProj.DisplayName: キメラ
+	MechimeraLance.DisplayName: メキメラ ボルト
+	MechimeraMayhemProj.DisplayName: メキメラ レンダー
+	MechimeraMine.DisplayName: メキメラ マイン
+	EmpressChargeClone.DisplayName: エンプレスチャージ
+	EmpressChargeProj.DisplayName: エンプレスチャージ
+	BlockThrowerProj.DisplayName: 土のブロック
+	UltimaProj.DisplayName: ウルティマ
+	UltimaOrbital.DisplayName: ウルティマ
+	VoidFissure.DisplayName: ヴォイドフィッシャー
+	SpacialRendProj.DisplayName: スペシャルレンド
+	HorizonRazorProj.DisplayName: ホライゾンレイザー
+	VoidEnergy.DisplayName: ヴォイド エネルギー
+	VoidbringerProj.DisplayName: ヴォイドブリンガー
+	VoidBlast.DisplayName: 虚無の爆発
+	DimensionalCollapseProj.DisplayName: ディメンショナルコラプス
+	SingularityMineProj.DisplayName: シンギュラリティマイン
+	SingularityVortex.DisplayName: シンギュラリティ 渦
+	EntropicMatterProj.DisplayName: エントロピックボレー
+	GrandStarProj.DisplayName: グランドスター
+	GrandStarMini.DisplayName: 小さなグランドスター
+	LunarFuryProj.DisplayName: ルナーフューリー
+	LunarFurySpark.DisplayName: ルナーフューリー 火花
+	OmegaBladeProj.DisplayName: オメガブレード
+}
+
+Items: {
+	TwilightPlunge: {
+		DisplayName: トワイライトプランジ
+		Tooltip: ""
+	}
+
+	TrueTwilightPlunge: {
+		DisplayName: トゥルートワイライトプランジ
+		Tooltip: ""
+	}
+
+	TrueDivineStar: {
+		DisplayName: トゥルーディバインスター
+		Tooltip: ""
+	}
+
+	TerraCutter: {
+		DisplayName: テラカッター
+		Tooltip: ""
+	}
+
+	MechimeraMayhem: {
+		DisplayName: メキメラメイヘム
+		Tooltip:
+			'''
+			「混沌から秩序を、不完全な部分から完璧さを引き裂く...」
+			レジェンダリー
+			'''
+	}
+
+	Chimera: {
+		DisplayName: キメラ
+		Tooltip: "「これはナッツだ…ボルトかもしれない！」"
+	}
+
+	EmpressCharge: {
+		DisplayName: エンプレスチャージ
+		Tooltip: ジャベリンを投げ、それに沿って飛行するプリズマティックジャベリンの群れを発生させる
+		PrismaNerf: テラプリズマを召喚中はダメージが減少する
+	}
+
+	BlockThrower: {
+		DisplayName: ブロックスローワー
+		Tooltip:
+			'''
+			土を投げる
+			「MOD開発者に成りすますのに最適！」
+			「今度はBlock's Thrower Mod!だ！」
+			'''
+	}
+
+	Ultima: {
+		DisplayName: ウルティマ
+		Tooltip: ""
+	}
+
+	SpacialRend: {
+		DisplayName: スペシャルレンド
+		Tooltip:
+			'''
+			空間を粉砕し、命中した敵に大量の追撃をする
+			「ピクシーに対しては完璧に効果的だ、なぜ効果がないのか？」
+			'''
+	}
+
+	HorizonRazor: {
+		DisplayName: ホライゾンレイザー
+		Tooltip: ""
+	}
+
+	Voidbringer: {
+		DisplayName: ヴォイドブリンガー
+		Tooltip:
+			'''
+			敵や地形に突き刺さった後、敵を追尾するエネルギーを放つ
+			「誰も虚無の絶え間ない存在から逃れることはできない」
+			'''
+	}
+
+	DimensionalCollapse: {
+		DisplayName: ディメンショナルコラプス
+		Tooltip: ""
+	}
+
+	SingularityMine: {
+		DisplayName: シンギュラリティマイン
+		Tooltip: ""
+	}
+
+	EntropicMatter: {
+		DisplayName: エントロピックボレー
+		Tooltip:
+			'''
+			自身の動きによって速度が変化する爆弾を投げる
+			「天界の力の揮発性の破片を武器にする？確かに、それは全く安全そうだ」
+			'''
+	}
+
+	GrandStar: {
+		DisplayName: グランドスター
+		Tooltip: "「選ばれし者の武器」"
+	}
+
+	LunarFury: {
+		DisplayName: ルナーフューリー
+		Tooltip: "「今、堕ちた者たちは天に昇る」"
+	}
+
+	OmegaBlades: {
+		DisplayName: オメガブレード
+		Tooltip:
+			'''
+			3発のナイフを投げる
+			敵か地形に当たると、ナイフはその場で停止する
+			停止したナイフは、少し遅れて、カーソルに向かって再び移動する
+			「時の終わりを受け入れよ…抵抗しても無駄だ」
+			'''
+	}
+}
+
+Buffs: {
+	TrueTwilightPlungeDebuff: {
+		DisplayName: ダークネスプランジ
+		Description: 闇のエネルギーがこの敵のライフを徐々に減少させる
+	}
+
+	TerraCutterDebuff: {
+		DisplayName: テラレンド
+		Description: テラリアの力そのものがこの敵のライフを徐々に減少させる
+	}
+
+	EmpressChargeDebuff: {
+		DisplayName: ラディアントジャッジメント
+		Description: プリズマティックな光がこの敵を燃やす
+	}
+}

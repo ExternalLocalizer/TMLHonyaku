@@ -1,0 +1,1750 @@
+CommonTooltips: {
+	Stats: {
+		# ---------------
+		# Basic Stats:
+		# ---------------
+		PercentIncThrowDmg: "投擲ダメージが{0}%増加"
+		PercentIncThrowCrit: "投擲クリティカル率が{0}%上昇"
+		PercentIncThrowSpd: "投擲攻撃速度が{0}%上昇"
+		PercentIncThrowVelocity: "投げた武器の弾速が{0}%上昇"
+		PercentIncThrowKB: "投擲ノックバックが{0}%増加"
+		PercentThrowConserv: "{0}%の確率で投擲武器を消費しない"
+		PercentDamageReduction: 被ダメージを{0}%軽減
+		# ---------------
+		# Compound Stats:
+		# ---------------
+		PercentIncThrowDmgAndCrit: "投擲ダメージが{0}%増加し、投擲クリティカル率が{0}%上昇"
+		PercentIncThrowDmgAndSpd: "投擲ダメージが{0}%増加し、投擲攻撃速度が{0}%上昇"
+		PercentIncThrowCritAndSpd: "投擲クリティカル率と投擲攻撃速度が{0}%上昇"
+		PercentIncThrowVelAndDmg: "投擲ダメージが{0}%増加し、投げた武器の弾速が{0}%上昇"
+		PercentIncThrowVelAndCrit: "投げた武器の弾速と投擲クリティカル率が{0}%上昇"
+		PercentIncThrowVelAndSpd: "投擲攻撃速度と投げた武器の弾速が{0}%上昇"
+		PercentIncThrowVelAndKB: "投げた武器の弾速が{0}%上昇し、投擲ノックバックが{0}%増加"
+		PercentIncThrowAndMoveSpd: "移動速度と投擲攻撃速度が{0}%上昇"
+		PercentIncThrowVelAndMoveSpd: "移動速度と投げた武器の弾速が{0}%上昇"
+		PercentIncThrowDmgAndMoveSpd: "投擲ダメージが{0}%増加し、移動速度が{0}%上昇"
+		# ---------------
+		# Aggro:
+		# ---------------
+		# 200 or less Aggro Reduction
+		SlightReducedAggro: 敵に狙われにくくなる
+		# 201 to 399 Aggro Reduction
+		ReducedAggro: 敵に狙われにくくなる
+		# 400 or more Aggro Reduction
+		GreatReducedAggro: 敵にかなり狙われにくくなる
+		# ---------------
+		# Regen:
+		# ---------------
+		# +1 Regen
+		SlightRegen: ライフ自然回復を少し増進
+		# +2 to +4 Regen
+		Regen: ライフ自然回復を増進
+		# +5 to +7 Regen
+		GreatRegen: ライフ自然回復を大きく増進
+		# +8 or more Regen
+		HugeRegen: ライフ自然回復をとても大きく増進
+		# ---------------
+		# Converted armor:
+		# ---------------
+		FossilCrit: 遠距離と投擲ダメージが5%増加
+		FossilDmg: 遠距離と投擲クリティカル率が4%上昇
+		CrystalNinjaConserv:
+			'''
+			10%の確率で弾薬を消費しない
+			10%の確率で投擲武器を消費しない
+			'''
+		ShinobiHead:
+			'''
+			召喚できるセントリーの数が2体増え、召喚ダメージが20%増加
+			投擲ダメージが15%増加
+			'''
+		ShinobiBody:
+			'''
+			召喚ダメージが20%増加
+			投擲ダメージが15%増加
+			'''
+		ShinobiLegs:
+			'''
+			召喚ダメージが20%増加
+			投擲クリティカル率が15%上昇
+			'''
+	}
+
+	SetBonus: {
+		FossilBCThrower:
+			'''
+			20%の確率で弾薬を消費しない
+			20%の確率で投擲武器を消費しない
+			'''
+		NinjaBCThrower:
+			'''
+			移動速度が12%上昇
+			投げた武器の弾速が12%上昇
+			'''
+		CrystalNinjaBCThrower:
+			'''
+			横入力2回で高速ステップ
+			投擲ダメージが5%増加し、クリティカル率が5%上昇
+			'''
+		Stealth:
+			'''
+			{$CommonTooltips.Stats.SlightRegen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+		Feather:
+			'''
+			ジャンプ速度と落下耐性が増加
+			攻撃されると、羽根を発射して反撃する
+			'''
+		Master:
+			'''
+			投げた武器の弾速が10%上昇
+			攻撃を回避することがある
+			'''
+		Akuma:
+			'''
+			投擲攻撃で混乱、炎上を敵に与えることがある
+			投擲攻撃時、敵を混乱させ、炎上させる火炎瓶を投げることがある
+			'''
+		Hidden:
+			'''
+			投擲クリティカル率が10%上昇
+			投擲武器を選択中して、移動しないとステルスが蓄積される
+			ステルス状態になると、次の投擲攻撃のダメージが増加し、敵に狙われにくくなる
+			ステルスは移動しても失われないが、移動速度が低下する
+			投擲武器を選択中でない場合は、時間の経過とともにステルスが減少する
+			'''
+		DarkSet:
+			'''
+			20%の確率で投擲武器を消費しない
+			敵に狙われにくくなる
+			{0}入力2回で、マウスの位置にテレポートし、投擲武器が一時的に強化される
+			この効果は15秒のクールダウンがある
+			'''
+		DarkTriggerUp: 上
+		DarkTriggerDown: 下
+		Winter:
+			'''
+			15%の確率で投擲武器を消費しない
+			敵に狙われにくくなる
+			25%の確率で投げた武器が3つに増える
+			'''
+		Bionic:
+			'''
+			敵に狙われにくくなる
+			敵を倒すと、与えたダメージの一部を回復し、投擲武器を一時的に強化する
+			この効果は6秒のクールダウンがある
+			'''
+		Void:
+			'''
+			33%の確率で投擲武器を消費しない
+			攻撃に当たったとき、攻撃を吸収することがある
+			吸収した場合は、ダメージを受けず、受けるはずだったダメージの一部を回復する
+			ライフが少ないか、効果が連続して発動しなかった場合、確率が上昇する
+			攻撃を吸収すると、敵を切り裂く渦も発生させる
+			'''
+	}
+
+	Config: {
+		DamageChange: この武器のダメージクラスを投擲武器に変更します
+		MagicTweaks: 更にマナの消費も少なくなるが、それに応じてダメージも減少します
+		DamageRebalance: この武器のダメージも他の投擲武器と一致するように調整されます
+		ArmorChange: この防具セットのステータス/ボーナスを投擲武器向けに変更します
+		ConvertWarning: 元々のダメージタイプにより、この武器は変換時に汎用（つまりクラス固有でない）の修飾子のみが付きます
+	}
+
+	Shop: {
+		NinjaArmorCond: その他のバニラの調整で忍者セットの入手方法を変更するをオンにする
+		MasterScrollCond: ゴーレム、エンプレスオブライト、またはデュークフィシュロンのいずれかを倒した後、夜間に
+		DisciplineScrollCond: キングスライム以外のハードモード前のボスを倒した後、日中に
+		ShadowspikeBallCond: ゴブリンウォーロックを倒した後
+	}
+
+	Flasks: {
+		FlaskBase: "近接攻撃、投擲攻撃、鞭の攻撃に"
+		FlaskFire: 炎上の追加効果を付与
+		FlaskPoison: 毒の追加効果を付与
+		FlaskCursed: 呪炎の追加効果を付与
+		FlaskGold: ドロップ金額増加の追加効果を付与
+		FlaskIchor: 敵の防御減少の追加効果を付与
+		FlaskParty: 紙吹雪の追加攻撃を付与
+		FlaskNanites: 混乱の追加効果を付与
+		FlaskVenom: 酸性毒の追加効果を付与
+	}
+}
+
+Items: {
+	StealthFacewrap: {
+		DisplayName: 隠密のフェイスラップ
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowDmg}"
+	}
+
+	StealthShirt: {
+		DisplayName: 隠密のシャツ
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelocity}"
+	}
+
+	StealthPants: {
+		DisplayName: 隠密のブーツ
+		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+	}
+
+	FeatherHeadgear: {
+		DisplayName: 羽根のヘッドギア
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.SlightRegen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	FeatherShirt: {
+		DisplayName: 羽根の胸当て
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelAndMoveSpd}"
+	}
+
+	FeatherPants: {
+		DisplayName: 羽根のパンツ
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowAndMoveSpd}"
+	}
+
+	MasterJingasa: {
+		DisplayName: 達人の陣笠
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowSpd}
+			{$CommonTooltips.Stats.PercentThrowConserv@1}
+			'''
+	}
+
+	MasterYukata: {
+		DisplayName: 達人の浴衣
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.SlightRegen}
+			'''
+	}
+
+	MasterGeta: {
+		DisplayName: 達人の下駄
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	AkumaMask: {
+		DisplayName: 悪魔の仮面
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			「内なる悪魔を敵に解き放て」
+			'''
+	}
+
+	AkumaMail: {
+		DisplayName: 悪魔の鎧
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndSpd}
+			「触るとまだ温かい」
+			'''
+	}
+
+	AkumaTabi: {
+		DisplayName: 悪魔の足袋
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndMoveSpd}
+			「いいや、ダッシュは禁止だ」
+			'''
+	}
+
+	HiddenOneCowl: {
+		DisplayName: 隠者の頭巾
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HiddenOneRobes: {
+		DisplayName: 隠者のローブ
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndCrit}
+			{$CommonTooltips.Stats.Regen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HiddenOneLeggings: {
+		DisplayName: 隠者のレギンス
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndMoveSpd}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HallowedVisage: {
+		DisplayName: 神聖な頭巾
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	AncientHallowedVisage: {
+		DisplayName: 古代の神聖な頭巾
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	UmbraCloth: {
+		DisplayName: 影の布
+		Tooltip: "「その不気味な裏地は太陽の影を彷彿とさせる」"
+	}
+
+	DarkKnightHelmet: {
+		DisplayName: ダークナイトのヘルメット
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	DarkKnightBreastplate: {
+		DisplayName: ダークナイトの胸当て
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	DarkKnightGreaves: {
+		DisplayName: ダークナイトのすね当て
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowAndMoveSpd}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	ShatteredFlake: {
+		DisplayName: 砕けたフレーク
+		Tooltip: ""
+	}
+
+	WinterHood: {
+		DisplayName: 冬のフード
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCritAndSpd}
+			{$CommonTooltips.Stats.PercentDamageReduction@1}
+			{$CommonTooltips.Stats.SlightRegen}
+			「彼はミスター・ホワイト・クリスマスであり、ミスター・スノーでもある...」
+			'''
+	}
+
+	WinterMail: {
+		DisplayName: 冬の鎧
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			{$CommonTooltips.Stats.PercentDamageReduction@1}
+			{$CommonTooltips.Stats.Regen}
+			「ミトンは含まれていない」
+			'''
+	}
+
+	WinterLeggings: {
+		DisplayName: 冬のレギンス
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$CommonTooltips.Stats.PercentDamageReduction@2}
+			{$CommonTooltips.Stats.Regen}
+			「冬の到来を告げる」
+			'''
+	}
+
+	BionicHeadgear: {
+		DisplayName: バイオニックのヘッドギア
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			「記憶は壊れ、真実は語られない…」
+			'''
+	}
+
+	BionicPlate: {
+		DisplayName: バイオニックの鎧
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			「自然の法則だ！」
+			'''
+	}
+
+	BionicGreaves: {
+		DisplayName: バイオニックのすね当て
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelocity}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			「ここに立ってみると…」
+			'''
+	}
+
+	VoidFragment: {
+		DisplayName: 虚無の断片
+		Tooltip: "「宇宙の深淵の絶え間ない存在がこの断片に浸透している」"
+	}
+
+	VoidMask: {
+		DisplayName: 虚無の仮面
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndCrit@2}
+			{$CommonTooltips.Stats.PercentDamageReduction@3}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	VoidPlate: {
+		DisplayName: 虚無の鎧
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowCrit@1}
+			{$CommonTooltips.Stats.PercentDamageReduction@2}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	VoidGreaves: {
+		DisplayName: 虚無のすね当て
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd@1}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$CommonTooltips.Stats.PercentDamageReduction@3}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	DragonScroll: {
+		DisplayName: 龍の巻物
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCritAndSpd}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndKB}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			投擲攻撃でヘルファイアを、
+			投擲攻撃でクリティカル発生時は暁炎を与える
+			「空白」
+			'''
+	}
+
+	DisciplineScroll: {
+		DisplayName: 規律の巻物
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelAndDmg}"
+	}
+
+	DexterityScroll: {
+		DisplayName: 器用さの巻物
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			'''
+	}
+
+	GelatinGrip: {
+		DisplayName: ゼラチングリップ
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowKB}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			「ベタベタした指に気をつけて…」
+			'''
+	}
+
+	GrandmasterEmblem: {
+		DisplayName: グランドマスターの紋章
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	MasterScroll: {
+		DisplayName: 達人の巻物
+		Tooltip:
+			'''
+			投擲のクリティカル率、攻撃速度、弾速が{0}%上昇
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	NinjaWarriorGear: {
+		DisplayName: 忍者の戦士のギア
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowKB}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			横入力2回で高速ステップ
+			攻撃を回避することがある
+			'''
+	}
+
+	SerenityBand: {
+		DisplayName: 静寂のバンド
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.Regen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	ShadowArmband: {
+		DisplayName: 影のアームバンド
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowDmg@1}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@2}
+			{$CommonTooltips.Stats.GreatReducedAggro}
+			'''
+	}
+
+	ShinobiArmband: {
+		DisplayName: 忍者のアームバンド
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	StealthHeadband: {
+		DisplayName: 隠密の鉢巻き
+		Tooltip: "{$CommonTooltips.Stats.SlightReducedAggro}"
+	}
+
+	SunHeadband: {
+		DisplayName: 太陽の鉢巻き
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowKB@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			投擲攻撃でクリティカル発生時にヘルファイアを与える
+			'''
+	}
+
+	ThrowerEmblem: {
+		DisplayName: 投擲師の紋章
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowDmg}"
+	}
+
+	DexterityPotion: {
+		DisplayName: 器用さのポーション
+		Tooltip:
+			'''
+			10%の確率で投擲武器を消費しない
+			投擲攻撃速度と投げた武器の弾速が5%上昇
+			'''
+	}
+
+	StealthPotion: {
+		DisplayName: ステルスポーション
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.ReducedAggro}
+			敵に狙われにくいほど、投擲クリティカル率が上昇する
+			'''
+	}
+
+	ThrowingBoard: {
+		DisplayName: 投擲的
+		Tooltip:
+			'''
+			投擲クリティカル率と弾速を上昇させ、ノックバックを増加
+			「ブルズアイ！」
+			'''
+	}
+
+	VoidSigil: {
+		DisplayName: 虚無のシジル
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	ThrowingStar: {
+		DisplayName: スローイングスター
+		Tooltip: "「射撃ではなく投擲のための明確さ」"
+	}
+
+	ShadeStar: {
+		DisplayName: シェードスター
+		Tooltip: 敵の防御力を2無視する
+	}
+
+	GoreGouger: {
+		DisplayName: ゴアガウガー
+		Tooltip: 当たった敵に刺さる
+	}
+
+	Rosethorn: {
+		DisplayName: ローズソーン
+		Tooltip:
+			'''
+			敵か地形に当たると壊れて、棘が飛び散る
+			「投げる人には必ずバラの棘がある」
+			'''
+	}
+
+	Brimstone: {
+		DisplayName: ブリムストーン
+		Tooltip:
+			'''
+			地形や敵に貼り付き、しばらくしてから爆発する
+			「そこには！」
+			'''
+	}
+
+	AirBurst: {
+		DisplayName: エアバースト
+		Tooltip:
+			'''
+			導火線が短いグレネード
+			時間経過による爆発でダメージが増加
+			地形か敵に当たると爆発するが、ダメージが減少する
+			「ナイススロー！」
+			'''
+	}
+
+	DarkSpike: {
+		DisplayName: ダークスパイク
+		Tooltip:
+			'''
+			投げた直後、地形に当たるとくっつくスパイクを3つ投げる
+			「スパイクとボールの拷問」
+			'''
+	}
+
+	FlyingSun: {
+		DisplayName: フライングサン
+		Tooltip: 上方に落下する
+	}
+
+	SkyMine: {
+		DisplayName: スカイマイン
+		Tooltip: 空中に浮かぶ
+	}
+
+	EtherianJavelin: {
+		DisplayName: エーテリアンのジャベリン
+		Tooltip: ""
+	}
+
+	Pyrosparker: {
+		DisplayName: パイロスパーカー
+		Tooltip:
+			'''
+			地面を跳ね回る火の玉を投げる
+			連続で投げられる火の玉の数には制限がある
+			「マリオをプレイしろ！」
+			'''
+	}
+
+	StickySpikyBall: {
+		DisplayName: 粘着スパイクボール
+		Tooltip: "「それを3回素早く言ってみてください！」"
+	}
+
+	BouncySpikyBall: {
+		DisplayName: 弾むスパイクボール
+		Tooltip: よく弾む
+	}
+
+	BrittleShiv: {
+		DisplayName: ブリトルシブ
+		Tooltip: 地形か敵に当たると骨の破片に分裂し、短時間残り、触れた敵にダメージを与える
+	}
+
+	Needleblade: {
+		DisplayName: ニードルブレード
+		Tooltip: 当て続けるほど、敵に毒を長く与える
+	}
+
+	JungleBomb: {
+		DisplayName: ジャングルボム
+		Tooltip:
+			'''
+			胞子雲を発生させる
+			「ポッド爆弾と混同しないで」
+			'''
+	}
+
+	StunBomb: {
+		DisplayName: スタンボム
+		Tooltip: 敵を混乱させ、炎上させることもある
+	}
+
+	FireyPitchfork: {
+		DisplayName: 炎のピッチフォーク
+		Tooltip: 敵に突き刺さり、炎上させる
+	}
+
+	StingerStar: {
+		DisplayName: スティンガースター
+		Tooltip:
+			'''
+			敵か地形に当たって壊れた際、広範囲に毒針を発射する
+			「とがった所に触れないように注意」
+			'''
+	}
+
+	ShadowspikeBall: {
+		DisplayName: シャドウスパイクボール
+		Tooltip: 当て続けるほど、敵にシャドウフレイムを長く与える
+	}
+
+	ChargedSkyMine: {
+		DisplayName: チャージドスカイマイン
+		Tooltip:
+			'''
+			空中に浮かび、一定時間が経過すると爆発する
+			爆発は2倍のダメージを与える
+			'''
+	}
+
+	Caltrop: {
+		DisplayName: まきびし
+		Tooltip: ""
+	}
+
+	Kunai: {
+		DisplayName: 苦無
+		Tooltip: "「チェーン付き？」"
+	}
+
+	BlastCrystal: {
+		DisplayName: ブラストクリスタル
+		Tooltip:
+			'''
+			まばゆい爆発を放ち、ダメージを与える破片を撒き散らし、敵を混乱させることがある
+			破片は敵の防御力を15無視する
+			'''
+	}
+
+	CursedMolotov: {
+		DisplayName: 呪いの火炎瓶
+		Tooltip:
+			'''
+			敵を呪炎で燃やす小規模な爆発を起こす
+			一定時間、呪炎で辺りを照らす
+			'''
+	}
+
+	GoldenJar: {
+		DisplayName: 黄金の瓶
+		Tooltip:
+			'''
+			小さな爆発で霊液を撒き散らす
+			「これは…？ モン・デュー！」
+			'''
+	}
+
+	Glaive: {
+		DisplayName: グレイヴ
+		Tooltip: "「ポールアームズと混同しないで」"
+	}
+
+	SandShuriken: {
+		DisplayName: 砂の手裏剣
+		Tooltip: 地形に当たると砂の雲を放つ
+	}
+
+	JotunHatchet: {
+		DisplayName: ヨトゥンハチェット
+		Tooltip: 当たった敵に刺さり、一時的に防御力を減少させる
+	}
+
+	Equilibrium: {
+		DisplayName: エクイリブリアム
+		Tooltip:
+			'''
+			黒と白のジャベリンを交互に投げる
+			黒いジャベリンは敵に突き刺さり、白いジャベリンは敵を貫通する
+			'''
+	}
+
+	AssassinNeedle: {
+		DisplayName: アサシンニードル
+		Tooltip: 敵の防御力を15無視する
+	}
+
+	ShinobiTag: {
+		DisplayName: 忍者のタグ
+		Tooltip:
+			'''
+			敵に張り付いて爆発するタグを投げる
+			敵に複数のタグを張り付けると、爆発が遅くなる
+			同時に爆発したタグの数に応じて、ダメージが増加
+			'''
+	}
+
+	Slimeslayer: {
+		DisplayName: スライムスレイヤー
+		Tooltip: クリスタルの破片とジェルを広範囲に放つ
+	}
+
+	DivineStar: {
+		DisplayName: ディバインスター
+		Tooltip:
+			'''
+			敵に命中するたびにダメージが増加し、消滅時に小さな爆発を発生させる
+			地形を無視する
+			'''
+	}
+
+	ReinforcedEtherianJavelin: {
+		DisplayName: 強化されたエーテリアンのジャベリン
+		Tooltip: "「どうやら少し金属を追加すると効果が大きいようだ」"
+	}
+
+	BlastCap: {
+		DisplayName: ブラストキャップ
+		Tooltip:
+			'''
+			敵を混乱させることがあり、胞子をまき散らす
+			「禁断のクッキー」
+			'''
+	}
+
+	SawbladeCleaver: {
+		DisplayName: 鋸刃の包丁
+		Tooltip:
+			'''
+			敵の防御力を15無視する
+			消滅時にエネルギーの火花が散る
+			「まるでミニチェーンソーを投げているみたいだ！」
+			'''
+	}
+
+	EnergyCore: {
+		DisplayName: エネルギーコア
+		Tooltip: 触れた敵にダメージを与え続ける小さなエネルギーのオーラを放つ
+	}
+
+	SeekerLance: {
+		DisplayName: シーカーランス
+		Tooltip:
+			'''
+			敵を追尾するジャベリンの頭を発射する
+			「逃げ場はない」
+			'''
+	}
+
+	ShadowboundTalisman: {
+		DisplayName: シャドウバウンドタリスマン
+		Tooltip:
+			'''
+			敵を追尾し、敵に張り付いて爆発するタリスマンを投げる
+			敵に複数のタリスマンを張り付けると、爆発が遅くなる
+			同時に爆発したタリスマンの数に応じて、ダメージが増加
+			「おまえはもう死んでいる」
+			'''
+	}
+
+	EclipseCutter: {
+		DisplayName: エクリプスカッター
+		Tooltip: ""
+	}
+
+	ChlorophyteJavelin: {
+		DisplayName: クロロファイトのジャベリン
+		Tooltip: 飛行中、胞子雲を放つ
+	}
+
+	ChlorophyteDagger: {
+		DisplayName: クロロファイトのダガー
+		Tooltip: よく弾む
+	}
+
+	UmbraBite: {
+		DisplayName: アンブラバイト
+		Tooltip: 移動速度に応じてダメージが増加するスパイクを投げる
+	}
+
+	MourningMolotov: {
+		DisplayName: 追悼の火炎瓶
+		Tooltip:
+			'''
+			敵を地獄の炎で燃やす小規模な爆発を起こす
+			一定時間、ギリシャの炎で辺りを照らす 
+			'''
+	}
+
+	FishronFang: {
+		DisplayName: フィッシュロンの牙
+		Tooltip: 近くの敵に向かって連続して突撃することがある
+	}
+
+	Eternity: {
+		DisplayName: エタニティ
+		Tooltip: 敵を追尾し、消滅時に虹を放つ
+	}
+
+	Sporenade: {
+		DisplayName: スポレナード
+		Tooltip:
+			'''
+			胞子に分裂し、胞子は下の敵に向かって移動する
+			「バグボムと混同しないで...」
+			'''
+	}
+
+	BlastBauble: {
+		DisplayName: ブラストボーブル
+		Tooltip:
+			'''
+			敵か地形に当たると、いくつかの破片に分裂する
+			「DIYの自宅防衛に最適」
+			'''
+	}
+
+	FrostFang: {
+		DisplayName: フロストファング
+		Tooltip:
+			'''
+			当たった敵に突き刺さり、霜焼けを与えるを
+			氷の破片に分裂し、追加でダメージを与えることがある
+			「舌だけに留まらない…」
+			'''
+	}
+
+	FlockoMitt: {
+		DisplayName: フロッコミット
+		Tooltip:
+			'''
+			近くの敵に向かって曲がるフロッコを投げる
+			「雪が降る」
+			'''
+	}
+
+	DisruptionLance: {
+		DisplayName: ディスラプションランス
+		Tooltip:
+			'''
+			敵に刺さるジャベリンの頭を発射する
+			ジャベリンの頭が刺さった敵は、徐々にダメージを受け、混乱することがある
+			'''
+	}
+
+	FracturedSpike: {
+		DisplayName: 壊れたスパイク
+		Tooltip: 小さな破片に砕けるスパイクを投げる
+	}
+
+	FallenFury: {
+		DisplayName: 堕落者の怒り
+		Tooltip: 強力な短剣を投げるが、すぐにダメージが減少
+	}
+
+	EnchantedEtherianJavelin: {
+		DisplayName: エンチャントエーテリアンのジャベリン
+		Tooltip: "「実際に使ってみないと違いが分からない」"
+	}
+
+	PlasmaGrenade: {
+		DisplayName: プラズマグレネード
+		Tooltip:
+			'''
+			地形や敵に張り付いて爆発する
+			敵に張り付くとダメージが増加
+			「ワート、ワート、ワート」
+			'''
+	}
+
+	Hypercutter: {
+		DisplayName: ハイパーカッター
+		Tooltip:
+			'''
+			敵を見つけるとエネルギーボルトを放つ、射程の短い短剣を投げる
+			「セリフを言って、ヨンドゥ」
+			'''
+	}
+
+	ShockMine: {
+		DisplayName: ショックマイン
+		Tooltip:
+			'''
+			浮遊する地雷を投げ、近くの他の地雷と電撃ビームで繋ぐ
+			敵は電撃ビームに触れるとダメージを受ける
+			'''
+	}
+
+	OblivionPiercer: {
+		DisplayName: オブリビオンピアサー
+		Tooltip:
+			'''
+			敵や地形を貫通する短剣の奔流を放つ
+			「虚無の視線は優しいものではない…」
+			'''
+	}
+
+	DarkStar: {
+		DisplayName: ダークスター
+		Tooltip:
+			'''
+			敵か地形に当たると小さなダークスターと空間異常を放ち、敵を切り裂く
+			飛行中にダメージが増加する
+			「慈悲深いことではない」
+			'''
+	}
+
+	LuminiteBit: {
+		DisplayName: ルミナイトの餌
+		Tooltip:
+			'''
+			ルミナイトの塊を空中に投げ、命中すると小さな破片を放つことがある
+			破片はカーソルに向かって飛んでいく
+			敵の防御力を50無視する
+			'''
+	}
+
+	MoonRune: {
+		DisplayName: 月のルーン
+		Tooltip:
+			'''
+			敵を追尾し、敵に付着して爆発する魔法弾を発射する
+			敵に複数の弾を付着させると、爆発が遅くなる
+			同時に爆発した弾の数に応じて、ダメージと爆発範囲が増加し、
+			追加効果が発生することがある
+			「月のルーン文字だ！月のルーン文字は実在している！」
+			'''
+	}
+
+	LunaticLance: {
+		DisplayName: ルナティックランス
+		Tooltip:
+			'''
+			ソーラー、ボルテックス、ネビュラ、スターダスト、またはボイドの力を込めたジャベリンを投げる
+			ジャベリンは、込められた月の力に応じて挙動が異なる
+			'''
+	}
+
+	JarOfDirt: {
+		DisplayName: 土の瓶
+		Tooltip:
+			'''
+			ターゲットを汚し、受けるダメージを増加させる
+			「土の入った瓶があるよ！土の入った瓶があるよ！」
+			'''
+	}
+
+	CopyrightInfringementMissile: {
+		DisplayName: コウガロケット
+		Tooltip:
+			'''
+			加速して爆発する大型ミサイルを発射する
+			爆発を当てるとダメージが増加する
+			「フルサイズのミサイルを再現できるのはたった一人だけだ」
+			'''
+	}
+
+	JadeStar: {
+		DisplayName: ジェイドスター
+		Tooltip:
+			'''
+			広範囲に手裏剣を投げる
+			「選ばれた少数の者だけが扱える」
+			'''
+	}
+
+	SuperSpikyBall: {
+		DisplayName: スーパースパイクボール
+		Tooltip:
+			'''
+			とてもよく弾む
+			「それはスーパーボールか、それともスーパースパイクか？」
+			'''
+	}
+
+	HungeringSpear: {
+		DisplayName: ハングリングスピア
+		Tooltip: 命中時にライフを吸い取る
+	}
+
+	SpikyBomb: {
+		DisplayName: スパイキーボム
+		Tooltip:
+			'''
+			地形に張り付き、敵が近づくと自動的に爆発する爆弾を最大10個投げる
+			<right>を押すと、全ての爆弾を手動で起爆する
+			この爆発を当てるとダメージが増加する
+			地形に張り付く前に爆発した場合、ダメージが減少する
+			「...そしてケーブルウェイ！」
+			'''
+	}
+
+	WiseMysticTome: {
+		DisplayName: 賢明な神秘の書
+		Tooltip:
+			'''
+			敵か地形に当たると不安定な属性魔法を放つ魔法の書物を投げる
+			「中の呪文が理解できないので、敵に投げつけた方がましだ」
+			'''
+	}
+
+	SlingStone: {
+		DisplayName: スリングストーン
+		Tooltip:
+			'''
+			射程の短い石を投げる
+			「残酷で異常な刑罰」
+			'''
+	}
+
+	EnchantedDagger: {
+		DisplayName: エンチャントナイフ
+		Tooltip:
+			'''
+			ナイフを無限に投げる
+			「マジックダガーと混同しないで」
+			'''
+	}
+
+	GildedShuriken: {
+		DisplayName: 金ぴかの手裏剣
+		Tooltip: "「儀式用だが、その刃は今でもかなり鋭い」"
+	}
+
+	Cryonade: {
+		DisplayName: クライオネード
+		Tooltip:
+			'''
+			ほとんどの敵に短時間、減速効果を与える
+			「頭を冷やせ！」
+			'''
+	}
+
+	ThrowingSpear: {
+		DisplayName: 投げ槍
+		Tooltip: ""
+	}
+
+	SmartStriker: {
+		DisplayName: スマートストライカー
+		Tooltip: 重力で落下し始める前にカーソルに向かって曲がる
+	}
+
+	CyberCutter: {
+		DisplayName: サイバーカッター
+		Tooltip: 地形に当たると跳ね返り、重力を無視する
+	}
+
+	FossilShard: {
+		DisplayName: 化石の欠片
+		Tooltip: しばらく残る化石の破片を最大2つ投げる
+	}
+
+	WebTrap: {
+		DisplayName: ウェブトラップ
+		Tooltip:
+			'''
+			地形に張り付き、敵に触れると小さな爆風を発生させる
+			ほとんどの敵の動きを一時的に止める
+			'''
+	}
+
+	BloodyHarpoon: {
+		DisplayName: 血まみれの銛
+		Tooltip:
+			'''
+			敵に突き刺さり、その敵を引き寄せる
+			「もっと大きな船が必要になるだろう」
+			'''
+	}
+}
+
+NPCs: {
+	Ninja: {
+		DisplayName: 忍者
+
+		Names: {
+			0: マチガイ
+			1: ガイデン
+			2: ライデン
+			3: サム
+			4: サミュエル
+			5: トラヴィス
+			6: リー
+			7: シフ
+			8: チャン
+			9: カイ
+			10: ロドリゲス
+			11: デール
+			12: アルテア
+			13: コウガ
+			14: オリオン
+			15: ジンクス
+			16: ミノス
+			17: オッカム
+			18: クローニン
+			19: オビ
+		}
+
+		ChatDialogue: {
+			Rescue: やっと、ついに自由になれた。スライム達よ、今こそお前達に報いが下る。テラリアンよ、自由を与えてくれたことに感謝する。
+			Normal0: ようこそ{0}。お前の英雄的な行動に応えるため、俺の商品を差し上げよう。
+			Normal1: お前が鉱山にいた間、俺は刃を研究していたんだ。
+			Normal2: 俺の刃は高性能を保証している。埃まみれの鍋は小さなものだ。
+			Rare0: なぜ、みんな俺がラーメンを売っているか聞いてくるんだ？なぜ俺がラーメンを売る必要があるんだ？
+			Rare1: この服にはまだスライムが染み付いている…
+			Rare2: 遠距離武器と投擲武器は同じものだと思っている人がいるって知っているか？馬鹿げている。
+			Armor: 忍者の鎧を着こなすようになったんだな！俺と間違えられなければいいのだが…
+			Night: 夜の闇は忍者が活動するのに最適だ。影を恐れるのではなく、活用することを学ぶべきだ。
+			BloodMoon: これを射撃の練習の機会として利用するほどの勇気がない限り、今夜は屋外に出るのはお勧めしないぞ...
+			Rain: ああ、雨の音は心地よい。それどころか、足音も聞こえなくなる。
+			Storm: 何を放つかには気をつけろよ。突然、避雷針になりたくないよな？
+			Party: 俺たち、忍者は影と静寂の中で暮らすことを好むが、たまには騒がしく、楽しく過ごすのも良いことだ。
+			WindyDay: 今日は強い向かい風に注意しろよ。攻撃が戻ってくるかもしれないからな。
+			Graveyard: この霧は不安を煽るかもしれないが、視界からお前を隠すこともできるぞ。
+			SlimeRain: 目を覚ませ、テラリアン。燃やすべきスライムがいるぞ。
+			PostPlant: ダンジョンの忍者には気をつけた方がいいぞ。呪いの犠牲になった者の中には、俺の先祖の一団もいたと言われている。
+			PostQS: ロイヤルスライムがもう1体いたのか？ まあ、2体とも倒せてよかったぞ。素晴らしい仕事をしてくれた。
+			Goblin: "{0}が、あのとげの付いたボールを彼の手から引き取っても構わないのか..."
+			Tavernkeep: エールが投擲武器として使えるとは思っていなかったが、{0}のおかげでそうでないことがわかった！もっとよく知っておくべきだったか。
+			Demo: 手榴弾を試してみようと思ったが、{0}はそれが自分の得意技だと主張している...
+			Dryad: ドライアドとその英雄的な行動については多くの物語が語り継がれている。{0}が俺たちの間で活躍してくれることは、大変光栄なことだ。
+		}
+
+		TownNPCMood: {
+			FarFromHome: どうやら住処から遠く離れてしまったようだ…
+			NoHome: 泊まる場所があればとてもありがたいのだが...
+			Content: 俺はなんともないぞ。
+			LoveSpace: 俺はこの空間の静けさにとても感謝している。
+			DislikeCrowded: 多くの隣人の騒音の中で瞑想するのは難しいな...
+			HateCrowded: 周りにこんなにたくさんの人がいると、投げる練習をするのは危ないな...
+			LikeBiome: "{BiomeName}の地形と植物は、身を隠せるところが大量にある。手つかずの自然も、その魅力を増している。"
+			DislikeBiome: うーん、{BiomeName}を見ると、かつて忍者海賊になろうとしたときのことを思い出す... 控えめに言っても、いい感じにはならなかったな。
+			HateBiome: "{BiomeName}の呪われた環境は、心身ともに危険だ。ここで危険を冒すのは避けたいところだ。"
+			LoveNPC: "{NPCName}は教団の一員なんだな？ 俺たち忍者は導師の教団と深い繋がりがある。俺にとっては、どのメンバーも良き友人だ。"
+			LikeNPC: "{NPCName}の知恵は尊敬に値すると思うぞ。"
+			DislikeNPC: "{NPCName}は繊細さについて授業を受ける必要があるかもしれないな..."
+			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか？"
+			LikeNPC_Princess: "{NPCName}は忍者の道にとても興味を持っている。彼女の学ぶ意欲は、楽しくもあり、心温まるものでもある。"
+			Princess_LovesNPC:"{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいな!"
+		}
+
+		BestiaryEntry: キングスライムから救出された謎めいた忍者。事件については口を閉ざしているが、便利な投擲道具や技は喜んで教えてくれる。
+		Census.SpawnCondition: キングスライムを倒して{$NPCs.SlimedNinja.DisplayName}を助けよう
+	}
+
+	SlimedNinja: {
+		DisplayName: スライムまみれの忍者
+
+		TownNPCMood: {
+			DislikeCrowded: ""
+			LoveSpace: ""
+			FarFromHome: ""
+			NoHome: ""
+			Content: ""
+			HateCrowded: ""
+			LikeNPC_Princess: ""
+			Princess_LovesNPC: ""
+		}
+	}
+}
+
+Buffs: {
+	DarkKnightBuff: {
+		DisplayName: ダークアンブッシュ
+		Description: 投擲武器が強化される
+	}
+
+	DarkKnightCooldown: {
+		DisplayName: ダークシフト
+		Description: ダークナイトのテレポートはクールダウン中
+	}
+
+	BionicBuff: {
+		DisplayName: バイオニックスティミュレーション
+		Description: 電解質により元気になり、投擲攻撃を強化される
+	}
+
+	Stealth: {
+		DisplayName: ステルス
+		Description: 敵に狙われにくくなり、投擲クリティカル率が上昇
+	}
+
+	Dexterity: {
+		DisplayName: 器用さ
+		Description: 投擲武器を消費しないことがあり、投擲攻撃速度と投げた武器の弾速が上昇
+	}
+
+	DeadlyPrecision: {
+		DisplayName: 致命的な精度
+		Description: 投擲クリティカル率と弾速を上昇させ、ノックバックを増加
+	}
+
+	RosethornDebuff: {
+		DisplayName: ローズソーン
+		Description: 敵は棘が刺さっている
+	}
+
+	GoreGougerDebuff: {
+		DisplayName: ゴアガウガー
+		Description: 敵は出血している
+	}
+
+	FireyPitchforkDebuff: {
+		DisplayName: ファイアリーインペイル
+		Description: 敵は炎のピッチフォークが刺さっている
+	}
+
+	JotunHatchetDebuff: {
+		DisplayName: フロストジャイアントの裂傷
+		Description: 敵の防御力は斧によって減少している
+	}
+
+	EquilibriumDebuff: {
+		DisplayName: ダークインペイル
+		Description: 闇のジャベリンがこの敵のライフを吸い取る
+	}
+
+	FrostFangDebuff: {
+		DisplayName: アイシクルインペイル
+		Description: 敵は氷の短剣が刺さっている
+	}
+
+	DisruptionLanceDebuff: {
+		DisplayName: ディスラプテッド
+		Description: 敵の重要な機能が妨害されている
+	}
+
+	LunaticLanceDebuff: {
+		DisplayName: ヴォイドインペイル
+		Description: 敵はヴォイドの力を受けたジャベリンが刺さっている
+	}
+
+	Dirty: {
+		DisplayName: 汚れている
+		Description: 被ダメージが増加する。汚れているからだ。
+	}
+
+	CryoChill: {
+		DisplayName: 凍え
+		Description: 敵の移動速度が低下
+	}
+
+	StickyWeb: {
+		DisplayName: ねばつく糸
+		Description: 敵の動きを麻痺させる
+	}
+
+	BloodyHarpoonDebuff: {
+		DisplayName: ブラッディエストキャッチ
+		Description: 敵は血の銛に引っ張られている
+	}
+}
+
+Emotes.NinjaEmote.Command: 忍者
+
+Projectiles: {
+	FeatherArmorProj.DisplayName: Feather
+	AkumaArmorProj.DisplayName: Akuma Bomb
+	VoidArmorProj.DisplayName: Spacial Anomaly
+	ShadeStarProj.DisplayName: Shade Star
+	ThrowingStarProj.DisplayName: Throwing Star
+	GoreGougerProj.DisplayName: Gore Gouger
+	RosethornProj.DisplayName: Rosethorn
+	RosethornSpike.DisplayName: Rose Thorn
+	DarkSpikeProj.DisplayName: Dark Spike
+	AirBurstProj.DisplayName: Air Burst
+	BrimstoneProj.DisplayName: Brimstone
+	FlyingSunProj.DisplayName: Flying Sun
+	SkyMineProj.DisplayName: Sky Mine
+	EtherianJavelinProj.DisplayName: Etherian Javelin
+	PyrosparkerProj.DisplayName: Fireball
+	BouncySpikyBallProj.DisplayName: Bouncy Spiky Ball
+	StickySpikyBallProj.DisplayName: Sticky Spiky Ball
+	BrittleShivProj.DisplayName: Brittle Shiv
+	BrittleShivShrapnel.DisplayName: Brittle Shrapnel
+	NeedlebladeProj.DisplayName: Needleblade
+	JungleBombGas.DisplayName: Spore Cloud
+	JungleBombProj.DisplayName: Jungle Bomb
+	StunBombProj.DisplayName: Stun Bomb
+	FireyPitchforkProj.DisplayName: Firey Pitchfork
+	StingerStarProj.DisplayName: Stinger Star
+	StingerStarStinger.DisplayName: Stinger
+	CaltropProj.DisplayName: Caltrop
+	ChargedSkyMineProj.DisplayName: Charged Sky Mine
+	ShadowspikeBallProj.DisplayName: Shadowspike Ball
+	KunaiProj.DisplayName: Kunai
+	BlastCrystalProj.DisplayName: Blast Crystal
+	BlastCrystalShard.DisplayName: Crystal Shard
+	CursedMolotovFire.DisplayName: Cursed Fire
+	CursedMolotovProj.DisplayName: Cursed Molotov
+	GoldenJarIchor.DisplayName: Golden Shower
+	GoldenJarProj.DisplayName: Golden Jar
+	GlaiveProj.DisplayName: Glaive
+	SandShurikenSand.DisplayName: Dust Cloud
+	SandShurikenProj.DisplayName: Shuriken of the Sands
+	JotunHatchetProj.DisplayName: Jotun Hatchet
+	EquilibriumProjB.DisplayName: Dark Javelin
+	EquilibriumProjW.DisplayName: Light Javelin
+	AssassinNeedleProj.DisplayName: Assassin Needle
+	ShinobiTagProj.DisplayName: Shinobi Tag
+	SlimeslayerSpike.DisplayName: Crystal Spike
+	SlimeslayerGlob.DisplayName: Gel Glob
+	DivineStarProj.DisplayName: Divine Star
+	ReinforcedEtherianJavelinProj.DisplayName: Reinforced Etherian Javelin
+	BlastCapProj.DisplayName: Blast Cap
+	BlastCapFungi.DisplayName: Fungi Spore
+	SawbladeCleaverSpark.DisplayName: energy Spark
+	SawbladeCleaverProj.DisplayName: Sawblade Cleaver
+	EnergyCoreProj.DisplayName: Energy Core
+	SeekerLanceProj.DisplayName: Seeker Lance
+	ShadowboundTalismanProj.DisplayName: Shadowbound Talisman
+	EclipseCutterProj.DisplayName: Eclipse Cutter
+	ChlorophyteJavelinProj.DisplayName: Chlorophyte Javelin
+	ChlorophyteDaggerProj.DisplayName: Chlorophyte Dagger
+	UmbraBiteProj.DisplayName: Umbra's Bite
+	MourningMolotovFire.DisplayName: Greek Fire
+	MourningMolotovProj.DisplayName: Mourning Molotov
+	FishronFangProj.DisplayName: Fang of the Fishron
+	EternityProj.DisplayName: Eternity Star
+	EternityStar.DisplayName: Everlasting Rainbow
+	SporenadeSpore.DisplayName: Spore
+	SporenadeProj.DisplayName: Sporenade
+	BlastBaubleShard.DisplayName: Bauble Shard
+	BlastBaubleProj.DisplayName: Blast Bauble
+	FrostFangProj.DisplayName: Frost Fang
+	FrostFangShard.DisplayName: Frost Shard
+	FlockoMittProj.DisplayName: Flocko Cutter
+	DisruptionLanceProj.DisplayName: Disruption Lance
+	FracturedSpikeProj.DisplayName: Fractured Spike
+	FracturedSpikeShard.DisplayName: Fractured Spike
+	FallenFuryProj.DisplayName: Fury of the Fallen
+	EnchantedEtherianJavelinProj.DisplayName: Enchanted Etherian Javelin
+	PlasmaGrenadeProj.DisplayName: Plasma Grenade
+	HypercutterProj.DisplayName: Hypercutter
+	ShockMineProj.DisplayName: Shock Mine
+	OblivionPiercerProj.DisplayName: Oblivion Piercer
+	DarkStarMini.DisplayName: Dark Star
+	DarkStarProj.DisplayName: Dark Star
+	DarkStarVortex.DisplayName: Spacial Anomaly
+	LuminiteBitShard.DisplayName: Luminite Bit
+	LuminiteBitProj.DisplayName: Luminite Bit
+	MoonRuneSphere.DisplayName: Phantasmal Sphere
+	MoonRuneProj.DisplayName: Moon Rune
+	MoonRuneEye.DisplayName: Phantasmal Eye
+	LunaticLanceBlast.DisplayName: Solar Explosion
+	LunaticLanceClone.DisplayName: Nebula Lance
+	LunaticLanceFireball.DisplayName: Solar Fireball
+	LunaticLanceHead.DisplayName: Stardust Lance
+	LunaticLanceNebula.DisplayName: Nebula Lance
+	LunaticLanceSolar.DisplayName: Solar Lance
+	LunaticLanceStardust.DisplayName: Stardust Lance
+	LunaticLanceVoid.DisplayName: Void Lance
+	LunaticLanceVortex.DisplayName: Vortex Lance
+	JarOfDirtProj.DisplayName: Jar Of Dirt
+	CopyrightInfringementProj.DisplayName: Kohga Rocket
+	SuperSpikyBallProj.DisplayName: Super Spiky Ball
+	JadeStarMini.DisplayName: Jade Star
+	JadeStarProj.DisplayName: Jade Star
+	HungeringSpearHeal.DisplayName: Hungering Spear Heal
+	HungeringSpearProj.DisplayName: Hungering Spear
+	SpikyBombProj.DisplayName: Spiky Bomb
+	WiseMysticTomeProj.DisplayName: Wise Mystic Tome
+	WiseMysticTomeLightning.DisplayName: Lightning
+	SplitshotPellet.DisplayName: Prismatic Orb
+	WiseMysticTomeSplitshot.DisplayName: Prismatic Orb
+	WiseMysticTomeWaterspout.DisplayName: Waterspout
+	ChlorophyteJavelinCloud.DisplayName: Spore Cloud
+	EnchantedDaggerProj.DisplayName: Enchanted Knife
+	SlingStoneProj.DisplayName: Stone
+	GildedShurikenProj.DisplayName: Gilded Shuriken
+	CryonadeProj.DisplayName: Cryonade
+	ThrowingSpearProj.DisplayName: Throwing Spear
+	SmartStrikerProj.DisplayName: Smart Striker
+	CyberCutterProj.DisplayName: Cyber Cutter
+	FossilShardProj.DisplayName: Fossil Shard
+	WebTrapProj.DisplayName: Web Trap
+	BloodyHarpoonProj.DisplayName: Bloody Harpoon
+}
+
+Configs: {
+	ConversionConfig: {
+		DisplayName: バニラの変換
+
+		assassinArmorConv: {
+			Label: "[i:4982] 水晶の暗殺者セットボーナスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				防御力も少し増加し、セットボーナスのダッシュは変更されません
+				'''
+		}
+
+		shinboiArmorConv: {
+			Label: "[i:3880] 忍び装束セットボーナスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				召喚ダメージのブーストは維持されるが、近接攻撃速度の強化はなくなります
+				セットボーナスと防御力は変更されません
+				'''
+		}
+
+		ninjaArmorConv: {
+			Label: "[i:256] 忍者セットボーナスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				防御力は変更されません
+				新しいステータスは、1.4以前の忍者セットと同じではありません
+				'''
+		}
+
+		biomeWepConv: {
+			Label: "[i:1571] バイオーム武器のダメージクラスを変更"
+			Tooltip:
+				'''
+				スカージオブコラプターとヴァンパイアナイフのダメージクラスを投擲武器に変更します
+				投擲武器に変更すると、スカージオブコラプターのダメージステータスも他の投擲武器と同等になるように調整されます
+				一度に変更できる武器は1つだけで、各クラスにそれぞれ専用のバイオームの宝箱武器が用意されています
+				この設定をオンにすると、スコージオブコラプターとヴァンパイアナイフのダメージクラスを変更できます
+				なお、元のダメージタイプが原因で、どちらの武器も変更後は汎用的な（つまりクラス固有でない）修飾子しか付きません
+				'''
+		}
+
+		shadowflameKnifeConv: {
+			Label: "[i:3054] シャドウフレイムナイフのダメージクラスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.DamageRebalance}
+				'''
+		}
+
+		flyingKnifeConv: {
+			Label: "[i:3030] フライングナイフのダメージクラスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				'''
+		}
+
+		flaskConv: {
+			Label: "[i:3105] 毒性のフラスコのダメージクラスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.MagicTweaks}
+				'''
+		}
+
+		magicDaggerConv: {
+			Label: "[i:517] マジックダガーのダメージクラスを変更"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.MagicTweaks}
+				'''
+		}
+
+		thrownWaterConv: {
+			Label: "[i:422] 投げる水にダメージクラスを追加"
+			Tooltip:
+				'''
+				バニラの投擲水武器に投擲武器のダメージクラスを与えます
+				これは聖水、不浄の水、血色水に影響します
+				これらの武器には通常、ダメージクラスは設定されていません
+				'''
+		}
+
+		airplaneConv: {
+			Label: "[i:4343] 紙飛行機のダメージクラスを変更"
+			Tooltip: バニラ紙飛行機のダメージクラスを投擲に変更します
+		}
+
+		thorwingKnifeConv: {
+			Label: "[i:279] 投げナイフのダメージクラスを変更"
+			Tooltip: 投げナイフと毒ナイフのダメージクラスを投擲武器に変更します
+		}
+
+		grenadeConv: {
+			Label: "[i:168] グレネードのダメージクラスを変更"
+			Tooltip:
+				'''
+				全てのバニラのグレネードのダメージクラスを投擲武器に変更します
+				この変更は、グレネード（粘着グレネード/弾むグレネードを含む）、手蜂弾、ハッピーグレネードに影響します
+				その他の爆発物（爆弾、ダイナマイトなど）は影響を受けず、クラス指定はありません
+				'''
+		}
+
+		shurikenConv: {
+			Label: "[i:42] 手裏剣のダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		starAniseConv: {
+			Label: "[i:1913] スターアニスのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneJavConv: {
+			Label: "[i:3378] 骨のジャベリンのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneKnifeConv: {
+			Label: "[i:3379] 骨の投げナイフのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		aleThrowerConv: {
+			Label: "[i:3821] エールトサーのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		molotovConv: {
+			Label: "[i:2590] 火炎瓶のダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneConv: {
+			Label: "[i:154] 骨のダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		spikyBallConv: {
+			Label: "[i:161] スパイクボールのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		snowballConv: {
+			Label: "[i:949] 雪玉のダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		rottenEggConv: {
+			Label: "[i:1809] 腐った卵のダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		javelinConv: {
+			Label: "[i:3094] ジャベリンのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		daggerfishConv: {
+			Label: "[i:3197] 凍ったダガーフィッシュのダメージクラスを変更"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		globalConversion: {
+			Label: 全ての消費する遠距離武器を変更
+			Tooltip:
+				'''
+				全ての消費する遠距離武器（バニラとMOD）を自動的に投擲武器に変更します
+				バニラの雪玉のように弾薬としてもカウントされるアイテムは変換されません
+				武器種別の変更に伴うステータス調整は行われないため、バランス調整に影響する可能性があります
+				この設定は、以下の多くの個別変更設定を上書きします
+				'''
+		}
+	}
+
+	TweaksConfig: {
+		DisplayName: その他のバニラの調整
+
+		visiblyFreeNinja: {
+			Label: 自由な忍者
+			Tooltip:
+				'''
+				キングスライムの描画を微調整し、忍者が解放された後、体内に閉じ込められた忍者を消します
+				忍者が解放されていないワールドでは効果がありません
+				他のMODでキングスライムの描画が変更されている場合は、奇妙な（視覚的な）効果が生じる可能性があることに注意してください
+				'''
+		}
+
+		moveNinjaArmor: {
+			Label: 忍者セットの入手方法を変更する
+			Tooltip:
+				'''
+				忍者セットをキングスライムから入手できなくなる代わりに、忍者から買えるようにします
+				また、売却価格を1つ15シルバーに微調整します
+				参考までに、フードは通常20シルバー、シャツとパンツは10シルバーです
+				'''
+		}
+
+		moveShurikens: {
+			Label: 商人から手裏剣を買えなくする
+			Tooltip: 忍者NPCから手裏剣を買えるようになりますが、商人NPCから手裏剣を買えなくなります
+		}
+
+		moveThrowingKnives: {
+			Label: 商人から投げナイフを買えなくする
+			Tooltip:
+				'''
+				忍者から投げナイフを買えるようになりますが、商人から投げナイフを買えなくなります
+				忍者は、商人と違い、ブラッドムーンのときだけでなく、常に投げナイフを買えることに注意してください
+				'''
+		}
+
+		flasksAffectThrowingWeapons: {
+			Label: フラスコは投擲武器にも影響を与える
+			Tooltip:
+				'''
+				バニラのフラスコの効果を投擲ダメージのある武器にも影響するようにします
+				また、アイテムのツールチップも変更に合わせて調整します（ただし、バフツールチップは変更されません）
+				MODで追加されるフラスコには影響しません
+				'''
+		}
+
+		safeNinja: {
+			Label: スライムまみれの忍者の死亡セーフティ
+			Tooltip:
+				'''
+				スライムまみれの忍者（通常の忍者NPCではありません）が、ブルースライムとスパイクスライムから受けるダメージが25%になります
+				キングスライムから出てくるスライムによって忍者が死亡するのを防ぎます
+				'''
+		}
+	}
+}

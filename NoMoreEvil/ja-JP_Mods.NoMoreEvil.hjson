@@ -1,0 +1,45 @@
+Configs: {
+	ClientConfig: {
+		includehallow: {
+			Label: 聖域が生成されないようにする
+			Tooltip: ウォールオブフレッシュを倒した後に聖域が生成されないようにします
+		}
+
+		preventhmgen: {
+			Label: ハードモードの邪悪が生成されないようにする
+			Tooltip: ウォールオブフレッシュを倒した後に邪悪が追加で生成されないようにします
+			
+		}
+
+		DisplayName: クライアント設定
+
+		preventworldgen: {
+			Label: ワールド生成時に邪悪が生成されなくする
+			Tooltip: ワールド生成時に邪悪なバイオームが生成されなくなります
+			
+		}
+
+		preventspread: {
+			Label: 汚染の拡大を防ぐ
+			Tooltip: オンにすると、不浄/真紅/神聖が拡大しなくなります
+		}
+
+		preventcalamityastral: {
+			Label: Calamityのアストラルが生成されないようにする
+			Tooltip: Calamity Modが有効で、ハードモードに入った際、アストラル汚染が生成されなくなります
+		}
+
+		preventcalamityevilisland: {
+			Label: Calamityの邪悪な空島が生成されないようにする
+
+			Tooltip: Calamity Modが有効時、選ばなかった方の邪悪に汚染された空島が生成されなくなります
+		}
+
+		Headers.CalamityModSupport: Calamity Modサポート
+
+		preventastrumastral: {
+			Label: アストラムアウレウスのアストラル汚染の拡散をなくす (実験的)
+			Tooltip: アストラムアウレウスを倒してもアストラル汚染が拡大されなくなります
+		}
+	}
+}
