@@ -1,0 +1,332 @@
+CommonTooltips: {
+	Stats: {
+		IncTrailLength: キャプチャーディスクの長さを延長
+		IncCaptureDmg: キャプチャーダメージが増加
+		IncCaptureCrit: キャプチャークリティカル率が上昇
+		IncCaptureSpd: キャプチャー速度が上昇
+		IncCaptureKB: キャプチャーノックバックが増加
+	}
+
+	SetBonus: {
+		Guardian:
+			'''
+			キャプチャーディスクを戦闘中に使用中、40秒ごとにエネルギースパークが発生する
+			スパークの周りに形を描くとスパークが起動し、20秒間戦闘を支援する
+			スパークで攻撃された敵は受けるキャプチャーダメージが増加
+			'''
+		Celestial:
+			'''
+			防具は自動で4つの状態を切り替える
+			ソーラー：キャプチャーダメージが増加
+			ボルテックス：キャプチャークリティカルダメージが増加
+			ネビュラ：キャプチャーディスクの軌跡の長さが延長され、キャプチャー速度が上昇
+			スターダスト：ライフ自然回復力を増進
+			'''
+		Genesteel:
+			'''
+			キャプチャーディスクで敵を攻撃すると、ジェネシスチャージがスタックされる
+			ジェネシスチャージは、棘ダメージを与え、ライフ回復力とキャプチャー防御無視を増加
+			最大までチャージされると、次のキャプチャー攻撃で消費し、エネルギービームを降らせる
+			'''
+	}
+
+	DiscDesc:
+		'''
+		カーソルを追尾するディスクを置く
+		ディスクの軌跡で敵を囲んでダメージを与える
+		'''
+}
+
+Items: {
+	GuardianFabric: {
+		DisplayName: ガーディアンの布
+		Tooltip: "「見た目とは裏腹に、耐久性と断熱性に優れている」"
+	}
+
+	GuardianHeadgear: {
+		DisplayName: ガーディアンのヘッドギア
+		Tooltip:
+			'''
+			キャプチャーダメージが10%増加
+			キャプチャークリティカル率が16%上昇
+			キャプチャー速度が5%上昇
+			「ヘッドギア」、「色を変えたゴーグル」… かなり近い
+			'''
+	}
+
+	GuardianGarbs: {
+		DisplayName: ガーディアンのガーブ
+		Tooltip:
+			'''
+			キャプチャーダメージが14%増加
+			キャプチャークリティカル率が8%上昇
+			キャプチャーディスクの長さを10%延長
+			「真のレンジャーのために！」
+			'''
+	}
+
+	GuardianLeggings: {
+		DisplayName: ガーディアンのレギンス
+		Tooltip:
+			'''
+			キャプチャーダメージが11%増加し、キャプチャークリティカル率が11%上昇
+			移動速度が18%上昇
+			「その驚異的な防御能力に疑問を抱くな」
+			'''
+	}
+
+	GuardianCore: {
+		DisplayName: ガーディアンコア
+		Tooltip:
+			'''
+			キャプチャーダメージが20%増加
+			キャプチャー速度が5%上昇
+			形を完成させるのにかかった時間が長いほどダメージが最大で50%増加
+			キャプチャーディスクで一度に複数の敵を攻撃した場合のダメージの減少を軽減
+			'''
+	}
+
+	TrueRangerDisc: {
+		DisplayName: トゥルーレンジャーディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			カーソルを停止させてチャージするとダメージが一時的に増加し、
+			形を完成させると触れた敵にダメージを与える印が生成される
+			チャージが終わってもカーソルを動かさないと更にチャージを行い、
+			ダメージが一時的に更に増加
+			「捕獲せよ!」
+			'''
+	}
+
+	Synergizer: {
+		DisplayName: シナジャイザー
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			形を完成させると、2つ目のディスクが展開され、形を描き直して追撃する
+			2つ目のディスクで攻撃された敵に対して、メインのディスクのダメージが増加
+			逆の場合も同様
+			「団結から生まれる強さ!」
+			'''
+	}
+
+	CelestialFragment: {
+		DisplayName: 天空の断片
+		Tooltip: "「宇宙のライフサイクルの力がこの断片に凝縮されている」"
+	}
+
+	CelestialVisor: {
+		DisplayName: 天空のバイザー
+		Tooltip:
+			'''
+			キャプチャーダメージが8%増加
+			キャプチャークリティカル率が18%上昇
+			キャプチャー速度が10%上昇
+			'''
+	}
+
+	CelestialPlate: {
+		DisplayName: 天空の鎧
+		Tooltip:
+			'''
+			キャプチャーダメージが16%増加
+			キャプチャークリティカル率が10%上昇
+			'''
+	}
+
+	CelestialGreaves: {
+		DisplayName: 天空のすね当て
+		Tooltip:
+			'''
+			キャプチャーダメージが12%増加し、キャプチャークリティカル率が11%上昇
+			移動速度が20%上昇
+			'''
+	}
+
+	NovaStar: {
+		DisplayName: ノヴァスター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを20%延長
+			軌跡に触れていない敵に攻撃すると、スラッシュが発生し、ダメージを与える
+			キャプチャーディスクが少量の光を発するようになり、暗闇で光り、
+			軌跡の色を、結晶のようなグラデーションに変更する
+			'''
+	}
+
+	StarSystem: {
+		DisplayName: スターシステム
+		Tooltip:
+			'''
+			左クリックを押すとカーソルの周りを高速で周回するディスクを4つ展開させ、自動的に形を作る
+			ディスクの軌跡で敵を囲んでダメージを与える
+			'''
+	}
+
+	StellarOpus: {
+		DisplayName: ステラーオーパス
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れていない敵に対してダメージが増加
+			「戦場はあなたの傑作のキャンバスとなるでしょう!」
+			'''
+	}
+
+	GenesteelBar: {
+		DisplayName: ジェネスティールのインゴット
+		Tooltip: "「原始的なエネルギーを触媒できる超自然的な性質を持つ謎めいた合金」"
+	}
+
+	GenesteelHelmet: {
+		DisplayName: ジェネスティールの兜
+		Tooltip:
+			'''
+			キャプチャーダメージが11%増加
+			キャプチャークリティカル率が17%上昇
+			キャプチャーディスクの長さを10%延長
+			「黄金の力は全てをあなたの意志に従わせるだろう」
+			'''
+	}
+
+	GenesteelBreastplate: {
+		DisplayName: ジェネスティールの胸当て
+		Tooltip:
+			'''
+			キャプチャーダメージが18%増加
+			キャプチャークリティカル率が9%上昇
+			キャプチャー速度が10%上昇
+			「黄金の力は全てをあなたの意志に従わせるだろう」
+			'''
+	}
+
+	GenesteelGreaves: {
+		DisplayName: ジェネスティールのすね当て
+		Tooltip:
+			'''
+			キャプチャーダメージが15%増加
+			キャプチャークリティカル率が14%上昇
+			移動速度が24%上昇
+			「黄金の力は全てをあなたの意志に従わせるだろう」
+			'''
+	}
+
+	ObliviaEmitter: {
+		DisplayName: オブリビオンエミッター
+		Tooltip:
+			'''
+			キャプチャーディスクの長さを20%延長
+			の軌跡に触れた敵に小ダメージを与える
+			キャプチャーディスクは少量の光とオーラを発し、触れた敵に小ダメージを与える
+			キャプチャーディスクと軌跡が暗闇で光るようになる
+			「敵に破壊の軌跡を描け!」
+			'''
+	}
+
+	SingularityDisc: {
+		DisplayName: シンギュラリティディスク
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			軌跡に触れていない敵に対してダメージが増加
+			形を完成させてダメージを与えた敵を完成した形の中心に引き寄せる
+			左クリックを離すとディスクが敵に向かって飛んでいき、敵に当たると爆発する
+			左クリックを離すまでに完成させた形の数に応じて爆発のダメージが増加
+			'''
+	}
+
+	GenesisStorm: {
+		DisplayName: ジェネシスストーム
+		Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			ディスクに触れた敵にダメージを与える
+			近くの敵にビームを発射する
+			形を完成させるたびにビームの連射速度が上昇する
+			カーソルを停止させてチャージするとすぐに連射速度を上昇させることもできる
+			時間経過で連射速度が低下していく
+			『圧倒的な、根源的な力を宿す!』
+			'''
+	}
+}
+
+Projectiles: {
+	NovaSlash.DisplayName: ノヴァ スラッシュ
+	OblivionTrailHit.DisplayName: オブリビオンエミッター
+	OblivionAura.DisplayName: オブリビオンエミッター
+	TrueRangerDiscStrike.DisplayName: トゥルーレンジャーディスク
+	TrueRangerDiscSigil.DisplayName: トゥルーレンジャーディスク
+	TrueRangerDiscProj.DisplayName: トゥルーレンジャーディスク
+	SynergizerStrike.DisplayName: シナジャイザー
+	SynergizerProj.DisplayName: ブルー シナジャイザー
+	SynergizerClone.DisplayName: レッド シナジャイザー
+	StarSystemVortexDisc.DisplayName: スターシステム
+	StarSystemStardustStrike.DisplayName: スターシステム
+	StarSystemStardustDisc.DisplayName: スターシステム
+	StarSystemSolarStrike.DisplayName: スターシステム
+	StarSystemVortexStrike.DisplayName: スターシステム
+	StarSystemNebulaDisc.DisplayName: スターシステム
+	StarSystemNebulaStrike.DisplayName: スターシステム
+	StarSystemSolarDisc.DisplayName: スターシステム
+	StellarOpusProj.DisplayName: ステラーオーパス
+	StellarOpusStar.DisplayName: ステラーオーパス
+	StellarOpusStrike.DisplayName: ステラーオーパス
+	SingularityDiscProj.DisplayName: シンギュラリティディスク
+	SingularityDiscStrike.DisplayName: シンギュラリティディスク
+	GenesisStormStrike.DisplayName: ジェネシスストーム
+	GenesisStormProj.DisplayName: ジェネシスストーム
+	GenesisBeam.DisplayName: ジェネシスビーム
+	EnergyRectileHit.DisplayName: エネルギーレクタイル
+	EnergyRectile.DisplayName: エネルギーレクタイル
+	GenesisBeam2.DisplayName: ジェネシスビーム2
+	AssistSphereSpark.DisplayName: ガーディアンスパーク
+	AssistSphereShock.DisplayName: ガーディアンショック
+	AssistSphereLightning.DisplayName: ガーディアンライトニング
+	AssistSphereHit.DisplayName: ガーディアンエネルギー
+	AssistSphere.DisplayName: ガーディアンエネルギー
+}
+
+Buffs: {
+	SynergyTagRed: {
+		DisplayName: シナジーレッドタグ
+		Description: この敵はシナジャイザーのメインディスクから受けるダメージが増加
+	}
+
+	SynergyTagBlue: {
+		DisplayName: シナジーブルータグ
+		Description: この敵はシナジャイザーのサブディスクから受けるダメージが増加
+	}
+
+	CelestialBuffStardust: {
+		DisplayName: スターダストアフィニティ
+		Description: ライフ自然回復力を大きく増進
+	}
+
+	CelestialBuffSolar: {
+		DisplayName: ソーラーアフィニティ
+		Description: キャプチャーダメージが大きく増加
+	}
+
+	CelestialBuffNebula: {
+		DisplayName: ネビュラアフィニティ
+		Description: キャプチャークリティカルダメージが大きく増加
+	}
+
+	CelestialBuffVortex: {
+		DisplayName: ボルテックスアフィニティ
+		Description: キャプチャーディスクの軌跡の長さが大きく延長され、キャプチャー速度が大きく上昇
+	}
+
+	GenesisCharge: {
+		DisplayName: ジェネシスチャージ
+		Description: ライフ回復力とキャプチャー防御無視が増加し、ダメージの一部を反射
+		Desc:
+			'''
+			ライフ回復力とキャプチャー防御無視、反射するダメージが増加
+			チャージを多いほどこれらの効果が高くなる
+			最大までチャージされると、次のキャプチャー攻撃で消費し、エネルギービームを降らせる
+			現在のチャージ: {0}%
+			'''
+	}
+}
