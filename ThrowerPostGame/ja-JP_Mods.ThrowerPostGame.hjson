@@ -1,0 +1,405 @@
+CommonTooltips: {
+	SetBonus: {
+		Ataraxia:
+			'''
+			ダッシュが可能
+			クリティカル率が10%上昇
+			敵に狙われにくくなる
+			10秒ごとに光のアスペクトと闇のアスペクトを交互に得る
+			光のアスペクトはダメージが増加するが、被ダメージも若干増加
+			闇のアスペクトは被ダメージを軽減するが、ダメージも若干減少
+			'''
+		Nihilshade:
+			'''
+			攻撃を高確率で回避する
+			この回避は発動後10秒間のクールダウンがある
+			クールダウン中は敵に狙われにくくなり、ライフ自然回復をわずかに増進
+			回避すると、近くの敵を攻撃するニヒルシェイドの幻影が5秒間持続する
+			'''
+		Ascended:
+			'''
+			33%の確率で投擲武器を消費しない
+			致命傷を受けると、エネルギーサージを放ち、ライフを最大で500回復する
+			この効果には5分間のクールダウンがある
+			発動後、30秒間、ダメージが25%増加し、クリティカル率が25%上昇
+			クールダウン終了後はライフ自然回復力を増進し、そうでない場合は回避率が低下する
+			死亡すると昇天した魂が残り、近くの敵を攻撃して爆発し、大ダメージを与える
+			'''
+	}
+}
+
+Items: {
+	AtaraxiaShard: {
+		DisplayName: アタラクシアの破片
+		Tooltip: "「全てのものがそうあるべきであるように、完璧にバランスが取れた調和のとれた物質」"
+	}
+
+	AtaraxiaVisage: {
+		DisplayName: アタラクシアの顔
+		Tooltip:
+			'''
+			投擲ダメージが14%増加
+			投擲クリティカル率が4%上昇
+			投擲武器の弾速が12%上昇
+			敵に少し狙われにくくなる
+			'''
+	}
+
+	AtaraxiaRobes: {
+		DisplayName: アタラクシアのローブ
+		Tooltip:
+			'''
+			投擲ダメージが9%増加
+			投擲クリティカル率が5%上昇
+			20%の確率で投擲武器を消費しない
+			ライフ自然回復を増進
+			敵に少し狙われにくくなる
+			'''
+	}
+
+	AtaraxiaLeggings: {
+		DisplayName: アタラクシアのレギンス
+		Tooltip:
+			'''
+			投擲ダメージが11%増加
+			投擲クリティカル率が3%上昇
+			投擲攻撃速度が9%上昇
+			移動速度が18%上昇
+			敵に少し狙われにくくなる
+			'''
+	}
+
+	BalanceBand: {
+		DisplayName: バランスバンド
+		Tooltip:
+			'''
+			投擲クリティカル率が12%上昇
+			投擲ダメージが5%増加
+			投擲武器の弾速が5%上昇
+			ライフ自然回復を増進
+			敵にかなり狙われにくくなる
+			「アタラクシアの破片は心を研ぎ澄ます穏やかなオーラを放つ」
+			'''
+	}
+
+	Duality: {
+		DisplayName: デュアリティ
+		Tooltip:
+			'''
+			白い槍と黒い槍を同時に投げる
+			白い槍は飛行中、ダメージが増加し、敵に命中するとダメージが減少
+			黒い槍は飛行中、ダメージが減少し、敵に命中するとダメージが増加
+			'''
+	}
+
+	ThousandfoldStinger: {
+		DisplayName: 針千本
+		Tooltip:
+			'''
+			敵の防御を全て無視
+			攻撃が命中時、追撃することがある
+			'''
+	}
+
+	MeditatorWard: {
+		DisplayName: メディエーターウォード
+		Tooltip:
+			'''
+			魔法の浮かぶろうそくを投げる
+			ろうそくは敵のライフを徐々に大きく減少させ、プレイヤーのライフ自然回復を増進するオーラを放つ
+			ろうそくが敵にダメージを与えると、そのオーラ内にいるプレイヤーのライフが回復する
+			ろうそくは最大8本まで同時に存在できる
+			「心の平穏…」
+			'''
+	}
+
+	TaijituThrow: {
+		DisplayName: タイチートゥスロー
+		Tooltip:
+			'''
+			左クリックで陰の力を投げ、敵の防御力を半分無視する
+			右クリックで陽の力を投げ、クリティカル時にダメージが増加
+			陰と陽が衝突すると融合し、爆発する
+			「正反対のものが惹かれ合う」
+			'''
+	}
+
+	NihilshadeFragment: {
+		DisplayName: ニヒルシェイドの断片
+		Tooltip: "「逆説的に、無の純粋なエッセンス」"
+	}
+
+	NihilshadeMask: {
+		DisplayName: ニヒルシェイドの仮面
+		Tooltip:
+			'''
+			投擲ダメージが13%増加
+			投擲クリティカル率が5%上昇
+			投擲武器の弾速と投擲クリティカル率が11%上昇
+			投擲武器の弾速が7%上昇
+			敵に狙われにくくなる
+			「敵にとっての最高の悪夢」
+			'''
+	}
+
+	NihilshadePlate: {
+		DisplayName: ニヒルシェイドの鎧
+		Tooltip:
+			'''
+			投擲ダメージが18%増加
+			投擲クリティカル率が7%上昇
+			25%の確率で投擲武器を消費しない
+			敵に狙われにくくなる
+			「暗すぎるので、その形状の詳細を識別することは不可能だ」
+			'''
+	}
+
+	NihilshadeGreaves: {
+		DisplayName: ニヒルシェイドのすね当て
+		Tooltip:
+			'''
+			投擲ダメージが11%増加
+			投擲攻撃速度と弾速が9%上昇
+			移動速度が15%上昇
+			敵にかなり狙われにくくなる
+			「手遅れになるまで、彼らはあなたの声を聞くことも、見ることもできないだろう」
+			'''
+	}
+
+	GrandmasterShinobiGear: {
+		DisplayName: 伝説の忍者ギア
+		Tooltip:
+			'''
+			20%の確率で投擲武器を消費しない
+			投擲ノックバックが20%増加
+			投擲武器の弾速が10%上昇
+			壁登りとダッシュが可能
+			一定確率で攻撃を回避 
+			'''
+	}
+
+	Harbinger: {
+		DisplayName: ハービンジャー
+		Tooltip:
+			'''
+			ハービンジャーダガーとシーカーダガーを広範囲に投げる
+			シーカーダガーは最初は敵にダメージを与えられない
+			ハービンジャーダガーが敵に命中すると、近くのシーカーダガーが追尾するようになり、
+			ダメージを与えられるようになる
+			「避けられない」
+			'''
+	}
+
+	Nightshade: {
+		DisplayName: ナイトシェード
+		Tooltip:
+			'''
+			強力な手裏剣を投げ、敵を引き寄せる
+			敵に命中すると小さな星の渦を放つ
+			飛行中にダメージが増加
+			「サック」
+			'''
+	}
+
+	TerminusCharge: {
+		DisplayName: ターミナスチャージ
+		Tooltip:
+			'''
+			敵に張り付いて爆発し、敵に張り付くとその敵に対してダメージが増加
+			空中で爆発した場合、ダメージが増加
+			「結局、何も残らない」
+			'''
+	}
+
+	AbyssGaze: {
+		DisplayName: アビスの視線
+		Tooltip:
+			'''
+			弾速が早いジャベリンを投げ、敵に長時間突き刺さる
+			ジャベリンが刺さった敵は、一時的に近くの敵のライフを徐々に減少させる
+			「人々がなぜ狂ってしまうのか、私は教えられる...」
+			'''
+	}
+
+	AscendentSpark: {
+		DisplayName: アセンデントスパーク
+		Tooltip: "「神のような力を持つ神秘的なエネルギーは、心と体の両方を啓発すると言われている」"
+	}
+
+	AscendedJingasa: {
+		DisplayName: アセンデントの陣笠
+		Tooltip:
+			'''
+			投擲ダメージが6%増加
+			投擲クリティカル率が20%上昇
+			投擲武器の弾速が15%上昇
+			敵にかなり狙われにくくなる
+			「死の領域を超えた戦士の顔を身にまとう」
+			'''
+	}
+
+	AscendedGarbs: {
+		DisplayName: アセンデントの衣
+		Tooltip:
+			'''
+			投擲ダメージが20%増加
+			投擲クリティカル率が6%上昇
+			被ダメージを10%軽減
+			ライフ自然回復を増進
+			敵に狙われにくくなる
+			「そのガントレットには計り知れない力を秘めたクリスタルが飾られている」
+			'''
+	}
+
+	AscendedGeta: {
+		DisplayName: アセンデントの下駄
+		Tooltip:
+			'''
+			投擲ダメージが8%増加し、投擲クリティカル率が8%上昇
+			投擲武器の弾速が9%上昇
+			移動速度が25%上昇
+			敵にかなり狙われにくくなる
+			「見た目はシンプルだが、神聖なエネルギーが脈打っている」
+			'''
+	}
+
+	AscensionScroll: {
+		DisplayName: 昇天の巻物
+		Tooltip:
+			'''
+			投擲ダメージが7%増加し、投擲クリティカル率が7%上昇
+			投擲攻撃速度と弾速が7%上昇
+			投擲ノックバックが7%増加
+			投擲攻撃でアセンデントスパークスを与え、
+			クリティカル時のダメージが増加し、一定範囲に炎を拡散させることがある
+			敵に少し狙われにくくなる
+			「宇宙と生命そのものの神聖な秘密を秘めているが、その内容はたったの『42』しかない…」
+			'''
+	}
+
+	Skadoosh: {
+		DisplayName: スカドゥーシュ
+		Tooltip:
+			'''
+			敵を追尾し、敵に張り付くエネルギースパークを発射する
+			右クリックで全てのスパークを爆発させる
+			「それで、このホールドはご存知か?」
+			'''
+	}
+
+	AscendedShuriken: {
+		DisplayName: アセンデントの手裏剣
+		Tooltip:
+			'''
+			敵を追尾する巨大な手裏剣を大量に投げる
+			「完全な暗殺者パッケージに必須のアイテム。どんな脅威もこれに勝ることはない」
+			'''
+	}
+
+	SkyShard: {
+		DisplayName: 空の破片
+		Tooltip:
+			'''
+			消滅時に小さな破片に分裂する浮遊する鉄球を投げる
+			敵に命中すると、天空の刃が対象の周囲の空間を粉砕し、大ダメージを与える
+			この攻撃を受けた敵は徐々にライフが減少する
+			「空が落ちてくる!敵に向かって」
+			'''
+	}
+
+	AuraOrbs: {
+		DisplayName: オーラのオーブ
+		Tooltip:
+			'''
+			オーラの球を放つ
+			左クリックを押し続けてチャージすると、サイズとパワーが急速に増加する
+			更に、ダメージを受けるとオーラが強くなり、ダメージが更に増加する
+			「オーラがあなたとともにありますように」
+			'''
+	}
+}
+
+Buffs: {
+	AtaraxiaLight: {
+		DisplayName: 光のアスペクト
+		Description: ダメージが増加するが、被ダメージも若干増加
+		
+	}
+
+	AtaraxiaDark: {
+		DisplayName: 闇のアスペクト
+		Description: 被ダメージを軽減するが、ダメージが若干減少
+	}
+
+	ShadeShift: {
+		DisplayName: シェードシフト
+		Description: 敵に狙われにくくなり、ライフ自然回復をわずかに増進
+	}
+
+	AscendentSparks: {
+		DisplayName: アセンデントスパークス
+		Description: 敵は天の輝きによって焼き尽くされる
+	}
+
+	AscendentRevive: {
+		DisplayName: アセンション
+		Description: ダメージが大きく増加し、クリティカル率が大きく上昇
+	}
+
+	AscendentCool: {
+		DisplayName: 精神的な回復
+		Description: 差し迫った死を乗り越える能力がチャージ中
+	}
+
+	WardBurn: {
+		DisplayName: ウォードバーン
+		Description: 敵のライフが徐々に減少
+	}
+
+	WardBuff: {
+		DisplayName: メディテイションオーラ
+		Description: ライフ自然回復を増進する
+	}
+
+	AbyssGazeImpale: {
+		DisplayName: アビッサルインペイル
+		Description: 闇のジャベリンは敵のライフを徐々に減少させる
+	}
+
+	AbyssGazeAura: {
+		DisplayName: アビッサルゲイズ
+		Description: 原初の闇がこの敵のライフを徐々に減少させる
+	}
+
+	SkyCut: {
+		DisplayName: 砕けた空
+		Description: 現実の構造そのものがこの敵を引き裂く!
+	}
+}
+
+Projectiles: {
+	NihilRazor.DisplayName: ニヒルシェイドレイザー
+	NihilClone.DisplayName: ニヒルシェイドの幻影
+	AscendedSpirit.DisplayName: 昇天した魂
+	SpiritBolt.DisplayName: スピリットボルト
+	DualityProjW.DisplayName: 白い槍
+	DualityProjB.DisplayName: 黒い槍
+	SmolStinger.DisplayName: 針千本
+	StingerProj.DisplayName: 針千本
+	WardCandle.DisplayName: メディエーターウォード
+	TaijituBomb.DisplayName: 太極爆弾
+	YangProj.DisplayName: 陽
+	YinProj.DisplayName: 陰
+	NihilDaggerSmall.DisplayName: シーカーダガー
+	NihilDagger.DisplayName: ハービンジャーダガー
+	NightshadeProj.DisplayName: ナイトシェード
+	NightshadeSmol.DisplayName: ナイトシェーダー
+	TerminusChargeProj.DisplayName: ターミナスチャージ
+	AbyssGazeProj.DisplayName: アビスの視線
+	SkadooshProj.DisplayName: スカドゥーシュ
+	AscendedShurikenProj.DisplayName: アセンデントの手裏剣
+	SkyFractal.DisplayName: 空の怒り
+	SkyShardFrag.DisplayName: 空の断片
+	SkyShardProj.DisplayName: 空の破片
+	AuraSphere.DisplayName: オーラの球
+}
