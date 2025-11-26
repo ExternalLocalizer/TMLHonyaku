@@ -1,0 +1,64 @@
+Configs: {
+	SlotDisplayConfig: {
+		DisplayName: アクセサリスロットの表示設定
+
+		Headers: {
+			SlotCounts: スロット数の上書き
+			ScrollbarStuff: スクロールバー関連
+		}
+
+		EnableMod: {
+			Label: スロット数の上書きを有効にする
+			Tooltip:
+				'''
+				以下の 2 つの設定を有効にすると、表示するスロット数を手動で設定できます
+				オフだと、tModLoaderのデフォルトの動作に戻ります
+				'''
+		}
+
+		SlotsPerColumn_WithMinimap: {
+			Label: 列ごとのスロット（ミニマップ表示中）
+			Tooltip: ミニマップが右上隅にあるときに表示するスロットの数
+		}
+
+		SlotsPerColumn_NoMinimap: {
+			Label: 列ごとのスロット（ミニマップ非表示中）
+			Tooltip: ミニマップが画面に表示されていないときに表示するスロットの数
+		}
+
+		UseScrollbar: {
+			Label: スクロールバーを使う
+			Tooltip:
+				'''
+				1列に全てのスロットを収めるのに十分なスペースがない場合の動作を変更します
+				オンだと、1列が使用され、そこにスクロールバーが表示されます
+				オフだと、横に追加の列が表示されます
+
+				(この機能はtModLoaderの基本部分です この設定により、ワールドに入りなおしても機能が維持されます)
+				'''
+		}
+
+		InvertScrollDirection: {
+			Label: スクロール方向を反転する
+			Tooltip: マウスホイールを回した際にスクロールする方向を反転します
+		}
+
+		ScrollbarWidthMultiplier: {
+			Label: スクロールバーの幅の乗数（装飾）
+			Tooltip:
+				'''
+				スクロールバーを広く見せます
+				スクロールバーはクリックできないため、実用的な用途はありません
+				'''
+		}
+
+		CenterWhitePart: {
+			Label: 中央スクロールバーの内側部分（装飾）
+			Tooltip:
+				'''
+				スクロールバーの内側の白い部分を左端から中央へ微調整します
+				四捨五入のため、幅の乗数が整数の場合に最適です
+				'''
+		}
+	}
+}
