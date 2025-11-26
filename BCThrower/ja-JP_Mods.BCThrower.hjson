@@ -6,7 +6,7 @@ CommonTooltips: {
 		PercentIncThrowDmg: "投擲ダメージが{0}%増加"
 		PercentIncThrowCrit: "投擲クリティカル率が{0}%上昇"
 		PercentIncThrowSpd: "投擲攻撃速度が{0}%上昇"
-		PercentIncThrowVelocity: "投げた武器の弾速が{0}%上昇"
+		PercentIncThrowVelocity: "投擲武器の弾速が{0}%上昇"
 		PercentIncThrowKB: "投擲ノックバックが{0}%増加"
 		PercentThrowConserv: "{0}%の確率で投擲武器を消費しない"
 		PercentDamageReduction: 被ダメージを{0}%軽減
@@ -16,12 +16,12 @@ CommonTooltips: {
 		PercentIncThrowDmgAndCrit: "投擲ダメージが{0}%増加し、投擲クリティカル率が{0}%上昇"
 		PercentIncThrowDmgAndSpd: "投擲ダメージが{0}%増加し、投擲攻撃速度が{0}%上昇"
 		PercentIncThrowCritAndSpd: "投擲クリティカル率と投擲攻撃速度が{0}%上昇"
-		PercentIncThrowVelAndDmg: "投擲ダメージが{0}%増加し、投げた武器の弾速が{0}%上昇"
-		PercentIncThrowVelAndCrit: "投げた武器の弾速と投擲クリティカル率が{0}%上昇"
-		PercentIncThrowVelAndSpd: "投擲攻撃速度と投げた武器の弾速が{0}%上昇"
-		PercentIncThrowVelAndKB: "投げた武器の弾速が{0}%上昇し、投擲ノックバックが{0}%増加"
+		PercentIncThrowVelAndDmg: "投擲ダメージが{0}%増加し、投擲武器の弾速が{0}%上昇"
+		PercentIncThrowVelAndCrit: "投擲武器の弾速と投擲クリティカル率が{0}%上昇"
+		PercentIncThrowVelAndSpd: "投擲攻撃速度と弾速が{0}%上昇"
+		PercentIncThrowVelAndKB: "投擲武器の弾速が{0}%上昇し、投擲ノックバックが{0}%増加"
 		PercentIncThrowAndMoveSpd: "移動速度と投擲攻撃速度が{0}%上昇"
-		PercentIncThrowVelAndMoveSpd: "移動速度と投げた武器の弾速が{0}%上昇"
+		PercentIncThrowVelAndMoveSpd: "移動速度と投擲武器の弾速が{0}%上昇"
 		PercentIncThrowDmgAndMoveSpd: "投擲ダメージが{0}%増加し、移動速度が{0}%上昇"
 		# ---------------
 		# Aggro:
@@ -79,7 +79,7 @@ CommonTooltips: {
 		NinjaBCThrower:
 			'''
 			移動速度が12%上昇
-			投げた武器の弾速が12%上昇
+			投擲武器の弾速が12%上昇
 			'''
 		CrystalNinjaBCThrower:
 			'''
@@ -98,7 +98,7 @@ CommonTooltips: {
 			'''
 		Master:
 			'''
-			投げた武器の弾速が10%上昇
+			投擲武器の弾速が10%上昇
 			攻撃を回避することがある
 			'''
 		Akuma:
@@ -109,7 +109,7 @@ CommonTooltips: {
 		Hidden:
 			'''
 			投擲クリティカル率が10%上昇
-			投擲武器を選択中して、移動しないとステルスが蓄積される
+			投擲武器を選択中、移動しないとステルスが蓄積される
 			ステルス状態になると、次の投擲攻撃のダメージが増加し、敵に狙われにくくなる
 			ステルスは移動しても失われないが、移動速度が低下する
 			投擲武器を選択中でない場合は、時間の経過とともにステルスが減少する
@@ -127,7 +127,7 @@ CommonTooltips: {
 			'''
 			15%の確率で投擲武器を消費しない
 			敵に狙われにくくなる
-			25%の確率で投げた武器が3つに増える
+			25%の確率で投擲武器が3つに増える
 			'''
 		Bionic:
 			'''
@@ -186,7 +186,7 @@ Items: {
 
 	StealthPants: {
 		DisplayName: 隠密のブーツ
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Tooltip: 移動速度が10%上昇
 	}
 
 	FeatherHeadgear: {
@@ -315,7 +315,7 @@ Items: {
 	}
 
 	DarkKnightHelmet: {
-		DisplayName: ダークナイトのヘルメット
+		DisplayName: ダークナイトの兜
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
@@ -374,7 +374,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmg}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			移動速度が12%上昇
 			{$CommonTooltips.Stats.PercentDamageReduction@2}
 			{$CommonTooltips.Stats.Regen}
 			「冬の到来を告げる」
@@ -398,7 +398,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
 			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
 			{$CommonTooltips.Stats.SlightReducedAggro}
-			「自然の法則だ！」
+			「自然の法則だ!」
 			'''
 	}
 
@@ -407,7 +407,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowVelocity}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			移動速度が16%上昇
 			{$CommonTooltips.Stats.SlightReducedAggro}
 			「ここに立ってみると…」
 			'''
@@ -447,7 +447,7 @@ Items: {
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmg}
 			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd@1}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			移動速度が10%上昇
 			{$CommonTooltips.Stats.PercentDamageReduction@3}
 			{$CommonTooltips.Stats.ReducedAggro}
 			'''
@@ -461,7 +461,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentIncThrowVelAndKB}
 			{$CommonTooltips.Stats.SlightReducedAggro}
 			投擲攻撃でヘルファイアを、
-			投擲攻撃でクリティカル発生時は暁炎を与える
+			投擲攻撃でクリティカル時は暁炎を与える
 			「空白」
 			'''
 	}
@@ -565,7 +565,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentIncThrowCrit}
 			{$CommonTooltips.Stats.PercentIncThrowKB@1}
 			{$CommonTooltips.Stats.SlightReducedAggro}
-			投擲攻撃でクリティカル発生時にヘルファイアを与える
+			投擲攻撃でクリティカル時にヘルファイアを与える
 			'''
 	}
 
@@ -579,7 +579,7 @@ Items: {
 		Tooltip:
 			'''
 			10%の確率で投擲武器を消費しない
-			投擲攻撃速度と投げた武器の弾速が5%上昇
+			投擲攻撃速度と投擲武器の弾速が5%上昇
 			'''
 	}
 
@@ -597,7 +597,7 @@ Items: {
 		Tooltip:
 			'''
 			投擲クリティカル率と弾速を上昇させ、ノックバックを増加
-			「ブルズアイ！」
+			「ブルズアイ!」
 			'''
 	}
 
@@ -635,7 +635,7 @@ Items: {
 		Tooltip:
 			'''
 			地形や敵に貼り付き、しばらくしてから爆発する
-			「そこには！」
+			「そこには!」
 			'''
 	}
 
@@ -646,7 +646,7 @@ Items: {
 			導火線が短いグレネード
 			時間経過による爆発でダメージが増加
 			地形か敵に当たると爆発するが、ダメージが減少する
-			「ナイススロー！」
+			「ナイススロー!」
 			'''
 	}
 
@@ -680,13 +680,13 @@ Items: {
 			'''
 			地面を跳ね回る火の玉を投げる
 			連続で投げられる火の玉の数には制限がある
-			「マリオをプレイしろ！」
+			「マリオをプレイしろ!」
 			'''
 	}
 
 	StickySpikyBall: {
 		DisplayName: 粘着スパイクボール
-		Tooltip: "「それを3回素早く言ってみてください！」"
+		Tooltip: "「それを3回素早く言ってみてください!」"
 	}
 
 	BouncySpikyBall: {
@@ -753,7 +753,7 @@ Items: {
 
 	Kunai: {
 		DisplayName: 苦無
-		Tooltip: "「チェーン付き？」"
+		Tooltip: "「チェーン付き?」"
 	}
 
 	BlastCrystal: {
@@ -779,7 +779,7 @@ Items: {
 		Tooltip:
 			'''
 			小さな爆発で霊液を撒き散らす
-			「これは…？ モン・デュー！」
+			「これは…? モン・デュー!」
 			'''
 	}
 
@@ -856,7 +856,7 @@ Items: {
 			'''
 			敵の防御力を15無視する
 			消滅時にエネルギーの火花が散る
-			「まるでミニチェーンソーを投げているみたいだ！」
+			「まるでミニチェーンソーを投げているみたいだ!」
 			'''
 	}
 
@@ -946,7 +946,7 @@ Items: {
 		DisplayName: フロストファング
 		Tooltip:
 			'''
-			当たった敵に突き刺さり、霜焼けを与えるを
+			当たった敵に突き刺さり、霜焼けを与える
 			氷の破片に分裂し、追加でダメージを与えることがある
 			「舌だけに留まらない…」
 			'''
@@ -1050,7 +1050,7 @@ Items: {
 			敵に複数の弾を付着させると、爆発が遅くなる
 			同時に爆発した弾の数に応じて、ダメージと爆発範囲が増加し、
 			追加効果が発生することがある
-			「月のルーン文字だ！月のルーン文字は実在している！」
+			「月のルーン文字だ!月のルーン文字は実在している!」
 			'''
 	}
 
@@ -1068,7 +1068,7 @@ Items: {
 		Tooltip:
 			'''
 			ターゲットを汚し、受けるダメージを増加させる
-			「土の入った瓶があるよ！土の入った瓶があるよ！」
+			「土の入った瓶があるよ!土の入った瓶があるよ!」
 			'''
 	}
 
@@ -1096,7 +1096,7 @@ Items: {
 		Tooltip:
 			'''
 			とてもよく弾む
-			「それはスーパーボールか、それともスーパースパイクか？」
+			「それはスーパーボールか、それともスーパースパイクか?」
 			'''
 	}
 
@@ -1113,7 +1113,7 @@ Items: {
 			<right>を押すと、全ての爆弾を手動で起爆する
 			この爆発を当てるとダメージが増加する
 			地形に張り付く前に爆発した場合、ダメージが減少する
-			「...そしてケーブルウェイ！」
+			「...そしてケーブルウェイ!」
 			'''
 	}
 
@@ -1154,7 +1154,7 @@ Items: {
 		Tooltip:
 			'''
 			ほとんどの敵に短時間、減速効果を与える
-			「頭を冷やせ！」
+			「頭を冷やせ!」
 			'''
 	}
 
@@ -1229,22 +1229,22 @@ NPCs: {
 			Normal0: ようこそ{0}。お前の英雄的な行動に応えるため、俺の商品を差し上げよう。
 			Normal1: お前が鉱山にいた間、俺は刃を研究していたんだ。
 			Normal2: 俺の刃は高性能を保証している。埃まみれの鍋は小さなものだ。
-			Rare0: なぜ、みんな俺がラーメンを売っているか聞いてくるんだ？なぜ俺がラーメンを売る必要があるんだ？
+			Rare0: なぜ、みんな俺がラーメンを売っているか聞いてくるんだ?なぜ俺がラーメンを売る必要があるんだ?
 			Rare1: この服にはまだスライムが染み付いている…
-			Rare2: 遠距離武器と投擲武器は同じものだと思っている人がいるって知っているか？馬鹿げている。
-			Armor: 忍者の鎧を着こなすようになったんだな！俺と間違えられなければいいのだが…
+			Rare2: 遠距離武器と投擲武器は同じものだと思っている人がいるって知っているか?馬鹿げている。
+			Armor: 忍者の鎧を着こなすようになったんだな!俺と間違えられなければいいのだが…
 			Night: 夜の闇は忍者が活動するのに最適だ。影を恐れるのではなく、活用することを学ぶべきだ。
 			BloodMoon: これを射撃の練習の機会として利用するほどの勇気がない限り、今夜は屋外に出るのはお勧めしないぞ...
 			Rain: ああ、雨の音は心地よい。それどころか、足音も聞こえなくなる。
-			Storm: 何を放つかには気をつけろよ。突然、避雷針になりたくないよな？
+			Storm: 何を放つかには気をつけろよ。突然、避雷針になりたくないよな?
 			Party: 俺たち、忍者は影と静寂の中で暮らすことを好むが、たまには騒がしく、楽しく過ごすのも良いことだ。
 			WindyDay: 今日は強い向かい風に注意しろよ。攻撃が戻ってくるかもしれないからな。
 			Graveyard: この霧は不安を煽るかもしれないが、視界からお前を隠すこともできるぞ。
 			SlimeRain: 目を覚ませ、テラリアン。燃やすべきスライムがいるぞ。
 			PostPlant: ダンジョンの忍者には気をつけた方がいいぞ。呪いの犠牲になった者の中には、俺の先祖の一団もいたと言われている。
-			PostQS: ロイヤルスライムがもう1体いたのか？ まあ、2体とも倒せてよかったぞ。素晴らしい仕事をしてくれた。
+			PostQS: ロイヤルスライムがもう1体いたのか? まあ、2体とも倒せてよかったぞ。素晴らしい仕事をしてくれた。
 			Goblin: "{0}が、あのとげの付いたボールを彼の手から引き取っても構わないのか..."
-			Tavernkeep: エールが投擲武器として使えるとは思っていなかったが、{0}のおかげでそうでないことがわかった！もっとよく知っておくべきだったか。
+			Tavernkeep: エールが投擲武器として使えるとは思っていなかったが、{0}のおかげでそうでないことがわかった!もっとよく知っておくべきだったか。
 			Demo: 手榴弾を試してみようと思ったが、{0}はそれが自分の得意技だと主張している...
 			Dryad: ドライアドとその英雄的な行動については多くの物語が語り継がれている。{0}が俺たちの間で活躍してくれることは、大変光栄なことだ。
 		}
@@ -1259,10 +1259,10 @@ NPCs: {
 			LikeBiome: "{BiomeName}の地形と植物は、身を隠せるところが大量にある。手つかずの自然も、その魅力を増している。"
 			DislikeBiome: うーん、{BiomeName}を見ると、かつて忍者海賊になろうとしたときのことを思い出す... 控えめに言っても、いい感じにはならなかったな。
 			HateBiome: "{BiomeName}の呪われた環境は、心身ともに危険だ。ここで危険を冒すのは避けたいところだ。"
-			LoveNPC: "{NPCName}は教団の一員なんだな？ 俺たち忍者は導師の教団と深い繋がりがある。俺にとっては、どのメンバーも良き友人だ。"
+			LoveNPC: "{NPCName}は教団の一員なんだな? 俺たち忍者は導師の教団と深い繋がりがある。俺にとっては、どのメンバーも良き友人だ。"
 			LikeNPC: "{NPCName}の知恵は尊敬に値すると思うぞ。"
 			DislikeNPC: "{NPCName}は繊細さについて授業を受ける必要があるかもしれないな..."
-			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか？"
+			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか?"
 			LikeNPC_Princess: "{NPCName}は忍者の道にとても興味を持っている。彼女の学ぶ意欲は、楽しくもあり、心温まるものでもある。"
 			Princess_LovesNPC:"{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいな!"
 		}
@@ -1310,7 +1310,7 @@ Buffs: {
 
 	Dexterity: {
 		DisplayName: 器用さ
-		Description: 投擲武器を消費しないことがあり、投擲攻撃速度と投げた武器の弾速が上昇
+		Description: 投擲武器を消費しないことがあり、投擲攻撃速度と投擲武器の弾速が上昇
 	}
 
 	DeadlyPrecision: {
