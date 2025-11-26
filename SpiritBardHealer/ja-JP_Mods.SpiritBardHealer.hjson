@@ -1,0 +1,478 @@
+ItemDescriptions: {
+	ElectricGuitar:
+		'''
+		雷が命中するたびにインスピレーションを1回復する
+		『ロックだベイビー！ぶっ飛ばせ！』
+		'''
+	Ukelele: 雷が命中した際、まれにインスピレーションを1回復する
+	TerrariumParticleSprinters: 空中での機動力が上昇
+	FrigidHelm:
+		'''
+		非神聖ダメージを15%軽減
+		神聖ダメージが5%増加
+		回復魔法のライフ回復量が2増加
+		'''
+	FrigidChestplate:
+		'''
+		非神聖ダメージを15%軽減
+		神聖ダメージが10%増加
+		神聖クリティカル率が3%上昇
+		'''
+	FrigidLegs:
+		'''
+		非神聖ダメージを15%軽減
+		神聖ダメージが7%増加
+		'''
+	FrigidSetBonus:
+		'''
+		{0}を二回入力することで、カーソル地点に凍傷の壁を生成する
+		壁に触れることで短時間ライフを回復する
+		クールダウン：8秒
+		'''
+	RogueHood: 投擲ダメージが5%増加
+	RoguePlate: 投擲クリティカル率が5%上昇
+	RoguePants: 投擲速度が5%上昇
+	GraniteHelmet: ジャンプ力がわずかに上昇
+	GraniteChestGuard: ジャンプ力がわずかに上昇
+	GraniteGreaves: ジャンプ力がわずかに上昇
+	WayfarerHead: インスピレーション回復速度とドロップ率が5%上昇
+	WayfarerBody: 旋律ダメージと演奏速度が5%増加
+	WayfarerLegs: エンパワー効果時間が1秒延長
+	WayfarerSetBonus: バードのエンパワーによる移動強化がより強力になる
+}
+
+Items: {
+	AntumbralTip: {
+		DisplayName: 影炎の刻針
+		Tooltip:
+			'''
+			命中した敵に突き刺さる
+			刺さっている間、シャドウフレイムのオーラを放つ
+			オーラ内に入った敵へダメージを与える
+			'''
+	}
+
+	Apostaracas: {
+		DisplayName: アポスタラカス
+		Tooltip:
+			'''
+			鳥の遣いを呼び寄せるマラカスを鳴らす
+			遣いはカーソル近くの敵に向かって飛び掛かり攻撃する
+			'''
+	}
+
+	AvianBeak: {
+		DisplayName: そよ風の嘴
+		Tooltip:
+			'''
+			狙った方向へ振り払う
+			振った方向へ強風を起こす
+			「シュワハァァァァ！」
+			'''
+	}
+
+	BolatilusShells: {
+		DisplayName: ボラティラス・シェル
+		Tooltip:
+			'''
+			<left> を押し続けて、揮発性ノーチラス殻で作られたボーラを回転させる
+			<left> を離すことで投げ、回転時間に応じて距離とダメージが増加
+			最大回転時に投げると、命中時に爆発する
+			「海辺の貝殻売りも、ノーチラスの爆裂ボーラには驚くだろうね」
+			'''
+	}
+
+	Clairvoyage: {
+		DisplayName: クレアボヤージュ
+		Tooltip:
+			'''
+			命中時に跳ね返る貫通星を放つ
+			一度跳ねた後は、重力に従って落ちていく
+			「たまには、宇宙でただひとり漂うのも悪くない」
+			'''
+	}
+
+	CryoliteFridgerator: {
+		DisplayName: クライオライトの治癒冷却器
+		Tooltip:
+			'''
+			味方を回復する冷却ビームを放つ
+			回復時効果は発動しない
+			「暑さで冷蔵庫に避難したくなる気持ち、わかるだろ？」
+			'''
+	}
+
+	CryoliteSnowflake: {
+		DisplayName: クライオライトの雪華手裏剣
+		Tooltip:
+			'''
+			クライオライトの手裏剣を投げ、命中した敵に短時間張り付く
+			命中した敵に『氷結粉砕』を付与
+			「忍び寄る冷気？いや、これは体力を奪う『冷蝕』だ」
+			'''
+	}
+
+	DawnPhantom: {
+		DisplayName: 暁幻のリーパー
+		Tooltip:
+			'''
+			狙った方向へ振り払う
+			シャドウフレイム弾を近距離にばらまく
+			攻撃が当たるたび、シャドウフレイムの“チャージ”が溜まる
+			<right> でチャージしたシャドウフレイムを放つ
+			放ったシャドウフレイムは付近の敵へ追跡する
+			'''
+	}
+
+	Dredgenade: {
+		DisplayName: ドレッジネード
+		Tooltip:
+			'''
+			一定時間後に爆発し、邪悪なエネルギーを放つ
+			エネルギーは『湧き上がる苦悶』を付与し、敵のライフを徐々に奪う
+			'''
+	}
+
+	DuskSerenade: {
+		DisplayName: 黄昏の小夜曲
+		Tooltip: 黄昏の音符を放ち、跳ねた際に追尾する月光弾を生み出す
+	}
+
+	EtherealHum: {
+		DisplayName: 幽玄の低鳴
+		Tooltip: 二本の炎を渦巻くように放ち、敵に『魂の灼熱』を付与
+	}
+
+	FloranHarp: {
+		DisplayName: フローランハープ
+		Tooltip: 1度だけ跳ね返る音符型の胞子を放つ
+	}
+
+	FloranJavelin: {
+		DisplayName: フローランジャベリン
+		Tooltip: 遠くまで飛ぶ軽量ジャベリンを投げる
+	}
+
+	FloranScythe: {
+		DisplayName: フローランサイズ
+		Tooltip: 大鎌を振り回し、通った跡に葉を残す
+	}
+
+	GildedChakram: {
+		DisplayName: 黄金のチャクラム
+		Tooltip: 戻り軌道で同じ敵に複数回命中する
+	}
+
+	HellorHighWaters: {
+		DisplayName: 荒天の果て
+		Tooltip: 命中時、星海の潮勢を押し流す
+	}
+
+	IllumiteZapper: {
+		DisplayName: イルマイトザッパー
+		Tooltip:
+			'''
+			召喚タグダメージ 9
+			攻撃を当てた敵にミニオンが集中攻撃する
+			強烈な照光ビームを放つ
+			光を浴びた敵は、被ダメージが10%増加
+			'''
+	}
+
+	LavenderAcupuncture: {
+		DisplayName: ラベンダー・アキュパンクチャー
+		Tooltip:
+			'''
+			小さなラベンダーの棘を高速で放つ（敵・味方双方に命中する）
+			味方に命中すると、短時間ライフ自然回復を増進する
+			回復を受けた味方は、デバフ回復速度も上昇する
+			'''
+	}
+
+	LodestoneMegaMace: {
+		DisplayName: 磁鉱のメガメイス
+		Tooltip:
+			'''
+			落下速度に応じてダメージが増加
+			命中時に複数の岩を撒き散らす
+			与えたダメージは敵に裂傷を付与し、被ダメージを10増やす
+			「敵の頭蓋を磁石のように惹き寄せるメイス」
+			'''
+	}
+
+	MoonGelStaff: {
+		DisplayName: 月光ジェルの杖
+		Tooltip: 残留する月光ジェルが味方のライフを回復する
+	}
+
+	MoonJellyJazz: {
+		DisplayName: 月光クラゲジャズ
+		Tooltip:
+			'''
+			小さなルナゾアクラゲを内包した泡を撃ち出す
+			泡が弾けると敵を追跡するクラゲを放つ
+			攻撃タイミングを合わせると、泡に入るクラゲの数が増える
+			タイミングを外すと、ボーナスは大きく減少しインスピレーションを5消費する
+			ボーナスは武器を持ち替えても残るが、非アクティブ時は徐々に減衰する
+			自動で最も近い敵をターゲットする
+			「この話は…月のクラゲだけの秘密だ」
+			'''
+	}
+
+	ScarabSong: {
+		DisplayName: 聖甲虫の旋律
+		Tooltip:
+			'''
+			演奏すると、小さな聖甲虫の群れを生み出す
+			「ベッドの下の虫共へ。これはお前らへの一曲だ！」
+			'''
+	}
+
+	ScreamofTerror: {
+		DisplayName: スクリーム・オブ・テラー
+		Tooltip:
+			'''
+			血の衝撃波を放ち、収束後に爆発する
+			衝撃波は敵に『湧き上がる苦悶』を付与し、敵のライフを徐々に奪う
+			「叫ぶなら...『アアアアッ』か？それとも『ガアアアアッ』か？」
+			'''
+	}
+
+	ShootingStar: {
+		DisplayName: シューティングスター
+		Tooltip:
+			'''
+			命中した際、分身のような流星が空から降ってくる
+			「願いを込めて」
+			'''
+	}
+
+	SpiritHatchet: {
+		DisplayName: 霊刃の投げ斧
+		Tooltip: 命中時に幻影を生み出し、敵に『魂の灼熱』を付与
+	}
+
+	Sporophyll: {
+		DisplayName: スポロフィル
+		Tooltip: 胞子の花束を上方へ放ち、敵へ向かって追跡する
+	}
+
+	Staggerang: {
+		DisplayName: スタッガーラン
+		Tooltip:
+			'''
+			複数の敵へ跳び移りつつ、敵を気絶させる
+			「ボルテック・スタン・スイーパー！」
+			'''
+	}
+
+	StarScythe: {
+		DisplayName: 星の大鎌
+		Tooltip:
+			'''
+			狙った方向へ振り払う
+			命中時に空から星を降らせ、敵めがけて落下する
+			'''
+	}
+
+	Tashortinus: {
+		DisplayName: タショルティヌス
+		Tooltip:
+			'''
+			鋭い爪を敵へ投げつける
+			クリティカル後、次の攻撃時に爪を3本投げる
+			「ついでに背中もかける便利品」
+			'''
+	}
+
+	TerrariumParalyser: {
+		DisplayName: テラリウム・パラライザー
+		Tooltip:
+			'''
+			召喚タグダメージ 15
+			攻撃を当てた敵にミニオンが集中攻撃する
+			虹色の雷撃を放つ
+			'''
+	}
+
+	TerrariumWorldShaker: {
+		DisplayName: テラリウム・ワールドシェイカー
+		Tooltip: チャージ攻撃時、色とりどりの爆発を起こす
+	}
+
+	ThornBlow: {
+		DisplayName: ソーンブロウ
+		Tooltip:
+			'''
+			演奏することで棘を高速に放つ
+			「誤って吸い込まないように気をつけよ」
+			'''
+	}
+
+	TitanSlammer: {
+		DisplayName: タイタン・スラマー
+		Tooltip:
+			'''
+			チャージ攻撃時、複数のエネルギー波を放つ
+			クリティカル時、追加ダメージを与える
+			'''
+	}
+
+	Transfusion: {
+		DisplayName: トランスフュージョン
+		Tooltip:
+			'''
+			味方に向かって追跡する回復ビームを放つ
+			「他者を傷つけて治癒なんて普通は不可能だろう...
+			　まあ、輸血とか臓器移植なら話は別だが」
+			'''
+	}
+
+	ValadiumStunGun: {
+		DisplayName: ヴァラディウム麻痺銃
+		Tooltip:
+			'''
+			召喚タグダメージ 6
+			攻撃を当てた敵にミニオンが集中攻撃する
+			着弾時、敵を異界エネルギーで吹き飛ばす
+			'''
+	}
+
+	VolcanicLightning: {
+		DisplayName: ヴォルカニック・ライトニング
+		Tooltip:
+			'''
+			召喚タグダメージ 22
+			攻撃を当てた敵にミニオンが集中攻撃する
+			炎を噴射し、その中から雷が広がる
+			「そして灰は、俺たちの愛した街へ降り積もった……」
+			'''
+	}
+}
+
+Projectiles: {
+	AntumbralTip.DisplayName: Antumbral Tip
+	Apostaracas.DisplayName: Apostaracas
+	AvianBeak.DisplayName: Beak of the Breeze
+	AvianBeakWind.DisplayName: Beak of the Breeze
+	BlownThorn.DisplayName: Blown Thorn
+	BolatilusShells.DisplayName: Bolatilus Shells
+	BolatilusVolatileExplosion.DisplayName: Bolatilus Volatile Explosion
+	Clairvoyage.DisplayName: Clairvoyage
+	CryoliteFridgerator.DisplayName: Cryolite Fridgerator
+	CryoliteSnowflake.DisplayName: Cryolite Snowflake
+	DawnPhantom.DisplayName: Dawn Phantom
+	Dredge.DisplayName: Malicious Energy
+	Dredgenade.DisplayName: Dredgenade
+	DuskLunate.DisplayName: Dusk Lunate
+	DuskNote.DisplayName: Dusk Note
+	EtherealHum.DisplayName: Ethereal Hum
+	FloranJavelin.DisplayName: Floran Javelin
+	FloranLeaf.DisplayName: Floran Leaf
+	FloranNote.DisplayName: Floran Note
+	FloranScythe.DisplayName: Floran Scythe
+	GildedChakram.DisplayName: Gilded Chakram
+	HellorHighTides.DisplayName: Hell or High Tides
+	HellorHighWaters.DisplayName: Hell or High Waters
+	IllumiteZapper.DisplayName: Illumite Zapper
+	LavenderAcupuncture.DisplayName: Lavender Acupuncture
+	LodestoneChunk.DisplayName: Chunk of Lodestone
+	LodestoneMegaMace.DisplayName: Lodestone Mega Mace
+	MoonGel.DisplayName: Moon Gel
+	MoonJellyJazz.DisplayName: Moon Jelly Jazz
+	ScarabSong.DisplayName: Scarab Song
+	ScreamofTerror.DisplayName: Scream of Terror
+	ScytheStar.DisplayName: Star Scythe
+	ShootingStar.DisplayName: Shooting Star
+	ShadowBall.DisplayName: Shadowflame Ball
+	ShadowBallPrimed.DisplayName: Shadowflame Ball
+	SpiritHatchet.DisplayName: Spirit Hatchet
+	SpiritHatchetApparition.DisplayName: Spirit Hatchet
+	Sporophyll.DisplayName: Sporophyll
+	Staggerang.DisplayName: Staggerang
+	StarScythe.DisplayName: Star Scythe
+	Tashortinus.DisplayName: Tashortinus
+	TerrariumParalyser.DisplayName: Terrarium Paralyser
+	TerrariumWorldShake.DisplayName: Terrarium World Shaker
+	TerrariumWorldShaker.DisplayName: Terrarium World Shaker
+	TitanSlammer.DisplayName: Titan Slammer
+	Transfusion.DisplayName: Transfusion
+	ValadiumStunGun.DisplayName: Valadium Stun Gun
+	VolcanicLightning.DisplayName: Volcanic Lightning
+	VolcanicLightningStrike.DisplayName: Volcanic Lightning
+}
+
+Buffs: {
+	SummonTag6: {
+		DisplayName: 召喚タグ
+		Description: ""
+	}
+
+	SummonTag9: {
+		DisplayName: 召喚タグ
+		Description: ""
+	}
+
+	SummonTag15: {
+		DisplayName: 召喚タグ
+		Description: ""
+	}
+
+	SummonTag22: {
+		DisplayName: 召喚タグ
+		Description: ""
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: バランス設定
+
+		thrower: {
+			Label: 投擲武器ダメージ倍率
+			Tooltip:
+				'''
+				投擲武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		bard: {
+			Label: 旋律武器ダメージ倍率
+			Tooltip:
+				'''
+				旋律武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		radiant: {
+			Label: 神聖武器ダメージ倍率
+			Tooltip:
+				'''
+				攻撃型ヒーラー武器のダメージ倍率を調整します
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		soulEssence: {
+			Label: ソウルエッセンス倍率
+			Tooltip:
+				'''
+				攻撃型ヒーラー武器に付与されるソウルエッセンス倍率を調整します
+				最大上限は5です
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+
+		healing: {
+			Label: ヒーリング倍率
+			Tooltip:
+				'''
+				ヒーリング魔法の回復倍率を調整します
+				値が0の場合、1ライフのみ回復
+				（反映するためにはワールドを入り直す必要があります）
+				'''
+		}
+	}
+}
