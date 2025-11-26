@@ -1,0 +1,4291 @@
+CommonTooltips: {
+	SetBonuses: {
+		Badges:
+			'''
+			アクセサリースロットを{0}個追加​​する!
+			これらのスロットにはバッジのみ装備できる
+			能力アクセサリのクールダウンが延長されなくなる
+			'''
+		Fire:
+			'''
+			{$Badges}
+			攻撃が命中時、敵を炎上させることがある
+			{$Synergies}
+			'''
+		Frost:
+			'''
+			{$Badges}
+			クリティカル時に霜焼けを与える
+			{$Synergies}
+			'''
+		Foam:
+			'''
+			{$Badges}
+			ジャンプ速度を増加
+			{$Synergies}
+			'''
+		Synergies: 特定の武器は衣装と相乗効果を発揮し、より強力になる
+		Plumber:
+			'''
+			{$Badges}
+			{$Synergies}
+			'''
+		Yellow:
+			'''
+			{$Badges}
+			攻撃すると敵がより多くのコインを落とす
+			'''
+		Purple:
+			'''
+			{$Badges}
+			攻撃時、テニスボールを放つことがある
+			'''
+		NormalP:
+			'''
+			{$Badges}
+			あなたを助ける小さな星を召喚する!
+			'''
+		FireP:
+			'''
+			{$Fire}
+			あなたを助ける小さな星を召喚する!
+			星が攻撃した敵が炎上する
+			'''
+		FrostP:
+			'''
+			{$Frost}
+			あなたを助ける小さな星を召喚する!
+			星の攻撃がクリティカルになることがある
+			'''
+		FoamP:
+			'''
+			{$Foam}
+			あなたを助ける小さな星を召喚する!
+			星は強いノックバックを持つ
+			'''
+		NormalF:
+			'''
+			{$Badges}
+			敵を倒すとフラワーが出現することがある
+			フラワーを拾う距離が広がる
+			'''
+		FireF:
+			'''
+			{$Fire}
+			敵を倒すとフラワーが出現することがある
+			フラワーを拾う距離が広がり、フラワーを拾うと獄炎を得る
+			'''
+		FrostF:
+			'''
+			{$Frost}
+			敵を倒すとフラワーが出現することがある
+			フラワーを拾う距離が広がり、フラワーを拾うと近くの敵に霜焼けを与える
+			'''
+		FoamF:
+			'''
+			{$Foam}
+			敵を倒すとフラワーが出現することがある
+			フラワーを拾う距離が広がり、
+			フラワーを拾うと敵を攻撃する泡が出現する
+			'''
+		NormalS:
+			'''
+			{$Badges}
+			回転する空中ジャンプが可能
+			'''
+		FireS:
+			'''
+			{$Fire}
+			回転する空中ジャンプが可能
+			回転ジャンプで攻撃でき、敵を炎上させる
+			'''
+		FrostS:
+			'''
+			{$Frost}
+			回転する空中ジャンプが可能
+			回転ジャンプで攻撃でき、霜焼けを与える
+			'''
+		FoamS:
+			'''
+			{$Foam}
+			回転する空中ジャンプが可能
+			回転ジャンプで攻撃でき、強くノックバックさせる
+			'''
+	}
+
+	BattlePlugs: {
+		Desc:
+			'''
+			バトルプラグには、チャージに制限がある
+			プラグ発動時にチャージを消費し、チャージがなくなると、リチャージし、
+			プラグのリチャージには時間がかかる
+			'''
+		Charges: チャージ: {0}/{1}    リチャージタイム: {2}秒
+		Recharging: リチャージ中 ({0}%)   リチャージタイム: {1}秒
+		RechargePenalty: バトルプラグを装備してない場合、リチャージに時間がかかる
+		OutOfCharge: チャージ切れ
+		OutOfCharge2: チャージ切れ!
+		Recharged: リチャージ完了!
+	}
+
+	BadgeLabels: {
+		Wonder: "「とても不思議なバッジ」"
+		ChallengeBadge: "「これを付けちゃダメかも…」"
+		UnUnobtainable: "「ずっと前に捨てられた、失われたバッジ...」"
+	}
+
+	Conditions: {
+		SellGlove: 配管工セットかその派生品を装備している
+		SellGalaxyRef: 流星群のとき
+		SellSoundOff: マスターモードかFTWワールドでムーンロードを倒した後
+		SellSync: ワンダーフラワー効果を持つ
+	}
+
+	ChallengeNode: {
+		Hits: "{0} ヒット"
+		Hits!: "{0} ヒット!"
+		Rank: "{0} ランク"
+		Rank!: "{0} ランク!"
+		CommentBad: 恥を知れ!
+		CommentGood: 素晴らしい!
+		CommentLowScore: 恥を知れ!トップスコアはまだ破られていない!
+		CommentHighScore: 最高!新たなハイスコア!
+		RankNums: ランク: C: {0}   B: {1}   A: {2}   S: {3}
+		HiScore: ハイスコア: {0}
+	}
+
+	WepSynergy: この武器はあなたの服装に反応し、それにより強化される!
+	StrongWepSynergy: この武器はあなたの服装と相乗効果を発揮し、それにより大きく強化される!
+	BadgeSlotName: バッジ
+	BadgeSocialName: ソーシャル バッジ
+	BpSlotName: Badge ({0}/{1} 使用できるBP)
+	PlugSlotName: バトルプラグ
+	AbilityDescPlaceholder: placeholder (この表示が出た場合、あなたはArtificer's Accessoriesが無効時にこのアイテムにアクセスしたことになる!これはあり得ないはず。何かが間違っている!)
+	EffectTriggerUp: 上
+	EffectTriggerDown: 下
+	StompAtkInfo:
+		'''
+		ジャンプ速度が増加
+		落下中に下を長押しすると落下加速が上昇し、弱い踏みつけを行う
+		踏みつけ攻撃中に十分な速度で敵の上に着地すると、跳ね返って小ダメージを与える
+		'''
+	StompDR: 攻撃中は、被ダメージとノックバックを軽減
+}
+
+Items: {
+	FirePlumberPants: {
+		DisplayName: 炎の配管工のパンツ
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	FirePlumberHat: {
+		DisplayName: 炎の配管工の帽子
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	FirePlumberShirt: {
+		DisplayName: 炎の配管工のシャツ
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	FoamPlumberHat: {
+		DisplayName: 泡の配管工の帽子
+		Tooltip: "「泡だ!」"
+	}
+
+	FoamPlumberPants: {
+		DisplayName: 泡の配管工のパンツ
+		Tooltip: "「泡だ!」"
+	}
+
+	FoamPlumberShirt: {
+		DisplayName: 泡の配管工のシャツ
+		Tooltip: "「泡だ!」"
+	}
+
+	FrostPlumberHat: {
+		DisplayName: 氷の配管工の帽子
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	FrostPlumberPants: {
+		DisplayName: 氷の配管工のパンツ
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	FrostPlumberShirt: {
+		DisplayName: 氷の配管工のシャツ
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	GreenFirePlumberHat: {
+		DisplayName: 緑の炎の配管工の帽子
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	GreenFirePlumberPants: {
+		DisplayName: 緑の炎の配管工のパンツ
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	GreenFirePlumberShirt: {
+		DisplayName: 緑の炎の配管工のシャツ
+		Tooltip: "「今、あなたはファイアパワーで遊んでいる」"
+	}
+
+	GreenFoamPlumberHat: {
+		DisplayName: 緑の泡の配管工の帽子
+		Tooltip: "「泡だ!」"
+	}
+
+	GreenFoamPlumberPants: {
+		DisplayName: 緑の泡の配管工のパンツ
+		Tooltip: "「泡だ!」"
+	}
+
+	GreenFoamPlumberShirt: {
+		DisplayName: 緑の泡の配管工のシャツ
+		Tooltip: "「泡だ!」"
+	}
+
+	GreenFrostPlumberHat: {
+		DisplayName: 緑の氷の配管工の帽子
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	GreenFrostPlumberPants: {
+		DisplayName: 緑の氷の配管工のパンツ
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	GreenFrostPlumberShirt: {
+		DisplayName: 緑の氷の配管工のシャツ
+		Tooltip: "「冷酷な犯罪のパートナーたちへ」"
+	}
+
+	GreenPlumberHat: {
+		DisplayName: 緑の配管工の帽子
+		Tooltip: ""
+	}
+
+	GreenPlumberPants: {
+		DisplayName: 緑の配管工のパンツ
+		Tooltip: ""
+	}
+
+	GreenPlumberShirt: {
+		DisplayName: 緑の配管工のシャツ
+		Tooltip: ""
+	}
+
+	FoamFlower: {
+		DisplayName: アワフラワー
+		Tooltip: 泡を発射する
+	}
+
+	PlumberGloves: {
+		DisplayName: 配管工の手袋
+		Tooltip: ""
+		SynergyTipWeapon: 手袋はあなたの服装に反応し、特定の武器との相乗効果を強化する
+		SynergyTipBonus: 手袋はあなたの服装に反応し、そのユニークな効果を強化する
+	}
+
+	ResplendentBouquet: {
+		DisplayName: 輝くブーケ
+		Tooltip: 属性を持つ泡を発射する
+	}
+
+	Thunderhand: {
+		DisplayName: サンダーハンド
+		Tooltip:
+			'''
+			電撃を連射する
+			左クリックを押し続けてチャージすると連射が早くなり、射程が増加する
+			最大までチャージすると強力な雷撃を放つが、チャージしすぎると感電する!
+			敵の防御力を一時的に減少させることがある
+			「サンダー!」
+			'''
+	}
+
+	Firebrand: {
+		DisplayName: ファイアハンド
+		Tooltip:
+			'''
+			ファイアボールを連射する
+			左クリックを押し続けてチャージすると連射が早くなり、
+			十分にチャージすると、爆発するファイアボールを発射する
+			チャージした時間に応じてサイズとダメージが増加する
+			チャージしすぎると炎上する
+			敵を一時的に炎上させることがある
+			「ファイア!」
+			'''
+	}
+
+	Invisibility: {
+		DisplayName: 透明
+		Tooltip:
+			'''
+			装備中はずっと透明になる
+			{$CommonTooltips.BadgeLabels.Wonder}
+			{$CommonTooltips.BadgeLabels.ChallengeBadge}
+			「確かに、彼らはあなたを見ることはできない...だが、あなたはあなた自身を見ることはできない...」
+			'''
+	}
+
+	JetRun: {
+		DisplayName: ジェットラン
+		Tooltip:
+			'''
+			驚異的なスピードで走行できる
+			ただし、停止できなくなり、勝手に移動する
+			崖から飛び降りる際、短時間、空中を走ったり、ジャンプしたりできる
+			下を長押しすると空中走行をキャンセルできる
+			{$CommonTooltips.BadgeLabels.Wonder}
+			{$CommonTooltips.BadgeLabels.ChallengeBadge}
+			「早く行かなきゃ!」
+			'''
+	}
+
+	SpringFeet: {
+		DisplayName: バネ
+		Tooltip:
+			'''
+			ジャンプし続けるようになる
+			下を押し続けると低くジャンプし、スペースキーを押し続けると高くジャンプする
+			ジャンプの機動性が上昇し、落下ダメージを無効化
+			{$CommonTooltips.BadgeLabels.Wonder}
+			{$CommonTooltips.BadgeLabels.ChallengeBadge}
+			「自宅でできるポゴスティックシミュレーター」
+			'''
+	}
+
+	SafetyBounce: {
+		DisplayName: 復帰ジャンプ
+		Tooltip:
+			'''
+			落下ダメージを無効化し、溶岩に触れたときのダメージを軽減する
+			溶岩を無効化する状態でない場合に、溶岩に落ちるとジャンプする
+			この効果は落下ごとに一度だけ発動する
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「安全つま先!ああ、待てよ、いいや」
+			'''
+	}
+
+	Sensor: {
+		DisplayName: ダウジング
+		Tooltip:
+			'''
+			あなたの周囲にいる珍しい生き物を表示する
+			最も高価な鉱石を探知する
+			特定の宝物に近づくと、視覚的および聴覚的なヒントが頻繁に表示される
+			表示/非表示を切り替えると、音声のヒントをオフにできる
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	ParachuteCap: {
+		DisplayName: 帽子パラシュート
+		Tooltip:
+			'''
+			滑空と低速落下ができる
+			滑空中は落下ダメージを無効化
+			下を長押しすると降下速度が上昇する
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「でもその帽子はどこから来たの?」
+			'''
+	}
+
+	WallClimbJump: {
+		DisplayName: カベ登りジャンプ
+		Tooltip:
+			'''
+			壁を滑り降りることができる
+			壁ジャンプ時のジャンプ高度が増加
+			崖登りの爪かスパイクシューズと組み合わせると能力向上 
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	AllBubblePower: {
+		DisplayName: いつでもアワ
+		Tooltip:
+			'''
+			ジャンプ速度が上昇
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「アワフラワーは含まれていない」
+			'''
+	}
+
+	AllFirePower: {
+		DisplayName: いつでもファイア
+		Tooltip:
+			'''
+			攻撃が命中時、敵を炎上させることがある
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「ファイアフラワーは含まれていない」
+			'''
+	}
+
+	FloatingHighJump: {
+		DisplayName: ふわっとジャンプ
+		Tooltip:
+			'''
+			ジャンプ速度が上昇
+			ジャンプ時、スペースキーを押し続けると高度が上昇し、滞空時間が長くなる
+			翼を装備している場合は効果が発揮されない代わりに、飛行時間が延長される
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	TimedHighJump: {
+		DisplayName: 2ステップジャンプ
+		Tooltip:
+			'''
+			自動ジャンプを可能にする
+			連続してジャンプするとジャンプの可動性が上昇
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	FastDash: {
+		DisplayName: スピードアップ
+		Tooltip:
+			'''
+			ダッシュ系アクセサリの速度を上昇
+			一部の速度低下効果を無効化
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	BoostingSpinJump: {
+		DisplayName: フロートスピン
+		Tooltip:
+			'''
+			空中で回転ができる
+			この回転は何度でもでき、落下をわずかな時間停止させる
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「私たちの中には星を見つめる人もいる...」
+			'''
+	}
+
+	GrapplingVine: {
+		DisplayName: つるショット
+		Tooltip:
+			'''
+			速度が速いフック
+			ただし、上方向に放つと射程が短くなる
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「バッジがグラップリングフックになるなら、グラップリング フックはアクセサリになることができるのか?」
+			'''
+	}
+
+	CrouchingHighJump: {
+		DisplayName: しゃがみ大ジャンプ
+		Tooltip:
+			'''
+			[placeholder]
+			チャージジャンプはとても高度が高いが、接地時にジャンプする必要がある
+			落下耐性が増加
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「はい、しゃがめない状態でも動作します…」
+			'''
+		EffectTrigger: 接地時、{0}を二回押すと次のジャンプをチャージできる
+	}
+
+	RhythmJump: {
+		DisplayName: リズムジャンプ
+		Tooltip:
+			'''
+			数秒ごとに、視覚と聴覚の合図が表示される
+			その合図に合わせてジャンプすると、バフを得て、コインを入手することがある
+			バフ中にタイミングを間違えると、効果時間が減少する
+			音声合図をオフにするには、表示/非表示を切り替える
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「ワン! ツー! スリー!」
+			'''
+		JumpComboText: "{0} ジャンプコンボ!"
+	}
+
+	AddBlocks: {
+		DisplayName: !ブロック出現
+		Tooltip:
+			'''
+			ブロックを置ける範囲と配置速度が増加
+			敵を倒すと!ブロックが出現することがある
+			攻撃で!ブロックを破壊すると強化アイテムが出現する
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	BlockPickupCrit: {
+		DisplayName: クリティカルパワーアップ
+		Tooltip: ""
+	}
+
+	BlockPickupDef: {
+		DisplayName: 防御力パワーアップ
+		Tooltip: ""
+	}
+
+	BlockPickupDmg: {
+		DisplayName: ダメージパワーアップ
+		Tooltip: ""
+	}
+
+	BlockPickupRegen: {
+		DisplayName: ライフ回復パワーアップ
+		Tooltip: ""
+	}
+
+	CoinReward: {
+		DisplayName: ごほうびコイン
+		Tooltip:
+			'''
+			敵を倒すとコインを追加で入手する
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「まるで賞金稼ぎみたいだ」
+			'''
+	}
+
+	CoinMagnet: {
+		DisplayName: コイン吸いこみ
+		Tooltip:
+			'''
+			コインの取得範囲が広がり、取得速度が上昇
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「チャリン!」
+			'''
+	}
+
+	AutoSuperMushroom: {
+		DisplayName: 自動スーパーキノコ
+		Tooltip:
+			'''
+			ライフが最大でリスポーンし、無敵時間を延長
+			リスポーン時間が短縮される
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	DolphinKick: {
+		DisplayName: ドルフィンキック
+		Tooltip:
+			'''
+			泳げるようになり、液体の中を速く泳げる 
+			上下入力で落下速度を調整できる 
+			水中でダッシュが可能
+			横方向入力2回で高速ステップ
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	AllElephantPower: {
+		DisplayName: いつでもゾウ
+		Tooltip:
+			'''
+			近接攻撃のノックバックを増加
+			近接武器のサイズとダメージが10%増加
+			近接攻撃時に時折、水球を発射する
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「わお、ゾウイ?」
+			'''
+	}
+
+	AllDrillPower: {
+		DisplayName: いつでもドリル
+		Tooltip:
+			'''
+			ドリルの採掘スピードが30%上昇!
+			ドリルのダメージが100%増加
+			{$CommonTooltips.BadgeLabels.Wonder}
+			「やり方はわかってるでしょ!」
+			'''
+	}
+
+	SoundOff: {
+		DisplayName: ハナ歌効果音
+		Tooltip:
+			'''
+			奇妙な音が聞こえる...
+			ソーシャルスロットでも効果がある
+			{$CommonTooltips.BadgeLabels.Wonder}
+			'''
+	}
+
+	WondrousSize: {
+		DisplayName: ワンダーフラワー - ワンダラスサイズ
+		Tooltip:
+			'''
+			ほとんどの敵のサイズが大きくなることがある
+			大きくなった敵はライフとノックバック耐性が2倍になるが、
+			ハートと落とすアイテム類の数が2倍になる
+			「これはだんだん好きになるよ」
+			'''
+	}
+
+	CosmicGravitas: {
+		DisplayName: ワンダーフラワー - コズミックグラビタス
+		Tooltip:
+			'''
+			自身と周囲の敵の重力を大幅に軽減
+			落下ダメージを無効化
+			「すっげぇぇぇ!!!」
+			'''
+	}
+
+	EntropicCrossfire: {
+		DisplayName: ワンダーフラワー - エントロピッククロスファイア
+		Tooltip:
+			'''
+			十字線が表示され、あなたを追跡する
+			ロックオンすると、そのエリアを爆破し、
+			あなたと敵の両方にダメージを与える
+			「火を放て!」
+			'''
+	}
+
+	Chronostasis: {
+		DisplayName: ワンダーフラワー - クロノスタシス
+		Tooltip:
+			'''
+			移動速度、落下速度、攻撃速度が半分になるが、
+			ダメージが2倍になり、ブレーキが利きやすくなる
+			「ゆっくりでも着実に進む者が勝利する?」
+			'''
+	}
+
+	Hypertempo: {
+		DisplayName: ワンダーフラワー - ハイパーテンポ
+		Tooltip:
+			'''
+			移動速度、落下速度、攻撃速度が2倍になるが、
+			ダメージが半分になり、ブレーキが利きにくくなる
+			「光より速く動くことの問題は、常に暗闇の中で生きることになるということだ...」
+			'''
+	}
+
+	TimeDistortion: {
+		DisplayName: ワンダーフラワー - タイムディストーション
+		Tooltip:
+			'''
+			一定時間ごとに移動速度、落下速度、攻撃速度が2倍、半分に切り替わる
+			移動速度、落下速度、攻撃速度が2倍になると、ブレーキの利きやすさとダメージは半分になり、逆も同様
+			'''
+	}
+
+	ShadowRift: {
+		DisplayName: ワンダーフラワー - シャドウチェイス
+		Tooltip:
+			'''
+			影の幽霊が現れ、あなたを追跡する
+			影の幽霊は接触した者にダメージを与える
+			「影のカメ > 異国の陰謀」
+			'''
+	}
+
+	Antifriction: {
+		DisplayName: ワンダーフラワー - アンタイフリクション
+		Tooltip:
+			'''
+			移動速度と加速が上昇するが、ブレーキが利きにくくなる
+			「カメを踏みつけるのは危険な行為だ。ウォータースライダーは好きでいてください」
+			'''
+	}
+
+	MoltenShield: {
+		DisplayName: ワンダーフラワー - モルテンシールド
+		Tooltip:
+			'''
+			溶岩、炎のブロック、そして殆どの炎のデバフに耐性
+			溶岩で泳げる
+			接触した敵はダメージを受け、炎上する
+			「ホノオヲガードと混同しないで」
+			'''
+	}
+
+	AquaticInversion: {
+		DisplayName: ワンダーフラワー - アクアティックインバージョン 
+		Tooltip:
+			'''
+			空気の代わりに水で呼吸する 
+			空気は水中にいるときのように動きが遅くなるが、泳ぐことができる
+			代わりに水中で動きが遅くならない
+			'''
+	}
+
+	StormWarning: {
+		DisplayName: ワンダーフラワー - ストームウォーニング
+		Tooltip:
+			'''
+			数秒ごとに周囲に雷が落ちてくる
+			雷は触れたものにダメージを与える
+			表示/非表示を切り替えると雷の音が静かになる
+			「嵐が近づいている」
+			'''
+	}
+
+	MetalCap: {
+		DisplayName: ワンダーフラワー - メタル帽子
+		Tooltip:
+			'''
+			[placeholder]
+			表示/非表示を切り替えると効果音が静かになる
+			「今、あなたはアイアンスキンを使っている!」
+			'''
+		AbilityDesc:
+			'''
+			25秒間、金属になる
+			この状態では、移動速度が遅くなり、落下速度が速くなるが、被ダメージを軽減する!
+			更に、ノックバック、毒、窒息を無効化
+			'''
+	}
+
+	EffervescentReality: {
+		DisplayName: ワンダーフラワー - エファヴェセントリアリティ
+		Tooltip:
+			'''
+			[placeholder]
+			「さて、現実はあなたが望むものなら何でもいいのです…泡が絡んでいる限りは」
+			'''
+		AbilityDesc:
+			'''
+			10秒間、自身の周囲にオーラを放つ
+			オーラに入った敵の弾のほとんどが泡に変化する
+			変化した弾はダメ―ジが25%になるが、ノックバックが大きくなる
+			'''
+	}
+
+	SurrealitySync: {
+		DisplayName: ワンダーフラワー - シュールリアリティシンク
+		Tooltip:
+			'''
+			近くの味方のワンダーフラワーの効果を継承する
+			「驚きを共有しよう!」
+			'''
+	}
+
+	TrueWonderFlower: {
+		DisplayName: ワンダーフラワー - ワンダー
+		Tooltip:
+			'''
+			[placeholder]
+			ランダム効果が発動してない場合でも、ワンダラスサイズの効果は自動で適用される
+			特定の効果音を消すには、表示/非表示を切り替える
+			「私たちが知っている現実への鎮魂歌であり、無限の想像力の祝福である」
+			'''
+		AbilityDesc:
+			'''
+			スキルのクールダウン中、ランダムなワンダーフラワーの効果を発動する
+			更に、ダメージ、防御力、クリティカル率、ダメージ軽減、ライフ回復のいずれかをランダムに強化する
+			'''
+
+		AbilityCaptions: {
+			CosmicGravitas: コズミックグラビタス!
+			EntropicCrossfire: エントロピッククロスファイア!
+			Chronostasis: クロノスタシス!
+			Hypertempo: ハイパーテンポ!
+			TimeDistortion: タイムディストーション!
+			Antifriction: アンタイフリクション!
+			MoltenShield: モルテンシールド!
+			AquaticInversion: アクアティックインバージョン!
+			StormWarning: ストームウォーニング!
+			MetalCap: メタル帽子!
+			EffervescentReality: エファヴェセントリアリティ!
+			ShadowRift: シャドウチェイス!
+		}
+	}
+
+	BeanBadge: {
+		DisplayName: ビーンバッジ
+		Tooltip:
+			'''
+			最大マナを20増加
+			ダメージが3%増加
+			能力アクセサリのクールダウンを5%短縮する
+			'''
+	}
+
+	BrosRock: {
+		DisplayName: ブラザーズロック　
+		Tooltip:
+			'''
+			ダメージが5%増加
+			能力アクセサリのクールダウンを10%短縮する
+			近くの味方のうち何人がブラザーズロックを装備しているかに応じてダメージが増加する
+			空いているミニオンスロットの数に応じてミニオンのダメージが大幅に増加する
+			「スーパースター限定!」
+			'''
+	}
+
+	StarwoodFingerGun: {
+		DisplayName: スターウッドフィンガーガン
+		Tooltip:
+			'''
+			弾薬を消費せずに弾丸を連射する
+			クリティカル時はダメージが50%増加し、より広い範囲にダメージを与える
+			「星からの正義は続く」
+			'''
+	}
+
+	FrogSageStick: {
+		DisplayName: カエルのせんにんのつえ
+		Tooltip:
+			'''
+			元素の力を宿す木の杖を振る
+			敵に攻撃すると、氷、電撃、星の魔法で追撃する
+			「見た目はカエルらしくないけど…」
+			'''
+	}
+
+	CommandGlove: {
+		DisplayName: アクションガード
+		Tooltip:
+			'''
+			ノックバックを無効化
+			攻撃していないとき、右クリックするとガード
+			攻撃をガードすることで被ダメージを軽減する
+			タイミングが良いほどダメージを大きく軽減する
+			タイミング良くガードするとスーパーガードとなり、ダメージをほぼ無効化し、
+			近くの敵にダメージを与える
+			'''
+	}
+
+	TripleGauge: {
+		DisplayName: トリブルゲージ
+		Tooltip:
+			'''
+			[placeholder]
+			このアクセサリは能力を発動するのに、クールダウンとチャージが必要
+			クリティカルが出るか、アクションガードを成功させるとチャージを獲得する
+			チャージに応じてステータスがわずかに増加する
+			ただし、これらの強化はブロックせずに攻撃を受けるとリセットされる
+			'''
+		AbilityDesc: 強力な星を3つ発射し、カーソルに最も近い敵を攻撃する
+	}
+
+	CloseCall: {
+		DisplayName: ピンチデラッキー
+		Tooltip:
+			'''
+			ライフが30%以下の際、敵が攻撃に失敗することがある
+			「重要な場面に」
+			'''
+	}
+
+	PrettyLucky: {
+		DisplayName: タマーニラッキー
+		Tooltip:
+			'''
+			たまに敵が攻撃を失敗する
+			「運がいい感じ?」
+			'''
+	}
+
+	LuckyDay: {
+		DisplayName: ケッコウラッキー
+		Tooltip:
+			'''
+			時々敵が攻撃を失敗する
+			「無限+1バッジは本物だ!」
+			'''
+	}
+
+	AttackFxA: {
+		DisplayName: ピッキョローン A
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxB: {
+		DisplayName: ピッキョローン B
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxC: {
+		DisplayName: ピッキョローン C
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxD: {
+		DisplayName: ピッキョローン D
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxE: {
+		DisplayName: ピッキョローン E
+		Tooltip: M攻撃時、効果音が発生することがある
+	}
+
+	AttackFxP: {
+		DisplayName: ピッキョローン P
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxG: {
+		DisplayName: ピッキョローン G
+		Tooltip:
+			'''
+			攻撃時、効果音が発生することがある
+			「ドラゴンはこれを嫌う…かもしれない」
+			'''
+	}
+
+	AttackFxB2: {
+		DisplayName: ピッキョローン B （ペーパーマリオRPG）
+		Tooltip:
+			'''
+			攻撃時、効果音が発生することがある
+			「年数が経っているにもかかわらず、新品のように見える」
+			'''
+	}
+
+	AttackFxR: {
+		DisplayName: ピッキョローン R
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	AttackFxY: {
+		DisplayName: ピッキョローン Y
+		Tooltip: 攻撃時、効果音が発生することがある
+	}
+
+	SlowGo: {
+		DisplayName: ノロイノロイ
+		Tooltip:
+			'''
+			移動速度とダッシュ速度が大きく低下し、
+			殆どの種類のダッシュが使用できなくなる
+			{$CommonTooltips.BadgeLabels.ChallengeBadge}
+			'''
+	}
+
+	FirstAttack: {
+		DisplayName: ヤッツケアタック
+		Tooltip:
+			'''
+			ライフが最大の敵に対する攻撃と、非戦闘時の攻撃がクリティカルになる
+			「先制攻撃!」
+			'''
+	}
+
+	PowerRush: {
+		DisplayName: ピンチデガンバル
+		Tooltip:
+			'''
+			ライフが30%以下の際、ダメージが30%増加
+			「死なないで済むことなんて…」
+			'''
+	}
+
+	HpDrain: {
+		DisplayName: ハートスイトール
+		Tooltip: ダメージが50%減少するが、与えたダメージの5%のライフを回復
+	}
+
+	FlowerSaver: {
+		DisplayName: フラワーセツヤク
+		Tooltip: 消費マナが25%減少
+	}
+
+	AllOrNothing: {
+		DisplayName: イチカバチーカ
+		Tooltip:
+			'''
+			攻撃で2倍のダメージを与えることがある
+			この確率はクリティカル率に応じて55%から60%の範囲
+			この効果が失敗した場合は、ダメージが5%になり、クリティカルにならない
+			'''
+	}
+
+	DodgeMaster: {
+		DisplayName: タツジーン
+		Tooltip:
+			'''
+			被ダメージを5%軽減
+			ダメージの回避、殆どの回避と効果が重複し、攻撃の回避率が上昇
+			アクションガードと一緒に装備すると、より高確率で発動する
+			'''
+	}
+
+	DamageDodge: {
+		DisplayName: ナイスデボウギョ
+		Tooltip:
+			'''
+			25%の確率で被ダメージを40%軽減
+			アクションガードと一緒に装備すると、よりダメージを軽減
+			'''
+	}
+
+	HappyFlower: {
+		DisplayName: ハッピーフラワー
+		Tooltip:
+			'''
+			時折、マナを回復
+			表示を切り替えると、回復時のエフェクトと効果音を無効にできる
+			'''
+	}
+
+	HappyHeart: {
+		DisplayName: ハッピーハート
+		Tooltip:
+			'''
+			時折、ライフを少し回復
+			表示を切り替えると、回復時のエフェクトと効果音を無効にできる
+			'''
+	}
+
+	DefendPlus: {
+		DisplayName: ダメージヘール
+		Tooltip: ""
+	}
+
+	PDownDUp: {
+		DisplayName: ナマクラヤイバー
+		Tooltip:
+			'''
+			被ダメージを20%軽減するが、ダメージが15%減少
+			'''
+	}
+
+	PowerPlus: {
+		DisplayName: パワープラス
+		Tooltip: ダメージが18%増加
+	}
+
+	PUpDDown: {
+		DisplayName: モロハノヤイバー
+		Tooltip:
+			'''
+			ダメージが20%増加するが、被ダメージが15%増加
+			'''
+	}
+
+	LastStand: {
+		DisplayName: ピンチデマモール
+		Tooltip:
+			'''
+			ライフが30%以下の際、被ダメージが半分
+			「危険地帯で繁栄する」
+			'''
+	}
+
+	MegaRush: {
+		DisplayName: キケンデパワー
+		Tooltip:
+			'''
+			ライフが30%以下の際、ダメージが2倍
+			「…それはあなたをより強くするだけだ!」
+			'''
+	}
+
+	MoneyMoney: {
+		DisplayName: コインコイン
+		Tooltip: 倒した敵が落とすコインが増加
+	}
+
+	IcePower: {
+		DisplayName: アイスノチカーラ
+		Tooltip:
+			'''
+			攻撃時に氷属性を与えることがある
+			氷属性は敵に霜焼けを与える
+			凍え、霜焼け、凍結に耐性
+			'''
+	}
+
+	ChillOutBadge: {
+		DisplayName: センセイサレナイ
+		Tooltip:
+			'''
+			非戦闘時に攻撃を受けた場合、ダメージを大きく軽減
+			この効果には15秒のクールダウンがある
+			「あの星霊の力と混同しないように…」
+			'''
+	}
+
+	BumpAttack: {
+		DisplayName: ヤッツケーレ
+		Tooltip:
+			'''
+			ライフが最大の敵に対する攻撃と、非戦闘時の攻撃がクリティカルになる
+			また、ライフが攻撃の基本ダメージの3倍に満たない敵を即死させる
+			「戦いが始まる前に終わらせる」
+			'''
+	}
+
+	ISpy: {
+		DisplayName: クルリンサーチ
+		Tooltip:
+			'''
+			あなたの周囲にいる珍しい生き物を表示する
+			最も高価な鉱石を探知する
+			近くの宝物を表示する
+			視覚的なヒントで特定の宝物の場所を示す
+			表示/非表示を切り替えると、関連する音声のヒントをオフにできる
+			「私は小さなバッジでスパイをする...」
+			'''
+	}
+
+	GroupFocus: {
+		DisplayName: ナカマモネガーウ
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			ミニオンの数に応じてマナ自然回復を増進
+			「友情の力!」
+			'''
+	}
+
+	FpPlus: {
+		DisplayName: フラワーフエール
+		Tooltip: 最大マナが20%増加
+	}
+
+	DeepFocus: {
+		DisplayName: ネガウノパワー
+		Tooltip: マナ自然回復を大きく増進
+	}
+
+	HpPlus: {
+		DisplayName: ハートフエール
+		Tooltip: 最大ライフが10%増加
+	}
+
+	QuickChange: {
+		DisplayName: スバヤクカワール
+		Tooltip:
+			'''
+			ミニオンとセントリーを召喚する杖の召喚速度が2倍になり、
+			召喚されたばかりのミニオンとセントリーのダメージが一時的に2倍
+			'''
+	}
+
+	FireShield: {
+		DisplayName: ホノオヲガード
+		Tooltip:
+			'''
+			炎のブロックと殆どの炎のデバフに耐性
+			溶岩に触れた時のダメージを軽減する
+			'''
+	}
+
+	SpikeShield: {
+		DisplayName: トゲーヲガード
+		Tooltip:
+			'''
+			トゲのブロックとの接触によるダメージを無効化
+			敵との接触による被ダメージを10%軽減
+			トラップから受けるダメージを25%軽減
+			'''
+	}
+
+	ZapTap: {
+		DisplayName: ビリビリーン
+		Tooltip:
+			'''
+			接触した敵にダメージを与える
+			感電に耐性
+			「衝撃的なサプライズを」
+			'''
+	}
+
+	FlowerPickup: {
+		DisplayName: フラワー
+		Tooltip: "「フラワー == マナ」"
+	}
+
+	FlowerFinder: {
+		DisplayName: フラワーデール
+		Tooltip: 敵を倒すとフラワーが出現することがある
+	}
+
+	HeartFinder: {
+		DisplayName: ハートデール
+		Tooltip: 敵を倒すとライフを回復するハートが出現することがある
+	}
+
+	RunawayPay: {
+		DisplayName: ニゲテモモラーウ
+		Tooltip:
+			'''
+			戦闘から逃げるとコインとマナを生成する
+			「それは臆病ではなく、資本主義だ」
+			'''
+	}
+
+	Refund: {
+		DisplayName: コインモドール
+		Tooltip:
+			'''
+			16%の確率で弾薬、投擲武器、餌を消費しない
+			殆どの消費アイテムを使用し、消費したとき、その価値の一部のコインが戻ってくる
+			'''
+	}
+
+	PayOff: {
+		DisplayName: ホケーンコイーン
+		Tooltip:
+			'''
+			敵からダメージを受けるとコインを入手することがある
+			「肉体的な苦痛は増すが、経済的な利益は増す」
+			'''
+	}
+
+	Peakaboo: {
+		DisplayName: HPミエール
+		Tooltip:
+			'''
+			時折、近くの敵とその現在のライフを明らかにするパルスを放つ
+			パルスの範囲内の敵は一時的に光り、被ダメージが増加
+			「代わりに伝言を使用してください...」
+			'''
+	}
+
+	FeelingFine: {
+		DisplayName: イツーモゲンキ
+		Tooltip:
+			'''
+			ほぼ全てのデバフに耐性！
+			「これでいい」
+			'''
+	}
+
+	DoubleDip: {
+		DisplayName: ニカイアイテーム
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			10秒間、弾薬を50%の確率で消費しない
+			この効果で消費しなかった弾薬は、ダメージが2倍になる
+			'''
+	}
+
+	TripleDip: {
+		DisplayName: サンカイアイテーム
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			10秒間、弾薬を66%の確率で消費しない
+			この効果で消費しなかった弾薬は、ダメージが3倍になる
+			'''
+	}
+
+	SpeedySpin: {
+		DisplayName: スーパースピーン
+		Tooltip:
+			'''
+			短距離を移動するスピンダッシュが可能
+			[placeholder]
+			「回転」
+			'''
+		AbilityDesc: 長距離を移動するスピンダッシュを行う
+	}
+
+	DizzyAttack: {
+		DisplayName: メマワシスピーン
+		Tooltip:
+			'''
+			短距離を移動するスピンダッシュが可能
+			[placeholder]
+			「私をぐるぐる回して…」
+			'''
+		AbilityDesc:
+			'''
+			より長距離を移動できるスピンダッシュを行う
+			ダッシュ中に敵に当たると混乱させ、ダメージを防ぐ
+			'''
+	}
+
+	SpinAttack: {
+		DisplayName: ヤッツケスピーン
+		Tooltip:
+			'''
+			短距離を移動するスピンダッシュが可能
+			[placeholder]
+			「スピンして勝とう!」
+			'''
+		AbilityDesc:
+			'''
+			より長距離を移動できるスピンダッシュを行う
+			ダッシュ中は無敵で敵に当たるとダメージを与える
+			'''
+	}
+
+	PowerJump: {
+		DisplayName: ガツーンジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「キノコを食べ、カメを踏みつけ、姫を救え」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	MegaJump: {
+		DisplayName: ドカーンジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「無敵のカメでもあなたからは安全ではない」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	DDownJump: {
+		DisplayName: ツラヌキジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして防御を無視する、強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	PowerBounce: {
+		DisplayName: レンゾクジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「全ての敵を屈服させる」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして、同じ敵を攻撃している限り、最大で8回まで繰り返す強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	ShrinkStomp: {
+		DisplayName: ミニミニフミィ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「見てよ、あぁ!」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行い、攻撃した敵のダメージを一時的に半分にする
+			更に、殆どの敵のサイズを小さくする
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	DizzyStomp: {
+		DisplayName: メマワシフミィ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行い、敵を短時間混乱させ、接触ダメージを半分にする
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	Multibounce: {
+		DisplayName: ツギツギジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「いや、カメを踏みつけても追加の残機は得られない」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行う 毎回違う敵を攻撃すれば、最大で4回繰り返す
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	SleepStomp: {
+		DisplayName: ネムラセフミィ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「おやすみ!」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行い、攻撃した敵を短時間眠気状態にする
+			眠気を催した敵は防御力が減少し、殆どの敵は移動速度も低下する
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	JumpCharge: {
+		DisplayName: ジャンチャージ
+		Tooltip:
+			'''
+			ジャンプ攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ジャンプ攻撃能力の追加ダメージが蓄積される
+			毎秒4%のダメージ増加をチャージし、最大で200%まで増加する
+			ジャンプ攻撃を使用すると、現在蓄積されているブーストが消費される
+			'''
+	}
+
+	SmashCharge: {
+		DisplayName: ハンマチャージ
+		Tooltip:
+			'''
+			ハンマー攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ハンマー攻撃能力の追加ダメージが蓄積される
+			毎秒4%のダメージ増加をチャージし、最大で200%まで増加する
+			ハンマー攻撃を使用すると、現在蓄積されているブーストが消費される
+			'''
+	}
+
+	SuperJumpCharge: {
+		DisplayName: ジャンチャージS
+		Tooltip:
+			'''
+			ジャンプ攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ジャンプ攻撃能力の追加ダメージが蓄積される
+			毎秒6%のダメージ増加をチャージし、最大で300%まで増加する
+			ジャンプ攻撃を使用すると、現在蓄積されているブーストが消費される
+			「レンゾクジャンプはこれがお気に入り」
+			'''
+	}
+
+	SuperSmashCharge: {
+		DisplayName: ハンマチャージS
+		Tooltip:
+			'''
+			ハンマー攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ハンマー攻撃能力の追加ダメージが蓄積される
+			毎秒6%のダメージ増加をチャージし、最大で300%まで増加する
+			ハンマー攻撃を使用すると、現在蓄積されているブーストが消費される
+			「スーパースマッシュブラザーズ!」
+			'''
+	}
+
+	MegaQuake: {
+		DisplayName: ウルトラジシーン
+		Tooltip:
+			'''
+			[placeholder]
+			「ハンマーは大きすぎることはない」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			ハンマーの最初の一撃は強大な衝撃波を放ち、周囲の敵に特大ダメージを与える
+			'''
+	}
+
+	MegaSmash: {
+		DisplayName: ドカーンナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「大きな亀を叩くには大きなハンマーが必要だ」
+			'''
+		AbilityDesc: 巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+	}
+
+	PowerQuake: {
+		DisplayName: スーパージシーン
+		Tooltip:
+			'''
+			[placeholder]
+			「力に震える」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			ハンマーの最初の一撃は大きな衝撃波を放ち、周囲の敵に大ダメージを与える
+			'''
+	}
+
+	DDownPound: {
+		DisplayName: ツラヌキナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「さあ、解体の時間だ」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			ハンマーは敵の防御力を無視する
+			'''
+	}
+
+	PowerSmash: {
+		DisplayName: ガツーンナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「ストップ、ハンマータイム!」
+			'''
+		AbilityDesc: 巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+	}
+
+	QuakeHammer: {
+		DisplayName: ジシーンアタック
+		Tooltip:
+			'''
+			[placeholder]
+			「地面が揺れている!」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			ハンマーの最初の一撃は衝撃波を放ち、周囲の敵にダメージを与える
+			'''
+	}
+
+	SpinSmash: {
+		DisplayName: カイテンナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「残念ながらチョッパーブラザーズはやらない」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを投影し、自分の周囲を回転させて敵を粉砕する
+			攻撃でノックバックした敵が他の敵に触れると双方にダメージを与える
+			'''
+	}
+
+	HammerThrow: {
+		DisplayName: ハンマーナゲール
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			巨大なハンマーを投影し、自分の周囲を回転させて敵を粉砕する
+			一回転すると、攻撃開始時のカーソル位置に向けてハンマーを投げる
+			'''
+	}
+
+	Goombadex: {
+		DisplayName: クリボーデックス
+		Tooltip:
+			'''
+			対象の図鑑の完成度に応じて、対象に与えるダメージが最大で20%増加する
+			エーテリアン系の敵と殆どのボスはこの効果に耐性がある
+			「作者：クリボリオ」
+			'''
+	}
+
+	GhostlyBow: {
+		DisplayName: レサレサのリボン
+		Tooltip:
+			'''
+			[placeholder]
+			敵に狙われにくくなる
+			「目が見えなければ、忘れてしまう」
+			'''
+		AbilityDesc:
+			'''
+			5秒間透明になる
+			この状態ではお互いに攻撃が当たらない
+			'''
+	}
+
+	RefreshCard: {
+		DisplayName: スターカード - すっきりそうかい
+		Tooltip:
+			'''
+			[placeholder]
+			「リフレッシュしてフレッシュに」
+			'''
+		AbilityDesc:
+			'''
+			ライフを最大値の10%、マナを最大値の50%回復し、
+			毒と混乱を治す
+			'''
+	}
+
+	ChillOutCard: {
+		DisplayName: スターカード - ちからをぬいて
+		Tooltip:
+			'''
+			[placeholder]
+			「あのバッジと混同しないで...」
+			'''
+		AbilityDesc:
+			'''
+			全方向に雪の結晶を発射する
+			雪の結晶のダメージは低いが、一時的に敵のダメージを半分にする
+			'''
+	}
+
+	UpAndAwayCard: {
+		DisplayName: スターカード - そしておほしさまに
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			敵を高確率で無害な星に変えるパルスを放つ
+			これで倒した敵は何も落とさず、死亡時に効果を発揮しない
+			殆どのボスと特定の種類の敵には無効
+			'''
+	}
+
+	StarStormCard: {
+		DisplayName: スターカード - ほしのふるよる
+		Tooltip:
+			'''
+			[placeholder]
+			「絶対に地球に縛られない」
+			'''
+		AbilityDesc:
+			'''
+			5秒間、上空から星の雨を降らせる
+			星はカーソルに向かって降り注ぐ
+			'''
+	}
+
+	BlueShell: {
+		DisplayName: 青の甲羅
+		Tooltip:
+			'''
+			左クリックを押し続けると青い亀の甲羅を回転させてチャージし、離すと甲羅を放つ
+			チャージした時間に応じてダメージと弾速が変化する
+			チャージしすぎると炎上するが、甲羅が発火し、命中した敵を炎上させる
+			「カメの大岩?」
+			'''
+	}
+
+	WattageLantern: {
+		DisplayName: アカリンのランタン
+		Tooltip:
+			'''
+			共に戦う小さな知性を持つスパークを召喚する
+			敵の防御力の大部分を無視し、敵の動きを一時的に止めることがある
+			複数回召喚しても、数は増えず、これらの効果が強化され、ダメージが増加
+			「愛すべき元気な女の子」
+			'''
+	}
+
+	DoublePain: {
+		DisplayName: ニバイダメージ
+		Tooltip:
+			'''
+			被ダメージが2倍になる
+			{$CommonTooltips.BadgeLabels.ChallengeBadge}
+			'''
+	}
+
+	MegaBounce: {
+		DisplayName: スーパーレンゾク
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「存在自体があってはならない、奇妙で強力なバッジ…」
+			「え、何?」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして、同じ敵を攻撃している限り、最大で10秒間繰り返す強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	SuperShellSpinner: {
+		DisplayName: スーパーシェルスピナー
+		Tooltip:
+			'''
+			左クリックを押し続けると、時間の経過とともに小さく跳ね返る甲羅を発射する
+			最終的に、シェルホイールは小さな甲羅の塊を形成し、それらと一緒に発射する
+			「最高にクール!」
+			'''
+	}
+
+	CrystalIceScepter: {
+		DisplayName: パラレラーの杖
+		Tooltip:
+			'''
+			左クリックで最大3個のアイスビットを召喚し、プレイヤーの周囲を周回させる
+			右クリックでカーソルに向けて発射する
+			周回中のアイスビットは敵や敵の弾に触れると、ダメージを受ける
+			アイスビットに当たった弾はダメージが減少する
+			アイスビットがダメージを受けすぎると地面に落ちて、破壊される
+			「氷の上に置け」
+			'''
+	}
+
+	Thunderclap: {
+		DisplayName: サンダークラップ
+		Tooltip:
+			'''
+			左クリックを押し続けると、カーソル位置で強力な衝撃波を発生させる稲妻を召喚する
+			ダメージ、防御力無視量、そして衝撃波の大きさはチャージ時間に応じて変化する
+			「嵐の猛威を解き放て!」
+			'''
+	}
+
+	PharaohCurse: {
+		DisplayName: ファラオの呪い
+		Tooltip:
+			'''
+			巨大だが無害な岩の幻影を召喚する
+			岩が地形に当たると、近くの敵に岩を落とす地震が起きる
+			岩が敵に落ちると、敵は短時間スタンし、移動不能になる
+			「私は魔法の天才だ!」
+			'''
+	}
+
+	SmithingWarhammer: {
+		DisplayName: 鍛冶屋の戦槌
+		Tooltip:
+			'''
+			強力なハンマーの一撃を左クリックを押し続けてチャージし、放すと振る
+			この武器を選択中、倒した敵はスクラップの塊を落とすことがある
+			この武器でスクラップを攻撃すると、強力な攻撃を繰り出す武器を作れる
+			作った武器は敵に向かって飛んでいく
+			「全員ぶっ潰してやる!」
+			'''
+	}
+
+	Charge: {
+		DisplayName: チャージ
+		Tooltip:
+			'''
+			ジャンプ攻撃かハンマー攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ジャンプ攻撃とハンマー攻撃の追加ダメージが蓄積される
+			毎秒3%のダメージ増加をチャージし、最大で200%まで増加する
+			ジャンプ攻撃かハンマー攻撃を行うと、それぞれに蓄積されているブーストが消費される
+			'''
+	}
+
+	LuckyStart: {
+		DisplayName: ナニーカラッキー
+		Tooltip:
+			'''
+			戦闘開始時にランダムな強化を15秒間得る
+			ライフ回復力、マナ回復力、攻撃回避率の強化か棘ダメージを得る
+			この効果は30秒ごとに1回発生する
+			「さあ、ショーを始めよう!」
+			'''
+	}
+
+	SuperAppeal: {
+		DisplayName: スーパーアピール
+		Tooltip:
+			'''
+			マナ回復の遅延を大きく短縮
+			クリティカル時、20マナを稀に生成する
+			「...そして観客は大熱狂だ!」
+			'''
+	}
+
+	PityFlower: {
+		DisplayName: ダメージフラワー
+		Tooltip: ダメージを受けると、最大マナの10～20%のマナを回復することがある
+	}
+
+	TimingTutor: {
+		DisplayName: アクロバットワカル
+		Tooltip:
+			'''
+			クリティカル率を5%上昇
+			クリティカルが時折スタイリッシュヒットになることがある
+			スタイリッシュヒットは派手なエフェクトが発生し、ダメージが更に250%増加する
+			装飾スロットに配置すると、全てのクリティカルに他のエフェクトなしで、
+			スタイリッシュヒットのエフェクトと効果音が追加される
+			「スタイルポイントを貯めよう!」
+			'''
+	}
+
+	Hammerman: {
+		DisplayName: ハンマーマン
+		Tooltip: ハンマー攻撃のダメージを50%増加
+	}
+
+	Jumpman: {
+		DisplayName: ジャンプマン
+		Tooltip: ジャンプ攻撃のダメージを50%増加
+	}
+
+	ReturnPostage: {
+		DisplayName: ダメージガエシ
+		Tooltip:
+			'''
+			攻撃者に受けた接触ダメージの500%を与える
+			殆どのボスとミニボスに対して、この効果のダメージが増加する
+			「お前に仕返しするぞ、バカルー」
+			'''
+	}
+
+	FpDrain: {
+		DisplayName: フラワスイトール
+		Tooltip: ダメージが10%減少するが、与えたダメージの10%のマナを回復
+	}
+
+	Simplifier: {
+		DisplayName: カンタンニナール
+		Tooltip:
+			'''
+			クリティカル率が1.33倍になるが、クリティカル時のダメージが0.75倍になる
+			アクションガードと一緒に装備すると、効果は弱くなるが、タイミングが簡単になる
+			'''
+	}
+
+	Unsimplifier: {
+		DisplayName: ムズカシクナール
+		Tooltip:
+			'''
+			クリティカル時のダメージが1.33倍になるが、クリティカル率は0.75倍になる
+			アクションガードと一緒に装備すると、効果が強力になるが、タイミングが難しくなる
+			'''
+	}
+
+	NostalgicTunes: {
+		DisplayName: ナツメーロ
+		Tooltip:
+			'''
+			いくつかの環境のBGMを、過去に使用されていた他のトラックに置き換える
+			「アンデラックス トーン: BGMの数が減った!」
+			'''
+	}
+
+	ItemHog: {
+		DisplayName: アイテムデール
+		Tooltip:
+			'''
+			倒した敵が17%の確率でアイテムを2倍の確率で落とす
+			この効果は殆どのボスとミニボスには無効
+			「内なる戦利品のゴブリンを解き放て」
+			'''
+	}
+
+	WEmblem: {
+		DisplayName: エムブレームW
+		Tooltip: 黄色の配管工の衣装で服装を上書きする
+	}
+
+	LEmblem: {
+		DisplayName: エムブレームL
+		Tooltip: 緑の配管工の衣装で服装を上書きする
+	}
+
+	HeadRattle: {
+		DisplayName: コンランナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「頭蓋骨がズキズキする!」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			攻撃した敵は短時間、混乱し、幻惑状態になる
+			幻惑状態の敵は接触ダメージが半分になる
+			'''
+	}
+
+	IceSmash: {
+		DisplayName: アイスナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「彼があそこで凍り付いていてよかったのか…」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			攻撃した敵は短時間、霜焼けを受け、
+			殆どの敵は一時的にその場に凍りつく
+			'''
+	}
+
+	FireDrive: {
+		DisplayName: ファイアナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			「ハンマーと火の玉を使ってゴルフをしたいと思ったことはないか?」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを投影し、自分の周囲を回転させて敵を粉砕する
+			振り下ろし開始直後、ハンマーは攻撃開始時のカーソル位置に向けてファイアーボールを発射する
+			ハンマーとファイアーボールはどちらも短時間、ヘルファイアを与える
+			'''
+	}
+
+	SoftStomp: {
+		DisplayName: フニャフニャフミィ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「踏みつけるのは柔らかいのではなく、物を柔らかくする」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行う 敵の防御力を無視し、攻撃を受けた敵を短時間弱体化させる
+			弱体化した敵は防御力が0として扱われる
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	PiercingBlow: {
+		DisplayName: ツラヌキナグーリS
+		Tooltip:
+			'''
+			[placeholder]
+			「よりクールなツラヌキナグーリ」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			ハンマーは敵の防御力を無視し、命中するとエネルギーで追撃する
+			'''
+	}
+
+	TornadoJump: {
+		DisplayName: タツマキジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			「トルネードジャンプテクニックと混同しないで」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行い、攻撃後に2つの旋風を放つ
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	EggCannon: {
+		DisplayName: 卵キャノン
+		Tooltip:
+			'''
+			弾丸を4つのカラフルな卵のバーストに変換する
+			クリティカル時、敵の攻撃力を一時的に減少させる
+			この効果は、殆どの敵のサイズを一時的に小さくする
+			「影の悪魔を倒すには卵が数個必要だ」
+			'''
+	}
+
+	ShadeFist: {
+		DisplayName: カゲぬけパンチ
+		Tooltip:
+			'''
+			射程の短い炎のパンチを連射し、ウィッチファイアを与える
+			ウィッチファイアは敵のライフを徐々に減少させ、
+			魔法ダメージが高いほど減少量が高くなる
+			'''
+	}
+
+	BombSquad: {
+		DisplayName: ボムスクワッド
+		Tooltip:
+			'''
+			ロケットを3発の小型爆弾に変換する
+			爆弾は一定時間後に爆発する
+			爆弾の爆発により、他の爆弾が通常より早く起爆し、連鎖爆発を起こすことがある
+			右クリックで、敵か地形に当たると爆発する大型爆弾を発射する
+			'''
+	}
+
+	MouzMask: {
+		DisplayName: チュチュリーナのマスク
+		Tooltip:
+			'''
+			あなたの周囲にいる珍しい生き物を表示する
+			最も高価な鉱石を探知する
+			近くの宝物を表示する
+			敵を攻撃すると、コイン、ハート、フラワーを落とすことがある
+			'''
+	}
+
+	MagnusFist: {
+		DisplayName: ロケットパンチ
+		Tooltip:
+			'''
+			最大2発のロケットパンチを連続して発射する
+			各パンチには独立したクールダウンがあり、再度の発射には時間がかかる
+			発射したばかりのパンチはダメージが増加する
+			「グラップリングは含まれていない」
+			'''
+	}
+
+	DooplissCloak: {
+		DisplayName: ランペルの外套
+		Tooltip:
+			'''
+			[placeholder]
+			影がないとき、敵に狙われにくくなる
+			「あなたは私を盗んだ。私は自分自身を取り戻すために来た」
+			'''
+		AbilityDesc:
+			'''
+			カーソル位置に自身の影の複製を生成する
+			複製は10秒間持続し、敵の注意をそらす
+			複製に触れた敵はダメージを受ける
+			'''
+	}
+
+	KeelhaulCurse: {
+		DisplayName: トロピコアイランドの呪い
+		Tooltip:
+			'''
+			共に戦う知性を持つ武器を召喚する
+			レイピア、フック、剣のどれかを召喚し、それぞれ動作が違う
+			攻撃速度が速く、タグダメージが25%増加
+			剣のように振り回して敵にダメージを与え、その敵を集中攻撃させることもできる
+			'''
+	}
+
+	ShadowHand: {
+		DisplayName: カゲの手
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃した敵からライフを奪い、呪いをかける
+			呪いを受けた敵は、次にミニオンに攻撃された際に、激しい雷撃を受ける
+			「影を操り、恐怖をもたらす者」
+			'''
+	}
+
+	PowerLiftStar: {
+		DisplayName: スターストーン - ムキムキボディ
+		Tooltip:
+			'''
+			[placeholder]
+			「そもそもウェイトリフティングやってるの?」
+			'''
+		AbilityDesc:
+			'''
+			自身と周囲の味方のダメージと防御力を10秒間強化する
+			ムキムキボディを装備しているプレイヤー（使用者自身も含む）は、効果時間が15秒に延長される
+			付与される強化効果には4段階の強度がある
+			ダメージ: 1段階ごとに5%増加
+			防御力: 1段階ごとに3増加
+			'''
+	}
+
+	SweetFeastStar: {
+		DisplayName: スターストーン - チョーゲンキ!
+		Tooltip:
+			'''
+			[placeholder]
+			「取れるものは取って、何も返さないで!」
+			'''
+		AbilityDesc:
+			'''
+			 	サファイアスターを召喚し、10秒間上空に浮かばせる
+				サファイアスターからハートとフラワーが落ちてくる
+			'''
+	}
+
+	SupernovaStar: {
+		DisplayName: スターストーン - ズバットスター
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			カーソルの周囲に、現実を引き裂くような一連の斬撃を発生させる
+			最後の斬撃が発生後、全ての斬撃が同時に大ダメージを与える
+			「この技は、やる気が出ると感じる人もいるかもしれない」
+			'''
+	}
+
+	ArtAttackStar: {
+		DisplayName: スターストーン - カコンデポン
+		Tooltip:
+			'''
+			[placeholder]
+			「サークル＝友情」
+			'''
+		AbilityDesc:
+			'''
+			カーソル上にルビースターを10秒間召喚する
+			ルビースターは虹色の軌跡を残す
+			軌跡で敵を囲んで、ダメージを与える
+			'''
+	}
+
+	GoldMedal: {
+		DisplayName: キンピカール
+		Tooltip:
+			'''
+			輝いて金色に見える
+			「コンプリート主義者限定!」
+			'''
+	}
+
+	SuperCharge: {
+		DisplayName: スーパーチャージ
+		Tooltip:
+			'''
+			ジャンプ攻撃かハンマー攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ジャンプ攻撃とハンマー攻撃の追加ダメージが蓄積される
+			毎秒8%のダメージ増加をチャージし、最大で300%まで増加する
+			ジャンプ攻撃かハンマー攻撃を行うと、それぞれに蓄積されているブーストが消費される
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	AttackFxF: {
+		DisplayName: ピッキョローン F
+		Tooltip:
+			'''
+			攻撃時、効果音が発生することがある
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	JumpChargeZero: {
+		DisplayName: ハンマチャージ0
+		Tooltip:
+			'''
+			ハンマー攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ハンマー攻撃能力の追加ダメージが蓄積される
+			毎秒2%のダメージ増加をチャージし、最大で100%まで増加する
+			ハンマー攻撃を使用すると、現在蓄積されているブーストが消費される
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	SmashChargeZero: {
+		DisplayName: ジャンチャージ0
+		Tooltip:
+			'''
+			ジャンプ攻撃を発動するアクセサリーと一緒に装備する必要がある
+			ジャンプ攻撃能力の追加ダメージが蓄積される
+			毎秒2%のダメージ増加をチャージし、最大で100%まで増加する
+			ジャンプ攻撃を使用すると、現在蓄積されているブーストが消費される
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	HealthyHealthy: {
+		DisplayName: ゲンキゲンキ
+		Tooltip:
+			'''
+			毒、酸性毒、混乱、噛み傷に耐性
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	SuperDeepFocus: {
+		DisplayName: スーパーネガーウ
+		Tooltip:
+			'''
+			マナ自然回復をとても大きく増進
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「もっと…深く集中して!」
+			'''
+	}
+
+	SuperHpDrain: {
+		DisplayName: スーパーゲットー
+		Tooltip:
+			'''
+			ダメージが67%減少するが、与えたダメージの10%のライフを回復する
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「不死には代償が伴う」
+			'''
+	}
+
+	TotalFlowerSaver: {
+		DisplayName: トテモセツヤーク
+		Tooltip:
+			'''
+			消費マナが40%減少
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「実際にはFP、いや、マナを完全に節約できるわけではない」
+			'''
+	}
+
+	WaluigiEmblem: {
+		DisplayName: コダイノエムブレームW
+		Tooltip:
+			'''
+			紫色の配管工の衣装で服装を上書きする
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「わあ!」
+			'''
+	}
+
+	HappyHappyHeart: {
+		DisplayName: ハピハピーハート
+		Tooltip:
+			'''
+			時折、ライフを回復する
+			表示を切り替えると、回復時のエフェクトと効果音を無効にできる
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「神話上のハッピーハッピーハッピーハートと混同しないで」
+			'''
+	}
+
+	CertainKillSmash: {
+		DisplayName: ヒッサツナグーリ
+		Tooltip:
+			'''
+			ハンマー攻撃のクリティカル率を60%上昇
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	CertainKillStomp: {
+		DisplayName: ヒッサツフミイ
+		Tooltip:
+			'''
+			ジャンプ攻撃のクリティカル率を60%上昇
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			'''
+	}
+
+	RightOn: {
+		DisplayName: バッチリコマンド!
+		Tooltip:
+			'''
+			クリティカル率を20%上昇
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「完璧だ」
+			'''
+	}
+
+	AngerPower: {
+		DisplayName: イカリノパワー
+		Tooltip:
+			'''
+			ダメージが18%増加
+			敵に狙われやすくなる
+			戦闘中、20秒ごとに狂暴状態になる
+			狂暴状態は10秒間持続し、イカリノパワーの効果が2倍になるが、移動方向が反転する
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「私は怒り狂っている!」
+			'''
+	}
+
+	ShrinkSmash: {
+		DisplayName: ミニミニナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「潰してやる」
+			'''
+		AbilityDesc:
+			'''
+			巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+			攻撃した敵のダメージを一時的に半分にする
+			更に、殆どの敵のサイズを小さくする
+			'''
+	}
+
+	BagonJump: {
+		DisplayName: バゴーンジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「バゴーン?」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行う
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	BagonSmash: {
+		DisplayName: バゴーンナグーリ
+		Tooltip:
+			'''
+			[placeholder]
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「バゴーン?」
+			'''
+		AbilityDesc: 巨大なハンマーを前方に投影し、振り回して敵を粉砕する
+	}
+
+	AutoMultibounce: {
+		DisplayName: オートツギツギー
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「いいえ、踏みつけるのはあなたではありません」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして強力な踏みつけ攻撃を行い、6回繰り返す
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	QuakeJump: {
+		DisplayName: ジシーンジャンプ
+		Tooltip:
+			'''
+			{$CommonTooltips.StompAtkInfo}
+			[placeholder]
+			{$CommonTooltips.BadgeLabels.UnUnobtainable}
+			「これこそグラウンドポンドだ」
+			'''
+		AbilityDesc:
+			'''
+			ジャンプして特殊な踏みつけ攻撃を行い、着地時に大きな衝撃波を発生させる
+			踏みつけは最大で3回まで繰り返す ただし、毎回着地する必要がある
+			{$CommonTooltips.StompDR}
+			'''
+	}
+
+	ThunderFlower: {
+		DisplayName: サンダーフラワー
+		Tooltip:
+			'''
+			サンダーボールを発射する
+			敵の防御力を15無視
+			「えーっと、『thunder』は『f』で始まりませんよ」
+			'''
+	}
+
+	Brothership: {
+		DisplayName: ブラザーシップ
+		Tooltip:
+			'''
+			左クリック/右クリックでそれぞれファイアボール/アイスボールを発射する
+			左クリックと右クリックを同時に長押しすると、チャージし、
+			敵か地形に当たると爆発する、強力なボールを発射する
+			攻撃はそれぞれの属性デバフを与え、同じ属性が対象に付与されているならダメージが増加
+			「絆の力」
+			'''
+	}
+
+	AncientBrothership: {
+		DisplayName: 古のブラザーシップ
+		Tooltip:
+			'''
+			左クリック/右クリックでそれぞれファイアボール/サンダーボールを発射する
+			左クリックと右クリックを同時に長押しすると、チャージし、
+			敵か地形に当たると周囲にエネルギーボルトを放つ、エレメンタルスパークを発射する
+			攻撃はそれぞれの属性デバフを与え、同じ属性が対象に付与されているならダメージが増加
+			「幾多の物語に続く絆」
+			'''
+	}
+
+	SuperHammer: {
+		DisplayName: スーパーハンマー
+		Tooltip:
+			'''
+			強力なハンマーの一撃を左クリックを押し続けてチャージし、放すと振る
+			十分にチャージしてから振ると、殆どの敵や飛び道具を弾くことができる
+			「差出人へ返送」
+			'''
+	}
+
+	BrosBomber: {
+		DisplayName: ブラザーボム
+		Tooltip:
+			'''
+			左クリックでチャージ可能なハンマーを振る
+			右クリックで爆弾を投げる
+			投げた爆弾をハンマーで攻撃し、敵に大ダメージを与えよう!
+			稀に大きな爆弾を投げ、当たると敵を追尾するロケットに炸裂する
+			「爆弾ダービーの時間だ!」
+			'''
+		ChallengeDesc:
+			'''
+			エンドレスモード: 
+			右クリックすると爆弾が自動で空中に発射される
+			ハンマーでできるだけ多く攻撃しよう! 3回爆弾を外すとチャレンジが終了
+			スコアが高いほど、爆弾の連射速度は上がるが、精度は低くなる
+			'''
+		ChallengeTip: ヒント: 爆弾の拡散を抑えるために移動を最小限に抑えよう
+	}
+
+	BrosShell: {
+		DisplayName: ブラザーシェル
+		Tooltip:
+			'''
+			左クリックで甲羅を発射する
+			甲羅は敵か地形に当たると跳ね返り、プレイヤーに向かって戻ってくる
+			甲羅がプレイヤーに届く寸前で右クリックすると、再び甲羅を発射する
+			再び発射した甲羅は速度とダメージが増加する
+			「3時間甲羅を蹴り続ける」
+			'''
+		ChallengeDesc:
+			'''
+			エンドレスモード: 
+			甲羅を無限に打ち返すことができるようになった
+			できるだけ長く打ち反そう!
+			スコアが高くなってくるにつれ、甲羅の速度が上がっていく
+			'''
+		ChallengeTip: ヒント: 反応する時間を最大化するために、ターゲットダミーを画面端に配置する
+	}
+
+	BadgeSash: {
+		DisplayName: バッジサッシュ
+		Tooltip:
+			'''
+			バッジポイント（BP）システムを使用する、
+			特殊なアクセサリースロットを追加するが、ステータスが弱化する
+			バッジにはBPの消費量が違い、十分なBPがあればこれらのスロットに装備できる
+			専用のアクセサリースロットに装備したバッジは、修飾子の効果がない
+			このバッジサッシュは5BPを与えるが、以下の効果を受ける
+			ダメージが0.9倍
+			被ダメージが1.1倍
+			'''
+	}
+
+	PowerTap: {
+		DisplayName: バトルタップ
+		Tooltip:
+			'''
+			バトルプラグ専用のアクセサリースロットを追加するが、ステータスが弱化する
+			専用のアクセサリースロットに装備したバトルプラグは、修飾子の効果がない
+			このパワータップはスロットを2つ追加するが、以下の効果を受ける
+			ダメージが0.9倍
+			被ダメージが1.1倍
+			バトルプラグのリチャージ速度が0.8倍
+			'''
+	}
+
+	MaxBadgeSash: {
+		DisplayName: マックスバッジサッシュ
+		Tooltip:
+			'''
+			バッジポイント（BP）システムを使用する、
+			特殊なアクセサリースロットを追加するが、ステータスが弱化する
+			バッジにはBPの消費量が違い、十分なBPがあればこれらのスロットに装備できる
+			専用のアクセサリースロットに装備したバッジは、修飾子の効果がない
+			このバッジサッシュは30BPを与えるが、以下の効果を受ける
+			ダメージが0.75倍
+			被ダメージが1.25倍
+			'''
+	}
+
+	SuperBadgeSash: {
+		DisplayName: スーパーバッジサッシュ
+		Tooltip:
+			'''
+			バッジポイント（BP）システムを使用する、
+			特殊なアクセサリースロットを追加するが、ステータスが弱化する
+			バッジにはBPの消費量が違い、十分なBPがあればこれらのスロットに装備できる
+			専用のアクセサリースロットに装備したバッジは、修飾子の効果がない
+			このバッジサッシュは10BPを与えるが、以下の効果を受ける
+			ダメージが0.85倍
+			被ダメージが1.15倍
+			'''
+	}
+
+	UltraBadgeSash: {
+		DisplayName: ウルトラバッジサッシュ
+		Tooltip:
+			'''
+			バッジポイント（BP）システムを使用する、
+			特殊なアクセサリースロットを追加するが、ステータスが弱化する
+			バッジにはBPの消費量が違い、十分なBPがあればこれらのスロットに装備できる
+			専用のアクセサリースロットに装備したバッジは、修飾子の効果がない
+			このバッジサッシュは20BPを与えるが、以下の効果を受ける
+			ダメージが0.8倍
+			被ダメージが1.2倍
+			'''
+	}
+
+	SmoochCard: {
+		DisplayName: スターカード - おねえさんのキス
+		Tooltip:
+			'''
+			[placeholder]
+			「愛の力!」
+			'''
+		AbilityDesc: ライフを最大値の40%回復する
+	}
+
+	TimeOutCard: {
+		DisplayName: スターカード - じかんよとまれ
+		Tooltip:
+			'''
+			[placeholder]
+			「爆発物は必要ない」
+			'''
+		AbilityDesc:
+			'''
+			ストップを高確率で与えるパルスを放つ
+			ストップは、殆どの敵の動きを一定時間停止させる
+			'''
+	}
+
+	LullabyCard: {
+		DisplayName: スターカード - ママのこもりうた
+		Tooltip:
+			'''
+			[placeholder]
+			「甘い夢」
+			'''
+		AbilityDesc:
+			'''
+			カーソルに向けて音符を大量に放つ
+			音符のダメージは低いが、敵を一定時間、眠気状態にする
+			眠気を催した敵は防御力が減少し、殆どの敵は移動速度も低下する
+			'''
+	}
+
+	StarRod: {
+		DisplayName: スターロッド
+		Tooltip:
+			'''
+			[placeholder]
+			「この完全に機能するスターロッドの力を目の当たりにしろ!」
+			'''
+		AbilityDesc:
+			'''
+			10秒間、ほぼ無敵になり、ダメージが増加する
+			'''
+	}
+
+	TimeOutStar: {
+		DisplayName: スターストーン - ジカンヨトマレ
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			巨大な爆弾を投下し、一定時間後に爆発する
+			爆発に巻き込まれた敵はストップを受けることがある
+			ストップは、殆どの敵の動きを一定時間停止させる
+			'''
+	}
+
+	ShowstopperStar: {
+		DisplayName: スターストーン - イチゲキコロリ
+		Tooltip:
+			'''
+			[placeholder]
+			「ショウタイムだ」
+			'''
+		AbilityDesc:
+			'''
+			カーソルに向けて6つのガーネットスターを連続して発射する
+			各スターは、初回ヒット時に低確率で特大ダメージを与える
+			'''
+	}
+
+	EarthTremorStar: {
+		DisplayName: スターストーン - デッカクドッカン
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			跳ね返るダイヤモンドスターを投げ、地形に当たるたびに強力な衝撃波を放つ
+			スターは6回跳ね返り、発生する衝撃波はそれぞれ前回よりも強力になる
+			'''
+	}
+
+	BrosEgg: {
+		DisplayName: ブラザーエッグ
+		Tooltip:
+			'''
+			左クリックで卵を投げる
+			卵が敵に当たると跳ね返る
+			卵の近くで右クリックを押すと、敵に向けて卵を叩き返す
+			卵を叩き返すとダメージが増加する
+			一定回数当たると卵が割れて、コインやアイテムが出てくる
+			「叩き壊して開けろ!」
+			'''
+		ChallengeDesc:
+			'''
+			エンドレスモード: 
+			卵を無限に打ち返せるようになった
+			できるだけ長く打ち返そう!
+			スコアが高いほど、卵はより速く、より高く飛ぶ
+			'''
+		ChallengeTip: ヒント：高い機動力はここで大いに役立つ!可能なら、卵を画面内に留めるために上昇しよう
+	}
+
+	ChallengeNode: {
+		DisplayName: チャレンジグロビン
+		Tooltip:
+			'''
+			ブラザーエッグ、ブラザーシェル、ブラザーボム、ブラザースターのエンドレスモードを有効にする
+			このモードでは、攻撃はダメージを与えず、ずっと続き、難易度が徐々に上昇していく
+			できる限り長く続けよう
+			素晴らしいパフォーマンスには少量のコインを報酬として入手できる
+			練習やチャレンジに最適
+			なお、エンドレスモードにはターゲットダミーを使用できる
+			「これはグロビンの顔のように見えますか?」
+			'''
+	}
+
+	BrosStar: {
+		DisplayName: ブラザースター
+		Tooltip:
+			'''
+			左クリックで大きな星を召喚し、頭上を飛び回らせる
+			星が頭上に飛んでいるときに右クリックで、小さな星を投げる
+			数秒後、大きな星はカーソルに最も近い敵に体当たりし、大ダメージを与える
+			大きな星に当たった小さな星は、それぞれ追従し、攻撃に追加される
+			「流れ星」
+			'''
+		ChallengeDesc:
+			'''
+			エンドレスモード: 
+			大きな星が消える前に、できるだけ多くの小さな星を投げつけよう!
+			当てるたびに、大きな星が消えるまで時間が伸びる
+			スコアが高いほど、大きな星の移動速度が速くなる
+			'''
+		ChallengeTip: ヒント：星を狙うには、ショットを先行させるのが効果的 星が加速するにつれて、より大きく先行させる必要がある
+	}
+
+	PinkBomber: {
+		DisplayName: ピンクボンバー
+		Tooltip:
+			'''
+			一定時間後に爆発する強力な爆弾を発射する
+			発射できる爆弾は1つだけだが、右クリックで起爆できる
+			「負けるな!」
+			'''
+	}
+
+	AirStrikeShell: {
+		DisplayName: 羽根付き甲羅
+		Tooltip:
+			'''
+			左クリックを押し続けると翼を持つ亀の甲羅を回転させてチャージする
+			最大までチャージすると、甲羅は高速で発射される
+			「空襲だ!」
+			'''
+	}
+
+	WaterBlock: {
+		DisplayName: 水のブロック
+		Tooltip:
+			'''
+			常に水浸しになり、火から身を守る
+			ただし、適切な装備がないと溺れてしまう!
+			「水が魚臭い」
+			'''
+	}
+
+	CloudNine: {
+		DisplayName: クラウドナイン
+		Tooltip:
+			'''
+			[placeholder]
+			「先月名前が変わりました!」
+			'''
+		AbilityDesc:
+			'''
+			15秒間、雲を装備し、以下の効果を得る
+			攻撃の回避率が上昇
+			翼とロケットブーツで無限に飛べるように
+			機動力が上昇
+			'''
+	}
+
+	HeartAttack: {
+		DisplayName: ドガボンのしんぞう
+		Tooltip:
+			'''
+			チャージすると、カーソルの周囲に小さなハートの群れを放つ
+			チャージした時間が長いほど、ハートの数が増える
+			「一度の心臓手術の失敗の後：」
+			'''
+	}
+
+	BulbCannon: {
+		DisplayName: バルブキャノン
+		Tooltip:
+			'''
+			あらゆる防御を無視する強力な電撃を発射する
+			左クリックを長押しして、チャージするとダメージが増加
+			「おもちゃじゃないよ!」
+			'''
+	}
+
+	FireblossomBlaster: {
+		DisplayName: ファイアフラワーブラスター
+		Tooltip:
+			'''
+			2発の弾丸を同時に発射し、銃口から炎を放つ
+			マスケット銃の弾丸を爆発弾に変換する
+			'''
+	}
+
+	TattleLog: {
+		DisplayName: タートルログ
+		Tooltip:
+			'''
+			対象の図鑑の完成度に応じて、対象に与えるダメージが最大で20%増加する
+			エーテリアン系の敵と殆どのボスはこの効果に耐性がある
+			「所有物：クリボー大学」
+			'''
+	}
+
+	GreenShell: {
+		DisplayName: 緑の甲羅
+		Tooltip:
+			'''
+			地形で跳ね返る緑の甲羅を発射する
+			左クリックを長押しすると甲羅が空中で停止し、チャージする
+			最大までチャージするか、左クリックを離すと、甲羅はあなたに向けて発射される
+			「緑は新しい青」
+			'''
+	}
+
+	GaleForce: {
+		DisplayName: ゲイルフォース
+		Tooltip:
+			'''
+			強力な気流を放つ
+			敵の防御力を30無視
+			「ぶっ飛ばしてやる!」
+			'''
+	}
+
+	DragonBreath: {
+		DisplayName: ドラゴンブレス
+		Tooltip:
+			'''
+			ジェルを弾薬として使う
+			敵の防御力を10無視する
+			「炎がちょっと臭いな…」
+			'''
+	}
+
+	MachoSpecs: {
+		DisplayName: マッチョスペック
+		Tooltip:
+			'''
+			ダメージが10%増加
+			「スタイルは疑問だが、このサングラスは力強さを醸し出している」
+			'''
+	}
+
+	SwarmingTentacle: {
+		DisplayName: モアモアのしょくしゅ
+		Tooltip:
+			'''
+			召喚タグダメージ 1
+			召喚タグダメージは7回までスタックする
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃時に鞭が増えることがある
+			「モアモアの時間だ」
+			'''
+	}
+
+	MagnusFist2: {
+		DisplayName: バッテンパンチ
+		Tooltip:
+			'''
+			最大2発のロケットドリルを連続して発射する
+			各ドリルには独立したクールダウンがあり、再度の発射には時間がかかる
+			発射したばかりのドリルはダメージが増加する
+			敵の防御力を25無視
+			「見た目に反して、採掘には使えない」
+			'''
+	}
+
+	XScepter: {
+		DisplayName: バツガルフの杖
+		Tooltip:
+			'''
+			バツバリアンを召喚して守りを固める
+			バツバリアンX1体につき、防御力が2増加
+			「バツガルフのために、バツガルフについて、バツガルフによって」
+			'''
+	}
+
+	MushroomSkirt: {
+		DisplayName: キノコスカート
+		Tooltip: ""
+	}
+
+	MushroomShirt: {
+		DisplayName: キノコシャツ
+		Tooltip: ""
+	}
+
+	MushroomBraids: {
+		DisplayName: キノコ三つ編み
+		Tooltip: ""
+	}
+
+	PeachyTiara: {
+		DisplayName: 桃のプリンセスのティアラ
+		Tooltip: "「カメに誘拐されないように気をつけて」"
+	}
+
+	PeachyDress: {
+		DisplayName: 桃のプリンセスのドレス
+		Tooltip: "「カメに誘拐されないように気をつけて」"
+	}
+
+	PeachyBlouse: {
+		DisplayName: 桃のプリンセスのブラウス
+		Tooltip: "「カメに誘拐されないように気をつけて」"
+	}
+
+	StarPrincessSlippers: {
+		DisplayName: スタープリンセスのパンプス
+		Tooltip: "「見えないからといって、そこにないわけではない」"
+	}
+
+	StarFireDress: {
+		DisplayName: スターファイアプリンセスのドレス
+		Tooltip: "「明るく燃える!」"
+	}
+
+	StarFireCrown: {
+		DisplayName: スターファイアプリンセスの冠
+		Tooltip: "「明るく燃える!」"
+	}
+
+	StarFireSlippers: {
+		DisplayName: スターファイアプリンセスのパンプス
+		Tooltip: "「明るく燃える!」"
+	}
+
+	StarFrostSlippers: {
+		DisplayName: スターフロストプリンセスのパンプス
+		Tooltip: ""
+	}
+
+	StarFrostDress: {
+		DisplayName: スターフロストプリンセスのドレス
+		Tooltip: ""
+	}
+
+	StarFrostCrown: {
+		DisplayName: スターフロストプリンセスの冠
+		Tooltip: ""
+	}
+
+	FloralBlouse: {
+		DisplayName: 花のプリンセスのブラウス
+		Tooltip: ""
+	}
+
+	FloralDress: {
+		DisplayName: 花のプリンセスのドレス
+		Tooltip: ""
+	}
+
+	FloralFireBlouse: {
+		DisplayName: 花の炎のプリンセスのブラウス
+		Tooltip: "「花の激怒のとき」"
+	}
+
+	FloralFireDress: {
+		DisplayName: 花の炎のプリンセスのドレス
+		Tooltip: "「花の激怒のとき」"
+	}
+
+	FloralFireTiara: {
+		DisplayName: 花の炎のプリンセスのティアラ
+		Tooltip: "「花の激怒のとき」"
+	}
+
+	FloralFoamBlouse: {
+		DisplayName: 花の泡のプリンセスのブラウス
+		Tooltip: ""
+	}
+
+	FloralFoamDress: {
+		DisplayName: 花の泡のプリンセスのドレス
+		Tooltip: ""
+	}
+
+	FloralFoamTiara: {
+		DisplayName: 花の泡のプリンセスのティアラ
+		Tooltip: ""
+	}
+
+	FloralFrostBlouse: {
+		DisplayName: 花の氷のプリンセスのブラウス
+		Tooltip: ""
+	}
+
+	FloralFrostDress: {
+		DisplayName: 花の氷のプリンセスのドレス
+		Tooltip: ""
+	}
+
+	FloralFrostTiara: {
+		DisplayName: 花の氷のプリンセスのティアラ
+		Tooltip: ""
+	}
+
+	FloralTiara: {
+		DisplayName: 花のプリンセスのティアラ
+		Tooltip: ""
+	}
+
+	PurplePlumberHat: {
+		DisplayName: 紫の配管工の帽子
+		Tooltip: "「わあ!」"
+	}
+
+	PurplePlumberPants: {
+		DisplayName: 紫の配管工のパンツ
+		Tooltip: "「わあ!」"
+	}
+
+	PurplePlumberShirt: {
+		DisplayName: 紫の配管工のシャツ
+		Tooltip: "「わあ!」"
+	}
+
+	YellowPlumberHat: {
+		DisplayName: 黄色の配管工の帽子
+		Tooltip: ""
+	}
+
+	YellowPlumberPants: {
+		DisplayName: 黄色の配管工のパンツ
+		Tooltip: ""
+	}
+
+	YellowPlumberShirt: {
+		DisplayName: 黄色の配管工のシャツ
+		Tooltip: ""
+	}
+
+	PeachyFireBlouse: {
+		DisplayName: 桃の炎のプリンセスのブラウス
+		Tooltip: ""
+	}
+
+	PeachyFireDress: {
+		DisplayName: 桃の炎のプリンセスのドレス
+		Tooltip: ""
+	}
+
+	PeachyFireTiara: {
+		DisplayName: 桃の炎のプリンセスのティアラ
+		Tooltip: ""
+	}
+
+	PeachyFoamBlouse: {
+		DisplayName: 桃の泡のプリンセスのブラウス
+		Tooltip: ""
+	}
+
+	PeachyFoamDress: {
+		DisplayName: 桃の泡のプリンセスのドレス
+		Tooltip: ""
+	}
+
+	PeachyFoamTiara: {
+		DisplayName: 桃の泡のプリンセスのティアラ
+		Tooltip: ""
+	}
+
+	PeachyFrostBlouse: {
+		DisplayName: 桃の氷のプリンセスのブラウス
+		Tooltip: "「カメたちに本当に怖気づいてもらおう!」"
+	}
+
+	PeachyFrostDress: {
+		DisplayName: 桃の氷のプリンセスのドレス
+		Tooltip: "「カメたちに本当に怖気づいてもらおう!」"
+	}
+
+	PeachyFrostTiara: {
+		DisplayName: 桃の氷のプリンセスのティアラ
+		Tooltip: "「カメたちに本当に怖気づいてもらおう!」"
+	}
+
+	FireMushroomBraids: {
+		DisplayName: 炎のキノコ三つ編み
+		Tooltip: "「火の菌類」"
+	}
+
+	FireMushroomShirt: {
+		DisplayName: 炎のキノコシャツ
+		Tooltip: "「火の菌類」"
+	}
+
+	FireMushroomSkirt: {
+		DisplayName: 炎のキノコスカート
+		Tooltip: "「火の菌類」"
+	}
+
+	FoamMushroomBraids: {
+		DisplayName: 泡のキノコ三つ編み
+		Tooltip: ""
+	}
+
+	FoamMushroomShirt: {
+		DisplayName: 泡のキノコシャツ
+		Tooltip: ""
+	}
+
+	FoamMushroomSkirt: {
+		DisplayName: 泡のキノコスカート
+		Tooltip: ""
+	}
+
+	FrostMushroomBraids: {
+		DisplayName: 氷のキノコ三つ編み
+		Tooltip: ""
+	}
+
+	FrostMushroomShirt: {
+		DisplayName: 氷のキノコシャツ
+		Tooltip: ""
+	}
+
+	FrostMushroomSkirt: {
+		DisplayName: 氷のキノコスカート
+		Tooltip: ""
+	}
+
+	FireMushroomHat: {
+		DisplayName: 炎のキノコ帽子
+		Tooltip: "「火の菌類」"
+	}
+
+	FireMushroomPants: {
+		DisplayName: 炎のキノコパンツ
+		Tooltip: "「火の菌類」"
+	}
+
+	FireMushroomVest: {
+		DisplayName: 炎のキノコベスト
+		Tooltip: "「火の菌類」"
+	}
+
+	FoamMushroomHat: {
+		DisplayName: 泡のキノコ帽子
+		Tooltip: ""
+	}
+
+	FoamMushroomPants: {
+		DisplayName: 泡のキノコパンツ
+		Tooltip: ""
+	}
+
+	FoamMushroomVest: {
+		DisplayName: 泡のキノコベスト
+		Tooltip: ""
+	}
+
+	FrostMushroomHat: {
+		DisplayName: 氷のキノコ帽子
+		Tooltip: "「まさにフロストTだ!」"
+	}
+
+	FrostMushroomPants: {
+		DisplayName: 氷のキノコパンツ
+		Tooltip: "「まさにフロストTだ!」"
+	}
+
+	FrostMushroomVest: {
+		DisplayName: 氷のキノコベスト
+		Tooltip: "「まさにフロストTだ!」"
+	}
+
+	StarFoamCrown: {
+		DisplayName: スターフォームプリンセスの冠
+		Tooltip: ""
+	}
+
+	StarFoamDress: {
+		DisplayName: スターフォームプリンセスのドレス
+		Tooltip: ""
+	}
+
+	StarFoamSlippers: {
+		DisplayName: スターフォームプリンセスのパンプス
+		Tooltip: ""
+	}
+
+	UltraPowerTap: {
+		DisplayName: ウルトラバトルタップ
+		Tooltip:
+			'''
+			バトルプラグ専用のアクセサリースロットを追加するが、ステータスが低下する
+			専用のアクセサリースロットに装備したバトルプラグは、修飾子の効果がない
+			このパワータップはスロットを4つ追加するが、以下の効果を受ける
+			ダメージが0.8倍
+			被ダメージが1.2倍
+			バトルプラグのリチャージ速度が0.6倍
+			'''
+	}
+
+	SuperPowerTap: {
+		DisplayName: スーパーバトルタップ
+		Tooltip:
+			'''
+			バトルプラグ専用のアクセサリースロットを追加するが、ステータスが低下する
+			専用のアクセサリースロットに装備したバトルプラグは、修飾子の効果がない
+			このパワータップはスロットを3つ追加するが、以下の効果を受ける
+			ダメージが0.85倍
+			被ダメージが1.15倍
+			バトルプラグのリチャージ速度が0.7倍
+			'''
+	}
+
+	MaxPowerTap: {
+		DisplayName: マックスバトルタップ
+		Tooltip:
+			'''
+			バトルプラグ専用のアクセサリースロットを追加するが、ステータスが低下する
+			専用のアクセサリースロットに装備したバトルプラグは、修飾子の効果がない
+			このパワータップはスロットを5つ追加するが、以下の効果を受ける
+			ダメージが0.75倍
+			被ダメージが1.25倍
+			バトルプラグのリチャージ速度が0.5倍
+			'''
+	}
+
+	FieryAttack: {
+		DisplayName: バトルプラグ - ほのおアタック 
+		PlugName: ほのおアタック 
+		Tooltip:
+			'''
+			攻撃時にダメージが15%増加し、炎上させることがある
+			placeholder
+			'''
+	}
+
+	IcyAttack: {
+		DisplayName: バトルプラグ - こおりアタック
+		PlugName: こおりアタック
+		Tooltip:
+			'''
+			攻撃時にダメージが20%増加し、霜焼けを与えることがある
+			placeholder
+			'''
+	}
+
+	DizzifyingAttack: {
+		DisplayName: バトルプラグ - かいてんアタック
+		PlugName: かいてんアタック
+		Tooltip:
+			'''
+			攻撃時にダメージが10%増加し、混乱させることがある
+			placeholder
+			'''
+	}
+
+	SurpriseIronBall: {
+		DisplayName: バトルプラグ - ついでにテッキュウ 
+		PlugName: ついでにテッキュウ 
+		Tooltip:
+			'''
+			クリティカル時、高確率で敵にスパイクボールを落として追撃する
+			placeholder
+			'''
+	}
+
+	KaboomAttack: {
+		DisplayName: バトルプラグ - どっかんアタック
+		PlugName: どっかんアタック
+		Tooltip:
+			'''
+			クリティカル時、高確率で近くの敵にダメージを与える爆発を起こす
+			placeholder
+			'''
+	}
+
+	AttackBoost: {
+		DisplayName: バトルプラグ - ふえるアタック
+		PlugName: ふえるアタック
+		Tooltip:
+			'''
+			攻撃が命中時、高確率で追撃する
+			追撃は攻撃の25%のダメージを与える
+			placeholder
+			'''
+	}
+
+	AntiArmySpecialist: {
+		DisplayName: バトルプラグ - クッパぐんだんバスター
+		PlugName: クッパぐんだんバスター
+		Tooltip:
+			'''
+			近くにいる敵の数に応じてダメージが増加する
+			3体目以降の敵ごとに、ダメージが1%増加する（最大で15%）
+			placeholder
+			'''
+	}
+
+	AntiFlyingSpecialist: {
+		DisplayName: バトルプラグ - ひこうバスター
+		PlugName: ひこうバスター
+		Tooltip:
+			'''
+			空中にいる敵に対してダメージが10%増加
+			placeholder
+			「撃ち落とせ」
+			'''
+	}
+
+	AntiGlohmSpecialist: {
+		DisplayName: バトルプラグ - ゼツエンバスター 
+		PlugName: ゼツエンバスター 
+		Tooltip:
+			'''
+			不浄か真紅にいるとダメージが10%増加
+			placeholder
+			「闇を倒せ」
+			'''
+	}
+
+	AntiSpikeSpecialist: {
+		DisplayName: バトルプラグ - とげバスター 
+		PlugName: とげバスター 
+		Tooltip:
+			'''
+			近距離の敵に対してダメージが10%増加
+			placeholder
+			チャージがあるなら、接触ダメージを5%軽減
+			'''
+	}
+
+	AntiZokketSpecialist: {
+		DisplayName: バトルプラグ - ゾケットバスター
+		PlugName: ゾケットバスター
+		Tooltip:
+			'''
+			殆どの金属の敵に対してダメージが15%増加
+			placeholder
+			'''
+	}
+
+	BrosBoost: {
+		DisplayName: バトルプラグ - ブラザーブースト
+		PlugName: ブラザーブースト
+		Tooltip:
+			'''
+			ジャンプ攻撃とハンマー攻撃のダメージを100%増加させるが、
+			能力のクールダウンが20%延長される
+			placeholder
+			'''
+	}
+
+	PerformanceBonus: {
+		DisplayName: バトルプラグ - ブラザーフィーバー 
+		PlugName: ブラザーフィーバー 
+		Tooltip:
+			'''
+			ジャンプ攻撃かハンマー攻撃でクリティカル時、能力のクールダウンを半分にする
+			placeholder
+			'''
+	}
+
+	AutoExcellent: {
+		DisplayName: バトルプラグ - かってにエクセレント
+		PlugName: かってにエクセレント
+		Tooltip:
+			'''
+			1秒ごとにクリティカルが必ず出る
+			placeholder
+			「エクセレント」
+			'''
+	}
+
+	EasyPeasyCounters: {
+		DisplayName: バトルプラグ - らくらくカウンター 
+		PlugName: らくらくカウンター 
+		Tooltip:
+			'''
+			アクションガードと一緒に装備すると、アクションガードのタイミングが簡単になる
+			アクションガードを使用してない時は、一定確率で被ダメージを20%軽減し、近くの敵にダメージを与える
+			placeholder
+			'''
+	}
+
+	EmpowerCounters: {
+		DisplayName: バトルプラグ - きょうれつカウンター 
+		PlugName: きょうれつカウンター 
+		Tooltip:
+			'''
+			物理攻撃に対してダメージを与える
+			チャージがあるなら、バッジ、バトルプラグなど反撃効果のダメージを増加
+			placeholder
+			'''
+	}
+
+	DamageShield: {
+		DisplayName: バトルプラグ - ふせぐんダー
+		PlugName: ふせぐんダー
+		Tooltip:
+			'''
+			1秒あたり1回、被ダメージを20%軽減
+			placeholder
+			'''
+	}
+
+	Protectus: {
+		DisplayName: バトルプラグ - まもるんダー 
+		PlugName: まもるんダー 
+		Tooltip:
+			'''
+			1秒あたり1回、被ダメージをほぼ無効化する
+			placeholder
+			'''
+	}
+
+	Notdroppin: {
+		DisplayName: バトルプラグ - たおれんダー
+		PlugName: たおれんダー
+		Tooltip:
+			'''
+			致命傷を受けても死なず、ライフを1残して耐え、長時間無敵状態になる
+			placeholder
+			「決して後退しない、何のため?」
+			'''
+	}
+
+	AutoAmpberry: {
+		DisplayName: バトルプラグ - かってにハンドータイ 
+		PlugName: かってにハンドータイ 
+		Tooltip:
+			'''
+			呪い、沈黙、噛み傷を自動で治すことがある
+			placeholder
+			「心が温まる」
+			'''
+	}
+
+	AutoHerb: {
+		DisplayName: バトルプラグ - かってにハーブ 
+		PlugName: かってにハーブ 
+		Tooltip:
+			'''
+			殆どのデバフを自動で治す
+			placeholder
+			「爽やか!」
+			'''
+	}
+
+	SurefootedGuard: {
+		DisplayName: バトルプラグ - フラフラガード 
+		PlugName: フラフラガード 
+		Tooltip:
+			'''
+			移動を阻害するデバフの殆どを自動で治すことがある
+			placeholder
+			'''
+	}
+
+	TemperatureGuard: {
+		DisplayName: バトルプラグ - カンダンガード 
+		PlugName: カンダンガード 
+		Tooltip:
+			'''
+			熱さや寒さに関連するデバフの殆どを自動で治すことがある
+			placeholder
+			'''
+	}
+
+	GlohmGuard: {
+		DisplayName: バトルプラグ - ゼツエンガード 
+		PlugName: ゼツエンガード 
+		Tooltip:
+			'''
+			不浄か真紅にいると、被ダメージを10%軽減
+			placeholder
+			'''
+	}
+
+	BackAtchaAttack: {
+		DisplayName: バトルプラグ - おかえしアタック
+		PlugName: おかえしアタック
+		Tooltip:
+			'''
+			ダメージを受けると、近くの敵を攻撃するハンマーを投影する
+			placeholder
+			「そうだな、バカルー」
+			'''
+	}
+
+	OuchCharge: {
+		DisplayName: バトルプラグ - いたいのチャージ 
+		PlugName: Ouch Charge
+		Tooltip:
+			'''
+			ダメージを受けるとエネルギーが蓄積される
+			一定のダメージを受けると、10秒間ダメージが100%増加する
+			placeholder
+			「暴力は暴力を生みだす」
+			'''
+	}
+
+	Auto1Up: {
+		DisplayName: バトルプラグ - かってに1UP 
+		PlugName: かってに1UP 
+		Tooltip:
+			'''
+			致命傷を受けても死なず、最大ライフの50%を回復する
+			placeholder
+			'''
+	}
+
+	AutoMushroom: {
+		DisplayName: バトルプラグ - かってにキノコ 
+		PlugName: かってにキノコ 
+		Tooltip:
+			'''
+			ライフが最大値の50%以下のとき、15秒ごとにライフを最大で10%回復する
+			placeholder
+			'''
+	}
+
+	AutoSyrupJar: {
+		DisplayName: バトルプラグ - かってにシロップ 
+		PlugName: かってにシロップ 
+		Tooltip:
+			'''
+			マナが最大値の50%以下のとき、5秒ごとにマナを20%回復する
+			placeholder
+			'''
+	}
+
+	DeluxeAuto: {
+		DisplayName: バトルプラグ - かってにセレクト
+		PlugName: かってにセレクト
+		Tooltip:
+			'''
+			かってにキノコ、かってにシロップ、かってに1UPと一緒に装備すると効果が75%増加する
+			効果を高めたプラグの種類によって、消費するチャージ量が違う
+			かってにキノコはチャージを5消費する
+			かってにシロップはチャージを1消費する
+			かってに1UPはチャージを全て消費する
+			placeholder
+			'''
+	}
+
+	BoomerangItems: {
+		DisplayName: バトルプラグ - へらないアイテム 
+		PlugName: へらないアイテム 
+		Tooltip:
+			'''
+			ライフ回復、マナ回復、またはバフを付与する消費アイテムを消費せずに使用できる
+			使用したアイテムの種類によって、消費するチャージ量が違う
+			ライフ回復アイテムはチャージを3消費する
+			マナ回復アイテムはチャージを1消費する
+			バフ付与アイテムはチャージを5消費する
+			placeholder
+			'''
+	}
+
+	ItemShare: {
+		DisplayName: バトルプラグ - いっしょにアイテム 
+		PlugName: いっしょにアイテム 
+		Tooltip:
+			'''
+			ライフ回復、マナ回復、またはバフを付与する消費アイテムを使用すると、その効果の一部を近くの味方も受ける
+			使用したアイテムの種類によって、消費するチャージ量が違う
+			ライフ回復アイテムはチャージを4消費する
+			マナ回復アイテムはチャージを1消費する
+			バフ付与アイテムはチャージを2消費する
+			placeholder
+			「分かち合うことは思いやり」
+			'''
+	}
+
+	SecondHelping: {
+		DisplayName: バトルプラグ - おかわりアイテム 
+		PlugName: おかわりアイテム 
+		Tooltip:
+			'''
+			ライフ回復、マナ回復、またはバフを付与する消費アイテムを一度に2個使う
+			アイテムを2個消費するが、効果が2倍になる
+			使用したアイテムの種類によって、消費するチャージ量が違う
+			ライフ回復アイテムはチャージを全て消費する
+			マナ回復アイテムはチャージを1消費する
+			バフ付与アイテムはチャージを2消費する
+			placeholder
+			'''
+	}
+
+	SpiritedItem: {
+		DisplayName: バトルプラグ - ごきげんアイテム 
+		PlugName: ごきげんアイテム 
+		Tooltip:
+			'''
+			ライフ回復、マナ回復、またはバフを付与する消費アイテムを使用したとき、ダメージ、防御力、または速度が一時的に強化されることがある
+			placeholder
+			'''
+	}
+
+	Coinpiler: {
+		DisplayName: バトルプラグ - ざくざくコイン 
+		PlugName: ざくざくコイン 
+		Tooltip:
+			'''
+			敵にダメージを与えると、与えたダメージに応じてコインが生成される
+			placeholder
+			'''
+	}
+
+	ChargeBank: {
+		DisplayName: バトルプラグ - かいすうサービス
+		PlugName: かいすうサービス
+		Tooltip:
+			'''
+			他のバトルプラグの効果が発動したとき、そのプラグのチャージを消費しない代わりに、
+			このプラグのチャージを消費する 発動したプラグの最大チャージ量によって、消費するチャージ量が違う
+			placeholder
+			'''
+	}
+
+	AutoLuigi: {
+		DisplayName: バトルプラグ - かってにルイージ 
+		PlugName: Auto Luigi
+		Tooltip:
+			'''
+			戦闘中、支援してくれる、緑の配管工の幻影を定期的に召喚する
+			placeholder
+			'''
+	}
+
+	CountdownToCharge: {
+		DisplayName: バトルプラグ - あとあとプラグ回復 
+		PlugName: あとあとプラグ回復  
+		Tooltip:
+			'''
+			戦闘中はタイマーが減少していくが、それ以外はゆっくりとタイマーが増加していく
+			タイマーが0になるとプラグの効果が発動し、アクセサリーの能力が即座に発動できるようになる
+			placeholder
+			'''
+	}
+
+	CountdownToCrush: {
+		DisplayName: バトルプラグ - あとあとボム 
+		PlugName: あとあとボム 
+		Tooltip:
+			'''
+			戦闘中はタイマーが減少していくが、それ以外はゆっくりとタイマーが増加していく
+			タイマーが0になるとプラグの効果が発動し、爆発する弾丸を発射する
+			placeholder
+			'''
+	}
+
+	CountdownToCure: {
+		DisplayName: バトルプラグ - あとあとヒール 
+		PlugName: あとあとヒール 
+		Tooltip:
+			'''
+			戦闘中はタイマーが減少していくが、それ以外はゆっくりとタイマーが増加していく
+			タイマーが0になるとプラグの効果が発動し、ライフとマナが全回復し、デバフが治る
+			placeholder
+			'''
+	}
+
+	LootBooster: {
+		DisplayName: バトルプラグ - ぽろっとドロップ 
+		PlugName: ぽろっとドロップ 
+		Tooltip:
+			'''
+			倒した敵が25%の確率でアイテムを2倍の確率で落とす
+			この効果は殆どのボスとミニボスには無効
+			placeholder
+			'''
+	}
+
+	Seedleize: {
+		DisplayName: バトルプラグ - アナタはナエボー
+		PlugName: アナタはナエボー
+		Tooltip:
+			'''
+			攻撃が命中時、敵を低確率で弱い敵に変身させる
+			この効果は殆どのボスとミニボスには無効
+			placeholder
+			「種男がいないから、スライムで我慢するしかない」
+			'''
+	}
+
+	SpeedyRecharge: {
+		DisplayName: バトルプラグ - ささっとプラグかいふく
+		PlugName: ささっとプラグかいふく
+		Tooltip:
+			'''
+			バトルプラグのリチャージ時間を25%短縮
+			placeholder
+			'''
+	}
+
+	Waitaminnit: {
+		DisplayName: バトルプラグ - れんぞくコマンド 
+		PlugName: れんぞくコマンド 
+		Tooltip:
+			'''
+			攻撃時、即座に攻撃を繰り返すことがある
+			ただし、この効果はスイングする武器、バースト攻撃する武器など、一部の武器には効果がない
+			placeholder
+			'''
+	}
+
+	SnoutletBattery: {
+		DisplayName: タップーのバッテリー
+		Tooltip:
+			'''
+			バトルプラグのリチャージ速度のペナルティを大きく軽減する
+			「念のため言っておきますが、どんな形でも豚に似てはいませんよ、分かりましたか?」
+			'''
+	}
+
+	ChallengeMusicBox: {
+		DisplayName: オルゴール (エンドレスモード)
+		Tooltip:
+			'''
+			「マリオ＆ルイージRPG ブラザーシップ」より「モンスター戦」のアレンジを再生する
+			Silvagunnerによるアレンジ(Titled 'Oki Doki!! (Alternate Version)')）
+			'''
+	}
+
+	DebugGlobin: {
+		DisplayName: デバッググロビン
+		Tooltip:
+			'''
+			使用するとチャレンジグロビンのハイスコアがリセットされる
+			テスト用
+			'''
+	}
+
+	DebugBattery: {
+		DisplayName: デバッグバッテリー
+		Tooltip:
+			'''
+			使用すると全てのバトルプラグが最大までチャージされる
+			テスト用
+			'''
+	}
+
+	ZapperatorRifle: {
+		DisplayName: ザッパーレイターライフル
+		Tooltip:
+			'''
+			不規則な電撃を発射する
+			左クリックを押し続けてチャージするとダメージが増加
+			右クリックでカーソル位置に嵐雲を召喚し、一定時間後に雷を放つ
+			嵐雲はこの武器の電撃を当てると、雷のダメージと量が増加する
+			チャージした電撃は、チャージしてない電撃よりも嵐雲のダメージを増加させる
+			'''
+	}
+}
+
+Projectiles: {
+	FoamBubbleSpawner.DisplayName: アワフラワー 泡
+	FoamBubble.DisplayName: アワフラワー 泡
+	ResplendentFrost.DisplayName: アイスボール
+	ResplendentFire.DisplayName: ファイアボール
+	ResplendentBubble.DisplayName: 輝くバブル
+	ThunderhandLightning.DisplayName: サンダーハンド 電撃
+	ThunderhandShock.DisplayName: サンダーハンド 電撃
+	ThunderhandSpark.DisplayName: サンダーハンド
+	FirebrandOrb.DisplayName: ファイアハンド
+	FirebrandFire.DisplayName: ファイアボール
+	GrappleVineProj.DisplayName: つるショット
+	RhythmJumpIndicator.DisplayName: リズムジャンプ
+	ElephantWater.DisplayName: 水球
+	MusicNoteFX.DisplayName: ノート
+	EntropicCrosshair.DisplayName: エントロピッククロスファイア
+	EntropicBlast.DisplayName: エントロピック 爆発
+	StormLightning.DisplayName: 雷
+	HostileBubble.DisplayName: 泡
+	GenoBullet.DisplayName: ジーノバレット
+	GenoBulletSpawner.DisplayName: ジーノバレット
+	MallowLightning.DisplayName: せんにんのいかづち
+	MallowStar.DisplayName: せんにんのほし
+	MallowSnowball.DisplayName: せんにんのゆきだま
+	StarRiderStar.DisplayName: トリブルゲージ
+	SpyBeam.DisplayName: サーチビーム
+	PowerSmashHammer.DisplayName: ガツーンナグーリ
+	PowerQuakeHammer.DisplayName: スーパージシーン
+	PowerQuakeBlast.DisplayName: スーパージシーン
+	MegaSmashHammer.DisplayName: ドカーンナグーリ
+	MegaQuakeHammer.DisplayName: ウルトラジシーン
+	MegaQuakeBlast.DisplayName: ウルトラジシーン
+	DDownHammer.DisplayName: ツラヌキナグーリ
+	QuakeBlast.DisplayName: ジシーン
+	SpinSmashHammer.DisplayName: カイテンナグーリ
+	QuakeHammerProj.DisplayName: ジシーンアタック
+	ThrowingHammer.DisplayName: ハンマーナゲール
+	UpAndAwayStar.DisplayName: そしておほしさまに
+	StarStormStar.DisplayName:  ほしのふるよる
+	BlueShellProj.DisplayName: 青の甲羅
+	WattMinion.DisplayName: アカリン
+	ShadowPlayer.DisplayName: 影
+	ShellSpinnerProj.DisplayName: スーパーシェルスピナー
+	KoopaBrosShell.DisplayName: クッパブラザーシェル
+	CrystalKingBit.DisplayName: アイスビット
+	ThunderclapLightning.DisplayName: サンダークラップ 稲妻
+	ThunderclapShockwave.DisplayName: サンダークラップ 衝撃波
+	ThunderclapSpawner.DisplayName: サンダークラップ
+	BoulderRubble.DisplayName: 岩
+	IllusionBoulder.DisplayName: 岩の幻影
+	SmithyWeapons.DisplayName: 鍛冶屋の武器
+	StylishFX.DisplayName: スタイリッシュヒット
+	HeadRattleHammer.DisplayName: コンランナグーリ
+	IceSmashHammer.DisplayName: アイスナグーリ
+	FireDriveHammer.DisplayName: ファイアナグーリ
+	FireDriveFireball.DisplayName: ファイアーボール
+	PiercingBlowHammer.DisplayName: ツラヌキナグーリS
+	PiercingBlowStrike.DisplayName: ツラヌキエネルギー
+	TornadoJumpProj.DisplayName: タツマキ
+	YoshEgg.DisplayName: ヨッシーの卵
+	VivPunch.DisplayName: カゲぬけパンチ
+	BobberyGrenade.DisplayName: ボム兵
+	BobberyBomb.DisplayName: ボム兵
+	MagnusFistR.DisplayName: 右ロケットパンチ
+	MagnusFistL.DisplayName: 左ロケットパンチ
+	DooplissClone.DisplayName: 影の複製
+	CortezHook.DisplayName: コルテスのフック
+	CortezRapier.DisplayName: コルテスのレイピア
+	CortezSword.DisplayName: コルテスの剣
+	ShadowHandBolt.DisplayName: 雷撃
+	ShadowHandWhip.DisplayName: カゲの手
+	SweetFeastProj.DisplayName: サファイアスター
+	SupernovaCut.DisplayName: ズバットスター
+	ArtAttackProj.DisplayName: ルビースター
+	ArtStrike.DisplayName: カコンデポン
+	FeastHeart.DisplayName: ハート
+	FeastFlower.DisplayName: フラワー
+	QuakeJumpBlast.DisplayName: ジシーン
+	ShrinkSmashHammer.DisplayName: ミニミニナグーリ
+	BagonSmashHammer.DisplayName: バゴーンナグーリ
+	ThunderOrb.DisplayName: サンダーボール
+	BroFire.DisplayName: ブラザーファイア
+	BroFrost.DisplayName: ブラザーアイス
+	BondBomb.DisplayName: ブラザーボム
+	BroThunder.DisplayName: ブラザーサンダー
+	SuperstarBomb.DisplayName: スター爆弾
+	FireShock.DisplayName: ファイアスパーク
+	ThunderShock.DisplayName: サンダースパーク
+	ChillFlake.DisplayName: 氷
+	DerbyBomb.DisplayName: ブラザーボム ボム
+	DerbyRocket.DisplayName: ブラザーボム ロケット
+	DerbySuperbomb.DisplayName: ブラザーボム スーパーボム
+	BrosShellProj.DisplayName: ブラザーシェル
+	BrosShellParry.DisplayName: ブラザーシェル 打ち返し
+	LullabyProj.DisplayName: ママのこもりうた
+	EarthTremorProj.DisplayName: ダイヤモンドスター
+	TremorBlast.DisplayName: デッカクドッカン
+	ShowstopperProj.DisplayName: ガーネットスター
+	StasisBomb.DisplayName: ジカンヨトマレ
+	SmashEggParry.DisplayName: ブラザーエッグ 打ち返し
+	SmashEgg.DisplayName: ブラザーエッグ
+	ChallengeShell.DisplayName: チャレンジシェル
+	ChallengeEgg.DisplayName: チャレンジエッグ
+	BrosStarProj.DisplayName: ブラザースター
+	BrosStarMini.DisplayName: ブラザースター 小さな星
+	BrosStarTrail.DisplayName: ブラザースター 小さな星
+	ChallengeStar.DisplayName: チャレンジスター
+	ChallengeBomb.DisplayName: チャレンジボム
+	ChallengeBombSpawner.DisplayName: チャレンジボム
+	PinkBomb.DisplayName: ピンクボンバー
+	AirStrikeShellProj.DisplayName: 羽根付き甲羅l
+	HeartAttackProj.DisplayName: ドガボンのしんぞう
+	TubbaHeart.DisplayName: しんぞう ハート
+	BulbCannonProj.DisplayName: 電撃
+	MuzzleFlare.DisplayName: 銃口の炎
+	GreenShellProj.DisplayName: 緑の甲羅
+	GaleForceProj.DisplayName: 気流
+	HooktailFlames.DisplayName: ドラゴンブレス
+	SmorgWhip.DisplayName: モアモアのしょくしゅ
+	MagnusFist2L.DisplayName: 左バッテンパンチ
+	MagnusFist2R.DisplayName: 右バッテンパンチ
+	GrodusMinion.DisplayName: バツバリアン
+	TwinkMinion.DisplayName: ティンク
+	TennisBall.DisplayName: テニスボール
+	SuperTennisBall.DisplayName: スーパーテニスボール
+	BonusHit.DisplayName: ボーナスヒット
+	IronBall.DisplayName: 鉄球
+	Kaboom.DisplayName: どっかんアタック
+	RetalitoryHammer.DisplayName: おかえしアタック
+	CrushBomb.DisplayName: あとあとボム
+	LHammer.DisplayName: かってにルイージ
+	ZapperatorProj.DisplayName: ザッパーレイター 電撃
+	ZapperatorLightning.DisplayName: ザッパーレイター 雷
+	ZapperatorCloud.DisplayName: ザッパーレイター 嵐雲
+}
+
+Buffs: {
+	ThunderhandDebuff: {
+		DisplayName: 雷に打たれた
+		Description: 敵の防御力が減少
+	}
+
+	RhythmJumpBuff: {
+		DisplayName: 素晴らしいリズム
+		Description: リズムによって防御力、ダメージ、移動性能が強化される
+	}
+
+	BlockDmg: {
+		DisplayName: ダメージ!
+		Description: ダメージが増加
+	}
+
+	BlockDef: {
+		DisplayName: ディフェンス!
+		Description: 防御力が増加
+	}
+
+	BlockCrit: {
+		DisplayName: プレシジョン!
+		Description: クリティカル率が上昇
+	}
+
+	BlockRegen: {
+		DisplayName: リジェネ!
+		Description: ライフ自然回復を増進
+	}
+
+	CosmicGravityDebuff: {
+		DisplayName: コズミックグラビタス
+		Description: 敵は重力が低下している
+	}
+
+	MetalCapBuff: {
+		DisplayName: メタルフォーム
+		Description: あなたは金属でできている!
+	}
+
+	ThanosMoment: {
+		DisplayName: 活気あふれる現実
+		Description: オーラに入った敵の弾のほとんどが泡に変化する
+	}
+
+	WonderBuff: {
+		DisplayName: ワンダー
+		Description: ランダムなワンダーフラワーとバフが有効!
+	}
+
+	CommandCounter: {
+		DisplayName: 指揮官!
+		Description: クリティカル率が上昇
+	}
+
+	GaugeChargeBuff: {
+		DisplayName: ゲージチャージ
+		Description: 最大までチャージされるとトリプルゲージの能力を発動できる
+		PerkT1: ダメージと防御力がわずかに増加
+		PerkT2: ダメージ、防御力、ライフ回復力がわずかに増加
+		PerkT3: ダメージ、クリティカル率、防御力、ライフとマナの回復力がわずかに強化
+		DescAndPerk:
+			'''
+			最大までチャージされるとトリプルゲージの能力を発動できる
+			{0}
+			現在のチャージ: {1}%
+			'''
+		Desc:
+			'''
+			最大までチャージされるとトリプルゲージの能力を発動できる
+			現在のチャージ: {0}%
+			'''
+	}
+
+	PowerRushBuff: {
+		DisplayName: アドレナリンラッシュ!
+		Description: ダメージが30%増加!
+	}
+
+	CloseCallBuff: {
+		DisplayName: 危機一髪!
+		Description: 敵が攻撃に失敗することがある!
+	}
+
+	LastStandBuff: {
+		DisplayName: ラストスタンド!!!
+		Description: 被ダメージが半分!
+	}
+
+	MegaRushBuff: {
+		DisplayName: メガラッシュ!!!
+		Description: ダメージが2倍!
+	}
+
+	IceAspect: {
+		DisplayName: アイスアスペクト
+		Description: 敵は霜焼けによるダメージが増加
+	}
+
+	PeakabooDebuff: {
+		DisplayName: ピーカブー!
+		Description: 敵の被ダメージが増加
+	}
+
+	DoubleDipBuff: {
+		DisplayName: ニカイアイテーム
+		Description: 弾薬の消費を少なくし、ダメージを確率で2倍にする!
+	}
+
+	TripleDipBuff: {
+		DisplayName: サンカイアイテーム
+		Description: 弾薬の消費を少なくし、ダメージを確率で3倍にする!
+	}
+
+	DDown: {
+		DisplayName: ソフト
+		Description: 敵の防御力が減少
+	}
+
+	DizzyStompDebuff: {
+		DisplayName: グルグル
+		Description: 敵は混乱し、接触ダメージが減少
+	}
+
+	Drowsy: {
+		DisplayName: 眠気
+		Description: 敵の動きが遅くなり、防御力が減少
+	}
+
+	Shrink: {
+		DisplayName: ミニミニ
+		Description: 敵が小さくなり、ダメージも半分になる
+	}
+
+	JumpChargeBuff: {
+		DisplayName: ジャンチャージ
+		Super: ジャンチャージS
+		Zero: ジャンチャージ0
+		Description: ジャンプ攻撃能力のダメージが増加
+		Desc:
+			'''
+			ジャンプ攻撃能力のダメージが増加
+			現在のダメージ増加率: +{0}%
+			'''
+	}
+
+	SmashChargeBuff: {
+		DisplayName: ハンマチャージ
+		Super: ハンマチャージS
+		Zero: ハンマチャージ0
+		Description: ハンマー攻撃能力のダメージが増加
+		Desc:
+			'''
+			ハンマー攻撃能力のダメージが増加
+			現在のダメージ増加率: +{0}%
+			'''
+	}
+
+	SpinLaunch: {
+		DisplayName: スピンローンチ
+		Description: 敵は他の敵に当たると、両方にダメージを与える!
+	}
+
+	OuttaSight: {
+		DisplayName: 透明
+		Description: お互いに攻撃が当たらない
+	}
+
+	ChillOutDebuff: {
+		DisplayName: ちからをぬいてt
+		Description: 敵の接触ダメージが半分になる
+	}
+
+	WattShock: {
+		DisplayName: 麻痺
+		Description: 敵は動けない
+	}
+
+	WattBuff: {
+		DisplayName: アカリン
+		Description: アカリンがあなたを守る!
+	}
+
+	BoulderStun: {
+		DisplayName: スタン
+		Description: 敵は不意を突かれて、動きが遅くなる
+	}
+
+	LuckyStartDodge: {
+		DisplayName: ラッキースタート!
+		Description: 敵が攻撃に失敗することがある
+	}
+
+	LuckyStartHealth: {
+		DisplayName: ラッキースタート!
+		Description: ライフ自然回復を増進
+	}
+
+	LuckyStartMana: {
+		DisplayName: ラッキースタート!
+		Description: マナ自然回復を増進
+	}
+
+	LuckyStartZap: {
+		DisplayName: ラッキースタート!
+		Description: ダメージの一部を反射
+	}
+
+	Freeze: {
+		DisplayName: こおり
+		Description: 敵は動けない
+	}
+
+	WeakShrink: {
+		DisplayName: ミニミニ
+		Description: 敵のダメージが減少
+	}
+
+	Witchfire: {
+		DisplayName: ウィッチファイア
+		Description: 敵のライフを徐々に減少
+	}
+
+	CortezBuff: {
+		DisplayName: トロピコアイランドの呪い
+		Description: コルテスの武器が一緒に戦ってくれる!
+	}
+
+	CortezTag: {
+		DisplayName: 海賊王の怒り
+		Description: トロピコアイランドの呪いのミニオンはこの敵の防御力の一部を無視する
+	}
+
+	ShadowHandTag: {
+		DisplayName: カゲの呪い
+		Description: ミニオンに攻撃された敵は雷に打たれる
+	}
+
+	PowerLiftOffense: {
+		DisplayName: パワーオフェンス {0}
+		Description: ダメージが増加!
+	}
+
+	PowerLiftDefense: {
+		DisplayName: パワーディフェンス {0}
+		Description: 防御力が増加!
+	}
+
+	BlindingFury: {
+		DisplayName: ブラインドフューリー
+		Description: ダメージを増加するが、移動方向が反転する
+	}
+
+	Clockout: {
+		DisplayName: チェックアウト
+		Description: 今こそ、アニメ風にハンマーで敵を叩きのめす絶好の機会だ
+	}
+
+	InvincibilityWish: {
+		DisplayName: 無敵の願い
+		Description: あなたは（ほぼ）無敵です!スターフラッシュに注意してください...
+	}
+
+	CloudNineBuff: {
+		DisplayName: クラウドナイン
+		Description: 雲はあなたの回避力と機動力を大きく高める!
+	}
+
+	Smorged: {
+		DisplayName: モアモア
+		Description: 敵は召喚武器の被ダメージが増加
+	}
+
+	GrodusBuff: {
+		DisplayName: バツバリアン
+		Description: バツバリアンが一緒に戦ってくれ、防御力を増加させてくれる!
+	}
+
+	TwinkBuff: {
+		DisplayName: ティンク
+		Description: ティンクがあなたを守る!
+	}
+
+	PlugCharge: {
+		DisplayName: バトルプラグ
+		Description: バトルプラグの状態:
+		ChargedPlug:
+			'''
+
+			{0}: 残りチャージ {1}/{2}
+			'''
+		UnchargedPlug:
+			'''
+
+			{0}: リチャージ中 ({1}% チャージ)
+			'''
+	}
+
+	OuchChargeBuff: {
+		DisplayName: いたいのチャージ
+		Desc:
+			'''
+			最大までチャージされると、ダメージが一時的に大きく増加
+			現在のチャージ: {0}%
+			'''
+		Description: 最大までチャージされると、ダメージが一時的に大きく増加
+	}
+
+	Fury: {
+		DisplayName: 怒り
+		Description: ダメージが100%増加!
+	}
+
+	SpiritedVigor: {
+		DisplayName: ヴィゴー
+		Description: ダメージが増加!
+	}
+
+	SpiritedResolve: {
+		DisplayName: リゾルブ
+		Description: 防御力が増加!
+	}
+
+	SpiritedHaste: {
+		DisplayName: ヘイスト
+		Description: 移動速度が上昇!
+	}
+
+	CureCountdown: {
+		DisplayName: あとあとヒール
+		Description: タイマーが0になるとライフとマナが全回復し、デバフが治る!
+	}
+
+	CrushCountdown: {
+		DisplayName: あとあとボム
+		Description: タイマーが0になると爆発する弾丸を発射する!
+	}
+
+	ChargeCountdown: {
+		DisplayName: あとあとプラグ回復
+		Description: タイマーが 0 になると、アクセサリーの能力が即座に発動できるようになる!
+	}
+
+	BadgeOverload: {
+		DisplayName: BPコストオーバー
+		Description: 使用できるBPより、装備しているバッジの総BPが高い為、負荷がかかっている!
+	}
+}
+
+NPCs: {
+	BlockEntity.DisplayName: ! ブロック
+	ScrapEntity.DisplayName: 鍛冶屋のスクラップ
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		metalCapAudioHack: {
+			Label: "[i:ArtificerPMBadges/MetalCap] メタル帽子中にBGMを静かにする"
+			Tooltip:
+				'''
+				メタル帽子の能力により、効果音が鳴っている間、BGMの音量が半分になります
+				これは音量設定を直接上書きするため、あまりきれいには機能しません
+				そのため、オプションのとなっています
+				メタリックマリオのBGMを楽しみ、よりクリアに聴きたい場合にのみ推奨されます
+				'''
+		}
+
+		challengeNodeEnjoyer: {
+			Label: "[i:ArtificerPMBadges/ChallengeNode] チャレンジノードエンジョイアー"
+			Tooltip:
+				'''
+				以下の武器が、エンドレスモードでなくても打ち返した回数が表示されます
+				[i:ArtificerPMBadges/BrosEgg] Bros. Egg: 卵が何回連続して打ち返されたか表示
+				[i:ArtificerPMBadges/BrosShell] Bros. Shell: 甲羅が何回連続して打ち返されたか表示
+				エンドレスモードをプレイする際にも斬新な効果があります
+				'''
+		}
+
+		bpSlotDisplacement: {
+			Label: "[i:ArtificerPMBadges/BadgeSash] バッジサッシュ/パワータップスロットの位置"
+			Tooltip:
+				'''
+				バッジサッシュとパワータップのアクセサリーは、大量の特別なアクセサリースロットを追加します
+				この設定で、追加スロットのUI配置をピクセル数(x,y)で微調整できます
+				負の値にすると、UIは画面の左上に近づきます
+				正の値にすると、UIは画面の右下に近づきます
+				デフォルトでは、防具スロットの左側に配置されます
+				極端に大きい値にすると、UIが画面外に移動してしまう可能性があるので注意してください
+				'''
+		}
+
+		battlePlugPopup: {
+			Label: "[i:ArtificerPMBadges/FieryAttack] バトルプラグの通知"
+			Tooltip:
+				'''
+				バトルプラグの発動、チャージ切れ、リチャージ完了時に、選択した設定に基づいて通知を有効にします
+				Off：通知されません
+				Pop-up Text：バトルプラグの発動、チャージ切れ、リチャージ完了時に、小さなテキストが表示されます
+				Chat Announcement：バトルプラグのチャージ切れまたはリチャージ完了時に、チャットであなたにメッセージが送信されます
+				Full：Pop-up TextとChat Announcementの両方の効果に加え、バトルプラグのチャージ切れまたはリチャージ完了時にさりげない効果音が鳴ります
+				'''
+		}
+	}
+
+	ServerConfig: {
+		expertBadgeSlot: {
+			Label: "[i:ArtificerPMBadges/Invisibility] エキスパートバッジ装備でスロット追加"
+			Tooltip:
+				'''
+				プレイヤーがエキスパートバッジ（SMBワンダー）を装備していると、
+				ノロイノロイやダバイダメージと同じく、アクセサリスロットが追加されます
+				ジェットラン、バネ、透明のバッジが対象です
+				追加されるスロットは1つだけで、上記のバッジを複数装備しても、スロットは複数追加されません
+				'''
+		}
+
+		smithyHammering: {
+			Label: "[i:ArtificerPMBadges/SmithingWarhammer] ハンマー系武器が壁を破壊するか"
+			Tooltip:
+				'''
+				鍛冶屋の戦槌、スーパーハンマー、ブラザーポムをハンマーとして使えるか切り替えます
+				武器として使うとと誤って壁を破壊してしまうことがあるため、それが煩わしいと感じる人もいるかもしれません
+				これらの武器の攻撃はチャージ式であるため、ハンマーとして使用するのが難しくなる場合があります
+				'''
+		}
+
+		DisplayName: サーバー設定
+
+		easyPlumberSet: {
+			Label: "[i:244] アクセスしやすい配管工セット"
+			Tooltip:
+				'''
+				シルクと赤の染料を使用する配管工セットのクラフトレシピを追加します
+				このMODはセットに関連する新しいコンテンツ（セットのバリエーションなど）を追加するため、
+				よりアクセスしやすくしておくと便利です
+				オンにすると、配管工セットの売却価格が引き下げられ、簡単にコインを稼ぐのを防ぐことができます
+				'''
+		}
+
+		disallowGuardItems: {
+			Label: "[i:ArtificerPMBadges/CommandGlove] アクションガードの互換性のブラックリスト"
+			Tooltip:
+				'''
+				このMODはアクションガードというアクセサリを追加します
+				これにより、プレイヤーは右クリックでガードできるようになります
+				デフォルトでは、右クリック機能を持つアイテムは、Altキーでガードできます
+				このリストに追加されたアイテムは、右クリック機能の有無に関わらず、ガードができなくなります
+				自動でカバーされないアイテムは、このリストに追加してください
+				重要：自動カバーシステムにより、一部のMODがロードに失敗する場合があります
+				問題の原因となっているアイテムをブラックリストに追加して問題を解決してください
+				既にリストに存在しているアイテムは上記の問題を引き起こすため、削除しないでください
+				'''
+		}
+
+		brosAttacks: {
+			Label: "[i:ArtificerPMBadges/BrosBomber] ブラザー攻撃を有効にする"
+			Tooltip:
+				'''
+				警告：この設定は現在、マルチプレイヤーでこれらの武器の同期がずれるため、完全には機能しません
+
+				以下のアイテムを使用する際に、プレイヤー同士が互いの攻撃に干渉することができます
+
+				[i:ArtificerPMBadges/BrosEgg] ブラザーエッグ: プレイヤーは右クリックして、跳ね返った卵を自由に打ち返すことができます
+				[i:ArtificerPMBadges/BrosShell] ブラザーシェル: プレイヤーは右クリックして、返ってきた甲羅を自由に打ち返すことができます
+				[i:ArtificerPMBadges/BrosBomber] ブラザーボム: 全てのプレイヤーがハンマーで誰かの爆弾を打ち返せる
+				[i:ArtificerPMBadges/BrosStar] ブラザースター: 全てのプレイヤーが小さな星を誰かの大きな星に当てることができます
+				[i:ArtificerPMBadges/ZapperatorRifle] ザッパーレイターライフル: 全てのプレイヤーが攻撃は誰かの嵐雲をチャージすることができます
+				'''
+		}
+	}
+}
+
+Emotes.GlobinEmote.Command: Challenge Globin
