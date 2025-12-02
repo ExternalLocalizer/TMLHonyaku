@@ -25,7 +25,7 @@ Configs: {
 		}
 
 		FujiFilmSim: {
-			Label: 富士フィルムシミュレーション
+			Label: 富士フイルムシミュレーション
 		}
 
 		CoolWhite: {
@@ -68,7 +68,7 @@ Configs: {
 
 		sharpness: {
 			Tooltip: ""
-			Label: 鮮明度
+			Label: シャープネス
 		}
 
 		V_Value: {
@@ -88,7 +88,7 @@ Configs: {
 
 		HSL_Key: {
 			Tooltip: パフォーマンスに悪影響を与えます
-			Label: 効果の適用
+			Label: 効果を有効化
 		}
 
 		Tooltip: Color Palette
@@ -100,16 +100,16 @@ Configs: {
 			Label: カラーパレット
 		}
 
-		DisplayName: "[c/75FF60: スクリーンフィルター]"
+		DisplayName: "[c/75FF60: スクリーンフィルター]の設定"
 	}
 
 	KZ_Configs_Dark: {
 		DarkKey: {
 			Tooltip: このモードは開発途中です
-			Label: 効果の適用
+			Label: 効果を有効化
 		}
 
-		DisplayName: "[c/C2C2C2: ダーク] バージョン"
+		DisplayName: "[c/C2C2C2: ダーク] ビジョン"
 	}
 
 	WallDefinition: {
@@ -128,7 +128,7 @@ Configs: {
 
 	SpecialWallInfo: {
 		LightColor: {
-			Tooltip: アルファ値は設定不要
+			Tooltip: アルファ値は設定不要です
 			Label: 色パラメーター
 		}
 
@@ -142,7 +142,7 @@ Configs: {
 
 	SpecialTileInfo: {
 		LightColor: {
-			Tooltip: アルファ値は設定不要
+			Tooltip: アルファ値は設定不要です
 			Label: 色パラメーター
 		}
 
@@ -156,7 +156,7 @@ Configs: {
 
 	KZ_Configs_Light_SpecialTile: {
 		UseDefaultSetting: {
-			Tooltip: 既に定義された特殊タイルを有効化します
+			Tooltip: 予め定義された特殊タイルを有効化します
 			Label: デフォルトの特殊タイルを有効化
 		}
 
@@ -181,7 +181,7 @@ Configs: {
 	KZ_Configs_Bloom: {
 		PartBloom_ToTile2: {
 			Tooltip: ""
-			Label: "[実体の部分的な発光効果] タイルの発光の適用"
+			Label: "[エンティティの発光効果] タイルの発光の適用"
 		}
 
 		WholeBloom_ExtraValue: {
@@ -196,22 +196,22 @@ Configs: {
 
 		WholeBloom_Step: {
 			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
-			Label: "[全体的な発光効果] 精度の向上"
+			Label: "[全体的な発光効果] イテレーション数"
 		}
 
 		PartBloom_ExtraStep: {
 			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
-			Label: "[実体の部分的な発光効果] 精度の向上"
+			Label: "[エンティティの発光効果] 追加のイテレーション数"
 		}
 
 		PartBloom_AddValuePerTime: {
 			Tooltip: パフォーマンスに大きな影響はありません
-			Label: "[実体の部分的な発光効果] シングルパス強度"
+			Label: "[エンティティの発光効果] シングルパス強度"
 		}
 
 		PartBloomKey: {
 			Tooltip: ""
-			Label: "{実体の部分的な発光効果} 効果の適用"
+			Label: "{エンティティの発光効果} 効果を有効化"
 		}
 
 		DisplayName: "[c/0ADCDC: 発光]の設定"
@@ -240,7 +240,7 @@ Configs: {
 	KZ_Configs_Light: {
 		ObstacleDeclineValue: {
 			Tooltip: 太陽光が壁を貫通する現象を防ぎます
-			Label: 太陽光が遮られた際の光の色調光比
+			Label: 太陽光が遮られた際の影の減光値
 		}
 
 		ComputDistance: {
@@ -249,8 +249,8 @@ Configs: {
 		}
 
 		ColorDeclineValue: {
-			Tooltip: 明るい色付け後の過度に明るい色を防ぐ
-			Label: 光の色調光比
+			Tooltip: 光の色反映後に明るくなりすぎるのを防ぐ
+			Label: 光色の減光率
 		}
 
 		SpecialMode_DISC: {
@@ -270,7 +270,7 @@ Configs: {
 
 		DeclineValue: {
 			Tooltip: ""
-			Label: 追加の影の減光値
+			Label: 影の追加の減光値
 		}
 
 		SpecialMode_L: {
@@ -289,7 +289,7 @@ Configs: {
 		}
 
 		BossActive_LightValue: {
-			Tooltip: "[光の総量]と入力した数の積が適用されます"
+			Tooltip: "[光の総量]との積が適用されます"
 			Label: ボス戦時での光の総量
 		}
 
@@ -335,7 +335,7 @@ Configs: {
 
 		LightKey: {
 			Tooltip: ""
-			Label: 効果の適用
+			Label: 効果を有効化
 		}
 
 		DisplayName: "[c/FAC800: 日光と影]の設定"
