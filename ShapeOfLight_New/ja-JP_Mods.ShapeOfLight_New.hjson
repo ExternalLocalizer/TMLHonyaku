@@ -105,8 +105,8 @@ Configs: {
 
 	KZ_Configs_Dark: {
 		DarkKey: {
-			Tooltip: このモードは開発途中です。
-			Label: "効果の適用"
+			Tooltip: このモードは開発途中です
+			Label: 効果の適用
 		}
 
 		DisplayName: "[c/C2C2C2: ダーク] バージョン"
@@ -156,7 +156,7 @@ Configs: {
 
 	KZ_Configs_Light_SpecialTile: {
 		UseDefaultSetting: {
-			Tooltip: 既に定義された特殊タイルを有効化します。
+			Tooltip: 既に定義された特殊タイルを有効化します
 			Label: デフォルトの特殊タイルを有効化
 		}
 
@@ -195,12 +195,12 @@ Configs: {
 		}
 
 		WholeBloom_Step: {
-			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与える]"
+			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
 			Label: "[全体的な発光効果] 精度の向上"
 		}
 
 		PartBloom_ExtraStep: {
-			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与える]"
+			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
 			Label: "[実体の部分的な発光効果] 精度の向上"
 		}
 
@@ -234,17 +234,17 @@ Configs: {
 			Label: 時刻 (白)
 		}
 
-		Tooltip: 新規プレイヤーには[時刻]をおすすめします。
+		Tooltip: 新規プレイヤーには[時刻]をおすすめします
 	}
 
 	KZ_Configs_Light: {
 		ObstacleDeclineValue: {
-			Tooltip: "太陽光が壁を貫通する現象を防ぎます。"
+			Tooltip: 太陽光が壁を貫通する現象を防ぎます
 			Label: 太陽光が遮られた際の光の色調光比
 		}
 
 		ComputDistance: {
-			Tooltip: "[c/75FF64: CPUへの負荷を軽減]、遅延が発生する可能性があります。"
+			Tooltip: "[c/75FF64: CPUへの負荷を軽減]、遅延が発生する可能性があります"
 			Label: パラメータ計算間隔（フレーム単位）
 		}
 
@@ -274,22 +274,22 @@ Configs: {
 		}
 
 		SpecialMode_L: {
-			Tooltip: ライトモードが[カスタム]の際に適用されます。
+			Tooltip: ライトモードが[カスタム]の際に適用されます
 			Label: 明度
 		}
 
 		SpecialMode_S: {
-			Tooltip: ライトモードが[カスタム]の際に適用されます。
+			Tooltip: ライトモードが[カスタム]の際に適用されます
 			Label: 彩度
 		}
 
 		SpecialMode_H: {
-			Tooltip: ライトモードが[カスタム]の際に適用されます。
-			Label: 色彩
+			Tooltip: ライトモードが[カスタム]の際に適用されます
+			Label: 色相
 		}
 
 		BossActive_LightValue: {
-			Tooltip: "[光の総量]と入力した数の積が適用れます。"
+			Tooltip: "[光の総量]と入力した数の積が適用されます"
 			Label: ボス戦時での光の総量
 		}
 
@@ -299,7 +299,7 @@ Configs: {
 		}
 
 		ClampColor_TargetValue: {
-			Tooltip: "暗さの最小値を適用します。"
+			Tooltip: 暗さの最小値を適用します
 			Label: 最小暗さ制限
 		}
 
@@ -350,4 +350,3 @@ Text:
 	[c/0ADCDC:バグを発見した場合、Mod作者のSteamまたはBilibiliアカウントに連絡してください。],
 	では、楽しんで！
 	'''
-
