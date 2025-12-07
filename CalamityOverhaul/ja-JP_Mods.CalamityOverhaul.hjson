@@ -1,339 +1,1640 @@
-NPCs: {
-	DestroyerDrawHeadIconNPC: {
-		DisplayName: デストロイヤー
+ADV: {
+	ComeCampsiteFindMe: {
+		B1_NO: まずはわしを探さんとな。道は身体で覚えるもんじゃ。
+		C2: わしぁ、ただ気まぐれで釣り糸を垂れとっただけじゃ...
+		C1: お前に用があるんじゃよ。
+		B1: ...暇ができたら茶でも啜りに来い。長生きの味を教えてやるわい。
+		OldDukeName: オールドデューク
+	}
+
+	FirstCampsiteDialogue: {
+		L6: 報酬なら相応のもんを出そう。
+		L5: お前には海のスクラップをたんまり集めてもらわにゃ困る。
+		L4: どうあれ...解き明かしたいんじゃが、数がのう。まだまだ足りん。
+		L3: 言いたいこと、わかるじゃろ。あれは本来、形すらないもんじゃ。生き物が理解しやすいよう形を選んだだけに思えてな。
+		L2: どうにも...妙なんじゃ。自然に育ったもんじゃなく、この世界へ迷い込んだ異物のような...
+		L1: わしは長いこと、これらの欠片を拾い集めてきた。
+		L0: 来おったか。
+		OldDukeName: オールドデューク
+	}
+
+	CampsiteInteractionDialogue: {
+		CampsiteChatDialogue: {
+			Farewell_Friendly: 気をつけろ、若造。この世界で穏やかに終われるやつは、運が化け物みたいに強い。
+			Farewell_Normal: まあ今日はここらでいい。用があればまた来い。
+			Personal_Past3: あの事故がなけりゃ...今ごろ静かに墓ん中で眠っとったはずなんじゃがのう。こんな、生きてもおらんし死にもせん体じゃなくてな。
+			Personal_Past2: じゃが、陽の温もりも、本の手触りも、まだ覚えとる。それを覚えとる限り、わしはまだ生きとると言えるんじゃ。
+			Personal_Past1: さて、どうかのう。本物のわしはとうに死んで、今のわしは...オールドデュークの記憶を詰め込まれた亡霊かもしれん。死ぬたび、死ぬ前へ巻き戻されるんじゃ。
+			Personal_Tea2: 一杯どうじゃ。死んだ魚の目みたいに気持ちが落ち着くぞい。
+			Personal_Tea1: 深淵で育つ妙な草を煎じたもんじゃ。味は...腐った泥みたいなもんよ。
+			Choice_Personal_Back: 気をつけろ。
+			Choice_Personal_Past: あなたは...まだ魚なのか？
+			Choice_Personal_Tea: 何を飲んでるんだ？
+			Personal_Hope: お前を見とると昔のわしを思い出すわい。無知で、怖いもん知らずでな。...わしみたいな形にならんことを祈るぞ。
+			Personal_Memories: 記憶がな...霞んどる。どれがわし自身のもんで、どれが...この身体に溜まった他の連中の記憶なのか、判らんくなる時がある。
+			Personal_Loneliness: 一人はええぞ。ここが騒がしくなったら...奴らが来た時じゃ。わしは一人の方が慣れとるし、世界にとってもそっちのが安全じゃ。
+			Personal_Daily: ほとんどの時間は眠っとる。意識が揺れりゃ、中におるあれがうずくんでな。
+			Personal_Intro: まあ、なんとかやっとる。
+			Fragments_Purpose: まだ繋ぎ合わせとる最中じゃ。あの災厄の源を再構築できれば、あれを封じる手立ても見つけられるかもしれん。
+			Fragments_Collection: 欠片は死海のあちこちに散っとる。遺跡の底や、魔物の肉にまで染みこんどるもんもおる。
+			Fragments_Power: 一つずつなら大したことはない。じゃが、揃えば怪異の力がぶつかって厄介なことになる。
+			Fragments_Nature: あれは現象の残り滓じゃ。呪いを圧縮したみてぇな代物よ。
+			Fragments_Intro: 海のスクラップ...わしには血で汚れた記録に見える。
+			History_Dangers2: 目を信じるな。わけのわからん声に返事するな。あの死体の海じゃ、生きてるお前の方が異物なんじゃ。
+			History_Dangers1: 腐った歩く死体だけじゃない。見えんもんを警戒せい。とどめを刺すのは、たいてい目に見えんやつじゃ。
+			History_MoreRuins2: 沈んだ遺跡には、まだ開いとらん部屋がある。特殊な重金属で作られた密室よ。奴らの感知を遮るためのな。
+			History_MoreRuins1: 死体の海の最底部に...扉がある。叩くでない。あれを抑えられるのは、あの暴君ぐらいじゃ。
+			Choice_History_Back: 不気味だな。
+			Choice_History_Dangers: 対策はあるのか？
+			Choice_History_MoreRuins: どこが一番危険なんだ？
+			History_Warning: 死んだやつが手を振ってきたり、懐かしい声が聞こえたら...気をつけろ。それは死の海が生者の真似をしとるだけじゃ。
+			History_Ruins: お前が見とるのは、あの事件の残り滓よ。水が色を変えたのは、海そのものが死んだからじゃ。
+			History_Cataclysm: 均衡が崩れた。何かおぞましいもんが目を覚まし、生きとるもんは一瞬で消え、死の沈黙へ吸い込まれた。
+			History_Civilization: あの古代文明は強かった。あれの力を使う術まで覚えた。火薬庫の上で踊るような真似をな。
+			History_Origin: ここは昔、サファイアオーシャンと呼ばれとった。源が暴走するまではな。
+			History_Intro: 硫黄の海は表皮みたいなもんじゃ。これは奴らの領域が侵食した後の残り香よ。
+			Research_Help: もっと欠片を探すんじゃ。わしの残りの生は全部、この研究に注ぐ。
+			Research_Details2: 奴らを閉じ込めようとしてな、巨大な容器まで造ったんじゃ。じゃが結局...漏れた。
+			Research_Details1: 見てはならんもの、名を呼んではならんものがおる。媒介を起こせば死は避けられん。あの文明は神を縛るための規則を作ろうとしよった。
+			Choice_Research_Back: 正気じゃないな。
+			Choice_Research_Help: 何をすればいい？
+			Choice_Research_Details: 殺す規則ってなんだ？
+			Research_Theory: 欠片を全部繋げられりゃ、深淵の源を永く封じる手段が見つかるかもしれん。
+			Research_Difficulties: じゃが解読は危険じゃ。欠片そのものが媒介よ。長く見つめりゃ、聞こえんはずの声が聞こえてくる。
+			Research_Breakthrough: ああいう怪異には力押しは通じん。殺す規則を見つけ、それを突くしかない。
+			Research_CurrentWork: 欠片には過去が染みついとる。古代文明が絶望の中で生き残る道を探した、その記憶よ。
+			Research_Intro: わしは物語を継ぎ合わせとる。あるいは、失われた経験の形を取り戻そうとしておる。
+			Past_Reflection: わしが守りたいのはこの海よ。深淵から奴らが這い出そうとしたら、その時こそ、わしは全てを賭けて復活と死に挑む。
+			Past_Exile: まあ、この身体は強い。海を押さえ込むにはちょうどええ。
+			Past_Mutation: 逃げ道はなかった。だからわしはあれを取り込んだ。そこから先、わしは生きてもおらんし、死ぬこともできん。
+			Past_Accident: あの事故じゃ、生き残りなんぞおらん。冷たさに飲まれかけたとき、わしは狂った決断をした。
+			Past_Prime: あれは殺せん。壊せん。生き物ですらなかったんじゃ。
+			Past_University: 若いころのわしらは傲慢じゃった。世界を物差しで測れると思っとった。深淵の底から理屈に合わんものを掘り起こすまではな。
+			Past_Intro: わざと消された過去よ。いや...覚えとる魚の方が少ないと言うべきか。
+			Choice_Farewell: またな。
+			Choice_PersonalLife: なんか具合悪そうだぞ。
+			Choice_AboutFragments: あの欠片について
+			Choice_SulfurSeaHistory: この海の真実
+			Choice_Research: 何を繋いでるんだ？
+			Choice_PastStory: 今の身体について
+			Choice_EndConversation: 今日はここまでにしよう。
+			Choice_BackToMain: 話を変える
+			GreetingLine: 話でもするか？
+			OldDukeName: オールドデューク
+		}
+
+		Choice4_R3: わしを砥石扱いとは...無茶を言う。
+		Choice4_R2: よかろう。最近どれほど腕を上げたか見せてみい。
+		Choice4_R1: 歳は食ったが、若い頃の勘はまだ死んどらんぞ。
+		B1: この数日は、これらの欠片の解読に専念する。終わり次第知らせよう。
+		QuestCompleteLine: ふむ...何か新しい発見でもあったか？ 今は手が離せんのじゃ。
+		Choice3Response: ...ふん。
+		Choice2Response: よし。これだけあれば十分じゃ。これが約束の報酬よ。
+		Choice1Response: ほれ、わしが持っとるもんを見せてやろう。
+		Choice2DisabledHint: 海のスクラップが足りんぞい...
+		Choice5Text: 昔の話を聞かせてくれ。
+		Choice4Text: 手合わせを願いたい。
+		Choice3Text: ぶらついているだけだ。
+		Choice2Text: 例のものを持ってきた。
+		Choice1Text: 取引に来た。
+		GreetingLine: で、今度は何の用じゃ？
+		OldDukeName: オールドデューク
+
+	}
+
+	OldDukeCampsite: { 
+		OldDukeCampsite: {
+			TitleText: オールドデュークの野営地
+		}
+
+		OldDukeCampsiteRenderer: {
+			GreetingText: ん...おう、来たのか。
+			InteractHint: "[右クリック]話す"
+		}
+	}
+
+	FirstMetOldDuke: {
+		C3Response: ...ほう、やる気か。ならば腕前を確かめさせてもらおう。
+		C2Response: ...そうかい。なら、わしは帰るとしよう。気が変わったらいつでも来い。
+		C1Response: よし、よろしく頼むぞ。
+		C3: 拒否して武器を抜く
+		C2: 協力を拒否する
+		C1: 協力を受け入れる
+		HL2: あの言葉は信用できる。彼とは硫黄海大学で同僚だった。海洋考古学の大御所だ。
+		HL1: あの老教授か...？ だが、どうやら私のことを覚えていないようだ。
+		B2: じゃあな。
+		B1: 気が変わったか？
+		L6: 標本をひとつ渡しておこう。
+		L5: もっと見つけてくれれば、相応の礼をしよう。
+		L4: わしが集めておるのは特別なもんじゃ...海のスクラップよ。
+		L3: 手を組むこともできるぞい。
+		L2: わしももう年でな...荒事には飽き飽きしとる。
+		L1: まあまあ、若いの。会って早々に刃物を抜くもんじゃないぞ。
+		L0: ............
+		HelenName: ハリバット
+		OldDukeName: オールドデューク
+	}
+
+	GiveBlazingBud: {
+		MessageText: 焼け焦げた残り火が風にささやき、奇妙な花がふわりと手の中へ舞い込んだ...
+	}
+
+	DyeProtest: {
+		L2: それ、洗い落としてくれないか？染料桶に入れてから、その水入りバケツを使うんだ。
+		L1: 正直に言うと...ああいう派手な色は、あまり好きじゃなくてな。
+		R1: ハリバット
+	}
+
+	FirstMetTzeentch: {
+		EndLine2: まもなく、だ。
+		EndLine1: ではまた会おう。
+		Choice3_R3: ただ...どの結末も、あまり愉快なものではないが。
+		Choice3_R2: すべての物語は、その言葉から始まる。
+		Choice3_R1: そうか、知らないのか。それは結構。
+		Choice2_R4: 信じようが信じまいが...それはすでに起こっている。
+		Choice2_R3: 私はただ...これから起きることを語るだけだ。
+		Choice2_R2: 嘘はつかない。それだけは保証しよう。
+		Choice2_R1: ふむ。率直で、正直で、飾らない。貴重な資質だ。
+		Choice1_R3: そのまま進め。魔術師という肩書きは、とりあえず保留だ。
+		Choice1_R2: 残念だな。私は魔法など使わない。事実を変えるだけだ。
+		Choice1_R1: ははっ！なんと...柔らかい言葉だ。
+		Choice3Text: いや、あんたのことは知らない。
+		Choice2Text: 嘘つきだな。
+		Choice1Text: ...魔術師...か？
+		L8: さあ、聞かせてくれ。
+		L7: だが私はむしろ......今の君が私をどう呼ぶのかに興味がある。
+		L6: ある者は私を預言者と呼び、ある者は運命の羽と呼ぶ。
+		L5: ああ、そうだった。自己紹介をしておくべきか。
+		L4: 可愛らしいネットワークだな。どれほどの何かを引き寄せるか、わかっているのか？
+		L3: 十の量子ノード。十の道。十の未来。
+		L2: 私はずっと見ていた。君がその小さな装置を組み上げるのを。
+		L1: 静かに......後ろを振り向くな。
+	}
+
+	SupCalDisplayTextNormal: {
+		Desperation4RematchText: 新しい道を切り開けるのなら...まだ希望は残っているだろう。
+		Desperation3RematchText: お前が彼と同じ過ちを犯さないことを願っている。
+		Desperation2RematchText: お前の力は確かに刻一刻と増している。
+		Desperation1RematchText: 見事な戦いだった...この勝負はお前の勝ちだ。
+		Acceptance3Text: しかし、異形となったお前なら...私の知らない未来すら切り開けるのかもしれない...
+		Acceptance2Text: ...もう私には、もう立つ力すら残っていない...
+		Acceptance1Text: ほんの一筋の希望を求めて...自らを焼き、この姿になったというのに...
+		Desperation4Text: あいつと同じ愚行に走るだけなら、お前もただの灰になるだけだ！
+		Desperation3Text: 誰かがすでにその道を進んだ。しかし、行き着く先には何もなかった...なのに、お前だけが違う結末を迎えられると思うのか！？
+		Desperation2Text: ここで負けたら、私には未来がない。
+		Desperation1Text: やめろ！
+		Sepulcher2RematchText: 這い寄る墓が再び姿を現す、これが最後だ。
+		Sepulcher2Text: もし生き残る者が一人だけなら...私がそれを望むのは誰だと思う？
+		BH5RematchText: ...ワクワクしてこないか？
+		BH5Text: ここまでは余興にすぎない。舐めるなよ。
+		SeekerRingRematchText: 少なくとも...私の判断は間違っていなかったな。
+		SeekerRingText: 何？どうやって避けた？こんなはずではなかったはずだ...
+		BH4RematchText: 気になるな...最初の戦いから何か学んだか？
+		BH4Text: 私の手から逃れられると思うな！
+		Phase2RematchText: もう一度だ...始めよう。
+		Phase2Text: ここから先は...炎を抑えない。すぐに死ぬんじゃないぞ。
+		BrothersRematchText: たとえ魂の欠片しか残っていなくとも...お前を倒すには十分だ。
+		BrothersText: 彼らはその道のためにすべてを燃やした...さあ、この灰が、お前の価値を測るだろう。
+		BH3RematchText: これほどの災厄を降らせたのは百年ぶりだ。お前も味わってみるか？
+		BH3Text: こんな場所まで来て...その脆い体に苦痛を刻みに来たのか？
+		BH2RematchText: 勇気はあるが、技量はまだ足りないな。
+		BH2Text: まだ倒れないとはな...思ったよりはやるようだ。
+		StartRematchText: まだ燃え尽きていないか。なら始めよう。鋼になるまで...あるいは灰になるまで。
+		StartText: この熱の中では、凡百の器はすぐ壊れる...だが、お前はどうだ？
+		SummonRematchText: 見せてみろ。生き残れ。
+		SummonText: この灼熱の硫黄の海...復讐の亡霊ですら焼かれるだろうな。
+	}
+
+	SupCalDisplayTextByBossRush: {
+		Acceptance2BossRush: 幸運を...せいぜい足掻いてみせろ、凡人よ。
+		Acceptance1BossRush: ...そうか。たぶん、ここが私の終わりだったのだろう。
+		Desperation4BossRush: よくやった...だが、彼女の旅はまだ続く。
+		Desperation3BossRush: ふっ...影の命など最初から脆いものだ...
+		Desperation2BossRush: まだ勝ったつもりになるな...
+		Desperation1BossRush: たとえ断片であっても...
+		Sepulcher2BossRush: 最後の試練だ...彼女の道を継ぐ価値があるか示してみろ。
+		BH5BossRush: 異形として生まれた私の役目は...まさにこの瞬間にある。
+		SeekerRingBossRush: お前の力は...彼女の記憶の中のあの人にあまりにも近い...偶然か？
+		BH4BossRush: 動くな。時代の重さを背負えるかどうか見せてもらう。
+		Phase2BossRush: 作られた命であっても、戦う理由は持てるものだ。
+		BrothersBossRush: これらは魂の影...そして、そのまた影。写せば写すほど哀れになると思わないか？
+		BH3BossRush: 過去の影は...既に灰となり、お前の歩む道に散った。
+		BH2BossRush: 強いな...だがまだ足りない。
+		StartBossRush: 私は黄金の魂から産まれた異質な構造物にすぎない...だが果たすべき務めはある。
+		SummonBossRushWithProverbs: その指輪...残滓にすぎない私でも感じる...
+	}
+
+	SupCalDisplayText: {
+		Acceptance2Text: あるいは...お前なら、本当にこの呪われた時代を終わらせられるのかもしれんな。
+		Acceptance1Text: これほど幸福な気分は...百年ぶりだ。
+		Desperation4Text: どうやら...私の負けだな。お前に出会えたこと、それが唯一の救いだ。
+		Desperation3Text: げほっ...ごほっ...今日は調子が万全とは言えないな。
+		Desperation2Text: 調子に乗るな！先ほどまではただの戯れだ！
+		Desperation1Text: 動くな...この...小虫が！
+		Sepulcher2Text: 今日、生き残れるのがどちらか一人なら...私が望むのは誰だと思う？
+		BH5Text: 勝敗の天秤はまだ定まっていない。ほんの一瞬でも立ち止まれば、この戦いは覆る。わかったか？
+		SeekerRingText: お前の力は外部の依存物。今のお前は、虚ろな器にすぎない...あの偽善者を思い出す。
+		BH4Text: 動くな。正面から来い！
+		Phase2WithoutHalibut: まだ、命乞いをする気はないのか？
+		Phase2WithHalibut: まだ、慈悲を乞う気はないのか？
+		BrothersWithoutHalibut: 私の家族を紹介しよう。もし他者の手で死ぬことがあっても、お前の魂はここに留めておいてやろう。
+		BrothersWithHalibut: 私の家族を紹介しよう。奴らは超越の道で失敗した者たちだ。奴らのようになるな。
+		BH3WithoutHalibut: なかなかやるな...だが、いつ気づく？お前はただ、無駄に炎の羽を叩いているだけだと。
+		BH3WithHalibut: その歪んだ力を凡人の器で制しているとは...ここまで来たお前には、確かに敬意を払おう。
+		StartRematchDefault: 奇妙だな。お前はもう死んでいるはずだが...
+		StartRematchMediumHealth: 傷を負っているか。興味深い。
+		StartRematchLowHealth: もう息も絶え絶えじゃないか。
+		StartDefault: 奇妙だな。お前はもう死んでいるはずだが...
+		StartMediumHealth: 技術はまだ未熟だな。
+		StartLowHealth: もう息も絶え絶えじゃないか。
+		SummonRematchWithoutProverbs: また来たか...死というものを、まだ理解していないようだな。
+		SummonRematchWithProverbs: まだその指輪を身に着けているのか...
+		SummonWithoutProverbs: ははは...この時を...どれほど待ちわびたことか。
+		SummonWithProverbs: その指輪をつけたまま来るとはな...よかろう。容赦はしない。
+	}
+
+	SCalAltarScenario: {
+		L3: ...何だ？もう一度言わせる気か？
+		L2: その機械仕掛けの玩具を寄せ集めて、あいつを倒してこい。
+		L1: まだ時ではない。お前の行く手には、もうひとつの敵が立ちはだかっている。
+		Rolename1: 煉獄の魔女
+	}
+
+	EternalBlazingNow: {
+		AchievementTooltip: 過去は炎に呑まれ、異形の肉体は永遠へと触れる。
+		AchievementTitle: 「[BE] エンディング：永劫に燃える現在」
+
+		WitchFarewell: {
+			FarewellLine11: 行け、小虫。
+			FarewellLine10: これで...十分だ。
+			FarewellLine9: 長い旅の果てに、ようやく自分の終着点に辿り着いたと思えばいい。
+			FarewellLine8: 振り返るな。お前には、まだ進むべき道がある。
+			FarewellLine7: そして私は......ようやく眠れる。
+			FarewellLine6: お前はきっと、私の歩いた道よりも遠くまで行ける。
+			FarewellLine5: お前の存在が、この大地がまだ枯れ果てていない証だ。
+			FarewellLine4: 私にとっては......こんな終わり方でさえ、十分すぎるほどだ。
+			FarewellLine3: 最後の道で、同行者ができるとは思わなかった。
+			FarewellLine2: 炎は時代を喰らい尽くすが、同時に新たな始まりも照らす。今回も、例外ではないと思っていた。
+			FarewellLine1: この長い生の中で、幾千もの夜明けと終焉を見てきた。
+		}
+
+		Rolename3: 煉獄の魔女
+
+		HelenEpilogue: {
+			EpilogueLine3: おかえり......
+			EpilogueLine2: ......
+			EpilogueLine1: ばかを待ってたんだ。
+		}
+
+		Choice1Line2: それが君の選んだ答えなら、私は支える。どれほどその道が遠くなろうとも...君が何になろうとも...私はそばにいる。ずっと...
+		Choice1Line1: ...これが君の選択か？
+		Choice2Text: (沈黙を保つ)
+		Choice1Text: (ハリバットを止める)
+		QuestionLine: ......
+		Line15: 絶対に嫌だ！ 彼を貴様のような怪物にするなんて...！
+		Line14: それに...凡人の肉体では、この時代を終わらせるには弱すぎる。私の体を踏み台にする方が、まだましだろう？
+		Line13: 私の意識が完全に消えたとき、私の中にある「煉獄の炎」が再び目覚める。そのとき、世界はすべて焼き尽くされる。
+		Line12: そうだ。それが必要なのだ。
+		Line11: ...彼に、貴様の意識を継がせるつもりか？
+		Line10: 予感がある。お前と出会わなければ、私はあと三十年が限界だったはずだ。
+		Line9: だが、この果てしなく渦巻く炎の海の中で...私の意識は、やがてすり減り、消えていく。
+		Line8: この世界の過去と現在、どちらかに煉獄の炎の一欠片でも存在する限り、『私』は消えない。
+		Line7: だから、最後にひとつだけ頼みがある。
+		Line6: 強くなったな。お前なら、この絶望の時代を終わらせる力を本当に持っているのかもしれない。
+		Line5: 私は死なない...ふふ。だが、これならほとんど同じだな。
+		Line4: 戦いの最中、彼女には過去に干渉する力なんてなかった...だがこれは彼女が死んだ「後」に起きているのか？
+		Line3: この炎は過去から現在へ燃え移っている。あの魔女は死んでいなかったのか！しかし、なぜだ？
+		Line2: 過去の自分にアクセスできない...過去そのものが封印されている！
+		Line1: ふざけるな？！ 一体どこからこの炎が？！
+		Rolename2: ???煉獄の魔女???
+		Rolename1: ハリバット
+	}
+
+	MusicToast: {
+		NowPlaying: Now Playing
+	}
+
+	ExoMechThirdDefeat: {
+		ThirdDefeatLine2: あなたの成果は...統計的な誤差ではないようですね。
+		ThirdDefeatLine1: 安定した戦闘能力。私が追い求める「完成」に欠かせない要素です。
+		DraedonName: ドレイドン
+	}
+
+	ExoMechSecondDefeat: {
+		SecondDefeatLine3: 学習曲線の再評価が必要なようです。
+		SecondDefeatLine2: 解析結果によれば、前回の交戦以降、特定分野での向上が確認されています。
+		SecondDefeatLine1: 興味深い。あなたの適応速度は、私の予測を上回っています。
+		DraedonName: ドレイドン
+	}
+
+	ExoMechQuickDefeat: {
+		QuickDefeatLine3: より攻撃的な設計思想を...検討すべき時かもしれません。
+		QuickDefeatLine2: あなたの戦闘効率を過小評価していたようですね。
+		QuickDefeatLine1: ...この所要時間は、私の予測モデルを大きく下回っています。
+		DraedonName: ドレイドン
+	}
+
+	ExoMechHardDefeat: {
+		HardDefeatLine2: 高負荷環境下での理性維持能力も...満足のいく水準です。
+		HardDefeatLine1: 極限状況下での判断能力――まさに、私が観測を望んでいたデータです。
+		DraedonName: ドレイドン
+	}
+
+	QuestCompleteScenario: {
+		Line5: 必要であれば、通信網を通じて直接連絡を取ることができます。
+		Line4: 報酬として、私の装備群および一部権限へのアクセスを付与します。用途は任意です。
+		Line3: あなたの処理速度は私の予測を上回りました。評価に値します。
+		Line2: データ伝送遅延は理論値と一致。逸脱は確認されません。
+		Line1: すべての量子ノードが稼働中。ネットワークは完全に機能しています。
+		DraedonName: ドレイドン
+	}
+
+	FirstTowerBuiltScenario: {
+		Line4: その効率を維持しなさい。
+		Line3: 規定数に達すれば、より広範囲での精密観測が可能となるでしょう。
+		Line2: これがネットワーク構築の第一段階です。残りの信号塔も順次展開してください。
+		Line1: 新たな量子もつれノードは安定して稼働しています。信号も良好です。
+		DraedonName: ドレイドン
+	}
+
+	DeploySignaltowerScenario: {
+		Choice_Decline: {
+			DeclineResponse: 理解しました。準備が整った時に、再び来なさい。
+		}
+
+		Choice_Accept: {
+			L3: その段階で、私は亜空間経由でさらなる資源輸送を継続的に行えるようになります。
+			L2: 最初のノードが稼働すれば、通信リンクの安定化が始まります。
+			L1: これが初期資材です。量に限りがありますので、まずは信号塔の主構造を完成させなさい。
+			AcceptResponse: よろしい。これが塔の設計図です。完了後、進捗を報告しなさい。
+		}
+
+		ChoiceDecline: 後で
+		ChoiceAccept: 依頼を受ける
+		AcceptPrompt: どうしますか？受けますか？
+		TaskLine: この世界各地に信号塔を設置し、量子もつれ通信網を完成させてほしい。
+		TechExplainLine2: 理論上、その通信遅延はほぼゼロに到達します。
+		TechExplainLine1: 各塔は他ノードと量子もつれ接続を形成し、銀河規模の通信網を構築します。
+		IntroLine8: これが私の設計した量子信号塔です。中核にはもつれ安定器と零点エネルギー増幅装置を採用しています。
+		IntroLine7: ただし、実用化には十分な数の量子もつれノードが必要です。
+		IntroLine6: この技術は光速の制約を超え、銀河間即時通信を実現します。
+		IntroLine5: そのために、最新の量子もつれアレイの展開を手伝ってもらいたい。
+		IntroLine4: あの嵐の後、星間航行は極めて不安定になりました。ゆえに私は、この大地で基盤システムを再構築する必要があります。
+		IntroLine3: 気づいた時には、監視網はすでに沈黙し、百年が過ぎていたのです。
+		IntroLine2: 百年前、銀河を襲ったエネルギー嵐により、この惑星の施設の大半が消滅しました。
+		IntroLine1: 私は今、重大な実験を行う必要があります。あなたが最適な協力者です。
+		DraedonName: ドレイドン
+	}
+
+	ExoMechEndingDialogue: {
+		KillAttemptLine: ...無駄なことを。
+		EndLine9: あなたの勝利は認めます。しかし、私はそろそろ戻らなければいけません。
+		EndLine8: ですが、あなたはこれまでも道を切り開いてきた。今回もいずれ、方法を見つけるでしょう。
+		EndLine7: 腹いせではありませんよ。私はその様子を観察していたいとすら思っていますからね。
+		EndLine6: さて、あなたは暴君のもとへ向かおうとしているようですが、私は手を貸すことはできません。
+		EndLine5: しかしあなたは、自らの血をもって抗った。その変化こそ、私が望んでいたものです。
+		EndLine4: この地は、無数の血によって淀み、朽ちてしまった。
+		EndLine3: ......少し考えすぎました。先ほどの光景を見て、思考を整理する必要がありそうです。
+		EndLine2: あなたは私と同じく、この地にもその歴史にも縛られていない。
+		EndLine1: 未知の変数...あなたは「特異点」と呼ぶべき存在です。
+		DraedonName: ドレイドン
+	}
+
+	ExoMechdusaSum: {
+		ChoiceTwins: アルテミス＆アポロ
+		ChoiceThanatos: タナトス
+		ChoiceAres: アレス
+		BossRushLine: 選びなさい。制限時間は20秒です。
+		SelectionPrompt: 選択してください。
+		IntroLine5: さあ...選んでください。
+		IntroLine4: そしてあなたには、その本質を戦いで示してもらいます。
+		IntroLine3: 私の創造した、神をも超える機械たちをお見せしましょう。
+		IntroLine2: 未知のあらゆる形に興味がありますが...あなたという存在ほど興味深いものはありません。
+		IntroLine1: この瞬間を待ち望んでいました。
+		DraedonName: ドレイドン
+	}
+
+	HellGift: {
+		L5: 最初は地熱泉の案内役かと思ったが...見た目だけみたいだ。
+		L4: ああ、そうだ。魚を捕まえたんだ。
+		L3: ...考えるだけで気持ちが落ち着く。
+		L2: 大陸全体に及ぶ地熱の温泉だ。
+		L1: いいアイデアがある。海底を掘り抜いてここも海洋の一部にしてしまえばいい。
+		L0: くそったれ、イヤな場所だ...地獄はどんどん熱くなっている。
+		R1: ハリバット
+	}
+
+	HelensInterference: {
+		FinalBranch_Stop: {
+			Line3: 行こう。あの魔女のところに。
+			Line2: ......そんなことはないか。
+			Line1: ...君は......本当に止める気か？
+		}
+
+		FinalBranch_Continue: {
+			Line5: 私は君と一緒に行く...最後まで。
+			Line4: あと、あの魔女のことも......
+			Line3: 返すよ。ただ...使うときは気をつけてくれ。
+			Line2: ......
+			Line1: ...止めても無駄だとわかっていた。
+		}
+
+		Branch_Silence: {
+			Line4: 止めてくれ...お願い。私のために。
+			Line3: あの魔女は危険だ、どこからともなく現れた。もし罠なら、どうするつもりなんだ？
+			Line2: ...わかった、私は「心喰らいの刃」を隠した。
+			Line1: ...黙らないでくれよ。
+		}
+
+		Branch_Inquiry: {
+			Line4: 君にそれを続けさせるわけにはいかない、少なくとも私は。
+			Line3: どれも何かの「媒体」のように感じる。
+			Line2: あの刃に触れたとき、誰かが...笑っているのが聞こえた気がした。
+			Line1: 最近、どんどん不安が募ってるんだ。
+		}
+
+		Branch_Anger: {
+			Line4: 気づくべきだった...
+			Line3: 深淵で見た何かを思い出させるんだ...触れたの、冷たくて、怖くて、不安になるもの...うっ...思い出したくない。
+			Line2: 気づかなかったのか？ あの魔女が君に渡すものは...どれも普通じゃない。
+			Line1: ...君は本当に彼女を信頼しているのか？
+		}
+
+		FinalChoice_Stop: 依頼を止める
+		FinalChoice_Continue: 依頼を続ける
+		FinalQuestion: もういいんじゃないか...？お願い。あの魔女の依頼、望むもの...もう見たくないんだ。私たちで逃げよう？
+		Choice1_3: （何も言わない）
+		Choice1_2: 渡せ！
+		Choice1_1: どうした？
+		Question1: ......？
+		Line2: （ハリバットは何かを隠しているようだ。）
+		Line1: 今日は......えっと......いい天気だよね？
+		Line0: ...なあ、今、暇？
+		Rolename: ハリバット
+	}
+
+	YharonQuestUI: {
+		DeclineText: 辞退
+		AcceptText: 受諾
+		QuestDesc: ムラマサを使って、ヤーロンを討ち取れ。
+		QuestTitle: 依頼: 再臨の龍
+	}
+
+	SupCalYharonQuestReward: {
+		Line7: こんな冗談みたいなことが起きるとは...
+		Line6: さて...次は私の番か。
+		Line5: これを受け取れ。オーリックインゴットだ。かつては「煉獄の黄金」と呼ばれ、凡人が触れうる力の極致だ。
+		Line4: 惜しい奴だ。あいつは「忠義」に長けていた。お前は......そうだな、「生への執着」か？
+		Line3: 死ぬと知りつつも立ち向かう...たとえオーリックソウルに蘇らされようと、戻ってくるのはただの模造品にすぎない...
+		Line2: 私にとって...あの龍は、敬意を払うに値する数少ない存在の一つだった。
+		Line1: ああ...ついに終わったか。
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	AchievementToast: {
+		AchievementUnlocked: 実績解除！
+	}
+
+	SupCalDoGQuestReward: {
+		Line7: ......私は本当にあの女が我慢ならない。
+		Line6: まあ、どのみち、お前とあの人は、決して出会えない運命。出会っていれば...語り合うことも多かっただろうな。
+		Line5: もし次の依頼が、「私を殺せ」というものだったら......どうする？
+		Line4: 受け取れ。
+		Line3: 私がまだ人間だった頃、師の心臓を抉り出すのにこれを使ったんだ。役に立つだろう？
+		Line2: この刃は...やはりいいものだ。
+		Line1: 綺麗に片が付いた。
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	DoGQuestUI: {
+		DeclineText: 辞退
+		AcceptText: 受諾
+		QuestDesc: 心喰らいの刃を使ってデバウアーオブゴッドを討伐せよ。
+		QuestTitle: 依頼: デバウアーオブゴッド
+	}
+
+	FishoilQuestUI: {
+		QuickPutText: クイックスタック
+		RewardText: 報酬を受け取る
+		CompletedText: 完了
+		DeclineText: 辞退
+		SubmitHint: クリックで預ける／引き出す
+		DescText: 十分なバスをくれれば、私がそれを精製して魚油入りの瓶にする。
+		TitleText: 回収: バス
+	}
+
+	FishoilQuestScenario: {
+		ChoiceDecline: いや、大丈夫だ。
+		ChoiceAccept: ああ。
+		Line4: 興味あるか？
+		Line3: この魚油は思ったより役に立つかもしれない。
+		Line2: 手順は難しくない、ただ...退屈だ。
+		Line1: 研究のために少し分けてくれれば、新鮮な魚油に精製してやる。
+		Line0: 最近、一般的な魚をかなり捕っているようだね。
+		Rolename: ハリバット
+	}
+
+	ResurrectionWarn: {
+		Line10: ...これらの眼を破壊させる方法を見つけねばならない。
+		Line9: この力を代償なしに使いたければ...
+		Line8: 戦闘中に何個の眼が「安全」に開いていられるか、バランスを学ばねばならない。
+		Line7: これは深淵の力を振るう代償だ。眼を開かなければ、私自身の能力は著しく低下する。
+		Line6: 開いている眼が多ければ多いほど、進行は速く、危険は増す。
+		Line5: 私の内で開くこれらの眼の一つ一つが...再生プロセスを加速させる。
+		Line4: 最終結果は...深淵に飲み込まれることだ。
+		Line3: 再生が完了すれば...結果は深刻だ。
+		Line2: 念のため言っておくが、これは遊びではない。
+		Line1: 「再生」状態が臨界点に近づいている。
+		Line0: おい...今の感覚、感じたか？
+		Rolename: ハリバット
+	}
+
+	SupCalQuestReward: {
+		Line7: ......
+		Line6: 私の煉獄の在り方の一部を込めてある。君の助けになるだろう。
+		Line5: そしてこの刃。これで殺してきてほしい...あの〈虫〉を。報酬はもっと増やしておく。
+		Line4: 報酬はこれだ。
+		Line3: 君は私の問題を一つ解決してくれた。
+		Line2: このクロスボウは君に似合っている。
+		Line1: よくやった。
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	PallbearerQuestUI: {
+		DeclineText: 辞退
+		AcceptText: 受諾
+		QuestDesc: 棺担ぎの弩のみで冒涜された女神を討伐せよ。
+		QuestTitle: 依頼: 冒涜された女神を討て
+	}
+
+	SupCalVictory: {
+		Line8: ...彼女は逃げ去った。
+		Line7: ...覚えておけ...
+		Line6: だが...これは終わりではない...
+		Line5: ...どうやら私はお前を見誤っていたようだ。
+		Line4: 私はこんな奴に...
+		Line3: ありえない...絶対にありえない...
+		Line2: お前が...私を...？
+		Line1: なぜ...どうしてこんなことが！
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	SupCalPlayerDefeat: {
+		Line9: はあ...
+		Line8: あのとき、第九の眼を開いていれば...代償などどうでもよかったのに。そうすれば、まだ勝機があったかもしれない。
+		Line7: （炎の旋風の中へ消える）
+		Line6: 神に刃を向け、目を逸らさず立つ人間...そんな者は、お前が初めてだ。
+		Line5: とはいえ、少しは勇気があるようだな。
+		Line4: せめて、私の強さに値するほど強くなってから出直すがいい。
+		Line3: 買いかぶりすぎたな。今のお前の程度では、私の準備運動にすらならない。
+		Line2: 少しは遊べるオモチャを見つけたと思ったのだが。
+		Line1: 触れただけで砕けるとは...大したことなかったな。
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	SupCalDefeat: {
+		Line10: ......
+		Line9: 君が私を『秤にかける』というのか？ それならキシロスを連れてこなければならない。
+		Line8: 私は一つの時代が産み落とした存在のただ一人だ。自ら人間の枠を捨て、神を名乗った時点で、私はすでに全能だ。
+		Line7: （こんなに生きてきて、初めて誰かに「次元が低い」と言われたぞ...なんなんだ...）
+		Line6: ...私の次元が低すぎるだと？
+		Line5: お前の次元はあまりに低い。私の在り方など理解できはしない。
+		Line4: 残念だ...お前たちは出会うことがない。
+		Line3: ヤリムは既に人間が到達しうる頂点に達している。誰もそれを超えられない。
+		Line2: だが、お前が最強というわけではない。腕は立つが、あの男も決して劣ってはいない。
+		Line1: もうここまで辿り着いたとはな...ふふ、完敗だ。
+		Rolename2: ハリバット & [Name]
+		Rolename1: 煉獄の魔女
+	}
+
+	SupCalMoonLordReward: {
+		Line7: 成功すれば、我々の...「協力関係」は続けられる。
+		Line6: 小さなクロスボウだ。それを持って、あそこに居座って地熱を吸い取っているあの...〈物〉を殺してきてくれ。頼むから、このクロスボウを必ず使うんだ。
+		Line5: 君への小さなおもちゃと、ちょっとした依頼だ。
+		Line4: ...で、今回は何の用だ？
+		Line3: 今、地下はどんな様子か想像がつくか？
+		Line2: なるほど、これが彼の堕ちた先か。
+		Line1: ははは...
+		Rolename2: ハリバット
+		Rolename1: 煉獄の魔女
+	}
+
+	ADVChoiceBox: {
+		DisabledHintFormat: ({0})
+		TitleText: 選択
+	}
+
+	FirstMetSupCal: {
+		NoFishLine6: もちろん、わざわざ姿を現したのは、こんな瑣末な説明をするためではない。
+		NoFishLine5: だが、そんなことは無意味だ。お前の理解では、私の存在の本質には到底届かない。
+		NoFishLine4: 私の意識は、ずっと昔に煉獄の炎へと鍛え上げられた。この肉体など...ただの操り人形にすぎない。
+		NoFishLine3: なぜ私がまだ生きているのか、だと？どうやら、お前は触れてはならない真実に近づき始めているようだな。
+		NoFishLine2: お前は、私の予想以上に強くなっている。
+		NoFishLine1: 妹を殺すのが、思っていたよりずいぶん早かったな。それに...ひとりで来たのか？
+		Choice2Response: ...哀れな「小魚」だな。よかろう、挨拶代わりの贈り物を受け取れ。また会おう。
+		Choice1Response: ならば、お前の価値を測らせてもらおう。
+		Choice2Text: (沈黙を保つ)
+		Choice1Text: (武器を抜く)
+		QuestionLine: さて......お前の選択は何だ？
+		Line10: それに、私がここにいる理由はそれだけではない...
+		Line9: 考えるだけ無駄だ。私の存在状態をお前が理解することなど不可能だ。
+		Line8: ...非人間の器に宿る生きた心が、媒体によって世界に縛られているとでも...まるで化物だ...
+		Line7: 興味深い魚だ。私の意識はずっと昔に煉獄の炎へと鍛えられた。この体は...ただの死骸で、炎によって操られているに過ぎない。
+		Line6: ...だが、なぜ貴様は生きている？ 煉獄の魔女は確かに先世紀に死んだはずだ。
+		Line5: ははっ！...誰かが、いや、何かの〈魚〉が私を認識するとは。面白い、感心したよ。
+		Line4: 煉獄の魔女？！ 海の半分を焼き尽くしたという...！？
+		Line3: 見覚えがある......貴様は......
+		Line2: お前は......予想よりも速く成長している。
+		Line1: まさかこんなに早く殺すとは思わなかったぞ。
+		Rolename3: ハリバット
+		Rolename2: 煉獄の魔女
+		Rolename1: ???
+	}
+
+	ADVRewardPopup: {
+		ClickOrWaitToContinue: クリック／待機して続行
+		ClickToContinue: クリックで続行
+		ClickToReceive: クリックで受け取る
+	}
+
+	YharonGift: {
+		L4: 君はあの竜を倒した。だが思うんだ...あいつは、あの瞬間にようやく解放されたんじゃないかとな。
+		L3: 手に取ると、焼けるような決意を感じる。これが戦士の温度だ。
+		L2: 紅虎魚...ちょうど今捕まえたところだ。縞模様が気に入っている。
+		L1: 主のために自身を灰にまで焼き尽くすほどの純粋な忠誠...それは珊瑚礁を守る魚群を思い出させる。
+		L0: ジャングルの竜...いや、「世界を燃やす竜」だ。燃えているのは肉ではなく、執念そのもの。
+		R1: ハリバット
+	}
+
+	WallOfFleshGift: {
+		L4: 「ハードモード」へようこそ...とはいえ、以前から「イージー」だとは思っていなかったが。
+		L3: あの壁と同じだ。追い続け、食らい続ける。
+		L2: 残骸の中でハンガーフィッシュを見つけた。常に飢えているように見える。
+		L1: 君は今、何かの均衡を壊した。その感覚がわかるか？ 世界の鼓動が速くなっている。
+		L0: 肉と骨の壁...この世界の創造主は、ずいぶん奇妙な発想をするらしい。
+		R1: ハリバット
+	}
+
+	SupremeCalamitasGift: {
+		L4: 君はこの世界の力の頂点に近づいているが...ただ、ここから先は...長い道だ。
+		L3: これを見ると「なりたい自分」が見えるらしい...もっとも、それは本当の自分とは一番かけ離れている。
+		L2: そして、この魚は彼女の灰から生まれたものだ。廃墟に咲く花のような、矛盾した優雅さを持つ。
+		L1: 今の戦いで私たちは何を終わらせた？ 伝説を終わらせたのか、それとも新しい伝説を作ったのか。
+		L0: 煉獄の魔女...復讐者。過去百年で最強の魔導師だ。
+		R1: ハリバット
+	}
+
+	SlimeGodGift: {
+		L4: あまり見つめすぎると...自分がどちら側に立っているのか、わからなくなるぞ。
+		L3: その色は観察者の気分で変わる。いや、君の内なる混沌を映しているのかもしれない。
+		L2: この魚はぬるぬるした中からすくい上げたものだ。名前は...気にしないでくれ。
+		L1: 不浄と真紅。世界の永遠の対立。そして我々はそれが「解決」できることを証明した。
+		L0: 三つのスライム...いや、分裂した神性と言うべきか。この二元的な存在、興味深いな。
+		R1: ハリバット
+	}
+
+	ProvidenceGift: {
+		L4: 理解と戦いの境界なんて、攻撃ひとつで崩れるものだ。
+		L3: その繊細な温度調整を見るに...もしかすると、彼女はただ理解されたいだけだったのかもしれない。
+		L2: この魚は彼女の灰の中から蘇ったものだ。温度は常に「火傷しない程度の熱さ」に固定されている。
+		L1: 私たちは聖なる炎を消しただけじゃない。ひとつの時代の残り火ごと消し去った。
+		L0: 冒涜された女神...信仰と炎、その矛盾の化身。哀れな存在だ。
+		R1: ハリバット
+	}
+
+	PlanteraGift: {
+		L4: まるで節制と食欲だな。いつも争ってる。まあ、私の場合は、いつも食欲が勝つが。
+		L3: 「頭が二つなら知恵も二倍」と言うが、見たところどっちに泳ぐかで口論してるだけみたいだ。
+		L2: とりあえずこれをやろう。頭が二つある。ジャングルではよくあることだ。
+		L1: ジャングルの怒りが植物の形になったみたいだ。自然の復讐に理屈なんてない。
+		L0: 花か...いや、「花」と呼ぶにはあまりに食人植物に寄りすぎているか。
+		R1: ハリバット
+	}
+
+	PlaguebringerGift: {
+		L4: まあ、私たちはさっき疫病の巣から生還したばかりだ。このくらいのリスク、どうってことないさ。
+		L3: 食べれば抵抗力が上がると言われている。「死なない程度の毒は薬になる」ってやつだ。
+		L2: そして、こいつも見つけた。「ジュエルフィッシュ」だ。感染して奇跡的に回復した。
+		L1: ウイルスに善悪なんてない。ただ生き延びたいだけだ。私たちと同じだが...ずっと単純だ。
+		L0: プレイグブリンガー...生物兵器を積んだ機械の蜂だと？こんなものを設計した奴は酷いヤツだ、蜂を奴隷にするとは。
+		R1: ハリバット
+	}
+
+	PerforatorGift: {
+		L4: 寝ている間に這い回るとかはないだろう...おそらく。
+		L3: 見た目に怯えるな、たとえ悪夢から這い出したようでも。
+		L2: これは残骸の中で見つけた魚だ。まだ動いているが気にしないでくれ。
+		L1: その血は奇妙な粘性を持ち、まるで生きた金属のようだ。
+		L0: 穿孔する肉の虫の塊だ...この生物の存在は生物学への挑戦だ。
+		R1: ハリバット
+	}
+
+	MoonLordGift: {
+		L4: 我々は神ですら血を流すと証明した。
+		L3: 未来が見えると言われているが、君はすでにその未来を書き換えている。
+		L2: そうだ、「クラウドフィッシュ」を捕まえたんだ。空の裂け目から降ってきた。手に握ると重さを感じない。
+		L1: 我々はただ世界を救したのではない。開かれるべきでなかった扉を閉じたのだ。
+		L0: 月の王だと？はは！今やただの浮遊する眼と血肉の塊だ。
+		R1: ハリバット
+	}
+
+	LeviathanGift: {
+		L4: 私たちと同じだ。
+		L3: 外見が平凡なほど、過去は並外れている。
+		L2: これは熱帯のパラクーダだ。深海の渦から釣り上げた。見た目は普通で、それが逆に怪しい。
+		L1: 最深部に棲むものは恐怖ではなく孤独だ。彼らはただ仲間を求めているだけだ。
+		L0: 海の暴君...と、いつも付き従う小さな相棒。種を超えた友情が存在する。理屈を超えて。
+		R1: ハリバット
+	}
+
+	HiveMindGift: {
+		L4: しかし、共鳴して腐敗とつながれると言われている。やはり間違っている気がする。
+		L3: 三日間日向に晒されたシーフードの匂いがする。
+		L2: この汚らわしい魚はあの腐肉の山から引き上げたものだ。詳細は聞かないでくれ。
+		L1: その思考過程は...独特だろう。数え切れないほどの腐った断片が一つの歪んだ全体に繋ぎ合わされている。
+		L0: 腐敗でできた集合意識だ...気持ち悪い概念だ。
+		R1: ハリバット
+	}
+
+	GolemGift: {
+		L4: ...いくつかのものは、すべての問題を解く必要はないと気づかせるために存在する。
+		L3: 一度煮ようとしたが、鍋の方が先に降参した。
+		L2: これは「岩魚」だ。寺院の基礎から掘り出した。その密度に自分の存在を疑うほどだ。
+		L1: 何かを守っているのかもしれない。あるいは意味を失ったプログラムをただ繰り返しているだけかもしれない。
+		L0: 動く石の山だ。古代文明の遺産...あるいは彼らの失敗の証かもしれない。
+		R1: ハリバット
+	}
+
+	DevourerOfGodsGift: {
+		L4: もし色に匂いを感じ始めたら、休んだほうがいい。
+		L3: 見つめると脳が理解しようとして、存在すべきでない色を理解しようとする。独特の体験だ。
+		L2: そしてこれは「ネオンテトラ」だ。虚無の裂け目から浮かび出した。その放つ光はこの次元のものではない。
+		L1: よく言うだろう、深淵を覗けば深淵も覗き返すと。しかしこいつはただ覗くだけではない。君をおやつにしようとしている。
+		L0: デバウアーオブゴッド...神々を喰らう宇宙の蛇だ。その食欲は野心と同じくらい無限だ。
+		R1: ハリバット
+	}
+
+	CryogenGift: {
+		L4: 食べ過ぎると氷の彫刻になってしまうかもしれない。
+		L3: 食べると血が冷え、思考が異様に冴えると言われている。
+		L2: よし、これをやろう。この魚は、氷片から溶け出した。まだ凍ったままの姿勢を保っている。
+		L1: 深淵文書館では、この種の低温は通常「狂人」を保存するために使われる。
+		L0: 凍った魂だ...
+		R1: ハリバット
+	}
+
+	CrabulonGift: {
+		L4: でももし突然、暗く湿った場所に根を張りたくなったら教えてくれ。
+		L3: 心配するな、胞子が人間を菌に変えることはない...多分。
+		L2: これは「キノコウオ」だ。胞子を撒く中でかろうじて捕まえた。
+		L1: 菌糸体ネットワークは情報を伝えるって知ってたか？多分、助けを呼んでいたのかもしれない。
+		L0: あのキノコみたいな......存在か？それは知恵なのか、それとも帽子の下に隠れた純粋な本能なのか。
+		R1: ハリバット
+	}
+
+	CalamitasCloneGift: {
+		L4: だが心配するな。狂気は別の角度から見た明晰さに過ぎない。
+		L3: もしそれが理解できるようになったら...おめでとう。狂気への第一歩を踏んだということだ。
+		L2: 仕事に戻ろう。彼女の灰から取った「ブリムリッシュ」だ。近づけるとまだ意味不明な呟きが聞こえる。
+		L1: 嫌な予感がする。本当の恐怖はまだ深くにいて、さらに近づいている。
+		L0: 安っぽい影だ。大学時代に塹壕で作っていた遺伝的怪物を思い出す。作った奴の趣味は最悪だ。
+		R1: ハリバット
+	}
+
+	BrimstoneElementalGift: {
+		L4: 結局、怒りは伝染するのだ。
+		L3: 注意しろ、手の中で自然発火するかもしれない。比喩的に言っても。
+		L2: これをやる。黒曜石魚だ。急冷した溶岩の産物で、その鱗は地獄の恨みより硬い。
+		L1: 一部のエレメンタルは創られるのではない。世界の裂け目から滲み出してくる奇妙な存在なのだ。
+		L0: 彼女がそこに立っているだけで、まるで燃える演説のようだった。黙らせられてよかった。
+		R1: ハリバット
+	}
+
+	AquaticScourgeGift: {
+		L4: 暗めの光の下で使うのが良い。さもないと...ハイになるかもしれない。
+		L3: 見つめると視覚系が再起動する。強制アップデートのようだが、もっと痛みを伴う。
+		L2: これをやる。七色魚だ。その鱗は見たことのない色を屈折させる。主に存在すべきでない色だ。
+		L1: 硫黄海は興味深い場所だ。あそこの生き物は皆同じ問いを口にする...「なぜ私はまだ生きているのか？」。
+		L0: 故郷のあまり愛想の良くない近所の連中を思い出す。ただしこいつはかなり愛想が良かった。かつては硫黄海大学の警備主任をしていて、いつも挨拶してくれた。
+		R1: ハリバット
+	}
+
+	SkeletronGift: {
+		L4: 行こう。もっと......「抽象的な」骨が待っている。
+		L3: 「スケルトンフィッシュ」だ。中に含まれてるリンが光って、夜釣り人に己の存在を考えさせるらしい。
+		L2: 銃身を冷ましてくれ。その間にここらで魚を見つけたから見てくれ。
+		L1: 頭蓋の構造が暴走したサイキック構造体を思わせた。
+		L0: あれはかなりのカルシウム量だった。
+		R1: ハリバット
+	}
+
+	QueenBeeGift: {
+		L3: 甘酸っぱい料理にちょうど良さそうだ。
+		L2: これだ、新鮮で......まだ温かい「蜂蜜のヒレ」だ。
+		L1: それでも、地面の蜜溜まりから魚を引き上げたよ。
+		L0: 危うく顔面がハチミツまみれになるところだった。
+		R2: ???
+		R1: ハリバット
+	}
+
+	KingSlimeGift: {
+		L4: 海底でもスープは作れるんだ。海の底にも、さらに深い「海」があるからね。
+		L3: これでスープを作ったことはあるか？
+		L2: これをやろう。「スライムフィッシュ」だ。強く握るな。感情が弾けるかもしれない。
+		L1: 物質が自己認識を得ようとする、不器用な試みかもしれない。
+		L0: あの青い塊......「スライム」と呼ぶのか？どちらかと言えば、凝縮した感情のようだった。
+		R1: ハリバット
+	}
+
+	EyeOfCthulhuGift: {
+		L4: 第三の眼が開いたように感じるかもしれないが、だがそれは幻覚に近い生理反応だ。
+		L3: 持っておいてくれ。ただし注意しろ。
+		L2: 名前の通り、理屈では説明できない代物だ。
+		L1: こいつの......口の中でこれを見つけた。受け取れ。「クトゥルフの魚」だ。
+		L0: 「監視段階」に入ったようだ。つまり、厄介なことになる。
+		R1: ハリバット
+	}
+
+	FirstMet: {
+		Line21: 異論がなければ、まずは......この魚の研究から始めよう。
+		Line20: その代わりに...私の内にある眼の「再生」問題の解明を手伝ってほしい。
+		Line19: きっと助けになれるはずだ。
+		Line18: よければ、私を同行させてくれ。
+		Line17: 君は人間のようだね。
+		Line16: その後の記憶は曖昧だ......長い眠りにつき、そして君に釣り上げられた。
+		Line15: その眼の力を使って領域を開き、深淵に裂け目を作って脱出した。
+		Line14: 生存本能のままに、それを飲み込んだ。
+		Line13: 逃走の途中、珊瑚樹の下で「眼」を見つけた。
+		Line12: 生物でもなく、「殺す」こともできない。それは――概念としての恐怖そのものだった。
+		Line11: 深淵の底で、理解不能な存在に遭遇した。
+		Line10: 生還したのは私だけだった。
+		Line9: 数年前、「深淵生態サンプリング計画」を立ち上げた。
+		Line8: 私は硫黄海大学・深淵学部の教授だった。
+		Line7: なぜ私がここにいるのか、気になっているだろう。
+		Line6: ......
+		Line5: 本来この魚は君の獲物だったが、出会いの記念として贈ろう。
+		Line4: 君がいなければ、私はシステムクラッシュの中で本当に死んでいたかもしれない。
+		Line3: 君の針のおかげで、あの静寂と死の海から引き上げられた。
+		Line2: いや、ハリバットでいい。
+		Line1: ....すまない、私はハリバット博士だ。
+		Line0: 君の釣りの腕前は......まだ改善の余地があるな。
+		Rolename2: ハリバット
+		Rolename1: ???
 	}
 }
 
-ModifyLores: {
-	ModifyLoreUnderworld: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Underworld
+UI: {
+	OldDuchestUI: {
+		StorageText: 収納スペース
+		TitleText: 古いチェスト
 	}
 
-	ModifyLoreStormWeaver: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: StormWeaver
+	OceanRaidersUI: {
+		StorageText: 収納
+		TitleText: 海喰らいの保管庫
 	}
 
-	ModifyLoreSlimeGod: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: SlimeGod
+	FindFragmentUI: {
+		HintText: 海で釣りをするか生物を倒して入手する
+		QuestCompleteText: クエスト達成！
+		ReturnToCampsiteText: キャンプに戻って提出する
+		CurrentFragmentsText: 現在の所持数
+		CollectFragmentsText: 海のスクラップを集める
+		ObjectiveText: 目標
+		RequiredContribution: 目標: 海のスクラップを777集める
+		DamageContribution: 収集進行度
+		QuestTitle: 深淵の呼び声
 	}
 
-	ModifyLoreSkeletronPrime: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Skeletron Prime
+	FindCampsiteUI: {
+		HoldFragmentHintText: 海のスクラップを持つと方向がわかる
+		QuestCompleteText: クエスト達成！
+		InteractText: オールドデュークと話す
+		DistanceText: 距離
+		LocationText: オールドデュークのキャンプへ向かう
+		ObjectiveText: 目標
+		RequiredContribution: 目標: オールドデュークを見つけて話す
+		DamageContribution: クエスト進行度
+		QuestTitle: 深淵の呼び声
 	}
 
-	ModifyLorePlaguebringerGoliath: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Plaguebringer Goliath
+	OldDukeShopUI: {
+		HintTooltip: スクロール/ドラッグバー
+		CurrencyName: 海のスクラップ
+		TitleText: オールドデュークのショップ
 	}
 
-	ModifyLorePerforators: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Perforators
+	SulfseaDialogueBox: {
+		FastHint: 加速
+		ContinueHint: 続ける
 	}
 
-	ModifyLoreOldDuke: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: OldDuke
+	ChargingStationUI: {
+		EnergyUnit: UE
+		InsertBatteryHint: パワーセルを入れる
+		InsertItemHint: 充電するアイテムを入れる
+		IdleText: 待機中
+		ChargingText: 充電中
+		StatusLabel: 状態:
+		ItemChargeLabel: アイテム充電量
+		StationEnergyLabel: ステーションエネルギー
+		BatterySlotLabel: バッテリー
+		ItemSlotLabel: 充電アイテム
+		TitleText: 充電ステーション
 	}
 
-	ModifyLoreYharon: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Yharon
+	Generator: {
+		ThermalGeneratorUI: {
+			PowerUnit: UE
+			TemperatureUnit: °C
+			InsertFuelHint: クリックで燃料を挿入/取り出し
+			EfficiencyText: 効率: {0}%
+			IdleText: 待機中
+			ActiveText: 稼働中
+			StatusLabel: 状態:
+			PowerLabel: 出力
+			TemperatureLabel: 温度
+			FuelLabel: 燃料
+			TitleText: サーマルジェネレーター
+		}
 	}
 
-	ModifyLoreWallofFlesh: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Wall of Flesh
+	ConstructionBlueprintUI: {
+		CraftingStation: クラフト設備:
+		CloseHint: クリックで閉じる
+		MaterialsRequired: 必要素材:
+		UITitle: 自動構築機（量子もつれタワー）
 	}
 
-	ModifyLoreSkeletron: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Skeletron
+
+	EnchantUI: {
+		EnchantTitle: エンチャント
+		CollapseHint: エンチャントメニューを閉じる
+		ExpandHint: エンチャントメニューを開く
 	}
 
-	ModifyLoreSignus: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Signus
+	TzeentchDialogueBox: {
+		FastHint: 加速
+		ContinueHint: 続ける
 	}
 
-	ModifyLoreRequiem: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Requiem
+	DraedonCallUI: {
+		DisabledReasonText: ドレイドンは呼び出されています
+		ConnectedText: 接続中
+		ConnectingText: 接続中...
+		DisabledButtonText: 無効
+		CallingText: 呼び出し中...
+		CallButtonText: 呼び出し開始
+		TitleTextDisabled: 呼び出し無効
+		TitleText: ドレイドンを呼び出す
 	}
 
-	ModifyLoreRavager: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Ravager
+	SignalTowerTargetRenderer: {
+		AllCompletedText: 量子もつれネットワーク完了！
+		TargetCompletedText: ターゲットポイント [NUM] 完了！
+		InRangeText: 範囲内
 	}
 
-	ModifyLoreProvidence: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Providence
+	DeploySignaltowerTrackerUI: {
+		QuestCompleteText: ミッション完了！
+		DistanceText: 距離
+		InRangeText: 範囲内
+		StatusText: ステータス
+		NodeText: もつれノード #[NUM]
+		NearestTargetText: 最寄りのターゲットポイント
+		RequiredContribution: 目標：10基のシグナルタワー
+		DamageContribution: 展開進捗
+		QuestTitle: 量子もつれネットワークの展開
 	}
 
-	ModifyLoreProfanedGuardians: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Profaned Guardians
+	CQETConstructorTP: {
+		GuideText_GroundIncomplete: 地面が未完成！
+		GuideText_Ready: 準備完了！
+		GuideText_NeedBlocks: "{0}ガウスパルスプレートが必要"
 	}
 
-	ModifyLoreTwins: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Twins
+	ExoMechdusaSumRender: {
+		ArtemisApolloDescription: アルテミス＆アポロ：不安定なエネルギーを抱えた、非常に粘り強い自動機械のペア。
+		AresDescription: アレス：4つのエクソスーパーウェポンを備えた重量級の機械。
+		ThanatosDescription: タナトス：無敵の装甲と無数のレーザー砲塔を持つ蛇のような機械。
 	}
 
-	ModifyLoreSulphurSea: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Sulphur Sea
+	DraedonDialogueBox: {
+		FastHint: 加速
+		ContinueHint: 続ける
 	}
 
-	ModifyLorePrelude: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Prelude
+	BrimstoneDialogueBox: {
+		FastHint: 加速
+		ContinueHint: 続ける
 	}
 
-	ModifyLoreQueenSlime: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Queen Slime
+	SeaDialogueBox: {
+		FastHint: 加速
+		ContinueHint: 続ける
 	}
 
-	ModifyLoreHiveMind: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Hive Mind
+	YharonQuestTrackerUI: {
+		RequiredContribution: 必要貢献率：80%
+		DamageContribution: 鬼の鉈によるダメージ
+		QuestTitle: 依頼：ヤーロンを討伐せよ
 	}
 
-	ModifyLoreGolem: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Golem
+	PallbearerQuestTrackerUI: {
+		RequiredContribution: 必要貢献率：80%
+		DamageContribution: 棺担ぎの弩によるダメージ
+		QuestTitle: 依頼：冒涜の女神を討伐せよ
 	}
 
-	ModifyLoreEyeofCthulhu: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Eye of Cthulhu
+	DoGQuestTrackerUI: {
+		RequiredContribution: 必要貢献率：85%
+		DamageContribution: 心喰らいの刃によるダメージ
+		QuestTitle: 依頼：神喰らいを討伐せよ
 	}
 
-	ModifyLoreExoMechs: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Exo Mechs
+	QuestTracker: {
+		DamageTrackerSystem: {
+			SuccessDamageContribution: ダメージ貢献率
+			FailureReasonInsufficientDamage: 武器によるダメージが不足している
+			FailureReasonWrongWeapon: 指定武器でトドメを刺さなかった
+			QuestCompletedPrefix: クエスト達成！
+			QuestFailedPrefix: クエスト失敗！
+		}
 	}
 
-	ModifyLoreQueenBee: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Queen Bee
+	LegendUpgradeConfirmUI: {
+		Success: "[ITEM]がレベル[LEVEL]に強化された"
+		CancelText: キャンセル
+		ConfirmText: 強化を確定
+		DescText:
+			'''
+			現在の世界レベルが武器レベルを上回っています
+			{0}をレベル{1}に強化しますか？
+			'''
+		TitleText: 伝説武器の強化確認
 	}
 
-	ModifyLorePolterghast: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Polterghast
+	ItemFilterUI: {
+		CloseHint: "[ESC]または右クリックで閉じる"
+		HintText2: 左クリックでアイテムを削除
+		HintText: 左クリックでアイテムを追加
+	}
+}
+
+Resurrections: {
+	ResurrectionDeath: {
+		RetainValueFormat: 再誕値: {0}%
+		MarkRemainText: 深淵の刻印がまだ残っている...
+		DeathNoticeText: あなたは深淵に呑まれた...
+		WarningCombatText: 深淵があなたを喰らっている...
+		DeathText: "{0}は深淵の再誕に呑み込まれました。"
+	}
+}
+
+FishSkill: {
+	FishFrostMinnow: {
+		Studied: 凍傷に注意！
+		Tooltip:
+			'''
+			射撃中、一定間隔で「氷のハヤ」を召喚
+			散弾状の氷弾を放ち敵を攻撃する
+			'''
+		DisplayName: 凍てつく宣告
 	}
 
-	ModifyLorePlantera: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Plantera
+	FishDoubleCod: {
+		Studied: なんとも奇妙な種だ...
+		Tooltip:
+			'''
+			射撃中、一定間隔で追尾する鱈を放つ
+			鱈は敵を追跡し続け、接触ダメージを与える
+			'''
+		DisplayName: 双鱈の追撃
 	}
 
-	ModifyLoreMechs: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Mechs
+	FishBrimlish: {
+		Studied: 危険なほど高温だ...
+		Tooltip:
+			'''
+			射撃中、一定間隔で魚を召喚
+			散弾状の灰血弾を多数放ち敵を攻撃する
+			'''
+		DisplayName: 灰血の散布
 	}
 
-	ModifyLoreLeviathanAnahita: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Leviathan Anahita
+	FishNeonTetra: {
+		Studied: この鱗の輝きは見惚れるほどだ
+		Tooltip:
+			'''
+			移動時、発光するネオンテトラを残す
+			通過した軌跡上の敵にダメージを与える
+			'''
+		DisplayName: ネオンの軌跡
 	}
 
-	ModifyLoreKingSlime: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: LoreKing Slime
+	FishTropicalBarracuda: {
+		Studied: 驚くほどの速度だ
+		Tooltip:
+			'''
+			射撃時、画面端からバラクーダの群れを召喚
+			高速で画面を横断し、敵を貫く
+			'''
+		DisplayName: バラクーダ・ブリッツ
 	}
 
-	ModifyLoreEmpressofLight: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Empressof Light
+	FishCrimsonTiger: {
+		Studied: 非常に獰猛な性質をしている
+		Tooltip:
+			'''
+			右クリックで紅虎魚の群れを召喚
+			周囲を追従し、敵を見つけ次第攻撃する
+			'''
+		DisplayName: 深紅の巡行
 	}
 
-	ModifyLoreEaterofWorlds: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Eaterof Worlds
+	FishPrincess: {
+		Studied: 明らかに「王子」ではない...
+		Tooltip:
+			'''
+			射撃時、プリンセスフィッシュを召喚して戦わせる
+			プリンセスフィッシュは魔法弾を放ち敵を攻撃する
+			'''
+		DisplayName: 王女の輝き
 	}
 
-	ModifyLoreDukeFishron: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Duke Fishron
+	FishVariegatedLard: {
+		Studied: 洗剤をかなり使いそうだ...
+		Tooltip:
+			'''
+			攻撃命中時、敵から油を噴き出させる
+			油は地面や敵に付着し、さらに広がる
+			'''
+		DisplayName: 油の飛沫
 	}
 
-	ModifyLoreDragonfolly: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Dragonfolly
+	FishRock: {
+		Studied: 誰も、この魚が「槌になりたい」かは聞かないのだ。
+		Tooltip:
+			'''
+			一定間隔でロックハンマーフィッシュを召喚する
+			敵の上方に移動し、叩きつけ攻撃を行う
+			'''
+		DisplayName: 岩槌の一撃
 	}
 
-	ModifyLoreDevourerofGods: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Devourerof Gods
+	FishObsidian: {
+		Studied: 黒曜石って、意外と脆いんだよ。
+		Tooltip:
+			'''
+			射撃時、黒曜魚を召喚しプレイヤーの周囲を旋回させる
+			黒曜魚は接触ダメージを与えるが、被弾時に1体ずつ砕け散る
+			'''
+		DisplayName: 黒曜の守護
 	}
 
-	ModifyLoreDestroyer: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Destroyer
+	FishPrismite: {
+		Studied: この魚の輝きは重金属を吸収した結果かもしれない...
+		Tooltip:
+			'''
+			射撃時、弾を虹色の衝撃波に変換する
+			命中時に分裂し、複数の弾を放つ
+			'''
+		DisplayName: 虹光の奔流
 	}
 
-	ModifyLoreDesertScourge: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Desert Scourge
+	FishScorpio: {
+		Studied: 体の隅々まで砂で満たされている...
+		Tooltip: 地を這う蠍の守衛を召喚し、敵に砂弾を放つ
+		DisplayName: 砂蠍の守護者
 	}
 
-	ModifyLoreCynosure: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Cynosure
+	FishWyverntail: {
+		Studied: 伝説級の存在として扱うべきだろう...
+		Tooltip:
+			'''
+			射撃中、白竜を召喚する
+			白竜は敵に素早く突進し、ダメージを与える
+			'''
+		DisplayName: 白影の竜
 	}
 
-	ModifyLoreCrimson: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Crimson
+	FishUnicorn: {
+		Studied: 純潔の乙女だけが釣り上げられるという...
+		Tooltip:
+			'''
+			右クリックで長距離の水平突進を行う
+			ダッシュ中は無敵となり、壁を通過する
+			'''
+		DisplayName: 虹角の突撃
 	}
 
-	ModifyLoreCrabulon: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Crabulon
+	FishBloodyManowar: {
+		Studied: 彼らの関係は共生なのか、それとも支配なのか...
+		Tooltip:
+			'''
+			射撃時、敵に向かう血塗れのクラゲ群を召喚する
+			集合時に大きな範囲ダメージを与える
+			'''
+		DisplayName: 深紅の審判
 	}
 
-	ModifyLoreCorruption: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Corruption
+	FishTunabeard: {
+		Studied: 魚にとって「海賊」と「盗賊」に違いはあるのだろうか？
+		Tooltip:
+			'''
+			右クリックでカーソル方向へ高速ダッシュ
+			ダッシュ中は無敵になり、壁をすり抜ける
+			'''
+		DisplayName: 怒涛の突進
 	}
 
-	ModifyLoreCeaselessVoid: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Ceaseles's Void
+	FishJewel: {
+		Studied: 六色の旋律...虹の交響曲が作れそうだ
+		Tooltip:
+			'''
+			射撃時、宝石弾を一定の順序で放つ
+			宝石の種類により異なる音を奏でる
+			'''
+		DisplayName: 虹彩の序曲
 	}
 
-	ModifyLoreCalamitasClone: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Calamitas Clone
+	FishofCthulu: {
+		Studied: ...見つめられている
+		Tooltip:
+			'''
+			射撃時、敵を監視する瞳を召喚する
+			接近すると瞳が変化し突進する
+			'''
+		DisplayName: 深淵の眼差し
 	}
 
-	ModifyLoreCalamitas: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Calamitas
+	FishDrizzle: {
+		Studied: 焚き火以外にも使い道がありそうだ
+		Tooltip:
+			'''
+			射撃中、一定間隔で硫黄弾を吐く魚を召喚する
+			射撃中は再チャージが進まない
+			'''
+		DisplayName: 硫黄の雨
 	}
 
-	ModifyLoreBrimstoneElemental: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Brimstone Elemental
+	FishPeng: {
+		Studied: もしかしたらマダガスカル出身かも...
+		Tooltip:
+			'''
+			射撃時、敵の頭上からペンギンを降らせる
+			落下時に範囲ダメージとノックバックを与える
+			'''
+		DisplayName: ペンギン急襲
 	}
 
-	ModifyLoreBrainofCthulhu: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Brainof Cthulhu
+	FishMud: {
+		Studied: 隠れる技に長けている。
+		Tooltip:
+			'''
+			射撃時、地面から泥の守衛を呼び出す
+			泥玉を放った後、再び地中へ沈む
+			'''
+		DisplayName: 泥の守衛
 	}
 
-	ModifyLoreAzafure: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Azafure
+	FishDirt: {
+		Studied:
+			'''
+			土の香りが海底を思い出させる...
+			この小さな群れは互いに寄り添って温もりを分け合う。
+			'''
+		Tooltip:
+			'''
+			移動中、自身の周囲を回る土魚の群れを召喚する
+			球は跳ね、転がりながら連続ダメージを与えるが、同時に存在できる球は1つのみ
+			'''
+		DisplayName: 大地の群れ
 	}
 
-	ModifyLoreAwakening: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Awakening
+	FishCat: {
+		Studied: この魚は蜂蜜に目がないようだ。
+		Tooltip:
+			'''
+			右クリックで跳ね回るキャットフィッシュを複数投げる
+			跳ねるたびに鳴き声を上げ、敵に触れるか時間経過で爆発する
+			'''
+		DisplayName: バウンドキャット
 	}
 
-	ModifyLoreAstrumDeus: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: AstrumDeus
+	FishBunny: {
+		Studied: 危険なほどふわふわしている！
+		Tooltip:
+			'''
+			右クリックで跳ね回るバニーフィッシュを複数投げる
+			敵に触れるか一定時間後に爆発する
+			'''
+		DisplayName: バウンドボム
 	}
 
-	ModifyLoreAstrumAureus: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Astrum Aureus
+	FishSlime: {
+		Studied: とても...“くっつきたがり”だ...
+		Tooltip:
+			'''
+			移動中にスライム状のジェルを撒き散らす
+			触れた敵に付着する
+			'''
+		DisplayName: 粘液の軌跡
 	}
 
-	ModifyLoreAstralInfection: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Astral Infection
+	FishCursed: {
+		Studied: それでも釣り竿は燃えない...
+		Tooltip:
+			'''
+			射撃時、呪われた炎を散布する
+			炎は不自然な軌道で弧を描き落下する
+			'''
+		DisplayName: 呪炎の奔流
 	}
 
-	ModifyLoreArchmage: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Archmage
+	FishIchorn: {
+		Studied: この魚の唾液は非常に有用だ！
+		Tooltip:
+			'''
+			射撃時に霊液の飛沫を散らす
+			命中時に霊液デバフを付与する
+			'''
+		DisplayName: 黄血の流れ
 	}
 
-	ModifyLoreAquaticScourge: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Aquatic Scourge
+	Fishotroning: {
+		Studied: 腕は4本（以上）あるんだよ！
+		Tooltip:
+			'''
+			射撃でスケルトロンの手を生み出し、共に戦わせるが、被弾すると手を1本失う
+			遠距離では骨を投げ、近距離では平手打ちを繰り出す
+			'''
+		DisplayName: 骨の掌握
 	}
 
-	ModifyLoreBloodMoon: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Blood Moon
+	FishHoney: {
+		Studied: なぜかナマズを怖がっているようだ...
+		Tooltip:
+			'''
+			右クリックで蜂の群れを呼び出し、自身の周囲を旋回させる
+			蜂は自動で敵を攻撃する
+			'''
+		DisplayName: 蜂の召喚者
 	}
 
-	ModifyLoreAbyss: {
-		Legend: ""
-		Tooltip: "[legend]"
-		DisplayName: Abyss
+	FishAmanita: {
+		Studied: この魚はひとつの菌類生態系そのものだ...
+		Tooltip:
+			'''
+			射撃ごとに4種の胞子弾を順に切り替える
+			（爆裂、追尾、毒、雷）
+			'''
+		DisplayName: 菌糸の循環
+	}
+
+	FishEaterofPlankton: {
+		Studied: この魚...中に虫がいる！
+		Tooltip: 射撃時、小型のソウルイーターを放ち、敵を襲わせる
+		DisplayName: 捕食者の落とし子
+	}
+
+	FishBat: {
+		Studied: この魚を逆さに吊るしたら...眠るのだろうか？
+		Tooltip:
+			'''
+			右クリックでコウモリの群れに変身し、高速で突進する
+			攻撃を行うと変身が解除される
+			'''
+		DisplayName: 幻影の残響
+	}
+
+	FishHunger: {
+		Studied: まるで...飢えているようだ...
+		Tooltip:
+			'''
+			射撃中、一定間隔で「ハングリー・モー」が周囲を旋回し出現する
+			最大まで溜まると、モーが照準方向へ向かい敵を喰らう
+			'''
+		DisplayName: 飢えた顎
+	}
+
+	FishFallenStar: {
+		Studied: 日中は......消えてしまうかもしれない
+		Tooltip:
+			'''
+			射撃に星が伴い、その周囲を小さな星々が回転する
+			一定の射撃ごとに星が降り注ぐ
+			'''
+		DisplayName: 星の落胤
+	}
+
+	FishHarpy: {
+		Studied: 本当に飛べる魚なのかは怪しいが、一応翼はある。
+		Tooltip:
+			'''
+			射撃中、一定間隔でハーピーの羽を召喚して周囲を回転させる
+			撃ち続けると羽が外へ向かって発射される
+			'''
+		DisplayName: 羽嵐
+	}
+
+	FishBone: {
+		Studied: 出汁にすればうまそうだ。カルシウムも豊富だ。
+		Tooltip:
+			'''
+			射撃中、一定間隔で骨を召喚して周囲を回転させる
+			旋回後、敵に向かって飛び出し、戻ってくるが、被弾すると骨は砕け散る
+			'''
+		DisplayName: 骨の旋風
+	}
+
+	FishDynamite: {
+		Studied: 内部構造は非常に複雑で、主に「ドカン」となる部分でできている。
+		Tooltip:
+			'''
+			右クリックで重力の影響を受けるダイナマイトフィッシュを投げる
+			敵に接触、または一定時間後に爆発する
+			'''
+		DisplayName: ダイナマイトフィッシュ
+	}
+
+	FishDemonicHell: {
+		Studied: 炎獄の中で燃え盛っている
+		Tooltip:
+			'''
+			射撃中、一定間隔で炎獄の紋章を召喚する
+			完全にチャージされると、紋章が火球を発射し、飛んだ後に爆発する
+			'''
+		DisplayName: 炎獄の爆炎
+	}
+
+	FishVoodoo: {
+		Studied: 有用な標本だ。新しい実験の発想が浮かんできた。
+		Tooltip:
+			'''
+			致命傷を受けた際、即死を防ぎ、代わりに近くの敵へダメージを転移させる（クールダウンあり）
+			発動中は、範囲内のすべての敵へ転移する
+			'''
+		DisplayName: 呪縛の守護
+	}
+
+	FishCloud: {
+		Studied: 見た目は魚だが、実際には泳ぐ雲らしい。
+		Tooltip:
+			'''
+			右クリックで雨雲に乗って高速移動し、通過した軌跡に雨を残す
+			騎乗中は壁をすり抜け、武器を使用できる
+			'''
+		DisplayName: 雲上の波乗り
+	}
+
+	FishZombie: {
+		Studied: 悪臭を放つ魚だ......生きてると言えるのか？
+		Tooltip:
+			'''
+			右クリックで溺死者の群れを呼び出し、敵に突進させる
+			接近すると爆発する
+			'''
+		DisplayName: 甦る潮
+	}
+
+	FishSparkling: {
+		Studied: この標本の研究はレーザーポインター技術の発展に繋がるかもしれない。
+		Tooltip:
+			'''
+			射撃中、一定間隔でスパークリングクイーンフィッシュを複数召喚して連射する
+			発射中はクールダウンが回復しない
+			'''
+		DisplayName: 王家の閃魚舞
+	}
+
+	FishSwarm: {
+		Studied: 特徴のない魚だが、潜在能力はかなり高い。
+		Tooltip:
+			'''
+			右クリックで魚の群れに変化して突進する
+			左クリックで群れをカーソル方向に射出する
+			'''
+		DisplayName: 幻影の群泳
+	}
+}
+
+Arcanes: {
+	Items: {
+		ArcaneTransformer: {
+			Tooltip: ""
+			DisplayName: 魔導変換器
+		}
+	}
+}
+
+NPCModifys: {
+	ModifyOldDuke: {
+		LeavingDiveText: オールド・デュークは水中へ潜っていった...
+	}
+
+	ModifyWITCH: {
+		Homeless0: すまない、何もないんだ。アイツに頼んで色々作り直してもらってから、また後で来てくれないか...
+		Homeless1: 泊まれる場所はないのか？もし無いなら...近くに野営する覚悟はできている。
+		Homeless2: 昔の時代の人々がどう暮らしていたか知っているか？家なんてなく、くり抜いた木の中に住んでいたんだ。せめて木の穴くらい探してほしい。
+		Homeless3: 空き家が無い？ まさか...家賃を払えというのか？
+		L0: 家賃は払えないけど、もし死んだ親戚がいて私に頼みたいことがあるなら...何？いないのか？
+		L1: 私は魂なんて信じたことがない。死者を蘇らせようとする行為は、より大きな破滅を招くだけだ。
+		L2: 
+			'''
+			前の世紀、私は超常に呑まれた町へ足を踏み入れた。
+			通りには死んだ友人や家族が並び、笑い、手を振り、助けを求めていた...
+			私は一度、そこで母を連れ戻そうとした。
+			生前とまったく同じ姿で、声も完璧だった...心臓が動いていないと気づくまでは。そして彼女は、その事実を面白がっていた。
+			'''
+		L3: 
+			'''
+			時々、君は過信しすぎているように見える。このままでは何も成し遂げられない。
+			力を求めて散っていった者を私は幾度も見てきた。
+			'''
+		L4: 
+			'''
+			君が私の魔法に興味を持っているのはわかっている。でもこれは...魔法じゃない。
+			これは秘儀の力だ。超常へ触れた者が良い結末を迎えた例はない。近づかない方がいい。
+			'''
+		BloodMoon0: こんな不自然な赤い空...私の炎とはまるで違う。
+		BloodMoon1: こんな夜じゃ仕事にならない。星たちが恐怖で隠れてしまったみたいだ。
+		Night0: 夜は霊がさまよう時間だ。こんな時に外へ出る気はない。
+		Night1: 昔、眠る前に毎晩占いをしていた。ある時、七晩連続で八日目に死ぬと出たことがある。
+		SeaKing: 私には海の王の思考が理解できない。彼は私の死を望んでいないようだ。なぜだ....？その思いやりが私には理解できない...
+		Party: あと一回、誰かがダンスできるかと聞いてきたら、その帽子を燃やしてやる...
+	}
+
+	ModifyTruffle: {
+		Chat11:
+			'''
+			この手のブラッドムーンは嫌いだね。  
+			まるで誰にも見向きされない萎びたキノコみたいに、色あせていくんだ。  
+			'''
+		Chat10: あの赤いやつは大嫌いだ。
+		Chat9:
+			'''
+			君、肺の中に菌が生えてるみたいだね。  
+			うちの店に来なよ、ちょうどいい薬がある。  
+			'''
+		Chat8:
+			'''
+			十年前までは、地下の菌糸王国まで案内する仕事をしてたんだ。  
+			今じゃ投げ売り状態らしいけどね。  
+			'''
+		Chat7: ここのキノコは全部私のものだ。
+		Chat6:
+			'''
+			スープが欲しいなら、私のキノコを買いな。  
+			少なくとも、鍋の中で悲鳴は上げないよ。  
+			'''
+		Chat5:
+			'''
+			昔、2000メートルはあるキノコの木を見たことがある。  
+			てっぺんまで登って飛び降りると、キノコの国に着くって話だ。  
+			'''
+		Chat4: ここにいる全員、私を食べたがってるんだ。
+		Chat3: キノコを売ってもいいけど、見返りは一切ないからね。
+		Chat2: 赤い傘、白い柄......食べたらそのまま永遠に寝転ぶことになるよ。
+		Chat1:
+			'''
+			昔は子どもたちと一緒にキノコ農園をやっていたんだ。  
+			ある日、半分の子どもが誰かの腹の中で育ってるのを見つけてね。  
+			'''
+		Chat0:
+			'''
+			あのカニの腹の中は実に快適でね、ずっとそこで暮らしてたんだ。  
+			でも君が殻を割っちまったせいで、私は家なしさ。  
+			'''
+		ButtonText: 起こす
+		SleepName: ???
+	}
+
+	ModifyCrabulon: {
+		DontDismountText: マルチプレイヤーモードでは、マウント機能が一時的に使用できなくなります！
+		DismountText: 右クリックで降りる
+		ChangeSaddleText: 左クリックでサドル変更
+		RideHoverText: 右クリックで騎乗
+		MountHoverText: 左クリックでサドル装着
+		CrouchAltText: 追従
+		CrouchText: 待機
 	}
 }
 
 RemakeItems: {
-	CWRItemOverride: {
-		Tooltip: ""
-		DisplayName: CWRItemOverride
+	DyeVatItem: {
+		Tooltip:
+			'''
+			染料のクラフトに使用する
+			設置後に右クリックで操作パネルを開き、アイテムを染色できる
+			染料スロットに水入りバケツを入れると、染料を洗い落とすことができる
+			'''
+		DisplayName: 染料作業台
 	}
 
 	RSuperradiantSlaughterer: {
@@ -1382,34 +2683,6 @@ RemakeItems: {
 		DisplayName: アダマンタイトの機械弓
 	}
 
-	RLunicEye: {
-		Tooltip:
-			'''
-			敵の防御力を下げる追尾するルナビームを発射する
-			この武器はすべてのダメージ属性の影響を受ける
-			'''
-		DisplayName: ルーニックアイ
-	}
-
-	REyeofMagnus: {
-		Tooltip:
-			'''
-			敵の防御力を下げる強力な追尾ビームを発射する
-			命中時にマナとライフを回復
-			この武器はすべてのダメージ属性の影響を受ける
-			'''
-		DisplayName: アイ・オブ・マグナス
-	}
-
-	RAestheticus: {
-		Tooltip:
-			'''
-			敵を遅くする爆発するクリスタルを発射する
-			この武器はすべてのダメージ属性の影響を受ける
-			'''
-		DisplayName: エステティカス
-	}
-
 	RWarbanneroftheSun: {
 		Tooltip:
 			'''
@@ -1523,14 +2796,14 @@ RemakeItems: {
 
 	RThePack: {
 		Tooltip: 敵を追尾する大型ロケットを発射し、接近時に小型追尾ロケットに分裂
-		DisplayName: ザ・パック
+		DisplayName: ギャラルホルン
 	}
 
 	RTheMaelstrom: {
 		Tooltip:
 			'''
 			左クリックで高速移動する台風の矢を発射し、命中時に水圧爆発を起こす
-			右クリックで狙いを定めてミニリーパ―シャークを発射し、「圧潰」を付与する
+			右クリックで狙いを定めてミニリーパーシャークを発射し、「圧潰」を付与する
 			'''
 		DisplayName: ミールストーム
 	}
@@ -1777,7 +3050,7 @@ RemakeItems: {
 			右クリックで短距離の光輝く炎を放つ
 			弾薬としてジェルを使用
 			'''
-		DisplayName: ピュアフューリーズ
+		DisplayName: ピュアフューリー
 	}
 
 	RPridefulHuntersPlanarRipper: {
@@ -1799,7 +3072,7 @@ RemakeItems: {
 			空から矢の雨を降らせて敵を攻撃する
 			木の矢を追尾する虹色のボルトに変換する
 			'''
-		DisplayName: プラネタリーアニヒレーション
+		DisplayName: 星界の殲滅者
 	}
 
 	RPlagueTaintedSMG: {
@@ -2095,11 +3368,11 @@ RemakeItems: {
 	RFlurrystormCannon: {
 		Tooltip:
 			'''
-			雪玉の弾幕を発射し、弾薬が減るほど火力が増加
+			雪玉の弾幕を発射し、弾薬が減るほど火力が増加する
 			オーバーロードモードに突入すると猛吹雪のような雪玉と雹の嵐を放つ
 			「これさえあれば、雪合戦で無敵だ」
 			'''
-		DisplayName: フルーリーストームキャノン
+		DisplayName: ブリザードストームキャノン
 	}
 
 	RFlarewingBow: {
@@ -2138,7 +3411,7 @@ RemakeItems: {
 			ダメージを与えるフレア弾を連続発射する
 			右クリックで密集したフレア弾を一斉射撃する
 			'''
-		DisplayName: ファイヤーストームキャノン
+		DisplayName: ファイアーストームキャノン
 	}
 
 	RFetidEmesis: {
@@ -2290,7 +3563,7 @@ RemakeItems: {
 			'''
 			かなりの威力を持つ古い拳銃
 			右クリックでリロード
-			「銃室が湿っていて、火薬が発火しないかもしれない…待てよ？これ、火薬使ってないのか？」
+			「銃室が湿っていて、火薬が発火しないかもしれない...待てよ？これ、火薬使ってないのか？」
 			'''
 		DisplayName: サンゴキャノン
 	}
@@ -2462,7 +3735,7 @@ RemakeItems: {
 			全ての矢を星のエネルギー矢に変換し、飛行中にストーカーを召喚
 			「古代の魔術の結晶」
 			'''
-		DisplayName: アストラルディフィート
+		DisplayName: 星霊の終焉
 	}
 
 	RAstralRepeater: {
@@ -2707,10 +3980,10 @@ RemakeItems: {
 	RTheBurningSky: {
 		Tooltip:
 			'''
-			剣を振るうと、ドラゴンファイアの火球が空から降り注ぐ
+			剣を振るうと、竜の火球が空から降り注ぐ
 			「そう、マナは消費しない...」
 			'''
-		DisplayName: バーニングスカイ
+		DisplayName: 焔空の刃
 	}
 
 	RTerrorBlade: {
@@ -3411,13 +4684,10 @@ RemakeItems: {
 		DisplayName: ムラサマ
 	}
 
-	HalibutCannonOverride: {
+	HalibutOverride: {
 		Tooltip:
 			'''
-			マスケット弾を海の弾丸の流れに変換する
-			「単眼鏡と山高帽を被ったこの魚を見てごらん。彼が大学に行ったなんて信じられる？」
-			"実を言いますと、私は海洋学と深海植物学の博士号を持っておりまして、硫黄の海大学の釣り大会で2度優勝したことがございます。
-			このオヒョウは海の秘密を知っているだけでなく、海の王冠も手にしているのです。" - オヒョウ
+			マスケット弾を「海流の奔流」に変換して発射する
 			legend_Text
 			[Lang4]
 			[Text]
@@ -3428,49 +4698,185 @@ RemakeItems: {
 
 Legend: {
 	MuraText: {
+		Subtest_Text10: 混沌に己を捧げたあの魔女...彼女には歪んだクローンがいる。その変異体を討て。その血と火でこの刃を聖別せよ。
+		Subtest_Text9: ジャングル深くのあの花のような変異体よ...行け。花弁を引き裂き、球根を粉砕し、その汁を大地に染み込ませろ。
+		Subtest_Text8: 哀れな神だ、星の熱を啜ることでみすぼらしい命を引き延ばしているだけだ。彼の異端の炎は完全に消されるべきだ。
+		Subtest_Text7: ダンジョンのあの魂の塊を私の刃の前で枯らせ。その魂は最高の糧となるだろう。
+		Subtest_Text6: 古の星の神はとっくに堕ちた。残っているのは芋虫にすぎない。このいわゆる神々の時代に終止符を打とう。
+		Subtest_Text5: 絡み合った肉と血の殻、古戦場の苦い魂たち、破滅を絶えずもたらすゴーレム。それはすべてを破壊する、そして我々はそれを破壊する。
+		Subtest_Text4: 誰かの雑な創造物がまだジャングルを徘徊している。失敗作として、スクラップの山に変えてやるべきだ。
 		World_Text0: 最後にアップグレードしたワールド
 		Subtest_Text3:
 			'''
-			決戦が近づいている。金属くずの山が、団結して我々を止めようとしている。
-			刃と血で、我々の探検隊が地球外生命体の忌まわしいものや憎むべき知性をすべて粉砕することを知らしめるのだ。
+			決戦が近づいている。金属くずの山が団結して我々を止めようとしている。
+			刃と血で、我々の探検隊が地球外生命体の忌まわしいものや憎むべき知性をすべて粉砕することを示してやるのだ。
 			'''
-		Subtest_Text2: 2つの視線を感じる。相手をしてやれ。
-		Subtest_Text1: 巨大な鋼鉄のワームが行く手を阻んでいる。粉々に引き裂け。
+		Subtest_Text2: 二つの視線を感じる。相手をしてやれ。
+		Subtest_Text1: 巨大な鋼鉄のミミズが道を塞いでいる。粉々に引き裂け。
 		Subtest_Text0:
 			'''
-			光と闇の力を解き放つために地獄に行かなければならない。
-			これは今までにない事象を引き起こすだろうが、選択の余地はない。
+			光と闇の力を解き放つために地獄へ行かなければならない。
+			これはこれまでにない事象を引き起こすだろうが、選択の余地はない。
 			新兵よ、新たな旅の幕開けだ！
 			'''
 	}
 
 	HalibutText: {
-		FishSkill: {
-			Goldfish: {
-				Introduce: これはビッグフラットフィッシュ博士のバスコレクション。持ち歩けば、博士が敵を海藻で絡め取ることができる。
-				Explain: 透き通った湖に生息する魚。研究価値があるものだ...ありがとう、先生。
-			}
-
-			Bass: {
-				Introduce: これはビッグフラットフィッシュ博士のバスコレクションだ。持ち歩けば、博士が敵を海藻で絡め取ることができる。
-				Explain: 透き通った湖に生息する魚。研究価値があるものだ...ありがとう、先生。
-			}
+		ResurrectionUI: {
+			SummaryFormat: 状態：{0}現在の傾向：{1}深淵が変化している。飲み込まれる前に領域を調整せよ。
+			Trend5: 崩壊へと螺旋
+			Trend4: 熱を帯びて膨張
+			Trend3: 鼓動とともに上昇
+			Trend2: ゆっくりと覚醒
+			Trend1: 静止・沈黙。
+			Phase5: 閾が崩れ、深淵がこちらを見返す。
+			Phase4: 圧が高まり、領域の幕が揺らぎ始める。
+			Phase3: 深淵が囁き、見えぬ潮流が制御の縁を掻き乱す。
+			Phase2: 穏やかな震えが潮を伝い、鼓動が息づき始める。
+			Phase1: 深淵は静かに蠢き、すべてはまだ人の手の内にある。
+			RateLevelDanger: 危険
+			RateLevelHigh: 強度
+			RateLevelMedium: 活性
+			RateLevelLow: 微弱
+			RateLevelVeryLow: 休止
+			HeaderSummaryText: 現在の現象解析
+			LineRateFormat: 流動率： {0:F3}/s
+			LineValueFormat: 共鳴値： {0:F1} / {1:F1}
+			LinePercentFormat: 完了率： {0:F1}%
+			TitleText: 深淵再生状態
 		}
 
-		Greeting13: 2回の優勝も誇らしいけど、何よりも誇りに思うのは、僕が知識を愛していること。その情熱があったからこそ、水中世界に小さな伝説を残せたんだ！
-		Greeting12: 学術研究のほかにも、水中の生活を観察するのが好きなんだ。珊瑚や魚の群れ、時折通り過ぎるウミガメ、どれも自然の絵画のように美しいね。
-		Greeting11: 陸の生き物たちが驚いた顔をするたびに、ちょっと面白く感じるんだ。賢い海洋生物はたくさんいる。僕はその中で、ちょっと「おしゃれをした」魚に過ぎないのさ。
-		Greeting10: ねえ、僕でさえ時々思うんだ。カレイがモノクルをかけて、水中の知識を語る...なんて不思議な光景なんだろうって！でも、知識は誰でも持てるものだよね？
-		Greeting9: 海の世界は広大で、想像を超えるほど刺激的だ。時間があれば、一緒に神秘的な深海植物を探しに行こう！僕が案内するよ！
-		Greeting8: 「知識は力なり」僕はそれを信じている。博士号を取るのも、釣り大会で勝つのも、すべては僕の豊富な知識と器用なヒレのおかげさ。
-		Greeting7: 教授の肩書きは伊達じゃないよ。サメでさえ僕の知識を称賛してくれるんだから！それに、このシルクハットも結構人気なんだ。
-		Greeting6: ああ、僕はただの魚じゃない！学術研究、釣り大会、深海探検...どれも大好きなんだ。今は君とおしゃべりするのが楽しいね。
-		Greeting5: 深海植物学は侮れないよ。あの漂う藻類を甘く見ないほうがいい。彼らの物語は星空と同じくらい奥深いんだ。興味があるなら、ぜひ話を聞いていってくれ。
-		Greeting4: 僕のシルクハットはどうだい？なかなかスタイリッシュだろ？実はこれ、釣り大会の幸運のお守りなんだよ。2度の優勝の瞬間を見届けてくれたんだ！
-		Greeting3: カレイが大学に通えるのかって？もちろんさ！水中の世界にはたくさんの知恵が隠されているんだ。こののんびり泳ぐ姿に騙されないでくれ。いつも本を手にしているからね。
-		Greeting2: 硫黄海大学を聞いたことがないかもしれないね。でも、そこで僕は海洋生物学と深海植物学を学んだんだ。それと、釣り大会でちょっと目立ってね、2回も優勝したんだよ。
-		Greeting1: ああ、いらっしゃい！僕のモノクルとシルクハットに驚かないでくれ！僕は硫黄海大学の教授、ビッグフラットフィッシュ博士！知識と優雅さ、どちらも大切さ。
-		Greeting0: 深淵の雰囲気が好きなんだ。あの巨大な生き物たちは本当はとても友好的なんだよ。ただ、とても恥ずかしがり屋で、驚きやすくて…ちょっと邪悪なだけでね...
+		DomainUI: {
+			LayerTitleFormat: "{0}層"
+			EyeDesc10:
+				'''
+				層という概念が失われ、一は無限となる。
+				あなたは深淵となり、深淵はあなたとなる。
+				その視線が落ちる場所に、新たな創世が始まる。
+				あなたは此岸の果てに至り、彼岸の神となった。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して大規模な再起動を行う。
+				[Halibut_Superposition] を押して重ね合わせ攻撃を使用する。
+				左クリックを押し続けて、無限の重ね合わせと無限の再起動を始める。
+				'''
+			EyeDesc9:
+				'''
+				九は究極の数。九つの眼が頭上に幻の深淵の光輪を形づくり、最後の人間性が消える。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して大規模な再起動を行う。
+				[Halibut_Superposition] を押して重ね合わせ攻撃を使用する。
+				'''
+			EyeDesc8:
+				'''
+				八つ目の眼が手のひらの中で静かな渦となる。
+				領域内の圧力はほとんど固体のようになり、光は曲がり、音は消える。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して大規模な再起動を行う。
+				[Halibut_Superposition] を押して重ね合わせ攻撃を使用する。
+				'''
+			EyeDesc7:
+				'''
+				七つの眼が宇宙の鼓動に合わせて光を放ちながら額に並ぶ。
+				領域は狂気的に現実を侵食し、触れたものは砂のように崩れ、自然の法則が潮に書き換えられる。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して大規模な再起動を行う。
+				[Halibut_Superposition] を押して重ね合わせ攻撃を使用する。
+				'''
+			EyeDesc6:
+				'''
+				第六の眼が心臓に開く。
+				鼓動のたび、領域に青い脈動が走り、蜘蛛の巣のようなエネルギーの導管が空間に浮かび上がる。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して自己を再起動する。
+				'''
+			EyeDesc5:
+				'''
+				肌は膨れ上がった水死体のようになり、無数の不気味な眼が皮膚の下を泳ぎ、やがて沈んでいく。
+				それらはついに額で一つに集い、怪物の眼となる。
+				五層の領域が完全に融合し、因果を捻じ曲げる力を授かる。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				[Halibut_Restart] を押して自己を再起動する。
+				'''
+			EyeDesc4:
+				'''
+				四つの眼が二対に分かれ、己の眼を覆う。隣り合う二層の領域はもはや入れ子に甘んじない。
+				邪光のもとでそれらは融合し、恐るべき四層の領域へと変貌する。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				'''
+			EyeDesc3:
+				'''
+				邪なる光を宿した三つの眼が額で重なり合う。領域は層を成し、底知れぬ三重の海となる。
+				内なる深淵の囁きが、はっきりと聞こえ始める。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				'''
+			EyeDesc2:
+				'''
+				二つ目の眼が開き、最初の眼と重なり合う。現実と領域の境界が曖昧になる。
+				領域の内部で新たな領域が強制的に開かれ、奇妙な二重構造の空間が形成される。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				'''
+			EyeDesc1:
+				'''
+				領域の最初の眼が開く。眠っていた何かが内で共鳴し、かすかな潮が現実にさざ波を立て始める。
+				[Line]
+				[Halibut_Domain] を押して領域を開閉する。
+				[Halibut_Teleport] を押して領域内を転移する。
+				[Halibut_Clone] を押して過去を現在へ侵食させる。
+				'''
+			CrashedLabelText: 悲鳴
+			ExtraEyeTitleText: X層
+			TitleText: 海淵領域
+		}
+
+		SkillSlot: {
+			Hover4: ドラッグ：並び替え
+			Hover3: ホイール：スクロール
+			Hover2: 右クリック：上部に固定
+			Hover1: 左クリック：選択
+		}
+
+		FishByPuzzle:
+			'''
+			[i:CalamityMod/HalibutCannon]
+			この魚はパズルの一部として使用できる
+			'''
+		FishOnStudied:
+			'''
+			[i:CalamityMod/HalibutCannon]
+			この魚はすでに研究済み
+			'''
+		FishByStudied:
+			'''
+			[i:CalamityMod/HalibutCannon]
+			この魚は研究できる
+			'''
 	}
 }
 
@@ -3483,6 +4889,19 @@ Biomes: {
 
 TextContent: {
 	CWRLocText: {
+		LegendItemUpgradeDisable:
+			'''
+			この伝説の武器は、現在のワールドにおいてアップグレードを無効化する設定がされています。
+			この制限を解除するには、ワールドに再入場してください。
+			'''
+		DisableMotionInterpolationMessage:
+			'''
+			HighFPSSupport: [モーションスムージング] 機能が有効になっていることを検出しました。
+			このMODの特定の視覚効果の安定性を確保するため、
+			この機能は自動的に無効化されています。
+			変更を確実に反映させるには、この機能を手動でオフに設定し、そのまま維持することを強く推奨します。
+			'''
+		Notbound: "[割り当てなし]"
 		MachineRebellion_DisplayName: 機械の反乱
 		MachineRebellion_DespawnMessage: 夜にリモコンを使う
 		MachineRebellion_SpawnInfo: 夜にリモコンを使う
@@ -3877,12 +5296,52 @@ TextContent: {
 }
 
 Keybinds: {
-	KreLoad_Key: {
-		DisplayName: 銃器：弾薬変更
+	AriaofTheCosmos_R: {
+		DisplayName: Aria of the Cosmos: Gamma Ray Burst
 	}
 
-	ADS_Key: {
-		DisplayName: 銃器：スコープを覗く
+	AriaofTheCosmos_Q: {
+		DisplayName: Aria of the Cosmos: Star Ring Guardian
+	}
+
+	Pandemonium_R: {
+		DisplayName: パンデモニウム：デーモンの終焉
+	}
+
+	Pandemonium_Q: {
+		DisplayName: パンデモニウム：硫黄の大災厄
+	}
+
+	Halibut_Skill_R: {
+		DisplayName: ハリバット：右スキルに切替
+	}
+
+	Halibut_Skill_L: {
+		DisplayName: ハリバット：左スキルに切替
+	}
+
+	Halibut_UIControl: {
+		DisplayName: ハリバット：UI操作
+	}
+
+	Halibut_Teleport: {
+		DisplayName: ハリバット：領域テレポート
+	}
+
+	Halibut_Superposition: {
+		DisplayName: ハリバット：重ね合わせ
+	}
+
+	Halibut_Restart: {
+		DisplayName: ハリバット：再起動
+	}
+
+	Halibut_Clone: {
+		DisplayName: ハリバット：旧自我の侵攻
+	}
+
+	Halibut_Domain: {
+		DisplayName: ハリバット：海洋領域
 	}
 
 	Murasama_DownKey: {
@@ -3893,32 +5352,29 @@ Keybinds: {
 		DisplayName: ムラサマ：トリガー
 	}
 
-	TOM_GlobalRecall: {
-		DisplayName: オメガ合成：全体リコール
-	}
-
-	TOM_GatheringItem: {
-		DisplayName: オメガ合成：アイテム収集
-	}
-
-	TOM_QuickFetch: {
-		DisplayName: オメガ合成：クイック取得
-	}
-
-	TOM_OneClickP: {
-		DisplayName: オメガ合成：ワンクリック配置
-	}
-
 	InfinitePickSkillKey: {
-		DisplayName: エンドレスピック形態切替
+		DisplayName: エンドレスピック：形態切替
 	}
 
 	HeavenfallLongbowSkillKey: {
-		DisplayName: 堕天の長弓スキル使用
+		DisplayName: 堕天の長弓：スキル使用
+	}
+
+	KreLoad_Key: {
+		DisplayName: Firearm: 弾薬変更
+	}
+
+	ADS_Key: {
+		DisplayName: Firearm: スコープを覗く
 	}
 }
 
 Buffs: {
+	FishoilBuff: {
+		Description: You feel that your skin is becoming oily
+		DisplayName: Fishoil
+	}
+
 	FrenziedMachineSoul: {
 		Description: 機械の魂が歓喜に満ちている！
 		DisplayName: 狂乱の機械の魂
@@ -3996,7 +5452,7 @@ Configs: {
 			Tooltip:
 				'''
 				有効にすると、武器の使用アニメーションがバニラに近づき、
-                発射時に向きの方向が一度だけ変更されます
+				発射時に向きの方向が一度だけ変更されます
 				'''
 			Label: 武器の慣性回転角度の更新
 		}
@@ -4083,6 +5539,11 @@ Configs: {
 			CWRSystem: システム設定
 		}
 
+		HalibutDomainConciseDisplay: {
+			Tooltip: デフォルトで無効。有効にすると、ドメイン内のほとんどの視覚効果が非表示になります。
+			Label: 海洋ドメイン最小限表示
+		}
+
 		MurasamaSpaceFragmentationBool: {
 			Tooltip:
 				'''
@@ -4095,16 +5556,6 @@ Configs: {
 		ScreenVibration: {
 			Tooltip: オンにすると、一部の攻撃中に画面が振動し、より強い打撃感を感じられます
 			Label: 武器画面振動
-		}
-
-		WeaponEnhancementSystem: {
-			Tooltip:
-				'''
-				有効にすると、一部武器の入手難易度に影響を与えます。
-				伝説武器は段階を経るごとに力を増していきます。
-				このオプションを無効にすると、この機能は無効になります。
-				'''
-			Label: 伝説武器強化システムを有効にする
 		}
 
 		WeaponOverhaul: {
@@ -4125,32 +5576,252 @@ Configs: {
 }
 
 Projectiles: {
-	WGGCollectorArm: {
-		DisplayName: W G G Collector Arm
+	SulfuricacidExplosion: {
+		DisplayName: Sulfuricacid Explosion
 	}
 
-	CollectorArm: {
-		DisplayName: Collector Arm
+	AriaQSkillMiniDisk: {
+		DisplayName: Aria Q Skill Mini Disk
 	}
 
-	MechanicalArm: {
-		DisplayName: Mechanical Arm
+	AriaRSkillBeam: {
+		DisplayName: Aria R Skill Beam
 	}
 
-	SpawnLaserEffect: {
-		DisplayName: Spawn Laser Effect
+	AriaRSkill: {
+		DisplayName: Aria R Skill
 	}
 
-	EmblemOfDreadDashProj: {
-		DisplayName: Emblem Of Dread Dash Proj
+	AriaQSkillDisk: {
+		DisplayName: Aria Q Skill Disk
 	}
 
-	WarpingPoint: {
-		DisplayName: Warping Point
+	AriaQSkill: {
+		DisplayName: Aria Q Skill
 	}
 
-	TheGravityShield: {
-		DisplayName: The Gravity Shield
+	GammaRayBeam: {
+		DisplayName: Gamma Ray Beam
+	}
+
+	FlattenedAccretionDisk: {
+		DisplayName: Flattened Accretion Disk
+	}
+
+	AccretionDisk: {
+		DisplayName: Accretion Disk
+	}
+
+	TerrorSpirit: {
+		DisplayName: Terror Spirit
+	}
+
+	AncientStormArc: {
+		DisplayName: Ancient Storm Arc
+	}
+
+	AncientStormLightning: {
+		DisplayName: Ancient Storm Lightning
+	}
+
+	JusticeUnveiledCross: {
+		DisplayName: Justice Unveiled Cross
+	}
+
+	StormGoddess: {
+		DisplayName: Storm Goddess
+	}
+
+	ProverbsCircle: {
+		DisplayName: Proverbs Circle
+	}
+
+	HeartcarverDash: {
+		DisplayName: Heartcarver Dash
+	}
+
+	JusticeCrossMark: {
+		DisplayName: Justice Cross Mark
+	}
+
+	PandemoniumRSkill: {
+		DisplayName: Pandemonium's Judgment
+	}
+
+	PandemoniumFirePillar: {
+		DisplayName: Pandemonium Flame Pillar
+	}
+
+	PandemoniumQSkill: {
+		DisplayName: Pandemonium Strike
+	}
+
+	PandemoniumCircle: {
+		DisplayName: Pandemonium Sigil
+	}
+
+	FrostSnowflakeProjectile: {
+		DisplayName: Frostflake
+	}
+
+	FrostMinnowSpitterProjectile: {
+		DisplayName: Frost Minnow Spit
+	}
+
+	DoubleCodProjectile: {
+		DisplayName: Twin Cod
+	}
+
+	BrimstoneFlameProjectile: {
+		DisplayName: Brimstone Flame
+	}
+
+	BrimfishSpitterProjectile: {
+		DisplayName: Brimfish Spit
+	}
+
+	NeonTetraLightProjectile: {
+		DisplayName: Neon Tetra Light
+	}
+
+	TropicalBarracudaProjectile: {
+		DisplayName: Tropical Barracuda
+	}
+
+	CrimsonTigerFishMinion: {
+		DisplayName: Crimson Tigerfish
+	}
+
+	PrincessMagicOrb: {
+		DisplayName: Regal Orb
+	}
+
+	PrincessFishMinion: {
+		DisplayName: Princess Fish
+	}
+
+	OilBlob: {
+		DisplayName: Oil Glob
+	}
+
+	RockHammerFish: {
+		DisplayName: Rockhammer Fish
+	}
+
+	ObsidianFishOrbit: {
+		DisplayName: Obsidianfish Orbit
+	}
+
+	PrismiteWaveProjectile: {
+		DisplayName: Prismite Wave
+	}
+
+	PandemoniumRainDrop: {
+		DisplayName: Pandemonium Rain
+	}
+
+	PandemoniumLightning: {
+		DisplayName: Pandemonium Bolt
+	}
+
+	PandemoniumGroundFlame: {
+		DisplayName: Pandemonium Groundflame
+	}
+
+	PandemoniumBlastWave: {
+		DisplayName: Pandemonium Blast
+	}
+
+	PandemoniumScythe: {
+		DisplayName: Pandemonium Scythe
+	}
+
+	PandemoniumFireball: {
+		DisplayName: Pandemonium Fireball
+	}
+
+	PandemoniumChannel: {
+		DisplayName: Pandemonium Channel
+	}
+
+	OniFireBall: {
+		DisplayName: Oni Fire Ball
+	}
+
+	OniHandMinion: {
+		DisplayName: Oni Hand
+	}
+
+	OniHandExplode: {
+		DisplayName: Oni Hand Explode
+	}
+
+	HeartcarverDagger: {
+		DisplayName: Heartcarver Dagger
+	}
+
+	ScorpionSentry: {
+		DisplayName: Scorpion Sentry
+	}
+
+	WhiteWyvernTailController: {
+		DisplayName: White Wyvern Tail
+	}
+
+	MiniWhiteWyvern: {
+		DisplayName: Mini White Wyvern
+	}
+
+	FishoilDrinkEffect: {
+		DisplayName: Vitality Surge
+	}
+
+	UnicornFishDashProj: {
+		DisplayName: Horn Charge
+	}
+
+	BloodyStrikeWave: {
+		DisplayName: Wave of Blood
+	}
+
+	BloodyJellyfishUnit: {
+		DisplayName: Bloody Jellyfish
+	}
+
+	BloodySwarmController: {
+		DisplayName: Blood Storm
+	}
+
+	TunabeardImpactWave: {
+		DisplayName: Tidal Slam
+	}
+
+	TunabeardDashProj: {
+		DisplayName: Tuna Rush
+	}
+
+	ForgottenTomeEffect: {
+		DisplayName: Forgotten Runes
+	}
+
+	EncyclopediaEffect: {
+		DisplayName: Aura of Knowledge
+	}
+
+	JewelGemProjectile: {
+		DisplayName: Jewel Star
+	}
+
+	JewelFragmentProjectile: {
+		DisplayName: Jewel Fragment
+	}
+
+	CthulhuEye: {
+		DisplayName: Cthulhu Eye
+	}
+
+	DeathSickleThrowable: {
+		DisplayName: Death Sickle Throwable
 	}
 
 	TrimarangHeld: {
@@ -4165,161 +5836,52 @@ Projectiles: {
 		DisplayName: Bananarang Held
 	}
 
-	ElectricMinRocketHeld: {
-		DisplayName: Electric Min Rocket Held
+	BloodAmmoBolt: {
+		DisplayName: Blood Ammo Bolt
 	}
 
-	TeslaBallByGuard: {
-		DisplayName: Tesla Ball By Guard
+	SoulSearchScythe: {
+		DisplayName: Soul Search Scythe
 	}
 
-	TeslaBallByAttack: {
-		DisplayName: Tesla Ball By Attack
+	SolsticeHomeBeam: {
+		DisplayName: Solstice Home Beam
 	}
 
-	TeslaBall: {
-		DisplayName: Tesla Ball
+	RageKillerImpact: {
+		DisplayName: Rage Killer Impact
 	}
 
-	MedicalBoxProj: {
-		DisplayName: Medical Box Proj
+	GuardOfLifeCore: {
+		DisplayName: Guard Of Life Core
 	}
 
-	MedicalBoxHeld: {
-		DisplayName: Medical Box Held
+	GuardOfLife: {
+		DisplayName: Guard Of Life
 	}
 
-	DraedonsRemoteSpawn: {
-		DisplayName: Draedons Remote Spawn
-		$parentVal: Draedons Remote Spawn
-	}
-
-	ForgedLasOrb: {
-		DisplayName: Forged Las Orb
-	}
-
-	ForgedLasEXhProjectile: {
-		DisplayName: Forged Las EXh Projectile
-	}
-
-	PhasebladeHeld: {
-		DisplayName: フェイズブレード
-	}
-
-	NeutronExplosionRogue: {
-		DisplayName: Neutron Explosion Rogue
-	}
-
-	CommandersClawThrow: {
-		DisplayName: Commanders Claw Throw
-	}
-
-	ForgedLashProjectile: {
-		DisplayName: Forged Lash Projectile
-	}
-
-	DestroyerTail: {
-		DisplayName: Destroyer Tail
-	}
-
-	DestroyerHead: {
-		DisplayName: Destroyer Head
-	}
-
-	DestroyerBody: {
-		DisplayName: Destroyer Body
-	}
-
-	DestroyersBeam: {
-		DisplayName: Destroyers Beam
-	}
-
-	EarlierSwordHeld: {
-		DisplayName: 古い剣
-	}
-
-	DicoriaRay: {
-		DisplayName: Dicoria Ray
-	}
-
-	PunisherGrenadeRogue: {
-		DisplayName: Punisher Grenade Rogue
-	}
-
-	GeminisTributeEXHeld: {
-		DisplayName: Geminis Tribute EX Held
-	}
-
-	GeminisTributeAlt: {
-		DisplayName: Geminis Tribute Alt
-	}
-
-	GeminisTributeHeld: {
-		DisplayName: Geminis Tribute Held
-	}
-
-	RocketSkeletonFriendly: {
-		DisplayName: Rocket Skeleton Friendly
-	}
-
-	PrimeCannonOnSpanFriendly: {
-		DisplayName: Prime Cannon On Span Friendly
-	}
-
-	HyperionBarrageHeld: {
-		DisplayName: Hyperion Barrage Held
-	}
-
-	PunisherGrenade: {
-		DisplayName: Punisher Grenade
-	}
-
-	DestroyerGrenade: {
-		DisplayName: Destroyer Grenade
-	}
-
-	RaiderGunDash: {
-		DisplayName: Raider Gun Dash
-	}
-
-	WeaverGrievancesDash: {
-		DisplayName: Weaver Grievances Dash
-	}
-
-	CommandersRay: {
-		DisplayName: Commanders Ray
-	}
-
-	IceExplosionFriend: {
-		DisplayName: Ice Explosion Friend
-	}
-
-	PowerCoil: {
-		DisplayName: Power Coil
-	}
-
-	EssenceEnergy: {
-		DisplayName: Essence Energy
+	EXOathblade2: {
+		DisplayName: EX誓約刃2
 	}
 
 	EssencePlunder: {
 		DisplayName: Essence Plunder
 	}
 
-	VulcaniteFire: {
-		DisplayName: Vulcanite Fire
+	EssenceEnergy: {
+		DisplayName: Essence Energy
 	}
 
-	BloodAmmoBolt: {
-		DisplayName: Blood Ammo Bolt
+	EntropicClaymoreProj: {
+		DisplayName: エントロピッククレイモアの投射物
 	}
 
-	CrossPrediction: {
-		DisplayName: Cross Prediction
+	EarthenPikeAlt: {
+		DisplayName: Earthen Pike Alt
 	}
 
-	DeathSickleThrowable: {
-		DisplayName: Death Sickle Throwable
+	BansheeHookHeldAlt: {
+		DisplayName: Banshee Hook Held Alt
 	}
 
 	SpanDMBall: {
@@ -4442,6 +6004,10 @@ Projectiles: {
 		DisplayName: 中性子の大鎌
 	}
 
+	NeutronExplosionRogue: {
+		DisplayName: Neutron Explosion Rogue
+	}
+
 	FrostcrushValariHeld: {
 		DisplayName: フロストクラッシュバラリ
 	}
@@ -4472,10 +6038,6 @@ Projectiles: {
 
 	TsunamiOnSpan: {
 		DisplayName: ツナミ
-	}
-
-	TorrentialBullet: {
-		DisplayName: 激流弾
 	}
 
 	Tornado: {
@@ -4538,10 +6100,6 @@ Projectiles: {
 		DisplayName: R虚無の触手
 	}
 
-	PlanetaryArrow: {
-		DisplayName: 惑星の矢
-	}
-
 	NurgleTheOfBall: {
 		DisplayName: ナーグルの玉
 	}
@@ -4602,6 +6160,10 @@ Projectiles: {
 		DisplayName: 氷のオーブ
 	}
 
+	IceExplosionFriend: {
+		DisplayName: Ice Explosion Friend
+	}
+
 	MonsoonOnSpan: {
 		DisplayName: モンスーン
 	}
@@ -4642,10 +6204,6 @@ Projectiles: {
 		DisplayName: 極寒の雹
 	}
 
-	EnergyBlast2: {
-		DisplayName: エネルギーブラスト2
-	}
-
 	EnergyBlast: {
 		DisplayName: エネルギーブラスト
 	}
@@ -4664,10 +6222,6 @@ Projectiles: {
 
 	DeadWave: {
 		DisplayName: デッドウェーブ
-	}
-
-	DeadArrow: {
-		DisplayName: デッドアロー
 	}
 
 	CursedDartRemake: {
@@ -4734,10 +6288,6 @@ Projectiles: {
 		DisplayName: アニモシティ
 	}
 
-	AcidEtchedTearDrop: {
-		DisplayName: 酸蝕の涙滴
-	}
-
 	TerrorExplode: {
 		DisplayName: Terror Explode
 	}
@@ -4800,10 +6350,6 @@ Projectiles: {
 
 	SemberDarkMasterClone: {
 		DisplayName: Sember Dark Master Clone
-	}
-
-	MirrorBladeRapier: {
-		DisplayName: 鏡刃のレイピア
 	}
 
 	MajesticGuardRapier: {
@@ -4914,6 +6460,10 @@ Projectiles: {
 		DisplayName: Wraith Beam
 	}
 
+	PhasebladeHeld: {
+		DisplayName: フェイズブレード
+	}
+
 	LifehuntScytheThrowable: {
 		DisplayName: 生命狩りの大鎌（投擲）
 	}
@@ -4972,6 +6522,18 @@ Projectiles: {
 
 	DivineSourceBeam: {
 		DisplayName: 神聖源のビーム
+	}
+
+	EXOathblade: {
+		DisplayName: EX誓約の剣
+	}
+
+	EXDemonBlastAlt: {
+		DisplayName: EXデーモンブラスト（別形態）
+	}
+
+	EXDemonBlast: {
+		DisplayName: EXデーモンブラスト
 	}
 
 	DeathLaser: {
@@ -5118,16 +6680,8 @@ Projectiles: {
 		DisplayName: セットポージングスターム
 	}
 
-	RocketSkeleton: {
-		DisplayName: ロケットスケルトン
-	}
-
 	Probe: {
 		DisplayName: プローブ
-	}
-
-	PrimeCannonOnSpan: {
-		DisplayName: プライムキャノン
 	}
 
 	Mechanicalworm: {
@@ -5138,12 +6692,20 @@ Projectiles: {
 		DisplayName: デッドレーザー
 	}
 
+	CrossPrediction: {
+		DisplayName: Cross Prediction
+	}
+
 	Laser: {
 		DisplayName: レーザー
 	}
 
 	Fireball: {
 		DisplayName: ファイアーボール
+	}
+
+	SpawnLaserEffect: {
+		DisplayName: Spawn Laser Effect
 	}
 
 	SuccessfullyDeployedEffct: {
@@ -5182,6 +6744,14 @@ Projectiles: {
 		DisplayName: 装甲貫通弾
 	}
 
+	CrabulonFriendHitbox: {
+		DisplayName: Crabulon Spore
+	}
+
+	EarlierSwordHeld: {
+		DisplayName: 古い剣
+	}
+
 	PhaseLaser: {
 		DisplayName: Phase Laser
 	}
@@ -5194,12 +6764,256 @@ Projectiles: {
 		DisplayName: パワーサウンドエッグ
 	}
 
+	OceanCurrent: {
+		DisplayName: Ocean Current
+	}
+
+	WaterZombie: {
+		DisplayName: Drowned Zombie
+	}
+
+	SpiralStarProjectile: {
+		DisplayName: Spiral Star
+	}
+
+	SparklingSpawnEffect: {
+		DisplayName: Sparkling Summon
+	}
+
+	SparklingRay: {
+		DisplayName: Sparkling Ray
+	}
+
+	SparklingFishHolder: {
+		DisplayName: Sparkling Fish
+	}
+
+	SoulEaterBite: {
+		DisplayName: Soul Eater
+	}
+
+	SlimeGelOrb: {
+		DisplayName: Slime Gel Orb
+	}
+
+	SkeletronHandMinion: {
+		DisplayName: Skeletron Hand
+	}
+
+	SkeletronHandExplode: {
+		DisplayName: Skeletron Hand
+	}
+
+	MudfishSentry: {
+		DisplayName: Mudfish Sentry
+	}
+
+	MudBall: {
+		DisplayName: Mud Ball
+	}
+
+	IchorStream: {
+		DisplayName: Ichor Stream
+	}
+
+	HungryCompanionProjectile: {
+		DisplayName: The Hungry
+	}
+
+	HoneyBeeSwarmCore: {
+		DisplayName: Honey Bee Swarm
+	}
+
+	HoneyBeeMinion: {
+		DisplayName: Honey Bee
+	}
+
+	HellRitualCircle: {
+		DisplayName: Hell Ritual Circle
+	}
+
+	HellFireBlast: {
+		DisplayName: Hellfire Blast
+	}
+
+	HarpyFeatherOrbit: {
+		DisplayName: Orbiting Harpy Feather
+	}
+
+	FishVoodooMark: {
+		DisplayName: Fish Voodoo Mark
+	}
+
+	FishSwarmController: {
+		DisplayName: Fish Swarm
+	}
+
+	FishingFly: {
+		DisplayName: Fishing Fly
+	}
+
+	FallingStarProjectile: {
+		DisplayName: Falling Star
+	}
+
+	FallingPenguin: {
+		DisplayName: Falling Penguin
+	}
+
+	DynamiteFishProjectile: {
+		DisplayName: Dynamite Fish
+	}
+
+	DynamiteExplosionEffect: {
+		DisplayName: Dynamite Fish Explosion
+	}
+
+	DrizzleSpawnEffect: {
+		DisplayName: Drizzle Summon
+	}
+
+	DrizzleFishHolder: {
+		DisplayName: Drizzlefish
+	}
+
+	DrizzleFirePillar: {
+		DisplayName: Drizzle Fire Pillar
+	}
+
+	DirtFishFollower: {
+		DisplayName: Dirtfish
+	}
+
+	DirtBall: {
+		DisplayName: Dirt Ball
+	}
+
+	CursedFlameStream: {
+		DisplayName: Cursed Flamestream
+	}
+
+	CloudRide: {
+		DisplayName: Nimbus Cloud
+	}
+
+	CloudRain: {
+		DisplayName: Rain Cloud
+	}
+
+	CatfishLeaper: {
+		DisplayName: Catfish
+	}
+
+	BunnyfishHopper: {
+		DisplayName: Bunnyfish
+	}
+
+	BonefishOrbit: {
+		DisplayName: Orbiting Bonefish
+	}
+
+	BatSwarmMinion: {
+		DisplayName: Swarm Bat
+	}
+
+	BatSwarmController: {
+		DisplayName: Bat Swarm
+	}
+
+	AmanitaToxicMushroom: {
+		DisplayName: Toxic Amanita
+	}
+
+	AmanitaLightningSpore: {
+		DisplayName: Lightning Amanita Spore
+	}
+
+	AmanitaHomingSpore: {
+		DisplayName: Homing Amanita Spore
+	}
+
+	AmanitaExplosiveMushroom: {
+		DisplayName: Explosive Amanita
+	}
+
+	YourLevelIsTooLowProj: {
+		DisplayName: Aura of Overwhelming Power
+	}
+
+	SuperpositionProj: {
+		DisplayName: Quantum Singularity
+	}
+
+	SuperpositionCannon: {
+		DisplayName: Superposition Cannon
+	}
+
+	SeaDomainProj: {
+		DisplayName: Tidal Domain
+	}
+
+	RestartEffectProj: {
+		DisplayName: Causality Reset
+	}
+
+	FishTeleportProj: {
+		DisplayName: Fish Teleport
+	}
+
+	ClonePlayer: {
+		DisplayName: Echo Self
+	}
+
+	CannonFishSwarmHitbox: {
+		DisplayName: Cannonfish Barrage
+	}
+
+	FungalFeedProj: {
+		DisplayName: Fungal Feed
+	}
+
+	DraedonsRemoteSpawn: {
+		DisplayName: Draedons Remote Spawn
+	}
+
+	ForgedLasOrb: {
+		DisplayName: Forged Las Orb
+	}
+
+	ForgedLashProjectile: {
+		DisplayName: Forged Lash Projectile
+	}
+
+	ForgedLasEXhProjectile: {
+		DisplayName: Forged Las EXh Projectile
+	}
+
+	DestroyerTail: {
+		DisplayName: Destroyer Tail
+	}
+
+	DestroyerHead: {
+		DisplayName: Destroyer Head
+	}
+
+	DestroyerBody: {
+		DisplayName: Destroyer Body
+	}
+
 	WraithKunaiThrowable: {
 		DisplayName: Wraith Kunai Throwable
 	}
 
 	WraithKunaiProj: {
 		DisplayName: Wraith Kunai Proj
+	}
+
+	SporeburstPouchThrow: {
+		DisplayName: Sporeburst Pouch
+	}
+
+	SporeBoboRogue: {
+		DisplayName: Rogue Spore Bobo
 	}
 
 	SeasonalKunaiThrowable: {
@@ -5214,32 +7028,80 @@ Projectiles: {
 		DisplayName: Sand Dagger Throw
 	}
 
-	StarshipAmmo: {
-		DisplayName: Starship Ammo
+	PunisherGrenadeRogue: {
+		DisplayName: Punisher Grenade Rogue
 	}
 
-	SoulSearchScythe: {
-		DisplayName: Soul Search Scythe
+	GeminisTributeHeld: {
+		DisplayName: Geminis Tribute Held
 	}
 
-	SolsticeHomeBeam: {
-		DisplayName: Solstice Home Beam
+	GeminisTributeEXHeld: {
+		DisplayName: Geminis Tribute EX Held
 	}
 
-	RageKillerImpact: {
-		DisplayName: Rage Killer Impact
+	GeminisTributeAlt: {
+		DisplayName: Geminis Tribute Alt
 	}
 
-	GuardOfLifeCore: {
-		DisplayName: Guard Of Life Core
+	CommandersClawThrow: {
+		DisplayName: Commanders Claw Throw
 	}
 
-	GuardOfLife: {
-		DisplayName: Guard Of Life
+	SporeBurst: {
+		DisplayName: Spore Burst
 	}
 
-	WeaverGrievancesHurmp: {
-		DisplayName: Weaver Grievances Hurmp
+	RocketSkeleton: {
+		DisplayName: ロケットスケルトン
+	}
+
+	RocketSkeletonFriendly: {
+		DisplayName: Rocket Skeleton Friendly
+	}
+
+	RaiderGunDash: {
+		DisplayName: Raider Gun Dash
+	}
+
+	PunisherGrenade: {
+		DisplayName: Punisher Grenade
+	}
+
+	PrimeCannonOnSpan: {
+		DisplayName: プライムキャノン
+	}
+
+	PrimeCannonOnSpanFriendly: {
+		DisplayName: Prime Cannon On Span Friendly
+	}
+
+	PallbearerArrow: {
+		DisplayName: Pallbearer Arrow
+	}
+
+	FungiAmmo: {
+		DisplayName: Fungal Round
+	}
+
+	DicoriaRay: {
+		DisplayName: Dicoria Ray
+	}
+
+	DestroyerGrenade: {
+		DisplayName: Destroyer Grenade
+	}
+
+	MedicalBoxProj: {
+		DisplayName: Medical Box Proj
+	}
+
+	MedicalBoxHeld: {
+		DisplayName: Medical Box Held
+	}
+
+	WeaverGrievancesDash: {
+		DisplayName: Weaver Grievances Dash
 	}
 
 	WeaverExplode: {
@@ -5254,24 +7116,20 @@ Projectiles: {
 		DisplayName: Wasteland Fang Proj
 	}
 
-	FlawlessHeld: {
-		DisplayName: Flawless Held
+	Glomushroom: {
+		DisplayName: Glomushroom
 	}
 
-	EXOathblade2: {
-		DisplayName: EX誓約刃2
+	DestroyersBeam: {
+		DisplayName: Destroyers Beam
 	}
 
-	EntropicClaymoreProj: {
-		DisplayName: エントロピッククレイモアの投射物
+	SporeBobo: {
+		DisplayName: Spore Bobo
 	}
 
-	EarthenPikeAlt: {
-		DisplayName: Earthen Pike Alt
-	}
-
-	BansheeHookHeldAlt: {
-		DisplayName: Banshee Hook Held Alt
+	SporeBoboMagic: {
+		DisplayName: Spore Bobo
 	}
 
 	SandThorn: {
@@ -5282,8 +7140,24 @@ Projectiles: {
 		DisplayName: Saltation Send
 	}
 
+	PowerCoil: {
+		DisplayName: Power Coil
+	}
+
 	DecayedSeaOrb: {
 		DisplayName: Decayed Sea Orb
+	}
+
+	CommandersRay: {
+		DisplayName: Commanders Ray
+	}
+
+	WarpingPoint: {
+		DisplayName: Warping Point
+	}
+
+	TheGravityShield: {
+		DisplayName: The Gravity Shield
 	}
 
 	JUZenithWorldTime: {
@@ -5294,20 +7168,32 @@ Projectiles: {
 		DisplayName: Justice Unveiled Explode
 	}
 
+	EmblemOfDreadDashProj: {
+		DisplayName: Emblem Of Dread Dash Proj
+	}
+
 	DivineJustice: {
 		DisplayName: Divine Justice
 	}
 
-	EXDemonBlastAlt: {
-		DisplayName: EXデーモンブラスト（別形態）
+	WGGCollectorArm: {
+		DisplayName: W G G Collector Arm
 	}
 
-	EXOathblade: {
-		DisplayName: EX誓約の剣
+	TeslaBallByGuard: {
+		DisplayName: Tesla Ball By Guard
 	}
 
-	EXDemonBlast: {
-		DisplayName: EXデーモンブラスト
+	TeslaBallByAttack: {
+		DisplayName: Tesla Ball By Attack
+	}
+
+	ElectricMinRocketHeld: {
+		DisplayName: Electric Min Rocket Held
+	}
+
+	CollectorArm: {
+		DisplayName: Collector Arm
 	}
 
 	DevilsDevastationHeld: {
@@ -5364,6 +7250,320 @@ Projectiles: {
 }
 
 Items: {
+	OldDuchest: {
+		Tooltip:
+			'''
+			巨大な容量を持つ収納チェスト
+			「オールドデュークの昔のチェストだ。近くにいると何か放り込むかもしれない...」
+			'''
+		DisplayName: オールドデュークチェスト
+		StorageText: 大型収納チェスト
+	}
+
+	OceanRaiders: {
+		Tooltip:
+			'''
+			パワーを消費して水域から資源を抽出する
+			右クリックで内部ストレージを開く
+			'''
+		DisplayName: 海喰らい
+		NoEnergyText: パワーが不足している
+		NoWaterText: 動作には水の上に設置する必要がある
+		WorkingText: 動作中...
+	}
+
+	Oceanfragments: {
+		Tooltip: 不思議な小物。オールドデュークが興味を示すかもしれない
+		DisplayName: 海の残片
+	}
+
+	AriaofTheCosmos: {
+		Tooltip:
+			'''
+			左クリック長押しで強力なクエーサーをチャージし、解放時に甚大なダメージを与える
+			右クリックで小型ブラックホールを放ち、形成後にガンマ線の連射を行う
+			[AriaofTheCosmosQSkill]でスターリングガーディアンを召喚する
+			[AriaofTheCosmosRSkill]でガンマ線バーストを生成する
+			'''
+		DisplayName: アリア・オブ・ザ・コスモス
+	}
+
+	Unsunghero: {
+		Tooltip:
+			'''
+			最大ステルスが10増加
+			ステルス生成速度がステルスダメージに影響しなくなる
+			'''
+		DisplayName: アンサングヒーロー
+	}
+
+	PQCD: {
+		SignalTowerProgressText: 信号塔展開進行度: {0}/{1}
+		NeedSignalTowersText: 量子もつれリンクが未完成。全{0}基の信号塔を展開する必要がある。
+		Tooltip:
+			'''
+			ドレイドンと連絡を取るために使用し、ドレイドンの武器庫ホログラフィックショッピングインターフェースを開く
+			「ご注意：クレジットはサポートされていません」
+			'''
+		DisplayName: ポータブル量子通信機
+	}
+
+	StarflowPlatedBlock: {
+		Tooltip:
+			'''
+			量子絡み合い塔を建設するための基礎となる
+			「流れる星光を不滅の基盤に鍛え上げる」
+			'''
+		DisplayName: ガウスパルスプレート
+	}
+
+	DeploySignaltower: {
+		Tooltip:
+			'''
+			次元を超えて同期して破壊される
+			「ドレイドンの因果律の粗末な模倣」
+			'''
+		DisplayName: 量子もつれ塔
+	}
+
+	CQETConstructor: {
+		UseConstructionBlueprint: 量子絡み合い塔の建設設計図を習得する
+		Tooltip:
+			'''
+			量子絡み合い塔を建設するための場所
+			大量の[i:CalamityOverhaul/StarflowPlatedBlock]ガウスパルスプレートが必要
+			'''
+		DisplayName: 自己建設機（量子もつれ塔）
+	}
+
+	ConstructionBlueprintQET: {
+		L2: この設計図はすでに学習済みです！
+		L1: 自己建設機（量子もつれ塔）を作成する方法を学びました！
+		Tooltip:
+			'''
+			[i:CalamityOverhaul/CQETConstructor]自己建設機を作成する方法を学ぶために使用
+			「あなたの手で、二つの世界を繋ぐ基盤と塔を鍛え上げろ」
+			'''
+		DisplayName: 量子もつれ塔建設設計図
+	}
+
+	AncientStormGoddessSpear: {
+		Legend:
+			'''
+			アリーナはかつてテラの最強の戦士であり、雷の刃で闇を切り裂いていた。  
+			彼女の信念は揺るぎなく絶対的であったが、神々の無関心からは守られなかった。  
+			至高の神が裁きを下したとき、彼女の仲間、家族、誓い、栄光は灰となり消え去った。  
+			彼女は目の前で、いわゆる正義がすべてを塵に踏みつけ、秩序が最も残酷な破壊の仮面であったことを目撃した。  
+			彼女はもはや光を求めることはなく、深淵の中で自らを鍛え直した。  
+			古代の禁断の力が彼女の魂を食い尽くし、凡人には理解できないほどの力を与えた。  
+			彼女の鎧は深淵で鍛えられた破片となり、彼女の瞳は雷と闇が絡み合う残滓で焼け焦げた。  
+			彼女はもはやテラの守護者ではなく、嵐そのものであった。止められぬ復讐の力となった。  
+			彼女の怒りは戦場を吠え猛る嵐のように吹き荒れ、雷鳴は王座や神殿を引き裂いた。  
+			彼女は正義のためでも、テラのためでも、神々のためでも戦わなかった。  
+			彼女は復讐のため、殲滅のために戦った。自らを正義と誇る者たちに恐怖の真の意味を理解させるために。
+			'''
+		Tooltip:
+			'''
+			激しい雷のキスを放つ槍で、敵に跳ね返る
+			「それはすでに過去のものだが、今でも機能する」
+			[legend]
+			'''
+		DisplayName: 古代の嵐の女神の槍
+	}
+
+	Proverbs: {
+		L2:
+			'''
+			もしこれを読んでいるのなら、私はすでにいないかもしれません。  
+			この指輪は私が覚えている限り、ずっと私と共にありました。  
+			ある者はこれを不運の象徴だと言い、別の者は救いの鍵だと言いました。  
+			私は生涯その答えを見つけることはありませんでした。  
+			神々は応えず、この時代に未来があるかどうかも分かりません。  
+			でも、私はまだ信じたい...今、この指輪があなたの手に渡った今、それは無駄ではなかったのだと。  
+			どうか、この世界の終わりを私の代わりに見届けてください。  
+			もし、いつの日かそれが平和を見つけることができたなら...私の命は無駄ではなかったと言えるでしょう。
+			'''
+		L1: 煉獄の魔女に与えるダメージが2倍になる；彼女の攻撃は必ずあなたにクリティカルヒットを与える。
+		Tooltip:
+			'''
+			小さな煉獄のルーンが背後に浮かぶ  
+			火炎関連の多くのデバフを無効化  
+			攻撃時に高確率で敵に「弱体化の呪い」を付与  
+			煉獄の魔女に対して与ダメージ2倍  
+			煉獄の魔女の攻撃はプレイヤー対して必ずクリティカルヒットする
+			'''
+		DisplayName: 黙示の指輪
+	}
+
+	Pandemonium: {
+		Tooltip:
+			'''
+			左クリックで超越の魔力をチャージして放つ
+			右クリックでカーソル位置に煉獄のルーンを展開
+			[PandemoniumQSkill]で煉獄の審判を発動
+			[PandemoniumRSkill]で「全ての悪魔の終焉」を行う
+			'''
+		DisplayName: パンデモニウム
+	}
+
+	OniMachete: {
+		Tooltip:
+			'''
+			構えると六本の鬼の手が現れ、共に戦う
+			真の近接攻撃時に鬼火を放つ
+			'''
+		DisplayName: 鬼の鉈
+	}
+
+	Heartcarver: {
+		Tooltip:
+			'''
+			周囲に3本の儀式の短剣を生み出し、回転させる
+			チャージ完了後、標的へと飛んでいく
+			右クリックで近距離の突きを放つ
+			'''
+		DisplayName: 心喰らいの刃
+	}
+
+	SirenMusicalBox: {
+		DeathText: "{0} は未知の攻撃により腐肉と化して崩れ去りました。"
+		Tooltip:
+			'''
+			右クリックで不気味な旋律を奏でる
+			曲が鳴る間、聞いた者は死ねなくなる
+			旋律が止むと、彼らは致命の一撃を受ける
+			'''
+		DisplayName: セイレーンのオルゴール
+	}
+
+	Fishoil: {
+		Tooltip:
+			'''
+			釣りパワーを10%向上
+			水中呼吸が可能になる
+			特定の不気味な存在への耐性を得る
+			'''
+		DisplayName: 魚油瓶
+	}
+
+	TheForgottenTome: {
+		CompletionText: すべてを忘却した。
+		Tooltip:
+			'''
+			使用すると、この世での記憶をすべて消し去る
+			亡霊と化した命は、永遠の奈落へと堕ちる
+			「すべての存在は罪を背負い、再びの輪廻を許されぬ。
+			　私の名は[NAME]。これを読んでいるなら、私はすでに滅びた。」
+			'''
+		DisplayName: 忘れられた書
+	}
+
+	EncyclopediaofOceanicKnowledge: {
+		Text2: あなたは[NUM]種類の魚の知識を得た！
+		Text1: あなたはすべての知識を極めた！
+		Tooltip:
+			'''
+			全ての魚種の知識を即座に習得する
+			釣り関連スキルをすべて解放する
+			[c/FFD700: 「海の叡智があなたに集う」]
+			'''
+		DisplayName: 海洋知識大全
+	}
+
+	Pallbearer: {
+		Tooltip:
+			'''
+			左クリック長押しでチャージし、離すと「棺担ぎの矢」を放つ
+			チャージが長いほど矢の威力が増す
+			右クリックで弩を投げ、敵に命中すると次の射撃が大幅に強化される
+			「別名：棺を運ぶ者」
+			'''
+		DisplayName: 棺担ぎの弩
+	}
+
+	SporeburstPouch: {
+		Tooltip:
+			'''
+			投げると着弾地点で胞子を爆発させる揮発性の袋
+			ステルス攻撃ではより大きな胞子爆発と追尾する胞子霊群を放つ
+			'''
+		DisplayName: 胞子爆袋
+	}
+
+	Spectrometer: {
+		Tooltip:
+			'''
+			アイテムに色を付けることができる
+			動作にはエネルギーが必要
+			'''
+		DisplayName: 分光器
+	}
+
+	SporeboundRoller: {
+		Tooltip:
+			'''
+			敵に命中すると、小さな浮遊キノコを生成する
+			「いつまでも転がっていたいらしい」
+			'''
+		DisplayName: 胞子ヨーヨー
+	}
+
+	MushroomSaddle: {
+		UseCombat: クラブロンにのみ適用可能
+		Tooltip:
+			'''
+			[i:CalamityOverhaul/FungalFeed] 菌糸の餌で手懐けたクラブロンに装備できる
+			サドルを持ったままクラブロンを左クリックで装備
+			装備済みのクラブロンを右クリックで騎乗
+			'''
+		DisplayName: キノコのサドル
+	}
+
+	FungalFeed: {
+		Tooltip:
+			'''
+			クラブロンに投げつけると手懐けることができる
+			手懐けたクラブロンは追従し、共に戦う
+			[i:CalamityOverhaul/MushroomSaddle] キノコのサドルを装備させると騎乗できる
+			「彼らはキノコが大好き」
+			'''
+		DisplayName: 菌糸の餌
+	}
+
+	FungalRevolver: {
+		Tooltip: ""
+		DisplayName: キノコリボルバー
+	}
+
+	TomeofFungalDecay: {
+		Tooltip: ""
+		DisplayName: 菌糸の腐朽の書
+	}
+
+	SporeBubbleBlaster: {
+		Tooltip:
+			'''
+			胞子の粒子を連続して噴射する
+			昼間は与えるダメージが半減する
+			'''
+		DisplayName: 胞子ブラスター
+	}
+
+	ItemFilter: {
+		Tooltip:
+			'''
+			使用してフィルターパネルを開く
+			対応する機械を右クリックで適用
+			チェストを左クリックで中身をフィルター条件としてコピー
+			'''
+		DisplayName: アイテムフィルターボード
+	}
+
+	CreativeUEPipeline: {
+		Tooltip: ""
+		DisplayName: エネルギー創造パイプライン
+	}
+
 	HydroelectricMK2: {
 		Tooltip:
 			'''
@@ -5409,6 +7609,7 @@ Items: {
 	}
 
 	Collector: {
+		Text3: 電力不足！
 		Text2: 周囲に宝箱がない！
 		Text1: 数が多すぎる！
 		Tooltip:
@@ -5461,16 +7662,6 @@ Items: {
 			「使用率はあまり高くない」
 			'''
 		DisplayName: エネルギーソード
-	}
-
-	UEPipelineInput: {
-		Tooltip:
-			'''
-			電力伝達用のパイプライン
-			右クリックでカーソル位置のパイプを素早く回収する
-			バッテリーなどから電力を取り出し、電気機器に供給する
-			'''
-		DisplayName: 電力抽出パイプライン
 	}
 
 	UEPipeline: {
