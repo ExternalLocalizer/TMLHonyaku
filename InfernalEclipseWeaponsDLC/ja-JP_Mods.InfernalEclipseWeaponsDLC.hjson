@@ -1,263 +1,480 @@
-Items: {
-	TwoPaths: {
-		DisplayName: 二つの道
-		Tooltip:
-			'''
-			直接命中時にソウルエッセンスを4獲得
-			左クリックで広範囲にダメージを与える
-			右クリックでマナを消費し、白い大鎌を召喚する
-			'''
+ItemTooltip: {
+	PBGBardALore2: そしてもう一つは、色鮮やかなマイクロ波を撃ち出すギターだった。
+	NeonRipperLore2: そして二つの武器を作り上げた。その一つは、カミのようにオーラを吸収する鎌であった。
+	NeonRipperLore1: ゴライアスを倒した後、エレリアンはその装甲を再利用することにした。
+	TwoSideLore2: 無限の淵に立ったその時、レンは彼らに問いかけた...「どちらの道を選ぶ？」
+	TwoSideLore1: 彼らはラグナロクを超え、日蝕を崩壊させ、スライムの嵐を生き延びた。
+	ParallelLore2: 突如、何の前触れもなく全員が鏡の世界へと転送され、第二の従者シグナスが呼び出された。
+	ParallelLore1: 予想通り、彼らはストームウィーバーを討ち果たした。だがゴースにはまだ最後の手が残されていた。
+	UniversalLore2: 魂に残る最後の力を振り絞り、真なる神殺しを召喚した。
+	UniversalLore1: ゴースは最後の抵抗を見せ、手の内の策をすべて使い果たした。敗北はしたが、日蝕が敗れたわけではない。
+	DuesFluteLore3: そこから現れたものは、まさにこの世界の理を超えた存在だった。だが彼らの驚嘆は、星の従者が迫ったことで遮られた。
+	DuesFluteLore2: しかし祭壇は予期せぬ反応を示し......二つの光が空へと弾け、上空に裂け目を開いた。
+	DuesFluteLore: 彼らは星の感染源を突き止め、それを破壊するために感染した祭壇でスターコアを使用した。
+}
+
+Buffs: {
+	BloodRageBuff: {
+		Description: ブラッドメイカーのダメージを25%増加させ、血液弾が命中時に「燃える血」を付与する
+		DisplayName: ブラッドレイジ
 	}
 
-	TheParallel: {
-		Tooltip: ""
-		DisplayName: パラレル
+	SwordStuckBuff: {
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
+		DisplayName: 突き刺さった剣
 	}
 
-	SuperShotgun: {
-		Tooltip:
-			'''
-			右クリックでショットガンの刃による突きを行い、近接ダメージを与える
-			「ショットガンに刃が付いてるのを見るのは初めてか？」
-			'''
-		DisplayName: トリガーブレード
+	DefaultSummonTag: {
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
+		DisplayName: デフォルト召喚タグ
+	}
+}
+
+Projectiles: {
+	IlluminantBolt: {
+		DisplayName: Illuminant Bolt
 	}
 
-	BellBallad: {
-		DisplayName: 鐘のバラード
-		Tooltip: ""
+	MothwingDaggerPro: {
+		DisplayName: Mothwing Dagger Pro
 	}
 
-	BirbSaxophone: {
-		DisplayName: バーブコール
-		Tooltip: "「バンブルバーブの力を呼び起こす！」"
+	BarrenGardenProHoming: {
+		DisplayName: Barren Garden Pro Homing
 	}
 
-	DeepSeaDrawl: {
-		DisplayName: 深海のドロール
-		Tooltip:
-			'''
-			「かつての力の残骸であり、その部品は世界中に散らばっている
-			　酸性の泡の中に、かすかな輝きを見た気がする」
-			'''
+	BarrenGardenPro: {
+		DisplayName: Barren Garden Pro
 	}
 
-	DeathsWhisper: {
-		Tooltip: ""
-		DisplayName: 死の囁き
+	BarrenGardenLotus: {
+		DisplayName: Barren Garden Lotus
 	}
 
-	BrimstoneHarp: {
-		Tooltip: ""
-		DisplayName: 硫炎のハープ
+	BarrenGardenHealingPro: {
+		DisplayName: Barren Garden Healing Pro
 	}
 
-	NecroticChorus: {
-		DisplayName: ネクロティック・コーラス
-		Tooltip:
-			'''
-			敵を追尾するウィスプを召喚する
-			右クリックで血液を吐き攻撃を行う
-			'''
+	SharknadoBolt: {
+		DisplayName: Sharknado Bolt
 	}
 
-	DeusFlute: {
-		DisplayName: 星風のフルート
-		Tooltip: ""
+	SupremeCatastropheSlash: {
+		DisplayName: Supreme Catastrophe Slash
 	}
 
-	CorrodedCane: {
-		DisplayName: 腐蝕の杖
-		Tooltip: ""
+	SupremeCataclysmFist: {
+		DisplayName: Supreme Cataclysm Fist
 	}
 
-	Weapons: {
-		Rogue: {
-			OcramKnife: {
-				Tooltip: ステルス攻撃で敵を追尾する追加のデーモンサイスを召喚する
-				DisplayName: 忘れられし短剣
-			}
+	HealerBrimstoneBarrage: {
+		DisplayName: Healer Brimstone Barrage
+	}
+
+	MystickStaffPro: {
+		DisplayName: Mystick Staff Pro
+	}
+
+	ArckaneStaffPro: {
+		DisplayName: Arckane Staff Pro
+	}
+
+	Staff_Projectile: {
+		DisplayName: Staff_ Projectile
+	}
+
+	Misc: {
+		BardPulseRiffleShot: {
+			DisplayName: Bard Pulse Riffle Shot
 		}
 	}
 
-	TheBlight: {
-		DisplayName: ブライト
-		Tooltip: ""
+	ColoredExplosion: {
+		DisplayName: Colored Explosion
 	}
 
-	GrandThunderWhip: {
+	InfrariffLaser: {
+		DisplayName: Infrariff Laser
+	}
+
+	InfrariffProjectile: {
+		DisplayName: Infrariff Projectile
+	}
+
+	NeonRipperPro: {
+		DisplayName: Neon Ripper Pro
+	}
+
+	Nanodroid: {
+		DisplayName: Nanodroid
+	}
+
+	DeepseaTrident_Projectile: {
+		DisplayName: Deepsea Trident Projectile
+	}
+
+	SandSlasher_Projectile: {
+		DisplayName: Sand Slasher Projectile
+	}
+
+	SandSlasherSandnado: {
+		DisplayName: Sand Slasher Sandnado
+	}
+
+	AcidBelcherPro: {
+		DisplayName: Acid Belcher Pro
+	}
+
+	ForeverHungryBlood: {
+		DisplayName: Forever Hungry Blood
+	}
+
+	DamagingSoul: {
+		DisplayName: Damaging Soul
+	}
+
+	HealingSoul: {
+		DisplayName: Healing Soul
+	}
+
+	BouncingHungry: {
+		DisplayName: Bouncing Hungry
+	}
+
+	AirPodNote: {
+		DisplayName: AirPod Note
+	}
+
+	AirPod: {
+		DisplayName: AirPod
+	}
+
+	ListoftheDamnedSoul_Cyan: {
+		DisplayName: List of the Damned Soul Cyan
+	}
+
+	ListoftheDamnedSoul_Orange: {
+		DisplayName: List of the Damned Soul Orange
+	}
+
+	NukeMissile: {
+		DisplayName: Nuke Missile
+	}
+
+	NukePro: {
+		DisplayName: Nuke Pro
+	}
+
+	BloodShotFriendly: {
+		DisplayName: Blood Shot Friendly
+	}
+
+	ExecutionersSwordDarkEnergy: {
+		DisplayName: Executioners Sword Dark Energy
+	}
+
+	ExecutionersSwordLightEnergy: {
+		DisplayName: Executioners Sword Light Energy
+	}
+
+	ExecutionersSwordSlashPro: {
+		DisplayName: Executioners Sword Slash Pro
+	}
+
+	SuperShotgunStab: {
+		DisplayName: Super Shotgun Stab
+	}
+
+	CryonicSpearTip: {
+		DisplayName: Cryonic Spear Tip
+	}
+
+	LightSlashPro: {
+		DisplayName: Light Slash Pro
+	}
+
+	LightEnergyProj: {
+		DisplayName: Light Energy Proj
+	}
+
+	ExecutionersSwordPro: {
+		DisplayName: Executioners Sword Pro
+	}
+
+	DarkEnergyProj: {
+		DisplayName: Dark Energy Proj
+	}
+
+	OurSharknado: {
+		DisplayName: Our Sharknado
+	}
+
+	DrawlStarfishShard: {
+		DisplayName: Drawl Starfish Shard
+	}
+
+	DrawlStarfish: {
+		DisplayName: Drawl Starfish
+	}
+
+	DrawlIsopod: {
+		DisplayName: Drawl Isopod
+	}
+
+	DrawlEel: {
+		DisplayName: Drawl Eel
+	}
+
+	MiniScourge: {
+		DisplayName: Mini Scourge
+	}
+
+	LegacyProSickle: {
+		DisplayName: Legacy Pro Sickle
+	}
+
+	LegacyProBolt: {
+		DisplayName: Legacy Pro Bolt
+	}
+
+	HydrogenSulfideProj: {
+		DisplayName: Hydrogen Sulfide Proj
+	}
+
+	SulfurExplosionPro: {
+		DisplayName: Sulfur Explosion Pro
+	}
+
+	GrandThunderWhipProjectile: {
+		DisplayName: Grand Thunder Whip Projectile
+	}
+
+	TheBlightProScythe: {
+		DisplayName: The Blight Pro Scythe
+	}
+
+	TheBlightProServant: {
+		DisplayName: The Blight Pro Servant
+	}
+
+	TheBlightProServantLaser: {
+		DisplayName: The Blight Pro Servant Laser
+	}
+
+	TheBlightProSickle: {
+		DisplayName: The Blight Pro Sickle
+	}
+
+	OcramKnifePro: {
+		DisplayName: Ocram Knife Pro
+	}
+
+	OcramKnifeProBolt: {
+		DisplayName: Ocram Knife Pro Bolt
+	}
+
+	OcramKnifeProSickle: {
+		DisplayName: Ocram Knife Pro Sickle
+	}
+
+	CorrodedCaneShark: {
+		DisplayName: Sulphurous Sharkron
+	}
+
+	CorrodedCanePro: {
+		DisplayName: Corroded Cane
+	}
+
+	DeusFluteStar: {
+		DisplayName: Deus Flute Star
+	}
+
+	DeusFlutePro: {
+		DisplayName: Deus Flute Pro
+	}
+
+	NecroticChorusWisp: {
+		DisplayName: Necrotic Chorus Wisp
+	}
+
+	NecroticChorusPro: {
+		DisplayName: Necrotic Chorus
+	}
+
+	BirbSaxophonePro: {
+		DisplayName: Red Lightning Feather
+	}
+
+	BrimstoneHarpPro: {
+		DisplayName: Brimstone Harp Skull
+	}
+
+	DeathsWhisperPro: {
+		DisplayName: Death's Whisper
+	}
+
+	HomingPlankton: {
+		DisplayName: Homing Plankton
+	}
+
+	DeepSeaDrawlPro: {
+		DisplayName: Deep Sea Drawl
+	}
+
+	SulfurSpirit: {
+		DisplayName: Sulfur Spirit
+	}
+
+	BellBalladHavocSlash: {
+		DisplayName: Ballad of Bells Brimstone Slash
+	}
+
+	BellBalladEleumBolt: {
+		DisplayName: Ballad of Bells Frost Bolt
+	}
+
+	BellBalladSunlightLaser: {
+		DisplayName: Ballad of Bells Laser
+	}
+
+	BellBalladSunlight: {
+		DisplayName: Ballad of Bells Sunlight
+	}
+
+	BellBalladHavoc: {
+		DisplayName: Ballad of Bells Havoc
+	}
+
+	BellBalladEleum: {
+		DisplayName: Ballad of Bells Eleum
+	}
+
+	TheParallellPro: {
+		DisplayName: The Parallell
+	}
+
+	TwoPathsPro2: {
+		DisplayName: Two Paths
+	}
+
+	Magic: {
+		HealingLightningArc: {
+			DisplayName: Healing Lightning Arc
+		}
+
+		WhiteScythe: {
+			DisplayName: White Scythe
+		}
+	}
+
+	BlackExplosion: {
+		DisplayName: Black Explosion
+	}
+
+	TwoPathsPro: {
+		DisplayName: Two Paths
+	}
+}
+
+Items: {
+	BarrenGarden: {
 		Tooltip:
 			'''
-			召喚タグダメージ +5
-			命中時に敵を感電させる
+			左クリック：追尾・貫通・回復の花弁をばらまく
+			右クリック：大きな凍結の蓮を召喚し、交互にダメージと回復のエネルギーを放つ
+			凍結の蓮は同時に1つまで、持続時間は30秒
+			「冷たすぎて肺が裂けそう」
 			'''
-		DisplayName: グランドサンダーウィップ
+		DisplayName: 荒れ果てた庭
 	}
 
-	DukeSynth: {
-		DisplayName: ヴァイラル・ウィズダム
-		Tooltip: "「ついに完成した！」"
-	}
-
-	SearingSpearTip: {
-		Tooltip: 槍系武器で攻撃すると敵を焼く硫化水素を放出する
-		DisplayName: 灼熱の槍先
-	}
-
-	ArcticSpearTip: {
-		DisplayName: 氷極の槍先
-		Tooltip: 槍系武器が重力の影響を受けず5回貫通する氷結の槍先を放つ
-	}
-
-	DeepSeaDrawlShard1: {
-		DisplayName: 吹き口の欠片
+	CatastrophicLongblade: {
 		Tooltip:
 			'''
-			「再生されたドロールの吹き口
-			　かつてパーマフロストはリザード族との出会いを語っていた
-			　もしかしたら何か知っているかもしれない」
+			前方に壊滅的な業火のエネルギーを放つ
+			このアイテムの隣に災厄のガントレットがあると特別な効果を発動する
 			'''
+		DisplayName: 破滅の大剣
 	}
 
-	DeepSeaDrawlShard2: {
-		DisplayName: 鐘の欠片
+	CatastrophicLongbladeVoid: {
 		Tooltip:
 			'''
-			「再生されたドロールの鐘
-			　この力を他者に奪われぬよう、吹き口はダンジョンに封印された
-			　鍵は青き深淵に投げ込まれたという」
+			前方に壊滅的な業火のエネルギーを放つ
+			このアイテムの隣に災厄のガントレットがあると特別な効果を発動する
 			'''
+		DisplayName: 破滅の大剣
 	}
 
-	DeepSeaDrawlShard3: {
-		DisplayName: 身体の欠片
+	CataclysmicGauntlet: {
 		Tooltip:
 			'''
-			「再生されたドロールの身体
-			　魂の大いなる炉がその力を復元する最後の仕上げとなる
-			　急げ、波が君の呼び声に応える時は近い」
+			拳に業火の力を宿し、近距離で高威力の連撃を放つ
+			このアイテムの隣に破滅の大剣があると特別な効果を発動する
+			「カタクリズム！」
 			'''
+		DisplayName: 災厄のガントレット
 	}
 
-	Legacy: {
-		DisplayName: オクラムの咆哮
-		Tooltip: ""
-	}
-
-	RestoredDeepSeaDrawl: {
-		DisplayName: 復元された深海のドロール
+	CataclysmicGauntletVoid: {
 		Tooltip:
 			'''
-			敵に水中の残骸を投げつけるサメの竜巻を召喚する
-			同時に存在できる竜巻は1つのみ
-			右クリックで2インスピレーションを消費し、別の台風攻撃を放つ
+			拳に業火の力を宿し、近距離で高威力の連撃を放つ
+			このアイテムの隣に破滅の大剣があると特別な効果を発動する
+			「カタクリズム！」
 			'''
+		DisplayName: 災厄のガントレット
 	}
 
-	SulphuricShanty: {
-		DisplayName: 硫黄のシャンティ
-		Tooltip: ""
-	}
-
-	ExecutionersSword: {
-		DisplayName: 処刑人の剣
+	AuricBrimfireCrosier: {
+		DisplayName: 黄金の業火の杖
 		Tooltip:
 			'''
-			左クリックで剣を振り、命中時にライフを5回復する
-			右クリックで剣を投げ、命中した敵に突き刺す
-			剣が刺さっている間、光と闇のエネルギーを放出する
-			光のエネルギーは味方を追尾し、追加回復量に等しいライフを回復する
-			闇のエネルギーは敵を追尾し、ダメージを与える
-			同時に投げられる剣は1本のみ
-			死刑執行の力を帯びている
-			「没収...そして死だ！」
+			星形に業火の魔弾を放つ
+			「あの魔女だけがその呪文を使えると思ったのか？」
 			'''
 	}
 
-	ButchersBloodmaker: {
-		DisplayName: 屠殺者のブラッドメイカー
+	GloomSwitch: {
 		Tooltip:
 			'''
-			散弾と、わずかに追尾する血液の弾を発射する
-			右クリックでライフを50消費し、10秒間ブラッドレイジ状態になる
-			ブラッドレイジ中はブラッドメイカーのダメージが25%上昇し、
-			血液弾が命中時に「燃える血」を付与する
+			15発ごとに跳ねる呪炎を放つサブマシンガン
+			右クリックで200マナを消費し、10秒間ダークラッシュ状態になる
+			ダークラッシュ中は移動速度が25%上昇し、射撃の拡散が小さくなる
 			'''
+		DisplayName: グルームスイッチ
 	}
 
-	NukeWhistle: {
-		DisplayName: 大陸間弾道ホイッスル
-		Tooltip: "「核の歌を合法化せよ」"
-	}
-
-	ListoftheDamned: {
-		DisplayName: 呪われし者の名簿
-		Tooltip: 一定時間後に爆発し2倍のダメージを与える6つの魂を拡散して放つ
-	}
-
-	AirPodShawty: {
-		DisplayName: エアポッドショーティ
+	MystickStaff: {
 		Tooltip:
 			'''
-			左クリックでインスピレーションを消費し、命中時に音を放つエアポッドを撃つ
-			消費した弾薬によってエアポッドのダメージが増加する
-			右クリックで弾薬を使用して散弾を発射するが、強化効果は得られない
-			これらの弾はバードのリフォージと遠距離ボーナスで威力が上がる
-			「エアポッド・ショーティ、ヤバい奴を仕留めるぜ」
+			あらゆる元素を帯びた超高出力のボルトを放つ
+			「これ以上何が欲しいってんだ!?」
 			'''
+		DisplayName: ミスティック・スタッフ
 	}
 
-	AcidBelcher: {
-		DisplayName: アシッドベルチャー
-		Tooltip: ""
+	ArckaneStaff: {
+		DisplayName: アルケイン・スタッフ
+		Tooltip: 不安定な元素の過負荷ボルトを放つ
 	}
 
-	ForeverHungry: {
-		DisplayName: 飢え続ける者
-		Tooltip: 飛び跳ねた際に血しぶきを撒き散らす
-	}
-
-	BottleOfSouls: {
-		DisplayName: 魂の瓶
+	Defibrillanator: {
 		Tooltip:
 			'''
-			瓶から夜と光の魂を解き放つ
-			夜の魂は敵を追尾してダメージを与え、シャドウフレイムを付与する
-			光の魂は味方を追尾し、追加回復量に等しいライフを回復する
+			過負荷の雷撃を前方に放つ
+			右クリックで回復の雷撃を発射する
 			'''
+		DisplayName: デフィブリラネーター
 	}
 
-	SandSlasher: {
-		DisplayName: かつての海のシャンティ
-		Tooltip: 弾が跳ねるたびに小さな砂の竜巻を発生させる
-	}
-
-	DeepseaTrident: {
-		DisplayName: サーペンタインフォーク
-		Tooltip: ""
-	}
-
-	Stick: {
-		DisplayName: 至高無限破壊の究極の棒
+	Infrariff: {
 		Tooltip:
 			'''
-			鋭さ V
-			貫通 IV
-			火属性 II
-			耐久力 III
-			修繕
-			「このエンチャント棒は完全に正規品だぜ」
+			敵に触れるとダメージを与える赤外線のライトショーを発生させる
+			「マイクロ波ライトショーギター」
 			'''
-	}
-
-	NeonRipper: {
-		DisplayName: ネオン・リッパー
-		Tooltip:
-			'''
-			命中時にソウルエッセンスを3獲得する
-			敵に命中すると電撃ナノボットを生成する
-			右クリックで投げると、カーブして戻ってくる
-			'''
+		DisplayName: インフラリフ
 	}
 
 	PlasmaOcarina: {
@@ -272,124 +489,274 @@ Items: {
 			'''
 	}
 
-	Infrariff: {
-		DisplayName: インフラリフ
+	NeonRipper: {
 		Tooltip:
 			'''
-			敵に触れるとダメージを与える赤外線のライトショーを発生させる
-			「マイクロ波ライトショーギター」
+			命中時にソウルエッセンスを3獲得する
+			敵に命中すると電撃ナノボットを生成する
+			右クリックで投げると、カーブして戻ってくる
+			'''
+		DisplayName: ネオン・リッパー
+	}
+
+	Stick: {
+		Tooltip:
+			'''
+			鋭さ V
+			貫通 IV
+			火属性 II
+			耐久力 III
+			修繕
+			「チートは使ってない、正規品だぜ」
+			'''
+		DisplayName: 至高無限破壊の究極の棒
+	}
+
+	DeepseaTrident: {
+		Tooltip: ""
+		DisplayName: サーペンタインフォーク
+	}
+
+	SandSlasher: {
+		Tooltip: 弾が跳ねるたびに小さな砂の竜巻を発生させる
+		DisplayName: かつての海のシャンティ
+	}
+
+	BottleOfSouls: {
+		Tooltip:
+			'''
+			瓶から夜と光の魂を解き放つ
+			夜の魂は敵を追尾してダメージを与え、シャドウフレイムを付与する
+			光の魂は味方を追尾し、追加回復量に等しいライフを回復する
+			'''
+		DisplayName: 魂の瓶
+	}
+
+	ForeverHungry: {
+		Tooltip: 飛び跳ねた際に血しぶきを撒き散らす
+		DisplayName: 飢え続ける者
+	}
+
+	AcidBelcher: {
+		Tooltip: ""
+		DisplayName: アシッドベルチャー
+	}
+
+	AirPodShawty: {
+		Tooltip:
+			'''
+			左クリックでインスピレーションを消費し、命中時に音を放つエアポッドを撃つ
+			消費した弾薬によってエアポッドのダメージが増加する
+			右クリックで弾薬を使用して散弾を発射するが、強化効果は得られない
+			これらの弾はバードのリフォージと遠距離ボーナスで威力が上がる
+			「エアポッド・ショーティ、ヤバい奴を仕留めるぜ」
+			'''
+		DisplayName: エアポッドショーティ
+	}
+
+	ListoftheDamned: {
+		Tooltip: 一定時間後に爆発し2倍のダメージを与える6つの魂を拡散して放つ
+		DisplayName: 呪われし者の名簿
+	}
+
+	NukeWhistle: {
+		DisplayName: 大陸間弾道ホイッスル
+		Tooltip: 「核の歌を合法化せよ」
+	}
+
+	ButchersBloodmaker: {
+		Tooltip:
+			'''
+			散弾と、わずかに追尾する血液の弾を発射する
+			右クリックでライフを50消費し、10秒間ブラッドレイジ状態になる
+			ブラッドレイジ中はブラッドメイカーのダメージが25%上昇し、
+			血液弾が命中時に「燃える血」を付与する
+			'''
+		DisplayName: 屠殺者のブラッドメイカー
+	}
+
+	ExecutionersSword: {
+		Tooltip:
+			'''
+			左クリックで剣を振り、命中時にライフを5回復する
+			右クリックで剣を投げ、命中した敵に突き刺す
+			剣が刺さっている間、光と闇のエネルギーを放出する
+			光のエネルギーは味方を追尾し、追加回復量に等しいライフを回復する
+			闇のエネルギーは敵を追尾し、ダメージを与える
+			同時に投げられる剣は1本のみ
+			死刑執行の力を帯びている
+			「没収...そして死だ！」
+			'''
+		DisplayName: 処刑人の剣
+	}
+
+	SulphuricShanty: {
+		Tooltip: ""
+		DisplayName: 硫黄のシャンティ
+	}
+
+	RestoredDeepSeaDrawl: {
+		Tooltip:
+			'''
+			敵に水中の残骸を投げつけるサメの竜巻を召喚する
+			同時に存在できる竜巻は1つのみ
+			右クリックで2インスピレーションを消費し、別の台風攻撃を放つ
+			'''
+		DisplayName: 復元された深海のドロール
+	}
+
+	Legacy: {
+		Tooltip: ""
+		DisplayName: オクラムの咆哮
+	}
+
+	DeepSeaDrawlShard3: {
+		Tooltip:
+			'''
+			「再生されたドロールの身体
+			　魂の大いなる炉がその力を復元する最後の仕上げとなる
+			　急げ、波が君の呼び声に応える時は近い」
+			'''
+		DisplayName: 身体の欠片
+	}
+
+	DeepSeaDrawlShard2: {
+		Tooltip:
+			'''
+			「再生されたドロールの鐘
+			　この力を他者に奪われぬよう、吹き口はダンジョンに封印された
+			　鍵は青き深淵に投げ込まれたという」
+			'''
+		DisplayName: 鐘の欠片
+	}
+
+	DeepSeaDrawlShard1: {
+		Tooltip:
+			'''
+			「再生されたドロールの吹き口
+			　かつてパーマフロストはリザード族との出会いを語っていた
+			　もしかしたら何か知っているかもしれない」
+			'''
+		DisplayName: 吹き口の欠片
+	}
+
+	ArcticSpearTip: {
+		Tooltip: 槍系武器が重力の影響を受けず5回貫通する氷結の槍先を放つ
+		DisplayName: 氷極の槍先
+	}
+
+	SearingSpearTip: {
+		DisplayName: 灼熱の槍先
+		Tooltip: 槍系武器で攻撃すると敵を焼く硫化水素を放出する
+	}
+
+	DukeSynth: {
+		Tooltip: 「ついに完成した！」
+		DisplayName: ヴァイラル・ウィズダム
+	}
+
+	GrandThunderWhip: {
+		DisplayName: グランドサンダーウィップ
+		Tooltip:
+			'''
+			召喚タグダメージ +5
+			命中時に敵を感電させる
 			'''
 	}
 
-	Defibrillanator: {
-		DisplayName: デフィブリラネーター
+	TheBlight: {
+		Tooltip: ""
+		DisplayName: ブライト
+	}
+
+	Weapons: {
+		Rogue: {
+			MothwingDagger: {
+				Tooltip:
+					'''
+					弱い誘導の翼付きの短剣を投げる
+					ステルスストライクは、移動中と命中時に追尾する弾を生成する
+					'''
+				DisplayName: 蛾翼の短剣
+			}
+
+			OcramKnife: {
+				DisplayName: 忘れられし短剣
+				Tooltip: ステルス攻撃で敵を追尾する追加のデーモンサイスを召喚する
+			}
+		}
+	}
+
+	CorrodedCane: {
+		Tooltip: ""
+		DisplayName: 腐蝕の杖
+	}
+
+	DeusFlute: {
+		Tooltip: ""
+		DisplayName: 星風のフルート
+	}
+
+	NecroticChorus: {
 		Tooltip:
 			'''
-			過負荷の雷撃を前方に放つ
-			右クリックで回復の雷撃を発射する
+			敵を追尾するウィスプを召喚する
+			右クリックで血液を吐き攻撃を行う
+			'''
+		DisplayName: ネクロティック・コーラス
+	}
+
+	BrimstoneHarp: {
+		DisplayName: 硫炎のハープ
+		Tooltip: ""
+	}
+
+	DeathsWhisper: {
+		DisplayName: 死の囁き
+		Tooltip: ""
+	}
+
+	DeepSeaDrawl: {
+		Tooltip:
+			'''
+			「かつての力の残骸であり、その部品は世界中に散らばっている
+			　酸性の泡の中に、かすかな輝きを見た気がする」
+			'''
+		DisplayName: 深海のドロール
+	}
+
+	BirbSaxophone: {
+		Tooltip: 「バンブルバーブの力を呼び起こす！」
+		DisplayName: バーブコール
+	}
+
+	BellBallad: {
+		Tooltip: ""
+		DisplayName: 鐘のバラード
+	}
+
+	SuperShotgun: {
+		DisplayName: トリガーブレード
+		Tooltip:
+			'''
+			右クリックでショットガンの刃による突きを行い、近接ダメージを与える
+			「ショットガンに刃が付いてるのを見るのは初めてか？」
 			'''
 	}
 
-	ArckaneStaff: {
-		DisplayName: アルケイン・スタッフ
-		Tooltip: 不安定な元素の過負荷ボルトを放つ
+	TheParallel: {
+		DisplayName: パラレル
+		Tooltip: ""
 	}
 
-	MystickStaff: {
-		DisplayName: ミスティック・スタッフ
+	TwoPaths: {
 		Tooltip:
 			'''
-			あらゆる元素を帯びた超高出力のボルトを放つ
-			「これ以上何が欲しいってんだ!?」
+			直接命中時にソウルエッセンスを4獲得
+			左クリックで広範囲にダメージを与える
+			右クリックでマナを消費し、白い大鎌を召喚する
 			'''
-	}
-
-	GloomSwitch: {
-		DisplayName: グルームスイッチ
-		Tooltip:
-			'''
-			15発ごとに跳ねる呪炎を放つサブマシンガン
-			右クリックで200マナを消費し、10秒間ダークラッシュ状態になる
-			ダークラッシュ中は移動速度が25%上昇し、射撃の拡散が小さくなる
-			'''
-	}
-
-	AuricBrimfireCrosier: {
-		DisplayName: 黄金の業火の杖
-		Tooltip:
-			'''
-			星形に業火の魔弾を放つ
-			「あの魔女だけがその呪文を使えると思ったのか？」
-			'''
-	}
-
-	CataclysmicGauntletVoid: {
-		DisplayName: 災厄のガントレット
-		Tooltip:
-			'''
-			拳に業火の力を宿し、近距離で高威力の連撃を放つ
-			このアイテムの隣に破滅の大剣があると特別な効果を発動する
-			「カタクリズム！」
-			'''
-	}
-
-	CataclysmicGauntlet: {
-		DisplayName: 災厄のガントレット
-		Tooltip:
-			'''
-			拳に業火の力を宿し、近距離で高威力の連撃を放つ
-			このアイテムの隣に破滅の大剣があると特別な効果を発動する
-			「カタクリズム！」
-			'''
-	}
-
-	CatastrophicLongbladeVoid: {
-		DisplayName: 破滅の大剣
-		Tooltip:
-			'''
-			前方に壊滅的な業火のエネルギーを放つ
-			このアイテムの隣に災厄のガントレットがあると特別な効果を発動する
-			'''
-	}
-
-	CatastrophicLongblade: {
-		DisplayName: 破滅の大剣
-		Tooltip:
-			'''
-			前方に壊滅的な業火のエネルギーを放つ
-			このアイテムの隣に災厄のガントレットがあると特別な効果を発動する
-			'''
+		DisplayName: 二つの道
 	}
 }
 
-Buffs: {
-	DefaultSummonTag: {
-		DisplayName: デフォルト召喚タグ
-		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
-	}
-
-	SwordStuckBuff: {
-		DisplayName: 突き刺さった剣
-		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
-	}
-
-	BloodRageBuff: {
-		DisplayName: ブラッドレイジ
-		Description: ブラッドメイカーのダメージを25%増加させ、血液弾が命中時に「燃える血」を付与する
-	}
-}
-
-ItemTooltip: {
-	DuesFluteLore: 彼らは星の感染源を突き止め、それを破壊するために感染した祭壇でスターコアを使用した。
-	DuesFluteLore2: しかし祭壇は予期せぬ反応を示し......二つの光が空へと弾け、上空に裂け目を開いた。
-	DuesFluteLore3: そこから現れたものは、まさにこの世界の理を超えた存在だった。だが彼らの驚嘆は、星の従者が迫ったことで遮られた。
-	UniversalLore1: ゴースは最後の抵抗を見せ、手の内の策をすべて使い果たした。敗北はしたが、日蝕が敗れたわけではない。
-	UniversalLore2: 魂に残る最後の力を振り絞り、真なる神殺し―神喰らいを召喚した。
-	ParallelLore1: 予想通り、彼らはストームウィーバーを討ち果たした。だがゴースにはまだ最後の手が残されていた。
-	ParallelLore2: 突如、何の前触れもなく全員が鏡の世界へと転送され、第二の従者シグナスが呼び出された。
-	TwoSideLore1: 彼らはラグナロクを超え、日蝕を崩壊させ、スライムの嵐を生き延びた。
-	TwoSideLore2: 無限の淵に立ったその時、レンは彼らに問いかけた―「どちらの道を選ぶ？」
-	NeonRipperLore1: ゴライアスを倒した後、エレリアンはその装甲を再利用することにした。
-	NeonRipperLore2: そして二つの武器を作り上げた。その一つは、カミのようにオーラを吸収する鎌であった。
-	PBGBardALore2: そしてもう一つは、色鮮やかなマイクロ波を撃ち出すギターだった。
-}
