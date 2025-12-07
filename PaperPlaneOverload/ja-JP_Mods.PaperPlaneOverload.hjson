@@ -1,0 +1,3075 @@
+DamageClasses: {
+	PaperDamage.DisplayName: 飛行機ダメージ
+	PaperDamageClone.DisplayName: 飛行機クローンダメージ
+}
+
+Buffs: {
+	BasicPaperPlaneBuff: {
+		DisplayName: "[c/ffe52b:尖った飛行機!]"
+		Description:
+			'''
+			飛行機のダメージが3増加
+			リサイクルパワーが5%増加
+			'''
+	}
+
+	HeavyHanded: {
+		DisplayName: "[c/E9B688:強引]"
+		Description:
+			'''
+			攻撃速度が30%低下
+			飛行機の速度が10%上昇
+			飛行機のダメージとノックバックが30%増加
+			'''
+	}
+
+	SeeingDouble: {
+		DisplayName: "[c/BE90E5:二重]"
+		Description:
+			'''
+			飛行機を一度に2機投げる
+			クリティカルでない場合、ダメージとノックバックが25%減少
+			'''
+	}
+
+	FungusDropBuff: {
+		DisplayName: "[c/04C3F9:ファンガスドロップ]"
+		Description: 飛行機が飛行中、胞子を残していく
+	}
+
+	IronScaleBuff: {
+		DisplayName: "[c/8686E5:鉄の力]"
+		Description: 飛行機のダメージが3増加し、サイズが30%増加
+	}
+
+	VolcanicBuff: {
+		DisplayName: "[c/f89292:噴火]"
+		Description:
+			'''
+			飛行機でクリティカル時に爆発する
+			爆発は110%のダメージを与え、クリティカル時、敵から炎が噴き出す
+			'''
+	}
+
+	InternalEruptionPaper: {
+		DisplayName: 内部噴火
+		Description: 敵の内部から炎が噴き出す
+	}
+
+	CactusThornsPaper: {
+		DisplayName: "[c/92F892:サボテンの棘]"
+		Description:
+			'''
+			受けた接触ダメージの20%を反射
+			飛行機で攻撃した敵から棘が飛び出す
+			'''
+	}
+
+	MeteorStormBuff: {
+		DisplayName: "[c/fe9e23:隕石の嵐]"
+		Description: 飛行機が敵か地形に当たると空から隕石を降らせる
+	}
+
+	ForbiddenPlaneBuff: {
+		DisplayName: "[c/f9f909:砂嵐]"
+		Description: 飛行機が命中すると2.5%の確率で砂嵐を召喚する
+	}
+
+	FlowerPower: {
+		DisplayName: "[c/d780d7:フラワーパワー!]"
+		Description:
+			'''
+			飛行機の防具の防御力無視が2倍に増加
+			飛行機での攻撃が命中時、追加攻撃として花びらが敵に飛んでいく
+			'''
+	}
+
+	RecyclingPotionBuff: {
+		DisplayName: リサイクル!
+		Description: リサイクルパワーが15%増加
+	}
+
+	DexterityPotionBuff: {
+		DisplayName: 器用
+		Description:
+			'''
+			飛行機の攻撃速度が5%上昇
+			飛行機の速度と風への抵抗が15%上昇
+			'''
+	}
+
+	MarksmanPotionBuff: {
+		DisplayName: 選抜射手
+		Description:
+			'''
+			飛行機のクリティカル率が5%上昇
+			飛行機のダメージが10%増加
+			'''
+	}
+
+	ReverseWindBuff: {
+		DisplayName: "[c/d780d7:運命の逆転]"
+		Description: 飛行機が風と反対の方向に飛ぶ
+	}
+
+	MythrilPlaneBuff: {
+		DisplayName: "[c/8CF10A:スピードシステム]"
+		Description:
+			'''
+			飛行機のダメージが1増加
+			飛行機の攻撃速度が10%上昇
+			飛行機の速度が30%上昇
+			'''
+	}
+
+	DuplicateBuff: {
+		DisplayName: "[c/f9f909:聖なる複製]"
+		Description: 飛行機が2秒後に、25%の確率で複製される
+	}
+
+	FrigidBuff: {
+		DisplayName: "[c/04C3F9:極寒の閃光]"
+		Description: 飛行機のダメージが4増加し、攻撃した敵に霜焼けを与える
+	}
+
+	ChlorophyteBomberBuff: {
+		DisplayName: "[c/8CF10A:クロロファイトボム]"
+		Description:
+			'''
+			飛行機が飛行中、クロロファイトのオーブを落としていく
+			オーブは55%のダメージを与え、地形で跳ね返り、2回跳ね返ると敵を追尾する
+			'''
+	}
+
+	PapercutDebuff: {
+		DisplayName: 切り傷
+		Description: 出血している! ライフが1秒ごとに12減少する
+	}
+
+	FatalityBuff: {
+		DisplayName: "[c/BE90E5:フェイタリティ]"
+		Description:
+			'''
+			敵を倒すと骨を放つ
+			骨は敵の最大ライフの20%のダメージを与える
+			'''
+	}
+
+	FeastBuff: {
+		DisplayName: "[c/BE90E5:ごちそう]"
+		Description: 飛行機で敵を倒すとライフが1～4回復
+	}
+
+	GreedBuff: {
+		DisplayName: "[c/f9f909:ミダスタッチ]"
+		Description:
+			'''
+			敵が落とすコインが増加
+			攻撃ヒット時、一定確率でコインを追加で落とす
+			'''
+	}
+
+	SilverWinds: {
+		DisplayName: "[c/8686E5:シルバーウィンド]"
+		Description:
+			'''
+			風の影響が大きく増加
+			飛行機の速度が10%上昇し、クリティカル時のダメージが10%増加
+			'''
+	}
+
+	DeathtouchBuff: {
+		DisplayName: デスタッチ
+		Description: 飛行機で攻撃した敵が1%の確率で即死する
+	}
+
+	CrimtanePlaneBuff: {
+		DisplayName: "[c/f89292:不自然な弱さ]"
+		Description:
+			'''
+			飛行機のクリティカル率が20%上昇するが
+			飛行機でクリティカル時のダメージが25%減少
+			'''
+	}
+
+	DemonitePlaneBuff: {
+		DisplayName: "[c/8686E5:ピアス]"
+		Description:
+			'''
+			飛行機で攻撃時、5%の確率で防御力を無視
+			飛行機でクリティカル時のダメージが15%増加
+			'''
+	}
+
+	SlimedBuffPaper: {
+		DisplayName: "[c/8686E5:可燃性の粘液]"
+		Description:
+			'''
+			飛行機で攻撃した敵にスライムを与える
+			スライムを受けている敵に対して炎系のデバフの持続時間が2倍になる
+			'''
+	}
+
+	FlamingPlanes: {
+		DisplayName: "[c/fe9e23:炎の力!]"
+		Description:
+			'''
+			飛行機のダメージが4増加
+			敵を炎上させるが、射程がかなり短くなり、サイズが急激に小さくなっていく!
+			'''
+	}
+
+	BloodRainBuff: {
+		DisplayName: "[c/f89292:血の支配]"
+		Description: 飛行機が飛行中、血の雨を降らせる
+	}
+
+	BeamMeUp: {
+		DisplayName: "[c/04C3F9:ビームアップ!]"
+		Description: 飛行機が周囲の重力を歪め、敵を引き寄せる
+	}
+
+	NullAndVoid: {
+		DisplayName: "[c/BE90E5:無効]"
+		Description:
+			'''
+			飛行機のダメージが8増加
+			飛行機の速度と攻撃速度が30%上昇
+			'''
+	}
+
+	AutoTurretBuff: {
+		DisplayName: "[c/E9B688:オートタレット]"
+		Description: 飛行機が飛行中、敵に弾丸を撃つ
+	}
+
+	OrbitalStrikeBuff: {
+		DisplayName: "[c/e10643:軌道攻撃]"
+		Description: 飛行機が敵か地形に当たるとレーザー飛行機を降らせる
+	}
+
+	GhostBuff: {
+		DisplayName: "[c/04C3F9:ゴースト]"
+		Description:
+			'''
+			リサイクルパワーが10%増加
+			飛行機が敵の防御力を8無視し、地形を無視する
+			'''
+	}
+
+	LifeCrystalBuff: {
+		DisplayName: "[c/d780d7:イン・ザ・エアー]"
+		Description:
+			'''
+			最大ライフが20増加
+			飛行機のパッシブ効果の持続時間を20%延長
+			敵がハートを落としやすくなる
+			'''
+	}
+
+	SwarmBuff: {
+		DisplayName: "[c/f9f909:群れ]"
+		Description: 飛行機が命中すると、25%の確率でミツバチを召喚する
+	}
+
+	CircleOfLife: {
+		DisplayName: "[c/04C3F9:生命の輪]"
+		Description:
+			'''
+			飛行機が飛行中、定期的にキノコの輪を放つ
+			放つたびに、前回よりもキノコの数が少なくなる
+			'''
+	}
+
+	AdamantiteThruster: {
+		DisplayName: "[c/fe9e23:アダマンタイトスラスター]"
+		Description:
+			'''
+			飛行開始から1.5秒後に飛行機のスラスターが起動する
+			起動後は速度が3倍になり、ダメージが20%増加
+			'''
+	}
+
+	TitaniumPlaneBuff: {
+		DisplayName: "[c/04C3F9:チタンの嵐]"
+		Description: 飛行機が命中するとチタンのバリアを得る
+	}
+
+	CobaltCrash: {
+		DisplayName: "[c/04C3F9:コバルトクラッシュ]"
+		Description:
+			'''
+			飛行機のダメージが2増加
+			飛行機が毎秒25%の確率で墜落する
+			墜落した飛行機はダメージが25%増加
+			'''
+	}
+
+	Pathfinder: {
+		DisplayName: "[c/E9B688:パスファインダー]"
+		Description: 飛行機が命中時、12.5%の確率でパスファインダーを3機出現させる
+	}
+
+	CuttingCorners: {
+		DisplayName: "[c/E9B688:手抜き]"
+		Description: 短期的な利益を増やす!
+	}
+
+	SupernovaBuff: {
+		DisplayName: "[c/ee86e7:ハンドヘルドスーパーノヴァ]"
+		Description:
+			'''
+			飛行機を一度に5機投げる
+			飛行機の速度が40%上昇
+			飛行機の射程が大幅に短くなるが、消滅時に爆発する
+			'''
+	}
+
+	VortexShredder: {
+		DisplayName: "[c/60f8c2:ボルテックスシュレッダー]"
+		Description:
+			'''
+			飛行機が追加で3ヒットするように
+			飛行機のダメージ間隔が短くなる
+			'''
+	}
+
+	DropshipBuff: {
+		DisplayName: "[c/E9B688:ドロップシップ]"
+		Description:
+			'''
+			飛行機が飛行開始から1-4秒後にスパイクボールを落とす
+			スパイクボールは70%のダメージを与える
+			'''
+	}
+
+	StarlinerBuff: {
+		DisplayName: "[c/4bb9e9:スターライナー]"
+		Description:
+			'''
+			飛行機を投げるとスターライナーが2体出現する
+			スターライナーは敵にタグを付け、ミニオンがクリティカルを出せるようになる
+			'''
+	}
+
+	SolarPlaneBuff: {
+		DisplayName: "[c/fe9e23:リングオブファイア]"
+		Description:
+			'''
+			クリティカル時、飛行機が壊れるが、攻撃した敵にデイブレイクで追撃する
+			デイブレイクは暁炎を与え、一定時間後に爆発する
+			'''
+	}
+
+	ChaoticState: {
+		DisplayName: "[c/d780d7:カオスな状態]"
+		Description: 飛行機に当たった敵と場所を入れ替える!
+	}
+
+	LawnmowerPlaneBuff: {
+		DisplayName: "[c/f89292:モーンモアオーバーロード]"
+		Description: 飛行機が地面に接触すると芝刈り機に変身する
+	}
+
+	GolemPlaneBuff: {
+		DisplayName: "[c/f9f909:恐怖と不安]"
+		Description: 飛行機を投げると自身の周りを周回する飛行機を生成する
+	}
+
+	HexedDebuff: {
+		DisplayName: 呪い
+		Description: シャドウフレイムの触手が内側から噴き出す
+	}
+
+	StarlinerTagDebuff: {
+		DisplayName: スターライナータグ
+		Description: ミニオンが20%の確率でクリティカルする
+	}
+
+	WindCharmBuff: {
+		DisplayName: 風のお守り
+		Description: 飛行機が風と反対の方向に飛ぶ
+	}
+
+	FriendshipPotionBuff: {
+		DisplayName: 友情
+		Description:
+			'''
+			飛行機のパッシブ効果の持続時間が40%短縮されるが、
+			飛行機を投げると近くのプレイヤーも飛行機のパッシブ効果を得る
+			'''
+	}
+
+	WolfpackRounds: {
+		DisplayName: "[c/fe9e23:ウルフパックラウンド]"
+		Description: 飛行機が敵か地形に当たると敵を追尾するいくつかのミサイルに分裂する
+	}
+
+	NanomachinesBuff: {
+		DisplayName: "[c/60f8c2:「ナノマシンだ、息子よ!」]"
+		Description:
+			'''
+			被ダメージを15%軽減、ノックバックを無効化
+			飛行機の攻撃速度が20%上昇し、ノックバックが20%増加
+			'''
+	}
+
+	SoulPlaneLightBuff: {
+		DisplayName: "[c/d780d7:魂のポータル]"
+		Description:
+			'''
+			飛行機で攻撃した敵が低確率でポータルの位置にテレポートする
+			右クリックでポータルを移動させる
+			'''
+	}
+
+	CursedPlanesBuff: {
+		DisplayName: "[c/8CF10A:ナイトメア]"
+		Description:
+			'''
+			飛行機のダメージが1増加
+			飛行機で攻撃した敵に呪炎を与える
+			'''
+	}
+
+	IchorPlanesBuff: {
+		DisplayName: "[c/f9f909:ブライトメア]"
+		Description:
+			'''
+			飛行機で攻撃した敵に霊液を与えることがある
+			クリティカル時は必ず与える
+			飛行機でクリティカル時のダメージが7.5%増加
+			'''
+	}
+
+	GamblersPotionBuff: {
+		DisplayName: ギャンブラー
+		Description:
+			'''
+			運が0.1増加
+			リサイクルの試行回数が1回増加
+			クリティカル率とダメージがランダムな値で増加
+			'''
+	}
+
+	SlipperySlope: {
+		DisplayName: "[c/04C3F9:スリップリースロープ]"
+		Description: 滑りやすくなり、動き出すとなかなか止まらなくなる
+	}
+
+	LanternSparks: {
+		DisplayName: "[c/fe9e23:ランタンスパーク]"
+		Description: クリティカル時、敵から炎が噴き出す
+	}
+
+	SoulPlaneFlightBuff: {
+		DisplayName: "[c/04C3F9:スカイウォーカー]"
+		Description: 空中で上を押している間、空中を歩ける
+	}
+
+	SoulPlaneFlightBuff2: {
+		DisplayName: "[c/04C3F9:似た者同士]"
+		Description:
+			'''
+			空中で...
+			飛行機のダメージが2増加
+			移動速度が20%上昇
+			飛行機の速度と風への抵抗が10%上昇
+			'''
+	}
+
+	FlameburstBuff: {
+		DisplayName: 機械の故障
+		Description: 炎が噴き出す!
+	}
+
+	NeedleBuff: {
+		DisplayName: "[c/04C3F9:ニードル]"
+		Description:
+			'''
+			飛行機の速度が25%上昇
+			飛行機が敵の防御力を4無視
+			'''
+	}
+
+	StingerBuff: {
+		DisplayName: "[c/92F892:スティンガー]"
+		Description:
+			'''
+			4投ごとに毒針を3本発射する
+			毒針はクリティカル時に毒を与える
+			'''
+	}
+
+	DecayDebuff: {
+		DisplayName: 減衰
+		Description: ライフが急速に減少していく
+	}
+
+	NightsPlaneBuff: {
+		DisplayName: "[c/BE90E5:夜の炎]"
+		Description:
+			'''
+			武器から固有のクリティカル確率を削除する
+			クリティカル時に減衰を与える
+			'''
+	}
+
+	HeroBuff: {
+		DisplayName: "[c/BE90E5:ヒロイック]"
+		Description:
+			'''
+			現在受けているパッシブ効果の数に応じてリサイクルパワーが1%増加し、
+			飛行機のダメージと防御力無視が1増加
+			'''
+	}
+
+	MarblePlaneBuff: {
+		DisplayName: "[c/E9B688:価値ある人々のために]"
+		Description: ワールドの難易度に飛行機のダメージが増加し、クリティカル率が上昇
+	}
+
+	WaterPlaneBuff: {
+		DisplayName: "[c/8686E5:消火]"
+		Description: 炎上している敵に飛行機で攻撃すると炎が消え、蒸気を与える
+	}
+
+	SteamDebuff: {
+		DisplayName: 蒸気
+		Description: ライフが緩やかに減少していく
+	}
+
+	TerraPlaneBuff: {
+		DisplayName: "[c/8CF10A:テラ]"
+		Description:
+			'''
+			飛行機でクリティカル時のダメージが20%増加
+			クリティカル時、幻の飛行機が敵に突撃する
+			'''
+	}
+
+	RainbowBuff: {
+		DisplayName: "[c/e10643:レインボー]"
+		Description:
+			'''
+			リサイクルパワーが10%増加
+			リサイクルした後、移動速度が短時間上昇
+			飛行機で攻撃した敵にデバフをランダムで与える
+			'''
+	}
+
+	LuminitePlaneBuff: {
+		DisplayName: "[c/04C3F9:ルミノシティー]"
+		Description:
+			'''
+			クリティカル時、敵から十字型のレーザーが発射される
+			レーザーは20ダメージを与え、防御力を無視する
+			'''
+	}
+
+	GreenFireBuff: {
+		DisplayName: "[c/8CF10A:呪炎]"
+		Description:
+			'''
+			飛行機のダメージが2増加
+			フレイムバーストの靴の炎と内部噴火のダメージが増加し、
+			炎が呪いの炎になり、呪炎を与えるようになる
+			'''
+	}
+
+	SoulPortalHealing: {
+		DisplayName: "[c/BE90E5:魂のポータル: 回復]"
+		Description: ライフ自然回復を増進し、被ダメージを5%軽減
+	}
+
+	SouthPoleBuff: {
+		DisplayName: "[c/04C3F9:アイシーアセント]"
+		Description: 飛行機が飛行中、雪の結晶を上に放つ
+	}
+
+	HorsemansPlaneBuff: {
+		DisplayName: "[c/fe9e23:ハッピーハロウィン!]"
+		Description:
+			'''
+			クリティカルで敵を倒すと、その敵からカボチャがいくつか放たれる
+			カボチャは敵の最大ライフの33.3%のダメージを与える
+			'''
+	}
+
+	StellarwindBuff: {
+		DisplayName: "[c/B227FD:ステラーウィンド]"
+		Description:
+			'''
+			飛行機のダメージが2増加
+			宙返り中はダメージが増加し、敵を無限に貫通する
+			'''
+	}
+
+	InternalEruptionCursed: {
+		DisplayName: 内部噴火（呪炎）
+		Description: 敵から呪炎が噴き出す
+	}
+
+	InternalEruptionWizard: {
+		DisplayName: 内部噴火 (ファイアボール)
+		Description: 敵からファイアボールが噴き出す
+	}
+
+	InternalEruptionWizardCursed: {
+		DisplayName: 内部噴火 (カースボール)
+		Description: 敵からカースボールが噴き出す
+	}
+
+	ZenithPlaneBuff: {
+		DisplayName: "[c/B227FD:ペーパプレーンオーバーロード!]"
+		Description:
+			'''
+			幻影の飛行機は攻撃時、出現し敵を追尾する
+			幻影の飛行機は命中するごとにダメージが20%増加
+			'''
+	}
+
+	ChainPlaneBuff: {
+		DisplayName: "[c/e10643:ラピッドファイア]"
+		Description: 飛行機が宙返り中に弾丸を発射する
+	}
+
+	ChristmasPlaneBuff: {
+		DisplayName: "[c/e10643:メリークリスマス!]"
+		Description: 飛行機が宙返り中に様々な装飾品を落とす
+	}
+
+	VampirePlaneBuff: {
+		DisplayName: "[c/e10643:吸血鬼]"
+		Description:
+			'''
+			飛行機でクリティカル時のダメージが10%減少するが
+			宙返り中の飛行機でクリティカルすると回復
+			'''
+	}
+
+	SwampPlaneBuff: {
+		DisplayName: "[c/8CF10A:偉大なる者よ]"
+		Description:
+			'''
+			飛行機のノックバックが2増加
+			飛行機が宙返り中、飛行機のサイズが急激に大きくなっていく
+			'''
+	}
+
+	PhantasmalPlaneBuff: {
+		DisplayName: "[c/f9f909:死の視線]"
+		Description:
+			'''
+			飛行機でライフが10%以下の敵を即死させる
+			この効果で倒した敵はエンシェントビジョンになる
+			飛行機でボスにダメージを与えると1%の確率でエンシェントビジョンを召喚する
+			ビジョンが消滅するまで再発動しない
+			'''
+	}
+
+	PrismaticProtection: {
+		DisplayName: "[c/d780d7:プリズマティックプロテクション]"
+		Description: プリズマティックプレーンのリングがあなたの周りを高速で回る
+	}
+
+	Cloud9Buff: {
+		DisplayName: "[c/04C3F9:クラウドナイン]"
+		Description:
+			'''
+			ランダムな飛行機のステータスを9%増加
+			与ダメージが9の倍数になるたびに変化する
+			'''
+	}
+}
+
+Items: {
+	PaperCape: {
+		DisplayName: 紙のケープ
+		Tooltip:
+			'''
+			空中で落下制御を3秒間得る
+			空中での移動速度が15%上昇
+			[c/969696:「たいまつには近づかないように!」]
+			'''
+	}
+
+	BasicPaperPlane: {
+		DisplayName: 尖った紙飛行機
+		Tooltip:
+			'''
+			消費しない
+			[c/E9B688:飛行機は遠距離ダメージと効果の影響を受ける]
+			「Paper-Plane Overloadをプレイしていただきありがとうございます!」
+			[c/ffe52b:パッシブ:尖った飛行機!]
+			飛行機のダメージが3増加
+			リサイクルパワーが5%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperEmblemRecycling: {
+		DisplayName: リサイクルの紋章
+		Tooltip:
+			'''
+			リサイクルパワーが15%増加
+			飛行機のパッシブ効果の持続時間が15%延長
+			[c/969696:「環境に優しい!」]
+			'''
+	}
+
+	FoldingPaper: {
+		DisplayName: 折り紙
+		Tooltip: "[c/969696:「飛行機に折りたたむのに最適!」]"
+	}
+
+	OrePlane0Copper: {
+		DisplayName: 銅でメッキされた飛行機
+		Tooltip:
+			'''
+			敵の防御力を1無視
+			落下が早い
+			[c/E9B688:パッシブ: 強引]
+			攻撃速度が30%低下
+			飛行機の速度が10%上昇
+			飛行機のダメージとノックバックが30%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	NinjaPlane: {
+		DisplayName: 忍者の紙飛行機
+		Tooltip:
+			'''
+			[c/BE90E5:パッシブ: 二重]
+			飛行機を一度に2機投げる
+			[c/BE90E5:クリティカル]でない場合、ダメージとノックバックが25%減少
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FungusPlane: {
+		DisplayName: フライングファンガス
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: ファンガスドロップ]
+			飛行機が飛行中、胞子を残していく
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane2Iron: {
+		DisplayName: 鉄の飛行機
+		Tooltip:
+			'''
+			敵の防御力を2無視
+			重すぎて飛ばない
+			[c/8686E5:パッシブ: 鉄の力]
+			飛行機のダメージが3増加
+			飛行機のサイズが30%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperBalloon: {
+		DisplayName: 紙の風船
+		Tooltip:
+			'''
+			ジャンプ高度が増加
+			空中で飛行機のダメージが1増加
+			'''
+	}
+
+	PaperStarterBag: {
+		DisplayName: 紙のバッグ
+		Tooltip:
+			'''
+			紙飛行機が入っている
+			<right>で開く
+			'''
+	}
+
+	HellstonePlane: {
+		DisplayName: エバキュエイトプレーン
+		Tooltip:
+			'''
+			リサイクルしたとき、爆発する
+			「世界を燃やせ」
+			[c/f89292:パッシブ: 噴火]
+			飛行機でクリティカル時に爆発する
+			爆発がクリティカル時、敵から炎が噴き出す
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperShield: {
+		DisplayName: 紙の盾
+		Tooltip:
+			'''
+			接地時、飛行機のダメージが1増加
+			横方向入力2回で短距離ダッシュする
+			'''
+	}
+
+	PaperToken: {
+		DisplayName: 紙のトークン
+		Tooltip:
+			'''
+			初期の4つの紙のアクセサリーを作るのに使う
+			[c/969696:「賢く選択しよう」]
+			'''
+	}
+
+	CactusPlane: {
+		DisplayName: サボテンの飛行機
+		Tooltip:
+			'''
+			2ヒットする
+			敵の防御力を2無視
+			「必ず手袋を着用すること!」
+			[c/92F892:パッシブ: サボテンの棘]
+			受けた接触ダメージの20%を反射
+			飛行機で攻撃した敵から棘が飛び出す
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperCharm: {
+		DisplayName: 紙のお守り
+		Tooltip:
+			'''
+			[c/8686E5:風船]
+			ジャンプ高度が増加
+			空中で飛行機のダメージが1増加
+			[c/92F892:ケープ]
+			空中で落下制御を3秒間得る
+			空中での移動速度が15%上昇
+			[c/E9B688:盾]
+			接地時、飛行機のダメージが1増加
+			横方向入力2回で短距離ダッシュする
+			'''
+		PaperCharmDamageText:
+			'''
+			[c/f89292:衛星]
+			{0}飛行機ダメージ
+			あなたの周りを回る飛行機を召喚する
+			'''
+	}
+
+	MeteorPlane: {
+		DisplayName: 流星の飛行機
+		Tooltip:
+			'''
+			短時間上昇し、急降下する
+			上昇中は敵を貫通し、落下中はダメージが2倍に増加
+			敵か地形に当たると爆発する
+			[c/fe9e23:パッシブ: 隕石の嵐]
+			飛行機が敵か地形に当たると空から隕石を降らせる
+			隕石は75%のダメージと200%のノックバックを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Paperclip: {
+		DisplayName: 紙のクリップ
+		Tooltip:
+			'''
+			飛行機のノックバックが3増加
+			飛行機のクリティカル率が10%上昇
+			'''
+	}
+
+	ForbiddenPlane: {
+		DisplayName: ファラオフライト
+		Tooltip:
+			'''
+			地形を無視する
+			敵の防御力を2無視
+			[c/f9f909:パッシブ: 砂嵐]
+			飛行機が命中すると2.5%の確率で砂嵐を召喚する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrichalcumPlane: {
+		DisplayName: オリハルコンの飛行機
+		Tooltip:
+			'''
+			シマーに入れるとミスリルスピナーに変化する
+			落下がやや早い
+			他の飛行機より頻繁に宙返りする
+			[c/d780d7:パッシブ: フラワーパワー!]
+			飛行機の防具の防御力無視が2倍に増加
+			飛行機での攻撃が命中時、追加攻撃として花びらが敵に飛んでいく 
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Potion_Recycling: {
+		DisplayName: リサイクルポーション
+		Tooltip: リサイクルパワーが15%増加
+	}
+
+	Potion_Dexterity: {
+		DisplayName: 器用のポーション
+		Tooltip:
+			'''
+			飛行機の攻撃速度が5%上昇
+			飛行機の速度と風への抵抗が15%上昇
+			'''
+	}
+
+	Potion_Marksman: {
+		DisplayName: 選抜射手のポーション
+		Tooltip:
+			'''
+			飛行機のクリティカル率が5%上昇
+			飛行機のダメージが10%増加
+			'''
+	}
+
+	ShimmerPlane: {
+		DisplayName: キラキラ光る紙飛行機
+		Tooltip:
+			'''
+			液体内で急速に浮上する
+			追加の飛行機ごとに一度に投げる飛行機の数が増える
+			[c/d780d7:パッシブ: 運命の逆転]
+			飛行機が風と反対の方向に飛ぶ
+			<right>で攻撃するとこの効果はなくなる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Slingshot_Wooden: {
+		DisplayName:木のスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが1増加
+			飛行機の速度が15%上昇
+			'''
+	}
+
+	MythrilPlane: {
+		DisplayName: ミスリルスピナー
+		Tooltip:
+			'''
+			シマーに入れるとオリハルコンの飛行機に変化する
+			常に宙返りしつつ飛ぶ
+			地形に当たるか、敵に3ヒットすると消滅する
+			[c/8CF10A:パッシブ: スピードシステム]
+			飛行機のダメージが1増加
+			飛行機の攻撃速度が10%上昇
+			飛行機の速度が30%上昇
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HallowedPlane: {
+		DisplayName: 神聖な飛行機
+		Tooltip:
+			'''
+			クリティカル時のダメージ増加量が240%になる
+			[c/f9f909:パッシブ: 聖なる複製]
+			飛行機が2秒後に、25%の確率で複製される
+			複製された飛行機から更に複製されることもある
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FriendPassiveCharm: {
+		DisplayName: 友達のお守り
+		Tooltip:
+			'''
+			[c/fe9e23:マルチプレイヤー用のアイテム]
+			飛行機を投げると近くのプレイヤーも飛行機のパッシブ効果を得る
+			'''
+	}
+
+	Slingshot_Iron: {
+		DisplayName: 重いスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが3増加
+			飛行機のノックバックが3増加
+			飛行機のサイズが10%増加
+			飛行機の速度が70%上昇
+			[c/f89292:飛行機の攻撃速度が40%低下]
+			'''
+	}
+
+	Slingshot_Molten: {
+		DisplayName: スリングホット
+		Tooltip:
+			'''
+			飛行機のダメージが2増加
+			飛行機の速度が20%上昇
+			飛行機で攻撃した敵を炎上させる
+			'''
+	}
+
+	Slingshot_Frostburn: {
+		DisplayName: 霜のスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが4増加
+			飛行機の速度が20%上昇
+			飛行機で攻撃した敵に霜焼けを与える
+			'''
+	}
+
+	Slingshot_Frostfire: {
+		DisplayName: 炎と氷のスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが6増加
+			飛行機の速度が25%上昇
+			飛行機で攻撃した敵を炎上させ、霜焼けを与える
+			'''
+	}
+
+	FrostPlane: {
+		DisplayName: 凍った紙飛行機
+		Tooltip:
+			'''
+			飛行中、速度が上昇していく
+			風や重力の影響を受けず、真っすぐ飛んでいく
+			[c/04C3F9:パッシブ: 極寒の閃光]
+			飛行機のダメージが4増加
+			飛行機で攻撃した敵に霜焼けを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	ChlorophytePlane: {
+		DisplayName: クロロファイトクルーザー
+		Tooltip:
+			'''
+			飛行中、少しずつ上昇していく
+			[c/8CF10A:パッシブ: クロロファイトボム]
+			飛行機が飛行中、クロロファイトのオーブを落としていく
+			オーブは55%のダメージを与え、地形で跳ね返り、2回跳ね返ると敵を追尾する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Slingshot_Skeleton: {
+		DisplayName: スケルタルスリング
+		Tooltip:
+			'''
+			飛行機のダメージが2増加
+			飛行機の速度が15%上昇
+			飛行機を投げると、クロスボーンを放つ
+			'''
+	}
+
+	Slingshot_Hallowed: {
+		DisplayName: 神聖なスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが1増加
+			飛行機の速度が20%上昇
+			33%の確率で飛行機を1機追加で投げる
+			'''
+	}
+
+	PaperCutAccessory: {
+		DisplayName: クトゥルフの剃刀
+		Tooltip:
+			'''
+			飛行機のクリティカル率が10%上昇
+			飛行機でクリティカル時のダメージが10%増加
+			飛行機でクリティカル時に切り傷を与える
+			'''
+	}
+
+	BonePlane: {
+		DisplayName: 骨の飛行機
+		Tooltip:
+			'''
+			[c/BE90E5:パッシブ: フェイタリティ]
+			敵を倒すと骨を放つ
+			骨は敵の最大ライフの20%のダメージを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	MirrorPlane: {
+		DisplayName: 反射紙の飛行機
+		Tooltip:
+			'''
+			[c/8686E5:パッシブ: 反射]
+			最後に投げた飛行機と同じバフを得る
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane4_Silver: {
+		DisplayName: シルバーサーファー
+		Tooltip:
+			'''
+			敵の防御力を3無視
+			落下が早い
+			[c/8686E5:パッシブ: シルバーウィンド]
+			風の影響が大きく増加
+			飛行機の速度が10%上昇し、クリティカル時のダメージが10%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane6_Gold: {
+		DisplayName: 金の飛行機
+		Tooltip:
+			'''
+			敵の防御力を4無視
+			落下が早い
+			[c/f9f909:パッシブ: ミダスタッチ]
+			敵が落とすコインが増加
+			攻撃ヒット時、一定確率でコインを追加で落とす
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FleshPlane: {
+		DisplayName: 肉の飛行機
+		Tooltip:
+			'''
+			リサイクルしたとき、ライフが1回復
+			[c/BE90E5:パッシブ: ごちそう]
+			飛行機で敵を倒すとライフが1～4回復
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Potion_Deathtouch: {
+		DisplayName: デスタッチポーション
+		Tooltip:
+			'''
+			飛行機で攻撃した敵が1%の確率で即死する
+			[c/969696:ボスとライフが1000以上の敵には無効]
+			'''
+	}
+
+	DemonitePlane: {
+		DisplayName: 悪魔の飛行機
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとクリムプレーンに変化する]
+			常に宙返りしつつ飛ぶ
+			地形に当たるか、敵に3ヒットすると消滅する
+			[c/8686E5:パッシブ: ピアス]
+			飛行機で攻撃時、5%の確率で防御力を無視
+			飛行機でクリティカル時のダメージが15%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	CrimtanePlane: {
+		DisplayName: クリムプレーン
+		Tooltip:
+			'''
+			[c/969696:シマーに入れると悪魔の飛行機に変化する]
+			常に宙返りしつつ飛ぶ
+			地形に当たるか、敵に3ヒットすると消滅する
+			[c/f89292:パッシブ: 不自然な弱さ]
+			飛行機のクリティカル率が20%上昇するが、
+			飛行機でクリティカル時のダメージが25%減少
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	StickyPlane: {
+		DisplayName: 粘つく飛行機
+		Tooltip:
+			'''
+			[c/8686E5:パッシブ: 可燃性の粘液]
+			飛行機で攻撃した敵にスライムを与える
+			スライムを受けている敵に対して炎系のデバフの持続時間が2倍になる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FlamingPlane: {
+		DisplayName: 炎の飛行機
+		Tooltip:
+			'''
+			[c/fe9e23:パッシブ: 炎の力!]
+			飛行機のダメージが4増加
+			敵を炎上させるが、射程がかなり短くなり、サイズが急激に小さくなっていく
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	DripplerPlane: {
+		DisplayName: ドリップラーの飛行機
+		Tooltip:
+			'''
+			[c/f89292:パッシブ: 血の支配]
+			飛行機が飛行中、血の雨を降らせる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	BouncyCastle: {
+		DisplayName: バウンシーキャッスル
+		Tooltip:
+			'''
+			一部の飛行機が地形で跳ね返る!
+			弾丸は跳ね返った際にダメージが7.5%増加
+			'''
+	}
+
+	UFOPlane: {
+		DisplayName: UFO
+		Tooltip:
+			'''
+			触れた際のダメージ間隔が短い
+			地形に当たると近くにテレポートする
+			「小さな緑の友達が中に住んでいる」
+			[c/04C3F9:パッシブ: ビームアップ!]
+			飛行機が周囲の重力を歪め、敵を引き寄せる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	ObsidianPlane: {
+		DisplayName: 黒曜石の飛行機
+		Tooltip:
+			'''
+			消費しない
+			[c/BE90E5:パッシブ: 無効]
+			[c/969696:他の飛行機のパッシブ効果を受けていない際に発動]
+			飛行機のダメージが8増加
+			飛行機の速度と攻撃速度が30%上昇
+			'''
+	}
+
+	TurretPlane: {
+		DisplayName: フライングタレット
+		Tooltip:
+			'''
+			[c/E9B688:パッシブ: オートタレット]
+			飛行機が飛行中、敵に弾丸を撃つ
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	MechPlane: {
+		DisplayName: 機械の飛行機
+		Tooltip:
+			'''
+			リサイクルしたとき、カーソルの位置に爆発が発生する
+			[c/e10643:パッシブ: 軌道攻撃]
+			飛行機が敵か地形に当たるとレーザー飛行機を降らせる
+			レーザー飛行機は命中時と敵か地形に当たったときに爆発する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HiveMind: {
+		DisplayName: ハイブマインド
+		Tooltip:
+			'''
+			召喚しているミニオン1体につき飛行機のダメージが2増加
+			飛行機を選択中、味方のハチを強化する
+			'''
+	}
+
+	ShadowCursor: {
+		DisplayName: 影のカーソル
+		Tooltip:
+			'''
+			飛行機で攻撃時に影の飛行機のクローンを召喚する
+			クローンはカーソルに向けて飛行し、クリティカル時にシャドウフレイムを与える
+			'''
+	}
+
+	EctoPlane: {
+		DisplayName: スペクトルプレーン
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: ゴースト]
+			リサイクルパワーが10%増加
+			飛行機が敵の防御力を8無視し、地形を無視する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	GiantWormTooth: {
+		DisplayName: 巨大なワームの歯
+		Tooltip:
+			'''
+			シマーに入れると混乱の飛行機に変化する
+			飛行機が地形を無視する
+			[c/fe9e23:接地時...]
+			飛行機のダメージが3増加
+			被ダメージを17%軽減
+			'''
+	}
+
+	LifeCrystalPlane: {
+		DisplayName: ライフクリスタルクルーザー
+		Tooltip:
+			'''
+			[c/d780d7:パッシブ: イン・ザ・エアー]
+			最大ライフが20増加
+			飛行機のパッシブ効果の持続時間を20%延長
+			敵がハートを落としやすくなる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PlaneOfConfusion: {
+		DisplayName: 混乱の飛行機
+		Tooltip:
+			'''
+			シマーに入れると巨大なワームの歯に変化する
+			飛行機で攻撃した敵を5%の確率で混乱させる
+			混乱した敵から受ける接触ダメージを20%軽減
+			飛行機で攻撃した敵の混乱耐性をなくす
+			[c/969696:「今は本当に混乱している」]
+			'''
+	}
+
+	BeePlane: {
+		DisplayName: 蜂の飛行機
+		Tooltip:
+			'''
+			飛行中、少しずつ上昇していく
+			[c/f9f909:パッシブ: 群れ]
+			飛行機が命中すると、25%の確率でミツバチを召喚する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	ShroomiteSeeker: {
+		DisplayName: シュルーマイトシーカー
+		Tooltip:
+			'''
+			まっすぐ飛び、敵を追尾する
+			[c/04C3F9:パッシブ: 生命の輪]
+			飛行機が飛行中、定期的にキノコの輪を放つ
+			発動するたびに、前回よりもキノコの数が少なくなる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	MicroMissiles: {
+		DisplayName: マイクロミサイル
+		Tooltip:
+			'''
+			飛行機を1～3機追加で投げる
+			飛行機の速度が20%上昇
+			[c/f89292:飛行機のダメージ、ノックバック、サイズが30%減少]
+			'''
+	}
+
+	AdamantitePlane: {
+		DisplayName: アダマンタイトの飛行機
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとチタンの飛行機に変化する]
+			敵の防御力を3無視
+			[c/fe9e23:パッシブ: アダマンタイトスラスター]
+			飛行開始から1.5秒後に飛行機のスラスターが起動する
+			速度が3倍になり、ダメージが20%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	TitaniumPlane: {
+		DisplayName: チタンの飛行機
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとアダマンタイトの飛行機に変化する]
+			敵の防御力を4無視
+			重すぎて飛ばない
+			命中後、速度が大きく増加
+			[c/04C3F9:パッシブ: チタンの嵐]
+			飛行機が命中するとチタンのバリアを得る
+			チタンの破片は飛行機ダメージを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	CobaltCrasher: {
+		DisplayName: コバルトクラッシャー
+		Tooltip:
+			'''
+			シマーに入れるとパラジウムパスファインダーに変化する
+			敵の防御力を1無視
+			[c/04C3F9:パッシブ: コバルトクラッシュ]
+			飛行機のダメージが2増加
+			飛行機が毎秒25%の確率で墜落する
+			墜落した飛行機はダメージが25%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PalladiumPlane: {
+		DisplayName: パラジウムパスファインダー
+		Tooltip:
+			'''
+			シマーに入れるとコバルトクラッシャーに変化する
+			敵の防御力を1無視
+			16マスの敵を追尾する
+			[c/E9B688:パッシブ: パスファインダー]
+			飛行機が命中時、12.5%の確率でパスファインダー機を3機出現させる
+			パスファインダーは55%のダメージを与え、各敵に1回ずつ攻撃する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SporeSnack: {
+		DisplayName: 胞子のスナック
+		Tooltip:
+			'''
+			飛行機が飛行中、触れた敵にダメージを与える胞子を放つ
+			胞子に触れるとライフが回復するが、毒を受けることがある!
+			[c/969696:「ひどい臭い!」]
+			'''
+	}
+
+	Kaleido_Scope: {
+		DisplayName: 万華鏡
+		Tooltip:
+			'''
+			[c/f89292:飛行機のクリティカル率が40%低下]
+			飛行機でクリティカル時のダメージが400%増加
+			'''
+	}
+
+	GolemShield: {
+		DisplayName: リザードの盾
+		Tooltip:
+			'''
+			ノックバックを無効化
+			[c/fe9e23:静止時に...]
+			飛行機のダメージが5増加し、ノックバックが増加
+			被ダメージを15%軽減
+			飛行機でクリティカル時にライフが回復する
+			'''
+	}
+
+	PaperTool_Pickaxe: {
+		DisplayName: 紙のつるはし
+		Tooltip:
+			'''
+			速度が速いがブロックを掘ると壊れる
+			[c/969696:「リサイクルパワーを高めてみよう!」]
+			'''
+	}
+
+	PaperTool_Hamaxe: {
+		DisplayName: 紙のハンマーアックス
+		Tooltip:
+			'''
+			速度が速いが壁を壊すか、木を切ると壊れる
+			[c/969696:「リサイクルパワーを高めてみよう!」]
+			'''
+	}
+
+	StarBurst: {
+		DisplayName: スターバースト
+		Tooltip:
+			'''
+			飛行機でダメージを与えるとマナが減少する
+			マナがなくなると魔法爆発が発生する
+			爆発は最大マナが高いほどダメージが増加する
+			発動時にマナが最大まで回復する
+			'''
+	}
+
+	ExplodingPlane: {
+		DisplayName: ボーイング
+		Tooltip:
+			'''
+			[c/E9B688:パッシブ: 手抜き]
+			「何が問題になるんだ?」
+			飛行機が爆発することがあり、爆発を当てるとダメージが増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	ExpertsHammer: {
+		DisplayName: エキスパートのハンマー
+		Tooltip:
+			'''
+			通常モードでエキスパートの紙のアクセサリを作るのに使う
+			[c/969696:「熟練した職人の伝説の道具」]
+			'''
+	}
+
+	HereticNecklace: {
+		DisplayName: 異端者のネックレス
+		Tooltip: ""
+		HereticNecklaceDamageText:
+			'''
+			{0}飛行機ダメージ
+			カーソルを周りを回る飛行機を3機召喚する
+			[c/969696:「地動説は私の信仰だ!」]
+			'''
+	}
+
+	WaterBooster: {
+		DisplayName: エアロゲル
+		Tooltip:
+			'''
+			液体内で移動速度が大きく上昇する
+			飛行機は液体に入ると速度が増加
+			[c/969696:「防水だよ!」]
+			'''
+	}
+
+	Supernova: {
+		DisplayName: スーパーノヴァ
+		Tooltip:
+			'''
+			[c/ee86e7:パッシブ: ハンドヘルドスーパーノヴァ]
+			飛行機を一度に5機投げる
+			飛行機の速度が40%上昇
+			飛行機の射程が大幅に短くなるが、消滅時に爆発する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	VortexPlane: {
+		DisplayName: エントロピーヴェセル
+		Tooltip:
+			'''
+			カーソルを追尾する
+			敵の防御力を2無視
+			[c/60f8c2:パッシブ: ボルテックスシュレッダー]
+			飛行機が追加で3ヒットするように
+			飛行機のダメージ間隔が短くなる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	GoblinPlane: {
+		DisplayName: ゴプリンのドロップシップ
+		Tooltip:
+			'''
+			[c/E9B688:パッシブ: ドロップシップ]
+			飛行機が飛行開始から1-4秒後にスパイクボールを落とす
+			スパイクボールは70%のダメージを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Composter: {
+		DisplayName: コンポスター
+		Tooltip:
+			'''
+			リサイクルパワーが5%増加
+			リサイクルしたとき、ライフを1回復
+			[c/969696:「環境に優しい!」]
+			'''
+	}
+
+	StardustPlane: {
+		DisplayName: スターライナー
+		Tooltip:
+			'''
+			追加で飛行機を投げる数が2倍
+			[c/4bb9e9:パッシブ: スターライナー]
+			飛行機を投げるとスターライナーが2体出現する
+			スターライナーは敵にタグを付け、ミニオンがクリティカルを出せるようになる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SolarPlane: {
+		DisplayName: アストロノミカルユニット
+		Tooltip:
+			'''
+			装備やアイテムで、飛行機を投げる数を増やせないが、その分ダメージとサイズが増加する
+			[c/fe9e23:パッシブ: リングオブファイア]
+			クリティカル時、飛行機が壊れるが、攻撃した敵にデイブレイクで追撃する
+			デイブレイクは暁炎を与え、一定時間後に爆発する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SigilOfSuffering: {
+		DisplayName: 悪魔のソウル
+		Tooltip:
+			'''
+			飛行機のダメージが6増加
+			飛行機のクリティカル率が6%上昇
+			飛行機でクリティカル時のダメージが66%増加
+			飛行機で攻撃した敵を炎上させ、シャドウフレイムを与える
+			[c/f89292:飛行機で攻撃するとライフが急速に減少していく]
+			'''
+	}
+
+	DiscordPlane: {
+		DisplayName: プレーン・オブ・ディスコード
+		Tooltip:
+			'''
+			[c/d780d7:パッシブ: カオスな状態]
+			飛行機に当たった敵と場所を入れ替える!
+			ボスには無効
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	LawnmowerPlane: {
+		DisplayName: エアロダイナミックローンモア
+		Tooltip:
+			'''
+			「Lawnmower Overloadもお試しください!」
+			[c/f89292:パッシブ: モーンモアオーバーロード]
+			飛行機が地面に接触すると芝刈り機に変身する
+			芝刈り機は敵を貫通し、ノックバックが増加する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	GolemPlane: {
+		DisplayName: リザードの飛行機
+		Tooltip:
+			'''
+			[c/f9f909:パッシブ: 恐怖と不安]
+			飛行機を投げると自身の周りを周回する飛行機を生成する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperCannon: {
+		DisplayName: 紙のキャノン
+		Tooltip:
+			'''
+			シマーに入れると紙の狙撃銃に変化する
+			飛行機を複数発射する!
+			[c/E9B688:パッシブ: 紙の武器]
+			最後に投げた飛行機のバフを得る
+			最後に投げた飛行機を発射する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	Slingshot_Zenith: {
+		DisplayName: ピナクル
+		Tooltip:
+			'''
+			飛行機のダメージが10増加
+			風への抵抗が25%上昇
+			50%の確率で飛行機を1機追加で投げる
+			飛行機の速度が75%上昇
+			飛行機で攻撃した敵にデバフを与える
+			'''
+	}
+
+	Slingshot_Shadowflame: {
+		DisplayName: シャドウフレイムのスリングショット
+		Tooltip:
+			'''
+			飛行機のダメージが1増加
+			飛行機の速度が30%上昇
+			飛行機で攻撃した敵にシャドウフレイムを与える
+			飛行機で攻撃した敵に[c/d780d7:呪い]をかけ、シャドウフレイムの触手で追撃することがある
+			'''
+	}
+
+	MoonString: {
+		DisplayName: 月の糸
+		Tooltip:
+			'''
+			飛行機のダメージが5増加
+			飛行機の速度が25%上昇
+			風への抵抗が25%上昇
+			'''
+	}
+
+	PaperArmor1: {
+		DisplayName: 紙のパイロットヘルメット
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとキラキラ光る紙の兜に変化する]
+			被ダメージを3%軽減
+			飛行機のダメージが1増加
+			'''
+		SetBonus:
+			'''
+			[c/E9B688:軽量: 空中で]
+			飛行機の攻撃速度が10%上昇
+			移動速度が25%上昇
+			'''
+	}
+
+	PaperArmor2: {
+		DisplayName: 紙の鎧
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとキラキラ光る紙の鎧に変化する]
+			被ダメージを4%軽減
+			飛行機のノックバックを1増加
+			'''
+	}
+
+	PaperArmor3: {
+		DisplayName: 紙のパンツ
+		Tooltip:
+			'''
+			[c/969696:シマーに入れるとキラキラ光る紙のパンツに変化する]
+			被ダメージを3%軽減
+			リサイクルパワーが5%増加
+			'''
+	}
+
+	PaperEmblemRecycling2: {
+		DisplayName: 環境保護主義者の紋章
+		Tooltip:
+			'''
+			リサイクルパワーが20%増加
+			飛行機のパッシブ効果の持続時間を20%延長
+			リサイクルパワーが10%増加するごとに飛行機のダメージが1増加
+			[c/969696:「環境に優しい!」]
+			'''
+	}
+
+	OrigamiGlove: {
+		DisplayName: 折り紙のグローブ
+		Tooltip:
+			'''
+			シマーに入れると輝く手に変化する
+			飛行機の攻撃速度が10%上昇
+			飛行機の速度が15%上昇
+			'''
+	}
+
+	HeavenlyCharm: {
+		DisplayName: 天国のお守り
+		Tooltip:
+			'''
+			飛行機の速度が40%上昇
+			風への抵抗が80%上昇
+			地面に当たった飛行機が上へテレポートする
+			'''
+	}
+
+	WindCharm: {
+		DisplayName: 風のお守り
+		Tooltip:
+			'''
+			下入力2回で風向きが反転する
+			[c/8686E5:嵐の歌]
+			雨が降っていると、飛行機のパッシブ効果の持続時間を10%延長
+			嵐時、飛行機のダメージが2増加し、飛行機の速度が20%上昇
+			'''
+	}
+
+	PaperArmorShimmer1: {
+		DisplayName: キラキラ光る紙の兜
+		Tooltip:
+			'''
+			被ダメージを3%軽減
+			飛行機のダメージが2増加
+			リサイクルパワーが5%増加
+			'''
+		SetBonus:
+			'''
+			[c/d780d7:きらめき]
+			移動時に光る
+			接地時に下入力2回でシマー中を得る
+			上入力2回で飛行機の飛行方向が逆になる
+			'''
+	}
+
+	PaperArmorShimmer2: {
+		DisplayName: キラキラ光る紙の鎧
+		Tooltip:
+			'''
+			被ダメージを5%軽減
+			飛行機の速度が10%上昇
+			飛行機の攻撃速度が10%上昇
+			'''
+	}
+
+	PaperArmorShimmer3: {
+		DisplayName: キラキラ光る紙のパンツ
+		Tooltip:
+			'''
+			被ダメージを4%軽減
+			リサイクルパワーが10%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	Potion_Friendship: {
+		DisplayName: 友情のポーション
+		Tooltip:
+			'''
+			飛行機のパッシブ効果の持続時間が40%短縮されるが、
+			飛行機を投げると近くのプレイヤーも飛行機のパッシブ効果を得る
+			'''
+	}
+
+	PaladinPlane: {
+		DisplayName: パラディンの飛行機
+		Tooltip:
+			'''
+			[c/fe9e23:パッシブ: ウルフパックラウンド]
+			飛行機が敵か地形に当たると敵を追尾するいくつかのミサイルに分裂する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	NanoPlane: {
+		DisplayName: ナナイトルーパー
+		Tooltip:
+			'''
+			投げると4回複製され、一度に5機投げる
+			[c/60f8c2:パッシブ: 「ナノマシンだ、息子よ!」]
+			静止時、ノックバックを無効化
+			被ダメージを15%軽減
+			飛行機の攻撃速度が20%上昇し、ノックバックが20%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HeartsoulArmor1: {
+		DisplayName: ハートソウルの兜
+		Tooltip:
+			'''
+			最大ライフが20増加
+			飛行機のダメージが2増加
+			'''
+		SetBonus:
+			'''
+			[c/d780d7:ハート][c/8686E5:ソウル]
+			飛行機のパッシブ効果の持続時間を40%延長
+			ダメージを受けた際にライフとマナを少し回復
+			受けている飛行機のパッシブ効果の数に応じて回復量が増える
+			'''
+	}
+
+	HeartsoulArmor2: {
+		DisplayName: ハートソウルの胸当て
+		Tooltip:
+			'''
+			最大ライフとマナが40増加
+			リサイクルパワーが10%増加
+			'''
+	}
+
+	HeartsoulArmor3: {
+		DisplayName: ハートソウルのすね当て
+		Tooltip:
+			'''
+			最大マナが20増加
+			飛行機でクリティカル時のダメージが10%増加
+			'''
+	}
+
+	SoulPlaneLight: {
+		DisplayName: 光の飛行機
+		Tooltip:
+			'''
+			リサイクルパワーが20%増加
+			[c/BE90E5:マルチプレイヤー専用のパッシブ]
+			あなたの位置に回復ポータルを召喚する
+			ポータルはライフ自然回復を増進し、ゆっくりとあなたを追尾する
+			[c/d780d7:パッシブ: 魂のポータル]
+			カーソルの位置にポータルを召喚する
+			<right>でポータルを移動させる
+			飛行機で攻撃した敵が低確率でポータルの位置にテレポートする
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SoulPlaneNight: {
+		DisplayName: 闇の飛行機
+		Tooltip:
+			'''
+			シマーに入れると荒廃の飛行機に変化する
+			飛行機を上下に投げる
+			[c/8CF10A:パッシブ: ナイトメア]
+			飛行機のダメージが1増加
+			飛行機で攻撃した敵に呪炎を与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SoulPlaneBlight: {
+		DisplayName: 荒廃の飛行機
+		Tooltip:
+			'''
+			シマーに入れると闇の飛行機に変化する
+			飛行機を左右に投げる
+			[c/f9f909:パッシブ: ブライトメア]
+			飛行機で攻撃した敵に霊液を与えることがある
+			クリティカル時は必ず与える
+			飛行機でクリティカル時のダメージが7.5%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperSatellite: {
+		DisplayName: 紙のサテライト
+		PaperSatelliteDamageText:
+			'''
+			{0}飛行機ダメージ
+			とても弱いノックバック
+			あなたの周りを回る飛行機を召喚する
+			'''
+		Tooltip: ""
+	}
+
+	Composter2: {
+		DisplayName: プリンター
+		Tooltip:
+			'''
+			リサイクルパワーが10%増加
+			リサイクルしたとき、ライフを1回復し、飛行機を追加で1機投げる
+			[c/969696:「環境に優しい!」]
+			'''
+	}
+
+	LuckyDice: {
+		DisplayName: 幸運のダイス
+		Tooltip:
+			'''
+			運が増加
+			[c/92F892:リロール]
+			最初のリサイクルが失敗した際、もう一度だけ判定する
+			リサイクルを再ロールすると、飛行機のクリティカル率が上昇
+			この効果は攻撃時に毎秒1%減少する
+			'''
+		luckyDiceCrit: "[c/92F892:現在の上昇量: {0}/{1}%]"
+	}
+
+	HarpyArmor1: {
+		DisplayName: 羽根飾りの王冠
+		Tooltip: 空中で移動速度が30%上昇
+		SetBonus:
+			'''
+			[c/f89292:スカイダンス:] 空中で発動
+			防御力が8増加
+			飛行機のダメージが3増加
+			飛行機の速度と風への抵抗が15%上昇
+			ロケットブーツと翼で飛べる時間が25%延長
+			'''
+	}
+
+	HarpyArmor2: {
+		DisplayName: 羽根飾りのローブ
+		Tooltip: 空中で移動速度が30%上昇
+	}
+
+	WyvernArmor1: {
+		DisplayName: ワイバーンのパーカー
+		Tooltip:
+			'''
+			飛行機のダメージが7増加
+			リサイクルパワーが10%増加
+			空中で移動速度が40%上昇
+			[c/969696:ワイバーンはあなたにダメージを与えない]
+			'''
+		SetBonus:
+			'''
+			[c/04C3F9:飛行:] 空中で発動
+			翼とロケットブーツで無限に飛べるようになる
+			被ダメージを12%軽減
+			飛行機の攻撃速度、速度、風への抵抗が15%上昇
+			'''
+	}
+
+	WyvernArmor2: {
+		DisplayName: ワイバーンのファースーツ
+		Tooltip:
+			'''
+			飛行機のダメージが4増加
+			飛行機のノックバックを2増加
+			空中で移動速度が40%上昇
+			'''
+	}
+
+	OrigamiGloveShimmer: {
+		DisplayName: 輝く手
+		Tooltip:
+			'''
+			飛行機のダメージが2増加
+			飛行機の攻撃速度が15%上昇
+			飛行機の速度が25%上昇
+			[c/d780d7:飛行機を投げる方向が反転する]
+			'''
+	}
+
+	Potion_Gambler: {
+		DisplayName: ギャンブラーのポーション
+		Tooltip:
+			'''
+			運が0.1増加
+			リサイクルの試行回数が1回増加
+			クリティカル率とダメージがランダムな値で増加
+			'''
+	}
+
+	ZenithPlane: {
+		DisplayName: ファイナルフォールド
+		Tooltip:
+			'''
+			消費しない
+			追加で飛行機を投げる数が2倍になる
+			固定ダメージの増加量が4倍に増加
+			「最後の折り目」
+			[c/B227FD:パッシブ: ペーパプレーンオーバーロード!]
+			幻影の飛行機は飛行機で攻撃時、出現し敵を追尾する
+			幻影の飛行機は命中するごとにダメージが20%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	LightningInABottle: {
+		DisplayName: 瓶詰めの電撃
+		Tooltip:
+			'''
+			地面に当たった飛行機が一度だけ上へテレポートする
+			テレポートした後はダメージが10%増加し、速度が2倍になる
+			'''
+	}
+
+	OrePlane1_Tin: {
+		DisplayName: 錫の飛行機
+		Tooltip:
+			'''
+			敵の防御力を1無視
+			落下が早い
+			[c/E9B688:パッシブ: 強引]
+			攻撃速度が30%低下
+			飛行機の速度が10%上昇
+			飛行機のダメージとノックバックが30%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane3_Lead: {
+		DisplayName: 鉛の飛行機
+		Tooltip:
+			'''
+			敵の防御力を2無視
+			重すぎて飛ばない
+			[c/8686E5:パッシブ: 鉄の力]
+			飛行機のダメージが3増加
+			飛行機のサイズが30%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane5_Tungsten: {
+		DisplayName: タングステンの飛行機
+		Tooltip:
+			'''
+			敵の防御力を3無視
+			落下が早い
+			[c/8686E5:パッシブ: シルバーウィンズ]
+			風の影響が大きく増加
+			飛行機の速度が10%上昇し、クリティカル時のダメージが10%増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrePlane7_Platinum: {
+		DisplayName: プラチナの飛行機
+		Tooltip:
+			'''
+			敵の防御力を4無視
+			落下が早い
+			[c/f9f909:パッシブ: ミダスタッチ]
+			敵が落とすコインが増加
+			攻撃ヒット時、一定確率でコインを追加で落とす
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SnowPlane: {
+		DisplayName: スノースロー
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: スリップリースロープ]
+			滑りやすくなり、動き出すとなかなか止まらなくなる
+			高速移動時に移動速度を維持するのに役立つ
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	BorealBracelet: {
+		DisplayName: ボーリアルブレスレット
+		Tooltip:
+			'''
+			雪玉のダメージが2増加
+			雪玉をスノースローに変換する
+			'''
+	}
+
+	PaperCounterweight: {
+		DisplayName: 紙のカウンターウェイト
+		Tooltip:
+			'''
+			ヨーヨーヒット時におもりを飛ばす
+			ヨーヨーの弾丸を変形させ、飛行機ダメージを与える
+			'''
+	}
+
+	WaxArmor1: {
+		DisplayName: 呪われた頭
+		Tooltip: 飛行機のダメージが3増加
+		SetBonus:
+			'''
+			[c/BE90E5:キャンドルの光]
+			光る
+			敵の出現率が大幅に上昇
+			[c/969696:出現率上昇はソーシャルスロットでも機能する]
+			[c/BE90E5:パニック: ライフが最大ライフの33%以下の際に発動]
+			被ダメージを17%軽減
+			移動速度と攻撃速度が17%上昇
+			ファーサーは敵の出現率を上昇させる
+			'''
+	}
+
+	WaxArmor2: {
+		DisplayName: 呪われた体
+		Tooltip:
+			'''
+			飛行機のクリティカル率が7%上昇
+			飛行機でクリティカル時のダメージが7%増加
+			'''
+	}
+
+	WaxArmor3: {
+		DisplayName: 呪われた足
+		Tooltip:
+			'''
+			リサイクルパワーが7%増加
+			移動速度が7%上昇
+			'''
+	}
+
+	PumpkinPlane: {
+		DisplayName: かぼちゃの飛行機
+		Tooltip:
+			'''
+			[c/fe9e23:パッシブ: ランタンスパーク]
+			クリティカル時、敵から炎が噴き出す
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SoulPlaneFlight: {
+		DisplayName: プレーン・オブ・フライト
+		Tooltip:
+			'''
+			[c/04C3F9:似た者同士]
+			スカイウォーカーのバフを得ている近くのプレイヤーにバフを与える
+			[c/04C3F9:パッシブ: スカイウォーカー]
+			空中で上を押している間、空中を歩ける
+			このとき、接地中でもあり、空中にいると扱われる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	GlassPlane: {
+		DisplayName: ガラスの飛行機
+		Tooltip:
+			'''
+			[c/92F892:ポーションの力]
+			攻撃時、基本的なポーションからランダムなバフを得る
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FlameburstArmor1: {
+		DisplayName: フレイムバーストの顔
+		Tooltip:
+			'''
+			飛行機のダメージが6増加
+			飛行機が敵の防御力を6無視
+			[c/969696:「君は燃えている!」]
+			'''
+		SetBonus:
+			'''
+			[c/fe9e23:機械の故障]
+			被ダメージを10%軽減
+			ダメージを受けると炎を噴き出す
+			死亡すると炎を継続的に放つ
+			'''
+	}
+
+	FlameburstArmor2: {
+		DisplayName: フレイムバーストの鎧
+		Tooltip:
+			'''
+			飛行機の速度が9%上昇
+			飛行機のクリティカル率が9%上昇
+			飛行機でクリティカル時のダメージが9%増加
+			飛行機で攻撃した敵を炎上させる
+			'''
+	}
+
+	FlameburstArmor3: {
+		DisplayName: フレイムバーストの靴
+		Tooltip:
+			'''
+			飛行機のダメージが3増加
+			移動速度が8%上昇
+			移動中、ダメージを与える炎を放つ
+			'''
+	}
+
+	TheNeedle: {
+		DisplayName: ザ・ニードル
+		Tooltip:
+			'''
+			まっすぐ飛んで戻ってくる
+			[c/04C3F9:パッシブ: ニードル]
+			飛行機の速度が25%上昇
+			飛行機が敵の防御力を4無視
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PlaneOfGrass: {
+		DisplayName: グラスプレーン
+		Tooltip:
+			'''
+			[c/92F892:パッシブ: スティンガー]
+			4投ごとに毒針を3本発射する
+			毒針はクリティカル時に毒を与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	NightsPlane: {
+		DisplayName: ナイトプレーン
+		Tooltip:
+			'''
+			風に乗って飛ぶと跳ねる
+			敵に当たると右に向かって加速する
+			[c/BE90E5:パッシブ: 夜の炎]
+			武器から固有のクリティカル確率を削除する
+			クリティカル時に[c/B227FD:減衰]を与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperStatsheet: {
+		DisplayName: 紙飛行機作りのガイド
+		Tooltip: "[c/969696:現在の天気と飛行機クラスのステータスを表示する]"
+		paperStats:
+			'''
+			---
+			ダメージ増加: {3}
+			飛行機を投げる数: {8}
+			---
+			クリティカル率: {9}%
+			クリティカル時のダメージ: {2}%
+			---
+			パッシブ効果の持続時間: {0}%
+			現在受けているパッシブ効果の数: {1}
+			---
+			リサイクルの試行回数: {5}
+			リサイクルパワー: {4}%
+			---
+			飛行機の速度: {6}%
+			風への抵抗: {7}%
+			'''
+	}
+
+	GlassEye: {
+		DisplayName: ガラスの目
+		Tooltip:
+			'''
+			[c/969696:現在受けているパッシブ効果の数が2つ以下なら...]
+			飛行機のダメージが4増加
+			'''
+	}
+
+	NightsPlaneTrue: {
+		DisplayName: トゥルーナイトプレーン
+		Tooltip:
+			'''
+			消費しない
+			風に乗って飛ぶと跳ねる
+			敵に当たると右に向かって加速する
+			[c/BE90E5:パッシブ: 夜の炎]
+			武器から固有のクリティカル確率を削除する
+			クリティカル時に[c/B227FD:減衰]を与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HeroPlane: {
+		DisplayName: 壊れた英雄の飛行機
+		Tooltip:
+			'''
+			消費しない
+			[c/BE90E5:パッシブ: ヒロイック]
+			現在受けているパッシブ効果の数に応じてリサイクルパワーが1%増加し、 
+			飛行機のダメージと防御力無視が1増加
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HallowedPlaneTrue: {
+		DisplayName: 真なる神聖な飛行機
+		Tooltip:
+			'''
+			消費しない
+			クリティカル時のダメージ増加量が250%になる
+			[c/f9f909:パッシブ: 聖なる複製]
+			飛行機が2秒後に、25%の確率で複製される
+			複製された飛行機から更に複製されることもある
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	MarblePlane: {
+		DisplayName: ヴァリアントプレーン
+		Tooltip: クリティカル時のダメージ増加量が220%になる
+		buffStats:
+			'''
+			[c/E9B688:パッシブ: 価値ある人々のために ({0})]
+			ワールドの難易度に応じてステータスが増加
+			飛行機のダメージが{1}増加
+			飛行機のクリティカル率が{1}%上昇
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	WaterPlane: {
+		DisplayName: スプラッシュ!
+		Tooltip:
+			'''
+			リサイクルパワーが10%増加
+			[c/8686E5:パッシブ: 消火]
+			[c/fe9e23:炎上]している敵に飛行機で攻撃すると炎が消え、[c/969696:蒸気]を与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	RareCandy: {
+		DisplayName: ふしぎなアメ
+		Tooltip:
+			'''
+			リサイクルパワーが5%増加
+			リサイクルした後、移動速度が4秒間2倍になる
+			'''
+	}
+
+	TerraPlane: {
+		DisplayName: テラプレーン
+		Tooltip:
+			'''
+			消費しない
+			ボスに対してダメージが15%増加
+			[c/8CF10A:パッシブ: テラ]
+			飛行機でクリティカル時のダメージが20%増加
+			クリティカル時、幻の飛行機が敵に突撃する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	SoulPlaneRainbow: {
+		DisplayName: ソウルメイト
+		Tooltip:
+			'''
+			カーソルを追尾し、地形を無視する
+			視界が遮られているとダメージが減少する
+			[c/e10643:パッシブ: レインボー]
+			リサイクルパワーが10%増加
+			リサイクルした後、移動速度が短時間上昇
+			飛行機で攻撃した敵にデバフをランダムで与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	LuminitePlane: {
+		DisplayName: ルミナイトルーパー
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: ルミノシティー]
+			クリティカル時、敵から十字型のレーザーが発射される
+			レーザーは20ダメージを与え、防御力を無視する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	WyvernArmorArch1: {
+		DisplayName: アークワイバーンのパーカー
+		Tooltip:
+			'''
+			被ダメージを7%軽減
+			飛行機のダメージが7増加
+			リサイクルパワーが15%増加
+			移動速度が40%上昇
+			[c/969696:ワイバーンはあなたにダメージを与えない]
+			'''
+		SetBonus:
+			'''
+
+			[c/04C3F9:飛行: 空中で発動]
+			翼とロケットブーツで無限に飛べるようになる
+			飛行機の攻撃速度、速度、風への抵抗が12%上昇
+			[c/fe9e23:力: 接地時に発動]
+			被ダメージを7%軽減
+			飛行機のダメージとノックバックが4増加
+			飛行機でクリティカル時のダメージが15%増加
+			'''
+	}
+
+	WyvernArmorArch2: {
+		DisplayName: アークワイバーンのスケールスーツ
+		Tooltip:
+			'''
+			被ダメージを7%軽減
+			飛行機のダメージが5増加 
+			飛行機のノックバックを3増加
+			移動速度が40%上昇
+			'''
+	}
+
+	HeartStar: {
+		DisplayName: ハートスター
+		Tooltip:
+			'''
+			最大ライフとマナが20増加
+			ダメージを受けた際、受けている飛行機のパッシブ効果1つにつき、
+			ライフが1、マナが5回復する
+			'''
+	}
+
+	ClairvoyantCursor: {
+		DisplayName: 千里眼のカーソル
+		Tooltip:
+			'''
+			飛行機のダメージが2減少し、ノックバックがなくなるが、
+			飛行機をカーソルから投げるようになる
+			'''
+	}
+
+	HarrowedPlane: {
+		DisplayName: 悲惨な飛行機
+		Tooltip:
+			'''
+			[c/8CF10A:パッシブ: 呪炎]
+			飛行機のダメージが2増加
+			フレイムバーストの靴の炎と内部噴火のダメージが増加し、
+			炎が呪いの炎になり、呪炎を与えるようになる
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	JokerAccessory: {
+		DisplayName: ジョーカー
+		Tooltip: ""
+		jokerCritNum:
+			'''
+			クリティカルするたびにクリティカル時のダメージが{2}%増加していく
+			クリティカルが発生しなかった場合、クリティカル時のダメージが4%減少する
+			[c/d780d7:クリティカル時のダメージが{0}/{1}%増加]
+			'''
+	}
+
+	BoneWalkieTalkie: {
+		DisplayName: スケルトントランシーバー
+		Tooltip:
+			'''
+			[c/BE90E5:キルスイッチ]
+			残っている全ての飛行機を消滅させ、骨をばら撒く
+			'''
+	}
+
+	SouthPole: {
+		DisplayName: サウスポール
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: アイシーアセント]
+			飛行機が飛行中、雪の結晶を上に放つ
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	HorsemansPlane: {
+		DisplayName: カボチャ騎手の飛行機
+		Tooltip:
+			'''
+			クリティカル時のダメージ増加量が220%になる
+			[c/fe9e23:パッシブ: ハッピーハロウィン!]
+			クリティカルで敵を倒すと、その敵からカボチャがいくつか放たれる
+			カボチャは敵の最大ライフの33.3%のダメージを与える
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	FrosthornArmor1: {
+		DisplayName: フロストホーンの兜
+		Tooltip:
+			'''
+			飛行機のパッシブ効果の持続時間を4%延長
+			飛行機のクリティカル率が6%上昇し、クリティカル時のダメージが6%増加
+			飛行機のダメージが1増加し、リサイクルパワーが10%増加
+			'''
+		SetBonus:
+			'''
+			[c/8CF10A:リサイクロマンシー]
+			リサイクルしたとき、フロストホーンを上に放つ
+			フロストホーンは敵か地形に当たると跳ね返り、霜焼けを与える
+			'''
+	}
+
+	FrosthornArmor2: {
+		DisplayName: フロストホーンの胸当て
+		Tooltip:
+			'''
+			飛行機のダメージとノックバックが2増加
+			リサイクルパワーが1%増加するごとに棘が3%増加
+			飛行機の速度が10%上昇し、 リサイクルパワーが10%増加
+			'''
+	}
+
+	FrosthornArmor3: {
+		DisplayName: フロストホーンのすね当て
+		Tooltip:
+			'''
+			飛行機のダメージが3増加
+			リサイクルパワーが10%増加
+			リサイクルパワーが1%増加するごとに移動速度が1%上昇
+			'''
+	}
+
+	WindCharm2: {
+		DisplayName: 風雨のお守り
+		Tooltip:
+			'''
+			[c/8686E5:レインダンス]
+			アイテムを使用すると雨が切り替わる
+			下入力2回で風向きが反転する
+			[c/8686E5:嵐の歌]
+			雨が降っていると、飛行機のパッシブ効果の持続時間を10%延長
+			嵐時、飛行機のダメージが3増加し、飛行機の速度が25%上昇
+			'''
+	}
+
+	VacuumAccessory: {
+		DisplayName: 掃除機
+		Tooltip:
+			'''
+			飛行機のダメージが2増加
+			飛行機のノックバックが4増加
+			飛行機のノックバックの向きが反転する
+			'''
+	}
+
+	BoneWalkieTalkie2: {
+		DisplayName: メメントモリ
+		Tooltip:
+			'''
+			[c/B227FD:ウヌス・アンヌス]
+			残っている全ての飛行機を消滅させ、骨をばら撒く
+			骨が15%の確率でデュアリティ・スカルになる
+			'''
+	}
+
+	FragmentStellarwind: {
+		DisplayName: ステラーウィンドの断片
+		Tooltip: "「この断片から天風が吹き荒れる」"
+	}
+
+	PaperSniper: {
+		DisplayName: 紙の狙撃銃
+		Tooltip:
+			'''
+			シマーに入れると紙のキャノンに変化する
+			飛行機の速度が50%上昇
+			固定ダメージの増加量が2倍に増加
+			装備やアイテムで、飛行機を投げる数を増やせないが、その分ダメージとサイズが増加する
+			[c/E9B688:パッシブ: 紙の武器]
+			最後に投げた飛行機のバフを得る
+			最後に投げた飛行機を発射する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperTool_StellarwindPickaxe: {
+		DisplayName: ステラーウィンドのつるはし
+		Tooltip: 
+		'''
+		リサイクルパワーが20%増加
+		速度が非常に速いがブロックを掘ると壊れる
+		'''
+	}
+
+	PaperTool_StellarwindHamaxe: {
+		DisplayName: ステラーウィンドのハンマーアックス
+		Tooltip: 
+		'''
+		リサイクルパワーが20%増加
+		速度が非常に速いが壁を壊すか、木を切ると壊れる
+		'''
+	}
+
+	StellarwindPlane: {
+		DisplayName: ステラーウィンドの飛行機
+		Tooltip:
+			'''
+			風に向かって飛んでいく
+			この飛行機は風の影響が50%増加
+			[c/B227FD:パッシブ: ステラーウィンド]
+			飛行機のダメージが2増加
+			宙返り中はダメージが増加し、敵を無限に貫通する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	PaperTool_StellarwindDrill: {
+		DisplayName: ステラーウィンドのドリル
+		Tooltip: ""
+	}
+
+	StellarwindArmor3: {
+		DisplayName: ステラーウィンドのレギンス
+		Tooltip:
+			'''
+			飛行機のダメージが7増加
+			リサイクルパワーが15%増加
+			移動速度が20%上昇
+			'''
+	}
+
+	StellarwindArmor2: {
+		DisplayName: ステラーウィンドの胸当て
+		Tooltip:
+			'''
+			飛行機のダメージが7増加
+			飛行機のノックバックが3増加
+			飛行機の速度が15%上昇
+			飛行機でクリティカル時のダメージが20%増加
+			'''
+	}
+
+	StellarwindArmor1: {
+		DisplayName: ステラーウィンドの兜
+		Tooltip:
+			'''
+			飛行機のダメージが7増加
+			飛行機のパッシブ効果の持続時間を10%延長
+			飛行機のクリティカル率が14%上昇
+			'''
+		SetBonus:
+			'''
+			[c/B227FD:恒星の武器]
+			紙のキャノンと紙の狙撃銃を強化
+			ダメージを増加させ、新たな効果を与える
+			[c/B227FD:天空の風]
+			移動速度が10%上昇
+			25%の確率で飛行機を1機追加で投げる
+			下入力2回で風向きが反転する
+			'''
+	}
+
+	OrigamiGloveWizard: {
+		DisplayName: 魔法使いの手袋
+		Tooltip:
+			'''
+			飛行機のダメージが2増加
+			フレイムバーストの靴の炎と内部噴火の炎がファイアボールになる
+			'''
+	}
+
+	SharkLoopNecklace: {
+		DisplayName: サメのループネックレス
+		Tooltip: 飛行機は宙返りするたびに防御力無視が5増加する
+	}
+
+	FalseIdol: {
+		DisplayName: 偽りの偶像
+		Tooltip: インベントリにあるコイン20枚ごとに、飛行機のクリティカル率が1％上昇
+		coinDamageTooltip: "[c/f9f909:ゴールドコイン: {0}/500、クリティカル率: {1}/30%]"
+	}
+
+	StatuePaperPlane: {
+		DisplayName: 紙飛行機の石像
+		Tooltip: 起動すると石の飛行機を前方に発射する
+	}
+
+	ChainPlane: {
+		DisplayName: チェーンプレーン
+		Tooltip:
+			'''
+			[c/e10643:パッシブ: ラピッドファイア]
+			飛行機が宙返り中に弾丸を発射する
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	ChristmasTreePlane: {
+		DisplayName: クリスマスの飛行機
+		Tooltip:
+			'''
+			[c/e10643:パッシブ: メリークリスマス!]
+			飛行機が宙返り中に様々な装飾品を落とす
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	VampirePlane: {
+		DisplayName: ヴァンパイアプレーン
+		Tooltip:
+			'''
+			[c/e10643:パッシブ: 吸血鬼]
+			飛行機でクリティカル時のダメージが10%減少するが
+			宙返り中の飛行機でクリティカルすると回復
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	WindwalkerBoots: {
+		DisplayName: ウィンドウォーカーブーツ
+		Tooltip:
+			'''
+			飛行を可能にし、超高速走行でき、落下ダメージを無効化する
+			風向きと同じ方向に走りながら上を押すと、ウィンドウォークが発動する
+			'''
+		windSpeedBoost: 風の抵抗に応じて移動速度が{0}/100%上昇 
+	}
+
+	SwampPlane: {
+		DisplayName: 沼の飛行機
+		Tooltip:
+			'''
+			[c/8CF10A:パッシブ: 偉大なる者よ]
+			飛行機のノックバックが2増加
+			飛行機が宙返り中、飛行機のサイズが急激に大きくなっていく
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrigamiGlove_Iron: {
+		DisplayName: 鉄メッキされた手袋
+		Tooltip:
+			'''
+			飛行機のサイズが10%増加
+			飛行機のサイズに応じて、ダメージとノックバックが増加
+			'''
+	}
+
+	PhantasmalPlane: {
+		DisplayName: ファンタズマルケージ
+		Tooltip:
+			'''
+			シマーに入れるとプリズマティックプレーンに変化する
+			飛行機を円を囲むように召喚する
+			[c/f9f909:パッシブ: 死の視線]
+			飛行機でライフが10%以下の敵を即死させる
+			この効果で倒した敵はエンシェントビジョンになる
+			飛行機でボスにダメージを与えると1%の確率でエンシェントビジョンを召喚する
+			ビジョンが消滅するまで再発動しない
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	LoopEngine: {
+		DisplayName: ループエンジン
+		Tooltip:
+			'''
+			飛行機が宙返り中、ダメージが5%増加
+			飛行機が宙返り中、飛行機のサイズが急激に大きくなっていく
+			'''
+	}
+
+	PrismaticPlane: {
+		DisplayName: プリズマティックプレーン
+		Tooltip:
+			'''
+			シマーに入れるとファンタズマルケージに変化する
+			[c/d780d7:パッシブ: プリズマティックプロテクション]
+			プリズマティックプレーンのリングがあなたの周りを高速で回る
+			リングはあなたの周りを回りながら、収縮したり、膨張したりする
+			'''
+		passiveDurations: "[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]"
+	}
+
+	OrigamiGlove_Thor: {
+		DisplayName: ヤーングレイプル
+		Tooltip:
+			'''
+			飛行機のサイズが10%増加
+			飛行機が宙返り中、飛行機のサイズが急激に大きくなっていく
+			飛行機のサイズに応じて、ダメージとノックバックが増加
+			'''
+	}
+
+	Cloud9: {
+		DisplayName: 雲の飛行機
+		Tooltip:
+			'''
+			[c/04C3F9:パッシブ: クラウドナイン]
+			ランダムな飛行機のステータスを9%増加
+			与ダメージが9の倍数になるたびに変化する
+			'''
+		passiveDurations:
+			'''
+			[c/04C3F9:9% 強化中の飛行機の {2}]
+			[c/969696:バフの持続時間: {0}秒、時間の上限: {1}秒]
+			'''
+	}
+}
+
+Projectiles: {
+	BasicPaperPlaneProj.DisplayName: 尖った紙飛行機
+	CopperPlaneProj.DisplayName: 銅でメッキされた飛行機
+	NinjaPlaneProj.DisplayName: 忍者の紙飛行機
+	FungusPlaneProj.DisplayName: フライングファンガス
+	IroncladPlaneProj.DisplayName: 鉄の飛行機
+	HellstonePlaneProj.DisplayName: エバキュエイトプレーン
+	CactusPlaneProj.DisplayName: サボテンの飛行機
+	CactusSpike.DisplayName: サボテンの棘
+	MeteorPlaneProj.DisplayName: 流星の飛行機
+	ForbiddenPlaneProj.DisplayName: ファラオフライト
+	OrichalcumPlaneProj.DisplayName: オリハルコンの飛行機
+	ShimmerPlaneProj.DisplayName: キラキラ光る紙飛行機
+	MythrilPlaneProj.DisplayName: ミスリルスピナー
+	HallowedPlaneProj.DisplayName: 神聖な飛行機
+	FrostPlaneProj.DisplayName: 凍った紙飛行機
+	ChlorophytePlaneProj.DisplayName: クロロファイトクルーザー
+	ChlorophyteSeeker.DisplayName: クロロファイトのオーブ
+	BonePlaneProj.DisplayName: 骨の飛行機
+	BonePlaneGore.DisplayName: 骨
+	MirrorPlaneProj.DisplayName: 反射紙の飛行機
+	SilverPlaneProj.DisplayName: シルバーサーファー
+	GoldPlaneProj.DisplayName: 金の飛行機
+	FleshPlaneProj.DisplayName: 肉の飛行機
+	InstakillWraith.DisplayName: インスタキルレイス
+	DemonitePlaneProj.DisplayName: 悪魔の飛行機
+	CrimtanePlaneProj.DisplayName: クリムプレーン
+	StickyPlaneProj.DisplayName: 粘つく飛行機
+	FlamingPlaneProj.DisplayName: 炎の飛行機
+	DripplerPlaneProj.DisplayName: ドリップラーの飛行機
+	UFOPlaneProj.DisplayName: UFO
+	ObsidianPlaneProj.DisplayName: 黒曜石の飛行機
+	TurretPlaneProj.DisplayName: フライングタレット
+	TurretPlaneBullet.DisplayName: タレットの弾丸
+	OrbitalStrikePlane.DisplayName: 軌道攻撃
+	MechExplosion.DisplayName: 機械の爆発
+	MechPlaneProj.DisplayName: 機械の飛行機
+	ShadowPlane.DisplayName: 影の飛行機
+	EctoPlaneProj.DisplayName: スペクトルプレーン
+	LifeCrystalPlaneProj.DisplayName: ライフクリスタルクルーザー
+	BeePlaneProj.DisplayName: 蜂の飛行機
+	ShroomiteSeekerProj.DisplayName: シュルーマイトシーカー
+	ShroomiteSpawner.DisplayName: シュルーマイトスポナー
+	AdamantitePlaneProj.DisplayName: アダマンタイトの飛行機
+	TitaniumPlaneProj.DisplayName: チタンの飛行機
+	CobaltCrasherProj.DisplayName: コバルトクラッシャー
+	PalladiumPathfinderProj.DisplayName: パラジウムパスファインダー
+	ManaExplosion.DisplayName: スターバースト
+	ExplodingPlaneProj.DisplayName: ボーイング
+	CultistPlane.DisplayName: 異端者の飛行機
+	SupernovaProj.DisplayName: スーパーノヴァ
+	SupernovaStar.DisplayName: スーパーノヴァスター
+	VortexPlaneProj.DisplayName: エントロピーヴェセル
+	GoblinPlaneProj.DisplayName: ゴプリンのドロップシップ
+	StardustPlaneProj.DisplayName: スターライナー
+	StarlinerProj.DisplayName: 幻影のスターライナー
+	SolarPlaneProj.DisplayName: アストロノミカルユニット
+	DiscordPlaneProj.DisplayName: プレーン・オブ・ディスコード
+	LawnmowerPlaneProj.DisplayName: エアロダイナミックローンモア
+	GolemPlaneProj.DisplayName: リザードの飛行機
+	LawnmowerPlaneCharge.DisplayName: 芝刈り機
+	PaperCannonHoldout.DisplayName: 紙のキャノンn
+	GolemPlaneOrbiter.DisplayName: 流星の飛行機
+	PaladinPlaneProj.DisplayName: パラディンの飛行機
+	WolfpackRound.DisplayName: ウルフパックラウンド
+	NanoPlaneProj.DisplayName: ナナイトルーパー
+	SoulPortal.DisplayName: 魂のポータル
+	SoulPlaneLightProj.DisplayName: 光の飛行機
+	SoulPlaneNightProj.DisplayName: 闇の飛行機
+	SoulPlaneBlightProj.DisplayName: 荒廃の飛行機
+	PaperSatelliteProj.DisplayName: サテライト紙飛行機
+	ZenithPlaneProj.DisplayName: ファイナルフォールド
+	TinPlaneProj.DisplayName: 錫の飛行機
+	LeadPlaneProj.DisplayName: 鉛の飛行機
+	TungstenPlaneProj.DisplayName: タングステンの飛行機
+	PlatinumPlaneProj.DisplayName: プラチナの飛行機
+	SnowPlaneProj.DisplayName: スノースロー
+	PaperCounterweightProj.DisplayName: 紙のカウンターウェイト
+	PumpkinPlaneProj.DisplayName: かぼちゃの飛行機
+	SoulPlaneFlightProj.DisplayName: プレーン・オブ・フライト
+	GlassPlaneProj.DisplayName: ガラスの飛行機
+	FlameburstDeathProjectile.DisplayName: 機械の故障
+	TheNeedleProj.DisplayName: ザ・ニードル
+	PlaneOfGrassProj.DisplayName: グラスプレーン
+	StingerProj.DisplayName: 毒針
+	NightsPlaneProj.DisplayName: ナイトプレーン
+	NightsPlaneTrueProj.DisplayName: トゥルーナイトプレーン
+	NightsPlaneTrueProj2.DisplayName: トゥルーナイトプレーン
+	HeroPlaneProj.DisplayName: 壊れた英雄の飛行機
+	HallowedPlaneTrueProj.DisplayName: 真なる神聖な飛行機
+	MarblePlaneProj.DisplayName: ヴァリアントプレーン
+	WaterPlaneProj.DisplayName: スプラッシュ!
+	TerraPlaneProj.DisplayName: テラプレーン
+	TerraPlaneProj2.DisplayName: 幻のテラプレーン
+	SoulPlaneRainbowProj.DisplayName: ソウルメイト
+	SoulPlaneRainbowProj2.DisplayName: ソウルメイト
+	LuminitePlaneProj.DisplayName: ルミナイトルーパー
+	LuminitePlaneLaser.DisplayName: ルミノシティー
+	HarrowedPlaneProj.DisplayName: 悲惨な飛行機
+	SouthPoleProj.DisplayName: サウスポール
+	HorsemansPlaneProj.DisplayName: カボチャ騎手の飛行機
+	FrostThornProj.DisplayName: フロストホーン
+	DualitySkull.DisplayName: デュアリティ・スカル
+	PaperSniperHoldout.DisplayName: 紙の狙撃銃
+	StellarwindPlaneProj.DisplayName: ステラーウィンドの飛行機
+	StellarwindDrillProj.DisplayName: ステラーウィンドのドリル
+	PaperSniperHoldout2.DisplayName: ステラースナイパー
+	PaperCannonHoldout2.DisplayName: ステラーキャノン
+	ZenithPlanePhantoms.DisplayName: ファイナルフォールド
+	StonePlaneProj.DisplayName: 紙飛行機の石像
+	ChainPlaneProj.DisplayName: チェーンプレーン
+	ChristmasTreePlaneProj.DisplayName: クリスマスの飛行機
+	VampirePlaneProj.DisplayName: ヴァンパイアプレーン
+	SwampPlaneProj.DisplayName: 沼の飛行機
+	PhantasmalPlaneProj.DisplayName: ファンタズマルケージ
+	PhantasmalPlaneProj2.DisplayName: ファンタズマルケージ
+	PhantasmalPlaneVision.DisplayName: エンシェントビジョン
+	PrismaticSatellite.DisplayName: プリズマティックプロテクション
+	PrismaticPlaneProj.DisplayName: プリズマティックプレーン
+	Cloud9Proj.DisplayName: 雲の飛行機
+}
+
+Configs: {
+	PaperConfig: {
+		Headers: {
+			Paper-Planes: 設定
+			Cheats: チート
+			CrossMod: クロスModヘッダー
+		}
+
+		RemoveFancyEffects: {
+			Label: エフェクトを減らす
+			Tooltip: 遅延を引き起こす可能性のあるいくつかのエフェクトを変更/削除します
+		}
+
+		DisplayName: Paper-Plane Overload: クライアント設定
+
+		RemovePaperPrefixes: {
+			Label: 修飾子を削除
+			Tooltip:
+				'''
+				アクセサリにこのMODで追加される修飾子が付かなくなります
+				これらの修飾子はアクセサリから削除されず、リフォージのプールからのみ削除されます
+				'''
+		}
+
+		TurnPlanesIntoAmmo: {
+			Label: 飛行機を弾薬にする!
+			Tooltip:
+				'''
+				飛行機を弾薬として使えるようになります!
+				[c/969696:チート設定: 意図的したものではない（でも面白い）]
+				-
+				既知の問題: 弾薬はリフォージできず、消費しないタイプの飛行機の修飾子は削除されます
+				既知の問題: 弾薬を確率で消費しない効果で、弾薬を消費しなかった場合、飛行機のパッシブは無効になります
+				-
+				'''
+		}
+
+		TurnWindPhysicsOn: {
+			Label: 風の物理法則は全ての発射物に影響を与える
+			Tooltip:
+				'''
+				全ての発射物が風の影響を受けるようになります
+				[c/969696:チート設定: 意図的したものではない（でも面白い）]
+				'''
+		}
+
+		WindIntensity: {
+			Label: 風の強さ
+			Tooltip:
+				'''
+				風の影響の強さを変更します (0% - 1000%)
+				[c/969696:チート設定: 意図的したものではない（でも面白い）]
+				-
+				飛行機の速度は変化せず、方向の強さのみが変化します
+				風の物理法則は全ての発射物に影響を与えるがオンだと、他の発射物の速度も変化します
+				'''
+		}
+
+		RemoveRecycleText: {
+			Label: リサイクル時のテキストを削除
+			Tooltip: "[c/92F892:「リサイクル!」]ポップアップを削除します"
+		}
+
+		RemoveBonusMoonlordDamage: {
+			Label: ムーンロードに対するダメージ増加をなくす
+			Tooltip:
+				'''
+				飛行機は基本ダメージが低いため、ムーンロードのコアに対して防御力をある程度無視します
+				これをオンにするとそれがなくなり、戦闘が難しくなります
+				'''
+		}
+	}
+
+	PaperConfigServer: {
+		RemoveNPCItemDrops: {
+			Label: アイテムのドロップを削除
+			Tooltip:
+				'''
+				このmodで追加されるアイテムをNPCのアイテムのドロッププールから全て削除します
+				一部のアイテムは入手できなくなります
+				'''
+		}
+
+		RemoveNPCShopItems: {
+			Label: ショップからアイテムを削除する
+			Tooltip:
+				'''
+				NPCのショップからこのmodで追加されるアイテムを全て削除します。
+				一部のアイテムは入手できなくなります
+				'''
+		}
+
+		Headers.Items: アイテム
+		DisplayName: Paper-Plane Overload: サーバー設定
+
+		RemoveBossBagDrops: {
+			Label: トレジャーバッグドロップを削除
+			Tooltip:
+				'''
+				右クリックで開くアイテムから、このmodで追加される全てのアイテムを削除します
+				一部のアイテムは入手できなくなります
+				'''
+		}
+	}
+}
+
+Prefixes: {
+	AerodynamicPrefix.DisplayName: 空気力学的な
+	AerodynamicTooltip:
+		'''
+		飛行機のダメージが2増加
+		飛行機の速度が4%上昇
+		'''
+	SustainablePrefix.DisplayName: 持続可能な
+	SustainableTooltip:
+		'''
+		リサイクルパワーが4%増加
+		飛行機のパッシブ効果の持続時間を4%延長
+		'''
+	FoilEdition.DisplayName: メッキされた
+	FoilEditionTooltip: 飛行機のダメージが5増加
+	HolographicEdition.DisplayName: 立体像のような
+	HolographicEditionTooltip: 飛行機のクリティカル率が10%上昇
+	PolychromeEdition.DisplayName: 多色な
+	PolychromeEditionTooltip: 1.5倍
+	NegativeEdition.DisplayName: ネガティブな
+	NegativeEditionTooltip: ソーシャルスロットに装備中も機能するが、ダメージがマイナスになる可能性がある
+	DextrousPrefix.DisplayName: 器用な
+	DextrousTooltip:
+		'''
+		飛行機の攻撃速度が4%上昇
+		4%の確率で飛行機を1機追加で投げる
+		'''
+}

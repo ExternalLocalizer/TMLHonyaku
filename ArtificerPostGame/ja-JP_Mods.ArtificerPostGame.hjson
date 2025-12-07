@@ -1,0 +1,396 @@
+CommonTooltips: {
+	SetBonus: {
+		Permarmor:
+			'''
+			アクセサリースロットを3つ追加
+			能力アクセサリを装備すると防御力が12増加
+			能力アクセサリを装備していない場合、専用の能力が発動できる
+			この能力はパワーアーマーの効果を発動させ、クールダウンは40秒
+			'''
+		Supernova:
+			'''
+			アクセサリースロットを3つ追加
+			能力アクセサリのクールダウンを25%短縮
+			能力アクセサリの能力を発動するとエネルギーを放ち、クールダウン中、ダメージと防御力が増加
+			更に大爆発し、周囲の敵に大ダメージを与える
+			'''
+		Paragon:
+			'''
+			アクセサリースロットを4つ追加
+			能力アクセサリのクールダウンを25%短縮
+			戦闘中、能力アクセサリが自動で発動する
+			この効果は{0}をダブルタップすることで切り替える
+			'''
+		KeywordUp: 上
+		KeywordDown: 下
+	}
+
+	AutoAbilityOn: 能力の自動発動オン!
+	AutoAbilityOff: 能力の自動発動オフ!
+	BonusAccessory: 追加スロット
+}
+
+Items: {
+	PermalloyBar: {
+		DisplayName: パーマロイのインゴット
+		Tooltip: "「耐久性と汎用性が完璧に洗練された」"
+	}
+
+	PermarmorHelm: {
+		DisplayName: パーマモールのカブト
+		Tooltip:
+			'''
+			ダメージが6%増加
+			クリティカル率が5%上昇
+			最大マナが40増加
+			召喚できるミニオンの数が2体増える
+			「これこそが職人の鎧だ」
+			'''
+	}
+
+	PermarmorPlate: {
+		DisplayName: パーマモールの鎧
+		Tooltip:
+			'''
+			ダメージが18%増加
+			クリティカル率が4%上昇
+			投擲武器の弾速が10%上昇
+			「これこそが職人の鎧だ」
+			'''
+	}
+
+	PermarmorGreaves: {
+		DisplayName: パーマモールのすね当て
+		Tooltip:
+			'''
+			ダメージが10%増加
+			クリティカル率が3%上昇
+			消費マナが10%減少
+			10%の確率で弾薬を消費しない
+			移動速度が15%上昇
+			「これこそが職人の鎧だ」
+			'''
+	}
+
+	CatCarrier: {
+		DisplayName: C.A.T.キャリア
+		Tooltip:
+			'''
+			あなたを守る戦闘用のドローンを召喚する
+			[placeholder]
+			「戦闘支援技術。あれは猫耳じゃない。小型ミサイルサイロだ」
+			'''
+		AbilityDesc:
+			'''
+			ドローンの攻撃モードを5秒間起動する
+			この状態では、ドローンは敵を追尾するミサイルを発射しながら敵を追跡する
+			'''
+	}
+
+	PermalloyProtector: {
+		DisplayName: パーマロイのプロテクター
+		Tooltip:
+			'''
+			ノックバックを無効化
+			[placeholder]
+			被ダメージを5%軽減する シールドジェネレーターが起動中は10%軽減
+			防御力が1増加し、時間経過で徐々に防御力が増加し、最大16増加
+			シールドジェネレーターが起動中かダメージを受けると1にリセットされる
+			'''
+		AbilityDesc:
+			'''
+			自分の位置にシールドジェネレーターを生成する
+			オーラ内のプレイヤーは受けるダメージが40%軽減
+			シールドジェネレーターは15秒間持続する
+			'''
+	}
+
+	OverclockDial: {
+		DisplayName: オーバークロックダイヤル
+		Tooltip:
+			'''
+			能力アクセサリのクールダウンを25%短縮
+			戦闘中、能力アクセサリが自動で発動する
+			能力のクールダウン中、攻撃速度、移動速度、採掘速度、設置速度が10%上昇 
+			'''
+	}
+
+	PermachargeAugments: {
+		DisplayName: パーマチャージオーグメント
+		Tooltip:
+			'''
+			着用者は加速力が上昇し、超高速走行できる
+			ジャンプ速度が大きく増加し、自動ジャンプが可能になり、落下ダメージを無効化
+			攻撃に電撃を追加し、敵に強力なショックを与えることがある
+			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を25％上昇させる
+			'''
+	}
+
+	SupernovaFragment: {
+		DisplayName: スーパーノヴァの断片
+		Tooltip: "「この断片の中には、星間爆発の無限のエネルギーが詰まっている」"
+	}
+
+	SupernovaHeadgear: {
+		DisplayName: スーパーノヴァのヘッドギア
+		Tooltip:
+			'''
+			ダメージが6%増加
+			クリティカル率が11%上昇
+			消費マナが10%減少
+			10%の確率で弾薬を消費しない
+			召喚できるミニオンの数が1体増える
+			「ノヴァの真の力を解き放て」
+			'''
+	}
+
+	SupernovaCuirass: {
+		DisplayName: スーパーノヴァの鎧
+		Tooltip:
+			'''
+			ダメージが11%増加
+			クリティカル率が6%上昇
+			召喚できるミニオンの数が2体増える
+			ライフ自然回復を増進
+			「ノヴァの真の力を解き放て」
+			'''
+	}
+
+	SupernovaGreaves: {
+		DisplayName: スーパーノヴァのすね当て
+		Tooltip:
+			'''
+			最大マナが40増加
+			ダメージが8%増加し、クリティカル率が8%上昇
+			投擲武器の弾速が10%上昇
+			移動速度が15%上昇
+			「ノヴァの真の力を解き放て」
+			'''
+	}
+
+	ArcanaStimulator5: {
+		DisplayName: 究極の神秘の刺激剤
+		Tooltip: "[placeholder]"
+		AbilityDesc: 10秒間でマナを500回復する
+	}
+
+	VitalStimulator5: {
+		DisplayName: 究極の生命の刺激剤
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			5秒間でライフを150回復する
+			回復中はポーション酔いを受ける
+			'''
+	}
+
+	StarstrikeCore: {
+		DisplayName: スターストライクコア
+		Tooltip:
+			'''
+			ダメージが4%増加し、クリティカル率が4%上昇
+			被ダメージを5%軽減
+			[placeholder]
+			「銀河そのものをあなたの大義に招き入れましょう！」
+			'''
+		AbilityDesc:
+			'''
+			周囲に超高密度の星間エネルギーの火花を放つ
+			これらの火花は近くの敵を追跡し、命中すると大爆発する
+			'''
+	}
+
+	SupernovaEmblem: {
+		DisplayName: スーパーノヴァの紋章
+		Tooltip:
+			'''
+			ダメージが12%増加
+			能力アクセサリのクールダウンを33%短縮
+			'''
+	}
+
+	GalactaGravpack: {
+		DisplayName: ギャラクタグラヴパック
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			空中で、防御力が5増加
+			ダメージを受けるとフラックスフォースブラストを発射して反撃する
+			'''
+	}
+
+	ParagonParticle: {
+		DisplayName: パラゴンの粒子
+		Tooltip: "「その可能性は無限だ」"
+	}
+
+	ParagonHeadpiece: {
+		DisplayName: パラゴンのヘッドピース
+		Tooltip:
+			'''
+			
+			最大マナが20増加
+			ダメージが8%増加
+			クリティカル率が14%上昇
+			消費マナが5%減少
+			5%の確率で弾薬を消費しない
+			投擲武器の弾速が5%上昇
+			召喚できるミニオンの数が1体増える
+			ライト付き、視界が広がる
+			「完璧に開発された職人の技術」
+			'''
+	}
+
+	ParagonPlate: {
+		DisplayName: パラゴンの鎧
+		Tooltip:
+			'''
+			
+			最大マナが20増加
+			ダメージが10%増加
+			クリティカル率が10%上昇
+			消費マナが5%減少
+			5%の確率で弾薬を消費しない
+			投擲武器の弾速が5%上昇
+			召喚できるミニオンの数が1体増える
+			ライフ自然回復を大きく増進
+			「完璧に開発された職人の技術」
+			'''
+	}
+
+	ParagonLeggings: {
+		DisplayName: パラゴンのレギンス
+		Tooltip:
+			'''
+			
+			最大マナが20増加
+			ダメージが14%増加
+			クリティカル率が8%上昇
+			消費マナが5%減少
+			5%の確率で弾薬を消費しない
+			投擲武器の弾速が5%上昇
+			召喚できるミニオンの数が1体増える
+			移動速度が25%上昇し、加速が上昇
+			「完璧に開発された職人の技術」
+			'''
+	}
+
+	ClimaxCatalyst: {
+		DisplayName: クライマックスカタリスト
+		Tooltip:
+			'''
+			[placeholder]
+			「…それで戦いは終わった」
+			'''
+		AbilityDesc:
+			'''
+			非常に強力な巨大エネルギービームを5秒間発射する
+			発射中は通常攻撃ができないが、移動可能で、ビームをゆっくりと回転させつつ発射することもできる
+			ビームは円錐状にエネルギーボルトを発射し、近づいた敵を切り裂く強力な放射線も放つ
+			'''
+	}
+
+	ArtificerApotheosis: {
+		DisplayName: 職人の崇拝
+		Tooltip:
+			'''
+			[placeholder]
+			「敵は最高の職人の戴冠式を目撃するだろう」
+			'''
+		AbilityDesc:
+			'''
+			デバフを治し、ライフとマナを回復し、以下の効果を得る;
+			ダメージが60%増加
+			被ダメージが60%減少
+			ライフとマナの自然回復を大菊蔵信
+			翼とロケットブーツで無限に飛べる
+			移動速度と加速が上昇
+			20秒間持続
+			ポーション酔いを60秒間受ける
+			'''
+	}
+
+	RighteousRequiem: {
+		DisplayName: 正義の鎮魂歌
+		Tooltip:
+			'''
+			クリティカル率が10%上昇
+			[placeholder]
+			ライフが徐々に自然回復する
+			ライフスティールがわずかに上昇
+			「ジェイソン・ラインフォース・パーカーに捧ぐ」
+			「死は一時的なものだが、影響は永遠だ」
+			'''
+		AbilityDesc:
+			'''
+			正義のヴァンパイアナイフを周囲に放ち、命中した敵のライフを奪う
+			攻撃開始時に小型ナイフを放ち、正義のナイフが命中すると、小型ナイフが降り注ぐ
+			正義のナイフで回復するたびに、近くの味方もライフが少量回復する
+			'''
+	}
+
+	PermarmorAbilityDummy: {
+		DisplayName: パーマモールの能力のダミー
+		Tooltip:
+			'''
+			[placeholder]
+			注意：このアイテムは入手不可能なはず!
+			パーマモールのセットボーナス効果を高めるために内部的に使用されている
+			ゲーム内では機能しない
+			アイテムブラウザやチートMODを使わずにこのアイテムを見つけた場合は、何らかの問題が発生している
+			「装備することなんて考えないで…」
+			'''
+	}
+}
+
+Buffs: {
+	SupernovaSurge: {
+		DisplayName: スーパーノヴァサージ
+		Description: 溢れ出る宇宙エネルギーがあなたのダメージと防御力を増加させる！
+	}
+
+	PermarmorBuff: {
+		DisplayName: パーマモールの守り
+		Description: 防御力が増加し、被ダメージを大きく軽減する
+	}
+
+	ElectrifiedEnemy2: {
+		DisplayName: オーバーシヨック
+		Description: 敵はガルバニックエネルギーで過負荷になり、徐々にライフが減少する
+	}
+
+	ManaStim5: {
+		DisplayName: 究極の神秘の刺激剤
+		Description: マナを急速に回復する
+	}
+
+	HPStim5: {
+		DisplayName: 究極の生命の刺激剤
+		Description: ライフを急速に回復する
+	}
+
+	Apotheosis: {
+		DisplayName: 崇拝
+		Description: 驚異的な強さ、持久力、再生力、機動力を身につけた！
+	}
+
+	PermalloyProtection: {
+		DisplayName: プロテクターシールド
+		Description: 近くのシールドジェネレーターが被ダメージを大きく軽減する
+	}
+}
+
+Projectiles: {
+	SupernovaBlast.DisplayName: スーパーノヴァ
+	StarstrikeBlast.DisplayName: スターストライクバースト
+	LienKnife2.DisplayName: セイギノナイフ
+	LienKnife3.DisplayName: ラインナイフ
+	LienLifesteal2.DisplayName: ラインライフスティール
+	FluxForceBlast.DisplayName: フラックスフォースブラスト
+	ProtectorShield.DisplayName: シールドジェネレーター
+	DroneMissile.DisplayName: ドローンミサイル
+	DroneBeam.DisplayName: ドローンレーザー
+	CatDrone.DisplayName: C.A.T.ドローン
+	ClimaxDeathray.DisplayName: クライマックスデスレイ
+	ClimaxBeam.DisplayName: クライマックスビーム
+}

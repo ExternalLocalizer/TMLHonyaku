@@ -1,0 +1,544 @@
+MoonlingRogueTooltip:
+	'''
+	- ローグボーナス:
+		* 最大ローグステルスを<rogueStealthMax>増加させます。
+		* ローグステルス獲得を<rogueStealthGain>%増加させます。
+		* ローグダメージを<rogueDmg>%増加させます。
+		* ローグ速度を<rogueVelocity>%増加させます。
+		* 最大体力を<hp>%減少させます。
+	'''
+JunimoExtraBosses: ", プロヴィデンス, デバウアーオブゴッド"
+Rogue: ローグ
+
+LightPetTooltips: {
+	RustedJingleBell:
+		'''
+		水中での最大呼吸時間を<breathe>秒、
+		ペットアビリティヘイストを<haste>、
+		液体に触れている間の採掘運を<fortune>増加させます。
+		呼吸秒数ボーナス: <breatheLine>
+		ペットアビリティヘイストボーナス: <hasteLine>
+		液体中の採掘運ボーナス: <fortuneLine>
+		'''
+	ThiefsDime:
+		'''
+		運を<luck>、ローグダメージを<rogue>、
+		ローグ速度を<velocity>、ステルス獲得を<stealth>増加させます。
+		運ボーナス: <luckLine>
+		ローグダメージボーナス: <rogueLine>
+		ローグ速度ボーナス: <velocityLine>
+		ローグステルス獲得ボーナス: <stealthLine>
+		'''
+	SuspiciousLookingNOU:
+		'''
+		運を<luck>増加させ、ダメージを<damage>減少させ、
+		落下ダメージが始まるブロック数を<fall>増加させます。
+		また、あなたがどれだけ怪しいかを<sus>増加させます。
+		運ボーナス: <luckLine>
+		ダメージ低下: <damageLine>
+		落下開始までのブロック: <fallLine>
+		怪しさメーター: <susLine>
+		'''
+	LittleLight:
+		'''
+		ヘイトを<aggro>、ノックバック耐性を<kbResist>、
+		ペットから獲得するシールドを<shield>、最大体力を<health>増加させます。
+		ヘイトボーナス: <aggroLine>
+		ノックバック耐性ボーナス: <kbResistLine>
+		ペットシールド増加ボーナス: <shieldLine>
+		体力ボーナス: <healthLine>
+		'''
+	StrangeOrb:
+		'''
+		釣り力を<power>、釣り運を<fortune>増加させ、
+		液体に触れている場合はペット回復を<heal>増加させます。
+		釣り力ボーナス: <powerLine>
+		釣り運ボーナス: <fortuneLine>
+		液体中のペット回復ボーナス: <healLine>
+		'''
+	RadiatingCrystal:
+		'''
+		任意のデバフ下で防御力を<def>増加させます、
+		ただしNurseで治療できないデバフやマナ酔いは除きます。
+		ノックバックを<knockback>増加させ、<radius>ブロック内の敵を毒状態にします。
+		デバフ下の防御力ボーナス: <defLine>
+		ノックバックボーナス: <knockbackLine>
+		毒化半径: <radiusLine>
+		'''
+	EnchantedButterfly:
+		'''
+		ペットからの回復を<heal>、グローバル運を<fortune>、
+		ペット由来ダメージを<damage>増加させます。ヘイトを<aggro>減少させます。
+		ペット回復ボーナス: <healLine>
+		グローバル運ボーナス: <fortuneLine>
+		ヘイト減少ボーナス: <aggroLine>
+		ペット由来ダメージボーナス: <damageLine>
+		'''
+	ChromaticOrb:
+		'''
+		ペットアビリティヘイストを<haste>、クリティカル率を<crit>、
+		ジャンプ速度を<jump>増加させます。
+		ペットアビリティヘイストボーナス: <hasteLine>
+		クリティカル率ボーナス: <critLine>
+		ジャンプ速度ボーナス: <jumpLine>
+		'''
+}
+
+PetTooltips: {
+	ForgottenDragonEgg:
+		'''
+		- [i:<stackIcon>] 現在のスタック: <dragonPractice>。スタック獲得源は以下の通りです:
+			* 主要ターゲットへの直接ヒットと爆発でヒットしたすべての敵は<hitStack>を付与します。
+			* 燃焼または爆発の効果下で死亡した敵は<killStack>を付与します。
+			* 獲得したスタックは、ターゲットがボスの場合<bossMultiply>倍、またはレアリティ値+1倍されます。
+		- ペットアビリティキー(<keybind>)を押すと次の攻撃のためにSuper Scorcher Breathをチャージし、ヒット時に爆発します。
+			爆発でヒットした敵は燃焼し、永続的なスタックを付与します。<cooldown>秒のクールダウン。
+			* Super Scorcher Breath攻撃は使用しない場合<expire>秒後に期限切れになります。
+			* 爆発は初期ダメージの<baseMult>% + [i:<stackIcon>] <stackMult>%を与え、<baseSize> + [i:<stackIcon>] <stackSize>ブロックの半径を持ちます。
+			* 爆発は<burnDuration> + [i:<stackIcon>] <stackBurnDuration>秒間敵を燃焼させ、毎秒<baseBurn> + [i:<stackIcon>] <stackBurn>ダメージを与えます。
+			* 敵が燃焼している間、体力が<baseExecute>% + [i:<stackIcon>] <stackExecute>%を下回ると即座に処刑されます。
+			* 爆発とスタック獲得はダミーなどでは無効化され、スタックが高いほど1スタックあたりのステータスが悪化します。
+		'''
+	ForgottenDragonEggStack: "[i:<stackIcon>] Akatoスタック"
+	Astrophage:
+		'''
+		- <infectRadius>ブロック内の敵にアストラル感染を<infectDuration>秒間付与します。
+		- <slowRadius>ブロック内のアストラル感染デバフを持つ敵は<slowAmount>%鈍足になります。
+			* この半径内のすべての敵はあなたに<dmg>%ダメージを付与し、最大<cap>体の敵まで。
+			* この効果下で敵が死亡すると、その<spreadRadius>ブロック内の最も近い敵に
+			残り時間でアストラル感染が伝染し、<spreadSlowDuration>秒間<spreadSlow>%鈍足になります。
+		'''
+	AstrophageStack: 近くの感染した敵
+	BearsEye:
+		'''
+		- 体力が<belowHealth>%を下回るダメージを受けると、
+			基本 <baseShield>% + ボーナス <bonusShield>%の体力シールドを<shieldDuration>秒間付与します。
+			* 体力を<belowHealth>%未満にするダメージを受けるとシールドが代わりに受けてダメージを軽減します。
+			* 体力シールドは<cooldown>秒のクールダウンがあります。
+		- ローグダメージを<rogueDmg>%、ステルスストライクダメージを<stealthDmg>%増加させます。
+		- ローグステルス獲得を移動中<stealthMoving>%、非移動時<stealthNotMoving>%増加させます。
+		'''
+	CharredRelic:
+		'''
+		- 体力が<treshold>%を下回ると<dr>%ダメージ軽減を付与します。
+		- ダメージを受けるとダメージを反射し、火球を生成します。
+			* 反射ダメージは軽減前ダメージの<reflectAmount>%です。
+			* 体力が<treshold>%未満の場合、反射ダメージは2倍になります。
+			* 火球は受けた軽減前ダメージの半分 + 防御力にダメージ軽減率を掛けたダメージを与え、
+			ヒット時に煉獄の炎を適用します。
+			* 火球はランダムに移動し、ダメージ時に5つ生成されます。
+			* 火球はダメージ時の再発動に<cooldown>秒のクールダウンがあります。
+		'''
+	CosmicPlushie:
+		'''
+		[c/<color>:感情的に] <class>
+		- 死亡時に周囲<block>ブロック内のすべての敵に<damage>ダメージを与えます！
+			* ハードコアキャラクター以外では効果なし！
+			* クリティカルする驚異的な確率！
+			* 他のプレイヤーにもむさぼり食うかもしれない.....
+			* :3
+		'''
+	CosmicDeath1: <name>はちょっとしたいたずらをした。
+	CosmicDeath2: <name>はちょっとしたトローリングをしている。 :tf:
+	CosmicDeath3: <name>は太い指で押した
+	CosmicDeath4: <name>が「mb」と言っても100%嘘だ
+	TrashmanTrashcan:
+		'''
+		- ペットアビリティキー(<keybind>)を押すとゴミ箱を投げます。
+			* ゴミ箱は<damage>ダメージを与え、<bleedDuration>秒間出血を適用します。
+			* ターゲット周辺の敵は<slowDuration>秒間<slow>%鈍足になります。
+			* <confuseChance>%の確率で、敵は<confuseDuration>秒間混乱することもあります。
+			* ダメージ、鈍足量、混乱確率は病気の耐性や脆弱性の影響を受けます。
+		'''
+	TheEtomer:
+		'''
+		- (<abilitySwitch>)を押してアビリティを切り替え、(<abilityUse>)を押してヒット時効果を発動します。
+		- ヒット時に機能する6つのアビリティから選択できます。アビリティを再使用してキャンセルします。
+		- これらは現在のトラブルメーカーのフォームと敵の脆弱性から恩恵を受けます。
+			* Dexフォームはすべてのアビリティに<dexMult>倍を適用し、他は<STABMult>倍の効果です。
+			* ペットアビリティの属性の脆弱性を持たない敵に対しては効果が弱くなります。
+		- 全体で<baseCooldown>秒のクールダウン枠があり、ペットアビリティを使用することで枠を消費します。
+			クールダウン枠の<baseCooldown>秒を超えなければクールダウン中でも使用可能です。
+		<abilityTooltip>
+		'''
+	TheEtomerStack: 選択された技
+	RotomCurrent: "現在のアビリティ: "
+	RotomActive: "[c/a2a2a2: 使用可能]"
+	RotomThunderWaveName: "[c/FFFF00:Thunder Wave]"
+	RotomThunderWave:
+		'''
+			* 電気の脆弱性を持つ敵に対して大きな効果を与え、Electricフォームの場合更に効果が増します。
+			* 次の攻撃は<radius>ブロック内のすべての敵を麻痺させ、<slowDuration>秒間<slow>%鈍足を与えます。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	RotomHydroPumpName: "[c/0f5e9c:Hydro Pump]"
+	RotomHydroPump:
+		'''
+			* 水の脆弱性を持つ敵に対して大きな効果を与え、Washフォームの場合更に効果が増します。
+			* 次の攻撃は追加で<dmg>ダメージを与え、<wetDuration>秒間ターゲットに水浸しを与えます。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	RotomOverheatName: "[c/ff5a00:Overheat]"
+	RotomOverheat:
+		'''
+			* 熱の脆弱性を持つ敵に対して大きな効果を与え、Heatフォームの場合更に効果が増します。
+			* 次の攻撃はあなたとターゲットの<radius>ブロック周辺で爆発し、<dmg>ダメージを与えます。
+			* 主要ターゲットは<burnDuration>秒間、燃えている！のデバフで燃焼します。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	RotomBlizzardName: "[c/3fd0d4:Blizzard]"
+	RotomBlizzard:
+		'''
+			* 冷気の脆弱性を持つ敵に対して大きな効果を与え、Frostフォームの場合更に効果が増します。
+			* 次の攻撃はターゲット位置に小さなブリザードを出し、
+		<blizzardDuration>秒間内部のすべての敵に継続的に<dmg>ダメージを与えます。
+			* ブリザード内の敵は継続的に<slow>%鈍足になります。
+			* <freezeRequirement>秒間ヒットされた敵は<freezeDuration>秒間凍結を適用されます。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	RotomLeafStormName: "[c/34a203:Leaf Storm]"
+	RotomLeafStorm:
+		'''
+			* 病気の脆弱性を持つ敵に対して大きな効果を与え、Mowフォームの場合更に効果が増します。
+			* 次の攻撃はターゲットからダメージを与える葉を生成し、
+			<dmg>ダメージを与え、<lowLeaf>から<highLeaf>枚の葉を生成します。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	RotomAirSlashName: "[c/cfecf7:Air Slash]"
+	RotomAirSlash:
+		'''
+			* 敵が地上にいる場合(重力の影響を受ける場合)効果的で、
+			地上の敵が現在空中にいる場合は通常の効果、
+			重力の影響を受けない場合はあまり効果的ではありません。Fanフォームの場合更に効果が増します。
+			* 次の攻撃は<radius>ブロック内のすべての敵に<dmg>ダメージを与え、
+			<knockback>ノックバックであなたから遠ざけます。
+			* 現在のペットアビリティクールダウンの<percentOfCd>%を消費します。(<percentToSeconds>秒)
+		'''
+	AbyssShellFossil:
+		'''
+		- 持っているヘイトに応じて、防御または攻撃ステータスを獲得します。
+		- ペットアビリティ切替(<switchKeybind>)を押してツールチップを切り替えます。
+		<tooltip>
+		'''
+	AbyssShellFossilStack: ヘイト値
+	SnailActive: 有効！
+	SnailInactive: 無効！
+	SnailPositiveAggro:
+		'''
+		- ヘイト値が正の場合、以下を付与します: (<active>)
+			* <aggroDef>ヘイト値ごとに防御力1。現在: <def>
+			* <aggroHealth>ヘイト値ごとに最大体力1。現在: <hp>
+			* <aggroDr>ヘイト値ごとにダメージ軽減1%。現在: <dr>%
+			* <aggroKb>ヘイト値ごとにノックバック1%。現在: <kb>%
+		'''
+	SnailNegativeAggro:
+		'''
+		- ヘイト値が負の場合、以下を付与します: (<active>)
+			* <aggroDamage>ヘイト値ごとにダメージ1%。現在: <dmg>%
+			* <aggroCrit>ヘイト値ごとにクリティカル率1%。現在: <crit>%
+			* <aggroPen>ヘイト値ごとに防御貫通1。現在: <pen>
+			* <aggroMs>ヘイト値ごとに移動速度1%。現在: <ms>%
+		'''
+	GeyserShell:
+		'''
+		- 立ち止まり時のステルス回復を<stealth>%増加させます。
+		- 最大ステルスを<maxStealth>増加させます。
+		- ステルス攻撃ダメージを<stealthDmg>%増加させます。
+		- ステルス攻撃はヒット時にあなたとターゲットの周りに酸を生成します。
+			* <damage>ダメージを与え、<irradiateDuration>秒間被曝を適用します。
+			* <cooldown>秒のクールダウンがあります。
+		'''
+	FoxDrive:
+		'''
+		- ペットアビリティキー(<keybind>)を押すとあなたにかかっているすべてのデバフをフォーマット(浄化)します。
+			* これを成功させるとオーバーロードが発生し、次の
+			<baseCurse>基本秒 + 浄化したデバフごとに<perCurse>秒間何も使用できません。
+			* 本質的に呪いデバフを適用しますが、無効を無視します。
+			* これには準デバフも含まれます。(利点と欠点の両方を持つデバフ！)
+			* 浄化はNurseで除去できないデバフは除去しません。
+			* デバフが正常に浄化されると<cooldown>秒のクールダウンが始まります。
+		'''
+	FoxCleansedText: "浄化したデバフ: "
+	PrimroseKeepsake:
+		'''
+		- 体力が<belowHealth>%を下回るダメージを受けると、
+			<baseShield>%基本 + <bonusShield>%ボーナス体力シールドを<shieldDuration>秒間付与します。
+			* 体力を<belowHealth>%未満にするダメージはシールドに応じて軽減されます。
+			* Lifeguard Shieldは<cooldown>秒のクールダウンがあります。
+			* 発動時、同じ持続時間の間、パワー吸収は<lifeguardMult>倍のダメージを与えます。
+		- ローグステルス獲得を移動中<stealthMoving>%、非移動時<stealthNotMoving>%増加させます。
+		- 敵を倒すと次のローグヒットのためにその力を吸収します。
+			* 基本ダメージ値の<percAbsorb>%を次のローグヒットに追加します。
+			* このボーナスダメージを発動すると<procShieldDuration>秒間<procShield>シールドを付与します。
+		'''
+	RomajedaOrchid:
+		'''
+		- 敵を倒すと次のローグヒットのためにその力を吸収します。
+			* 基本ダメージ値の<percAbsorb>%を次のローグヒットに追加します。
+			* ステルスストライクはこのダメージを<stealthMult>倍にします。
+		'''
+	RomajedaOrchidStack: 次のローグヒットのボーナスダメージ
+	JoyfulHeart:
+		'''
+		- あなたは愛と平和を広めています。
+			* ダメージは<selfDmg>倍されます。
+			* 受けるダメージは<takenDmg>倍されます。
+		- ペットアビリティキー(<keybind>)を押すと<radius>ブロック内の
+			すべて(自分自身を含む)に回復を付与します。
+			* <duration>秒間、毎秒2回<perSecRegen>回復します。
+			* プレイヤーと友好的NPCはリジェネが2倍になります
+		'''
+	Levi:
+		'''
+		- 釣り力1ごとに<dmgPer>%ダメージを獲得します。現在: <currentDmg>%
+		- 釣り力<defPer>ごとに防御力1を獲得します。現在: <currentDef>
+		- Angler Armorピースはそれぞれ<helm>/<chest>/<leg>防御力を獲得します。
+		- すべてのAngler Armorピースは<critChance>%クリティカル率を獲得します。
+		'''
+	LeviCrit: % クリティカル率増加
+	RottingEyeball:
+		'''
+		- 不浄の敵に<incrToCorrupt>%多くダメージを与えます。
+		- <penalty>%多くダメージを受けますが、不浄の敵からは除きます。
+		- このペットでの不浄の敵キル数: <killCount>
+		- キル数に応じて以下のボーナスを獲得します。
+			* +<dmg>%ダメージ、+<crit>%クリティカル率、+<luck>運、
+			+<pen>防御貫通、+<critDmg>%クリティカルダメージ。
+			* 不浄バイオーム内ではステータスを<evilMult>倍にします。
+			* 次のステータスアップグレードに必要なキル数: <killReq>
+		'''
+	RottingEyeballStack: 次のレベルまでの不浄のキル数
+	BloodyVein:
+		'''
+		- 真紅の敵から<drFromCrimson>%少ないダメージを受けます。
+		- <penalty>%少ないダメージを与えますが、真紅の敵には除きます。
+		- このペットでの真紅の敵キル数: <killCount>
+		- キル数に応じて以下のボーナスを獲得します。
+			* +<def>防御力、+<hp>最大体力、+<luck>運、
+			+<dr>%ダメージ軽減、+<regen>体力リジェネ。
+			* 真紅バイオーム内ではステータスを<evilMult>倍にします。
+			* 次のステータスアップグレードに必要なキル数: <killReq>
+		'''
+	BloodyVeinStack: 次のレベルまでの真紅のキル数
+	PineapplePet:
+		'''
+		- 食べ物アイテムの旨い飯バフ特性を変更します。
+			* 旨い飯バフのステージを+1増加させます。
+			* 旨い飯バフの持続時間は基本量の半分になります。
+			* この上なく満腹バフは至高の満腹バフになり、さらに効果が向上します。
+			* +<def>防御、<crit>%クリティカル、<dmg>%ダメージ、+<sumKb>召喚KB、%<moveSpd>移動速度、%<miningSpd>採掘速度
+			* 下位の旨い飯バフは至高の満腹バフを上書きできません。
+		- ペットがアクティブな間、旨い飯バフ恩恵の追加50%を付与します。
+		'''
+	PlagueCaller:
+		'''
+		- ローグヒット時、敵とその周囲は与えたダメージの割合のスタックを保持します。
+			* 主要ターゲットは<primaryPerc>%スタックし、<hitAoE>ブロック内の敵は与えたダメージの<surroundingPerc>%スタックします。
+			* スタックは<stackDuration>秒間ターゲットに残り、新しいスタックを得るとタイマーがリフレッシュされます。
+		- ペットアビリティキー(<keybind>)を押すと<detonateRadius>ブロック内のすべての敵からすべてのスタックを爆発させます。
+			* <cooldown>秒のクールダウン、爆発した敵にPlagueと<plagueDuration>秒間<slow>%鈍足を適用します。
+		'''
+	PlagueCallerStack: 近くの爆発可能な総ダメージ
+	McNuggets:
+		'''
+		- ペットアビリティキー(<keybind>)を押して再誕アビリティを使用します。再誕中、以下の効果を獲得します:
+			* 不足体力と同じ量のシールドを獲得します。
+			* <dmgRebirth>%ダメージ、<defRebirth>防御力、<msRebirth>%移動速度を獲得します。
+			* 攻撃は<fireTime>秒間竜の炎を付与します。
+			* 再誕効果は<rebornDuration>秒間持続します。
+			* すべてのバフ量と持続時間は、アビリティを使用した体力に応じて最大300%まで増加できます。
+			* 効果増幅は体力が低いほどより有用で、25% hpで最大の可能性に達します。
+			* 効果が切れた後、初期シールドと同じ量のダメージを受けますが、シールドはダメージを防げます。
+			* 再誕アビリティは<cooldown>分のクールダウンがあります。
+		- いつでも死亡した場合、死は<delaySec>秒間遅延されます。
+			* ただし、これは完全に回復しますが、その後必ず死亡します。
+		'''
+	McNuggetsStack: 残りの再誕持続時間
+	McNuggetsDelayStack: 死亡までの残り時間
+	YharonReborn: 再誕!!
+	YharonDelay: ヤーロンの息子があなたの死を遅らせています！
+	YharonDeath1: <name>は炎を使い果たし、残ったのは灰だけだ。
+	YharonDeath2: <name>はヤーロンによって彼の子供を虐待した罰を受けた。
+	YharonDeath3: ヤーロンの息子は十分な能力がなく、<name>の死をこれ以上遅らせることができなかった。
+	YharonDeath4: <name>は手遅れになる前に再誕を学ぶべきだった。
+	YharonDeath5: <name>はヤーロンから与えられた一時的な力を抑えきれなかった。
+	YharonDeath6: ヤーロンの息子は<name>のために悲しんでいる。
+	YharonDeath7: 再誕の力は永遠の不死鳥だけが扱うべきで、<name>はそれを扱う者ではなかった。
+	YharonDeath8: <name>はナゲットを食べようとした???
+	BrimstoneJewel:
+		'''
+		- あなたのヒットは確率に関係なく、常にクリティカルヒットします。
+		- クリティカルダメージを<critDmgReduce>%減少させますが、クリティカル率の<chanceToDmg>%分増加させます。
+			* 100%を超えるクリティカル率もクリティカルダメージを増加させます。
+		- すべての武器に、武器の使用時間x2に等しいマナコストを追加します。
+			* 魔法武器は代わりにマナコストが<magicCost>%増加します。
+			* 召喚師は鞭のみが上記のすべての効果から恩恵を受けます。
+			* チャネリングするものやツールである武器は恩恵を受けません。
+		- マナ酔いは魔法だけでなく、すべての影響を受けるダメージを減少させます。
+		'''
+	BrimstoneJewelStack: ペットによるクリティカルダメージ修飾値
+	ScalManaSicknessExtraText:
+		'''
+		また、ミニオンとチャネリング武器を除く
+		すべての他のダメージを同じ量だけ減少させます。
+		'''
+	HermitsBoxofOneHundredMedicines:
+		'''
+		- ペットアビリティキー(<keybind>)を押して薬を消費します。
+		- <flatHeal> + 最大体力の<percHeal>%を回復しますが、
+			* これは<cooldown>秒のクールダウンがあります。
+			* クールダウン中、与えるすべてのダメージを<damageMult>倍にします。
+		'''
+}
+
+SimpleTooltips: {
+	ForgottenDragonEgg:
+		'''
+		- ペットアビリティキー(<keybind>)を押すと次のヒットが爆発します。
+			* 爆発はヒットした敵を燃焼させ、低体力の敵は処刑されます。
+				* 発動ヒット、爆発ヒット、処刑はスタックを付与します。
+			* スタックはこのペットの効果を増加させ、永続的で無限にスタックできます。
+		'''
+	Astrophage:
+		'''
+		- 非常に近い敵はアストラル感染を付与されます。
+		- アストラル感染を持つ近くの敵は鈍足になります。
+			* この鈍足中に死亡すると、感染を拡散します。
+		'''
+	BearsEye:
+		'''
+		- 体力が低くなるとシールドを付与します。
+		- ローグダメージ、ステルスストライクダメージ、ステルス獲得を増加させます。
+		'''
+	CharredRelic:
+		'''
+		- 体力が低い時、ダメージ軽減を付与します。
+		- ダメージを受けると攻撃者に反射し、火球を生成します。
+		'''
+	CosmicPlushie:
+		'''
+		[c/<color>:感情的に] <class>
+		- 周りのすべてのクリーチャーに非常に健全なダメージを与えます。
+			* あなたが死んだ時。
+			* キャラクターがハードコアの時のみ。
+			* はい、これはトロールペットです、やらなければなりませんでした。
+		'''
+	TrashmanTrashcan:
+		'''
+		- ペットアビリティキー(<keybind>)を押してゴミ箱を投げます。
+			* ダメージを与え、敵を出血させます。
+			* 衝撃時、半径内の敵を鈍足と混乱を与えます。
+		'''
+	TheEtomer:
+		'''
+		- (<abilitySwitch>)を押してアビリティを切り替え、(<abilityUse>)で発動します。
+		- 次のヒットの敵の上で発動します。
+		- [c/FFFF00:Thunder Waveは敵を鈍足にします。]
+		- [c/0f5e9c:Hydro Pumpは単体ダメージを与え、水浸しデバフを適用します。]
+		- [c/ff5a00:Overheatは範囲ダメージを与え、燃えている！デバフを適用します。]
+		- [c/3fd0d4:Blizzardは継続的な範囲ダメージを与え、鈍足にし、凍結デバフを適用します。]
+		- [c/34a203:Leaf Stormは円状に葉を撃ち出し、広範囲にダメージを与えます。]
+		- [c/cfecf7:Air Slashは範囲ダメージを与え、強力なノックバックを適用します。]
+		'''
+	AbyssShellFossil:
+		'''
+		- 持っているヘイトに応じて、防御または攻撃ステータスを獲得します。
+			* ヘイト統計が正の場合、防御力、体力、ダメージ軽減獲得、移動速度損失
+			* ヘイト統計が負の場合、ダメージ、クリティカル率、防御貫通、移動速度獲得
+		'''
+	GeyserShell:
+		'''
+		- 立ち止まり時のステルス回復と最大ステルスを増加させます。
+		- ステルスストライクダメージを増加させます。
+		- ステルス攻撃はあなたとターゲットの周りにAoE酸攻撃を発動します。
+		'''
+	FoxDrive:
+		'''
+		- ペットアビリティキー(<keybind>)を押してすべてのデバフを除去します。
+			* すべてのデバフを除去した後、短時間アイテムを使用できません。
+		'''
+	PrimroseKeepsake:
+		'''
+		- 体力が低くなるとシールドを付与します。
+		- ローグステルス獲得を増加させます。
+		- 敵を倒すと次のローグヒットのための力を吸収します。
+			* このボーナスダメージを発動するとシールドを付与します。
+		'''
+	RomajedaOrchid: - 敵を倒すと次のローグヒットのための力を吸収します。
+	JoyfulHeart:
+		'''
+		- 受けるダメージが少なくなり、与えるダメージが少なくなります。
+		- ペットアビリティキー(<keybind>)を押して近くのすべてのエンティティを回復します。
+		'''
+	Levi:
+		'''
+		- 釣り力に応じて、ダメージと防御力を獲得します。
+		- Angler防具ピースはボーナス防御力とクリティカル率を獲得します。
+		'''
+	RottingEyeball:
+		'''
+		- 不浄の敵により多くのダメージを与えます。
+		- より多くのダメージを受けますが、不浄の敵からは除きます。
+		- 不浄の敵のキル数は永続的にカウントされ、
+			キル数に応じて攻撃ステータスを獲得します。
+		'''
+	BloodyVein:
+		'''
+		- 真紅の敵からより少ないダメージを受けます。
+		- より少ないダメージを与えますが、真紅の敵には除きます。
+		- 真紅の敵のキル数は永続的にカウントされ、
+			キル数に応じて防御ステータスを獲得します。
+		'''
+	PineapplePet:
+		'''
+		- 食べた食べ物アイテムの旨い飯バフのステージを増加させますが、持続時間を減少させます。
+		- 旨い飯バフの効果を増加させます。
+		'''
+	PlagueCaller:
+		'''
+		- ローグヒットは主要ターゲットと周囲の敵に与えたダメージの割合を蓄積します。
+		- ペットアビリティキー(<keybind>)を押してすべての蓄積ダメージを爆発させます。
+		'''
+	McNuggets:
+		'''
+		- ペットアビリティキー(<keybind>)を押してRebirthアビリティを使用します。
+			* ダメージ、防御力、移動速度を獲得します。
+			* 攻撃は竜の炎デバフを付与します。
+			* すべての効果は不足体力でスケールします。
+			* 不足体力と等しいシールドを与えます。
+			ただし、持続時間終了時にこのシールドをダメージとして受けます。
+		- 致命的なダメージを受けると、死はしばらく遅延されます。
+		'''
+	BrimstoneJewel:
+		'''
+		- チャネリングではない武器と召喚以外の武器を変更します。
+			* すべてのヒットがクリティカルになります。
+			* クリティカルダメージを失いますが、クリティカル率をクリティカルダメージに変換します。
+			* 武器にマナコストを追加します。
+		- マナ酔いはすべてのダメージを減少させます。
+		'''
+	HermitsBoxofOneHundredMedicines:
+		'''
+		- ペットアビリティキー(<keybind>)を押して回復します。
+		- このアビリティがクールダウン中は与えるダメージが少なくなります。
+		'''
+}
+
+Buffs: {
+	TheGrandNourishmentTooltip: すべてのステータスに優れた改善！
+	TheGrandNourishmentDisplayName: 至高の満腹
+	BleedOutTooltip: 出血しています！
+	BleedOutDisplayName: 出血
+}
+
+Items: {
+	DragonPracticeIcon: {
+		DisplayName: Dragon Practice
+		Tooltip: Akato Petのツールチップに表示されます。アイコンクレジット: Riot Games。
+	}
+}
+
+Projectiles: {
+	RotomBlizzard.DisplayName: Blizzard
+	Trashcan.DisplayName: Trashcan
+}

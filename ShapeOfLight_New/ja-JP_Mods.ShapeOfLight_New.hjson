@@ -1,0 +1,352 @@
+Configs: {
+	HSL_ShaderInfo_PreSetting_Style: {
+		Monochrome: {
+			Label: モノクロ
+		}
+
+		ForestTone: {
+			Label: 新緑色
+		}
+
+		JapaneseStyle: {
+			Label: 日本風
+		}
+
+		KodakFilm: {
+			Label: コダックフィルム
+		}
+
+		CyberPunk: {
+			Label: サイバーパンク
+		}
+
+		StoryTeller: {
+			Label: 語り手のフィルター
+		}
+
+		FujiFilmSim: {
+			Label: 富士フイルムシミュレーション
+		}
+
+		CoolWhite: {
+			Label: 白トーン
+		}
+
+		Cinematic: {
+			Label: 映画のトーン
+		}
+
+		FadedVintage: {
+			Label: 色褪せた骨董品
+		}
+
+		HighContrast: {
+			Label: ハイコントラスト
+		}
+
+		WarmGold: {
+			Label: 温かい金色の夕暮れ
+		}
+
+		DEFAULT: {
+			Label: デフォルト
+		}
+
+		Tooltip: シェーダープリセット
+	}
+
+	HSL_ShaderInfo: {
+		UsePreSetting: {
+			Tooltip: ""
+			Label: シェーダープリセット
+		}
+
+		temperature: {
+			Tooltip: ""
+			Label: 色温度
+		}
+
+		sharpness: {
+			Tooltip: ""
+			Label: シャープネス
+		}
+
+		V_Value: {
+			Tooltip: ""
+			Label: 明度
+		}
+
+		H_Value: {
+			Tooltip: ""
+			Label: 色相
+		}
+
+		S_Value: {
+			Tooltip: ""
+			Label: 彩度
+		}
+
+		HSL_Key: {
+			Tooltip: パフォーマンスに悪影響を与えます
+			Label: 効果を有効化
+		}
+
+		Tooltip: Color Palette
+	}
+
+	KZ_Configs_ScreenEffect: {
+		hSL_ShaderInfo: {
+			Tooltip: ""
+			Label: カラーパレット
+		}
+
+		DisplayName: "[c/75FF60: スクリーンフィルター]の設定"
+	}
+
+	KZ_Configs_Dark: {
+		DarkKey: {
+			Tooltip: このモードは開発途中です
+			Label: 効果を有効化
+		}
+
+		DisplayName: "[c/C2C2C2: ダーク] ビジョン"
+	}
+
+	WallDefinition: {
+		Tooltip: ""
+
+		DisplayName: {
+			Tooltip: ""
+			Label: 表示名
+		}
+
+		IsUnloaded: {
+			Tooltip: ""
+			Label: 未ロード
+		}
+	}
+
+	SpecialWallInfo: {
+		LightColor: {
+			Tooltip: アルファ値は設定不要です
+			Label: 色パラメーター
+		}
+
+		SpecialWall: {
+			Tooltip: ""
+			Label: 壁
+		}
+
+		Tooltip: 壁データ
+	}
+
+	SpecialTileInfo: {
+		LightColor: {
+			Tooltip: アルファ値は設定不要です
+			Label: 色パラメーター
+		}
+
+		SpecialTile: {
+			Tooltip: ""
+			Label: タイル
+		}
+
+		Tooltip: タイルデータ
+	}
+
+	KZ_Configs_Light_SpecialTile: {
+		UseDefaultSetting: {
+			Tooltip: 予め定義された特殊タイルを有効化します
+			Label: デフォルトの特殊タイルを有効化
+		}
+
+		WallList: {
+			Tooltip: ""
+			Label: 壁
+		}
+
+		TileList: {
+			Tooltip: ""
+			Label: タイル
+		}
+
+		ThroughGlass: {
+			Tooltip: 一部のタイルは光を透過/着色します。[c/75FF64: 1未満の数値は余分なパフォーマンスを消費します]
+			Label: 特殊タイルの不透明度
+		}
+
+		DisplayName: "[c/FAC800: 日光と影] - 特殊タイルの設定"
+	}
+
+	KZ_Configs_Bloom: {
+		PartBloom_ToTile2: {
+			Tooltip: ""
+			Label: "[エンティティの発光効果] タイルの発光の適用"
+		}
+
+		WholeBloom_ExtraValue: {
+			Tooltip: 基本的に暗い場所に適用されます
+			Label: "[全体的な発光効果] 暗部補正値"
+		}
+
+		WholeBloom_Value: {
+			Tooltip: パフォーマンスに大きな影響はありません
+			Label: "[全体的な発光効果] シングルパス強度"
+		}
+
+		WholeBloom_Step: {
+			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
+			Label: "[全体的な発光効果] イテレーション数"
+		}
+
+		PartBloom_ExtraStep: {
+			Tooltip: "[c/75FF64: パフォーマンスに多大な悪影響を与えます]"
+			Label: "[エンティティの発光効果] 追加のイテレーション数"
+		}
+
+		PartBloom_AddValuePerTime: {
+			Tooltip: パフォーマンスに大きな影響はありません
+			Label: "[エンティティの発光効果] シングルパス強度"
+		}
+
+		PartBloomKey: {
+			Tooltip: ""
+			Label: "{エンティティの発光効果} 効果を有効化"
+		}
+
+		DisplayName: "[c/0ADCDC: 発光]の設定"
+	}
+
+	KZ_LightMode: {
+		Spicial: {
+			Label: カスタム
+		}
+
+		Environment: {
+			Label: 環境
+		}
+
+		Time_Orange: {
+			Label: 時刻 (黄)
+		}
+
+		Time_White: {
+			Label: 時刻 (白)
+		}
+
+		Tooltip: 新規プレイヤーには[時刻]をおすすめします
+	}
+
+	KZ_Configs_Light: {
+		ObstacleDeclineValue: {
+			Tooltip: 太陽光が壁を貫通する現象を防ぎます
+			Label: 太陽光が遮られた際の影の減光値
+		}
+
+		ComputDistance: {
+			Tooltip: "[c/75FF64: CPUへの負荷を軽減]、遅延が発生する可能性があります"
+			Label: パラメータ計算間隔（フレーム単位）
+		}
+
+		ColorDeclineValue: {
+			Tooltip: 光の色反映後に明るくなりすぎるのを防ぐ
+			Label: 光色の減光率
+		}
+
+		SpecialMode_DISC: {
+			Tooltip: ライトモードが[カスタム]の際に適用されます。パーティの時間よ！
+			Label: ディスコモード
+		}
+
+		CenterWhite: {
+			Tooltip: ""
+			Label: センターハイライト
+		}
+
+		DrawItem: {
+			Tooltip: ""
+			Label: アイテムに影を適用
+		}
+
+		DeclineValue: {
+			Tooltip: ""
+			Label: 影の追加の減光値
+		}
+
+		SpecialMode_L: {
+			Tooltip: ライトモードが[カスタム]の際に適用されます
+			Label: 明度
+		}
+
+		SpecialMode_S: {
+			Tooltip: ライトモードが[カスタム]の際に適用されます
+			Label: 彩度
+		}
+
+		SpecialMode_H: {
+			Tooltip: ライトモードが[カスタム]の際に適用されます
+			Label: 色相
+		}
+
+		BossActive_LightValue: {
+			Tooltip: "[光の総量]との積が適用されます"
+			Label: ボス戦時での光の総量
+		}
+
+		ExtraLightValue: {
+			Tooltip: ""
+			Label: 光の総量
+		}
+
+		ClampColor_TargetValue: {
+			Tooltip: 暗さの最小値を適用します
+			Label: 最小暗さ制限
+		}
+
+		LightDistance: {
+			Tooltip: ""
+			Label: 光の半径
+		}
+
+		MaxLength: {
+			Tooltip: 影の明るさと長さを変更します
+			Label: 影の強度
+		}
+
+		LightMode: {
+			Tooltip: ""
+			Label: ライトモード
+		}
+
+		DrawPlayer: {
+			Tooltip: ""
+			Label: プレイヤーに影を適用
+		}
+
+		DrawProj: {
+			Tooltip: ""
+			Label: 発射体に影を適用
+		}
+
+		DrawNPC: {
+			Tooltip: ""
+			Label: NPCに影を適用
+		}
+
+		LightKey: {
+			Tooltip: ""
+			Label: 効果を有効化
+		}
+
+		DisplayName: "[c/FAC800: 日光と影]の設定"
+	}
+}
+
+Text:
+	'''
+	[c/FAC800:Shape of Light Mod]へようこそ！
+	初めての方は[c/F0B4FF:設定を確認してください。]
+	[c/75FF60: 目立たないエフェクト、過度なエフェクト、ラグ等]に遭遇した場合、[c/75FF60: 設定にて調整してください。]
+	[c/0ADCDC:バグを発見した場合、Mod作者のSteamまたはBilibiliアカウントに連絡してください。]
+	では、楽しんで！
+	'''

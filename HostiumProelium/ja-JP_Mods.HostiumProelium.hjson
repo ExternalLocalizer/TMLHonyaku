@@ -1,3 +1,10 @@
+Achievements: {
+	DefeatGunswordSlime: {
+		Description: 奇妙な武器を操る脅威、ガンソード・スライムを撃破する。
+		FriendlyName: そのスライム、銃と剣を併せ持つ
+	}
+}
+
 Buffs: {
 	FriendlyBulletBallBuff: {
 		DisplayName: フレンドリー弾丸
@@ -55,6 +62,11 @@ NPCs: {
 
 	GunswordSlime: {
 		DisplayName: ガンソード・スライム
+
+		BossChecklistIntegration: {
+			EntryName: ガンソード・スライム
+			SpawnInfo: "[i:HostiumProelium/GunswordReplica] を使うか、自然発生で遭遇する"
+		}
 	}
 
 	LostSword: {

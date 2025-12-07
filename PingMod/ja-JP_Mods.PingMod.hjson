@@ -1,0 +1,38 @@
+Configs: {
+	PingIconConfig: {
+		DisplayName: Ping Icon 設定
+
+		IconStyle: {
+			Label: アイコンスタイル
+			Tooltip: ""
+		}
+
+		PingSyncTimer: {
+			Label: ピング同期タイマー
+			Tooltip: ピング値を同期するまでの秒数を変更します
+		}
+	}
+}
+
+Common: {
+	PingIconNames: {
+		BasicPurple: 紫
+		Basic: ベーシック
+		DSi: ニンテンドーDSi
+		Gold: 金
+		BasicLight: ベーシックライト
+		Fancy: 金(ファンシー)
+		Minecraft: マインクラフト
+	}
+
+	NoNameFoundWarning: アイコン名が見つからない！
+	IconConfigText: ピング機能を設定する
+	ServerPanelConfigText: サーバーパネルの設定
+	PingText: 更新間隔（秒）
+	PingUIHoverText:
+		'''
+		右クリックで設定を開く
+		左クリックを押し続けてドラッグ
+		'''
+}
+

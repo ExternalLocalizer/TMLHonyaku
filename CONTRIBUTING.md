@@ -28,7 +28,8 @@ Modを新しく翻訳した際や更新した際に必ず編集してくださ�
 | internal_name | tModLoaderが利用する内部名。<br>ファイル名の`ja-JP_Mods.XXX.hjson`の`XXX`、無ければhjsonファイル内の`Mods`の一つ中にあるキーの名前です。 |
 | version       | バージョン。ゲーム内で確認するか、Workshopから変更履歴を見ると書いてあります。                                               |
 | translators   | 翻訳者の名前。複数人いる場合は半角スペースなどで区切って書いてください。                                                     |
-| note          | メモ。なにか書き残しておきたいことがあれば書いてください。                                                                   |
+| internal_note | 翻訳者向けメモ。なにかほかの翻訳者に書き残しておきたいことがあれば利用してください。 |
+| display_note  | プレイヤー向けのメモ。JpPackでModListのアイコンにカーソルを合わせると表示されます。<br>翻訳不可部分が多い場合などがあれば書いておいてください。|
 
 ### hjson
 
@@ -48,7 +49,7 @@ Modの内部名のフォルダを作り、その中にhjsonファイルを作成
 > Mods.XXXから始まらないキーを含む場合は、例外としてこれに従う必要はありません。
 
 
-> ダメな例: ``CalamityMod/ja-JP_Mods.hjson``
+> ダメな例: ``CalamityMod/ja-JP.hjson``
 > 
 > ```hjson
 > Mods: {

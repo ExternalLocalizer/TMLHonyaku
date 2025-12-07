@@ -3,6 +3,10 @@ MapObject: {
 }
 
 Tiles: {
+	BirchChest: {
+		MapEntry: バーチの宝箱
+	}
+
 	MicrobirchSapling: {
 		MapEntry: マイクロバーチの苗木
 	}
@@ -241,6 +245,11 @@ Items: {
 
 	ArborLeafBlock: {
 		DisplayName: アーバーの葉
+		Tooltip: ""
+	}
+
+	BirchChestBlock: {
+		DisplayName: バーチの宝箱
 		Tooltip: ""
 	}
 }

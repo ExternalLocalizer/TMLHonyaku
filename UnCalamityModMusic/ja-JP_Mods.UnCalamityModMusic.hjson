@@ -4,6 +4,11 @@ Configs: {
 		MusicTogglesHeader: BGM切り替え
 		ConditionChangesHeader: コンディション変更
 
+		WorkshopRange: {
+			Label: "[i:WorkBench] ワークショップの範囲"
+			Tooltip: ワークショップのテーマが再生される範囲を10ブロックから50ブロックの間まで変更します
+		}
+				
 		WorkshopThemes: {
 			Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] ワークショップのテーマ"
 			Tooltip:
@@ -14,19 +19,14 @@ Configs: {
 		}
 
 		HardmodeInterlude: {
-			Label: "[i:UnCalamityModMusic/HardmodeInterludeMusicBox] ハードモード突入時BGM"
+			Label: "[i:UnCalamityModMusic/HardmodeInterludeMusicBox] ハードモード突入時のBGM"
 			Tooltip:
 				'''
 				ハードモードに突入した時に流れるBGMを切り替えます
 				クレジットを無効にしたい場合は別のNo In-game Credits MODを使用してください
 				'''
 		}
-
-		AbyssLayer3Alt: {
-			Label: "[i:UnCalamityModMusic/AbyssLayer3AltMusicBox] 深淵3層の追加楽曲"
-			Tooltip: 深淵3層のBGMを代替のものに切り替えます
-		}
-
+		
 		PrioritizeInfernumMusic: {
 			Label: "[i:WallOfFleshGoatMountItem] InfernumのBGMを優先"
 			Tooltip:
@@ -80,9 +80,9 @@ Configs: {
 }
 
 Items: {
-	AbyssLayer3AltMusicBox: {
-		DisplayName: オルゴール (深淵 - 3層 代替)
-		Tooltip: Heart Plus Up!制作の「R'lyehian Depths」を再生する
+	AetherMusicBox: {
+		DisplayName: オルゴール (エーテル)
+		Tooltip: TheForge129制作の「Met by the Stars」を再生する
 	}
 
 	BloodMoonDeathMusicBox: {
@@ -128,6 +128,11 @@ Items: {
 	DesertMusicBox: {
 		DisplayName: オルゴール (砂漠)
 		Tooltip: Heart Plus Up!制作の「Scorched to Dust」を再生する
+	}
+
+	DukeFishronMusicBox: {
+		DisplayName: オルゴール (フィッシュロン)
+		Tooltip: TYESKI制作の「Apex Outlaw」を再生する
 	}
 
 	DungeonMusicBox: {
@@ -190,6 +195,11 @@ Items: {
 		Tooltip: Salvati制作の「The Resurrection of a Cruel World」を再生する
 	}
 
+	JungleDayMusicBox: {
+		DisplayName: オルゴール (ジャングル)
+		Tooltip: Heart Plus Up!制作の「Nature's Reprieve」を再生する
+	}
+
 	KingSlimeMusicBox: {
 		DisplayName: オルゴール (キングスライム)
 		Tooltip: Heart Plus Up!制作の「Gelatinous Monarch」を再生する
@@ -229,14 +239,29 @@ Items: {
 		Tooltip: Heart Plus Up!制作の「waves」を再生する
 	}
 
+	PumpkinMoonMusicBox: {
+		DisplayName: オルゴール (パンプキンムーン)
+		Tooltip: TYRANT制作の「Fresh for the Harvest」を再生する
+	}
+
+	RainDayMusicBox: {
+		DisplayName: オルゴール (雨 - 昼)
+		Tooltip: Heart Plus Up!制作の「downpour」を再生する
+	}
+
 	RainLegacyMusicBox: {
 		DisplayName: オルゴール (雨 - 旧バージョン)
 		Tooltip: Heart Plus Up!制作の「Grey Sky」を再生する
 	}
 
-	RainMusicBox: {
-		DisplayName: オルゴール (雨)
-		Tooltip: Heart Plus Up!制作の「downpour」を再生する
+	RainNightMusicBox: {
+		DisplayName: オルゴール (雨 - 夜)
+		Tooltip: Heart Plus Up!制作の「downtime」を再生する
+	}
+
+	SandstormMusicBox: {
+		DisplayName: オルゴール (砂嵐)
+		Tooltip: TYESKI制作の「terracotta」を再生する
 	}
 
 	SkeletronMusicBox: {
@@ -348,70 +373,77 @@ Menus: {
 ModSupport: {
 	MusicDisplay: {
 		SongNames: {
-			AbyssLayer3Alt: R'lyehian Depths
-			Space: Starry Ascent
-			Underworld: Descent Into Hell's Fury
-			Meteorite: The Abomination's Omen
-			WorkshopTier6: Master's Forge
-			WorkshopTier5: False Gods and Ancient Elements
-			WorkshopTier4: Fruits of Your Labor
-			WorkshopTier3: Mythic Metals and Enchanted Fires
-			WorkshopTier2: The Sky and the Depths
-			WorkshopTier1: Metal, Wood, and Fire
-			TownNight: Moonlit Haven
-			TownNight_Noiseless: Moonlit Haven
-			TownDay: Haven in the Sunlight
-			Dungeon: Chambers of the Tyrant
-			GlowingMushroomFields: Psychedelic Depths
+			Aether: Met by the Stars
+			BloodMoon: Congealing Shadows
+			BloodMoonDeath: Sanguine Eclipse
+			BrainofCthulhu: Madness Incarnate
 			Corruption: Writhing Shadows
 			CorruptionUnderground: Between the Shadows
 			Crimson: Clotted Lands
 			CrimsonUnderground: Inside the Beast
-			Geodes: Amidst the Minerals
-			Tundra: Frozen Over
-			TundraUnderground: Inside the Glaciers
 			Caverns: Nearing the Inferno
-			Underground: Under the Earth
-			OceanNight: serene tides
-			OceanDay: shoreline
 			Desert: Scorched to Dust
-			ForestNight: Laze of the Sky
-			ForestDayEvening: A Legend's Strife (Grief)
-			ForestDayAfternoon: A Legend's Strife (Lament)
-			ForestDayMorning: A Legend's Strife (Epiphany)
-			ForestDayDawn: A Legend's Strife (Acceptance)
-			MoonLord: Virtuous Radiance
-			WallofFlesh: Fated Insurrection
-			Skeletron: Wrath From the Crypt
-			BrainofCthulhu: Madness Incarnate
+			DukeFishron: Apex Outlaw
+			Dungeon: Chambers of the Tyrant
 			EaterofWorlds: Menace of the Chasms
 			EyeofCthulhu: Bloodshot Barrage
+			FalseEpilogue: The Memory of a Cruel World
+			ForestDayAfternoon: A Legend's Strife (Lament)
+			ForestDayDawn: A Legend's Strife (Acceptance)
+			ForestDayEvening: A Legend's Strife (Grief)
+			ForestDayMorning: A Legend's Strife (Epiphany)
+			ForestNight: Laze of the Sky
+			Geodes: Amidst the Minerals
+			GlowingMushroomFields: Psychedelic Depths
+			HardmodeInterlude: The Resurrection of a Cruel World
+			JungleDay: Nature's Reprieve
 			KingSlime: Gelatinous Monarch
+			LanternFestival: Serenity
+			Meteorite: The Abomination's Omen
+			MoonLord: Virtuous Radiance
+			OceanDay: shoreline
+			OceanNight: serene tides
+			OceanRain: waves
+			PumpkinMoon: Fresh for the Harvest
+			RainDay: downpour
+			RainLegacy: Grey Sky
+			RainNight: downtime
+			Sandstorm: terracotta
+			Skeletron: Wrath from the Crypt
+			SlimeRain: Gelatin Showers
+			Space: Starry Ascent
 			TorchGod: Trial by Fire
 			TorchGodRevengeance: Trial by Fire
-			BloodMoon: Congealing Shadows
-			BloodMoonDeath: Sanguine Eclipse
-			SlimeRain: Gelatin Showers
-			OceanRain: waves
-			TownRain: Haven in Overcast
-			Rain: downpour
+			TownDay: Haven in the Sunlight
+			TownNight: Moonlit Haven
+			TownNight_Noiseless: Moonlit Haven
 			TownParty: Celebration Haven
-			LanternFestival: Serenity
-			HardmodeInterlude: The Resurrection of a Cruel World
-			FalseEpilogue: The Memory of a Cruel World
-			RainLegacy: Grey Sky
+			TownRain: Haven in Overcast
+			Tundra: Frozen Over
+			TundraUnderground: Inside the Glaciers
+			Underworld: Descent Into Hell's Fury
+			Underground: Under the Earth
+			WallofFlesh: Fated Insurrection
+			WorkshopTier1: Metal, Wood, and Fire
+			WorkshopTier2: The Sky and the Depths
+			WorkshopTier3: Mythic Metals and Enchanted Fires
+			WorkshopTier4: Fruits of Your Labor
+			WorkshopTier5: False Gods and Ancient Elements
+			WorkshopTier6: Master's Forge
 		}
 
 		Authors: {
+			Forge: by TheForge129
 			HeartPlusUp: by Heart Plus Up!
 			HeartPlusUpFeature1: by Heart Plus Up! and novaGnomes
 			HeartPlusUpFeature2: by Heart Plus Up! and SkippyZii
-			HeartPlusUpFeature3: by Heart Plus Up! and Universe
+			HeartPlusUpFeature3: by Heart Plus Up! and Tyrant
+			psykomatic: by psykomatic
 			Salvati: by Salvati
 			SkippyZii: by SkippyZii
 			Thriplerex: by Thriplerex
-			Universe: by Universe
-			psykomatic: by psykomatic
+			TYESKI: by TYESKI
+			TYRANT: by TYRANT
 		}
 	}
 }

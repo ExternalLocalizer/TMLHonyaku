@@ -1,0 +1,110 @@
+Items: {
+	HolyKnightRelic: {
+		DisplayName: 月の報復の印章
+		Tooltip:
+			'''
+			[c/327DFF:月のアイテム]
+			最大ライフが[c/32AD09:200]増加し、防御力が[c/32AD09:20]増加し、ライフ自然回復力が[c/32AD09:10]増加し、
+			チーム内の生きているプレイヤー1ごとに防御力が[c/32AD09:25]増加
+			合計[c/EB3434:300]以上のダメージ（防御力で軽減される前）を受けると[c/EB9234:3]本の槍で[c/EB9234:反撃]する 
+			槍はそれぞれ[c/EB3434:1500%]のダメージを与える
+			'''
+	}
+
+	ManaCore: {
+		DisplayName: ルナオーバーロードコア
+		Tooltip:
+			'''
+			[c/327DFF:月のアイテム]
+			マナの最大値が[c/32AD09:20]になるが減少分が最大ライフに加算される
+			また、以下の効果を得る
+			魔法武器の固定ダメージが[c/32AD09:50%]増加
+			防御力が[c/32AD09:15%]増加
+			ライフ自然回復力が[c/32AD09:8%]増加
+			[c/32AD09:武器がマナを消費しなくなる]
+			'''
+	}
+
+	MoonFragment: {
+		DisplayName: 月の断片
+		Tooltip: "[c/327DFF:月のアイテム] 「ムーンロードの力を秘めている」"
+	}
+
+	PaladinBar: {
+		DisplayName: パラディンのインゴット
+		Tooltip: ハードモードのダンジョンに出現するパラディンが落とす
+	}
+
+	RangedLunar: {
+		DisplayName: ルナバーストモジュール
+		Tooltip:
+			'''
+			[c/327DFF:月のアイテム]
+			[c/EB9234:遠距離]武器に特殊効果を追加
+			元のダメージの[c/EB3434:60%]の追加ダメージを与える
+			敵にマークを付け、死亡時に爆発させる 
+			爆発のダメージは[c/EB3434:400%]+最大ライフの[c/EB3434:15%]となる
+			無限にスタックするデバフを与える
+			'''
+	}
+
+	SoulbindingAmulet: {
+		DisplayName: 月の亡霊のお守り
+		Tooltip: ""
+		TooltipSmall:
+			'''
+			[c/327DFF:月のアイテム]
+			召喚できるミニオンの数を[c/32AD09:3]体増やし、召喚ダメージが[c/32AD09:25%]増加し、
+			鞭の攻撃範囲を[c/32AD09:25%]拡大し、鞭の攻撃速度を[c/32AD09:25%]上昇
+			召喚武器で攻撃した敵に[c/EB9234:ソウルバウンド]を与え、倒したときに魂を開放するようになる
+			魂を消費して回復し、ソウルバウンドを受けている敵に攻撃するレイスを召喚する
+			[c/EB9234:Shiftで詳細を見る]
+			'''
+		TooltipBig:
+			'''
+			[c/327DFF:月のアイテム]
+			召喚できるミニオンの数を[c/32AD09:3]体増やし、召喚ダメージが[c/32AD09:25%]増加し、
+			鞭の攻撃範囲を[c/32AD09:25%]拡大し、鞭の攻撃速度を[c/32AD09:25%]上昇
+			召喚武器で攻撃した敵に[c/EB9234:ソウルバウンド]を与え、倒したときに魂を開放するようになる
+			魂を消費するレイスを召喚し、1つの魂ごとにライフを[c/32AD09:20]回復し、[c/EB9234:ソウルバウンド]を受けている敵に、
+			[c/EB3434:75%] + [c/EB3434:2%]のダメージを与え、1つの魂ごとにダメージが[c/EB3434:475%]まで増加
+			'''
+		SoulsConsumed: 消費した魂: [c/EB9234:{0}] = 合計ダメージ: [c/EB3434:{1}%]
+	}
+
+	LunarSovereignFist: {
+		DisplayName: ルナソブリンフィスト
+		Tooltip:
+			'''
+			[c/327DFF:月のアイテム]
+			近接ダメージが[c/32AD09:25%]増加し、近接攻撃速度が[c/32AD09:25%]上昇し、
+			近接クリティカル率が[c/32AD09:20%]上昇
+			近接武器で攻撃した敵の近接ダメージ耐性を[c/EB3434:5%]下げ、最大で[c/EB3434:25%]下げる
+			その敵に更に攻撃すると敵の防御力が[c/EB3434:10]減少し、最大で[c/EB3434:50]減少させる
+			近接武器の攻撃が命中時、爆発し、元のダメージの[c/EB3434:75%]を与える
+			'''
+	}
+}
+
+Projectiles: {
+	HelperWraith.DisplayName: ヘルパーレイス
+	HelperWraithPellets.DisplayName: 魂
+	HelperWraithShot.DisplayName: ヘルパーレイスショット
+}
+
+Buffs: {
+	Stacking: {
+		DisplayName: スタック
+		Description: Mods.PostLunarAcc.Buffs.Stacking.Description
+	}
+
+	EasyModBuff: {
+		Description: Mods.PostLunarAcc.Buffs.EasyModBuff.Description
+		DisplayName: Easy Mod Buff
+	}
+
+	Soulbound: {
+		DisplayName: ソウルバウンド
+		Description: Mods.PostLunarAcc.Buffs.Soulbound.Description
+	}
+}
