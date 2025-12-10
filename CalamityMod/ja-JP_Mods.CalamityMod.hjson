@@ -3,7 +3,7 @@
 Vanilla: {
 	WizardChat: {
 		MentionRoD: 聖なる大地でテレポートするピンクの幻影を見たぞ！もしワシを近くに住まわせてくれるなら、特別な杖を作ることができるはずじゃ。
-		Hardmode: 宇宙に快適さを求めるにはちょっとキビしいかもしれんのう。
+		Hardmode: 宇宙に快適さを求めるのはちょっとキビしいかもしれんのう。
 	}
 
 	WitchDoctorChat: {
@@ -28344,21 +28344,7 @@ DamageClasses: {
 }
 
 Configs: {
-	CalamityConfig: {
-		WikiStatusMessage: {
-			Tooltip: ワールドロード時に流れるOfficial Calamity Wikiを宣伝するステータスメッセージを有効または無効にします
-			Label: "[i:Book] Wikiステータスメッセージ"
-		}
-
-		VanillaCooldownDisplay: {
-			Tooltip:
-				'''
-				Cooldown Rackにバニラデバフのポーション酔いとカオス状態を追加します
-				デバフはバフアレイに表示されるが、より見やすくします
-				'''
-			Label: "[i:HealingPotion] バニラのクールダウンを表示"
-		}
-
+	CalamityServerConfig: {
 		TownNPCsSpawnAtNight: {
 			Tooltip:
 				'''
@@ -28377,13 +28363,18 @@ Configs: {
 			Label: "[i:GuideVoodooDoll] タウンNPCのスポーン率倍率"
 		}
 
-		PlayerRespawnTime_BossAlive: {
+		RemoveReforgeRNG: {
 			Tooltip:
 				'''
-				ボスが生きているときのプレイヤーのリスポーン時間を秒単位で設定します。これはシングルプレイヤーでもマルチプレイでも同様に適用されます
-				ボスが生存していない場合、プレイヤーはシングルプレイヤーでもマルチプレイでも3秒でリスポーンします
+				ゴブリンのよろず屋の武器とアクセサリーのリフォージからランダム性を取り除きます
+				競合を防ぐため、独自にリフォージを変更するMODを使用している場合は無効にしてください
 				'''
-			Label: "[i:Stopwatch] ボス戦闘時のリスポーンタイマー"
+			Label: "[i:TinHammer] リフォージのランダム性の削除"
+		}
+
+		RemoveLavaDropsFromLavaSlimes: {
+			Tooltip: 有効にすると、ラーヴァスライムは溶岩を落とさない新しいラーヴァスライムに置き換わります
+			Label: "[i:LavaWaders] ラーヴァスライムから溶岩のしずくを取り除く"
 		}
 
 		PotionSelling: {
@@ -28393,6 +28384,155 @@ Configs: {
 				特定のポーションは特定のボスを倒した後に販売されます
 				'''
 			Label: "[i:SpelunkerPotion] NPCポーション販売"
+		}
+
+		PlayerRespawnTime_BossAlive: {
+			Tooltip:
+				'''
+				ボスが生きているときのプレイヤーのリスポーン時間を秒単位で設定します。これはシングルプレイヤーでもマルチプレイでも同様に適用されます
+				ボスが生存していない場合、プレイヤーはシングルプレイヤーでもマルチプレイでも3秒でリスポーンします
+				'''
+			Label: "[i:Stopwatch] ボス戦闘時のリスポーンタイマー"
+		}
+
+		NerfExpertDebuffs: {
+			Tooltip:
+				'''
+				Expertモードではデバフの持続時間が2倍（Masterモードでは3倍）になります
+				Calamityはこの設定を有効にすることを前提に設計されています
+				'''
+			Label: "[i:AnkhCharm] デバフ持続時間増加の削除"
+		}
+
+		HigherJumpHeight: {
+			Tooltip:
+				'''
+				プレイヤーの基本ジャンプの高さを10%増加させ、7ブロックジャンプできるようにします
+				Calamityはこの設定を有効にすることを前提に設計されています
+				'''
+			Label: "[i:ShinyRedBalloon] ジャンプの高さ"
+		}
+
+		ForceTownSafety: {
+			Tooltip:
+				'''
+				エキスパートモードとマスターモードでは、敵が町の近くでスポーンしやすくなるため、スポーン率が大幅に低下します
+				これは、生き物を見つけるのが難しくなるなど、意図しない副作用をもたらす可能性があります
+				'''
+			Label: "[i:Sunflower] 街の安全性"
+		}
+
+		FasterTilePlacement: {
+			Tooltip:
+				'''
+				プレイヤーがブロックや壁を配置する速度を大幅に増加させます
+				この設定は建築系アクセサリーと効果が重複します
+				'''
+			Label: "[i:ArchitectGizmoPack] ブロック設置スピードの向上"
+		}
+
+		FasterJumpSpeed: {
+			Tooltip:
+				'''
+				プレイヤーの基本ジャンプ速度をわずかに上げます
+				Calamityはこの設定を有効にすることを前提に設計されています
+				'''
+			Label: "[i:FrogLeg] ベースジャンプのスピードを上げる"
+		}
+
+		FasterBaseSpeed: {
+			Tooltip:
+				'''
+				常に移動速度を+50%することで、プレイヤーの基本移動速度を大幅に増加させます
+				この設定はTerraria Overhaulがロードされている場合は何もしません
+				Calamityはこの設定を有効にすることを前提に設計されています
+				'''
+			Label: "[i:HermesBoots] 基本移動速度を上げる"
+		}
+
+		EarlyHardmodeProgressionRework: {
+			Tooltip:
+				'''
+				悪魔の祭壇が壊れても鉱石や真紅/不浄ブロックをスポーンしなくなります
+				Wall of Fleshが初回討伐時にコバルトとパラジウム鉱石を生成するようになります
+				最初に戦うメカのボスのHPとダメージが20%減少し、初回討伐時にミスリルとオリハルコン鉱石を生成します
+				2体目のメカボスはHPとダメージが10%減少し、初回キル時にアダマンタイトとチタン鉱石を生成します
+				3体目のメカボスは初回討伐時に聖なる鉱石を生成します
+				'''
+			Label: "[i:Pwnhammer] 初期ハードモード進行のリワーク"
+		}
+
+		DefaultDashEnabled: {
+			Tooltip:
+				'''
+				デフォルトで装備やアイテムを必要としない非常に弱いダッシュを使用可能にします
+				このダッシュは他のMODのものも含め、使用可能な他のダッシュに置き換えられます
+				'''
+			Label: "[i:Tabi]デフォルトダッシュ"
+		}
+
+		ChilledWaterRework: {
+			Tooltip: 有効にすると、雪バイオームにある水は、凍えを与え、プレイヤーの酸素を急速に消耗させます
+			Label: "[i:ArcticDivingGear] 冷水リワーク"
+		}
+
+		BossZen: {
+			Tooltip:
+				'''
+				ボス戦は、通常の敵のスポーン率を激減させます
+				また、ボスが生きている間はSlime Rainが発生しなくなります
+				Calamityはこの設定を有効にすることを前提に設計されています
+				'''
+			Label: "[i:CalamityMod/ZenPotion] ボス戦中スポーン率"
+		}
+
+		BossHealthBoost: {
+			Tooltip:
+				'''
+				全てのボスのライフを指定されたパーセンテージだけブーストします
+				これはマルチプレイヤーのボスのライフブーストと重複します
+				すでにスポーンしているボスには影響しない
+				'''
+			Label: "[i:LifeCrystal] ボスのライフブースト率"
+		}
+
+		BossesStopWeather: {
+			Tooltip:
+				'''
+				有効にすると、ゲーム終盤のボスの多くがスポーン時にすべての雨と関連する天候を止める
+				ゲーム終盤のボス戦でパフォーマンスに問題がある場合は有効にするのがおすすめ
+				'''
+			Label: "[i:CalamityMod/TorrentialTear] ボス戦中の天候"
+		}
+
+		Headers: {
+			BaseBoosts: 基本ステータスの強化
+			Gameplay: 一般的なゲームプレイの変更
+			ExpertMaster: エキスパートおよびマスター難易度の変更
+		}
+
+		Denied: この設定を変更する権限がありません
+		DisplayName: サーバー設定
+	}
+
+	CalamityClientConfig: {
+		WikiStatusMessage: {
+			Tooltip: ワールドロード時に流れるOfficial Calamity Wikiを宣伝するステータスメッセージを有効または無効にします
+			Label: "[i:Book] Wikiステータスメッセージ"
+		}
+
+		VCMMStatusMessage: {
+			Tooltip: ワールドに入る際に再生される、Vanilla Calamity Music Modのステータスメッセージを有効または無効にします。
+			Label: "[i:MusicBoxMartians] VCMMステータスメッセージ"
+		}
+
+		VanillaCooldownDisplay: {
+			Tooltip:
+				'''
+				Cooldown Rackにバニラデバフのポーション酔いとカオス状態を追加します
+				デバフはバフアレイに表示されるが、より見やすくします
+				'''
+			Label: "[i:HealingPotion] バニラのクールダウンを表示"
 		}
 
 		SulphuricWaterMeterPosY: {
@@ -28502,20 +28642,6 @@ Configs: {
 			Label: "[i:CalamityMod/RedLightningContainer] レイジとアドレナリンメーターの揺れ"
 		}
 
-		RemoveReforgeRNG: {
-			Tooltip:
-				'''
-				ゴブリンのよろず屋の武器とアクセサリーのリフォージからランダム性を取り除きます
-				競合を防ぐため、独自にリフォージを変更するMODを使用している場合は無効にしてください
-				'''
-			Label: "[i:TinHammer] リフォージのランダム性の削除"
-		}
-
-		RemoveLavaDropsFromLavaSlimes: {
-			Tooltip: 有効にすると、ラーヴァスライムは溶岩を落とさない新しいラーヴァスライムに置き換わります
-			Label: "[i:LavaWaders] ラーヴァスライムから溶岩のしずくを取り除く"
-		}
-
 		RageMeterPosY: {
 			Tooltip:
 				'''
@@ -28553,15 +28679,6 @@ Configs: {
 			Label: "[i:Paintbrush] 新しいバニラテクスチャ"
 		}
 
-		NerfExpertDebuffs: {
-			Tooltip:
-				'''
-				Expertモードではデバフの持続時間が2倍（Masterモードでは3倍）になります
-				Calamityはこの設定を有効にすることを前提に設計されています
-				'''
-			Label: "[i:AnkhCharm] デバフ持続時間増加の削除"
-		}
-
 		MusicModReminderMessage: {
 			Tooltip:
 				'''
@@ -28580,37 +28697,15 @@ Configs: {
 			Label: "[i:GemLockTopaz] メーター位置のロック"
 		}
 
-		Interlude3: {
-			Tooltip: Plays Calamity Mod OST - 間奏曲 3, 「Catastrophes before the calamity」を再生します。ヤーロンを討伐した後に再生されます
-			Label: "[i:CalamityModMusic/Interlude3MusicBox] 間奏曲 3"
-		}
-
-		Interlude2: {
-			Tooltip: Plays Calamity Mod OST - 間奏曲 2, 「Storms before the catastrophes」を再生します。ムーンロードを討伐した後に再生されます
-			Label: "[i:CalamityModMusic/Interlude2MusicBox] 間奏曲 2"
-		}
-
-		Interlude1: {
-			Tooltip: Calamity Mod OST - 間奏曲 1、「Silence before the storms」を再生します。カラミタスクローンを討伐した後に再生されます
-			Label: "[i:CalamityModMusic/Interlude1MusicBox] 間奏曲 1"
-		}
-
-		HigherJumpHeight: {
+		Interludes: {
 			Tooltip:
 				'''
-				プレイヤーの基本ジャンプの高さを10%増加させ、7ブロックジャンプできるようにします
-				Calamityはこの設定を有効にすることを前提に設計されています
+				ゲーム内で3つの間奏曲を有効にします：
+				カラミタスクローンを討伐した後にCalamity Mod OST - 間奏曲 1、「Silence before the storms」を再生します。
+				ムーンロードを討伐した後にCalamity Mod OST - 間奏曲 2, 「Storms before the catastrophes」を再生します。
+				ヤーロンを討伐した後にCalamity Mod OST - 間奏曲 3, 「Catastrophes before the calamity」を再生します。
 				'''
-			Label: "[i:ShinyRedBalloon] ジャンプの高さ"
-		}
-
-		ForceTownSafety: {
-			Tooltip:
-				'''
-				エキスパートモードとマスターモードでは、敵が町の近くでスポーンしやすくなるため、スポーン率が大幅に低下します
-				これは、生き物を見つけるのが難しくなるなど、意図しない副作用をもたらす可能性があります
-				'''
-			Label: "[i:Sunflower] 街の安全性"
+			Label: "[i:CalamityModMusic/Interlude1MusicBox] 間奏曲"
 		}
 
 		FlightBarPosY: {
@@ -28641,24 +28736,6 @@ Configs: {
 			Label: "[i:CalamityMod/DrewsWings] フライトバーの表示"
 		}
 
-		FasterTilePlacement: {
-			Tooltip:
-				'''
-				プレイヤーがブロックや壁を配置する速度を大幅に増加させます
-				この設定は建築系アクセサリーと効果が重複します
-				'''
-			Label: "[i:ArchitectGizmoPack] ブロック設置スピードの向上"
-		}
-
-		FasterJumpSpeed: {
-			Tooltip:
-				'''
-				プレイヤーの基本ジャンプ速度をわずかに上げる。
-				Calamityはこの設定を有効にすることを前提に設計されています
-				'''
-			Label: "[i:FrogLeg] ベースジャンプのスピードを上げる"
-		}
-
 		FasterFallHotkey: {
 			Tooltip:
 				'''
@@ -28667,28 +28744,6 @@ Configs: {
 				Calamityはこの設定を有効にすることを前提に設計されています
 				'''
 			Label: "[i:CalamityMod/BallAndChain] 高速落下の有効化"
-		}
-
-		FasterBaseSpeed: {
-			Tooltip:
-				'''
-				常に移動速度を+50%することで、プレイヤーの基本移動速度を大幅に増加させます
-				この設定はTerraria Overhaulがロードされている場合は何もしません
-				Calamityはこの設定を有効にすることを前提に設計されています
-				'''
-			Label: "[i:HermesBoots] 基本移動速度を上げる"
-		}
-
-		EarlyHardmodeProgressionRework: {
-			Tooltip:
-				'''
-				悪魔の祭壇が壊れても鉱石や真紅/不浄ブロックをスポーンしなくなります
-				Wall of Fleshが初回討伐時にコバルトとパラジウム鉱石を生成するようになります
-				最初に戦うメカのボスのHPとダメージが20%減少し、初回討伐時にミスリルとオリハルコン鉱石を生成します
-				2体目のメカボスはHPとダメージが10%減少し、初回キル時にアダマンタイトとチタン鉱石を生成します
-				3体目のメカボスは初回討伐時に聖なる鉱石を生成します
-				'''
-			Label: "[i:Pwnhammer] 初期ハードモード進行のリワーク"
 		}
 
 		DevourerofGodsEulogy: {
@@ -28708,11 +28763,6 @@ Configs: {
 				これを1に設定するとクールダウンマークがコンパクトに表示され、0に設定すると完全に非表示になります
 				'''
 			Label: "[i:CalamityMod/NebulousCore] クールダウン表示モード"
-		}
-
-		ChilledWaterRework: {
-			Tooltip: 有効にすると、雪バイオームにある水は、凍えを与え、プレイヤーの酸素を急速に消耗させます
-			Label: "[i:ArcticDivingGear] 冷水リワーク"
 		}
 
 		ChargeMeterPosY: {
@@ -28742,35 +28792,6 @@ Configs: {
 			Label: "[i:CalamityMod/DraedonPowerCell] チャージメーターを表示"
 		}
 
-		BossZen: {
-			Tooltip:
-				'''
-				ボス戦は、通常の敵のスポーン率を激減させます
-				また、ボスが生きている間はSlime Rainが発生しなくなります
-				Calamityはこの設定を有効にすることを前提に設計されています
-				'''
-			Label: "[i:CalamityMod/ZenPotion] ボス戦中スポーン率"
-		}
-
-		DefaultDashEnabled: {
-			Tooltip:
-				'''
-				デフォルトで装備やアイテムを必要としない非常に弱いダッシュを使用可能にします
-				このダッシュは他のMODのものも含め、使用可能な他のダッシュに置き換えられます
-				'''
-			Label: "[i:Tabi]デフォルトダッシュ"
-		}
-
-		BossHealthBoost: {
-			Tooltip:
-				'''
-				全てのボスのライフを指定されたパーセンテージだけブーストします
-				これはマルチプレイヤーのボスのライフブーストと重複します
-				すでにスポーンしているボスには影響しない
-				'''
-			Label: "[i:LifeCrystal] ボスのライフブースト率"
-		}
-
 		BossHealthBarExtraInfo: {
 			Tooltip:
 				'''
@@ -28778,15 +28799,6 @@ Configs: {
 				これはボスの正確なライフか、残りのパーツやセグメントの数を表示します
 				'''
 			Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] ボスライフバー追加情報"
-		}
-
-		BossesStopWeather: {
-			Tooltip:
-				'''
-				有効にすると、ゲーム終盤のボスの多くがスポーン時にすべての雨と関連する天候を止める
-				ゲーム終盤のボス戦でパフォーマンスに問題がある場合は有効にするのがおすすめ
-				'''
-			Label: "[i:CalamityMod/TorrentialTear] ボス戦中の天候"
 		}
 
 		Afterimages: {
@@ -28817,16 +28829,14 @@ Configs: {
 		}
 
 		Headers: {
-			MusicEvents: 音楽
-			BaseBoosts: 基本スタッツブースト
-			UI: UIの変更
-			Revengeance: リベンジェンスモードの変更
-			Graphics: グラフィックの変更
+			MusicEvents: ミュージックイベント
+			UI: UI変更
+			MeterPositions: メーター位置
+			Graphics: グラフィック変更
 			Gameplay: ゲームプレイ全般の変更
-			ExpertMaster: エキスパートモードとマスターモードの変更
 		}
 
-		DisplayName: メイン設定
+		DisplayName: クライアント設定
 	}
 }
 
