@@ -1408,6 +1408,11 @@ Items: {
 			「オールドデュークの昔のチェストだ。近くにいると何か放り込むかもしれない...」
 			'''
 	}
+
+	QuestLogBook: {
+		DisplayName: クエストブック
+		Tooltip: 使用するとクエスト一覧を見ることができる
+	}
 }
 
 Projectiles: {
@@ -3255,6 +3260,16 @@ Configs: {
 			Label: リロードの進行状況を表示する
 			Tooltip: 弾薬装填の進行状況が表示されます
 		}
+
+		QuestLog: {
+			Label: クエストログの案内
+			Tooltip:
+				'''
+				有効にすると、クエストログがゲームの進行を案内します
+                クエストブックアイテム、インベントリUI、またはホットキーからクエストインターフェースにアクセスし、現在のクエストを確認できます
+                デフォルトで有効です。無効にすると全てのクエスト案内が削除されます
+				'''
+		}
 	}
 }
 
@@ -3285,8 +3300,8 @@ Buffs: {
 	}
 
 	FishoilBuff: {
-		DisplayName: Fishoil
-		Description: You feel that your skin is becoming oily
+		DisplayName: フィッシュオイル
+		Description: 肌のベタつきを感じる
 	}
 }
 
@@ -3297,6 +3312,10 @@ Keybinds: {
 
 	KreLoad_Key: {
 		DisplayName: Firearm: 弾薬変更
+	}
+
+	QuestLog_Key: {
+		DisplayName: クエストブック：メインインターフェースの切り替え
 	}
 
 	HeavenfallLongbowSkillKey: {
@@ -3356,11 +3375,11 @@ Keybinds: {
 	}
 
 	AriaofTheCosmos_Q: {
-		DisplayName: Aria of the Cosmos: Star Ring Guardian
+		DisplayName: アリア・オブ・ザ・コスモス: Star Ring Guardian
 	}
 
 	AriaofTheCosmos_R: {
-		DisplayName: Aria of the Cosmos: Gamma Ray Burst
+		DisplayName: アリア・オブ・ザ・コスモス: Gamma Ray Burst
 	}
 }
 
@@ -3384,7 +3403,7 @@ TextContent: {
 		DropInMachineRebellion: Dropped by the Mech Trio EX
 		DontUseMagicConch: 強大な存在に見張られている...
 		OnlyZenith: ゼニスシード限定
-		Event_TungstenRiot_Name: Tungsten Riot
+		Event_TungstenRiot_Name: タングステンの暴動
 		Event_TungstenRiot_Text_1: 大量のタングステン生物が侵攻している！
 		Event_TungstenRiot_Text_2: タングステン軍が撃退された！
 		Item_LegendOnMouseLang: より近くで聴くには「左シフト」を押す
@@ -7768,6 +7787,22 @@ UI: {
 		TitleText: 古いチェスト
 		StorageText: 収納スペース
 	}
+
+	QuestLog: {
+		ObjectiveText: 目標
+		RewardText: 報酬
+		ReceiveAwardText: 報酬を受け取る
+		ProgressText: クエスト進行状況
+		QuickReceiveAwardText: 即時受取
+		StyleSwitchText: スタイル切替
+		NightModeText: 夜間モード
+		ResetViewText: ビューをリセット
+		SunModeText:昼間モード
+	}
+
+	QuestNotificationSystem: {
+		Text1: クエスト完了
+	}
 }
 
 ADV: {
@@ -7812,7 +7847,7 @@ ADV: {
 		L0: あの青い塊......「スライム」と呼ぶのか？どちらかと言えば、凝縮した感情のようだった。
 		L1: 物質が自己認識を得ようとする、不器用な試みかもしれない。
 		L2: これをやろう。「スライムフィッシュ」だ。強く握るな。感情が弾けるかもしれない。
-		L3: これでスープを作ってもいいかもな...私はやったことあるかって？
+		L3: これでスープを作ったことはあるか？...私はやったことあるかって？
 		L4: 海底でもスープは作れるぞ。あそこは広くてな...海の中にもう一つの海があるような場所なんだ。
 	}
 
@@ -8659,4 +8694,907 @@ ADV: {
 		B1_NO: まずはわしを探さんとな。道は身体で覚えるもんじゃ。
 	}
 }
+
+QuestLogs: {
+	QuestNode: {
+		FirstQuest: {
+			DisplayName: Calamityの世界へようこそ！
+			Description: 旅の始まり
+			DetailedDescription: 千里の道も一歩から。スタート用の装備を手に入れ、神々とモンスターで満ちた世界に立ち向かう準備をしよう。
+
+			QuestObjective: {
+				Description: スタートアイテムを手に入れる
+			}
+
+			QuestReward: {
+				Description: 冒険者のスタートパック
+			}
+		}
+
+		MiningQuest: {
+			DisplayName: 採掘の基本
+			Description: 銅鉱石を10個入手する
+			DetailedDescription: 地下には無限の富が眠っている。まずはツールを作るための基本的な金属を手に入れよう。
+
+			QuestObjective: {
+				Description: 銅鉱石を10個集める
+			}
+
+			QuestReward: {
+				Description: 銅のインゴット5個
+				Description2: 鉄のつるはし1個
+			}
+		}
+
+		MiningQuestII: {
+			DisplayName: 鉄器時代
+			Description: 鉄鉱石を50個集める
+
+			QuestObjective: {
+				Description: 鉄鉱石を50個集める
+			}
+
+			QuestReward: {
+				Description: 鉄のインゴット50個
+				Description2: 金のつるはし1個
+			}
+
+			DetailedDescription: 銅は柔らかすぎる。武器を作るには、もっと硬い金属が必要だ。地下深くに降りて、鉄鉱脈を見つけよう。
+		}
+
+		MiningQuestIII: {
+			DisplayName: ゴールドラッシュ
+			Description: 金鉱石を100個集める
+
+			QuestObjective: {
+				Description: 金鉱石を100個集める
+			}
+
+			QuestReward: {
+				Description: 金のインゴットを100個集める
+				Description2: プラチナのつるはし1個
+			}
+
+			DetailedDescription: 金は単なる通貨ではない。優れた魔法的導電性と延性を持ち、鉄よりも柔らかいが、高度な装備を作るためには欠かせない素材だ。
+		}
+
+		BrimstoneElementalQuest: {
+			DisplayName: ブリムストーンエレメンタル
+			Description: ブリムストーンエレメンタルを倒す
+
+			QuestObjective: {
+				Description: ブリムストーンエレメンタルを倒す
+			}
+
+			QuestReward: {
+				Description: 闇夜のソウル10個
+			}
+
+			DetailedDescription: 煉獄の岩山の遺跡で、眠っているエレメンタルエレメンタルを目覚めさせ、倒す。彼女の弾幕に注意。
+		}
+
+		CalamitasCloneQuest: {
+			DisplayName: カラミタスクローン
+			Description: カラミタスクローンを倒す
+
+			QuestObjective: {
+				Description: カラミタスクローンを倒す
+			}
+
+			QuestReward: {
+				Description: 災厄の灰10個
+			}
+
+			DetailedDescription: 憎しみと破壊への欲望に満ちたクローン。こいつを倒し、真の魔女と対峙する資格を証明しよう。
+		}
+
+		CrabulonQuest: {
+			DisplayName: クラブロン
+			Description: クラブロンを倒す
+
+			QuestObjective: {
+				Description: クラブロンを倒す
+			}
+
+			QuestReward: {
+				Description: 光るキノコ50個
+			}
+
+			DetailedDescription: 地下のキノコ群生地で、菌に侵された巨大なカニが潜んでいる。その胞子は非常に危険だ。
+		}
+
+		CryogenQuest: {
+			DisplayName: クライオジェン
+			Description: クライオジェンを倒す
+
+			QuestObjective: {
+				Description: クライオジェンを倒す
+			}
+
+			QuestReward: {
+				Description: 光のソウル10個
+			}
+
+			DetailedDescription: かつての大魔道士は、氷の牢獄に封印されている。解放し、極寒の力を解き放とう。
+		}
+
+		DesertScourgeQuest: {
+			DisplayName: デザートスカージ
+			Description: デザートスカージを倒す
+
+			QuestObjective: {
+				Description: デザートスカージを倒す
+			}
+
+			QuestReward: {
+				Description: 真珠の欠片10個
+			}
+
+			DetailedDescription: 海のかつての暴君が、乾ききった砂漠で息を切らしている。巨大な顎と部下たちに気をつけろ。
+		}
+
+		EaterofWorldsQuest: {
+			DisplayName: イーターオブワールド / クトゥルフの脳
+			Description: 不浄または真紅のボスを倒す
+
+			QuestObjective: {
+				Description: イーターオブワールドまたはクトゥルフの脳を倒す
+			}
+
+			QuestReward: {
+				Description: シャドウスケイルまたは組織サンプル20個
+			}
+
+			DetailedDescription: 邪悪が広がっている。世界の病巣に足を踏み入れ、巨大な虫や忌まわしい脳を討ち滅ぼせ。
+		}
+
+		EyeofCthulhuQuest: {
+			DisplayName: クトゥルフの目
+			Description: クトゥルフの目を倒す
+
+			QuestObjective: {
+				Description: クトゥルフの目を倒す
+			}
+
+			QuestReward: {
+				Description: デモナイト鉱石またはクリムタン鉱石20個
+			}
+
+			DetailedDescription: その邪悪な眼差しを感じている限り、目は現れ続ける。これはあなたの力の真の試練だ。
+		}
+
+		GolemQuest: {
+			DisplayName: ゴーレム
+			Description: ゴーレムを倒す
+
+			QuestObjective: {
+				Description: ゴーレムを倒す
+			}
+
+			QuestReward: {
+				Description: 甲虫の殻10個
+			}
+
+			DetailedDescription: ジャングル寺院の奥深くに、古代の戦争機械が祀られている。レーザーと重い拳に気をつけろ。
+		}
+
+		HiveMindQuest: {
+			DisplayName: ハイブマインド / パーフォレーター
+			Description: 邪悪なバイオームの真の神を倒す
+
+			QuestObjective: {
+				Description: ハイブマインドまたはパーフォレーターを倒す
+			}
+
+			QuestReward: {
+				Description: デモナイトインゴットまたはクリムタンインゴット10個
+			}
+
+			DetailedDescription: 彼らは不浄と真紅の意識の物理的な具現化だ。もし倒さなければ、この地に平和は訪れない。
+		}
+
+		KingSlimeQuest: {
+			DisplayName: キングスライム
+			Description: キングスライムを倒す
+
+			QuestObjective: {
+				Description: キングスライムを倒す
+			}
+
+			QuestReward: {
+				Description: ゴールドコイン5枚
+			}
+
+			DetailedDescription: すべてのゼラチン状の生物の支配者。見た目は少しコミカルだが、その巨大なサイズに圧倒されるな。
+		}
+
+		LunaticCultistQuest: {
+			DisplayName: 狂気の崇拝者
+			Description: 狂気の崇拝者を倒す
+
+			QuestObjective: {
+				Description: 狂気の崇拝者を倒す
+			}
+
+			QuestReward: {
+				Description: 太陽の断片5個
+			}
+
+			DetailedDescription: ダンジョンの入り口で、終末を防ぐか、あるいは引き起こすことを試みている狂信的なカルト集団がいる。その儀式を止めろ。
+		}
+
+		MechanicalBossesQuest: {
+			DisplayName: メカボス
+			Description: すべてのメカボスを倒す
+
+			QuestObjective: {
+				Description: すべてのメカボスを倒す
+			}
+
+			QuestReward: {
+				Description: 聖なるインゴット20個
+			}
+
+			DetailedDescription: ドレイドンの初期の創作物で、クトゥルフの部品を模倣している。彼らを倒すことで世界が再生される。
+		}
+
+		MoonLordQuest: {
+			DisplayName: ムーンロード
+			Description: ムーンロードを倒す
+
+			QuestObjective: {
+				Description: ムーンロードを倒す
+			}
+
+			QuestReward: {
+				Description: ムーンロードのトロフィー
+			}
+
+			DetailedDescription: すべての背後にいる黒幕、月の裏側から来た恐怖。長い悪夢を終わらせろ。
+		}
+
+		PlaguebringerGoliathQuest: {
+			DisplayName: プレイグブリンガーゴライアス
+			Description: プレイグブリンガーゴライアスを倒す
+
+			QuestObjective: {
+				Description: プレイグブリンガーゴライアスを倒す
+			}
+
+			QuestReward: {
+				Description: 疫病細胞の容器20個
+			}
+
+			DetailedDescription: ナノウイルスで改造された女王蜂。致命的であるだけでなく、危険な疫病も持っている。
+		}
+
+		PlanteraQuest: {
+			DisplayName: プランテラ
+			Description: プランテラを倒す
+
+			QuestObjective: {
+				Description: プランテラを倒す
+			}
+
+			QuestReward: {
+				Description: クロロファイト鉱石50個
+			}
+
+			DetailedDescription: ジャングルの奥に眠る巨大な肉食花。球根を壊し、ジャングルの怒りに直面せよ。
+		}
+
+		SkeletronQuest: {
+			DisplayName: スケルトロン
+			Description: スケルトロンを倒す
+
+			QuestObjective: {
+				Description: スケルトロンを倒す
+			}
+
+			QuestReward: {
+				Description: 骨50個
+			}
+
+			DetailedDescription: この呪われた老人を倒さなければ、ダンジョンに安全に入ってその秘密を探ることはできない。
+		}
+
+		SlimeGodQuest: {
+			DisplayName: スライムゴッド
+			Description: スライムゴッドを倒す
+
+			QuestObjective: {
+				Description: スライムゴッドを倒す
+			}
+
+			QuestReward: {
+				Description: ジェル100個
+			}
+
+			DetailedDescription: スライム種族の頂点、古代の貪欲な神。彼の化身たちの組み合わせ攻撃に気をつけろ。
+		}
+
+		WallofFleshQuest: {
+			DisplayName: ウォールオブフレッシュ
+			Description: ウォールオブフレッシュを倒す
+
+			QuestObjective: {
+				Description: ウォールオブフレッシュを倒す
+			}
+
+			QuestReward: {
+				Description: ムテキハンマー
+			}
+
+			DetailedDescription: 世界の門番。ガイドのブードゥー人形を溶岩に投げ込んで、世界の古代の霊を解放し、ハードモードを開始せよ。
+		}
+
+		CeaselessVoidQuest: {
+			DisplayName: シースレスヴォイド
+			Description: シースレスヴォイドを倒す
+
+			QuestObjective: {
+				Description: シースレスヴォイドを倒す
+			}
+
+			QuestReward: {
+				Description: ダークプラズマ5個
+			}
+
+			DetailedDescription: 神喰らいの使徒の一つ、別次元から来た無の鏡。
+		}
+
+		DevourerofGodsQuest: {
+			DisplayName: デバウアーオブゴッド
+			Description: デバウアーオブゴッドを倒す
+
+			QuestObjective: {
+				Description: デバウアーオブゴッドを倒す
+			}
+
+			QuestReward: {
+				Description: コズミライトのインゴット30個
+			}
+
+			DetailedDescription: すべての神性を食らいたがる宇宙の蛇。虚空にて挑み、その牙に呑まれるな。
+		}
+
+		DragonfollyQuest: {
+			DisplayName: ドラゴンフォリー
+			Description: ドラゴンフォリーを倒す
+
+			QuestObjective: {
+				Description: ドラゴンフォリーを倒す
+			}
+
+			QuestReward: {
+				Description: 光り輝く羽10個
+			}
+
+			DetailedDescription: ヤーロンのクローン化に失敗した産物。狂気に取り憑かれ、電気を帯びた竜もどき。
+		}
+
+		ExoMechsQuest: {
+			DisplayName: エクソメカ
+			Description: エクソメカを倒す
+
+			QuestObjective: {
+				Description: エクソメカを倒す
+			}
+
+			QuestReward: {
+				Description: エクソプリズム20個
+			}
+
+			DetailedDescription: ドレイドンの究極の傑作、技術の頂点を象徴する存在。完璧なる舞台を生き延びよ。
+		}
+
+		OldDukeQuest: {
+			DisplayName: オールドデューク
+			Description: オールドデュークを倒す
+
+			QuestObjective: {
+				Description: オールドデュークを倒す
+			}
+
+			QuestReward: {
+				Description: 腐食した化石20個
+			}
+
+			DetailedDescription: 硫黄の海深部の古代の支配者、変異と力の結合体。彼の有毒な蒸気に気をつけろ。
+		}
+
+		PolterghastQuest: {
+			DisplayName: ポルターガイスト
+			Description: ポルターガイストを倒す
+
+			QuestObjective: {
+				Description: ポルターガイストを倒す
+			}
+
+			QuestReward: {
+				Description: 荒廃した魂10個
+			}
+
+			DetailedDescription: ダンジョンで死んだ復讐心に燃える魂が集まり、形成されたモンスター。彼らの怒りを鎮めよ。
+		}
+
+		PrimordialWyrmQuest: {
+			DisplayName: 原初の竜
+			Description: 原初の竜を倒す
+
+			QuestObjective: {
+				Description: 原初の竜を倒す
+			}
+
+			QuestReward: {
+				Description: オヒョウキャノン
+			}
+
+			DetailedDescription: 最深部の深淵を守護する存在。神々よりも古い存在。必要でない限り、触れるべきではない。
+		}
+
+		ProfanedGuardiansQuest: {
+			DisplayName: 冒涜された守護者
+			Description: 冒涜された守護者を倒す
+
+			QuestObjective: {
+				Description: 冒涜された守護者を倒す
+			}
+
+			QuestReward: {
+				Description: 不道徳なエッセンス3個
+			}
+
+			DetailedDescription: 冒涜された女神の忠実なる守護者たち。彼らを倒すことで、女神の力が弱まるだろう。
+		}
+
+		ProvidenceQuest: {
+			DisplayName: 冒涜された女神、プロヴィデンス
+			Description: 冒涜された女神、プロヴィデンスを倒す
+
+			QuestObjective: {
+				Description: 冒涜された女神、プロヴィデンスを倒す
+			}
+
+			QuestReward: {
+				Description: 神聖なるジオード20個
+			}
+
+			DetailedDescription: 聖なる火と浄化を操る女神。聖域または地底世界で彼女に挑戦せよ、しかし聖なる炎に焼かれないように注意せよ。
+		}
+
+		SignusQuest: {
+			DisplayName: 神喰らいの使徒、シグナス
+			Description: シグナスを倒す
+
+			QuestObjective: {
+				Description: シグナスを倒す
+			}
+
+			QuestReward: {
+				Description: ねじれたネザー5個
+			}
+
+			DetailedDescription: 神喰らいの使徒の一つ、無形の暗殺者、虚無の幽霊。
+		}
+
+		StormWeaverQuest: {
+			DisplayName: ストームウィーバー
+			Description: ストームウィーバーを倒す
+
+			QuestObjective: {
+				Description: ストームウィーバーを倒す
+			}
+
+			QuestReward: {
+				Description: アーマードシェル5個
+			}
+
+			DetailedDescription: 神喰らいの使徒の一つ、雷雨と稲妻をエネルギー源とする空の魔物。
+		}
+
+		SupremeCalamitasQuest: {
+			DisplayName: 至高の魔女、カラミタス
+			Description: カラミタスを倒す
+
+			QuestObjective: {
+				Description: カラミタスを倒す
+			}
+
+			QuestReward: {
+				Description: 絶滅の灰20個
+			}
+
+			DetailedDescription: 伝説の煉獄の魔女。これがあなたの旅の終わりか、それとも新たな始まりか？ 
+		}
+
+		YharonQuest: {
+			DisplayName: 再臨のドラゴン、ヤーロン
+			Description: ヤーロンを倒す
+
+			QuestObjective: {
+				Description: ヤーロンを倒す
+			}
+
+			QuestReward: {
+				Description: オーリックのインゴット20個
+			}
+
+			DetailedDescription: 暴君の忠実な仲間、不死鳥の再生能力を持つドラゴン。これは魂の試練だ。
+		}
+
+		BatteryQuest: {
+			DisplayName: エネルギー貯蔵
+			Description: 熱電池を作成する
+
+			QuestObjective: {
+				Description: 熱電池を手に入れる
+			}
+
+			QuestReward: {
+				Description: ワイヤー50個
+			}
+
+			DetailedDescription: 発電後に電力を蓄える必要がある。バッテリーを作成することは、安定した電力網を構築する第一歩だ。
+		}
+
+		HydroelectricQuest: {
+			DisplayName: 持続可能エネルギー
+			Description: 水力発電機を作成する
+
+			QuestObjective: {
+				Description: 水力発電機を手に入れる
+			}
+
+			QuestReward: {
+				Description: 水入りバケツ
+			}
+
+			DetailedDescription: 流れる水の力を使って電力を生成する。クリーンで持続可能なエネルギー源だ。
+		}
+
+		IndustrialStartQuest: {
+			DisplayName: 産業革命
+			Description: 風力発電機を作成する
+
+			QuestObjective: {
+				Description: 風力発電機を手に入れる
+			}
+
+			QuestReward: {
+				Description: 鉄インゴット10個
+			}
+
+			DetailedDescription: 自動化の第一歩。風力エネルギーを利用して機械を駆動させろ。
+		}
+
+		ItemFilterQuest: {
+			DisplayName: 物流仕分け
+			Description: アイテムフィルターボードを作成する
+
+			QuestObjective: {
+				Description: アイテムフィルターボードを手に入れる
+			}
+
+			QuestReward: {
+				Description: 宝箱2個
+			}
+
+			DetailedDescription: 自動化された生産ラインには秩序が必要だ。フィルターを使って、アイテムの流れを正確に制御せよ。
+		}
+
+		MiningMachineQuest: {
+			DisplayName: 自動掘削
+			Description: 採掘機を作成する
+
+			QuestObjective: {
+				Description: 採掘機を手に入れる
+			}
+
+			QuestReward: {
+				Description: 探検家のポーション5個
+			}
+
+			DetailedDescription: 面倒な手動採掘にさようなら。この機械は驚異的な効率で鉱脈を食い尽くす。
+		}
+
+		PipelineQuest: {
+			DisplayName: エネルギー伝送
+			Description: 電力入力パイプラインを作成する
+
+			QuestObjective: {
+				Description: 電力入力パイプラインを手に入れる
+			}
+
+			QuestReward: {
+				Description: 電力入力パイプライン20個
+			}
+
+			DetailedDescription: 発電機と機械をつなぐ静脈。それがなければ、電力はただの停滞した水に過ぎない。
+		}
+
+		TeslaTowerQuest: {
+			DisplayName: 磁気嵐の塔
+			Description: テスラ電磁タワーを作成する
+
+			QuestObjective: {
+				Description: テスラ電磁タワーを手に入れる
+			}
+
+			QuestReward: {
+				Description: 怪しげな装甲板20枚
+			}
+
+			DetailedDescription: ドレイドンの技術の結晶。このタワーにより、無線で電力を送信でき、配線のレイアウトに革命が起きるだろう。
+		}
+
+		ThermalPowerQuest: {
+			DisplayName: 燃やす時
+			Description: 熱発電機を作成する
+
+			QuestObjective: {
+				Description: 熱発電機を手に入れる
+			}
+
+			QuestReward: {
+				Description: 石炭50個
+			}
+
+			DetailedDescription: 燃料を燃やして大量の電力を生成する。環境に優しくはないが、初期段階では最も信頼できるエネルギー源だ。
+		}
+
+		AnnihilatingUniverseQuest: {
+			QuestObjective: {
+				Description: 宇宙の殲滅者を手に入れる
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット5個
+			}
+
+			DisplayName: 宇宙の殲滅者
+			Description: 宇宙の殲滅者を手に入れる
+			DetailedDescription: 銀河の力を弓の弦に圧縮せよ。この武器は宇宙次元を破壊する力を持ち、レンジャーにとって究極の証明となる。
+		}
+
+		AriaofTheCosmosQuest: { 
+			QuestObjective: {
+				Description: 宇宙のアリアを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット20個
+			}
+
+			DisplayName: アリア・オブ・ザ・コスモス
+			Description: アリア・オブ・ザ・コスモスを入手せよ
+			DetailedDescription: 星々の交響曲を奏でよ。この書物はブラックホールや銀河核を召喚し、敵を宇宙の歌の中で消し去る。
+		}
+
+		DarkMatterCompressorQuest: {
+			QuestObjective: {
+				Description: 暗黒物質圧縮機を入手せよ
+			}
+
+			QuestReward: {
+				Description: 暗黒物質球10個
+			}
+
+			DisplayName: 暗黒物質圧縮機
+			Description: 暗黒物質圧縮機を入手せよ
+			DetailedDescription: 宇宙で最も神秘的な物質を操れ。この機械は暗黒物質を高密度エネルギー球に圧縮し、高度な製作に利用する。
+		}
+
+		InfiniteIngotQuest: {
+			QuestObjective: {
+				Description: 無限のインゴットを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット2個
+			}
+
+			DisplayName: 無限のインゴット
+			Description: 無限のインゴットを鍛造せよ
+			DetailedDescription: 質量保存の法則を超越した金属。それは究極の力への礎となり、無限の可能性を秘めている。
+		}
+
+		InfinitePickQuest: {
+			QuestObjective: {
+				Description: 強欲のツルハシを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット5個
+			}
+
+			DisplayName: 強欲のツルハシ
+			Description: 強欲のツルハシを入手せよ
+			DetailedDescription: このツルハシは何も止めることができない。世界のすべてを掘り起こすことができる。
+		}
+
+		InfiniteToiletQuest: {
+			QuestObjective: {
+				Description: 無限のトイレを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット1個
+			}
+
+			DisplayName: 無限のトイレ
+			Description: 無限のトイレを入手せよ
+			DetailedDescription: 神々の玉座。おかしな話のように聞こえるが、それは何かしらの...至高の権威を象徴している。
+		}
+
+		InfinityCatalystQuest: {
+			QuestObjective: {
+				Description: 無限の触媒を入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット1個
+			}
+
+			DisplayName: 無限の触媒
+			Description: 無限の触媒を入手せよ
+			DetailedDescription: 無限の反応を開始するための重要な媒介。物質が消滅と再生を繰り返すことを可能にし、膨大なエネルギーを生み出す。
+		}
+
+		NeutronBowQuest: {
+			QuestObjective: {
+				Description: ロシュの弦を入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット2個
+			}
+
+			DisplayName: ロシュの弦
+			Description: ロシュの弦を入手せよ
+			DetailedDescription: 中性子星のコアの断片から鍛造された弓。その矢は崩壊する星の重力を帯びている。
+		}
+
+		NeutronGlaiveQuest: {
+			QuestObjective: {
+				Description: ブラックゾーンクリーバーを入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット2個
+			}
+
+			DisplayName: ブラックゾーンクリーバー
+			Description: ブラックゾーンクリーバーを入手せよ
+			DetailedDescription: 驚異的な密度を持つ槍。それを振るうには巨大な力が必要だが、その斬撃に耐える鎧は存在しない。
+		}
+
+		NeutronGunQuest: {
+			QuestObjective: {
+				Description: ステラーハンターを入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット2個
+			}
+
+			DisplayName: ステラーハンター
+			Description: ステラーハンターを入手せよ
+			DetailedDescription: マイクロ中性子流を発射する銃。その弾丸は極端な密度により、抵抗をほとんど受けない。
+		}
+
+		NeutronScytheQuest: {
+			QuestObjective: {
+				Description: 惑星の使者を入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット2個
+			}
+
+			DisplayName: 惑星の使者
+			Description: 惑星の使者を入手せよ
+			DetailedDescription: 死神の収穫道具。空間を引き裂き、小麦のように命を刈り取る。
+		}
+
+		NeutronStarIngotQuest: {
+			QuestObjective: {
+				Description: 中性子星インゴットを入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット5個
+			}
+
+			DisplayName: 中性子星インゴット
+			Description: 中性子星インゴットを入手せよ
+			DetailedDescription: 宇宙で最も密度の高い素材の一つ。この金属は想像を絶するほど重く、重力の変動を伴って唸っている。
+		}
+
+		NeutronWandQuest: {
+			QuestObjective: {
+				Description: 星の墓の光を入手せよ
+			}
+
+			QuestReward: {
+				Description: 中性子星インゴット2個
+			}
+
+			DisplayName: 星の墓の光
+			Description: 星の墓の光を入手せよ
+			DetailedDescription: 重力を操る杖。中性子星の力を使って時空を歪め、敵を圧倒せよ。
+		}
+
+		PandemoniumQuest: {
+			QuestObjective: {
+				Description: パンデモニウムを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット20個
+			}
+
+			DisplayName: パンデモニウム
+			Description: パンデモニウムを入手せよ
+			DetailedDescription: 無数の魂とカラミタスの力を融合させた究極の武器。それを持つ者は、地獄と奈落の扉を握る。
+		}
+
+		RockQuest: {
+			QuestObjective: {
+				Description: 岩を入手せよ
+			}
+
+			QuestReward: {
+				Description: 岩5個
+			}
+
+			DisplayName: 岩
+			Description: 岩を入手せよ
+			DetailedDescription: 一見普通の石。しかし、それは数え切れないほどの戦いを見守った証であり、永遠の忍耐の象徴だ。
+		}
+
+		TerminusQuest: {
+			QuestObjective: {
+				Description: 終焉の遺物を入手せよ
+			}
+
+			QuestReward: {
+				Description: 大量の血のオーブ
+			}
+
+			DisplayName: 終焉の遺物
+			Description: 終焉の遺物を入手せよ
+			DetailedDescription: ボスラッシュを開始するための鍵。この遺物を見つめ、世界最強の存在たちとの試練に備えよ。
+		}
+
+		TransmutationOfMatterQuest: {
+			QuestObjective: {
+				Description: オメガ物質重合機を入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット10個
+			}
+
+			DisplayName: オメガ物質重合機
+			Description: オメガ物質重合機を入手せよ
+			DetailedDescription: 錬金術の究極形態。この機械は等価交換の法則を無視し、物質を自由に変換し、何もないところから創り出す。
+		}
+
+		HeavenfallLongbowQuest: {
+			QuestObjective: {
+				Description: ヘブンリーゲールを入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット5個
+			}
+
+			DisplayName: ヘブンリーゲール
+			Description: ヘブンリーゲールを入手せよ
+			DetailedDescription: 神々を撃ち落とした長弓。今、再びこの世界に現れる。
+		}
+	}
+}
+
 
