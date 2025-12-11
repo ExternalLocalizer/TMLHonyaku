@@ -1,0 +1,151 @@
+Items: {
+	Planetarium: {
+		DisplayName: プラネタリウム
+		Tooltip:
+			'''
+			数え切れないほどの流れ星が、夜空を横切っていく...
+			選ぶべき星は、ただひとつ...
+			...ただその星だけが、遠い遠い千の世界へ、願いを託してくれる。
+			'''
+	}
+
+	Neuraze: {
+		Tooltip:
+			'''
+			5種類の弾を拡散射撃する
+			インベントリ内の最初の5個の弾が選ばれる
+			80%の確率で弾薬を消費しない
+			'''
+		DisplayName: ニューレイズ
+	}
+
+	AergianTechnistaff: {
+		Tooltip:
+			'''
+			眠気ニューロンを召喚する
+			右クリックを長押しすることでチャージを始め周回速度が加速する
+			フルチャージ時、リングが敵を追いかけ飛んでいく
+			'''
+		DisplayName: 眠気の技術杖
+	}
+
+	HypnosMusicBox: {
+		Tooltip: ""
+		DisplayName: ヒュプノスのオルゴール
+	}
+
+	HypnosMask: {
+		Tooltip: ""
+		DisplayName: ヒュプノスのマスク
+	}
+
+	HypnosTrophyInv: {
+		Tooltip: ""
+		DisplayName: ヒュプノスのトロフィ
+	}
+}
+
+Buffs: {
+	AergiaNeuronBuff: {
+		Description: 眠気ニューロンが過労働させられている
+		DisplayName: 眠気ニューロンバフ
+	}
+}
+
+Emotes: {
+	HypnosEmote: {
+		Command: ヒュプノス
+	}
+}
+
+BossChecklist: {
+	Hypnos: {
+		Flavor: 所詮は不完全品か… 失望した。
+		SpawnInfo: コードブレイカーに [i:CalamityMod/BloodyVein] を詰まらせる
+		EntryName: XP-00 ヒュプノス
+	}
+}
+
+Hypnos: {
+	HealthBarExtension: XP-00 ヒュプノス
+	Bestiary: この知性あふれる巨大メカは、間違いなくドレイドンの傑作のうちの一つだろう。グレイマターの活用法には疑問が残るが、脳とサイバネティクスを融合させるという偉業は印象的だ。 
+}
+
+Draedon: {
+	Line13: 最後に一つ。次に私の機材を使用する時はその血溜まりを掃除しておいてください。
+	Line12: 必要なものは回収してください。私よりあなたに役立つでしょう。
+	Line11: この作品から獲得できる必要な情報は把握しました。
+	Line10: ヒュプノスは他の作品との相性が悪い。これは生体が持つ自由意志により純粋な殺戮兵器の能力が阻害されているからです。
+	Line9: 決してこれを予想しなかったわけではありませんが言っておきます。
+	Line8: これは計算外ですね。あなたの状況が劣勢になっていく。
+	Line7: 素晴らしい。扁桃体が機械構築部品にまでアドレナリンを分泌しています。
+	Line6: 当時の技術不足の名残といったところですか。後発の作品を同じように見ないでください。
+	Line5: 本体とユニットを繋ぐ仕組みは驚くほど非効率的でした。
+	Line4: 始まります。
+	Line3: あなたはこれから私の古い作品と対峙することになる。過小評価しないほうがいいですよ。
+	Line2: あなたは前回の戦闘で私の興味を釘付けにしましたが、今はその創造性にも...興味があります。
+	Line1: 実に奇妙です。あなたが施した改造が私の意図しない敵に信号を発信している。
+}
+
+Tiles: {
+	HypnosMusicBoxPlaced: {
+		MapEntry: 設置されたヒュプノスのオルゴール
+	}
+
+	HypnosTrophyPlaced: {
+		MapEntry: 設置されたヒュプノスのトロフィ
+	}
+}
+
+Projectiles: {
+	PlanetariumLaser: {
+		DisplayName: Planetarium Laser
+	}
+
+	PlanetariumExplosion: {
+		DisplayName: Planetarium Explosion
+	}
+
+	BlueExoPulseLaserFriendly: {
+		DisplayName: Blue Exo Pulse Laser Friendly
+	}
+
+	AergiaNeuronSummon: {
+		DisplayName: Aergia Neuron Summon
+	}
+
+	AergiaNeuronCore: {
+		DisplayName: Aergia Neuron Core
+	}
+
+	BlueExoPulseLaser: {
+		DisplayName: Blue Exo Pulse Laser
+	}
+
+	LargeTeslaSphere: {
+		DisplayName: Large Tesla Sphere
+	}
+
+	RedExoPulseLaser: {
+		DisplayName: Red Exo Pulse Laser
+	}
+}
+
+NPCs: {
+	AergiaNeuron: {
+		DisplayName: XP-00 ヒュプノス眠気ニューロン
+	}
+
+	Draedon: {
+		DisplayName: ドレイドン
+	}
+
+	HypnosBoss: {
+		DisplayName: XP-00 ヒュプノス
+	}
+
+	HypnosPlug: {
+		DisplayName: XP-00 ヒュプノスプラグ
+	}
+}
+

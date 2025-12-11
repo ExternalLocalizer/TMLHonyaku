@@ -1,0 +1,12105 @@
+Achievements: {
+	ExcavatorKill: {
+		Description: 古代の採掘マシン、エクスカベーターを倒す (Credit: EduaRRdo)
+		FriendlyName: 錆びついた古道具
+	}
+
+	Burdened: {
+		Description: すべての溶蝕するエレメントからのデバフを同時に受ける (Credit: Tortilla)
+		FriendlyName: 荷が重すぎる
+	}
+
+	VoidDeathHappening: {
+		Description: ヴォイドに苦しむ (Credit: kekcroc)
+		FriendlyName: 新たな危ない力
+	}
+
+	VivaleBaguette: {
+		Description: 長さが20以上のバゲットを作る (Credit: Tortilla)
+		FriendlyName: En Garde
+	}
+
+	TidalConstructSuicide: {
+		Description: 潮流のコンストラクトを使い自分自身を破壊させる (Credit: Exalted Dale and potatoman999)
+		FriendlyName: 馬鹿なマネ
+	}
+
+	SubspaceKill: {
+		Description: 次元を超えた宇宙の存在、亜空の大蛇を倒す (Credit: EduaRRdo)
+		FriendlyName: サーペント・オブ・ザ・シャドウズ
+	}
+
+	Sirius: {
+		Description: フォトンガイザーを発見する (Credit: kekcroc)
+		FriendlyName: シリウス
+	}
+
+	RefractingCrystalCollect: {
+		Description: ピラミッドの謎を解き明かす (Credit: kekcroc)
+		FriendlyName: 太陽の神
+	}
+
+	PolarisKill: {
+		Description: 四つ目のメカにして戦闘兵器、ポラリスを倒す (Credit: EduaRRdo)
+		FriendlyName: 四つ目の恐怖
+	}
+
+	PinkyKill: {
+		Description: 実験の無惨な失敗作、腐ったピンキーを倒す (Credit: EduaRRdo)
+		FriendlyName: オラより強え
+	}
+
+	OneHundredPercentSuperChungus: {
+		Description: スーパーチャンガスの長きにわたり失われたレリックを入手する (Credit: kekcroc)
+		FriendlyName: 100%スーパーチャンガス
+	}
+
+	LuxKill: {
+		Description: 最も強き精霊、ルクスを倒す (Credit: kekcroc)
+		FriendlyName: 光の中に生きる
+	}
+
+	IntoThePyramid: {
+		Description: ピラミッドをアンロックし侵入する (Credit: Arian)
+		FriendlyName: ピラミッドへ
+	}
+
+	FourthDimension: {
+		Description: 4体のテッセラクトを同時に指示する (Credit: UnknownAkarii)
+		FriendlyName: 四次元
+	}
+
+	CurseKill: {
+		Description: ピラミッドの壁に封じられし外来の呪い、ファラオの呪いを倒す (Credit: EduaRRdo)
+		FriendlyName: エル・ドラード
+	}
+
+	ColossusObtain: {
+		Description: ブレーカーブレードをコロッサスに変化させる (Credit: kekcroc)
+		FriendlyName: 汝に命ずる。跪け!
+	}
+
+	ChallengerRings: {
+		Description: 挑戦者の指輪を作成する (Credit: kekcroc)
+		FriendlyName: 一つの指輪がすべてを統べる
+	}
+
+	ArchaeologistTalk: {
+		Description: 異界からの研究者、考古学者と会う (Credit: EduaRRdo)
+		FriendlyName: 謎めいた男
+	}
+
+	AdvisorKill: {
+		Description: プラネタリウムの操り人、アドバイザーを倒す (Credit: EduaRRdo)
+		FriendlyName: シャイニングスター
+	}
+
+	GlowmothKill: {
+		Description: 菌糸の洞窟に巣食う光を纏った忌まわしき怪物、グロウモスを倒す (Credit: EduaRRdo)
+		FriendlyName: 電気をつけたのはだぁれ?
+	}
+}
+
+Configs: {
+	SOTSServerConfig: {
+		NaturallySpawningPeanutBushes: {
+			Tooltip: オフにするとピーナッツの茂みが草の上で自然に生えなくなります
+			Label: ピーナッツの茂みの自然生成
+		}
+
+		GeneratePhaseOreAfterDefeatingLux: {
+			Tooltip: オフにするとルクスを初めて倒した後フェーズ鉱石が生成されなくなります
+			Label: ルクス討伐後のフェーズ鉱石生成
+		}
+
+		AddPlightToVanillaRecipes: {
+			Tooltip: オフにすると通常、困窮のソウルがそれを必要としないレシピから削除されますDisable and reload in order to remove Soul of Plight from recipes that normally do not require it
+			Label: 困窮のソウルをバニラレシピに追加
+		}
+
+		NerfInsignia: {
+			Tooltip:
+				'''
+				ルクスが倒されるまで飛翔記章の無限飛行を無効にし、撃破後に有効にします。
+				ルクスが倒される前では、効果が飛行時間二倍のみになります。
+				この変更が受け入れられない場合はオフにすることもできます。
+				'''
+			Label: ルクス撃破前の飛翔記章ナーフ
+		}
+
+		DisplayName: サーバー設定
+	}
+
+	SOTSConfig: {
+		alternativeMusic: {
+			Tooltip:
+				'''
+				オンの状態ではBanana Lizardによるサウンドトラックが再生されます。
+				オフの状態ではHeart Up Plusによるサウンドトラックが再生されます。
+				'''
+			Label: SOTSアナザー音楽の切り替え
+		}
+
+		additionalTexturePackVisuals: {
+			Tooltip:
+				'''
+				タイルのホコリなどの追加のビジュアルを追加します。
+				SOTSテクスチャパックが有効である必要があります。
+				'''
+			Label: 追加の視覚効果
+		}
+
+		screenShake: {
+			Tooltip: SOTSがもたらす振動のみを変更します
+			Label: 画面の振動
+		}
+
+		coloredTimeFreeze: {
+			Tooltip: 敵止め中の画面の色をティントかモノクロに変更します
+			Label: 色付きの時止めエフェクト
+		}
+
+		lowFidelityMode: {
+			Tooltip:
+				'''
+				様々なビジュアルエフェクトを軽減しフレームレートを上昇させます
+				これは主にボス関連のビジュアルと投射物の軌道が適用されます
+				'''
+			Label: パフォーマンスモード
+		}
+
+		simpleVoidFill: {
+			Tooltip: ヴォイドゲージ内部の目盛りを削除します
+			Label: シンプルなヴォイドゲージの中身
+		}
+
+		simpleVoidText: {
+			Tooltip: ヴォイドゲージのテキストからヴォイドミニオン数表示を削除します
+			Label: シンプルなヴォイドゲージのテキスト
+		}
+
+		voidBarHoverTextOn: {
+			Tooltip: ヴォイドゲージにカーソルを合わせた時に出てくるテキストを表示/非表示にします
+			Label: ヴォイドゲージホバーテキスト
+		}
+
+		voidBarTextOn: {
+			Tooltip: ヴォイドゲージの上部にあるテキストを表示または非表示にします
+			Label: ヴォイドゲージ上部テキスト
+		}
+
+		alternateVoidBarStyle: {
+			Tooltip: ヴォイドゲージの見た目を少し変えます
+			Label: ヴォイドゲージのスタイル変更
+		}
+
+		alternateVoidBarDirection: {
+			Tooltip: ヴォイドゲージが動く方向を変更します
+			Label: ヴォイドゲージの向き変更
+		}
+
+		lockVoidBar: {
+			Tooltip:
+				'''
+				ヴォイドゲージがカーソルによって動かされなくなります。
+				ヴォイドゲージが体力、マナゲージなどのスタイル変更によって移動されることも防ぎます。
+				'''
+			Label: ヴォイドゲージを固定
+		}
+
+		voidBarPointY: {
+			Tooltip:
+				'''
+				ヴォイドゲージの縦位置です。
+				上からのピクセル数で測ります。
+				'''
+			Label: ヴォイドゲージY位置
+		}
+
+		voidBarPointX: {
+			Tooltip:
+				'''
+				ヴォイドゲージの横位置です。
+				左からのピクセル数で測ります。
+				'''
+			Label: ヴォイドゲージX位置
+		}
+
+		StarterHouseType: {
+			Tooltip:
+				'''
+				-2 = スターターハウスなし
+				-1 = ランダムなスターターハウス
+				0 = レガシーハウス
+				1 = レガシー天使
+				2 = レガシー樽
+				3 = レガシー巨大ホテル
+				4 = レガシーオリジン
+				5 = レガシー塔
+				6 = レガシー剣
+				7 = レガシーツリー
+				8 = レガシー図書館
+				9 = レガシー木箱
+				10 = マッシュニブハウス
+				11 = アストロビットハウス
+				12 = ブラッドムーン
+				13 = 山賊
+				14 = 大岩
+				15 = 坑道
+				16 = 酒場
+				17 = 混沌
+				18 = 水没
+				19 = 快適
+				20 = 自然
+				'''
+			Label: スターターハウスの種類(ワールド生成時)
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Keybinds: {
+	Mods: {
+		SOTS: {
+			KeyBindName: {
+				SlowFlight: {
+					DisplayName: 低速飛行
+				}
+
+				MFM: {
+					DisplayName: 飛行モード切り替え
+				}
+
+				ArmorSet: {
+					DisplayName: アーマーセットボーナス
+				}
+
+				Blink: {
+					DisplayName: ブリンク
+				}
+			}
+		}
+	}
+}
+
+DamageClasses: {
+	VoidSummon: {
+		DisplayName: Mods.SOTS.DamageClassName.VoidSummon
+	}
+
+	VoidRanged: {
+		DisplayName: Mods.SOTS.DamageClassName.VoidRanged
+	}
+
+	VoidMelee: {
+		DisplayName: Mods.SOTS.DamageClassName.VoidMelee
+	}
+
+	VoidMagic: {
+		DisplayName: Mods.SOTS.DamageClassName.VoidMagic
+	}
+
+	VoidGeneric: {
+		DisplayName: Mods.SOTS.DamageClassName.VoidGeneric
+	}
+}
+
+Projectiles: {
+	VisionAmuletSwitchAnimation: {
+		DisplayName: Vision Amulet Switch Animation
+	}
+
+	JumboSurpriseCapsuleProj: {
+		DisplayName: Jumbo Surprise Capsule Proj
+	}
+
+	Missile: {
+		DisplayName: Missile
+	}
+
+	MissileLauncher: {
+		DisplayName: Missile Launcher
+	}
+
+	Boopy: {
+		DisplayName: Boopy
+	}
+
+	DrillHand: {
+		DisplayName: Drill Hand
+	}
+
+	LuxBallProjectile: {
+		DisplayName: Spirit Golf Ball
+	}
+
+	EvilEye: {
+		DisplayName: Evil Eye
+	}
+
+	EvilBolt2: {
+		DisplayName: Evil Bolt
+	}
+
+	ExcavatorBoltSmall: {
+		DisplayName: Excavator Bolt Small
+	}
+
+	ExcavatorBoltBig: {
+		DisplayName: Excavator Bolt Big
+	}
+
+	ExcavatorSaw: {
+		DisplayName: Excavator Saw
+	}
+
+	AncientSteelBullet: {
+		DisplayName: Scrap Metal Bullet
+	}
+
+	AncientSteelArrow: {
+		DisplayName: Scrap Metal Arrow
+	}
+
+	ExcavatorBolt: {
+		DisplayName: Excavator Bolt
+	}
+
+	LightspeedKingblade: {
+		DisplayName: Lightspeed Kingblade
+	}
+
+	KingSlashThrow: {
+		DisplayName: King Slash Throw
+	}
+
+	KingSlash: {
+		DisplayName: King Slash
+	}
+
+	ExcavatorRocket: {
+		DisplayName: Excavator Rocket
+	}
+
+	ExcavatorOrb: {
+		DisplayName: Excavator Orb
+	}
+
+	ExcavatorLightning: {
+		DisplayName: Excavator Lightning
+	}
+
+	CoalCartCoal: {
+		DisplayName: Coal Cart Coal
+	}
+
+	CollapseBlock: {
+		DisplayName: Collapse Block
+	}
+
+	HardlightHook: {
+		DisplayName: Hardlight Hook
+	}
+
+	FoundryFireBoom: {
+		DisplayName: Meatball Explosion
+	}
+
+	FoundryFire: {
+		DisplayName: Meatball
+	}
+
+	FriendlyBridgeBurnerFlame: {
+		DisplayName: Friendly Bridge Burner Flame
+	}
+
+	BridgeburnerFlame: {
+		DisplayName: Bridgeburner Flame
+	}
+
+	BridgeburnerLaser: {
+		DisplayName: Bridgeburner Laser
+	}
+
+	BridgeburnerDeadzone: {
+		DisplayName: Bridgeburner Deadzone
+	}
+
+	BlinkLightning: {
+		DisplayName: Blink Lightning
+	}
+
+	BlinkBladeSlash: {
+		DisplayName: Blink Blade Slash
+	}
+
+	MoonClockHoldOut: {
+		DisplayName: Moon Clock Hold Out
+	}
+
+	MoonClock: {
+		DisplayName: Moon Clock
+	}
+
+	AccretionNova: {
+		DisplayName: Accretion Nova
+	}
+
+	AccretionSingularity: {
+		DisplayName: Accretion Singularity
+	}
+
+	AccretionDisc: {
+		DisplayName: Accretion Disc
+	}
+
+	FishBlood: {
+		DisplayName: Fish Blood
+	}
+
+	FishBomb: {
+		DisplayName: Fish Bomb
+	}
+
+	PintOPunch: {
+		DisplayName: Pint O Punch
+	}
+
+	AncientSteelLantern: {
+		DisplayName: Steel Lantern
+	}
+
+	TorchEmberMk2: {
+		DisplayName: Torch Ember Mk2
+	}
+
+	TorchBombMk2: {
+		DisplayName: Torch Bomb Mk2
+	}
+
+	WoeBall: {
+		DisplayName: Little Woe
+	}
+
+	BlongusProj: {
+		DisplayName: Blongus Proj
+	}
+
+	FamishedDeadzone: {
+		DisplayName: Famished Deadzone
+	}
+
+	FamishedLaser: {
+		DisplayName: Famished Laser
+	}
+
+	ConduitParticleProjectile: {
+		DisplayName: Conduit Particle Projectile
+	}
+
+	FortressCrasher: {
+		DisplayName: Fortress Crasher
+	}
+
+	MagmaLaser: {
+		DisplayName: Magma Laser
+	}
+
+	MagmaBeam: {
+		DisplayName: Magma Beam
+	}
+
+	CrystalExplosionSmall: {
+		DisplayName: Crystal Explosion Small
+	}
+
+	CrystalExplosionBig: {
+		DisplayName: Crystal Explosion Big
+	}
+
+	ThroeProj: {
+		DisplayName: Throe Proj
+	}
+
+	PBolt: {
+		DisplayName: Energy Bolt
+	}
+
+	PBowArrow: {
+		DisplayName: Compound Arrow
+	}
+
+	PBow: {
+		DisplayName: Compound Bow
+	}
+
+	SandstormPuff: {
+		DisplayName: Sandstorm Puff
+	}
+
+	SandstormPouch: {
+		DisplayName: Sandstorm Pouch
+	}
+
+	StarShard: {
+		DisplayName: Starshard
+	}
+
+	FizzleStar: {
+		DisplayName: Fizzle Star
+	}
+
+	StarshardSlash: {
+		DisplayName: Starshard Slash
+	}
+
+	FreshGreenyCounter: {
+		DisplayName: Fresh Greeny Counter
+	}
+
+	FreshGreeny: {
+		DisplayName: Fresh Greeny
+	}
+
+	WishingStarProj: {
+		DisplayName: Wishing Star
+	}
+
+	TesseractSlash: {
+		DisplayName: Tesseract Slash
+	}
+
+	PlagueBeam: {
+		DisplayName: Plague Beam
+	}
+
+	PlagueSpitter: {
+		DisplayName: Plague Spitter
+	}
+
+	IcebreakerShard: {
+		DisplayName: Icebreaker Shard
+	}
+
+	IcebreakerIce: {
+		DisplayName: Icebreaker Ice
+	}
+
+	Icebreaker: {
+		DisplayName: Icebreaker
+	}
+
+	CorpsebloomAcid: {
+		DisplayName: Corpsebloom Acid
+	}
+
+	BundleSnakeMinion: {
+		DisplayName: Bundle Snake Minion
+	}
+
+	ChimeraFireballSmall: {
+		DisplayName: Shadow Fireball
+	}
+
+	ChimeraFireball: {
+		DisplayName: Shadow Fireball
+	}
+
+	EarthBreakerPickaxe: {
+		DisplayName: Earth Breaker Pickaxe
+	}
+
+	GuardianGreatswordBeam: {
+		DisplayName: Guardian Greatsword Beam
+	}
+
+	GuardianGreatswordSlash: {
+		DisplayName: Guardian Greatsword Slash
+	}
+
+	BrassBall: {
+		DisplayName: Brass Ball
+	}
+
+	BrassWhipProjectile: {
+		DisplayName: Brass Whip
+	}
+
+	TesseractLaser: {
+		DisplayName: Tesseract Laser
+	}
+
+	TesseractServant: {
+		DisplayName: Tesseract Servant
+	}
+
+	EarthGrinderSlash: {
+		DisplayName: Earth Grinder Slash
+	}
+
+	SpawnEnemyProj: {
+		DisplayName: Spawn Enemy Proj
+	}
+
+	EmberDamage: {
+		DisplayName: Ember Damage
+	}
+
+	SootBall: {
+		DisplayName: Soot Ball
+	}
+
+	VoidspaceFlameHitbox: {
+		DisplayName: Voidspace Flame Hitbox
+	}
+
+	PolarisLaser: {
+		DisplayName: Polaris Laser
+	}
+
+	PolarisBeam: {
+		DisplayName: Polaris Beam
+	}
+
+	PolarisMines: {
+		DisplayName: Polaris Mine
+	}
+
+	HydroBubble: {
+		DisplayName: Hydro Bubble
+	}
+
+	WaterShark: {
+		DisplayName: Water Shark
+	}
+
+	AtlantisGlaive: {
+		DisplayName: Atlantis Glaive
+	}
+
+	AtlantisProj: {
+		DisplayName: Atlantis
+	}
+
+	HydroServant: {
+		DisplayName: Hydro Servant
+	}
+
+	PhantarayBall: {
+		DisplayName: Phantaray Ball
+	}
+
+	GlowWhipProjectile: {
+		DisplayName: Glow Whip Projectile
+	}
+
+	PogBubble: {
+		DisplayName: Pog Bubble
+	}
+
+	VorpalLightningDamage: {
+		DisplayName: Origin Thunder
+	}
+
+	VorpalLightning2: {
+		DisplayName: Vorpal Lightning
+	}
+
+	VorpalLightning: {
+		DisplayName: Vorpal Thunder
+	}
+
+	DimensionShredderLightning: {
+		DisplayName: Dimension Shredder Lightning
+	}
+
+	IlluminantBolt: {
+		DisplayName: Illuminant Bolt
+	}
+
+	IlluminantAxe: {
+		DisplayName: Illuminant Axe
+	}
+
+	NightIlluminator: {
+		DisplayName: Night Illuminator
+	}
+
+	EvostonePebble: {
+		DisplayName: Evostone Pebble
+	}
+
+	EvostoneLongbow: {
+		DisplayName: Evostone Longbow
+	}
+
+	EvostoneBobber: {
+		DisplayName: Evostone Bobber
+	}
+
+	BigEvostonePebble: {
+		DisplayName: Big Evostone Pebble
+	}
+
+	DuneSplicerCrusher: {
+		DisplayName: Dune Splicer
+	}
+
+	DuneSpike: {
+		DisplayName: Dune Spike
+	}
+
+	DuneCrush: {
+		DisplayName: Dune Crush
+	}
+
+	DreamLamp: {
+		DisplayName: Dream Lamp
+	}
+
+	DreamingFrame: {
+		DisplayName: Dreaming Frame
+	}
+
+	VorpalThrow: {
+		DisplayName: Vertebraeker
+	}
+
+	VorpalKnifeSlash: {
+		DisplayName: Vorpal Slash
+	}
+
+	VesperaSlash: {
+		DisplayName: Vespera Slash
+	}
+
+	BloodSplatter: {
+		DisplayName: Blood Splatter
+	}
+
+	BetrayersSlash: {
+		DisplayName: Betrayer's Slash
+	}
+
+	LazyMinerProjectile: {
+		DisplayName: belphagor
+	}
+
+	AmmoRegainProj: {
+		DisplayName: Ammo Regain proj
+	}
+
+	KelpWhipProjectile: {
+		DisplayName: Kelp Whip Projectile
+	}
+
+	MineralariumProjectile: {
+		DisplayName: Mineralarium Projectile
+	}
+
+	SkipSlash: {
+		DisplayName: Selene Slash
+	}
+
+	SeleneSlash: {
+		DisplayName: Some Slash
+	}
+
+	SkipBullet: {
+		DisplayName: Wormhole Bullet
+	}
+
+	SkipArrow: {
+		DisplayName: Wormhole Arrow
+	}
+
+	UltraLaser: {
+		DisplayName: Ultra Laser
+	}
+
+	PortalDustProjectile: {
+		DisplayName: Portal Dust Projectile
+	}
+
+	VoidAnomaly: {
+		DisplayName: Void Anomaly
+	}
+
+	GlowSparkle: {
+		DisplayName: Glow Sparkle
+	}
+
+	GlowBombShard: {
+		DisplayName: Glow Shard
+	}
+
+	GlowBombOrb: {
+		DisplayName: Glow Bomb
+	}
+
+	WaveBall: {
+		DisplayName: Glow Ball
+	}
+
+	PressProjectile: {
+		DisplayName: Pancake Presser
+	}
+
+	PixelBlaster: {
+		DisplayName: Pixel Blaster
+	}
+
+	PixelLaser: {
+		DisplayName: Pixel Laser
+	}
+
+	TorchEmber: {
+		DisplayName: Torch Ember
+	}
+
+	TorchBombWood: {
+		DisplayName: Torch Bomb
+	}
+
+	TorchBomb: {
+		DisplayName: Torch Bomb
+	}
+
+	IlluminantStaffShard: {
+		DisplayName: Illuminant Shard
+	}
+
+	IlluminantStaffOrb: {
+		DisplayName: Illuminant Orb
+	}
+
+	Zeppelin: {
+		DisplayName: Zephyrous Zeppelin
+	}
+
+	WormWoodSpike: {
+		DisplayName: Wormwood Spike
+	}
+
+	WormWoodCrusher: {
+		DisplayName: Wormwood Arm
+	}
+
+	WormBullet: {
+		DisplayName: Wormwood Bullet
+	}
+
+	WorldgenCapture_Highlight: {
+		DisplayName: Worldgen Capture Visual
+	}
+
+	WispOrange: {
+		DisplayName: Will o'
+	}
+
+	WingedKnife: {
+		DisplayName: Winged Knife
+	}
+
+	WebBolt: {
+		DisplayName: Web Bolt
+	}
+
+	Webbing: {
+		DisplayName: Webbing
+	}
+
+	WaveBlast: {
+		DisplayName: Wave Blast
+	}
+
+	VoidspaceExplosion: {
+		DisplayName: Voidspace Explosion
+	}
+
+	VoidspaceCell: {
+		DisplayName: Voidspace Cell
+	}
+
+	VoidRing: {
+		DisplayName: Void Ring
+	}
+
+	VoidLock: {
+		DisplayName: Void Lock
+	}
+
+	VoidHealEffect: {
+		DisplayName: Void Heal Effect
+	}
+
+	VoidDeath: {
+		DisplayName: Voiden Collapse
+	}
+
+	VisionWeapon: {
+		DisplayName: Vision Weapon
+	}
+
+	VisionFlare: {
+		DisplayName: Vision Flare
+	}
+
+	VibrantShard: {
+		DisplayName: Vibrant Shard
+	}
+
+	VibrantRing: {
+		DisplayName: Vibrant Ring
+	}
+
+	VibrantRifle: {
+		DisplayName: Vibrant Rifle
+	}
+
+	VibrantBullet: {
+		DisplayName: Vibrant Bullet
+	}
+
+	VibrantBolt: {
+		DisplayName: Vibrant Bolt
+	}
+
+	VibrantBlade: {
+		DisplayName: Lightspeed Blade
+	}
+
+	VibrantBall: {
+		DisplayName: Vibrant Ball
+	}
+
+	VibrantArrow: {
+		DisplayName: Vibrant Arrow
+	}
+
+	VibrantArc: {
+		DisplayName: Vibrant Arc
+	}
+
+	VertebraekerThrow: {
+		DisplayName: Vertebraeker
+	}
+
+	VertebraekerSlash: {
+		DisplayName: Vertebraeker Slash
+	}
+
+	UndoParticles: {
+		DisplayName: Undo
+	}
+
+	TwilightDart: {
+		DisplayName: TwilightDart
+	}
+
+	TwilightBobber: {
+		DisplayName: Twilight Bobber
+	}
+
+	TwilightBlade: {
+		DisplayName: Twilight Blade
+	}
+
+	TreasureStarPortal: {
+		DisplayName: Treasure Star Portal
+	}
+
+	TravelingFlareFlame: {
+		DisplayName: Flare Flame
+	}
+
+	Trains: {
+		DisplayName: Train Snake
+	}
+
+	TracerArrow: {
+		DisplayName: Tracer Arrow
+	}
+
+	ToothAcheThrow: {
+		DisplayName: Tooth Ache
+	}
+
+	ToothAcheSlash: {
+		DisplayName: Tooth Ache Slash
+	}
+
+	TinyPlanetTear: {
+		DisplayName: Tiny Planet Tear
+	}
+
+	TidalWave: {
+		DisplayName: Tidal Wave
+	}
+
+	TidalSpirit: {
+		DisplayName: Tidal Spirit
+	}
+
+	TidalConstructTrail: {
+		DisplayName: Hardlight Trail
+	}
+
+	TidalBeam: {
+		DisplayName: Tidal Beam
+	}
+
+	ThunderSpawnBeam: {
+		DisplayName: Thunder Beam
+	}
+
+	ThundershockShortbow: {
+		DisplayName: Thundershock Crossbow
+	}
+
+	ThunderRing: {
+		DisplayName: Thunder Ring
+	}
+
+	ThunderColumnFast: {
+		DisplayName: Thunder Column
+	}
+
+	ThunderColumnBlue: {
+		DisplayName: Thunder Column
+	}
+
+	ThunderColumn: {
+		DisplayName: Thunder Column
+	}
+
+	ThunderBall: {
+		DisplayName: Chaos Thunder Ball
+	}
+
+	TestFireball: {
+		DisplayName: Accursed Bolt
+	}
+
+	TerminatorSquirrel: {
+		DisplayName: Terminator Squirrel
+	}
+
+	TerminatorAcorn: {
+		DisplayName: Terminator Acorn
+	}
+
+	SupernovaSmash: {
+		DisplayName: Supernova Hammer
+	}
+
+	SupernovaScatter: {
+		DisplayName: Supernova Scatter
+	}
+
+	SupernovaLaser: {
+		DisplayName: Supernova Laser
+	}
+
+	SupernovaHammer: {
+		DisplayName: Supernova Hammer
+	}
+
+	SubspaceServant: {
+		DisplayName: Subspace Servant
+	}
+
+	SubspaceLingeringFlame: {
+		DisplayName: Fire Bolt
+	}
+
+	SubspaceEyeWall: {
+		DisplayName: Subspace Eye Wall
+	}
+
+	SubspaceEye: {
+		DisplayName: Subspace Eye
+	}
+
+	SubspaceDeathAnimation: {
+		DisplayName: Subspace Death Animation
+	}
+
+	SubspaceCrusher: {
+		DisplayName: Spirit Arm
+	}
+
+	SubspaceBoosterProj: {
+		DisplayName: Subspace Booster Proj
+	}
+
+	StrangeKeystoneExplosion: {
+		DisplayName: Strange Keystone Explosion
+	}
+
+	StormArrow: {
+		DisplayName: Tracer Arrow
+	}
+
+	SteelShrapnel: {
+		DisplayName: Steel Shrapnel
+	}
+
+	StarshotCrossbow: {
+		DisplayName: Starshot Crossbow
+	}
+
+	Starshot: {
+		DisplayName: Starshot
+	}
+
+	StarLaser: {
+		DisplayName: Star Laser
+	}
+
+	StarcoreRifle: {
+		DisplayName: Starcore Rifle
+	}
+
+	StarcoreBullet: {
+		DisplayName: Starcore Bullet
+	}
+
+	StarBolt: {
+		DisplayName: Starlight Bolt
+	}
+
+	SquirrelMinion: {
+		DisplayName: Squirrel
+	}
+
+	SporeCloudFriendly: {
+		DisplayName: Spore Cloud
+	}
+
+	SporeCloud: {
+		DisplayName: Spore Cloud
+	}
+
+	SporeBomb: {
+		DisplayName: Spore Bomb
+	}
+
+	SpiralDeathBeam: {
+		DisplayName: Spiral Death Beam
+	}
+
+	SpikyPufferfish: {
+		DisplayName: Spiky Pufferfish
+	}
+
+	SpikeTrap: {
+		DisplayName: Spike Trap
+	}
+
+	SpiderCrusher: {
+		DisplayName: Spider Arm
+	}
+
+	SpectralWispLaser: {
+		DisplayName: Spectral Wisp Laser
+	}
+
+	SpectralWisp: {
+		DisplayName: Spectral Wisp
+	}
+
+	SpawnGoldGate: {
+		DisplayName: Spawn Gold Gate
+	}
+
+	SoulofRetaliation: {
+		DisplayName: Soul of Retaliation
+	}
+
+	SoulofLooting: {
+		DisplayName: Sool of Looting
+	}
+
+	SoulLock: {
+		DisplayName: Soul Lock
+	}
+
+	SoulEaterCrusher: {
+		DisplayName: Soul Eater Crusher
+	}
+
+	SoulCrush: {
+		DisplayName: Soul Crush
+	}
+
+	SolarPetal: {
+		DisplayName: Solar Petal
+	}
+
+	SolarBullet: {
+		DisplayName: Solar Bullet
+	}
+
+	Snake: {
+		DisplayName: Snakey Boi
+	}
+
+	SmokePixel: {
+		DisplayName: Pathogen Cloud
+	}
+
+	SmallStellarHitbox: {
+		DisplayName: Starsplosion
+	}
+
+	SmallCollapseLaser: {
+		DisplayName: Continuum Collapse
+	}
+
+	SkywardBladeBeam: {
+		DisplayName: Skyward Blade
+	}
+
+	ShroomSpore: {
+		DisplayName: Spore
+	}
+
+	ShrimpLaser: {
+		DisplayName: Shrimp Laser
+	}
+
+	ShattershinePulse: {
+		DisplayName: Shattershine Pulse
+	}
+
+	Shattershine: {
+		DisplayName: Shattershine
+	}
+
+	ShatterShard: {
+		DisplayName: Shatter Shard
+	}
+
+	ShatterFix: {
+		DisplayName: Shatter Fix
+	}
+
+	Shardstorm: {
+		DisplayName: Shardstorm
+	}
+
+	SharangaBolt: {
+		DisplayName: Sharanga Bolt
+	}
+
+	SharangaBlastSummon: {
+		DisplayName: Sharanga Crush
+	}
+
+	SharangaBlast: {
+		DisplayName: Sharanga Crush
+	}
+
+	FriendlyShadeSpear: {
+		DisplayName: Shade Spear
+	}
+
+	ShadeSpear: {
+		DisplayName: Curse
+	}
+
+	SilkCocoonProjectile: {
+		DisplayName: silk Cocoon sync projectile
+	}
+
+	Seeker: {
+		DisplayName: Critical Seeker
+	}
+
+	ScytheSlash: {
+		DisplayName: Scythe Slash
+	}
+
+	Sawflake: {
+		DisplayName: Sawflake
+	}
+
+	SandPuff: {
+		DisplayName: Sandy Puff
+	}
+
+	SandBullet: {
+		DisplayName: Sand Bullet
+	}
+
+	RubySpawnerFinder: {
+		DisplayName: Ruby Spawner Finder
+	}
+
+	RubySpawner: {
+		DisplayName: Ruby Spawner
+	}
+
+	RubyMonolith: {
+		DisplayName: Ruby Monolith
+	}
+
+	RubyKeystoneIndicator: {
+		DisplayName: Ruby Energy
+	}
+
+	RubyBurst: {
+		DisplayName: Ruby Burst
+	}
+
+	RoseBow: {
+		DisplayName: Rose Bow
+	}
+
+	Riptide: {
+		DisplayName: Riptide
+	}
+
+	RippleWaveSummon: {
+		DisplayName: Ripple Wave
+	}
+
+	RippleWave: {
+		DisplayName: Ripple Wave
+	}
+
+	RevolutionBoltNight: {
+		DisplayName: Revolution Bolt Night
+	}
+
+	RevolutionBoltDay: {
+		DisplayName: Revolution Bolt Day
+	}
+
+	RevolutionBolt: {
+		DisplayName: Revolution Bolt
+	}
+
+	RelocatorBeam: {
+		DisplayName: Relocator Beam
+	}
+
+	ReleaseWallMimic: {
+		DisplayName: Release Wall Mimic
+	}
+
+	RefractingCrystalProj: {
+		DisplayName: Refracting Crystal Counter
+	}
+
+	RedNatureBolt: {
+		DisplayName: Pulverizer Bolt
+	}
+
+	RedNatureBeat: {
+		DisplayName: Pulverizer Blast
+	}
+
+	RedLaser: {
+		DisplayName: Ceremonial Laser
+	}
+
+	RecollectHook: {
+		DisplayName: Recollect Hook
+	}
+
+	Rebar: {
+		DisplayName: Rebar
+	}
+
+	ReaperScythe: {
+		DisplayName: Reaper Scythe
+	}
+
+	RealityShatter: {
+		DisplayName: Shattering Laser
+	}
+
+	Razorwater: {
+		DisplayName: Razorwater
+	}
+
+	RainbowTrail: {
+		DisplayName: Rainbow Trail
+	}
+
+	Rainbolt: {
+		DisplayName: Rain Bolt
+	}
+
+	PyrocideSlash: {
+		DisplayName: Pyrocide Slash
+	}
+
+	PyramidSpear: {
+		DisplayName: Imperial Pike
+	}
+
+	PyramidGateProj: {
+		DisplayName: Multiplayer Code 5000
+	}
+
+	PyramidCollapse: {
+		DisplayName: Fallen Bricks
+	}
+
+	PutridEye: {
+		DisplayName: Putrid Eye
+	}
+
+	PurpleThunderCluster: {
+		DisplayName: Thunder Cluster
+	}
+
+	PurpleLightningZap: {
+		DisplayName: Purple Lightning
+	}
+
+	PurpleLightningDamage: {
+		DisplayName: Purple Lightning
+	}
+
+	PurpleLightning: {
+		DisplayName: Purple Lightning
+	}
+
+	PurpleHomingBolt: {
+		DisplayName: Purple Homing Bolt
+	}
+
+	PurpleBobber: {
+		DisplayName: Purple Bobber
+	}
+
+	PurgatoryLightning: {
+		DisplayName: Purgatory Column
+	}
+
+	PurgatoryGhost: {
+		DisplayName: Purgatory Ghost
+	}
+
+	PulverizerLaser: {
+		DisplayName: Pulverizer Laser
+	}
+
+	PulverizerCrusher: {
+		DisplayName: Pulverizer Arm
+	}
+
+	PrismOrb: {
+		DisplayName: Starshot
+	}
+
+	PrismLaser: {
+		DisplayName: Photon Laser
+	}
+
+	Poyoyo: {
+		DisplayName: Poyo-yo
+	}
+
+	PotProjectile: {
+		DisplayName: Pot Projectile
+	}
+
+	PolarMortar: {
+		DisplayName: Polar Mortar
+	}
+
+	PolarBullet: {
+		DisplayName: Polar Bullet
+	}
+
+	PlatinumDart: {
+		DisplayName: Platinum Dart
+	}
+
+	PlatinumCurse: {
+		DisplayName: Platinum Curse
+	}
+
+	PlasmaStar: {
+		DisplayName: Plasma Star
+	}
+
+	PlasmaSphere: {
+		DisplayName: Plasma Sphere
+	}
+
+	PlasmaShrimp: {
+		DisplayName: Plasma Shrimp
+	}
+
+	PlasmaphobiaBolt: {
+		DisplayName: Plasma Bolt
+	}
+
+	PlasmaLightningZap: {
+		DisplayName: Plasma Lightning
+	}
+
+	PlasmaLightningDamage: {
+		DisplayName: Plasma Lightning
+	}
+
+	PlasmaCutterTrail: {
+		DisplayName: Plasma Cutter Trail
+	}
+
+	PlasmaCutter: {
+		DisplayName: Time to die
+	}
+
+	PlasmaCrush: {
+		DisplayName: Plasma Crush
+	}
+
+	PlasmaBall: {
+		DisplayName: Plasma Ball
+	}
+
+	PinkyTurret: {
+		DisplayName: Wormwood Turret
+	}
+
+	PinkyMusketBall: {
+		DisplayName: Pinky Shot
+	}
+
+	PinkyHook: {
+		DisplayName: Wormwood Hook
+	}
+
+	PinkyBomber: {
+		DisplayName: Pinky Bomber
+	}
+
+	PinkTracer: {
+		DisplayName: Putrid Tracer
+	}
+
+	PinkLightningZap: {
+		DisplayName: Pink Lightning
+	}
+
+	PinkLightningDamage: {
+		DisplayName: Pink Lightning
+	}
+
+	PinkLightning: {
+		DisplayName: Pink Lightning
+	}
+
+	PinkLaser: {
+		DisplayName: Pinky Laser
+	}
+
+	PinkExplosion: {
+		DisplayName: Pink Explosion
+	}
+
+	PinkCrush: {
+		DisplayName: Putrid Collapse
+	}
+
+	PinkBullet: {
+		DisplayName: Putrid Bullet
+	}
+
+	PinkBubble: {
+		DisplayName: Pink Bubble Stream
+	}
+
+	PhotonGeyser: {
+		DisplayName: Photon Geyser
+	}
+
+	PhaseSpear: {
+		DisplayName: Phase Spear
+	}
+
+	PhaseEraser: {
+		DisplayName: Phase Eraser
+	}
+
+	PhaseDart: {
+		DisplayName: Phase Dart
+	}
+
+	PhaseColumn: {
+		DisplayName: Phase Thunder
+	}
+
+	PharaohShade: {
+		DisplayName: Pharaoh Shade
+	}
+
+	PhantomFist: {
+		DisplayName: Phantom Fist
+	}
+
+	PetPutridPinkyCrystal: {
+		DisplayName: Pinky Pet
+	}
+
+	PermafrostSpirit: {
+		DisplayName: Permafrost Spirit
+	}
+
+	PermafrostSpike: {
+		DisplayName: Permafrost Spike
+	}
+
+	PermafrostLinger: {
+		DisplayName: Lingering Permafrost
+	}
+
+	PerfectStarLaser2: {
+		DisplayName: Star Laser
+	}
+
+	PerfectStarLaser: {
+		DisplayName: Star Laser
+	}
+
+	PerfectStar: {
+		DisplayName: Perfect Star
+	}
+
+	PenguinMissile: {
+		DisplayName: Penguin Missile
+	}
+
+	PenguinCopter: {
+		DisplayName: Penguin Copter
+	}
+
+	PeanutExplosion: {
+		DisplayName: Peanut Bomb
+	}
+
+	PeanutBomb: {
+		DisplayName: Peanut Bomb
+	}
+
+	Peanut: {
+		DisplayName: Peanut
+	}
+
+	Pathogen: {
+		DisplayName: Pathogen Ball
+	}
+
+	OtherworldlyTracer: {
+		DisplayName: Otherworldly Tracer
+	}
+
+	OtherworldlySpirit: {
+		DisplayName: Otherworldly Spirit
+	}
+
+	OtherworldlyBolt: {
+		DisplayName: Phase Bolt
+	}
+
+	OtherworldlyBall: {
+		DisplayName: Phase Ball
+	}
+
+	OtherworldLightning: {
+		DisplayName: Otherworld Lightning
+	}
+
+	OriginLightningZap: {
+		DisplayName: Origin Thunder
+	}
+
+	OriginLightningDamage: {
+		DisplayName: Origin Thunder
+	}
+
+	OrangeWispLaser: {
+		DisplayName: Orange Wisp Laser
+	}
+
+	OlympianAxe: {
+		DisplayName: Olympian Axe
+	}
+
+	ObsidianStar: {
+		DisplayName: Hellfury Star
+	}
+
+	NorthStarStar: {
+		DisplayName: North Star Star
+	}
+
+	NorthStarExplosion: {
+		DisplayName: North Starsplosion
+	}
+
+	NorthStar: {
+		DisplayName: North Star
+	}
+
+	NatureSpirit: {
+		DisplayName: Nature Spirit
+	}
+
+	NatureBoltFriendly: {
+		DisplayName: Nature Bolt
+	}
+
+	NatureBolt: {
+		DisplayName: Nature Bolt
+	}
+
+	NatureBeatFriendly: {
+		DisplayName: Nature Blast
+	}
+
+	NatureBeat: {
+		DisplayName: Nature Blast
+	}
+
+	NatureBeam: {
+		DisplayName: Nature Beam
+	}
+
+	multiplayerDarkEye: {
+		DisplayName: multiplayer Dark Eye
+	}
+
+	MiniPolarisCannon: {
+		DisplayName: Polar Cannon
+	}
+
+	MinersPickaxe: {
+		DisplayName: Miner's Pickaxe
+	}
+
+	Metalmalgamation: {
+		DisplayName: Metalmalgamation
+	}
+
+	MantisGripCrusher: {
+		DisplayName: Mantis Grip Crusher
+	}
+
+	ManicMiner: {
+		DisplayName: Void Mining Laser
+	}
+
+	ManaLock: {
+		DisplayName: Mana Lock
+	}
+
+	MacaroniMoon: {
+		DisplayName: Macaroni Moon
+	}
+
+	MacaroniBeam: {
+		DisplayName: Crescent Beam
+	}
+
+	LuxRelocatorBeam: {
+		DisplayName: Relocator Beam
+	}
+
+	LuckyPurpleBalloon: {
+		DisplayName: Lucky Purple Balloon
+	}
+
+	LingeringFlame: {
+		DisplayName: Fire Bolt
+	}
+
+	LightspeedBlade: {
+		DisplayName: Shadow Blade
+	}
+
+	LightningLashTrail: {
+		DisplayName: Lightning Trail
+	}
+
+	LightningLash: {
+		DisplayName: Lightning Lash
+	}
+
+	LesserWispLaser: {
+		DisplayName: Lesser Wisp Laser
+	}
+
+	LemegetonWispRed: {
+		DisplayName: Lemegeton Wisp
+	}
+
+	LemegetonWispPurple: {
+		DisplayName: Lemegeton Wisp
+	}
+
+	LemegetonWispGreen: {
+		DisplayName: Lemegeton Wisp
+	}
+
+	LavaLaser: {
+		DisplayName: Lava Laser
+	}
+
+	JuryRiggedDrill: {
+		DisplayName: Jury Rigged Drill
+	}
+
+	IlluminationSparkle: {
+		DisplayName: Sparkle
+	}
+
+	IrradiatedCrusher: {
+		DisplayName: Irradiated Arm
+	}
+
+	IrradiatedCrush: {
+		DisplayName: Irradiated Crush
+	}
+
+	InfernoTrail: {
+		DisplayName: Inferno Trail
+	}
+
+	InfernoSpirit: {
+		DisplayName: Inferno Spirit
+	}
+
+	InfernoSeeker: {
+		DisplayName: Inferno Seeker
+	}
+
+	InfernoPhaseBolt: {
+		DisplayName: Phase Bolt
+	}
+
+	InfernoLaser: {
+		DisplayName: Lava Laser
+	}
+
+	InfernoHook: {
+		DisplayName: Inferno Hook
+	}
+
+	InfernoBolt: {
+		DisplayName: Inferno Bolt
+	}
+
+	IncineratorGloveProjectile: {
+		DisplayName: Incinerator Glove
+	}
+
+	IceStorm: {
+		DisplayName: Ice Storm
+	}
+
+	IceShard: {
+		DisplayName: Ice Shard
+	}
+
+	IcePulseSummon: {
+		DisplayName: Ice Pulse
+	}
+
+	IcePulse: {
+		DisplayName: Ice Pulse
+	}
+
+	IceImpale: {
+		DisplayName: IceImpale
+	}
+
+	IceCluster: {
+		DisplayName: Ice Cluster
+	}
+
+	HyperlightOrb: {
+		DisplayName: Hyperlight Orb
+	}
+
+	HyperlightLaser: {
+		DisplayName: Hyperlight Laser
+	}
+
+	HyperlightGeyser: {
+		DisplayName: Hyperlight Geyser
+	}
+
+	HypericeRocket: {
+		DisplayName: Hyperice Rocket
+	}
+
+	HungryHunter: {
+		DisplayName: Hungry Hunter
+	}
+
+	HostileJavelin: {
+		DisplayName: Ice Spear
+	}
+
+	HoloPlatform: {
+		DisplayName: Holo Platform
+	}
+
+	HoloMissile: {
+		DisplayName: Holo Missile
+	}
+
+	HoloEye: {
+		DisplayName: Holo Eye
+	}
+
+	HellfuryCrush: {
+		DisplayName: Hellfury Crush
+	}
+
+	HellCrush: {
+		DisplayName: Hell Crush
+	}
+
+	HellbreakerCrusher: {
+		DisplayName: Hellbreaker Crusher
+	}
+
+	HeliosSlash: {
+		DisplayName: Helios Slash
+	}
+
+	Helios: {
+		DisplayName: Helios
+	}
+
+	HeartCrush: {
+		DisplayName: Heart Crush
+	}
+
+	HealProj: {
+		DisplayName: Heal Proj
+	}
+
+	HealLock: {
+		DisplayName: Heal Lock
+	}
+
+	HarvestLock: {
+		DisplayName: Harvest Lock
+	}
+
+	HarvestingStrike: {
+		DisplayName: Harvesting Strike
+	}
+
+	HardlightTrail: {
+		DisplayName: Hardlight Trail
+	}
+
+	HardlightGlaive: {
+		DisplayName: Hardlight Glaive
+	}
+
+	HardlightColumn: {
+		DisplayName: Hardlight Column
+	}
+
+	HardlightArrowDamage: {
+		DisplayName: Hardlight Arrow
+	}
+
+	HardlightArrow: {
+		DisplayName: Hardlight Arrow
+	}
+
+	GrowTree: {
+		DisplayName: Tree Grow
+	}
+
+	GreenThunderCluster: {
+		DisplayName: Thunder Cluster
+	}
+
+	GreenLightningZap: {
+		DisplayName: Green Lightning
+	}
+
+	GreenLightning2: {
+		DisplayName: Green Lightning
+	}
+
+	GreenLightning: {
+		DisplayName: Green Lightning
+	}
+
+	GreenExplosion: {
+		DisplayName: Green Lightning
+	}
+
+	GreaterCellBlast: {
+		DisplayName: Firespire
+	}
+
+	GoldSpear: {
+		DisplayName: Gold Glaive
+	}
+
+	GoldLight: {
+		DisplayName: Gold Light
+	}
+
+	GoldChakram: {
+		DisplayName: Gold Chakram
+	}
+
+	GoldBolt: {
+		DisplayName: Gold Bolt
+	}
+
+	GlazeBow: {
+		DisplayName: Glaze Bow
+	}
+
+	GhostPepper: {
+		DisplayName: Ghost Pepper
+	}
+
+	GhastDrop: {
+		DisplayName: Ghast Drop
+	}
+
+	GeostormCrystal: {
+		DisplayName: Geostorm Crystal
+	}
+
+	GenesisCore: {
+		DisplayName: Genesis Core
+	}
+
+	GenesisArc: {
+		DisplayName: Genesis Arc
+	}
+
+	GelAxe: {
+		DisplayName: Gel Axe
+	}
+
+	GasBlast: {
+		DisplayName: Gas Blast
+	}
+
+	Fusion2: {
+		DisplayName: Helix Bolt
+	}
+
+	Fusion1: {
+		DisplayName: Helix Bolt
+	}
+
+	ForgottenLampProjectile: {
+		DisplayName: Forgotten Lamp Timer
+	}
+
+	FrostSpear: {
+		DisplayName: Frost Spear
+	}
+
+	FrostflakePulse: {
+		DisplayName: Frostflake Pulse
+	}
+
+	FrigidJavelin: {
+		DisplayName: Frigid Javelin
+	}
+
+	FrigidIceShard: {
+		DisplayName: Ice Shard
+	}
+
+	FriendlyPolarBullet: {
+		DisplayName: Polar Bullet
+	}
+
+	FriendlyPinkLaser: {
+		DisplayName: Pinky Laser
+	}
+
+	FriendlyOtherworldlyBolt: {
+		DisplayName: Phase Bolt
+	}
+
+	FriendlyOtherworldlyBall: {
+		DisplayName: Phase Ball
+	}
+
+	FriendlyFlowerBolt: {
+		DisplayName: Flower Bolt
+	}
+
+	FriendlyCurseBall: {
+		DisplayName: Curse
+	}
+
+	FriendlyChaosEraser: {
+		DisplayName: Hyperlight Eraser
+	}
+
+	FlyingSnake: {
+		DisplayName: Snakey Boi
+	}
+
+	FluxSlimeBall: {
+		DisplayName: Flux Slime Ball
+	}
+
+	FluidFollower: {
+		DisplayName: my curse behind me
+	}
+
+	FlowerStrike: {
+		DisplayName: Flower Strike
+	}
+
+	FlowerSeed: {
+		DisplayName: Flower Seed
+	}
+
+	FloweringBud: {
+		DisplayName: Flowering Bud
+	}
+
+	FlowerBolt: {
+		DisplayName: Flower Bolt
+	}
+
+	FlareDetonatorHold: {
+		DisplayName: Flare Detonator
+	}
+
+	FishBullet: {
+		DisplayName: Fish
+	}
+
+	FallingBolt: {
+		DisplayName: Falling Bolt
+	}
+
+	ExtendoBaguette: {
+		DisplayName: Extendo Baguette
+	}
+
+	ExplosiveKnife: {
+		DisplayName: Explosive Knife
+	}
+
+	EvilWave: {
+		DisplayName: Umbra Bolt
+	}
+
+	EvilStrike: {
+		DisplayName: Nightmare Strike
+	}
+
+	EvilSpirit: {
+		DisplayName: Evil Spirit
+	}
+
+	EvilSpear: {
+		DisplayName: Umbra Spear
+	}
+
+	EvilGrowth: {
+		DisplayName: Nightmare Arms
+	}
+
+	EvilExplosion: {
+		DisplayName: Evil
+	}
+
+	EvilBolt: {
+		DisplayName: Umbra Ball
+	}
+
+	EvilArm: {
+		DisplayName: Evil Construct Arm
+	}
+
+	EtherealFlame: {
+		DisplayName: Ethereal Flame
+	}
+
+	EnergySerpentHead2: {
+		DisplayName: Energy Serpent
+	}
+
+	EnergySerpentHead: {
+		DisplayName: Energy Serpent
+	}
+
+	EndoBurst: {
+		DisplayName: Endo Burst
+	}
+
+	EmeraldTrail: {
+		DisplayName: Emerald Trail
+	}
+
+	EmeraldBoltHoming: {
+		DisplayName: Emerald Bolt
+	}
+
+	EmeraldBolt: {
+		DisplayName: Emerald Bolt
+	}
+
+	EclipseCrusher: {
+		DisplayName: Eclipse Arm
+	}
+
+	EclipseCrush: {
+		DisplayName: Eclipse Crush
+	}
+
+	EclipseBubble: {
+		DisplayName: Eclipse Bubble
+	}
+
+	EchoDisk: {
+		DisplayName: Echo Disc
+	}
+
+	EarthshakerPickaxe: {
+		DisplayName: Earthshaker Pickaxe
+	}
+
+	Earthshaker: {
+		DisplayName: Earthshaker
+	}
+
+	EarthenSpirit: {
+		DisplayName: Earthen Spirit
+	}
+
+	EarthenShot: {
+		DisplayName: Lightspeed Blade
+	}
+
+	EarthenRing: {
+		DisplayName: Earthen Ring
+	}
+
+	EarthenBolt: {
+		DisplayName: Earthen Bolt
+	}
+
+	EarthenBeam: {
+		DisplayName: Lightspeed Blade
+	}
+
+	DreamBolt: {
+		DisplayName: Dream Bolt
+	}
+
+	DreamingSmog: {
+		DisplayName: Dream Smog
+	}
+
+	DreamLaser: {
+		DisplayName: Dream Laser
+	}
+
+	DoubleLaserExplosion: {
+		DisplayName: Double Laser
+	}
+
+	DoubleLaser: {
+		DisplayName: Double Laser
+	}
+
+	DoomstickHoldOut: {
+		DisplayName: Doomstick
+	}
+
+	Doomhook: {
+		DisplayName: Doomhook
+	}
+
+	DogmaSphere: {
+		DisplayName: Chaos Ball
+	}
+
+	DogmaLaser: {
+		DisplayName: Hyperlight Beam
+	}
+
+	DimensionalFlame: {
+		DisplayName: Dimensional Flame
+	}
+
+	DigitalTrail: {
+		DisplayName: Digital Trail
+	}
+
+	DigitalSlash: {
+		DisplayName: Digital Slash
+	}
+
+	DestabilizingBeam: {
+		DisplayName: Destabilizing Beam
+	}
+
+	DeathSpiralProj: {
+		DisplayName: Death Spiral
+	}
+
+	DeathBlade: {
+		DisplayName: Death's Touch
+	}
+
+	DataTransferProj: {
+		DisplayName: Data Transfer Proj
+	}
+
+	DashIndicator2: {
+		DisplayName: Cursespire
+	}
+
+	DashIndicator: {
+		DisplayName: Cursespire
+	}
+
+	DarkLight: {
+		DisplayName: Dark Light
+	}
+
+	DarkEyeDamage: {
+		DisplayName: The Dark Eye
+	}
+
+	CurveBolt: {
+		DisplayName: Curve Bolt
+	}
+
+	CurseWave: {
+		DisplayName: Curse
+	}
+
+	CurseSpike: {
+		DisplayName: Curse Spike
+	}
+
+	CurseSpear: {
+		DisplayName: Cursed Impale
+	}
+
+	CurseSingularity: {
+		DisplayName: Cursed Singularity
+	}
+
+	CurseRing: {
+		DisplayName: Curse
+	}
+
+	CurseGhost: {
+		DisplayName: Curse Ghost
+	}
+
+	CurseExtension: {
+		DisplayName: Curse
+	}
+
+	CurseExplosion: {
+		DisplayName: Curse
+	}
+
+	CursedThunder: {
+		DisplayName: Thunder Column
+	}
+
+	CursedStab: {
+		DisplayName: Gas Slash
+	}
+
+	CursedBlade: {
+		DisplayName: Cursed Blade
+	}
+
+	CurseBall: {
+		DisplayName: Curse
+	}
+
+	CurseArm: {
+		DisplayName: Curse
+	}
+
+	CrystalSerpentHead: {
+		DisplayName: Crystal Serpent
+	}
+
+	CrystalSerpentBody: {
+		DisplayName: Crystal Serpent Counter
+	}
+
+	CrossLaser: {
+		DisplayName: Unholy Light
+	}
+
+	CrabCrusher: {
+		DisplayName: Crab Claw Crusher
+	}
+
+	ColossusSlash: {
+		DisplayName: Colossus Slash
+	}
+
+	ContinuumSphere: {
+		DisplayName: Continuum Sphere
+	}
+
+	ContinuumExplosion: {
+		DisplayName: Collapse Laser
+	}
+
+	ConstructFinder: {
+		DisplayName: Construct Finder
+	}
+
+	ColossusSpawnAnimation: {
+		DisplayName: Spawn Colossus
+	}
+
+	CollapseLaser: {
+		DisplayName: Continuum Collapse
+	}
+
+	CodeVolley: {
+		DisplayName: Code Burst
+	}
+
+	CodeBurst: {
+		DisplayName: Code Burst
+	}
+
+	CoconutShrapnel: {
+		DisplayName: Coconut Shrapnel
+	}
+
+	Coconut: {
+		DisplayName: Coconut
+	}
+
+	ClairvoyanceShade: {
+		DisplayName: Clairvoyance Shade
+	}
+
+	ChargedHardlightArrow: {
+		DisplayName: Charged Hardlight Arrow
+	}
+
+	ChargedCataclysmBullet: {
+		DisplayName: Charged Cataclysm Bullet
+	}
+
+	ChargeBeam: {
+		DisplayName: Charge Ball
+	}
+
+	ChaosWave: {
+		DisplayName: Chaos Wave
+	}
+
+	ChaosThorn: {
+		DisplayName: Chaos Thorn
+	}
+
+	ChaosStar: {
+		DisplayName: Chaos Star
+	}
+
+	ChaosSpiritChain: {
+		DisplayName: Chaos Chain
+	}
+
+	ChaosSpirit: {
+		DisplayName: Chaos Spirit
+	}
+
+	ChaosSphere: {
+		DisplayName: Chaos Ring
+	}
+
+	ChaosSnake: {
+		DisplayName: Chaos Snake
+	}
+
+	ChaosPunch: {
+		DisplayName: Bizarre Adventure Fist
+	}
+
+	ChaosHelixLaser: {
+		DisplayName: Chaos Helix Laser
+	}
+
+	ChaosEraser2: {
+		DisplayName: Redlight Eraser
+	}
+
+	ChaosEraser: {
+		DisplayName: Hyperlight Eraser
+	}
+
+	ChaosDiamondLaser: {
+		DisplayName: Shattering Laser
+	}
+
+	ChaosDiamond: {
+		DisplayName: Chaos Diamond
+	}
+
+	ChaosDart2: {
+		DisplayName: Chaos Dart
+	}
+
+	ChaosDart: {
+		DisplayName: Chaos Dart
+	}
+
+	ChaosCircle: {
+		DisplayName: Chaos Ring
+	}
+
+	ChaosBloomExplosion: {
+		DisplayName: Chaos Bloom
+	}
+
+	ChaosBeam: {
+		DisplayName: Chaos Beam
+	}
+
+	ChaosBallFriendly: {
+		DisplayName: Chaos Ball
+	}
+
+	ChaosBall: {
+		DisplayName: Chaos Ball
+	}
+
+	ChaosArrowBloom: {
+		DisplayName: Chaos Arrow Bloom
+	}
+
+	ChaosArrow2: {
+		DisplayName: Chaos Arrow
+	}
+
+	ChaosArrow1: {
+		DisplayName: Chaos Arrow
+	}
+
+	CellBlast: {
+		DisplayName: Cursespire
+	}
+
+	CelestialLightning: {
+		DisplayName: Subspace Thunder
+	}
+
+	CatalystBomb: {
+		DisplayName: Catalyst Bomb
+	}
+
+	CataclysmOrb: {
+		DisplayName: Cataclysm Bomb
+	}
+
+	CataclysmLightningZap: {
+		DisplayName: Cataclysm Bullet
+	}
+
+	CataclysmLightning: {
+		DisplayName: Cataclysm Lightning
+	}
+
+	CataclysmDisc: {
+		DisplayName: Cataclysm Disc
+	}
+
+	CataclysmDamage: {
+		DisplayName: Cataclysm Collapse
+	}
+
+	CataclysmBulletDamage: {
+		DisplayName: Cataclysm Bullet
+	}
+
+	CataclysmBullet: {
+		DisplayName: Cataclysm Bullet
+	}
+
+	CardiacCollapseCrusher: {
+		DisplayName: Cardiac Collapse Arm
+	}
+
+	CactusSpine: {
+		DisplayName: Cactus Spine
+	}
+
+	Bubble: {
+		DisplayName: Bubble
+	}
+
+	BubbleCrush: {
+		DisplayName: Bubble Crush
+	}
+
+	BrightRedLaser: {
+		DisplayName: Artifact Laser
+	}
+
+	BrachialPortal: {
+		DisplayName: Brachial Portal
+	}
+
+	BrachialLance: {
+		DisplayName: Brachial Lance
+	}
+
+	BossBabyLaser: {
+		DisplayName: Red Laser
+	}
+
+	BoreBullet: {
+		DisplayName: Bore Bullet
+	}
+
+	BoneCrush: {
+		DisplayName: Bone Crush
+	}
+
+	BoneClapperCrusher: {
+		DisplayName: Bone Clapper Crusher
+	}
+
+	BombFlare: {
+		DisplayName: Bomb Flare
+	}
+
+	BlueThunderCluster: {
+		DisplayName: Thunder Cluster
+	}
+
+	BlueLightning: {
+		DisplayName: Blue Lightning
+	}
+
+	BluefireCrush: {
+		DisplayName: Bluefire Crush
+	}
+
+	BloomingHookMinion: {
+		DisplayName: Blooming Hook
+	}
+
+	BloomingHook: {
+		DisplayName: Blooming Hook
+	}
+
+	BloodSpark: {
+		DisplayName: Blood Spark
+	}
+
+	Bloodaxe: {
+		DisplayName: Bloody Hammer
+	}
+
+	BlizzardProbe: {
+		DisplayName: Blizzard Probe
+	}
+
+	BlinkDamage1: {
+		DisplayName: Blinding Assault
+	}
+
+	Blink1: {
+		DisplayName: Blinding Assault
+	}
+
+	BlazingSpike: {
+		DisplayName: Blazing Spike
+	}
+
+	BlazingMine: {
+		DisplayName: Spike Trap
+	}
+
+	BlazingArrow: {
+		DisplayName: Blazing Arrow
+	}
+
+	BlastDoorProj: {
+		DisplayName: Blast Door Proj
+	}
+
+	Blaspha: {
+		DisplayName: Blaspha
+	}
+
+	BlackFlareShot: {
+		DisplayName: Black Flare
+	}
+
+	BerryBomb: {
+		DisplayName: Berry Bomb
+	}
+
+	BackupBowVisual: {
+		DisplayName: Backup Bow Visual
+	}
+
+	BackupArrow: {
+		DisplayName: Backup Arrow
+	}
+
+	BabyLaser: {
+		DisplayName: Green Laser
+	}
+
+	AvaritianExplosion: {
+		DisplayName: Avaritian Explosion
+	}
+
+	AtenStarExplosion: {
+		DisplayName: Aten Starsplosion
+	}
+
+	AtenStar: {
+		DisplayName: Aten Star
+	}
+
+	AtenProj: {
+		DisplayName: Aten
+	}
+
+	MothMinion: {
+		DisplayName: Lumina Moth
+	}
+
+	ArrowMoth: {
+		DisplayName: Arrow Moth
+	}
+
+	ArkBolt: {
+		DisplayName: Ark Bolt
+	}
+
+	ArcLightningZap: {
+		DisplayName: Arc Lightning
+	}
+
+	ArcLightningDamage: {
+		DisplayName: Arc Lightning
+	}
+
+	ArcLightning: {
+		DisplayName: Thundershock Lightning
+	}
+
+	ArclightBomb: {
+		DisplayName: Arclight Bomb
+	}
+
+	ArcColumn: {
+		DisplayName: Arc Thunder
+	}
+
+	AncientSteelLongbow: {
+		DisplayName: Ancient Steel Bow
+	}
+
+	AncientSteelHalberd: {
+		DisplayName: Ancient Steel Halberd
+	}
+
+	AncientGoldGateGems: {
+		DisplayName: Gems
+	}
+
+	AdvisorPet: {
+		DisplayName: Advisor Pet
+	}
+
+	AcornsOfJustice: {
+		DisplayName: Acorns Of Justice
+	}
+
+	AcornOfJustice: {
+		DisplayName: Acorn Of Justice
+	}
+}
+
+PyramidGenerator: {
+	Warning3: 此処には何も無いぞ!!!
+	Warning2: 変なことが起きても責任は取らんぞ!
+	Warning1: 警告したからな。
+	Warning0: 右クリックするな。ワールドが消えるぞ。
+	StepNumber: 生成したピラミッドの段 {0}
+	Speed: 次のシード値で生成中: {0}
+}
+
+MineralariumTileText: {
+	2: 進捗度: {0}%
+	1: ステータス: いっぱいか塞がれている
+	0: ステータス: N/A
+}
+
+PotGeneratorTileText: {
+	2: 残り時間: {0}
+	1: ステータス: 完了
+	0: ステータス: N/A
+}
+
+UndoArrow: {
+	Pack: テクスチャパックが有効か?: {0}
+	Amber: コハク: {0}
+	Diamond: ダイヤモンド: {0}
+	Amethyst: アメジスト: {0}
+	Topaz: トパーズ: {0}
+	Emerald: エメラルド: {0}
+	Sapphire: サファイア: {0}
+	Ruby: ルビー: {0}
+}
+
+TwilightAssassinsCircletText2:
+	'''
+	最大ミニオン数とセントリー数が1増加
+	ミニオンと近接ダメージ7%増加が
+	最大ヴォイドが50増加
+	共に戦うホロ・アイミニオンを召喚する
+	'{0}' を押して不安定化ビームを発射する命中した敵に4スタックの不安定を付与するが、同じ敵には1回しか適用されない
+	不安定になった敵はスタックごとに5%の確率でクリティカルヒットする
+	発射にはヴォイドを6消費する
+	ホロ・アイはお気に入り登録するか装飾スロットに入れることでも召喚されるが攻撃ができない
+	'''
+
+TwilightAssassinsCircletText:
+	'''
+	最大ミニオン数とセントリー数が1増加
+	ミニオンと近接ダメージ7%増加が
+	最大ヴォイドが50増加
+	共に戦うホロ・アイミニオンを召喚する
+	'{0}' を押して不安定化ビームを発射する命中した敵に4スタックの不安定を付与するが、同じ敵には1回しか適用されない
+	不安定になった敵はスタックごとに5%の確率でクリティカルヒットする
+	発射にはヴォイドを6消費する
+	ホロ・アイはお気に入り登録するか装飾スロットに入れることでも召喚されるが攻撃ができない
+	'''
+
+BlinkPackText2:
+	'''
+	'{0}' を押してカーソル位置に向かってブリンクする
+	ブリンクして敵を通り抜けるとダメージを与えクールダウンが短縮されるが短時間では3回まででしか発動しない
+	ダッシュ後にいくつかの耐性を得る
+	落下ダメージを無効化
+	'''
+
+BlinkPackText:
+	'''
+	'{0}' を押してカーソル位置に向かってブリンクする
+	ブリンクして敵を通り抜けるとダメージを与えクールダウンが短縮されるが短時間では3回まででしか発動しない
+	ダッシュ後にいくつかの耐性を得る
+	落下ダメージを無効化
+	'''
+
+MachinaBoosterText2:
+	'''
+	飛行と低速落下を可能にする
+	ヴォイド再生量が1増加
+	'{0}' を押すとヴォイドを5消費し複数の方向へ素早く飛行できる
+	アクティブ中はヴォイド吸収が3増加する
+	'''
+
+MachinaBoosterText:
+	'''
+	飛行と低速落下を可能にする
+	ヴォイド再生量が1増加
+	'{0}' を押すとヴォイドを5消費し複数の方向へ素早く飛行できる
+	アクティブ中はヴォイド吸収が3増加する
+	'''
+
+TerminalClusterTextList: {
+	7: 召喚ダメージが3%、最大12%増加する
+	6: インベントリ内に入れている時ヴォイド吸収が0.5増加する
+	5: 近接ダメージが3%、最大12%増加する
+	4: ライフ自然再生が2減少する
+	3: ヴォイドダメージが3%、最大12%増加する
+	2: インベントリ内に入れている時最大ヴォイドが20減少する
+	1: 遠距離ダメージが3%、最大12%増加する
+	0: 最大ライフとマナが10減少する
+}
+
+PrecariousClusterTextList: {
+	7: 魔法ダメージが3%、最大12%増加する
+	6: 重力を軽減する
+	5: 魔法ダメージが5%、最大20%増加する
+	4: 移動速度が20%減少する
+	3: 防御力が2、最大8増加する
+	2: ダメージ軽減率が10%減少する
+	1: ライフ自然再生が1、最大4増加する
+	0: 与えるダメージが10%減少する
+}
+
+DiamondRingText2:
+	'''
+
+	ダメージ上昇量 {0}%
+	防御力減少量 {1}
+	'''
+
+DiamondRingText: 防御力に応じてダメージを増加させ、このダメージ上昇量の3分の1防御力を低下させる
+
+EggDescription: {
+	x8: 「あなたの魂を反映する」
+	x7: 「あなたの運命からは逃げられない」
+	x6: 「卵はあなたに何も語らない」
+	x5: 「卵は貴方が払った対価に相応しくない」
+	x4: 「卵はひどく冷たい」
+	x3: 「卵は輝きが失われている」
+	x2: 「あなたの冒険の価値はなかった」
+	x1: 「卵はコレクションに相応しくない」
+	x0: 「卵にあまり価値が無いようだ」
+	7: 「この卵は運命を変えてくれるかもしれない」
+	6: 「この卵から得られる学びがあるだろう」
+	5: 「世界はあなたの手の中」
+	4: 「心を温めてくれる」
+	3: 「きれいに光を反射している」
+	2: 「冒険の報酬にふさわしい」
+	1: 「コレクションにもってこいだ」
+	0: 「これは価値が付くかもしれない」
+}
+
+EggName: {
+	55: 憂鬱の卵
+	54: 傲慢の卵
+	53: 嫉妬の卵
+	52: 憤怒の卵
+	51: 愛の卵
+	50: 怠惰の卵
+	49: 色欲の卵
+	48: 強欲の卵
+	47: 平和の卵
+	46: 戦術の卵
+	45: 報復の卵
+	44: 戦の卵
+	43: 不倫の卵
+	42: 強奪の卵
+	41: 百年の卵
+	40: 同盟の卵
+	39: 混沌の卵
+	38: 宮廷の卵
+	37: 正義の卵
+	36: 復讐の卵
+	35: 忠誠の卵
+	34: 執行の卵
+	33: 審判の卵
+	32: 公正の卵
+	31: 純真の卵
+	30: 知恵の卵
+	29: 秩序の卵
+	28: 戦略の卵
+	27: 束縛の卵
+	26: 解放の卵
+	25: 宇宙の卵
+	24: 実業家の卵
+	23: 監禁の卵
+	22: 気分屋の卵
+	21: 無法の卵
+	20: 暴力の卵
+	19: 恋愛の卵
+	18: 自由の卵
+	17: 親族の卵
+	16: 資本主義の卵
+	15: 虚栄の卵
+	14: 禁断の卵
+	13: 天国の卵
+	12: 地獄の卵
+	11: 伴侶の卵
+	10: 喪失の卵
+	9: 永遠の卵
+	8: 徴税の卵
+	7: 裏切りの卵
+	6: 勤勉の卵
+	5: 恋人の卵
+	4: 搾取の卵
+	3: 贈り物の卵
+	2: 市場の卵
+	1: 独占の卵
+	0: 契約の卵
+}
+
+ExperimentalInjectionTextList: {
+	3: ダメージ、攻撃速度、移動速度が5%増加する
+	2: 一発目の攻撃が毒を付与しライフを奪う
+	1: 一発目の攻撃が必ずクリティカルになりクリティカルダメージが20%増加する
+	0: 一発目の攻撃が5秒間出血を付与し最大ライフが20増加する
+}
+
+VoidmageIncubatorTextList: {
+	7: 最大ヴォイドが40増加
+	6: ライフ自然再生が2増加
+	5: 最大ライフが40増加
+	4: クリティカル率が6%増加
+	3: クリティカルダメージが20%増加
+	2:
+		'''
+		移動速度が10%増加
+		ジャンプ速度が増加
+		'''
+	1: ダメージが8%増加
+	0: 受けるダメージを5%軽減
+}
+
+VisionAmuletTextList2: {
+	6:
+		'''
+
+		ヴォイドダメージが10増加、ヴォイド再生量が20%増加
+		'''
+	5:
+		'''
+
+		敵の防御力の効果が50%に減少
+		'''
+	4:
+		'''
+
+		すべてのダメージを他のソースからのダメージタイプの合計上昇率の50%増加
+		'''
+	3:
+		'''
+
+		作業台、かまど、金床、錬金台にアクセスできる
+		最大マナとポーションから得られるマナが40増加
+		'''
+	2:
+		'''
+
+		近接攻撃速度と移動速度が10%増加
+		ジャンプ速度が増加
+		'''
+	1:
+		'''
+
+		バフの効果時間が25%増加
+		マナ消費が10%減少
+		'''
+	0:
+		'''
+
+		ショップ価格が20%割引
+		'''
+}
+
+VisionAmuletTextList: {
+	7: ヴォイド再生速度が20%増加
+	6:
+		'''
+		最大ライフが20増加
+		ダメージが10%増加
+		'''
+	5:
+		'''
+		ポーションから得られるライフが40増加
+		ライフ自然再生が2増加
+		'''
+	4: クリティカルダメージが30%増加
+	3: クリティカル率が10%増加
+	2: 攻撃速度が12%増加
+	1: 最大ミニオン数とセントリー数が1増加
+	0: 受けるダメージを10%軽減
+}
+
+BossChecklist: {
+	BossDisappear: {
+		Glowmoth: ""
+		SubspaceSerpent: ""
+		Lux: ""
+		Polaris: ""
+		TheAdvisor: ""
+		PharaohsCurse: ""
+		PutridPinky: 腐ったピンキーはみんなのピーナッツを奪っていった!
+	}
+
+	BossDescription: {
+		Glowmoth: 光るキノコバイオームでグロウシルクの繭を破壊するか {0} を使って召喚する
+		SubspaceSerpent: 地獄で {0} を起爆して次元に亀裂を開ける
+		Lux: 混沌の精霊を怒らせる
+		Polaris: 雪原バイオームで {1} を使い {0} を起動する
+		TheAdvisor: プラネタリウムで4個の固定された異世界のコンストラクトを破壊する
+		PharaohsCurse: ピラミッドで {0} を起動する
+		PutridPinky: 任意のバイオームで {0} を使い召喚する
+	}
+
+	BossName: {
+		Glowmoth: グロウモス
+		SubspaceSerpent: 亜空の大蛇
+		Lux: ルクス
+		Polaris: ポラリス
+		TheAdvisor: アドバイザー
+		PharaohsCurse: ファラオの呪い
+		PutridPinky: 腐ったピンキー
+	}
+}
+
+DeathMessage: {
+	VD5: " は死亡した。"
+	VD4: " はヴォイドの仕組みを理解できなかった。"
+	VD3: " は闇に喰われた。"
+	VD2: " はヴォイドに取り込まれた。"
+	VD1: " は注意散漫すぎた。"
+}
+
+Bestiary: {
+	RotWalker:
+		'''
+		彼は、腐敗した肉の臭いと焼け焦げる肉体、
+		そして悲鳴と絶望の声に満ちた地獄を生き延びた。  
+		...生き延びなければよかったと今は思っている。
+		'''
+	Ghast2: 敵対的かつ腐敗的な存在が2つ融合したとき、何が起こるか？もちろん、共生だ！
+	LesserWisp:
+		'''
+		空虚な目がこちらを見ている気がする。  
+		この感覚が、地底世界にとどまっていてくれればいいのだが。
+		'''
+	Fistfull:
+		'''
+		最強の者たちは最も深くに送られた。
+		それが理にかなっていた。
+		...少なくとも、機械たちが去るまでは。
+		地上に現れた飢えた集合意識に対抗する術を失った彼らは、
+		最終的に、かつて愛した者たちに襲われるしかなかった。
+		'''
+	BallOWormsFlesh: 魚のエサとしては優秀...ただし深く考えなければの話だ。
+	SubspaceWorm: これがテラリアで最強のワームなのかもしれない？
+	LunaMoth: かつては広大な地表世界に生息し、やわらかな月明かりの下で輝いていたと伝えられている。
+	PupaFly:
+		'''
+		階段を登ろうとしたが、闇の空気に包まれて落下した。  
+		裂け目を見つけたが、そこもなお灼熱の空気に満ちていた。  
+		答えを求めて地上に出たが、空気が上半身を飲み込んだ。  
+		彼らは死を願ったが今や一体となってしまった。
+		'''
+	Pupa:
+		'''
+		逃げようとしたが、肉体が未熟で滑って転んだ。
+		這って進もうとしたが肉の塊も這い寄ってきた。
+		高台にたどり着いたと思ったが肉が下半身を飲み込んだ。
+		彼らは死を願ったが今や一体となってしまった。
+		'''
+	CoalCart: かつて苦痛の中で働かされた魂に取り憑かれている。
+	SanguineFoundry:
+		'''
+		「なぜ我々が鉱石を溶かさねばならん？
+		お前たちは金属の体を持っているのに。
+		本気で掘削を終わらせたいのなら、素材を直接よこせばいいだろう。
+		...約束は守られないものだったのか？」 
+
+		...回答する権限なし。
+		'''
+	Bridgeburner: かつては邪悪な地の拡大を封じるために設計された装置。それが邪悪に操られているという事実こそがその失敗を物語っているのかもしれない。
+	Tardigrade: この「水の熊」は、低圧と高放射線という過酷な環境でも生存可能。それゆえ、宇宙空間にさえ適応できる。
+	GulaSpirit: 水と油は混ざらない。
+	Excavator:
+		'''
+		ネクサス宛て、直接送信...
+
+		どうか、救助作戦を開始してくれ。  
+		出現した精霊たちが、我々のシステムを敵対的に掌握し始めている。  
+		我々は、君たちの科学のために任務をすべて果たした。  
+		きっと本国でも我々を有用と見なしてくれるはずだ。  
+		どうか、これが我々からの最後の通信にならないように...  
+		よろしく頼む。  
+
+		グーラ採掘拠点より
+		'''
+	Collector2:
+		'''
+		...転送通信
+		送信元：ネクサス
+		宛先：アヴァリティア配送地点
+
+		このメッセージを挑戦者へ転送せよ。
+		挑戦者よ、ありがとう。
+		我々はアヴァリティア配送地点との接続を再確立した。
+		あなたのさらなる力の追求を、我々は静かに待ち望んでいる。
+		もし混沌の精霊を十分に弱らせることができたなら...
+		あなたをネクサスへと歓迎しよう。
+		到着時には、人間に適した飲み物を一杯用意しておく。
+		成功を祈っている。
+
+		ネクサスより
+		'''
+	Collector:
+		'''
+		...転送通信
+		送信元：ネクサス
+		宛先：アヴァリティア配送地点
+
+		このメッセージをグーラ採掘拠点へ転送せよ。
+		君たちの作戦は成功した。
+		最悪の飢餓は封じ込められた。
+		我々はこのゲートウェイの真の性質を理解した。
+		新たな可能性が開かれたのだ。
+		救援部隊の派遣は行われない。
+		幸運を祈る。
+
+		ネクサスより
+		'''
+	Advisor:
+		'''
+		ネクサス宛て、直接送信...
+
+		貴様はすでに汚染されている。
+		これが、我々から送る最後の通信となる。
+
+		さらばだ。
+
+		アヴァリティア配送地点より
+		'''
+	PharaohsCurse:
+		'''
+		それはもはや、ピラミッドからの脱出を諦めていた。  
+		だから、眠ることにした。
+		いずれ遺跡は風化し手下たちが掘り起こしてくれるだろうと。
+
+		...誰かが門を壊してくれたらどんなに楽なことか、と思った。
+		なんと都合のいい話か...
+		'''
+	SubspaceSerpent:
+		'''
+		かつて見知らぬ声が私に囁き、警告してきた。  
+		この蛇は、誰の目にも触れぬ空間...空間と空間の狭間を這いまわる。  
+		もし恐れるものがないのなら、なぜ隙ができたその瞬間にこちらの世界へと飛び込んできたのか？  
+		そしてなぜ、自ら背後の扉を閉ざしたのか？  
+		もしかすると、何かから逃げていたのかもしれない...  
+		その声は次第にかすれ、遠くで笑い声が聞こえた。
+		'''
+	Famished:
+		'''
+		飢えていた。
+		だから、喰らった。  
+		それでも飢えていた。
+		だから、さらに喰らった。  
+		それでもまだ飢えていた。
+		だから、喰らい続けた。  
+		そしてついに、喰らうものは何もなくなった...それでも飢えていた。
+		'''
+	CorpseBloom:
+		'''
+		土壌は肥沃で豊かだった。最初はそれで満足していた。  
+		だが、死体のほうがもっと豊かで...もっと肥えていることに気づいた。  
+		やがて屍の山に身を横たえ、そこに安らぎを見出した。
+		'''
+	Throe:
+		'''
+		最初、奴らは我々の労働力を求めた。
+		その見返りとして我々を発展させてくれた。  
+		同盟は強固なものとなっていった...それが現れるまでは。  
+		それは貪欲で、増殖し続ける存在だった。  
+		奴らは恐慌に陥りそれを焼き払った。
+		触れたものすべてを...我々の持ち物も。  
+		だが、それは何度でも戻ってきた。
+		もはや消え去るものではなかった。
+		あるいは、完全に焼き払われていなかったのかもしれない。  
+		そして今度は、我々を焼いた。
+		我々の子供を、魂を...それは既に我々にも感染していたのだ。
+		'''
+	EarthenGizmo:
+		'''
+		すまん、これって何のために必要なんだっけ？  
+		「掘削シ遺跡ヲ発掘セヨ。」  
+		え、ああ...了解...?  
+		「ヨシ」
+		'''
+	Chimera: この世でもっとも忌まわしい存在は科学によって生み出されたと思われがちだ。だが、それは誤りである。
+	Planetoid: 局所重力を有する奇妙な物質の塊。周囲の空間を操ることで移動する。
+	Ultracap:
+		'''
+		起源：不明
+		目的：不明
+		意識の有無：肯定
+		'''
+	ArchaeologistLore: ただのホログラムだ。さあ、進め。ここに学ぶべきことなど何もない。
+	Glowmoth: 光るキノコの洞窟に棲みつく異界の生物。発光性という共通点からそこに住むと思われがちだが、本当の狙いはこの地に満ちるヴォイドエネルギーの収集である。
+	Lux: 混沌の精霊に匹敵する存在はない。それらは、封印以外の目的を持たずに機構体へ詰め込まれる。知的な利用に耐えうるほど弱体化された例は、いまだ存在しない。
+	InfernoSpirit:
+		'''
+		「マモン、お前のアイデアってさ、全然オリジナルじゃないよな？見ろよ、オムブラですら精霊をエネルギーに使ってる。」
+
+		「だが奴らの収容装置は原始的で応用性に欠ける。私の機構体は考えることができるのだ。」
+
+		「いや、精霊ってもともと考えられると思うけど。」
+
+		「奴らの思考は未熟だ。」
+		'''
+	EvilSpirit:
+		'''
+		内部対話ログ...  
+		「調査の結果、我々の疑念が確証に変わった。
+		これらの精霊は、テラリア原産ではない。」
+		'''
+	TidalSpirit: 控えめで過保護な性質を持つこれらの精霊も、時には流れに身を任せることがある。
+	OtherworldlySpirit: 宇宙空間に隔離されていたため、土地や資源を巡って争った経験がほとんどない。そのため、高度機械用のエネルギー源として扱いやすい。
+	PermafrostSpirit: この精霊は周囲からエネルギーを奪う性質を持つが、その力を利用するのは見た目ほど難しくはない。
+	EarthenSpirit: 狭く地下に押し込められた結果、他の精霊と協力することに高い適応性を持つようになった。その協調性は、労働集約的な作業にも役立つ。
+	NatureSpirit:
+		'''
+		かなり扱いやすい標本だ。危険性は低く、エネルギー源としても優秀。  
+		しかも、巡回を自然と行う性質まである。  
+		これで惑星の地表を監視できるかもしれないな？  
+		というか、すでにいい案があるんだよ...
+		'''
+	ChaosConstructChassis: 混沌の機構体の内部構造。混沌の精霊をあらゆる手段で封じ込めるために設計されている。
+	ChaosConstruct: 混沌の精霊の力を封じるためだけに作られた収容構造体。他の機構体と異なり、シャーシには封印以外の用途は存在しない。
+	InfernoConstruct: かつては古代の炉を熱する生ける炎として用いられていた。今やその姿は、大量破壊兵器と見分けがつかない。
+	EvilConstruct:
+		'''
+		内部対話ログ...  
+		「これらの精霊は、我々の制御機構を容易に打ち破る力を持っている。  
+		ある意味では...混沌の精霊に近い存在だ。  
+		さらなる研究のため、より強化された収容構造を設計する必要がある。」
+		'''
+	TidalConstruct: かつては海底の地図作成や人員輸送のために設計された機械。耐水性に優れた外装により海の浸食にも耐えたが、内包された精霊の支配を防ぐことはできなかった。
+	OtherworldlyConstructHead: すべての機構体と同様に、その本体は不安定な精霊を収める容器となっている。異界の精霊は比較的穏やかな性質を持つためか、内部構造は極めて単純である。
+	PermafrostConstruct: 深い雪原を容易に移動できるよう精霊エネルギーで稼働する古代の機械。現在は精霊に乗っ取られており、その冷たい故郷を守るために使われている。
+	EarthenConstruct: 大地の精霊は群れで行動する傾向があるため、この機構体のシャーシは複数の精霊が内部で自由に動けるよう大きく設計されている。かつての小型設計では精霊を収容するには不安定すぎた。
+	NatureConstruct: 精霊エネルギー採取技術の発展のために作られた古代の機械。今では精霊の制御下にあり、森の守護者として働いている。
+	TreasureSlime: スライム界の貴族！他のスライムと違って死の概念を理解しており、財宝を奪おうとする者がいれば一瞬の迷いもなく逃げ出す。
+	SittingMushroom: 座っているキノコは、唾を吐くキノコでもある。
+	NatureSlime: 花に寄生されて操られているスライム。その特異な生物構造はかつて科学者たちの大きな関心を集めた。
+	BlueSlimer: 粗雑な翼を獲得し、空を飛ぶように進化したブルースライム。しかしその翼は脆く、力を加えればすぐに外れて飛行能力を失う。
+	PP: ピーナッツへの果てなき渇望を持つ異形の怪物。ピンクスライムを用いた実験の失敗により誕生した。
+	FluxSlime: ピンクスライムの初期実験によって生まれたスライム。腐ったピンキーよりも前に誕生した。
+	Polaris: 忘れ去られた戦闘兵器。ツインズ達より遥か昔に、クトゥルフ復活のためではなく大量破壊兵器として設計された。
+	ArcticGoblin: 雪原に置き去りにされた、追放されたゴブリン。
+	Maligmor: すべてを喰らわんとする呪いの意思から生まれた突出体。力の源として結晶を授けられており、それにより視覚が強化されている。キーストーンへの侵入者を防ぐために存在している。
+	Ghast: 呪いにより堕落した迷える魂の成れの果て。死後の世界でもなお、キーストーンを守り続けることを強いられている。
+	Teratoma: 呪いから突き出した腫瘍のような塊。その細胞は急速に再生する能力を持ち、素早く倒さないと何度でも再生してしまう。
+	WallMimic: ピラミッドに封じられた呪いはこの世界の邪悪よりも強い浸食を引き起こす。その影響下ではピラミッドの壁ですら怪物と化す！
+	SnakePot: 壺を防具代わりに利用する複数の蛇の群れ。壺が壊れると、蛇たちは散り散りになる。
+	Snake: まぶたを持たず手足もなく尾は短い。顎を大きく広げられる爬虫類。この個体は毒を持ち、ピラミッドを住処としている。
+	LostSoul: ピラミッドに囚われた魂。今も何かを探し求めているようで、まだ安らぎには至っていない。
+	PhaseAssaulterHead: フェイズ鉱石の防衛中枢を担うフェイズアサルターの一部。フェイズスピーダーの盾として動く姿が観測されており、強力なハイパーライトレーザーも備えている。
+	TwilightScouter: 惑星観測所のためにデータを収集する思考なきドローン。内部回路はそれほど複雑ではないようだ。
+	PhaseSpeeder: 速く、そして致命的。その出自は不明だが、明らかにこちらの命を狙っている。フェイズアサルターを盾として利用する。
+	TwilightDevil: 惑星観測所を守る、思考を持たないドローン。マントの内側には何もなく、遠隔制御されているようだ。
+	PhaseEye: 思考を持たないエネルギーの球体。惑星観測所を守るためだけに創られ、アドバイザーの操り人形として使われている。
+	HoloEye: ホログラムで再現された、目玉の模倣体。そのエネルギー源は不明。
+	HoloBlade: ホログラムで再現された、剣の模倣体。そのエネルギー源は不明。
+	HoloSlime: ホログラムで再現された、スライムの模倣体。そのエネルギー源は不明。
+}
+
+NPCs: {
+	GulaSpirit: {
+		DisplayName: グーラの精霊
+	}
+
+	RotWalker: {
+		DisplayName: ロットウォーカー
+	}
+
+	VoidTreasureSlime: {
+		DisplayName: ヴォイドトレジャースライム
+	}
+
+	PupaFly: {
+		DisplayName: ゴアフライ
+	}
+
+	Pupa: {
+		DisplayName: ピューパ
+	}
+
+	CoalCart: {
+		DisplayName: 乗っ取られたカート
+	}
+
+	ExcavatorDrillTail: {
+		DisplayName: エクスカベーター
+	}
+
+	ExcavatorTail: {
+		DisplayName: エクスカベーター
+	}
+
+	ExcavatorBody2: {
+		DisplayName: エクスカベーター
+	}
+
+	LunaMoth: {
+		DisplayName: ツキヨガ
+	}
+
+	SanguineFoundry: {
+		DisplayName: 血の高炉
+	}
+
+	SubspaceWorm: {
+		DisplayName: 亜空のワーム
+	}
+
+	ExcavatorBody: {
+		DisplayName: エクスカベーター
+	}
+
+	Excavator: {
+		BossChecklistIntegration: {
+			DespawnMessage: エクスカベーターはもうあなたを追っていない
+			SpawnInfo: 廃村の坑道で[i:SOTS/SeismicStation]を起動して呼び出す
+			EntryName: エクスカベーター
+		}
+
+		DisplayName: エクスカベーター
+	}
+
+	Bridgeburner: {
+		DisplayName: ブリッジバーナー
+	}
+
+	TardigradePink: {
+		DisplayName: クマムシ
+	}
+
+	TardigradeGreen: {
+		DisplayName: クマムシ
+	}
+
+	TardigradeBrown: {
+		DisplayName: クマムシ
+	}
+
+	TardigradeBlue: {
+		DisplayName: クマムシ
+	}
+
+	MutagenTreasureSlime: {
+		DisplayName: 変異体トレジャースライム
+	}
+
+	Fistfull: {
+		DisplayName: ニクコブシ
+	}
+
+	BallOGutsPile: {
+		DisplayName: 内臓の山
+	}
+
+	BallOWorms: {
+		DisplayName: ミミズの塊
+	}
+
+	BallOGuts: {
+		DisplayName: 内臓の塊
+	}
+
+	Famished: {
+		DisplayName: ハラペコ
+	}
+
+	Throe: {
+		DisplayName: クノウ
+	}
+
+	EarthenGizmo: {
+		DisplayName: 大地ギズモ
+	}
+
+	CorpseBloom: {
+		DisplayName: コープスブルーム
+	}
+
+	ChimeraSnake: {
+		DisplayName: キメラヘビ
+	}
+
+	Chimera: {
+		DisplayName: キメラ
+	}
+
+	NewPolaris: {
+		DisplayName: ポラリス
+	}
+
+	PhantarayCore: {
+		DisplayName: ファンタレイ
+	}
+
+	PhantarayBig: {
+		DisplayName: ファンタレイ
+	}
+
+	Snake: {
+		DisplayName: ヘビ
+	}
+
+	WallMimic: {
+		DisplayName: ウォールミミック
+	}
+
+	TwilightScouter: {
+		DisplayName: トワイライトスカウター
+	}
+
+	TwilightDevil: {
+		DisplayName: トワイライトデビル
+	}
+
+	Teratoma: {
+		DisplayName: テラトーマ
+	}
+
+	SnakePot: {
+		DisplayName: ヘビツボ
+	}
+
+	SittingMushroom: {
+		DisplayName: オスワリタケ
+	}
+
+	PhaseEye: {
+		DisplayName: フェーズアイ
+	}
+
+	NatureSlime: {
+		DisplayName: フラワースライム
+	}
+
+	MaligmorChild: {
+		DisplayName: マリグモル
+	}
+
+	Maligmor: {
+		DisplayName: マリグモル
+	}
+
+	LostSoul: {
+		DisplayName: 迷える魂
+	}
+
+	knuckles: {
+		DisplayName: ナックルス
+	}
+
+	HoloSlime: {
+		DisplayName: ホロスライム
+	}
+
+	HoloEye: {
+		DisplayName: ホロ・アイ
+	}
+
+	HoloBlade: {
+		DisplayName: ホロブレード
+	}
+
+	BleedingGhast: {
+		DisplayName: 血みどろの悪霊
+	}
+
+	FlamingGhast: {
+		DisplayName: 燃え盛る悪霊
+	}
+
+	Ghast: {
+		DisplayName: 悪霊
+	}
+
+	FluxSlimeBall: {
+		DisplayName: フラックスライムフック
+	}
+
+	FluxSlime: {
+		DisplayName: フラックススライム
+	}
+
+	BlueSlimer: {
+		DisplayName: ブルースライマー
+	}
+
+	BloomingHook: {
+		DisplayName: 花のフック
+	}
+
+	ArcticGoblin: {
+		DisplayName: アークティックゴブリン
+	}
+
+	Planetoid: {
+		DisplayName: 小惑星
+	}
+
+	Ultracap: {
+		DisplayName: ウルトラキャップ
+	}
+
+	Archaeologist: {
+		DisplayName: 考古学者
+		DisplayName2: 考古学者
+		DisplayName1: 奇妙なトランスミッション
+	}
+
+	ShadowTreasureSlime: {
+		DisplayName: 影のトレジャースライム
+	}
+
+	PyramidTreasureSlime: {
+		DisplayName: ピラミッドのトレジャースライム
+	}
+
+	JungleTreasureSlime: {
+		DisplayName: ジャングルのトレジャースライム
+	}
+
+	IceTreasureSlime: {
+		DisplayName: 凍ったトレジャースライム
+	}
+
+	HallowTreasureSlime: {
+		DisplayName: 聖なるトレジャースライム
+	}
+
+	GoldenTreasureSlime: {
+		DisplayName: 金のトレジャースライム
+	}
+
+	DungeonTreasureSlime: {
+		DisplayName: ダンジョンのトレジャースライム
+	}
+
+	CrimsonTreasureSlime: {
+		DisplayName: 真紅のトレジャースライム
+	}
+
+	CorruptionTreasureSlime: {
+		DisplayName: 不浄のトレジャースライム
+	}
+
+	BasicTreasureSlime: {
+		DisplayName: トレジャースライム
+	}
+
+	TreasureSlimes: {
+		DisplayName: トレジャースライム
+	}
+
+	PhaseSpeeder: {
+		DisplayName: フェーズスピーダー
+	}
+
+	PhaseAssaulterTail: {
+		DisplayName: フェーズアサルター
+	}
+
+	PhaseAssaulterBody: {
+		DisplayName: フェーズアサルター
+	}
+
+	PhaseAssaulterHead: {
+		DisplayName: フェーズアサルター
+	}
+
+	LesserWisp: {
+		DisplayName: レッサーウィスプ
+	}
+
+	TidalSpirit: {
+		DisplayName: 潮流の精霊
+	}
+
+	TidalConstruct: {
+		DisplayName: 潮流のコンストラクト
+	}
+
+	PermafrostSpirit: {
+		DisplayName: 永久凍結の精霊
+	}
+
+	PermafrostConstruct: {
+		DisplayName: 永久凍結のコンストラクト
+	}
+
+	OtherworldlySpirit: {
+		DisplayName: 異世界の精霊
+	}
+
+	OtherworldlyConstructHead2: {
+		DisplayName: 異世界のコンストラクト
+	}
+
+	OtherworldlyConstructHead: {
+		DisplayName: 異世界のコンストラクト
+	}
+
+	NatureSpirit: {
+		DisplayName: 自然の精霊
+	}
+
+	NatureConstruct: {
+		DisplayName: 自然の精霊
+	}
+
+	InfernoSpirit: {
+		DisplayName: 地獄の精霊
+	}
+
+	InfernoConstruct: {
+		DisplayName: 地獄のコンストラクト
+	}
+
+	EvilSpirit: {
+		DisplayName: 邪悪の精霊
+	}
+
+	EvilConstruct: {
+		DisplayName: 邪悪のコンストラクト
+	}
+
+	EarthenSpirit: {
+		DisplayName: 大地の精霊
+	}
+
+	EarthenConstructTail: {
+		DisplayName: 大地のコンストラクト
+	}
+
+	EarthenConstruct: {
+		DisplayName: 大地のコンストラクト
+	}
+
+	Collector2: {
+		DisplayName: コレクター
+	}
+
+	Collector: {
+		DisplayName: コレクター
+	}
+
+	ChaosSpirit: {
+		DisplayName: 混沌の精霊
+	}
+
+	ChaosRubble: {
+		DisplayName: 混沌のコンストラクトシャーシ
+	}
+
+	ChaosConstruct: {
+		DisplayName: 混沌のコンストラクト
+	}
+
+	SubspaceSerpentTail: {
+		DisplayName: 亜空の大蛇
+	}
+
+	SubspaceSerpentBody: {
+		DisplayName: 亜空の大蛇
+	}
+
+	SubspaceSerpentHead: {
+		BossChecklistIntegration: {
+			DespawnMessage: 亜空の大蛇はもうあなたを追っていない
+			SpawnInfo: 地獄で [i:SOTS/CatalystBomb] を起爆して次元に亀裂を開ける
+			EntryName: 亜空の大蛇
+		}
+
+		DisplayName: 亜空の大蛇
+	}
+
+	SubspaceEye: {
+		DisplayName: 亜空の観察者
+	}
+
+	PutridPinkyPhase2: {
+		BossChecklistIntegration: {
+			DespawnMessage: 腐ったピンキーはもうあなたを追っていない
+			SpawnInfo: 任意のバイオームで [i:SOTS/JarOfPeanuts] を使い召喚する
+			EntryName: 腐ったピンキー
+		}
+
+		DisplayName: 腐ったピンキー
+	}
+
+	PutridPinky1: {
+		DisplayName: 腐ったピンキー
+	}
+
+	PutridHook: {
+		DisplayName: 腐ったフック
+	}
+
+	HookTurret: {
+		DisplayName: 腐ったタレット
+	}
+
+	GlowmothMinion: {
+		DisplayName: ヒカリガ
+	}
+
+	Glowmoth: {
+		BossChecklistIntegration: {
+			DespawnMessage: グロウモスはもうあなたを追っていない
+			SpawnInfo: 光るキノコバイオームでグロウシルクの繭を破壊するか [i:SOTS/SuspiciousLookingCandle] を使って召喚する
+			EntryName: グロウモス
+		}
+
+		DisplayName: グロウモス
+	}
+
+	PolarisSpike: {
+		DisplayName: ポーラースパイク
+	}
+
+	PolarisLaser: {
+		DisplayName: ポーラークアッドキャノン
+	}
+
+	PolarisCannon: {
+		DisplayName: ポーラーキャノン
+	}
+
+	Polaris: {
+		BossChecklistIntegration: {
+			DespawnMessage: ポラリスはもうあなたを追っていない
+			SpawnInfo: 雪原バイオームで [i:SOTS/FrostedKey] を使い [i:SOTS/FrostArtifact] を起動する
+			EntryName: ポラリス
+		}
+
+		DisplayName: ポラリス
+	}
+
+	BulletSnakeWing: {
+		DisplayName: ダンガンヘビ
+	}
+
+	BulletSnakeEnd: {
+		DisplayName: ダンガンヘビ
+	}
+
+	BulletSnakeBody: {
+		DisplayName: ダンガンヘビ
+	}
+
+	BulletSnakeHead: {
+		DisplayName: ダンガンヘビ
+	}
+
+	FakeLux: {
+		DisplayName: 混沌の幻
+	}
+
+	Lux: {
+		BossChecklistIntegration: {
+			DespawnMessage: ルクスはもうあなたを追っていない
+			SpawnInfo: 混沌の精霊を怒らせる
+			EntryName: ルクス
+		}
+
+		DisplayName: ルクス
+	}
+
+	SmallGas: {
+		DisplayName: ファラオの呪い
+	}
+
+	PharaohsCurse: {
+		BossChecklistIntegration: {
+			DespawnMessage: ファラオの呪いはもうあなたを追っていない
+			SpawnInfo: ピラミッドで [i:SOTS/Sarcophagus] を起動する
+			EntryName: ファラオの呪い
+		}
+
+		DisplayName: ファラオの呪い
+	}
+
+	TheAdvisorHead: {
+		BossChecklistIntegration: {
+			DespawnMessage: アドバイザーはもうあなたを追っていない
+			SpawnInfo: プラネタリウムで4個の固定された異世界のコンストラクトを破壊する
+			EntryName: アドバイザー
+		}
+
+		DisplayName: アドバイザー
+	}
+}
+
+Dialogue: {
+	ArchaeologistDialogueInvidia3: コノ場所からハ、ヴォイドの渦と地獄のエネルギーを感じマス。
+	ArchaeologistDialogueInvidia2: コノ大蛇の彫刻ハ細かい部分が非常に良くデキていると思いませんカ?
+	ArchaeologistDialogueInvidia1: コノ聖域はワタシのお気に入りの場所デス。常に静寂を感じマス。
+	ArchaeologistDialogueIceMonument: コノ鍵穴は怪しいデス。コノ構造物が何かの収納ではないとミました。
+	ArchaeologistDialogueDamocles: フム…コノ部屋ハ牢屋ですカ?ソレトモ王様の部屋ですカ?
+	ArchaeologistDialogueCoconutBroken: とても賢い旅人ですネ…きっと明るい未来が待っているでしょウ。 
+	ArchaeologistDialogueCoconutMonument: コノ石板は非常に光感受性の高い素材で構成されていマス。 石板ニ光を集中させる物体を見つけられれバ、どんな秘密が明らかになるのでしょウ?
+	ArchaeologistDialogueBigCrystal: コノ成形物から強いエネルギーが放射サれているの感じマス。
+	ArchaeologistDialogueGula2: コノゲートウェイが大地と邪悪エネルギーが共鳴したものだと思うのですガ…残念ながラ、自分で実験デキないのデス。
+	ArchaeologistDialogueGula1: あの採掘プロジェクトはこのゲートウェイと関係アるのでしょうカ…
+	ArchaeologistDialogueAvaritia3: コノゲートウェイが異世界と混沌エネルギーが共鳴したものだと思うのですガ… 残念ながラ、自分で実験デキないのデス。
+	ArchaeologistDialogueAvaritia2: コノゲートウェイが異世界と混沌エネルギーが共鳴したものだと思うのですガ… 残念ながラ、自分で実験デキないのデス。
+	ArchaeologistDialogueAvaritia1: アドバイザーのゲートウェイの或るベキ姿ですネ。まさしく完璧デス。
+	ArchaeologistDialogueAcedia2: コノゲートウェイが自然と大地エネルギーが共鳴したものだと思うのですガ…残念ながラ、自分で実験デキないのデス。
+	ArchaeologistDialogueAcedia1: コノゲートは蔓が生い茂ってイますガ、頑丈に保たれていマス。
+	ArchaeologistDialoguePortal2: コノ惑星にこんなニもたくさんゲートウェイが通じているのは奇妙ですネ… ワタシのですらココに通じていマス。
+	ArchaeologistDialoguePortal1: コノゲートウェイは他のゲートウェイとトテモ良く似ていマス。
+	ArchaeologistDialoguePortalNotAvaritia: またゲートウェイデス… どこに通じているか気になりマス。 
+	ArchaeologistDialogueGemlockDiamond: おかしいデス。この鍵は唯一発見された形跡がナいですガ、それでも鍵が無くなっていますネ。
+	ArchaeologistDialogueGemlockNotDiamond: コノロック機構はかなり古い物ですガ、周りを覆う物は比較的新しいデス。オソラク人工物でしょうカ?
+	ArchaeologistDialogue7: 実体がないのにどうしてワタシからアノマリー検知器を買えるかですカ？細かいコト気にしないデ、とにかく買ってくださイ!
+	ArchaeologistDialogue6: ワタシの故郷はとても暗イ。まだこの量の日光が降り注ぐ惑星を観測できて幸せデス。
+	ArchaeologistDialogue5: ワタシのふるさとと比ベ、ここは古代の遺物がかなり集中していマス。
+	ArchaeologistDialogue4: ワタシに何かできることハありますカ?
+	ArchaeologistDialogue3: コノ惑星の地形構造はとても個性的デス。
+	ArchaeologistDialogue2: コンニチハ、旅人サン。⋯前にもお会いシましたカ⋯？ それはトモカク、ワタシは通りすがりの考古学者デス。
+	ArchaeologistDialogue1: コンニチハ、旅人サン。ワタシのことは気にしなくて大丈夫デス。タダの通りすがりの考古学者デスカラ。
+}
+
+WorldGeneration: {
+	Atmosphere: スターライトが大気圏上層で固形化した!
+	GetStatus: スターライトを生成中...
+}
+
+Tiles: {
+	LightStatueTile: {
+		MapEntry: 光の石像タイル
+	}
+
+	ExcavatorMusicBoxTile: {
+		MapEntry: エクスカベーターのオルゴールタイル
+	}
+
+	IraGatewayTile: {
+		MapEntry: 憤怒のゲートウェイ
+	}
+
+	TideChainTile: {
+		MapEntry: 潮流の鎖タイル
+	}
+
+	SeismicStationTile: {
+		MapEntry: サイズミックステーション
+	}
+
+	EvostonePots: {
+		MapEntry: 壺
+	}
+
+	SanctuaryMusicBoxTile: {
+		MapEntry: 聖域のオルゴール
+	}
+
+	InvidiaGatewayTile: {
+		MapEntry: 奇妙なゲートウェイ
+	}
+
+	SerpentStatueTile: {
+		MapEntry: 大蛇の石像タイル
+	}
+
+	RuinedStatueTile: {
+		MapEntry: 遺跡の石像タイル
+	}
+
+	MothMusicBoxTile: {
+		MapEntry: モスのオルゴールタイル
+	}
+
+	ChaosPlatingBlastDoorTileClosed: {
+		MapEntry: 混沌プレートの防爆ドア
+	}
+
+	ChaosPlatingBlastDoorTileOpen: {
+		MapEntry: 混沌プレートの防爆ドア
+	}
+
+	ChaosPlatingChestTile: {
+		MapEntry0: ロックされた混沌プレートのチェスト
+		MapEntry1: 混沌プレートのチェスト
+	}
+
+	ChaosPlatingTorchTile: {
+		MapEntry: 混沌プレートのたいまつ
+	}
+
+	InfernoPlatingTorchTile: {
+		MapEntry: 地獄プレートのたいまつ
+	}
+
+	InfernoPlatingChestTile: {
+		MapEntry1: ロックされた地獄プレートのチェスト
+		MapEntry0: 地獄プレートのチェスト
+	}
+
+	InfernoPlatingBlastDoorTileOpen: {
+		MapEntry: 地獄プレートのの防爆ドア
+	}
+
+	InfernoPlatingBlastDoorTileClosed: {
+		MapEntry: 地獄プレートのの防爆ドア
+	}
+
+	EvilPlatingTorchTile: {
+		MapEntry: 邪悪プレートのたいまつ
+	}
+
+	EvilPlatingChestTile: {
+		MapEntry1: ロックされた邪悪プレートのカプセル
+		MapEntry0: 邪悪プレートのカプセル
+	}
+
+	EvilPlatingBlastDoorTileOpen: {
+		MapEntry: 邪悪プレートの防爆ドア
+	}
+
+	EvilPlatingBlastDoorTileClosed: {
+		MapEntry: 邪悪プレートの防爆ドア
+	}
+
+	OtherworldPlatingTorchTile: {
+		MapEntry: 異世界プレートのたいまつ
+	}
+
+	OtherworldPlatingChestTile: {
+		MapEntry1: ロックされた異世界プレートのカプセル
+		MapEntry0: 異世界プレートのカプセル
+	}
+
+	OtherworldPlatingBlastDoorTileOpen: {
+		MapEntry: 異世界プレートの防爆ドア
+	}
+
+	OtherworldPlatingBlastDoorTileClosed: {
+		MapEntry: 異世界プレートの防爆ドア
+	}
+
+	PinkyTestTube: {
+		MapEntry: 実験の失敗作
+	}
+
+	AVMinesMusicBoxTile: {
+		MapEntry: 廃村の坑道のオルゴール
+	}
+
+	TidalPlatingTorchTile: {
+		MapEntry: 潮流プレートのたいまつ
+	}
+
+	TidalPlatingChestTile: {
+		MapEntry1: ロックされた潮流プレートの収納
+		MapEntry0: 潮流プレートの収納
+	}
+
+	TidalPlatingBlastDoorTileOpen: {
+		MapEntry: 潮流プレートの防爆ドア
+	}
+
+	TidalPlatingBlastDoorTileClosed: {
+		MapEntry: 潮流プレートの防爆ドア
+	}
+
+	AVMusicBoxTile: {
+		MapEntry: 廃村地上のオルゴール
+	}
+
+	AVPots: {
+		MapEntry: 壺
+	}
+
+	GulaGatewayTile: {
+		MapEntry: 奇妙なゲートウェイ
+	}
+
+	TidalConduitTile: {
+		MapEntry: 潮流の伝導管
+	}
+
+	PermafrostConduitTile: {
+		MapEntry: 永久凍結の伝導管
+	}
+
+	InfernoConduitTile: {
+		MapEntry: 地獄の伝導管
+	}
+
+	EvilConduitTile: {
+		MapEntry: 邪悪の伝導管
+	}
+
+	OtherworldConduitTile: {
+		MapEntry: 異世界の伝導管
+	}
+
+	ChaosConduitTile: {
+		MapEntry: 混沌の伝導管
+	}
+
+	PlanetariumCrateTile: {
+		MapEntry: プラネタリウムの箱タイル
+	}
+
+	OtherworldCrateTile: {
+		MapEntry: 異世界の箱タイル
+	}
+
+	GemChestTile: {
+		MapEntry13: ロックされた宝石のチェスト
+		MapEntry12: 宝石のチェスト
+		MapEntry11: ロックされた宝石のチェスト
+		MapEntry10: 宝石のチェスト
+		MapEntry9: ロックされた宝石のチェスト
+		MapEntry8: 宝石のチェスト
+		MapEntry7: ロックされた宝石のチェスト
+		MapEntry6: 宝石のチェスト
+		MapEntry5: ロックされた宝石のチェスト
+		MapEntry4: 宝石のチェスト
+		MapEntry3: ロックされた宝石のチェスト
+		MapEntry2: 宝石のチェスト
+		MapEntry1: ロックされた宝石のチェスト
+		MapEntry0: 宝石のチェスト
+	}
+
+	PermafrostPlatingBlastDoorTileOpen: {
+		MapEntry: 永久凍結プレートの防爆ドア
+	}
+
+	PermafrostPlatingBlastDoorTileClosed: {
+		MapEntry: 永久凍結プレートの防爆ドア
+	}
+
+	NaturePlatingBlastDoorTileOpen: {
+		MapEntry: 自然プレートの防爆ドア
+	}
+
+	NaturePlatingBlastDoorTileClosed: {
+		MapEntry: 自然プレートの防爆ドア
+	}
+
+	GoopwoodDoorOpen: {
+		DisplayName: グープウッドのドア
+		MapEntry: グープウッドのドア
+	}
+
+	GoopwoodDoorClosed: {
+		DisplayName: グープウッドのドア
+		MapEntry: グープウッドのドア
+	}
+
+	EarthenPlatingBlastDoorTileOpen: {
+		MapEntry: 大地プレートの防爆ドア
+	}
+
+	EarthenPlatingBlastDoorTileClosed: {
+		MapEntry: 大地プレートの防爆ドア
+	}
+
+	AncientGoldDoorOpen: {
+		DisplayName: 古代の金のドア
+		MapEntry: 古代の金のドア
+	}
+
+	AncientGoldDoorClosed: {
+		DisplayName: 古代の金のドア
+		MapEntry: 古代の金のドア
+	}
+
+	HydraulicPressTile: {
+		MapEntry: 油圧プレス
+	}
+
+	MineralariumTile: {
+		MapEntry: ミネラリウム
+	}
+
+	EnchantedSwordShrineTile: {
+		MapEntry: 剣の台座
+	}
+
+	EnchantedPickShrineTile: {
+		MapEntry: ツルハシの台座
+	}
+
+	ElectromagneticDeterrentTile: {
+		MapEntry: D.E.F.E
+	}
+
+	ArkhalisChainTile: {
+		MapEntry: 失われた鎖
+	}
+
+	ForgottenLampTile: {
+		MapEntry: 偽りのランプ
+	}
+
+	StrangeKeystoneTile: {
+		MapEntry: 奇妙なキーストーン
+	}
+
+	TaintedKeystoneShardTile: {
+		MapEntry: 穢れたキーストーンの欠片
+	}
+
+	SarcophagusTile: {
+		MapEntry: 石棺
+	}
+
+	RubyKeystoneTile: {
+		MapEntry: 奇妙なキーストーン
+	}
+
+	RoyalRubyShardTile: {
+		MapEntry: キーストーンの欠片
+	}
+
+	PyramidPots: {
+		MapEntry: 壺
+	}
+
+	PyramidGateTile: {
+		MapEntry: ピラミッドの門
+	}
+
+	PyramidChestTile: {
+		MapEntry0: ピラミッドのチェスト
+	}
+
+	ManaStatue: {
+		MapEntry: マナの石像
+	}
+
+	CursedGrowthTile: {
+		MapEntry: 呪われた植物
+	}
+
+	CursedAppleTile: {
+		MapEntry: 奇妙な果物
+	}
+
+	CrystalStatue: {
+		MapEntry: クリスタルの像
+	}
+
+	AncientGoldGateTile: {
+		MapEntry: 奇妙な柱
+	}
+
+	AcediaGatewayTile: {
+		MapEntry: 奇妙なゲートウェイ
+	}
+
+	FrostArtifactTile: {
+		MapEntry: フロストアーティファクト
+	}
+
+	FrigidIceTileSafe: {
+		MapEntry: 極寒鉱石
+	}
+
+	FrigidIceTile: {
+		MapEntry: 極寒鉱石
+	}
+
+	AvaritianGatewayTile: {
+		MapEntry: 奇妙なゲートウェイ
+	}
+
+	TransmutationAltarTile: {
+		MapEntry: 転移のアルター
+	}
+
+	SkyChainTile: {
+		MapEntry: 空の鎖
+	}
+
+	SkyPots: {
+		MapEntry: 壺
+	}
+
+	PotGeneratorTile: {
+		MapEntry: ツボ生成機
+	}
+
+	HardlightTableTile: {
+		MapEntry: ハードライトのテーブル
+	}
+
+	HardlightFabricatorTile: {
+		MapEntry: ハードライト製造機
+	}
+
+	DigitalDisplayTile: {
+		MapEntry: デジタルディスプレイ
+	}
+
+	CurseMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	SubspaceSerpentMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	PyramidBattleMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	PutridPinkyMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	PolarisMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	PlanetariumMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	LuxMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	KnucklesMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	AncientPyramidMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	AdvisorMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	SOTSGemLockTiles: {
+		MapEntry: 謎めいたスイッチ
+	}
+
+	PermafrostPlatingTorchTile: {
+		MapEntry: 永久凍結プレートのたいまつ
+	}
+
+	NaturePlatingTorchTile: {
+		MapEntry: 自然プレートのたいまつ
+	}
+
+	Hydroponics: {
+		MapEntry: 水耕栽培装置
+	}
+
+	GoopwoodBarrelTile: {
+		MapEntry0: グープウッドの樽
+	}
+
+	EarthenPlatingTorchTile: {
+		MapEntry: 大地プレートのたいまつ
+	}
+
+	AncientGoldTorchTile: {
+		MapEntry: 古代の金のたいまつ
+	}
+
+	AncientGoldThroneTile: {
+		MapEntry: 古代の金の玉座
+	}
+
+	AncientGoldCampfireTile: {
+		MapEntry: 永遠の暖炉
+	}
+
+	PyramidCrateTile: {
+		MapEntry: ピラミッドの箱
+	}
+
+	VibrantCrystalLargeTile: {
+		MapEntry: 大きい光彩の欠片
+	}
+
+	VibrantBrickTile: {
+		MapEntry: 光彩のレンガ
+	}
+
+	VibrantCrystalTile: {
+		MapEntry: 光彩の欠片
+	}
+
+	VibrantOreTile: {
+		MapEntry: 光彩鉱石
+	}
+
+	BigCrystalTile: {
+		MapEntry: 巨大なクリスタル
+	}
+
+	SilkCocoonTile: {
+		MapEntry: 発光する繭
+	}
+
+	SOTSTrophies: {
+		MapEntry: トロフィー
+	}
+
+	SOTSBanners2: {
+		MapEntry: のバナー
+	}
+
+	SOTSBanners: {
+		MapEntry: のバナー
+	}
+
+	HoloSwordBannerTile: {
+		MapEntry: のバナー
+	}
+
+	HoloSlimeBannerTile: {
+		MapEntry: のバナー
+	}
+
+	HoloEyeBannerTile: {
+		MapEntry: のバナー
+	}
+
+	InvidiaChestTile: {
+		MapEntry9: ロックされた有明月のインヴィディアチェスト
+		MapEntry8: ロックされた下弦の月のインヴィディアチェスト
+		MapEntry7: ロックされた寝待月のインヴィディアチェスト
+		MapEntry6: ロックされた満月のインヴィディアチェスト
+		MapEntry5: ロックされた三日月のインヴィディアチェスト
+		MapEntry4: ロックされた上弦の月のインヴィディアチェスト
+		MapEntry3: ロックされた十三夜月のインヴィディアチェスト
+		MapEntry2: ロックされた新月のインヴィディアチェスト
+		MapEntry1: ロックされたインヴィディアチェスト
+		MapEntry0: インヴィディアチェスト
+	}
+
+	GulaVaultTile: {
+		MapEntry3: 三重ロックされたグーラの金庫
+		MapEntry2: 二重ロックされたグーラの金庫
+		MapEntry1: ロックされたグーラの金庫
+		MapEntry0: グーラの金庫
+	}
+
+	LockedStrangeChest: {
+		MapEntry1: ロックされたプラネタリウムのチェスト
+		MapEntry0: プラネタリウムのチェスト
+	}
+
+	LockedSkywareChest: {
+		MapEntry1: ロックされたスカイウェアのチェスト
+		MapEntry0: スカイウェアのチェスト
+	}
+
+	LockedMeteoriteChest: {
+		MapEntry1: ロックされたメテオライトのチェスト
+		MapEntry0: メテオライトのチェスト
+	}
+
+	PermafrostPlatingCapsuleTile: {
+		MapEntry1: ロックされた永久凍結プレートのカプセル
+		MapEntry0: 永久凍結プレートのカプセル
+	}
+
+	NaturePlatingCapsuleTile: {
+		MapEntry1: ロックされた自然プレートのカプセル
+		MapEntry0: 自然プレートのカプセル
+	}
+
+	EarthenPlatingStorageTile: {
+		MapEntry1: ロックされた大地プレートの収納
+		MapEntry0: 大地プレートの収納
+	}
+
+	RuinedChestTile: {
+		MapEntry1: ロックされた遺跡のチェスト
+		MapEntry0: 遺跡のチェスト
+	}
+
+	PeanutOreTile: {
+		MapEntry: ピーナッツ鉱石
+	}
+
+	PeanutBushTile: {
+		MapEntry: ピーナッツの茂み
+	}
+
+	EarthenConduitTile: {
+		MapEntry: 大地の伝導管
+	}
+
+	NatureConduitTile: {
+		MapEntry: 自然の伝導管
+	}
+}
+
+ArmorSetBonus: {
+	Excavator:
+		'''
+		ミサイルランチャーテールの攻撃速度が50%増加
+		ヴォイド再生速度が30%増加
+		'''
+	Earthen:
+		'''
+		近接攻撃が敵に細断のスタックを付与することがあり、すべての攻撃で受けるダメージを増加させる
+		攻撃速度が20%増加
+		'''
+	Elemental:
+		'''
+		テレポートで当たった敵が一時的に凍りつく
+		テレポートのクールダウンを6秒に短縮しテレポートのダメージ範囲を50%拡大
+		テレポートのダメージがヴォイドダメージ上昇率に基づき上昇する
+		'''
+	Voidspace:
+		'''
+		攻撃が毎秒10ダメージの亜空の炎上を付与するようになる
+		亜空の炎上を受けた敵が倒されると倒された敵が受けた合計蓄積ダメージを他のすべて敵に与える
+		このダメージを受けた敵にも亜空の炎上を付与する
+		'''
+	PatchLeather: 共に戦う空飛ぶヘビの群れを召喚する
+	Cursed:
+		'''
+		'{0}' を押してルビーモノリスを攻撃形態に変形させる
+		攻撃形態中は呪いの炎のクールダウンが80%軽減される
+		この形態中はヴォイド再生速度10%増加の代わりにヴォイド吸収が6増加する
+		'''
+	ShatterShard:
+		'''
+		ライフ自然再生が2増加
+		凍え、凍結、凍傷に対する耐性
+		'''
+	FrostArtifact: ほとんどの近接と遠距離攻撃がポーラーキャノンを召喚し25%のダメージを与える
+	Frigid:
+		'''
+		極寒のジャヴェリンがヴォイドを消費しなくなる
+		ヴォイドダメージが15%減少する
+		'''
+	TwilightAssassins:
+		'''
+		ホロ・アイが自動攻撃をするようになる
+		自動攻撃は25%の確率で不安定を付与するが、スタック数が多いほど付与する確率が下がる
+		'''
+	NatureWreath: 戦いを手助けする3体の花のフックを召喚する
+	Vespera: 最大ヴォイドが25増加、ヴォイド再生量が50%増加
+	Vibrant:
+		'''
+		ヴォイド再生量が2増加
+		光彩のピストルが精度を犠牲にし一度に3発弾を発射するようになる
+		'''
+	DoorItems:
+		'''
+		加速がより長く持つ
+		より速く加速する
+		'''
+}
+
+Buffs: {
+	BeepBoop: {
+		Description: このコンストラクトは今までであった物の一つに過ぎないが、キミ自身が異世界なのである。
+		DisplayName: ピッピッ
+	}
+
+	FriendlyCartBuff: {
+		Description: 「トロッコの時間だ!」
+		DisplayName: フレンドリーカート
+	}
+
+	UnholyGrailBuff: {
+		Description: 防御力が12低下
+		DisplayName: 怠慢の苦悩
+	}
+
+	Embattle: {
+		Description: ダメージが5%上昇し敵のスポーン率が大幅に上昇する
+		DisplayName: 激戦
+	}
+
+	Boiling: {
+		Description: 「肌が剥がれ落ちていくのを感じる」
+		DisplayName: 沸騰中
+	}
+
+	VoidAccess: {
+		Description: ヴォイド再生量が5上昇
+		DisplayName: 虚触
+	}
+
+	Vigor: {
+		Description: 残りダッシュ: {0}
+		DisplayName: 活力
+	}
+
+	SanctuarySilence: {
+		Description: 敵のスポーン率が {0}% 減少
+		DisplayName: 静寂
+		Prefix7: 壊滅的な
+		Prefix6: 不気味な
+		Prefix5: 囁きの
+		Prefix4: 至福の
+		Prefix3: 希望に満ちた
+		Prefix2: 哀しみの
+		Prefix1: 畏れの
+		Prefix0: 圧倒敵な
+	}
+
+	LungRot: {
+		Description:
+			'''
+			邪悪な空気が肺を覆う
+			移動中のライフ自然再生が大幅に低下
+			移動中にヴォイド再生速度が40%上昇
+			'''
+		DisplayName: 腐敗した肺
+	}
+
+	FreshGreenyBuff: {
+		Description: 「腐ったピンキーが最も恐れるもの」
+		DisplayName: 新鮮なグリーニー
+	}
+
+	Attuned: {
+		Tier8:
+			'''
+			最大ライフが100増加
+			最大ヴォイドが100増加
+			'''
+		Tier7:
+			'''
+			最大ライフが100増加
+			最大ヴォイドが80増加
+			'''
+		Tier6:
+			'''
+			最大ライフが80増加
+			最大ヴォイドが80増加
+			'''
+		Tier5:
+			'''
+			最大ライフが60増加
+			最大ヴォイドが60増加
+			'''
+		Tier4:
+			'''
+			最大ライフが60増加
+			最大ヴォイドが40増加
+			'''
+		Tier3:
+			'''
+			最大ライフが40増加
+			最大ヴォイドが40増加
+			'''
+		Tier2:
+			'''
+			最大ライフが20増加
+			最大ヴォイドが20増加
+			'''
+		Tier1: 最大ライフが20増加
+		Description: Temp
+		DisplayName: 調律
+	}
+
+	BrassWhipDebuff: {
+		Description: Mods.SOTS.Buffs.BrassWhipDebuff.Description
+		DisplayName: 真鍮の鞭のデバフ
+	}
+
+	ChaosState2: {
+		Description:
+			'''
+			エレメンタルテレポートが無効化される
+			攻撃速度が40%増加
+			'''
+		DisplayName: 混沌状態
+	}
+
+	TesseractBuff: {
+		Description: あなたは今、あらゆる場所に、あらゆるものに、同時に存在している
+		DisplayName: テッセラクト
+	}
+
+	EmberOiled: {
+		Description: すべての炎系DoTダメージを即座に受ける
+		DisplayName: エンバーオイル漬け
+	}
+
+	AtlantisBuff: {
+		Description:
+			'''
+			近接ダメージが他のソースにより増加した魔法ダメージの50%増加する
+			魔法ダメージが他のソースにより増加した近接ダメージの50%増加する
+			移動速度が20%増加、受けるダメージを10%軽減
+			'''
+		DisplayName: 血の水
+	}
+
+	GlowWhipDebuff: {
+		Description: キラッキラ!
+		DisplayName: 発光する鞭デバフ
+	}
+
+	KelpWhipCooldown: {
+		Description: クリティカルしない
+		DisplayName: コンブの鞭クールダウン
+	}
+
+	KelpWhipBuff: {
+		Description: 次の攻撃がクリティカルヒット
+		DisplayName: コンブの鞭命中バフ
+	}
+
+	Skipped: {
+		Description: 空間をワープしたので落下ダメージを受けない
+		DisplayName: スキップ
+	}
+
+	DendroChain: {
+		Description: 縛られている
+		DisplayName: デンドロの鎖
+	}
+
+	WebbedNPC: {
+		Description: 敵のみ移動速度が低下
+		DisplayName: クモ糸まみれ
+	}
+
+	VoidSickness: {
+		Description: ヴォイドダメージが10%減少
+		DisplayName: ヴォイド酔い
+	}
+
+	VoidShock: {
+		Description: ライフを速く失う、受けるダメージが200%増加
+		DisplayName: ヴォイドショック
+	}
+
+	VoidRecovery: {
+		Description: 魂が戻っていく
+		DisplayName: ヴォイドリカバリー
+	}
+
+	VoidMetamorphosis: {
+		Description:
+			'''
+			ヴォイド吸収が6増加
+			ヴォイド吸収によりヴォイドを吸収された場合ライフを回復する
+			'''
+		DisplayName: ヴォイド変形
+	}
+
+	VoidBurn: {
+		Description: ヴォイド吸収が2増加
+		DisplayName: ヴォイドバーン
+	}
+
+	Virtuous: {
+		Description: 「精神の仲間」
+		DisplayName: 徳高い
+	}
+
+	TidalSpiritAid: {
+		Description: 潮流の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	TerminatorSquirrelBuff: {
+		Description: リスが共に戦う
+		DisplayName: 機械リス
+	}
+
+	SurpriseAttack: {
+		Description:
+			'''
+			近接ダメージが50%増加
+			「あなたの背後にテレポート」
+			'''
+		DisplayName: 奇襲
+	}
+
+	SulfurBurn: {
+		Description: 魂の力が抜けていく
+		DisplayName: 硫黄焼け
+	}
+
+	StarlightSerpent: {
+		Description: クリスタルサーペントが共に戦う
+		DisplayName: クリスタルサーペント
+	}
+
+	SquirrelBuff: {
+		Description: リスが共に戦う
+		DisplayName: リス
+	}
+
+	SpiritSurfer: {
+		Description: 次元の間を板でサーフィンしよう!
+		DisplayName: スピリットサーファー
+	}
+
+	SpawnBossIce: {
+		Description: This is a work around since I don't know how to program multiplayer
+		DisplayName: Debug
+	}
+
+	SpawnBossCurse: {
+		Description: This is a work around since I don't know how to program multiplayer
+		DisplayName: Debug
+	}
+
+	SoulAccess: {
+		Description: ヴォイド再生速度が10%増加
+		DisplayName: 触魂
+	}
+
+	Shattered: {
+		Description: 次の一撃は痛いぞ!
+		DisplayName: 砕散
+	}
+
+	Satiated: {
+		Description: もう食べられない!
+		DisplayName: 満腹
+	}
+
+	RubyMonolithDefense: {
+		Description:
+			'''
+			ヴォイド再生速度が10%増加
+			受けるダメージを5%軽減
+			'''
+		DisplayName: ルビーモノリス防御形態
+	}
+
+	RubyMonolithAttack: {
+		Description:
+			'''
+			ヴォイド吸収が6増加
+			ヴォイドダメージが10%増加
+			'''
+		DisplayName: ルビーモノリス攻撃形態
+	}
+
+	Roughskin: {
+		Description: 防御力が4、ダメージが4%上昇
+		DisplayName: 荒肌
+	}
+
+	RippleBuff: {
+		Description: 定期的にダメージウェーブを放つ
+		DisplayName: 波潮
+	}
+
+	PurpleBalloon: {
+		Description: 釣りの友
+		DisplayName: 紫の風船
+	}
+
+	PharaohsCurse: {
+		Description: 何かがあなたを見ている。スポーン率が増加
+		DisplayName: ファラオの呪い
+	}
+
+	PermafrostSpiritAid: {
+		Description: 永久凍結の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	Overheat: {
+		Description: 移動速度と近接攻撃速度が10%増加
+		DisplayName: オーバーヒート
+	}
+
+	OtherworldlySpiritAid: {
+		Description: 異世界の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	NightIlluminatorBuff: {
+		Description: 発光する蛾に守られている
+		DisplayName: イルミネーション
+	}
+
+	Nightmare: {
+		Description: クリティカル攻撃で一つにまとめる
+		DisplayName: 悪夢
+	}
+
+	NatureSpiritAid: {
+		Description: 自然の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	IntimidatingPresence: {
+		Description: 敵のスポーン率が大幅に減少
+		DisplayName: 威圧的な存在感
+	}
+
+	InfernoSpiritAid: {
+		Description: 地獄の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	InfernalDefense: {
+		Description: 「ウィスプ召喚士」
+		DisplayName: 地獄の防御
+	}
+
+	Infected: {
+		Description: Mods.SOTS.BuffDescription.Infected
+		DisplayName: 感染
+	}
+
+	IceShield: {
+		Description: 浮遊する氷の盾に囲われる
+		DisplayName: アイスシールド
+	}
+
+	Harmony: {
+		Description: バフの味方
+		DisplayName: 調和
+	}
+
+	GoodVibes: {
+		Description: 静止時にステータスが上昇
+		DisplayName: 上機嫌
+	}
+
+	Frenzy: {
+		Description: 近接攻撃速度が100%増加
+		DisplayName: 狂乱
+	}
+
+	FluidCurse: {
+		Description: Mods.SOTS.BuffDescription.FluidCurse
+		DisplayName: 液体の呪い
+	}
+
+	Fat: {
+		Description: 速度が低下、耐性が増加
+		DisplayName: 肥満
+	}
+
+	EvilSpiritAid: {
+		Description: 邪悪の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	Ethereal: {
+		Description: エセリアルフレイムが共に戦う
+		DisplayName: エセリアル
+	}
+
+	EarthenSpiritAid: {
+		Description: 大地の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	DoubleVision: {
+		Description: 追加の釣り糸 (+{0})
+		DisplayName: 二倍視野
+	}
+
+	DilationSickness: {
+		Description: ヴォイド再生速度が90%減少
+		DisplayName: 拡張病
+	}
+
+	DiamondSkin: {
+		Description: 防御力が8増加、受けるダメージを8%軽減、移動速度が8%増加
+		DisplayName: ダイヤモンドの肌
+	}
+
+	DEFEBuff: {
+		Description:「コンストラクトはもういい!」
+		DisplayName: 電磁インターフェース
+	}
+
+	CyberneticEnhancements: {
+		Description: ヴォイドダメージが10%増加
+		DisplayName: サイバネティクス強化
+	}
+
+	CurseVision: {
+		Description: 苦しい?
+		DisplayName: 呪いのビジョン
+	}
+
+	CursedBlade: {
+		Description: カースドブレードが共に戦う
+		DisplayName: カースドブレード
+	}
+
+	CreativeShock2: {
+		Description: 創造の力を失っている!
+		DisplayName: 創造的衝撃
+	}
+
+	ChaosSpiritAid: {
+		Description: 混沌の精霊が共に戦う
+		DisplayName: 精霊の手助け
+	}
+
+	Brittle: {
+		Description: 攻撃を受けると氷の破片に囲われる
+		DisplayName: 破片拡散
+	}
+
+	Bluefire: {
+		Description: 倒した敵が炎となり爆発する
+		DisplayName: 蒼炎
+	}
+
+	AuraBoost: {
+		Description: ヴォイド再生速度が4%増加、ライフ自然再生が4増加、防御力が4増加、受けるダメージを4%軽減
+		DisplayName: オーラブースト
+	}
+
+	Assassination: {
+		Description: ライフが10%以下の敵を処刑する
+		DisplayName: 暗殺
+	}
+
+	AerialAssistance: {
+		Description: ペンギンたちが共に戦う
+		DisplayName: 航空支援
+	}
+
+	AbyssalInferno: {
+		Description: 「肌がなくなってしまった!」
+		DisplayName: 深淵の獄炎
+	}
+}
+
+ItemTooltip: {
+	DissolvingElements: {
+		DissolvingBrillianceFlipped: インベントリ内に存在する時、召喚ダメージが3%、最大12%増加
+		DissolvingBrillianceNormal: インベントリ内に存在する時、ヴォイド吸収が0.5増加
+		DissolvingNetherFlipped: インベントリ内に存在する時、近接ダメージが3%、最大12%増加
+		DissolvingNetherNormal: インベントリ内に存在する時、ライフ自然再生が2減少
+		DissolvingUmbraFlipped: インベントリ内に存在する時、ヴォイドダメージが3%、最大12%増加
+		DissolvingUmbraNormal: インベントリ内に存在する時、最大ヴォイドが20減少
+		DissolvingAetherFlipped: インベントリ内に存在する時、魔法ダメージが3%、最大12%増加
+		DissolvingAetherNormal: インベントリ内に存在する時、重力が低下
+		DissolvingDelugeFlipped: インベントリ内に存在する時、遠距離ダメージが3%、最大12%増加
+		DissolvingDelugeNormal: インベントリ内に存在する時、最大ライフとマナが10減少
+		DissolvingAuroraFlipped: インベントリ内に存在する時、移動速度が5%、最大20%増加
+		DissolvingAuroraNormal: インベントリ内に存在する時、移動速度が20%減少
+		DissolvingEarthFlipped: インベントリ内に存在する時、防御力が2、最大8増加
+		DissolvingEarthNormal: インベントリ内に存在する時、ダメージ軽減が10%減少
+		DissolvingNatureFlipped: インベントリ内に存在する時、ライフ自然再生が1、最大4増加
+		DissolvingNatureNormal: インベントリ内に存在する時、与えるダメージが10%減少
+	}
+}
+
+Items: {
+	AnomalyInterceptor: {
+		Tooltip:
+			'''
+			電磁トランスミッション、ワームホール、テレポートしたアイテムなどのアノマリーの場所と詳細をミニマップに表示する
+			アクセサリー枠または衣装枠に装備するか、インベントリ内で機能する
+			'''
+		DisplayName: アノマリーインターセプター
+	}
+
+	JumboSurpriseEgg: {
+		Tooltip: ヴォイドを21回復しジャンボサプライズカプセルが手に入る
+		DisplayName: ジャンボサプライズエッグ
+	}
+
+	JumboSurpriseCapsule: {
+		Tooltip: おもちゃ入り!
+		DisplayName: ジャンボサプライズカプセル
+	}
+
+	BrokenJumboSurpriseCapsule: {
+		Tooltip: ""
+		DisplayName: 割れたジャンボサプライズカプセル
+	}
+
+	WonderEgg: {
+		Tooltip: Temp
+		DisplayName: 宝石の卵
+	}
+
+	ExcavatorLeggings: {
+		Tooltip: 最大ヴォイドが25増加、ヴォイド再生量が25%増加、ヴォイド再生速度が10%増加
+		DisplayName: ドリルフォージの脛当て
+	}
+
+	ExcavatorHelmet: {
+		Tooltip: 最大ヴォイドが25増加、ヴォイド再生量が25%増加、ヴォイド再生速度が10%増加
+		DisplayName: ドリルフォージのヘルメット
+	}
+
+	ExcavatorBreastplate: {
+		Tooltip:
+			'''
+			ヴォイドを1消費して近くの敵を攻撃するミサイルランチャーテイルが生える
+			受けるダメージを10%軽減
+			'''
+		DisplayName: ドリルフォージの胸当て
+	}
+
+	LightStatue: {
+		Tooltip:
+			'''
+			ワームホールを引き寄せ近くにスポーンさせる
+			光の石像が2個以上アクティブになっている場合はランダムな石像にワームホールが引き寄せられる
+			オンとオフを切り替え可能
+			'''
+		DisplayName: 光の石像
+	}
+
+	ExperimentalInjection: {
+		Tooltip: ""
+		DisplayName: 実験段階の注射
+	}
+
+	MrGlorp: {
+		Tooltip:
+			'''
+			最大ヴォイドが100増加
+			ヴォイドショックとヴォイドリカバリーの効力が減少する
+			'''
+		DisplayName: Mr. Glorp
+	}
+
+	ExcavatorMusicBox: {
+		Tooltip: ""
+		DisplayName: エクスカベーターのオルゴール
+	}
+
+	OtherworldlyServiceDevice: {
+		Tooltip:
+			'''
+			光源として機能するピコピコしたコンストラクトを召喚する
+			「アドバイスが必要ですか?この便利性に優れた通信機器に精通するエキスパートに聞いて下さい!」
+			'''
+		DisplayName: 異世界のサービスデバイス
+	}
+
+	DrillHand: {
+		Tooltip:
+			'''
+			3x3の範囲を採掘するが採掘速度が50%減少し採掘パワーも15減少する
+			スマートカーソルがオンの時は代わりに採掘速度が15%増加する
+			'''
+		DisplayName: ドリルアーム
+	}
+
+	IraGateway: {
+		Tooltip: ""
+		DisplayName: 憤怒のゲートウェイ
+	}
+
+	ExcavatorTrophy: {
+		Tooltip: ""
+		DisplayName: エクスカベーターのトロフィ
+	}
+
+	ExcavatorMask: {
+		Tooltip: ""
+		DisplayName: エクスカベーターのマスク
+	}
+
+	ExcavatorRelic: {
+		Tooltip: ""
+		DisplayName: エクスカベーターのレリック
+	}
+
+	LuxBall: {
+		Tooltip:
+			'''
+			ゴルフボールで打つことができ速度に応じたダメージを与える
+			「これは一つの大きなフォトンです!」
+			'''
+		DisplayName: 精霊のゴルフボール
+	}
+
+	ExcavatorBossBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ (エクスカベーター)
+	}
+
+	AncientSteelBullet: {
+		Tooltip: クリティカルが毎秒5ダメージ与え、永続する出血のスタックを付与する
+		DisplayName: 金属スクラップ弾
+	}
+
+	AncientSteelArrow: {
+		Tooltip: クリティカルが毎秒5ダメージ与え、永続する出血のスタックを付与する
+		DisplayName: 金属スクラップの矢
+	}
+
+	BWand: {
+		Tooltip: ""
+		DisplayName: B. ワンド
+	}
+
+	TideChain: {
+		Tooltip: ""
+		DisplayName: 潮流の鎖
+	}
+
+	KingBlade: {
+		Tooltip:
+			'''
+			6回攻撃し、00%のダメージを与えるブレードを投げる
+			攻撃ごとに空から追加のブレードを降らせる
+			'''
+		DisplayName: キングブレード
+	}
+
+	SeismicStation: {
+		Tooltip: 「これを作動させることで望まれない注目を集めそうだ...」
+		DisplayName: サイズミックステーション
+	}
+
+	InvidiaPortalPlating: {
+		Tooltip: ""
+		DisplayName: インヴィディアのポータルプレート
+	}
+
+	RotWalkerBanner: {
+		Tooltip: ""
+		DisplayName: ロットウォーカーのバナー
+	}
+
+	PupaFlyBanner: {
+		Tooltip: ""
+		DisplayName: ゴアフライのバナー
+	}
+
+	PupaBanner: {
+		Tooltip: ""
+		DisplayName: ピューパのバナー
+	}
+
+	GobletOfEntrails: {
+		Tooltip: 消費しない
+		DisplayName: 内臓のゴブレット
+	}
+
+	VoidTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: ヴォイドトレジャースライムのバナー
+	}
+
+	CoalCartBanner: {
+		Tooltip: ""
+		DisplayName: 乗っ取られたカート
+	}
+
+	CapturedHeart: {
+		Tooltip: 乗っ取られたトロッコのマウント召喚する
+		DisplayName: 乗っ取られたハート
+	}
+
+	UnholyGrail: {
+		Tooltip:
+			'''
+			静止する座れる玉座を召喚する
+			アクティブ中は防御力が12増加
+			'''
+		DisplayName: 不浄の聖杯
+	}
+
+	EvostoneAmbient: {
+		Tooltip: ""
+		DisplayName: エヴォストーンの環境設置物
+	}
+
+	MartianWarhorn: {
+		Tooltip: 激戦のバフを付与しダメージが5%増加し敵のスポーン率が上昇する
+		DisplayName: 火星人の戦笛
+	}
+
+	MrMcMillen: {
+		Tooltip:
+			'''
+			ヴォイドショックとヴォイドリカバリーの効力が減少する
+			ヴォイド再生速度が50%増加、最大ヴォイドが50増加
+			「ゴミ集め中の牛...」
+			'''
+		DisplayName: Mr. McMillen
+	}
+
+	PlasticBait: {
+		Tooltip: ""
+		DisplayName: プラスチックのベイト
+	}
+
+	HardlightHook: {
+		Tooltip: 空中をグラップルできる
+		DisplayName: ハードライトのフック
+	}
+
+	FlowerCrown: {
+		ArchTooltip: 「スーパーチャンガス+100%か防御力+5、キミならどっちを選ぶ？」
+		Tooltip:
+			'''
+			ダメージ軽減が10%増加
+			ヴォイド再生量とライフ自然再生が4増加
+			ヴォイド消費時、消費したヴォイドの30%をライフに変換する
+			'''
+		DisplayName: 花冠
+	}
+
+	EvostonePotItem: {
+		Tooltip: ""
+		DisplayName: エヴォストーンの壺
+	}
+
+	EvostoneTable: {
+		Tooltip: ""
+		DisplayName: エヴォストーンのテーブル
+	}
+
+	EvostoneChair: {
+		Tooltip: ""
+		DisplayName: エヴォストーンのイス
+	}
+
+	EvostoneRuneBrickWall: {
+		Tooltip: ""
+		DisplayName: エヴォストーンのルーンのレンガの壁
+	}
+
+	FurnaceBanner: {
+		Tooltip: ""
+		DisplayName: 血の高炉のバナー
+	}
+
+	LunaMothItem: {
+		Tooltip: すべての液体で黒曜石の箱を釣り上げられる
+		DisplayName: ツキヨガ
+	}
+
+	PetalSalad: {
+		Tooltip: ヴォイドを5回復し60秒間虚触を付与しヴォイド再生量が5増加する
+		DisplayName: 花びらサラダ
+	}
+
+	VigorPotion: {
+		Tooltip: ダッシュが50回まで可能になる
+		DisplayName: 活力のポーション
+	}
+
+	VeganBurger: {
+		Tooltip: すべてのステータスが少し上昇
+		DisplayName: ヴィーガンバーガー
+	}
+
+	MrEepy: {
+		Tooltip:
+			'''
+			ヴォイドショックとヴォイドリカバリーの効力が減少
+			ヴォイドメーターへのダメージを無効化
+			ヴォイドダメージが10%増加、最大ヴォイドが50増加
+			'''
+		DisplayName: Mr. Eepy
+	}
+
+	InvidiaPetal: {
+		Tooltip: ""
+		DisplayName: ピンクの花びら
+	}
+
+	SubspaceWormItem: {
+		Tooltip: すべての液体で黒曜石の箱を釣り上げられる
+		DisplayName: 亜空のワーム
+	}
+
+	Dreamcatcher: {
+		Tooltip:
+			'''
+			ヴォイドメーターへのダメージを無効化
+			ヴォイドダメージが10%増加
+			'''
+		DisplayName: ドリームキャッチャー
+	}
+
+	EvostonePlatform: {
+		Tooltip: ""
+		DisplayName: エヴォストーンの足場
+	}
+
+	SanctuaryMusicBox: {
+		Tooltip: ""
+		DisplayName: 聖域のオルゴール
+	}
+
+	StreetCleaner: {
+		Tooltip: 敵の防御力を無視する
+		DisplayName: ストリートクリーナー
+	}
+
+	LevMirror: {
+		Tooltip: 使用すると'ホーム'に戻る
+		DisplayName: 砕けた鑑
+	}
+
+	InvidiaGateway: {
+		Tooltip: ""
+		DisplayName: インヴィディアのゲートウェイ
+	}
+
+	EvostoneGrandPillar: {
+		Tooltip: ""
+		DisplayName: エヴォストーンの大柱
+	}
+
+	LuxTrophy: {
+		Tooltip: ""
+		DisplayName: ルクスのトロフィ
+	}
+
+	EmptyNecklace: {
+		Tooltip: ヴォイド再生速度が50%増加
+		DisplayName: 空虚のアミュレット
+	}
+
+	PolarisTrophy: {
+		Tooltip: ""
+		DisplayName: ポラリスのトロフィ
+	}
+
+	SerpentStatue: {
+		Tooltip: ""
+		DisplayName: 大蛇の石像
+	}
+
+	RuinedStatue: {
+		Tooltip: ""
+		DisplayName: 遺跡の石像
+	}
+
+	MothMusicBox: {
+		Tooltip: ""
+		DisplayName: グロウモスのオルゴール
+	}
+
+	GlowmothTrophy: {
+		Tooltip: ""
+		DisplayName: グロウモスのトロフィ
+	}
+
+	GreedierRing: {
+		Tooltip:
+			'''
+			採掘速度とクリティカル率が5%増加
+			攻撃を受けた時とヴォイドを回復した時にコインを生成、死亡時にコインを失わない
+			コインや沈泥ブロックなどを採掘したときに追加でアイテムをドロップすることがある
+			コイン回収範囲が20%増加、ショップ価格が20%割引
+			敵を攻撃した際にたまに追加のコインをドロップする
+			'''
+		DisplayName: 貪欲の指輪
+	}
+
+	PinkTardigrade: {
+		Tooltip: アドバイザーが倒された後、どこにいてもプラネタリウムの箱を釣り上げられる
+		DisplayName: ピンクのクマムシ
+	}
+
+	GreenTardigrade: {
+		Tooltip: アドバイザーが倒された後、どこにいてもプラネタリウムの箱を釣り上げられる
+		DisplayName: 緑のクマムシ
+	}
+
+	BrownTardigrade: {
+		Tooltip: アドバイザーが倒された後、どこにいてもプラネタリウムの箱を釣り上げられる
+		DisplayName: 茶色のクマムシ
+	}
+
+	BlueTardigrade: {
+		Tooltip: アドバイザーが倒された後、どこにいてもプラネタリウムの箱を釣り上げられる
+		DisplayName: 青のクマムシ
+	}
+
+	BlinkBlade: {
+		Tooltip:
+			'''
+			左クリックで斬りつけ、攻撃命中時にヴォイドを回復し短い距離に電撃を放つ
+			右クリックで前方に短い距離ブリンクしヴォイドを3倍消費し300%のダメージを与える斬撃を行う
+			攻撃速度増加の効果が25%上昇する
+			'''
+		DisplayName: ブリンクブレード
+	}
+
+	ChaosPlatingWall: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの壁
+	}
+
+	InfernoPlatingWall: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの壁
+	}
+
+	RotHeart: {
+		Tooltip:
+			'''
+			最大ライフが20増加
+			増加したライフ自然再生をヴォイド再生量に変換する
+			ヴォイド消費時、消費したヴォイドの10%をライフに変換する
+			「ゲロマズ!」
+			'''
+		DisplayName: 腐った心臓
+	}
+
+	ChaosPlatingWorkBench: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの作業台
+	}
+
+	ChaosPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのたいまつ
+	}
+
+	ChaosPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのトイレ
+	}
+
+	ChaosPlatingTable: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのテーブル
+	}
+
+	ChaosPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのソファ
+	}
+
+	ChaosPlatingSink: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの流し台
+	}
+
+	ChaosPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの足場
+	}
+
+	ChaosPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのピアノ
+	}
+
+	ChaosPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのランタン
+	}
+
+	ChaosPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのランプ
+	}
+
+	ChaosPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのドレッサー
+	}
+
+	ChaosPlatingClock: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの時計
+	}
+
+	ChaosPlatingChest: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのチェスト
+	}
+
+	ChaosPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのシャンデリア
+	}
+
+	ChaosPlatingChair: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのイス
+	}
+
+	ChaosPlatingCandle: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのろうそく
+	}
+
+	ChaosPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの本棚
+	}
+
+	ChaosPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの防爆ドア
+	}
+
+	ChaosPlatingBed: {
+		Tooltip: ""
+		DisplayName: 混沌プレートのベッド
+	}
+
+	ChaosPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 混沌プレートの浴槽
+	}
+
+	InfernoPlatingWorkBench: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの作業台
+	}
+
+	InfernoPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのたいまつ
+	}
+
+	InfernoPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのトイレ
+	}
+
+	InfernoPlatingTable: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのテーブル
+	}
+
+	InfernoPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのソファ
+	}
+
+	InfernoPlatingSink: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの流し台
+	}
+
+	InfernoPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの足場
+	}
+
+	InfernoPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのピアノ
+	}
+
+	InfernoPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのランタン
+	}
+
+	InfernoPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのランプ
+	}
+
+	InfernoPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのドレッサー
+	}
+
+	InfernoPlatingClock: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの時計
+	}
+
+	InfernoPlatingChest: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのチェスト
+	}
+
+	InfernoPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのシャンデリア
+	}
+
+	InfernoPlatingChair: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのイス
+	}
+
+	InfernoPlatingCandle: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのろうそく
+	}
+
+	InfernoPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの本棚
+	}
+
+	InfernoPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの防爆ドア
+	}
+
+	InfernoPlatingBed: {
+		Tooltip: ""
+		DisplayName: 地獄プレートのベッド
+	}
+
+	InfernoPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 地獄プレートの浴槽
+	}
+
+	EvilPlatingWall: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの壁
+	}
+
+	EvilPlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 邪悪プレートの作業台
+	}
+
+	EvilPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのたいまつ
+	}
+
+	EvilPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのトイレ
+	}
+
+	EvilPlatingTable: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのテーブル
+	}
+
+	EvilPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのソファ
+	}
+
+	EvilPlatingSink: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの流し台
+	}
+
+	EvilPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの足場
+	}
+
+	EvilPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのピアノ
+	}
+
+	EvilPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのランタン
+	}
+
+	EvilPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのランプ
+	}
+
+	EvilPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのドレッサー
+	}
+
+	EvilPlatingClock: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの時計
+	}
+
+	EvilPlatingChest: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのカプセル
+	}
+
+	EvilPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのシャンデリア
+	}
+
+	EvilPlatingChair: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのイス
+	}
+
+	EvilPlatingCandle: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのろうそく
+	}
+
+	EvilPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの本棚
+	}
+
+	EvilPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの防爆ドア
+	}
+
+	EvilPlatingBed: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートのベッド
+	}
+
+	EvilPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 邪悪プレートの浴槽
+	}
+
+	OtherworldPlatingWall: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの壁
+	}
+
+	OtherworldPlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 異世界プレートの作業台
+	}
+
+	OtherworldPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのたいまつ
+	}
+
+	OtherworldPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのトイレ
+	}
+
+	OtherworldPlatingTable: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのテーブル
+	}
+
+	OtherworldPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのソファ
+	}
+
+	OtherworldPlatingSink: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの流し台
+	}
+
+	OtherworldPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの足場
+	}
+
+	OtherworldPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのピアノ
+	}
+
+	OtherworldPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのランタン
+	}
+
+	OtherworldPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのランプ
+	}
+
+	OtherworldPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのドレッサー
+	}
+
+	OtherworldPlatingClock: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの時計
+	}
+
+	OtherworldPlatingChest: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのカプセル
+	}
+
+	OtherworldPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのシャンデリア
+	}
+
+	OtherworldPlatingChair: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのイス
+	}
+
+	OtherworldPlatingCandle: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのろうそく
+	}
+
+	OtherworldPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの本棚
+	}
+
+	OtherworldPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの防爆ドア
+	}
+
+	OtherworldPlatingBed: {
+		Tooltip: ""
+		DisplayName: 異世界プレートのベッド
+	}
+
+	OtherworldPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 異世界プレートの浴槽
+	}
+
+	LunarClock: {
+		Tooltip: 時間の進みを制御できる
+		DisplayName: 時間の星盤
+	}
+
+	MoonShard8: {
+		Tooltip: ""
+		DisplayName: 有明月の欠片
+	}
+
+	MoonShard7: {
+		Tooltip: ""
+		DisplayName: 下弦の月の欠片
+	}
+
+	MoonShard6: {
+		Tooltip: ""
+		DisplayName: 寝待月の欠片
+	}
+
+	MoonShard5: {
+		Tooltip: ""
+		DisplayName: 満月の欠片
+	}
+
+	MoonShard4: {
+		Tooltip: ""
+		DisplayName: 十三夜月の欠片
+	}
+
+	MoonShard3: {
+		Tooltip: ""
+		DisplayName: 上弦の月の欠片
+	}
+
+	MoonShard2: {
+		Tooltip: ""
+		DisplayName: 三日月の欠片
+	}
+
+	MoonShard1: {
+		Tooltip: ""
+		DisplayName: 新月の欠片
+	}
+
+	InvidiaChest: {
+		Tooltip: ""
+		DisplayName: インヴィディアチェスト
+	}
+
+	EarthenLeggings: {
+		Tooltip: 採掘速度と移動速度が10%増加
+		DisplayName: 大地の脛当て
+	}
+
+	EarthenHelmet: {
+		Tooltip:
+			'''
+			視界が向上し光源を得る
+			採掘速度と移動速度が10%増加
+			'''
+		DisplayName: 大地のヘルメット
+	}
+
+	EarthenChestplate: {
+		Tooltip: 採掘速度と移動速度が10%増加
+		DisplayName: 大地のチェストプレート
+	}
+
+	AccretionDisc: {
+		Tooltip:
+			'''
+			投射軌道の頂点でより多くのダメージを与え、短時間持続し防御力を無視する特異点を生成する
+			特異点が崩壊した後は追尾弾としてバラバラに砕け散る
+			'''
+		DisplayName: 降着円盤
+	}
+
+	InvidiaPlating: {
+		Tooltip: ""
+		DisplayName: インヴィディアプレート
+	}
+
+	RunicEvostone: {
+		Tooltip: ""
+		DisplayName: ルーンのエヴォストーン
+	}
+
+	RunicEvostoneBrick: {
+		Tooltip: ""
+		DisplayName: ルーンのエヴォストーンレンガ
+	}
+
+	OvergrownEvostone: {
+		Tooltip: ""
+		DisplayName: 超成長したエヴォストーン
+	}
+
+	OvergrownEvostoneBrick: {
+		Tooltip: ""
+		DisplayName: 超成長したエヴォストーンレンガ
+	}
+
+	MutagenTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 変異体トレジャースライムのバナー
+	}
+
+	PinkyTestTubeItem: {
+		Tooltip: ""
+		DisplayName: 失敗した実験
+	}
+
+	Sunbulb: {
+		BrokenTooltip:
+			'''
+			ヴォイドダメージが20%増加
+			受けるダメージが100%増加
+			暗闇の強さが大幅に増加
+			「一度のチャンスを逃してしまった」
+			'''
+		AltTooltip:
+			'''
+			ダメージ、クリティカル率、ダメージ軽減が15%増加
+			光の強度が大幅に増加
+			「これが必要とする場所に持ち運ぼう...落とさないよう慎重に」
+			'''
+		DefaultTooltip:
+			'''
+			ダメージ、クリティカル率、ダメージ軽減が1%増加
+			「冷たい」
+			'''
+		Tooltip: temp
+		BrokenDisplayName: ルインバルブ
+		AltDisplayName: ソル
+		DisplayName: サンバルブ
+	}
+
+	FistfullBanner: {
+		Tooltip: ""
+		DisplayName: ニクコブシのバナー
+	}
+
+	DissolvingNihility: {
+		RareTooltip3: 「...然れば、汝に世界を与えん...」
+		RareTooltip2: 「...この牢より解き放ち給え...」
+		RareTooltip1: 「我は虚空に囚われたり...」
+		Tooltip: 「...」
+		AltDisplayName: 融解する無
+		DisplayName: 虚無のエッセンス
+	}
+
+	AVMinesMusicBox: {
+		Tooltip: ""
+		DisplayName: 廃村地下のオルゴール
+	}
+
+	TidalPlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 潮流プレートの作業台
+	}
+
+	TidalPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのたいまつ
+	}
+
+	TidalPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのトイレ
+	}
+
+	TidalPlatingTable: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのテーブル
+	}
+
+	TidalPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのソファ
+	}
+
+	TidalPlatingSink: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの流し台
+	}
+
+	TidalPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの足場
+	}
+
+	TidalPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのピアノ
+	}
+
+	TidalPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのランタン
+	}
+
+	TidalPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのランプ
+	}
+
+	TidalPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのドレッサー
+	}
+
+	TidalPlatingClock: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの時計
+	}
+
+	TidalPlatingChest: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのStorage
+	}
+
+	TidalPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのシャンデリア
+	}
+
+	TidalPlatingChair: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのイス
+	}
+
+	TidalPlatingCandle: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのろうそく
+	}
+
+	TidalPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの本棚
+	}
+
+	TidalPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの防爆ドア
+	}
+
+	TidalPlatingBed: {
+		Tooltip: ""
+		DisplayName: 潮流プレートのベッド
+	}
+
+	TidalPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの浴槽
+	}
+
+	TidalPlatingWall: {
+		Tooltip: ""
+		DisplayName: 潮流プレートの壁
+	}
+
+	FishBomb: {
+		Tooltip:
+			'''
+			液体の中で爆発すると魚が捕れる
+			50% フィッシング・パワー
+			'''
+		DisplayName: 魚爆弾
+	}
+
+	PintOPunch: {
+		Tooltip:
+			'''
+			500%のクリティカルダメージを与える
+			クリティカルでハートがスポーンする
+			「パンチが効いていている!」
+			'''
+		DisplayName: 1パイントのパンチ液
+	}
+
+	CowBanner: {
+		Tooltip: ""
+		DisplayName: 牛のバナー
+	}
+
+	BallOWormsBanner: {
+		Tooltip: ""
+		DisplayName: ミミズの塊のバナー
+	}
+
+	BallOGutsBanner: {
+		Tooltip: ""
+		DisplayName: 内臓の塊のバナー
+	}
+
+	AncientSteelLantern: {
+		Tooltip:
+			'''
+			すべての近くの敵を燃やす鋼のランタンをカーソルの位置に召喚する
+			召喚ダメージに基づき範囲が拡大される
+			'''
+		DisplayName: 古代の鋼のランタン
+	}
+
+	RockingHorse: {
+		Tooltip: 移動速度が5%増加、ヴォイド再生量が2増加
+		DisplayName: 木馬
+	}
+
+	MrBurns: {
+		Tooltip:
+			'''
+			最大ヴォイドが20増加
+			ヴォイドショックとヴォイドリカバリーの効力が減少する
+			'''
+		DisplayName: Mr. Burns
+	}
+
+	AVMusicBox: {
+		Tooltip: ""
+		DisplayName: 廃村地上のオルゴール
+	}
+
+	TorchGunMk2: {
+		Tooltip:
+			'''
+			爆発し追尾たいまつになるたいまつのクラスター爆弾を発射する
+			右クリックでより弾薬とヴォイドを消費しない小さい松明爆弾を発射する
+			松明爆弾を弾薬として使用する
+			'''
+		DisplayName: トーチガン Mk2
+	}
+
+	LittleWoes: {
+		Tooltip:
+			'''
+			夜間にヴォイド再生量が1増加する
+			すべてのミニオンにちいさなカナシミを取り付ける
+			'''
+		DisplayName: ちいさなカナシミ
+	}
+
+	SteelerWheeler: {
+		Tooltip: 移動速度が5%増加、受けるダメージを3%軽減
+		DisplayName: 鋼のローラースケーター
+	}
+
+	Blongus: {
+		Tooltip: 敵を追いかけ張り付き爆発する飢えた蚊の大群を解き放ち、ターゲットの体力と出血のステータスに応じてダメージを与える
+		DisplayName: ブロンガス
+	}
+
+	FamishedBanner: {
+		Tooltip: ""
+		DisplayName: ハラペコのバナー
+	}
+
+	FamishedBlockCrimson: {
+		Tooltip: 「血と腐敗の臭いがする」
+		DisplayName: クリムボディブロック
+	}
+
+	FamishedBlockCorruption: {
+		Tooltip: 「病気と腐敗の臭いがする」
+		DisplayName: エボンボディブロック
+	}
+
+	FortressCrasher: {
+		Tooltip: 壁を貫通し敵に連続ヒットする防御力を10無視するドリルスピアを投げる
+		DisplayName: 城塞砕き
+	}
+
+	MagmaBeam: {
+		Tooltip: カーソル位置に熱いマグマを集める
+		DisplayName: マグマ集約機
+	}
+
+	SootSlabWall: {
+		Tooltip: ""
+		DisplayName: 煤の板の壁
+	}
+
+	CrimsonSootWall: {
+		Tooltip:
+			'''
+			真紅の石の原始的な物体
+			浄化することはできないが真紅の侵食を進めることもない
+			'''
+		DisplayName: クリムスレートの壁
+	}
+
+	CorruptionSootWall: {
+		Tooltip:
+			'''
+			不浄の石の原始的な物体
+			浄化することはできないが不浄の侵食を進めることもない
+			'''
+		DisplayName: エボンスレートの壁
+	}
+
+	ThroeBanner: {
+		Tooltip: ""
+		DisplayName: クノウのバナー
+	}
+
+	PBow: {
+		Tooltip: 分裂し電撃を放ち別の矢になる複合矢を発射する
+		DisplayName: 複合弓
+	}
+
+	SandstormPouch: {
+		Tooltip: 際限なく貫通する強力な砂嵐を放出する
+		DisplayName: 砂嵐袋
+	}
+
+	EarthDrive: {
+		Tooltip:
+			'''
+			このアクセサリー以外で増加した採掘速度の100%分近接速度を増加させる
+			このアクセサリー以外で増加した近接速度の100%分採掘速度を増加させる
+			'''
+		DisplayName: アースドライブ
+	}
+
+	EarthenGizmoBanner: {
+		Tooltip: ""
+		DisplayName: 大地キズモのバナー
+	}
+
+	AcidicInjection: {
+		Tooltip: スタック可能デバフの最初のスタックが二倍になる
+		DisplayName: 強酸注射
+	}
+
+	FizzleStar: {
+		Tooltip:
+			'''
+			火花をちらし爆発する貧弱な星を発射する
+			故障する可能性があり火花だけを発射し200%のダメージを与えるか追加の星を発射する
+			'''
+		DisplayName: ぼろぼろ星
+	}
+
+	StarshardSaber: {
+		Tooltip:
+			'''
+			四回連続で攻撃し20%のダメージを与えるスターシャードを放つ
+			スターシャードは無限に持続する呪いのスタックを付与する
+			右クリックで150%のダメージの攻撃をし対象の呪いを起爆させスタックに応じてダメージを与える
+			4スタック以上付与されている敵を起爆させた場合はより強力にバクハツする
+			'''
+		DisplayName: スターシャードセイバー
+	}
+
+	CrimsonSoot: {
+		Tooltip:
+			'''
+			真紅の石の原始的な物体
+			浄化することはできないが真紅の侵食を進めることもない
+			'''
+		DisplayName: クリムスレートブロック
+	}
+
+	CorruptionSoot: {
+		Tooltip:
+			'''
+			不浄の石の原始的な物体
+			浄化することはできないが不浄の侵食を進めることもない
+			'''
+		DisplayName: エボンスレートブロック
+	}
+
+	SootSlab: {
+		Tooltip: ""
+		DisplayName: 煤の板
+	}
+
+	JarOfPineapple: {
+		Tooltip: 共に戦う自然スライムを召喚する
+		DisplayName: 瓶詰めのパイナップル
+	}
+
+	WishingStar: {
+		Flavor7: 「苦しみを耐えよ」
+		Flavor6: 「知識の果物を納めよ」
+		Flavor5: 「世界は汝の物」
+		Flavor4: 「宿命を操れ」
+		Flavor3: 「求めるものは満たされよう」
+		Flavor2: 「流れ星に願いを」
+		Flavor1: 「汝の願いを確たる物に」
+		Flavor0: 「決意を抱け」
+		AltTooltip: マナコストの10%のヴォイドを消費するようになる代わりに100%のダメージを与える星を解き放つ
+		DefaultTooltip: 100ダメージの星を解き放ち魔法武器で100マナ消費するごとにランダムなバフを獲得する
+		Tooltip:
+			'''
+			Temp1
+			Temp2
+			'''
+		AltDisplayName: 打ち砕かれた夢
+		DisplayName: 願い星
+	}
+
+	AVAmbient: {
+		Tooltip: ""
+		DisplayName: AV アンビエント
+	}
+
+	TesseractSword: {
+		Tooltip: コソコソするんじゃない！
+		DisplayName: テッセラクトソード
+	}
+
+	AVPot: {
+		Tooltip: ""
+		DisplayName: AV ツボ
+	}
+
+	CorpsebloomBanner: {
+		Tooltip: ""
+		DisplayName: コープスブルームのバナー
+	}
+
+	PlagueSpitter: {
+		Tooltip:
+			'''
+			高速の酸ボールを30個までチャージし短い間隔で発射する
+			命中した敵は一時的に酸に覆われ、後続の酸ボールから受けるダメージが20%増加する
+			酸に覆われた敵は酸のスタックごとに毎秒10ダメージを受ける
+			'''
+		DisplayName: アシッドゲッパー
+	}
+
+	SoulOfTheKeeper: {
+		Tooltip:
+			'''
+			採掘速度とクリティカル率が5%増加
+			ダメージを受けた際にコインを生成し死亡時にコインを失わない
+			コインや沈泥ブロックなどを採掘したときに追加でアイテムをドロップすることがある
+			'''
+		DisplayName: 預かり屋の魂
+	}
+
+	KeepersBox: {
+		Tooltip: 死亡時にコインを失わない
+		DisplayName: 預かり屋の箱
+	}
+
+	BCatalogue: {
+		Tooltip: 動物図鑑を100%解放する
+		DisplayName: Bカタログ
+	}
+
+	Icebreaker: {
+		Tooltip: 弾丸と大きい氷柱を発射する
+		DisplayName: アイスブレーカー
+	}
+
+	GulaVault: {
+		Tooltip: ""
+		DisplayName: グーラの金庫
+	}
+
+	GulaPlatingWall: {
+		Tooltip: ""
+		DisplayName: グーラのプレートの壁
+	}
+
+	GulaGateway: {
+		Tooltip: ""
+		DisplayName: グーラのゲートウェイ
+	}
+
+	GulaPortalPlating: {
+		Tooltip: ""
+		DisplayName: グーラのポータルのプレート
+	}
+
+	GulaPlating: {
+		Tooltip: ""
+		DisplayName: グーラのプレート
+	}
+
+	Lockpick: {
+		Tooltip:
+			'''
+			チェストを開けた際33%でカギを失わない
+			壊れたカギからスクラップ素材を回収する
+			'''
+		DisplayName: ロックピック
+	}
+
+	TidalConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの潮流エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 潮流の伝導管
+	}
+
+	PermafrostConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの永久凍結エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 永久凍結の伝導管
+	}
+
+	InfernoConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの地獄エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 地獄の伝導管
+	}
+
+	EvilConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの邪悪エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 邪悪の伝導管
+	}
+
+	Taco: {
+		Tooltip: ヴォイドを40回復し3分間激怒状態になる
+		DisplayName: 巨大タコス
+	}
+
+	OtherworldConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの異世界エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 異世界の伝導管
+	}
+
+	ChaosConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの混沌エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 混沌の伝導管
+	}
+
+	BundleOfSnakes: {
+		Tooltip:
+			'''
+			夜間にライフ自動回復が1増加
+			すべてのミニオンに毒ヘビを取り付ける
+			'''
+		DisplayName: ヘビの束
+	}
+
+	SwallowedPenny: {
+		Tooltip:
+			'''
+			クリティカル率が4%増加
+			ダメージを受けた際にコインを生成する
+			「ごっくん！」
+			'''
+		DisplayName: 飲み込まれた小銭
+	}
+
+	ChimeraBanner: {
+		Tooltip: ""
+		DisplayName: キメラのバナー
+	}
+
+	PlanetariumCrate: {
+		Tooltip:
+			'''
+			トワイライトの釣り竿でのみ釣り上げられる
+			<right>で開く
+			'''
+		DisplayName: プラネタリウムの箱
+	}
+
+	OtherworldCrate: {
+		Tooltip:
+			'''
+			トワイライトの釣り竿でのみ釣り上げられる
+			<right>で開く
+			'''
+		DisplayName: 異世界の箱
+	}
+
+	EarthBreaker: {
+		Tooltip:
+			'''
+			メテオライトを採掘可能
+			右クリックでブロックを破壊するツルハシを投げる
+			投げられたときだけヴォイドを消費する
+			'''
+		DisplayName: アースブレイカー
+	}
+
+	GuardianGreatsword: {
+		Tooltip:
+			'''
+			3回斬りつける
+			3回目の攻撃で50%のダメージを与えるウェーブブレードを発射する
+			'''
+		DisplayName: 守護者のグレートソード
+	}
+
+	BrassWhip: {
+		Tooltip:
+			'''
+			ミニオンがタグ付けされた敵を爆発させトゲ玉を撒き散らしミニオンの50%のダメージを与える
+			攻撃を当てた敵にミニオンが集中する
+			'''
+		DisplayName: 真鍮のムチ
+	}
+
+	GildedBladeWings: {
+		Description:
+			'''
+			無限に飛行と低速落下できる
+			ヴォイド再生量が3、ヴォイド再生速度が25%増加する
+			光の精霊以外の敵へのダメージが2倍
+			'{0}' を押すと複数の方向へ素早く飛行できる
+			'{1}' を押し続けると特殊飛行モード中にゆっくりと飛行する
+			'''
+		Tooltip: TEMP
+		DisplayName: 黄金の刃の翼
+	}
+
+	RiftCookie: {
+		Tooltip:
+			'''
+			アノマリーと考古学者の位置を入れ替える
+			考古学者がプレイヤーの近くにいる場合は機能しない
+			'''
+		DisplayName: 裂け目のクッキー
+	}
+
+	ElementalLeggings: {
+		Tooltip:
+			'''
+			召喚ダメージ、鞭の範囲、移動速度が15%増加する
+			近接クリティカル率が15%増加
+			ヴォイド再生量が2増加、最大ヴォイドが100増加する
+			最大セントリー設置数が2増加する
+			'''
+		DisplayName: エレメントの脛当て
+	}
+
+	ElementalHelmet: {
+		Tooltip:
+			'''
+			近接、召喚、ヴォイドダメージが15%増加する
+			ヴォイド再生量が3増加、最大ヴォイドが100増加する
+			最大ミニオン数が2増加
+			'''
+		DisplayName: エレメントのヘルメット
+	}
+
+	ElementalBreastplate: {
+		TooltipExt:
+			'''
+			近接と召喚ダメージが30%増加
+			ライフ自然再生が4増加
+			'{0}' を押すことでカーソル位置にテレポートし、通り道にいた敵に防御力の200%のダメージを与える
+			15秒のクールダウンがあるがクールダウン中は近接攻撃速度が40%増加する
+			'''
+		Tooltip: TEMP
+		DisplayName: エレメントの胸当て
+	}
+
+	TinyPlanetoid: {
+		Tooltip:
+			'''
+			最大ヴォイドが50増加
+			重力を操れる
+			'''
+		DisplayName: ちっちゃな小惑星
+	}
+
+	InfiniteVoid: {
+		Tooltip: 最大ヴォイドが10000増加
+		DisplayName: 無限ヴォイド
+	}
+
+	Tesseract: {
+		Tooltip:
+			'''
+			アイテムを使い攻撃するヴォイドクローンを召喚する
+			インベントリ欄の左下から右下までのアイテムを使うことができ、クローンごとに異なるアイテムを使う
+			最初に召喚されたとき、クローンはアイテムをどのように使うかの指示を待機する。指示は(右クリックか左クリックか)そしてどれくらいの時間(チャージがあるアイテム向け)
+			最初にアイテムを使ったあとは、クローンは指示された通りにアイテムを使うようになる
+			クローンが使用するアイテムはヴォイドと召喚ダメージボーナスに影響される
+			'''
+		DisplayName: テッセラクト
+	}
+
+	EarthGrinder: {
+		Tooltip:
+			'''
+			右クリックで2回斬りつける
+			1回目の攻撃は必ずクリティカルになる
+			2回目の攻撃は敵に多段ヒットする
+			'''
+		DisplayName: アースグラインダー
+	}
+
+	ChallengerRing: {
+		I6:
+			'''
+			ライフが90%以上ある場合バフが減衰しない
+			ライフ90%以下の際に攻撃を受けるとすべてのバフの残り時間が半分になる
+			'''
+		I5:
+			'''
+			クリティカルヒットしなくなる
+			増加クリティカル率が乗算のダメージ増加率に変換される
+			'''
+		I4:
+			'''
+			永続する旨い飯バフを得る
+			ヴォイド回復アイテムから得られるヴォイドが75%減少する
+			'''
+		I3:
+			'''
+			受けるダメージが15%減少する
+			与えるダメージが15%減少する
+			'''
+		I2:
+			'''
+			ダメージを受けた際、受けたダメージの10%をヴォイドとして変換する
+			ヴォイドを消費した際、消費したヴォイドの10%をライフに変換する
+			'''
+		I1: 20秒毎にランダムなバフを30秒間獲得する
+		I0:
+			'''
+			ブロックと壁の設置速度が20%増加し設置範囲が3増加
+			移動速度が20%増加
+			'''
+		G6: ダメージを受けるとランダムなバフを30秒間獲得する
+		G5:
+			'''
+			防御力に応じてダメージを増加させ、ダメージバフの3分の1防御力を低下させる
+			ダメージ増加量 {0}%
+			防御力減少量 {1}
+			'''
+		G4:
+			'''
+			倒した敵が50%の確率で追加のハートを落とす
+			ドロップ率はクリティカル率により100%まで増加する
+			ハートを回収すると現在有効なバフの残り時間が増える
+			'''
+		G3: 敵が14.3%の確率で2倍アイテムをドロップする
+		G2: ヴォイドを再生した際にコインを生成する
+		G1: 敵を倒すとランダムなバフを30秒間獲得する
+		G0: ブロックを採掘した際に連鎖し最大50個のブロックを破壊する
+		Tooltip:
+			'''
+			お気に入り登録されている状態で右クリックすると現在選択されている宝石の効果を反転でき、反転された宝石は通常の効果が無効化され反転効果が有効になる
+			0
+			1
+			2
+			3
+			4
+			5
+			6
+			'''
+		DisplayName: 挑戦者の指輪
+	}
+
+	InfinityPouch: {
+		Tooltip: 弾丸の代わりにヴォイドを消費する
+		DisplayName: 無限のパウチ
+	}
+
+	SupernovaEmblem: {
+		Tooltip:
+			'''
+			敵を倒すと150%のダメージを与える追跡者を放つ
+			追跡者が倒した敵からは2体の追跡者が放たれそれぞれ75%のダメージを与える
+			近接ダメージが15%増加
+			ヴォイド再生量が2増加、最大ヴォイドが50増加
+			ダメージを受けた際、受けたダメージの12%をヴォイドに変換する
+			防具損傷と霊液耐性
+			'''
+		DisplayName: 超新星のエンブレム
+	}
+
+	AutoClicker: {
+		Tooltip: 攻撃速度が10%増加し全てのアイテムが自動スイング可能になる
+		DisplayName: 自動クリッカー
+	}
+
+	MineralSpewer: {
+		Tooltip:
+			'''
+			敵を燃えやすい粉で覆う
+			粉をまぶされた敵は炎に包まれると爆発し、火属性デバフによる全ダメージを即座に受ける
+			'''
+		DisplayName: 煤吐き銃
+	}
+
+	HandCannon: {
+		Tooltip:
+			'''
+			3発の銃弾を発射する: 真ん中の弾は100%のダメージを与え、左右の弾は50%のダメージを与える
+			マスケット弾を爆発弾に変換する
+			'''
+		DisplayName: ハンドキャノン
+	}
+
+	VoidspaceMask: {
+		Tooltip:
+			'''
+			魔法と遠距離武器のクリティカル率が25%増加
+			ヴォイドクリティカル率が15%増加、最大マナが100増加
+			ヴォイド再生量が4増加、最大ヴォイドが50増加
+			'''
+		DisplayName: 虚空のレンジャーのマスク
+	}
+
+	VoidspaceLeggings: {
+		Tooltip:
+			'''
+			魔法と遠距離武器のクリティカル率が25%増加
+			ヴォイドクリティカル率が15%増加、移動速度が20%増加
+			ヴォイド再生量が3増加、最大ヴォイドが50増加
+			'''
+		DisplayName: 虚空のレンジャーの脛当て
+	}
+
+	VoidspaceBreastplate: {
+		Tooltip:
+			'''
+			ダメージを受けた際、受けたダメージの15%をヴォイドとして変換する
+			ヴォイドを消費した際、消費したヴォイドの15%をライフに変換する
+			消費マナ15%が減少
+			ヴォイド再生量が3増加、最大ヴォイドが100増加
+			'''
+		DisplayName: 虚空のレンジャーの胸当て
+	}
+
+	CurseTrophy: {
+		Tooltip: ""
+		DisplayName: ファラオの呪いのトロフィー
+	}
+
+	AdvisorTrophy: {
+		Tooltip: ""
+		DisplayName: アドバイザーのトロフィー
+	}
+
+	SoulOfPlightInABottle: {
+		Tooltip: ""
+		DisplayName: 困窮のソウル入りの瓶
+	}
+
+	SoulOfPlight: {
+		Tooltip: 「戦のエッセンス」
+		DisplayName: 困窮のソウル
+	}
+
+	LockingMechanism: {
+		Tooltip:
+			'''
+			開発者とマップ制作者向けアイテム:
+			スカイウェア、メテオライト、プラネタリウムとその他のSecrets of Shadowsのチェストを施錠する
+			チェストをクリックすると施錠できる
+			マルチプレイ中は動作しない
+			'''
+		DisplayName: ロック機構
+	}
+
+	Atlantis: {
+		Tooltip:
+			'''
+			投げたあと戻って来る忠実なトライデントを投げる
+			右クリックで追尾するウォーターシャークを発射する
+			トライデントが返ってくるときに敵に当たった場合ライフを奪い回収時にバフを得る
+			このバフは魔法と近接ダメージが一方のステータス上昇に応じて増加、移動速度が20%増加、受けるダメージを10%軽減
+			バフ中はこの武器がヴォイドを消費しなくなる
+			敵がウォーターシャーク、返ってくるトライデントに当たると水により覆われ複数回ヒットし20%のダメージを与えスロウにする
+			'''
+		DisplayName: アトランティス
+	}
+
+	SmallPhantarayBanner: {
+		Tooltip: ""
+		DisplayName: ファンタレイのバナー (小)
+	}
+
+	BigPhantarayBanner: {
+		Tooltip: ""
+		DisplayName: ファンタレイのバナー (大)
+	}
+
+	HydrokineticAntennae: {
+		Tooltip:
+			'''
+			水力を使い鞭や近接武器などの射程が低い武器の射程を伸ばす
+			近接ダメージが他のソースにより増加した召喚ダメージの50%増加する
+			召喚ダメージが他のソースにより増加した近接ダメージの50%増加する
+			'''
+		DisplayName: 水力アンテナ
+	}
+
+	GlowWhip: {
+		Tooltip:
+			'''
+			ミニオンがタグ付けされた敵に攻撃すると火花をちらし4ダメージ与える
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: 発光する鞭
+	}
+
+	SharkPog: {
+		Tooltip: 素早く登っていく泡を発射する
+		DisplayName: ポグシャーク
+	}
+
+	FrigidHamaxe: {
+		Tooltip: ""
+		DisplayName: 極寒のハンマーアックス
+	}
+
+	EnchantedPickaxe: {
+		Tooltip: ""
+		DisplayName: 魔法のツルハシ
+	}
+
+	BlackFlare: {
+		Tooltip: ""
+		DisplayName: 黒煙灯弾
+	}
+
+	PutridPinkyMask: {
+		Tooltip: ""
+		DisplayName: 腐ったピンキーのマスク
+	}
+
+	GoopwoodWall: {
+		Tooltip: ""
+		DisplayName: グープウッドの壁
+	}
+
+	RefractingCrystal: {
+		Tooltip: ""
+		DisplayName: 屈折水晶
+	}
+
+	TaintedKeystoneShard: {
+		Tooltip: ""
+		DisplayName: 穢れたキーストーンの欠片
+	}
+
+	SoulResidue: {
+		Tooltip: ""
+		DisplayName: 魂の残留物
+	}
+
+	Sarcophagus: {
+		Tooltip: ""
+		DisplayName: 石棺
+	}
+
+	UnsafePyramidWall: {
+		Tooltip:
+			'''
+			前に立っているときにバイオームをピラミッドに変更する
+			ファラオの呪いを呼び覚ます
+			'''
+		DisplayName: 不安定なピラミッドの壁
+	}
+
+	UnsafePyramidBrickWall: {
+		Tooltip:
+			'''
+			前に立っているときにバイオームをピラミッドに変更する
+			ファラオの呪いを呼び覚ます
+			'''
+		DisplayName: 不安定なピラミッドのレンガの壁
+	}
+
+	UnsafeOvergrownPyramidWall: {
+		Tooltip:
+			'''
+			前に立っているときにバイオームをピラミッドに変更する
+			ファラオの呪いを呼び覚ます
+			'''
+		DisplayName: 不安定な過成長のピラミッドの壁
+	}
+
+	UnsafeCursedTumorWall: {
+		Tooltip:
+			'''
+			前に立っているときにバイオームをピラミッドに変更する
+			ファラオの呪いを呼び覚ます
+			'''
+		DisplayName: 不安定な呪いの腫瘍の壁
+	}
+
+	PyramidWall: {
+		Tooltip: ""
+		DisplayName: ピラミッドの壁
+	}
+
+	PyramidBrickWall: {
+		Tooltip: ""
+		DisplayName: ピラミッドのレンガの壁
+	}
+
+	OvergrownPyramidWall: {
+		Tooltip: ""
+		DisplayName: 過成長のピラミッドの壁
+	}
+
+	CursedTumorWall: {
+		Tooltip: ""
+		DisplayName: 呪われた腫瘍の壁
+	}
+
+	PyramidGate: {
+		Tooltip: ""
+		DisplayName: ピラミッドの門
+	}
+
+	PyramidChest: {
+		Tooltip: ""
+		DisplayName: ピラミッドのチェスト
+	}
+
+	CursedMatter: {
+		Tooltip: ""
+		DisplayName: 呪われた物体
+	}
+
+	AnubisHat: {
+		Tooltip: ""
+		DisplayName: アヌビスの帽子
+	}
+
+	AncientGoldSpike: {
+		Tooltip: ""
+		DisplayName: 古代の金のトゲ
+	}
+
+	RuinedPyramidBrick: {
+		Tooltip: ""
+		DisplayName: 廃墟のピラミッドのレンガ
+	}
+
+	AcediaPlatingWall: {
+		Tooltip: ""
+		DisplayName: アセディアのプレートの壁
+	}
+
+	HardIceBrickWall: {
+		Tooltip: ""
+		DisplayName: 硬い氷のレンガの壁
+	}
+
+	HardIceBrick: {
+		Tooltip: ""
+		DisplayName: 硬い氷のレンガ
+	}
+
+	FrigidBrickWall: {
+		Tooltip: ""
+		DisplayName: 極寒のレンガの壁
+	}
+
+	FrigidBrick: {
+		Tooltip: ""
+		DisplayName: 極寒のレンガ
+	}
+
+	FrigidBar: {
+		Tooltip: ""
+		DisplayName: 極寒のインゴット
+	}
+
+	PeanutBush: {
+		Tooltip: 地中でピーナッツが生えてくる
+		DisplayName: ピーナッツの茂み
+	}
+
+	HardlightTable: {
+		Tooltip: ""
+		DisplayName: ハードライトのテーブル
+	}
+
+	HardlightChair: {
+		Tooltip: ""
+		DisplayName: ハードライトのイス
+	}
+
+	StarlightAlloy: {
+		Tooltip: ""
+		DisplayName: スターライト合金
+	}
+
+	HardlightAlloy: {
+		Tooltip: ""
+		DisplayName: ハードライト合金
+	}
+
+	BlinkPack: {
+		Tooltip: temp
+		DisplayName: ブリンクパック
+	}
+
+	HardlightBlock: {
+		Tooltip: ""
+		DisplayName: ハードライトブロック
+	}
+
+	DullPlatingWall: {
+		Tooltip: ""
+		DisplayName: 鈍いプレートの壁
+	}
+
+	DullPlating: {
+		Tooltip: ""
+		DisplayName: 鈍いプレートの壁
+	}
+
+	EvostoneBrickWall: {
+		Tooltip: ""
+		DisplayName: エヴォストーンレンガの壁
+	}
+
+	EvostoneBrick: {
+		Tooltip: ""
+		DisplayName: エヴォストーンレンガ
+	}
+
+	Evostone: {
+		Tooltip: ""
+		DisplayName: エヴォストーン
+	}
+
+	DarkShingles: {
+		Tooltip: ""
+		DisplayName: 黒いレンガ屋根
+	}
+
+	TopazChest: {
+		Tooltip: ""
+		DisplayName: トパーズのチェスト
+	}
+
+	SapphireChest: {
+		Tooltip: ""
+		DisplayName: サファイアのチェスト
+	}
+
+	RubyChest: {
+		Tooltip: ""
+		DisplayName: ルビーのチェスト
+	}
+
+	EmeraldChest: {
+		Tooltip: ""
+		DisplayName: エメラルドのチェスト
+	}
+
+	DiamondChest: {
+		Tooltip: ""
+		DisplayName: ダイヤモンドのチェスト
+	}
+
+	AmethystChest: {
+		Tooltip: ""
+		DisplayName: アメジストのチェスト
+	}
+
+	AmberChest: {
+		Tooltip: ""
+		DisplayName: コハクのチェスト
+	}
+
+	PermafrostPlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 永久凍結プレートの作業台
+	}
+
+	PermafrostPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのたいまつ
+	}
+
+	PermafrostPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのトイレ
+	}
+
+	PermafrostPlatingTable: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのテーブル
+	}
+
+	PermafrostPlatingSink: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの流し台
+	}
+
+	PermafrostPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのピアノ
+	}
+
+	PermafrostPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのランタン
+	}
+
+	PermafrostPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのランプ
+	}
+
+	PermafrostPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのドレッサー
+	}
+
+	PermafrostPlatingClock: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの時計
+	}
+
+	PermafrostPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのシャンデリア
+	}
+
+	PermafrostPlatingChair: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのイス
+	}
+
+	PermafrostPlatingBulb: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの電球
+	}
+
+	PermafrostPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの本棚
+	}
+
+	PermafrostPlatingBench: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのベンチ
+	}
+
+	PermafrostPlatingBed: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのベッド
+	}
+
+	PermafrostPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの浴槽
+	}
+
+	NaturePlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 自然プレートの作業台
+	}
+
+	NaturePlatingTorch: {
+		Tooltip: ""
+		DisplayName: 自然プレートのたいまつ
+	}
+
+	NaturePlatingToilet: {
+		Tooltip: ""
+		DisplayName: 自然プレートのトイレ
+	}
+
+	NaturePlatingTable: {
+		Tooltip: ""
+		DisplayName: 自然プレートのテーブル
+	}
+
+	NaturePlatingSofa: {
+		Tooltip: ""
+		DisplayName: 自然プレートのソファ
+	}
+
+	NaturePlatingSink: {
+		Tooltip: ""
+		DisplayName: 自然プレートの流し台
+	}
+
+	NaturePlatingPiano: {
+		Tooltip: ""
+		DisplayName: 自然プレートのピアノ
+	}
+
+	NaturePlatingLantern: {
+		Tooltip: ""
+		DisplayName: 自然プレートのランタン
+	}
+
+	NaturePlatingLamp: {
+		Tooltip: ""
+		DisplayName: 自然プレートのランプ
+	}
+
+	NaturePlatingDresser: {
+		Tooltip: ""
+		DisplayName: 自然プレートのドレッサー
+	}
+
+	NaturePlatingClock: {
+		Tooltip: ""
+		DisplayName: 自然プレートの時計
+	}
+
+	NaturePlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 自然プレートのシャンデリア
+	}
+
+	NaturePlatingChair: {
+		Tooltip: ""
+		DisplayName: 自然プレートのイス
+	}
+
+	NaturePlatingBulb: {
+		Tooltip: ""
+		DisplayName: 自然プレートの電球
+	}
+
+	NaturePlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 自然プレートの本棚
+	}
+
+	NaturePlatingBed: {
+		Tooltip: ""
+		DisplayName: 自然プレートのベッド
+	}
+
+	NaturePlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 自然プレートの浴槽
+	}
+
+	GoopwoodWorkBench: {
+		Tooltip: ""
+		DisplayName: グープウッドの作業台
+	}
+
+	GoopwoodTable: {
+		Tooltip: ""
+		DisplayName: グープウッドのテーブル
+	}
+
+	GoopwoodPlatform: {
+		Tooltip: ""
+		DisplayName: グープウッドの足場
+	}
+
+	GoopwoodDoor: {
+		Tooltip: ""
+		DisplayName: グープウッドのドア
+	}
+
+	GoopwoodChandelier: {
+		Tooltip: ""
+		DisplayName: グープウッドのシャンデリア
+	}
+
+	GoopwoodChair: {
+		Tooltip: ""
+		DisplayName: グープウッドのイス
+	}
+
+	GoopwoodCandle: {
+		Tooltip: ""
+		DisplayName: グープウッドのろうそく
+	}
+
+	GoopwoodBed: {
+		Tooltip: ""
+		DisplayName: グープウッドのベッド
+	}
+
+	GoopwoodBarrel: {
+		Tooltip: ""
+		DisplayName: グープウッドの樽
+	}
+
+	EarthenPlatingWorkBench: {
+		Tooltip: 金床としても機能する
+		DisplayName: 大地プレートの作業台
+	}
+
+	EarthenPlatingTorch: {
+		Tooltip: ""
+		DisplayName: 大地プレートのたいまつ
+	}
+
+	EarthenPlatingToilet: {
+		Tooltip: ""
+		DisplayName: 大地プレートのトイレ
+	}
+
+	EarthenPlatingTable: {
+		Tooltip: ""
+		DisplayName: 大地プレートのテーブル
+	}
+
+	EarthenPlatingStorage: {
+		Tooltip: ""
+		DisplayName: 大地プレートの倉庫
+	}
+
+	EarthenPlatingSofa: {
+		Tooltip: ""
+		DisplayName: 大地プレートのソファ
+	}
+
+	EarthenPlatingSink: {
+		Tooltip: ""
+		DisplayName: 大地プレートの流し台
+	}
+
+	EarthenPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 大地プレートの足場
+	}
+
+	EarthenPlatingPiano: {
+		Tooltip: ""
+		DisplayName: 大地プレートのピアノ
+	}
+
+	EarthenPlatingLantern: {
+		Tooltip: ""
+		DisplayName: 大地プレートのランタン
+	}
+
+	EarthenPlatingLamp: {
+		Tooltip: ""
+		DisplayName: 大地プレートの燭台
+	}
+
+	EarthenPlatingDresser: {
+		Tooltip: ""
+		DisplayName: 大地プレートのドレッサー
+	}
+
+	EarthenPlatingClock: {
+		Tooltip: ""
+		DisplayName: 大地プレートの時計
+	}
+
+	EarthenPlatingChandelier: {
+		Tooltip: ""
+		DisplayName: 大地プレートのシャンデリア
+	}
+
+	EarthenPlatingChair: {
+		Tooltip: ""
+		DisplayName: 大地プレートのイス
+	}
+
+	EarthenPlatingBulb: {
+		Tooltip: ""
+		DisplayName: 大地プレートの電球
+	}
+
+	EarthenPlatingBookcase: {
+		Tooltip: ""
+		DisplayName: 大地プレートの本棚
+	}
+
+	EarthenPlatingBed: {
+		Tooltip: ""
+		DisplayName: 大地プレートのベッド
+	}
+
+	EarthenPlatingBathtub: {
+		Tooltip: ""
+		DisplayName: 大地プレートのバスタブ
+	}
+
+	AncientGoldTorch: {
+		Tooltip: ""
+		DisplayName: 古代の金のたいまつ
+	}
+
+	UmbraWall: {
+		Tooltip: ""
+		DisplayName: 深影の壁
+	}
+
+	PermafrostPlatingWall: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの壁
+	}
+
+	NetherWall: {
+		Tooltip: ""
+		DisplayName: 奈落の壁
+	}
+
+	NatureWall: {
+		Tooltip: ""
+		DisplayName: 自然の壁
+	}
+
+	NaturePlatingWall: {
+		Tooltip: ""
+		DisplayName: 自然プレートの壁
+	}
+
+	NaturePlatingPanelWall: {
+		Tooltip: ""
+		DisplayName: 自然プレートの板の壁
+	}
+
+	EarthWall: {
+		Tooltip: ""
+		DisplayName: 大地の壁
+	}
+
+	EarthenPlatingWall: {
+		Tooltip: ""
+		DisplayName: 大地プレートの壁
+	}
+
+	EarthenPlatingPanelWall: {
+		Tooltip: ""
+		DisplayName: 大地プレートの板の壁
+	}
+
+	EarthenPlatingBeam: {
+		Tooltip: ""
+		DisplayName: 大地プレートの桁
+	}
+
+	DelugeWall: {
+		Tooltip: ""
+		DisplayName: 奔流の壁
+	}
+
+	BrillianceWall: {
+		Tooltip: ""
+		DisplayName: 光輝の壁
+	}
+
+	AuroraWall: {
+		Tooltip: ""
+		DisplayName: 極光の壁
+	}
+
+	AetherWall: {
+		Tooltip: ""
+		DisplayName: 異界の壁
+	}
+
+	UltracapBanner: {
+		Tooltip: ""
+		DisplayName: ウルトラキャップ
+	}
+
+	PutridPinkyTrophy: {
+		Tooltip: ""
+		DisplayName: 腐ったピンキーのトロフィー
+	}
+
+	PlanetoidBanner: {
+		Tooltip: ""
+		DisplayName: 小惑星のバナー
+	}
+
+	AlchemistsCharm: {
+		Tooltip:
+			'''
+			ポーションから得られるマナとライフが100増加する
+			バフの効果時間が67%延長
+			ライフ自然再生が2増加、回復ポーションのクールダウンが25%短縮
+			'''
+		DisplayName: 錬金術師のチャーム
+	}
+
+	GlowJelly: {
+		Tooltip: ポーションから得られるマナとライフが40増加する
+		DisplayName: グロウジェリー
+	}
+
+	ZombieHand: {
+		Tooltip:
+			'''
+			近接攻撃で街のNPCを攻撃できる
+			「ついに画家を殺せるんだ！」
+			'''
+		DisplayName: ゾンビの手
+	}
+
+	SubspaceBoosters: {
+		Tooltip:
+			'''
+			走行中に爆発的に加速する
+			飛行を可能にし、氷の上で動きやすくなる
+			移動速度が大幅に増加する
+			水面と溶岩の上で歩けるようになる
+			燃えるブロックへの耐性と溶岩に対する10秒間の耐性
+			接地中にダブルタップすると前方に爆進しより速い速度で加速する
+			'''
+		DisplayName: 亜空のブースター
+	}
+
+	SpectreSpiritStorm: {
+		Tooltip:
+			'''
+			幻影の矢を発射する
+			一度に4体の敵に命中する
+			'''
+		DisplayName: スペクタースピリットストーム
+	}
+
+	Sandwich: {
+		Tooltip:
+			'''
+			ポーションから得られるライフが40増加する
+			敵を倒すとバゲットの切れ端を落とす
+			戦闘を支援するペットの腐ったピンキーを召喚する
+			敵に張り付きスロウにしライフを吸収する
+			ライフ自然再生が1増加
+			'''
+		DisplayName: サンドウィッチ
+	}
+
+	RoyalJelly: {
+		Tooltip:
+			'''
+			ポーションから得られるライフが40増加する
+			「と～っても悪いジョークを思いつきそう」
+			'''
+		DisplayName: 王家のジェリー
+	}
+
+	PeanutButter: {
+		Tooltip:
+			'''
+			戦闘を支援するペットの腐ったピンキーを召喚する
+			敵に張り付きスロウにしライフを吸収する
+			ライフ自然再生が1増加
+			'''
+		DisplayName: ピーナッツバター
+	}
+
+	OlympianAxe: {
+		Tooltip:
+			'''
+			敵を倒した後3秒間狂乱状態になり近接攻撃速度を大幅に上昇させる
+			右クリックで斧を投げつけ60%のダメージを与える
+			狂乱中は斧を二回投げる
+			'''
+		DisplayName: オリンピアの戦斧
+	}
+
+	OlympianAegis: {
+		Tooltip:
+			'''
+			ヴォイド再生量が2増加、ライフ自然再生が1増加
+			受けるダメージを7%軽減、クリティカル率が4%増加
+			'''
+		DisplayName: オリンピアの盾
+	}
+
+	MinersSword: {
+		Tooltip: 落下中にクリティカルヒットする
+		DisplayName: マイナーの剣
+	}
+
+	HelicopterParts: {
+		Tooltip: ""
+		DisplayName: ヘリコプターの部品
+	}
+
+	ManaPack: {
+		Tooltip: ""
+		DisplayName: マナパック
+	}
+
+	HealPack: {
+		Tooltip: ""
+		DisplayName: ヒールパック
+	}
+
+	FortressGenerator: {
+		Tooltip:
+			'''
+			最大ミニオン数と最大セントリー数が1増加
+			ダメージが10%増加、ライフ自然再生が2増加
+			あなたの左右に4個の足場を生成する
+			右クリックで足場をドラッグできるが常に左右対称になる
+			セントリーはこの足場の上に召喚できる
+			ライフが25%以上のときにチームのプレイヤーに与えられたダメージの25%を吸収、ノックバックに対する耐性
+			'''
+		DisplayName: フォートレスジェネレーター
+	}
+
+	FlashsparkBoots: {
+		Tooltip:
+			'''
+			走行中に爆発的に加速する
+			飛行を可能にし、氷の上で動きやすくなる
+			移動速度が大幅に増加する
+			水面と溶岩の上で歩けるようになる
+			燃えるブロックへの耐性と溶岩に対する10秒間の耐性
+			走行状態に入ると前方に爆進しより速い速度で加速する
+			この爆進は制御できない
+			「レシプロ・バースト！」
+			'''
+		DisplayName: フラッシュスパークブーツ
+	}
+
+	ExplosiveKnife: {
+		Tooltip: 「なんて危ない組み合わせ」
+		DisplayName: 爆発ナイフ
+	}
+
+	ElectromagneticLure: {
+		None: 無し
+		PossibleConstructs: "誘引可能コンストラクト: "
+		Tooltip: バイオームコンストラクトを1体おびき寄せる
+		DisplayName: 電磁引誘装置
+	}
+
+	ElectromagneticDeterrent: {
+		Tooltip: 設置されるかインベントリでお気に入り登録するとコンストラクトのスポーンを無効化する
+		DisplayName: 破壊的電磁界発生装置
+	}
+
+	Doomstick: {
+		Tooltip:
+			'''
+			短い間隔でショットガンを二発発射する
+			右クリックで250%のダメージを与え、敵を引き寄せるフックを投げつける
+			ボスの場合は自身が引き寄せられる
+			倒した敵がライフとマナのパックを落とす
+			'''
+		DisplayName: ドゥームスティック
+	}
+
+	DigitalDaito: {
+		Tooltip: ""
+		DisplayName: デジタルダイト
+	}
+
+	CrestofDasuver: {
+		Tooltip: クリティカル率が6%増加
+		DisplayName: ダスヴァーの紋章
+	}
+
+	ChiseledBarrier: {
+		Tooltip:
+			'''
+			4個の飛翔体が周りを周回する
+			ジャヴェリンで攻撃者を吹き飛ばす
+			非表示中は飛翔体がオフになる
+			'''
+		DisplayName: 刻印された防護壁
+	}
+
+	BulwarkOfTheAncients: {
+		Tooltip:
+			'''
+			ノックバックと燃えるブロックに対する耐性
+			ほとんどのデバフに対する耐性
+			ヴォイド再生量が2増加、ライフ自然再生が1増加、受けるダメージを5%軽減、クリティカル率が4%増加
+			非表示中は飛翔体がオフになる
+			'''
+		DisplayName: 古代の大盾
+	}
+
+	BaguetteCrumb: {
+		Tooltip: ""
+		DisplayName: バゲットの切れ端
+	}
+
+	Baguette: {
+		Tooltip:
+			'''
+			敵を倒すとバゲットの切れ端を落とす
+			バゲットの切れ端を披露とバゲットの射程とダメージが上昇し、失ったライフを回復する
+			「決して諦めない」
+			'''
+		DisplayName: ポロつくバゲット
+	}
+
+	BackupBow: {
+		Tooltip: 背中に弓を取り付け50%のダメージを与える弓を発射する
+		DisplayName: バックアップボウ
+	}
+
+	ArcaneAqueduct: {
+		Tooltip: 2個の飛翔体が周りを周回する
+		DisplayName: 秘術の水道管
+	}
+
+	VoidenAnkh: {
+		Tooltip:
+			'''
+			最大ヴォイドを20、ヴォイド再生速度を2%恒久的に増加させる
+			5回まで使用可能
+			'''
+		DisplayName: ヴォイドアンク
+	}
+
+	AvocadoSoup: {
+		Tooltip:
+			'''
+			ヴォイドを24回復し60秒間再生を付与する
+			「やっといいスープだ！」
+			'''
+		DisplayName: アボカドスープ
+	}
+
+	StrawberryIcecream: {
+		Tooltip:
+			'''
+			50%の確率でヴォイドを10回復し1個のアイスシャードが周回する
+			50%の確率でヴォイドを6回復し2個のアイスシャードが周回する
+			'''
+		DisplayName: ストロベリーアイスクリーム
+	}
+
+	FoulConcoction: {
+		Tooltip: ヴォイドを4回復する
+		DisplayName: 不潔な調合物
+	}
+
+	CursedCaviar: {
+		Tooltip:
+			'''
+			40%の確率でヴォイドを20回復し90秒間旨い飯を付与する
+			35%の確率でヴォイドを15回復し90秒間マナ再生を付与する
+			25%の確率でヴォイドを10回復し90秒間闘争を付与する
+			'''
+		DisplayName: 呪われたキャビア
+	}
+
+	Chocolate: {
+		Tooltip:
+			'''
+			ヴォイドを15回復する
+			「海賊の冒険にもってこいの一品だ」
+			'''
+		DisplayName: チョコレート
+	}
+
+	DigitalCornSyrup: {
+		Tooltip:
+			'''
+			ヴォイドを15回復する
+			「うん。マジで。」
+			'''
+		DisplayName: デジタルコーンシロップ
+	}
+
+	CookedMushroom: {
+		Tooltip:
+			'''
+			ヴォイドを13回復する
+			一時的に毒を付与
+			'''
+		DisplayName: 焼きキノコ
+	}
+
+	CoconutMilk: {
+		Tooltip: ヴォイドを30回復
+		DisplayName: ココナッツミルク
+	}
+
+	AlmondMilk: {
+		Tooltip: ヴォイドを20回復
+		DisplayName: アーモンドミルク
+	}
+
+	SoulHeart: {
+		Tooltip:
+			'''
+			最大ヴォイドが50、ヴォイド再生速度が5%恒久的に増加する
+			一度しか使用できない
+			'''
+		DisplayName: ソウルハート
+	}
+
+	VioletStar: {
+		Tooltip:
+			'''
+			最大ヴォイドが50、ヴォイド再生速度が5%恒久的に増加する
+			一度しか使用できない
+			'''
+		DisplayName: ヴァイオレットクレセント
+	}
+
+	ScarletStar: {
+		Tooltip:
+			'''
+			最大ヴォイドが50、ヴォイド再生速度が5%恒久的に増加する
+			一度しか使用できない
+			'''
+		DisplayName: スカーレットクレセント
+	}
+
+	WorldgenScanner: {
+		Tooltip:
+			'''
+			ワールド生成に関する有益な情報を表示する
+			「空に住まう守護者を呼ぶ」
+			'''
+		DisplayName: 惑星分析機
+	}
+
+	WorldgenPaste: {
+		Tooltip:
+			'''
+			開発ツールです。ゲームプレイ用ではありません。
+			これを使うことでワールドを壊す可能性があります。
+			Whatever the case, it's probably best not to use it
+			'''
+		DisplayName: ワールド生成ペースト
+	}
+
+	WorldgenFail: {
+		Tooltip:
+			'''
+			Development tool, NOT MEANT FOR GAMEPLAY
+			Using this may break your world, or spawn a ton of ore, or generate a whole pyramid
+			Whatever the case, it's probably best not to use it
+			'''
+		DisplayName: Worldgen Paste 2
+	}
+
+	WorldgenCapture: {
+		Tooltip:
+			'''
+			Development tool, NOT MEANT FOR GAMEPLAY
+			Has many errors that I'm too lazy to fix currently
+			Don't bother using this item
+			'''
+		DisplayName: Worldgen Capture
+	}
+
+	WallCapture: {
+		Tooltip:
+			'''
+			Development tool, NOT MEANT FOR GAMEPLAY
+			Has many errors that I'm too lazy to fix currently
+			Don't bother using this item
+			'''
+		DisplayName: Wall Capture
+	}
+
+	PyramidGenerator: {
+		Tooltip:
+			'''
+			Development tool, NOT MEANT FOR GAMEPLAY
+			Using this may generate a whole pyramid on your cursor, step-by-step
+			Right clicking will literally make your world vanish
+			Whatever the case, it's probably best not to use it
+			'''
+		DisplayName: Pyramid Generation Demonstrator
+	}
+
+	MinersPickaxe: {
+		Tooltip: 「ねんがんの投げツルハシ！」
+		DisplayName: マイナーのツルハシ
+	}
+
+	ManicMiner: {
+		Tooltip: ヴォイドを低射程のマイニングレーザーに変換する
+		DisplayName: マニアックマイナー
+	}
+
+	FrigidPickaxe: {
+		Tooltip: ヘルストーンを採掘できる
+		DisplayName: 極寒のツルハシ
+	}
+
+	Earthshaker: {
+		Tooltip: たくさんのブロックを同時に破壊できる長射程のツルハシを発射する
+		DisplayName: アースシェイカー
+	}
+
+	AncientSteelGreatPickaxe: {
+		Tooltip:
+			'''
+			メテオライトを採掘できる
+			クリティカル攻撃が50%多くダメージを与えるようになり、スタックする1秒間で5ダメージを与える出血を付与する
+			'''
+		DisplayName: 古代の鋼の大ツルハシ
+	}
+
+	AncientSteelGreatHamaxe: {
+		Tooltip: クリティカル攻撃が50%多くダメージを与えるようになり、スタックする1秒間で5ダメージを与える出血を付与する
+		DisplayName: 古代の鋼の大ハンマーアックス
+	}
+
+	Riptide: {
+		Tooltip:
+			'''
+			水中か雨に濡れているとき右クリックすると前に向かって自分を発射し120%のダメージを与える
+			装備中は落下ダメージを受けない
+			'''
+		DisplayName: リップタイド
+	}
+
+	PurpleJellyfishStaff: {
+		Tooltip:
+			'''
+			起爆時にカーソルに向かって飛んでいく紫の電撃を発射する2個のオーブを発射する
+			紫の電撃は敵に連鎖し70%のダメージを与える
+			インベントリでお気に入り登録するとわずかに光る
+			'''
+		DisplayName: 紫クラゲの杖
+	}
+
+	PrismarineNecklace: {
+		Tooltip:
+			'''
+			防御貫通が8増加、最大体力が20増加
+			定期的にダメージウェーブを放出する
+			低体力時にはより多く放出する
+			ウェーブは合計で16の防御力を無視する
+			非表示中はウェーブがオフになる
+			'''
+		DisplayName: プリズマリンのネックレス
+	}
+
+	PlasmaShrimp: {
+		Tooltip:
+			'''
+			マナが40%以上のとき魔法武器が追加で熱い、50%のダメージを与えるエビ型プラズマを発射する
+			マナ消費が5%減少
+			「もうエビぽくねエビ」
+			'''
+		DisplayName: プラズマエビ
+	}
+
+	PistolShrimp: {
+		Tooltip:
+			'''
+			近くの敵を追尾するエビ型プラズマを発射する
+			「チームワークが夢を叶える」
+			'''
+		DisplayName: ピストルエビ
+	}
+
+	PiscesPuncher: {
+		Tooltip:
+			'''
+			「魚」
+			「名詞」
+			「四肢を持たない冷血の脊椎動物で、鰓とひれを持ち、完全に水中で生活する」
+			'''
+		DisplayName: ピスケスパンチャー
+	}
+
+	PinkJellyfishStaff: {
+		Tooltip: 敵に連鎖し60%のダメージを与えるピンクの電撃を発射する
+		DisplayName: ピンククラゲの杖
+	}
+
+	HeartOfTheSea: {
+		Tooltip:
+			'''
+			定期的にダメージウェーブを放出する
+			低体力時にはより多く放出する
+			ウェーブは合計で8の防御力を無視する
+			最大体力が20増加
+			非表示中はウェーブがオフになる
+			「震えるぜハート」
+			'''
+		DisplayName: 海の心
+	}
+
+	GreenJellyfishStaff: {
+		Tooltip:
+			'''
+			起爆時にカーソルに向かって飛んでいく緑の電撃を発射する2個のオーブを発射する
+			緑の電撃は敵に連鎖し90%のダメージを与える
+			インベントリでお気に入り登録するとわずかに光る
+			'''
+		DisplayName: 緑クラゲの杖
+	}
+
+	BlueJellyfishStaff: {
+		Tooltip: 起爆時にカーソルに向かって飛んでいく青の電撃を発射する2個のオーブを発射する
+		DisplayName: 青クラゲの杖
+	}
+
+	ArkhalisChain: {
+		Tooltip: 「ここから来たものではないのだろう」
+		DisplayName: 失われた鎖
+	}
+
+	SupernovaScatter: {
+		Tooltip: バラバラになる小さな星々を発射する
+		DisplayName: スーパーノヴァスカッター
+	}
+
+	SolarBullet: {
+		Tooltip:
+			'''
+			敵の防御力を50%貫通する
+			跳弾すると加速する
+			'''
+		DisplayName: 太陽弾
+	}
+
+	Revolution: {
+		Tooltip: 夜間はヴォイドを消費しない
+		DisplayName: レヴォリューション
+	}
+
+	Pyrocide: {
+		Tooltip:
+			'''
+			5回連続で斬りつける
+			最後の一撃は150%のダメージを与える
+			'''
+		DisplayName: パイロサイド
+	}
+
+	LihzahrdTail: {
+		Tooltip:
+			'''
+			バフの効果時間が67%延長
+			ポーションから得られるマナと回復が50増加
+			'''
+		DisplayName: トカゲのしっぽ
+	}
+
+	Helios: {
+		Tooltip:
+			'''
+			攻撃が敵を焦がしつかせダメージを3%増加させる
+			5回スタックする
+			40%のダメージを与えるウェーブを発射する
+			'''
+		DisplayName: ヘリオス
+	}
+
+	TidalSpiritStaff: {
+		Tooltip: 共に戦う潮流の精霊を召喚する
+		DisplayName: 潮流の精霊の杖
+	}
+
+	PermafrostSpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う永久凍結の精霊を召喚する
+			的に向かって下方向に3個の永久凍結の槍を飛ばす
+			'''
+		DisplayName: 永久凍結の精霊の杖
+	}
+
+	OtherworldlySpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う異世界の精霊を召喚する
+			4回まで蓄積し短い間隔で電撃を発射する
+			'''
+		DisplayName: 異世界の精霊の杖
+	}
+
+	NatureSpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う自然の精霊を召喚する
+			視認できる最も近い敵を攻撃する
+			ダメージを与えるとライフを回復する
+			'''
+		DisplayName: 自然の精霊の杖
+	}
+
+	InfernoSpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う地獄の精霊を召喚する
+			同時に7体の敵を攻撃する
+			'''
+		DisplayName: 地獄の精霊の杖
+	}
+
+	EvilSpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う邪悪の精霊を召喚する
+			荒れ狂う邪悪の放電で攻撃しそれぞれ50%のダメージを与える
+			終わりに爆発し100%のダメージを与え、必ずクリティカルになる
+			'''
+		DisplayName: 邪悪の精霊の杖
+	}
+
+	EarthenSpiritStaff: {
+		Tooltip: 共に戦う大地の精霊を召喚する
+		DisplayName: 大地の精霊の杖
+	}
+
+	ChaosSpiritStaff: {
+		Tooltip:
+			'''
+			共に戦う混沌の精霊を召喚する
+			1体の敵に集中する
+			'''
+		DisplayName: 混沌の精霊の杖
+	}
+
+	Traingun: {
+		Tooltip: ""
+		DisplayName: トレインガン
+	}
+
+	SupremSticker: {
+		Tooltip: ""
+		DisplayName: シュプレム
+	}
+
+	SafetySwitch: {
+		Tooltip: ヴォイドが0になったときヴォイド武器を使わなくなる
+		DisplayName: 安全スイッチ
+	}
+
+	RecursiveBow: {
+		Tooltip:
+			'''
+			50%の確率で追加の矢を発射する
+			追加の矢もこの効果が発動する
+			'''
+		DisplayName: リカーシブボウ
+	}
+
+	BoreBullet: {
+		Tooltip: 敵の防御力を20%貫通、追加で10貫通する
+		DisplayName: ドリル弾
+	}
+
+	WormWoodStaff: {
+		Tooltip: 3つの跳ね回り予測不可能な軌道で飛んで留まる弾を発射する
+		DisplayName: グープウッドの杖
+	}
+
+	WormWoodScepter: {
+		Tooltip: ワームウッド・タレットを召喚し、最大4体の敵を同時に攻撃する
+		DisplayName: グープウッドのセプター
+	}
+
+	WormWoodParasite: {
+		Tooltip:
+			'''
+			ヴォイド再生量が2増加、ヴォイドクリティカル率が8%増加
+			クリティカル攻撃でヴォイドを僅かに回復する
+			最大ヴォイドが20減少
+			'''
+		DisplayName: グープウッドの寄生虫
+	}
+
+	WormWoodHook: {
+		Tooltip: 敵に当たると引っ込む
+		DisplayName: グープウッドのフック
+	}
+
+	WormWoodHelix: {
+		Tooltip: マスケット弾を螺旋に変換する
+		DisplayName: グープウッドヘリックス
+	}
+
+	Wormwood: {
+		Tooltip: ""
+		DisplayName: グープウッド
+	}
+
+	CorrosiveGel: {
+		Tooltip: 「ピンクのジェルみたいなものだが気をつけないと指を溶かしてしまう」
+		DisplayName: 腐食ジェル
+	}
+
+	VialofAcid: {
+		Tooltip: 「有機物を溶かしてしまうネバネバした酸性の物質」
+		DisplayName: 酸の試験管
+	}
+
+	PutridEye: {
+		Tooltip: 「死の光線が欲しい？死の光線あるよ」
+		DisplayName: 腐った目
+	}
+
+	PinkyBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	PeanutRepeater: {
+		Tooltip:
+			'''
+			ピンキーの空襲を引き寄せる美味しいピーナッツを発射する
+			20%の確率で弾薬を消費しない
+			'''
+		DisplayName: ピーナッツリピーター
+	}
+
+	Peanut: {
+		Tooltip: 「悪魔的なスライム御用達のおやつ」
+		DisplayName: ピーナッツ
+	}
+
+	JarOfPeanuts: {
+		Tooltip: 腐ったピンキーを召喚する
+		DisplayName: ピーナッツの瓶
+	}
+
+	GelWings: {
+		Tooltip:
+			'''
+			飛行と低速落下が可能になる
+			「支えられるはずがないんだけど」
+			'''
+		DisplayName: ジェルの翼
+	}
+
+	GelAxe: {
+		Tooltip: ""
+		DisplayName: ジェルの投斧
+	}
+
+	FireSpitter: {
+		Tooltip: ジェルを弾薬として消費する
+		DisplayName: 火鉄砲
+	}
+
+	ForgottenLamp: {
+		DisplayName: 忘却のランプ
+	}
+
+	DreamLamp: {
+		Tooltip2: 右クリックで近距離で追尾し50%のダメージを与えるボルトを発射する霧のオーブを発射する
+		Tooltip1:
+			'''
+			最大10体の敵を鎖で繋げ速度と防御力を低下させる
+			アイテムを鎖で繋ぎ回収する
+			右クリックで近くの敵を鎖で繋ぎ鎖の効果時間をリセットする植物の球を飛ばす
+			鎖で繋がれた敵が倒された時、近くの繋がれた敵が追加ダメージを受ける
+			右クリックはヴォイドを消費しない
+			「願いはなんだい?」
+			'''
+		DisplayName2: 忘却のランプ
+		DisplayName1: 夢見のランプ
+		Tooltip: 「願いはなんだい?」
+		DisplayName: 夢見のランプ
+	}
+
+	StrangeKeystoneBroken: {
+		Tooltip: ""
+		DisplayName: 壊れたオベリスク
+	}
+
+	StrangeKeystone: {
+		Tooltip:
+			'''
+			強い日光に晒すとひびが入る
+			「中が空洞に感じる」
+			'''
+		DisplayName: 奇妙なオベリスク
+	}
+
+	RefractingCrystalBlock: {
+		Tooltip: 「これを手に入れるべきじゃなかった」
+		DisplayName: 不気味なクリスタルのブロック
+	}
+
+	PhotonGeyser: {
+		Tooltip: 螺旋を描き追尾する虹色の光を放つ
+		DisplayName: フォトンガイザー
+	}
+
+	VoidenBracelet: {
+		Tooltip:
+			'''
+			ヴォイドと魔法ダメージが8%増加
+			ヴォイド消費8%軽減
+			'''
+		DisplayName: ヴォイドのブレスレット
+	}
+
+	TrueSandstoneWall: {
+		Tooltip: 「神のみがその力で壁を鍛えられるとされる」
+		DisplayName: 真なる砂岩の壁
+	}
+
+	TrueSandstoneBlock: {
+		Tooltip: 究極の砂岩
+		DisplayName: 真なる砂岩ブロック
+	}
+
+	TheDarkEye: {
+		Tooltip:
+			'''
+			ヴォイドを5消費して左右に即発のダッシュが可能になる
+			壁を超えてダッシュができる
+			敵に向かいダッシュすると攻撃できるがヴォイドをより消費する
+			'''
+		DisplayName: ダーク・アイ
+	}
+
+	TaintedKeystone: {
+		Tooltip: 「なんと威厳のあるヴォイドエネルギーの結晶であるか」
+		DisplayName: 穢れたキーストーン
+	}
+
+	SunlightAmulet: {
+		Tooltip: 永続する狩人と危険察知の効果を得る
+		DisplayName: 日光のアミュレット
+	}
+
+	SpiritTracer: {
+		Tooltip:
+			'''
+			幻影の矢を発射する
+			同時に3体の敵に命中する
+			'''
+		DisplayName: スピリットトレーサー
+	}
+
+	SpiritSurfer: {
+		Tooltip:
+			'''
+			超高速なスピリットボードのマウントを召喚する
+			アクティブ中はヴォイド吸収が6増加する
+			'''
+		DisplayName: スピリットサーファー
+	}
+
+	SpiritShield: {
+		Tooltip: ヴォイド再生量が2増加、ライフ自然再生が1増加、ダメージ2%軽減
+		DisplayName: スピリットシールド
+	}
+
+	SpiritGlove: {
+		Tooltip: ヴォイド再生速度が5%増加、近接クリティカル率が8%増加
+		DisplayName: スピリットグローブ
+	}
+
+	Snakeskin: {
+		Tooltip: 滑らかで耐久性に優れる
+		DisplayName: 蛇革
+	}
+
+	SnakeBow: {
+		Tooltip: 敵に食いつくヘビを発射する
+		DisplayName: ヘビの弓
+	}
+
+	ShiftingSands: {
+		Tooltip: 砂の波で近くの敵を押し返す
+		DisplayName: シフティング・サンド
+	}
+
+	SandstoneWarhammer: {
+		Tooltip: 追尾するハンマーを発射する
+		DisplayName: 砂岩の戦鎚
+	}
+
+	SandstoneEdge: {
+		Tooltip: クリティカル時に50%のダメージを与えるエメラルドの弾を発射する
+		DisplayName: サンドストーンエッジ
+	}
+
+	RubyKeystone: {
+		Tooltip: ""
+		DisplayName: ルビーのキーストーン
+	}
+
+	RoyalRubyShard: {
+		Tooltip: ""
+		DisplayName: キーストーンの欠片
+	}
+
+	RoyalMagnum: {
+		Tooltip: 地面に当たるか敵に当たると金の光を放つ
+		DisplayName: ロイヤルマグナム
+	}
+
+	RoyalGoldBrick: {
+		Tooltip: 「威厳さを感じ取れる」
+		DisplayName: 古代の金のレンガ
+	}
+
+	PyramidSlab: {
+		Tooltip: 古代の埋没現場の平石で、壊すに苦労する
+		DisplayName: ピラミッドの平石
+	}
+
+	PyramidPot: {
+		Tooltip: ""
+		DisplayName: ピラミッドの壺
+	}
+
+	PyramidKey: {
+		Tooltip: ""
+		DisplayName: 謎満ちた鍵
+	}
+
+	PyramidBrick: {
+		Tooltip: 古代の埋没現場の平石で、壊すに苦労する
+		DisplayName: ピラミッドのレンガ
+	}
+
+	PitatiLongbow: {
+		Tooltip: 発射するごとに追加の跳ねるエメラルドの弾を発射する
+		DisplayName: ピタティのロングボウ
+	}
+
+	PharaohsCane: {
+		Tooltip:
+			'''
+			戦闘では大したこと無いが敵がより多くゴールドを落とす
+			「こんなもの誰が欲しがるの?」
+			'''
+		DisplayName: ファラオの手杖
+	}
+
+	PatchLeatherTunic: {
+		Tooltip:
+			'''
+			召喚ダメージが15%増加
+			酸性毒と毒のデバフ耐性
+			'''
+		DisplayName: 縫い革のチュニック
+	}
+
+	PatchLeatherPants: {
+		Tooltip: 召喚ダメージが15%増加
+		DisplayName: 縫い革のブーツ
+	}
+
+	PatchLeatherHat: {
+		Tooltip: 最大ミニオン数が1増加
+		DisplayName: 縫い革の帽子
+	}
+
+	OvergrownPyramidBlock: {
+		Tooltip: ""
+		DisplayName: 過成長のピラミッドのレンガ
+	}
+
+	LuckyPurpleBalloon: {
+		Tooltip:
+			'''
+			釣り糸がもう一つ追加される
+			光源ペットとして扱われる
+			'''
+		DisplayName: 幸運の紫の風船
+	}
+
+	JuryRiggedDrill: {
+		Tooltip:
+			'''
+			ピラミッドの壁を破壊できる
+			何度か使うと壊れる
+			'''
+		DisplayName: 即席のドリル
+	}
+
+	JeweledGauntlet: {
+		Tooltip: ""
+		DisplayName: 呪われたガントレット
+	}
+
+	ImperialPike: {
+		Tooltip: 敵にダメージを与え続ける軌跡を残す
+		DisplayName: インペリアルパイク
+	}
+
+	HeartInAJar: {
+		Tooltip:
+			'''
+			自身から近距離にいる敵を呪い、ライフを1秒毎に10吸収する
+			呪われた敵は倒された時呪いの破片を落とし他の敵を追跡する
+			呪いの破片は倒した敵の最大体力の10%+10のダメージを与える
+			最大ライフが20増加
+			'''
+		DisplayName: 瓶詰めの心臓
+	}
+
+	GhoulBlaster: {
+		Tooltip:
+			'''
+			トリガーを引いた途端すべての弾を枯らす勢いで発射する
+			6発毎に弾を呪われた特異点に変化させる
+			'''
+		DisplayName: グールブラスター
+	}
+
+	EmeraldBracelet: {
+		Tooltip: ヴォイド再生量が2増加
+		DisplayName: エメラルドの腕輪
+	}
+
+	CursedTumor: {
+		Tooltip: 「ベイクドビーンズ」
+		DisplayName: 呪われた腫瘍ブロック
+	}
+
+	CursedHiveBlock: {
+		Tooltip: ""
+		DisplayName: 侵蝕されたピラミッドのレンガ
+	}
+
+	CurseWard: {
+		Tooltip:
+			'''
+			インベントリ内にある時にピラミッドの呪いを弱める
+			クトゥルフの脳、イーターオブワールドを倒した場合、自動的に呪いが弱まるので必要ない
+			'''
+		DisplayName: 呪われたワード
+	}
+
+	CursedImpale: {
+		Tooltip: 短距離のエネルギーバーストを発射する
+		DisplayName: 呪われた貫通槍
+	}
+
+	CursedBlade: {
+		Tooltip:
+			'''
+			共に戦うカースドブレードを召喚する
+			命中した敵に剣撃の嵐を浴びせ、それぞれ50%のダメージを与え終わりに爆発する
+			爆発は100%のダメージを与え必ずクリティカルになる
+			'''
+		DisplayName: カースドブレード
+	}
+
+	CursedApple: {
+		AltTooltip:
+			'''
+			共に戦うトモダチを召喚する
+			倒した敵から3個の羽を奪い取りヴォイドメーターにしまい込む
+			右クリックで羽を10消費し敵を略奪対象としてマークする
+			マークされた敵は追加のアイテムを落とす
+			敵は複数回マークできる
+			ボスへのマークは羽を100消費する
+			特定のレアな敵はマークにより多く羽を消費する
+			'''
+		DefaultTooltip:
+			'''
+			共に戦うゴーストペッパーを召喚する
+			倒した敵から2個の魂を奪い取りヴォイドメーターにしまい込む
+			右クリックで魂を10消費し敵を略奪対象としてマークする
+			マークされた敵は追加のアイテムを落とす
+			敵は複数回マークできる
+			ボスへのマークは魂を100消費する
+			特定のレアな敵はマークにより多く魂を消費する
+			'''
+		Tooltip:
+			'''
+			戦闘後に支援するペットのゴーストペッパーを召喚する
+			倒した敵から2個の魂を奪い取りヴォイドメーターにしまい込む
+			右クリックで魂を10消費し敵を略奪対象としてマークする
+			マークされた敵は追加のアイテムを落とす
+			敵は複数回マークできる
+			ボスへのマークは魂を100消費する
+			特定のレアな敵はマークにより多く魂を消費する
+			'''
+		AltDisplayName: 金のリンゴ
+		DisplayName: 呪いのリンゴ
+	}
+
+	CurseballTome: {
+		Tooltip: 強力だが不正確なカースドスピアの嵐を発射する
+		DisplayName: カースドスピアストーム
+	}
+
+	CurseBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	CursedHood: {
+		Tooltip:
+			'''
+			魔法とヴォイドダメージが8%増加
+			魔法とヴォイドクリティカル率が5%増加
+			自身から最も近い敵が呪いの影響を受ける
+			ダメージを受けると呪われた敵が燃え上がり140%の追加ダメージを受け近くの他の敵に140%のダメージを与える
+			この効果は2秒のクールダウンがある
+			'''
+		DisplayName: 呪われたフード
+	}
+
+	CursedRobe: {
+		Tooltip:
+			'''
+			最大マナと最大ヴォイドが80増加
+			マナ消費とヴォイド消費が15%軽減
+			ルビーモノリスを召喚するS
+			ルビーモノリスがヴォイド再生スピードを10%増加させる
+			'''
+		DisplayName: 呪われたローブ
+	}
+
+	BrachialLance: {
+		Tooltip:
+			'''
+			3x50%のダメージを与える呪いの槍を放つ強力で素早いランスを投げる
+			チャージすることでダメージを最大160%まで上昇させ命中時に放たれる槍の数が増加する
+			最大チャージ時は確定でクリティカルになる
+			'''
+		DisplayName: アームランス
+	}
+
+	AncientGoldGateGems: {
+		DisplayName: 宝石
+	}
+
+	AncientGoldGate: {
+		Tooltip: ""
+		DisplayName: 古代の金の柱
+	}
+
+	AcediaPlating: {
+		Tooltip: 「ルミナイトに酷似している」
+		DisplayName: アセディアのポータルのプレート
+	}
+
+	AcediaGateway: {
+		Tooltip: 「どこかに繋がる奇妙なポータル」
+		DisplayName: アセディアのゲートウェイ
+	}
+
+	AncientGoldBrickWall: {
+		Tooltip: ""
+		DisplayName: 古代の金のレンガの壁
+	}
+
+	AncientGoldBeam: {
+		Tooltip: ""
+		DisplayName: 古代の金のレンガの桁 (壁)
+	}
+
+	PyramidRubble: {
+		Tooltip: 「石を集めたよりもレンガっぽくない」
+		DisplayName: ピラミッドの瓦礫
+	}
+
+	PyramidAmbient: {
+		Tooltip: ""
+		DisplayName: ピラミッドの環境設置物
+	}
+
+	RoastedPeanuts: {
+		Tooltip: すべてのステータスが少し上昇
+		DisplayName: 煎りピーナッツ
+	}
+
+	VibePotion: {
+		Tooltip:
+			'''
+			攻撃速度が静止時に20%増加、移動時に5%増加する
+			静止時にライフ自然再生が4増加
+			'''
+		DisplayName: 上機嫌のポーション
+	}
+
+	StarlightTonic: {
+		Tooltip:
+			'''
+			以下の効果を付与する:
+			15分間の暗殺
+			13分間の魔法力
+			11分間のハート回収
+			9分間のマナ自然回復増進
+			'''
+		DisplayName: スターライトトニック
+	}
+
+	SoulAccessPotion: {
+		Tooltip: ヴォイド再生速度を10%上昇させる
+		DisplayName: 触魂のポーション
+	}
+
+	SeismicTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間の鉄の肌
+			13分間の触魂
+			11分間の忍耐
+			9分間の荒肌
+			'''
+		DisplayName: サイズミックトニック
+	}
+
+	RoughskinPotion: {
+		Tooltip: 防御力を4、ダメージを4%上昇させる
+		DisplayName: 荒肌のポーション
+	}
+
+	RipplePotion: {
+		Tooltip:
+			'''
+			定期的にダメージを与える水の波を放出する
+			低体力時にはより多く放出する
+			波は合計で8の防御力を無視する
+			'''
+		DisplayName: 波潮のポーション
+	}
+
+	NightmarePotion: {
+		Tooltip:
+			'''
+			クリティカル攻撃が悪夢の手を呼び出し10%のダメージを与え敵同士を引き寄せる
+			6秒のクールダウンがある
+			'''
+		DisplayName: 悪夢のポーション
+	}
+
+	HereticTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間の悪夢
+			13分間の激怒
+			13分間の怒り
+			9分間の弾薬節約
+			「世界が貴方の言う通りになる」
+			'''
+		DisplayName: ヘレティックトニック
+	}
+
+	HarmonyPotion: {
+		Tooltip:
+			'''
+			効果時間中に他のバフが減衰しなくなる
+			残り時間が30秒以下のほとんどのバフで機能しない
+			'''
+		DisplayName: 調和のポーション
+	}
+
+	GlacialTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間の暖気
+			13分間の破片拡散
+			11分間のタイタン
+			9分間のマナ自然回復増進
+			'''
+		DisplayName: グレイシャルトニック
+	}
+
+	EtherealTonic: {
+		Tooltip:
+			'''
+			以下の効果を付与する:
+			15分間の調和
+			13分間の生命強化
+			11分間のライフ自然回復増進
+			9分間の魔法力
+			'''
+		DisplayName: エセリアルトニック
+	}
+
+	DoubleVisionPotion: {
+		Tooltip:
+			'''
+			釣り竿に重ねがけ可能な糸を追加する
+			最大で6本糸を追加可能
+			'''
+		DisplayName: 二倍視野のポーション
+	}
+
+	BrittlePotion: {
+		Tooltip: 攻撃を受けると氷の破片に囲われる
+		DisplayName: 破片拡散のポーション
+	}
+
+	BluefirePotion: {
+		Tooltip: 倒した敵が炎になり爆発して最後の一撃のダメージの40%にあたるダメージを与える
+		DisplayName: 蒼炎のポーション
+	}
+
+	BlightfulTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間の鉄の肌
+			13分間の上機嫌
+			11分間の俊足
+			9分間のライフ自然回復増進
+			'''
+		DisplayName: ブライトフルトニック
+	}
+
+	BlazingTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間の蒼炎
+			13分間の獄炎
+			11分間の黒曜石の肌
+			9分間の魔法力
+			「本当に飲んでも大丈夫?」
+			'''
+		DisplayName: ブレイジングトニック
+	}
+
+	AssassinationPotion: {
+		Tooltip: 体力10%以下の敵を処刑する
+		DisplayName: 暗殺のポーション
+	}
+
+	AbyssalTonic: {
+		Tooltip:
+			'''
+			以下の2つをランダムで得る:
+			15分間のエラ
+			13分間の足ヒレ
+			11分間の波潮
+			9分間の平穏
+			'''
+		DisplayName: アビサルトニック
+	}
+
+	StormSpell: {
+		Tooltip: カーソル位置に北極の嵐を作り出す
+		DisplayName: ストームスペル
+	}
+
+	ShoeIce: {
+		Tooltip:
+			'''
+			壁を滑り降りることができる
+			壁登りの爪かスパイクシューズと組み合わせると能力向上
+			移動速度が40%増加
+			「氷の床はみんなのお気に入り！」
+			'''
+		DisplayName: アイスシューズ
+	}
+
+	ShatterShardChestplate: {
+		Tooltip: 攻撃を受けると氷の破片に囲われる
+		DisplayName: 砕け散った破片の胸当て
+	}
+
+	ShatterHeartShield: {
+		Tooltip:
+			'''
+			攻撃を受けると氷の破片に囲われる
+			最大ライフが20増加
+			'''
+		DisplayName: 砕け散る心の盾
+	}
+
+	ShatterBlade: {
+		Tooltip:
+			'''
+			クリティカル時に砕け散り3個の氷の破片に囲われる
+			砕け散った後はゆっくりと再生する
+			「耐久ゲージじゃないから心配しないで」
+			'''
+		DisplayName: 砕け散る剣
+	}
+
+	ShardstormSpell: {
+		Tooltip: カーソル位置に蒼氷の爆撃を行う
+		DisplayName: 蒼氷爆撃
+	}
+
+	ShardStaff: {
+		Tooltip: プレイヤーの周りにシャードを召喚する
+		DisplayName: シャードスタッフ
+	}
+
+	ShardGuard: {
+		Tooltip:
+			'''
+			ライフが50%以下になった時殻で多いダメージを25%軽減する
+			敵にレーザーを発射する遺物の探査機に覆われる
+			攻撃を受けると氷の破片に囲われる
+			最大ライフが20増加
+			'''
+		DisplayName: シャードガード
+	}
+
+	PolarisBossBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	PermafrostMedallion: {
+		Tooltip: 敵にレーザーを発射する遺物の探査機に覆われる
+		DisplayName: 永久凍結のメダリオン
+	}
+
+	Metalmalgamation: {
+		Tooltip:
+			'''
+			周囲に高速で弾を発射し50%のダメージを与える
+			「私の子供のおもちゃに銃が!?」
+			'''
+		DisplayName: メタルマルガメーション
+	}
+
+	IcicleImpale: {
+		Tooltip:
+			'''
+			巨大な氷柱を発射する
+			命中時にヴォイドを回復する
+			'''
+		DisplayName: 氷柱の貫通槍
+	}
+
+	IceDeployer: {
+		Tooltip:
+			'''
+			雪の結晶のマウントを召喚する
+			騎乗中は防御力が8上昇する
+			'''
+		DisplayName: 雪の結晶
+	}
+
+	HypericeClusterCannon: {
+		Tooltip: ""
+		DisplayName: ハイパーアイスクラスターキャノン
+	}
+
+	FrostedKey: {
+		Tooltip: 「触ると冷たい」
+		DisplayName: 凍結の鍵
+	}
+
+	FrostArtifactTrousers: {
+		Tooltip: 近接速度と移動速度が10%増加
+		DisplayName: フロストアーティファクトのズボン
+	}
+
+	FrostArtifactHelmet: {
+		Tooltip: 近接と遠距離ダメージが14%増加
+		DisplayName: フロストアーティファクトのヘルメット
+	}
+
+	FrostArtifactChestplate: {
+		Tooltip: 近接と遠距離のクリティカル率が16%増加
+		DisplayName: フロストアーティファクトの胸当て
+	}
+
+	FrostArtifact: {
+		Tooltip: 鍵をはめる穴がある
+		DisplayName: フロストアーティファクト
+	}
+
+	FrigidRobe: {
+		Tooltip: 極寒のジャヴェリンがより跳ねるようになる
+		DisplayName: 極寒のローブ
+	}
+
+	FrigidJavelin: {
+		Tooltip: 強力で素早く飛んでいく、当たると跳ね返るジャヴェリンを投げる
+		DisplayName: 極寒のジャヴェリン
+	}
+
+	FrigidIce: {
+		Tooltip: ""
+		DisplayName: 極寒の鉱石
+	}
+
+	FrigidHourglass: {
+		Tooltip:
+			'''
+			1分おきに15秒間ヴォイドメーターを凍結させる
+			鈍化、凍え、凍結、凍傷に対する耐性
+			移動速度が10%増加
+			'''
+		DisplayName: 極寒の砂時計
+	}
+
+	FrigidGreaves: {
+		Tooltip:
+			'''
+			スケート靴の効果
+			移動速度とヴォイド攻撃速度が10%増加
+			'''
+		DisplayName: 極寒のブーツ
+	}
+
+	FrigidCrown: {
+		Tooltip: シャードスタッフとストームスペルが追加のバーストを得る
+		DisplayName: 極寒の冠
+	}
+
+	EndothermicAfterburner: {
+		Tooltip:
+			'''
+			近接攻撃が背面にフロストバーストを送り出すようになり70%のダメージを与え凍傷を付与する
+			フロストバーストが敵に当たると10秒間自身の移動速度と攻撃速度を10%上昇させる
+			'''
+		DisplayName: 吸熱加力装置
+	}
+
+	CryoCannon: {
+		Tooltip: 雪玉を銃弾として使う
+		DisplayName: クライオキャノン
+	}
+
+	CruiseCaller: {
+		Tooltip: 共に戦うペンギンコプターの航空隊を召喚する
+		DisplayName: クルーズコーラー
+	}
+
+	AbsoluteBar: {
+		Tooltip: 「触れると熱い」
+		DisplayName: アブソリュート合金
+	}
+
+	TwilightGel: {
+		Tooltip: ""
+		DisplayName: トワイライトジェル
+	}
+
+	TwilightBeads: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加
+			攻撃されるとすでに召喚されたソウルが5未満の場合にソウル5つの復讐のソウルを召喚する
+			10回目のヴォイド攻撃がレーザー型のソウルを発射する
+			'''
+		DisplayName: トワイライトビーズ
+	}
+
+	ThundershockShortbow: {
+		Tooltip: 矢の代わりに強力なライトニングボルトを発射する
+		DisplayName: サンダーショックショートボウ
+	}
+
+	TheAdvisorBossBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	StrangeKey: {
+		Tooltip: 奇妙なチェストを1個解錠する
+		DisplayName: 奇妙な鍵
+	}
+
+	SkywareKey: {
+		Tooltip: スカイウェアのチェストを1個解錠する
+		DisplayName: スカイウェアの鍵
+	}
+
+	PhaseCannon: {
+		Tooltip: 壁を貫通する超圧縮したプラズマボールを発射する
+		DisplayName: フェーズキャノン
+	}
+
+	MeteoriteKey: {
+		Tooltip: メテオライトのチェストを1個解錠する
+		DisplayName: メテオライトの鍵
+	}
+
+	JarOfSouls: {
+		Tooltip: <right>で開く
+		DisplayName: 瓶詰めのソウル
+	}
+
+	GravityAnchor: {
+		Tooltip: 重力の影響を通常にしノックバックに耐性を得る
+		DisplayName: 重力アンカー
+	}
+
+	BladeNecklace: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加
+			定期的に周りを回転する9個の剣を呼び出す
+			10回目の近接攻撃でこの剣を敵に向かって発射する
+			攻撃されると5体の復讐のソウルを召喚する
+			10回目のヴォイド攻撃がレーザー型のソウルを発射する
+			'''
+		DisplayName: ブレードネックレス
+	}
+
+	BladeGenerator: {
+		Tooltip:
+			'''
+			定期的に周りを回転する9個の剣を呼び出す
+			10回目の近接攻撃でこの剣を敵に向かって発射する
+			'''
+		DisplayName: ブレード生成器
+	}
+
+	AvaritianGateway: {
+		Tooltip:
+			'''
+			「どこかに繋がる奇妙なポータル」
+			アドバイザーのスポーン地点として機能する
+			'''
+		DisplayName: アヴァリティアのゲートウェイ
+	}
+
+	TransmutationAltar: {
+		Tooltip:
+			'''
+			アイテムを作成できる
+			対応する相互互換アイテムと装備の変換が行える
+			デーモンアルターとして機能する
+			アルターを使ったクラフトを元に戻せる
+			'''
+		DisplayName: 転移のアルター
+	}
+
+	SkyChain: {
+		Tooltip: 「どこかを繋ぎ止めている」
+		DisplayName: 空の鎖
+	}
+
+	PotGenerator: {
+		Tooltip:
+			'''
+			表面上部に壺を生成する
+			重ねて最も上にある生成機の生成速度を早めることができる
+			「ちがう、そのツボじゃない」
+			'''
+		DisplayName: ツボ生成機
+	}
+
+	StrangeChest: {
+		Tooltip: ""
+		DisplayName: プラネタリウムのチェスト
+	}
+
+	LockedSkywareChest: {
+		DisplayName: スカイウェアのチェスト
+	}
+
+	LockedMeteoriteChest: {
+		DisplayName: メテオライトのチェスト
+	}
+
+	HardlightFabricator: {
+		Tooltip: 異世界のオブジェクトと装備を作成できる
+		DisplayName: ハードライト製造機
+	}
+
+	DigitalDisplay: {
+		Tooltip: 右クリックでヴォイドダメージが10%増加する
+		DisplayName: デジタルディスプレイ
+	}
+
+	VibrancyModule: {
+		Tooltip:
+			'''
+			ヴォイド攻撃速度が10%増加
+			ヴォイド消費が10%減少
+			'''
+		DisplayName: 活力モジュール
+	}
+
+	UndoArrow: {
+		Tooltip: Makes all NPC have zero epicness
+		DisplayName: 開発者用テストアイテム
+	}
+
+	OtherworldlyAlloy: {
+		Tooltip: ""
+		DisplayName: トワイライト合金
+	}
+
+	TwilightShard: {
+		Tooltip: ""
+		DisplayName: トワイライトプレート
+	}
+
+	TwilightFishingPole: {
+		Tooltip: 一度に2本の糸をキャストできどんな場所でもプラネタリウムの箱を釣り上げられる
+		DisplayName: トワイライトの釣り竿
+	}
+
+	TwilightAssassinsLeggings: {
+		Tooltip:
+			'''
+			移動速度が15%増加
+			ブリンクパックのクールダウンが20%減少
+			ジャンプ速度が僅かに増加
+			'''
+		DisplayName: トワイライトアサシンの脛当て
+	}
+
+	TwilightAssassinsChestplate: {
+		Tooltip:
+			'''
+			最大ミニオン数が1増加
+			近接とヴォイドクリティカル率が10%増加
+			ライフ自然再生が2増加、ヴォイド再生速度が10%増加
+			'''
+		DisplayName: トワイライトアサシンの胸当て
+	}
+
+	TwilightAssassinsCirclet: {
+		Tooltip: ゲーマー
+		DisplayName: トワイライトアサシンのサークレット
+	}
+
+	TerminatorAcorns: {
+		Tooltip: 共に戦うサイボーグリスを召喚する
+		DisplayName: ターミネーターどんぐり
+	}
+
+	SupernovaHammer: {
+		Tooltip:
+			'''
+			クリティカル攻撃が100%のダメージを与える3体の追跡者を放つ
+			敵を倒すと70%のダメージを与える追跡者を3体放つ
+			追跡者が倒した敵からは2体の追跡者が放たれそれぞれ75%のダメージを与える
+			追跡者は敵を追尾するが追跡者が出現した敵は追尾しない
+			'''
+		DisplayName: 超新星のハンマー
+	}
+
+	StarshotCrossbow: {
+		Tooltip: 矢を四方八方に散らす星を発射する
+		DisplayName: スターショットクロスボウ
+	}
+
+	StarcoreAssaultRifle: {
+		Tooltip: 跳ねる色とりどりな弾を連射する
+		DisplayName: スターコアアサルトライフル
+	}
+
+	Starbelt: {
+		Tooltip:
+			'''
+			クリティカル攻撃でマナを回復
+			最大マナが40増加
+			魔法クリティカル率が10%増加
+			'''
+		DisplayName: スターベルト
+	}
+
+	SkywareBattery: {
+		Tooltip:
+			'''
+			ヴォイド再生量が2%、最大ヴォイドが50増加
+			ダメージを受けた際、受けたダメージの12%をヴォイドに変換する
+			防具損傷と霊液耐性
+			'''
+		DisplayName: スカイウェア電池
+	}
+
+	SkywardBlades: {
+		Tooltip:
+			'''
+			たくさんの投げナイフを装備する
+			スコアを決めるとダガーを回復する
+			「見てな！」
+			'''
+		DisplayName: スカイウォードブレード
+	}
+
+	SectionChiefsScythe: {
+		Tooltip:
+			'''
+			クリティカル攻撃が復讐のソウルを召喚する
+			10回目のヴォイド攻撃がレーザー型のソウルを発射する
+			近接の直接攻撃が毎秒3ダメージの最大10スタックの呪いを付与する
+			'''
+		DisplayName: 区画長の大鎌
+	}
+
+	Poyoyo: {
+		Tooltip: 虹の軌道を残し60%のダメージを与える
+		DisplayName: ポヨーヨー
+	}
+
+	PlatformGenerator: {
+		Tooltip:
+			'''
+			召喚ダメージが10%増加
+			あなたの左右に2個の足場を生成する
+			右クリックで足場をドラッグできるが常に左右対称になる
+			セントリーはこの足場の上に召喚できる
+			「セントリーを連れて行こう!」
+			'''
+		DisplayName: プラットフォームジェネレーター
+	}
+
+	LashesOfLightning: {
+		Tooltip:
+			'''
+			前方の狭いエリアに電光石火のごとく攻撃する
+			先端は壁を貫通し敵に少しだけ多くダメージを与える
+			'''
+		DisplayName: ライトニングラッシュ
+	}
+
+	InfernoHook: {
+		Tooltip: 敵を攻撃できる高速なフック
+		DisplayName: 地獄のフック
+	}
+
+	HardlightQuiver: {
+		Tooltip:
+			'''
+			ハードライトの矢を無限に撃てる
+			ハードライトの矢がより速く飛んでいき重力の影響を受けない
+			お気に入り登録すると矢がスーパーチャージされヴォイドを消費するようになる
+			スーパーチャージされた矢は即着弾し長距離で僅かに追尾するようになる
+			'''
+		DisplayName: ハードライトの矢筒
+	}
+
+	HardlightGlaive: {
+		Tooltip: 電撃のバーストを放ち160%のダメージを与える
+		DisplayName: ハードライトの矛
+	}
+
+	FlareDetonator: {
+		Tooltip: トリガーを放つと起爆する爆発する信号弾を発射する
+		DisplayName: フレアデトネーター
+	}
+
+	CrescentStaff: {
+		Tooltip: 敵に張り付きライフとマナを奪う三日月のウェーブを詠唱する
+		DisplayName: 三日月の杖
+	}
+
+	CodeCorrupter: {
+		Tooltip:
+			'''
+			低射程と長射程の爆風を発射する
+			低射程の爆風は70%の確率で敵を不安定に、長射程の爆風は30%の確率で敵を不安定にする
+			不安定になった敵はスタックごとに5%の確率でクリティカルヒットする
+			不安定化は無限にスタックできるがスタックの数ごとにスタックを付与する確率が下がっていく
+			'''
+		DisplayName: コードコラプター
+	}
+
+	ChainedPlasma: {
+		Tooltip:
+			'''
+			敵に連鎖し70%のダメージを与える
+			カーソル位置に向かって動こうとする
+			'''
+		DisplayName: チェーンプラズマ
+	}
+
+	CataclysmMusketPouch: {
+		Tooltip:
+			'''
+			無限にカタクリズム弾を撃てる
+			カタクリズム弾は通常の弾に比べ速く飛んでいきよりランダムな動きをする
+			当たった敵の周囲にいる敵にも20%のダメージを与える
+			お気に入り登録すると弾がスーパーチャージされヴォイドを消費するようになる
+			スーパーチャージされた矢は即着弾し弧を描くようになる
+			'''
+		DisplayName: カタクリズムマスケットポーチ
+	}
+
+	CataclysmDisc: {
+		Tooltip: 投射軌道の頂点でより多くのダメージを与え爆発し300%のダメージを与える
+		DisplayName: カタクリズムディスク
+	}
+
+	Calculator: {
+		Tooltip:
+			'''
+			共に戦うペットのアドバイザーを召喚する
+			敵を直接攻撃する代わりにエイムをアシストする
+			「本当に助けたいみたい！」
+			'''
+		DisplayName: 電卓
+	}
+
+	ArcStaffMk2: {
+		Tooltip:
+			'''
+			雷の球体を発射する
+			消滅時に爆発し体力が低い敵、ボス以外の敵に250%のダメージを与えるがボスには100%のダメージを与える
+			'''
+		DisplayName: アークスタッフMk2
+	}
+
+	ArclightOrbs: {
+		Tooltip: 爆発し80%のダメージを与える連鎖電撃を放つ雷のオーブをたくさん投げる
+		DisplayName: アークライトオーブ
+	}
+
+	TwilightGyroscope: {
+		Tooltip:
+			'''
+			ジャンプの高さと飛行速度が増加する
+			移動速度が20%増加
+			下を押すことで速く落下できる
+			落下ダメージに対する耐性
+			'''
+		DisplayName: トワイライトジャイロスコープ
+	}
+
+	MachinaBooster: {
+		Tooltip: 飛行と低速落下を可能にする
+		DisplayName: マキナブースター
+	}
+
+	PortalPlatingWall: {
+		Tooltip: ""
+		DisplayName: アヴァリティアプレートの壁
+	}
+
+	PortalPlating: {
+		Tooltip: ""
+		DisplayName: アヴァリティアのポータルプレート
+	}
+
+	HologlassWall: {
+		Tooltip: ""
+		DisplayName: ハードライトの壁
+	}
+
+	AvaritianPlating: {
+		Tooltip: ""
+		DisplayName: アヴァリティアプレート
+	}
+
+	WardingCharm: {
+		Tooltip: ""
+		DisplayName: 守りの護符
+	}
+
+	PlatinumSoulStaff: {
+		Tooltip: 同時に3体の敵からライフを吸収する
+		DisplayName: プラチナのソウルスタッフ
+	}
+
+	PlatinumScythe: {
+		Tooltip: 攻撃で毎秒3ダメージ与える最大10スタックの呪いを付与する
+		DisplayName: プラチナの大鎌
+	}
+
+	PlatinumDart: {
+		Tooltip: 敵にくっつく思いダーツを投げ敵の移動速度を大幅に下げる
+		DisplayName: プラチナのダーツ
+	}
+
+	PlatinumBattery: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加、最大ヴォイドが20増加
+			ダメージを受けた際、受けたダメージの10%をヴォイドに変換する
+			ヴォイドメーターが最大のときにダメージを受けると10%の確率で防具損傷が付与される可能性がある
+			'''
+		DisplayName: プラチナ電池
+	}
+
+	GoldGlaive: {
+		Tooltip: カーソルに向かって3つのボルトを発射しそれぞれ75%のダメージを与える
+		DisplayName: 金の矛
+	}
+
+	GoldChakram: {
+		Tooltip: 投射軌道の頂点でより多くダメージを与える
+		DisplayName: 金のチャクラム
+	}
+
+	GoldBattery: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加、最大ヴォイドが20増加
+			ダメージを受けた際、受けたダメージの10%をヴォイドに変換する
+			ヴォイドメーターが最大のときにダメージを受けると10%の確率で霊液が付与される可能性がある
+			'''
+		DisplayName: 金の電池
+	}
+
+	GoldArkStaff: {
+		Tooltip: 最初にダメージを受けた敵の周りの2体の敵に150%のダメージを与える
+		DisplayName: 金のアークスタッフ
+	}
+
+	SporeClub: {
+		Tooltip: 敵を混乱させることがある胞子を発射する
+		DisplayName: 胞子の棍棒
+	}
+
+	SporeBombs: {
+		Tooltip:
+			'''
+			爆発する胞子袋のまとまりを投げる
+			噴出した胞子は50%のダメージを与える
+			「この毒性のあるグレネードはほぼ食べれそうだ」
+			'''
+		DisplayName: 胞子爆弾
+	}
+
+	Scatterseed: {
+		Tooltip:
+			'''
+			敵にくっつくタネを撒き散らす
+			タネが芽生えた時125%のダメージを与える
+			'''
+		DisplayName: バラバラダネ
+	}
+
+	PricklyPearShield: {
+		Tooltip: 攻撃を受けると敵を毒状態にするサボテンのトゲを発射する
+		DisplayName: サボテン果実の盾
+	}
+
+	NatureSpell: {
+		Tooltip:
+			'''
+			敵にくっつくタネを撒き散らす
+			タネが芽生えた時500%のダメージを与える
+			'''
+		DisplayName: フラワースペル
+	}
+
+	NatureShirt: {
+		Tooltip: ミニオンの数だけ防御力が増加する
+		DisplayName: ワームウッドのシャツ
+	}
+
+	NatureLeggings: {
+		Tooltip: 召喚ダメージと移動速度が5%増加
+		DisplayName: ワームウッドのレギンス
+	}
+
+	NatureWreath: {
+		Tooltip: 最大ミニオン数が1増加
+		DisplayName: ワームウッドのリース
+	}
+
+	BotanicalSymbiote: {
+		Tooltip:
+			'''
+			日中にライフ自然再生が1増加する
+			すべてのミニオンに花のフックを取り付ける
+			'''
+		DisplayName: ボタニカルシンビオート
+	}
+
+	BiomassBlast: {
+		Tooltip: 敵かタイルに命中した時に成長が急加速するどんぐりを発射する
+		DisplayName: バイオマスブラスト
+	}
+
+	BiomassBarrage: {
+		Tooltip: どんぐりの集まりを発射する
+		DisplayName: バイオマスブルーム
+	}
+
+	BerryBombs: {
+		Tooltip: まとまった爆弾するベリーを投げる
+		DisplayName: ベリー爆弾
+	}
+
+	AcornBag: {
+		Tooltip: 共に戦うリスを召喚する
+		DisplayName: どんぐりバッグ
+	}
+
+	CurseMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ファラオの呪い)
+	}
+
+	SubspaceSerpentMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (亜空の大蛇)
+	}
+
+	PyramidBattleMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ピラミッドの戦い)
+	}
+
+	PutridPinkyMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (腐ったピンキー)
+	}
+
+	PolarisMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ポラリス)
+	}
+
+	PlanetariumMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (プラネタリウム)
+	}
+
+	LuxMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ルクス)
+	}
+
+	KnucklesMusicBox: {
+		Tooltip: 「自分の...を入れられる」
+		DisplayName: オルゴール (ナックルス)
+	}
+
+	AncientPyramidMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (呪われたピラミッド)
+	}
+
+	AdvisorMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (アドバイザー)
+	}
+
+	VorpalKnife: {
+		Tooltip:
+			'''
+			空中に留まる刃物を投げる
+			左クリックで起爆させ300%のダメージを与える
+			右クリックでテレポートし斬りつけて200%のダメージを与える
+			起爆位置やテレポート距離が遠くなるほどヴォイドをより多く消費する
+			'''
+		DisplayName: ヴォーパルナイフ
+	}
+
+	VoidTablet: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加、最大ヴォイドが50増加
+			ポーションから得られるライフが20減少する
+			'''
+		DisplayName: ヴォイドタブレット
+	}
+
+	VesperaNanDao: {
+		Tooltip:
+			'''
+			二回攻撃する
+			二回目の攻撃で石を撒き散らし70%のダメージを与える
+			'''
+		DisplayName: ヴェスペラの南刀
+	}
+
+	VesperaLongbow: {
+		Tooltip:
+			'''
+			射る前に引き絞る必要がある
+			矢が素早く飛んでいき砕け散り70%のダメージを与える
+			'''
+		DisplayName: ヴェスペラのロングボウ
+	}
+
+	VesperaFishingRod: {
+		Tooltip: 同時に2本の釣り糸をキャストできる
+		DisplayName: ヴェスペラの釣り竿
+	}
+
+	VesperaBreastplate: {
+		Tooltip: 最大ヴォイドが25増加、ヴォイドダメージが5%増加
+		DisplayName: ヴェスペラの胸当て
+	}
+
+	VesperaLeggings: {
+		Tooltip: 最大ヴォイドが25増加、移動速度が5%増加
+		DisplayName: ヴェスペラの脛当て
+	}
+
+	VesperaMask: {
+		Tooltip: 最大ヴォイドが25増加、ヴォイド再生量が1増加
+		DisplayName: ヴェスペラのマスク
+	}
+
+	WispInAJar: {
+		Tooltip:
+			'''
+			共に戦うインフェルノウィスプを召喚する
+			倒した敵が炎になり爆発して最後の一撃のダメージの30%にあたるダメージを与える
+			'''
+		DisplayName: 瓶詰めのウィスプ
+	}
+
+	TheBlaspha: {
+		Tooltip: 50%のダメージを与える追尾する残り火を放つ獄炎を宿した散弾を発射する
+		DisplayName: ブラスファー
+	}
+
+	Sharanga: {
+		Tooltip: スーパーチャージした獄炎の矢を発射する
+		DisplayName: シャランガ
+	}
+
+	PlasmaAccelerator: {
+		Tooltip: スーパーチャージしたプラズマの矢を発射する
+		DisplayName: プラズマ加速器
+	}
+
+	ObsidianEruption: {
+		Tooltip: ""
+		DisplayName: オブシディアンエラプション
+	}
+
+	IncineratorGlove: {
+		Tooltip:
+			'''
+			短射程の高温プラズマ弾をチャージする
+			チャージごとに40%ダメージが上昇する
+			最大で80までチャージ可能
+			発射前はダメージが半分になる
+			'''
+		DisplayName: 焼却のグローブ
+	}
+
+	BookOfVirtues: {
+		Tooltip:
+			'''
+			近くの敵から保護するスペクトラルウィスプを召喚する
+			ウィスプは75%の接触ダメージを与えレーザーで100%のダメージを与える
+			'''
+		DisplayName: 美徳の書
+	}
+
+	BlazingQuiver: {
+		Tooltip:
+			'''
+			遠距離ダメージが10%増加し矢の速度が大幅に増加
+			20%の確率で矢を消費しない
+			木の矢を燃え盛る矢に変換する
+			燃え盛る矢は重力を無視し1体の敵を貫通しその後爆発し15%のダメージを与える
+			'''
+		DisplayName: 燃え盛る矢筒
+	}
+
+	BlazingClub: {
+		Tooltip:
+			'''
+			棘付き地雷を空中に配置する
+			右クリックで代わりに発射する
+			地雷はその場にとどまり爆発し破片を拡散させ10%のダメージを与える
+			壁登り関係のアクセサリーを装備するとより多く地雷を配置できる
+			'''
+		DisplayName: 燃え盛る棍棒
+	}
+
+	SOTSAmberGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのコハクの宝石錠
+	}
+
+	SOTSDiamondGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのダイヤモンドの宝石錠
+	}
+
+	SOTSAmethystGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのアメジストの宝石錠
+	}
+
+	SOTSTopazGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのトパーズの宝石錠
+	}
+
+	SOTSEmeraldGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのエメラルドの宝石錠
+	}
+
+	SOTSSapphireGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのサファイアの宝石錠
+	}
+
+	SOTSRubyGemLock: {
+		Tooltip: ""
+		DisplayName: ヴェスペラのルビーの宝石錠
+	}
+
+	TopazRing: {
+		Tooltip: 敵を倒すとランダムなバフを30秒間付与する
+		DisplayName: 告発する者の指輪
+	}
+
+	SapphireRing: {
+		Tooltip: ヴォイドを回復時にコインを生成する
+		DisplayName: マモンの指輪
+	}
+
+	RubyRing: {
+		Tooltip:
+			'''
+			倒した敵が50%の確率で追加のハートを落とす
+			ドロップ率はクリティカル率により100%まで増加する
+			ハートを回収すると現在有効なバフの残り時間が増える
+			'''
+		DisplayName: バアルゼブブの指輪
+	}
+
+	EmeraldRing: {
+		Tooltip: 敵が14.3%の確率で2倍アイテムをドロップする
+		DisplayName: レヴィアタンの指輪
+	}
+
+	DiamondRing: {
+		Tooltip: ダメージが (defense)% 増加する
+		DisplayName: 光をもたらす者の指輪
+	}
+
+	AmethystRing: {
+		Tooltip: ブロックを採掘した際に連鎖し最大50個のブロックを破壊する
+		DisplayName: ベルフェゴールの指輪
+	}
+
+	AmberRing: {
+		Tooltip: ダメージを受けるとランダムなバフを30秒間獲得する
+		DisplayName: アスモデウスの指輪
+	}
+
+	HydraulicPress: {
+		Tooltip:
+			'''
+			中に侵入した敵を自動的に押しつぶす
+			プレイヤーもダメージを受ける
+			'''
+		DisplayName: 油圧プレス
+	}
+
+	Mineralarium: {
+		Tooltip:
+			'''
+			大気と虚空の微粒子を使い鉱石を実体化する
+			鉱石は手動で掘る必要がある
+			台の上に鉱石がない場合はランダムな鉱石が実体化される
+			台の上に1種類の鉱石が存在する場合、それを実体化させ続ける
+			台が塞がれているか複数の鉱石が置かれている場合は鉱石が実体化されない
+			複数のミネラリウムを積み上げることで一番上のミネラリウムを加速させる
+			'''
+		DisplayName: ミネラリウム
+	}
+
+	NatureHydroponics: {
+		Tooltip:
+			'''
+			複数種類の錬金に使用するハーブを自動的に成長させる
+			右クリックすると完全に成長したハーブをすべて収穫できる
+			いかなる時間、天候でも植物を収穫できる
+			'''
+		DisplayName: 自然プレートの水耕栽培装置
+	}
+
+	PermafrostPlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの足場
+	}
+
+	PermafrostPlatingCapsule: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートのカプセル
+	}
+
+	PermafrostPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレートの防爆ドア
+	}
+
+	NaturePlatingPlatform: {
+		Tooltip: ""
+		DisplayName: 自然プレートの足場
+	}
+
+	NaturePlatingCapsule: {
+		Tooltip: ""
+		DisplayName: 自然プレートのカプセル
+	}
+
+	NaturePlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 自然プレートの防爆ドア
+	}
+
+	EarthenPlatingBlastDoor: {
+		Tooltip: ""
+		DisplayName: 大地プレートの防爆ドア
+	}
+
+	AncientGoldWorkbench: {
+		Tooltip: ""
+		DisplayName: 古代の金の作業台
+	}
+
+	AncientGoldThrone: {
+		Tooltip: 「とても古い王にぴったりの玉座」
+		DisplayName: 古代の金の玉座
+	}
+
+	AncientGoldTable: {
+		Tooltip: ""
+		DisplayName: 古代の金のテーブル
+	}
+
+	AncientGoldPlatform: {
+		Tooltip: ""
+		DisplayName: 古代の金の足場
+	}
+
+	AncientGoldDresser: {
+		Tooltip: ""
+		DisplayName: 古代の金のドレッサー
+	}
+
+	AncientGoldDoor: {
+		Tooltip: ""
+		DisplayName: 古代の金のドア
+	}
+
+	AncientGoldCouch: {
+		Tooltip: ""
+		DisplayName: 古代の金のソファ
+	}
+
+	AncientGoldChair: {
+		Tooltip: ""
+		DisplayName: 古代の金のイス
+	}
+
+	AncientGoldCandle: {
+		Tooltip: ""
+		DisplayName: 古代の金のろうそく
+	}
+
+	AncientGoldCandelabra: {
+		Tooltip: ""
+		DisplayName: 古代の金のランプ
+	}
+
+	AncientGoldCampfire: {
+		Tooltip: ""
+		DisplayName: 永遠の暖炉
+	}
+
+	AncientGoldBed: {
+		Tooltip: 「王に相応しい昼寝場所」
+		DisplayName: 古代の金のベッド
+	}
+
+	TerminalCluster: {
+		Tooltip:
+			'''
+			インベントリ内に存在する時以下の効果が発動する:
+			奔流
+			深影
+			奈落
+			光輝
+			'''
+		DisplayName: ターミナルクラスター
+	}
+
+	PrecariousCluster: {
+		Tooltip:
+			'''
+			インベントリ内に存在する時以下の効果が発動する:
+			自然
+			大地
+			極光
+			異界
+			「友達のインベントリへのプレゼントにピッタリ!」
+			'''
+		DisplayName: 原始のクラスター
+	}
+
+	UltimatePolarizer: {
+		Tooltip:
+			'''
+			ダメージ、ダメージ軽減、移動速度が3%増加
+			最大ライフ、マナ、ヴォイドが20増加
+			ジャンプ速度、ライフ自然再生、ヴォイド再生量が2増加
+			インベントリ内の融解するエレメントの効果を変更する
+			'''
+		DisplayName: 究極のポラライザー
+	}
+
+	ExoticPolarizer: {
+		Tooltip:
+			'''
+			ジャンプ速度、ライフ自然再生、ヴォイド再生量が2増加
+			インベントリ内の融解するエレメントの効果を変更する
+			'''
+		DisplayName: エキゾチックポラライザー
+	}
+
+	ThermalPolarizer: {
+		Tooltip:
+			'''
+			最大ライフ、マナ、ヴォイドが20増加
+			インベントリ内の融解するエレメントの効果を変更する
+			'''
+		DisplayName: サーマルポラライザー
+	}
+
+	WorldlyPolarizer: {
+		Tooltip:
+			'''
+			ダメージ、ダメージ軽減、移動速度が3%増加
+			インベントリ内の融解するエレメントの効果を変更する
+			'''
+		DisplayName: ワールドポラライザー
+	}
+
+	UltimatePlating: {
+		Tooltip: ""
+		DisplayName: 究極プレート
+	}
+
+	InfernoPlating: {
+		Tooltip: ""
+		DisplayName: 地獄プレート
+	}
+
+	ChaosPlating: {
+		Tooltip: ""
+		DisplayName: 混沌プレート
+	}
+
+	EvilPlating: {
+		Tooltip: ""
+		DisplayName: 邪悪プレート
+	}
+
+	TidePlating: {
+		Tooltip: ""
+		DisplayName: 潮流プレート
+	}
+
+	OtherworldPlating: {
+		Tooltip: ""
+		DisplayName: 異世界プレート
+	}
+
+	PermafrostPlating: {
+		Tooltip: ""
+		DisplayName: 永久凍結プレート
+	}
+
+	EarthenPlating: {
+		Tooltip: ""
+		DisplayName: 大地プレート
+	}
+
+	NaturePlating: {
+		Tooltip: ""
+		DisplayName: 自然プレート
+	}
+
+	FragmentOfInferno: {
+		Tooltip: ""
+		DisplayName: 地獄のかけら
+	}
+
+	FragmentOfChaos: {
+		Tooltip: ""
+		DisplayName: 混沌のかけら
+	}
+
+	FragmentOfEvil: {
+		Tooltip: ""
+		DisplayName: 邪悪のかけら
+	}
+
+	FragmentOfOtherworld: {
+		Tooltip: ""
+		DisplayName: 異世界のかけら
+	}
+
+	FragmentOfTide: {
+		Tooltip: ""
+		DisplayName: 潮流のかけら
+	}
+
+	FragmentOfPermafrost: {
+		Tooltip: ""
+		DisplayName: 永久凍結のかけら
+	}
+
+	FragmentOfEarth: {
+		Tooltip: ""
+		DisplayName: 大地のかけら
+	}
+
+	FragmentOfNature: {
+		Tooltip: ""
+		DisplayName: 自然のかけら
+	}
+
+	DissolvingUmbraBlock: {
+		Tooltip: ""
+		DisplayName: 深影ブロック
+	}
+
+	DissolvingNetherBlock: {
+		Tooltip: ""
+		DisplayName: 奈落ブロック
+	}
+
+	DissolvingNatureBlock: {
+		Tooltip: ""
+		DisplayName: 自然ブロック
+	}
+
+	DissolvingBrilliance: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する光輝
+	}
+
+	DissolvingNether: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する奈落
+	}
+
+	DissolvingUmbra: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する深影
+	}
+
+	DissolvingAether: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する天霊
+	}
+
+	DissolvingDeluge: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する奔流
+	}
+
+	DissolvingAurora: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する極光
+	}
+
+	DissolvingEarth: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する大地
+	}
+
+	DissolvingNature: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する自然
+	}
+
+	DissolvingElement: {
+		Tooltip: Temporary Tooltip
+		DisplayName: 融解する自然
+	}
+
+	DissolvingEarthBlock: {
+		Tooltip: ""
+		DisplayName: 大地ブロック
+	}
+
+	DissolvingDelugeBlock: {
+		Tooltip: ""
+		DisplayName: 奔流ブロック
+	}
+
+	DissolvingBrillianceBlock: {
+		Tooltip: ""
+		DisplayName: 光輝ブロック
+	}
+
+	DissolvingAuroraBlock: {
+		Tooltip: ""
+		DisplayName: 極光ブロック
+	}
+
+	DissolvingAetherBlock: {
+		Tooltip: ""
+		DisplayName: 紫の奈落ブロック
+	}
+
+	Shattershine: {
+		Tooltip:
+			'''
+			敵に命中時を火花を散らしそれぞれ60%のダメージを与える
+			振り回し中は火花を散らさない
+			'''
+		DisplayName: シャッターシャイン
+	}
+
+	NorthStar: {
+		Tooltip: 70%のダメージを与え、爆発して210%のダメージを与える北極星を呼び出す
+		DisplayName: 北極星
+	}
+
+	Aten: {
+		Tooltip:
+			'''
+			70%のダメージを与え、爆発して140%のダメージを与える星を呼び出す
+			「滅びた神...今やフレイルの姿となった」
+			'''
+		DisplayName: アテン
+	}
+
+	PyramidCrate: {
+		Tooltip: <right>で開く
+		DisplayName: ピラミッドの箱
+	}
+
+	ZephyrousZeppelin: {
+		Tooltip: 75%のダメージを与える高圧の水に覆われている
+		DisplayName: ゼフィロス・ツェッペリン
+	}
+
+	TinyPlanetFish: {
+		Tooltip: ""
+		DisplayName: ワクセイウオ
+	}
+
+	SeaSnake: {
+		Tooltip: 「実際は毒を持たない」
+		DisplayName: ウミヘビ
+	}
+
+	PhantomFish: {
+		Tooltip: 「虚空のエネルギーを吸収し育つ」
+		DisplayName: マボロシウオ
+	}
+
+	Curgeon: {
+		Tooltip: 腹を割ることで貴重な卵を回収できる
+		DisplayName: ノロイチョウザメ
+	}
+
+	WitchHeart: {
+		Tooltip:
+			'''
+			クリティカル率が5%増加
+			クリティカル攻撃が悪夢の手を呼び出し10%のダメージを与え敵同士を引き寄せる
+			6秒のクールダウンがある
+			最大ライフが20増加
+			'''
+		DisplayName: 魔女の心臓
+	}
+
+	Vertebraeker: {
+		Tooltip: 連続で攻撃したあと120%のダメージを与える回転するブレードを投げる
+		DisplayName: 脊骨斬
+	}
+
+	ToothAche: {
+		Tooltip: 3連続攻撃した後、80%のダメージを与える回転するブレードを投げる
+		DisplayName: 歯痛刀
+	}
+
+	TomeOfTheReaper: {
+		Tooltip: カーソルに向かって飛ぶ3つの鎌を詠唱する
+		DisplayName: 死神の書
+	}
+
+	MidnightPrism: {
+		Tooltip:
+			'''
+			防御貫通力が8増加、クリティカル率が5%増加、最大ライフが40増加
+			最大で防御力を16無視するダメージウェーブを定期的に放出する
+			低体力時にはより多く放出する
+			クリティカル攻撃が悪夢の手を呼び出し10%のダメージを与え敵同士を引き寄せる
+			6秒のクールダウンがある
+			非表示中はウェーブがオフになる
+			'''
+		DisplayName: ミッドナイトプリズム
+	}
+
+	DeathSpiral: {
+		Tooltip:
+			'''
+			光る触手が周りに現れる
+			スタックする1秒間で5ダメージを与える出血を付与する可能性がある
+			'''
+		DisplayName: デススパイラル
+	}
+
+	AbyssalFury: {
+		Tooltip: カーソル位置に向かって空からシャドウブレードを降らせる
+		DisplayName: アビサルフューリー
+	}
+
+	PixelBlaster: {
+		Tooltip: 敵を溶かすビームを発射し毎秒60ダメージ与える
+		DisplayName: ピクセルブラスター
+	}
+
+	VibrantLeggings: {
+		Tooltip: ヴォイド消費が10%減少
+		DisplayName: 光彩の脛当て
+	}
+
+	VibrantHelmet: {
+		Tooltip:
+			'''
+			最大ヴォイドが50増加
+			遠距離クリティカル率が5%増加
+			'''
+		DisplayName: 光彩のヘルメット
+	}
+
+	VibrantChestplate: {
+		Tooltip: ヴォイドダメージが10%増加、遠距離ダメージが5%増加
+		DisplayName: 光彩のチェストプレート
+	}
+
+	VibrantStaff: {
+		Tooltip: 追尾ボルトを発射する
+		DisplayName: 光彩の杖
+	}
+
+	VibrantPistol: {
+		Tooltip: バイブラントボルトを連射する
+		DisplayName: 光彩のピストル
+	}
+
+	VibrantCannon: {
+		Tooltip: ""
+		DisplayName: 光彩キャノン
+	}
+
+	VibrantBlade: {
+		Tooltip: ""
+		DisplayName: 光彩ブレード
+	}
+
+	VibrantArrow: {
+		Tooltip: 命中地点の下に3個の破片を飛ばして120%のダメージを与える
+		DisplayName: 光彩の矢
+	}
+
+	VibrantBullet: {
+		Tooltip:
+			'''
+			3個の破片に分裂する
+			1個の破片はまっすぐ飛んでいき100%のダメージを与える
+			その他の破片は25%のダメージを与える
+			'''
+		DisplayName: 光彩弾
+	}
+
+	VibrantWall: {
+		Tooltip: ""
+		DisplayName: 不安定な光彩鉱石の壁
+	}
+
+	VibrantBrick: {
+		Tooltip: ""
+		DisplayName: 光彩レンガ
+	}
+
+	VibrantBar: {
+		Tooltip: ""
+		DisplayName: 光彩合金
+	}
+
+	VibrantOre: {
+		Tooltip: ""
+		DisplayName: 光彩のかけら
+	}
+
+	SporeSprayer: {
+		Tooltip: 矢の着弾地点に66%のダメージを与える胞子雲を噴射する
+		DisplayName: スポアスプレイヤー
+	}
+
+	MarbleDefender: {
+		Tooltip: ジャヴェリンが攻撃者を跳ね飛ばす
+		DisplayName: 大理石の防護盾
+	}
+
+	HarvestersScythe: {
+		Tooltip:
+			'''
+			クリティカルダメージが20%増加
+			倒した敵が10%の確率、クリティカル攻撃では20%の確率で2倍のアイテムをドロップする
+			'''
+		DisplayName: 収穫者の鎌
+	}
+
+	GraniteProtector: {
+		Tooltip: 受けるダメージを6%軽減する
+		DisplayName: 御影石の防御盤
+	}
+
+	Geostorm: {
+		Tooltip: カーソルの位置にクリスタルで爆撃する
+		DisplayName: ジオストーム
+	}
+
+	EchoDisk: {
+		Tooltip: 最初の発射物の鏡像を発射する
+		DisplayName: 反響ディスク
+	}
+
+	Colossus: {
+		Tooltip:
+			'''
+			三連続攻撃する
+			最後の一撃で120%のダメージを与える
+			全ての斬撃で残り体力が多い敵には三倍のダメージを与える
+			'''
+		DisplayName: コロッサス
+	}
+
+	BigCrystal: {
+		Tooltip: ""
+		DisplayName: 大きなクリスタル
+	}
+
+	SuspiciousLookingCandle: {
+		Tooltip: 輝くキノコバイオームでグロウモスを召喚する
+		DisplayName: 怪しい見た目のキャンドル
+	}
+
+	TorchGun: {
+		Tooltip:
+			'''
+			右クリックで松明爆弾を発射する
+			ジェルを弾薬として消費する
+			'''
+		DisplayName: トーチガン
+	}
+
+	TorchBomb: {
+		Tooltip: 「色とりどりな爆弾で夜を照らそう！」
+		DisplayName: 松明爆弾
+	}
+
+	GlowmothBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	NightIlluminator: {
+		Tooltip:
+			'''
+			敵を襲うニ匹の光り輝く蛾を召喚する
+			右クリックで蛾をカーソル位置に呼び寄せる
+			'''
+		DisplayName: ナイトイルミネーター
+	}
+
+	IlluminantStaff: {
+		Tooltip:
+			'''
+			光り輝くオーブを発射する
+			光り輝くオーブは消滅時に近くの敵に向かって破片を飛ばす
+			'''
+		DisplayName: 光り輝く杖
+	}
+
+	IlluminantBow: {
+		Tooltip: 敵に向かって四つの矢を降らせる光り輝く蛾を発射する
+		DisplayName: 光り輝く弓
+	}
+
+	IlluminantAxe: {
+		Tooltip:
+			'''
+			遊泳するエネルギーの電撃を放ち60%のダメージを与える
+			右クリックで斧を投擲する 斧は壁にひっつく
+			右クリックをもう一度押して手元に戻す
+			'''
+		DisplayName: 光り輝く斧
+	}
+
+	IlluminantLantern: {
+		Tooltip:
+			'''
+			光源の強度が大幅に増加
+			ヴォイドダメージが5%増加
+			'''
+		DisplayName: 光り輝くランタン
+	}
+
+	GuideToIllumination: {
+		Tooltip: 敵に与える最初の一撃で火花をちらしスタンさせ10ダメージ与える
+		DisplayName: イルミネーションガイド
+	}
+
+	GlowSpores: {
+		Tooltip:
+			'''
+			ポーションから得られるマナが40増加
+			魔法クリティカル率が5%増加
+			'''
+		DisplayName: 発光する胞子
+	}
+
+	GlowNylon: {
+		Tooltip: ""
+		DisplayName: 発光するナイロン
+	}
+
+	GlowSilk: {
+		Tooltip: ""
+		DisplayName: 発光するクモの糸
+	}
+
+	TaintedPrismDye: {
+		Tooltip: ""
+		DisplayName: 霞んだプリズムの染料
+	}
+
+	BandOfDoor: {
+		Tooltip: 「ドアを開いて究極の旅をしよう」
+		DisplayName: ドアのバンド
+	}
+
+	DoorPants: {
+		Tooltip:
+			'''
+			ドアを通り抜けると水平に加速する
+			室内にいると加速する
+			'''
+		DisplayName: ドアパンツ
+	}
+
+	WormWoodCollapse: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが500%まで上昇する
+			最大チャージまでは3秒かかる
+			'''
+		DisplayName: グープウッドコラプス
+	}
+
+	SpiderCrusher: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが180%まで上昇する
+			あたった敵がスロウになるクモ糸を発射する
+			チャージされるとより多く発射される
+			最大チャージまでは2.5秒かかる
+			「これは本当にカシコイね」
+			'''
+		DisplayName: ハエ取り
+	}
+
+	SoulEater: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが1000%まで上昇する
+			最大チャージまでは2.5秒かかる
+			敵を倒すとマナとヴォイドを再生する
+			'''
+		DisplayName: ソウルイーター
+	}
+
+	Pulverizer: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが500%まで上昇する
+			最初のチャージはヴォイドを消費しない
+			最大チャージまでは3秒かかる
+			レーザーは合計ダメージの60%を与える
+			'''
+		DisplayName: 破砕機
+	}
+
+	MantisGrip: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが500%まで上昇する
+			最初のチャージはヴォイドを消費しない
+			最大チャージまでは4秒かかる
+			'''
+		DisplayName: マンティスグリップ
+	}
+
+	IrradiatedChainReactor: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが500%まで上昇する
+			50%のダメージを与える菌糸を発射する
+			最大チャージまでは1.66秒かかる
+			'''
+		DisplayName: 核連鎖反応発生装置
+	}
+
+	Hellbreaker: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが600%まで上昇する
+			最大チャージまでは4.5秒かかる
+			'''
+		DisplayName: ヘルブレイカー
+	}
+
+	DuneSplicer: {
+		Tooltip:
+			'''
+			低射程かつ大量の追尾するトゲを発射する
+			チャージし続けることでダメージが350%まで上昇する
+			最大チャージまでは4秒かかる
+			'''
+		DisplayName: デューンスプライサー
+	}
+
+	CrushingTransformer: {
+		Tooltip:
+			'''
+			近接攻撃速度が8%増加
+			クラッシャーのチャージ速度が12%増加
+			'''
+		DisplayName: 粉砕変圧器
+	}
+
+	CrushingResistor: {
+		Tooltip: クラッシャーの二段階目のチャージが33%の確率でヴォイドを消費しない
+		DisplayName: 粉砕抵抗
+	}
+
+	CrushingCapacitor: {
+		Tooltip: クラッシャーの四段階目のチャージでヴォイドを消費しなくなる
+		DisplayName: 粉砕キャパシタ
+	}
+
+	CrushingAmplifier: {
+		Tooltip:
+			'''
+			クラッシャーの射程が1増加
+			近接ダメージが5%増加
+			'''
+		DisplayName: 粉砕アンプ
+	}
+
+	CrabClaw: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが800%まで上昇する
+			最大チャージまでは4秒かかる
+			'''
+		DisplayName: カニ爪
+	}
+
+	CircuitBoard: {
+		Tooltip:
+			'''
+			クラッシャーの二段階目のチャージが33%の確率でヴォイドを消費しない
+			クラッシャーの四段階目のチャージでヴォイドを消費しなくなる
+			クラッシャーの射程が1増加
+			近接攻撃速度と近接ダメージが5%増加
+			クラッシャーのチャージ速度が10%増加
+			'''
+		DisplayName: 回路基板
+	}
+
+	CardiacCollapse: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが800%まで上昇する
+			最大チャージまでは3.5秒かかる
+			敵を倒すとライフを再生する
+			'''
+		DisplayName: カーディアックコラプス
+	}
+
+	BoneClapper: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが450%まで上昇する
+			最大チャージまでは2秒かかる
+			'''
+		DisplayName: 骨たたき
+	}
+
+	AquaticEclipse: {
+		Tooltip:
+			'''
+			チャージし続けることでダメージが700%まで上昇する
+			最大チャージまでは3秒かかる
+			壁を貫通する
+			10%のダメージを与える泡が吹き出す
+			'''
+		DisplayName: エクリプス
+	}
+
+	SnakeEyes: {
+		Tooltip: クリティカル率が7%増加
+		DisplayName: スネークアイ
+	}
+
+	HellfireIcosahedron: {
+		Tooltip:
+			'''
+			クリティカル攻撃が爆炎を引き起こし、100%のダメージを与える
+			クリティカル率が1%増加
+			'''
+		DisplayName: 獄炎の十二面体
+	}
+
+	CursedIcosahedron: {
+		Tooltip:
+			'''
+			クリティカル攻撃が呪いの雷撃を放ち、100%のダメージを与える
+			クリティカル攻撃が凍結爆発か爆炎を引き起こし、100%のダメージを与える
+			クリティカル率が2%増加
+			'''
+		DisplayName: 呪われた十二面体
+	}
+
+	BorealisIcosahedron: {
+		Tooltip:
+			'''
+			クリティカル攻撃が凍結爆発を引き起こし、200%のダメージを与える
+			クリティカル率が1%増加
+			'''
+		DisplayName: 雪の十二面体
+	}
+
+	FocusReticle: {
+		Tooltip:
+			'''
+			クリティカル率が20%増加
+			クリティカル攻撃で40多くダメージを与える
+			毒と出血に対する耐性
+			'''
+		DisplayName: 焦点レティクル
+	}
+
+	EyeOfChaos: {
+		Tooltip: クリティカル率が18%増加
+		DisplayName: カオスの目
+	}
+
+	BagOfCharms: {
+		Tooltip:
+			'''
+			クリティカル率が5%増加
+			クリティカル攻撃で敵を起爆し100%のダメージを与える
+			クリティカル攻撃がライフを吸収、ヴォイドを再生、マナを回復する
+			'''
+		DisplayName: チャームバッグ
+	}
+
+	SoulCharm: {
+		Tooltip:
+			'''
+			クリティカル攻撃がライフを吸収、ヴォイドを再生、マナを回復する
+			クリティカル率が2%増加
+			'''
+		DisplayName: ソウルチャーム
+	}
+
+	VoidCharm: {
+		Tooltip:
+			'''
+			クリティカル率が50%の確率でヴォイドを再生する
+			クリティカル率が1%増加
+			'''
+		DisplayName: ヴォイドチャーム
+	}
+
+	CloverCharm: {
+		Tooltip:
+			'''
+			クリティカル率が50%の確率でライフを吸収する
+			クリティカル率が1%増加
+			'''
+		DisplayName: クローバーチャーム
+	}
+
+	ChaosBadge: {
+		Tooltip: クリティカル率が9%増加
+		DisplayName: カオスバッジ
+	}
+
+	FocusCrystal: {
+		Tooltip:
+			'''
+			クリティカル攻撃で40多くダメージを与える
+			クリティカル率が4%増加
+			毒と出血に対する耐性
+			'''
+		DisplayName: 焦点クリスタル
+	}
+
+	PolishedCoin: {
+		Tooltip:
+			'''
+			クリティカル攻撃が50%の確率で30多くダメージを与える
+			クリティカル率が2%増加
+			毒と出血に対する耐性
+			'''
+		DisplayName: 磨かれたコイン
+	}
+
+	PutridCoin: {
+		Tooltip:
+			'''
+			クリティカル攻撃が50%の確率で20多くダメージを与える
+			ダメージを受けると50%の確率で毒状態になる
+			'''
+		DisplayName: 腐敗したコイン
+	}
+
+	BloodstainedCoin: {
+		Tooltip:
+			'''
+			クリティカル攻撃が50%の確率で20多くダメージを与える
+			ダメージを受けると50%の確率で出血するようになる
+			'''
+		DisplayName: 血塗られたコイン
+	}
+
+	OtherworldlyAmplifier: {
+		Tooltip: クリティカル攻撃がダメージを8多く与える
+		DisplayName: 異世界の増幅装置
+	}
+
+	VoidAnomaly: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加、ヴォイド再生速度が5%増加
+			攻撃を受けるとヴォイドをライフに一定時間変換する
+			ヴォイドショックとヴォイドリカバリーの効力が増加する
+			ワームホールクラフトのレシピがアンロックされる
+			'''
+		DisplayName: ヴォイドアノマリー
+	}
+
+	SkipScythe: {
+		Tooltip:
+			'''
+			スタックする毎秒2ダメージを与え敵によって与えられたダメージが2%増加する呪いを付与する
+			50%のダメージを与え、20%の確率で呪いを付与する波動を発射する
+			'''
+		DisplayName: セレネ
+	}
+
+	SkipBullet: {
+		Tooltip: 命中した敵の真下に飛んでいく
+		DisplayName: ワームホール弾
+	}
+
+	SkipArrow: {
+		Tooltip: 命中した敵の真下に飛んでいく
+		DisplayName: ワームホールの矢
+	}
+
+	SkipShot: {
+		Tooltip:
+			'''
+			3本の矢を放つ
+			木の矢をワームホールの矢に変換する
+			'''
+		DisplayName: スキップショット
+	}
+
+	SkipSoul: {
+		Tooltip: 「奇妙なヴォイドエネルギーの欠片」
+		DisplayName: スキップソウル
+	}
+
+	SkipShard: {
+		Tooltip: 「空間を曲げる能力を持つクリスタル」
+		DisplayName: スキップシャード
+	}
+
+	AnomalyLocator: {
+		Tooltip:
+			'''
+			電磁トランスミッション、ワームホール、テレポートされたアイテムなどのアノマリーをマップに表示させる
+			アクセサリー枠または衣装枠に装備するか、インベントリでお気に入りすると機能する
+			'''
+		DisplayName: アノマリーロケーター
+	}
+
+	GoldenTrowel: {
+		Tooltip:
+			'''
+			採掘されたブロックから一定確率でコインや沈泥などの追加の素材がドロップされる
+			採掘速度が5%増加
+			'''
+		DisplayName: 金のこて
+	}
+
+	EarthenConduit: {
+		Tooltip:
+			'''
+			不完全な大地エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの大地エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 大地の伝導管
+	}
+
+	NatureConduit: {
+		Tooltip:
+			'''
+			不完全な自然エネルギーの再送装置:補助シャーシが欠損している
+			完全にチャージされると、近くの自然エネルギーをエネルギー庫に集中させる
+			'''
+		DisplayName: 自然の伝導管
+	}
+
+	ConduitChassis: {
+		Tooltip: 伝導管の外郭を完成させ、エネルギーの再送を可能にする
+		DisplayName: 伝導管シャーシ
+	}
+
+	ArchaeologistToolbelt: {
+		Tooltip:
+			'''
+			ブロック設置範囲とツール効果範囲が3増加
+			伝導管を配置し破壊できるようになる
+			伝導管アイテムの収集範囲が増加
+			'''
+		DisplayName: 考古学者のツールベルト
+	}
+
+	WingedKnife: {
+		Tooltip: ""
+		DisplayName: 翼付きナイフ
+	}
+
+	TinyPlanet: {
+		Tooltip: 2つの周回する発射物があなたの周りを回る
+		DisplayName: タイニープラネット
+	}
+
+	TangleStaff: {
+		Tooltip:
+			'''
+			敵を捕縛する花を発射する
+			捕らえられた敵はスローになりライフが吸収される
+			捕らえた敵ごとにライフ再生速度が上昇する
+			'''
+		DisplayName: 絡まりの杖
+	}
+
+	SyntheticLiver: {
+		Tooltip:
+			'''
+			食べ物から得られるヴォイドが25%増加する
+			ポーションを複数回使うとバフタイマーをリセットする代わりに効果を延長する
+			デバフ時間がより速く終わるようになり、全てのバフの効果時間が伸びる
+			'''
+		DisplayName: 合成肝臓
+	}
+
+	StarcallerStaff: {
+		Tooltip:
+			'''
+			共に戦うクリスタルサーペントを召喚する
+			クリスタルサーペントは敵の周りを周回し敵に向かって星を放つ
+			'''
+		DisplayName: スターコーラーの杖
+	}
+
+	SpikedClub: {
+		Tooltip:
+			'''
+			まきびしを振りまく
+			壁登り関連のアクセサリーを付けているとより多く振りまく
+			'''
+		DisplayName: 鋲付き棍棒
+	}
+
+	ShieldofStekpla: {
+		Tooltip:
+			'''
+			埋まっているインベントリスロット4つ毎にクリティカル率が1%上がる
+			「多いは多い」
+			'''
+		DisplayName: ステクプラの盾
+	}
+
+	ShieldofDesecar: {
+		Tooltip:
+			'''
+			インベントリの空きスロット4つ毎に防御力が1上がる
+			「少ないは多い」
+			'''
+		DisplayName: デセカーの盾
+	}
+
+	Sawflake: {
+		Tooltip: 全ての方向からスパイラル状の氷の霧を放出するユキノコギリを投げる
+		DisplayName: ユキノコギリ
+	}
+
+	RockCandy: {
+		Tooltip:
+			'''
+			採掘パワーが5増加
+			採掘速度、近接速度、移動速度が5%増加
+			'''
+		DisplayName: ロックキャンディ
+	}
+
+	RebarRifle: {
+		Tooltip: スタックする1秒間で5ダメージを与える出血を付与する超強力、超ハイスピードの鉄筋を発射する
+		DisplayName: 鉄筋ライフル
+	}
+
+	PerfectStar: {
+		Tooltip: 「パーフェクトな武器」
+		DisplayName: パーフェクトスター
+	}
+
+	PathogenRegurgitator: {
+		Tooltip:
+			'''
+			病原体の玉を発射する
+			敵を感染させ1秒ごとに12ダメージ与える
+			感染した敵が倒されるとさらに病原体の玉を生成する
+			'''
+		DisplayName: 病原体逆流剤
+	}
+
+	KelpWhip: {
+		Tooltip:
+			'''
+			ミニオンがタグ付けした敵にクリティカルヒットするが、クリティカルには2秒のクールダウンがある
+			ミニオンが攻撃した敵を集中攻撃する
+			'''
+		DisplayName: コンブの鞭
+	}
+
+	GlazeBow: {
+		Tooltip:
+			'''
+			氷の霧を凝結させ矢を強化する
+			わずかにチャージされた場合、矢がより速く飛び着弾時200%のダメージを与える氷の爆発を起こす
+			完全にチャージされた場合、矢が氷のウィスプとなり600%のダメージを与える
+			'''
+		DisplayName: グレイズボウ
+	}
+
+	CoconutGun: {
+		Tooltip:
+			'''
+			追尾するココナッツミルクの水しぶきになるココナッツのクラスター爆弾を発射する
+			「コイツは噴射するぜ」
+			'''
+		DisplayName: ココナッツガン
+	}
+
+	BetrayersKnife: {
+		Tooltip:
+			'''
+			二回攻撃し、一撃目で敵を必ず出血させる
+			二撃目は150%のダメージを与える
+			'''
+		DisplayName: 裏切り者のナイフ
+	}
+
+	BagOfAmmoGathering: {
+		Tooltip:
+			'''
+			20%の確率で弾薬を消費しなくなる
+			敵を攻撃時に確率で弾薬が返還される
+			敵に最後の一撃を与えると弾薬を返還する
+			'''
+		DisplayName: 弾薬収集袋
+	}
+
+	SpiritInsignia: {
+		Tooltip:
+			'''
+			ロケットブーツと翼で無限に飛行できる
+			飛行とジャンブの機動力が上昇
+			ヴォイド再生量が1増加、ヴォイド再生速度が25%増加
+			ルクス以外の精霊に与えるダメージが二倍になる
+			'''
+		DisplayName: 精霊の記章
+	}
+
+	SpiritSymphony: {
+		Tooltip:
+			'''
+			ヴォイド再生量が1増加、ヴォイド再生速度が25%増加する
+			ルクス以外の精霊に与えるダメージが二倍になる
+			'''
+		DisplayName: スピリットシンフォニー
+	}
+
+	VoidmageIncubator: {
+		Tooltip:
+			'''
+			究極ゲーマー
+			ヴォイド再生量が2増加
+			攻撃を受けると時を止め、効果時間中にヴォイドをライフに変換する
+			ヴォイドショックとヴォイドリカバリーの効果が増加する
+			ワームホールクラフトのレシピにアクセス可能
+			'''
+		DisplayName: 虚無使いの孵化装置
+	}
+
+	SupernovaStorm: {
+		Tooltip:
+			'''
+			天空から超新星ビームを呼び下ろす
+			敵をバラバラにし3x140%のダメージを与える追尾する電撃にする
+			'''
+		DisplayName: スーパーノヴァストーム
+	}
+
+	StellarShot: {
+		Tooltip: 貫通するレーザーを高速発射する
+		DisplayName: ステラーショット
+	}
+
+	StellarSerpentLauncher: {
+		Tooltip: 敵を追い素早く攻撃する星光の大蛇を発射する
+		DisplayName: ステラーサーペントランチャー
+	}
+
+	RoseBow: {
+		Tooltip:
+			'''
+			矢を壁を貫通する光の槍に変換する
+			わずかにチャージされた場合、矢が爆発し600%のダメージを与える
+			完全にチャージされた場合、矢が咲開き1500%のダメージを与える
+			チャージ中はイバラを発射し2x100%のダメージを与える
+			チャージ中のみヴォイドを消費する
+			'''
+		DisplayName: ローズの弓
+	}
+
+	RealityShatter: {
+		Tooltip: 敵に4x50%のダメージを与える追加の斬撃を与える
+		DisplayName: リアリティシャッター
+	}
+
+	PhaseOre: {
+		Tooltip: ""
+		DisplayName: フェーズ鉱石
+	}
+
+	PhaseBar: {
+		Tooltip: 「現実の境目を区切っている」
+		DisplayName: フェーズインゴット
+	}
+
+	ParticleRelocator: {
+		Tooltip:
+			'''
+			敵に攻撃されると敵の背後にテレポートし、ダメージを回避して一時的に敵を凍りつかせる
+			これには16秒のクールダウンがあるが、テレポート後7秒間は近接ダメージが50%増加する
+			防御力と同等のダメージを与える
+			'''
+		DisplayName: パーティクルリロケーター
+	}
+
+	LuxBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	HyperlightGeyser: {
+		Tooltip: 10体の敵を追尾する4つのビームを撃つ
+		DisplayName: ハイパーライトゲイザー
+	}
+
+	Hyperdrive: {
+		Tooltip:
+			'''
+			クラッシャーの二段階目のチャージが33%の確率でヴォイドを消費しない
+			クラッシャーの四段階目のチャージでヴォイドを消費しなくなる
+			クラッシャーの射程が1増加
+			攻撃速度が25%、近接ダメージが5%増加
+			ヴォイド消費10%減少
+			'''
+		DisplayName: ハイパードライブ
+	}
+
+	EtherealScepter: {
+		Tooltip:
+			'''
+			あなたのために戦うエセリアルフレイムを召喚する
+			エセリアルフレイムは敵に素早く突進して攻撃する
+			'''
+		DisplayName: エセリアルセプター
+	}
+
+	ChaosChamber: {
+		Tooltip:
+			'''
+			引き金を引いた途端マガジンが空になる勢いで発射する
+			発射された弾丸が追尾性能を得る
+			6発発射されるごとに弾丸をレーザーボールに変換する
+			'''
+		DisplayName: カオスチェンバー
+	}
+
+	Armaggedon: {
+		Tooltip:
+			'''
+			おびただしい数のパンチをお見舞いさせる
+			インベントリでお気に入りされると光源を提供する
+			「天国からのちから」
+			'''
+		DisplayName: アルマゲドン
+	}
+
+	VoidspaceEmblem: {
+		Tooltip:
+			'''
+			ヴォイドダメージと魔法ダメージが10%増加
+			ヴォイドクリティカル率が10%増加
+			クリティカル攻撃でヴォイドを少し回復する
+			ヴォイド消費が8%減少
+			ヴォイド再生量が4増加、最大ヴォイドが50増加
+			攻撃を受けるとヴォイドを回復
+			アーマー破壊とイコルに対する耐性
+			'''
+		DisplayName: 虚空のエンブレム
+	}
+
+	VoidspaceAuraStaff: {
+		Tooltip:
+			'''
+			カーソル位置に近くの敵に炎を放つ虚空のランプを召喚する
+			ランプの周りにいる間ステータスが増加する
+			ヴォイド再生量が4%増加、ライフ自然再生が4増加、防御力が4増加、受けるダメージを4%軽減
+			範囲内の敵全てにダメージを与える
+			召喚ダメージに応じて範囲が広がる
+			'''
+		DisplayName: 虚空のオーラの杖
+	}
+
+	SubspaceScissors: {
+		Tooltip: 「煉獄からの助け」
+		DisplayName: 精霊のハサミ
+	}
+
+	SubspaceLocket: {
+		Tooltip:
+			'''
+			共に戦う亜空の大蛇を召喚する
+			インベントリの最後のスロットにあるアイテムを使用する
+			ダメージが乗算で25%減少する
+			最大ヴォイドが50増加するがポーションの回復量が40減少
+			'''
+		DisplayName: 亜空のロケット
+	}
+
+	SubspaceBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ
+	}
+
+	SerpentSpine: {
+		Tooltip:
+			'''
+			近接武器のサイズと鞭の長さが40%増加
+			近接攻撃速度が10%増加
+			近接武器と鞭攻撃が敵を焦げ付かせ、与えるダメージが3%増加する
+			'''
+		DisplayName: サーペントの骨髄
+	}
+
+	SanguiteBar: {
+		Tooltip: 「硫黄と血の匂いがする」
+		DisplayName: サングインスケール
+	}
+
+	PlasmaCutterButOnAChain: {
+		Tooltip: 「なんて素敵なアイディアなんだ」
+		DisplayName: チェーンに乗せたプラズマカッター
+	}
+
+	Lemegeton: {
+		Tooltip:
+			'''
+			プレイヤーを護衛するウィスプの大群を召喚する
+			赤のウィスプは近くの敵を攻撃しダメージの100%を回復する
+			緑のウィスプは200%のダメージを与える短距離の爆発を放つ
+			紫のウィスプはそれぞれ75%のダメージを与える追尾するボルトを発射する
+			'''
+		DisplayName: レミゲトン
+	}
+
+	FoggyClairvoyance: {
+		Tooltip:
+			'''
+			ダメージが15%上昇、ほとんどのデバフに対する耐性を得る
+			「呪われている」
+			'''
+		DisplayName: 霧がかった千里眼
+	}
+
+	DimensionShredder: {
+		Tooltip:
+			'''
+			カーソルに向かって射撃するディメンショナルウィスプを召喚する
+			右クリックでディメンショナルウィスプの集団を召喚する
+			銃弾がブロックを貫通するようになり50%のダメージを与える雷を放出する
+			66%の確率で弾薬を消費しない
+			「敵を引き裂いてやろう」
+			'''
+		DisplayName: ディメンションシュレッダー
+	}
+
+	DanceOfDeath: {
+		Tooltip: プレイヤーの周りにデーモンサイスを呼び出す
+		DisplayName: 死のダンス
+	}
+
+	ContinuumCollapse: {
+		Tooltip:
+			'''
+			「無限に貪り食らう。PCのメモリさえも。」
+			同時に15体の敵に命中する
+			プレイヤーはダメージを受けない
+			'''
+		DisplayName: 連鎖する崩壊
+	}
+
+	CatalystBomb: {
+		Tooltip: 「正しい場所に設置すれば、次元の間に穴を開けてしまうくらい強力とされる」
+		DisplayName: カタリスト爆弾
+	}
+
+	CataclysmSpheres: {
+		Tooltip: 爆発した際に追尾して100%のダメージを与えるカタクリズムを開放する爆弾を投げる
+		DisplayName: カタクリズムスフィア
+	}
+
+	Apocalypse: {
+		Tooltip:
+			'''
+			カーソルに向かって緑の雷を放つ
+			雷は近くの敵に90%のダメージで連鎖する
+			インベントリでお気に入りされると光源を提供する
+			「地底世界から直接与えられた力」
+			'''
+		DisplayName: アポカリプス
+	}
+
+	PhaseAssaulterBanner: {
+		Tooltip: ""
+		DisplayName: フェーズアサルターのバナー
+	}
+
+	PhaseSpeederBanner: {
+		Tooltip: ""
+		DisplayName: フェーズスピーダーのバナー
+	}
+
+	DungeonTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: ダンジョンのトレジャースライムのバナー
+	}
+
+	HallowTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 聖なるトレジャースライムのバナー
+	}
+
+	TwilightScouterBanner: {
+		Tooltip: ""
+		DisplayName: トワイライトスカウターのバナー
+	}
+
+	JungleTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: ジャングルのトレジャースライムのバナー
+	}
+
+	CrimsonTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 真紅のトレジャースライムのバナー
+	}
+
+	CorruptionTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 不浄のトレジャースライムのバナー
+	}
+
+	TeratomaBanner: {
+		Tooltip: ""
+		DisplayName: テラトーマのバナー
+	}
+
+	MaligmorBanner: {
+		Tooltip: ""
+		DisplayName: マリグモルのバナー
+	}
+
+	GhastBanner: {
+		Tooltip: ""
+		DisplayName: 悪霊のバナー
+	}
+
+	LesserWispBanner: {
+		Tooltip: ""
+		DisplayName: レッサーウィスプのバナー
+	}
+
+	FluxSlimeBanner: {
+		Tooltip: ""
+		DisplayName: フラックススライムのバナー
+	}
+
+	TwilightDevilBanner: {
+		Tooltip: ""
+		DisplayName: トワイライトデビルのバナー
+	}
+
+	HoloEyeBanner: {
+		Tooltip: ""
+		DisplayName: ホロアイのバナー
+	}
+
+	HoloSlimeBanner: {
+		Tooltip: ""
+		DisplayName: ホロスライムのバナー
+	}
+
+	WallMimicBanner: {
+		Tooltip: ""
+		DisplayName: ウォールミミックのバナー
+	}
+
+	SittingMushroomBanner: {
+		Tooltip: ""
+		DisplayName: オスワリタケのバナー
+	}
+
+	SnakePotBanner: {
+		Tooltip: ""
+		DisplayName: ヘビツボのバナー
+	}
+
+	SnakeBanner: {
+		Tooltip: ""
+		DisplayName: ヘビのバナー
+	}
+
+	LostSoulBanner: {
+		Tooltip: ""
+		DisplayName: 迷える魂のバナー
+	}
+
+	ArcticGoblinBanner: {
+		Tooltip: ""
+		DisplayName: アークティックゴブリンのバナー
+	}
+
+	BleedingGhastBanner: {
+		Tooltip: ""
+		DisplayName: 血みどろの悪霊のバナー
+	}
+
+	FlamingGhastBanner: {
+		Tooltip: ""
+		DisplayName: 燃え盛る悪霊のバナー
+	}
+
+	PyramidTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: ピラミッドのトレジャースライムのバナー
+	}
+
+	ShadowTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: シャドートレジャースライムのバナー
+	}
+
+	FrozenTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 凍ったトレジャースライムのバナー
+	}
+
+	GoldenTreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: 金のトレジャースライムのバナー
+	}
+
+	TreasureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: トレジャースライムのバナー
+	}
+
+	BlueSlimerBanner: {
+		Tooltip: ""
+		DisplayName: ブルースライマーのバナー
+	}
+
+	GlowmothRelic: {
+		Tooltip: ""
+		DisplayName: グロウモスのレリック
+	}
+
+	SubspaceSerpentRelic: {
+		Tooltip: ""
+		DisplayName: 亜空の大蛇のレリック
+	}
+
+	LuxRelic: {
+		Tooltip: ""
+		DisplayName: ルクスのレリック
+	}
+
+	PolarisRelic: {
+		Tooltip: ""
+		DisplayName: ポラリスのレリック
+	}
+
+	AdvisorRelic: {
+		Tooltip: ""
+		DisplayName: アドバイザーのレリック
+	}
+
+	PharaohsCurseRelic: {
+		Tooltip: ""
+		DisplayName: ファラオの呪いのレリック
+	}
+
+	PutridPinkyRelic: {
+		Tooltip: ""
+		DisplayName: 腐ったピンキーのレリック
+	}
+
+	HoloSwordBanner: {
+		Tooltip: ""
+		DisplayName: ホロブレードのバナー
+	}
+
+	NatureSlimeBanner: {
+		Tooltip: ""
+		DisplayName: フラワースライムのバナー
+	}
+
+	VisionAmulet: {
+		Tooltip:
+			'''
+			究極ゲーマー
+			「君の野心で輝いている」
+			'''
+		DisplayName: エレメンタルアミュレット
+	}
+
+	SootWall: {
+		Tooltip: ""
+		DisplayName: 煤の壁
+	}
+
+	SootBlock: {
+		Tooltip:
+			'''
+			焼け焦げた物の残骸が含まれている
+			取り出し機で使用可能
+			'''
+		DisplayName: 煤ブロック
+	}
+
+	RuinedChest: {
+		Tooltip: ""
+		DisplayName: 破棄されたチェスト
+	}
+
+	OldKey: {
+		Tooltip: 「サビつき始めている」
+		DisplayName: 古い鍵
+	}
+
+	CharredWoodWall: {
+		Tooltip: ""
+		DisplayName: 焦げた木の壁
+	}
+
+	CharredWood: {
+		Tooltip: 「使うには焼きすぎた」
+		DisplayName: 焦げた木
+	}
+
+	AncientSteelSword: {
+		Tooltip:
+			'''
+			命中時に80%の範囲ダメージを与える
+			クリティカル攻撃が50%多くダメージを与えるようになり、スタックする1秒間で5ダメージを与える出血を付与する
+			'''
+		DisplayName: 古代の鋼の剣
+	}
+
+	AncientSteelLongbow: {
+		Tooltip:
+			'''
+			射る前に引き絞る必要がある
+			矢がより速く飛んでいき着弾時、貫通する破片になり命中した的に100%のダメージを与える
+			'''
+		DisplayName: 古代の鋼のロングボウ
+	}
+
+	AncientSteelHalberd: {
+		Tooltip:
+			'''
+			敵を粉砕し、次の近接攻撃が敵の防御を無視し必ずクリティカルになる
+			ハルバードは粉砕効果を使用できない
+			'''
+		DisplayName: 古代の鋼のハルバード
+	}
+
+	AncientSteelBar: {
+		Tooltip: 「多くの古代の文明⋯とゴブリンに用いられた鋼」
+		DisplayName: 古代の鋼のインゴット
+	}
+}
+
+Prefixes: {
+	Soulbound: {
+		DisplayName: 魂縛された
+	}
+
+	Precarious: {
+		DisplayName: 不安定な
+	}
+
+	Potent: {
+		DisplayName: 強力な
+	}
+
+	Omniscient: {
+		DisplayName: 全知全能の
+	}
+
+	Omnipotent: {
+		DisplayName: 全能の
+	}
+
+	Famished: {
+		DisplayName: 飢えた
+	}
+
+	Chthonic: {
+		DisplayName: 地下世界の
+	}
+
+	Chained: {
+		DisplayName: 繋がれた
+	}
+
+	Awakened: {
+		DisplayName: 目覚めた
+	}
+
+	CosVoid: {
+		DisplayName: % 消費ヴォイド
+	}
+
+	RegVoid: {
+		DisplayName: " ヴォイド再生量"
+	}
+
+	MaxVoid: {
+		DisplayName: " 最大ヴォイド"
+	}
+}
+
+DropCondition: {
+	PhantarayCore2: コアなし
+	PhantarayCore1: コア付属
+	OnFire: 炎上中にドロップ
+	PlanetariumBiome: プラネタリウムバイオームでドロップ
+	Dungeon: ダンジョンでドロップ
+	BeachBiome: 海岸バイオームでドロップ
+	HallowBiome: 聖なるバイオームでドロップ
+	EvilBiome: 邪悪なバイオームでドロップ
+	Underworld: 地下バイオームでドロップ
+	BeachAndDungeonBiomes: 海岸とダンジョンバイオームでドロップ
+	SkyAndMeteorBiomes: 天空と隕石バイオームでドロップ
+	ColdBiomes: 冷たいバイオームでドロップ
+	PyramidAndDesertAndUndergroundBiomes: ピラミッド、砂漠、地下バイオームでドロップ
+	ForestAndJungleBiomes: 森林とジャングルバイオームでドロップ
+	OrangeLesserWisps: オレンジ色のレッサーウィスプ
+	SansUndertale: Sans Undertale
+	Killedfully: 完全に撃破した後
+	DefeatEyeofCthulhu: クトゥルフの目撃破後
+	DefeatEyeofCthulhuBefor: クトゥルフの目撃破前
+	DefeatPharaohsCurse: ファラオの呪い撃破後
+	DefeatPharaohsCurseBefor: ファラオの呪い撃破前
+	DefeatAdvisor: アドバイザー撃破後にドロップ
+	DefeatSubspaceSerpent: 亜空の大蛇撃破後にドロップ
+}
+
+Biomes: {
+	SanctuaryBiome: {
+		TownNPCDialogueName: 聖域
+		DisplayName: 聖域
+	}
+
+	AbandonedVillageBiome: {
+		TownNPCDialogueName: 廃村
+		DisplayName: 廃村
+	}
+
+	PlanetariumBiome: {
+		TownNPCDialogueName: プラネタリウムバイオーム
+		DisplayName: プラネタリウム
+	}
+
+	AnomalyBiome: {
+		TownNPCDialogueName: アノマリーバイオーム
+		DisplayName: ワームホールアノマリー
+	}
+
+	PhaseBiome: {
+		TownNPCDialogueName: フェーズバイオーム
+		DisplayName: フェーズ鉱脈
+	}
+
+	PyramidBiome: {
+		TownNPCDialogueName: ピラミッドバイオーム
+		DisplayName: 呪われたピラミッド
+	}
+}
+
+BossAwoken: {
+	Polaris: ポラリスが目覚めた！
+	Glowmoth: グロウモスが目覚めた！
+	Lux: ルクスが目覚めた！
+	PharaohsCurse: ファラオの呪いが目覚めた！
+	Advisor: アドバイザーが目覚めた！
+}
+
+KeyBindName: {
+	SlowFlight: 飛行モード低速化
+	MFM: 飛行モード変更
+	ArmorSet: アーマーセット
+	Blink: ブリンク
+}
+
+AddRecipeGroups: {
+	EGG: " 宝石卵"
+	CC: " 回路部品"
+	AS: " 錬金種"
+	EP: " エレメントのプレート"
+	EF: " エレメントの断片"
+	DE: " 融解するエレメント"
+	T2DD2A: " ティア2のDD2アクセサリー"
+	T2D2A: " ティア2のDD2防具"
+	PHO: " ハードモード前鉱石"
+	GR: " 宝石のローブ"
+	GB: " 金インゴット"
+	EB: " 邪悪インゴット"
+	EM: " 邪悪素材"
+	SB: " 銀インゴット"
+	AG: " 宝石"
+}
+
+Configuration: {
+	Tooltip: {
+		BLZD:
+			'''
+			オンの状態ではBanana Lizardによるサウンドトラックが再生されます。
+			オフの状態ではHeart Up Plusによるサウンドトラックが再生されます。
+			'''
+		NINS:
+			'''
+			ルクスが倒されるまで飛翔記章の無限飛行を無効にし、撃破後に有効にします。
+			ルクスが倒される前では、効果が飛行時間二倍のみになります。
+			この変更が受け入れられない場合はオフにすることもできます。
+			'''
+		SHT:
+			'''
+			-2 = スターターハウスなし
+			-1 = ランダムなスターターハウス
+			0 = レガシーハウス
+			1 = レガシー天使
+			2 = レガシー樽
+			3 = レガシー巨大ホテル
+			4 = レガシーオリジン
+			5 = レガシー塔
+			6 = レガシー剣
+			7 = レガシーツリー
+			8 = レガシー図書館
+			9 = レガシー木箱
+			10 = マッシュニブハウス
+			11 = アストロビットハウス
+			12 = ブラッドムーン
+			13 = 山賊
+			14 = 大岩
+			15 = 坑道
+			16 = 酒場
+			17 = 混沌
+			18 = 水没
+			19 = 快適
+			20 = 自然
+			'''
+		AVE:
+			'''
+			タイルのホコリなどの追加のビジュアルを追加します。
+			SOTSテクスチャパックが有効である必要があります。
+			'''
+		CTF: 時が停止しているときの画面をモノクロか遮光にします。
+		PM:
+			'''
+			様々なビジュアルエフェクトを減らしてフレームレートを向上させます。
+			ほとんどはボス関連のエフェクトや発射物のトレイルに影響します。
+			'''
+		SVBF: ヴォイドゲージ内部の目盛りを削除します
+		SVBT: ヴォイドゲージのテキストからヴォイドミニオン数表示を削除します
+		VBHT: ヴォイドゲージにカーソルを合わせた時に出てくるテキストを表示/非表示にします
+		VBTT: ヴォイドゲージの上部にあるテキストを表示または非表示にします
+		AVBS: ヴォイドゲージの見た目を少し変えます
+		AVBD: ヴォイドゲージのゲージが動く方向を変更します
+		LVB:
+			'''
+			ヴォイドゲージがカーソルによって動かされなくなります。
+			ヴォイドゲージが体力、マナゲージなどのスタイル変更によって移動されることも防ぎます。
+			'''
+		VBY:
+			'''
+			ヴォイドゲージの縦位置です。
+			上からのピクセル数で測ります。
+			'''
+		VBX:
+			'''
+			ヴォイドゲージの横方向の位置です。
+			左からのピクセル数で測ります。
+			'''
+	}
+
+	Label: {
+		BLZD: Alternative SOTS Music
+		NINS: ルクス撃破前の飛翔記章ナーフ
+		SHT: スタートハウスのタイプ(ワールド生成中)
+		AVE: 追加ビジュアルエフェクト
+		CTF: 色付き時止め中画面
+		PM: パフォーマンスモード
+		SVBF: シンプルなヴォイドゲージの中身
+		SVBT: シンプルなヴォイドゲージのテキスト
+		VBHT: ヴォイドゲージホバーテキスト
+		VBTT: ヴォイドゲージ上部テキスト
+		AVBS: ヴォイドゲージのスタイル変更
+		AVBD: ヴォイドゲージの向き変更
+		LVB: ヴォイドゲージを固定
+		VBY: ヴォイドゲージY位置
+		VBX: ヴォイドゲージX位置
+		SConfig: サーバー設定
+		Config: 設定
+	}
+
+	Header: {
+		MS: 音楽設定
+		BAL: バランス変更
+		GPS: ゲームプレイ設定
+		TPS: テクスチャパック設定
+		GS: グラフィック設定
+		UI: UI
+	}
+}
+
+AdjacentDesertGeneration: {
+	SEverywhere: 砂が揺れ動き各地に飛散した！
+}
+
+ModifyWorldGenTasks: {
+	GeneratingSanctuary: 聖域を生成中
+	GeneratingPeanuts: ピーナッツを配置中
+	GeneratingGemStructures: 宝石の構造物を生成中
+	GeneratingAPyramid: ピラミッドを生成中
+	GeneratingSkyArtifacts: 天空の遺物を生成中
+	GeneratingAbandonedVillage: 廃村を生成中
+	GeneratingSurfaceStructures: 地上構造物を生成中
+}
+
+ContainerName: {
+	AncientGoldDresser: 古代の金のドレッサー
+	ChaosPlatingDresserTile: 混沌プレートのドレッサー
+	InfernoPlatingDresserTile: 地獄プレートのドレッサー
+	EvilPlatingDresserTile: 邪悪プレートのドレッサー
+	OtherworldPlatingDresser: 異世界プレートのドレッサー
+	TidalPlatingDresserTile: 潮流プレートのドレッサー
+	PermafrostPlatingDresserTile: 永久凍結プレートのドレッサー
+	EarthenPlatingDresserTile: 大地プレートのドレッサー
+	NaturePlatingDresserTile: 自然プレートのドレッサー
+}
+
+Common: {
+	Solar9: プルートー
+	Solar8: ネプトゥーヌス
+	Solar7: ウラヌス
+	Solar6: サトゥルヌス
+	Solar5: ユピテル
+	Solar4: マルス
+	Solar3: テラ
+	Solar2: ヴィーナス
+	Solar1: メルクリウス
+	Solar0: ソル
+	TesseractUsageSecondary: セカンダリ武器
+	TesseractUsagePrimary: プライマリ武器
+	TesseractUsageDuration: "{0} 秒間"
+	TesseractUsageContinuous: 持続的
+	TesseractUsage: "{0}体の配置済みクローンは{1}を用い{2}を発射します"
+	TesseractAwaiting: "{0}体の配置済みクローンは命令を待機中です"
+	TesseractInvalid: クローン化できないアイテムです
+	TesseractInventory: テッセラクトアイテム
+	VoidAnomalyCrafting: ワームホール変換装置
+	ArchaeologistShopCondition: 特定の場所で
+	ArchaeologistItemMap: "テレポートしました "
+	ArchaeologistMap: アノマリー
+	InsigniaNerf: "[SOTS]: ルクスが倒されるまで、飛行時間と機動力の効果が制限される"
+	GenSOTSGeodes: きれいなジオードを生成中
+	GenSOTSOres: SOTSの鉱石を生成中
+	CV: 消費ヴォイド {0}
+	VoidSPercent: ??? ヴォイド+召喚 {0}
+	VoidSDouble: "{0} ヴォイド+ {1} 召喚 {2}"
+	VoidS: "{0} ヴォイド+召喚 {1}"
+	VoidM2: "{0} ヴォイド+魔法 {1}"
+	VoidR: "{0} ヴォイド+遠距離 {1}"
+	VoidM: "{0} ヴォイド+近接 {1}"
+	Void2: "{0} ヴォイド {1}"
+	Damage: ダメージ
+	Void: "ヴォイド: "
+	SOTSTexturePackName: Secrets of the Shadows テクスチャパック
+	ACZV: ヴォイド0以下で自動使用
+	Unbound: 未割り当て
+	Dresser: ドレッサー
+	BlastDoor: 防爆ドア
+	Dedicated: 専用アイテム
+	worldEnterThanks: (SOTS): SOTSテクスチャパックをお使いいただきありがとうございます！私達の努力の結晶をお楽しみください！
+	worldEnter: (SOTS): Secrets of the Shadowsをプレイいただきありがとうございます！まだお試しでないなら付属のSOTSテクスチャパックを使用してみてはいかがでしょうか？
+}
+

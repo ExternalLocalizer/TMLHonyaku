@@ -1,0 +1,117 @@
+Projectiles: {
+	MechanicalDrillProjectile: {
+		DisplayName: Mechanical Drill
+	}
+
+	Melee: {
+		StunGunProjectile: {
+			DisplayName: Stun Gun
+		}
+	}
+}
+
+Buffs: {
+	FlaskOfElectricityBuff: {
+		Description: 近接武器、鞭、ローグの攻撃で敵を感電させる
+		DisplayName: 電気付与
+	}
+}
+
+Items: {
+	DraedonsWhoopieCushion: {
+		Tooltip:
+			'''
+			おならが出る
+			地下でアーマードディガーを召喚する
+			'''
+		DisplayName: ドレイドンのブーブークッション
+	}
+
+	AresNuclearReactor: {
+		Tooltip:
+			'''
+			エネルギー武器を徐々に充電する
+			インベントリ内で機能する
+			'''
+		DisplayName: アレス核反応炉
+	}
+
+	DraedonsToolBox: {
+		Tooltip:
+			'''
+			20%の確率で電力を消費しない
+			充電コストを15%軽減
+			必要な時にドレイドンのパワーセルを自動的に使う
+			'''
+		DisplayName: ドレイドンの道具箱
+	}
+
+	CreativeDraedonBattery: {
+		Tooltip:
+			'''
+			デバッグ用アイテム
+			全てのアイテムを満充電する
+			'''
+		DisplayName: クリエイティブドレイドン電池
+	}
+
+	MechanicalDrill: {
+		Tooltip: ""
+		DisplayName: メカニカルドリル
+	}
+
+	EnergyPistol: {
+		Tooltip: 追加のエネルギーボルトを発射する
+		DisplayName: エネルギーピストル
+	}
+
+	StunGun: {
+		Tooltip: ターゲットを感電させる
+		DisplayName: スタンガン
+	}
+
+	Transistor: {
+		Tooltip: 20%の確率で電力を消費しない
+		DisplayName: トランジスタ
+	}
+
+	EnergyFlower: {
+		Tooltip:
+			'''
+			充電コストを15%軽減
+			必要な時にドレイドンのパワーセルを自動的に使う
+			'''
+		DisplayName: エネルギーロータス
+	}
+
+	DraedonsGift: {
+		Tooltip: 充電コストを10%軽減
+		DisplayName: ドレイドンのギフト
+	}
+
+	SolarPanel: {
+		Tooltip:
+			'''
+			日中に地上にいる、かつ雨天時でないときエネルギーアイテムを徐々に充電する
+			充電池が優先される
+			インベントリ内で機能する
+			'''
+		DisplayName: ソーラーパネル
+	}
+
+	FlaskOfElectricity: {
+		Tooltip: 近接武器、鞭、ローグ攻撃が敵を感電させる
+		DisplayName: 電力のフラスコ
+	}
+
+	DraedonBattery: {
+		Tooltip:
+			'''
+			電力を消費してエネルギーアイテムを徐々に充電する
+			選択中のアイテムを優先する
+			インベントリ内で機能する
+			'''
+		DisplayName: ドレイドン充電池
+	}
+}
+

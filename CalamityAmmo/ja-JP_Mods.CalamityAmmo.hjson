@@ -642,13 +642,13 @@ Items: {
 	}
 
 	AstralArrow: {
-		DisplayName: アストラルアロー
-		Tooltip: 我々の進化の為、星々の恐怖を打破せよ
+		DisplayName: アストラルの矢
+		Tooltip: 星々の恐怖を撃破し進化した
 	}
 
 	AstralBullet: {
-		DisplayName: Astral Bullet
-		Tooltip: 我々の進化の為、星々の恐怖を打破せよ
+		DisplayName: アストラル弾
+		Tooltip: 星々の恐怖を撃破し進化した
 	}
 
 	DazzlingAstralArrow: {
@@ -658,7 +658,7 @@ Items: {
 
 	DazzlingAstralBullet: {
 		DisplayName: 閃光アストラル弾
-		Tooltip: 惑星と恒星！ 手に入れるパワー！
+		Tooltip: 惑星と恒星からパワーを吸収した
 	}
 
 	FossilArrow: {
@@ -680,7 +680,7 @@ Items: {
 	}
 
 	HydrothermicArrow: {
-		DisplayName: ハイドロサーミックアロー
+		DisplayName: ハイドロサーミックの矢
 		Tooltip:
 			'''
 			ハイドロサーミック爆発を起こす
@@ -722,7 +722,7 @@ Items: {
 		Tooltip:
 			'''
 			力がたりない...
-			アストラルに侵食されたメカベヒモスを撃破して進化させる
+			アストラルに侵食された巨大メカを撃破して進化させる
 			'''
 	}
 
@@ -737,7 +737,7 @@ Items: {
 	}
 
 	GoldenFeatherArrow: {
-		DisplayName: 黄金羽の矢
+		DisplayName: 金の羽根の矢
 		Tooltip:
 			'''
 			小さいものをおびき寄せる
@@ -746,27 +746,27 @@ Items: {
 	}
 
 	MirageArrow: {
-		DisplayName: ミラージュアロー
+		DisplayName: 蜃気楼の矢
 		Tooltip: '''「また２つ、そしてまた２つ、またまた２つ、あるいは２つ。」'''
 	}
 
 	SoulBullet: {
-		DisplayName: ソウルバレット
+		DisplayName: ソウルの弾丸
 		Tooltip:
 			'''
 			近くの敵に追尾して三回貫通するが命中する事にダメージが下がっていく
-			「不幸な魂たちを薬莢に閉じ込めて製造されました。同じような魂を引き寄せるでしょう。」
+			「不幸な魂たちを薬莢に閉じ込めて作られた銃弾。同じような魂を引き寄せるかもしれない。」
 			'''
 	}
 
 	BloodBullet: {
-		DisplayName: 血液弾
+		DisplayName: 血液の弾丸
 		Tooltip: 敵からライフを吸収する
 	}
 
 	DesertFeatherArrow: {
 		DisplayName: 砂漠の羽の矢
-		Tooltip: 「羽根がハゲワシのものだったときは、速くはなかった」 "
+		Tooltip: 「羽根がハゲワシのものだった時は、速くはなかった」
 	}
 
 	DesertFeather: {
@@ -775,7 +775,7 @@ Items: {
 	}
 
 	ElectricArrow: {
-		DisplayName: エレクトリックアロー
+		DisplayName: 帯電した矢
 		Tooltip: 嵐を追う
 	}
 
@@ -785,7 +785,7 @@ Items: {
 	}
 
 	PearlBullet: {
-		DisplayName: 真珠弾
+		DisplayName: 真珠の弾丸
 		Tooltip:
 			'''
 			二回貫通する
@@ -794,7 +794,7 @@ Items: {
 	}
 
 	RottenBullet: {
-		DisplayName: 腐敗弾
+		DisplayName: 腐敗した弾丸
 		Tooltip:
 			'''
 			発射するとバラバラの腐った物体になる
@@ -808,7 +808,7 @@ Items: {
 	}
 
 	VictideArrow: {
-		DisplayName: ヴィクタイドアロー
+		DisplayName: ヴィクタイドの矢
 		Tooltip:
 			'''
 			水中で速くなってダメージが40%増加する
@@ -817,7 +817,7 @@ Items: {
 	}
 
 	VictideBullet: {
-		DisplayName: ヴィクタイドアロー
+		DisplayName: ヴィクタイドの矢
 		Tooltip:
 			'''
 			水中で速くなってダメージが40%増加する
@@ -826,7 +826,7 @@ Items: {
 	}
 
 	WulfrumArrow: {
-		DisplayName: ウルフラムアロー
+		DisplayName: ウルフラムの矢
 		Tooltip:
 			'''
 			重すぎて矢にならない
@@ -894,7 +894,7 @@ Items: {
 
 	BeenadeLauncher: {
 		DisplayName: 手蜂弾ランチャー
-		Tooltip: グレネードを使用する
+		Tooltip: 手榴弾を弾薬として使用する
 	}
 
 	MushroomMortar: {
@@ -903,8 +903,8 @@ Items: {
 	}
 
 	PlaguenadeLauncher: {
-		DisplayName: "プレイグネードランチャー"
-		Tooltip: グレネードを使用する
+		DisplayName: プレイグネードランチャー
+		Tooltip: 手榴弾を弾薬として使用する
 	}
 
 	SandRocket: {
@@ -912,7 +912,7 @@ Items: {
 		Tooltip:
 			'''
 			ブロックを貫通し敵に追従する
-			砂で速く動く
+			砂中で速く進む
 			'''
 	}
 
@@ -921,7 +921,7 @@ Items: {
 		Tooltip:
 			'''
 			もろいスパイクボールを発射する
-			６回目の攻撃ごとにサンドブラストを６個発射する
+			6回目の攻撃ごとにサンドブラストを6個発射する
 			'''
 	}
 
@@ -936,7 +936,7 @@ Items: {
 	}
 
 	DazzlingAstralArrowNew: {
-		DisplayName: 閃光アストラルアロー
+		DisplayName: 閃光アストラルの矢
 		Tooltip:
 			'''
 			「空を見て！星座だ！」
@@ -945,23 +945,23 @@ Items: {
 	}
 
 	DivineArrow: {
-		DisplayName: ディバインアロー
+		DisplayName: 神々の矢
 		Tooltip: 楽園から隕石を降らせる
 	}
 
 	DivineBullet: {
-		DisplayName: ディバインバレット
+		DisplayName: 神々の弾丸
 		Tooltip: より強力な聖なる炎の爆発を起こす
 	}
 
 	Lore: {
 		KnowledgeAuric: {
-			DisplayName: オーリックについて
+			DisplayName: オーリック
 		}
 	}
 
 	ElementalArrow: {
-		DisplayName: エレメンタルアロー
+		DisplayName: エレメンタルの矢
 		Tooltip:
 			'''
 			敵を貫通する事に矢のダメージが10%増加
@@ -987,7 +987,7 @@ Items: {
 			遠距離武器の発射物速度を中程度増加させる
 			遠距離武器の発射物が凍傷を付与する
 			命中した敵の真下にアイスボムを設置する
-			これには５秒のクールダウンがある
+			5秒のクールダウンがある
 			'''
 	}
 
@@ -1106,15 +1106,15 @@ Homeless1: ミーが見えるなら、レンジャーに違いにゃいわね！
 
 Homeless2: 部屋を作ってないなんておかしいんじゃにゃい？テキトーな豆腐建築も作ってにゃいわけ？ニャァァアアア！
 
-Any1: ミーがなんでオノを持ってるか気になる？それはにゃ、神みたいなオノで44もダメージがあったからにゃ！
+Any1: ミーがなんでオノを持ってるか気になる？それはにゃ、神々しいオノでしかも44もダメージがあったからにゃ！
 
-Any2: NPCの会話にウンザリしてるにゃら、ネットで一緒にやってくれる人をさがしてみるといいにゃ
+Any2: NPCの会話にウンザリしてるにゃら、ネットで一緒にやってくれる人をさがしてみるといいにゃ。
 
 Any3: ミーが来てから弾薬素材切れを起こしたことにゃんてあるかにゃ？
 
-Any4: もう二分間も食べてないにゃ。お腹すいたにゃ⋯ なにかたべれるものにゃい?
+Any4: もう二分間も食べてないにゃ。お腹すいたにゃ⋯ なにかたべれるものにゃい？
 
-Day1: サーバーを動かすのは疲れるにゃ。いろんな問題を解決しにゃいとダメだからにゃ。
+Day1: サーバー運営は疲れるにゃ。いろんな問題を解決しにゃいとダメだからにゃ。
 
 Day2: ミーのクセはミーのキャラクターに"Qianxing"ってつけることにゃ。もう25回もやってるにゃ。
 
@@ -1124,9 +1124,9 @@ Day4: シッポはダメだから。失礼にゃ。
 
 Night1: こんなおそくまでなんの用にゃ？誰も相手してくれにゃいよ。
 
-Night2: ユーがミーなら魔法の日時計を使って、夜を飛ばしちゃうのににゃ。
+Night2: ミーがユーなら魔法の日時計を使って、夜を飛ばしちゃうのににゃ。
 
-Night3: 流れ星ってサイコーにゃあ⋯ ３００個あれば足りるにゃ。
+Night3: 流れ星ってサイコーにゃあ⋯ 300個くらいいるにゃ。
 
 Night4: そこはダメにゃ!
 
