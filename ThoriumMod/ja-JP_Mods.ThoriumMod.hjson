@@ -2178,7 +2178,7 @@ Items: {
 	}
 
 	ShinobiSlicer: {
-		Tooltip: バウンドする
+		Tooltip: ブロックなどに当たると跳ねる
 		DisplayName: シノビ・スライサー
 	}
 
@@ -2397,7 +2397,7 @@ Items: {
 
 	MoltenKnife: {
 		Tooltip: ヒットした敵を燃やす
-		DisplayName: モルテンナイフ
+		DisplayName: 溶岩のナイフ
 	}
 
 	MeteoriteClusterBomb: {
@@ -2508,7 +2508,7 @@ Items: {
 	FesteringBalloon: {
 		Tooltip:
 			'''
-			左クリックでイコル入りの風船を投げる
+			左クリックで霊液入りの風船を投げる
 			右クリックでダーツを投げ、風船を割って中身を撒き散らすことができる
 			'''
 		DisplayName: 化膿した風船
@@ -7553,7 +7553,7 @@ Items: {
 	}
 
 	ArmorBane: {
-		Tooltip: マスケット弾をイコル弾に変える
+		Tooltip: マスケット弾を霊液弾に変える
 		DisplayName: アーマーベイン
 	}
 
@@ -11499,7 +11499,7 @@ Items: {
 			「投擲の嵐で空を黒く染める」
 			矢のダメージが12%増加
 			クリティカルヒットすると矢が死の矢となり、跳弾するようになる
-			射撃が命中した敵にイコルを付与する
+			射撃が命中した敵に霊液を付与する
 			'''
 		DisplayName: 熟練弩兵のフード
 	}
@@ -11834,7 +11834,7 @@ Items: {
 	}
 
 	Dissolve: {
-		Tooltip: 敵をイコル状態にする魔法を放つ
+		Tooltip: 敵を霊液状態にする魔法を放つ
 		DisplayName: ディゾルブ
 	}
 
@@ -12090,7 +12090,7 @@ Items: {
 	WondrousWand: {
 		WondrousWandStage: {
 			CursedFlame: 呪炎
-			Ichor: イコル
+			Ichor: 霊液
 			Shadow: 闇
 			Ice: 氷
 			Fire: 炎
@@ -12579,7 +12579,7 @@ Items: {
 		Tooltip:
 			'''
 			複数の敵を貫通し、壁に当たるとバウンドする
-			命中した敵にイコルを与える
+			命中した敵に霊液を与える
 			'''
 		DisplayName: 卑劣なノコギリ刃
 	}
@@ -13121,7 +13121,7 @@ Items: {
 			Death: 骸骨
 			Shadow: 影
 			Crystal: 結晶
-			Ichor: イコル
+			Ichor: 霊液
 			CursedFlame: 呪いの炎
 			Water: 水
 		}
@@ -15384,7 +15384,7 @@ Items: {
 	IceCreamCone: {
 		Tooltip:
 			'''
-			'冷たくて甘いご馳走！'
+			「冷たくて甘いご馳走！」
 			魔法ダメージの増加と全ステータスが小程度強化
 			'''
 		DisplayName: アイスクリーム
@@ -15630,7 +15630,7 @@ Items: {
 	}
 
 	BronzeAlloyFragments: {
-		Tooltip: "'その驚異的な品質は、時を経ても失われていない'"
+		Tooltip: "「その驚異的な品質は、時を経ても失われていない」"
 		DisplayName: 青銅の破片
 	}
 
@@ -15699,17 +15699,17 @@ Items: {
 
 	BoreanStriderTrophy: {
 		Tooltip: ""
-		DisplayName: ボリアンストライダーのトロフィー
+		DisplayName: ボレアンストライダーのトロフィー
 	}
 
 	BoreanStriderMask: {
 		Tooltip: ""
-		DisplayName: ボリアンストライダーのマスク
+		DisplayName: ボレアンストライダーのマスク
 	}
 
 	BoreanFangStaff: {
 		Tooltip: 凍てつく牙を放つ
-		DisplayName: ボリアンファングスタッフ
+		DisplayName: 凍牙の杖
 	}
 
 	WizardShoes: {
@@ -15733,8 +15733,8 @@ Items: {
 	VileFlailCore: {
 		Tooltip:
 			'''
-			フレイルウェポンは命中時に下劣なスパイクボールを放つことがある
-			下劣なスパイクボールはダメージを受けた敵にイコルを付与する
+			フレイル武器の攻撃命中時に下劣なスパイクボールを放つことがある
+			下劣なスパイクボールはダメージを受けた敵に霊液を付与する
 			'''
 		DisplayName: バイルフレイルコア
 	}
@@ -15863,7 +15863,7 @@ Items: {
 	ObsidianScale: {
 		Tooltip:
 			'''
-			ファイアブロックに対する耐性を付与
+			燃えているブロックに対する耐性を付与
 			被弾時のノックバック量を減少させる
 			近くの敵が溶ける
 			'''
@@ -15872,18 +15872,18 @@ Items: {
 
 	MoltenSpearTip: {
 		Tooltip: 槍で攻撃すると遠距離攻撃を放つ
-		DisplayName: モルテンスピアの穂先
+		DisplayName: 溶岩槍の穂先
 	}
 
 	MoltenScale: {
 		Tooltip: 近くの敵に火をつける
-		DisplayName: モルテンの鱗
+		DisplayName: 溶岩の鱗
 	}
 
 	MaskoftheCrystalEye: {
 		Tooltip:
 			'''
-			8% クリティカル率増加
+			クリティカル率8%増加
 			クリティカル時のダメージが12%増加
 			'''
 		DisplayName: 水晶眼の仮面
@@ -16254,7 +16254,7 @@ Items: {
 	TheLullaby: {
 		Tooltip:
 			'''
-			ヒットした敵をスタンさせるバウンドする眠気を催す'Z'を放つ
+			バウンドし、ヒットした敵をスタンさせる'Z'を放つ
 			'Z'がバウンドするたびに、スタン時間とダメージが増加する
 			'''
 		DisplayName: ララバイ
@@ -17024,7 +17024,7 @@ Items: {
 	}
 
 	FleshHorn: {
-		Tooltip: 敵の防御力を低下させるイコルビームをチャージすることができる
+		Tooltip: 敵の防御力を低下させる霊液のビームをチャージすることができる
 		DisplayName: フレッシュホーン
 	}
 
