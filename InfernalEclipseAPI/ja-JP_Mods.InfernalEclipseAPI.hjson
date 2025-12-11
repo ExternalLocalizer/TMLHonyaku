@@ -1,4667 +1,1950 @@
-Achievements: {
-	BabysFirstAchievement: {
-		DisplayName: 多くの中の最初
-		Description:
-			'''
-			失敗が多ければ多いほど、その分学びを多く得られる
-			[c/777777:Infernumのボスに殺される]
-			'''
-	}
-
-	BereftVassalAchievement: {
-		DisplayName: 忘却の砂
-		Description:
-			'''
-			砂漠の砂丘の遥か彼方で、「遺された臣下」と戦え
-			[c/777777:遺された臣下を倒す]
-			'''
-	}
-
-	ExoPathAchievement: {
-		DisplayName: 研究所のモルモット
-		Description:
-			'''
-			ドレイドンのお気に入りの被験者になる
-			[c/777777:Infernumのエクソメカのすべての組み合わせを倒す]
-			'''
-	}
-
-	InfernalChaliceAchievement: {
-		DisplayName: 地獄の業火の洗礼
-		Description:
-			'''
-			最後のチャレンジを完了し、報酬を得る
-			[c/777777:地獄の聖杯を手に入れる]
-			'''
-	}
-
-	KillAllBossesAchievement: {
-		DisplayName: Infer-it-all!
-		Description:
-			'''
-			切り裂け。すべてが終わるまで。
-			[c/777777:Infernumのボスをすべて倒す]
-			'''
-	}
-
-	KillAllMinibossesAchievement: {
-		DisplayName: 小さな子供たち！
-		Description:
-			'''
-			世界中のさまざまな小さな脅威を打ち負かせ！
-			[c/777777:Infernumのミニボスをすべて倒す]
-			'''
-	}
-
-	MechaMayhemAchievement: {
-		DisplayName: 邪悪な機械たち
-		Description:
-			'''
-			メカニカルな3兄弟を一緒にスクラップにしろ！
-			[c/777777:Infernumでツインズ、デストロイヤー、スケルトロンプライムを同時に撃破する]
-			'''
-	}
-
-	NightProviAchievement: {
-		DisplayName: Night Knight
-		Description:
-			'''
-			星空の下で、冒涜された女神に挑む
-			[c/777777:Infernumで、かつ夜にプロヴィデンスを倒す]
-			'''
-	}
-
-	RamlessDoGAchievement: {
-		DisplayName: 憤怒
-		Description:
-			'''
-			正々堂々勝負しろ！
-			[c/777777:ラムダッシュを使わずにデバウアー・オブ・ゴッドを倒す]
-			'''
-	}
-
-	Wishes: {
-		BlahajWish: {
-			DisplayName: 慈悲深い力
-			Description:
-				'''
-				温かい…
-				[c/777777:Infernumのデューク・フィッシュロンを1分以内に倒す]
-				'''
-		}
-
-		CrescentWish: {
-			DisplayName: ポスト・アポカリプス
-			Description:
-				'''
-				魔女の罪は完全に償われることはない...
-				[c/777777:地底世界で忘れ去られしカラミタスの影を倒す]
-				'''
-		}
-
-		EggWish: {
-			DisplayName: 選ばれし者
-			Description:
-				'''
-				逸話によれば、世界のどこかには隠された伝説の剣があるという。
-				[c/777777:ゴーレムを倒した後、エッグソードの祠を見つける]
-				'''
-		}
-
-		MatrixWish: {
-			DisplayName: 科学的手法
-			Description:
-				'''
-				実験とは失敗すること。失敗することは学ぶことである。学ぶことは前進することである。
-				[c/777777:すべてのボスとエクソメカの組み合わせを倒す]
-				'''
-		}
-
-		NightmareWish: {
-			DisplayName: 目覚め
-			Description:
-				'''
-				それは犠牲を伴うが、あなたは良い選択だったと思うだろう
-				[c/777777:煉獄の岩山で {0} 秒眠る]
-				'''
-		}
-
-		PurityWish: {
-			DisplayName: 太陽の子
-			Description:
-				'''
-				太陽の風、太陽の鐘の音...
-				[c/777777:Infernumで、かつ夜にプロヴィデンスを3分半以内に倒す]
-				'''
-		}
-
-		SakuraWish: {
-			DisplayName: 無垢な風
-			Description:
-				'''
-				100人の気まぐれな魂が、戯れに踊っている...
-				[c/777777:桜のつぼみを探す]
-				'''
-		}
-
-		StormMaidenWish: {
-			DisplayName: 慟哭
-			Description:
-				'''
-				彼らの涙は雨粒と混ざり合い、 叶わなかったことを嘆く。
-				[c/777777:エクソメカとカラミタスを倒し、雨の中、スポーン地点の近くで槍を見つける]
-				'''
-		}
-
-		TabletWish: {
-			DisplayName: 穢れなき者
-			Description:
-				'''
-				すべての獣が怪物というわけではない！
-				[c/777777:戦闘中に酸メーターを50%以上にすることなく、アクアティック・スカージを倒す]
-				'''
-		}
-
-		TophatWish: {
-			DisplayName: 驚くほどバカなアシスタント
-			Description:
-				'''
-				失敗するたびに上達しているぞ！
-				[c/777777:ボスに3回連続で殺される]
-				'''
-		}
-	}
-}
-
-Bestiary: {
-	BereftVassal: 用心深い守護者でありながら、かつては目的もなくさまよっていた。王が生きていることを知り、生きる意欲を取り戻し始めたようだ。再びあなたと戦うことを楽しみにしている。
-	DepthFeeder: アビスという圧倒的に過酷な環境でも、適応した生物はいるかもしれない。
-	Herring: 異常に丈夫なこれらの生物は、なぜか有毒な深淵洞窟の上部で繁栄している。とはいえ、彼らは食物連鎖の最下層にいる。
-	Lionfish: この逞しい魚は自然の生息地ではめったに狩られることはなく、攻撃と防御の両方をその毒棘に頼っている。
-}
-
-Biomes: {
-	LostColosseumBiome: {
-		DisplayName: 忘れられた闘技場
-		TownNPCDialogueName: 忘れられた闘技場
-	}
-
-	ProfanedTempleBiome: {
-		DisplayName: 冒涜された神殿
-		TownNPCDialogueName: 冒涜された神殿
-	}
-}
-
-Buffs: {
-	AccentuationHex: {
-		DisplayName: 誘引の呪い
-		Description: 相手の魔法があなたを引き寄せる
-	}
-
-	AsterPetBuff: {
-		DisplayName: アスター
-		Description: 彼！
-	}
-
-	BlahajBuff: {
-		DisplayName: ブローハイ
-		Description: 安らぎの友
-	}
-
-	BrimstoneBarrier: {
-		DisplayName: ブリムストーンシールド
-		Description: バリアの影響で武器が本来の力を発揮できない...
-	}
-
-	BrimstoneExhaustion: {
-		DisplayName: エネルギー消耗中
-		Description: バリアを再展開できない！
-	}
-
-	BronzePetBuff: {
-		DisplayName: カラミティ・バンブルバーブ（2018年頃）
-		Description: テラリアで鳥を撫でることができるって知ってた？
-	}
-
-	CatharsisHex: {
-		DisplayName: 浄化の呪い
-		Description: ライフ自然回復が無効化され、怒り狂う霊があなたの中から解放される
-	}
-
-	DarkFlames: {
-		DisplayName: 闇の炎
-		Description: 闇の炎に包まれ、防御が低下する
-	}
-
-	HatGirlBuff: {
-		DisplayName: 帽子を被った女の子
-		Description: 耐熱性
-	}
-
-	IndignationHex: {
-		DisplayName: 憤怒の呪い
-		Description: 彼女の怒りを買ってしまったようだ...
-	}
-
-	Madness: {
-		DisplayName: 狂気
-		Description: 正気を失いつつある...
-	}
-
-	ShadowflameInferno: {
-		DisplayName: 闇の業火
-		Description: 急速にライフを失っている
-	}
-
-	SheepGodBuff: {
-		DisplayName: 羊の神
-		Description: 羊も寝る時に羊を数えるのか？
-	}
-
-	Sleepy: {
-		DisplayName: 眠気
-		Description: ぐっすり眠っている...
-	}
-
-	WeaknessHex: {
-		DisplayName: 弱体化の呪い
-		Description: 防御力とダメージ軽減率が著しく低下する
-	}
-
-	ZealHex: {
-		DisplayName: 情熱の呪い
-		Description: 敵の魔法が猛烈に加速する
-	}
-
-	PerditusTagBuff: {
-		DisplayName: ペルディトゥスのタグ
-		Description: タグが付いていて、濡れている...
-	}
-}
-
-Configs: {
-	InfernumConfig: {
-		DisplayName: 設定
-
-		BossIntroductionAnimationsAreAllowed: {
-			Label: ボス召喚時アニメーション
-			Tooltip: ボス召喚時アニメーションを有効にします。Infernumモードが有効な時のみ再生されます。
-		}
-
-		DisplayTipsInChat: {
-			Label: ブラスト・シルクハットのヒント
-			Tooltip: ブラスト・シルクハットのヒントを表示するかどうかを設定します。
-		}
-
-		ReducedGraphicsConfig: {
-			Label: グラフィック設定の削減
-			Tooltip: 低負荷グラフィックモードを有効にします。ラグが気になる場合に使用してください。
-		}
-
-		FlashbangOverlays: {
-			Label: スクリーンオーバーレイ
-			Tooltip: スクリーンオーバーレイの「フラッシュバン」エフェクトを有効にします。ゲームプレイに直接影響を与えることはありません。
-		}
-
-		CreditsRecordings: {
-			Label: ボス映像 クレジット収録
-			Tooltip: クレジット中に再生するボス映像の録画を有効にします。
-		}
-
-		CameraAnimations: {
-			Label: シースレスヴォイド戦カメラ挙動
-			Tooltip: 戦闘中にCeaseless Voidがカメラの挙動を変更するかどうかを決定します。
-		}
-	}
-}
-
-Cooldowns: {
-	SealocketForcefieldCooldown: Forcefield Cooldown
-	InfiniteFlightCooldown: Infinite Flight
-	EggShieldRecharge: Egg Shield Cooldown
+UI: {
+	NoRespawn: リスポーン不可：マルチプレイ({0})ではボス1体につき1回のみ！
+	NoRespawn2: リスポーン不可：マルチプレイ({1})ではボス1体につき{0}回まで！
+	NoRespawn3: リスポーン不可：マルチプレイ({0})ではボス戦中のリスポーンはなし！
+	NoRespawn4: リスポーン不可：マルチプレイではボス戦中のリスポーンはなし！
+	NoRespawn5: リスポーン不可：マルチプレイではボス1体につき1回のみ！
+	NoRespawn6: リスポーン不可：マルチプレイではボス1体につき{0}回まで！
+	Expert: Expert Mode
+	Master: Master Mode
+	Legendary: Legendary Mode
+	Revengence: Revengence Mode
+	MRevengence: Master-Revengence Mode
+	LRevengence: Legendary-Revengence Mode
+	Death: Death Mode
+	MDeath: Master-Death Mode
+	LDeath: Legendary-Death Mode
+	Infernum: Infernum Mode
+	MInfernum: Master-Infernum Mode
+	LInfernum: Legendary-Infernum Mode
+	Primordial: Primodrial Mode
+	LPrimoridal: Legendary-Primordial Mode
 }
 
 DifficultyUI: {
-	Name: Infernum
+	Name: Ragnarok
 	ShortDescription:
 		'''
-		[c/B32E81:Deathモードとはまったく異なり、より過酷なものを求める人には、新たな挑戦となる。　　　　　　　　　　　　]
-		[c/B32E81:このモードはMasterやFor the Worthyのシードでは機能しない。]
+		[c/B32E81:Infernumの極限版であり、「Infernal Eclipse of Ragnarok」を想定した難易度。]
+		[c/B32E81:このモードは「For the Worthy」シードとは併用できない。]
 		'''
 	ExpandedDescription:
 		'''
-		 [c/B32E81:多くのボスはこれまでとは異なり、より攻撃的になる。]
-		 [c/B32E81:アドレナリンはチャージにかなり時間がかかる。]
-		 [c/FF0055:適応せよ。]
+		[c/B32E81:ワールド難易度をマスターに設定し、Infernal modeを有効化する。]
+		[c/B32E81:有効化後は、Calamityの難易度スライダーからマスターモードを解除できなくなる。]
+		[c/B32E81:敵やボスは非常に高い基礎ステータスを持ち、マルチプレイではさらに増加する。]
+		[c/FF0055:あなたは「Infernal Eclipse of Ragnarok」を制することができるか？]
+
 		'''
-	InfernumText: Infernumが有効化されました。幸運を祈る。
-	InfernumText2: Infernumが無効化されました。それなら結構だ。
+	InfernumText: 地獄の蝕が昇った...
+	InfernumText2: また一人、値しない挑戦者が去っていった。
 }
 
-ExoMechsFight: {
-	PickTwoText: 2つ選んでください。最初のメカは単独で戦い、一定のダメージを与えると、2番目のメカが召喚され、2体同時に戦うことになります。
-	ThanatosDesc: タナトス、不浸透性の装甲と無数のレーザー砲塔を備えた蛇のような兵器。
-	AresDesc: 6つのエクソ・スーパーウェポンを搭載したヘビー級の極悪非道な怪物、アレス。
-	ArtemisApolloDesc: アルテミスとアポロは、非常に機敏な機械のペアで、不安定なエネルギーを蓄えている。
+WelcomeMessage: {
+	Welcome: Infernal Eclipse of Ragnarok Mod Packへようこそ！
+	TBRNotice: 注意：Thorium Bosses Reworkedが有効です！互換性設定でHP・ダメージ・速度倍率を1に設定してください（難易度を上げたい場合を除く）。このModは現在の難易度に応じて自動でThoriumボスを調整します。
+	TBRWarning: 警告：Thorium Bosses Reworkedが無効です！このModはThoriumボスのバランスをInfernum ModeやCalamityに合わせて調整するため、導入を強く推奨します。
+	RagWarning: 警告：Ragnarokが無効です！このModがないとThoriumとCalamityの連携がうまく動作しない可能性があります。完全な体験のため有効化を強く推奨します。
+	EventTrophyNotice: 注意：More Trophies and Relicsが無効です！このModなしでは、バニラ・Calamity・Infernum以外のボスにCalamityの設定やInfernumのイントロが存在しない場合があります。完全かつバランスの取れた体験のため、有効化を強く推奨します。
+	SoulsWarning: 警告：Fargo's Souls Modが有効です！Infernum ModeはEternity Modeと互換性がなく、両方を有効化すると重大な不具合が発生する可能性があります。
+	CalMinusNotice: 注意：Calamity Minus Modが有効です！このModは全ての機能を含んでおり、Infernal Eclipse of Ragnarokの設定でCalamity Balance Changesを有効化しています。
+	CalBalNotice: 注意：Calamity Balance Changes Modが有効です！このModはSteamワークショップページに記載された機能のほとんどを既に含んでおり、Infernal Eclipse of Ragnarokの設定でCalamity Balance Changesを有効化しています。さらに、未記載の変更も多数含まれ、プレイ体験を想定より悪化させる可能性があります。
+	InfernumActive: 天才が再び地獄の蝕に挑む...
+	MPConnect: 天才が帰還し、地獄の蝕に立ち向かう...
+	InfernumForced: この世界に地獄の力が注ぎ込まれた...
+	RagnarokBalance: 注意：武器のバランスを意図した通りに保つため、「Generic Weapon Tweaks」のRagnarok MOD設定をOFFにしてください。変更が重複し、武器が想定を大幅に超える強さになります。
+	RagnarokRework: 注意：Ragnarok modとThorium Bosses Reworkedの両方が有効になっていることが検出されました。意図した難易度でプレイするには、Ragnarok Boss Config内の項目をThorium Bosses Reworkedに切り替えてください。
+	GulaVaultMessage: 開かない。より強大な悪をまず倒さねばならないようだ...
 }
 
-IntroScreen: {
-	AEWIntroScreen: {
-		TextToDisplay:
+ItemTooltip: {
+	BasicDamage: 基礎ダメージ
+	OmniShield: -Omni Shield-
+	Playtester: - Playtester Item -
+	Contributor: - Contributor Item -
+	SBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるビームをチャージする
+	NBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるネビュラを放つ
+	MBeamUsage: 左クリックを押し続けると、神話遠距離ダメージを与えるエクソビームを発射する
+	SFlight: 右クリックを押し続けると、高速で無制限の飛行が可能になる
+	StarlitForgeExtra: さらに不思議なことに、特定のアイテムさえも複製できるようだ...
+	BladecrestNerf: 邪悪な力が力の一部を吸い取っている...
+	EclipseFang: "[IEoR]: 武器エンパワーメントは有効です。"
+	ScytheThrow:
+		'''
+		右クリックで鎌を投げると、戻ってくる途中で軌道が曲がる
+		投げられた鎌はダメージが20%減少する
+		'''
+	PhoenixStaff:
+		'''
+		右クリックで炎の奔流を放ち、聖なる光を付与する
+		      聖なる光を付与された敵への全ダメージが15%増加する
+		'''
+	HolyGlare:
+		'''
+		鎌で攻撃した敵は聖なる光が付与される
+		      聖なる光が付与された敵への全ダメージが15%増加する
+		'''
+	SandstonePortalDeviceInfo:
+		'''
+		忘れられた闘技場へ転送する
+		祭壇ポータルが起動している時のみ使用可能
+		'''
+	SandstonePortalDeviceInfoMP: 忘れられた闘技場のポータルが起動後、遺された臣下、アルガスを召喚する（※現在API未使用）
+	GoldenBatRework:
+		'''
+		「正気じゃない...イカれてるのか！？」
+		敵からのコイン+30
+		時間経過で継続的にコインを生成する
+		Revengeanceドロップ
+		'''
+	BloodstainedCoin:
+		'''
+		クリティカルヒットは50％の確率で10の追加ダメージを与える
+		ダメージを受けると75％の確率で出血状態になる
+		'''
+	PutridCoin:
+		'''
+		クリティカルヒットは50％の確率で10の追加ダメージを与える
+		ダメージを受けると75％の確率で毒状態になる
+		'''
+
+	MergedCraftingTreeTooltip: {
+		Gilded: 黄金の刃の翼の効果
+		TPS:
 			'''
-			Primeval Warden
-			The Eidolon Wyrm
+			飛行、高速移動、氷上での機動力を付与
+			移動速度が12%上昇
+			水・ハチミツ・溶岩の上を歩けるようになる
+			火炎ブロックと溶岩に対する耐性を付与
+			'''
+		Hellfire:
+			'''
+			火炎系デバフのダメージを1.5倍にする（ほかのデバフ効果と重複しない）
+			全ての攻撃がヘルファイアを付与する
+			'''
+		BagOfAmmoConsume: 20％の確率で弾薬を消費しない
+		BagOfAmmoOther: 敵に命中したときや、敵を撃破時に弾薬を消費しないことがある
+		InfintyBag: アクセサリー表示がオンの場合、弾薬の代わりにヴォイドを消費する
+		SerpentsTongue:
+			'''
+			神聖ダメージが15%増加
+			クリティカルダメージが20%増加
+			敵は10%の確率で戦利品を2倍ドロップする
+			クリティカルで倒した場合は20%の確率でドロップが倍増
+			一部の攻撃が闇の力で強化される
+			神聖のライフ消費が半減するが、回復効果はそのまま
+			ヴォイド・神聖武器や回復魔法のヴォイド消費が半分になる
+			神聖武器の鎌で得られるソウルエッセンスはヴォイドを少し回復する
+			ヴォイド・光輝属性の鎌なら、ソウルエッセンスがさらに多くヴォイドを回復する
+			'''
+		ContractNerf: 回復魔法が2ライフ追加回復する
+		Tuner1:
+			'''
+			この効果はアクセサリーの表示状態に基づく
+			表示がオンの場合、以下の効果が適用される:
+			全てのインスピレーションが最大ヴォイドに加算される
+			全ての吟遊詩人武器はインスピレーションではなくヴォイドを使用する
+			インスピレーション再生ボーナスはヴォイド再生速度に変換される
+			インスピレーションノートを拾うとヴォイドが回復する
+			ただしインスピレーションノートは防具関連の効果を付与しなくなる
+			リソース強化のエンパワーメントはヴォイドステータスに対してより強力になる
+			それ以外の場合:
+			ヴォイド系吟遊詩人武器を持っているとき、インスピレーションノートを拾うとヴォイドが回復する
+			インスピレーションが尽きると、25ヴォイドを消費して全てを再充填する
+			さらに以下の効果は常時発動する:
+			全ての吟遊詩人武器は敵に命中すると衝撃波を発生させる
+			弦楽器の攻撃は敵命中時にタイル効果を発動する
+			弦楽器の投射物は貫通ごとに速度が20%上昇する
+			打楽器の攻撃は敵命中時に落下するハンマーを召喚する
+			電子楽器の投射物は大幅に高速化される
+
+			'''
+		Tuner2:
+			'''
+			この効果はアクセサリーの表示状態に基づく
+			表示がオンの場合、以下の効果が適用される:
+			全てのインスピレーションが最大ヴォイドに加算される
+			全ての吟遊詩人武器はインスピレーションではなくヴォイドを使用する
+			インスピレーション再生ボーナスはヴォイド再生速度に変換される
+			インスピレーションノートを拾うとヴォイドが回復する
+			ただし、インスピレーションノートは防具関連の効果を付与しなくなる
+			リソース強化のエンパワーメントはヴォイドステータスに対してより強力になる
+			それ以外の場合:
+			         ヴォイド系吟遊詩人武器を持っているとき、インスピレーションノートを拾うとヴォイドが回復する
+			         インスピレーションが枯渇すると、25のヴォイドを消費して全て回復する
+			'''
+		HypersonicTooltip: 「常識を超えた音の力を呼び起こせ！」
+		4DTooltip: '''"他の世界へのワームホールを作り出す音"'''
+		CrystalScorpian:
+			'''
+			ミニオン攻撃が15％の確率でクリスタルスコーピオンを生成する
+			スコーピオンが存在している間はミニオンのダメージが3増加する
+			'''
+		Skull: 敵撃破後、ミニオンとセントリー攻撃が一時的に+2ダメージされる
+		CyanPearl: セントリーの召喚ペナルティを半減
+		Watch: セントリーの持続時間が無限になり、2分かけて最大15％のダメージボーナスを得る
+		Fortress:
+			'''
+			左右に4つずつの足場を生成する
+			右クリックで足場を移動可能だが、常に左右対称になる
+			足場の上にセントリーを召喚可能
+			'''
+		FortressNoThor:
+			'''
+			ライフ自然回復が2増加する
+			左右に4つずつの足場を生成する
+			右クリックで足場を移動可能だが、常に左右対称になる
+			足場の上にセントリーを召喚可能
+			'''
+		TwoSentry: セントリー最大数2増加する
+		ThreeSentry: セントリー最大数が3増加する
+		Murky: 6回目の魔法発動は無料になり、マナコスト分を回復する
+		Hungering: 非表示時には代わりに「飢えた花」の効果を得る
+		SlagsplitterCooldown: この効果には1.5秒のクールダウンがある
+		Grace:
+			'''
+			リスポーン時間を33％短縮し、回復ライフ量を15％増加
+			リスポーン時に無敵時間と移動速度上昇を付与
+			'''
+		ChiseledBarrier:
+			'''
+			周囲に4つの飛び道具を展開する
+			ジャベリンで攻撃者を吹き飛ばす
+			'''
+		ChiseledHidden: 隠れている間は飛び道具を無効化する
+		Olympian:
+			'''
+			ヴォイドの獲得量を2増加させ、ライフ回復量を1増加させる
+			受けるダメージを7%減少させ、クリティカルヒット発生率を4%増加させる
+			'''
+		Sweet1: 移動速度を上昇させ、被弾時にも効果を発揮する
+		Sweet2: 被弾時にハチを出現させ、さらに蜂蜜バフを付与する
+		SweetAlt: 被弾時にハチと星を出現させ、さらに蜂蜜バフを付与する
+		COTS:
+			'''
+			時間経過で最大20％の被ダメージ軽減を素早く獲得する
+			被弾すると一時的にこのボーナスが-10％まで減少する
+			このボーナスが0％を超えている間は、最大ライフ回復2と1ダメージ攻撃の無効化を得る
+			'''
+		DA:
+			'''
+			残り体力に応じて無敵時間を追加で付与する
+			この効果はHP満タン時で10フレーム、HP25％以下で40フレームまで増加する
+			'''
+		Mantle: 10秒ごとに自身のダメージ系デバフを1つ解除
+		TerraDefend: HP25%以下で急速にライフ回復し、防御力上昇
+		ScytheScale: DoG撃破まで成長を続ける
+		ScytheSummon: 召喚がある場合は与ダメージ減少
+		ScytheSummonOn: 召喚中は与ダメージ減少
+		OneirophobiaSummon: 右クリック長押しでルディック・インストゥルメントを召喚する
+		SoulEssence: ソウルエッセンスを素早く獲得する
+		Magneto: 地面にあるローグアイテムの回収範囲を拡大
+		Bone:
+			'''
+			ローグアイテムを拾うと33%の確率で複製し、ローグ攻撃速度を上昇  
+			戦闘中以外は0.5秒ごとに1回のみ発動  
+			'''
+		Scuttler: ステルス攻撃の飛び道具が破壊されると宝石スパイクを生成
+		BloodyFilthy: ステルス攻撃時に防御貫通+8、ダメージ+8%、HPを2回復
+		NoExhaustion: 装備中は消耗を解除する
+		Prisma: 一定間隔で最大16防御力を無視する波動を放つ
+		Prisma2: 体力が低いほど多くの波動を放つ
+		Prisma3: 非表示時は波動を発生しない
+		Midnight1: クリティカル時に敵を引き寄せる悪夢の腕を発生させ、ダメージは10%
+		Midnight2: クールダウンは6秒
+		SHS:
+			'''
+			被弾時に氷の破片で自身を包む
+			最大ライフ+20
+			'''
+		MoltenScale: 近くの敵を溶かし尽くす
+		PlasmaGen:
+			'''
+			敵の飛び道具を焼く炎のバリアを生成  
+			飛び道具を焼いた後は10秒間の再生時間が必要  
+			ライフが25%未満の時、再生速度が2倍になる  
+			'''
+		OmniIns: 最大インスピレーションを5増加
+		OmniEmp: 所持する固有の強化ごとに移動速度+2%、演奏速度+1%
+		ShinobiNerf: この効果には2秒のクールダウンがある
+		ShinobiEffect:
+			'''
+			投擲のクリティカル率が6%上昇
+			2回連続でクリティカルヒットを決めると、暗黒の稲妻を放出し、一時的に投擲速度が上昇する
+			この効果には2秒のクールダウンがある
+			'''
+		CloverNerf: ライフ吸収効果は0.5秒のクールダウンがある
+		SpiritInsignia:
+			'''
+			ヴォイドの獲得量を1増加させ、ヴォイドの再生速度を25%向上させる
+			ルクス以外の精霊への与ダメージを2倍にする
+			'''
+		AscendantInsignia:
+			'''
+			移動速度とジャンプ速度が10%上昇し、加速度が1.1倍になる
+			アセンダントの記章のキーを押すと昇華の力を得て、4秒間無限飛行が可能になる
+			昇華は40秒のクールダウンがある
+			'''
+		GildedVoid: 発動中はヴォイドの消耗を3増加させる
+		CalSoaringNerf: "[Calamity]: 無限飛行はできなくなった"
+		MonsterCharm: 戦闘中、防御貫通、防御力、およびライフ回復量が時間経過とともに増加する
+		GreedierRing:
+			'''
+			採掘速度が5%上昇し、クリティカル率が5%上昇する
+			ダメージを受けた時やヴォイドを得た時にコインを生成し、死亡してもコインを失わない
+			採掘したブロックからコインや沈殿ブロックなどの追加資源がドロップする可能性がある
 			'''
 	}
 
-	AnahitaIntroScreen: {
-		TextToDisplay:
-			'''
-			Forgotten Deity
-			Anahita
-			'''
+	AmmoConversion: {
+		Mycelium: 菌糸の集中攻撃を放つ
 	}
 
-	AquaticScourgeIntroScreen: {
-		TextToDisplay:
-			'''
-			Sulphuric Serpent
-			The Aquatic Scourge
-			'''
+	WingInfo: {
+		5: ライフ自然回復がさらに5増加
+		10: ライフ自然回復がさらに10増加
+		FasterIvory: ホワイトドワーフアーマーを着用している間、フレアの発動速度が2倍になる
+		GelDash: ダッシュ能力を付与し、かつ他のダッシュを強化する
 	}
 
-	AresIntroScreen: {
-		TextToDisplay:
-			'''
-			The Ultimate War Machine
-			Ares
-			'''
-		JokeTextToDisplay:
-			'''
-			Prediction Game Master
-			Ares
-			'''
+	MythicTooltips: {
+		Base: -{0} Signature Weapon-
+		Argus: Argus'
+		Your: Your
+		Draedon: Draedon's
+		Solyn: Solyn's
+		Anahita: Anahita's
+		Amidias: Amidias'
+		CalClone: Shadow of Calamitas'
+		Cultist: The Lunatic Cultist's
+		ND: The Deity's
+		Mars: Mars'
 	}
 
-	ArtemisAndApolloIntroScreen: {
-		TextToDisplay:
-			'''
-			The Supreme Hunters
-			Artemis and Apollo
-			'''
+	AstrageldonRelic: {
+		Line1: あなたは大いなる苦難を自ら選び取った。
+		Line2: この選択は時に苦しく困難だったとしても、
+		Line3: 乗り越えた困難は必ず価値ある実を結ぶ。
 	}
 
-	AstrumAureusIntroScreen: {
-		TextToDisplay:
-			'''
-			The Infected Stomper
-			Astrum Aureus
-			'''
-	}
+	AvatarRelic:
+		'''
+		よくやった。
+		次は最後の遺物を探せ、最後の試練が待っている。
+		'''
+	GoozmaRelic:
+		'''
+		面白いと思わないか？
+		強者たちを制しても、君はさらに高位の存在へ挑み続ける...
+		この幸運がいつまでも続くと思わないことだ。
+		'''
+	NamelessRelic: 試練を乗り越えた。
+	NoxusRelic:
+		'''
+		もしかして、このアイテムをチートで出した？
+		それとも本当にワークショップにもうない俺の超マイナーなMODをインストールしたの？
+		どちらにせよ、おめでとうと言うべきか...多分。
+		'''
+	DeviRelic:
+		'''
+		三兄弟の末っ子。
+		序盤ではかなり混沌としている存在だが、それを自信をもって打ち負かした。
+		今のうちに戦利品の強化とパワーアップを楽しむがいい…
+		'''
+	AbomRelic:
+		'''
+		三兄弟の次子。
+		以前の激戦から時間が経ったが、今回の戦いはそれよりも格段に過酷だった。
+		それよりも強いヤツに挑む覚悟はあるか？
+		'''
+	MutantRelic:
+		'''
+		三兄弟の長男にして最強。
+		tMod界でも最難関とされるボスの一角を打ち倒した。永遠が手に入った今、もう何があっても止められまい。
+		次に何を求めるかは君次第だ。
+		'''
+	EridanusRelic:
+		'''
+		ゴールはもうすぐそこだ。
+		神を求める者たちの軍勢が、君と永遠の間に立つ最後の壁だ。
+		新しいクラフト台を存分に活用しろ...
+		'''
+	AstralCommunicatorInfernum1: アストラゲルドンをアストラル汚染地帯に召喚する
+	AstralCommunicatorInfernum2: 次元を超えたスライムはまだ飢えているようだ...
+}
 
-	AstrumDeusIntroScreen: {
-		TextToDisplay:
-			'''
-			The Star Weaver
-			Astrum Deus
-			'''
-	}
+Lore: {
+	Abom:
+		'''
+		三兄弟の次男で、私が見た中でも特に怠け者の一人だ。
+		アボミネーションは天候を完全に支配し侵入者を排除する力を持つが、本当に怠惰で、武器を自分の手に融合させてしまうほどだ。
+		彼の武器は魂そのものを分裂させる力を持ち、あらゆる超常現象を行使できる。
+		幸いにも彼はミュータントへの配慮から天界の攻撃を使わなかった。これがなければ君が勝つことは不可能だったかもしれない。
+		'''
+	Devi:
+		'''
+		三兄弟の末っ子で、かつ最弱。
+		旅の途中で珍しいモンスター素材を多数集めており、機嫌が良ければそれを他人に売ってくれる。
+		だが機嫌が悪いと、恋に狂った加虐性をむき出しにする。
+		デビアントは原初の光と純粋な愛の両方を使って呪文を唱え、邪悪で“生きている”斧を振るう。
+		君が彼女に勝ったとはいえ、彼は死を恐れているようには全く見えない。それどころか、ここまで全力で戦った姿はこれまで見たことがない。
+		'''
+	Mutant:
+		'''
+		三兄弟の長男で、最強。
+		弟達はミュータントを兄と呼ぶが、本人は性別を明かすことを拒んでいる。
+		彼は永遠の守護者で、究極の力の化身とされ、次元の裂け目の向こうの別世界から来たと信じられている。
+		君を除けば、テラリアの地に現れた中で最強クラスの存在であり、戦闘のあらゆる面を支配する力を持つ。
+		それでも彼は自ら戦うより世界の戦いを眺めることを好んでいた。
+		彼は常に強い者を探していると言っており、どうやらその相手を見つけたようだ。
+		'''
+	DylanLore:
+		'''
+		ふむ...その人物のことを知っているとは驚きだ。
+		最初に彼を見つけた時、私たちは彼を神だと思った。だが実際には、彼にはオーリックソウルがなかった。
+		彼を迎え入れると、鋼鉄だけでない強力な元素付与装備や爆弾の作り方を教えてくれた。
+		その発想は私の軍の戦力を大きく引き上げたが、彼自身が戦うことはなかった。
 
-	BereftVassalIntroScreen: {
-		TextToDisplay:
-			'''
-			Argus
-			The Bereft Vassal
-			'''
-	}
+		ある日、彼の部屋を訪れると、そこには一枚の紙切れ以外何もなかった。
+		文字は読めなかったが、絵から察するにそれは何らかの指輪らしい。
+		君なら、きっと作り出せるだろう。
 
-	BetsyIntroScreen: {
-		TextToDisplay:
-			'''
-			Mother of Wyverns
-			Betsy
-			'''
-	}
+		–続報をお楽しみに：Infernal Eclipse of Ragnarok–
+		'''
+	DylanSoltan:
+		'''
+		このメモを読んでいるあなたへ  
+		私は未来に「ソルタン」という名で呼ばれる人物が現れることを予見している  
+		多くの人は彼を厄介だと感じるだろう  
+		そのため、私はこのチップノートをあなたの役に立つように設計した  
 
-	BrainOfCthulhuIntroScreen: {
-		TextToDisplay:
-			'''
-			Eldritch Mind
-			The Brain of Cthulhu
-			'''
-	}
+		彼の厄介な性質に対抗するため、このメモに付属しているマイクロチップは  
+		周囲の召喚パワーを他の力へ変換する機能を持っている  
+		さらに、あなたがソルタンをいじめることを完全に許可する  
 
-	BrimstoneElementalIntroScreen: {
-		TextToDisplay:
-			'''
-			Scarred Numen
-			The Brimstone Elemental
-			'''
-	}
+		私はこのチップノートを2つだけ作り、見つけた中で最も強力な2人に渡した  
+		もしあなたがそのうちの一人、あるいは別の誰かなら、この装置を賢く使ってほしい…
+		'''
+	MysteriousDiary:
+		'''
+		最初のページをめくると、そこには数行だけが書かれている。
 
-	CalamitasShadowIntroScreen: {
-		TextToDisplay:
-			'''
-			False Witch
-			Calamitas' Shadow
-			'''
-	}
+		「俺は一体何者だ？　それでもまだ生きていられるのはなぜだ？」
 
-	CeaselessVoidIntroScreen: {
-		TextToDisplay:
-			'''
-			The Never-Ending
-			Ceaseless Void
-			'''
-	}
+		それ以外のページはすべて白紙だ...
 
-	CrabulonIntroScreen: {
-		TextToDisplay:
-			'''
-			The Reanimated Carcass
-			Crabulon
-			'''
-	}
+		[c/E3AF40:この本は異様な雰囲気を帯びている...ヤリムや神すら超える何かが存在するのかもしれない]
 
-	CryogenIntroScreen: {
-		TextToDisplay:
-			'''
-			The Unstable Prison
-			Cryogen
-			'''
-	}
+		–続報をお楽しみに：Infernal Eclipse of Ragnarok–
+		'''
+	Provi:
+		'''
+		かつて平和を夢見たことがある。なぜそんな夢を見たのかはわからない。
+		この世界の外に何かがあると知って以来、時折、視界の端に奇妙な女性が現れるようになった。
+		気づいたときには彼女は消え、頭の中に一つの言葉だけが響く。
+		　　
+		「約束」
+		　
+		ソーンが彼らに何を求めているのかはわからない。
+		...だが、君なら正しい選択をするだろう。
+		'''
+	Mirror:
+		'''
+		長い間それを覗き込んでみたが、他の鏡と同じく、そこに映るのは自分だけだった。
+		だが、何かが違う。おかしい。どこか歪んでいる。
+		私は気にしないことにしたが、今でもあの時の自分の視線が頭を突き抜けるように感じる。
+		ここまで来たなら、最も困難なのは自分自身と向き合うことだ。
+		'''
+	Subspace:
+		'''
+		次元の狭間をさまよう、謎めいた蛇のような存在の伝承がある。
+		多くの者は、単独で挑むには危険すぎると言い、虚無のエネルギーで瞬時に命を奪われると語る。
+		だが、この個体は...どうやらまだ幼いようだ。
+		'''
+	Polaris:
+		'''
+		私が最初にドレイドンを軍に迎え入れた時、彼はすぐに「極秘プロジェクト」と称する何かに取り掛かり、詳細は一切語らなかった。
+		やがて彼は最初の凶悪な死の兵器を披露した。
+		それが軍にふさわしいとすぐに確信した。そして、その技術力は...非常に有望だった。
+		'''
+	Putrid:
+		'''
+		どうやら失敗作らしい。
+		理由は不明だが、地表に生えるピーナッツに異様な執着を示す。
+		この世界にいる他のゼラチン状の脅威ほど強くはないが、それでも侮れない存在だ。
+		'''
+	Lux:
+		'''
+		聖域には多くの守護者がいるが、混沌の精霊に並ぶものはいない。
+		だが、それらが知的に利用できるほど弱体化した例はなく、結局ドレイドンは封じ込めるためだけに機械へと押し込めた。
+		そう考えると、討伐後に再びその残滓を吸収しようとしたコレクターの行動は、奇妙に思える。実に風変わりだ。
+		'''
+	Pharoah:
+		'''
+		かつてこの地の砂漠にはファラオがいた。
+		砂の王国は彼のものであり、黄金の力で支配していた。
+		呪いによって命を落としたのは残念だ。もし味方にできていれば、強力な軍勢の一員となっただろう。
+		今や残されているのは、砂に埋もれた彼の墓だけだ。
+		'''
+	Advisor:
+		'''
+		この「アドバイザー」という存在とその起源について、私は詳しく知らない。
+		だが、テラリアの地殻深くに眠る虚無のエネルギーと強く共鳴していたようだ。
+		ここに鎖で繋がれた者として、君ならその秘密の答えを、討伐後にその本質を吸収したコレクターから得られるかもしれない。
+		'''
+	Glowmoth:
+		'''
+		この蛾のような生き物は興味深い。というのも、同じく蛍光を放ち、キノコに覆われた洞窟に住むもう一つの似た獣と棲み分けているからだ。
+		それは虚無を思わせるような生物発光を放っており...おそらく洞窟に秘められた虚無のエネルギーに惹かれて棲みついているのだろうか。
+		いずれにせよ、真相はわからない。
+		'''
+}
 
-	CultistIntroScreen: {
-		TextToDisplay:
-			'''
-			Ancient Doomsayer
-			The Lunatic Cultist
-			'''
-	}
-
-	DeerclopsIntroScreen: {
-		TextToDisplay:
-			'''
-			Winter Beast
-			The Deerclops
-			'''
-	}
-
-	DesertScourgeIntroScreen: {
-		TextToDisplay:
-			'''
-			Dried Glutton
-			The Desert Scourge
-			'''
-	}
-
-	DestroyerIntroScreen: {
-		TextToDisplay:
-			'''
-			World Excavator
-			The Destroyer
-			'''
-	}
-
-	DoGIntroScreen: {
-		TextToDisplay:
-			'''
-			The Conceited
-			Devourer of Gods
-			'''
-	}
-
-	DraedonIntroScreen: {
-		TextToDisplay:
-			'''
-			The Cosmic Engineer
-			Draedon
-			'''
-	}
-
-	DragonfollyIntroScreen: {
-		TextToDisplay:
-			'''
-			False Offspring
-			The Dragonfolly
-			'''
-	}
-
-	DreadnautilusIntroScreen: {
-		TextToDisplay:
-			'''
-			Nightmare of the Blood Moon
-			Dreadnautilus
-			'''
-	}
-
-	DukeFishronIntroScreen: {
-		TextToDisplay:
-			'''
-			Terror of the Seas
-			Duke Fishron
-			'''
-	}
-
-	EaterOfWorldsIntroScreen: {
-		TextToDisplay:
-			'''
-			Terror of the Corruption
-			The Eater of Worlds
-			'''
-	}
-
-	EmpressOfLightIntroScreen: {
-		TextToDisplay:
-			'''
-			Prismatic Fae
-			The Empress of Light
-			'''
-	}
-
-	EyeOfCthulhuIntroScreen: {
-		TextToDisplay:
-			'''
-			Demonic Seer
-			The Eye of Cthulhu
-			'''
-	}
-
-	GolemIntroScreen: {
-		TextToDisplay:
-			'''
-			The Ancient Idol
-			Golem
-			'''
-		JokeTextToDisplay:
-			'''
-			NUMBER ! SALSMAN
-			[Circa 1997]
-			'''
-	}
-
-	GreatSandSharkIntroScreen: {
-		TextToDisplay:
-			'''
-			Taurus
-			The Great Sand Shark
-			'''
-	}
-
-	HiveMindIntroScreen: {
-		TextToDisplay:
-			'''
-			Collective Growth
-			The Hive Mind
-			'''
-	}
-
-	KingSlimeIntroScreen: {
-		TextToDisplay:
-			'''
-			Monarch of the Gelatinous
-			King Slime
-			'''
-	}
-
-	LeviathanIntroScreen: {
-		TextToDisplay:
-			'''
-			Timeworn Beast
-			The Leviathan
-			'''
-	}
-
-	MoonLordIntroScreen: {
-		TextToDisplay:
-			'''
-			Eldritch Remains
-			The Moon Lord
-			'''
-	}
-
-	OldDukeIntroScreen: {
-		TextToDisplay:
-			'''
-			Sulphuric Terror
-			The Old Duke
-			'''
-		JokeTextToDisplay:
-			'''
-			Speed Demon
-			The Old Duke
-			'''
-	}
-
-	PBGIntroScreen: {
-		TextToDisplay:
-			'''
-			Biomechanical Colossus
-			The Plaguebringer Goliath
-			'''
-	}
-
-	PerforatorHiveIntroScreen: {
-		TextToDisplay:
-			'''
-			Bloodied Parasites
-			The Perforators
-			'''
-	}
-
-	PlanteraIntroScreen: {
-		TextToDisplay:
-			'''
-			The Overgrowth
-			Plantera
-			'''
-	}
-
-	PolterghastIntroScreen: {
-		TextToDisplay:
-			'''
-			Wrathful Coalescence
-			The Polterghast
-			'''
-	}
-
-	ProfanedGuardiansIntroScreen: {
-		TextToDisplay:
-			'''
-			Disciples of Purity
-			The Profaned Guardians
-			'''
-	}
-
-	ProfanedTempleIntroScreen: {
-		TextToDisplay:
-			'''
-			Cleansed Site
-			The Profaned Garden
-			'''
-	}
-
-	ProvidenceIntroScreen: {
-		TextToDisplay:
-			'''
-			The Blaze of Absolution
-			Providence
-			'''
-		EnragedTextToDisplay:
-			'''
-			The Blaze of Purity
-			Providence
-			'''
-	}
-
-	QueenBeeIntroScreen: {
-		TextToDisplay:
-			'''
-			Hive Matriarch
-			Queen Bee
-			'''
-	}
-
-	QueenSlimeIntroScreen: {
-		TextToDisplay:
-			'''
-			Hallowed Mass
-			The Queen Slime
-			'''
-	}
-
-	RavagerIntroScreen: {
-		TextToDisplay:
-			'''
-			The Fortress of Flesh
-			Ravager
-			'''
-	}
-
-	SCalIntroScreen: {
-		TextToDisplay:
-			'''
-			The Brimstone Witch
-			Calamitas
-			'''
-	}
-
-	SignusIntroScreen: {
-		TextToDisplay:
-			'''
-			The Fathomless Assassin
-			Signus
-			'''
-	}
-
-	SkeletronIntroScreen: {
-		TextToDisplay:
-			'''
-			The Old Man's Curse
-			Skeletron
-			'''
-	}
-
-	SkeletronPrimeIntroScreen: {
-		TextToDisplay:
-			'''
-			Contraption of Dread
-			Skeletron Prime
-			'''
-	}
-
-	SlimeGodIntroScreen: {
-		TextToDisplay:
-			'''
-			Primordial Formation
-			The Slime God
-			'''
-	}
-
-	StormWeaverIntroScreen: {
-		TextToDisplay:
-			'''
-			Atmospheric Predator
-			The Storm Weaver
-			'''
-	}
-
-	TerminusIntroScreen: {
-		TextToDisplay: You found the Terminus!
-	}
-
-	ThanatosIntroScreen: {
-		TextToDisplay:
-			'''
-			The Perfect Annihilator
-			Thanatos
-			'''
-	}
-
-	TwinsIntroScreen: {
-		TextToDisplay:
-			'''
-			Mechanical Observers
-			The Twins
-			'''
-	}
-
-	WoFIntroScreen: {
-		TextToDisplay:
-			'''
-			Hungering Conglomeration
-			The Wall of Flesh
-			'''
-	}
-
-	YharonIntroScreen: {
-		TextToDisplay:
-			'''
-			Unwavering Guardian
-			Yharon
-			'''
-		JokeTextToDisplay:
-			'''
-			Grand
-			Yharon
-			'''
-	}
+LegendaryTooltip: {
+	Base: この武器は強敵に打ち勝つごとに力を増すかもしれない...
 }
 
 Items: {
-	EnrageTooltip: 憤怒
-	DeveloperItem: "[c/{0}:~ Developer Item ~]"
-	InfernalRelicText: 地獄の炎に包まれている
+	SandstonePortalDevice: {
+		DisplayName: 砂嵐の転移装置
+		Tooltip: ""
+	}
+
+	ChromaticMassInABottle: {
+		Tooltip: 「クログナーが何かを企んでいるのは明らかだったが、アーロンはこのエネルギーの存在を無視できなかった」
+		DisplayName: 瓶詰めのクロマティックマス
+	}
+
+	Swordofthe14thGlitch: {
+		DisplayName: 第14のグリッチの剣
+		Tooltip: 「グリッチの真の力を解き放て！」
+	}
+
+	BossRushTier6MusicBox: {
+		Tooltip: psykomatic制作の「Descent Of Divinities」を再生する
+		DisplayName: オルゴール（ボスラッシュ - ティア6）
+	}
+
+	NovaBomb: {
+		DisplayName: ノヴァボム
+		Tooltip:
+			'''
+			旅人のもっとも神秘的な力を引き出し、爆発を放つ
+			右クリックでブラックホールを早めに収束させる
+			「心配するなウィロー、俺ひとりでいける」
+			'''
+	}
+
+	BossRushTierNamelessMusicBox: {
+		Tooltip: CDMusic制作の「TWISTED GARDEN [Remix]」を再生する
+		DisplayName: オルゴール（ボスラッシュ - ティア???）
+	}
+
+	BossRushEncoreMusicBox: {
+		Tooltip: CDMusic制作の「Ensemble of Fools (Encore Mix)」を再生する
+		DisplayName: オルゴール（ボスラッシュ - アンコール）
+	}
+
+	StellarSabre: {
+		DisplayName: ステラーセイバー
+		Tooltip: ""
+
+		Progression: {
+			WoF:
+				'''
+				地獄の番人を討ち、さらなる力を手に入れよ...
+				追加の力はまだ得られていない...
+				'''
+			Mechs:
+				'''
+				ウォール・オブ・フレッシュを撃破したことで、この剣は追加の星を発射するようになった
+				機械たちを討ち、さらなる力を手に入れよ...
+				'''
+			Plantera:
+				'''
+				ドレイドンの機械を撃破したことで、デイブロークンを付与するようになった
+				ジャングルの守護者を討ち、さらなる力を手に入れよ...
+				'''
+			Golem:
+				'''
+				プランテラを撃破したことで、星が命中時に分裂するようになった
+				ゴーレムを討ち、さらなる力を手に入れよ...
+				'''
+			Cultist:
+				'''
+				ゴーレムを撃破したことで、星が敵を追尾するようになった
+				狂気の崇拝者を討ち、さらなる力を手に入れよ...
+				'''
+			MoonLord:
+				'''
+				狂信者を撃破したことで、星が衝突時に爆発するようになった
+				ムーンロードを討ち、さらなる力を手に入れよ...
+				'''
+			Full: ステラーセイバーは完全に覚醒し、真の力を解き放った！
+		}
+
+		Lore: 「それでもなお、ザンダーが攻撃することを拒んだ人物が一人だけいた」
+	}
+
+	ExoSights: {
+		DisplayName: エクソサイト
+		Tooltip: ""
+		SOTSBardHealerTooltip:
+			'''
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、ダメージを与える火花を放ち、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナとインスピレーションを回復する
+			ライフ吸収には0.5秒のクールダウンがある
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
+			'''
+		ThoriumTooltip:
+			'''
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、ダメージを与える火花を放ち、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナを回復する
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
+			'''
+		DefaultTooltip:
+			'''
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナを回復する
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
+
+			'''
+		Lore: ドレイドンからエクソプリズムを得たことで、エレリアンはついにスーツの精神AIを完璧に仕上げる力を手にした...そして今、暴君を狙うその視界に捉えたのだ
+	}
 
 	Lore: {
-		KnowledgeBereftVassal: {
-			Lore:
-				'''
-				孤独な仲間意識を持つ二人組。
-				かつて高名な戦士だったアルガスは、イルメリスの廃墟から出てきた数少ない生き残りの一人だったようだ。
-				目的もなく、彼はこの謎めいた廃墟に居座り、あなたが到着するまで、静かに時の流れを観測していた。
-				彼の辿った運命は、誤った独善の結果だ。大義を追い求めるあまり、無意味な苦痛を与えてはならない。
-				'''
-			DisplayName: 遺された臣下
+		MysteriousDiary: {
+			DisplayName: 謎めいた日記
+		}
+
+		LorePolaris: {
+			DisplayName: ポラリス
+		}
+
+		LoreAdvisor: {
+			DisplayName: アドバイザー
+		}
+
+		LoreGlowmoth: {
+			DisplayName: グロウモス
+		}
+
+		LoreLux: {
+			DisplayName: ルクス
+		}
+
+		LorePharaoh: {
+			DisplayName: ファラオの呪い
+		}
+
+		LorePutrid: {
+			DisplayName: 腐ったピンキー
+		}
+
+		LoreSerpent: {
+			DisplayName: 亜空の大蛇
+		}
+
+		LoreProvi: {
+			DisplayName: ギャラクティカ
+		}
+
+		LoreMirror: {
+			DisplayName: 鏡
+		}
+
+		LoreDylan: {
+			DisplayName: ディラン
+		}
+
+		LoreAbominationn: {
+			DisplayName: アボミネーション
+		}
+
+		LoreDeviantt: {
+			DisplayName: デビアント
+		}
+
+		LoreMutant: {
+			DisplayName: ミュータント
+		}
+
+		SoltanBullyingSlip: {
+			DisplayName: ディランの対ソルタン用プログラムメモリー
 		}
 	}
 
-	CelestialSigil: {
-		SummoningText:
-			'''
-			ムーンロードを召喚する
-			プレイヤーの位置にアリーナを生成する
-			消耗品ではない
-			'''
+	CatastrophicFabricationsMusicBox: {
+		DisplayName: オルゴール（エクソメカ - Infernumモード）
+		Tooltip: PinpinNeon制作の「Catastrophic Fabrications」を再生する
 	}
 
-	ProfanedShard: {
-		SummoningText: 地底世界の右端にある冒涜された庭園で使用すると、冒涜された守護者たちを召喚する
-		GardenWarning:
-			'''
-			あなたの世界には現在、冒涜された庭園がありません。ムーンロードをもう一度倒し、庭園を生成してください。
-			この場合、必ず地獄の回路図を先に入手してください。
-			'''
+	EyeMusicBox: {
+		DisplayName: オルゴール（クトゥルフの目 - Infernumモード）
+		Tooltip: PinpinNeon制作の「Seer of the Night」を再生する
 	}
 
-	EyeofDesolation: {
-		SummoningText: 夜間に使用すると {0} を召喚する
+	InfectedMothwingSpore: {
+		DisplayName: 感染した蛾の羽胞子
+		Tooltip: ""
 	}
 
-	ProfanedCore: {
-		SummoningText: 地底世界の右端にある冒涜された神殿の祭壇で使用すると、プロヴィデンスを召喚する
+	BeeMusicBox: {
+		DisplayName: オルゴール（クイーンビー - Infernumモード）
+		Tooltip: PinpinNeon制作の「Royal Retaliation」を再生する
 	}
 
-	RuneofKos: {
-		DeveloperText: シースレスヴォイドはダンジョンの奥底でしか戦えない
+	CultistMusicBox: {
+		DisplayName: オルゴール（狂気の崇拝者 - Infernumモード）
+		Tooltip: PinpinNeon制作の「Eidolic Ancestry ~ Ancient Doomsayer」を再生する
 	}
 
-	SandstormsCore: {
-		PortalDetail: 忘れられた闘技場への扉を開く
-		GatewayWarning: あなたのワールドには現在ロスト・ゲートウェイがありません。狂気の崇拝者をもう一度倒して生成してください。
+	GolemMusicBox: {
+		DisplayName: オルゴール（ゴーレム - Infernumモード）
+		Tooltip: PinpinNeon制作の「Icon of the Sun」を再生する
 	}
 
-	LihzahrdPowerCell: {
-		SummoningText:
-			'''
-			トカゲ族の祭壇で使用するとゴーレムを召喚する
-			祭壇の周囲に長方形のアリーナを召喚する
-			祭壇が神殿の中にある場合、アリーナ内のブロックは壊れる
-			'''
+	GrandThunderBirdRelic: {
+		DisplayName: グランドサンダーバードのレリック
+		Tooltip: ""
 	}
 
-	CherishedSealocket: {
-		DisplayName: 大切な海のペンダント
+	BurriedChampionRelic: {
+		DisplayName: 埋もれた英雄のレリック
+		Tooltip: ""
+	}
+
+	CorpseBloomRelic: {
+		DisplayName: コープスブルームのレリック
+		Tooltip: ""
+	}
+
+	QueenJellyfishRelic: {
+		DisplayName: 女王クラゲのレリック
+		Tooltip: ""
+	}
+
+	ProphecyMusicBox: {
+		DisplayName: オルゴール（予言）
+		Tooltip: theforge129制作の「Reality of the Prophecy」を再生する
+	}
+
+	SuspiciousLookingPumpkin: {
+		DisplayName: 怪しいカボチャ
 		Tooltip:
 			'''
-			2ヒット後に消滅する水のバリアを付与する
-			バリアが張られているとき、強打のダメージが60%減少し、ダメージが12%増加する
-			バリアは90秒後に再び展開される
+			古代の祭壇で使用するとリッチを召喚する
+			消費しない
 			'''
 	}
 
-	FlowerOfTheOcean: {
-		DisplayName: 大海の花
-		Tooltip:
-			'''
-			水中での視認性を大幅に向上
-			水中のビジュアル効果を追加
-			'''
+	AstrageldonRelic: {
+		DisplayName: アストラゲルドンのレリック
+		Tooltip: ""
 	}
 
-	Purity: {
-		DisplayName: 純潔
-		Tooltip:
-			'''
-			ダメージが1.4倍になり、攻撃速度が40%増加する
-			ミニオンはこのダメージボーナスの恩恵を受けることができない
-			夜陰の衰弱に対する耐性を与える
-			[c/ff5d5d:クリティカルが発生しなくなる]
-			[c/59aae7:「太陽の下でガラスのカエルを追いかける2人の兄弟のようだ」]
-			'''
+	SubspaceSpawner: {
+		DisplayName: Subspace Spawner
+		Tooltip: ""
 	}
 
-	SakuraBloom: {
-		DisplayName: 桜の花
-		Tooltip:
-			'''
-			花が咲いているときの愛がいかに美しいか、そしてなぜ簡単に枯れてしまうかを表している。これさえあれば思い出を忘れずにいられるかもしれない...？
-			一時的なもの
-			'''
+	AvatarOfEmptinessRelic: {
+		DisplayName: 虚無の化身のレリック
+		Tooltip: ""
+	}
 
-		TooltipEffect: {
-			FirstText: 花が咲いているときの
-			SecondText: 愛
-			ThirdText: がいかに美しいか、そしてなぜ簡単に枯れてしまうかを表している。
-			FourthText: これさえあれば
-			FifthText: 思い出
-			SixthText: を忘れずにいられるかもしれない...？
+	GoozmaRelic: {
+		DisplayName: グーズマのレリック
+		Tooltip: ""
+	}
+
+	NamelessDeityRelic: {
+		DisplayName: 無名の神のレリック
+		Tooltip: ""
+	}
+
+	LepusRelic: {
+		DisplayName: レパスのレリック
+		Tooltip: ""
+	}
+
+	OcramRelic: {
+		DisplayName: オクラムのレリック
+		Tooltip: ""
+	}
+
+	TurkorTheUngratefulRelic: {
+		DisplayName: おんしらずタルコルのレリック
+		Tooltip: ""
+	}
+
+	AdvisorRelic: {
+		DisplayName: アドバイザーのレリック
+		Tooltip: ""
+	}
+
+	ExcavatorRelic: {
+		DisplayName: エクスカベーターのレリック
+		Tooltip: ""
+	}
+
+	GlowmothRelic: {
+		DisplayName: グロウモスのレリック
+		Tooltip: ""
+	}
+
+	PolarisRelic: {
+		DisplayName: ポラリスのレリック
+		Tooltip: ""
+	}
+
+	PutridPinkyRelic: {
+		DisplayName: 腐ったピンキーのレリック
+		Tooltip: ""
+	}
+
+	SubspaceSerpentRelic: {
+		DisplayName: 亜空の大蛇のレリック
+		Tooltip: ""
+	}
+
+	BoreanStriderRelic: {
+		DisplayName: ボレアンストライダーのレリック
+		Tooltip: ""
+	}
+
+	FallenBeholderRelic: {
+		DisplayName: フォールンビホルダーのレリック
+		Tooltip: ""
+	}
+
+	ForgottenOneRelic: {
+		DisplayName: 忘れられた者のレリック
+		Tooltip: ""
+	}
+
+	GraniteEnergyStormRelic: {
+		DisplayName: グラニットエナジーストームのレリック
+		Tooltip: ""
+	}
+
+	LichRelic: {
+		DisplayName: リッチのレリック
+		Tooltip: ""
+	}
+
+	PatchWerkRelic: {
+		DisplayName: つぎはぎゾンビのレリック
+		Tooltip: ""
+	}
+
+	PrimordialsRelic: {
+		DisplayName: プライモーディアルズのレリック
+		Tooltip: ""
+	}
+
+	StarScouterRelic: {
+		DisplayName: スタースカウターのレリック
+		Tooltip: ""
+	}
+
+	ViscountRelic: {
+		DisplayName: ヴァイカウントのレリック
+		Tooltip: ""
+	}
+
+	Lycanroc: {
+		DisplayName: ライコンロック
+		Tooltip: ""
+
+		Progression: {
+			WoF:
+				'''
+				地獄の番人を討ち、さらなる力を手に入れよ...
+				新たな力はまだ得られていない...
+				'''
+			Mechs:
+				'''
+				ウォール・オブ・フレッシュを倒したことで、この武器の弾丸は老朽化を付与するようになった
+				機械たちを討ち、さらなる力を手に入れよ...
+				'''
+			Plantera:
+				'''
+				ドレドンの機械を倒したことで、この武器は通常弾を高速弾に変換するようになった
+				ジャングルの守護者を討ち、さらなる力を手に入れよ...
+				'''
+			Golem:
+				'''
+				プランテラを倒したことで、怒りによってこの武器は驚異的な速度で発射されるようになった
+				寺院のゴーレムを討ち、さらなる力を手に入れよ...
+				'''
+			Cultist:
+				'''
+				ゴーレムを倒したことで、アドレナリン発動中は必ずクリティカルヒットが発生するようになった
+				狂気の崇拝者を討ち、さらなる力を手に入れよ...
+				'''
+			MoonLord:
+				'''
+				狂信者を倒したことで、この武器は確率で強力なクリティカルを発動するようになった
+				ムーンロードを討ち、さらなる力を手に入れよ...
+				'''
+			Full: ライコンロックは完全に覚醒し、真の力を解き放った！
 		}
+
+		Lore: 「どうするつもりだ？俺を殺すのか？」
 	}
 
-	BereftVassalBossBag: {
-		DisplayName: トレジャーバッグ (遺された臣下)
-		Tooltip: <right>で開く
-	}
-
-	BrimstoneCrescentStaff: {
-		DisplayName: ブリムストーンのクレセントスタッフ
-		Tooltip:
-			'''
-			杖を使用することで強力なシールドが発動する
-			シールドが発動している間、自分にヒットすると激しい爆発が起こり、近くの敵にダメージを与える
-			シールドが発動すると、その後15秒間、ダメージが60%減少する
-			シールドは3回攻撃を受けると破壊される。シールドが破壊された後、45秒経過するまでシールドを再作成することはできない
-			'''
-	}
-
-	DemonicChaliceOfInfernum: {
-		DisplayName: 地獄の魔聖杯
+	CelestialIllumination: {
+		DisplayName: 天界の輝き
 		Tooltip: ""
-	}
 
-	ProfanedCrystalDye: {
-		DisplayName: 冒涜されたクリスタルの染料
-	}
-
-	ElysianRose: {
-		DisplayName: 至高のバラ
-		Tooltip: 奈落の底への憧れ…
-	}
-
-	HyperplaneMatrix: {
-		DisplayName: 超平面マトリクス
-		Tooltip:
-			'''
-			無限の力を秘めた、計り知れないほど複雑な装置
-			それを使うことで、現実をゆがめるさまざまな能力を付与することができるパネルを開くことができる
-			「遠い天体に、ドレイドンという存在が生まれた
-			　建設と進化のために作られた
-			　一つの目的、一つのサイクル
-			　高まれば機械は働き
-			　低ければ休む
-			　全ては秩序
-			　すべては同じ」
-			'''
-	}
-
-	KnowledgeBereftVassal: {
-		DisplayName: 遺された臣下と大砂鮫
-		Tooltip:
-			'''
-			[c/e3af40:高みからの囁きが耳元で踊っている…]
-			[c/bebebe:より近くで聴くには「左シフト」を押す]
-			'''
-	}
-
-	LunarCoin: {
-		DisplayName: ルナーコイン
-		Tooltip: ""
-	}
-
-	Blahaj: {
-		DisplayName: ブローハイ
-		Tooltip: ペットのイケアのぬいぐるみを召喚する
-	}
-
-	BlastedTophat: {
-		DisplayName: ブラスト・シルクハット
-		Tooltip: 小さな帽子の女の子を召喚し、ボスについてのアドバイスをくれる
-	}
-
-	NightmareCatcher: {
-		DisplayName: ナイトメアキャッチャー
-		Tooltip:
-			'''
-			羊の王を召喚し、あなたの後をつけまわす
-			「それは暗闇から現れ、夢の中にそっと忍び込む」
-			'''
-	}
-
-	RisingWarriorsSoulstone: {
-		DisplayName: ライジングウォリアーのソウルストーン
-		Tooltip:
-			'''
-			狼のスターチャイルドを召喚する
-			「助けてくれる？」
-			石版は強い遺産と共鳴する
-			'''
-	}
-
-	SuspiciouslyRoundFeather: {
-		DisplayName: 怪しい丸い羽根
-		Tooltip: 旧友を召喚する
-	}
-
-	AquaticScourgeSkull: {
-		DisplayName: アクアティックスカージの骸骨
-		Tooltip: ""
-	}
-
-	BereftVassalTrophy: {
-		DisplayName: 遺された臣下のトロフィー
-		Tooltip: ""
-	}
-
-	CosmicMonolithItem: {
-		DisplayName: コズミックのモノリス
-		Tooltip: ""
-	}
-
-	CreditPainting: {
-		DisplayName: Credit where Credit is Due
-		Tooltip: ""
-	}
-
-	GrandStatueItem: {
-		DisplayName: グランドスタチュー
-		Tooltip: ""
-	}
-
-	ProfanedFountainItem: {
-		DisplayName: 冒涜された溶岩の泉
-		Tooltip: ""
-	}
-
-	ProvidenceSpawnerItem: {
-		DisplayName: Providence Shrine Debug Item
-		Tooltip: Summons Providence when right clicked with a Profaned Core
-	}
-
-	AEWRelic: {
-		DisplayName: 原初の竜のレリック
-		Tooltip: GetsChanged
-	}
-
-	AquaticScourgeRelic: {
-		DisplayName: アクアティック・スカージのレリック
-		Tooltip: GetsChanged
-	}
-
-	AstrumAureusRelic: {
-		DisplayName: アストラムアウレウスのレリック
-		Tooltip: GetsChanged
-	}
-
-	AstrumDeusRelic: {
-		DisplayName: アストラムデウスのレリック
-		Tooltip: GetsChanged
-	}
-
-	BereftVassalRelic: {
-		DisplayName: 遺された臣下のレリック
-		Tooltip: GetsChanged
-	}
-
-	BetsyRelic: {
-		DisplayName: ベッツィーのレリック
-		Tooltip: GetsChanged
-	}
-
-	BrainOfCthulhuRelic: {
-		DisplayName: クトゥルフの脳のレリック
-		Tooltip: GetsChanged
-	}
-
-	BrimstoneElementalRelic: {
-		DisplayName: ブリムストーンエレメンタルのレリック
-		Tooltip: GetsChanged
-	}
-
-	CeaselessVoidRelic: {
-		DisplayName: シースレスヴォイドのレリック
-		Tooltip: GetsChanged
-	}
-
-	CrabulonRelic: {
-		DisplayName: クラブロンのレリック
-		Tooltip: GetsChanged
-	}
-
-	CryogenRelic: {
-		DisplayName: クライオジェンのレリック
-		Tooltip: GetsChanged
-	}
-
-	DarkMageRelic: {
-		DisplayName: ダークメイジのレリック
-		Tooltip: GetsChanged
-	}
-
-	DeerclopsRelic: {
-		DisplayName: ディアクロップスのレリック
-		Tooltip: GetsChanged
-	}
-
-	DesertScourgeRelic: {
-		DisplayName: デザードスカージのレリック
-		Tooltip: GetsChanged
-	}
-
-	DestroyerRelic: {
-		DisplayName: デストロイヤーのレリック
-		Tooltip: GetsChanged
-	}
-
-	DevourerOfGodsRelic: {
-		DisplayName: デバウアーオブゴッドのレリック
-		Tooltip: GetsChanged
-		PersonalMessage:
-			'''
-			純粋な反応速度こそ、培うべき最も価値のあるものであったりする。
-			あなたの旅は終局を迎えつつある。あなたの決意は、ここまでかけがえのないものであることを証明してきた。
-			それが最後の試練を乗り越える道しるべとなりますように。
-			'''
-	}
-
-	DraedonRelic: {
-		DisplayName: ドレイドンのレリック
-		Tooltip: GetsChanged
-
-		PersonalMessage: {
-			DefaultMessage:
+		Progression: {
+			Deus:
 				'''
-				あなたは驚異的な結果を残した。残る課題はただ一つ。
-				魔女に立ち向かえ。
+				異形の怪物を倒すと、さらに力が得られるようだ
+				しかし、これ以上の力は得られていない...
 				'''
-			DownedCalamitasMessage:
+			MoonLord:
 				'''
-				見事な仕事ぶりだ。あなたは強敵をすべて打ち倒した。
-				この達成を誇りに思いなさい。なぜなら、あなたは以前よりも成長しているのだから。
+				ムーンロードを倒したことで、より多くの星を放てるようになった
+				冒涜された守護者を倒して、さらに力を得よ…
 				'''
+			ProfanedGuardians:
+				'''
+				冒涜された守護者を倒したことで、天界の光を放てるようになった
+				炎の女神を倒して、さらに力を得よ…
+				'''
+			Providence:
+				'''
+				炎の女神を倒したことで、天界の光がより強力になった
+				疫病の番兵たちを倒して、さらに力を得よ…
+				'''
+			Sentinels:
+				'''
+				番兵たちを倒すと、天界の光の持続時間が長くなった
+				神を喰らう者を倒して、さらに力を得よ…
+				'''
+			Full: 天界の輝きが完全に目覚め、最大の力が解放された！
 		}
+
+		Lore: この書には宇宙の力が秘められている...
 	}
 
-	DragonfollyRelic: {
-		DisplayName: ドラゴンフォーリーのレリック
-		Tooltip: GetsChanged
-	}
-
-	DreadnautilusRelic: {
-		DisplayName: ドレッドノーチラスのレリック
-		Tooltip: GetsChanged
-	}
-
-	DukeFishronRelic: {
-		DisplayName: デュークフィッシュロンのレリック
-		Tooltip: GetsChanged
-	}
-
-	EaterOfWorldsRelic: {
-		DisplayName: イーターオブワールドのレリック
-		Tooltip: GetsChanged
-	}
-
-	EmpressOfLightRelic: {
-		DisplayName: エンプレスオブライトのレリック
-		Tooltip: GetsChanged
-		PersonalMessage: 本筋とは関係のないボスは、時として最も手ごわいかもしれない。だからこそ、最大の報酬が得られるかもしれない。
-	}
-
-	EyeOfCthulhuRelic: {
-		DisplayName: クトゥルフの目のレリック
-		Tooltip: GetsChanged
-		PersonalMessage:
-			'''
-			勝利を追い求めるあまり、無理をしないことを忘れないでほしい。必要なら休憩を取ること。
-			一番大切なのは楽しむこと。
-			'''
-	}
-
-	ForgottenShadowOfCalamitasRelic: {
-		DisplayName: カラミタスの影のレリック
-		Tooltip: GetsChanged
-	}
-
-	GiantClamRelic: {
-		DisplayName: 巨大ハマグリのレリック
-		Tooltip: GetsChanged
-	}
-
-	GolemRelic: {
-		DisplayName: ゴーレムのレリック
-		Tooltip: GetsChanged
-		PersonalMessage: シンプルな計画は、長い道のりを歩む。それは将来の障害に対してかけがえのないものとなるだろう。
-	}
-
-	HiveMindRelic: {
-		DisplayName: ハイブマインドのレリック
-		Tooltip: GetsChanged
-	}
-
-	KingSlimeRelic: {
-		DisplayName: キングスライムのレリック
-		Tooltip: GetsChanged
-		PersonalMessage: ベテランプレイヤーであっても、慣れない新しいものを前にすると、多少苦戦するかもしれない。適応力が鍵となる。
-	}
-
-	LeviathanRelic: {
-		DisplayName: リヴァイアサンのレリック
-		Tooltip: GetsChanged
-	}
-
-	LunaticCultistRelic: {
-		DisplayName: 狂気の崇拝者のレリック
-		Tooltip: GetsChanged
-	}
-
-	MoonLordRelic: {
-		DisplayName: ムーンロードのレリック
-		Tooltip: GetsChanged
-		PersonalMessage:
-			'''
-			ここまでよく頑張ってきた。
-			あなたの粘り強さが、残された試練を乗り越えられますように。
-			'''
-	}
-
-	OgreRelic: {
-		DisplayName: オーガのレリック
-		Tooltip: GetsChanged
-	}
-
-	OldDukeRelic: {
-		DisplayName: オールドデュークのレリック
-		Tooltip: GetsChanged
-		PersonalMessage:
-			'''
-			戦いは困難かもしれないが、それに耐え、克服するのは賢明なことだ。
-			この試合で試されたメカニズムが、またすぐに役立つことに気づくだろう。
-			'''
-	}
-
-	PerforatorsRelic: {
-		DisplayName: パーフォレーターのレリック
-		Tooltip: GetsChanged
-	}
-
-	PlaguebringerGoliathRelic: {
-		DisplayName: プラグブリンガーのレリック
-		Tooltip: GetsChanged
-	}
-
-	PlanteraRelic: {
-		DisplayName: プランテラのレリック
-		Tooltip: GetsChanged
-		PersonalMessage:
-			'''
-			自分の死んだ数に誇りを持て！
-			今まで失敗してきたことは決して無駄ではないはずだ！
-			'''
-	}
-
-	PolterghastRelic: {
-		DisplayName: ポルターガストのレリック
-		Tooltip: GetsChanged
-	}
-
-	ProfanedGuardiansRelic: {
-		DisplayName: 冒涜された守護者たちのレリック
-		Tooltip: GetsChanged
-	}
-
-	ProvidenceRelic: {
-		DisplayName: プロヴィデンスのレリック
-		Tooltip: GetsChanged
-
-		PersonalMessage: {
-			DefaultMessage:
-				'''
-				ムーンロードを倒した後の最初の大きな壁。あなたが彼女に勝利したことは、決して小さな偉業ではなかった。
-				新たな挑戦のために、夜の間にもう一度彼女と戦うことを考えてみてはどうだろうか？
-				'''
-			HasBeatenInfernumNightProvBeforeDayMessage:
-				'''
-				何だと？一体どういうことだ？
-				            まず昼間に倒した後、夜に戦うはずだっただろ！
-				'''
-		}
-	}
-
-	QueenBeeRelic: {
-		DisplayName: 女王蜂のレリック
-		Tooltip: GetsChanged
-	}
-
-	QueenSlimeRelic: {
-		DisplayName: クイーンスライムのレリック
-		Tooltip: GetsChanged
-	}
-
-	RavagerRelic: {
-		DisplayName: ラヴェジャーのレリック
-		Tooltip: GetsChanged
-	}
-
-	SignusRelic: {
-		DisplayName: シグナスのレリック
-		Tooltip: GetsChanged
-	}
-
-	SkeletronPrimeRelic: {
-		DisplayName: スケルトロンプライムのレリック
-		Tooltip: GetsChanged
-	}
-
-	SkeletronRelic: {
-		DisplayName: スケルトロンのレリック
-		Tooltip: GetsChanged
-		PersonalMessage: 最初の大きな障害。あなたはそれに直面する前よりも上手くなっている。ボスのパターンを学ぶのは楽しかったですか？
-	}
-
-	SlimeGodRelic: {
-		DisplayName: スライムゴッドのレリック
-		Tooltip: GetsChanged
-	}
-
-	StormWeaverRelic: {
-		DisplayName: ストームウィーバーのレリック
-		Tooltip: GetsChanged
-	}
-
-	SupremeCalamitasRelic: {
-		DisplayName: 至高の魔女カラミタスのレリック
-		Tooltip: GetsChanged
-
-		PersonalMessage: {
-			DefaultMessage:
-				'''
-				あなたは驚異的な結果を残した。残された課題はただ一つ、
-				宇宙のエンジニアに立ち向かえ。
-				'''
-			DownedExoMechsMessage:
-				'''
-				見事な仕事ぶりだ。あなたは強敵をすべて打ち倒した。
-				この達成を誇りに思いなさい。なぜなら、あなたは以前よりも成長しているのだから。
-				'''
-		}
-	}
-
-	TwinsRelic: {
-		DisplayName: ツインズのレリック
-		Tooltip: GetsChanged
-	}
-
-	WallOfFleshRelic: {
-		DisplayName: ウォールオブフレッシュのレリック
-		Tooltip: GetsChanged
-	}
-
-	YharonRelic: {
-		DisplayName: ヤーロンのレリック
-		Tooltip: GetsChanged
-	}
-
-	SakuraBud: {
-		DisplayName: 桜のつぼみ
-		Tooltip:
-			'''
-			今にも咲きそうな、繊細で儚い桜のつぼみ
-			花の故郷へと導こうとする精霊を感じる...その呼びかけに従うべきだろうか？
-			'''
-
-		TooltipEffect: {
-			FirstText: 花の故郷へと導こうとする
-			SecondText: 精霊
-			ThirdText: を感じる...
-			FourthText: "その呼びかけに "
-			FifthText: 従うべき
-			SixthText: だろうか？
-		}
-	}
-
-	BloodwormPlatter: {
-		DisplayName: ブラッドワームの盛り合わせ
-		Tooltip:
-			'''
-			オールドデュークを召喚する
-			硫黄の海でのみ使用可能
-			消費しない
-			'''
-	}
-
-	DungeonsCurse: {
-		DisplayName: ダンジョンの呪い
-		Tooltip:
-			'''
-			スケルトロンを召喚する
-			昼間に使用すると夜になる
-			戦闘中に昼間になるとスケルトロンが激怒する
-			消費しない
-			'''
-	}
-
-	EvokingSearune: {
-		DisplayName: 海のルーン
-		Tooltip:
-			'''
-			深淵の最深層にいる成体の竜を召喚する
-			「最初の神によって形成されたと言われる原初の遺産」
-			消費しない
-			'''
-	}
-
-	FleshChunk: {
-		DisplayName: 肉の塊
-		Tooltip:
-			'''
-			ウォールオブフレッシュを召喚
-			地底世界でのみ使用可能
-			消費しない
-			'''
-	}
-
-	LeviathanDetector: {
-		DisplayName: リヴァイアサン探知機
-		Tooltip:
-			'''
-			アナヒタを召喚する
-			消費しない
-			'''
-	}
-
-	RadiantCrystal: {
-		DisplayName: レディアントクリスタル
-		Tooltip:
-			'''
-			エンプレスオブライトを召喚する
-			昼になると発狂する
-			どこでも使用可能
-			消費しない
-			'''
-	}
-
-	RedBait: {
-		DisplayName: 赤い餌
-		Tooltip:
-			'''
-			ドレッドノーチラスを召喚する
-			夜間のみ使用可能
-			消費しない
-			'''
-	}
-
-	SparklingTunaCan: {
-		DisplayName: きらめく軟体動物詰めの缶
-		Tooltip:
-			'''
-			巨大ハマグリを召喚する
-			沈没海でのみ使用可能
-			消費しない
-			'''
-	}
-
-	TrufflePlatter: {
-		DisplayName: トリュフワームの盛り合わせ
-		Tooltip:
-			'''
-			デューク・フィッシュロンを召喚
-			海でのみ使用可能
-			消費しない
-			'''
-	}
-
-	WaterglassToken: {
-		DisplayName: 水硝子の証
-		Tooltip:
-			'''
-			忘れられた闘技場への往復テレポートができる
-			このアイテムはマウスを押したままでは使用できず、ホットバーに入れておく必要がある
-			'''
-	}
-
-	Wayfinder: {
-		DisplayName: 道しるべ
-		Tooltip:
-			'''
-			ファストトラベルを可能にする魔法のゲートを作る
-			ボスが生きているときは機能しない
-			ModifedInModifyTooltips
-			'''
-		TooltipEffect:
-			'''
-			左クリックでゲートまでテレポート
-			左クリックをしながら{0}を押すとゲートが自分の位置にセットされる
-			左クリックをしながら{1}を押すとゲートが削除される
-			'''
-	}
-
-	AridBattlecry: {
-		DisplayName: 乾燥した戦笛
-		Tooltip: カーソルの下に、敵に向かって飛んでいくサメを召喚する
-	}
-
-	EyeOfMadness: {
-		DisplayName: 狂気の瞳
-		Tooltip:
-			'''
-			影の触手を放ち、範囲内の敵を捕らえる
-			「残念ながら、その物質の全容は君には理解できないが、その魔術的な力には親和性があるようだ
-			　正気を失う覚悟があるなら、試してもいいかもしれない」
-			'''
-	}
-
-	IllusionersReverie: {
-		DisplayName: 幻想家の夢想書
-		Tooltip:
-			'''
-			自分自身の影の分身を放ち、近くの敵を追い詰めてから、暗黒の魔法の雲へと消散させる
-			「その存在は、神秘的な水の底で失われてしまった知識とは何なのか、人々に疑問を抱かせる」
-			'''
-
-		TooltipEffect: {
-			FirstText: "理解 "
-			SecondText: "し難いほど "
-			ThirdText: 古い本だ。それにもかかわらず、なぜかまったく傷んでいないように見える
-		}
-	}
-
-	Kevin: {
-		DisplayName: kevin
-		Tooltip:
-			'''
-			素人には理解できない、より大きな全体の一部
-			「Kinetic Electroplasma Voltage Infuser」の略
-			'''
-	}
-
-	CallUponTheEggs: {
-		DisplayName: タマゴソード
-		Tooltip:
-			'''
-			左クリックで空から卵がカーソルに向かって降ってくる
-			右クリックで、防御力が100増加し、ダメージが50％減少する卵に包まれる
-			卵は3回攻撃を受けると壊れ、再び卵を生成するには再チャージする必要がある
-			[c/f0ad56:「この武器は、弱者を護る役目を担う者だけが振るうことができる」]
-			'''
-	}
-
-	Myrindael: {
-		DisplayName: ミリンダエル
-		Tooltip:
-			'''
-			槍を投げる前に左クリックを押し続けると槍が回転する。投げた後、敵に当たると敵に向かって雷と火花を放つ
-			右クリックで強力な突進を行い、敵に当たると上空から稲妻を放つ
-			[c/6fc8ff:「戦うこと、破壊することは、世界から何かを奪うことだ]
-			[c/6fc8ff:　しかし、世界そのものが自分に立ち向かってくるとき、他に何ができる？」]
-			'''
-	}
-
-	TheGlassmaker: {
-		DisplayName: ガラスメーカー
-		Tooltip:
-			'''
-			90％の確率でジェルを消費しない
-			時々、高温のガラス片を放ち、近くのターゲットに狙いを定める
-			'''
-	}
-
-	Dyes: {
-		ProfanedCrystalDye: {
-			DisplayName: 冒涜されたクリスタルの染料
-			Tooltip: ""
-		}
-	}
-
-	NuclearTerrorRelic: {
-		DisplayName: ニュークリア・テラーのレリック
+	Genesis: {
+		DisplayName: Genesis
 		Tooltip: ""
 	}
 
-	SakuraTreetop: {
-		DisplayName: 桜の梢
+	ClamitasRelic: {
+		DisplayName: クラミタスのレリック
 		Tooltip: ""
+	}
+
+	PyrogenRelic: {
+		DisplayName: パイロジェンのレリック
+		Tooltip: ""
+	}
+
+	WallofBronzeRelic: {
+		DisplayName: ウォールオブブロンズのレリック
+		Tooltip: ""
+	}
+
+	NoxusRelic: {
+		DisplayName: ノクサスのレリック
+		Tooltip: ""
+	}
+
+	AbominationnRelic: {
+		DisplayName: アボミネーションのレリック
+		Tooltip: ""
+	}
+
+	BanishedBaronRelic: {
+		DisplayName: バニッシュバロンのレリック
+		Tooltip: ""
+	}
+
+	CursedCoffinRelic: {
+		DisplayName: カースドコフィンのレリック
+		Tooltip: ""
+	}
+
+	DeathChampionRelic: {
+		DisplayName: 暗冥の覇者のレリック
+		Tooltip: ""
+	}
+
+	DevianttRelic: {
+		DisplayName: デビアントのレリック
+		Tooltip: ""
+	}
+
+	EarthChampionRelic: {
+		DisplayName: 地核の覇者のレリック
+		Tooltip: ""
+	}
+
+	EridanusRelic: {
+		DisplayName: エリダヌスのレリック
+		Tooltip: ""
+	}
+
+	LifeChampionRelic: {
+		DisplayName: 生命の覇者のレリック
+		Tooltip: ""
+	}
+
+	LifelightRelic: {
+		DisplayName: ライフライトのレリック
+		Tooltip: ""
+	}
+
+	MutantRelic: {
+		DisplayName: ミュータントのレリック
+		Tooltip: ""
+	}
+
+	NatureChampionRelic: {
+		DisplayName: 森羅の覇者のレリック
+		Tooltip: ""
+	}
+
+	SpiritChampionRelic: {
+		DisplayName: 精霊の覇者のレリック
+		Tooltip: ""
+	}
+
+	TerraChampionRelic: {
+		DisplayName: 大地の覇者のレリック
+		Tooltip: ""
+	}
+
+	TrojanSquirrelRelic: {
+		DisplayName: トロイのリスのレリック
+		Tooltip: ""
+	}
+
+	WillChampionRelic: {
+		DisplayName: 信念の覇者のレリック
+		Tooltip: ""
+	}
+
+	LuxRelic: {
+		DisplayName: ルクスのレリック
+		Tooltip: ""
+	}
+
+	PharohsCurseRelic: {
+		DisplayName: ファラオの呪いのレリック
+		Tooltip: ""
+	}
+
+	CatalyzedCrystal: {
+		DisplayName: 触媒の晶
+		Tooltip:
+			'''
+			カタリスト爆弾の爆発後に生成されたクリスタル
+			地獄で使用すると亜空の大蛇を召喚する
+			消費されない
+			'''
+	}
+
+	ChaosBlaster: {
+		DisplayName: カオスブラスター
+		Tooltip: ""
+	}
+
+	Swordofthe1stGlitch: {
+		DisplayName: 第一の剣
+		Tooltip:
+			'''
+			右クリックでカーソル方向にダッシュする
+			ゼルコル・グリッチによって振るわれた武器
+			'''
+	}
+
+	Swordofthe13thGlitch: {
+		DisplayName: 堕ちた者の剣
+		Tooltip:
+			'''
+			右クリックで剣ビームを連射する
+			ゲージが満タンになるとレイジが自動で発動する
+			レイジ発動中は自分の分身が出現し、カーソルを狙って攻撃する
+			ナフ・グリッチによって振るわれた武器
+			「この呪いを今度こそ終わらせる、ゼイン！」
+			'''
 	}
 
 	Weapons: {
 		Rogue: {
-			WanderersShell: {
-				DisplayName: さすらいの貝殻
+			NovaBomb: {
 				Tooltip:
 					'''
-					貝殻を投げて敵を狙い、跳ね返って地面に留まる
-					ステルス攻撃は、残った貝殻が水柱となって爆発し、周囲の敵を狙う
-					「鋭すぎて、あまり耳の近くに近づけたくない...」
+					紫色の灼熱のノヴァを放つ
+					「ウィロー、心配いらないよ、俺ひとりでいける」
 					'''
-			}
-
-			StormMaidensRetribution: {
-				DisplayName: 嵐の乙女の槍
-				Tooltip:
-					'''
-					発射すると赤い稲妻を放つ槍を放つ
-					ステルス攻撃は、発射時に3本の槍を放ち、敵に狙いを定め、何かに衝突すると上空から稲妻を放つ
-					「嵐の女神が振るう神の槍
-					　この武器は、永遠に続く不幸、後悔、嘆きと響き合っているようだ」
-					'''
-			}
-
-			Dreamtastic: {
-				DisplayName: ドリーム・タスティック
-				Tooltip:
-					'''
-					敵に向かって魔法を放つヘンなヤツを2体召喚する
-					本自身も魔法を放つ
-					ページ数には限りがあり、彼らの豊かな冒険の物語が記録されている
-					「君も愚か者だ」
-					'''
+				DisplayName: ノヴァボム
 			}
 		}
 	}
 
-	ProfanedGardenLocationSetter: {
-		DisplayName: Profaned Garden Location Setter
-		Tooltip:
-			'''
-			Use this to fix the profaned garden not functioning properly
-			Left click the bottom-center of the Profaned Plaque tile in the middle of the garden
-			This will center the garden position around that point correctly
-			You can right click to revert the position to the previous one
-			'''
-	}
-
-	DeusMonolithItem: {
-		DisplayName: アストラルディメンションのモノリス
+	DreadnautilusRelic: {
+		DisplayName: ドレッドノーチラスのレリック
 		Tooltip: ""
 	}
 
-	ForbiddenArchivesLocationSetter: {
-		DisplayName: Forbidden Archives Location Setter
-		Tooltip:
-			'''
-			Use this if your archives were destroyed by the abyss
-			Left click the center of your dungeon arena to allow Ceaseless Void to naturally spawn
-			You can right click to revert the position to the previous one
-			'''
-	}
-
-	Perditus: {
-		DisplayName: ペルディトゥス
-		Tooltip:
-			'''
-			{0}召喚タグダメージ
-			召喚クリティカル確率が{1}％増加
-			攻撃を当てた敵にミニオンが集中攻撃する
-			'''
-	}
-
-	Punctus: {
-		DisplayName: パンクトゥス
-		Tooltip:
-			'''
-			左クリックで槍を発射し、的に当たると砕ける岩を生成する
-			右クリックで槍と一緒に全ての岩を発射する。3個岩があると左クリックが追尾するようになる
-			さらに、岩を6つ所持している状態で槍を敵に当てることに成功すると、岩が3つ回復する
-			[c/ffbf49:「最も敬虔で、強力な信奉者の間でしか見られない不浄の槍」]
-			'''
-	}
-
-	ProfanedTempleBackgroundWall: {
-		DisplayName: Profaned Temple Background Wall
+	HypnosRelic: {
+		DisplayName: ヒュプノスのレリック
 		Tooltip: ""
 	}
+
+	TerraBladeRelic: {
+		DisplayName: テラブレードのレリック
+		Tooltip: ""
+	}
+
+	TerraBladeTrophy: {
+		DisplayName: テラブレードのトロフィー
+		Tooltip: ""
+	}
+
+	RingofTix: {
+		DisplayName: ティクスの指輪
+		Tooltip: ""
+		SOTSTooltip: お気に入りにして右クリックすると、選択中のジェムを反転させジェムの効果を無効化し、反転した効果を有効化する
+		G0: 採掘時にブロックを連鎖させ、最大50個のブロックを同時に破壊する
+		G1: 敵を倒すとランダムなバフを30秒付与する
+		G2: ヴォイドを獲得したときにコインを生成する
+		G3: 敵がドロップを2倍にする確率14.3%
+		G4:
+			'''
+			倒した敵は50%の確率で追加のハートをドロップする
+			クリティカルで倒すとこの確率が100%になる
+			ハートを回収すると有効中のバフの残り時間が延長され、最大で元の2倍まで延びる
+			'''
+		G5:
+			'''
+			防御力に応じてダメージを増加させ、そのダメージ増幅の3分の1に相当する分だけ防御力を減少させる
+			ダメージを{0}%増加させる
+			防御力を{1}減少させる
+			'''
+		G6: 被弾するとランダムなバフを30秒付与する
+		I0:
+			'''
+			ブロックと壁の設置速度が20%上昇、設置範囲が3増加する
+			移動速度が20%上昇する
+			'''
+		I1: 20秒ごとにランダムなバフを30秒付与する
+		I2:
+			'''
+			被ダメージ時、受けたダメージの10%がヴォイドに変換される
+			ヴォイド使用時、使用したヴォイドの10%がライフに変換される
+			'''
+		I3:
+			'''
+			被ダメージを15%軽減する
+			与ダメージを15%減少させる
+			'''
+		I4:
+			'''
+			常に旨い飯状態を付与する
+			ヴォイド回復用消耗品の回復量が75%減少する
+			'''
+		I5:
+			'''
+			もはやクリティカルが発生しなくなる
+			受けるクリティカル率増加はダメージへの乗算的増加に変換される
+			'''
+		I6:
+			'''
+			ライフが90%以上の間はバフの減衰が起こらない
+			ライフ90%未満で被弾すると、すべてのバフ効果時間が半分になる
+			'''
+		NormalTooltip:
+			'''
+			ダメージが18%増加
+			ライフ自然回復+3.5 HP/s、ミニオン最大数+2
+			ミニオンのノックバック増加
+			全ダメージが+4増加
+			貫通力が+5増加
+			クリティカル率が+4%
+			コインドロップと魔法ダメージが増加
+			昼間は+2 HP/sのライフ自然回復を付与
+			夜間は防御力+20を付与
+			日食時は+1 HP/sの自然回復と防御力+10を付与
+			'''
+	}
+
+	InfernalTerraBladeRelic: {
+		DisplayName: テラブレードのレリック
+		Tooltip: ""
+	}
+
+	DemonicTome: {
+		DisplayName: 邪悪な書
+		Tooltip: ""
+	}
+
+	EmptyDemonicTome: {
+		DisplayName: 空の邪悪な書
+		Tooltip: ""
+	}
+
+	InfernalTwilight: {
+		DisplayName: Infernal Twilight
+		Tooltip:
+			'''
+			チームの全員、貢献者、プレイテスター、支えてくれた人々、
+			私たちにインスピレーションをくれた人たち、
+			そしてこのModを遊び続けてくれる全ての人たちに感謝！
+			（チーム全員を収めるにはスペースが足りませんでした...）
+			SHIFTでクレジット一覧を表示
+			'''
+	}
+
+	AbandonedWorkshop: {
+		DisplayName: 見捨てられた作業場
+		Tooltip: ゴブリン改造家の作業場の残骸だ。彼なら修理の助言をくれるかもしれない。
+	}
+
+	PrimordialOrchid: {
+		DisplayName: 原初の蘭
+		Tooltip: 原初の光を帯びた蘭。永劫の庭園に自生している
+	}
+
+	TinkerersRepairBlueprints: {
+		DisplayName: ゴブリン作業場の修理設計図
+		Tooltip:
+			'''
+			「縛られている間に、ほかのゴブリンたちが僕の作業場をなくしてしまったらしい。
+			　しかも今は、クトゥルフの化け物のどれかが持っている気がしてならない…
+			　もしそいつを倒して壊れた作業場を取り戻せたら、これで修理ができるようになるはずだ！」
+			'''
+	}
+
+	NebulaGigabeam: {
+		DisplayName: ネビュラ・ギガビーム
+		Tooltip: ""
+	}
+
+	ExoDisintegrator: {
+		DisplayName: エクソ・ディスインテグレーター
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: オルゴール（Infernal Eclipse of Ragnarok - タイトル）
+		Tooltip: Peter Fung作の「Teardrops of Dragonfire」を再生する
+	}
 }
 
-Keybinds: {
-	"Wayfinder Create Key": {
-		DisplayName: ゲート生成
+Projectiles: {
+	GlitchSwordHoldout: {
+		DisplayName: Glitch Sword Holdout
 	}
 
-	"Wayfinder Destroy Key": {
-		DisplayName: ゲート破壊
+	Rogue: {
+		NovaBombProj: {
+			DisplayName: Nova Bomb Proj
+		}
+	}
+
+	StellarStar: {
+		DisplayName: Stellar Star
+	}
+
+	BossRushTier6Animation: {
+		DisplayName: Boss Rush Tier6 Animation
+	}
+
+	RogueSpectreBlast: {
+		DisplayName: Rogue Spectre Blast
+	}
+
+	BountifulHarvestStinger: {
+		DisplayName: Bountiful Harvest Stinger
+	}
+
+	FriendlyBrimstoneBarrage: {
+		DisplayName: Friendly Brimstone Barrage
+	}
+
+	FriendlyBrimstoneFireblast: {
+		DisplayName: Friendly Brimstone Fireblast
+	}
+
+	RadioMicPro: {
+		DisplayName: Radio Mic Pro
+	}
+
+	RadioMicShadowBurst: {
+		DisplayName: Radio Mic Shadow Burst
+	}
+
+	TidalWaveWhirlpool: {
+		DisplayName: Tidal Wave Whirlpool
+	}
+
+	FireAxeStealthPro: {
+		DisplayName: Fire Axe Stealth Pro
+	}
+
+	GalaxyRainController: {
+		DisplayName: Galaxy Rain Controller
+	}
+
+	FriendlyBrimstoneGigablast: {
+		DisplayName: Friendly Brimstone Gigablast
+	}
+
+	BeamChargeUp: {
+		DisplayName: Beam Charge Up
+	}
+
+	ChaosBlasterBeam: {
+		DisplayName: Chaos Blaster Beam
+	}
+
+	HomingTerraBeam: {
+		DisplayName: Terra Beam
+	}
+
+	PlayerShadowClone: {
+		DisplayName: Shadow Clone
+	}
+
+	TerraSlash: {
+		DisplayName: Terra Slash
+	}
+
+	NovaBombBlackHoleProj: {
+		DisplayName: Black Hole
+	}
+
+	NovaBombProj: {
+		DisplayName: Nova Bomb
+	}
+
+	FirstSwordHoldoutCombo: {
+		DisplayName: Sword of the First
+	}
+
+	_13thGltichCombo: {
+		DisplayName: _13th Gltich Combo
+	}
+
+	CelestialBeam: {
+		DisplayName: Celestial Beam
+	}
+
+	CelestialIlluminationStar: {
+		DisplayName: Celestial Illumination Star
+	}
+
+	DemonicRune: {
+		DisplayName: Demonic Little Grey Cat Rune
+	}
+
+	ThoriumHeavyScytheSpark: {
+		DisplayName: Thorium Heavy Scythe Spark
+	}
+
+	NebulaBeam: {
+		DisplayName: Nebula Beam
+	}
+
+	NebulaChargeUp: {
+		DisplayName: Nebula Charge Up
+	}
+
+	DisintegratorBeam: {
+		DisplayName: Disintegrator Beam
+	}
+
+	DisintegratorChargeUp: {
+		DisplayName: Disintegrator Charge Up
 	}
 }
 
-MusicDisplay: {
-	ForgottenWinds: {
-		DisplayName: Forgotten Winds
-		Author: by Toasty
+DiaryTooltip:
+	'''
+	[c/E3AF40:「ギャラクティカ」の署名がある謎めいた日記...]
+	[c/BEBEBE:日記を開くには「左シフトキー」を押す]
+	'''
+
+BullyingTooltip:
+	'''
+	未使用の召喚スロット1つにつき召喚以外のダメージを2%増加
+	使用中の召喚スロット1つにつき召喚ダメージを10%減少
+	ムチは召喚ボーナスではなく近接ボーナスで強化される
+	ムチのダメージを10%増加
+	[c/E3AF40:ディランが設計したプログラムメモリー付きの紙切れ]
+	[c/BEBEBE:"左Shift"で裏面のメモを読む]
+	'''
+
+Configs: {
+	InfernalConfig: {
+		WrathoftheGodsBossesInBossRush: {
+			Tooltip: XG-07マーズ、虚無の化身、無名の神をボスラッシュに追加する
+			Label: Wrath of the Godsのボスをボスラッシュに追加
+		}
+
+		BetsyInBossRush: {
+			Tooltip: ベッツィーをボスラッシュに追加する - 現在バグあり
+			Label: ベッツィーをボスラッシュに追加
+		}
+
+		DreadnautillusInBossRush: {
+			Tooltip: ドレッドノーチラスをボスラッシュに追加する
+			Label: ドレッドノーチラスをボスラッシュに追加
+		}
+
+		Headers: {
+			BossRushChanges: ボスラッシュの切り替え
+			BalanceChanges: Modのバランス調整
+			Miscellaneous: その他
+			MultiplayerAdjustments: マルチプレイヤー調整
+			Main: Main
+		}
+
+		ThoriumBalanceChangess: {
+			Tooltip: Thoriumおよび複数のアドオンアイテムをCalamityのバランスに合わせて調整する
+			Label: Thoriumのバランス調整
+		}
+
+		CalamityRecipeTweaks: {
+			Tooltip: 一部のCalamityのレシピを調整し、大半のバニラQOLレシピを削除する
+			Label: Calamityのレシピ調整
+		}
+
+		CalamityBalanceChanges: {
+			Tooltip: Calamityによるバニラの変更を多く元の値に戻す
+			Label: Calamityのバランス調整
+		}
+
+		BossKillCheckOnOres: {
+			Tooltip: 特定のボスを倒すまで、鉱石やタイルの採掘を制限する
+			Label: 鉱石採掘のボス討伐チェック
+		}
+
+		VanillaBalanceChanges: {
+			Tooltip: 一部のバニラアイテムをCalamityのバランスに合わせて調整する
+			Label: バニラのバランス調整
+		}
+
+		DisplayName: メイン設定
+
+		TerraBladeBossInBossRush: {
+			Tooltip: テラブレードのボスをボスラッシュに追加する
+			Label: テラブレードをボスラッシュに追加
+		}
+
+		InfernumModeForced: {
+			Tooltip: Infernumモードを強制的に有効化する サーバー向けに便利
+			Label: Infernumモードを強制する
+		}
+
+		SOTSBalanceChanges: {
+			Tooltip: Secrets of the Shadowsの一部アイテムをCalamityのバランスに合わせて調整する
+			Label: Secrets of the Shadowsのバランス調整
+		}
+
+		ConsolariaBalanceChanges: {
+			Tooltip: Consolariaの一部アイテムをCalamityのバランスに合わせて調整する
+			Label: Consolariaのバランス調整
+		}
+
+		InfernumRecipeTweaks: {
+			Tooltip: 一部のInfernumのレシピを調整する
+			Label: Infernumのレシピ調整
+		}
+
+		ForceFullXerocDialogue: {
+			Label: ゼロックの全会話を強制表示
+			Tooltip: ボスラッシュの開始時とクリア時にゼロックの会話を全て表示する サーバー向けに便利
+		}
+
+		SOTSThrowerToRogue: {
+			Tooltip: Unofficial SOTS Bard, Thrower and Healerのヴォイド + 投擲アイテムをヴォイド + ローグに変換する
+			Label: ヴォイド + 投擲とローグクラスを統合
+		}
+
+		DisableBloodOrbPotions: {
+			Tooltip: ブラッドオーブを使ったポーションのクラフトレシピを無効化する
+			Label: ブラッドオーブポーションを無効化
+		}
+
+		PreventBossCheese: {
+			Tooltip: 一部のボスを楽に倒す手段を防止するための仕組みを追加する
+			Label: ボスチーズ対策
+		}
+
+		DisableUnfinisedContent: {
+			Label: 未完成コンテンツを無効化
+			Tooltip: 他のModに含まれる未完成コンテンツを無効化して体験を一貫させる
+		}
+
+		DisableDuplicateContent: {
+			Label: 重複コンテンツを無効化
+			Tooltip: 他のModと重複する可能性のあるコンテンツを無効化する
+		}
+
+		AdditonalVanillaBossAdjustments: {
+			Label: バニラボスの追加調整
+			Tooltip:
+				'''
+				一部のバニラボスのステータスを微調整して難易度を上げる
+				Fargo's SoulsのEternity ModeやMasochist Modeが有効な場合は常に無効になる
+				'''
+		}
+
+		MergeCraftingTrees: {
+			Label: クラフティングツリーを統合
+			Tooltip: 複数Modの類似アイテムのクラフティングツリーを統合し、一部アイテムにクロスMod素材を追加する
+		}
+
+		BloodOrbPotionDuplication: {
+			Label: ブラッドオーブポーションを複製に変更
+			Tooltip: ブラッドオーブを使うポーションのレシピを複製レシピに置き換える
+		}
+
+		AutomaticallyReforgeThoriumRogueItems: {
+			Label: Thoriumローグ武器を自動で鍛冶補正
+			Tooltip:
+				'''
+				Thoriumの非消費型ローグ武器に"Flawless"前接頭語のステータス補正を自動で付与する
+				Thoriumローグ武器は鍛冶できないため、Calamityの武器に追いつく手段として有効
+				この設定はRagnarokまたはCalamity Bard & Healerが有効なときのみ機能する
+				投擲をローグに統合する設定が有効な場合、この設定は無効になる
+				'''
+		}
+
+		ChanageWeaponClasses: {
+			Label: 武器クラスの変更
+			Tooltip: 一部の武器のクラスを変更して、一貫性や多様性を持たせる
+		}
+
+		DisplayWorldEntryMessages: {
+			Label: ワールド入場時のメッセージ表示
+			Tooltip: ワールドに入ったときのメッセージの表示を切り替える
+		}
+
+		EnableInterlude4: {
+			Label: 間奏曲4を有効化
+			Tooltip: カラミタスを倒すと4番目の間奏曲テーマを再生するようにする
+		}
+
+		AdjustAdvisorSpawnConditions: {
+			Label: アドバイザーの出現条件を調整
+			Tooltip:
+				'''
+				アドバイザーが常にワールドに存在しないように出現条件を調整する
+				Infernumのボスバー使用時に常にアクティブにならないようにしたい場合に便利
+				マルチプレイ時は無効化を推奨
+				'''
+		}
+
+		MultiplayerBossRespawnTimer: {
+			Label: マルチプレイヤーボス再出現タイマー
+			Tooltip: ""
+		}
+
+		MinimumDifficultyToPreventRespawns: {
+			Label: 再出現防止に必要な最低難易度
+			Tooltip: ""
+		}
+
+		MultiplayerRespawnsAllowed: {
+			Label: マルチプレイヤーリスポーン許可
+			Tooltip: ""
+		}
+
+		NerfThoriumMulticlass: {
+			Label: Thoriumのマルチクラス弱体化
+			Tooltip: ""
+		}
+
+		ColoredRelics: {
+			Label: レリックに色を付ける
+			Tooltip: ""
+		}
+
+		ForceMenu: {
+			Label: メニューテーマを強制
+			Tooltip: 本Modパックのメニューテーマを、Mod読み込み時に強制的に選択する
+		}
+
+		AutomatedConfigSetup: {
+			Label: 自動設定セットアップ
+			Tooltip: いくつかの他Mod設定を、自動的に本Modパック向けの想定設定に整える
+		}
+
+		MoveDeerclopsChecklistEntry: {
+			Label: ディアクロプスの一覧位置を移動
+			Tooltip: CalamityとInfernumの階層に合わせて、ディアクロプスをボス一覧でスケルトロンの前に移動する
+		}
+
+		DontEnableThis: {
+			Label: これは有効化しないでください！
+			Tooltip: 有効化しないこと！！！ゲームバランスが崩壊します！！！
+		}
 	}
 
-	UnholySanctuary: {
-		DisplayName: Unholy Sanctuary
-		Author: by Toasty
-	}
+	Difficulty: {
+		Tooltip: ""
 
-	SignusAmbience: {
-		DisplayName: ???
-		Author: by Dominic
+		AlwaysOff: {
+			Label: Always Off
+			Tooltip: ""
+		}
+
+		AlwaysOn: {
+			Label: Always On
+			Tooltip: ""
+		}
+
+		Expert: {
+			Label: Expert
+			Tooltip: ""
+		}
+
+		Master: {
+			Label: Master
+			Tooltip: ""
+		}
+
+		Legendary: {
+			Label: Legendary
+			Tooltip: ""
+		}
+
+		Revengence: {
+			Label: Revengence
+			Tooltip: ""
+		}
+
+		MasterRevengence: {
+			Label: Master Revengence
+			Tooltip: ""
+		}
+
+		LegendaryRevengence: {
+			Label: Legendary Revengence
+			Tooltip: ""
+		}
+
+		Death: {
+			Label: Death
+			Tooltip: ""
+		}
+
+		MasterDeath: {
+			Label: Master Death
+			Tooltip: ""
+		}
+
+		LegendaryDeath: {
+			Label: Legendary Death
+			Tooltip: ""
+		}
+
+		Infernum: {
+			Label: Infernum
+			Tooltip: ""
+		}
+
+		MasterInfernum: {
+			Label: Master Infernum
+			Tooltip: ""
+		}
+
+		LegendaryInfernum: {
+			Label: Legendary Infernum
+			Tooltip: ""
+		}
 	}
 }
 
-NameOverrides: {
-	CalamitasShadowClone: {
-		EntryName: "{0}"
+DamageClasses: {
+	VoidRogue: {
+		DisplayName: ヴォイド + ローグダメージ
 	}
 
-	GreatSandShark: {
-		EntryName: タウルス
+	MergedThrowerRogue: {
+		DisplayName: ローグダメージ
+	}
+
+	LegendaryMelee: {
+		DisplayName: 伝説近接ダメージ
+	}
+
+	LegendaryRanged: {
+		DisplayName: 伝説遠距離ダメージ
+	}
+
+	MythicMelee: {
+		DisplayName: 神話近接ダメージ
+	}
+
+	MythicMagic: {
+		DisplayName: 神話魔法ダメージ
+	}
+
+	MythicRanged: {
+		DisplayName: 神話遠距離ダメージ
+	}
+
+	LegendaryMagic: {
+		DisplayName: 伝説魔法ダメージ
+	}
+
+	MeleeWhip: {
+		DisplayName: 近接ムチダメージ
+	}
+
+	MythicSummon: {
+		DisplayName: 神話召喚ダメージ
+	}
+}
+
+BossRushIntroText1:
+	'''
+	Xeroc's Challenge
+	Ensemble of Fools
+	'''
+
+InfernumIntegration: {
+	Astrageldon:
+		'''
+		Multiversal Terror
+		Astrageldon
+		'''
+	Clamitas:
+		'''
+		Supreme Clam
+		Clamitas
+		'''
+	You:
+		'''
+		Dark Reflection
+		You
+		'''
+	Polaris:
+		'''
+		Frozen War Machine
+		Polaris
+		'''
+	NewPolaris:
+		'''
+		Frozen War Machine
+		Polaris
+		'''
+	TrojanSquirrel:
+		'''
+		Maniacal Wooded Count
+		Trojan Squirrel
+		'''
+	CursedCoffin:
+		'''
+		Haunted Paraonic Tomb
+		Cursed Coffin
+		'''
+	DeviBoss:
+		'''
+		Watching Enchantress
+		Deviantt
+		'''
+	BanishedBaron:
+		'''
+		Disobedient Machine
+		Banished Baron
+		'''
+	LifeChallenger:
+		'''
+		Master of Pixies
+		Lifelight
+		'''
+	TimberChampion:
+		'''
+		Forest's Emperor
+		Champion of Timber
+		'''
+	TerraChampion:
+		'''
+		Tectonic Burrower
+		Champion of Terra
+		'''
+	EarthChampion:
+		'''
+		Magmatic Erupter
+		Champion of Earth
+		'''
+	NatureChampion:
+		'''
+		The Elementral Hydra
+		Champion of Nature
+		'''
+	LifeChampion:
+		'''
+		Angelic Vivificantem
+		Champion of Life
+		'''
+	DeathChampion:
+		'''
+		Draconic Mortifer
+		Champion of Death
+		'''
+	SpiritChampion:
+		'''
+		Shade of Pneumea
+		Champion of Spirit
+		'''
+	WillChampion:
+		'''
+		The Victorious Fishron King
+		Champion of Will
+		'''
+	Eridanus:
+		'''
+		Champion of Cosmos
+		Constellator Eridanus
+		'''
+	AbomBoss:
+		'''
+		Holistical Amalgam
+		Abominationn
+		'''
+	YharimMutant:
+		'''
+		The God Seeker
+		Yharim
+		'''
+	Mutant:
+		'''
+		The Ultimate Transmogrification
+		Mutant
+		'''
+	MutantEX:
+		'''
+		The Starlight Cat
+		Monstrosity
+		'''
+	Mars:
+		'''
+		RAMified Machination
+		XG-07 Mars
+		'''
+	HypnosBoss:
+		'''
+		Cerebral Erratum
+		XP-00 Hypnos
+		'''
+	AvatarOfEmptiness:
+		'''
+		Paradise Parasite
+		Avatar of Emptiness
+		'''
+	RealMutantEX:
+		'''
+		The Extreme Rematch
+		Mutant EX
+		'''
+	Guntera:
+		'''
+		The Republican Overgrowth
+		Guntera
+		'''
+	Echdeath:
+		'''
+		Kitty Cat
+		Echdeath
+		'''
+	CeilingOfMoonlord:
+		'''
+		Eldritch Roof
+		Ceiling of Moon Lord
+		'''
+	LittleCat:
+		'''
+		Chaos Incarnate
+		Demonic Little Grey Cat
+		'''
+}
+
+Buffs: {
+	StarboundHorrification: {
+		Description: アストラゲルドンからは逃れられない...
+		DisplayName: 星縛の恐怖
+	}
+
+	WarpJammed: {
+		Description: ドレドンがテレポートを監視している...
+		DisplayName: ワープ妨害
+	}
+
+	AnchoredSoul: {
+		DisplayName: 錨に繋がれた魂
+		Description: 魂が別の場所に固定されている
+	}
+
+	BrokenOath: {
+		DisplayName: 破られた誓い
+		Description: 害をなすなかれ ― ヒポクラテス
+	}
+
+	BubbleShock: {
+		DisplayName: バブルショック
+		Description: これ以上バブルの影響を受けるわけにはいかない！
+	}
+}
+
+SpawnInfo: {
+	Dreadnautilus: ブラッドムーンの夜に釣りをしていると出現することがある
+	PrimordialWyrmHead: 深淵の最深部に古代の遺物が眠っているようだ...
+}
+
+Tiles: {
+	CatastrophicFabricationsMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	EyeMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	BeeMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	CultistMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	GolemMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	ProphecyMusicBoxTile: {
+		MapEntry: オルゴール
+	}
+
+	MenuMusicBoxTile: {
+		MapEntry: Menu Music Box Tile
 	}
 }
 
 NPCs: {
-	ColossalSquidTentacle: {
-		DisplayName: 触手
+	LittleCat: {
+		Bestiary: 彼に餌を忘れた、お前は今、悪魔の小さな灰色の猫の怒りを受けることになる。
+		Name: 悪魔の小さな灰色の猫
+		DisplayName: 悪魔の小さな灰色の猫
 	}
-
-	DepthFeeder: {
-		DisplayName: デプスフィーダー
-	}
-
-	Herring: {
-		DisplayName: ニシン
-	}
-
-	LionfishEnemy: {
-		DisplayName: ミノカサゴ
-	}
-
-	DeusSpawn: {
-		DisplayName: Deus Spawn
-	}
-
-	BrainIllusion: {
-		DisplayName: クトゥルフの脳
-	}
-
-	BrainIllusion2: {
-		DisplayName: クトゥルフの脳
-	}
-
-	SoulSeeker2: {
-		DisplayName: ソウルシーカー
-	}
-
-	LightSnuffingHand: {
-		DisplayName: Light Snuffing Shadow Hand
-	}
-
-	AresEnergyKatana: {
-		DisplayName: XF-09 Ares Energy Katana
-	}
-
-	AresPulseCannon: {
-		DisplayName: XF-09 Ares Pulse Cannon
-	}
-
-	RedPlasmaEnergy: {
-		DisplayName: Plasma Orb
-	}
-
-	RedirectingBubble: {
-		DisplayName: Bubble
-	}
-
-	ExplodingServant: {
-		DisplayName: Servant of Cthulhu
-	}
-
-	GolemFistLeft: {
-		DisplayName: Golem Fist
-	}
-
-	GolemFistRight: {
-		DisplayName: Golem Fist
-	}
-
-	BereftVassal: {
-		DisplayName: 遺された臣下、アルガス
-
-		BossChecklistIntegration: {
-			SpawnInfo: 砂漠の中心にある台座で[i:CalamityMod/SandstormsCore]を使う。
-			EntryName: 遺された臣下、アルガス
-			DespawnMessage: アルガスは待ち続けている...
-		}
-	}
-
-	Ninja: {
-		DisplayName: Ninja
-	}
-
-	BuilderDroneBig: {
-		DisplayName: Big Builder Drone
-	}
-
-	BuilderDroneSmall: {
-		DisplayName: Small Builder Drone
-	}
-
-	ExplosivePlagueCharger: {
-		DisplayName: Explosive Plague Charger
-	}
-
-	PlagueNuke: {
-		DisplayName: Plague Nuke
-	}
-
-	SmallDrone: {
-		DisplayName: Small Drone
-	}
-
-	PlanteraPinkTentacle: {
-		DisplayName: Plantera's Tentacle
-	}
-
-	PolterghastLeg: {
-		DisplayName: Ghostly Leg
-	}
-
-	EtherealHand: {
-		DisplayName: Ethereal Hand
-	}
-
-	HealerShieldCrystal: {
-		DisplayName: Holy Shield
-	}
-
-	SplitBigSlime: {
-		DisplayName: Unstable Slime Spawn
-	}
-
-	SplitBigSlimeAnimation: {
-		DisplayName: Unstable Slime Spawn
-	}
-
-	ShadowDemon: {
-		DisplayName: Shadow Hydra
-	}
-
-	GolemArenaPlatform: {
-		DisplayName: Golem Arena Platform
-	}
-
-	CalamitasShadowClone: {
-		DisplayName: 忘れ去られしカラミタスの影
-	}
-
-	CataclysmShadow: {
-		DisplayName: 忘れ去られしカタクリズムの影
-	}
-
-	CatastropheShadow: {
-		DisplayName: 忘れ去られしカタストロフィの影
-	}
-
-	Dreadnautilus: {
-		BossChecklistIntegration: {
-			SpawnInfo: "[i:InfernumMode/RedBait]を使用するか、ブラッドムーンの間に釣り上げる"
-			EntryName: ドレッドノーチラス
-			DespawnMessage: ドレッドノーチラスは血に染まった海へと戻っていった...
-		}
-	}
-
-	PrimordialWyrm: {
-		BossChecklistIntegration: {
-			SpawnInfo: 深淵の最深部にある終焉の遺物を採掘するか、[i:InfernumMode/EvokingSearune]を使用する。
-			EntryName: 原初の竜
-			DespawnMessage: 遺物は今もなお、竜によって守られている...
-		}
-	}
-}
-
-PetDialog: {
-	AsterSummon1: 俺を遠ざけられると思った？考え直しな！
-	AsterSummon2: やった！帰ってきたぞ。
-	AsterSummon3: うわ、石版の中、すっごく埃っぽい…
-	AsterSummon4: 俺は特別な小さな存在だから、扱いに気をつけてね。
-	AsterSummon5: ようやく戻った！また大暴れする時間だ！
-	AsterSummon6: ゲーマーは死なないよ、"リスポーン"するからね。
-	AsterSummon7: へっ！
-	AsterPassive1: 今日は素晴らしい日だね。花が咲いてる、小鳥たちもさえずってる...
-	AsterPassive2: 一緒に花を摘みに行かない？
-	AsterPassive3: ねえ、爆弾はどこ？
-	AsterPassive4: なんて退屈な日なんだ。
-	AsterPassive5: さあ！何か楽しいことをしようよ！
-	AsterPassive6: 次は何をするの、相棒？
-	AsterPassive7: キラキラ！
-	AsterBossSpawn1: ふふ、すぐに終わるでしょ？
-	AsterBossSpawn2: 今回は死なないでね、いい？
-	AsterBossSpawn3: こんなに早く戻ってきたの？
-	AsterBossSpawn4: 今回負けたら、君の家具全部食べちゃうからね。脅しじゃないよ！
-	AsterBossSpawn5: ポーションを忘れないで！
-	AsterBossSpawn6: わざと死んでくれるなら、20ドルあげるよ。
-	AsterBossSpawn7: へっ、楽勝だね！
-	AsterBossSpawn8: さあ行って！俺を誇らしく思わせて！
-	AsterBossSpawn9: どうやってやるか見せてみて！やる気満々の君！
-	AsterBossSpawn10: たまにはソロプレイも悪くないかもね！
-	AsterPet1: ちょっと....
-	AsterPet2: へっ？
-	AsterPet3: 愛だよ！
-	AsterPet4: 待って、止めないで…
-	AEWJokeTip1: あのくだらない石の意味は何なんだ！？
-	AquaticScourgeTip1: あの蛇、すごく慌てて泳いでる！これなら素手でも捕まえられそう！
-	AquaticScourgeTip2: もっと広いスペースが必要なら、硫黄の砂を片付けてみて！
-	AquaticScourgeBubbleTip: あの白い泡、酸性の水から回復するのにピッタリな場所に見えるよ！
-	AquaticScourgeAcidTip: 水が沸騰してきてるよ！溺れたくないなら、さっさと上がらなきゃ！
-	AquaticScourgeTyphoonTip: あの蛇、ただ泳ぐだけじゃないみたい！急いで逃げよう！
-	AquaticScourgeBonkJokeTip: ボーン！
-	AstrumAureusTip1: ちょっと近くにいてね、そうじゃないと不意打ちを食らっちゃうかも！
-	AstrumAureusTip2: あの衝撃波に気をつけて！地面にはいないほうがいいかも...
-	AstrumDeusTip1: あの蛇、めっちゃ速い！動きを見極めなきゃ...
-	AstrumDeusShellTip: その子、殻を脱ぎ捨てちゃった！もっと速くなるかもだから気をつけてね！
-	AstrumDeusDarkBurstTip: 電撃を避けるときは慌てないで！
-	AstrumDeusRubbleTip: あ、ガレキも忘れないで！上から降ってくるよ！
-	BrimstoneElementalLaserTip: あのビーム、位置を予測してるみたい！こっちに撃たれないようにできるだけ引きつけてみて！
-	BrimstoneElementalRoseCircleTip: できればアリーナの真ん中にいて！その棘、囲い込もうとしてくるよ！
-	BoCTip1: クトゥルフの脳みそは、攻撃に予測とウソを使ってるから、頭を使ってね！
-	BoCTip2: クトゥルフの脳みそと戦ってると混乱してくるなあ...本体はどれなんだろう？
-	BoCTip3: クリーパーがイコルを降らせ始めたら、方向を変えてみて！そうすれば余裕ができるかも！
-	CalShadowTip1: あなたの周りの魔法の輪、何の効果があるんだろう？ま、とりあえず気をつけてね！
-	CalShadowBrosTip: 兄弟の攻撃は、ゆっくり動くと意外と簡単かも？
-	CalShadowFinalPhaseTip: 彼女、本気出してきた…でも呪いの効果はもう切れてるみたい！今は彼女だけに集中できるよ！
-	CalShadowJokeTip1: 私は怒るべきなのかもだけど...見て！彼女、小さな豆みたいで可愛い！
-	CVTip1: 最初はあんまり動かないほうがいいかも？いい感じに避けれる場所を見つけて、そこにいるのが一番だよ！
-	CVTip2: アイツの攻撃は速すぎるし、弾にも気をつけてね！
-	CVPortalTip: あのポータル、何か準備してるよ！急いでどうにかしよう！
-	CVEnergyBurstTip: あの子、すごいエネルギーを放出してる！アリーナの端っこならうまく避けられないかな？
-	CVEnergyBurstTip2: あの塊、螺旋を描いて回ってるみたい！一緒に回ってみて！
-	CVEnergyBurstTip3: 落ち着いて、円を描いて！集中力を失わないでね！
-	CVEnergyChainsTip: あの鎖、もう長くは持たないみたい！大丈夫だよ！
-	CrabulonTip1: クラブロンは、3回ジャンプするたびに胞子を放つから、数を数えておいてね！
-	CrabulonTip2: あのちっちゃいキノコに気をつけて！放っておくと大変なことになるよ！
-	CrabulonTip3: クラブロンと同じ高さを保つといいかも。上に行くとキノコとか胞子とかにをいっぱい当たっちゃうから…
-	CrabulonTip4: あのカニ、上を取ろうとすると、もっと高くジャンプしてくるから気をつけて！
-	CrabulonClawTip: クラブロンがツメを見せるとき、守りが固くなるみたい…
-	CrabulonJokeTip1: ここに入るスペースはもうないよ…でも、誰が勝ったかはわかるよね。
-	CryogenTip1: 上にいるときはなるべく動かないで。それであいつの動きは抑えられるはず！
-	CryogenTip2: 氷の柱は氷の短剣に変わるから、横からの攻撃にも気をつけて！
-	CryogenJokeTip1: うわぁ、めっちゃ冷たかった…
-	CryogenJokeTip2: こいつ、全然クールじゃないね！
-	CryogenBlizzardTip: ブリザードがオーロラの魂を両側から集めてるよ、気をつけて！
-	CultistTip1: あいつ、ほんとに狂ってるね。機動力がないと厳しいかも！
-	CultistIceBurstTip: 氷の弾幕が爆発する前に、その間に入り込んで！
-	CultistLightningTip: 雷はあなたの前を狙ってくるよ！うまく誘導して避けて！
-	DeerclopsTip1: ディアクロップスと戦う時は、近くにいなきゃダメだよ。端っこに追い詰められないようにね！
-	DeerclopsTip2: ディアクロップスの攻撃はパターンが決まってるから、その動きをよく観察して、かわしてね！
-	DeerclopsTip3: スペース管理が大事だよ！
-	DeerclopsCharlieTip: ディアクロップスの目の周りに影を集めちゃうと、光が弱くなっちゃうよ！追い払ってあげて！
-	DeerclopsJokeTip1: どっちかっていうと...鹿の神？
-	DeerclopsDefeatTip: これで幕引きだね！
-	DestroyerTip1: 最後の反撃に備えて！赤いレーザーの予兆を見逃さないようにして！早く安全な場所にダッシュして！
-	DestroyerTip2: あの瓦礫、すごく速く落ちてくるよね？デストロイヤーと一緒に上に行けば、どうにかなったりする？
-	DestroyerTip3: あの突進、結構強力だよ。ダッシュみたいな、すぐに避けれる装備が必要かも！
-	DSTip1: スカージが大きな砂柱を巻き上げる前に音を立ててたの、覚えてる？
-	DSTip2: グラップリングフックを使えば、イイ感じに避けれるかも！
-	DSFinalPhaseTip: コイツらの餌になるのは時間の問題かもね...
-	DSJokeTip1: 自分をデザートにしちゃったみたいだね...
-	DoGTip1: デバウアーの攻撃にはリズムがあるよ。そのリズムを見つけて、いい感じに避けて！
-	DoGLaserTip: うわ、レーザーが多すぎる！ゆっくり、正確に動こう...
-	DoGRoDTip: あれ、もしかしてロッド・オブ・ディスコードはここでは使えないのかも...
-	DoGChargeTip: 頑張って！恐怖に立ち向かって、アイツの口に向かってダッシュするんだ！
-	DoGDashTip: ダッシュできるアクセサリーとか持ってないの？多分役に立つよ。
-	DoGBashTip: 逆に真正面から口に向かってダッシュするのとかどう？流石にダメ？
-	DoGJokeTip1: DoGは何やってるんだ？
-	ExoMechComboTip: 連携攻撃を仕掛けてくるみたい、気をつけて！
-	DraedonChooseTip1: いい感じに選んで！
-	DraedonChooseTip2: 組み合わせを変えるのもいいかもね！
-	AresTip1: オーバーロード攻撃の間は近くにいた方が良いかも、じゃないと回転に追いつけないよ！
-	AresTip2: アレスには強力なスーパーコンピュータがあって、こっちの動きを予測してくるよ！逆に利用できないかな？
-	ExoTwinsTip1: コイツらは完璧に同期しているっぽいね、リズムを見つけて！
-	ThanatosChargeTip: 頑張って！恐怖に立ち向かって、タナトスの口に向かってダッシュするの！
-	DragonfollyTip1: ドラゴンフォリーはムチャクチャに見えるかもだけど、そんなことないよ！落ち着いて分析しよう！
-	DragonfollyTip2: あの赤い雷は、下を飛ぶことで無効化できる...かも？
-	Dragonfollytip3: 赤くなるタイミングに注意して。近づかないと、後ろから襲ってくるよ！
-	DragonfollyBoltTip: 雷が飛んできているよ！気をつけて！
-	DreadnautilusSummonItemTip: ドレッドノーチラスは高級な赤い餌に抗えないって話を聞いたことがあるよ！持ってたりしない？
-	DreadnautilusTip1: あのコウモリたちはキミを狙ってるけど、あんま素早くない。頑張ってかわして！
-	DreadnautilusJokeTip1: ちょ、今死ぬの？これから先、大丈夫かな...
-	DreadnautilusJokeTip2: 失敗しちゃったの？まあ、大丈夫でしょ！そのうち倒せる！
-	DukeFishronRazorbladeTip: レーザーブレードをいい感じによけて！
-	DukeFishronTidalWaveTip: 長い突進が終わる場所を把握して！津波に巻き込まれるかも！
-	EoLTip1: アイツの攻撃は大きな動きをあんまり必要としないよ！
-	EoLMoonTip: 離れないで！月の光と戦っているんだ、逃げるなんてムリだよ！
-	EoLJokeTip1: 虹は好きだし、この攻撃の見た目は最高だね…おっと、悪い言い回しだったかも...
-	EoWTip1: 足場があれば、呪われた炎を避けるのに役立つかも！
-	EoWTip2: アイツが動きを遅くしたら、キミも同じように遅くして！
-	EoWRainTip: アイツが雲を出し始めると動きが鈍くなるよ！その間に逃げ場所を確保しよう。
-	EoWJokeTip1: 世界だけじゃなくて、バランスの良い食事を！
-	EoCTip1: 発射される歯は、結構遠くに向かって飛ぶよ！
-	EoCTip2: チビを倒しても無駄だよ、すぐ消えちゃうもん！
-	EoCJokeTip1: あれに不意打ちされるなんて！目がテンだ！...なんつって
-	EoCJokeTip2: アイアイアイ！最悪な死に方だよ...
-	GolemTip1: ゴーレムの目の色が攻撃ごとに変わるよ！よーく目をこらしてね！
-	GolemTip2: フックを壁にかけると、飛行時間がリセットされるよ！
-	GolemJokeTip1: これはちょっとヤバイかも…
-	HiveMindTip1: ヤツの動きを学ぶチャンスだよ！うまく立ち回ってね！
-	HiveMindTip2: 突進が避けれないならハイブマインドに向かって走るといいかも！
-	HiveMindTip3: 攻撃し続けると次の攻撃が来るのが早くなっちゃうよ！クールダウン中に撃つのがベスト！
-	HiveMindFinalPhaseTip: まだやるの！？
-	HiveMindJokeTip1: それは効かなかったけど、大丈夫！私には良い考えがあるんだ！
-	HiveMindJokeTip2: バカにしようと思ったけど…やっぱり、ここは我慢するのが正解だね！
-	KingSlimeTip1: キングスライムのジャンプの間隔を覚えておくと、立ち回りやすくなるかも？
-	KingSlimeTip2: あんなに高くジャンプするなら、もしかして下をくぐれるかも？
-	KingSlimeJewelTip: 王冠の宝石は危険だよ！撃つタイミングはいつも同じだから、ある程度予測して動こうね！
-	KingSlimeNinjaTip: 忍者は遠くにいるときは手裏剣を投げてくるよ！あまり離れないほうがいいかも！
-	KingSlimeJokeTip1: かなりネバネバした状況だったね…
-	KingSlimeDefeatTip: グーっとバイ、だね！
-	AnahitaTip1: アナヒタの動きを上手く誘導すれば、隙間ができてうまく避けられるよ！
-	AnahitaFinalPhaseTip: ここからが本番！さっきと同じことをやってみて！
-	LeviathanTip1: 隕石は同じ方向に分裂するよ！これを利用しよう！
-	LeviathanFinalPhaseTip: もう少しだよ！ボスよりも自分の動きを意識して！
-	MoonLordTip1: 目玉の攻撃は、かわすのが大変だよ！焦らずにね！
-	MoonLordLaserTip: 気をつけて！ゆっくりとしたレーザー攻撃がやってくるよ！
-	MoonLordTip2: スペースをうまく管理しないと、追い詰められちゃうよ！
-	MoonLordBlackHoleTip: ムーンロードが怒ってる！横から飛んでくるものをかわすんだ！あとブラックホールには当たらないように！
-	MoonLordJokeTip1: ：Squib emoji：...あ、対応してないんだった...
-	OldDukeTip1: シャークロンや歯の玉が出てきたら、ちゃんと覚えておいて！あとでビックリしないようにね！
-	OldDukeTip2: 速さが大事だよ！あの魚と戦う時はスピードが命！
-	OldDukeFinalPhaseTip: テレポートのタイミングを頭の中で考えておこう、さもないと不意打ちされるよ！
-	OldDukeRealFinalPhaseTip: ただ突っ込むだけじゃダメだし、かわすだけでもダメ…両方同時にやってみて！
-	OldDukeDashTip1: 本当にダッシュを使わなくても大丈夫？
-	OldDukeDashTip2: ダッシュアクセサリーがあったら、すご〜く便利かもネ…
-	PBGDroneJailTip: あのドローンたちが檻を作ってる！一つ破壊すれば隙間ができるよ！
-	PBGDroneBuildTip: ジャングル全体が爆発しちゃう前に、ドローンを破壊しよう！
-	PerforatorsTip1: ハイブは大量のイコルをばらまくから、逃げ場所が重要だよ！
-	PerforatorsWorm1Tip: 小さいパーフォレーターの弾は落ちる時にかなり加速するよ！不意打ちに気をつけて！
-	PerforatorsWorm2Tip: このパーフォレーターは他の仲間ほど攻撃的じゃないみたい…もしかして、巻き付けるのが良いかも？
-	PerforatorsProjectilesTip: 落ち着いて、じっとしてればゆっくりな弾は避けやすいよ！
-	PerforatorsFinalPhaseTip: まだ続くの！？
-	PlanteraTip1: 触手が広がる時に、逃げ場所を見つけて！
-	PlanteraPlanteraTip: 雲を気をつけて！ボーっとしてると当たっちゃうよ！
-	PlanteraFinalPhaseTip: プランテラが全力を出してきたよ！気をつけて！
-	PlanteraJokeTip1: 植物にやられちゃうなんて...
-	PlanteraJokeTip2: どう見てもプランテラが勝ってるけど…誰がその胞子を数えてるの？
-	PolterghastTip1: ダッシュがあれば、回転攻撃をうまく避けれるかも！
-	PolterghastTip2: ポルターガストの足が赤くなったら、すぐに離れて！加速する弾が出てくるよ！
-	PolterghastDesperationPhaseTip: ポルターガストの霊魂が解放されたけど、流石に歓迎はされてないみたいだね...
-	ProvidenceDawnWarningTip: プロヴィデンスと戦ってる時は、夜が明けないように気をつけて！
-	ProvidenceDuskWarningTip: プロヴィデンスと戦ってる時は、夜にならないように注意してね！
-	PrimeTip1: 腕はキミが向かう方向を予測してるみたいだね！ギリギリで方向を変えれば、その計算を狂わせられるかも！
-	PrimeTeslaTip: 青い地雷が爆発するとガスを撒き散らすよ！気をつけてね！
-	PrimeJokeTip1: これぞ…絶対にやっちゃダメなことの見本だね。
-	ProfanedRoDTip: 嘘...アイツ、ロッドオブディスコードを使えなくしてきてるよ！気をつけて！
-	ProfanedDefenderTip: やばいよ！もうマジで怒ってる！気を抜かないで！
-	ProfanedFlappyBirdTip: アイツ、右にばっかいるけど、そこにたどり着けば防御を突破できるかも！
-	ProfanedFlappyJokeTip: あの炎の壁、なんだか昔に滅茶苦茶流行ったゲームを思い出しちゃう…でも、そのゲームでは空中ジャンプしかできなかったんだよね！キミは翼があって良かったね！
-	ProfanedFlappyBirdEndTip: 全部を同時に対処しなきゃいけないから、焦らずにゆっくり進めてね！
-	ProfanedHealerDeathTip: アイツらのチームワークはほんとにヤバいね！片方に気を取られて、もう一方を見逃さないように！
-	ProvidenceTip1: アイツの攻撃サイクルは音楽と連動してるかも...？
-	ProvidenceTip2: 常に攻撃し続ける必要はないよ！緩急が大事！
-	ProvidenceExplosionTip: あの火球は溶岩と当たると爆発するみたい！気をつけて！
-	ProvidenceFinalPhaseTip: プロヴィデンスが何かを準備してるよ！気をつけて！
-	QueenBeeTip1: あのハチミツはよく跳ねるね！急いで動きすぎると、無茶苦茶になっちゃう！
-	QueenBeeTip2: ジャマなスズメバチをまず片付けるのが最優先だよ！
-	QueenBeeTip3: 毒は本当にメンドくさいよね。胃石とか、毒を防げるもの、持ってない？
-	QueenBeeJokeTip1: 信じられないよ、まさかの展開だね！
-	QueenBeeJokeTip2: うわっ、マジで痛そ〜...
-	QueenSlimeTip1: 逃げられないと感じたら、動かない方がいいよ！動きすぎないほうが逆に助かるかもね！
-	QueenSlimeBladeBeamTip: なんだあれ！？マジで頼むから近づかないで！今日は蒸発したくないんだ！
-	QueenSlimeCrystalTip: クリスタルがキッチリ等間隔に配置されてるね…同じ方法で毎回避けられそう！
-	RavagerTip1: ラヴェジャーの攻撃の中には、近づいたほうが楽なものもあるよ！臨機応変に！
-	RavagerTip2: スライムのしぶきもちゃんと処理してね。床が溶岩まみれだったら嬉しい？
-	SignusTip1: 闇に包まれる前に注意深く観察してね。警告が出てるかも！
-	SignusShadowSlashTip: 最後にトラップを仕掛けてくるかもしれないから、気を付けて！
-	SignusBombTip: その爆弾はクナイに変わってキミに飛んでくるよ！注意してね！
-	SkeletronTip1: シャドウフレイムに突っ込むのは無茶だよ！ゆっくり進もう！
-	SkeletronTip2: スケルトロンが火球を連射してきても慌てないで！冷静にジャンプすれば大丈夫！
-	SkeletronTip3: 追尾するガイコツは旋回するのに時間がかかるから、あまり遠くまで走らずにその場で対応した方がいいかも！
-	SkeletronJokeTip1: だぁぁぁれがやられたぁぁぁぁぁ！！
-	SlimeGodTip1: 結構おバカっぽそうだね。キミが高くジャンプすれば、アイツらも高く跳んでくれるかも？
-	SlimeGodTip2: 苦戦してるの？アイツらの動きを真似してみたら、うまくいくかもね！
-	StormWeaverTip1: 雲の猛攻はちょいと危険かも！集中して！あのストームスカージは召喚に専念しているだけで、キミに突っ込むつもりはないみたい！
-	SCalJokeTip1: 魔女の帽子、欲しい？あのコとおそろいも楽しいかもね…
-	SCalTip1: クロスボウを取り出したら近づいてみて、どこを狙ってるかわかるよ！
-	SCalSkullTip: たくさんのドクロがあるけど、キミを直接狙っているわけじゃないみたい！
-	SCalDesperationTip: 地獄が解き放たれても、回避に集中して！
-	SCalFireSpinTip: 飛び交う弾に圧倒されないで！冷静に対応すれば大丈夫！
-	SCalFireChargeTip: あの爆弾、デカすぎない？余裕を持って誘導しよう！
-	TwinsTip1: 回転中の回避が難しい？キミも回転しよう！なんつって！
-	TwinsFinalOptionTip: コイツらは体力を減らすと強化されるよ。どっちかが手強いなら、まずどっちか片方を集中的に攻撃するといいかも！
-	TwinsFinalPhaseTip: 残った方の目玉が全力で襲ってくるよ！油断しないで！
-	WoFTip1: 反対方向に逃げることを忘れないで！
-	WoFTip2: あの目は本当に怖いね。幸い、自由に撃ち放題...ってわけじゃないみたいだ！
-	WoFTip3: うわっ、あの口、飛ぶのか！？グロすぎるよ…
-	WoFJokeTip1: うーん、やっちゃったね！ま、ガイドをいじめるのはいつでも楽しいし、無駄じゃないよ！
-	YharonPreHealTip: もう少しだよ！ヤーロンも限界だ！
-	YharonPostHealTip: えぇ…
-	YharonSpeedTip: ヤーロンがダッシュを始めるタイミングを覚えておいて！油断してると不意を突かれるよ！
-	YharonFlashbangTip: 閃光に惑わされないで！炎がどこにあるかしっかり目を凝らして！
-	YharonCarpetBombTip: アイツが爆撃してきそうな時はアリーナの端にいた方がいいよ。その方が避けやすい！
-	YharonJokeTip1: もし私がキミより先に死んだとしても、キミは生きていけるだろうけど…って、え？死んじゃったの！？ウソでしょ、いいところだったのに！
-}
-
-Projectiles: {
-	AbyssalIce: {
-		DisplayName: Abyssal Ice
-	}
-
-	BoxJellyZap: {
-		DisplayName: Jelly Zap
-	}
-
-	DevilfishExplosion: {
-		DisplayName: Devilburst
-	}
-
-	EidolistElectricOrb: {
-		DisplayName: Electric Orb
-	}
-
-	EidolistElectricOrb2: {
-		DisplayName: Electric Orb
-	}
-
-	EidolistIce: {
-		DisplayName: Abyssal Ice
-	}
-
-	EidolistIceBomb: {
-		DisplayName: Abyssal Ice
-	}
-
-	EidolistLightning: {
-		DisplayName: Lightning Bolt
-	}
-
-	EidolistRitual: {
-		DisplayName: Ritual
-	}
-
-	ElectricPulse: {
-		DisplayName: Electric Pulse
-	}
-
-	InkBlob: {
-		DisplayName: Ink Blob
-	}
-
-	InkBolt: {
-		DisplayName: Ink
-	}
-
-	MiniReaperShark: {
-		DisplayName: Reaper Shark
-	}
-
-	ReaperSharkIceBreath: {
-		DisplayName: Ice Breath
-	}
-
-	SimpleAbyssalSoul: {
-		DisplayName: Abyssal Spirit
-	}
-
-	AbyssalSoul: {
-		DisplayName: Abyssal Spirit
-	}
-
-	AbyssalSoulTelegraph: {
-		DisplayName: Abyssal Telegraph
-	}
-
-	AEWIllusionTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	AEWNightmareWyrm: {
-		DisplayName: Eidolon Wyrm
-	}
-
-	AEWSplitForm: {
-		DisplayName: Adult Eidolon Wyrm
-	}
-
-	AEWTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	CircleCenterTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	ConvergingLumenylCrystal: {
-		DisplayName: Divine Lumenyl
-	}
-
-	DivineLightBolt: {
-		DisplayName: Divine Light Bolt
-	}
-
-	DivineLightLaserbeam: {
-		DisplayName: Divine Light Deathray
-	}
-
-	DivineLightOrb: {
-		DisplayName: Divine Light Orb
-	}
-
-	HorizontalRayTerminus: {
-		DisplayName: Horizontal Ray Terminus
-	}
-
-	LightCleaveTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	PsychicBlast: {
-		DisplayName: Psychic Blast
-	}
-
-	TerminusDeathray: {
-		DisplayName: Primordial Light
-	}
-
-	AcceleratingArcingAcid: {
-		DisplayName: Acid
-	}
-
-	AcidBubble: {
-		DisplayName: Acid Bubble
-	}
-
-	AquaticScourgeBodySpike: {
-		DisplayName: Irradiated Spike
-	}
-
-	AquaticScourgeGore: {
-		DisplayName: Gore
-	}
-
-	FallingAcid: {
-		DisplayName: Acid
-	}
-
-	LeechFeeder: {
-		DisplayName: Feeder
-	}
-
-	RadiationPulse: {
-		DisplayName: Radiation Pulse
-	}
-
-	SulphuricGas: {
-		DisplayName: Sulphuric Acid Gas
-	}
-
-	SulphuricGasDebuff: {
-		DisplayName: Sulphuric Acid Gas
-	}
-
-	SulphuricTornado: {
-		DisplayName: Sulphuric Typhoon
-	}
-
-	SulphurousRockRubble: {
-		DisplayName: Sulphuric Rubble
-	}
-
-	WaterClearingBubble: {
-		DisplayName: Acid Bubble
-	}
-
-	AstralBlueComet: {
-		DisplayName: Astral Comet
-	}
-
-	AstralLaserInfernum: {
-		DisplayName: Astral Laser Volley
-	}
-
-	AstralMissile: {
-		DisplayName: Astral Missile
-	}
-
-	BlueLaserbeam: {
-		DisplayName: Astral Deathray
-	}
-
-	MissileTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	OrangeLaserbeam: {
-		DisplayName: Astral Deathray
-	}
-
-	AstralBlackHole: {
-		DisplayName: Astral Black Hole
-	}
-
-	AstralConstellation: {
-		DisplayName: Star
-	}
-
-	AstralCrystal: {
-		DisplayName: Astral Crystal
-	}
-
-	AstralFlame2: {
-		DisplayName: Astral Flame
-	}
-
-	AstralPlasmaFireball: {
-		DisplayName: Astral Plasma Flame
-	}
-
-	AstralPlasmaSpark: {
-		DisplayName: Astral Plasma Spark
-	}
-
-	AstralRubble: {
-		DisplayName: Astral Rubble
-	}
-
-	AstralSparkle: {
-		DisplayName: Astral Sparkle
-	}
-
-	AstralTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	AstralVortex: {
-		DisplayName: Consumed Vortex
-	}
-
-	DarkGodLaser: {
-		DisplayName: Antimatter Deathray
-	}
-
-	DarkStar: {
-		DisplayName: Dark Star
-	}
-
-	InfectionGlob: {
-		DisplayName: Infection Glob
-	}
-
-	MassiveInfectedStar: {
-		DisplayName: Consumed Star
-	}
-
-	BloodGeyser2: {
-		DisplayName: Ichor Geyser
-	}
-
-	IchorSpit: {
-		DisplayName: Ichor
-	}
-
-	PsionicLightningBolt: {
-		DisplayName: Psionic Lightning Bolt
-	}
-
-	PsionicOrb: {
-		DisplayName: Psychic Energy
-	}
-
-	Brimrose: {
-		DisplayName: Brimrose
-	}
-
-	BrimstoneDeathray: {
-		DisplayName: Brimstone Deathray
-	}
-
-	BrimstoneFireball: {
-		DisplayName: Brimstone Flame
-	}
-
-	BrimstonePetal: {
-		DisplayName: Brimstone Petal
-	}
-
-	BrimstonePetal2: {
-		DisplayName: Brimstone Petal
-	}
-
-	BrimstoneRose: {
-		DisplayName: Brimstone Rose
-	}
-
-	BrimstoneSkull: {
-		DisplayName: Brimstone Skull
-	}
-
-	BrimstoneTelegraphRay: {
-		DisplayName: Brimstone Deathray
-	}
-
-	HomingBrimstoneSkull: {
-		DisplayName: Brimstone Hellblast
-	}
-
-	RedFlameTelegraph: {
-		DisplayName: Fuck you nobody is going to ever see this name
-	}
-
-	AccentuationHexProj: {
-		DisplayName: Calamitous Hex
-	}
-
-	ArcingBrimstoneDart: {
-		DisplayName: Brimstone Dart
-	}
-
-	BrimstoneBomb: {
-		DisplayName: Brimstone Bomb
-	}
-
-	BrimstoneBoomExplosion: {
-		DisplayName: Explosion
-	}
-
-	BrimstoneLightning: {
-		DisplayName: Brimstone Lightning Bolt
-	}
-
-	BrimstoneMeteor: {
-		DisplayName: Brimstone Meteor
-	}
-
-	BrimstoneSlash: {
-		DisplayName: Brimstone Slash
-	}
-
-	CatharsisHexProj: {
-		DisplayName: Calamitous Hex
-	}
-
-	CatharsisSoul: {
-		DisplayName: Burning Soul of Catharsis
-	}
-
-	CharredWand: {
-		DisplayName: Charred Wand
-	}
-
-	ConvergingShadowSpark: {
-		DisplayName: Shadow Spark
-	}
-
-	DarkMagicFlame: {
-		DisplayName: Dark Magic Flame
-	}
-
-	EntropyBeam: {
-		DisplayName: Entropic Beam
-	}
-
-	HauntingSoulSeeker: {
-		DisplayName: Soul Seeker
-	}
-
-	HomingBrimstoneBurst: {
-		DisplayName: Brimstone Flame
-	}
-
-	IndignationHexProj: {
-		DisplayName: Calamitous Hex
-	}
-
-	LargeDarkFireOrb: {
-		DisplayName: Dark Fire Orb
-	}
-
-	LingeringBrimstoneFlames: {
-		DisplayName: Brimstone Fire Cloud
-	}
-
-	RisingBrimstoneFireball: {
-		DisplayName: Brimstone Bomb
-	}
-
-	ShadowBlob: {
-		DisplayName: Shadow Blob
-	}
-
-	SoulSeekerResurrectionBeam: {
-		DisplayName: Necromantic Beam
-	}
-
-	ThinBrimstoneSlash: {
-		DisplayName: Brimstone Slash
-	}
-
-	WeaknessHexProj: {
-		DisplayName: Calamitous Hex
-	}
-
-	ZealHexProj: {
-		DisplayName: Calamitous Hex
-	}
-
-	AcceleratingDarkEnergy: {
-		DisplayName: Dark Energy
-	}
-
-	CeaselessEnergyPulse: {
-		DisplayName: Ceaseless Energy Pulse
-	}
-
-	CeaselessVoidLineTelegraph: {
-		DisplayName: Line Telegraph
-	}
-
-	CeaselessVoidShell: {
-		DisplayName: Metal Shell
-	}
-
-	CeaselessVortex: {
-		DisplayName: Ceaseless Vortex
-	}
-
-	CeaselessVortexTear: {
-		DisplayName: Ceaseless Tear
-	}
-
-	ConvergingDungeonRubble: {
-		DisplayName: Energized Rubble
-	}
-
-	EnergyTelegraph: {
-		DisplayName: Dark Energy Shard
-	}
-
-	GammaBurstLineTelegraph: {
-		DisplayName: Line Telegraph
-	}
-
-	OtherworldlyBolt: {
-		DisplayName: Otherwordly Bolt
-	}
-
-	RealitySlice: {
-		DisplayName: Reality Tear
-	}
-
-	SpinningDarkEnergy: {
-		DisplayName: Dark Energy
-	}
-
-	TelegraphedOtherwordlyBolt: {
-		DisplayName: Otherwordly Bolt
-	}
-
-	HomingSpore: {
-		DisplayName: Spore
-	}
-
-	MushroomPillar: {
-		DisplayName: Mushroom Column
-	}
-
-	SporeCloud: {
-		DisplayName: Spore Gas
-	}
-
-	AimedIcicleSpike: {
-		DisplayName: Icicle Spike
-	}
-
-	AuroraSpirit: {
-		DisplayName: Aurora Spirit
-	}
-
-	AuroraSpirit2: {
-		DisplayName: Aurora Spirit
-	}
-
-	IceBomb2: {
-		DisplayName: Ice Bomb
-	}
-
-	IcePillar: {
-		DisplayName: Ice Pillar
-	}
-
-	IceRain2: {
-		DisplayName: Ice Rain
-	}
-
-	IcicleSpike: {
-		DisplayName: Icicle Spike
-	}
-
-	AncientDoom: {
-		DisplayName: Doomer
-	}
-
-	CultistFireBeamTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	CultistRitual: {
-		DisplayName: Ritual
-	}
-
-	DarkBolt: {
-		DisplayName: Dark Bolt
-	}
-
-	DarkBoltLarge: {
-		DisplayName: Dark Bolt
-	}
-
-	DarkPulse: {
-		DisplayName: Dark Pulse
-	}
-
-	DeathExplosion: {
-		DisplayName: Explosion
-	}
-
-	DoomBeam: {
-		DisplayName: Death Beam
-	}
-
-	FireballLineTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	FireBeam: {
-		DisplayName: Flame Beam
-	}
-
-	IceMass: {
-		DisplayName: Ice Mass
-	}
-
-	IceShard: {
-		DisplayName: Ice Shard
-	}
-
-	LightBeam: {
-		DisplayName: Beam
-	}
-
-	LightBurst: {
-		DisplayName: Light Burst
-	}
-
-	TeleportTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	AcceleratingShadowHand: {
-		DisplayName: Shadow Hand
-	}
-
-	ArenaIcicle: {
-		DisplayName: Long Icicle
-	}
-
-	DeathAnimationShadowHand: {
-		DisplayName: Shadow Hand
-	}
-
-	DeerclopsEyeLaserbeam: {
-		DisplayName: Firebeam
-	}
-
-	DeerclopsP2Wave: {
-		DisplayName: Explosion
-	}
-
-	GroundIcicleSpike: {
-		DisplayName: Ice Spike
-	}
-
-	ShadowHandArena: {
-		DisplayName: Shadow Hand
-	}
-
-	SpinningShadowHand: {
-		DisplayName: Shadow Hand
-	}
-
-	SandBlastInfernum: {
-		DisplayName: Sand Blast
-	}
-
-	Sandnado: {
-		DisplayName: Sand Tornado
-	}
-
-	SandstormBlast: {
-		DisplayName: Sand Blast
-	}
-
-	DestroyerBomb: {
-		DisplayName: Explosion
-	}
-
-	DestroyerPierceLaser: {
-		DisplayName: Flame Laser
-	}
-
-	DestroyerPierceLaserTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	EnergyBlast2: {
-		DisplayName: Energy Blast
-	}
-
-	EnergySpark: {
-		DisplayName: Red Spark
-	}
-
-	EnergySpark2: {
-		DisplayName: Red Spark
-	}
-
-	AcceleratingDoGBurst: {
-		DisplayName: Death Fire
-	}
-
-	DoGChargeGate: {
-		DisplayName: Portal
-	}
-
-	DoGDeathInfernum: {
-		DisplayName: Death Beam
-	}
-
-	DoGPhase2IntroPortalGate: {
-		DisplayName: Portal
-	}
-
-	DoGSpawnBoom: {
-		DisplayName: Explosion
-	}
-
-	RealityBreakPortalLaserWall: {
-		DisplayName: Portal
-	}
-
-	RoDFailPulse: {
-		DisplayName: Explosion
-	}
-
-	AresBeamExplosion: {
-		DisplayName: Exoburst Explosion
-	}
-
-	AresBeamTelegraph: {
-		DisplayName: Gamma Disintegration Beam Telegraph
-	}
-
-	AresCannonLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	AresDeathBeamTelegraph: {
-		DisplayName: Exo Overload Telegraph
-	}
-
-	AresEnergyDeathray: {
-		DisplayName: Exo Energy Burst
-	}
-
-	AresEnergyDeathrayTelegraph: {
-		DisplayName: Exo Energy Burst Telegraph
-	}
-
-	AresEnergySlash: {
-		DisplayName: Exo Energy Slash
-	}
-
-	AresLaserDeathray: {
-		DisplayName: Laser Deathray
-	}
-
-	AresLaughBoom: {
-		DisplayName: Explosion
-	}
-
-	AresPlasmaFireball: {
-		DisplayName: Volatile Plasma Blast
-	}
-
-	AresPrecisionBlast: {
-		DisplayName: Precision Blast
-	}
-
-	AresPulseBlast: {
-		DisplayName: Exopulse Energy Burst
-	}
-
-	AresPulseDeathray: {
-		DisplayName: Pulse Deathray
-	}
-
-	AresSpinningDeathBeam: {
-		DisplayName: Exo Overload Beam
-	}
-
-	AresSpinningRedDeathray: {
-		DisplayName: Exothermal Disintegration Deathray
-	}
-
-	AresTeslaGasField: {
-		DisplayName: Electric Cloud
-	}
-
-	AresTeslaOrb: {
-		DisplayName: Tesla Sphere
-	}
-
-	AresTeslaSpark: {
-		DisplayName: Tesla Spark
-	}
-
-	ExoburstSpark: {
-		DisplayName: Exoburst Spark
-	}
-
-	HotMetal: {
-		DisplayName: Superheated Metal
-	}
-
-	PlasmaGas: {
-		DisplayName: Plasma
-	}
-
-	SmallPlasmaSpark: {
-		DisplayName: Plasma Spark
-	}
-
-	ApolloAcceleratingPlasmaSpark: {
-		DisplayName: Plasma Spark
-	}
-
-	ApolloFallingPlasmaSpark: {
-		DisplayName: Plasma Spark
-	}
-
-	ApolloFlamethrower: {
-		DisplayName: Exoplasma Flamethrower
-	}
-
-	ApolloPlasmaFireball: {
-		DisplayName: Volatile Plasma Blast
-	}
-
-	ApolloRocketInfernum: {
-		DisplayName: High Explosive Plasma Rocket
-	}
-
-	ArtemisBasicShotLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	ArtemisGasFireballBlast: {
-		DisplayName: Volatile Fireball Blast
-	}
-
-	ArtemisGatlingLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	ArtemisLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	ArtemisLaserbeamTelegraph: {
-		DisplayName: Laserbeam Telegraph
-	}
-
-	ArtemisSpinLaser: {
-		DisplayName: Ohio Beam
-	}
-
-	ArtemisSweepLaserbeam: {
-		DisplayName: Ohio Beam
-	}
-
-	ExoplasmaBomb: {
-		DisplayName: Exoplasma Bomb
-	}
-
-	ExoplasmaExplosion: {
-		DisplayName: Exoplasma Explosion
-	}
-
-	PlasmaChargeTelegraph: {
-		DisplayName: Charge Telegraph
-	}
-
-	SuperheatedExofireGas: {
-		DisplayName: Superheated Fire
-	}
-
-	ThermonuclearDeathOrb: {
-		DisplayName: Thermonuclear Death Orb
-	}
-
-	DetatchedThanatosLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	ExolaserBomb: {
-		DisplayName: Exolaser Bomb
-	}
-
-	ExolaserSpark: {
-		DisplayName: Exolaser Spark
-	}
-
-	LightOverloadRay: {
-		DisplayName: Prismatic Overload Beam
-	}
-
-	LightRayTelegraph: {
-		DisplayName: Prismatic Light
-	}
-
-	OverloadBoom: {
-		DisplayName: Explosion
-	}
-
-	RefractionRotor: {
-		DisplayName: Refraction Rotor
-	}
-
-	ThanatosAresComboLaser: {
-		DisplayName: Exo Flame Laser
-	}
-
-	BigFollyFeather: {
-		DisplayName: Feather
-	}
-
-	BirbThunderAuraFlare: {
-		DisplayName: Draconic Aura Flare
-	}
-
-	ExplodingEnergyOrb: {
-		DisplayName: Plasma Orb
-	}
-
-	FollyFeather: {
-		DisplayName: Feather
-	}
-
-	LightningCloud: {
-		DisplayName: Lightning
-	}
-
-	LightningCloud2: {
-		DisplayName: Lightning
-	}
-
-	LightningSuperchargeTelegraph: {
-		DisplayName: Charge Telegraph
-	}
-
-	RedLightningRedirectingFeather: {
-		DisplayName: Lightning Feather
-	}
-
-	RedLightningSnipeFeather: {
-		DisplayName: Lightning Feather
-	}
-
-	RedSpark: {
-		DisplayName: Lightning Feather
-	}
-
-	VolatileLightning: {
-		DisplayName: Lightning Cloud
-	}
-
-	BloodBolt: {
-		DisplayName: Blood Bolt
-	}
-
-	BloodShot2: {
-		DisplayName: Blood
-	}
-
-	GoreSpike: {
-		DisplayName: Spike
-	}
-
-	GoreSpitBall: {
-		DisplayName: Gore Spit Ball
-	}
-
-	SanguineBat: {
-		DisplayName: Sanguine Bat
-	}
-
-	ChargeTyphoon: {
-		DisplayName: Typhoon
-	}
-
-	SharkSummoner: {
-		DisplayName: Summon Thing
-	}
-
-	SmallWave: {
-		DisplayName: Wave
-	}
-
-	TidalWave: {
-		DisplayName: Tidal Wave
-	}
-
-	Tornado: {
-		DisplayName: Tornado
-	}
-
-	TyphoonBlade: {
-		DisplayName: Typhoon Blade
-	}
-
-	AcceleratingPrismaticBolt: {
-		DisplayName: Prismatic Bolt
-	}
-
-	ArcingLightBolt: {
-		DisplayName: Light Bolt
-	}
-
-	EmpressAurora: {
-		DisplayName: Aurora
-	}
-
-	EmpressExplosion: {
-		DisplayName: Explosion
-	}
-
-	EmpressPrism: {
-		DisplayName: Prism
-	}
-
-	EmpressSparkle: {
-		DisplayName: Majestic Sparkle
-	}
-
-	EmpressSword: {
-		DisplayName: Empress Blade
-	}
-
-	EtherealLance: {
-		DisplayName: Ethereal Lance
-	}
-
-	LanceCreatingSword: {
-		DisplayName: Empress Blade
-	}
-
-	LightOverloadBeam: {
-		DisplayName: Prismatic Overload Ray
-	}
-
-	PrismaticBolt: {
-		DisplayName: Prismatic Bolt
-	}
-
-	PrismLaserbeam: {
-		DisplayName: Prismatic Ray
-	}
-
-	ShimmeringLightWave: {
-		DisplayName: Explosion
-	}
-
-	SpinningPrismLaserbeam: {
-		DisplayName: Prismatic Ray
-	}
-
-	StarBolt: {
-		DisplayName: Star Bolt
-	}
-
-	StolenCelestialObject: {
-		DisplayName: Big Stolen Celestial Object
-	}
-
-	CorruptThorn: {
-		DisplayName: Corrupt Thorn
-	}
-
-	CursedBullet: {
-		DisplayName: Cursed Shot
-	}
-
-	CursedFlameBomb: {
-		DisplayName: Cursed Flame Bomb
-	}
-
-	ShadowOrb: {
-		DisplayName: Shadow Orb
-	}
-
-	BloodShot: {
-		DisplayName: Blood
-	}
-
-	EoCTooth: {
-		DisplayName: Tooth
-	}
-
-	EoCTooth2: {
-		DisplayName: Tooth
-	}
-
-	SittingBlood: {
-		DisplayName: Tooth Ball
-	}
-
-	FistBullet: {
-		DisplayName: Fist Bullet
-	}
-
-	FistBulletTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	GolemEyeLaserRay: {
-		DisplayName: Heat Ray
-	}
-
-	GolemLaser: {
-		DisplayName: Heat Laser
-	}
-
-	GroundFireCrystal: {
-		DisplayName: Fire Crystal
-	}
-
-	SpikeTrap: {
-		DisplayName: Spike Trap
-	}
-
-	StationarySpikeTrap: {
-		DisplayName: Spike Trap
-	}
-
-	ThermalDeathray: {
-		DisplayName: Thermal Deathray
-	}
-
-	BereftVassalBigBoom: {
-		DisplayName: Explosion
-	}
-
-	BereftVassalSpear: {
-		DisplayName: Myrindael
-	}
-
-	BereftVassalTeleportBoom: {
-		DisplayName: Explosion
-	}
-
-	DustDevil: {
-		DisplayName: Dust Devil
-	}
-
-	GreatSandBlast: {
-		DisplayName: Sand Blast
-	}
-
-	GroundSlamWave: {
-		DisplayName: Wave
-	}
-
-	PressureSandnado: {
-		DisplayName: Sand Tornado
-	}
-
-	SandBlob: {
-		DisplayName: Sand Blob
-	}
-
-	SparkTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	TorrentWave: {
-		DisplayName: Wave
-	}
-
-	VassalLightning: {
-		DisplayName: Myrndael Lightning Bolt
-	}
-
-	VassalSpark: {
-		DisplayName: Spark
-	}
-
-	WaterSlice: {
-		DisplayName: Water Tear
-	}
-
-	WaterSpear: {
-		DisplayName: Water Spear
-	}
-
-	WaterTorrentBeam: {
-		DisplayName: Water Torrent
-	}
-
-	BlobProjectile: {
-		DisplayName: Hive Blob
-	}
-
-	EaterOfSouls: {
-		DisplayName: Eater of Souls
-	}
-
-	HiveMindWave: {
-		DisplayName: Explosion
-	}
-
-	ShadeFire: {
-		DisplayName: Fire
-	}
-
-	DeathSlash: {
-		DisplayName: Ninja Slice
-	}
-
-	JewelBeam: {
-		DisplayName: Beam
-	}
-
-	Shuriken: {
-		DisplayName: Shuriken
-	}
-
-	AnahitaWaterIllusion: {
-		DisplayName: Anahita Illusion
-	}
-
-	AquaticAberrationProj: {
-		DisplayName: Aquatic Aberration
-	}
-
-	AtlantisSpear: {
-		DisplayName: Atlantis Spear
-	}
-
-	AtlantisSpear2: {
-		DisplayName: Atlantis Spear
-	}
-
-	HeavenlyLullaby: {
-		DisplayName: Heavenly Lullaby
-	}
-
-	LeviathanMeteor: {
-		DisplayName: Leviathan Meteor
-	}
-
-	LeviathanSpawner: {
-		DisplayName: Water
-	}
-
-	LeviathanSpawnWave: {
-		DisplayName: Wave
-	}
-
-	LeviathanVomit: {
-		DisplayName: Leviathan Vomit
-	}
-
-	RedirectingWaterBolt: {
-		DisplayName: Water Spear
-	}
-
-	WaterBolt: {
-		DisplayName: Water Spear
-	}
-
-	LunarAsteroid: {
-		DisplayName: Lunar Flame
-	}
-
-	LunarFireball: {
-		DisplayName: Lunar Flame
-	}
-
-	LunarFlare: {
-		DisplayName: Phantasmal Flare
-	}
-
-	LunarFlareTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	MoonLordDeathAnimationHandler: {
-		DisplayName: Death Animation
-	}
-
-	MoonLordDeathBloodBlob: {
-		DisplayName: Ichor Blob
-	}
-
-	MoonLordExplosion: {
-		DisplayName: Explosion
-	}
-
-	MoonLordExplosionCinder: {
-		DisplayName: Cinder
-	}
-
-	MoonLordWave: {
-		DisplayName: Explosion
-	}
-
-	NonHomingPhantasmalEye: {
-		DisplayName: Phantasmal Eye
-	}
-
-	PhantasmalDeathray: {
-		DisplayName: Phantasmal Deathray
-	}
-
-	PhantasmalOrb: {
-		DisplayName: Phantasmal Orb
-	}
-
-	PressurePhantasmalDeathray: {
-		DisplayName: Phantasmal Deathray
-	}
-
-	StardustConstellation: {
-		DisplayName: Star
-	}
-
-	TrueEyeChargeTelegraph: {
-		DisplayName: Charge Telegraph
-	}
-
-	VoidBlackHole: {
-		DisplayName: Void
-	}
-
-	HomingAcid: {
-		DisplayName: Acid
-	}
-
-	OldDukeTooth: {
-		DisplayName: Rotten Tooth
-	}
-
-	SharkSummonVortex: {
-		DisplayName: Sulphurous Vortex
-	}
-
-	SulphuricBlob: {
-		DisplayName: Sulphuric Blob
-	}
-
-	BloodGlob: {
-		DisplayName: Blood Glob
-	}
-
-	Crimera: {
-		DisplayName: Crimera
-	}
-
-	FallingIchor: {
-		DisplayName: Ichor
-	}
-
-	FallingIchorBlast: {
-		DisplayName: Ichor Blob
-	}
-
-	FlyingIchor: {
-		DisplayName: Ichor
-	}
-
-	IchorBlast: {
-		DisplayName: Ichor Blast
-	}
-
-	IchorBolt: {
-		DisplayName: Ichor Spit
-	}
-
-	PerforatorWave: {
-		DisplayName: Explosion
-	}
-
-	ToothBall: {
-		DisplayName: Tooth Ball
-	}
-
-	BombingTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	HostilePlagueSeeker: {
-		DisplayName: Plague Seeker
-	}
-
-	LargePlagueExplosion: {
-		DisplayName: Explosion
-	}
-
-	PlagueCloud: {
-		DisplayName: Plague Cloud
-	}
-
-	PlagueDeathray: {
-		DisplayName: Plague Ray
-	}
-
-	PlagueMissile: {
-		DisplayName: Missile
-	}
-
-	PlagueMissile2: {
-		DisplayName: Missile
-	}
-
-	PlagueNuclearExplosion: {
-		DisplayName: Explosion
-	}
-
-	PlagueVomit: {
-		DisplayName: Plague Vomit
-	}
-
-	PlagueWave: {
-		DisplayName: Explosion
-	}
-
-	RedirectingPlagueMissile: {
-		DisplayName: Missile
-	}
-
-	BouncingPetal: {
-		DisplayName: Petal
-	}
-
-	ExplodingFlower: {
-		DisplayName: Flower
-	}
-
-	NettlevineArenaSeparator: {
-		DisplayName: Nettlevine
-	}
-
-	Petal: {
-		DisplayName: Petal
-	}
-
-	SporeFlower: {
-		DisplayName: Flower
-	}
-
-	SporeGas: {
-		DisplayName: Spore Gas
-	}
-
-	ArcingSoul: {
-		DisplayName: Soul
-	}
-
-	CirclingEctoplasm: {
-		DisplayName: Ectoplasm Wisp
-	}
-
-	EctoplasmShot: {
-		DisplayName: Ectoplasm Blast
-	}
-
-	GhostlyVortex: {
-		DisplayName: Phantoplasm Vortex
-	}
-
-	Light: {
-		DisplayName: Light
-	}
-
-	NonReturningSoul: {
-		DisplayName: Soul
-	}
-
-	NotSpecialSoul: {
-		DisplayName: Soul
-	}
-
-	PolterghastWave: {
-		DisplayName: Explosion
-	}
-
-	SoulTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	SpinningSoul: {
-		DisplayName: Soul
-	}
-
-	WavySoul: {
-		DisplayName: Soul
-	}
-
-	EvenlySpreadPrimeLaserRay: {
-		DisplayName: Deathray
-	}
-
-	LightningStrike: {
-		DisplayName: Lightning
-	}
-
-	MetallicSpike: {
-		DisplayName: Metal Spike
-	}
-
-	PrimeMissile: {
-		DisplayName: Missile
-	}
-
-	PrimeShield: {
-		DisplayName: Shield
-	}
-
-	PrimeSmallLaser: {
-		DisplayName: Laser
-	}
-
-	SawSpark: {
-		DisplayName: Saw Spark
-	}
-
-	SmallElectricGasGloud: {
-		DisplayName: Electric Cloud
-	}
-
-	TeslaBomb: {
-		DisplayName: Tesla Bomb
-	}
-
-	CommanderSpear: {
-		DisplayName: Holy Spear
-	}
-
-	CommanderSpearThrown: {
-		DisplayName: Profaned Spear
-	}
-
-	DefenderShield: {
-		DisplayName: Rock Shield
-	}
-
-	GuardiansRodFailPulse: {
-		DisplayName: Explosion
-	}
-
-	HolyAimedDeathray: {
-		DisplayName: Flame Beam
-	}
-
-	HolyAimedDeathrayTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	HolyDogmaFireball: {
-		DisplayName: Large Fireball
-	}
-
-	HolyFireRift: {
-		DisplayName: Fire Rift
-	}
-
-	HolyFireWall: {
-		DisplayName: Fire Wall
-	}
-
-	HolyPushbackWall: {
-		DisplayName: Fire Wall
-	}
-
-	HolySineSpear: {
-		DisplayName: Profaned Spear
-	}
-
-	HolySpinningFireBeam: {
-		DisplayName: Holy Fire Beam
-	}
-
-	LavaEruptionPillar: {
-		DisplayName: Lava Geyser
-	}
-
-	LingeringHolyFire: {
-		DisplayName: Holy Fire
-	}
-
-	MagicCrystalShot: {
-		DisplayName: Crystalline Light
-	}
-
-	MagicSpiralCrystalShot: {
-		DisplayName: Crystalline Light
-	}
-
-	ProfanedCirclingRock: {
-		DisplayName: Profaned Rock
-	}
-
-	ProfanedCrack: {
-		DisplayName: Profaned Cracks
-	}
-
-	ProfanedField: {
-		DisplayName: Profaned Defender Field
-	}
-
-	ProfanedRock: {
-		DisplayName: Profaned Rock
-	}
-
-	ProfanedSpearInfernum: {
-		DisplayName: Profaned Spear
-	}
-
-	TelegraphedProfanedSpearInfernum: {
-		DisplayName: Profaned Spear
-	}
-
-	AcceleratingCrystalShard: {
-		DisplayName: Holy Crystal Shard
-	}
-
-	AcceleratingMagicProfanedRock: {
-		DisplayName: Profaned Rock
-	}
-
-	CleansingFireball: {
-		DisplayName: Cleansing Fireball
-	}
-
-	CommanderSpear2: {
-		DisplayName: Holy Spear
-	}
-
-	CrystalTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	DyingSun: {
-		DisplayName: Dying Sun
-	}
-
-	FallingCrystalShard: {
-		DisplayName: Holy Crystal Shard
-	}
-
-	HolyBasicFireball: {
-		DisplayName: Holy Fireball
-	}
-
-	HolyBomb: {
-		DisplayName: Holy Bomb
-	}
-
-	HolyCinder: {
-		DisplayName: Holy Cinder
-	}
-
-	HolyCross: {
-		DisplayName: Holy Symbol
-	}
-
-	HolyCrystalSpike: {
-		DisplayName: Crystal Spike
-	}
-
-	HolyMagicLaserbeam: {
-		DisplayName: Holy Disintegration Deathray
-	}
-
-	HolyRitual: {
-		DisplayName: Holy Ritual
-	}
-
-	HolySpear: {
-		DisplayName: Holy Spear
-	}
-
-	HolySpearFirePillar: {
-		DisplayName: Lava Geyser
-	}
-
-	HolySunExplosion: {
-		DisplayName: Holy Explosion
-	}
-
-	ProfanedLava: {
-		DisplayName: Searing Lava of Atonement
-	}
-
-	ProfanedLavaBlob: {
-		DisplayName: Lava Blob
-	}
-
-	ProvBoomDeath: {
-		DisplayName: Explosion
-	}
-
-	ProvidenceArenaBorder: {
-		DisplayName: Border
-	}
-
-	ProvidenceWave: {
-		DisplayName: Explosion
-	}
-
-	ProvSummonFlameExplosion: {
-		DisplayName: Hyperthermal Explosion
-	}
-
-	StrongProfanedCrack: {
-		DisplayName: Profaned Cracks
-	}
-
-	BeeWave: {
-		DisplayName: Explosion
-	}
-
-	ConvergingHornet: {
-		DisplayName: Hornet
-	}
-
-	HoneyBlast: {
-		DisplayName: Honey Blast
-	}
-
-	HornetHive: {
-		DisplayName: Hive
-	}
-
-	TinyBee: {
-		DisplayName: Bee
-	}
-
-	BouncingSlimeProj: {
-		DisplayName: Bouncy Slime
-	}
-
-	FallingCrystal: {
-		DisplayName: Hallow Crystal
-	}
-
-	FallingGel: {
-		DisplayName: Falling Gel
-	}
-
-	FallingSpikeSlimeProj: {
-		DisplayName: Crystal Slime
-	}
-
-	HallowBlade: {
-		DisplayName: Hallow Blade
-	}
-
-	HallowBladeLaserbeam: {
-		DisplayName: Hallow Blade Deathray
-	}
-
-	HallowCrystalSpike: {
-		DisplayName: Crystal Spike
-	}
-
-	HallowLaserbeam: {
-		DisplayName: Hallow Deathray
-	}
-
-	QueenJewelBeam: {
-		DisplayName: Beam
-	}
-
-	QueenSlimeCrown: {
-		DisplayName: Queen Slime's Crown
-	}
-
-	QueenSlimeCrystalSpike: {
-		DisplayName: Crystal Spike
-	}
-
-	QueenSlimeLightWave: {
-		DisplayName: Explosion
-	}
-
-	QueenSlimeSplitFormProj: {
-		DisplayName: Heavenly Slime
-	}
-
-	SpinningLaserCrystal: {
-		DisplayName: Hallow Crystal
-	}
-
-	DarkFlamePillar: {
-		DisplayName: Dark Flame Pillar
-	}
-
-	DarkFlamePillarTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	DarkMagicCinder: {
-		DisplayName: Dark Magic Cinder
-	}
-
-	DarkMagicFireball: {
-		DisplayName: Dark Magic Fireball
-	}
-
-	GroundBloodSpike: {
-		DisplayName: Blood Spike
-	}
-
-	GroundBloodSpikeCreator: {
-		DisplayName: Blood Spike Creator
-	}
-
-	RitualFlame: {
-		DisplayName: Blue Flame
-	}
-
-	SlammingRockPillar: {
-		DisplayName: Rock Pillar
-	}
-
-	StompShockwave: {
-		DisplayName: Shockwave
-	}
-
-	UnholyBloodGlob: {
-		DisplayName: Ungodly Blood
-	}
-
-	CosmicExplosion: {
-		DisplayName: Cosmic Explosion
-	}
-
-	CosmicKunai: {
-		DisplayName: Cosmic Kunai
-	}
-
-	CosmicMine: {
-		DisplayName: Cosmic Mine
-	}
-
-	DarkCosmicBomb: {
-		DisplayName: Cosmic Bomb
-	}
-
-	EldritchScythe: {
-		DisplayName: Scythe
-	}
-
-	ShadowDashTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	ShadowSlash: {
-		DisplayName: Shadow Slash
-	}
-
-	AcceleratingSkull: {
-		DisplayName: Skull
-	}
-
-	NonHomingSkull: {
-		DisplayName: Skull
-	}
-
-	ShadowflameFireball: {
-		DisplayName: Shadowflame Bomb
-	}
-
-	SpinningFireball: {
-		DisplayName: Shadowflame Fireball
-	}
-
-	DeceleratingCrimulanGlob: {
-		DisplayName: Unstable Crimulan Glob
-	}
-
-	DeceleratingEbonianGlob: {
-		DisplayName: Unstable Ebonian Glob
-	}
-
-	GroundSlimeGlob: {
-		DisplayName: Unstable Slime Glob
-	}
-
-	HomingWeaverSpark: {
-		DisplayName: Spark
-	}
-
-	WeaverSpark: {
-		DisplayName: Spark
-	}
-
-	WindGust: {
-		DisplayName: Wind Gust
-	}
-
-	AcceleratingDarkMagicFlame: {
-		DisplayName: Dark Magic Flame
-	}
-
-	BrimstoneDemonSummonExplosion: {
-		DisplayName: Brimstone Explosion
-	}
-
-	BrimstoneFlameOrb: {
-		DisplayName: Brimstone Flame Orb
-	}
-
-	BrimstoneFlamePillar: {
-		DisplayName: Brimstone Flame Pillar
-	}
-
-	BrimstoneFlamePillarTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	BrimstoneJewelProj: {
-		DisplayName: Brimstone Jewel
-	}
-
-	BrimstoneLaserbeam: {
-		DisplayName: Brimstone Deathray
-	}
-
-	CatastropheSlash: {
-		DisplayName: Resonance Slash
-	}
-
-	CondemnationArrowSCal: {
-		DisplayName: Dark Arrow
-	}
-
-	CondemnationProj: {
-		DisplayName: Condemnation
-	}
-
-	CalamitasCutsceneProj: {
-		DisplayName: Calamitas
-	}
-
-	DemonicBomb: {
-		DisplayName: Demonic Bomb
-	}
-
-	DemonicExplosion: {
-		DisplayName: Demonic Explosion
-	}
-
-	DemonicTelegraphLine: {
-		DisplayName: Telegraph
-	}
-
-	FlameOverloadBeam: {
-		DisplayName: Brimstone Flame Overload Ray
-	}
-
-	HeresyProjSCal: {
-		DisplayName: Heresy
-	}
-
-	InfernumBrimstoneGigablast: {
-		DisplayName: Brimstone Gigablast
-	}
-
-	LostSoulProj: {
-		DisplayName: Burning Soul
-	}
-
-	RedirectingDarkSoul: {
-		DisplayName: Dark Soul
-	}
-
-	RedirectingHellfireSCal: {
-		DisplayName: Brimstone Hellfire
-	}
-
-	RedirectingLostSoulProj: {
-		DisplayName: Burning Soul
-	}
-
-	RitualBrimstoneHeart: {
-		DisplayName: Brimstone Heart
-	}
-
-	SepulcherBone: {
-		DisplayName: Occult Bone
-	}
-
-	SepulcherSoulBomb: {
-		DisplayName: Wrathful Spirits
-	}
-
-	ShadowBolt: {
-		DisplayName: Shadow Bolt
-	}
-
-	ShadowFlameBlast: {
-		DisplayName: Shadow Blast
-	}
-
-	ShadowGigablast: {
-		DisplayName: Shadow Gigablast
-	}
-
-	ShadowSpark: {
-		DisplayName: Shadow Spark
-	}
-
-	SuicideBomberDemonExplosion: {
-		DisplayName: Explosion
-	}
-
-	SuicideBomberDemonHostile: {
-		DisplayName: Demon
-	}
-
-	SuicideBomberRitual: {
-		DisplayName: Ritual
-	}
-
-	SupremeCalamitasBrotherPortal: {
-		DisplayName: Dark Portal
-	}
-
-	SCalSymbol: {
-		DisplayName: Alchemical Symbol
-	}
-
-	VigilanceProj: {
-		DisplayName: Vigilance
-	}
-
-	CursedCinder: {
-		DisplayName: Cursed Cinder
-	}
-
-	CursedFireballBomb: {
-		DisplayName: Cursed Fireball Bomb
-	}
-
-	CursedFlameBurst: {
-		DisplayName: Cursed Flame
-	}
-
-	CursedFlameBurstTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	HomingCursedFlameBurst: {
-		DisplayName: Cursed Flame
-	}
-
-	LaserGroundShock: {
-		DisplayName: Ground Shock
-	}
-
-	LightningTelegraph: {
-		DisplayName: Telegraph Ray
-	}
-
-	RedLightning: {
-		DisplayName: Lightning
-	}
-
-	RetinazerAimedDeathray: {
-		DisplayName: Deathray
-	}
-
-	RetinazerAimedDeathray2: {
-		DisplayName: Deathray
-	}
-
-	RetinazerGroundDeathray: {
-		DisplayName: Deathray
-	}
-
-	RetinazerLaser: {
-		DisplayName: Death Laser
-	}
-
-	SpazmatismFlamethrower: {
-		DisplayName: Cursed Flamethrower
-	}
-
-	TwinsEnergyExplosion: {
-		DisplayName: Boom
-	}
-
-	TwinsLensFlare: {
-		DisplayName: Lens Flare
-	}
-
-	TwinsShield: {
-		DisplayName: Shield
-	}
-
-	TwinsSpriteExplosion: {
-		DisplayName: Twins Sprite Explosion
-	}
-
-	CursedSoul: {
-		DisplayName: Soul
-	}
-
-	FireBeamTelegraph: {
-		DisplayName: Telegraph
-	}
-
-	FireBeamWoF: {
-		DisplayName: Flame Beam
-	}
-
-	TileTentacle: {
-		DisplayName: Tentacle
-	}
-
-	DraconicBlossomPetal: {
-		DisplayName: Draconic Blossom Petal
-	}
-
-	DraconicInfernado: {
-		DisplayName: Draconic Infernado
-	}
-
-	DragonFireball: {
-		DisplayName: Fireball
-	}
-
-	HomingFireball: {
-		DisplayName: Homing Fireball
-	}
-
-	InfernadoSpawner: {
-		DisplayName: Big Flare
-	}
-
-	LingeringDragonFlames: {
-		DisplayName: Dragonfire
-	}
-
-	MajesticSparkleBig: {
-		DisplayName: Majestic Sparkle
-	}
-
-	RedirectingYharonMeteor: {
-		DisplayName: Dragon Fireball
-	}
-
-	VortexOfFlame: {
-		DisplayName: Vortex of Flame
-	}
-
-	VortexTelegraphBeam: {
-		DisplayName: Flame Beam Telegraph
-	}
-
-	YharonBoom: {
-		DisplayName: Boom
-	}
-
-	YharonFlameExplosion: {
-		DisplayName: Hyperthermal Explosion
-	}
-
-	YharonFlamethrower: {
-		DisplayName: Draconic Flame Breath
-	}
-
-	YharonHeatFlashFireball: {
-		DisplayName: Fire
-	}
-
-	YharonMajesticSparkle: {
-		DisplayName: Majestic Sparkle
-	}
-
-	DraconicBurst: {
-		DisplayName: Draconic Burst
-	}
-
-	ExplodingWyvern: {
-		DisplayName: Wyvern
-	}
-
-	MeteorCinder: {
-		DisplayName: Cinder
-	}
-
-	MoltenMeteor: {
-		DisplayName: Meteor
-	}
-
-	CloudLightning: {
-		DisplayName: Cloud Lightning
-	}
-
-	LargeCloud: {
-		DisplayName: Large Cloud
-	}
-
-	LargeHail: {
-		DisplayName: Large Hail
-	}
-
-	SmallHail: {
-		DisplayName: Small Hail
-	}
-
-	ChainGuillotine: {
-		DisplayName: Chain Guillotine
-	}
-
-	CursedDart: {
-		DisplayName: Cursed Flame Dart
-	}
-
-	CursedFlamePillar: {
-		DisplayName: Cursed Flame Pillar
-	}
-
-	FetidBaghnakhs: {
-		DisplayName: Fetid Baghnakhs
-	}
-
-	IchorDart: {
-		DisplayName: Ichor Dart
-	}
-
-	LifeDrainingField: {
-		DisplayName: Life-Draining Field
-	}
-
-	DarkMagicCircle: {
-		DisplayName: Dark Magic
-	}
-
-	RedirectingWeakDarkMagicFlame: {
-		DisplayName: Dark Flame
-	}
-
-	PearlSwirl: {
-		DisplayName: Pearl Swirl
-	}
-
-	CrystalShard: {
-		DisplayName: Crystal Shard
-	}
-
-	FlyingKnife: {
-		DisplayName: Flying Knife
-	}
-
-	HolyStar: {
-		DisplayName: Holy Star
-	}
-
-	PiercingCrystalShard: {
-		DisplayName: Crystal Shard
-	}
-
-	ConvergingGammaEnergy: {
-		DisplayName: Gamma Cinder
-	}
-
-	GammaRain: {
-		DisplayName: Gamma Rain
-	}
-
-	GammaSuperDeathray: {
-		DisplayName: Gamma Deathray
-	}
-
-	BouncingSpitBall: {
-		DisplayName: Spit Ball
-	}
-
-	RisingFireball: {
-		DisplayName: Fireball
-	}
-
-	SandFlameBall: {
-		DisplayName: Sand Ball
-	}
-
-	Sandnado2: {
-		DisplayName: Sand Tornado
-	}
-
-	WanderersShellWater: {
-		DisplayName: Water Torrent
-	}
-
-	BrimstoneCrescentStaffProj: {
-		DisplayName: Brimstone Crescent Staff
-	}
-
-	BrimstoneForcefieldExplosion: {
-		DisplayName: Brimstone Explosion
-	}
-
-	CherryBlossomPetal: {
-		DisplayName: Cherry Blossom Petal
-	}
-
-	GuardiansSummonerProjectile: {
-		DisplayName: Guardians Summoner Projectile
-	}
-
-	HydrothermalSmoke: {
-		DisplayName: Steam
-	}
-
-	PortalLensFlare: {
-		DisplayName: Lens Flare
-	}
-
-	ProvidenceSummonerProjectile: {
-		DisplayName: Providence Summoner Projectile
-	}
-
-	ScreenShakeProj: {
-		DisplayName: Screen Shake
-	}
-
-	TerminusAnimationProj: {
-		DisplayName: Terminus Animation Proj
-	}
-
-	WaterglassTokenProjectile: {
-		DisplayName: Waterglass Token
-	}
-
-	HyperplaneMatrixProjectile: {
-		DisplayName: Hyperplane Matrix
-	}
-
-	AridBattlecryProjectile: {
-		DisplayName: Arid Battlecry
-	}
-
-	EyeOfMadnessProj: {
-		DisplayName: Eye of Madness
-	}
-
-	IllusionersReverieProj: {
-		DisplayName: Illusioner's Reverie
-	}
-
-	KevinProjectile: {
-		DisplayName: Kevin
-	}
-
-	LingeringSandSkull: {
-		DisplayName: Sand Skull
-	}
-
-	MiniSandShark: {
-		DisplayName: Mini Sand Shark
-	}
-
-	ShadowIllusion: {
-		DisplayName: Lens Flare
-	}
-
-	ShadowTendril: {
-		DisplayName: Shadow Tendril
-	}
-
-	EggGoldProjectile: {
-		DisplayName: Golden Egg
-	}
-
-	EggProjectile: {
-		DisplayName: Egg
-	}
-
-	MyrindaelBonkProjectile: {
-		DisplayName: Myrindael
-	}
-
-	MyrindaelLightning: {
-		DisplayName: Myrndael Lightning Bolt
-	}
-
-	MyrindaelSpark: {
-		DisplayName: Myrindael Spark
-	}
-
-	MyrindaelSpinProjectile: {
-		DisplayName: Myrindael
-	}
-
-	AsterPetProj: {
-		DisplayName: Aster
-	}
-
-	BlahajProj: {
-		DisplayName: Blahaj
-	}
-
-	BronzePetProj: {
-		DisplayName: Yharn
-	}
-
-	HatGirl: {
-		DisplayName: Hat Girl
-	}
-
-	SheepGod: {
-		DisplayName: Sheep God
-	}
-
-	GlassmakerFire: {
-		DisplayName: Glass Flames
-	}
-
-	GlassmakerHoldout: {
-		DisplayName: Glassmaker
-	}
-
-	GlassPiece: {
-		DisplayName: Glass Piece
-	}
-
-	DreamtasticEnergyBolt: {
-		DisplayName: Dreamer's Energy Bolt
-	}
-
-	DreamtasticProj: {
-		DisplayName: Dreamtastic
-	}
-
-	StormMaidensLightning: {
-		DisplayName: Storm Maiden Lightning Bolt
-	}
-
-	StormMaidensRetributionProj: {
-		DisplayName: Storm Maiden's Retribution
-	}
-
-	StormMaidensRetributionWorldProj: {
-		DisplayName: Storm Maiden's Retribution
-	}
-
-	WanderersShellProj: {
-		DisplayName: Wanderer's Shell
-	}
-
-	WayfinderGate: {
-		DisplayName: Wayfinder Gate
-	}
-
-	WayfinderHoldout: {
-		DisplayName: Wayfinder
-	}
-
-	WayfinderItemProjectile: {
-		DisplayName: Wayfinder
-	}
-
-	WayfinderSymbol: {
-		DisplayName: Wayfinder Gate Symbol
-	}
-
-	MushBombInfernum: {
-		DisplayName: Mush Bomb Infernum
-	}
-
-	DoGProviCutsceneInitialPortal: {
-		DisplayName: Do G Provi Cutscene Initial Portal
-	}
-
-	DoGProviCutsceneProjectile: {
-		DisplayName: Do G Provi Cutscene Projectile
-	}
-
-	ProviBurnPulseRing: {
-		DisplayName: Provi Burn Pulse Ring
-	}
-
-	PerditusProjectile: {
-		DisplayName: Perditus
-	}
-
-	PunctusProjectile: {
-		DisplayName: Punctus
-	}
-
-	PunctusRock: {
-		DisplayName: Punctus Rock
-	}
-
-	BrimstoneBarrageOld: {
-		DisplayName: Brimstone Dart
-	}
-
-	SupremeCataclysmFistOld: {
-		DisplayName: Fist of Fury
-	}
-
-	VortexFireball: {
-		DisplayName: Vortex Fireball
-	}
-}
-
-Status: {
-	AchievementCompletionText: 実績解除！
-	InfernumDisallowedInWeirdDifficulties: InfernumモードはマスターモードやFor the Worthy等の特殊シードでは機能しません。
-	EternityModeWarning: エタニティモードのボスのAIの変更がInfernumによって上書きされます。
-	CyberneticImmortalityEnabled: 不死が有効になりました。
-	CyberneticImmortalityDisabled: 不死が無効になりました。
-	AbyssTeleportAwayDenial: 圧力が強すぎて逃げられない！
-	EggSwordShrineBreakFailure: 卵によって剣が守られている。
-	WayfinderGateNotSet: ゲートが設定されていません！
-	InfernumNeededToEnterColosseum: 闘技場に入るにはInfernumモードをオンにしてください！
-	InfiniteFlight: 無限飛行をオンにしました！
-	AquaticScourgeFinalPhaseAcid: 地下から酸の洪水が押し寄せてくる！
-	CalShadowBrothersSummon: 立ち上がれ、兄弟たちよ...
-	CalShadowFinalPhase: まだ始まったばかりだ！
-	CalShadowFinalHexWarning: まだ...終わってない...！私の呪いが...貴様の体を蝕むことになる...
-	CalShadowFinalHexSurprise: ああ...
-	TwinsForcefieldSummonSpazmatism: SPA-MK4:防御機構は突破されました。 開始プロセス：FFLD-17ECF9
-	TwinsForcefieldSummonRetinazer: RET-MK7: 防御機構は突破されました。 開始プロセス：FFLD-17ECF9
-	TwinsFinalPhaseSpazmatism: SPA-MK4: セカンダリユニットのエラー検出　燃料過剰燃焼中
-	TwinsFinalPhaseRetinazer: RET-MK7: セカンダリユニットのエラー検出　燃料過剰燃焼中
-	PBGNuclearCoreGeneration: 核コア生成完了　構築プロセスを開始します
-	PostCultistColosseumCreation: 砂漠の中心に謎の遺跡が出現した！
-	PostMLTempleCreation: 地底世界の果ての灰の中から、冒涜された庭園が出現した！
-	ProvidenceLavaRise: 地下から溶岩が噴き出てきている！
-	DoGTeleportDenial1: そう簡単に逃げられると思うな！
-	DoGTeleportDenial2: 次元の支配者を出し抜けるなど、夢のまた夢だ！
-	DoGTeleportDenial3: そうはさせん！
-	DoGDeath1: 私は決して滅びぬ！
-	DoGDeath2: 私は決して滅びぬ！
-	DoGDeath3: 私は決して滅びぬ！
-	DoGDeath4: 私は、決して…
-	DoGDeath5: 私は…
-	YharonSecondPhase: 焼けるような暑さだ…
-	YharonFinalPhase: 熱気が押し寄せてくる…
-	PostYharonWyrmHint: 深淵の底で原初の光が揺らめく…
-	DraedonEffortMock1: あなたの力は非常に興味深い。
-	DraedonEffortMock2: いい調子だ...私の機械に情報を送り続けてください。
-	DraedonAresDesperationBlenderLeaveWarning: あなたは重大な計算ミスを犯した。
-	ExoMechDesperationAres1: ARES-09: コアの温度が急上昇　自己破壊が迫っています
-	ExoMechDesperationAres2: ARES-09: 相互破壊プロトコル「PRECISION GAMMA-BLASTS」準備中
-	ExoMechDesperationTwins1: ARTEMIS-01: エネルギー貯蔵量が低下　システム障害間近
-	ExoMechDesperationTwins2: APOLLO-03: 相互破壊プロトコル「THERMONUCLEAR BLITZ」準備中
-	ExoMechDesperationThanatos1: THANATOS-05: EXOタレットが深刻なダメージを受けています
-	ExoMechDesperationThanatos2: THANATOS-05:  !MAXIMUM OVERDRIVE CHARGE! 相互破壊プロトコルを準備中
-	DraedonDefeat1: 興味深い、実に興味深い。
-	DraedonDefeat2: 私の作品が破壊されるとは、完敗です。
-	DraedonDefeat2HyperplaneMatrix: あなたは素晴らしい被験者です。
-	DraedonDefeat3: この結果は予想外でした。
-	DraedonDefeat3HyperplaneMatrix: あなたとの戦闘から得たデータは貴重なものです。
-	DraedonDefeat4: …もしかしたら、お礼を差し上げられるかもしれません。
-	DraedonDefeat4HyperplaneMatrix: …内省をお許しください。考えをまとめなければなりません。
-	DraedonDefeat5: あなたが私の理性を超えていると推論するのは、間違ってはないでしょう。
-	DraedonDefeat6: 今は…
-	DraedonDefeat6HyperplaneMatrix: 私の最も有用な創造物です。きっと使い道が見つかるでしょう。
-	DraedonDefeat7: さて、あなたは暴君のもとへ向かおうとしているようですが、私はそれに手を貸すことはできません。
-	DraedonDefeat7HyperplaneMatrix: 賢く使いなさい。
-	DraedonDefeat8: 腹いせではありませんよ。私はその戦いを観察していたいとすら思っていますからね。
-	DraedonDefeat9: さて、そろそろ私は戻ります。もう一度私の作品と戦いたいのなら、コードブレイカーから連絡を。
-	DraedonDefeat10: それでは、お別れです。
-	SCalCongratulations: …おめでとう。
-	MultiplayerWarning: InfernumMode: Infernum Modeはシングルプレイ向けのModです。マルチプレイヤーのバグを報告しないでください。
-
-	Death: {
-		RedElectrified: " {0} は赤い稲妻に耐えることができなかった。"
-		DarkFlames: "{0} は神をも恐れぬ炎で焼かれた。"
-		Madness: "{0} は狂ってしまった"
-		HyperplaneMatrixExplosion: "{0} は吹き飛ばされた。"
-	}
-}
-
-Tiles: {
-	HydrothermalVent: {
-		MapEntry: Geyser
-	}
-
-	GolemArena: {
-		MapEntry: Arena
-	}
-
-	MoonlordArena: {
-		MapEntry: Arena
-	}
-
-	SeaShell: {
-		MapEntry: Sea Shell
-	}
-}
-
-UI: {
-	NotExpertWarning: "[c/ff00000: Infernumモードはエキスパートモードでのみ有効]"
-	AchievementsHeader: Death Wishes
-	AchievementsLabelText: 次
-	InfernumIconText: Infernum Modeを有効化
-	WishesHeader: Dev Wishes
-	WishesHoverTextButton: Death Wishesを開く
-
-	GuardiansPlaqueUI: {
-		HoverText: 読む
-		PlaqueText: Three disciples. One mind. One deity. One purpose. Tempered by the holy flames of Providence, an ancient artifact is crystalized, with the sole purpose of initiating the Ritual at the cliff of this Temple.
-		SpecialText: ancient artifact
-	}
-
-	EnrageTooltipReplacements: {
-		DecapoditaSprout: キノコバイオームの外に出ると発狂する
-		WormFood: 不浄の大地の外に出ると発狂する
-		BloodySpine: 真紅の大地の外に出ると発狂する
-		Teratoma: 不浄の大地の外に出ると発狂する
-		BloodyWormFood: 真紅の大地の外に出ると発狂する
-		Seafood: 硫黄の海の外に出ると発狂する
-		Abombination: 地下ジャングルの外に出ると発狂する
-		NecroplasmicBeacon: 地下の外に出ると発狂する
-	}
-
-	HyperplaneMatrixUI: {
-		Godmode: 不死モードを有効化
-		NoClip: 無限飛行を有効化
-		TimeSetMorning: 日の出までの時間を早める
-		TimeSetNoon: 正午までの時間を加速する
-		TimeSetDusk: 日没までの時間を早める
-		Butcher: 敵対NPCを全て殺害する
-	}
-}
-
-CreditsHeaders: {
-	ProgramHeader: Programmers
-	MusicHeader: Musician
-	ArtHeader: Artists
-	TestHeader: Testers
-	TranslateHeader: Translators
-	SupportHeader: Supporters
-}
-
-WorldGen: {
-	BlossomGarden: 庭を生成中
-	EggShrine: 卵を隠し中
-	LostColosseum: 忘れられた闘技場を建設中
-	ProfanedGarden: 古代の女神のための神殿を建設中
 }
 
