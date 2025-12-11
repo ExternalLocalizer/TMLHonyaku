@@ -42,7 +42,7 @@ DifficultyUI: {
 
 WelcomeMessage: {
 	Welcome: Infernal Eclipse of Ragnarok Mod Packへようこそ！
-	TBRNotice: 注意：Thorium Bosses Reworkedが有効です！互換性設定でHP・ダメージ・速度倍率を1に設定してください（難易度を上げたい場合を除く）。このModは現在の難易度に応じて自動でThoriumボスを調整します。
+	TBRNotice: 注意：Thorium Bosses Reworkedが有効です！互換性設定でライフ・ダメージ・速度倍率を1に設定してください（難易度を上げたい場合を除く）。このModは現在の難易度に応じて自動でThoriumボスを調整します。
 	TBRWarning: 警告：Thorium Bosses Reworkedが無効です！このModはThoriumボスのバランスをInfernum ModeやCalamityに合わせて調整するため、導入を強く推奨します。
 	RagWarning: 警告：Ragnarokが無効です！このModがないとThoriumとCalamityの連携がうまく動作しない可能性があります。完全な体験のため有効化を強く推奨します。
 	EventTrophyNotice: 注意：More Trophies and Relicsが無効です！このModなしでは、バニラ・Calamity・Infernum以外のボスにCalamityの設定やInfernumのイントロが存在しない場合があります。完全かつバランスの取れた体験のため、有効化を強く推奨します。
@@ -77,12 +77,12 @@ ItemTooltip: {
 	PhoenixStaff:
 		'''
 		右クリックで炎の奔流を放ち、聖なる光を付与する
-		      聖なる光を付与された敵への全ダメージが15%増加する
+		聖なる光を付与された敵への全ダメージが15%増加する
 		'''
 	HolyGlare:
 		'''
 		鎌で攻撃した敵は聖なる光が付与される
-		      聖なる光が付与された敵への全ダメージが15%増加する
+		聖なる光が付与された敵への全ダメージが15%増加する
 		'''
 	SandstonePortalDeviceInfo:
 		'''
@@ -224,19 +224,19 @@ ItemTooltip: {
 			'''
 			時間経過で最大20％の被ダメージ軽減を素早く獲得する
 			被弾すると一時的にこのボーナスが-10％まで減少する
-			このボーナスが0％を超えている間は、最大ライフ回復2と1ダメージ攻撃の無効化を得る
+			ボーナスが0％を超えている間、ライフ回復量を2増加させる
 			'''
 		DA:
 			'''
 			残り体力に応じて無敵時間を追加で付与する
-			この効果はHP満タン時で10フレーム、HP25％以下で40フレームまで増加する
+			この効果はライフ満タン時で10フレーム、ライフ25％以下で40フレームまで増加する
 			'''
 		Mantle: 10秒ごとに自身のダメージ系デバフを1つ解除
-		TerraDefend: HP25%以下で急速にライフ回復し、防御力上昇
+		TerraDefend: ライフが25%以下になると急速に回復し、防御力が上昇する
 		ScytheScale: DoG撃破まで成長を続ける
-		ScytheSummon: 召喚がある場合は与ダメージ減少
-		ScytheSummonOn: 召喚中は与ダメージ減少
-		OneirophobiaSummon: 右クリック長押しでルディック・インストゥルメントを召喚する
+		ScytheSummon: 召喚中はダメージ減少
+		ScytheSummonOn: 召喚中はダメージ減少
+		OneirophobiaSummon: 右クリック長押しでミニオンを召喚する
 		SoulEssence: ソウルエッセンスを素早く獲得する
 		Magneto: 地面にあるローグアイテムの回収範囲を拡大
 		Bone:
@@ -245,7 +245,7 @@ ItemTooltip: {
 			戦闘中以外は0.5秒ごとに1回のみ発動  
 			'''
 		Scuttler: ステルス攻撃の飛び道具が破壊されると宝石スパイクを生成
-		BloodyFilthy: ステルス攻撃時に防御貫通+8、ダメージ+8%、HPを2回復
+		BloodyFilthy: ステルス攻撃時に防御貫通+8、ダメージ+8%、ライフを2回復
 		NoExhaustion: 装備中は消耗を解除する
 		Prisma: 一定間隔で最大16防御力を無視する波動を放つ
 		Prisma2: 体力が低いほど多くの波動を放つ
@@ -1159,7 +1159,7 @@ Items: {
 			'''
 		I5:
 			'''
-			もはやクリティカルが発生しなくなる
+			クリティカルが発生しなくなる
 			受けるクリティカル率増加はダメージへの乗算的増加に変換される
 			'''
 		I6:
