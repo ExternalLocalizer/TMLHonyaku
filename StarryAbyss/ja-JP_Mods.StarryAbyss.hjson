@@ -1,0 +1,214 @@
+Projectiles: {
+	StellarStarProjectile: {
+		DisplayName: Stellar Star Projectile
+	}
+
+	StellarSpark: {
+		DisplayName: Stellar Spark
+	}
+
+	StellarShurikenProjectile: {
+		DisplayName: Stellar Shuriken Projectile
+	}
+
+	StellarOrb: {
+		DisplayName: Stellar Orb
+	}
+
+	StellarGaleProjectile: {
+		DisplayName: Stellar Gale Projectile
+	}
+
+	StellarDaggerStar: {
+		DisplayName: Stellar Dagger Star
+	}
+
+	StellarBolt: {
+		DisplayName: Stellar Bolt
+	}
+
+	StarfallProjectile: {
+		DisplayName: Starfall Projectile
+	}
+
+	StarDaggerProjectile: {
+		DisplayName: Star Dagger Projectile
+	}
+
+	MiniStarProjectile: {
+		DisplayName: Mini Star Projectile
+	}
+
+	StellarMinion: {
+		DisplayName: Stellar Minion
+	}
+
+	CustomStar: {
+		DisplayName: Custom Star
+	}
+
+	CometShard: {
+		DisplayName: Comet Shard
+	}
+
+	CometProjectile: {
+		DisplayName: Comet Projectile
+	}
+
+	BigStarProjectile: {
+		DisplayName: Big Star Projectile
+	}
+}
+
+NPCs: {
+	ZombieStar: {
+		DisplayName: 星ゾンビ
+	}
+}
+
+Items: {
+	StellarSparkWand: {
+		Tooltip: ""
+		DisplayName: 星火の杖
+	}
+
+	StellarShuriken: {
+		Tooltip: ""
+		DisplayName: 星影の手裏剣
+	}
+
+	StellarScepter: {
+		Tooltip: 共に戦う四星の輪を召喚する
+		DisplayName: 星界のセプター
+	}
+
+	StellarRaySword: {
+		Tooltip: ""
+		DisplayName: プトレマイオス
+	}
+
+	StellarGale: {
+		Tooltip: ""
+		DisplayName: 星撃ちスロワー
+	}
+
+	StellarDagger: {
+		Tooltip: ""
+		DisplayName: マジックワンド
+	}
+
+	StellarConjurer: {
+		Tooltip: ""
+		DisplayName: ステラ・コンジュラー
+	}
+
+	StarfallTome: {
+		Tooltip: 空から星を降らせる
+		DisplayName: 星降りの書
+	}
+
+	StarDagger: {
+		Tooltip: ""
+		DisplayName: スカイスプリッター
+	}
+
+	StarBlaster: {
+		Tooltip: 左クリックで小星の散弾を、右クリックで大星の弾を撃ち出す
+		DisplayName: スターブラスター
+	}
+
+	ImprovedStarSword: {
+		Tooltip: 振るたびに五つの星を放つ
+		DisplayName: 真なる星の刃
+	}
+
+	CometBow: {
+		Tooltip: 矢が煙を引く彗星に変わる
+		DisplayName: 彗星の弓
+	}
+
+	TelescopeItem: {
+		Tooltip: 星座の位置を特定する
+		DisplayName: 星界の望遠鏡
+	}
+
+	StellarEssence: {
+		Tooltip: ""
+		DisplayName: 星界のエッセンス
+	}
+
+	StarHandle: {
+		Tooltip: ""
+		DisplayName: 星の柄
+	}
+
+	ConstellationOfTheHandle: {
+		Tooltip: ""
+		DisplayName: 柄座の星座
+	}
+
+	brokenhandle: {
+		Tooltip: ""
+		DisplayName: 壊れた柄
+	}
+
+	SpelunkersConstellation: {
+		Tooltip:
+			'''
+			半径20ブロックの鉱石を照らし出す
+			プレイヤーの周囲に淡い青光を放つ
+			「闇に屈さぬ者のみが、地底の宝を手にできる...」
+			'''
+		DisplayName: 探鉱者の星座
+	}
+
+	ConstellationOfTheFool: {
+		Tooltip:
+			'''
+			致命傷を受けると、近くのランダムな場所へ瞬間移動し、
+			ライフを30%回復、さらに10秒間透明化と速度が上昇
+			「天上の道化師からの贈り物。致命的な失敗を避ける一度きりの機会。
+			　この星座を身にまとう者は死を欺ける...だが、道化とて永遠ではない」
+			'''
+		DisplayName: 道化の星座
+	}
+
+	ConstellationOfSorcerer: {
+		Tooltip:
+			'''
+			夜間、魔法ダメージが12%増加
+			マナ自然回復が低速化（2秒につき1回復）
+			「星々は、耳を傾ける者にだけ秘密を囁く...」
+			'''
+		DisplayName: 魔術師の星座
+	}
+}
+
+Buffs: {
+	StellarMinionBuff: {
+		Description: 四つの星が一緒に戦ってくれる
+		DisplayName: 見て、ちいさな星たちだ！
+	}
+
+	NightSorceryBuff: {
+		Description: 夜空の魔力が魔法を強くする
+		DisplayName: 夜の祝福
+	}
+
+	EnhancedSwiftness: {
+		Description: 移動速度が50％上昇
+		DisplayName: 逃走者
+	}
+
+	ConstellationOfTheFoolCooldown: {
+		Description: 深淵の上を渡る歩間の空白こそが、新たな挑戦の代償となる
+		DisplayName: ジェスター星座・スキルクールダウン
+	}
+}
+
+Tiles: {
+	TelescopeTile: {
+		MapEntry: Mods.StarryAbyss.Tiles.TelescopeTile.MapEntry
+	}
+}
+
