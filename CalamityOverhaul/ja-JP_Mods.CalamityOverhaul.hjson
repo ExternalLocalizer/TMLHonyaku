@@ -9594,7 +9594,247 @@ QuestLogs: {
 			Description: ヘブンリーゲールを入手せよ
 			DetailedDescription: 神々を撃ち落とした長弓。今、再びこの世界に現れる。
 		}
+
+		SpearOfLonginusQuest: { 
+			QuestObjective: {
+				Description: ロンギヌスの槍を入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット5個
+			}
+
+			DisplayName: ロンギヌスの槍
+			Description: ロンギヌスの槍を入手せよ
+			DetailedDescription: 神性を貫いた伝説の聖槍。あらゆる領域と絶対障壁を貫く力を持つ。投げ放たれたとき、因果律すらその道を譲るという。
+		}
+
+		DragonsWordQuest: {
+			QuestObjective: {
+				Description: ドラゴンの言葉を入手せよ
+			}
+
+			QuestReward: {
+				Description: 無限のインゴット5個
+			}
+
+			DisplayName: ドラゴンの言葉
+			Description: ドラゴンの言葉を入手せよ
+			DetailedDescription: 竜が涙を流すのは生涯に一度、その最期の瞬間だけ。
+		}
+
+		RockQuestII: {
+			QuestObjective: {
+				Description: ボスラッシュを5回クリアし、岩を5個入手せよ
+			}
+
+			QuestReward: {
+				Description: 岩5個
+			}
+
+			DisplayName: 征服の循環
+			Description: ボスラッシュを5回クリアし、岩を5個入手する。
+			DetailedDescription: 真の戦士の証だ。
+		}
+
+		AdventurerQuests: {
+			DisplayName: 冒険者
+			Description: 世界は自分の歩む場所だ。
+
+			QuestObjective: {
+				Description: クリックして受け取る。
+			}
+
+			QuestReward: {
+				Description: ヘルメスブーツ
+			}
+
+			DetailedDescription: 千里の旅も一歩から。ブーツを履いて広大な世界を確かめろ。
+		}
+
+		ExploreDungeon: {
+			DisplayName: 陰鬱なダンジョン
+			Description: ダンジョンの入口を発見する。
+
+			QuestObjective: {
+				Description: ダンジョンに到達する。
+			}
+
+			QuestReward: {
+				Description: 危険察知ポーション
+			}
+
+			DetailedDescription: 呪われた壁の向こうには終わりなき秘密と危険が潜む。足を踏み入れる者は勇者のみ。
+		}
+
+		ExploreHell: {
+			DisplayName: 深淵の地底世界
+			Description: 地底世界へ降下する。
+
+			QuestObjective: {
+				Description: 地底世界に到達する。
+			}
+
+			QuestReward: {
+				Description: 黒曜石の肌ポーション
+			}
+
+			DetailedDescription: 世界最深部には溶岩の川が流れ、悪魔たちが棲む。黒曜石とヘルストーンの源でもある。足元に注意。
+		}
+
+		ExploreJungle: {
+			DisplayName: 密林遠征
+			Description: ジャングルへ踏み込む。
+
+			QuestObjective: {
+				Description: ジャングルに到達する。
+			}
+
+			QuestReward: {
+				Description: 召喚のポーション
+			}
+
+			DetailedDescription: 鮮やかで危険に満ちた緑の迷宮。濃密な植物は古代の寺院や凶暴な蜂の群れを隠す。
+		}
+
+		ExploreOcean: {
+			DisplayName: 世界の果て
+			Description: 海へ到達する。
+
+			QuestObjective: {
+				Description: 海に到達する。
+			}
+
+			QuestReward: {
+				Description: エラのポーション
+			}
+
+			DetailedDescription: 大陸の果て。空と海が交わる場所。沈んだ船や未知の海獣が深海に眠る。
+		}
+
+		ExploreSnow: {
+			DisplayName: 凍てつく荒野
+			Description: 雪原を探索する。
+
+			QuestObjective: {
+				Description: 雪原に到達する。
+			}
+
+			QuestReward: {
+				Description: 暖気のポーション
+			}
+
+			DetailedDescription: 永久凍土の地。刺すような風がすべてを氷雪で覆う。ここでは生命はより強靭な姿をとる。
+		}
+
+		ExploreSpace: {
+			DisplayName: 星々の海
+			Description: 宇宙へ飛び出す。
+
+			QuestObjective: {
+				Description: 宇宙に到達する。
+			}
+
+			QuestReward: {
+				Description: 落下制御ポーション
+			}
+
+			DetailedDescription: 重力の鎖を断ち切り星々へ触れる。高く飛ぶほど世界の全景が見えるだろう。
+		}
+
+		HellLabSchematic: {
+			DisplayName: 地獄の設計図
+			Description: 地底世界のドレイドン研究所で暗号化された設計図を見つける。
+
+			QuestObjective: {
+				Description: 地底世界の設計図を入手する。
+			}
+
+			QuestReward: {
+				Description: {
+					Plating: 怪しげな装甲板
+					Circuitry: 神秘的な電気回路
+					Fireblossom: ファイアブロッサム
+				}
+			}
+
+			DetailedDescription: ドレイドンは地熱エネルギーの研究のため地底世界に前哨基地を築いた。設計図を見つければ新たな武器技術を手に入れられるだろう。
+		}
+
+		IceLabSchematic: {
+			DisplayName: 極地の暗号
+			Description: 雪原地下のドレイドン研究所で暗号化された設計図を見つける。
+
+			QuestObjective: {
+				Description: 雪原地下の設計図を入手する。
+			}
+
+			QuestReward: {
+				Description: {
+					Plating: 怪しげな装甲板
+					Circuitry: 神秘的な電気回路
+					Shiverthorn: シバーソーン
+				}
+			}
+
+			DetailedDescription: この低温環境は精密機器の保存に最適。氷の下に眠る研究所で封じられた極地技術を探し出せ。
+		}
+
+		JungleLabSchematic: {
+			DisplayName: 密林草稿
+			Description: ジャングルのドレイドン研究所で暗号化された設計図を見つける。
+
+			QuestObjective: {
+				Description: ジャングルの設計図を入手する。
+			}
+
+			QuestReward: {
+				Description: {
+					Plating: 怪しげな装甲板
+					Circuitry: 神秘的な電気回路
+					Moonglow: ムーングロウ
+				}
+			}
+
+			DetailedDescription: ジャングルにはドレイドンの生物学研究所が隠されている。彼は疫病やナノウイルスを研究していた。設計図を見つければ危険な真実が明らかになる。
+		}
+
+		PlanetoidLabSchematic: {
+			DisplayName: 外殻の秘密
+			Description: 小惑星のドレイドン研究所で暗号化された設計図を見つける。
+
+			QuestObjective: {
+				Description: 小惑星の設計図を入手する。
+			}
+
+			QuestReward: {
+				Description: {
+					Plating: 怪しげな装甲板
+					Circuitry: 神秘的な電気回路
+					FallenStar: 流れ星
+				}
+			}
+
+			DetailedDescription: 高高度の微小重力環境に静かに浮かぶ研究所。そこにはエクソメカ初期設計の資料が残されているという。
+		}
+
+		SunkenSeaLabSchematic: {
+			DisplayName: 沈んだ海
+			Description: 沈んだ海のドレイドン研究所で暗号化された設計図を見つける。
+
+			QuestObjective: {
+				Description: 沈んだ海の設計図を入手する。
+			}
+
+			QuestReward: {
+				Description: {
+					Plating: 怪しげな装甲板
+					Circuitry: 神秘的な電気回路
+					Waterleaf: ウォーターリーフ
+				}
+			}
+
+			DetailedDescription: 穏やかな海中にプリズムエネルギーの研究データが残されているという。貴重なデータを回収せよ。
+		}
 	}
 }
-
-
