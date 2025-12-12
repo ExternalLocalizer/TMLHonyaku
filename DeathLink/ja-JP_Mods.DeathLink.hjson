@@ -1,5 +1,10 @@
 Configs: {
 	DeathLinkConfig: {
+		DisableOnBoss: {
+			Tooltip: 死亡リンクをボス戦中のみオフにします
+			Label: ボス戦中のみ無効化
+		}
+
 		AffectPvP: {
 			Tooltip: 他のプレイヤーに倒された場合でも死亡リンクが自身に影響します
 			Label: PvPの死亡に影響
