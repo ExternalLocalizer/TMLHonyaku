@@ -4,7 +4,7 @@
 
 [tModLoader][github:tModLoader]で使用できるhjsonファイルの翻訳置き場
 
-大型Modを含む200以上のModに対応しています。
+大型Modを含む300以上のModに対応しています。
 完全なリストは[TranslatedMods.csv][repo:TranslatedMods.csv]を参照してください。
 
 ## 使い方

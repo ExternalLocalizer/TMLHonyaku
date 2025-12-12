@@ -1,0 +1,204 @@
+Configs: {
+	CozyConfig: {
+		ZoomIntensity: {
+			Tooltip: 家内での画面拡大率を調整します
+			Label: 家内ズーム
+		}
+
+		DarknessIntensity: {
+			Tooltip: 家内にいる間、外の景色がどれだけ暗くなるかを設定します（0.0〜1.0）
+			Label: 外の暗転度
+		}
+
+		DisplayName: 居心地設定
+
+		RequireProperHousing: {
+			Label: 厳格な住居条件
+			Tooltip: オンにすると、部屋に光源（たいまつ・ランタン等）がある場合のみ効果が発動します
+		}
+
+		WallDistance: {
+			Tooltip: 
+				'''
+				壁の外側を何ブロックまで明るく残すか設定します
+				0＝壁のみ（不自然）、1＝壁＋縁取り、2＝壁＋2ブロック分の縁取り
+				'''
+			Label: 境界線
+		}
+
+		ReduceDimmingWhenBuilding: {
+			Tooltip: 建築操作中は自動的に暗転度を 0.25 まで軽減されます
+			Label: 建築時の自動軽減
+		}
+
+		Headers: {
+			BuildingMode: 建築
+			Audio: サウンド
+			Visuals: 演出
+			GameplayAndEvents: プレイ／イベント
+			Extras: その他
+			SeparatedRooms: 仕切り部屋
+			HouseWalls: 住宅壁
+		}
+
+		EnhancedFootsteps: {
+			Tooltip: オンにすると、家内でプレイヤーとNPCの足音がより大きくなります
+			Label: 足音の強調
+		}
+
+		MusicReduction: {
+			Tooltip: 
+				'''
+				家内で音楽をどれだけ静かにするかを設定します
+				（0.0＝変化なし、1.0＝無音）
+				'''
+			Label: 音楽の減音
+		}
+
+		MuffleMusic: {
+			Tooltip: オンにすると、家内で音楽のピッチが低くなり、こもったような雰囲気になる
+			Label: 音楽のこもり効果
+		}
+
+		PlayZeldaMusic: {
+			Label: 家内でゼルダ風ホームBGMを再生
+			Tooltip: 作者の遊び心で追加したおまけ要素
+		}
+
+		Tightness: {
+			Tooltip: 
+				'''
+				値を上げるほどライトホールを縮め、漏れを防ぎます
+				0＝ゆるめ、100＝強め
+				'''
+			Label: エッジ引き締め
+		}
+
+		MaskScale: {
+			Label: マスク倍率
+			Tooltip: 
+				'''
+				ライトホール全体を拡大・縮小します
+				1.0未満で内側に縮小、1.0超で外側に拡大
+				'''
+		}
+
+		DisableEffectsDuringBoss: {
+			Label: ボス戦中の効果無効化
+			Tooltip: ボスが生存している間、画面の暗転やズームをオフにします
+		}
+
+		FreezeBossIndoors: {
+			Label: 家内安全化
+			Tooltip: 
+				'''
+				家内に入った際、ボスを停止させる安全地帯にします
+				※上の設定と併用不可
+				'''
+		}
+
+		FreezeTimeIndoors: {
+			Label: 屋内で時間停止
+			Tooltip: オンにすると、家内で時間が停止します
+		}
+
+		EnableRoomTransitions: {
+			Label: 部屋切替演出
+			Tooltip: 
+				'''
+				外の画面を真っ黒にする設定の場合、
+				部屋切替演出をオンにすることを推奨します
+				'''
+		}
+
+		AnimalCrossingTransitions: {
+			Tooltip: 通常フェードの代わりに、円が縮むアニメーションで切り替えます
+			Label: どうぶつの森風遷移
+		}
+
+		AnimalCrossingTransitionsAffectRooms: {
+			Label: どうぶつの森遷移を部屋にも適用
+			Tooltip: オンにすると、部屋を移動する際にも円が縮むアニメーションで切り替えます
+		}
+
+		SeparatedRoomZoom: {
+			Label: 仕切り部屋ズーム追加
+			Tooltip: 仕切られた部屋に入った時だけ特定のズーム値を適用します
+		}
+
+		SeparatedRoomZoomIntensity: {
+			Label: 仕切り部屋ズーム強度
+			Tooltip: 仕切り部屋で適用される追加ズーム量を設定します
+		}
+
+		EnableSeparatedZoom: {
+			Label: 仕切り部屋ズームを有効化
+			Tooltip: オンにすると、仕切られた部屋に入った時だけ特定のズーム値を適用します
+		}
+
+		SeparatedZoomIntensity: {
+			Label: 仕切り部屋ズーム設定
+			Tooltip: 仕切り部屋で適用される追加ズーム量を設定します
+		}
+
+		SeparatedRoomDimness: {
+			Label: 仕切り部屋の暗転度
+			Tooltip: 入室していない区切り部屋の暗さを調整します
+		}
+
+		LockCameraToRoom: {
+			Label: カメラ中央固定
+			Tooltip: 
+				'''
+				オンにすると、家や部屋の中心へカメラが固定されます
+				（Stardew Valleyのような演出）
+				'''
+		}
+
+		DimIndoorsWhenOutside: {
+			Label: 外にいる時の室内暗転
+			Tooltip: ONにすると、プレイヤーが外にいる間、家の中が暗く表示されます
+		}
+
+		OutdoorIndoorDimness: {
+			Label: 室内暗転度
+			Tooltip: 外にいる間、家内がどれだけ暗くなるかを設定します
+		}
+
+		RoofOpacity: {
+			Tooltip: 屋根としてかぶさるレイヤーの濃さを調整します
+			Label: 屋根の濃さ
+		}
+
+		EnableRoof: {
+			Tooltip: 外にいる間、家の中に壁をかぶせて屋根を再現します
+			Label: 屋根表示を有効化
+		}
+
+		ShowHouseWalls: {
+			Label: 家の壁を表示
+			Tooltip: 外にいる間、家の内部の上に壁を描画して『閉じた家』の見た目にします
+		}
+
+		HouseWallsOpacity: {
+			Label: 家の壁の不透明度
+			Tooltip: 外にいる間の家の壁の透明度を調整します
+		}
+
+		DimWindows: {
+			Label: 窓の暗転
+			Tooltip: 
+				'''
+				オンにすると、壁の穴（窓）が暗く表示され、オフだとそのまま透けて見えます
+				...というはずだったが、コード的に死んでる可能性あり
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	"Toggle Building Mode": {
+		DisplayName: 建築モード切替
+	}
+}
+

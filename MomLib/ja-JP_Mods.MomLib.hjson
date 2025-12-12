@@ -1,0 +1,62 @@
+Configs: {
+	MainConfig: {
+		DisplayName: MomLib
+
+		Headers: {
+			Visuals: ビジュアル
+		}
+
+		_DarkTooltips: {
+			Label: ダークツールチップ
+			Tooltip:
+				'''
+				私(Mod作成者)のModで表示されるアイテムのツールチップは、デフォルトで暗めの色になります
+				この設定をオフにするとツールチップが白くなり、バニラと同じ色合いになります
+				'''
+		}
+	}
+}
+
+#内部処理が中心と推測し、翻訳見送りました (ぽぷのべり)
+RecipeGroup: {
+	Wood: Wood
+	Dirt: Dirt
+	Clay: Clay
+	Silt: Silt
+	Stone: Stone
+	Moss: Moss
+	Sand: Sand
+	Sandstone: Sandstone
+	Snow: Snow
+	Ice: Ice
+	CandyCaneBlock: Candy Cane Block
+	Mud: Mud
+	Honey: Honey
+	Coral: Beach Debris
+	Ebonstone: Tainted Stone
+	Cloud: Cloud
+	BalloonBlock: Silly Balloon Block
+	CopperBar: Copper Bar
+	IronBar: Iron Bar
+	SilverBar: Silver Bar
+	GoldBar: Gold Bar
+	DemoniteBar: Demonite Bar
+	CobaltBar: Cobalt Bar
+	MythrilBar: Mythril Bar
+	AdamantiteBar: Adamantite Bar
+	Gem: Gemstone
+	Lens: Lens
+	VilePowder: Tainted Powder
+	RottenChunk: Tainted Gore
+	ShadowScale: Tainted Boss Gore
+	CursedFlame: Tainted Essence
+	LightNightSoul: Light or Night Soul
+	LunarFragment: Celestial Fragment
+	Counterweight: Counterweight
+	ClassEmblem: Class Emblem
+	BaitBugCommon: Common Bait Bug
+	BaitBugRare: Uncommon Bait Bug
+	BaitBugSpecial: Rare Bait Bug
+	BaitBugLava: Fireproof Bait Bug
+}
+

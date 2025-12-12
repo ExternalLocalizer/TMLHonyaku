@@ -1,0 +1,33 @@
+UI: {
+    ShowAll: すべて表示
+    ShowModded: MODからの実績を表示
+    ShowMod: "{0} からの実績を表示"
+    LoadVanilla: バニラの実績を読み込むにはクリックしてください
+}
+
+Configs: {
+    Config: {
+        DisplayName: 設定
+
+        EnableVanillaAchievements: {
+            Label: バニラの実績を有効化
+            Tooltip: これをオフにすると、バニラの実績が非表示になります（MODの実績にのみ集中したい場合に便利です）
+        }
+
+        ShowAchievementCard: {
+            Label: 実績カードを表示
+            Tooltip: 実績カードとは、インベントリの横に表示される実績アイコンのことです
+        }
+
+        PlayerAchievements: {
+            Label: "[i/s1:267]  プレイヤーごとの実績"
+            Tooltip: オンにすることで、各プレイヤーごとに別々の実績を持てるようになります（ワールドごとの実績と組み合わせることも可能です）
+        }
+
+        WorldAchievements: {
+            Label: "[i/s1:4766]  ワールドごとの実績"
+            Tooltip: オンにすることで、各ワールドごとに別々の実績を持てるようになります（マルチプレイヤーでは無効です）
+        }
+    }
+}
+

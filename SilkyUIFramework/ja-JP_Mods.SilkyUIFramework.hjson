@@ -1,0 +1,86 @@
+Configs: {
+	SilkyUIClientConfig: {
+		DisplayName: クライアント設定
+
+		DeathTextOffset: {
+			Label: 死亡テキスト位置調整
+			Tooltip: ""
+		}
+
+		EnableBlur: {
+			Label: ブラー効果を有効化（レトロモード非対応）
+			Tooltip: 高解像度環境では、ズーム倍率の分母を上げることを推奨します
+		}
+
+		SingleBlur: {
+			Label: 個別ウィンドウブラー
+			Tooltip: 
+				'''
+				UI要素ごとに個別ブラーをかけます
+				見た目は向上しますが、他Modとの互換性問題が出る場合があります
+				'''
+		}
+
+		BlurZoomMultiplierDenominator: {
+			Label: ズーム倍率の分母（値が大きいほど負荷減）
+			Tooltip:
+				'''
+				値を大きくすると処理対象の画像が小さくなり、負荷が軽くなります
+				カクつきを感じたら値を上げてください
+				一般的な4K環境なら「4」がおすすめ
+				高性能GPUなら「1」で問題なし
+				1にすると元解像度のまま描画されます
+				なお、値を小さくするとブラー範囲に影響するため、下の設定で調整が必要になります
+				'''
+		}
+
+		BlurIterationCount: {
+			Label: ブラー回数（値が大きいほど負荷増）
+			Tooltip:
+				'''
+				値が大きいほどブラー処理を多く重ね、より強いぼかしになります
+				ラグが気になる場合はこの値を下げて調整してください
+				'''
+		}
+
+		IterationOffsetMultiplier: {
+			Label: サンプリングオフセット倍率（性能影響なし）
+			Tooltip: 大きくするとより強いぼかしになる反面、まれに線状のにじみが発生します
+		}
+
+		BlurMixingNumber: {
+			Label: カラー混合数（値が大きいほど負荷増）
+			Tooltip: 値が大きいほど色のサンプリング量が増加します
+		}
+
+		MouseTextOffset: {
+			Label: マウス説明文の位置調整
+			Tooltip: ""
+		}
+	}
+
+	BlurMixingNumber: {
+		Tooltip: ""
+
+		One: {
+			Label: 1
+		}
+
+		Two: {
+			Label: 2
+		}
+
+		Three: {
+			Label: 3
+		}
+
+		Four: {
+			Label: 4
+		}
+
+		Five: {
+			Label: 5
+		}
+	}
+}
+

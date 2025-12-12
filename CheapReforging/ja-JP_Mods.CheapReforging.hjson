@@ -1,0 +1,60 @@
+Configs: {
+	CheapConfig: {
+		RefundPct: {
+			Tooltip: 設定した割合だけ返金額が乗算されます
+			Label: 返金率
+		}
+
+		UseRefund: {
+			Tooltip:
+				'''
+				鍛え直しによって性能が低下した際に、
+				下がった能力量に応じて返金されます
+				ただし、返金の上限は鍛え直し費用の10倍までです
+				'''
+			Label: 返金機能を有効化
+		}
+
+		PricePct: {
+			Tooltip:
+				'''
+				鍛え直しの費用をこの割合で乗算します
+				加算修正よりも先に適用されます
+				'''
+			Label: 割合価格設定
+		}
+
+		PriceAdd: {
+			Tooltip:
+				'''
+				鍛え直しの費用に、この値（カッパー）を加算します
+				負の値を指定すると価格が下がります
+				割合変更のあとに適用されます
+				'''
+			Label: 加算価格（カッパー）
+		}
+
+		FixedPrice: {
+			Tooltip: カッパー単位で設定してください
+			Label: 固定価格（カッパー）
+		}
+
+		UseFixedPrice: {
+			Tooltip:
+				'''
+				鍛え直し費用が固定化されます
+				その他の価格変更は無効化されます
+				'''
+			Label: 固定価格を有効化
+		}
+
+		Headers: {
+			Refund: 返金システム設定
+			Price: 価格変更設定
+			Note: 鍛え直しに関する他Modと競合する可能性があります
+		}
+
+		DisplayName: Cheap 設定
+	}
+}
+
