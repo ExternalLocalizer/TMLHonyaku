@@ -19,9 +19,9 @@ Configs: {
 		UseAchievements: {
 			Tooltip:
 				'''
-				DAYBREAKの実績システムを使用するかどうかを決定します。
-                DAYBREAKは、Terrariaの実績処理を独自のものに置き換えるため、ゲームにいくつかの変更を加えます。
-                比較的干渉が少ないはずです。デフォルトでは無効化されており、ModがMod実績を追加しない限り有効になりません。
+				DAYBREAKの実績システムを使用するかどうかを決定します
+                DAYBREAKは、Terrariaの実績処理を独自のものに置き換えるため、ゲームにいくつかの変更を加えます
+                比較的干渉が少ないはずです。デフォルトでは無効化されており、ModがMod実績を追加しない限り有効になりません
 				'''
 			Label: DAYBREAKの実績システムを使う
 		}
@@ -30,9 +30,9 @@ Configs: {
 			Tooltip:
 				'''
 				[c/ff0000:あくまで参考情報です。]
-				この機能が有効化されていることを前提とするMod実績が存在するか否かを示します。
-                ON : Mod実績が読み込まれています。（Terrariaの実績以外の実績が存在します）
-                OFF: Terrariaの実績のみが読み込まれています。
+				この機能が有効化されていることを前提とするMod実績が存在するか否かを示します
+                オン: Mod実績が読み込まれています。（Terrariaの実績以外の実績が存在します）
+                オフ: Terrariaの実績のみが読み込まれています
 				'''
 			Label: Mod実績は存在しますか？
 		}
@@ -44,6 +44,21 @@ Configs: {
 UI: {
 	ModIcon: {
 		ModName: DAYBREAK
+	}
+}
+
+#以下は著者タグ (固有名)なのでそのままにしておく(ぽぷのべり)
+AuthorTags: {
+	Blockaroz: {
+		DisplayName: Blockaroz
+	}
+
+	Dreitone: {
+		DisplayName: dreitone
+	}
+
+	Tomat: {
+		DisplayName: tomat
 	}
 }
 
