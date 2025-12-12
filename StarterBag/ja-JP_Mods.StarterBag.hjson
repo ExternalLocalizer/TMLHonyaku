@@ -560,6 +560,11 @@ Configs: {
 	}
 
 	ServerConfig: {
+		Presets: {
+			Tooltip: ""
+			Label: プリセット
+		}
+
 		Items: {
 			Tooltip:
 				'''
@@ -661,6 +666,108 @@ Configs: {
 		}
 
 		DisplayName: クライアント設定
+	}
+
+	Preset: {
+		Items: {
+			Tooltip: スターターバッグに追加するアイテムを選択します
+			Label: プリセットアイテム
+		}
+
+		Name: {
+			Tooltip: 表示されるプリセット名を設定します
+			Label: プリセット名
+		}
+
+		Tooltip: あらかじめ設定されたスターターバッグ用アイテム一覧
+	}
+
+	StarterBagConfig: {
+		Presets: {
+			Tooltip: 登録されたプリセットの一覧。番号順で選択できます
+			Label: プリセット
+		}
+
+		SelectedPresetName: {
+			Tooltip:
+				'''
+				選択対象となっているプリセット名です
+				（設定保存後に反映）
+				'''
+			Label: 選択中プリセット名
+		}
+
+		Select: {
+			Tooltip:
+				'''
+				オンにすると、選択したプリセットのアイテムリストへ置き換わります
+				**現在のアイテムリストは上書きされます！**
+				（設定保存後に反映）
+				'''
+			Label: 適用
+		}
+
+		UsePreset: {
+			Tooltip: 適用するプリセットIDを選択
+			Label: プリセットを使用
+		}
+
+		SavePreset: {
+			Tooltip:
+				'''
+				今のアイテム構成をプリセットとして登録！
+				（設定保存後に反映）
+				'''
+			Label: プリセット登録
+		}
+
+		Items: {
+			Tooltip:
+				'''
+				アイテムを選ぶだけでスターターバッグに追加！
+				スタック数や接頭辞も設定でき、ランダム化も可能！
+				'''
+			Label: アイテム
+		}
+
+		equipSettings: {
+			Tooltip: 装備する防具とアクセサリーを選択します
+			Label: 装備設定
+		}
+
+		toolSettings: {
+			Tooltip:
+				'''
+				初期装備の剣、ツルハシ、斧を他のアイテムに置き換え可能です
+				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
+				'''
+			Label: ツール設定
+		}
+
+		npcSettings: {
+			Tooltip:
+				'''
+				登場させるタウンNPCや一部ステータスを変更します
+				これらのオプションはワールドのオーナーのみ適用可能です
+				（タウンNPCには固定された出現条件があるものも存在します）
+				'''
+			Label: NPC設定
+		}
+
+		playerSettings: {
+			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更します
+			Label: プレイヤー設定
+		}
+
+		Headers: {
+			Presets: プリセット
+			Items: アイテム
+			Settings: 一般設定
+		}
+	}
+
+	TestAbstractConfig: {
+		DisplayName: プリセット設定テスト【WIP】
 	}
 }
 
