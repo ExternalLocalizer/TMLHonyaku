@@ -1,0 +1,290 @@
+Buffs: {
+	RotatorSummonBuff: {
+		Description: ローテーターが一緒に戦ってくれる
+		DisplayName: ローテーター
+	}
+
+	CrimeraSummonBuff: {
+		Description: クリメラが一緒に戦ってくれる
+		DisplayName: クリメラ
+	}
+
+	EyeSummonBuff: {
+		Description: その眼はあなたを見つめている
+		DisplayName: アイ
+	}
+
+	EbonSummonBuff: {
+		Description: 漆黒の監視者が一緒に戦ってくれる
+		DisplayName: 漆黒の監視者
+	}
+}
+
+Projectiles: {
+	RotatorSummon: {
+		DisplayName: Rotator
+	}
+
+	CrimeraSummon: {
+		DisplayName: Crimera
+	}
+
+	IchorBubble: {
+		DisplayName: Ichor Bubble
+	}
+
+	CursedScythe: {
+		DisplayName: Cursed Scythe
+	}
+
+	EyeSummon: {
+		DisplayName: Eye
+	}
+
+	EbonSummon: {
+		DisplayName: Ebon Setinel
+	}
+
+	CursedLazer: {
+		DisplayName: Cursed Lazer
+	}
+
+	Thorn: {
+		DisplayName: Thorn
+	}
+
+	Red: {
+		DisplayName: Crimson energy
+	}
+
+	Pur: {
+		DisplayName: Courrupt energy
+	}
+
+	BloodPro: {
+		DisplayName: Blood
+	}
+}
+
+NPCs: {
+	CorruptRotator: {
+		DisplayName: コラプトローテーター
+	}
+
+	VileBehemoth: {
+		DisplayName: ヴァイルベヒーモス
+	}
+
+	TaintedEye: {
+		DisplayName: テインテッドアイ
+	}
+
+	TaintedCrimera: {
+		DisplayName: テインテッドクリメラ
+	}
+
+	IchorSlime: {
+		DisplayName: 霊液スライム
+	}
+
+	EtheralEater: {
+		DisplayName: エセラルイーター
+	}
+
+	CursedSlime: {
+		DisplayName: 呪いのスライム
+	}
+
+	CrimsonMystery: {
+		DisplayName: クリムゾンミステリー
+	}
+
+	CrimsonDeformity: {
+		DisplayName: ｸﾘﾑｿﾞﾝﾃﾞｨﾌｫｰﾐﾃｨ
+	}
+
+	CrimsonAbomination: {
+		DisplayName: クリムゾンアボミネーション
+	}
+
+	Crimpede: {
+		DisplayName: クリムピード
+	}
+
+	CorruptSetinel: {
+		DisplayName: コラプト・センチネル
+	}
+
+	CorruptSentry: {
+		DisplayName: コラプトセントリー
+	}
+
+	CorruptBlob: {
+		DisplayName: コラプトブロブ
+	}
+}
+
+Items: {
+	MysteriousEye: {
+		Tooltip: 
+			'''
+			「視線を吸い取られ、正気が揺らぐ」
+			召喚できるミニオンの数が1体増える
+			自然回復を増進するが、最大ライフが50減少
+			'''
+		DisplayName: 不気味なる眼
+	}
+
+	CursedEngine: {
+		Tooltip: 
+			'''
+			「エボニアン兵器を動かす中枢」
+			召喚できるミニオンの数が1体増える
+			自然回復を増進するが、最大ライフが50減少
+			'''
+		DisplayName: 呪われし動力源
+	}
+
+	StaffOfEbonConstructs: {
+		Tooltip: 共に戦うローテーターを召喚する
+		DisplayName: エボン構造体の杖
+	}
+
+	StaffOfTheCrimera: {
+		Tooltip: 共に戦うクリメラを召喚する
+		DisplayName: クリメラの杖
+	}
+
+	StaffOfTheSanguineMage: {
+		Tooltip: 巨大な霊液の泡を放ち、小さな流弾へと分裂する
+		DisplayName: 紅血魔導士の杖
+	}
+
+	CursedScythes: {
+		Tooltip: 邪気を帯びた鎌の刃を放つ
+		DisplayName: 呪いの大鎌
+	}
+
+	Dissolver: {
+		Tooltip: 「言うならば...ゴールデンシャワーの遠距離版だ」
+		DisplayName: ディゾルヴァー
+	}
+
+	Conflagration: {
+		Tooltip: 「この世界を焼き尽くせ」
+		DisplayName: コンフラグレイション
+	}
+
+	IchorKnife: {
+		Tooltip: 
+			'''
+			「赤く汚れた氷を削って作られた」
+			敵に霊液デバフを付与
+			'''
+		DisplayName: 霊液のナイフ
+	}
+
+	CursedKnife: {
+		Tooltip: 
+			'''
+			「炎のような氷で作られた」
+			敵に呪炎デバフを付与
+			'''
+		DisplayName: 呪いのナイフ
+	}
+
+	EyeStaff: {
+		Tooltip: 
+			'''
+			「紅の視線が見つめてくる」
+			アイを召喚する
+			ミニオンスロットを0.5消費する
+			同時に1体までしか召喚出来ない
+			'''
+		DisplayName: 眼の杖
+	}
+
+	EbonStaff: {
+		Tooltip: 
+			'''
+			「思ったより簡単な仕組みであった」
+			漆黒の監視者を召喚する
+			ミニオンスロットを0.5消費する
+			同時に1体までしか召喚出来ない
+			'''
+		DisplayName: エボンスタッフ
+	}
+
+	RodOfThorns: {
+		Tooltip: 『このクソみたいなスプライト、そのうち描き直すべきだな』
+		DisplayName: 茨の杖
+	}
+
+	IchorDrop: {
+		Tooltip: 『名前で何のアイテムか察してくれ』
+		DisplayName: 霊液の雫
+	}
+
+	CursedEmber: {
+		Tooltip: 『あ～...テクスチャ直せるけど、まあいいや』
+		DisplayName: 呪われし火の粉
+	}
+
+	CursedBlaster: {
+		Tooltip: 『ミニシャークをイーター・オブ・ソウルズに突っ込んだような代物だ』
+		DisplayName: カースドブラスター
+	}
+
+	CrimsonSigil: {
+		Tooltip: 『正直なところ、もうちょい強くしてもいいかもしれない。』
+		DisplayName: 深紅の印章
+	}
+
+	CrimsonEmblem: {
+		Tooltip: 
+			'''
+			「クリムゾンの力を身に宿す」
+			攻撃力が15%増加
+			自然回復を増進するが、最大ライフが100減少
+			'''
+		DisplayName: 深紅の紋章
+	}
+
+	Crimbow: {
+		Tooltip: 
+			'''
+			「真紅の化物の頭蓋を加工した」
+			霊液の矢を放つ
+			'''
+		DisplayName: クリムボウ
+	}
+
+	CorruptEmblem: {
+		Tooltip: 
+			'''
+			「腐敗の性質を体現している」
+			クリティカル率が15%上昇
+			自然回復を増進するが、最大ライフが100減少
+			'''
+		DisplayName: 不浄の紋章
+	}
+
+	Chasm: {
+		Tooltip: 
+			'''
+			敵にシャドウフレイムを付与
+			『ハードモード前コンテンツが無駄に多いのは認めるが...是正もクソ面倒だな』
+			'''
+		DisplayName: カズム
+	}
+
+	BloodKnife: {
+		Tooltip: 
+			'''
+			「本来は剣扱いすべきだろう」
+			命中時に一定量ライフを回復する
+			'''
+		DisplayName: ブラッドナイフ
+	}
+}
+
