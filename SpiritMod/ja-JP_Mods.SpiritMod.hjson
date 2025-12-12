@@ -172,6 +172,15 @@ Configs: {
 			Label: "[i:SpiritMod/HornetfishQuest]  釣り: 敵との遭遇"
 			Tooltip: 釣りをしているときに敵が襲ってくることがあります
 		}
+
+		AuroraEnabled: {
+			Label: "[i:SpiritMod/MoonStone]  演出：オーロラ"
+			Tooltip: 
+				'''
+				オーロラ描画を切り替えます
+				ただし、オフにしても関連する効果や敵は通常どおり出現します
+				'''
+		}
 	}
 
 	QuestInvLocation: {
