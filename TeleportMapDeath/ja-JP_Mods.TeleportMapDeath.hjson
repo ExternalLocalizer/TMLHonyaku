@@ -1,0 +1,43 @@
+TeleportSuccess: "{0} の最後の死亡地点へテレポートした"
+
+WormholePotionNotEnough: テレポート失敗：ワームホールポーションが足りない
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		UseMouseRight: {
+			Label: 右クリックでテレポート
+			Tooltip: 
+				'''
+				テレポートに使うクリックを切り替えられます
+				オン＝右クリック、オフ＝左クリック
+				'''
+		}
+
+		TipTeleportSuccess: {
+			Label: テレポート成功通知
+			Tooltip: 死亡地点へテレポートした際に成功メッセージを表示します
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		IsEnabled: {
+			Label: 死亡地点テレポート切り替え
+			Tooltip: ""
+		}
+
+		CanTeleportOther: {
+			Label: 他者の死亡地点へテレポート
+			Tooltip: 他プレイヤーの死亡地点にもテレポート可能にします
+		}
+
+		ConsumeWormholePotion: {
+			Label: ワームホールポーション消費
+			Tooltip: オンにすると、死亡地点へテレポートする際にワームホールポーションを消費します
+		}
+	}
+}
+
