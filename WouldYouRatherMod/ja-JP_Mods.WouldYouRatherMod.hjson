@@ -57,6 +57,14 @@ Effect: {
 	DecreasePotionHealing: ポーションの回復量が5%減少する
 	IncreasePotionHealing: ポーションの回復量が5%増加する
 	DisableAccessory: アクセサリー効果が無効になる
+	StoneOnCritterKill: 小動物を倒した時、自分自身が石化する
+	NightlyBossSpawn: 撃破済みのボスが毎晩ランダムで近くに出現する
+	RandomItemReward: ランダムなアイテムを入手する
+	ReduceNPCLife: 敵の最大ライフが減少する
+	IncreaseNPCLife: 敵の最大ライフが増加する
+	CloneOnKill: 敵を倒すとその敵のクローンが出現する
+	DoubleRecipeCost: クラフトに必要な素材数が２倍になる
+	IncreasedItemScale: アイテムサイズが大きくなる
 }
 
 UI: {
@@ -178,3 +186,8 @@ Items: {
 }
 
 NPCs.OldDungeonGuardian.DisplayName: 古のダンジョンガーディアン
+
+Conditions: {
+	DoubleRecipeCost: 素材コスト2倍
+	NormalRecipeCost: 変更なし
+}
