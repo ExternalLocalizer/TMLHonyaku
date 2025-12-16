@@ -2,41 +2,42 @@ Items: {
 	Material: {
 		AerialiteStand: {
 			DisplayName: 天空の守護石
-			Tooltip:
+			Tooltip: 希少なエアリアライト鉱から鍛造されたもの
+			HoldShiftTooltip:
 				'''
-				希少なエアリアライト鉱から鍛造され、装備を強化する
-				[c/00CED1:「天空の力が宿り、未だ解き放たれぬ可能性が震える]
-				[c/87CEEB:　空の力を証明する遺物、真の戦士に選ばれるのを待つ」]
+				[c/b2a647:「この古代の台座は天の力を宿して輝き、未解放の力を支えるために存在する]
+				[c/b2a647:　膨大な力を安定させるために鍛えられたそれは、]
+				[c/b2a647:　残留する副次的な効果を通じてその存在を示す」]
 				'''
 		}
 
 		AncientScroll: {
 			DisplayName: 禁呪の古書
-			Tooltip:
+			Tooltip: かつてカラミタスが用いた禁呪が記された古代の巻物
+			HoldShiftTooltip:
 				'''
-				かつてカラミタスが用いた禁呪が記された古代の巻物
-				[c/8B4513:「古のルーンが微かに脈打ち、忘れられた呪文を囁く]
-				[c/6B4226:　現実そのものを変えうる力を秘めた秘宝」]
+				[c/a99b88:「この古書は刻まれたあらゆるポーションの本質を封じ、]
+				[c/a99b88:　魔力を糧としてその力を永遠に生かし続けることができる」]
 				'''
 		}
 
 		ColossalInk: {
 			DisplayName: 巨獣のインク入りの瓶
-			Tooltip:
+			Tooltip: 巨大イカから採取された、闇の力を秘めたインク
+			HoldShiftTooltip:
 				'''
-				巨大イカから採取された、闇の力を秘めたインク
-				[c/2F4F4F:「悪臭は深海の恐怖を思わせ、忘れ去られた闇を漂わせる]
-				[c/4B0082:　深きものの精髄を宿し、解き放たれるのを待つ」]
+				[c/5d75b4:「巨大イカの墨嚢から採取されたこのインクは、悪臭を放ちながらも]
+				[c/5d75b4:　その採られた深淵の恐怖を今も漂わせている」]
 				'''
 		}
 
 		WizardEssence: {
 			DisplayName: 腐臭の精髄
-			Tooltip:
+			Tooltip: 魔力が込められている
+			HoldShiftTooltip:
 				'''
-				魔力が込められている
-				[c/556B2F:「悪臭は強烈だが、その魔力はさらに強大]
-				[c/6B8E23:　古の呪術と腐敗が混じり、心臓の弱い者には向かない」]
+				[c/556B2F:「オールドデュークの死骸から抽出されたこの穢れた精髄は、]
+				[c/556B2F:　生々しい魔力を脈打たせ、強力な呪術素材となる」]
 				'''
 		}
 	}
@@ -45,11 +46,11 @@ Items: {
 		CalamityMod: {
 			UnlimitedSkynamite: {
 				DisplayName: 重力撲滅装置
-				Tooltip:
+				Tooltip: 重力を無視する浮遊性の爆発物を投げる
+				HoldShiftTooltip:
 					'''
-					重力を無視する浮遊性の爆発物を投げる
-					[c/FFD700:重力異常の力を操り、敵を粉砕せよ]
-					[c/00FF7F:「物理法則をねじ曲げ、混沌を解き放て」]
+					[i:CalamityMod/Skynamite] - [c/9d7554:重力異常の力を操り、止められぬ力で敵を粉砕せよ]
+					[c/7efbff:「物理の支配を覆し、混沌をその手に解き放て」]
 					'''
 			}
 
@@ -58,6 +59,10 @@ Items: {
 				Tooltip:
 					'''
 					ブロックにアストラルの汚染を広げる
+
+					'''
+				HoldShiftTooltip:
+					'''
 					[c/1E90FF:天界の波を解き放ち、無限の宇宙の力を滴に込める]
 					[c/ADD8E6:「この瓶に詰まっているのは無限か、それとも虚無の幻影か」]
 					'''
@@ -69,6 +74,9 @@ Items: {
 					'''
 					小さなトンネルを掘るために、オンボロの採掘装置を投げる
 					緊急時には、<right> を押すと、すべての掘削機を即座に爆発させる
+					'''
+				HoldShiftTooltip:
+					'''
 					[c/FF4500:破壊の波を解き放ち、大地そのものを塵と化す]
 					[c/FF6347:「無限の破壊力で、世界を好きな形に作り変えろ」]
 					'''
@@ -78,20 +86,24 @@ Items: {
 				DisplayName: ゼロックのエッセンス
 				Tooltip:
 					'''
-					放浪する星霊・ゼロックの本質が宿る不思議な宝珠
-					クールダウンなしで無制限にテレポートでき、時空を自在に操れる
+					クールダウンなしで無制限にテレポートできるようになる
 					通常のリロケーターと同じキーを使用
-					[c/9370DB:空間操作の極意を極め、現実の織り目を自由に渡れ]
-					[c/BA55D3:「ゼロックの星の力を操り、時空の壁を越えろ」]
+					'''
+				HoldShiftTooltip:
+					'''
+					星の放浪者ゼロックの力を宿す神秘の宝珠。
+					[c/e9341f:「空間操作の術を極め、現実の織り目を自在に渡れ]
+					[c/19226e:　ゼロックの星の力を操り、時と空間の境界を超越せよ」]
 					'''
 			}
 
 			BucketOfCausticTears: {
 				DisplayName: 苛性の涙のバケツ
-				Tooltip:
+				Tooltip: 酸性雨を切り替える
+				HoldShiftTooltip:
 					'''
-					酸性雨を切り替える
-					[c/32CD32:「底なしではないが、世界を苦しみで溺れさせるには十分だ」]
+					[c/85b431:「苛烈な酸の雨を降らせ、苦痛の奔流を解き放つ]
+					[c/52556b:　底なしではないが、世界を苦しみで溺れさせるには十分だ」]
 					'''
 			}
 		}
@@ -100,20 +112,12 @@ Items: {
 	Placable: {
 		AncientScrollCrafter: {
 			DisplayName: カラミタスの魔導筆記台
-			Tooltip:
+			Tooltip: "[i:UnofficialLuiAFKDLC/AncientScrollCrafter] - [c/9c6f22:高品質な巻物を作成できる強力な筆記台]"
+			HoldShiftTooltip:
 				'''
-				「カラミタスの手によって作られたこの装置は、 
-				　彼女の最強の呪文を丹念に書き記し、 
-				　その力を永遠に伝えるためのもの
-				　　　　
-				　伝説では、現実さえもねじ曲げた大魔女カラミタスが、 
-				　この装置を使って宇宙の力を宿す呪文を書き記したと言われる 
-				　巻物には微かに輝く神秘の文字が刻まれ、禁断の魔術の秘密が眠る
-				　　　　　
-				　古の遺物であるこの装置は、創造者の力と共鳴し、 
-				　彼女の魔道への尽きぬ探求を証明する 
-				　これを手にする者は、その神秘と伝説に惹かれ、 
-				　永遠にカラミタスの遺産と結ばれる」
+				[i:UnofficialLuiAFKDLC/Scroll] - [c/86111d:カラミタス自身の熟練した手によって作られ、]
+				[c/86111d:彼女の秘められた最強の呪文を丹念に記すための家具。]
+				[c/74706e:「ついに、私の手に...」彼女は狂気を孕んだ笑みを浮かべ、筆を走らせた。]
 				'''
 		}
 	}
@@ -124,12 +128,9 @@ Items: {
 				DisplayName: 浜辺転送装置
 				Tooltip:
 					'''
-					[c/FFC300:左クリックで左の海岸へテレポートする]
-					[c/FFC300:右クリックで右の海岸へテレポートする]
+					左クリックで左の海岸へテレポートする
+					右クリックで右の海岸へテレポートする
 					[c/FFC300:「ああ、ハニー、ハニー」]
-					[c/B00BA5:「海の潮流の力を利用し、] 
-					[c/B00BA5:　海岸間を自在に移動できる装置] 
-					[c/B00BA5:　かつて一度に二つの場所にいたいと願った船乗りが作り出した」]
 					'''
 			}
 
@@ -137,11 +138,8 @@ Items: {
 				DisplayName: ダンジョンポータル
 				Tooltip:
 					'''
-					[c/FFC300:ダンジョンの入口へテレポートする]
-					[c/FFC300:「叫ぶ髑髏が魂を震わせる！」]
-					[c/B00BA5:「ダンジョンの深淵で鍛えられたこの装置は、] 
-					[c/B00BA5:　不死者の力を宿し、一瞬で入口へ導く] 
-					[c/B00BA5:　思念だけで場所を移動できる力を持つ」]
+					ダンジョンの入口へテレポートする
+					[c/FFC300:「骸骨の叫び声が魂を震わせる！」]
 					'''
 			}
 
@@ -149,12 +147,9 @@ Items: {
 				DisplayName: ジャングルウォーカー
 				Tooltip:
 					'''
-					[c/FFC300:ジャングルへテレポートする]
-					[c/FFC300:右クリックで最寄りのマホガニーの木へテレポートする]
+					ジャングルへテレポートする
+					右クリックで最寄りのマホガニーの木へテレポートする
 					[c/FFC300:「マホガニースティック？それは何だ？」]
-					[c/B00BA5:「ジャングルの精霊が宿るこの装置は、] 
-					[c/B00BA5:　鬱蒼とした密林の中心や、近くの古木へ導く] 
-					[c/B00BA5:　大自然と繋がるための道具」]
 					'''
 			}
 
@@ -162,12 +157,9 @@ Items: {
 				DisplayName: 海の導き
 				Tooltip:
 					'''
-					[c/FFC300:左クリックで左端にテレポートする]
-					[c/FFC300:右クリックで右端にテレポートする]
+					左クリックで左端にテレポートする
+					右クリックで右端にテレポートする
 					[c/FFC300:「オーシャンマン、手を取ってその地へ導いてくれ」]
-					[c/B00BA5:「海流の力を操る古の遺物で、] 
-					[c/B00BA5:　遥か彼方の海原へ瞬時に渡れる] 
-					[c/B00BA5:　漂流した探検家たちが使った品」]
 					'''
 			}
 
@@ -175,11 +167,8 @@ Items: {
 				DisplayName: 寺院の転送装置
 				Tooltip:
 					'''
-					[c/FFC300:リザードの祭壇へテレポートする]
+					リザードの祭壇へテレポートする
 					[c/FFC300:「まるで寺院が手の中に！」]
-					[c/B00BA5:「リザードの神官たちが作り出したこの装置は、] 
-					[c/B00BA5:　彼らの神聖なる神殿の中心へと導く] 
-					[c/B00BA5:　その力を扱えるのは選ばれし者のみ」]
 					'''
 			}
 
@@ -187,12 +176,9 @@ Items: {
 				DisplayName: 地獄の転送装置
 				Tooltip:
 					'''
-					[c/FFC300:左クリックで左側にテレポートする]
-					[c/FFC300:右クリックで右側にテレポートする]
+					左クリックで左側にテレポートする
+					右クリックで右側にテレポートする
 					[c/FFC300:「奴らが恐れるのは…お前だけだ！」]
-					[c/B00BA5:「地獄の炎の力を宿すこの装置は、] 
-					[c/B00BA5:　灼熱の地を自在に行き来できる力を授ける] 
-					[c/B00BA5:　古の戦士たちが悪魔と戦うために用いた品」]
 					'''
 			}
 
@@ -200,11 +186,8 @@ Items: {
 				DisplayName: 陽光のオーラ
 				Tooltip:
 					'''
-					[c/FFC300:光の範囲が大きく拡がる]
+					光の範囲が大きく拡がる
 					[c/FFC300:「ハイパーライト」]
-					[c/B00BA5:「まばゆい光を放つこの遺物は、] 
-					[c/B00BA5:　太陽神が創り出したと言われる] 
-					[c/B00BA5:　持つ者にとって夜を昼に変える力を持つ」]
 					'''
 			}
 
@@ -212,11 +195,8 @@ Items: {
 				DisplayName: 不屈の盾
 				Tooltip:
 					'''
-					[c/FFC300:ノックバックを無効化]
+					ノックバックを無効化
 					[c/FFC300:「通さぬぞ！」]
-					[c/B00BA5:「不屈の力を宿した盾で、] 
-					[c/B00BA5:　どんな衝撃にも屈しない強さを与える] 
-					[c/B00BA5:　古の守護者たちが用いた装備」]
 					'''
 			}
 
@@ -224,13 +204,10 @@ Items: {
 				DisplayName: 採掘ツール
 				Tooltip:
 					'''
-					[c/FFC300:採掘範囲を1ブロックから3x3に拡大]
-					[c/FFC300:バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される]
-					[c/FFC300:アイテムを右クリックでツールのドリルに切り替えできる]
+					採掘範囲を1ブロックから3x3に拡大
+					バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される
+					アイテムを右クリックでツールのドリルに切り替えできる
 					[c/FFC300:「強化版墓堀り人のシャベル」]
-					[c/B00BA5:「かつて伝説の鉱夫たちが使ったこの魔法の道具は、] 
-					[c/B00BA5:　比類なき効率で掘り進める力を持つ] 
-					[c/B00BA5:　隠された財宝の発掘に最適」]
 					'''
 			}
 
@@ -238,25 +215,9 @@ Items: {
 				DisplayName: ぼかしのマント
 				Tooltip:
 					'''
-					[c/FFC300:残像バフを得る] 
-					[c/FFC300:10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある]
+					残像バフを得る
+					10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある
 					[c/FFC300:「タイタニウムの力」]
-					[c/B00BA5:「影で織られたマントで、着用者に] 
-					[c/B00BA5:　幽霊のように攻撃を回避する力を与える] 
-					[c/B00BA5:　最も狡猾な暗殺者たちが使った品」]
-					'''
-			}
-
-			WilliamsBirthdayCake: {
-				DisplayName: 魔法のバースデーケーキ
-				Tooltip:
-					'''
-					[c/FFC300:ほぼ全てのバフ効果のある家具の特殊効果を同時付与する]
-					[c/FFC300:焚き火+ハートのランタン+バステトの石像+砥石+弾薬箱+水晶玉+切り分けたケーキ+魔術のテーブル]
-					[c/FFC300:「不思議な魔法により、消費されることはない」]
-					[c/B00BA5:「複数の作業台の魔力を組み合わせて作られたケーキで、] 
-					[c/B00BA5:　その恩恵を一度に得られる。魔術師ウィリアムの] 
-					[c/B00BA5:　誕生日を祝う贈り物」]
 					'''
 			}
 
@@ -264,10 +225,8 @@ Items: {
 				DisplayName: 罠師の歓喜
 				Tooltip:
 					'''
-					[c/FFC300:すべての罠を強化する] 
-					[c/B00BA5:「このお守りはあらゆるトラップの威力を高め、] 
-					[c/B00BA5:　その真価を発揮させる。故郷を守るため] 
-					[c/B00BA5:　熟練の罠師が作り上げた品」]
+					すべての罠を強化する 
+					[c/B00BA5:「熊対策ならコレだ！」] 
 					'''
 			}
 
@@ -294,6 +253,45 @@ Items: {
 					[c/B00BA5:非Calamity系バフポーション]
 					'''
 			}
+
+			UnlimitedNaturesBlessing: {
+				DisplayName: 自然の祝福の力
+				Tooltip:
+					'''
+					ドライアドの加護のバフを付与
+					[c/228B22:「母なる自然はあなたを誇りに思っている！」]
+					'''
+			}
+
+			UnlimitedTitanSkin: {
+				DisplayName: 巨人の肌の力
+				Tooltip: いくつかのデバフを無効化する
+				HoldShiftTooltip:
+					'''
+					炎上、凍傷、呪炎、冷気、凍結、霊液への耐性を併せ持つ
+					[c/AAAAAA:呪炎と霊液への耐性はツインズ撃破後にのみ有効]
+					'''
+			}
+
+			UnlimitedGreaterDangersense: {
+				DisplayName: 高級危険察知の力
+				Tooltip:
+					'''
+					高級危険感知のバフを付与（敵の飛び道具を光らせる）
+					透明度の高い弾（例：ムーンロードの攻撃）は見づらくなる場合があるので注意
+					この効果は全プレイヤーに適用される
+					[c/AAAAAA:「このドクロの意味は...危険！」]
+					'''
+			}
+
+			UnlimitedDiscord: {
+				DisplayName: 転移の力
+				Tooltip:
+					'''
+					ムーンロード撃破前は「ロッドオブディスコード」の疑似的な力を得る
+					ムーンロード撃破後は「ロッドオブハーモニー」の疑似的な力を得る
+					'''
+			}
 		}
 
 		CalamityMod: {
@@ -303,8 +301,6 @@ Items: {
 					'''
 					深淵の敵に発見されづらくなる
 					「静かすぎる…」
-					深海のささやきから生まれたこのコーティングは音を吸収し、
-					装備者を不気味な静寂で包み隠す
 					'''
 			}
 
@@ -315,8 +311,6 @@ Items: {
 					ライフ回復速度が上昇するバフを付与
 					体力が75%未満の時、回復量がさらに増加
 					「これ、食べても大丈夫かな？」
-					貪欲な海の生物のエッセンスを蒸留したこのエリクサーは、
-					危機の時に必要な治癒力を高め、飲む者に力を与える
 					'''
 			}
 
@@ -326,8 +320,6 @@ Items: {
 					'''
 					ジャンプ速度5%増加、落下耐性が25ブロック分上昇、ジャンプ力が増加
 					「走れ、小さな跳躍者」
-					森の俊敏な精霊の力を宿し、この精は敏捷性を高め、
-					持ち主を自在に地形を飛び越える存在に変える
 					'''
 			}
 
@@ -337,8 +329,6 @@ Items: {
 					'''
 					落下ダメージを無効化する
 					「公認: ボーン・リー」
-					希少な石灰結晶から作られた「骨の守り」は、
-					伝説の骨リーが認めた、重力の脅威から守る護符だ
 					'''
 			}
 
@@ -348,9 +338,7 @@ Items: {
 					'''
 					食べると幻覚症状が起きる
 					[c/C4232C:この視覚効果は、酔いや不快感を引き起こす場合がある]
-					「トリッピーで奇妙だ」
-					魔法の森で採れた幻の茸「揺らめく茸」は、
-					幻影を生み出し、使用者を惑わせる
+					「奇妙だ」
 					'''
 			}
 
@@ -360,8 +348,6 @@ Items: {
 					'''
 					近くの生物や敵の発射物、罠、宝箱をハイライトする
 					「誰かに見られてる気がする」
-					秘術の預言者が作りし「全知の眼」は、
-					隠された危険と未知の財宝を明らかにし、無二の洞察をもたらす
 					'''
 				BuffDescription: 敵の発射物などをハイライトする
 			}
@@ -373,8 +359,6 @@ Items: {
 					移動していない間、ライフが急速に回復し、昼間はその効果が5倍になる
 					落ちたハートの回復量が増加する
 					「見つけたぞ！」
-					太陽の花の精を宿すこの「陽花の憩い」は、
-					日の光の下で使い手を癒やし、活力を満たす
 					'''
 			}
 
@@ -387,8 +371,6 @@ Items: {
 					ステルスゲージの増加スピード+8％
 					視覚効果は、ステルス・インビジビリティーの設定で無効にできる
 					「WoWのVanishみたいだな！」
-					影のヴェールに包まれし者は、闇と一体化し、
-					見えぬ一撃で敵を討ち、ローグの攻撃を強化する
 					'''
 			}
 
@@ -500,7 +482,6 @@ Items: {
 					ダメージを9%、ノックバックを50%、クリティカル率を3%増加
 					ライフ回復を2 HP/秒減少
 					3種類以上の酒を飲むと肝臓によくないかもしれない
-					[c/FFD700:攻撃力を高めるが、ライフ回復力を大きく落とす、大胆な者のための一杯]
 					'''
 			}
 
@@ -592,6 +573,7 @@ Items: {
 					防御力が5%減少する
 					同時に4種類以上の酒を飲むと肝臓に悪影響を及ぼすかもしれない
 					'''
+				HoldShiftTooltip: しかし、十分に飲めば、少なくともその疑問を忘れるかもしれない
 			}
 
 			WhiteWinePower: {
@@ -618,39 +600,29 @@ Items: {
 				DisplayName: 万能なる貪食者
 				Tooltip:
 					'''
-					[c/800080:全てを喰らう闇の力]
-					[c/800080:古き飢えに突き動かされる]
-					[c/4B0082:「伝説によれば、かつてこれを操り世界を消した存在がいた]
-					[c/9400D3:　その飽くなき欲望は光すら飲み込み、虚無のみを残す」]
+					アイテムを長押しして全て回収できる
+					[c/800080:「全てを喰らう闇の力]
+					[c/800080:　古き飢えに突き動かされる」]
 					'''
+				PowerEffectHint: 無効
 			}
 
 			UnlimitedSoaring: {
 				DisplayName: 天翔ける昇華
-				Tooltip:
-					'''
-					[c/87CEEB:天の風を操り、飛行能力が10%向上]
-					[c/87CEEB:「この術を極めし者は][c/4682B4:　星に手が届くと言われる]
-					[c/1E90FF:　多くがこの力を求めたが、清き心と澄んだ精神を持つ者のみが真に昇華することができたという」]
-					'''
+				Tooltip: 天の風を操り、飛行能力が10%向上
 			}
 
 			UnlimitedSulphuric: {
 				DisplayName: 腐食の護符
-				Tooltip:
-					'''
-					[c/32CD32:毒の潮を操り、硫黄の水の効果を軽減する]
-					[c/228B22:「古の錬金術師が最凶の毒を耐えるために用いた]
-					[c/006400:　だがその耐性は代償を伴い、長く使えば魂が蝕まれる」]
-					'''
+				Tooltip: 毒の潮を操り、硫黄の水の効果を軽減する
 			}
 
 			UnlimitedTesla: {
 				DisplayName: 嵐呼ぶ者の力
 				Tooltip:
 					'''
-					[c/FFD700:敵に電撃を与え、敵を減速させる電気のオーラを召喚する]
-					 [c/FFA500:「創造者は雷の力を奪ったとも噂される]
+					敵に電撃を与え、敵を減速させる電気のオーラを召喚する
+					[c/FFA500:「創造者は雷の力を奪ったとも噂される]
 					[c/FF8C00:　だがこの力は予測不能で、扱いには注意が必要」]
 					'''
 			}
@@ -659,29 +631,30 @@ Items: {
 				DisplayName: 静謐の調律
 				Tooltip:
 					'''
-					[c/ADD8E6:敵の出現を大幅に減少させる]
+					敵の出現を大幅に減少させる
 					[c/5F9EA0:「古の僧たちは、この調和が激戦すら鎮めると信じた]
 					[c/4682B4:　ただし、完全な静けさの中では現実を見失うこともある」]
 					'''
+				BuffDescription: 敵の出現率と最大出現数を50％減少させる
 			}
 
 			UnlimitedZerg: {
 				DisplayName: 群れの本能
 				Tooltip:
 					'''
-					[c/FF4500:敵の出現率を大幅に増加させる]
+					敵の出現率を大幅に増加させる
 					[c/B22222:「野生の本能から、数こそが生存を意味することを学んだ]
 					[c/8B0000:　しかしこれを操る者は、やがてその力に呑み込まれる」]
 					'''
+				BuffDescription: 敵出現率と最大出現数を500%増加させる
 			}
 
 			BaguettePower: {
 				DisplayName: フランスパンの力
 				Tooltip:
 					'''
-					[c/FFE4B5:赤ワインの効果を高める]
+					赤ワインの効果を高める
 					[c/FCE391:「ジェ・スイス・モンテ」]
-					[c/DAA520:「古のフランス薬酒は力を与えると信じられていたが、活力を犠牲にした」]
 					'''
 			}
 
@@ -690,20 +663,22 @@ Items: {
 					DisplayName: 混沌の精霊
 					Tooltip:
 						'''
-						[c/FF4500:敵の出現率が大幅に増加させる]
+						敵の出現率が大幅に増加させる
 						[c/B22222:「一度灯せば、この蝋燭は混沌そのものを呼び寄せ、]
 						[c/B22222:　世界に騒乱と混迷を招く」]
 						'''
+					BuffDescription: 敵の出現率と最大出現数を1000％増加させる
 				}
 
 				UnlimitedTranquilityCandle: {
 					DisplayName: 静寂の精霊
 					Tooltip:
 						'''
-						[c/87CEEB:敵の出現率を大幅に低下させる]
+						敵の出現率を大幅に低下させる
 						[c/4682B4:「この蝋燭は、古の賢者たちが平穏と静寂をもたらすために用い、]
 						[c/4682B4:　不壊の静けさのオーラを作り出した」]
 						'''
+					BuffDescription: 敵の出現率と最大出現数を67％減少させる
 				}
 			}
 
@@ -712,7 +687,7 @@ Items: {
 					DisplayName: 謎の満腹パワー
 					Tooltip:
 						'''
-						[c/FFD700:こんなに大量の食べ物！？] [c/32CD32:効果は様々に向上]
+						[c/FFD700:こんなに大量の食べ物が！？] [c/32CD32:効果は様々に向上]
 						[c/8B4513:この恵みの出所は不明だが、その恩恵は疑いようがなく、予測不能である]
 						'''
 				}
@@ -723,9 +698,7 @@ Items: {
 				Tooltip:
 					'''
 					近接・鞭・ローグ攻撃が聖なる炎を付与
-					[c/FFD700:「聖なる炎で敵を浄化し、灰と燻る残骸だけを残せ]
-					[c/FFA07A:　その焔が邪悪を焼き払い、魂の闇をも浄化する]
-					[c/FF4500:　天上の炎で鍛えられしこの焔は、天の光に逆らう者を打ち滅ぼす」]
+					[c/FFD700:　「焔が邪悪を焼き払い、魂の闇をも浄化する」]
 					'''
 			}
 
@@ -734,9 +707,7 @@ Items: {
 				Tooltip:
 					'''
 					近接・鞭・ローグ攻撃が敵に老朽化を付与
-					[c/A52A2A:「一撃ごとに敵を弱体化し、塵と瓦礫へと変え、無力化していく]
-					[c/808080:　古の遺跡が時に風化するように、敵の力も崩れ去るのを見届けよ]
-					[c/8B4513:　この力は、古代の存在が授けたとされ、最も堅牢な防御すら易々と打ち砕く」]
+					[c/A52A2A:「一撃ごとに敵を弱体化し、塵と瓦礫へと変え、無力化していく」]
 					'''
 			}
 
@@ -745,9 +716,7 @@ Items: {
 				Tooltip:
 					'''
 					近接・鞭・ローグ攻撃が煉獄の炎を付与
-					[c/FF4500:「灼熱の花の力を宿し、空気を燃え立たせる炎の花弁を放つ]
-					[c/8B0000:　敵はこの耐え難い熱に枯れ果て、その美しさの裏に潜む狂気が心を蝕む]
-					[c/FF6347:　地の底より咲いたこの花の炎は、溶岩に沈む世界の本質を宿している」]
+					[c/FF4500:「灼熱の花の力を宿し、空気を燃え立たせる炎の花弁を放つ」]
 					'''
 			}
 
@@ -757,11 +726,7 @@ Items: {
 					'''
 					使用するとマナ酔いが発生しダメージを受けるが、
 					移動中や詠唱中でもマナが超高速で回復する
-					[c/FFD700:「無限の宇宙エネルギーを操れ、だが覚悟せよ]
-					[c/FFD700:　この秘術の力には激しい反動が伴う]
-					[c/B00BA5:　星々が授ける膨大なマナ、その力は己の魂を代償として放たれる]
-					[c/9400D3:　宇宙の力を取り込むには犠牲が必要だ]
-					[c/9400D3:　その代償は身体に混乱と苦痛をもたらす」]
+					[c/FFD700:「無限の宇宙エネルギーを操れ」]
 					'''
 			}
 
@@ -850,11 +815,32 @@ Items: {
 			}
 
 			UnlimitedBaguettePower: {
-				DisplayName: フランスパン
+				DisplayName: フランスパンの力
 				Tooltip:
 					'''
 					全ステータスが少し強化
 					赤ワインの効果を高める
+					[c/D6AE82:「一口ごとに洗練された味わいを」]
+					'''
+			}
+
+			UnlimitedMushy: {
+				DisplayName: クラブロンの感染力
+				Tooltip:
+					'''
+					立っている草の下にキノコが生える
+					防御力+6、ライフ自然回復+1/秒
+					[c/24759e:「足元に広がるキノコの魔力」]
+					'''
+			}
+
+			UnlimitedChi: {
+				DisplayName: 至福の抱擁の力
+				Tooltip:
+					'''
+					5秒間被弾しないと被ダメージを4%軽減、被弾すると効果は解除される
+					自分とチーム全員にライフ自然回復+1/秒を付与
+					[c/FF69B4:「活力をもたらす優しい抱擁」]
 					'''
 			}
 		}
@@ -873,6 +859,64 @@ Items: {
 					防御力が20増加、被ダメージ軽減が8%増加、体力が20%増加する
 					ただし常にカオス状態になる
 					'''
+			}
+		}
+
+		ThoriumMod: {
+			ArcanePower: {
+				Tooltip: 魔法と神聖ダメージにより、定期的に収集可能な小さい星を生成する
+				DisplayName: 神秘の力
+			}
+
+			AquaPower: {
+				DisplayName: 水流の力
+				Tooltip: 水中でもスムーズに動けるようになる
+			}
+
+			ArtilleryPower: {
+				DisplayName: 大砲の力
+				Tooltip: セントリーの最大設置数を増加させる
+			}
+
+			AssassinPower: {
+				DisplayName: 暗殺者の力
+				Tooltip: 非戦闘時の最初の投擲攻撃はクリティカルになり、4倍のダメージを与える
+			}
+
+			BloodPower: {
+				DisplayName: 血の力
+				Tooltip: 採掘速度と移動速度が15%増加
+			}
+
+			BouncingFlamePower: {
+				DisplayName: 延焼の力
+				Tooltip: 炎属性デバフを近くの敵に拡散させる
+			}
+
+			CactusFruitPower: {
+				DisplayName: サボテンの実の力
+				Tooltip: 消費時にステータス効果のデバフに対する耐性を与える
+			}
+
+			ConflagrationPower: {
+				DisplayName: 火炎の力
+				Tooltip: ダメージが15%増加するが、時間経過とともにダメージを受ける
+			}
+
+			FrenzyPower: {
+				DisplayName: 狂乱の力
+				Tooltip: すべての攻撃速度を8%増加
+			}
+
+			KineticPower: {
+				DisplayName: 運動の力
+				Tooltip: ダブルタップでダッシュが可能になる
+			}
+
+			WarmongerPower: {
+				DisplayName: 戦争屋の力
+				Tooltip: 敵の出現率が大幅に増加
+				BuffDescription: 敵の出現率と最大出現数を300%増加させる
 			}
 		}
 
@@ -911,6 +955,41 @@ Items: {
 				DisplayName: 無限の毒
 				Tooltip: 近接、鞭、ローグ攻撃が毒を付与する
 			}
+
+			ScrollOfFlasks: {
+				DisplayName: フラスコの巻物
+				Tooltip:
+					'''
+					全てのバニラ産のフラスコ効果を付与する巻物
+					同時に有効化できるフラスコの効果は1つのみ
+					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedVenom] - 近接攻撃に酸性毒の追加効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedCursedFlames] - 近接攻撃に呪炎の追加効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedFire] - 近接攻撃に炎上の追加効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedGold] - 近接攻撃にドロップ金額増加の追加効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedNanites] - 近接攻撃に混乱の追加効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedParty] - 近接攻撃時に紙吹雪の追加攻撃を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedPoison] - 近接攻撃に毒の追加効果を付与
+					'''
+			}
+
+			BattlePowerEffect: {
+				BuffDescription: 出現率と最大出現数を150%増加させる
+			}
+
+			CalmingPowerEffect: {
+				BuffDescription: 出現率と最大出現数を10％減少させる
+			}
+
+			WaterCandlePowerEffect: {
+				BuffDescription: 出現率と最大出現数を300%増加させる
+			}
+
+			PeaceCandlePowerEffect: {
+				BuffDescription: 出現率と最大出現数を20％減少させる
+			}
 		}
 
 		"": {
@@ -930,59 +1009,27 @@ Items: {
 					インベントリにある間、周囲のプレイヤーが真紅、不浄、腐敗の偶像バフを得る
 					「これ、本当に紙なのか！？」
 					'''
-				CalRemixTooltip: インベントリにある間、周囲のプレイヤーが真紅、不浄、アストラル、聖域、腐敗の偶像バフを得る
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/CorruptionStand] - 移動速度とクリティカル率を10%上昇するが、防御減少
+					[i:UnofficialLuiAFKDLC/CrimsonStand] - ダメージ15%上昇、防御+10、最大ライフ減少
+					[i:UnofficialLuiAFKDLC/DecayStand] - 水中呼吸を可能にするが、深淵では効果なし
+					'''
+				HoldShiftTooltipCalRemix:
+					'''
+					[i:UnofficialLuiAFKDLC/AstralStand] - 星の偶像の力を付与
+					[i:UnofficialLuiAFKDLC/HallowStand] - 神聖の偶像の力を付与
+					'''
 			}
 
 			ScrollOfDepths: {
 				DisplayName: 深淵探索の書
 				Tooltip: 深淵をより快適に探索できるようになる
-			}
-
-			AlcoholicsCodex: {
-				DisplayName: 酒豪の蝋燭
-				Tooltip:
+				HoldShiftTooltip:
 					'''
-					右クリックで効果を切り替え
-					現在のスプライトは仮
-					'''
-			}
-
-			AlcoholicsCodexResilient: {
-				DisplayName: 酒豪の蝋燭（不屈）
-				Tooltip:
-					'''
-					ダメージ軽減率が10%増加
-					難易度が上がるほど強化される
-					右クリックで効果を切り替え
-					'''
-			}
-
-			AlcoholicsCodexSpiteful: {
-				DisplayName: 酒豪の蝋燭（悪意）
-				Tooltip:
-					'''
-					敵が受けるダメージが7%増加する
-					この追加ダメージは敵のダメージ軽減や防御を無視する
-					右クリックで効果を切り替え
-					'''
-			}
-
-			AlcoholicsCodexVigorous: {
-				DisplayName: 酒豪の蝋燭（活力）
-				Tooltip:
-					'''
-					1秒ごとに最大体力の0.4%を回復する
-					この自然回復は移動中でも常に効果を発揮し、リベンジェンスモードの上限を無視する
-					右クリックで効果を切り替え
-					'''
-			}
-
-			AlcoholicsCodexWeightless: {
-				DisplayName: 酒豪の蝋燭（軽快）
-				Tooltip:
-					'''
-					移動速度10%、飛行時間10%、加速度10%を得る
-					右クリックで効果を切り替え
+					[i:UnofficialLuiAFKDLC/UnlimitedAnechoicCoating] - 深淵で敵に発見されにくくなる
+					[i:UnofficialLuiAFKDLC/UnlimitedSulphuric] - 硫黄水の悪影響を軽減
+					[i:UnofficialLuiAFKDLC/UnlimitedOmniscience] - 敵・弾・危険・財宝を強調表示
 					'''
 			}
 
@@ -990,14 +1037,37 @@ Items: {
 				DisplayName: 天翔の書
 				Tooltip:
 					'''
-					飛行時間、ジャンプ速度を強化し、落下ダメージを無効化
+					飛行時間とジャンプ速度を強化し、落下ダメージを無効化
 					「さらに高く、遠くへ、そして安全！空を翔ける者に最適」
+					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedSoaring] - 飛行時間と水平飛行速度を10%上昇
+					[i:UnofficialLuiAFKDLC/UnlimitedBounding] - ジャンプ速度5%上昇、追加ジャンプ強化、防御力上昇
+					[i:UnofficialLuiAFKDLC/UnlimitedCalcium] - 落下ダメージを無効化
 					'''
 			}
 
 			ScrollOfCalamity: {
 				DisplayName: 災厄の書
-				Tooltip: 深淵に居続けることができ、機動力などが向上する
+				Tooltip: 深淵に居続けられ、機動力などが向上する
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/ScrollOfDepths] - 深淵探索の書（検知軽減、危険強調、硫黄水保護）
+					[i:UnofficialLuiAFKDLC/ScrollOfAstral] - 星の書（重力安定化、星の注入効果）
+					[i:UnofficialLuiAFKDLC/ScrollOfInfiniteAscent] - 天翔の力（飛行・跳躍・落下無効の強化）
+					[i:UnofficialLuiAFKDLC/ScrollOfEffigies] - 偶像の力（各偶像によるステータス補助）
+					[i:UnofficialLuiAFKDLC/ScrollOfCandles] - 酒精の書の効果（剛健・怨恨・活力・無重）
+					[i:UnofficialLuiAFKDLC/ScrollOfCalamityFlasks] - フラスコ効果（崩壊、硫炎、聖炎）
+					[i:UnofficialLuiAFKDLC/FermentedBook] - 錬金知識を深め、ポーション効果を強化
+					[i:UnofficialLuiAFKDLC/UnlimitedBloodfin] - ライフ低下時の強力な再生効果
+					[i:UnofficialLuiAFKDLC/UnlimitedBaguettePower] - 赤ワイン効果を強化
+					[i:UnofficialLuiAFKDLC/UnlimitedPhotosynthesis] - 太陽光下でライフ回復効果
+					[i:UnofficialLuiAFKDLC/UnlimitedShadow] - ステルス中の速度上昇効果
+					[i:UnofficialLuiAFKDLC/UnlimitedTesla] - 周囲に電撃効果を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedMushy] - 防御・ライフ回復上昇＋草地にキノコ生成
+					[i:UnofficialLuiAFKDLC/UnlimitedChi] - ダメージ軽減とチームのライフ回復を増進
+					'''
 			}
 
 			ScrollOfAstral: {
@@ -1007,28 +1077,94 @@ Items: {
 					マナ回復を強化し、重力を安定化させる
 					[c/9400D3:「星の力の均衡がエネルギーを整え、足取りを軽くしてくれる」]
 					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedGravityNormalizer] - 重力を安定化し、「歪み」を防ぐ
+					[i:UnofficialLuiAFKDLC/UnlimitedAstralInjection] - 高速マナ回復を得るが、マナ酔いを引き起こす
+					'''
 			}
 
 			FermentedBook: {
 				DisplayName: 発酵の書
 				Tooltip:
 					'''
-					すべてのアルコールバフの効果を得る
+					すべてのアルコールバフの中から、3種類の効果を得る
 					[c/FF9900:「発酵の力でステータスが強化される]
 					[c/FF9900:　だが、中毒には注意が必要」]
-
-					同時に発動できるアルコール効果は3種類まで
 					  
 					豆知識：シュメール人などの古代文明は
 					5000年以上前からビールのレシピを記録していた
+					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/BloodyMaryPower] - ブラッドムーン中のダメージ上昇、防御と自然回復量低下
+					[i:UnofficialLuiAFKDLC/CaribbeanRumPower] - 自然回復量・移動・飛行強化、浮遊感上昇
+					[i:UnofficialLuiAFKDLC/CinnamonRollPower] - マナ自然回復量上昇、火炎系デバフ強化、防御低下
+					[i:UnofficialLuiAFKDLC/EverclearPower] - ダメージ上昇、防御・自然回復量低下
+					[i:UnofficialLuiAFKDLC/EvergreenGinPower] - 病気・水系デバフ耐性上昇
+					[i:UnofficialLuiAFKDLC/FireballPower] - 火炎系デバフ効果上昇、自然回復量低下
+					[i:UnofficialLuiAFKDLC/GrapeBeerPower] - 防御減少
+					[i:UnofficialLuiAFKDLC/MargaritaPower] - デバフの持続半減、防御・自然回復量低下
+					[i:UnofficialLuiAFKDLC/MoonshinePower] - 防御・被ダメ軽減上昇、自然回復量低下
+					[i:UnofficialLuiAFKDLC/MoscowMulePower] - ダメージ・ノックバック・クリティカル率上昇
+					[i:UnofficialLuiAFKDLC/OldFashionedPower] - 装備ボーナスのダメージ倍率上昇、基本ダメージ減少
+					[i:UnofficialLuiAFKDLC/PurpleHazePower] - ダメージ・無敵時間上昇、防御低下
+					[i:UnofficialLuiAFKDLC/RedWinePower] - 自然回復量低下
+					[i:UnofficialLuiAFKDLC/RumPower] - 自然回復量・移動上昇、防御低下
+					[i:UnofficialLuiAFKDLC/ScrewdriverPower] - 敵を貫通できる弾のダメージ上昇、自然回復低下
+					[i:UnofficialLuiAFKDLC/StarBeamRyePower] - 最大マナ・魔法ダメ上昇、消費軽減、防御・回復低下
+					[i:UnofficialLuiAFKDLC/TequilaPower] - 昼間にノックバック・クリティカル率・防御上昇、自然回復低下
+					[i:UnofficialLuiAFKDLC/TequilaSunrisePower] - 昼間にノックバック・クリティカル率・防御上昇、自然回復低下
+					[i:UnofficialLuiAFKDLC/VodkaPower] - ダメージ・クリティカル率上昇、防御・自然回復低下
+					[i:UnofficialLuiAFKDLC/WhiskeyPower] - ダメージ・ノックバック・クリティカル率上昇、防御低下
+					[i:UnofficialLuiAFKDLC/WhiteWinePower] - 魔法ダメ上昇、防御・自然回復低下
+					[c/B00BA5:同時に有効なアルコール効果は3種類まで。組み合わせは慎重に選ぼう]
+					'''
+			}
 
+			ScrollOfCalamityFlasks: {
+				DisplayName: 災厄のフラスコの書
+				Tooltip: すべてのCalamityフラスコ効果を付与する巻物
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedCrumbling] - 近接・鞭・ローグ攻撃が老朽化を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedBrimstone] - 近接・鞭・ローグ攻撃が煉獄の炎を付与
+					[i:UnofficialLuiAFKDLC/UnlimitedHolyFlames] - 近接・鞭・ローグ攻撃が聖なる炎を付与
+					'''
+			}
+
+			ScrollOfCandles: {
+				DisplayName: 酒精の書
+				Tooltip: すべてのAlcoholic's Codex効果を付与する巻物
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexResilient] - 防御による被ダメ軽減率+10%
+					        ワールド難易度によって増減する
+					[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexSpiteful] - 与ダメ1.07倍、うち0.07倍分は敵防御・軽減を無視
+					[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexVigorous] - 最大ライフの0.4%/秒を回復、移動中も効果維持
+					        Revengeanceモード上限を無視
+					[i:UnofficialLuiAFKDLC/UnlimitedAlcoholicsCodexWeightless] - 移動速度・飛行時間・加速度+10%
+					'''
+			}
+
+			ScrollOfCalamitySpawnBlocks: {
+				DisplayName: 生命制御の球体
+				Tooltip: すべてのCalamity敵出現率抑制効果を付与する巻物
+				HoldShiftTooltip:
+					'''
+					[i:CalamityMod/VoodooDemonVoodooDoll] - ブードゥーデーモンの出現を防ぐ
+					[i:CalamityMod/AntiCystOintment] - パーフォレーターシストの出現を防ぐ
+					[i:CalamityMod/AntiTumorOintment] - ハイブトゥーマーの出現を防ぐ
+					[i:CalamityMod/BleachBall] - アクアティックスカージの出現を防ぐ
+					[i:CalamityMod/SirenproofEarMuffs] - アナヒタの出現を防ぐ
+					[i:CalamityMod/BrokenWaterFilter] - 酸性雨の発生を防ぐ
 					'''
 			}
 		}
 
 		AlchemistNPCLite: {
 			WorldWarperScroll: {
-				DisplayName: 次元転移の書 {0}
+				DisplayName: 次元転移の書-{0}
 				Tooltip:
 					'''
 					{0}
@@ -1063,6 +1199,34 @@ Items: {
 					[c/FFC300:右クリックで右側にテレポート]
 					'''
 				UnderworldName: 地底世界
+				Home:
+					'''
+					[i:UnofficialLuiAFKDLC/SpawnIcon] - [c/d67916:旅路の第一章を開放します。] - [i:UnofficialLuiAFKDLC/BedIcon]
+					[c/518b51:左クリック | ワールドの真ん中にテレポート]
+					[c/5c6298:右クリック | ベッドにテレポート]
+					'''
+				HomeName: 家
+				Death:
+					'''
+					[i:UnofficialLuiAFKDLC/DeathIcon] - [c/d67916:運命の響きに足跡を辿りながら。] - [i:UnofficialLuiAFKDLC/DeathIcon]
+					[c/615c57:左クリック | 最後の死亡地点にテレポート]
+					[c/A9A9A9:死亡地点に到達していない場合、無効になる]
+					'''
+				DeathName: 死亡地点
+				Return:
+					'''
+					[c/d67916:運命の響きに足跡を辿りながら。]
+					[c/6a55a0:左クリック | ポータルの出口に戻る]
+					[c/A9A9A9:ポータルが設定されていない場合、無効になる]
+					'''
+				ReturnName: 帰還
+				Random:
+					'''
+					[c/d67916:未知の不確実さを抱きしめて。]
+					[c/6e5f56:世界中のランダムな場所にテレポートする]
+					[c/A9A9A9:目的地は不明]
+					'''
+				RandomName: ランダムな場所
 			}
 
 			ScrollOfMinerAlchemist: {
@@ -1072,37 +1236,86 @@ Items: {
 					採掘速度が上昇し、罠を可視化し、道を照らす
 					安全かつ迅速に探索できる
 					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedExcavation] - 採掘範囲を1ブロックから3x3に拡張する
+					[i:UnofficialLuiAFKDLC/UnlimitedSunshine] - 光源の範囲を大幅に拡大する
+					[i:UnofficialLuiAFKDLC/UnlimitedTrapper] - すべての罠を強化する
+					'''
 			}
 
 			ScrollOfWarriorAlchemist: {
 				DisplayName: 不屈と影の書
 				Tooltip: 回避能力と防御力を高める
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/UnlimitedBlurring] - シャドウドッジを発動するバフを付与する
+					[i:UnofficialLuiAFKDLC/UnlimitedFortitude] - ノックバックを無効化する
+					[i:UnofficialLuiAFKDLC/UnlimitedNinja] - 攻撃を回避できるようになる
+					[i:UnofficialLuiAFKDLC/UnlimitedInvincibility] - 被弾後の無敵時間を延長する
+					[i:UnofficialLuiAFKDLC/UnlimitedTitanSkin] - 一部のデバフを無効化する
+					'''
 			}
 
-			WorldWarperBeach: {
-				DisplayName: ワールドワープ：浜辺
-				Tooltip: ""
+			ScrollOfAlchemist: {
+				DisplayName: Greggの霊薬
+				Tooltip:
+					'''
+					すべてのAlchemist NPC Liteの能力を併せ持つ強力な霊薬
+					「Greggのお気に入り」
+					'''
+				HoldShiftTooltip:
+					'''
+					[i:UnofficialLuiAFKDLC/ScrollOfMinerAlchemist] - 採掘・太陽光・罠強化の力を付与する
+					[i:UnofficialLuiAFKDLC/ScrollOfWarriorAlchemist] - 残像・不屈・忍者・無敵・巨人の肌の力を付与する
+					[i:UnofficialLuiAFKDLC/UnlimitedDiscord] - ムーンロード撃破前は「転移の力」を、撃破後は「完全な転移の力」を得る
+					[i:UnofficialLuiAFKDLC/UnlimitedGreaterDangersense] - 高級危険察知の力を得る
+					[i:UnofficialLuiAFKDLC/UnlimitedNaturesBlessing] - 自然の祝福を得る
+					'''
 			}
 
-			WorldWarperDungeon: {
-				DisplayName: ワールドワープ：ダンジョン
-				Tooltip: ""
+			WilliamsBirthdayCake: {
+				DisplayName: Magic Birthday Cake
+				Tooltip: Grants special effects of almost all stations simultaneously
+				HoldShiftTooltip:
+					'''
+					[i:miningcracks_take_on_luiafk/UnlimitedCampfire] - ライフ自然回復をわずかに増進
+					[i:miningcracks_take_on_luiafk/UnlimitedHeartLantern] - ライフ自然回復を増進
+					[i:miningcracks_take_on_luiafk/UnlimitedBastStatue] - 防御力が5増加
+					[i:miningcracks_take_on_luiafk/UnlimitedSharpeningStation] - 近接攻撃が相手の防御を貫通する
+					[i:miningcracks_take_on_luiafk/UnlimitedAmmoBox] - 20%の確率で弾薬を消費しない
+					[i:miningcracks_take_on_luiafk/UnlimitedCrystalBall] - 魔力が増加
+					[i:miningcracks_take_on_luiafk/UnlimitedSliceCake] - 移動速度と採掘速度が20%上昇
+					[i:miningcracks_take_on_luiafk/UnlimitedBewitchingTable] - 召喚できるミニオンの数が増える
+					[c/FFC300:'A celebratory gift from the wizard William on his birthday.']
+					'''
 			}
+		}
 
-			WorldWarperJungle: {
-				DisplayName: ワールドワープ：ジャングル
-				Tooltip: ""
-			}
+		DisplayName: 巻物
+		Tooltip: ""
 
-			WorldWarperTemple: {
-				DisplayName: ワールドワープ：寺院
-				Tooltip: ""
-			}
-
-			WorldWarperUnderworld: {
-				DisplayName: ワールドワープ：地底世界
-				Tooltip: ""
-			}
+		WarTotem: {
+			DisplayName: 戦のトーテム
+			Tooltip:
+				'''
+				すべての異界の軍勢を呼び寄せるトーテム
+				全ての侵攻イベントの状態を制御できる
+				'''
+			HoldShiftTooltip:
+				'''
+				[i:miningcracks_take_on_luiafk/FrostLegionEnable] - フロストレギオンを切り替え可能
+				[i:miningcracks_take_on_luiafk/GoblinArmyEnable] - ゴブリン軍団を切り替え可能
+				[i:miningcracks_take_on_luiafk/MartianMadnessEnable] - 火星人の侵攻を切り替え可能
+				[i:miningcracks_take_on_luiafk/PirateEnable] - 海賊の襲撃を切り替え可能
+				[i:miningcracks_take_on_luiafk/BloodMoonEnable] - ブラッドムーンを切り替え可能
+				[i:miningcracks_take_on_luiafk/FrostMoonEnable] - フロストムーンを切り替え可能
+				[i:miningcracks_take_on_luiafk/PumpkinMoonEnable] - パンプキンムーンを切り替え可能
+				[i:miningcracks_take_on_luiafk/SolarEclipseEnable] - 日食を切り替え可能
+				[i:UnofficialLuiAFKDLC/SlimyTear] - スライムレインを切り替え可能
+				[i:CalamityMod/CausticTear] - 酸性雨を切り替え可能
+				'''
+			HoldShiftTooltipCalamityMod: "[i:CalamityMod/CausticTear] - 酸性雨を切り替え可能"
 		}
 	}
 
@@ -1140,72 +1353,77 @@ Items: {
 		CalamityMod: {
 			EndlessBloodfireQuiver: {
 				DisplayName: 無限血炎の矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfireQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/DC143C:血に濡れた矢尻を持つ高速の矢]
-					[c/DC143C:射るたびに自身の体力を消耗する]
-					[c/DC143C:命中時に自然回復を加速させ、体力を回復する]
-					[c/DC143C:「永遠の炎で燃え盛り、絶え間なく敵に業火の怒りを浴びせる」]
+					[i:CalamityMod/BloodfireArrow] - [c/9a2a47:血に濡れた矢尻を持つ高速の矢で、自身の体力を消耗する]
+					[c/9a2a47:命中時にライフ自然回復を増進し、体力を回復する]
+					[c/b44e3c:'永遠の炎で燃え盛り、絶え間なく敵に業火の怒りを浴びせる矢']
 					'''
 			}
 
 			EndlessCinderQuiver: {
 				DisplayName: 無限灰燼の矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessCinderQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/FF4500:爆発する矢で、ヒットすると炎の破片が飛び散る]
-					[c/FF4500:「絶えぬ炎で燃え上がり、猛火の破壊を繰り返し放つ矢」]
+					[i:CalamityMod/CinderArrow] - [c/61605b:爆発する矢で、ヒットすると炎の破片が飛び散る]
+					[c/61605b:「絶えぬ炎で燃え上がり、猛火の破壊を繰り返し放つ矢」]
 					'''
 			}
 
 			EndlessElysianQuiver: {
 				DisplayName: 無限エリュシオンの矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessElysianQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/FFD700:冒涜の力を宿す矢]
-					[c/FFD700:命中時に上下から浄化の光を召喚する]
-					[c/FFD700:「星明りの輝きで闇を貫く、終わりなき天の矢」]
+					[i:CalamityMod/ElysianArrow] - [c/b05e1f:命中時に上下から浄化の光を召喚する]
+					[c/b05e1f:「星明りの輝きで闇を貫く、終わりなき天の矢」]
 					'''
 			}
 
 			EndlessIcicleQuiver: {
 				DisplayName: 無限つららの矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessIcicleQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/00BFFF:魔力を帯びた氷の矢]
-					[c/00BFFF:着弾後すぐに氷柱へと変化し、ダメージが増加]
-					[c/00BFFF:凍結前に敵やブロックに当たると、矢が上方向に飛翔する]
-					[c/00BFFF:「氷の決意を宿す矢は、凍てつく精度で標的を絶え間なく凍らせる」]
+					[i:CalamityMod/IcicleArrow] - [c/5187a1:魔力を帯びた氷の矢]
+					[c/5187a1:矢はすぐに氷柱となって落下し、ダメージが増加する]
+					[c/5187a1:凍結前に敵やブロックに当たると矢が上方向へ飛ぶ]
+					[c/5187a1:「氷の決意を宿す矢は、凍てつく精度で標的を絶え間なく凍らせる」
 					'''
 			}
 
 			EndlessSproutingQuiver: {
 				DisplayName: 無限芽吹きの矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessSproutingQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/228B22:二つの矢に分裂するエネルギーの矢]
-					[c/228B22:これらの矢は8ポイントの防御力を無視する]
-					[c/228B22:「永劫なる自然の力を編み込み、運命の標的へと確実に導かれる」]
+					[i:CalamityMod/SproutingArrow] - [c/95b121:二つの矢に分裂するエネルギーの矢]
+					[c/147876:この矢は防御力を8ポイント無視する]
+					[c/ce5640:「永劫なる自然の力を編み込み、運命の標的へと確実に導かれる」]
 					'''
 			}
 
 			EndlessVanquisherQuiver: {
 				DisplayName: 無限征服者の矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVanquisherQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/FF6347:宇宙の鋼で鍛えられた強力な矢]
-					[c/FF6347:ブロックを貫通し、敵を追尾する]
-					[c/FF6347:「尽きぬ秘術の力により、最強の敵さえ打ち倒す」]
+					[i:CalamityMod/VanquisherArrow] - [c/462978:宇宙の鋼で鍛えられた強力な矢]
+					[c/462978:ブロックを貫通し、敵を追尾する]
+					[c/462978:「尽きぬ秘術の力により、最強の敵さえ打ち倒す」]
 					'''
 			}
 
 			EndlessVeriumQuiver: {
 				DisplayName: 無限ヴェリウムの矢筒
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessVeriumQuiver] - [c/b44e3c:この矢筒は尽きることがない...]"
+				HoldShiftTooltip:
 					'''
-					[c/9370DB:ヒットした敵にマークをつけ、しばらくしてから追加ダメージを与える]
-					[c/9370DB:このダメージは敵に当たった矢の数に応じてスタックする]
-					[c/9370DB:「無限の星の力が込められ、嵐をも断つ精確無比の一撃を放つ」]
+					[i:CalamityMod/VeriumBolt] - [c/7e6cb1:命中時に敵へマークを付与し、短時間後に追加ダメージを与える]
+					[c/7e6cb1:このダメージは命中した矢の本数に応じてスタックする]
+					[c/7e6cb1:「無限の星の力が込められ、嵐をも断つ精確無比の一撃を放つ」
 					'''
 			}
 		}
@@ -1215,141 +1433,134 @@ Items: {
 		CalamityMod: {
 			EndlessBloodfirePouch: {
 				DisplayName: 無限血炎の弾丸のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBloodfirePouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					ブロックを貫通し、命中時に自然回復を加速
-					現在と自然回復量に応じて追加ダメージ（最大35）
-					[c/FF4500:「血潮を燃やし力に変えろ]
-					[c/8B0000:　血を燃やせ、敵も燃やせ」]
+					[i:CalamityMod/BloodfireBullet] - [c/9a2a47:ブロックを貫通し、命中時に自然回復を加速]
+					[c/9a2a47:現在と自然回復量に応じて追加ダメージ（最大35）]
+					[c/9a2a47:「血を燃やせ、敵も燃やせ」]
 					'''
 			}
 
 			EndlessBubonicPouch: {
 				DisplayName: 無限疫病の弾丸のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessBubonicPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					接触すると病原性の疫病が撒き散らされる
-					敵の防御力を10%無視する
-					[c/6B8E23:「疫病で敵を腐敗させろ]
-					[c/556B2F:　気づかぬうちに蝕まれる」]
+					[i:CalamityMod/BubonicRound] - [c/33634b:命中時に疫病を撒き散らし、敵の防御力を10%無視する]
+					[c/33634b:「奴らは気づかぬうちに蝕まれていく」]
 					'''
 			}
 
 			EndlessDryadPouch: {
 				DisplayName: 無限ドライアドの涙のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessDryadPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					何かにぶつかると自然の破片に分裂する
-					[c/32CD32:「自然の力で敵を追い詰めろ]
-					[c/228B22:　野生の怒りを破片に込めて」]
+					[i:CalamityMod/DryadsTear] - [c/95b121:何かにぶつかると自然の破片に分裂する]
+					[c/95b121:「自然の力で敵を追い詰めろ]
+					[c/95b121:　野生の怒りが、一片ごとに宿る」]
 					'''
 			}
 
 			EndlessFlashPouch: {
 				DisplayName: 無限フラッシュ弾のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessFlashPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					広範囲の敵を短時間混乱させる爆風を放つ
-					[c/FFD700:「敵を眩ませ混乱させろ]
-					[c/ADFF2F:　光が消え混乱が始まる」]
+					[i:CalamityMod/FlashRound] - [c/75818b:広範囲に衝撃波を放ち、敵を短時間混乱させる]
+					[c/75818b:「敵を眩ませ混乱させろ]
+					[c/75818b:　光が消え、混沌が支配する」]
 					'''
 			}
 
 			EndlessGodSlayerPouch: {
 				DisplayName: 無限神殺しのスラグ弾のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessGodSlayerPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					時空を切り裂く無制限の貫通力を持つ弾
-					スラグ弾がヒットした後、壁にぶつかったり、貫通する標的がなくなったりした場合
-					プレイヤーの後方にワープし、何かに当たると爆発する
-					[c/8A2BE2:「神をも討つ力で現実を切り裂け]
-					[c/4B0082:　終わりは始まり、時空が従う」]
+					[i:CalamityMod/GodSlayerSlug] - [c/9954b0:時空を貫く無限の貫通力を持つ重弾]
+					[c/9954b0:命中後、壁に当たるか貫通対象が尽きると]
+					[c/9954b0:プレイヤーの後方にワープし、何かに当たると爆発する]
+					[c/9954b0:「空間と時間を従え、終焉を再び始まりへ」]
 					'''
 			}
 
 			EndlessHailstormPouch: {
 				DisplayName: 無限ヘイルストーム弾のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHailstormPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					強力な氷の魔法が込められた弾丸
-					発射後、急速に減速する
-					クリティカルヒット時に追加ダメージを与え、敵を凍結させる
-					[c/00BFFF:「氷の嵐を解き放ち、][c/4682B4:骨まで凍らせろ」]
+					[i:CalamityMod/HailstormBullet] - [c/2c596c:強力な氷の魔法が込められた弾丸]
+					[c/2c596c:発射後すぐに減速する]
+					[c/2c596c:クリティカル時、追加ダメージと共に敵を凍結させる]
+					[c/2c596c:「骨の髄まで凍えさせろ」]
 					'''
 			}
 
 			EndlessHallowPointPouch: {
 				DisplayName: 無限ハローポイント弾のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHallowPointPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					勇ましい光によって、ヒット時に6の追加ダメージを与える
-					この効果は、弾丸が特殊な銃によって変換されている場合は発生しない
-					[c/FFD700:「輝ける弾丸で闇を射抜け]
-					[c/FF6347:　一発ごとに光が導く」]
+					[i:CalamityMod/HallowPointRound] - [c/968564:光の力で命中時に追加ダメージを与える]
+					[c/968564:この効果は、弾丸が特殊な銃によって変換されている場合は発生しない]
+					[c/968564:「一発ごとに光が狙いを導く」]
 					'''
 			}
 
 			EndlessHolyPouch: {
 				DisplayName: 無限聖なる炎の弾丸のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHolyPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					25ダメージを与える聖なる爆発弾
-					発射時により大きな爆発を起こす
-					[c/FFB6C1:「神聖なる炎で闇を浄化せよ]
-					[c/FFA07A:　義のための浄化の爆炎」]
+					[i:CalamityMod/HolyFireBullet] - [c/FFA07A:聖なる爆発弾]
+					[c/FFA07A:発射時により大きな爆発を起こす]
+					[c/FFA07A:「義のための浄化の炎を放て」]
 					'''
 			}
 
 			EndlessHyperiusPouch: {
 				DisplayName: 無限ハイペリウス弾のポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessHyperiusPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					カラフルな弾丸で15ダメージ
-					命中時に渦巻く光に分裂する
-					[c/9370DB:「鮮やかな火力で敵を照らせ]
-					[c/FF1493:　色彩と破壊の饗宴」]
+					[i:CalamityMod/HyperiusBullet] - [c/da69e9:カラフルな弾丸]
+					[c/da69e9:命中時に渦巻く光へと分裂する]
+					[c/da69e9:「色彩と破壊の饗宴」]
 					'''
 			}
 
 			EndlessMarksmanPouch: {
 				DisplayName: 無限マークスマンの弾丸ポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMarksmanPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					命中精度を追求し、15ダメージを与える
-					空中のコインに跳弾させることで、戦術的な使い方が可能
-					[c/32CD32:「狙い澄ました一撃で確実に仕留めろ]
-					[c/FF69B4:　コインを活用し火力を引き上げよ」]
-					'''
-			}
-
-			EndlessMortarRound: {
-				DisplayName: Endless Standard Mortar Round
-				Tooltip:
-					'''
-					High-explosive rounds causing 25 damage.
-					Destroy tiles with every blast.
-					[c/FF8C00:Demolish your surroundings with force.]
-					[c/FF4500:'Prepare for explosive consequences!']
+					[i:CalamityMod/MarksmanRound] - [c/8a6c2b:精度重視の設計弾]
+					[c/8a6c2b:空中のコインで跳弾し、戦略的に活用できる]
+					[c/8a6c2b:「貯金を投げ捨て、運命に賭けろ」]
 					'''
 			}
 
 			EndlessRubberMortarPouch: {
 				DisplayName: ラバーモーターの弾丸
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessRubberMortarPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					25ダメージを与える特殊な高威力の爆発弾
-					バウンドするたびにブロックを破壊する
-					[c/FFD700:「跳ねるたびに混沌を解き放つ」]
+					[i:CalamityMod/RubberMortarRound] - [c/9c3f71:特殊な高威力爆発弾]
+					[c/9c3f71:広い爆発範囲を持ち、跳ねるたびにブロックを破壊する]
+					[c/9c3f71:「跳ねるたびに破壊をもたらす」]
 					'''
 			}
 
 			EndlessMortarPouch: {
 				DisplayName: 無限モーター弾丸ポーチ
-				Tooltip:
+				Tooltip: "[i:UnofficialLuiAFKDLC/EndlessMortarPouch] - [c/b44e3c:このポーチは底なしだ...]"
+				HoldShiftTooltip:
 					'''
-					15ダメージを与える特殊な高威力の爆発弾
-					ブロックを破壊する
-					[c/FF4500:「爆発の代償を覚悟せよ」]
+					[i:CalamityMod/MortarRound] - [c/6d5e80:特殊な高威力の爆発弾]
+					[c/6d5e80:ブロックを破壊する]
+					[c/6d5e80:「爆発の代償を覚悟せよ」]
 					'''
 			}
 		}
@@ -1405,48 +1616,44 @@ Items: {
 
 	Accessories: {
 		ArchitectHeavyEquipment: {
-			DisplayName: 伝説の建築家の神器
-			Tooltip:
+			DisplayName: 建築用ヘルメット
+			Tooltip: "[i:UnofficialLuiAFKDLC/ArchitectHeavyEquipment] - [c/d9a53f:強力な兜で、LuiAFK DLC開発者が使用した複数の建築補助効果を持つ装備]"
+			HoldShiftTooltip:
 				'''
-				[c/FF4500:「創造の本質が響く、地獄の奥深くで鍛えられた伝説の兜」]
-
-				[c/FF6347:- ツール、ペイント、ブロック、壁配置の速度が大幅に上昇]
-				[c/FF7F50:- ブロック設置範囲とツール射程が大幅に増加]
-				[c/FF8C00:- アイテムの拾取範囲が大幅に拡大]
-				[c/FFA07A:- 配置したオブジェクトに自動でペイントまたはコーティングを適用する]
-				[c/FA8072:- 上入力を続けている間、高い位置に移動できる]
-				[c/FF6F61:- 背後の敵に強ノックバックの攻撃を放つ]
-				[c/FF4500:- 地下または地底世界にいる間、被ダメージ軽減が15%上昇し、防御力+18]
-
-				[c/FF6347:「無二の技巧と]
-				[c/FF7F50:　創意工夫で知られる建築の達人、　　　　が操った]
-				[c/FF8C00:　この兜で彼は地形と都市を作り変えたが、カラミタスとの壮絶な戦いで命を落とし、その魂は兜に宿ることとなった]
-				[c/FF6F61:　今、この兜をかぶる者は彼の技と執念を受け継ぎ、偉業への道を歩むのだ」]
+				[i:miningcracks_take_on_luiafk/ToolTime] - ツール、ペイント、ブロック・壁配置速度を上昇
+				[i:HandOfCreation] - 複数の建築ユーティリティを統合 [i:PortableStool] - 上入力で高さを調節できる
+				[i:CalamityMod/MarniteRepulsionShield] - 防御+4、高ノックバックのエネルギーのダメージ増加
+				[i:CalamityMod/MarniteArchitectHeadgear] & [i:CalamityMod/MarniteArchitectToga] - マーナイトリフトを使用できるようになり、騎乗中は設置速度とツール射程増加
+				[i:CalamityMod/ArchaicPowder] - 地下または地底世界で被ダメージ軽減+15、防御+10
 				'''
 		}
 
 		MaximumUnlimitedMana: {
-			DisplayName: 至高の無限マナ
+			DisplayName: 至高のマナペンダント
 			Tooltip:
 				'''
-				[c/00BFFF:マナが無限になる]
-				[c/1E90FF:魔法ダメージ+20%]
-				[c/4169E1:魔法クリティカル率+20%]
+				[c/00BFFF:究極のマナアクセサリーで、無限のマナが付与される]
+				防御力-6% & ライフ回復-3 HP/秒
+				'''
+			HoldShiftTooltip:
+				'''
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory] - 魔法ダメージ大幅減少
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory1] - 魔法ダメージ中程度減少
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory2] - 魔法ダメージ少し減少
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory3] - 無限マナを付与
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory4] - 魔法ダメージ & クリティカル率+5%
+				[i:miningcracks_take_on_luiafk/UnlimitedManaAccessory5] - 魔法ダメージ & クリティカル率+10%
 				'''
 		}
 
 		EnchantedSupremeFishingBundle: {
 			DisplayName: 魔道究極釣り具セット
-			Tooltip:
+			Tooltip: "[c/8A2BE2:「究極の釣り師のために仕上げられた、伝説の魔道釣り具セット」]"
+			HoldShiftTooltip:
 				'''
-				[c/8A2BE2:「究極の釣り師のために仕上げられた、伝説の魔道釣り具セット」]
-
-				[c/7B68EE:- フィッシングパワーが110%上昇]
-				[c/6A5ACD:- 釣り糸が決して切れず、エサ消費率が低下]
-				[c/483D8B:- クレートの釣り上げ率が上昇]
-				[c/4169E1:- 溶岩での釣りが可能になる]
-				[c/0000FF:- ソナー効果を付与]
-				[c/00008B:- ポーション素材の魚の釣り率が大幅上昇]
+				[i:CalamityMod/EnchantedPearl] - フィッシングパワー & エサパワー+10
+				[i:CalamityMod/SupremeBaitTackleBoxFishingStation] - フィッシングパワー & エサパワー+80
+				[i:CalamityMod/AlluringBait] - ポーション素材魚の釣り率上昇 & エサパワー+30
 				'''
 		}
 	}
@@ -1455,86 +1662,91 @@ Items: {
 		CalamityMod: {
 			UnlimitedSlurperPole: {
 				DisplayName: 魔釣のスラーパーポール
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/20B2AA:伝説の古代釣り師が作り上げたこの竿は]
-					[c/20B2AA:エサ不要で、溶岩を含む最も危険な場所でも釣りができる]
-					[c/20B2AA:魔力で強化された糸は決して切れず、]
-					[c/883829:果てしない釣りの冒険を支える]
+					[i:UnofficialLuiAFKDLC/UnlimitedSlurperPole] - [c/4d3946:古代の伝説的釣り師が作った竿]
+					[c/4d3946:エサ不要で、危険な環境でも釣りが可能]
 					'''
 			}
 
 			UnlimitedTheDevourerofCods: {
 				DisplayName: 虚無の捕食者
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/4B0082:神喰らいの力が宿るこの竿は、エサ不要で、溶岩でも釣りが可能]
-					[c/9954b0:その糸は虚無の力で支えられ、決して切れることなく、]
-					[c/9954b0:宇宙の捕食者の不屈の力を映している]
+					[i:UnofficialLuiAFKDLC/UnlimitedTheDevourerofCods] - [c/4c4f85:神喰らいの力を宿す竿]
+					[c/4c4f85:エサ不要で溶岩でも釣り可能]
 					'''
 			}
 
 			UnlimitedVerstaltiteFishingRod: {
 				DisplayName: 凍風の釣り竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/00BFFF:希少なクライオニック鉱石で作られたこの竿は、雪原での釣り力が上がる]
-					[c/5187a1:エサ不要で、どんな大物でも糸が切れないため、釣り師の夢の道具となる]
+					[i:UnofficialLuiAFKDLC/UnlimitedVerstaltiteFishingRod] - [c/4575a4:希少なクライオニック製]
+					[c/4575a4:雪原でフィッシングパワーが増加]
 					'''
 			}
 
 			UnlimitedWulfrumRod: {
 				DisplayName: 強化ウルフラムの釣り竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/1E90FF:ウルフラムのエッセンスが宿るこの竿は、エサ不要で、糸は決して切れない]
-					[c/678964:その堅牢な作りは、群を抜き、どんな水場でも信頼できる性能を誇る]
+					[i:UnofficialLuiAFKDLC/UnlimitedWulfrumRod] - [c/2d855f:ウルフラムの力を宿す竿]
+					[c/2d855f:エサ不要で糸は切れない]
 					'''
 			}
 
 			UnlimitedEarlyBloomRod: {
 				DisplayName: 緑映ゆる開花の竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/32CD32:春の芽吹きの時期に作られたこの竿は、エサ不要で、糸は決して切れない]
-					[c/22b14c:釣り道具が壊れる心配なく一生使い続けられる、自然の恵みの象徴でもある]
+					[i:UnofficialLuiAFKDLC/UnlimitedEarlyBloomRod] - [c/895130:春の芽吹きに作られた竿]
+					[c/895130:エサ不要、糸は切れない]
 					'''
 			}
 
 			UnlimitedFeralDoubleRod: {
 				DisplayName: 野爪の釣り竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/8B4513:野獣の爪から鍛え上げられたこの二重竿は、エサ不要で、糸は決して切れない]
-					[c/95b121:その原始の力により、最も荒々しい釣り場でも信頼できる性能を発揮する]
+					[i:UnofficialLuiAFKDLC/UnlimitedFeralDoubleRod] - [c/1f631f:野獣の爪から作られた二重竿]
+					[c/1f631f:エサ不要で糸は切れない]
 					'''
 			}
 
 			UnlimitedHeronRod: {
 				DisplayName: 天翔けるサギの竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/87CEEB:優雅なサギにちなんで名付けられたこの竿は、エサ不要で、宇宙空間での釣りに優れ、フィッシングパワーが増す]
-					[c/87CEEB:糸は天の如く、いかなる状況でも揺るがず、天の優美さを体現する]
+					[i:UnofficialLuiAFKDLC/UnlimitedHeronRod] - [c/87CEEB:サギの名を冠する竿]
+					[c/87CEEB:エサ不要、宇宙でフィッシングパワー上昇]
 					'''
 			}
 
 			UnlimitedNavyFishingRod: {
 				DisplayName: 提督の釣り竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/4682B4:耐久性と性能の高さから海軍に愛される竿]
-					[c/4682B4:エサ不要で、糸は決して切れない]
-					[c/4682B4:過酷な海や長旅にも耐え、船乗りの最高の相棒となる]
+					[i:UnofficialLuiAFKDLC/UnlimitedNavyFishingRod] - [c/4a6160:海軍に愛された竿]
+					[c/4a6160:エサ不要、糸は切れない]
 					'''
 			}
 
 			UnlimitedRiftReeler: {
 				DisplayName: 次元の釣り竿
-				Tooltip:
+				Tooltip: "[i:TinCan] - [c/665e4a:投げ放題、釣り放題]"
+				HoldShiftTooltip:
 					'''
-					[c/9400D3:次元の狭間で、さらには溶岩でも釣りができるこの竿は、エサを必要としない]
-					[c/FF6347:次元エネルギーで糸は決して切れず、未知を求める高次元の釣り師たちの必携の道具となる]
+					[i:UnofficialLuiAFKDLC/UnlimitedRiftReeler] - [c/7d3a3a:次元の狭間や溶岩でも釣りができる]
+					[c/7d3a3a:エサ不要]
 					'''
 			}
 		}
@@ -1592,38 +1804,41 @@ Items: {
 	BossSummon: {
 		OldDukeSummon: {
 			DisplayName: 深海の古き遺物
-			Tooltip:
+			Tooltip: "[i:UnofficialLuiAFKDLC/OldDukeSummon] - [c/2E8B57:硫黄の海でのみ使用可能]"
+			HoldShiftTooltip:
 				'''
-				[c/00FF00:-Ancient Relic of the Deep-]
-				[c/00FF00:右クリックでボスを呼び出す]
-				[c/00FF00:「釣り竿はもういらない」]
+				[c/00FF00:これを使うと古代のリヴァイアサンを呼び出せる]
+				[c/00FF00:「深海の呪われし遺物、その目覚めは挑む者すべてを溺れさせる」]
 				'''
 		}
 
 		NuclearTerrorSummon: {
 			DisplayName: 破滅の核
-			Tooltip:
+			Tooltip: "[i:UnofficialLuiAFKDLC/NuclearTerrorSummon] - [c/2E8B57:硫黄の海でのみ使用可能]"
+			HoldShiftTooltip:
 				'''
-				[c/FF4500:右クリックでニュークリアテラーを召喚する]
-				[c/FF4500:「放射線に汚染された悪夢の遺物」]
+				[c/7d614d:これを使うと放射能の怪物を解き放つ]
+				[c/7d614d:「放射能の悪夢から鍛えられた核、その怒りはすべての生命を閃光で焼き尽くす」]
 				'''
 		}
 
 		MaulerSummon: {
 			DisplayName: 海の捕食者のトーテム
-			Tooltip:
+			Tooltip: "[i:UnofficialLuiAFKDLC/MaulerSummon] - [c/2E8B57:硫黄の海でのみ使用可能]"
+			HoldShiftTooltip:
 				'''
-				[c/4682B4:右クリックでモーラーを召喚する]
-				[c/4682B4:「放射性嵐の中心から鍛造された」]
+				[c/7d614d:これを使うと捕食者を目覚めさせる]
+				[c/7d614d:「放射性の嵐の中心から生まれ、容赦ない狩りを続けている」]
 				'''
 		}
 
 		CragmawMireSummon: {
 			DisplayName: 沼の巨獣の偶像
-			Tooltip:
+			Tooltip: "[i:UnofficialLuiAFKDLC/CragmawMireSummon] - [c/2E8B57:硫黄の海でのみ使用可能]"
+			HoldShiftTooltip:
 				'''
-				[c/2E8B57:右クリックでクラグモーを召喚する]
-				[c/2E8B57:「その目覚めに沼地は震える」]
+				[c/2E8B57:これを使うと沼の巨獣を呼び出せる]
+				[c/2E8B57:「その一歩ごとに湿地が揺れ動き、底から現れる怪物の力が荒れ狂う」]
 				'''
 		}
 	}
@@ -1653,6 +1868,12 @@ Items: {
 			BrokenWaterFilter: {
 				Tooltip: 酸性雨の自然発生が無効になる
 			}
+
+			FUCKYOUCALAMITY:
+				'''
+				[c/ff0000:Calamityスタイルのスポーンブロックアイテムは廃止され、右クリックしても何も起こりません。
+				LuiAFK-DLCのパネル -> 環境タブでスポーンブロックオプションを管理してください。
+				'''
 		}
 	}
 
@@ -1678,19 +1899,370 @@ Items: {
 
 	RogueScarf: {
 		DisplayName: 盗賊のマント
-		Tooltip:
+		Tooltip: "[c/a678b5:「かつて盗賊が自身の店の品を集める際に着用されていたもの」]"
+		HoldShiftTooltip:
 			'''
-			[c/800080:-Bandit’s Mantle-]
-			[c/800080:影に身を隠す]
-			[c/800080:「真のならず者の相棒」]
+			[c/845e36:「黄昏の下、彼女は村から村へと歩き、マントには数えきれぬ財宝を隠していた]
+			[c/845e36:　ある運命の夜、嵐が吹き荒れ、砂を裂く旋風が轟いたとき、]
+			[c/845e36:　その風は彼女の首からマントを引き裂き、砂漠へと運び去った]
+			[c/797979:　流砂に埋もれて久しく、やがて“DM”と呼ばれる謎の人物によって掘り起こされた」]
 			'''
 	}
 
-	UnlimitedThrownName: 無限{0}
+	UnlimitedThrownName: 無限の{0}
 
 	DebugPotion: {
 		DisplayName: Debug Potion
 		Tooltip: ""
+	}
+
+	WorldWarper: {
+		Tooltip: ""
+		DisplayName: ワールドワーパー
+	}
+
+	PartyPopper: {
+		DisplayName: パーティークラッカー
+		Tooltip:
+			'''
+			パーティーイベントを切り替える力を付与
+			夜明けに自然終了する
+			'''
+	}
+
+	HangLantern: {
+		DisplayName: 吊るしランタン
+		Tooltip:
+			'''
+			ランタンナイトを切り替える力を付与
+			夜明けに自然終了する
+			'''
+	}
+
+	SlimyTear: {
+		DisplayName: スライムの涙
+		Tooltip: スライムレインを切り替える力を付与
+	}
+
+	FakeItems: {
+		BedIcon: {
+			DisplayName: Bed Icon
+			Tooltip: ""
+		}
+
+		DeathIcon: {
+			DisplayName: Death Icon
+			Tooltip: ""
+		}
+
+		SpawnIcon: {
+			DisplayName: Spawn Icon
+			Tooltip: ""
+		}
+	}
+}
+
+TimeControls: {
+	JumpDawn: {
+		DisplayName: 夜明け
+		Description: 夜明け（午前4時30分）に変更
+	}
+
+	JumpNoon: {
+		DisplayName: 正午
+		Description: 正午（午後12時）に変更
+	}
+
+	JumpDusk: {
+		DisplayName: 夕暮れ
+		Description: 夕暮れ（午後7時30分）に変更
+	}
+
+	JumpMidnight: {
+		DisplayName: 深夜
+		Description: 深夜（午前0時）に変更
+	}
+}
+
+Configs: {
+	SettingsConfigServer: {
+		DisplayName: サーバー設定
+
+		Headers: {
+			Unlimited_Items: 無限アイテム
+		}
+
+		worksInPlayerBanks: {
+			Label: 豚の貯金箱内でも無限機能が動作
+			Tooltip: ""
+		}
+
+		LegacyRecipes: {
+			Label: 旧レシピ
+			Tooltip:
+				'''
+				レシピに血液やブラッドオーブを含まなくなる
+				紙のレシピは竹ブロックのみを使用する
+				'''
+		}
+	}
+
+	UnofficialLuiAFKDLCClientConfig: {
+		DisplayName: 非公式LuiAFK DLC設定
+
+		ItemDisabledTooltip: {
+			Label: アイテム無効ツールチップ
+			Tooltip: ""
+		}
+
+		DisableLuiAFKKeybindHint: {
+			Label: LuiAFKキー操作ヒントを無効化
+			Tooltip: ワールドに入る際に表示されるLuiAFKのキー操作メッセージを削除する
+		}
+
+		ChecklistMode: {
+			Label: Checklist Mode
+			Tooltip: ""
+		}
+	}
+
+	BuffPanelConfig: {
+		DisplayName: バフ管理パネル設定
+
+		FlaskActivateCooldown: {
+			Label: フラスコ発動クールダウン（秒）
+			Tooltip:
+				'''
+				このクールダウン後にフラスコが発動する
+				この設定は全プレイヤーで共有される
+				'''
+		}
+
+		CandleActivateCooldown: {
+			Label: ロウソク発動クールダウン（秒）
+			Tooltip:
+				'''
+				このクールダウン後にロウソクが発動する
+				この設定は全プレイヤーで共有される
+				'''
+		}
+
+		Headers: {
+			Cooldown: クールダウン
+		}
+	}
+
+	EnvironmentPanelConfig: {
+		DisplayName: 環境パネル設定
+
+		FightEventActivateCooldown: {
+			Label: 戦闘イベント発動クールダウン（秒）
+			Tooltip:
+				'''
+				クールダウン中に戦闘イベントをキャンセルできる
+				この設定は他プレイヤーとは独立している
+				'''
+		}
+
+		TimeControlActivateCooldown: {
+			Label: 時間操作発動クールダウン（秒）
+			Tooltip:
+				'''
+				クールダウン中に時間操作をキャンセルできる
+				この設定は他プレイヤーとは独立している
+				'''
+		}
+
+		Headers: {
+			Cooldown: クールダウン
+		}
+	}
+
+	TeleportPanelConfig: {
+		DisplayName: テレポートパネル設定
+
+		DestinationTeleportCooldown: {
+			Label: 行き先テレポートクールダウン（秒）
+			Tooltip:
+				'''
+				クールダウン中にテレポートをキャンセルできる
+				この設定は他プレイヤーとは独立している
+				'''
+		}
+
+		PersonalDestinationTeleportCooldown: {
+			Label: 個人行き先テレポートクールダウン（秒）
+			Tooltip:
+				'''
+				クールダウン中にテレポートをキャンセルできる
+				この設定は他プレイヤーとは独立している
+				'''
+		}
+
+		FriendTeleportCooldown: {
+			Label: フレンドテレポートクールダウン（秒）
+			Tooltip:
+				'''
+				クールダウン中にテレポートをキャンセルできる
+				この設定は他プレイヤーとは独立している
+				'''
+		}
+
+		Headers: {
+			Cooldown: クールダウン
+		}
+	}
+}
+
+EventLoaders: {
+	miningcracks_take_on_luiafk: {
+		HalloweenWorldEvent: {
+			DisplayName: ハロウィン
+			Description: 可能ならハロウィンイベントを切り替える
+		}
+
+		XMasWorldEvent: {
+			DisplayName: クリスマス
+			Description: 可能ならクリスマスイベントを切り替える
+		}
+
+		RainWorldEvent: {
+			DisplayName: 雨
+			Description: 可能なら雨イベントを切り替える
+		}
+
+		SandstormWorldEvent: {
+			DisplayName: 砂嵐
+			Description:
+				'''
+				可能なら砂嵐イベントを切り替える
+				特定の天候条件を満たさないと砂嵐は発生できない
+				'''
+		}
+
+		BloodMoonInvasion: {
+			DisplayName: ブラッドムーン
+			Description:
+				'''
+				夜間にブラッドムーンを切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		FrostLegion: {
+			DisplayName: フロストレギオン
+			Description:
+				'''
+				フロストレギオンを切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		FrostMoonInvasion: {
+			DisplayName: フロストムーン
+			Description:
+				'''
+				夜間にフロストムーンを切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		GoblinInvasion: {
+			DisplayName: ゴブリン軍団
+			Description:
+				'''
+				ゴブリン軍団を切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		MartianInvasion: {
+			DisplayName: 火星人の侵攻
+			Description:
+				'''
+				火星の狂気を切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		PirateInvasion: {
+			DisplayName: 海賊襲撃
+			Description:
+				'''
+				海賊襲撃を切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		PumpkinMoonInvasion: {
+			DisplayName: パンプキンムーン
+			Description:
+				'''
+				夜間にパンプキンムーンを切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+
+		SolarInvasion: {
+			DisplayName: 日食
+			Description:
+				'''
+				昼間に日食を切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+	}
+
+	Terraria: {
+		PartyWorldEvent: {
+			DisplayName: パーティー
+			Description:
+				'''
+				可能ならパーティーイベントを切り替える
+				夜間やNPC不足でも有効化できる
+				夜になると自然に終了する
+				'''
+		}
+
+		LanternNightWorldEvent: {
+			DisplayName: 灯籠の夜
+			Description:
+				'''
+				可能なら灯籠の夜イベントを切り替える
+				昼間でも有効化できる
+				夜明けで自然に終了する
+				'''
+		}
+
+		SlimeRainInvasion: {
+			DisplayName: スライムレイン
+			Description:
+				'''
+				スライムレインを切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
+	}
+
+	CalamityMod: {
+		AcidRainInvasion: {
+			DisplayName: 酸性雨
+			Description:
+				'''
+				酸性雨を切り替える
+				同時に発生できる侵攻イベントは1つだけ
+				有効化から5秒後に侵攻が始まる
+				'''
+		}
 	}
 }
 
@@ -1738,37 +2310,13 @@ Buffs: {
 	}
 
 	FakeGnomeBuff: {
-		DisplayName: Gnome
-		Description: Increase your luck
+		DisplayName: ノーム
+		Description: 運を上げる
 	}
 
 	FakeLadybugBuff: {
-		DisplayName: Fake Ladybug Buff
-		Description: Increase your luck
-	}
-}
-
-Configs: {
-	SettingsConfigServer: {
-		DisplayName: サーバー設定
-
-		Headers: {
-			Unlimited_Items: 無限アイテム
-		}
-
-		worksInPlayerBanks: {
-			Label: 豚の貯金箱内でも無限機能が動作
-			Tooltip: ""
-		}
-	}
-
-	UnofficialLuiAFKDLCClientConfig: {
-		DisplayName: Unofficial Lui A F K D L C 設定
-
-		ItemDisabledTooltip: {
-			Label: アイテム無効ツールチップ
-			Tooltip: ""
-		}
+		DisplayName: 偽てんとう虫
+		Description: 運を上げる
 	}
 }
 
@@ -1799,10 +2347,24 @@ FishingRod: {
 	Quests1: "{0}回の釣り{^0:クエスト;クエスト}達成ごとに糸が追加される"
 }
 
+CommonTooltips: {
+	PiggyWork: "[c/7a7a7a:使用可能な場所] : [i:PiggyBank] [i:Safe] [i:DefendersForge]"
+	CheckPanel: <[c/dc810d:[KEY]]> を押すとバフ管理ができる
+	HoldShiftHint: "[c/9d9d9d:<SHIFT> を押すと追加情報を表示]"
+}
+
 UI: {
-	PowerEffect: 能力効果
-	Spawn: スポーン
+	ConfigsButtonTooltip:
+		'''
+		このパネルのMod設定メニューを開く
+		現在設定可能な項目：
+		- 一部グループのクールダウン時間
+		'''
+	Buff: バフ効果
+	Environment: 環境
+	Teleport: テレポート
 	PowerToggleTitleTemplate: "[TITLE] （有効 [CUR]/[MAX] ）"
+	ChecklistModeTitleTemplate: 未入手（発見数 [CUR]/[MAX]）
 	GroupAlcohol: 酒
 	GroupFlask: フラスコ
 	GroupCandle: ロウソク
@@ -1810,13 +2372,79 @@ UI: {
 	GroupOffensive: 攻撃
 	GroupDefensive: 防御
 	GroupBuff: バフ
-	GroupSpawnRate: スポーン率
-	GroupSpawnBlock: スポーン切り替えアイテム
+	GroupSpawnRate: 出現率
+	GroupSpawnBlock: 出現切り替えアイテム
+	GroupWorldEvent: ワールドイベント
+	GroupFightEvent: 侵攻イベント
+	GroupTimeControl: 時間
+	GroupDestination: ワールド移動先
+	GroupPersonalDestination: 個人移動先
+	GroupFriend: フレンド
+	GroupCollapsedHint: 左クリックで展開
+	GroupExpandedHint: 左クリックで折りたたみ
 	BuffOn: バフ有効 左クリックで切り替え
 	BuffOff: バフ無効 左クリックで切り替え
+	BuffCooldown: "{0}秒後に再使用可能"
 	VisualOn: 視覚効果有効 右クリックで切り替え
 	VisualOff: 視覚効果無効 右クリックで切り替え
-	SpawnBlockOn: 現在有効 左クリックで切り替え
-	SpawnBlockOff: 現在無効 左クリックで切り替え
+	UnlockHint: "[c/e94a4a:この効果はまだ入手していない]"
+	UnlockHint2a: "[c/dc810d:対応アイテムをインベントリに所持すると付与される]"
+	UnlockHint2b: "[c/dc810d:対応アイテムをインベントリか個人保管庫に所持すると付与される]"
+	TargetItemHint: "[c/7a7a7a:この効果を与える基本アイテムを見るにはShiftを押す]"
+	ItemOn: 現在有効 左クリックで切り替え
+	ItemOff: 現在無効 左クリックで切り替え
+	ItemGray: 現在有効だが未発動 左クリックで切り替え
+	TimeJumpHint: クリック後{0}秒で時間が変更されます。
+	InvasionHint: 有効化後{0}秒で侵攻が開始されます。
+	InvasionCooldown: 侵攻は{0}秒後に開始されます。左クリックでキャンセル
+	FriendTeleport: 左クリックでこのプレイヤーのもとへテレポート
+	PlayerMissing: このプレイヤーはオフラインです。表示が更新されない場合はパネルを再読み込みしてください。
+	PlayerDead: 死亡しているプレイヤーにはテレポートできません。
+	PlayerOtherTeam: 他チームのプレイヤーにはテレポートできません。
+	TeleportHint: クリック後{0}秒でテレポートが行われます。
+	TeleportCooldown: "{0}秒後にテレポートします。左または右クリックでキャンセル。"
+	LockEnabled: 可能なとき自動的に有効化 右クリックで解除
+	LockDisabled: 可能なとき自動的に無効化 右クリックで解除
+	LockOff: 状態は自然または外部要因で変化する 右クリックで固定
+	BlockedByBoss: ボスの生存中は時間を操作できません。
+	ChecklistModeEnabledTooltip:
+		'''
+		チェックリストモード：存在する全ての効果を表示する
+		左クリックでモード切り替え
+		'''
+	ChecklistModeDisabledTooltip:
+		'''
+		進行モード：所持している効果のみ表示する
+		左クリックでモード切り替え
+		'''
 }
+
+Broadcasts: {
+	InvasionStartFailed: 必要条件を満たしていないため、{0} を開始できません！
+	InvasionStartSoon: "{0} がまもなく開始されます"
+	InvasionStarted: "{0} が進行中！"
+	InvasionEnded: "{0} は中断されました"
+	NotAvailablePlayer: プレイヤー {0} へはテレポートできません
+	NotAvailableDestination: "{0} へはテレポートできません"
+}
+
+DestinationHints:
+	'''
+	ダンジョン入口
+	右の海
+	左の海
+	右の浜辺
+	左の浜辺
+	黒曜石の廃墟
+	硫黄の岩場または灰の森
+	リザードの祭壇
+	ジャングル寺院の門
+	春の道またはジャングル
+	マホガニーの木
+	忘れられた書庫
+	スポーン地点
+	家
+	最後の死亡地点（この世界でまだ死んでいない場合は表示されません）
+	帰還のポーションの帰還地点（帰還のポーションを使用するか、別の目的地に移動することで作成可能）
+	'''
 

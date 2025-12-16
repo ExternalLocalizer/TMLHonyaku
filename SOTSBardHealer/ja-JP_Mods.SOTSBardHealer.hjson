@@ -1,0 +1,548 @@
+Configs: {
+	BalanceConfig: {
+		voidCost: {
+			Tooltip:
+				'''
+				このmodで追加されるヴォイドの消費量の倍率です
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: ヴォイド消費量
+		}
+
+		healing: {
+			Tooltip:
+				'''
+				回復魔法の回復倍率です
+				0にするとライフ回復量が1になります
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: ヒーリング倍率
+		}
+
+		soulEssence: {
+			Tooltip:
+				'''
+				ヒーラーの攻撃武器から得られるソウルエッセンスの倍率です
+				上限:5
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: ソウルエッセンス倍率
+		}
+
+		radiant: {
+			Tooltip:
+				'''
+				ヒーラーの攻撃武器のダメージ倍率です
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: 神聖武器のダメージ倍率
+		}
+
+		bard: {
+			Tooltip:
+				'''
+				吟遊詩人の武器のダメージ倍率です
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: 吟遊詩人武器のダメージ倍率
+		}
+
+		thrower: {
+			Tooltip:
+				'''
+				投擲武器のダメージ倍率です
+				(変更にはワールドの再読み込みが必要です!)
+				'''
+			Label: 投擲武器のダメージ倍率
+		}
+
+		DisplayName: バランス設定
+	}
+}
+
+DamageClasses: {
+	VoidThrowing: {
+		DisplayName: ヴォイド+投擲ダメージ
+	}
+
+	VoidSymphonic: {
+		DisplayName: ヴォイド+旋律ダメージ
+	}
+
+	VoidRadiant: {
+		DisplayName: ヴォイド+神聖ダメージ
+	}
+}
+
+Prefixes: {
+	Precarious: {
+		DisplayName: 不安定な
+	}
+
+	Potent: {
+		DisplayName: 強力な
+	}
+
+	Omnipotent: {
+		DisplayName: 全能の
+	}
+
+	Famished: {
+		DisplayName: 飢えた
+	}
+
+	Chthonic: {
+		DisplayName: 地下世界の
+	}
+}
+
+Projectiles: {
+	WaveBlast: {
+		DisplayName: Wave Blast
+	}
+
+	VibrantTomahawk: {
+		DisplayName: Vibrant Tomahawk
+	}
+
+	VibrantResonator: {
+		DisplayName: Vibrant Resonator
+	}
+
+	UltrasonicBassBooster: {
+		DisplayName: Ultrasonic Bass Booster
+	}
+
+	TurboSlicerThrown: {
+		DisplayName: Turbo Slicer
+	}
+
+	TurboSlicer: {
+		DisplayName: Turbo Slicer
+	}
+
+	SubsonicTuner: {
+		DisplayName: Subsonic Tuner
+	}
+
+	SnowflakeBlade: {
+		DisplayName: Snowflake Blade
+	}
+
+	SerpentLightning: {
+		DisplayName: Serpentbite
+	}
+
+	SerpentFangSlash: {
+		DisplayName: Serpent Fang Scythe
+	}
+
+	SerpentFangScythe: {
+		DisplayName: Serpent Fang Scythe
+	}
+
+	Serpentbite: {
+		DisplayName: Serpentbite
+	}
+
+	PromiseofDemise: {
+		DisplayName: Promise of Demise
+	}
+
+	PhaseKarambit: {
+		DisplayName: Phase Karambit
+	}
+
+	InfrasonicTuner: {
+		DisplayName: Infrasonic Tuner
+	}
+
+	GoopwoodWiggle: {
+		DisplayName: Goopwood Wiggle
+	}
+
+	GoopwoodSplit: {
+		DisplayName: Goopwood Split
+	}
+
+	GoopwoodReapPro: {
+		DisplayName: Goopwood Reap
+	}
+
+	GoopwoodReap: {
+		DisplayName: Goopwood Reap
+	}
+
+	ForbiddenMaelstrom: {
+		DisplayName: Forbidden Maelstrom
+	}
+
+	DualStylophonePro: {
+		DisplayName: Dual Stylophone
+	}
+
+	DualStylophone: {
+		DisplayName: Dual Stylophone
+	}
+
+	DeathThroesThrows: {
+		DisplayName: Death Throes Throws
+	}
+
+	DeathThroesThrow: {
+		DisplayName: Death Throes Throw
+	}
+
+	CursedAnkh: {
+		DisplayName: Cursed Ankh
+	}
+
+	ChoirofOne: {
+		DisplayName: Choir of One
+	}
+
+	ChaosSphere: {
+		DisplayName: Chaos Ring
+	}
+
+	ChaosCircle: {
+		DisplayName: Chaos Ring
+	}
+
+	CharmedSerpent: {
+		DisplayName: Charmed Serpent of Sage
+	}
+
+	BladedSnowflake: {
+		DisplayName: Bladed Snowflake
+	}
+
+	AnkhHealing: {
+		DisplayName: Ankh Healing
+	}
+
+	AncientHarp: {
+		DisplayName: Ancient Harp
+	}
+
+	AbsoLute: {
+		DisplayName: Abso-Lute
+	}
+}
+
+Items: {
+	VibrantTomahawk: {
+		Tooltip: 重力の影響を受けない光彩のトマホークを投げる
+		DisplayName: 光彩のトマホーク
+	}
+
+	VibrantResonator: {
+		Tooltip:
+			'''
+			味方のヴォイドを20補充する
+			味方が静止している時は回復量が二倍になる
+			回復時効果は発動しない
+			'''
+		DisplayName: 光彩の共振器
+	}
+
+	UltrasonicBassBooster: {
+		Tooltip:
+			'''
+			最高にアンプされた敵を追尾するノイズを放出する
+			放出されるノイズには3色あり、それぞれが異なるデバフを付与する
+			黄色は霊液、ピンクはイルミネーション、紫は呪いを付与する
+			'''
+		DisplayName: 超音波低音ブースター
+	}
+
+	TwilightAscendance: {
+		Tooltip:
+			'''
+			ダメージを与える混沌のリングをまとめて発射する
+			まとまり状態を維持している間は混沌のリングに触れた味方を回復する
+			一定時間経過または味方回復後3つの通常のリングに分裂する
+			通常のリングは敵を追いかける
+			'''
+		DisplayName: トワイライトアセンダンス
+	}
+
+	TurboSlicer: {
+		Tooltip:
+			'''
+			ほとんどの大鎌より速く回転する
+			回転して少しした後チャージされる
+			チャージされた後、攻撃をやめると投げつける
+			投げ攻撃を行ってもソウルエッセンスは回収できない
+			ソウルエッセンスを回収するか投げ攻撃がヒットするとヴォイドが返還される
+			'''
+		DisplayName: ターボスライサー
+	}
+
+	TesseractTuner: {
+		Tooltip:
+			'''
+			全インスピレーション値を最大ヴォイドに加算する
+			すべての吟遊詩人武器がインスピレーションの代わりにヴォイドを消費するようになる
+			インスピレーション再生率のボーナスをヴォイド再生速度に変換する
+			拾ったインスピレーションノートが代わりにヴォイド回復する
+			その代わり、インスピレーションノートの防具関連の効果が得られなくなる
+			リソース強化のエンパワーメントがヴォイドのステータスにより強く影響する
+			すべての吟遊詩人武器が命中した敵から衝撃波を生み出す
+			弦楽器での攻撃のタイル命中時効果が、敵に命中した際も発動する
+			弦楽器の発射物が敵を貫通する毎に速度が20%増加する
+			打楽器の攻撃が当たった敵にハンマーを落下させる
+			電子楽器の発射物速度が大幅に増加する
+			「他の世界に通じるワームホールを作れるサウンド」
+			'''
+		DisplayName: 四次元チューナー
+	}
+
+	SubsonicTuner: {
+		Tooltip:
+			'''
+			ヴォイド系吟遊詩人武器を持っている時、拾ったインスピレーションノートがヴォイドを回復する
+			インスピレーションが枯渇した際にヴォイドを50消費し満タンまで補充できる
+			「あなたにインスピレーションを与えるものは?」「虚無。」
+			'''
+		DisplayName: 亜音速チューナー
+	}
+
+	SerpentsTongue: {
+		Tooltip:
+			'''
+			神聖ダメージが15%増加
+			クリティカルダメージが20%増加
+			敵が10%の確率でアイテムを2倍落とす
+			クリティカルで倒した場合は20%の確率になる
+			特定の攻撃が闇のエネルギーで強化される
+			神聖武器のライフコストが半分になるがライフを分け与える効果には適用されない
+			ヴォイド系神聖武器と回復呪文のヴォイド消費が半分になる
+			大鎌系の神聖武器で回収したソウルエッセンスがヴォイドを回復するようになる
+			ヴォイドかつ神聖系の大鎌から得られるソウルエッセンスはより多くヴォイドを回復する
+			「シャーーッ...」
+			'''
+		DisplayName: 大蛇の舌
+	}
+
+	SerpentFangScythe: {
+		Tooltip:
+			'''
+			貫通する力強い斬撃を行う
+			斬撃は同時に3発のウェーブブラストを発射する
+			一発目のウェーブは赤色、それ以外は緑色をしている
+			赤色のウェーブは負傷している仲間に飛んでいき回復する
+			回復時効果は発動しない
+			緑色のウェーブブラストは敵を追尾し連続ヒットする
+			ソウルエッセンス回収時にヴォイドを返還する
+			'''
+		DisplayName: 大蛇の牙の大鎌
+	}
+
+	SerpentCharmerofSage: {
+		Tooltip:
+			'''
+			敵を追尾するヘビを召喚する
+			正しいタイミングで攻撃することでダメージ、追尾距離、エンパワーメントレベルが増加する
+			この楽器の最初の攻撃で得られるエンパワーメントレベルは2で、それ以降の攻撃はレベル1になる
+			タイミングがズレた攻撃は上記のボーナスが大幅に減少しヴォイドを <VoidCost> 消費する
+			このペナルティは正しいタイミングでの攻撃回数により軽減される
+			以上のボーナスは武器を持ち替えても持続するが持ち替え後は徐々に減衰していく
+			Heart Plus Upによる"Serpent of Sage"を参考にしている
+			'''
+		DisplayName: 賢者の蛇操笛
+	}
+
+	Serpentbite: {
+		Tooltip:
+			'''
+			衝撃時に亜空の雷を生成する
+			クリティカル攻撃は雷を二回生成する
+			'''
+		DisplayName: サーペントバイト
+	}
+
+	RingofRest: {
+		Tooltip: クリティカル時にインスピレーションを返還する
+		DisplayName: 休息の指輪
+	}
+
+	PromiseofDemise: {
+		Tooltip:
+			'''
+			<left> 長押しで根絶やしのビームをチャージする
+			その後 <left> を離して発射する
+			壁を貫通する
+			「千からなる魂により動作する」
+			'''
+		DisplayName: 終焉の契り
+	}
+
+	PhaseKarambit: {
+		Tooltip:
+			'''
+			自身のコピーを召喚する混沌のカランビットを回す
+			コピーは最も近い敵に向かって飛んでいく
+			「とあるコミュニティではとても高く売れそうだ」
+			'''
+		DisplayName: フェーズカランビット
+	}
+
+	InfrasonicTuner: {
+		Tooltip:
+			'''
+			ヴォイド系吟遊詩人武器を持っている時、インスピレーションノートを拾うとヴォイドを回復する
+			インスピレーションが枯渇した際にヴォイドを25消費し満タンまで補充できる
+			「微かなバックグラウンドノイズの力を活用しよう！」
+			'''
+		DisplayName: 超低音波チューナー
+	}
+
+	HypersonicTuner: {
+		Tooltip:
+			'''
+			全インスピレーション値を最大ヴォイドに加算する
+			すべての吟遊詩人武器がインスピレーションの代わりにヴォイドを消費するようになる
+			インスピレーション再生率のボーナスをヴォイド再生速度に変換する
+			拾ったインスピレーションノートが代わりにヴォイド回復する
+			その代わり、インスピレーションノートの防具関連の効果が得られなくなる
+			リソース強化のエンパワーメントがヴォイドのステータスにより強く影響する
+			「可聴音域を超えた音の力を活用しよう！」
+			'''
+		DisplayName: 超音波チューナー
+	}
+
+	GoopwoodWiggle: {
+		Tooltip:
+			'''
+			演奏時に2本の色違いのウネウネしたノイズを発射する
+			この2つは一定距離移動するか、少しした後プレイヤーの元に返ってくる
+			'''
+		DisplayName: グープウッドのピロピロ笛
+	}
+
+	GoopwoodSplit: {
+		Tooltip:
+			'''
+			敵命中時に分裂する
+			クリティカル時にはよりたくさん分裂する
+			'''
+		DisplayName: グープウッドスプリット
+	}
+
+	GoopwoodReap: {
+		Tooltip: いろんな場所に飛び回るゼラチンボールを3個発射する
+		DisplayName: グープウッドの鎌
+	}
+
+	ForbiddenMaelstrom: {
+		Tooltip:
+			'''
+			呪われたノコギリブレードを投げ敵を細断する
+			命中時にダメージを与える小規模のメイルストロームを発生させる
+			'''
+		DisplayName: 禁断のメイルストローム
+	}
+
+	DualStylophone: {
+		Tooltip:
+			'''
+			二本の光彩のタッチペンを発射する
+			タッチペンは壁を数タイルすり抜ける
+			'''
+		DisplayName: デュアルスタイロフォン
+	}
+
+	DeathThroesThrows: {
+		Tooltip:
+			'''
+			カーソルの方向に連打パンチする
+			「こいつ'ら'をキャッチする方法を学んだほうがいい」
+			'''
+		DisplayName: デス・スローズ・スロウ
+	}
+
+	CursedAnkhStaff: {
+		Tooltip:
+			'''
+			カーソルに追従する呪われたアンクを召喚する
+			アンクは近くの敵をつるのムチで攻撃する
+			ダメージを与えた時、近くの味方を回復する
+			'''
+		DisplayName: 呪われたアンクの杖
+	}
+
+	ChoirofOne: {
+		Tooltip:
+			'''
+			<left> で敵を追尾する二重らせんを発射する
+			<right> で音速を超える音のビームを素早く発射する
+			正しいタイミングで攻撃することでダメージ、追尾距離、エンパワーメントレベルが増加する
+			この楽器の最初の攻撃で得られるエンパワーメントレベルは2で、それ以降の攻撃はレベル1になる
+			タイミングがズレた攻撃は上記のボーナスが大幅に減少しヴォイドを <VoidCost> 消費する
+			このペナルティは正しいタイミングでの攻撃回数により軽減される
+			以上のボーナスは武器を持ち替えても持続するが持ち替え後は徐々に減衰していく
+			命中した敵をチューニングし、受けるダメージを15%増加させる
+			「声、選択、招待状...」
+			'''
+		DisplayName: 孤独の合唱
+	}
+
+	BladedSnowflake: {
+		Tooltip:
+			'''
+			ヒット時に分裂しナイフになるブレードが付いた雪の結晶を投げる
+			クリティカル時にプレイヤーの周りを回る追加のスノーフレークが出現する
+			この追加のスノーフレークは他の武器を使った際に発射される
+			'''
+		DisplayName: ブレードスノーフレーク
+	}
+
+	AncientHarp: {
+		Tooltip:
+			'''
+			跳ねるキーストーンエネルギーの流体を放つ
+			弦楽器の跳ね返りボーナスが増加しない
+			その代わりに発射物がより長く持続する
+			「キーストーンの欠片が音に不可解な反応をする、だから」
+			'''
+		DisplayName: 古代のハープ
+	}
+
+	AbsoLute: {
+		Tooltip:
+			'''
+			星のような軌道の完全和音を放つ
+			「アブソ"リュート"的薄さ」
+			'''
+		DisplayName: アブソリュート
+	}
+}
+
+Toggler: {
+	GildedBladeWingsFlight: 光の翼
+	SubspaceBootsDash: 亜空のダッシュ
+}
+
+ItemDescriptions: {
+	VoidRadiantWeapon: 消費ヴォイド {0} ＆消費ライフ {1}
+	TerrariumParticleSprinters: 接地中にダブルタップすると前方に爆進しより速い速度で加速する
+	SoulCharm: <Replace>0 クリティカル攻撃がライフを吸収、ヴォイドを再生、マナを回復、インスピレーションを返還する
+	SafetySwitch: インベントリ内で機能する
+	InfrasonicTunerExtras:
+		'''
+		さらに、敵に向かって呪いの音符を発射する闇の精霊を召喚する
+		呪いの音符は弦楽器と管楽器のステータスで強化される
+		さらに追加で、吟遊詩人武器がインクを漏らすようになる
+		漏れたインクは持っている武器のステータスに応じてスケールし、ヒットした敵を油まみれにする
+		'''
+	HarvestersScythe:
+		'''
+		大鎌系の神聖武器で回収したソウルエッセンスがヴォイドを回復するようになる
+		ヴォイドかつ神聖系の大鎌から得られるソウルエッセンスはより多くヴォイドを回復する
+		'''
+	FoggyClairvoyance: 防具セット、アクセサリー、自己蘇生のクールダウンデバフには効果がない
+	DemonTongue: ヴォイド系神聖武器と回復呪文のヴォイド消費が半分になる
+	BagOfCharms: <Replace>2 クリティカル攻撃がライフを吸収、ヴォイドを再生、マナを回復、インスピレーションを返還する
+}
+

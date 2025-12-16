@@ -1,38 +1,170 @@
-DefaultStealthStrikeTooltip: ステルス攻撃はダメージが増加し、飛行速度が上昇する
+Projectiles: {
+	TidalWaveWhirlpool: {
+		DisplayName: タイドウェーブ
+	}
 
-DefaultStealthStrikeTooltipDamage: ステルス攻撃はダメージが75%増加する
+	RogueSpectreBlast: {
+		DisplayName: スペクトルブラスト
+	}
 
-DefaultStealthStrikeTooltipVelocity: ステルス攻撃は速度が75%増加する
+	FireAxeStealthPro: {
+		DisplayName: ステルスファイアアックス
+	}
+}
 
-CrumblingStrikeTooltip: ステルス攻撃はダメージが増加し、5秒間「老朽化」を付与する
+Configs: {
+	TooltipOverrideStyle: {
+		Custom: {
+			Tooltip: ""
+			Label: カスタム
+		}
 
-CrunchStrikeTooltip: ステルス攻撃はダメージが増加し、5秒間「アーマーブレイク」を付与する
+		Kinetic: {
+			Tooltip: ""
+			Label: Kinetic
+		}
+
+		Malevolent: {
+			Tooltip: ""
+			Label: Malevolent
+		}
+
+		Rogue: {
+			Tooltip: ""
+			Label: ローグ
+		}
+
+		Thrower: {
+			Tooltip: ""
+			Label: 投擲
+		}
+
+		Tooltip: ""
+	}
+
+	ThrowerModConfig: {
+		LegacyVanillaThrowerWeapons: {
+			Label: レガシーバニラ投擲武器
+			Tooltip: 従来の投擲武器だった通常遠距離武器を投擲武器に変換するかどうかを切り替える
+		}
+
+		TagB: {
+			Tooltip: ""
+			Label: Tag B
+		}
+
+		TagG: {
+			Tooltip: ""
+			Label: Tag G
+		}
+
+		TagR: {
+			Tooltip: ""
+			Label: Tag R
+		}
+
+		ThoriumClassTag: {
+			Tooltip: アイテムのツールチップ上部に表示されるクラスタグを切り替える
+			Label: クラスタグ
+		}
+
+		CustomTooltipOverride: {
+			Tooltip:
+				'''
+				クラスダメージ表記をカスタムできる
+				正しい大文字表記でクラス名を入力すること（例：Thrower）
+				'''
+			Label: カスタムツールチップ上書き
+		}
+
+		StealthStrikes: {
+			Tooltip:
+				'''
+				非Calamity由来のアイテムにステルス攻撃を追加する
+				Calamityが有効でない場合、この設定は無効になる
+				'''
+			Label: ステルス攻撃
+		}
+
+		B: {
+			Tooltip: ""
+			Label: B
+		}
+
+		G: {
+			Tooltip: ""
+			Label: G
+		}
+
+		R: {
+			Tooltip: ""
+			Label: R
+		}
+
+		TooltipOverride: {
+			Tooltip: クラス名をサポートされている任意のクラス、または手動で設定したカスタム名に変更できる。
+			Label: クラス名とツールチップの上書き
+		}
+
+		SacredTools: {
+			Tooltip: Vitality ModShadows of AbaddonのRevenantクラスとの統合を有効にする。
+			Label: Shadows of Abaddon
+		}
+
+		Vitality: {
+			Tooltip: Vitality ModのBlood Hunterクラスとの統合を有効にする。
+			Label: Vitality
+		}
+
+		Calamity: {
+			Tooltip: Calamity ModのRogueクラスとの統合を有効にする。
+			Label: Calamity
+		}
+
+		Vanilla: {
+			Tooltip: Thorium ModのThrowerクラスとの統合を有効にする。
+			Label: Thorium
+		}
+
+		Headers: {
+			ClassTag: クラスタグ
+			ColoredDamageType: ダメージタイプの色分け
+			General: 全般
+		}
+
+		DisplayName: 投擲Mod設定
+	}
+}
+
+ClassTag: -{0} Class-
+
+CustomName: "{0} ダメージ"
+
+DamageClasses: {
+	UnitedModdedThrower: {
+		DisplayName: {
+			kinetic: kinetic damage
+			malevolent: malevolent damage
+			rogue: ローグダメージ
+			thrower: 投擲ダメージ
+			Kinetic: kinetic damage
+			Malevolent: malevolent damage
+			Rogue: ローグダメージ
+			Thrower: 投擲ダメージ
+			3: kinetic damage
+			2: malevolent damage
+			1: ローグダメージ
+			0: 投擲ダメージ
+		}
+	}
+}
 
 ThoriumStealthStrike: {
-	CactusNeedle: ステルス攻撃は3本の針を扇状に投げる
-	IcyTomahawk: ステルス攻撃は持続時間と貫通力が増加したトマホークを4本投げる
-	ZephyrRuin: ステルス攻撃は必ずクリティカルになる強化された槍を投げる
-	ClockworkBomb: ステルス攻撃はより大きく、長く持続するダメージエリアを生成する
-	SoulBomb: ステルス攻撃は爆発時に追尾するソウルの群れを発生させる
-	PlayingCard: ステルス攻撃は爆発する5枚の追尾するカードを投げる
-	Soulslasher: ステルス攻撃は敵に命中後も積極的に追尾する
-	WhiteDwarfCutter: ステルス攻撃時に閃光を発生させ、命中した対象の最大体力の0.1%のダメージを与える
-	CaptainsPoignard: ステルス攻撃は6本の短剣を投げ、プレイヤーに10秒間攻撃速度上昇を付与する
-	SoftServeSunderer: ステルス攻撃は命中した敵の上からコーンの雨を降らせる
-	ShadeShuriken: ステルス攻撃は大きく速い手裏剣を投げ、貫通力も増加する
-	LodestoneJav: ステルス攻撃は命中した敵から大地を噴出させ、「ひび割れ」を付与する
-	ValadiumThrowingAxe: ステルス攻撃は敵に飛ぶ斧のリングを生成する
-	ChlorophyteTomahawk: ステルス攻撃は持続時間が延び、貫通力が増加し、持続中に追尾する胞子を生成する
-	FireAxe:
+	TidalWave:
 		'''
-		「これを持っているときは峡谷に近づかないほうがいい…」
-		ステルス攻撃は幻影の斧を召喚し、命中した敵を切り裂く
-		'''
-	TerraKnife:
-		'''
-		左クリックで素早くテラダガーを投げる
-		右クリックで対象に突き刺さり、継続的にダメージを与えるテラナイフを投げる
-		ステルス攻撃ではダガーとナイフの両方を投げ、ナイフ命中時に斬撃の連撃を発生させる
+		「潮流の怒りで敵を押し流せ...」
+		巨大な水の手裏剣を投げ、小さな波を放つ
+		ステルス攻撃は手裏剣を追尾する潮流を発生させ、敵を引き寄せる
 		'''
 	GelGlove:
 		'''
@@ -40,138 +172,48 @@ ThoriumStealthStrike: {
 		チャージすることでダメージ、跳ね返り回数、サイズが増加する
 		ステルス攻撃は移動中に近くの敵へ手裏剣を放つ
 		'''
-	TidalWave:
+	TerraKnife:
 		'''
-		「潮流の怒りで敵を押し流せ...」
-		巨大な水の手裏剣を投げ、小さな波を放つ
-		ステルス攻撃は手裏剣を追尾する潮流を発生させ、敵を引き寄せる
+		左クリックで素早くテラダガーを投げる
+		右クリックで対象に突き刺さり、継続的にダメージを与えるテラナイフを投げる
+		ステルス攻撃ではダガーとナイフの両方を投げ、ナイフ命中時に斬撃の連撃を発生させる
 		'''
+	FireAxe:
+		'''
+		「谷底に落とさないように気をつけろ...」
+		ステルス攻撃は幻影の斧を召喚し、命中した敵を切り裂く
+		'''
+	DurasteelThrowingSpear: ステルス攻撃は貫通力の高い槍を3本放ち、命中時に敵をスタンさせる
+	SteelThrowingAxe: ステルス攻撃は斧を3本ばら撒き、命中時に敵をスタンさせる
+	AquaiteKnife: ステルス攻撃は命中した敵から外側へ高貫通の波を刻み出す
+	MeteoriteClusterBomb: ステルス攻撃は自身をさらに分裂させ、連鎖的な爆発を起こす
+	GoblinWarSpear: ステルス攻撃は命中時に3～4本のイチイ材の破片へ砕け、必ず裂傷を与える
+	EnchantedKnife: ステルス攻撃は命中時、空から星を呼び寄せて敵を撃ち抜く
+	WackWrench: ステルス攻撃はより大きなレンチを投げ、ブロックを貫通し、敵に当たった後その場に留まる
+	DraculaFang: ステルス攻撃は4本の牙を扇状に放ち、ライフを吸収する
+	ChlorophyteTomahawk: ステルス攻撃は持続時間が延び、貫通力が増加し、持続中に追尾する胞子を生成する
+	ValadiumThrowingAxe: ステルス攻撃は敵に飛ぶ斧のリングを生成する
+	LodestoneJav: ステルス攻撃は命中した敵から大地を噴出させ、「ひび割れ」を付与する
+	ShadeShuriken: ステルス攻撃は大きく速い手裏剣を投げ、貫通力も増加する
+	SoftServeSunderer: ステルス攻撃は命中した敵の上からコーンの雨を降らせる
+	CaptainsPoignard: ステルス攻撃は6本の短剣を投げ、プレイヤーに10秒間攻撃速度上昇を付与する
+	WhiteDwarfCutter: ステルス攻撃時に閃光を発生させ、命中した対象の最大体力の0.1%のダメージを与える
+	Soulslasher: ステルス攻撃は敵に命中後も積極的に追尾する
+	PlayingCard: ステルス攻撃は爆発する5枚の追尾するカードを投げる
+	SoulBomb: ステルス攻撃は爆発時に追尾するソウルの群れを発生させる
+	ClockworkBomb: ステルス攻撃はより大きく、長く持続するダメージエリアを生成する
+	ZephyrRuin: ステルス攻撃は必ずクリティカルになる強化された槍を投げる
+	IcyTomahawk: ステルス攻撃は持続時間と貫通力が増加したトマホークを4本投げる
+	CactusNeedle: ステルス攻撃は3本の針を扇状に投げる
 }
 
-DamageClasses: {
-	UnitedModdedThrower: {
-		DisplayName: {
-			0: 投擲ダメージ
-			1: ローグダメージ
-			2: malevolent damage
-			3: kinetic damage
-			Thrower: 投擲ダメージ
-			Rogue: ローグダメージ
-			Malevolent: malevolent damage
-			Kinetic: kinetic damage
-			thrower: 投擲ダメージ 
-			rogue: ローグダメージ
-			malevolent: malevolent damage 
-			kinetic: kinetic damage
-		}
-	}
-}
+CrunchStrikeTooltip: ステルス攻撃はダメージが増加し、5秒間「アーマーブレイク」を付与する
 
-CustomName: "{0} ダメージ"
+CrumblingStrikeTooltip: ステルス攻撃はダメージが増加し、5秒間「老朽化」を付与する
 
-Configs: {
-	ThrowerModConfig: {
-		DisplayName: 投擲Mod設定
+DefaultStealthStrikeTooltipVelocity: ステルス攻撃は速度が75%増加する
 
-		Headers: {
-			General: 全般
-			ColoredDamageType: ダメージタイプの色分け
-		}
+DefaultStealthStrikeTooltipDamage: ステルス攻撃はダメージが75%増加する
 
-		Vanilla: {
-			Label: Thorium
-			Tooltip: Thorium ModのThrowerクラスとの統合を有効にする。
-		}
+DefaultStealthStrikeTooltip: ステルス攻撃はダメージが増加し、飛行速度が上昇する
 
-		Calamity: {
-			Label: Calamity
-			Tooltip: Calamity ModのRogueクラスとの統合を有効にする。
-		}
-
-		Vitality: {
-			Label: Vitality
-			Tooltip: Vitality ModのBlood Hunterクラスとの統合を有効にする。
-		}
-
-		SacredTools: {
-			Label: Shadows of Abaddon
-			Tooltip: Vitality ModShadows of AbaddonのRevenantクラスとの統合を有効にする。
-		}
-
-		TooltipOverride: {
-			Label: クラス名とツールチップの上書き
-			Tooltip: クラス名をサポートされている任意のクラス、または手動で設定したカスタム名に変更できる。
-		}
-
-		R: {
-			Label: R
-			Tooltip: ""
-		}
-
-		G: {
-			Label: G
-			Tooltip: ""
-		}
-
-		B: {
-			Label: B
-			Tooltip: ""
-		}
-
-		StealthStrikes: {
-			Label: ステルス攻撃
-			Tooltip:
-				'''
-				非Calamity由来のアイテムにステルス攻撃を追加する
-				Calamityが有効でない場合、この設定は無効になる
-				'''
-		}
-
-		CustomTooltipOverride: {
-			Label: カスタムツールチップ上書き
-			Tooltip:
-				'''
-				クラスダメージ表記をカスタムできる
-				正しい大文字表記でクラス名を入力すること（例：Thrower）
-				'''
-		}
-	}
-
-	TooltipOverrideStyle: {
-		Tooltip: ""
-
-		Thrower: {
-			Label: 投擲
-		}
-
-		Rogue: {
-			Label: ローグ
-		}
-
-		Malevolent: {
-			Label: Malevolent
-		}
-
-		Kinetic: {
-			Label: Kinetic
-		}
-
-		Custom: {
-			Label: カスタム
-		}
-	}
-}
-
-Projectiles: {
-	FireAxeStealthPro: {
-		DisplayName: ステルスファイアアックス
-	}
-
-	RogueSpectreBlast: {
-		DisplayName: スペクトルブラスト
-	}
-
-	TidalWaveWhirlpool: {
-		DisplayName: タイドウェーブ
-	}
-}

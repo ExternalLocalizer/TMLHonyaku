@@ -1,6 +1,48 @@
+UI: {
+	NoRespawn: リスポーン不可：マルチプレイ({0})ではボス1体につき1回のみ！
+	NoRespawn2: リスポーン不可：マルチプレイ({1})ではボス1体につき{0}回まで！
+	NoRespawn3: リスポーン不可：マルチプレイ({0})ではボス戦中のリスポーンはなし！
+	NoRespawn4: リスポーン不可：マルチプレイではボス戦中のリスポーンはなし！
+	NoRespawn5: リスポーン不可：マルチプレイではボス1体につき1回のみ！
+	NoRespawn6: リスポーン不可：マルチプレイではボス1体につき{0}回まで！
+	Expert: Expert Mode
+	Master: Master Mode
+	Legendary: Legendary Mode
+	Revengence: Revengence Mode
+	MRevengence: Master-Revengence Mode
+	LRevengence: Legendary-Revengence Mode
+	Death: Death Mode
+	MDeath: Master-Death Mode
+	LDeath: Legendary-Death Mode
+	Infernum: Infernum Mode
+	MInfernum: Master-Infernum Mode
+	LInfernum: Legendary-Infernum Mode
+	Primordial: Primodrial Mode
+	LPrimoridal: Legendary-Primordial Mode
+}
+
+DifficultyUI: {
+	Name: Ragnarok
+	ShortDescription:
+		'''
+		[c/B32E81:Infernumの極限版であり、「Infernal Eclipse of Ragnarok」を想定した難易度。]
+		[c/B32E81:このモードは「For the Worthy」シードとは併用できない。]
+		'''
+	ExpandedDescription:
+		'''
+		[c/B32E81:ワールド難易度をマスターに設定し、Infernal modeを有効化する。]
+		[c/B32E81:有効化後は、Calamityの難易度スライダーからマスターモードを解除できなくなる。]
+		[c/B32E81:敵やボスは非常に高い基礎ステータスを持ち、マルチプレイではさらに増加する。]
+		[c/FF0055:あなたは「Infernal Eclipse of Ragnarok」を制することができるか？]
+
+		'''
+	InfernumText: 地獄の蝕が昇った...
+	InfernumText2: また一人、値しない挑戦者が去っていった。
+}
+
 WelcomeMessage: {
 	Welcome: Infernal Eclipse of Ragnarok Mod Packへようこそ！
-	TBRNotice: 注意：Thorium Bosses Reworkedが有効です！互換性設定でHP・ダメージ・速度倍率を1に設定してください（難易度を上げたい場合を除く）。このModは現在の難易度に応じて自動でThoriumボスを調整します。
+	TBRNotice: 注意：Thorium Bosses Reworkedが有効です！互換性設定でライフ・ダメージ・速度倍率を1に設定してください（難易度を上げたい場合を除く）。このModは現在の難易度に応じて自動でThoriumボスを調整します。
 	TBRWarning: 警告：Thorium Bosses Reworkedが無効です！このModはThoriumボスのバランスをInfernum ModeやCalamityに合わせて調整するため、導入を強く推奨します。
 	RagWarning: 警告：Ragnarokが無効です！このModがないとThoriumとCalamityの連携がうまく動作しない可能性があります。完全な体験のため有効化を強く推奨します。
 	EventTrophyNotice: 注意：More Trophies and Relicsが無効です！このModなしでは、バニラ・Calamity・Infernum以外のボスにCalamityの設定やInfernumのイントロが存在しない場合があります。完全かつバランスの取れた体験のため、有効化を強く推奨します。
@@ -12,20 +54,62 @@ WelcomeMessage: {
 	InfernumForced: この世界に地獄の力が注ぎ込まれた...
 	RagnarokBalance: 注意：武器のバランスを意図した通りに保つため、「Generic Weapon Tweaks」のRagnarok MOD設定をOFFにしてください。変更が重複し、武器が想定を大幅に超える強さになります。
 	RagnarokRework: 注意：Ragnarok modとThorium Bosses Reworkedの両方が有効になっていることが検出されました。意図した難易度でプレイするには、Ragnarok Boss Config内の項目をThorium Bosses Reworkedに切り替えてください。
+	GulaVaultMessage: 開かない。より強大な悪をまず倒さねばならないようだ...
 }
 
 ItemTooltip: {
+	BasicDamage: 基礎ダメージ
+	OmniShield: -Omni Shield-
 	Playtester: - Playtester Item -
 	Contributor: - Contributor Item -
+	SBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるビームをチャージする
+	NBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるネビュラを放つ
+	MBeamUsage: 左クリックを押し続けると、神話遠距離ダメージを与えるエクソビームを発射する
+	SFlight: 右クリックを押し続けると、高速で無制限の飛行が可能になる
+	StarlitForgeExtra: さらに不思議なことに、特定のアイテムさえも複製できるようだ...
+	BladecrestNerf: 邪悪な力が力の一部を吸い取っている...
+	EclipseFang: "[IEoR]: 武器エンパワーメントは有効です。"
+	ScytheThrow:
+		'''
+		右クリックで鎌を投げると、戻ってくる途中で軌道が曲がる
+		投げられた鎌はダメージが20%減少する
+		'''
+	PhoenixStaff:
+		'''
+		右クリックで炎の奔流を放ち、聖なる光を付与する
+		聖なる光を付与された敵への全ダメージが15%増加する
+		'''
+	HolyGlare:
+		'''
+		鎌で攻撃した敵は聖なる光が付与される
+		聖なる光が付与された敵への全ダメージが15%増加する
+		'''
 	SandstonePortalDeviceInfo:
 		'''
 		忘れられた闘技場へ転送する
 		祭壇ポータルが起動している時のみ使用可能
 		'''
 	SandstonePortalDeviceInfoMP: 忘れられた闘技場のポータルが起動後、遺された臣下、アルガスを召喚する（※現在API未使用）
+	GoldenBatRework:
+		'''
+		「正気じゃない...イカれてるのか！？」
+		敵からのコイン+30
+		時間経過で継続的にコインを生成する
+		Revengeanceドロップ
+		'''
+	BloodstainedCoin:
+		'''
+		クリティカルヒットは50％の確率で10の追加ダメージを与える
+		ダメージを受けると75％の確率で出血状態になる
+		'''
+	PutridCoin:
+		'''
+		クリティカルヒットは50％の確率で10の追加ダメージを与える
+		ダメージを受けると75％の確率で毒状態になる
+		'''
 
 	MergedCraftingTreeTooltip: {
-		Gilded: Effects of the Gilded Blade Wings
+		Gilded: 黄金の刃の翼の効果
 		TPS:
 			'''
 			飛行、高速移動、氷上での機動力を付与
@@ -40,53 +124,54 @@ ItemTooltip: {
 			'''
 		BagOfAmmoConsume: 20％の確率で弾薬を消費しない
 		BagOfAmmoOther: 敵に命中したときや、敵を撃破時に弾薬を消費しないことがある
-		InfintyBag: If accessory visablity is on, you consume void instead of ammunition
+		InfintyBag: アクセサリー表示がオンの場合、弾薬の代わりにヴォイドを消費する
 		SerpentsTongue:
 			'''
-			15% increased radiant damage
-			20% increased critical strike damage
-			Enemies have a 10% chance to drop double the loot
-			20% when killed by critical strikes
-			Empowers certain attacks with dark energy
-			Halves radiant life costs but not its life transferring effect
-			Halves the void cost of void-radiant weapons and healing spells
-			Soul essence from radiant scythes will also recover some void
-			Soul essence from void-radiant scythes recover even more void
+			神聖ダメージが15%増加
+			クリティカルダメージが20%増加
+			敵は10%の確率で戦利品を2倍ドロップする
+			クリティカルで倒した場合は20%の確率でドロップが倍増
+			一部の攻撃が闇の力で強化される
+			神聖のライフ消費が半減するが、回復効果はそのまま
+			ヴォイド・神聖武器や回復魔法のヴォイド消費が半分になる
+			神聖武器の鎌で得られるソウルエッセンスはヴォイドを少し回復する
+			ヴォイド・光輝属性の鎌なら、ソウルエッセンスがさらに多くヴォイドを回復する
 			'''
 		ContractNerf: 回復魔法が2ライフ追加回復する
 		Tuner1:
 			'''
-			The effects of this are based on accessory visabilty
-			If visability is on the following effects are applied:
-			Adds all inspiration to maximum void
-			All bard weapons use void instead of inspiration
-			Inspiration regeneration bonuses are converted to void regeneration speed
-			Picking up inspiration notes heal void instead
-			However, inspiration notes no longer grant their armor-related effects
-			Resource-boosting empowerments are much stronger on void stats
-			Otherwise:
-			Picking up inspiration notes heal void when holding a void-bard weapon
-			Upon running out of inspiration, consume 25 void to refill it all back up
-			In addition the following effects are always active:
-			All bard weapons create a shockwave on enemy hits
-			String instrument attacks trigger their tile hit effects on enemy hits
-			String instrument projectiles increase in speed by 20% every pierce
-			Percussive instrument attacks summon a falling hammer on enemy hits
-			Electronic instrument projectiles are significantly much faster
+			この効果はアクセサリーの表示状態に基づく
+			表示がオンの場合、以下の効果が適用される:
+			全てのインスピレーションが最大ヴォイドに加算される
+			全ての吟遊詩人武器はインスピレーションではなくヴォイドを使用する
+			インスピレーション再生ボーナスはヴォイド再生速度に変換される
+			インスピレーションノートを拾うとヴォイドが回復する
+			ただしインスピレーションノートは防具関連の効果を付与しなくなる
+			リソース強化のエンパワーメントはヴォイドステータスに対してより強力になる
+			それ以外の場合:
+			ヴォイド系吟遊詩人武器を持っているとき、インスピレーションノートを拾うとヴォイドが回復する
+			インスピレーションが尽きると、25ヴォイドを消費して全てを再充填する
+			さらに以下の効果は常時発動する:
+			全ての吟遊詩人武器は敵に命中すると衝撃波を発生させる
+			弦楽器の攻撃は敵命中時にタイル効果を発動する
+			弦楽器の投射物は貫通ごとに速度が20%上昇する
+			打楽器の攻撃は敵命中時に落下するハンマーを召喚する
+			電子楽器の投射物は大幅に高速化される
+
 			'''
 		Tuner2:
 			'''
-			The effects of this are based on accessory visabilty
-			If visability is on the following effects are applied:
-			Adds all inspiration to maximum void
-			All bard weapons use void instead of inspiration
-			Inspiration regeneration bonuses are converted to void regeneration speed
-			Picking up inspiration notes heal void instead
-			However, inspiration notes no longer grant their armor-related effects
-			Resource-boosting empowerments are much stronger on void stats
-			Otherwise:
-			Picking up inspiration notes heal void when holding a void-bard weapon
-			Upon running out of inspiration, consume 25 void to refill it all back up
+			この効果はアクセサリーの表示状態に基づく
+			表示がオンの場合、以下の効果が適用される:
+			全てのインスピレーションが最大ヴォイドに加算される
+			全ての吟遊詩人武器はインスピレーションではなくヴォイドを使用する
+			インスピレーション再生ボーナスはヴォイド再生速度に変換される
+			インスピレーションノートを拾うとヴォイドが回復する
+			ただし、インスピレーションノートは防具関連の効果を付与しなくなる
+			リソース強化のエンパワーメントはヴォイドステータスに対してより強力になる
+			それ以外の場合:
+			         ヴォイド系吟遊詩人武器を持っているとき、インスピレーションノートを拾うとヴォイドが回復する
+			         インスピレーションが枯渇すると、25のヴォイドを消費して全て回復する
 			'''
 		HypersonicTooltip: 「常識を超えた音の力を呼び起こせ！」
 		4DTooltip: '''"他の世界へのワームホールを作り出す音"'''
@@ -129,8 +214,8 @@ ItemTooltip: {
 		ChiseledHidden: 隠れている間は飛び道具を無効化する
 		Olympian:
 			'''
-			Increases void gain by 2 and life regeneration by 1
-			Reduces damage taken by 7% and increases critical strike chance by 4%
+			ヴォイドの獲得量を2増加させ、ライフ回復量を1増加させる
+			受けるダメージを7%減少させ、クリティカルヒット発生率を4%増加させる
 			'''
 		Sweet1: 移動速度を上昇させ、被弾時にも効果を発揮する
 		Sweet2: 被弾時にハチを出現させ、さらに蜂蜜バフを付与する
@@ -139,19 +224,19 @@ ItemTooltip: {
 			'''
 			時間経過で最大20％の被ダメージ軽減を素早く獲得する
 			被弾すると一時的にこのボーナスが-10％まで減少する
-			このボーナスが0％を超えている間は、最大ライフ回復2と1ダメージ攻撃の無効化を得る
+			ボーナスが0％を超えている間、ライフ回復量を2増加させる
 			'''
 		DA:
 			'''
 			残り体力に応じて無敵時間を追加で付与する
-			この効果はHP満タン時で10フレーム、HP25％以下で40フレームまで増加する
+			この効果はライフ満タン時で10フレーム、ライフ25％以下で40フレームまで増加する
 			'''
 		Mantle: 10秒ごとに自身のダメージ系デバフを1つ解除
-		TerraDefend: HP25%以下で急速にライフ回復し、防御力上昇
+		TerraDefend: ライフが25%以下になると急速に回復し、防御力が上昇する
 		ScytheScale: DoG撃破まで成長を続ける
-		ScytheSummon: 召喚がある場合は与ダメージ減少
-		ScytheSummonOn: 召喚中は与ダメージ減少
-		OneirophobiaSummon: 右クリック長押しでルディック・インストゥルメントを召喚する
+		ScytheSummon: 召喚中はダメージ減少
+		ScytheSummonOn: 召喚中はダメージ減少
+		OneirophobiaSummon: 右クリック長押しでミニオンを召喚する
 		SoulEssence: ソウルエッセンスを素早く獲得する
 		Magneto: 地面にあるローグアイテムの回収範囲を拡大
 		Bone:
@@ -160,7 +245,7 @@ ItemTooltip: {
 			戦闘中以外は0.5秒ごとに1回のみ発動  
 			'''
 		Scuttler: ステルス攻撃の飛び道具が破壊されると宝石スパイクを生成
-		BloodyFilthy: ステルス攻撃時に防御貫通+8、ダメージ+8%、HPを2回復
+		BloodyFilthy: ステルス攻撃時に防御貫通+8、ダメージ+8%、ライフを2回復
 		NoExhaustion: 装備中は消耗を解除する
 		Prisma: 一定間隔で最大16防御力を無視する波動を放つ
 		Prisma2: 体力が低いほど多くの波動を放つ
@@ -191,8 +276,8 @@ ItemTooltip: {
 		CloverNerf: ライフ吸収効果は0.5秒のクールダウンがある
 		SpiritInsignia:
 			'''
-			Increases void gain by 1 and void regeneration speed by 25%
-			Doubles damage done to non-Lux spirit enemies
+			ヴォイドの獲得量を1増加させ、ヴォイドの再生速度を25%向上させる
+			ルクス以外の精霊への与ダメージを2倍にする
 			'''
 		AscendantInsignia:
 			'''
@@ -200,12 +285,40 @@ ItemTooltip: {
 			アセンダントの記章のキーを押すと昇華の力を得て、4秒間無限飛行が可能になる
 			昇華は40秒のクールダウンがある
 			'''
-		GildedVoid: Increases void drain by 3 while active
+		GildedVoid: 発動中はヴォイドの消耗を3増加させる
 		CalSoaringNerf: "[Calamity]: 無限飛行はできなくなった"
+		MonsterCharm: 戦闘中、防御貫通、防御力、およびライフ回復量が時間経過とともに増加する
+		GreedierRing:
+			'''
+			採掘速度が5%上昇し、クリティカル率が5%上昇する
+			ダメージを受けた時やヴォイドを得た時にコインを生成し、死亡してもコインを失わない
+			採掘したブロックからコインや沈殿ブロックなどの追加資源がドロップする可能性がある
+			'''
 	}
 
 	AmmoConversion: {
 		Mycelium: 菌糸の集中攻撃を放つ
+	}
+
+	WingInfo: {
+		5: ライフ自然回復がさらに5増加
+		10: ライフ自然回復がさらに10増加
+		FasterIvory: ホワイトドワーフアーマーを着用している間、フレアの発動速度が2倍になる
+		GelDash: ダッシュ能力を付与し、かつ他のダッシュを強化する
+	}
+
+	MythicTooltips: {
+		Base: -{0} Signature Weapon-
+		Argus: Argus'
+		Your: Your
+		Draedon: Draedon's
+		Solyn: Solyn's
+		Anahita: Anahita's
+		Amidias: Amidias'
+		CalClone: Shadow of Calamitas'
+		Cultist: The Lunatic Cultist's
+		ND: The Deity's
+		Mars: Mars'
 	}
 
 	AstrageldonRelic: {
@@ -226,33 +339,7 @@ ItemTooltip: {
 		この幸運がいつまでも続くと思わないことだ。
 		'''
 	NamelessRelic: 試練を乗り越えた。
-	AstralCommunicatorInfernum1: アストラゲルドンをアストラル汚染地帯に召喚する
-	AstralCommunicatorInfernum2: 次元を超えたスライムはまだ飢えているようだ...
-	BasicDamage: 基礎ダメージ
-	OmniShield: -Omni Shield-
-	SBeamUsage: 左クリックを押し続けると、神話魔法ダメージを与えるビームをチャージする
-	SFlight: 右クリックを押し続けると、高速で無制限の飛行が可能になる
-	ScytheThrow:
-		'''
-		右クリックで鎌を投げると、戻ってくる途中で軌道が曲がる
-		投げられた鎌はダメージが20%減少する
-		'''
-
-	WingInfo: {
-		5: ライフ自然回復がさらに5増加
-		10: ライフ自然回復がさらに10増加
-		FasterIvory: ホワイトドワーフアーマーを着用している間、フレアの発動速度が2倍になる
-	}
-
-	MythicTooltips: {
-		Base: -{0} Signature Weapon-
-		Argus: Argus'
-		Your: Your
-		Draedon: Draedon's
-		Solyn: Solyn's
-	}
-
-	NoxusRelic: 
+	NoxusRelic:
 		'''
 		もしかして、このアイテムをチートで出した？
 		それとも本当にワークショップにもうない俺の超マイナーなMODをインストールしたの？
@@ -282,9 +369,35 @@ ItemTooltip: {
 		神を求める者たちの軍勢が、君と永遠の間に立つ最後の壁だ。
 		新しいクラフト台を存分に活用しろ...
 		'''
+	AstralCommunicatorInfernum1: アストラゲルドンをアストラル汚染地帯に召喚する
+	AstralCommunicatorInfernum2: 次元を超えたスライムはまだ飢えているようだ...
 }
 
 Lore: {
+	Abom:
+		'''
+		三兄弟の次男で、私が見た中でも特に怠け者の一人だ。
+		アボミネーションは天候を完全に支配し侵入者を排除する力を持つが、本当に怠惰で、武器を自分の手に融合させてしまうほどだ。
+		彼の武器は魂そのものを分裂させる力を持ち、あらゆる超常現象を行使できる。
+		幸いにも彼はミュータントへの配慮から天界の攻撃を使わなかった。これがなければ君が勝つことは不可能だったかもしれない。
+		'''
+	Devi:
+		'''
+		三兄弟の末っ子で、かつ最弱。
+		旅の途中で珍しいモンスター素材を多数集めており、機嫌が良ければそれを他人に売ってくれる。
+		だが機嫌が悪いと、恋に狂った加虐性をむき出しにする。
+		デビアントは原初の光と純粋な愛の両方を使って呪文を唱え、邪悪で“生きている”斧を振るう。
+		君が彼女に勝ったとはいえ、彼は死を恐れているようには全く見えない。それどころか、ここまで全力で戦った姿はこれまで見たことがない。
+		'''
+	Mutant:
+		'''
+		三兄弟の長男で、最強。
+		弟達はミュータントを兄と呼ぶが、本人は性別を明かすことを拒んでいる。
+		彼は永遠の守護者で、究極の力の化身とされ、次元の裂け目の向こうの別世界から来たと信じられている。
+		君を除けば、テラリアの地に現れた中で最強クラスの存在であり、戦闘のあらゆる面を支配する力を持つ。
+		それでも彼は自ら戦うより世界の戦いを眺めることを好んでいた。
+		彼は常に強い者を探していると言っており、どうやらその相手を見つけたようだ。
+		'''
 	DylanLore:
 		'''
 		ふむ...その人物のことを知っているとは驚きだ。
@@ -297,6 +410,20 @@ Lore: {
 		君なら、きっと作り出せるだろう。
 
 		–続報をお楽しみに：Infernal Eclipse of Ragnarok–
+		'''
+	DylanSoltan:
+		'''
+		このメモを読んでいるあなたへ  
+		私は未来に「ソルタン」という名で呼ばれる人物が現れることを予見している  
+		多くの人は彼を厄介だと感じるだろう  
+		そのため、私はこのチップノートをあなたの役に立つように設計した  
+
+		彼の厄介な性質に対抗するため、このメモに付属しているマイクロチップは  
+		周囲の召喚パワーを他の力へ変換する機能を持っている  
+		さらに、あなたがソルタンをいじめることを完全に許可する  
+
+		私はこのチップノートを2つだけ作り、見つけた中で最も強力な2人に渡した  
+		もしあなたがそのうちの一人、あるいは別の誰かなら、この装置を賢く使ってほしい…
 		'''
 	MysteriousDiary:
 		'''
@@ -371,44 +498,6 @@ Lore: {
 		それは虚無を思わせるような生物発光を放っており...おそらく洞窟に秘められた虚無のエネルギーに惹かれて棲みついているのだろうか。
 		いずれにせよ、真相はわからない。
 		'''
-	Abom:
-		'''
-		三兄弟の次男で、私が見た中でも特に怠け者の一人だ。
-		アボミネーションは天候を完全に支配し侵入者を排除する力を持つが、本当に怠惰で、武器を自分の手に融合させてしまうほどだ。
-		彼の武器は魂そのものを分裂させる力を持ち、あらゆる超常現象を行使できる。
-		幸いにも彼はミュータントへの配慮から天界の攻撃を使わなかった。これがなければ君が勝つことは不可能だったかもしれない。
-		'''
-	Devi:
-		'''
-		三兄弟の末っ子で、かつ最弱。
-		旅の途中で珍しいモンスター素材を多数集めており、機嫌が良ければそれを他人に売ってくれる。
-		だが機嫌が悪いと、恋に狂った加虐性をむき出しにする。
-		デビアントは原初の光と純粋な愛の両方を使って呪文を唱え、邪悪で“生きている”斧を振るう。
-		君が彼女に勝ったとはいえ、彼は死を恐れているようには全く見えない。それどころか、ここまで全力で戦った姿はこれまで見たことがない。
-		'''
-	Mutant:
-		'''
-		三兄弟の長男で、最強。
-		弟達はミュータントを兄と呼ぶが、本人は性別を明かすことを拒んでいる。
-		彼は永遠の守護者で、究極の力の化身とされ、次元の裂け目の向こうの別世界から来たと信じられている。
-		君を除けば、テラリアの地に現れた中で最強クラスの存在であり、戦闘のあらゆる面を支配する力を持つ。
-		それでも彼は自ら戦うより世界の戦いを眺めることを好んでいた。
-		彼は常に強い者を探していると言っており、どうやらその相手を見つけたようだ。
-		'''
-	DylanSoltan:
-		'''
-		このメモを読んでいるあなたへ  
-		私は未来に「ソルタン」という名で呼ばれる人物が現れることを予見している  
-		多くの人は彼を厄介だと感じるだろう  
-		そのため、私はこのチップノートをあなたの役に立つように設計した  
-
-		彼の厄介な性質に対抗するため、このメモに付属しているマイクロチップは  
-		周囲の召喚パワーを他の力へ変換する機能を持っている  
-		さらに、あなたがソルタンをいじめることを完全に許可する  
-
-		私はこのチップノートを2つだけ作り、見つけた中で最も強力な2人に渡した  
-		もしあなたがそのうちの一人、あるいは別の誰かなら、この装置を賢く使ってほしい…
-		'''
 }
 
 LegendaryTooltip: {
@@ -428,10 +517,7 @@ Items: {
 
 	Swordofthe14thGlitch: {
 		DisplayName: 第14のグリッチの剣
-		Tooltip:
-			'''
-			「グリッチの真の力を解き放て！」
-			'''
+		Tooltip: 「グリッチの真の力を解き放て！」
 	}
 
 	BossRushTier6MusicBox: {
@@ -439,17 +525,14 @@ Items: {
 		DisplayName: オルゴール（ボスラッシュ - ティア6）
 	}
 
-	Weapons: {
-		Rogue: {
-			NovaBomb: {
-				Tooltip:
-					'''
-					紫色の灼熱のノヴァを放つ
-					「ウィロー、心配いらないよ、俺ひとりでいける」
-					'''
-				DisplayName: ノヴァボム
-			}
-		}
+	NovaBomb: {
+		DisplayName: ノヴァボム
+		Tooltip:
+			'''
+			旅人のもっとも神秘的な力を引き出し、爆発を放つ
+			右クリックでブラックホールを早めに収束させる
+			「心配するなウィロー、俺ひとりでいける」
+			'''
 	}
 
 	BossRushTierNamelessMusicBox: {
@@ -504,23 +587,35 @@ Items: {
 	}
 
 	ExoSights: {
-		DisplayName: Exo Sights
+		DisplayName: エクソサイト
 		Tooltip: ""
+		SOTSBardHealerTooltip:
+			'''
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、ダメージを与える火花を放ち、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナとインスピレーションを回復する
+			ライフ吸収には0.5秒のクールダウンがある
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
+			'''
 		ThoriumTooltip:
 			'''
-			Increases critical strike chance by 25%
-			Critical strikes deal 40 more damage, release a burst of damaging sparks, and may detonate enemies for 100% damage
-			Critical strikes steal life, regenerate void, and recover mana
-			Immunity to bleeding and poisoned debuffs, & grants night vision
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、ダメージを与える火花を放ち、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナを回復する
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
 			'''
 		DefaultTooltip:
 			'''
-			Increases critical strike chance by 25%
-			Critical strikes deal 40 more damage and may detonate enemies for 100% damage
-			Critical strikes steal life, regenerate void, and recover mana
-			Immunity to bleeding and poisoned debuffs, & grants night vision
+			クリティカル率が25%上昇
+			クリティカル時に追加で40ダメージを与え、敵を100%ダメージで爆発させることがある
+			クリティカル時にライフを吸収し、ヴォイドとマナを回復する
+			出血・毒のデバフに対して耐性を得る
+			暗視効果を付与
+
 			'''
-		Lore: After Erelian had obtained the Exo Prism from Draedon, he finnaly had everything to perfect his suit's spirit AI - and now the tyrant was finnally in his sights.
+		Lore: ドレイドンからエクソプリズムを得たことで、エレリアンはついにスーツの精神AIを完璧に仕上げる力を手にした...そして今、暴君を狙うその視界に捉えたのだ
 	}
 
 	Lore: {
@@ -529,31 +624,31 @@ Items: {
 		}
 
 		LorePolaris: {
-			DisplayName: Polaris 
+			DisplayName: ポラリス
 		}
 
 		LoreAdvisor: {
-			DisplayName: The Advisor 
+			DisplayName: アドバイザー
 		}
 
 		LoreGlowmoth: {
-			DisplayName: Glowmoth 
+			DisplayName: グロウモス
 		}
 
 		LoreLux: {
-			DisplayName: Lux 
+			DisplayName: ルクス
 		}
 
 		LorePharaoh: {
-			DisplayName: Pharaoh's Curse 
+			DisplayName: ファラオの呪い
 		}
 
 		LorePutrid: {
-			DisplayName: Putrid Pinky
+			DisplayName: 腐ったピンキー
 		}
 
 		LoreSerpent: {
-			DisplayName: Subspace Serpent
+			DisplayName: 亜空の大蛇
 		}
 
 		LoreProvi: {
@@ -690,32 +785,32 @@ Items: {
 	}
 
 	AdvisorRelic: {
-		DisplayName: Infernal Advisor Relic
+		DisplayName: アドバイザーのレリック
 		Tooltip: ""
 	}
 
 	ExcavatorRelic: {
-		DisplayName: Infernal Excavator Relic
+		DisplayName: エクスカベーターのレリック
 		Tooltip: ""
 	}
 
 	GlowmothRelic: {
-		DisplayName: Infernal Glowmoth Relic
+		DisplayName: グロウモスのレリック
 		Tooltip: ""
 	}
 
 	PolarisRelic: {
-		DisplayName: Infernal Polaris Relic
+		DisplayName: ポラリスのレリック
 		Tooltip: ""
 	}
 
 	PutridPinkyRelic: {
-		DisplayName: Infernal Putrid Pinky Relic
+		DisplayName: 腐ったピンキーのレリック
 		Tooltip: ""
 	}
 
 	SubspaceSerpentRelic: {
-		DisplayName: Infernal Subspace Serpent Relic
+		DisplayName: 亜空の大蛇のレリック
 		Tooltip: ""
 	}
 
@@ -805,21 +900,6 @@ Items: {
 		Lore: 「どうするつもりだ？俺を殺すのか？」
 	}
 
-	Genesis: {
-		DisplayName: Genesis
-		Tooltip: ""
-	}
-
-	NovaBomb: {
-		DisplayName: ノヴァボム
-		Tooltip:
-			'''
-			旅人のもっとも神秘的な力を引き出し、爆発を放つ
-			右クリックでブラックホールを早めに収束させる
-			「心配するなウィロー、俺ひとりでいける」
-			'''
-	}
-
 	CelestialIllumination: {
 		DisplayName: 天界の輝き
 		Tooltip: ""
@@ -854,6 +934,11 @@ Items: {
 		}
 
 		Lore: この書には宇宙の力が秘められている...
+	}
+
+	Genesis: {
+		DisplayName: Genesis
+		Tooltip: ""
 	}
 
 	ClamitasRelic: {
@@ -952,22 +1037,22 @@ Items: {
 	}
 
 	LuxRelic: {
-		DisplayName: Infernal Lux Relic
+		DisplayName: ルクスのレリック
 		Tooltip: ""
 	}
 
 	PharohsCurseRelic: {
-		DisplayName: Infernal Pharaoh's Curse Relic
+		DisplayName: ファラオの呪いのレリック
 		Tooltip: ""
 	}
 
 	CatalyzedCrystal: {
-		DisplayName: Catalyzed Crystal
+		DisplayName: 触媒の晶
 		Tooltip:
 			'''
-			A crystal created after the explosion of the Catalyst Bomb
-			Summons the Subspace Serpent when used in Hell
-			Not consumable
+			カタリスト爆弾の爆発後に生成されたクリスタル
+			地獄で使用すると亜空の大蛇を召喚する
+			消費されない
 			'''
 	}
 
@@ -995,6 +1080,19 @@ Items: {
 			ナフ・グリッチによって振るわれた武器
 			「この呪いを今度こそ終わらせる、ゼイン！」
 			'''
+	}
+
+	Weapons: {
+		Rogue: {
+			NovaBomb: {
+				Tooltip:
+					'''
+					紫色の灼熱のノヴァを放つ
+					「ウィロー、心配いらないよ、俺ひとりでいける」
+					'''
+				DisplayName: ノヴァボム
+			}
+		}
 	}
 
 	DreadnautilusRelic: {
@@ -1061,7 +1159,7 @@ Items: {
 			'''
 		I5:
 			'''
-			もはやクリティカルが発生しなくなる
+			クリティカルが発生しなくなる
 			受けるクリティカル率増加はダメージへの乗算的増加に変換される
 			'''
 		I6:
@@ -1087,6 +1185,63 @@ Items: {
 	InfernalTerraBladeRelic: {
 		DisplayName: テラブレードのレリック
 		Tooltip: ""
+	}
+
+	DemonicTome: {
+		DisplayName: 邪悪な書
+		Tooltip: ""
+	}
+
+	EmptyDemonicTome: {
+		DisplayName: 空の邪悪な書
+		Tooltip: ""
+	}
+
+	InfernalTwilight: {
+		DisplayName: Infernal Twilight
+		Tooltip:
+			'''
+			チームの全員、貢献者、プレイテスター、支えてくれた人々、
+			私たちにインスピレーションをくれた人たち、
+			そしてこのModを遊び続けてくれる全ての人たちに感謝！
+			（チーム全員を収めるにはスペースが足りませんでした...）
+			SHIFTでクレジット一覧を表示
+			'''
+	}
+
+	AbandonedWorkshop: {
+		DisplayName: 見捨てられた作業場
+		Tooltip: ゴブリン改造家の作業場の残骸だ。彼なら修理の助言をくれるかもしれない。
+	}
+
+	PrimordialOrchid: {
+		DisplayName: 原初の蘭
+		Tooltip: 原初の光を帯びた蘭。永劫の庭園に自生している
+	}
+
+	TinkerersRepairBlueprints: {
+		DisplayName: ゴブリン作業場の修理設計図
+		Tooltip:
+			'''
+			「縛られている間に、ほかのゴブリンたちが僕の作業場をなくしてしまったらしい。
+			　しかも今は、クトゥルフの化け物のどれかが持っている気がしてならない…
+			　もしそいつを倒して壊れた作業場を取り戻せたら、これで修理ができるようになるはずだ！」
+			'''
+	}
+
+	NebulaGigabeam: {
+		DisplayName: ネビュラ・ギガビーム
+		Tooltip: ""
+	}
+
+	ExoDisintegrator: {
+		DisplayName: エクソ・ディスインテグレーター
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: オルゴール（Infernal Eclipse of Ragnarok - タイトル）
+		Tooltip: Peter Fung作の「Teardrops of Dragonfire」を再生する
 	}
 }
 
@@ -1192,12 +1347,46 @@ Projectiles: {
 	CelestialIlluminationStar: {
 		DisplayName: Celestial Illumination Star
 	}
+
+	DemonicRune: {
+		DisplayName: Demonic Little Grey Cat Rune
+	}
+
+	ThoriumHeavyScytheSpark: {
+		DisplayName: Thorium Heavy Scythe Spark
+	}
+
+	NebulaBeam: {
+		DisplayName: Nebula Beam
+	}
+
+	NebulaChargeUp: {
+		DisplayName: Nebula Charge Up
+	}
+
+	DisintegratorBeam: {
+		DisplayName: Disintegrator Beam
+	}
+
+	DisintegratorChargeUp: {
+		DisplayName: Disintegrator Charge Up
+	}
 }
 
 DiaryTooltip:
 	'''
 	[c/E3AF40:「ギャラクティカ」の署名がある謎めいた日記...]
 	[c/BEBEBE:日記を開くには「左シフトキー」を押す]
+	'''
+
+BullyingTooltip:
+	'''
+	未使用の召喚スロット1つにつき召喚以外のダメージを2%増加
+	使用中の召喚スロット1つにつき召喚ダメージを10%減少
+	ムチは召喚ボーナスではなく近接ボーナスで強化される
+	ムチのダメージを10%増加
+	[c/E3AF40:ディランが設計したプログラムメモリー付きの紙切れ]
+	[c/BEBEBE:"左Shift"で裏面のメモを読む]
 	'''
 
 Configs: {
@@ -1222,6 +1411,7 @@ Configs: {
 			BalanceChanges: Modのバランス調整
 			Miscellaneous: その他
 			MultiplayerAdjustments: マルチプレイヤー調整
+			Main: Main
 		}
 
 		ThoriumBalanceChangess: {
@@ -1282,8 +1472,8 @@ Configs: {
 		}
 
 		SOTSThrowerToRogue: {
-			Tooltip: 非公式SOTSのバード・投擲・ヒーラーのvoid + 投擲アイテムをvoid + ローグに変換する
-			Label: Void + 投擲とローグクラスを統合
+			Tooltip: Unofficial SOTS Bard, Thrower and Healerのヴォイド + 投擲アイテムをヴォイド + ローグに変換する
+			Label: ヴォイド + 投擲とローグクラスを統合
 		}
 
 		DisableBloodOrbPotions: {
@@ -1346,35 +1536,16 @@ Configs: {
 			Tooltip: ワールドに入ったときのメッセージの表示を切り替える
 		}
 
-		UseAprilFoolsMutant: {
-			Label: エイプリルフール仕様のミュータント
-			Tooltip:
-				'''
-				Fargo's Soulsのミュータントをヤリムに置き換える
-				Fargo's Soulsが有効でないとこの設定は機能しない
-				'''
-		}
-
-		MergeThrowerIntoRogue: {
-			Label: 投擲をローグに統合
-			Tooltip:
-				'''
-				投擲とローグクラスを1つの統合クラスにまとめる
-				変換された投擲武器は元の鍛冶補正を維持する
-				ステルスバーのダメージ倍率も保持される
-				'''
-		}
-
 		EnableInterlude4: {
 			Label: 間奏曲4を有効化
 			Tooltip: カラミタスを倒すと4番目の間奏曲テーマを再生するようにする
 		}
 
 		AdjustAdvisorSpawnConditions: {
-			Label: Advisorの出現条件を調整
+			Label: アドバイザーの出現条件を調整
 			Tooltip:
 				'''
-				Advisorが常にワールドに存在しないように出現条件を調整する
+				アドバイザーが常にワールドに存在しないように出現条件を調整する
 				Infernumのボスバー使用時に常にアクティブにならないようにしたい場合に便利
 				マルチプレイ時は無効化を推奨
 				'''
@@ -1404,6 +1575,26 @@ Configs: {
 			Label: レリックに色を付ける
 			Tooltip: ""
 		}
+
+		ForceMenu: {
+			Label: メニューテーマを強制
+			Tooltip: 本Modパックのメニューテーマを、Mod読み込み時に強制的に選択する
+		}
+
+		AutomatedConfigSetup: {
+			Label: 自動設定セットアップ
+			Tooltip: いくつかの他Mod設定を、自動的に本Modパック向けの想定設定に整える
+		}
+
+		MoveDeerclopsChecklistEntry: {
+			Label: ディアクロプスの一覧位置を移動
+			Tooltip: CalamityとInfernumの階層に合わせて、ディアクロプスをボス一覧でスケルトロンの前に移動する
+		}
+
+		DontEnableThis: {
+			Label: これは有効化しないでください！
+			Tooltip: 有効化しないこと！！！ゲームバランスが崩壊します！！！
+		}
 	}
 
 	Difficulty: {
@@ -1411,65 +1602,79 @@ Configs: {
 
 		AlwaysOff: {
 			Label: Always Off
+			Tooltip: ""
 		}
 
 		AlwaysOn: {
 			Label: Always On
+			Tooltip: ""
 		}
 
 		Expert: {
 			Label: Expert
+			Tooltip: ""
 		}
 
 		Master: {
 			Label: Master
+			Tooltip: ""
 		}
 
 		Legendary: {
 			Label: Legendary
+			Tooltip: ""
 		}
 
 		Revengence: {
 			Label: Revengence
+			Tooltip: ""
 		}
 
 		MasterRevengence: {
 			Label: Master Revengence
+			Tooltip: ""
 		}
 
 		LegendaryRevengence: {
 			Label: Legendary Revengence
+			Tooltip: ""
 		}
 
 		Death: {
 			Label: Death
+			Tooltip: ""
 		}
 
 		MasterDeath: {
 			Label: Master Death
+			Tooltip: ""
 		}
 
 		LegendaryDeath: {
 			Label: Legendary Death
+			Tooltip: ""
 		}
 
 		Infernum: {
 			Label: Infernum
+			Tooltip: ""
 		}
 
 		MasterInfernum: {
 			Label: Master Infernum
+			Tooltip: ""
 		}
 
 		LegendaryInfernum: {
 			Label: Legendary Infernum
+			Tooltip: ""
 		}
 	}
 }
 
 DamageClasses: {
 	VoidRogue: {
-		DisplayName: void + ローグダメージ
+		DisplayName: ヴォイド + ローグダメージ
 	}
 
 	MergedThrowerRogue: {
@@ -1503,6 +1708,10 @@ DamageClasses: {
 	MeleeWhip: {
 		DisplayName: 近接ムチダメージ
 	}
+
+	MythicSummon: {
+		DisplayName: 神話召喚ダメージ
+	}
 }
 
 BossRushIntroText1:
@@ -1512,6 +1721,21 @@ BossRushIntroText1:
 	'''
 
 InfernumIntegration: {
+	Astrageldon:
+		'''
+		Multiversal Terror
+		Astrageldon
+		'''
+	Clamitas:
+		'''
+		Supreme Clam
+		Clamitas
+		'''
+	You:
+		'''
+		Dark Reflection
+		You
+		'''
 	Polaris:
 		'''
 		Frozen War Machine
@@ -1612,21 +1836,6 @@ InfernumIntegration: {
 		The Starlight Cat
 		Monstrosity
 		'''
-	Astrageldon:
-		'''
-		Multiversal Terror
-		Astrageldon
-		'''
-	Clamitas:
-		'''
-		Supreme Clam
-		Clamitas
-		'''
-	You:
-		'''
-		Dark Reflection
-		You
-		'''
 	Mars:
 		'''
 		RAMified Machination
@@ -1661,6 +1870,11 @@ InfernumIntegration: {
 		'''
 		Eldritch Roof
 		Ceiling of Moon Lord
+		'''
+	LittleCat:
+		'''
+		Chaos Incarnate
+		Demonic Little Grey Cat
 		'''
 }
 
@@ -1720,38 +1934,17 @@ Tiles: {
 	ProphecyMusicBoxTile: {
 		MapEntry: オルゴール
 	}
+
+	MenuMusicBoxTile: {
+		MapEntry: Menu Music Box Tile
+	}
 }
 
-UI: {
-	NoRespawn: リスポーン不可：マルチプレイ({0})ではボス1体につき1回のみ！
-	NoRespawn2: リスポーン不可：マルチプレイ({1})ではボス1体につき{0}回まで！
-	NoRespawn3: リスポーン不可：マルチプレイ({0})ではボス戦中のリスポーンはなし！
-	NoRespawn4: リスポーン不可：マルチプレイではボス戦中のリスポーンはなし！
-	NoRespawn5: リスポーン不可：マルチプレイではボス1体につき1回のみ！
-	NoRespawn6: リスポーン不可：マルチプレイではボス1体につき{0}回まで！
-	Expert: Expert Mode
-	Master: Master Mode
-	Legendary: Legendary Mode
-	Revengence: Revengence Mode
-	MRevengence: Master-Revengence Mode
-	LRevengence: Legendary-Revengence Mode
-	Death: Death Mode
-	MDeath: Master-Death Mode
-	LDeath: Legendary-Death Mode
-	Infernum: Infernum Mode
-	MInfernum: Master-Infernum Mode
-	LInfernum: Legendary-Infernum Mode
-	Primordial: Primodrial Mode
-	LPrimoridal: Legendary-Primordial Mode
+NPCs: {
+	LittleCat: {
+		Bestiary: 彼に餌を忘れた、お前は今、悪魔の小さな灰色の猫の怒りを受けることになる。
+		Name: 悪魔の小さな灰色の猫
+		DisplayName: 悪魔の小さな灰色の猫
+	}
 }
-
-BullyingTooltip:
-	'''
-	未使用の召喚スロット1つにつき召喚以外のダメージを2%増加
-	使用中の召喚スロット1つにつき召喚ダメージを10%減少
-	ムチは召喚ボーナスではなく近接ボーナスで強化される
-	ムチのダメージを10%増加
-	[c/E3AF40:ディランが設計したプログラムメモリー付きの紙切れ]
-	[c/BEBEBE:"左Shift"で裏面のメモを読む]
-	'''
 
