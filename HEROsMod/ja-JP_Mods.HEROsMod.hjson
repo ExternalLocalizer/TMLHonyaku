@@ -1,0 +1,334 @@
+Mods: {
+	HEROsMod: {
+		UpdateTModLoaderToUse:
+			'''
+
+			このMODは最新のtModLoaderの機能を使用します
+			このMODを使用するには、tModLoaderを更新してください
+
+
+			'''
+		EnableInfiniteReach: 無限ブロックリーチを有効にする
+		DisableInfiniteReach: 無限ブロックリーチを無効にする
+		SmartCursorAutomaticallyDisabledInfinteReachMod: 無限ブロックリーチが有効中はスマートカーソルが自動で無効になります
+		ViewWaypoints: ウェイポイントのウィンドウを開く
+		AddWaypoint: ウェイポイントを追加
+		Waypoints: ウェイポイント
+		WaypointName: ウェイポイントの名前
+		WaypointAlreadyExistsNote: この名前のウェイポイントは既に存在します。別の名前を入力してください
+		DisableGravestones: 墓石の生成を無効にする
+		EnableGravestones: 墓石の生成を有効にする
+		YouHaveEnabledGravestones: 墓石の生成が有効になりました
+		YouHaveDisabledGravestones: 墓石の生成が無効になりました
+		SetSpawnPoint: スポーンポイントを生成
+		SpawnPointSetToXY: スポーンポイントが横:{0} 縦:{1}に生成されました
+		ChangeTimeRain: 時間/天気の変更
+		StartRain: 雨を降らせる
+		StopRain: 雨を止める
+		StartSandstorm: 砂嵐を起こす
+		StopSandstorm: 砂嵐を止める
+		Night: 時間を19:30にする
+		Noon: 時間を12:00にする
+		ResumeTime: 時間が進むようにする
+		PauseTime: 時間を停止させる
+		ForceEnchantedSundial: 魔法の日時計を使う
+		RainHasBeenTurnedOff: 雨が止みました
+		RainHasBeenTurnedOn: 雨が降り始めました
+		SandstormHasBeenTurnedOff: 砂嵐が止みました
+		SandstormHasBeenTurnedOn: 砂嵐が起きました
+		TimeHasBeenPaused: 時間が止まりました
+		TimeHasResumed: 時間が進み始めました
+		RegionsVisible: 領域を表示する
+		RegionsInvisible: 領域を非表示にする
+		OpenRegionsWindow: 領域ウィンドウを開く
+		ToggleRegionsVisible: 領域の表示を切り替える
+		PleaseMakeASelection: 選択してください
+		LastChangedBy: "最終更新者: {0}"
+		SelectPlayer: プレイヤーを選択
+		SelectGroup: グループを選択
+		CreateRegion: 領域を作成
+		Regions: 領域
+		DeleteRegion: 領域を削除
+		AddGroup: グループを追加
+		AddPlayer: プイヤーを追加
+		SaveColor: 色を保存
+		SelectedRegion: "選択した領域 {0} {1}"
+		Remove: 削除
+		Group: グループ
+		User: ユーザー
+		RegionName: 領域の名前
+		ProtectChests: チェストを保護
+		ThisChestIsProtected: この宝箱は保護されています
+		ChestProtectionNowEnabledForRegion: "領域で宝箱保護が有効になりました: {0}"
+		ChestProtectionNowDisabledForRegion: "領域で宝箱保護が無効になりました: {0}"
+		Ok: Ok
+		Confirm: 確認
+		Create: 作る
+		Cancel: キャンセル
+		RegionNameTooShort: 領域の名前は文字が3つ以上必要です
+		RightClickToTeleport: 右クリックでテレポート
+		PrefixEditor: 修飾子の操作
+		OpenMobSpawnWindow: NPCの出現ウィンドウを開く
+		NPCSpawner: NPC スポナー
+		All: 全て
+		TownNPCs: 街のNPCs
+		Critters: 生き物
+		Friendly: 友好
+		Boss: ボス
+		Mod: Mod追加
+		ID: ID
+		Health: ライフ
+		Damage: ダメージ
+		Defense: 防御力
+		KnockbackResistance: ノックバック耐性
+		UnderworldToSpawnWoF: 地底内でないとWoFを出現させることができません
+		MiscOptions: その他
+		RevealMap: 地図を完成させる
+		ClearItemsOnGround: 地面にあるアイテムを消す
+		ItemsOnTheGroundWereCleared: 地面に落ちていたアイテムは片付けられました
+
+		ItemBrowser: {
+			$parentVal: アイテムブラウザー
+			FilterName.ModFilter: Mod フィルター
+
+			SortName: {
+				ItemID: アイテムのID
+				Value: 価値
+				Alphabetical: アルファベット順
+				UseAmmoType: 使用する弾薬タイプ
+				Damage: ダメージ
+				PickPower: 採掘力
+				AxePower: 斧力
+				HammerPower: 槌力
+				Defense: 防御力
+				AmmoType: 弾薬タイプ
+				ProgressionOrder: 進行順序
+				PolePower: 釣竿力
+				BaitPower: 餌力
+			}
+
+			CategoryName: {
+				Mod: Mod
+				Weapons: 武器
+				Melee: 近接
+				Magic: 魔法
+				Ranged: 遠距離
+				Throwing: 投擲
+				Whips: 鞭
+				Summon: 召喚
+				Sentry: セントリー
+				Tools: 道具
+				Pickaxes: つるはし
+				Axes: 斧
+				Hammers: 槌
+				Drill: ドリル
+				Chainsaw: チェンソー
+				Armor: 防具
+				Head: 頭
+				Body: 体
+				Legs: 脚
+				Vanity: 衣装
+				Placeables: 配置可能
+				Tiles: ブロック
+				Walls: 壁
+				Accessories: アクセサリー
+				Wings: 翼
+				Paint: ペンキ
+				PaintScraper: 塗装はがし
+				Kites: 凧
+				Hooks: フック
+				Ammo: 弾薬
+				Food: 食品
+				Potions: ポーション
+				Expert: エキスパート
+				BossBag: トレジャーバッグ
+				Master: マスター
+				Relic: レリック
+				Pets: ペット
+				LightPets: 光源ペット
+				Mounts: マウント
+				Pickup: その場回復
+				Carts: トロッコ
+				Dyes: 染料
+				BossSummons: ボス召喚
+				Consumables: 消耗アイテム
+				Fishing: 釣り
+				Poles: 釣竿
+				Bait: 餌
+				QuestFish: クエストの魚
+				FishingCrate: 釣りの木箱
+				Other: その他
+			}
+		}
+
+		OpenEventStarter: イベントスターターを開く
+		AllEventsHaveBeenStopped: 全てのイベントが中止されました
+		Events: イベント
+		StopEvents: イベントを中止
+		ViewConnectedPlayers: 接続中のプレーヤーを表示
+		ConnectedPlayers: 接続されたプレイヤー
+		OfflineUsers: オフラインのユーザー
+		OpenGroupManagement: グループ管理を開く
+		GroupManagement: グループ管理
+		Apply: 適用
+		DeleteGroup: グループを消す
+		NewGroup: 新しいグループ
+		Groups: グループ
+		GroupName: グループ名
+		AreYouSureDeleteGroup: グループ{0}を削除してもよろしいですか?
+		ToggleGodMode: 無敵モードを切り替える (右クリック: ダメージを受けるかどうかを切り替える)
+		GodModeEnabled: 無敵モードを有効にする
+		GodModeDisabled: 無敵モードを無効にする
+		BuddhaModeEnabled:  無敵モード中、ダメージを受けるようになりました
+		BuddhaModeDisabled:  無敵モード中、ダメージを受けなくなりました
+		FlyCamEnableTooltip: 浮遊カメラを有効にする (右クリック: カメラを固定)
+		FlyCamDisableTooltip: 浮遊カメラを無効にする (右クリック: カメラを固定)
+		FlyCamInstructions: 移動でカメラを移動する Shiftを押していると早くなり、Altを押していると遅くなる
+		DisableEnemySpawns: 敵の出現を無効にする
+		EnableEnemySpawns: 敵の出現を有効にする
+		EnemySpawnsEnabled: 敵の出現が有効になりました
+		EnemySpawnsDisabled: 敵の出現が無効になりました
+		ExtensionTools: 拡張ツール
+		NoExtensionsLoadedNote: 拡張機能を追加するMODが読み込まれていません。互換性のあるMODについてはフォーラムの投稿をご覧ください
+		OpenBuffWindow: バフウィンドウを開く
+		Buffs: バフ
+		Seconds: 秒
+		Login: ログイン
+		Logout: ログアウト
+		Register: 登録
+		Password: パスワード
+		ForgotPassword: パスワードをお忘れですか?
+		Username: ユーザーネーム
+		RememberPassword: パスワードを記憶
+		SaveLogin: ログインを維持
+		SaveLoginNone: なし
+		SaveLoginDefault: デフォルト
+		SaveLoginPlayer: プレイヤー
+		SaveLoginNoneTooltip:
+			'''
+			ログインデータは保存されません 
+			プレイヤーデータが見つかった場合は削除されます
+			それ以外の場合は、このサーバーの全てのログインデータが削除されます
+			'''
+		SaveLoginDefaultTooltip: ログインデータは全キャラクター分保存されます
+		SaveLoginPlayerTooltip:
+			'''
+			ログインデータはこのプレーヤーに対してのみ保存されます
+			デフォルトのログインを無視します
+			デフォルトのログインデータは削除されません
+			'''
+		RegisterTooltip:
+			'''
+			警告! 
+			ログイン情報は安全に保存されません
+			使い捨て情報をご利用ください
+			'''
+		PleaseFillInUsernamePassword: ユーザー名とパスワードのフィールドに入力してください
+		BanDestructiveExplosives: 破壊的な爆発物の禁止
+		UnbanDestructiveExplosives: 破壊的な爆発物の禁止を解除する
+		ProjectileIsBannerdOnTheServer: "{0}はサーバーからバンされました"
+		MakesYouAdminInHEROsMod: HERO Modの管理者になります
+		AuthCodeIsIncorrect: 認証コードが間違っています
+		PleaseLoginFirst: まずログインしてください
+		YouAreNowAdmin: あなたは管理者になりました
+		AdminInstructionsCommandDescription: HEROs Modで管理者になる方法を説明します
+		DedicatedServerAutoMessage: HEROs Mod: アカウントを作成してログインし、/{0}と入力して管理者になります
+		YouDoNotHavePermissionToBuildHere: ここに構築する権限がありません
+		YouDoNotHavePermissionToSpawnBosses: ボスを出現させる権限がありません
+		LightHackDisabled: ライトハック: 無効
+		LightHack25%: ライトハック: 25%
+		LightHack50%: ライトハック: 50%
+		LightHack100%: ライトハック: 100%
+		CheckTileForLastModification: タイルの最終変更を確認
+		AccountAlreadyLoggedIn: このアカウントはすでにこのサーバーにログオンしています。
+		LoggedInSuccessfully: ログインに成功しました あなたは {0}グループに所属しています
+		InvalidUsernameOrPassword: 無効なユーザー名かパスワード
+		UsernameAlreadyTaken: このユーザー名はすでに使用されています
+		SuccessfullyRegistered: 正常に登録されました ログインしてください
+		GroupAlreadyExists: この名前のグループはすでに存在します
+		CantDeleteDefaultGroup: デフォルトのグループは削除できません
+		LoginInstructions: HEROs Modホットバーのログインボタンをクリックしてログインするか、アカウントを作成します
+		TimeChangedNoonBy: "{0}によって時間が12:00になった"
+		TimeChangedMidnightBy: "{0}によって時間が0:00になった"
+		TimeChangedNightBy: "{0}によって時間が19:30になった"
+		TimePausedBy: "{0}によって時間が止まった"
+		TimeResumedBy: "{0}によって時間が進み始めた"
+		ItemsClearedBy: 地面に落ちていたアイテムは0}によって片付けられた
+		EnemySpawnsEnabledBy: "{0}によって敵の出現が有効になった"
+		EnemySpawnsDisabledBy: "{0}によって敵の出現が無効になった"
+		RainTurnedOnBy: "{0}によって雨が止んだ"
+		RainTurnedOffBy: "{0}によって雨が降り始めた"
+		SandstormTurnedOnBy: "{0}によって砂嵐が止んだ"
+		SandstormTurnedOffBy: "{0}によって砂嵐が起きた"
+		ForcedEnchangedSundialBy: "{0}によって魔法の日時計が使用された"
+		WaypointAlreadyExists: この名前のウェイポイントは既に存在します。別の名前を入力してください
+		RegionCreatedBy: "{0}領域は {1}によって作成されました"
+		SpawnPointSetToBy: "{2}によりスポーンポイントが横:{0} 縦:{1}に生成されました"
+		GravestonesEnabledBy: 墓石の生成が{0}によって有効になった
+		GravestonesDisabledBy: 墓石の生成が{0}によって無効になった
+		TileLastModifiedBy: タイルは{0}によって最後に変更されました
+		TileNotModified: このタイルは、前回のサーバーの起動以降、変更されていません
+		YouDontHavePermissionToDoThat: あなたにはそれをする許可がありません
+		EventsStoppedBy: 全てのイベントは{0}によって中止されました
+		DestructiveExplosivesBannedBy: 破壊的な爆発物は{0}によって禁止されています
+		DestructiveExplosivesUnbannedBy: "{0}により破壊的爆発物の禁止が解除されました"
+		RejectAnyServerConfigEdits: サーバー構成を編集するための HEROs Mod 権限がありません
+
+		PermissionInfo: {
+			ModifyTerrain: 地形の修正
+			InfiniteReach: 無限ブロックリーチ
+			ItemBrowser: アイテムブラウザー
+			ChangeTimeWeather: 時間/天気の変更
+			ToggleEnemies: 敵の出現の切り替え
+			Flycam: 浮遊カメラ
+			ClearItems: 地面にあるアイテムを消す
+			RevealMap: 地図を完成させる
+			LightHack: 明るさを切り替える
+			SpawnNPCs: NPCを出現させる
+			SpawnBosses: ボスを出現させる
+			Kick: プレイヤーをキックする
+			Ban: プレイヤーをバンする
+			TeleportToPlayers: プレイヤーにテレポートする
+			Snoop: スヌープ中のプレイヤーのインベントリ
+			EditWaypoints: ウェイポイントを編集
+			AccessWaypoints: ウェイポイントにアクセス
+			ToggleGravestones: 墓石の生成を切り替える
+			CanUseBuffs: バフウィンドウを開く
+			GodMode: 無敵モード
+			PrefixEditor: 修飾子の操作
+			ToggleBannedItems: 禁止アイテムの切り替え
+			Teleport: テレポート
+			CheckTiles: タイルをチェック
+			ViewRegions: 領域の表示を切り替える
+			EditRegions: 領域を編集する
+			EditServerConfigs: サーバー設定を変更
+		}
+
+		Keybinds: {
+			SwapHotbar.DisplayName: ホットバーの切り替え
+			SortInventory.DisplayName: インベントリをソート
+			QuickStack.DisplayName: クイックスタック
+		}
+
+		Configs: {
+			HEROsModServerConfig: {
+				DisplayName: サーバー設定
+				AcceptClientChangesMessage: Heros Modの管理者のみ、サーバー設定を変更できます
+
+				FreezeNonLoggedIn: {
+					Label: ログインしていないプレイヤーを凍結する
+					Tooltip:
+						'''
+						オンだと、ユーザーはログインしないと移動できません
+						オフになっているなら、ログインは任意です
+						'''
+				}
+
+				Telemetry: {
+					Label: テレメトリー
+					Tooltip: これがオフだと、更新通知やその他のテレメトリが無効になります
+				}
+			}
+		}
+	}
+}

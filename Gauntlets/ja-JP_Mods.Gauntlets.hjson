@@ -1,0 +1,160 @@
+Buffs: {
+	Shelled: {
+		DisplayName: 甲羅付き
+		Description: 防御力が10増加 
+	}
+
+	SpiritedSoulBuff: {
+		DisplayName: スピリットソウル
+		Description: この敵は味方になっている
+	}
+
+	StarStruckBuff: {
+		DisplayName: スターストラック
+		Description: ミニオンから攻撃されると星が落ちてくる
+	}
+}
+
+Items: {
+	CarapaceBattlegrips: {
+		DisplayName: 甲羅のバトルグローブ
+		Tooltip:
+			'''
+			鞭のダメージが25%増加
+			鞭を振る速度が18%上昇 
+			鞭の攻撃範囲が25%増加 
+			鞭が命中したとき、防御力が一時的に10増加 
+			敵から受けた接触ダメージの2倍を反射
+			'''
+	}
+
+	DungeonGlove: {
+		DisplayName: ダンジョンのグローブ
+		Tooltip:
+			'''
+			鞭のダメージが40%増加するが、
+			鞭を振る速度が25%低下 
+			「古びていて壊れているが、それでも効果的だ」
+			'''
+	}
+
+	FortifiedKnockers: {
+		DisplayName: 強化された籠手
+		Tooltip:
+			'''
+			鞭のダメージが10%増加
+			「本当に痛い!」
+			'''
+	}
+
+	GhostlyGrip: {
+		DisplayName: 不気味なグローブ
+		Tooltip:
+			'''
+			鞭のダメージが10%減少するが、
+			鞭を振る速度が65%上昇
+			鞭が命中したとき、低確率で弱い敵を一時的に味方にする
+			「エクトプラズム握手保証」
+			'''
+	}
+
+	GleamingGauntlets: {
+		DisplayName: 輝く籠手
+		Tooltip:
+			'''
+			鞭を振る速度が20%上昇 
+			鞭の攻撃範囲が10%増加
+			鞭で攻撃した敵が落とすコインが増える
+			'''
+	}
+
+	HolyGauntlet: {
+		DisplayName: 聖なる籠手
+		Tooltip:
+			''' 
+			鞭を振る速度が25%上昇 
+			鞭の攻撃範囲が20%増加
+			鞭で攻撃した敵に追撃することがある
+			'''
+	}
+
+	LeatherGlove: {
+		DisplayName: 草のグローブ
+		Tooltip:
+			'''
+			鞭を振る速度が4%上昇
+			「指紋は残さないようにしよう!」
+			'''
+	}
+
+	ObsidianGlove: {
+		DisplayName: 黒曜石の籠手
+		Tooltip:
+			'''
+			鞭のダメージが15%増加
+			鞭を振る速度が14%上昇 
+			鞭の攻撃範囲が8%増加
+			「間違いなくぴったりだ」
+			'''
+	}
+
+	StellarGloves: {
+		DisplayName: 星のグローブ
+		Tooltip:
+			'''
+			鞭を振る速度が8%上昇 
+			鞭の攻撃範囲が5%増加
+			鞭で攻撃した敵にミニオンが攻撃すると、星で追撃する
+			'''
+	}
+
+	WoodenBracers: {
+		DisplayName: 木の籠手
+		Tooltip:
+			'''
+			鞭のダメージが4%増加
+			「痛い!」
+			'''
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			ModSettings: Mod 設定
+			SanctifiedGauntlet: 聖なる籠手の設定
+			GhostlyGrip: 不気味なグローブの設定
+		}
+
+		ModMsg: {
+			Label: チャットメッセージ
+			Tooltip: ""
+		}
+
+		HolyDoubleStrike: {
+			Label: 追撃確率
+			Tooltip: 攻撃が命中した際に追撃する確率を変更します
+		}
+
+		PossessionChance: {
+			Label: 敵が味方になる確率
+			Tooltip: 鞭で攻撃した弱い敵が一時的に味方になる確率を変更します
+		}
+
+		PossessionTime: {
+			Label: 敵が味方になっている時間
+			Tooltip: 
+				'''
+				敵が一時的に味方になる時間を変更します
+				数値は秒数を示します
+				'''
+		}
+
+		PossessedEnemyEndurance: {
+			Label: 味方になった敵の防御力増加
+			Tooltip: 味方になった敵の防御力増加量を変更します
+		}
+	}
+}

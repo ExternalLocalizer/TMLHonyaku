@@ -1,0 +1,199 @@
+Items: {
+	CombinedYoyoAccessory: {
+		DisplayName: ヨーヨー改造キット
+		Tooltip:
+			'''
+			ヨーヨーを連続で当てるとコンボが成立し、
+			コンボ中はヨーヨーのダメージが最大で20%増加
+			ヨーヨーの持続時間が50%延長される
+			'''
+	}
+
+	MasterYoyoKit: {
+		DisplayName: マスターヨーヨーキット
+		Tooltip:
+			'''
+			ヨーヨーのスキルを理解を超えて向上させる
+			「君のような最後の一人、真のヨーヨーマスター…」
+			'''
+	}
+
+	YoyoBearingAccessory: {
+		DisplayName: 玉軸受
+		Tooltip: ヨーヨーの持続時間が50%延長
+	}
+
+	YoyoSideEffectsAccessory: {
+		DisplayName: スパイクドサイドエフェクト
+		Tooltip:
+			'''
+			ヨーヨーを連続で当てるとコンボが成立し、
+			コンボ中はヨーヨーのダメージが最大で20%増加
+			'''
+	}
+
+	Asteroid: {
+		DisplayName: アステロイド
+		Tooltip: 射程の短いファイアボールを発射する
+	}
+
+	Avian: {
+		DisplayName: エイビアン
+		Tooltip: 非常に機敏
+	}
+
+	Cabal: {
+		DisplayName: カバル
+		Tooltip:
+			'''
+			攻撃が命中時に霊液の雨が降る
+			'''
+	}
+
+	EnchantedYoyo: {
+		DisplayName: エンチャンテッドヨーヨー
+		Tooltip: ""
+	}
+
+	ExtraterrestrialTaser: {
+		DisplayName: エキストラテレストリアルテーザー
+		Tooltip: 攻撃が命中時、敵を感電させる
+	}
+
+	HolyThrow: {
+		DisplayName: ホーリースロー
+		Tooltip: 敵の防御力を10無視
+	}
+
+	Nitro: {
+		DisplayName: ニトロ
+		Tooltip:
+			'''
+			呪炎の軌跡を残す
+			'''
+	}
+
+	Poltergeist: {
+		DisplayName: ポルターガイスト
+		Tooltip: 地形を無視する
+	}
+
+	PrismaticThrow: {
+		DisplayName: プリズマティックスロー
+		Tooltip: 攻撃が命中時、柱状の破片を生成する
+	}
+
+	Ravager: {
+		DisplayName: ラヴェジャー
+		Tooltip: 
+			'''
+			攻撃が命中時、血栓が生成されることがある
+			血栓は敵を探し、その敵に向かって飛んでいく
+			'''
+	}
+
+	Spectrum: {
+		DisplayName: スペクトラム
+		Tooltip: 致命的な光のショーを披露する
+	}
+}
+
+Projectiles: {
+	CabalIchorRainProjectile.DisplayName: 霊液の雨
+	NitroCursedEmberProjectile.DisplayName: 呪炎の軌跡
+	PrismaticThrowPrismaticShardProjectile.DisplayName: 柱状の破片
+	RavagerBloodClotProjectile.DisplayName: 血栓
+	SpectrumSundanceProjectile.DisplayName: 光のショー
+	AsteroidProjectile.DisplayName: アステロイド
+	AvianProjectile.DisplayName: エイビアン
+	CabalProjectile.DisplayName: カバル
+	EnchantedYoyoProjectile.DisplayName: エンチャンテッドヨーヨー
+	ExtraterrestrialTaserProjectile.DisplayName: エキストラテレストリアルテーザー
+	HolyThrowProjectile.DisplayName: ホーリースロー
+	NitroProjectile.DisplayName: ニトロ
+	PoltergeistProjectile.DisplayName: ポルターガイスト
+	PrismaticThrowProjectile.DisplayName: プリズマティックスロー
+	RavagerProjectile.DisplayName: ラヴェジャー
+	SpectrumProjectile.DisplayName: スペクトラム
+	AmarokSnowflakeProjectile.DisplayName: 雪の結晶
+	CascadeFieryExplosionProjectile.DisplayName: 爆発
+	Code1ElectrostaticAuraProjectile.DisplayName: ライトニングオーラ
+	Code2PlasmaticAuraProjectile.DisplayName: 強力なライトニングオーラ
+	EoCMiniServantProjectile.DisplayName: クトゥルフのしもべ
+	GradientChromaticPulseProjectile.DisplayName: クロマティックパルス
+	HelFireFlameTorrentProjectile.DisplayName: 火炎流
+	KrakenAbyssalTentacleProjectile.DisplayName: 触手
+	MalaiseBileDropletProjectile.DisplayName: 胆汁
+	RallyAfterimageProjectile.DisplayName: 残像
+	ValkyrieYoyoFeatherProjectile.DisplayName: 羽根
+	ValorGhostlyWispProjectile.DisplayName: ウィスプ
+	YeletsRazorLeafProjectile.DisplayName: 猛毒針
+	AsteroidFireball.DisplayName: ファイアボール
+	ExtraterrestrialTaserElectrosphere.DisplayName: エレクトロスフィア
+}
+
+Configs: {
+	TysYoyoReduxConfigServer: {
+		BuffsToCounterweights: {
+			Label: カウンターウェイトの変更を有効にする
+			Tooltip: 
+				'''
+				これがオンだと、カウンターウェイトの速度が上昇し、局所的な影響が無効化され、
+				更に、カウンターウェイトが4～6秒後に切り替わるようになります (デフォルトはオン)
+				'''
+			
+		}
+
+		AddNewAccessories: {
+			Label: modで追加されるヨーヨーのアクセサリを有効にする
+			Tooltip: modで追加されるヨーヨーのアクセサリを有効にするかどうか変更します (デフォルトはオン)
+		}
+
+		AddNewYoyos: {
+			Label: modで追加されるヨーヨーを有効にする
+			Tooltip: modで追加されるヨーヨーを有効にするかどうか変更します (デフォルトはオン)
+		}
+
+		VanillaYoyoRecipes: {
+			Label: 開発者のヨーヨーにレシピを追加する
+			Tooltip: 
+				'''
+				これがオンだと、レッドのヨーヨーとヴァルキリーのヨーヨーにレシピが追加され、
+				トレジャーバッグ以外で入手できるようになります (デフォルトはオン)
+				'''
+		}
+
+		VanillaYoyoEffects: {
+			Label: バニラのヨーヨーを強化する
+			Tooltip: 
+				'''
+				各バニラのヨーヨーに特殊効果を与え、強化します
+				 (デフォルトはオン)
+				'''
+		}
+
+		DisplayName: Mod 設定
+	}
+}
+
+VanillaItemTooltips: {
+	Rally: 触れた敵にダメージを与える残像を残す
+	CorruptYoyo: ヨーヨーから膿んだ胆汁が滴り落ちる
+	CrimsonYoyo: 攻撃した敵からライフを吸収することがある
+	JungleYoyo: 毒針を連射する
+	Code1: ライトニングオーラを発生させる
+	Valor: ウィスプを呼び起こす
+	Cascade: 攻撃が命中時、爆発する
+	FormatC: クリティカル時、ダメージが2倍になる
+	Gradient: 色彩エネルギーを伝達する
+	Chik: 攻撃が命中時、クリスタルの破片を生成する
+	HelFire: 攻撃が命中時、火炎流を発射する
+	Amarok: 攻撃が命中時、雪の結晶を生成する
+	Code2: 強力なライトニングオーラを発生させる
+	Yelets: 猛毒針を連射する
+	ValkyrieYoyo: 近くの敵に羽根を発射する
+	RedsYoyo: 攻撃が命中時、ランダムなデバフを与える
+	Kraken: 攻撃が命中時、触手で追撃する
+	TheEyeOfCthulhu: 攻撃が命中時、クトゥルフのしもべを召喚する
+	Terrarian: テラリアの魂が光る
+}

@@ -1,0 +1,229 @@
+Buffs: {
+	CarapaceDartDebuff: {
+		DisplayName: 串刺し
+		Tooltip: 出血がひどく、ライフが徐々に減少
+		Description: 出血がひどく、ライフが徐々に減少
+	}
+}
+
+Items: {
+	BoneDart: {
+		DisplayName: 骨のダーツ
+		Tooltip: 敵に命中時に破片を飛ばす
+	}
+
+	CarapaceDart: {
+		DisplayName: 甲羅のダーツ
+		Tooltip: 敵に突き刺さり、ライフを徐々に減少させる
+	}
+
+	ChlorophyteDart: {
+		DisplayName: クロロファイトのダーツ
+		Tooltip: 敵に命中時、自然のエネルギーで追撃する
+	}
+
+	Dart: {
+		DisplayName: ダーツ
+		Tooltip: ""
+	}
+
+	EctoplasmDart: {
+		DisplayName: スペクターダーツ
+		Tooltip: 敵か地形に命中時、敵を追尾するウィスプを生成する
+	}
+
+	EndlessDartCase: {
+		DisplayName: 無限のダーツ箱
+		Tooltip: ""
+	}
+
+	FeatherDart: {
+		DisplayName: 羽のダーツ
+		Tooltip: 重力の影響を受けない
+	}
+
+	LuminiteDart: {
+		DisplayName: ルミナイトのダーツ
+		Tooltip: "「私の邪魔をするなんて大胆ですね...」"
+	}
+
+	ShimmerDart: {
+		DisplayName: シマーのダーツ
+		Tooltip: とてもよく弾む
+	}
+
+	VenomDart: {
+		DisplayName: 猛毒のダーツ
+		Tooltip: らせん状の軌道で飛び、2つに分裂する
+	}
+
+	DartlingHelm: {
+		DisplayName: ダートリングヘルム
+		Tooltip: ""
+	}
+
+	AirRifle: {
+		DisplayName: 空気ライフル
+		Tooltip:
+			'''
+			弾速の早いダーツを発射する
+			「認定されたクラシックな銃」
+			'''
+	}
+
+	AncientCrossbow: {
+		DisplayName: 古代のクロスボウ
+		Tooltip: ダーツを敵を貫通するネクロダーツに変換する
+	}
+
+	Atlatl: {
+		DisplayName: アトラトル
+		Tooltip: ""
+	}
+
+	ClockworkBallista: {
+		DisplayName: 機械仕掛けのバリスタ
+		Tooltip: 66%の確率でダーツを消費せず、撃ち続けると連射が早くなる
+	}
+
+	DartGlove: {
+		DisplayName: ダーツグローブ
+		Tooltip: ""
+	}
+
+	DartlingGun: {
+		DisplayName: ダートリングガン
+		Tooltip: 50%の確率でダーツを消費しない
+	}
+
+	Decapitator: {
+		DisplayName: デキャピテーター
+		Tooltip: ダーツを敵を貫通する2つのネクロダーツに変換する
+	}
+
+	HellfireBlaster: {
+		DisplayName: ヘルファイアブラスター
+		Tooltip: 爆発する燃えるダーツを発射する
+	}
+
+	PhasicDartEjector: {
+		DisplayName: フェイジックダーツエジェクター
+		Tooltip: 
+			'''
+			左クリックを押し続けてチャージすると一度に発射するダーツの本数が増え、
+			最大で9本のダーツを発射する
+			'''
+	}
+
+	PoisonDartFrog: {
+		DisplayName: ダーツドクガエル
+		Tooltip: 広範囲に毒のダーツを発射する
+	}
+
+	SHREDR: {
+		DisplayName: S.H.R.E.D.R.
+		Tooltip: 50%の確率でダーツを消費しない
+	}
+
+	StingOperation: {
+		DisplayName: スティングオペレーション
+		Tooltip:
+			'''
+			猛毒針のダーツを連射する
+			33%の確率でダーツを消費しない
+			'''
+	}
+
+	TheStinger: {
+		DisplayName: スティング
+		Tooltip:
+			'''
+			毒針のダーツを連射する
+			25%の確率でダーツを消費しない
+			'''
+	}
+
+	TripleDartGlove: {
+		DisplayName: トリプルダーツグローブ
+		Tooltip: ""
+	}
+
+	HuntsmanBandana: {
+		DisplayName: 猟師のバンダナ
+		Tooltip:
+			'''
+			ダーツのダメージが10%増加し、ノックバックが大きく増加
+			20%の確率でダーツを消費しない
+			'''
+	}
+
+	AssassinsHeadband: {
+		DisplayName: 暗殺者のヘッドバンド
+		Tooltip:
+			'''
+			ダーツのダメージが10%増加し、ノックバックが大きく増加
+			20%の確率でダーツを消費しない
+			敵に狙われにくくなる
+			'''
+	}
+
+	PredatorsBandana: {
+		DisplayName: プレデターのバンダナ
+		Tooltip:
+			'''
+			ダーツのダメージが10%増加し、ノックバックが大きく増加
+			20%の確率でダーツを消費しない
+			基本的なダーツを毒でコーティングする
+			'''
+	}
+}
+
+Projectiles: {
+	ClockworkBallista_HeldProjectile.DisplayName: 機械仕掛けのバリスタ
+	PhasicDartEjector_HeldProjectile.DisplayName: フェイジックダーツエジェクター
+	BoneDartShrapnelProjectile.DisplayName: 骨の破片
+	BoneDartProjectile.DisplayName: 骨のダーツ
+	CarapaceDartProjectile.DisplayName:甲羅のダーツ
+	ChlorophyteDartProjectile.DisplayName: クロロファイトのダーツ
+	ChlorophyteDartSlashProjectile.DisplayName: 自然のエネルギー
+	DartProjectile.DisplayName: ダーツ
+	EctoplasmDartProjectile.DisplayName: スペクターダーツ
+	EctoplasmDartEctoboltProjectile.DisplayName: ウィスプ
+	FeatherDartProjectile.DisplayName: 羽のダーツ
+	LuminiteDartProjectile.DisplayName: ルミナイトのダーツ
+	ShimmerDartProjectile.DisplayName: シマーのダーツ
+	VenomDartProjectile.DisplayName: 猛毒のダーツ
+	BlazingDartProjectile.DisplayName: 燃えるダーツ
+	NecroDartProjectile.DisplayName: ネクロダーツ
+	QueensStingerDartProjectile.DisplayName: 猛毒針のダーツ
+	StingerDartProjectile.DisplayName: 毒針のダーツ
+	IchorDartReworked.DisplayName: 霊液のダーツ
+}
+
+Configs: {
+	TysDartOverhaulConfig: {
+		DisplayName: Mod 設定
+
+		AddNewDartguns: {
+			Label: modで追加されるダーツ銃を有効にする
+			Tooltip: modで追加されるダーツ銃を有効にするかどうか変更します (デフォルトはオン)
+		}
+
+		AddNewDarts: {
+			Label: modで追加されるダーツを有効にする
+			Tooltip: modで追加されるダーツを有効にするかどうか変更します (デフォルトはオン)
+		}
+
+		AddNewAccessories: {
+			Label: modで追加されるダーツのアクセサリを有効にする
+			Tooltip: modで追加されるダーツのアクセサリを有効にするかどうか変更します (デフォルトはオン)
+		}
+
+		VanillaDartChanges: {
+			Label: バニラのダーツの変更を有効にする
+			Tooltip: バニラのダーツを変更するかどうか変更します (デフォルトはオン)
+		}
+	}
+}
+
+VanillaItemTooltips.PoisonDart: 敵に当たると爆発する

@@ -1,0 +1,97 @@
+InfoDisplays: {
+	FoundRareCreature: "{0}{1}{^1:タイル;タイル} 先"
+	FoundTreasure: "{0}{1}{^1:タイル;タイル} 先"
+	TilesDistance: "{0}{^0:タイル;タイル} 先"
+	GemTree: 宝石の木
+}
+
+AccessorySlots: {
+	WingSlot: {
+		FunctionalTooltip: 翼
+		VanityTooltip: 衣装 翼
+	}
+
+	ShieldSlot: {
+		FunctionalTooltip: 盾
+		VanityTooltip: 衣装 盾
+	}
+
+	BootSlot: {
+		FunctionalTooltip: ブーツ
+		VanityTooltip: 衣装 ブーツ
+	}
+}
+
+RecipeGroups: {
+	Copper: 銅のインゴット
+	Silver: 銀のインゴット
+	Gold: 金のインゴット
+	Cobalt: コバルトののインゴット
+	FartBalloons: おなら入り風船
+	SharkronBalloons: シャークロンの風船
+}
+
+Tooltips: {
+	HandOfCreation0: ブロックを置ける範囲が5増加
+	HandOfCreation1: 道具の届く範囲が4増加
+	TerrasparkBoots0: ジャンプ速度が増加し、自動ジャンプが可能となる
+	TerrasparkBoots1: 落下耐性を増加
+	AnkhShield0: ライフが50%以下の際、周囲に防壁を展開してダメージを25%軽減
+	AnkhShield1: ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+	AnkhShield2: 敵に狙われやすくなる
+	BundleOfBalloons0: 六段ジャンプが可能
+	Radar0: 周囲の敵と罠を探知
+
+	WingStats: {
+		NegatesFallDamage: 落下ダメージを無効化
+		FlightTime: "飛行時間 {0}{^0:秒;秒}"
+		FlightHeight: "飛行できる高度 {0}{^0:タイル;タイル}"
+		FlightHeightUnknown: 飛行できる高度 不明
+		MaxHSpeed: 最大水平速度 {0}マイル
+		MaxHSpeedUnknown: 最大水平速度 不明
+		HAccelerationMult: "水平加速力 {0}倍"
+		CanHover: 滞空可能
+		MaxHSpeedHover: "滞空中の最大水平速度 {0}マイル"
+		MaxHSpeedHoverUnknown: 滞空中の最大水平速度 不明
+		HAccelerationMultHover: "滞空中の水平加速力 {0}倍"
+	}
+
+	HookStats: {
+		Reach: "射程 {0}{^0:タイル;タイル}"
+		ReachUnknown: 射程 不明
+		NumHooks: "{^0:フックの本数;フックの本数} {0}"
+		NumHooksUnknown: フックの本数 不明
+		LatchingSingle: フックを1つだけ引っ掛けることができる
+		LatchingIndividual: フックを個別に引っ掛けることができる
+		LatchingSimultaneous: 複数のフックを引っ掛けることができる
+		LatchingUnknown: 引っ掛けることができるフック数 不明
+		ShootSpeed: 射出速度 {0}マイル
+		ShootSpeedUnknown: 射出速度 不明
+		RetreatSpeed: 引っ込む速度 {0}マイル
+		RetreatSpeedUnknown: 引っ込む速度 不明
+		PullSpeed: "引っ張る速度 {0}マイル"
+		PullSpeedUnknown: 引っ張る速度 不明
+	}
+
+	LightPetStats: {
+		Brightness: "{0}% 明るさ"
+		BrightnessUnknown: 明るさ 不明
+		Controllable: コントロール可能
+		ExposesTreasure: 近くの宝物などが光る
+		ExposesEnemies: 近くの生き物が光る
+	}
+
+	MountStats: {
+		FlightTime: "飛行時間 {0}{^0:秒}"
+		CanHover: 滞空可能
+		RunSpeed: "移動速度 {0}マイル"
+		SwimSpeed: "泳ぐ速度 {0}マイル"
+		Acceleration: "加速力 {0}マイル/秒"
+		JumpSpeed: "ジャンプ速度 {0}マイル"
+		JumpHeight: "ジャンプ高度 {0} {^0:タイル;タイル} "
+		AutoJump: 自動ジャンプが可能
+		HeightBoost: "高さ {0} {^0:タイル;タイル}"
+		FallDamageMult: "落下ダメージが{0}倍になる"
+		BoostedMinecart: 性能が強化された
+	}
+}

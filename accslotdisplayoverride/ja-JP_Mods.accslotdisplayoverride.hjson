@@ -8,7 +8,7 @@ Configs: {
 		}
 
 		EnableMod: {
-			Label: スロット数の上書きを有効にする
+			Label: 表示するスロット数を上書きする
 			Tooltip:
 				'''
 				以下の 2 つの設定を有効にすると、表示するスロット数を手動で設定できます
@@ -17,17 +17,17 @@ Configs: {
 		}
 
 		SlotsPerColumn_WithMinimap: {
-			Label: 列ごとのスロット（ミニマップ表示中）
+			Label: 列ごとのスロット数（ミニマップ表示中）
 			Tooltip: ミニマップが右上隅にあるときに表示するスロットの数
 		}
 
 		SlotsPerColumn_NoMinimap: {
-			Label: 列ごとのスロット（ミニマップ非表示中）
+			Label: 列ごとのスロット数（ミニマップ非表示中）
 			Tooltip: ミニマップが画面に表示されていないときに表示するスロットの数
 		}
 
 		UseScrollbar: {
-			Label: スクロールバーを使う
+			Label: スクロールバーを使用する
 			Tooltip:
 				'''
 				1列に全てのスロットを収めるのに十分なスペースがない場合の動作を変更します

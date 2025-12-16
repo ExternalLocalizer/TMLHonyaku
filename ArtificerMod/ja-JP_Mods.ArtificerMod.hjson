@@ -170,12 +170,12 @@ Buffs: {
 
 	PowerArmorBuff: {
 		DisplayName: パワーアーマー
-		Description: 被ダメージを大きく軽減するパワーアーマーを装備！
+		Description: 被ダメージを大きく軽減するパワーアーマーを装備!
 	}
 
 	ArtificerArmorBuff: {
 		DisplayName: 職人の鎧
-		Description: 被ダメージを大きく軽減する魔法の鎧を装備！
+		Description: 被ダメージを大きく軽減する魔法の鎧を装備!
 	}
 
 	HPStim1: {
@@ -190,12 +190,12 @@ Buffs: {
 
 	LifeChargerBuff: {
 		DisplayName: ライフチャージャー
-		Description: ライフを回復するエネルギーをチャージ中...攻撃を受けないように！
+		Description: ライフを回復するエネルギーをチャージ中...攻撃を受けないように!
 	}
 
 	ManaChargerBuff: {
 		DisplayName: マナチャージャー
-		Description: マナを回復するエネルギーをチャージ中...攻撃を受けないように！
+		Description: マナを回復するエネルギーをチャージ中...攻撃を受けないように!
 	}
 
 	ManaStim1: {
@@ -215,7 +215,7 @@ Buffs: {
 
 	RetributionBuff: {
 		DisplayName: 報復
-		Description: 痛みはあなたを強くする！
+		Description: 痛みはあなたを強くする!
 	}
 
 	AbilityCooldown: {
@@ -225,12 +225,12 @@ Buffs: {
 
 	ChampionDef: {
 		DisplayName: テラリアの決意
-		Description: テラリアの力が防御力と再生力を強化する！
+		Description: テラリアの力が防御力と再生力を強化する!
 	}
 
 	ChampionOff: {
 		DisplayName: テラリアの勇気
-		Description: テラリアの力が攻撃力を強化する！
+		Description: テラリアの力が攻撃力を強化する!
 	}
 
 	MechShock: {
@@ -260,7 +260,7 @@ Buffs: {
 
 	SolarOverdrive: {
 		DisplayName: ソーラーオーバードライブ
-		Description: ダメージ増加効果で反撃だ！
+		Description: ダメージ増加効果で反撃だ!
 	}
 
 	TarnishedRevive: {
@@ -325,7 +325,7 @@ Buffs: {
 
 	TerraRevive: {
 		DisplayName: ラストスタンド
-		Description: 時間経過によるダメージを受けなくなる。戦いを逆転させよう！
+		Description: 時間経過によるダメージを受けなくなる。戦いを逆転させよう!
 	}
 
 	PrimeRage: {
@@ -374,7 +374,7 @@ Buffs: {
 	}
 
 	FlamboyantCapeBuff: {
-		DisplayName: 華やか！
+		DisplayName: 華やか!
 		Description: "{$CommonItemtooltip.ForItems.MoreTarget}"
 	}
 
@@ -530,7 +530,7 @@ Buffs: {
 
 	NovaSurge: {
 		DisplayName: 宇宙の力
-		Description: 余分なエネルギーが攻撃と防御を強化する！
+		Description: 余分なエネルギーが攻撃と防御を強化する!
 	}
 
 	Leech2: {
@@ -891,7 +891,7 @@ Items: {
 			超高速走行できる
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
 			攻撃に電撃を追加し、敵にショックを与えることがある
-			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15％上昇させる
+			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇する
 			「より速く、より強く、より良く」
 			'''
@@ -902,7 +902,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃に電撃を追加し、敵にショックを与えることがある
-			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15％上昇させる
+			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、近接攻撃速度が大幅に上昇する
 			「ターボチャージ発動!」
 			'''
@@ -1039,7 +1039,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.LeechedLifeHeal}
-			「ライフを吸い取るテクノロジーの最先端。5Gの転送速度で実現！」
+			「ライフを吸い取るテクノロジーの最先端。5Gの転送速度で実現!」
 			'''
 	}
 
@@ -1171,7 +1171,7 @@ Items: {
 		DisplayName: 職人の紋章
 		Tooltip:
 			'''
-			ダメージを5%増加
+			ダメージが5%増加
 			{$CommonItemtooltip.ForItems.ReducedAbilityCooldown@1}
 			'''
 	}
@@ -1201,7 +1201,7 @@ Items: {
 		DisplayName: ノヴァの紋章
 		Tooltip:
 			'''
-			ダメージを5%増加
+			ダメージが5%増加
 			{$CommonItemtooltip.ForItems.ReducedAbilityCooldown@1}
 			'''
 	}
@@ -1738,7 +1738,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージが5%増加
-			召喚ダメージを10%増加
+			召喚ダメージが10%増加
 			召喚できるセントリーの数が1体増える
 			'''
 	}
@@ -1976,7 +1976,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃に電撃を追加し、敵にショックを与えることがある
-			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15％上昇させる
+			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
 			「私は鋼鉄の強さと確実さを渇望した...」
 			'''
 	}
@@ -2307,7 +2307,7 @@ Configs: {
 		}
 
 		BonusArtificerSlot: {
-			Label: "[i:ArtificerMod/AstralCuirass] 職人のセットボーナスはアクセサリースロットを増やす"
+			Label: "[i:ArtificerMod/AstralCuirass] 職人のセットボーナスはアクセサリースロットを追加する"
 			Tooltip:
 				'''
 				オンにすると、職人の防具のセットボーナスでアクセサリスロットが1つ追加されます

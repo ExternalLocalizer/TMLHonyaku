@@ -40,7 +40,7 @@ Configs: {
 		}
 
 		CatchNPCs: {
-			Label: "[i:267] タウンNPCを虫取り網で確保可能"
+			Label: "[i:267] タウンNPCを虫取り網で確保できる"
 			Tooltip: ""
 		}
 
@@ -50,7 +50,7 @@ Configs: {
 		}
 
 		SaferBoundNPCs: {
-			Label: "[i:1274] 救出可能な町NPCは接触ダメージを受けない"
+			Label: "[i:1274] 救出可能なタウンNPCは接触ダメージを受けない"
 			Tooltip: ""
 		}
 
@@ -105,17 +105,17 @@ Configs: {
 		}		
 
 		UnlimitedAmmo: {
-			Label: "[i:771] ハードモードで弾が3996個以上あると無限化"
+			Label: "[i:771] ハードモードで弾が3996個以上あると無限化される"
 			Tooltip: ""
 		}
 
 		UnlimitedConsumableWeapons: {
-			Label: "[i:42] ハードモードで消費型武器が3996個以上あると無限化"
+			Label: "[i:42] ハードモードで消費型武器が3996個以上あると無限化される"
 			Tooltip: ""
 		}
 
 		UnlimitedPotionBuffsOn120: {
-			Label: "[i:292] 特定のスタック数以上でバフやエサが無限化"
+			Label: "[i:292] 特定のスタック数以上でバフやエサが無限化される"
 			Tooltip: ポーションと釣りエサは30個以上で無限に
 		}
 
@@ -125,7 +125,7 @@ Configs: {
 		}
 
 		AnglerQuestInstantReset: {
-			Label: "[i:2374] 釣りクエスト即リセット"
+			Label: "[i:2374] 釣りクエストを即リセット"
 			Tooltip: ""
 		}
 
@@ -155,17 +155,17 @@ Configs: {
 		}
 
 		ExtractSpeed: {
-			Label: "[i:997] 取り出し機の速度強化"
+			Label: "[i:997] 取り出し機の速度を強化する"
 			Tooltip: ""
 		}
 
 		Fountains: {
-			Label: "[i:909] 噴水でバイオームを変更"
+			Label: "[i:909] 噴水でバイオームを変更する"
 			Tooltip: ""
 		}
 
 		PermanentStationsNearby: {
-			Label: "[i:3198] 近くのプレイヤーに家具特有バフを自動適用"
+			Label: "[i:3198] 近くのプレイヤーに家具特有バフを自動で適用する"
 			Tooltip: ""
 		}
 
@@ -175,12 +175,12 @@ Configs: {
 		}
 
 		PiggyBankAcc: {
-			Label: "[i:87] 豚の貯金箱内の情報・建築アイテムが機能"
+			Label: "[i:87] 豚の貯金箱内の情報・建築アイテムが機能する"
 			Tooltip: ""
 		}
 
 		ModdedPiggyBankAcc: {
-			Label: "[i:87] 豚の貯金箱内のMODアイテムが機能"
+			Label: "[i:87] 豚の貯金箱内のMODアイテムが機能する"
 			Tooltip: ""
 		}
 
@@ -190,7 +190,7 @@ Configs: {
 		}
 
 		TorchGodEX: {
-			Label: "[i:5043] たいまつの神の加護：設置トーチを自動変換"
+			Label: "[i:5043] たいまつの神の加護：設置トーチを自動で変換する"
 			Tooltip: 真のトーチ運に従います（「トーチ神の加護」と異なる場合があります）
 		}
 
@@ -203,8 +203,8 @@ Configs: {
 			Label: "[i:Fargowiltas/InstaBridge] 地形整備ツールのセーフティモード"
 			Tooltip:
 				'''
-				地形整備ツール（架橋装置やシティバスターなど）は、「重要な構造物リスト」に登録されたエリアの破壊を回避します。
-				このオプションを有効にすると非常に慎重になり、洞窟内の家など一般的な生成物も破壊しないことがあります。
+				地形整備ツール（架橋装置やシティバスターなど）は、「重要な構造物リスト」に登録されたエリアの破壊を回避します
+				このオプションを有効にすると非常に慎重になり、洞窟内の家など一般的な生成物も破壊しないことがあります
 				'''
 		}
 
@@ -219,32 +219,40 @@ Configs: {
 
 		EnemyHealth: {
 			Label: "[i:29] 敵のライフ"
-			Tooltip: すべての敵のライフに乗算補正をかけます。
+			Tooltip: 全ての敵のライフに乗算補正をかけます
 		}
 
 		BossHealth: {
 			Label: "[i:29] ボスのライフ"
-			Tooltip: すべてのボスのライフに乗算補正をかけます。「敵のライフ」と「ボスのライフ」のうち高い方の倍率が適用されます。
+			Tooltip: 
+				'''
+				全てのボスのライフに乗算補正をかけます
+				「敵のライフ」と「ボスのライフ」のうち高い方の倍率が適用されます
+				'''
 		}
 
 		EnemyDamage: {
 			Label: "[i:3507] 敵のダメージ"
-			Tooltip: すべての敵と発射物の「ダメージ軽減後のダメージ」に乗算補正をかけます。
+			Tooltip: 全ての敵と発射物の「ダメージ軽減後のダメージ」に乗算補正をかけます
 		}
 
 		BossDamage: {
 			Label: "[i:3507] ボスのダメージ"
-			Tooltip: すべてのボスの「ダメージ軽減後のダメージ」に乗算補正をかけます。「敵のダメージ」と「ボスのダメージ」のうち高い方の倍率が適用されます。
+			Tooltip: 
+				'''
+				全てのボスの「ダメージ軽減後のダメージ」に乗算補正をかけます
+				「敵のダメージ」と「ボスのダメージ」のうち高い方の倍率が適用されます
+				'''
 		}
 
 		BossApplyToAllWhenAlive: {
 			Label: ボス出現中は全敵にボス倍率を適用
-			Tooltip: ボス出現中は「ボスのライフ」「ボスのダメージ」の設定がボスだけでなくすべての敵に適用されます。
+			Tooltip: ボス出現中は「ボスのライフ」「ボスのダメージ」の設定がボスだけでなく全ての敵に適用されます
 		}
 
 		DisableTombstones: {
 			Label: "[i:Fargowiltas/GraveBuster] 墓石を出現させない"
-			Tooltip: プレイヤーが死亡しても墓石が出現しなくなります。
+			Tooltip: プレイヤーが死亡しても墓石が出現しなくなります
 		}
 	}
 
@@ -274,12 +282,20 @@ Configs: {
 
 		DoubleTapDashDisabled: {
 			Label: "[i:3097] ダッシュのダブルタップ無効化"
-			Tooltip: ダブルタップによるダッシュの発生を無効化します。この設定に関係なく「ダッシュキー」は使用可能です
+			Tooltip: 
+				'''
+				ダブルタップによるダッシュの発生を無効化します
+				この設定に関係なく「ダッシュキー」は使用可能です
+				'''
 		}
 
 		DoubleTapSetBonusDisabled: {
 			Label: "[i:3776] セットボーナスのダブルタップ無効化"
-			Tooltip: ダブルタップによるセットボーナス効果の発動を無効化します。この設定に関係なく「セットボーナスキー」は使用可能です
+			Tooltip: 
+				'''
+				ダブルタップによるセットボーナス効果の発動を無効化します
+				この設定に関係なく「セットボーナスキー」は使用可能です
+				'''
 		}
 
 		DebuffOpacity: {
@@ -473,7 +489,7 @@ Buffs: {
 
 	CoolCrabBuff: {
 		DisplayName: クールなカニ
-		Description: 彼はあなたがエルデン・リングをプレーすべきだと考えている。
+		Description: 彼はあなたがエルデン・リングをプレーすべきだと考えている
 	}
 }
 
@@ -727,7 +743,7 @@ Items: {
 		DisplayName: アルター破壊機
 		Tooltip:
 			'''
-			自然生成されたデーモンアルターとクリムゾンアルターをすべて破壊する。
+			自然生成されたデーモンアルターとクリムゾンアルターを全て破壊する
 			「別名:レイスメイカー200」
 			'''
 	}
@@ -742,8 +758,8 @@ Items: {
 		Tooltip:
 			'''
 			地形に当たると瞬時に爆発し、ブロックを破壊する
-			インベントリ内の最も性能の高いツルハシの採掘力が適用される
-			投擲速度は、所持している最高のツルハシの採掘速度や他の採掘速度ボーナスに比例する
+			インベントリ内の最も性能の高いつるはしの採掘力が適用される
+			投擲速度は、所持している最高のつるはしの採掘速度や他の採掘速度ボーナスに比例する
 			「いかなる時でも何かを掘り進む最速の方法は、爆破だ！」
 			'''
 	}
@@ -759,7 +775,7 @@ Items: {
 	}
 
 	DoubleObsidianInstabridge: {
-		DisplayName: 黒曜石の二重架橋装置
+		DisplayName: 黒曜石の二重即席架橋装置
 		Tooltip:
 			'''
 			使用すると、カーソルの高さに1つ、カーソルから20ブロック上の位置に1つ
@@ -831,7 +847,7 @@ Items: {
 	}
 
 	MiniInstaBridge: {
-		DisplayName: 小さな架橋装置
+		DisplayName: 小さな即席架橋装置
 		Tooltip:
 			'''
 			カーソルの位置に木の足場の橋を設置する
@@ -840,7 +856,7 @@ Items: {
 	}
 
 	ObsidianInstaBridge: {
-		DisplayName: 黒曜石の架橋装置
+		DisplayName: 黒曜石の即席架橋装置
 		Tooltip:
 			'''
 			ワールドの両端まで黒曜石の足場の橋を架ける
@@ -855,8 +871,8 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			足元のプラットフォームに等間隔でオムニステーションを設置する 
-			注：プラットフォームは付属しません！
+			足元の足場に等間隔でオムニステーションを設置する 
+			注：足場は付属しません！
 			'''
 	}
 
@@ -865,8 +881,8 @@ Items: {
 		Tooltip:
 			'''
 			左クリックで敵の出現率を10倍に
-			右クリックで敵の出現率を減少させる
-			減少効果はゲームの進行度に応じて効果が強くなる
+			右クリックで敵の出現率を低下させる
+			低下効果はゲームの進行に応じて効果が強くなる
 			'''
 		Battle: 戦い
 		Calming: 落ち着き
@@ -890,9 +906,9 @@ Items: {
 		Tooltip:
 			'''
 			デバッグ項目
-			すべてを調査する
+			全てを調査する
 			'''
-		ResearchText: 調査済みアイテム： {0} 個
+		ResearchText: 調査済みのアイテム： {0} 個
 	}
 
 
@@ -932,7 +948,7 @@ Items: {
 		DisplayName: パイロンクリーナー
 		Tooltip:
 			'''
-			すべてのパイロン周辺を浄化する
+			全てのパイロン周辺を浄化する
 			聖域のパイロンには[i:781]青の環境変更液を、それ以外には[i:780]緑の環境変更液を使用する。
 			'''
 	}
@@ -1473,8 +1489,8 @@ Items: {
 		DisplayName: 狂信者の遺物
 		Tooltip:
 			'''
-			狂気の崇拝者を召喚する。
-			狂気の崇拝者を倒したことがある場合、倒しても宇宙の柱たちを召喚しない
+			狂気の崇拝者を召喚する
+			狂気の崇拝者を倒したことがある場合、倒しても宇宙のピラーたちを召喚しない
 			'''
 	}
 
@@ -1482,9 +1498,9 @@ Items: {
 		DisplayName: デスブリンガー・フェアリー
 		Tooltip:
 			'''
-			ハードモード前の全てのボスとModボスを召喚する。
+			ハードモード前の全てのボスとModボスを召喚する
 			夜間のみ使用可能
-			一部のボスは、適したバイオームにいる場合にのみスポーンする
+			一部のボスは、適したバイオームにいる場合にのみ召喚される
 			[c/FF0000:使用は自己責任]
 			'''
 	}
@@ -1512,7 +1528,7 @@ Items: {
 		DisplayName: ミュータントのブードゥー人形
 		Tooltip:
 			'''
-			すべてのボスを召喚する
+			全てのボスを召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -2378,7 +2394,7 @@ Items: {
 		DisplayName: 即席湖
 		Tooltip:
 			'''
-			カーソルの位置に150x50の湖を作る。
+			カーソルの位置に150x50の湖を作る
 			エリア内に存在したものは消滅する
 			下に重要な建物がある場合は使用しないこと
 			'''
@@ -2393,13 +2409,13 @@ Items: {
 		DisplayName: ビッグ・サック・ポーション
 		Tooltip:
 			'''
-			すべてを吸い寄せる
+			全てを吸い寄せる
 			手動で飲む必要がある
 			'''
 	}
 
 	MiniDirtInstaBridge: {
-		DisplayName: 小型土製架橋装置
+		DisplayName: 小さな土製即席架橋装置
 		Tooltip:
 			'''
 			カーソルの位置に小さな土の橋を作る
@@ -2870,7 +2886,7 @@ Projectiles: {
 	}
 
 	Explosion: {
-		DisplayName: Explosion
+		DisplayName: 爆発
 	}
 
 	AltarExterminatorProj: {
@@ -2902,131 +2918,131 @@ Projectiles: {
 	}
 
 	InstaHouseVisual: {
-		DisplayName: Insta House Visual
+		DisplayName: どこでもハウス 外観
 	}
 
 	InstaProj: {
-		DisplayName: Instavator
+		DisplayName: ヘルベーター
 	}
 
 	InstatrackProj: {
-		DisplayName: Instatrack
+		DisplayName: トラックメーカー
 	}
 
 	LihzahrdInstactuationBombProj: {
-		DisplayName: Lihzahrd Instactuation Bomb
+		DisplayName: リザードの即席爆弾
 	}
 
 	MiniInstabridgeProj: {
-		DisplayName: Mini Instabridge
+		DisplayName: 小さな即席架橋装置
 	}
 
 	ObsInstabridgeProj: {
-		DisplayName: Obsidian Instabridge
+		DisplayName: 黒曜石の即席架橋装置
 	}
 
 	OmniBridgifierProj: {
-		DisplayName: Omni-Bridgifier
+		DisplayName: 架橋用オムニステーション設置補助装置
 	}
 
 	ShurikenProj: {
-		DisplayName: Shuriken
+		DisplayName: 爆弾手裏剣
 	}
 
 	EyeProjectile: {
-		DisplayName: EyeProjectile
+		DisplayName: 目
 	}
 
 	FakeHeart2Deviantt: {
-		DisplayName: Fake Heart
+		DisplayName: 偽のハート
 	}
 
 	FakeHeartDeviantt: {
-		DisplayName: Fake Heart
+		DisplayName: 偽のハート
 	}
 
 	FakeHeartMarkDeviantt: {
-		DisplayName: Fake Heart
+		DisplayName: 偽のハート
 	}
 
 	HallowNukeProj: {
-		DisplayName: HallowRenewal
+		DisplayName: 環境変更濃縮液（青）
 	}
 
 	HallowNukeSupremeProj: {
-		DisplayName: HallowRenewalSupreme
+		DisplayName: 究極の変更濃縮液（青）
 	}
 
 	LumberJaxe: {
-		DisplayName: LumberJaxe
+		DisplayName: ランバー・ジャックス
 	}
 
 	MechEyeProjectile: {
-		DisplayName: MechEyeProjectile
+		DisplayName: 機械の目
 	}
 
 	MushroomNukeProj: {
-		DisplayName: MushroomRenewal
+		DisplayName: 環境変更濃縮液（藍）
 	}
 
 	MushroomNukeSupremeProj: {
-		DisplayName: MushroomRenewalSupreme
+		DisplayName: 究極の変更濃縮液（藍）
 	}
 
 	PhantasmalEyeProjectile: {
-		DisplayName: PhantasmalEyeProjectile
+		DisplayName: 幻の目
 	}
 
 	PurityNukeProj: {
-		DisplayName: PurityRenewal
+		DisplayName: 環境変更濃縮液（緑）
 	}
 
 	PurityNukeSupremeProj: {
-		DisplayName: PurityRenewalSupreme
+		DisplayName: 究極の変更濃縮液（緑）
 	}
 
 	SpawnProj: {
-		DisplayName: Spawn
+		DisplayName: スポーン
 	}
 
 	SemiBridgifierProj: {
-		DisplayName: Semi-Bridgifier
+		DisplayName: 架橋用セミステーション設置補助装置
 	}
 
 	DirtNukeProj: {
-		DisplayName: DirtRenewal
+		DisplayName: 環境変更濃縮液（茶）
 	}
 
 	DirtNukeSupremeProj: {
-		DisplayName: DirtRenewalSupreme
+		DisplayName: 究極の変更濃縮液（茶）
 	}
 
 	SandNukeProj: {
-		DisplayName: SandRenewal
+		DisplayName: 環境変更濃縮液（黄）
 	}
 
 	SandNukeSupremeProj: {
-		DisplayName: SandRenewalSupreme
+		DisplayName: 究極の変更濃縮液（黄）
 	}
 
 	SnowNukeProj: {
-		DisplayName: SnowRenewal
+		DisplayName: 環境変更濃縮液（白）
 	}
 
 	SnowNukeSupremeProj: {
-		DisplayName: SnowRenewalSupreme
+		DisplayName: 究極の変更濃縮液（白）
 	}
 
 	WorldTokenProj: {
-		DisplayName: World Token Proj
+		DisplayName: 世界のトーケン
 	}
 
 	InstaPondProj: {
-		DisplayName: Insta Pond Proj
+		DisplayName: 即席湖
 	}
 
 	MiniDirtInstabridgeProj: {
-		DisplayName: Mini Dirt Instabridge Proj
+		DisplayName: 小さな土製即席架橋装置
 	}
 
 	CoolCrab: {
@@ -3085,53 +3101,53 @@ Tiles: {
 }
 
 Conditions: {
-	DownedBoss: ボスが一体討伐された後
-	DutchmanDown: フライング・ダッチマンが討伐された後
-	MageDown: ダークメイジが討伐された後
-	OgreDown: オーガが討伐された後
-	BetsyDown: ベッツィが討伐された後
-	HorsemanDown: ヘッドレスホースマンが討伐された後
-	PillarsDown: 柱がすべて討伐された後
-	Downed: "討伐後:"
-	WormDown: ジャイアントワームまたはディガーが討伐された後
-	PinkyDown: ピンキーが討伐された後
-	ScoutDown: ゴブリンスカウトが討伐された後
-	DoctorDown: ドクターボーンズが討伐された後
-	MinerDown: アンデッドマイナーが討伐された後
-	TimDown: ティムが討伐された後
-	GnomeDown: ノームが討伐された後
-	GoldSlimeDown: ゴールデンスライムが討伐された後
-	DungeonSlimeDown: ダンジョンスライムとスケルトロンが討伐された後
-	MedusaDown: ハードモードでメデューサが討伐された後
-	ClownDown: ハードモードでピエロが討伐された後
-	NymphDown: ニンフが討伐された後
-	MothDown: ハードモードでモスが討伐された後
-	RainbowSlimeDown: ハードモードでレインボースライムが討伐された後
-	WyvernDown: ハードモードでワイバーンが討伐された後
-	RuneDown: ハードモードでルーンウィザードが討伐された後
-	MimicDown: ハードモードでミミックが討伐された後
-	MimicHallowDown: ハードモードで聖域ミミックが討伐された後
-	MimicCorruptDown: ハードモードで不浄ミミックが討伐された後
-	MimicCrimsonDown: ハードモードで真紅ミミックが討伐された後
-	MimicJungleDown: ハードモードでジャングルミミックが討伐された後
-	IceGolemDown: ハードモードでアイスゴーレムが討伐された後
-	SandDown: ハードモードでサンドエレメンタルが討伐された後
-	DevilDown: ハードモードでレッドデビルが討伐された後
-	BloodFishDown: ﾜﾝﾀﾞﾘﾝｸﾞｱｲﾌｨｯｼｭかゾンビマーマンが討伐された後
-	BloodEelDown: ハードモードで血液ウナギが討伐された後
-	BloodGoblinDown: ハードモードでヘモゴブリンシャークが討伐された後
-	BloodNautDown: ハードモードでドレッドノーチラスが討伐された後
-	SummonerDown: ハードモードでゴブリンウォーロックが討伐され、ゴブリンの侵略が攻略された後
-	PirateDown: ハードモードで海賊のキャプテンが討伐され、海賊の襲来が攻略された後
-	NailheadDown: ネイルヘッドとすべてのメカニカルボスが討伐された後
-	MothronDown: モスロンとすべてのメカニカルボスが討伐された後
-	LeeDown: ボーン・リーとプランテラが討伐された後
-	PaladinDown: パラディンとプランテラが討伐された後
-	SkeleGunDown: プランテラが討伐され、ネクロマンサー、ラギッドキャスター、またはディアボリストのいずれかが討伐された後
-	SkeleMagesDown: ネクロマンサー、ディアボリスト、またはラギッドキャスターのいずれかが討伐され、プランテラも討伐された後
-	SiblingPylon: すべての兄弟がいるとき
-	BossDown: ボスが一体討伐された後
-	DownedTheBoss: ボスが討伐された後
+	DownedBoss: ボスを一体倒した後
+	DutchmanDown: フライング・ダッチマンを倒した後
+	MageDown: ダークメイジを倒した後
+	OgreDown: オーガを倒した後
+	BetsyDown: ベッツィを倒した後
+	HorsemanDown: ヘッドレスホースマンを倒した後
+	PillarsDown: 柱を全て倒した後
+	Downed: "倒した後:"
+	WormDown: ジャイアントワームまたはディガーを倒した後
+	PinkyDown: ピンキーを倒した後
+	ScoutDown: ゴブリンスカウトを倒した後
+	DoctorDown: ドクターボーンズを倒した後
+	MinerDown: アンデッドマイナーを倒した後
+	TimDown: ティムを倒した後
+	GnomeDown: ノームを倒した後
+	GoldSlimeDown: ゴールデンスライムを倒した後
+	DungeonSlimeDown: ダンジョンスライムとスケルトロンを倒した後
+	MedusaDown: ハードモードでメデューサを倒した後
+	ClownDown: ハードモードでピエロを倒した後
+	NymphDown: ニンフを倒した後
+	MothDown: ハードモードでモスを倒した後
+	RainbowSlimeDown: ハードモードでレインボースライムを倒した後
+	WyvernDown: ハードモードでワイバーンを倒した後
+	RuneDown: ハードモードでルーンウィザードを倒した後
+	MimicDown: ハードモードでミミックを倒した後
+	MimicHallowDown: ハードモードで聖域ミミックを倒した後
+	MimicCorruptDown: ハードモードで不浄ミミックを倒した後
+	MimicCrimsonDown: ハードモードで真紅ミミックを倒した後
+	MimicJungleDown: ハードモードでジャングルミミックを倒した後
+	IceGolemDown: ハードモードでアイスゴーレムを倒した後
+	SandDown: ハードモードでサンドエレメンタルを倒した後
+	DevilDown: ハードモードでレッドデビルを倒した後
+	BloodFishDown: ﾜﾝﾀﾞﾘﾝｸﾞｱｲﾌｨｯｼｭかゾンビマーマンを倒した後
+	BloodEelDown: ハードモードで血液ウナギを倒した後
+	BloodGoblinDown: ハードモードでヘモゴブリンシャークを倒した後
+	BloodNautDown: ハードモードでドレッドノーチラスを倒した後
+	SummonerDown: ハードモードでゴブリンウォーロックを倒し、ゴブリンの侵略が攻略された後
+	PirateDown: ハードモードで海賊のキャプテンを倒し、海賊の襲来が攻略された後
+	NailheadDown: ネイルヘッドと全てのメカニカルボスを倒した後
+	MothronDown: モスロンと全てのメカニカルボスを倒した後
+	LeeDown: ボーン・リーとプランテラを倒した後
+	PaladinDown: パラディンとプランテラを倒した後
+	SkeleGunDown: プランテラが討伐され、ネクロマンサー、ラギッドキャスター、またはディアボリストのいずれかを倒した後
+	SkeleMagesDown: ネクロマンサー、ディアボリスト、またはラギッドキャスターのいずれかを倒し、プランテラも倒した後
+	SiblingPylon: 全ての兄弟がいるとき
+	BossDown: ボスを一体倒した後
+	DownedTheBoss: ボスを倒した後
 	Angler5: 釣りクエストを5回クリアした後
 	Angler10: 釣りクエストを10回クリアした後
 	Angler15: 釣りクエストを15回クリアした後

@@ -1,0 +1,357 @@
+Projectiles: {
+	BlightedBall.DisplayName: カースボール
+	BlightedBolt.DisplayName: 呪炎の弾
+	BlightedCanister.DisplayName: 病害のキャニスター
+	GlisteningBall.DisplayName: 霊液のボール
+	GlisteningBlob.DisplayName: 霊液の弾
+	GlisteningCanister.DisplayName: 輝くキャニスター
+	HarmonicCanister.DisplayName: ハーモニックキャニスター
+	HelixBolt.DisplayName: 螺旋状の弾
+	ToxicBarb.DisplayName: 毒弾
+	ToxicCanister.DisplayName: 毒のキャニスター
+	VerdantCanister.DisplayName: 青々としたキャニスター
+	VerdantGas.DisplayName: 毒ガス
+	VerdantGas_Helper.DisplayName: 毒ガス
+	VerdantVine.DisplayName: ツタ
+	GelBall.DisplayName: ジェル
+	VolatileCanister.DisplayName: 揮発性のキャニスター
+	Nanites.DisplayName: Nanites
+	NaniteCanister.DisplayName: ナナイトキャニスター
+	NaniteBlob.DisplayName: ナナイト弾
+	GhastlyShot.DisplayName: スペクトラルボルト
+	GhastlyExplosion.DisplayName: 恐ろしい爆発
+	GhastlyCanister.DisplayName: 恐ろしいキャニスター
+	LunarCanister.DisplayName: 月のキャニスター
+	LunarShot.DisplayName: 月の炎
+	LunarExplosion.DisplayName: 月の爆発
+	VerdantGasEmitter.DisplayName: 毒ガス
+	GhastlyExplosionEmitter.DisplayName: 恐ろしい爆発
+	HarmonicExplosion.DisplayName: 爆発
+	LunarLightningEmitter.DisplayName: 雷の渦
+	ToxicFogEmitter.DisplayName: 毒ガス
+	ToxicFog.DisplayName: 毒ガス
+	NaniteMist.DisplayName: ナナイトミスト
+	NaniteMistEmitter.DisplayName: ナナイトミスト
+	AetherBlob.DisplayName: エーテル弾
+	AetherianCanister.DisplayName: エーテルのキャニスター
+	FiredAetherianCanister.DisplayName: エーテルのキャニスター
+	FiredBlightedCanister.DisplayName: 病害のキャニスター
+	FiredGhastlyCanister.DisplayName: 恐ろしいキャニスター
+	FiredGlisteningCanister.DisplayName: 輝くキャニスター
+	FiredHarmonicCanister.DisplayName: ハーモニックキャニスター
+	FiredLunarCanister.DisplayName: 月のキャニスター
+	FiredNaniteCanister.DisplayName: ナナイトキャニスター
+	FiredToxicCanister.DisplayName: 毒のキャニスター
+	FiredVerdantCanister.DisplayName: 青々としたキャニスター
+	DepletedVolatileCanister.DisplayName: 揮発性のキャニスター
+	FiredVolatileCanister.DisplayName: 揮発性のキャニスター
+	GelBallEmitter.DisplayName: ジェル
+	LunarMark.DisplayName: 月のマーク
+	PrismaticAnnihilationStar.DisplayName: プリズマティックスター
+	ArcticCoolantSnowflake.DisplayName: 雪の欠片
+	HomingNaniteBolt.DisplayName: ナナイト弾
+	NaniteShot.DisplayName: ナナイト弾
+	NaniteLaserLine.DisplayName: レーザーライン
+	NaniteLaserLineEmitter.DisplayName: レーザーライン
+	HelixBoltEmitter.DisplayName: 螺旋状の弾
+}
+
+Items: {
+	WoodenSlingshot: {
+		DisplayName: 木のスリングショット
+		Tooltip: キャニスターを発射する
+	}
+
+	ModifiedHandgun: {
+		DisplayName: 改造ハンドガン
+		Tooltip: キャニスターの中身を発射する
+	}
+
+	VolatileCanister: {
+		DisplayName: 揮発性のキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、激しい爆発を起こす
+			中身を発射するタイプは、ジェルを発射し、敵を炎に対して弱くする
+			'''
+	}
+
+	VerdantCanister: {
+		DisplayName: 青々としたキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、いくつかのツタを発生させる
+			中身を発射するタイプは、毒ガスを発射する
+			'''
+	}
+
+	ToxicCanister: {
+		DisplayName: 毒のキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、毒ガスを発生させる
+			中身を発射するタイプは、敵を追尾する毒弾を発射する
+			'''
+	}
+
+	HarmonicCanister: {
+		DisplayName: ハーモニックキャニスター
+		Tooltip:
+			'''
+			発射するタイプは射程が短いが、敵を貫通し、消滅時に爆発する
+			中身を発射するタイプは、螺旋状の弾を発射する
+			'''
+	}
+
+	GlisteningCanister: {
+		DisplayName: 輝くキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると爆発し、地形に当たると跳ね返る霊液のボールを発生させる
+			中身を発射するタイプは、敵か地形に当たると分裂する霊液の弾を発射する
+			'''
+	}
+
+	EmptyCanister: {
+		DisplayName: 空のキャニスター
+		Tooltip: さまざまな種類のキャニスターを作るのに使う
+	}
+
+	BlightedCanister: {
+		DisplayName: 病害のキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、カースボールの螺旋を放つ
+			中身を発射するタイプは、呪炎の弾を発射する
+			'''
+	}
+
+	NaniteCanister: {
+		DisplayName: ナナイトキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、敵を追尾するいくつかの弾を放つ
+			中身を発射するタイプは、敵を貫通するレーザーラインを発射する
+			'''
+	}
+
+	GhastlyCanister: {
+		DisplayName: 恐ろしいキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、クラスター爆弾を放つ
+			中身を発射するタイプは、スペクトラルボルトを複数発射する
+			'''
+		
+	}
+
+	LunarCanister: {
+		DisplayName: 月のキャニスター
+		Tooltip:
+			'''
+			発射するタイプは敵か地形に当たると、雷の渦を発生させる
+			中身を発射するタイプは、月の炎を放つ
+			「暗闇で光るが、常夜灯としては使えない」
+			'''
+	}
+
+	GraniteCannon: {
+		DisplayName: 御影石の大砲
+		Tooltip: キャニスターを発射する
+	}
+
+	AncientSprayer: {
+		DisplayName: 古代の噴霧器
+		Tooltip:
+			'''
+			キャニスターの中身を発射する
+			20%の確率でキャニスターを消費しない
+			'''
+	}
+
+	BarkBellower: {
+		DisplayName: バークベロワー
+		Tooltip: キャニスターの中身を発射し、自然の痛みを与える
+	}
+
+	LushSlinger: {
+		DisplayName: ラッシュスリンガー
+		Tooltip: キャニスターを発射し、青々としたキャニスターを使った際はツタが強力になる
+	}
+
+	TheColony: {
+		DisplayName: コロニー
+		Tooltip: 広範囲にキャニスターの中身を発射する
+	}
+
+	InfernalCannon: {
+		DisplayName: インファーナルキャノン
+		Tooltip: キャニスターを発射し、シャドウフレイムを与えることがある
+	}
+
+	RepurposedSprayBottle: {
+		DisplayName: 再利用したスプレーボトル
+		Tooltip:
+			'''
+			キャニスターの中身を連射するが、弾速が遅い
+			40%の確率でキャニスターを消費しない
+			'''
+	}
+
+	Icemire: {
+		DisplayName: アイスマイア
+		Tooltip: 2点バーストでキャニスターを発射し、霜焼けを与えることがある
+	}
+
+	Resonance: {
+		DisplayName: レゾナンス
+		Tooltip:
+			'''
+			キャニスターの中身を一度に2つ発射する
+			30%の確率でキャニスターを消費しない
+			'''
+	}
+
+	Pneumaticannon: {
+		DisplayName: 空気砲
+		Tooltip: 非常に弾速が早いキャニスターを発射する
+	}
+
+	SlimeySlinger: {
+		DisplayName: スライミースリンガー
+		Tooltip:
+			'''
+			キャニスターを発射し、敵か地形に当たると一度だけ跳ね返る
+			「戦術的な跳弾!」
+			'''
+	}
+
+	Splattergun: {
+		DisplayName: スプラッターガン
+		Tooltip:
+			'''
+			キャニスターの中身を発射する
+			撃ち続けていると攻撃速度が上昇していく
+			25%の確率でキャニスターを消費しない
+			'''
+	}
+
+	Reverence: {
+		DisplayName: レヴェレンス
+		Tooltip:
+			'''
+			左クリックでキャニスターを発射し、
+			右クリックでキャニスターの中身を発射する
+			'''
+	}
+
+	ChlorophyteSlugger: {
+		DisplayName: クロロファイトスラッガー
+		Tooltip:
+			'''
+			キャニスターの中身を発射する
+			撃ち続けていると攻撃速度が上昇していく
+			60%の確率でキャニスターを消費しない
+			'''
+	}
+
+	AetherianCanister: {
+		DisplayName: エーテルのキャニスター
+		Tooltip:
+			'''
+			発射するタイプは地形に当たると、跳ね返るエーテル弾を複数発射する
+			中身を発射するタイプは、二回爆発するキャニスターを発射する
+			'''
+	}
+
+	FungalFury: {
+		DisplayName: ファンガルフューリー
+		Tooltip:
+			'''
+			4点バーストでキャニスターの中身を発射する
+			20%の確率でキャニスターを消費しない
+			'''
+	}
+
+	PneumaticPump: {
+		DisplayName: 空気圧ポンプ
+		Tooltip:
+			'''
+			発射したキャニスターの爆発範囲が50%拡大され、
+			中身を発射するタイプの武器の攻撃速度が8%上昇
+			'''
+	}
+
+	AbyssalBlaster: {
+		DisplayName: アビサルブラスター
+		Tooltip:
+			'''
+			キャニスターを一度に3つ発射する
+			「部屋の大きさは聞いてないけど…」
+			'''
+	}
+
+	HypernovaRailgun: {
+		DisplayName: ハイパーノヴァレールガン
+		Tooltip: 非常に弾速が早いキャニスターを発射し、距離が離れているほどダメージが最大で20%増加
+	}
+
+	QuantumFluxCannon: {
+		DisplayName: クアンタムフラックスキャノン
+		Tooltip:
+			'''
+			最先端の量子技術を使用し、キャニスターの発射と中身を同時に発射する
+			20%の確率でキャニスターを消費しない
+			「それはバグではない。機能だ!」
+			'''
+	}
+
+	PrismaticAnnihilation: {
+		DisplayName: プリズマティックアナイアレーション
+		Tooltip:
+			'''
+			キャニスターの中身を発射し、4発撃つとキャニスターを消費し、プリズマティックスターを発射する
+			撃ち続けていると攻撃速度が上昇していく
+			50%の確率でキャニスターを消費しない
+			'''
+	}
+
+	Coelacannon: {
+		DisplayName: シーラキャノン
+		Tooltip:
+			'''
+			敵を追尾するキャニスターを発射する
+			「この武器の製造において動物は傷つけられていない!」
+			'''
+	}
+
+	ArcticCoolant: {
+		DisplayName: 北極の冷却剤
+		Tooltip: 発射されたキャニスターが爆発時、敵を追尾する雪の欠片を放つ
+	}
+
+	CryoPumpAssembly: {
+		DisplayName: クライオポンプアセンブリ
+		Tooltip:
+			'''
+			発射したキャニスターの爆発範囲が50%拡大され、
+			爆発時、敵を追尾する雪の欠片を放つ
+			'''
+	}
+
+	SolarSigil: {
+		DisplayName: 太陽の印章
+		Tooltip: キャニスターの中身を発射するタイプの武器でクリティカル時、太陽光線で近くの敵にダメージを与える
+	}
+
+	SunBlessedTech: {
+		DisplayName: 神聖な太陽のテクノロジー
+		Tooltip:
+			'''
+			中身を発射するタイプの武器の攻撃速度が15%上昇し、
+			キャニスターの中身を発射するタイプの武器でクリティカル時、太陽光線で近くの敵にダメージを与える
+			'''
+	}
+}
+
+Configs.ServerConfig.DisplayName: サーバー設定
