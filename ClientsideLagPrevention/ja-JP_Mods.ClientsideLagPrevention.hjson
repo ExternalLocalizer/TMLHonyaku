@@ -1,0 +1,62 @@
+Configs: {
+	BossConfigurable: {
+		Tooltip: ""
+
+		Always: {
+			Label: 常に有効
+		}
+
+		IfBossAlive: {
+			Label: ボスが生存中のみ
+		}
+
+		Never: {
+			Label: 無効
+		}
+	}
+
+	ClientsideLagPreventionConfig: {
+		DisplayName: Client Side Mod Prevention設定
+
+		SkipBlack: {
+			Label: 真っ黒ブロックの描画を省略
+			Tooltip: 完全に暗いブロックの処理と黒いテクスチャの描画を省略する
+		}
+
+		IgnoreDust: {
+			Label: ダストを無効化
+			Tooltip: ダスト生成を無効化する
+		}
+
+		IgnoreCombatText: {
+			Label: 戦闘テキストを無効化
+			Tooltip: 戦闘テキスト生成を無効化する
+		}
+
+		IgnoreGore: {
+			Label: ゴアを無効化
+			Tooltip: ゴア生成を無効化する
+		}
+
+		IgnoreRain: {
+			Label: 雨を無効化
+			Tooltip: 雨の生成を無効化する
+		}
+
+		ShowCompatibilityWarnings: {
+			Label: 互換性警告を表示
+			Tooltip: ワールド参加時に、他Modによって機能が壊れている場合チャットへ警告を表示する
+		}
+	}
+
+	Common: {
+		ILEditUpdateGoreFail: IL編集でGore.Update()に失敗したため、ゴアを無効化できません。
+		ILEditUpdateRainFail: IL編集でRain.Update()に失敗したため、雨を無効化できません。
+		ILEditUpdateDustFail: IL編集でDust.UpdateDust()に失敗したため、ダストを無効化できません。
+		ILEditUpdateTextFail: IL編集でCombatText.Update()に失敗したため、戦闘テキストを無効化できません。
+		ILEditDrawBlackFail: IL編集でMain.DrawBlack()に失敗したため、完全に暗いブロックを省略できません。
+		ILEditGenericFail: IL編集に失敗したため、一部機能が壊れている可能性があります。
+		DisabledDueToILEditFail: 関連するIL編集が失敗したため、この機能は動作しない\n読み込まれているModの競合を確認してください。
+		CompatibilityIssueWarning: 読み込まれているModがクライアント側ラグ軽減機能と競合していないか確認してください。
+	}
+}

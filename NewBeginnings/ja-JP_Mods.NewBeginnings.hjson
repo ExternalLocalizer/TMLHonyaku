@@ -1,3 +1,189 @@
+Configs: {
+	NewBeginningsClientConfig: {
+		HidePlayerOrigins: {
+			Tooltip: ""
+			Label: 素性を非表示
+		}
+
+		MrPlaguesButtonOffsetY: {
+			Tooltip:
+				'''
+				Mr Plague's Custom RacesまたはOne Piece Modを使用している場合、「Click me」ダイアログの表示位置を画面中央からどれだけ縦方向にずらすかを設定する。
+				デフォルトは300で、画面中央から下端までの範囲に制限される。
+				'''
+			Label: 互換用ボタンの垂直位置
+		}
+
+		DisplayName: New Beginnings クライアント設定
+	}
+}
+
+	Scaling: {
+		Relative: {
+			Tooltip: ""
+			Label: 相対
+		}
+
+		Flat: {
+			Tooltip: ""
+			Label: 固定
+		}
+
+		Scaled: {
+			Tooltip: ""
+			Label: スケール
+		}
+
+		Tooltip: ""
+	}
+
+	NewBeginningsConfig: {
+		HealthScaling: {
+			Tooltip:
+				'''
+				初期体力が高い、低い素性が400にスケーリングされるかどうかを設定できる。
+				スケーリング適用時は常に最大400となる。
+				固定の場合、初期体力+300まで上昇。
+				相対スケールでは、最大ライフクリスタルの体力は 400 * (初期体力 / 100) となる。
+				'''
+			Label: "[i:58] 最大体力のスケーリング"
+		}
+
+		DisplayName: NewBeginnings設定
+	}
+}
+
+SnailDeath: {
+	2: "{0}...それは避けられないよ。"
+	1: 結局、{0}は粘り強さが足りませんでした。
+	0: "{0}はカタツムリよりも遅かったようです。"
+}
+
+TitleLine: " [c/8B8B8B:　　　　素性：{0}]"
+
+MrPlaguesCompatLine: ここをクリックして「NewBeginnings」メニューを開く！
+
+Projectiles: {
+	KylieProjectile: {
+		DisplayName: Kylie Projectile
+	}
+
+	FeintDagger: {
+		DisplayName: Feint Dagger
+	}
+}
+
+Unlocks: {
+	UnlockText: "[c/CFC553:{0}] をアンロックしました！"
+
+	Terrarian: {
+		Rewards: "[c/4D7B77:カスタム素性]の制限が完全になくなる"
+		Description: 素性を選択した状態でムーンロードを討伐する。
+		DisplayName: テラリアン
+	}
+
+	Renewed: {
+		Rewards: "[c/4D7B77:カスタム素性]が解放される。"
+		Description: ムーンロードを討伐する。
+		DisplayName: 新生
+	}
+
+	Accursed: {
+		Rewards: 素性：[c/832C2E:呪われし者]がアンロックされる。
+		Description: 素性を選択した状態でウォールオブフレッシュを撃破する。
+		DisplayName: 呪われし者
+	}
+
+	Beginner: {
+		Rewards: 素性：[c/A7B5BC:代替者]がアンロックされる。
+		Description: 初めて素性を使用する。
+		DisplayName: ビギナー
+	}
+}
+
+UI: {
+	CustomOrigin: {
+		Splashes: {
+			15: ビタミンA・C・Dが不足しています！
+			14: YouTubeで紹介されました！
+			13: バチカン公認！
+			12: 一人当たり98%のバランス調整不満を生み出す！
+			11: 社員所有・創業！
+			10: 近日、X - The Everything Appに買収予定！
+			9: オープンソースなので、誰でも批評可能！
+			8: 3カ国で違法！
+			7: 6年連続プレイヤーズ・チョイス・アワード受賞！
+			6: 想像より333%多いストーリーが含まれています！
+			5: アメリカ食品医薬品局未承認！
+			4: 高級料理との相性抜群！
+			3: カラミティ？知らないよ！
+			2: 自分に「宇宙のシジル」を使えば即勝利可能！
+			1: 1979年以来アスベストフリー！
+			0: 本当の挑戦はアイテムなしで始めることだ！
+		}
+
+		Sort: {
+			ID: 内部ID
+			Alphabetical: アルファベット順
+			Chaos: カオス
+		}
+
+		SortBy: "並び替え - "
+		Search: アイテムを検索 - Enterでフィルター
+		Mana: マナ ({0}/200)
+		Health: 体力 ({0}/400)
+		Legs: 足
+		Body: 体
+		Helmet: 兜
+		Acc: ｱｸｾｻﾘｰ
+		Inv: ｲﾝﾍﾞﾝﾄﾘ
+	}
+
+	SortBy: {
+		ModReverse: mod (reverse)
+		Mod: mod
+		AlphabeticallyReverse: alphabetical (reverse)
+		Alphabetically: alphabetical
+		DifficultyReverse: difficulty (reverse)
+		Difficulty: 難易度
+		Default: デフォルト
+		Line: "{0}で並び替え"
+	}
+
+	Splash: {
+		29: プレイをやめられない程度に精神を支配する！
+		28: 人を殺すときにピッタリ！
+		27: どんな祝日にも最適なプレゼント！
+		26: 「なんて素晴らしいModだ！」― ムーンロード
+		25: 極秘の弱点がちょうど1つ含まれています！
+		24: 互換性を完璧に保証します！
+		23: 無数のものを内包している！
+		22: 謎の有能な開発者集団に支援されています！
+		21: 遠い火山の奥深くで鍛え上げられました！
+		20: マインスイーパーも試してみよう！
+		19: 量子プログラミング？ 思っている以上に現実的！
+		18: 西暦19,781年に人類学を革命を起こす！
+		17: Walbertを生み出した人々のすぐ隣！
+		16: Windows 95専用に最適化済み！
+		15: 食べられないが、想像ならできる！
+		14: 水中でも陸上でも安全に使用可能！
+		13: スポンサー募集中！
+		12: BFTAクラスターは我らの中に生きている！
+		11: Tremor？ そんなの聞いたことないね！
+		10: 研究者が「ドラマなし」と認定！
+		9: シェーダーが圧倒的に不足しています！
+		8: Team Spiritがスポンサー！
+		7: 南極で意外な人気を誇る！
+		6: 『純粋主義者』は、このMODを「眺める」人向けであって、「プレイ」する人向けではありません！
+		5: バグは一切なく、これからも発生しません！
+		4: 危険なほどひどいコードを含んでいます！
+		3: ﾅﾄﾘｳﾑ15%減、糖分15%減、ｷｬﾗｸﾀｰ100%向上！
+		2: 『MrPlague's Authentic Races』とは別物です！
+		1: 『Overseer』を手掛けたチームによる新作！
+		0: さらに広がる世界へ！
+	}
+}
+
 Origins: {
 	Inevitable: {
 		Description:
@@ -10,10 +196,7 @@ Origins: {
 	}
 
 	Custom: {
-		Description:
-			'''
-			好きな装備で開始できる。ムーンロードを倒すことで解放される。
-			'''
+		Description: 好きな装備で開始できる。ムーンロードを倒すことで解放される。
 		Flavor: サンドボックスの精神は、あなたの中にも生きている。
 		DisplayName: カスタム
 	}
@@ -353,152 +536,6 @@ Items: {
 			無限に持続する
 			'''
 		DisplayName: 奪われしランタン
-	}
-}
-
-Configs: {
-	Scaling: {
-		Relative: {
-			Label: 相対
-		}
-
-		Flat: {
-			Label: 固定
-		}
-
-		Scaled: {
-			Label: スケール
-		}
-
-		Tooltip: ""
-	}
-
-	NewBeginningsConfig: {
-		HealthScaling: {
-			Tooltip:
-				'''
-				初期体力が高い、低い素性が400にスケーリングされるかどうかを設定できる。
-				スケーリング適用時は常に最大400となる。
-				固定の場合、初期体力+300まで上昇。
-				相対スケールでは、最大ライフクリスタルの体力は 400 * (初期体力 / 100) となる。
-				'''
-			Label: "[i:58] 最大体力のスケーリング"
-		}
-
-		DisplayName: NewBeginnings設定
-	}
-}
-
-SnailDeath: {
-	2: "{0}...それは避けられなかった。"
-	1: 結局、{0}は粘り強さが足りなかった。
-	0: "{0}はカタツムリよりも遅かった。"
-}
-
-TitleLine: " [c/8B8B8B:　　　　素性：{0}]"
-
-MrPlaguesCompatLine: ここをクリックして「NewBeginnings」メニューを開く！
-
-Projectiles: {
-	KylieProjectile: {
-		DisplayName: Kylie Projectile
-	}
-
-	FeintDagger: {
-		DisplayName: Feint Dagger
-	}
-}
-
-Unlocks: {
-	UnlockText: "[c/CFC553:{0}] をアンロックしました！"
-
-	Terrarian: {
-		Rewards: "[c/4D7B77:カスタム素性]の制限が完全になくなる"
-		Description: 素性を選択した状態でムーンロードを討伐する。
-		DisplayName: テラリアン
-	}
-
-	Renewed: {
-		Rewards: "[c/4D7B77:カスタム素性]が解放される。"
-		Description: ムーンロードを討伐する。
-		DisplayName: 新生
-	}
-
-	Accursed: {
-		Rewards: 素性：[c/832C2E:呪われし者]がアンロックされる。
-		Description: 素性を選択した状態でウォールオブフレッシュを撃破する。
-		DisplayName: 呪われし者
-	}
-
-	Beginner: {
-		Rewards: 素性：[c/A7B5BC:代替者]がアンロックされる。
-		Description: 初めて素性を使用する。
-		DisplayName: ビギナー
-	}
-}
-
-UI: {
-	CustomOrigin: {
-		Splashes: {
-			15: ビタミンA・C・Dが不足しています！
-			14: YouTubeで紹介されました！
-			13: バチカン公認！
-			12: 一人当たり98%のバランス調整不満を生み出す！
-			11: 社員所有・創業！
-			10: 近日、X - The Everything Appに買収予定！
-			9: オープンソースなので、誰でも批評可能！
-			8: 3カ国で違法！
-			7: 6年連続プレイヤーズ・チョイス・アワード受賞！
-			6: 想像より333%多いストーリーが含まれています！
-			5: アメリカ食品医薬品局未承認！
-			4: 高級料理との相性抜群！
-			3: カラミティ？知らないよ！
-			2: 自分に「宇宙のシジル」を使えば即勝利可能！
-			1: 1979年以来アスベストフリー！
-			0: 本当の挑戦はアイテムなしで始めることだ！
-		}
-
-		Sort: {
-			ID: 内部ID
-			Alphabetical: アルファベット順
-			Chaos: カオス
-		}
-
-		SortBy: "並び替え - "
-		Search: アイテムを検索 - Enterでフィルター
-		Mana: マナ ({0}/200)
-		Health: 体力 ({0}/400)
-		Legs: 足
-		Body: 体
-		Helmet: 兜
-		Acc: ｱｸｾｻﾘｰ
-		Inv: ｲﾝﾍﾞﾝﾄﾘ
-	}
-
-	SortBy: {
-		Difficulty: 難易度
-		Default: デフォルト
-		Line: "{0}で並び替え"
-	}
-
-	Splash: {
-		16: Windows 95専用に最適化済み！
-		15: 食べられないが、想像ならできる！
-		14: 水中でも陸上でも安全に使用可能！
-		13: スポンサー募集中！
-		12: BFTAクラスターは我らの中に生きている！
-		11: Tremor？ そんなの聞いたことないね！
-		10: 研究者が「ドラマなし」と認定！
-		9: シェーダーが圧倒的に不足しています！
-		8: Team Spiritがスポンサー！
-		7: 南極で意外な人気を誇る！
-		6: 『純粋主義者』は、このMODを「眺める」人向けであって、「プレイ」する人向けではありません！
-		5: バグは一切なく、これからも発生しません！
-		4: 危険なほどひどいコードを含んでいます！
-		3: ﾅﾄﾘｳﾑ15%減、糖分15%減、ｷｬﾗｸﾀｰ100%向上！
-		2: 『MrPlague's Authentic Races』とは別物です！
-		1: 『Overseer』を手掛けたチームによる新作！
-		0: さらに広がる世界へ！
 	}
 }
 

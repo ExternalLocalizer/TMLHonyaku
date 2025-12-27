@@ -324,6 +324,11 @@ Configs: {
 			Label: "[i:ThoriumMod/LodeStoneBow]Lodestone Bow"
 		}
 
+		SuperPlasmaCannon: {
+			Tooltip: ""
+			Label: "[i:ThoriumMod/SuperPlasmaCannon]Super Plasma Cannon"
+		}
+
 		OmegaBlaster: {
 			Tooltip: ""
 			Label: "[i:ThoriumMod/OmegaBlaster]Omega Blaster"
@@ -404,6 +409,16 @@ Configs: {
 			Label: "[i:ThoriumMod/HitScanner]Hit Scanner"
 		}
 
+		ThoriumSpear: {
+			Tooltip: ""
+			Label: "[i:ThoriumMod/ThoriumSpear]Thorium Spear"
+		}
+
+		ThoriumRevolver: {
+			Tooltip: Note: This re-adds its crafting recipe back
+			Label: "[i:ThoriumMod/ThoriumRevolver]Thorium Revolver"
+		}
+
 		ThoriumArmor: {
 			Tooltip: Note: The set bonus is what's reworked, not the armor itself
 			Label: "[i:ThoriumMod/ThoriumMail]Thorium Armor"
@@ -413,8 +428,8 @@ Configs: {
 			Tooltip:
 				'''
 				このMODによってリワークされたアイテムを説明文に表示する
-                既知の問題: MODの読み込み順序が乱れていると正常に動作しない
-                また、特定の防具や吟遊詩人武器では正常に動作しないことがある
+				既知の問題: MODの読み込み順序が乱れていると正常に動作しない
+				また、特定の防具や吟遊詩人武器では正常に動作しないことがある
 				'''
 			Label: アイテムリワークを表示
 		}
@@ -737,6 +752,18 @@ Items: {
 		DisplayName: ゼファーの翼
 	}
 
+	ZephyrWings: {
+		Tooltip:
+			'''
+			飛行とゆっくり落下を可能にする
+			性能はひな鳥の翼と同等
+			空中でゼファーのグリップの雛を使ってグラップルすると飛行時間が延びる
+			滑空後しばらくするとゼファーのグリップの雛を再召喚できる
+			ダメージを与えると雛の再召喚可能までが大幅に早まる
+			'''
+		DisplayName: ゼファーの翼
+	}
+
 	ZephyrsRuin: {
 		Tooltip:
 			'''
@@ -754,6 +781,103 @@ Items: {
 	VampireCape: {
 		Tooltip: 出血と吸血鬼の呪いの耐性を付与する
 		DisplayName: 吸血コウモリのマント
+	}
+
+	ValkyrienSkyStone: {
+		Tooltip:
+			'''
+			[i:ThoriumRework/StarScoutReticle] 宇宙空間で呼吸できるようになり、暗視効果を得る
+			[i:ThoriumRework/StarScoutReticle] ダッシュができるようになり、ダッシュ時、数ブロック先へ瞬間移動する
+			[i:ThoriumRework/BannerofWar] 戦闘中、時間経過でダメージと追加回復量が増加し、非戦闘時は徐々に消える
+			[i:ThoriumRework/BannerofWar] 戦闘中、追加回復量と同値の回復パルスを周期的に放ち、味方を回復し、吟遊詩人のエンパワーメント範囲がパルス範囲に影響する
+			[i:ThoriumRework/BannerofWar] 戦闘時間が長いほど、パルスの頻度が上昇する
+			[i:ThoriumRework/BandofCratons] パッシブのシールド40、溢れ出るエネルギーに対する耐性と、自身の攻撃に溢れ出るエネルギーを付与する
+			[i:ThoriumRework/BandofCratons] 失ったシールド量に応じて各種リソースを回復し、20以上失うと電撃が発生して投射物を3つ破壊する
+			'''
+		DisplayName: ワルキューレの天空石
+	}
+
+	ValadiumHeavyScythe: {
+		Tooltip:
+			'''
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			貫通する短射程の闇のエネルギー波を放ち、ヒットした敵に継続ダメージを与える
+			'''
+		DisplayName: バラジウムの大鎌
+	}
+
+	ThoriumWhistle: {
+		Tooltip: 短射程の雷撃を連続で発射する
+		DisplayName: トリウムのホイッスル
+	}
+
+	ThoriumHeavyScythe: {
+		Tooltip: この鎌は回転させるのではなく、カーソルに向かって攻撃する
+		DisplayName: トリウムの大鎌
+	}
+
+	ThoriumBludgeon: {
+		Tooltip:
+			'''
+			最初の命中時に残留する回復エネルギーを放つ
+			回復エネルギーは同時に最大2つまで存在できる
+			'''
+		DisplayName: トリウムの鎖鎌
+	}
+
+	TitanVisor: {
+		Tooltip:
+			'''
+			「原初のエネルギーが宿っている」
+			召喚できるミニオンの数が3、セントリー1増加
+			ムチの射程が15%上昇
+			召喚クリティカル率が6%上昇
+			ミニオンとセントリーがクリティカルヒットするようになる
+			'''
+		DisplayName: 巨人のバイザー
+	}
+
+	TitanVisage: {
+		Tooltip:
+			'''
+			「原初のエネルギーが宿っている」
+			神聖ダメージと詠唱速度が15%向上する
+			回復魔法の回復量が6増える
+			回復魔法がクリティカルヒットするようになり、回復量が2倍になる
+			'''
+		DisplayName: 巨人のヴィザージュ
+	}
+
+	TitanHood: {
+		Tooltip:
+			'''
+			「原初のエネルギーが宿っている」
+			投擲速度が15%上昇
+			テクニカルポイントの最大値が3増加
+			非消費型の投擲武器による疲労の溜まりが40%遅くなる
+			'''
+		DisplayName: 巨人のフード
+	}
+
+	TitanHat: {
+		Tooltip:
+			'''
+			「原初のエネルギーが宿っている」
+			演奏速度とインスピレーション自然回復が15%向上する
+			エンパワーメント持続時間が3秒延長
+			エンパワーメント範囲を大幅に増進
+			'''
+		DisplayName: 巨人の帽子
+	}
+
+	TerrariumSoulScourge: {
+		Tooltip:
+			'''
+			最初の命中時に残留する回復エネルギーを放つ虹色の鎖鎌を振る
+			回復エネルギーは同時に最大10個まで存在できる
+			回復オーブ生成時に自身の虹色の分身を召喚する
+			'''
+		DisplayName: テラリウムのソウルスカージ
 	}
 
 	StellarTune: {
@@ -775,6 +899,31 @@ Items: {
 			「暗闇が怖い？大丈夫、私がいる！」
 			'''
 		DisplayName: スペーススカウター
+	}
+
+	SoulSnatcher: {
+		Tooltip:
+			'''
+			この武器は鎌として扱われる
+			刃で敵に命中させるとソウルエッセンスを生成する
+			柄で敵に命中させると残留する回復エネルギーを生成する
+			回復エネルギーは同時に最大5つまで存在できる
+			「魂はスナッチャーのものだ！」
+			'''
+		DisplayName: ソウルスナッチャー
+	}
+
+	SierraChimera: {
+		Tooltip:
+			'''
+			[i:ThoriumRework/QueenJellyPin]泡、[i:ThoriumRework/VampireCape]流血、[i:ThoriumRework/VampireCape]吸血鬼の呪いに免疫を得る
+			[i:ThoriumRework/QueenJellyPin] 周囲に触手を召喚し、敵に張り付いて命中時にライフとリソース回復を促進する
+			[i:ThoriumRework/QueenJellyPin] 触手のダメージは防御力に応じて上昇する
+			[i:ThoriumRework/VampireCape] コウモリの群れ発動中は被ダメージが大幅に減少し、敵に狙われにくくなる
+			[i:ThoriumRework/ZephyrWings] 空中でゼファーのグリップを使ってグラップルすると飛行時間が延びる
+			[i:ThoriumRework/ZephyrWings] 滑空後しばらくすると鳥を再召喚でき、ダメージを与えるとより早く再召喚可能になる
+			'''
+		DisplayName: シエラキメラ
 	}
 
 	Shellxophone: {
@@ -902,6 +1051,16 @@ Items: {
 		DisplayName: 拡声器
 	}
 
+	LodeStoneMagnetMace: {
+		Tooltip:
+			'''
+			最初の命中時に残留する回復エネルギーを放つ
+			回復エネルギーは同時に最大4つまで存在できる
+			ヒットすると敵をひび割れ状態にし、受けるダメージが10%増加させ、鎖鎌が敵に引き寄せられるようになる
+			'''
+		DisplayName: ロードストーンの鎖鎌
+	}
+
 	LichWhip: {
 		Tooltip:
 			'''
@@ -911,6 +1070,17 @@ Items: {
 			「死後の世界でも魂を苦しめ続けるための道具」
 			'''
 		DisplayName: 拷問道具
+	}
+
+	Kusarigama: {
+		Tooltip:
+			'''
+			この武器は鎌として扱われる
+			刃で敵に命中させるとソウルエッセンスを生成する
+			柄で敵に命中させると残留する回復エネルギーを生成する
+			回復エネルギーは同時に最大2つまで存在できる
+			'''
+		DisplayName: 鎖鎌
 	}
 
 	JellyfishJam: {
@@ -993,6 +1163,16 @@ Items: {
 		DisplayName: 英雄の角笛
 	}
 
+	BeholderHeart: {
+		Tooltip:
+			'''
+			最大ライフが10増加、ボーナス回復量が1増加
+			味方のライフを合計30回復するごとに、ダメージを与えるエネルギーを放つ
+			さらに、ボーナス回復量と同量のライフを回復する
+			'''
+		DisplayName: ビホルダーの心臓
+	}
+
 	BeholderBlade: {
 		Tooltip:
 			'''
@@ -1036,95 +1216,6 @@ Items: {
 			「大陸移動にも耐えられるほど頑丈」
 			'''
 		DisplayName: 大地のバンド
-	}
-
-	ValkyrienSkyStone: {
-		Tooltip:
-			'''
-			[i:ThoriumRework/StarScoutReticle] 宇宙空間で呼吸できるようになり、暗視効果を得る
-			[i:ThoriumRework/StarScoutReticle] ダッシュ時、数ブロック先へ瞬間移動し、ダッシュを未所持なら付与される
-			[i:ThoriumRework/BannerofWar] 戦闘中、時間経過でダメージと追加回復量が増加し、非戦闘時は徐々に消える
-			[i:ThoriumRework/BannerofWar] 戦闘中、追加回復量と同値の回復パルスを周期的に放ち、味方を回復する。バードのエンパワー範囲がパルス範囲に影響する
-			[i:ThoriumRework/BannerofWar] 戦闘時間が長いほど、パルスの頻度が上昇する
-			[i:ThoriumRework/BandofCratons] パッシブのシールド40、溢れ出るエネルギーに対する耐性と、自身の攻撃に溢れ出るエネルギーを付与する
-			[i:ThoriumRework/BandofCratons] 失ったシールド量に応じて各種リソースを回復し、20以上失うと電撃が発生して投射物を3つ破壊する
-			'''
-		DisplayName: ワルキューレの天空石
-	}
-
-	ThoriumHeavyScythe: {
-		Tooltip: このサイズは回転ではなく、方向に向けて振る
-		DisplayName: トリウムの大鎌
-	}
-
-	TitanVisor: {
-		Tooltip:
-			'''
-			「原初のエネルギーが宿っている」
-			召喚できるミニオンの数が3、セントリー1増加
-			ムチの射程が15%上昇
-			召喚クリティカル率が6%上昇
-			ミニオンとセントリーがクリティカルヒットするようになる
-			'''
-		DisplayName: 巨人のバイザー
-	}
-
-	TitanVisage: {
-		Tooltip:
-			'''
-			「原初のエネルギーが宿っている」
-			神聖ダメージと詠唱速度が15%向上する
-			回復魔法の回復量が6増える
-			回復魔法がクリティカルヒットするようになり、回復量が2倍になる
-			'''
-		DisplayName: 巨人のヴィザージュ
-	}
-
-	TitanHood: {
-		Tooltip:
-			'''
-			「原初のエネルギーが宿っている」
-			投擲速度が15%上昇
-			テクニカルポイントの最大値が3増加
-			非消費型の投擲武器による疲労の溜まりが40%遅くなる
-			'''
-		DisplayName: 巨人のフード
-	}
-
-	TitanHat: {
-		Tooltip:
-			'''
-			「原初のエネルギーが宿っている」
-			演奏速度とインスピレーション自然回復が15%向上する
-			エンパワーメント持続時間が3秒延長
-			エンパワーメント範囲を大幅に増進
-			'''
-		DisplayName: 巨人の帽子
-	}
-
-	ZephyrWings: {
-		Tooltip:
-			'''
-			飛行とゆっくり落下を可能にする
-			性能はひな鳥の翼と同等
-			空中でゼファーのグリップの雛を使ってグラップルすると飛行時間が延びる
-			滑空後しばらくするとゼファーのグリップの雛を再召喚できる
-			ダメージを与えると雛の再召喚可能までが大幅に早まる
-			'''
-		DisplayName: ゼファーの翼
-	}
-
-	SierraChimera: {
-		Tooltip:
-			'''
-			[i:ThoriumRework/QueenJellyPin]泡、[i:ThoriumRework/VampireCape]流血、[i:ThoriumRework/VampireCape]吸血鬼の呪いに免疫を得る
-			[i:ThoriumRework/QueenJellyPin] 周囲に触手を召喚し、敵に張り付いて命中時にライフとリソース回復を促進する
-			[i:ThoriumRework/QueenJellyPin] 触手のダメージは防御力に応じて上昇する
-			[i:ThoriumRework/VampireCape] コウモリの群れ発動中は被ダメージが大幅に減少し、敵に狙われにくくなる
-			[i:ThoriumRework/ZephyrWings] 空中でゼファーのグリップを使ってグラップルすると飛行時間が延びる
-			[i:ThoriumRework/ZephyrWings] 滑空後しばらくすると鳥を再召喚でき、ダメージを与えるとより早く再召喚可能になる
-			'''
-		DisplayName: シエラキメラ
 	}
 }
 
@@ -1185,6 +1276,14 @@ Projectiles: {
 		DisplayName: Void Ray
 	}
 
+	ValadiumHeavyScytheWave: {
+		DisplayName: Valadium Heavy Scythe
+	}
+
+	ValadiumHeavyScythe: {
+		DisplayName: Valadium Heavy Scythe
+	}
+
 	ToothOfTheConsumer: {
 		DisplayName: Tooth of The Consumer
 	}
@@ -1205,8 +1304,28 @@ Projectiles: {
 		DisplayName: Aqua Rainstorm
 	}
 
+	ThoriumWhistle: {
+		DisplayName: Thunder Zap
+	}
+
+	ThoriumRevolver: {
+		DisplayName: Thunder Zap
+	}
+
 	ThoriumHeavyScythe: {
 		DisplayName: Thorium Heavy Scythe
+	}
+
+	ThoriumBludgeon: {
+		DisplayName: Thorium Bludgeon
+	}
+
+	TerrariumSoulScourge2: {
+		DisplayName: Terrarium Soul Scourge
+	}
+
+	TerrariumSoulScourge: {
+		DisplayName: Terrarium Soul Scourge
 	}
 
 	TerrariumSaber: {
@@ -1235,6 +1354,10 @@ Projectiles: {
 
 	SoulSteal: {
 		DisplayName: "{Mods.ThoriumMod.Projectiles.Boss.SoulSteal}"
+	}
+
+	SoulSnatcher: {
+		DisplayName: Soul Snatcher
 	}
 
 	SoulRender: {
@@ -1361,6 +1484,10 @@ Projectiles: {
 		DisplayName: Loudener
 	}
 
+	LodeStoneMagnetMace: {
+		DisplayName: Lodestone Magnet Mace
+	}
+
 	LodeStoneClaymore: {
 		DisplayName: Lodestone Claymore
 	}
@@ -1371,6 +1498,14 @@ Projectiles: {
 
 	LichLantern: {
 		DisplayName: Volatile Lantern
+	}
+
+	KusarigamaOrb: {
+		DisplayName: Orb of the Wind
+	}
+
+	Kusarigama: {
+		DisplayName: Kusarigama
 	}
 
 	JellyfishShock: {
@@ -1431,6 +1566,18 @@ Projectiles: {
 
 	HighTide: {
 		DisplayName: High Tide
+	}
+
+	HealingOrbYellow: {
+		DisplayName: Healing Orb
+	}
+
+	HealingOrbTeal: {
+		DisplayName: Healing Orb
+	}
+
+	HealingOrbRainbow: {
+		DisplayName: Healing Orb
 	}
 
 	HeadHunterShard: {
@@ -1787,10 +1934,26 @@ ItemDescriptions: {
 		クロマティックミサイルは敵に当たると3つに分裂する
 		25%の確率で弾薬を消費しない
 		'''
+	TitanScythe:
+		'''
+		巨大な二つの鎌を高速で回転させる
+		この武器でソウルエッセンスを得ると、拡大する渦を生成する
+		クリティカル時、追加ダメージを与える
+		'''
 	TitanSword:
 		'''
 		2本の巨人のような剣を振り回す
 		クリティカルで追加ダメージ
+		'''
+	TitanBoomerang:
+		'''
+		巨大な円盤を高速で投げ、戻る前に渦を形成する
+		クリティカル時、追加ダメージを与える
+		'''
+	TitanArmor:
+		'''
+		クリティカル時、シールド+2を獲得する
+		合計シールド量に応じてクリティカル率が上昇する
 		'''
 	PrimesFury:
 		'''
@@ -1804,10 +1967,41 @@ ItemDescriptions: {
 		敵にダメージを与えると血のチャージを獲得する
 		チャージが最大になると、次の攻撃が2倍のダメージを与え、その20%分の体力を回復する
 		'''
+	DemonBloodRipper:
+		'''
+		悪魔の力を宿したサイズを高速回転させる
+		この武器でソウルエッセンスを得ると、次の5回の攻撃で追尾する血のハートを召喚する
+		ダメージを与えるとブラッドチャージを得る
+		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
+		'''
+	DemonBloodSword:
+		'''
+		ブラッドハーベストのクールダウン中、この武器は追尾する血のハートを発射する
+		ダメージを与えるとブラッドチャージを得る
+		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
+		'''
+	DreadTearer:
+		'''
+		強く穢れた鎌を高速回転させる
+		この武器でソウルエッセンスを得ると、次の5回の攻撃でドレッドエナジーを生成する
+		命中時、ドレッドエナジーを放出する
+		'''
 	DreadRazor:
 		'''
 		右クリックで恐怖のエネルギーを放出する
 		攻撃するたびに自動で恐怖のエネルギーが蓄積される
+		'''
+	DemonBloodStaff:
+		'''
+		追尾するデーモンソウルを連射し、4回目ごとに霊液のソウルも放つ
+		ダメージを与えるとブラッドチャージを得る
+		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
+		'''
+	DreadBlaster:
+		'''
+		左クリックでドレッドパルスを連射する
+		左クリック長押しでドレッドパルスの弾幕を放つ
+		命中時、ドレッドエナジーを放出する
 		'''
 	DragonTalon: 攻撃は槍の先端に呪いの地獄のブレスを放つ
 	DragonTooth:
@@ -1931,7 +2125,7 @@ ItemDescriptions: {
 		'''
 	GraniteCrossbow:
 		'''
-		3発ごとに御影石の矢を3本放ち、敵をオーバーフローさせる。
+		3発ごとに御影石の矢を3本放ち、敵をオーバーフローさせる
 		あふれた敵はダメージが5%増加する
 		'''
 	ChampionSwiftBlade:
@@ -1943,6 +2137,13 @@ ItemDescriptions: {
 		'''
 		命中した敵を繰り返し攻撃する魔法のバースターミサイルを発射する
 		「爆撃は必ずしも破壊を意味しない」
+		'''
+	ThoriumSpear: 攻撃時に弱い稲妻を放つ
+	ThoriumRevolver: フレアを雷弾に変換する
+	ThoriumArmor:
+		'''
+		クリティカルでゲージが蓄積し、満タンになると攻撃が遅延電撃を発生させる
+		主にトリウムインゴットで作られたアイテムを使用すると、クリティカルではなく命中でゲージが蓄積する
 		'''
 	SoloistHat: インスピレーションの最大値が8増加
 	RhapsodistBoots: エンパワーメントの範囲が2倍になる
@@ -1971,72 +2172,20 @@ ItemDescriptions: {
 	TideTurnersGaze: 投擲ダメージが50増加
 	TideTurnerHelmet:
 		'''
-		装備者のヘルスが低いほど近接攻撃スピードが上昇する
+		装備者のライフが低いほど近接攻撃スピードが上昇する
 		近接攻撃速度が最大200%増加する
 		'''
 	TideTurnerGreaves: 近接攻撃と投擲速度が20%増加
 	TideTurnerBreastplate:
 		'''
 		受けるダメージが10％減少
-		装備者のヘルスが低いほど、防御力とダメージ軽減率が増加する
+		装備者のライフが低いほど、防御力とダメージ軽減率が増加する
 		最大100の防御力と60%のダメージ軽減
 		'''
 	DreamWeaversTreads:
 		'''
 		詠唱速度が20%増加
 		最大ライフが80増加
-		'''
-	TitanScythe:
-		'''
-		巨大な二つの鎌を高速で回転させる
-		この武器でソウルエッセンスを得ると、拡大する渦を生成する
-		クリティカル時、追加ダメージを与える
-		'''
-	TitanBoomerang:
-		'''
-		巨大な円盤を高速で投げ、戻る前に渦を形成する
-		クリティカル時、追加ダメージを与える
-		'''
-	TitanArmor:
-		'''
-		クリティカル時、シールド+2を獲得する
-		合計シールド量に応じてクリティカル率が上昇する
-		'''
-	DemonBloodRipper:
-		'''
-		悪魔の力を宿したサイズを高速回転させる
-		この武器でソウルエッセンスを得ると、次の5回の攻撃で追尾する血のハートを召喚する
-		ダメージを与えるとブラッドチャージを得る
-		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
-		'''
-	DemonBloodSword:
-		'''
-		ブラッドハーベストのクールダウン中、この武器は追尾する血のハートを発射する
-		ダメージを与えるとブラッドチャージを得る
-		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
-		'''
-	DreadTearer:
-		'''
-		強く穢れた鎌を高速回転させる
-		この武器でソウルエッセンスを得ると、次の5回の攻撃でドレッドエナジーを生成する
-		命中時、ドレッドエナジーを放出する
-		'''
-	DemonBloodStaff:
-		'''
-		追尾するデーモンソウルを連射し、4回目ごとに霊液のソウルも放つ
-		ダメージを与えるとブラッドチャージを得る
-		チャージ最大時、次の攻撃はダメージ2倍になり、与ダメージの20%回復する
-		'''
-	DreadBlaster:
-		'''
-		左クリックでドレッドパルスを連射する
-		左クリック長押しでドレッドパルスの弾幕を放つ
-		命中時、ドレッドエナジーを放出する
-		'''
-	ThoriumArmor:
-		'''
-		クリティカルでゲージが蓄積し、満タンになると攻撃が遅延電撃を発生させる
-		主にトリウムインゴットで作られたアイテムを使用すると、クリティカルではなく命中でゲージが蓄積する
 		'''
 	DreamWeaversTabard: 受けるダメージが20%減少
 	DreamWeaversHood: 最大ライフが100増加

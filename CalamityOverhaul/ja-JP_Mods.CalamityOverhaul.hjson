@@ -1413,6 +1413,26 @@ Items: {
 		DisplayName: クエストブック
 		Tooltip: 使用するとクエスト一覧を見ることができる
 	}
+
+	MermanRod: {
+		Text1: マーマンの止まり木はすでにワールドに設置されている。
+		DisplayName: マーマンの止まり木
+		Tooltip:
+			'''
+			近くで釣りをするとフィッシングパワーが20向上する
+			オールドデュークがここにキャンプを設営する
+			'''
+	}
+
+	MiningMachineMk2: {
+		DontWork: 掘削作業を行うには、硬い地面に設置する必要がある。
+		DisplayName: 採掘機Mk2
+		Tooltip:
+			'''
+			電力エネルギーを消費して鉱石を掘削する
+			正しく動作させるには適切な場所に設置する必要がある
+			'''
+	}
 }
 
 Projectiles: {
@@ -2092,30 +2112,6 @@ Projectiles: {
 		DisplayName: Dark Ice Bomb
 	}
 
-	DawnshatterEndOrb: {
-		DisplayName: 暁を砕くオーブ
-	}
-
-	DawnshatterEndOrb2: {
-		DisplayName: 暁を砕くオーブ2
-	}
-
-	MakeDamage: {
-		DisplayName: ダメージ発生
-	}
-
-	TheDaybreak: {
-		DisplayName: デイブレイク
-	}
-
-	TheDaybreak2: {
-		DisplayName: デイブレイク2
-	}
-
-	TheDaybreak3: {
-		DisplayName: デイブレイク3
-	}
-
 	TheEndSun: {
 		DisplayName: 終末の太陽
 	}
@@ -2724,10 +2720,6 @@ Projectiles: {
 		DisplayName: コズミックファイア
 	}
 
-	GhostFires: {
-		DisplayName: ゴーストファイア
-	}
-
 	Ieaf: {
 		DisplayName: イーフ
 	}
@@ -3087,6 +3079,10 @@ Projectiles: {
 	SulfuricacidExplosion: {
 		DisplayName: Sulfuricacid Explosion
 	}
+
+	DawnshatterFireball: {
+		DisplayName: Dawnshatter Fireball
+	}
 }
 
 Configs: {
@@ -3266,8 +3262,8 @@ Configs: {
 			Tooltip:
 				'''
 				有効にすると、クエストログがゲームの進行を案内します
-                クエストブックアイテム、インベントリUI、またはホットキーからクエストインターフェースにアクセスし、現在のクエストを確認できます
-                デフォルトで有効です。無効にすると全てのクエスト案内が削除されます
+				            クエストブックアイテム、インベントリUI、またはホットキーからクエストインターフェースにアクセスし、現在のクエストを確認できます
+				            デフォルトで有効です。無効にすると全てのクエスト案内が削除されます
 				'''
 		}
 	}
@@ -3380,6 +3376,10 @@ Keybinds: {
 
 	AriaofTheCosmos_R: {
 		DisplayName: アリア・オブ・ザ・コスモス: Gamma Ray Burst
+	}
+
+	JusticeUnveiled: {
+		DisplayName: Justice Unveiled: Trigger Judgment
 	}
 }
 
@@ -4192,16 +4192,6 @@ RemakeItems: {
 		Tooltip: 敵に命中すると被爆デバフを付与する
 	}
 
-	RBlightedCleaver: {
-		DisplayName: 暗影の大剣
-		Tooltip:
-			'''
-			敵を追尾する燃え盛る刃を発射し、命中後、さらに上空から刃を降らせる
-			プレイヤーに「残虐の狂乱」バフを付与
-			真の近接攻撃が命中すると「暴君の怒り」を蓄積し、一時的に武器のダメージを増加
-			'''
-	}
-
 	RBrimlash: {
 		DisplayName: ブリムラッシュ
 		Tooltip:
@@ -4287,16 +4277,6 @@ RemakeItems: {
 			'''
 	}
 
-	RDefiledGreatsword: {
-		DisplayName: 冒涜の大剣
-		Tooltip:
-			'''
-			無数の燃え盛る刃を発射し、敵を執拗に追尾する
-			「残虐の狂乱」バフをプレイヤーに付与する
-			さらに画面の両端から燃え盛る刃を発射する
-			'''
-	}
-
 	RDevastation: {
 		DisplayName: 荒廃の剣
 		Tooltip: ""
@@ -4310,15 +4290,6 @@ RemakeItems: {
 			槍はカーソルの方向に向かって飛び、敵に突き刺さり持続ダメージを与える
 			連続攻撃時に「痛みの輪廻」を3発発射し、貫通ダメージを与える
 			最後にカーソル位置に6本の「紅き悪魔の槍」を召喚し、しばらく浮遊したあと、プレイヤーに向かって飛ぶ
-			'''
-	}
-
-	RDiseasedPike: {
-		DisplayName: ディジースドパイク
-		Tooltip:
-			'''
-			敵を追尾する疫病蜂の群れを発射し、疫病デバフを付与する
-			右クリックで空から疫病爆弾と追尾する疫病ビームを降らせる
 			'''
 	}
 
@@ -5765,18 +5736,6 @@ RemakeItems: {
 			'''
 			失われた魂と照明弾を発射する
 			「照明弾をナパームに転用しようとしたら、このふざけた武器ができた」
-			'''
-	}
-
-	RSpeedBlaster: {
-		DisplayName: スピードブラスター
-		Tooltip:
-			'''
-			高速で燐光弾を発射する
-			右クリックでカラフルな弾丸を連射しつつプレイヤーを前方へ推進
-			この能力は5秒のクールダウンあり
-			クールダウン中はより速く精度の高い射撃が可能
-			「顔に浴びれば1日中顔を洗いたくなるぞ」
 			'''
 	}
 
@@ -7741,6 +7700,8 @@ UI: {
 		InsertItemHint: 充電するアイテムを入れる
 		InsertBatteryHint: パワーセルを入れる
 		EnergyUnit: UE
+		StationText1: 充電できるアイテムのみ対応！
+		StationText2: ドレイドンのパワーセルのみ対応！
 	}
 
 	SulfseaDialogueBox: {
@@ -7797,11 +7758,24 @@ UI: {
 		StyleSwitchText: スタイル切替
 		NightModeText: 夜間モード
 		ResetViewText: ビューをリセット
-		SunModeText:昼間モード
+		SunModeText: 昼間モード
+		LauncherHoverText: 左クリックで切り替え、右クリックでドラッグ
 	}
 
 	QuestNotificationSystem: {
 		Text1: クエスト完了
+	}
+
+	CompatibilityAlert: {
+		TitleText: 互換モードが有効
+		ContentText:
+			'''
+			主要なコンテンツModが不足している、またはバージョンの競合が検出されました。
+			一部の機能は無効化されているか、制限付きモードで動作しています。
+			意図的な場合は、このメッセージを無視してください。
+			古いバージョンが原因の場合は、アップデートをお待ちください。
+			開発チームは通常、12時間以内に互換性パッチをリリースします。
+			'''
 	}
 }
 
@@ -9205,7 +9179,7 @@ QuestLogs: {
 				Description: 絶滅の灰20個
 			}
 
-			DetailedDescription: 伝説の煉獄の魔女。これがあなたの旅の終わりか、それとも新たな始まりか？ 
+			DetailedDescription: 伝説の煉獄の魔女。これがあなたの旅の終わりか、それとも新たな始まりか？
 		}
 
 		YharonQuest: {
@@ -9298,6 +9272,21 @@ QuestLogs: {
 			DetailedDescription: 面倒な手動採掘にさようなら。この機械は驚異的な効率で鉱脈を食い尽くす。
 		}
 
+		MiningMachineIIQuest: {
+			DisplayName: 深層コア掘削
+			Description: 採掘機Mk2をクラフトする。
+
+			QuestObjective: {
+				Description: 採掘機Mk2を入手する。
+			}
+
+			QuestReward: {
+				Description: 採掘のポーション5個
+			}
+
+			DetailedDescription: 強化されたパワーコアにより、比類なき速度を発揮する。
+		}
+
 		PipelineQuest: {
 			DisplayName: エネルギー伝送
 			Description: 電力入力パイプラインを作成する
@@ -9357,7 +9346,7 @@ QuestLogs: {
 			DetailedDescription: 銀河の力を弓の弦に圧縮せよ。この武器は宇宙次元を破壊する力を持ち、レンジャーにとって究極の証明となる。
 		}
 
-		AriaofTheCosmosQuest: { 
+		AriaofTheCosmosQuest: {
 			QuestObjective: {
 				Description: 宇宙のアリアを入手せよ
 			}
@@ -9595,7 +9584,7 @@ QuestLogs: {
 			DetailedDescription: 神々を撃ち落とした長弓。今、再びこの世界に現れる。
 		}
 
-		SpearOfLonginusQuest: { 
+		SpearOfLonginusQuest: {
 			QuestObjective: {
 				Description: ロンギヌスの槍を入手せよ
 			}
@@ -9739,7 +9728,7 @@ QuestLogs: {
 				Description: 落下制御ポーション
 			}
 
-			DetailedDescription: 重力の鎖を断ち切り星々へ触れる。高く飛ぶほど世界の全景が見えるだろう。
+			DetailedDescription: 重力の鎖を断ち切り星々へ触れる。高く飛ぶほど世界の全景が見える。
 		}
 
 		HellLabSchematic: {
@@ -9777,7 +9766,7 @@ QuestLogs: {
 				}
 			}
 
-			DetailedDescription: この低温環境は精密機器の保存に最適。氷の下に眠る研究所で封じられた極地技術を探し出せ。
+			DetailedDescription: この低温環境は精密機器の保存に最適。氷の下に眠る研究所で封じられた極地技術を探し出す。
 		}
 
 		JungleLabSchematic: {
@@ -9796,7 +9785,7 @@ QuestLogs: {
 				}
 			}
 
-			DetailedDescription: ジャングルにはドレイドンの生物学研究所が隠されている。彼は疫病やナノウイルスを研究していた。設計図を見つければ危険な真実が明らかになる。
+			DetailedDescription: 密林にはドレイドンの生物学研究所が隠されている。彼は疫病やナノウイルスを研究していた。設計図を見つければ危険な真実が明らかになる。
 		}
 
 		PlanetoidLabSchematic: {
@@ -9834,7 +9823,347 @@ QuestLogs: {
 				}
 			}
 
-			DetailedDescription: 穏やかな海中にプリズムエネルギーの研究データが残されているという。貴重なデータを回収せよ。
+			DetailedDescription: 穏やかな海中世界にプリズムエネルギーの研究が残されている。貴重なデータを回収せよ。
+		}
+
+		AquaticScourgeQuest: {
+			DisplayName: アクアティックスカージ
+			Description: アクアティックスカージを討伐する。
+
+			QuestObjective: {
+				Description: アクアティックスカージを討伐する。
+			}
+
+			QuestReward: {
+				Description: 腐食した化石10個
+			}
+
+			DetailedDescription: かつては澄んだ海に棲む穏やかなリヴァイアサンだったが、硫酸の海の毒性により歪められた。汚染された酸の海域では、突進と毒雲に警戒せよ。
+		}
+
+		QueenSlimeQuest: {
+			DisplayName: クイーンスライム
+			Description: クイーンスライムを討伐する。
+
+			QuestObjective: {
+				Description: クイーンスライムを討伐する。
+			}
+
+			QuestReward: {
+				Description: 光のソウル10個
+			}
+
+			DetailedDescription: 聖域に君臨する水晶の女帝であり、あらゆる浄化された粘体生物を統べる存在。その伴侶と比べ、はるかに俊敏で攻撃的だ。壮麗な猛攻に備えよ。
+		}
+
+		MachineRebellionQuest: {
+			DisplayName: 機械の反逆
+			Description: 強化されたメカボスたち3体を討伐する。
+
+			QuestObjective: {
+				Description: 強化されたメカボスたち3体を討伐する。
+			}
+
+			QuestReward: {
+				Description: 恐怖のソウルEX
+				Description2: 力のソウルEX
+				Description3: 視界のソウルEX
+			}
+
+			DetailedDescription: 放棄された実験体は停止せず、自己修復と進化を遂げ、より恐ろしい姿となった。かつて防衛のためのプロトコルは、ただ一つの命令に上書きされている。殲滅だ。ドレイドンの真なる創造物の怒りに立ち向かう覚悟はあるか。
+		}
+
+		BuildHouse: {
+			DisplayName: 建築の達人
+			Description: 適切な家を建てる。
+
+			QuestObjective: {
+				Description: 有効な家を建てる。
+			}
+
+			QuestReward: {
+				Description: 木材
+			}
+
+			DetailedDescription: 誰にとっても安らぎの場所は必要だ。家具と明かり、壁のある部屋を用意すれば、ガイドや旅人たちは力を貸してくれる。
+		}
+
+		CollectEvilOres: {
+			DisplayName: 邪悪な鉱石
+			Description: 邪悪な鉱石を集める。
+
+			QuestObjective: {
+				Description: デモナイトまたはクリムタン鉱石を集める。
+			}
+
+			QuestReward: {
+				Description: 松明
+			}
+
+			DetailedDescription: これらの鉱石は不吉な気配を放ち、触れると冷たく湿っている。世界の病巣から生まれたものだが、強力な装備の素材として不可欠だ。
+		}
+
+		CollectFallenStars: {
+			DisplayName: 星の収集家
+			Description: 流れ星を集める。
+
+			QuestObjective: {
+				Description: 流れ星を集める。
+			}
+
+			QuestReward: {
+				Description: 小型マナポーション
+			}
+
+			DetailedDescription: 夜空の涙は、闇が訪れた後にのみ降り注ぐ。マナ容量の拡張だけでなく、強力な弾薬や魔法素材としても役立つ。
+		}
+
+		CollectGems: {
+			DisplayName: 宝石収集家
+			Description: 様々な宝石を集める。
+
+			QuestObjective: {
+				Description: 5種類の異なる宝石を集める。
+			}
+
+			QuestReward: {
+				Description: {
+					$parentVal: 輝きのポーション
+					Diamond: ダイヤモンド
+				}
+			}
+
+			DetailedDescription: 岩層に埋もれた輝く結晶。装飾品に留まらず、魔法の杖やグラップリングフックの制作に欠かせない。異なる色を集めれば、虹の輝きを繋ぎ合わせられるかもしれない。
+		}
+
+		CollectHerbs: {
+			DisplayName: 見習いハーブコレクター
+			Description: 様々なハーブを集める。
+
+			QuestObjective: {
+				Description: 3種類の異なるハーブを集める。
+			}
+
+			QuestReward: {
+				Description: 瓶詰めの水
+			}
+
+			DetailedDescription: 錬金術の基礎。植物は砂漠やツンドラ、地底世界など、それぞれ異なる環境で育つ。見分けることが熟練への第一歩だ。
+		}
+
+		CollectOres: {
+			DisplayName: 鉱石収集
+			Description: 基本的な鉱石を集める。
+
+			QuestObjective: {
+				Description: {
+					Iron: 鉄または鉛鉱石を集める
+					Copper: 銅または錫鉱石を集める
+				}
+			}
+
+			QuestReward: {
+				Description: 帰還のポーション
+			}
+
+			DetailedDescription: 採掘は生存の本質だ。銅や鉄はありふれているが、原始的な生活から抜け出す礎となる。侮るな。伝説の英雄も銅のツルハシから始まった。
+		}
+
+		DeepExplorer: {
+			DisplayName: 深淵の探検者
+			Description: 主要なバイオームをすべて探索する。
+
+			QuestObjective: {
+				Description: すべての探索クエストを完了する。
+			}
+
+			QuestReward: {
+				Description: {
+					$parentVal: GPS
+					Gold: ゴールドコイン
+				}
+			}
+
+			DetailedDescription: 雲上から地獄の最深部まで、世界の隅々を踏破した。その地図こそが勇気の証だ。今や世界はその足元にある。
+		}
+
+		ExploreCaverns: {
+			DisplayName: 洞窟のさらに奥
+			Description: より深い洞窟層を探索する。
+
+			QuestObjective: {
+				Description: 洞窟層に到達する。
+			}
+
+			QuestReward: {
+				Description: 探検家のポーション
+			}
+
+			DetailedDescription: ここに太陽の光はなく、闇と未知の生物が支配する。溶岩が現れ、鉱脈はより豊かになる。足元に注意せよ。深淵は見返してくる。
+		}
+
+		ExploreCorruption: {
+			DisplayName: 不浄なる大地
+			Description: 不浄または真紅を探索する。
+
+			QuestObjective: {
+				Description: 不浄または真紅に足を踏み入れる。
+			}
+
+			QuestReward: {
+				Description: 闘争のポーション
+			}
+
+			DetailedDescription: この地は病んでいる。紫の腐敗か真紅の肉塊が大地を蝕む。血に飢えた怪物が蔓延るが、シャドウスケイルや組織サンプルを得るには虎穴に入らねばならない。
+		}
+
+		ExploreDesert: {
+			DisplayName: 灼熱の砂漠
+			Description: 砂漠バイオームに入る。
+
+			QuestObjective: {
+				Description: 砂漠に到達する。
+			}
+
+			QuestReward: {
+				Description: 水上歩行ポーション
+			}
+
+			DetailedDescription: 灼けつく太陽が大地を焼き、黄金の砂海が古代の化石と獰猛なアントリオンを覆い隠す。十分な水を持て。この乾燥は命を奪う。
+		}
+
+		ExploreFloatingIsland: {
+			DisplayName: 浮遊島
+			Description: 空に浮かぶ島を見つける。
+
+			QuestObjective: {
+				Description: 浮遊島に到達する。
+			}
+
+			QuestReward: {
+				Description: 重力反転ポーション
+			}
+
+			DetailedDescription: 雲の上には古代文明の遺した宝物庫があるという。重力異常を探すか、天へ伸びる塔を築いて確かめよ。
+		}
+
+		ExploreGlowingMushroom: {
+			DisplayName: 発光キノコ群生地
+			Description: キノコ群生地を見つける。
+
+			QuestObjective: {
+				Description: キノコ群生地に到達する。
+			}
+
+			QuestReward: {
+				Description: 夜目のポーション
+			}
+
+			DetailedDescription: 幻覚的な地下生態系。巨大な菌類が幽玄な青光を放ち、闇を照らす。トリュフと奇妙な昆虫の住処だ。
+		}
+
+		ExploreUnderground: {
+			DisplayName: 地下探索
+			Description: 洞窟へ踏み込む。
+
+			QuestObjective: {
+				Description: 地下層に到達する。
+			}
+
+			QuestReward: {
+				Description: 採掘のポーション
+			}
+
+			DetailedDescription: 表土を削るだけでは足りない。真の冒険は地下から始まる。松明を携えよ。最初の岩層は序章にすぎない。
+		}
+
+		FindLifeCrystal: {
+			DisplayName: 生命の源
+			Description: ライフクリスタルを見つける。
+
+			QuestObjective: {
+				Description: ライフクリスタルを見つける。
+			}
+
+			QuestReward: {
+				Description: 小型ライフポーション
+			}
+
+			DetailedDescription: この赤い結晶は生命力の鼓動を放つ。砕いて取り込めば、身体能力が恒久的に強化される。強敵に挑むための鍵だ。
+		}
+
+		FindShadowOrb: {
+			DisplayName: 邪悪の核心
+			Description: 邪悪なバイオームの奥深くでシャドウオーブまたはクリムゾンハートを見つける。
+
+			QuestObjective: {
+				Description: シャドウオーブまたはクリムゾンハートを破壊する。
+			}
+
+			QuestReward: {
+				Description: {
+					$parentVal: ダイナマイト
+					Bomb: 爆弾
+				}
+			}
+
+			DetailedDescription: 邪悪の裂け目の奥で、腐敗した心臓か影の球体が脈動している。破壊すれば武器が得られるが、三つ壊せば恐るべき存在が目覚める。
+		}
+
+		FirstPotion: {
+			DisplayName: 錬金術の基礎
+			Description: 初めてのポーションを調合する。
+
+			QuestObjective: {
+				Description: 任意のポーションを調合する。
+			}
+
+			QuestReward: {
+				Description: 小型マナポーション
+			}
+
+			DetailedDescription: 空き瓶をテーブルに置けば簡易的な錬金台となる。複雑な呪文は不要だ。正しい素材の組み合わせだけでいい。飲み干し、魔力を感じよ。
+		}
+
+		NPCVillage: {
+			DisplayName: 繁栄する村
+			Description: 複数のNPCを呼び寄せる。
+
+			QuestObjective: {
+				Description: NPCを5人住まわせる。
+			}
+
+			QuestReward: {
+				Description: ゴールドコイン
+			}
+
+			DetailedDescription: 荒野で独り生きるのは孤独だ。力をつけ、資金を持てば、より多くの人々が集う。活気ある共同体を築き、支えとせよ。
+		}
+
+		QueenBeeQuest: {
+			DisplayName: 女王蜂
+			Description: 女王蜂を討伐する。
+
+			QuestObjective: {
+				Description: 女王蜂を討伐する。
+			}
+
+			DetailedDescription: 地下ジャングルの巨大な巣の奥で幼虫を壊すと、群れの支配者が激昂する。解毒ポーションを用意し、針と高速突進に警戒せよ。
+		}
+
+		CollectorQuest: {
+			DisplayName: コレクションアシスタント
+			Description: 収集機を入手する。
+
+			QuestObjective: {
+				Description: 収集機を入手する。
+			}
+
+			QuestReward: {
+				Description: 宝箱2個
+			}
+
+			DetailedDescription: あちこちに落ちた戦利品を拾うために、いちいち屈むのに疲れていないだろうか。この装置は、近くに落ちたアイテムを自動的に回収する。自動化された物流や仕分けシステムを構築するための中核コンポーネントであり、手作業から完全に解放してくれる。
 		}
 	}
 }

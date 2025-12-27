@@ -1,104 +1,114 @@
-Items: {
-	WeaponSelectorItem: {
-		Tooltip: 左クリックまたは右クリックでUIを開き、武器グループを管理
-		DisplayName: 武器グループマネージャー
-	}
-
-	ConfigSLer: {
-		Tooltip:
-			'''
-			左クリックで現在の設定を保存。
-			右クリックでUIを開き、選択または編集。
-			'''
-		DisplayName: 設定リーダー／ライター
-	}
-}
-
-WeaponSelector: {
-	CurrentConfig: 現在の近接武器設定
-	DefaultName: ユーザー定義グループ
-	Create: 最優先で新しいグループを作成
-
-	weaponGroup: {
-		Label: 武器リスト
-	}
-
-	BindConfigName: {
-		Label: このグループの設定（デフォルトでは現在の設定を使用）
-	}
-
-	whiteList: {
-		Label: ホワイトリストモードを使用（オフでブラックリストモード）
-	}
-
-	basedOnDefaultCondition: {
-		Label: デフォルト条件に基づく（ホワイトリストでは追加、ブラックリストでは除外）
-	}
-}
-
-ConfigSLer: {
+ConfigSaveLoader: {
+	Title: 設定セーブローダー
 	Save: 保存
 	Default: デフォルトに戻す
 	Revert: 元に戻す
 	Create: 新しい設定を作成
 	Failed: /読み込み失敗\
-	Successed: \読み込み成功！/
-	NotFinishYet: このページは現在作業中です……
+	Succeed: \読み込み成功/!!
+	NotFinishYet: このページは現在作業中……
 
 	RenameTip: {
-		Illegal: ファイル名に次の文字は使えません: \\, /, :, *, ?, ", <, >, |
-		TooLong: ファイル名は40文字以内にしてください
-		Exists: 同じ名前のファイルがすでに存在します
+		Illegal: 使用不可の文字が含まれています。\\, /, :, *, ?, \", <, >, |
+		TooLong: ファイル名は40文字以内にしてください。
+		Exists: 同名のファイルがすでに存在します。
 	}
 
 	Path: ファイルパス:
-	LoadThisConfig: 現在の設定に適用
+	LoadThisConfig: この設定を現在の構成に適用
 	DefaultName: ユーザー定義設定
-	SavedAs: 現在の設定を次の名前で保存しました：
-	SameDefault: "///注意！/// 保存ファイルの名前がすべてデフォルト名です。識別のために連番を追加しました。整理をお忘れなく。"
-	TooManySameName: "///失敗！/// デフォルト名のファイルが多すぎます！早急に名前を変更してください。"
+	SavedAs: 現在の設定を保存
+	SameDefault: "///注意/// すべてデフォルト名だったため識別用に連番を付与しました。"
+	TooManySameName: "///失敗/// デフォルト名のファイルが多すぎます。名前を変更してください。"
 	Refresh: 更新
-}
 
-Misc: {
-	UnavailableConfig:
-		'''
-		この値は現在無効です
-		他の設定（ヒートマップモードなど）の影響によります
-		'''
-	UselessConfig:
-		'''
-		申し訳ありませんが
-		この値は現在使用されていません ;P
-		'''
-	MeleeModifyDeactive: 近接エフェクト無効
-	MeleeModifyActive: 近接エフェクト有効
-}
+	Help: {
+		EditHint: {
+			Tooltip: 新しい編集UI 特に説明はない
+			DisplayName: 編集パネル
+		}
 
-Keybinds: {
-	ModifyActive: {
-		DisplayName: 近接エフェクトの即時オン／オフ
-	}
-}
+		Back: {
+			Tooltip: メニューに戻る
+			DisplayName: 戻るボタン
+		}
 
-Projectiles: {
-	CIVESword: {
-		DisplayName: C.I.V.E. ソード
+		Revert: {
+			Tooltip: 変更を取り消す
+			DisplayName: 元に戻すボタン
+		}
+
+		Save: {
+			Tooltip: ファイルを保存
+			DisplayName: 保存ボタン
+		}
+
+		CreateNew: {
+			Tooltip: 現在の近接設定をローカルファイルとして保存
+			DisplayName: 新規作成ボタン
+		}
+
+		HelpPanelOpener: {
+			Tooltip: 開き方のヒントを追加するべきかも？
+			DisplayName: ヘルプパネルを開く
+		}
+
+		OpenFolder: {
+			Tooltip: 設定ファイルのローカルフォルダを開く
+			DisplayName: フォルダを開く
+		}
+
+		ConfigList: {
+			Tooltip:
+				'''
+				名前をクリックしてリネームできる
+				灰色のゴミ箱で不要な設定を削除
+				白いペンで内容を編集
+				右クリックで現在の近接設定に適用
+				'''
+			DisplayName: 設定一覧
+		}
+
+		Close: {
+			Tooltip:
+				'''
+				UIを閉じる
+				開いた方法と同じ操作でも閉じられる
+				念のため
+				'''
+			DisplayName: 閉じるボタン
+		}
+
+		TitleHint: {
+			Tooltip:
+				'''
+				これが設定セーブローダー
+				以前保存した設定を読み込み、編集できる
+				'''
+			DisplayName: タイトル
+		}
+
+		HelpPanel: {
+			Tooltip:
+				'''
+				各要素の使い方を確認するためのパネル
+				詳細はコンポーネントにカーソルを合わせる
+				'''
+			DisplayName: ヘルプパネル
+		}
+
+		Help: ヘルプ - 設定セーブローダー
 	}
 }
 
 Configs: {
-	"CosineInfo[]": {
-		Tooltip: ""
-	}
-
 	ColorInfo: {
-		position: {
+		Position: {
 			Tooltip: ""
-			Label: 座標
+			Label: 位置
 		}
 
-		color: {
+		Color: {
 			Tooltip: ""
 			Label: 色
 		}
@@ -107,7 +117,7 @@ Configs: {
 	}
 
 	DesignateHeatMapData: {
-		colors: {
+		Colors: {
 			Tooltip: ""
 			Label: 色
 		}
@@ -123,7 +133,7 @@ Configs: {
 
 		LineColorMethods: {
 			Tooltip: ""
-			Label: 線の色の決定方法
+			Label: 線色の決定方法
 		}
 
 		Cosines: {
@@ -131,43 +141,43 @@ Configs: {
 			Label: コサイン波
 		}
 
-		L: {
+		Luminosity: {
 			Tooltip: ""
-			Label: 輝度 (L)
+			Label: 輝度
 		}
 
-		S: {
+		Saturation: {
 			Tooltip: ""
-			Label: 彩度 (S)
+			Label: 彩度
 		}
 
-		H: {
+		Hue: {
 			Tooltip: ""
-			Label: 色相 (H)
+			Label: 色相
 		}
 
 		Tooltip: ""
 	}
 
 	CosineInfo: {
-		phase: {
+		Phase: {
 			Tooltip: ""
 			Label: 位相
 		}
 
-		frequence: {
+		Frequency: {
 			Tooltip: ""
 			Label: 周波数
 		}
 
-		amplitude: {
+		Amplitude: {
 			Tooltip: ""
 			Label: 振幅
 		}
 
-		valueOffset: {
+		Offset: {
 			Tooltip: ""
-			Label: 値のオフセット
+			Label: オフセット
 		}
 
 		Tooltip: ""
@@ -176,7 +186,7 @@ Configs: {
 	CosineGenerateHeatMapData_RGB: {
 		LineColorMethods: {
 			Tooltip: ""
-			Label: 線の色の決定方法
+			Label: 線色の決定方法
 		}
 
 		LineColors: {
@@ -194,36 +204,36 @@ Configs: {
 			Label: グローバル
 		}
 
-		B: {
+		Blue: {
 			Tooltip: ""
-			Label: 青 (B)
+			Label: 青
 		}
 
-		G: {
+		Green: {
 			Tooltip: ""
-			Label: 緑 (G)
+			Label: 緑
 		}
 
-		R: {
+		Red: {
 			Tooltip: ""
-			Label: 赤 (R)
+			Label: 赤
 		}
 
 		Tooltip: ""
 	}
 
 	LuminosityInfo: {
-		offset: {
+		Offset: {
 			Tooltip: ""
 			Label: オフセット
 		}
 
-		range: {
+		Range: {
 			Tooltip: ""
 			Label: 範囲
 		}
 
-		scalar: {
+		Scalar: {
 			Tooltip: ""
 			Label: 係数
 		}
@@ -232,17 +242,17 @@ Configs: {
 	}
 
 	SaturationInfo: {
-		offset: {
+		Offset: {
 			Tooltip: ""
 			Label: オフセット
 		}
 
-		range: {
+		Range: {
 			Tooltip: ""
 			Label: 範囲
 		}
 
-		scalar: {
+		Scalar: {
 			Tooltip: ""
 			Label: 係数
 		}
@@ -251,12 +261,12 @@ Configs: {
 	}
 
 	HueInfo: {
-		offset: {
+		Offset: {
 			Tooltip: ""
 			Label: オフセット
 		}
 
-		range: {
+		Range: {
 			Tooltip: ""
 			Label: 範囲
 		}
@@ -265,79 +275,153 @@ Configs: {
 	}
 
 	ByFuncHeatMapData: {
-		L: {
+		Luminosity: {
 			Tooltip: ""
-			Label: 輝度 (L)
+			Label: L
 		}
 
-		S: {
+		Saturation: {
 			Tooltip: ""
-			Label: 彩度 (S)
+			Label: S
 		}
 
-		H: {
+		Hue: {
 			Tooltip: ""
-			Label: 色相 (H)
+			Label: H
 		}
 
 		Tooltip: ""
 	}
 
 	MeleeModifyLevel: {
+		StandardOnly: {
+			Tooltip: ""
+			Label: 標準要素のみ
+		}
+
+		ServerProvide: {
+			Tooltip: ""
+			Label: サーバー提供
+		}
+
+		PresetOnly: {
+			Tooltip: ""
+			Label: プリセットのみ
+		}
+
 		Overhaul: {
+			Tooltip: ""
 			Label: 全面改変
 		}
 
 		VisualOnly: {
+			Tooltip: ""
 			Label: 見た目のみ
 		}
 
 		Vanilla: {
+			Tooltip: ""
 			Label: バニラ
 		}
 
 		Tooltip: ""
 	}
 
-	SeverConfig: {
-		AutoBalanceData: {
-			Tooltip:
-				'''
-				「全面改変」モードが必要です
-				ホスト側で処理され、
-				バランス崩壊を防ぎます
-
-				プロジェクタイルのダメージには影響しません
-
-				攻撃速度が2倍の場合、ダメージは半分になります
-
-				詳細な計算式は以下の通りです：
-				BaseDamage * TimeScaler 
-				    / sqrt(SizeScaler)
-				    / max(1,pow(KnockBackScaler,0.25)) 
-				    / (1 + 0.01 * CirtAdd + 0.2 * CirtMult)
-				'''
-			Label: ダメージ自動バランス
+	HeatMapFactorStyle: {
+		SmoothFloor: {
+			Tooltip: ""
+			Label: スムーズ床
 		}
 
-		meleeModifyLevel: {
-			Tooltip:
-				'''
-				エフェクトを楽しみつつ、バランスも保ちたい人のために、
-				ついに改変レベルの選択肢を追加しました。
-				ホストは改変レベルを設定でき、
-				プレイヤーは近接設定内で改変の使用を選べます。
-				'''
-			Label: 近接改変レベル
+		SquareRoot: {
+			Tooltip: ""
+			Label: 平方根
 		}
 
-		DisplayName: サーバー設定
+		Quadratic: {
+			Tooltip: ""
+			Label: 二次式
+		}
+
+		Floor: {
+			Tooltip: ""
+			Label: 切り捨て
+		}
+
+		Linear: {
+			Tooltip: ""
+			Label: 線形
+		}
+
+		Tooltip: ""
+	}
+
+	HeatMapCreateStyle: {
+		CosineGenerate_HSL: {
+			Tooltip: ""
+			Label: コサイン生成_HSL
+		}
+
+		CosineGenerate_RGB: {
+			Tooltip: ""
+			Label: コサイン生成_RGB
+		}
+
+		CosineGenerate: {
+			Label: コサイン生成
+		}
+
+		Designate: {
+			Tooltip: ""
+			Label: 指定
+		}
+
+		FromTexturePixel: {
+			Tooltip: ""
+			Label: テクスチャピクセルから
+		}
+
+		ByFunction: {
+			Tooltip: ""
+			Label: 関数から
+		}
+
+		Tooltip: ""
+	}
+
+	ColorVector: {
+		Tooltip: ""
+
+		Normalize: {
+			Tooltip: 有効時は内積((1,1,1),ColorVector)が1になる
+			Label: 正規化
+		}
+
+		HeatMapAlpha: {
+			Tooltip: ヒートマップの係数
+			Label: ヒートマップ
+		}
+
+		WeaponColorAlpha: {
+			Tooltip: 武器の斜線色の係数
+			Label: 斜線
+		}
+
+		MapColorAlpha: {
+			Tooltip: グラデーションの係数
+			Label: グラデーション
+		}
 	}
 
 	MiscConfig: {
-		TeleprotEffectActive: {
+		ShowEntryUI: {
 			Tooltip: ""
-			Label: テレポート演出を有効化
+			Label: 管理UIのエントリーボタンを表示
+		}
+
+		TeleportEffectActive: {
+			Tooltip: ""
+			Label: テレポート追加エフェクトを有効化
 		}
 
 		VanillaProjectileDrawModifyActive: {
@@ -370,7 +454,7 @@ Configs: {
 			Label: 武器表示の有効化
 		}
 
-		usePreview: {
+		UsePreview: {
 			Tooltip: ""
 			Label: プレビューを使用
 		}
@@ -378,7 +462,67 @@ Configs: {
 		DisplayName: その他の設定
 	}
 
+	ServerConfig: {
+		UseItemManager: {
+			Tooltip: ""
+			Label: ConfigSaveLoaderとGroupManagerアイテムを読み込む
+		}
+
+		AutoBalanceData: {
+			Tooltip:
+				'''
+				「全面改変」の近接改造レベルが必要
+				ホスト側で処理され
+				過剰な改造を防ぐ
+
+				プロジェクタイルダメージには影響しない
+
+				攻撃速度が2倍になる場合
+				ダメージは半分になる
+
+				詳細な計算式は以下
+				BaseDamage * TimeScaler 
+				    / sqrt(SizeScaler)
+				    / max(1,pow(KnockBackScaler,0.25)) 
+				    / (1 + 0.01 * CirtAdd + 0.2 * CirtMult)
+				'''
+			Label: ダメージ自動バランス
+		}
+
+		meleeModifyLevel: {
+			Tooltip:
+				'''
+				派手なエフェクトを求める人がいるのは分かっている
+				しかしバランスも維持したい
+				そこで改造レベルを選択できるようにした
+				ホストが改造レベルを設定でき
+				各プレイヤーは自分の近接設定で使用可否を選べる
+				'''
+			Label: 近接改造レベル
+		}
+
+		DisplayName: サーバー設定
+	}
+
 	MeleeConfig: {
+		AnnouncementForRelocation: {
+			Tooltip:
+				'''
+				この設定の名称は「近接ビジュアル設定」に変更された
+				ここには見た目関連の設定のみが含まれる
+
+				以前の有効化設定や
+				実行シーケンスの指定は
+				武器グループ設定に移動した
+
+				キー割り当てを作成するか
+				インベントリ右側の青いアイコンをクリックして
+				武器グループマネージャー（W.G.M.）を開く
+				W.G.M.下部の本アイコンをクリックすると詳細を確認できる
+				'''
+			Label: 設定変更のお知らせ
+		}
+
 		designateData: {
 			Tooltip: ""
 			Label: 指定データ
@@ -536,7 +680,7 @@ Configs: {
 
 		swooshTimeLeft: {
 			Tooltip: ""
-			Label: 残りスウッシュ時間
+			Label: 残りスラッシュ時間
 		}
 
 		animateIndexStab: {
@@ -583,89 +727,244 @@ Configs: {
 
 		DisplayName: 近接武器設定
 	}
+}
 
-	HeatMapFactorStyle: {
-		SmoothFloor: {
-			Label: スムーズ床
+WeaponGroup: {
+	Help: {
+		EditHint: {
+			Tooltip:
+				'''
+				全4モード
+				デフォルト使用有無とホワイト ブラックの組み合わせ
+				- デフォルト不使用＋ホワイト 指定武器のみ
+				- デフォルト使用＋ホワイト デフォルト＋指定武器
+				- デフォルト不使用＋ブラック 指定以外すべて
+				- デフォルト使用＋ブラック デフォルトから指定を除外
+				武器リストは所持中の武器でクリックして追加
+				何も持たずにクリックすると追加済みを解除
+				リスト内で武器の入れ替えも可能
+
+				ローカル設定を指定でき
+				空欄の場合は現在の設定を使用する
+				'''
+			DisplayName: 編集パネル
 		}
 
-		SquareRoot: {
-			Label: 平方根
+		Back: {
+			Tooltip: メニューに戻る
+			DisplayName: 戻るボタン
 		}
 
-		Quadratic: {
-			Label: 二次式
+		Revert: {
+			Tooltip: 変更を取り消す
+			DisplayName: 元に戻すボタン
 		}
 
-		Floor: {
-			Label: 切り捨て
+		Save: {
+			Tooltip: ファイルを保存
+			DisplayName: 保存ボタン
 		}
 
-		Linear: {
-			Label: 線形
+		CreateNew: {
+			Tooltip: 空のグループを作成
+			DisplayName: 新規作成ボタン
 		}
 
-		Tooltip: ""
+		HelpPanelOpener: {
+			Tooltip: 開き方のヒントを追加するべきかも？
+			DisplayName: ヘルプパネルを開く
+		}
+
+		OpenFolder: {
+			Tooltip:
+				'''
+				グループファイルのローカルフォルダを開く
+				ここで.jsonを追加削除した場合は
+				indexTable.txtを編集して優先度を調整する
+				'''
+			DisplayName: フォルダを開く
+		}
+
+		GroupList: {
+			Tooltip:
+				'''
+				名前をクリックしてリネームできる
+				白い三角で優先度を変更 上にあるほど高い
+				灰色のゴミ箱で不要なグループを削除
+				白いペンで内容を編集
+
+				三角の左のトグルでグループの有効無効を切り替える
+				無効なグループはカードが灰色になる
+				'''
+			DisplayName: グループ一覧
+		}
+
+		Close: {
+			Tooltip:
+				'''
+				UIを閉じる
+				開いた方法と同じ操作でも閉じられる
+				念のため
+				'''
+			DisplayName: 閉じるボタン
+		}
+
+		TitleHint: {
+			Tooltip:
+				'''
+				これが武器グループマネージャー
+				武器が属するグループを手動で管理できる
+				'''
+			DisplayName: タイトル
+		}
+
+		HelpPanel: {
+			Tooltip:
+				'''
+				各要素の使い方を確認するためのパネル
+				詳細はコンポーネントにカーソルを合わせる
+				'''
+			DisplayName: ヘルプパネル
+		}
+
+		Help: ヘルプ - 武器グループマネージャー
 	}
 
-	HeatMapCreateStyle: {
-		CosineGenerate_HSL: {
-			Label: コサイン生成_HSL
-		}
-
-		CosineGenerate_RGB: {
-			Label: コサイン生成_RGB
-		}
-
-		CosineGenerate: {
-			Label: コサイン生成
-		}
-
-		Designate: {
-			Label: 指定
-		}
-
-		FromTexturePixel: {
-			Label: テクスチャピクセルから
-		}
-
-		ByFunction: {
-			Label: 関数から
-		}
-
-		Tooltip: ""
+	SwooshActionStyle: {
+		Label: 実行シーケンス
 	}
 
-	ColorVector: {
-		useLessValues: {
-			Tooltip: ""
-			Label: 小さい値を使用
-		}
-
-		Tooltip: ""
-
-		normalize: {
-			Tooltip: 「はい」にすると、ドット積((1,1,1),ColorVector)は1になります
-			Label: 正規化
-		}
-
-		heatMapAlpha: {
-			Tooltip: ヒートマップ係数
-			Label: ヒートマップ
-		}
-
-		weaponColorAlpha: {
-			Tooltip: 武器の対角色の係数
-			Label: 対角
-		}
-
-		mapColorAlpha: {
-			Tooltip: グラデーションの係数
-			Label: グラデーション
-		}
+	IsModifyActive: {
+		Label: 近接改造を使用
 	}
 
-	ModernConfigTitle: 設定センター
+	DefaultConfig: 現在の近接設定を使用
+	CurrentGroupName: この武器が属するグループ:{0}
+	DefaultGroup: デフォルトグループ
+
+	RenameTip: {
+		Illegal: 使用不可の文字が含まれています。 \\, /, :, *, ?, \", <, >, |
+		TooLong: ファイル名は40文字以内にしてください。
+		Exists: 同名のファイルがすでに存在します。
+	}
+
+	SavedAs: 新しいグループを保存
+	EmptyName: 名前を付けて
+	SameDefault: "///注意/// すべてデフォルト名だったため識別用に連番を付与しました。"
+	TooManySameName: "///失敗/// デフォルト名のファイルが多すぎます。名前を変更してください。"
+	Title: 武器グループマネージャー
+	CurrentConfig: 現在の近接設定
+	DefaultName: ユーザー定義グループ
+	Create: 最優先で新しいグループを作成
+
+	WeaponList: {
+		Label: 武器リスト
+	}
+
+	BindConfigName: {
+		$parentVal: ローカル設定と併用:{0}
+		Label: このグループの設定
+	}
+
+	WhiteList: {
+		Label: ホワイトリストモードを使用
+	}
+
+	BasedOnDefaultCondition: {
+		Label: デフォルトグループを基準にする
+	}
+}
+
+Misc: {
+	UnavailableConfig:
+		'''
+		この値は現在無効
+		他の設定（ヒートマップモードなど）の影響
+		'''
+	UselessConfig:
+		'''
+		申し訳ない
+		この値は現在使用されていない ;P
+		'''
+	MeleeModifyDeactive: 近接エフェクト無効
+	MeleeModifyActive: 近接エフェクト有効
+}
+
+Items: {
+	WeaponGroupManager: {
+		Tooltip: UIを表示して武器グループを管理
+		DisplayName: 武器グループマネージャー
+	}
+
+	ConfigSaveLoader: {
+		Tooltip: UIを表示して選択、編集する
+		DisplayName: 設定セーブローダー
+	}
+}
+
+ModernConfig: {
+	ModernConfigTitle: Mods.CoolerItemVisualEffect.ModernConfig.ModernConfigTitle
+
+	MiscConfig: {
+		Tooltip:
+			'''
+			なんだこれ
+			まあ分かると思うけど
+			名前は「CoolerItemVisualEffect」でも
+			中身は大剣改造が中心だよね？
+			'''
+		Label: その他の設定
+	}
+
+	EffectConfig: {
+		Tooltip:
+			'''
+			目がやられる…
+			そしてグラボが燃える！
+			'''
+		Label: 特殊効果設定
+	}
+
+	RenderingConfig: {
+		Tooltip:
+			'''
+			プレビューに対応
+			プレビューアニメーション付きの
+			とても見やすい設定UI
+			'''
+		Label: レンダリング設定
+	}
+
+	MeleeConfig: {
+		Tooltip: もはや単なる見た目変更ではない
+		Label: 近接ビジュアル設定
+	}
+
+	AboutPage: {
+		Tooltip: すごくクール(?)
+		Content: とてもクールな回転する巨大ブレード!!!!
+		Label: 近接改造について
+	}
+}
+
+Keybinds: {
+	GroupManagerActive: {
+		DisplayName: グループマネージャーを開く
+	}
+
+	ConfigSaveLoaderActive: {
+		DisplayName: 設定セーブローダーを開く
+	}
+
+	ModifyActive: {
+		DisplayName: 近接エフェクトの即時オン／オフ
+	}
+}
+
+Projectiles: {
+	CIVESword: {
+		DisplayName: C.I.V.E. ソード
+	}
 }
 
 EmptyHand: 手ぶら

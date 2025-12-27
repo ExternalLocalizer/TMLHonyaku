@@ -17,14 +17,140 @@ Items: {
 
 Configs: {
 	InfernumMusicConfig: {
-		DisplayName: Config
+		DisplayName: 設定
+
+		Headers: {
+			MusicOverrides: 音楽上書き
+			ExoMechs: エクソメカ
+		}
+
+		OverrideKingSlimeTheme: {
+			Label: キングスライム
+			Tooltip: 有効にすると、「Gelatinous Dynasty」が再生されます。
+		}
+
+		OverrideEyeOfCthulhuTheme: {
+			Label: クトゥルフの目
+			Tooltip: 有効にすると、「Seer of the Night」が再生されます。
+		}
+
+		OverrideEaterOfWorldsTheme: {
+			Label: イーターオブワールド
+			Tooltip: 有効にすると、「Maw of the Corruption」が再生されます。
+		}
+
+		OverrideBrainOfCthulhuTheme: {
+			Label: クトゥルフの脳
+			Tooltip: 有効にすると、「Intellect of the Crimson」が再生されます。
+		}
+
+		OverrideQueenBeeTheme: {
+			Label: 女王蜂
+			Tooltip: 有効にすると、「Royal Retaliation」が再生されます。
+		}
+
+		OverrideSkeletronTheme: {
+			Label: スケルトロン
+			Tooltip: 有効にすると、「Warden of the Damned」が再生されます。
+		}
+
+		OverrideWallOfFleshTheme: {
+			Label: ウォールオブフレッシュ
+			Tooltip: 有効にすると、「One's Ending, Another's Beginning」が再生されます。
+		}
+
+		OverrideMinibossTheme: {
+			Label: ミニボス
+			Tooltip: 有効にすると、「Misanthropic Encounters」が再生されます。
+		}
+
+		OverrideDreadnautilusTheme: {
+			Label: ドレッドノーチラス
+			Tooltip: 有効にすると、「Misanthropic Encounters」が再生されます。
+		}
+
+		OverrideQueenSlimeTheme: {
+			Label: クイーンスライム
+			Tooltip: 有効にすると、「Crowned Before One's End」が再生されます。
+		}
+
+		OverrideTwinsTheme: {
+			Label: ツインズ
+			Tooltip: 有効にすると、「Inferior Fabrications」が再生されます。
+		}
+
+		OverrideDestroyerTheme: {
+			Label: デストロイヤー
+			Tooltip: 有効にすると、「Inferior Fabrications」が再生されます。
+		}
+
+		OverrideSkeletronPrimeTheme: {
+			Label: スケルトロンプライム
+			Tooltip: 有効にすると、「Inferior Fabrications」が再生されます。
+		}
+
+		OverridePlanteraTheme: {
+			Label: プランテラ
+			Tooltip: 有効にすると、「Floral Animosity」が再生されます。
+		}
+
+		OverrideGolemTheme: {
+			Label: ゴーレム
+			Tooltip: 有効にすると、「Icon of the Sun」が再生されます。
+		}
+
+		OverrideDukeFishronTheme: {
+			Label: デュークフィシュロン
+			Tooltip: 有効にすると、「Razorblade Monsoon」が再生されます。
+		}
+
+		OverrideEmpressOfLightTheme: {
+			Label: エンプレスオブライト
+			Tooltip: 有効にすると、「Shining Kaleidoscope ~ Prismatic Radiance」が再生されます。
+		}
+
+		OverrideLunaticCultistTheme: {
+			Label: 狂気の崇拝者
+			Tooltip: 有効にすると、「Eidolic Ancestry」が再生されます。
+		}
+
+		OverrideMoonLordTheme: {
+			Label: ムーンロード
+			Tooltip: 有効にすると、「The End Of An Olden Era」が再生されます。
+		}
+
+		OverrideAdultEidolonWyrmTheme: {
+			Label: 原初の竜
+			Tooltip: 有効にすると、「Vocitus Terminus」が再生されます。
+		}
+
+		PlayCatastrophicFabrications: {
+			Label: Catastrophic Fabrications
+			Tooltip: 有効にすると、「Catastrophic Fabrications」が再生されます。
+		}
+
+		PlayZenithFabrications: {
+			Label: Zenith Fabrications
+			Tooltip: 有効にすると、Infernum難易度で戦闘後半に「Zenith Fabrications」が再生されます。
+		}
+
+		PlayTheirFabricator: {
+			Label: Their Fabricator
+			Tooltip: 有効にすると、戦闘終了時に「Their Fabricator」が再生されます。
+		}
 
 		OverrideCalTheme: {
 			Label: カラミタス戦BGMを上書き
-			Tooltip: カラミタスのBGMをInfernumのBGMで上書きするかどうかを設定します。無効にすると、「Stained Brutal Calamity」が再生されます（Calamityの音楽Modが有効の場合）
+			Tooltip: カラミタスのBGMをInfernumのBGMで上書きするかどうかを設定します。無効にすると、「Stained Brutal Calamity」が再生されます（Calamityの音楽Modが有効な場合）。
+		}
+
+		ToggleAllMusic: {
+			Label: すべての音楽上書きを切替
+			Tooltip: 有効にすると、すべての音楽上書きが有効になります。
 		}
 	}
 }
+
 
 MusicDisplay: {
 	AdultEidolonWyrm: {
@@ -39,7 +165,7 @@ MusicDisplay: {
 
 	Calamitas: {
 		DisplayName: Scars of Calamity
-		Author:by PinpinNeon
+		Author: by PinpinNeon
 	}
 
 	LunaticCultist: {

@@ -1,0 +1,60 @@
+Configs: {
+	FreneticOptimizationConfig: {
+		DisplayName: Frenetic Optimizations設定
+
+		RateOfStuff: {
+			Label: 更新レート (10-120) [c/00ff00:(推奨: 30以上)]
+			Tooltip: アイテム、ワールドイベントなどの更新レート
+		}
+
+		MapUpdateStuff: {
+			Label: マップ更新 (60-1200) [c/00ff00:(推奨: 300以上)]
+			Tooltip: マップの更新レート。
+		}
+
+		worldeventstuff: {
+			Label: ワールドイベント更新 (0-2) [c/00ff00:(推奨: 1)]
+			Tooltip: ワイバーンの通過や熱気球などの背景イベント。0は発生しなくなり、2より高い値は非常に速く不自然になるため使用不可。
+		}
+
+		MaxProjectiles: {
+			Label: 最大弾幕数 (50-2.5k) [c/00ff00:(推奨: 200以上)]
+			Tooltip: 同時に存在できる弾幕の最大数。
+		}
+
+		MaxDust: {
+			Label: 最大ダスト数 (0-2.5k) [c/00ff00:(推奨: 750以上)]
+			Tooltip: 同時に存在できるダスト、パーティクルの最大数。
+		}
+
+		MaxActiveNPCs: {
+			Label: アクティブNPC最大数 (100-1000) [c/00ff00:(推奨: 150以上)]
+			Tooltip: 同時に存在できるNPCの数。除外対象：ワーム、ボス、タウンNPC
+		}
+
+		ProjectileDistThing: {
+			Label: 弾幕距離を有効化 (実験的) [c/00ff00:(推奨: シングルプレイではON)]
+			Tooltip: プレイヤーから離れた位置に存在できる弾幕を有効化または無効化。現在はシングルプレイ向け。
+		}
+
+		MaxDistance: {
+			Label: ダスト、弾幕の距離 (0-64) [c/00ff00:(推奨: 35以上)]
+			Tooltip: ダストや弾幕が削除されるまでに存在できるプレイヤーからの最大距離。
+		}
+
+		EntityDistThing: {
+			Label: エンティティ処理距離を有効化 (実験的) [c/00ff00:(推奨: OFF)]
+			Tooltip: エンティティ処理距離を有効化または無効化。現在いくつか問題があり。Terraria本体ですでに似た処理が行われているため将来的に削除される可能性あり。
+		}
+
+		NPCDistance: {
+			Label: NPC、エンティティ距離 (20-200 実験的)
+			Tooltip: NPCやエンティティが一時的に無効化されるプレイヤーからの距離。
+		}
+
+		PatreonMomento: {
+			Label: ♥ Patreon支援者へのハグ、なでなで、愛を込めて。 (そしてこのModを使ってくれているあなたにも♥)
+			Tooltip: 支援者：GooferGoblin
+		}
+	}
+}

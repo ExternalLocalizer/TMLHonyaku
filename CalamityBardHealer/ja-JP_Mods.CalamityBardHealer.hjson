@@ -1,1064 +1,887 @@
-Configs: {
-	BalanceConfig: {
-		healing: {
-			Tooltip:
-				'''
-				回復魔法の回復倍率
-				0の場合、ライフは1しか回復しない
-				(これを有効にするにはワールドの再起動が必要です!)
-				'''
-			Label: ヒーリング倍率
-		}
-
-		soulEssence: {
-			Tooltip:
-				'''
-				ヒーラー武器にソウルエッセンス倍率を付与
-				上限5
-				(これを有効にするにはワールドの再起動が必要です!)
-				'''
-			Label: ソウルエッセンス倍率
-		}
-
-		radiant: {
-			Tooltip:
-				'''
-				神聖武器のダメージ倍率
-				(これを有効にするにはワールドの再起動が必要です!)
-				'''
-			Label: 神聖武器のダメージ倍率
-		}
-
-		bard: {
-			Tooltip:
-				'''
-				吟遊詩人用武器のダメージ倍率
-				(これを有効にするにはワールドの再起動が必要です!)
-				'''
-			Label: 吟遊詩人の武器ダメージ倍率
-		}
-
-		rogueThrowerMerge: {
-			Tooltip: Ragnarok Modがインストールされている場合、自動で無効化されます
-			Label: ローグと投擲クラスの統合
-		}
-
-		expensiveDraedonsForge: {
-			Tooltip: ドレイドンの炉を作成するために希少なトリウム素材が必要になるように変更します
-			Label: ドレイドンの炉
-		}
-
-		DisplayName: バランス設定
-	}
+ItemDescriptions: {
+	AstralBreastplate: 最大+6インスピレーション、+4ボーナスヒーリング
+	AstralHelm: インスピレーションの再生率が12％増加
+	CelestialCarrier:
+		'''
+		水平速度：9.00
+		加速倍率：2.5
+		優れた垂直方向のスピード
+		飛行時間：180
+		天空の鎧を着用している間、回復魔法のライフ回復量が4増加する
+		'''
+	ChampionWing:
+		'''
+		水平速度: 3.0
+		加速倍率: 1.0
+		平均垂直速度
+		飛行時間: 120
+		与ダメージ+10%
+		'''
+	CyanPhasesaber: 敵の防御力を100%無視する
+	DemonshadeGreaves:
+		'''
+		テクニカルポイントの最大値が2増加し、インスピレーションの最大値が15増加し、ライフのボーナス回復量が25増加する
+		管楽器の追尾の速度と範囲が60％増加し、弦楽器のバウンスが6回増加する
+		エンパワーメントの効果範囲が2倍になり、効果時間が6秒延長される
+		'''
+	DemonshadeHelm:
+		'''
+		神聖と旋律ダメージ30%増加
+		ヒーリング、詠唱速度、演奏速度が35%増加
+		インスピレーションの再生率とノートのドロップ確率が55%増加
+		'''
+	DemonBloodWings:
+		'''
+		水平速度：7.5
+		加速倍率： 1.0
+		平均垂直速度
+		飛行時間：170
+		魔血の鎧を着用している場合、レイジモード中のライフ回復を早める
+		'''
+	DragonWings:
+		'''
+		水平速度：6.25
+		加速倍率 1.0
+		平均垂直速度
+		飛行時間: 100
+		ドラゴンの鎧を着用している場合、攻撃は呪いの炎を与える
+		'''
+	DreadWings:
+		'''
+		水平速度：7.5
+		加速倍率: 1.0
+		平均垂直速度
+		飛行時間：170
+		ドレッドアーマーを着用している場合、レイジモードのダメージ倍率が増加
+		'''
+	DridersGrace:
+		'''
+		水平速度: 3.0-7.0
+		加速倍率: 1.0-2.0
+		平均垂直速度
+		飛行時間: 60-360
+		クモの胸当て着用時に召喚上限+1
+		'''
+	FleshWings:
+		'''
+		水平速度：6.25
+		加速倍率 1.0
+		平均垂直速度
+		飛行時間: 100
+		肉の体を着用している場合、確率でライフを奪う
+		'''
+	OmegaBlueSet:
+		'''
+		最大テクニカルポイントを2増加
+		インスピレーションの最大値が12増加し、ボーナス回復のライフが7増加する
+		'''
+	OmegaBlueSetNoThrower: 最大インスピレーション+12、追加回復量+7ライフ
+	PinkPhasesaber: 敵の防御力を100%無視する
+	ShootingStarTurboTuba:
+		'''
+		水平スピード：9.00
+		加速倍率：2.5
+		素晴らしい垂直速度
+		飛行時間: 180
+		流れ星の鎧を着用している場合、インスピレーションの再生率が15%増加する
+		'''
+	SubspaceWings:
+		'''
+		水平速度: 7.5
+		加速倍率: 1.0
+		平均垂直速度
+		飛行時間: 160
+		'''
+	TerrariumWings:
+		'''
+		水平速度: 8.00
+		加速倍率: 2.0
+		平均垂直速度
+		飛行時間: 180
+		テラリウムアーマー着用時は飛行時間が2倍
+		'''
+	TitanWings:
+		'''
+		水平速度：7.5
+		加速倍率 1.0
+		平均垂直速度
+		飛行時間: 160
+		巨人の鎧を着用している場合、ダメージ15%増加、特殊ダメージ減少
+		'''
+	WhiteDwarfThrusters:
+		'''
+		水平スピード：9.00
+		加速倍率：2.5
+		素晴らしい垂直速度
+		飛行時間: 180
+		ホワイトドワーフの胸当てを着用している場合、投擲武器の劣化時間が50%長くなる
+		'''
+	WulfrumJacket: エンパワーメントの範囲が25％拡大
 }
 
-FargoEnchantments: {
-	TarragonEnchant:
-		'''
-		敵に当たるとインスピレーションを回復するクォーターレストを周囲に2つ生成する
-		ヒーリングパルスを放つことがあり、回復とシールドを味方に与える
-		'''
-	SilvaEnchant: 一撃で大ダメージを受けると、ヘルスが最も低いプレイヤーに30秒間守護天使バフが付与される
-	GodSlayerEnchant:
-		'''
-		災いの鐘が頭上に浮かび、攻撃中に時々鳴る
-		鐘が鳴ると周囲の敵に15000ダメージを与え、近くの敵の投擲物は破壊される
-		'''
-	BloodflareEnchant:
-		'''
-		「アーマーアビリティ」キーを押すと、ライフの半分を使い、ボーナス回復量と同じだけ味方を回復する治癒儀式を展開する
-		一度にアクティブにできるのは1つの儀式のみで、この能力にはクールダウンはないが、使いすぎると死亡する
-		また、魅惑の歌のバフを5秒間付与する
-		魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間を5秒増加させる
-		発動中にダメージを受けるとライフを200回復するが、魅惑の歌は解除される
-		'''
-	AtaxiaEnchant:
-		'''
-		75以上のダメージを受けると、3秒間オアシスが出現する
-		オアシスは1/3秒ごとにボーナス回復量と同じだけライフを回復する
-		旋律ダメージのクリティカルで硫化物の炎が噴き出る
-		噴火は1回のみ発生し、1回につき3秒のクールダウンがある
-		'''
-}
-
-Buffs: {
-	CalamityBell: {
-		Description: ただそこで、威嚇するように待っている......
-		DisplayName: カラミティ・ベル
-	}
-
-	AlluringSongCD: {
-		Description:
+Items: {
+	Vivapollum: {
+		DisplayName: ヴィヴァポルム
+		Tooltip:
 			'''
-			しばらくの間、魅惑の歌は使用できない！
-			「しばらくいいや...」
+			命中時に爆発する深淵の泡を連射し、ライフを抑圧する
+			インスピレーションが尽きると、短時間だけ上方向に深淵の泡の奔流を発生させる
+			一度発動すると、インスピレーションが完全に回復するまで再発動しない
 			'''
-		DisplayName: 魅惑の歌クールダウン
 	}
 
-	AlluringSong: {
-		Description:
+	SoulSplicer: {
+		DisplayName: 魂断ちの大鎌
+		Tooltip:
 			'''
-			インスピレーションの再生率とエンパワーメントの範囲が50%増加
-			エンパワーメントの持続時間が5秒延長される
-			ダメージを受けるとライフが一律250回復するが、魅惑の歌の効果が消える
-			「綺麗な歌声」
+			防御力を10無視する
+			魂を切り裂く大鎌を高速回転させる
+			定期的に自身の幻影を放つ
+			命中時に感電と獄炎を付与
 			'''
-		DisplayName: 魅惑の歌
 	}
-}
 
-Projectiles: {
-	YharimsJam: {
-		DisplayName: Yharim's Jam
-	}
-
-	WulfrumWeedWackerWave: {
-		DisplayName: Wulfrum Weed Wacker
-	}
-
-	WulfrumWeedWacker: {
-		DisplayName: Wulfrum Weed Wacker
-	}
-
-	WulfrumSoundWave: {
-		DisplayName: Sound Wave
-	}
-
-	Windward: {
-		DisplayName: Windward
-	}
-
-	WilloftheRagnarok: {
-		DisplayName: Will of the Ragnarök
-	}
-
-	WhisperingTrunk: {
-		DisplayName: Whispering Trunk
-	}
-
-	WhisperingLeaf: {
-		DisplayName: Whispering Leaf
-	}
-
-	Whirlwind: {
-		DisplayName: Whirlwind
-	}
-
-	ViolinceBow: {
-		DisplayName: Violince
-	}
-
-	Violince: {
-		DisplayName: Violince
-	}
-
-	Trinity: {
-		DisplayName: Trinity
-	}
-
-	Transfiguration: {
-		DisplayName: Transfiguration
-	}
-
-	ToxicTiedEightNote: {
-		DisplayName: Toxic "???"
-	}
-
-	ToxicQuarterNote: {
-		DisplayName: Toxic "音符"
-	}
-
-	ToxicEightNote: {
-		DisplayName: Toxic "???"
-	}
-
-	TheWindmill: {
-		DisplayName: The Windmill
-	}
-
-	TherapeuticSludge: {
-		DisplayName: Therapeutic Sludge
-	}
-
-	TimesOldTrail: {
-		DisplayName: Times Old Roman
-	}
-
-	TimesOldRoman: {
-		DisplayName: Times Old Roman
-	}
-
-	TidalWave: {
-		DisplayName: Tidal Wave
-	}
-
-	TidalForce: {
-		DisplayName: Tidal Force
-	}
-
-	TectonicPlate: {
-		DisplayName: Tectonic Plate
-	}
-
-	TectonicCollision: {
-		DisplayName: Tectonic Collision
-	}
-
-	TarragonQuarterRest: {
-		DisplayName: Tarragon Quarter Rest
-	}
-
-	TarragonHeartbeat: {
-		DisplayName: Tarragon Heartbeat
-	}
-
-	Syzygy: {
-		DisplayName: Syzygy
-	}
-
-	SymphonicExoMissile: {
-		DisplayName: Symphonic Exo Missile
-	}
-
-	SuperclusterStar: {
-		DisplayName: Supercluster
-	}
-
-	Supercluster: {
-		DisplayName: Supercluster
-	}
-
-	StarCluster: {
-		DisplayName: Star Cluster
-	}
-
-	StarBirthStar: {
-		DisplayName: Newly Born Star
-	}
-
-	StarBirth: {
-		DisplayName: Nebula
-	}
-
-	SpookyMonth: {
-		DisplayName: Spooky Month
-	}
-
-	SludgeBomb: {
-		DisplayName: Sludge Bomb
-	}
-
-	SlagFurysIntent: {
-		DisplayName: Slag Fury's Intent
-	}
-
-	SingularityStar: {
-		DisplayName: Singularity
-	}
-
-	Singularity: {
-		DisplayName: Singularity
-	}
-
-	SharkBloodInjection: {
-		DisplayName: Shark Blood Injection
-	}
-
-	ScuffedKeytar: {
-		DisplayName: Scuffed Keytar
-	}
-
-	ScreamingClamScream: {
-		DisplayName: Screaming Clam
-	}
-
-	ScreamingClam: {
-		DisplayName: Screaming Clam
-	}
-
-	ScrapGuitar: {
-		DisplayName: Scrap Guitar
-	}
-
-	ScorchingMaelstrom: {
-		DisplayName: Scorching Maelstrom
-	}
-
-	SavingGrace: {
-		DisplayName: Saving Grace
-	}
-
-	SARS: {
-		DisplayName: S.A.R.S.
-	}
-
-	PurgedSoul: {
-		DisplayName: Purged Soul
-	}
-
-	PledgeofSelflessness: {
-		DisplayName: Pledge of Selflessness
-	}
-
-	PlagueTrace: {
-		DisplayName: Plague Trace
-	}
-
-	PlagueSwarmerMissile: {
-		DisplayName: Plague Swarmer
-	}
-
-	PhoenicianBeakSlice: {
-		DisplayName: Phoenician Beak Slice
-	}
-
-	PhoenicianBeak: {
-		DisplayName: Phoenician Beak
-	}
-
-	OmnicidesLaw: {
-		DisplayName: Omnicide's Law
-	}
-
-	OathofSacrifice: {
-		DisplayName: Oath of Sacrifice
-	}
-
-	NoisebringerGoliath: {
-		DisplayName: Noisebringer Goliath
-	}
-
-	Noisebringer: {
-		DisplayName: Noisebringer
-	}
-
-	MilkyWaySpur: {
-		DisplayName: Milky Way Spur
-	}
-
-	MilkyWay: {
-		DisplayName: Milky Way
-	}
-
-	MelterNote2: {
-		DisplayName: Melter Song
-	}
-
-	MelterNote1: {
-		DisplayName: Melter Song
-	}
-
-	MelterAmp: {
-		DisplayName: Melter Amp
-	}
-
-	LuxorsSong: {
-		DisplayName: Luxor's Song
-	}
-
-	LuxorsPrayer: {
-		DisplayName: Luxor's Prayer
-	}
-
-	LostOasis: {
-		DisplayName: Lost Oasis
-	}
-
-	InterstellarShredder2: {
-		DisplayName: Interstellar Shredder
-	}
-
-	InterstellarShredder: {
-		DisplayName: Interstellar Shredder
-	}
-
-	InfestedCastanet: {
-		DisplayName: C4$+@+n3+
-	}
-
-	IceCube: {
-		DisplayName: Ice Cube
-	}
-
-	IceCreamMachine: {
-		DisplayName: Ice Cream Machine
-	}
-
-	HyphaeBatonSporeCloud: {
-		DisplayName: Hyphae Baton
-	}
-
-	HyphaeBaton: {
-		DisplayName: Hyphae Baton
-	}
-
-	HydrothermalOasis: {
-		DisplayName: Hydrothermal Oasis
-	}
-
-	HydrothermalEruption: {
-		DisplayName: Hydrothermal Eruption
-	}
-
-	HydrogenSulfideWave: {
-		DisplayName: Hydrogen Sulfide
-	}
-
-	HydrogenSulfideFlames: {
-		DisplayName: Hydrogen Sulfide
-	}
-
-	HydrogenSulfide: {
-		DisplayName: Hydrogen Sulfide
+	Procioplexon: {
+		DisplayName: プロシオプレクソン
+		Tooltip:
+			'''
+			防御力を100無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			攻撃のたびに深淵の斬撃とともに深淵の潮流を放つ
+			3回目の攻撃ごとに鎌を回転させる
+			回転中は複数の容赦ない嵐を解き放つ
+			'''
+	}
+
+	OldDukesWisdom: {
+		DisplayName: オールドデュークの叡智
+		Tooltip:
+			'''
+			爆発して歯を撒き散らす弾を複数放つ
+			命中時に酸毒と硫黄中毒を付与する
+			DM Dokuroの"Toxic Wisdom"に登場する奇妙なブラス音が元になっている
+			'''
+	}
+
+	IrradiatedKusarigama: {
+		DisplayName: 汚染された鎖鎌
+		Tooltip:
+			'''
+			この武器は鎌として扱われる
+			鉄球を投げた後に鎌を投げる二回攻撃を行う
+			鉄球が命中した時、回復の霧を生成するが、同時に存在できるのは3つまで
+			鎌が命中、または投げた鎌が手元に戻った際に、追尾する泡を生成する
+			命中時に酸毒と硫黄中毒を付与
+			'''
+	}
+
+	AerospecBiretta: {
+		DisplayName: アエロスペックのビレッタ帽
+		Tooltip:
+			'''
+			神聖ダメージと詠唱速度が7%増加
+			回復魔法のライフ回復量が2増加する
+			'''
+		SetBonus:
+			'''
+			移動速度5%増加
+			神聖ダメージが13%増加
+			空中にいる間、回復魔法でライフを3回復する
+			'''
+	}
+
+	AerospecHeadphones: {
+		DisplayName: 天空のヘッドホン
+		Tooltip: 旋律ダメージと演奏速度が8%増加
+		SetBonus:
+			'''
+			移動速度とインスピレーション再生速度が5%増加
+			管楽器の追尾速度が10%増加
+			'''
+	}
+
+	AnahitasArpeggio: {
+		DisplayName: アナヒタのアルペジオ
+		Tooltip:
+			'''
+			敵を混乱させるゆっくりと動く音符を放つ
+			DM Dokuroの "Forbidden Lullaby" のハープがベースになっている
+			'''
+	}
+
+	AquaiusAdvice: {
+		DisplayName: アクイウスの助言
+		Tooltip:
+			'''
+			ランダムな方向に巻き上がる深海の触手を噴出させる
+			やがて沈降し、有害な水流を形成する
+			命中時、水深を浅くする
+			「深海に溺れるか、深海から蘇るか...アクイウスが助言する」
+			'''
+	}
+
+	ArcticReinforcement: {
+		DisplayName: 極寒の対旋律
+		Tooltip:
+			'''
+			氷柱のミニブリザードを放つ
+			「北極のカウンターメロディー」
+			DM Dokuroの"Antarctic Reinforcement"の木琴がベースになっている
+			'''
+	}
+
+	AugmentedAuricTeslaFeatheredHeadwear: {
+		DisplayName: オーリックテスラの羽根付きヘッドウェア+
+		Tooltip:
+			'''
+			旋律ダメージ25%増加
+			旋律ダメージのクリティカル確率が20%増加
+			旋律の演奏速度が12%増加
+			管楽器の追尾速度と範囲が20%増加
+			弦楽器のバウンス回数が3回増加
+			'''
+		SetBonus:
+			'''
+			吟遊詩人用の星間、ブラッドフレア、ゴッドスレイヤーのアーマー効果を併せ持つ
+			ゴッドスレイヤーダッシュはCalamityのアーマーアビリティのキーバインドを使用する
+			魅惑の歌はThoriumのアーマーアビリティのキーバインドを使用する
+			エンパワーメントの持続時間が5秒増加する
+			インスピレーションの再生率が20%増加する
+			インスピレーションノートが落ちる確率が45%増加する
+			'''
+	}
+
+	AugmentedAuricTeslaValkyrieVisage: {
+		DisplayName: オーリックテスラのヴァルキリーヴィザージュ+
+		Tooltip:
+			'''
+			神聖ダメージが15%増加し、クリティカル確率が10%増加する
+			マナコストが45%減少
+			ライフとマナの回復量が大幅に増加
+			最大ライフ+100
+			最大マナ+200
+			回復魔法によるライフ回復量が18増加
+			'''
+		SetBonus:
+			'''
+			ヒーラー用の星間、ブラッドフレア、シルヴァのアーマー効果
+			神聖ダメージ40%増加
+			神聖ダメージのクリティカル確率20%増加
+			ヒーラー武器の詠唱速度が16%増加			
+			'''
+	}
+
+	AuricTeslaFeatheredHeadwear: {
+		DisplayName: オーリックテスラの羽根付きヘッドウェア
+		Tooltip:
+			'''
+			旋律ダメージ25%増加
+			旋律ダメージのクリティカル確率が20%増加
+			演奏速度が12%増加
+			管楽器の追尾速度と範囲が20%増加
+			弦楽器のバウンス時間が増加
+			'''
+		SetBonus:
+			'''
+			吟遊詩人専用のタラゴン、ブラッドフレア、ゴッドスレイヤーのアーマー効果
+			ゴッドスレイヤーダッシュはCalamityのアーマーアビリティのキーバインドを使用する
+			魅惑の歌はThoriumのアーマーアビリティのキーバインドを使用する
+			エンパワーメントの範囲が50%増加
+			インスピレーションの持続時間が5秒増加し、再生率を20%増加させる
+			インスピレーションノートが落ちる確率が45%増加
+			'''
+	}
+
+	AuricTeslaValkyrieVisage: {
+		DisplayName: オーリックテスラのヴァルキリーヴィザージュ
+		Tooltip:
+			'''
+			神聖ダメージ15%増加
+			神聖ダメージのクリティカル確率10%増加
+			マナコストが45%減少
+			ライフとマナの回復量が大幅に増加
+			最大ライフ+100
+			最大マナ+200
+			回復魔法によるライフ回復量が18増加
+			'''
+		SetBonus:
+			'''
+			ヒーラー専用のタラゴン、ブラッドフレア、シルヴァのアーマー効果
+			神聖ダメージ40%増加し、クリティカル確率を20%増加させる
+			詠唱速度が16%増加
+			'''
+	}
+
+	BelchingSaxophone: {
+		DisplayName: ベルチングサクソフォン
+		Tooltip:
+			'''
+			ツル、シャボン玉、音符を放つ
+			ツルと泡は照射された毒を与え
+			音符は硫黄の毒と酸の毒を与える
+			'''
+	}
+
+	BloodflareRitualistMask: {
+		DisplayName: ブラッドフレアの儀式用マスク
+		Tooltip:
+			'''
+			神聖ダメージとクリティカル確率15%増加
+			最大ライフ+80
+			ライフ回復量が少し増加
+			回復魔法によるライフ回復量が12増加
+			'''
+		SetBonus:
+			'''
+			神聖ダメージ27%増加
+			詠唱速度が11%増加
+			「{0}」キーを押すとライフの半分を使って回復の儀式を開始する
+			儀式は{1}のライフで急速に味方を回復する
+			一度に使えるのは1つの儀式のみ
+			このアビリティにクールダウンは存在しないが、使いすぎると死亡する
+			'''
+	}
+
+	BloodflareSirenSkull: {
+		DisplayName: ブラッドフレアのセイレーンスカル
+		Tooltip:
+			'''
+			旋律ダメージとクリティカル確率が10%増加
+			演奏速度が12%増加
+			'''
+		SetBonus:
+			'''
+			インスピレーションの最大値+4
+			旋律ダメージ8%増加
+			旋律ダメージのクリティカル確率と演奏速度が5%増加
+			エンパワーメントの持続時間が4秒増加
+			「{0}」キーを押すと5秒間魅惑の歌バフを得る
+			魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間が5秒増加する
+			魅惑の歌発動中にダメージを受けると一律200ライフ回復するが、魅惑の歌は解除される
+			魅惑の歌のクールダウンは45秒
+			'''
+	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: 花の聖女の献身
+		Tooltip:
+			'''
+			茎を伸ばし、花を咲かせる
+			「献身は勇気を奮い立たせ、勇気は犠牲を奮い立たせる」
+			'''
+	}
+
+	BloomingSaintessStatue: {
+		DisplayName: 花の聖女の像
+		Tooltip:
+			'''
+			最大ライフと最大マナが20増加
+			回復速度が12%増加
+			神聖ダメージが14%増加し、クリティカル確率が8%増加する
+			詠唱速度が6%増加
+			回復魔法のライフ回復量が2増加
+			暁炎で神聖攻撃を強化する
+			「幸運なことに、大きすぎてどの瓶にも入らない」
+			'''
+	}
+
+	CherubimOmega: {
+		DisplayName: ケルビムオメガ
+		Tooltip:
+			'''
+			75ポイントの防御力を無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			一振りするごとにカーソルに神殺しの斬撃を放つ
+			斬撃は大きな裂け目を開く
+			この裂け目から最大5つの追従する天空のエネルギーが放出される
+			3回目の攻撃は鎌を回転させる
+			回転中は斬撃の発生量が2倍になる
+			「ちょっと待て、これはセレスタスじゃない！」
+			'''
+	}
+
+	ChristmasCarol: {
+		DisplayName: クリスマスキャロル
+		Tooltip:
+			'''
+			装飾の施された大きなタンバリンを投げ、自分に戻ってくる
+			タンバリンと一緒に3つの弱い氷片も放つ
+			タイミングよくヒットさせることで、タンバリンがパワーアップし、ダメージが上昇する
+			タイミングが合えば敵をなぎ払うこともできる
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
+			'''
+	}
+
+	ColdShoulder: {
+		DisplayName: コールドショルダー
+		Tooltip:
+			'''
+			10ポイントの防御力を無視
+			命中時に凍傷を与える氷の鎌を回転させる
+			常に氷柱を吐き出し、50%のダメージを与える
+			<right> で鎌を投げる
+			投げるとダメージが30%増加する
+			「アイツを無視しろ！」
+			'''
+	}
+
+	CottonMouth: {
+		DisplayName: コットンマウス
+		Tooltip:
+			'''
+			20ポイントの防御力を無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			一振りごとに酸性のガス雲を噴射する
+			命中時に酸毒と硫黄毒を与える
+			'''
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: クリスタルのハイドローロフォン
+		Tooltip:
+			'''
+			命中すると砕け散る2つの曲がった水の結晶を放つ
+			「人間にとって最も重要なものは水で、水は万物を益する」
+			DM Dokuroの "Sanctuary"のピアノのような音がベースになっている
+			'''
+	}
+
+	DaedalusCowl: {
+		DisplayName: ダイダロスのフード
+		Tooltip:
+			'''
+			神聖ダメージ10%増加
+			回復速度5%増加
+			回復魔法のライフ回復量が3増加
+			'''
+		SetBonus:
+			'''
+			神聖ダメージが25%増加
+			回復魔法でライフが1回復する
+			 「{0}」キーを押すとアイスクリームマシーンが召喚され、再度 「{0}」キーを押すと召喚が解除される
+			プレイヤーはアイスクリームマシンを右クリックすることで、1分間シュガーラッシュのバフを受けることができる
+			その際プレイヤーは {1}0ライフ回復するが、クールダウンに3分かかる
+			'''
+	}
+
+	DaedalusHat: {
+		DisplayName: ダイダロスの帽子
+		Tooltip:
+			'''
+			旋律ダメージが13%増加
+			旋律ダメージのクリティカル確率が7%増加
+			'''
+		SetBonus:
+			'''
+			演奏速度が5%増加
+			インスピレーションの再生率が10%増加
+			エンパワーメントの持続時間が3秒増加
+			旋律ダメージが命中時にフロストバーンとフロストバイトを与える
+			近くの味方は命中時に確率でフロストバーンを与える
+			'''
+	}
+
+	DeathAdder: {
+		DisplayName: デス・アダー
+		Tooltip:
+			'''
+			35ポイントの防御力を無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			振るたびに幻影を放つ
+			幻影は対象を追いかける
+			「オムニサイドは誇りに思うだろう...そして怒るだろう」
+			'''
+	}
+
+	DesertedDrugDeal: {
+		DisplayName: 大砂鮫の血清弓
+		Tooltip:
+			'''
+			敵の防御力を30無視する
+			グレートサンドシャークの血で満たされた注射器を発射する
+			注射器は命中した敵やプレイヤーに付着し、注入される
+			敵に命中すると、継続ダメージを与える
+			プレイヤーに命中すると、回復効果をもたらす
+			命中した敵に圧潰とアーマーブレイクを付与する
+			回復した味方には、長時間持続するライフ回復効果を付与する
+			自身を回復することもできる
+			「微量のHerobrineが含まれています」
+			'''
+	}
+
+	Disaster: {
+		DisplayName: ディザスター
+		Tooltip:
+			'''
+			70ポイントの防御力を無視
+			軌跡を残す3つの灼熱の斬撃を放つ
+			3振りごとに鎌を回転させ、灼熱の大渦を巻き起こす
+			灼熱の渦はプレイヤーと敵の両方にダメージを与える
+			命中時に弱体化の呪いを与える
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			[c/C61B40:「殺されたいのか？]
+			[c/C61B40:　お前に災いしかもたらさなかった魔女に？」]
+			'''
+	}
+
+	DoomsdayCatharsis: {
+		DisplayName: 終末のカタルシス
+		Tooltip:
+			'''
+			ターゲットめがけて灼熱の弾丸を発射する
+			35ポイントの防御力を無視する
+			命中時に竜の炎を放つ
+			25回目の攻撃ごとに、画面上に2体の大きな武器が出現し、一定方向に攻撃する
+			ヒットタイミングに成功すると、エンパワーメントレベル、ダメージ、追尾範囲、ラッパの数が徐々に増加する
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
+			「演奏するには少なくとも3つの肺が必要だ！」
+			'''
+	}
+
+	DryMouth: {
+		DisplayName: ドライマウス
+		Tooltip:
+			'''
+			5ポイントの防御力を無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			一振りごとに砂塵を巻き上げる
+			「ポケットサンド」
+			'''
+	}
+
+	Duality: {
+		DisplayName: デュアリティ
+		Tooltip:
+			'''
+			それぞれの刃に赤と紫のエネルギーを発する大鎌を回転させる
+			紫色のエネルギーを敵に当てると、敵にシャドウフレイムを与える
+			赤のエネルギーを敵に当てると、体力の回復量が大幅に増加する
+			<right> で大鎌を投げる
+			大鎌を投げたときはダメージが20％増加する
+			「私には二面性がある
+			　忘れた私と覚えている私だ」
+			'''
+	}
+
+	DustDevilDrums: {
+		DisplayName: ダストデビルドラム
+		Tooltip:
+			'''
+			使用者の周囲にいくつかの竜巻を発生させる
+			25%の確率で、敵を追尾する青緑色の竜巻を召喚する
+			「一体どんな悪ふざけをしたら、これに冷却装置が必要になるんだ？」
+			'''
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: エレクトリッククォータースタッフ
+		Tooltip:
+			'''
+			連鎖する雷を放つ
+			雷は同じ敵に再ヒットすることがある
+			「スタンガン内蔵の巻き取り式の杖」
+			'''
+	}
+
+	ElementalBloom: {
+		DisplayName: エレメンタルブルーム
+		Tooltip:
+			'''
+			最大ライフが40増加
+			最大マナが20%増加
+			回復速度が15%増加
+			神聖ダメージが20%増加し、クリティカル確率が12%増加する
+			詠唱速度10%増加
+			回復魔法のライフ回復量が2増加
+			エレメンタルエネルギーによる神聖攻撃を強化する
+			時間経過によるダメージの強さが66％増加する
+			「光と闇がぶつかり合うとき、最終的な形へと調和する」
+			'''
+	}
+
+	Exorectionist: {
+		DisplayName: エクソレクショニスト
+		Tooltip:
+			'''
+			ワイヤーを発射し、プレーヤーを急速に回復させる
+			「除細動技術の革新のためのドレイドンの試験品」
+			'''
+	}
+
+	FaceMelter: {
+		DisplayName: フェイスメルター
+		Tooltip:
+			'''
+			溶けるような熱い音符を放つ
+			音符はチューニングか竜の炎を付与するか、インスピレーションを回復させる
+			攻撃をヒットさせ続けると徐々にダメージが上がる
+			<right> をクリックすると、マウスカーソルに向かって自動で攻撃するアンプを召喚する
+			「ワオ！ファンタジー万歳！」
+			'''
+	}
+
+	FeralKeytar: {
+		DisplayName: フェラル・キーター
+		Tooltip:
+			'''
+			30ポイントの防御力を無視
+			五線譜を放つ
+			「音符と魂の非常に凶暴な融合」
+			'''
+	}
+
+	FilthyFlute: {
+		DisplayName: 汚れたフルート
+		Tooltip:
+			'''
+			呪いの炎を高速で放つ
+			タイミングよくヒットさせることで、威力と速度が増加する
+			5回目のタイミングに成功すると、レアなダンククリーパーを召喚する
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
+			「腐敗の集合意識の歌」
+			DM Dokuro ft. SixteenInMonoの "Filthy Mind" のフルートがベースになっている
+			'''
+	}
+
+	FireHazard: {
+		DisplayName: ファイアハザード
+		Tooltip:
+			'''
+			15ポイントの防御力を無視
+			燃え盛る炎を放つ
+			命中時、煉獄の炎を与える
+			「これが火事だって？」
+			'''
+	}
+
+	FlightoftheGoliath: {
+		DisplayName: フライト・オブ・ザ・ゴライアス
+		Tooltip:
+			'''
+			20ポイントの防御力を無視
+			対象を連続攻撃するペストスウォーマーミサイルを発射する
+			「盛り上がっていこうぜー！」
+			DM Dokuroの"Fly of Beelzebub"のチップチューンサウンドがベースになっている
+			'''
+	}
+
+	Gashadokuro: {
+		DisplayName: ガシャドクロ
+		Tooltip:
+			'''
+			誰もが知っている象徴的なベルを演奏する
+			ヒットすると硫黄の稲妻で敵を打ちのめす
+			[c/C61B40:「伝説的なミュージシャンのベル、彼がまだ私たちと一緒にいてくれたら......」]
+			'''
+	}
+
+	GelatinTherapy: {
+		DisplayName: ゼラチンセラピー
+		Tooltip: 弾力のあるヘドロを発射し、自分自身を含むすべてのプレーヤーを回復、治療することができる
+	}
+
+	GodSlayerDeathsingerCowl: {
+		DisplayName: ゴッドスレイヤーのデスシンガーカウル
+		Tooltip:
+			'''
+			旋律ダメージとクリティカル確率が14%増加
+			演奏速度とインスピレーションの再生が9%増加
+			管楽器の追尾速度が15%増加
+			弦楽器のバウンス回数が2回増加
+			'''
+		SetBonus:
+			'''
+			打楽器のクリティカルダメージが20%増加
+			エンパワーメントの範囲が50%増加
+			インスピレーションの再生率が18%増加
+			災いの鐘が頭上に浮かび、攻撃中に鳴ることがある
+			鐘が鳴ると周囲の敵に7500のダメージを与える
+			'''
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: 古き神のバイオリン
+		Tooltip:
+			'''
+			この武器を持っている間、使用者にしか見えない巨大な五線譜が現れる  
+			この楽器を演奏すると、五線譜に音符が流れていく
+			その後、音符が落ち、敵を攻撃する
+			「世界中のスライムたちと調和を築くために」  
+			'''
 	}
 
 	HarpY: {
 		DisplayName: Harp-Y
+		Tooltip: 3本のバウンドする羽根を放つ
 	}
 
-	HarmonyoftheOldGod: {
-		DisplayName: Harmony of the Old God
-	}
-
-	GodNote: {
-		DisplayName: God Note
-	}
-
-	GashadokuroCracks: {
-		DisplayName: Gashadokuro
-	}
-
-	Gashadokuro: {
-		DisplayName: Gashadokuro
-	}
-
-	FireStarter: {
-		DisplayName: Fire Starter
-	}
-
-	FireHazard: {
-		DisplayName: Fire Hazard
-	}
-
-	FilthyFlute: {
-		DisplayName: Filthy Flute
-	}
-
-	FilthyCreeper: {
-		DisplayName: Rare Dank Creeper
-	}
-
-	FeralKeytar: {
-		DisplayName: Feral Keytar
-	}
-
-	ExoSurroundSound: {
-		DisplayName: Exo Surround Sound
-	}
-
-	ExoSound: {
-		DisplayName: Exo Surround Sound
-	}
-
-	Exorectionist: {
-		DisplayName: Exorectionist
-	}
-
-	ElementalSyzygy: {
-		DisplayName: Syzygy
-	}
-
-	ElementalSong: {
-		DisplayName: Elemental Song
-	}
-
-	ElectricQuarterstaff: {
-		DisplayName: Electric Quarterstaff
-	}
-
-	ElectricChain: {
-		DisplayName: Chain Lightning
-	}
-
-	DustDevil: {
-		DisplayName: Dust Devil
-	}
-
-	Duality: {
-		DisplayName: Duality
-	}
-
-	DryMouthSand: {
-		DisplayName: Pocket Sand
-	}
-
-	DryMouth: {
-		DisplayName: Dry Mouth
-	}
-
-	DoomsdayToot: {
-		DisplayName: Doomsday Toot
-	}
-
-	DoomsdayCatharsis: {
-		DisplayName: Doomsday Catharsis
-	}
-
-	DisasterSlashes: {
-		DisplayName: Disaster
-	}
-
-	DisasterSlash: {
-		DisplayName: Disaster
-	}
-
-	Disaster: {
-		DisplayName: Disaster
-	}
-
-	DesertedDrugDeal: {
-		DisplayName: Blood of Greater Sand Sharks
-	}
-
-	DeathAdderSoul: {
-		DisplayName: Death Adder Soul
-	}
-
-	DeathAdder: {
-		DisplayName: Death Adder
-	}
-
-	CrystalHydraulophone: {
-		DisplayName: Crystal Hydraulophone
-	}
-
-	CottonMouthGas: {
-		DisplayName: Laughing Gas
-	}
-
-	CottonMouth: {
-		DisplayName: Cotton Mouth
-	}
-
-	CosmicSong: {
-		DisplayName: Cosmic Song
-	}
-
-	ColdShoulderIcicle: {
-		DisplayName: Icicle
-	}
-
-	ColdShoulder: {
-		DisplayName: Cold Shoulder
-	}
-
-	ChristmasCarol: {
-		DisplayName: Christmas Carol
-	}
-
-	CherubimSlash: {
-		DisplayName: Cherubim Slash
-	}
-
-	CherubimRift: {
-		DisplayName: Cherubim Rift
-	}
-
-	CherubimOmega: {
-		DisplayName: Cherubim Omega
-	}
-
-	CherubimBeam: {
-		DisplayName: Cherubim Beam
-	}
-
-	CalamityBellRing: {
-		DisplayName: Calamity Bell Ring
-	}
-
-	CalamityBell: {
-		DisplayName: Calamity Bell
-	}
-
-	BurningBeat: {
-		DisplayName: Burning Beat
-	}
-
-	BloomingSaintessDevotion3: {
-		DisplayName: Blooming Saintess' Petal
-	}
-
-	BloomingSaintessDevotion2: {
-		DisplayName: Blooming Saintess' Flower
-	}
-
-	BloomingSaintessDevotion: {
-		DisplayName: Blooming Saintess' Devotion
-	}
-
-	BloodflareRitual: {
-		DisplayName: Bloodflare Ritual
-	}
-
-	AstralFlames: {
-		DisplayName: Astral Flames
-	}
-
-	ArcticReinforcement2: {
-		DisplayName: Arctic Reinforcement
-	}
-
-	ArcticReinforcement: {
-		DisplayName: Arctic Reinforcement
-	}
-
-	AquaiusAdvice: {
-		DisplayName: Aquaius' Advice
-	}
-
-	AncientSong: {
-		DisplayName: Ancient Song
-	}
-
-	AnahitasArpeggioNote: {
-		DisplayName: Anahita's Song
-	}
-
-	AcidicSaxMist: {
-		DisplayName: Acid Mist
-	}
-
-	AcidicSaxBubble: {
-		DisplayName: Acid Bubble
-	}
-
-	AcidicReed: {
-		DisplayName: Acidic Reed
-	}
-}
-
-Items: {
-	YharimsJam: {
-		Tooltip:
-			'''
-			930旋律ダメージ
-			自分の横と下にホバリングする3つの超音速スピーカーを召喚する
-			スピーカーは最も近い敵に追尾する灼熱のビートを放つ
-			ヒットした敵に竜の炎とチューニングを与える
-			「これで音の壁を越えて昇っていく[i/s1:2701][i/s1:2701][i/s1:2701]」
-			'''
-		DisplayName: ヤーロンのジャム
-	}
-
-	WulfrumWeedWacker: {
-		Tooltip:
-			'''
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りごとに短射程の波を放つ
-			「このガラクタで雑草を刈ろう」
-			'''
-		DisplayName: ウルフラム製芝刈り鎌
-	}
-
-	WulfrumMegaphone: {
-		Tooltip:
-			'''
-			徐々にスピードアップする音波を放つ
-			敵を貫通するが、ダメージは減少していく
-			命中時、対象が受けるダメージを5%増加させる
-			「見よ！チープ・インサルト・イネーター！」
-			'''
-		DisplayName: ウルフラムのメガホン
-	}
-
-	Windward: {
-		Tooltip: わずかに追尾する羽根を2本放つ
-		DisplayName: ウィンドワード
-	}
-
-	WilloftheRagnarok: {
-		Tooltip:
-			'''
-			素材となった武器の複合効果を持つ
-			「宇宙のバランスを乱す者を消し去る」
-			'''
-		DisplayName: ラグナロクの意志
-	}
-
-	Violince: {
-		Tooltip:
-			'''
-			血を放つ
-			タイミングよくヒットさせることで、威力と弾速が増加する
-			3回タイミングが合うたびに、発射される弾丸の量が最大6発まで増加する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する
-			これらのボーナスは武器を変更すると徐々に減少するが表示される
-			※18歳以上対象
-			DM Dokuro ft. SixteenInMonoの "Blood Coagulant"のバイオリンがベースになっている
-			'''
-		DisplayName: ヴァイオリンス
-	}
-
-	VictideAmmoniteHat: {
-		SetBonus: 液体に浸かっている間、ライフ・リジェネ+1.5/秒、インスピレーション再生率10%増加
-		Tooltip: 旋律ダメージとインスピレーションの再生率が5%増加
-		DisplayName: ヴィクタイドアンモナイトの帽子
-	}
-
-	TreeWhisperersHarp: {
-		Tooltip:
-			'''
-			木の幹が枝分かれし、葉が生える
-			葉はやがて落ち、敵を追尾する
-			「誰にでも友達が必要だ、幸せな小さな木にも！」
-			'''
-		DisplayName: 木のささやきの竪琴
-	}
-
-	TreeWhispererAmulet: {
-		Tooltip:
-			'''
-			旋律ダメージ、演奏速度、クリティカル確率が12%増加
-			弦楽器のバウンスが2回増加
-			管楽器の攻撃が素早く敵にヒットするようになる
-			攻撃がすでに敵にヒットしている場合、より素早くヒットするようになる
-			金管楽器の攻撃でクリティカルが発生した場合、貫通エネルギーが拡散する
-			打楽器のクリティカルのダメージが10％増加し、敵を短時間スタンさせる
-			「木々を代弁し、彼らの意見を聞き、彼らのアイデアでビートを作曲しよう！」
-			'''
-		DisplayName: 木のささやきのお守り
-	}
-
-	Transfiguration: {
-		Tooltip:
-			'''
-			カーソルに聖なる光を放ち、その下にいる味方を癒す
-			「聖なる加護を...」
-			'''
-		DisplayName: トランスフォーギュレーション
-	}
-
-	TheWindmill: {
-		Tooltip:
-			'''
-			振るたびに風を巻き起こす
-			「ウーッ！風が強い！」
-			'''
-		DisplayName: ウィンドミル
-	}
-
-	TimesOldRoman: {
-		Tooltip:
-			'''
-			巨大な筆を振り回し、インクの軌跡を残し、このインクは敵にダメージを与える
-			インクの軌跡に触れると、使用者はソウルエッセンスを獲得できる
-			「グーズマは、これがまだ'Times Roman'と呼ばれていた時代を知っている」
-			'''
-		DisplayName: 古記の筆
-	}
-
-	TidalForce: {
-		Tooltip:
-			'''
-			40ポイントの防御力を無視する
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りごとに波を放つ
-			ヒットすると深海デバフを与える
-			'''
-		DisplayName: タイダルフォース
-	}
-
-	TectonicPlates: {
-		Tooltip:
-			'''
-			カーソルの位置で衝突する2つの岩を撃ち出す
-			衝突時に中程度の爆発を起こし、圧潰デバフを与える
-			スポンサー：アルフレッド・ヴェゲナー
-			'''
-		DisplayName: 地殻プレート
-	}
-
-	TarragonParagonCrown: {
-		SetBonus:
-			'''
-			神聖ダメージ30%増加
-			時折ヒーリングパルスを放ち、味方を{0}ポイント回復、ライフシールドを付与する
-			'''
-		Tooltip:
-			'''
-			神聖ダメージ10%増加
-			神聖ダメージのクリティカル確率5%増加
-			ダメージ軽減率5%増加
-			最大ライフ+20
-			ライフ回復量がわずかに増加
-			回復魔法によるライフ回復量が8増加
-			'''
-		DisplayName: タラゴンの冠
-	}
-
-	TarragonChapeau: {
-		SetBonus: 敵に当たるとインスピレーションを回復するクォーターレストが周囲に出現する
-		Tooltip:
-			'''
-			旋律ダメージ、クリティカル確率、演奏速度が10%増加
-			ダメージ軽減率が5%増加
-			'''
-		DisplayName: タラゴンの帽子
-	}
-
-	Syzygy: {
-		Tooltip:
-			'''
-			25ポイントの防御力を無視
-			<right>で鎌を投げる
-			攻撃するとエレメンタルエネルギーを生み出す
-			「ほとんどの人にとっては恐ろしい破局、一部の人にとっては美しい調和」
-			'''
-		DisplayName: シージー
-	}
-
-	SymphonicFabrications: {
-		Tooltip:
-			'''
-			敵を攻撃するカラフルな音波を発射する
-			武器を持っている間、2つの巨大なエキゾスピーカーが出現する
-			150%のダメージを与える追尾する音波を放つ
-			音波は与えたダメージの5%を回復し、33%の確率でインスピレーションを1回復する
-			「今、聴いているのは... Exo-FM！」
-			'''
-		DisplayName: 交響の工房
-	}
-
-	Supercluster: {
-		Tooltip:
-			'''
-			小さい星を発射し、上空に落下させる
-			マウスカーソルに最も近い敵に落下する
-			衝撃で爆発する
-			'''
-		DisplayName: スーパークラスター
-	}
-
-	StatigelFoxMask: {
-		SetBonus:
-			'''
-			回復速度が9%増加
-			神聖ダメージが14%増加
-			'''
-		Tooltip:
-			'''
-			神聖ダメージと詠唱速度が9%増加
-			回復魔法のライフ回復量が4増加する
-			'''
-		DisplayName: スタティジェルフォックスのマスク
-	}
-
-	StatigelEarrings: {
-		Tooltip:
-			'''
-			旋律ダメージと演奏速度が10%増加
-			旋律ダメージのクリティカル確率が7%増加
-			弦楽器のバウンス時間が増加
-			'''
-		DisplayName: スタティジェルピアス
-	}
-
-	StarBirth: {
-		Tooltip:
-			'''
-			3分の1秒ごとに回復する星雲を召喚する
-			星雲の中で星が形成され、プレイヤーに追尾するが、回復量は半分になる
-			この星は詠唱者を回復することはできない
-			'''
-		DisplayName: 星誕の杖
-	}
-
-	SpookyMonth: {
-		Tooltip: 火のついたカボチャの頭蓋骨の弾幕を放つ
-		DisplayName: 不気味な月
-	}
-
-	SongoftheElements: {
-		Tooltip:
-			'''
-			らせん状に動く3本のエレメンタルビームを発射する
-			同じターゲットに複数回当てることができる
-			25ポイントの防御力を無視する
-			「世界にバランスをもたらす歌」
-			'''
-		DisplayName: 元素の歌
-	}
-
-	SongoftheCosmos: {
-		Tooltip:
-			'''
-			らせん状の5本の宇宙ビームを発射する
-			同じターゲットに複数回当てることができる
-			75ポイントの防御力を無視
-			「宇宙を調和させる歌」
-			'''
-		DisplayName: 宇宙の歌
-	}
-
-	SongoftheAncients: {
-		Tooltip:
-			'''
-			分裂する前にらせん状に動く2本のエレメンタルビームを放つ
-			15ポイントの防御力を無視する
-			タイミングよくヒットさせることで、エンパワーメントレベルが上昇する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する
-			これらのボーナスは武器を変更すると徐々に減少する
-			'''
-		DisplayName: 古代の歌
-	}
-
-	SlagFurysIntent: {
-		Tooltip:
-			'''
-			ランダムな方向に曲がるブリムストーンのビームを高速で放つ
-			命中すると硫黄の炎を放つ
-			「アザフレの遺物...."原初の炎、スラグフューリー"」
-			'''
-		DisplayName: スラグフューリーの意志
-	}
-
-	Singularity: {
-		Tooltip:
-			'''
-			100ポイントの防御力を無視する
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りごとに複数回ヒットする追尾する星を放つ
-			一振りに追尾する星を1つ放つ
-			ニ振り目に追尾する星を3つ放つ
-			三振り目に鎌を回転させる
-			回転中は最大6つの追尾する星を放つ
-			「無限の密度...まるで母のようだ」
-			'''
-		DisplayName: 特異点
-	}
-
-	SilvaGuardianHelmet: {
-		SetBonus:
-			'''
-			神聖ダメージ32%増加
-			回復速度11%増加
-			一撃で大ダメージを受けると、ヘルスが最も低いプレイヤーに30秒間守護天使バフを与える
-			'''
-		Tooltip:
-			'''
-			神聖ダメージとクリティカル確率が12%増加
-			ライフ再生が中程度増加
-			最大ライフ+100
-			回復魔法によるライフ回復量が15増加
-			'''
-		DisplayName: シルヴァの守護者の兜
-	}
-
-	ScuffedKeytar: {
-		Tooltip:
-			'''
-			5ポイントの防御力を無視
-			無限に突き刺さる五線譜を放つ
-			「かなり古いが、かろうじて動く...」
-			'''
-		DisplayName: 傷だらけのショルダーキーボード
-	}
-
-	ScreamingClam: {
-		Tooltip:
-			'''
-			22旋律ダメージ
-			時折悲鳴を上げる貝を頭上に召喚する
-			ヒットした敵に波紋とチューニングを与える
-			「災難」
-			'''
-		DisplayName: スクリーミングクラム
-	}
-
-	ScrapGuitar: {
-		Tooltip:
-			'''
-			敵の間でバウンドする低速の電気ビームを放つ
-			バウンス数は弦楽器のバウンス数によって増加する
-			「露出した電線に触れると天国への階段が見える...かもしれない」
-			'''
-		DisplayName: 壊れたギター
-	}
-
-	SchoolNurse: {
-		Tooltip:
-			'''
-			氷塊を放ち、癒しと治癒をもたらす
-			「必要なのは氷嚢と祈り」
-			'''
-		DisplayName: スクールナース
-	}
-
-	SavingGrace: {
-		Tooltip:
-			'''
-			癒しの宇宙エネルギーを発射する
-			エネルギーは最終的にプレイヤーに飛んでいく
-			体力が10％以下のプレイヤーは全回復する
-			「グレースとは何者か？」
-			'''
-		DisplayName: セービンググレイス
-	}
-
-	SARS: {
-		Tooltip:
-			'''
-			10ポイントの防御力を無視する
-			回転中に疫病の痕跡を放出
-			敵に当たるとさらに放出
-			疫病の痕跡には弱い追尾性がある
-			命中時に疫病を与える
-			「ソーシャルディスタンスを意識してください」
-			'''
-		DisplayName: S.A.R.S.
-	}
-
-	ReturntoSludge: {
-		Tooltip: チャージしてグーボムを溜め、放すと発射される
-		DisplayName: スラッジリターン
-	}
-
-	PurgatoriumPandemonium: {
-		Tooltip:
-			'''
-			150ポイントの防御力を無視
-			移動しながら善と悪の魂を放つ
-			善の魂はプレイヤーを追いかけ、敵を回復するか、敵に当たると使用者を回復する
-			邪悪な魂は敵を追いかけ、敵に当たると死の囁きを与える
-			「瀕死のプレイヤーを最初に救った魂には、天国への片道切符が与えられる！」
-			'''
-		DisplayName: プルガトリウム・パンデモニウム
-	}
-
-	PledgeofSelflessness: {
-		Tooltip:
-			'''
-			この魔法を使うと、防御力が0になり、無防備になる
-			ブリムストーンのビームを3本放ち、最大3人のプレイヤーを回復する
-			プレイヤーが3人以下の場合、余分な光線は同じプレイヤーを再び癒すことができる
-			[c/C61B40:「魔女の兄弟はお礼として、無償の誓いを立てた」]
-			'''
-		DisplayName: 無償の誓い
-	}
-
-	PhoenicianBeak: {
+	HydrogenSulfide: {
+		DisplayName: 硫化水素の鎌
 		Tooltip:
 			'''
 			50ポイントの防御力を無視する
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			強力な斬撃を放ち、炎の軌跡を残す
-			ヒット時に竜の炎を放つ
+			2つの追尾する炎を伴う炎の波動を放つ
+			命中時に破砕奥義と地獄の業火を与える
+			「致命的な化学反応の触媒となる」
 			'''
-		DisplayName: フェニキアンビーク
+	}
+
+	HydrothermicGasMask: {
+		DisplayName: ハイドロサーミックのガスマスク
+		Tooltip:
+			'''
+			神聖ダメージ12%増加
+			神聖ダメージのクリティカル確率が6%増加
+			回復魔法のライフ回復量が4増加
+			'''
+		SetBonus:
+			'''
+			神聖ダメージ28%増加
+			ヒーラー武器の詠唱速度が9%増加
+			回復魔法によるライフ回復量が2増加
+			75以上のダメージを受けると3秒間オアシスが出現する
+			オアシスは1/3秒ごとに{0}ライフを回復する
+			一度にアクティブにできるオアシスは1つのみ
+			'''
+	}
+
+	HydrothermicHat: {
+		DisplayName: ハイドロサーミックの帽子
+		Tooltip:
+			'''
+			旋律ダメージ12%増加
+			演奏速度が5%増加
+			旋律ダメージのクリティカル確率が10%増加
+			'''
+		SetBonus:
+			'''
+			打楽器のクリティカルダメージが15%増加
+			インスピレーションの再生率が12%増加
+			旋律ダメージのクリティカルがヒットすると、ターゲットを硫化物の炎で攻撃する
+			噴火は1回のみ発生し、1回の発動につき3秒のクールダウンがある
+			'''
+	}
+
+	HyphaeBaton: {
+		DisplayName: 菌糸のバトン
+		Tooltip: ソウルエッセンスを得るたびに残留する胞子を生成する
+	}
+
+	InfestedCastanet: {
+		DisplayName: C4$+@n3+
+		Tooltip:
+			'''
+			カニのハサミで「カチッ」とした攻撃を放つ
+			攻撃は3発を拡散して発射される
+			DM Dokuroの「1nf3$+@+!0n」のカスタネットがベースになっている
+
+			'''
+	}
+
+	IntergelacticCloche: {
+		DisplayName: 星間のクローシュ
+		Tooltip:
+			'''
+			旋律ダメージ、クリティカル確率、演奏速度が18%増加
+			管楽器の追尾速度と範囲が12%増加
+			弦楽器のバウンドが3回増加
+			'''
+		SetBonus:
+			'''
+			インスピレーションの最大値が7増加し、再生率が17%増加する
+			インスピレーションの持続時間が2秒増加する
+			小惑星が敵に当たったとき、33%の確率でインスピレーションを3回復する
+			'''
+	}
+
+	IntergelacticProtectorHelm: {
+		DisplayName: 星間のプロテクターヘルム
+		Tooltip:
+			'''
+			神聖ダメージ、クリティカル確率、詠唱速度が11%増加する
+			回復魔法のライフ回復量が4増加する
+			'''
+		SetBonus:
+			'''
+			神聖ダメージが22%増加
+			回復魔法によるライフ回復量が6増加する
+			小惑星は敵に命中すると20%の確率で{0}のライフを回復する
+			'''
+	}
+
+	InterstellarShredder: {
+		DisplayName: 星間のギター
+		Tooltip:
+			'''
+			バウンドする非貫通型の追尾するアストラルフレイムクリスタルを放つ
+			クリスタルは2回バウンドする2本のアストラルレーザーを伴う
+			ヒット時にアストラルに感染させる
+			「全宇宙をシビれさせるフレーズ！」
+			DM Dokuroの "Interstellar Stomper"のギター・ソロがベースになっている
+			'''
+	}
+
+	LostOasis: {
+		DisplayName: 失われたオアシス
+		Tooltip:
+			'''
+			拡大するオアシスを召喚
+			0.5秒ごとに回復
+			「みんな大丈夫だ、見つけたぞ」
+			'''
+	}
+
+	MilkyWay: {
+		DisplayName: 星天の刃
+		Tooltip:
+			'''
+			35ポイントの防御力を無視
+			<right> で鎌を投げる
+			遠くから渦を巻く星を放つ
+			「星が見える」
+			'''
+	}
+
+	NoisebringerGoliath: {
+		DisplayName: ノイズブリンガーゴライアス
+		Tooltip:
+			'''
+			150旋律ダメージ
+			自分と共に攻撃するスピーカーを2体召喚する
+			ヒットした敵に疫病とチューニングを与える
+			「誰か叫べ！」
+			'''
+	}
+
+	OathofSacrifice: {
+		DisplayName: 犠牲の誓い
+		Tooltip:
+			'''
+			この魔法を使用すると、防御力が0になり、無防備になる
+			自分の周囲に儀式の輪を作り、死んだプレイヤーを復活させる
+			儀式の輪の中にいる生きているプレイヤーは、いかなる状況でも死ぬことはない
+			生きているプレイヤーはほとんどのバッドステータス効果を無効にする
+			[c/C61B40:「とある魔女が兄弟を復活させるために使ったもの」]
+			'''
+	}
+
+	OmnicidesLaw: {
+		DisplayName: 虐殺の法則
+		Tooltip:
+			'''
+			40ポイントの防御力を無視
+			敵に追尾する前にランダムな方向にカーブするドクロを撃ち出す
+			命中時にペストを与える
+			「すべての生命には始まりと終わりがある」
+			'''
 	}
 
 	OmniSpeaker: {
+		DisplayName: オムニスピーカー
 		Tooltip:
 			'''
 			旋律ダメージ、演奏速度、クリティカル確率が15%増加
@@ -1072,736 +895,404 @@ Items: {
 			自分と近くの味方は、攻撃時にゴッドスレイヤー・インフェルノを与えることがある
 			「ワームホール技術の力で、世界中の誰もがあなたの音楽でノリノリになることができる」
 			'''
-		DisplayName: オムニスピーカー
 	}
 
-	OmnicidesLaw: {
-		Tooltip:
-			'''
-			40ポイントの防御力を無視
-			敵に追尾する前にランダムな方向にカーブするドクロを撃ち出す
-			命中時にペストを与える
-			「すべての生命には始まりと終わりがある」
-			'''
-		DisplayName: 虐殺の法則
-	}
-
-	OathofSacrifice: {
-		Tooltip:
-			'''
-			この魔法を使用すると、防御力が0になり、無防備になる
-			自分の周囲に儀式の輪を作り、死んだプレイヤーを復活させる
-			儀式の輪の中にいる生きているプレイヤーは、いかなる状況でも死ぬことはない
-			生きているプレイヤーはほとんどのバッドステータス効果を無効にする
-			[c/C61B40:「とある魔女が兄弟を復活させるために使ったもの」]
-			'''
-		DisplayName: 犠牲の誓い
-	}
-
-	NoisebringerGoliath: {
-		Tooltip:
-			'''
-			150旋律ダメージ
-			自分と共に攻撃するスピーカーを2体召喚する
-			ヒットした敵に疫病とチューニングを与える
-			「誰か叫べ！」
-			'''
-		DisplayName: ノイズブリンガーゴライアス
-	}
-
-	MilkyWay: {
-		Tooltip:
-			'''
-			35ポイントの防御力を無視
-			<right> で鎌を投げる
-			遠くから渦を巻く星を放つ
-			「星が見える」
-			'''
-		DisplayName: 星天の刃
-	}
-
-	LostOasis: {
-		Tooltip:
-			'''
-			拡大するオアシスを召喚
-			0.5秒ごとに回復
-			「みんな大丈夫だ、見つけたぞ」
-			'''
-		DisplayName: 失われたオアシス
-	}
-
-	InterstellarShredder: {
-		Tooltip:
-			'''
-			バウンドする非貫通型の追尾するアストラルフレイムクリスタルを放つ
-			クリスタルは2回バウンドする2本のアストラルレーザーを伴う
-			ヒット時にアストラルに感染させる
-			「全宇宙をシビれさせるフレーズ！」
-			DM Dokuroの "Interstellar Stomper"のギター・ソロがベースになっている
-			'''
-		DisplayName: 星間のギター
-	}
-
-	IntergelacticProtectorHelm: {
-		SetBonus:
-			'''
-			神聖ダメージが22%増加
-			回復魔法によるライフ回復量が6増加する
-			小惑星は敵に命中すると20%の確率で{0}のライフを回復する
-			'''
-		Tooltip:
-			'''
-			神聖ダメージ、クリティカル確率、詠唱速度が11%増加する
-			回復魔法のライフ回復量が4増加する
-			'''
-		DisplayName: 星間のプロテクターヘルム
-	}
-
-	IntergelacticCloche: {
-		SetBonus:
-			'''
-			インスピレーションの最大値が7増加し、再生率が17%増加する
-			インスピレーションの持続時間が2秒増加する
-			小惑星が敵に当たったとき、33%の確率でインスピレーションを3回復する
-			'''
-		Tooltip:
-			'''
-			旋律ダメージ、クリティカル確率、演奏速度が18%増加
-			管楽器の追尾速度と範囲が12%増加
-			弦楽器のバウンドが3回増加
-			'''
-		DisplayName: 星間のクローシュ
-	}
-
-	InfestedCastanet: {
-		Tooltip:
-			'''
-			カニのハサミで「カチッ」とした攻撃を放つ
-			攻撃は3発を拡散して発射される
-			DM Dokuroの「1nf3$+@+!0n」のカスタネットがベースになっている
-
-			'''
-		DisplayName: C4$+@n3+
-	}
-
-	HyphaeBaton: {
-		Tooltip: ソウルエッセンスを得るたびに残留する胞子を生成する
-		DisplayName: 菌糸のバトン
-	}
-
-	HydrothermicHat: {
-		SetBonus:
-			'''
-			打楽器のクリティカルダメージが15%増加
-			インスピレーションの再生率が12%増加
-			旋律ダメージのクリティカルがヒットすると、ターゲットを硫化物の炎で攻撃する
-			噴火は1回のみ発生し、1回の発動につき3秒のクールダウンがある
-			'''
-		Tooltip:
-			'''
-			旋律ダメージ12%増加
-			演奏速度が5%増加
-			旋律ダメージのクリティカル確率が10%増加
-			'''
-		DisplayName: ハイドロサーミックの帽子
-	}
-
-	HydrothermicGasMask: {
-		SetBonus:
-			'''
-			神聖ダメージ28%増加
-			ヒーラー武器の詠唱速度が9%増加
-			回復魔法によるライフ回復量が2増加
-			75以上のダメージを受けると3秒間オアシスが出現する
-			オアシスは1/3秒ごとに{0}ライフを回復する
-			一度にアクティブにできるオアシスは1つのみ
-			'''
-		Tooltip:
-			'''
-			神聖ダメージ12%増加
-			神聖ダメージのクリティカル確率が6%増加
-			回復魔法のライフ回復量が4増加
-			'''
-		DisplayName: ハイドロサーミックのガスマスク
-	}
-
-	HydrogenSulfide: {
+	PhoenicianBeak: {
+		DisplayName: フェニキアンビーク
 		Tooltip:
 			'''
 			50ポイントの防御力を無視する
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			2つの追尾する炎を伴う炎の波動を放つ
-			命中時に破砕奥義と地獄の業火を与える
-			「致命的な化学反応の触媒となる」
+			強力な斬撃を放ち、炎の軌跡を残す
+			ヒット時に竜の炎を放つ
 			'''
-		DisplayName: 硫化水素の鎌
 	}
 
-	HarpY: {
-		Tooltip: 3本のバウンドする羽根を放つ
-		DisplayName: Harp-Y
-	}
-
-	HarmonyoftheOldGod: {
+	PledgeofSelflessness: {
+		DisplayName: 無償の誓い
 		Tooltip:
 			'''
-			この武器を持っている間、使用者にしか見えない巨大な五線譜が現れる  
-			この楽器を演奏すると、五線譜に音符が流れていく
-			その後、音符が落ち、敵を攻撃する
-			「世界中のスライムたちと調和を築くために」  
+			この魔法を使うと、防御力が0になり、無防備になる
+			煉獄のビームを3本放ち、最大3人のプレイヤーを回復する
+			プレイヤーが3人以下の場合、余分な光線は同じプレイヤーを再び癒すことができる
+			[c/C61B40:「魔女の兄弟はお礼として、無償の誓いを立てた」]
 			'''
-		DisplayName: 古き神のバイオリン
 	}
 
-	GodSlayerDeathsingerCowl: {
+	PurgatoriumPandemonium: {
+		DisplayName: プルガトリウム・パンデモニウム
+		Tooltip:
+			'''
+			150ポイントの防御力を無視
+			移動しながら善と悪の魂を放つ
+			善の魂はプレイヤーを追いかけ、敵を回復するか、敵に当たると使用者を回復する
+			邪悪な魂は敵を追いかけ、敵に当たると死の囁きを与える
+			「瀕死のプレイヤーを最初に救った魂には、天国への片道切符が与えられる！」
+			'''
+	}
+
+	ReturntoSludge: {
+		DisplayName: スラッジリターン
+		Tooltip: チャージしてグーボムを溜め、放すと発射される
+	}
+
+	SARS: {
+		DisplayName: S.A.R.S.
+		Tooltip:
+			'''
+			10ポイントの防御力を無視する
+			回転中に疫病の痕跡を放出
+			敵に当たるとさらに放出
+			疫病の痕跡には弱い追尾性がある
+			命中時に疫病を与える
+			「ソーシャルディスタンスを意識してください」
+			'''
+	}
+
+	SavingGrace: {
+		DisplayName: セービンググレイス
+		Tooltip:
+			'''
+			癒しの宇宙エネルギーを発射する
+			エネルギーは最終的にプレイヤーに飛んでいく
+			体力が10％以下のプレイヤーは全回復する
+			「グレースとは何者か？」
+			'''
+	}
+
+	SchoolNurse: {
+		DisplayName: スクールナース
+		Tooltip:
+			'''
+			氷塊を放ち、癒しと治癒をもたらす
+			「必要なのは氷嚢と祈り」
+			'''
+	}
+
+	ScrapGuitar: {
+		DisplayName: 壊れたギター
+		Tooltip:
+			'''
+			敵の間でバウンドする低速の電気ビームを放つ
+			バウンス数は弦楽器のバウンス数によって増加する
+			「露出した電線に触れると天国への階段が見える...かもしれない」
+			'''
+	}
+
+	ScreamingClam: {
+		DisplayName: スクリーミングクラム
+		Tooltip:
+			'''
+			22旋律ダメージ
+			時折悲鳴を上げる貝を頭上に召喚する
+			ヒットした敵に波紋とチューニングを与える
+			「災難」
+			'''
+	}
+
+	ScuffedKeytar: {
+		DisplayName: 傷だらけのショルダーキーボード
+		Tooltip:
+			'''
+			5ポイントの防御力を無視
+			無限に突き刺さる五線譜を放つ
+			「かなり古いが、かろうじて動く...」
+			'''
+	}
+
+	SilvaGuardianHelmet: {
+		DisplayName: シルヴァの守護者の兜
+		Tooltip:
+			'''
+			神聖ダメージとクリティカル確率が12%増加
+			ライフ再生が中程度増加
+			最大ライフ+100
+			回復魔法によるライフ回復量が15増加
+			'''
 		SetBonus:
 			'''
-			打楽器のクリティカルダメージが20%増加
-			エンパワーメントの範囲が50%増加
-			インスピレーションの再生率が18%増加
-			災いの鐘が頭上に浮かび、攻撃中に鳴ることがある
-			鐘が鳴ると周囲の敵に7500のダメージを与える
+			神聖ダメージ32%増加
+			回復速度11%増加
+			一撃で大ダメージを受けると、ヘルスが最も低いプレイヤーに30秒間守護天使バフを与える
 			'''
-		Tooltip:
-			'''
-			旋律ダメージとクリティカル確率が14%増加
-			演奏速度とインスピレーションの再生が9%増加
-			管楽器の追尾速度が15%増加
-			弦楽器のバウンス回数が2回増加
-			'''
-		DisplayName: ゴッドスレイヤーのデスシンガーカウル
 	}
 
-	GelatinTherapy: {
-		Tooltip: 弾力のあるヘドロを発射し、自分自身を含むすべてのプレーヤーを回復、治療することができる
-		DisplayName: ゼラチンセラピー
-	}
-
-	Gashadokuro: {
+	Singularity: {
+		DisplayName: 特異点
 		Tooltip:
 			'''
-			誰もが知っている象徴的なベルを演奏する
-			ヒットすると硫黄の稲妻で敵を打ちのめす
-			[c/C61B40:「伝説的なミュージシャンのベル、彼がまだ私たちと一緒にいてくれたら......」]
+			100ポイントの防御力を無視する
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			一振りごとに複数回ヒットする追尾する星を放つ
+			一振りに追尾する星を1つ放つ
+			ニ振り目に追尾する星を3つ放つ
+			三振り目に鎌を回転させる
+			回転中は最大6つの追尾する星を放つ
+			「無限の密度...まるで母のようだ」
 			'''
-		DisplayName: ガシャドクロ
 	}
 
-	FlightoftheGoliath: {
+	SlagFurysIntent: {
+		DisplayName: スラグフューリーの意志
 		Tooltip:
 			'''
-			20ポイントの防御力を無視
-			対象を連続攻撃するペストスウォーマーミサイルを発射する
-			「盛り上がっていこうぜー！」
-			DM Dokuroの"Fly of Beelzebub"のチップチューンサウンドがベースになっている
+			ランダムな方向に曲がる煉獄のビームを高速で放つ
+			命中すると硫黄の炎を放つ
+			「アザフレの遺物...."原初の炎、スラグフューリー"」
 			'''
-		DisplayName: フライト・オブ・ザ・ゴライアス
 	}
 
-	FireHazard: {
+	SongoftheAncients: {
+		DisplayName: 古代の歌
 		Tooltip:
 			'''
-			15ポイントの防御力を無視
-			燃え盛る炎を放つ
-			命中時、ブリムストーンの炎を与える
-			「これが火事だって？」
-			'''
-		DisplayName: ファイアハザード
-	}
-
-	FilthyFlute: {
-		Tooltip:
-			'''
-			呪いの炎を高速で放つ
-			タイミングよくヒットさせることで、威力と速度が増加する
-			5回目のタイミングに成功すると、レアなダンククリーパーを召喚する
+			分裂する前にらせん状に動く2本のエレメンタルビームを放つ
+			15ポイントの防御力を無視する
+			タイミングよくヒットさせることで、エンパワーメントレベルが上昇する
 			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
-			「腐敗の集合意識の歌」
-			DM Dokuro ft. SixteenInMonoの "Filthy Mind" のフルートがベースになっている
 			'''
-		DisplayName: 汚れたフルート
 	}
 
-	FeralKeytar: {
+	SongoftheCosmos: {
+		DisplayName: 宇宙の歌
 		Tooltip:
 			'''
-			30ポイントの防御力を無視
-			五線譜を放つ
-			「音符と魂の非常に凶暴な融合」
+			らせん状の5本の宇宙ビームを発射する
+			同じターゲットに複数回当てることができる
+			75ポイントの防御力を無視
+			「宇宙を調和させる歌」
 			'''
-		DisplayName: フェラル・キーター
 	}
 
-	FaceMelter: {
+	SongoftheElements: {
+		DisplayName: 元素の歌
 		Tooltip:
 			'''
-			溶けるような熱い音符を放つ
-			音符はチューニングか竜の炎を付与するか、インスピレーションを回復させる
-			攻撃をヒットさせ続けると徐々にダメージが上がる
-			<right> をクリックすると、マウスカーソルに向かって自動で攻撃するアンプを召喚する
-			「ワオ！ファンタジー万歳！」
+			らせん状に動く3本のエレメンタルビームを発射する
+			同じターゲットに複数回当てることができる
+			25ポイントの防御力を無視する
+			「世界にバランスをもたらす歌」
 			'''
-		DisplayName: フェイスメルター
 	}
 
-	Exorectionist: {
-		Tooltip:
-			'''
-			ワイヤーを発射し、プレーヤーを急速に回復させる
-			「除細動技術の革新のためのドレイドンの試験品」
-			'''
-		DisplayName: エクソレクショニスト
+	SpookyMonth: {
+		DisplayName: 不気味な月
+		Tooltip: 火のついたカボチャの頭蓋骨の弾幕を放つ
 	}
 
-	ElementalBloom: {
+	StarBirth: {
+		DisplayName: 星誕の杖
 		Tooltip:
 			'''
-			最大ライフが40増加
-			最大マナが20%増加
-			回復速度が15%増加
-			神聖ダメージが20%増加し、クリティカル確率が12%増加する
-			詠唱速度10%増加
-			回復魔法のライフ回復量が2増加
-			エレメンタルエネルギーによる神聖攻撃を強化する
-			時間経過によるダメージの強さが66％増加する
-			「光と闇がぶつかり合うとき、最終的な形へと調和する」
+			3分の1秒ごとに回復する星雲を召喚する
+			星雲の中で星が形成され、プレイヤーに追尾するが、回復量は半分になる
+			この星は詠唱者を回復することはできない
 			'''
-		DisplayName: エレメンタルブルーム
 	}
 
-	ElectricQuarterstaff: {
+	StarCluster: {
+		DisplayName: スタークラスター
 		Tooltip:
 			'''
-			連鎖する雷を放つ
-			雷は同じ敵に再ヒットすることがある
-			「スタンガン内蔵の巻き取り式の杖」
+			<left>を押し続けると星をゆっくり蓄積する
+			<left>を離すと、溜めた星を一斉に弾幕として放つ
+			星は無限に貫通するが、同じ敵には1回しか当たらない
+			蓄積できる星の最大数はインスピレーションの最大値と同じ
 			'''
-		DisplayName: エレクトリッククォータースタッフ
 	}
 
-	DustDevilDrums: {
+	StatigelEarrings: {
+		DisplayName: スタティジェルピアス
 		Tooltip:
 			'''
-			使用者の周囲にいくつかの竜巻を発生させる
-			25%の確率で、敵を追尾する青緑色の竜巻を召喚する
-			「一体どんな悪ふざけをしたら、これに冷却装置が必要になるんだ？」
-			'''
-		DisplayName: ダストデビルドラム
-	}
-
-	Duality: {
-		Tooltip:
-			'''
-			それぞれの刃に赤と紫のエネルギーを発する大鎌を回転させる
-			紫色のエネルギーを敵に当てると、敵にシャドウフレイムを与える
-			赤のエネルギーを敵に当てると、体力の回復量が大幅に増加する
-			<right> で大鎌を投げる
-			大鎌を投げたときはダメージが20％増加する
-			「私には二面性がある
-			　忘れた私と覚えている私だ」
-			'''
-		DisplayName: デュアリティ
-	}
-
-	DryMouth: {
-		Tooltip:
-			'''
-			5ポイントの防御力を無視する
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りごとに砂塵を巻き上げる
-			「ポケットサンド」
-			'''
-		DisplayName: ドライマウス
-	}
-
-	DoomsdayCatharsis: {
-		Tooltip:
-			'''
-			ターゲットめがけて灼熱の弾丸を発射する
-			35ポイントの防御力を無視する
-			命中時に竜の炎を放つ
-			25回目の攻撃ごとに、画面上に2体の大きな武器が出現し、一定方向に攻撃する
-			ヒットタイミングに成功すると、エンパワーメントレベル、ダメージ、追尾範囲、ラッパの数が徐々に増加する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する
-			これらのボーナスは武器を変更すると徐々に減少する
-			「演奏するには少なくとも3つの肺が必要だ！」
-			'''
-		DisplayName: 終末のカタルシス
-	}
-
-	Disaster: {
-		Tooltip:
-			'''
-			70ポイントの防御力を無視
-			軌跡を残す3つの灼熱の斬撃を放つ
-			3振りごとに鎌を回転させ、灼熱の大渦を巻き起こす
-			灼熱の渦はプレイヤーと敵の両方にダメージを与える
-			命中時に弱体化の呪いを与える
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			[c/C61B40:「殺されたいのか？]
-			[c/C61B40:　お前に災いしかもたらさなかった魔女に？」]
-			'''
-		DisplayName: ディザスター
-	}
-
-	DesertedDrugDeal: {
-		Tooltip:
-			'''
-			敵の防御力を30無視する
-			グレートサンドシャークの血で満たされた注射器を発射する
-			注射器は命中した敵やプレイヤーに付着し、注入される
-			敵に命中すると、継続ダメージを与える
-			プレイヤーに命中すると、回復効果をもたらす
-			命中した敵に圧潰とアーマーブレイクを付与する
-			回復した味方には、長時間持続するライフ回復効果を付与する
-			自身を回復することもできる
-			「微量のHerobrineが含まれています」
-			'''
-		DisplayName: 大砂鮫の血清弓
-	}
-
-	DeathAdder: {
-		Tooltip:
-			'''
-			35ポイントの防御力を無視する
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			振るたびに幻影を放つ
-			幻影は対象を追いかける
-			「オムニサイドは誇りに思うだろう...そして怒るだろう」
-			'''
-		DisplayName: デス・アダー
-	}
-
-	DaedalusHat: {
-		SetBonus:
-			'''
-			演奏速度が5%増加
-			インスピレーションの再生率が10%増加
-			エンパワーメントの持続時間が3秒増加
-			旋律ダメージが命中時にフロストバーンとフロストバイトを与える
-			近くの味方は命中時に確率でフロストバーンを与える
-			'''
-		Tooltip:
-			'''
-			旋律ダメージが13%増加
+			旋律ダメージと演奏速度が10%増加
 			旋律ダメージのクリティカル確率が7%増加
+			弦楽器のバウンス時間が増加
 			'''
-		DisplayName: ダイダロスの帽子
 	}
 
-	DaedalusCowl: {
+	StatigelFoxMask: {
+		DisplayName: スタティジェルフォックスのマスク
+		Tooltip:
+			'''
+			神聖ダメージと詠唱速度が9%増加
+			回復魔法のライフ回復量が4増加する
+			'''
 		SetBonus:
 			'''
-			神聖ダメージが25%増加
-			回復魔法でライフが1回復する
-			 「{0}」キーを押すとアイスクリームマシーンが召喚され、再度 「{0}」キーを押すと召喚が解除される
-			プレイヤーはアイスクリームマシンを右クリックすることで、1分間シュガーラッシュのバフを受けることができる
-			その際プレイヤーは {1}0ライフ回復するが、クールダウンに3分かかる
+			回復速度が9%増加
+			神聖ダメージが14%増加
 			'''
+	}
+
+	Supercluster: {
+		DisplayName: スーパークラスター
+		Tooltip:
+			'''
+			小さい星を発射し、上空に落下させる
+			マウスカーソルに最も近い敵に落下する
+			衝撃で爆発する
+			'''
+	}
+
+	SymphonicFabrications: {
+		DisplayName: 交響の工房
+		Tooltip:
+			'''
+			敵を攻撃するカラフルな音波を発射する
+			武器を持っている間、2つの巨大なエキゾスピーカーが出現する
+			150%のダメージを与える追尾する音波を放つ
+			音波は与えたダメージの5%を回復し、33%の確率でインスピレーションを1回復する
+			「今、聴いているのは... Exo-FM！」
+			'''
+	}
+
+	Syzygy: {
+		DisplayName: シージー
+		Tooltip:
+			'''
+			25ポイントの防御力を無視
+			<right>で鎌を投げる
+			攻撃するとエレメンタルエネルギーを生み出す
+			「ほとんどの人にとっては恐ろしい破局、一部の人にとっては美しい調和」
+			'''
+	}
+
+	TarragonChapeau: {
+		DisplayName: タラゴンの帽子
+		Tooltip:
+			'''
+			旋律ダメージ、クリティカル確率、演奏速度が10%増加
+			ダメージ軽減率が5%増加
+			'''
+		SetBonus: 敵に当たるとインスピレーションを回復するクォーターレストが周囲に出現する
+	}
+
+	TarragonParagonCrown: {
+		DisplayName: タラゴンの冠
 		Tooltip:
 			'''
 			神聖ダメージ10%増加
-			回復速度5%増加
-			回復魔法のライフ回復量が3増加
+			神聖ダメージのクリティカル確率5%増加
+			ダメージ軽減率5%増加
+			最大ライフ+20
+			ライフ回復量がわずかに増加
+			回復魔法によるライフ回復量が8増加
 			'''
-		DisplayName: ダイダロスのフード
+		SetBonus:
+			'''
+			神聖ダメージ30%増加
+			時折ヒーリングパルスを放ち、味方を{0}ポイント回復、ライフシールドを付与する
+			'''
 	}
 
-	CrystalHydraulophone: {
+	TectonicPlates: {
+		DisplayName: 地殻プレート
 		Tooltip:
 			'''
-			命中すると砕け散る2つの曲がった水の結晶を放つ
-			「人間にとって最も重要なものは水で、水は万物を益する」
-			DM Dokuroの "Sanctuary"のピアノのような音がベースになっている
+			カーソルの位置で衝突する2つの岩を撃ち出す
+			衝突時に中程度の爆発を起こし、圧潰デバフを与える
+			スポンサー：アルフレッド・ヴェゲナー
 			'''
-		DisplayName: クリスタルのハイドローロフォン
 	}
 
-	CottonMouth: {
+	TidalForce: {
+		DisplayName: タイダルフォース
 		Tooltip:
 			'''
-			20ポイントの防御力を無視する
+			40ポイントの防御力を無視する
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りごとに酸性のガス雲を噴射する
-			命中時に酸毒と硫黄毒を与える
+			一振りごとに波を放つ
+			ヒットすると深海デバフを与える
 			'''
-		DisplayName: コットンマウス
 	}
 
-	ColdShoulder: {
+	TimesOldRoman: {
+		DisplayName: 古記の筆
 		Tooltip:
 			'''
-			10ポイントの防御力を無視
-			命中時に凍傷を与える氷の鎌を回転させる
-			常に氷柱を吐き出し、50%のダメージを与える
-			<right> で鎌を投げる
-			投げるとダメージが30%増加する
-			「アイツを無視しろ！」
+			巨大な筆を振り回し、インクの軌跡を残し、このインクは敵にダメージを与える
+			インクの軌跡に触れると、使用者はソウルエッセンスを獲得できる
+			「グーズマは、これがまだ'Times Roman'と呼ばれていた時代を知っている」
 			'''
-		DisplayName: コールドショルダー
 	}
 
-	ChristmasCarol: {
+	TheWindmill: {
+		DisplayName: ウィンドミル
 		Tooltip:
 			'''
-			装飾の施された大きなタンバリンを投げ、自分に戻ってくる
-			タンバリンと一緒に3つの弱い氷片も放つ
-			タイミングよくヒットさせることで、タンバリンがパワーアップし、ダメージが上昇する
-			タイミングが合えば敵をなぎ払うこともできる
+			振るたびに風を巻き起こす
+			「ウーッ！風が強い！」
+			'''
+	}
+
+	Transfiguration: {
+		DisplayName: トランスフォーギュレーション
+		Tooltip:
+			'''
+			カーソルに聖なる光を放ち、その下にいる味方を癒す
+			「聖なる加護を...」
+			'''
+	}
+
+	TreeWhispererAmulet: {
+		DisplayName: 木のささやきのお守り
+		Tooltip:
+			'''
+			旋律ダメージ、演奏速度、クリティカル確率が12%増加
+			弦楽器のバウンスが2回増加
+			管楽器の攻撃が素早く敵にヒットするようになる
+			攻撃がすでに敵にヒットしている場合、より素早くヒットするようになる
+			金管楽器の攻撃でクリティカルが発生した場合、貫通エネルギーが拡散する
+			打楽器のクリティカルのダメージが10％増加し、敵を短時間スタンさせる
+			「木々を代弁し、彼らの意見を聞き、彼らのアイデアでビートを作曲しよう！」
+			'''
+	}
+
+	TreeWhisperersHarp: {
+		DisplayName: 木のささやきの竪琴
+		Tooltip:
+			'''
+			木の幹が枝分かれし、葉が生える
+			葉はやがて落ち、敵を追尾する
+			「誰にでも友達が必要だ、幸せな小さな木にも！」
+			'''
+	}
+
+	Trinity: {
+		DisplayName: トリニティ
+		Tooltip:
+			'''
+			高速で回転する三つの鎌を振る
+			この武器の命中時、時折ゆるやかに曲がる星炎のビームを3本生成する
+			<right> で鎌を投げ、戻る際に軌道が曲がる
+			投擲時、鎌のダメージが30%増加する
+			'''
+	}
+
+	VictideAmmoniteHat: {
+		DisplayName: ヴィクタイドアンモナイトの帽子
+		Tooltip: 旋律ダメージとインスピレーションの再生率が5%増加
+		SetBonus: 液体に浸かっている間、ライフ・リジェネ+1.5/秒、インスピレーション再生率10%増加
+	}
+
+	Violince: {
+		DisplayName: ヴァイオリンス
+		Tooltip:
+			'''
+			血を放つ
+			タイミングよくヒットさせることで、威力と弾速が増加する
+			3回タイミングが合うたびに、発射される弾丸の量が最大6発まで増加する
 			ミスをするとボーナスが減少し、5インスピレーションを消費する
-			これらのボーナスは武器を変更すると徐々に減少する
+			これらのボーナスは武器を変更すると徐々に減少するが表示される
+			※18歳以上対象
+			DM Dokuro ft. SixteenInMonoの "Blood Coagulant"のバイオリンがベースになっている
 			'''
-		DisplayName: クリスマスキャロル
-	}
-
-	CherubimOmega: {
-		Tooltip:
-			'''
-			75ポイントの防御力を無視する
-			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			一振りするごとにカーソルに神殺しの斬撃を放つ
-			斬撃は大きな裂け目を開く
-			この裂け目から最大5つの追従する天空のエネルギーが放出される
-			3回目の攻撃は鎌を回転させる
-			回転中は斬撃の発生量が2倍になる
-			「ちょっと待て、これはセレスタスじゃない！」
-			'''
-		DisplayName: ケルビムオメガ
-	}
-
-	BloomingSaintessStatue: {
-		Tooltip:
-			'''
-			最大ライフと最大マナが20増加
-			回復速度が12%増加
-			神聖ダメージが14%増加し、クリティカル確率が8%増加する
-			詠唱速度が6%増加
-			回復魔法のライフ回復量が2増加
-			暁炎で神聖攻撃を強化する
-			「幸運なことに、大きすぎてどの瓶にも入らない」
-			'''
-		DisplayName: 花の聖女の像
-	}
-
-	BloomingSaintessDevotion: {
-		Tooltip:
-			'''
-			茎を伸ばし、花を咲かせる
-			「献身は勇気を奮い立たせ、勇気は犠牲を奮い立たせる」
-			'''
-		DisplayName: 花の聖女の献身
-	}
-
-	BloodflareSirenSkull: {
-		SetBonus:
-			'''
-			インスピレーションの最大値+4
-			旋律ダメージ8%増加
-			旋律ダメージのクリティカル確率と演奏速度が5%増加
-			エンパワーメントの持続時間が4秒増加
-			「{0}」キーを押すと5秒間魅惑の歌バフを得る
-			魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間が5秒増加する
-			魅惑の歌発動中にダメージを受けると一律200ライフ回復するが、魅惑の歌は解除される
-			魅惑の歌のクールダウンは45秒
-			'''
-		Tooltip:
-			'''
-			旋律ダメージとクリティカル確率が10%増加
-			演奏速度が12%増加
-			'''
-		DisplayName: ブラッドフレアのセイレーンスカル
-	}
-
-	BloodflareRitualistMask: {
-		SetBonus:
-			'''
-			神聖ダメージ27%増加
-			詠唱速度が11%増加
-			「{0}」キーを押すとライフの半分を使って回復の儀式を開始する
-			儀式は{1}のライフで急速に味方を回復する
-			一度に使えるのは1つの儀式のみ
-			このアビリティにクールダウンは存在しないが、使いすぎると死亡する
-			'''
-		Tooltip:
-			'''
-			神聖ダメージとクリティカル確率15%増加
-			最大ライフ+80
-			ライフ回復量が少し増加
-			回復魔法によるライフ回復量が12増加
-			'''
-		DisplayName: ブラッドフレアの儀式用マスク
-	}
-
-	BelchingSaxophone: {
-		Tooltip:
-			'''
-			ツル、シャボン玉、音符を放つ
-			ツルと泡は照射された毒を与え
-			音符は硫黄の毒と酸の毒を与える
-			'''
-		DisplayName: ベルチングサクソフォン
-	}
-
-	AuricTeslaValkyrieVisage: {
-		SetBonus:
-			'''
-			ヒーラー専用のタラゴン、ブラッドフレア、シルヴァのアーマー効果
-			神聖ダメージ40%増加し、クリティカル確率を20%増加させる
-			詠唱速度が16%増加
-			'''
-		Tooltip:
-			'''
-			神聖ダメージ15%増加
-			神聖ダメージのクリティカル確率10%増加
-			マナコストが45%減少
-			ライフとマナの回復量が大幅に増加
-			最大ライフ+100
-			最大マナ+200
-			回復魔法によるライフ回復量が18増加
-			'''
-		DisplayName: オーリックテスラのヴァルキリーヴィザージュ
-	}
-
-	AuricTeslaFeatheredHeadwear: {
-		SetBonus:
-			'''
-			吟遊詩人専用のタラゴン、ブラッドフレア、ゴッドスレイヤーのアーマー効果
-			ゴッドスレイヤーダッシュはCalamityのアーマーアビリティのキーバインドを使用する
-			魅惑の歌はThoriumのアーマーアビリティのキーバインドを使用する
-			エンパワーメントの範囲が50%増加
-			インスピレーションの持続時間が5秒増加し、再生率を20%増加させる
-			インスピレーションノートが落ちる確率が45%増加
-			'''
-		Tooltip:
-			'''
-			旋律ダメージ25%増加
-			旋律ダメージのクリティカル確率が20%増加
-			演奏速度が12%増加
-			管楽器の追尾速度と範囲が20%増加
-			弦楽器のバウンス時間が増加
-			'''
-		DisplayName: オーリックテスラの羽根付きヘッドウェア
-	}
-
-	AugmentedAuricTeslaValkyrieVisage: {
-		SetBonus:
-			'''
-			ヒーラー用の星間、ブラッドフレア、シルヴァのアーマー効果
-			神聖ダメージ40%増加
-			神聖ダメージのクリティカル確率20%増加
-			ヒーラー武器の詠唱速度が16%増加			
-			'''
-		Tooltip:
-			'''
-			神聖ダメージが15%増加し、クリティカル確率が10%増加する
-			マナコストが45%減少
-			ライフとマナの回復量が大幅に増加
-			最大ライフ+100
-			最大マナ+200
-			回復魔法によるライフ回復量が18増加
-			'''
-		DisplayName: オーリックテスラのヴァルキリーヴィザージュ+
-	}
-
-	AugmentedAuricTeslaFeatheredHeadwear: {
-		SetBonus:
-			'''
-			吟遊詩人用の星間、ブラッドフレア、ゴッドスレイヤーのアーマー効果を併せ持つ
-			ゴッドスレイヤーダッシュはCalamityのアーマーアビリティのキーバインドを使用する
-			魅惑の歌はThoriumのアーマーアビリティのキーバインドを使用する
-			エンパワーメントの持続時間が5秒増加する
-			インスピレーションの再生率が20%増加する
-			インスピレーションノートが落ちる確率が45%増加する
-			'''
-		Tooltip:
-			'''
-			旋律ダメージ25%増加
-			旋律ダメージのクリティカル確率が20%増加
-			旋律の演奏速度が12%増加
-			管楽器の追尾速度と範囲が20%増加
-			弦楽器のバウンス回数が3回増加
-			'''
-		DisplayName: オーリックテスラの羽根付きヘッドウェア+
-	}
-
-	ArcticReinforcement: {
-		Tooltip:
-			'''
-			氷柱のミニブリザードを放つ
-			「北極のカウンターメロディー」
-			DM Dokuroの"Antarctic Reinforcement"の木琴がベースになっている
-			'''
-		DisplayName: 極寒の対旋律
-	}
-
-	AquaiusAdvice: {
-		Tooltip:
-			'''
-			ランダムな方向に巻き上がる深海の触手を噴出させる
-			やがて沈降し、有害な水流を形成する
-			命中時、水深を浅くする
-			「深海に溺れるか、深海から蘇るか...アクイウスが助言する」
-			'''
-		DisplayName: アクイウスの助言
-	}
-
-	AnahitasArpeggio: {
-		Tooltip:
-			'''
-			敵を混乱させるゆっくりと動く音符を放つ
-			DM Dokuroの "Forbidden Lullaby" のハープがベースになっている
-			'''
-		DisplayName: アナヒタのアルペジオ
-	}
-
-	AerospecHeadphones: {
-		SetBonus:
-			'''
-			移動速度とインスピレーション再生速度が5%増加
-			管楽器の追尾速度が10%増加
-			'''
-		Tooltip: 旋律ダメージと演奏速度が8%増加
-		DisplayName: 天空のヘッドホン
-	}
-
-	AerospecBiretta: {
-		SetBonus:
-			'''
-			移動速度5%増加
-			神聖ダメージが13%増加
-			空中にいる間、回復魔法でライフを3回復する
-			'''
-		Tooltip:
-			'''
-			神聖ダメージと詠唱速度が7%増加
-			回復魔法のライフ回復量が2増加する
-			'''
-		DisplayName: アエロスペックのビレッタ帽
-	}
-
-	VoidFaquirChapeau: {
-		SetBonus:
-			'''
-			各エンパワーメントが有効なほどヴォイドエナジーの生成量が増える
-			エンパワーメントの段階が高いほど生成量がさらに増える
-			'''
-		Tooltip:
-			'''
-			+25% 旋律ダメージ
-			+15% 演奏速度
-			+15% インスピレーション自然回復
-			<armorBonus>
-			'''
-		DisplayName: 虚無の死歌術士の帽子
 	}
 
 	VoidFaquirBiretta: {
-		SetBonus:
-			'''
-			味方を回復した直後、またはソウルエッセンス獲得後にヴォイドエナジー生成量が増える
-			味方を回復して得られるヴォイドエナジーは、回復を続けるほど徐々に減少する
-			'''
+		DisplayName: 虚無の戦祈儀の帽子
 		Tooltip:
 			'''
 			+30% 神聖ダメージ
@@ -1810,150 +1301,774 @@ Items: {
 			+8 追加回復量
 			<armorBonus>
 			'''
-		DisplayName: 虚無の戦祈儀の帽子
+		SetBonus:
+			'''
+			味方を回復した直後、またはソウルエッセンス獲得後にヴォイドエナジー生成量が増える
+			味方を回復して得られるヴォイドエナジーは、回復を続けるほど徐々に減少する
+			'''
 	}
 
-	Trinity: {
+	VoidFaquirChapeau: {
+		DisplayName: 虚無の死歌術士の帽子
 		Tooltip:
 			'''
-			高速で回転する三つの鎌を振る
-			この武器の命中時、時折ゆるやかに曲がる星炎のビームを3本生成する
-			<right> で鎌を投げ、戻る際に軌道が曲がる
-			投擲時、鎌のダメージが30%増加する
+			+25% 旋律ダメージ
+			+15% 演奏速度
+			+15% インスピレーション自然回復
+			<armorBonus>
 			'''
-		DisplayName: トリニティ
+		SetBonus:
+			'''
+			各エンパワーメントが有効なほどヴォイドエナジーの生成量が増える
+			エンパワーメントの段階が高いほど生成量がさらに増える
+			'''
 	}
 
-	StarCluster: {
+	WilloftheRagnarok: {
+		DisplayName: ラグナロクの意志
 		Tooltip:
 			'''
-			<left>を押し続けると星をゆっくり蓄積する
-			<left>を離すと、溜めた星を一斉に弾幕として放つ
-			星は無限に貫通するが、同じ敵には1回しか当たらない
-			蓄積できる星の最大数はインスピレーションの最大値と同じ
+			素材となった武器の複合効果を持つ
+			「宇宙のバランスを乱す者を消し去る」
 			'''
-		DisplayName: スタークラスター
+	}
+
+	Windward: {
+		DisplayName: ウィンドワード
+		Tooltip: わずかに追尾する羽根を2本放つ
+	}
+
+	WulfrumMegaphone: {
+		DisplayName: ウルフラムのメガホン
+		Tooltip:
+			'''
+			徐々にスピードアップする音波を放つ
+			敵を貫通するが、ダメージは減少していく
+			命中時、対象が受けるダメージを5%増加させる
+			「見よ！チープ・インサルト・イネーター！」
+			'''
+	}
+
+	WulfrumWeedWacker: {
+		DisplayName: ウルフラム製芝刈り鎌
+		Tooltip:
+			'''
+			この鎌は回転させるのではなく、カーソルに向かって攻撃する
+			一振りごとに短射程の波を放つ
+			「このガラクタで雑草を刈ろう」
+			'''
+	}
+
+	YharimsJam: {
+		DisplayName: ヤーロンのジャム
+		Tooltip:
+			'''
+			930旋律ダメージ
+			自分の横と下にホバリングする3つの超音速スピーカーを召喚する
+			スピーカーは最も近い敵に追尾する灼熱のビートを放つ
+			ヒットした敵に竜の炎とチューニングを与える
+			「これで音の壁を越えて昇っていく[i/s1:2701][i/s1:2701][i/s1:2701]」
+			'''
 	}
 }
 
-ItemDescriptions: {
-	WulfrumJacket: エンパワーメントの範囲が25％拡大
-	WhiteDwarfThrusters:
+Projectiles: {
+	AcidicReed: {
+		DisplayName: Acidic Reed
+	}
+
+	AcidicSaxBubble: {
+		DisplayName: Acid Bubble
+	}
+
+	AcidicSaxMist: {
+		DisplayName: Acid Mist
+	}
+
+	AnahitasArpeggioNote: {
+		DisplayName: Anahita's Song
+	}
+
+	AncientSong: {
+		DisplayName: Ancient Song
+	}
+
+	AquaiusAdvice: {
+		DisplayName: Aquaius' Advice
+	}
+
+	ArcticReinforcement: {
+		DisplayName: Arctic Reinforcement
+	}
+
+	ArcticReinforcement2: {
+		DisplayName: Arctic Reinforcement
+	}
+
+	AstralFlames: {
+		DisplayName: Astral Flames
+	}
+
+	BloodflareRitual: {
+		DisplayName: Bloodflare Ritual
+	}
+
+	BloomingSaintessDevotion: {
+		DisplayName: Blooming Saintess' Devotion
+	}
+
+	BloomingSaintessDevotion2: {
+		DisplayName: Blooming Saintess' Flower
+	}
+
+	BloomingSaintessDevotion3: {
+		DisplayName: Blooming Saintess' Petal
+	}
+
+	BurningBeat: {
+		DisplayName: Burning Beat
+	}
+
+	CalamityBell: {
+		DisplayName: Calamity Bell
+	}
+
+	CalamityBellRing: {
+		DisplayName: Calamity Bell Ring
+	}
+
+	CherubimBeam: {
+		DisplayName: Cherubim Beam
+	}
+
+	CherubimOmega: {
+		DisplayName: Cherubim Omega
+	}
+
+	CherubimRift: {
+		DisplayName: Cherubim Rift
+	}
+
+	CherubimSlash: {
+		DisplayName: Cherubim Slash
+	}
+
+	ChristmasCarol: {
+		DisplayName: Christmas Carol
+	}
+
+	ColdShoulder: {
+		DisplayName: Cold Shoulder
+	}
+
+	ColdShoulderIcicle: {
+		DisplayName: Icicle
+	}
+
+	CosmicEncore: {
+		DisplayName: Cosmic Encore
+	}
+
+	CosmicEncoreStar: {
+		DisplayName: Cosmic Encore
+	}
+
+	CosmicSong: {
+		DisplayName: Cosmic Song
+	}
+
+	CottonMouth: {
+		DisplayName: Cotton Mouth
+	}
+
+	CottonMouthGas: {
+		DisplayName: Laughing Gas
+	}
+
+	CrystalHydraulophone: {
+		DisplayName: Crystal Hydraulophone
+	}
+
+	DeathAdder: {
+		DisplayName: Death Adder
+	}
+
+	DeathAdderSoul: {
+		DisplayName: Death Adder Soul
+	}
+
+	DesertedDrugDeal: {
+		DisplayName: Blood of Greater Sand Sharks
+	}
+
+	Disaster: {
+		DisplayName: Disaster
+	}
+
+	DisasterSlash: {
+		DisplayName: Disaster
+	}
+
+	DisasterSlashes: {
+		DisplayName: Disaster
+	}
+
+	DoomsdayCatharsis: {
+		DisplayName: Doomsday Catharsis
+	}
+
+	DoomsdayToot: {
+		DisplayName: Doomsday Toot
+	}
+
+	DryMouth: {
+		DisplayName: Dry Mouth
+	}
+
+	DryMouthSand: {
+		DisplayName: Pocket Sand
+	}
+
+	Duality: {
+		DisplayName: Duality
+	}
+
+	DustDevil: {
+		DisplayName: Dust Devil
+	}
+
+	ElectricChain: {
+		DisplayName: Chain Lightning
+	}
+
+	ElectricQuarterstaff: {
+		DisplayName: Electric Quarterstaff
+	}
+
+	ElementalSong: {
+		DisplayName: Elemental Song
+	}
+
+	ElementalSyzygy: {
+		DisplayName: Syzygy
+	}
+
+	Exorectionist: {
+		DisplayName: Exorectionist
+	}
+
+	ExoSound: {
+		DisplayName: Exo Surround Sound
+	}
+
+	ExoSurroundSound: {
+		DisplayName: Exo Surround Sound
+	}
+
+	FeralKeytar: {
+		DisplayName: Feral Keytar
+	}
+
+	FilthyCreeper: {
+		DisplayName: Rare Dank Creeper
+	}
+
+	FilthyFlute: {
+		DisplayName: Filthy Flute
+	}
+
+	FireHazard: {
+		DisplayName: Fire Hazard
+	}
+
+	FireStarter: {
+		DisplayName: Fire Starter
+	}
+
+	Gashadokuro: {
+		DisplayName: Gashadokuro
+	}
+
+	GashadokuroCracks: {
+		DisplayName: Gashadokuro
+	}
+
+	GodNote: {
+		DisplayName: God Note
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
+	}
+
+	HarpY: {
+		DisplayName: Harp-Y
+	}
+
+	HydrogenSulfide: {
+		DisplayName: Hydrogen Sulfide
+	}
+
+	HydrogenSulfideFlames: {
+		DisplayName: Hydrogen Sulfide
+	}
+
+	HydrogenSulfideWave: {
+		DisplayName: Hydrogen Sulfide
+	}
+
+	HydrothermalEruption: {
+		DisplayName: Hydrothermal Eruption
+	}
+
+	HydrothermalOasis: {
+		DisplayName: Hydrothermal Oasis
+	}
+
+	HyphaeBaton: {
+		DisplayName: Hyphae Baton
+	}
+
+	HyphaeBatonSporeCloud: {
+		DisplayName: Hyphae Baton
+	}
+
+	IceCreamMachine: {
+		DisplayName: Ice Cream Machine
+	}
+
+	IceCube: {
+		DisplayName: Ice Cube
+	}
+
+	InfestedCastanet: {
+		DisplayName: C4$+@+n3+
+	}
+
+	InterstellarShredder: {
+		DisplayName: Interstellar Shredder
+	}
+
+	InterstellarShredder2: {
+		DisplayName: Interstellar Shredder
+	}
+
+	IrradiatedKusarigama: {
+		DisplayName: Irradiated Kusarigama
+	}
+
+	IrradiatedOasis: {
+		DisplayName: Irradiated Oasis
+	}
+
+	IrradiatedVortex: {
+		DisplayName: Irradiated Vortex
+	}
+
+	LostOasis: {
+		DisplayName: Lost Oasis
+	}
+
+	LuxorsPrayer: {
+		DisplayName: Luxor's Prayer
+	}
+
+	LuxorsSong: {
+		DisplayName: Luxor's Song
+	}
+
+	MelterAmp: {
+		DisplayName: Melter Amp
+	}
+
+	MelterNote1: {
+		DisplayName: Melter Song
+	}
+
+	MelterNote2: {
+		DisplayName: Melter Song
+	}
+
+	MilkyWay: {
+		DisplayName: Milky Way
+	}
+
+	MilkyWaySpur: {
+		DisplayName: Milky Way Spur
+	}
+
+	Noisebringer: {
+		DisplayName: Noisebringer
+	}
+
+	NoisebringerGoliath: {
+		DisplayName: Noisebringer Goliath
+	}
+
+	OathofSacrifice: {
+		DisplayName: Oath of Sacrifice
+	}
+
+	OldDukesWisdom: {
+		DisplayName: Old Dukes Wisdom
+	}
+
+	OldDukesWisdomTooth: {
+		DisplayName: Old Dukes Wisdom Tooth
+	}
+
+	OmnicidesLaw: {
+		DisplayName: Omnicide's Law
+	}
+
+	PhoenicianBeak: {
+		DisplayName: Phoenician Beak
+	}
+
+	PhoenicianBeakSlice: {
+		DisplayName: Phoenician Beak Slice
+	}
+
+	PlagueSwarmerMissile: {
+		DisplayName: Plague Swarmer
+	}
+
+	PlagueTrace: {
+		DisplayName: Plague Trace
+	}
+
+	PledgeofSelflessness: {
+		DisplayName: Pledge of Selflessness
+	}
+
+	Procioplexon: {
+		DisplayName: Procioplexon
+	}
+
+	ProcioplexonSlash: {
+		DisplayName: Procioplexon
+	}
+
+	ProcioplexonVortex: {
+		DisplayName: Procioplexon
+	}
+
+	ProcioplexonWave: {
+		DisplayName: Procioplexon
+	}
+
+	PurgedSoul: {
+		DisplayName: Purged Soul
+	}
+
+	SARS: {
+		DisplayName: S.A.R.S.
+	}
+
+	SavingGrace: {
+		DisplayName: Saving Grace
+	}
+
+	ScorchingMaelstrom: {
+		DisplayName: Scorching Maelstrom
+	}
+
+	ScrapGuitar: {
+		DisplayName: Scrap Guitar
+	}
+
+	ScreamingClam: {
+		DisplayName: Screaming Clam
+	}
+
+	ScreamingClamScream: {
+		DisplayName: Screaming Clam
+	}
+
+	ScuffedKeytar: {
+		DisplayName: Scuffed Keytar
+	}
+
+	SharkBloodInjection: {
+		DisplayName: Shark Blood Injection
+	}
+
+	Singularity: {
+		DisplayName: Singularity
+	}
+
+	SingularityStar: {
+		DisplayName: Singularity
+	}
+
+	SlagFurysIntent: {
+		DisplayName: Slag Fury's Intent
+	}
+
+	SludgeBomb: {
+		DisplayName: Sludge Bomb
+	}
+
+	SoulSplicer: {
+		DisplayName: Soul Splicer
+	}
+
+	SoulSplicerApparition: {
+		DisplayName: Soul Splicer
+	}
+
+	SpookyMonth: {
+		DisplayName: Spooky Month
+	}
+
+	StarBirth: {
+		DisplayName: Nebula
+	}
+
+	StarBirthStar: {
+		DisplayName: Newly Born Star
+	}
+
+	StarCluster: {
+		DisplayName: Star Cluster
+	}
+
+	Supercluster: {
+		DisplayName: Supercluster
+	}
+
+	SuperclusterStar: {
+		DisplayName: Supercluster
+	}
+
+	SymphonicExoMissile: {
+		DisplayName: Symphonic Exo Missile
+	}
+
+	Syzygy: {
+		DisplayName: Syzygy
+	}
+
+	TarragonHeartbeat: {
+		DisplayName: Tarragon Heartbeat
+	}
+
+	TarragonQuarterRest: {
+		DisplayName: Tarragon Quarter Rest
+	}
+
+	TectonicCollision: {
+		DisplayName: Tectonic Collision
+	}
+
+	TectonicPlate: {
+		DisplayName: Tectonic Plate
+	}
+
+	TidalForce: {
+		DisplayName: Tidal Force
+	}
+
+	TidalWave: {
+		DisplayName: Tidal Wave
+	}
+
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+	}
+
+	TimesOldTrail: {
+		DisplayName: Times Old Roman
+	}
+
+	TherapeuticSludge: {
+		DisplayName: Therapeutic Sludge
+	}
+
+	TheWindmill: {
+		DisplayName: The Windmill
+	}
+
+	ToxicEightNote: {
+		DisplayName: Toxic "???"
+	}
+
+	ToxicQuarterNote: {
+		DisplayName: Toxic "音符"
+	}
+
+	ToxicTiedEightNote: {
+		DisplayName: Toxic "???"
+	}
+
+	Transfiguration: {
+		DisplayName: Transfiguration
+	}
+
+	Trinity: {
+		DisplayName: Trinity
+	}
+
+	Violince: {
+		DisplayName: Violince
+	}
+
+	ViolinceBow: {
+		DisplayName: Violince
+	}
+
+	Vivapollum: {
+		DisplayName: Vivapollum
+	}
+
+	VivapollumExplosion: {
+		DisplayName: Vivapollum
+	}
+
+	Whirlwind: {
+		DisplayName: Whirlwind
+	}
+
+	WhisperingLeaf: {
+		DisplayName: Whispering Leaf
+	}
+
+	WhisperingTrunk: {
+		DisplayName: Whispering Trunk
+	}
+
+	WilloftheRagnarok: {
+		DisplayName: Will of the Ragnarök
+	}
+
+	Windward: {
+		DisplayName: Windward
+	}
+
+	WulfrumSoundWave: {
+		DisplayName: Sound Wave
+	}
+
+	WulfrumWeedWacker: {
+		DisplayName: Wulfrum Weed Wacker
+	}
+
+	WulfrumWeedWackerWave: {
+		DisplayName: Wulfrum Weed Wacker
+	}
+
+	YharimsJam: {
+		DisplayName: Yharim's Jam
+	}
+}
+
+Buffs: {
+	AlluringSong: {
+		DisplayName: 魅惑の歌
+		Description:
+			'''
+			インスピレーションの再生率とエンパワーメントの範囲が50%増加
+			エンパワーメントの持続時間が5秒延長される
+			ダメージを受けるとライフが一律250回復するが、魅惑の歌の効果が消える
+			「綺麗な歌声」
+			'''
+	}
+
+	AlluringSongCD: {
+		DisplayName: 魅惑の歌クールダウン
+		Description:
+			'''
+			しばらくの間、魅惑の歌は使用できない！
+			「しばらくいいや...」
+			'''
+	}
+
+	CalamityBell: {
+		DisplayName: カラミティ・ベル
+		Description: ただそこで、威嚇するように待っている......
+	}
+}
+
+FargoEnchantments: {
+	AtaxiaEnchant:
 		'''
-		水平スピード：9.00
-		加速倍率：2.5
-		素晴らしい垂直速度
-		飛行時間: 180
-		ホワイトドワーフの胸当てを着用している場合、投擲武器の劣化時間が50%長くなる
+		75以上のダメージを受けると、3秒間オアシスが出現する
+		オアシスは1/3秒ごとにボーナス回復量と同じだけライフを回復する
+		旋律ダメージのクリティカルで硫化物の炎が噴き出る
+		噴火は1回のみ発生し、1回につき3秒のクールダウンがある
 		'''
-	TitanWings:
+	BloodflareEnchant:
 		'''
-		水平速度：7.5
-		加速倍率 1.0
-		平均垂直速度
-		飛行時間: 160
-		巨人の鎧を着用している場合、ダメージ15%増加、特殊ダメージ減少
+		「アーマーアビリティ」キーを押すと、ライフの半分を使い、ボーナス回復量と同じだけ味方を回復する治癒儀式を展開する
+		一度にアクティブにできるのは1つの儀式のみで、この能力にはクールダウンはないが、使いすぎると死亡する
+		また、魅惑の歌のバフを5秒間付与する
+		魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間を5秒増加させる
+		発動中にダメージを受けるとライフを200回復するが、魅惑の歌は解除される
 		'''
-	TerrariumWings:
+	GodSlayerEnchant:
 		'''
-		水平速度: 8.00
-		加速倍率: 2.0
-		平均垂直速度
-		飛行時間: 180
-		テラリウムアーマー着用時は飛行時間が2倍
+		災いの鐘が頭上に浮かび、攻撃中に時々鳴る
+		鐘が鳴ると周囲の敵に15000ダメージを与え、近くの敵の投擲物は破壊される
 		'''
-	SubspaceWings:
+	SilvaEnchant: 一撃で大ダメージを受けると、ヘルスが最も低いプレイヤーに30秒間守護天使バフが付与される
+	TarragonEnchant:
 		'''
-		水平速度: 7.5
-		加速倍率: 1.0
-		平均垂直速度
-		飛行時間: 160
+		敵に当たるとインスピレーションを回復するクォーターレストを周囲に2つ生成する
+		ヒーリングパルスを放つことがあり、回復とシールドを味方に与える
 		'''
-	ShootingStarTurboTuba:
-		'''
-		水平スピード：9.00
-		加速倍率：2.5
-		素晴らしい垂直速度
-		飛行時間: 180
-		流れ星の鎧を着用している場合、インスピレーションの再生率が15%増加する
-		'''
-	PinkPhasesaber: 敵の防御力を100%無視する
-	OmegaBlueSetNoThrower: 最大インスピレーション+12、追加回復量+7ライフ
-	OmegaBlueSet:
-		'''
-		最大テクニカルポイントを2増加
-		インスピレーションの最大値が12増加し、ボーナス回復のライフが7増加する
-		'''
-	FleshWings:
-		'''
-		水平速度：6.25
-		加速倍率 1.0
-		平均垂直速度
-		飛行時間: 100
-		肉の体を着用している場合、確率でライフを奪う
-		'''
-	DridersGrace:
-		'''
-		水平速度: 3.0-7.0
-		加速倍率: 1.0-2.0
-		平均垂直速度
-		飛行時間: 60-360
-		クモの胸当て着用時に召喚上限+1
-		'''
-	DreadWings:
-		'''
-		水平速度：7.5
-		加速倍率: 1.0
-		平均垂直速度
-		飛行時間：170
-		ドレッドアーマーを着用している場合、レイジモードのダメージ倍率が増加
-		'''
-	DragonWings:
-		'''
-		水平速度：6.25
-		加速倍率 1.0
-		平均垂直速度
-		飛行時間: 100
-		ドラゴンの鎧を着用している場合、攻撃は呪いの炎を与える
-		'''
-	DemonBloodWings:
-		'''
-		水平速度：7.5
-		加速倍率： 1.0
-		平均垂直速度
-		飛行時間：170
-		魔血の鎧を着用している場合、レイジモード中のライフ回復を早める
-		'''
-	DemonshadeHelm:
-		'''
-		神聖と旋律ダメージ30%増加
-		ヒーリング、詠唱速度、演奏速度が35%増加
-		インスピレーションの再生率とノートのドロップ確率が55%増加
-		'''
-	DemonshadeGreaves:
-		'''
-		テクニカルポイントの最大値が2増加し、インスピレーションの最大値が15増加し、ライフのボーナス回復量が25増加する
-		管楽器の追尾の速度と範囲が60％増加し、弦楽器のバウンスが6回増加する
-		エンパワーメントの効果範囲が2倍になり、効果時間が6秒延長される
-		'''
-	CyanPhasesaber: 敵の防御力を100%無視する
-	ChampionWing:
-		'''
-		水平速度: 3.0
-		加速倍率: 1.0
-		平均垂直速度
-		飛行時間: 120
-		与ダメージ+10%
-		'''
-	CelestialCarrier:
-		'''
-		水平速度：9.00
-		加速倍率：2.5
-		優れた垂直方向のスピード
-		飛行時間：180
-		天空の鎧を着用している間、回復魔法のライフ回復量が4増加する
-		'''
-	AstralHelm: インスピレーションの再生率が12％増加
-	AstralBreastplate: 最大+6インスピレーション、+4ボーナスヒーリング
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: バランス設定
+
+		expensiveDraedonsForge: {
+			Label: ドレイドンの炉
+			Tooltip: ドレイドンの炉を作成するために希少なトリウム素材が必要になるように変更します
+		}
+
+		rogueThrowerMerge: {
+			Label: ローグと投擲クラスの統合
+			Tooltip: Ragnarok Modがインストールされている場合、自動で無効化されます
+		}
+
+		bard: {
+			Label: 吟遊詩人の武器ダメージ倍率
+			Tooltip:
+				'''
+				吟遊詩人用武器のダメージ倍率
+				(これを有効にするにはワールドの再起動が必要です!)
+				'''
+		}
+
+		radiant: {
+			Label: 神聖武器のダメージ倍率
+			Tooltip:
+				'''
+				神聖武器のダメージ倍率
+				(これを有効にするにはワールドの再起動が必要です!)
+				'''
+		}
+
+		soulEssence: {
+			Label: ソウルエッセンス倍率
+			Tooltip:
+				'''
+				ヒーラー武器にソウルエッセンス倍率を付与
+				上限5
+				(これを有効にするにはワールドの再起動が必要です!)
+				'''
+		}
+
+		healing: {
+			Label: ヒーリング倍率
+			Tooltip:
+				'''
+				回復魔法の回復倍率
+				0の場合、ライフは1しか回復しない
+				(これを有効にするにはワールドの再起動が必要です!)
+				'''
+		}
+	}
 }
 

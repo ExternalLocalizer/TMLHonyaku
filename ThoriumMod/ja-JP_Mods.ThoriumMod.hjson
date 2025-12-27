@@ -2758,7 +2758,7 @@ Items: {
 	}
 
 	ThoriumStaff: {
-		Tooltip: 近くの敵に魔法の稲妻を放つ
+		Tooltip: 近くの敵に魔法を放つ
 		DisplayName: トリウムの杖
 	}
 
@@ -8550,7 +8550,7 @@ Items: {
 	}
 
 	MythrilStaff: {
-		Tooltip: 3本のボルトを発射し、敵を狙い撃つ
+		Tooltip: 3連魔法を放ち、敵を狙い撃つ
 		DisplayName: ミスリルの杖
 	}
 
@@ -8644,7 +8644,7 @@ Items: {
 	}
 
 	CobaltStaff: {
-		Tooltip: バウンドするエネルギーのボルトを2本放つ
+		Tooltip: バウンドするエネルギーの魔法を2本放つ
 		DisplayName: コバルトの杖
 	}
 
@@ -8659,7 +8659,7 @@ Items: {
 	}
 
 	AdamantiteStaff: {
-		Tooltip: 魔法のオーブを発射し、カーソルに複数のボルトを放つことができる
+		Tooltip: 魔法のオーブを複数放つ
 		DisplayName: アダマンタイトの杖
 	}
 
@@ -9283,7 +9283,7 @@ Items: {
 	TheStalker: {
 		Tooltip:
 			'''
-			最初の一撃で癒しのエネルギーを放出する不気味なメイスを振り回す
+			初回攻撃時に癒しのエネルギーを放出する
 			癒しのエネルギーは一度に3つまで存在できる
 			'''
 		DisplayName: ザ・ストーカー
@@ -9372,7 +9372,7 @@ Items: {
 	TemplarJudgment: {
 		Tooltip:
 			'''
-			最初の一撃で癒しのエネルギーを放出する浄化されたメイスを振るう
+			初回攻撃時に癒しのエネルギーを放出する
 			癒しのエネルギーは一度に5つまで存在できる
 			'''
 		DisplayName: テンプル騎士団の審判
@@ -9553,16 +9553,16 @@ Items: {
 	SacredBludgeon: {
 		Tooltip:
 			'''
-			初回攻撃時に癒しのエネルギーを放出する祝福されたメイスを振るう
+			初回攻撃時に癒しのエネルギーを放出する
 			癒しのエネルギーは一度に10個まで存在できる
 			'''
-		DisplayName: 聖なるメイス
+		DisplayName: 聖なる鎖鎌
 	}
 
 	RottenCod: {
 		Tooltip:
 			'''
-			最初の一撃で癒しのエネルギーを放出する厄介なメイスを振り回す
+			初回攻撃時に癒しのエネルギーを放出する
 			一度に最大3つの回復エネルギーを放つことができる
 			'''
 		DisplayName: 腐った鱈
@@ -9806,7 +9806,7 @@ Items: {
 		Tooltip:
 			'''
 			神秘的なバトンを素早く回転させる
-			スピンの最初の一撃で周囲の味方を回復する
+			初回攻撃時に周囲の味方を回復する
 			'''
 		DisplayName: 朝露
 	}
@@ -10029,7 +10029,7 @@ Items: {
 		Tooltip:
 			'''
 			「この世界では生死の境界線がかなり薄い」
-			癒しとダメージのエネルギーの追尾するボルトを放つ
+			癒しとダメージのエネルギーの追尾する魔法を放つ
 			'''
 		DisplayName: 生命と死
 	}
@@ -10049,7 +10049,7 @@ Items: {
 	}
 
 	LeechBolt: {
-		Tooltip: 血を奪う稲妻を放つ
+		Tooltip: 血を奪う魔法を放つ
 		DisplayName: リーチボルト
 	}
 
@@ -10070,7 +10070,7 @@ Items: {
 	IridescentStaff: {
 		Tooltip:
 			'''
-			光り輝くエネルギーのボルトを3発放つ
+			光り輝くエネルギーを3発放つ
 			与えたダメージは近くの傷ついた味方を回復する
 			'''
 		DisplayName: 虹の杖
@@ -11050,7 +11050,7 @@ Items: {
 	BloodClotStaff: {
 		Tooltip:
 			'''
-			血しぶきとなって飛び散る肉ボルトを放つ
+			血しぶきとなって飛び散る肉の魔法を放つ
 			血しぶきはライフを奪うことがあるが、その代わり自分のライフが一定時間自然回復しなくなる
 			'''
 		DisplayName: 血栓の杖
@@ -11201,7 +11201,7 @@ Items: {
 	}
 
 	EnergyStormBolter: {
-		Tooltip: マスケット銃の弾を追尾するエネルギーボルトに変える
+		Tooltip: マスケット銃の弾を追尾するエネルギーに変える
 		DisplayName: エナジーストームボルター
 	}
 
@@ -11767,7 +11767,7 @@ Items: {
 	}
 
 	Siphon: {
-		Tooltip: 生命力を奪う魔法の稲妻を作り出す
+		Tooltip: 生命力を奪う魔法を放つ
 		DisplayName: サイフォン
 	}
 
@@ -11800,12 +11800,12 @@ Items: {
 	}
 
 	Poison: {
-		Tooltip: 毒の魔法の稲妻を放つ
+		Tooltip: 毒の魔法を放つ
 		DisplayName: ポイズン
 	}
 
 	Pierce: {
-		Tooltip: 重く、貫通する魔法の稲妻を放つ
+		Tooltip: 重く、貫通する魔法を放つ
 		DisplayName: ピアース
 	}
 

@@ -1,0 +1,95 @@
+Configs: {
+	LagRemoverConfig: {
+		DebugVerbose: {
+			Tooltip: '''
+				デバッグスパム有効が必要
+				デフォルトのホワイトリストDustID名:
+				Dirt Torch TintableDustLighted DungeonWater
+				ManaRegeneration Pixie Ichor GemAmber GemAmethyst
+				GemDiamond GemEmerald GemRuby GemSapphire GemTopaz
+				AmberBolt IceTorch GoblinSorcerer CrystalPulse
+				CursedTorch SpectreStaff InfernoFork ShadowbeamStaff
+				HeatRay InfluxWaver
+			'''
+			Label: DEBUG: スパム時にアクティブIDと定数を表示
+		}
+
+		DebugSpam: {
+			Tooltip: アクティブなダストIDをチャットにスパム表示
+			Label: DEBUG: 絶対にオンのままにしないこと
+		}
+
+		ExcludedDusts: {
+			Tooltip: https://terraria.wiki.gg/wiki/User:Rijam/Dust_IDs_(tModLoader) を参照するかデバッグモードでID確認
+			Label: WHITELIST - 削除対象から除外するダスト一覧（デフォルトは多くの魔法武器のエフェクトと一部の敵）
+		}
+
+		RemoveSentriesRange: {
+			Tooltip: '''
+				セントリーは通常の弾の射程制限とは別
+				3500はOld One's Armyポータル間より少し広め
+			'''
+			Label: セントリー削除距離
+		}
+
+		RemoveSentries: {
+			Tooltip: ""
+			Label: セントリーを削除する（無効にすると削除しない）
+		}
+
+		KillProjectilesDistance: {
+			Tooltip: '''
+				デフォルトは約135ブロック
+				3200前後は2560x1440pを「30% (40%)」ズームにしたときの隅付近
+				3500前後はOld One's Armyのポータル間より少し広め
+			'''
+			Label: プレイヤーから離れた弾を削除する距離
+		}
+
+		KillProjectilesEnemy: {
+			Tooltip: 厳密にはチート扱いだが十分に離れていれば問題ない範囲
+			Label: シングルで敵の弾を遠距離で削除するか
+		}
+
+		KillFallingStars: {
+			Tooltip: 新しく落ちる星のみ無効化し地面のものは消さない
+			Label: 流れ星を削除
+		}
+
+		KillProjectiles: {
+			Tooltip: ""
+			Label: プレイヤーから遠い弾を削除
+		}
+
+		ReduceDustChance: {
+			Tooltip: 数値が大きいほどダストを残しやすい。値12以上はあまり差がない。
+			Label: ダストを削除する1/xの確率
+		}
+
+		ReduceDust: {
+			Tooltip: ダストの表示設定またはボス戦時のみ非表示設定が必要。
+			Label: ダストを確率で削減
+		}
+
+		CombatText: {
+			Tooltip: すべて非表示 / ボス戦のみ非表示 / すべて表示
+			Label: コンバットテキストモード
+		}
+
+		Dust: {
+			Tooltip: '''
+				すべて非表示 / ボス戦のみ非表示 / すべて表示
+				注意: 一部の敵はダストが見えないと点滅・明滅することがある
+				光過敏性てんかんの症状がある場合は「1/x」の確率を低くしすぎないこと
+			'''
+			Label: ダストモード
+		}
+
+		Gore: {
+			Tooltip: すべて非表示 / ボス戦のみ非表示 / すべて表示
+			Label: ゴアモード
+		}
+
+		DisplayName: Lag remover設定
+	}
+}
