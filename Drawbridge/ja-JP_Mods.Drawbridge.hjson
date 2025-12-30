@@ -65,6 +65,26 @@ Tiles: {
 }
 
 Items: {
+	TungstenHorseArmorItem: {
+		Tooltip: ""
+		DisplayName: タングステンの馬鎧
+	}
+
+	PlatinumHorseArmorItem: {
+		Tooltip: ""
+		DisplayName: プラチナの馬鎧
+	}
+
+	TinHorseArmorItem: {
+		Tooltip: ""
+		DisplayName: 錫の馬鎧
+	}
+
+	MeteoriteHorseArmorItem: {
+		Tooltip: ""
+		DisplayName: メテオライトの馬鎧
+	}
+
 	DrawbridgeItem: {
 		DisplayName: 跳ね橋
 		Tooltip: ""
@@ -335,12 +355,12 @@ Items: {
 	}
 
 	CopperArmorItem: {
-		DisplayName: 銅の鎧
+		DisplayName: 銅の馬鎧
 		Tooltip: ""
 	}
 
 	SilverArmorItem: {
-		DisplayName: 銀の鎧
+		DisplayName: 銀の馬鎧
 		Tooltip: ""
 	}
 
@@ -477,6 +497,10 @@ Mods: {
 
 Wall.BlackCulvertWall: 黒いカルバート
 Item.BlackCulvertWallItem: 黒いカルバートの壁
+
+Tooltips: {
+	HorseDefense: 馬に騎乗中、防御力が {0} 増加する
+}
 
 Walls: {
 	BlackCulvertWall.MapEntry: 黒いカルバートの壁
