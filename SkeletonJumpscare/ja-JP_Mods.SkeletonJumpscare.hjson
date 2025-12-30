@@ -1,0 +1,19 @@
+Configs: {
+	JumpscareConfig: {
+		DisplayName: Jumpscare 設定
+		Volume: {
+			Label: 音量
+			Tooltip: ジャンプスケアの音量を調整します(0.0 ～ 1.0)
+		}
+
+		ChanceRate: {
+			Label: 発生確率
+			Tooltip: 
+				'''
+				1秒ごとにX分の1の確率で発生します
+				数値が高いほど発生しにくくなります（初期値: 5000）
+				'''
+		}
+	}
+}
+
