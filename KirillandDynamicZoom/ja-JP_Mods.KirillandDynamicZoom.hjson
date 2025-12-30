@@ -1,6 +1,6 @@
 Configs: {
-    DynamicZoomConfig: {
-        DisplayName: Dynamic Zoom 設定
+	DynamicZoomConfig: {
+		DisplayName: Dynamic Zoom 設定
 
 		zoomInMult: {
 			Label: ズームイン速度倍率
@@ -14,6 +14,11 @@ Configs: {
 
 		maxZoomMult: {
 			Label: ダイナミックズーム倍率
+			Tooltip: ""
+		}
+
+		zoomDelay: {
+			Label: ズーム切り替え遅延時間（秒）
 			Tooltip: ""
 		}
 	}
