@@ -1,0 +1,27 @@
+Configs: {
+	ServerConfig: {
+		NpcMaxItem: {
+			Tooltip: NPCがドロップするアイテム数の最大値を変更します（初期値: 1、再読み込み時に反映）
+			Label: NPCドロップ最大数調整
+		}
+
+		NpcMinItem: {
+			Tooltip: NPCがドロップするアイテム数の最小値を変更します（初期値: 1、再読み込み時に反映）
+			Label: NPCドロップ最小数調整
+		}
+
+		NpcDropTate: {
+			Tooltip: 
+				'''
+				NPCのドロップ率を変更します
+				数値が高いほどドロップしやすくなります（初期値: 1、再読み込みで反映）
+				'''
+			Label: NPCドロップ率調整
+		}
+	}
+
+	"Drop Rate Config": {
+		DisplayName: ドロップ率　設定
+	}
+}
+
