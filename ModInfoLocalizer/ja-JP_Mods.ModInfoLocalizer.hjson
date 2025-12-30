@@ -1,0 +1,49 @@
+Configs: {
+	ModInfoLocalizerConfig: {
+		showLocalizedIcon: {
+			Tooltip:
+				'''
+				オンにすると、ローカライズ済みModにアイコンを表示します
+				ベータ機能のため、正常に表示されないことがあります
+				デフォルトはオフ
+				'''
+			Label: ベータ: 翻訳済みアイコンを表示
+		}
+
+		languageCode: {
+			Tooltip:
+				'''
+				Terrariaでサポートされていない言語向けの設定
+				空白の場合はデフォルトの言語設定になります
+				言語コードを入力（例: 日本語は "ja-JP"）
+				'''
+			Label: 言語コード
+		}
+
+		DisplayName: 設定
+	}
+
+	Client: {
+		ShowLocalizedIcon_Tooltip:
+			'''
+			オンにすると、ローカライズ済みModにアイコンを表示します
+			ベータ機能のため、正常に表示されないことがあります
+			デフォルトはオフ
+			'''
+		ShowLocalizedIcon_Label: ベータ: 翻訳済みアイコンを表示
+		Localization_LanguageCode_Tooltip:
+			'''
+			Terrariaでサポートされていない言語向けの設定
+			空白の場合はデフォルトの言語設定になります
+			言語コードを入力（例: 日本語は "ja-JP"）
+			'''
+		Localization_LanguageCode_Label: 言語コード
+		Title: 設定
+	}
+
+	Headers: {
+		UI: 画面表示
+		Localization: 言語設定
+	}
+}
+
