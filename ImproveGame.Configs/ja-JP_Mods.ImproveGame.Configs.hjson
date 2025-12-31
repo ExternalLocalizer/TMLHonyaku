@@ -1,0 +1,1549 @@
+ModernConfig: {
+
+	NoTooltip: 説明文はありません
+	Name: 設定センター
+	Name_ModConfig: 自動生成された設定センター（ベータテスト）
+	ButtonApply: プリセットを適用する
+	ButtonInfo: 詳細情報
+	ButtonDelete: プリセットの削除
+	ButtonRename: 名前変更
+	ReadOnlyTip: このオプションの値のみ取得できます
+	ColorCopiedPopup: 16進コードをコピーしました!
+	ColorPastedPopup: 16進コードを貼り付けました!
+	ColorButtonTip: カラーブロックを左クリックで16進コードをコピー、右クリックで貼り付け
+	ModdedExtraText: "{0}の設定を編集中。このページはQuality of Terrariaが提供しています"
+	CollectionsTip: 表示サイズはビューエリアの下部をドラッグして調整できます。リストや配列の要素は上半分をドラッグすることで並び替えできます
+	CustomItemTip:
+		'''
+		このオプションには専用のインターフェースが存在します
+		左クリックでバニラのtModLoader設定UIへ移動
+		'''
+	NotSupportText:
+		'''
+		プロパティまたはフィールド{0}({1}) 
+		タイプ{2}はまだサポートされていません。クリックするとバニラのtModLoaderの設定UIに移動して編集できます
+		'''
+
+	AboutPage: {
+		Label: 概要
+		Tooltip: 新しい設定のインターフェースについて
+		About:
+			'''
+			これはQuality of Terrariaの[c/0099ff:全く新しい設定のインターフェース]です。Discordサーバーに参加してフィードバックしてください。以前のtModLoaderのMOD設定メニューを使っても全く問題ありません
+			左側には機能性に基づいた[c/0099ff:カテゴリ]があり、クリックすると子項目が表示されます
+			一番下に[c/0099ff:ツールチップ]があり、カーソルを項目に合わせるとツールチップが表示されます
+			[c/0099ff:右クリック]すると[c/0099ff:デフォルトにリセット]されます
+			'''
+		LinkGitHub: GitHub: https://github.com/ForOne-Club/ImproveGame (クリックできます!)
+		LinkDiscord: Discord: https://discord.gg/rEmGMQv5z7 (クリックできます!)
+		LinkQQ: 中国人向け
+	}
+
+	AboutPage_ModConfig: {
+		Label: 詳細情報
+		Tooltip: Quality of Terrariaスタイルの自動生成された設定センターについて
+		About:
+			'''
+			この設定センターは[c/0099ff:Quality of Terraria]によってリフレクションを用いて自動生成されており、
+			バニラのtModLoader設定UIの強化版として機能します
+
+			いくつかの特定の項目はサポートされていませんが、tModLoaderのデフォルト設定インターフェースにアクセスできます
+
+			クラッシュや問題の報告は、[c/7289da:Discord]で行ってください
+			Steamワークショップのコメントは確認されません
+
+			この機能は[c/9966cc:LogSpiral]と[c/9966cc:Cyril]（Quality of Terraria Team）が作成しました
+
+			Mod間の連携を実装するMod制作者は、GitHubリポジトリのREADME.mdに記載されているMod.Callのドキュメントを参照してください
+			'''
+		FumoText: 最後に、[c/0099ff:かわいい古明地こいしのふもふも]です。これはLogSpiralのお気に入りです
+	}
+
+		SingleConfigCategory: {
+		Tooltip: この設定センターはQuality of Lifeによって自動生成されています。問題が発生した場合は、一時的にtModLoaderの設定インターフェースに切り替えてください
+	}
+
+	Presets: {
+		Label: プリセット
+		Tooltip: 一括設定用にテラリアのクオリティ別にプリセットが用意されています。また、独自のプリセットを作成することもできます
+		PlayerPresetTooltip: プレイヤーが作成したプリセット
+		DefaultPresetName: マイプリセット
+
+		ExplorerPreset: {
+			Label: "[centeritem:GravityGlobe] 探検家"
+			Tooltip: バニラ風のプレイに最適。バランスが壊れない程度の便利機能が使用可能で、適度な困難に挑戦しつつ探索可能。ThoriumやSpiritなどを導入している人にオススメ
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#explorer
+		}
+
+		WarriorPreset: {
+			Label: "[centeritem:EmpressBlade] 戦士"
+			Tooltip: 掘るのはやめて戦闘を始めよう!ほとんどの作業要素をスキップ可能。CalamityやFargo's SoulsなどのModを導入している人にオススメ
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#fighter
+		}
+
+		VanillaPreset: {
+			Label: "[centeritem:MusicBoxCredits] バニラ愛好家"
+			Tooltip: ほぼバニラそのまま。少数のQoL（快適性向上）機能を活用可能
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#vanilla-enjoyer
+		}
+
+		AddPreset: {
+			Label: "[centeritem:ImproveGame/AddIconDummy] プリセットとして保存"
+			Tooltip: 現在の設定をプリセットとして保存します
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#adding-a-preset
+			
+			
+		}
+		OpenFolder: {
+			Label: "[centeritem:ImproveGame/OpenFolderDummy] プリセットフォルダを開く"
+			Tooltip: プリセットフォルダを開きます
+		}
+	}
+
+	Favorites: {
+	Label: お気に入りの項目
+	Tooltip: 項目をお気に入りに登録するには、<right>を押してください。お気に入り登録されたエントリはこちらに表示されます
+	}
+
+	Everything: {
+	Label: 全て
+	Tooltip: 全ての設定可能な機能を表示します。検索するときに便利です
+	}
+
+	GameMechanics: {
+		Label: ゲームのメカニクス
+		Tooltip: 墓石の出現やリスポーン速度などのゲームメカニクスを編集します
+	}
+
+	PylonMechanics: {
+		Label: パイロンのメカニクス
+		Tooltip: さまざまなパイロンの制限を解除します
+	}
+
+	NpcSettings: {
+		Label: 友好的なNPC
+		Tooltip: 住宅や満足度など、友好的なNPCの挙動を編集します
+	}
+
+	EnemySettings: {
+		Label: 敵
+		Tooltip: マグマスライムが溶岩を落とさない、コインのドロップ率の変更など、敵の挙動を編集します
+	}
+
+	PlayerAbility: {
+		Label: プレイヤーの能力
+		Tooltip: ブロック配置範囲の拡張、復活時に体力全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤーの能力を強化します
+	}
+
+	Multiplayer: {
+		Label: マルチプレイ
+		Tooltip: チーム自動参加や無制限のテレポートなど、マルチプレイ体験を向上させます
+	}
+
+	PlantSettings: {
+		Label: 植物
+		Tooltip: ハーブの成長速度、木の高さ、宝石樹のドロップなど、植物の挙動を編集します
+	}
+
+	ItemSettings: {
+		Label: アイテム
+		Tooltip: 無限の弾薬やポーション、インベントリからバフステーション使用など、アイテムの挙動を編集します
+	}
+
+	ModItemSettings: {
+		Label: Modアイテム
+		Tooltip: 一部のQuality of Terrariaアイテムの設定を変更し、一部アイテムの入手可否を調整します
+	}
+
+	VisualAndInterface: {
+		Label: ビジュアル
+		Tooltip: バニラやQoTのビジュアルを編集し、QoTのユーザーインターフェースを調整します
+	}
+
+	ModFeatures: {
+		Label: その他
+		Tooltip: 弾薬チェーン、オートゴミ箱、巨大リュックなどのその他の機能を編集します
+	}
+
+	Minimap: {
+		Label: マップ
+		Tooltip: ロケーターなどのマップ機能を編集します
+	}
+
+	Keybinds: {
+		Label: コントロール
+		Tooltip: Quality of Terrariaのホットキーを管理します。<right>でエントリをデフォルトに設定します
+		Default: "デフォルト: {0}"
+	}
+}
+
+ImproveConfigs: {
+	DisplayName: メイン設定
+
+	ILoveBalance: {
+		Label: バランス重視
+		Tooltip:
+			'''
+			よりバニラベースのゲームプレーを体験したいなら、このプリセットがおすすめ
+			このプリセットでは、無限のバフを持つ代わりに、死亡時にバフを維持する
+			バニラのような難易度を楽しみながら、まともなゲームプレイができるように調整されています
+			(このMODのアイテムの中には、アンバランスなものもあるかもしれないので、自分の判断で使ってください)
+			(プリセットを選択した後も調整が可能)
+			'''
+	}
+
+	FukMeCalamity: {
+		Label: tIMBALoader
+		Tooltip:
+			'''
+			このプリセットには最も便利な機能が含まれており、繰り返し作業を大幅に短縮させることができます
+			CalamityのリベンジェンスモードやFargo's Soulsのエタニティモードをプレイしているのであれば、おすすめのオプションです
+			ほとんどの設定は利便性のためのもので、ゲームプレイの進行を早め、ボスとの戦闘をメインに楽しめるように調整されています
+			(プリセットを選択した後も調整が可能)
+			'''
+	}
+
+	SuperVault: {
+		Label: "[centeritem:3813] 巨大リュック"
+		Tooltip:
+			'''
+			別個のUIチャンネル、100スロット、クラフトに使用できます
+			オートピックアップとスマートピックアップ機能を搭載しています
+			設定 → コントロール → スクロールダウンして巨大リュックを見つけてホットキーを割り当ててください
+			'''
+	}
+
+	SuperVoidVault: {
+		Label: "[centeritem:4131] 個人ストレージのためのオートピックアップ"
+		Tooltip:
+			'''
+			プレイヤーのインベントリがいっぱいになった後、他の携帯ストレージが自動的に収集したアイテムを保存できるようにします
+			優先順位 豚の貯金箱 → 金庫 → ディフェンダーの炉 → 虚空の金庫
+			'''
+	}
+
+	SmartVoidVault: {
+		Label: "[centeritem:4076] 個人ストレージのためのスマートピックアップ"
+		Tooltip: 虚空の金庫にアイテムがある場合、同じアイテムが虚空の金庫に回収されます
+	}
+
+	ItemMaxStack: {
+		Label: "[centeritem:9] 最大スタック数"
+		Tooltip:
+			'''
+			アイテムの最大スタックを設定します
+			コインの最大スタックは変更できません
+			'''
+	}
+
+	GrabDistance: {
+		Label: "[centeritem:5010] アイテムの回収範囲を拡大 (ブロック単位)"
+		Tooltip: アイテムの回収範囲が広がります。描画速度も自動的に上がります
+	}
+
+	NoConsume_SummonItem: {
+		Label: "[centeritem:560] 召喚アイテムを消費しなくなる"
+		Tooltip: バニラのボスとイベントの召喚アイテムのみ適用されます
+	}
+
+	ModifyPlayerPlaceSpeed: {
+		Label: "[centeritem:2214] ブロックの配置速度を上昇"
+		Tooltip: ""
+	}
+
+	ModifyPlayerTileRange: {
+		Label: "[centeritem:2215] ブロックの配置範囲を増加"
+		Tooltip: ""
+	}
+
+	TileSpeed_Blacklist: {
+		Label: "[centeritem:1448] ブロック配置速度向上のブラックリスト"
+		Tooltip:
+			'''
+			ブロックの名前に以下のテキストが含まれている場合、
+			ブロックの配置速度は上昇せず、配置範囲が増加しません
+			大文字と小文字を区別しません
+			'''
+	}
+
+	PortableCraftingStation: {
+		Label: "[centeritem:WorkBench] 携帯作業台"
+		Tooltip:
+			'''
+			インベントリや個人インベントリにある作業台は、配置されたように機能します
+			配置する必要はありません
+			例：インベントリにかまどがあるので、どこでも鉱石をインゴットに加工できます
+			水バケツは水源とみなされ、溶岩バケツや蜂蜜バケツも同様です
+			'''
+	}
+
+	NoPlace_BUFFTile: {
+		Label: "[centeritem:3198] 携帯バフステーション"
+		Tooltip: バニラのバフステーションとバナーが、あなたのインベントリにある場合、そのバフを提供します
+	}
+
+	NoPlace_BUFFTile_Banner: {
+		Label: "[centeritem:2901] 携帯バナー"
+		Tooltip: バナーが、あなたのインベントリにある場合、そのバフを提供します
+	}
+
+	NoConsume_Potion: {
+		Label: "[centeritem:227] 無限ポーション"
+		Tooltip:
+			'''
+			インベントリや個人のインベントリ（豚の貯金箱、金庫など）にあるポーションが
+			一定数以上のスタックで消費しなくなり、永続バフを得ます
+			必要量は次の設定で設定可能
+			'''
+	}
+
+	NoConsume_PotionRequirement: {
+		Label: "[centeritem:TeleportationPotion] 無限ポーションの必要量"
+		Tooltip:
+			'''
+			ポーションのスタック数がこの数以上なら、永続バフを得ます
+			範囲: 10~999
+			'''
+	}
+
+	NoConsume_Ammo: {
+		Label: "[centeritem:3104] 無限弾薬"
+		Tooltip: スタック数が3996以上の弾薬は消費しなくなります
+	}
+
+	NoConsume_Projectile: {
+		Label: "[centeritem:42] 無限投擲武器"
+		Tooltip: スタック数が3996以上の投擲武器は消費しなくなります
+	}
+
+	NoConsume_Wire: {
+		Label: "[centeritem:530] 無限ワイヤー"
+		Tooltip: スタック数が3996以上のワイヤーは消費しなくなります
+	}
+
+	ImprovePrefix: {
+		Label: "[centeritem:1551] リフォージの改善"
+		Tooltip: 接頭辞を手動で適用できます
+		Unknown: 不明な接頭辞です
+	}
+
+	ResurrectionTimeShortened: {
+		Label: "[centeritem:3232] リスポーンの高速化"
+		Tooltip: Example: 例：25はリスポーン時間を25％短縮します
+	}
+
+	BOSSBattleResurrectionTimeShortened: {
+		Label: "[centeritem:3232] ボス戦闘中のリスポーンの高速化"
+		Tooltip: ""
+	}
+
+	MiddleEnableBank: {
+		Label: "[centeritem:87] ミドルクリックで個人インベントリを開く"
+		Tooltip:
+			'''
+			インベントリ内のアイテムをミドルクリックしたとき
+			対応するインベントリを開きます
+			携帯インベントリの距離制限も無効にします
+			'''
+	}
+
+	BanTombstone: {
+		Label: "[centeritem:3230] 墓石の生成を無効化"
+		Tooltip: ""
+	}
+
+	FasterExtractinator: {
+		Label: "[centeritem:ChlorophyteExtractinator] 取り出し機の高速化"
+		Tooltip: 取り出し機の抽出速度が大幅に速くなります
+	}
+
+	TownNPCGetTFIntoHouse: {
+		Label: "[centeritem:MusicBoxTownDay] タウンNPCの出現メカニズムの改善"
+		Tooltip:
+			'''
+			これがオンだと
+			救出していないゴブリンのよろずや、居酒屋、魔法使い、メカニック、収税吏の出現条件を満たした場合、
+			救出する必要がなく、有効な家があれば出現でき、出現した時点で救出済みとみなされます
+			これらのタウンNPCは夜間に出現します
+			'''
+	}
+
+	NPCLiveInEvil: {
+		Label: "[centeritem:MusicBoxTownNight] タウンNPCが汚染バイオームに居住可能"
+		Tooltip: タウンNPCが不浄と真紅バイオームに居住できるようになります
+	}
+
+	TownNPCSpawnSpeed: {
+		Label: "[centeritem:4910] タウンNPCの出現率"
+		Tooltip: この値が1だと、この変更が無効になります
+	}
+
+	NoCD_FishermanQuest: {
+		Label: "[centeritem:4608] 釣り人のクエストを即座にリフレッシュ"
+		Tooltip: 
+			'''
+			クエストを達成すると、すぐに次のクエストを受けることができます
+			クエストをリセットするかどうかも選択できるようになります
+			'''
+	}
+
+	NPCCoinDropRate: {
+		Label: "[centeritem:73] 敵のコインドロップ倍率"
+		Tooltip: ""
+	}
+
+	SlimeExDrop: {
+		Label: "[centeritem:11] スライムのアイテムのドロップ保証"
+		Tooltip:
+			'''
+			スライムはランダムなアイテムを持っていることがあり、それを必ずドロップするようにします
+			オフの場合は、バニラのドロップ率に従います
+			'''
+	}
+
+	LavalessLavaSlime: {
+		Label: "[centeritem:LavaSlimeBanner] 溶岩なしのマグマスライム"
+		Tooltip: エキスパートモードかマスターモードで、マグマスライムを倒しても溶岩が生成されなくなります
+	}
+
+	TravellingMerchantStay: {
+		Label: "[centeritem:2222] 旅商人は立ち去らない"
+		Tooltip: 旅商人は殺されない限り立ち去りません
+	}
+
+	TravellingMerchantRefresh: {
+		Label: "[centeritem:PeddlersSatchel] 旅商人の店をリフレッシュ"
+		Tooltip: 旅商人にリフレッシュボタンを追加し、手動で商品をリフレッシュすることができます
+	}
+
+	QuickNurse: {
+		Label: "[centeritem:AdhesiveBandage] 救急治療"
+		Tooltip:
+			'''
+			右クリックでナースと話すと、ナースが回復してくれます
+			プレイヤーの上に支払った金額が表示されます
+			'''
+	}
+
+	BestiaryQuickUnlock: {
+		Label: "[centeritem:DontHurtCrittersBook] 教訓"
+		Tooltip: 生物の図鑑のロックが解除されている場合、その生物の図鑑の説明文などのロックはキル数に関係なく解除されるようになります
+	}
+
+	BannerRequirement: {
+		Label: "[centeritem:2990] バナー入手までのキル数"
+		Tooltip:
+			'''
+			バナー入手までのキル数を調整し、倍率が小さいほど少ないキル数でバナーを入手できます
+			参考までに、倍率が0.1(10%)に設定されている場合、ブルースライムを5匹倒すと、50匹倒さなくても、ブルースライムバナーが1枚入手できます
+			倍率が10(1000%)に設定されている場合、ブルースライムを500匹倒すと、ブルースライムバナーが1枚入手できます
+			'''
+		}
+
+		AlchemyGrassGrowsFaster: {
+		Label: "[centeritem:313] ハーブの成長加速"
+		Tooltip: 全てのハーブの成長を早めます
+	}
+
+	AlchemyGrassAlwaysBlooms: {
+		Label: "[centeritem:316] ハーブの開花条件"
+		Tooltip: 全てのハーブを開花させ、種を落とせるようにします
+	}
+
+		PumpkinGrowsFaster: {
+		Label: "[centeritem:1725] カボチャの成長加速"
+		Tooltip: カボチャの成長を早めます
+	}
+
+		LifeFruitGrowsFaster: {
+		Label: "[centeritem:1291] ライフフルーツの成長加速"
+		Tooltip: ライフフルーツの成長を早めます
+	}
+
+		LifeFruitLimit: {
+		Label: "[centeritem:1291] ライフフルーツ制限の調整"
+		Tooltip:
+			'''
+			この設定は、ライフフルーツが周囲のライフフルーツを検知できる範囲を調整します
+			値が小さいほど、ライフフルーツの成長密度が高くなります
+			-1に設定すると、元の制限（60マス（ノーマル）/50マス（エキスパート）ごとにライフフルーツが1個生成されます）に従います
+			エキスパートモードかマスターモードでは、実際の値はこの値から10を引いた値になります
+			'''
+	}
+
+		StaffOfRegenerationAutomaticPlanting: {
+		Label: "[centeritem:213] 成長の 杖/斧の自動植え込み"
+		Tooltip: 成長の 斧/杖の使用時に、採取したハーブを自動的に植えます
+	}
+
+		NoBiomeSpread: {
+		Label: "[centeritem:Sunflower] 汚染バイオームと聖域バイオームの拡大防止"
+		Tooltip: ""
+	}
+
+		RespawnWithFullHP: {
+		Label: "[centeritem:LifeCrystal] ライフ最大でリスポーン"
+		Tooltip: ""
+	}
+
+		DontDeleteBuff: {
+		Label: "[centeritem:FlaskofNanites] 死亡後もバフを維持する"
+		Tooltip: 死亡後も全てのバフが残ります
+		
+	}
+
+		JourneyResearch: {
+			Label: "[centeritem:GoldBunny] 自動リサーチ"
+			Tooltip:
+			'''
+			ジャーニーモードで、十分なスタック数があり、お気に入りとしてマークされているアイテムは、自動でリサーチされます
+			この機能は、以下の項目を使用しません
+			'''
+		}
+
+		BanDamageVar: {
+		Label: "[centeritem:6] ダメージ拡散を無効化"
+		Tooltip: ""
+	}
+
+	ExtraPlayerBuffSlots: {
+		Label: "[centeritem:3000] 追加のバフスロット"
+		Tooltip: ""
+		}
+
+	TreeGrowFaster: {
+	Label: "[centeritem:1182] 木が急速成長し、地形条件を無視する"
+		Tooltip:
+		'''
+		木の成長速度が5倍になります
+		宝石の木が地上で、通常の木が地下でも育つようになります
+		ジャングルの木や巨大な光るキノコの自然生成速度には影響しません
+		'''
+	}
+
+	ShakeTreeFruit: {
+		Label: "[centeritem:4009] 木を揺すった時にフルーツを確定で入手"
+		Tooltip:
+			'''
+			果物のドロップ率が大幅に上昇（他のアイテムのドロップ率には影響なし）
+			何もしていないようであれば、Terraria Wikiで条件を確認してください
+			'''
+	}
+
+	GemTreeAlwaysDropGem: {
+		Label: "[centeritem:3649] 宝石の木が宝石を確定で入手"
+		Tooltip: 宝石の木のあらゆる部分が宝石や宝石のどんぐりをドロップします
+	}
+
+	ShareCraftingStation: {
+		Label: "[centeritem:WorkBench] 共有携帯作業台"
+		Tooltip:
+			'''
+			同じチームのプレイヤーは、携帯作業台を共有します
+			つまり チーム内に作業台を持っているプレイヤーがいる場合、椅子を作るために作業台を持っている必要はありません
+			携帯作業台がオンになっていることが必要です
+			プレイヤーが多すぎる場合（100人以上）、ラグが発生する可能性があります
+			'''
+	}
+
+	ShareInfBuffs: {
+		Label: "[centeritem:227] 永続バフを共有"
+		Tooltip:
+			'''
+			同じチームのプレイヤーは、バナーバフを含む永続バフを共有します
+			つまり チーム内にケーキのスライスを持っているプレイヤーがいる場合、あなたはケーキを食べる必要がありません！
+			少なくとも1つの永続バフ機能がオンになっている必要があります
+			プレイヤーが多すぎる場合（100人以上）、ラグが発生する可能性があります
+			'''
+	}
+
+	ShareRange: {
+		Label: "[centeritem:WorldGlobe] 共有効果の範囲（ブロック単位）"
+		Tooltip:
+			'''
+			この範囲内にいるチームメイトのみが、共有効果を共有します
+			デフォルトでは-1、つまり範囲は無限
+			'''
+	}
+
+	TeamAutoJoin: {
+		Label: "[centeritem:TeamBlockRed] レッドチームに自動で参加"
+		Tooltip: マルチプレイヤーモードでは、新規参加したプレイヤーは自動的にレッドチームに加わります
+	}
+
+	OnlyHost: {
+		Label: "[centeritem:2203] ホストのみ設定変更可(ポートフォワーディングでは機能しない)"
+		Tooltip:
+			'''
+			シングルプレイヤーモードでは動作しません
+			オンにすると、ホスト(IP: 127.0.0.1)だけがMODの設定を変更できるようになります
+			ホストだけがこのオン/オフを切り替えられる
+			サーバーがポートフォワーディングで動作している場合は、以下の関数を使用してください
+			'''
+		Unaccepted: 変更を保存できません：あなたはホストではありません!
+		Tips:
+			'''
+			ホストのみ設定変更可がオンになっています
+			ホスト(IP: 127.0.0.1)だけがMOD設定を変更できます
+			'''
+	}
+
+	OnlyHostByPassword: {
+		Label: "[centeritem:2203] MOD設定の変更は認証済みパスワードを持つプレイヤーのみ許可"
+		Tooltip:
+			'''
+				シングルプレイヤーでは動作せず、再読み込みが必要
+				オンにすると、証済みのプレイヤーのみがMODの設定を変更できるようになります
+				サーバーを起動すると、サーバーコンソールにランダムな8桁のパスワードが送信されます
+				プレイヤーは /qolpassword <password> と入力して確認することができます
+				サーバーコンソールで、 /qolpassword と入力することでパスワードを照会できます
+				パスワードが正しければ、プレイヤーはMODの設定を変更することができます
+				IP認証が機能しないため、ポートフォワーディングのあるサーバーで効果的です
+			'''
+		Unaccepted: パスワードが認証されていません!
+		Tips: MOD設定の変更は認証済みパスワードを持つプレイヤーのみ許可がオンになっています
+		Registered: MODの設定はすでに変更できます
+		Correct: 正しいパスワードで、MODの設定を変更できます
+		Incorrect: パスワードが間違っています!
+		ServerPassword: "[Quality of Terraria] 設定確認用パスワード: {Password}"
+		ServerPasswordLog: 設定確認用パスワード: {Password}
+		CommandDescription: クライアントを確認し、MODの設定を変更する許可を要求します
+		NotOn: パスワード認証オプションがオンになっていません
+		Format: パスワードは4文字（大文字と小文字は区別しません）
+	}
+
+	SpawnRateMaxValue: {
+		Label: "[centeritem:2649] 敵の最大出現率"
+		Tooltip:
+			'''
+			敵の最大出現率を調整できる
+			お知らせ:
+			このパネルが表示されるのは、以下のアイテムがインベントリにある場合です
+			"[ヒマワリ]、[平和の蝋燭]、[平穏のポーション]、[水の蝋燭]と[闘争のポーション]"
+			サーバー内のプレイヤーに敵の出現率を上げさせたくない場合は、この機能を使うことができる
+			'''
+	}
+
+	ExStorageSearchDistance: {
+		Label: "[centeritem:ImproveGame/ExtremeStorage] ストレージマネージャーの宝箱検出範囲"
+		Tooltip:
+			'''
+			ストレージマネージャーが宝箱を検索する範囲を変更します
+			マルチプレイでは、管理されている宝箱の数が多ければ多いほど、ネットワーク負荷が高くなります
+			'''
+	}
+
+	ICanSeeForeverAllBag: {
+		Label: "[centeritem:GoodieBag] トレジャーバッグの詳細を表示"
+		Tooltip:
+			'''
+			オフの場合、ドロップルールコードが非表示にするかどうかを決定します
+			オンにすると、非表示ルールは常に表示されます
+			'''
+	}
+
+	LoadModItems: {
+		Label: Modアイテムのロード設定
+		Tooltip: いくつかのModアイテムを削除し、ゲームに表示されないようにします
+	}
+
+	EmptyAutofisher: {
+		Label: "[centeritem:ImproveGame/Autofisher] 餌の残量警告"
+		Tooltip:
+			'''
+			釣り機のエサがなくなると、メッセージが表示されます: 
+			"\[horizontal position, depth] の釣り機に餌がありません\"
+			'''
+	}
+
+	OtherFunctions: {
+		Label: 設定不可能な機能 
+		ExpandTip: クリックで拡大
+		Subtitle: 以下は、このMODの設定変更ができない機能です
+		Tooltip:
+			'''
+			トレジャーバッグを表示" キーバインドをクリックしている間、バッグの詳細なアイテムドロップを表示されます
+			ホットキーでホットバーとインベントリの第2行を切り替えます
+			巨大リュック内の弾薬も使用できます
+			生命体分析器のアイコンをクリックすると開くフィルターパネルがあります
+			チェスト内のアイテムにカーソルを合わせてAltキーを押すと内容を確認できます
+			ツールチップの簡略化（お気に入りのツールチップ削除、装飾スロットでの詳細ツールチップ）
+			ライフクリスタル、マナクリスタル、ライフフルーツの使用速度が向上し、自動使用が可能になります
+			マウントアイテムをミドルクリックでマウントの切り替えができます
+			キャラクター作成時、全ての髪型が選択できます
+			テレポート用のキーで、インベントリ内のロッド・オブ・ディスコードの杖またはロッド・オブ・ハーモニーを使用（RoHを優先）
+			ホームに戻るキーで、インベントリ内の無限に使用できる帰還アイテムを使用（帰還のポーションを優先）
+			'''
+	}
+
+	ExtraToolSpeed: {
+		Label: "[centeritem:4056] 道具の速度倍率"
+		Tooltip: 0に設定すると無効になり、値が大きいほど使用速度が速くなります
+	}
+
+	MostTreeMin: {
+		Label: "[centeritem:9] 普通の木の最小の高さ"
+		Tooltip: デフォルト: 7
+	}
+
+	MostTreeMax: {
+		Label: "[centeritem:9] 普通の木の最大の高さ"
+		Tooltip: デフォルト: 12
+	}
+
+	PalmTreeMin: {
+		Label: "[centeritem:2504] ヤシの木の最小の高さ"
+		Tooltip: デフォルト: 10
+	}
+
+	PalmTreeMax: {
+		Label: "[centeritem:2504] ヤシの木の最大の高さ"
+		Tooltip: デフォルト: 20
+	}
+
+	GemTreeMin: {
+		Label: "[centeritem:4856] 宝石の木の最小の高さ"
+		Tooltip: デフォルト: 7
+	}
+
+	GemTreeMax: {
+		Label: "[centeritem:4856] 宝石の木の最大の高さ"
+		Tooltip: デフォルト: 12
+	}
+
+	Headers: {
+		Item: "[centeritem/h4:LifeCrystal] アイテム設定"
+		NPC: "[centeritem:4382] NPC設定"
+		GameMechanics: "[centeritem:1344] ゲームのメカニクス"
+		Tree: "[centeritem/h4:27] 木の設定"
+		Together: "[centeritem/h2:GolfCupFlagRed] より良い関係"
+		Server: "[centeritem:ImproveGame/CreateWand] Mod設定"
+		Presets: "[centeritem:ImproveGame/PaintWand] プリセット"
+		Others: "[centeritem/h4:HandOfCreation] その他"
+		ItemEffect: "[centeritem/h4:RedPotion] アイテム効果"
+		PylonMechanics: "[centeritem:4951] パイロンの制限"
+	}
+
+	OpenConfig: {
+		Label: 設定ファイルを開く
+		Tooltip: どのような設定も、変更された後にのみファイルに表示されます
+	}
+
+	TownNPCHome: {
+		Label: "[centeritem:MusicBoxTownDay] NPCが家にテレポート"
+		Tooltip:
+			'''
+			ハウジングボタンを右クリックすると、全てのタウンNPCがテレポートで帰宅します
+			タウンNPCの家が変わると、その家にテレポートします
+			'''
+		HoverText: (<right> でタウンNPCを家にテレポート)
+	}
+
+	NoLakeSizePenalty: {
+		Label: "[centeritem:FishingPotion] 水場のサイズのペナルティ無効化"
+		Tooltip:
+			'''
+			全ての釣り堀は満杯とみなされ、
+			水場が小さくてもフィッシングパワーが減少しなくなります
+			2ブロックの水でも釣りができます
+			'''
+	}
+
+	InfiniteRedPotion: {
+		Label: "[centeritem:RedPotion] レッドポーションの拡張"
+		Tooltip:
+			'''
+			"Get fixed boi"や"For the worthy"のワールドにいるなら
+			全てのポーションの材料を使ってレッドポーションを作れるようになります
+			無限レッドポーションはそのバフを全て提供します
+			ただし、ポーションバッグに入れることはできません
+			'''
+		Condition: レッドポーションの拡張がオン
+	}
+
+	RedPotionEverywhere: {
+		Label: "[centeritem:RedPotion] 無制限レッドポーションの拡張"
+		Tooltip:
+			'''
+			レッドポーションの拡張をオンにして、あらゆるワールドを楽しもう!
+			"Get fixed boi"や"For the worthy"のワールド以外でも使用できます
+			'''
+		Condition: 制限なしのレッドポーションの拡張が有効/In a For the Worthy ワールド
+	}
+
+	RedPotionRequirement: {
+		Label: "[centeritem:RedPotion] 無限レッドポーションの必要量"
+		Tooltip:
+			'''
+			レッドポーションの拡張をオンにする必要があります
+			レッドポーション専用の無限ポーションのスタック量を設定します
+			'''
+	}
+
+	LongerExpertDebuff: {
+		Label: "[centeritem:DemonHeart] エキスパートデバフの効果時間"
+		Tooltip:
+			'''
+			エキスパート/マスターモードでデバフの持続時間を延長します
+			これがオフの場合、クラシックモードの持続時間が使用されます
+			'''
+	}
+
+	LightNotBlocked: {
+		Label: "[centeritem:UltrabrightTorch] ブロック遮光効果"
+		Tooltip:
+			'''
+			ライトがブロックを無視するかどうか
+			消灯時のバニラの動作に従います
+			'''
+	}
+
+	BombsNotDamage: {
+		Label: "[centeritem:TNTBarrel] 爆弾ダメージの無効化"
+		Tooltip:
+			'''
+			ブロック破壊アイテムのダメージを無効にします
+			ブロックを破壊する爆発物のみに影響します
+			手榴弾やブロックを壊さないロケット弾などは影響を受けません
+			'''
+	}
+
+	DisableNonPlayerBombsExplosions: {
+		Label: "[centeritem:TNTBarrel] プレイヤー以外の爆発物破壊無効化"
+		Tooltip: ブロックの意図しない破壊を防ぎます
+	}
+
+	WorldFeaturePanel: {
+		Label: "[centeritem:WorldGlobe] ワールドフィーチャーパネル"
+		Tooltip:
+			'''
+			これをオンにして、"Controls "でホットキーをバインドしてください
+			ワールドフィーチャーパネルを使用できます
+			ホリデーや秘密のシードを切り替えることができます
+			'''
+	}
+
+	BedEverywhere: {
+		Label: "[centeritem:Bed] 無制限のベッドリスポーン"
+		Tooltip: ベッドはハウジングの条件に関係なく、どんな状態でもリスポーンポイントを設定できます
+	}
+
+	MinimapMark: {
+		Label: "[centeritem:WorldGlobe] 構造物のマーカー"
+		Tooltip:
+			'''
+			探知機を使って、地図上に次の構造物をマークすることが可能:
+			エーテル、ダンジョン、ジャングル寺院、浮島、プランテラのつぼみ
+			'''
+	}
+
+	ModifyNPCHappiness: {
+		Label: "[centeritem:LifeCrystal] NPCの幸福度を固定"
+		Tooltip: NPCの幸福度を設定した値に固定します
+	}
+
+	NPCHappiness: {
+		Label: "[centeritem:LifeCrystal] NPCの幸福度 (%)"
+		Tooltip:
+			'''
+			設定値が小さいほど、NPCからアイテムを安く買うことができます
+			そして、NPCに売るアイテムの値段が高くなります
+			90以下だとNPCからパイロンを買えます
+			'''
+	}
+
+	NoSleepRestrictions: {
+		Label: "[centeritem:Bed] 無条件睡眠"
+		Tooltip: 睡眠はどんな状況でも時間を加速させます
+	}
+
+	BedTimeRate: {
+		Label: "[centeritem:Bed] 睡眠時間レート"
+		Tooltip: 睡眠中の時間経過の速さを変更できます（デフォルトは5時間）
+	}
+
+	BedOnlyOne: {
+		Label: "[centeritem:Bed] 孤独な睡眠"
+		Tooltip: マルチプレイでは眠っているプレイヤーが1人いれば時間を進めることができます
+	}
+
+	WandMaterialNoConsume: {
+		Label: "[centeritem:ImproveGame/SpaceWand] 杖の設置物無限化"
+		Tooltip:
+			'''
+			スタック数が999を超えるブロックや壁は、空間/技術/建築 の杖によって配置された場合、消費されません
+			作業台、テーブル、ベッドなど、スタック数が99を超えるものも消費されません
+			'''
+	}
+
+	DummyCustomAIStyleAllowed: {
+		Label: "[centeritem:ImproveGame/Dummy] マルチプレイでカスタムダミーミミックNPCの動作を許可"
+		Tooltip:
+			'''
+			オンにすると、マルチプレイ時に誰でもダミーをカスタムし、NPCの動作を模倣できるようになります。
+			ダミーがサーバークラッシュを引き起こしたり、チートツールになる可能性があるので、注意してください.
+			'''
+	}
+
+	QuestFishStack: {
+		Label: "[centeritem:Clownfish] クエストの魚をスタック可能"
+		Tooltip: クエストの魚がスタックできるようになり、インベントリに同じ種類があっても釣ったり拾ったりできるようになります
+	}
+
+	QuickRespawn: {
+		Label: "[centeritem:3232] 非ボス戦闘時、高速リスポーン"
+		Tooltip: ボスがいないなら、リスポーン時間が1.5秒に短縮されます
+	}
+
+	AllOff: {
+		Label: 全てOFFにする
+		Tooltip: （ほぼ）全ての設定をバニラの状態に戻し、バニラのTerrariaをプレイします
+	}
+
+	NoConditionTP: {
+		Label: "[centeritem:WormholePotion] 無条件でチームテレポート"
+		Tooltip: ワームホールポーションがなくても、プレイヤーはチームメイトにテレポートできます
+	}
+
+	OpenFaq: {
+		Label: よくある質問
+		Tooltip:
+			'''
+			問題が発生した際にこのウェブページを確認することを強くお勧めします
+			以下の質問への解決策が含まれています：
+			- 永続バフを非表示にする方法
+			- お金の自動貯金を無効にする方法
+			- プレイヤーの頭上のバフアイコンを隠す方法
+			'''
+	}
+
+	WeatherControl: {
+		Label: "[centeritem:ImproveGame/WeatherBook] 天候の制御"
+		Tooltip:
+			'''
+			風向き、月の月相、雨、時間を変更できます
+			ウォールオブフレッシュ撃破後に解放されます
+			天候の書から利用可能で、コントロールパネルからアクセスできます
+			ワールドによっては利用できない場合があります
+			'''
+	}
+
+	AmmoChain: {
+		Label: "[centeritem:ImproveGame/AmmoChainItem] 弾薬チェーン"
+		Tooltip:
+			'''
+			特定の順序で武器が弾薬を選択できます
+			コントロールパネルから利用できます
+			'''
+	}
+
+	SimpleVeinMining: {
+		Label: "[centeritem:IronPickaxe] 簡易鉱脈採掘"
+		Tooltip:
+			'''
+			基本的な鉱脈採掘機能
+			つるはしで掘るだけで使用可能です
+			ブラックリスト/ホワイトリスト機能はなく、調整もできません
+			細かい調整がしたい場合は、Ore ExcavatorやBasic Automated Miningを使用することを推奨します
+			これらのMODがロードされている場合、この機能はオフになります
+			'''
+		PopupTip: この機能が不要な場合は、QoTの設定からオフにできます
+	}
+
+	DisableVeinMiningPopup: {
+		Label: "[centeritem:IronPickaxe] 鉱脈採掘ポップアップを無効化"
+		Tooltip: ポップアップを完全に無効化します
+	}
+
+	QuickShimmer: {
+		Label: "[centeritem:ImproveGame/ShellShipInBottle_Shimmered] クイックシマー"
+		Tooltip:
+			'''
+			インベントリ内でシマーの変換ができるようになります
+			シマーに入ったボトルシップを使用することで使用可能になり、コントロールパネルからアクセスできます
+			ワールドによっては利用できない場合があります
+			'''
+	}
+
+	PylonPlaceNoRestriction: {
+		Label: "[centeritem:TeleportationPylonPurity] 無制限のパイロン配置"
+		Tooltip: 任意の場所に任意の数のパイロンを設置できます
+	}
+
+	PylonTeleNoNear: {
+		Label: "[centeritem:TeleportationPylonUnderground] グローバルなパイロンテレポート"
+		Tooltip: どこからでもパイロンにテレポートできます
+	}
+
+	PylonTeleNoNPC: {
+		Label: "[centeritem:TeleportationPylonHallow] NPCなしでのパイロンテレポート"
+		Tooltip: 近くにタウンNPCがいなくてもパイロンにテレポートできます
+	}
+
+	PylonTeleNoDanger: {
+		Label: "[centeritem:TeleportationPylonJungle] 危険度無関係のパイロンテレポート"
+		Tooltip: ボスがいてもパイロンにテレポートできます
+	}
+
+	PylonTeleNoBiome: {
+		Label: "[centeritem:TeleportationPylonMushroom] バイオーム無関係のパイロンテレポート"
+		Tooltip: " 「なぜなら、私がそう言ったからさ!」"
+	}
+}
+
+AvailableModItemConfigs: {
+	AvailablityHint:
+		'''
+		現在使用できません
+		Modアイテム設定でオプションを変更してください
+		'''
+	AvailablityDetailedHint:
+		'''
+		現在使用できません
+		メイン設定のオプション{0}を変更してください
+		'''
+	DisplayName: Modアイテム設定
+	Available: " 入手可能"
+	Unavailable: " 入手不可"
+	Obtainable: " 入手可能"
+	Unobtainable: " 入手不可"
+	Enable: 有効
+
+	AvailableMagickWand: {
+		Label: "[centeritem:ImproveGame/MagickWand] 爆破の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableSpaceWand: {
+		Label: "[centeritem:ImproveGame/SpaceWand] 空間の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableStarburstWand: {
+		Label: "[centeritem:ImproveGame/StarburstWand] 星屑の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableWallPlace: {
+		Label: "[centeritem:ImproveGame/WallPlace] 技術の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableCreateWand: {
+		Label: "[centeritem:ImproveGame/CreateWand] 建築の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableLiquidWand: {
+		Label: "[centeritem:ImproveGame/LiquidWand] 液体の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailablePotionBag: {
+		Label: "[centeritem:ImproveGame/PotionBag] ポーションカバン 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableBannerChest: {
+		Label: "[centeritem:ImproveGame/BannerChest] バナーボックス 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableAutofisher: {
+		Label: "[centeritem:ImproveGame/Autofisher] 自動釣り機 入手可能"
+		Tooltip: ""
+	}
+
+	AvailablePaintWand: {
+		Label: "[centeritem:ImproveGame/PaintWand] ペイントの杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableConstructWand: {
+		Label: "[centeritem:ImproveGame/ConstructWand] 工事の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableMoveChest: {
+		Label: "[centeritem:ImproveGame/MoveChest] 虚空の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableCoinOne: {
+		Label: "[centeritem:ImproveGame/CoinOne] 幸運のコイン 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableExtremeStorage: {
+		Label: "[centeritem:ImproveGame/ExtremeStorage] ストレージマネージャー 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableDetectorDrone: {
+		Label: "[centeritem:ImproveGame/DetectorDrone] 探索ドローン 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableBaitSupplier: {
+		Label: "[centeritem:ImproveGame/BaitSupplier] 餌チェンバー 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableLiquidWandAdvanced: {
+		Label: "[centeritem:ImproveGame/LiquidWandAdvanced] 究極の液体の杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableActuationRodMkII: {
+		Label: "[centeritem:ImproveGame/ActuationRodMkII] 究極のアクチュエーションの杖 入手可能"
+		Tooltip: ""
+	}
+
+	AvailableShimmerBucket: {
+		Label: "[centeritem:ImproveGame/ShimmerBucket] シマー入りバケツ 入手可能"
+		Tooltip: ""
+	}
+}
+
+UIConfigs: {
+	DisplayName: 個人設定
+
+	BigBackpackButton: {
+		Label: "[centeritem:3813] 大きなリュック"
+		Tooltip: ""
+	}
+
+	ResetNativeUI: {
+		Label: "[centeritem:1544] バニラUIをリセット"
+		Tooltip: ""
+	}
+
+	GeneralFontOffsetY: {
+		Label: "[centeritem:1543] UI通常フォントのYオフセット"
+		Tooltip: ""
+	}
+
+	BigFontOffsetY: {
+		Label: "[centeritem:1543] UI大きいフォントのYオフセット"
+		Tooltip: ""
+	}
+
+	ShowMoreData: {
+		Label: "[centeritem:1344] デバッグデータを表示"
+		Tooltip:
+			'''
+			開発者向けオプション（プレイヤー向けではありません）
+			オンにするとデバッグ情報が表示されます
+			'''
+	}
+
+	ShowModName: {
+		Label: "[centeritem:ImproveGame/LiquidWand] どのMODのアイテムかを表示"
+		Tooltip: ""
+	}
+
+	PlyInfo: {
+		Label: "[centeritem:3124] プレイヤーのステータス"
+		Tooltip: 実績アイコンの横に四つ葉のクローバーが表示されます
+	}
+
+	QoLAutoTrash: {
+		Label: "[centeritem:348] 自動ゴミ箱"
+		Tooltip:
+			'''
+			自動ゴミ箱
+			アイテムを登録できる6つのゴミ箱が表示されます
+			アイテムは、同じものが中にある場合、このゴミ箱に移動されます
+			Shift+Ctrl+左クリックでゴミ箱にアイテムを移動できます
+			'''
+	}
+
+	FontOffsetPreviewText: テキストが行に収まるようにオフセット値を調整してください
+	BigFontOffsetPreviewText: テストテキスト
+
+	OpenConfig: {
+		Label: 設定ファイルを開く
+		Tooltip: どのような設定も、変更された後にのみファイルに表示される
+	}
+
+	KeepFocus: {
+		Label: "[centeritem:TVHeadMask] アクティブウインドウでなくてもゲームを動作させる"
+		Tooltip:
+			'''
+			フォーカスが外れても（バックグラウンドでも）、ゲームは実行され続けます
+			シングルプレイヤーでは一時停止されません
+			'''
+	}
+
+	ExplosionEffect: {
+		Label: "[centeritem:TNTBarrel] 爆破の杖の効果"
+		Tooltip: このMODの杖の爆発効果を切り替えます
+	}
+
+	Headers: {
+		MinimapHeader: "[centeritem:WorldGlobe] マップマーカー設定"
+		UIHeader: "[centeritem:EchoMonolith] UI設定"
+		GameHeader: "[centeritem:JimsDrone] ゲーム設定"
+	}
+
+	MarkFloatingIsland: {
+		Label: "[centeritem:ImproveGame/FloatingIslandGlobe] 浮島のアイコンサイズ"
+		Tooltip: マークされた浮島のマップアイコンのサイズ。非表示にするには0に設定してください
+		
+	}
+
+	MarkAether: {
+		Label: "[centeritem:ImproveGame/AetherGlobe] エーテルのアイコンサイズ"
+		Tooltip: マークされたエーテルのマップアイコンのサイズ。非表示にするには0に設定してください
+		
+	}
+
+	MarkTemple: {
+		Label: "[centeritem:ImproveGame/TempleGlobe] ジャングル寺院のアイコンサイズ"
+		Tooltip: マークされたジャングル寺院のマップアイコンのサイズ。非表示にするには0に設定してください
+		
+	}
+
+	MarkDungeon: {
+		Label: "[centeritem:ImproveGame/DungeonGlobe] ダンジョンのアイコンサイズ"
+		Tooltip: マークされたダンジョンのマップアイコンのサイズ。非表示にするには0に設定してください
+		
+	}
+
+	MarkPyramid: {
+		Label: "[centeritem:ImproveGame/PyramidGlobe] ピラミッドのアイコンサイズ"
+		Tooltip: マークされたピラミッドのマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	MarkPlantera: {
+		Label: "[centeritem:ImproveGame/PlanteraGlobe] プランテラのつぼみのアイコンサイズ"
+		Tooltip: マークされたプランテラのつぼみのマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	MarkEnchantedSword: {
+		Label: "[centeritem:ImproveGame/EnchantedSwordGlobe] エンチャントソードのアイコンサイズ"
+		Tooltip: マークされたエンチャントソードのマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	MarkMarbleCave: {
+		Label: "[centeritem:ImproveGame/MarbleCaveGlobe] 大理石の洞窟のアイコンサイズ"
+		Tooltip: マークされた大理石の洞窟のマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	MarkGraniteCave: {
+		Label: "[centeritem:ImproveGame/GraniteCaveGlobe] 御影石の洞窟のアイコンサイズ"
+		Tooltip: マークされた御影石の洞窟のマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	MarkEmptyAutofisher: {
+		Label: "[centeritem:ImproveGame/Autofisher] エサなし釣り機のアイコンサイズ"
+		Tooltip: マークされたエサなし釣り機のマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
+	SuicideButton: {
+		Label: セルフキル
+		Tooltip: このボタンを押すとキャラが死にます [c/FF4444:押す前にもう一度考えて].
+	}
+
+	MagicMirrorInstantTp: {
+		Label: "[centeritem:MagicMirror] 即時帰還アイテム"
+		Tooltip: 魔法の鏡のようなホームに戻るアイテムは即座に使えるようになり、テレポート前のディレイが削除されます
+	}
+
+	HideNoConsumeBuffs: {
+		Label: "[centeritem:297] 無限ポーションのバフアイコンを隠す"
+		Tooltip:
+			'''
+			無限ポーションのバフアイコンを隠します
+			効果は元のバフのままですが、表示されません
+			'''
+	}
+
+	InfernoTransparency: {
+		Label: "[centeritem:InfernoPotion] インフェルノリングのアルファ"
+		Tooltip: インフェルノのリングのアルファは、あなたの視点では、1がソリッド、0が透明です
+	}
+
+	InvisibleTransparency: {
+		Label: "[centeritem:InvisibilityPotion] 不可視のアルファ"
+		Tooltip: 不可視時の視点におけるキャラクターのアルファ値を設定します
+	}
+
+	ThemeType: {
+		Label: "[qotglyph:12] UIカラースキーム"
+		Tooltip: テラリアのUIカラースキームのクオリティ
+		
+	}
+
+	ShowShimmerInfo: {
+		Label: "[centeritem:BottomlessShimmerBucket] シマー情報を表示"
+		Tooltip: シマーにアイテムを投入するとどのように変化するかツールチップに表示されます
+	}
+
+	ResetUIPositionsButton: {
+		Label: UI位置をリセット
+		Tooltip: 全てのUIの位置をデフォルトに戻します
+	}
+
+	EnableBlur: {
+		Label: "[centeritem:MulticoloredStainedGlass] UIのブラー"
+		Tooltip:
+			'''
+			QoT UIにぼかし効果を追加します
+			光表現がレトロ時は使用しないでください
+			ヒント: 高解像度画面では、スケール分母を大きくすると、より効果的に機能します
+			これは別の設定オプションで設定します
+			'''
+	}
+
+	SingleBlur: {
+		Label: "[centeritem:MulticoloredStainedGlass] 個別のUIのブラー (パフォーマンス重視)"
+		Tooltip: 各UIウィンドウを個別にぼかすので見た目は良くなりますが、互換性の問題が発生する可能性があります
+	}
+
+	BlurZoomMultiplierDenominator: {
+		Label: "[centeritem:MulticoloredStainedGlass] ブラースケール（高いほどパフォーマンスが軽くなります）"
+		Tooltip:
+			'''
+			この値が大きいほど、必要な計算能力は少なくなります
+			ぼかしが遅延の原因になっている場合は、この値を増やしてみてください
+			推奨値は次のとおりです。
+			- 通常のGPU、4K解像度：4
+			- ハイエンドGPU：1
+			1は、ぼかしが元の解像度に基づいて行われることを意味します
+			この値を増やすと、ぼかしの範囲が変わります
+			必要に応じて、以下のオプションを調整してください
+			'''
+	}
+
+	BlurIterationCount: {
+		Label: "[centeritem:MulticoloredStainedGlass] 反復回数（数値が高いほどパフォーマンスが高くなります）"
+		Tooltip:
+			'''
+			値が高いほど、背景のぼかしが強くなります
+			ぼかしが原因で遅延が発生している場合は、この値を下げてみてください
+			'''
+	}
+
+	BlurIterationOffsetMultiplier: {
+		Label: "[centeritem:MulticoloredStainedGlass] サンプリングオフセット係数（パフォーマンスに影響なし）"
+		Tooltip: 値が高いほど背景はぼやけますが、縞模様が見える場合があります
+	}
+
+	BlurMixingNumber: {
+		Label: "[centeritem:MulticoloredStainedGlass] カラーサンプリング（高いほどパフォーマンスが高くなります）"
+		Tooltip: 値が高いほど、ぼかしのためにサンプリングされる色が多くなります
+	}
+
+	AutoSummon: {
+		Label: "[centeritem:SlimeStaff] 自動再召喚"
+		Tooltip:
+			'''
+			リスポーン後に最後に使用したミニオンを召喚する
+			MOD Summoners' Associationが有効の場合はオフになります
+			Summoners' Associationで設定をしてください!
+			'''
+	}
+
+	RecipeSearch: {
+		Label: "[centeritem:ImproveGame/SearchIcon] レシピの検索"
+		Tooltip: レシピメニューの拡張時に検索バーを表示します
+	}
+
+	RemoveGraveyardVisual: {
+		Label: "[centeritem:RichGravestone2] 墓場のエフェクトを削除"
+		Tooltip: 墓場のビジュアルエフェクトを削除します
+	}
+
+	RemoveGraveyardMist: {
+		Label: "[centeritem:RichGravestone2] 墓場の霧を削除"
+		Tooltip: 墓場の霧を削除します
+	}
+
+	RemoveGraveyardMusic: {
+		Label: "[centeritem:RichGravestone2] 墓場のBGMを削除"
+		Tooltip: 墓場のBGMを削除します
+	}
+
+	GlobeEffect: {
+		Label: "[centeritem:WorldGlobe] ロケーターエフェクト"
+		Tooltip: 気に入らなければ消してください
+	}
+
+	FckKeybindPopup: {
+		Label: キーバインドポップアップをブロックする
+		Tooltip: 不要なキーをバインドしなければならないと言うのはやめてください
+	}
+}
+
+PAPDisplayMode: {
+	Tooltip: ""
+
+	AlwaysDisplayed: {
+		Label: 常に
+		Tooltip: ""
+	}
+
+	NotDisplayed: {
+		Label: 隠す
+		Tooltip: ""
+	}
+
+	WhenOpeningBackpack: {
+		Label: インベントリのみ
+		Tooltip: インベントリを開いている時のみ、ピン留めされた統計情報を表示します
+	}
+}
+
+ThemeType: {
+	Stormdark: {
+		Label: ストームダーク
+		Tooltip: Stormdarkのスキーム。Stormdarkのテクスチャパックと組み合わせると最適です（TerrariaのSteamワークショップでサブスクライブしてください）
+	}
+
+	Blue: {
+		Label: クラシック
+		Tooltip: バニラのスキームです
+	}
+
+	Tooltip: ""
+}
+
+GlassType: {
+	Tooltip: ""
+	Disabled.Label: オフ
+	MicaLike.Label: マイカ風
+}
+
+BombsNotDamageType: {
+	Tooltip: ""
+
+	Disabled: {
+		Label: オフ
+		Tooltip: ""
+	}
+
+	Item: {
+		Label: 爆発物のみ
+		Tooltip: アイテムのみ
+	}
+
+	ItemAndRocket: {
+		Label: 爆発物とロケット
+		Tooltip: アイテムおよびロケットのみ
+	}
+}
+
+DisableNonPlayerBombsExplosionsType: {
+	Tooltip: ""
+
+	Disabled: {
+		Label: オフ
+		Tooltip: ""
+	}
+
+	FTW: {
+		Label: For the Worthy ワールドのみ
+		Tooltip: For the Worthyワールドでのみ、ポットや揺れる木、プライムキャノンが発射する爆弾がブロックを破壊しません
+	}
+
+	FTWAndExplosives: {
+		Label: 全て
+		Tooltip: 爆弾と自然生成された爆弾がブロックを破壊しません
+	}
+}
+
+FavoritedConfigs: {
+	DisplayName: お気に入り設定
+
+	Header: {
+		Favorited: "[centeritem:FallenStar] お気に入り設定"
+		News: "[centeritem:RainbowCursor] 新規設定"
+	}
+
+	FavoriteIntroduction: {
+		Label: よく使う設定を管理するページ
+		Tooltip:
+			'''
+			<right> で任意のQuality of Terrariaの設定をお気に入りに追加します 
+			お気に入りにした設定はこのページに表示され、すぐにアクセスできます
+			また、更新後に追加された新しい設定もこのページに表示されます
+			'''
+	}
+}
+
+FishQuestResetType: {
+	Tooltip: ""
+
+	Disabled: {
+		Label: 無効化
+		Tooltip: ""
+	}
+
+	NotResetFish: {
+		Label: 魚をリセットしない
+		Tooltip: ""
+	}
+
+	ResetFish: {
+		Label: 魚をリセット
+		Tooltip: ""
+	}
+}
+
+TestConfig: {
+	DisplayName: テスト設定
+
+	test: {
+		Label: テスト
+		Tooltip: ""
+	}
+}
+
+TestData: {
+	Tooltip: ""
+
+	x: {
+		Label: x
+		Tooltip: ""
+	}
+
+	value: {
+		Label: value
+		Tooltip: ""
+	}
+
+	text: {
+		Label: text
+		Tooltip: ""
+	}
+}
+
+BlurMixingNumber: {
+	Tooltip: ""
+
+	One: {
+		Label: "1"
+		Tooltip: ""
+	}
+
+	Two: {
+		Label: "2"
+		Tooltip: ""
+	}
+
+	Three: {
+		Label: "3"
+		Tooltip: ""
+	}
+
+	Four: {
+		Label: "4"
+		Tooltip: ""
+	}
+
+	Five: {
+		Label: "5"
+		Tooltip: ""
+	}
+}

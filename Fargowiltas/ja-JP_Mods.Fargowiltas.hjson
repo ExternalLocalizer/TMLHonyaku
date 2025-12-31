@@ -1954,7 +1954,7 @@ Items: {
 		DisplayName: 宇宙のるつぼ
 		Tooltip:
 			'''
-			あらゆるクラフトステーションとして機能する
+			あらゆる作業台として機能する
 			「壮大なパワーを秘めているようだ」
 			'''
 	}
@@ -1976,17 +1976,17 @@ Items: {
 
 	ElementalAssembler: {
 		DisplayName: エレメンタル・アセンブラー
-		Tooltip: 基本的なクラフトステーションとして機能する
+		Tooltip: 基本的な作業台として機能する
 	}
 
 	GoldenDippingVat: {
 		DisplayName: 黄金のディップ桶
-		Tooltip: 黄金の生物を作成できる
+		Tooltip: 黄金の生き物を作成できる
 	}
 
 	MultitaskCenter: {
 		DisplayName: マルチタスクセンター
-		Tooltip: 基本的なクラフトステーションとして機能する
+		Tooltip: 基本的な作業台として機能する
 	}
 
 	Omnistation: {
@@ -1994,9 +1994,9 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			すべてのバニラのバフを与える設置物の効果を付与する
+			全てのバニラのバフを与える設置物の効果を付与する
 			触れると蜂蜜状態を与える
-			近くにいると運が大きく上昇し、シュガー・ラッシュ状態を与える
+			近くにいると運が大きく増加し、シュガー・ラッシュを得る
 			'''
 	}
 
@@ -2665,7 +2665,7 @@ NPCs: {
 			DislikeNPC: "{NPCName} に木を抱きしめろって言われたからさ...代わりに斧で木を抱きしめさせてやったよ。"
 			HateNPC: "{NPCName} はまるで分かっちゃいない。森を爆撃するのは伐採とは言わん！"
 			LikeNPC_Princess: "{NPCName}は意外にも斧のセンスがあるな！"
-			Princess_LovesNPC: 「{NPCName} はとても力持ちね！いつか一緒に木を切ってみたいわ！」
+			Princess_LovesNPC: "{NPCName} はとても力持ちね！いつか一緒に木を切ってみたいわ！"
 		}
 
 		Chat: {
@@ -2844,7 +2844,7 @@ NPCs: {
 			DislikeNPC: （{NPCName}......ケッ）
 			HateNPC: （{NPCName}ゆるさないって鳴き声）
 			LikeNPC_Princess: （{NPCName}はかわいい！な鳴き声）
-			Princess_LovesNPC: "{NPCName}ってほんっっとうにかわいいの！！"
+			Princess_LovesNPC: "{NPCName}ってほんっっとうにかわいいですわ！！"
 		}
 
 		Chat: {

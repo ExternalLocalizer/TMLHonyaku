@@ -18,7 +18,7 @@ CommonItemtooltip: {
 	
 	Perks: {
 		# Used by: Bee cart and Dev wings
-		LuckBoost: 運をわずかに増加
+		LuckBoost: 運がわずかに増加
 		# Used by: EoS and Face Monster pets
 		PetAggroDown:
 			'''
@@ -40,7 +40,7 @@ CommonItemtooltip: {
 		PetTurtle:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			水中での移動速度がわずかに上昇
+			水中で移動速度がわずかに上昇
 			それ以外の場合は防御力が2増加
 			'''
 		PetGuardian:
@@ -58,12 +58,12 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			マナ自然回復をわずかに増進
-			魔法と召喚のノックバックをわずかに増加
+			魔法と召喚のノックバックがわずかに増加
 			'''
 		PetLizard:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフ自然回復を増進し、ライフが50%以下の際、移動速度がわずかに上昇
+			ライフ自然回復を増進し、ライフが50%以下で、移動速度がわずかに上昇
 			'''
 		PetParrot:
 			'''
@@ -123,7 +123,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			弱体化と鈍化耐性
-			近くの他プレイヤーと自身の運をわずかに増加
+			近くのプレイヤーと自身の運をわずかに増加
 			'''
 		PetGrinch:
 			'''
@@ -230,7 +230,7 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			感電耐性
 			加速度が上昇
-			移動速度が上昇し、雷雨時に加速度と移動速度が更に上昇
+			移動速度が上昇し、雷雨時、加速度と移動速度が更に上昇
 			'''
 		PetKS:
 			'''
@@ -537,7 +537,7 @@ CommonItemtooltip: {
 			'''
 		WingsBeetle:
 			'''
-			夜間と日食中にライフ自然回復を増進
+			夜間と日食中、ライフ自然回復を増進
 			日食中ならクリティカル率が3%上昇
 			'''
 		WingsFestive: 暖気のポーションの効果

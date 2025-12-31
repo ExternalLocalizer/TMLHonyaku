@@ -461,7 +461,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentIncThrowVelAndKB}
 			{$CommonTooltips.Stats.SlightReducedAggro}
 			投擲攻撃でヘルファイアを、
-			投擲攻撃でクリティカル時は暁炎を与える
+			投擲攻撃でクリティカル時、暁炎を与える
 			「空白」
 			'''
 	}
@@ -565,7 +565,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentIncThrowCrit}
 			{$CommonTooltips.Stats.PercentIncThrowKB@1}
 			{$CommonTooltips.Stats.SlightReducedAggro}
-			投擲攻撃でクリティカル時にヘルファイアを与える
+			投擲攻撃でクリティカル時、ヘルファイアを与える
 			'''
 	}
 
@@ -696,7 +696,7 @@ Items: {
 
 	BrittleShiv: {
 		DisplayName: ブリトルシブ
-		Tooltip: 地形か敵に当たると骨の破片に分裂し、短時間残り、触れた敵にダメージを与える
+		Tooltip: 地形か敵に当たると骨の破片をばら撒き、短時間残り、触れた敵にダメージを与える
 	}
 
 	Needleblade: {
@@ -727,7 +727,7 @@ Items: {
 		DisplayName: スティンガースター
 		Tooltip:
 			'''
-			敵か地形に当たって壊れた際、広範囲に毒針を発射する
+			敵か地形に当たって壊れたとき、広範囲に毒針を発射する
 			「とがった所に触れないように注意」
 			'''
 	}
@@ -831,7 +831,7 @@ Items: {
 		DisplayName: ディバインスター
 		Tooltip:
 			'''
-			敵に命中するたびにダメージが増加し、消滅時に小さな爆発を発生させる
+			敵に命中するたびにダメージが増加し、消滅時、小さな爆発を発生させる
 			地形を無視する
 			'''
 	}
@@ -855,7 +855,7 @@ Items: {
 		Tooltip:
 			'''
 			敵の防御力を15無視する
-			消滅時にエネルギーの火花が散る
+			消滅時、エネルギーの火花が散る
 			「まるでミニチェーンソーを投げているみたいだ!」
 			'''
 	}
@@ -921,7 +921,7 @@ Items: {
 
 	Eternity: {
 		DisplayName: エタニティ
-		Tooltip: 敵を追尾し、消滅時に虹を放つ
+		Tooltip: 敵を追尾し、消滅時、虹を放つ
 	}
 
 	Sporenade: {
@@ -937,7 +937,7 @@ Items: {
 		DisplayName: ブラストボーブル
 		Tooltip:
 			'''
-			敵か地形に当たると、いくつかの破片に分裂する
+			敵か地形に当たると、いくつかの破片をばら撒く
 			「DIYの自宅防衛に最適」
 			'''
 	}
@@ -947,7 +947,7 @@ Items: {
 		Tooltip:
 			'''
 			当たった敵に突き刺さり、霜焼けを与える
-			氷の破片に分裂し、追加でダメージを与えることがある
+			氷の破片にをばら撒き、追加でダメージを与えることがある
 			「舌だけに留まらない…」
 			'''
 	}
@@ -1027,7 +1027,7 @@ Items: {
 		Tooltip:
 			'''
 			敵か地形に当たると小さなダークスターと空間異常を放ち、敵を切り裂く
-			飛行中にダメージが増加する
+			飛行中、ダメージが増加する
 			「慈悲深いことではない」
 			'''
 	}
@@ -1102,7 +1102,7 @@ Items: {
 
 	HungeringSpear: {
 		DisplayName: ハングリングスピア
-		Tooltip: 命中時にライフを吸い取る
+		Tooltip: 命中時、ライフを吸収する
 	}
 
 	SpikyBomb: {
@@ -1264,7 +1264,7 @@ NPCs: {
 			DislikeNPC: "{NPCName}は繊細さについて授業を受ける必要があるかもしれないな..."
 			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか?"
 			LikeNPC_Princess: "{NPCName}は忍者の道にとても興味を持っている。彼女の学ぶ意欲は、楽しくもあり、心温まるものでもある。"
-			Princess_LovesNPC:"{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいな!"
+			Princess_LovesNPC: "{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいですわ!"
 		}
 
 		BestiaryEntry: キングスライムから救出された謎めいた忍者。事件については口を閉ざしているが、便利な投擲道具や技は喜んで教えてくれる。
