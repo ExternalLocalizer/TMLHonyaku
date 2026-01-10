@@ -1,0 +1,4476 @@
+UI: {
+	HoverNPCUICatchWithNet: 網を使って捕まえる
+	CircleUIToUnlock: 解除方法: {0}
+}
+
+GoblinUnderlingClass: {
+	Ranged: 遠距離
+	Magic: 魔法
+	Melee: 近接
+}
+
+Chatter: {
+	GoblinUnderling: {
+		Eager_Serious_Shy: {
+			Dialogue: {
+				3All: みんなボスが大好き！
+				2Eager: 野郎ども、あつまれー！
+				"1Serious, Shy": はい。
+				0Eager: ダイジョーブかい、アニキ？
+			}
+		}
+
+		Shy_Serious: {
+			Dialogue: {
+				5Serious: 感謝します。
+				4Shy: か、可愛いね...
+				3Serious: ？
+				2Shy: きっ、きみのお人形さん...
+				1Serious: なんですか？
+				0Shy: えっとぉ...
+			}
+		}
+
+		Shy_Eager: {
+			Dialogue: {
+				5Eager: そうさ！アニキのボスが一番強いかんな！
+				4Shy: きっ、きみはまさにボ、ボスってかんじだよ、ね？
+				3Eager: もちろんアニキがいるからだぜ！
+				2Shy: どど、どうしてきみはいつもじょ、情熱的...なの？
+				1Eager: ん、どうしたぁ？
+				0Shy: あのぉ...
+			}
+		}
+
+		Serious_Shy: {
+			Dialogue: {
+				6Serious: では後で準備します。
+				5Shy: ...う、うん。おねがい。
+				4Serious: はい、あなたを落ち着かせるために。
+				3Shy: お人形さん？
+				2Serious: あなたも人形が欲しいんですか？
+				1Shy: ...はいぃ？
+				0Serious: こんにちは。
+			}
+		}
+
+		Serious_Eager: {
+			Dialogue: {
+				5Eager: あんがとな！
+				4Serious: ...後で直しておきましょう。
+				3Eager: まあそうさ！
+				2Serious: またですか？
+				1Eager: ちげーよアタイのせいじゃねぇ！
+				0Serious: これはまたやりましたね...
+			}
+		}
+
+		Eager_Shy: {
+			Dialogue: {
+				4Eager: 引っかかった！ガハハハハッ！今のは耳にきたぜ！
+				3Shy: きゃあッ！
+				2Eager: オメーの後ろ！ネズミ！
+				1Shy: ど、どうしたの...？
+				0Eager: よう！
+			}
+		}
+
+		Eager_Serious: {
+			Dialogue: {
+				4Eager: よっしゃァ！
+				3Serious: ...仕方ないですね。後でもう一つ作ります。これでいいですか？
+				2Eager: 今回はやんねーからさ！
+				1Serious: あなた、いつも無くすか引き裂いてるでしょう。
+				0Eager: 人形、もう一つもらってもいいか？
+			}
+		}
+
+		Shy: {
+			BloodMoonChanged: {
+				BodyHurts: ボスさん... 体が痛いよ...
+			}
+
+			InvasionChanged: {
+				MustFight: やだ... どうしてボクたち戦うの？
+			}
+
+			ArmorEquipped: {
+				SeeingFace: きみの顔が見れてう、うれしい。ボスさん。
+				ItsYou: うわぁ！ き、きみだったんだね、ボスさん...
+			}
+
+			OOANewWave: {
+				GemSafe: 宝石は安全だよ...今はね...
+				WhenEnd: おわりはいつなの？
+				MoreFoes: もっとくるみたいですよ、ボスさん。
+				MoreOfThem: もももっ...もっとです？
+			}
+
+			OOAStarts: {
+				WhatHoles: ボスさん... あっ、あの穴は？
+			}
+
+			BossDefeat: {
+				ThankYou: ボスさん、ありがと。ここにいてくれて。
+				WeirdFight: ヘンな戦いだったね...
+				YouDidIt: やった... 本当にやったんだよ、ボスさん！
+				WontBeTaken: ボクはもう、やられない！
+				Distracted: ボク、足手まといでごめんなさい...
+				DontFight: もうあれと戦わなければいいんだけど...
+				TheBiggerTheyAre: 大きくなるほど、倒れにくい。
+				GladItsOver: 終わってよかったです...
+				CouldDoIt: もっ、もちろんきみがやりきるっておもってました！
+				YouWereGreat: すっ、すごかったですよ！ボスさん！
+				WasntUseful: ボクが役立たずでごめんなさい...
+				WasScary: さっきのはこ、怖かったです、でも勝ちました！
+			}
+
+			BossSpawn: {
+				TheyAreBack: あぁあぁ... も、戻ってきた...
+				RocksMoving: いっ、岩が動いてますよ！ボスさん！
+				WontBeAfraid: ボクは怖くない。頑張る！
+				NotAgain: そんな... また...!
+				Pretty: かわいい... ボスさん! 気をつけて!
+				Dragon: うわぁ! ドラゴンだ!
+				HesHuge: おっ、おおきい...
+				LooksDangerous: あっ、あれはあぶなそう...
+				DoMyBest: がっ、頑張ってみます！ボスさん！
+				LargeEnemy: おっ、おおきい敵だぁ... 勝てるのかな?
+				WhatIsThat: ボスさん... ボスさん! なんですかあれ！？
+			}
+
+			PlayerHurtByTrap: {
+				DontLetHit: もう引っかからないでね！
+				MoreCautious: もうちょっと気をつけてね、ボスさん！
+				BadlyHurt: 傷が深そうですね、ボスさん!
+				Barbaric: や、ヤバンだね...
+				TreatWound: その傷、治したほうがいいよ！
+				AwfulTraps: だ、誰がこんなにひどい罠を作ったのかな...
+				NatureCruel: 自然ってこんなにも残酷なんだね...
+				SeeSooner: あまり顔を合わせれなくてごめんね...
+				CoolDown: 傷を冷やさないと...
+				TreatingWound: 気をつけてちっ、治療しないとね...
+				HopeOkay: ボスさん、大丈夫だといいんだけど...
+			}
+
+			PlayerHurt: {
+				Boss: ボスさん!
+				DontDie: 死なないで、ボスさん!
+				OhNo: ボスさん、そんな!
+				YouAlright: ボスさん、大丈夫?
+			}
+
+			Attacking: {
+				PleaseLeave: ボクが...引き止めてる...うちに...
+				WontMiss: もうはずさない...
+				Burn: あつい...
+				BossesBlade: ボクがボスさんの剣になるんだ...
+				Eliminated: おまえはボクに倒されるんだ...
+				TargetSighted: 目標をみつけた...
+				SeeDead: おまえを倒すぞぉ...
+				NotEscape: にげられないぞ...
+			}
+
+			FirstSummon: {
+				NiceToMeet: キ、キミとあえて嬉しいな、ボスさん。
+			}
+
+			Idle: {
+				Scared: ぼぼぼ、ボク怖いよ....
+				DontLeave: ボスさん...おいてかないで..
+				SawMouse: きゃあッ！ ...ごめんなさいボスさん。ボク、ネズミみちゃって...
+				WatchFooting: 足元に気をつけてね、ボスさん!
+				SeeStars: ボスさん、見て！星を見つけたよ！
+				EveryoneNice: ここのみんなはや、優しいね。
+				PlaceScary: ボ、ボスさん... こここ、怖いよぉ！
+				SnowCold: これが雪なんだね... つっめたい！
+				PleasantWind: 心地よい風だなぁ...
+				GoHome: も、もう帰ったほうがいいと思うな、ボスさん...
+				ShouldRest: ボスさん、休んだほうがいいと思う。
+				Nevermind: ボスさん、ボク...  やっぱなんでもない...
+				WatchStep: 足元注意だよ、ボスさん。
+				RunIntoBad: 悪い奴らのとこ突っ込んだりしないといいな。
+				FeelSafe: キミといると安心するんだ、ボスさん。
+				LikeNoFight: 闘わないときが一番だいすき。
+			}
+		}
+
+		Serious: {
+			BloodMoonChanged: {
+				HeadUnbearable: 私の頭が... 耐えられません...
+			}
+
+			InvasionChanged: {
+				FoolsReturned: 愚か者たちが帰ってきたみたいですね。
+			}
+
+			ItemSelected: {
+				ThatDoll: その人形は... ご注意を、ボス様。
+			}
+
+			ArmorEquipped: {
+				OddThings: ボス様... たまには妙な事もするのですね。
+			}
+
+			OOANewWave: {
+				ArmyEndless: この軍隊は底なしですね...
+				ProtectGem: ジェムを護衛します。
+				MoreFoes: 敵の襲撃が停止しました、ボス様。
+				NotOverYet: まだ終わりではありません。
+			}
+
+			OOAStarts: {
+				WhatMagic: 何の魔法なんでしょうか？
+			}
+
+			BossDefeat: {
+				Greatest: 最も偉大なのは、ボス様です。
+				WastedSecondLife: 二度の命を無駄にしたみたいですね。
+				Incredible: ボス様、信じられません!
+				ExpectedMore: 期待してましたが、この程度ですか。
+				Joke: 御冗談を。
+				BetterMage: 私が真に優れた魔法使いです。
+				CurseLifted: 呪いは解かれました。
+				WellDone: やりましね。ボス様。
+				Overcame: 我々は乗り越えました。
+				TooEasy: あなたには楽勝すぎでしたね、ボス様。
+				MakeDoll: あなたの記憶から人形を作りましょう。
+			}
+
+			BossSpawn: {
+				ForceOvercome: 我々に乗り越えられないものはありません。
+				WastedFirstLife: 無駄な命ですね。
+				CantLose: ボス様、負けられませんよ。
+				HidingDragon: 奴らはドラゴンを隠していたのですか？
+				SenseIntelligence: アレからは一切の知能を感じ取れません。
+				MagicSuperior: どちらの魔力が優れているか、勝負です。
+				TerribleNight: 呪われるにしてはひどい夜ですね。
+				Trust: あなたを信頼します。ボス様。
+				Prepared: 準備はできています。
+				Formidable: 手強い敵。
+				LargeEnemy: 大きい敵が襲来。
+			}
+
+			PlayerHurtByTrap: {
+				FromDistance: 遠くから作動させてみてください。
+				INotSee: 今のは見えませんでした。
+				Weighed: そのトラップは重かったでのしょう。きっと。
+				CruelPeople: どんな残酷な奴らがこの罠をしかけたのでしょうね...
+				TakeTime: 時間をかけましょう、ボス様。
+				TrapCruel: さっきの罠は残酷でしたね。
+				MinorBurn: 少し燃えただけで良かったです。
+				NaturalTrap: 自然が作った罠ですね。
+				BossNotSee: 見えませんでしたか？ボス様。
+				CowardlyTrap: 臆病者の罠ですね。
+				PressurePlates: 感圧板にお気をつけください。
+				WatchStep: 足元にご注意を、ボス様。
+			}
+
+			PlayerHurt: {
+				Healing: 回復が必要ですか？
+				Tough: 頑丈ですね、ボス様。
+				Unpleasant: 不快そうですね。
+				Alright: 大丈夫です？
+			}
+
+			Attacking: {
+				InSights: 捕捉しました。
+				StruckDown: 私の呪文に焼かれなさい。
+				Burn: 燃えなさい。
+				CutDown: 斬る！
+				NotSurvive: 始末します。
+				NotDefy: ボス様に逆らわないことです。
+				IGotThis: 私におまかせを。
+			}
+
+			FirstSummon: {
+				Greetings: ご機嫌よう、ボス様。
+			}
+
+			Idle: {
+				TooFarAhead: ボス様、あまり遠くに行かないようお願いします。
+				BeCareful: 暗闇に気をつけてください。
+				HiddenTreasure: ここには隠された宝があるかもしれません。
+				StonesHistory: この石には語り継がれぬ歴史があります。
+				SpiritsHide: 精霊は暗闇に隠れます。
+				NotDawdle: ここで遅れを取るのは良くありません。
+				UnnaturalPlace: この場所は不自然です。
+				SandsClaimWeak: 砂漠は弱者を飲み込みます。
+				WarmWithFire: 私の炎でいつでも温めてあげますよ。
+				WindNice: 心地よい風ですね。
+				ShouldSleep: もう寝ましょう。
+				PaceEasy: ボス様のペースは追いつきやすいです。
+				ShallWeRest: ボス様、ここで休憩しませんか？
+				YouSeemCalm: ボス様は落ち着いていますね。
+				Peaceful: 平静です。
+			}
+		}
+
+		Eager: {
+			BloodMoonChanged: {
+				SkyIsRed: アニキ、空が赤くなってるぜ！こえぇな！
+			}
+
+			InvasionChanged: {
+				OldGangBack: 古い仲間のお出ましだぜ、アニキ！
+			}
+
+			ItemSelected: {
+				IsAToy: あれはオモチャか？
+			}
+
+			ArmorEquipped: {
+				LookingFluffy: もふもふだな！アニキ！
+				LookingSpiffy: イカしてるぜ！アニキ！
+			}
+
+			OOANewWave: {
+				WontLetPass: ヤツらは通しませんぜ！アニキ！
+				ProtectGem: ジェムは守るぜ！アニキ！
+				MoreBaddies: 悪党どもがもっと来るぜ！？
+				HolesStillOpen: アニキ、穴が空いたままだぜ！
+			}
+
+			OOAStarts: {
+				WhatDidYouDo: アニキ、なにしちまったんだ！？
+			}
+
+			BossDefeat: {
+				SuckOnThat: ざまあみろ！
+				JellyTastesBad: うぇー！このゼリー死ぬほどまずいな！
+				NoMoreSquid: もうイカは勘弁してくれよな...
+				ToughTougher: さっきのは強かったが、アタイたちには叶わなかったみてえだ！
+				YouTheBest: アニキが一番だぜ！
+				DumbDragon: おいバカドラゴン！アニキに逆らうなよ！
+				DumbWeakling: オオバカモンが！
+				StupidBook: マヌケの本野郎が！
+				NastyBees: 汚らわしいハチどもは蜜だけつくってりゃあいいんだよ！
+				WontBeInSequel: 次は出てくんなよな！
+				EasyNext: 楽勝だったな！次行こうぜ！
+				KnewYouCould: やっぱりアニキならできると思ってたぜ！
+				WeDidIt: やったな、アニキ！
+			}
+
+			BossSpawn: {
+				FatBat: ありゃデカブツだなぁ！
+				JigglyJellyfish: ワハハッ！ ありゃプルンプルンしてんなぁ！
+				WeGotThis: アタイたちならイケるぜ、アニキ！
+				BigGuts: ありゃでけえな！ってことはハラワタもでけえってことだな！
+				OneEyedDummy: 一つ目のバカ野郎だ！
+				WontReadBook: アタイ本なんか読まねえよ！
+				HateBees: ハチは嫌ぇだぜ！
+				WeGotTrouble: アニキ、まずいぜ！
+				NotAfraid: アタイ怖くねえぜ！
+				ThatOnesBig: アニキ、ありゃでけえな！
+				BigOne: クソデカだ！
+				UhOh: おっとっと！
+			}
+
+			PlayerHurtByTrap: {
+				HadToHurt: ありゃ痛えぜ！
+				DontFlattened: 潰されんじゃねーぞ、アニキ！
+				BigBadBalls: デカッタマだな！
+				BadPeople: あいつら、ワリー罠仕掛けやがったな！
+				NoFair: こりゃ不公平だ！あんなん当たるかよ！
+				Dangerous: あぶねぇな！
+				MissThat: どうやったらアレを見逃すんだ、アニキ？
+				HotHot: アチチチチ！
+				GroundEnemy: 地面が敵なのかい！？
+				BadWall: おいバカ壁！アニキを傷つけんじゃねぇ！
+				WatchWalls: 壁に気をつけろ！アニキ！
+				WallsAttack: 壁まで攻撃してくんのかよ！
+			}
+
+			PlayerHurt: {
+				IsntWeak: アニキは弱くないぜ！
+				ThatHurt: 痛そうだな、アニキ！
+				YouGood: だいじょぶか、アニキ！？
+				YouWillPay: あいつ、わかってんだろうな？
+				DontHurt: アニキに触れるんじゃねぇ！
+			}
+
+			Attacking: {
+				Skewer: 突き刺してやらァ！
+				Boom: ドッカーン！ワハハハ！
+				StabStab: ザクザクザク！
+				LevelOne: アタイがいっちゃん強えレベル１ゴブリンよ！
+				ComeHere: おい面貸せや！
+				BadGuys: 目ん玉くり抜いてやる！
+				NoOneTouches: アニキには指一本触れさせネー！
+				ExpGold: アタイゴブリンだぜ！倒しても1経験値と2ゴールドしか落とさねーよ！
+				IGotThis: アタイに任せとけや！
+				Gotcha: やりぃ！
+			}
+
+			FirstSummon: {
+				YouTheBoss: 一生ついてくぜ、アニキ！
+			}
+
+			Idle: {
+				CavesSpooky: 洞窟って不気味なんだな！
+				HeardRat: ネズミの音がしなかったか？でけえやつな。
+				NothingScares: アニキといたらなんも怖かねえぜ！
+				FindShinyMetals: ピカピカの金属見つかりゃいいな！
+				RockLooksLikeBones: あの岩は骨みてえだな！
+				FaceLooksLikeRock: あの岩、アニキの顔みてえだ！
+				BeatTheCold: 動きまわりゃカラダがあったまんだよ！
+				GroundLooking: 地面がアタイを見てるぜ！
+				SandInArmor: 鎧に砂が入っちまった！
+				SeeBase: アタイたちの拠点が丸見えだぜ！
+				GettingSleepy: アニキ、なんか眠みぃな...
+				DoYouLikeMe: アニキ、アタイのこと好きか？
+				WhenMeal: メシはいつなんだ？
+				HateSlimes: 粘っこいスライムはでぇっ嫌いだ！
+				BossSilent: アニキはいつも寡黙で、かっけぇぜ！
+				GoodBoss: 大したボスだぜ！アニキ！
+				HangingOut: 遊びは大好きだぜ！
+				WhenFighting: 戦いはいつだ？アニキ！
+				Bored: ヒマだぜ、アニキ！
+			}
+		}
+	}
+}
+
+Configs: {
+	ContentConfig: {
+		Hint: {
+			Tooltip: ""
+			Label: ヒント
+		}
+
+		CuteSlimesPotionOnly: {
+			Tooltip: キュートなスライムの出現とゼリーエールの動作に影響します
+			Label: キュートなスライムポーションのみ
+		}
+
+		AommSupport: {
+			Tooltip: "'The Amulet Of Many Minions'が有効になっているときのコンテンツを追加します"
+			Label: "'The Amulet Of Many Minionsの相互コンテンツ"
+		}
+
+		BossConsolation: {
+			Tooltip: バニラのボスを5回以内に倒せなかったときにドロップするアクセサリーです
+			Label: ボスの救済措置
+		}
+
+		VanityAccessories: {
+			Tooltip: 効果がないアクセサリーです
+			Label: 衣装アクセサリー
+		}
+
+		Accessories: {
+			Tooltip: 効果があるアクセサリーです
+			Label: アクセサリー
+		}
+
+		VanityArmor: {
+			Tooltip: 衣装防具です
+			Label: 衣装
+		}
+
+		Armor: {
+			Tooltip: ステータス付きの防具です
+			Label: 防具
+		}
+
+		PlaceablesDecorative: {
+			Tooltip: 設置可能な装飾タイルとオブジェクトです
+			Label: 設置可能物(装飾)
+		}
+
+		PlaceablesFunctional: {
+			Tooltip: 設置可能な機能付きタイルとオブジェクトです
+			Label: 設置可能物(機能付き)
+		}
+
+		Tools: {
+			Tooltip: ツールと便利なアイテムです
+			Label: ツール
+		}
+
+		Weapons: {
+			Tooltip: 弾薬を含む、ダメージを与えるアイテムです
+			Label: 武器
+		}
+
+		OtherPets: {
+			Tooltip: クラフト、購入、その他の方法で入手できるペットです。捕獲したNPCは含まれません
+			Label: その他ペット
+		}
+
+		DroppedPets: {
+			Tooltip: 敵対エンティティからドロップするペットです
+			Label: ドロップするペット
+		}
+
+		FriendlyNPCs: {
+			Tooltip: 無害なエンティティです。捕獲できるペットも含まれます
+			Label: 友好生物
+		}
+
+		HostileNPCs: {
+			Tooltip: 敵対的なエンティティです。捕獲できるペットも含まれます
+			Label: 敵対生物
+		}
+
+		CuteSlimes: {
+			Tooltip: キュートなスライムのコンテンツです
+			Label: キュートなスライム
+		}
+
+		Bosses: {
+			Tooltip: ボスのコンテンツです
+			Label: ボス
+		}
+
+		Headers: {
+			HintClientConfig: ヒント: 個別の調整を含むクライアント設定画面に移動するには、左下の矢印(<)を押してください。
+			Other: その他
+			Items: アイテム
+			NPCs: NPC
+			TogglesSpecial:
+				'''
+				次の切り替え項目でこのMODで追加されるコンテンツを管理できます。
+
+				特殊 - その他の関連する設定で優先される項目を切り替えます。
+				'''
+		}
+
+		DisplayName: コンテンツ設定 (サーバー)
+	}
+
+	ClientConfig: {
+		Hint: {
+			Tooltip: ""
+			Label: ヒント
+		}
+
+		GoblinUnderlingChatterFreq: {
+			Tooltip: ミニオンが喋る頻度を設定します(%単位、0で無効)
+			Label: セリフの頻度
+		}
+
+		GoblinUnderlingVisibleRocketBoots: {
+			Tooltip: 飛行中にロケットブーツを表示させます
+			Label: ロケットブーツ
+		}
+
+		GoblinUnderlingVisibleArmor: {
+			Tooltip: 防具の進行度を表示させます
+			Label: 防具の進行度
+		}
+
+		GoblinUnderlingAutosummon: {
+			Tooltip: 虚空の袋またはインベントリにアイテムが存在する場合、児童でミニオンを召喚します。
+			Label: 自動召喚
+		}
+
+		Headers: {
+			HintServerConfig: ヒント: 要素の切り替えを含むサーバー設定画面に移動するには、右下の矢印(>)を押してください。
+			GoblinUnderling:
+				'''
+				地下ゴブリン - ミニオン設定
+
+				以下のアイテムに作用します:
+				グッズ袋
+				愛され人形
+				曲がったコイン
+				'''
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+DroneData: {
+	TooltipFormatNoCombat:
+		'''
+		{0}
+		{1}
+		{2}
+		'''
+	TooltipFormat:
+		'''
+		{0}
+		{1}
+		{2}
+		{3}
+		{4}
+		'''
+
+	ShieldDrone: {
+		Misc:
+			'''
+			1体のみ召喚可能
+			ドローン消滅時にシールドが解除される
+			'''
+		Description: 徐々にダメージを軽減するシールドを生成する
+		Firerate: ""
+		ComponentName: シールドドローン構成部品
+		DisplayName: シールド {^0:Drone;Drones}
+	}
+
+	HealingDrone: {
+		Misc: 1体のみ召喚可能
+		Description: ダメージを受けたときに回復する
+		Firerate: ""
+		ComponentName: ヒーリングドローン構成部品
+		DisplayName: ヒーリング {^0:Drone;Drones}
+	}
+
+	MissileDrone: {
+		Misc: ""
+		Description: 長い間隔でミサイルの一斉射撃を行う
+		Firerate: とても遅い
+		ComponentName: ミサイルドローン構成部品
+		DisplayName: ミサイル {^0:Drone;Drones}
+	}
+
+	HeavyLaserDrone: {
+		Misc: ""
+		Description: 長い間隔で貫通するレーザーを発射する
+		Firerate: 極めて遅い
+		ComponentName: ヘビーレーザードローン構成部品
+		DisplayName: Heavy Laser {^0:Drone;Drones}
+	}
+
+	BasicLaserDrone: {
+		Misc: ""
+		Description: レーザーを連射する
+		Firerate: 速い
+		ComponentName: 基本レーザードローン構成部品
+		DisplayName: 基本レーザー {^0:Drone;Drones}
+	}
+}
+
+SoulData: {
+	TooltipFormat:
+		'''
+		{0}
+		{1}
+		{2}
+		{3}
+		'''
+
+	SoulofMight: {
+		Description: ""
+		Unlock: デストロイヤーを撃破する
+		DisplayName: "{^0:Soul;Souls} of Might"
+	}
+
+	SoulofSight: {
+		Description: 呪いの炎を付与する
+		Unlock: ツインズを撃破する
+		DisplayName: "{^0:Soul;Souls} of Sight"
+	}
+
+	SoulofFright: {
+		Description: 霊液と酸性毒を付与する
+		Unlock: スケルトロンプライムを撃破する
+		DisplayName: "{^0:Soul;Souls} of Fright"
+	}
+
+	DungeonSoul: {
+		Description: ""
+		Unlock: ""
+		DisplayName: Dungeon {^0:Soul;Souls}
+	}
+}
+
+Announcements: {
+	SoulHarvesterBabyCageAppear: お腹をすかせたトリが放たれた！
+	SoulHarvesterBabyAppear: ダンジョンからかすかな鳴き声が聞こえる。
+	BigEnemyDisappear: "{0}は消滅した... すくなくとも今は。"
+	MegalodonAppear: メガロドンが接近中！ 海から離れろ！
+	SpawnOfOcramAppear: オクラムのスポーンが現れた！
+	SoulHarvesterBossAppear: ソウルハーベスターが目覚めた！
+	SoulHarvesterDeath: ダンジョンのソウルが解放された！
+	SigilOfTheWingDeath: "{0}は死んだ、だが魂はまだ諦めていない..."
+}
+
+DropConditions: {
+	NoHasItemWithBankCondition: {
+		Description: 付近のプレイヤーが {0} をインベントリまたは貯金箱に持ってない状態でドロップ
+	}
+
+	NotAllDronePartsUnlockedCondition: {
+		Description: 全てのドローン部品を解除していない場合にドロップ
+	}
+
+	MatchAppearanceCondition: {
+		Description: 見た目に応じてドロップ
+	}
+}
+
+Conditions: {
+	DroneTypeNotUnlocked: まだ解除していない場合
+	UnlockedBiomeTorches: たいまつの神の恩恵を使用した場合
+}
+
+Tiles: {
+	VanityDresserTile: {
+		NoCostumesFoundLightPet: 光源ペットの別コスチュームが見つかりません
+		NoCostumesFoundPet: ペットの別コスチュームが見つかりません
+		WorkProperly: 正しく動作させるためには、アイテムを選択しないように
+		Mouseover:
+			'''
+			コスチュームドレッサー
+			左クリックでペットの外見を変更
+			右クリックで光源ペットの外見を変更
+			'''
+	}
+
+	SlimeBeaconTile: {
+		Deactivated: 背景が無効になりました
+		Activated: 背景が有効になりました
+		NotInMultiplayer: マルチプレイヤーでは使用できません
+	}
+
+	AntiqueChestTile: {
+		MapEntry_Locked: ロックされたアンティークなチェスト
+	}
+
+	MapEntry_Locked: ロックされた
+}
+
+Projectiles: {
+	WallFragmentEyeShotProj: {
+		DisplayName: ウォールアイショット
+	}
+
+	TorturedSoulShotProj: {
+		DisplayName: 拷問された魂ショット
+	}
+
+	TinySpazmatismShotProj: {
+		DisplayName: ミニスパズマティズムショット
+	}
+
+	TinyRetinazerShotProj: {
+		DisplayName: ミニレティネイザーショット
+	}
+
+	SwarmofCthulhuShotProj: {
+		DisplayName: クトゥルフの群れショット
+	}
+
+	StrangeRobotShotProj: {
+		DisplayName: おかしなロボショット
+	}
+
+	SkeletronPrimeHandLaserShotProj: {
+		DisplayName: スケルトロンプライムペットハンドレーザーショット
+	}
+
+	SkeletronPrimeHandBombShotProj: {
+		DisplayName: スケルトロンプライムペットハンドボムショット
+	}
+
+	NumberMuncherShotProj: {
+		DisplayName: ナンバーマンチャーショット
+	}
+
+	GhostMartianShotProj: {
+		DisplayName: Ghost Martian Shot
+	}
+
+	FairySwarmShotProj: {
+		DisplayName: Projectiles.FairySwarmSProj.DisplayName Shot
+	}
+
+	DrumstickElementalShotProj: {
+		DisplayName: Drumstick Elemental Shot
+	}
+
+	DocileDemonEyeShotProj: {
+		DisplayName: Docile Demon Eye Shot
+	}
+
+	DemonHeartShotProj: {
+		DisplayName: Demon Heart Shot
+	}
+
+	CuteLamiaPetShotProj: {
+		DisplayName: Small Snake Shot
+	}
+
+	CuteGastropodShotProj: {
+		DisplayName: Cute Gastropod Shot
+	}
+
+	BabyOcramShotProj: {
+		DisplayName: Baby Ocram Shot
+	}
+
+	BabyIchorStickerShotProj: {
+		DisplayName: Baby Ichor Sticker Shot
+	}
+
+	AnimatedTomeShotProj: {
+		DisplayName: Animated Tome Shot
+	}
+
+	AlienHornetShotProj: {
+		DisplayName: Alien Hornet Shot
+	}
+
+	TrueLegendaryWoodenSwordProj: {
+		DisplayName: True Legendary Wooden Sword
+	}
+
+	TalonstormProj: {
+		DisplayName: Talonstorm
+	}
+
+	TalonstormFiredProj: {
+		DisplayName: Talonstorm
+	}
+
+	TalonstormClawProj: {
+		DisplayName: Talonstorm
+	}
+
+	BreathOfSpazmatismProj: {
+		DisplayName: Breath of Spazmatism Breath
+	}
+
+	SightofRetinazerLaser: {
+		DisplayName: Sight of Retinazer Laser
+	}
+
+	PocketSandProj: {
+		DisplayName: Pocket Sand
+	}
+
+	PlagueOfToadsProj: {
+		DisplayName: Plague of Toads
+	}
+
+	PlagueOfToadsFired: {
+		DisplayName: Plague of Toads
+	}
+
+	PlagueOfToadsCloud: {
+		DisplayName: Plague of Toads
+	}
+
+	LegendaryWoodenSwordProj: {
+		DisplayName: Legendary Wooden Sword
+	}
+
+	GuideVoodoorangProj: {
+		DisplayName: Guide Voodoorang
+	}
+
+	CandleDustDummy: {
+		DisplayName: Candle Dust Dummy
+	}
+
+	BoneShatterLongbowProj: {
+		DisplayName: Bone-Shatter Longbow Arrow
+	}
+
+	BoneCleavingFangProj: {
+		DisplayName: Bone-Cleaving Fang
+	}
+
+	ExtendoNetRegularProj: {
+		DisplayName: EXTENDO!
+	}
+
+	ExtendoNetGoldenProj: {
+		DisplayName: EXTENDO!
+	}
+
+	YoungWyvernProj: {
+		ArchLegacy: {
+			Tooltip: Arch (Legacy)
+		}
+
+		Arch: {
+			Tooltip: Arch
+		}
+
+		Mythical: {
+			Tooltip: Mythical
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Young Wyvern
+	}
+
+	YoungHarpyProj: {
+		DoveLegacy: {
+			Tooltip: Dove (Legacy)
+		}
+
+		RavenLegacy: {
+			Tooltip: Raven (Legacy)
+		}
+
+		EagleLegacy: {
+			Tooltip: Eagle (Legacy)
+		}
+
+		DefaultLegacy: {
+			Tooltip: Default (Legacy)
+		}
+
+		Dove: {
+			Tooltip: Dove
+		}
+
+		Raven: {
+			Tooltip: Raven
+		}
+
+		Eagle: {
+			Tooltip: Eagle
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Young Harpy
+	}
+
+	WobyProj_AoMM: {
+		DisplayName: Big Woby
+	}
+
+	WobyProj: {
+		DisplayName: Woby
+	}
+
+	WallFragmentMouth: {
+		Chinese: {
+			Tooltip: Chinese
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Wall Mouth
+	}
+
+	WallFragmentEye2: {
+		DisplayName: Wall Eye
+	}
+
+	WallFragmentEye1: {
+		DisplayName: Wall Eye
+	}
+
+	VampireBatProj: {
+		Werebat: {
+			Tooltip: Werebat
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Vampire Bat
+	}
+
+	TurtleSlimeProj: {
+		DisplayName: Turtle Slime
+	}
+
+	TrueObservingEyeProj: {
+		DisplayName: True Observing Eye
+	}
+
+	TorturedSoulProj: {
+		DisplayName: Tortured Soul
+	}
+
+	TorchGodLightPetProj: {
+		DisplayName: Godly Torch
+	}
+
+	TinySpazmatismProj: {
+		DisplayName: Tiny Spazmatism
+	}
+
+	TinyRetinazerProj: {
+		DisplayName: Tiny Retinazer
+	}
+
+	SwarmofCthulhuProj: {
+		DisplayName: Swarm of Cthulhu
+	}
+
+	SuspiciousNuggetProj: {
+		DisplayName: Suspicious Nugget
+	}
+
+	StrangeRobotProj: {
+		DisplayName: Strange Robot
+	}
+
+	StingSlimeProj: {
+		Orange: {
+			Tooltip: Orange
+		}
+
+		Black: {
+			Tooltip: Black
+		}
+
+		DisplayName: Sting Slime
+	}
+
+	SkeletronPrimeHandProj: {
+		Laser: {
+			Tooltip: Laser
+		}
+
+		Vice: {
+			Tooltip: Vice
+		}
+
+		Saw: {
+			Tooltip: Saw
+		}
+
+		Cannon: {
+			Tooltip: Cannon
+		}
+
+		DisplayName: Skeletron Prime Pet Hand
+	}
+
+	SkeletronHandProj: {
+		Fist: {
+			Tooltip: Fist
+		}
+
+		RockIt: {
+			Tooltip: Rock It
+		}
+
+		Peace: {
+			Tooltip: Peace
+		}
+
+		OKHand: {
+			Tooltip: OK-Hand
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Skeletron Pet Hand
+	}
+
+	RainbowSlimeProj: {
+		DisplayName: Rainbow Slime
+	}
+
+	QueenLarvaProj: {
+		WheresTheBaby: {
+			Tooltip: Where's The Baby?
+		}
+
+		BigKidLarva: {
+			Tooltip: Big Kid Larva
+		}
+
+		UnexpectedSeed: {
+			Tooltip: Unexpected Seed
+		}
+
+		PrawnLarva: {
+			Tooltip: PrawnLarva
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Queen Bee Larva
+	}
+
+	PrinceSlimeProj: {
+		DisplayName: Prince Slime
+	}
+
+	PigronataProj: {
+		Christmas: {
+			Tooltip: Christmas
+		}
+
+		Halloween: {
+			Tooltip: Halloween
+		}
+
+		Summer: {
+			Tooltip: Summer
+		}
+
+		Spring: {
+			Tooltip: Spring
+		}
+
+		Autumn: {
+			Tooltip: Autumn
+		}
+
+		Winter: {
+			Tooltip: Winter
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Pigronata
+	}
+
+	PetSunProj: {
+		DisplayName: Personal Sun
+	}
+
+	PetQueenSlimeProj: {
+		DisplayName: Slime Sibling
+	}
+
+	PetPlanteraProjTentacle: {
+		DisplayName: Mean Seed Tentacle
+	}
+
+	PetPlanteraProj: {
+		DisplayName: Plantera Sprout
+	}
+
+	PetMoonProj: {
+		Purple: {
+			Tooltip: Purple
+		}
+
+		Orange: {
+			Tooltip: Orange
+		}
+
+		Pink: {
+			Tooltip: Pink
+		}
+
+		Green: {
+			Tooltip: Green
+		}
+
+		BrightBlue: {
+			Tooltip: Bright Blue
+		}
+
+		Mythril: {
+			Tooltip: Mythril
+		}
+
+		Ringed: {
+			Tooltip: Ringed
+		}
+
+		Yellow: {
+			Tooltip: Yellow
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Personal Moon
+	}
+
+	PetHarvesterProj: {
+		DisplayName: Stubborn Bird
+	}
+
+	PetGolemHeadProj: {
+		DisplayName: Replica Golem Head
+	}
+
+	PetGoldfishProj: {
+		Ghostfish: {
+			Tooltip: Ghostfish
+		}
+
+		Bunny: {
+			Tooltip: Bunny
+		}
+
+		Corruption: {
+			Tooltip: Corruption
+		}
+
+		Crimson: {
+			Tooltip: Crimson
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Pet Goldfish
+	}
+
+	PetFishronProj: {
+		Sharknado: {
+			Tooltip: Sharknado
+		}
+
+		Sharkron: {
+			Tooltip: Sharkron
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Mini Fishron
+	}
+
+	PetEaterofWorlds: {
+		DisplayName: Tiny Eater of Worlds
+	}
+
+	PetDestroyerProbe: {
+		DisplayName: Tiny Destroyer Probe
+	}
+
+	PetDestroyer: {
+		DisplayName: Tiny Destroyer
+	}
+
+	PetCultistProj: {
+		Solar: {
+			Tooltip: Solar
+		}
+
+		Lunar: {
+			Tooltip: Lunar
+		}
+
+		DisplayName: Dwarf Cultist
+	}
+
+	OceanSlimeProj: {
+		AxolotlBrown: {
+			Tooltip: Axolotl (Brown)
+		}
+
+		AxolotlYellow: {
+			Tooltip: Axolotl (Yellow)
+		}
+
+		AxolotlCyan: {
+			Tooltip: Axolotl (Cyan)
+		}
+
+		AxolotlBlue: {
+			Tooltip: Axolotl (Blue)
+		}
+
+		AxolotlLucy: {
+			Tooltip: Axolotl (Lucy)
+		}
+
+		FlippedJelly: {
+			Tooltip: Flipped Jelly
+		}
+
+		GnarlyGrin: {
+			Tooltip: Gnarly Grin
+		}
+
+		StupidHat: {
+			Tooltip: Stupid Hat
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Ocean Slime
+	}
+
+	NumberMuncherProj: {
+		DisplayName: Number Muncher
+	}
+
+	MiniMegalodonProj: {
+		DisplayName: Mini Megalodon
+	}
+
+	MiniAntlionProj: {
+		Larval: {
+			Tooltip: Larval
+		}
+
+		Albino: {
+			Tooltip: Albino
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Baby Antlion
+	}
+
+	MetroidPetProj: {
+		TheBaby: {
+			Tooltip: The Baby
+		}
+
+		Corrupted: {
+			Tooltip: Corrupted
+		}
+
+		Irradiated: {
+			Tooltip: Irradiated
+		}
+
+		Convergent: {
+			Tooltip: Convergent
+		}
+
+		FailedClone: {
+			Tooltip: Failed Clone
+		}
+
+		Metroid: {
+			Tooltip: Metroid
+		}
+
+		DisplayName: Metroid
+	}
+
+	MeatballSlimeProj: {
+		DisplayName: Meatball Slime
+	}
+
+	MeatballProj: {
+		DisplayName: Meatball
+	}
+
+	LilWrapsProj: {
+		Spectral: {
+			Tooltip: Spectral
+		}
+
+		Shadow: {
+			Tooltip: Shadow
+		}
+
+		Light: {
+			Tooltip: Light
+		}
+
+		Dark: {
+			Tooltip: Dark
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Lil' Wraps
+	}
+
+	LifelikeMechanicalFrogProj: {
+		Crowned: {
+			Tooltip: Crowned
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Lifelike Mechanical Frog
+	}
+
+	JoyousSlimeProj: {
+		JoyousPumpkin: {
+			Tooltip: Joyous Pumpkin
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Joyous Slime
+	}
+
+	IlluminantSlimeProj: {
+		DisplayName: Illuminant Slime
+	}
+
+	HornedSlimeProj: {
+		DisplayName: Horned Slime
+	}
+
+	GobletProj: {
+		DisplayName: Goblet
+	}
+
+	GhostMartianProj: {
+		DisplayName: Ghost Martian
+	}
+
+	FairySwarmProj: {
+		DisplayName: Fairy Swarm
+	}
+
+	FairySlimeProj: {
+		DisplayName: Fairy Slime
+	}
+
+	FailureSlimeProj: {
+		DisplayName: Failure Slime
+	}
+
+	EnchantedSwordProj: {
+		DisplayName: Enchanted Sword
+	}
+
+	DynamiteBunnyProj: {
+		Caerbannog: {
+			Tooltip: Caerbannog
+		}
+
+		Silver: {
+			Tooltip: Silver
+		}
+
+		Lop: {
+			Tooltip: Lop
+		}
+
+		Flemish: {
+			Tooltip: Flemish
+		}
+
+		Dutch: {
+			Tooltip: Dutch
+		}
+
+		Angora: {
+			Tooltip: Angora
+		}
+
+		Crimtane: {
+			Tooltip: Crimtane
+		}
+
+		Corrupt: {
+			Tooltip: Corrupt
+		}
+
+		White: {
+			Tooltip: White
+		}
+
+		DisplayName: Dynamite Bunny
+	}
+
+	DrumstickElementalProj: {
+		DisplayName: Drumstick Elemental
+	}
+
+	DocileDemonEyeProj: {
+		FlyingJack: {
+			Tooltip: Flying Jack
+		}
+
+		FlyingPumpkin: {
+			Tooltip: Flying Pumpkin
+		}
+
+		PurpleLaser: {
+			Tooltip: Purple Laser
+		}
+
+		GreenLaser: {
+			Tooltip: Green Laser
+		}
+
+		RedLaser: {
+			Tooltip: Red Laser
+		}
+
+		PurpleMechanical: {
+			Tooltip: Purple Mechanical
+		}
+
+		GreenMechanical: {
+			Tooltip: Green Mechanical
+		}
+
+		RedMechanical: {
+			Tooltip: Red Mechanical
+		}
+
+		PurpleFractured: {
+			Tooltip: Purple Fractured
+		}
+
+		GreenFractured: {
+			Tooltip: Green Fractured
+		}
+
+		RedFractured: {
+			Tooltip: Red Fractured
+		}
+
+		Purple: {
+			Tooltip: Purple
+		}
+
+		Green: {
+			Tooltip: Green
+		}
+
+		Red: {
+			Tooltip: Red
+		}
+
+		DisplayName: Docile Demon Eye
+	}
+
+	DetachedHungryProj: {
+		DisplayName: Detached Hungry
+	}
+
+	DemonHeartProj: {
+		DisplayName: Demon Heart
+	}
+
+	CuteSlimeYellowProj: {
+		DisplayName: Cute Yellow Slime
+	}
+
+	CuteSlimeXmasProj: {
+		DisplayName: Cute Christmas Slime
+	}
+
+	CuteSlimeToxicProj: {
+		DisplayName: Cute Toxic Slime
+	}
+
+	CuteSlimeShimmerProj: {
+		DisplayName: Cute Shimmer Slime
+	}
+
+	CuteSlimeSandProj: {
+		DisplayName: Cute Sand Slime
+	}
+
+	CuteSlimeRedIceProj: {
+		DisplayName: Cute Red Ice Slime
+	}
+
+	CuteSlimeRedProj: {
+		DisplayName: Cute Red Slime
+	}
+
+	CuteSlimeRainbowProj: {
+		DisplayName: Cute Rainbow Slime
+	}
+
+	CuteSlimeQueenProj: {
+		DisplayName: Cute Queen Slime
+	}
+
+	CuteSlimePurpleIceProj: {
+		DisplayName: Cute Purple Ice Slime
+	}
+
+	CuteSlimePurpleProj: {
+		DisplayName: Cute Purple Slime
+	}
+
+	CuteSlimePrincessProj: {
+		DisplayName: Cute Princess Slime
+	}
+
+	CuteSlimePinkIceProj: {
+		DisplayName: Cute Pink Ice Slime
+	}
+
+	CuteSlimePinkProj: {
+		DisplayName: Cute Pink Slime
+	}
+
+	CuteSlimeLavaProj: {
+		DisplayName: Cute Lava Slime
+	}
+
+	CuteSlimeJungleProj: {
+		DisplayName: Cute Jungle Slime
+	}
+
+	CuteSlimeIlluminantProj: {
+		DisplayName: Cute Illuminant Slime
+	}
+
+	CuteSlimeIceProj: {
+		DisplayName: Cute Ice Slime
+	}
+
+	CuteSlimeHoneyProj: {
+		DisplayName: Cute Honey Slime
+	}
+
+	CuteSlimeGreenProj: {
+		DisplayName: Cute Green Slime
+	}
+
+	CuteSlimeGoldenProj: {
+		DisplayName: Cute Golden Slime
+	}
+
+	CuteSlimeDungeonProj: {
+		DisplayName: Cute Dungeon Slime
+	}
+
+	CuteSlimeCrimsonJungleProj: {
+		DisplayName: Cute Crimson Jungle Slime
+	}
+
+	CuteSlimeCrimsonProj: {
+		DisplayName: Cute Crimson Slime
+	}
+
+	CuteSlimeCorruptJungleProj: {
+		DisplayName: Cute Corrupt Jungle Slime
+	}
+
+	CuteSlimeCorruptProj: {
+		DisplayName: Cute Corrupt Slime
+	}
+
+	CuteSlimeBlueProj: {
+		DisplayName: Cute Blue Slime
+	}
+
+	CuteSlimeBlackProj: {
+		DisplayName: Cute Black Slime
+	}
+
+	CuteLamiaPetProj: {
+		Dropkick: {
+			Tooltip: Dropkick
+		}
+
+		Light: {
+			Tooltip: Light
+		}
+
+		Dark: {
+			Tooltip: Dark
+		}
+
+		DisplayName: Small Snake
+	}
+
+	CuteGastropodProj: {
+		DisplayName: Cute Gastropod
+	}
+
+	CursedSkullProj: {
+		Dragon: {
+			Tooltip: Dragon
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Cursed Skull
+	}
+
+	CompanionDungeonSoulPetProj2: {
+		DisplayName: Companion Soul
+	}
+
+	CompanionDungeonSoulPetProj: {
+		DisplayName: Companion Soul
+	}
+
+	ChunkySlimeProj: {
+		DisplayName: Chunky Slime
+	}
+
+	ChunkyProj: {
+		DisplayName: Chunky
+	}
+
+	BrainofConfusionProj: {
+		DisplayName: Brain of Confusion
+	}
+
+	BabyOcramProj: {
+		DisplayName: Baby Ocram
+	}
+
+	BabyIchorStickerProj: {
+		DisplayName: Baby Ichor Sticker
+	}
+
+	BabyCrimeraProj: {
+		DisplayName: Baby Crimera
+	}
+
+	AnomalocarisProj: {
+		Snippy: {
+			Tooltip: Snippy
+		}
+
+		Shrimpy: {
+			Tooltip: Shrimpy
+		}
+
+		Wild: {
+			Tooltip: Wild
+		}
+
+		DisplayName: Anomalocaris
+	}
+
+	AnimatedTomeProj: {
+		Spell: {
+			Tooltip: Spell
+		}
+
+		Yellow: {
+			Tooltip: Yellow
+		}
+
+		Pink: {
+			Tooltip: Pink
+		}
+
+		Purple: {
+			Tooltip: Purple
+		}
+
+		Blue: {
+			Tooltip: Blue
+		}
+
+		Green: {
+			Tooltip: Green
+		}
+
+		DisplayName: Animated Tome
+	}
+
+	AlienHornetProj: {
+		DisplayName: Alien Hornet
+	}
+
+	AbeeminationProj: {
+		MissingIngredients: {
+			Tooltip: Missing Ingredients
+		}
+
+		OilSpill: {
+			Tooltip: Oil Spill
+		}
+
+		SnowBee: {
+			Tooltip: Snow Bee
+		}
+
+		Default: {
+			Tooltip: Default
+		}
+
+		DisplayName: Abeemination
+	}
+
+	HarvesterFracturedSoul: {
+		DisplayName: Fractured Soul
+	}
+
+	HarvesterBone: {
+		DisplayName: Harvester Bone
+	}
+
+	HarvesterAbsorbedSoul: {
+		DisplayName: Absorbed Soul
+	}
+
+	BabyHarvesterProj: {
+		DisplayName: Baby Bird
+	}
+
+	SlimePackSpikedMinion: {
+		DisplayName: Slime Knapsack Minion
+	}
+
+	SlimePackMinionSpike: {
+		DisplayName: Slime Knapsack Minion Spike
+	}
+
+	SlimePackMinion: {
+		DisplayName: Slime Knapsack Minion
+	}
+
+	SlimePackAssortedMinion: {
+		DisplayName: Slime Knapsack Minion
+	}
+
+	PetGolemHeadFireball: {
+		DisplayName: Pet Golem Head Fireball
+	}
+
+	PetDestroyerDroneLaser: {
+		DisplayName: Pet Destroyer Laser
+	}
+
+	MagicSlimeSlingMinion: {
+		DisplayName: Magic Slime Sling Minion
+	}
+
+	MagicSlimeSlingFired: {
+		DisplayName: Magic Slime Sling
+	}
+
+	GoblinUnderlingWeaponDaybreakExplosion: {
+		DisplayName: Goblin Underling Daybreak
+	}
+
+	GoblinUnderlingWeaponDaybreak: {
+		DisplayName: Goblin Underling Daybreak
+	}
+
+	GoblinUnderlingWeaponOrb: {
+		DisplayName: Goblin Underling Orb
+	}
+
+	GoblinUnderlingWeaponBlaster: {
+		DisplayName: Goblin Underling Blaster
+	}
+
+	GoblinUnderlingWeaponArrow: {
+		DisplayName: Goblin Underling Arrow
+	}
+
+	GoblinUnderlingWeaponTerraBeam: {
+		DisplayName: Goblin Underling Terra Beam
+	}
+
+	SeriousUnderlingProj: {
+		DisplayName: Serious Underling
+	}
+
+	ShyUnderlingProj: {
+		DisplayName: Shy Underling
+	}
+
+	EagerUnderlingProj: {
+		DisplayName: Eager Underling
+	}
+
+	GoblinUnderlingWeaponDart: {
+		DisplayName: Goblin Underling Dart
+	}
+
+	ShieldDrone: {
+		DisplayName: Shield Drone
+	}
+
+	MissileDroneRocket: {
+		DisplayName: Missile Drone Rocket
+	}
+
+	MissileDrone: {
+		DisplayName: Missile Drone
+	}
+
+	HeavyLaserDroneLaser: {
+		DisplayName: Laser Drone Laser
+	}
+
+	HeavyLaserDrone: {
+		DisplayName: Heavy Laser Drone
+	}
+
+	HealingDrone: {
+		DisplayName: Healing Drone
+	}
+
+	BasicLaserDrone: {
+		DisplayName: Basic Laser Drone
+	}
+
+	CompanionDungeonSoulMinion: {
+		DisplayName: Companion Soul
+	}
+
+	SigilOfTheBeakProj: {
+		DisplayName: Fractured Soul
+	}
+}
+
+NPCs: {
+	CuteSlimes: {
+		SpawnConditionType: {
+			Honey: {
+				Honey: ハチミツ
+			}
+
+			Xmas: {
+				Xmas: クリスマス
+			}
+
+			Dungeon: {
+				Dungeon: ダンジョン
+			}
+
+			HallowIce: {
+				PinkIce: ピンクアイス
+			}
+
+			Hallow: {
+				Illuminant: ぴかぴか
+			}
+
+			CrimsonJungle: {
+				CrimsonJungle: 真紅のジャングル
+			}
+
+			CrimsonIce: {
+				RedIce: レッドアイス
+			}
+
+			Crimson: {
+				Crimson: 真紅
+			}
+
+			CorruptionJungle: {
+				CorruptJungle: 不浄のジャングル
+			}
+
+			CorruptionIce: {
+				PurpleIce: パープルアイス
+			}
+
+			Corruption: {
+				Corrupt: 不浄
+			}
+
+			Hell: {
+				Lava: 溶岩
+			}
+
+			Underground: {
+				Toxic: どくどく
+			}
+
+			Jungle: {
+				Jungle: ジャングル
+			}
+
+			Tundra: {
+				Ice: アイス
+			}
+
+			Desert: {
+				Sand: サンド
+			}
+
+			Forest: {
+				Yellow: イエロー
+				Red: レッド
+				Rainbow: レインボー
+				Purple: パープル
+				Green: グリーン
+				Blue: ブルー
+				Black: ブラック
+			}
+		}
+	}
+
+	YoungHarpy: {
+		BestiaryFlavorText: ハーピーは生まれながらにみな悪ではない。子供の頃に友達は、一生そうであるのだ。
+		DisplayName: ヤングハーピー
+	}
+
+	WalkingTombstoneGolden: {
+		BestiaryFlavorText: 哀しき、そして高価なカモフラージュ形態を取った、陸生のカニ。
+		DisplayName: てくてく墓石
+	}
+
+	TurtleSlime: {
+		BestiaryFlavorText: 巨大なカメは成長するにつれ殻からその一部を脱皮させる。このスライムたちは防御策としてその残骸を集めているようだ。
+		DisplayName: タートルスライム
+	}
+
+	StrangeSlime: {
+		BestiaryFlavorText: この変わったスライムは、奇妙な植物の住処と化している。そのため常に垂直になっている。
+		DisplayName: おかしなスライム
+	}
+
+	StoneSoldier: {
+		BestiaryFlavorText: いにしえの墓場をうろつく生きた石像。その目は非常に価値が高い。
+		DisplayName: ストーンソルジャー
+	}
+
+	StingSlime: {
+		BestiaryFlavorText: スライムのように舞い、サソリのように刺す。
+		DisplayName: とげとげスライム
+	}
+
+	SpawnOfOcram: {
+		BestiaryFlavorText: かつて絶えたと思われていた、古代の存在の子孫。
+		DisplayName: オクラムのスポーン
+	}
+
+	OceanSlime: {
+		BestiaryFlavorText: 海に沈んだスライムには二つの選択肢が与えられる。順応するか、捕食されるかだ。幸運にも、このスライムはまずかったようだ。
+		DisplayName: オーシャンスライム
+	}
+
+	Megalodon: {
+		BestiaryFlavorText: 絶滅したと思われたこの古代の捕食者は、底無しの飢えと同じくらい長生きしている。
+		DisplayName: メガロドン
+	}
+
+	MeatballsEye: {
+		BestiaryFlavorText: 真紅の地にとらわれてしまったクトゥルフのしもべ。弟を探し求めている。
+		DisplayName: ミートボールの目
+	}
+
+	Meatball: {
+		BestiaryFlavorText: 一つ目が付いた血肉のかたまり。その目は外に出ようとがんばっている。
+		DisplayName: ミートボール
+	}
+
+	JoyousSlime: {
+		BestiaryFlavorText: やさしい顔をしたおとなしいスライム。夜になると、同じようなやさしい顔の元へと近づこうとする。
+		DisplayName: よろこびスライム
+	}
+
+	HornedSlime: {
+		BestiaryFlavorText: そのツノはただの飾りじゃない。ツノに熱を分散させることで、あのぷるぷるを保っている。
+		DisplayName: つんつんスライム
+	}
+
+	HarvesterTalonRight: {
+		DisplayName: ソウルハーベスター
+	}
+
+	HarvesterTalonLeft: {
+		DisplayName: ソウルハーベスター
+	}
+
+	HarvesterBoss: {
+		BossChecklistIntegration: {
+			SpawnInfo: ダンジョンでアンティークな檻を見つけるか、[i:AssortedCrazyThings/IdolOfDecay]を使用する
+		}
+
+		BestiaryFlavorText: 堕落したダンジョンの住民を吸収した後、この骨のトリはエサを与える者の手まで喰らいつく、獰猛なハンターへと急成長した。
+		DisplayName: ソウルハーベスター
+	}
+
+	DungeonSoulFreed: {
+		DisplayName: ダンジョンのソウル
+	}
+
+	DungeonSoul: {
+		DisplayName: ダンジョンのソウル
+	}
+
+	GiantGrasshopperGold: {
+		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！店主は高値をつけるし、ケージに入れて見せびらかすこともできる！
+		DisplayName: 黄金の巨大バッタ
+	}
+
+	GiantGrasshopper: {
+		BestiaryFlavorText: 一度飛んだだけで茂みを飛び越せる。
+		DisplayName: 巨大バッタ
+	}
+
+	FairySlime: {
+		BestiaryFlavorText: 空を飛べるライバルに負けないため、翼のようなものを生やした。本当は飛べないけど、それでも幸せそうだ。
+		DisplayName: フェアリースライム
+	}
+
+	DemonEyeWandering: {
+		DisplayName: ワンダリングアイ
+	}
+
+	DemonEyeRecolor: {
+		DisplayName: デーモンアイ
+	}
+
+	CuteSlimeYellow: {
+		BestiaryFlavorText: 繊細な優美さを持ったこのスライムは足を踏み外すことなく、華麗に舞う。
+		DisplayName: キュートなイエロースライム
+	}
+
+	CuteSlimeXmas: {
+		BestiaryFlavorText: 最高のプレゼントは友だち。このスライムはそのプレゼントをみんなに配りたいらしい。
+		DisplayName: キュートなクリスマススライム
+	}
+
+	CuteSlimeToxic: {
+		BestiaryFlavorText: 人を見た目で判断してはならない。本当の恐ろしさはその見た目の半分ほど！
+		DisplayName: キュートなどくどくスライム
+	}
+
+	CuteSlimeShimmer: {
+		BestiaryFlavorText: 不思議なシマーに触れた時、このスライムは異世界のもののような見た目に変化した。
+		DisplayName: キュートなシマースライム
+	}
+
+	CuteSlimeSand: {
+		BestiaryFlavorText: ごつごつした砂が体についているので距離を保とうとするが、友達には遠慮しない。
+		DisplayName: キュートなサンドスライム
+	}
+
+	CuteSlimeRedIce: {
+		BestiaryFlavorText: 真紅で立ち尽くすのはやめておこう。そしてこのスライムもそれをよく知っている。
+		DisplayName: キュートなレッドアイススライム
+	}
+
+	CuteSlimeRed: {
+		BestiaryFlavorText: 遊びがだいすきないきいきとしたスライム。ときどきはしゃぎすぎてどこかへ行ってしまう。
+		DisplayName: キュートなレッドスライム
+	}
+
+	CuteSlimeRainbow: {
+		BestiaryFlavorText: このスライムがもつ、愛情と母性がその見た目にあらわれている。
+		DisplayName: キュートなレインボースライム
+	}
+
+	CuteSlimePurpleIce: {
+		BestiaryFlavorText: 不浄を怖がるため、このスライムはいつも緊張している。
+		DisplayName: キュートなパープルアイススライム
+	}
+
+	CuteSlimePurple: {
+		BestiaryFlavorText: 笑顔に騙されないように。実際はもっと幸せなんだから。
+		DisplayName: キュートなパープルスライム
+	}
+
+	CuteSlimePinkIce: {
+		BestiaryFlavorText: 聖域が生物にもたらした混沌をよそに、このスライムはただ平静さを保ち、礼儀正しくしている。
+		DisplayName: キュートなピンクアイススライム
+	}
+
+	CuteSlimePink: {
+		BestiaryFlavorText: 大は小を兼ねない。そのサイズにもかかわらず、そのスライムは一個のパーティより勇ましくいるのだ。
+		DisplayName: キュートなピンクスライム
+	}
+
+	CuteSlimeLava: {
+		BestiaryFlavorText: たまたま黒曜石の破片に貫かれてしまった結果、このスライムはいつもそれを抜けないことに悩んでいる。
+		DisplayName: キュートな溶岩スライム
+	}
+
+	CuteSlimeJungle: {
+		BestiaryFlavorText: ジャングルでの生活はやわらかな体には向かない。だがこのスライムが不可能ではないことを証明した。
+		DisplayName: キュートなジャングルスライム
+	}
+
+	CuteSlimeIlluminant: {
+		BestiaryFlavorText: 不安定な聖域の生態がこのスライムを遊び心満載にした。
+		DisplayName: キュートなぴかぴかスライム
+	}
+
+	CuteSlimeIce: {
+		BestiaryFlavorText: 触ると冷たいが、その表情は心を温める。
+		DisplayName: キュートなアイススライム
+	}
+
+	CuteSlimeHoney: {
+		BestiaryFlavorText: ハチから身を隠すため、このスライムはハチミツで体を覆った。だがハチの注意をより引き付けてしまった。
+		DisplayName: キュートなハチミツスライム
+	}
+
+	CuteSlimeGreen: {
+		BestiaryFlavorText: 閉じた目に騙されないように。このスライムはすぐに行動出来るよういつでも準備している。
+		DisplayName: キュートなグリーンスライム
+	}
+
+	CuteSlimeGolden: {
+		DisplayName: キュートなゴールデンスライム
+	}
+
+	CuteSlimeDungeon: {
+		BestiaryFlavorText: このスライムは古代の魔術師の姿に似た形で作られた。足がない以外はほぼ完璧だ。
+		DisplayName: キュートなダンジョンスライム
+	}
+
+	CuteSlimeCrimsonJungle: {
+		BestiaryFlavorText: ジャングルが赤に染まったとき、このスライムは真紅の草に擬態することですぐに適応した。
+		DisplayName: キュートな真紅のジャングルスライム
+	}
+
+	CuteSlimeCrimson: {
+		BestiaryFlavorText: 不安定な精神をもっていそうにみえるが、じつは想像を絶するほどに冷静沈着。
+		DisplayName: キュートな真紅スライム
+	}
+
+	CuteSlimeCorruptJungle: {
+		BestiaryFlavorText: スライムの適応性は素晴らしく、いかなる強烈な環境でも生存できる。
+		DisplayName: キュートな不浄のジャングルスライム
+	}
+
+	CuteSlimeCorrupt: {
+		BestiaryFlavorText: 死んだ魚のような目と薄暗い色をしているので、このスライムを危ないと思うだろうが、実際は人見知りなだけである。
+		DisplayName: キュートな不浄スライム
+	}
+
+	CuteSlimeBlue: {
+		BestiaryFlavorText: にぶい表情をしているが、このスライムは愛情深く、近寄るものをハグするのがとっても大好きだ。
+		DisplayName: キュートなブルースライム
+	}
+
+	CuteSlimeBlack: {
+		BestiaryFlavorText: 自分のポニーテールに見とれているので、褒めると簡単に仲良くなれる。
+		DisplayName: キュートなブラックスライム
+	}
+
+	CuteGastropod: {
+		BestiaryFlavorText: この聖域のスライムは、特別な人と出会ってからより親しみやすい外見をするようになった。
+		DisplayName: キュートなガストロポッド
+	}
+
+	Cloudfish: {
+		BestiaryFlavorText: 雲なの？魚なの？両方さ！
+		DisplayName: 雲魚
+	}
+
+	ChunkysEye: {
+		BestiaryFlavorText: 不浄にとらわれてしまったクトゥルフのしもべ。兄を探し求めている。
+		DisplayName: チャンキーの目
+	}
+
+	Chunky: {
+		BestiaryFlavorText: 一つ目が付いた腐った肉のかたまり。かたまりと目の仲はあまり良くなさそうだ。
+		DisplayName: チャンキー
+	}
+
+	BloatedBaitThief: {
+		BestiaryFlavorText: ぶくぶく太った腹をしたバス。何かが中で蠢いてる...
+		DisplayName: ぶくぶくエサドロボウ
+	}
+
+	Bass: {
+		BestiaryFlavorText: 川や池の淡水で見られる、フツーの魚。
+		DisplayName: バス
+	}
+
+	AnimatedTome: {
+		BestiaryFlavorText: 大昔にはこの本が棚から飛ぶように売れたベストセラー本だったらしい。
+		DisplayName: 生ける本
+	}
+
+	AnimatedSpellTome: {
+		BestiaryFlavorText: 魔法の達人にもなると、本を探さなくても必要な時に見つかるようになる。
+		DisplayName: 生ける魔導書
+	}
+}
+
+Items: {
+	SillyBalloonKit: {
+		Cobballoon: 石の風船
+		Retinazer: レティネイザー
+		Spazmatism: スパズマティズム
+		FracturedMetalEyeRed: 破損したメタルアイ(赤)
+		FracturedMetalEyePurple: 破損したメタルアイ(紫)
+		FracturedMetalEyeGreen: 破損したメタルアイ(緑)
+		MetalEyeRed: メタルアイ(赤)
+		MetalEyePurple: メタルアイ(紫)
+		MetalEyeGreen: メタルアイ(緑)
+		FracturedEyeRed: 破損したアイ(赤)
+		FracturedEyePurple: 破損したアイ(紫)
+		FracturedEyeGreen: 破損したアイ(緑)
+		DemonEyeRed: デーモンアイ(赤)
+		DemonEyePurple: デーモンアイ(紫)
+		DemonEyeGreen: デーモンアイ(緑)
+		Tooltip:
+			'''
+			「パーティ、誕生日、そして世界を救うのにピッタリな贈り物！」
+			持ち歩けるパーティバルーンをふくらませる
+			左クリックで様々なバルーンを選ぶ
+			'''
+		DisplayName: ばかげた風船キット
+	}
+
+	Gitgud: {
+		DeleteFromInventory: もう{0}は必要ない...
+		TimesDied: 死亡回数: {0}/{1}
+		BuffImmunity: "{1} が生存中 {0}に対する耐性"
+		ReducedDamageTakenBoss: "{1}から受けるダメージを{0}%軽減"
+		ConsolationPrize: 残念賞
+		Or: または
+	}
+
+	TrueLegendaryWoodenSword: {
+		Tooltip: 「まことに伝説」
+		DisplayName: 真なる伝説の木の剣
+	}
+
+	TomeOfShadowflameSkulls: {
+		Tooltip: 敵にシャドウフレイムを付与する
+		DisplayName: シャドウフレイムスカルの書
+	}
+
+	Talonstorm: {
+		Tooltip: 伸びる鉤爪で敵を攻撃する骨の嵐を召喚する
+		DisplayName: タロンストーム
+	}
+
+	SlimeHandlerKnapsack: {
+		TooltipFormat:
+			'''
+			{0}
+			{1}
+			{2}
+			{3}
+			'''
+		SpikedUnlock: プランテラを撃破する
+		SpikedBonus: 戦闘中にトゲを発射する
+		Spiked: トゲ付き
+		Assorted: よせあつめ
+		Default: デフォルト
+		Tooltip:
+			'''
+			共に戦うランダムな色をした仲間のスライムをナップサックから召喚する
+			右クリックで選択可能なフォームを選択する
+			'''
+		DisplayName: スライム使いのナップサック
+	}
+
+	SightofRetinazer: {
+		Tooltip: ""
+		DisplayName: レティネイザーサイト
+	}
+
+	PocketSand: {
+		Tooltip: 「すなつぶを敵に投げて混乱させよう」
+		DisplayName: ポケットサンド
+	}
+
+	PlagueOfToads: {
+		Tooltip: 敵にヒキガエルを降らせる雲を召喚する
+		DisplayName: ヒキガエルの疫病
+	}
+
+	MagicSlimeSling: {
+		Tooltip: 命中時にスライムのミニオンになる魔法のジェルを発射する
+		DisplayName: 魔法のスライムパチンコ
+	}
+
+	LegendaryWoodenSword: {
+		Tooltip: ""
+		DisplayName: 伝説の木の剣
+	}
+
+	SeriousUnderlingItem: {
+		Flavor: 「藁から作られたシンプルな人形。」
+		Tooltip: 共に戦うシリアスな部下を召喚する
+		DisplayName: 愛され人形
+	}
+
+	ShyUnderlingItem: {
+		Flavor: 「このコインは練習の的として長い間使われてきたようだ」
+		Tooltip: 共に戦うシャイな部下を召喚する
+		DisplayName: 曲がったコイン
+	}
+
+	EagerUnderlingItem: {
+		Flavor: 「中にはスパイクボールと、コイン、それと月が...？」
+		Tooltip: 共に戦う熱血な部下を召喚する
+		DisplayName: グッズ袋
+	}
+
+	EverhallowedLantern: {
+		SetBonusBoost: 「魂の救世主」セットからのダメージが{0}%増加
+		MechCondition: メカニカルボスを撃破して新しいミニオンをアンロックできる
+		Tooltip:
+			'''
+			共に戦うソウルを召喚する
+			右クリックで選択可能なフォームを選択する
+			'''
+		DisplayName: 永遠なる神聖のランタン
+	}
+
+	EverglowLantern: {
+		Tooltip:
+			'''
+			共に戦う解放されたダンジョンのソウルを一時的に召喚する
+			ダンジョンのソウル1体ごとに半分のミニオン枠を消費する
+			'''
+		DisplayName: 永久光のランタン
+	}
+
+	DroneController: {
+		ToUnlock: クラフトして '{0}' アイテムを使う
+		CanSpawn: 同時に {0} 体のみ召喚可能
+		UnlockMore: デストロイヤーを撃破してドローン数を増やす
+		Firerate: "{0} 射撃レート"
+		Tooltip:
+			'''
+			共に戦うドローンを召喚する
+			右クリックで選択可能なドローンを選択する
+			アイテム保持中はドローンの支援および攻撃能力が向上する
+			'''
+		DisplayName: ドローンコントローラー
+	}
+
+	BreathOfSpazmatism: {
+		Tooltip:
+			'''
+			ジェルを消費して呪いの炎を発射する
+			敵の防御力を15無視する
+			'''
+		DisplayName: スパズマティズムブレス
+	}
+
+	BoneShatterLongbow: {
+		Tooltip: 木の矢が燃える魂になる
+		DisplayName: 骨砕きのロングボウ
+	}
+
+	BoneCleavingFang: {
+		Tooltip:
+			'''
+			敵を攻撃すると剣がチャージされ、力により光るようになる
+			右クリックで積み上げられた力を解放する。光が強くなるほど、力が増す
+			剣の力は使用されないと減衰する
+			'''
+		DisplayName: 骨抉りの牙
+	}
+
+	VanitySelector: {
+		Tooltip:
+			'''
+			左クリックでペットの外見を変更する
+			右クリックで光源ペットの外見を変更する
+			'''
+		DisplayName: 衣装ケース
+	}
+
+	SoulHarvesterMask: {
+		Tooltip: ""
+		DisplayName: ソウルハーベスターのマスク
+	}
+
+	PrettyMask: {
+		Tooltip: 「赤いスカーフ、赤い手袋、誕生日の服がよく似合ってる」
+		DisplayName: かわいらしいマスク
+	}
+
+	ExtendoNetRegular: {
+		Tooltip: 「届きにくい生き物を捕まえる」
+		DisplayName: ロングネット
+	}
+
+	ExtendoNetGolden: {
+		Tooltip:
+			'''
+			「めちゃくちゃ届きにくい生き物を捕まえる」
+			溶岩の生き物も捕まえられるよ！
+			'''
+		DisplayName: 黄金のロングネット
+	}
+
+	WyvernCampfireItem: {
+		Tooltip: 「ワイバーンが湧くぜ！」
+		DisplayName: ワイバーンの焚き火
+	}
+
+	VanityDresserItem: {
+		DisplayName: コスチュームドレッサー
+	}
+
+	StarRodItem: {
+		Tooltip: 夜に近くの流れ星を引き寄せる
+		DisplayName: スターロッド
+	}
+
+	SlimeBeaconItem: {
+		NoMultiplayer: "[c/FFA01D:マルチプレイでは機能しません]"
+		Tooltip: 「一緒にスライムしようよ！」
+		DisplayName: スライムビーコン
+	}
+
+	SCP3515Item: {
+		Tooltip: 「Unknown」
+		DisplayName: SCP-3515
+	}
+
+	SCP099Item: {
+		Tooltip: 「R. Magritte」
+		DisplayName: 肖像
+	}
+
+	PretentiousRockItem: {
+		Tooltip: 「C. Paigner」
+		DisplayName: いしの学び
+	}
+
+	FieldsOfJoyItem: {
+		Tooltip: 「C. Paigner」
+		DisplayName: 喜びの原野
+	}
+
+	HarvesterTrophyItem: {
+		Tooltip: ""
+		DisplayName: ソウルハーベスターのトロフィー
+	}
+
+	HarvesterRelicColoredItem: {
+		Tooltip: ""
+		DisplayName: ソウルハーベスターのレリック(色付き)
+	}
+
+	HarvesterRelicItem: {
+		Tooltip: ""
+		DisplayName: ソウルハーベスターのレリック
+	}
+
+	CuteSlimeStatueItem: {
+		Tooltip: スポーンした生き物は捕まえられない
+		DisplayName: キュートなスライムの石像
+	}
+
+	AntiqueChestItem: {
+		Tooltip: ""
+		DisplayName: アンティークなチェスト
+	}
+
+	AntiqueCageItem: {
+		Tooltip: ""
+		DisplayName: アンティークな檻
+	}
+
+	PetAccessoryXmasHat: {
+		AccessoryNames: {
+			Green: 緑
+			Red: 赤
+		}
+
+		ShortName: サンタ帽
+		Tooltip: 「ペットのキュートなスライムに被せられるお祭りの帽子」
+		DisplayName: キュートなサンタ帽
+	}
+
+	PetAccessoryWizardHat: {
+		ShortName: 魔術師の帽子
+		Tooltip: 「ペットのキュートなスライムに被せられる茶色の魔術師の帽子」
+		DisplayName: キュートな魔術師の帽子
+	}
+
+	PetAccessoryToySword: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: 騎士の剣
+		Tooltip: 「ペットのキュートなスライムに持たせられる騎士の剣のぬいぐるみ」
+		DisplayName: キュートな騎士の剣
+	}
+
+	PetAccessoryToySpear: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: スパルタンの槍
+		Tooltip: 「ペットのキュートなスライムに持たせられる戦士の槍のぬいぐるみ」
+		DisplayName: キュートスパルタンの槍
+	}
+
+	PetAccessoryToyShield: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: 騎士の盾
+		Tooltip: 「ペットのキュートなスライムに持たせられる騎士の盾のぬいぐるみ」
+		DisplayName: キュートな騎士の盾
+	}
+
+	PetAccessoryToyMace: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: 聖騎士のメイス
+		Tooltip: 「ペットのキュートなスライムに持たせられる聖騎士のメイスのぬいぐるみ」
+		DisplayName: キュートな聖騎士のメイス
+	}
+
+	PetAccessoryToyBreastplate: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: 騎士の胸当て
+		Tooltip: 「ペットのキュートなスライムに着せられる騎士の胸当てのぬいぐるみ」
+		DisplayName: キュートな騎士の胸当て
+	}
+
+	PetAccessoryTophat: {
+		ShortName: トップハット
+		Tooltip: 「ペットのキュートなスライムに被せられる上品なトップハット」
+		DisplayName: キュートなトップハット
+	}
+
+	PetAccessorySwallowedKey: {
+		ShortName: 飲み込まれた鍵
+		Tooltip: 「ペットのキュートスライムに...持たせられる（？）鍵のぬいぐるみ」
+		DisplayName: キュートな飲み込まれた鍵
+	}
+
+	PetAccessoryStaff: {
+		AccessoryNames: {
+			Magic: 魔法
+			Diamond: ダイヤモンド
+			Topaz: トパーズ
+			Amber: コハク
+			Ruby: ルビー
+			Emerald: エメラルド
+			Sapphire: サファイア
+			Amethyst: アメジスト
+		}
+
+		ShortName: 杖
+		Tooltip: 「ペットのキュートなスライムに持たせられる杖のぬいぐるみ」
+		DisplayName: キュートな杖
+	}
+
+	PetAccessorySlimeHead: {
+		AccessoryNames: {
+			Black: 黒
+			Green: 緑
+			Yellow: 黄色
+			Red: 赤
+			Pinky: ピンキー
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+		}
+
+		ShortName: ヘッドスライム
+		Tooltip: 「ペットのキュートなスライムの頭の上に置くスライムのぬいぐるみ」
+		DisplayName: キュートなヘッドスライム
+	}
+
+	PetAccessoryPumpkinMask: {
+		AccessoryNames: {
+			IMelon: 無垢なメロン
+			SMelon: あくどいメロン
+			IPurple: 無垢な紫
+			SPurple: あくどい紫
+			IWhite: 無垢な白
+			SWhite: あくどい白
+			IGreen: 無垢な緑
+			SGreen: あくどい緑
+			IOrange: 無垢なオレンジ
+			SOrange: あくどいオレンジ
+		}
+
+		ShortName: パンプキンマスク
+		Tooltip: 「ペットのキュートなスライムに被せられる、完璧な大きさのカボチャ」
+		DisplayName: キュートなパンプキンマスク
+	}
+
+	PetAccessoryPartyHat: {
+		ShortName: パーティ帽
+		Tooltip: 「ペットのキュートなスライムに被せられるパーティ用の帽子」
+		DisplayName: キュートなパーティ帽
+	}
+
+	PetAccessoryMittens: {
+		AccessoryNames: {
+			Black: 黒
+			Gray: 灰色
+			White: 白
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+			Green: 緑
+			Yellow: 黄色
+			Gold: 金
+			Orange: オレンジ
+			Red: 赤
+		}
+
+		ShortName: ミトン
+		Tooltip: 「ペットのキュートなスライムの手に被せられる暖かいミトン」
+		DisplayName: キュートなミトン
+	}
+
+	PetAccessoryMetalHelmet: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: 騎士の兜
+		Tooltip: 「ペットのキュートなスライムの頭に被せられる、騎士の兜のぬいぐるみ」
+		DisplayName: キュートな騎士の兜
+	}
+
+	PetAccessoryKitchenKnife: {
+		AccessoryNames: {
+			Gold: 金
+			Iron: 鉄
+		}
+
+		ShortName: キッチンナイフ
+		Tooltip: 「ペットのキュートなスライムに持たせられるキッチンナイフのぬいぐるみ」
+		DisplayName: キュートなキッチンナイフ
+	}
+
+	PetAccessoryHairBow: {
+		AccessoryNames: {
+			Black: 黒
+			Gray: 灰色
+			White: 白
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+			Green: 緑
+			Yellow: 黄色
+			Gold: 金
+			Orange: オレンジ
+			Red: 赤
+		}
+
+		ShortName: リボン
+		Tooltip: 「ペットのキュートなスライムの頭に付けられる大きなリボン」
+		DisplayName: キュートなリボン
+	}
+
+	PetAccessoryCrown: {
+		AccessoryNames: {
+			Platinum: プラチナ
+			Gold: 金
+		}
+
+		ShortName: 王冠
+		Tooltip: 「ペットのキュートなスライムに被せられる威厳ある王冠」
+		DisplayName: キュートな王冠
+	}
+
+	PetAccessoryBunnySuit: {
+		AccessoryNames: {
+			Red: 赤
+			Gray: 灰色
+			White: 白
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+			Green: 緑
+			Yellow: 黄色
+			Gold: 金
+			Orange: オレンジ
+			Black: 黒
+		}
+
+		ShortName: バニースーツ
+		Tooltip: 「キュートなスライムのお胸に着せるバニー(?)の衣装」
+		DisplayName: キュートなバニースーツ
+	}
+
+	PetAccessoryBunnyEars: {
+		ShortName: うさみみ
+		Tooltip: 「ペットのキュートなスライムに被せられるイースターバニーのお耳」
+		DisplayName: キュートなうさみみ
+	}
+
+	PetAccessoryBowtie: {
+		AccessoryNames: {
+			Black: 黒
+			Gray: 灰色
+			White: 白
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+			Green: 緑
+			Yellow: 黄色
+			Gold: 金
+			Orange: オレンジ
+			Red: 赤
+		}
+
+		ShortName: 蝶ネクタイ
+		Tooltip: 「ペットのキュートなスライムの胸に着せる柔らかい蝶ネクタイ」
+		DisplayName: キュートな蝶ネクタイ
+	}
+
+	PetAccessory: {
+		Colors: {
+			Iron: 鉄
+			Platinum: プラチナ
+			Black: 黒
+			Gray: 灰色
+			White: 白
+			Pink: ピンク
+			Purple: 紫
+			Blue: 青
+			Green: 緑
+			Yellow: 黄色
+			Gold: 金
+			Orange: オレンジ
+			Red: 赤
+		}
+
+		Disabled: このアクセサリタイプは開発者によって登録されていません
+		NoUse: このアイテムを装着できる召喚されたスライムがいません
+		Blacklisted: このアクセサリータイプはこのスライムでは無効化されています
+		None: なし
+		Accessory: アクセサリーとして着用
+		Carried: 手持ち
+		Body: 身体に着用
+		Hat: 頭に着用
+	}
+
+	MeatballsEyeItem: {
+		Tooltip: 「チャンキーの目を見つけて二つをデーモンアルターで合体させよう」
+		DisplayName: ミートボールの目
+	}
+
+	KnittingSet: {
+		Tooltip: 「かわいい衣装やアクセサリーを制作するのに使用する道具セット」
+		DisplayName: 編み物セット
+	}
+
+	IdolOfDecay: {
+		Tooltip:
+			'''
+			ダンジョンでソウルハーベスターの最終形態を召喚する
+			無限に使えるよ！
+			'''
+		DisplayName: 減衰の偶像
+	}
+
+	WallOfFleshGitgud: {
+		DisplayName: ウォールオブフレッシュのブードゥー人形
+	}
+
+	TwinsGitgud: {
+		DisplayName: 金属のコンタクトレンズ
+	}
+
+	SkeletronPrimeGitgud: {
+		DisplayName: 十年後に調節された時計
+	}
+
+	SkeletronGitgud: {
+		DisplayName: 豆乳パック
+	}
+
+	QueenSlimeGitgud: {
+		DisplayName: 花火つきカップケーキ
+	}
+
+	QueenBeeGitgud: {
+		DisplayName: ハチミツの指ぬき
+	}
+
+	PlanteraGitgud: {
+		DisplayName: グリーンサム
+	}
+
+	MoonLordGitgud: {
+		DisplayName: 月の表
+	}
+
+	LunaticCultistGitgud: {
+		DisplayName: 職務完了通知書
+	}
+
+	KingSlimeGitgud: {
+		DisplayName: スライム異端尋問の知らせ
+	}
+
+	GolemGitgud: {
+		DisplayName: 充電式太陽電池
+	}
+
+	EyeOfCthulhuGitgud: {
+		DisplayName: 割れたレンズ
+	}
+
+	EmpressOfLightGitgud: {
+		DisplayName: ボロの踏みつけブーツ
+	}
+
+	EaterOfWorldsGitgud: {
+		DisplayName: オモチャのかもめ
+	}
+
+	DukeFishronGitgud: {
+		DisplayName: ホワイトフック
+	}
+
+	DestroyerGitgud: {
+		DisplayName: 金属のドリームキャッチャー
+	}
+
+	DeerclopsGitgud: {
+		DisplayName: ディアクロプスの彫刻
+	}
+
+	BrainOfCthulhuGitgud: {
+		DisplayName: 煩脳解放
+	}
+
+	StarForge: {
+		Tooltip: 「無限の星」
+		DisplayName: スターフォージ
+	}
+
+	InfinityRocket: {
+		Tooltip: 「本当に終わらない！」
+		DisplayName: 無限ロケット
+	}
+
+	GuideVoodoorang: {
+		Tooltip: 「なんでこうなっちゃったの？」
+		DisplayName: ガイドのブードゥラン
+	}
+
+	CraftOfMiners: {
+		Tooltip:
+			'''
+			「己の拳でブロックを突き破り道を切り拓け」
+			[c/44942e:'Dedicated to Anonymous']
+			'''
+		DisplayName: マイナーのクラフト
+	}
+
+	DroneUnlockable: {
+		AlreadyUnlocked: ドローンコントローラーの{0}はすでにアンロック済み
+		Unlocks: ドローンコントローラーの{0}をアンロックする
+		UnlockedText: アンロック: {0}
+	}
+
+	DroneUnlockableShieldDrone: {
+		DisplayName: シールドドローン構成部品
+	}
+
+	DroneUnlockableMissileDrone: {
+		DisplayName: ミサイルドローン構成部品
+	}
+
+	DroneUnlockableHeavyLaserDrone: {
+		DisplayName: ヘビーレーザードローン構成部品
+	}
+
+	DroneUnlockableHealingDrone: {
+		DisplayName: ヒーリングドローン構成部品
+	}
+
+	DroneUnlockableBasicLaserDrone: {
+		DisplayName: 基本レーザードローン構成部品
+	}
+
+	DroneParts: {
+		Tooltip: 「部品を再利用できるかも...」
+		DisplayName: ドローン部品
+	}
+
+	DesiccatedLeather: {
+		Tooltip: 「乾燥していて、ベタベタして、とてもくさい。」
+		DisplayName: 乾ききった革
+	}
+
+	HarvesterTreasureBag: {
+		Tooltip: <right>で開く
+		DisplayName: お宝バッグ(ソウルハーベスター)
+	}
+
+	EnhancedHunterPotion: {
+		Tooltip:
+			'''
+			敵が光って見える
+			加えて、視界外の敵の位置を把握できる
+			範囲は各方向に一画面分
+			'''
+		DisplayName: 強化された狩人のポーション
+	}
+
+	EmpowermentFlask: {
+		Tooltip:
+			'''
+			継続的にダメージを上昇させる
+			ダメージを受けると効果がリセットされる
+			(召喚ダメージはダメージ上昇量が少しになる)
+			'''
+		DisplayName: 強化フラスコ
+	}
+
+	CuteSlimeSpawnEnableFlask: {
+		See: キュートなスライムが短い時間見えるようになる
+		SeeMoreOften: 短い時間、キュートなスライムをより頻繁に見るようになる
+		DisplayName: どろどろしたエール
+	}
+
+	ChunkysEyeItem: {
+		Tooltip: 「ミートボールの目を見つけて二つをデーモンアルターで合体させよう」
+		DisplayName: チャンキーの目
+	}
+
+	CaughtDungeonSoulFreed: {
+		Tooltip: ソウルハーベスターを撃破すると覚醒する
+		DisplayName: 解放されたダンジョンのソウル
+	}
+
+	CaughtDungeonSoul: {
+		SpawnSoul: ソウルハーベスターが食べるためのソウルをスポーンさせる
+		Tooltip:
+			'''
+			「ネットに捕まった生きのない魂」
+			ソウルハーベスターが撃破された時にインベントリ内で目覚める
+			'''
+		DisplayName: ゆらいだダンジョンのソウル
+	}
+
+	SoulSaviorRobe: {
+		Tooltip:
+			'''
+			召喚ダメージ{0}%増加
+			最大ミニオン召喚数が{1}増加
+			'''
+		DisplayName: 魂の救世主のローブ
+	}
+
+	SoulSaviorPlate: {
+		Tooltip:
+			'''
+			召喚ダメージ{0}%増加
+			最大ミニオン召喚数が{1}増加
+			'''
+		DisplayName: 魂の救世主の胸当て
+	}
+
+	SoulSaviorHeaddress: {
+		SetBonus:
+			'''
+			空きミニオンスロットごとに接触ダメージの{0}%を反射する
+			反射されたダメージは増加した召喚ダメージ分上昇する
+			現在の反射ダメージ: {1}%
+			永遠なる神聖のランタンで召喚されたミニオンが「強化」されダメージが{2}%増加する
+			'''
+		Tooltip:
+			'''
+			召喚ダメージ{0}%増加
+			最大ミニオン召喚数が{1}増加
+			'''
+		DisplayName: 魂の救世主のベール
+	}
+
+	AntiqueKey: {
+		Tooltip: 「ちかくの檻にハマりそうな古い鍵だ...」
+		DisplayName: アンティークな鍵
+	}
+
+	WispInABalloon: {
+		Tooltip: 暗闇を照らしジャンプ高度が増加
+		DisplayName: 風船入りのウィスプ
+	}
+
+	StarWispBalloon: {
+		Tooltip:
+			'''
+			マナ自然回復とジャンプ速度が増加
+			暗闇を照らす
+			'''
+		DisplayName: スターウィスプの風船
+	}
+
+	StarInABalloon: {
+		Tooltip: マナ自然回復とジャンプ速度が増加
+		DisplayName: 風船入りの星
+	}
+
+	SolesOfFireAndIce: {
+		Tooltip: 水、溶岩、薄い氷の上を歩けるようになる
+		DisplayName: 火と氷の靴
+	}
+
+	SlipperySoles: {
+		Tooltip: 全てのブロックで滑る
+		DisplayName: つるっつる靴
+	}
+
+	SigilOfTheWing: {
+		ReadyAgainInSeconds: 準備完了まで{0}秒
+		ReadyAgainInMinutes: 準備完了まで{0}分
+		EffectReady: 効果準備完了
+		SocialDesc: 衣装スロット内でクールダウンが下がる
+		Tooltip:
+			'''
+			死亡時に{0}秒間魂の姿になり最大体力の{1}%を回復する
+			変身中はアイテムを使用できない
+			{2}分間のクールダウン
+			'''
+		DisplayName: 翼のシジル
+	}
+
+	SigilOfTheTalon: {
+		HookDamage: 最後に保持した武器の{0}%のダメージを与える(現在 {1})
+		Tooltip:
+			'''
+			延長中のグラップリングフックでダメージを与えられるようになる
+			{0}体の敵に命中
+			'''
+		DisplayName: 鉤爪のシジル
+	}
+
+	SigilOfTheHarvester: {
+		Tooltip:
+			'''
+			「収穫者の魂が棲み着いてゆく」
+			戦闘中に敵を追いかける割れたソウルを召喚する
+			ライフが低くなるほど頻度とダメージが増加する
+			死亡時に{0}秒間魂の姿になり最大体力の{1}%を回復する
+			変身中はアイテムを使用できない
+			{2}分間のクールダウン
+			延長中のグラップリングフックでダメージを与えられるようになる
+			{3}体の敵に命中
+			'''
+		DisplayName: 収穫者のシジル
+	}
+
+	SigilOfTheBeak: {
+		Tooltip:
+			'''
+			戦闘中に敵を追いかける割れたソウルを召喚する
+			ライフが低くなるほど頻度とダメージが増加する
+			'''
+		DisplayName: クチバシのシジル
+	}
+
+	MassiveBundleOfBalloons: {
+		Tooltip:
+			'''
+			6回ジャンプできる
+			落下ダメージを受けなくなり、ジャンプ高度が増加
+			ダメージを受けると蜂を放って、使用者を蜂蜜に浸す
+			'''
+		DisplayName: 巨大な風船の束
+	}
+
+	HarvesterWings: {
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			最大ミニオン召喚数が{0}増加
+			召喚ダメージ{1}%増加
+			'''
+		DisplayName: 収穫者の翼
+	}
+
+	FestiveMirror: {
+		Tooltip: 凍え、凍結、石化に対する耐性
+		DisplayName: お祭り鏡
+	}
+
+	EverfrozenCandle: {
+		Tooltip: 全ての攻撃が凍傷を付与する
+		DisplayName: 永久冷凍のキャンドル
+	}
+
+	EverburningShadowflameCandle: {
+		Tooltip: 全ての攻撃がシャドウフレイムを付与する
+		DisplayName: 永久燃焼のシャドウフレイムのキャンドル
+	}
+
+	EverburningCursedCandle: {
+		Tooltip: すべての攻撃が呪いの炎を付与する
+		DisplayName: 永久燃焼の呪われたキャンドル
+	}
+
+	EverburningCandle: {
+		Tooltip: すべての攻撃が炎を付与する
+		DisplayName: 永久燃焼のキャンドル
+	}
+
+	EverburningCandelabra: {
+		Tooltip: すべての攻撃が様々な炎を付与する
+		DisplayName: 永久燃焼の燭台
+	}
+
+	CrazyBundleOfAssortedBalloons: {
+		Tooltip: すべての風船の効果がある
+		DisplayName: クレイジーな寄せ集めた風船の束
+	}
+
+	BottledDreams: {
+		Tooltip: 持つと二段ジャンプが可能になる
+		DisplayName: 瓶に詰められた夢
+	}
+
+	WobyItem: {
+		Tooltip: 忠実なわんこを召喚する
+		DisplayName: 愛犬家のバッジ
+	}
+
+	YoungWyvernItem: {
+		Tooltip:
+			'''
+			子供のワイバーンを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: ワイバーンテイル
+	}
+
+	YoungHarpyItem: {
+		Tooltip:
+			'''
+			味方のハーピーを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: Clump of Down Feathers
+	}
+
+	WallFragmentItem: {
+		Tooltip: たくさんの壁の欠片を召喚する
+		DisplayName: 壁の欠片
+	}
+
+	VampireBatItem: {
+		Tooltip:
+			'''
+			味方のヴァンパイアを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 修理されたコウモリの羽根
+	}
+
+	TurtleSlimeItem: {
+		Tooltip: 味方のタートルスライムを召喚する
+		DisplayName: 瓶詰めのタートルスライム
+	}
+
+	TrueObservingEyeItem: {
+		Tooltip: あなたを監視する真なるクトゥルフの目を召喚する
+		DisplayName: 真なる観測の目
+	}
+
+	TorturedSoulItem: {
+		Tooltip: ついてくるフレンドリーじゃない拷問された魂を召喚する
+		DisplayName: 拷問された魂
+	}
+
+	TorchGodLightPetItem: {
+		Tooltip:
+			'''
+			ついてくる神のたいまつを召喚する
+			スマートカーソルが有効時に自動的に通常のたいまつを設置する
+			'''
+		DisplayName: 神のたいまつ
+	}
+
+	TinyTwinsItem: {
+		Tooltip: ついてくるミニツインズを召喚する
+		DisplayName: ミニツインズ
+	}
+
+	SwarmofCthulhuItem: {
+		Tooltip: ついてくる目の群れを召喚する
+		DisplayName: 瓶詰めの眠らない目
+	}
+
+	SuspiciousNuggetItem: {
+		Tooltip: ついてくるあやしいナゲットを召喚する
+		DisplayName: あやしいナゲット
+	}
+
+	StrangeRobotItem: {
+		Tooltip: ついてくる奇妙なロボを召喚する
+		DisplayName: 奇妙なメカデバイス
+	}
+
+	StingSlimeItem: {
+		Tooltip:
+			'''
+			ついてくる味方のとげとげスライムを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 瓶詰めのとげとげスライム
+	}
+
+	SkeletronPrimeHandItem: {
+		Tooltip:
+			'''
+			スケルトロンプライムの手を取り付ける
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: スケルトロンプライムの義手
+	}
+
+	SkeletronHandItem: {
+		Tooltip:
+			'''
+			スケルトロンの手を取り付ける
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: スケルトロンの義手
+	}
+
+	RainbowSlimeItem: {
+		Tooltip: ついてくる味方のレインボースライムを召喚する
+		DisplayName: 瓶詰めのレインボースライム
+	}
+
+	QueenLarvaItem: {
+		Tooltip:
+			'''
+			ついてくる女王の幼虫を召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 女王蜂の幼虫
+	}
+
+	PrinceSlimeItem: {
+		Tooltip: ついてくるプリンススライムを召喚する
+		DisplayName: 瓶詰めのプリンスライム
+	}
+
+	PigronataItem: {
+		Tooltip:
+			'''
+			ついてくるピグロニャータを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: ピグロニャータ
+	}
+
+	PetSunMoonItem: {
+		Tooltip:
+			'''
+			光源になる小さな太陽と月を召喚する
+			バフの説明に現在時間が表示される
+			バフの説明に月齢が表示される
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 瓶詰めの太陽と月
+	}
+
+	PetSunItem: {
+		Tooltip:
+			'''
+			日光を照らす小さな太陽を召喚する
+			バフの説明に現在時間が表示される
+			'''
+		DisplayName: 瓶詰めの太陽
+	}
+
+	PetQueenSlimeItem: {
+		Tooltip: スライムのトリオを召喚する
+		DisplayName: 元気いっぱいスライム
+	}
+
+	PetPlanteraItem: {
+		Tooltip:
+			'''
+			プランテラの芽を召喚する
+			「失礼で緑だぞ...」
+			'''
+		DisplayName: プランテラシードの鉢植え
+	}
+
+	PetMoonItem: {
+		Tooltip:
+			'''
+			月光を照らす小さな月を召喚する
+			バフの説明に月齢を表示する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 瓶詰めの月
+	}
+
+	PetHarvesterItem: {
+		Tooltip: がんこな鳥を召喚する
+		DisplayName: がんこな鳥の魂
+	}
+
+	PetGolemHeadItem: {
+		Tooltip:
+			'''
+			レプリカのゴーレムヘッドを召喚する
+			近くの敵に跳ね返る火の玉を吐き出す
+			'''
+		DisplayName: レプリカのゴーレムヘッド
+	}
+
+	PetGoldfishItem: {
+		Tooltip:
+			'''
+			ついてくるペットの金魚を召喚する
+			「これを手にすることでなにか大切なものを失った気がする...」
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 取り憑かれた魚の偶像
+	}
+
+	PetFishronItem: {
+		Tooltip:
+			'''
+			ついてくるフィッシュロンを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: べちゃついたフィッシュケーキ
+	}
+
+	PetEaterofWorldsItem: {
+		Tooltip: ミニイーターオブワールドを召喚する
+		DisplayName: 割れたワームの卵
+	}
+
+	PetDestroyerItem: {
+		Tooltip: ついてくるミニデストロイヤーと2体のミニプローブを召喚する
+		DisplayName: デストロイヤーのコア
+	}
+
+	PetCultistItem: {
+		Tooltip: 傷ついたときに回復してくれるミニ信仰者を召喚する
+		DisplayName: ちいさな不吉なコイン
+	}
+
+	OceanSlimeItem: {
+		Tooltip:
+			'''
+			ついてくるオーシャンスライムを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 瓶詰めのオーシャンスライム
+	}
+
+	NumberMuncherItem: {
+		Tooltip: ついてくる訓練された両生類を召喚する
+		DisplayName: 古風なストレージデバイス
+	}
+
+	MiniMegalodonItem: {
+		Tooltip: ついてくるちっちゃいメガロドンを召喚する
+		DisplayName: ちっちゃいメガロドンの歯
+	}
+
+	MiniAntlionItem: {
+		Tooltip:
+			'''
+			ついてくる赤ちゃんアントリオンを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: アントリオンの卵
+	}
+
+	MetroidPetItem: {
+		Tooltip:
+			'''
+			ついてくる宇宙の寄生生物を召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 寄生生物の容器
+	}
+
+	MeatballSlimeItem: {
+		Tooltip: ついてくるミートボールを召喚する
+		DisplayName: 瓶詰めのミートボール
+	}
+
+	LilWrapsItem: {
+		Tooltip:
+			'''
+			ついてくるミイラを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 黄金の棺桶
+	}
+
+	LifelikeMechanicalFrogItem: {
+		Tooltip:
+			'''
+			ついてくるカエルを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 本物そっくりのメカガエル
+	}
+
+	JoyousSlimeItem: {
+		Tooltip:
+			'''
+			ついてくるよろこびスライムを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 瓶詰めのよろこびスライム
+	}
+
+	IlluminantSlimeItem: {
+		Tooltip: ついてくるぴかぴかスライムを召喚する
+		DisplayName: 瓶詰めのぴかぴかスライム
+	}
+
+	HornedSlimeItem: {
+		Tooltip: ついてくるつんつんスライムを召喚する
+		DisplayName: 瓶詰めのつんつんスライム
+	}
+
+	GobletItem: {
+		Tooltip: ついてくるちっちゃなゴブリンを召喚する
+		DisplayName: ゴブレット戦闘記章
+	}
+
+	GhostMartianItem: {
+		Tooltip: ついてくる復讐心あふれる侵略者の幽霊を召喚する
+		DisplayName: 電磁場測定機
+	}
+
+	FairySwarmItem: {
+		Tooltip: ついてくる妖精の群れを召喚する
+		DisplayName: 妖精の詰め合わせ瓶
+	}
+
+	FairySlimeItem: {
+		Tooltip: ついてくるフェアリースライムを召喚する
+		DisplayName: 瓶詰めのフェアリースライム
+	}
+
+	FailureSlimeItem: {
+		Tooltip: ついてくるヘンな生き物を召喚する
+		DisplayName: ねばねば頭蓋骨
+	}
+
+	EnchantedSwordItem: {
+		Tooltip: 見守るエンチャントソードを召喚する
+		DisplayName: エンチャントソード
+	}
+
+	DynamiteBunnyItem: {
+		Tooltip:
+			'''
+			ついてくるダイナマイトうさぎを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: ダイナマイトにんじん
+	}
+
+	DrumstickElementalItem: {
+		Tooltip: ついてくる美味しそうなドラムスティックのエレメンタルを召喚する
+		DisplayName: 魔法のドラムスティック
+	}
+
+	DocileDemonEyeItem: {
+		Tooltip:
+			'''
+			ついてくる従順なデーモンアイを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 従順なデーモンアイ
+	}
+
+	DetachedHungryItem: {
+		Tooltip: ついてくる取り外されたハングリーを召喚する
+		DisplayName: 無意識のハングリー
+	}
+
+	DemonHeartItem: {
+		Tooltip: ついてくる味方のデーモンハートを召喚する
+		DisplayName: 悪魔の心臓
+	}
+
+	CuteLamiaPetItem: {
+		Tooltip:
+			'''
+			ついてくるちいっちゃな味方のヘビを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: ふるえる蛇壺
+	}
+
+	CuteGastropodItem: {
+		Tooltip: ついてくるかわいいナメクジを召喚する
+		DisplayName: ミステリアスな壺
+	}
+
+	CursedSkullItem: {
+		Tooltip:
+			'''
+			ついてくる味方のカースドスカルを召喚する
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: 無力な頭蓋骨
+	}
+
+	CompanionDungeonSoulPetItem2: {
+		Tooltip:
+			'''
+			道を照らすフレンドリーなソウルを召喚する
+			ペット枠
+			'''
+		DisplayName: コンパニオンのソウル
+	}
+
+	CompanionDungeonSoulPetItem: {
+		Tooltip:
+			'''
+			道を照らすフレンドリーなソウルを召喚する
+			光源ペット枠
+			'''
+		CommonTooltip: 道を照らすフレンドリーなソウルを召喚する
+		DisplayName: コンパニオンのソウル
+	}
+
+	ChunkySlimeItem: {
+		Tooltip: ついてくるチャンキーを召喚する
+		DisplayName: 瓶詰めのチャンキー
+	}
+
+	ChunkyandMeatballItem: {
+		Tooltip: ついてくるなかよし兄弟を召喚する
+		DisplayName: チャンキーとミートボール
+	}
+
+	BrainofConfusionItem: {
+		Tooltip: Summons a brain of confusion to follow aimlessly behind you
+		DisplayName: Brain of Confusion
+	}
+
+	BabyOcramItem: {
+		Tooltip: Summons a miniature Ocram that follows you
+		DisplayName: Baby Ocram
+	}
+
+	BabyIchorStickerItem: {
+		Tooltip: Summons a baby ichor sticker to follow you
+		DisplayName: Sleeping Ichor Sticker
+	}
+
+	BabyCrimeraItem: {
+		Tooltip: Summons a baby crimera to follow you
+		DisplayName: Juicy Vertebrae
+	}
+
+	AnomalocarisItem: {
+		Tooltip:
+			'''
+			Summons a prehistoric shrimp to follow you
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: Ornery Shrimp
+	}
+
+	AnimatedTomeItem: {
+		Tooltip:
+			'''
+			Summons a friendly animated tome to follow you
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: Animated Tome
+	}
+
+	AlienHornetItem: {
+		Tooltip: Summons a friendly alien hornet to follow you
+		DisplayName: Vortex Nectar
+	}
+
+	AbeeminationItem: {
+		Tooltip:
+			'''
+			Summons a friendly abeemination to follow you
+			衣装ケースで見た目を変更可能
+			'''
+		DisplayName: Abeemination
+	}
+
+	CuteSlimeYellowItem: {
+		Tooltip: Summons a cute yellow slime to follow you
+		DisplayName: Bottled Cute Yellow Slime
+	}
+
+	CuteSlimeXmasItem: {
+		Tooltip: Summons a cute christmas slime to follow you
+		DisplayName: Bottled Cute Christmas Slime
+	}
+
+	CuteSlimeToxicItem: {
+		Tooltip: Summons a cute toxic slime to follow you
+		DisplayName: Bottled Cute Toxic Slime
+	}
+
+	CuteSlimeShimmerItem: {
+		Tooltip: Summons a cute shimmer slime to follow you
+		DisplayName: Bottled Cute Shimmer Slime
+	}
+
+	CuteSlimeSandItem: {
+		Tooltip: Summons a cute sand slime to follow you
+		DisplayName: Bottled Cute Sand Slime
+	}
+
+	CuteSlimeRedIceItem: {
+		Tooltip: Summons a cute red ice slime to follow you
+		DisplayName: Bottled Cute Red Ice Slime
+	}
+
+	CuteSlimeRedItem: {
+		Tooltip: Summons a cute red slime to follow you
+		DisplayName: Bottled Cute Red Slime
+	}
+
+	CuteSlimeRainbowItem: {
+		Tooltip: Summons a cute rainbow slime to follow you
+		DisplayName: Bottled Cute Rainbow Slime
+	}
+
+	CuteSlimeQueenItem: {
+		Tooltip: Summons a cute queen slime to follow you
+		DisplayName: Bottled Cute Queen Slime
+	}
+
+	CuteSlimePurpleIceItem: {
+		Tooltip: Summons a cute purple ice slime to follow you
+		DisplayName: Bottled Cute Purple Ice Slime
+	}
+
+	CuteSlimePurpleItem: {
+		Tooltip: Summons a cute purple slime to follow you
+		DisplayName: Bottled Cute Purple Slime
+	}
+
+	CuteSlimePrincessItem: {
+		Tooltip: Summons a cute princess slime to follow you
+		DisplayName: Bottled Cute Princess Slime
+	}
+
+	CuteSlimePinkIceItem: {
+		Tooltip: Summons a cute pink ice slime to follow you
+		DisplayName: Bottled Cute Pink Ice Slime
+	}
+
+	CuteSlimePinkItem: {
+		Tooltip: Summons a cute pink slime to follow you
+		DisplayName: Bottled Cute Pink Slime
+	}
+
+	CuteSlimeLavaItem: {
+		Tooltip: Summons a cute lava slime to follow you
+		DisplayName: Bottled Cute Lava Slime
+	}
+
+	CuteSlimeJungleItem: {
+		Tooltip: Summons a cute jungle slime to follow you
+		DisplayName: Bottled Cute Jungle Slime
+	}
+
+	CuteSlimeIlluminantItem: {
+		Tooltip: Summons a cute illuminant slime to follow you
+		DisplayName: Bottled Cute Illuminant Slime
+	}
+
+	CuteSlimeIceItem: {
+		Tooltip: Summons a cute ice slime to follow you
+		DisplayName: Bottled Cute Ice Slime
+	}
+
+	CuteSlimeHoneyItem: {
+		Tooltip: Summons a cute honey slime to follow you
+		DisplayName: Bottled Cute Honey Slime
+	}
+
+	CuteSlimeGreenItem: {
+		Tooltip: Summons a cute green slime to follow you
+		DisplayName: Bottled Cute Green Slime
+	}
+
+	CuteSlimeGoldenItem: {
+		Tooltip: Summons a cute golden slime to follow you
+		DisplayName: Bottled Cute Golden Slime
+	}
+
+	CuteSlimeDungeonItem: {
+		Tooltip: Summons a cute dungeon slime to follow you
+		DisplayName: Bottled Cute Dungeon Slime
+	}
+
+	CuteSlimeCrimsonJungleItem: {
+		Tooltip: Summons a cute crimson jungle slime to follow you
+		DisplayName: Bottled Cute Crimson Jungle Slime
+	}
+
+	CuteSlimeCrimsonItem: {
+		Tooltip: Summons a cute crimson slime to follow you
+		DisplayName: Bottled Cute Crimson Slime
+	}
+
+	CuteSlimeCorruptJungleItem: {
+		Tooltip: Summons a cute corrupt jungle slime to follow you
+		DisplayName: Bottled Cute Corrupt Jungle Slime
+	}
+
+	CuteSlimeCorruptItem: {
+		Tooltip: Summons a cute corrupt slime to follow you
+		DisplayName: Bottled Cute Corrupt Slime
+	}
+
+	CuteSlimeBlueItem: {
+		Tooltip: Summons a cute blue slime to follow you
+		DisplayName: Bottled Cute Blue Slime
+	}
+
+	CuteSlimeBlackItem: {
+		Tooltip: Summons a cute black slime to follow you
+		DisplayName: Bottled Cute Black Slime
+	}
+
+	CuteSlime: {
+		AccessorySlot: Accessory Slot: {0}
+		CarriedSlot: Carry Slot: {0}
+		BodySlot: Body Slot: {0}
+		HatSlot: Hat Slot: {0}
+		AccessoryNone: None
+		AccessoryBlacklisted: Blacklisted
+	}
+}
+
+Common: {
+	Tooltips: {
+		GoblinUnderlingItem: {
+			CantSwitchClassDuringCombat: Cannot switch classes during combat
+			CommonTooltipFormat:
+				'''
+				{0}
+				{1}
+				{2}
+				'''
+			CommonTooltip:
+				'''
+				Class can be changed with [c/{0}:<right>]
+				Gets stronger throughout progression
+				Only one can be summoned
+				'''
+		}
+
+		GoblinUnderlingBuff: {
+			CommonDescription: A loyal underling is fighting for you
+		}
+
+		PetHasAltSkins: 衣装ケースで見た目を変更可能
+	}
+
+	BaseKnockback: Base Knockback: {0}
+	BaseDamage: Base Damage: {0}
+	Selected: Selected: {0}
+	AoMMVersion: (AoMM version)
+	ConcatenateTwo: "{0} {1}"
+}
+
+Buffs: {
+	Campfire: {
+		WyvernCampfireNearby:
+			'''
+			Wyvern Campfire nearby:
+			You are protected from Wyverns
+			Harpy feathers don't knock you away
+			'''
+	}
+
+	NeurotoxinBuff: {
+		CommonDescription: Rapidly losing life
+		CommonName: Neurotoxin
+	}
+
+	StarRodBuff: {
+		Description: Falling Stars will land closer to you
+		DisplayName: Star Rod
+	}
+
+	SoulBuff: {
+		Description: Releases a soul
+		DisplayName: Soul
+	}
+
+	SlimePackMinionBuff: {
+		Description: A friendly Slime from your Knapsack is fighting for you
+		DisplayName: Slime
+	}
+
+	SoulBurnBuff: {
+		Description: Rapidly losing life
+		DisplayName: Soul Burn
+	}
+
+	BabyHarvesterBuff: {
+		Tier3: I'm not sure it should keep eating...
+		Tier2: I wonder if it will keep growing
+		Tier1: What's this bird doing?
+		Absorbed: The bird has absorbed {0} souls
+		Description: REPLACEME
+		DisplayName: Ominous Bird
+	}
+
+	SigilOfTheWingBuff: {
+		Description: Your spirit hangs on by a thread
+		DisplayName: Blessing of the Wing
+	}
+
+	SeriousUnderlingBuff: {
+		DisplayName: Serious Underling
+	}
+
+	ShyUnderlingBuff: {
+		DisplayName: Shy Underling
+	}
+
+	EagerUnderlingBuff: {
+		DisplayName: Eager Underling
+	}
+
+	EnhancedHunterBuff: {
+		Description: Shows the location of enemies outside your vision range
+		DisplayName: Enhanced Hunter
+	}
+
+	EmpoweringBuff: {
+		IncreasedDamage: Increased Damage: {0}%
+		Description: You get stronger the longer you don't receive damage
+		DisplayName: Empowering
+	}
+
+	DroneControllerBuff: {
+		Description: Command a swarm of drones
+		DisplayName: Drone Controller
+	}
+
+	CuteSlimeSpawnEnableBuff: {
+		None: None
+		CuteSlimesCanSpawn: Cute Slimes that can spawn
+		Description: Your perception of slimes is a bit off...
+		DisplayName: Jellied Ale
+	}
+
+	CompanionDungeonSoulMinionBuff: {
+		TinyDungeonSouls: Tiny Dungeon Souls
+		Description: A friendly Soul is fighting for you
+		DisplayName: Companion Soul Minion
+	}
+
+	WobyBuff: {
+		Description: A loyal canine is following you
+		DisplayName: Woby, 'A lovable dog...'
+	}
+
+	YoungWyvernBuff: {
+		Description: A young wyvern is following you
+		DisplayName: Young Wyvern
+	}
+
+	YoungHarpyBuff: {
+		Description: A young harpy is following you
+		DisplayName: Young Harpy
+	}
+
+	WallFragmentBuff: {
+		Description: Several fragments of the Wall are following you
+		DisplayName: Wall Fragment
+	}
+
+	VampireBatBuff: {
+		Description: A particularly dashing vampire is following you
+		DisplayName: Vampire Bat
+	}
+
+	TurtleSlimeBuff: {
+		Description: A turtle slime is following you
+		DisplayName: Turtle Slime
+	}
+
+	TrueObservingEyeBuff: {
+		Description: A tiny True Eye of Cthulhu is following you
+		DisplayName: True Observing Eye
+	}
+
+	TorturedSoulBuff: {
+		Description: Shouldn't have been so greedy, eh?
+		DisplayName: Tortured Soul
+	}
+
+	TorchGodLightPetBuff: {
+		NoTorches: No normal torches found to place
+		EnableSmartCursor: Enable 'Smart Cursor' to automatically place torches
+		Description: "'Your torch placement has been deemed unnecessary. I will do it correctly.'"
+		DisplayName: Godly Torch
+	}
+
+	TinyTwinsBuff: {
+		Description: The Twins are watching you
+		DisplayName: Tiny Twins
+	}
+
+	SwarmofCthulhuBuff: {
+		Description: A swarm of Cthulhu is following you
+		DisplayName: Swarm of Cthulhu
+	}
+
+	SuspiciousNuggetBuff: {
+		Description: A suspicious nugget is following you
+		DisplayName: Suspicious Nugget
+	}
+
+	StrangeRobotBuff: {
+		Description: A strange robot is following you
+		DisplayName: Strange Robot
+	}
+
+	StingSlimeBuff: {
+		Description: A sting slime is following you
+		DisplayName: Sting Slime
+	}
+
+	SkeletronPrimeHandBuff: {
+		Description: Skeletron Prime's hand is attached to you
+		DisplayName: Skeletron Prime's Spare Hand
+	}
+
+	SkeletronHandBuff: {
+		Description: Skeletron's hand is attached to you
+		DisplayName: Skeletron's Spare Hand
+	}
+
+	RainbowSlimeBuff: {
+		Description: A rainbow slime is following you
+		DisplayName: Rainbow Slime
+	}
+
+	QueenLarvaBuff: {
+		Description: A Queen Bee larva is following you
+		DisplayName: Queen Larva
+	}
+
+	PrinceSlimeBuff: {
+		Description: A prince slime is following you
+		DisplayName: Prince Slime
+	}
+
+	PigronataBuff: {
+		Description: A pigronata is thankful that you did not bust it
+		DisplayName: Pigronata
+	}
+
+	PetSunMoonBuff: {
+		Description:
+			'''
+			A small sun and moon are providing you with constant light
+			'No adverse gravitational effects will happen'
+			'''
+		DisplayName: Personal Sun and Moon
+	}
+
+	PetSunBuff: {
+		Description: A small sun is providing you with constant sunlight
+		DisplayName: Personal Sun
+	}
+
+	PetQueenSlimeBuff: {
+		Description: A trio of slimelings is following you
+		DisplayName: Playful Slimelings
+	}
+
+	PetPlanteraBuff: {
+		Description: A Plantera sprout is following you
+		DisplayName: Plantera Sprout
+	}
+
+	PetMoonBuff: {
+		Description: A small moon is providing you with constant moonlight
+		DisplayName: Personal Moon
+	}
+
+	PetHarvesterBuff: {
+		Description: A stubborn bird is following you
+		DisplayName: Stubborn Bird
+	}
+
+	PetGolemHeadBuff: {
+		Description: A replica Golem head watches over you
+		DisplayName: Replica Golem Head
+	}
+
+	PetGoldfishBuff: {
+		Description: A possessed goldfish is following you
+		DisplayName: Possessed Goldfish
+	}
+
+	PetFishronBuff: {
+		Description: A fishron is following you
+		DisplayName: Fishron
+	}
+
+	PetEaterofWorldsBuff: {
+		Description: A tiny Eater of Worlds is following you
+		DisplayName: Tiny Eater of Worlds
+	}
+
+	PetDestroyerBuff: {
+		Description: A tiny Destroyer and two tiny Probes are following you
+		DisplayName: Tiny Destroyer
+	}
+
+	PetCultistBuff: {
+		Description: A tiny cultist is following you
+		DisplayName: Dwarf Cultist
+	}
+
+	OceanSlimeBuff: {
+		Description: An ocean slime is following you
+		DisplayName: Ocean Slime
+	}
+
+	NumberMuncherBuff: {
+		Description: An educated amphibian is following you
+		DisplayName: Number Muncher
+	}
+
+	MiniMegalodonBuff: {
+		Description: It recognizes your strength...for now
+		DisplayName: Mini Megalodon
+	}
+
+	MiniAntlionBuff: {
+		Description: A baby antlion is following you
+		DisplayName: Baby Antlion
+	}
+
+	MetroidPetBuff: {
+		Description: A space parasite is following you
+		DisplayName: Metroid
+	}
+
+	MeatballSlimeBuff: {
+		Description: Meatball is following you
+		DisplayName: Meatball
+	}
+
+	LilWrapsBuff: {
+		Description: A mummy is following you
+		DisplayName: Lil' Wraps
+	}
+
+	LifelikeMechanicalFrogBuff: {
+		Description: Whatever happened to this frog at the anvil is a mystery
+		DisplayName: Lifelike Mechanical Frog
+	}
+
+	JoyousSlimeBuff: {
+		Description: A joyous slime is following you
+		DisplayName: Joyous Slime
+	}
+
+	IlluminantSlimeBuff: {
+		Description: An illuminant slime is following you
+		DisplayName: Illuminant Slime
+	}
+
+	HornedSlimeBuff: {
+		Description: A horned slime is following you
+		DisplayName: Horned Slime
+	}
+
+	GobletBuff: {
+		Description: A tiny goblin is following you
+		DisplayName: Goblet
+	}
+
+	GhostMartianBuff: {
+		Description: A vengeful invader's ghost is following you
+		DisplayName: Ghost Martian
+	}
+
+	FairySwarmBuff: {
+		Description: A fairy swarm is following you
+		DisplayName: Fairy Swarm
+	}
+
+	FairySlimeBuff: {
+		Description: A fairy slime is following you
+		DisplayName: Fairy Slime
+	}
+
+	FailureSlimeBuff: {
+		Description: A strange creature is following you
+		DisplayName: Failure Slime
+	}
+
+	EnchantedSwordBuff: {
+		Description: The enchanted sword watches over you
+		DisplayName: Enchanted Sword
+	}
+
+	DynamiteBunnyBuff: {
+		Description: A little dynamite bunny is following you
+		DisplayName: Dynamite Bunny
+	}
+
+	DrumstickElementalBuff: {
+		Description: Dinner is following you
+		DisplayName: Drumstick Elemental
+	}
+
+	DocileDemonEyeBuff: {
+		Description: A demon eye is following you
+		DisplayName: Docile Demon Eye
+	}
+
+	DetachedHungryBuff: {
+		Description: You might be the next meal...
+		DisplayName: Detached Hungry
+	}
+
+	DemonHeartBuff: {
+		Description: A demon heart is following you
+		DisplayName: Demon Heart
+	}
+
+	CuteLamiaPetBuff: {
+		Description: A small snake is following you
+		DisplayName: Small Snake
+	}
+
+	CuteGastropodBuff: {
+		Description: A cute gastropod is following you
+		DisplayName: Cute Gastropod
+	}
+
+	CursedSkullBuff: {
+		Description: It won't curse you, I promise
+		DisplayName: Cursed Skull
+	}
+
+	CompanionDungeonSoulPetBuff2: {
+		Description:
+			'''
+			A friendly dungeon soul is following you
+			Pet slot
+			'''
+		DisplayName: Companion Soul
+	}
+
+	CompanionDungeonSoulPetBuff: {
+		Description:
+			'''
+			A friendly dungeon soul is following you
+			Light pet slot
+			'''
+		CommonDescription: A friendly dungeon soul is following you
+		DisplayName: Companion Soul
+	}
+
+	ChunkySlimeBuff: {
+		Description: Chunky is following you
+		DisplayName: Chunky
+	}
+
+	ChunkyandMeatballBuff: {
+		Description: Two reunited brothers are following you
+		DisplayName: Chunky and Meatball
+	}
+
+	BrainofConfusionBuff: {
+		Description: A brain of confusion is following you
+		DisplayName: Brain of Confusion
+	}
+
+	BabyOcramBuff: {
+		Description: What could have been now follows you
+		DisplayName: Baby Ocram
+	}
+
+	BabyIchorStickerBuff: {
+		Description: A baby ichor sticker is following you
+		DisplayName: Lil' Ichy
+	}
+
+	BabyCrimeraBuff: {
+		Description: A little crimera is following you
+		DisplayName: Baby Crimera
+	}
+
+	AnomalocarisBuff: {
+		Description: A little prehistoric shrimp is following you
+		DisplayName: Anomalocaris
+	}
+
+	AnimatedTomeBuff: {
+		Description: An animated tome is following you
+		DisplayName: Animated Tome
+	}
+
+	AlienHornetBuff: {
+		Description: An alien hornet is following you
+		DisplayName: Alien Hornet
+	}
+
+	AbeeminationBuff: {
+		Description: An abeemination is following you
+		DisplayName: Abeemination
+	}
+
+	CuteSlimeYellowBuff: {
+		Description: A cute yellow slime is following you
+		DisplayName: Cute Yellow Slime
+	}
+
+	CuteSlimeXmasBuff: {
+		Description: A cute Christmas slime is following you
+		DisplayName: Cute Christmas Slime
+	}
+
+	CuteSlimeToxicBuff: {
+		Description: A cute toxic slime is following you
+		DisplayName: Cute Toxic Slime
+	}
+
+	CuteSlimeShimmerBuff: {
+		Description: A cute shimmer slime is following you
+		DisplayName: Cute Shimmer Slime
+	}
+
+	CuteSlimeSandBuff: {
+		Description: A cute sand slime is following you
+		DisplayName: Cute Sand Slime
+	}
+
+	CuteSlimeRedIceBuff: {
+		Description: A cute red ice slime is following you
+		DisplayName: Cute Red Ice Slime
+	}
+
+	CuteSlimeRedBuff: {
+		Description: A cute red slime is following you
+		DisplayName: Cute Red Slime
+	}
+
+	CuteSlimeRainbowBuff: {
+		Description: A cute rainbow slime is following you
+		DisplayName: Cute Rainbow Slime
+	}
+
+	CuteSlimeQueenBuff: {
+		Description: A cute queen slime is following you
+		DisplayName: Cute Queen Slime
+	}
+
+	CuteSlimePurpleIceBuff: {
+		Description: A cute purple ice slime is following you
+		DisplayName: Cute Purple Ice Slime
+	}
+
+	CuteSlimePurpleBuff: {
+		Description: A cute purple slime is following you
+		DisplayName: Cute Purple Slime
+	}
+
+	CuteSlimePrincessBuff: {
+		Description: A cute princess slime is following you
+		DisplayName: Cute Princess Slime
+	}
+
+	CuteSlimePinkIceBuff: {
+		Description: A cute pink ice slime is following you
+		DisplayName: Cute Pink Ice Slime
+	}
+
+	CuteSlimePinkBuff: {
+		Description: A cute pink slime is following you
+		DisplayName: Cute Pink Slime
+	}
+
+	CuteSlimeLavaBuff: {
+		Description: A cute lava slime is following you
+		DisplayName: Cute Lava Slime
+	}
+
+	CuteSlimeJungleBuff: {
+		Description: A cute jungle slime is following you
+		DisplayName: Cute Jungle Slime
+	}
+
+	CuteSlimeIlluminantBuff: {
+		Description: A cute illuminant slime is following you
+		DisplayName: Cute Illuminant Slime
+	}
+
+	CuteSlimeIceBuff: {
+		Description: A cute ice slime is following you
+		DisplayName: Cute Ice Slime
+	}
+
+	CuteSlimeHoneyBuff: {
+		Description: A cute honey slime is following you
+		DisplayName: Cute Honey Slime
+	}
+
+	CuteSlimeGreenBuff: {
+		Description: A cute green slime is following you
+		DisplayName: Cute Green Slime
+	}
+
+	CuteSlimeGoldenBuff: {
+		Description: A cute golden slime is following you
+		DisplayName: Cute Golden Slime
+	}
+
+	CuteSlimeDungeonBuff: {
+		Description: A cute dungeon slime is following you
+		DisplayName: Cute Dungeon Slime
+	}
+
+	CuteSlimeCrimsonJungleBuff: {
+		Description: A cute crimson jungle slime is following you
+		DisplayName: Cute Crimson Jungle Slime
+	}
+
+	CuteSlimeCrimsonBuff: {
+		Description: A cute crimson slime is following you
+		DisplayName: Cute Crimson Slime
+	}
+
+	CuteSlimeCorruptJungleBuff: {
+		Description: A cute corrupt jungle slime is following you
+		DisplayName: Cute Corrupt Jungle Slime
+	}
+
+	CuteSlimeCorruptBuff: {
+		Description: A cute corrupt slime is following you
+		DisplayName: Cute Corrupt Slime
+	}
+
+	CuteSlimeBlueBuff: {
+		Description: A cute blue slime is following you
+		DisplayName: Cute Blue Slime
+	}
+
+	CuteSlimeBlackBuff: {
+		Description: A cute black slime is following you
+		DisplayName: Cute Black Slime
+	}
+}
+
