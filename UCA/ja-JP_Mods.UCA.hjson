@@ -1,0 +1,557 @@
+CalMagicWeaponsChange: {
+	NightRay:
+		'''
+		[c/FF8C00:UnOfficial Calamity Amendでの変更:]
+		光線のダメージが敵に近づくほど増加する(200% - 75%)
+		左クリックで光線の周りにダークビームを発射する
+		右クリックでシールドを拡大し、敵の発射物を跳ね返すがよりマナを消費する
+		シールドは最大400ダメージを吸収できる
+		シールド中はダメージ軽減率と防御力が増加する
+		武器スキル:
+		{0}キーでマナを200消費し夜の光線を発射する
+		その後30秒間の攻撃と防御のバフを受け、シールドが全回復する
+		'''
+	PlasmaRod:
+		'''
+		[c/FF8C00:UnOfficial Calamity Amendでの変更:]
+		左クリックでプラズマビームを発射し、命中後8つのホーミングビームに分裂する
+		右クリックで影の火球を発射し、命中後に爆発する
+		武器スキル:
+		[KEY]キーを押すと50マナを消費し、前方に斬撃を放つ
+		'''
+}
+
+Configs: {
+	UCAConfig: {
+		DisplayName: UnOfficial Calamity Amend 設定
+
+		UCATurnoffCorner: {
+			Label: コーナー表示
+			Tooltip: すべての変更された武器には、変更を示す角のマークが表示されます。
+		}
+
+		PerformanceMode: {
+			Label: パフォーマンスモード
+			Tooltip: オンにするとほとんどのビジュアルエフェクトを軽減します。
+		}
+	}
+}
+
+Cooldowns: {
+	UCANightBoostCooldown: シャドウプロテクション
+	UCANightShield: シャドウシールド
+	UCACarnageBoostCooldown: カーネージブースト
+	UCATerraBoostCooldown: テラブースト
+	UCATerraRestoreCount: テラリストア
+	UCAMiscBoostCooldown: ピュアエネルギー
+	UCASolorShieldCooldown: ソーラーシールド
+	UCAStarDustBoostCooldown: スターダストブースト
+	UCAVortexBoostCooldown: ボルテックスブースト
+	UCANebulaBoostCooldown: ネビュラプロテクション
+	UCAShadowBotlStaffCountCooldown: シャドウドッジクールダウン
+	UCAShadowBotlStaffDodgeCooldown: シャドウドッジ
+}
+
+HeldProj: {
+	ElementRayHeldProj: {
+		DisplayName: Element Ray Held Proj
+	}
+}
+
+Items: {
+	Sword: {
+		DisplayName: Test Sword
+		Tooltip: ""
+	}
+}
+
+HoldAltToShow: 左Altキーを押して特殊アビリティを表示する
+
+MagicProjectiles: {
+	NightEnergy: {
+		DisplayName: Night Energy
+	}
+
+	CarnageEnergy: {
+		DisplayName: Carnage Energy
+	}
+
+	CarnageBall: {
+		DisplayName: Carnage Ball
+	}
+
+	PlasmaSpark: {
+		DisplayName: Plasma Spark
+	}
+
+	PlasmaPrimarySpark: {
+		DisplayName: Plasma Blast
+	}
+
+	PlasmaBlast: {
+		DisplayName: Plasma Blast Bomb
+	}
+
+	TerraEnergy: {
+		DisplayName: Terra Energy
+	}
+
+	NightEnergySplit: {
+		DisplayName: Night Energy Split
+	}
+
+	TerraLaser: {
+		DisplayName: Terra Laser
+	}
+
+	TerraLance: {
+		DisplayName: Terra Lance
+	}
+
+	TerrarTornado: {
+		DisplayName: Terrar Tornado
+	}
+
+	TerraMatrix: {
+		DisplayName: Terra Matrix
+	}
+
+	ElementalLaser: {
+		DisplayName: Elemental Laser
+	}
+
+	StarDustFragment: {
+		DisplayName: Star Dust Fragment
+	}
+
+	SolarBlast: {
+		DisplayName: Solar Blast
+	}
+
+	NebulaEnergy: {
+		DisplayName: Nebula Energy
+	}
+
+	VortexMissle: {
+		DisplayName: Vortex Missle
+	}
+
+	VortexLightning: {
+		DisplayName: Vortex Lightning
+	}
+
+	SolarFireBall: {
+		DisplayName: Solar Fire Ball
+	}
+
+	StarDustLaser: {
+		DisplayName: Star Dust Laser
+	}
+
+	SoulStream: {
+		DisplayName: Soul Stream
+	}
+
+	NebulaCrystal: {
+		DisplayName: Nebula Crystal
+	}
+
+	ShadowBeam: {
+		DisplayName: Shadow Beam
+	}
+
+	ShadowPlayer: {
+		DisplayName: Shadow Player
+	}
+
+	CosmicSlash: {
+		DisplayName: Cosmic Slash
+	}
+
+	CosmicLaser: {
+		DisplayName: Cosmic Laser
+	}
+}
+
+MagicWeapons: {
+	CarnageRay: {
+		DisplayName: カーネイジレイ
+		Tooltip:
+			'''
+			光線が遠くに移動するにつれダメージが増加する(75% - 150%)
+			光線の周りにホーミングの血のオーブを発生させる
+			右クリック: 前方に突き刺し、マナを消費してホーミングの血のオーブを発射する
+			武器スキル: 血の大剣
+			[KEY]: [LAPManaCost]マナと[LAPFocusCost]フォーカスポイントを消費し、前方に斬撃を放ち、多数のホーミングの血のオーブを放出する
+			'''
+	}
+
+	TerraRay: {
+		DisplayName: テラレイ
+		Tooltip:
+			'''
+			敵命中時に古代樹の枝に分裂する古代樹エッセンスのビームを発射する
+			光線が消えると追尾する自然の槍を発生させる
+			右クリック: 杖を振り、周囲とカーソル位置に自然の槍と花の竜巻を召喚する
+			竜巻はプレイヤーに向かって回復弾を発射し、敵に命中するとより多くの槍に分裂する
+			武器スキル: 扶桑の祝福
+			3回使用可能、45秒ごとに1回チャージを回復する
+			[KEY]: [LAPManaCost]マナと[LAPFocusCost]フォーカスポイントを消費し、移動速度が低下、防御力ダメージを75%軽減し、チャージ完了後に自身と近くの敵4体の位置に竜巻を召喚する
+			[KEY] + 上キー: 使用回数が残っている場合、チャージ完了後に30%最大体力を回復し、30秒間の以下のバフを付与する:
+			ライフ自然再生+10 HP/s、防御力ダメージ軽減10%、ダメージ軽減率15%、防御力+30
+			「太陽の名において、我タオの道通らん」
+			'''
+	}
+
+	PlasmaRodAlt: {
+		DisplayName: プラズマロッド
+		Tooltip:
+			'''
+			命中時、8本のホーミングビームに分裂するプラズマビームを発射する
+			右クリック: 爆発する影の火球を発射する
+			武器スキル: マジックソード
+			[KEY]: [LAPFocusCost]フォーカスポイントを消費し、前方に斬撃を放つ
+			'''
+	}
+
+	NightsRayAlt: {
+		DisplayName: ナイトレイ
+		Tooltip:
+			'''
+			ダメージが敵に近づくほど増加する(200% - 75%)
+			分裂し、近くの敵を攻撃する暗黒のビームを発射する
+			右クリック:マナ消費し、発射物を跳ね返し、ダメージを最大400吸収するシールドを展開する
+			ダメージ軽減と防御力が増加する(マナが0のときは効果が減少)
+			武器スキル: 夜の祝福
+			[KEY]: [LAPFocusCost]フォーカスポイントを消費し、30秒間の総合的な攻撃と防御のバフを付与し、シールドを完全に回復する
+			'''
+	}
+
+	ElementRayAlt: {
+		DisplayName: エレメンタルレイ
+		Tooltip:
+			'''
+			純粋なエレメンタルビームを発射する
+			右クリックで現在の特殊アビリティモードを切り替え可能
+			それぞれのモードには異なる攻撃スタイルと特殊能力が与えられる
+			[KEY]キーで攻撃モードを切り替え
+			[UCAElementRayReplaceKey]
+			'''
+	}
+
+	ElementRayMisc:
+		'''
+		[ItemIconKey][c/E2E4F4:複合モード]
+		敵命中時にソーラー爆発とネビュラエネルギーを発生させる
+		ビーム消滅時にスターダストの破片を発生させ、敵を攻撃する
+		背後からボルテックスミサイルを発射し敵を追跡する
+		[ItemIconKey][c/E2E4F4:武器スキル: 輝かしき生命]
+		[LAPManaCost]マナ消費し、杖を掲げその後、最大体力の5%を回復、10秒間ライフ自然再生が15HP/s上昇する
+		'''
+	ElementRaySolor:
+		'''
+		[ItemIconKey][c/FFA500:ソーラーモード]
+		敵命中時にフレア爆発を引き起こす
+		同時に大量のフレアボールを発射する
+		[ItemIconKey][c/FFA500:武器スキル: 陽光の剣]
+		[LAPManaCost]マナ消費しチャージを開始、その後右クリックを離し前方を切り裂き、100倍のダメージを与える
+		ダメージは命中した敵の数に応じて減少し、最低で10倍のダメージになる
+		敵に命中すると+30の防御力と15%の防御力ダメージ軽減を短時間付与する
+		'''
+	ElementRayVortex:
+		'''
+		[ItemIconKey][c/66CDAA:ボルテックスモード]
+		背後からボルテックスミサイルを発射し敵を追跡する
+		ビーム消滅後に最も近くの敵に雷撃を放つ
+		[ItemIconKey][c/66CDAA:武器スキル: 雷鳴の大嵐]
+		[LAPManaCost]マナ消費しチャージを開始し、チャージ完了後に周囲に多数のボルテックスミサイルをランダムに発射する
+		発動後短時間ダメージが1.1倍になる
+		'''
+	ElementRayNebula:
+		'''
+		[ItemIconKey][c/FF00FF:ネビュラモード]
+		敵命中時にネビュラエネルギーをより多く発生させる
+		周囲からネビュラエネルギーを発生させ敵を追跡する
+		[ItemIconKey][c/FF00FF:武器スキル: 星雲の水晶雨]
+		[LAPManaCost]マナ消費しチャージを開始し、短時間後に多数の宇宙クリスタルを前方に発射する
+		クリスタルが敵に命中すると、ネビュラブーストバフと回復弾を召喚する
+		'''
+	ElementRayStarDust:
+		'''
+		[ItemIconKey][c/FF00FF:スターダストモード]
+		敵命中時にスターダストレーザーをより多く発生させる
+		ビーム消滅時にスターダストの破片を発生させ、敵を攻撃する
+		[ItemIconKey][c/4169E1:武器スキル: 魂の流星群]
+		[LAPManaCost]マナ消費しチャージを開始し、短時間後に多数の魂の流星を前方に発射する
+		発動後、短時間マナ消費が半分になる
+		'''
+
+	ShadowBoltStaffAlt: {
+		DisplayName: シャドウボルトスタッフ
+		Tooltip:
+			'''
+			純粋なるシャドウボルトを発射する
+			敵を貫通するほどビームのダメージが増加する(15%)
+			右クリック: [LAPFocusCost]フォーカスポイントを消費し、すべての影を自分の側にテレポートさせる
+			武器スキル: ソウルプレスの影
+			[KEY]キーを押すと、[LAPManaCost]マナを消費し、短時間チャージ後にプレイヤーの周囲に8体の影を召喚する
+			プレイヤーは30秒間、攻撃を1度だけ回避できる
+			回避後は180フレームの間無敵になる
+			30秒のクールダウン
+			'''
+	}
+
+	SoulPiercerAlt: {
+		DisplayName: ソウルピアサー
+		Tooltip:
+			'''
+			追加の光線と回復オーブを生み出す宇宙線を発射する
+			右クリック: 杖を振るい、カーソル位置に宇宙の斬撃を発生させ死の刻印を20秒間付与する
+			武器スキル: 魂の大剣
+			[LAPManaCost]マナ消費し前方に斬撃を放つ
+			チャージ中および斬撃中はダメージ軽減率を50%得る
+			敵に命中すると40フレームの無敵時間を得る
+			'''
+	}
+}
+
+Projectiles: {
+	CarnageHeal: {
+		DisplayName: Carnage Heal
+	}
+
+	CarnageRaySkillProj: {
+		DisplayName: Carnage
+	}
+
+	TerraHeal: {
+		DisplayName: Terra Heal
+	}
+
+	TestHeldProj: {
+		DisplayName: Test Held Proj
+	}
+
+	NebulaHeal: {
+		DisplayName: Nebula Heal
+	}
+
+	CosmicHeal: {
+		DisplayName: Cosmic Heal
+	}
+
+	Rogue: {
+		DivineHammerFlyingUpProj: {
+			DisplayName: Divine Hammer Flying Up Proj
+		}
+
+		ThunderHammerFallenDown: {
+			DisplayName: Thunder Hammer Fallen Down
+		}
+
+		BlazingEruption: {
+			DisplayName: Blazing Eruption
+		}
+
+		BlazingHammerProj: {
+			DisplayName: Blazing Hammer Proj
+		}
+
+		BlazingVolcano: {
+			DisplayName: Blazing Volcano
+		}
+
+		DivineHammerProj: {
+			DisplayName: Divine Hammer Proj
+		}
+
+		NebulaEnegry: {
+			DisplayName: Nebula Enegry
+		}
+
+		PhantasmalHammer: {
+			DisplayName: Phantasmal Hammer
+		}
+
+		PhantasmalHammerClone: {
+			DisplayName: Phantasmal Hammer Clone
+		}
+
+		DarkEnergy: {
+			DisplayName: Dark Energy
+		}
+
+		NightmareArrow: {
+			DisplayName: Nightmare Arrow
+		}
+
+		NightmareHammerProj: {
+			DisplayName: Nightmare Hammer Proj
+		}
+
+		HolyJudgement: {
+			DisplayName: Holy Judgement
+		}
+
+		HolyJudgementMounted: {
+			DisplayName: Holy Judgement Mounted
+		}
+
+		PunishmentHammerProj: {
+			DisplayName: Punishment Hammer Proj
+		}
+
+		PunishmentStar: {
+			DisplayName: Punishment Star
+		}
+
+		PunishmentStarMounted: {
+			DisplayName: Punishment Star Mounted
+		}
+
+		ThunderHammerProj: {
+			DisplayName: Thunder Hammer Proj
+		}
+
+		ThunderHandler: {
+			DisplayName: Thunder Handler
+		}
+
+		ThunderPlatform: {
+			DisplayName: Thunder Platform
+		}
+
+		PhantomRay: {
+			DisplayName: Phantom Ray
+		}
+
+		PunishmentHammerLock: {
+			DisplayName: Punishment Hammer Lock
+		}
+
+		BlazingHammerProjClone: {
+			DisplayName: Blazing Hammer Proj Clone
+		}
+
+		DivineHammerProjClone: {
+			DisplayName: Divine Hammer Proj Clone
+		}
+
+		MainProjClone: {
+			DisplayName: Main Proj Clone
+		}
+
+		NightmareHammerProjClone: {
+			DisplayName: Nightmare Hammer Proj Clone
+		}
+
+		NightmareHammerMinion: {
+			DisplayName: Nightmare Hammer Minion
+		}
+
+		MeldStreak: {
+			DisplayName: Meld Streak
+		}
+	}
+}
+
+UIText: {
+	ElementalRayUIInfoSolor: ソーラーモードに切り替え
+	ElementalRayUIInfoMisc: 複合モードに切り替え
+	ElementalRayUIInfoVortex: ボルテックスモードに切り替え
+	ElementalRayUIInfoNebula: ネビュラモードに切り替え
+	ElementalRayUIInfoStarDust: スターダストモードに切り替え
+}
+
+Weapons: {
+	Rogue: {
+		BlazingHammer: {
+			DisplayName: ブレイジングアンカー
+			Tooltip:
+				'''
+				[c/F0E68C:Previous��][c/DC143C:堕落した聖騎士のハンマー(ローグ用)][i:CalamityMod/FallenPaladinsHammer]
+				命中時に爆発する強力な燃え盛るハンマーを投げる
+				ステルス攻撃は、戻る際に再び命中しハンマーを敵に固定する
+				敵に取り付いた後、高頻度で攻撃し爆発を繰り返す
+				ステルス攻撃は常に上方向に火球を発射する
+				固定された状態で右クリックすると、ハンマーがカーソルに向かって突進し、固定された敵に再び攻撃する
+				ハンマー消滅時に、巨大な火柱を自動的に発生させる
+				'''
+
+			Color: {
+				Red: ピュアレッド
+				Blue: ロイヤルブルー
+				Gold: ゴールド
+				Purple: ダークパープル
+				Green: グリーン
+				IcyBlue: アイスブルー
+				Sakura: ライトピンク
+			}
+		}
+
+		DivineHammer: {
+			DisplayName: ディバインツイン
+			Tooltip:
+				'''
+				[c/F0E68C:Previous��][c/EE82EE:ギャラクシースマッシャー(ローグ用)][i:CalamityMod/GalaxySmasher]
+				強力な星々のハンマーを投げ、敵命中時にネビュラレイを発生させる
+				ステルス攻撃は、超高速の神々のハンマーを投げ、戻る際に敵に反撃する
+				敵命中時に2個の小ハンマーに分裂し、短時間ごに敵に貼りつく
+				小ハンマーが張り付いている間は、背後から複数の追尾する光の矢を召喚する
+				張り付きが終了すると、小ハンマーが戻り、もう一度攻撃する
+				'''
+		}
+
+		NightmareHammer: {
+			DisplayName: 瞑想する悪夢
+			Tooltip:
+				'''
+				[c/F0E68C:Previous��][c/87CEEB:ステラーコンテンプト(ローグ用)][i:CalamityMod/StellarContempt]
+				強力な悪夢のハンマーを投げ、敵命中時に悪夢の星を発生させる
+				ステルス攻撃は、ハンマーが命中した敵の上に乗り、連続的にメルドエネルギーと悪夢の星を放出する
+				敵の上に乗っているハンマーが存在するか攻撃が外れると、悪夢のハンマーが手元に戻ってミニオンに変身する
+				ミニオンになったハンマーは持ち主の動きを模倣し、攻撃を強化し武器を切り替えても消滅しなくなる
+				敵に乗ったハンマーとミニオンのハンマーは同時に1つしか存在できない
+				[c/BA55D3:悪夢で瞑想し、流星を引き寄せ、敵対する者を悪魔に引きずり食らうのだ。]
+				'''
+			ShimmerTooltip: シマーに投げ込むことで何かが起こりそうだ...
+		}
+
+		PunishmentHammer: {
+			DisplayName: 神聖なる断罪
+			Tooltip:
+				'''
+				[c/F0E68C:Previous��][c/FFD700:ムテキハンマー(ローグ用)][i:CalamityMod/Pwnagehammer]
+				裁きのハンマーを投げ、命中時に聖なるノヴァを発生させる
+				ステルス攻撃は、戻る際に敵を攻撃し、敵に張り付き継続的にダメージを与える
+				張り付いている間は、追尾する裁きの星を少し遅れて放出する
+				張り付いているハンマーが存在する場合、ステルス攻撃が戻る際に複数の追尾する聖なるノヴァに変化する
+				張り付きが終了すると、裁きのハンマーは十字の裁きの光を放つ
+				全攻撃が聖なる炎を付与する
+				'''
+		}
+
+		ThunderHammer: {
+			DisplayName: サンダーハンマー
+			Tooltip: ""
+			WeaponSkill: ""
+			Minion: ""
+		}
+
+		Hammer_General:
+			'''
+			[c/BA55D3:特殊アビリティ:]
+			ステルス攻撃が有効、最大ステルス+10、武器切り替え時にステルスがリセットされる
+			最大ステルスを追加ライフに変換する
+			ステルス攻撃でダメージが増加しなくなる
+			ステルス攻撃が最大ステルスの半分しか消費しなくなる(この効果は重複しない)
+			'''
+		HoldAltToShow: ""
+
+		CrimsonScythe: {
+			DisplayName: Tlipocaz's Scythe - UnOffcial
+			Tooltip: ""
+		}
+	}
+}
+
