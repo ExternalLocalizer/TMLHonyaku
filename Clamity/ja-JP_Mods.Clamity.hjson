@@ -1,0 +1,1510 @@
+Items: {
+	Misc: {
+		WitherOnAStick: {
+			Tooltip:
+				'''
+				このアイテムの見た目が気に入らないというが
+				これが現在のAlicorn on a Stick(冷心のつらら)の見た目である
+				「実に厄『貝』」
+				'''
+			DisplayName: 枯れた棒
+		}
+
+		RealityRelocator: {
+			Tooltip:
+				'''
+				[KEY] を押してマウスの位置にテレポートする
+				テレポート後30フレームの間、落下速度が2倍になる
+				インベントリにあるときのみ動作する
+				「一瞬でそこに行くよ」
+				'''
+			DisplayName: 現実性リロケーター
+		}
+	}
+
+	Materials: {
+		CoralskinFoolfish: {
+			Tooltip: 「擬態こそが自然で最強の防御策だ」
+			DisplayName: サンゴハダウマヅラハギ
+		}
+
+		RarePlanteraFruit: {
+			Tooltip: ""
+			DisplayName: レアなプランテラの果実
+		}
+
+		MetalFeather: {
+			DisplayName: 金属の羽根
+			Tooltip: ""
+		}
+
+		EnchantedMetal: {
+			Tooltip: テラリアのソウルが吹き込まれた金属
+			DisplayName: 魔法の金属
+		}
+
+		EssenceOfFlame: {
+			Tooltip: 高温の生き物のエッセンス
+			DisplayName: イグニスのエッセンス
+		}
+
+		CoreOfFlame: {
+			Tooltip: ""
+			DisplayName: イグニスの核
+		}
+
+		ClamitousPearl: {
+			Tooltip: 「変身！ハマグリレンジャー！」
+			DisplayName: 厄貝の真珠
+		}
+
+		HuskOfCalamity: {
+			Tooltip: 地獄の軟体動物の残骸
+			DisplayName: 災厄の殻
+		}
+	}
+
+	Lore: {
+		LoreWallOfBronze: {
+			Lore:
+				'''
+				古代の叡智を結集し作られた地底の人工コア。
+				この巨大な壁は対となる生体の壁が力尽きた後もテラリアのコアを管理する役目を全うしていた。
+
+				強大な脅威や危機から地獄を保護する偉大なる古代の発明で、オーリックエネルギーが発する高熱は現生物の思考を温める。
+				古代の建築家はドラゴンの時代より古くから存在する種族であり、最も優れた技術者であった。
+				'''
+			DisplayName: ウォール・オブ・ブロンズ
+		}
+
+		LorePyrogen: {
+			Lore:
+				'''
+				鍛冶神が生み出した古代炉で、創造主とオーリックソウルを共にしていた。 
+				だが私による遠征により彼は倒れた。私はもう片方のソウルを回収しなかったため、炉は制御を失い、意識を持つに至った。
+				'''
+			DisplayName: パイロジェン
+		}
+
+		LoreWhat: {
+			Lore:
+				'''
+				黒の魔女がイルメリスを焼き払い、砂と化してから幾年も経過した。
+				生き延びた生物たちの多くは二つのグループに分かたれた。そのうちのいくつかは、新たに形成された砂漠で独特の生態系を構築し、適応しようとしていた。
+				そして残りの者たちは、かつて栄えた王国の面影だけが残る場所――現在「失われた海」と呼ばれる地――にとどまった。
+
+				最も強大な力を持つ生物たちは―一見すると生命に適さない場所――「アザフラ」――に住処を見つけた。
+				一匹の貝は、大量の硫黄をその魔法を宿す真珠に取り込んだ。これがこの貝が呪われている理由であると同時に、前代未聞の力を得た理由でもある。  
+				そして彼の名は至高の貝、「クラミタス」である。
+				'''
+			DisplayName: クラミタス
+		}
+	}
+
+	Fishing: {
+		FishOfFlame: {
+			DisplayName: イグニスの魚
+			Tooltip: <right> でエッセンスを取り出す
+		}
+
+		WulfrumLure: {
+			Tooltip:
+				'''
+				3個の浮きを同時に飛ばす
+				<right> を押して [i:CalamityMod/EnergyCore] エナジーコアを消費し竿をスーパーチャージする
+				スーパーチャージ中は7個の浮きを同時に飛ばしフィッシング・パワーが70%増加する
+				スーパーチャージされた竿の効果は10回発動する
+				[c/83B87E:「スクラップの切れ端にしては頑丈！]
+				[c/83B87E:... ボディーのほうは違ったけど。」]
+				'''
+			DisplayName: ウルフラムのルアー
+		}
+	}
+
+	Armor: {
+		FrozenHellstone: {
+			FrozenHellstoneChestplate: {
+				DisplayName: 凍結の胸当て
+				Tooltip:
+					'''
+					真・近接ダメージが20%増加、近接攻撃速度が20%増加
+					敵に狙われやすくなる
+					'''
+			}
+
+			FrozenHellstoneGreaves: {
+				DisplayName: 凍結の装甲靴
+				Tooltip:
+					'''
+					真・近接ダメージが20%増加、最大ライフが75増加
+					敵に狙われやすくなる
+					'''
+			}
+
+			FrozenHellstoneVisor: {
+				SetBonus:
+					'''
+					凍結耐性
+					{0} を押して攻撃をパリィできる氷の盾を作り出す
+					パリィに失敗すると過冷却される
+					'''
+				DisplayName: 凍結の面頬
+				Tooltip:
+					'''
+					真・近接ダメージが20%増加
+					真・近接攻撃が凍傷を付与する
+					敵に狙われやすくなる
+					'''
+			}
+		}
+
+		Vanity: {
+			WoBMask: {
+				DisplayName: ウォール・オブ・ブロンズのマスク
+				Tooltip: ""
+			}
+
+			PyrogenMask: {
+				DisplayName: パイロジェンのマスク
+				Tooltip: ""
+			}
+		}
+
+		Clamitas: {
+			ClamitasShellplate: {
+				Tooltip:
+					'''
+					ダメージが12%増加、クリティカル率が7%増加
+					オーラ内の敵の移動速度が低下する
+					ボス生存中は機能しない
+					深淵での視認性が僅かに向上する
+					'''
+				DisplayName: クラミタスのシェルプレート
+			}
+
+			ClamitasShellmet: {
+				SetBonus:
+					'''
+					三匹の貝が戦闘を支援する
+					最大ミニオン数が4増加
+					'''
+				Tooltip:
+					'''
+					ダメージが6%増加、クリティカル率が5%増加
+					定期的にプリズムシャードを降らせ敵を短時間スタンさせる
+					'''
+				DisplayName: クラミタスのシェルメット
+			}
+
+			ClamitasShelleggings: {
+				Tooltip: ダメージが13%増加、クリティカル率が5%増加
+				DisplayName: クラミタスのシェルレギンス
+			}
+		}
+	}
+
+	Ammo: {
+		Solution: {
+			CyanSolution: {
+				Tooltip: ""
+				DisplayName: シアンの環境変更液
+			}
+		}
+
+		Arrow: {
+			FrostfireArrow: {
+				Tooltip: 命中時に爆発する
+				DisplayName: フロストファイアの矢
+			}
+
+			A: a
+		}
+
+		Dart: {
+			ProfanedDart: {
+				Tooltip:
+					'''
+					敵の間を跳ねる
+					命中時に爆発する
+					'''
+				DisplayName: 冒涜のダーツ
+			}
+		}
+	}
+
+	Accessories: {
+		SkullOfTheBloodGod: {
+			Tooltip:
+				'''
+				ダメージが20%増加、クリティカル率が13%増加
+				クリティカル攻撃が爆発し、敵を燃え上がらせて煉獄の炎を付与する
+				敵の接触ダメージを半減する(20秒のクールダウン)
+				被ダメージ時に煉獄の炎を降らせる
+				煉獄の炎から受けるダメージを大幅に軽減する
+				'''
+			DisplayName: 血の神の頭蓋骨
+		}
+
+		CyanPearl: {
+			Tooltip:
+				'''
+				召喚ダメージ+7%
+				セントリーの召喚ダメージペナルティを半減
+				'''
+			DisplayName: シアンの真珠
+		}
+
+		BlightedSpyglass: {
+			Tooltip:
+				'''
+				最大セントリー数+1
+				セントリーが煉獄の炎を付与する
+				'''
+			DisplayName: 荒廃した望遠鏡
+		}
+
+		SharpAmethyst: {
+			Tooltip:
+				'''
+				矢を発射した時に追加の宝石の矢を生成する可能性がある
+				宝石の矢は矢ダメージの20%のダメージを与える
+				'''
+			DisplayName: 鋭利なアメジスト
+		}
+
+		MagicDiamond: {
+			Tooltip:
+				'''
+				魔法ダメージを与えると小型のバリアを生成する
+				魔法攻撃を行う度にバリアの耐久性が上昇する
+				バリアの耐久度は最大20まで上昇する
+				'''
+			DisplayName: マジックダイヤモンド
+		}
+
+		TheSubcommunity: {
+			StatsList:
+				'''
+				採掘速度が{0}%増加する
+				運が{1}増加、フィッシング・パワーが{2}増加する
+				タイルと壁の設置速度が{3}%増加、 設置範囲が{4}増加する
+				ボスを倒すとパワー増加({5}%)
+				'''
+			Tooltip:
+				'''
+				[STATS]
+				「(Calamity)のコミュニティの一部。」
+				「独特の得意分野を持っている。」
+				[c/B00BA5:このAddonを現実のものにしてくれた全ての支援者に感謝します！]
+				'''
+			DisplayName: ザ・サブコミュニティー
+		}
+
+		SeaShell: {
+			Tooltip: 水浸し状態の時、防御力、ダメージ軽減率、移動速度が増加する
+			DisplayName: シーシェル
+		}
+
+		PearlOfFishCalamity: {
+			Tooltip:
+				'''
+				フィッシング・パワーが50増加
+				箱を釣り上げる確率が増加
+				ポーション素材の魚を釣り上げる確率が大幅に増加
+				ポーション素材の魚の漁獲量が増加
+				ウォーターエレメンタルが守ってくれる
+				エレメンタルは装備者の上に留まり、水の槍、氷の霧、ト音符弾を近くの敵に発射する
+				'''
+			DisplayName: フィッシュカラミティの真珠
+		}
+
+		Wings: {
+			MetalWings: {
+				Tooltip:
+					'''
+					水平移動速度: 10.50
+					加速度倍率: 2.8
+					素晴らしい垂直方向のスピード
+					飛行時間: 280
+					被ダメージ時飛行時間を回復する
+					飛行時間の回復量は被ダメージの最大体力割合を2で割った数に値する
+					凍結の防具着用時に周囲の味方チームの防御力を20増加させる
+					'''
+				DisplayName: 金属の翼
+			}
+		}
+
+		EidolonAmulet: {
+			Tooltip:
+				'''
+				激流、圧潰、被曝に対する耐性
+				全攻撃が圧潰を付与し酸の粒を降らせる
+				水浸し状態の時、採掘速度が15%増加、ダメージが10%増加する
+				深淵にいる間、最大ライフが25%増加
+				水中でじっとしていると呼吸ができる
+				この効果は深淵では無効化される
+				深淵での視認性を向上させる
+				'''
+			DisplayName: 幽玄のアミュレット
+		}
+
+		RedDie: {
+			Tooltip:
+				'''
+				運が乗算で1.5倍になる
+				運が追加で20%増加
+				「リロールの準備はいいかな？」
+				'''
+			DisplayName: 赤のダイス
+		}
+
+		IcicleRing: {
+			Tooltip:
+				'''
+				マナ消費量が0になる
+				着用者は常に痛みのダメージを受ける
+				'''
+			DisplayName: 氷柱の指輪
+		}
+
+		SupremeBarrier: {
+			Tooltip:
+				'''
+				宇宙の煉獄で強化された敵を貫通するダッシュが発動可能になる
+				このダッシュはダメージを受けることなく敵を通り抜けられる
+				ノックバックと燃えるブロックに対する耐性
+				神殺しの炎を含む多種多様なデバフに対する耐性
+				無敵時間を延長し、被ダメージで星を降らせる
+				ライフが低いほど追加で無敵時間を延ばす
+				この効果は最大HP時は10フレーム、HP25%以下で最大40フレームまで増加する
+				200以上のダメージを受けると追加で30フレーム無敵時間を延長する
+				ライフが50%以下のとき、持ち主の周囲にバリアを張り、受けるダメージを軽減する
+				現在ライフが25%の時、自チームのプレイヤーの被ダメージの25%を吸収する
+				'''
+			DisplayName: 至高の防護壁
+		}
+
+		HellFlare: {
+			Tooltip:
+				'''
+				全ての攻撃と発射物がヘルファイアを付与する
+				燃えている！とヘルファイアに対する耐性
+				ライフが75%を超えると、クリティカル率が10%増加する
+				ライフが25%以下になると、ダメージ軽減率が10%増加する
+				寒冷攻撃に対する耐性を与える
+				'''
+			DisplayName: ヘルフレア
+		}
+
+		PyroStone: {
+			Tooltip:
+				'''
+				熱関連デバフのダメージを乗算で1.5倍する
+				接触時に敵を着火させる回転する火のシールドを生成する
+				「古代の遺物の一つ」
+				'''
+			DisplayName: パイロストーン
+		}
+
+		DraculasCharm: {
+			Tooltip:
+				'''
+				ローグダメージが15%増加、最大ステルス+10
+				ステルス攻撃のダメージが8%増加し、ライフを吸収するヴァンパイアの群れを召喚し老朽化を付与する
+				ローグの投射物がクリティカル時ライフを吸収し、爆発して追尾する魂を生み出す
+				'''
+			DisplayName: ドラキュラのチャーム
+		}
+
+		SoulOfPyrogen: {
+			Tooltip:
+				'''
+				近接ダメージとローグダメージが10%増加
+				真・近接攻撃とステルス攻撃が地獄の底から槍を召喚する
+				'''
+			DisplayName: パイロジェンのソウル
+		}
+	}
+
+	Weapons: {
+		Typeless: {
+			GoldenGun: {
+				DisplayName: 黄金銃
+				Tooltip: ""
+			}
+		}
+
+		Summon: {
+			PlanterrorStaff: {
+				Tooltip:
+					'''
+					小さいガンテラがあなたを守る
+					射撃する弾丸のタイプはプレイヤーの現在の弾丸タイプを参照する
+					ミニオン召喚枠を4消費し同時に1体しか召喚できない
+					'''
+				DisplayName: プランテロの杖
+			}
+
+			HellsBells: {
+				Tooltip: カーソルを追いかける黒曜の鐘を召喚する
+				DisplayName: ヘルズ・ベルズ
+			}
+
+			HellstoneShellfishStaff: {
+				Tooltip:
+					'''
+					共に戦うヘルストーン貝を召喚する
+					それぞれのカイはミニオン召喚枠を2消費する
+					'''
+				DisplayName: ヘルストーン貝の杖
+			}
+		}
+
+		Rogue: {
+			StarfishFromTheDepth: {
+				Tooltip:
+					'''
+					ヒトデは5回攻撃するまで近くの敵を追尾する
+					ステルス攻撃では同時に3体のヒトデを生成する
+					'''
+				DisplayName: 深海のヒトデ
+			}
+
+			AuricKunai: {
+				Tooltip:
+					'''
+					低射程のくないを高速で投げる
+					ステルス攻撃では最も近い敵に5本の稲妻を放つ
+					'''
+				DisplayName: オーリックのくない
+			}
+
+			ExoBall: {
+				Tooltip:
+					'''
+					最大10個の高速で追尾するスパイクボールを投げる
+					敵に張り付いて局所的なエクソビームの嵐を呼び出す
+					ステルス攻撃ではより速く追尾しビームをより高いレートで呼び出す
+					<right> を押し存在する全てのスパイクボールを消滅させる
+					'''
+				DisplayName: エクソボール
+			}
+
+			FrozenStarShuriken: {
+				Tooltip:
+					'''
+					命中時に追尾する霧の弾を発射する
+					ステルス攻撃ではより多く弾を生成する
+					'''
+				DisplayName: 凍った星の手裏剣
+			}
+
+			WulfrumShockCutter: {
+				Tooltip: ""
+				DisplayName: ウルフラムショックカッター
+			}
+
+			MoltenPiercer: {
+				Tooltip:
+					'''
+					燃え盛るダガーを複数投げる
+					ステルス攻撃、ダガーが飛翔中に燃え盛る黒曜石の破片を生成する
+					'''
+				DisplayName: モルテンピアサー
+			}
+		}
+
+		Ranged: {
+			WitheredBoneBow: {
+				Tooltip:
+					'''
+					木の矢を枯死の骨の矢に変換する
+					骨の矢プレイヤーの背後に複製を作り出し最大2回ヒットする
+					骨の矢は防御力を15無視し、枯渇を付与する
+					「誰かタコスって言いました？」
+					'''
+				DisplayName: ウィザーベイン
+			}
+
+			RoseBow: {
+				Tooltip:
+					'''
+					「たとえ私の姿が見えなくても、声が聞こえなくても、それでもあなたのそばにいる」
+					拡散する矢と追尾する花弁を発射する
+					'''
+				DisplayName: ローズボウ
+			}
+
+			Obsidigun: {
+				Tooltip: マスケットの弾丸を命中時たくさんの破片になる高速度の黒曜石の弾丸に変換する
+				DisplayName: オブシディガン
+			}
+
+			DepthsEchoRifle: {
+				Tooltip: マスケットの弾丸を追尾するブリムストーンボルトに変換する
+				DisplayName: 深淵のエコーライフル
+			}
+		}
+
+		Melee: {
+			Hyperion: {
+				Tooltip: ""
+				DisplayName: ハイペリオン
+			}
+
+			Everest: {
+				Tooltip: 拡散する火山の火球を発射する
+				DisplayName: エベレスト
+			}
+
+			FrozenVolcano: {
+				Tooltip: 炎を発射する
+				DisplayName: フローズンボルケーノ
+			}
+
+			WulfrumLeechDagger: {
+				Tooltip:
+					'''
+					命中時敵のライフを数％吸収する
+					クリティカルヒットしない
+					短剣命中時、ダガーを消費しない
+					'''
+				DisplayName: ウルフラムリーチダガー
+			}
+
+			Disease: {
+				Tooltip: 短剣命中時、プレイグシーカーを放つ
+				DisplayName: ディジーズ
+			}
+
+			RGBMurasama: {
+				Tooltip:
+					'''
+					強大な敵をも切り裂く高周波ブレード
+					三回目の振りで絶大なダメージを与える
+					この剣を解き放つために、デバウアー・オブ・ゴッドを倒し、己の価値を証明せよ
+					「3000$も支払った。」
+					'''
+				DisplayName: ゲーミングムラサマ
+			}
+
+			SearedShredder: {
+				Tooltip: 敵を追尾する炎の鎌を発射する
+				DisplayName: 焼熱のシュレッダー
+			}
+
+			ClamitasCrusher: {
+				Tooltip:
+					'''
+					敵を短時間スタンさせる中サイズのクラミタスを発射する
+					発射軌道上と敵命中時に追尾するブリムストーンボルトを生成する
+					空中に投げてしばらくすると重力に影響され落下時間に応じてダメージが上昇する
+					'''
+				DisplayName: クラミタスクラッシャー
+			}
+		}
+
+		Magic: {
+			EtherealKnives: {
+				Tooltip: 使用者のマナを回復するナイフを連続で投げる
+				DisplayName: エセリアルナイフ
+			}
+
+			MoonstoneKnives: {
+				Tooltip: 使用者のマナを回復する大量のナイフを連続で投げる
+				DisplayName: ムーンストーンナイフ
+			}
+
+			TheGenerator: {
+				Tooltip: 近くの敵に追尾し引き寄せるマスタークラウンシジルを発射する
+				DisplayName: ザ・ジェネレーター
+			}
+
+			Unicron: {
+				Tooltip:
+					'''
+					持続するレーザーの束を発射しつつ、使用者の周りを回る4体のウィングマンを生み出しカーソル位置に向かってレーザー、またはグレネードを発射する
+					発射中に <right> を押すことで敵命中時に分裂するオミクロンビームを発射する
+					ユニクロンビーム発射後はウィングマンがグレネードを2個づつ発射する
+					オミクロンビーム発射後すぐに敵に命中するとダメージが大幅に上昇し、分裂しなくなる
+					'''
+				DisplayName: ユニクロン
+			}
+
+			OmegaRay: {
+				Tooltip: 5本のエネルギーとレーザーが込められたガンマビームで全てを崩壊させる
+				DisplayName: オメガレイ
+			}
+		}
+
+		Classless: {
+			Celesticus: {
+				DisplayName: セレスティカス
+				Tooltip:
+					'''
+					爆発し敵の移動速度を下げるクリスタルを発射する
+					この武器は全ダメージステータスにより強化される
+					'''
+			}
+
+			EyeOfNova: {
+				DisplayName: アイ・オブ・ノヴァ
+				Tooltip:
+					'''
+					敵のダメージ軽減率、防御力、移動速度を低下させる強力なエクソビームを発射する
+					命中時にマナとライフを回復する
+					この武器は全ダメージステータスにより強化される
+					'''
+			}
+
+			TrashOfMagnus: {
+				Tooltip:
+					'''
+					マグナスによる生物兵器の試作品
+					彼の尽力も虚しく、それは失敗とされ闇に葬られた
+					疫病の弾を発射し疫病を付与する
+					この武器は全ダメージステータスにより強化される
+					'''
+				DisplayName: トラッシュ・オブ・マグナス
+			}
+
+			AMS: {
+				Tooltip:
+					'''
+					マナを消費して爆弾を生成する
+					右クリックで爆発半径を拡大させる(最大5回)
+					'''
+				DisplayName: AMS
+			}
+		}
+	}
+
+	Mounts: {
+		PlagueStation: {
+			Tooltip:
+				'''
+				飛行する心地よい少しだけ速い疫病の玉座を実体化させる
+				マウントに座ったまま [KEY] を押し続けると、より正確にゆっくりと移動できる
+				「厄介ファンゲーマーはウィルスゲーマーだ」
+				'''
+			DisplayName: プレイグステーション
+		}
+
+		FlameCube: {
+			Tooltip:
+				'''
+				非常に居心地の良い、非常に軽快な空飛ぶカラミタスの玉座を召喚する
+				マウントに座ったまま [KEY] を押し続けると、より正確にゆっくりと移動できる
+				「快適なゲーマーこそ真に危険なゲーマーだ」
+				'''
+			DisplayName: フレイムキューブ
+		}
+	}
+
+	TreasureBags: {
+		WoBTreasureBag: {
+			DisplayName: お宝クレート (ウォール・オブ・ブロンズ)
+			Tooltip: 右クリックで開く
+		}
+
+		PyrogenBag: {
+			DisplayName: お宝バッグ (パイロジェン)
+			Tooltip: 右クリックで開く
+		}
+	}
+
+	Tools: {
+		TheWOBbler: {
+			DisplayName: ぱしぱしハンマー
+			Tooltip: 右クリックでたくさんの氷山を飛ばす
+		}
+
+		LargeFather: {
+			DisplayName: ラージファーザー
+			Tooltip: 長射程の光のビームで採掘する
+		}
+	}
+
+	SummonBoss: {
+		WoBSummonItem: {
+			DisplayName: 技術的代替のブロンズ装置
+			Tooltip:
+				'''
+				デバッグ用アイテム
+				地底でウォール・オブ・ブロンズを召喚する
+				消費されない
+				'''
+		}
+
+		AncientConsole: {
+			Tooltip:
+				'''
+				タイルに右クリックしてウォール・オブ・ブロンズを召喚する
+				地底で機能する
+				ウォール・オブ・ブロンズは地底から離れるとデスポーンする
+				注意: マルチプレイ中はこのタイルを使う代わりに召喚アイテムを使ってください。(タイルバージョンから作成できます)
+				'''
+			DisplayName: 古代の端末
+		}
+
+		PyroKey: {
+			Tooltip:
+				'''
+				砂漠でパイロジェンを召喚する
+				右クリックで召喚アニメーションなしでスポーンさせる
+				砂漠の外に出ると発狂する
+				消費されない
+				「炉の箱用の鍵」
+				'''
+			DisplayName: 高熱の鍵
+		}
+
+		EyeofStupidity: {
+			Tooltip:
+				'''
+				Supreme製ゼロックの服を着た伝説の至高中の至高のカラミタスを召喚する
+				ハロー、AdamChromeE
+				'''
+			DisplayName: おバカの目
+		}
+
+		ClamitasSummoningItem: {
+			Tooltip:
+				'''
+				煉獄の岩山でクラミタスを召喚する
+				消費されない
+				'''
+			DisplayName: 厄貝の殻
+		}
+	}
+
+	Potions: {
+		TitanScalePotion: {
+			Tooltip:
+				'''
+				ノックバックが増加、防御力が5増加、ダメージ軽減率が5%増加
+				真・近接攻撃直後の数秒間防御力が20増加、ダメージ軽減が5%増加する
+				'''
+			DisplayName: 巨人肌のポーション
+		}
+
+		SupremeLuckPotion: {
+			Tooltip: 使用者の運を大幅に上昇させる
+			DisplayName: 至高の運のポーション
+		}
+
+		Foods: {
+			Calamitea: {
+				Tooltip:
+					'''
+					全ステータスを大幅に強化
+					「何たる厄災」
+					'''
+				DisplayName: カラミ・ティー
+			}
+
+			Barolegs: {
+				Tooltip:
+					'''
+					全ステータスを多様に強化
+					海洋で見つかるウォーターエレメンタルとその巨獣を倒すと旨味が増す
+					ダンジョンで見つかる悪霊を倒すと、その旨味がさらに増す
+					「この肉、どうやらバロクロウのものらしい！
+					まあ、どのみち腐っていることに変わりはないが。」
+					'''
+				DisplayName: 深海生物の足
+			}
+
+			ClamChowder: {
+				Tooltip:
+					'''
+					全ステータスを中程度強化
+					「新・イルメリス流」
+					'''
+				DisplayName: クラムチャウダー
+			}
+
+			SlagspitterPauldron: {
+				Tooltip: 全ステータスを少し強化
+				DisplayName: スラグスピッター・ポールドロン
+			}
+
+			EldercherryJuice: {
+				Tooltip: 全ステータスを大幅に強化
+				DisplayName: エルダーチェリージュース
+			}
+
+			Eldercherry: {
+				Tooltip: 全ステータスを中程度強化
+				DisplayName: エルダーチェリー
+			}
+
+			SoulBaguette: {
+				Tooltip:
+					'''
+					全ステータスを中程度強化
+					赤ワインがライフを250回復するようになるが、ライフ自然回復が2HP/s減少する
+					'''
+				DisplayName: ソウルバゲット
+			}
+
+			ExoBaguette: {
+				Tooltip:
+					'''
+					全ステータスを大幅に強化
+					赤ワインが250HP回復するようになるが、ライフ自然回復が2HP/s減少する
+					肝臓がやられるまでに飲める酒類が1増える
+					'''
+				DisplayName: エクソバゲット
+			}
+
+			AuricApple: {
+				Tooltip:
+					'''
+					1時間、全ステータスを少し強化する
+					「うん、俺の脳みそは腐り始めてると思う。オーリックソウルを『オーリックフルーツ』って読んじゃったから。」 - YuH
+					'''
+				DisplayName: オーリックアップル
+			}
+		}
+	}
+
+	Placeables: {
+		Pyroplate: {
+			DisplayName: パイロプレート
+			Tooltip: 異世界のエネルギーを共鳴させている
+		}
+
+		PyroplateWall: {
+			DisplayName: パイロプレートの壁
+			Tooltip: ""
+		}
+
+		FrozenAsh: {
+			DisplayName: 凍った灰
+			Tooltip: ""
+		}
+
+		FrozenHellstone: {
+			DisplayName: 凍ったヘルストーン
+			Tooltip: ""
+		}
+
+		Trophies: {
+			WoBTrophy: {
+				DisplayName: ウォール・オブ・ブロンズのトロフィー
+				Tooltip: ""
+			}
+
+			PyrogenTrophy: {
+				DisplayName: パイロジェンのトロフィー
+				Tooltip: ""
+			}
+		}
+
+		Relics: {
+			WoBRelic: {
+				Tooltip: ""
+				DisplayName: ウォール・オブ・ブロンズのレリック
+			}
+
+			ClamitasRelic: {
+				Tooltip: ヘルストーンにより作られている
+				DisplayName: クラミタスのレリック
+			}
+
+			PyrogenRelic: {
+				Tooltip: ""
+				DisplayName: パイロジェンのレリック
+			}
+		}
+	}
+
+	Pets: {
+		HeavyMetalTrashCan: {
+			Tooltip: ギターのヒーローを召喚する
+			DisplayName: ヘビーメタル・ゴミ箱
+		}
+	}
+}
+
+ItemExtraTooltip: {
+	Shortstrike: {
+		Gladius: 短剣命中時、0.5秒間移動速度が20%増加する
+		Platinum: 短剣命中時、1.2秒間ダメージ軽減率が6%増加する
+		Tungsten: 短剣命中時、1秒間ダメージ軽減率が4%増加する
+		Lead: 短剣命中時、1秒間ダメージ軽減率が3%増加する
+		Tin: 短剣命中時、1秒間ダメージ軽減率が2%増加する
+		Gold: 短剣命中時、1.2秒間防御力が10増加する
+		Silver: 短剣命中時、1秒間防御力が8増加する
+		Iron: 短剣命中時、1秒間防御力が6増加する
+		Copper: 短剣命中時、1秒間防御力が5増加する
+	}
+}
+
+Dialogues: {
+	Noxus: {
+		KilledYharim: {
+			Text3: エントロピーを阻むものが一つ減った
+			Text2: 完璧なる混沌の生物だ
+			Text1: フム... 完璧な依代...
+		}
+	}
+
+	Architect: {
+		PostWoB: {
+			Text4: この世界の秘密を知りたいなら、私が世界の深層にポータルを開いてやろう。
+			Text3: 自分とは何だ？自分の運命とは？どう生まれた？何処から？
+			Text2: お前は、自分が歩んできた道に多くの疑問を抱いているはずだ。
+			Text1: 偉大なる機械が陥落した。実に興味深い...
+		}
+
+		Abyss: {
+			Text4: だが、今はまだ答えの時ではない。
+			Text3: 彼は新たなる問いを求め世界の深淵へと潜った。
+			Text2: 秘密を探求するため
+			Text1: 最も偉大な創造物が...
+		}
+	}
+
+	Yharim: {
+		Defeated: {
+			Text6: お前が、私の使命を引き継いでくれ。
+			Text5: ここが、私にとって最後の戦いだ。だが、戦争ではない。
+			Text4: 私は強くはない。数々の過ちを犯した。
+			Text3: 最後のゴッドスレイヤーは倒れた。
+			Text2: ぐ...
+			Text1: ぐあぁッ!
+		}
+
+		PlayerKilled: {
+			Text3: お前ごときに資格はない！
+			Text2: その程度か...
+			Text1: 弱者め...
+		}
+
+		Intro: {
+			Text8: そして、真の邪悪を打ち倒すに値する存在かどうかを！
+			Text7: さあ、見せてみろ。お前の力を。
+			Text6: この地――ドラゴンのアエリアへ。
+			Text5: それでも、お前はここへ辿り着いた。
+			Text4: 神々が倒れ、ドラゴンさえ屠られたことも……
+			Text3: 私は見てきた――お前がこの世界を浄化する様を。
+			Text2: ここに、我らの道は交わった。
+			Text1: ご機嫌よう、テラリアン...
+		}
+	}
+}
+
+Configs: {
+	ClamityConfig: {
+		PermafrostSoldEnchantedMetal: {
+			Tooltip: パーマフロストが凍結地獄以外でも魔法の金属を販売するようになります。
+			Label: パーマフロストによる魔法の金属販売
+		}
+
+		UsesClamityWeaponsInCalamityRecipes: {
+			Tooltip: ""
+			Label: Clamity武器をCalamityのレシピで使う
+		}
+
+		ChangesCalamityRecipes: {
+			Tooltip: ""
+			Label: Calamityのレシピを変更する
+		}
+
+		UsesEnchantedMetalInShadowspecBarRecipe: {
+			Tooltip: ""
+			Label: シャドウスペックのインゴットのレシピに魔法の金属を使用する
+		}
+
+		DisplayName: Clamity 設定
+	}
+}
+
+InfernumIntro: {
+	Clamitas:
+		'''
+		Supreme Clam
+		Clamitas
+		'''
+	WoB:
+		'''
+		Ancient Machine
+		Wall of Bronze
+		'''
+	Pyrogen:
+		'''
+		Auric Furnace
+		Pyrogen
+		'''
+}
+
+Biomes: {
+	FrozenHell: {
+		DisplayName: 凍結地獄
+		TownNPCDialogueName: 凍結地獄
+	}
+}
+
+Tiles: {
+	FrozenAshTile: {
+		MapEntry: 凍った灰
+	}
+
+	FrozenHellstoneTile: {
+		MapEntry: 凍ったヘルストーン
+	}
+}
+
+Misc: {
+	GeneratedFrozenHell: 凍結地獄が生成されていないか、設定でオンになっていない場合
+	FrozenHellMessege: 地獄の中心から冷気が漏れ出すのを感じる
+	DefeatedWoB: ウォール・オブ・ブロンズ撃破後
+	None: ""
+
+	RecipeGroup: {
+		AnyGemHook: 任意の宝石のフック
+		AnySandBlock: 任意の砂ブロック
+	}
+}
+
+FannyDialog: {
+	FrozenHell: ぶるぶる... 寒いよ。地獄なのになんで寒いの？ヒーターをおいてみて。
+	FrozenAncientWallOfBronze: PLACEHOLDER
+	WallOfBronzeRoD: あいつの後ろにテレポートしてみて。ウォール・オブ・フレッシュとはワケが違うから。
+	WallOfBronze: Yo! 銃が付いたデカい金属の壁じゃん！頭をツルハシで殴ってみたら？
+	Pyrogen: アツいキューブじゃん！他のエレメンタルとは姿が違うね。でもアレはデカいエレメンタルだね。クラオジェンてきなかんじの。
+	Clamitas: あっ！ これ、人気Modで追加されるボスをめちゃパロってる感じだよね。そう思わない？ ...って、あっつ！マジ熱いんですけど！ 
+}
+
+Buffs: {
+	TitanScalePotionBuff: {
+		Description: 粘り強さを感じる
+		DisplayName: 巨人肌
+	}
+
+	HeavyMetalTrashCanBuff: {
+		Description: 後藤ひとりが付いてくる
+		DisplayName: ミニぼっち
+	}
+
+	PlanterrorStaffBuff: {
+		Description: 「Guns N' Rosesの話したよね？」
+		DisplayName: ガンテラ
+	}
+
+	PlagueChairBuff: {
+		Description: 物理法則を無視したゲーミングチェアに座っている
+		DisplayName: 疫病のイス
+	}
+
+	BrimChairBuff: {
+		Description: 物理法則を無視したゲーミングチェアに座っている
+		DisplayName: ブリムスローン
+	}
+
+	ExoBaguetteBuff: {
+		Description: "[c/04c000:'Exo Bonjour' ~WitherTaco]"
+		DisplayName: エクソバゲット
+	}
+
+	WarCleave: {
+		DisplayName: 戦斬
+		Description: Mods.Clamity.Buffs.WarCleave.Description
+	}
+
+	HellsBellsBuff: {
+		DisplayName: 黒曜の鐘
+		Description: 地獄の鐘があなたを守る
+	}
+
+	HellstoneShellfishStaffBuff: {
+		Description: ヘルストーン貝があなたを守る
+		DisplayName: ヘルストーン貝
+	}
+
+	SupremeLucky: {
+		Description: 非常に強い運を感じる
+		DisplayName: 至高の運
+	}
+}
+
+UI: {
+	Enchantments: {
+		AflameAcc: {
+			Description:
+				'''
+				攻撃がヒットすると、至高の魔女の力で敵を炎上させ
+				るが、このアイテムを持っていると持続ダメージを受
+				ける。(全てのアクセサリが対応するわけではない)
+				'''
+			DisplayName: 獄炎の
+		}
+	}
+
+	Cooldowns: {
+		PyrospearCooldown: パイロスピアクールダウン
+		ShortstrikeCharge: 短剣攻撃チャージ
+		ShortstrikeCooldown: 短剣エフェクトクールダウン
+	}
+}
+
+Projectiles: {
+	AncientConsoleProjectile: {
+		DisplayName: Ancient Console Projectile
+	}
+
+	HeavyMetalTrashCanPet: {
+		DisplayName: Mini Bocchi
+	}
+
+	CyanSolutionProjectile: {
+		DisplayName: Cyan Solution
+	}
+
+	PyrogenSummonAnimation: {
+		DisplayName: Pyrogen Summon Animation
+	}
+
+	SoulOfPyrogenSpear: {
+		DisplayName: Soul Of Pyrogen Spear
+	}
+
+	CrustallineProjecile: {
+		DisplayName: Crustalline
+	}
+
+	WulfrumLureBobber: {
+		DisplayName: Wulfrum Lure Bobber
+	}
+
+	ShortstrikeEffect: {
+		DisplayName: Shortstrike Effect
+	}
+
+	Boss: {
+		WoBDeathrayStart: {
+			DisplayName: Plasma Deathray
+		}
+
+		WallOfBronzeClawProjectile: {
+			DisplayName: Bronze Claw
+		}
+
+		WallOfBronzeLaserBeamStart: {
+			DisplayName: Plasma Beam
+		}
+
+		WallOfBronzeTorretBlast: {
+			DisplayName: Plasma Blast
+		}
+
+		PyrogenKillExplosion: {
+			DisplayName: Pyrogen Kill Explosion
+		}
+
+		Firethrower: {
+			DisplayName: Firethrower
+		}
+
+		FireBombExplosion: {
+			DisplayName: Fire Explosion
+		}
+
+		FireBomb: {
+			DisplayName: Fire Bomb
+		}
+
+		FireBarrageHoming: {
+			DisplayName: Fire Barrage
+		}
+
+		FireBarrage: {
+			DisplayName: Fire Barrage
+		}
+
+		Fireblast: {
+			DisplayName: Fireblast
+		}
+
+		BrimstonePearlBurst: {
+			DisplayName: Brimstone Pearl Burst
+		}
+	}
+
+	Classless: {
+		GoldenGunProj: {
+			DisplayName: Golden Gun Proj
+		}
+
+		SharpAmethystProj: {
+			DisplayName: Sharp Amethyst
+		}
+
+		TrashOfMagnusProjectile: {
+			DisplayName: Plague Bolt
+		}
+
+		EyeOfNovaProjectile: {
+			DisplayName: Nova Blast
+		}
+
+		AMSProj: {
+			DisplayName: AMS
+		}
+
+		PyroShieldAccessory: {
+			DisplayName: Pyro Shield
+		}
+	}
+
+	Rogue: {
+		StarfishFromTheDepthProj: {
+			DisplayName: Starfish from the Depth
+		}
+
+		AuricKunaiLightning: {
+			DisplayName: Auric Lightning
+		}
+
+		AuricKunaiProjectile: {
+			DisplayName: Auric Kunai
+		}
+
+		ExoBallProjectile: {
+			DisplayName: Exo Ball
+		}
+
+		FrozenStarShurikenProjectile: {
+			DisplayName: Frozen Star Shuriken
+		}
+
+		DraculasCharmProj: {
+			DisplayName: Dracula
+		}
+
+		WulfrumShockCutterProjectile: {
+			DisplayName: Wulfrum Shock Cutter
+		}
+
+		MoltenPiercerProjectile: {
+			DisplayName: Molten Piercer
+		}
+	}
+
+	Summon: {
+		PlanterrorStaffTentacle: {
+			DisplayName: Guntera's Gun
+		}
+
+		HellsBellsRing: {
+			DisplayName: Hell`s Bells Sound
+		}
+
+		Minion: {
+			PlanterrorStaffSummon: {
+				DisplayName: Guntera
+			}
+
+			HellsBellsSummon: {
+				DisplayName: Hell`s Bells
+			}
+
+			HellstoneShellfishStaffMinion: {
+				DisplayName: Hellstone Shellfish
+			}
+		}
+	}
+
+	Magic: {
+		UnicronWingmanShot: {
+			DisplayName: Unicron Wingman Shot
+		}
+
+		UnicronWingmanGrenade: {
+			DisplayName: Unicron Wingman Grenade
+		}
+
+		UnicronBeam: {
+			DisplayName: Unicron Beam
+		}
+
+		MoonstoneKnifeProjectile: {
+			DisplayName: Moonstone Knife
+		}
+
+		TheGeneratorSigil: {
+			DisplayName: The Generator Sigil
+		}
+	}
+
+	Ranged: {
+		WitheredBoneBowProj: {
+			DisplayName: Withered Bone Bolt
+		}
+
+		ObsidigunBulletShard: {
+			DisplayName: Obsidian Bullet Shard
+		}
+
+		ObsidigunBullet: {
+			DisplayName: Obsidian Bullet
+		}
+
+		DepthsEchoRifleProjectileSplit: {
+			DisplayName: Depths Echo Split
+		}
+
+		DepthsEchoRifleProjectile: {
+			DisplayName: Depths Echo
+		}
+
+		Ammo: {
+			FrostfireArrowProj2: {
+				DisplayName: Frostfire Explosion
+			}
+
+			FrostfireArrowProj: {
+				DisplayName: Frostfire Arrow
+			}
+
+			ProfanedDartProjectile: {
+				DisplayName: Profaned Dart
+			}
+		}
+	}
+
+	Melee: {
+		HyperionProjectile: {
+			DisplayName: Hyperion Projectile
+		}
+
+		EtherealKnivesProjectile: {
+			DisplayName: Ethereal Knives Projectile
+		}
+
+		ExoNewExplosion: {
+			DisplayName: Exo Explosion
+		}
+
+		ExoNewBeam: {
+			DisplayName: Exo Beam
+		}
+
+		EverestProjectile: {
+			DisplayName: Everest
+		}
+
+		TheWOBblerProjectile: {
+			DisplayName: Ice Chunk
+		}
+
+		WulfrumLeechDaggerShard: {
+			DisplayName: Wulfrum Leech Dagger Shard
+		}
+
+		WulfrumLeechDaggerProjectile: {
+			DisplayName: Wulfrum Leech Dagger
+		}
+
+		DiseaseProjectile: {
+			DisplayName: Disease
+		}
+
+		RGBMurasamaProjectile: {
+			DisplayName: RGB Murasama
+		}
+
+		SearedShredderProjectile: {
+			DisplayName: Seared Shredder
+		}
+
+		ClamitasCrusherProjectile: {
+			DisplayName: Clamitas Crusher
+		}
+	}
+}
+
+NPCs: {
+	MechanicalLeechBody: {
+		DisplayName: メカニカルリーチ
+	}
+
+	MechanicalLeechHead: {
+		DisplayName: メカニカルリーチ
+	}
+
+	MechanicalLeechTail: {
+		DisplayName: メカニカルリーチ
+	}
+
+	MetalMaw: {
+		DisplayName: メタルモウ
+	}
+
+	GlacialSlime: {
+		Bestiary: 凍結のソウルにより強くなった溶岩スライム。スライムは 爆発しようとした。 しかし 温度差により 凍ってしまい トゲがうまれた。
+		DisplayName: グレイシャルスライム
+	}
+
+	ClockworkBat: {
+		Bestiary: このからくりはウォール・オブ・ブロンズの一部だった。だがそれを破壊してしまったのでコウモリは制御を失ってしまった。
+		DisplayName: 機械仕掛けのコウモリ
+	}
+
+	WallOfBronze: {
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/FFD700:巨大機械は終わりのない地獄の旅を続ける。]"
+			SpawnInfo: 地獄に設置された [i:Clamity/AncientConsole] に右クリックする
+		}
+
+		Bestiary: ウォール・オブ・フレッシュが守るものより強大なエッセンスを守護する古代の機械。守護するエッセンスの一つは地底のように熱い場所すら凍らせる。
+		DisplayName: ウォール・オブ・ブロンズ
+	}
+
+	WallOfBronzeClaw: {
+		DisplayName: ブロンズの爪
+	}
+
+	WallOfBronzeLaser: {
+		DisplayName: ブロンズのレーザーマシン
+	}
+
+	WallOfBronzeTorret: {
+		DisplayName: ブロンズタレット
+	}
+
+	PyrogenShield: {
+		DisplayName: パイロジェンシールド
+	}
+
+	StormElemental: {
+		DisplayName: ストームエレメンタル
+	}
+
+	Stupid: {
+		DisplayName: Supreme製ゼロックの服を着た伝説の至高中の至高のカラミタス
+	}
+
+	PyrogenBoss: {
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/FFD700:パイロジェンは再び焼け付く湖へと沈んでゆく。]"
+			SpawnInfo: 砂漠で [i:Clamity/PyroKey] 高熱の鍵を使用する
+		}
+
+		Bestiary: パイロジェンは謎の鍛冶師により作られた巨大な溶鉱炉だ。中に大量の炎のエッセンスを宿している。「1秒で1000°C以上だと」
+		DisplayName: パイロジェン
+	}
+
+	ClamitasBoss: {
+		BossChecklistIntegration: {
+			DespawnMessage: "[c/FFD700:クラミタスは隠れ場所のほら穴へと帰っていった。]"
+			SpawnInfo: 煉獄の岩山で [i:Clamity/ClamitasSummoningItem] 厄貝の殻を使用する
+		}
+
+		Bestiary: カラミタス自身により呪われた貝、クラミタスは硫黄の力を吸収した。海の真珠からは力が失われた。あらゆる悪人もクラミタスの力の前では抗えない。
+		DisplayName: 至高の貝、クラミタス
+	}
+}
+
