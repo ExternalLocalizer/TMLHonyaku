@@ -33,7 +33,7 @@ Chatter: {
 
 		Shy_Eager: {
 			Dialogue: {
-				5Eager: そうさ！アニキのボスが一番強いかんな！
+				5Eager: そうさ！でもアニキが一番強いかんな！
 				4Shy: きっ、きみはまさにボ、ボスってかんじだよ、ね？
 				3Eager: もちろんアニキがいるからだぜ！
 				2Shy: どど、どうしてきみはいつもじょ、情熱的...なの？
@@ -61,7 +61,7 @@ Chatter: {
 				3Eager: まあそうさ！
 				2Serious: またですか？
 				1Eager: ちげーよアタイのせいじゃねぇ！
-				0Serious: これはまたやりましたね...
+				0Serious: これはやりましたね...
 			}
 		}
 
@@ -312,11 +312,11 @@ Chatter: {
 			}
 
 			InvasionChanged: {
-				OldGangBack: 古い仲間のお出ましだぜ、アニキ！
+				OldGangBack: 古いお仲間のお出ましだぜ、アニキ！
 			}
 
 			ItemSelected: {
-				IsAToy: あれはオモチャか？
+				IsAToy: ありゃオモチャか？
 			}
 
 			ArmorEquipped: {
@@ -338,13 +338,13 @@ Chatter: {
 			BossDefeat: {
 				SuckOnThat: ざまあみろ！
 				JellyTastesBad: うぇー！このゼリー死ぬほどまずいな！
-				NoMoreSquid: もうイカは勘弁してくれよな...
+				NoMoreSquid: もうイカは勘弁してくれ...
 				ToughTougher: さっきのは強かったが、アタイたちには叶わなかったみてえだ！
 				YouTheBest: アニキが一番だぜ！
 				DumbDragon: おいバカドラゴン！アニキに逆らうなよ！
 				DumbWeakling: オオバカモンが！
 				StupidBook: マヌケの本野郎が！
-				NastyBees: 汚らわしいハチどもは蜜だけつくってりゃあいいんだよ！
+				NastyBees: きたねーハチどもは蜜だけつくってりゃあいいんだよ！
 				WontBeInSequel: 次は出てくんなよな！
 				EasyNext: 楽勝だったな！次行こうぜ！
 				KnewYouCould: やっぱりアニキならできると思ってたぜ！
@@ -439,13 +439,13 @@ Configs: {
 		}
 
 		CuteSlimesPotionOnly: {
-			Tooltip: キュートなスライムの出現とゼリーエールの動作に影響します
-			Label: キュートなスライムポーションのみ
+			Tooltip: キュートなスライムの出現とどろどろしたエールの動作に影響します
+			Label: キュートなスライムポーション使用時のみ出現
 		}
 
 		AommSupport: {
 			Tooltip: "'The Amulet Of Many Minions'が有効になっているときのコンテンツを追加します"
-			Label: "'The Amulet Of Many Minionsの相互コンテンツ"
+			Label: "The Amulet Of Many Minionsの相互コンテンツ"
 		}
 
 		BossConsolation: {
@@ -561,7 +561,7 @@ Configs: {
 		}
 
 		GoblinUnderlingAutosummon: {
-			Tooltip: 虚空の袋またはインベントリにアイテムが存在する場合、児童でミニオンを召喚します。
+			Tooltip: 虚空の袋またはインベントリにアイテムが存在する場合、自動的にミニオンを召喚します。
 			Label: 自動召喚
 		}
 
@@ -607,7 +607,7 @@ DroneData: {
 		Description: 徐々にダメージを軽減するシールドを生成する
 		Firerate: ""
 		ComponentName: シールドドローン構成部品
-		DisplayName: シールド {^0:Drone;Drones}
+		DisplayName: シールドドローン
 	}
 
 	HealingDrone: {
@@ -615,7 +615,7 @@ DroneData: {
 		Description: ダメージを受けたときに回復する
 		Firerate: ""
 		ComponentName: ヒーリングドローン構成部品
-		DisplayName: ヒーリング {^0:Drone;Drones}
+		DisplayName: ヒーリングドローン
 	}
 
 	MissileDrone: {
@@ -623,7 +623,7 @@ DroneData: {
 		Description: 長い間隔でミサイルの一斉射撃を行う
 		Firerate: とても遅い
 		ComponentName: ミサイルドローン構成部品
-		DisplayName: ミサイル {^0:Drone;Drones}
+		DisplayName: ミサイルドローン
 	}
 
 	HeavyLaserDrone: {
@@ -631,7 +631,7 @@ DroneData: {
 		Description: 長い間隔で貫通するレーザーを発射する
 		Firerate: 極めて遅い
 		ComponentName: ヘビーレーザードローン構成部品
-		DisplayName: Heavy Laser {^0:Drone;Drones}
+		DisplayName: ヘビーレーザードローン
 	}
 
 	BasicLaserDrone: {
@@ -639,7 +639,7 @@ DroneData: {
 		Description: レーザーを連射する
 		Firerate: 速い
 		ComponentName: 基本レーザードローン構成部品
-		DisplayName: 基本レーザー {^0:Drone;Drones}
+		DisplayName: 基本レーザードローン
 	}
 }
 
@@ -655,25 +655,25 @@ SoulData: {
 	SoulofMight: {
 		Description: ""
 		Unlock: デストロイヤーを撃破する
-		DisplayName: "{^0:Soul;Souls} of Might"
+		DisplayName: 力のソウル
 	}
 
 	SoulofSight: {
 		Description: 呪いの炎を付与する
 		Unlock: ツインズを撃破する
-		DisplayName: "{^0:Soul;Souls} of Sight"
+		DisplayName: 視覚のソウル
 	}
 
 	SoulofFright: {
 		Description: 霊液と酸性毒を付与する
 		Unlock: スケルトロンプライムを撃破する
-		DisplayName: "{^0:Soul;Souls} of Fright"
+		DisplayName: 恐怖のソウル
 	}
 
 	DungeonSoul: {
 		Description: ""
 		Unlock: ""
-		DisplayName: Dungeon {^0:Soul;Souls}
+		DisplayName: ダンジョンソウル
 	}
 }
 
@@ -1943,7 +1943,7 @@ NPCs: {
 			}
 
 			Hallow: {
-				Illuminant: ぴかぴか
+				Illuminant: イルミナント
 			}
 
 			CrimsonJungle: {
@@ -1971,7 +1971,7 @@ NPCs: {
 			}
 
 			Hell: {
-				Lava: 溶岩
+				Lava: ラーヴァ
 			}
 
 			Underground: {
@@ -2003,12 +2003,12 @@ NPCs: {
 	}
 
 	YoungHarpy: {
-		BestiaryFlavorText: ハーピーは生まれながらにみな悪ではない。子供の頃に友達は、一生そうであるのだ。
+		BestiaryFlavorText: ハーピーは生まれながらにみな悪ではない。子供の頃に友達になっていたら、一生をともにしていただろう。
 		DisplayName: ヤングハーピー
 	}
 
 	WalkingTombstoneGolden: {
-		BestiaryFlavorText: 哀しき、そして高価なカモフラージュ形態を取った、陸生のカニ。
+		BestiaryFlavorText: 哀しき、そして高価なカモフラージュ形態を取った陸生のカニ。
 		DisplayName: てくてく墓石
 	}
 
@@ -2029,7 +2029,7 @@ NPCs: {
 
 	StingSlime: {
 		BestiaryFlavorText: スライムのように舞い、サソリのように刺す。
-		DisplayName: とげとげスライム
+		DisplayName: はりはりスライム
 	}
 
 	SpawnOfOcram: {
@@ -2176,8 +2176,8 @@ NPCs: {
 	}
 
 	CuteSlimeLava: {
-		BestiaryFlavorText: たまたま黒曜石の破片に貫かれてしまった結果、このスライムはいつもそれを抜けないことに悩んでいる。
-		DisplayName: キュートな溶岩スライム
+		BestiaryFlavorText: たまたま黒曜石の破片に貫かれてしまった結果、それを抜けないことがこのスライムのいつもの悩みになった。
+		DisplayName: キュートなラーヴァスライム
 	}
 
 	CuteSlimeJungle: {
@@ -2187,7 +2187,7 @@ NPCs: {
 
 	CuteSlimeIlluminant: {
 		BestiaryFlavorText: 不安定な聖域の生態がこのスライムを遊び心満載にした。
-		DisplayName: キュートなぴかぴかスライム
+		DisplayName: キュートなイルミナントスライム
 	}
 
 	CuteSlimeIce: {
@@ -3022,7 +3022,7 @@ Items: {
 			ダメージを受けると効果がリセットされる
 			(召喚ダメージはダメージ上昇量が少しになる)
 			'''
-		DisplayName: 強化フラスコ
+		DisplayName: 強化のフラスコ
 	}
 
 	CuteSlimeSpawnEnableFlask: {
@@ -3045,7 +3045,7 @@ Items: {
 		SpawnSoul: ソウルハーベスターが食べるためのソウルをスポーンさせる
 		Tooltip:
 			'''
-			「ネットに捕まった生きのない魂」
+			「ネットに捕まった活きのない魂」
 			ソウルハーベスターが撃破された時にインベントリ内で目覚める
 			'''
 		DisplayName: ゆらいだダンジョンのソウル
@@ -3228,14 +3228,14 @@ Items: {
 	}
 
 	WobyItem: {
-		Tooltip: 忠実なわんこを召喚する
+		Tooltip: 忠犬のウォービーを召喚する
 		DisplayName: 愛犬家のバッジ
 	}
 
 	YoungWyvernItem: {
 		Tooltip:
 			'''
-			子供のワイバーンを召喚する
+			ヤングワイバーンを召喚する
 			衣装ケースで見た目を変更可能
 			'''
 		DisplayName: ワイバーンテイル
@@ -3247,12 +3247,12 @@ Items: {
 			味方のハーピーを召喚する
 			衣装ケースで見た目を変更可能
 			'''
-		DisplayName: Clump of Down Feathers
+		DisplayName: 抜け落ちた羽根のかたまり
 	}
 
 	WallFragmentItem: {
-		Tooltip: たくさんの壁の欠片を召喚する
-		DisplayName: 壁の欠片
+		Tooltip: たくさんのウォールフラグメントを召喚する
+		DisplayName: ウォールフラグメント
 	}
 
 	VampireBatItem: {
@@ -3304,17 +3304,17 @@ Items: {
 	}
 
 	StrangeRobotItem: {
-		Tooltip: ついてくる奇妙なロボを召喚する
+		Tooltip: ついてくるおかしなロボを召喚する
 		DisplayName: 奇妙なメカデバイス
 	}
 
 	StingSlimeItem: {
 		Tooltip:
 			'''
-			ついてくる味方のとげとげスライムを召喚する
+			ついてくる味方のはりはりスライムを召喚する
 			衣装ケースで見た目を変更可能
 			'''
-		DisplayName: 瓶詰めのとげとげスライム
+		DisplayName: 瓶詰めのはりはりスライム
 	}
 
 	SkeletronPrimeHandItem: {
@@ -3343,7 +3343,7 @@ Items: {
 	QueenLarvaItem: {
 		Tooltip:
 			'''
-			ついてくる女王の幼虫を召喚する
+			ついてくる女王蜂の幼虫を召喚する
 			衣装ケースで見た目を変更可能
 			'''
 		DisplayName: 女王蜂の幼虫
@@ -3351,7 +3351,7 @@ Items: {
 
 	PrinceSlimeItem: {
 		Tooltip: ついてくるプリンススライムを召喚する
-		DisplayName: 瓶詰めのプリンスライム
+		DisplayName: 瓶詰めのプリンススライム
 	}
 
 	PigronataItem: {
@@ -3385,7 +3385,7 @@ Items: {
 
 	PetQueenSlimeItem: {
 		Tooltip: スライムのトリオを召喚する
-		DisplayName: 元気いっぱいスライム
+		DisplayName: 元気いっぱいスライムたち
 	}
 
 	PetPlanteraItem: {
@@ -3451,7 +3451,7 @@ Items: {
 	}
 
 	PetCultistItem: {
-		Tooltip: 傷ついたときに回復してくれるミニ信仰者を召喚する
+		Tooltip: 傷ついたときに回復してくれるミニ狂信者を召喚する
 		DisplayName: ちいさな不吉なコイン
 	}
 
@@ -3465,13 +3465,13 @@ Items: {
 	}
 
 	NumberMuncherItem: {
-		Tooltip: ついてくる訓練された両生類を召喚する
+		Tooltip: ついてくる学びの両生類を召喚する
 		DisplayName: 古風なストレージデバイス
 	}
 
 	MiniMegalodonItem: {
-		Tooltip: ついてくるちっちゃいメガロドンを召喚する
-		DisplayName: ちっちゃいメガロドンの歯
+		Tooltip: ついてくるミニメガロドンを召喚する
+		DisplayName: ミニメガロドンの歯
 	}
 
 	MiniAntlionItem: {
@@ -3525,8 +3525,8 @@ Items: {
 	}
 
 	IlluminantSlimeItem: {
-		Tooltip: ついてくるぴかぴかスライムを召喚する
-		DisplayName: 瓶詰めのぴかぴかスライム
+		Tooltip: ついてくるイルミナントスライムを召喚する
+		DisplayName: 瓶詰めのイルミナントスライム
 	}
 
 	HornedSlimeItem: {
@@ -3574,7 +3574,7 @@ Items: {
 	}
 
 	DrumstickElementalItem: {
-		Tooltip: ついてくる美味しそうなドラムスティックのエレメンタルを召喚する
+		Tooltip: ついてくる美味しそうなドラムスティックエレメンタルを召喚する
 		DisplayName: 魔法のドラムスティック
 	}
 
@@ -3588,7 +3588,7 @@ Items: {
 	}
 
 	DetachedHungryItem: {
-		Tooltip: ついてくる取り外されたハングリーを召喚する
+		Tooltip: ついてくるはずれたハングリーを召喚する
 		DisplayName: 無意識のハングリー
 	}
 
@@ -3600,14 +3600,14 @@ Items: {
 	CuteLamiaPetItem: {
 		Tooltip:
 			'''
-			ついてくるちいっちゃな味方のヘビを召喚する
+			ついてくるちっちゃな味方のヘビを召喚する
 			衣装ケースで見た目を変更可能
 			'''
 		DisplayName: ふるえる蛇壺
 	}
 
 	CuteGastropodItem: {
-		Tooltip: ついてくるかわいいナメクジを召喚する
+		Tooltip: ついてくるキュートなガストロポッドを召喚する
 		DisplayName: ミステリアスな壺
 	}
 
@@ -3650,211 +3650,211 @@ Items: {
 	}
 
 	BrainofConfusionItem: {
-		Tooltip: Summons a brain of confusion to follow aimlessly behind you
-		DisplayName: Brain of Confusion
+		Tooltip: 後ろをふらふらついてくる混乱の脳みそを召喚する
+		DisplayName: 混乱の脳
 	}
 
 	BabyOcramItem: {
-		Tooltip: Summons a miniature Ocram that follows you
-		DisplayName: Baby Ocram
+		Tooltip: ついてくるミニミニオクラムを召喚する
+		DisplayName: 赤ちゃんオクラム
 	}
 
 	BabyIchorStickerItem: {
-		Tooltip: Summons a baby ichor sticker to follow you
-		DisplayName: Sleeping Ichor Sticker
+		Tooltip: ついてくる赤ちゃんイコルスティッカーを召喚する
+		DisplayName: おねむりイコルスティッカー
 	}
 
 	BabyCrimeraItem: {
-		Tooltip: Summons a baby crimera to follow you
-		DisplayName: Juicy Vertebrae
+		Tooltip: ついてくる赤ちゃんクリメラを召喚する
+		DisplayName: ジューシーな脊髄
 	}
 
 	AnomalocarisItem: {
 		Tooltip:
 			'''
-			Summons a prehistoric shrimp to follow you
+			ついてくる先史時代のエビを召喚する
 			衣装ケースで見た目を変更可能
 			'''
-		DisplayName: Ornery Shrimp
+		DisplayName: カッチンエビ
 	}
 
 	AnimatedTomeItem: {
 		Tooltip:
 			'''
-			Summons a friendly animated tome to follow you
+			ついてくる味方の生ける本を召喚する
 			衣装ケースで見た目を変更可能
 			'''
-		DisplayName: Animated Tome
+		DisplayName: 生ける本
 	}
 
 	AlienHornetItem: {
-		Tooltip: Summons a friendly alien hornet to follow you
-		DisplayName: Vortex Nectar
+		Tooltip: ついてくる味方のエイリアンホーネットを召喚する
+		DisplayName: ボルテックスネクター
 	}
 
 	AbeeminationItem: {
 		Tooltip:
 			'''
-			Summons a friendly abeemination to follow you
+			ついてくる味方のハチホイホイを召喚する
 			衣装ケースで見た目を変更可能
 			'''
-		DisplayName: Abeemination
+		DisplayName: ハチホイホイ
 	}
 
 	CuteSlimeYellowItem: {
-		Tooltip: Summons a cute yellow slime to follow you
-		DisplayName: Bottled Cute Yellow Slime
+		Tooltip: ついてくるキュートなイエロースライムを召喚する
+		DisplayName: 瓶詰めのキュートなイエロースライム
 	}
 
 	CuteSlimeXmasItem: {
-		Tooltip: Summons a cute christmas slime to follow you
-		DisplayName: Bottled Cute Christmas Slime
+		Tooltip: ついてくるキュートなクリスマススライムを召喚する
+		DisplayName: 瓶詰めのキュートなクリスマススライム
 	}
 
 	CuteSlimeToxicItem: {
-		Tooltip: Summons a cute toxic slime to follow you
-		DisplayName: Bottled Cute Toxic Slime
+		Tooltip: ついてくるキュートなどくどくスライムを召喚する
+		DisplayName: 瓶詰めのキュートなどくどくスライム
 	}
 
 	CuteSlimeShimmerItem: {
-		Tooltip: Summons a cute shimmer slime to follow you
-		DisplayName: Bottled Cute Shimmer Slime
+		Tooltip: ついてくるキュートなシマースライムを召喚する
+		DisplayName: 瓶詰めのキュートなシマースライム
 	}
 
 	CuteSlimeSandItem: {
-		Tooltip: Summons a cute sand slime to follow you
-		DisplayName: Bottled Cute Sand Slime
+		Tooltip: ついてくるキュートなサンドスライムを召喚する
+		DisplayName: 瓶詰めのキュートなサンドスライム
 	}
 
 	CuteSlimeRedIceItem: {
-		Tooltip: Summons a cute red ice slime to follow you
-		DisplayName: Bottled Cute Red Ice Slime
+		Tooltip: ついてくるキュートなレッドアイススライムを召喚する
+		DisplayName: 瓶詰めのキュートなレッドアイススライム
 	}
 
 	CuteSlimeRedItem: {
-		Tooltip: Summons a cute red slime to follow you
-		DisplayName: Bottled Cute Red Slime
+		Tooltip: ついてくるキュートなレッドスライムを召喚する
+		DisplayName: 瓶詰めのキュートなレッドスライム
 	}
 
 	CuteSlimeRainbowItem: {
-		Tooltip: Summons a cute rainbow slime to follow you
-		DisplayName: Bottled Cute Rainbow Slime
+		Tooltip: ついてくるキュートなレインボースライムを召喚する
+		DisplayName: 瓶詰めのキュートなレインボースライム
 	}
 
 	CuteSlimeQueenItem: {
-		Tooltip: Summons a cute queen slime to follow you
-		DisplayName: Bottled Cute Queen Slime
+		Tooltip: ついてくるキュートなクイーンスライムを召喚する
+		DisplayName: 瓶詰めのキュートなクイーンスライム
 	}
 
 	CuteSlimePurpleIceItem: {
-		Tooltip: Summons a cute purple ice slime to follow you
-		DisplayName: Bottled Cute Purple Ice Slime
+		Tooltip: ついてくるキュートなパープルアイススライムを召喚する
+		DisplayName: 瓶詰めのキュートなパープルアイススライム
 	}
 
 	CuteSlimePurpleItem: {
-		Tooltip: Summons a cute purple slime to follow you
-		DisplayName: Bottled Cute Purple Slime
+		Tooltip: ついてくるキュートなパープルスライムを召喚する
+		DisplayName: 瓶詰めのキュートなパープルスライム
 	}
 
 	CuteSlimePrincessItem: {
-		Tooltip: Summons a cute princess slime to follow you
-		DisplayName: Bottled Cute Princess Slime
+		Tooltip: ついてくるキュートなプリンセススライムを召喚する
+		DisplayName: 瓶詰めのキュートなプリンセススライム
 	}
 
 	CuteSlimePinkIceItem: {
-		Tooltip: Summons a cute pink ice slime to follow you
-		DisplayName: Bottled Cute Pink Ice Slime
+		Tooltip: ついてくるキュートなピンクアイススライムを召喚する
+		DisplayName: 瓶詰めのキュートなピンクアイススライム
 	}
 
 	CuteSlimePinkItem: {
-		Tooltip: Summons a cute pink slime to follow you
-		DisplayName: Bottled Cute Pink Slime
+		Tooltip: ついてくるキュートなピンクスライムを召喚する
+		DisplayName: 瓶詰めのキュートなピンクスライム
 	}
 
 	CuteSlimeLavaItem: {
-		Tooltip: Summons a cute lava slime to follow you
-		DisplayName: Bottled Cute Lava Slime
+		Tooltip: ついてくるキュートなラーヴァスライムを召喚する
+		DisplayName: 瓶詰めのキュートなラーヴァスライム
 	}
 
 	CuteSlimeJungleItem: {
-		Tooltip: Summons a cute jungle slime to follow you
-		DisplayName: Bottled Cute Jungle Slime
+		Tooltip: ついてくるキュートなジャングルスライムを召喚する
+		DisplayName: 瓶詰めのキュートなジャングルスライム
 	}
 
 	CuteSlimeIlluminantItem: {
-		Tooltip: Summons a cute illuminant slime to follow you
-		DisplayName: Bottled Cute Illuminant Slime
+		Tooltip: ついてくるキュートなイルミナントスライムを召喚する
+		DisplayName: 瓶詰めのキュートなイルミナントスライム
 	}
 
 	CuteSlimeIceItem: {
-		Tooltip: Summons a cute ice slime to follow you
-		DisplayName: Bottled Cute Ice Slime
+		Tooltip: ついてくるキュートなアイススライムを召喚する
+		DisplayName: 瓶詰めのキュートなアイススライム
 	}
 
 	CuteSlimeHoneyItem: {
-		Tooltip: Summons a cute honey slime to follow you
-		DisplayName: Bottled Cute Honey Slime
+		Tooltip: ついてくるキュートなハチミツスライムを召喚する
+		DisplayName: 瓶詰めのキュートなハチミツスライム
 	}
 
 	CuteSlimeGreenItem: {
-		Tooltip: Summons a cute green slime to follow you
-		DisplayName: Bottled Cute Green Slime
+		Tooltip: ついてくるキュートなグリーンスライムを召喚する
+		DisplayName: 瓶詰めのキュートなグリーンスライム
 	}
 
 	CuteSlimeGoldenItem: {
-		Tooltip: Summons a cute golden slime to follow you
-		DisplayName: Bottled Cute Golden Slime
+		Tooltip: ついてくるキュートなゴールデンスライムを召喚する
+		DisplayName: 瓶詰めのキュートなゴールデンスライム
 	}
 
 	CuteSlimeDungeonItem: {
-		Tooltip: Summons a cute dungeon slime to follow you
-		DisplayName: Bottled Cute Dungeon Slime
+		Tooltip: ついてくるキュートなダンジョンスライムを召喚する
+		DisplayName: 瓶詰めのキュートなダンジョンスライム
 	}
 
 	CuteSlimeCrimsonJungleItem: {
-		Tooltip: Summons a cute crimson jungle slime to follow you
-		DisplayName: Bottled Cute Crimson Jungle Slime
+		Tooltip: ついてくるキュートな真紅のジャングルスライムを召喚する
+		DisplayName: 瓶詰めのキュートな真紅のジャングルスライム
 	}
 
 	CuteSlimeCrimsonItem: {
-		Tooltip: Summons a cute crimson slime to follow you
-		DisplayName: Bottled Cute Crimson Slime
+		Tooltip: ついてくるキュートな真紅スライムを召喚する
+		DisplayName: 瓶詰めのキュートな真紅スライム
 	}
 
 	CuteSlimeCorruptJungleItem: {
-		Tooltip: Summons a cute corrupt jungle slime to follow you
-		DisplayName: Bottled Cute Corrupt Jungle Slime
+		Tooltip: ついてくるキュートな不浄のジャングルスライムを召喚する
+		DisplayName: 瓶詰めのキュートな不浄のジャングルスライム
 	}
 
 	CuteSlimeCorruptItem: {
-		Tooltip: Summons a cute corrupt slime to follow you
-		DisplayName: Bottled Cute Corrupt Slime
+		Tooltip: ついてくるキュートな不浄スライムを召喚する
+		DisplayName: 瓶詰めのキュートな不浄スライム
 	}
 
 	CuteSlimeBlueItem: {
-		Tooltip: Summons a cute blue slime to follow you
-		DisplayName: Bottled Cute Blue Slime
+		Tooltip: ついてくるキュートなブルースライムを召喚する
+		DisplayName: 瓶詰めのキュートなブルースライム
 	}
 
 	CuteSlimeBlackItem: {
-		Tooltip: Summons a cute black slime to follow you
-		DisplayName: Bottled Cute Black Slime
+		Tooltip: ついてくるキュートなブラックスライムを召喚する
+		DisplayName: 瓶詰めのキュートなブラックスライム
 	}
 
 	CuteSlime: {
-		AccessorySlot: Accessory Slot: {0}
-		CarriedSlot: Carry Slot: {0}
-		BodySlot: Body Slot: {0}
-		HatSlot: Hat Slot: {0}
-		AccessoryNone: None
-		AccessoryBlacklisted: Blacklisted
+		AccessorySlot: アクセサリースロット: {0}
+		CarriedSlot: 手持ちスロット: {0}
+		BodySlot: 身体スロット: {0}
+		HatSlot: 帽子スロット: {0}
+		AccessoryNone: なし
+		AccessoryBlacklisted: ブラックリスト済み
 	}
 }
 
 Common: {
 	Tooltips: {
 		GoblinUnderlingItem: {
-			CantSwitchClassDuringCombat: Cannot switch classes during combat
+			CantSwitchClassDuringCombat: 戦闘中はクラス切り替えできない
 			CommonTooltipFormat:
 				'''
 				{0}
@@ -3863,23 +3863,23 @@ Common: {
 				'''
 			CommonTooltip:
 				'''
-				Class can be changed with [c/{0}:<right>]
-				Gets stronger throughout progression
-				Only one can be summoned
+				[c/{0}:<right>]でクラスを変更可能
+				進行度に応じて強くなる
+				1体のみ召喚可能
 				'''
 		}
 
 		GoblinUnderlingBuff: {
-			CommonDescription: A loyal underling is fighting for you
+			CommonDescription: 忠実な部下が戦ってくれる
 		}
 
 		PetHasAltSkins: 衣装ケースで見た目を変更可能
 	}
 
-	BaseKnockback: Base Knockback: {0}
-	BaseDamage: Base Damage: {0}
-	Selected: Selected: {0}
-	AoMMVersion: (AoMM version)
+	BaseKnockback: 基本ノックバック: {0}
+	BaseDamage: 基本ダメージ: {0}
+	Selected: 選択中: {0}
+	AoMMVersion: (AoMM バージョン)
 	ConcatenateTwo: "{0} {1}"
 }
 
@@ -3887,590 +3887,590 @@ Buffs: {
 	Campfire: {
 		WyvernCampfireNearby:
 			'''
-			Wyvern Campfire nearby:
-			You are protected from Wyverns
-			Harpy feathers don't knock you away
+			ワイバーンの焚き火の近くにいる時:
+			ワイバーンに守られる
+			ハーピーの羽にふっとばされなくなる
 			'''
 	}
 
 	NeurotoxinBuff: {
-		CommonDescription: Rapidly losing life
-		CommonName: Neurotoxin
+		CommonDescription: ライフを急激に失う
+		CommonName: 神経毒
 	}
 
 	StarRodBuff: {
-		Description: Falling Stars will land closer to you
-		DisplayName: Star Rod
+		Description: 流れ星が近くに落ちてくる
+		DisplayName: スターロッド
 	}
 
 	SoulBuff: {
-		Description: Releases a soul
-		DisplayName: Soul
+		Description: ソウルを解放する
+		DisplayName: ソウル
 	}
 
 	SlimePackMinionBuff: {
-		Description: A friendly Slime from your Knapsack is fighting for you
-		DisplayName: Slime
+		Description: ナップサックのフレンドリースライムが戦ってくれる
+		DisplayName: スライム
 	}
 
 	SoulBurnBuff: {
-		Description: Rapidly losing life
-		DisplayName: Soul Burn
+		Description: ライフを急激に失う
+		DisplayName: 魂の燃焼
 	}
 
 	BabyHarvesterBuff: {
-		Tier3: I'm not sure it should keep eating...
-		Tier2: I wonder if it will keep growing
-		Tier1: What's this bird doing?
-		Absorbed: The bird has absorbed {0} souls
+		Tier3: もっと食べさせてもいいのかわからなくなった...
+		Tier2: このまま成長を続けるのかな？
+		Tier1: この鳥は何をするんだろ？
+		Absorbed: 鳥が吸収したソウル:{0}
 		Description: REPLACEME
-		DisplayName: Ominous Bird
+		DisplayName: 不吉な鳥
 	}
 
 	SigilOfTheWingBuff: {
-		Description: Your spirit hangs on by a thread
-		DisplayName: Blessing of the Wing
+		Description: あなたの魂が糸にぶら下がっている
+		DisplayName: 翼の祝福
 	}
 
 	SeriousUnderlingBuff: {
-		DisplayName: Serious Underling
+		DisplayName: シリアスな部下
 	}
 
 	ShyUnderlingBuff: {
-		DisplayName: Shy Underling
+		DisplayName: シャイな部下
 	}
 
 	EagerUnderlingBuff: {
-		DisplayName: Eager Underling
+		DisplayName: 熱血な部下
 	}
 
 	EnhancedHunterBuff: {
-		Description: Shows the location of enemies outside your vision range
-		DisplayName: Enhanced Hunter
+		Description: 視界外の敵の位置を表示する
+		DisplayName: 強化された狩人
 	}
 
 	EmpoweringBuff: {
-		IncreasedDamage: Increased Damage: {0}%
-		Description: You get stronger the longer you don't receive damage
-		DisplayName: Empowering
+		IncreasedDamage: 増加したダメージ: {0}%
+		Description: ダメージを受けないでいると強くなる
+		DisplayName: 強化中
 	}
 
 	DroneControllerBuff: {
-		Description: Command a swarm of drones
-		DisplayName: Drone Controller
+		Description: ドローンの群れを操作している
+		DisplayName: ドローンコントローラー
 	}
 
 	CuteSlimeSpawnEnableBuff: {
-		None: None
-		CuteSlimesCanSpawn: Cute Slimes that can spawn
-		Description: Your perception of slimes is a bit off...
-		DisplayName: Jellied Ale
+		None: なし
+		CuteSlimesCanSpawn: スポーンするキュートなスライム
+		Description: スライムの見え方がすこしヘンだ...
+		DisplayName: どろどろしたエール
 	}
 
 	CompanionDungeonSoulMinionBuff: {
-		TinyDungeonSouls: Tiny Dungeon Souls
-		Description: A friendly Soul is fighting for you
-		DisplayName: Companion Soul Minion
+		TinyDungeonSouls: 小さいダンジョンのソウル
+		Description: 味方のソウルが戦ってくれる
+		DisplayName: コンパニオンのソウルミニオン
 	}
 
 	WobyBuff: {
-		Description: A loyal canine is following you
-		DisplayName: Woby, 'A lovable dog...'
+		Description: 忠犬がついてくる
+		DisplayName: 「親愛なる犬...」ウォービー
 	}
 
 	YoungWyvernBuff: {
-		Description: A young wyvern is following you
-		DisplayName: Young Wyvern
+		Description: ヤングワイバーンがついてくる
+		DisplayName: ヤングワイバーン
 	}
 
 	YoungHarpyBuff: {
-		Description: A young harpy is following you
-		DisplayName: Young Harpy
+		Description: ヤングハーピーがついてくる
+		DisplayName: ヤングハーピー
 	}
 
 	WallFragmentBuff: {
-		Description: Several fragments of the Wall are following you
-		DisplayName: Wall Fragment
+		Description: たくさんの壁の欠片がついてくる
+		DisplayName: ウォールフラグメント
 	}
 
 	VampireBatBuff: {
-		Description: A particularly dashing vampire is following you
-		DisplayName: Vampire Bat
+		Description: イカしたヴァンパイアがついてくる
+		DisplayName: ヴァンパイアコウモリ
 	}
 
 	TurtleSlimeBuff: {
-		Description: A turtle slime is following you
-		DisplayName: Turtle Slime
+		Description: タートルスライムがついてくる
+		DisplayName: タートルスライム
 	}
 
 	TrueObservingEyeBuff: {
-		Description: A tiny True Eye of Cthulhu is following you
-		DisplayName: True Observing Eye
+		Description: ちっちゃな真なるクトゥルフの目がついてくる
+		DisplayName: 真なる観測の目
 	}
 
 	TorturedSoulBuff: {
-		Description: Shouldn't have been so greedy, eh?
-		DisplayName: Tortured Soul
+		Description: 欲張りはいけないなぁ？
+		DisplayName: 拷問された魂
 	}
 
 	TorchGodLightPetBuff: {
-		NoTorches: No normal torches found to place
-		EnableSmartCursor: Enable 'Smart Cursor' to automatically place torches
-		Description: "'Your torch placement has been deemed unnecessary. I will do it correctly.'"
-		DisplayName: Godly Torch
+		NoTorches: 設置できる通常のたいまつが見つかりません
+		EnableSmartCursor: 「スマートカーソル」を有効にして通常のたいまつを設置
+		Description: 「汝の松明の配置、もはや不要と判断した。正しき配置は、我が自ら示そう。」
+		DisplayName: 神のたいまつ
 	}
 
 	TinyTwinsBuff: {
-		Description: The Twins are watching you
-		DisplayName: Tiny Twins
+		Description: ミニツインズに見られている
+		DisplayName: ミニツインズ
 	}
 
 	SwarmofCthulhuBuff: {
-		Description: A swarm of Cthulhu is following you
-		DisplayName: Swarm of Cthulhu
+		Description: クトゥルフの群れがついてくる
+		DisplayName: クトゥルフの群れ
 	}
 
 	SuspiciousNuggetBuff: {
-		Description: A suspicious nugget is following you
-		DisplayName: Suspicious Nugget
+		Description: 怪しいナゲットがついてくる
+		DisplayName: 怪しいナゲット
 	}
 
 	StrangeRobotBuff: {
-		Description: A strange robot is following you
-		DisplayName: Strange Robot
+		Description: おかしなロボがついてくる
+		DisplayName: おかしなロボ
 	}
 
 	StingSlimeBuff: {
-		Description: A sting slime is following you
-		DisplayName: Sting Slime
+		Description: はりはりスライムがついてくる
+		DisplayName: はりはりスライム
 	}
 
 	SkeletronPrimeHandBuff: {
-		Description: Skeletron Prime's hand is attached to you
-		DisplayName: Skeletron Prime's Spare Hand
+		Description: スケルトロンプライムの義手が取り付けられている
+		DisplayName: スケルトロンプライムの義手
 	}
 
 	SkeletronHandBuff: {
-		Description: Skeletron's hand is attached to you
-		DisplayName: Skeletron's Spare Hand
+		Description: スケルトロンの義手が取り付けられている
+		DisplayName: スケルトロンの義手
 	}
 
 	RainbowSlimeBuff: {
-		Description: A rainbow slime is following you
-		DisplayName: Rainbow Slime
+		Description: レインボースライムがついてくる
+		DisplayName: レインボースライム
 	}
 
 	QueenLarvaBuff: {
-		Description: A Queen Bee larva is following you
-		DisplayName: Queen Larva
+		Description: 女王蜂の幼虫がついてくる
+		DisplayName: 女王蜂の幼虫
 	}
 
 	PrinceSlimeBuff: {
-		Description: A prince slime is following you
-		DisplayName: Prince Slime
+		Description: プリンススライムがついてくる
+		DisplayName: プリンススライム
 	}
 
 	PigronataBuff: {
-		Description: A pigronata is thankful that you did not bust it
-		DisplayName: Pigronata
+		Description: ピグロニャータは割られなかったことをありがたく思っている
+		DisplayName: ピグロニャータ
 	}
 
 	PetSunMoonBuff: {
 		Description:
 			'''
-			A small sun and moon are providing you with constant light
-			'No adverse gravitational effects will happen'
+			小さな太陽と月が周りを照らしてくれる
+			「危険な重力効果はございません」
 			'''
-		DisplayName: Personal Sun and Moon
+		DisplayName: 個人用の太陽と月
 	}
 
 	PetSunBuff: {
-		Description: A small sun is providing you with constant sunlight
-		DisplayName: Personal Sun
+		Description: 小さな太陽が日光を照らしている
+		DisplayName: 個人用の太陽
 	}
 
 	PetQueenSlimeBuff: {
-		Description: A trio of slimelings is following you
-		DisplayName: Playful Slimelings
+		Description: スライムのトリオがついてくる
+		DisplayName: 元気いっぱいスライムたち
 	}
 
 	PetPlanteraBuff: {
-		Description: A Plantera sprout is following you
-		DisplayName: Plantera Sprout
+		Description: プランテラの芽がついてくる
+		DisplayName: プランテラの芽
 	}
 
 	PetMoonBuff: {
-		Description: A small moon is providing you with constant moonlight
-		DisplayName: Personal Moon
+		Description: 小さな月が月光を照らしている
+		DisplayName: 個人用の月
 	}
 
 	PetHarvesterBuff: {
-		Description: A stubborn bird is following you
-		DisplayName: Stubborn Bird
+		Description: がんこな鳥がついてくる
+		DisplayName: がんこな鳥
 	}
 
 	PetGolemHeadBuff: {
-		Description: A replica Golem head watches over you
-		DisplayName: Replica Golem Head
+		Description: レプリカのゴーレムヘッドに見守られている
+		DisplayName: レプリカのゴーレムヘッド
 	}
 
 	PetGoldfishBuff: {
-		Description: A possessed goldfish is following you
-		DisplayName: Possessed Goldfish
+		Description: 取り憑かれた金魚がついてくる
+		DisplayName: 取り憑かれた金魚
 	}
 
 	PetFishronBuff: {
-		Description: A fishron is following you
-		DisplayName: Fishron
+		Description: フィッシュロンがついてくる
+		DisplayName: フィッシュロン
 	}
 
 	PetEaterofWorldsBuff: {
-		Description: A tiny Eater of Worlds is following you
-		DisplayName: Tiny Eater of Worlds
+		Description: ミニイーターオブワールドがついてくる
+		DisplayName: ミニイーターオブワールド
 	}
 
 	PetDestroyerBuff: {
-		Description: A tiny Destroyer and two tiny Probes are following you
-		DisplayName: Tiny Destroyer
+		Description: ミニデストロイヤーと2体のミニプローブがついてくる
+		DisplayName: ミニデストロイヤー
 	}
 
 	PetCultistBuff: {
-		Description: A tiny cultist is following you
-		DisplayName: Dwarf Cultist
+		Description: ミニ狂信者がついてくる
+		DisplayName: こびと狂信者
 	}
 
 	OceanSlimeBuff: {
-		Description: An ocean slime is following you
-		DisplayName: Ocean Slime
+		Description: オーシャンスライムがついてくる
+		DisplayName: オーシャンスライム
 	}
 
 	NumberMuncherBuff: {
-		Description: An educated amphibian is following you
-		DisplayName: Number Muncher
+		Description: 学びの両生類がついてくる
+		DisplayName: ナンバーマンチャー
 	}
 
 	MiniMegalodonBuff: {
-		Description: It recognizes your strength...for now
-		DisplayName: Mini Megalodon
+		Description: キミの力を認めている...今のうちは
+		DisplayName: ミニメガロドン
 	}
 
 	MiniAntlionBuff: {
-		Description: A baby antlion is following you
-		DisplayName: Baby Antlion
+		Description: 赤ちゃんアントリオンがついてくる
+		DisplayName: 赤ちゃんアントリオン
 	}
 
 	MetroidPetBuff: {
-		Description: A space parasite is following you
-		DisplayName: Metroid
+		Description: 宇宙の寄生生物がついてくる
+		DisplayName: メトロイド
 	}
 
 	MeatballSlimeBuff: {
-		Description: Meatball is following you
-		DisplayName: Meatball
+		Description: ミートボールがついてくる
+		DisplayName: ミートボール
 	}
 
 	LilWrapsBuff: {
-		Description: A mummy is following you
-		DisplayName: Lil' Wraps
+		Description: ミイラがついてくる
+		DisplayName: リトル・ラップス
 	}
 
 	LifelikeMechanicalFrogBuff: {
-		Description: Whatever happened to this frog at the anvil is a mystery
-		DisplayName: Lifelike Mechanical Frog
+		Description: 金床でこのカエルに何が起こったかは謎に包まれている
+		DisplayName: 本物そっくりのメカガエル
 	}
 
 	JoyousSlimeBuff: {
-		Description: A joyous slime is following you
-		DisplayName: Joyous Slime
+		Description: よろこびスライムがついてくる
+		DisplayName: よろこびスライム
 	}
 
 	IlluminantSlimeBuff: {
-		Description: An illuminant slime is following you
-		DisplayName: Illuminant Slime
+		Description: イルミナントスライムがついてくる
+		DisplayName: イルミナントスライム
 	}
 
 	HornedSlimeBuff: {
-		Description: A horned slime is following you
-		DisplayName: Horned Slime
+		Description: つんつんスライムがついてくる
+		DisplayName: つんつんスライム
 	}
 
 	GobletBuff: {
-		Description: A tiny goblin is following you
-		DisplayName: Goblet
+		Description: ちっちゃなゴブリンがついてくる
+		DisplayName: ゴブレット
 	}
 
 	GhostMartianBuff: {
-		Description: A vengeful invader's ghost is following you
-		DisplayName: Ghost Martian
+		Description: 復讐心あふれる侵略者の幽霊がついてくる
+		DisplayName: 火星人の幽霊
 	}
 
 	FairySwarmBuff: {
-		Description: A fairy swarm is following you
-		DisplayName: Fairy Swarm
+		Description: 妖精の群れがついてくる
+		DisplayName: 妖精の群れ
 	}
 
 	FairySlimeBuff: {
-		Description: A fairy slime is following you
-		DisplayName: Fairy Slime
+		Description: フェアリースライムがついてくる
+		DisplayName: フェアリースライム
 	}
 
 	FailureSlimeBuff: {
-		Description: A strange creature is following you
-		DisplayName: Failure Slime
+		Description: ヘンな生き物がついてくる
+		DisplayName: しっぱいスライム
 	}
 
 	EnchantedSwordBuff: {
-		Description: The enchanted sword watches over you
-		DisplayName: Enchanted Sword
+		Description: エンチャントソードが見守っている
+		DisplayName: エンチャントソード
 	}
 
 	DynamiteBunnyBuff: {
-		Description: A little dynamite bunny is following you
-		DisplayName: Dynamite Bunny
+		Description: ちっちゃなダイナマイトうさぎがついてくる
+		DisplayName: ダイナマイトうさぎ
 	}
 
 	DrumstickElementalBuff: {
-		Description: Dinner is following you
-		DisplayName: Drumstick Elemental
+		Description: 夕食がついてくる
+		DisplayName: ドラムスティックエレメンタル
 	}
 
 	DocileDemonEyeBuff: {
-		Description: A demon eye is following you
-		DisplayName: Docile Demon Eye
+		Description: デーモンアイがついてくる
+		DisplayName: 従順なデーモンアイ
 	}
 
 	DetachedHungryBuff: {
-		Description: You might be the next meal...
-		DisplayName: Detached Hungry
+		Description: つぎのご飯はキミかも...
+		DisplayName: はずれたハングリー
 	}
 
 	DemonHeartBuff: {
-		Description: A demon heart is following you
-		DisplayName: Demon Heart
+		Description: デーモンハートがついてくる
+		DisplayName: デーモンハート
 	}
 
 	CuteLamiaPetBuff: {
-		Description: A small snake is following you
-		DisplayName: Small Snake
+		Description: ちっちゃなヘビがついてくる
+		DisplayName: ちっちゃなヘビ
 	}
 
 	CuteGastropodBuff: {
-		Description: A cute gastropod is following you
-		DisplayName: Cute Gastropod
+		Description: キュートなガストロポッドがついてくる
+		DisplayName: キュートなガストロポッド
 	}
 
 	CursedSkullBuff: {
-		Description: It won't curse you, I promise
-		DisplayName: Cursed Skull
+		Description: 呪ったりしないよ、約束する
+		DisplayName: カースドスカル
 	}
 
 	CompanionDungeonSoulPetBuff2: {
 		Description:
 			'''
-			A friendly dungeon soul is following you
-			Pet slot
+			味方のダンジョンのソウルがついてくる
+			ペット枠
 			'''
-		DisplayName: Companion Soul
+		DisplayName: コンパニオンのソウル
 	}
 
 	CompanionDungeonSoulPetBuff: {
 		Description:
 			'''
-			A friendly dungeon soul is following you
-			Light pet slot
+			味方のダンジョンのソウルがついてくる
+			光源ペット枠
 			'''
-		CommonDescription: A friendly dungeon soul is following you
-		DisplayName: Companion Soul
+		CommonDescription: 味方のダンジョンのソウルがついてくる
+		DisplayName: コンパニオンのソウル
 	}
 
 	ChunkySlimeBuff: {
-		Description: Chunky is following you
-		DisplayName: Chunky
+		Description: チャンキーがついてくる
+		DisplayName: チャンキー
 	}
 
 	ChunkyandMeatballBuff: {
-		Description: Two reunited brothers are following you
-		DisplayName: Chunky and Meatball
+		Description: 再開した兄弟がついてくる
+		DisplayName: チャンキーとミートボール
 	}
 
 	BrainofConfusionBuff: {
-		Description: A brain of confusion is following you
-		DisplayName: Brain of Confusion
+		Description: 混乱の脳みそがついてくる
+		DisplayName: 混乱の脳みそ
 	}
 
 	BabyOcramBuff: {
-		Description: What could have been now follows you
-		DisplayName: Baby Ocram
+		Description: なにかがついてくる
+		DisplayName: 赤ちゃんオクラム
 	}
 
 	BabyIchorStickerBuff: {
-		Description: A baby ichor sticker is following you
-		DisplayName: Lil' Ichy
+		Description: 赤ちゃんイコルスティッカーがついてくる
+		DisplayName: リトル・イッチィ
 	}
 
 	BabyCrimeraBuff: {
-		Description: A little crimera is following you
-		DisplayName: Baby Crimera
+		Description: ちっちゃなクリメラがついてくる
+		DisplayName: 赤ちゃんクリメラ
 	}
 
 	AnomalocarisBuff: {
-		Description: A little prehistoric shrimp is following you
-		DisplayName: Anomalocaris
+		Description: ちっちゃな先史時代のエビがついてくる
+		DisplayName: アノマロカリス
 	}
 
 	AnimatedTomeBuff: {
-		Description: An animated tome is following you
-		DisplayName: Animated Tome
+		Description: 生ける書がついてくる
+		DisplayName: 生ける書
 	}
 
 	AlienHornetBuff: {
-		Description: An alien hornet is following you
-		DisplayName: Alien Hornet
+		Description: エイリアンホーネットがついてくる
+		DisplayName: エイリアンホーネット
 	}
 
 	AbeeminationBuff: {
-		Description: An abeemination is following you
-		DisplayName: Abeemination
+		Description: ハチホイホイがついてくる
+		DisplayName: ハチホイホイ
 	}
 
 	CuteSlimeYellowBuff: {
-		Description: A cute yellow slime is following you
-		DisplayName: Cute Yellow Slime
+		Description: キュートなイエロースライムがついてくる
+		DisplayName: キュートなイエロースライム
 	}
 
 	CuteSlimeXmasBuff: {
-		Description: A cute Christmas slime is following you
-		DisplayName: Cute Christmas Slime
+		Description: キュートなクリスマススライムがついてくる
+		DisplayName: キュートなクリスマススライム
 	}
 
 	CuteSlimeToxicBuff: {
-		Description: A cute toxic slime is following you
-		DisplayName: Cute Toxic Slime
+		Description: キュートなどくどくスライムがついてくる
+		DisplayName: キュートなどくどくスライム
 	}
 
 	CuteSlimeShimmerBuff: {
-		Description: A cute shimmer slime is following you
-		DisplayName: Cute Shimmer Slime
+		Description: キュートなシマースライムがついてくる
+		DisplayName: キュートなシマースライム
 	}
 
 	CuteSlimeSandBuff: {
-		Description: A cute sand slime is following you
-		DisplayName: Cute Sand Slime
+		Description: キュートなサンドスライムがついてくる
+		DisplayName: キュートなサンドスライム
 	}
 
 	CuteSlimeRedIceBuff: {
-		Description: A cute red ice slime is following you
-		DisplayName: Cute Red Ice Slime
+		Description: キュートなレッドアイススライムがついてくる
+		DisplayName: キュートなレッドアイススライム
 	}
 
 	CuteSlimeRedBuff: {
-		Description: A cute red slime is following you
-		DisplayName: Cute Red Slime
+		Description: キュートなレッドスライムがついてくる
+		DisplayName: キュートなレッドスライム
 	}
 
 	CuteSlimeRainbowBuff: {
-		Description: A cute rainbow slime is following you
-		DisplayName: Cute Rainbow Slime
+		Description: キュートなレインボースライムがついてくる
+		DisplayName: キュートなレインボースライム
 	}
 
 	CuteSlimeQueenBuff: {
-		Description: A cute queen slime is following you
-		DisplayName: Cute Queen Slime
+		Description: キュートなクイーンスライムがついてくる
+		DisplayName: キュートなクイーンスライム
 	}
 
 	CuteSlimePurpleIceBuff: {
-		Description: A cute purple ice slime is following you
-		DisplayName: Cute Purple Ice Slime
+		Description: キュートなパープルアイススライムがついてくる
+		DisplayName: キュートなパープルアイススライム
 	}
 
 	CuteSlimePurpleBuff: {
-		Description: A cute purple slime is following you
-		DisplayName: Cute Purple Slime
+		Description: キュートなパープルスライムがついてくる
+		DisplayName: キュートなパープルスライム
 	}
 
 	CuteSlimePrincessBuff: {
-		Description: A cute princess slime is following you
-		DisplayName: Cute Princess Slime
+		Description: キュートなプリンセススライムがついてくる
+		DisplayName: キュートなプリンセススライム
 	}
 
 	CuteSlimePinkIceBuff: {
-		Description: A cute pink ice slime is following you
-		DisplayName: Cute Pink Ice Slime
+		Description: キュートなピンクアイススライムがついてくる
+		DisplayName: キュートなピンクアイススライム
 	}
 
 	CuteSlimePinkBuff: {
-		Description: A cute pink slime is following you
-		DisplayName: Cute Pink Slime
+		Description: キュートなピンクスライムがついてくる
+		DisplayName: キュートなピンクスライム
 	}
 
 	CuteSlimeLavaBuff: {
-		Description: A cute lava slime is following you
-		DisplayName: Cute Lava Slime
+		Description: キュートなラーヴァスライムがついてくる
+		DisplayName: キュートなラーヴァスライム
 	}
 
 	CuteSlimeJungleBuff: {
-		Description: A cute jungle slime is following you
-		DisplayName: Cute Jungle Slime
+		Description: キュートなジャングルスライムがついてくる
+		DisplayName: キュートなジャングルスライム
 	}
 
 	CuteSlimeIlluminantBuff: {
-		Description: A cute illuminant slime is following you
-		DisplayName: Cute Illuminant Slime
+		Description: キュートなイルミナントスライムがついてくる
+		DisplayName: キュートなイルミナントスライム
 	}
 
 	CuteSlimeIceBuff: {
-		Description: A cute ice slime is following you
-		DisplayName: Cute Ice Slime
+		Description: キュートなアイススライムがついてくる
+		DisplayName: キュートなアイススライム
 	}
 
 	CuteSlimeHoneyBuff: {
-		Description: A cute honey slime is following you
-		DisplayName: Cute Honey Slime
+		Description: キュートなハチミツスライムがついてくる
+		DisplayName: キュートなハチミツスライム
 	}
 
 	CuteSlimeGreenBuff: {
-		Description: A cute green slime is following you
-		DisplayName: Cute Green Slime
+		Description: キュートなグリーンスライムがついてくる
+		DisplayName: キュートなグリーンスライム
 	}
 
 	CuteSlimeGoldenBuff: {
-		Description: A cute golden slime is following you
-		DisplayName: Cute Golden Slime
+		Description: キュートなゴールデンスライムがついてくる
+		DisplayName: キュートなゴールデンスライム
 	}
 
 	CuteSlimeDungeonBuff: {
-		Description: A cute dungeon slime is following you
-		DisplayName: Cute Dungeon Slime
+		Description: キュートなダンジョンスライムがついてくる
+		DisplayName: キュートなダンジョンスライム
 	}
 
 	CuteSlimeCrimsonJungleBuff: {
-		Description: A cute crimson jungle slime is following you
-		DisplayName: Cute Crimson Jungle Slime
+		Description: キュートな真紅のジャングルスライムがついてくる
+		DisplayName: キュートな真紅のジャングルスライム
 	}
 
 	CuteSlimeCrimsonBuff: {
-		Description: A cute crimson slime is following you
-		DisplayName: Cute Crimson Slime
+		Description: キュートな真紅スライムがついてくる
+		DisplayName: キュートな真紅スライム
 	}
 
 	CuteSlimeCorruptJungleBuff: {
-		Description: A cute corrupt jungle slime is following you
-		DisplayName: Cute Corrupt Jungle Slime
+		Description: キュートな不浄のジャングルスライムがついてくる
+		DisplayName: キュートな不浄のジャングルスライム
 	}
 
 	CuteSlimeCorruptBuff: {
-		Description: A cute corrupt slime is following you
-		DisplayName: Cute Corrupt Slime
+		Description: キュートな不浄スライムがついてくる
+		DisplayName: キュートな不浄スライム
 	}
 
 	CuteSlimeBlueBuff: {
-		Description: A cute blue slime is following you
-		DisplayName: Cute Blue Slime
+		Description: キュートなブルースライムがついてくる
+		DisplayName: キュートなブルースライム
 	}
 
 	CuteSlimeBlackBuff: {
-		Description: A cute black slime is following you
-		DisplayName: Cute Black Slime
+		Description: キュートなブラックスライムがついてくる
+		DisplayName: キュートなブラックスライム
 	}
 }
 
