@@ -1,0 +1,127 @@
+Items: {
+	PaperItem: {
+		DisplayName: 紙
+		BlankDisplayName: 何も書かれていない
+		Tooltip: "[c/AAAAAA:右クリックで説明文を編集]"
+	}
+
+	FlintItem: {
+		DisplayName: 火打石と打ち金
+		Tooltip: ネザーポータルの起動に使用
+	}
+
+	TorcherinoItem: {
+		DisplayName: トーチリーノ
+		Tooltip: 周囲のタイル成長速度を速める
+	}
+
+	BoneMealItem: {
+		DisplayName: 骨粉
+		Tooltip: 植物を成長させる
+	}
+
+	SpawnEggItem: {
+		DisplayName: スポーンエッグ
+		EmptyDisplayName: 空のスポーンエッグ
+		FilledDisplayName: "{0}のスポーンエッグ"
+		UnknownEnemy: 未知の敵
+		CaptureUsage: バナーを持つ敵に使用することで捕獲
+		SpawnUsage: 使用して{0}を召喚する
+		CanCapture: 捕獲可能
+		Tooltip: 敵を召喚する
+	}
+
+	SpawnerItem: {
+		DisplayName: スポナー
+		Tooltip: 設置後、スポーンエッグを入れると起動する
+		SetSpawner: スポナーを{0}に設定した
+	}
+
+	NameTagItem: {
+		DisplayName: 名札
+		Tooltip:
+			'''
+			左クリックでNPCに名前を設定
+			名前付きの通常生物はデスポーンしなくなる
+			右クリックで内容を編集
+			消費しない
+			'''
+	}
+}
+
+Tiles: {
+	NetherPortal: {
+		MapEntry: ネザーポータル
+	}
+
+	SpawnerTile: {
+		MapEntry: スポナー
+	}
+}
+
+WorldGen: {
+	NetherPortalPassMessage: ネザーポータルを生成
+	SpawnerPassMessage: Mods.QualityOfGuida.WorldGen.SpawnerPassMessage
+	SpawnEggPassMessage: Mods.QualityOfGuida.WorldGen.SpawnEggPassMessage
+}
+
+PaperText: {
+	NetherPortal:
+		'''
+		黒曜石で囲む
+		中央で火打石を使用
+		'''
+	NameTag:
+		'''
+		下記のような名前を付けると、世界が反応：
+		Giant
+		Mini
+		King
+		Hitbox
+		Boulder
+		Rainbow
+		Reverse
+		'''
+}
+
+Configs: {
+	ItemToggleConfig: {
+		EnablePaper: {
+			Label: "[i:QualityOfGuida/PaperItem] 紙を有効化"
+			Tooltip: ワールド生成も同時に制御します
+		}
+
+		DisplayName: アイテム切り替え設定
+
+		EnableFlint: {
+			Label: "[i:QualityOfGuida/FlintItem] 火打石を有効化"
+			Tooltip: ワールド生成も同時に制御します
+		}
+
+		EnableNameTag: {
+			Label: "[i:QualityOfGuida/NameTagItem] 名札を有効k"
+			Tooltip: ワールド生成も同時に制御します
+		}
+
+		EnableBoneMeal: {
+			Label: "[i:QualityOfGuida/BoneMealItem] 骨粉を有効化"
+			Tooltip: ""
+		}
+
+		EnableSpawnEgg: {
+			Label: "[i:QualityOfGuida/SpawnEggItem] スポーンエッグを有効化"
+			Tooltip: ワールド生成も同時に制御します
+		}
+
+		EnableTorcherino: {
+			Label: "[i:QualityOfGuida/TorcherinoItem] トーチリーノを有効化"
+			Tooltip: ""
+		}
+
+		EnableSpawner: {
+			Label: "[i:QualityOfGuida/SpawnerItem] スポナーを有効化"
+			Tooltip: ワールド生成も同時に制御します
+		}
+	}
+}
+
