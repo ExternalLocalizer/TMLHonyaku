@@ -23,6 +23,10 @@ InventorySoundsConfig: {
 
 AudioConfig: {
 	DisplayName: サウンド設定
+		runSoundsEnabled: {
+			Label: 走行音
+			Tooltip: ブーツ使用時の走行音を切り替えます (例：ヘルメスブーツ)
+		}
 
 	Headers: {
 		SoundEffects: 効果音
