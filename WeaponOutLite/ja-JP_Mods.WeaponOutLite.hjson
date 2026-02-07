@@ -798,17 +798,17 @@ Configs: {
 		}
 
 		EnableWeaponOutVisuals: {
-			Label: WeaponOutの表示を有効化
+			Label: WeaponOutの表示を有効にする
 			Tooltip: 
 				'''
 				プレイヤーが武器、ツール、アイテムなどを表示できるようにします
-				オフにするとWeaponOut Liteが全て無効になります（グローバル設定）
+				この設定をオフにするとこのModの機能が全て無効になります（グローバル設定）
 				'''
 		}
 
 		EnableForcedWeaponOutVisuals: {
 			Label: 強制表示を有効にする
-			Tooltip: クライアント側の設定に関係なく、全てのプレイヤーが所持アイテムを表示するようにします（グローバル設定）
+			Tooltip: クライアントの設定に関係なく、全てのプレイヤーが選択中のアイテムを表示するようにします（グローバル設定）
 		}	
 	}
 
@@ -855,7 +855,7 @@ Configs: {
 		Tooltip: 
 			'''
 			選択中の武器、ツール、アイテムなどを表示するようにします
-			これがオフだと、このmodが事実上無効になります
+			この設定がオフだと、このmodが事実上無効になります
 			'''
 		}
 
@@ -1192,7 +1192,7 @@ Configs: {
 			Tooltip: 
 				'''
 				アイテムのサイズ補正を表示できるようにします（±10%以上の場合）
-				オフにすると、全てのアイテムのサイズがピクセル単位で正確に表示されます
+				この設定をオフにすると、全てのアイテムのサイズがピクセル単位で正確に表示されます
 				デフォルトはオン（ローカルのみ）
 				'''
 		}
@@ -1228,7 +1228,7 @@ Configs: {
 			Label: 巨大アイテムのスケーリング（%）
 			Tooltip: 
 				'''
-				巨大なアイテムをこの%まで縮小します
+				巨大なアイテムをこの%縮小します
 				しきい値を超えている場合は以下のポーズを使用します
 				デフォルトは100%（ローカルのみ）
 				'''
@@ -1316,16 +1316,16 @@ Configs: {
 			Label: 大きな槍を有効にする（実験的）
 			Tooltip: 
 				'''
-				槍の投射体のスプライトを使用します
+				槍の攻撃時のスプライトを使用します
 				デフォルトはオン（ローカルのみ）
 				'''
 		}
 
 		EnableProjYoyos: {
-			Label: 小型のヨーヨーを有効化（実験的）
+			Label: 小型のヨーヨーを有効にする（実験的）
 			Tooltip: 
 				'''
-				ヨーヨーの投射体スプライトを使用します
+				ヨーヨーの攻撃時のスプライトを使用します
 				デフォルトはオン（ローカルのみ）
 				'''
 		}
@@ -1334,8 +1334,8 @@ Configs: {
 			Label: "[i:509] 切替: Terraria Overhaul"
 			Tooltip: 
 				'''
-				照準可能な武器選択時、アイテム表示を非表示にします
-				Terraria Overhaulの設定 AlwaysShowAimableWeaponsを参照してください
+				照準可能な武器を選択時、アイテムを非表示にします
+				Terraria Overhaulの設定 「AlwaysShowAimableWeapons」を参照してください
 				デフォルトはオン
 				'''
 		}
@@ -1354,7 +1354,7 @@ Configs: {
 			Tooltip: 
 				'''
 				特定アイテム用のデフォルト設定
-				ありがとう W1K [i:58]!
+				ありがとう W1K [i:58]！
 				'''
 		}
 
@@ -1379,14 +1379,14 @@ Configs: {
 
 		ModIntegrationCoolerItemVisualEffect: {
 			Label: "[i:2701] 手動： CoolerItemVisualEffect"
-			Tooltip: CoolerItemVisualEffectの詳細設定を無効化します：Weaponの表示切り替えで描画の競合を回避します
+			Tooltip: CoolerItemVisualEffectの詳細設定を無効化します：武器の表示切り替えで描画の競合を回避します
 		}
 
 		ModIntegrationInsurgencyWeapons: {
 			Label: "[i:2701] 手動： Insurgency Weapons"
 			Tooltip: 
 				'''
-				Insurgency Weaponsで追加される武器が選択中、アイテムの描画を非表示にします
+				Insurgency Weaponsで追加される武器が選択中、アイテムを非表示にします
 				参照：Insurgency サーバー側>使用していない武器を非表示にする
 				デフォルトはオン
 				'''

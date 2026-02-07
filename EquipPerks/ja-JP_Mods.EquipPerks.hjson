@@ -1,15 +1,15 @@
 CommonItemtooltip: {
 	Toggles: {
-		PetOn: ペットの追加効果が有効になった!
-		PetOff: ペットの追加効果が無効になった!
-		LightOn: 光源ペットの追加効果が有効になった!
-		LightOff: 光源ペットの追加効果が無効になった!
-		CartOn: トロッコの追加効果が有効になった!
-		CartOff: トロッコの追加効果が無効になった!
-		WingOn: 翼の追加効果が有効になった!
-		WingOff: 翼の追加効果が無効になった!
-		AllOn: 全ての追加効果が有効になった!
-		AllOff: 全ての追加効果が無効になった!
+		PetOn: ペットの追加効果が有効になった！
+		PetOff: ペットの追加効果が無効になった！
+		LightOn: 光源ペットの追加効果が有効になった！
+		LightOff: 光源ペットの追加効果が無効になった！
+		CartOn: トロッコの追加効果が有効になった！
+		CartOff: トロッコの追加効果が無効になった！
+		WingOn: 翼の追加効果が有効になった！
+		WingOff: 翼の追加効果が無効になった！
+		AllOn: 全ての追加効果が有効になった！
+		AllOff: 全ての追加効果が無効になった！
 	}
 
 	PerkTitle: 追加効果:
@@ -63,12 +63,12 @@ CommonItemtooltip: {
 		PetLizard:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ライフ自然回復を増進し、ライフが50%以下で、移動速度がわずかに上昇
+			ライフ自然回復を増進し、ライフが50%以下の際、移動速度がわずかに上昇
 			'''
 		PetParrot:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			遠距離クリティカル率が4%増加
+			遠距離クリティカル率が4%上昇
 			'''
 		PetTruffle:
 			'''
@@ -78,19 +78,19 @@ CommonItemtooltip: {
 		PetSeedling:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			日中のライフ自然回復を増進
+			昼間にライフ自然回復を増進
 			'''
 		PetDino:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			防具破損耐性
-			近接攻撃で敵の防御力を5無視
+			近接攻撃が敵の防御力を5無視
 			'''
 		PetEyezor:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ジャンプ速度が増加
-			クリティカル率が2%増加
+			ジャンプ速度が上昇
+			クリティカル率が2%上昇
 			'''
 		PetSnowman:
 			'''
@@ -112,7 +112,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			運が少し減少するが、魔法ダメージが4%増加
-			運が-になると魔法クリティカル率も4%上昇
+			運が-だと魔法クリティカル率も4%上昇
 			'''
 		PetCursedSapling:
 			'''
@@ -123,12 +123,12 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			弱体化と鈍化耐性
-			近くのプレイヤーと自身の運をわずかに増加
+			近くのプレイヤーと自身の運がわずかに増加
 			'''
 		PetGrinch:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			フロストムーン中に凍え、凍結、霜焼けにかかっている間はダメージが10%増加
+			フロストムーン中に凍え、凍結、霜焼けを受けているとダメージが10%増加
 			'''
 		PetZephyr:
 			'''
@@ -151,18 +151,18 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			召喚ダメージが2%増加
-			オールドワンズ・アーミー侵攻中、移動速度とジャンプ速度が上昇
+			オールドワンズ・アーミー侵攻中に移動速度とジャンプ速度が上昇
 			'''
 		PetDragon:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			召喚ダメージが2%増加
-			オールドワンズ・アーミー侵攻中、お宝磁石の効果
+			オールドワンズ・アーミー侵攻中にお宝磁石の効果
 			'''
 		PetTwink:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			最大マナを20増加
+			最大マナが20増加
 			ジャンプ速度が上昇
 			'''
 		PetSugarGlider:
@@ -184,12 +184,12 @@ CommonItemtooltip: {
 		PetImp:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			火のブロックと燃えている!耐性
+			火のブロックと燃えている！を無効化
 			'''
 		PetHarpy:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			飛行時間をわずかに延長
+			飛行時間がわずかに延長
 			'''
 		PetFennec:
 			'''
@@ -199,14 +199,14 @@ CommonItemtooltip: {
 		PetButterfly:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			魔法クリティカル率が3%増加
+			魔法クリティカル率が3%上昇
 			昼間は2倍になる
 			'''
 		PetPlantero:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			鞭の攻撃範囲を5%増加
-			ライフが50%以下の際、近接攻撃と鞭の速度が5%上昇
+			鞭の攻撃範囲が5%増加
+			ライフが50%以下の際、近接攻撃速度と鞭を振る速度が5%上昇
 			'''
 		PetDynamiteKitten:
 			'''
@@ -217,7 +217,7 @@ CommonItemtooltip: {
 		PetWerewolf:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			夜間に近接ダメージと速度が4%増加
+			夜間に近接ダメージが4%増加し、近接攻撃速度が4%上昇
 			'''
 		PetMimic:
 			'''
@@ -229,8 +229,8 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			感電耐性
-			加速度が上昇
-			移動速度が上昇し、雷雨時、加速度と移動速度が更に上昇
+			加速度と移動速度が上昇し、
+			雷雨中は加速度と移動速度が更に上昇
 			'''
 		PetKS:
 			'''
@@ -266,7 +266,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			毒耐性
-			蜂蜜の効果
+			蜂蜜を常に得る
 			'''
 		PetDestroyer:
 			'''
@@ -280,7 +280,7 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			暗闇と深い暗闇耐性
 			夜目のポーションの効果
-			クリティカル率を5%増加
+			クリティカル率が5%上昇
 			'''
 		PetPrime:
 			'''
@@ -293,20 +293,20 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			毒と酸性毒耐性
-			ダメージの一部を反射
+			接触ダメージの一部を反射
 			'''
 		PetDuke:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			噛み傷耐性
 			泳げるようになる
-			雨が降っているか、水中にいるか、ライフが50%以下の際、移動速度がわずかに上昇し、ダメージが7%増加する
+			雨が降っているか、水中にいるか、ライフが50%以下の際、移動速度がわずかに上昇し、ダメージが7%増加
 			'''
 		PetCultist:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			視力遮断と重力の歪み耐性
-			最大ライフが10%低下するが、魔法クリティカル率と召喚ダメージが10%増加
+			最大ライフが10%減少するが、魔法クリティカル率が10%上昇し、召喚ダメージが10%増加
 			'''
 		PetML:
 			'''
@@ -319,13 +319,13 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			暖気のポーションの効果
-			フロストムーン中、防御力が4増加し、ライフ自然回復を増進
+			フロストムーン中に防御力が4増加し、ライフ自然回復を増進
 			'''
 		PetIQ:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			凍え、凍結、霜焼け耐性
-			フロストムーン中、ダメージが10%増加
+			フロストムーン中にダメージが10%増加
 			'''
 		PetMartian:
 			'''
@@ -338,35 +338,35 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			唾液まみれ耐性
 			召喚ダメージが4%増加
-			オールドワンズ・アーミー侵攻中、ノックバックを無効化し、攻撃のノックバックを増加
+			オールドワンズ・アーミー侵攻中にノックバックを無効化し、攻撃のノックバックが増加
 			'''
 		PetBetsy:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			燃えている!耐性
+			燃えている！耐性
 			召喚ダメージが6%増加
-			オールドワンズ・アーミー侵攻中、ダメージが10%増加
+			オールドワンズ・アーミー侵攻中にダメージが10%増加
 			'''
 		PetQS:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			飛行時間を延長
 			ジャンプ速度が上昇
-			翼を装備していないなら、落下ダメージを無効化し、ジャンプ速度をわずかに上昇
+			翼を装備していないなら、落下ダメージを無効化し、ジャンプ速度がわずかに上昇
 			'''
 		PetDeerclops:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			凍結と鈍化耐性
 			ノックバックを無効化
-			凍えにかかっている間、防御力が2増加
+			凍えを受けていると、防御力が2増加
 			'''
 		PetSlimes:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			飛行時間を延長
 			ジャンプ速度が上昇
-			翼を装備していないなら、落下ダメージを無効化し、ジャンプ速度をわずかに上昇
+			翼を装備していないなら、落下ダメージを無効化し、ジャンプ速度がわずかに上昇
 			'''
 		PetBernie:
 			'''
@@ -381,7 +381,7 @@ CommonItemtooltip: {
 		PetPig:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			ダメージが10%減少するが、最大ライフが10%増加し、最大+50まで
+			ダメージが10%減少するが、最大ライフが10%増加し、最大+50まで増加
 			'''
 		PetJunimo:
 			'''
@@ -393,7 +393,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			運が少し増加
-			落下耐性をわずかに増加
+			落下耐性がわずかに増加
 			'''
 		PetSpiffo:
 			'''
@@ -436,7 +436,8 @@ CommonItemtooltip: {
 		LightFlickerwick:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			オールドワンズ・アーミー侵攻中、燃えている、呪炎、霜焼けに耐性 魔法と召喚ダメージを1%増加
+			オールドワンズ・アーミー侵攻中に燃えている！、呪炎、霜焼けに耐性
+			魔法と召喚ダメージが1%増加
 			'''
 		LightML:
 			'''
@@ -454,24 +455,24 @@ CommonItemtooltip: {
 			{$CommonItemtooltip.PerkTitle}
 			昼間にダメージが4%増加
 			夜間に防御力が2増加
-			飛行時間をわずかに延長
+			飛行時間がわずかに延長
 			'''
 		LightPumpking:
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			呪炎と霊液耐性
-			パンプキンムーン中、防御力が3増加し、攻撃のノックバックがわずかに上昇
+			パンプキンムーン中に防御力が3増加し、攻撃のノックバックがわずかに増加
 			'''
 		# Minecarts
 		CartMech: 防御力が3増加し、敵の防御力を5無視
-		CartDesert: 拡張グリップの効果　採掘スピードが15%上昇
-		CartBee: 蜂蜜の効果
+		CartDesert: 拡張グリップの効果、採掘スピードが15%上昇
+		CartBee: 蜂蜜を常に得る
 		CartPigron:
 			'''
 			極地の潜水具の効果
 			敵に狙われにくくなる
 			'''
-		CartSunflower: ハッピー!の効果
+		CartSunflower: ハッピー！を常に得る
 		CartShroom:
 			'''
 			少し光る
@@ -487,9 +488,9 @@ CommonItemtooltip: {
 		CartParty:
 			'''
 			紙吹雪のフラスコの効果
-			パーティー中、ライフ回復速度と幸運がわずかに増加
+			パーティー中にライフ自然回復量と運がわずかに増加
 			'''
-		CartDutchman: 金のフラスコの効果
+		CartDutchman: 金のフラスコを常に得る
 		CartSteampunk: 遠距離攻撃速度が5%上昇
 		CartCoffin: ライフが50%以下の際、防御力が4増加
 		CartFart: 敵に狙われにくくなる
@@ -508,8 +509,8 @@ CommonItemtooltip: {
 		WingsJetpack: 遠距離攻撃速度が3%上昇
 		WingsLeaf:
 			'''
-			鞭の攻撃範囲を5%増加
-			鞭の速度が2%上昇
+			鞭の攻撃範囲が5%増加
+			鞭を振る速度が2%上昇
 			'''
 		WingsBat: ライフスティールがわずかに上昇
 		WingsBee:
@@ -522,10 +523,10 @@ CommonItemtooltip: {
 			昼間にライフ自然回復を増進
 			夜間にマナ自然回復を増進
 			'''
-		WingsFlame: 火のブロックと燃えている!、呪炎、霜焼け耐性
+		WingsFlame: 火のブロックと燃えている！、呪炎、霜焼けを無効化
 		WingsSpectre:
 			'''
-			ライフが50%以下のときにライフスティールがわずかに上昇
+			ライフが50%以下の際、ライフスティールがわずかに上昇
 			それ以外の場合、魔法ダメージが4%増加
 			'''
 		WingsHoverboard: 遠距離ダメージが4%増加
@@ -537,7 +538,7 @@ CommonItemtooltip: {
 			'''
 		WingsBeetle:
 			'''
-			夜間と日食中、ライフ自然回復を増進
+			夜間と日食中にライフ自然回復を増進
 			日食中ならクリティカル率が3%上昇
 			'''
 		WingsFestive: 暖気のポーションの効果
@@ -548,22 +549,22 @@ CommonItemtooltip: {
 			'''
 		WingsTatteredFairy:
 			'''
-			ライフ自然回復がわずかに減少するが、
+			ライフ自然回復量がわずかに減少するが、
 			ライフが50%以下の際、マナ自然回復を増進し、ライフが25%以下で更に増進
 			'''
 		WingsSteampunk: 加速度がわずかに上昇
 		WingsBetsy:
 			'''
-			燃えている!耐性
-			オールドワンズ・アーミー侵攻中、ダメージが3増加し、攻撃のノックバックがわずかに増加
+			燃えている！耐性
+			オールドワンズ・アーミー侵攻中にダメージが3増加し、攻撃のノックバックがわずかに増加
 			'''
 		WingsEmpress:
 			'''
 			昼間にダメージが2%増加
 			夜間に防御力が2増加
 			'''
-		WingsFishron: 雨が降っているか、水中にいるか、ライフが50%以下の際、加速度が上昇し、ダメージが3%増加する
-		WingsNebula: 消費マナを12%減少
+		WingsFishron: 雨が降っているか、水中にいるか、ライフが50%以下の際、加速度が上昇し、ダメージが3%増加
+		WingsNebula: 消費マナが12%減少
 		WingsVortex: 遠距離クリティカル率が6%上昇
 		WingsSolar: 近接攻撃速度が6%上昇
 		WingsStardust: 召喚ダメージが6%増加
@@ -573,28 +574,28 @@ CommonItemtooltip: {
 
 Items: {
 	WingStone: {
-		Tooltip: 装備している翼から追加効果を受けるかどうかを切り替える
+		Tooltip: 装備している翼の追加効果のオンオフを切り替える
 		DisplayName: ウィングストーン
 	}
 
 	ResonateStone: {
-		Tooltip: 召喚しているペットから追加効果を受けるかどうかを切り替える
+		Tooltip: 召喚しているペットの追加効果のオンオフを切り替える
 		DisplayName: レゾネイトストーン
 	}
 
 	MinersStone: {
-		Tooltip: トロッコに乗っている時、そのトロッコから追加効果を受けるかどうかを切り替える
+		Tooltip: トロッコに乗っている際、そのトロッコの追加効果のオンオフを切り替える
 		DisplayName: マイナーストーン
 	}
 
 	LightStone: {
-		Tooltip: 召喚している光源ペットから追加効果を受けるかどうかを切り替える
+		Tooltip: 召喚している光源ペットの追加効果のオンオフを切り替える
 		DisplayName: ライトストーン
 	}
 
 	PotentialStone: {
 		DisplayName: ポテンシャルストーン
-		Tooltip: 召喚中のペットと光源ペット、装備している翼、乗っているトロッコから追加効果を受けるかどうかを切り替える
+		Tooltip: 召喚中のペットと光源ペット、装備している翼、乗っているトロッコの追加効果のオンオフを切り替える
 	}
 }
 
@@ -603,42 +604,42 @@ Configs: {
 		DisplayName: メイン設定
 
 		petTooltips: {
-			Label: 追加効果ツールチップ: ペット
+			Label: 追加効果のツールチップ: ペット
 			Tooltip:
 				'''
-				ペットの関連する追加効果を説明するツールチップを表示するか切り替えます
+				ペットの追加効果を説明するツールチップを表示するか切り替えます
 				デフォルトはオン
-				変更に再読み込みは必要ありません
+				変更しても再読み込みは必要ありません
 				'''
 		}
 
 		lightTooltips: {
-			Label: 追加効果ツールチップ: 光源ペット
+			Label: 追加効果のツールチップ: 光源ペット
 			Tooltip:
 				'''
-				光源ペットの関連する追加効果を説明するツールチップを表示するか切り替えます
+				光源ペットの追加効果を説明するツールチップを表示するか切り替えます
 				デフォルトはオン
-				変更に再読み込みは必要ありません
+				変更しても再読み込みは必要ありません
 				'''
 		}
 
 		cartTooltips: {
-			Label: 追加効果ツールチップ: トロッコ
+			Label: 追加効果のツールチップ: トロッコ
 			Tooltip:
 				'''
-				トロッコの関連する追加効果を説明するツールチップを表示するか切り替えます
+				トロッコの追加効果を説明するツールチップを表示するか切り替えます
 				デフォルトはオン
-				変更に再読み込みは必要ありません
+				変更しても再読み込みは必要ありません
 				'''
 		}
 
 		wingTooltips: {
-			Label: 追加効果ツールチップ: 翼
+			Label: 追加効果のツールチップ: 翼
 			Tooltip:
 				'''
-				翼の関連する追加効果を説明するツールチップを表示するか切り替えます
+				翼の追加効果を説明するツールチップを表示するか切り替えます
 				デフォルトはオン
-				変更に再読み込みは必要ありません
+				変更しても再読み込みは必要ありません
 				'''
 		}
 
@@ -646,11 +647,11 @@ Configs: {
 			Label: 追加効果のオンオフのデフォルト設定
 			Tooltip:
 				'''
-				全ての追加効果のオンオフのデフォルト設定を決定します
+				全ての追加効果のオンオフのデフォルト設定を変更します
 				オフに設定すると、再読み込みごとに追加効果が無効になります
 				レゾネイトストーンとその派生品で手動で追加効果を切り替えることができます
 				デフォルトはオン
-				変更に再読み込みは必要ありません
+				変更しても再読み込みは必要ありません
 				'''
 		}
 	}
