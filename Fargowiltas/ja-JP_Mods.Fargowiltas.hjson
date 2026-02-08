@@ -15,52 +15,52 @@ Configs: {
 		DisplayName: サーバー設定
 
 		Mutant: {
-			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:ミュータントが出現可能]"
+			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:ミュータントが出現できる]"
 			Tooltip: ""
 		}
 
 		Abom: {
-			Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:アボミネーションが出現可能]"
+			Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:アボミネーションが出現できる]"
 			Tooltip: ""
 		}
 
 		Devi: {
-			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:デビアントが出現可能]"
+			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:デビアントが出現できる]"
 			Tooltip: ""
 		}
 
 		Lumber: {
-			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:木こりが出現可能]"
+			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:木こりが出現できる]"
 			Tooltip: ""
 		}
 
 		Squirrel: {
-			Label: "[i:239] [c/ffffff:リスが出現可能]"
+			Label: "[i:239] [c/ffffff:リスが出現できる]"
 			Tooltip: ""
 		}
 
 		CatchNPCs: {
-			Label: "[i:267] タウンNPCを虫取り網で確保できる"
+			Label: "[i:267] タウンNPCを虫取り網で捕獲できる"
 			Tooltip: ""
 		}
 
 		NPCSales: {
-			Label: "[i:267] タウンNPCの特別商品"
+			Label: "[i:267] タウンNPCが特別な商品を販売"
 			Tooltip: ""
 		}
 
 		SaferBoundNPCs: {
-			Label: "[i:1274] 救出可能なタウンNPCは接触ダメージを受けない"
+			Label: "[i:1274] 救出できるタウンNPCは接触ダメージを受けない"
 			Tooltip: ""
 		}
 
 		Halloween: {
-			Label: "[i:1774] 常時ハロウィン"
+			Label: "[i:1774] 常にハロウィン"
 			Tooltip: ""
 		}
 
 		Christmas: {
-			Label: "[i:1869] 常時クリスマス"
+			Label: "[i:1869] 常にクリスマス"
 			Tooltip: ""
 		}
 
@@ -105,18 +105,18 @@ Configs: {
 		}		
 
 		UnlimitedAmmo: {
-			Label: "[i:771] ハードモードで弾が3996個以上あると無限化される"
+			Label: "[i:771] ハードモードで弾を3996個以上スタックしていると消費しなくなる"
 			Tooltip: ""
 		}
 
 		UnlimitedConsumableWeapons: {
-			Label: "[i:42] ハードモードで消費型武器が3996個以上あると無限化される"
+			Label: "[i:42] ハードモードで消費型武器を3996個以上スタックしていると消費しなくなる"
 			Tooltip: ""
 		}
 
 		UnlimitedPotionBuffsOn120: {
-			Label: "[i:292] 特定のスタック数以上でバフやエサが無限化される"
-			Tooltip: ポーションと釣りエサは30個以上で無限に
+			Label: "[i:292] 30個以上スタックしているとバフやエサが永続・無限になる"
+			Tooltip: ポーションと釣りエサは30個以上スタックしていると永続・無限になる
 		}
 
 		ExtraBuffSlots: {
@@ -130,12 +130,12 @@ Configs: {
 		}
 
 		ExtraLures: {
-			Label: "[i:2373] 釣竿に追加のルアーをつける"
+			Label: "[i:2373] 釣竿のルアーを増やす"
 			Tooltip: ""
 		}
 
 		StalkerMoneyTrough: {
-			Label: "[i:3213] 空飛ぶブタの貯金箱がプレイヤーを追跡する"
+			Label: "[i:3213] 空飛ぶブタの貯金箱がプレイヤーを追いかける"
 			Tooltip: ""
 		}
 
@@ -145,7 +145,7 @@ Configs: {
 		}
 
 		BannerRecipes: {
-			Label: "[i:1683] バナーを使ったレシピ"
+			Label: "[i:1683] バナーを使うレシピ"
 			Tooltip: ""
 		}
 
@@ -155,23 +155,23 @@ Configs: {
 		}
 
 		ExtractSpeed: {
-			Label: "[i:997] 取り出し機の速度を強化する"
+			Label: "[i:997] 取り出し機の速度を早くする"
 			Tooltip: ""
 		}
 
 		Fountains: {
-			Label: "[i:909] 噴水でバイオームを変更する"
+			Label: "[i:909] 噴水でバイオームを変更できる"
 			Tooltip: ""
 		}
 
 		PermanentStationsNearby: {
-			Label: "[i:3198] 近くのプレイヤーに家具特有バフを自動で適用する"
+			Label: "[i:3198] 近くのプレイヤーに家具のバフを自動的に付与する"
 			Tooltip: ""
 		}
 
 		BossZen: {
 			Label: "[i:3117] ボス戦中は雑魚敵が出現しない"
-			Tooltip: "自然スポーンを無効化するのみで、ボスの召喚する雑魚敵には効果がない"
+			Tooltip: "自然出現を無効にしますが、ボスが召喚する雑魚敵には効果がありません"
 		}
 
 		PiggyBankAcc: {
@@ -185,13 +185,13 @@ Configs: {
 		}
 
 		FasterLavaFishing: {
-			Label: "[i:4881] 溶岩での釣りがより速くなる"
+			Label: "[i:4881] 溶岩での釣りが早くなる"
 			Tooltip: ""
 		}
 
 		TorchGodEX: {
-			Label: "[i:5043] たいまつの神の加護：設置トーチを自動で変換する"
-			Tooltip: 真のトーチ運に従います（「トーチ神の加護」と異なる場合があります）
+			Label: "[i:5043] たいまつの神の加護：設置したたいまつを自動的に変換する"
+			Tooltip: 真のたいまつ運に従います（「トーチ神の加護」と異なる場合があります）
 		}
 
 		PylonsIgnoreEvents: {
@@ -233,7 +233,7 @@ Configs: {
 
 		EnemyDamage: {
 			Label: "[i:3507] 敵のダメージ"
-			Tooltip: 全ての敵と発射物の「ダメージ軽減後のダメージ」に乗算補正をかけます
+			Tooltip: 全ての敵と飛び道具の「ダメージ軽減後のダメージ」に乗算補正をかけます
 		}
 
 		BossDamage: {
@@ -246,8 +246,8 @@ Configs: {
 		}
 
 		BossApplyToAllWhenAlive: {
-			Label: ボス出現中は全敵にボス倍率を適用
-			Tooltip: ボス出現中は「ボスのライフ」「ボスのダメージ」の設定がボスだけでなく全ての敵に適用されます
+			Label: ボスが出現中は全ての敵にボス倍率を適用
+			Tooltip: ボスが出現中は「ボスのライフ」と「ボスのダメージ」の設定がボスだけでなく全ての敵に適用されます
 		}
 
 		DisableTombstones: {
@@ -284,8 +284,8 @@ Configs: {
 			Label: "[i:3097] ダッシュのダブルタップ無効化"
 			Tooltip: 
 				'''
-				ダブルタップによるダッシュの発生を無効化します
-				この設定に関係なく「ダッシュキー」は使用可能です
+				ダブルタップによるダッシュを無効にします
+				この設定に関係なく「ダッシュキー」は使用できます
 				'''
 		}
 
@@ -293,8 +293,8 @@ Configs: {
 			Label: "[i:3776] セットボーナスのダブルタップ無効化"
 			Tooltip: 
 				'''
-				ダブルタップによるセットボーナス効果の発動を無効化します
-				この設定に関係なく「セットボーナスキー」は使用可能です
+				ダブルタップによるセットボーナス効果の発動を無効にします
+				この設定に関係なく「セットボーナスキー」は使用できます
 				'''
 		}
 
@@ -309,7 +309,7 @@ Configs: {
 		}
 
 		TransparentFriendlyProjectiles: {
-			Label: "[i:1309] プレイヤーの弾や魔法などの発射物を半透明にする"
+			Label: "[i:1309] プレイヤーの弾や魔法などの飛び道具を半透明にする"
 			Tooltip: バニラのクオリティ設定を中または低に設定すると最適に動作します
 		}
 
@@ -380,7 +380,7 @@ UI: {
 	SummonCritical: 召喚クリティカル: {0} %
 	MaxMinions: 最大召喚数: {0}
 	MaxSentries: 最大セントリー数: {0}
-	ArmorPenetration: 防御貫通: {0}
+	ArmorPenetration: 防御無視: {0}
 	Aggro: 狙われやすさ: {0}
 	Life: ライフ: {0}
 	LifeRegen: ライフ回復: {0}/秒
@@ -412,9 +412,9 @@ MessageInfo: {
 		Period: .
 	}
 
-	SiblingPylonNotNearSiblings: このパイロンはミュータントの兄弟たちが近くにいないと機能しません。
-	NearbySiblingPylonNotNearSiblings: このパイロンは、ミュータントの兄弟たちが近くにいないと機能しません。
-	NewItemUnlocked: 新しい商品が {0} の店に入荷された！
+	SiblingPylonNotNearSiblings: このパイロンはミュータントの兄弟たちが近くにいないと機能しません
+	NearbySiblingPylonNotNearSiblings: このパイロンは、ミュータントの兄弟たちが近くにいないと機能しません
+	NewItemUnlocked: 新しい商品が {0} の店に入荷した！
 	HaveAwoken: "{0} が目覚めた！"
 	CancelEvent: 襲撃者は去っていった！
 	CancelPumpkinMoon: パンプキンムーンは沈んでいった...
@@ -432,14 +432,14 @@ MessageInfo: {
 	StopLanternNight: ランタンナイトの確率は落ち着きを取り戻した。
 	StartLunarEvent: 宇宙の侵略者たちが現れた！
 	StartRain: 雨雲が世界を覆う...
-	AncientSeal: 古代の封印は解かれ、今ここにすべてのボスが解き放たれた！
+	AncientSeal: 古代の封印は解かれ、今ここに全てのボスが解き放たれた！
 	SeveralBossesAwoken: 複数のボスが目覚めた！
 	OverloadBee: 耳をつんざくような囂しい羽音があなたの耳を貫く！
 	OverloadBetsy: 本物のオールドワンズアーミーが攻めてくる！
-	OverloadBrain: 多くの脳があなたをバカにしている！
+	OverloadBrain: たくさんの脳があなたをバカにしている！
 	OverloadCultist: 集いて重なった邪悪な聖歌があなたの脳を満たす！
 	OverloadDarkMage: あなたはまるで図書館にいるように感じた！
-	OverloadDeer: 一定数の怪物が世界を支配する！
+	OverloadDeer: たくさんの怪物が世界を支配する！
 	OverloadDestroyer: この星の全てが震撼する！
 	OverloadEmpress: 弾幕地獄が始まる！
 	OverloadEye: 無数の視線が次元の幕を突き破り、一つの存在へと融合する！
@@ -484,12 +484,12 @@ Buffs: {
 
 	BigSuckBuff: {
 		DisplayName: ビッグサック
-		Description: あなたはすべてを吸い込む
+		Description: あなたは全てを吸い込む
 	}
 
 	CoolCrabBuff: {
 		DisplayName: クールなカニ
-		Description: 彼はあなたがエルデン・リングをプレーすべきだと考えている
+		Description: 彼はあなたがエルデン・リングをプレイするべきだと考えている
 	}
 }
 
@@ -757,10 +757,10 @@ Items: {
 		DisplayName: 爆弾手裏剣
 		Tooltip:
 			'''
-			地形に当たると瞬時に爆発し、ブロックを破壊する
-			インベントリ内の最も性能の高いつるはしの採掘力が適用される
+			地形に当たると爆発し、ブロックを破壊する
+			インベントリの最も性能の高いつるはしの採掘力が適用される
 			投擲速度は、所持している最高のつるはしの採掘速度や他の採掘速度ボーナスに比例する
-			「いかなる時でも何かを掘り進む最速の方法は、爆破だ！」
+			「いかなるときでも何かを掘り進む最速の方法は、爆破だ！」
 			'''
 	}
 
@@ -769,7 +769,7 @@ Items: {
 		Tooltip:
 			'''
 			広い範囲を問答無用で破壊する
-			背景の壁は除去しない
+			背景の壁は破壊しない
 			使用は自己責任で
 			'''
 	}
@@ -780,14 +780,14 @@ Items: {
 			'''
 			使用すると、カーソルの高さに1つ、カーソルから20ブロック上の位置に1つ
 			合計2つの高さの黒曜石の足場がワールドの両端まで作られる
-			また、2つの橋の間と、その上のエリア20ブロック分は消滅する
+			また、2つの橋の間と、その上のエリア20ブロック内にあるものは消滅する
 			近くに重要な建物がある場合は使用しないこと
 			'''
 	}
 
 	GraveBuster: {
 		DisplayName: 墓荒らし装置
-		Tooltip: 広範囲の墓石を取り去る
+		Tooltip: 広範囲の墓石を破壊する
 	}
 
 	HalfInstavator: {
@@ -795,7 +795,7 @@ Items: {
 		Tooltip:
 			'''
 			瞬時にロープ付きの縦穴を作る
-			エリア内に存在したものは消滅する
+			エリア内にあるものは消滅する
 			一定の深さ以下は掘らない
 			下に重要な建物がある場合は使用しないこと
 			'''
@@ -806,10 +806,10 @@ Items: {
 		Tooltip:
 			'''
 			ワールドの両端まで木の足場の橋を架ける
-			足場の真上のエリアは消滅する
+			足場の真上のエリア内にあるものは消滅する
 			橋はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
-			右クリックで橋をかけずにエリアだけ消し去ることができる
+			右クリックで橋をかけずにエリア内にあるものだけ消し去ることができる
 			使用は自己責任で
 			'''
 	}
@@ -819,7 +819,7 @@ Items: {
 		Tooltip:
 			'''
 			ワールドの両端まで線路を設置する
-			線路の真上のエリアは消滅する
+			線路の真上のエリア内にあるものは消滅する
 			線路はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
 			'''
@@ -830,8 +830,8 @@ Items: {
 		Tooltip:
 			'''
 			瞬時にロープ付きの整備された縦穴を作る
-			エリア内に存在したものは消滅する
-			マップ最下層まで貫通する
+			エリア内にあるものは消滅する
+			マップの最下層まで貫通する
 			下に重要な建物がある場合は使用しないこと
 			'''
 	}
@@ -840,9 +840,9 @@ Items: {
 		DisplayName: リザードの即席爆弾
 		Tooltip:
 			'''
-			リザードの祭壇の前に立った状態で使用すると、リザードの祭壇の周囲を消滅させる
+			リザードの祭壇の前に立った状態で使用すると、リザードの祭壇の周囲にあるものを消滅させる
 			リザードのレンガはアクチュエーター化し、他は破壊する
-			プランテラを倒した後のジャングル神殿でのみ使用可能
+			プランテラを倒した後のジャングル神殿で使用できる
 			'''
 	}
 
@@ -860,7 +860,7 @@ Items: {
 		Tooltip:
 			'''
 			ワールドの両端まで黒曜石の足場の橋を架ける
-			足場の真上のエリアは消滅する
+			足場の真上のエリア内にあるものは消滅する
 			橋はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
 			'''
@@ -880,23 +880,23 @@ Items: {
 		DisplayName: 戦いの角笛
 		Tooltip:
 			'''
-			左クリックで敵の出現率を10倍に
+			左クリックで敵の出現率を10倍にし、
 			右クリックで敵の出現率を低下させる
-			低下効果はゲームの進行に応じて効果が強くなる
+			ゲームの進行に応じて低下効果が強くなる
 			'''
-		Battle: 戦い
-		Calming: 落ち着き
+		Battle: 闘争
+		Calming: 平穏
 		Activated: 有効化
 		Deactivated: 無効化
 		CryText: "{2} が {0}の音を {1}{3}"
 	}
 
 	DeathFruit: {
-		DisplayName: 死の果実
+		DisplayName: デスフルーツ
 		Tooltip:
 			'''
-			左クリックでライフクリスタル、またはライフフルーツの量を1減らす
-			両方が0の場合、最大ライフを20減少させ、最小20まで減少させる
+			左クリックでライフクリスタルか、ライフフルーツの量を1回減らす
+			両方が0の場合、最大ライフを20減少させ、最低で20まで減少させる
 			右クリックで、この効果を1回分戻すことができる
 			'''
 	}
@@ -905,8 +905,8 @@ Items: {
 		DisplayName: 調査完了
 		Tooltip:
 			'''
-			デバッグ項目
-			全てを調査する
+			デバッグアイテム
+			全てのアイテムを調査する
 			'''
 		ResearchText: 調査済みのアイテム： {0} 個
 	}
@@ -922,8 +922,8 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			左クリックで難易度モードを切り替える、使用する毎に難易度が循環する
-			右クリックでジャーニー・モードに切り替えられる（マルチプレイで問題が発生する可能性がある）
+			左クリックで難易度を切り替える、使用するごとに難易度が循環する
+			右クリックでジャーニーモードに切り替える（マルチプレイで問題が発生する可能性がある）
 			'''
 		Journey: ジャーニーモードが有効になった！
 		Normal: ノーマルモードが有効になった！
@@ -932,15 +932,15 @@ Items: {
 	}
 
 	PortableSundial: {
-		DisplayName: 持ち運び式魔法の日時計
+		DisplayName: 携帯魔法の日時計
 		Tooltip:
 			'''
 			何度でも使用できる
-			左クリックで瞬時に時刻を変更する
+			左クリックで時間を変更する
 			夜明け、正午、夕暮れ、真夜中を順に切り替える  
 			右クリックで魔法の日時計の効果が発動する
-			夜明けになる毎に、旅商人の品揃えがリセットされる
-			ボスが出現している間は使用にクールダウンが発生する
+			夜明けになるごとに、旅商人の品揃えがリセットされる
+			ボスが出現中に使用するとクールダウンが発生する
 			'''
 	}
 
@@ -949,7 +949,7 @@ Items: {
 		Tooltip:
 			'''
 			全てのパイロン周辺を浄化する
-			聖域のパイロンには[i:781]青の環境変更液を、それ以外には[i:780]緑の環境変更液を使用する。
+			聖域のパイロンには[i:781]青の環境変更液を、それ以外には[i:780]緑の環境変更液を使用する
 			'''
 	}
 
@@ -958,91 +958,91 @@ Items: {
 		Tooltip:
 			'''
 			カーソルの位置に改良型ダミーを出現させる
-			通常のターゲットダミーと同じだが、ミニオンが敵と認識し、ホーミングする武器は検知する
+			通常のターゲットダミーと同じだが、ミニオンが敵と認識し、追尾効果のある武器は検知する
 			命中時の追加効果も発動する 
-			右クリックで設置したすべての改良型ダミーを削除できる
+			右クリックで設置した全ての改良型ダミーを削除できる
 			最大50体まで改良型ダミーを出現させることができる
 			'''
 	}
 
 	CorruptRenewal: {
 		DisplayName: 環境変更濃縮液（紫）
-		Tooltip: 広い範囲を不浄で汚染する
+		Tooltip: 広範囲を不浄で汚染する
 	}
 
 	CorruptRenewalSupreme: {
 		DisplayName: 究極の変更濃縮液（紫）
-		Tooltip: 世界全体を不浄で汚染する
+		Tooltip: ワールド全体を不浄で汚染する
 	}
 
 	CrimsonRenewal: {
 		DisplayName: 環境変更濃縮液（赤）
-		Tooltip: 広い範囲を真紅で汚染する
+		Tooltip: 広範囲を真紅で汚染する
 	}
 
 	CrimsonRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（赤）
-		Tooltip: 世界全体を真紅で汚染する
+		Tooltip: ワールド全体を真紅で汚染する
 	}
 
 	HallowRenewal: {
 		DisplayName: 環境変更濃縮液（青）
-		Tooltip: 広い範囲を聖域に変化させる
+		Tooltip: 広範囲を聖域に変化させる
 	}
 
 	HallowRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（青）
-		Tooltip: 世界全体を聖域に変化させる
+		Tooltip: ワールド全体を聖域に変化させる
 	}
 
 	MushroomRenewal: {
 		DisplayName: 環境変更濃縮液（藍）
-		Tooltip: 広い範囲の泥ブロックに光るキノコを発生させる
+		Tooltip: 広範囲の泥ブロックに光るキノコを発生させる
 	}
 
 	MushroomRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（藍）
-		Tooltip: 世界全体の泥ブロックに光るキノコを発生させる
+		Tooltip: ワールドの全ての泥ブロックに光るキノコを発生させる
 	}
 
 	PurityRenewal: {
 		DisplayName: 環境変更濃縮液（緑）
-		Tooltip: 広い範囲のブロックを正常にする
+		Tooltip: 広範囲のブロックを正常にする
 	}
 
 	PurityRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（緑）
-		Tooltip: 世界全体のブロックを正常にする
+		Tooltip: ワールド全体のブロックを正常にする
 	}
 
 	SnowRenewal: {
 		DisplayName: 環境変更濃縮液（白）
-		Tooltip: 広い範囲を雪原にする
+		Tooltip: 広範囲を雪原にする
 	}
 
 	SnowRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（白）
-		Tooltip: 世界全体を雪原にする
+		Tooltip: ワールド全体を雪原にする
 	}
 
 	SandRenewal: {
 		DisplayName: 環境変更濃縮液（黄）
-		Tooltip: 広い範囲を砂漠にする
+		Tooltip: 広範囲を砂漠にする
 	}
 
 	SandRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（黄）
-		Tooltip: 世界全体を砂漠にする
+		Tooltip: ワールド全体を砂漠にする
 	}
 
 	DirtRenewal: {
 		DisplayName: 環境変更濃縮液（茶）
-		Tooltip: 広い範囲を森林にする
+		Tooltip: 広範囲を森林にする
 	}
 
 	DirtRenewalSupreme: {
 		DisplayName:  究極の変更濃縮液（茶）
-		Tooltip: 世界全体を森林にする
+		Tooltip: ワールド全体を森林にする
 	}
 
 	Abeemination2: {
@@ -1070,7 +1070,7 @@ Items: {
 		Tooltip:
 			'''
 			エバースクリームを召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1089,7 +1089,7 @@ Items: {
 		Tooltip:
 			'''
 			ヘッドレスホースマンを召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1098,7 +1098,7 @@ Items: {
 		Tooltip:
 			'''
 			氷の女王を召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1117,7 +1117,7 @@ Items: {
 		Tooltip:
 			'''
 			サンタ-NK1を召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1126,7 +1126,7 @@ Items: {
 		Tooltip:
 			'''
 			パーティの時間だ！
-			使用するには5人以上のNPCが居住していることが条件です
+			5人以上のNPCが居住しているなら使用できる
 			'''
 	}
 
@@ -1155,7 +1155,7 @@ Items: {
 		Tooltip:
 			'''
 			嘆きの樹を召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1164,7 +1164,7 @@ Items: {
 		Tooltip:
 			'''
 			パンプキングを召喚する
-			夜間のみ使用可能
+			夜間中に使用できる
 			'''
 	}
 
@@ -1188,7 +1188,7 @@ Items: {
 		Tooltip:
 			'''
 			スケルトン・ガンナーを召喚
-			夜間または地下でのみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1196,8 +1196,8 @@ Items: {
 		DisplayName: 融合した霊魂
 		Tooltip:
 			'''
-			スケルトンメイジを召喚する。
-			夜間または地下でのみ使用可能
+			スケルトンメイジを召喚する
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1206,7 +1206,7 @@ Items: {
 		Tooltip:
 			'''
 			メデューサを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1215,7 +1215,7 @@ Items: {
 		Tooltip:
 			'''
 			アンデッドマイナーを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1224,7 +1224,7 @@ Items: {
 		Tooltip:
 			'''
 			ドレッドノーチラスを召喚する
-			ブラッドムーンの夜に使用可能
+			ブラッドムーンの夜に使用できる
 			'''
 	}
 
@@ -1233,7 +1233,7 @@ Items: {
 		Tooltip:
 			'''
 			血液ウナギを召喚する
-			ブラッドムーンの夜に使用可能
+			ブラッドムーンの夜に使用できる
 			'''
 	}
 
@@ -1247,7 +1247,7 @@ Items: {
 		Tooltip:
 			'''
 			ピエロを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1271,7 +1271,7 @@ Items: {
 		Tooltip:
 			'''
 			レッドデビルを召喚する
-			地獄でのみ使用可能
+			地底世界で使用できる
 			'''
 	}
 
@@ -1285,7 +1285,7 @@ Items: {
 		Tooltip:
 			'''
 			ドクターボーンズを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1314,7 +1314,7 @@ Items: {
 		Tooltip:
 			'''
 			パラディンを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1328,7 +1328,7 @@ Items: {
 		Tooltip:
 			'''
 			ニンフを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1337,7 +1337,7 @@ Items: {
 		Tooltip:
 			'''
 			ヘモゴブリンシャークを召喚する
-			ブラッドムーンの夜に使用可能
+			ブラッドムーンの夜に使用できる
 			'''
 	}
 
@@ -1346,7 +1346,7 @@ Items: {
 		Tooltip:
 			'''
 			ティムを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1360,7 +1360,7 @@ Items: {
 		Tooltip:
 			'''
 			ボーン・リーを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1374,7 +1374,7 @@ Items: {
 		Tooltip:
 			'''
 			モスロンを召喚する
-			日食中のみ使用可能
+			日食中に使用できる
 			'''
 	}
 
@@ -1383,7 +1383,7 @@ Items: {
 		Tooltip:
 			'''
 			ネイルヘッドを召喚する
-			日食中のみ使用可能
+			日食中に使用できる
 			'''
 	}
 
@@ -1407,7 +1407,7 @@ Items: {
 		Tooltip:
 			'''
 			ルーンウィザードを召喚する
-			夜間か地下のみ使用可能
+			夜間か地下で使用できる
 			'''
 	}
 
@@ -1416,7 +1416,7 @@ Items: {
 		Tooltip:
 			'''
 			ゴブリンウォーロックを召喚する
-			ゴブリンの侵略中のみ使用可能
+			ゴブリン侵略中で使用できる
 			'''
 	}
 
@@ -1430,7 +1430,7 @@ Items: {
 		Tooltip:
 			'''
 			ミミックを召喚する
-			雪原で使用するとアイスミミックを召喚する
+			雪原だとアイスミミックを召喚する
 			'''
 		HardmodeLock: ハードモードでのみ使用可能
 	}
@@ -1440,7 +1440,7 @@ Items: {
 		Tooltip:
 			'''
 			ﾜﾝﾀﾞﾘﾝｸﾞｱｲﾌｨｯｼｭとゾンビマーマンを召喚する
-			夜間のみ使用可能
+			夜間で使用できる
 			'''
 	}
 
@@ -1449,8 +1449,8 @@ Items: {
 		Tooltip:
 			'''
 			ジャイアントワームを召喚する
-			ハードモードではディガーを召喚する
-			地下でのみ使用可能
+			ハードモードだとディガーを召喚する
+			地下で使用できる
 			'''
 	}
 
@@ -1480,8 +1480,8 @@ Items: {
 			'''
 			ムーンロードを倒すとミュータントから買うことができる
 			[c/FF0000:全てのボスとModボスを召喚する]
-			夜間のみ使用可能
-			[c/FF0000:使用は自己責任]
+			夜間で使用できる
+			[c/FF0000:使用は自己責任で]
 			'''
 	}
 
@@ -1490,7 +1490,7 @@ Items: {
 		Tooltip:
 			'''
 			狂気の崇拝者を召喚する
-			狂気の崇拝者を倒したことがある場合、倒しても宇宙のピラーたちを召喚しない
+			狂気の崇拝者を撃破済みなら、倒しても宇宙のピラーたちを召喚しない
 			'''
 	}
 
@@ -1499,9 +1499,9 @@ Items: {
 		Tooltip:
 			'''
 			ハードモード前の全てのボスとModボスを召喚する
-			夜間のみ使用可能
+			夜間で使用できる
 			一部のボスは、適したバイオームにいる場合にのみ召喚される
-			[c/FF0000:使用は自己責任]
+			[c/FF0000:使用は自己責任で]
 			'''
 	}
 
@@ -1521,7 +1521,7 @@ Items: {
 
 	MechanicalAmalgam: {
 		DisplayName: 融合した機械
-		Tooltip: ツインズ、デストロイヤー、スケルトロンプライムを召喚する
+		Tooltip: ツインズ、デストロイヤー、スケルトロンプライムを同時に召喚する
 	}
 
 	MutantVoodoo: {
@@ -1529,7 +1529,7 @@ Items: {
 		Tooltip:
 			'''
 			全てのボスを召喚する
-			夜間のみ使用可能
+			夜間で使用できる
 			'''
 	}
 
@@ -1547,8 +1547,8 @@ Items: {
 		DisplayName: 怪しい頭蓋骨
 		Tooltip:
 			'''
-			夜に使うとスケルトロンを仕立屋を殺さずに召喚する
-			日中に使うとダンジョンガーディアンを召喚する
+			夜間に使うとスケルトロンを仕立屋を殺さずに召喚する
+			昼間に使うとダンジョンガーディアンを召喚する
 			'''
 	}
 
@@ -1566,7 +1566,7 @@ Items: {
 		DisplayName: ローヤルエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadBee.DisplayName}をまとめて使用すると入手できる
 			「蜂蜜のような香り」
 			'''
 	}
@@ -1575,7 +1575,7 @@ Items: {
 		DisplayName: 龍のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBetsy.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadBetsy.DisplayName}をまとめて使用すると入手できる
 			「三千年待った気分だ」
 			'''
 	}
@@ -1584,7 +1584,7 @@ Items: {
 		DisplayName: 天才的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBrain.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadBrain.DisplayName}をまとめて使用すると入手できる
 			「You are a browser crusher! ahahaha ahaha a ahahaha...」
 			'''
 	}
@@ -1593,7 +1593,7 @@ Items: {
 		DisplayName: 狂気のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadCultist.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadCultist.DisplayName}をまとめて使用すると入手できる
 			「あなたはおそらく狂っている」
 			'''
 	}
@@ -1602,7 +1602,7 @@ Items: {
 		DisplayName: ミステリアスなエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDarkMage.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadDarkMage.DisplayName}をまとめて使用すると入手できる
 			「千年間待った気分だ」
 			'''
 	}
@@ -1611,7 +1611,7 @@ Items: {
 		DisplayName: シカトされたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDeer.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadDeer.DisplayName}をまとめて使用すると入手できる
 			「おなか
 			  へた」
 			'''
@@ -1621,7 +1621,7 @@ Items: {
 		DisplayName: 破壊のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadDestroyer.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadDestroyer.DisplayName}をまとめて使用すると入手できる
 			「子供たちを壊したくなる機械、デストロイヤッ！」
 			'''
 	}
@@ -1630,7 +1630,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー・エクストラ
 		Tooltip:
 			'''
-			10個の{$OverloadSkele.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadSkele.DisplayName}をまとめて使用すると入手できる
 			「意地悪な牛を思い出す」
 			'''
 	}
@@ -1639,7 +1639,7 @@ Items: {
 		DisplayName: 妖精のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadEmpress.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadEmpress.DisplayName}をまとめて使用すると入手できる
 			「部屋を明るくして、離れてみてください」
 			'''
 	}
@@ -1648,7 +1648,7 @@ Items: {
 		DisplayName: 光学的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadEye.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadEye.DisplayName}をまとめて使用すると入手できる
 			「あなたと自宅を監視することが趣味です」
 			'''
 	}
@@ -1657,7 +1657,7 @@ Items: {
 		DisplayName: とれたてピチピチのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadFish.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadFish.DisplayName}をまとめて使用すると入手できる
 			「とても満足しているようだ」
 			'''
 	}
@@ -1666,7 +1666,7 @@ Items: {
 		DisplayName: 電池としても使えるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadGolem.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadGolem.DisplayName}をまとめて使用すると入手できる
 			「単三電池だったらよかったのに」
 			'''
 	}
@@ -1675,7 +1675,7 @@ Items: {
 		DisplayName: 月のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadMoon.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadMoon.DisplayName}をまとめて使用すると入手できる
 			「ムンロは、チーズがたべたいだけなのです！」
 			'''
 	}
@@ -1684,7 +1684,7 @@ Items: {
 		DisplayName: 葉っぱのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadPlant.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadPlant.DisplayName}をまとめて使用すると入手できる
 			「いつか葉が茂って、根っこは大きく育って」
 			'''
 	}
@@ -1693,7 +1693,7 @@ Items: {
 		DisplayName: プレミアムエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadPrime.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadPrime.DisplayName}をまとめて使用すると入手できる
 			「広告がなくなった気分」
 			'''
 	}
@@ -1702,7 +1702,7 @@ Items: {
 		DisplayName: 水晶のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadQueenSlime.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadQueenSlime.DisplayName}をまとめて使用すると入手できる
 			「とてもぬるぬるする」
 			'''
 	}
@@ -1711,7 +1711,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadSkele.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadSkele.DisplayName}をまとめて使用すると入手できる
 			「牛を連想させる」
 			'''
 	}
@@ -1720,7 +1720,7 @@ Items: {
 		DisplayName: べとべとしたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadSlimeCrown.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadSlimeCrown.DisplayName}をまとめて使用すると入手できる
 			「少しぬるぬるした感じがする」
 			'''
 	}
@@ -1729,7 +1729,7 @@ Items: {
 		DisplayName: 兄弟のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadTwins.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadTwins.DisplayName}をまとめて使用すると入手できる
 			「兄弟といえば赤と緑」
 			'''
 	}
@@ -1738,7 +1738,7 @@ Items: {
 		DisplayName: ウォーリーのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadWall.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadWall.DisplayName}をまとめて使用すると入手できる
 			「ウォールを探せ！」
 			'''
 	}
@@ -1747,7 +1747,7 @@ Items: {
 		DisplayName: うねうねエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadWorm.DisplayName}をまとめて使用すると得られる
+			10個の{$OverloadWorm.DisplayName}をまとめて使用すると入手できる
 			「少し糸を引いている」
 			'''
 	}
@@ -1758,7 +1758,7 @@ Items: {
 	}
 
 	OverloadBetsy: {
-		DisplayName: ドラゴンの卵１０個セット
+		DisplayName: ドラゴンの卵の10個セット
 		Tooltip: 圧縮強化されたベッツィを召喚する
 	}
 
@@ -1806,7 +1806,7 @@ Items: {
 		Tooltip:
 			'''
 			ボス圧縮召喚アイテムのクラフトに使用する
-			圧縮召喚アイテムは、使用するとスタックしている分がまとめて消費される(最大10個まで)
+			圧縮召喚アイテムは、使用するとスタックしている分をまとめて消費する(最大10個まで)
 			消費数が多いほどボスが強くなる
 			5個以上消費すると、ボスの行動スピードが速くなる
 			消費1つにつきトレジャーバッグを5個ドロップ
@@ -1832,10 +1832,10 @@ Items: {
 	}
 
 	OverloadFrostMoon: {
-		DisplayName: いけないプレゼントの袋
+		DisplayName: いけないプレゼント袋
 		Tooltip:
 			'''
-			オーバーロードしたフロストムーンを開始する。
+			オーバーロードしたフロストムーンを開始する
 			もう一度使用するか中止されるまで「プレゼント」は送られ続ける
 			'''
 	}
@@ -1872,7 +1872,7 @@ Items: {
 		DisplayName: 海賊のお宝
 		Tooltip:
 			'''
-			オーバーロードした海賊の襲撃を開始する。
+			オーバーロードした海賊の襲撃を開始する
 			もう一度使用するか中止されるまで海賊は宝を諦められない
 			'''
 	}
@@ -1891,7 +1891,7 @@ Items: {
 		DisplayName: 狂気のパンプキンムーンメダリオン
 		Tooltip:
 			'''
-			オーバーロードしたパンプキンムーンを開始する。
+			オーバーロードしたパンプキンムーンを開始する
 			もう一度使用するか中止されるまで収穫祭は終わらない
 			'''
 	}
@@ -1905,8 +1905,8 @@ Items: {
 		DisplayName: 骸骨のネックレス
 		Tooltip:
 			'''
-			夜間に使用した場合、圧縮強化されたスケルトロンを召喚する
-			日中に使用した場合、圧縮強化されたダンジョンガーディアンを召喚する
+			夜間に使用すると、圧縮強化されたスケルトロンを召喚する
+			日中に使用すると、圧縮強化されたダンジョンガーディアンを召喚する
 			'''
 	}
 
@@ -2005,7 +2005,7 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			すべてのバニラのバフを与える設置物の効果を付与する
+			全てのバニラのバフを与える設置物の効果を付与する
 			触れると蜂蜜状態を与える
 			近くにいると運が大きく上昇し、シュガー・ラッシュ状態を与える
 			'''
@@ -2013,7 +2013,7 @@ Items: {
 
 	RegalStatue: {
 		DisplayName: 豪華な石像
-		Tooltip: 周辺の住人が非常に素早くリスポーンするようになる
+		Tooltip: 周辺のタウンNPCが非常に素早くリスポーンするようになる
 	}
 
 	Semistation: {
@@ -2021,7 +2021,7 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			一部のバニラのバフを与える設置物の効果を与える
+			一部のバニラのバフを与える設置物の効果を付与する
 			'''
 	}
 
@@ -2036,67 +2036,67 @@ Items: {
 
 	UnsafeBlueBrickWall: {
 		DisplayName: 危険な青いレンガの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeBlueSlabWall: {
 		DisplayName: 危険な青いスラブの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeBlueTileWall: {
 		DisplayName: 危険な青いタイルの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeGraniteWall: {
 		DisplayName: 危険な御影石の壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeGreenBrickWall: {
 		DisplayName: 危険な緑レンガの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeGreenSlabWall: {
 		DisplayName: 危険な緑スラブの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeGreenTileWall: {
 		DisplayName: 危険な緑タイルの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeLihzahrdBrickWall: {
 		DisplayName: 危険なジャングル寺院の壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeMarbleWall: {
 		DisplayName: 危険な大理石の壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafePinkBrickWall: {
 		DisplayName: 危険な桃レンガの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafePinkSlabWall: {
 		DisplayName: 危険な桃スラブの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafePinkTileWall: {
 		DisplayName: 危険な桃タイルの壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	UnsafeSpiderWall: {
 		DisplayName: 危険な蜘蛛の巣の壁
-		Tooltip: エリア固有の敵をスポーンさせる
+		Tooltip: エリア固有の敵を出現させる
 	}
 
 	WalkingRick: {
@@ -2183,7 +2183,7 @@ Items: {
 		DisplayName: ランバー・ジャックス
 		Tooltip:
 			'''
-			命中した敵は倒すと木を落とすことがある
+			この武器で倒した敵が木材をドロップすることがある
 			「真の斧使いの英雄が使ったかつての武器」
 			'''
 	}
@@ -2373,7 +2373,7 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			プレイヤーの足元のプラットフォームにセミステーションを設置します
+			プレイヤーの足元の足場ににセミステーションを設置する
 			※橋自体は生成しません！
 			'''
 	}
@@ -2383,8 +2383,8 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			町のNPCが汚染されたバイオームで生活できるようになる
-			汚染されたタイルが汚染されたバイオームを形成するのを防ぐ
+			タウンNPCが汚染されたバイオームに住めるようになる
+			汚染されたブロックが汚染されたバイオームを形成するのを防ぐ
 			墓石が墓地を形成するのを防ぐ
 			'''
 	}
@@ -2395,14 +2395,14 @@ Items: {
 		Tooltip:
 			'''
 			カーソルの位置に150x50の湖を作る
-			エリア内に存在したものは消滅する
+			エリア内にあるものは消滅する
 			下に重要な建物がある場合は使用しないこと
 			'''
 	}
 
 	KohaCrystal: {
 		DisplayName: コハ・クリスタル
-		Tooltip: 自分の最大マナをマナクリスタル1個分減らす
+		Tooltip: 自身の最大マナをマナクリスタル1個分減らす
 	}
 
 	BigSuckPotion: {
@@ -2419,7 +2419,7 @@ Items: {
 		Tooltip:
 			'''
 			カーソルの位置に小さな土の橋を作る
-			ブロックを壊すことはない
+			ブロックは破壊しない
 			'''
 	}
 
@@ -2435,42 +2435,42 @@ Items: {
 
 	NerdySlime: {
 		DisplayName: ナードなスライム
-		Tooltip: "'ゴボゴボ、ポコポコ！'"
+		Tooltip: ゴボゴボ、ポコポコ！
 	}
 
 	CoolSlime: {
 		DisplayName: クールなスライム
-		Tooltip: "'ピチョン！'"
+		Tooltip: ピチョン！
 	}
 
 	ElderSlime: {
 		DisplayName: 長老スライム
-		Tooltip: "'プウッ...オホン！'"
+		Tooltip: プウッ...オホン！
 	}
 
 	ClumsySlime: {
 		DisplayName: 不器用なスライム
-		Tooltip: "'*気まずい沈黙*'"
+		Tooltip: "*気まずい沈黙*"
 	}
 
 	DivaSlime: {
 		DisplayName: 歌姫スライム
-		Tooltip: "'パラパラ、リンリン！'"
+		Tooltip: パラパラ、リンリン！
 	}
 
 	SurlySlime: {
 		DisplayName: ぶっきらぼうなスライム
-		Tooltip: "'シュー！ガラガラ！グルルル...'"
+		Tooltip: シュー！ガラガラ！グルルル...
 	}
 
 	MysticSlime: {
 		DisplayName: 魔法使いスライム
-		Tooltip: "'ザラザラ、ザァァ！'"
+		Tooltip: ザラザラ、ザァァ！
 	}
 
 	SquireSlime: {
 		DisplayName: 騎士見習いスライム
-		Tooltip: "'ブクブク！ゴボゴボ！'"
+		Tooltip: ブクブク！ゴボゴボ！
 	}
 }
 
@@ -2918,7 +2918,7 @@ Projectiles: {
 	}
 
 	InstaHouseVisual: {
-		DisplayName: どこでもハウス 外観
+		DisplayName: どこでもハウスの外観
 	}
 
 	InstaProj: {
@@ -3137,14 +3137,14 @@ Conditions: {
 	BloodEelDown: ハードモードで血液ウナギを倒した後
 	BloodGoblinDown: ハードモードでヘモゴブリンシャークを倒した後
 	BloodNautDown: ハードモードでドレッドノーチラスを倒した後
-	SummonerDown: ハードモードでゴブリンウォーロックを倒し、ゴブリンの侵略が攻略された後
-	PirateDown: ハードモードで海賊のキャプテンを倒し、海賊の襲来が攻略された後
+	SummonerDown: ハードモードでゴブリンウォーロックを倒し、ゴブリンの侵略を撃退した後
+	PirateDown: ハードモードで海賊のキャプテンを倒し、海賊の襲来を撃退した後
 	NailheadDown: ネイルヘッドと全てのメカニカルボスを倒した後
 	MothronDown: モスロンと全てのメカニカルボスを倒した後
 	LeeDown: ボーン・リーとプランテラを倒した後
 	PaladinDown: パラディンとプランテラを倒した後
-	SkeleGunDown: プランテラが討伐され、ネクロマンサー、ラギッドキャスター、またはディアボリストのいずれかを倒した後
-	SkeleMagesDown: ネクロマンサー、ディアボリスト、またはラギッドキャスターのいずれかを倒し、プランテラも倒した後
+	SkeleGunDown: プランテラを倒し、ネクロマンサー、ラギッドキャスター、ディアボリストのいずれかを倒した後
+	SkeleMagesDown: ネクロマンサー、ディアボリスト、ラギッドキャスターのいずれかを倒し、プランテラも倒した後
 	SiblingPylon: 全ての兄弟がいるとき
 	BossDown: ボスを一体倒した後
 	DownedTheBoss: ボスを倒した後
@@ -3155,21 +3155,21 @@ Conditions: {
 	Angler25: 釣りクエストを25回クリアした後
 	Angler30: 釣りクエストを30回クリアした後
 	InRockOrDirtLayerHeight: 地下にいるとき
-	BrittleBone: 弾薬に{$Items.BrittleBone.DisplayName}を使用する武器を所持しているとき
-	Seeds: 弾薬に種を使用する武器を所持しているとき
-	RedHusk: 赤色の甲虫殻を拾得した後
-	OrangeBloodroot: オレンジ色のブラッドルートを拾得した後
-	YellowMarigold: 黄色のマリーゴールドを拾得した後
-	LimeKelp: ライム色のコンブを拾得した後
-	GreenMushroom: 緑のキノコを拾得した後
-	TealMushroom: 青緑のキノコを拾得した後
-	CyanHusk: シアン色の甲虫殻を拾得した後
-	SkyBlueFlower: 空色の花を拾得した後
-	BlueBerries: ブルーベリーを拾得した後
-	PurpleMucos: 紫色の粘液を拾得した後
-	VioletHusk: すみれ色の甲虫殻を拾得した後
-	PinkPricklyPear: ピンク色のサボテン果実を拾得した後
-	BlackInk: 黒色のインクを拾得した後
+	BrittleBone: 弾薬に{$Items.BrittleBone.DisplayName}を使用する武器を持っているとき
+	Seeds: 弾薬に種を使用する武器を持っているとき
+	RedHusk: 赤色の甲虫殻を入手した後
+	OrangeBloodroot: オレンジ色のブラッドルートを入手した後
+	YellowMarigold: 黄色のマリーゴールドを入手した後
+	LimeKelp: ライム色のコンブを入手した後
+	GreenMushroom: 緑のキノコを入手した後
+	TealMushroom: 青緑のキノコを入手した後
+	CyanHusk: シアン色の甲虫殻を入手した後
+	SkyBlueFlower: 空色の花を入手した後
+	BlueBerries: ブルーベリーを入手した後
+	PurpleMucos: 紫色の粘液を入手した後
+	VioletHusk: すみれ色の甲虫殻を入手した後
+	PinkPricklyPear: ピンク色のサボテン果実を入手した後
+	BlackInk: 黒色のインクを入手した後
 }
 
 Keybinds: {
@@ -3191,23 +3191,23 @@ Keybinds: {
 }
 
 ExpandedTooltips: {
-	FountainOcean: 起動すると周囲のバイオームが「海」扱いになる
-	FountainDesert: 起動すると周囲のバイオームが「砂漠」扱いになる
-	FountainJungle: 起動すると周囲のバイオームが「ジャングル」扱いになる
-	FountainSnow: 起動すると周囲のバイオームが「雪原」扱いになる
-	FountainCorruption: 起動すると周囲のバイオームが「不浄」扱いになる
-	FountainCrimson: 起動すると周囲のバイオームが「真紅」扱いになる
-	FountainHallow: 起動すると周囲のバイオームが「聖域」扱いになる（ハードモード時のみ）
-	CatchNPCs: 住人（タウンNPC）が捕獲可能になる
-	ExtraLure1: 追加でルアーを1つ付与
+	FountainOcean: 起動すると周囲のバイオームが「海」として扱われる
+	FountainDesert: 起動すると周囲のバイオームが「砂漠」として扱われる
+	FountainJungle: 起動すると周囲のバイオームが「ジャングル」として扱われる
+	FountainSnow: 起動すると周囲のバイオームが「雪原」として扱われる
+	FountainCorruption: 起動すると周囲のバイオームが「不浄」として扱われる
+	FountainCrimson: 起動すると周囲のバイオームが「真紅」として扱われる
+	FountainHallow: 起動すると周囲のバイオームが「聖域」として扱われる（ハードモードでのみ）
+	CatchNPCs: 住人（タウンNPC）を捕獲できる
+	ExtraLure1: ルアーが1つ追加される
 	Lures2: この釣り竿はルアーを2本飛ばす
 	Lures3: この釣り竿はルアーを3本飛ばす
 	Lures5: この釣り竿はルアーを5本飛ばす
-	AutoTorch: 設置した松明を自動で置き換え、幸運値を上昇させる
-	TrueTorchLuck: 松明置き換え時に“本来の運気補正”を参照（通常の自動選択とは異なる可能性あり）
-	UnlimitedBuff30: 所持品、豚の貯金箱、または金庫内に30個以上あると、バフの効果時間が無限になる
-	UnlimitedUse30: 30個以上所持していると、無限に使用できる
-	PermanentEffectNearby: 設置すると周囲のプレイヤーに永続効果を付与する
+	AutoTorch: 設置したたいまつを自動的に置き換え、運を増加させる
+	TrueTorchLuck: たいまつ置き換え時に“本来の運の補正”を参照（通常の自動選択とは異なる可能性あり）
+	UnlimitedBuff30: インベントリ、豚の貯金箱、または金庫内に30個以上あると、バフの持続時間が無限になる
+	UnlimitedUse30: 30個以上あると、消費しなくなる
+	PermanentEffectNearby: 設置すると周囲のプレイヤーに永続バフを付与する
 	WorksFromBanks: 所持効果は豚の貯金箱・金庫内でも有効
 	SoldBySquirrel: 所持していると、リスが販売するようになる
 	SomeMaterialsSold: 所持していると、リスが一部素材を販売するようになる
