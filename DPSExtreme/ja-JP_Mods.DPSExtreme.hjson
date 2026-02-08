@@ -1,0 +1,230 @@
+Keybinds: {
+	ToggleTeamDPSBossMeter: {
+		DisplayName: チームDPSとボスメーターの切り替え
+	}
+}
+
+NeedAccessory: アクセサリが見つかりません
+
+DisplayModeSelect: セレクトモード:
+
+ChatBroadcastLineCountSelect: 送信する行数:
+
+Lines: 行
+
+AllLines: すべての行
+
+NoDataToBroadcast: 送信できるデータがありません
+
+CombatHistory: 戦闘履歴:
+
+AllCombats: 全戦闘
+
+CurrentCombat: 現在の戦闘
+
+DamagePerSecond: DPS
+
+DamagePerSecondTooltip: プレイヤーが一秒間に与えるダメージ数です。
+
+DamageDone: 与えたダメージ
+
+DamageDoneTooltip: それぞれのアイテムで与えた合計ダメージを表示します。
+
+MinionDamageDone: 与えたミニオンダメージ
+
+MinionDamageDoneTooltip: 使用されたミニオンスロット毎に与えたダメージです。ミニオンの効果を比較する時に役立ちます。
+
+DamageTaken: 受けたダメージ
+
+DamageTakenTooltip: それぞれのダメージ源から受けたダメージを表示します。
+
+ManaUsed: 消費したマナ
+
+ManaUsedTooltip: 各プレイヤーが消費したマナを表示します。
+
+BuffUptime: バフ効果時間
+
+BuffUptimeTooltip: それぞれのバフの効果に影響されていた時間を表示します(秒間)
+
+DebuffUptime: デバフ効果時間
+
+DebuffUptimeTooltip: それぞれのデバフの効果に影響されていた時間を表示します(秒間)
+
+EnemyDamageTaken: 敵が受けたダメージ
+
+EnemyDamageTakenTooltip: 敵がそれぞれのダメージ源から受けたダメージを表示します。
+
+Deaths: 死亡回数
+
+DeathsTooltip: 各プレイヤーが死亡した回数を表示します。
+
+Kills: キル数
+
+KillsTooltip: 各プレイヤーが敵を倒した回数を表示します。
+
+TogglePercent: パーセンテージ切り替え
+
+NoDPSWearDPSMeter: DPSは表示されません。[i:DPSMeter]を装備してください。
+
+NoBoss: ボスなし
+
+BossLabel: ボス - {0}
+
+Combat: 戦闘
+
+ClickToChangeDisplay: クリックして表示モードを切り替える
+
+EnableAutoSelectNewCombat: クリックして新しい戦闘の自動選択を有効にする
+
+DisableAutoSelectNewCombat: クリックして新しい戦闘の自動選択を無効にする
+
+BroadcastToChat: クリックして戦闘統計をチャットに送信
+
+ShowCombatHistory: クリックして戦闘履歴をチャットに送信
+
+Close: 閉じる
+
+DamageStatsForNPC: "{0}のダメージ統計: "
+
+DisconnectedPlayer: 切断したプレイヤー
+
+TownNPC: タウンNPC
+
+Traps: 罠
+
+DamageOverTime: デバフスリップダメージ
+
+ToggleTeamDPSCommandDescription: チームDPS画面を切り替え
+
+Invasion: 侵略
+
+Event: イベント
+
+Other: その他
+
+Melee: 近接
+
+UnknownTraps: 未知の罠
+
+FallDamage: 落下ダメージ
+
+Drowning: 溺れダメージ
+
+Lava: 溶岩ダメージ
+
+BlockContactDamage: 防いだ接触ダメージ
+
+Configs: {
+	DPSExtremeClientConfig: {
+		DisplayName: DPSExtremeクライアント設定
+
+		Headers: {
+			GeneralConfigHeader: 全般
+			UserInterface: ユーザーインターフェース
+		}
+
+		ShowPercentages: {
+			Label: パーセンテージ表示
+			Tooltip: ""
+		}
+
+		SnapAdditionalInfoBoxToMouse: {
+			Label: 追加情報ボックスをマウスへスナップする
+			Tooltip: ""
+		}
+
+		ShowUIByDefault: {
+			Label: UIをデフォルトで表示する
+			Tooltip: Trueならワールド参加時に自動的にUIを表示させます。
+		}
+
+		UITransparency: {
+			Label: UI透明度
+			Tooltip: 調整してUIを透過できるようにします。
+		}
+	}
+
+	DPSExtremeServerConfig: {
+		DisplayName: DPSExtremeサーバー設定
+
+		Headers: {
+			GeneralConfigHeader: 全般
+			CombatConfigHeader: 戦闘
+			BuffUptimesHeader: バフ効果時間
+			Debug: デバッグ
+		}
+
+		RefreshRate: {
+			Label: リフレッシュレート
+			Tooltip: ティック数でどれだけの頻度で戦闘統計情報をプレイヤーに送信するか設定します。(シングルプレイでは常に10ティック)
+		}
+
+		IgnoreCritters: {
+			Label: 生き物(クリッター)を無視
+			Tooltip: Falseでは生き物(クリッター)に与えたダメージは無視され、戦闘状態にはなりません。
+		}
+
+		TrackGenericCombat: {
+			Label: 通常戦闘を追跡
+			Tooltip: FalseではボスではないNPCに与えた、または受けたダメージでは戦闘状態になりません。
+		}
+
+		TrackEvents: {
+			Label: イベントを追跡
+			Tooltip: Falseではイベントでは戦闘状態になりません。
+		}
+
+		TrackInvasions: {
+			Label: 侵略を追跡
+			Tooltip: Falseでは侵略で戦闘状態になりません。
+		}
+
+		TrackBosses: {
+			Label: ボスを追跡
+			Tooltip: Falseではボス召喚は戦闘状態としてカウントされません。
+		}
+
+		EndGenericCombatsWhenUpgraded: {
+			Label: アップグレードされた時に通常戦闘を終了させる
+			Tooltip: ""
+		}
+
+		GenericCombatTimeout: {
+			Label: 通常戦闘タイムアウト
+			Tooltip: ""
+		}
+
+		IgnorePermanentBuffs: {
+			Label: 永続バフを無視
+			Tooltip: ""
+		}
+
+		IgnoreMinionBuffs: {
+			Label: ミニオンバフを無視
+			Tooltip: ""
+		}
+
+		ShowDebugMessages: {
+			Label: デバッグメッセージを表示
+			Tooltip: ""
+		}
+
+		PostCombatDamageDonePrintLineCount: {
+			Label: チャットする戦闘統計情報の行数
+			Tooltip: 戦闘が終わった後にチャットに送信される戦闘統計情報の行数です。(0では完全に送信されなくなります)
+		}
+
+		BypassDPSMeterRequirement: {
+			Label: DPS測定機[i:DPSMeter])要件をスキップ
+			Tooltip: DPS測定機([i:DPSMeter])を所持するといった条件をスキップします。
+		}
+	}
+}
+
+BuilderToggles: {
+	ToggleUIBuildersToggle: {
+		OnText: DPSメーター表示
+		OffText: DPSメーター非表示
+	}
+}
+

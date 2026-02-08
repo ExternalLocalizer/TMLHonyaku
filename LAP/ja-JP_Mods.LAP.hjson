@@ -1,0 +1,143 @@
+WeaponBoost: {
+	DamageMult: "[c/00BFFF:この武器はステータスが変更され、ダメージ倍率が{0}倍になっている]"
+}
+
+Conditions: {
+	DownedBOC: クトゥルフの脳撃破後
+	DownedEOW: イーターオブワールド撃破後
+	DownedBloodMoon: ブラッドムーン中
+	HasEnterWorld: ワールド参加済み
+	DownedAllMechBoss: 全メカボス撃破後
+}
+
+Items: {
+	TestSword: {
+		DisplayName: Test Sword
+		Tooltip: ""
+	}
+
+	TestItem: {
+		DisplayName: Test Item
+		Tooltip: dont use
+	}
+}
+
+Keybinds: {
+	WeaponSkill: {
+		DisplayName: 武器スキル
+	}
+}
+
+Configs: {
+	LAPConfig: {
+		ParticleLimit: {
+			Label: パーティクル上限
+			Tooltip: ""
+		}
+
+		ScreenShakeStrength: {
+			Label: 画面揺れの強度
+			Tooltip: ""
+		}
+
+		DisplayName: Lilac Arcane Pack 設定
+
+		PlayerMagnoliaMainTheme: {
+			Label: プレイヤーマグノリアメインテーマ
+			Tooltip: ""
+		}
+
+		PerformanceMode: {
+			Label: パフォーマンスモード
+			Tooltip: ""
+		}
+
+		PlayerAttackMult: {
+			Label: プレイヤー攻撃倍率
+			Tooltip: ""
+		}
+
+		PlayerInjuryMult: {
+			Label: プレイヤー被ダメージ倍率
+			Tooltip: ""
+		}
+
+		HeadRotFollowMouse: {
+			Label: プレイヤーの頭がカーソルを追従
+			Tooltip: プレイヤーの方向と頭がマウスに追従します
+		}
+
+		DeBugInfo: {
+			Label: デバッグ情報
+			Tooltip: ""
+		}
+	}
+
+	LAPUIConfig: {
+		DisplayName: Lilac Arcane Pack UI 設定
+
+		CDUIOffsetX: {
+			Label: クールダウンUI位置 X
+			Tooltip: ""
+		}
+
+		CDUIOffsetY: {
+			Label: クールダウンUI位置 Y
+			Tooltip: ""
+		}
+
+		CDUIOrigMode: {
+			Label: クールダウンUI描画原点モード
+			Tooltip:
+				'''
+				1 : 左端を基点として設定します
+				2 : 中央を基点として設定します
+				3 : 右端を基点として設定します
+				'''
+		}
+
+		CDChangePosByBuffCount: {
+			Label: バフ数に応じたクールダウンUI位置変更
+			Tooltip: バフ数に応じてクールダウンUIの位置が変更されます
+		}
+
+		FocusBarOffsetX: {
+			Label: フォーカスゲージ描画位置 X
+			Tooltip: ""
+		}
+
+		FocusBarOffsetY: {
+			Label: フォーカスゲージ描画位置 Y
+			Tooltip: ""
+		}
+
+		DrawFocusBar: {
+			Label: フォーカスゲージを描画
+			Tooltip: ""
+		}
+	}
+}
+
+MouseMessage: {
+	ShiftTag: SHIFTで詳細表示
+	Focus: "フォーカスポイント:"
+	FocusRegen: "現在のフォーカスポイント再生:"
+	FocusIntroduction:
+		'''
+		最大値は100、再生速度は2/sです。
+		ボスが周りにいない場合は再生速度が500%上昇します。
+		他のModで追加されるフォーカスポイント消費メカニックにより使用されます。
+		'''
+	NoUseFocusText:
+		'''
+		現在読み込んでいるModはフォーカスポイントを使用していません（少なくともそのように表示されていません）。
+		設定でこのバーの描画を無効にすることができます。
+		:(
+		'''
+	TestInfo:
+		'''
+		test version:
+		Maximum and recovery values increase as bosses are defeated
+		'''
+}
+
