@@ -1,0 +1,78 @@
+Configs: {
+	ArmorPocketConfig2: {
+		SetBonusesOnly: {
+			Tooltip: ""
+			Label: セットボーナスのみ
+		}
+
+		DefenseMultiplier: {
+			Tooltip: ""
+			Label: 防御力倍率 [i:CobaltShield]
+		}
+
+		Headers: {
+			PocketArmorsConfig2: バランス設定
+		}
+
+		DisplayName: サーバー設定
+	}
+
+	ArmorPocketConfig: {
+		HideSetIcons: {
+			Tooltip: ""
+			Label: セットアイコンを隠す
+		}
+
+		IconName: {
+			Tooltip:
+				'''
+				小さなアイテムアイコンが [i:PocketArmors/ArmorPocket] 装備ポケット名の横に表示されます
+				バニラ："ItemName"
+				MOD："Mod/ItemName"
+				[c/808080:(※ 内部名を使用する必要があります)]
+				'''
+			Label: ポケットアイコン
+		}
+
+		CompactMode: {
+			Tooltip: 説明用ツールチップを非表示にし、見た目をすっきりさせます [i:FragmentStardust]
+			Label: 簡易表示モード
+		}
+
+		Headers: {
+			PocketArmorsConfig: 表示設定 [i:Goggles]
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+Items: {
+	ArmorPocket: {
+		Tooltip: ""
+		DisplayName: 装備ポケット
+	}
+}
+
+ManualLine3: "[c/c4c4c4:LShift＋右クリックで中身をすべて取り出す]"
+
+ManualLine2: "[c/c4c4c4:防具を持った状態で右クリックしてポケットに入れる]"
+
+ManualLine1: "[c/c4c4c4:--使い方--]"
+
+PleaseRemoveArmor: その操作はできません。（鍛え直し前に防具を外してください）
+
+MagicHat: マジシャン
+
+SetNameDisplay: 現在のセット：{0}
+
+SetBonusDisplay: "{1} {0}"
+
+Legs: "[c/{0}:> {2}:]   {1} "
+
+Chest: "[c/{0}:> {2}:]    {1} "
+
+Helm: "[c/{0}:> {2}:]  {1} "
+
+ItemDisplay: "[i/s{2}:{0}{1}]"
+

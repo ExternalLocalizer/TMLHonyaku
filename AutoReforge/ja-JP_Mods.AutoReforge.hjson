@@ -1,0 +1,47 @@
+ModName: Auto Reforge Plus
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		ReforgePerSec: {
+			Label: 自動鍛え直し速度
+			Tooltip: 秒間の鍛え直し速度
+		}
+
+		HideDefaultReforgeMenu: {
+			Label: 標準鍛え直しメニューを非表示
+			Tooltip: ""
+		}
+
+		Lock: {
+			Label: 鍛え直しパネルロック
+			Tooltip: 鍛え直しパネルを固定します
+		}
+
+		UIPosition: {
+			Label: 鍛え直しパネルの位置
+			Tooltip: パネルの表示位置。変更は自動で保存されます
+		}
+	}
+}
+
+MoneyUI: {
+	Reserve: {
+		Label: そのままにする
+		Tooltip: ホイール操作で値を調整
+	}
+}
+
+ReforgeUI: {
+	Lock: {
+		Label: ロック
+		Tooltip: ロック解除
+	}
+
+	Unlock: {
+		Label: ロック解除
+		Tooltip: ロック
+	}
+}
+

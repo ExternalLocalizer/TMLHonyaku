@@ -1,0 +1,55 @@
+Configs: {
+	ExtraConfig: {
+		DisplayName: エクストラ設定
+
+		EnableTinyWorldSize: {
+			Label: タイニーワールドを有効化
+			Tooltip: ""
+		}
+
+		EnableHugeWorldSize: {
+			Label: ヒュージワールドを有効化
+			Tooltip: ""
+		}
+
+		DefaultWorldSize: {
+			Label: 標準ワールドサイズ
+			Tooltip: ""
+		}
+
+		EnableCompactMediumWorldTitle: {
+			Label: ミディアムサイズ表記を簡素化
+			Tooltip: ""
+		}
+	}
+
+	WorldSizeID: {
+		Tooltip: ""
+
+		Tiny: {
+			Label: タイニー
+			Tooltip: ""
+		}
+
+		Small: {
+			Label: スモール
+			Tooltip: ""
+		}
+
+		Medium: {
+			Label: ミディアム
+			Tooltip: ""
+		}
+
+		Large: {
+			Label: ラージ
+			Tooltip: ""
+		}
+
+		Huge: {
+			Label: ヒュージ
+			Tooltip: ""
+		}
+	}
+}
+

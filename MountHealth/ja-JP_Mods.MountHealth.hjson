@@ -1,0 +1,33 @@
+Configs: {
+	MountConfigs: {
+		HealthBarColor: {
+			Label: ライフバーカラー
+			Tooltip: ""
+		}
+
+		MountEjectDebuffTime: {
+			Tooltip: ""
+			Label: 乗り物再召喚不可の持続時間
+		}
+
+		MountHpRegenRate: {
+			Tooltip: ""
+			Label: 乗り物のライフ回復速度
+		}
+
+		MountMaxHp: {
+			Tooltip: ""
+			Label: 乗り物の最大ライフ
+		}
+
+		DisplayName: 乗り物設定
+	}
+}
+
+Buffs: {
+	NoResponse: {
+		Description: 君の乗り物は今、別の場所で遊んでいるようだ
+		DisplayName: 応答なし
+	}
+}
+
