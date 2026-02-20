@@ -1,8 +1,8 @@
 CommonItemtooltip: {
-	HotkeySet: 警告: 能力にキーが設定されていません。設定のコントロールでキーを割り当ててください!
+	HotkeySet: 警告: 能力にキーが設定されていません！設定のコントロールでキーを割り当ててください！
 	BonusAccessory: 追加アクセサリスロット
 	GemsforRecipe: "宝石"
-	AbilitiesRefreshed: 能力が発動可能!
+	AbilitiesRefreshed: 能力が発動可能！
 	RecipeBrowserFilter: 能力アクセサリー
 
 	Cooldown: {
@@ -17,7 +17,7 @@ CommonItemtooltip: {
 	ForBuffs: {
 		RegeneratingHealth: ライフを急速に回復する
 		RegeneratingMana: マナを急速に回復する
-		Lucky: ラッキー!
+		Lucky: ラッキー！
 		Unlucky: アンラッキー...
 		IncreasedCriticalChance: クリティカル率が上昇
 		DecreasedCriticalChance: クリティカル率が低下
@@ -32,8 +32,8 @@ CommonItemtooltip: {
 	ForItems: {
 		ActivatedAbility: "能力の効果: "
 		BrieflyLifeRegen: デバフが治ると、一時的にライフが急速に回復する
-		ManaSicknessInflicted: 回復中、マナ酔いを受ける
-		PotionSicknessInflicted: 回復中、ポーション酔いを受ける
+		ManaSicknessInflicted: 回復中はマナ酔いを受けない
+		PotionSicknessInflicted: 回復中はポーション酔いを受ける
 		SlowlyRegeneratesLife: ライフが徐々に回復する
 		NoKnockback: ノックバックを無効化
 		ArcanaStimulator: 10秒間でマナを{0}回復する
@@ -44,9 +44,9 @@ CommonItemtooltip: {
 			吸収したライフは、ライフが最も少ないプレイヤーのライフを回復する
 			ライフを吸収された敵は、しばらくの間ダメージを受け続ける
 			'''
-		ReducedAbilityCooldown: 能力アクセサリのクールダウンを{0}%短縮する
-		PercentIncreasedWhipSpeed: 鞭の攻撃速度を{0}%上昇
-		PercentIncreasedWhipRange: 鞭の攻撃範囲を{0}%増加
+		ReducedAbilityCooldown: 能力アクセサリのクールダウンを{0}%短縮
+		PercentIncreasedWhipSpeed: 鞭の攻撃速度が{0}%上昇
+		PercentIncreasedWhipRange: 鞭の攻撃範囲が{0}%増加
 		MoreTarget: 敵に狙われやすくなる
 		LessTarget: 敵に狙われにくくなる
 		AccessorySlot: 職人のアクセサリースロット
@@ -69,6 +69,8 @@ CommonItemtooltip: {
 		CheaperEffect: クリック効果に必要なクリック数を{0}減らす
 	}
 
+	Rogue.IncStealth: 最大ステルスが{0}増加
+
 	Armorset: {
 		AstralNova:
 			'''
@@ -79,7 +81,7 @@ CommonItemtooltip: {
 		Champions:
 			'''
 			+2 {$CommonItemtooltip.ForItems.AccessorySlot}
-			テラリアがあなたのライフに応じてダメージ増加や防御力増加を与える
+			テラリアがライフに応じてダメージ増加や防御力増加を与える
 			'''
 		Lihzahrd:
 			'''
@@ -97,7 +99,7 @@ CommonItemtooltip: {
 		Radiant:
 			'''
 			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
-			神秘のクリスタルを召喚し、あなたと近くのプレイヤーは対応するタイプのダメージを増加させる
+			神秘のクリスタルを召喚し、あなたと近くのプレイヤーの対応するタイプのダメージを増加させる
 			あなたを含め、自分のクリスタルを持つプレイヤーは、この効果が強化される
 			{0}を二度押しで増加するダメージのタイプが切り替わる
 			'''
@@ -135,17 +137,33 @@ CommonItemtooltip: {
 			能力アクセサリのクールダウンを17%短縮
 			'''
 	}
+
+	PresentDeath: {
+		Msg0: "{0}はラッキーブロックが苦手だ"
+		Msg1: "{0}はとても不運だった"
+		Msg2: "{0}は間違ったプレゼントを間違ったタイミングで開けた"
+		Msg3: "{0}は箱の中に何が入っているか知るべきではなかった"
+		Msg4: "{0}は自発的な死という贈り物を解き放った"
+		Msg5: "{0}は今年は本当のいたずらだったに違いない"
+		Msg6: "{0}はオールインして負けた"
+		Msg7: "{0}はリストに載っていたものは確かに得られなかった"
+		Msg8: "{0}は全てのプレゼントが良いプレゼントではないことを学んだ"
+		Msg9: "{0}は彼らにはチャンスすらない"
+	}
+
+	HungryDeath: "{0}はどういうわけか、身悶えする肉を使って死んだ？そんなことは許されないはずだ"
+
 }
 
 Buffs: {
 	BewitchedBulwarkBuff: {
 		DisplayName: 魔法の防壁
-		Description: 魔法の盾が防御力を増加させる!
+		Description: 魔法の盾が防御力を増加させる！
 	}
 
 	CyborgCoreBuff: {
 		DisplayName: ナノマシン
-		Description: 移動速度が低下するが、防御力とライフ回復力が大幅に増加する
+		Description: 移動速度が低下するが、防御力とライフ回復力が大幅に増加
 	}
 
 	HPStim3: {
@@ -170,12 +188,12 @@ Buffs: {
 
 	PowerArmorBuff: {
 		DisplayName: パワーアーマー
-		Description: 被ダメージを大きく軽減するパワーアーマーを装備!
+		Description: 被ダメージを大きく軽減するパワーアーマーを装備！
 	}
 
 	ArtificerArmorBuff: {
 		DisplayName: 職人の鎧
-		Description: 被ダメージを大きく軽減する魔法の鎧を装備!
+		Description: 被ダメージを大きく軽減する魔法の鎧を装備！
 	}
 
 	HPStim1: {
@@ -190,12 +208,12 @@ Buffs: {
 
 	LifeChargerBuff: {
 		DisplayName: ライフチャージャー
-		Description: ライフを回復するエネルギーをチャージ中...攻撃を受けないように!
+		Description: ライフを回復するエネルギーをチャージ中...攻撃を受けないように！
 	}
 
 	ManaChargerBuff: {
 		DisplayName: マナチャージャー
-		Description: マナを回復するエネルギーをチャージ中...攻撃を受けないように!
+		Description: マナを回復するエネルギーをチャージ中...攻撃を受けないように！
 	}
 
 	ManaStim1: {
@@ -215,7 +233,7 @@ Buffs: {
 
 	RetributionBuff: {
 		DisplayName: 報復
-		Description: 痛みはあなたを強くする!
+		Description: 痛みはあなたを強くする！
 	}
 
 	AbilityCooldown: {
@@ -225,12 +243,12 @@ Buffs: {
 
 	ChampionDef: {
 		DisplayName: テラリアの決意
-		Description: テラリアの力が防御力と再生力を強化する!
+		Description: テラリアの力が防御力と再生力を強化する！
 	}
 
 	ChampionOff: {
 		DisplayName: テラリアの勇気
-		Description: テラリアの力が攻撃力を強化する!
+		Description: テラリアの力が攻撃力を強化する！
 	}
 
 	MechShock: {
@@ -260,7 +278,7 @@ Buffs: {
 
 	SolarOverdrive: {
 		DisplayName: ソーラーオーバードライブ
-		Description: ダメージ増加効果で反撃だ!
+		Description: ダメージ増加効果で反撃だ！
 	}
 
 	TarnishedRevive: {
@@ -310,7 +328,7 @@ Buffs: {
 
 	ChampionProtec: {
 		DisplayName: チャンピオンの守護
-		Description: あなたに代わり、攻撃者がダメージを受ける!
+		Description: あなたに代わり、攻撃者がダメージを受ける！
 	}
 
 	TerraCooldown: {
@@ -320,17 +338,17 @@ Buffs: {
 
 	LastStand: {
 		DisplayName: テラガード
-		Description: 近くのテラシールドがあなたを死から守ってくれる!
+		Description: 近くのテラシールドがあなたを死から守ってくれる！
 	}
 
 	TerraRevive: {
 		DisplayName: ラストスタンド
-		Description: 時間経過によるダメージを受けなくなる。戦いを逆転させよう!
+		Description: 時間経過によるダメージを受けなくなる。戦いを逆転させよう！
 	}
 
 	PrimeRage: {
 		DisplayName: プライムの怒り
-		Description: プライムガントレットがスーパーチャージされた!
+		Description: プライムガントレットがスーパーチャージされた！
 	}
 
 	CounterstrikeProtocol: {
@@ -374,7 +392,7 @@ Buffs: {
 	}
 
 	FlamboyantCapeBuff: {
-		DisplayName: 華やか!
+		DisplayName: 華やか！
 		Description: "{$CommonItemtooltip.ForItems.MoreTarget}"
 	}
 
@@ -530,7 +548,7 @@ Buffs: {
 
 	NovaSurge: {
 		DisplayName: 宇宙の力
-		Description: 余分なエネルギーが攻撃と防御を強化する!
+		Description: 余分なエネルギーが攻撃と防御を強化する！
 	}
 
 	Leech2: {
@@ -576,7 +594,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			{$CommonItemtooltip.ForItems.ManaSicknessInflicted}
+			
 			[placeholder]
 			'''
 	}
@@ -586,7 +604,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			{$CommonItemtooltip.ForItems.ManaSicknessInflicted}
+			
 			[placeholder]
 			'''
 	}
@@ -608,7 +626,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}カーソルの位置にテレポートする
-			「つまり…カオスエメラルドのことか?」
+			「つまり…カオスエメラルドのことか？」
 			'''
 	}
 
@@ -696,7 +714,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			{$CommonItemtooltip.ForItems.ManaSicknessInflicted}
+			
 			[placeholder]
 			'''
 	}
@@ -706,7 +724,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			{$CommonItemtooltip.ForItems.ManaSicknessInflicted}
+			
 			[placeholder]
 			'''
 	}
@@ -747,7 +765,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}あなたと近くの味方の炎上、霜焼け、シャドウフレイム、呪炎を治す
 			{$CommonItemtooltip.ForItems.BrieflyLifeRegen}
-			「まるで背中に消火器を縛り付けているみたいだ!」
+			「まるで背中に消火器を縛り付けているみたいだ！」
 			'''
 	}
 
@@ -755,7 +773,7 @@ Items: {
 		DisplayName: ライフチャージャー
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒経過するとライフを50回復する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒経過するとライフを100回復する
 			10秒経過前にダメージを受けるとプロセスが中断され、ライフを回復できない
 			[placeholder]
 			'''
@@ -765,7 +783,7 @@ Items: {
 		DisplayName: マナチャージャー
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒経過するとマナを140回復する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒経過するとマナを150回復する
 			10秒経過前にダメージを受けるとプロセスが中断され、マナを回復できない
 			[placeholder]
 			'''
@@ -786,7 +804,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}20秒間、ダメージが増加し、クリティカル率が上昇する
 			能力を発動する前にダメージを受けると、次の発動時の効果が徐々に強化される
-			「燃えるような復讐心で敵を倒せ!」
+			「燃えるような復讐心で敵を倒せ！」
 			'''
 	}
 
@@ -858,7 +876,7 @@ Items: {
 			ジャンプ速度が増加し、自動ジャンプが可能となる
 			落下耐性を増加
 			{$CommonItemtooltip.ForItems.ActivatedAbility}とても高くジャンプし、素早く空中に飛び上がる
-			ジャンプ中とジャンプ直後は落下耐性が大きく増加する
+			ジャンプ中とジャンプ直後は落下耐性が大きく増加
 			[placeholder]
 			'''
 	}
@@ -869,8 +887,8 @@ Items: {
 			'''
 			超高速走行できる
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速が大幅に上昇する
-			「マキシマムオーバードライブ!」
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速が大幅に上昇
+			「マキシマムオーバードライブ！」
 			'''
 	}
 
@@ -879,8 +897,8 @@ Items: {
 		Tooltip:
 			'''
 			超高速走行できる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速が大幅に上昇する
-			「音速で走り回る!」
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速が大幅に上昇
+			「音速で走り回る！」
 			'''
 	}
 
@@ -892,7 +910,7 @@ Items: {
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
 			攻撃に電撃を追加し、敵にショックを与えることがある
 			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇
 			「より速く、より強く、より良く」
 			'''
 	}
@@ -912,7 +930,7 @@ Items: {
 		DisplayName: 隠しナイフ
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}針を発射する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}針を高速で発射する
 			[placeholder]
 			'''
 	}
@@ -921,7 +939,7 @@ Items: {
 		DisplayName: 暗殺者の針
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}射程が短い針を連射する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}射程が短い針を高速で連射する
 			[placeholder]
 			'''
 	}
@@ -930,7 +948,7 @@ Items: {
 		DisplayName: 針の弾幕
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}射程が短い針を大量に連射する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}射程が短い針を高速で大量に連射する
 			「千本の針による死…」
 			'''
 	}
@@ -950,7 +968,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発するロケットを発射する
 			反動が非常に大きく、撃ったものを射撃方向とは反対方向に飛ばす
-			「ワシの叫び声だ!」
+			「ワシの叫び声だ！」
 			'''
 	}
 
@@ -970,10 +988,10 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.MoreTarget}
-			{$CommonItemTooltip.PercentIncreasedCritChance}
+			クリティカル率が5%上昇
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、敵に狙われやすくなる
 			近くの敵を挑発し、自身と敵が受けるダメージを増加させる
-			「洒落た救世主!」
+			「洒落た救世主！」
 			'''
 	}
 
@@ -1039,7 +1057,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.LeechedLifeHeal}
-			「ライフを吸い取るテクノロジーの最先端。5Gの転送速度で実現!」
+			「ライフを吸い取るテクノロジーの最先端。5Gの転送速度で実現！」
 			'''
 	}
 
@@ -1079,8 +1097,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}チャージし、自身が向いている方向に強力なレーザーを発射する
-			発射中、移動速度が低下し、他のアイテムが使用できなくなる
-			「やぁ!」
+			発射中は移動速度が低下し、他のアイテムが使用できなくなる
+			「やぁ！」
 			'''
 	}
 
@@ -1098,7 +1116,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}15秒間、自身の周りを回転するパンプキングの鎌を2つ召喚する
-			召喚中、被ダメージが15%軽減
+			召喚中は被ダメージが15%軽減
 			鎌でダメージを与えるたびに、ダメージ軽減量が増え、最大で被ダメージを45%軽減
 			[placeholder]
 			'''
@@ -1118,7 +1136,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}ランダムな効果が発生する 有益か有害な効果になる可能性がある...
-			「何がもらえるんだろう？何がもらえるんだろう?」
+			「何がもらえるんだろう？何がもらえるんだろう？」
 			'''
 	}
 
@@ -1126,9 +1144,9 @@ Items: {
 		DisplayName: ステラーレゾネーター
 		Tooltip:
 			'''
-			能力のクールダウン中、ダメージが4%増加し、クリティカル率が4%上昇する
+			能力のクールダウン中、ダメージが4%増加し、クリティカル率が4%上昇
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒かけて強力なスタービームをチャージする
-			チャージ中、被ダメージが20%軽減
+			チャージ中は被ダメージが20%軽減
 			チャージが完了すると、スタービームは一番強い敵を探し出し、壊滅的な爆発を引き起こす
 			「星に願いをかければ、星は応えてくれる」
 			'''
@@ -1138,7 +1156,7 @@ Items: {
 		DisplayName: 月喰みのマーク
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}昇華されたヴァンパイアナイフを放ち、命中した敵のライフを奪う
+			{$CommonItemtooltip.ForItems.ActivatedAbility}昇華されたヴァンパイアナイフを放ち、当たった敵のライフを奪う
 			ナイフで回復するたびに、近くの味方も少量回復することがある
 			ライフスティール能力がわずかに上昇する
 			「ジェイソン・ラインフォース・パーカーに捧ぐ」
@@ -1208,7 +1226,7 @@ Items: {
 
 	RejuvStone: {
 		DisplayName: 若返りの石
-		Tooltip: ほとんどの回復アイテムの効力が25%増加する
+		Tooltip: ほとんどの回復アイテムの効力が25%増加
 	}
 
 	SanguineStone: {
@@ -1217,7 +1235,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.MoreTarget}
 			回復ポーションの再使用間隔を25%短縮させる
-			「血の神々のために血を!」
+			「血の神々のために血を！」
 			'''
 	}
 
@@ -1839,10 +1857,10 @@ Items: {
 		DisplayName: アクションスター
 		Tooltip:
 			'''
-			運を増加
+			運が増加
 			運次第でクリティカルを保証する小さなチャンスを与える
 			クリティカル時のダメージを40%増加
-			「その明るい輝きは、戦場を指揮する勇気を与えてくれる!」
+			「その明るい輝きは、戦場を指揮する勇気を与えてくれる！」
 			'''
 	}
 
@@ -1850,7 +1868,7 @@ Items: {
 		DisplayName: ラッキースター
 		Tooltip:
 			'''
-			運を増加
+			運が増加
 			運次第でクリティカルを保証する小さなチャンスを与える
 			「気分を良くする温かい光を放つ」
 			'''
@@ -1922,7 +1940,7 @@ Items: {
 			'''
 			ダメージを受けると移動速度と攻撃速度が上昇する
 			{$CommonItemtooltip.ForItems.MoreTarget}
-			「流血が起きるぞ!」
+			「流血が起きるぞ！」
 			'''
 	}
 
@@ -1930,7 +1948,7 @@ Items: {
 		DisplayName: 不浄の防壁
 		Tooltip:
 			'''
-			ライフが25%以下の際、、ダメージが15%増加
+			ライフが25%以下の際、ダメージが15%増加
 			{$CommonItemtooltip.ForItems.NoKnockback}
 			{$CommonItemtooltip.ForItems.LessTarget}
 			「全ての人が揺るぎない正義の道を歩むわけではない…」
@@ -1957,7 +1975,7 @@ Items: {
 			甲羅があるときにダメージを受けると、敵に激しく衝突して爆発する
 			破壊された甲羅はすぐに新しい甲羅に置き換えられる
 			凍え、凍結、霜焼けに耐性
-			「青い甲羅?!」
+			「青い甲羅？！」
 			'''
 	}
 
@@ -1966,7 +1984,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ReducedAbilityCooldown}
-			戦闘中に能力アクセサリの能力を自動で発動する
+			戦闘中に能力アクセサリの能力が自動的に発動する
 			「常に時間通りだ」
 			'''
 	}
@@ -2179,7 +2197,18 @@ Items: {
 			{$CommonItemtooltip.ForItems.ActivatedAbility}コインのキューブを回転させて投げる
 			キューブのどの面に出るかによって、ダメージを与えるコインと拾えるコインが飛び出す
 			価値の高いコインは珍しいが、与えるダメージも大きくなる
-			「ギャンブルしに行こう!」
+			「ギャンブルしに行こう！」
+			'''
+	}
+
+	WrithingFlesh: {
+		DisplayName: うねる肉
+		Tooltip:
+			'''
+			{$CommonItemtooltip.ForItems.ActivatedAbility}自身の周囲にハングリーを3体召喚する
+			ハングリーは近くの敵を攻撃し、ライフを吸収する
+			ただし、発動時にライフを50消費する！
+			[placeholder]
 			'''
 	}
 }
@@ -2233,6 +2262,7 @@ Projectiles: {
 	GamblecoreGold.DisplayName: ゴールドコイン
 	GamblecorePlatinum.DisplayName: プラチナコイン
 	GamblecoreSilver.DisplayName: シルバーコイン
+	WrithingHungry.DisplayName: ハングリー
 }
 
 Keybinds: {
@@ -2251,7 +2281,7 @@ Configs: {
 				異星人の防具のセットボーナスによるシールドの効果音を、カスタムにするかバニラのものにするかを切り替えます
 				チャージ中とダメージ/破壊時の効果音があります
 				オフの場合、チャージ中の効果音は再生されず、ダメージ/破壊時の効果音はバニラのものに切り替わります
-				免責事項：使用されているサウンドはHaloのものです。私はHaloとは一切関係ありません。すべての権利はそれぞれの所有者に帰属します。
+				免責事項：使用されているサウンドはHaloのものです。私はHaloとは一切関係ありません。全ての権利はそれぞれの所有者に帰属します。
 				'''
 		}
 
@@ -2265,6 +2295,16 @@ Configs: {
 				デフォルトはオフです
 				'''
 		}
+
+		ultrasightZoom: {
+			Label: "[i:ArtificerMod/UltrasightHelmet] ウルトラサイトヘルメットはズームアウトが使える"
+			Tooltip:
+				'''
+				ウルトラサイトヘルメット（およびオムニサイトヘルメット）のスナイパーライフルのようなズームアウト機能を切り替えます
+				ヘルメットを装備した状態で特定の作業を実行する際にズームアウトが煩わしいと感じる場合に便利です
+				ゲイザーのゴーグルにも同じ機能がありますが、この機能はゲイザーのゴーグルには影響しません
+				'''
+		}
 	}
 
 	ConfigServer: {
@@ -2275,12 +2315,12 @@ Configs: {
 			Tooltip:
 				'''
 				エキスパートモードで狂気の崇拝者がトレジャーバッグを落とすかどうか、またどのように落とすかを設定できます
-				このMODは、崇拝者にエキスパートでのドロップを追加します
+				このModは、崇拝者にエキスパートでのドロップを追加します
 				これは、通常は入手できないトレジャーバッグから入手できます
 				Drop Bagを選択すると、崇拝者からアクセサリーが入ったバッグを入手できます
 				No Dropsを選択すると、バッグを落とさず、アクセサリーもバッグから入手できません
 				No Bagを選択すると、バッグは落としませんが、アクセサリーはバッグから入手できます
-				他のMODで崇拝者がバッグを落とすように設定している場合は、
+				他のModで崇拝者がバッグを落とすように設定している場合は、
 				オフに設定することでバッグを一度に複数個落とすのを防ぎます
 				'''
 		}
@@ -2289,7 +2329,7 @@ Configs: {
 			Label: "[i:ArtificerMod/NovaEmblem] ジャーニーかつ無敵モード時のクールダウン時間を短縮"
 			Tooltip:
 				'''
-				オンだと、ジャーニーモードの無敵モードがオンの場合に、能力アクセサリのクールダウンが75%短縮されます
+				この設定がオンだと、ジャーニーモードの無敵モードがオンの場合に、能力アクセサリのクールダウンが75%短縮されます
 				この機能は、職人アーマーセットや能力アクセサリを装備していないことによるペナルティも無効化します
 				ジャーニーモードは、様々な能力をより簡単にテストするのに最適です
 				デフォルトはオフ
@@ -2300,7 +2340,7 @@ Configs: {
 			Label: "[i:ArtificerMod/LuckyPresent] ラッキープレゼントの特別な死亡メッセージ"
 			Tooltip:
 				'''
-				これがオンになっている場合、プレイヤーがラッキープレゼントの能力によるダメージで死亡した場合、固有の死亡メッセージが表示されます
+				この設定がオンになっている場合、プレイヤーがラッキープレゼントの能力によるダメージで死亡した場合、固有の死亡メッセージが表示されます
 				なお、ラッキープレゼントのダメージはライフが1のプレイヤーにしか発生しないため、プレイヤーがこの方法で死亡することはほとんどないです
 				デフォルトはオン
 				'''
@@ -2310,11 +2350,27 @@ Configs: {
 			Label: "[i:ArtificerMod/AstralCuirass] 職人のセットボーナスはアクセサリースロットを追加する"
 			Tooltip:
 				'''
-				オンにすると、職人の防具のセットボーナスでアクセサリスロットが1つ追加されます
+				この設定をオンにすると、職人の防具のセットボーナスでアクセサリスロットが1つ追加されます
 				例えば、通常はアクセサリスロットを2つ追加するチャンピオンの防具は、これがオンだとアクセサリスロットが3つ追加されます
-				バランスの取れたプレイのためには、他のMODで大量のアクセサリスロット（例：ウィングスロット、ブーツスロットなど）がある場合に、
+				バランスの取れたプレイのためには、他のModで大量のアクセサリスロット（例：ウィングスロット、ブーツスロットなど）がある場合に、
 				この設定を使用することをお勧めします
 				デフォルトはオフ
+				'''
+		}
+
+		CrossmodStats: {
+			Label: "[i:ArtificerMod/AstralCuirassG] 職人の鎧はMod追加クラスを強化する"
+			Tooltip:
+				'''
+				この設定をオンにすると職人の様々な防具セット（および一部のセットボーナス）が特定のMod追加クラスを強化します
+				対応しているMod/クラスは以下の通りです
+				- キャプチャー (Capture Disc Class)
+				- 吟遊詩人 & ヒーラー (Thorium Mod)
+				- クリッカー (The Clicker Class)
+				- ローグ (Calamity Mod)
+				また、この設定に関係なく、職人の防具は投擲師クラスを強化します
+				これらの強化はtMLに組み込まれた投擲師クラスを使用している限り、
+				ほとんどの投擲師クラスに影響します
 				'''
 		}
 	}

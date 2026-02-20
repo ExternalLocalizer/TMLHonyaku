@@ -7,8 +7,8 @@ Configs: {
 			Tooltip:
 				'''
 				この武器のダメージクラスを投擲武器に変更します
-				また、ダメージなどの他のステータスも武器として使用できるように調整されます
-				さらに、攻撃の挙動も調整されます
+				また、ダメージなどの他のステータスも武器として使用できるように変更されます
+				更に攻撃の挙動も変更されます
 				特に注目すべきは、ブロックを破壊しなくなったことです
 				'''
 		}
@@ -18,7 +18,8 @@ Configs: {
 			Tooltip:
 				'''
 				この武器のダメージクラスを投擲武器に変更します
-				元々のダメージタイプにより、この武器は変換時、汎用（つまりクラス固有でない）の修飾子のみが付きます
+				元々のダメージタイプにより、この武器には、
+				汎用（つまりクラス固有でない）の接頭辞だけが付きます
 				'''
 		}
 
@@ -27,7 +28,8 @@ Configs: {
 			Tooltip:
 				'''
 				この武器のダメージクラスを投擲武器に変更します
-				元々のダメージタイプにより、この武器は変換時、汎用（つまりクラス固有でない）の修飾子のみが付きます
+				元々のダメージタイプにより、この武器には、
+				汎用（つまりクラス固有でない）の接頭辞だけが付きます
 				'''
 		}
 
@@ -36,8 +38,8 @@ Configs: {
 			Tooltip:
 				'''
 				この武器のダメージクラスを投擲武器に変更します
-				更にマナの消費も少なくなりますが、それに応じてダメージも減少します
-				元々のダメージタイプにより、この武器は変換時、汎用（つまりクラス固有でない）の修飾子のみが付きます
+				更に消費マナとダメージが減少します
+				元々のダメージタイプにより、この武器には、汎用（つまりクラス固有でない）の接頭辞だけが付きます
 				'''
 		}
 
@@ -58,11 +60,11 @@ Projectiles: {
 	TrueDivineStarBeam.DisplayName: ディバインビーム
 	TerraCutterSlash.DisplayName: テラカッタースラッシュ
 	TerraCutterProj.DisplayName: テラカッター
-	ChimeraMine.DisplayName: キメラ マイン
+	ChimeraMine.DisplayName: キメラマイン
 	ChimeraProj.DisplayName: キメラ
-	MechimeraLance.DisplayName: メキメラ ボルト
-	MechimeraMayhemProj.DisplayName: メキメラ レンダー
-	MechimeraMine.DisplayName: メキメラ マイン
+	MechimeraLance.DisplayName: メキメラボルト
+	MechimeraMayhemProj.DisplayName: メキメラレンダー
+	MechimeraMine.DisplayName: メキメラマイン
 	EmpressChargeClone.DisplayName: エンプレスチャージ
 	EmpressChargeProj.DisplayName: エンプレスチャージ
 	BlockThrowerProj.DisplayName: 土のブロック
@@ -76,12 +78,12 @@ Projectiles: {
 	VoidBlast.DisplayName: 虚無の爆発
 	DimensionalCollapseProj.DisplayName: ディメンショナルコラプス
 	SingularityMineProj.DisplayName: シンギュラリティマイン
-	SingularityVortex.DisplayName: シンギュラリティ 渦
+	SingularityVortex.DisplayName: シンギュラリティの渦
 	EntropicMatterProj.DisplayName: エントロピックボレー
 	GrandStarProj.DisplayName: グランドスター
 	GrandStarMini.DisplayName: 小さなグランドスター
 	LunarFuryProj.DisplayName: ルナーフューリー
-	LunarFurySpark.DisplayName: ルナーフューリー 火花
+	LunarFurySpark.DisplayName: ルナーフューリーの火花
 	OmegaBladeProj.DisplayName: オメガブレード
 }
 
@@ -117,13 +119,13 @@ Items: {
 
 	Chimera: {
 		DisplayName: キメラ
-		Tooltip: "「これはナッツだ…ボルトかもしれない!」"
+		Tooltip: "「これはナッツだ…ボルトかもしれない！」"
 	}
 
 	EmpressCharge: {
 		DisplayName: エンプレスチャージ
-		Tooltip: ジャベリンを投げ、それに沿って飛行するプリズマティックジャベリンの群れを発生させる
-		PrismaNerf: テラプリズマを召喚中、ダメージが減少する
+		Tooltip: ジャベリンを投げ、それに沿って飛行するプリズマティックジャベリンを複数発生させる
+		PrismaNerf: テラプリズマを召喚中はダメージが減少する
 	}
 
 	BlockThrower: {
@@ -131,8 +133,8 @@ Items: {
 		Tooltip:
 			'''
 			土を投げる
-			「MOD開発者に成りすますのに最適!」
-			「今度はBlock's Thrower Mod!だ!」
+			「Mod開発者に成りすますのに最適！」
+			「今度はBlock's Thrower Modだ！」
 			'''
 	}
 
@@ -145,8 +147,8 @@ Items: {
 		DisplayName: スペシャルレンド
 		Tooltip:
 			'''
-			空間を粉砕し、命中した敵に大量の追撃をする
-			「ピクシーに対しては完璧に効果的だ、なぜ効果がないのか?」
+			空間を粉砕し、当たった敵に大量の追撃をする
+			「ピクシーに対しては完璧に効果的だ、なぜ効果がないのか？」
 			'''
 	}
 
@@ -179,7 +181,7 @@ Items: {
 		Tooltip:
 			'''
 			自身の動きによって速度が変化する爆弾を投げる
-			「天界の力の揮発性の破片を武器にする?確かに、それは全く安全そうだ」
+			「天界の力の揮発性の破片を武器にする？確かに、それは全く安全そうだ」
 			'''
 	}
 
