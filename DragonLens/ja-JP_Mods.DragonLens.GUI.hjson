@@ -1,0 +1,172 @@
+Browser: {
+	ListView: リスト表示
+	Filters: フィルター
+	Sorts: ソートモード
+
+	Sort: {
+		ID: ID順
+		Alphabetical: アルファベット順
+		Damage: ダメージ順
+		Defense: 防御力順
+		Value: コインの価値順
+		Life: 最大ライフ順
+		AlphabeticalPath: パス順アルファベット順
+	}
+
+	ButtonSizeSlider: {
+		Name: ボタンのスケール
+		Tooltip: ブラウザ内のボタンサイズを調整するにはドラッグしてください
+	}
+}
+
+DraggableUIState: {
+	Close: 閉じる
+
+	UserGuide: {
+		Name: ユーザーガイド
+		Tooltip: このツールのユーザーガイドをブラウザで開く
+	}
+}
+
+EmergencyCustomizeMenu: {
+	CustomizeToolbars: ツールバーのカスタマイズ
+	CustomizeTools: ツールのカスタマイズ
+}
+
+FirstTimeLayoutPresetMenu: {
+	Welcome: DragonLensへようこそ！
+	SelectLayout: 開始するレイアウトを選択してください
+	Selected: "{0} を選択しました！ カスタマイズツール（レンチアイコン）を使用してレイアウトを変更するか、別のプリセットをロードできます。"
+}
+
+LayoutPresetBrowser: {
+	Name: レイアウトプリセット
+	LoadedLayout: ロードされたレイアウト: {0}
+}
+
+Layout: {
+	Invalid: 保存されたレイアウトが無効または破損しています！
+
+	Simple: {
+		Name: シンプル
+		Tooltip: プレイヤーやModテスター向けの簡易なレイアウト
+	}
+
+	Advanced: {
+		Name: アドバンスト
+		Tooltip: 全てのツールを使える上級者向けのレイアウト。Mod開発者や経験者向け
+	}
+
+	HEROsMod: {
+		Name: HEROs Mod風
+		Tooltip: HEROs Mod風のレイアウト
+	}
+
+	Cheatsheet: {
+		Name: Cheat sheet風
+		Tooltip: Cheat sheet風のレイアウト
+	}
+
+	Empty: {
+		Name: 空白
+		Tooltip: 自分好みのレイアウトを作成したい人向け
+	}
+}
+
+ToggleButton: {
+	On: オン
+	Off: オフ
+}
+
+ToolbarCustomizationElements: {
+	RemoveButton: {
+		Name: ツールを削除
+		Tooltip: いつでも追加ツールメニュー（緑のタブ）から再度追加できます！
+	}
+
+	AddButton: {
+		Name: ツールを追加
+		Tooltip: クリックしてツールバーにツールを追加
+	}
+
+	RemoveToolbarButton: {
+		Name: ツールバーを削除
+		Tooltip: このツールバーを削除します！
+	}
+
+	ToolbarDragger: {
+		Name: ツールバーを移動
+		Tooltip: クリック＆ドラッグでツールバーの位置を変更。画面の端に近づくと自動的にスナップします。 ドラッグ中に右クリックするとツールバーを回転できます
+	}
+
+	ToolButtonDragger: {
+		Name: ツールを移動
+		Tooltip: クリック＆ドラッグでツールバー上のツールの位置を変更
+	}
+
+	HideOptionButton: {
+		Name: 自動非表示: {0}
+		Tooltip: このツールバーの表示ルールを設定できます。{0}クリックで{1}に変更します
+
+		Never: {
+			Name: 通常
+			Tip: 通常のプレイ時に常に表示
+		}
+
+		InventoryOpen: {
+			Name: インベントリ閉時のみ
+			Tip: インベントリを閉じているときのみ表示
+		}
+
+		InventoryClosed: {
+			Name: インベントリ開時のみ
+			Tip: インベントリを開いているときのみ表示
+		}
+
+		NoMapScreen: {
+			Name: マップのみ
+			Tip: マップ画面でのみ表示（※他のウィンドウを開くツールは、マップを閉じないと使用できません）
+		}
+	}
+
+	NewBarButton: {
+		Name: ツールバーを追加
+		Tooltip: 新しい空のツールバーを作成！
+	}
+
+	SaveLayoutButton: {
+		Name: 保存して続行
+		Tooltip: カスタマイズを終了し、レイアウトを保存
+		LayoutSaved: レイアウトを保存しました！
+	}
+
+	LoadLayoutButton: {
+		Name: レイアウトをロード
+		Tooltip: 既存のレイアウトをロード
+	}
+
+	VisualConfigButton: {
+		Name: テーマをカスタマイズ
+		Tooltip: テーマカスタマイザーを開く
+	}
+
+	FunctionalConfigButton: {
+		Name: ツールオプション
+		Tooltip: ツールの動作やデフォルト設定を変更するための設定画面を開く
+	}
+}
+
+ThemeMenu.Name: テーマエディター
+
+EntityEditor: {
+	LiveReaction: リアルタイム{0}反応
+	Select: ワールド内のエンティティをクリックして選択。右クリックでキャンセル
+}
+
+FieldEditor: {
+	Uneditable: 編集不可
+	UneditableBlockMsg: この項目は編集できません！
+	Static: 固定
+	ModdedFields: Mod追加項目
+	NoFields: 利用可能なMod追加項目なし
+}

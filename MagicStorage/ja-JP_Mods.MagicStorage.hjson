@@ -5,8 +5,8 @@
 				Tooltip:
 					'''
 					「世界のパワーはあなたの指先にある」
-					雪原、エクトミスト、デーモン/クリムゾンアルター、水・溶岩・蜂蜜を必要な物を作れるようになる
-					インベントリまたはクラフトインターフェイスのステーションスロットに置くことができる
+					雪原、エクトミスト、デーモン/クリムゾンアルター、水・溶岩・蜂蜜が必要な物を作れるようになる
+					インベントリかクラフトインターフェイスのステーションスロットに置くことができる
 					インベントリにあるなら、キャンプファイアの近くに立たなくてもマシュマロを焼くことができ、
 					焼きマシュマロを直接作れる
 					投げるとビーチボールのように跳ねる
@@ -84,7 +84,7 @@
 
 			ShadowDiamond: {
 				DisplayName: シャドウダイヤモンド
-				Tooltip: 光の痕跡がまだ内側に残っている
+				Tooltip: 「光の痕跡がまだ内部に残っている」
 			}
 
 			SnowBiomeEmulator: {
@@ -175,7 +175,7 @@
 				DisplayName: ヘルストーンのストレージユニット
 				Tooltip:
 					'''
-					Aマジックストレージのシステムにアイテムを保管するための部品
+					マジックストレージのシステムにアイテムを保管するための部品
 					120アイテムを保管できる
 					'''
 			}
@@ -315,7 +315,7 @@
 				Tooltip:
 					'''
 					マジックストレージシステムでMod間のアクセスのための部品
-					他のMODによって追加された切り替え可能な環境モジュールのリストを表示します
+					他のModによって追加された切り替え可能な環境モジュールのリストを表示します
 					モジュールが存在しない場合は何も表示されません
 					可能なモジュール:
 					<MODULES>
@@ -480,7 +480,7 @@
 					LoveSpace: 受け入れ可能な住居は確保されてイマス
 					FarFromHome: 当機は早急にブルーマジックのコンデンサを充電するためにホームに戻らなければなりまセン
 					DislikeCrowded: 近くに検出された個体が多すぎマス
-					HateCrowded: このユニットは孤独を好みマス
+					HateCrowded: 当機は孤独を好みマス
 					LikeBiome: "{BiomeName}はブルーマジックと調和シテイマス"
 					LoveBiome: "{BiomeName}のブルーマジックは完璧ダ"
 					DislikeBiome: "{BiomeName}でブルマージックの効果が低下してイル"
@@ -539,7 +539,7 @@
 			Automaton: オートマトンは、Magic Storageの全てを教えてくれます
 			ShadowDiamonds: シャドウダイヤモンドは、ボスを初めて倒した際に入手できます。Magic Storageのレシピでダイヤモンドの代替として使用できます
 			RadiantJewel: ムーンロードはレイディアントジュエルをドロップし、これを使うと、アクセス範囲が無限の携帯リモートアクセスを作れます
-			StorageUpgrades: ストレージの容量が足りない? ストレージユニットをストレージアップグレードで強化しましょう!
+			StorageUpgrades: ストレージの容量が足りない？ ストレージユニットをストレージアップグレードで強化しましょう！
 			RemoteStorage: リモートアクセスをストレージハートにロケーターまたはロケーターディスクでリンクすれば、世界の他の場所にあるストレージにアクセスできます
 			CombinedStations: Magic Storageには、クラフティングインターフェースに設置する作業台の数を減らすための複合作業台があります
 			EnvironmentAccess: ストレージ設定インターフェースを通じて、他のModがクラフティングモジュールを追加でき、クラフティングインターフェースの機能に影響を与えることができます
@@ -552,12 +552,12 @@
 		Bestiary.Golem:
 			'''
 			ブルーマジックというものを動力源とするオートマトン
-			マジックストレージのすべてを知っている
+			マジックストレージの全てを知っている
 			'''
 
 		Dialogue: {
 			Golem: {
-				Greeting: コンニチハ {0}。当機に聞きたいことはありますカ?
+				Greeting: コンニチハ {0}。当機に聞きたいことはありますカ？
 				Wizard: 魔法に精通している者にとって、{0}はブルーマジックの仕組みを理解できナイ。公平に言えば、それは本当の魔法ではありまセン。
 				NotLihzahrd: 当機はリザードレンガ製ではありまセン。質問はやめてくだサイ。
 				Bluemagic: ブルーマジックは驚異的なパワーの源。その力を過小評価しない方が賢明デス。
@@ -568,7 +568,7 @@
 				Help1:
 					'''
 					始めるには、いくつかのストレージの部品を作る必要があります。このアイテムは、全てのストレージシステムの基礎となります。
-					ガイドに渡して、何に使えるかを見てみましょう!
+					ガイドに渡して、何に使えるかを見てみましょう！
 					レシピ: [rg/s10:Wood] [rg/s2:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageComponent]
 					'''
 				Help2:
@@ -589,7 +589,7 @@
 					'''
 				Help5:
 					'''
-					クラフティングインターフェースのステーションスロットは見た目以上に強力です。一部のアイテムは複数のクラフティング要件を同時に引き継ぐことができます!
+					クラフティングインターフェースのステーションスロットは見た目以上に強力です。一部のアイテムは複数のクラフティング要件を同時に引き継ぐことができます！
 					[i:GlassKiln] は[i:Furnace] として機能します
 					[i:BewitchingTable] は[i:WoodenTable] として機能します
 					[rg:MagicStorage:AnyTombstone] は、墓場のレシピを使用できるようになります
@@ -598,7 +598,7 @@
 					'''
 				Help6:
 					'''
-					[i:AlchemyTable] は33％の確率でポーションの素材を消費しない
+					[i:AlchemyTable] は33％の確率でポーションの素材を消費しません
 					[i:WaterBucket] 、[i:BottomlessBucket] 、[rg:MagicStorage:AnySink] や、シンクなどのアイテムは水源が必要なレシピが使えるようになります
 					[i:LavaBucket] は、溶岩が必要なレシピが使えるようになります
 					[i:HoneyBucket] は、蜂蜜が必要なレシピが使えるようになります
@@ -614,11 +614,11 @@
 				Help8: 
 					'''
 					全てのボスのコアの中にはシャドウダイヤモンドがあります。この呪われた宝石は、全てのMagic Storageレシピで[i:Diamond] の代わりに使用できます。
-					ボスからシャドウダイヤモンドを入手できるのは一度だけです! ただし、一部のボスは複数のシャドウダイヤモンドをドロップします。
+					ボスからシャドウダイヤモンドを入手できるのは一度だけです！ ただし、一部のボスはシャドウダイヤモンドを複数ドロップします。
 					'''
 				Help9:
 					'''
-					ストレージの容量が足りなくなりましたか? ストレージユニットをアップグレードしましょう! 
+					ストレージの容量が足りなくなりましたか？ ストレージユニットをアップグレードしましょう！ 
 					特定のティアのストレージアップグレードは、前のティアのストレージユニットにしか適用できません。
 					[i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageUnitDemonite] / [i:MagicStorage/StorageUnitCrimtane]
 					[i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageUnitHellstone]
@@ -628,15 +628,15 @@
 					'''
 				Help10:
 					'''
-					ストレージハートを移動したくない場合、代わりにストレージアクセスを使用しましょう! 
+					ストレージハートを移動したくない場合、代わりにストレージアクセスを使用しましょう！ 
 					このコンポーネントは、ストレージハートのようにストレージ内のアイテムを見ることができます。
 					レシピ: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyDiamond] [i/s3:Topaz] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageAccess]
 					'''
 				Help11:
 					'''
 					クラフティングアクセスに必要な作業台の数を減らすための機能の一つとして、Magic Storageはバイオームグローブというアイテムがあります。
-					このアイテムは雪原、エクトミスト、デーモン/クリムゾンアルター水・溶岩・蜂蜜を必要な物を作れるようになります。
-					インベントリにあるなら、キャンプファイアの近くにいなくてもマシュマロを焼けます!
+					このアイテムは雪原、エクトミスト、デーモン/クリムゾンアルター水・溶岩・蜂蜜が必要な物を作れるようになります。
+					インベントリにあるなら、キャンプファイアの近くにいなくてもマシュマロを焼けます！
 					レシピ: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] [rg:MagicStorage:AnyDemonAltar] @ hand = [i:MagicStorage/BiomeGlobe]
 					'''
 				Help12:
@@ -680,7 +680,8 @@
 				Help17:
 					'''
 					Magic Storageでは、クラフトアクセスに必要な作業台の数を減らすために、いくつかの統合作業台があります。
-					それぞれの統合作業台は、その素材となる作業台の特性を引き継ぎます。					レシピ:
+					それぞれの統合作業台は、その素材となる作業台の特性を引き継ぎます。
+					レシピ:
 					[i:BoneWelder] [i:GlassKiln] [i:HoneyDispenser] [i:IceMachine] [i:LivingLoom] [i:SkyMill] [i:Solidifier] @ hand = [i:MagicStorage/CombinedFurnitureStations1Item]
 					[i:MagicStorage/CombinedFurnitureStations1Item] [i:MeatGrinder] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] @ hand = [i:MagicStorage/CombinedFurnitureStations2Item]
 					'''
@@ -699,11 +700,11 @@
 				Help18: 
 					'''
 					ムーンロードはレイディアントジュエルを守っています。
-					この宝石は非常に強力な力を持ち、これを使えば、無限のアクセス範囲を持つポータブルリモートアクセスを作れます!
+					この宝石は非常に強力な力を持ち、これを使えば、無限のアクセス範囲を持つポータブルリモートアクセスを作れます！
 					'''
 				Help19:
 					'''
-					設定インターフェースでは、他のMODからクラフトモジュールを追加して、[i:MagicStorage/CraftingAccess] の機能に影響を与えることができます。
+					設定インターフェースでは、他のModからクラフトモジュールを追加して、[i:MagicStorage/CraftingAccess] の機能に影響を与えることができます。
 					これらのモジュールは、設定インターフェースのUIでオン/オフを切り替えることができます。
 					デフォルトでは、Magic Storage はプレイヤーのインベントリとJourney Modeの複製メニューから読み込むためのモジュールを提供しています。
 					[rg/s2:MagicStorage:AnyDiamond] [i/s50:DirtBlock] [i/s50:StoneBlock] [i/s50:MudBlock] [i/s50:SnowBlock] [i/s50:SandBlock] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/EnvironmentAccess]
@@ -823,12 +824,12 @@
 		Active: 稼働中
 		Inactive: 停止中
 		PortableAccessUnlocated: 探知機がストレージハートに設定されていません
-		PortableAccessMissing: ストレージハートがありません!
+		PortableAccessMissing: ストレージハートがありません！
 		PortableAccessOutOfRange: 探知機が接続先のストレージシステムに接続できませんでした
 		PortableAccessNoPylons: 接続されたストレージシステムの近くにパイロンがありませんでした
 		PortableCraftingUnlocated: 探知機がどのクラフティングアクセスにも設定されていません
-		PortableCraftingMissing: クラフティングアクセスがありません!
-		RemoteAccessSuccess: 成功!
+		PortableCraftingMissing: クラフティングアクセスがありません！
+		RemoteAccessSuccess: 成功！
 		RemoteAccessHasLocator: このアクセスにはすでに探知機が付いています。リセットするには設置し直してください
 		RemoteAccessUnlocated: 探知機が目的地に設定されていません
 		RemoteAccessInvalidLocator: 探知機がストレージハートに接続されていません
@@ -837,10 +838,10 @@
 		FilterAllMods: 全てのMod
 		Capacity: "{0} / {1} アイテム"
 		LocatorSet: "探知機のセットに成功しました: X={0}, Y={1}"
-		StorageAccessFail: ストレージハートタイルエンティティをロードできませんでした!
-		StorageAccessFailAlt: このアクセスはストレージハートに接続されていません!
-		StorageAccessFailLoad: ストレージハート領域が読み込まれていません! もう一度お試しください
-		TestItemSuffix: " !リスポーン中!"
+		StorageAccessFail: ストレージハートタイルエンティティをロードできませんでした！
+		StorageAccessFailAlt: このアクセスはストレージハートに接続されていません！
+		StorageAccessFailLoad: ストレージハート領域が読み込まれていません！ もう一度お試しください
+		TestItemSuffix: " ！リスポーン中！"
 		SetTo: "セットしました: X={0}, Y={1}"
 		SnowBiomeBlock: 雪原のブロック
 		DepositAll: 全て預ける
@@ -919,8 +920,8 @@
 			CookedMarshmallowCondition: クラフトインターフェイスのバイオームグローブ
 		}
 
-		DepositTooltip: クイックスタック - クリック、 すべて預ける - ctrl+クリック、 補充 - 右クリック
-		DepositTooltipAlt: クイックスタック - ctrl+クリック、 すべて預ける - クリック、 補充 - 右クリック
+		DepositTooltip: クイックスタック - クリック、 全て預ける - ctrl+クリック、 補充 - 右クリック
+		DepositTooltipAlt: クイックスタック - ctrl+クリック、 全て預ける - クリック、 補充 - 右クリック
 
 		ServerOperator: {
 			ConfigChangeDenied: サーバーオペレーター以上の権限がないと設定を変更できません
@@ -950,7 +951,7 @@
 				ServerKeyText:
 					'''
 					=====
-					このメッセージは一度しか表示されません!
+					このメッセージは一度しか表示されません！
 					サーバーオペレーター／管理者キー：{0}
 					=====
 					'''
@@ -995,7 +996,7 @@
 			Messages: {
 				Client: {
 					RequestSent: コマンド要求をサーバーに送信しました。サーバーのコンソールまたはログを確認してください
-					TranslationSuccess: 翻訳成功!Magic Storageの監査ログが変換されました：
+					TranslationSuccess: 翻訳成功！Magic Storageの監査ログが変換されました：
 				}
 
 				LoadSuccess: Magic Storageの監査ログを次の場所から読み込みました：{0}
@@ -1209,7 +1210,7 @@
 				Private: プライベートネットワーク
 				Public: 公開ネットワーク
 				SearchHint: ネットワークを検索
-				NetworkAccessQuestion: プライベートネットワークにしますか?
+				NetworkAccessQuestion: プライベートネットワークにしますか？
 				Create: 新しいネットワークを作成
 				ServerWait: サーバーの応答を待機中…
 				RequestingPassword: "{0} のパスワードを入力してください"
@@ -1254,7 +1255,7 @@
 				Label: ゲーム内チャットにログ情報を表示
 				Tooltip:
 					'''
-					チェックを入れると、ゲーム内チャットにログ情報が表示されます
+					この設定をオンにすると、ゲーム内チャットにログ情報が表示されます
 					ログ情報はクライアント.logおよびserver.logファイルに関しては常に記録されます
 					'''
 			}
@@ -1263,7 +1264,7 @@
 				Label: 携帯アクセス範囲デバッグ
 				Tooltip:
 					'''
-					プレイヤーが携帯リモートアクセスを選択中、有効範囲を表示します
+					プレイヤーが携帯リモートアクセスを選択中に有効範囲を表示します
 					範囲が無限のアクセスには何も表示されません
 					'''
 			}
@@ -1277,14 +1278,14 @@
 
 				quickStackDepositMode: {
 					Label: "[i:Chest] クイックスタックモード"
-					Tooltip: Ctrlキーを押しながらクイックスタックを有効にする。Ctrlキーを離すとクイックスタック無効
+					Tooltip: Ctrlキーを押しながらクイックスタックを有効にします。Ctrlキーを離すとクイックスタック無効
 				}
 
 				useConfigFilter: {
 					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll] デフォルトのフィルターを使用"
 					Tooltip: 
 						'''
-						オンにすると下記のフィルターを使用し、
+						この設定をオンにすると下記のフィルターを使用し、
 						オフにするとゲーム内で最後に選択したフィルターを記憶します
 						（フィルターはMod読み込み後に最初に開く時に使用されます）
 						'''
@@ -1292,27 +1293,27 @@
 
 				showAllRecipes: {
 					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll] デフォルトのレシピフィルター"
-					Tooltip: オンにすると全てのレシピをデフォルト表示し、外すと利用可能なレシピをデフォルト表示します
+					Tooltip: この設定をオンにすると全てのレシピをデフォルト表示し、外すと利用可能なレシピをデフォルト表示します
 				}
 
 				useOldCraftMenu: {
 					Label: "[i:WorkBench] 旧クラフトボタンを使用"
-					Tooltip: オンにするとクラフトGUIを旧UIに変更します
+					Tooltip: この設定をオンにするとクラフトGUIを旧UIに変更します
 				}
 
 				recipeBlacklist: {
 					Label: レシピのホワイトリスト/ブラックリスト
-					Tooltip: オンにするとクラフトGUIでレシピをホワイトリストおよびブラックリストに追加できるようになります
+					Tooltip: この設定をオンにするとクラフトGUIでレシピをホワイトリストおよびブラックリストに追加できるようになります
 				}
 
 				globalRecipeBlacklist: {
 					Label: グローバルのレシピブラックリスト
-					Tooltip: オンにすると左Ctrlと左Shiftを押しながらクリックするとブラックリストを追加/削除できるようになります
+					Tooltip: この設定をオンにすると左Ctrlと左Shiftを押しながらクリックするとブラックリストを追加/削除できるようになります
 				}
 
 				clearHistory: {
 					Label: "[i:Book] レシピ履歴をクリア"
-					Tooltip: オンにするとクラフトGUIを開いたときにレシピ履歴がクリアされます
+					Tooltip: この設定をオンにするとクラフトGUIを開いたときにレシピ履歴がクリアされます
 				}
 
 				recursionCraftingDepth: {
@@ -1329,7 +1330,7 @@
 					Label: "[i:MagicStorage/Config_GlowItemGlowing] [i:MagicStorage/Config_GlowItemNotGlowing] 新しいアイテム/レシピを表示"
 					Tooltip: 
 						'''
-						オンにすると新しいアイテムやレシピを強調表示します
+						この設定をオンにすると新しいアイテムやレシピを強調表示します
 						オフにすると最初に選択したフィルターがゲーム内で記憶されます
 						（フィルターはMod読み込み後に最初に開く時に使用されます）
 						'''
@@ -1337,26 +1338,26 @@
 
 				clearSearchText: {
 					Label: 検索テキストをクリア
-					Tooltip: オンにするとUIを開いた時に検索テキストがクリアされます
+					Tooltip: この設定をオンにするとUIを開いた時に検索テキストがクリアされます
 				}
 
 				searchBarRefreshOnKey: {
 					Label: 検索バーがキー入力で更新
 					Tooltip: 
 						'''
-						オンにするとストレージおよびクラフトGUIで検索バーにキーを押すたびに更新が行われ、
+						この設定をオンにするとストレージおよびクラフトGUIで検索バーにキーを押すたびに更新が行われ、
 						オフにすると検索バーが選択解除された時にのみ更新されます
 						'''
 				}
 
 				uiFavorites: {
 					Label: "[i:FallenStar] お気に入りのフィルターボタン"
-					Tooltip: オンにするとクラフトGUIでアイテムやレシピをお気に入りとして登録できるようになります
+					Tooltip: この設定をオンにするとクラフトGUIでアイテムやレシピをお気に入りとして登録できるようになります
 				}
 
 				extraFilterIcons: {
 					Label: "[i:Cog] 追加の並べ替えアイコンを表示する"
-					Tooltip: オンにするとレガシーボタンレイアウトで追加の並べ替えオプションが表示されます
+					Tooltip: この設定をオンにするとレガシーボタンレイアウトで追加の並べ替えオプションが表示されます
 				}
 
 				buttonLayout: {
@@ -1385,12 +1386,12 @@
 
 				itemDataDebug: {
 					Label: "[i:IronPickaxe] アイテムデバッグ情報"
-					Tooltip: オンにすると、ストレージGUIでアイテムがGlobalItemデータを持っているかを表示し、"アイテムデータを表示"のキー操作でデータを表示できます
+					Tooltip: この設定をオンにすると、ストレージGUIでアイテムがGlobalItemデータを持っているかを表示し、"アイテムデータを表示"のキー操作でデータを表示できます
 				}
 
 				canMovePanels: {
 					Label: UIパネルの移動
-					Tooltip: オフにすると、UIパネルの移動やサイズ変更ができなくなります
+					Tooltip: この設定をオフにすると、UIパネルの移動やサイズ変更ができなくなります
 				}
 
 				automatonRemembers: {
@@ -1443,22 +1444,22 @@
 
 				allowAutomatonToMoveIn: {
 					Label: オートマトンが出現可能
-					Tooltip: オンにするとオートマトンが出現できるようになります
+					Tooltip: この設定をオンにするとオートマトンが出現できるようになります
 				}
 
 				auditLog: {
 					Label: サーバー監査ログ
-					Tooltip: オンにするとクライアントがストレージシステムに対して行った操作が監査ログに記録されます
+					Tooltip: この設定をオンにするとクライアントがストレージシステムに対して行った操作が監査ログに記録されます
 				}
 
 				localHostAdmin: {
 					Label: ローカルホストにサーバー管理者権限を付与
-					Tooltip: オンにすると、ローカルホストがサーバー参加時に自動的に管理者権限を持ちます
+					Tooltip: この設定をオンにすると、ローカルホストがサーバー参加時に自動的に管理者権限を持ちます
 				}
 
 				automatonHappiness: {
 					Label: オートマトンの満足度が売却価格に影響
-					Tooltip: オフにすると、オートマトンがアイテム販売モードでの売却価格に影響しなくなりま
+					Tooltip: この設定をオフにすると、オートマトンがアイテム販売モードでの売却価格に影響しなくなります
 				}
 			}
 			MagicStorageBetaConfig.DisplayName: Magic Storage BETA設定

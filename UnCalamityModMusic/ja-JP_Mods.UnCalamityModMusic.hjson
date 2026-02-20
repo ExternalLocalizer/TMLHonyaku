@@ -6,15 +6,15 @@ Configs: {
 
 		WorkshopRange: {
 			Label: "[i:WorkBench] ワークショップの範囲"
-			Tooltip: ワークショップのテーマが再生される範囲を10ブロックから50ブロックの間まで変更します
+			Tooltip: ワークショップのBGMが再生される範囲を10ブロックから50ブロックの間まで変更します
 		}
 				
 		WorkshopThemes: {
-			Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] ワークショップのテーマ"
+			Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] ワークショップのBGM"
 			Tooltip:
 				'''
-				特定の作業台の近くで再生されるワークショップのテーマを切り替えます
-				街のテーマを無効にしたい場合は、別のNo Town Music modを使うか、影の蝋燭を使ってください
+				特定の作業台の近くで再生されるワークショップのBGMを切り替えます
+				街のBGMを無効にしたい場合は、別のNo Town Music Modを使うか、影の蝋燭を使ってください
 				'''
 		}
 
@@ -23,29 +23,38 @@ Configs: {
 			Tooltip:
 				'''
 				ハードモードに突入した時に流れるBGMを切り替えます
-				クレジットを無効にしたい場合は別のNo In-game Credits MODを使用してください
+				クレジットを無効にしたい場合は別のNo In-game Credits Modを使用してください
 				'''
 		}
 		
-		PrioritizeInfernumMusic: {
-			Label: "[i:WallOfFleshGoatMountItem] InfernumのBGMを優先"
+		OverrideOtherworldlyMusic: {
+			Label: "[i:MusicBoxOWRain] アザーワールドのBGMを上書きする"
 			Tooltip:
 				'''
-				InfernumのBGMをVCMMのBGMより優先するかどうかを切り替えます
-				このオプションはInfernum Mode Music MODが有効の時にだけ効果があります
-				このオプションはCalamityボスには影響しません
+				アザーワールドのBGMをVCMMのBGMで上書きするか切り替えます
+				この設定はパーティガールのBGM切り替えがオンになっている際に効果があります
 				'''
 		}
 
-		OverrideAnahitasLure: {
+		OverrideAnahitasLureMusic: {
 			Label: "[i:UnCalamityModMusic/OceanDayMusicBox] アナヒタの歌を上書きする"
 			Tooltip: アナヒタの歌声が海のBGMを上書きするかどうかを切り替えます
+
+		}
+
+		PrioritizeMusicFromOtherMods: {
+			Label: "[i:WorldGlobe] 他のModのBGMを優先する"
+			Tooltip:
+				'''
+				他のバニラのBGMを変更するModのBGMをVCMMのBGMより優先するかどうかを切り替えます
+				さらなる音楽のカスタマイズについては、他のMod設定で確認してください
+				'''
 		}
 	}
 
 	OtherConfig: {
 		DisplayName: その他の設定
-		AmbienceTogglesHeader: 環境BGMの切り替え
+		AmbienceModeHeader: 環境音
 		OtherChangesHeader: その他の変更
 
 		AmbienceFrequency: {
@@ -53,7 +62,7 @@ Configs: {
 			Tooltip:
 				'''
 				環境音が通常のBGMに置き換わる頻度を0%から100%で調整します
-				100%の場合、ボスおよびイベントを除くすべてのBGMが無効になります
+				100%の場合、ボスおよびイベントを除く全てのBGMが無効になります
 				'''
 		}
 
@@ -65,11 +74,6 @@ Configs: {
 		DisableSpiderCaveAmbience: {
 			Label: "[i:SpiderFang] クモの洞窟の環境音を無効化"
 			Tooltip: クモの洞窟の環境音を切り替えます
-		}
-
-		MusicBoxRecipes: {
-			Label: "[i:HeavyWorkBench] オルゴールのレシピ"
-			Tooltip: 重作業台から作れる全てのオルゴールのレシピを切り替えます
 		}
 
 		MusicBoxResprite: {
@@ -97,7 +101,7 @@ Items: {
 
 	BrainofCthulhuMusicBox: {
 		DisplayName: オルゴール (クトゥルフの脳)
-		Tooltip: Heart Plus Up! と SkippyZii制作の「Madness Incarnate」を再生する
+		Tooltip: SkippyZiiとHeart Plus Up!制作の「Madness Incarnate」を再生する
 	}
 
 	CavernsMusicBox: {
@@ -147,12 +151,16 @@ Items: {
 
 	EyeofCthulhuMusicBox: {
 		DisplayName: オルゴール (クトゥルフの目)
-		Tooltip: Heart Plus Up! と novaGnomes制作の「Bloodshot Barrage」を再生する
+		Tooltip: Heart Plus Up!とnovaGnomes制作の「Bloodshot Barrage」を再生する
 	}
 
 	FalseEpilogueMusicBox: {
 		DisplayName: オルゴール (ムーンロード - 撃破)
-		Tooltip: Heart Plus Up!制作の「The Memory of a Cruel World」を再生する
+		Tooltip: 
+			'''
+			Heart Plus Up!制作の「The Memory of a Cruel World」を再生する
+			このオルゴールには仮の楽曲が収録されている
+			'''
 	}
 
 	ForestDayAfternoonMusicBox: {
@@ -220,7 +228,7 @@ Items: {
 		Tooltip:
 			'''
 			psykomatic制作の「Virtuous Radiance」を再生する
-			このオルゴールには仮の楽曲が収録されています
+			このオルゴールには仮の楽曲が収録されている
 			'''
 	}
 
@@ -241,7 +249,7 @@ Items: {
 
 	PumpkinMoonMusicBox: {
 		DisplayName: オルゴール (パンプキンムーン)
-		Tooltip: TYRANT制作の「Fresh for the Harvest」を再生する
+		Tooltip: このオルゴールは未完成で動作しません
 	}
 
 	RainDayMusicBox: {
@@ -286,7 +294,7 @@ Items: {
 
 	TorchGodRevengeanceMusicBox: {
 		DisplayName: オルゴール (たいまつの神 - リヴェンジェンス)
-		Tooltip: Heart Plus Up!制作の「Trial by Fire」のバリエーションを再生する
+		Tooltip: Heart Plus Up!制作の「Trial by Fire」の別バージョンを再生する
 	}
 
 	TownDayMusicBox: {
@@ -331,7 +339,7 @@ Items: {
 
 	WallofFleshMusicBox: {
 		DisplayName: オルゴール (ウォールオブフレッシュ)
-		Tooltip: Heart Plus Up!制作の「Flesh of the Underworld」を再生する
+		Tooltip: Heart Plus Up!制作の「Fated Insurrection」を再生する
 	}
 
 	WorkshopTier1MusicBox: {
@@ -366,8 +374,8 @@ Items: {
 }
 
 Menus: {
-	ResurrectionMenu: Resurrection Style
-	MemoryMenu: Memory Style
+	MemoryMenu: Calamityスタイル - メモリー
+	ResurrectionMenu: Calamityスタイル - 復活
 }
 
 ModSupport: {
@@ -404,7 +412,6 @@ ModSupport: {
 			OceanDay: shoreline
 			OceanNight: serene tides
 			OceanRain: waves
-			PumpkinMoon: Fresh for the Harvest
 			RainDay: downpour
 			RainLegacy: Grey Sky
 			RainNight: downtime
@@ -435,22 +442,13 @@ ModSupport: {
 		Authors: {
 			Forge: by TheForge129
 			HeartPlusUp: by Heart Plus Up!
-			HeartPlusUpFeature1: by Heart Plus Up! and novaGnomes
-			HeartPlusUpFeature2: by Heart Plus Up! and SkippyZii
-			HeartPlusUpFeature3: by Heart Plus Up! and Tyrant
+			HeartPlusUpFeature: by Heart Plus Up! and novaGnomes
 			psykomatic: by psykomatic
 			Salvati: by Salvati
 			SkippyZii: by SkippyZii
+			SkippyZiiFeature: by SkippyZii and Heart Plus Up!
 			Thriplerex: by Thriplerex
 			TYESKI: by TYESKI
-			TYRANT: by TYRANT
 		}
 	}
 }
-
-Recipes: {
-	EvilPowder: Evil Powder
-	SillyTiedBalloon: Silly Tied Balloon
-	NameMismatchError: このレシピのアイテムと他のMODのアイテムに内部名の不一致があります。このアイテムのレシピは無効化されました
-}
-

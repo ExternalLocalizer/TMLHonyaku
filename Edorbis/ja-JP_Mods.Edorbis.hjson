@@ -14,13 +14,13 @@ TownNPCMood: {
 	Elf: {
 		Content: 今は気分が良いわ、植物に閉じ込められるよりはましだわ。
 		NoHome: 私は外にいるのが大好きだけど、どこかに泊まるのは構わないと思うね。
-		LoveSpace: よかった、あの出来事の後は自分のための空間が必要だったの!
-		FarFromHome: 私の家はどこ? もう離れたくない…
+		LoveSpace: よかった、あの出来事の後は自分のための空間が必要だったの！
+		FarFromHome: 私の家はどこ？ もう離れたくない…
 		DislikeCrowded: もっとプライバシーを守りたいのだけど...
-		HateCrowded: 人混みに耐えられない、私は広場恐怖症なのよ!
+		HateCrowded: 人混みに耐えられない、私は広場恐怖症なのよ！
 		LikeBiome: ああ、ジャングルは私にぴったりだわ。
-		DislikeBiome: この場所は好きじゃないわ、植物はどこにあるの?
-		LikeNPC: 私は{NPCName}が好きです、彼らは私の同族を思い出すわ!
+		DislikeBiome: この場所は好きじゃないわ、植物はどこにあるの？
+		LikeNPC: 私は{NPCName}が好きです、彼らは私の同族を思い出すわ！
 	}
 }
 
@@ -68,7 +68,7 @@ Buffs: {
 		DisplayName: ディフェンスモード
 		Description:
 			'''
-			警告: ライフが少ない為、防御モードが起動しました!
+			警告: ライフが少ない為、防御モードが起動しました！
 			防御力が20増加
 			ライフ自然回復を大きく増進
 			'''
@@ -279,7 +279,7 @@ Buffs: {
 		Description:
 			'''
 			雪原以外の地下でエネルギーの秒間回復量が1増加
-			地下世界でエネルギーの秒間回復量が2増加
+			地底世界でエネルギーの秒間回復量が2増加
 			'''
 	}
 
@@ -299,7 +299,7 @@ Buffs: {
 			'''
 			地下と雪原でエネルギーの秒間回復量が1増加
 			氷雪洞窟でエネルギーの秒間回復量が2増加
-			地下世界でエネルギーの秒間回復量が3増加
+			地底世界でエネルギーの秒間回復量が3増加
 			'''
 	}
 
@@ -495,6 +495,21 @@ Buffs: {
 		DisplayName: リーフシールド
 		Description: 葉1枚につき防御力が3増加
 	}
+
+	ScrapDroneBuff: {
+		DisplayName: スクラップドローン
+		Description: スクラップドローンが敵を攻撃する
+	}
+
+	BerserkerRage: {
+		DisplayName:  バーサーカー レイジ
+		Description: 近接ダメージが10%増加し、近接クリティカル率と近接攻撃速度が10%上昇
+	}
+
+	IntergalacticProbeBuff: {
+		DisplayName: インターギャラクティックプローブ
+		Description: インターギャラクティックプローブが敵を破壊する
+	}
 }
 
 Items: {
@@ -564,7 +579,7 @@ Items: {
 		DisplayName: ブライトリアクター
 		Tooltip:
 			'''
-			敵に攻撃を命中させると20%の確率で炎の波が発生する
+			敵に攻撃を当てると20%の確率で炎の波が発生する
 			この波は初期ダメージの50%を与える
 			ハードモードではヘルファイアを与える
 			'''
@@ -574,7 +589,7 @@ Items: {
 		DisplayName: 呪われたマント
 		Tooltip:
 			'''
-			無敵時間中、ライフ自然回復を大きく増進
+			無敵時間中にライフ自然回復を大きく増進
 			呪炎耐性
 			攻撃者に呪炎を与える
 			'''
@@ -643,7 +658,6 @@ Items: {
 			工学ダメージが12%増加
 			ドローンの攻撃速度が10%上昇
 			エネルギーの秒間回復量が1増加
-			最大エネルギーが15増加
 			'''
 	}
 
@@ -684,9 +698,8 @@ Items: {
 		DisplayName: タレットのペンダント
 		Tooltip:
 			'''
-			工学ダメージが8%増加
-			ドローンの攻撃速度が10%上昇
-			静止時、ドローンの攻撃速度が25%上昇
+			ドローンの攻撃速度が12%上昇
+			静止時、ドローンの攻撃速度が10%上昇し、エネルギーの秒間回復量が1増加
 			'''
 	}
 
@@ -886,12 +899,12 @@ Items: {
 
 	GoblinBreastplate: {
 		DisplayName: ゴブリンの胸当て
-		Tooltip: 近接ダメージが10%増加
+		Tooltip: 近接ダメージが8%増加
 	}
 
 	GoblinGreaves: {
 		DisplayName: ゴブリンのすね当て
-		Tooltip: 近接攻撃速度と移動速度が10%上昇
+		Tooltip: 近接攻撃速度と移動速度が5%上昇
 	}
 
 	GoblinHelmet: {
@@ -1074,17 +1087,17 @@ Items: {
 
 	NightwoodBreastplate: {
 		DisplayName: ナイトウッドの胸当て
-		Tooltip: 召喚ダメージが4%増加
+		Tooltip: 召喚できるミニオンの数が1体増える
 	}
 
 	NightwoodGreaves: {
 		DisplayName: ナイトウッドのすね当て
-		Tooltip: 召喚ダメージが3%増加
+		Tooltip: 移動速度が10%上昇
 	}
 
 	NightwoodHelmet: {
 		DisplayName: ナイトウッドの兜
-		Tooltip: 召喚ダメージが3%増加
+		Tooltip: 召喚ダメージが1増加
 	}
 
 	MasklessSteampunkHelmet: {
@@ -1239,7 +1252,7 @@ Items: {
 	}
 
 	FishronScale: {
-		DisplayName: フィッシュロンスケール
+		DisplayName: フィッシュロンの鱗
 		Tooltip: ""
 	}
 
@@ -1269,7 +1282,7 @@ Items: {
 	}
 
 	MetalSalvages: {
-		DisplayName: 金属の廃品
+		DisplayName: アンドロイドのパーツ
 		Tooltip: 工学で使用する
 	}
 
@@ -1364,7 +1377,7 @@ Items: {
 			'''
 			エネルギーを受け取るにはエネルギーレセプターかエネルギー蓄積装置が必要
 			雪原以外の地下でエネルギーの秒間回復量が1増加
-			地下世界でエネルギーの秒間回復量が2増加
+			地底世界でエネルギーの秒間回復量が2増加
 			'''
 	}
 
@@ -1386,7 +1399,7 @@ Items: {
 			エネルギーを受け取るにはエネルギーレセプターかエネルギー蓄積装置が必要
 			地下と雪原でエネルギーの秒間回復量が1増加
 			氷雪洞窟でエネルギーの秒間回復量が2増加
-			地下世界でエネルギーの秒間回復量が3増加
+			地底世界でエネルギーの秒間回復量が3増加
 			'''
 	}
 
@@ -1876,7 +1889,7 @@ Items: {
 			攻撃モードでは刀で攻撃する
 			ドローン1機につきエネルギーを5消費
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: ファイアボールは地下世界のブロックを無視する]
+			[c/00FF00:特殊能力: ファイアボールは地底世界のブロックを無視する]
 			'''
 	}
 
@@ -1979,7 +1992,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			使用中、毎秒ライフが2回復する
+			使用中は毎秒ライフが2回復する
 			'''
 	}
 
@@ -1999,7 +2012,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中、攻撃速度が8%上昇
+			選択中は攻撃速度が8%上昇
 			'''
 	}
 
@@ -2019,7 +2032,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			使用中、エネルギーを8消費するが、工学ダメージが50%増加し、攻撃速度が50%上昇
+			使用中はエネルギーを8消費するが、工学ダメージが50%増加し、攻撃速度が50%上昇
 			'''
 	}
 
@@ -2029,7 +2042,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中、エネルギーの秒間回復量が1増加
+			選択中はエネルギーの秒間回復量が1増加
 			'''
 	}
 
@@ -2049,7 +2062,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中、攻撃速度が12%上昇
+			選択中は攻撃速度が12%上昇
 			'''
 	}
 
@@ -2089,7 +2102,7 @@ Items: {
 		Tooltip:
 			'''
 			レーザーを発射して攻撃するイラディエーションタワーを製造する
-			タレット1基につきエネルギーを10消費
+			タレット1基につきエネルギーを8消費
 			[c/00FF00:特殊能力: ケンタウリウムのリアクターの近くにいると、]
 			[c/00FF00:レーザーが敵か地形に当たると小さなプラズマオーブに分裂するようになる]
 			'''
@@ -2226,7 +2239,7 @@ Items: {
 
 	IceDemonScythe: {
 		DisplayName: アイスデーモンサイス
-		Tooltip: 命中時、速度を低下させるアイスデーモンサイスを召喚する
+		Tooltip: 攻撃が当たると、速度を低下させるアイスデーモンサイスを召喚する
 	}
 
 	NecromancerBook: {
@@ -2249,7 +2262,7 @@ Items: {
 		Tooltip:
 			'''
 			電撃を高速で発射する
-			「無限の力!」
+			「無限の力！」
 			'''
 	}
 
@@ -2258,7 +2271,7 @@ Items: {
 		Tooltip:
 			'''
 			複数の敵にダメージを与える雷撃を発射する
-			命中時、雲が発生することがある
+			当たったとき、雲が発生することがある
 			'''
 	}
 
@@ -2279,7 +2292,7 @@ Items: {
 
 	GolemHand: {
 		DisplayName: ゴーレムハンド
-		Tooltip: 消滅時、いくつかの破片をばら撒く強力なパンチを放つ
+		Tooltip: 消滅時にいくつかの破片をばら撒く強力なパンチを放つ
 	}
 
 	LeatherGloves: {
@@ -2314,7 +2327,7 @@ Items: {
 
 	Starcrusher: {
 		DisplayName: スタークラッシャー
-		Tooltip: 「オラ オラ オラァ!」
+		Tooltip: 「オラ オラ オラァ！」
 	}
 
 	AtlantiumTrident: {
@@ -2338,11 +2351,7 @@ Items: {
 
 	GoblinSpear: {
 		DisplayName: ゴブリンの槍
-		Tooltip:
-			'''
-			敵を倒すと、その位置にスパイクボールを生成する
-			敵の防御力を10無視
-			'''
+		Tooltip: 槍が最初に当たった敵に、より多くのダメージとノックバックを与える
 	}
 
 	JungleSpear: {
@@ -2352,7 +2361,7 @@ Items: {
 
 	AtlantiumSword: {
 		DisplayName: アトランティウムの剣
-		Tooltip: 攻撃が命中時、突撃を得る
+		Tooltip: 攻撃が当たったときに突撃を得る
 	}
 
 	Blightbringer: {
@@ -2370,7 +2379,7 @@ Items: {
 		Tooltip:
 			'''
 			プレイヤーが倒れている間は必ずクリティカルが出る
-			「PvPの王者は誰だ?」
+			「PvPの王者は誰だ？」
 			'''
 	}
 
@@ -2395,7 +2404,7 @@ Items: {
 		Tooltip:
 			'''
 			落下する氷の刃を5つ放つ
-			命中時、霜焼けを与える
+			霜焼けを与える
 			'''
 	}
 
@@ -2404,7 +2413,7 @@ Items: {
 		Tooltip:
 			'''
 			落下する氷の刃を3つ放つ
-			命中時、霜焼けを与える
+			霜焼けを与える
 			'''
 	}
 
@@ -2418,7 +2427,7 @@ Items: {
 		Tooltip:
 			'''
 			無敵時間を無視
-			「闇を切り裂く!」
+			「闇を切り裂く！」
 			'''
 	}
 
@@ -2434,7 +2443,7 @@ Items: {
 
 	PipeSword: {
 		DisplayName: パイプの剣
-		Tooltip: 敵を遠ざけてください!
+		Tooltip: 敵を遠ざけてください！
 	}
 
 	PlumberBane: {
@@ -2447,13 +2456,13 @@ Items: {
 		Tooltip:
 			'''
 			前方に3つの噴火を召喚する
-			命中時、ヘルファイアを与える
+			ヘルファイアを与える
 			'''
 	}
 
 	Soulsword: {
 		DisplayName: ソウルソード
-		Tooltip: 命中時、敵を追尾するカースソウルを放つ
+		Tooltip: 当たったときに敵を追尾するカースソウルを放つ
 	}
 
 	ThermiteSword: {
@@ -2461,7 +2470,7 @@ Items: {
 		Tooltip:
 			'''
 			自身の周囲を回転し、敵に当たると爆発するテルミットブレードを放つ
-			命中時、ヘルファイアと霜焼けを与える
+			ヘルファイアと霜焼けを与える
 			'''
 	}
 
@@ -2577,7 +2586,7 @@ Items: {
 			'''
 			強力で高速な弾丸を発射する
 			右クリックでズームアウト
-			「ラッシュB!」
+			「ラッシュB！」
 			'''
 	}
 
@@ -2747,7 +2756,7 @@ Items: {
 
 	Iceberg: {
 		DisplayName: アイスバーグ
-		Tooltip: 命中時、氷の破片で追撃する
+		Tooltip: 攻撃が当たると、氷の破片で追撃する
 	}
 
 	CryoCannon: {
@@ -2776,7 +2785,7 @@ Items: {
 			'''
 			攻撃を当てた敵にミニオンが集中攻撃する
 			敵を攻撃するとテルミットダガーを召喚する
-			テルミットダガーは消滅時、爆発する
+			テルミットダガーは消滅時に爆発する
 			'''
 	}
 
@@ -2999,11 +3008,7 @@ Items: {
 
 	MantisScissors: {
 		DisplayName: カマキリのはさみ
-		Tooltip:
-			'''
-			自身の前方を巨大なマンティスブレード2本で攻撃する
-			近接攻撃速度上昇の影響を受けないがその分、クリティカル時のダメージが増加
-			'''
+		Tooltip: 自身の前方を巨大なマンティスブレード2本で攻撃する
 	}
 
 	DyingEcosystem: {
@@ -3196,6 +3201,107 @@ Items: {
 			攻撃するたびにリパルジョンブラストを発射する
 			'''
 	}
+
+	SpaceKey: {
+		DisplayName: 宇宙の鍵
+		Tooltip: ダンジョンにある宇宙の宝箱を開ける
+	}
+
+	SpaceChest: {
+		DisplayName: 宇宙の宝箱
+		Tooltip: ""
+	}
+
+	Scrap: {
+		DisplayName: スクラップ
+		Tooltip: ""
+	}
+
+	ScrapSword: {
+		DisplayName: スクラップの剣
+		Tooltip: 敵に毒を与えることがある
+	}
+
+	ScrapGun: {
+		DisplayName: スクラップの銃
+		Tooltip: 不正確な錆びた拳銃
+	}
+
+	ScrapBullet: {
+		DisplayName: スクラップの弾
+		Tooltip: 遠くまで届かない、頼りない弾
+	}
+
+	ScrapPickaxe: {
+		Tooltip: ""
+		DisplayName: スクラップのつるはし
+	}
+
+	ScrapHammer: {
+		DisplayName: スクラップのハンマー
+		Tooltip: ""
+	}
+
+	ScrapAxe: {
+		DisplayName: スクラップの斧
+		Tooltip: ""
+	}
+
+	ScrapBreastplate: {
+		DisplayName: スクラップの胸当て
+		Tooltip: 最大エネルギーが5増加
+	}
+
+	ScrapGreaves: {
+		DisplayName: スクラップのすね当て
+		Tooltip: 工学ダメージが1増加
+	}
+
+	ScrapHelmet: {
+		DisplayName: スクラップの兜
+		Tooltip: エネルギーの秒間回復量が1増加
+	}
+
+	ScrapWrench: {
+		DisplayName: スクラップのレンチ
+		Tooltip:
+			'''
+			錆びた大砲を搭載したスクラップドローンを建造する
+			砲弾を3発発射する
+			時折、砲弾ではなくスクラップブレードを発射し、更に1体の敵に当たる
+			ドローン1機につきエネルギーを1消費
+			ドローンを制御するには技師のマーカーが必要
+			'''
+	}
+
+	GoblinShield: {
+		DisplayName: コプリンの盾
+		Tooltip:
+			'''
+			プレイヤーが左右に移動していないとき、いくつかの効果を得る
+			ノックバックに耐性、防御力が3増加、近接ダメージが8%増加などの効果があります
+			'''
+	}
+
+	GalacticWrench: {
+		DisplayName: 銀河のレンチ
+		Tooltip:
+			'''
+			4発のホーミングミサイルを発射するインターギャラクティックプローブを建造する
+			ミサイルが目標に到達すると、ホーミングを停止して加速する
+			ドローン1機につきエネルギーを7消費
+			ドローンを制御するには技師のマーカーが必要
+			'''
+	}
+
+	UltraChiller: {
+		DisplayName: ウルトラチラー
+		Tooltip:
+			'''
+			エネルギーの秒間回復量が2増加
+			最大エネルギーが25増加
+			'''
+	}
 }
 
 ArmorSets: {
@@ -3247,7 +3353,13 @@ ArmorSets: {
 		15秒間ゴブリンタレットを出現させる
 		'''
 	Hunter: 凍えや凍結に耐性
-	Goblin: 移動中、スパイクボールを落とす
+	Goblin: 
+		'''
+		ダメージを受けるとバーサーカーレイジが発動し、近接ステータスが上昇する
+		ダメージを受けるほど、持続時間が長くなる
+		'''
+	Nightwood: シャドウダガーが当たったときにシャドウフレイムを与えるようになる
+	Scrap: 一度に20以上のダメージを受けると、鋭い金属片が複数飛び出して反撃する
 }
 
 NPCs: {
@@ -3334,7 +3446,7 @@ NPCs: {
 
 NPCQuotes: {
 	Elf: {
-		GardenerNotBeaten: ガーデナーを倒しに行って、私はここにいるべきではないわ!
+		GardenerNotBeaten: ガーデナーを倒しに行って、私はここにいるべきではないわ！
 		Homeless1: 制御不能になるだろうとは思っていたけど...
 		Homeless2: 美しい創造物から私を救い出してくれてありがとう。
 		Homeless3: その植物は美しかったわ...
@@ -3344,8 +3456,8 @@ NPCQuotes: {
 		Quote3: 植物の中にいるのがこんなに快適だとは思わなかったわ。
 		Quote4: 私もかつてはあなたと同じ冒険者だったんだけど、植物になってしまったわ...
 		Quote5: できれば、私を真のガーデナーと呼んで。
-		Quote6: そんな風に私を見つめないで。まるで今までエルフを見たことがないみたいでしょう!
-		PlanteraBeaten: プランテラを倒したようね。これでジャングルはもっと平和になったかしら?
+		Quote6: そんな風に私を見つめないで。まるで今までエルフを見たことがないみたいでしょう！
+		PlanteraBeaten: プランテラを倒したようね。これでジャングルはもっと平和になったかしら？
 		PlanteraNotBeaten: いや、クロロファイトの鎧は渡さないわよ...
 	}
 }
@@ -3369,7 +3481,7 @@ Bestiary: {
 	GoblinKnight: ゴブリンの王の忠実な従者で、最強の敵さえも倒せるよう訓練されている。
 	Damocles: クトゥルフの手によって召喚され、敵の動きを阻止する魔法の剣。
 	HandofCthulhu: クトゥルフの謎めいた従者である彼は、自身の力を示すためにいかなる挑戦も拒まない。
-	MountedGoblinKnight: 騎馬戦士。激戦の中で研ぎ澄まされた感覚を持つ。可愛い豚犬も飼っている!
+	MountedGoblinKnight: 騎馬戦士。激戦の中で研ぎ澄まされた感覚を持つ。可愛い豚犬も飼っている！
 	GardenerBulb: この小さな球根はガーデナーの盾として機能し、それを破壊することがガーデナーを倒す効率的な方法だ。
 	TheGardener: この植物は、テラリアで最も見栄えの良い花を作るためにエルフによって生み出されたが、明らかな失敗作。
 	Elf: テラリアのエルフの最後の生き残り。かつて、自らが作り出した獣の中に閉じ込められていた。
@@ -3659,6 +3771,15 @@ Projectiles: {
 	GoblinTurret.DisplayName: ゴブリンのタレット
 	LeafShield.DisplayName: 葉の盾
 	ViridianInquisitorDeathAnimation.DisplayName: ヴィリジアン・インクイジターの死のアニメーション
+	GoblinSpearHostile.DisplayName: ゴブリンの槍
+	ShadowDaggerPlayer.DisplayName: シャドウダガー
+	ScrapBullet.DisplayName: スクラップの弾
+	ScrapDrone.DisplayName: スクラップドローン
+	ScrapBlade.DisplayName: スクラップのブレード
+	ScrapShard.DisplayName: スクラップの破片
+	ScrapCannonball.DisplayName: スクラップの砲丸
+	IntergalacticProbe.DisplayName: インターギャラクティックプローブ
+	FallingStarMissile.DisplayName: 流れ星のミサイル
 }
 
 Prefixes: {
@@ -3693,11 +3814,20 @@ Tiles: {
 	Lithium.MapEntry: リチウム
 	NightwoodChest.MapEntry: ナイトウッドの宝箱
 	NightwoodTree.MapEntry: ナイトウッドの木
+
+	SpaceChest: {
+		Locked: Mods.Edorbis.Tiles.SpaceChest.Locked
+		MapEntry1: ロックされた宇宙の宝箱
+		MapEntry0: 宇宙の宝箱
+	}
+
+	Scrap.MapEntry: スクラップ
+
 }
 
 Texts: {
 	HandofCthulhu1: クトゥルフの手: はぁ...
-	HandofCthulhu2: クトゥルフの手: 私の邪魔をしないでください、愚か者が!
+	HandofCthulhu2: クトゥルフの手: 私の邪魔をしないでください、愚か者が！
 }
 
 Keybinds: {
@@ -3777,7 +3907,7 @@ Configs: {
 		}
 
 		Color1: {
-			Label: カラー 1 / Monochromeのカラー
+			Label: カラー 1 / モノクロのカラー
 			Tooltip: ""
 		}
 
