@@ -1,0 +1,276 @@
+Configs: {
+	TreeConfig: {
+		RarityRequirementMultiplier: {
+			Tooltip: 高レアリティアイテムに対する必要コストの増加率を調整します。値が高いほどレア度がレベルコストに強く影響します。(デフォルト: 0.3)
+			Label: レアリティ要求倍率
+		}
+
+		ExpRequirementMultiplier: {
+			Tooltip: 値を高くするとアイテムのレベルアップがより難しくなります。(デフォルト: 0.5)
+			Label: 経験値要求倍率
+		}
+
+		GlobalExpMultiplier: {
+			Tooltip: 値を高くすると獲得経験値が増加し、低くすると減少します。(デフォルト: 1)
+			Label: 全体経験値倍率
+		}
+
+		DisplayName: ツリー設定
+
+		MaxItemLevel: {
+			Label: アイテム最大レベル
+			Tooltip: アイテムが到達できる最大レベル。(デフォルト: 100)
+		}
+
+		AllowModdedAccessories: {
+			Label: MODアクセサリースロットでもEXPを獲得可能にする
+			Tooltip: 不具合が発生する場合は無効にしてください。
+		}
+
+		ShowHUD: {
+			Label: アイテム情報HUDを表示
+			Tooltip: ""
+		}
+
+		HUDScale: {
+			Label: アイテム情報HUDのスケール
+			Tooltip: ""
+		}
+
+		NodePowerMultiplier: {
+			Tooltip: すべてのパッシブノードの基本効果を倍率で増加させます。(デフォルト: 1)
+			Label: ノード効果倍率
+		}
+	}
+}
+
+UI: {
+	TreePassivesHeader: パッシブツリー
+	NoNodeSelected: パッシブが割り振られていません
+	AvailablePoints: 利用可能ポイント: {0}
+	Level: レベル: {0} / {1}
+	EXP: EXP: {0} / {1} ({2}%)
+	FallenLeaf: 右クリックでノードを払い戻し
+	ShiftingLeaf: Shift + 右クリックでノードを再抽選
+	ShiftingLeaf2: 再抽選したノードはムーンロード撃破まで再度再抽選できません
+}
+
+Keybinds: {
+	"Open Item Passive Tree.DisplayName": アイテムパッシブツリーを開く
+	"Zoom Out .DisplayName": ズームアウト
+}
+
+Stats: {
+	StatFormat: "{0} {1}"
+	BuffFormat: このアイテムを所持または装備中、{0} を付与
+	MinionBuffFormat: このアイテムでミニオンを所持または召喚中、{0} を付与
+	ImbueTutorialFormat:
+		'''
+		付与ノードは同時に1つのみ取得できます
+		このノードを取得すると他の付与ノードはランダムなノードに変化します
+		このノードを払い戻すと変化した付与ノードが元に戻ります
+		'''
+
+	Damage: ダメージ
+	AttackSpeed: 攻撃速度
+	CritChance: クリティカル率
+	Knockback: ノックバック
+	ArmorPenetration: 防御貫通
+	TagDamage: 召喚タグダメージ
+	LifeMax: 最大ライフ
+	MovementSpeed: 移動速度
+	Defense: 防御力
+	Luck: 運
+	ClickerRadius: クリック範囲
+
+	ProjectileSize: 弾サイズ
+	ProjectileVelocity: 弾速
+	ProjectileCount: 追加弾数
+	ProjectilePenetrate: 貫通回数
+	LifeSteal: ライフスティール確率
+	MinionCount: ミニオン数
+	SentryCount: セントリー数
+	WhipRange: ムチ射程
+	ManaCost: マナ消費
+	ManaRegen: マナ回復
+	ManaMax: 最大マナ
+	AmmoConsumption: 弾薬消費軽減確率
+	ToolSpeed: ツール速度
+	PickaxePower: 採掘速度
+	FishingPower: 釣りパワー
+	WeaponSize: 武器サイズ
+
+	MinionImbueFire: ミニオン付与: 炎
+	MinionImbuePoison: ミニオン付与: 毒
+	MinionImbueShadow: ミニオン付与: シャドウフレイム
+	MinionImbueVenom: ミニオン付与: ベノム
+
+	Archery: アーチェリーバフ
+	Clairvoyance: 透視バフ
+	Regeneration: 再生バフ
+	Swiftness: 俊敏バフ
+	Ironskin: 鉄皮バフ
+	Wrath: 憤怒バフ
+	Rage: 激怒バフ
+	Lifeforce: ライフフォースバフ
+	Endurance: 耐久バフ
+	FishingPotion: 釣りポーションバフ
+	Sonar: ソナーバフ
+	Crate: 木箱バフ
+	WaterWalking: 水上歩行バフ
+	Calm: 鎮静バフ
+	Inferno: インフェルノバフ
+	Shine: 発光バフ
+	Spelunker: 探鉱バフ
+	Hunter: ハンターバフ
+
+	WeaponImbueFire: 武器付与: 炎
+	WeaponImbueFireDesc: 近接攻撃で炎上デバフを付与
+	WeaponImbuePoison: 武器付与: 毒
+	WeaponImbuePoisonDesc: 近接攻撃で毒デバフを付与
+	WeaponImbueGold: 武器付与: ゴールド
+	WeaponImbueGoldDesc: 近接攻撃で追加ゴールドをドロップ
+	WeaponImbueIchor: 武器付与: イコル
+	WeaponImbueIchorDesc: 近接攻撃でイコルデバフを付与
+	WeaponImbueCursedFlames: 武器付与: 呪いの炎
+	WeaponImbueCursedFlamesDesc: 近接攻撃で呪いの炎デバフを付与
+	WeaponImbueVenom: 武器付与: アシッドベノム
+	WeaponImbueVenomDesc: 近接攻撃でアシッドベノムデバフを付与
+	WeaponImbueParty: 武器付与: 紙吹雪
+	WeaponImbuePartyDesc: 近接攻撃時に紙吹雪が発生
+	WeaponImbueNanites: 武器付与: ナノマシン
+	WeaponImbueNanitesDesc: 近接攻撃でナノマシンデバフを付与
+
+	MinionImbueFireDesc: ミニオンが炎上を付与
+	MinionImbuePoisonDesc: ミニオンが毒を付与
+	MinionImbueShadowDesc: ミニオンがシャドウフレイムを付与
+	MinionImbueVenomDesc: ミニオンがアシッドベノムを付与
+
+	MagicWeaponImbueFire: 武器付与: 炎
+	MagicWeaponImbueFireDesc: 魔法攻撃で炎上デバフを付与
+	MagicWeaponImbuePoison: 武器付与: 毒
+	MagicWeaponImbuePoisonDesc: 魔法攻撃で毒デバフを付与
+	MagicWeaponImbueShadow: 武器付与: シャドウ
+	MagicWeaponImbueShadowDesc: 魔法攻撃でシャドウフレイムデバフを付与
+	MagicWeaponImbueVenom: 武器付与: ベノム
+	MagicWeaponImbueVenomDesc: 魔法攻撃でアシッドベノムデバフを付与
+
+	RangedWeaponImbueFire: 武器付与: 炎
+	RangedWeaponImbueFireDesc: 遠距離攻撃で炎上デバフを付与
+	RangedWeaponImbuePoison: 武器付与: 毒
+	RangedWeaponImbuePoisonDesc: 遠距離攻撃で毒デバフを付与
+	RangedWeaponImbueShadow: 武器付与: シャドウ
+	RangedWeaponImbueShadowDesc: 遠距離攻撃でシャドウフレイムデバフを付与
+	RangedWeaponImbueVenom: 武器付与: ベノム
+	RangedWeaponImbueVenomDesc: 遠距離攻撃でアシッドベノムデバフを付与
+
+	SwiftnessDesc: 移動速度が25%上昇
+	LifeforceDesc: 最大ライフが20%増加
+	EnduranceDesc: 被ダメージ10%軽減
+	RegenerationDesc: ライフ自動回復を付与
+	SpelunkerDesc: 宝箱や鉱石の位置を表示
+	IronskinDesc: 防御力+8
+	WrathDesc: ダメージ10%増加
+	RageDesc: クリティカル率10%増加
+	FishingPotionDesc: 釣りパワー増加
+	SonarDesc: 魚の種類が見える
+	CrateDesc: 木箱の釣れる確率上昇
+	WaterWalkingDesc: 水上を歩ける
+	CalmDesc: 敵の出現率減少
+	InfernoDesc: 近くの敵を炎上させる
+	ShineDesc: 光を放つ
+	HunterDesc: 敵の位置を表示
+
+	ShortLabels: {
+		Buff: バフ
+		Damage: Dmg
+		Knockback: Kb
+		AttackSpeed: Spd
+		CritChance: Crit
+		Defense: Def
+		LifeMax: Life
+		MovementSpeed: Move
+		ArmorPenetration: ArPn
+		WeaponSize: Size
+		ProjectileSize: Size
+		ProjectileCount: +Proj
+		ProjectileVelocity: Vel
+		MinionCount: +Min
+		SentryCount: +Sen
+		LifeSteal: LSteal
+		ClickerRadius: AoE
+	}
+}
+
+Tooltips: {
+	TreeTutorial: "[c/FFFFFF:{0}] を押してパッシブツリーを表示"
+	KeyNotBoundWarning: "(!) キーが割り当てられていません！ 設定 -> 操作 からキーを設定してください"
+	TreeNodesTitle: "ツリーパッシブ:"
+	NoKeyBound: "NONE"
+}
+
+Items: {
+	AcornofTransmutation: {
+		DisplayName: "変異のドングリ"
+		Tooltip: "使用したアイテムのパッシブツリーを全払い戻しし、完全に新しいツリーを生成します\nこのアイテムを手に持ち、パッシブツリーを持つアイテムを右クリックして使用"
+		Replant: "{0} の根が植え直されました！"
+	}
+
+	EssenceofAutumn: {
+		DisplayName: "秋のエッセンス"
+		Tooltip: "アイテムのパッシブツリーで割り振られたポイントをすべて払い戻します\nこのアイテムを手に持ち、パッシブツリーを持つアイテムを右クリックして使用"
+		Refund: "{0} のパッシブポイントが払い戻されました。"
+	}
+
+	FallenLeaf: {
+		DisplayName: "落ち葉"
+		Tooltip: "パッシブ払い戻しポイントを1獲得"
+	}
+
+	ShiftingLeaf: {
+		DisplayName: "揺らぐ落ち葉"
+		Tooltip: "ノード再抽選ポイントを1獲得"
+	}
+
+	LeechItem: {
+		DisplayName: "ヒル"
+		Tooltip: ""
+		NoEXP: "このヒルをアイテムに取り付けると、そのアイテムが獲得するEXPを吸収して保存します\n[c/32FF82:保存済み: {0} / {1} EXP]\nこのヒルを手に持ち、パッシブツリーを持つアイテムを右クリックして取り付けます\nヒルはいつでも取り外せます\nEXPを保存したヒルは取り外すと滋養状態になります\n滋養状態のヒルはアイテムに使用すると保存したEXPを移します"
+		WithEXP: "[c/32FF82:保存済み: {0} / {1} EXP]\nこのヒルを手に持ち、パッシブツリーを持つアイテムを右クリックして保存EXPを移します\nEXPを移した後、ヒルは消費されます"
+		HostStatus: "{0} 保存EXP: {1} / {2}"
+		HostInstruction: "(Shift + 右クリックで {0} を取り外す)"
+		Extract: "{0} を取り外しました！"
+		Absorb: "{0} は {1} の保存EXPを吸収した！"
+		Siphon: "{0} は {1} によって吸収されています！"
+	}
+
+	FungalLeech: {
+		DisplayName: "菌糸ヒル"
+		Tooltip: ""
+	}
+
+	SporelingLeech: {
+		DisplayName: "胞子ヒル"
+		Tooltip: ""
+	}
+
+	MutantLeech: {
+		DisplayName: "変異ヒル"
+		Tooltip: ""
+	}
+
+	SpectralLeech: {
+		DisplayName: "幽体ヒル"
+		Tooltip: ""
+	}
+
+	HeartoftheForest: {
+		DisplayName: "森の心臓"
+		Tooltip: "獲得した経験値の20%をパッシブツリーを持つアイテムと共有する\n最大ライフが20増加"
+	}
+
+	OvergrownHeartoftheForest: {
+		DisplayName: "繁茂する森の心臓"
+		Tooltip: "獲得した経験値の50%をパッシブツリーを持つアイテムと共有する\n最大ライフが40増加"
+	}
+}
