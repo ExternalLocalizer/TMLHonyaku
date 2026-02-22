@@ -825,7 +825,7 @@ Configs: {
 
 		TownNPC: {
 			Label: タウンNPCを無効化
-			Tooltip: オラクルとクラゲの女司祭がスポーンしなくなる
+			Tooltip: 預言者とクラゲの女司祭がスポーンしなくなる
 		}
 
 		IsopodBait: {
@@ -6070,37 +6070,37 @@ NPCs: {
 	}
 
 	NuggetPet: {
-		NuggetNameCommon1: Melvin
-		NuggetNameCommon2: Mike
-		NuggetNameCommon3: Gordy
-		NuggetNameCommon4: Cluckin Bell
-		NuggetNameCommon5: McDonald
-		NuggetNameCommon6: Buckbeak
-		NuggetNameCommon7: Doodle
-		NuggetNameCommon8: Beaky
-		NuggetNameCommon9: Randy
-		NuggetNameCommon10: Spurs
-		NuggetNameCommon11: Pollito
-		Chat1: Cluck!
-		Chat2: Peep peep
-		Chat3: Cluck cluck
-		Chat4: Bawk!
-		Chat5: Pock pock
-		Chat6: Cock-a-doodle-doo
+		NuggetNameCommon1: メルビン
+		NuggetNameCommon2: マイク
+		NuggetNameCommon3: ゴーディ
+		NuggetNameCommon4: クラッキン・ベル
+		NuggetNameCommon5: マクドナルド
+		NuggetNameCommon6: バックビーク
+		NuggetNameCommon7: ドゥードル
+		NuggetNameCommon8: ビーキー
+		NuggetNameCommon9: ランディ
+		NuggetNameCommon10: スパース
+		NuggetNameCommon11: ポリート
+		Chat1: コケーッ！
+		Chat2: ピィピィ
+		Chat3: コケコケ
+		Chat4: コッコッ!
+		Chat5: ポケポケ
+		Chat6: コケコッコー
 	}
 
 	NuggetNugget: {
 		DisplayName: ナゲット
-		NuggetName1: Yhary
-		NuggetName2: Kulu-Ya-Ku
-		NuggetName3: Kazooie
-		NuggetName4: Taco
+		NuggetName1: ヤーリィ
+		NuggetName2: クルヤック
+		NuggetName3: カズーイ
+		NuggetName4: タコ
 		NuggetSpawn: "{1}の灰から{0}が誕生した！"
 		Canspawn: ライセンスはナゲット配達サービスへとテレポートした…
 		Nospace: "{0}に再誕するための十分なスペースがない！"
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition:預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
@@ -6112,7 +6112,7 @@ NPCs: {
 		NuggetName4: Frijol
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition: 預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
@@ -6124,7 +6124,7 @@ NPCs: {
 		NuggetName4: Alitas
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition: 預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
@@ -6135,7 +6135,7 @@ NPCs: {
 		NuggetName3: Guacamole
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition: 預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
@@ -6147,7 +6147,7 @@ NPCs: {
 		NuggetName4: Sobras
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition: 預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
@@ -6159,7 +6159,7 @@ NPCs: {
 		NuggetName4: Mole
 
 		Census: {
-			SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
+			SpawnCondition: 預言者から[i:CalValEX/NuggetLicense]を買って使用する
 		}
 	}
 
