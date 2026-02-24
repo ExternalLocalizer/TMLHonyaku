@@ -853,7 +853,7 @@ Configs: {
 		}
 
 		OwnerOnly: {
-			Label: Enable Server Owner Exclusive Config Access
+			Label: サーバーオーナー限定のコンフィグへのアクセス
 			Tooltip:
 				'''
 				サーバーをホストしつつのプレイ、またはプレイしているマシンと
@@ -872,28 +872,28 @@ Configs: {
 		}
 
 		AprilFoolsContent: {
-			Label: April Fools Content
-			Tooltip: Disables April Fools content when disabled
+			Label: エイプリルフールのコンテンツ
+			Tooltip: 無効にすると、すべてのエイプリルフールのコンテンツが無効になります
 		}
 
 		UseFables: {
-			Label: Use Calamity Fables Content
+			Label: Calamity Fablesのコンテンツを使用する
 			Tooltip:
 				'''
-				While the Calamity Fables mod is enabled, equivalents from it will be prioritized.
-				For example, Calamity's Vanities' Desert Scourge drops will drop from Calamity Fables' Desert Scourge instead of Calamity's.
-				Disable this to have Calamity's equivalents prioritized.
+                Calamity Fablesが有効な場合、同等のコンテンツが優先されます。
+                例えば、Calamity's Vanitiesのデザートスカージのドロップは、Calamityのデザートスカージではなく、Calamity Fablesのほうからドロップします。
+                Calamityのほうを優先したい場合は無効にしてください
 				'''
 		}
 	}
 
-	ChangeGood: Your changes have been accepted.
-	HostOnly: Only the server host can change the config.
-	NoPerms: You do not have the proper permission assigned.
-	Drops: Drops
-	Pets: Pets
-	Gameplay: Gameplay
-	OtherHeader: Other
+	ChangeGood: あなたの変更は受け入れられた。
+	HostOnly: サーバーのホストのみが設定を変更できます。
+	NoPerms: 適切な権限が割り当てられていません。
+	Drops: ドロップ
+	Pets: ペット
+	Gameplay: ゲームプレイ
+	OtherHeader: その他
 }
 
 Bestiary: {
