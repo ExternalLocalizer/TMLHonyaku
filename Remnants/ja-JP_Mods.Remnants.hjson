@@ -6,7 +6,7 @@ Safeguard: {
 	HomewardJourney: Homeward JourneyのMODが有効になっています。
 	Aequus: Aequus のMODが有効になっています。
 	StartWithBase: Start With Base のMODが有効になっています。
-	LunarVeil: The Lunar Veil mod is enabled.
+	LunarVeil: Lunar Veil Modが有効になっています。
 	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
 	WOTGMultiplayer: Remnants は、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
 }
@@ -42,10 +42,10 @@ WorldgenMessages: {
 	JungleTemple: ジャングルのピラミッドを構築中
 	MagicalLab: 魔法の研究所を構築中
 	Labyrinth: 古代の迷宮を構築中
-	Warrens: Multiplying hellish beasts
+	Warrens: 地獄の獣を増殖中
 	WaterTemple: 水中神殿を彫刻中
 	AerialGarden: 天空の庭園を構築中
-	Prototypes: Preserving plants for millenia
+	Prototypes: 植物を数千年にわたり保存中
 }
 
 Bestiary: {
@@ -112,8 +112,8 @@ Biomes: {
 	}
 
 	SpiderNest: {
-		DisplayName: Spider Nest
-		TownNPCDialogueName: the Spider Nest
+		DisplayName: クモのすみか
+		TownNPCDialogueName: クモのすみか
 	}
 
 	Undergrowth: {
@@ -137,23 +137,23 @@ Biomes: {
 	}
 
 	SulfuricVents: {
-		DisplayName: Sulfuric Vents
-		TownNPCDialogueName: the Sulfuric Vents
+		DisplayName: 硫黄噴出域
+		TownNPCDialogueName: 硫黄噴出域
 	}
 
 	SulfuricFog: {
-		TownNPCDialogueName: the Sulfuric Fog
-		DisplayName: Sulfuric Fog
+		TownNPCDialogueName: 硫黄の霧
+		DisplayName: 硫黄の霧
 	}
 
 	PrototypeExterior: {
-		DisplayName: Prototype Exterior
-		TownNPCDialogueName: the Prototype Exterior
+		DisplayName: プロト外部エリア
+		TownNPCDialogueName: プロト外部エリア
 	}
 
 	PrototypeInterior: {
-		DisplayName: Prototype Interior
-		TownNPCDialogueName: the Prototype Interior
+		DisplayName: プロト内部エリア
+		TownNPCDialogueName: プロト内部エリア
 	}
 }
 
@@ -649,8 +649,8 @@ Items: {
 	}
 
 	SulfuricVent: {
-		DisplayName: Sulfuric Vent
-		Tooltip: Creates a stream of gas
+		DisplayName: 硫黄噴出孔
+		Tooltip: ガスを噴き出す
 	}
 
 	SulfurstoneDiamond: {
@@ -659,7 +659,7 @@ Items: {
 
 	HeavyAlloy: {
 		Tooltip: ""
-		DisplayName: Heavy Alloy
+		DisplayName: 重合金
 	}
 
 	VintageSniper: {
@@ -704,7 +704,7 @@ Items: {
 	}
 
 	AshenPlatform: {
-		DisplayName: Ashen Platform
+		DisplayName: 灰の足場
 	}
 
 	GardenPlatform: {
@@ -712,11 +712,11 @@ Items: {
 	}
 
 	Cage: {
-		DisplayName: Metal Cage
+		DisplayName: 金属の檻
 	}
 
 	IronBars: {
-		DisplayName: Metal Bars
+		DisplayName: 金属の格子
 	}
 
 	ArcanePlatform: {
@@ -724,59 +724,59 @@ Items: {
 	}
 
 	ChainHook: {
-		DisplayName: Chain Hook
+		DisplayName: チェーンフック
 	}
 
 	PrototypeComputer: {
-		DisplayName: Prototype Computer
+		DisplayName: プロトコンピューター
 	}
 
 	PrototypeConduits: {
-		DisplayName: Prototype Conduits
+		DisplayName: プロト導管
 	}
 
 	PrototypePlatform: {
-		DisplayName: Prototype Platform
+		DisplayName: プロト足場
 	}
 
 	PrototypePlating: {
-		DisplayName: Prototype Plating
+		DisplayName: プロトメッキ
 	}
 
 	PrototypeSupport: {
-		DisplayName: Prototype Support
+		DisplayName: プロト補強材
 	}
 
 	PrototypeVent: {
-		DisplayName: Prototype Vent
+		DisplayName: プロト通気口
 	}
 
 	PrototypeBeamWall: {
-		DisplayName: Prototype Beam Wall
+		DisplayName: プロト梁の壁
 	}
 
 	PrototypeHazardWall: {
-		DisplayName: Prototype Hazard Wall
+		DisplayName: プロト警告壁
 	}
 
 	PrototypeRailing: {
-		DisplayName: Prototype Railing
+		DisplayName: プロト手すり
 	}
 
 	PrototypeWall: {
-		DisplayName: Prototype Plating Wall
+		DisplayName: プロトメッキの壁
 	}
 
 	PrototypeMonitor: {
-		DisplayName: Prototype Monitor
+		DisplayName: プロトモニター
 	}
 
 	PrototypeServer: {
-		DisplayName: Prototype Server
+		DisplayName: プロトサーバー
 	}
 
 	PrototypeConsole: {
-		DisplayName: Prototype Console
+		DisplayName: プロトコンソール
 	}
 
 	Tuff: {
@@ -797,7 +797,7 @@ Items: {
 	}
 
 	ArcaneBrick: {
-		DisplayName: Arcane Brick
+		DisplayName: 秘術のレンガ
 	}
 
 	AshenAltar: {
@@ -806,7 +806,7 @@ Items: {
 	}
 
 	GardenPotPlant: {
-		DisplayName: Garden Pot Plant
+		DisplayName: 庭園の植木鉢
 		Tooltip: ""
 	}
 }
@@ -1052,26 +1052,26 @@ Configs: {
 		}
 
 		IceMountainStyle: {
-			Label: "[i:664] Mountains"
-			Tooltip: Controls the number of ice mountains generated in new worlds
+			Label: "[i:664] 山"
+			Tooltip: 新しいワールドに生成される氷山の数を制御します
 		}
 
 		AquaticDepthsRework: {
-			Label: "[i:2338] Aquatic Depths Rework"
+			Label: "[i:2338] 深海の洞窟のリワーク"
 			Tooltip:
 				'''
-				Enables the Aquatic Depths rework when used with the Thorium mod
-				This also prevents it from intruding on adjacent biomes
+				Thorium Modと併用することで、深海の洞窟のリワークを有効にします
+				これにより、隣接するバイオームへ侵入することも防止されます
 				'''
 		}
 
 		Prototypes: {
-			Label: "[i:Remnants/PrototypePlating] Prototypes"
+			Label: "[i:Remnants/PrototypePlating] プロトタイプ"
 			Tooltip:
 				'''
-				Enables generation of the prototype life capsules
+				プロトタイプ・ライフカプセルの生成を有効化します
 
-				Note: UNFINISHED
+				注記: 未完成です！
 				'''
 		}
 	}
@@ -1126,8 +1126,8 @@ Configs: {
 		}
 
 		SpiderMusic: {
-			Label: "[i:Remnants/InsectRemains] Spider Music"
-			Tooltip: Enables the custom music for the spider nests
+			Label: "[i:Remnants/InsectRemains] クモの音楽"
+			Tooltip: クモのすみか用のカスタム音楽を有効にする
 		}
 
 		OceanMusic: {
@@ -1140,15 +1140,15 @@ Configs: {
 		Tooltip: ""
 
 		Double: {
-			Label: Double
+			Label: 2
 		}
 
 		Single: {
-			Label: Single
+			Label: 1
 		}
 
 		None: {
-			Label: None
+			Label: なし
 		}
 	}
 }
