@@ -1,0 +1,5669 @@
+Items: {
+	VoidBlade: {
+		DisplayName: ヴォイドブレード
+		Tooltip: 素早く連続斬りを繰り出す
+	}
+
+	Weapons: {
+		Rogue: {
+			Revelation: {
+				Tooltip:
+					'''
+					鎌を投げる
+					ステルス状態の場合、斬撃と火炎弾を発射する
+					'''
+				DisplayName: 大鎌の黙示録
+			}
+
+			Silence: {
+				DisplayName: 静寂
+				Tooltip: フライングディスクを投げ出すと引っ張ることができる
+			}
+
+			ShadewindLance: {
+				Tooltip:
+					'''
+					虚無を宿した槍を投げる
+					ステルス攻撃はより高いダメージを与え、無限に貫通する
+					'''
+				DisplayName: 影穿槍
+			}
+
+			Aquashard: {
+				DisplayName: 大洋の破片
+				Tooltip:
+					'''
+					敵に命中すると小さな結晶へと砕ける脆いジャベリンを投げる
+					ステルス攻撃は敵を貫通し、命中時にジャベリンを粉砕する
+					'''
+			}
+
+			SpearOfRadiance: {
+				Tooltip:
+					'''
+					聖なる槍を素早く投げる
+					ステルス攻撃は画面全体に十字の軌跡を描く
+					'''
+				DisplayName: 閃光の槍
+			}
+
+			AbyssalPiercer: {
+				DisplayName: 深淵を穿つ者
+				Tooltip:
+					'''
+					水没したジャベリンを投擲し、追尾する水爆弾へと爆発させる
+					ステルス攻撃ではジャベリンが深淵の裂け目を開き、触手を噴出させ
+					さらにステルス攻撃は最大5体の敵を貫通する
+					'''
+			}
+
+			AzureOfFirmament: {
+				DisplayName: 大空の紺碧
+				Tooltip:
+					'''
+					素早く槍を投げる
+					ステルス攻撃は周囲に羽根の爆発を引き起こし、それが追尾する 
+					'''
+			}
+
+			ArbitratorII: {
+				DisplayName: 二人目の仲裁者
+				Tooltip:
+					'''
+					爆発するジャベリンを投げる
+					ステルス攻撃では、ジャベリンが命中した標的に突き刺さる
+					短時間の遅延の後、爆発して周囲の標的にダメージを与える。
+					'''
+			}
+
+			Voidseeker: {
+				Tooltip: ステルス攻撃はカーソルの位置へ瞬間移動し、大ダメージを与える
+				DisplayName: 虚無の探求者
+			}
+
+			TheBeginingAndTheEnd: {
+				DisplayName: 始源と終焉
+				Tooltip:
+					'''
+					左ボタンまたは右ボタンで「始源の刻」もしくは「終焉の刻」を発動
+					「終焉の刻」は「深淵の凝視」を付与、「始源の刻」は「蝕の刻印」を付与
+					デバフのスタック数に応じて「残響の魂」または「蝕の魂」を召喚し消滅
+					残響の魂は一定時間ターゲットを連続攻撃
+					蝕の魂は帰還時に回復し、攻撃速度・攻撃力・クリティカル率を一時上昇
+					ステルス攻撃は同時に二連ホーミングナイフを投擲、命中時に大量の魂を解き放つ
+					'''
+			}
+
+			AmethystFrisbee: {
+				Tooltip:
+					'''
+					輝くディスクを投げる 命中時に反転して戻ってくる
+帰還中に重力を逆転・無視
+ステルス攻撃は命中時に衝撃波を発生させる
+					'''
+				DisplayName: アメジスト・フリスビー
+			}
+
+			ProphecyFlyingKnife: {
+				Tooltip:
+					'''
+					複数のホーミングナイフを発射する。
+					ステルス攻撃はナイフを投擲し、命中時に6つの軌道にルーンオーブを生成する。
+					'''
+				DisplayName: 預言の刃
+			}
+
+			TheDeadCut: {
+				DisplayName: 死の断ち切り
+				Tooltip: 攻撃後にステルス状態を一部回復する
+			}
+
+			LunarPlank: {
+				DisplayName: 月の板
+				Tooltip:
+					'''
+					月の板を投げて敵を攻撃する
+					ステルス攻撃は発生させ、追尾する月矢を放つ
+					'''
+			}
+
+			AzafureSurgeRod: {
+				DisplayName: アザフレ製サージロッド
+				Tooltip:
+					'''
+					命中時に標的に刺さる。
+					遅延後、近くの標的に稲妻を放つ
+					ステルス攻撃では複数のロッドを投擲し、空中を浮遊しながら近くの標的に自動追尾する
+					'''
+			}
+
+			TlipocasScythe: {
+				DisplayName: ティポリカの鎌
+				Tooltip: ""
+			}
+
+			AzafureLightMachineGun: {
+				DisplayName: アザフレ製軽量型機関銃
+				Tooltip:
+					'''
+					レーザーを高速連射、命中時にステルスを回復
+					ステルス攻撃は重力の影響を受ける手榴弾を発射する
+					'''
+			}
+
+			AzafureAirReaper: {
+				DisplayName: アザフレ製空気の死神
+				Tooltip:
+					'''
+					鎌を投げつけ、命中させて標的に突き刺し、複数の傷を負わせる
+					ステルス攻撃では、命中後に標的を追跡し、前後に行き来しながら斬り続ける鎌を投げる
+					'''
+			}
+		}
+	}
+
+	PrisonOfPermafrost: {
+		Tooltip: 魔法陣を召喚しながら氷の棘と氷の円錐を連続発射
+			
+		DisplayName: パーマフロストの牢獄
+	}
+
+	Kinanition: {
+		DisplayName: キナクション
+		Tooltip:
+			'''
+			[c/ce97fa:一連の稲妻の矢を発射し、命中時に目標を追尾する]
+			[c/ce97fa:稲妻の矢は弾薬の元の効果を維持する]
+			[c/0078b9:右クリックで追尾するサンダーボルトスピアを発射し、命中時に稲妻を爆発させる]
+			'''
+	}
+
+	VoidRelics: {
+		DisplayName: 虚空の紋章
+		Tooltip:
+			'''
+			カーソルを追跡するヴォイドマークを召喚
+			召喚スロットを全て消費、消費スロット数に応じてダメージが上昇
+			同時に存在できるヴォイドマークは1体のみ
+			より強力な斬撃を放ち、ダメージが2倍化。連続使用でデスウィッシュレットを付与
+			'''
+	}
+
+	AuricToilet: {
+		Tooltip:
+			'''
+			これはヤリム族が使用したものだ
+			そんな玉座に座るなど、全ての人々の恥辱となる
+			少なくとも今なら君が座れる
+			「なんてこった」
+			[c/ffff00:EntropyMod以外にもあるから意外と需要はあるらしい]
+			'''
+		DisplayName: オーリック製のトイレ
+	}
+
+	LotteryBox: {
+		DisplayName: 運試し
+		Tooltip:
+			'''
+			宝くじの機械を召喚する
+			「ちゃんと対応しないと殺すぞ」
+			[c/800000:トンデモバランスブレイカー]
+			'''
+	}
+
+	ToyRock: {
+		DisplayName: 子供用の岩
+		Tooltip:
+			'''
+			竜の娘を召喚する
+「意外とロリだ...」
+			'''
+	}
+
+	YharimsStimulants: {
+		DisplayName: ヤリムのドーピング剤
+		Tooltip: 全ての攻撃力と防御力を強固にする
+	}
+
+	VoidBottle: {
+		DisplayName: 虚空入りの瓶
+		Tooltip: クルーザーを召喚する。
+	}
+
+	VoidMonument: {
+		DisplayName: 虚無の記念碑
+		Tooltip: ""
+	}
+
+	Lore: {
+		CruiserLore.DisplayName: クルーザー
+		NihilityTwinLore.DisplayName: 二ヒリティ・ツインズ
+		ProphetLore.DisplayName: 預言者
+		LuminarisLore.DisplayName: ルミナリス
+	}
+
+	BrokenChainsaw: {
+		DisplayName: 壊れたチェーンソー
+		Tooltip: ""
+	}
+
+	MechanicalChainsaw: {
+		DisplayName: 機械式のチェーンソー
+		Tooltip: ""
+	}
+
+	EnslavedStar: {
+		DisplayName: 奴隷化された惑星
+		Tooltip: 「50の星の祝福を受けた王国」
+	}
+
+	Euangelion: {
+		DisplayName: エヴァンゲリオン
+		Tooltip: 「新世紀じゃないよ！」
+	}
+
+	Pioneer: {
+		DisplayName: パイオニア
+		Tooltip: ""
+	}
+
+	GodsSnack: {
+		DisplayName: 神のポテチ
+		Tooltip: デバウラー・オブ・ゴッド(通称DoG-Chan)の少女を召喚する
+	}
+
+	CruiserBag: {
+		DisplayName: トレジャーバッグ（クルーザー）
+		Tooltip: ""
+	}
+
+	CruiserRelic: {
+		DisplayName: クルーザーのレリック
+		Tooltip: ""
+	}
+
+	DivineRemnants: {
+		DisplayName: 神聖なる遺物
+		Tooltip: ""
+	}
+
+	VoidElytra: {
+		DisplayName: 虚空のエリトラ
+		Tooltip:
+			'''
+			水平速度:[A]
+			加速倍率:[B]
+			優れた垂直速度
+			飛行時間:[C]
+			移動キーダブルタップで四方向へのダッシュを可能にする
+			[c/356498:虚無に命を捧げ、限界の突破を成し遂げる]
+			'''
+	}
+
+	BottleDarkMatter: {
+		DisplayName: 瓶詰めされた暗黒物質
+		Tooltip: えっと...シーセレス・ヴォイドちゃん...?を召喚する
+	}
+
+	DivineIntervention: {
+		DisplayName: 神の介入
+		Tooltip:
+			'''
+			神聖な盾を発射する
+発射体と接触した発射体を跳ね返す
+この効果には3分のクールダウン時間がかかる
+			'''
+	}
+
+	Godhead: {
+		DisplayName: 神聖
+		Tooltip:
+			'''
+			投射物はオーラを帯び、標的に持続ダメージを与える
+オーラは免疫状態を無視し、オーラの視覚効果はアクセサリーの可視性設定で無効化可能
+			'''
+	}
+
+	VoidEcho: {
+		Tooltip:
+			'''
+			神聖なる砲台の円陣を召喚する
+			マウスを離すと同時に虚無のレーザーを発射する
+			「たとえ虚無の一片に過ぎなくとも、万物を殲滅する力を持つ」
+			'''
+		DisplayName: 神権政治の象徴
+	}
+
+	FriendBox: {
+		DisplayName: 友達の箱
+		Tooltip:
+			'''
+			絡み合ったツインズを召喚し、投射物を複製する
+			複製された投射物は元の武器の100%のダメージを与える
+			「Q.それで、代償は？」
+			[c/ff0000: A.あなたのダメージは元の1/5になる]
+			絡み合ったツインズ1組ごとに召喚スロットを4つ消費する。
+			'''
+	}
+
+	LightningPendant: {
+		DisplayName: 稲妻ペンダント
+		Tooltip: ""
+	}
+
+	EvilFriend: {
+		DisplayName: 地獄の友達
+		Tooltip:
+		'''
+		ブリムストーンの小悪魔を召喚する
+「既視感しかない」
+		'''
+	}
+
+	TheocracyPearlToy: {
+		DisplayName: 神政主義 パール・トイ
+		Tooltip: ""
+	}
+
+	CruiserTrophy: {
+		Tooltip: ""
+		DisplayName: クルーザートロフィー
+	}
+
+	VoidMonolith: {
+		Tooltip: ""
+		DisplayName: 虚無のモノリス
+	}
+
+	VoidToy: {
+		DisplayName: 虚空イズトイ
+		Tooltip: ""
+	}
+
+	WingsOfHush: {
+		Tooltip: 強力な虚空の矢を放つ
+		DisplayName: 静寂の翼
+	}
+
+	SoyMilk: {
+		DisplayName: 豆乳
+		Tooltip:
+		'''
+		攻撃力を犠牲に攻撃速度を上げる
+		「これは絶対豆乳じゃない」
+		'''
+	}
+
+	DarkArts: {
+		Tooltip:
+			'''
+			ステルス状態を2秒間維持し、ダメージを受けず、全ての敵と敵対的な弾丸にマーキングを施す
+			効果が切れると、マーキングされた全ての敵にダメージを与え、マーキングされた弾丸を解除する
+			'''
+		DisplayName: 闇の芸術
+	}
+
+	VenomPiece: {
+		DisplayName: 平和主義者「ヴェノム」
+		Tooltip: ""
+	}
+
+	WisdomCard: {
+		DisplayName: オラクルカード『英智』
+		Tooltip:
+			'''
+			-[COST]% マナコスト	
+			「理性が勝てば、勝利は後からついてくる」	
+			'''
+	}
+
+	TemperanceCard: {
+		DisplayName: オラクルカード『自制』
+		Tooltip:
+			'''
+			+[T] 召喚スロット	
+			「欲望を抑えよ、軍団を統べよ」
+			'''
+	}
+
+	RadianceCard: {
+		DisplayName: オラクルカード『輝き』
+		Tooltip:
+			'''
+			+[LR]% 体力再生	
+「光を放ち、魂を癒す」	
+			'''
+	}
+
+	OracleDeck: {
+		Tooltip:
+			'''
+			+[CR]% クリティカル確率
+			+15% 移動速度
+			+[ST] 最大ステルス
+			-30% マナコスト
+			-10% 受けるダメージ
+			+[AP] アーマー貫通
+			+[MN] ミニオンスロット
+			+[ATS]% 近接攻撃速度
+			+100% 夜目
+			5秒ごとに周囲のプレイヤーを10回復
+			'''
+		DisplayName: オラクル・デッキ
+	}
+
+	MetropolisCard: {
+		DisplayName: オラクルカード『大都市』 
+		Tooltip:
+			'''
+			+10 最大ステルス	
+			「深みに隠された、緑豊かな宮殿」
+			'''
+	}
+
+	InspirationCard: {
+		DisplayName: オラクルカード『着想』
+		Tooltip:
+			'''
+			移動速度+20%	
+「啓示が訪れる、風のように速く」
+			'''
+	}
+
+	EntityCard: {
+		DisplayName: オラクルカード『実体』
+		Tooltip:
+			'''
+			+10% 近接攻撃速度	
+「肉体は刃となり、影のように素早く」	
+			'''
+	}
+
+	EnduranceCard: {
+		DisplayName: オラクルカード『忍耐』
+		Tooltip:
+			'''
+			-5% 受けるダメージ	
+「鍛え抜かれた鋼、山のように揺るぎない」
+			'''
+	}
+
+	BrillianceCard: {
+		DisplayName: オラクルカード『光輝』
+		Tooltip:
+			'''
+			+50% 光の半径	
+「光は永遠なり、闇は退く」	
+			'''
+	}
+
+	AuraCard: {
+		DisplayName: オラクルカード『オーラ』
+		Tooltip:
+			'''
+			+5% クリティカルヒット率	
+「一瞬の閃き、致命の一撃」
+			'''
+	}
+
+	ThreadOfFate: {
+		Tooltip:
+			'''
+			オラクルデッキのクラフトに使用可能
+左Altキーを押すとカードリストを確認でき
+			'''
+		DisplayName: 運命の糸
+		HoldShiftForDetails:
+			'''
+			オラクルデッキの製作に使用可能
+			以下の材料が必要:
+			オーラ:黄金のチェスト、鉄の箱:10%
+			輝き:商人の店舗で販売
+			実体:巨大貝の戦利品
+			着想:砂漠のチェスト:30%
+			大都市:本棚で作成
+			英智:スケルトロンからのドロップ
+			光輝:水晶玉で作成
+			自制:スケルトロンプライムからのドロップ
+			耐久:深淵のチェスト／深淵のクレート:33%
+			'''
+	}
+
+	RuneSong: {
+		DisplayName: ルーンの歌
+		Tooltip: 使用時にルーンの矢を発射する
+	}
+
+	GalaxyGrapeSoda: {
+		Tooltip:
+			'''
+			葡萄と神々の精髄、そして…クリムリアテの守護者？
+デバウラー・オブ・ゴッドへと変貌させる
+			'''
+		DisplayName: 銀河のぶどうジュース
+	}
+
+	VoidAnnihilate: {
+		DisplayName: 虚無の消滅
+		Tooltip:
+			'''
+			虚無消滅を投げる
+[KEY]を押して全て回収
+虚無の消滅を右クリックすると、そこにテレポートする。
+			'''
+	}
+
+	AuricBoulder: {
+		DisplayName: オーリックの大岩
+		Tooltip: レッドトロピー
+	}
+
+	DustyStar: {
+		Tooltip:
+			'''
+			あなたをメイン開発者に変える
+いいね！を忘れずに！
+			'''
+		DisplayName: 星屑
+	}
+
+	SoulCandle: {
+		DisplayName: 魂の蝋燭
+		Tooltip:
+			'''
+			神の暗殺者を召喚せよ
+「刃は小さいが、十分に鋭い」
+			'''
+	}
+
+	KosRunePendant: {
+		DisplayName: コスのルーンペンダント
+		Tooltip: DoGとその子分を召喚せよ
+	}
+
+	OdinsRefuge: {
+		DisplayName: オーディンの護身盾
+		Tooltip:
+			'''
+			宇宙の炎によって強化された突進ダッシュが可能となる
+			このダッシュは敵を貫通してダメージを受けずに突破できる
+			ノックバックと火炎ブロックへの耐性を付与
+			神殺しの炎を含む、ほとんどのデバフへの耐性を付与
+			ダメージを受けた後に星を降らせ、無敵状態の持続時間を延長する
+			残存HPに応じた追加無敵フレームを付与
+			効果はHP満タン時10フレームから、25%以下で40フレームまで増加
+			200以上のダメージを受けると追加で30フレームの無敵状態を獲得
+			ノックバック無効化を付与
+			HP50%未満時に自身を保護するシェルを展開し、被ダメージを軽減
+			HPが25%以上の時、味方プレイヤーが受けるダメージの25%を吸収
+			1回分のダメージを耐えられる聖なる盾を付与
+			この効果には120秒のクールダウン時間が設定されている
+			「無敵になるための最適解」
+			'''
+	}
+
+	VoidBar: {
+		DisplayName: ヴォイドインゴット
+		Tooltip: 虚空を圧縮した姿
+	}
+
+	VoidOre: {
+		DisplayName: ヴォイド鉱石
+		Tooltip: 時空の裂け目の浸透によって生成される不安定物質
+	}
+
+	VoidScales: {
+		Tooltip: 純粋な虚無で構成された尺度
+		DisplayName: 虚無の天秤
+	}
+
+	HolyMoonlight: {
+		DisplayName: 神聖な月明り
+		Tooltip:
+			'''
+			+10% 魔法ダメージ
+			30秒ごとに魔法シールドを獲得。その効果は魔法上限の50%に相当する
+			魔法シールド発動中は移動速度が10%上昇し、魔法消費量が10%減少する
+			シールドは接触した敵にダメージを与える
+			魔法シールドが破壊されると、自身の魔法病と効果を解除し、魔法値を最大まで回復する
+			シールドが存在しない場合、魔法弾幕は吸血効果を発揮する
+			現在の魔法値が高いほど、吸血能力も向上する
+			シールドは防御力やDRの影響を受けない
+			血の神の聖杯を装備中は魔法シールドを獲得できない
+			'''
+	}
+
+	PhantomPlanetKillerEngine: {
+		DisplayName: 幻想の惑星破壊エンジン
+		Tooltip:
+			'''
+			惑星破壊級戦艦を召喚し敵を攻撃する
+			戦艦は所持中のの弾丸を消費する
+			ロケットと弾丸を交互に発射
+			弾薬を消費しない
+			33%の確率で弾丸を発射（確率倍増）
+			20発ごとにレーザーを発射
+			'''
+	}
+
+	PowerOfTyrant: {
+		DisplayName: 暴君の力
+		Tooltip: ""
+	}
+
+	VoidFaquirCuises: {
+		Tooltip:
+			'''
+			+10% ダメージ
++10% クリティカル確率
++20% 移動速度
+			'''
+		DisplayName: 虚無のファキールレギンス
+	}
+
+	VoidFaquirBodyArmor: {
+		Tooltip:
+			'''
+			+10% ダメージ
++5% クリティカル確率
++5 アーマー貫通
+			'''
+		DisplayName: 虚無の胸当て
+	}
+
+	VoidFaquirDevourerHelm: {
+		Tooltip:
+			'''
+			+20% 近接ダメージ
++15% 近接クリティカル発生率
+			'''
+		DisplayName: 虚無の兜
+	}
+
+	VoidFaquirCosmosHood: {
+		Tooltip:
+			'''
+			+30% 魔法ダメージ
++25% 魔法クリティカル率
++150 最大マナ
+			'''
+		DisplayName: 虚無のフード
+	}
+
+	VoidFaquirEvokerHelm: {
+		DisplayName: 虚無の略奪兜
+		Tooltip: 召喚ダメージ+25%
+	}
+
+	VoidFaquirLurkerMask: {
+		DisplayName: 虚無の潜伏マスク
+		Tooltip:
+			'''
+			+25% ローグダメージ
++25% ローグクリティカル確率
+			'''
+	}
+
+	VoidFaquirShadowHelm: {
+		DisplayName: 虚無の影兜
+		Tooltip:
+			'''
+			+32% 遠距離ダメージ
++30% 遠距離クリティカル発生率
+			'''
+	}
+
+	GhostdomWhisper: {
+		Tooltip:
+			'''
+			左マウスボタンを長押ししてチャージし、射撃する
+チャージして虚無で強化された矢を放つ
+			'''
+		DisplayName: ゴーストダムのささやき
+	}
+
+	Interdimensionallens: {
+		Tooltip: 世界の背後にある姿を投影する
+		DisplayName: 異次元レンズ
+	}
+
+	PowerBank: {
+		Tooltip: インベントリに入れた際、自動的にインベントリ内の機械系アイテムを補充する
+		DisplayName: 底なし充電バッテリー
+	}
+
+	RustyGrenade: {
+		DisplayName: 錆びた手榴弾
+		Tooltip: ""
+	}
+
+	RustExpeditioner: {
+		Tooltip: ""
+		DisplayName: 錆の探検
+	}
+
+	VoidDevastator: {
+		DisplayName: 壊滅的な虚無
+		Tooltip: ""
+	}
+
+	GodSlayerRocket: {
+		DisplayName: 神殺し用のミサイル
+		Tooltip: ""
+	}
+
+	RailPulseBow: {
+		Tooltip: 放たれた矢は放物線を描く電気の爆発を帯び、敵または地面に接触した際に発動する
+		DisplayName: レールパルスボウ
+	}
+
+	JailerWhip: {
+		Tooltip:
+			'''
+			ミニオンが5%のクリティカル率を獲得し
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			「そういえばなかった要素」
+			'''
+		DisplayName: 看守の鞭
+	}
+
+	SilvasCrown: {
+		DisplayName: シルヴァの冠
+		Tooltip:
+			'''
+			+ 2 ライフ回復/秒
+			防御ダメージの99%を無効化。
+			-デスモード-
+			'''
+	}
+
+	AbyssalDragon: {
+		DisplayName: 深淵の竜
+		Tooltip: ""
+	}
+
+	ArchmagesHandmirror: {
+		Tooltip:
+			'''
+			マナを40%追加で付与
+追加のマナ1ごとに魔法ダメージが0.1%増加
+			'''
+		DisplayName: 大魔導師の手鏡
+	}
+
+	SlimeYoyo: {
+		DisplayName: ねばねばのヨーヨー
+		Tooltip: ""
+	}
+
+	CelestialRing: {
+		Tooltip:
+			'''
+			+15% ダメージ
+			+2.5HP/s ライフ回復
+			+2 最大ミニオン数
+			+75% ミニオンノックバック
+			+5% クリティカル確率
+			+5% 移動速度
+			+5% 近接攻撃速度
+			'''
+		DisplayName: 天界の指輪
+	}
+
+	ArmorReforgStation: {
+		DisplayName: アーマーリフォージステーション
+		Tooltip: ""
+	}
+
+	OverloadFurnace: {
+		Tooltip: ""
+		DisplayName: 過負荷炉
+	}
+
+	RustyDetectionEquipment: {
+		DisplayName: 錆検出装置
+		Tooltip:
+			'''
+			ジャンプ速度を向上させる
+			わずかに前方に押し出す
+			部分的な移動速度を増加させる
+			'''
+	}
+
+	MagneticController: {
+		DisplayName: 磁気制御装置
+		Tooltip: ""
+	}
+
+	Mercy: {
+		Tooltip: 虚無と闇の魔法で全てを焼き尽くせ
+		DisplayName: 慈悲
+	}
+
+	CannedCarrion: {
+		Tooltip: ""
+		DisplayName: 缶詰の腐肉
+	}
+
+	LostSoul: {
+		DisplayName: 失われた魂
+		Tooltip: '''「彼を守れ」'''
+	}
+
+	ShadowOfVoid: {
+		Tooltip: ""
+		DisplayName: 虚無の影
+	}
+
+	HorizonssKey: {
+		Tooltip:
+			'''
+			[c/d9bd1b:この武器の威力はゲームが進むにつれて増加する]
+[c/d9bd1b:全てのダメージクラスのボーナスに影響を受ける]
+			'''
+		DisplayName: ホライズンキー
+	}
+
+	SacrificalMask: {
+		Tooltip:
+			'''
+			周囲に犠牲の短剣の輪を召喚する
+			短剣は近くの敵を刺し、あなたを回復する
+			'''
+		DisplayName: 犠牲の仮面
+	}
+
+	TargetingWand: {
+		Tooltip: "[c/ff0000:この項目は現在作業中]"
+		DisplayName: ターゲティング・ワンド
+	}
+
+	DimensionKey: {
+		DisplayName: ディメンションキー
+		Tooltip: "[c/ff0000:この項目は現在作業中]"
+	}
+
+	DreamCatcher: {
+		DisplayName: ドリームキャッチャー
+		Tooltip: ""
+	}
+
+	AquaticFlute: {
+		Tooltip: ""
+		DisplayName: 水生フルート
+	}
+
+	HolyMantle: {
+		Tooltip:
+			'''
+			聖なる盾を付与し、一度だけダメージを耐える
+			120秒のクールタイム
+			聖なるモンスターからドロップ
+			'''
+		DisplayName: 神聖な盾
+	}
+
+	ToyKnife: {
+		DisplayName: 子供のナイフ
+		Tooltip: ""
+	}
+
+	DeusCore: {
+		DisplayName: デウス・コア
+		Tooltip:
+			'''
+			受けたダメージをアストラル侵食に変換し、一定時間対応する体力を減少させる
+			攻撃はアストラル侵食を侵食・転移させ、追加ダメージを与える
+			回復ポーションの効果を50%減少させる
+			- Death -
+			'''
+	}
+
+	CruiserPlush: {
+		DisplayName: クルーザーのぬいぐるみ
+		Tooltip: ""
+	}
+
+	AbyssalWraithPlush: {
+		Tooltip: ""
+		DisplayName: 深淵の亡霊のぬいぐるみ
+	}
+
+	Voidshade: {
+		Tooltip: ""
+		DisplayName: ヴォイドシェード
+	}
+
+	GreedCard: {
+		DisplayName: ファントムカード『貪欲』
+		Tooltip:
+			'''
+			召喚スロットごとにダメージ+2%
+「貪欲の深淵」
+			'''
+	}
+
+	Barren: {
+		DisplayName: ファントムカード『不毛』
+		Tooltip:
+			'''
+			ローグの射出物はホーミング能力を獲得するが、ローグダメージとクリティカル発生率が25%減少する
+「枯れ果てた狩り」
+			'''
+	}
+
+	Confuse: {
+		DisplayName: ファントムカード『混乱』
+		Tooltip:
+			'''
+			攻撃は敵に「盲目」状態を与え、移動速度を低下させる
+			「精神吸い取りの枷」
+			'''
+	}
+
+	Fool: {
+		DisplayName: ファントムカード『愚者』
+		Tooltip:
+			'''
+			+20% マナコスト
+			+20% 魔法ダメージ
+			「狂気の炎」
+			'''
+	}
+
+	Frail: {
+		DisplayName: ファントムカード『脆弱』
+		Tooltip:
+			'''
+			+15% ダメージ
+			受けるダメージが10%増加
+			「脆さの境界」
+			'''
+	}
+
+	Nothing: {
+		DisplayName: ファントムカード『虚空』
+		Tooltip:
+			'''
+			攻撃は虚無の触手デバフを付与する
+			「滅亡の触媒」
+			'''
+	}
+
+	Perplexed: {
+		DisplayName: ファントムカード『困惑』
+		Tooltip:
+			'''
+			-5% クリティカルヒット率
+			+16% 攻撃速度
+			「悩める心の速さ」
+			'''
+	}
+
+	Sacrifice: {
+		DisplayName: ファントムカード『犠牲』
+		Tooltip:
+			'''
+			-60% 回復速度
++10% ダメージ
+「血の負債の力」
+			'''
+	}
+
+	Tarnish: {
+		DisplayName: ファントムカード『変色』
+		Tooltip:
+			'''
+			攻撃が放つ暗黒の炎
+「腐食する焔」
+			'''
+	}
+
+	TaintedDeck: {
+		DisplayName: 穢されたデッキ
+		Tooltip:
+			'''
+			ローグ・プロジェクタイルがマイクロ追跡を獲得
+			攻撃で敵に欺瞞デバフを付与し、移動速度を低下させる
+			攻撃時に影の炎を発射
+			召喚スロット1つにつきダメージ+3%
+			ダメージ+30%
+			ヴォイドタッチ+4
+			被ダメージ+30%
+			ライフ回復-70%
+			マナコスト+16%
+			クリティカル率-4%
+			'''
+	}
+
+	ThreadOfAbyss: {
+		DisplayName: 深淵の糸
+		Tooltip:
+			'''
+			汚染デッキ作成用
+			以下の材料が必要:
+			困惑:ツインズドロップ
+			変色:ゴブリン魔術師ドロップ
+			混乱:ドライアド販売
+			不毛:盗賊販売
+			愚者:エイドリスト戦利品
+			犠牲:カオスの核6個＋ペレニアルバー2本
+			貪欲:アストラル感染バイオームでの釣り
+			脆弱:スライム神からの戦利品
+			虚無:エイドロン・ワームからの戦利品
+			'''
+	}
+
+	VoidCandle: {
+		DisplayName: 虚無の蝋燭
+		Tooltip:
+			'''
+			配置後に右クリックすると攻撃に虚無の触手が発動する
+			「頂上には虚無の炎が跳ね上がっていた」
+			'''
+	}
+
+	Antler: {
+		DisplayName: 角
+		Tooltip: ""
+	}
+
+	ReincarnationBadge: {
+		DisplayName: 転生バッジ
+	}
+
+	PoopPickup: {
+		Tooltip: ""
+		DisplayName: うんち拾い
+	}
+
+	BrokenAnkh: {
+		Tooltip:
+			'''
+			うんちをいくつか保管可能
+			攻撃時に投擲可能なうんちを入手する可能性あり
+			[KEY]を押してうんちを投げる
+			'''
+		DisplayName: 壊れたアンク
+	}
+
+	DustyWhistle: {
+		DisplayName: ほこりっぽい笛
+		Tooltip: ""
+	}
+
+	AquaticAmulet: {
+		DisplayName: 水生のお守り
+		Tooltip: ""
+	}
+
+	NetherRift: {
+		DisplayName: ネザーリフト
+		Tooltip: ""
+	}
+
+	MawOfTheVoid: {
+		Tooltip:
+			'''
+			武器使用時にチャージ
+			チャージ完了後、マウスボタンを離すと黒いレーザーリングを発射
+			3フレームごとに75ダメージを与える
+			「敵を喰らえ！」
+			'''
+		DisplayName: 虚無の深淵
+	}
+
+	TheRevelation: {
+		Tooltip:
+			'''
+			武器使用時にチャージ
+			チャージ完了後、マウスボタンを離すと聖なる光線を放つ
+			3フレームごとに50ダメージを与える
+			翼として扱われる
+			飛行中に[down]でホバリング
+			「汝の信仰を目覚めよ」
+			'''
+		DisplayName: 黙示録
+	}
+
+	MosHat: {
+		Tooltip: ""
+		DisplayName: モーズの帽子
+	}
+
+	AnimaSola: {
+		Tooltip:
+			'''
+			最も近いターゲットを3秒間ロックする
+			25秒間チャージ。ボスがいる場合、120秒間チャージ。
+			'''
+		DisplayName: アニマ・ソラ
+	}
+
+	LightWisper: {
+		Tooltip: ""
+		DisplayName: 光のささやき
+	}
+
+	Oblivion: {
+		Tooltip: ""
+		DisplayName: 忘却
+	}
+
+	EyeOfIlmeris: {
+		DisplayName: イルメリスの眼
+		Tooltip: ""
+	}
+
+	GravityGaze: {
+		DisplayName: 重力凝視
+		Tooltip: ""
+	}
+
+	DivineRadience: {
+		Tooltip: ""
+		DisplayName: 神聖なる輝き
+	}
+
+	NightProjection: {
+		DisplayName: 夜の投影
+		Tooltip: ""
+	}
+
+	OverloadLunar: {
+		DisplayName: オーバーロード・ルナ
+		Tooltip: ""
+	}
+
+	EyeOfOtherside: {
+		Tooltip: ""
+		DisplayName: 他界の眼
+	}
+
+	EndlessAbyss: {
+		Tooltip: 
+		'''
+		深淵の死のレーザーを発射せよ
+『深淵の星々を放て』
+		'''
+		DisplayName: 果てしなき深淵
+	}
+
+	NihilityHorn: {
+		DisplayName: 虚無の角笛
+		Tooltip: 虚無のツインズを召喚
+	}
+
+	NihilityTwinBag: {
+		DisplayName: トレジャーバック（Nihility Horn）
+		Tooltip: ""
+	}
+
+	NihilityTwinRelic: {
+		DisplayName: ニヒリティ・ツインズのレリック
+		Tooltip: ""
+	}
+
+	NihilityTwinTrophy: {
+		DisplayName: ニヒリティ・ツインズのトロフィー
+		Tooltip: ""
+	}
+
+	NihilityShell: {
+		Tooltip:
+			'''
+			クリティカルヒットは12%追加ダメージを与える
+			クリティカルヒット時にエネルギーシェルを獲得する確率
+			エネルギーシェルは1回限り、受けるダメージを16%軽減する
+			シェルは最大3個まで所持可能
+			'''
+		DisplayName: 虚無の外骨格
+	}
+
+	EventideSniper: {
+		Tooltip:
+			'''
+			敵をホールド中に中心位置を表示
+			弾丸の命中精度が高いほどダメージが増加し、最大200%まで上昇
+			十分な精度で命中させると必ずクリティカルヒットが発生し、ヴォイドタッチにダメージを与えてその効果を減少させる
+			'''
+		DisplayName: 夕暮れ時
+	}
+
+	NihilityBacteriophageWand: {
+		DisplayName: ニヒリティ・バクテリオファージの杖
+		Tooltip:
+			'''
+			小さなニヒリティ・バクテリオファージを召喚する。
+			各ニヒリティ・バクテリオファージは召喚スロットを2つ必要とする。
+			ニヒリティ・バクテリオファージは敵に張り付き、必要に応じてあなたを回復する。
+			コマンドサーヴァントのホットキー([KEY])を押したままにすると、このモードに入ることができる。
+			'''
+	}
+
+	AntiVoid: {
+		Tooltip:
+			'''
+			複数のルーン斬りを放つ
+			カーソル方向へ中距離をダッシュし、最初に命中した対象に虚空の印章を付与
+			短時間の遅延後、印章が水平斬りで爆発する
+			'''
+		DisplayName: 反虚無
+	}
+
+	AbyssLantern: {
+		Tooltip: ""
+		DisplayName: 深淵のランタン
+	}
+
+	WispLantern: {
+		Tooltip:
+			'''
+			インベントリからランダムに1～3個のアクセサリーを起動
+「未来を照らせ」
+			'''
+		DisplayName: ほおずきの灯り
+	}
+
+	WyrmToothNecklace: {
+		DisplayName: 古代竜の牙ネックレス
+		Tooltip:
+			'''
+			+25% ダメージ
++100 防御貫通
++15% クリティカル
+			'''
+	}
+
+	WyrmTooth: {
+		DisplayName: 竜の牙
+		Tooltip: ""
+	}
+
+	Vitalfeather: {
+		DisplayName: 生命の羽根
+		Tooltip:
+			'''
+			あなたのミニオンが攻撃した敵は追跡するドラゴンの炎を発射する
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+	}
+
+	WindOfUndertaker: {
+		DisplayName: アンダーテイカーの風
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+	}
+
+	HadopelagicEchoII: {
+		Tooltip: Shoot abyss laser and hadopelagic echo
+		DisplayName: 深海回響 II
+	}
+
+	StarlessNight: {
+		Tooltip: ""
+		DisplayName: 星なき夜
+	}
+
+	WhipOfService: {
+		DisplayName: 奉仕の鞭
+		Tooltip:
+			'''
+			他のプレイヤーを攻撃すると、一時的にそのプレイヤーのダメージとクリティカル発生率が上昇する。
+			『味方を手下に変えろ』
+			'''
+	}
+
+	Xytheron: {
+		DisplayName: ザイゼロン
+		Tooltip:
+			'''
+			標的を撃ち、チャージのためのエネルギーを蓄積
+			右クリックで突進し、チャージ量と深淵の亀裂の残存量に応じて道中の敵にダメージを与える
+			'''
+	}
+
+	AbyssalAltar: {
+		DisplayName: 深淵の祭壇
+		Tooltip: ""
+	}
+
+	Ystralyn: {
+		DisplayName: イストライン
+		Tooltip:
+			'''
+			敵に命中時、エイドロン・ワームの幻影を召喚
+			従属ユニットのクリティカル率+12%
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+	}
+
+	VoidPathology: {
+		Tooltip: 敵の虚無ウイルスに制御可能な持続的電気ショックを放つ
+		DisplayName: 虚無病理学
+	}
+
+	AnnihilateArrow: {
+		Tooltip: ""
+		DisplayName: 消滅の矢
+	}
+
+	NegentropyBullet: {
+		DisplayName: エントロピーの弾丸
+		Tooltip: ""
+	}
+
+	Zyphros: {
+		Tooltip:
+			'''
+			クリスタルアローを発射
+			攻撃中に攻撃を連携できるクリスタルを召喚する確率
+			'''
+		DisplayName: ザイフロス
+	}
+
+	FriendFinder: {
+		Tooltip:
+			'''
+			味方モンスターを召喚する
+マルチプレイヤーモードでは使用不可
+			'''
+		DisplayName: フレンドファインダー
+	}
+
+	HeartOfStorm: {
+		Tooltip:
+			'''
+			敵を攻撃し、10%のダメージを与える稲妻の連鎖を解き放つ
+- Death -
+			'''
+		DisplayName: 嵐の中心
+		CWRGanged: Calamity Overhaulとのシナジー効果:嵐の織り手の残留魂を召喚し、共に戦わせる。
+	}
+
+	Nyxolithraken: {
+		Tooltip:
+			'''
+			ニクソリス・ドラゴンを召喚する
+ミニオン枠を5つ消費する
+			'''
+		DisplayName: ニクソリトラケン
+	}
+
+	MariviniumBodyArmor: {
+		DisplayName: マリヴィニウム・ボディアーマー
+		Tooltip:
+			'''
+			+15% ダメージ
++15 クリティカル率
++250 最大マナ
+アビスの中で息ができるようになった
+			'''
+	}
+
+	MariviniumHelmet: {
+		DisplayName: マリヴィニウム・ヘルメット
+		Tooltip:
+			'''
+			+20% ダメージ
+			+20% クリティカル率
+			+30% 近接攻撃速度
+			+250 最大体力
+			'''
+	}
+
+	MariviniumLeggings: {
+		DisplayName: マリヴィニウム レギンス
+		Tooltip:
+			'''
+			+30% 移動速度
+			-20% マナコスト
+			+20 ダメージ
+			+5 クリティカル率
+			'''
+	}
+
+	ToyGuitar: {
+		DisplayName: 子供のギター
+		Tooltip: ""
+	}
+
+	AncientScriptures: {
+		DisplayName: 古代の聖典
+		Tooltip: ""
+	}
+
+	BookMarkBrimstone: {
+		DisplayName: ブックマーク - 『ブリムストーン』
+		Tooltip:
+			'''
+			硫黄の渦を召喚し、射撃中に敵に向けて血のレーザー柱を発射する
+攻撃は硫黄の炎デバフを付与する
+			'''
+	}
+
+	BookMarkAerialite: {
+		Tooltip:
+			'''
+			敵を攻撃した後に空から羽根が降る
++50% 発射速度
+			'''
+		DisplayName: ブックマーク - 『エリアライト』
+	}
+
+	BookMarkFlesh: {
+		DisplayName: ブックマーク - 『肉』
+		Tooltip:
+			'''
+			弾丸が敵に命中した際に血のビームを分割
+			貫通力 +1
+			ライフスティール +1
+			'''
+	}
+
+	BookMarkIce: {
+		DisplayName: ブックマーク - 『アイス』
+		Tooltip: 射撃時は背後から氷の剣を放ち、敵を貫く
+	}
+
+	InfiniteBook: {
+		Tooltip: ""
+		DisplayName: 無限の書物
+	}
+
+	BookMarkOfLight: {
+		DisplayName: ブックマーク - 『閃光』
+		Tooltip:
+			'''
+			命中確率で光の魂を召喚する
+			召喚された魂は近くの弾丸と衝突し、そのダメージを25%減少させる。同時に最大HPの1%を回復する
+			'''
+	}
+
+	BookMarkOfNight: {
+		DisplayName: ブックマーク - 『深夜』
+		Tooltip:
+			'''
+			敵を攻撃後、追尾して爆発する闇の魂を召喚する
+			+10% ダメージ
+			'''
+	}
+
+	BookMarkMechanical: {
+		DisplayName: ブックマーク - 『機械式』
+		Tooltip:
+			'''
+			発射時に敵を攻撃する召喚物検知器
+			誘導型発射物
+			'''
+	}
+
+	BookMarkAstral: {
+		Tooltip: 敵に向かって弾丸を放つ眩い星を発射せよ
+		DisplayName: ブックマーク - 『アストラル』
+	}
+
+	BookMarkTerra: {
+		Tooltip:
+			'''
+			岩塊を発射
+			+15% ダメージ
+			+1 貫通 
+			'''
+		DisplayName: ブックマーク - 『テラ』
+	}
+
+	BookMarkLunar: {
+		DisplayName: ブックマーク - 『ルナ』
+		Tooltip: 投射物は周囲の敵にダメージを与える
+	}
+
+	BookMarkAbyss: {
+		Tooltip: 衝撃による深淵の裂け目発生確率
+		DisplayName: ブックマーク - 『アビス』
+	}
+
+	BookMarkProfaned: {
+		DisplayName: ブックマーク - 『冒涜』
+		Tooltip: 投射物は敵に穢れた炎を放つ
+	}
+
+	BookMarkVoid: {
+		DisplayName: ブックマーク - 『ボイド』
+		Tooltip: 敵に命中した投射物は虚無爆発を引き起こす確率がある
+	}
+
+	BookMarkAuric: {
+		DisplayName: ブックマーク -	『オーリック』
+		Tooltip: 敵に命中すると、弾丸は竜の炎を放つ
+	}
+
+	BookMarkSilva: {
+		Tooltip:
+			'''
+			敵に命中した弾丸は、原初の魂を出現させる可能性がある
+			原初の魂はプレイヤーの元へ飛来し、回復効果と一時的な防御力を付与する
+			'''
+		DisplayName: ブックマーク - 『シルバ』
+	}
+
+	BookMarkBee: {
+		Tooltip: 敵に命中すると蜂を出現させる
+		DisplayName: ブックマーク - 『蜂』
+	}
+
+	BookMarkSunkenSea: {
+		DisplayName: ブックマーク - 『沈んだ海』
+		Tooltip: 敵に命中するとアクアシャードを発生させる
+	}
+
+	BookMarkCorrupt: {
+		Tooltip:
+			'''
+			敵を攻撃した際にシャドウテンタクルを召喚する可能性
+			+6 アーマー貫通
+			'''
+		DisplayName: ブックマーク - 『破損』
+		Tooltip:
+			'''
+			敵を攻撃した際に地下から血の泉を召喚する可能性
+			+1 ライフスティール
+			+4 クリティカル確率
+			'''
+	}
+
+	BookMarkGoozma: {
+		DisplayName: ブックマーク - 『虹の浸食』
+		Tooltip: カラフルな星を次々と放つ
+	}
+
+	BookMarkIntergelactic: {
+		DisplayName: ブックマーク - 『銀河間』
+		Tooltip: 射撃時にノヴァスライムを召喚する
+	}
+
+	BookMarkAquarius: {
+		DisplayName: ブックマーク - 『水瓶座』
+		Tooltip: 敵に命中すると水弾を散らす
+	}
+
+	BookMarkAries: {
+		DisplayName: ブックマーク - 『牡羊座』
+		Tooltip:
+			'''
+			攻撃は小範囲爆発を引き起こす
+			+14% ダメージ
+			'''
+	}
+
+	BookMarkTaurus: {
+		DisplayName: ブックマーク - 『牡牛座』
+		Tooltip: 命中後、あなたの投射物は3つの小さな投射物に分裂し
+	}
+
+	BookMarkCancer: {
+		DisplayName: ブックマーク - 『がん』
+		Tooltip:
+			'''
+			投射物は衝突した敵の投射物の速度とダメージを減少させる
+			+100% 投射物サイズ
+			'''
+	}
+
+	BookMarkCapricorn: {
+		Tooltip: 連続使用で発射速度が最大+25%向上する
+		DisplayName: ブックマーク - 『山羊座』
+	}
+
+	BookMarkLeo: {
+		Tooltip:
+			'''
+			+20% ダメージ
+			+40% 弾丸サイズ
+			'''
+		DisplayName: ブックマーク - 『レオ』
+	}
+
+	BookMarkSagittarius: {
+		DisplayName: ブックマーク - 『射手座』
+		Tooltip:
+			'''
+			+6% ダメージ
+			+26% 射撃速度
+			'''
+	}
+
+	BookMarkPisces: {
+		DisplayName: ブックマーク - 『魚座』
+		Tooltip:
+			'''
+			攻撃時に追加で小型の弾丸を発射する
+			+6 防御貫通
+			'''
+	}
+
+	BookMarkVirgo: {
+		DisplayName: ブックマーク - 『乙女座』
+		Tooltip:
+			'''
+			+8% ダメージ
+			+1 貫通
+			'''
+	}
+
+	BookMarkLibra: {
+		DisplayName: ブックマーク - 『天秤座』
+		Tooltip:
+			'''
+			+10% ダメージ
+			+4% 攻撃速度
+			+10% クリティカル確率
+			+5% 投射物速度
+			+1 貫通
+			+4 防御貫通
+			さらに、ダメージと攻撃速度のうち低い方を4%増加させる
+			'''
+	}
+
+	BookMarkGemini: {
+		DisplayName: ブックマーク - 『Gemini』
+		Tooltip:
+			'''
+			ホーミング弾
+			+10 装甲貫通
+			'''
+	}
+
+	BookMarkScorpio: {
+		DisplayName: ブックマーク - 『スコーピオ』
+		Tooltip: 攻撃はスタックするアストラルスコーピオンの毒デバフを付与し、持続ダメージを与える
+	}
+
+	BookmarkPactOfDecay: {
+		DisplayName: 腐敗の盟約
+	}
+
+	UpdraftTome: {
+		Tooltip: ""
+		DisplayName: 上昇気流の書
+	}
+
+	RedemptionBible: {
+		Tooltip: ""
+		DisplayName: 贖いの聖書
+	}
+
+	NightEpic: {
+		DisplayName: 夜の叙事詩
+		Tooltip: ""
+	}
+
+	AshTranscript: {
+		DisplayName: アッシュの記録
+		Tooltip: ""
+	}
+
+	VoidOde: {
+		Tooltip: ""
+		DisplayName: 虚無の頌歌
+	}
+
+	BookMarkNeutron: {
+		DisplayName: ブックマーク - 『ニュートロン』
+		Tooltip: 敵に命中した際に中性子爆発を引き起こす可能性
+	}
+
+	ControlTerminal: {
+		DisplayName: 制御端末
+		Tooltip: ""
+	}
+
+	TabooVolume: {
+		DisplayName: 禁断の巻
+		Tooltip: ""
+	}
+
+	BookMarkRoyal: {
+		DisplayName: ブックマーク - 『ロイヤル』
+		Tooltip:
+			'''
+			3つの宝石を召喚
+			ルビーの宝石は敵に向かって射撃する
+			エメラルドの宝石は敵に向かって突進する
+			サファイアの宝石は近くのプレイヤーにバフを与える
+			'''
+	}
+
+	EntropyModeToggle: {
+		Tooltip:
+			'''
+			アクティブ/非アクティブ エントロピーモード
+			難易度上昇、体力減少、ダメージ減少
+			[c/ff0000: 注記: このモードは公式推奨プロセスに含まれず、災害エントロピーのバランス調整はこのモードを考慮していません]
+			右クリック使用時はTDRの切り替えのみ
+			'''
+		DisplayName: エントロピーモードの切り替え
+	}
+
+	BookMarkPerfection: {
+		DisplayName: Perfection
+		Tooltip:
+			'''
+			他の全ての確率によって発動するブックマークの発動確率を増加させる
+			+16% クリティカル発生率、クリティカルボーナスは被弾後10秒以内に消滅する
+			'''
+	}
+
+	Crystedge: {
+		Tooltip:
+			'''
+			素早く攻撃し、敵に致命の一撃を与えよ
+			手下は6%のクリティカルヒット確率を持つ
+			クリティカルヒット時に分割された浮遊保持結晶を生成する
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+		DisplayName: クリステッジ
+	}
+
+	VoidToilet: {
+		Tooltip: ""
+		DisplayName:虚無トイレ
+	}
+
+	Prominence: {
+		DisplayName: プロミネンス
+		Tooltip:
+			'''
+			追加で3本の太陽光矢を発射し、同時に多数の短距離射撃を放つ
+			敵を攻撃すると聖なる炎デバフを付与する
+			'''
+	}
+
+	SinewLash: {
+		Tooltip:
+			'''
+			前方へ投げつけた後、引き戻すように動き、進路上の敵を引き裂く。
+			ミニオンのクリティカルヒット発生率が6%増加する
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+		DisplayName: 筋繊維の束
+	}
+
+	AzafureBatteringRam: {
+		DisplayName: アザフレ製バタリングラム
+		Tooltip:
+			'''
+			突進前にエネルギーを蓄積する。
+			敵を貫通すると内部から強力な爆発を放ち、追加ダメージを与えた後跳ね返る。
+			クリティカルヒット時はより大きなダメージを与える
+			'''
+	}
+
+	MindCorruptor: {
+		DisplayName: 精神腐敗者
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			'''
+	}
+
+	AzafureChargeShield: {
+		Tooltip: 敵を貫通するためにコストエネルギーを消費する
+		DisplayName: アザフレチャージシールド
+	}
+
+	ProphecyToken: {
+		Tooltip:
+			'''
+			預言者を召喚する
+			ダンジョンでのみ使用可能
+			'''
+		DisplayName: 予言のトークン
+	}
+
+	ProphetBag: {
+		DisplayName: 宝袋（預言者）
+		Tooltip: ""
+	}
+
+	ProphetTrophy: {
+		DisplayName: 預言者トロフィー
+		Tooltip: ""
+	}
+
+	ProphetRelic: {
+		Tooltip: ""
+		DisplayName: 預言者の遺物
+	}
+
+	UrnOfSouls: {
+		DisplayName: 魂の壺
+		Tooltip: ""
+	}
+
+	VetrasylsEye: {
+		Tooltip: "[KEY]を押してエネルギーシールドでブロック"
+		DisplayName: ヴェトラシルズ・アイ
+	}
+
+	SpiritBanner: {
+		DisplayName: スピリット・バナー
+		Tooltip:
+			'''
+			敵を追跡する精霊を召喚する精霊の旗を召喚する
+			同時に召喚できる旗は1つだけ
+			ミニオンスロットを3つ使用する
+			'''
+	}
+
+	RuneMachineGun: {
+		DisplayName: ルーン機関銃
+		Tooltip: 攻撃には振動するルーンが伴う
+	}
+
+	ForeseeOrb: {
+		DisplayName: 予知のオーブ
+		Tooltip:
+			'''
+			装備中は受けるダメージが100を超えない。
+			ただし、ダメージを受けるとオーブは破壊される。
+			オーブの回復には30秒を要する。
+			オーブが完全な状態のとき、{DMG}%のダメージボーナスを提供する。
+			[c/ff0000:オーブを外すと最大体力の90%のダメージを受ける]
+			「自らを修復するために魂を吸い取る。無理に引き剥がせば、魂が奔流となって噴き出す」
+			'''
+	}
+
+	RuneWing: {
+		Tooltip:
+			'''
+			水平速度: [A]
+			加速倍率:[B]
+			優れた垂直速度
+			飛行時間:[C]
+			[KEY]を押すとマウス方向へ前進し、その間はダメージを受けない
+			冷却時間はスプリント距離で決定され、ボタンを早めに離すとスプリントを途中で終了でき、最大スプリント時間は[DT]秒
+			'''
+		DisplayName: ソア・ルーン
+	}
+
+	BookMarkForesee: {
+		Tooltip: 敵を攻撃する確率でルーンの輪を召喚し、敵を攻撃する
+		DisplayName: ブックマーク - 『予見』
+	}
+
+	RuneStoneShining: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	PrefixClearKnife: {
+		Tooltip:
+			'''
+			防具の接頭辞を解除するために使用
+			インベントリ内の防具アイテムを右クリック
+			'''
+		DisplayName: プレフィックス クリアナイフ
+	}
+
+	RuneStoneSilence: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	BlessingEnd: {
+		DisplayName: 祝福 『|』
+		Tooltip: ""
+	}
+
+	BlessingHeatDeath: {
+		DisplayName: 祝福 『熱的死』
+		Tooltip: プレフィックスクリアナイフの使用はできません
+	}
+
+	BlessingLastStand: {
+		DisplayName: 祝福 『|』
+		Tooltip: ""
+	}
+
+	BlessingVoid: {
+		DisplayName: 祝福 『|』
+		Tooltip: ""
+	}
+
+	BlessingVoidTouched: {
+		DisplayName: 祝福 『|』
+		Tooltip: ""
+	}
+
+	EnchantedScrollEvoker: {
+		DisplayName: 魔法の巻物	『|』
+		Tooltip: ""
+	}
+
+	EnchantedScrollMagical: {
+		DisplayName: 魔法の巻物	『|』
+		Tooltip: ""
+	}
+
+	EnchantedScrollMassive: {
+		DisplayName: 魔法の巻物	『|』
+		Tooltip: ""
+	}
+
+	EnchantedScrollMiracle: {
+		DisplayName: 魔法の巻物	『|』
+		Tooltip: ""
+	}
+
+	EnchantedScrollReckless: {
+		DisplayName: 魔法の巻物	『|』
+		Tooltip: ""
+	}
+
+	OriginGemDestinedGreatness: {
+		DisplayName: 起源の宝石 『|』
+		Tooltip: ""
+	}
+
+	OriginGemGodForged: {
+		DisplayName: 起源の宝石 『|』
+		Tooltip: ""
+	}
+
+	OriginGemGreat: {
+		DisplayName: 起源の宝石 『|』
+		Tooltip: ""
+	}
+
+	OriginGemSacrifical: {
+		DisplayName: 起源の宝石 『|』
+		Tooltip: ""
+	}
+
+	OriginGemWizard: {
+		DisplayName: 起源の宝石 『|』
+		Tooltip: ""
+	}
+
+	RuneStoneBiochemistry: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	RuneStoneGuarded: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	RuneStoneHard: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	RuneStoneLight: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	RuneStoneRegen: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	RuneStoneThorny: {
+		DisplayName: ルーンストーン『|』
+		Tooltip: ""
+	}
+
+	HiveArrow: {
+		Tooltip: 標的を撃った後に散弾を発射する
+		DisplayName: ハイブ・アロー
+	}
+
+	HiveBullet: {
+		DisplayName:
+			'''
+			ハイブ・バレット
+			攻撃後に追跡蜂を召喚する
+			'''
+		Tooltip: 対象の防御力の50%を無視する
+	}
+
+	SolarStorm: {
+		Tooltip: ""
+		DisplayName: 太陽嵐
+	}
+
+	CondensedBullet: {
+		Tooltip: 凝縮レーザーを発射する
+		DisplayName: 凝縮された弾丸
+	}
+
+	ShatteredFractal: {
+		DisplayName: 砕けたフラクタル
+		Tooltip:
+			'''
+			[c/ff5300:かつては神剣であったが、今やその力は失われている]
+			[c/ff5300:いつか、かつての輝きを取り戻せるかもしれない]
+			'''
+	}
+
+	ProphetMusicBox: {
+		DisplayName: 預言者のオルゴール
+		Tooltip: ""
+	}
+
+	CruiserMusicBox: {
+		DisplayName: クルーザー・ミュージックボックス
+		Tooltip: ""
+	}
+
+	NihilityTwinsMusicBox: {
+		DisplayName: ニヒリティ・ツインズ・ミュージックボックス
+		Tooltip: ""
+	}
+
+	WelkinFractal: {
+		DisplayName: ウェルキン・フラクタル
+		Tooltip: "[c/d4fff8:天に祝福されている]"
+	}
+
+	BrilliantFractal: {
+		DisplayName: 輝けるフラクタル
+		Tooltip: "[c/f2ffd4:放射エネルギーを吸収する]"
+	}
+
+	BrokenHilt: {
+		Tooltip: "[c/c4ff3b:古代の神聖な剣の欠片]"
+		DisplayName: 折れた柄
+	}
+
+	ElementalFractal: {
+		Tooltip: "[c/ff00a6:剣が元素の光を放ってきらめく]"
+		DisplayName: エレメンタル・フラクタル
+	}
+
+	StarlitFractal: {
+		DisplayName: 星明かりのフラクタル
+		Tooltip: "[c/dd00ff:星明かりが刃に沿って漂う]"
+	}
+
+	AbyssFractal: {
+		Tooltip: "[c/7045ff:刃は底知れぬ深淵を思わせる]"
+		DisplayName: 深淵フラクタル
+	}
+
+	PlagueInternalCombustionEngine: {
+		Tooltip:
+			'''
+			真の近接武器で敵を攻撃すると、体力が回復し一時的な防御力が付与される。
+			+{AttackSpeed}% 真の近接攻撃速度
+			'''
+		DisplayName: ペスト内燃機関
+	}
+
+	SpiritFractal: {
+		DisplayName: スピリット・フラクタル
+		Tooltip: "[c/dfe7cb:剣の上に多くの精霊が集まっている]"
+	}
+
+	VoidFractal: {
+		Tooltip:
+			'''
+			[c/ba3ade: 虚無の薄い層が剣に付着する]
+			右クリック: 虚無斬り
+			'''
+		DisplayName: ヴォイド・フラクタル
+	}
+
+	BurntLostClassics: {
+		Tooltip: ""
+		DisplayName: 焼け焦げ失われた名作たち
+	}
+
+	ProphecyMasterpiece: {
+		Tooltip: ""
+		DisplayName: 予言の傑作
+	}
+
+	ForeseeWhip: {
+		DisplayName: 予見の鞭
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			ミニオンのクリティカルヒット率を10%増加させる
+			ミニオンのクリティカルヒットは、最大4体の近くの敵にダメージの12%を追加で与える
+			'''
+	}
+
+	Nemesis: {
+		DisplayName: ネメシス
+		Tooltip:
+		'''
+		太陽のすべてを掌握した
+		'''
+	}
+
+	LashingBramblerod: {
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			ミニオンのクリティカルヒット確率を[1]%増加させる
+			ミニオンがクリティカルヒットを決めると、周囲に棘が生え、1回限り[2]%のダメージ軽減効果を得る
+			既に棘が存在する場合、その上に花が咲き、各花は追加で[3]%のダメージ軽減効果と[4]/sの毎秒HP回復効果を提供する
+			同時に最大[5]個の花を保持可能
+			'''
+		DisplayName: 鞭打つ茨の杖
+	}
+
+	FinalFractal: {
+		DisplayName: ファイナル☆フラクタル
+		Tooltip:
+			'''
+			[c/fcc7ff: 「失った力を取り戻し、煌々と輝く神剣」]
+			右クリック: 時空を切り裂いて突進、突進時にカオス状態を付与
+			'''
+	}
+
+	AzafureMiner: {
+		Tooltip:
+		'''
+		欲しい鉱石を機械に入れることで世界のすべての鉱石を完全自動で採掘する。
+		鉱石の母数が少ないほど収集速度が下がり、世界に存在しない場合採掘されない。
+		 - マルチで使用不可 -
+		'''
+		DisplayName: アザフレ製機械式採掘機
+	}
+
+	RequiemCard: {
+		DisplayName: ソウルカード - 『レクイエム』
+		Tooltip:
+			'''
+			ほとんどのクールダウンを[T]%短縮
+			「死者の歌、詩のようなクールダウン」
+			（クールダウンは哀悼の挽歌のように流れる）
+			'''
+	}
+
+	GrudgeCard: {
+		DisplayName: ソウルカード - 『怨念』
+		Tooltip:
+			'''
+			敵を攻撃すると魂が飛び出し、あなたに飛来して回復と一時的な防御力を付与する
+			「憎しみが残り、血が報いる」
+			（亡霊がまとわりつき、生命力を吸い取る）
+			'''
+	}
+
+	ObscureCard: {
+		DisplayName: ソウルカード -『闇』
+		Tooltip:
+			'''
+			敵のヒットボックスに触れると、体力回復が大幅に増加し、飛行時間が回復し、魂の混乱を付与する
+			「触れると癒され、影が蝕む」
+			（敵の近くでは傷が癒え、奈落が蝕む）
+			'''
+	}
+
+	PurificationCard: {
+		DisplayName: ソウルカード - 『浄化』
+		Tooltip:
+			'''
+			すべてのデバフの効果時間を[T]%短縮する
+			「炎の浄化、不純物の燃焼」
+			（清めの炎が全ての穢れを祓う）
+			'''
+	}
+
+	WisperCard: {
+		DisplayName: ソウルカード - 『ささやき』
+		Tooltip:
+			'''
+			無敵状態の持続時間を[T]%延長する
+			「幽玄なる囁き、儚き無形」
+			（永遠のささやきが耳元で囁く）
+			'''
+	}
+
+	MourningCard: {
+		DisplayName: ソウルカード -『哀悼』
+		Tooltip:
+			'''
+			防御力、ダメージ、クリティカル率、ダメージ軽減、または体力回復が減少した際の低下速度を遅らせる
+			「永遠の悲嘆、遅延する腐敗」
+			（悲しみはまとわりつき、恐怖は去る）
+			'''
+	}
+
+	IndigoCard: {
+		DisplayName: ソウルカード -『インディゴ』
+		Tooltip:
+			'''
+			飛行速度を[T]%増加させ、飛行時間を[T2]延長する
+			「蒼き魂は風と共に舞い昇る」
+			（紺碧の亡霊が空気を切り裂く）
+			'''
+	}
+
+	BitternessCard: {
+		DisplayName: ソウルカード -『悲嘆』
+		Tooltip:
+			'''
+			体力値が低いほどダメージ軽減が増加し、体力値が高いほど与ダメージが増加する
+			最大[1]%の追加ダメージと[2]%のダメージ軽減
+			「死より生まれた傷ついた怒り」
+			(失血は回復力を、満腹は怒りを生む)
+			'''
+	}
+
+	DevouringCard: {
+		DisplayName: ソウルカード -『魂断』
+		Tooltip:
+			'''
+			攻撃は対象の防御力を[1]%無視する
+			「飢えた亡霊が食い荒らす、防具は崩れ落ちる」
+			（亡霊が敵の防御を貪り食う）
+			'''
+	}
+
+	CursedThread: {
+		DisplayName: 呪われた糸
+		Tooltip:
+			'''
+			ソウルデッキの製作に使用
+			以下の材料が必要:
+			レクイエム:ダンジョンスピリットがドロップ
+			ささやき:クラブロンがドロップ
+			浄化:ホーリーミミックがドロップ
+			闇:邪悪なバイオームの箱から入手
+			怨念:エクトプラズム12個で作成
+			インディゴ:天空のチェストまたは空島の箱から入手
+			哀悼:ゴーレムがドロップ
+			悲嘆:地下邪悪バイオームの敵から稀にドロップ
+			魂断:パラディンがドロップ
+			'''
+	}
+
+	SoulDeck: {
+		DisplayName: ソウルデッキ
+		Tooltip:
+			'''
+			ほとんどのクールダウンを[CD]%短縮
+			免疫時間を[IM]%延長
+			デバフ持続時間を[DB]%短縮
+			敵のヒットボックスに触れると飛行時間を回復し、ソウルディスラプションデバフを付与
+			ヒット時に稀にソウルフラグメントを放出。自身に向かって飛来し、回復と一時的なアーマーを付与
+			飛行速度を[FL]%増加、持続時間を[FT]%延長
+			ステータス（防御力、ダメージ、クリティカル率、ダメージ軽減、体力回復、属性）の減少速度を遅延
+			体力が低いほどダメージ軽減率上昇（最大[BE]%）
+			体力が高いほど与ダメージ上昇（最大[BD]%）
+			敵の防御力を[AP]%無視
+			'''
+	}
+
+	LavaPancake: {
+		DisplayName: 溶岩パンケーキ
+		Tooltip: ""
+	}
+
+	HellBohea: {
+		DisplayName: 地獄のボヘア
+		Tooltip: ""
+	}
+
+	SulfurMeltCake: {
+		DisplayName: 硫黄融解ケーキ
+		Tooltip: ""
+	}
+
+	IlmeranAsylum: {
+		DisplayName: イルメラン亡命者
+		Tooltip:
+			'''
+			プレイヤーの周囲に3つの渦を生成する
+			渦を通過した投射物は近くの敵を追尾し、
+			威力が上昇し、渦をチャージする
+			完全にチャージされた渦は近くの敵を追跡し、ダメージを与える
+			-Death Mode-
+			'''
+	}
+
+	ProphetMusicBox2: {
+		Tooltip: ""
+		DisplayName: 預言者オルゴール -第二形態- 
+	}
+
+	StarlitPiercer: {
+		Tooltip: 急激なスパイク発生時にファントム弾を発射する
+		DisplayName: 星明かりの貫き手
+	}
+
+	LuminarisMusicBox: {
+		Tooltip: ""
+		DisplayName: ルミナリスオルゴール
+	}
+
+	LuminarisRelic: {
+		Tooltip: ""
+		DisplayName: ルミナリス・レリック
+	}
+
+	LuminarisBag: {
+		Tooltip: ""
+		DisplayName: ルミナリスバッグ
+	}
+
+	IllusionaryDew: {
+		Tooltip: アストラル感染においてルミナリスを召喚
+		DisplayName: 幻想の露
+	}
+
+	LuminarisTrophy: {
+		DisplayName: ルミナリスのトロフィー
+		Tooltip: ""
+	}
+
+	Luminar: {
+		Tooltip: 追跡するファントム光矢を放つ
+		DisplayName: ルミナール
+	}
+
+	StarSootInjector: {
+		Tooltip: ""
+		DisplayName: 星の煤噴射装置
+	}
+
+	PhantomLightWing: {
+		Tooltip:
+			'''
+			水平速度:[A]
+			加速度倍率:[B]
+			優れた垂直速度
+			飛行時間:[C]
+			'''
+		DisplayName: 幻影の光の翼
+	}
+
+	AzafureAntiaircraftGun: {
+		DisplayName: アザフレ製対空砲
+		Tooltip: ""
+	}
+
+	RockBullet: {
+		DisplayName: 岩の弾丸
+		Tooltip: ※発射中に中にジャムる可能性があります(不発の可能性あり！)
+	}
+
+	TatteredGun: {
+		DisplayName: ボロボロな銃
+		Tooltip:
+			'''
+			※発射中に中にジャムる可能性があり
+			「奇跡だ」
+			'''
+	}
+
+	MoonlightSword: {
+		Tooltip: ""
+		DisplayName: 月光の剣
+	}
+
+	BookMarkBlackKnife: {
+		Tooltip:
+			'''
+			敵を攻撃すると黒い剣が出現する可能性がある
+			「みんなもデルタルーンをやろう！」
+			'''
+		DisplayName: ブックマーク - 『ブラックナイフ』
+	}
+
+	AzafureTeslaGun: {
+		DisplayName: アザフレ・テスラガン
+		Tooltip: テスラボールを発射し、近くの敵を感電させる
+	}
+
+	AzafurePioneerCannon: {
+		DisplayName: アザフレ製先駆砲
+		Tooltip:
+			'''
+			左クリックを長押しでチャージ＆弾薬装填（最大5発）
+			離すと装填した弾を全て一斉に発射
+			'''
+	}
+
+	ShadoidPotion: {
+		Tooltip:
+			'''
+			HPと飛行時間を回復する
+			最大HPの1/3を回復する
+			コストなし
+			'''
+		DisplayName: 劇薬ポーション
+	}
+
+	ShadowMantle: {
+		Tooltip:
+			'''
+			移動中のローグステルス回復速度を向上
+			[K]([KEY])を押すとステルスを全消費し、カーソル位置まで短距離ダッシュし、遭遇した敵を斬りつける
+			ダメージは消費したステルス量に比例する
+			'''
+		DisplayName: 陰影のマント
+	}
+
+	MineBox: {
+		DisplayName: 鉱石ボックス
+		Tooltip:
+			'''
+			+[D]% ローグダメージ
+			ステルス攻撃は遅延爆発地雷を設置する
+			「採掘には不向き」
+			'''
+	}
+
+	LurkersCharm: {
+		DisplayName: 潜伏者の魅力
+		Tooltip:
+			'''
+			+[A]% ローグダメージ
+			+[B]% 移動速度
+			+[C]% ステルス回復
+			+[D]% ステルス状態が最大ステルス80%を超えた場合のダメージ軽減
+			'''
+	}
+
+	ThiefsPocketwatchOfEclipse: {
+		DisplayName: 盗賊の日食ポケットウォッチ
+		Tooltip:
+			'''
+			+[A]%ローグダメージ
+			+[B]%移動速度
+			+[C]%ローグステルス回復速度
+			ローグステルスはさらに1回再充電可能
+			'''
+	}
+
+	GaleWristblades: {
+		Tooltip:
+			'''
+			ローグ武器は命中時に風圧を1スタック付与し、攻撃速度とダメージを増加させる
+			5スタックで、次の攻撃が全スタックを消費し小型の竜巻を発生させる
+			'''
+		DisplayName: ゲイル・リストブレード
+	}
+
+	WorshipRelic: {
+		DisplayName: 崇拝の遺物
+		Tooltip:
+			'''
+			ステルスは自動的に回復しません。
+			ローグ武器で敵を攻撃すると、ステルスが一部回復。
+			ステルスが最大になると、攻撃はステルスストライクとなり、追加のソーラーアローを発射する。
+			クリティカルが発動しなくなる
+			'''
+	}
+
+	ShadowPact: {
+		DisplayName: 影の契約
+		Tooltip:
+			'''
+			+[A]%ローグダメージ
+			ステルスをシャドウゲージに置き換える。
+			シャドウゲージは一定速度で蓄積する。
+			満タン時、攻撃時にこれを消費してホーミングするシャドウオーブを発射する。
+			命中時、オーブは複数のシャドウダガーを生成する。
+			'''
+	}
+
+	YanyusHat: {
+		DisplayName: YanYuの帽子
+		Tooltip: ""
+	}
+
+	LuminarDress: {
+		DisplayName: ルミナードレス
+		Tooltip: ""
+	}
+
+	LuminarRing: {
+		DisplayName: ルミナールリング
+		Tooltip: ""
+	}
+
+	LuminarTrousers: {
+		DisplayName: ルミナール トラウザーズ
+		Tooltip: ""
+	}
+
+	LunarMulse: {
+		DisplayName: 月間ムルセ
+		Tooltip: ""
+	}
+
+	CDRemove: {
+		DisplayName: テスト項目 - 全てのクールダウンを解除
+		Tooltip:
+			'''
+			インベントリ内で右クリックするとクールダウン時間倍率を設定できます
+			現在: クールダウン時間を[R]%短縮
+			'''
+	}
+
+	TheReplicaofThePen: {
+		Tooltip:
+			'''
+			騎乗時に有害な軌跡を残す
+騎乗していない時に敵を攻撃する
+命中時に虚無の触手デバフを付与する
+			'''
+		DisplayName: ペンのレプリカ
+	}
+
+	Typhoon: {
+		Tooltip:
+			'''
+			右クリックでマシンガンモードとショットガンモードを切り替え
+			マシンガンモードでは想像を絶する速度で連続射撃
+			ショットガンモードでは多数の散弾を発射
+			'''
+		DisplayName: タイフーン
+	}
+
+	ShadowRune: {
+		DisplayName: 影のルーン
+		Tooltip:
+			'''
+			召喚ダメージボーナスをリセットし、[0]%:1の比率でミニオン容量に変換する
+			他の種類のダメージを大幅に減少させる
+			鞭攻撃速度を[1]%増加させ、鞭攻撃速度を100%増加させる
+			鞭の印のダメージボーナスを減少させる
+			ミニオン攻撃に大幅なアーマー貫通を付与する
+			'''
+	}
+
+	LostChubbyBird: {
+		DisplayName: 迷子のぽっちゃり鳥
+		Tooltip: ""
+	}
+
+	ConsecratedRune: {
+		DisplayName: 聖別されたルーン
+		Tooltip: ""
+	}
+
+	MysteriousBook: {
+		Tooltip: ""
+		DisplayName: 神秘の書
+	}
+
+	HellIndustrialComponents: {
+		DisplayName: 地獄工業部品
+		Tooltip: ""
+	}
+
+	DragEntity: {
+		Tooltip: ""
+		DisplayName: ドラッグ対象
+	}
+
+	OblivionThresher: {
+		DisplayName: 忘却の脱穀機
+		Tooltip:
+			'''
+			左マウスボタンを押し続けるとチャージされ、目の前に渦巻く鋸刃を生成します。
+			離すと鋸刃を前方へ発射します
+			十分に大きな鋸刃は、しばらく飛行した後、
+			命中した敵の数に応じてホーミングするヴォイドノヴァを生成し、その後戻ってくる
+			右クリックで短距離ダッシュする
+			この瞬間にフルチャージの鋸刃をキャッチすると、
+			強化されて再発射され、ホーミングするヴォイドノヴァを連続的に放つ
+			'''
+	}
+
+	AcropolisRelic: {
+		DisplayName: アクロポリス・マシンのレリック
+		Tooltip: ""
+	}
+
+	AcropolisTrophy: {
+		DisplayName: アクロポリス・トロフィー
+		Tooltip: ""
+	}
+
+	PineappleDog: {
+		Tooltip: ""
+		DisplayName: パイナップルドッグ
+	}
+
+	CelestialChronometer: {
+		DisplayName: 時の構築
+		Tooltip:
+			'''
+			全ての素材の効果を発揮する
+足元でハーブを成長させる
+ハーブの上に立つ間、ダメージを20%軽減する
++5 HP/s 生命力回復
+「こんな終盤で建築するんか、すごいな」
+			'''
+	}
+
+	TerrorOfAbyss: {
+		DisplayName: 深淵の恐怖
+		Tooltip: ""
+	}
+
+	ScorchingShoot: {
+		DisplayName: 灼熱のシュート
+		Tooltip: ""
+	}
+
+	TheFilthyContractWithMammon: {
+		DisplayName: マモンとの汚れた契約
+		Tooltip:
+			'''
+			お気に入りに設定すると発動し、20ダメージを受ける
+			左クリックで穢れの光線を放つ
+			右クリックで呪いのミサイルを発射する
+			他のアイテムを使用すると効果が解除され、持続時間に応じて6～666ダメージを受ける
+			'''
+	}
+
+	SmartArc: {
+		DisplayName: スマート・アーク
+		Tooltip: ""
+	}
+
+	LostHeirloom: {
+		DisplayName: 失われた家宝
+		Tooltip: ""
+	}
+
+	Bramblecleave: {
+		DisplayName: ブランブルクリーヴ
+		Tooltip:
+			'''
+			彼女の力は成長と共に増す	
+			生命の始源の女神に祝福された剣	
+			現在のレベル: [LV] / 15	
+			力が十分になると、以下のスキルを使用可能:	
+			@[C1][U1]	
+			#[C2][U2]	
+			$[C3][U3]	
+			%[C4][U4] 
+			'''
+	}
+
+	BLUE: {
+		Tooltip: ""
+		DisplayName: B L U E
+	}
+
+	Vast: {
+		DisplayName: Vast
+		TooltipBase:
+			'''
+			このアクセサリーの効果は進行に伴い増加する。
+			Current Effects:
+			'''
+		Level0:
+			'''
+			マナ消費量が8%減少
+			自動的にマナポーションを使用する
+			'''
+		Level1:
+			'''
+			マナポーションはマナを10%多く回復する
+			秘儀の威力の効果下では、魔法クリティカルヒット率が+4%上昇する
+			'''
+		Level2:
+			'''
+			自動的にマナポーションを使用し、回復量の75%が即座に適用される。
+			残りの25%は5秒かけて回復する。
+			この期間中に80ダメージを受けると回復が中断され、
+			無敵状態が延長され、一時的に体力回復が加速する。
+			「魔力の奔流があなたの血管を駆け巡る…」
+			'''
+		Level3:
+			'''
+			最大マナの50%に相当するマナを消費した後、
+			エンパワードマニアを4%獲得（最大5回までスタック）。
+			'''
+		Level4:
+			'''
+			マナ病とマナバーンの効果が半減する。
+			エンパワードマニアが2スタックごとに0.05%のダメージ軽減効果を得る。
+			マナ回復中に被弾した際の体力回復量が増加する。
+			'''
+		Level5:
+			'''
+			クリティカルヒットは対象に「魂の混乱」デバフを付与する。
+			マナが枯渇すると、攻撃はマナを消費する状態から6秒間マナを回復する状態に切り替わり、
+			同時に「マナ焼け」デバフを5秒間付与する。
+			この期間中にダメージを受けると、無敵フレームが延長される。
+			'''
+		Level6:
+			'''
+			マナフローが最大スタック状態の時、マナを1消費するごとに
+			魔法クリティカル発生率が+1%、魔法クリティカルダメージが+3%増加(最大5スタックまで)
+			'''
+		Tooltip: ""
+	}
+
+	AzafureDetectionEquipment: {
+		DisplayName: アザフレ検出装置
+		Tooltip:
+			'''
+			ジャンプ速度を向上させる
+			わずかに前方に押し出す
+			部分的な移動速度を増加させる
+			飛行中に上昇キーを押すと加速する
+			'''
+	}
+
+	FadingRoseateReverie: {
+		DisplayName: 色あせる薔薇色の夢想
+		Tooltip: ""
+	}
+
+	BloodstainedShirt: {
+		DisplayName: 血染めのシャツ
+		Tooltip: ""
+	}
+
+	ScarletKilt: {
+		DisplayName: スカーレット・キルト
+		Tooltip: ""
+	}
+
+	KitsunesFan: {
+		DisplayName: キツネのファン
+		Tooltip: ""
+	}
+
+	KitsunesMask: {
+		DisplayName: キツネの仮面
+		Tooltip: ""
+	}
+
+	TrueMoonlightSword: {
+		DisplayName: 真・月光剣
+		Tooltip: ""
+	}
+
+	DarkBlade: {
+		DisplayName: 闇の騎士の剣
+		Tooltip: ""
+	}
+
+	Fruitcake: {
+		DisplayName: フルーツケーキ
+		Tooltip:
+			'''
+			弾薬を消費する武器使用時、同種弾薬をランダムに選択し、元のダメージを維持する
+命中率低下による短時間のランダムデバフ
+			'''
+	}
+
+	SmartScope: {
+		DisplayName: スマートスコープ
+		Tooltip:
+			'''
+			中央のマウスボタンを押すとターゲットをロックオンします。
+ターゲットをマークすると、全ての弾丸が選択したターゲットへ自動補正されます。
+1フレームあたりに適用できる弾幕は最大1つまで。
+			'''
+	}
+
+	ShadeCloak: {
+		DisplayName: シェード・クローク
+		Tooltip:
+			'''
+			ダッシュ中に敵接触や投射物ダメージから身を守り、ダッシュ距離を増加させる
+			この効果には3秒間のクールダウンが必要
+			'''
+	}
+
+	LushGrassclassics: {
+		DisplayName: 豊かな草のクラシック
+		Tooltip: ""
+	}
+
+	MiracleWreckage: {
+		DisplayName: 奇跡の残骸
+		Tooltip: ""
+	}
+
+	TheocracyMark: {
+		DisplayName: 神権政治マーク
+		Tooltip: ""
+	}
+
+	AzafureFurnace: {
+		DisplayName: アザフレ製炉
+		Tooltip: ""
+	}
+
+	AzafurePulseWand: {
+		DisplayName: アザフレ製パルス・ワンド
+		Tooltip: ""
+	}
+
+	BookmarkSandstorm: {
+		DisplayName: ブックマーク - 『砂嵐』
+		Tooltip: 攻撃を停止した際に砂の弾を発射する
+	}
+
+	BottledStarlightCocoon: {
+		DisplayName: 瓶詰めされた星明りの繭
+		Tooltip:
+			'''
+			星光の蛾を召喚し、戦わせよ
+			対象が存在しない場合、周囲を飛び回り生命回復を提供する
+			コマンドサーヴァント([KEY])キーを押したままにすると手動でこのモードに入る
+			召喚ゲージを3消費する
+			'''
+	}
+
+	AzafureRailgun: {
+		DisplayName: アザフレ製レールガン
+		Tooltip: ""
+	}
+
+	AzafureDroneRemote: {
+		DisplayName: アザフレ製遠隔ドローン
+		Tooltip: 敵に向けてミサイルを発射できるドローンを召喚する
+	}
+
+	AzafureHealingTowerRemote: {
+		DisplayName: アザフレ製ヒーリングタワー遠隔
+		Tooltip: 回復塔を設置して近くのプレイヤーの体力を回復させ、待機中はレーザーで近くの敵やモンスターを攻撃する
+	}
+
+	Dyes: {
+		SpiritDye: {
+			DisplayName: スピリット染料
+			Tooltip: ""
+		}
+
+		VoidCruiseDye: {
+			DisplayName: 神権狂気染料
+			Tooltip: ""
+		}
+
+		RoaringDye: {
+			DisplayName: 轟く染料
+			Tooltip: ""
+		}
+	}
+
+	ReallocateIndicatorData: {
+		DisplayName: ARIDモジュール
+		Tooltip:
+			'''
+			所持アイテムに基づいてステータスボーナスをランダムに変更する
+			正式名称は「アザフレ再配分インジケーターデータモジュール」
+			アザフレって魔法なの？それとも工業なの？
+			'''
+	}
+
+	AzafureProtectiveCannon: {
+		DisplayName: アザフレ製防護砲
+		Tooltip:
+			'''
+			固定位置でターゲット位置を攻撃し、範囲ダメージを与える
+クールタイム:20秒
+			'''
+	}
+
+	AzafureTBMTerminal: {
+		DisplayName: アザフレTBMターミナル
+		Tooltip:
+			'''
+			トンネル掘削機を操作する
+プレイヤーから離れすぎると速度が遅くなる
+操作中は移動キーで移動を制御し、
+ジャンプキーを押し続けると掘削する。再度このアイテムを使用すると操作を停止する
+採掘力はインベントリ内の最高つるはし威力に依存する
+				近くのアイテムを自動的にインベントリに拾う
+			'''
+	}
+
+	HowlingCannon: {
+		DisplayName: 咆哮する大砲
+		Tooltip: ""
+	}
+
+	AncientFragmentsBody: {
+		DisplayName: 古代の断片 身体
+		Tooltip: ""
+	}
+
+	AncientFragmentsEcho: {
+		DisplayName: 古代の断片が響き渡る
+		Tooltip: ""
+	}
+
+	AncientFragmentsMind: {
+		DisplayName: 古代の断片 心
+		Tooltip: ""
+	}
+
+	AncientFragmentsSoul: {
+		DisplayName: 古代の断片 魂
+		Tooltip: ""
+	}
+
+	MomosLightPet: {
+		DisplayName: モモの光るペット
+		Tooltip: ""
+	}
+
+	Malign: {
+		DisplayName: 悪性
+		Tooltip: ""
+	}
+
+	AzafureDrill: {
+		DisplayName: アザフレ製ドリル
+		Tooltip: ""
+	}
+
+	AzafurePowerSaw: {
+		DisplayName: アザフレ製万力チェーンソー
+		Tooltip: ""
+	}
+
+	AzafureElectrocauteryWand: {
+		DisplayName: アザフレ製電気焼灼ワンド
+		Tooltip: ""
+	}
+
+	BookmarkSnowgrave: {
+		DisplayName: ブックマーク - 『吹雪』
+		Tooltip:
+			'''
+			弾丸が敵に命中するとエネルギーをチャージします
+エネルギーが満タンになると、次の攻撃でスノーグレイブを発動します
+スノーグレイブは持続ダメージを与えます
+「[続行]」
+			'''
+	}
+
+	BigShotsWing: {
+		DisplayName: ビッグショットの翼
+		Tooltip:
+			'''
+			水平速度:[A]
+			加速度倍率:[B]
+			期待外れの垂直速度
+			飛行時間:[C]
+			「今こそ君が...ダックハントになるチャンスだ！(死)」
+			'''
+	}
+
+	BookmarkSulphurous: {
+		DisplayName: ブックマーク - 『硫黄臭』
+		Tooltip:
+			'''
+			バブルを作成して自身を保護する
+バブルはダメージを受けると破裂する
+バブルのクールダウン:60秒
+バブルが存在しない場合、被ダメージ時に硫黄の毒状態になる
+			'''
+	}
+
+	VoidWell: {
+		DisplayName: 虚無の井戸
+		Tooltip:
+			'''
+			虚無の力を放つ魔法の井戸。その力は星さえも飲み込むと言われる。
+虚無を用いてアイテムを強化し、虚無の装備を生み出せ。
+			'''
+	}
+
+	FadingRunestone: {
+		DisplayName: 色あせたルーンストーン
+		Tooltip:
+			'''
+			この世のものとは思えない神秘的な造形物。
+			時空さえ歪めかねないほどの重みがある。
+			一瞬、自分が消え去ってしまうのではないかとすら感じた。
+			'''
+	}
+
+	DedicatedOracle: {
+		DisplayName: 専任のオラクル
+		Tooltip:
+			'''
+			ステルス攻撃のみ可能
+カーソルに最も近い目標へ突進し、素早く連続した斬撃を繰り出す
+			'''
+	}
+
+	GlitteringBeak: {
+		DisplayName: きらめく嘴
+		Tooltip: ""
+	}
+
+	GatheringSwarm: {
+		DisplayName: 好きなもの収集勢
+		Tooltip:
+			'''
+			コインやお気に入りアイテムを拾う群れを召喚する
+このアイテムを所持している場合、群れは全てのアイテムを回収する
+			'''
+	}
+
+	AzafureHeavyArmor: {
+		DisplayName: アザフレ製重装甲
+		Tooltip: ""
+	}
+
+	AzafureHeavyHelmet: {
+		DisplayName: アザフレ製重装ヘルメット
+		Tooltip: ""
+	}
+
+	AzafureHeavyLeggings: {
+		DisplayName: アザフレ製重装レギンス
+		Tooltip: ""
+	}
+
+	BookmarkHammer: {
+		DisplayName: ブックマーク - 『金槌』
+		Tooltip: ハンマーを召喚し、君のために戦わせる
+	}
+
+	CrossBorderPursuit: {
+		DisplayName: 越境追跡
+		Tooltip:
+			'''
+			ステルス攻撃のみ可能
+カーソルに最も近い目標へ突進し、素早く連続した斬撃を繰り出す
+			'''
+	}
+
+	BookmarkSword: {
+		DisplayName: ブックマーク - 『浮遊剣』
+		Tooltip: あなたを守るための剣を召喚する
+	}
+
+	AzafureEKatana: {
+		DisplayName: アザフレ製ムラサマ
+		Tooltip: ""
+	}
+
+	AzafureCogfly: {
+		DisplayName: アザフレ製コグフライ
+		Tooltip:
+			'''
+			歯車フライを召喚する
+			自動的に敵を攻撃する
+			'''
+	}
+
+	StarBreaker: {
+		Tooltip: ""
+		DisplayName: 星啓破軍
+	}
+
+	Gungnir: {
+		Tooltip: 命中後、稲妻と隕石を降らせる
+		DisplayName: 永遠の神槍 ガンギル
+	}
+
+	ChaosCore: {
+		DisplayName: カオス・コア
+		Tooltip: ""
+	}
+
+	ReindeerBell: {
+		DisplayName: トナカイの鈴
+		Tooltip:
+			'''
+			「大きな翼を生やして、
+できる限り遠くへ飛び立ち、
+振り返ってすべてを見つめる…
+ホリデーライトのように輝くスカイラインを。」
+			'''
+	}
+
+	AzureRapier: {
+		DisplayName: アザフレ製死神
+		Tooltip:
+			'''
+			素早い突き攻撃を繰り出す
+			右クリックで防御と反撃
+			攻撃ごとにデバフを付与する可能性がある
+			'''
+	}
+
+	FetalDream: {
+		DisplayName: 胎児の夢
+		Tooltip: ""
+	}
+
+	DustCarver: {
+		DisplayName: ダスト・カーヴァー
+		Tooltip:
+			'''
+			進行に伴い強化される
+			現在のレベル: [LV] / 16
+			現在のレベルに基づき、あなたを守る深淵の精霊を召喚する。
+			右クリックで行動モードを変更:
+			貫通モードでは対象を繰り返し斬りつける；射撃モードでは追尾するアビスビームを発射；防御モードでは飛来する弾丸を代わりにブロックする
+			画面外から対象を貫通するクリムゾンスパイクを発射
+			射撃時は追尾するアビスビームを発射
+			'''
+	}
+
+	BlackFlower: {
+		DisplayName: 黒い花
+		Tooltip:
+			'''
+			「悲しみ、怒り、憎しみ、絶望の感情が渦巻き、殺意へと変貌する。
+草は伸び放題に生い茂り、果てしなく黒い花が咲き乱れる。
+無数の犠牲者たちの嘆きの声が響き渡る。」
+			'''
+	}
+
+	AzafureTacticalRadio: {
+		DisplayName: アザフレ製戦術無線機
+		Tooltip: ミサイル発射井を配備し、最寄りの目標を捕捉し、それを越えてミサイルを発射する
+	}
+
+	SentryRemover: {
+		DisplayName: セントリーリムーバー
+		Tooltip: セントリーを削除する
+	}
+
+	BookmarkFairy: {
+		DisplayName: ブックマーク - 『妖精』
+		Tooltip: 三人の妖精を召喚し、あなたのために戦わせる
+	}
+
+	AzafureCylinder: {
+		DisplayName: アザフレ製シリンダー
+		Tooltip:
+			'''
+			敵に近づくと爆発する帯電した金属球を発射する
+			「魔法で旋律を封じる」
+			'''
+	}
+
+	BookmarkStinger: {
+		DisplayName: ブックマーク - 『スティンガー』
+		Tooltip: 敵に自動でスティンガーを発射する
+	}
+
+	BookmarkSpore: {
+		DisplayName: ブックマーク - 『スポア』
+		Tooltip: 敵を追跡する胞子を生成し、攻撃時には残留する胞子雲を残す
+	}
+
+	DarkScripture: {
+		DisplayName: 闇の聖典
+		Tooltip: ホーミングする暗黒弾を発射する
+	}
+
+	SelenbiteVolume: {
+		DisplayName: セレニウム 量
+		Tooltip: 取り残された星々を解放せよ。それらは近くの標的を追跡し、ダメージを与える
+	}
+
+	MagicBookmarkHolder: {
+		DisplayName: 魔法のしおりホルダー
+		Tooltip:
+			'''
+			+[D]% 魔法ダメージ
+			エントロピーの書のための追加のブックマークスロットを提供します
+			「驚くべきことに、このホルダーでブックマークを挟むと、望ましい効果が完璧に達成できる」
+			'''
+	}
+
+	ExquisiteBookmarkHolder: {
+		DisplayName: 精巧なしおり立て
+		Tooltip:
+			'''
+			+[S]% 魔法武器の攻撃速度
+			エントロピーの書のための追加のブックマークスロットを提供します
+			「頂部に魔法の帽子を載せた精巧なブックマークホルダー」
+				 旅商人によって販売されています
+			'''
+	}
+
+	HolyBookmarkHolder: {
+		DisplayName: 聖なるしおりホルダー
+		Tooltip:
+			'''
+			+[D]% 魔法ダメージ
+			+[S]% 魔法武器の攻撃速度
+			エントロピーの書に追加で2つのブックマークスロットを提供
+			「神聖な輝きを放つブックマークホルダー。
+			本にブックマークをしっかりと留めやすくする」
+			'''
+	}
+
+	IllusoryGodfang: {
+		DisplayName: 幻影の牙神
+		Tooltip:
+			'''
+			幻影の刃を召喚し、戦わせる。
+			ミニオンスロットを2つ必要とする。
+			'''
+	}
+
+	BookmarkStarwreckage: {
+		DisplayName: ブックマーク - 『スターレックエイジ』
+		Tooltip: 無敵フレームを無視する金属の塊を投げる
+	}
+
+	BookmarkLacewings: {
+		DisplayName: ブックマーク - 『チョウセンアオカメムシ』
+		Tooltip: 敵にプリズマティックレイを放つプリズマティックレースウィングを3体召喚する
+	}
+
+	BookmarkWulfrum: {
+		DisplayName: ブックマーク - 『ウルフラム』
+		Tooltip:
+			'''
+			ウルフラムドローンを召喚し、近くの敵にウルフラムスクラップを射撃する
+ウルフラムドローンはしばらくすると墜落し爆発する
+			'''
+	}
+
+	BookmarkCosmic: {
+		DisplayName: ブックマーク -	『コズミック』
+		Tooltip: 神殺しの戦いを生成する
+	}
+
+	AzafurePeaceKey: {
+		DisplayName: アザフレ製平和の鍵
+		Tooltip:
+			'''
+			敵にN爆弾を発射する発射装置を召喚する
+			同時に召喚できる発射装置は1つだけである
+			'''
+	}
+
+	AzafureDriverCore: {
+		DisplayName: アザフレ製ドライバー・コア
+		Tooltip:
+			'''
+			[S]シールドを付与
+			エネルギーを消費して敵を貫通する
+			'''
+	}
+
+	VoidEaterBodyArmor: {
+		DisplayName: 虚無喰らいのボディアーマー
+		Tooltip: +12% ダメージ
+	}
+
+	VoidEaterHelmet: {
+		DisplayName: 虚無喰らいの兜
+		Tooltip: +12% クリティカル発生率と+12% ダメージ
+	}
+
+	VoidEaterLeggings: {
+		DisplayName: 虚無喰らいのレギンス
+		Tooltip: 移動速度+18%
+	}
+
+	RedDragonHorn: {
+		DisplayName: レッド・ドラゴン・ホーン
+		Tooltip: ""
+	}
+
+	ChaoticBodyArmor: {
+		DisplayName: カオティック・ボディアーマー
+		Tooltip:
+			'''
+			+4/秒の体力回復
++10%のダメージ軽減
++1の最大ミニオン数
+			'''
+	}
+
+	ChaoticHelmet: {
+		DisplayName: カオス・ヘルメット
+		Tooltip:
+			'''
+			+13% ダメージ
+			+1 最大ミニオン数
+			'''
+	}
+
+	ChaoticLeggings: {
+		DisplayName: カオス・レギンス
+		Tooltip:
+			'''
+			+8% 移動速度
+			+13% クリティカル率
+			'''
+	}
+
+	ChaoticPiece: {
+		DisplayName: 混沌の断片
+		Tooltip: ""
+	}
+
+	NihilityFragments: {
+		DisplayName: 虚無の断片
+		Tooltip: ""
+	}
+
+	CosmicBlessing: {
+		DisplayName: 宇宙の祝福
+		Tooltip: 背後からレーザーを発射する
+	}
+
+	CharredMissle: {
+		DisplayName: 焦げたミサイル
+		Tooltip: 各発射体に+5%のダメージ
+	}
+
+	OsseousRemains: {
+		DisplayName: 骨遺骸
+		Tooltip: 「焦げた匂いがする」
+	}
+
+	FrailMissle: {
+		DisplayName: 虚弱な
+		Tooltip:
+			'''
+			敵に付着し持続的なダメージを与えるミサイルを発射する
+			最大3本の付着糸
+			[c/960e05:ああ、私の殺人者よ、あなたのために多くのことをできる]
+			'''
+	}
+
+	Hope: {
+		DisplayName: 希望
+		Tooltip:
+			'''
+			敵に付着し持続的なダメージを与えるミサイルを発射する
+			最大2本の付着糸
+			[c/87CEEB:我々は君が望む全てになれる、美徳に満ちた我が救い主よ]
+			'''
+	}
+
+	Crave: {
+		DisplayName: 渇望
+		Tooltip:
+			'''
+			敵に付着し持続ダメージを与えるミサイルを発射する
+			最大3本の付着糸
+			硫黄の炎を引き起こし効果を減少させる
+			'''
+	}
+
+	Struggle: {
+		DisplayName: 闘争
+		Tooltip:
+			'''
+			敵に付着し持続ダメージを与えるミサイルを発射する
+			最大4本の付着糸
+			硫黄の炎で効果を減少させる
+			爆発時に硫黄弾を生成する
+			[c/304fff: 我々が実体となれば、その見返りとして、あなたの構想と夢を実現させましょう。]
+			'''
+	}
+
+	TrainingSword: {
+		DisplayName: 訓練用の木刀
+		Tooltip: ""
+	}
+
+	Depletion: {
+		DisplayName: 枯渇
+		Tooltip: ""
+	}
+
+	Amnesty: {
+		DisplayName: 恩赦
+		Tooltip: ""
+	}
+
+	SusiesBracelet: {
+		DisplayName: スージーのブレスレット
+		Tooltip:
+			'''
+			ゲームが進むにつれて、より多くの属性ボーナスを提供する
+			+[DEF] Defense
+			+[DMG]% Damage
+			+[LIFE] Max Life
+			+[MANA] Max Mana
+			「宇宙忍者の力」
+			'''
+	}
+	Knightmare: {
+		DisplayName: 悪夢
+		Tooltip:
+			'''
+			ナイトメアブレードを召喚する。
+			ミニオンスロットを二つ消費する。
+			'''
+	}
+
+	Redemption: {
+		DisplayName: 贖罪
+		Tooltip:
+			'''
+			敵に付着し持続ダメージを与えるミサイルを発射する
+			最大8本の糸を付着
+			ミサイルはランダムなデバフ効果を付与する
+			右クリックで単発の強力なミサイルを発射
+			'''
+	}
+
+	Pardon: {
+		DisplayName: 疑問
+		Tooltip:
+			'''
+			敵に付着して持続ダメージを与えるミサイルを発射する
+			最大5本の糸を付着
+			爆発時に疫病ミサイルを生成する
+			'''
+	}
+
+	AzafureSteamKnightArmor: {
+		DisplayName: アザフレ製蒸気騎士の鎧
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightHelmet: {
+		DisplayName: アザフレ製蒸気騎士のヘルメット
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightLeggings: {
+		DisplayName: アザフレ製蒸気騎士のレギンス 
+		Tooltip: ""
+	}
+
+	VoidCore: {
+		DisplayName: 虚無の核
+		Tooltip:
+			'''
+			ダメージを吸収する[S]シールドを付与
+			敵を貫通してダッシュし、ダメージを与える
+			+[C]% クリティカルダメージ
+			'''
+	}
+
+	ExquisiteHairband: {
+		DisplayName: 精巧なヘアバンド
+		Tooltip: ""
+	}
+
+	LingsHairAccessory: {
+		DisplayName: リンのヘアアクセサリー
+		Tooltip: ""
+	}
+
+	CrimsonNight: {
+		Tooltip: ""
+		DisplayName: 深紅の夜
+	}
+
+	PaleSpear: {
+		DisplayName: 淡い槍
+		Tooltip: ""
+	}
+
+	BookmarkPactOfWar: {
+		Tooltip:
+			'''
+			射撃中にアポロ&アルテミスを召喚
+			発射物はミラクルブライトデバフを付与する
+			'''
+		DisplayName: ブックマーク - 『戦争の盟約』
+	}
+
+	BookMarkCrimson: {
+		DisplayName: ブックマーク - 「深紅」
+		Tooltip:
+			'''
+			敵を攻撃した際にまれに地下から血の泉を召喚する
+			+1 ライフスティール
+			+4 クリティカル確率
+			'''
+	}
+	TalismanOfTheAzureAbyss: {
+		DisplayName: 紺碧の深淵のタリスマン
+		Tooltip:
+			'''
+			アビスバイオームで呼吸ができるようになる
+			ダメージが15%増加
+			＋2HP/s のライフ回復量増加
+			深淵での視界を大幅に強化
+			水中での抵抗を軽減し、翼の持続時間を延長する
+			最大HPの35%を超えるダメージを受けた際、紺碧のバリアを展開
+			紺碧のバリアは受けるダメージを25%軽減する
+			複数のボルテックスを同時に生成し敵を追尾する
+			紺碧のバリアが発動している間、ダメージを受けるとボルテックスも追加生成される
+			この効果は、バリアが起動している間もこの効果はさらに増幅される
+			'''
+	}
+
+	AcropolisHeavyArmor: {
+		DisplayName: アクロポリス重装備ボディーアーマー
+		Tooltip: ""
+	}
+
+	AcropolisHeavyHelmet: {
+		DisplayName: アクロポリス重装備ヘルメット
+		Tooltip: ""
+	}
+
+	AcropolisHeavyLegArmor: {
+		DisplayName: アクロポリス重装備レギンス
+		Tooltip: ""
+	}
+
+	AmuletOfHealing: {
+		DisplayName: 癒しのアミュレット
+		Tooltip:
+			'''
+			召喚ダメージ8%増加
+			ミニオンスロット1つにつき毎秒0.5HP/s のHP回復
+			最大増加量：3HP/s (6体分)
+			'''
+	}
+
+	AmuletOfSanctuary: {
+		DisplayName: 聖域のアミュレット
+		Tooltip:
+			'''
+			召喚ダメージ8%増加
+			ミニオンスロット1つにつき防御力+4
+			最大増加量: 防御力+24 (6体分)
+			'''
+	}
+
+	BookmarkMarivium: {
+		DisplayName: ブックマーク - 『マリヴィニウム』
+		Tooltip: 小さな原初の竜を召喚して投射物を防ぐ
+	}
+
+	HungryLantern: {
+		DisplayName: ハングリーのランタン
+		Tooltip:
+			'''
+			ミニオンの最大量を1増加させる
+			ハングリーを召喚
+			ハングリーは敵に牙を立て、ダメージを与える
+			同時に、この敵が受ける全ダメージが[A]%増加する
+			'''
+	}
+
+	OuijaBoard: {
+		DisplayName: ウィジャのボード
+		Tooltip: 敵を攻撃する魂を召喚する
+	}
+	OblivionSkull: {
+		DisplayName: 忘れられた頭蓋骨
+		Tooltip:
+			'''
+			呪われた頭蓋骨を召喚
+			敵に小さな頭蓋骨を放つ
+			使用するにはミニオンのスロットが2つ必要
+			'''
+	}
+
+	BloodCodex: {
+		DisplayName: 血液の書
+		Tooltip:
+			'''
+			本から血液を噴出する
+			敵を倒すと爆発する
+			'''
+	}
+
+	PressureEsoterica: {
+		DisplayName: 圧力の秘儀
+		Tooltip: 深淵の矢を放つ
+	}
+	SpectralWhispers: {
+		DisplayName: スペクトラルウィスパー
+		Tooltip: 敵に突き刺さる爆発棘を撃つ
+	}
+
+	BookmarkBloodthirsty: {
+		DisplayName: ブックマーク - 『血に飢えた』
+		Tooltip:
+			'''
+			敵を攻撃するとレイジゲージが増加する
+			レイジモード中はレイジゲージは増加しない
+			命中時に射撃クールダウンをリセットし、与えたダメージ量に応じて一時的に攻撃速度が上昇する
+			使用すると体力を回復する
+			'''
+	}
+
+	GoldenRock: {
+		DisplayName: 黄金の岩
+		Tooltip:
+			'''
+			敵を倒すとこのアイテムの値が増加します
+			現在の値に基づいてダメージボーナスを提供します
+			最大ボーナス：20%
+			現在の値：[A]
+			ダメージボーナス：+[B]%
+			'''
+	}
+
+	WhipOfEvilKing: {
+		DisplayName: Whip Of Evil King
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			ミニオンに5%のクリティカルを付与
+			ミニオンが敵を攻撃するとスペードが出現し、衝突した敵にダメージを与える
+			'''
+	}
+
+	ChargingYuzu: {
+		DisplayName: 柚子の充電
+		Tooltip:
+			'''
+			ユズソフトのゲームを実行している各プレイヤーには以下のボーナスが付与されます：
+			+10% ダメージ
+			+5% ダメージ軽減
+			現在：[A]
+			'''
+	}
+
+	ExquisiteCrown: {
+		DisplayName: 精巧な王冠
+		Tooltip:
+			'''
+			敵にルビーの光線を放つ王冠を召喚する
+			ミニオンの最大数を1増加させる
+			'''
+	}
+
+	RottenFangs: {
+		DisplayName: 腐った牙
+		Tooltip:
+			'''
+			ミニオンは敵に血の弾丸を撃ち込む
+			ミニオンの最大数を1増価させる
+			'''
+	}
+
+	CreeperWand: {
+		DisplayName: クリーパーの杖
+		Tooltip: 順番に攻撃するクリーパーを召喚する
+	}
+
+	CursedTorch: {
+		DisplayName: 呪われた松明
+		Tooltip:
+			'''
+			呪われた松明を召喚し、敵に火炎を放つ
+			ミニオンスロットを2つ消費する
+			'''
+	}
+
+	PhantomBottle: {
+		DisplayName: ファントム・ボトル
+		Tooltip: ""
+	}
+
+	PureIceShard: {
+		DisplayName: 純粋な氷の欠片
+		Tooltip: '''「パーフェクトさんすう教室」'''
+	}
+
+	MottledSpear: {
+		DisplayName: 斑模様の槍
+		Tooltip:
+			'''
+			タイルに接触すると巻き戻る
+			接近時に自動解除
+			到達範囲：[1]タイル
+			発射速度：[2]
+			巻き戻し速度：[3]
+			引き込み速度：[4]
+			'''
+	}
+
+	Daylight: {
+		DisplayName: 昼光
+		Tooltip:
+			'''
+			{$CommonItemTooltip.タグダメージ}
+			{$CommonItemTooltip.Whips}
+			敵を攻撃すると昼間の太陽を召喚する
+			ミニオンがターゲットを攻撃した後、昼間の太陽がターゲットに向けて太陽光線を放つ
+			'''
+	}
+	IceShardWing: {
+		DisplayName: 氷の破片の翼
+		Tooltip:
+			'''
+			水平速度：[A]
+			加速度倍率：[B]
+			優れた垂直速度
+			飛行時間：[C]
+			'''
+	}
+
+}
+
+ChaoticSetBonus:
+	'''
+	+12% ダメージ軽減
+	+12% ダメージ
+	+40 最大体力
+	+3 最大ミニオン数
+	ダメージを受けると小さなカオス細胞を放出
+	細胞は敵を追跡して攻撃し、
+	一定時間後に戻ってあなたの体力に変換される
+	[[KEY]]([KN])を押すと体力を消費して3つの細胞を召喚
+	最大[LIMIT]個の細胞を保持可能
+	'''
+VoidEaterBonus:
+	'''
+	虚無のレーザーを次々と標的に放つ（命中時）
+	この効果には3秒のクールダウンがある
+	[SHIELD]ダメージに耐えられるシールドを展開する
+	シールドの回復には10秒を要する
+	[[KEY]]([KN])を押すと体力を消費しシールド回復を加速する
+	シールド破壊時、1秒あたり+1の体力回復
+	最大ミニオン数+2
+	+100 最大マナ
+	+14% ダメージ
+	+14% クリティカル率
+	+120% ローグステルス
+	'''
+VoidEaterSet: Void Eater Set
+ChaoticSet: Chaotic Set
+NihArmorConnet:
+	'''
+	[ANOTHERSET]を装備した他のプレイヤーを狙い、[[CONNECT]]ボタンを押して接続する
+接続中は追加で毎秒2のHP回復が加わり、
+HPが低いプレイヤーのHPが吸収され、他のプレイヤーの回復に充てられる
+	致命ダメージを受けた際、相手がそのダメージに耐えられる場合、 
+	ダメージは相手に引き継がれ、この効果には12秒のクールダウン時間が設定される 
+	接続時、双方にニヒリティレーザーとカオスセルの能力が付与される
+	'''
+LOCKED: ": [ロック済み]"
+BCU1: キングスライムを倒す必要がある
+BCU2: パーフォレーターまたはハイブマインドを倒す必要がある
+BCU3: 肉壁を倒す必要がある
+BCU4: プランテラを倒す必要がある
+BCC1: 右クリックで、短い準備動作の後、とげのある蔓を伸ばす
+BCC2:
+	'''
+	* ターゲット上で右クリックを押し続けると、その方向へ引き寄せられ衝撃ダメージを与える
+このスキルは緑のチャージバーの20%を消費する
+左クリック攻撃はバーをわずかに回復させる
+	'''
+BCC3:
+	'''
+	* 右クリック後、素早く左クリックすると武器を投げる。
+剣は命中したターゲットに付着し、
+持続的な体力回復効果を与え、バーを徐々に再充電する
+	'''
+BCC4:
+	'''
+	* ダブルタップと右クリック長押しで武器を投擲し、
+カーソル付近の敵を素早く貫通させ、チャージエネルギーを継続的に消費する
+左クリック長押しで刃を回転させ、ホーミング弾を発射する
+	'''
+PrefixitemDesc:
+	'''
+	防具に接頭辞を追加するために使用します
+インベントリ内の防具アイテムを右クリックしてください
+	'''
+MariviniumSet:
+	'''
+	+20% 近接ダメージ軽減
+	+10 ミニオンスロット
+	+100% 召喚ダメージ
+	+5% 召喚クリティカル率
+	+10% ダメージ軽減
+	+50 防御貫通
+	クリティカル率が100%を超える場合、超過分をダメージボーナスに変換
+	+135 ローグステルス
+	立っている間、HP回復量増加
+	ほとんどのデバフを無効化
+	真の近接武器使用時、ダメージ軽減+15%と防御力+25
+	鞭使用時、召喚師属性を強化
+	ステルス攻撃は水爆発生の確率あり
+	2層のシールドを獲得。破壊後20秒で回復
+	シールド破壊時、140HP回復し5秒間自身のダメージを2倍化
+	'''
+DeathMode: Death Mode
+CdMantle: 聖なるマントのクールダウン
+
+Projectiles: {
+	VoidBladeProj.DisplayName: Void Blade
+	VoidBladeHit.DisplayName: Void Blade Hit
+	RevelationThrow.DisplayName: Revelation Throw
+	RevelationMelee.DisplayName: Revelation Melee
+	Rvshoot.DisplayName: Rvshoot
+	PrisonOfPermafrostCircle.DisplayName: Prison Of Permafrost
+	IceSpike.DisplayName: Ice Spike
+	IceSpikeSmall.DisplayName: Ice Spike Small
+	Icicle.DisplayName: Icicle
+	IceEdge.DisplayName: Ice Edge
+	LightningBolt.DisplayName: Lightning Bolt
+	LightningSpear.DisplayName: Lightning Spear
+	Lightning.DisplayName: Lightning
+	Impact.DisplayName: Impact
+	Lcircle.DisplayName: Lcircle
+	VoidMark.DisplayName: Void Mark
+	Slash.DisplayName: Slash
+	Slash2.DisplayName: Slash2
+	AtlasNuc.DisplayName: Atlas Nuc
+	AtlasItem.DisplayName: Atlas Item
+	LMSpawner.DisplayName: Spawner
+	WyrmChan.DisplayName: Wyrm Chan
+	VoidStar.DisplayName: Void Star
+	CruiserLaserMouth.DisplayName: Nihility Laser
+	VoidExplode.DisplayName: Void Explode
+	VoidMonumentProj.DisplayName: Void Monument Proj
+	Vmwave.DisplayName: Vmwave
+	MonumentGround.DisplayName: Monument Ground
+	VoidBottleThrow.DisplayName: Void Bottle Throw
+	BrokenChainsaw0.DisplayName: Broken Chainsaw
+	MechanicalChainsaw0.DisplayName: Mechanical Chainsaw
+	EnslavedStar0.DisplayName: Enslaved Star
+	Euangelion0.DisplayName: Euangelion
+	Pioneer0.DisplayName: Pioneer
+	CruiserSlash.DisplayName: Cruiser Slash
+	DoG.DisplayName: DoG
+	CruiserBlackhole.DisplayName: Cruiser Blackhole
+	CruiserBlackholeBullet.DisplayName: Cruiser Blackhole Bullet
+	VoidSpike.DisplayName: Void Spike
+	BHExp.DisplayName: Explosion
+	Rvshoot2.DisplayName: Rvshoot
+	CruiserLaser2.DisplayName: Cruiser Laser
+	AstrumDeus.DisplayName: Astrum Deus
+	AstralShot.DisplayName: Astral Shot
+	DarkFissure.DisplayName: Dark Fissure
+	DivingShield.DisplayName: Divine Shield
+	VoidEchoProj.DisplayName: Void Echo Proj
+	TwistedTwin.DisplayName: Twisted Twin
+	StormWeaverPet.DisplayName: Storm Weaver
+	VoidLaser.DisplayName: Void Laser
+	VoidBlaster.DisplayName: Void Blaster
+	VBSpawner.DisplayName: V B Spawner
+	Brimstone.DisplayName: Brimstone
+	LilBrimstone.DisplayName: Lil Brimstone
+	SilenceHook.DisplayName: Silence Hook
+	SilenceThrow.DisplayName: Silence Throw
+	AbyssPet.DisplayName: Abyss Pet
+	VoidPalProj.DisplayName: Void Pal Proj
+	WohShot.DisplayName: Woh Shot
+	VoidStarF.DisplayName: Void Star
+	WohLaser.DisplayName: Woh Laser
+	MelonCatProj.DisplayName: Melon Cat Proj
+	RuneSong.DisplayName: Rune Song
+	RuneSongProj.DisplayName: Rune Song Proj
+	RuneArrow.DisplayName: Rune Arrow
+	Rune.DisplayName: Rune
+	VoidAnnihilateProj.DisplayName: Void Annihilate Proj
+	VaProj.DisplayName: Va Proj
+	AuricBoulderProj.DisplayName: Auric Boulder Proj
+	SigPetProj.DisplayName: Sig Pet Proj
+	AuricBoulderProjFriendly.DisplayName: Auric Boulder Proj Friendly
+	MoonlightShieldBreak.DisplayName: Moonlight Shield Break
+	PlanetKiller.DisplayName: Planet Killer
+	PoTProj.DisplayName: Po T Proj
+	PoTPhantom.DisplayName: Po T Phantom
+	ShadewindLanceThrow.DisplayName: Shadewind Lance Throw
+	VoidRExp.DisplayName: Void R Exp
+	GhostdomWhisperHoldout.DisplayName: Ghostdom Whisper Holdout
+	VoidWraith.DisplayName: Void Wraith
+	VoidBullet.DisplayName: Void Bullet
+	VoidMonster.DisplayName: Void Symbiont
+	VoidMonsterShoot.DisplayName: Void Symbiont Shoot
+	RustyGrenadeProjectile.DisplayName: Rusty Grenade Projectile
+	GodSlayerRocket.DisplayName: God Slayer Rocket
+	GodSlayerRocketProjectile.DisplayName: God Slayer Rocket Projectile
+	GodSlayer.DisplayName: God Slayer
+	RailPulseBowProjectile.DisplayName: Rail Pulse Bow Projectile
+	JailerWhipProjectile.DisplayName: Jailer Whip Projectile
+	VoidLightBall.DisplayName: Void Light Ball
+	SpImpact.DisplayName: Sp Impact
+	SighterPin.DisplayName: Sighter Pin
+	VoidFeather.DisplayName: Void Feather
+	HugeLightBall.DisplayName: Huge Light Ball
+	HomingLightBall.DisplayName: Homing Light Ball
+	AbyssalLaser.DisplayName: Abyssal Laser
+	TwistedTwinMinion.DisplayName: Twisted Twin Minion
+	AbyssalDragonHoldout.DisplayName: Abyssal Dragon Holdout
+	AbyssDragonProj.DisplayName: Abyss Dragon Proj
+	AbyssalStar.DisplayName: Abyssal Star
+	SlimeYoyoProjectile.DisplayName: Slime Yoyo Projectile
+	OverloadFurnaceHoldout.DisplayName: Overload Furnace Holdout
+	LightningBall.DisplayName: Lightning Ball
+	Teletor.DisplayName: Teletor
+	MercySpawner.DisplayName: Mercy Spawner
+	HelhieimBlaster.DisplayName: Helhieim Blaster
+	MercyShoot.DisplayName: Mercy Shoot
+	HB.DisplayName: H B
+	EaterProj.DisplayName: Eater
+	LostSoulProj.DisplayName: Lost Soul
+	MantleBreak.DisplayName: Mantle Break
+	CruiserShadow.DisplayName: Cruiser Shadow
+	SamsaraCasketProj.DisplayName: Samsara Casket Proj
+	Recovery.DisplayName: Recovery
+	Dirge.DisplayName: Dirge
+	CyanSunshine.DisplayName: Cyan Sunshine
+	Asleep.DisplayName: Asleep
+	SacredJudge.DisplayName: Sacred Judge
+	SoulDissipate.DisplayName: Soul Dissipate
+	ZeratosHeart.DisplayName: Zeratos' Heart
+	e0.DisplayName: Effect
+	AsleepPhantom.DisplayName: Asleep Phantom
+	CyanFeather.DisplayName: Cyan Feather
+	RecoveryVineTop.DisplayName: Recovery Vine Top
+	RecoveryVine.DisplayName: Recovery Vine
+	FlowerSkeleton0.DisplayName: Flower Skeleton
+	LunarExplode0.DisplayName: Lunar Explode
+	FireDragonsRoar.DisplayName: Fire Dragons Roar
+	ZeratosBullet0.DisplayName: Zeratos Bullet
+	ZeratosFireball0.DisplayName: Zeratos Explode
+	SacrificalDagger.DisplayName: Sacrifical Dagger
+	TargetSetProj.DisplayName: Target Set
+	UhrwerkHammerCallout.DisplayName: Uhrwerk Hammer Callout
+	AquaticPet.DisplayName: Aquatic Pet
+	VoidRitualCircle.DisplayName: Void Ritual Circle
+	VPVoidLightBall.DisplayName: Void Light Ball
+	VPRot.DisplayName: Void Pope Hand
+	VoidshadeHeld.DisplayName: Voidshade
+	VoidImpact.DisplayName: Void Impact
+	BlackFire.DisplayName: Black Fire
+	RbCircle.DisplayName: Rb Circle
+	AquashardThrow.DisplayName: Aquashard Throw
+	RadianceSpearThrow.DisplayName: Radiance Spear Throw
+	HolyBeam.DisplayName: Holy Beam
+	AbyssalPiercerThrow.DisplayName: Abyssal Piercer Throw
+	AbyssalVortex.DisplayName: Abyssal Vortex
+	AbyssTentacle.DisplayName: Abyss Tentacle
+	AzureOfFirmamentThrow.DisplayName: Azure Of Firmament Throw
+	WelkinFeather.DisplayName: Welkin Feather
+	ArbitratorIIThrow.DisplayName: Arbitrator I I Throw
+	PoopNormalProjectile.DisplayName: Poop Normal Projectile
+	PoopBlackProjectile.DisplayName: Poop Black Projectile
+	BlueFlies.DisplayName: Blue Flies
+	PoopCornProjectile.DisplayName: Poop Corn Projectile
+	PoopFlamingProjectile.DisplayName: Poop Flaming Projectile
+	Flame.DisplayName: Flame
+	PoopBombProjectile.DisplayName: Poop Bomb Projectile
+	PoopGiantProjectile.DisplayName: Poop Giant Projectile
+	PoopStinkyProjectile.DisplayName: Poop Stinky Projectile
+	FartCloud.DisplayName: Fart Cloud
+	PoopStoneProjectile.DisplayName: Poop Stone Projectile
+	PoopWhiteProjectile.DisplayName: Poop White Projectile
+	PoopAuricProjectile.DisplayName: Poop Auric Projectile
+	PoopRedProjectile.DisplayName: Poop Red Projectile
+	PoopGoldenProjectile.DisplayName: Poop Golden Projectile
+	PoopRainbowProjectile.DisplayName: Poop Rainbow Projectile
+	PoopWulfrumProjectile.DisplayName: Poop Wulfrum Projectile
+	PoopVoidProjectile.DisplayName: Poop Void Projectile
+	DSPet.DisplayName: D S Pet
+	NetherRiftBlade.DisplayName: Nether Rift Blade
+	BloodRing.DisplayName: Blood Ring
+	HolyBeamRevelation.DisplayName: Holy Beam Revelation
+	PsyFlyProj.DisplayName: Psy Fly Proj
+	AnimaChain.DisplayName: Anima Chain
+	LightWisperFlame.DisplayName: Light Wisper Flame
+	OblivionArrow.DisplayName: Oblivion Arrow
+	OblivionHoldout.DisplayName: Oblivion
+	EyeOfIlmerisHoldout.DisplayName: Eye Of Ilmeris
+	IlmerisWaterBullet.DisplayName: Ilmeris Water
+	GravityGazeBullet.DisplayName: Gravity Gaze
+	GravityGazeHoldout.DisplayName: Gravity Gaze
+	DivineRadienceBullet.DisplayName: Divine Radience
+	DivineRadienceHoldout.DisplayName: Divine Radience
+	NightProjectionHoldout.DisplayName: Night Projection
+	ProjectionStar.DisplayName: Projection Star
+	ProjectionStarSplit.DisplayName: Projection Star Split
+	ProjectionStarSplitAlt.DisplayName: Projection Star Split
+	LunarLightball.DisplayName: Lunar Lightball
+	OverloadLunarHoldout.DisplayName: Overload Lunar
+	EyeOfOthersideHoldout.DisplayName: Eye Of Otherside
+	EndlessAbyssHoldout.DisplayName: Endless Abyss
+	EndlessAbyssLaser.DisplayName: Endless Abyss Laser
+	Tail.DisplayName: Tail
+	CellBullet.DisplayName: Cell Bullet
+	CellSpike.DisplayName: Cell Spike
+	VoidseekerProj.DisplayName: Voidseeker
+	NihilityFire.DisplayName: Nihility Fire
+	NihilityMinion.DisplayName: Nihility Minion
+	NihilityEnergyBall.DisplayName: Nihility Energy Ball
+	WispLanternProj.DisplayName: Wisp Lantern
+	VitalfeatherProjectile.DisplayName: Vitalfeather Projectile
+	DragonGoldenFire.DisplayName: Dragon Golden Fire
+	WindOfUndertakerProjectile.DisplayName: Wind Of Undertaker Projectile
+	HadopelagicEchoIIProj.DisplayName: Hadopelagic Echo II
+	HadopelagicLaser.DisplayName: Hadopelagic Laser
+	HadopelagicWail.DisplayName: Hadopelagic Wail
+	StarlessNightProj.DisplayName: Starless Night
+	WhipOfServiceProjectile.DisplayName: Whip Of Service Projectile
+	XytheronProj.DisplayName: Xytheron
+	WyrmDash.DisplayName: Wyrm Dash
+	AbyssalCrack.DisplayName: Abyssal Crack
+	TheEnd.DisplayName: The End
+	TheBeginning.DisplayName: The Beginning
+	SoulOfEcho.DisplayName: Soul Of Echo
+	Echo.DisplayName: Echo
+	SoulOfEclipse.DisplayName: Soul Of Eclipse
+	YstralynProj.DisplayName: Ystralyn Proj
+	PhantomWyrm.DisplayName: Phantom Wyrm
+	NihilityVirus.DisplayName: Nihility Virus
+	AnnihilateArrowProjectile.DisplayName: Annihilate Arrow Projectile
+	AnnihilateArrowSplit.DisplayName: Annihilate Arrow Split
+	NegentropyBulletProjectile.DisplayName: Negentropy Bullet Projectile
+	ZyphrosCrystal.DisplayName: Zyphros Crystal
+	ElectricLaser.DisplayName: Electric Laser
+	Pioneer1.DisplayName: Pioneer1
+	NyxolithrakenDragon.DisplayName: Nyxolith Dragon
+	NxCrack.DisplayName: Abyssal Crack
+	WaterExplosion.DisplayName: Water Explosion
+	BrimstoneBarrageFriendly.DisplayName: Brimstone Barrage Friendly
+	PlanteraChan.DisplayName: Plantera Chan
+	AmethystFrisbeeProjectile.DisplayName: Amethyst Frisbee Projectile
+	AmethystExplosion.DisplayName: Amethyst Explosion
+	AncientScripturesHeld.DisplayName: Ancient Scriptures
+	RuneBullet.DisplayName: Rune Bullet
+	WelkinFeather2.DisplayName: Welkin Feather
+	IceEdge2.DisplayName: Ice Edge
+	BrimstoneVortex.DisplayName: Brimstone Vortex
+	InfiniteBookHeld.DisplayName: Infinite Book
+	DarkSoul.DisplayName: Dark Soul
+	LightSoul.DisplayName: Light Soul
+	AstralBullet.DisplayName: Astral Bullet
+	AstralExplosion.DisplayName: Astral Explosion
+	Detector.DisplayName: Detector
+	TerraBoulder.DisplayName: Terra Boulder
+	AbyssBookmarkCrack.DisplayName: Abyss Bookmark Crack
+	VoidBurst.DisplayName: Void Burst
+	SilvaSoul.DisplayName: Silva Soul
+	GoozmaStarShot.DisplayName: Goozma Star
+	NovaSlimerProj.DisplayName: Nova Slime
+	AriesExplosion.DisplayName: Aries Explosion
+	DecayPactMaelstrom.DisplayName: Decay Pact Maelstrom
+	WarPactApollo.DisplayName: War Pact Apollo
+	WarPactArtemis.DisplayName: War Pact Artemis
+	ExoShot1.DisplayName: Exo Shot
+	ArMinionLaser.DisplayName: Exo Laser
+	UpdraftBullet.DisplayName: Updraft Bullet
+	UpdraftTomeHeld.DisplayName: Updraft Tome
+	RedemptionSpear.DisplayName: Redemption Spear
+	RedemptionBibleHeld.DisplayName: Redemption Bible
+	RedemptionArrow.DisplayName: Redemption Arrow
+	RedemptionBow.DisplayName: Redemption Bow
+	NightEpicHeld.DisplayName: Night Epic
+	NightStar.DisplayName: Night Star
+	AshTranscriptHeld.DisplayName: Ash Transcript
+	ATLaser.DisplayName: Ash Laser
+	VoidOdeHeld.DisplayName: Void Ode
+	SighterPinFriendly.DisplayName: Sighter Pin Friendly
+	ControlTerminalHeld.DisplayName: Control Terminal
+	ExoWhirl.DisplayName: Exo Whirl
+	WhirlExobeam.DisplayName: Whirl Exobeam
+	TabooVolumeHeld.DisplayName: Taboo Volume
+	BrimstoneHellblastFriendly.DisplayName: Brimstone Hellblast
+	JewelRuby.DisplayName: Jewel Ruby
+	RubyProj.DisplayName: Ruby Proj
+	JewelEmerald.DisplayName: Jewel Emerald
+	JewelSapphire.DisplayName: Jewel Sapphire
+	NetherRiftCrack.DisplayName: Nether Rift Crack
+	CrystedgeWhipSpawner.DisplayName: Crystedge Whip Spawner
+	CrystedgeProj.DisplayName: Crystedge Proj
+	CrystedgeCrystalSmall.DisplayName: Crystedge Crystal Small
+	CrystedgeCrystalMid.DisplayName: Crystedge Crystal Mid
+	CrystedgeCrystalBig.DisplayName: Crystedge Crystal Big
+	ToiletLaser.DisplayName: Void Laser
+	ToiletVoidPoop.DisplayName: Toilet Void Poop
+	SinewLashProj.DisplayName: Sinew Lash Proj
+	ProminenceSplitShot.DisplayName: Prominence Split Shot
+	BatteringRamProj.DisplayName: Battering Ram Proj
+	BatteringRamShell.DisplayName: Battering Ram Shell
+	MindCorruptorProj.DisplayName: Mind Corruptor Proj
+	CorruptStrike.DisplayName: Corrupt Strike
+	RuneTorrent.DisplayName: Rune Torrent
+	RuneBulletHostile.DisplayName: Rune Bullet Hostile
+	RuneCrystalTop.DisplayName: Rune Crystal Top
+	ProphetRune.DisplayName: Prophet Rune
+	ProphetLightning.DisplayName: Prophet Lightning
+	FableEye.DisplayName: Foresee Eye
+	RuneSword.DisplayName: Rune Sword
+	ProphetVoidSpike.DisplayName: Prophet Void Spike
+	UrnOfSoulsHoldout.DisplayName: Urn Of Souls Holdout
+	UrnSoulFire.DisplayName: Urn Soul Fire
+	WelkingShield.DisplayName: Welking Shield
+	SpiritBannerMinion.DisplayName: Spirit Banner
+	SpiritLightSoul.DisplayName: Spirit
+	RuneTorrentRanger.DisplayName: Rune Torrent Ranger
+	FutureKnife.DisplayName: Future Knife
+	ProphecyRune.DisplayName: Prophecy Rune
+	ProphecyRuneBM.DisplayName: Prophecy Rune
+	CruiserEnergyBall.DisplayName: Cruiser Energy Ball
+	VoidResidue.DisplayName: Void Residue
+	VoidBomb.DisplayName: Void Bomb
+	HiveArrowProjectile.DisplayName: Hive Arrow Projectile
+	BeeSpike.DisplayName: Bee Spike
+	HiveBulletProjectile.DisplayName: Hive Bullet Projectile
+	SmallBee.DisplayName: Small Bee
+	SolarStormHeld.DisplayName: Solar Storm Held
+	SolarStormExplosionProj.DisplayName: Solar Storm Explosion Proj
+	TheDeadCutProjectile.DisplayName: The Dead Cut Projectile
+	CondensedBulletProjectile.DisplayName: Condensed Bullet Projectile
+	ProphetRuneAlt.DisplayName: Prophet Rune Alt
+	ShatteredFractalHeld.DisplayName: Shattered Fractal Held
+	TopazJewelProjectile.DisplayName: Topaz Jewel Projectile
+	FractalShoot.DisplayName: Fractal Shoot
+	WelkinFractalHeld.DisplayName: Welkin Fractal Held
+	FractalBeam.DisplayName: Fractal Beam
+	FractalFeather.DisplayName: Fractal Feather
+	BrilliantFractalHeld.DisplayName: Brilliant Fractal Held
+	FractalBlight.DisplayName: Fractal Blight
+	FractalShadow.DisplayName: Fractal Shadow
+	BrokenHiltHeld.DisplayName: Broken Hilt Held
+	ElementalFractalHeld.DisplayName: Elemental Fractal Held
+	ElementalFractalThrown.DisplayName: Elemental Fractal Thrown
+	StarlitFractalHeld.DisplayName: Starlit Fractal Held
+	FractalStarBlade.DisplayName: Fractal Star Blade
+	FractalStar.DisplayName: Fractal Star
+	AbyssFractalHeld.DisplayName: Abyss Fractal Held
+	AbyssalBlade.DisplayName: Abyssal Blade
+	AbyssalBullet.DisplayName: Abyssal Bullet
+	AstralStarMelee.DisplayName: Astral Star Melee
+	FractalGhostBlade.DisplayName: Fractal Ghost Blade
+	SpiritFractalHeld.DisplayName: Spirit Fractal Held
+	VoidFractalHeld.DisplayName: Void Fractal Held
+	FractalLaser.DisplayName: Fractal Laser
+	VoidSlash.DisplayName: Void Slash
+	VoidWave.DisplayName: Void Wave
+	BurntBrimShot.DisplayName: Burnt Brim Shot
+	BurntLostClassicsHeld.DisplayName: Burnt Lost Classics Held
+	ForeseeEye.DisplayName: Foresee Eye
+	ProphecyMasterpieceHeld.DisplayName: Prophecy Masterpiece Held
+	ForeseeWhipProj.DisplayName: Foresee Whip Proj
+	EndlessChopping.DisplayName: Endless Chopping
+	EndSkillOrbOnSpan.DisplayName: End Skill Orb On Span
+	EXNemesisProj.DisplayName: E X Nemesis Proj
+	NemesisAlt.DisplayName: Nemesis Alt
+	NemesisHeld.DisplayName: Nemesis Held
+	NemesisProj.DisplayName: Nemesis Proj
+	SpwanTextProj.DisplayName: Spwan Text Proj
+	BaseKnife.DisplayName: Base Knife
+	LashingBramblerodProjectile.DisplayName: Lashing Bramblerod Projectile
+	SilvaVine.DisplayName: Silva Vine
+	FinalFractalHeld.DisplayName: Final Fractal Held
+	FinalFractalBlade.DisplayName: Final Fractal Blade
+	FinalFracRightClick.DisplayName: Final Frac Right Click
+	HealingSpirit.DisplayName: Healing Spirit
+	ProfPetG1.DisplayName: Prof Pet
+	ProfPetG2.DisplayName: Prof Pet
+	ProfPetG3.DisplayName: Prof Pet
+	ProfPet.DisplayName: Prof Pet
+	LuminarisAstralShoot.DisplayName: Luminaris Astral Shoot
+	LuminarisVortex.DisplayName: Luminaris Vortex
+	LuminarisSpikeBlue.DisplayName: Luminaris Spike Blue
+	LuminarisSpikeRed.DisplayName: Luminaris Spike Red
+	LuminarisTriangleShootRed.DisplayName: Luminaris Triangle Shoot Red
+	LuminarisTriangleShootBlue.DisplayName: Luminaris Triangle Shoot Blue
+	StarlitPiercerHeld.DisplayName: Starlit Piercer Held
+	FriendlyAstralShoot.DisplayName: Friendly Astral Shoot
+	IlmeranVortex.DisplayName: Ilmeran Vortex
+	StarSootSmoke.DisplayName: Star Soot Smoke
+	Starblight.DisplayName: Starblight
+	AzAAGunHoldout.DisplayName: Antiaircraft Gun Holdout
+	AntiaircraftShell.DisplayName: Antiaircraft Shell
+	AzAGShot.DisplayName: Antiaircraft Shot
+	RockBulletShot.DisplayName: Rock Bullet Shot
+	LunarPlankThrow.DisplayName: Lunar Plank Throw
+	CommonExplotion.DisplayName: Explotion
+	CommonExplotionFriendly.DisplayName: Explotion
+	StarblightRogue.DisplayName: Starblight
+	MoonlightSwordHeld.DisplayName: Moonlight Sword Held
+	MoonlightShoot.DisplayName: Moonlight Shoot
+	BlackKnife.DisplayName: Black Knife
+	TeslaBall.DisplayName: Tesla Ball
+	TeslaLightning.DisplayName: Tesla Lightning
+	ApcHoldout.DisplayName: Apc Holdout
+	ShadowMantleSlash.DisplayName: Shadow Mantle Slash
+	BoobyMine.DisplayName: Booby Mine
+	BrimstoneGigaBlastFriendly.DisplayName: Brimstone Giga Blast Friendly
+	BrimstoneShootSmall.DisplayName: Brimstone Shoot Small
+	WristTornado.DisplayName: Wrist Tornado
+	SolarArrowSpawner.DisplayName: Solar Arrow Spawner
+	SolarArrow.DisplayName: Solar Arrow
+	ShadowKnife.DisplayName: Shadow Knife
+	ShadowShoot.DisplayName: Shadow Shoot
+	ShadowSpawner.DisplayName: Shadow Spawner
+	AntivoidSlash.DisplayName: Antivoid Slash
+	AntivoidDash.DisplayName: Antivoid Dash
+	LuminarGrave.DisplayName: Luminar Grave
+	AntivoidMark.DisplayName: Antivoid Mark
+	InkTrail.DisplayName: Ink Trail
+	PenMinion.DisplayName: Pen Minion
+	ShadowRuneVanity.DisplayName: Shadow Rune Vanity
+	Pooney.DisplayName: Pooney
+	AcropolisTeslaBall.DisplayName: Acropolis Tesla Ball
+	OblivionThresherHoldout.DisplayName: Oblivion Thresher Holdout
+	OblivionThresherShoot.DisplayName: Oblivion Thresher Shoot
+	OblivionCruiserDash.DisplayName: Oblivion Cruiser Dash
+	OblivionThresherShootAlt.DisplayName: Oblivion Thresher Shoot Alt
+	TerrorOfAbyssHeld.DisplayName: Terror Of Abyss Held
+	ScorchingShell.DisplayName: Scorching Shell
+	PFKnifeHeld.DisplayName: Propechey Knife Held
+	FilthyCircle.DisplayName: Filthy Circle
+	FilthyProjectile.DisplayName: Filthy Projectile
+	FilthyShootAlt.DisplayName: Filthy Shoot Alt
+	BramblecleaveHeld.DisplayName: Bramblecleave Held
+	BrambleVine.DisplayName: Bramble Vine
+	VineHookHit.DisplayName: Vine Hook Hit
+	BramblecleaveAlt.DisplayName: BramblecleaveAlt
+	BrambleShoot.DisplayName: Bramble Shoot
+	SRDamageRect.DisplayName: S R Damage Rect
+	SpiritBullet.DisplayName: Spirit Bullet
+	SpiritLaser.DisplayName: Spirit Laser
+	TrueMoonlightShoot.DisplayName: True Moonlight Shoot
+	TrueMoonlightSwordHeld.DisplayName: True Moonlight Sword Held
+	DarkBladeHeld.DisplayName: Dark Blade Held
+	DarkBladeShoot.DisplayName: Dark Blade Shoot
+	SpiritWave.DisplayName: Spirit Wave
+	LushGrassclassicsHeld.DisplayName: Lush Grassclassics Held
+	LushVine.DisplayName: Lush Vine
+	MiracleShoot.DisplayName: Miracle Shoot
+	MiracleWreckageHeld.DisplayName: Miracle Wreckage Held
+	Theostring.DisplayName: Theostring
+	AzafureFurnaceEnergyBall.DisplayName: Azafure Furnace Energy Ball
+	AzafureFurnaceHoldout.DisplayName: Azafure Furnace Holdout
+	FurnaceBlast.DisplayName: Furnace Blast
+	AzafurePulseWandHeld.DisplayName: Azafure Pulse Wand Held
+	TeslaLightningRed.DisplayName: Tesla Lightning Red
+	SandBullet.DisplayName: Sand Bullet
+	AzafureSurgeRodHeldEffect.DisplayName: Azafure Surge Rod Held Effect
+	AzafureSurgeRodThrow.DisplayName: Azafure Surge Rod Throw
+	StarlightMothMinion.DisplayName: Starlight Moth Minion
+	LuminarisMinionAstralShoot.DisplayName: Luminaris Minion Astral Shoot
+	AzafureRailgunHeld.DisplayName: Azafure Railgun Held
+	RailgunChargeShot.DisplayName: Railgun Charge Shot
+	RailgunSmallShot.DisplayName: Railgun Small Shot
+	AzafureDroneMinion.DisplayName: Azafure Drone Minion
+	AzafureDroneBullet.DisplayName: Azafure Drone Bullet
+	AzafureHealingTowerSentry.DisplayName: Azafure Healing Tower Sentry
+	AzafureProtectiveCannonShot.DisplayName: Azafure Protective Cannon Shot
+	ATBMProjectile.DisplayName: ATBM Projectile
+	TlipocasScytheHeld.DisplayName: Tlipocas Scythe Held
+	TSSlash.DisplayName: T S Slash
+	TlipocasScytheThrow.DisplayName: Tlipocas Scythe Throw
+	BloodCrack.DisplayName: Blood Crack
+	HowlingCannonHeld.DisplayName: Howling Cannon Held
+	HowlingBullet.DisplayName: Howling Bullet
+	HowlingLaser.DisplayName: Howling Laser
+	FractalStarblight.DisplayName: Fractal Starblight
+	Molightpet.DisplayName: Molightpet
+	MalignHeld.DisplayName: Malign Held
+	MalignBullet.DisplayName: Malign Bullet
+	MalignLightning.DisplayName: Malign Lightning
+	MalignLaser.DisplayName: Malign Laser
+	AzafurePowerSawProj.DisplayName: Azafure Power Saw Proj
+	AzafureElectrocauteryWandHeld.DisplayName: Azafure Electrocautery Wand Held
+	AzafureElectrocauteryWandBomb.DisplayName: Azafure Electrocautery Wand Bomb
+	Snowgrave.DisplayName: Snowgrave
+	DedicatedOracleSlashProj.DisplayName: Dedicated Oracle Slash Proj
+	ALMGLaser.DisplayName: ALMG Laser
+	AzafureLightMachineGunHeld.DisplayName: Azafure Light Machine Gun Held
+	AzafureLightMachineGunStealth.DisplayName: Azafure Light Machine Gun Stealth
+	ALMGShell.DisplayName: ALMG Shell
+	PickingSwarm.DisplayName: Picking Swarm
+	BMHammerProjectile.DisplayName: Hammer
+	CrossBorderPursuitProj.DisplayName: Cross Border Pursuit
+	CBPSmash.DisplayName: Smash
+	BMSwordProjectile.DisplayName: Sword
+	AzafureEKatanaSlash.DisplayName: Azafure E-Katana Slash
+	AzafureCogflyMinion.DisplayName: Azafure Cogfly Minion
+	GungnirThrow.DisplayName: Gungnir Throw
+	Sorensen.DisplayName: Sorensen
+	FetalDreamSlash.DisplayName: Fetal Dream Slash
+	DustCarverHeld.DisplayName: Dust Carver Held
+	CarverSpike.DisplayName: Carver Spike
+	CarverBolt.DisplayName: Carver Bolt
+	CarverSpirit.DisplayName: Carver Spirit
+	AzafureRadioMissile.DisplayName: Azafure Radio Missile
+	MissileSilo.DisplayName: Missile Silo
+	SentryRemoverHeld.DisplayName: Sentry Remover Held
+	AzafureAirReaperThrow.DisplayName: Azafure Air Reaper Throw
+	FairyBMMinion.DisplayName: Fairy
+	AzafureCylinderHeld.DisplayName: Azafure Cylinder Held
+	MetalBall.DisplayName: Metal Ball
+	AzafureMagicBlast.DisplayName: Azafure Magic Blast
+	Stinger.DisplayName: Stinger
+	ExplosiveSpore.DisplayName: Explosive Spore
+	SporeGas.DisplayName: Spore Gas
+	AzureRapierHeld: Azure Rapier
+	AzureRapierBlockSlash: Azure Rapier Slash
+	DarkScriptureHeld.DisplayName: Dark Scripture Held
+	DarkBullet.DisplayName: Dark Bullet
+	SelenbiteStar.DisplayName: Selenbite Star
+	SelenbiteVolumeHeld.DisplayName: Selenbite Volume Held
+	IllusoryBladeMinion.DisplayName: Illusory Blade Minion
+	MetallicChunkProj.DisplayName: Metallic Chunk Proj
+	LacewingBMMinion.DisplayName: Lacewing
+	WulfrumBMDrone.DisplayName: Wulfrum Drone
+	WulfrumScrapProj.DisplayName: Wulfrum Scrap Proj
+	NucLauncher.DisplayName: Nuc Launcher
+	PeaceJR.DisplayName: Peace JR
+	VENihilityLaser.DisplayName: Nihility Laser
+	ChaoticCellMinion.DisplayName: Chaotic Cell Minion
+	CosmicBlessingHeld.DisplayName: Cosmic Blessing Held
+	CosmicDeathRay.DisplayName: Cosmic Death Ray
+	CharredMissleProj.DisplayName: Charred Missle Proj
+	BrimHomingBullet.DisplayName: Brim Homing Bullet
+	PlagueMissle.DisplayName: Plague Missle
+	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
+	BMDirtProj.DisplayName: Tile
+	TrainingSwordProj.DisplayName: Training Sword Proj
+	WaterBolt.DisplayName: Water Bolt
+	WOHHeld.DisplayName: WoH Held
+	FractalAbyssalBlade.DisplayName: Fractal Abyssal Blade
+	DepletionBullet.DisplayName: Depletion Bullet
+	DepletionHeld.DisplayName: Depletion Held
+	DepletionLaser.DisplayName: Depletion Laser
+	AmnestyBullet.DisplayName: Amnesty Bullet
+	AmnestyHeld.DisplayName: Amnesty Held
+	AmnestyLaser.DisplayName: Amnesty Arc
+	AmnestyMiniLaser.DisplayName: Amnesty Mini Laser
+}
+
+LegendTooltip: - Legend -
+KilledByVoidTouch: 虚無に飲み込まれた
+
+Buffs: {
+	VoidStorm: {
+		DisplayName: 虚無の嵐
+		Description: 虚無の最も深い部分からの視線
+	}
+
+	VoidTouch: {
+		Description: ""
+		DisplayName: 虚空の触手
+	}
+
+	WyrmChanBuff: {
+		DisplayName: ワームちゃん
+		Description: ワームちゃんはあなたをどう思っているのだろうか
+	}
+
+	YharimPower: {
+		DisplayName: ヤリムの力
+		Description: 『ワンパンマン』にあこがれたのかな
+	}
+
+	DoGBuff: {
+		DisplayName: DoG
+		Description: DoG
+	}
+
+	AstrumDeusBuff: {
+		DisplayName: 神聖なる残滓
+		Description: ""
+	}
+
+	WeakGravity: {
+		DisplayName: 微弱重力
+		Description: ""
+	}
+
+	DivingShieldCooldown: {
+		Description: ""
+		DisplayName: 神聖な盾のクールダウン
+	}
+
+	TwistedTwinBuff: {
+		Description: ""
+		DisplayName: ねじれたツインズ
+	}
+
+	Rainstorm: {
+		DisplayName: 暴風雨
+		Description: ""
+	}
+
+	LilBrimstoneBuff: {
+		Description: 邪悪な友人
+		DisplayName: リル・ブリムストーン
+	}
+
+	AbyssBuff: {
+		DisplayName: アビス
+		Description: ""
+	}
+
+	VoidPal: {
+		Description: ""
+		DisplayName: 虚無の守護者
+	}
+
+	SoyMilkBuff: {
+		Description: 攻撃速度が上がり、ダメージが下がる
+		DisplayName: 豆乳
+	}
+
+	StealthState: {
+		Description: ""
+		DisplayName: ステルス状態
+	}
+
+	MelonCatBuff: {
+		Description: ""
+		DisplayName: メロンの猫
+	}
+
+	DevourersAssassin: {
+		DisplayName: ゴッドスレイヤーアサシン
+		Description: 三人の小さな使徒の一人
+	}
+
+	DevourerAndTheApostles: {
+		Description: '''『四身一体』'''
+		DisplayName: DoGとその使徒たち
+	}
+
+	PlanetDestroyer: {
+		DisplayName: 惑星破壊者
+		Description: 惑星の破壊者があなたのために戦う
+	}
+
+	JailerWhipDebuff: {
+		Description: ""
+		DisplayName: 看守の鞭のタグ
+	}
+
+	TeletorBuff: {
+		DisplayName: テレトール
+		Description: ""
+	}
+
+	EaterBuff: {
+		DisplayName: Eater
+		Description: ""
+	}
+
+	LostSoulBuff: {
+		DisplayName: 魂の欠如
+		Description: ""
+	}
+
+	AquaticChan: {
+		Description: '''ｶﾜｲｲ !!'''
+		DisplayName: アクアティックちゃん
+	}
+
+	Deceive: {
+		Description: スピードダウン
+		DisplayName: 詐称
+	}
+
+	VoidCandleBuff: {
+		DisplayName: 虚空のロウソク
+		Description: ""
+	}
+
+	DustyWhistleBuff: {
+		Description: ""
+		DisplayName: ほこりっぽい笛
+	}
+
+	AquaticAmuletBuff: {
+		Description: ""
+		DisplayName: 水生のお守り
+	}
+
+	NihilityBacteriophageBuff: {
+		DisplayName: 虚空のバクテリオファージ
+		Description: 小さな虚無のバクテリオファージがあなたのために戦う
+	}
+
+	DragonWhipDebuff: {
+		Description: ""
+		DisplayName: Dragon Whip Tag
+	}
+
+	CruiserWhipDebuff: {
+		DisplayName: Cruiser Whip Tag
+		Description: ""
+	}
+
+	ServiceBuff: {
+		Description: ダメージ、攻撃速度、クリティカル率を増加させる
+		DisplayName: ほら、喜べ
+	}
+
+	EclipsedImprint: {
+		DisplayName: 覆い隠された刻印
+		Description: ""
+	}
+
+	StareOfTheAbyss: {
+		DisplayName: 深淵の凝視
+		Description: ""
+	}
+
+	WyrmWhipDebuff: {
+		Description: ""
+		DisplayName: ワーム・ウィップのデバフ
+	}
+
+	WyrmPhantom: {
+		DisplayName: ワーム・ファントム
+		Description: ""
+	}
+
+	VoidVirus: {
+		DisplayName: 虚無ウイルス
+		Description: ""
+	}
+
+	NyxolithrakenBuff: {
+		DisplayName: ニクソリス・ドラゴン
+		Description:
+			'''
+			ニクソリス・ドラゴンが君のために戦う
+			「深淵から降臨した」
+			'''
+	}
+
+	AbyssalWrath: {
+		Description: ダメージを増やす
+		DisplayName: アビスの激怒
+	}
+
+	PlanteraChanBuff: {
+		DisplayName: プランテラちゃん
+		Description: ""
+	}
+
+	NoHeal: {
+		DisplayName: 無回復
+		Description: 回復なんて甘いものに頼るな
+	}
+
+	MaliciousCode: {
+		DisplayName: 悪意のあるコード
+		Description: こ れ は 悪 意 だ
+	}
+
+	SpiritGathering: {
+		Description: ""
+		DisplayName: 精霊の集い
+	}
+
+	SoulDisorder: {
+		Description: ""
+		DisplayName: 魂の混乱
+	}
+
+	ShatteredOrb: {
+		DisplayName: 砕けたオーブ
+		Description: ""
+	}
+
+	HeatDeath: {
+		DisplayName: 熱的死
+		Description: ???
+	}
+
+	GuardiansBuff: {
+		DisplayName: ガーディアンズ
+		Description: ""
+	}
+
+	ProfBuff: {
+		DisplayName: プロビデンス
+		Description: ""
+	}
+
+	ProfNGuardBuff: {
+		DisplayName: 硫黄ケーキ
+		Description: ""
+	}
+
+	WindPressure: {
+		DisplayName: 風圧
+		Description: 旋風があなたの周りを巻き込む
+	}
+
+	PenMountBuff: {
+		DisplayName: レプリカのペン
+		Description: 君を誇りに思うよ。
+	}
+
+	ConsecratedRefuge: {
+		DisplayName: 聖別された避難所
+		Description: ""
+	}
+
+	ManaAwaken: {
+		DisplayName: マナ覚醒
+		Description: 『真なる魔術を見せてやれ』
+	}
+
+	ManaCaress: {
+		DisplayName: マナの愛撫
+		Description: 生気を取り戻しつつある
+	}
+
+	ManaPray: {
+		DisplayName: 魔力祈祷
+		Description: あなたの体は死を拒絶している
+	}
+
+	ManaVein: {
+		DisplayName: マナ静脈
+		Description: 魔法クリティカル率とクリティカルダメージを増加させる
+	}
+
+	StarlightMoth: {
+		DisplayName: 星明りの蛾
+		Description: 星明かりの蛾は君のために戦う
+	}
+
+	AzafureDrone: {
+		DisplayName: アザフレ製のドローン
+		Description: アザフレ製のドローン は君のために戦う
+	}
+
+	VoidEmpowerment: {
+		DisplayName: 虚無の強化
+		Description: ""
+	}
+
+	MomosLightPetBuff: {
+		DisplayName: モモスの光 ペットバフ
+		Description: ""
+	}
+
+	PickingSwarmBuff: {
+		DisplayName: 群れを集める
+		Description: 群れがコインを選んでくれる！
+	}
+
+	CogflyBuff: {
+		DisplayName: コグフライ
+		Description: アザフレ・コグフライがあなたのために戦う
+	}
+
+	ChaosTyrant: {
+		DisplayName: カオス・タイラント
+		Description: ""
+	}
+
+	Koishi: {
+		DisplayName: ストーン
+		Description: ""
+	}
+
+	LifeOppress: {
+		DisplayName: 人生の抑圧
+		Description: あなたは自分の死を見た
+	}
+
+	MechanicalTrauma: {
+		DisplayName: 機械的外傷
+		Description: 全身に痛みを感じる
+	}
+
+	IllusoryBlade: {
+		DisplayName: 幻影の刃
+		Description: 幻の刃が君のために戦う
+	}
+}
+
+Uh: ""
+
+NPCs: {
+	LotteryMachine.DisplayName: 宝くじマシン
+	CruiserTail.DisplayName: クルーザー
+
+	CruiserHead: {
+		DisplayName: クルーザー
+
+		BossChecklistIntegration: {
+			EntryName: クルーザー
+			SpawnInfo: "[i:CalamityEntropy/VoidBottle] を投げる"
+			DespawnMessage: クルーザー はあなたを見失った
+		}
+	}
+
+	CruiserBody.DisplayName: クルーザー
+	AbyssalWraith.DisplayName: アビスの亡霊
+	VoidCultistAssassin.DisplayName: 虚無の信徒暗殺者
+	VoidPope.DisplayName: 虚無の教皇
+	VoidPopeHand.DisplayName: 虚無の教皇の手
+	Delirium.DisplayName: せん妄
+
+	PrimordialWyrmNPC: {
+		TownNPCMood: {
+			NoHome: とても心躍る戦いだった、おめでとう...さて、住処を提供してくれ。
+			Content: ありがとう、ここは楽しくて愉快だ。
+			FarFromHome: ここはどこだ？
+			LoveSpace: この住処は広くて住みやすい。
+			DislikeCrowded: ...少しにぎやかすぎるな。
+			HateCrowded: 私は人込みが嫌いだ。
+			LikeNPC_Princess: "{NPCName}、やつだけは守らなければ。"
+			Princess_LovesNPC: "{NPCName}、私はやつがいると心が鎮まるのだ。"
+		}
+
+		DisplayName: 原初の巨竜
+		Census.SpawnCondition: 条件不明
+	}
+
+	NihilityActeriophage: {
+		DisplayName: 虚無の食星者
+
+		BossChecklistIntegration: {
+			EntryName: 虚空のツインズ
+			SpawnInfo: "[i:CalamityEntropy/NihilityHorn] を使う"
+			DespawnMessage: 虚空のツインズ はあなたへの興味を失った。
+		}
+	}
+
+	ChaoticCell.DisplayName: カオス細胞
+	ChaoticCellSmall.DisplayName: ちいさなカオス細胞
+	DespairStoneFriendly.DisplayName: 友好な絶望の石
+	ScryllarFriendly.DisplayName: 友好なすくりらー
+	AeroSlimeFriendly.DisplayName: 友好なエアロスライム
+	SoulSlurperFriendly.DisplayName: 友好なソウルスラーパー
+	SkyfinFriendly.DisplayName: 友好なスカイフィン
+	IceClasperFriendly.DisplayName: 友好なアイスクラッパ
+
+	TheProphet: {
+		DisplayName: 預言者
+
+		BossChecklistIntegration: {
+			EntryName: 預言者
+			SpawnInfo: ダンジョンで[i:CalamityEntropy/ProphecyToken]を掲げよ
+			DespawnMessage: 預言者 はあなたの未来を謁見し終わった
+		}
+	}
+
+	TopazJewel.DisplayName: 宝石『トパーズ』
+
+	Luminaris: {
+		DisplayName: ルミナリス
+
+		BossChecklistIntegration: {
+			EntryName: ルミナリス
+			SpawnInfo: "[i:CalamityEntropy/IllusionaryDew]をアストラル汚染地帯で使う"
+			DespawnMessage: ルミナリス はアストラルに消えていった
+		}
+	}
+	
+	AcropolisMachine: {
+		DisplayName: アクロポリス・マシン
+
+		BossChecklistIntegration: {
+			EntryName: アクロポリス・マシン
+			SpawnInfo: ブリムストーンクラッグバイオームで自然生成
+			DespawnMessage: アクロポリス・マシン はあなたを検知できなかった
+		}
+	}
+
+	Harpoon.DisplayName: 銛
+	SpiritFountain.DisplayName: 精霊の泉
+	SpiritRing.DisplayName: スピリットリング
+}
+
+WyrmChatNoHome: これからどこへ行くの？!
+WyrmChat1: 時々ドアをくぐる時に引っかかって、ドアの枠を壊しちゃうんだ！
+WyrmChat2: 今まで横向きで寝たことがないんだよね。
+WyrmChat3: あ、あなた強くない...？従うからそばにいさせてっ！
+WyrmChat4: 終焉の遺物？何に使うかなんもわからなかったけど、とりあえず大事にもってて！
+WyrmChat5: 私の信者がいるみたい...気になってきちゃう！
+WyrmChat6: アビスってほんと息苦しいよね...たまには水面にでも出てきれいな空気でも吸おうよ！...あっ、上はピリピリしてるんだった...。
+WyrmChat7: なんで私はあなたに従うのかって？光を奪った悪党を邪魔するために、だよ！
+WyrmChat8: アビスって風景もやることもないからさ、暇になっちゃうんだよね。
+WyrmChat9: 私とあの『カラミタス』って女の子、どっちが強いと思う？
+WyrmChat10: なんで私があの時あなたを襲ったのかって？私の神聖なアイテムを守るためなんだよ。
+WyrmChat11: カオス...私の嫌いな言葉だよ。もう二度と言わないで。
+WyrmChatDonors: "[0]ちゃんたちありがと！これからもよろしくねっ！"
+loreCruiser:
+	'''
+	生命はエントロピー減少のためにエネルギーを吸収する。
+	一方、虚空生まれの狩りは秩序を貪り、その後エントロピーそのものを拡散・吸収する行為である。
+	これは生存本能なのか、それともより高貴な目的によるものなのか？
+	放置されれば、いずれ世界は永遠の静寂へと戻るかもしれない。
+	'''
+loreLuminaris:
+	'''
+	それは自然の捕食者ではなく、星の精霊の化身であった。
+	その翼は砕けた星の破片で編まれ、散らす鱗は周囲の植物を不気味な青白い光で一瞬輝かせた。
+	伝説によれば、かつて星明かりの野の守護者であったが、異常なエネルギーの奔流の後、その意識はアストラルの力と融合し、落ち着きを失い不安定になったという。
+	今や、領域に侵入する者を誰であれ襲い、星の輝きで「浄化」しようとする。
+	'''
+UseToggle: このアイテムを使うことで、あなたはさらなる力を手に入れられる effects:
+loreCruiserEffect: 最大HPを20増加させ、最大MPを50増加させる
+loreNihTwin:
+	'''
+	秩序の基盤がエントロピーへの抵抗ではなく、その増幅にある世界を想像せよ。
+	現実から切り離された虚無の領域──空虚で静寂に満ちながら、人間の理解を超えた存在が渦巻く。
+	光と闇の本質を閉じ込めた肉壁を砕いた時、解き放たれたエネルギーは現実の裂け目をさらに広げた。
+	汝が倒した異形の化け物は、虚無の内に広がる混沌の海から溢れ出た一滴に過ぎなかった。かくして……
+	運命の歯車は、ゆっくりと、しかし確実に、その回転を始めた。
+	'''
+NihTwinLoreEffect:
+	'''
+	虚空侵食への耐性を{1}%増加
+	毎秒{2}の生命回復量増加
+	最大飛行時間を{3}%増加
+	'''
+loreProphet:
+	'''
+	占いの術を操る者なしに、いかなる軍隊も王国も君主も長く存続し得ない。彼らは儚い前兆から明日の断片を摘み取り、
+	過去と未来を現在の計算で紡ぎ合わせる。
+
+	しかし、人間が理解すべきでない領域を覗き見る者は、必ずや運命の報復を受ける。故に彼らの最期は短く、暴力的だ。
+	だが、最も禁じられた光景が運命そのものではなく…虚無であるとしたら？
+
+	この真実が明らかになったのは、ドレイドンと私が虚無の存在を発見した直後のことだ。
+	彼は危険を顧みず、その混沌の力を利用しようと主張した。
+	私はただ存在そのものへの脅威を見た——その腐敗は物質を超越していたからだ。
+
+	それでも私は敵を研究した。王国で最も年老いた予言者を探し出した。
+	……説得力ある交渉の末、彼に虚無を垣間見させたのだ。
+
+	結果は？壊滅的だった。彼が化け物と化した姿を我が剣が沈黙させる前に、
+	その歪んだ姿は狂気の囁きを吐き散らし、庭園を食人樹林に変え、兄弟を剣を交える者へと変えた。
+	血の魔術で、私はその魂をこの書物に封じ込め、幻視の断片を徹底的に尋問した。
+
+	予言者の精神が禁断の認知の境界に触れた時、ようやくその穢れた本質を封印した。
+	しかし今なお、その魂が最深の暗獄で砕け散っているにもかかわらず、
+	この魔導書は消えゆく星に群がる蛾のように、彷徨う魂を引き寄せる。
+
+	彼らは牢獄の石と骨の粉から肉体を寄せ集め…
+	そして永遠に続く「滅亡の詠唱」を再び唱え始めるのだ。
+	'''
+
+Keybinds: {
+	RetrieveVoidAnnihilate.DisplayName: 虚無の消滅を回収
+	ThrowPoop.DisplayName: うんちを投げる
+	KeepPoop.DisplayName: ウンチを持つ
+	VetrasylsEyeBlock.DisplayName: ヴェトラシルズ アイブロック
+	RuneDash.DisplayName: ルーンウィングスダッシュ
+	CommandMinions.DisplayName: ミニオンを指揮
+}
+
+ProphetLoreEffect:
+	'''
+	被ダメージ時の無敵時間延長
+	+{2} 自然回復量増加
+	'''
+Enabled: 稼働中
+Disabled: 停止中
+CdMoonlight: 月光の盾
+CdDS: Divine 盾のクールダウン
+CdAntivoid: 虚空ダッシュのクールダウン
+CruiserBestiary:
+	'''
+	虚無から生まれた究極の捕食者。かつてお前が遭遇したあの神喰らいに似た姿をしている。
+	秩序を貪り、混沌を広め、世界を狩猟場として引き裂く
+	……だがお前は、喰らわれる獲物ではない。
+	'''
+AbyssalWraithBestiary: ???
+NihilityTwinBestiary:
+	'''
+	虚無の基本的実体、裂け目から現れし者たちは、無意味なエントロピーによって秩序の敵となった。
+	その領域は現実とは全く相反する生存法則に従う——ゆえに現実と虚無の対立は死闘なのである。
+	'''
+CCellSmallBestiary: 母なる存在の命令に従い、混沌とした細胞分裂によって生み出された小さな個体たち。
+ProphetBestiary:
+	'''
+	虚無の侵攻の背後に隠された恐るべき真実によって狂気に駆られた、哀れで打ち砕かれた魂。
+	古代の書物に縛られ、それは絶え間なく無意味な叫びと囁きを繰り返し、必死に————————
+	しかし無駄に・・・
+	自らの目撃したものを伝えようとする。
+	'''
+LuminarisBestiary: アストラル感染した蛾は、アストラル感染を広める目的で存在する
+WorldGen.VoidOreSpawn: 虚無のエネルギーが次元を突き破り宇宙に顕現した
+
+Tiles: {
+	AuricBoulder.MapEntry: オーリック・ボルダー
+	AuricBoulderTile.MapEntry: オーリック・ボルダータイル
+	VoidOre.MapEntry: ヴォイド鉱石
+	VoidOreTile.MapEntry: ヴォイド鉱石タイル
+	VoidBarTile.MapEntry: ヴォイドインゴッドタイル
+}
+
+VoidChargeBar:虚空チャージバー
+
+
+Configs: {
+	Config: {
+		VoidChargeBarX: {
+			Label: 虚空チャージバー X座標
+			Tooltip: ""
+		}
+
+		Headers: {
+			Misc: その他
+			Other: その他
+		}
+
+		DisplayName: EntropyModの設定
+
+		VoidChargeBarY: {
+			Label: 虚空チャージバー Y座標
+			Tooltip: ""
+		}
+
+		ChainsawShakeScreen: {
+			Label: チェーンソーのスクリーンの振動度
+			Tooltip: ""
+		}
+
+		BindingOfIsaac_Rep_BossMusic: {
+			Label: アイザックの絆 リプレイボス音楽
+			Tooltip: ""
+		}
+
+		RepBossMusicReplaceCalamityMusic: {
+			Tooltip: ""
+			Label: ボス戦BGMをCalamityMod BGMに差し替え
+		}
+
+		ItemAdditionalInfo: {
+			Label: アイテム追加情報
+			Tooltip: 特定のアイテム（装甲貫通力、弾薬タイプなど）に関する追加情報を表示する.
+		}
+
+		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
+			Tooltip: ""
+			Label: マリヴィウム防具一式は、ローグ武器を装備している時のみステルスゲージを付与
+		}
+
+		EntropyMeleeWeaponSoundVolume: {
+			Label: Entropy 近接武器 サウンド音量
+			Tooltip: ""
+		}
+
+		ScreenWarpEffects: {
+			Label: 画面効果
+			Tooltip: 画面を巻き込む効果と切り取る効果を表示するかしないか
+		}
+
+		EnablePixelEffect: {
+			Label: ピクセル効果を有効にする
+			Tooltip: ""
+		}
+
+		EnableLoopingSound: {
+			Label: ループサウンドを有効にする
+			Tooltip: ""
+		}
+
+		EnableRetroLighting: {
+			Label: レトロ照明を許可し、ゼロ波品質を許可する
+			Tooltip: レトロライトモードを引き続き使用したい場合は、これをtrueに設定してください。UIを正しく表示するには、ピクセル効果を有効にするオプションをオフにしてください。
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+		Headers.Misc: その他ヘッダー
+
+		CraftArmorWithPrefixChance: {
+			Label: 接頭辞付与確率付きクラフトアーマー
+			Tooltip: ""
+		}
+
+		EnableSethomeCommand: {
+			Label: Enable Sethome Command
+			Tooltip: ""
+		}
+
+		LoreSpecialEffect: {
+			Label: ロア特殊効果
+			Tooltip: ""
+		}
+
+		BramblecleaveAlwaysUnlockAllSkill: {
+			Label: ブランブルクリーヴは常に全スキルを解放する(ゲームバランスを崩壊させる可能性)
+			Tooltip: ""
+		}
+	}
+}
+
+vfb:
+	'''
+	アーマーボーナス:
+	+20 アーマー貫通
+	ターゲットを攻撃するとヴォイドエネルギーが増加
+	ヴォイドエネルギー量に応じた移動速度・飛行速度ボーナスを付与
+	アーマーボーナスキーを押すとヴォイドエネルギーを発動
+	ヴォイドレイスを召喚し、10秒間無制限に飛行しながら戦闘を支援
+	ヴォイドレイスのダメージタイプは所持武器に依存
+	'''
+helmvfc:
+	'''
+	-25% マナコスト
+	魔法の発射物が敵に命中すると、マナ病が0.5秒減少する
+	'''
+helmvfd:
+	'''
+	+24% 攻撃速度
+	+10% ダメージ軽減
+	対象を攻撃すると、より多くの虚無のエネルギーを蓄積する。
+	'''
+helmvfs: 投射物のダメージは時間とともに増加する
+helmvfl:
+	'''
+	移動速度+15%
+	最大ステルス+135
+	ステルス攻撃はより多くの虚無のエネルギーを蓄積する
+	'''
+helmvfe:
+	'''
+	+7 最大ミニオン数
+	+80% 召喚ダメージ
+	虚無の共生体を召喚し、戦わせる
+	'''
+Reforge: Reforge
+ArmorPrefixHardName: Hard
+ArmorPrefixHardDescription: 防御力+10%
+ArmorPrefixLightName: ライト
+ArmorPrefixLightDescription:
+	'''
+	移動速度 +3%
+	翼の速度 +5%
+	'''
+ArmorPrefixBrokenName:	壊れた
+ArmorPrefixBrokenDescription: -20% 防御力
+ArmorPrefixGodForgedName: 神が鍛えた者
+ArmorPrefixGodForgedDescription:
+	'''
+	防御力+8%
+	被ダメージ軽減+1%
+	与ダメージ+3%
+	'''
+ArmorPrefixGuardedName: 警戒している
+ArmorPrefixGuardedDescription: 防御力+15%
+ArmorPrefixHeavyName: 重い
+ArmorPrefixHeavyDescription: 移動速度 -10%
+ArmorPrefixResilientName: 自然治癒の
+ArmorPrefixResilientDescription: より高く跳べるように
+ArmorPrefixRustName: 錆びた
+ArmorPrefixRustDescription: 防御力-10%
+ArmorPrefixShiningName: 輝く
+ArmorPrefixShiningDescription: あなたに光源効果を付与
+ArmorPrefixThornyName: 棘々しい
+ArmorPrefixThornyDescription: +100% ダメージ反転
+ArmorPrefixWaterWalkerName: 水上歩行の
+ArmorPrefixWaterWalkerDescription:水面を歩けるようになる
+ArmorPrefixMiracleName: 奇跡の
+ArmorPrefixMiracleDescription:
+	'''
+	防御力+5%
+	光属性+20%
+	ダメージ+2%
+	'''
+ArmorPrefixGreatName: 素晴らしい
+ArmorPrefixGreatDescription:
+	'''
+	防御力+8%
+	ダメージ+2%
+	'''
+ArmorPrefixMassiveName: 巨大な
+ArmorPrefixMassiveDescription:
+	'''
+	防御力+25%
+	移動速度-30%
+	'''
+ArmorPrefixDestinedGreatnessName: 運命の
+ArmorPrefixDestinedGreatnessDescription:
+	'''
+	+2% クリティカル率
+	+5% 防御力
+	+1 運
+	'''
+ArmorPrefixRegenName: 再生の
+ArmorPrefixRegenDescription: +1/s 自然治癒
+ArmorPrefixVoidTouchedName: 虚空に触れた
+ArmorPrefixVoidTouchedDescription: +0.2 ボイドタッチ
+ArmorPrefixBiochemistryName: 生物学的な
+ArmorPrefixBiochemistryDescription: デバフ免疫確率 +15%
+ArmorPrefixVoidName: 虚空な
+ArmorPrefixVoidDescription:
+	'''
+	+0.1 虚無の接触
+	+20% 反射ダメージ
+	+50% 射出速度
+	'''
+ArmorPrefixRecklessName: 無謀な
+ArmorPrefixRecklessDescription:
+	'''
+	+5% ダメージ
+	-50% 防御
+	'''
+ArmorPrefixSacrificalName: 犠牲的な
+ArmorPrefixSacrificalDescription:
+	'''
+	+10% ダメージ
+	-99% 防御
+	'''
+ArmorPrefixSilenceName: 静かな
+ArmorPrefixSilenceDescription: +2% 最大ステルス
+ArmorPrefixMagicalName: 魔力的な
+ArmorPrefixMagicalDescription:
+	'''
+	+10 最大マナ
+	-5% マナコスト
+	+6% マナ強化
+	'''
+ArmorPrefixEvokerName: 喚起者の
+ArmorPrefixEvokerDescription:
+	'''
+	+1 最大ミニオン数
+	-15% ダメージ
+	'''
+ArmorPrefixEndName: 終わり
+ArmorPrefixEndDescription:
+	'''
+	+12% 防御力
+	+5% ダメージ
+	+20% ノックバック
+	+4% クリティカル
+	+100% 反転ダメージ
+	+0.1 虚空の接触
+	'''
+ArmorPrefixWizardName: 魔法使いの
+ArmorPrefixWizardDescription:
+	'''
+	+1 最大ミニオン数
+	-10% ダメージ
+	'''
+ArmorPrefixLastStandName: 最後の抵抗
+ArmorPrefixLastStandDescription:
+	'''
+	防御力+15%
+	ダメージ軽減+2%
+	'''
+ArmorPrefixHeatDeathName: 熱的死
+ArmorPrefixHeatDeathDescription:
+	'''
+	防御力+20%
+	与えるダメージが1.2倍になる
+	[c/ff0000:攻撃には熱死が伴うが、体力は継続的に減少する]
+	'''
+ArmorPrefixArmorPrefixEchoName: 反響する
+ArmorPrefixArmorPrefixEchoDescription: +10% ローグステルス
+ArmorPrefixTheBodyName: 身体的な
+ArmorPrefixTheBodyDescription: +20% 最大体力
+ArmorPrefixTheMindName: 心身的な
+ArmorPrefixTheMindDescription: +25% 最大マナ
+ArmorPrefixTheSoulName: 魂の
+ArmorPrefixTheSoulDescription: +0.5% 体力吸収
+PrefixEnchanted: 魅せられた
+PrefixEnchantedDesc: +4% マナ強化
+AncientPrefixDesc:
+	'''
+	古代のアイテム
+	プレフィックス付きクリアナイフでは破壊不可
+	'''
+
+Prefixes: {
+	Enchanted.DisplayName: 魅せられた
+
+	Weapon: {
+		Echo.DisplayName: 反響する
+		Vigorous.DisplayName: 活発な
+	}
+
+	Heavy.DisplayName: 重い
+}
+
+DamageClasses: {
+	NoneTypeDamageClass.DisplayName: ClasslessDamage
+	NoDRMelee.DisplayName: No D R Melee
+}
+
+hkLevel: Level
+ZoneGraveyard: Zone Graveyard
+DownedBoss2: 世界の喰らい手／クトゥルフの脳を倒した後
+HaveOracleDeck: オラクルデッキがインベントリにある時
+HaveTaintedDeck: 汚染デッキがインベントリにある時
+HaveSoulDec: ソウルデッキがインベントリにある時
+DownloadBOI: 『The Binding of Isaac: Repentance』をプレイ済み
+IsaacLock: 『The Binding of Isaac Repentance』をプレイするまで装備不可 笑
+PWSpawnInfo: 混沌状態デバフで深淵へ突入
+CdAS: アミマ・ソラ クールダウン
+XythCharge: サイセロンチャージ
+KilledByVoidVirus1: 「虚無のみが残る」
+KilledByVoidVirus2: 「血の中に」
+KilledByAstral: 「星明かりに完全に蝕まれて」
+CdFF: フレンドファインダークールダウン
+TooltipBookMark: エントロピーブックに武器を挿入可能
+SlotInfo: ブックマークを挿入
+EBookTooltip:
+	'''
+	右クリックでUIを開く
+	攻撃を強化するためにブックマークを挿入
+	- Entropy Book -
+	'''
+"SetHomeCommandError: Error": "invalid parameters"
+HomeCommandError: Cannot find home
+EntropyModeName: EntropyMode
+EntropyModeDescShort: "[c/aa12e1:DeathModeのさらなる難易度]"
+EntropyModeDesc: "[c/aa12e1:DeathModeよりも挑戦的、体力減少、ダメージ減少]"
+EntropyModeActive: Entropy Mode が作動中。お前は忘れ去られる
+EntropyModeDeactive: Entropy Mode は無効中。なぜ放棄を渇望しないのか
+MissedInVoid: 虚空に消えゆく
+BatteringRamZenithText: 悪意のあるコードが含まれています
+AmmoSolution: 環境変更液
+AmmoArrow: 矢
+AmmoBullet: 弾丸
+AmmoCandyCorn: キャンディーコーン
+AmmoCoin: コイン
+AmmoDart: 土ブロック
+AmmoFallenStar: 流れ星
+AmmoFlare: 照明弾
+AmmoGel: ジェル
+AmmoJackOLantern: ジャック・オ・ランタン
+AmmoNail: ネイル
+AmmoRocket: ロケット
+AmmoSand: 砂ブロック
+AmmoSnowball: 雪玉
+AmmoStake: 杭
+AmmoStyngerBolt: スティンガーボルト
+AmmoBoulders: 石
+AmmoStarblightSoot: 星明かり煤
+AmmoType: 使用弾丸の種類
+UseAmmo: 使用弾丸
+OrbPunishDeath0: 粉々に砕け散った
+OrbPunishDeath1: 砕けた予見の玉を取り除こうとした
+RuneDashCD: ルーンダッシュのクールダウン
+ArmorPenetrationItemTooltip: 防御貫通
+AmmoLifeTime: 寿命
+AmmoShootSpeed: 発射速度
+AmmoPenetrate: 浸透時間
+AmmoPenetrateInfinite: 無限
+PrefixEchoDescr: +12 最大ステルス
+PrefixVigorousDescr: +15% ステルス構築
+WikiURL: https://terrariamods.wiki.gg/wiki/Calamity_Entropy/
+GameTips.VoidOreTip: クルーザーを倒した後、ヴォイド鉱石が空高くに生成される
+LoreAwakeningDesc: 移動速度とジャンプの高さをわずかに増加させる
+LoreKingSlimeDesc: ジャンプの高さを上げるが、移動速度を低下させる
+LoreDesertScourgeDesc: 息止め時間を延ばす
+LoreCrimsonDesc: +{1}最大体力
+LoreCrabulonDesc: 負傷後、{1}秒間、ぐにゃぐにゃになる
+LoreEyeofCthulhuDesc: ダッシュのクールダウンを{1}%短縮
+LoreCorruptionDesc: ダメージ軽減率を{1}%増加
+LoreBrainofCthulhuDesc: 流血に対して免疫を持つ
+LoreQueenBeeDesc: +{2}% ダメージ増加、しかし-{1}% クリティカル率減少
+LuminarisLoreDesc: +{1}% 最大翼時間
+
+DraedonDialogs: {
+	Void: {
+		Inquiry: 虚空(The Void)
+		Response:
+			'''
+			私はヤリムと出会うずっと前から、常に虚無の研究を続けてきた。
+
+			ヤリムとの共同研究中、私は虚無のより深い研究を提案した。そこでヤリムは預言者を探し出し、虚無を覗き見るよう依頼した。
+
+			預言者は後に悲惨な最期を遂げたが、それでも私は虚無への調査を続ける決意を固めた。
+
+			ヤリムはこれを強く反対したが、それでも私は虚無への裂け目を開き、偵察ドローンを送り込んだ。
+
+			虚無へ進入して間もなく、映像の送信は途絶え、代わりに雑音と幽玄なささやきだけが残された。
+			'''
+	}
+}
+
+SlotInfo2: アイテム挿入
+LightModeTip: 警告:他の照明モードでは、カマリティ・エントロピーの投射物やNPCの一部が不可視になります。カラーモードの使用を推奨します。
+KilledByBloodBoiling: "血が沸騰している"
+BloodBoiling: 沸騰する血
+BloodBoilingDescr: アイテムを継続的に使用すると攻撃速度が上昇するが、自身に持続的なダメージを与える
+PrefixHeavyDesc: 落下速度+10%
+
+InfernumIntros: {
+	NihilityTwin:
+		'''
+		Emerging from nothingness
+		『NihilityTwin』
+		'''
+	Cruiser:
+		'''
+		Unexpected creature
+		『Cruiser』
+		'''
+	Prophet:
+		'''
+		Shattered soul
+		『Prophet』
+		'''
+	Luminaris:
+		'''
+		Nymphomania
+		『Luminaris』
+		'''
+}
+
+Donor: Donor:
+Owner: Owner:
+ShadowDashCD: シャドウダッシュのクールダウン
+ShiftMoreInfo: 詳細は左シフトを押したまま
+ShadowBar: 暗黒のインゴッド
+SolarBar: ソーラーインゴッド
+ShadowBarInfo:
+	'''
+	一定速度で成長
+	満タンになると、シャドウナイフを召喚するシャドウボールを放つ。
+	'''
+SolarBarInfo:
+	'''
+	ローグ兵器をターゲットに命中させると、太陽エネルギーが増加する。
+	フルチャージされると、攻撃は追尾するソーラーアローを放つ。
+	'''
+LorePerforatorsDesc: "[0]% 被弾後、確率で[1]回復"
+LoreEaterofWorldsDesc: カーズド・インフェルノに対する免疫
+RPDonorName: 冷级
+Acropolis: ""
+OblivionThretherCooldown: Oblivion Threther Dash クールダウン
+LilyDeath0: " 汚物に蝕まれた"
+LilyDeath1: "守りの宝が壊れてしまった"
+TheVoid: ヴォイド
+
+Biomes: {
+	VoidDummyBoime: {
+		DisplayName: ヴォイド
+		TownNPCDialogueName: ヴォイド
+	}
+}
+
+NearShimmer: シマーの近く
+AzMinerOreWarning: 挿入できるのは鉱石のみ！
+RIDModifies:
+	'''
+	[[ITEMNAME]]から:
+	[1]% ダメージ
+	[2]% 攻撃速度
+	[9]% クリットチャンス
+	[3]% 防御力
+	[4]% ダメージ軽減
+	[5]% 最大ライフ
+	[6]% 最大マナ
+	[7]% 移動速度・飛行速度
+	[8]% ウイングタイム
+	'''
+ProtectiveCannonCooldown: アザフレ・プロテクティブ・キャノン・クールダウン
+TlipocasScytheSlashCooldown: ダッシュのクールダウン
+TeleportSlashCooldown: スラッシュ・クールダウン
+ScytheReviveCooldown: 大鎌の復活クールダウン
+TScytheZenithName: ナイトマスターの大鎌
+TScytheSpecialName: スカーレット
+TScytheZenithDesc: '''王よ、私を戴けば、世界は夜の終わりを歓迎するだろう'''
+TScytheDesc: '''"トリポカの魂が宿った緋色の大鎌"'''
+TSL1:
+	'''
+	その邪悪な大きな目は、私たちに悪意を持っているようだ...。
+	殺しに行こう
+	'''
+TSL2:
+	'''
+	脳とミミズに似た奇妙な霊？
+	標本にするために持ち帰ってもいいか？
+	'''
+TSL3:
+	'''
+	スライムの神様？ベタベタして、汚れて、泡が立っているように見える...。
+	お風呂に入れてあげようか？
+	'''
+TSL4:
+	'''
+	神々の魂が封印された生身の創造物？
+	この仕事を完了すると、多くの魂がもたらされるようだが......。
+	'''
+TSL5:
+	'''
+	多くの魂が悲しみに吠えながら、硫黄の岩山に浮かんでいる...。
+	100年前の大災害を語り続けている...。
+	彼らの苦しみを終わらせよう！
+	'''
+TSL6:
+	'''
+	夜空に恐ろしい赤い怪物が浮かんでいる、
+	彼の魂からは狂気しか感じられない。それとも...あれは本当に魂なのだろうか？
+	'''
+TSL7:
+	'''
+	ダンジョンにはたくさんの精霊が...。
+	おい、不思議な香りのする封印された精霊がいるぞ。
+	彼らとコミュニケーションしたくてしょうがない！
+	'''
+TSL8:
+	'''
+	ねじれた肉と血に何本の魂がくっついているのか？
+	何人かのむかつきは、彼らを夢に追い返す！
+	'''
+TSL9:
+	'''
+	この狂ったカルト信者たちは、あの預言者に似たオーラを発している...。
+	彼らは何を崇拝しているのか？
+	死神を崇拝するために彼らを送るのは良い考えだと感じる。
+	'''
+TSL10: 巨大で複数の目を持つタコ？夢に出てきた怪物？
+TSL11:
+	'''
+	紫のマントを羽織った顔のない男は、予言のオーラを放つランタンを持っていた。
+	ちょっと興味があるので、ランタンを手にしてみたい！
+	'''
+TSL12:
+	'''
+	魅惑のダンジョンでは、これらの魂は決して安らかに眠ることはできない。
+	可哀想だから、取り上げよう！
+	'''
+TSL13:
+	'''
+	紫の蛇がいる。
+	それは私たちの魂を食い尽くそうとしている！
+	こんなことはするな！
+	'''
+TSL14:
+	'''
+	奇妙なランタンはこの空間の亀裂を指していた。
+	それは何をもたらすのだろうか？
+	'''
+TSL15:
+	'''
+	魔女とロボットがここにやってきた。
+	彼らの魂を奪えば、私の目的は達成されるかもしれない！」。
+	'''
+TSL16:
+	'''
+	カルト教団は、奈落の底でディスコードの杖を使えと...。
+	どうなるんだろう？
+	'''
+TSLEnd: ようやく借金を返済し、仕事は完璧に完了した！
+TSA1: アップを押しながら攻撃すると、マウスの方向へ一定距離押す
+TSA1B: スライムゴッドを倒した後、無敵時間を獲得し、接触した対象にダメージを与える。
+TSU1: クトゥルフの目の撃破
+TSA2: LMBを押して鎌を投げ、複数の負傷者を出す。
+TSA2B:
+	'''
+	ブリムストーン・エレメンタルを倒した後、投擲時にLMBを押すとマウスにテレポートし、より大きな斬撃を繰り出す。
+	このスキルのクールダウンは15秒で、クルーザーを倒すと10秒に短縮される。
+	'''
+TSU2: 邪悪なボスを倒す必要がある
+TSA3:
+	'''
+	投げるときはRMBキーを押し、鎌をカーソルに追従させよう。
+	ステルスストライクで回復する。
+	'''
+TSU3: 預言者を殺す必要がある
+TSA4:
+	'''
+	テレポートスラッシュは武器に虚空を与える。
+	この効果は15秒間持続し、クルーザーを倒した後は30秒間持続する。
+	エンパワーメント中は与えるダメージが25%増加する。
+	'''
+TSU4: ヴォイド・ツインズを殺す必要がある
+TSA5:
+	'''
+	テレポートストライク時に影を残すと、影も一緒に攻撃する。
+	スラッシュダッシュは元のスプリントに対して垂直に追加のスラッシュを発生させる。
+	スティールストライク時の回復量を増加させる。
+	'''
+TSA5: ポルターガストを殺す必要がある
+TSA6: スラッシュダッシュ時に裂け目を残す。裂け目はダメージを与え続ける。
+TSU6: Devourer of Godsを倒す必要がある。
+TSA7: 致命傷に抵抗し、体力を最大体力の半分まで回復させる。
+TSU7: ヤロンを倒す必要あり
+TSA8: 攻撃でボイドタッチ
+TSU8: クルーザーを倒す必要あり
+TSA9: 対象との距離が近いほどダメージが増加し、最大追加ダメージは35%になる。
+PressShiftForMoreInfo: 詳細はシフトを押してください
+TSU9: カラミタスを倒す必要がある
+AchievementBookmarkInsertName: 良い読書習慣
+AchievementBookmarkInsertDesc: エントロピーブックにしおりを挿入する。
+LMDialog1: やあ、友よ。
+LMDialog2: おい、金はどこだ！
+LMDialog3: コインが必要だと言っているんだ！
+LMDialog4: このバカ！
+LMDialog5: 冗談でしょ？
+LMDialog6: なるほど、僕をからかおうとしてるんだね。
+LMDialog7: これが最後のチャンスだ！
+LMDialog8: 終わりだ！
+LMDialog9: しまっておけ、頭が跳ね返るぞ！
+LMDialog10: なんでもっと早く取り出さないんだ......待てよ、なんだ......。
+LMDialog11: ご褒美だ。
+LMDialog12: なんでもっと早く出さないんだ......。
+LMDialog13: なんでもっと早く出さないんだ......君は本当に裕福だな。
+LMDialog14: それが何かわかりますか？
+LMDialog15: このアイテムのデザインは失敗作だ。
+LMDialog16: "[NAME]が見えないの？ここで何をしているんだ！"
+LMDialog17: ゴミはいらない。
+LMDialog18: これは何？コインが必要！
+NowLV: レベル
+AnyOrichalcumBar: オリハルコン、またはミスリルインゴット
+AnyEvilBar: デモナイト、またはクリムタンインゴッド
+AnyFairy: あらゆる妖精
+BCBarInfo: ブランブル・バー([マウスの中ボタン]を押したままドラッグ)
+HallowedEnemiesDrop: 地下から聖なる敵を落とす
+EvilEnemiesDrop: 地下の邪悪なバイオームの敵からドロップする
+DungeonEnemiesDrop: 地下ダンジョンの敵からのドロップ
+VoidOreMine: クルーザーボス撃破後、宇宙に生成
+AbyssalPiercerObt: 水生スコーグを倒した後、巨大イカからドロップ
+AstralFishing: アストラル感染からの釣り
+AzafureSet:
+	'''
+	この防具を装備すると、 
+全てのアザフレ装備が部分的に強化される 
+耐久度ゲージを獲得する
+耐久度ゲージは最大18の防御力と50%のダメージ軽減効果を提供し、 
+移動速度を低下させる
+耐久度は被ダメージ時に消費される
+耐久度はダメージ受取5秒後に徐々に回復する
+耐久度ゲージが枯渇すると機能停止状態となり、機能回復には時間を要する
+	'''
+	AzafureSet2:
+	'''
+	この防具を装備すると、
+	全てのアザフレ装備が部分的に強化される
+	アドレナリンが削除され、耐久度ゲージを付与
+	耐久度ゲージは最大36の防御力と30%のダメージ軽減効果
+	被ダメージ時に耐久度が消費される
+	ダメージ受取5秒後に耐久度が徐々に回復する
+	耐久度ゲージが枯渇すると機能停止状態となり、復旧にはクールダウンがある
+	ローグステルスを80提供
+	移動速度+20%とミニオン最大数+1
+	'''
+
+	AzafureSet3:
+	'''
+	落下ダメージ無効化
+この防具を装備時、
+全てのアザフレ装備が部分強化される
+アドレナリンを解除し、耐久度ゲージを獲得
+耐久度ゲージは最大36の防御力と24%のダメージ軽減を提供する
+耐久度は被ダメージ時に消費される
+耐久度はダメージ受取5秒後に徐々に回復する
+	耐久度ゲージが枯渇すると機能停止状態となり、復旧に時間を要する
+	ローグステルスを120付与
+	[[KEY]]を押すとアクロポリスメカに変形、再度押すと変形解除
+	メカ起動時は防御力とダメージ軽減率が大幅に上昇し、
+	装備武器のみ使用可能となる
+	左クリックで攻撃、右クリックで武器形態を切り替え
+フッククローは銛に置き換わる
+フッククローボタンを押すと銛を発射し、引っ掛かった対象へ自身を引き寄せる
+槍は弱体化した敵モンスターを捕らえ、ボスに引っ掛かれば自身を引き寄せる
+	'''
+DuraBar: 耐久度ゲージ
+
+AzafureEnhance: Enhance
+
+AzafureEnhances: {
+	AzafureChargeShield: エネルギーコストを削減する
+	AzafureDetectionEquipment: ジャンプ速度を上げる
+	AzafureTBMTerminal: 掘削中の移動速度を増加させる
+	ReallocateIndicatorData: 平均属性ボーナスを増加させる
+	AzafureAntiaircraftGun: +30% 攻撃速度
+	AzafureBatteringRam: 充電時間を短縮する
+	AzafureDroneRemote: ミニオンの射撃速度を上げる
+	AzafureFurnace: 耐久性に基づいて充電速度を向上させる
+	AzafureHealingTowerRemote: 回復速度と攻撃速度を向上させる
+	AzafurePioneerCannon: 弾薬装填の上限値を増加させる
+	AzafureProtectiveCannon: クールダウン時間を短縮する
+	AzafurePulseWand: タグ制限と検索範囲の拡大
+	AzafureRailgun: 小さな追跡弾の数を増やす
+	AzafureSurgeRod: 発射体は標的に追加の電気ショックを与えることができる
+	AzafureTeslaGun: アークダメージを増加させる
+	AzafureElectrocauteryWand: 充電速度を向上させる
+	AzafureLightMachineGun: レーザーが命中した際のステルス回復速度を増加させる
+	AzafurePowerSaw: 武器のダメージを増加させると、過熱しなくなる
+	AzafureDrill: ピックの威力と射程を増加させる
+	AzafureEKatana: 攻撃範囲を拡大する
+	AzafureCogfly: ミニオンの攻撃速度を上げる
+	AzafureTacticalRadio: ミサイル数を増加させる
+	AzafureAirReaper: 追跡時間を延長する
+	AzafureCylinder: 金属ボールの存在時間を延長する
+	AzafurePeaceKey: 2つのn-bombを1回撃つ
+	AzafureDriverCore:
+		'''
+		エネルギーコスト削減
+-シールドによる被ダメージ40%軽減
+シールド再生速度向上
+		'''
+}
+
+DeathExplode: "[PlayerName]が爆発した"
+BlockingCooldown: ブロッククールダウン
+FetalDreamCooldown: 胎児の夢クールダウン
+DriverCoreCooldown: ドライバーコアシールド
+FetalDreamDamage: 小石ダメージ
+NihilityShield: 虚無の盾
+VoidCoreShield: 虚無の盾
+CrossModSupportFish: クロスモッド対応：Entropyの書籍にブックマークとして追加することも可能です
+CdAcr: アクロポリス・メックのクールダウン
+SpecialThanks: Special Thanks
+PassedBossRush: 試練を乗り越えた
+BloodthirstyRequirement: このアイテムを作成するには、最低200の体力が必要
+BloodthirstyKilled: 出血死した
+Luminariswarm: ルミナリスウォーム
+CardsDesc: それに似た完全なカードセットがあるべきだ
