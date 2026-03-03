@@ -1,0 +1,327 @@
+Items: {
+	VictidePopperHelmet: {
+		SetBonus: 水中でライフの秒間回復量が1.5増加し、爆発ダメージが10%増加
+		DisplayName: ヴィクタイドの重兜
+		Tooltip:
+			'''
+			爆発ダメージが5%増加
+			爆発範囲が2%拡大
+			'''
+	}
+
+	AerospecBoulderdashHelmet: {
+		SetBonus: 移動速度と爆発クリティカル率が5%上昇
+		DisplayName: エアロスペックの重兜
+		Tooltip:
+			'''
+			爆発ダメージが10%増加
+			爆発範囲が3%拡大
+			'''
+	}
+
+	StatigelOniFaceplate: {
+		DisplayName: 精製ジェルの重兜
+		Tooltip:
+			'''
+			爆発ダメージが10%増加し、爆発クリティカル率が7%上昇
+			爆発範囲が5%拡大
+			'''
+	}
+
+	DaedalusPunisherPlate: {
+		SetBonus:
+			'''
+			爆発ダメージが5%増加
+			敵の攻撃を受けるとクリスタルが爆発する
+			'''
+		DisplayName: ダイダロスの重兜
+		Tooltip:
+			'''
+			爆発ダメージが13%増加し、爆発クリティカル率が7%上昇
+			20%の確率で弾薬を消費しない
+			爆発範囲が6%拡大
+			'''
+	}
+
+	HydrothermicBlastcap: {
+		Tooltip:
+			'''
+			爆発ダメージが12%増加し、爆発クリティカル率が10%上昇
+			25%の確率で弾薬を消費しない
+			溶岩と炎のブロックに耐性
+			爆発範囲が8%拡大
+			'''
+		DisplayName: ハイドロサーミックの重兜
+		SetBonus:
+			'''
+			爆発ダメージが5%増加
+			爆発物が爆発時に50%の確率でカオスフレイムを発射する
+			'''
+	}
+
+	TarragonVisor: {
+		SetBonus: 爆発物が爆発時にエネルギーと葉をばら撒くことがある
+		DisplayName: タラゴンの重兜
+		Tooltip:
+			'''
+			爆発ダメージが10%増加し、爆発クリティカル率が10%上昇
+			被ダメージを10%軽減
+			爆発範囲が22%拡大
+			'''
+	}
+
+	BloodflareSkullMask: {
+		SetBonus: 爆発物が爆発時にゴーストボルトを放つ
+		DisplayName: ブラッドフレアのドクロの仮面
+		Tooltip:
+			'''
+			爆発ダメージが15%増加し、爆発クリティカル率が10%上昇
+			25%の確率で弾薬を消費しない
+			爆発範囲が27%拡大
+			'''
+	}
+
+	GodSlayerPlate: {
+		SetBonus: 爆発物が爆発時にゴッドキラーバレットを放つ
+		DisplayName: ゴッドスレイヤーの重兜
+		Tooltip:
+			'''
+			爆発ダメージが17%増加し、爆発クリティカル率が14%上昇
+			爆発範囲が31%拡大
+			'''
+	}
+
+	SilvaPlate: {
+		SetBonus:
+			'''
+			爆発ダメージが10%増加
+			爆発物が爆発時に時折、自然エネルギーの爆発を起こす
+			'''
+		DisplayName: シルヴァの重兜
+		Tooltip:
+			'''
+			爆発ダメージが25%増加し、爆発クリティカル率が13%上昇
+			爆発範囲が33%拡大
+			'''
+	}
+
+	AuricTeslaPlate: {
+		SetBonus: タラゴン、ブラッドフレア、ゴッドスレイヤー、シルヴァの爆破クラス防具セットの効果を得る
+		DisplayName: オーリックテスラの重兜
+		Tooltip:
+			'''
+			爆発ダメージが30%増加し、爆発クリティカル率が20%上昇
+			25%の確率で弾薬を消費しない
+			爆発範囲が66%拡大
+			'''
+	}
+
+	Mycobliterator: {
+		DisplayName: マイコブリタレーター
+		Tooltip:
+			'''
+			ロケットをフャンギグレネードに変換する
+			敵に当たるとキノコ愛好家を3秒間得る
+			2発ごとに胞子を、4発ごとにファンギオーブを発射する
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	TheSandblaster: {
+		DisplayName: サンドブラスター
+		Tooltip:
+			'''
+			弾速が非常に速い弾を発射する
+			弾薬として爆発弾を使用する
+			'''
+	}
+
+	CalamitousCannon: {
+		DisplayName: カラミタスキャノン
+		Tooltip:
+			'''
+			砲丸を災厄の砲丸に変換し、敵を追尾し、爆発するまでダメージを与え続ける
+			災厄の砲丸は敵に当たると5%の確率で爆発する
+			2発ごとにグリードソウルを、4発ごとにロストソウルを、
+			6発ごとにウェンジフルソウルを発射する
+			弾薬として砲丸を使用する
+			'''
+	}
+
+	SpectralRocketMinigun: {
+		DisplayName: スペクトラルロケットミニガン
+		Tooltip:
+			'''
+			ロケットをスペクトルロケットに変換する
+			スペクトルロケットはブロックを無視する
+			撃ち続けていると攻撃速度が上昇していく
+			直撃させるとダメージが増加
+			「ロケットを大量に消費する」
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	GhoulishGrenadier: {
+		DisplayName: グーリッシュグレネーダー
+		Tooltip:
+			'''
+			ロケットをスペクターグレネードに変換する
+			スペクターグレネードは爆発時に弾をばら撒く
+			4点バースト
+			初弾のみロケットを消費
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	CosmicGrenadeLauncher: {
+		DisplayName: コズミックグレネードランチャー
+		Tooltip:
+			'''
+			ロケットをコズミックグレネードに変換する
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	UltimusTrap: {
+		DisplayName: アルティマストラップ
+		Tooltip:
+			'''
+			粘着爆弾をスーパー粘着爆弾に変換する
+			スーパー粘着爆弾は敵に接触時、一度だけ2倍のダメージを与え、
+			爆発時に敵を追尾するスパークを複数放つ
+			弾薬として粘着爆弾を使用する
+			'''
+	}
+
+	BlessedStickybombLauncher: {
+		DisplayName: 祝福された粘着爆弾ランチャー
+		Tooltip:
+			'''
+			ロケットを祝福された粘着爆弾に変換する
+			祝福された粘着爆弾は敵に触れると聖なる炎の爆発を起こし、
+			爆発時に敵を追尾する聖なる炎を複数放つ
+			弾薬として粘着爆弾を使用する
+			'''
+	}
+
+	DeepseaDetonator: {
+		DisplayName: ディープシーデトネーター
+		Tooltip:
+			'''
+			ロケットをアビッサルグレネードに変換する
+			アビッサルグレネードは爆発時、放射線雲を放つ
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	TheStickler: {
+		DisplayName: スティックラー
+		Tooltip:
+			'''
+			粘着爆弾が爆発時に不安定な黒檀の塊を放ち、エルドリッチの触手で攻撃する
+			弾薬として粘着爆弾を使用する
+			'''
+	}
+
+	AmalgamObliterator: {
+		DisplayName: アマルガム・アナイアレイター
+		Tooltip:
+			'''
+			あなたの敵を全滅させる...そしてあなたの敵の声を聞く能力も全滅させる
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	ChillShatter: {
+		DisplayName: チルシャッター
+		Tooltip:
+			'''
+			冷却ロケットを発射する
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	Hellborn: {
+		DisplayName: ヘルボーン
+		Tooltip:
+			'''
+			3発の弾を広範囲に発射する
+			攻撃中に敵が銃に触れると大爆発が起き、
+			10秒間、この武器のダメージ、攻撃速度、ノックバックが大幅に増加する
+			時間とともにこのボーナスは減少していく
+			弾薬として爆発弾を使用する
+			'''
+	}
+
+	DutchmansCore: {
+		DisplayName: ダッチマンのコア
+		Tooltip:
+			'''
+			爆発範囲が500%拡大されるが、
+			爆発の自爆ダメージが500%増加する
+			'''
+	}
+
+	ProfanedMineBoots: {
+		DisplayName: 汚れた鉱山ブーツ
+		Tooltip: 移動中、聖なる炎の爆発と衝撃波を発生させる
+	}
+
+	AscendantSnipesploder: {
+		DisplayName: アセンダント・スナイプスプローダー
+		Tooltip:
+			'''
+			直撃させるとダメージが増加
+			巨大なダイナマイトを高速で発射する
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	StormGrenadeItem: {
+		DisplayName: ストームグレネード
+		Tooltip:
+			'''
+			ブロックを破壊しない大きな爆発を起こす
+			敵に当たると電撃を放つ
+			'''
+	}
+
+	ElementalBulwark: {
+		DisplayName: エレメンタルブルワーク
+		Tooltip:
+			'''
+			爆発の自爆ダメージを350%軽減
+			爆発で自爆ダメージを受けた後、最大ライフが一時的に100増加する [c/FF0000:40秒のクールダウン]
+			'''
+	}
+}
+
+Projectiles: {
+	ShardExplosion.DisplayName: クリスタルの欠片
+	ScourgeExplodingBullet.DisplayName: スカージ爆発弾
+	MycobliteratorGrenade.DisplayName: フャンギグレネード
+	CalamityCannonball.DisplayName: 災厄の砲丸
+	SpectralRocket.DisplayName: スペクトルロケット
+	GhoulishGrenade.DisplayName: スペクトルグレネード
+	CosmicGrenade.DisplayName: コズミックグレネード
+	CosmicGrenadeExplosion.DisplayName: コズミックショックウェーブ
+	UltraSpikyStickybomb.DisplayName: スーパー粘着爆弾
+	BlessedStickybomb.DisplayName: 祝福された粘着爆弾
+	AbyssalGrenade.DisplayName: アビッサルグレネード
+	SticklerStickybomb.DisplayName: スティックラーの粘着爆弾
+	MiracleRocket.DisplayName: ミラクルロケット
+	MiracleRocketExplosion.DisplayName: ミラクルショックウェーブ
+	ChillRocket.DisplayName: 冷却ロケット
+	ProfanedMineBootsExplosion.DisplayName: 聖なる炎の爆発
+	ProfanedMineBootsExplosionExplosion.DisplayName: 聖なる炎の衝撃波
+	BigStickofDynamite.DisplayName: 巨大なダイナマイト
+	LightningBolt.DisplayName: 電撃
+	StormGrenade.DisplayName: ストームグレネード
+}
+
+Buffs: {
+	ElementalBulwarkBuff: {
+		DisplayName: エレメンタルブルワーク
+		Description: 最大ライフが100増加
+	}
+}
