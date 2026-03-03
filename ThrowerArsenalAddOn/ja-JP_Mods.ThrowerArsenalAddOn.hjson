@@ -8,7 +8,7 @@ Configs: {
 				'''
 				この武器のダメージクラスを投擲武器に変更します
 				また、ダメージなどの他のステータスも武器として使用できるように変更されます
-				更に攻撃の挙動も変更されます
+				さらに攻撃の挙動も変更されます
 				特に注目すべきは、ブロックを破壊しなくなったことです
 				'''
 		}
@@ -38,7 +38,7 @@ Configs: {
 			Tooltip:
 				'''
 				この武器のダメージクラスを投擲武器に変更します
-				更に消費マナとダメージが減少します
+				さらにマナの消費が少なくなりますが、ダメージが減少します
 				元々のダメージタイプにより、この武器には、汎用（つまりクラス固有でない）の接頭辞だけが付きます
 				'''
 		}
@@ -75,7 +75,7 @@ Projectiles: {
 	HorizonRazorProj.DisplayName: ホライゾンレイザー
 	VoidEnergy.DisplayName: ヴォイド エネルギー
 	VoidbringerProj.DisplayName: ヴォイドブリンガー
-	VoidBlast.DisplayName: 虚無の爆発
+	VoidBlast.DisplayName: ヴォイド爆発
 	DimensionalCollapseProj.DisplayName: ディメンショナルコラプス
 	SingularityMineProj.DisplayName: シンギュラリティマイン
 	SingularityVortex.DisplayName: シンギュラリティの渦
@@ -147,7 +147,7 @@ Items: {
 		DisplayName: スペシャルレンド
 		Tooltip:
 			'''
-			空間を粉砕し、当たった敵に大量の追撃をする
+			空間を粉砕し、当たった敵にたくさんの追撃をする
 			「ピクシーに対しては完璧に効果的だ、なぜ効果がないのか？」
 			'''
 	}
