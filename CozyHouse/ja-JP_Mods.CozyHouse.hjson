@@ -6,7 +6,7 @@ Configs: {
 		}
 
 		HouseWalls: {
-			Label: 家屋内壁設定
+			Label: 家屋内壁の設定
 			Tooltip: 屋根を再現するため、屋内に黒い壁を描画する設定を開きます
 		}
 
@@ -96,13 +96,13 @@ Configs: {
 		DisplayName: 居心地設定
 
 		EnableSeparatedZoom: {
-			Label: 仕切り部屋ズームを有効化
+			Label: 仕切られた部屋のズームを有効化
 			Tooltip: オンにすると、仕切られた部屋に入った時だけ特定のズーム値を適用します
 		}
 
 		SeparatedZoomIntensity: {
-			Label: 仕切り部屋ズーム設定
-			Tooltip: 仕切り部屋で適用される追加ズーム量を設定します
+			Label: 仕切られた部屋のズーム設定
+			Tooltip: 仕切られた部屋に適用される追加ズーム量を設定します
 		}
 
 		DisableEffectsDuringBoss: {
@@ -120,7 +120,7 @@ Configs: {
 		}
 
 		FreezeTimeIndoors: {
-			Label: 屋内で時間停止
+			Label: 家内で時間停止
 			Tooltip: オンにすると、家内で時間が停止します
 		}
 
@@ -225,12 +225,12 @@ Configs: {
 		}
 
 		OutsideGlass: {
-			Label: ガラス外部表示設定
+			Label: ガラス外部表示の設定
 			Tooltip: 窓越し表示のシミュレーション設定を開きます
 		}
 
 		HouseScanning: {
-			Label: 家屋判定設定
+			Label: 家屋判定の設定
 			Tooltip: 
 				'''
 				部屋と境界の判定方法を設定します
@@ -239,7 +239,7 @@ Configs: {
 		}
 
 		SeparatedRoomZoom: {
-			Label: 仕切り部屋ズーム追加
+			Label: 仕切られた部屋のズームの設定
 			Tooltip: 仕切られた部屋に入った時だけ特定のズーム値を適用します
 		}
 	}
@@ -317,15 +317,15 @@ Configs: {
 		Tooltip: ""
 
 		EnableSeparatedZoom: {
-			Label: 分離部屋の追加ズームを有効
-			Tooltip: 有効時、分離部屋に入るとカメラズームが下の設定値へ切り替わり、通常の家屋ズームを上書きします。
+			Label: 仕切られた部屋の追加ズームを有効
+			Tooltip: 有効時、仕切られた部屋に入るとカメラズームが下の設定値へ切り替わり、通常の家屋ズームを上書きします。
 		}
 
 		SeparatedZoomIntensity: {
-			Label: 分離部屋ズーム量
+			Label: 仕切られた部屋のズーム量
 			Tooltip: 
 				'''
-				分離部屋内で適用する追加ズーム量
+				仕切られた部屋内で適用する追加ズーム量
 				値が高いほどカメラが近づきます
 				'''
 		}
