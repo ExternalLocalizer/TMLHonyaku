@@ -90,7 +90,7 @@ CommonTooltips: {
 			'''
 		CrystalNinjaBCThrower:
 			'''
-			横入力2回で高速ステップ
+			横方向入力2回で高速ステップ
 			投擲ダメージが5%増加し、クリティカル率が5%上昇
 			'''
 		Stealth:
@@ -125,7 +125,7 @@ CommonTooltips: {
 			'''
 			20%の確率で投擲武器を消費しない
 			敵に少し狙われにくくなる
-			{0}入力2回で、マウスの位置にテレポートし、投擲武器が一時的に強化される
+			{0}を二度押しで、カーソルの位置にテレポートし、投擲武器が一時的に強化される
 			この効果は15秒のクールダウンがある
 			'''
 		DarkTriggerUp: 上
@@ -139,22 +139,22 @@ CommonTooltips: {
 		Bionic:
 			'''
 			敵に狙われにくくなる
-			敵を倒すと、与えたダメージの一部を回復し、投擲武器を一時的に強化する
+			敵を倒すと、与えたダメージの一部、ライフを回復し、投擲武器を一時的に強化する
 			この効果は6秒のクールダウンがある
 			'''
 		Void:
 			'''
 			33%の確率で投擲武器を消費しない
-			攻撃に当たったとき、攻撃を吸収することがある
-			吸収した場合は、ダメージを受けず、受けるはずだったダメージの一部を回復する
+			攻撃を受けたとき、攻撃を吸収することがある
+			吸収した場合は、ダメージを受けず、受けるはずだったダメージの一部、ライフを回復し、
+			敵を切り裂く渦を発生させる
 			ライフが少ないか、効果が連続して発動しなかった場合、確率が上昇する
-			攻撃を吸収すると、敵を切り裂く渦も発生させる
 			'''
 	}
 
 	Config: {
 		DamageChange: この武器のダメージクラスを投擲武器に変更します
-		MagicTweaks: 更にマナの消費も少なくなりますが、それに応じてダメージも減少します
+		MagicTweaks: さらにマナの消費が少なくなりますが、ダメージが減少します
 		DamageRebalance: この武器のダメージも他の投擲武器と一致するように調整されます
 		ArmorChange: この防具セットのステータス/ボーナスを投擲武器向けに変更します
 		ConvertWarning: 元々のダメージタイプにより、この武器は汎用（つまりクラス固有でない）の接頭辞のみが付きます
@@ -163,7 +163,7 @@ CommonTooltips: {
 	Shop: {
 		NinjaArmorCond: その他のバニラの調整で「忍者セットの入手方法を変更する」をオンにする
 		MasterScrollCond: ゴーレム、エンプレスオブライト、またはデュークフィシュロンのいずれかを倒した後、夜間に
-		DisciplineScrollCond: キングスライム以外のハードモード前のボスを倒した後、日中に
+		DisciplineScrollCond: キングスライム以外のハードモード前のボスを倒した後、昼間に
 		ShadowspikeBallCond: ゴブリンウォーロックを倒した後
 	}
 
@@ -421,12 +421,12 @@ Items: {
 	}
 
 	VoidFragment: {
-		DisplayName: 虚無の断片
+		DisplayName: ヴォイドの断片
 		Tooltip: "「宇宙の深淵の絶え間ない存在がこの断片に浸透している」"
 	}
 
 	VoidMask: {
-		DisplayName: 虚無の仮面
+		DisplayName: ヴォイドの仮面
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmg}
@@ -438,7 +438,7 @@ Items: {
 	}
 
 	VoidPlate: {
-		DisplayName: 虚無の鎧
+		DisplayName: ヴォイドの鎧
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmg}
@@ -449,7 +449,7 @@ Items: {
 	}
 
 	VoidGreaves: {
-		DisplayName: 虚無のすね当て
+		DisplayName: ヴォイドのすね当て
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmg}
@@ -499,7 +499,7 @@ Items: {
 	}
 
 	GrandmasterEmblem: {
-		DisplayName: グランドマスターの紋章
+		DisplayName: 達人の紋章
 		Tooltip:
 			'''
 			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
@@ -523,7 +523,7 @@ Items: {
 			{$CommonTooltips.Stats.PercentThrowConserv}
 			{$CommonTooltips.Stats.PercentIncThrowKB}
 			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
-			横入力2回で高速ステップ
+			横方向入力2回で高速ステップ
 			攻撃を回避することがある
 			'''
 	}
@@ -600,16 +600,16 @@ Items: {
 	}
 
 	ThrowingBoard: {
-		DisplayName: 投擲的
+		DisplayName: 投擲の的
 		Tooltip:
 			'''
-			投擲クリティカル率と弾速を上昇させ、ノックバックが増加
+			調べることで投擲クリティカル率と弾速を上昇させ、ノックバックが増加する
 			「ブルズアイ！」
 			'''
 	}
 
 	VoidSigil: {
-		DisplayName: 虚無のシジル
+		DisplayName: ヴォイドのシジル
 		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
@@ -625,14 +625,14 @@ Items: {
 
 	GoreGouger: {
 		DisplayName: ゴアガウガー
-		Tooltip: 当たった敵に刺さる
+		Tooltip: 敵に突き刺さる
 	}
 
 	Rosethorn: {
 		DisplayName: ローズソーン
 		Tooltip:
 			'''
-			敵か地形に当たると壊れて、棘が飛び散る
+			敵か地形に当たると壊れて、棘をばら撒く
 			「投げる人には必ずバラの棘がある」
 			'''
 	}
@@ -651,7 +651,7 @@ Items: {
 		Tooltip:
 			'''
 			導火線が短いグレネード
-			時間経過による爆発でダメージが増加
+			時間経過による爆発を当てるとダメージが増加する
 			地形か敵に当たると爆発するが、ダメージが減少する
 			「ナイススロー！」
 			'''
@@ -685,15 +685,15 @@ Items: {
 		DisplayName: パイロスパーカー
 		Tooltip:
 			'''
-			地面を跳ね回る火の玉を投げる
-			連続で投げられる火の玉の数には制限がある
+			地形に当たると跳ね返るファイアボールを投げる
+			連続で投げられるファイアボールの数には制限がある
 			「マリオをプレイしろ！」
 			'''
 	}
 
 	StickySpikyBall: {
 		DisplayName: 粘着スパイクボール
-		Tooltip: "「それを3回素早く言ってみてください！」"
+		Tooltip: "「それを3回素早く言ってみて！」"
 	}
 
 	BouncySpikyBall: {
@@ -722,7 +722,7 @@ Items: {
 
 	StunBomb: {
 		DisplayName: スタンボム
-		Tooltip: 敵を混乱させ、炎上させることもある
+		Tooltip: 敵を混乱させ、炎上させることがある
 	}
 
 	FireyPitchfork: {
@@ -734,7 +734,7 @@ Items: {
 		DisplayName: スティンガースター
 		Tooltip:
 			'''
-			敵か地形に当たって壊れたとき、広範囲に毒針を発射する
+			敵か地形に当たって壊れたとき、広範囲に毒針を放つ
 			「とがった所に触れないように注意」
 			'''
 	}
@@ -767,7 +767,7 @@ Items: {
 		DisplayName: ブラストクリスタル
 		Tooltip:
 			'''
-			まばゆい爆発を放ち、ダメージを与える破片を撒き散らし、敵を混乱させることがある
+			まばゆい爆発とともにダメージを与える破片をばら撒き、敵を混乱させることがある
 			破片は敵の防御力を15無視する
 			'''
 	}
@@ -776,7 +776,7 @@ Items: {
 		DisplayName: 呪いの火炎瓶
 		Tooltip:
 			'''
-			敵を呪炎で燃やす小規模な爆発を起こす
+			敵を呪炎で燃やす小さな爆発を起こす
 			一定時間、呪炎で辺りを照らす
 			'''
 	}
@@ -785,7 +785,7 @@ Items: {
 		DisplayName: 黄金の瓶
 		Tooltip:
 			'''
-			小さな爆発で霊液を撒き散らす
+			小さな爆発とともに霊液を撒き散らす
 			「これは…？ モン・デュー！」
 			'''
 	}
@@ -802,7 +802,7 @@ Items: {
 
 	JotunHatchet: {
 		DisplayName: ヨトゥンハチェット
-		Tooltip: 当たった敵に刺さり、一時的に防御力を減少させる
+		Tooltip: 敵に突き刺さり、一時的に防御力を減少させる
 	}
 
 	Equilibrium: {
@@ -825,7 +825,7 @@ Items: {
 			'''
 			敵に張り付いて爆発するタグを投げる
 			敵に複数のタグを張り付けると、爆発が遅くなる
-			同時に爆発したタグの数に応じてダメージが増加
+			同時に爆発したタグの数に応じてダメージが増加する
 			'''
 	}
 
@@ -839,7 +839,7 @@ Items: {
 		Tooltip:
 			'''
 			敵に当たるたびにダメージが増加し、消滅時に小さな爆発を発生させる
-			地形を無視する
+			地形を貫通する
 			'''
 	}
 
@@ -852,7 +852,7 @@ Items: {
 		DisplayName: ブラストキャップ
 		Tooltip:
 			'''
-			敵を混乱させることがあり、胞子をまき散らす
+			敵を混乱させることがあり、胞子をばら撒く
 			「禁断のクッキー」
 			'''
 	}
@@ -862,14 +862,14 @@ Items: {
 		Tooltip:
 			'''
 			敵の防御力を15無視する
-			消滅時にエネルギーの火花が散る
+			消滅時にエネルギーの火花が散らばる
 			「まるでミニチェーンソーを投げているみたいだ！」
 			'''
 	}
 
 	EnergyCore: {
 		DisplayName: エネルギーコア
-		Tooltip: 触れた敵にダメージを与え続ける小さなエネルギーのオーラを放つ
+		Tooltip: 触れた敵にダメージを与え続ける小さなオーラを放つコアを投げる
 	}
 
 	SeekerLance: {
@@ -887,7 +887,7 @@ Items: {
 			'''
 			敵を追尾し、敵に張り付いて爆発するタリスマンを投げる
 			敵に複数のタリスマンを張り付けると、爆発が遅くなる
-			同時に爆発したタリスマンの数に応じて、ダメージが増加
+			同時に爆発したタリスマンの数に応じて、ダメージが増加する
 			「おまえはもう死んでいる」
 			'''
 	}
@@ -916,26 +916,26 @@ Items: {
 		DisplayName: 追悼の火炎瓶
 		Tooltip:
 			'''
-			敵を地獄の炎で燃やす小規模な爆発を起こす
+			敵を地獄の炎で燃やす小さな爆発を起こす
 			一定時間、ギリシャの炎で辺りを照らす 
 			'''
 	}
 
 	FishronFang: {
 		DisplayName: フィッシュロンの牙
-		Tooltip: 近くの敵に向かって連続して突撃することがある
+		Tooltip: 近くの敵に向かって連続して突撃する
 	}
 
 	Eternity: {
 		DisplayName: エタニティ
-		Tooltip: 敵を追尾し、消滅時に虹を放つ
+		Tooltip: 投げてしばらくしてから敵を追尾し、消滅時に虹を放つ
 	}
 
 	Sporenade: {
 		DisplayName: スポレナード
 		Tooltip:
 			'''
-			胞子に分裂し、胞子は下の敵に向かって移動する
+			敵に当たるか消滅時に胞子をばら撒き、胞子は下の敵に向かって移動する
 			「バグボムと混同しないで...」
 			'''
 	}
@@ -953,8 +953,8 @@ Items: {
 		DisplayName: フロストファング
 		Tooltip:
 			'''
-			当たった敵に突き刺さり、霜焼けを与える
-			氷の破片をばら撒き、追加でダメージを与えることがある
+			敵に突き刺さり、霜焼けを与える
+			消滅時に氷の破片をばら撒く
 			「舌だけに留まらない…」
 			'''
 	}
@@ -972,19 +972,19 @@ Items: {
 		DisplayName: ディスラプションランス
 		Tooltip:
 			'''
-			敵に刺さるジャベリンの頭を発射する
-			ジャベリンの頭が刺さった敵は、徐々にダメージを受け、混乱することがある
+			敵に突き刺さるジャベリンの頭を発射する
+			ジャベリンの頭が突き刺さった敵は、徐々にダメージを受け、混乱することがある
 			'''
 	}
 
 	FracturedSpike: {
 		DisplayName: 壊れたスパイク
-		Tooltip: 小さな破片に砕けるスパイクを投げる
+		Tooltip: 消滅時に小さな破片をばら撒くスパイクを投げる
 	}
 
 	FallenFury: {
 		DisplayName: 堕落者の怒り
-		Tooltip: 強力な短剣を投げるが、すぐにダメージが減少
+		Tooltip: 強力な短剣を投げるが、すぐにダメージが減少する
 	}
 
 	EnchantedEtherianJavelin: {
@@ -997,7 +997,7 @@ Items: {
 		Tooltip:
 			'''
 			地形や敵に張り付いて爆発する
-			敵に張り付くとダメージが増加
+			敵に張り付くとダメージが増加する
 			「ワート、ワート、ワート」
 			'''
 	}
@@ -1006,7 +1006,7 @@ Items: {
 		DisplayName: ハイパーカッター
 		Tooltip:
 			'''
-			敵を見つけるとエネルギーボルトを放つ、射程の短い短剣を投げる
+			近くの敵にエネルギーボルトを放つ、とても射程の短い短剣を投げる
 			「セリフを言って、ヨンドゥ」
 			'''
 	}
@@ -1016,7 +1016,7 @@ Items: {
 		Tooltip:
 			'''
 			浮遊する地雷を投げ、近くの他の地雷と電撃ビームで繋ぐ
-			敵は電撃ビームに触れるとダメージを受ける
+			電撃ビームに触れた敵はダメージを受ける
 			'''
 	}
 
@@ -1044,6 +1044,7 @@ Items: {
 		Tooltip:
 			'''
 			ルミナイトの塊を空中に投げ、当たると小さな破片を放つことがある
+			消滅時にも小さな破片を放つ
 			破片はカーソルに向かって飛んでいく
 			敵の防御力を50無視する
 			'''
@@ -1053,8 +1054,8 @@ Items: {
 		DisplayName: 月のルーン
 		Tooltip:
 			'''
-			敵を追尾し、敵に付着して爆発する魔法弾を発射する
-			敵に複数の弾を付着させると、爆発が遅くなる
+			敵を追尾し、敵に張り付いて爆発する魔法弾を発射する
+			敵に複数の弾を張り付けると、爆発が遅くなる
 			同時に爆発した弾の数に応じて、ダメージと爆発範囲が増加し、
 			追加効果が発生することがある
 			「月のルーン文字だ！月のルーン文字は実在している！」
@@ -1065,8 +1066,8 @@ Items: {
 		DisplayName: ルナティックランス
 		Tooltip:
 			'''
-			ソーラー、ボルテックス、ネビュラ、スターダスト、またはボイドの力を込めたジャベリンを投げる
-			ジャベリンは、込められた月の力に応じて挙動が異なる
+			ソーラー、ボルテックス、ネビュラ、スターダスト、またはヴォイドの力を込めたジャベリンを投げる
+			ジャベリンの挙動は込められた月の力によって異なる
 			'''
 	}
 
@@ -1109,16 +1110,16 @@ Items: {
 
 	HungeringSpear: {
 		DisplayName: ハングリングスピア
-		Tooltip: 当たったときにライフを吸収する
+		Tooltip: 当たるとライフを吸収する
 	}
 
 	SpikyBomb: {
 		DisplayName: スパイキーボム
 		Tooltip:
 			'''
-			地形に張り付き、敵が近づくと自動的に爆発する爆弾を最大10個投げる
-			<right>を押すと、全ての爆弾を手動で起爆する
-			この爆発を当てるとダメージが増加する
+			地形に張り付き、敵が近づくと自動的に爆発する爆弾を投げる
+			爆弾は最大で10個存在でき、<right>を押すと、全ての爆弾を手動で起爆する
+			この爆発を当てるとダメージが増加するが、
 			地形に張り付く前に爆発した場合はダメージが減少する
 			「…そしてケーブルウェイ！」
 			'''
@@ -1153,14 +1154,14 @@ Items: {
 
 	GildedShuriken: {
 		DisplayName: 金ぴかの手裏剣
-		Tooltip: "「儀式用だが、その刃は今でもかなり鋭い」"
+		Tooltip: "「儀式用だが、その刃は今でもとても鋭い」"
 	}
 
 	Cryonade: {
 		DisplayName: クライオネード
 		Tooltip:
 			'''
-			ほとんどの敵に短時間、減速効果を与える
+			ほとんどの敵の移動速度を一時的に低下させる 
 			「頭を冷やせ！」
 			'''
 	}
@@ -1182,7 +1183,7 @@ Items: {
 
 	FossilShard: {
 		DisplayName: 化石の欠片
-		Tooltip: しばらく残る化石の破片を最大2つ投げる
+		Tooltip: しばらく残る化石の破片を最大で2つ投げる
 	}
 
 	WebTrap: {
@@ -1190,7 +1191,7 @@ Items: {
 		Tooltip:
 			'''
 			地形に張り付き、敵に触れると小さな爆風を発生させる
-			ほとんどの敵の動きを一時的に止める
+			ほとんどの敵を一時的に移動できなくする
 			'''
 	}
 
@@ -1246,7 +1247,7 @@ NPCs: {
 			Normal1: お前が鉱山にいた間、俺は刃を研究していたんだ。
 			Normal2: 俺の刃は高性能を保証している。埃まみれの鍋は小さなものだ。
 			Rare0: なぜ、みんな俺がラーメンを売っているか聞いてくるんだ？なぜ俺がラーメンを売る必要があるんだ？
-			Rare1: この服にはまだスライムが染み付いている…
+			Rare1: この服にまだスライムが染み付いている…
 			Rare2: 遠距離武器と投擲武器は同じものだと思っている人がいるって知っているか？馬鹿げている。
 			Armor: 忍者の鎧を着こなすようになったんだな！俺と間違えられなければいいのだが…
 			Night: 夜の闇は忍者が活動するのに最適だ。影を恐れるのではなく、活用することを学ぶべきだ。
@@ -1278,9 +1279,9 @@ NPCs: {
 			LoveNPC: "{NPCName}は教団の一員なんだな？俺たち忍者は導師の教団と深い繋がりがある。俺にとっては、どのメンバーも良き友人だ。"
 			LikeNPC: "{NPCName}の知恵は尊敬に値すると思うぞ。"
 			DislikeNPC: "{NPCName}は繊細さについて授業を受ける必要があるかもしれないな..."
-			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか?"
+			HateNPC: "{NPCName}は手裏剣を売ろうとしつこいから、俺の忍耐力が試される。あれは俺の商品だと分かってないのか？"
 			LikeNPC_Princess: "{NPCName}は忍者の道にとても興味を持っている。彼女の学ぶ意欲は、楽しくもあり、心温まるものでもある。"
-			Princess_LovesNPC: "{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいですわ!"
+			Princess_LovesNPC: "{NPCName}がかっこいい忍者の技を見せてくれるのは本当に楽しいですわ！"
 		}
 
 		BestiaryEntry: キングスライムから救出された謎めいた忍者。事件については口を閉ざしているが、便利な投擲道具や技は喜んで教えてくれる。
@@ -1405,7 +1406,7 @@ Emotes.NinjaEmote.Command: 忍者
 Projectiles: {
 	FeatherArmorProj.DisplayName: 羽根
 	AkumaArmorProj.DisplayName: 悪魔の爆弾
-	VoidArmorProj.DisplayName: 虚無の渦
+	VoidArmorProj.DisplayName: ヴォイドの渦
 	ShadeStarProj.DisplayName: シェードスター
 	ThrowingStarProj.DisplayName: スローイングスター
 	GoreGougerProj.DisplayName: ゴアガウガー
@@ -1498,7 +1499,7 @@ Projectiles: {
 	LunaticLanceNebula.DisplayName: ネビュラランス
 	LunaticLanceSolar.DisplayName: ソーラーランス
 	LunaticLanceStardust.DisplayName: スターダストランス
-	LunaticLanceVoid.DisplayName: ボイドランス
+	LunaticLanceVoid.DisplayName: ヴォイドランス
 	LunaticLanceVortex.DisplayName: ボルテックスランス
 	JarOfDirtProj.DisplayName: 土の瓶
 	CopyrightInfringementProj.DisplayName: コウガロケット
@@ -1532,7 +1533,7 @@ Configs: {
 		DisplayName: バニラの変換
 
 		assassinArmorConv: {
-			Label: "[i:4982] 水晶の暗殺者セットボーナスを変更"
+			Label: "[i:4982] 水晶の暗殺者のセットボーナスを変更"
 			Tooltip:
 				'''
 				{$CommonTooltips.Config.ArmorChange}
@@ -1541,7 +1542,7 @@ Configs: {
 		}
 
 		shinboiArmorConv: {
-			Label: "[i:3880] 忍び装束セットボーナスを変更"
+			Label: "[i:3880] 忍び装束のセットボーナスを変更"
 			Tooltip:
 				'''
 				{$CommonTooltips.Config.ArmorChange}
@@ -1551,7 +1552,7 @@ Configs: {
 		}
 
 		ninjaArmorConv: {
-			Label: "[i:256] 忍者セットボーナスを変更"
+			Label: "[i:256] 忍者のセットボーナスを変更"
 			Tooltip:
 				'''
 				{$CommonTooltips.Config.ArmorChange}
@@ -1713,7 +1714,7 @@ Configs: {
 		}
 
 		monkArmorConv: {
-			Label: "[i:3806] モンクセットボーナスを変更"
+			Label: "[i:3806] モンクセットのボーナスを変更"
 			Tooltip:
 				'''
 				{$CommonTooltips.Config.ArmorChange}
@@ -1727,10 +1728,10 @@ Configs: {
 		DisplayName: その他のバニラの調整
 
 		visiblyFreeNinja: {
-			Label: 自由な忍者
+			Label: 自由になった忍者
 			Tooltip:
 				'''
-				キングスライムの描画を微調整し、忍者が解放された後、体内に閉じ込められた忍者を消します
+				キングスライムの描画を微調整し、忍者を解放した後、体内に閉じ込められた忍者を消します
 				忍者が解放されていないワールドでは効果がありません
 				他のModでキングスライムの描画が変更されている場合は、奇妙な（視覚的な）効果が生じる可能性があることに注意してください
 				'''

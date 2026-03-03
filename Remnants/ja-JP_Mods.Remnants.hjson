@@ -1,17 +1,18 @@
 Safeguard: {
 	IssuesFound: Remnantsは互換性の問題を1つ以上検出したため、以下のワールドを作成できません。検出された問題:
 	SmallWorlds: ワールドのサイズが小さすぎます。
-	SecretSeeds: シークレットシードが選択されています。
+	SecretSeeds: 秘密のシード値が選択されています。
 	BadRatio: 非標準の縦横比が使用されています。
-	HomewardJourney: Homeward JourneyのMODが有効になっています。
-	Aequus: Aequus のMODが有効になっています。
-	StartWithBase: Start With Base のMODが有効になっています。
+	HomewardJourney: Homeward Journey MODが有効になっています。
+	Aequus: Aequus MODが有効になっています。
+	StartWithBase: Start With Base MODが有効になっています。
+	LunarVeil: Lunar Veil MODが有効になっています。
 	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
-	WOTGMultiplayer: Remnants は、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
+	WOTGMultiplayer: Remnantsは、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
 }
 
 Chat: {
-	LabyrinthTeleportation: 未知の魔法がテレポーテーションを阻んでいる...
+	LabyrinthTeleportation: 未知の魔法がテレポートを阻んでいる…
 }
 
 WorldgenMessages: {
@@ -29,7 +30,6 @@ WorldgenMessages: {
 	Grass: 草を成長中
 	Moss: 苔を生成中
 	Piles: オブジェクトを配置中
-	Underworld: 地獄を作成中
 	LivingTrees: 古代の根を成長中
 	Mineshafts: 鉱坑を構築中
 	Pyramid: 砂漠のピラミッドを構築中
@@ -38,21 +38,18 @@ WorldgenMessages: {
 	GemCaves: 輝くジオードを形成中
 	Microdungeons: 小型ダンジョンを構築中
 	Boulders: 巨石を設置中
-	IceTemples: 氷の神殿を彫刻中
-	ThermalRigs: 地熱装置を構築中
 	Dungeon: 呪われた都市を構築中
 	JungleTemple: ジャングルのピラミッドを構築中
-	Tomb: 幽霊の墓を構築中
 	MagicalLab: 魔法の研究所を構築中
 	Labyrinth: 古代の迷宮を構築中
-	Stronghold: 地獄の要塞を構築中
+	Warrens: 地獄の獣を増殖中
 	WaterTemple: 水中神殿を彫刻中
 	AerialGarden: 天空の庭園を構築中
-	Vault: 金庫室を構築中
+	Prototypes: 植物を数千年にわたり保存中
 }
 
 Bestiary: {
-	Ward: 冷たい巨石の塊にして、揺るぎなき憤怒の化身。迷宮の曲がりくねった回廊を徘徊し、その中心に隠された何かを守護している...
+	Ward: 冷たい巨石の塊にして、揺るぎなき憤怒の化身。迷宮の曲がりくねった回廊を徘徊し、その中心に隠された何かを守護している…
 	HoneySlime: このスライムは大量の蜜を吸収したことで、驚異的な生命力と耐久力を得た。
 	Blaster: 重厚な装甲を持つ自動機械兵。爆発性の弾薬を搭載し、今なお古代の領域を侵す者を容赦なく排除する。
 	Flamer: 知性を持たないはずの機械兵。しかし、侵入者を焼き尽くす様子には、まるで悪意と喜びが宿っているかのようだ。
@@ -114,9 +111,9 @@ Biomes: {
 		TownNPCDialogueName: 反響の間
 	}
 
-	ForgottenTomb: {
-		DisplayName: 忘れられた墓所
-		TownNPCDialogueName: 忘れられた墓所
+	SpiderNest: {
+		DisplayName: クモのすみか
+		TownNPCDialogueName: クモのすみか
 	}
 
 	Undergrowth: {
@@ -137,6 +134,26 @@ Biomes: {
 	GoldenCity: {
 		TownNPCDialogueName: 黄金都市
 		DisplayName: 黄金都市
+	}
+
+	SulfuricVents: {
+		DisplayName: 硫黄噴出域
+		TownNPCDialogueName: 硫黄噴出域
+	}
+
+	SulfuricFog: {
+		TownNPCDialogueName: 硫黄の霧
+		DisplayName: 硫黄の霧
+	}
+
+	PrototypeExterior: {
+		DisplayName: プロト外部エリア
+		TownNPCDialogueName: プロト外部エリア
+	}
+
+	PrototypeInterior: {
+		DisplayName: プロト内部エリア
+		TownNPCDialogueName: プロト内部エリア
 	}
 }
 
@@ -228,7 +245,7 @@ Tiles: {
 	}
 
 	ArcaneChest: {
-		MapEntry: 魔術の宝箱
+		MapEntry: 秘術の宝箱
 	}
 
 	SacrificialAltar: {
@@ -244,28 +261,24 @@ Tiles: {
 	}
 
 	ArcaneChest2: {
-		MapEntry0: 魔術の宝箱
-		MapEntry1: 施錠された魔術の宝箱
+		MapEntry0: 秘術の宝箱
+		MapEntry1: 施錠された秘術の宝箱
 	}
 
 	PrismbudHead: {
 		MapEntry: 光芽の種
-	}
-
-	spiritlamp: {
-		MapEntry: 精霊のランプ
 	}
 }
 
 Buffs: {
 	ManaShieldCooldown: {
 		DisplayName: シールドブレイク
-		Description: 魔法の盾を修復している...
+		Description: 魔法の盾は修復中
 	}
 
 	RunestalkBlessing: {
 		DisplayName: ルーンストークの祝福
-		Description: 採掘速度50％向上
+		Description: 採掘速度50%向上
 	}
 
 	PyramidAntiCheese: {
@@ -279,18 +292,18 @@ Items: {
 		DisplayName: 魔法の盾
 		Tooltip:
 			'''
-			マナを消費し、受けるダメージを25%軽減する
-			使用するマナがなくなると一時的に使用不可になる
+			マナを消費することで、受ける最終ダメージを25%軽減する
+			マナを完全に消費すると、一時的に使用不可になる
 			'''
 	}
 
 	DivineShield: {
-		DisplayName: 神聖の盾
+		DisplayName: 神聖な盾
 		Tooltip:
 			'''
-			被弾後の無敵時間を延長する
+			ダメージを受けた後の無敵時間を延長する
 			マナを消費することで、受ける最終ダメージを25%軽減する
-			使用するマナがなくなると一時的に使用不可になる
+			マナを完全に消費すると、一時的に使用不可になる
 			'''
 	}
 
@@ -306,7 +319,7 @@ Items: {
 
 	NightglowBerry: {
 		DisplayName: ナイトグローベリー
-		Tooltip: 「ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実...」
+		Tooltip: 「ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実…」
 	}
 
 	PyramidKey: {
@@ -326,27 +339,12 @@ Items: {
 
 	WandofRefinement: {
 		DisplayName: 精錬の杖
-		Tooltip: この杖の魔法は、特定の壁をより素敵に見せてくれるはずだ！
-	}
-
-	EnchantedBrick: {
-		DisplayName: 秘術のレンガ
-		Tooltip: ""
-	}
-
-	GardenBrick: {
-		DisplayName: 黄金のレンガ
-		Tooltip: ""
+		Tooltip: この杖のきらめく魔法は、特定の壁をより素敵な見た目にしてくれる
 	}
 
 	Hardstone: {
 		DisplayName: ハードストーン
 		Tooltip: 出所不明の超高密度な岩石
-	}
-
-	PyramidBrick: {
-		DisplayName: ピラミッドのレンガ
-		Tooltip: ""
 	}
 
 	PyramidChest: {
@@ -356,12 +354,7 @@ Items: {
 
 	StarOre: {
 		DisplayName: 星の残骸
-		Tooltip: 「冷却されて固められた星で、鮮やかなエネルギーを放っている...」
-	}
-
-	ToxicWaste: {
-		DisplayName: 毒性廃棄物
-		Tooltip: ""
+		Tooltip: 「依然として活気に満ちたエネルギーで輝く、冷えて固まった星」
 	}
 
 	EnergySpike: {
@@ -381,17 +374,17 @@ Items: {
 
 	NightglowSeed: {
 		DisplayName: ナイトグローの種
-		Tooltip: 「中心に硬い核がある...」
+		Tooltip: 「…中心に硬い種がある」
 	}
 
 	RustedChest: {
 		DisplayName: 錆びついた宝箱
-		Tooltip: 「鍵穴が壊れている...」
+		Tooltip: 「鍵穴は壊れている」
 	}
 
 	Sarcophagus: {
 		DisplayName: 石棺
-		Tooltip: シンプルなデザインの棺
+		Tooltip: シンプルなデザインの、古代の棺
 	}
 
 	Scrapper: {
@@ -400,13 +393,19 @@ Items: {
 	}
 
 	GardenBrickWall: {
-		DisplayName: 黄金のレンガの壁
-		Tooltip: ""
+		DisplayName: 庭園のレンガの壁
+	}
+
+	GardenBrick: {
+		DisplayName: 庭園のレンガ
 	}
 
 	PyramidBrickWall: {
 		DisplayName: ピラミッドのレンガの壁
-		Tooltip: ""
+	}
+
+	PyramidBrick: {
+		DisplayName: ピラミッドのレンガ
 	}
 
 	LuminousHook: {
@@ -415,46 +414,28 @@ Items: {
 
 	SpiritLance: {
 		DisplayName: 精霊の槍
-		Tooltip: 与えたダメージに応じてマナを回復するが、マナが満タンの時は大幅に弱体化する
-	}
-
-	SoulLance: {
-		DisplayName: 魂の槍
-		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
-	}
-
-	SpectralLance: {
-		DisplayName: 幻影の槍
-		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
-	}
-
-	VintageSniper: {
-		DisplayName: 古めかしいスナイパーライフル
-		Tooltip:
-			'''
-			強力な高速弾を発射する
-			右クリックでスコープを覗く
-			'''
+		Tooltip: マナが最大でない場合、4倍のダメージを与え、攻撃ヒット時にマナを回復する
 	}
 
 	SummonCrown: {
 		DisplayName: 指導者の王冠
-		Tooltip: 負傷の度合いに応じて、ミニオンが与えるダメージが最大25％増加する
+		Tooltip: 装備者の負傷の度合いに応じて、ミニオンが与えるダメージが最大33%増加する
 	}
 
 	TombBrick: {
 		DisplayName: 墓地のレンガ
-		Tooltip: ""
 	}
 
 	TombBrickWall: {
 		DisplayName: 墓地のレンガの壁
-		Tooltip: ""
 	}
 
 	EnchantedBrickWall: {
-		DisplayName: 魔術のレンガの壁
-		Tooltip: ""
+		DisplayName: 秘術のレンガの壁
+	}
+
+	EnchantedBrick: {
+		DisplayName: 秘術のレンガ
 	}
 
 	ScientistNotes1: {
@@ -573,66 +554,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	VaultPlating: {
-		DisplayName: 貯蔵庫の装甲板
-		Tooltip: ""
-	}
-
-	VaultWall: {
-		DisplayName: 貯蔵庫の壁
-		Tooltip: ""
-	}
-
-	VaultPlatform: {
-		DisplayName: 貯蔵庫の足場
-		Tooltip: ""
-	}
-
-	VaultPipe: {
-		DisplayName: 貯蔵庫の配管
-		Tooltip: ""
-	}
-
-	HellishBrick: {
-		DisplayName: 地獄のレンガ
-		Tooltip: ""
-	}
-
-	HellishPlatform: {
-		DisplayName: 地獄の足場
-		Tooltip: ""
-	}
-
-	HellishBrickWall: {
-		DisplayName: 地獄のレンガの壁
-		Tooltip: ""
-	}
-
-	MarineSlab: {
-		DisplayName: 海の石板
-		Tooltip: ""
-	}
-
-	MarinePlatform: {
-		DisplayName: 海の足場
-		Tooltip: ""
-	}
-
-	MarineSlabWall: {
-		DisplayName: 海の石板の壁
-		Tooltip: ""
-	}
-
-	ArcanePlatform: {
-		DisplayName: 秘術の足場
-		Tooltip: ""
-	}
-
-	ArcaneChandelier: {
-		DisplayName: 秘術のシャンデリア
-		Tooltip: ""
-	}
-
 	AlchemyBench: {
 		DisplayName: 秘術の机
 		Tooltip: ""
@@ -640,11 +561,6 @@ Items: {
 
 	StoneofElements: {
 		DisplayName: 元素の石
-		Tooltip:
-			'''
-			回復ポーションのクールダウン時間を25%短縮する
-			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
-			'''
 	}
 
 	CosmicStone: {
@@ -683,7 +599,7 @@ Items: {
 	}
 
 	ResinGel: {
-		DisplayName: レジンジェル
+		DisplayName: 樹脂のジェル
 		Tooltip: 「奇妙な粘性が脈打っている」
 	}
 
@@ -700,16 +616,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	PyramidPlatform: {
-		DisplayName: ピラミッドの足場
-		Tooltip: ""
-	}
-
-	GardenPlatform: {
-		DisplayName: ガーデンの足場
-		Tooltip: ""
-	}
-
 	hivekey: {
 		DisplayName: 巣の鍵
 		Tooltip: ""
@@ -717,7 +623,191 @@ Items: {
 
 	SkullSign: {
 		Tooltip: ""
-		DisplayName: ドクロのサイン
+		DisplayName: ドクロの看板
+	}
+
+	Sulfurstone: {
+		DisplayName: 硫黄石
+	}
+
+	InsectRemains: {
+		DisplayName: 昆虫の残骸
+		Tooltip: 取り出し機で使用できる
+	}
+
+	SpiderEggs: {
+		DisplayName: クモの卵
+		Tooltip: ""
+	}
+
+	SulfurstoneBrick: {
+		DisplayName: 硫黄石のレンガ
+	}
+
+	SulfurstoneBrickWall: {
+		DisplayName: 硫黄石のレンガの壁
+	}
+
+	SulfuricVent: {
+		DisplayName: 硫黄噴出孔
+		Tooltip: ガスを噴き出す
+	}
+
+	SulfurstoneDiamond: {
+		DisplayName: ダイヤモンドの硫黄石
+	}
+
+	HeavyAlloy: {
+		Tooltip: ""
+		DisplayName: 重合金
+	}
+
+	VintageSniper: {
+		DisplayName: 古めかしいスナイパーライフル
+	}
+
+	SpectralLance: {
+		DisplayName: 幻影の槍
+	}
+
+	SoulLance: {
+		DisplayName: 魂の槍
+	}
+
+	MarineSlabWall: {
+		DisplayName: 海の石板の壁
+	}
+
+	MarineSlab: {
+		DisplayName: 海の石板
+	}
+
+	AshenBrickWall: {
+		DisplayName: 灰のレンガの壁
+	}
+
+	AshenBrick: {
+		DisplayName: 灰のレンガ
+	}
+
+	ArcaneChandelier: {
+		Tooltip: ""
+		DisplayName: 秘術のシャンデリア
+	}
+
+	PyramidPlatform: {
+		DisplayName: ピラミッドの足場
+	}
+
+	MarinePlatform: {
+		DisplayName: 海の足場
+	}
+
+	AshenPlatform: {
+		DisplayName: 灰の足場
+	}
+
+	GardenPlatform: {
+		DisplayName: 庭園の足場
+	}
+
+	Cage: {
+		DisplayName: 金属の檻
+	}
+
+	IronBars: {
+		DisplayName: 金属の格子
+	}
+
+	ArcanePlatform: {
+		DisplayName: 秘術の足場
+	}
+
+	ChainHook: {
+		DisplayName: チェーンフック
+	}
+
+	PrototypeComputer: {
+		DisplayName: プロトコンピューター
+	}
+
+	PrototypeConduits: {
+		DisplayName: プロト導管
+	}
+
+	PrototypePlatform: {
+		DisplayName: プロト足場
+	}
+
+	PrototypePlating: {
+		DisplayName: プロトメッキ
+	}
+
+	PrototypeSupport: {
+		DisplayName: プロト補強材
+	}
+
+	PrototypeVent: {
+		DisplayName: プロト通気口
+	}
+
+	PrototypeBeamWall: {
+		DisplayName: プロト梁の壁
+	}
+
+	PrototypeHazardWall: {
+		DisplayName: プロト警告壁
+	}
+
+	PrototypeRailing: {
+		DisplayName: プロト手すり
+	}
+
+	PrototypeWall: {
+		DisplayName: プロトメッキの壁
+	}
+
+	PrototypeMonitor: {
+		DisplayName: プロトモニター
+	}
+
+	PrototypeServer: {
+		DisplayName: プロトサーバー
+	}
+
+	PrototypeConsole: {
+		DisplayName: プロトコンソール
+	}
+
+	Tuff: {
+		DisplayName: 凝灰岩
+	}
+
+	Moai: {
+		DisplayName: モアイ
+		Tooltip: ""
+	}
+
+	TuffBrick: {
+		DisplayName: 凝灰岩のレンガ
+	}
+
+	TuffBrickWall: {
+		DisplayName: 凝灰岩のレンガの壁
+	}
+
+	ArcaneBrick: {
+		DisplayName: 秘術のレンガ
+	}
+
+	AshenAltar: {
+		DisplayName: 灰の祭壇
+		Tooltip: ""
+	}
+
+	GardenPotPlant: {
+		DisplayName: 庭園の植木鉢
+		Tooltip: ""
 	}
 }
 
@@ -727,7 +817,7 @@ NPCs: {
 	}
 
 	TomeofFrost: {
-		DisplayName: 氷の魔導書
+		DisplayName: 降霜の魔導書
 	}
 
 	TomeofInferno: {
@@ -759,7 +849,7 @@ NPCs: {
 	}
 
 	Arcanist: {
-		DisplayName: 魔術ロボット
+		DisplayName: エンチャンター
 	}
 
 	TomeofMending: {
@@ -780,6 +870,26 @@ NPCs: {
 }
 
 Projectiles: {
+	AetherButterfly: {
+		DisplayName: Aether Butterfly
+	}
+
+	FallingDreampod: {
+		DisplayName: Falling Dreampod
+	}
+
+	FallingEyeball: {
+		DisplayName: Falling Eyeball
+	}
+
+	ResinShrapnel: {
+		DisplayName: Resin Shrapnel
+	}
+
+	FragmentGrenade: {
+		DisplayName: Shrapnel Grenade
+	}
+
 	burn: {
 		DisplayName: burn
 	}
@@ -790,10 +900,6 @@ Projectiles: {
 
 	cursedflamejet: {
 		DisplayName: cursedflamejet
-	}
-
-	deathbolt: {
-		DisplayName: deathbolt
 	}
 
 	magicshieldhit: {
@@ -832,68 +938,16 @@ Projectiles: {
 		DisplayName: frostburn
 	}
 
-	LuminousHook: {
-		DisplayName: Luminous Hook
-	}
-
 	ichorjet: {
 		DisplayName: ichorjet
-	}
-
-	shockbolt: {
-		DisplayName: shockbolt
 	}
 
 	flamejet: {
 		DisplayName: flamejet
 	}
 
-	minigunholdout: {
-		DisplayName: minigunholdout
-	}
-
 	pulsebolt: {
 		DisplayName: pulsebolt
-	}
-
-	SpiritLanceHoldout: {
-		DisplayName: Spirit Lance Holdout
-	}
-
-	AetherButterfly: {
-		DisplayName: Aether Butterfly
-	}
-
-	FallingDreampod: {
-		DisplayName: Falling Dreampod
-	}
-
-	FallingEyeball: {
-		DisplayName: Falling Eyeball
-	}
-
-	SoulLanceHoldout: {
-		DisplayName: Soul Lance Holdout
-	}
-
-	SpectralLanceHoldout: {
-		DisplayName: Spectral Lance Holdout
-	}
-
-	ResinShrapnel: {
-		DisplayName: Resin Shrapnel
-	}
-
-	FragmentGrenade: {
-		DisplayName: Shrapnel Grenade
-	}
-
-	FragmentGlowstick: {
-		DisplayName: Fragment Glowstick
-	}
-
-	FragmentGlowstickFragment: {
-		DisplayName: Fragment Glowstick Fragment
 	}
 }
 
@@ -996,6 +1050,30 @@ Configs: {
 			Label: "[i:29] ライフクリスタル削減"
 			Tooltip: ワールドから削除されるライフクリスタルの割合を制御します
 		}
+
+		IceMountainStyle: {
+			Label: "[i:664] 山"
+			Tooltip: 新しいワールドに生成される氷山の数を制御します
+		}
+
+		AquaticDepthsRework: {
+			Label: "[i:2338] 深海の洞窟のリワーク"
+			Tooltip:
+				'''
+				Thorium Modと併用することで、深海の洞窟のリワークを有効にします
+				これにより、隣接するバイオームへ侵入することも防止されます
+				'''
+		}
+
+		Prototypes: {
+			Label: "[i:Remnants/PrototypePlating] プロト"
+			Tooltip:
+				'''
+				プロト・ライフカプセルの生成を有効化します
+
+				注記: 未完成です！
+				'''
+		}
 	}
 
 	Gameplay: {
@@ -1047,9 +1125,30 @@ Configs: {
 			Tooltip: 御影石の洞窟用のカスタム音楽を有効にする
 		}
 
+		SpiderMusic: {
+			Label: "[i:Remnants/InsectRemains] クモの音楽"
+			Tooltip: クモのすみか用のカスタム音楽を有効にする
+		}
+
 		OceanMusic: {
 			Label: "[i:2435] 海の音楽"
 			Tooltip: 海底洞窟用のカスタム音楽を有効にする
+		}
+	}
+
+	IceMountainType: {
+		Tooltip: ""
+
+		Double: {
+			Label: 2
+		}
+
+		Single: {
+			Label: 1
+		}
+
+		None: {
+			Label: なし
 		}
 	}
 }

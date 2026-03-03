@@ -40,7 +40,7 @@ CommonItemtooltip: {
 		VitalStimulator: 5秒間でライフを{0}回復する
 		LeechedLifeHeal:
 			'''
-			敵に張り付くテザーを発射し、最大5秒間ライフを吸収する
+			敵に張り付くテザーを発射し、最大で5秒間ライフを吸収する
 			吸収したライフは、ライフが最も少ないプレイヤーのライフを回復する
 			ライフを吸収された敵は、しばらくの間ダメージを受け続ける
 			'''
@@ -49,7 +49,7 @@ CommonItemtooltip: {
 		PercentIncreasedWhipRange: 鞭の攻撃範囲が{0}%増加
 		MoreTarget: 敵に狙われやすくなる
 		LessTarget: 敵に狙われにくくなる
-		AccessorySlot: 職人のアクセサリースロット
+		AccessorySlot: アクセサリースロット
 	}
 
 	CaptureClass: {
@@ -59,7 +59,7 @@ CommonItemtooltip: {
 
 	Thorium: {
 		BardBuffRange: エンパワーメントの効果範囲が{0}ブロック増加する
-		BardBuffTime: エンパワーメントの持続時間が{0} {^0:second;seconds}延長される
+		BardBuffTime: エンパワーメントの持続時間を{0} {^0:秒;秒}延長する
 		BardInspiration: インスピレーションの最大値が{0}増加
 		HealerBonusHeal: 回復魔法でライフを追加で{0}回復する
 	}
@@ -74,66 +74,66 @@ CommonItemtooltip: {
 	Armorset: {
 		AstralNova:
 			'''
-			+3 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを3つ追加
 			能力アクセサリのクールダウンを25%短縮
-			能力アクセサリの能力を発動するとエネルギーを放ち、クールダウン中、ダメージと防御力が増加
+			能力アクセサリの能力を発動するとエネルギーを放ち、クールダウン中、ダメージと防御力が増加する
 			'''
 		Champions:
 			'''
-			+2 {$CommonItemtooltip.ForItems.AccessorySlot}
-			テラリアがライフに応じてダメージ増加や防御力増加を与える
+			アクセサリースロットを2つ追加
+			テラリアが残りライフの割合に応じてステータスを強化する
+			ライフが50%以上でダメージが増加し、50%未満で防御力が増加し、ライフ自然回復を増進する
 			'''
 		Lihzahrd:
 			'''
-			+2 {$CommonItemtooltip.ForItems.AccessorySlot}
-			攻撃を受けると、リテラシーエネルギービームを発射し、ダメージ増加を短時間得る
+			アクセサリースロットを2つ追加
+			攻撃を受けると、リテラシーエネルギービームを発射し、ダメージが短時間増加する
 			{$CommonItemtooltip.ForItems.MoreTarget}
 			'''
 		Mechanical:
 			'''
-			+2 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを2つ追加
 			能力アクセサリのクールダウンを20%短縮
-			クリティカルで敵にショックを短時間与えることがある
+			クリティカル時、敵にショックを短時間与えることがある
 			ショックを受けた敵は接触ダメージが減少し、被ダメージが増加する
 			'''
 		Radiant:
 			'''
-			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを1つ追加
 			神秘のクリスタルを召喚し、あなたと近くのプレイヤーの対応するタイプのダメージを増加させる
 			あなたを含め、自分のクリスタルを持つプレイヤーは、この効果が強化される
-			{0}を二度押しで増加するダメージのタイプが切り替わる
+			{0}を二度押しで増加するダメージのタイプを切り替える
 			'''
 		Tarnished:
 			'''
-			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを1つ追加
 			能力アクセサリのクールダウンが延長されなくなる
 			致命傷を受けると、守護の魂がライフを即座に100まで回復する
 			この効果には5分のクールダウンがある
 			'''
 		Xeno:
 			'''
-			+2 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを2つ追加
 			時間経過で鎧がエネルギーシールドをチャージする
 			エネルギーシールドはダメージを吸収する
 			'''
 		Ornate:
 			'''
-			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを1つ追加
 			能力アクセサリのクールダウンが延長されなくなる
 			防御力が2増加
 			'''
 		Starplate:
 			'''
-			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
+			アクセサリースロットを1つ追加
 			能力アクセサリのクールダウンが延長されなくなる
 			時間帯に応じてステータスが増加:
-			昼間はダメージが増加し、移動速度が上昇
-			夜間は防御力が増加し、ライフ自然回復を増進
+			昼間はダメージが増加し、移動速度が上昇し、
+			夜間は防御力が増加し、ライフ自然回復を増進する
 			'''
 		Tech:
 			'''
-			+1 {$CommonItemtooltip.ForItems.AccessorySlot}
-			能力アクセサリのクールダウンが延長されなくなる
+			アクセサリースロットを1つ追加
 			能力アクセサリのクールダウンを17%短縮
 			'''
 	}
@@ -163,7 +163,7 @@ Buffs: {
 
 	CyborgCoreBuff: {
 		DisplayName: ナノマシン
-		Description: 移動速度が低下するが、防御力とライフ回復力が大幅に増加
+		Description: 移動速度が低下するが、防御力とライフ自然回復力が大幅に増加
 	}
 
 	HPStim3: {
@@ -243,12 +243,12 @@ Buffs: {
 
 	ChampionDef: {
 		DisplayName: テラリアの決意
-		Description: テラリアの力が防御力と再生力を強化する！
+		Description: テラリアの力が防御力とライフ自然回復力を強化する！
 	}
 
 	ChampionOff: {
 		DisplayName: テラリアの勇気
-		Description: テラリアの力が攻撃力を強化する！
+		Description: テラリアの力がダメージを増加させる！
 	}
 
 	MechShock: {
@@ -318,7 +318,7 @@ Buffs: {
 
 	PermafrostProtection: {
 		DisplayName: 永久凍土の守護
-		Description: 防御力とライフ回復力が増加
+		Description: 防御力とライフ自然回復力が増加
 	}
 
 	ElectrifiedEnemy: {
@@ -328,7 +328,7 @@ Buffs: {
 
 	ChampionProtec: {
 		DisplayName: チャンピオンの守護
-		Description: あなたに代わり、攻撃者がダメージを受ける！
+		Description: あなたの代わりに攻撃者がダメージを受ける！
 	}
 
 	TerraCooldown: {
@@ -423,7 +423,7 @@ Buffs: {
 
 	EmulatorM: {
 		DisplayName: 力のオーラ
-		Description: ダメージとライフ回復力が増加
+		Description: ダメージとライフ自然回復力が増加
 	}
 
 	EmulatorF: {
@@ -635,7 +635,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.SlowlyRegeneratesLife}
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度が低下するが、防御力とライフ回復力が大幅に増加する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度が低下するが、防御力とライフ自然回復力が大幅に増加する
 			「ナノマシンだ、息子よ」
 			'''
 	}
@@ -655,7 +655,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}防具の上に魔法のパワーアーマーを装備する
-			パワーアーマーは10秒間持続し、被ダメージを大きく軽減
+			パワーアーマーは10秒間持続し、被ダメージを大きく軽減する
 			「未来的な鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る。」
 			'''
 	}
@@ -682,9 +682,9 @@ Items: {
 		DisplayName: スターライター
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}作成時の位置、ライフ、マナを記憶する星を生成する
-			この能力を再度使用すると、星によって保存された位置とステータスが復元され、現在の星が削除される
-			スターが有効なら、致命傷を受けたときに、クールダウン中でないならスターライターが自動的に発動される
+			{$CommonItemtooltip.ForItems.ActivatedAbility}発動時の位置、ライフ、マナを記憶する星を生成する
+			この能力を再度発動すると、星によって記憶された位置とステータスが復元され、現在の星が削除される
+			星が存在中に致命傷を受けると、クールダウン中でないならこの能力が自動的に発動される
 			「銀河はあなたの名前を覚えているだろう」
 			'''
 	}
@@ -734,7 +734,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}防具の上に魔法の鎧を装備する
-			魔法の鎧は10秒間持続し、被ダメージを大きく軽減
+			魔法の鎧は10秒間持続し、被ダメージを大きく軽減する
 			「伝説の鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る。」
 			'''
 	}
@@ -803,7 +803,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}20秒間、ダメージが増加し、クリティカル率が上昇する
-			能力を発動する前にダメージを受けると、次の発動時の効果が徐々に強化される
+			能力の発動前にダメージを受けると、次に発動したときの効果が徐々に強化される
 			「燃えるような復讐心で敵を倒せ！」
 			'''
 	}
@@ -864,7 +864,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃時、敵に金属のクロスボーンを撃つ
-			{$CommonItemtooltip.ForItems.ActivatedAbility}クロスボーンに5秒間エネルギーを与え、弾速、連射速度、ダメージを大幅に増加させる
+			{$CommonItemtooltip.ForItems.ActivatedAbility}クロスボーンにエネルギーを5秒間与え、弾速、連射速度、ダメージを大幅に増加させる
 			[placeholder]
 			'''
 	}
@@ -876,7 +876,7 @@ Items: {
 			ジャンプ速度が増加し、自動ジャンプが可能となる
 			落下耐性を増加
 			{$CommonItemtooltip.ForItems.ActivatedAbility}とても高くジャンプし、素早く空中に飛び上がる
-			ジャンプ中とジャンプ直後は落下耐性が大きく増加
+			ジャンプ中とジャンプ直後は落下耐性が大きく増加する
 			[placeholder]
 			'''
 	}
@@ -887,7 +887,7 @@ Items: {
 			'''
 			超高速走行できる
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速が大幅に上昇
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速が大幅に上昇する
 			「マキシマムオーバードライブ！」
 			'''
 	}
@@ -897,7 +897,7 @@ Items: {
 		Tooltip:
 			'''
 			超高速走行できる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速が大幅に上昇
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速が大幅に上昇する
 			「音速で走り回る！」
 			'''
 	}
@@ -910,7 +910,7 @@ Items: {
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
 			攻撃に電撃を追加し、敵にショックを与えることがある
 			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇する
 			「より速く、より強く、より良く」
 			'''
 	}
@@ -922,7 +922,7 @@ Items: {
 			攻撃に電撃を追加し、敵にショックを与えることがある
 			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、近接攻撃速度が大幅に上昇する
-			「ターボチャージ発動!」
+			「ターボチャージ発動！」
 			'''
 	}
 
@@ -957,7 +957,7 @@ Items: {
 		DisplayName: リパルスチャージ
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発する弾丸を投下し、地形に当たったときに、左右に衝撃波を放つ
+			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発する弾丸を投下し、地形に当たると、左右に衝撃波を放つ
 			「個人的な空間を確保しよう」
 			'''
 	}
@@ -967,7 +967,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発するロケットを発射する
-			反動が非常に大きく、撃ったものを射撃方向とは反対方向に飛ばす
+			反動が非常に強く、撃った者を射撃方向とは反対方向に飛ばす
 			「ワシの叫び声だ！」
 			'''
 	}
@@ -1019,7 +1019,7 @@ Items: {
 		DisplayName: 装飾の指輪
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}きらめく閃光を生成し、敵を混乱させ、自身のライフとマナの自然回復を5秒間増進する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}きらめく閃光を放ち、敵を混乱させ、自身のライフとマナの自然回復を5秒間増進する
 			[placeholder]
 			'''
 	}
@@ -1029,7 +1029,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージの一部を反射する
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間防御力を4増加させ、棘の効果を強化する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、防御力を4増加させ、棘の効果を強化する
 			「錆びているにもかかわらず、その棘は簡単に展開と収納ができ、そして最も重要なことに、突き刺すことができる」
 			'''
 	}
@@ -1065,7 +1065,7 @@ Items: {
 		DisplayName: ネクロティックハーベスター
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}大爆発を起こし、爆発範囲内の敵にダメージを与える
+			{$CommonItemtooltip.ForItems.ActivatedAbility}大爆発を起こし、爆発の範囲内の敵にダメージを与える
 			能力発動前に敵にダメージを与えると、徐々にパワーが蓄積され、次の爆発のダメージとノックバックが強化される
 			「危険な目的を達成するために改造された呪いのランタン...」
 			'''
@@ -1085,7 +1085,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}近くのプレイヤー全員にバフを5秒間与える
-			このバフは、恐怖、視覚、力という3つのサイクルがあり、使用するごとに効果が違う
+			このバフは、恐怖、視覚、力という3つのサイクルがあり、使用ごとに効果が違う
 			ソウルエミュレーターを装備しているならバフが10秒間持続し、
 			エミュレータのバフが循環する
 			[placeholder]
@@ -1097,7 +1097,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}チャージし、自身が向いている方向に強力なレーザーを発射する
-			発射中は移動速度が低下し、他のアイテムが使用できなくなる
+			発射中は移動速度が低下し、他のアイテムを使用できない
 			「やぁ！」
 			'''
 	}
@@ -1116,8 +1116,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}15秒間、自身の周りを回転するパンプキングの鎌を2つ召喚する
-			召喚中は被ダメージが15%軽減
-			鎌でダメージを与えるたびに、ダメージ軽減量が増え、最大で被ダメージを45%軽減
+			召喚中は被ダメージが15%軽減する
+			鎌でダメージを与えるたびに、ダメージ軽減量が増え、最大で被ダメージを45%軽減する
 			[placeholder]
 			'''
 	}
@@ -1135,7 +1135,8 @@ Items: {
 		DisplayName: 幸運のプレゼント
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}ランダムな効果が発生する 有益か有害な効果になる可能性がある...
+			{$CommonItemtooltip.ForItems.ActivatedAbility}ランダムな効果が発生する
+			有益か有害な効果になる可能性がある...
 			「何がもらえるんだろう？何がもらえるんだろう？」
 			'''
 	}
@@ -1146,8 +1147,8 @@ Items: {
 			'''
 			能力のクールダウン中、ダメージが4%増加し、クリティカル率が4%上昇
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒かけて強力なスタービームをチャージする
-			チャージ中は被ダメージが20%軽減
-			チャージが完了すると、スタービームは一番強い敵を探し出し、壊滅的な爆発を引き起こす
+			チャージ中は被ダメージが20%軽減する
+			チャージが完了すると、スタービームは一番強い敵を探し出し、壊滅的な爆発を起こす
 			「星に願いをかければ、星は応えてくれる」
 			'''
 	}
@@ -1156,9 +1157,9 @@ Items: {
 		DisplayName: 月喰みのマーク
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}昇華されたヴァンパイアナイフを放ち、当たった敵のライフを奪う
-			ナイフで回復するたびに、近くの味方も少量回復することがある
-			ライフスティール能力がわずかに上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}昇華されたヴァンパイアナイフを放ち、当たった敵のライフを吸収する
+			ナイフで回復するたびに、近くの味方も少し回復することがある
+			ライフ吸収能力がわずかに上昇する
 			「ジェイソン・ラインフォース・パーカーに捧ぐ」
 			「死は一時的なものだが、影響は永遠だ」
 			'''
@@ -1170,7 +1171,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}オーロラを発生させ、一時的にあらゆる攻撃から身を守る
 			オーロラの近くにいるプレイヤー（使用者自身を含む）の防御力、被ダメージ軽減、ライフ自然回復力を一時的に増加させる
-			オーロラの近くにいる敵は混乱し、短時間被ダメージが増加する
+			オーロラの近くにいる敵は混乱し、被ダメージが短時間増加する
 			「その湧き上がる天上の力は、反転したアルカナの残滓のようだ…」
 			'''
 	}
@@ -1207,8 +1208,7 @@ Items: {
 		DisplayName: ダークムーンパクト
 		Tooltip:
 			'''
-			最大ライフが20%減少
-			その代わりに、以下の効果を得る
+			最大ライフが20%減少するが、
 			ダメージが12%増加し、クリティカル率が12%上昇
 			ライフ自然回復を増進
 			「力には代償があることを忘れてはならない...」
@@ -1226,7 +1226,7 @@ Items: {
 
 	RejuvStone: {
 		DisplayName: 若返りの石
-		Tooltip: ほとんどの回復アイテムの効力が25%増加
+		Tooltip: ほとんどの回復アイテムの効果が25%増加
 	}
 
 	SanguineStone: {
@@ -1623,7 +1623,7 @@ Items: {
 			クリティカル率が2%上昇
 			{$CommonItemtooltip.ForItems.SlowlyRegeneratesLife}
 			最大ライフが20増加
-			クリティカルでライフ自然回復を一時的に増進することがある
+			クリティカル時にライフ自然回復を一時的に増進することがある
 			'''
 	}
 
@@ -1649,7 +1649,7 @@ Items: {
 			{$CommonItemtooltip.ForItems.SlowlyRegeneratesLife}
 			最大ライフが20増加
 			ハートを拾う範囲がわずかに広がる
-			敵を倒すか、クリティカルで、ミニハートが出現することがある
+			敵を倒すか、クリティカルでミニハートが出現することがある
 			'''
 	}
 
@@ -1744,7 +1744,7 @@ Items: {
 		DisplayName: ビーストマスターのグローブ
 		Tooltip:
 			'''
-			召喚ダメージを15%増加
+			召喚ダメージが15%増加
 			{$CommonItemtooltip.ForItems.PercentIncreasedWhipSpeed@1}
 			{$CommonItemtooltip.ForItems.PercentIncreasedWhipRange@2}
 			近接武器のオート攻撃を有効にする
@@ -1833,8 +1833,8 @@ Items: {
 		Tooltip:
 			'''
 			魔法クリティカル率が12%上昇
-			魔法攻撃でクリティカル時、シャドウフレイムを与える
-			「私たちは呪文を唱えるのが大好きです!」
+			魔法攻撃でクリティカル時にシャドウフレイムを与える
+			「私たちは呪文を唱えるのが大好きです！」
 			'''
 	}
 
@@ -1859,7 +1859,7 @@ Items: {
 			'''
 			運が増加
 			運次第でクリティカルを保証する小さなチャンスを与える
-			クリティカル時のダメージを40%増加
+			クリティカル時のダメージが40%増加
 			「その明るい輝きは、戦場を指揮する勇気を与えてくれる！」
 			'''
 	}
@@ -1891,7 +1891,7 @@ Items: {
 			六段ジャンプが可能
 			ジャンプ高度が増加し、落下ダメージを無効
 			ダメージを受けると蜂を放って、使用者を蜂蜜に浸す
-			翼との併用は不可
+			翼と併用できない
 			'''
 	}
 
@@ -1911,8 +1911,7 @@ Items: {
 		Tooltip:
 			'''
 			超高速走行できる
-			テレポートダッシュが可能
-			横方向入力2回で
+			横方向入力2回でテレポートダッシュが可能
 			テレポートは目的地に十分なスペースがあれば地形をすり抜ける
 			移動速度が12%上昇
 			「もしかしたら、並行宇宙に転移できるかもしれない」
@@ -1930,7 +1929,7 @@ Items: {
 			'''
 			矢のダメージが10%増加し、矢の速度が大幅に上昇
 			20%の確率で矢を消費しない
-			遠距離武器で敵の防御力を12無視
+			遠距離武器で敵の防御力を12無視する
 			'''
 	}
 
@@ -1948,7 +1947,7 @@ Items: {
 		DisplayName: 不浄の防壁
 		Tooltip:
 			'''
-			ライフが25%以下の際、ダメージが15%増加
+			ライフが25%以下の際、ダメージが15%増加する
 			{$CommonItemtooltip.ForItems.NoKnockback}
 			{$CommonItemtooltip.ForItems.LessTarget}
 			「全ての人が揺るぎない正義の道を歩むわけではない…」
@@ -1959,7 +1958,7 @@ Items: {
 		DisplayName: 永久凍土のマント
 		Tooltip:
 			'''
-			ダメージを受けると防御力とライフ回復力が増加する
+			ダメージを受けると防御力とライフ自然回復力が増加する
 			ダメージを受けると氷の破片が放ち、近くの敵を攻撃することがある
 			凍え、凍結、霜焼けに耐性
 			'''
@@ -1969,11 +1968,11 @@ Items: {
 		DisplayName: 永久凍土の甲羅
 		Tooltip:
 			'''
-			ダメージを受けると防御力とライフ回復力が増加する
+			ダメージを受けると防御力とライフ自然回復力が増加する
 			ライフが50%以下の際、触れた敵にダメージを与えるスパイク付きの氷の甲羅が自身の周りを回り、
-			被ダメージを25%軽減
+			被ダメージを25%軽減する
 			甲羅があるときにダメージを受けると、敵に激しく衝突して爆発する
-			破壊された甲羅はすぐに新しい甲羅に置き換えられる
+			甲羅が破壊されてもすぐに次の甲羅が出現する
 			凍え、凍結、霜焼けに耐性
 			「青い甲羅？！」
 			'''
@@ -1984,7 +1983,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ReducedAbilityCooldown}
-			戦闘中に能力アクセサリの能力が自動的に発動する
+			戦闘中、能力アクセサリの能力が自動的に発動する
 			「常に時間通りだ」
 			'''
 	}
@@ -2006,9 +2005,9 @@ Items: {
 			{$CommonItemtooltip.ForItems.NoKnockback}
 			ほとんどの状態異常に対する耐性
 			ライフが25%以上の際に近くのチームプレイヤーは死亡から守られる
-			守られたプレイヤーが致命傷を受けると、ライフが1に減る
-			この効果が発動すると、プレイヤーは一定時間、継続ダメージを受けなくなり、次の近接攻撃のダメージが増加
-			この効果には60秒のクールダウンがあり、この盾を装備中、クールダウンが25%短縮される
+			守られたプレイヤーが致命傷を受けると、ライフが1になる
+			この効果が発動すると、プレイヤーは一定時間、継続ダメージを受けなくなり、次の近接攻撃のダメージが増加する
+			この効果には60秒のクールダウンがあり、この盾を装備中はクールダウンが25%短縮される
 			'''
 	}
 
@@ -2027,8 +2026,8 @@ Items: {
 		DisplayName: デストロイヤーのスカーフ
 		Tooltip:
 			'''
-			被ダメージを18%軽減
-			敵の防御力を8無視
+			被ダメージを18%軽減する
+			敵の防御力を8無視する
 			'''
 	}
 
@@ -2151,7 +2150,7 @@ Items: {
 			落下耐性を増加
 			上下にダッシュが可能
 			縦方向入力2回でダッシュする
-			ダッシュは飛行時間を消費し、翼を装備していない場合、接地時のみダッシュできる
+			ダッシュは飛行時間を消費し、翼を装備していない場合は接地時のみダッシュできる
 			'''
 	}
 
@@ -2184,8 +2183,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、自身の周囲に巨大なオーラを放つ
 			オーラの中に入った敵は、一時的に移動速度が低下し、防御力が30減少する
-			敵のライフを吸収すると、ライフ回復力が増加する
-			敵のライフを吸収している時間が長いほど、回復力が増加する
+			敵のライフを吸収すると、吸収している時間に応じてライフ自然回復力が増加する
 			「トロフィーみたいだ」
 			'''
 	}
@@ -2195,8 +2193,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}コインのキューブを回転させて投げる
-			キューブのどの面に出るかによって、ダメージを与えるコインと拾えるコインが飛び出す
-			価値の高いコインは珍しいが、与えるダメージも大きくなる
+			出た面によって、ダメージを与えるコインと拾えるコインが飛び出す
+			価値の高いコインは珍しいが、与えるダメージが大きくなる
 			「ギャンブルしに行こう！」
 			'''
 	}
@@ -2207,7 +2205,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}自身の周囲にハングリーを3体召喚する
 			ハングリーは近くの敵を攻撃し、ライフを吸収する
-			ただし、発動時にライフを50消費する！
+			ただし、発動時、ライフを50消費する！
 			[placeholder]
 			'''
 	}
@@ -2216,10 +2214,10 @@ Items: {
 Projectiles: {
 	BewitchedBulwarkProj.DisplayName: 魔法の防壁
 	BulwarkAura.DisplayName: 防壁の魔法
-	FirstPrismBeam.DisplayName: プリズム ビーム
+	FirstPrismBeam.DisplayName: プリズムビーム
 	FirstPrismProj.DisplayName: ファーストプリズム
 	SolarBlast.DisplayName: ソーラー バースト
-	StarwriterSavePos.DisplayName: スターライター スター
+	StarwriterSavePos.DisplayName: スターライタースター
 	StarplateBlast.DisplayName: スタープレートバースト
 	LihzahrdArmorBeam.DisplayName: ソーラーエネルギー
 	PermafrostCloakSpikes.DisplayName: 氷の破片
@@ -2232,13 +2230,13 @@ Projectiles: {
 	HiddenBladeProj.DisplayName: 隠しナイフ
 	RepulseBomb.DisplayName: リパルスボム
 	RepulseMissile.DisplayName: リパルションロケット
-	RepulseShockwave.DisplayName: リパルス 衝撃波
+	RepulseShockwave.DisplayName: リパルス衝撃波
 	OrnateRingFlash.DisplayName: 装飾の指輪 閃光
 	DarkLeechHeal.DisplayName: ダーク ライフスティール
 	DarkLeechHook.DisplayName: ダークリーチ
-	LeechingTetherHeal.DisplayName: リーチング ライフスティール
+	LeechingTetherHeal.DisplayName: リーチングライフスティール
 	LeechingTetherHook.DisplayName: リーチングテザー
-	LifelineHeal.DisplayName: ライフ ライフスティール
+	LifelineHeal.DisplayName: ライフスティール
 	LifelineHook.DisplayName:ライフライン
 	HarvesterNuke.DisplayName: ネクロティック爆発
 	ProbeLaser.DisplayName: レーザー

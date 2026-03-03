@@ -1,0 +1,78 @@
+UI: {
+	// NoInputDevice: No Input Device
+	// EnableTestMode: Enable Mic and Test to Visualize
+	// Mic: Mic
+	// Test: Test
+	// Denoise: Denoise
+	// NoIcons: No Icons
+	// VolumeDisplay: AMP
+	// ChannelDisplay: CHNL
+	// NotOnline: Currently Offline
+	// NoOtherPlayers: No Players Detected
+	// CurrentlyTracking: Currently Tracking:
+	// Distance: "{0} ft."
+	// MutedYes: Muted : Yes
+	// MutedNo: Muted : No
+	// Inf: Inf.
+
+	Tooltips: {
+		Visualizer:
+			'''
+			音声入力を波形で可視化します
+			AMPは音声入力の音量です
+			CHNLは現在使用しているチャンネルです
+			他のプレイヤーがあなたと同じチャンネルを使用している場合のみ、あなたの声が聞こえます
+			'''
+		DeviceSwitcher:
+			'''
+			現在使用中のマイクを表示しています
+			右側のボタンを押すとデバイスが切り替わります
+			'''
+		DualKnob:
+			'''
+			クリック＆ドラッグで入力音量を調整します
+			マウスホイールを使って音声チャンネルを変更します
+			'''
+		PlayerDisplay:
+			'''
+			この画面は選択中のオンラインプレイヤーを表示します
+			右側の上のボタンを押すと、別のプレイヤーを選択することができます
+			右側の下のボタンを押すと、選択中のプレイヤーをミュートすることができます
+			'''
+		OpenMic:
+			'''
+			有効にすると、あなたの声がつねに送信されます
+			この設定ではノイズ抑制を有効にすることをおすすめします
+			'''
+		PushToTalk:
+			'''
+			有効にすると、キーが押されている間のみあなたの声が送信されます
+			このキーはキーコンフィグで設定できます
+			'''
+		Slider:
+			'''
+			このスライダーを使って、声が聞こえる最大距離を調整します
+			範囲は右側に表示されます（タイル単位）
+			0に設定すると、範囲は無制限になります
+			'''
+		Mic: 有効にするとマイクが音を拾います
+		Test:
+			'''
+			有効にすると、自分の声が聞こえるようになります
+			MICスイッチとTESTスイッチが有効の場合、オーディオビジュアライザーが表示されます
+			'''
+		Denoise: 有効にすると、あなたの音声にノイズ抑制が適用されます
+		NoIcons: 有効にすると、音声アイコンが表示されなくなります
+	}
+}
+
+Keybinds: {
+	VoiceControlPanel: {
+		DisplayName: 音声コントロールパネルを開く
+	}
+
+	PushToTalk: {
+		DisplayName: プッシュ・トゥ・トーク
+	}
+}
+

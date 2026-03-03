@@ -4,8 +4,8 @@ Items: {
 		Tooltip:
 			'''
 			ヨーヨーを連続で当てるとコンボが成立し、
-			コンボ中、ヨーヨーのダメージが最大で20%増加
-			ヨーヨーの持続時間が50%延長
+			コンボ中はヨーヨーのダメージが最大で20%増加する
+			ヨーヨーの持続時間が50%延長される
 			'''
 	}
 
@@ -20,7 +20,7 @@ Items: {
 
 	YoyoBearingAccessory: {
 		DisplayName: 玉軸受
-		Tooltip: ヨーヨーの持続時間が50%延長
+		Tooltip: ヨーヨーの持続時間が50%延長される
 	}
 
 	YoyoSideEffectsAccessory: {
@@ -28,7 +28,7 @@ Items: {
 		Tooltip:
 			'''
 			ヨーヨーを連続で当てるとコンボが成立し、
-			コンボ中、ヨーヨーのダメージが最大で20%増加
+			コンボ中はヨーヨーのダメージが最大で20%増加する
 			'''
 	}
 
@@ -62,7 +62,7 @@ Items: {
 
 	HolyThrow: {
 		DisplayName: ホーリースロー
-		Tooltip: 敵の防御力を10無視
+		Tooltip: 敵の防御力を10無視する
 	}
 
 	Nitro: {
@@ -75,7 +75,7 @@ Items: {
 
 	Poltergeist: {
 		DisplayName: ポルターガイスト
-		Tooltip: 地形を無視する
+		Tooltip: 地形を貫通する
 	}
 
 	PrismaticThrow: {
@@ -141,7 +141,6 @@ Configs: {
 				この設定がオンだと、カウンターウェイトの速度が上昇し、局所的な影響が無効化され、
 				さらに、カウンターウェイトが4～6秒後に切り替わるようになります (デフォルトはオン)
 				'''
-			
 		}
 
 		AddNewAccessories: {
