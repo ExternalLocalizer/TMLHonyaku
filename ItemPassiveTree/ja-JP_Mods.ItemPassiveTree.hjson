@@ -1,30 +1,34 @@
 Configs: {
 	TreeConfig: {
 		RarityRequirementMultiplier: {
-			Tooltip: 高レアリティアイテムに対する必要コストの増加率を調整します。値が高いほどレア度がレベルコストに強く影響します。(デフォルト: 0.3)
-			Label: レアリティ要求倍率
+			Label: レアリティの倍率
+			Tooltip: 
+			'''
+			高いレアリティのアイテムに対する必要EXPの増加度合いを変更します
+			値が高いほどレアリティが必要EXP量に強く影響します (デフォルト: 0.3)
+			'''
 		}
 
 		ExpRequirementMultiplier: {
-			Tooltip: 値を高くするとアイテムのレベルアップがより難しくなります。(デフォルト: 0.5)
-			Label: 経験値要求倍率
+			Label: EXPの必要倍率
+			Tooltip: 値を高くするとアイテムのLVアップが遅くなります (デフォルト: 0.5)
 		}
 
 		GlobalExpMultiplier: {
-			Tooltip: 値を高くすると獲得経験値が増加し、低くすると減少します。(デフォルト: 1)
-			Label: 全体経験値倍率
+			Label: 獲得EXPの倍率
+			Tooltip: 値を高くすると獲得できるEXPが増加し、低くすると減少します (デフォルト: 1)
 		}
 
 		DisplayName: ツリー設定
 
 		MaxItemLevel: {
-			Label: アイテム最大レベル
-			Tooltip: アイテムが到達できる最大レベル。(デフォルト: 100)
+			Label: アイテムの最大LV
+			Tooltip: アイテムの最大LVを変更します (デフォルト: 100)
 		}
 
 		AllowModdedAccessories: {
-			Label: MODアクセサリースロットでもEXPを獲得可能にする
-			Tooltip: 不具合が発生する場合は無効にしてください。
+			Label: Mod追加アクセサリースロットでもEXPを獲得できる
+			Tooltip: バグが発生する場合はオフにしてください
 		}
 
 		ShowHUD: {
@@ -38,8 +42,36 @@ Configs: {
 		}
 
 		NodePowerMultiplier: {
-			Tooltip: すべてのパッシブノードの基本効果を倍率で増加させます。(デフォルト: 1)
-			Label: ノード効果倍率
+			Label: ノードの効果倍率
+			Tooltip: 全てのパッシブノードの基本効果を倍率で増加させます (デフォルト: 1)
+		}
+
+		EnableAccessoryExp: {
+			Label: アクセサリがEXPを獲得できる
+			Tooltip: ""
+		}
+
+		EnableArmorExp: {
+			Label: 防具がEXPを獲得できる
+			Tooltip: ""
+		}
+
+		AccessorySharingOnly: {
+			Label: アクセサリの部分共有
+			Tooltip: 
+			'''
+			オンにすると、アクセサリはダメージを受けても EXPを獲得できず、
+			武器や防具による敵の撃破や敵から攻撃を受けるなどで、EXPの一部を獲得します
+			'''
+		}
+
+		EnableVariableNodeCosts: {
+			Label: ノードのコストの変化を有効にする
+			Tooltip: 
+			'''
+			オンにすると、特別なノード（ユニーク/バフ）の必要ポイントが高くなります
+			オフにすると、全てのノードのコストが1ポイントになります
+			'''
 		}
 	}
 }
@@ -47,30 +79,34 @@ Configs: {
 UI: {
 	TreePassivesHeader: パッシブツリー
 	NoNodeSelected: パッシブが割り振られていません
-	AvailablePoints: 利用可能ポイント: {0}
-	Level: レベル: {0} / {1}
+	AvailablePoints: 利用可能なポイント: {0}
+	Level: LV: {0} / {1}
 	EXP: EXP: {0} / {1} ({2}%)
-	FallenLeaf: 右クリックでノードを払い戻し
-	ShiftingLeaf: Shift + 右クリックでノードを再抽選
-	ShiftingLeaf2: 再抽選したノードはムーンロード撃破まで再度再抽選できません
+	MaxLevel: 最大LV
+	FallenLeaf: 右クリックでノードを払い戻す
+	ShiftingLeaf: Shift + 右クリックでノードを再抽選する
+	ShiftingLeaf2: 再抽選したノードはムーンロードを撃破するまで再度再抽選できません
+	HUDLocked: ロック
+	HUDUnlocked: ロック解除
 }
 
 Keybinds: {
-	"Open Item Passive Tree.DisplayName": アイテムパッシブツリーを開く
+	"Open Item Passive Tree.DisplayName": アイテムのパッシブツリーを開く
 	"Zoom Out .DisplayName": ズームアウト
 }
 
 Stats: {
+	# Generic formatters
 	StatFormat: "{0} {1}"
-	BuffFormat: このアイテムを所持または装備中、{0} を付与
-	MinionBuffFormat: このアイテムでミニオンを所持または召喚中、{0} を付与
+	BuffFormat: このアイテムを選択中か装備中、{0}を得る
+	MinionBuffFormat: このアイテムを選択中かこのアイテムのミニオンを召喚中、{0}を得る
 	ImbueTutorialFormat:
 		'''
-		付与ノードは同時に1つのみ取得できます
-		このノードを取得すると他の付与ノードはランダムなノードに変化します
-		このノードを払い戻すと変化した付与ノードが元に戻ります
+		攻撃した敵にデバフを与えるノードは同時に1つだけ取得でき、
+		このノードを取得すると他のデバフ付与ノードはランダムなノードに変化します
+		このノードを払い戻すと変化したデバフ付与ノードが元に戻ります
 		'''
-
+	# Stat Names
 	Damage: ダメージ
 	AttackSpeed: 攻撃速度
 	CritChance: クリティカル率
@@ -81,105 +117,102 @@ Stats: {
 	MovementSpeed: 移動速度
 	Defense: 防御力
 	Luck: 運
+	PlacementRange: 配置範囲
+	GrabRange: 取得範囲
 	ClickerRadius: クリック範囲
-
-	ProjectileSize: 弾サイズ
+	# Short labels for the Hexagon Nodes
+	ProjectileSize: 弾のサイズ
 	ProjectileVelocity: 弾速
 	ProjectileCount: 追加弾数
 	ProjectilePenetrate: 貫通回数
-	LifeSteal: ライフスティール確率
+	LifeSteal: ライフ吸収確率
 	MinionCount: ミニオン数
 	SentryCount: セントリー数
-	WhipRange: ムチ射程
+	WhipRange: 鞭の攻撃範囲
 	ManaCost: マナ消費
 	ManaRegen: マナ回復
 	ManaMax: 最大マナ
 	AmmoConsumption: 弾薬消費軽減確率
 	ToolSpeed: ツール速度
-	PickaxePower: 採掘力
-	FishingPower: 釣りパワー
-	WeaponSize: 武器サイズ
-
+	ToolRange: ツール範囲
+	PickaxePower: 採掘スピード
+	FishingPower: フイッシング・パワー
+	WeaponSize: 武器のサイズ
+	# Imbues / Buffs
 	MinionImbueFire: ミニオン付与: 炎
 	MinionImbuePoison: ミニオン付与: 毒
 	MinionImbueShadow: ミニオン付与: シャドウフレイム
-	MinionImbueVenom: ミニオン付与: アシッドベノム
-
-	Archery: アーチェリーバフ
-	Clairvoyance: 透視バフ
-	Regeneration: 再生バフ
-	Swiftness: 俊敏バフ
-	Ironskin: 鉄皮バフ
-	Wrath: 憤怒バフ
-	Rage: 激怒バフ
-	Lifeforce: ライフフォースバフ
-	Endurance: 耐久バフ
-	FishingPotion: 釣りポーションバフ
+	MinionImbueVenom: Minion Imbue: 酸性毒
+	Archery: 弓使いバフ
+	Clairvoyance: 千里眼 バフ
+	Regeneration: ライフ自然回復増進バフ
+	Swiftness: 俊足バフ
+	Ironskin: 鉄の肌バフ
+	Wrath: 激怒バフ
+	Rage: 怒りバフ
+	Lifeforce: 生命強化バフ
+	Endurance: 忍耐バフ
+	FishingPotion: 釣りバフ
 	Sonar: ソナーバフ
-	Crate: 木箱バフ
+	Crate: 箱バフ
 	WaterWalking: 水上歩行バフ
-	Calm: 鎮静バフ
-	Inferno: インフェルノバフ
-	Shine: 発光バフ
-	Spelunker: 探鉱バフ
-	Hunter: ハンターバフ
-
+	Calm: 平穏バフ
+	Inferno: 獄炎バフ
+	Shine: 輝きバフ
+	Spelunker: 探検家バフ
+	Hunter: 狩人バフ
 	WeaponImbueFire: 武器付与: 炎
-	WeaponImbueFireDesc: 近接攻撃で炎上デバフを付与
+	WeaponImbueFireDesc: 近接攻撃で敵を炎上させる
 	WeaponImbuePoison: 武器付与: 毒
-	WeaponImbuePoisonDesc: 近接攻撃で毒デバフを付与
+	WeaponImbuePoisonDesc: 近接攻撃で毒を与える
 	WeaponImbueGold: 武器付与: ゴールド
-	WeaponImbueGoldDesc: 近接攻撃で追加ゴールドをドロップ
-	WeaponImbueIchor: 武器付与: イコル
-	WeaponImbueIchorDesc: 近接攻撃でイコルデバフを付与
-	WeaponImbueCursedFlames: 武器付与: 呪いの炎
-	WeaponImbueCursedFlamesDesc: 近接攻撃で呪いの炎デバフを付与
-	WeaponImbueVenom: 武器付与: アシッドベノム
-	WeaponImbueVenomDesc: 近接攻撃でアシッドベノムデバフを付与
+	WeaponImbueGoldDesc: 近接攻撃でコインを追加でドロップ
+	WeaponImbueIchor: 武器付与: 霊液
+	WeaponImbueIchorDesc: 近接攻撃で霊液を与える
+	WeaponImbueCursedFlames: 武器付与: 呪炎
+	WeaponImbueCursedFlamesDesc: 近接攻撃で呪炎を与える
+	WeaponImbueVenom: 武器付与: 酸性毒
+	WeaponImbueVenomDesc: 近接攻撃で酸性毒を与える
 	WeaponImbueParty: 武器付与: 紙吹雪
-	WeaponImbuePartyDesc: 近接攻撃時に紙吹雪が発生
-	WeaponImbueNanites: 武器付与: ナノマシン
-	WeaponImbueNanitesDesc: 近接攻撃でナノマシンデバフを付与
-
-	MinionImbueFireDesc: ミニオンが炎上を付与
+	WeaponImbuePartyDesc: 近接攻撃時に紙吹雪が発生する
+	WeaponImbueNanites: 武器付与: 混乱
+	WeaponImbueNanitesDesc: 近接攻撃で混乱を与える
+	MinionImbueFireDesc: ミニオンが敵を炎上させる
 	MinionImbuePoisonDesc: ミニオンが毒を付与
-	MinionImbueShadowDesc: ミニオンがシャドウフレイムを付与
-	MinionImbueVenomDesc: ミニオンがアシッドベノムを付与
-
+	MinionImbueShadowDesc: ミニオンがシャドウフレイムを与える
+	MinionImbueVenomDesc: ミニオンが酸性毒を与える
 	MagicWeaponImbueFire: 武器付与: 炎
-	MagicWeaponImbueFireDesc: 魔法攻撃で炎上デバフを付与
+	MagicWeaponImbueFireDesc: 魔法攻撃で敵を炎上させる
 	MagicWeaponImbuePoison: 武器付与: 毒
-	MagicWeaponImbuePoisonDesc: 魔法攻撃で毒デバフを付与
+	MagicWeaponImbuePoisonDesc: 魔法攻撃で毒を与える
 	MagicWeaponImbueShadow: 武器付与: シャドウ
-	MagicWeaponImbueShadowDesc: 魔法攻撃でシャドウフレイムデバフを付与
-	MagicWeaponImbueVenom: 武器付与: ベノム
-	MagicWeaponImbueVenomDesc: 魔法攻撃でアシッドベノムデバフを付与
-
+	MagicWeaponImbueShadowDesc: 魔法攻撃でシャドウフレイムを与える
+	MagicWeaponImbueVenom: 武器付与: 酸性毒
+	MagicWeaponImbueVenomDesc: 魔法攻撃で酸性毒を与える
 	RangedWeaponImbueFire: 武器付与: 炎
-	RangedWeaponImbueFireDesc: 遠距離攻撃で炎上デバフを付与
+	RangedWeaponImbueFireDesc: 遠距離攻撃で敵を炎上させる
 	RangedWeaponImbuePoison: 武器付与: 毒
-	RangedWeaponImbuePoisonDesc: 遠距離攻撃で毒デバフを付与
+	RangedWeaponImbuePoisonDesc: 遠距離攻撃で毒を与える
 	RangedWeaponImbueShadow: 武器付与: シャドウ
-	RangedWeaponImbueShadowDesc: 遠距離攻撃でシャドウフレイムデバフを付与
-	RangedWeaponImbueVenom: 武器付与: ベノム
-	RangedWeaponImbueVenomDesc: 遠距離攻撃でアシッドベノムデバフを付与
-
+	RangedWeaponImbueShadowDesc: 遠距離攻撃でシャドウフレイムを与える
+	RangedWeaponImbueVenom: 武器付与: 酸性毒
+	RangedWeaponImbueVenomDesc: 遠距離攻撃で酸性毒を与える
 	SwiftnessDesc: 移動速度が25%上昇
 	LifeforceDesc: 最大ライフが20%増加
-	EnduranceDesc: 被ダメージ10%軽減
-	RegenerationDesc: ライフ自動回復を付与
-	SpelunkerDesc: 宝箱や鉱石の位置を表示
-	IronskinDesc: 防御力+8
-	WrathDesc: ダメージ10%増加
-	RageDesc: クリティカル率10%増加
-	FishingPotionDesc: 釣りパワー増加
-	SonarDesc: 魚の種類が見える
-	CrateDesc: 木箱の釣れる確率上昇
+	EnduranceDesc: 被ダメージを10%軽減
+	RegenerationDesc: ライフ自然回復を増進
+	SpelunkerDesc: 宝と鉱石が光って見える
+	IronskinDesc: 防御力が8増加
+	WrathDesc: ダメージが10%増加
+	RageDesc: クリティカル率が10%増加する 
+	FishingPotionDesc: フィッシング・パワーが向上する
+	SonarDesc: 釣り針に食いついているものが見える
+	CrateDesc: 木箱を釣り上げる確率が上昇 
 	WaterWalkingDesc: 水上を歩ける
-	CalmDesc: 敵の出現率減少
-	InfernoDesc: 近くの敵を炎上させる
-	ShineDesc: 光を放つ
-	HunterDesc: 敵の位置を表示
+	CalmDesc: 敵の出現率が低下
+	InfernoDesc: 周囲の敵を燃やす
+	ShineDesc: 体が光る 
+	HunterDesc: 敵が光って見える 
 
 	ShortLabels: {
 		Buff: バフ
@@ -199,78 +232,149 @@ Stats: {
 		SentryCount: +Sen
 		LifeSteal: LSteal
 		ClickerRadius: AoE
+		ToolRange: Range
+		PlacementRange: Range
 	}
 }
 
 Tooltips: {
-	TreeTutorial: "[c/FFFFFF:{0}] を押してパッシブツリーを表示"
-	KeyNotBoundWarning: "(!) キーが割り当てられていません！ 設定 -> 操作 からキーを設定してください"
+	TreeTutorial: "[c/FFFFFF:{0}]でパッシブツリーを表示"
+	KeyNotBoundWarning: "(!) キーが割り当てられていません！ 設定 -> コントロールからキーを設定してください"
+	HoldShift: "[c/AAAAAA:Shift]を押したままにするとツリーパッシブが表示されます"
 	TreeNodesTitle: "ツリーパッシブ:"
-	NoKeyBound: "NONE"
+	NoKeyBound: なし
 }
 
 Items: {
 	AcornofTransmutation: {
-		DisplayName: "変異のドングリ"
-		Tooltip: "使用したアイテムのパッシブツリーを全払い戻しし、完全に新しいツリーを生成します\nこのアイテムを手に持ち、パッシブツリーを持つアイテムを右クリックして使用"
+		DisplayName: 変異のドングリ
+		Tooltip:
+			'''
+			使用したアイテムのポイントを全て払い戻し、完全に新しいパッシブツリーを再生成する
+			このアイテムを持ち、パッシブツリーを持つアイテムを右クリックで使用する
+			'''
 		Replant: "{0} の根が植え直されました！"
 	}
 
 	EssenceofAutumn: {
-		DisplayName: "秋のエッセンス"
-		Tooltip: "アイテムのパッシブツリーで割り振られたポイントをすべて払い戻します\nこのアイテムを手に持ち、パッシブツリーを持つアイテムを右クリックして使用"
-		Refund: "{0} のパッシブポイントが払い戻されました。"
+		DisplayName: 秋のエッセンス
+		Tooltip:
+			'''
+			使用したアイテムのパッシブツリーで割り振られたポイントを全て払い戻す
+			このアイテムを持ち、パッシブツリーを持つアイテムを右クリックで使用する
+			'''
+		Refund: "{0}のパッシブポイントが払い戻されました。"
 	}
 
 	FallenLeaf: {
-		DisplayName: "落ち葉"
-		Tooltip: "パッシブ払い戻しポイントを1獲得"
+		DisplayName: 落ち葉
+		Tooltip: パッシブの払い戻しポイントを1獲得する
 	}
 
 	ShiftingLeaf: {
-		DisplayName: "揺らぐ落ち葉"
-		Tooltip: "ノード再抽選ポイントを1獲得"
+		DisplayName: 揺らぐ落ち葉
+		Tooltip: ノードの再抽選ポイントを1獲得する
 	}
 
 	LeechItem: {
-		DisplayName: "ヒル"
+		DisplayName: ヒル
 		Tooltip: ""
-		NoEXP: "このヒルをアイテムに取り付けると、そのアイテムが獲得するEXPを吸収して保存します\n[c/32FF82:保存済み: {0} / {1} EXP]\nこのヒルを手に持ち、パッシブツリーを持つアイテムを右クリックして取り付けます\nヒルはいつでも取り外せます\nEXPを保存したヒルは取り外すと滋養状態になります\n滋養状態のヒルはアイテムに使用すると保存したEXPを移します"
-		WithEXP: "[c/32FF82:保存済み: {0} / {1} EXP]\nこのヒルを手に持ち、パッシブツリーを持つアイテムを右クリックして保存EXPを移します\nEXPを移した後、ヒルは消費されます"
-		HostStatus: "{0} 保存EXP: {1} / {2}"
+		NoEXP:
+			'''
+			このヒルをアイテムに取り付けると、そのアイテムが獲得したEXPを吸収して保管する
+			[c/32FF82:保管: {0} / {1} EXP]
+			[c/808080:このヒルを持ち、パッシブツリーを持つアイテムを右クリックで取り付ける]
+			ヒルはいつでも取り外すことができる
+			EXPを保管したヒルは取り外すと滋養状態になり、
+			滋養状態のヒルはアイテムに使用すると保管したEXPを移す
+			'''
+		WithEXP:
+			'''
+			[c/32FF82:保管: {0} / {1} EXP]
+			[c/808080:このヒルを持ち、パッシブツリーを持つアイテムを右クリックで保管したEXPを移す]
+			EXPを移した後、ヒルは消費される
+			'''
+		HostStatus: "{0} 保管EXP: {1} / {2}"
 		HostInstruction: "(Shift + 右クリックで {0} を取り外す)"
 		Extract: "{0} を取り外しました！"
-		Absorb: "{0} は {1} の保存EXPを吸収した！"
+		Absorb: "{0} は {1} の保管EXPを吸収しました！"
 		Siphon: "{0} は {1} によって吸収されています！"
 	}
 
 	FungalLeech: {
-		DisplayName: "菌糸ヒル"
+		DisplayName:  菌糸のヒル
 		Tooltip: ""
 	}
 
 	SporelingLeech: {
-		DisplayName: "胞子ヒル"
+		DisplayName: 胞子のヒル
 		Tooltip: ""
 	}
 
 	MutantLeech: {
-		DisplayName: "変異ヒル"
+		DisplayName: 変異したヒル
 		Tooltip: ""
 	}
 
 	SpectralLeech: {
-		DisplayName: "幽体ヒル"
+		DisplayName: 幽体ヒル
 		Tooltip: ""
 	}
 
 	HeartoftheForest: {
-		DisplayName: "森の心臓"
-		Tooltip: "獲得した経験値の20%をパッシブツリーを持つアイテムと共有する\n最大ライフが20増加"
+		DisplayName: 森の心臓
+		Tooltip:
+			'''
+			獲得したEXPの20%をパッシブツリーを持つアイテムと共有する
+			最大ライフが20増加
+			'''
 	}
 
 	OvergrownHeartoftheForest: {
-		DisplayName: "繁茂する森の心臓"
-		Tooltip: "獲得した経験値の50%をパッシブツリーを持つアイテムと共有する\n最大ライフが40増加"
+		DisplayName: 繁茂した森の心臓
+		Tooltip:
+			'''
+			獲得したEXPの50%をパッシブツリーを持つアイテムと共有する
+			最大ライフが40増加
+			'''
+	}
+
+	ExtractorItem: {
+		UsedPrefix: "[Used] {0}"
+		FilledPrefix: "[Filled] {0}"
+		EmptyTooltip:
+			'''
+			[c/32FF82:保管: {0} / {1} EXP]
+			アイテムからEXPを抽出し、他のアイテムに移すことができる
+			EXPを移すと、抽出装置は使用済み状態になり、EXPを抽出できなくなくなる
+			使用済み状態の抽出装置にEXPが残っていない場合、抽出装置が壊れる
+			'''
+		FullTooltip: "[c/32FF82:保管: {0} / {1} EXP]"
+		TransferRules:
+			'''
+			アイテムからEXPを抽出し、他のアイテムに移すことができる
+			EXPを移すと、抽出装置は使用済み状態になり、EXPを抽出できなくなくなる
+			使用済み状態の抽出装置にEXPが残っていない場合、抽出装置が壊れる
+			'''
+		UsedInfo: 保管したEXPを他のアイテムに移すことができる
+		UsedWarning: この抽出装置はEXPの転送に使用されており、抽出できなくなりました
+		BreakWarning: 残りのEXPを移すと、この抽出装置が壊れます
+		InstructionGive: この抽出装置をを持ち、Shiftを押しながらアイテムを右クリックでEXPを移すことができる
+		InstructionGeneral: この抽出装置を持ち、アイテムを右クリックでEXPを抽出する / Shiftを押しながら右クリックでEXPを移す
+	}
+
+	SapExtractor: {
+		Tooltip: ""
+		DisplayName: 抽出装置
+	}
+
+	HallowedSapExtractor: {
+		DisplayName: 神聖な抽出装置
+		Tooltip: ""
+	}
+
+	CelestialSapExtractor: {
+		Tooltip: ""
+		DisplayName: 天空の抽出装置
 	}
 }

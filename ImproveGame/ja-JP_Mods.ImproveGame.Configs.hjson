@@ -28,23 +28,23 @@ ImproveConfigs: {
 		Label: "[centeritem:3813] 巨大リュック"
 		Tooltip:
 			'''
-			別個のUIチャンネル、100スロット、クラフトに使用できます
-			オートピックアップとスマートピックアップ機能を搭載しています
+			別個のUIチャンネルを持ち、スロットが100個あり、クラフトに使用できます
+			自動回収とスマート回収機能を搭載しています
 			設定 → コントロール → スクロールダウンして巨大リュックを見つけてホットキーを割り当ててください
 			'''
 	}
 
 	SuperVoidVault: {
-		Label: "[centeritem:4131] 個人ストレージのためのオートピックアップ"
+		Label: "[centeritem:4131] 個人ストレージのオート回収"
 		Tooltip:
 			'''
-			プレイヤーのインベントリがいっぱいになった後、他の携帯ストレージが自動的に収集したアイテムを保存できるようにします
+			プレイヤーのインベントリがいっぱいになった後、他の携帯ストレージが自動的に収集したアイテムを保管できるようにします
 			優先順位 豚の貯金箱 → 金庫 → ディフェンダーの炉 → 虚空の金庫
 			'''
 	}
 
 	SmartVoidVault: {
-		Label: "[centeritem:4076] 個人ストレージのためのスマートピックアップ"
+		Label: "[centeritem:4076] 個人ストレージのスマート回収"
 		Tooltip: 虚空の金庫にアイテムがある場合、同じアイテムが虚空の金庫に回収されます
 	}
 
@@ -68,12 +68,12 @@ ImproveConfigs: {
 	}
 
 	ModifyPlayerPlaceSpeed: {
-		Label: "[centeritem:2214] ブロックの配置速度を上昇"
+		Label: "[centeritem:2214] ブロックの配置速度を上昇させる"
 		Tooltip: ""
 	}
 
 	ModifyPlayerTileRange: {
-		Label: "[centeritem:2215] ブロックの配置範囲を増加"
+		Label: "[centeritem:2215] ブロックの配置範囲を増加させる"
 		Tooltip: ""
 	}
 
@@ -123,23 +123,23 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			ポーションのスタック数がこの数以上なら、永続バフを得ます
-			範囲: 10~999
+			範囲: 10-999
 			'''
 	}
 
 	NoConsume_Ammo: {
 		Label: "[centeritem:3104] 無限弾薬"
-		Tooltip: スタック数が3996以上の弾薬は消費しなくなります
+		Tooltip: 3996個以上スタックしている弾薬は消費しなくなります
 	}
 
 	NoConsume_Projectile: {
 		Label: "[centeritem:42] 無限投擲武器"
-		Tooltip: スタック数が3996以上の投擲武器は消費しなくなります
+		Tooltip: 3996個以上スタックしている投擲武器は消費しなくなります
 	}
 
 	NoConsume_Wire: {
 		Label: "[centeritem:530] 無限ワイヤー"
-		Tooltip: スタック数が3996以上のワイヤーは消費しなくなります
+		Tooltip: ワイヤーを3996以上スタックしているなら消費しなくなります
 	}
 
 	ImprovePrefix: {
@@ -169,7 +169,7 @@ ImproveConfigs: {
 	}
 
 	BanTombstone: {
-		Label: "[centeritem:3230] 墓石の生成を無効化"
+		Label: "[centeritem:3230] 死亡時の墓石の生成を無効化"
 		Tooltip: ""
 	}
 
@@ -179,7 +179,7 @@ ImproveConfigs: {
 	}
 
 	TownNPCGetTFIntoHouse: {
-		Label: "[centeritem:MusicBoxTownDay] タウンNPCの出現メカニズムの改善"
+		Label: "[centeritem:MusicBoxTownDay] タウンNPCの出現メカニズムを改善"
 		Tooltip:
 			'''
 			この設定がオンだと
@@ -190,8 +190,8 @@ ImproveConfigs: {
 	}
 
 	NPCLiveInEvil: {
-		Label: "[centeritem:MusicBoxTownNight] タウンNPCが汚染バイオームに住める"
-		Tooltip: タウンNPCが不浄と真紅に住めるようになります
+		Label: "[centeritem:MusicBoxTownNight] タウンNPCが邪悪なバイオームに住める"
+		Tooltip: タウンNPCが不浄/真紅に住めるようになります
 	}
 
 	TownNPCSpawnSpeed: {
@@ -223,8 +223,12 @@ ImproveConfigs: {
 	}
 
 	LavalessLavaSlime: {
-		Label: "[centeritem:LavaSlimeBanner] 溶岩なしのマグマスライム"
-		Tooltip: エキスパートモードかマスターモードで、マグマスライムを倒しても溶岩が生成されなくなります
+		Label: "[centeritem:LavaSlimeBanner] マグマスライム/ヘルバットは溶岩を生成しない"
+		Tooltip: 
+			'''
+			エキスパート/マスターモードで、マグマスライムを倒しても溶岩が生成されなくなります
+			Get fixed boiワールドでヘルバットとラーヴァバットを倒しても溶岩が生成されなくなります
+			'''
 	}
 
 	TravellingMerchantStay: {
@@ -262,43 +266,43 @@ ImproveConfigs: {
 		}
 
 		AlchemyGrassGrowsFaster: {
-		Label: "[centeritem:313] ハーブの成長加速"
+		Label: "[centeritem:313] ハーブの成長を加速させる"
 		Tooltip: 全てのハーブの成長が早くなります
 	}
 
 	AlchemyGrassAlwaysBlooms: {
-		Label: "[centeritem:316] ハーブの開花条件"
+		Label: "[centeritem:316] ハーブを無条件で開花させる"
 		Tooltip: 全てのハーブを開花させ、種を入手できるようにします
 	}
 
 		PumpkinGrowsFaster: {
-		Label: "[centeritem:1725] カボチャの成長加速"
+		Label: "[centeritem:1725] カボチャの成長を加速させる"
 		Tooltip: カボチャの成長が早くなります
 	}
 
 		LifeFruitGrowsFaster: {
-		Label: "[centeritem:1291] ライフフルーツの成長加速"
+		Label: "[centeritem:1291] ライフフルーツの成長を加速させる"
 		Tooltip: ライフフルーツの成長が早くなります
 	}
 
 		LifeFruitLimit: {
-		Label: "[centeritem:1291] ライフフルーツ制限の変更"
+		Label: "[centeritem:1291] ライフフルーツの制限の変更"
 		Tooltip:
 			'''
 			この設定は、ライフフルーツが周囲のライフフルーツを検知する範囲を変更します
 			値が小さいほど、ライフフルーツの成長密度が高くなります
 			-1に設定すると、元の制限（60マス（ノーマル）/50マス（エキスパート）ごとにライフフルーツが1個生成されます）に従います
-			エキスパートモードかマスターモードでは、実際の値はこの値から10を引いた値になります
+			エキスパート/マスターモードでは、実際の値はこの値から10を引いた値になります
 			'''
 	}
 
 		StaffOfRegenerationAutomaticPlanting: {
-		Label: "[centeritem:213] 成長の 杖/斧の自動植え込み"
+		Label: "[centeritem:213] 成長の杖/斧の自動植え込み"
 		Tooltip: 成長の斧/杖の使用時に、採取したハーブを自動的に植えます
 	}
 
 		NoBiomeSpread: {
-		Label: "[centeritem:Sunflower] 汚染バイオームと聖域バイオームの拡大防止"
+		Label: "[centeritem:Sunflower] 邪悪なバイオームと聖域バイオームの拡大を防ぐ"
 		Tooltip: ""
 	}
 
@@ -314,7 +318,7 @@ ImproveConfigs: {
 	}
 
 		JourneyResearch: {
-			Label: "[centeritem:GoldBunny] 自動調査"
+			Label: "[centeritem:GoldBunny] アイテムを自動的に調査"
 			Tooltip:
 			'''
 			ジャーニーモードで、十分なスタック数があり、お気に入りに登録したアイテムが自動で調査されます
@@ -323,7 +327,7 @@ ImproveConfigs: {
 		}
 
 		BanDamageVar: {
-		Label: "[centeritem:6] ダメージ拡散を無効化"
+		Label: "[centeritem:6] ダメージのばらつきを無効化"
 		Tooltip: ""
 	}
 
@@ -343,7 +347,7 @@ ImproveConfigs: {
 	}
 
 	ShakeTreeFruit: {
-		Label: "[centeritem:4009] 木を揺すった際にフルーツを確定で入手"
+		Label: "[centeritem:4009] 木を揺すった際にフルーツを確定で入手する"
 		Tooltip:
 			'''
 			果物のドロップ率が大幅に上昇（他のアイテムのドロップ率には影響なし）
@@ -352,16 +356,16 @@ ImproveConfigs: {
 	}
 
 	GemTreeAlwaysDropGem: {
-		Label: "[centeritem:3649] 宝石の木が宝石を確定で入手"
+		Label: "[centeritem:3649] 宝石の木から宝石を確定で入手する"
 		Tooltip: 宝石の木のあらゆる部分が宝石や宝石のどんぐりをドロップします
 	}
 
 	ShareCraftingStation: {
-		Label: "[centeritem:WorkBench] 共有携帯作業台"
+		Label: "[centeritem:WorkBench] 携帯作業台を共有"
 		Tooltip:
 			'''
 			同じチームのプレイヤーは、携帯作業台を共有します
-			つまり チーム内に作業台を持っているプレイヤーがいる場合、イスを作るために作業台を持っている必要はありません
+			つまり、チーム内に作業台を持っているプレイヤーがいる場合、イスを作るために作業台を持っている必要はありません
 			「携帯作業台」がオンになっていることが必要です
 			プレイヤーが多すぎる場合（100人以上）、ラグが発生する可能性があります
 			'''
@@ -388,7 +392,7 @@ ImproveConfigs: {
 	}
 
 	TeamAutoJoin: {
-		Label: "[centeritem:TeamBlockRed] レッドチームに自動で参加"
+		Label: "[centeritem:TeamBlockRed] レッドチームに自動で参加する"
 		Tooltip: マルチプレイヤーモードで新規参加したプレイヤーは自動的にレッドチームに加わります
 	}
 
@@ -445,8 +449,20 @@ ImproveConfigs: {
 			'''
 	}
 
+	SpawnRateMinValue: {
+		Label: "[centeritem:2649] 敵の最低出現率"
+		Tooltip:
+			'''
+			敵の最低出現率を変更します
+			お知らせ:
+			このパネルが表示されるのは、以下のアイテムがインベントリにある場合です
+			"[ヒマワリ]、[平和の蝋燭]、[平穏のポーション]、[水の蝋燭]と[闘争のポーション]"
+			サーバー内のプレイヤーに敵の出現率を下げさせたくない場合は、この機能を使うことができる
+			'''
+	}
+
 	ExStorageSearchDistance: {
-		Label: "[centeritem:ImproveGame/ExtremeStorage] ストレージマネージャーの宝箱検出範囲"
+		Label: "[centeritem:ImproveGame/ExtremeStorage] ストレージマネージャーの宝箱の検出範囲"
 		Tooltip:
 			'''
 			ストレージマネージャーが宝箱を検索する範囲を変更します
@@ -469,7 +485,7 @@ ImproveConfigs: {
 	}
 
 	EmptyAutofisher: {
-		Label: "[centeritem:ImproveGame/Autofisher] 餌の残量警告"
+		Label: "[centeritem:ImproveGame/Autofisher] 餌の残量の警告"
 		Tooltip:
 			'''
 			釣り機のエサがなくなると、メッセージが表示されます: 
@@ -483,23 +499,23 @@ ImproveConfigs: {
 		Subtitle: 以下は、このModの設定変更ができない機能です
 		Tooltip:
 			'''
-			トレジャーバッグを表示" キーバインドをクリックしている間、バッグの詳細なアイテムドロップを表示します
+			「トレジャーバッグを表示」キーをクリックしている間、バッグの詳細なアイテムドロップを表示します
 			ホットキーでホットバーとインベントリの第2行を切り替えます
 			巨大リュック内の弾薬も使用できます
 			生命体分析器のアイコンをクリックすると開くフィルターパネルがあります
-			チェスト内のアイテムにカーソルを合わせてAltで内容を確認できます
+			宝箱内のアイテムにカーソルを合わせてAltで内容を確認できます
 			ツールチップの簡略化（お気に入りのツールチップ削除、装飾スロットでの詳細ツールチップ）
 			ライフクリスタル、マナクリスタル、ライフフルーツの使用速度が向上し、自動使用が可能になります
 			マウントアイテムをミドルクリックでマウントの切り替えができます
 			キャラクター作成時、全ての髪型が選択できます
-			テレポート用キーで、インベントリ内のロッド・オブ・ディスコードの杖またはロッド・オブ・ハーモニーを使用（RoHを優先）
+			テレポート用キーで、インベントリ内のロッド・オブ・ディスコードかロッド・オブ・ハーモニーを使用（RoHを優先）
 			ホームに戻るキーで、インベントリ内の無限に使用できる帰還アイテムを使用（帰還のポーションを優先）
 			'''
 	}
 
 	ExtraToolSpeed: {
-		Label: "[centeritem:4056] 道具の速度倍率"
-		Tooltip: 0に設定すると無効になり、値が大きいほど使用速度が速くなります
+		Label: "[centeritem:4056] 道具の使用速度上昇"
+		Tooltip: 0に設定すると無効になり、値が大きいほど使用速度が速くなります。攻撃速度とDPSには影響しません
 	}
 
 	MostTreeMin: {
@@ -561,7 +577,7 @@ ImproveConfigs: {
 	}
 
 	NoLakeSizePenalty: {
-		Label: "[centeritem:FishingPotion] 水場のサイズのペナルティ無効化"
+		Label: "[centeritem:FishingPotion] 水場のサイズのペナルティを無効化"
 		Tooltip:
 			'''
 			全ての釣り堀は満杯とみなされ、
@@ -574,7 +590,7 @@ ImproveConfigs: {
 		Label: "[centeritem:RedPotion] レッドポーションの拡張"
 		Tooltip:
 			'''
-			"Get fixed boi"や"For the worthy"のワールドにいるなら
+			Get fixed boiかFor the worthyワールドにいるなら
 			全てのポーションの材料を使ってレッドポーションを作れるようになります
 			無限レッドポーションはそのバフを全て提供します
 			ただし、ポーションバッグに入れることはできません
@@ -587,9 +603,9 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			「レッドポーションの拡張」をオンにして、あらゆるワールドを楽しもう！
-			"Get fixed boi"や"For the worthy"のワールド以外でも使用できます
+			Get fixed boiやFor the worthyワールド以外でも使用できます
 			'''
-		Condition: 制限なしのレッドポーションの拡張が有効/In a For the Worthy ワールド
+		Condition: 制限なしのレッドポーションの拡張が有効/For the Worthyワールドにいる
 	}
 
 	RedPotionRequirement: {
@@ -605,13 +621,13 @@ ImproveConfigs: {
 		Label: "[centeritem:DemonHeart] エキスパートデバフの効果時間"
 		Tooltip:
 			'''
-			エキスパート/マスターモードでデバフの持続時間を延長します
-			この設定がオフだと、クラシックモードの持続時間が使用されます
+			エキスパート/マスターモードではデバフの持続時間が延長されます
+			この設定がオフだと、持続時間がクラシックモードと同じになります
 			'''
 	}
 
 	LightNotBlocked: {
-		Label: "[centeritem:UltrabrightTorch] ブロック遮光効果"
+		Label: "[centeritem:UltrabrightTorch] ブロックの遮光効果"
 		Tooltip:
 			'''
 			ライトがブロックを無視するかどうか
@@ -630,7 +646,7 @@ ImproveConfigs: {
 	}
 
 	DisableNonPlayerBombsExplosions: {
-		Label: "[centeritem:TNTBarrel] プレイヤー以外の爆発物破壊無効化"
+		Label: "[centeritem:TNTBarrel] プレイヤー以外の爆発物による破壊を無効化"
 		Tooltip: ブロックの意図しない破壊を防ぎます
 	}
 
@@ -638,7 +654,7 @@ ImproveConfigs: {
 		Label: "[centeritem:WorldGlobe] ワールドフィーチャーパネル"
 		Tooltip:
 			'''
-			これをオンにして、"Controls "でホットキーをバインドしてください
+			これをオンにして、コントロールでホットキーを設定してください
 			ワールドフィーチャーパネルを使用できます
 			ホリデーや秘密のシードを切り替えることができます
 			'''
@@ -674,12 +690,12 @@ ImproveConfigs: {
 	}
 
 	NoSleepRestrictions: {
-		Label: "[centeritem:Bed] 無条件睡眠"
+		Label: "[centeritem:Bed] 無条件の睡眠"
 		Tooltip: 睡眠はどんな状況でも時間を加速させます
 	}
 
 	BedTimeRate: {
-		Label: "[centeritem:Bed] 睡眠時間レート"
+		Label: "[centeritem:Bed] 睡眠中の時間経過の速さ"
 		Tooltip: 睡眠中の時間経過の速さを変更できます（デフォルトは5時間）
 	}
 
@@ -689,7 +705,7 @@ ImproveConfigs: {
 	}
 
 	WandMaterialNoConsume: {
-		Label: "[centeritem:ImproveGame/SpaceWand] 杖の設置物無限化"
+		Label: "[centeritem:ImproveGame/SpaceWand] 杖の設置物を無限化"
 		Tooltip:
 			'''
 			999以上スタックしているブロックや壁は、空間/技術/建築の杖によって配置された場合は消費しません
@@ -707,7 +723,7 @@ ImproveConfigs: {
 	}
 
 	QuestFishStack: {
-		Label: "[centeritem:Clownfish] クエストの魚をスタック可能"
+		Label: "[centeritem:Clownfish] クエストの魚をスタックできる"
 		Tooltip: クエストの魚がスタックできるようになり、インベントリに同じ種類があっても釣ったり拾ったりできるようになります
 	}
 
@@ -763,7 +779,7 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			基本的な鉱脈採掘機能
-			つるはしで掘るだけで使用可能です
+			つるはしで掘るだけで使用できます
 			ブラックリスト/ホワイトリスト機能はなく、調整もできません
 			細かい調整がしたい場合は、Ore ExcavatorやBasic Automated Miningを使用することを推奨します
 			これらのModが有効になっていると、この機能はオフになります
@@ -772,7 +788,7 @@ ImproveConfigs: {
 	}
 
 	DisableVeinMiningPopup: {
-		Label: "[centeritem:IronPickaxe] 鉱脈採掘ポップアップを無効化"
+		Label: "[centeritem:IronPickaxe] 鉱脈採掘のポップアップを無効化"
 		Tooltip: ポップアップを完全に無効化します
 	}
 
@@ -808,7 +824,7 @@ ImproveConfigs: {
 
 	PylonTeleNoBiome: {
 		Label: "[centeritem:TeleportationPylonMushroom] バイオーム無関係のパイロンテレポート"
-		Tooltip: " 「なぜなら、私がそう言ったからさ！」"
+		Tooltip: "「なぜなら、私がそう言ったからさ！」"
 	}
 }
 
@@ -984,7 +1000,7 @@ UIConfigs: {
 
 	OpenConfig: {
 		Label: 設定ファイルを開く
-		Tooltip: どのような設定も、変更された後にのみファイルに表示される
+		Tooltip: どのような設定も、変更された後にのみファイルに表示されます
 	}
 
 	KeepFocus: {
@@ -1063,7 +1079,7 @@ UIConfigs: {
 
 	SuicideButton: {
 		Label: セルフキル
-		Tooltip: このボタンを押すとキャラが死にます [c/FF4444:押す前にもう一度考えて].
+		Tooltip: このボタンを押すとキャラが死にます [c/FF4444:押す前にもう一度考えてください]
 	}
 
 	MagicMirrorInstantTp: {
@@ -1123,10 +1139,11 @@ UIConfigs: {
 	}
 
 	BlurZoomMultiplierDenominator: {
-		Label: "[centeritem:MulticoloredStainedGlass] ブラースケール（高いほどパフォーマンスが軽くなります）"
+		Label: "[centeritem:MulticoloredStainedGlass] ブラースケール"
 		Tooltip:
 			'''
-			この値が大きいほど、必要な計算能力は少なくなります
+			この値が大きいほど、必要な計算能力は少なくなり、
+			パフォーマンスが軽くなります
 			ぼかしが遅延の原因になっている場合は、この値を増やしてみてください
 			推奨値は次のとおりです。
 			- 通常のGPU、4K解像度：4
@@ -1138,26 +1155,30 @@ UIConfigs: {
 	}
 
 	BlurIterationCount: {
-		Label: "[centeritem:MulticoloredStainedGlass] 反復回数（数値が高いほどパフォーマンスが高くなります）"
+		Label: "[centeritem:MulticoloredStainedGlass] 反復回数"
 		Tooltip:
 			'''
-			値が高いほど、背景のぼかしが強くなります
+			値が高いほど、背景のぼかしが強くなり、パフォーマンスが高くなります
 			ぼかしが原因で遅延が発生している場合は、この値を下げてみてください
 			'''
 	}
 
 	BlurIterationOffsetMultiplier: {
-		Label: "[centeritem:MulticoloredStainedGlass] サンプリングオフセット係数（パフォーマンスに影響なし）"
-		Tooltip: 値が高いほど背景はぼやけますが、縞模様が見える場合があります
+		Label: "[centeritem:MulticoloredStainedGlass] サンプリングオフセット係数"
+		Tooltip:
+			'''
+			値が高いほど背景はぼやけますが、縞模様が見える場合があります
+			パフォーマンスに影響しません
+			'''
 	}
 
 	BlurMixingNumber: {
-		Label: "[centeritem:MulticoloredStainedGlass] カラーサンプリング（高いほどパフォーマンスが高くなります）"
-		Tooltip: 値が高いほど、ぼかしのためにサンプリングされる色が多くなります
+		Label: "[centeritem:MulticoloredStainedGlass] カラーサンプリング"
+		Tooltip: 値が高いほど、ぼかしのためにサンプリングされる色が多くなり、パフォーマンスが高くなります
 	}
 
 	AutoSummon: {
-		Label: "[centeritem:SlimeStaff] 自動再召喚"
+		Label: "[centeritem:SlimeStaff] ミニオンを自動的に再召喚"
 		Tooltip:
 			'''
 			リスポーン後に最後に使用したミニオンを再召喚する

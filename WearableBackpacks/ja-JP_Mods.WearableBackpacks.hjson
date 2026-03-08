@@ -1,0 +1,437 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Mods: {
+	WearableBackpacks: {
+		DisplayName: Wearable Backpacks
+		AccessorySlots.Backpack.DisplayName: バックパック
+
+		Items: {
+			DogBackpackWhistle: {
+				DisplayName: バックパック付きのイヌ笛
+				Tooltip: バックパックを背負った子イヌを召喚する
+			}
+
+			WearableBackpack: {
+				DisplayName: キャンプサイズのバックパック
+				Tooltip: 装備するとバックパックのスロットが40追加される
+			}
+
+			WearableBackpackSmall: {
+				DisplayName: ミニバックパック
+				Tooltip: 装備するとバックパックのスロットが10追加される
+			}
+
+			WearableBackpackTravel: {
+				DisplayName: 旅行用のバックパック
+				Tooltip: 装備するとバックパックのスロットが20追加される
+			}
+
+			WearableBackpackPouch: {
+				DisplayName: バックパックポーチ
+				Tooltip: 装備するとバックパックのスロットが15追加される
+			}
+
+			WearableBackpackMining: {
+				DisplayName: 採掘用のバックパック
+				Tooltip: 装備するとバックパックのスロットが35追加され、採掘スピードが10%上昇し、探検家のポーションの効果時間が5分延長される
+			}
+
+			WearableBackpackVanity: {
+				DisplayName: キャンプサイズのバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackSmallVanity: {
+				DisplayName: ミニバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackTravelVanity: {
+				DisplayName: 旅行用のバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackPouchVanity: {
+				DisplayName: バックパックポーチ (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackMiningVanity: {
+				DisplayName: 採掘用のバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackFishingBasket: {
+				DisplayName: 釣り桶のバックパック
+				Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間が8分延長される
+			}
+
+			WearableBackpackWorkbench: {
+				DisplayName: 作業台のバックパック
+				Tooltip: 装備するとバックパックのスロットが5追加され、いつでも作業台を使用できる
+			}
+
+			WearableBackpackSchool: {
+				DisplayName: 学校のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackChest: {
+				DisplayName: 宝箱のバックパック
+				Tooltip: 装備するとバックパックのスロットが40追加されるが、移動速度が20%低下し、落下速度が上昇する
+			}
+
+			WearableBackpackTurtleshell: {
+				DisplayName: 亀の甲羅のバックパック
+				Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇する
+			}
+
+			WearableBackpackTurtleClean: {
+				DisplayName: 亀の甲羅
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackMilitaryDesert: {
+				DisplayName: 砂漠迷彩の軍用バックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackMilitaryForest: {
+				DisplayName: 森林迷彩の軍用バックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackDrifter: {
+				DisplayName: 放浪者のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackJack: {
+				DisplayName: 労働者のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackRimbo: {
+				DisplayName: 辺獄のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackZombie: {
+				DisplayName: ゾンビのバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackAnvil: {
+				DisplayName: 金床のバックパック
+				Tooltip: 装備するとバックパックのスロットが5追加され、いつでも金床を使用できる
+			}
+
+			WearableBackpackTerrariumRex: {
+				DisplayName: テラリウムのバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackRaincoat: {
+				DisplayName: レインコートのバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackViolet: {
+				DisplayName: 紫のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackEgg: {
+				DisplayName: 卵のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackEggCracked: {
+				DisplayName: 割れた卵のバックパック
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackGladiator: {
+				DisplayName: 剣闘士のバックパック
+				Tooltip: 装備するとバックパックのスロットが5追加され、防御力が5増加し、近接攻撃速度が20%上昇する
+			}
+
+			WearableBackpackAnvilVanity: {
+				DisplayName: 金床のバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+
+			WearableBackpackGladiatorVanity: {
+				DisplayName: 剣闘士のバックパック (衣装)
+				Tooltip: 衣装スロット専用
+			}
+		}
+
+		Buffs: {
+			DogBackpackPuppyBuff: {
+				DisplayName: ベストフレンド
+				Description: 子イヌがあなたの荷物を運んでくれる
+			}
+		}
+	}
+}
+
+Items: {
+	DogBackpackWhistle: {
+		DisplayName: バックパック付きのイヌ笛
+		Tooltip: バックパックを背負った子イヌを召喚する
+	}
+
+	WearableBackpack: {
+		DisplayName: キャンプサイズのバックパック
+		Tooltip: 装備するとバックパックのスロットが40追加される
+	}
+
+	WearableBackpackSmall: {
+		DisplayName: ミニバックパック
+		Tooltip: 装備するとバックパックのスロットが10追加される
+	}
+
+	WearableBackpackTravel: {
+		DisplayName: 旅行用のバックパック
+		Tooltip: 装備するとバックパックのスロットが20追加される
+	}
+
+	WearableBackpackPouch: {
+		DisplayName: バックパックポーチ
+		Tooltip: 装備するとバックパックのスロットが15追加される
+	}
+
+	WearableBackpackMining: {
+		DisplayName: 採掘用のバックパック
+		Tooltip: 装備するとバックパックのスロットが35追加され、採掘速度が10%上昇し、探検家のポーションの効果時間を10分に延長する
+	}
+
+	WearableBackpackVanity: {
+		DisplayName: キャンプサイズのバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackSmallVanity: {
+		DisplayName: ミニバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackTravelVanity: {
+		DisplayName: 旅行用のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackPouchVanity: {
+		DisplayName: バックパックポーチ (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackMiningVanity: {
+		DisplayName: 採掘用のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackFishingBasket: {
+		DisplayName: 釣り桶付きのバックパック
+		Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間を16分に延長する
+	}
+
+	WearableBackpackFishingBasketVanity: {
+		DisplayName: 釣り桶付きのバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackWorkbench: {
+		DisplayName: 作業台付きのバックパック
+		Tooltip: 装備するとバックパックのスロットが5追加され、いつでも作業台を使用できる
+	}
+
+	WearableBackpackWorkbenchVanity: {
+		DisplayName: 作業台付きのバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackSchool: {
+		DisplayName: 学校のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackChest: {
+		DisplayName: 宝箱のバックパック
+		Tooltip: 装備するとバックパックのスロットが40追加されるが、移動速度が20%低下し、落下速度が上昇する
+	}
+
+	WearableBackpackChestVanity: {
+		DisplayName: 宝箱のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackTurtleshell: {
+		DisplayName: 亀の甲羅のバックパック
+		Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇
+	}
+
+	WearableBackpackTurtleshellVanity: {
+		DisplayName: 亀の甲羅のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackTurtleClean: {
+		DisplayName: 亀の甲羅
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackMilitaryDesert: {
+		DisplayName: 砂漠迷彩の軍用バックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackMilitaryForest: {
+		DisplayName: 森林迷彩の軍用バックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackDrifter: {
+		DisplayName: 放浪者のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackJack: {
+		DisplayName: 労働者のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackRimbo: {
+		DisplayName: 辺獄のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackZombie: {
+		DisplayName: ゾンビのバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackAnvil: {
+		DisplayName: 金床のバックパック
+		Tooltip: 装備するとバックパックのスロットが10追加され、いつでも金床を使用できる
+	}
+
+	WearableBackpackTerrariumRex: {
+		DisplayName: テラリウムのバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackRaincoat: {
+		DisplayName: レインコートのバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackViolet: {
+		DisplayName: 紫色のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackEgg: {
+		DisplayName: 卵のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackEggCracked: {
+		DisplayName: 割れた卵のバックパック
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackGladiator: {
+		DisplayName: 剣闘士のバックパック
+		Tooltip: 装備するとバックパックのスロットが5追加され、防御力が5増加し、近接攻撃速度が20%上昇する
+	}
+
+	WearableBackpackAnvilVanity: {
+		DisplayName: 金床のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	WearableBackpackGladiatorVanity: {
+		DisplayName: 剣闘士のバックパック (衣装)
+		Tooltip: 衣装スロット専用
+	}
+
+	TailorBench: {
+		DisplayName: 仕立て台
+		Tooltip: ""
+	}
+}
+
+Tiles.TailorBenchTile.MapEntry: 仕立て台
+
+Buffs: {
+	DogBackpackPuppyBuff: {
+		DisplayName: ベストフレンド
+		Description: 子イヌがあなたの荷物を運んでくれる
+	}
+}
+
+Projectiles.DogBackpackPuppyProjectile.DisplayName: バックパックを背負った子イヌ
+
+Configs: {
+	WearableBackpacksStorageConfig: {
+		DisplayName: Wearable Backpacks 容量設定
+		Headers.BackpackStorage: バックパックの容量
+
+		Backpack01Slots: {
+			Label: キャンプサイズのバックパック
+			Tooltip: ""
+		}
+
+		Backpack02SmallSlots: {
+			Label: ミニバックパック
+			Tooltip: ""
+		}
+
+		Backpack03TravelSlots: {
+			Label: 旅行用のバックパック
+			Tooltip: ""
+		}
+
+		Backpack04PouchSlots: {
+			Label: バックパックポーチ
+			Tooltip: ""
+		}
+
+		Backpack05MiningSlots: {
+			Label: 採掘用のバックパック
+			Tooltip: ""
+		}
+
+		Backpack06FishingBasketSlots: {
+			Label: 釣り桶のバックパック
+			Tooltip: ""
+		}
+
+		Backpack07WorkbenchSlots: {
+			Label: 作業台のバックパック
+			Tooltip: ""
+		}
+
+		Backpack09ChestSlots: {
+			Label: 宝箱のバックパック
+			Tooltip: ""
+		}
+
+		Backpack10TurtleshellSlots: {
+			Label: 亀の甲羅
+			Tooltip: ""
+		}
+
+		Backpack18AnvilSlots: {
+			Label: 金床のバックパック
+			Tooltip: ""
+		}
+
+		Backpack24GladiatorSlots: {
+			Label: 剣闘士のバックパック
+			Tooltip: ""
+		}
+	}
+}

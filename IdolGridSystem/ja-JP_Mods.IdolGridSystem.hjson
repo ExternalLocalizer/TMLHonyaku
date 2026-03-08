@@ -31,56 +31,62 @@ Items: {
 		MagicDamage: 魔法ダメージ
 		SummonDamage: 召喚ダメージ
 		MeleeSpeed: 近接攻撃速度
-		WhipSpeed: ムチ攻撃速度
+		WhipSpeed: 鞭の攻撃速度
 		RangedSpeed: 遠距離攻撃速度
 		CastSpeed: 詠唱速度
 		AmmoConsumption: 弾を消費しない確率
 		ManaCost: マナ消費軽減
-		MaxMinions: 最大召喚数
-		WingTime: 滞空時間
+		MaxMinions: 最大ミニオン
+		WingTime: 飛行時間
 		RogueDamage: ローグダメージ
 		RogueCrit: ローグクリティカル率
-		RogueVelocity: ローグ投射物速度
+		RogueVelocity: ローグ武器弾速
 		RogueAttackSpeed: ローグ攻撃速度
-		AdrenalineCharge: アドレナリン蓄積速度
-		RageCharge: レイジ蓄積速度
+		AdrenalineCharge: アドレナリン蓄積の速度
+		RageCharge: レイジの蓄積速度
 		FireImmune: 火炎ダメージ無効
 		PotionSicknessReduction: ポーション酔い時間短縮
 		HealingPotionEffectiveness: 回復ポーション効果
 		KnockbackResist: ノックバック耐性
 		Thorns: 反射ダメージ
 		TeleportDash: 方向キー二度押しで瞬間移動
-		Luck: 幸運
-		WhipRange: ムチの射程
-		ArmorPenetration: 防御貫通
+		Luck: 運
+		WhipRange: 鞭の攻撃範囲
+		ArmorPenetration: 防御無視
 		FlightTime: 飛行時間
-		WingSpeed: 翼速度
+		WingSpeed: 翼の速度
 		JumpHeight: ジャンプ高度
 		ToolRange: ブロック設置／採掘範囲
 		GrabRange: アイテム取得範囲
 		Nightseer: 危険が近いと光る
-		PickSpeed: 採掘速度
+		PickSpeed: 採掘スピード
 		LifeDrain: 近くの敵からライフを吸収
-		DeathReye: 攻撃時にデス・アイを召喚する可能性
+		DeathReye: 攻撃時、デス・アイの召喚確率
 		BoostEffect: 隣接する霊像の効果を強化
-		SymphonicDamage: 音楽ダメージ
-		SymphonicCrit: 音楽クリティカル率
-		BonusBardEmpowermentDuration: 強化効果の持続時間（秒）
+		SymphonicDamage: 旋律ダメージ
+		SymphonicCrit: 旋律クリティカル率
+		BonusBardEmpowermentDuration: エンパワーメントの持続時間（秒）
 		PlayingSpeed: 演奏速度
-		RadiantDamage: 光輝ダメージ
-		RadiantCrit: 光輝クリティカル率
-		RadiantCastSpeed: 光輝詠唱速度
-		HealerPower: 回復呪文の回復量
+		RadiantDamage: 神聖ダメージ
+		RadiantCrit: 神聖クリティカル率
+		RadiantCastSpeed: 神聖詠唱速度
+		HealerPower: 回復魔法の回復量
 		ThrowingDamage: 投擲ダメージ
-		ThrowingExhaustionMax: 最大疲労度
-		ThrowingSpeed: 投擲速度
-		ThrowingVelocity: 投擲物速度
+		ThrowingExhaustionMax: 最大消耗
+		ThrowingSpeed: 投擲攻撃速度
+		ThrowingVelocity: 投擲武器弾速
+		FishingPower: フィッシング・パワー
+		SonarPotion: 食いついた魚を見抜く
+		CalmPotion: 敵の出現率が低下
+		GoldDrop: 敵がコインを追加でドロップ
+		AdditionalProjectile: 追加で弾を発射する確率
+		HomingStar: 星を発射する確率
 	}
 
 	ExaltedOrb: {
 		DisplayName: 高貴なオーブ
-		Tooltip: 現在のクラス修飾を昇華させるか、新しいランダム修飾を付与する
-		Tooltip2: 左クリックでオーブを持ち上げ、クラス霊像に右クリックで適用。霊像グリッドから取り外すこと。
+		Tooltip: 現在のクラス接頭辞を強化するか、新たなランダムな接頭辞を付与する
+		Tooltip2: 左クリックでオーブを持ち、クラス霊像に右クリックで使用。霊像グリッドから取り外すこと。
 	}
 
 	ForbiddenKey: {
@@ -90,8 +96,8 @@ Items: {
 
 	OrbofAugmentation: {
 		DisplayName: 強化のオーブ
-		Tooltip: 霊像に新しいランダム修飾を付与する
-		Tooltip2: 左クリックでオーブを持ち上げ、空きスロットのある霊像に右クリックで適用。霊像グリッドから取り外すこと。
+		Tooltip: 霊像に新しいランダムな接頭辞を付与する
+		Tooltip2: 左クリックでオーブを持ち、空きスロットがある霊像に右クリックで使用。霊像グリッドから取り外すこと。
 	}
 
 	SmallIdol: {
@@ -100,17 +106,17 @@ Items: {
 	}
 
 	AdornedIdol: {
-		DisplayName: 装飾された霊像
+		DisplayName: 彩られた霊像
 		Tooltip: ""
 	}
 
 	GrandIdol: {
-		DisplayName: 偉大な霊像
+		DisplayName: 豪華な霊像
 		Tooltip: ""
 	}
 
 	HumbleIdol: {
-		DisplayName: 慎ましい霊像
+		DisplayName: 地味な霊像
 		Tooltip: ""
 	}
 
@@ -125,42 +131,42 @@ Items: {
 	}
 
 	BlinkstepStoutIdol: {
-		DisplayName: ブリンクステップのずんぐり霊像
+		DisplayName: 瞬間移動のずんぐりした霊像
 		Tooltip: ""
 	}
 
 	BloomingTerrorAdornedIdol: {
-		DisplayName: 花咲く恐怖の装飾霊像
+		DisplayName: 花咲く恐怖の彩られた霊像
 		Tooltip: ""
 	}
 
 	CrimsonMindSmallIdol: {
-		DisplayName: 紅の心の小さな霊像
+		DisplayName: 真紅の精神の小さな霊像
 		Tooltip: ""
 	}
 
 	DualityHumbleIdol: {
-		DisplayName: 二面の慎ましい霊像
+		DisplayName: 二元性の地味な霊像
 		Tooltip: ""
 	}
 
 	FortunasBlessingStoutIdol: {
-		DisplayName: フォルトゥナの祝福のずんぐり霊像
+		DisplayName: フォルトゥナの祝福のずんぐりした霊像
 		Tooltip: ""
 	}
 
 	GelatinousHumbleIdol: {
-		DisplayName: ゼラチン質の慎ましい霊像
+		DisplayName: ゼラチン質の地味な霊像
 		Tooltip: ""
 	}
 
 	GranitecoreAdornedIdol: {
-		DisplayName: 花崗の心の装飾霊像
+		DisplayName: 花崗の心の彩られた霊像
 		Tooltip: ""
 	}
 
 	HivebornHumbleIdol: {
-		DisplayName: 巣生の慎ましい霊像
+		DisplayName: 巣生の地味な霊像
 		Tooltip: ""
 	}
 
@@ -175,32 +181,32 @@ Items: {
 	}
 
 	WorldsplitterLargeIdol: {
-		DisplayName: 世界裂きの大霊像
+		DisplayName: 世界裂きの大きな霊像
 		Tooltip: ""
 	}
 
 	TemplarStoutIdol: {
-		DisplayName: テンプラーのずんぐり霊像
+		DisplayName: テンプラーのずんぐりした霊像
 		Tooltip: ""
 	}
 
 	MechaswormGrandIdol: {
-		DisplayName: メカスウォームの偉大な霊像
+		DisplayName: メカスウォームの豪華な霊像
 		Tooltip: ""
 	}
 
 	HandoftheKeeperStoutIdol: {
-		DisplayName: 守護者の手のずんぐり霊像
+		DisplayName: 守護者の手のずんぐりした霊像
 		Tooltip: ""
 	}
 
 	PrimeCoreSmallIdol: {
-		DisplayName: 原核の小さな霊像
+		DisplayName: プライムコアの小さな霊像
 		Tooltip: ""
 	}
 
 	WatchersEyeAdornedIdol: {
-		DisplayName: 見張る者の目の装飾霊像
+		DisplayName: 見張る者の目の彩られた霊像
 		Tooltip: ""
 	}
 
@@ -210,7 +216,7 @@ Items: {
 	}
 
 	HumbleIdolofIcarusFolly: {
-		DisplayName: イカロスの愚行の慎ましい霊像
+		DisplayName: イカロスの愚行の地味な霊像
 		Tooltip: ""
 	}
 
@@ -223,27 +229,67 @@ Items: {
 		DisplayName: 黄金のダブロンの小さな霊像
 		Tooltip: ""
 	}
+
+	AnglersLargeIdol: {
+		DisplayName: 釣り人の大きな霊像
+		Tooltip: ""
+	}
+
+	TwinShotStoutIdol: {
+		DisplayName: ツインショットのずんぐりした霊像
+		Tooltip: ""
+	}
+
+	GrandIdolofCelestialGuidance: {
+		DisplayName: 天の導きの大きな霊像
+		Tooltip: ""
+	}
+
+	IdolBagItem: {
+		DisplayName: 霊像のバックパック
+		Tooltip:
+			'''
+			霊像を保管するのに使える
+			使うとバックパックを開く
+			お気に入りに登録すると自動保管が有効になる
+			'''
+	}
+
+	IdolFragment: {
+		DisplayName: 霊像の破片
+		Tooltip: 集めると商人と取引できる
+	}
 }
 
 Tiles.IdolReforgeBench.MapEntry: 霊像リフォージ作業台
 
 UI: {
-	StatPanelHeader: アクティブ霊像のステータス
+	StatPanelHeader: アクティブな霊像のステータス
 	HideStatPanel: ステータスパネルを隠す
 	ShowStatPanel: ステータスパネルを表示
 	HideGridPanel: グリッドパネルを隠す
 	ShowGridPanel: グリッドパネルを表示
 	IdolReforgeBenchTitle: 霊像リフォージ作業台
 	Place3Idols: 同じ霊像を3つ入力スロットに置いてください
-	Reforge: 再鍛造
-	NeedMoreIdols: あと {0} 個の霊像が必要です
-	MustBeIdols: すべてのアイテムは霊像でなければなりません！
-	MustBeSameType: 霊像はすべて同じ種類である必要があります！
-	ReadyToReforge: 再鍛造の準備完了！
-	ErrorFillSlots: すべての入力スロットを埋めてください！
-	ErrorMustBeIdols: すべてのアイテムは霊像である必要があります！
-	ErrorSameType: 霊像はすべて同じ種類である必要があります！
+	Reforge: リフォージ
+	NeedMoreIdols: あと{0}個の霊像が必要です
+	MustBeIdols: 全てのアイテムは霊像でなければなりません！
+	MustBeSameType: 霊像は全て同じ種類である必要があります！
+	ReadyToReforge: リフォージの準備完了！
+	ErrorFillSlots: 全ての入力スロットを埋めてください！
+	ErrorMustBeIdols: 全てのアイテムは霊像である必要があります！
+	ErrorSameType: 霊像は全て同じ種類である必要があります！
 	ErrorOutputNotEmpty: 出力スロットは空である必要があります！
+	Items: アイテム
+	Idols: 霊像
+	SmallIdols: 小さな霊像
+	StoutIdols: ずんぐりした霊像
+	HumbleIdols: 地味な霊像
+	AdornedIdols: 彩られた霊像
+	LargeIdols: 大きな霊像
+	GrandIdols: 豪華な霊像
+	UniqueIdols: ユニークな霊像
+	IdolFragmentCost: 霊像の破片
 }
 
 Projectiles: {
@@ -254,14 +300,14 @@ Projectiles: {
 
 Configs: {
 	IdolGridSystemConfig: {
-		DisplayName: 霊像グリッドシステム設定
+		DisplayName: 霊像グリッドシステムの設定
 
 		IdolDropChanceMultiplier: {
-			Label: 基本霊像ドロップ率倍率（0.10 = 10%）
+			Label: 基本霊像ドロップ率の倍率（0.10 = 10%）
 			Tooltip:
 				'''
-				全ての霊像のグローバルドロップ率を制御します。
-				1.00 = 100%、0.10 = 10%、0.01 = 1%。
+				全ての霊像のグローバルドロップ率を変更します
+				1.00 = 100%、0.10 = 10%、0.01 = 1%
 				'''
 		}
 
@@ -269,6 +315,7 @@ Configs: {
 			IdolDropRates: 霊像のドロップ率
 			SpecialIdolDropRates: 特殊な霊像のドロップ率
 			OtherDropRates: その他のドロップ率
+			GameMode: 霊像のドロップモード
 		}
 
 		SmallIdolDropRate: {
@@ -277,12 +324,12 @@ Configs: {
 		}
 
 		StoutIdolDropRate: {
-			Label: ずんぐり霊像のドロップ率
+			Label: ずんぐりした霊像のドロップ率
 			Tooltip: ""
 		}
 
 		HumbleIdolDropRate: {
-			Label: 慎ましい霊像のドロップ率
+			Label: 地味な霊像のドロップ率
 			Tooltip: ""
 		}
 
@@ -292,17 +339,17 @@ Configs: {
 		}
 
 		GrandIdolDropRate: {
-			Label: 偉大な霊像のドロップ率
+			Label: 豪華な霊像のドロップ率
 			Tooltip: ""
 		}
 
 		AdornedIdolDropRate: {
-			Label: 装飾霊像のドロップ率
+			Label: 彩られた霊像のドロップ率
 			Tooltip: ""
 		}
 
 		GranitecoreAdornedIdolDropRate: {
-			Label: 花崗の装飾霊像のドロップ率
+			Label: 花崗の彩られた霊像のドロップ率
 			Tooltip: ""
 		}
 
@@ -312,12 +359,12 @@ Configs: {
 		}
 
 		BlinkstepStoutIdolDropRate: {
-			Label: ブリンクステップ霊像のドロップ率
+			Label: 瞬間移動の霊像のドロップ率
 			Tooltip: ""
 		}
 
 		HumbleIdolofIcarusFollyDropRate: {
-			Label: イカロスの愚行霊像のドロップ率
+			Label: イカロスの愚行の霊像のドロップ率
 			Tooltip: ""
 		}
 
@@ -330,9 +377,82 @@ Configs: {
 			Label: 高貴なオーブのドロップ率
 			Tooltip: ""
 		}
+
+		DropIdolFragments: {
+			Label: 霊像の代わりに霊像の破片をドロップする
+			Tooltip: 
+				'''
+				オンにすると敵は完全な霊像ではなく霊像の破片をドロップします
+				ユニークな霊像は通常通りドロップします
+				霊像の破片は商人と交換して霊像を買うことができる
+				'''
+		}
+
+		IdolFragmentDropRate: {
+			Label: 霊像の破片のドロップ率
+			Tooltip: 霊像の破片のドロップ率を変更します
+		}
+	}
+
+	IdolStatsMultiplierConfig: {
+		DisplayName: 霊像のステータスの倍率設定
+
+		Headers: {
+			GlobalMultiplier: グローバル倍率
+			IdolSizeMultipliers: 霊像ごとの倍率
+		}
+
+		GlobalStatMultiplier: {
+			Label: グローバルのステータス倍率
+			Tooltip:
+				'''
+				ユニークでない全ての霊像に適用されるグローバルの倍率
+				例: 0.5に設定すると、ユニークでない全ての霊像の強さが半分になります
+				'''
+		}
+
+		SmallIdolMultiplier: {
+			Label: 小さな霊像の倍率
+			Tooltip:
+				'''
+				1x1サイズ（通常）の霊像の倍率
+				デフォルト = 1
+				'''
+		}
+
+		HybridIdolMultiplier: {
+			Label: ハイブリッド霊像の倍率
+			Tooltip:
+				'''
+				1x2か2x1サイズ (ハイブリッド)の霊像の倍率
+				デフォルト = 2
+				'''
+		}
+
+		ClassIdolMultiplier: {
+			Label: クラス霊像の倍率
+			Tooltip:
+				'''
+				1x3か3x1サイズ (クラス)の霊像の倍率
+				デフォルト = 3
+				'''
+		}
+
+		AdornedIdolMultiplier: {
+			Label: 彩られたクラス霊像の倍率
+			Tooltip:
+				'''
+				2x2サイズ(彩られた)の霊像の倍率
+				デフォルト = 4
+				'''
+		}
 	}
 }
+
 Keybinds: {
 	"Open Idol Grid UI.DisplayName": 霊像グリッドを開く
 	"Toggle Idol Grid UI.DisplayName": 霊像グリッドの表示切り替え
+	"Grid Loadout 3.DisplayName": グリッドロードアウト 3
+	"Grid Loadout 2.DisplayName": グリッドロードアウト 2
+	"Grid Loadout 1.DisplayName": グリッドロードアウト 1
 }

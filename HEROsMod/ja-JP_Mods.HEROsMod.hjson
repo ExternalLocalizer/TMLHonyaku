@@ -79,7 +79,7 @@ Health: ライフ
 Damage: ダメージ
 Defense: 防御力
 KnockbackResistance: ノックバック耐性
-UnderworldToSpawnWoF: 地底内でないとWoFを出現させることができません
+UnderworldToSpawnWoF: 地下世界内でないとWoFを出現させることができません
 MiscOptions: その他
 RevealMap: 地図を完成させる
 ClearItemsOnGround: 地面にあるアイテムを消す
@@ -317,14 +317,14 @@ Configs: {
 			Label: ログインしていないプレイヤーを凍結する
 			Tooltip:
 				'''
-				オンだと、ユーザーはログインしないと移動できません
+				この設定がオンだと、ユーザーはログインしないと移動できません
 				オフになっているなら、ログインは任意です
 				'''
 		}
 
 		Telemetry: {
 			Label: テレメトリー
-			Tooltip: これがオフだと、更新通知やその他のテレメトリが無効になります
+			Tooltip: この設定がオフだと、更新通知やその他のテレメトリが無効になります
 		}
 	}
 }

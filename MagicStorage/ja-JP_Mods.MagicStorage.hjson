@@ -22,7 +22,7 @@
 				DisplayName: クリエイティブストレージユニット
 				Tooltip:
 					'''
-					あらゆる種類のアイテムを無制限に保管できる
+					あらゆる種類のアイテムを無限に保管できる
 					ストレージシステム内では、ストレージの制限にカウントされない
 					'''
 			}
@@ -31,7 +31,7 @@
 				DisplayName: 探知機
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					<right>で遠隔ストレージアクセスを設定する
 					'''
 			}
@@ -40,7 +40,7 @@
 				DisplayName: 探知機ドライブ
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					<right>で遠隔ストレージアクセスを設定する
 					使用しても壊れない
 					'''
@@ -50,7 +50,7 @@
 				DisplayName: 究極の携帯遠隔ストレージアクセス
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してストレージにアクセスする
 					アクセス範囲は無限
@@ -61,7 +61,7 @@
 				DisplayName: 究極の携帯遠隔クラフティングアクセス
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してクラフティングにアクセスする
 					アクセス範囲は無限
@@ -77,7 +77,7 @@
 				DisplayName: 遠隔ストレージアクセス
 				Tooltip:
 					'''
-					ストレージハートの遠隔アクセスが可能
+					ストレージハートの遠隔アクセスができる
 					クラフティングアクセスのような部品のストレージセンターとして機能する
 					'''
 			}
@@ -326,7 +326,7 @@
 				DisplayName: 基本携帯遠隔ストレージアクセス
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してストレージにアクセスする
 					接続したハートは、有効なパイロンから最大100フィート離れている必要がある
@@ -338,7 +338,7 @@
 				DisplayName: 上級携帯遠隔ストレージアクセス
 				Tooltip:
 					'''
-					<right>でストレージハートから保存場所へ
+					<right>でストレージハートから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してストレージにアクセスする
 					接続したハートは、有効なパイロンから最大200フィート離れている必要がある
@@ -370,7 +370,7 @@
 				DisplayName: 基本携帯遠隔クラフティングアクセス
 				Tooltip:
 					'''
-					<right>でクラフティングインターフェースから保存場所へ
+					<right>でクラフティングインターフェースから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してクラフティングにアクセスする
 					接続したインターフェースは、有効なパイロンから最大100フィート離れている必要がある
@@ -382,7 +382,7 @@
 				DisplayName: 上級携帯遠隔クラフティングアクセス
 				Tooltip:
 					'''
-					<right>でクラフティングインターフェースから保存場所へ
+					<right>でクラフティングインターフェースから保管場所へ
 					現在、どの場所にも設定されていない
 					アイテムを使用してクラフティングにアクセスする
 					接続したインターフェースは、有効なパイロンから最大200フィート離れている必要がある
@@ -490,7 +490,7 @@
 					DislikeNPC: このユニットは {NPCName} にブルーマジックの事を話したことを後悔してイル
 					HateNPC: "{NPCName} はブルーマジックが利益のために使用されるものではないことを学ぶ必要がアル"
 					LikeNPC_Princess: "{NPCName}は私の作成者と親友ダ"
-					Princess_LovesNPC: "{NPCName}はとても面白い機械ですわ、どのように動くのでしょう?"
+					Princess_LovesNPC: "{NPCName}はとても面白い機械ですわ、どのように動くのでしょう？"
 				}
 
 				# Census support
@@ -536,17 +536,17 @@
 		}
 
 		GameTips: {
-			Automaton: オートマトンは、Magic Storageの全てを教えてくれます
-			ShadowDiamonds: シャドウダイヤモンドは、ボスを初めて倒した際に入手できます。Magic Storageのレシピでダイヤモンドの代替として使用できます
-			RadiantJewel: ムーンロードはレイディアントジュエルをドロップし、これを使うと、アクセス範囲が無限の携帯リモートアクセスを作れます
+			Automaton: オートマトンは、Magic Storageの全てを教えてくれます。
+			ShadowDiamonds: シャドウダイヤモンドは、ボスを初めて倒した際に入手できます。Magic Storageのレシピでダイヤモンドの代替として使用できます。
+			RadiantJewel: ムーンロードはレイディアントジュエルをドロップし、これを使うと、アクセス範囲が無限の携帯リモートアクセスを作れます。
 			StorageUpgrades: ストレージの容量が足りない？ ストレージユニットをストレージアップグレードで強化しましょう！
-			RemoteStorage: リモートアクセスをストレージハートにロケーターまたはロケーターディスクでリンクすれば、世界の他の場所にあるストレージにアクセスできます
-			CombinedStations: Magic Storageには、クラフティングインターフェースに設置する作業台の数を減らすための複合作業台があります
-			EnvironmentAccess: ストレージ設定インターフェースを通じて、他のModがクラフティングモジュールを追加でき、クラフティングインターフェースの機能に影響を与えることができます
-			PortableAccess: 携帯リモートストレージアクセスを作成すれば、外出先でもストレージにアクセスできます
-			StorageCores: ストレージコアレンチを使うと、ストレージユニットからストレージコアを取り外し、空のストレージユニットに差し込むことができます
-			DisableUnit: ストレージユニットワンドを使ってストレージユニットを無効にできます。無効になったストレージユニットはアイテムを格納できず、接続された他のストレージユニットへアイテムを移そうとします
-			BiomeGlobe: バイオームグローブを使うと、雪原、墓場、キャンプファイア、水、溶岩、ハチミツ、そしてデーモン／クリムゾンアルターに関連するレシピが使用可能になります
+			RemoteStorage: リモートアクセスをストレージハートにロケーターまたはロケーターディスクでリンクすれば、世界の他の場所にあるストレージにアクセスできます。
+			CombinedStations: Magic Storageには、クラフティングインターフェースに設置する作業台の数を減らすための複合作業台があります。
+			EnvironmentAccess: ストレージ設定インターフェースを通じて、他のModがクラフティングモジュールを追加でき、クラフティングインターフェースの機能に影響を与えることができます。
+			PortableAccess: 携帯リモートストレージアクセスを作成すれば、外出先でもストレージにアクセスできます。
+			StorageCores: ストレージコアレンチを使うと、ストレージユニットからストレージコアを取り外し、空のストレージユニットに差し込むことができます。
+			DisableUnit: ストレージユニットワンドを使ってストレージユニットを無効にできます。無効になったストレージユニットはアイテムを保管できず、接続された他のストレージユニットへアイテムを移そうとします。
+			BiomeGlobe: バイオームグローブを使うと、雪原、墓場、キャンプファイア、水、溶岩、ハチミツ、そしてデーモン／クリムゾンアルターに関連するレシピが使用できるようになります。
 		}
 
 		Bestiary.Golem:
@@ -579,7 +579,7 @@
 					'''
 				Help3:
 					'''
-					[i:MagicStorage/StorageHeart]を設置したら、次はストレージユニットを作り、ストレージハートにアイテムを保管できるようにしましょう。
+					[i:MagicStorage/StorageHeart] を設置したら、次はストレージユニットを作り、ストレージハートにアイテムを保管できるようにしましょう。
 					レシピ: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyChest] [rg/s10:MagicStorage:AnySilverBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageUnit]
 					'''
 				Help4:
@@ -608,7 +608,7 @@
 				Help7:
 					'''
 					全てのストレージシステムの部品は互いに接続する必要があります。もし [i:MagicStorage/StorageUnit] を、
-					[i:MagicStorage/StorageHeart]から広げたい場合、コネクターを使って接続できます。
+					[i:MagicStorage/StorageHeart] から広げたい場合、コネクターを使って接続できます。
 					レシピ: [rg/s16:Wood] [rg:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i/s16:MagicStorage/StorageConnector]
 					'''
 				Help8: 
@@ -621,9 +621,9 @@
 					ストレージの容量が足りなくなりましたか？ ストレージユニットをアップグレードしましょう！ 
 					特定のティアのストレージアップグレードは、前のティアのストレージユニットにしか適用できません。
 					[i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageUnitDemonite] / [i:MagicStorage/StorageUnitCrimtane]
-					[i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageUnitHellstone]
-					[i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
-					[i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageUnitTerra]
+					[i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageUnitHellstone]  [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageUnitHellstone]
+					[i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageUnitHallowed]  [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
+					[i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageUnitLuminite]  [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageUnitTerra]
 					(1/2)
 					'''
 				Help10:
@@ -642,7 +642,7 @@
 				Help12:
 					'''
 					時には、別の場所でストレージにアクセスしたい場合もありますが、コネクターでストレージを接続するのは面倒で高価です。解決策はリモートアクセスを作り、
-					それをストレージハート」と[i:MagicStorage/Locator] か[i:MagicStorage/LocatorDisk] でリンクすることです。
+					それをストレージハートと[i:MagicStorage/Locator] か[i:MagicStorage/LocatorDisk] でリンクすることです。
 					レシピ:
 					[i:MagicStorage/StorageComponent] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Ruby] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/RemoteAccess]
 					[i/s10:MeteoriteBar] [i/s2:Amber] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/Locator]
@@ -655,10 +655,10 @@
 					'''
 				Help14: 
 					'''
-					ストレージユニットの杖は [i:MagicStorage/StorageUnit]を無効にできます。
-					無効になった [i:MagicStorage/StorageUnit] はアイテムを収納できず、
-					そのアイテムは接続されている [i:MagicStorage/StorageUnit] に移動しようと試みます。
-					もし移動できない場合、アイテムは無効になった [i:MagicStorage/StorageUnit] に残ります。
+					ストレージユニットの杖は[i:MagicStorage/StorageUnit] を無効にできます。
+					無効になった[i:MagicStorage/StorageUnit] はアイテムを収納できず、
+					そのアイテムは接続されている[i:MagicStorage/StorageUnit] に移動しようと試みます。
+					もし移動できない場合、アイテムは無効になった[i:MagicStorage/StorageUnit] に残ります。
 					'''
 				Help15:
 					'''
@@ -700,7 +700,7 @@
 				Help18: 
 					'''
 					ムーンロードはレイディアントジュエルを守っています。
-					この宝石は非常に強力な力を持ち、これを使えば、無限のアクセス範囲を持つポータブルリモートアクセスを作れます！
+					この宝石は非常に強い力を持ち、これを使えば、アクセス範囲が無限の携帯リモートアクセスを作れます！
 					'''
 				Help19:
 					'''
@@ -758,18 +758,18 @@
 					'''
 				Help24:
 					'''
-					[i:MagicStorage/CraftingAccess]をシマーに投げ込むと、エーテルインターフェースに変化し、
-					ストレージシステム内でアイテムをシマー変化が可能になります。
-					全てのシマー機能が使用可能です：アイテムの素材への分解、アイテムの変化、コインによる運の増加、特定アイテムからのNPC召喚など。
+					[i:MagicStorage/CraftingAccess] をシマーに投げ込むと、エーテルインターフェースに変化し、
+					ストレージシステム内でアイテムをシマー変化ができるようになります。
+					全てのシマー機能が使用できます：アイテムの素材への分解、アイテムの変化、コインによる運の増加、特定アイテムからのNPC召喚など。
 					'''
 				Help25:
 					'''
 					デフォルトでは、全ての[i:MagicStorage/StorageHeart]（およびその構成要素）は誰でもアクセスできます。
 					ストレージをより安全にするには、「ストレージセキュリティワンド」を作りましょう。
-					このツールを持って[i:MagicStorage/StorageHeart]を左クリックすると、セキュリティシステムが開きます。
+					このツールを持って[i:MagicStorage/StorageHeart] を左クリックすると、セキュリティシステムが開きます。
 					このUIではセキュリティネットワークを作成でき、
-					プライベートに設定すると[i:MagicStorage/StorageHeart]およびその構成要素へのアクセスにパスワードが必要になります。
-					セキュリティネットワークをダブル左クリックすると、アクセスに使用した[i:MagicStorage/StorageHeart]にそのネットワークを割り当てることができます。
+					プライベートに設定すると[i:MagicStorage/StorageHeart] およびその構成要素へのアクセスにパスワードが必要になります。
+					セキュリティネットワークをダブル左クリックすると、アクセスに使用した[i:MagicStorage/StorageHeart] にそのネットワークを割り当てることができます。
 					レシピ: [i/s3:GoldenKey] [i/s25:Wire] [rg/s5:IronBar] [i:MagicStorage/StorageComponent] [i/s6:Amber] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/StorageSecurity]
 					'''
 				Help26_Header: UIのテキスト入力プロンプトの操作が面倒に感じますか？そんな時に便利な操作方法はこちらです：
@@ -804,9 +804,9 @@
 					'''
 					[i:MagicStorage/StorageUnitEmpty]にストレージコアを再挿入するには、コアを持った状態で右クリックで行えます。
 					[i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageCore]    [i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageCoreDemonite]
-					[i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageCoreCrimtane]    [i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageCoreHellstone]
-					[i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageCoreHallowed]    [i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageCoreBlueChlorophyte]
-					[i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageCoreLuminite]    [i:MagicStorage/StorageUnitTerra] -> [i:MagicStorage/StorageCoreTerra]
+					[i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageCoreCrimtane]  [i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageCoreHellstone]
+					[i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageCoreHallowed]  [i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageCoreBlueChlorophyte]
+					[i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageCoreLuminite]  [i:MagicStorage/StorageUnitTerra] -> [i:MagicStorage/StorageCoreTerra]
 					(2/2)
 					'''
 			}
@@ -942,12 +942,12 @@
 				OneIntArgument: 整数の引数が1つ必要です
 				ArgumentNotByte: 引数が0～255の範囲の正の整数ではありません
 				MultiplayerAdminOnly: このコマンドは管理者ステータスを持つマルチプレイヤークライアントでのみ使用できます
-				NotConnected: クライアント {0} はサーバーに接続していません
-				ClientAlreadyOp: クライアント {0} はすでにオペレーターステータスを持っています
-				ClientAlreadyDeop: クライアント {0} はすでにオペレーターステータスを持っていません
+				NotConnected: クライアント{0}はサーバーに接続していません
+				ClientAlreadyOp: クライアント{0}はすでにオペレーターステータスを持っています
+				ClientAlreadyDeop: クライアント{0}はすでにオペレーターステータスを持っていません
 				MultiplayerOperatorOnly: このコマンドはオペレーターステータスを持つマルチプレイヤークライアントでのみ使用できます
 				Players: プレイヤー：
-				YouAreClient: あなたはクライアント {0} です
+				YouAreClient: あなたはクライアント{0}です
 				ServerKeyText:
 					'''
 					=====
@@ -1213,14 +1213,14 @@
 				NetworkAccessQuestion: プライベートネットワークにしますか？
 				Create: 新しいネットワークを作成
 				ServerWait: サーバーの応答を待機中…
-				RequestingPassword: "{0} のパスワードを入力してください"
+				RequestingPassword: "{0}のパスワードを入力してください"
 				AccessPasswordHint: パスワード…
 				NoResponse: セキュリティ応答はここに表示されます
 				NoHeartAccessDenied: アクセス拒否
 				NoHeartMustConnect1: セキュリティネットワークに割り当てられた [i:MagicStorage/StorageHeart] を接続してください
-				NoHeartMustConnect2: ID {0} に接続する必要があります
-				NetworkOwner: 所有者: {0}
-				NetworkID: ID: {0}
+				NoHeartMustConnect2: ID{0}に接続する必要があります
+				NetworkOwner: 所有者:{0}
+				NetworkID: ID:{0}
 
 				Modes: {
 					Search: {
@@ -1293,7 +1293,7 @@
 
 				showAllRecipes: {
 					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll] デフォルトのレシピフィルター"
-					Tooltip: この設定をオンにすると全てのレシピをデフォルト表示し、外すと利用可能なレシピをデフォルト表示します
+					Tooltip: この設定をオンにすると全てのレシピをデフォルト表示し、外すと利用できるレシピをデフォルト表示します
 				}
 
 				useOldCraftMenu: {

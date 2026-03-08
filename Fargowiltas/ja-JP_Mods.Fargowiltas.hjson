@@ -65,58 +65,58 @@ Configs: {
 		}
 
 		DrunkWorld: {
-			Label: "[i:353] Drunk ワールド"
+			Label: "[i:353] Drunkワールド"
 			Tooltip: ""
 		}
 
 		BeeWorld: {
-			Label: "[i:1133] Bee ワールド"
+			Label: "[i:1133] Beeワールド"
 			Tooltip: ""
 		}
 
 		WorthyWorld: {
-			Label: "[i:2107] For the Worthy ワールド"
+			Label: "[i:2107] For the Worthyワールド"
 			Tooltip: ""
 		}
 
 		CelebrationWorld: {
-			Label: "[i:3732] Celebration ワールド"
+			Label: "[i:3732] Celebrationワールド"
 			Tooltip: ""
 		}
 
 		ConstantWorld: {
-			Label: "[i:5109] The Constant ワールド"
+			Label: "[i:5109] The Constantワールド"
 			Tooltip: ""
 		}
 		
 		NoTrapsWorld: {
-			Label: "[i:510] No Traps ワールド"
+			Label: "[i:510] No Trapsワールド"
 			Tooltip: ""
 		}
 
 		RemixWorld: {
-			Label: "[i:4711] Don't dig up ワールド"
+			Label: "[i:4711] Don't dig upワールド"
 			Tooltip: ""
 		}
 
 		ZenithWorld: {
-			Label: "[i:4956] Get fixed boi ワールド"
+			Label: "[i:4956] Get fixed boiワールド"
 			Tooltip: ""
 		}		
 
 		UnlimitedAmmo: {
-			Label: "[i:771] ハードモードで弾を3996個以上スタックしていると消費しなくなる"
+			Label: "[i:771] ﾊｰﾄﾞﾓｰﾄﾞで弾を3996個以上ｽﾀｯｸしていると消費しない"
 			Tooltip: ""
 		}
 
 		UnlimitedConsumableWeapons: {
-			Label: "[i:42] ハードモードで消費型武器を3996個以上スタックしていると消費しなくなる"
+			Label: "[i:42] ﾊｰﾄﾞﾓｰﾄﾞで消費武器を3996個以上ｽﾀｯｸしていると消費しない"
 			Tooltip: ""
 		}
 
 		UnlimitedPotionBuffsOn120: {
-			Label: "[i:292] 30個以上スタックしているとバフやエサが永続・無限になる"
-			Tooltip: ポーションと釣りエサは30個以上スタックしていると永続・無限になる
+			Label: "[i:292] 30個以上ｽﾀｯｸしているとﾊﾞﾌやｴｻが永続/無限になる"
+			Tooltip: ポーションと釣りエサは30個以上スタックしていると永続/無限になります
 		}
 
 		ExtraBuffSlots: {
@@ -141,7 +141,7 @@ Configs: {
 
 		RottenEggs: {
 			Label: "[i:1809] 強烈な腐った卵"
-			Tooltip: NPCが死ぬほど腐った卵を嫌がるようになる
+			Tooltip: NPCが死ぬほど腐った卵を嫌がるようになります
 		}
 
 		BannerRecipes: {
@@ -281,7 +281,7 @@ Configs: {
 		}
 
 		DoubleTapDashDisabled: {
-			Label: "[i:3097] ダッシュのダブルタップ無効化"
+			Label: "[i:3097] ダッシュのダブルタップを無効化"
 			Tooltip: 
 				'''
 				ダブルタップによるダッシュを無効にします
@@ -290,7 +290,7 @@ Configs: {
 		}
 
 		DoubleTapSetBonusDisabled: {
-			Label: "[i:3776] セットボーナスのダブルタップ無効化"
+			Label: "[i:3776] セットボーナスのダブルタップを無効化"
 			Tooltip: 
 				'''
 				ダブルタップによるセットボーナス効果の発動を無効にします
@@ -408,13 +408,13 @@ UI: {
 
 MessageInfo: {
 	Common: {
-		Exclamation: !
-		Period: .
+		Exclamation: ！
+		Period: 。
 	}
 
 	SiblingPylonNotNearSiblings: このパイロンはミュータントの兄弟たちが近くにいないと機能しません
 	NearbySiblingPylonNotNearSiblings: このパイロンは、ミュータントの兄弟たちが近くにいないと機能しません
-	NewItemUnlocked: 新しい商品が {0} の店に入荷した！
+	NewItemUnlocked: 新しい商品が{0}の店に入荷した！
 	HaveAwoken: "{0} が目覚めた！"
 	CancelEvent: 襲撃者は去っていった！
 	CancelPumpkinMoon: パンプキンムーンは沈んでいった...
@@ -769,7 +769,7 @@ Items: {
 		Tooltip:
 			'''
 			広い範囲を問答無用で破壊する
-			背景の壁は破壊しない
+			壁は破壊しない
 			使用は自己責任で
 			'''
 	}
@@ -809,7 +809,7 @@ Items: {
 			足場の真上のエリア内にあるものは消滅する
 			橋はカーソルの高さに作成される
 			近くに重要な建物がある場合は使用しないこと
-			右クリックで橋をかけずにエリア内にあるものだけ消し去ることができる
+			右クリックで橋を架けずにエリア内にあるものだけ消し去ることができる
 			使用は自己責任で
 			'''
 	}
@@ -850,7 +850,7 @@ Items: {
 		DisplayName: 小さな即席架橋装置
 		Tooltip:
 			'''
-			カーソルの位置に木の足場の橋を設置する
+			カーソルの位置に木の足場の橋を架ける
 			ブロックを破壊しない
 			'''
 	}
@@ -888,7 +888,7 @@ Items: {
 		Calming: 平穏
 		Activated: 有効化
 		Deactivated: 無効化
-		CryText: "{2} が {0}の音を {1}{3}"
+		CryText: "{2}が{0}の音を{1}{3}"
 	}
 
 	DeathFruit: {
@@ -908,7 +908,7 @@ Items: {
 			デバッグアイテム
 			全てのアイテムを調査する
 			'''
-		ResearchText: 調査済みのアイテム： {0} 個
+		ResearchText: 調査済みのアイテム： {0}個
 	}
 
 
@@ -1070,7 +1070,7 @@ Items: {
 		Tooltip:
 			'''
 			エバースクリームを召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1089,7 +1089,7 @@ Items: {
 		Tooltip:
 			'''
 			ヘッドレスホースマンを召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1098,7 +1098,7 @@ Items: {
 		Tooltip:
 			'''
 			氷の女王を召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1117,7 +1117,7 @@ Items: {
 		Tooltip:
 			'''
 			サンタ-NK1を召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1155,7 +1155,7 @@ Items: {
 		Tooltip:
 			'''
 			嘆きの樹を召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1164,7 +1164,7 @@ Items: {
 		Tooltip:
 			'''
 			パンプキングを召喚する
-			夜間中に使用できる
+			夜間に使用できる
 			'''
 	}
 
@@ -1271,7 +1271,7 @@ Items: {
 		Tooltip:
 			'''
 			レッドデビルを召喚する
-			地底世界で使用できる
+			地下世界で使用できる
 			'''
 	}
 
@@ -1416,7 +1416,7 @@ Items: {
 		Tooltip:
 			'''
 			ゴブリンウォーロックを召喚する
-			ゴブリン侵略中で使用できる
+			ゴブリンの侵略中で使用できる
 			'''
 	}
 
@@ -1510,7 +1510,7 @@ Items: {
 		Tooltip:
 			'''
 			ウォールオブフレッシュを召喚する
-			[c/FF0000:必ず地底世界で使用すること]
+			[c/FF0000:必ず地下世界で使用すること]
 			'''
 	}
 
@@ -1817,7 +1817,7 @@ Items: {
 
 	OverloaderRewards: 
 			'''	
-			ボスを倒すと、{0} 個のトレジャーバッグ、{1} 個のトロフィー、{2} 個のエネルゲイザーをドロップする
+			ボスを倒すと、{0}個のトレジャーバッグ、{1}個のトロフィー、{2}個のエネルゲイザーをドロップする
 			（スタック数に応じて報酬が増加）
 			'''
 
@@ -1906,7 +1906,7 @@ Items: {
 		Tooltip:
 			'''
 			夜間に使用すると、圧縮強化されたスケルトロンを召喚する
-			日中に使用すると、圧縮強化されたダンジョンガーディアンを召喚する
+			昼間に使用すると、圧縮強化されたダンジョンガーディアンを召喚する
 			'''
 	}
 
@@ -2007,7 +2007,7 @@ Items: {
 			何度でも使用できる
 			全てのバニラのバフを与える設置物の効果を付与する
 			触れると蜂蜜状態を与える
-			近くにいると運が大きく上昇し、シュガー・ラッシュ状態を与える
+			近くにいると運が大きく上昇し、シュガー・ラッシュを得る
 			'''
 	}
 
@@ -2021,12 +2021,12 @@ Items: {
 		Tooltip:
 			'''
 			何度でも使用できる
-			一部のバニラのバフを与える設置物の効果を付与する
+			一部のバニラのバフを与える設置物の効果を得る
 			'''
 	}
 
 	SiblingPylon: {
-		DisplayName: 兄弟パイロン
+		DisplayName: 兄弟のパイロン
 		Tooltip:
 			'''
 			{$NPCs.Mutant.DisplayName}、{$NPCs.Abominationn.DisplayName}、{$NPCs.Deviantt.DisplayName}が近くにいる別のパイロンへテレポートできる

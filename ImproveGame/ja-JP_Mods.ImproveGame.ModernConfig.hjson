@@ -27,7 +27,7 @@
 		Tooltip: 新しい設定のインターフェースについて
 		About:
 			'''
-			これはQuality of Terrariaの[c/0099ff:全く新しい設定のインターフェース]です。Discordサーバーに参加してフィードバックしてください。以前のtModLoaderのMod設定メニューを使っても全く問題ありません
+			これはQuality of Terrariaの[c/0099ff:全く新しい設定のインターフェース]です。全ての機能はここにあります。Discordサーバーに参加してフィードバックしてください。以前のtModLoaderのMod設定メニューを使っても全く問題ありません
 			左側には機能性に基づいた[c/0099ff:カテゴリ]があり、クリックすると子項目が表示されます
 			一番下に[c/0099ff:ツールチップ]があり、カーソルを項目に合わせるとツールチップが表示されます
 			[c/0099ff:右クリック]すると[c/0099ff:デフォルトにリセット]されます
@@ -49,7 +49,7 @@
 
 			クラッシュや問題の報告は、[c/7289da:Discord]で行ってください
 			Steamワークショップのコメントは確認されません
-
+			詳細については、[c/0099ff:Config Center of Quality of Terraria] を参照してください
 			この機能は[c/9966cc:LogSpiral]と[c/9966cc:Cyril]（Quality of Terraria Team）が作成しました
 
 			Mod間の連携を実装するMod制作者は、GitHubリポジトリのREADME.mdに記載されているMod.Callのドキュメントを参照してください
@@ -69,19 +69,19 @@
 
 		ExplorerPreset: {
 			Label: "[centeritem:GravityGlobe] 探検家"
-			Tooltip: バニラ風のプレイに最適。バランスが壊れない程度の便利機能が使用可能で、適度な困難に挑戦しつつ探索可能。ThoriumやSpiritなどを導入している人にオススメ
+			Tooltip: バニラ風のプレイに最適。バランスが壊れない程度の便利機能が使用でき、適度な困難に挑戦しつつ探索できます。ThoriumやSpiritなどを導入している人にオススメ
 			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#explorer
 		}
 
 		WarriorPreset: {
 			Label: "[centeritem:EmpressBlade] 戦士"
-			Tooltip: 掘るのはやめて戦闘を始めよう！ほとんどの作業要素をスキップ可能。CalamityやFargo's SoulsなどのModを導入している人にオススメ
+			Tooltip: 掘るのはやめて戦闘を始めよう！ほとんどの作業要素をスキップできます。CalamityやFargo's SoulsなどのModを導入している人にオススメ
 			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#fighter
 		}
 
 		VanillaPreset: {
 			Label: "[centeritem:MusicBoxCredits] バニラ愛好家"
-			Tooltip: ほぼバニラそのまま。少数のQoL（快適性向上）機能を活用可能
+			Tooltip: ほぼバニラそのまま。少数のQoL（快適性向上）機能を活用できます
 			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#vanilla-enjoyer
 		}
 
@@ -130,7 +130,7 @@
 
 	PlayerAbility: {
 		Label: プレイヤーの能力
-		Tooltip: ブロック配置範囲の拡張、復活時に体力全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤーの能力を強化します
+		Tooltip: ブロック配置範囲の拡張、復活時にライフ全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤーの能力を強化します
 	}
 
 	Multiplayer: {
