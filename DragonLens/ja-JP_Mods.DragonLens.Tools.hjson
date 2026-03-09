@@ -40,7 +40,7 @@ ShaderCompiler: {
 	Busy: シェーダーコンパイル中です。少々お待ちください...
 	Triggered: シェーダー再コンパイルが開始されました...
 	Completed: シェーダーの再コンパイルが {0} ミリ秒で完了しました
-	Recompiled: "{0} のシェーダーが再コンパイルされました！"
+	Recompiled: "{0}のシェーダーが再コンパイルされました！"
 }
 
 AccessoryTray: {
@@ -373,7 +373,7 @@ BuffSpawner: {
 	Description: 自分やNPCにバフを付与できます
 	DurationEditor: 継続時間（tick）
 	Applied: バフが付与されました
-	Selected: "{0} を選択しました。NPC をクリックすると適用されます。右クリックで選択解除。ブラウザ内のバフを右クリックすると、自分に適用できます。"
+	Selected: "{0}を選択しました。NPC をクリックすると適用されます。右クリックで選択解除。ブラウザ内のバフを右クリックすると、自分に適用できます。"
 
 	FilterCategories: {
 		Mod: Modフィルター
@@ -404,7 +404,7 @@ DustSpawner: {
 	DisplayName: ダスト生成ツール
 	Description: ダストを生成し、異なる生成方法やパラメータをプレビューできます。
 	DustType: 種類: {0}
-	Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
+	Selected: "{0}を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除。"
 
 	FieldEditors: {
 		NewDustPerfect: NewDustPerfect を使用
@@ -555,7 +555,7 @@ NPCSpawner: {
 		タイプ: {0}
 		ネットID: {1}
 		'''
-	Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
+	Selected: "{0}を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
 
 	FilterCategories: {
 		Mod: Modフィルター
@@ -601,7 +601,7 @@ ProjectileSpawner: {
 	NameExceptionMessage: プロジェクタイル ({0}) の名前取得時に例外が発生しました！ {1} の開発者に報告してください！
 	NameException: この飛び道具の名前取得時に例外が発生しました！ {0} の開発者に報告してください！
 	ProjectileType: 種類: {0}
-	Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
+	Selected: "{0}を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
 	FieldEditors.Velocity: 速度
 
 	FilterCategories: {
@@ -633,7 +633,7 @@ TileSpawner: {
 	DisplayName: タイル生成ツール
 	Description: アイテムを使わずにタイルを設置！
 	TileType: 種類: {0}
-	Selected: "{0} を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
+	Selected: "{0}を選択しました。ワールドの任意の場所をクリックして生成。右クリックで選択解除"
 	FilterCategories.Mod: Modフィルター
 
 	Filters: {
@@ -705,7 +705,7 @@ EntityEditor: {
 	Tutorial: エンティティをクリックして開始
 	Deselect: 選択解除
 	Selected: "{0} を編集対象として選択しました"
-	SelectedTE: "{0} (タイルエンティティ) を編集対象として選択しました"
+	SelectedTE: "{0}(タイルエンティティ) を編集対象として選択しました"
 
 	BasicEditors: {
 		Position: {
@@ -889,11 +889,11 @@ PlayerManager: {
 	DisplayName: プレイヤーマネージャー
 	Description: サーバーに接続中のプレイヤーを管理し、管理者権限の付与、キック、インベントリの編集などを行う
 	TryRemoveYourself: 自分自身の権限を削除することはできません！
-	RemoveAdmin: "{0} は管理者ではなくなりました"
-	AddAdmin: "{0} は管理者になりました"
+	RemoveAdmin: "{0}は管理者ではなくなりました"
+	AddAdmin: "{0}は管理者になりました"
 
 	InventoryManager: {
-		Inventory: "{0} のインベントリ"
+		Inventory: "{0}のインベントリ"
 		Equipment: 装備
 		Piggy: 貯金箱
 		Safe: セーフ
