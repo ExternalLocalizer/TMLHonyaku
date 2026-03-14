@@ -1,0 +1,185 @@
+Configs: {
+	BiomeSpreadConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			Protections: 保護
+			EvilBiomeAdaption: 邪悪なバイオームの変化
+			Debug: デバッグ
+			UI: UI
+			Spread: 拡大
+			HardmodeGE: ハードモードでの邪悪なVの出現
+		}
+
+		TickRate: {
+			Label: ティックのレート
+			Tooltip: ""
+		}
+
+		AllSpread: {
+			Label: 拡大を有効にする
+			Tooltip: ""
+		}
+
+		Corruption: {
+			Label: 不浄
+			Tooltip: ""
+		}
+
+		Crimson: {
+			Label: 真紅
+			Tooltip: ""
+		}
+
+		Hallow: {
+			Label: 聖域
+			Tooltip: ""
+		}
+
+		ChlorophyteDefense: {
+			Label: クロロファイトの保護
+			Tooltip: 周囲の邪悪を浄化します。これはバニラのシステムです
+		}
+
+		SunflowerProtection: {
+			Label: ひまわりの保護
+			Tooltip: ひまわりの下のブロックは汚染されません。これはバニラのシステムです
+		}
+
+		EvilBiomeAdaption: {
+			Label: 邪悪なバイオームの変化
+			Tooltip:
+				'''
+				雪原/砂漠で、近くのクリムストーンは対応するバイオームにある場合、
+				拡大中に氷ブロック（赤）/クリムサンドストーンブロックに変化することがあります
+				'''
+		}
+
+		SnowIce: {
+			Label: 雪原の氷
+			Tooltip: 雪原で、近くのクリムストーンが氷ブロック（赤）に変化します
+		}
+
+		DesertHardenedSand: {
+			Label: 砂漠の硬化した砂
+			Tooltip: 砂漠で、近くのクリムストーンがクリムサンドストーンブロックに変化します
+		}
+
+		TickRateOverride: {
+			Label: ティックのレートの上書き
+			Tooltip: 
+				'''
+				これはラグを引き起こすので注意してください
+				これはデバッグ用です
+				これらの2つのシード「debug」か「debug2」を使用してください
+				これはこのModのテスト用に最適化されています
+				'''		
+}
+
+		DebugCommands: {
+			Label: デバッグコマンドを有効にする
+			Tooltip: /spawn corrupt or /spawn crimsonなどのデバッグチャットコマンドを有効にします
+		}
+
+		TickRateAffectsDayRate: {
+			Label: ティックのレートが日のレートに影響
+			Tooltip: ""
+		}
+
+		GenerateBothWorldEvil: {
+			Label: 2つの邪悪をワールドに出現させる
+			Tooltip: 
+				'''
+				バニラのワールドの邪悪の生成を上書きし、
+				選択したものと反対の邪悪を交互に生成するようにします
+				'''
+		}
+
+		GenerateHardmodeV: {
+			Label: ハードモードのVを生成する
+			Tooltip: ハードモードに入るとVが生成され、片方はワールドの邪悪ともう一方は聖域です
+		}
+
+		G1: {
+			Label: 一片1
+			Tooltip: ""
+		}
+
+		G2: {
+			Label: 一片2
+			Tooltip: ""
+		}
+	}
+
+	GERunnerSpread: {
+		Tooltip: ""
+
+		Corruption: {
+			Label: 不浄
+			Tooltip: ""
+		}
+
+		Crimson: {
+			Label: 真紅
+			Tooltip: ""
+		}
+
+		Hallow: {
+			Label: 聖域
+			Tooltip: ""
+		}
+
+		None: {
+			Label: なし
+			Tooltip: ""
+		}
+
+		WorldEvil: {
+			Label: ワールドの邪悪
+			Tooltip: ""
+		}
+	}
+}
+
+Mods: {
+	BiomeRework: {
+		Commands: {
+			Common: {
+				DebugDisabled: デバッグコマンドが無効になっています。設定で「デバッグ」->「デバッグ コマンド」をオンにしてください
+				ServerHostOnly: サーバー/ホストでこのコマンドを実行します
+				UsagePrefix: 使い方: {0}
+			}
+
+			DebugSpawn: {
+				Usage: /spawn <corrupt|crimson>
+				Description: デバッグ 不浄/真紅を生成します
+				InvalidOptions: 有効なオプション: corrupt、crimson
+				FlavorCrimson: 真紅
+				FlavorCorruption: 不浄
+				Spawned: ({1}、{2}) {0}を生成しました
+			}
+
+			DebugHelp: {
+				Usage: /debughelp
+				Description: BiomeReworkのデバッグコマンドを一覧表示します
+				Header: BiomeReworkのデバッグコマンド:
+				LineSpawn: /spawn <corrupt|crimson> - 近くにテスト用の邪悪を生成します
+				LineGE: /ge - 現在の一片1/一片2の設定を使用してハードモードのVを生成します
+				LineClense: /clense - ワールドを浄化します
+				LineHelp: /debughelp - このコマンドリストを表示します
+			}
+
+			DebugGE: {
+				Usage: /ge
+				Description: 現在の設定を使用してハードモードのVを生成します
+				Completed: ハードモードのVを生成しました
+			}
+
+			DebugClense: {
+				Usage: /clense
+				Description: ワールドを浄化します
+				Completed: ワールドの浄化が完了しました
+			}
+		}
+	}
+}

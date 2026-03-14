@@ -1,0 +1,57 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Hearts: {
+			Label: "[i:58] ハート"
+			Tooltip: ハートは、以下のいずれかの条件を満たしているなら拾得できます
+		}
+
+		ManaStars: {
+			Label: "[i:184] マナスター"
+			Tooltip: マナスターは、以下のいずれかの条件を満たしているなら拾得できます
+		}
+
+		NebulaBoosters: {
+			Label: "[i:3453][i:3454][i:3455] ネビュラブースター"
+			Tooltip:
+				'''
+				オンにすると、ネビュラセットからドロップされるライフ、ダメージ、マナのブースターは、
+				バフのスタックが最大になっている間は拾得しません
+				'''
+		}
+
+		deactivateTimer: {
+			Label: アクティブでない時間
+			Tooltip:
+				'''
+				ハート/マナスターが正常な動作に戻るまでの時間（秒単位）
+				0に設定すると無期限になります
+				'''
+		}
+
+		disableCounter: {
+			Label: ピックアップカウンターを無効にする
+			Tooltip: 「/pickups」チャットコマンドの使用を無効にし、再度有効にするまでピックアップカウンターをオフにします
+		}
+	}
+
+	ConditionalStat: {
+		Tooltip: ""
+
+		thresholdFlat: {
+			Label: 拾得するのに必要な減少量
+			Tooltip: ライフ/マナが設定した量以上減っているならハート/マナスターを拾得できます
+		}
+
+		thresholdPercent: {
+			Label: 拾得するのに必要な割合
+			Tooltip: ライフ/マナが設定した割合以下ならハート/マナスターを拾得できます
+		}
+
+		on: {
+			Label: 有効
+			Tooltip: アイテムが実際に影響を受けるかどうかを切り替えます
+		}
+	}
+}

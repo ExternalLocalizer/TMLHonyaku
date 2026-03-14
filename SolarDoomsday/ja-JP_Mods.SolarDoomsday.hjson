@@ -1,0 +1,270 @@
+DeathReasons: {
+	Sun0: "{0}は立派な原子の粘液になった"
+	Sun1: "{0}は太陽の下で楽しい時間を過ごした"
+	Sun2: "{0}は激しく蒸発した"
+}
+
+DaysUIText: {
+	DaysLeft: 残り日数
+	HoursLeft: 残り時間
+}
+
+WorldEndSettings: {
+	Stagnation: 停滞
+	Dissipation: 消失
+	Nova: 爆発
+}
+
+DoomsdaySelection: {
+	Stagnation: {
+		Title: "{$WorldEndSettings.Stagnation}"
+		Description: 時間切れ後も、最終日の状態を維持する
+	}
+
+	Dissipation: {
+		Title: "{$WorldEndSettings.Dissipation}"
+		Description: 時間切れになると、太陽が燃え尽きる
+	}
+
+	Nova: {
+		Title: "{$WorldEndSettings.Nova}"
+		Description: 時間切れになると太陽が爆発し、全てが破壊される
+	}
+
+	Enabling: {
+		Title: 太陽の黙示録を有効にする
+		Description: 有効にするとこのワールドは徐々に焼却されるようになる！
+	}
+
+	DaysLeft: {
+		Title: 日数:
+		Empty: <30>
+		Description: ワールドが最終段階に到達するまでの日数
+		Input: 日数を入力 (最低でも12日が推奨)
+	}
+}
+
+WorldFileLabel: 日数 {0}
+
+Buffs: {
+	SolFire: {
+		DisplayName: 灼熱
+		Description: 太陽が肌を焼いている
+	}
+
+	HeatStroke: {
+		DisplayName: 熱中症
+		Description: ダメージが{0}%減少し、被ダメージが{0}%増加
+	}
+
+	KamikazeSlime: {
+		DisplayName: 神風スライム
+		Description: Mods.SolarDoomsday.Content.Buffs.KamikazeSlime.Description
+	}
+}
+
+StagnationWatchPrefix: "{0}日、"
+
+Items: {
+	CosmicSunblock: {
+		DisplayName: コズミックサンブロック
+		Tooltip:
+			'''
+			太陽の黙示録を停止させる
+			昼間かつ地上で使用できる
+			太陽がすでに死んでいる場合は使用できない
+			'''
+	}
+
+	GrassPowder: {
+		DisplayName: 草の粉
+		Tooltip: 土に草を広げ、火を消す
+	}
+
+	CyanSolution: {
+		DisplayName: 環境変更弾 （空色）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			灰を土に、溶岩を石に変える
+			地上と地下で機能する
+			'''
+	}
+
+	DarkGreenSolution: {
+		DisplayName: 環境変更弾 （濃い緑）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			土地をジャングルにする
+			'''
+	}
+
+	SolarAccelerationPill: {
+		DisplayName: 太陽の{0}薬 ({1}-日)
+		Tooltip:
+			'''
+			太陽の黙示録を開始する
+			昼間に使用できる
+			太陽がすでに死んでいる場合は使用できない
+
+			'''
+		TooltipStagnation:
+			'''
+			{$Items.SolarAccelerationPill.Tooltip}
+			{$Items.SolarAccelerationPill.TooltipStagnationInner}
+			{$Items.SolarAccelerationPill.FunnyQuip}
+			'''
+		TooltipDissipation:
+			'''
+			{$Items.SolarAccelerationPill.Tooltip}
+			{$Items.SolarAccelerationPill.TooltipDissipationInner}
+			{$Items.SolarAccelerationPill.FunnyQuip}
+			'''
+		TooltipNova:
+			'''
+			{$Items.SolarAccelerationPill.Tooltip}
+			{$Items.SolarAccelerationPill.TooltipNovaInner}
+			{$Items.SolarAccelerationPill.FunnyQuip}
+			'''
+		FunnyQuip: 「副作用として大量破壊が含まれる」
+		TooltipStagnationInner: 時間切れ後も、最終日の状態を維持する
+		TooltipDissipationInner: 時間切れになると、太陽が燃え尽きる
+		TooltipNovaInner: 時間切れになると太陽が爆発し、全てが破壊される
+	}
+
+	PillEssences: {
+		DisplayName: 太陽の{0}エッセンス
+		Tooltip:
+			'''
+			太陽の黙示録を開始させる薬を作成するのに使用できる
+			{0}
+			'''
+	}
+
+	AshWallItem: {
+		DisplayName: 灰の壁
+		Tooltip: ""
+	}
+
+	CombustibleLemon: {
+		DisplayName: 可燃性レモン
+		Tooltip:
+			'''
+			投げたり、ロケットとして使用できる
+			ブロックに火をつける小さな爆発を起こす
+			「人生からレモンを取り戻そう！」
+			'''
+	}
+
+	Match: {
+		DisplayName: マッチ
+		Tooltip: 火をつける
+	}
+
+	HornfelsItem: {
+		DisplayName: 接触変成岩
+		Tooltip: ""
+	}
+}
+
+Announcements: {
+	ApocalypseEnd: 黙示録が終わりました
+	ApocalypseEndLate: しかし、黙示録後の再生はまだ始まったばかりです...
+	TooLate: 遅すぎましたね...
+	ApocalypseAgain: 黙示録が始まります...
+}
+
+Projectiles: {
+	GrassPowderProjectile.DisplayName: 草の粉
+	SlimeBomb.DisplayName: スライムボム
+	CyanSolutionProjectile.DisplayName: 環境変更弾 （空色）
+	DarkGreenSolutionProjectile.DisplayName: 環境変更弾 （濃い緑）
+	CombustibleLemon.DisplayName: 可燃性レモン
+	CombustibleLemonRocket.DisplayName: 可燃性レモンロケット
+	CombustibleLemonMine.DisplayName: 可燃性レモン地雷
+	CombustibleLemonGrenade.DisplayName: 可燃性レモングレネード
+	CombustibleLemonSnowman.DisplayName: 可燃性レモンスノーマン
+	CombustibleLemonCeleb2.DisplayName: 可燃性レモンセレブレーション2
+}
+
+DropConditions.WorldNotSavedCondition: 太陽の黙示録がまだ続いているならドロップする
+
+Conditions: {
+	WhileApocalypseInactive: 太陽の黙示録中でないとき
+	ApocalypseNeverStarted: 太陽の黙示録が始まっていないとき
+	WhenApocalypseOver: 太陽の黙示録が止まった後
+	HasCombustibleLemon: 可燃性レモンを持っているとき
+}
+
+TerraformingKitMessage: 私は太陽の光が消えた後に地表を修復するのに役立つテラフォーミングキットを開発中です！
+
+Biomes: {
+	ScorchedUnderground: {
+		TownNPCDialogueName: 焦土の地下
+		DisplayName: 焦土の地下
+	}
+
+	ScorchedUndergroundSurface: {
+		DisplayName: 焦土の地上
+		TownNPCDialogueName: 焦土の地上
+	}
+}
+
+Configs: {
+	ServerConfig: {
+		DisplayName: ゲーム設定
+
+		RainGivesSafety: {
+			Label: 雨が降っている間は安全
+			Tooltip:
+				'''
+				オンにすると、雨が降っている間は黙示録の悪影響が全てなくなる
+				しかし、ワールドは雨が降らなくなる地点に到達する！
+				'''
+		}
+	}
+
+	ClientConfig: {
+		DisplayName: 表示設定
+
+		ScreenShakeStrength: {
+			Label: 画面の揺れの強さ
+			Tooltip:
+				'''
+				爆発に設定したワールドの最終日には、画面が揺れ、
+				終わりに近づくにつれてより激しくなっていきます
+				この設定で振動の強さを変更できます
+				'''
+		}
+
+		dayCounterDisplay: {
+			Label: 日数のカウント表示
+			Tooltip: 停滞と散逸に設定したワールドの日数のカウントの外観を変更します
+		}
+	}
+
+	DayCounterDisplay: {
+		Fancy: {
+			Label: ファンシー
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+
+		Minimal: {
+			Label: 最小
+			Tooltip: ""
+		}
+
+		None: {
+			Label: なし
+			Tooltip: ""
+		}
+
+		Plain: {
+			Label: 無地
+			Tooltip: ""
+		}
+	}
+}
