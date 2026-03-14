@@ -55,7 +55,7 @@ Remove: 削除
 Group: グループ
 User: ユーザー
 RegionName: 領域の名前
-ProtectChests: チェストを保護
+ProtectChests: 宝箱を保護
 ThisChestIsProtected: この宝箱は保護されています
 ChestProtectionNowEnabledForRegion: "領域で宝箱保護が有効になりました: {0}"
 ChestProtectionNowDisabledForRegion: "領域で宝箱保護が無効になりました: {0}"
@@ -317,14 +317,14 @@ Configs: {
 			Label: ログインしていないプレイヤーを凍結する
 			Tooltip:
 				'''
-				この設定がオンだと、ユーザーはログインしないと移動できません
+				これがオンだと、ユーザーはログインしないと移動できません
 				オフになっているなら、ログインは任意です
 				'''
 		}
 
 		Telemetry: {
 			Label: テレメトリー
-			Tooltip: この設定がオフだと、更新通知やその他のテレメトリが無効になります
+			Tooltip: これがオフだと、更新通知やその他のテレメトリが無効になります
 		}
 	}
 }

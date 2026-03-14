@@ -72,7 +72,7 @@ CombatText: {
 	}
 
 	Commonds: {
-		ResurrectionTimeShortened: スポーン時間が{Time}秒短縮されました！
+		ResurrectionTimeShortened: リスポーン時間が{Time}秒短縮されました！
 	}
 }
 
@@ -95,7 +95,7 @@ Tips: {
 	PrefixCount: "リフォージカウント: "
 	AnglerQuest: 釣り人のクエストがリフレッシュされました
 	FromMod: 【{DisplayName}】
-	LootDisplay: "{KeybindName} を押すと、アイテムドロップの詳細が表示されます"
+	LootDisplay: "{KeybindName}で、アイテムドロップの詳細が表示されます"
 	LootDisplayBindless: (この機能のホットキーが設定されていません)
 	Refreshing: ショップ入れ替え中
 	Refresh: ショップ入れ替え
@@ -103,9 +103,9 @@ Tips: {
 	SummonSlotFull: ミニオンスロット占有率: [c/CC2222:{Current}/{Total} (最大！)]
 	BuffTrackerOn: <left>でバフトラッカーを開く
 	BuffTrackerOff: <left>でバフトラッカーを閉じる
-	HideMyBuffs: 永続バフを非表示にするには、個人設定で可能です
-	BankEnableOn: "{KeybindName}で個人インベントリを開く"
-	BankEnableOff: "{KeybindName}で個人インベントリを閉じる"
+	HideMyBuffs: 永続バフを非表示にするには、個人設定でできます
+	BankEnableOn: "{KeybindName}で個人ストレージを開く"
+	BankEnableOff: "{KeybindName}で個人ストレージを閉じる"
 	MouseMiddleOpen: "{KeybindName}で{ItemName}を開く"
 	MouseMiddleClose: "{KeybindName}で{ItemName}を閉じる"
 	MouseMiddleUse: "{KeybindName}で{ItemName}を使用する"
@@ -185,8 +185,8 @@ Tips: {
 			'''
 			[c/88CCEE:バフの組み合わせ: ][i:CalmingPotion][i:Sunflower][i:PeaceCandle][i:WaterCandle][i:BattlePotion]  
 			上記の無限バフアイテムを全て所持していると、  
-			バフトラッカーの右側にスポーン率スライダーが表示されます  
-			このスライダーでスポーン率をx0〜x{MaxSpawn}の範囲で調整できます
+			バフトラッカーの下に出現率スライダーが表示されます  
+			このスライダーで出現率をx0〜x{MaxSpawn}の範囲で調整できます
 			'''
 		CreateWand:
 			'''
@@ -347,14 +347,22 @@ MoveChest: {
 	Heavy: 宝箱の重みで動きが制限される
 }
 
+BuffController: {
+	LeftClick: {
+		Enable: "[c/CC88AA:<left>]でこのバフを有効にする"
+		Disable: "[c/CC88AA:<left>]でこのバフを無効にする"
+	}
+
+	RightClick: {
+		Enable: "[c/CC88AA:<right>]でお気に入りに登録する"
+		Disable: "[c/CC88AA:<right>]でお気に入りから削除する"
+	}
+}
+
 BuffTracker: {
-	Title: バフトラッカー
-	LeftClickDisable: "[c/CC88AA:<left>]でこのバフを無効にする"
-	LeftClickEnable: "[c/CC88AA:<left>]でこのバフを有効にする"
-	RightClickDisable: "[c/CC88AA:<right>]でお気に入りから削除する"
-	RightClickEnable: "[c/CC88AA:<right>]でお気に入りに登録する"
+	Title: バフトラッカー 
 	NoInfBuff:  現在利用可能な永続バフはありません
-	NoInfBuffAlt: Mod設定で無限ポーションをオンにしてください
+	NoInfBuffAlt: Mod設定で「無限ポーション」をオンにしてください
 	NPCSpawnRatePanel: 敵出現率のパネル
 }
 
@@ -722,8 +730,8 @@ Items: {
 		DisplayName: 虚空の杖
 		Tooltip:
 			'''
-			この杖にチェストを収納するために使用する
-			もう一度使用するとチェストを置く
+			この杖に宝箱を収納するために使用する
+			もう一度使用すると宝箱を置く
 			'''
 	}
 
@@ -896,7 +904,7 @@ Items: {
 	}
 
 	AddChestIconDummy: {
-		DisplayName: チェストアイコン追加（ダミー）
+		DisplayName: 宝箱アイコン追加（ダミー）
 		Tooltip: ""
 	}
 
@@ -909,7 +917,7 @@ Items: {
 		DisplayName: 餌チェンバー
 		Tooltip:
 			'''
-			近くに置かれたチェストから自動的に餌を取り出し、
+			近くに置かれた宝箱から自動的に餌を取り出し、
 			ワールド中の釣り機に餌を補充する
 			'''
 	}
@@ -1117,7 +1125,7 @@ UI: {
 	RecipeSearchUI.Tips:
 		'''
 		Quality of Lifeによるレシピ検索機能
-		個人設定から無効にできます
+		個人設定から無効化できます
 		'''
 
 	InfiniteBUFFController: {
@@ -1264,7 +1272,7 @@ ExtremeStorage: {
 		Tooltip:
 			'''
 			選択したカテゴリ内のアイテムが [c/CC88AA: クラフトでカウントされるかどうか] を制御します
-			開いているチェスト内のアイテムは引き続き使用可能です
+			開いている宝箱内のアイテムは引き続き使用可能です
 			カテゴリ内のアイテムが多すぎるとパフォーマンス問題を引き起こす可能性があります。
 			低スペックPCでは注意してください
 			'''
@@ -1274,7 +1282,7 @@ ExtremeStorage: {
 		Label: 無限ポーション
 		Tooltip:
 			'''
-			[c/CC88AA: ポーション ] 内のポーションやバフステーションを
+			[c/CC88AA: ポーション] 内のポーションやバフステーションを
 			[c/CC88AA:無限ポーション] として使用できるかどうかを制御します
 			Mod設定で「無限ポーション」をオンにする必要があります
 			'''
@@ -1291,12 +1299,12 @@ ExtremeStorage: {
 	}
 
 	UsePortableBanner: {
-		Label: ポータブルバナー
+		Label: 携帯バナー
 		Tooltip:
 			'''
 			[c/CC88AA: 家具] 内のバナーを
-			[c/CC88AA:ポータブルバナー]として使用できるかどうかを制御します
-			Mod設定でポータブルバナーをオンにする必要があります
+			[c/CC88AA:携帯バナー]として使用できるかどうかを制御します
+			Mod設定で「携帯バナー」をオンにする必要があります
 			'''
 	}
 
@@ -1308,8 +1316,8 @@ ExtremeStorage: {
 	BasicIntroduction:
 		'''
 		注意:
-		1. チェストのソートは、チェスト名に付けられた識別子に依存します
-		チェスト名を適当に変更しないでください
+		1. 宝箱のソートは、宝箱名に付けられた識別子に依存します
+		宝箱名を適当に変更しないでください
 		2. 家具とポーションはそれぞれのカテゴリに分類し、
 		その他は全てのカテゴリに分類してください
 		3. マルチプレイヤーでは、他のプレイヤーが宝箱を使用している場合、
@@ -1602,8 +1610,8 @@ Autofisher: {
 		    釣り速度: {Speed}
 		    フィッシング・パワー: {Power}
 		'''
-	AccBoostTackle: "    餌の消費確率を減少"
-	AccBoostLava: "    溶岩で釣り可能"
+	AccBoostTackle: "    餌の消費確率が低下"
+	AccBoostLava: "    溶岩で釣りができる"
 }
 
 MapLayer: {

@@ -54,7 +54,7 @@ Config: {
 	// Accessory Slots
 	SlotMoonlord: {
 		Label: "[i:BossMaskMoonlord] ML撃破後のアクセサリスロットの追加を有効にする"
-		Tooltip: ムーンロード撃破後、アクセサリスロットが追加されるか変更します
+		Tooltip: ムーンロードを撃破後、アクセサリスロットが追加されるか変更します
 	}
 
 	SlotWings: {
@@ -118,7 +118,7 @@ Config: {
 		Label: "[i:HermesBoots] アクセサリのレシピを追加する"
 		Tooltip:
 			'''
-			この設定がオンだと、アクセサリのレシピを色々追加します
+			これがオンだと、アクセサリのレシピを色々追加します
 			説明するのは面倒なのでRecipe Browser Modを使って探してみてください
 			'''
 	}
@@ -127,7 +127,7 @@ Config: {
 		Label: "[i:BottomlessShimmerBucket] シマーで変化させれるアクセサリを増やす"
 		Tooltip:
 			'''
-			この設定がオンだと、以下のアクセサリをシマーで変化させることができるようになります
+			これがオンだと、以下のアクセサリをシマーで変化させることができるようになります
 			[i:BrickLayer] レンガ設置機、[i:ExtendoGrip] 拡張グリップ、[i:PaintSprayer] ペイントスプレー 、[i:PortableCementMixer] 携帯コンクリートミキサー
 			[i:Stopwatch] ストップウォッチ、[i:LifeformAnalyzer] 生命体分析器、[i:DPSMeter] DPS測定器
 			[i:ShinyRedBalloon] 輝く赤い風船と[i:BalloonPufferfish] フグの風船
@@ -139,19 +139,19 @@ Config: {
 
 	ObtainabilityNPCDrops: {
 		Label: "[i:ArmorPolish] 聖十字のお守りの素材を入手しやすくする"
-		Tooltip: この設定がオンだと、敵が[i:AnkhCharm] 聖十字のお守りの素材のアクセサリを落とす確率が3倍になります
+		Tooltip: これがオンだと、敵が[i:AnkhCharm] 聖十字のお守りの素材のアクセサリを落とす確率が3倍になります
 	}
 
 	ObtainabilityTravellingMerchant: {
 		Label: "[i:PeddlersHat] 旅商人がアクセサリを必ず販売する"
-		Tooltip: この設定がオンだと、旅商人にアクセサリの販売枠が追加されます
+		Tooltip: これがオンだと、旅商人にアクセサリの販売枠が追加されます
 	}
 
 	ObtainabilityPresents: {
 		Label: "[i:Present] プレゼントからアクセサリを取り除く"
 		Tooltip:
 			'''
-			この設定がオンだと、プレゼントから[i:HandWarmer] あったか手袋と、
+			これがオンだと、プレゼントから[i:HandWarmer] あったか手袋と、
 			[i:Toolbox] ツールボックスを入手できなくなる代わりに、
 			あったか手袋のレシピが追加され、
 			メカニックからツールボックスを買えるようになります
@@ -171,54 +171,54 @@ PDAConfig: {
 	// Radar
 	RadarHighlightEnemies: {
 		Label: 敵のハイライト表示
-		Tooltip: この設定がオンだと、[i:Radar] レーダーが敵を[i:HunterPotion] 狩人のポーションのようにハイライト表示するようになります
+		Tooltip: これがオンだと、[i:Radar] レーダーが敵を[i:HunterPotion] 狩人のポーションのようにハイライト表示するようになります
 	}
 
 	RadarHighlightDanger: {
 		Label: 罠のハイライト表示
-		Tooltip: この設定がオンだと、[i:Radar] レーダーが罠を[i:TrapsightPotion] 危険察知ポーションのようにハイライト表示するようになります
+		Tooltip: これがオンだと、[i:Radar] レーダーが罠を[i:TrapsightPotion] 危険察知ポーションのようにハイライト表示するようになります
 	}
 
 	// Metal detector
 	MetalDetectorDistanceInfo: {
 		Label: 距離の表示
-		Tooltip: この設定がオンだと、[i:MetalDetector] 金属探知機が距離を表示するようになります
+		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が距離を表示するようになります
 	}
 
 	MetalDetectorArrows: {
 		Label: 宝物の方角を矢印で表示
-		Tooltip: この設定がオンだと、[i:MetalDetector] 金属探知機が近くの宝物の方角を矢印で表示するようになります
+		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が近くの宝物の方角を矢印で表示するようになります
 	}
 
 	MetalDetectorHighlight: {
 		Label: 宝物のハイライト表示
-		Tooltip: この設定がオンだと、[i:MetalDetector] 金属探知機が宝物をハイライト表示するようになります
+		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が宝物をハイライト表示するようになります
 	}
 
 	TrackGems: {
 		Label: 宝石の探知
-		Tooltip: この設定がオンだと、[i:MetalDetector] 金属探知機が宝石を探知するようになります
+		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が宝石を探知するようになります
 	}
 
 	TrackHellstone: {
 		Label: ヘルストーンの探知
-		Tooltip: この設定がオンだと、[i:MetalDetector] 金属探知機がヘルストーンを探知するようになります
+		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機がヘルストーンを探知するようになります
 	}
 
 	// Lifeform analyzer
 	LifeformAnalyzerDistanceInfo: {
 		Label: 距離の表示
-		Tooltip: この設定がオンだと、[i:LifeformAnalyzer] 生命体分析器が距離を表示するようになります
+		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が距離を表示するようになります
 	}
 
 	LifeformAnalyzerArrows: {
 		Label: 珍しい生き物の方角を矢印で表示
-		Tooltip: この設定がオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物の方角を矢印で表示するようになります
+		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物の方角を矢印で表示するようになります
 	}
 
 	LifeformAnalyzerHighlight: {
 		Label: 珍しい生き物のハイライト表示
-		Tooltip: この設定がオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物をハイライト表示するようになります
+		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物をハイライト表示するようになります
 	}
 
 	UseNPCWhitelist: {

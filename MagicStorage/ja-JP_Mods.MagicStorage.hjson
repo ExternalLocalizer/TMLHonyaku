@@ -1255,7 +1255,7 @@
 				Label: ゲーム内チャットにログ情報を表示
 				Tooltip:
 					'''
-					この設定をオンにすると、ゲーム内チャットにログ情報が表示されます
+					これをオンにすると、ゲーム内チャットにログ情報が表示されます
 					ログ情報はクライアント.logおよびserver.logファイルに関しては常に記録されます
 					'''
 			}
@@ -1285,7 +1285,7 @@
 					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll] デフォルトのフィルターを使用"
 					Tooltip: 
 						'''
-						この設定をオンにすると下記のフィルターを使用し、
+						これをオンにすると下記のフィルターを使用し、
 						オフにするとゲーム内で最後に選択したフィルターを記憶します
 						（フィルターはMod読み込み後に最初に開く時に使用されます）
 						'''
@@ -1293,27 +1293,27 @@
 
 				showAllRecipes: {
 					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll] デフォルトのレシピフィルター"
-					Tooltip: この設定をオンにすると全てのレシピをデフォルト表示し、外すと利用できるレシピをデフォルト表示します
+					Tooltip: これをオンにすると全てのレシピをデフォルト表示し、外すと利用できるレシピをデフォルト表示します
 				}
 
 				useOldCraftMenu: {
 					Label: "[i:WorkBench] 旧クラフトボタンを使用"
-					Tooltip: この設定をオンにするとクラフトGUIを旧UIに変更します
+					Tooltip: これをオンにするとクラフトGUIを旧UIに変更します
 				}
 
 				recipeBlacklist: {
 					Label: レシピのホワイトリスト/ブラックリスト
-					Tooltip: この設定をオンにするとクラフトGUIでレシピをホワイトリストおよびブラックリストに追加できるようになります
+					Tooltip: これをオンにするとクラフトGUIでレシピをホワイトリストおよびブラックリストに追加できるようになります
 				}
 
 				globalRecipeBlacklist: {
 					Label: グローバルのレシピブラックリスト
-					Tooltip: この設定をオンにすると左Ctrlと左Shiftを押しながらクリックするとブラックリストを追加/削除できるようになります
+					Tooltip: これをオンにすると左Ctrlと左Shiftを押しながらクリックするとブラックリストを追加/削除できるようになります
 				}
 
 				clearHistory: {
 					Label: "[i:Book] レシピ履歴をクリア"
-					Tooltip: この設定をオンにするとクラフトGUIを開いたときにレシピ履歴がクリアされます
+					Tooltip: これをオンにするとクラフトGUIを開いたときにレシピ履歴がクリアされます
 				}
 
 				recursionCraftingDepth: {
@@ -1330,7 +1330,7 @@
 					Label: "[i:MagicStorage/Config_GlowItemGlowing] [i:MagicStorage/Config_GlowItemNotGlowing] 新しいアイテム/レシピを表示"
 					Tooltip: 
 						'''
-						この設定をオンにすると新しいアイテムやレシピを強調表示します
+						これをオンにすると新しいアイテムやレシピを強調表示します
 						オフにすると最初に選択したフィルターがゲーム内で記憶されます
 						（フィルターはMod読み込み後に最初に開く時に使用されます）
 						'''
@@ -1338,26 +1338,26 @@
 
 				clearSearchText: {
 					Label: 検索テキストをクリア
-					Tooltip: この設定をオンにするとUIを開いた時に検索テキストがクリアされます
+					Tooltip: これをオンにするとUIを開いた時に検索テキストがクリアされます
 				}
 
 				searchBarRefreshOnKey: {
 					Label: 検索バーがキー入力で更新
 					Tooltip: 
 						'''
-						この設定をオンにするとストレージおよびクラフトGUIで検索バーにキーを押すたびに更新が行われ、
+						これをオンにするとストレージおよびクラフトGUIで検索バーにキーを押すたびに更新が行われ、
 						オフにすると検索バーが選択解除された時にのみ更新されます
 						'''
 				}
 
 				uiFavorites: {
 					Label: "[i:FallenStar] お気に入りのフィルターボタン"
-					Tooltip: この設定をオンにするとクラフトGUIでアイテムやレシピをお気に入りとして登録できるようになります
+					Tooltip: これをオンにするとクラフトGUIでアイテムやレシピをお気に入りとして登録できるようになります
 				}
 
 				extraFilterIcons: {
 					Label: "[i:Cog] 追加の並べ替えアイコンを表示する"
-					Tooltip: この設定をオンにするとレガシーボタンレイアウトで追加の並べ替えオプションが表示されます
+					Tooltip: これをオンにするとレガシーボタンレイアウトで追加の並べ替えオプションが表示されます
 				}
 
 				buttonLayout: {
@@ -1386,12 +1386,12 @@
 
 				itemDataDebug: {
 					Label: "[i:IronPickaxe] アイテムデバッグ情報"
-					Tooltip: この設定をオンにすると、ストレージGUIでアイテムがGlobalItemデータを持っているかを表示し、"アイテムデータを表示"のキー操作でデータを表示できます
+					Tooltip: これをオンにすると、ストレージGUIでアイテムがGlobalItemデータを持っているかを表示し、"アイテムデータを表示"のキー操作でデータを表示できます
 				}
 
 				canMovePanels: {
 					Label: UIパネルの移動
-					Tooltip: この設定をオフにすると、UIパネルの移動やサイズ変更ができなくなります
+					Tooltip: これをオフにすると、UIパネルの移動やサイズ変更ができなくなります
 				}
 
 				automatonRemembers: {
@@ -1444,22 +1444,22 @@
 
 				allowAutomatonToMoveIn: {
 					Label: オートマトンが出現可能
-					Tooltip: この設定をオンにするとオートマトンが出現できるようになります
+					Tooltip: これをオンにするとオートマトンが出現できるようになります
 				}
 
 				auditLog: {
 					Label: サーバー監査ログ
-					Tooltip: この設定をオンにするとクライアントがストレージシステムに対して行った操作が監査ログに記録されます
+					Tooltip: これをオンにするとクライアントがストレージシステムに対して行った操作が監査ログに記録されます
 				}
 
 				localHostAdmin: {
 					Label: ローカルホストにサーバー管理者権限を付与
-					Tooltip: この設定をオンにすると、ローカルホストがサーバー参加時に自動的に管理者権限を持ちます
+					Tooltip: これをオンにすると、ローカルホストがサーバー参加時に自動的に管理者権限を持ちます
 				}
 
 				automatonHappiness: {
 					Label: オートマトンの満足度が売却価格に影響
-					Tooltip: この設定をオフにすると、オートマトンがアイテム販売モードでの売却価格に影響しなくなります
+					Tooltip: これをオフにすると、オートマトンがアイテム販売モードでの売却価格に影響しなくなります
 				}
 			}
 			MagicStorageBetaConfig.DisplayName: Magic Storage BETA設定
