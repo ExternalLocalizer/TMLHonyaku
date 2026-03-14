@@ -28,7 +28,7 @@ NPCs: {
 			LoveNPC: "{NPCName} はめっちゃ面白い！"
 			LikeNPC: "{NPCName} は面白いことを言うね。"
 			DislikeNPC: "{NPCName} はこわい。"
-			HateNPC: "{NPCName} は嫌いだ."
+			HateNPC: "{NPCName} は嫌いだ。"
 			LikeNPC_Princess: 植物たちと {NPCName} はとても仲が良いですね!
 			Princess_LovesNPC: "{NPCName} は奇妙だけど、献身的で気遣いもできる彼女は好きだ。"
 		}
@@ -65,7 +65,7 @@ Dialogue: {
 		Graveyard1: ゾンビどもがくるぞ！
 		Graveyard2: ゾンビどもはまったく手加減してくれないな。
 		Ew1: ｶﾞｱ？！
-		Ew2: いごごちがわるい。
+		Ew2: いごこちがわるい。
 	}
 }
 
@@ -92,7 +92,7 @@ Items: {
 
 	SunflowerSP: {
 		DisplayName: サンフラワーのタネ袋
-		Tooltip:  新たなサンを生成する
+		Tooltip: 新たなサンを生成する
 	}
 
 	CherryBombSP: {
@@ -144,7 +144,7 @@ Items: {
 		Tooltip:
 			'''
 			命中時、タネ袋のリチャージ時間が短縮される
-			プラントダメージが {0} %増加
+			プラントダメージが {0}% 増加
 			'''
 	}
 
@@ -203,7 +203,7 @@ Buffs: {
 
 	InstaCD: {
 		DisplayName: 速成タネ袋のリチャージ
-		Description: Description: 再び種を植えられるようになるまで、待たないとならない
+		Description: 再び種を植えられるようになるまで、待たないとならない
 
 	}
 }
