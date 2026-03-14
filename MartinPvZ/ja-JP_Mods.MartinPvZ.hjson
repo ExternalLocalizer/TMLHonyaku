@@ -1,0 +1,211 @@
+CommonItemTooltip: {
+	IncreasesBotanistDmgBy: "プラントダメージが {0}% 増加"
+	IncreasesBotanistCritBy: "プラントのクリティカル率が {0}% 増加"
+	IncreasesBotanistSpeedBy: "プラントを植える速度が {0}% 増加"
+}
+
+UI: {
+	Sun: "{0}"
+	Plants: "{0}/{1}"
+}
+
+NPCs: {
+	Crazy: {
+		DisplayName: クレイジー
+		Names.0: デイブ
+
+		TownNPCMood: {
+			Content: このタコス、ずっと取っておいたんだ！
+			FarFromHome: 私のタコスはこの辺にあるはずなんだが……
+			NoHome: 酸素がたっぷりで良いんだが、そろそろホームシックになってきたかもしれないな。
+			LoveSpace: この空間は居心地がいいな。
+			DislikeCrowded: もう少しスペースが欲しいな。
+			HateCrowded: ここはタコスの置き場もない!
+			LoveBiome: ｦｱ! {BiomeName}!
+			LikeBiome: なくしたタコスは、 {BiomeName} 以外に何処で見つかるっていうんだ?
+			DislikeBiome: ブルル！ホッキョクグマがアイスキャンディーを食っているときよりも寒いよ！
+			HateBiome: この {BiomeName} というところは臭い。
+			LoveNPC: "{NPCName} はめっちゃ面白い！"
+			LikeNPC: "{NPCName} は面白いことを言うね。"
+			DislikeNPC: "{NPCName} はこわい。"
+			HateNPC: "{NPCName} は嫌いだ."
+			LikeNPC_Princess: 植物たちと {NPCName} はとても仲が良いですね!
+			Princess_LovesNPC: "{NPCName} は奇妙だけど、献身的で気遣いもできる彼女は好きだ。"
+		}
+
+		Census.SpawnCondition: ポーション用の植物か、疎水性の設置物がインベントリにあるとき
+	}
+
+	Browncoat.DisplayName: 茶コートのゾンビ
+	FlagBrowncoat.DisplayName: フラグゾンビ
+	ConeheadBrowncoat.DisplayName: 茶コートのコーンヘッド
+	BucketheadBrowncoat.DisplayName: 茶コートのバケツヘッド
+}
+
+Dialogue: {
+	Game: {
+		WaveSpawned: ゾンビの大群が近づいている！
+		WaveNumber: #{0} のゾンビウェーブが始まった！
+		WonWave: #{0} のゾンビウェーブをクリアした！
+	}
+
+	Crazy: {
+		Chat1: やあ、ご近所さん。
+		Chat2: 俺はクレイジーだからな！
+		Chat3: なんで俺はお前にウォールナッツを渡したんだっけな？
+		Chat4: クレイジー {0} のTwiddydinkiesは営業中だ！
+		Chat5: ｳｪﾋﾞｳｪﾎﾞ
+		Night1: あの月が見えるか？あれってチーズでできているんだぜ。
+		Eclipse1: ハア！？太陽は何処へ行きやがった？
+		Raining1: 種が空から降ってくんのか！？
+		Raining2: 俺は昔、「霧の男」と呼ばれていたんだ！
+		Party1: イエス！あのタコスは俺のものだ！
+		Party2: この時がやってきた！
+		BloodMoon1: だれがあの月にライトをあてているんだ？
+		Graveyard1: ゾンビどもがくるぞ！
+		Graveyard2: ゾンビどもはまったく手加減してくれないな。
+		Ew1: ｶﾞｱ？！
+		Ew2: いごごちがわるい。
+	}
+}
+
+Bestiary: {
+	Crazy: いつも頭に鍋を被っていて、ブツブツと不可解な言葉を発している。こんなに奇怪な振る舞いをしている彼だが、非常に有能な発明家であり、技術者であることを何度も証明してきた。
+	Browncoat: こいつを含めた茶色いコートを着たゾンビは君のセントリーを破壊する。それ以外は脳みそが好きな、ただのゾンビだ。
+	Conehead: 彼が被っている交通用三角コーンはゾンビを2倍ぐらいの強さにしている。
+	Buckethead: バケツで防護された頭はダメージを更に与えにくくする。
+	FlagBrowncoat: フラグゾンビはゾンビの大群、すなわち「ウェーブ」が到来したことを知らせてくれる。
+}
+
+Items: {
+	UsesXSun:
+		'''
+		{0} のサンを使用する
+		リチャージ時間 {1} 秒
+		'''
+	CannotPlantHere: ここに植えることはできません！
+
+	PeashooterSP: {
+		DisplayName: ピーシューターのタネ袋
+		Tooltip: 豆を発射して敵を攻撃する
+	}
+
+	SunflowerSP: {
+		DisplayName: サンフラワーのタネ袋
+		Tooltip:  新たなサンを生成する
+	}
+
+	CherryBombSP: {
+		DisplayName: チェリーボムのタネ袋
+		Tooltip: 範囲内のすべての敵を巻き込んで爆発するが、起爆まで短い
+	}
+
+	WallnutSP: {
+		DisplayName: ウォールナッツのタネ袋
+		Tooltip: 他のプラントを守ることができる硬い殻を持っている
+	}
+
+	PotatoMineSP: {
+		DisplayName: ポテトマインのタネ袋
+		Tooltip: 接触すると爆発するが、準備に少し時間がかかる
+	}
+
+	SnowPeaSP: {
+		DisplayName: アイスピーのタネ袋
+		Tooltip: 敵にダメージを与えつつ、動きを遅くする凍った豆を発射する
+	}
+
+	ChomperSP: {
+		DisplayName: チョンパーのタネ袋
+		Tooltip: 敵を丸呑みにするが、消化まで無防備になる
+	}
+
+	RepeaterSP: {
+		DisplayName: リピーターのタネ袋
+		Tooltip: 一度に2発の豆を発射する
+	}
+
+	Sun: {
+		DisplayName: サン
+		Tooltip: 50 サン を入手する
+	}
+
+	ZombieLure: {
+		DisplayName: ゾンビ・ルアー
+		Tooltip:
+			'''
+			<right> でゾンビの大群を召喚する
+			(開発途中です!)
+			'''
+	}
+
+	CrazyPot: {
+		DisplayName: 奇妙なじょうろ
+		Tooltip:
+			'''
+			命中時、タネ袋のリチャージ時間が短縮される
+			プラントダメージが {0} %増加
+			'''
+	}
+
+	GardenShovel: {
+		DisplayName: 園芸師のショベル
+		Tooltip: 設置されているセントリーやプラントを除去できる
+	}
+
+	BoostedShovel: {
+		DisplayName: ブーストショベル
+		Tooltip:
+			'''
+			設置されているセントリーやプラントを除去できる
+			使用した {0}% のサンが返ってくる
+			'''
+	}
+
+	SunShovel: {
+		DisplayName: サンショベル
+		Tooltip:
+			'''
+			設置されているセントリーやプラントを除去できる
+			使用した {0}% のサンが返ってくる
+			'''
+	}
+}
+
+Projectiles: {
+	Peashooter.DisplayName: ピーシューター
+	Pea.DisplayName: 豆
+	Sunflower.DisplayName: サンフラワー
+	CherryBomb.DisplayName: チェリーボム
+	Wallnut.DisplayName: ウォールナッツ
+	GardenShovelUp.DisplayName: 園芸師のショベル
+	IcePea.DisplayName: 凍った豆
+	SnowPea.DisplayName: アイスピー
+	ZombieWave.DisplayName: ゾンビウェーブ
+	Repeater.DisplayName: リピーター
+	PotatoMine.DisplayName: ポテトマイン
+	ChomperChomp.DisplayName: チョンパーのかみつき
+	Chomper.DisplayName: チョンパー
+}
+
+Tiles.ZombieLure.MapEntry: ゾンビ・ルアー
+
+Buffs: {
+	SlowUndead: {
+		DisplayName: 遅いアンデッド
+		Description: 脳が凍りついている
+	}
+
+	SPCD: {
+		DisplayName: タネ袋のリチャージ
+		Description: 再び種を植えられるようになるまで、待たないとならない
+	}
+
+	InstaCD: {
+		DisplayName: 速成タネ袋のリチャージ
+		Description: Description: 再び種を植えられるようになるまで、待たないとならない
+
+	}
+}
+
+DamageClasses.BotanistClass.DisplayName: プラントダメージ
