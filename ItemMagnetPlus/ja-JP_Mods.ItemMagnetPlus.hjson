@@ -1,0 +1,150 @@
+
+Buffs: {
+	ItemMagnetBuff: {
+		DisplayName: 磁石の磁力
+		Description: 磁場があなたを取り囲んでいる！
+		CurrentRange: 現在の範囲: {0}
+		CurrentVelocity: 現在の速度: {0}
+		CurrentAcceleration: 現在の加速度: {0}
+	}
+}
+
+Items: {
+	ItemMagnet: {
+		DisplayName: 磁石
+		CurrentRange: "{$Buffs.ItemMagnetBuff.CurrentRange}"
+		CurrentVelocity: "{$Buffs.ItemMagnetBuff.CurrentVelocity}"
+		CurrentAcceleration: "{$Buffs.ItemMagnetBuff.CurrentAcceleration}"
+		LeftClickToChangeRange: 左クリックで[c/{0}:範囲を変更する]
+		LeftClickToToggle: 左クリックで[c/{0}:オン/オフを切り替える]
+		RightClickToShowCurrentRange: 右クリックで[c/{0}:現在の範囲を表示する]
+		RightClickToTurnOff: 右クリックで[c/{0}:オフにする]
+		MagnetIsOff: 磁石がオフです
+		MagnetOff: 磁石オフ
+		Off: オフ
+		Range: 範囲: {0} 
+		NextRange: | 次: {0}
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			PresetItemWhitelist: プリセットアイテムのホワイトリスト
+			CustomItemFilter: カスタムアイテムフィルタ
+			General: 一般
+			MagnetBehavior: 磁石の動作（ゲーム内でのみ有効）
+			ResultingMagnetStats: 磁石の設定
+		}
+
+		Hearts: {
+			Label: "[i:Heart] ハート"
+			Tooltip: ハートを磁石で引き寄せられるか切り替えます
+		}
+
+		ManaStars: {
+			Label: "[i:Star] マナスター"
+			Tooltip: マナスターを磁石で引き寄せられるか切り替えます
+		}
+
+		Coins: {
+			Label: "[i:GoldCoin] コイン"
+			Tooltip: コインを磁石で引き寄せられるか切り替えます
+		}
+
+		PickupEffect: {
+			Label: "[i:FragmentNebula] 拾得バフアイテム"
+			Tooltip: ネビュラ防具のブースターやThoriumの音符などのMod追加アイテムを磁石で引き寄せられるか切り替えます
+		}
+
+		Blacklist: {
+			Label: マグネットのブラックリスト
+			Tooltip: 磁石が引き寄せないアイテムを設定します
+		}
+
+		Whitelist: {
+			Label: マグネットのホワイトリスト
+			Tooltip: 磁石が常に引き寄せるアイテムを設定します
+		}
+
+		FilterListMode: {
+			Label: 使用するリスト
+			Tooltip: アイテムフィルターに使用するリストを変更します
+		}
+
+		Buff: {
+			Label: 磁石がオンになっている間、バフを得る
+			Tooltip: 磁石がオンになっている間にバフを得るかどうか切り替えます
+		}
+
+		Held: {
+			Label: 選択中のみ引き寄せが可能
+			Tooltip: 磁石がインベントリ内ではなく、選択中のみ引き寄せられるかどうか切り替えます
+		}
+
+		OnEnter: {
+			Label: ワールドに入ったときにオンにする
+			Tooltip: ワールドに入ったとき、自動的に磁石がオンになるかどうか切り替えます
+		}
+
+		NeedsSpace: {
+			Label: 引き寄せるのにインベントリに空きが必要
+			Tooltip: インベントリに空きがある場合に、磁石が機能するかどうか切り替えます
+		}
+
+		Instant: {
+			Label: 即座にアイテムを拾得する
+			Tooltip: アイテムを即座に拾得するかどうか切り替えます - これは速度/加速度を無視しますが、範囲は無視しません
+		}
+
+		Range: {
+			Label: 範囲
+			Tooltip: 磁石の範囲を変更します
+		}
+
+		Velocity: {
+			Label: 引き寄せ速度
+			Tooltip: アイテムを引き寄せる速度を変更します
+		}
+
+		Acceleration: {
+			Label: 引き寄せの加速度
+			Tooltip: アイテムを引き寄せる速度が最大に達するまでの時間を変更します
+		}
+
+		ScaleMode: {
+			Label: スケールモード
+			Tooltip: スケールモードを切り替えます
+		}
+
+		CurrentMaxRange: {
+			Label: 最終的な最大範囲
+			Tooltip: ""
+		}
+
+		CurrentVelocity: {
+			Label: 最終的な速度
+			Tooltip: ""
+		}
+
+		CurrentAcceleration: {
+			Label: 最終的な加速度
+			Tooltip: ""
+		}
+	}
+
+	FilterListModeType: {
+		Tooltip: ""
+		Blacklist.Label: ブラックリスト
+		Whitelist.Label: ホワイトリスト
+	}
+
+	ScaleModeType: {
+		Tooltip: ""
+		Bosses.Label: ボスがいる間は拡大
+		AlwaysMaxRange.Label: ボス + 最大範囲
+		OnlyConfig.Label: カスタム + 最大範囲
+	}
+}

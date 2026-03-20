@@ -1,0 +1,71 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	HallowedOre: {
+		DisplayName: 聖なる鉱石
+		Tooltip: ""
+	}
+}
+
+Tiles.HallowedOre.MapEntry: 聖なる鉱石
+WorldGen.BlessedWithHallowedOreMessage: 聖なる鉱石の祝福を受けた！
+
+Configs: {
+	Config: {
+		EnableHallowedOre: {
+			Label: 聖なる鉱石の生成を有効にする
+			Tooltip: 聖なる鉱石の生成を有効にし、箱から入手できるようにします
+		}
+
+		DisplayName: 設定
+
+		BaseHealthPercentMultiplier: {
+			Label: メカボスの基本ライフの乗数
+			Tooltip: メカボスが初期状態で持つ最大ライフの割合を変更します
+		}
+
+		BaseDamagePercentMultiplier: {
+			Label: メカボスの基本ダメージの乗数
+			Tooltip: メカボスの初期状態でのダメージの割合を変更します
+		}
+
+		HealthPercentPerKill: {
+			Label: 撃破後の最大ライフ増加の度合い
+			Tooltip: メカボスを1体倒した後、他のメカボスの最大ライフが増加する割合を変更します
+		}
+
+		DamagePercentPerKill: {
+			Label: 撃破後のダメージ増加の度合い
+			Tooltip: メカボスを1体倒した後、他のメカボスのダメージが増加する割合を変更します
+		}
+
+		ForceBothOres: {
+			Label: 両方の鉱石を生成させる
+			Tooltip: 
+				'''
+				オンにすると、ドランクワールドのようにハードモードの鉱石（コバルト/パラジウムを含む）が、
+				両方生成されるようになります
+				'''
+		}
+
+		CobaltOreMultiplier: {
+			Label: コバルト/パラジウム鉱石の量
+			Tooltip: アルターを破壊した際に生成されるコバルト/パラジウム鉱石の量を変更します
+		}
+
+		MythrilOreAmount: {
+			Label: ミスリル/オリハルコン鉱石の量
+			Tooltip: メカボスを1体倒した後に生成されるミスリル/オリハルコン鉱石の量を変更します
+		}
+
+		AdamantiteOreAmount: {
+			Label: アダマンタイト/チタン鉱石の量
+			Tooltip: 2体目のメカボスを倒した後に生成されるアダマンタイト/チタン鉱石の量を変更します
+		}
+
+		HallowedOreAmount: {
+			Label: 聖なる鉱石の量
+			Tooltip: メカボスを全て倒した後に生成される聖なる鉱石の量を変更します
+		}
+	}
+}

@@ -1,0 +1,54 @@
+
+Items: {
+	HallowBeaconItem: {
+		DisplayName: 聖域のビーコン
+		Tooltip: 聖域の拡大を防ぐ、清浄の柱を投影する
+	}
+
+	CorruptionBeaconItem: {
+		DisplayName: 不浄のビーコン
+		Tooltip: 不浄の拡大を防ぐ、隔離の柱を投影する
+	}
+
+	CrimsonBeaconItem: {
+		DisplayName: 真紅のビーコン
+		Tooltip: 真紅の拡大を防ぐ、隔離の柱を投影する
+	}
+}
+
+Tiles: {
+	HallowBeaconTile.MapEntry: 聖域のビーコン
+	CorruptionBeaconTile.MapEntry: 不浄のビーコン
+	CrimsonBeaconTile.MapEntry: 真紅のビーコン
+}
+
+Configs: {
+	BeamServerConfig: {
+		DisplayName: サーバー設定 (ホストのみ)
+		Headers.BeaconSettings: ビーコンの設定
+
+		BeaconRange: {
+			Label: ビーコンの保護範囲
+			Tooltip: ビーコンの効果が外側何マスまで及ぶか変更します
+		}
+	}
+
+	BeamClientConfig: {
+		DisplayName: クライアント設定 (個人)
+
+		Headers: {
+			VisualSettings: 表示設定
+			DeveloperSettings: 開発者向けの設定
+		}
+
+		ShowMapIcons: {
+			Label: マップにアイコンを表示
+			Tooltip: 全体マップに現在起動中のビーコンのアイコンを表示します
+		}
+
+		DebugMode: {
+			Label: デバッグモード
+			Tooltip: 自分宛てのレーザーの境界線とチャットメッセージを表示します
+		}
+	}
+}

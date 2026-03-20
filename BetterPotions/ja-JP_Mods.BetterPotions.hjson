@@ -1,0 +1,475 @@
+Buffs: {
+	BerserkerBuff: {
+		DisplayName: 狂戦士
+		Description: 近接ダメージが10%増加し、近接攻撃速度が10%上昇
+	}
+
+	DeterringBuff: {
+		DisplayName: 抑止
+		Description: 敵に狙われにくくなる
+	}
+
+	DazzlingFlamesBuff: {
+		DisplayName: 眩い炎
+		Description: あなたは眩い炎に包まれている！
+	}
+
+	DiscoInfernoBuff: {
+		DisplayName: 眩い炎
+		Description: 周囲の敵を眩い炎で燃やす
+	}
+
+	FlightBuff: {
+		DisplayName: 飛行
+		Description: 空を飛ぶことができる
+	}
+
+	HeightenedSensesBuff: {
+		DisplayName: 感覚強化
+		Description: 周囲の危険物と敵が光って見え、光源が明るく見える
+	}
+
+	ImmovableBuff: {
+		DisplayName: 不動
+		Description: ノックバックを無効化
+	}
+
+	InstigatingBuff: {
+		DisplayName: 煽動
+		Description: 敵に狙われやすくなる
+	}
+
+	LeapingBuff: {
+		DisplayName: 跳躍
+		Description: ジャンプ速度が50%増加し、自動ジャンプが可能となる
+	}
+
+	OrichalcumskinBuff: {
+		DisplayName: オリハルコンの肌
+		Description: 防御力が14増加
+	}
+
+	PiercingBuff: {
+		DisplayName: ピアシング
+		Description: 防御無視値が10増加
+	}
+
+	PredatorBuff: {
+		DisplayName: プレデター
+		Description: 遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
+	}
+
+	SteelfallBuff: {
+		DisplayName: スティールフォール
+		Description: 落下速度が上昇し、下入力でさらに早くなる
+	}
+
+	WarBuff: {
+		DisplayName: 戦争
+		Description: 敵の出現率と出現上限が400%上昇
+	}
+}
+
+Items: {
+	BerserkerPotion: {
+		DisplayName: 狂戦士のポーション
+		Tooltip: 近接ダメージが10%増加し、近接攻撃速度が10%上昇
+	}
+
+	DeterringPotion: {
+		DisplayName: 抑止のポーション
+		Tooltip: 敵に狙われにくくなる
+	}
+
+	DiscoInfernoPotion: {
+		DisplayName: 眩い炎のポーション
+		Tooltip:
+			'''
+			周囲の敵を眩い炎で燃やす
+			[i:InfernoPotion] 獄炎のポーションと併用できない
+			「燃えろ、燃えろ！」
+			'''
+	}
+
+	FlightPotion: {
+		DisplayName: 飛行のポーション
+		Tooltip: 空を飛ぶことができる
+	}
+
+	FlightPotionWings: {
+		DisplayName: 飛行のポーションの翼
+		Tooltip:
+			'''
+			飛行ポーションでカスタムウィングを作成するためのダミーアイテム
+			これを読んではいけない！
+			'''
+	}
+
+	GravePotion: {
+		DisplayName: 墓場のポーション
+		Tooltip: 最後に死亡したところにテレポートする
+	}
+
+	HeightenedSensesPotion: {
+		DisplayName: 感覚強化ポーション
+		Tooltip:
+			'''
+			周囲の危険物と敵が光って見え、光が明るく見える
+			[i:TrapsightPotion] 危険察知のポーション、[i:NightOwlPotion] 夜目のポーション、[i:HunterPotion] 狩人のポーションと併用できない
+			'''
+	}
+
+	ImmovablePotion: {
+		DisplayName: 不動のポーション
+		Tooltip: ノックバックを無効化
+	}
+
+	InstigatingPotion: {
+		DisplayName: 煽動のポーション
+		Tooltip: 敵に狙われやすくなる
+	}
+
+	LeapingPotion: {
+		DisplayName: 跳躍のポーション
+		Tooltip: ジャンプ速度が50%増加し、自動ジャンプが可能となる
+	}
+
+	OrichalcumskinPotion: {
+		DisplayName: オリハルコンの肌のポーション
+		Tooltip:
+			'''
+			防御力が14増加
+			[i:IronskinPotion] 鉄壁のポーションと併用できない
+			'''
+	}
+
+	PiercingPotion: {
+		DisplayName: ピアシングポーション
+		Tooltip: 防御無視値が10増加
+	}
+
+	SteelfallPotion: {
+		DisplayName: スティールフォールポーション
+		Tooltip:
+			'''
+			落下速度が上昇
+			下入力でさらに早くなる
+			'''
+	}
+
+	WarPotion: {
+		DisplayName: 戦争のポーション
+		Tooltip:
+			'''
+			敵の出現率と出現上限が400%上昇
+			[i:BattlePotion] 闘争のポーションと併用できない
+			'''
+	}
+
+	DecorativeHealingPotion: {
+		DisplayName: 装飾用のライフポーション
+		Tooltip: ""
+	}
+
+	DecorativeGreaterHealingPotion: {
+		DisplayName: 装飾用のグレートライフポーション
+		Tooltip: ""
+	}
+
+	DecorativeSuperHealingPotion: {
+		DisplayName: 装飾用のスーパーライフポーション
+		Tooltip: ""
+	}
+
+	DecorativeManaPotion: {
+		DisplayName: 装飾用のマナポーション
+		Tooltip: ""
+	}
+
+	DecorativeGreaterManaPotion: {
+		DisplayName: 装飾用のグレートマナポーション
+		Tooltip: ""
+	}
+
+	DecorativeSuperManaPotion: {
+		DisplayName: 装飾用のスーパーマナポーション
+		Tooltip: ""
+	}
+}
+
+VanillaChanges: {
+	AmmoReservationPotion: 50%の確率で弾薬を消費しない
+	BuffAmmoReservation: 50%の確率で弾薬を消費しない
+	ArcheryRename: プレデターポーション
+	ArcheryPotion: 遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
+	BuilderPotion: ブロックの設置範囲が3増加し、設置速度が50%上昇
+	BuffBuilder: Increased ブロックの設置範囲が3増加し、設置速度が50%上昇
+	ManaRegenerationPotion: 毎秒マナを4回復する
+	BuffManaRegeneration: 毎秒マナを4回復する
+	ObsidianSkinPotion: 炎のブロック、溶岩、呪炎、霊液に耐性が付く
+	BuffObsidianSkin: 炎のブロック、溶岩、呪炎、霊液を無効化する
+	SummoningPotion: 召喚できるミニオンとセントリーの数が1体増え、召喚ダメージが10%増加
+	BuffSummoning: 召喚できるミニオンとセントリーの数が1体増え、召喚ダメージが10%増加
+	BattlePotion: 敵の出現率と出現上限が100%上昇
+	BuffBattle: 敵の出現率と出現上限が100%上昇
+	CalmingPotion: 敵の出現率が17%低下し、出現上限が20%低下
+	BuffCalm: 敵の出現率が17%低下し、出現上限が20%低下
+	CratePotion: 箱を釣り上げる確率が10%上昇
+	BuffCrate: 箱を釣り上げる確率が10%上昇
+	TrapsightPotion: 周囲の危険物が光って見える
+	BuffDangersense: 周囲の危険物が光って見える
+	FeatherfallPotion:
+		'''
+		落下速度が遅くなる
+		上下入力で落下速度を調整できる
+		'''
+	BuffFeatherfall:
+		'''
+		落下速度が遅くなる
+		上下入力で落下速度を調整できる
+		'''
+	FishingPotion: フィッシング・パワーが15向上する
+	BuffFishing: フィッシング・パワーが15向上する
+	FlipperPotion: 水中で素早く泳げるようになる
+	BuffFlipper: 水中で素早く泳げるようになる
+	GillsPotion: 水中で呼吸できるようになる
+	BuffGills: 水中で呼吸できるようになる
+	GravitationPotion:
+		'''
+		重力を制御できる
+		上入力で重力が反転する
+		'''
+	BuffGravitation:
+		'''
+		重力を制御できる
+		上入力で重力が反転する
+		'''
+	InvisibilityPotion: 透明になり、敵の出現率が20%低下する
+	BuffInvisibility: 透明になり、敵の出現率が20%低下する
+	IronskinPotion: 防御力が8増加
+	BuffIronskin: 防御力が8増加
+	MagicPowerPotion: 魔法ダメージが20%増加
+	NightOwlPotion: 光が明るく見える
+	BuffNightOwl: 光が明るく見える
+	RegenerationPotion: ライフ自然回復を増進
+	BuffRegeneration: ライフ自然回復を増進
+	SwiftnessPotion: 移動速度が25%上昇
+	TitanPotion: ノックバックが50%増加
+	BuffTitan: ノックバックが50%増加
+	WarmthPotion: 冷気による被ダメージを30%軽減
+	BuffWarmth: 冷気による被ダメージを30%軽減
+	WaterWalkingPotion:
+		'''
+		液体の上を歩ける
+		下入力で水に潜る
+		'''
+	BuffWaterWalking:
+		'''
+		液体の上を歩ける
+		下入力で水に潜る
+		'''
+}
+
+Configs: {
+	BetterPotionsConfig: {
+		DisplayName: Better Potions設定
+
+		Headers: {
+			QualityOfLife: 遊びやすさ
+			VanillaPotionChanges: バニラのポーションの変更
+			ModdedPotions: このModの追加ポーション
+		}
+
+		PersistentBuffs: {
+			Label: "[i:1353] 死亡してもバフが残る"
+			Tooltip: 死亡しても、復活時にバフが再度付与される
+		}
+
+		PersistentBuffsPenalty: {
+			Label: "[i:216] 死亡時の持続時間のペナルティ"
+			Tooltip: 
+				'''
+				死亡時、バフの持続時間がどれだけ減少するか変更します
+				0は持続時間が減少せず、1はバフが解除されます
+				'''
+		}
+
+		PotionsLastTenMinutes: {
+			Label: "[i:17] ポーションは10分間持続する"
+			Tooltip: 
+				'''
+				ほとんどのポーションの持続時間を10分に延長します
+				10分以上持続するものと効果が持続時間に依存するものは変更されません
+				'''
+		}
+
+		TenMinutePotionsBlacklist: {
+			Label: "[i:4084] 10分ポーションのブラックリスト"
+			Tooltip: このリストに追加されたポーションは持続時間が10分に延長されなくなります
+		}
+
+		PotionsAndBuffsImprovedTooltips: {
+			Label: "[i:531] ポーションとバフの説明文を改善"
+			Tooltip: 一部のポーションとバフの説明をより分かりやすく、一貫性のある表現に変更します
+		}
+
+		PotionChanges_AmmoReservation: {
+			Label: "[i:2344] 弾薬節約ポーションの変更"
+			Tooltip: 弾薬を消費しない確率が50%に増加します (前は20%)
+		}
+
+		PotionChanges_Archery: {
+			Label: "[i:303] 弓使いのポーションの変更"
+			Tooltip: 
+				'''
+				名称が「プレデターポーション」に変更され、
+				効果が既存のものから変更され、遠距離ダメージが10%増加し、
+				遠距離クリティカル率が10%上昇するようになります
+				'''
+		}
+
+		PotionChanges_Builder: {
+			Label: "[i:2325] 建築のポーションの変更"
+			Tooltip:
+				'''
+				ブロックの設置範囲の増加量が3に増加し、(前は1%)
+				設置速度の上昇量が50%に上昇します (前は25%)
+				'''
+		}
+
+		PotionChanges_ManaRegen: {
+			Label: "[i:293] マナ自然回復ポーションの変更"
+			Tooltip: 効果が既存のものから変更され、魔法武器を使用中もマナが毎秒4回復するようになります
+		}
+
+		PotionChanges_ObsidianSkin: {
+			Label: "[i:288] 黒曜石の肌のポーションの変更"
+			Tooltip: 呪炎と霊液も無効化できるようになります
+		}
+
+		PotionChanges_Summoning: {
+			Label: "[i:2328] 召喚のポーションの変更"
+			Tooltip: 既存の効果に加え、召喚できるセントリーの数が1体増え、召喚ダメージが10%増加するようになります
+		}
+
+		PotionsAdded_Grave: {
+			Label: "[i:BetterPotions/GravePotion] 墓場のポーションを有効にする"
+			Tooltip:
+				'''
+				最後に死亡した場所にテレポートします
+				瓶詰めの水、鏡面魚、デスウィードで作成できます
+				'''
+		}
+
+		PotionsAdded_War: {
+			Label: "[i:BetterPotions/WarPotion] 戦争のポーションを有効にする"
+			Tooltip:
+				'''
+				敵の出現率と出現上限が400%上昇します
+				瓶詰めの水、恐怖のソウル、プリンクルート、シバーソーンで作成できます
+				闘争のポーションとは併用できません
+				'''
+		}
+
+		PotionsAdded_Instigating: {
+			Label: "[i:BetterPotions/InstigatingPotion] 煽動のポーションを有効にする"
+			Tooltip:
+				'''
+				敵に狙われやすくなります
+				瓶詰めの水、組織サンプル、デスウィードで作成できます
+				'''
+		}
+
+		PotionsAdded_Deterring: {
+			Label: "[i:BetterPotions/DeterringPotion] 抑止のポーションを有効にする"
+			Tooltip:
+				'''
+				敵に狙われにくくなります
+				瓶詰めの水、シャドウスケール、デスウィードで作成できます
+				'''
+		}
+
+		PotionsAdded_DiscoInferno: {
+			Label: "[i:BetterPotions/DiscoInfernoPotion] 眩い炎のポーションを有効にする"
+			Tooltip:
+				'''
+				周囲の敵を眩い炎で燃やします
+				瓶詰めの水、クリスタルの破片、炎ヒレのコイ、ファイアブロッサムで作成できます
+				獄炎のポーションとは併用できません
+				'''
+		}
+
+		PotionsAdded_Orichalcumskin: {
+			Label: "[i:BetterPotions/OrichalcumskinPotion] オリハルコンの肌のポーションを有効にする"
+			Tooltip:
+				'''
+				防御力が14増加します
+				瓶詰めの水、デイブルーム、ミスリル/オリハルコン鉱石で作成できます
+				鉄壁のポーションとは併用できません
+				'''
+		}
+
+		PotionsAdded_Berserker: {
+			Label: "[i:BetterPotions/BerserkerPotion] 狂戦士のポーションを有効にする"
+			Tooltip:
+				'''
+				近接ダメージが10%増加し、近接攻撃速度が10%上昇します
+				瓶詰めの水、腐った肉/脊椎、シバーソーン、ファイアブロッサムで作成できます
+				'''
+		}
+
+		PotionsAdded_Piercing: {
+			Label: "[i:BetterPotions/PiercingPotion] ピアシングポーションを有効にする"
+			Tooltip:
+				'''
+				敵の防御力を10無視するようになります
+				瓶詰めの水、デモナイト/クリムタン鉱石、デスウィードで作成できます
+				'''
+		}
+
+		PotionsAdded_Leaping: {
+			Label: "[i:BetterPotions/LeapingPotion] 跳躍のポーションを有効にする"
+			Tooltip:
+				'''
+				ジャンプ速度が50%増加し、自動ジャンプができるようになります
+				瓶詰めの水、雲、プリンクルート、ウォータリーフで作成できます
+				'''
+		}
+
+		PotionsAdded_Steelfall: {
+			Label: "[i:BetterPotions/SteelfallPotion] スティールフォールポーションを有効にする"
+			Tooltip:
+				'''
+				落下速度が上昇し、下入力でさらに早くなります
+				瓶詰めの水、デイブルーム、ブリンクルート、鉄/鉛のインゴットで作成できます
+				'''
+		}
+
+		PotionsAdded_HeightenedSenses: {
+			Label: "[i:BetterPotions/HeightenedSensesPotion] 感覚強化ポーションを有効にする"
+			Tooltip:
+				'''
+				周囲の危険物と敵が光って見え、光が明るく見えるようになります
+				瓶詰めの水、視覚のソウル、デイブルーム、ブリンクルートで作成できます
+				'''
+		}
+
+		PotionsAdded_Immovable: {
+			Label: "[i:BetterPotions/ImmovablePotion] 不動のポーションを有効にする"
+			Tooltip:
+				'''
+				ノックバックを無効化します 
+				瓶詰めの水、力のソウル、シバーソーン、ムーングロウで作成できます
+				'''
+		}
+
+		PotionsAdded_Flight: {
+			Label: "[i:BetterPotions/FlightPotion] 飛行のポーションを有効にする"
+			Tooltip:
+				'''
+				空を飛ぶことができます
+				瓶詰めの水、翼のソウル、羽根、デイブルームで作成できます
+				'''
+		}
+	}
+}

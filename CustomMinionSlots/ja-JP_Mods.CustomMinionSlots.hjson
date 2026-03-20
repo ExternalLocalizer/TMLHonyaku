@@ -1,0 +1,92 @@
+Configs: {
+	CustomMinionSlotsConfig: {
+		FasterSummoning: {
+			Label: 素早い召喚
+			Tooltip: 召喚武器の使用速度を短縮し、より高速で召喚することができるようになります
+		}
+
+		UIPositionY: {
+			Label: UIの縦位置
+			Tooltip: ミニオンスロットUIの縦位置を設定します。ピクセル単位で値を入力してください
+		}
+
+		UIPositionX: {
+			Label: UIの横位置
+			Tooltip: ミニオンスロットUIの横位置を設定します。ピクセル単位で値を入力してください
+		}
+
+		ShowMinionUI: {
+			Label: ミニオンスロットUIを表示する
+			Tooltip: ミニオンスロットUIを表示するかしないか設定します
+		}
+
+		MinionSlotLimit: {
+			Label: ミニオンのスロット数
+			Tooltip: ミニオンの数の上限を設定します
+			
+		}
+
+		DisplayName: Custom Minion Slots設定
+	}
+
+	Config: {
+		UIPositionX: {
+			Label: UIの横位置
+			Tooltip: ミニオンスロットUIの横位置を設定します。ピクセル単位で値を入力してください
+		}
+
+		ShowMinionUI: {
+			Label: ミニオンスロットUIを表示する
+			Tooltip: ミニオンスロットUIを表示するかしないか設定します
+		}
+
+		MinionSlotLimit: {
+			Label: ミニオンのスロット数
+			Tooltip: ミニオンの数の上限を設定します
+		}
+
+		DisplayName: 設定
+
+		UIPositionY: {
+			Label: UIの縦位置
+			Tooltip: ミニオンスロットUIの縦位置を設定します。ピクセル単位で値を入力してください
+		}
+
+		FasterSummoning: {
+			Label: 素早い召喚
+			Tooltip: 召喚武器の使用速度を短縮し、より高速で召喚することができるようになります
+		}
+
+		MinionUIBaseColor: {
+			Label: ミニオンスロットUIのカラー
+			Tooltip: ミニオンスロットUIの色を変更します
+		}
+
+		EnableBiomeBasedColor: {
+			Label: バイオームによってUIのカラーが変わる
+			Tooltip: プレイヤーがいるバイオームに基づいて、ミニオンスロットUIの色を変更しま
+		}
+
+		EnableUIDragging: {
+			Label: UIのドラッグを有効にする
+			Tooltip: UIをドラッグで動かせるか動かせないか設定します
+		}
+
+		UIScale: {
+			Label: UIの大きさ
+			Tooltip: UIの大きさを変更します
+		}
+
+		ResetUIScaleFlag: {
+			Label: UIの大きさをリセット
+			Tooltip: UIの大きさをデフォルトに戻すには、これをオンにしてください
+		}
+	}
+
+	Headers: {
+		GeneralSettings: 一般設定
+		UIPosition: UI位置
+		AppearanceSettings: 外観設定
+		GameplayEnhancements: ゲームプレイの強化
+	}
+}
