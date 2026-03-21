@@ -1,0 +1,128 @@
+Configs: {
+	ClientConfiguration: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			Graphics: グラフィック設定
+			Input: 操作設定
+			Audio: サウンド設定
+		}
+
+		HoveredItemScale: {
+			Label: カーソル時のアイテムサイズ
+			Tooltip: アイテムにカーソルを合わせた際のサイズ倍率を調整します
+		}
+
+		UnhoveredItemScale: {
+			Label: カーソル外のアイテムサイズ
+			Tooltip: アイテムにカーソルを合わせていない際のサイズ倍率を調整します
+		}
+
+		EnableHoverEffects: {
+			Label: ホバーエフェクトを有効化
+			Tooltip: アイテムにカーソルを合わせる/合わせないときのエフェクトを切り替えます
+		}
+
+		EnableMouseEffects: {
+			Label: マウスエフェクトを有効化
+			Tooltip: カーソル選択中のアイテムエフェクトを切り替えます
+		}
+
+		EnableSelectedEffects: {
+			Label: ホットバー選択エフェクトを有効化
+			Tooltip: ホットバーで選択中のアイテムへのエフェクトを切り替えます
+		}
+
+		EnableDistribution: {
+			Label: アイテム分配機能を有効化
+			Tooltip: インベントリ管理時にアイテムを自動的に分配する機能を切り替えます
+		}
+
+		EnableMovementEffects: {
+			Label: 移動エフェクトを有効化
+			Tooltip: インベントリ内でアイテムを移動した際のエフェクトを切り替えます
+		}
+
+		EnableQuickShift: {
+			Label: クイックシフトを有効化
+			Tooltip: インベントリと収納スロット間でのアイテムの高速移動を切り替えます
+		}
+
+		EnableQuickControl: {
+			Label: クイック操作を有効化
+			Tooltip: より効率的なインベントリ管理のためのクイック操作を切り替えます
+		}
+
+		EnableStackRefill: {
+			Label: 自動スタック補充を有効化
+			Tooltip: ホットバーのアイテムがなくなった際、インベントリから自動で補充する機能を切り替えます
+		}
+
+		EnableInventorySounds: {
+			Label: インベントリ効果音を有効化
+			Tooltip: インベントリ操作時の効果音を切り替えます
+		}
+
+		EnableMouseRefill: {
+			Label: カーソル補充を有効化
+			Tooltip: カーソルで保持しているアイテムをインベントリのスタックから自動補充する機能を切り替えます
+		}
+
+		StackType: {
+			Label: スタック分割タイプ
+			Tooltip:
+				'''
+				スタック分割時に取り出すアイテム数を設定します：
+				- デフォルト：スタックから1個取り出す
+				- 半分：スタックの半分を取り出す
+				- 全て：スタック内の全てのアイテムを取り出す
+				'''
+		}
+
+		SortType: {
+			Label: 並び替え方式
+			Tooltip:
+				'''
+				スタック補充時に優先されるアイテムスタック順を設定します：
+				- 昇順：スタック数が少ないアイテムを優先
+				- 降順：スタック数が多いアイテムを優先
+				'''
+		}
+	}
+
+	StackType: {
+		Tooltip: スタック分割の動作を設定します
+		Default.Label: デフォルト
+
+		Half: {
+			Label: 半分
+			Tooltip: ""
+		}
+
+		Full: {
+			Label: 全て
+			Tooltip: ""
+		}
+
+		Single: {
+			Label: 1個
+			Tooltip: ""
+		}
+	}
+
+	SortType: {
+		Tooltip: 補充時のスタック優先順位を設定します
+
+		Ascending: {
+			Label: 昇順
+			Tooltip: ""
+		}
+
+		Descending: {
+			Label: 降順
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds.Keybind.DisplayName: カーソル補充
