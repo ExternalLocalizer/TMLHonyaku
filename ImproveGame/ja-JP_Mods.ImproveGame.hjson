@@ -9,7 +9,7 @@ Other: {
 		Autofisher.MapEntry: 自動釣り機
 		ExtremeStorage.MapEntry: ストレージマネージャー
 		BaitSupplier.MapEntry: 餌チェンバー
-		FakeAltar.MapEntry: フェイクアルター
+		FakeAltar.MapEntry: 偽のアルター
 	}
 
 	MoonPhases: {
@@ -59,7 +59,7 @@ Other: {
 
 CombatText: {
 	Item: {
-		CreateWand_NotEnough: 材料が不足しています！
+		CreateWand_NotEnough: 素材が不足しています！
 		SpaceWand_Cancel: キャンセルしました！
 		SpaceWand_Lack: 足場が不足しています！
 		WallPlace_Limit: この範囲は大きすぎます！
@@ -68,7 +68,7 @@ CombatText: {
 	}
 
 	Projectile: {
-		PlaceWall_Lack: 壁が不足しているため配置を中止
+		PlaceWall_Lack: 壁が不足しているため配置を中止しました
 	}
 
 	Commonds: {
@@ -77,7 +77,7 @@ CombatText: {
 }
 
 AutoSummon: {
-	Set: 自動再召喚の項目を{0}に設定しました
+	Set: 自動再召喚するアイテムを{0}に設定しました
 	Summoned: "{1}を使用して{0}回再召喚しました"
 }
 
@@ -91,7 +91,7 @@ Tips: {
 	AmmoChain: "[centeritem:ImproveGame/AmmoChainItem] 弾薬チェーン: "
 	ShimmerInto: "シマーに入れると: "
 	ShimmerIntoWithStack: シマーに{0}個入れると:
-	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に運が{0}増加
+	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に運が{0}増加する
 	PrefixCount: "リフォージカウント: "
 	AnglerQuest: 釣り人のクエストがリフレッシュされました
 	FromMod: 【{DisplayName}】
@@ -125,7 +125,7 @@ Tips: {
 	BannerChestUseless: 「携帯バナー」がオンになっていないと、中のバナーは機能しません
 
 	Tag: {
-		ShiftEnable: "[[c/88CCEE:Shift] で詳細を表示]"
+		ShiftEnable: "[[c/88CCEE:Shift]で詳細を表示]"
 	}
 
 	TagDetailed: {
@@ -158,21 +158,21 @@ Tips: {
 			'''
 		Enabled:
 			'''
-			バフ [c/88CCEE:[{BuffName}][c/88CCEE:]] はすでに適用されています
-			このアイテムのバフを無効化したい場合は、このアイテムをミドルクリックするか、  
+			バフ[c/88CCEE:[{BuffName}][c/88CCEE:]]はすでに適用されています
+			このアイテムのバフを無効化したい場合は、このアイテムを中クリックするか、  
 			バフアイコンを左クリックしてバフトラッカーを開き、バフを有効/無効にしてください
 			'''
 		Disabled:
 			'''
-			設定により、アイテムのバフ [c/88CCEE:[{BuffName}][c/88CCEE:]] は無効になりました
-			このアイテムをミドルクリックするか、バフアイコンを左クリックして  
+			設定により、アイテムのバフ[c/88CCEE:[{BuffName}][c/88CCEE:]]は無効になりました
+			このアイテムを中クリックするか、バフアイコンを左クリックして  
 			バフトラッカーを開き、バフを有効/無効にしてください
 			'''
 		Hided:
 			'''
 			バフアイコンは非表示になっています
 			表示させるには、[c/CC88AA:個人設定]で「無限ポーションのバフアイコンを隠す」をオフにしてください
-						'''
+			'''
 		NonHided: 無限バフアイコンを非表示にしたい場合は、[c/CC88AA:個人設定]を変更してください
 		AutoCollect:
 		'''
@@ -263,9 +263,9 @@ ConstructGUI: {
 	}
 
 	MaterialInfo: {
-		Title: 材料情報
+		Title: 素材情報
 		Tip: 巨大リュックに保管されている素材もカウントされる
-		Stored: Has: {Stack}
+		Stored: 保管: {Stack}
 		Requirement: 必要: {Stack}
 		
 	}
@@ -280,10 +280,10 @@ ConstructGUI: {
 		Button: はじめに
 
 		AlphaTest: {
-			Count: "4"
-			1: ベータテスト機能
-			2: このModのSteamワークショップページでバグを報告してください
-			3: Modのブロックや壁のサポートは保証されません
+			Count: "3"
+			1: このModのSteamワークショップページでバグを報告してください
+			2: Modのブロックや壁のサポートは保証されません
+			3: バグとみなされるべきではありません
 		}
 
 		Save: {
@@ -325,7 +325,7 @@ ConstructGUI: {
 
 		Materials: {
 			Title: 素材情報
-			Text: 必要な素材と保管されている材料は、素材情報で確認できます
+			Text: 必要な素材と保管されている素材は、素材情報で確認できます
 		}
 
 		Preview: {
@@ -372,9 +372,9 @@ LifeAnalyzer: {
 }
 
 Architecture: {
-	Materials: 家の建材
+	Materials: 家の素材
 	StoredMaterials: (保管済: {MaterialCount})
-	MaterialsRequired: "必要な建材: "
+	MaterialsRequired: "必要な素材: "
 	Block: ブロック
 	Platform: 足場
 	Torch: たいまつ
@@ -427,7 +427,7 @@ PackageGUI: {
 }
 
 Common: {
-	Loading: ロード中...
+	Loading: 読み込み中...
 	Refresh: 入れ替え
 	Switch: 切り替え
 	Unavailable: 有効ではありません
@@ -522,7 +522,7 @@ Keybinds: {
 
 	ExtremeStorageSearch: {
 		DisplayName: ストレージマネージャの検索
-		Tip: ストレージマネージャーが開いているときに、任意の項目にマウスを移動してこのキーを押して、項目を検索します
+		Tip: ストレージマネージャーが開いているときに、任意のアイテムにマウスを移動してこのキーを押して、アイテムを検索します
 	}
 }
 
@@ -615,8 +615,8 @@ Items: {
 		DisplayName: 建築の杖
 		Tooltip:
 			'''
-			保管されている素材を使って家を建てる
-			保管されている素材がない場合は、インベントリにある素材を使用する
+			保管している素材を使って家を建てる
+			保管している素材がない場合は、インベントリにある素材を使用する
 			十分な素材がないと、不完全な家になる
 			<right>で、素材保管庫と家の種類の切り替えパネルを開く
 			[c/ff0000:廃棄された場合、中の保管物は返却されません！] 
@@ -645,7 +645,7 @@ Items: {
 			<right>で液体コントロールパネルを開く
 			吸収モード： 選択した範囲内の選択した液体を吸収する
 			配置モード： 選択した範囲を選択した液体で満たす
-			液体が多すぎても少なすぎても、余分な液体は吸収、設置されない
+			液体が多すぎても少なすぎても、余分な液体は吸収/設置されない
 			'''
 	}
 
@@ -660,7 +660,7 @@ Items: {
 			拾ったポーションが自動的に回収される
 			200スタックのポーションを保管できる
 			'''
-		TooltipByKeybind: "[c/0099ff:{KeybindName}]を押して携帯ストレージからポーションを集める"
+		TooltipByKeybind: "[c/0099ff:{KeybindName}]で携帯ストレージからポーションを集める"
 	}
 
 	BannerChest: {
@@ -674,27 +674,25 @@ Items: {
 			拾ったバナーが自動的に回収される
 			500スタックのバナーを保管できる
 		'''
-		TooltipByKeybind: "[c/0099ff:{KeybindName}]を押して携帯ストレージからバナーを集める"
+		TooltipByKeybind: "[c/0099ff:{KeybindName}]で携帯ストレージからバナーを集める"
 	}
 
 	Autofisher: {
 		DisplayName: 自動釣り機
 		Tooltip:
 			'''
-			配置された釣り機を右クリックしてフィッシングパネルを開く
-			上の"+"をクリックして水の種類を選択し、
-			釣り竿とルアーを入れると稼働させることができる
+			配置した釣り機を右クリックでフィッシングパネルを開く
+			上の"+"をクリックして水の種類を選択し、釣り竿とルアーを入れると稼働する
 			仕組みはプレイヤーが釣りをするときと同じ
 			フィッシング・パワーを増加させたり、溶岩で釣りをする能力を付与するアクセサリーを付けることもできる
 			餌の消費量は手動釣りの40%
-			初期の釣り速度は手動釣り速度の30％で、釣りをスピードアップさせることができる
+			初期の釣り速度は手動釣り速度の30％だが、様々な方法で上昇させることができる
 			- [i:Bass] バス1匹につき、釣り速度が5%上昇し、最大で500%上昇 ([i/s100:Bass])
 			- [i:AnglerEarring] 、[i:AnglerTackleBag] 、[i:LavaproofTackleBag] はそれぞれ釣り速度を200%、250%、300%上昇させる
 			- ハードモードでは釣り速度が200%上昇
-			- 最終速度は基本速度×全てのボーナスの合計で、最大速度は手動釣りの300%
+			- 最終速度は基本速度×全てのボーナスの合計で、最大速度は手動釣りの300%まで
 			[c/AAAAAA:Quality of Terrariaに対応するModアクセサリも使用可能]
-			ほとんどのMod追加バイオームに対応
-			釣る対象をフィルタリングできる
+			ほとんどのMod追加バイオームに対応し、釣る対象をフィルタリングできる
 			'''
 		Tip: "[c/15d36a:{0}, {1}]の釣り機には餌がありません"
 		DepthText: "{0} {1}"
@@ -717,8 +715,8 @@ Items: {
 			'''
 			[c/0099ff:<right> で建設パネルを開く]
 			自由に構造物を配置できる
-			記録モード - 選択した構造をファイルとして保存する
-			配置モード - 材料が十分にあると構造物を配置する
+			記録モード - 選択した建設物をファイルとして保存する
+			配置モード - 素材が十分にあるなら構造物を配置する
 			液体は記録されない
 			ワイヤーはプレビューでは表示されないが、記録され、配置される
 			詳細は右上のはじめにをクリック
@@ -827,9 +825,9 @@ Items: {
 		Tooltip:
 			'''
 			[c/ff0000:開発者用アイテム]
-			インベントリにあると、工事の杖は素材を消費しない（シングルプレイヤーでのみ機能する）
+			インベントリにあると、工事の杖が素材を消費しない（シングルプレイヤーでのみ機能する）
 			釣り機を開くと、自動的に釣り道具が補充される
-			釣り機のスロットに配置すると、釣りの速度を大幅に上昇させる
+			釣り機のスロットに配置すると、釣りの速度が大幅に上昇する
 			'''
 	}
 
@@ -875,7 +873,7 @@ Items: {
 			/help dummy → ダミーの使用状況を表示
 			「叩かないで :)」
 			'''
-		ConfigUIOpenTip: これを選択中に{0}を押すと設定パネルが表示される
+		ConfigUIOpenTip: これを選択中に{0}で設定パネルが表示される
 		NoneKeyBind: "<None>"
 		CannotUse: マルチプレイでは動作しません
 	}
@@ -917,7 +915,7 @@ Items: {
 		DisplayName: 餌チェンバー
 		Tooltip:
 			'''
-			近くに置かれた宝箱から自動的に餌を取り出し、
+			近くに置いた宝箱から自動的に餌を取り出し、
 			ワールド中の釣り機に餌を補充する
 			'''
 	}
@@ -1043,7 +1041,7 @@ MasterControl: {
 	}
 
 	ItemSearcher: {
-		Description: 個人倉庫や近くの宝箱からアイテムを探す
+		Description: 個人ストレージや近くの宝箱からアイテムを探す
 		DisplayName: アイテム検索
 	}
 
@@ -1101,12 +1099,12 @@ NPC: {
 	NoTileCollide: ブロックの衝突を無効にする
 	KnockBackResist: ノックバック耐性、0はノックバックを受けない
 	AIStyle: AIのスタイル、UIでこのオプションを変更
-	Dummy_Damage: Damage: {S}/秒, {F}/ティック
-	Dummy_Time: Duration: 効果時間： {S} 秒, {F} ティック
+	Dummy_Damage: Damage: {S}/秒、 {F}/ティック
+	Dummy_Time: Duration: 効果時間： {S} 秒、 {F} ティック
 	Dummy_FinalBlow: 最後の攻撃： {FinalBlow}
 	DummyCommand_DummyAttributes: ダミーステータス
 	DummyCommand_Usage: 使用量: /dummy <attribute> <value> (大文字小文字を区別しない)
-	DummyCommand_Description: チャットコマンド '/dummy info' は、利用可能な属性とそのタイプ、現在の値を出力します
+	DummyCommand_Description: チャットコマンド 「/dummy info」 は、利用可能な属性とそのタイプ、現在の値を出力します
 	DummyCommand_Success: 変更が成功しました: {name} {args}！
 	DummyCommand_Fail: 変更が失敗しました ({input})！
 	DummyCommand_Invalid: 無効なコマンド ( {input} )！
@@ -1271,7 +1269,7 @@ ExtremeStorage: {
 		Label: クラフトにカウント
 		Tooltip:
 			'''
-			選択したカテゴリ内のアイテムが [c/CC88AA: クラフトでカウントされるかどうか] を制御します
+			選択したカテゴリ内のアイテムが[c/CC88AA: クラフトでカウントされるかどうか]を制御します
 			開いている宝箱内のアイテムは引き続き使用可能です
 			カテゴリ内のアイテムが多すぎるとパフォーマンス問題を引き起こす可能性があります。
 			低スペックPCでは注意してください
@@ -1282,8 +1280,8 @@ ExtremeStorage: {
 		Label: 無限ポーション
 		Tooltip:
 			'''
-			[c/CC88AA: ポーション] 内のポーションやバフステーションを
-			[c/CC88AA:無限ポーション] として使用できるかどうかを制御します
+			[c/CC88AA:ポーション]内のポーションやバフステーションを
+			[c/CC88AA:無限ポーション]として使用できるかどうかを制御します
 			Mod設定で「無限ポーション」をオンにする必要があります
 			'''
 	}
@@ -1292,7 +1290,7 @@ ExtremeStorage: {
 		Label: 携帯作業台
 		Tooltip:
 			'''
-			[c/CC88AA: 家具]内の作業台を
+			[c/CC88AA:家具]内の作業台を
 			[c/CC88AA:携帯作業台]として使用できるかどうかを制御します
 			Mod設定で「携帯作業台」をオンにする必要があります
 			'''
@@ -1302,7 +1300,7 @@ ExtremeStorage: {
 		Label: 携帯バナー
 		Tooltip:
 			'''
-			[c/CC88AA: 家具] 内のバナーを
+			[c/CC88AA:家具]内のバナーを
 			[c/CC88AA:携帯バナー]として使用できるかどうかを制御します
 			Mod設定で「携帯バナー」をオンにする必要があります
 			'''
@@ -1400,10 +1398,10 @@ ExtremeStorage: {
 AutoTrash: {
 	Introduction:
 		'''
-		[c/CC88AA:自動ゴミ箱]  (Quality of Terraria)
+		[c/CC88AA:自動ゴミ箱] (Quality of Terraria)
 		すでにゴミ箱内にあるタイプのアイテムは自動的に破棄されます
 		破棄されたアイテムは最大6個まで保管されます
-		Shift+Ctrl+ <left> でアイテムをゴミ箱に移動します
+		Shift+Ctrl+<left>でアイテムをゴミ箱に移動します
 		UIを非表示にするには[c/CC88AA:{0}]を押してください
 		このボタンを押すと自動ゴミ箱リストが表示されます
 		'''
@@ -1522,7 +1520,7 @@ QuickShimmer: {
 	Open: 変化させる
 	Stop: 停止
 	EmptyText: シマー変化中...
-	NotFullyDisplayed: 他に {0} アイテムが現在非表示です
+	NotFullyDisplayed: 他に{0}アイテムが現在非表示です
 	CoinLuck: コインが{0}運に変換されました
 	AlreadyUnlocked: クイックシマーはこのワールドですでに使用できます
 	Unlocked: クイックシマーが使用可能になりました！ コントロールパネルから開いてください

@@ -38,7 +38,7 @@ ImproveConfigs: {
 		Label: "[centeritem:4131] 個人ストレージのオート回収"
 		Tooltip:
 			'''
-			プレイヤーのインベントリがいっぱいになった後、他の個人ストレージが自動的に収集したアイテムを保管できるようにします
+			プレイヤーのインベントリがいっぱいになった後、他の個人ストレージが自動的に回収したアイテムを保管できるようにします
 			優先順位 豚の貯金箱 → 金庫 → ディフェンダーの炉 → 虚空の金庫
 			'''
 	}
@@ -91,7 +91,7 @@ ImproveConfigs: {
 		Label: "[centeritem:WorkBench] 携帯作業台"
 		Tooltip:
 			'''
-			インベントリや個人ストレージにある作業台は、配置されたように機能します
+			インベントリや個人ストレージにある作業台は、配置されたように機能し、
 			配置する必要はありません
 			例：インベントリにかまどがあるので、どこでも鉱石をインゴットに加工できます
 			水入りバケツは水源とみなされ、溶岩入りバケツや蜂蜜入りバケツも同様です
@@ -154,32 +154,32 @@ ImproveConfigs: {
 	}
 
 	BOSSBattleResurrectionTimeShortened: {
-		Label: "[centeritem:3232] ボス戦闘中のリスポーンの高速化"
+		Label: "[centeritem:3232] ボス戦闘中でもリスポーンが高速化"
 		Tooltip: ""
 	}
 
 	MiddleEnableBank: {
-		Label: "[centeritem:87] ミドルクリックで個人ストレージを開く"
+		Label: "[centeritem:87] 中クリックで個人ストレージを開く"
 		Tooltip:
 			'''
-			インベントリ内のアイテムをミドルクリックしたとき
+			インベントリ内のアイテムを中クリックしたとき
 			対応するインベントリを開きます
 			個人ストレージの距離制限もなくなります
 			'''
 	}
 
 	BanTombstone: {
-		Label: "[centeritem:3230] 死亡時の墓石の生成を無効化"
+		Label: "[centeritem:3230] 死亡時に墓石を生成しない"
 		Tooltip: ""
 	}
 
 	FasterExtractinator: {
-		Label: "[centeritem:ChlorophyteExtractinator] 取り出し機の高速化"
+		Label: "[centeritem:ChlorophyteExtractinator] 取り出し機を高速化"
 		Tooltip: 取り出し機の抽出速度が大幅に上昇します
 	}
 
 	TownNPCGetTFIntoHouse: {
-		Label: "[centeritem:MusicBoxTownDay] タウンNPCの出現メカニズムを改善"
+		Label: "[centeritem:MusicBoxTownDay] タウンNPCの出現システムを改善"
 		Tooltip:
 			'''
 			これがオンだと
@@ -238,7 +238,7 @@ ImproveConfigs: {
 
 	TravellingMerchantRefresh: {
 		Label: "[centeritem:PeddlersSatchel] 旅商人の店をリフレッシュ"
-		Tooltip: 旅商人にリフレッシュボタンを追加し、手動で商品をリフレッシュすることができます
+		Tooltip: 旅商人にリフレッシュボタンが追加され、手動で商品をリフレッシュすることができます
 	}
 
 	QuickNurse: {
@@ -252,14 +252,14 @@ ImproveConfigs: {
 
 	BestiaryQuickUnlock: {
 		Label: "[centeritem:DontHurtCrittersBook] 教訓"
-		Tooltip: 生物の図鑑のロックが解除されているなら、その生物の図鑑の説明文などのロックが撃破数に関係なく解除されるようになります
+		Tooltip: 生物図鑑のロックが解除されているなら、その生物図鑑の説明文などのロックが撃破数に関係なく解除されるようになります
 	}
 
 	BannerRequirement: {
 		Label: "[centeritem:2990] バナー入手までの撃破数"
 		Tooltip:
 			'''
-			バナー入手までの撃破数を変更し、倍率が小さいほど少ない撃破数でバナーを入手できます
+			バナー入手するまでの撃破数を変更し、倍率が小さいほど少ない撃破数でバナーを入手できます
 			参考までに、倍率が0.1(10%)に設定されている場合、ブルースライムを5匹倒すと、50匹倒さなくても、ブルースライムバナーが1枚入手できます
 			倍率が10(1000%)に設定されている場合、ブルースライムを500匹倒すと、ブルースライムバナーが1枚入手できます
 			'''
@@ -575,7 +575,7 @@ ImproveConfigs: {
 			ハウジングボタンを右クリックすると、全てのタウンNPCが家にテレポートします
 			タウンNPCの家が変わると、その家にテレポートします
 			'''
-		HoverText: (<right> でタウンNPCを家にテレポート)
+		HoverText: (<right>でタウンNPCを家にテレポートさせる)
 	}
 
 	NoLakeSizePenalty: {
@@ -641,7 +641,7 @@ ImproveConfigs: {
 		Label: "[centeritem:TNTBarrel] 爆弾ダメージの無効化"
 		Tooltip:
 			'''
-			ブロックを破壊するアイテムのダメージを無効にします
+			ブロックを破壊するアイテムのダメージを無効化します
 			ブロックを破壊する爆発物のみに影響します
 			手榴弾やブロックを壊さないロケット弾などは影響を受けません
 			'''
@@ -664,7 +664,7 @@ ImproveConfigs: {
 
 	BedEverywhere: {
 		Label: "[centeritem:Bed] 無制限のベッドリスポーン"
-		Tooltip: ベッドはハウジングの条件に関係なく、どんな状態でもリスポーンポイントを設定できます
+		Tooltip: ベッドがハウジングの条件に関係なく、どんな状態でもリスポーンポイントを設定できるようになります
 	}
 
 	MinimapMark: {
@@ -685,8 +685,8 @@ ImproveConfigs: {
 		Label: "[centeritem:LifeCrystal] NPCの幸福度 (%)"
 		Tooltip:
 			'''
-			設定値が小さいほど、NPCからアイテムを安く買うことができます
-			そして、NPCに売るアイテムの値段が高くなります
+			設定値が小さいほど、NPCからアイテムを安く買うことができ、
+			NPCにアイテムを高く売ることができます
 			90以下だとNPCからパイロンを買えます
 			'''
 	}
@@ -703,7 +703,7 @@ ImproveConfigs: {
 
 	BedOnlyOne: {
 		Label: "[centeritem:Bed] 孤独な睡眠"
-		Tooltip: マルチプレイでは眠っているプレイヤーが1人いれば時間を進めることができます
+		Tooltip: マルチプレイでは眠っているプレイヤーが1人でもいれば時間を進めることができます
 	}
 
 	WandMaterialNoConsume: {

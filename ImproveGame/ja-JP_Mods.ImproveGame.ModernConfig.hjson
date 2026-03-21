@@ -4,17 +4,17 @@
 	ButtonApply: プリセットを適用する
 	ButtonInfo: 詳細情報
 	ButtonDelete: プリセットの削除
-	ButtonRename: 名前変更
+	ButtonRename: 名前の変更
 	ReadOnlyTip: このオプションの値のみを取得できます
 	ColorCopiedPopup: 16進コードをコピーしました！
 	ColorPastedPopup: 16進コードを貼り付けました！
 	ColorButtonTip: カラーブロックを左クリックで16進コードをコピーし、右クリックで貼り付けます
 	ModdedExtraText: "{0}の設定を編集中。このページはQuality of Terrariaが提供しています"
-	CollectionsTip: 表示サイズはビューエリアの下部をドラッグして調整できます。リストや配列の要素は上半分をドラッグすることで並び替えできます
+	CollectionsTip: 表示サイズはビューエリアの下部をドラッグで変更できます。リストや配列の要素は上半分をドラッグすると並び替えできます
 	CustomItemTip:
 		'''
 		このオプションには専用のインターフェースが存在します
-		左クリックでバニラのtModLoader設定UIへ移動
+		左クリックでバニラのtModLoader設定UIへ移動します
 		'''
 	NotSupportText:
 		'''
@@ -27,11 +27,11 @@
 		Tooltip: 新しい設定のインターフェースについて
 		About:
 			'''
-			これはQuality of Terrariaの[c/0099ff:全く新しい設定のインターフェース]です。
+			これはQuality of Terrariaの[c/0099ff:全く新しい設定のインターフェース]です
 			全ての機能はここにあります。Discordサーバーに参加してフィードバックしてください。以前のtModLoaderのMod設定メニューを使っても全く問題ありません
 			左側には機能性に基づいた[c/0099ff:カテゴリ]があり、クリックすると子項目が表示されます
 			一番下に[c/0099ff:ツールチップ]があり、カーソルを項目に合わせるとツールチップが表示されます
-			[c/0099ff:右クリック]すると[c/0099ff:デフォルトにリセット]されます
+			[c/0099ff:右クリック]で[c/0099ff:デフォルトにリセット]されます
 			'''
 		LinkGitHub: GitHub: https://github.com/ForOne-Club/ImproveGame (クリックできます！)
 		LinkDiscord: Discord: https://discord.gg/rEmGMQv5z7 (クリックできます！)
@@ -50,7 +50,7 @@
 
 			クラッシュや問題の報告は、[c/7289da:Discord]で行ってください
 			Steamワークショップのコメントは確認されません
-			詳細については、[c/0099ff:Config Center of Quality of Terraria] を参照してください
+			詳細については、[c/0099ff:Config Center of Quality of Terraria]を参照してください
 			この機能は[c/9966cc:LogSpiral]と[c/9966cc:Cyril]（Quality of Terraria Team）が作成しました
 
 			Mod間の連携を実装するMod制作者は、GitHubリポジトリのREADME.mdに記載されているMod.Callのドキュメントを参照してください
@@ -110,23 +110,23 @@
 	}
 
 	GameMechanics: {
-		Label: ゲームのメカニクス
-		Tooltip: 墓石の出現やリスポーン速度などのゲームメカニクスを編集します
+		Label: ゲームのシステム
+		Tooltip: 墓石の出現やリスポーン速度などのゲームシステムを編集します
 	}
 
 	PylonMechanics: {
-		Label: パイロンのメカニクス
+		Label: パイロンのシステム
 		Tooltip: さまざまなパイロンの制限を解除します
 	}
 
 	NpcSettings: {
 		Label: 友好的なNPC
-		Tooltip: 住宅や満足度など、友好的なNPCの挙動を編集します
+		Tooltip: 住宅や幸福度など、友好的なNPCの挙動を編集します
 	}
 
 	EnemySettings: {
 		Label: 敵
-		Tooltip: マグマスライムが溶岩を落とさない、コインのドロップ率の変更など、敵の挙動を編集します
+		Tooltip: マグマスライムが溶岩を生成しない、コインのドロップ率の変更など、敵の挙動を編集します
 	}
 
 	PlayerAbility: {
@@ -151,7 +151,7 @@
 
 	ModItemSettings: {
 		Label: Modアイテム
-		Tooltip: 一部のQuality of Terrariaアイテムの設定を変更し、一部アイテムの入手可否を調整します
+		Tooltip: 一部のQuality of Terrariaアイテムの設定を変更し、一部アイテムの入手可否を変更します
 	}
 
 	VisualAndInterface: {

@@ -18,7 +18,7 @@ WorldEndSettings: {
 DoomsdaySelection: {
 	Stagnation: {
 		Title: "{$WorldEndSettings.Stagnation}"
-		Description: 時間切れ後も、最終日の状態を維持する
+		Description: 時間切れ後は最終日の状態を維持する
 	}
 
 	Dissipation: {
@@ -72,7 +72,7 @@ Items: {
 			'''
 			太陽の黙示録を停止させる
 			昼間かつ地上で使用できる
-			太陽がすでに死んでいる場合は使用できない
+			太陽が消滅している場合は使用できない
 			'''
 	}
 
@@ -106,7 +106,7 @@ Items: {
 			'''
 			太陽の黙示録を開始する
 			昼間に使用できる
-			太陽がすでに死んでいる場合は使用できない
+			太陽が消滅している場合は使用できない
 
 			'''
 		TooltipStagnation:
@@ -128,7 +128,7 @@ Items: {
 			{$Items.SolarAccelerationPill.FunnyQuip}
 			'''
 		FunnyQuip: 「副作用として大量破壊が含まれる」
-		TooltipStagnationInner: 時間切れ後も、最終日の状態を維持する
+		TooltipStagnationInner: 時間切れ後は最終日の状態を維持する
 		TooltipDissipationInner: 時間切れになると、太陽が燃え尽きる
 		TooltipNovaInner: 時間切れになると太陽が爆発し、全てが破壊される
 	}
@@ -169,10 +169,10 @@ Items: {
 }
 
 Announcements: {
-	ApocalypseEnd: 黙示録が終わりました
-	ApocalypseEndLate: しかし、黙示録後の再生はまだ始まったばかりです...
-	TooLate: 遅すぎましたね...
-	ApocalypseAgain: 黙示録が始まります...
+	ApocalypseEnd: 黙示録が終わった
+	ApocalypseEndLate: しかし、黙示録後の再生はまだ始まったばかりだ...
+	TooLate: 遅かったみたいだ...
+	ApocalypseAgain: 黙示録が始まる...
 }
 
 Projectiles: {
@@ -197,7 +197,7 @@ Conditions: {
 	HasCombustibleLemon: 可燃性レモンを持っているとき
 }
 
-TerraformingKitMessage: 私は太陽の光が消えた後に地表を修復するのに役立つテラフォーミングキットを開発中です！
+TerraformingKitMessage: 私は太陽の光が消えた後に地上を修復するのに役立つテラフォーミングキットを開発中よ！
 
 Biomes: {
 	ScorchedUnderground: {
@@ -219,8 +219,8 @@ Configs: {
 			Label: 雨が降っている間は安全
 			Tooltip:
 				'''
-				オンにすると、雨が降っている間は黙示録の悪影響が全てなくなる
-				しかし、ワールドは雨が降らなくなる地点に到達する！
+				オンにすると、雨が降っている間は黙示録の悪影響が全てなくなります
+				しかし、ワールドは次第に雨が降らなくなっていきます！
 				'''
 		}
 	}
@@ -240,7 +240,7 @@ Configs: {
 
 		dayCounterDisplay: {
 			Label: 日数のカウント表示
-			Tooltip: 停滞と散逸に設定したワールドの日数のカウントの外観を変更します
+			Tooltip: 消失と爆発に設定したワールドの日数のカウントの外観を変更します
 		}
 	}
 

@@ -20,7 +20,7 @@ Items: {
 		Endurance: 被ダメージ軽減
 		Crit: クリティカル率
 		MoveSpeed: 移動速度
-		AttackSpeed: 攻撃および詠唱速度
+		AttackSpeed: 全ての攻撃速度
 		ManaMaxFlat: 最大マナ
 		LifeMaxFlat: 最大ライフ
 		LifeRegen: ライフ自然回復
@@ -33,7 +33,7 @@ Items: {
 		MeleeSpeed: 近接攻撃速度
 		WhipSpeed: 鞭の攻撃速度
 		RangedSpeed: 遠距離攻撃速度
-		CastSpeed: 詠唱速度
+		CastSpeed: 魔法攻撃速度
 		AmmoConsumption: 弾を消費しない確率
 		ManaCost: マナ消費軽減
 		MaxMinions: 最大ミニオン
@@ -85,19 +85,19 @@ Items: {
 
 	ExaltedOrb: {
 		DisplayName: 高貴なオーブ
-		Tooltip: 現在のクラス接頭辞を強化するか、新たなランダムな接頭辞を付与する
-		Tooltip2: 左クリックでオーブを持ち、クラス霊像に右クリックで使用。霊像グリッドから取り外すこと。
+		Tooltip: 現在のクラス接頭辞を強化するか、新たなランダム接頭辞を付与する
+		Tooltip2: 左クリックでオーブを持ち、インベントリ内のクラス霊像に右クリックで使用する
 	}
 
 	ForbiddenKey: {
 		DisplayName: 禁断の鍵
-		Tooltip: 霊像グリッド上のランダムなスロットを解放する
+		Tooltip: 霊像グリッドのランダムなスロットを解放する
 	}
 
 	OrbofAugmentation: {
 		DisplayName: 強化のオーブ
 		Tooltip: 霊像に新しいランダムな接頭辞を付与する
-		Tooltip2: 左クリックでオーブを持ち、空きスロットがある霊像に右クリックで使用。霊像グリッドから取り外すこと。
+		Tooltip2: 左クリックでオーブを持ち、インベントリ内の空きスロットがある霊像に右クリックで使用する
 	}
 
 	SmallIdol: {
