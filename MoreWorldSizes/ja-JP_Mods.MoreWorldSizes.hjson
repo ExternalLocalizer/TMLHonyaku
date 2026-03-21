@@ -1,0 +1,65 @@
+Configs: {
+	MoreConfig: {
+		DisplayName: 設定
+
+		DefaultWorldSize: {
+			Label: 標準ワールドサイズ
+			Tooltip: ""
+		}
+
+		EnableTinyWorldSize: {
+			Label: タイニーワールドを有効化
+			Tooltip: ""
+		}
+
+		EnableSmallWorldSize: {
+			Label: スモールワールドを有効化
+			Tooltip: ""
+		}
+
+		EnableMediumWorldSize: {
+			Label: ミディアムワールドを有効化
+			Tooltip: ""
+		}
+
+		EnableLargeWorldSize: {
+			Label: ラージワールドを有効化
+			Tooltip: ""
+		}
+
+		EnableHugeWorldSize: {
+			Label: ヒュージワールドを有効化
+			Tooltip: ""
+		}
+	}
+
+	WorldSizeID: {
+		Tooltip: ワールドサイズ
+
+		Tiny: {
+			Label: タイニー
+			Tooltip: "テストや特殊なプレイなどに最適です。"
+		}
+
+		Small: {
+			Label: スモール
+			Tooltip: ""
+		}
+
+		Medium: {
+			Label: ミディアム
+			Tooltip: ""
+		}
+
+		Large: {
+			Label: ラージ
+			Tooltip: ""
+		}
+
+		Huge: {
+			Label: ヒュージ
+			Tooltip: "果てしない探索や、大人数サーバーに最適な超大型サイズです。"
+		}
+	}
+}
+
