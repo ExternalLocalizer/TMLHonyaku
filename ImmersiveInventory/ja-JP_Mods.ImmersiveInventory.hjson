@@ -1,0 +1,57 @@
+Configs: {
+	ImmersiveConfig: {
+		ScrollStrength: {
+			Tooltip: 
+				'''
+				スクロール操作時に表示されるアイテムの回転スピードを設定します
+				0で回転を無効化します
+				'''
+			Label: スクロール回転速度
+		}
+
+		ShadowOffset: {
+			Tooltip: 
+				'''
+				アイテムの影のずれ距離を設定します
+				0で無効化します
+				'''
+			Label: 影の表示距離
+		}
+
+		MaxHoverScale: {
+			Tooltip: 
+				'''
+				アイテム選択時の拡大倍率
+				1で通常サイズ
+				'''
+			Label: ホバー拡大倍率
+		}
+
+		PlayInventorySounds: {
+			Tooltip: アイテムホバー時にサウンドを再生します
+			Label: インベントリ効果音
+		}
+
+		Weight: {
+			Tooltip: 移動時の反応の重さを設定します
+			Label: 慣性
+		}
+
+		Damping: {
+			Tooltip: 揺れがどれくらいの速さで止まるかを設定します
+			Label: 減衰
+		}
+
+		Stiffness: {
+			Tooltip: アイテムがカーソルにどれだけ強く追従するかを設定します
+			Label: 追従
+		}
+
+		Headers: {
+			Effects: エフェクト
+			Physics: 物理挙動（3つすべてを最小にすると効果が無効化）
+		}
+
+		DisplayName: Immersive 設定
+	}
+}
