@@ -1,0 +1,165 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	excalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			アイテムのテンプレート
+			このツールチップを置き換えるのはあなたの役目
+			「富士山に雪が降っている」
+			'''
+	}
+
+	TetoDrill: {
+		DisplayName: テトドリル
+		Tooltip:
+			'''
+			「このドリルは『[c/FF69B4:彼女]』を信じた人々の[c/FF0040:感情]から作られた...」
+			[c/444444:Model ID: 0401]
+			'''
+	}
+
+	s_25t: {
+		DisplayName: カテーテル
+		Tooltip:
+			'''
+			テトドリルを発射する
+			[c/FF0040:注意！] 友好NPCを殺してしまいます
+			[c/AC4444:▽O▽]
+			'''
+	}
+
+	TetoAmmoItem: {
+		DisplayName: ツイストドリル
+		Tooltip:
+			'''
+			敵を[c/AC4444:空洞化]させる
+			[c/444444:充填済み] [c/91FFFF:ソウルエネルギー]
+			'''
+	}
+
+	TetoGuardPotion: {
+		DisplayName: テトガードポーション
+		Tooltip: 共に戦う装甲をまとったテトを召喚する
+	}
+
+	DestroyerCore: {
+		DisplayName: デストロイヤーコア
+		Tooltip: デストロイヤーのための強力な動力源
+	}
+
+	GrandTetoItem: {
+		DisplayName: グランドテトのクレイモア
+		Tooltip: 「すべてを飲み込むクレイモア！」
+	}
+
+	TinWhistleItem: {
+		DisplayName: ティンホイッスル
+		Tooltip: ""
+	}
+
+	EternalWarmBar: {
+		DisplayName: 温熱のインゴット
+		Tooltip: 「触れると温かい...どんな味がするんだろう...？」
+	}
+
+	EternalWarmOreItem: {
+		DisplayName: 温熱鉱石
+		Tooltip: 「熱を生み続ける鉱石...もしかして[c/32CD32:生きている]？」
+	}
+
+	WarmPickaxeItem: {
+		DisplayName: 加熱ピッケル
+		Tooltip: 「掘れ...もっと深く...さらに深く...」
+	}
+
+	BaguetetoItem: {
+		DisplayName: テト・フランスパン
+		Tooltip: 「[c/D2B48C:止まらない]。くだらない[c/0077BE:論理]にも従わない。 ただ[c/FF4500:撃て]！」
+	}
+
+	Armor: {
+		EX_Cuirass: {
+			DisplayName: EX_キュイラス
+			Tooltip: ""
+
+			SetBonus: {
+				Warrior: 防御力が7増加し、ライフ自然回復を増進
+				Mage: 魔法ダメージが15%増加し、マナ消費が10%減少する
+				Ranger: 発射速度とダメージが10%増加する
+				Summoner: 召喚できるミニオン数が1増加し、ミニオンのダメージが10%増加、ライフ自然回復を増進
+			}
+		}
+	}
+
+	EX_Leggins: {
+		DisplayName: 温熱レギンス
+		Tooltip: ダメージが6%増加し、移動速度が10%増加する
+	}
+
+	EX_Mage_Helmet: {
+		DisplayName: 断熱フード
+		Tooltip: マナが40増加し、魔法ダメージが8%増加、マナ消費が10%減少する
+	}
+
+	EX_Ranger_Helmet: {
+		DisplayName: 温熱フード
+		Tooltip: 遠距離ダメージが8%増加し、クリティカル率が5%増加する
+	}
+
+	EX_Summoner_Helmet: {
+		DisplayName: ヘッドレスト
+		Tooltip: 召喚できるミニオンの数が1体増加し、ミニオンのダメージが12%増加する
+	}
+
+	EX_Warrior_Helmet: {
+		DisplayName: デジタルヘルメット
+		Tooltip: 近接攻撃速度が5%増加し、近接ダメージが10%増加する
+	}
+
+	EX_Cuirass: {
+		DisplayName: 温熱ビブ
+		Tooltip:
+			'''
+			凍傷を無効化
+			暗闇で光る
+			'''
+	}
+
+	FLAG_Item: {
+		DisplayName: F L A G_
+		Tooltip: ""
+	}
+
+	Display_BreakerItem: {
+		DisplayName: モニターブレイカー
+		Tooltip: 「おい — 君がアンバサダーだ」
+	}
+}
+
+Projectiles: {
+	TetoDrillProjectile.DisplayName: Teto Drill Projectile
+	TetoAmmo.DisplayName: Teto Ammo
+	TetoVisual.DisplayName: Teto Visual
+	TetoProjectileMinion.DisplayName: Teto Projectile Minion
+	GrandTetoHoldout.DisplayName: Grand Teto Holdout
+	GrandTetoWave.DisplayName: Grand Teto Wave
+	SoundWave.DisplayName: Sound Wave
+	BaguetteSlice.DisplayName: Baguette Slice
+	Crumb.DisplayName: Crumb
+}
+
+Buffs: {
+	DebuffCavitation: {
+		DisplayName: 肉体崩壊
+		Description: 肉体が[c/91FFFF:霊的な空洞]で満たされ、崩れ落ちる
+	}
+
+	TetoProtectorBuff: {
+		DisplayName: テト・ガーディアン
+		Description: テトガードが背後に付き、攻撃を手助けしてくれる
+	}
+}
+
+DamageClasses.SympathyDamage.DisplayName: 共鳴ダメージ

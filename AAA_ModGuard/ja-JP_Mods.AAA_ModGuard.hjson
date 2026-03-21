@@ -1,0 +1,142 @@
+Configs: {
+	GuardConfig: {
+		DisplayName: tModGuard 設定
+
+		ShowInfoMessageOnLoad: {
+			Label: 読み込み時に情報メッセージを表示
+			Tooltip: tModGuardのロード時に情報メッセージが表示されます
+		}
+
+		MonitorWebRequests: {
+			Label: MODのWeb通信を監視
+			Tooltip: MODによるWeb通信リクエストを監視し、ユーザーに許可を求めます
+		}
+
+		AllowLocalWebRequests: {
+			Label: localhostへのWeb通信を許可
+			Tooltip: 
+				'''
+				自分のPC（localhost）への通信リクエストを自動許可します
+				通常は安全で、主にソフト同士の通信に使用されます
+				'''
+		}
+
+		PlaySoundNotifications: {
+			Tooltip: MODが監視対象の操作を試みた際に通知音が再生されます
+			Label: サウンド通知を再生
+		}
+
+		MonitorProcessStarts: {
+			Label: プロセス起動を監視
+			Tooltip: MODによる外部プロセスの起動を監視し、ユーザーに許可を求めます
+		}
+
+		MonitorFileReads: {
+			Label: ファイル読み取りを監視
+			Tooltip: 
+				'''
+				MODによるゲーム / MODフォルダ以外へのファイル読み取りを監視し、
+				ユーザーに許可を求めます
+				'''
+		}
+
+		Headers: {
+			General: 一般設定
+			Monitoring: 監視設定
+			Whitelist: ホワイトリスト
+		}
+
+		WebRequestWhitelist: {
+			Label: ホワイトリスト (Web通信リクエスト)
+			Tooltip:
+				'''
+				自動的に許可される実行ファイルのフルパス、またはディレクトリの一覧
+				これらに一致するWeb通信リクエストは監視の対象外になります
+
+				既定の項目は厳選されており、安全だと思われます
+				セキュリティ上の影響を理解している方のみ、ご自身で項目を変更してください
+				'''
+		}
+
+		ProcessStartWhitelist: {
+			Label: ホワイトリスト (プロセス起動)
+			Tooltip:
+				'''
+				自動的に許可される実行ファイルのフルパス、またはディレクトリの一覧
+				これらに一致するプロセス起動は監視の対象外になります
+
+				例: "C:\Program Files\MyApp\app.exe" または "C:\Program Files\TrustedFolder\"
+
+				注意: セキュリティのため、このリストはデフォルトでは空になっています
+				プロセス名のみ（例: "notepad.exe"）はサポートしていないので、必ずフルパスで記載してください。
+				'''
+		}
+
+		FileReadWhitelist: {
+			Label: ホワイトリスト (ファイル読み取り)
+			Tooltip:
+				'''
+				自動的に許可されるディレクトリパスの一覧
+				これらに一致するディレクトリ内でのファイル読み取りは監視の対象外になります
+
+				例: "C:\MyCustomData\"
+
+				注意: Terrariaのセーブ、コンテンツ、Workshopフォルダのパスは
+				既にデフォルトで許可されています
+				'''
+		}
+	}
+}
+
+UI: {
+	InfoMessage:
+		'''
+		tModGuard が有効です！  
+		MODの読み込み中およびプレイ中、ゲームを安全に保護します。
+
+		このMODはバックグラウンドで静かに動作し、MOD環境のTerrariaの安全を確保します。
+		不審な動作を監視し、MODがインターネット接続、許可されていないファイルへのアクセス、
+		外部プログラムの実行など、潜在的に危険な操作を行おうとした場合に通知します。
+		これにより、MODが何を実行できるかをプレイヤーが常に把握できます。
+		また、MOD設定 からいつでも動作をカスタマイズできます。
+
+		この起動メッセージを無効にするには: 
+		MOD設定 → 「tModGuard 設定」を選択 → 「読み込み時に情報メッセージを表示」のチェックを外してください
+		'''
+
+	UnrecognizedWebRequest: {
+		Title: 不明なWeb通信リクエスト
+		FromTML: tModLoader が次のURLへの通信を試みています:
+		FromMod: 『{0}』MOD が次のURLへの通信を試みています:
+		Prompt: この通信を許可しますか？
+		BlockedExceptionMessage: ユーザーによりWeb通信リクエストがブロックされました
+	}
+
+	ProcessStart: {
+		Title: プロセス起動リクエスト
+		FromMod: 『{0}』MOD が次のプロセスを起動しようとしています:
+		Prompt: この操作を許可しますか？
+		BlockedExceptionMessage: ユーザーによりプロセス起動がブロックされました
+	}
+
+	FileRead: {
+		Title: ファイル読み取りリクエスト
+		FromTML: tModLoader が次のファイルを読み取ろうとしています:
+		FromMod: 『{0}』MOD が次のファイルを読み取ろうとしています:
+		Prompt: このファイルの読み取りを許可しますか？
+		BlockedExceptionMessage: ユーザーによりファイル読み取りがブロックされました
+	}
+
+	SecurityShutdownTriggeredByMod: 
+		'''
+		『{0}』MOD が tModGuard への干渉を試みたため、ブロックされました。
+		安全確保のためゲームをシャットダウンし、このMODは無効化されました。
+		詳細は client.log よりご確認ください。
+		'''
+	SecurityShutdownTriggeredGeneric: 
+		'''
+		悪意のあるアセンブリ『{0}』 が tModGuard への干渉を試みたため、ブロックされました。
+		安全確保のためゲームをシャットダウンしました。
+		詳細は client.log よりご確認ください。
+		'''
+}

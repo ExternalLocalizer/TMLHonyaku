@@ -1,0 +1,233 @@
+Keybinds: {
+	"Swap Furniture Layer.DisplayName": 家具レイヤーを切替
+	"Open Layer Menu.DisplayName": レイヤーメニューを表示
+}
+
+Configs: {
+	DecoratorConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			Immersion: 没入感
+			Building: 建築
+			Experimental: 試験機能
+			Networking: マルチプレイ
+			LayeringRestrictions: レイヤー制限
+			Features: 機能
+			Extra: その他
+			Restrictions: 制限
+		}
+
+		BackgroundRain: {
+			Label: 背景レイヤーの雨
+			Tooltip:
+				'''
+				壁の後ろ、背景に雨のレイヤーを追加します
+				窓越しに降る雨が見えるようになります
+				'''
+		}
+
+		CobwebFix: {
+			Label: クモの巣表示調整
+			Tooltip:
+				'''
+				重なったクモの巣は、明るすぎたり密集しすぎて見えたりしないよう、50%の不透明度で描画されます
+				家具の上にクモの巣を置くのもいいでしょう。良い雰囲気になるはずです
+				'''
+		}
+
+		NPCsOnTop: {
+			Label: NPC前面描画
+			Tooltip:
+				'''
+				レイヤー家具の描画直後にNPCを再描画し、必ず家具の前面に表示されるようにします
+				オフにすると、NPCを家具の後ろに配置することで家をより立体的に見せることができます
+				'''
+		}
+
+		InfinitePlacement: {
+			Label: 家具の重ね配置
+			Tooltip:
+				'''
+				既に置かれている家具の上に家具を配置すると、元の家具は『ゴースト』状態になります
+				これにより家具を何層でも重ねて配置可能になります（例：植物の背後に絵画）
+				コントロール設定で家具レイヤー切替キーを設定可能
+				'''
+		}
+
+		PersistentCobwebs: {
+			Label: クモの巣破壊防止
+			Tooltip:
+				'''
+				クモの巣は歩いて通り抜けても壊れなくなり、装飾として利用できます
+				破壊するにはツールを使う必要があります
+				
+				注意：現在この機能は動作しておらず、今後のアップデートで修正予定です
+				代わりに既存のクモの巣の上に『ゴースト』クモの巣を配置し、
+				通り抜けることで再現が可能です
+				'''
+		}
+
+		BackgroundLeaves: {
+			Label: 背景の葉
+			Tooltip: 風の強い日に背景レイヤーに葉が生成されます
+		}
+
+		SimplifiedFurniture: {
+			Label: 簡易家具
+			Tooltip:
+				'''
+				『ゴースト』家具のアニメーションと発光を無効化します
+				家具の表示が不安定な場合に試してください
+				（デフォルト：オフ - 家具はアニメーションされます）
+				'''
+		}
+
+		DodgyPlaceUI: {
+			Label: 重なり判定UI
+			Tooltip:
+				'''
+				設置できない場合の赤いプレビュー表示を、
+				家具が重なっている部分だけ緑色で表示するように変更します
+				家具の重なりと通常ブロックの違いを確認するのに便利です
+
+				注意：やや実験的で不安定
+				'''
+		}
+
+		EnableMultiplayerPatch: {
+			Tooltip:
+				'''
+				マルチプレイでゴースト家具を同期させます
+				シングルプレイ時は余分なネットワーク処理を防ぐためオフにすることを推奨します
+				（デフォルト：オフ）
+				'''
+			Label: マルチプレイパッチ
+		}
+
+		EnableBlockLayering: {
+			Label: ブロック重ね配置
+			Tooltip:
+				'''
+				オン：家具同様に、重ねてレイヤー配置可能になります
+				オフ：通常どおりブロックは置き換えられます（例：ブロックの置き換えや抽出機使用時）
+				（デフォルト：オフ）
+				'''
+		}
+
+		RenderOrder: {
+			Label: レイヤー描画順
+			Tooltip:
+				'''
+				設定1：物理レイヤーはゴーストレイヤーの背後に描画
+				設定2：物理レイヤーはゴーストレイヤーの前面に描画
+				'''
+		}
+
+		BlockBlacklist: {
+			Label: ブラックリスト（ブロック）
+			Tooltip: 
+				'''
+				リスト内のブロックは『ゴースト化』せず、常に物理ブロックのままとなります
+				これらの上にレイヤー配置することはできません
+				'''
+		}
+
+		PreventTreeLayering: {
+			Label: 木のレイヤー配置防止
+			Tooltip: 木の上に重ねて設置できないようにします
+		}
+
+		AltLayering: {
+			Label: Altキーでレイヤー配置
+			Tooltip: 
+				'''
+				レイヤー配置する際、『左Altキー』を押さないといけないようにします
+				左Altキーを押していない場合、通常どおり配置されます
+				'''
+		}
+
+		Shading: {
+			Label: 陰影設定
+			Tooltip: ""
+		}
+
+		NPCsOnTopOfFurniture: {
+			Label: NPC前面描画（家具）
+			Tooltip:
+				'''
+				レイヤー家具の描画直後にNPCを再描画し、必ず家具の前面に表示されるようにします
+				オフにすると、NPCを家具の後ろに配置することで家をより立体的に見せることができます
+				'''
+		}
+
+		NPCsOnTopOfBlocks: {
+			Label: NPC前面描画（ブロック）
+			Tooltip: レイヤーブロックの描画直後にNPCを再描画し、必ず前面に表示されるようにします
+		}
+	}
+
+	LayerRenderOrderOption: {
+		Tooltip: ""
+
+		PhysicalBehindGhosts: {
+			Label: 物理レイヤー（ゴーストの背後）
+			Tooltip: デフォルト設定
+		}
+
+		PhysicalOnTop: {
+			Label: 物理レイヤー（前面）
+			Tooltip: 実験的機能。背面レイヤーのゴーストを複製し、前面に貼り付けるような処理を行います
+		}
+	}
+
+	ShadingSettings: {
+		Tooltip: ""
+
+		Headers: {
+			DepthTinting: 奥行き色付け
+			GhostFurnitureAmbientOcclusion: ゴースト家具
+			GhostBlockAmbientOcclusion: ゴーストブロック
+		}
+
+		EnableDepthTinting: {
+			Label: 奥行き色付けを有効化
+			Tooltip: 奥のレイヤーに配置された家具を暗くし、疑似的な奥行き感を演出します
+		}
+
+		DepthTintPerLayer: {
+			Label: レイヤーごとの暗さ
+			Tooltip: 背景レイヤー1層ごとにどれだけ暗くするかを設定します
+		}
+
+		EnableFurnitureAO: {
+			Label: 家具影表示を有効化
+			Tooltip: ゴースト家具やレイヤー家具の後ろに影を描画します
+		}
+
+		FurnitureAOStrength: {
+			Label: 影の強さ
+			Tooltip: ""
+		}
+
+		FurnitureAOSpread: {
+			Label: 影の広がり
+			Tooltip: ""
+		}
+
+		EnableBlockAO: {
+			Label: ブロック影表示を有効化
+			Tooltip: ゴーストブロックやレイヤーブロックの後ろに影を描画します
+		}
+
+		BlockAOStrength: {
+			Label: 影の強さ
+			Tooltip: ""
+		}
+
+		BlockAOSpread: {
+			Label: 影の広がり
+			Tooltip: ""
+		}
+	}
+}

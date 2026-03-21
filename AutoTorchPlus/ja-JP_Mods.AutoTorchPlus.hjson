@@ -1,0 +1,60 @@
+Config: {
+	Headers: {
+		Advanced: 高度設定
+		TorchPlacement: たいまつ設置
+		BiomeTorches: バイオームたいまつ
+		SearchBehavior: 検索動作
+	}
+}
+
+Configs: {
+	AutoTorchConfig: {
+		ShowDebugInfo: {
+			Tooltip: 現在の検索範囲を表示します
+			Label: デバッグ情報表示
+		}
+
+		UpgradeNonBiomeTorches: {
+			Tooltip: 
+				'''
+				『たいまつの神の恩恵』が有効な場合や、対応するバイオームたいまつを所持している場合に、
+				AutoTorch+が『適切ではない』たいまつを適切なバイオームたいまつに更新します
+				'''
+			Label: バイオームたいまつ置き換え
+		}
+
+		PreferBiomeTorches: {
+			Tooltip: AutoTorch+が、現在のバイオームに適したたいまつを優先的に使うようにします
+			Label: バイオームたいまつを優先
+		}
+
+		SilentPlacement: {
+			Tooltip: たいまつ設置時の音を無効化します
+			Label: 無音設置
+		}
+
+		UseSmartPlacement: {
+			Tooltip: 壁の背後にあるたいまつは間隔判定に含まれなくなります
+			Label: スマート設置
+		}
+
+		TorchSpacing: {
+			Tooltip: たいまつ同士の最小距離を設定します
+			Label: たいまつ間隔
+		}
+
+		SearchRadius: {
+			Tooltip: たいまつを設置する場所を探す際に、プレイヤー周囲で探索するブロック半径を設定します
+			Label: たいまつ検索範囲
+		}
+
+		DisplayName: AutoTorch+ 設定
+	}
+}
+
+Keybinds: {
+	ToggleAutoTorch: {
+		DisplayName: 自動たいまつ設置切り替え
+	}
+}
+

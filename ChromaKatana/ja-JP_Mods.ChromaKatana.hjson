@@ -1,0 +1,146 @@
+DisplayName: Chroma Katana：至高の一刀
+
+Items: {
+	FracturedPrism: {
+		DisplayName: フラクチャード・プリズム
+		Tooltip:
+			'''
+			左クリック: 通常攻撃
+			左クリック長押し: チャージ開始
+			離すとカーソル方向へダッシュ
+			• ダッシュ攻撃は敵に1.5倍ダメージ
+			• ダッシュ中は一時的に無敵
+			'''
+		Ready: 準備完了！
+	}
+
+	VermilionEdge: {
+		DisplayName: 紅蓮の刃
+		Tooltip:
+			'''
+			左クリック: 炎の軌跡を伴う通常攻撃
+			左クリック長押し: 炎エネルギーをチャージ
+			離すとカーソル方向へダッシュ
+			• ダッシュ攻撃は2倍ダメージを与え、『燃えている！』デバフを付与
+			• 通常攻撃でも敵を炎上させる
+			• 所持中は炎のパーティクルを放つ
+			'''
+		FireReady: 炎チャージ完了！
+	}
+
+	ZephyrsKiss: {
+		DisplayName: ゼファーの口づけ
+		Tooltip:
+			'''
+			左クリック: 雷を伴う通常攻撃
+			左クリック長押し: 電気エネルギーをチャージ
+			離すとカーソル位置へテレポート
+			• 通常攻撃時、確率で雷を召喚
+			• テレポート時、到着地点で雷の爆発を放つ
+			• 敵に『感電』デバフを付与
+			• 近くの敵へ連鎖雷撃
+			'''
+		LightningReady: 雷チャージ完了！
+		Blocked: ブロック！
+	}
+
+	CrystalWhisper: {
+		DisplayName: クリスタルウィスパー
+		Tooltip:
+			'''
+			左クリック: 氷の破片を伴う通常攻撃
+			左クリック長押し: 氷霜エネルギーをチャージ
+			離すとカーソル方向にエコークローンを生成
+			エコークローンをクリックすると、その位置へテレポートして氷の爆発を起こす
+			• 『凍傷』と『凍え』を付与
+			• クリティカル時に氷のボルトを召喚
+			• 近くの敵へ連鎖ダメージ
+			• 凍結した敵は2倍のダメージを受ける
+			'''
+		EchoReady: エコー準備完了！
+	}
+
+	CrystalShards: {
+		DisplayName: クリスタルの欠片
+		Tooltip: 『氷の化物が落とす、凍てつくエネルギーの破片』
+	}
+
+	Shadowrend: {
+		DisplayName: シャドウレンド
+		Tooltip:
+			'''
+			左クリック: 通常攻撃
+			左クリック長押し: 虚空エネルギーをチャージ
+			離すとテレポートし、連続した影の斬撃を放つ
+			• テレポート地点に影のクローンを生成
+			• クローンは敵を引き寄せて爆発する
+			• クリティカル時に影のエコーを召喚
+			• 敵に『影の刻印』を付与
+			• 『影の刻印』は被ダメージを20%増加させる
+			'''
+		VoidReady: 虚空エネルギー準備完了！
+	}
+
+	VenomsBane: {
+		DisplayName: ヴェノムズベイン
+		Tooltip:
+			'''
+			左クリック: 毒の飛沫付き通常攻撃
+			左クリック長押し: 毒エネルギーをチャージ
+			離すと周囲に毒スパイクを召喚
+			• 通常攻撃で毒スタック付与
+			• 最大スタックで毒爆発
+			• スパイクが近くの敵を自動攻撃
+			• スパイク消滅時に毒爆発
+			• クリティカル時に毒を周囲へ拡散
+			'''
+		SpikesReady: 毒スパイク準備完了！
+	}
+
+	TerraCleaver: {
+		DisplayName: テラクリーバー
+		Tooltip:
+			'''
+			左クリック: 通常攻撃
+			左クリック長押し: 地震エネルギーをチャージ
+			離すと地震の一撃を放つ
+			• 地面にいる間、防御力が5増加
+			• Eキーでストーンシールド発動
+			• シールドは飛び道具を防ぎ敵にダメージ
+			• シールド中、防御力+10
+			• スラムで地面に亀裂を走らせ、敵を鈍化させる
+			'''
+		FaultReady: 断層エネルギー準備完了！
+		ShieldReady: ストーンシールド発動！
+	}
+}
+
+Buffs: {
+	Frostbite: {
+		DisplayName: 凍傷
+		Description: 移動速度が大きく低下
+	}
+
+	ShadowMark: {
+		DisplayName: 影の刻印
+		Description: Mods.ChromaKatana.Buffs.ShadowMark.Description
+	}
+
+	StoneShield: {
+		DisplayName: ストーンシールド
+		Description: 防護の石に囲まれる。防御力+10、飛び道具を防ぐ
+	}
+
+	ShieldCooldown: {
+		DisplayName: シールドクールダウン
+		Description: ストーンシールドを再充填中
+	}
+
+	EarthenSlow: {
+		DisplayName: 大地の鈍化
+		Description: 地面の揺れにより移動が遅くなる
+	}
+}
+
+NPCs.CrystalShardsDrop.DropText: ハードモードの氷系の敵からドロップする
+Projectiles.StoneShard.DisplayName: Stone Shard

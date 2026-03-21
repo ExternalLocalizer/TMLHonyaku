@@ -1,0 +1,51 @@
+# This file will automatically update with entries for new content after a build and reload. :nerd:
+Bestiary: {
+	Husk: 灼熱の太陽の下で肉体が焼かれた、異様なゾンビ。
+	Husk2: 攻撃されると、急に何かを食べたくなる。
+}
+
+Items: {
+	HuskBannerItem: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：
+		DisplayName: ハスクのバナー
+	}
+
+	PurifiedEye: {
+		DisplayName: 浄化の目
+		Tooltip:
+			'''
+			不浄、真紅、聖域、またはシマー付近でダメージが10%増加
+			『お腹ペコペコ』を無効化
+			ムーンロード撃破後、バイオーム探知能力を得る
+			'''
+	}
+
+	ScorchedEye: {
+		DisplayName: ハスクの目
+		Tooltip:
+			'''
+			砂漠、地底世界、または隕石付近ではダメージが10%増加
+			『お腹ペコペコ』を無効化
+			'''
+	}
+
+	Khopesh: {
+		DisplayName: コペシュ
+		Tooltip:
+			'''
+			敵に5回攻撃するとチャージされる
+			チャージ後、右クリックで投げられる
+			'''
+	}
+}
+
+NPCs.Husk.DisplayName: ハスク
+
+Buffs: {
+	Humgry: {
+		Description: ダメージが15%減少し、最大ライフが25減少、ミニオン枠が1減少する
+		DisplayName: お腹ペコペコ
+	}
+}
+
+Projectiles.KhopeshProj.DisplayName: Khopesh
