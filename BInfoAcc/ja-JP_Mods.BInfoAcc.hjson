@@ -281,7 +281,7 @@ Configs: {
 				一部の情報表示（出現率/上限、バイオームなど）は、毎フレーム情報が更新されません
 				これは、テキストのちらつきを防ぎ、遅延の可能性を低減するためです
 				更新間隔はここでカスタマイズできます。設定値は、各更新間のティック数です
-				参考までに、1秒＝60秒です
+				参考までに、1秒＝60ティックです
 				'''
 		}
 
@@ -289,7 +289,7 @@ Configs: {
 			Label: 情報表示のサイクルレート
 			Tooltip:
 				'''
-				特定の情報表示（出現率率/上限、コンボ、バイオーム）には、複数の情報行が周期的に表示されます
+				特定の情報表示（出現率/上限、コンボ、バイオーム）には、複数の情報行が周期的に表示されます
 				この動作は、砂嵐が発生しているときの通常の天気ラジオの動作と似ています
 				この設定により、さまざまな情報ラインの切り替え速度が倍増します
 				'''
@@ -303,7 +303,7 @@ Configs: {
 				近隣の全てのバイオームは引き続き順番に表示されます。優先度の高いバイオームは、サイクルの早い段階で表示されます
 				バイオーム表示は以下のModをサポートしています:
 				「Thorium Mod」、「Calamity Mod」、「Mod of Redemption」、「Exxo Avalon Origins」、「The Stars Above」、「Spirit Mod」、「Spooky Mod」、 
-				「Confection Rebaked」、「The Depths」、「Aequus」、 'Verdant」、「Food, Furniture & Fun」、「Remnants」
+				「Confection Rebaked」、「The Depths」、「Aequus」、「Verdant」、「Food, Furniture & Fun」、「Remnants」
 				'''
 		}
 
