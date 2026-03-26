@@ -1,0 +1,481 @@
+Configs: {
+	ArmedZombiesConfig: {
+		DisplayName: Armed Zombies設定
+
+		Headers: {
+			Physics: 物理設定
+			Attacks: 攻撃設定
+			Combos: 連撃設定
+			ZombieBehavior: AI設定
+			Scared: 恐怖設定
+			Survival: サバイバル設定
+			Parry: パリィ設定
+			Disarm: 武装解除設定
+			Armor: 防具設定
+			Debug: デバッグ / 表示
+			Axes: 斧の設定
+			Swords: 剣の設定
+			WeaponList: 武器リスト設定
+			Daytime: 昼間の攻撃性を有効にする
+		}
+
+		QualityOfLife: {
+			Label: 生活の質
+			Tooltip: 基本的な物理演算とワールドインタラクションの設定
+		}
+
+		Weapons: {
+			Label: 武器と防具の設定
+			Tooltip: ゾンビが出現時に装備している武器と防具の設定
+		}
+
+		WeaponList: {
+			Label: 武器の出現
+			Tooltip: ゾンビが装備する武器をカスタマイズできます
+		}
+
+		AI: {
+			Label: AIの挙動
+			Tooltip: 知能、反応、生存本能、恐怖の設定
+		}
+
+		Combat: {
+			Label: 戦闘の設定
+			Tooltip: ダメージ、パリィ、連撃、武装解除などの詳細な戦闘システム
+		}
+
+		ArmorDebug: {
+			Label: 防具のデバッグ
+			Tooltip: アーマーのレンダリングにおける視覚的なオフセットとスケール
+		}
+
+		Daytime: {
+			Label: 昼間時の設定
+			Tooltip: ""
+		}
+	}
+
+	QualityOfLifeConfig: {
+		DisplayName: 生活の質
+		Tooltip: 基本的な物理演算とワールドインタラクションの設定
+
+		EnableSwordGroundInteraction: {
+			Label: 剣の地面との相互作用
+			Tooltip: オンにすると、剣が床に当たったときにパーティクルが発生し、ドスンという音が鳴ります
+		}
+
+		EnablePhysics: {
+			Label: 剣の物理演算を有効にする
+			Tooltip: 剣の動き（振りの重さ/運動量）に関する物理シミュレーションを有効にします
+		}
+
+		Headers.Visuals: 表示
+
+		EnableArmorAmbientOcclusion: {
+			Label: 防具に奥行きを入れる
+			Tooltip: オンにすると防具はゾンビに奥行きを出すために小さな影を落とします
+		}
+
+		EnableSwordAmbientOcclusion: {
+			Label: 剣に奥行きを入れる
+			Tooltip: オンにすると武器がゾンビに小さな影を落とし、奥行き感を表現します
+		}
+
+		AOStrength: {
+			Label: 影の強さ
+			Tooltip: 影の効果の濃さを変更します（0.0＝見えない、1.0＝真っ黒)
+		}
+
+		AOSpread: {
+			Label: 影のずれ
+			Tooltip: 影がオブジェクトからでどれだけずれているか変更します（ピクセル単位）
+		}
+
+		EnableWeaponMotionSmoothing: {
+			Label: 武器の動きの滑らかさ
+			Tooltip: オンにすると武器を振った際に軌跡が表示されます
+		}
+
+		EnableSwordInteraction: {
+			Label: 剣と槍の振り動作
+			Tooltip: オンにするとS&SS Modが有効なら、ゾンビと剣を交え、攻撃をパリィすることができます
+		}
+	}
+
+	WeaponListConfig: {
+		DisplayName: 武器と敵の出現
+		Tooltip: 武器のプールをカスタマイズしましょう
+
+		WeaponWhiteList: {
+			Label: カスタム武器リスト
+			Tooltip: 
+				'''
+				ここにゾンビが使用する特定の武器を追加してください
+				このリストにアイテムが含まれているなら、ゾンビはこのリストからランダムに選択します
+				'''
+		}
+
+		Headers: {
+			WeaponSpawnAndEnemyExclusion: 武器の出現
+			Exclusions: 除外
+		}
+
+		NpcBlacklist: {
+			Label: NPCのブラックリスト
+			Tooltip: このリストに追加されたNPCは武器や防具を装備して出現しなくなります
+		}
+	}
+
+	WeaponsConfig: {
+		DisplayName: 武器と防具の設定
+		Tooltip: ゾンビが出現時に装備している武器と防具の設定
+
+		ArmorSpawnChance: {
+			Label: 防具を装備している確率
+			Tooltip: ゾンビが鉄の鎧を装備して出現する確率を変更します（0-100%）
+		}
+
+		HelmetSpawnChance: {
+			Label: 兜も装備する確率
+			Tooltip: ゾンビが防具を装備している場合、兜も装備している確率を変更します（0-100%）
+		}
+
+		GreavesSpawnChance: {
+			Label: すね当ても装備する確率
+			Tooltip: ゾンビが防具を装備している場合、すね当ても装備している確率を変更します（0-100%）
+		}
+
+		DungeonArmorMultiplier: {
+			Label: ダンジョンでの確率上昇の度合い
+			Tooltip: これが高いほどダンジョン内でゾンビが防具を装備して出現しやすくなります
+		}
+
+		EnableAxeSpawning: {
+			Label: 斧を装備するか
+			Tooltip: オンにするとゾンビが斧を装備して出現するようになります
+		}
+
+		AxeSpawnChance: {
+			Label: 斧を装備している確率
+			Tooltip: 「斧を装備するか」がオンの場合、ゾンビが剣ではなく斧を装備して出現する確率を変更します（0-100%）
+		}
+
+		EnableSwordSpawning: {
+			Label: 剣を装備するか
+			Tooltip: オンにするとゾンビが剣を装備して出現するようになります
+			
+		}
+
+		SwordSpawnChance: {
+			Label: 剣を装備している確率
+			Tooltip: 「剣を装備するか」がオンの場合、ゾンビが斧を装備して出現する確率を変更します（0-100%）
+		}
+
+		AxeEnemiesCanParry: {
+			Label: 斧を装備している敵はパリィできる
+			Tooltip: ""
+		}
+
+		ArmorKnockoffChance: {
+			Label: 防具が外れる確率
+			Tooltip: ""
+		}
+
+		Headers.Exclusions: 除外
+
+		NpcBlacklist: {
+			Label: NPCのブラックリスト
+			Tooltip: このリストに追加されたNPCは武器や防具を装備して出現しなくなります
+		}
+	}
+
+	CombatConfig: {
+		DisplayName: 戦闘設定
+		Tooltip: ダメージ、パリィ、コンボ、武装解除などの詳細な戦闘システム
+
+		BaseAttackCooldown: {
+			Label: 基本の攻撃間隔
+			Tooltip: ゾンビの攻撃間隔を変更します（ティック単位）
+		}
+
+		AttackWindupTicks: {
+			Label: 攻撃の準備時間
+			Tooltip: ゾンビの攻撃の準備時間を変更します（ティック単位）
+		}
+
+		EnableThrust: {
+			Label: 突き攻撃を行うか
+			Tooltip: オンにするとゾンビが突き攻撃を行うようになります
+		}
+
+		ThrustChance: {
+			Label: 突き攻撃を行う確率
+			Tooltip: ゾンビが突き攻撃を行う確率を変更します（0-100%）
+		}
+
+		ComboChance: {
+			Label: 連撃する確率
+			Tooltip: ゾンビが最初の攻撃の直後に2回目の攻撃を行う確率を変更します（0-100%）
+		}
+
+		ComboSwingDelay: {
+			Label: 連撃の遅延
+			Tooltip: 連撃時の攻撃の遅延時間を変更します（ティック単位）
+		}
+
+		EnableParry: {
+			Label: 攻撃をパリィしてくるか
+			Tooltip: オンにすると、ゾンビがプレイヤーの攻撃をパリィし、反撃してくるようになります
+		}
+
+		ParryChance: {
+			Label: パリィする確率
+			Tooltip: 1秒あたり、ゾンビが戦闘中に防御態勢に入る確率を変更します（0-100%）
+			
+		}
+
+		ParryDuration: {
+			Label: 防御態勢の持続時間
+			Tooltip: ゾンビが防御態勢を維持する時間を変更します（ティック単位）
+		}
+
+		EnableDisarmOnCrit: {
+			Label: クリティカル時で武器を落とすか
+			Tooltip: オンにするとクリティカル時、ゾンビが武器を落とすようになります
+		}
+
+		DisarmChance: {
+			Label: クリティカル時に武器を落とす確率
+			Tooltip: クリティカル時、ゾンビが武器を落とす確率を変更します（0-100%）
+		}
+
+		EnableDisarmOnNormalHit: {
+			Label: 攻撃を当てたときに武器を落とすか
+			Tooltip: オンにすると攻撃を当てると、ゾンビが武器を落とすようになります
+		}
+
+		DisarmChanceNormal: {
+			Label: 攻撃を当てたときに武器を落とす確率
+			Tooltip: 攻撃を当てたとき、ゾンビが武器を落とす確率を変更します（0-100%）
+		}
+
+		WeaponPickupCooldown: {
+			Label: 武器を拾うまでの時間
+			Tooltip: ゾンビが武器を落としたとき、武器を拾うまでの時間を変更します（ティック単位）
+		}
+
+		ArmorKnockoffChance: {
+			Label: 防具が外れる確率
+			Tooltip: 攻撃を当てたとき、ゾンビの防具が外れる確率を変更します（0-100%）
+		}
+
+		EnableDynamicParry: {
+			Label: パリィ反応を有効にする
+			Tooltip: オンにすると、ゾンビは攻撃を受けた際にパリィする確率が高くなります
+		}
+
+		DynamicParryMultiplier: {
+			Label: パリィ反応の倍率
+			Tooltip: 攻撃を受けた際にパリィする確率が高くなる度合いを変更します (例 5倍)
+		}
+
+		ParryCooldownTicks: {
+			Label: パリィのクールダウン
+			Tooltip: ゾンビがパリィしたとき、またパリィするまでの時間を変更します（ティック単位）
+		}
+
+		EnableRiposteSlow: {
+			Label: 反撃を受けたとき、移動が遅くなるか
+			Tooltip: オンにすると、反撃を受けた際に移動速度が3.5秒間遅くなるようになります
+		}
+	}
+
+	AIConfig: {
+		DisplayName: AIの挙動
+		Tooltip: 知能、反応、生存本能、恐怖の設定
+
+		EnableMissRecovery: {
+			Label: 攻撃を外した際、よろめくか
+			Tooltip: オンにすると、ゾンビが攻撃を外した際によろめくようになります	
+		}
+
+		MissRecoveryTicks: {
+			Label: よろめく時間
+			Tooltip: ゾンビが攻撃を外した際によろめく時間を変更します
+		}
+
+		EnableStaggerOnHit: {
+			Label: 攻撃を当てるとよろめくか
+			Tooltip: オンにすると、ゾンビに攻撃を当てた際によろめくか、遅くなるようになります
+		}
+
+		StaggerDelayTicks: {
+			Label: 攻撃を当てた際の遅延
+			Tooltip: ゾンビに攻撃を当てた際、ゾンビの攻撃が遅くなる時間を変更します（ティック単位）
+		}
+
+		EnablePressure: {
+			Label: プレッシャーモードを有効にする
+			Tooltip: オンにすると、プレイヤーが動きを止めた際にゾンビが積極的に追いかけてくることがあります
+		}
+
+		PressureChance: {
+			Label: プレッシャーモードになる確率
+			Tooltip: ゾンビが条件を満たしたときにプレッシャーモードになる確率を変更します（0-100%）
+		}
+
+		PressureCooldownTime: {
+			Label: プレッシャーモードのクールダウン
+			Tooltip: ゾンビが再びプレッシャーモードになるようになるまでの時間を変更します
+		}
+
+		EnableScaredBehavior: {
+			Label: 恐怖行動を有効にする
+			Tooltip: オンにすると、ゾンビはライフが低くなると慎重になることがあります
+		}
+
+		ScaredHealthThreshold: {
+			Label: ライフの不安
+			Tooltip: ゾンビが恐怖を感じるようになるライフの割合を変更します（0-100%）
+		}
+
+		ScaredChance: {
+			Label: 恐怖行動をする確率
+			Tooltip: ライフが設定した割合以下になったとき、恐怖行動をする確率を変更します（0-100%）
+		}
+
+		EnablePotionHealing: {
+			Label: ポーションを使用するか
+			Tooltip: オンにすると、ゾンビはライフが少なくなるとポーションを使うようになります
+		}
+
+		PotionHealingHealthThreshold: {
+			Label: ポーションを使用するライフの割合
+			Tooltip: ゾンビがポーションを使用するライフの割合を変更します（0-100%）
+		}
+
+		PotionHealingChance: {
+			Label: ポーションを使う確率
+			Tooltip: ゾンビがポーションを使う確率を変更します（0-100%）
+		}
+
+		AfterHealPreparationsChance: {
+			Label: 回復後に準備をする確率
+			Tooltip: ゾンビが回復後に防具を装備する確率を変更します（0-100%）
+		}
+
+		EnableShockAndFlee: {
+			Label: ショック＆逃走を有効にする
+			Tooltip: オンにすると、武器を落としたゾンビは驚いて飛びあがり、短時間逃げ出すようになります
+		}
+
+		ShockAndFleeChance: {
+			Label: ショック＆逃走する確率
+			Tooltip: 武器を落としたゾンビがパニックになり、逃げだす確率を変更します（0-100%）
+		}
+
+		ShockAndFleeDuration: {
+			Label: 逃走する時間
+			Tooltip: ゾンビが逃げ出す時間を変更します（ティック単位）
+		}
+	}
+
+	ArmorDebugConfig: {
+		DisplayName: 防具のデバッグ
+		Tooltip: アーマーのレンダリングにおける視覚的なオフセットとスケール
+
+		ArmorScaleModifier: {
+			Label: 防具のスケール
+			Tooltip: 全ての防具パーツに適用される乗数を変更します
+		}
+
+		HelmetOffset: {
+			Label: 兜の縦位置
+			Tooltip: 兜の垂直位置を変更します。マイナスの値は上方向になります
+		}
+
+		ChestplateOffset: {
+			Label: 胸当ての縦位置
+			Tooltip: 胸当ての垂直位置を変更します。マイナスの値は上方向になります	
+		}
+
+		GreavesOffset: {
+			Label: すね当ての縦位置
+			Tooltip: すね当ての垂直位置を変更します。マイナスの値は上方向になります
+		}
+
+		HelmetScale: {
+			Label: 兜のスケール
+			Tooltip: 兜のスケール乗数を変更します
+		}
+
+		ChestplateScale: {
+			Label: 胸当てのスケール
+			Tooltip: 胸当てのスケール乗数を変更します
+		}
+
+		GreavesScale: {
+			Label: すね当てのスケール
+			Tooltip: すね当てのスケール乗数を変更します
+		}
+
+		AloneChestplateOffset: {
+			Label: 胸当てだけのときの縦位置
+			Tooltip: 胸当てだけを装備しているときの位置を変更します
+		}
+
+		AloneChestplateScale: {
+			Label: 胸当てだけのときの胸当てのスケール
+			Tooltip: 胸当てだけを装備しているときの胸当てのスケール乗数を変更します
+		}
+
+		ChestplateWithGreavesOffset: {
+			Label: 胸当て+すね当て時の縦位置
+			Tooltip: 胸当てとすね当てを装備しているときの位置を変更します
+		}
+
+		ChestplateWithGreavesScale: {
+			Label: 胸当て+すね当て時のスケール
+			Tooltip: 胸当てとすね当てを装備しているときのスケール乗数を変更します
+		}
+
+		ArmOffsetX: {
+			Label: ゾンビの腕の横位置
+			Tooltip: ゾンビの中心を基準とした肩の横位置を変更します
+		}
+
+		ArmOffsetY: {
+			Label: ゾンビの腕の縦位置
+			Tooltip: ゾンビの中心を基準とした肩の縦位置を変更します
+		}
+
+		EnableExperimentalArm: {
+			Label: 実験的なゾンビの腕
+			Tooltip: オンにすると、ゾンビはプレイヤーの腕のテクスチャを使用して武器を持つようになります
+		}
+	}
+
+	DaytimeConfig: {
+		DaytimeSpawnChance: {
+			Label: 昼間の出現確率
+			Tooltip: ""
+		}
+
+		EnableDaytimeSpawning: {
+			Label: 昼間でも出現するか
+			Tooltip: オンにすると、ゾンビが昼間でも出現するようになります
+		}
+
+		EnableDaytimeAggression: {
+			Label: 昼間でも逃げずに追いかけてくるか
+			Tooltip: オンにすると、昼間でもゾンビが逃げずに追いかけてくるようになります
+		}
+
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	FadingSwordProjectile.DisplayName: 消えていく剣
+	FadingArmorProjectile.DisplayName: 消えていく防具
+}

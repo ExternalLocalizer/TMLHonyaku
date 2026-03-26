@@ -14,12 +14,24 @@ Items: {
 		DisplayName: 真紅のビーコン
 		Tooltip: 真紅の拡大を防ぐ、隔離の柱を投影する
 	}
+
+	BeaconConnectorItem: {
+		DisplayName: ビーコンコネクタ
+		Tooltip: 2つのビーコンを接続して保護エリアを作成することができる
+	}
+
+	ConfectionBeaconItem: {
+			DisplayName: お菓子のビーコン
+			Tooltip: お菓子楽園の拡大を防ぐ、清浄の柱を投影する
+		}
 }
 
 Tiles: {
 	HallowBeaconTile.MapEntry: 聖域のビーコン
 	CorruptionBeaconTile.MapEntry: 不浄のビーコン
 	CrimsonBeaconTile.MapEntry: 真紅のビーコン
+	BeaconConnectorTile.MapEntry: ビーコンコネクタ
+	ConfectionBeaconTile.MapEntry: お菓子のビーコン
 }
 
 Configs: {
@@ -30,6 +42,11 @@ Configs: {
 		BeaconRange: {
 			Label: ビーコンの保護範囲
 			Tooltip: ビーコンの効果が外側何マスまで及ぶか変更します
+		}
+
+		ConnectorRange: {
+			Label: ビーコンコネクタの最大距離
+			Tooltip: コネクタがビーコンと接続できる最大距離をブロック単位で変更します
 		}
 	}
 
@@ -49,6 +66,11 @@ Configs: {
 		DebugMode: {
 			Label: デバッグモード
 			Tooltip: 自分宛てのレーザーの境界線とチャットメッセージを表示します
+		}
+
+		ShowParticles: {
+			Label: ビームのパーティクルを表示する
+			Tooltip: 効果範囲を示すビームのビームのパーティクルを表示します
 		}
 	}
 }

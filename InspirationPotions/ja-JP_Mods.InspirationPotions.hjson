@@ -1,0 +1,74 @@
+Buffs: {
+	InspirationWeakness: {
+		DisplayName: アーティストブロック
+		Description: 旋律ダメージが{0}%減少
+	}
+}
+
+Items: {
+	InspirationFlower: {
+		DisplayName: 活力の葦
+		Tooltip:
+			'''
+			旋律ダメージが8%増加
+			インスピレーションポーションを自動で使用してくれる
+			'''
+	}
+
+	LesserInspirationPotion.DisplayName: 小型インスピレーションポーション
+	InspirationPotion.DisplayName: インスピレーションポーション
+	GreaterInspirationPotion.DisplayName: グレートインスピレーションポーション
+	SuperInspirationPotion.DisplayName: スーパーインスピレーションポーション
+	SupremeInspirationPotion.DisplayName: シュプリームインスピレーションポーション
+	DecorativeGreaterInspirationPotion.DisplayName: 装飾用のグレートインスピレーションポーション
+	DecorativeInspirationPotion.DisplayName: 装飾用のインスピレーションポーション
+	DecorativeLesserInspirationPotion.DisplayName: 装飾用の小型インスピレーションポーション
+	DecorativeSuperInspirationPotion.DisplayName: 装飾用のスーパーインスピレーションポーション
+	DecorativeSupremeInspirationPotion.DisplayName: 装飾用のシュプリームインスピレーションポーション
+}
+
+PotionTooltip: 回復 :  {0} インスピレーション
+Keybinds.QuickInspiration.DisplayName: クイックインスピレーション
+
+Configs: {
+	InspirationPotionsConfig: {
+		DisplayName: 共有設定
+
+		CrateDrops: {
+			Label: 箱からドロップする
+			Tooltip: このModが釣りで入手できる箱がドロップするアイテムへの影響を制御します
+		}
+	}
+
+	InspirationPotionsClientConfig: {
+		DisplayName: クライアント設定
+
+		DungeonBottles: {
+			Label: ダンジョンに設置
+			Tooltip: ワールド生成時にインスピレーションポーションがダンジョン内に設置されるかどうか変更します
+		}
+	}
+
+	CrateLoot: {
+		Tooltip: 箱のドロップ
+
+		Mixed: {
+			Label: ミックス
+			Tooltip:
+				'''
+				インスピレーションポーションは、箱からのポーションドロップ（ライフとマナ）の確率が同等となる3つ目の可能性として追加されます
+				技術的に、同じプールに追加されるため、他がドロップする確率が減少します
+				'''
+		}
+
+		Separate: {
+			Label: 別
+			Tooltip: インスピレーションポーションは、箱から入手できる確率が別（1/8）あり、他のポーションのドロップ率は通常通りです
+		}
+
+		None: {
+			Label: なし
+			Tooltip: 箱からはインスピレーションポーションを入手できません
+		}
+	}
+}
