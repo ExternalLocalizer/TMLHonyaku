@@ -1,0 +1,107 @@
+Menu: {
+	Name: 魔法少女ノ魔女裁判
+	SinglePlayer: シングルプレイヤー
+	Multiplayer: マルチプレイヤー
+	Workshop: ワークショップ
+	Credit: クレジット
+	Achievement: 実績
+	LoadText: ロード
+	GalleryText: ギャラリー
+	Options: 設定
+	SwitchManosabaBackground: ""
+	ModVersion: Ver. 1.3.1.3
+	LogoCanPlay: メインタイトル画面のロゴをクリックすると、Bloom(PV)を再生できます！
+	InGameContext: 右クリックでスキップ
+}
+
+Projectiles.NoaPainterProj.DisplayName: ノアのペインター
+
+Configs: {
+	ManosabaClientConfig: {
+		DisplayName: クライアント設定
+
+		ParticleDontEmitLight: {
+			Label: パーティクルが光らない
+			Tooltip:
+				'''
+				Modのパーティクルが光を発しなくなります（例：衣装セットのパーティクル）
+				デフォルトはオフ
+				'''
+		}
+
+		NoFinalBloomPlay: {
+			Label: ムーンロード戦後にブルーム(PV)を再生しない
+			Tooltip:
+				'''
+				ムーンロード戦後にブルーム(PV)を再生しないようにします
+				デフォルトはオフ
+				'''
+		}
+
+		UseCharactorLifeBar: {
+			Label: カスタムキャラライフバーを使用する
+			Tooltip:
+				'''
+				キャラの衣装アイテムを装備中、カスタムキャラライフバーを使用するようにします
+				デフォルトはオン
+				'''
+		}
+	}
+}
+
+Items: {
+	SakurabaEmma: {
+		DisplayName: 異界のベレー帽
+		Tooltip: これにカーソルを合わせて中クリックで効果音が切り替わる
+		FlavorTooltip: "[-忌み嫌われるもの-]"
+		RealTooltip:
+			'''
+			彼女は嫌悪感を抱かれるべき人物だ。
+			そして、誰よりも彼女を憎んでいるのは…彼女自身だ。
+			'''
+		KiangSound: 現在の効果音: キアンのみ
+		RegularSound: 現在の効果音: 通常
+	}
+
+	NatsumeAnanItem: {
+		DisplayName: 子供のスケッチブック
+		Tooltip: ""
+		SinnerType: "[-虚言の眠り姫-]"
+		SinnerTooltip:
+			'''
+			彼女は今日もまた一人で寝る。
+			誰にも危害を加えないことが、彼女自身も傷つかない理由だ。
+			'''
+	}
+
+	NoaPainter: {
+		DisplayName: ノアのペインター
+		Tooltip: ""
+		SinnerType: ""
+		SinnerTooltip: ""
+	}
+
+	NikaidouHiroItem: {
+		DisplayName: 正義の理性の花
+		Tooltip: ""
+		SinnerType: "[-正義の執行者-]"
+		SinnerTooltip:
+			'''
+			彼女が歩んできた道には、一点の瑕疵もない。
+			自己完成という理想郷には、絞首台のような忌まわしいものの居場所はない。
+			'''
+	}
+
+	JougasakiNoahItem: {
+		DisplayName: 偽りのショートハット
+		Tooltip: これにカーソルを合わせて中クリックで死亡時の効果音が切り替わる
+		SinnerType: "[-偽りの芸術家-]"
+		SinnerTooltip:
+			'''
+			彼女は激しい苦痛の中で、容赦なくもがき続ける。
+			しかし彼女は、自分を縛り付けている鎖が他ならぬ自分の尻尾であることに決して気づかない。
+			'''
+		CrySound: 現在の死亡時の効果音: 子供のすすり泣く声
+		RegularSound: 現在の死亡時の効果音: 通常
+	}
+}
