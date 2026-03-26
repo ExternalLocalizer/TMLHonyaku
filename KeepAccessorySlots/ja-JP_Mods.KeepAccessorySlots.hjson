@@ -1,0 +1,51 @@
+Configs: {
+	Item: {
+		DemonSoulLabel: デーモンソウルを入手できる
+		DemonSoulTooltip:
+			'''
+			これがオンだと、マスターモードでウォールオブフレッシュが、
+			デーモンソウルをドロップするようになります
+			デフォルト: オン
+			'''
+	}
+
+	Common: {
+		ProgLabel: 進行モード
+		ProgTooltip:
+			'''
+			進行モードを無効にするにはオフに設定してください
+			難易度に関わらず、スロットを使用する前にロックを解除する必要性を回避します
+			デフォルト: オン
+			'''
+		SlotsHeader: スロット
+		ItemHeader: アイテム
+	}
+
+	Slots: {
+		ExpertLabel: エキスパートスロットを常に解除
+		ExpertTooltip:
+			'''
+			オンにするとどの難易度でもエキスパートモードのスロットが解除されます
+			デーモンハートを使用しないと解除されないのは同じです
+			デフォルト: オン
+			'''
+		MasterLabel: マスタースロットを常に解除
+		MasterTooltip:
+			'''
+			オンにするとどの難易度でもマスターモードのスロットが解除されます
+			デーモンソウルを使用しないと解除されないのは同じです
+			デフォルト: オン
+			'''
+	}
+
+	ClientConfig.DisplayName: クライアント設定
+	ServerConfig.DisplayName: サーバー設定
+}
+
+Items: {
+	DemonSoul: {
+		ConsumedTooltip: すでに使用済みです
+		DisplayName: デーモンソウル
+		Tooltip: 他の難易度でもマスタースロットが常に解除されます
+	}
+}
