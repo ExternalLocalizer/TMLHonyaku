@@ -1,0 +1,29 @@
+Items: {
+	ZenithWhip: {
+		DisplayName: ゼニスの鞭
+		Tooltip:
+			'''
+			召喚士のための究極の鞭
+			攻撃時、敵を追尾する幻影のムチを放つ
+			「あらゆる鞭の究極点」
+			'''
+	}
+}
+
+Projectiles: {
+	ZenithWhipProjectile: {
+		DisplayName: ゼニスの鞭
+	}
+
+	PhantomWhipProjectile: {
+		DisplayName: ファントム鞭
+	}
+}
+
+Buffs: {
+	ZenithWhipBuff: {
+		DisplayName: ゼニスの刻印
+		Description: ミニオンの攻撃が30の追加ダメージを与える
+	}
+}
+

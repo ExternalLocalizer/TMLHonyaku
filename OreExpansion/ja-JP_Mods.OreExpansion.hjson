@@ -1,0 +1,53 @@
+Configs: {
+	OreExpansionConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			Ores: 鉱石群
+			Gems: 宝石群
+			Meteors: 隕石群
+			HMOres: ハードモード鉱石群
+		}
+
+		OresEnabled: {
+			Label: 鉱石群の拡張
+			Tooltip: ワールド生成時、鉱石の生成量を増やします（デフォルト: オン）
+		}
+
+		OresMult: {
+			Label: 鉱石群の拡張倍率
+			Tooltip: 鉱石総数を設定値で乗算します（デフォルト：2）
+		}
+
+		GemsEnabled: {
+			Label: 宝石群の拡張
+			Tooltip: ワールド生成時、宝石の生成量を増やします（デフォルト: オン）
+		}
+
+		GemsMult: {
+			Label: 宝石群の拡張倍率
+			Tooltip: 宝石総数を設定値で乗算します（デフォルト：2）
+		}
+
+		MeteorsEnabled: {
+			Label: 隕石群の拡張
+			Tooltip: 隕石落下時、メテオライトの生成量を増やします（デフォルト: オン）
+		}
+
+		MeteorsMult: {
+			Label: 隕石群の拡張倍率
+			Tooltip: メテオライト総数を設定値で乗算します（デフォルト：2）
+		}
+
+		HMAltarsEnabled: {
+			Label: ハードモード鉱石群の拡張
+			Tooltip: デーモンアルター破壊時、ハードモード鉱石の生成量を増やします（デフォルト: オン）
+		}
+
+		HMAltarsMult: {
+			Label: ハードモード鉱石群の拡張倍率
+			Tooltip: ハードモード鉱石総数を設定値で乗算します（デフォルト：2）
+		}
+	}
+}
+
