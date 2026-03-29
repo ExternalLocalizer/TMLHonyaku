@@ -20560,15 +20560,17 @@ tModLoader: {
 	ShowRemovedModsInfoMessageUpdatedMods:
 		'''
 
-		Removed Mods since last session. If any of these were removed in error, please click 'Downloads Dependencies' to have option to redownload
+		前回のプレイ以降に削除されたModがあります。誤って削除した場合は、「依存関係をダウンロード」をクリックすると再ダウンロードできます
 		'''
 	DependenciesNeededForOtherMods:
 		'''
 
 		いくつかの前提Modが導入されていません：
 		'''
-	InstallDependencies: Install Dependencies
-	ContinueAnyway: Continue Anyway
+	InstallDependencies: 必要な依存関係をインストール
+	RedownloadMods: Modを再ダウンロード
+	InstallDependenciesAndRedownloadMods: 依存関係をインストールしてModを再ダウンロード
+	ContinueAnyway: このまま続行
 	ModUpdatedSinceLastLaunchMessage:
 		'''
 		このMODは自動的に更新されました
@@ -20633,7 +20635,7 @@ tModLoader: {
 		必要とされています：
 		{0}
 		'''
-	TranslationModTooltip: This mod provides translations for: {0}
+	TranslationModTooltip: このModは次のMod向けに翻訳を提供します: {0}
 	ModDependencyClickTooltip:
 		'''
 		このModは以下に依存しています: {0}
@@ -20648,8 +20650,8 @@ tModLoader: {
 	BetaModCantPublishError: ベータ版のtModLoaderで作成したModは公開できません。
 	ModDescriptionMissing: ファイル {0} が存在しません。Modの有効な説明を作成してください。
 	ModDescriptionLengthTooShort: Modの説明が短すぎます。{0} を修正して有効な説明を作成してください。
-	ModDescriptionInvalid: Mod description is equal to or too similar to the description template, please create a valid description for your mod by modifying {0}.
-	ModWorkshopDescriptionInvalid: Workshop description is equal to or too similar to the description template, please create a valid description for your workshop page by modifying {0}. You can also delete {0} if you wish to use {1} as the description of your workshop page.
+	ModDescriptionInvalid: Modの説明がテンプレートと一致、または酷似しています。{0} を変更して正しい説明文を作成してください。
+	ModWorkshopDescriptionInvalid: ワークショップ説明文がテンプレートと一致、または酷似しています。{0} を修正して適切な説明を作成してください。また、{0} を削除することで {1} をワークショップページの説明として利用できます。
 	ModWorkshopIconResizeWarning: "{0} から {1} にリサイズされます。"
 	ModUsesDefaultIcon: Modのカスタムアイコンを作成してください。{0} を修正することで作成できます。
 	OutdatedModCantPublishError: 古いバージョンのtModLoaderで作成したModは公開できません。
@@ -20712,9 +20714,12 @@ tModLoader: {
 	ModConfigNotification: "通知: "
 	ModConfigModConfig: Mod設定
 	ModConfigSaveConfig: 設定を保存
+	ModConfigConfigSaved: 設定を保存
 	ModConfigBack: 戻る
 	ModConfigRevertChanges: 変更を元に戻す
+	ModConfigChangesReverted: 変更を元に戻す
 	ModConfigRestoreDefaults: デフォルト設定を復元
+	ModConfigDefaultsRestored: デフォルト設定を復元
 	ModConfigAskingServerToAcceptChanges: サーバーに変更の受け入れを依頼中...
 	ModConfigCantSaveBecauseChangesWouldRequireAReload: 変更にはリロードが必要なため、保存できません。
 	ModConfigServerSide: サーバー設定
@@ -20737,6 +20742,10 @@ tModLoader: {
 	ModConfigModLoaderButNoConfigs: このModはロードされていますが、設定オプションはありません。
 	BossBarStyle: ボスHPバーのスタイル: {0}
 	BossBarStyleNoOptions: オプションなし
+	AchievementsReset: リセット
+	AchievementsResetConfirm: 実行しますか？
+	AchievementsResetConfirmTooltip: 実績をリセットすると元に戻せません。続行してもよろしいですか？
+	AchievementsOnlyShowModded: Mod実績のみ表示
 	WorkshopDisclaimer: このアイテムを提出すると、tModLoaderの利用規約に同意したことになります。
 	NonModOwnerPublishWarning: 「{0}」という名前のModは他のMod開発者によってすでにワークショップに公開されています。このModの開発者でない場合、公開が失敗します。これはあなたのModの場合、正しいSteamアカウントでログインしているか確認してください。すべてのModは一意の内部名を持っている必要があります。
 	SteamPublishingLimit: Error: エラー: Steam tModLoaderの所有者のみがゲーム内からワークショップに公開できます。
@@ -20785,6 +20794,15 @@ tModLoader: {
 	PublishNewButton: 新しいアイテムを公開
 	DownloadProgress: ダウンロード完了: {0}%
 	DescriptionLengthExceedLimit: このMODの（ワークショップの）説明はSteamの制限{0}文字を超えています。
+	TitleLengthExceedLimit: Mod名がSteamの制限（128バイト）を超えています
+	CommandLinePublishNeedsSteam: コマンドライン公開を行うにはSteamを読み込む必要があります（-steamオプション）
+	CommandLinePublishOnlyUsableWithServerSideMods: 現在、コマンドライン公開はサーバーサイドModのみ対応しています
+	WorkshopTagNotFound: 指定されたタグ「{0}」は -publishtags に対応していません
+	TestServerModLoadingNotification:
+		'''
+		このウィンドウはサーバーサイドModがエラーなく読み込まれるかをテストしています
+		テストが完了するまで閉じないでください
+		'''
 	LoadError: "{0}の読み込み中にエラーが発生しました。"
 	LoadErrorDisabled: このModとその依存関係にあるModは自動的に無効化されました。
 	LoadErrorCulpritUnknown: 原因となるModが不明のため、tModLoaderを再起動する必要があります。
@@ -20844,8 +20862,8 @@ tModLoader: {
 	LoadErrorEffectFailedToLoad: エフェクトファイル {0} の読み込みに失敗しました。
 	LoadErrorUnknownXNBFileHint: 不明なXNBファイル {0}です。おそらく Fonts/ または Effects/ に配置する必要があります。
 	LoadErrorCannotLoadCompressedEffects: 圧縮されたエフェクトを読み込むことができません。
-	LoadErrorCallDuringLoad: "{0} may only be called after content has Loaded. Please move the offending code from a Load() hook into a SetStaticDefaults() or PostSetupContent() hook."
-	LoadErrorEquipTextureMissingParameters: AddEquipTexture requires either an item or a name be provided, but neither were found.
+	LoadErrorCallDuringLoad: "{0} はコンテンツ読み込み後にのみ実行可能です。該当コードを Load() フックから SetStaticDefaults() または PostSetupContent() フックへ移動してください。"
+	LoadErrorEquipTextureMissingParameters: AddEquipTexture には item か name の指定が必要ですが、どちらも指定されていません
 	LoadErrorNotLoading: Mod.AddContent はロード中のみ呼び出すことができます。
 	LoadErrorDuplicateName: じ名前 {1} の {0} を2つ追加することはできません。2つのクラスが異なる名前空間で同じクラス名を共有しているか、または手動で同じ名前の {0} を2つ追加した可能性があります。または、重複しているか、すでに使用されている古い名前の可能性があります。
 	LoadErrorResourceNotFoundPathHint:
@@ -20856,11 +20874,11 @@ tModLoader: {
 		    {1}
 		'''
 	LoadErrorResourceNotFoundEquipTextureHint: 装備アイテムには、プレイヤーに描画される追加のテクスチャが必要です。これはインベントリに表示されるアイテムのテクスチャとは別物です。このテクスチャが見つかりません。
-	RuntimeErrorSilentlyCaughtException: "Silently Caught Exception: "
+	RuntimeErrorSilentlyCaughtException: "例外をサイレントに捕捉しました: "
 	RuntimeErrorSeeLogsForFullTrace: (完全なトレースについては {0} を参照してください)
 	ShopOverflow: アイテムが多すぎてショップメニューに収められません！
 	PlayerSaveFail: プレイヤーの保存中にエラーが発生しました。
-	BackingUpPlayerFile: Backing up player file
+	BackingUpPlayerFile: プレイヤーファイルをバックアップ中
 	OpenLogs: ログを開く
 	OpenWebHelp: ウェブヘルプを開く
 	SkipToMainMenu: Modのロードをスキップ
@@ -20947,6 +20965,12 @@ tModLoader: {
 	MPServerModsCantDownloadReasonSigned: Modブラウザで署名されたModのみを受け入れる設定のため、
 	MPServerModsCantDownloadReasonAutomaticDownloadDisabled: 自動Modダウンロードを無効化しているため、
 	MPServerModsCantDownloadChangeSettingsHint: 設定を変更するか、サーバー管理者からModを取得する必要があります。
+	MPServerModsDownloadFromServerWarning: Modには不正なコードが含まれる可能性があります。信頼できるサーバーからのみダウンロードしてください。
+	MPServerModAvailableOnWorkshop: ワークショップで入手可能
+	MPServerModAvailableOnWorkshopLowSubscriberCount: 利用者が少ないModです。サーバーホストを信頼できますか？
+	MPServerModBannedOnWorkshop: このModはワークショップで削除（BAN）されており、危険である可能性が高いです。
+	MPServerModCustomBuild: このModはワークショップに公開されていないカスタムビルドです。サーバーホストを信頼できますか？
+	MPServerModUnableToVerify: このModの確認に失敗しました。Steamワークショップに接続できません。
 	MPShowServerConsoleYes: サーバーコンソールを表示: オン
 	MPShowServerConsoleNo: サーバーコンソールを表示: オフ
 	MPErrorModHashMismatch: ハッシュの不一致
@@ -20997,7 +21021,7 @@ tModLoader: {
 	ReloadRequiredExplanationDisable: "[c/{0}:無効化]"
 	ReloadRequiredExplanationConfigChanged: "[c/{0}:設定変更] 一時的に"
 	ReloadRequiredExplanationConfigChangedRestore: "[c/{0}:設定復元]"
-	ReloadRequiredHostAndPlayModWasDisabledHint: It is possible that a mod you had previously enabled has errors when run on the server and has been automatically disabled. Check server.log to investigate these issues. Click here to open the FAQ for this issue.
+	ReloadRequiredHostAndPlayModWasDisabledHint: 以前有効にしていたModの一部がサーバー上でエラーを起こし、自動的に無効化された可能性があります。問題の詳細は server.log を確認してください。この問題に関するFAQを開くにはここをクリックしてください。
 	ALLoading: 読み込み中...
 	ALNoEntries: 一致するエントリーがありません。
 	ALCancel: 読み込みがキャンセルされました。すべてのエントリーを表示するにはリフレッシュしてください。
@@ -21162,7 +21186,7 @@ tModLoader: {
 	MigrateIndividualPlayersHeader: 個別のプレイヤーデータを移行中...
 	MigrateIndividualWorldsHeader: 個別のワールドデータを移行...
 	MigratingWorldsText: 移行中...
-	ModsDifferentSinceLastPlay: "The following mods are different since last time you played: "
+	ModsDifferentSinceLastPlay: "前回プレイ以降に変更のあったMod: "
 	Missing1Mod: 1つのModが見つかりません
 	MissingXMods: "{0}個のModが見つかりません"
 	MissingModsListing:
@@ -21212,7 +21236,7 @@ tModLoader: {
 	MSModSourcesCantHaveSpaces: (ModSources フォルダー名にはスペースを含めることはできません)
 	MSLastBuilt: 最終ビルド: {0}
 	MSCreateMod: Modを作成
-	MSOpenCustomSourceFolder: Open custom source folder: {0}
+	MSOpenCustomSourceFolder: カスタムソースフォルダを開く: {0}
 	VersionUpgrade: Mod移行について学ぶ
 	WikiLink: Wikiにアクセスする
 	ExampleModLink: サンプルModを確認
@@ -21235,12 +21259,12 @@ tModLoader: {
 	MSNetSDKNotFound: tModLoaderでModを作成するには.NET {0} SDKをインストールする必要がありますが、検出されませんでした。以下の「.NET {0} SDKをダウンロード」ボタンをクリックしてインストール手順を確認してください。インストール後、tModLoaderを再起動する必要がある場合があります。
 	DownloadNetSDK: .NET SDK をダウンロード
 	DevModsInSandbox: tModLoaderはサンドボックス環境(例: Flatpak)で動作している場合、Modを開発できません。Steamを直接システムにインストールしてください。
-	MSSourceIssue: Mod Source Issue
-	MSSourceIssueMessage: The following error was found with the {0} mod's source code: {1}
+	MSSourceIssue: Modソースの問題
+	MSSourceIssueMessage: "{0} のMODのソースコードで以下のエラーが検出されました: {1}"
 	CreateModName: Mod名 (スペースなし)
 	CreateModDisplayName: Mod表示名
 	CreateModAuthor: Mod作成者
-	CreateModBasicSword: BasicSword (no spaces)
+	CreateModBasicSword: BasicSword (スペースなし)
 	CreateModBasicSwordHint: スキップ可能
 	CreateModFolderAlreadyExists: フォルダーは既に存在します
 	CreateModNameInvalid: Mod名が無効なC#識別子です。スペースを削除してください。
@@ -21280,16 +21304,16 @@ tModLoader: {
 	CommandModListSyncedMods: 同期されたMod:
 	CommandModListClientMods: クライアントMod:
 	CommandModListModlist: Modリスト:
-	CommandCustomSetsDescription: Displays a list of named ID sets.
+	CommandCustomSetsDescription: 定義済みのIDセット一覧を表示します
 	CommandCustomSetsUsage: /customsets [ModName|SetKey|SearchTerm] [-v (output values)] [-o (open logs folder)]
-	CommandPurgeUnloadedDescription: Removes unloaded tiles and walls from the world
+	CommandPurgeUnloadedDescription: 未ロードのタイルと壁をワールドから除去します
 	CommandPurgeUnloadedUsage: /purgeunloaded [ModName] [-t (purge tiles)] [-w (purge walls)] [-p (confirm purge action)]
 	Building: ビルド中: {0}
 	ReadingProperties: プロパティを読み込み中: {0}
 	Compiling: コンパイル中: {0}
 	CompilationResult: コンパイルが終了しました。エラー数: {0}, 警告数: {1}
 	LoadingPrecompiled: 事前コンパイル済みの {0} を {1} から読み込み中
-	EnabledEAC: Edit and continue path: {0}
+	EnabledEAC: 編集と継続（Edit and Continue）のパス: {0}
 	Packaging: パッケージ中: {0}
 	MSFinding: Modを検索中...
 	MSInstantiating: Modを構築中...
@@ -21307,7 +21331,7 @@ tModLoader: {
 	DefaultTownNPCChat: Mod作成者がチャットメッセージを追加するのを忘れています。
 	DefaultNurseCantHealChat: なぜ治癒できないのかわかりません。Mod作成者がメッセージを追加するのを忘れています。
 	NoAttackSpeedScaling: 攻撃速度には比例しない
-	SpecialAttackSpeedScaling: "{0}% benefit from attack speed boosts"
+	SpecialAttackSpeedScaling: 攻撃速度強化の効果を{0}%受ける
 	ModifiedByModsHoldSHIFT: Modで変更されています (詳細はSHIFTを押してください)
 	ModifiedByMods: "Modにより変更されています： "
 	MagicSummonHybridDamageClass: " 魔法または召喚ダメージ"
@@ -21326,9 +21350,9 @@ tModLoader: {
 	slotStack: スタック
 	slotScroll: スクロール
 	PressXToClose: 閉じるには {0} を押す
-	SharedAccessorySlotConflictMessage: One or more shared accessory conflicts with the accessories in this loadout, they have been disabled.
-	SharedAccessorySlotConflictTooltip: This shared accessory slot is disabled since it conflicts with other accessories in this loadout
-	ModAccessorySlotNoLongerSharedItemsRemoved: Some items have been moved from accessory slots to inventory due to HasEquipmentLoadoutSupport changing to true.
+	SharedAccessorySlotConflictMessage: 共有アクセサリーがこのロードアウトのアクセサリーと競合しているため、無効になっています。
+	SharedAccessorySlotConflictTooltip: この共有アクセサリースロットは、このロードアウト内の他のアクセサリーと競合しているため無効です。
+	ModAccessorySlotNoLongerSharedItemsRemoved: HasEquipmentLoadoutSupport が true に変更されたため、一部のアイテムがアクセサリースロットからインベントリへ移動されました。
 	OK: OK
 	Continue: 続行
 	DeleteModConfirm: このModを完全に削除してもよろしいですか？
@@ -21413,6 +21437,8 @@ tModLoader: {
 	TagsUtilityDescription: ユーティリティ指向のコンテンツや機能を追加します。
 	TagsLibrary: ライブラリ
 	TagsLibraryDescription: Mod制作者に役立つ追加のAPIや機能を提供します。
+	TagsTranslation: 翻訳
+	TagsTranslationDescription: 他MODの翻訳を提供します。（build.txt で translationMod = true に設定）
 	TagsQoL: QoL
 	TagsQoLDescription: あまり楽しくない作業に費やす時間を減らす機能や変更点です。
 	TagsGameplay: ゲームプレイの調整
@@ -21434,50 +21460,20 @@ tModLoader: {
 	TagsLanguage_Chinese: Simplified Chinese
 	TagsLanguage_Portuguese: Brazilian Portuguese
 	TagsLanguage_Polish: Polish
-	TagsLanguage_Description: This mod is localized for this language.
-	TagsLanguage_EnglishDescription: This mod is localized for this language.
-	TagsLanguage_SpanishDescription: This mod is localized for this language.
-	TagsLanguage_FrenchDescription: This mod is localized for this language.
-	TagsLanguage_ItalianDescription: This mod is localized for this language.
-	TagsLanguage_RussianDescription: This mod is localized for this language.
-	TagsLanguage_ChineseDescription: This mod is localized for this language.
-	TagsLanguage_PortugueseDescription: This mod is localized for this language.
-	TagsLanguage_GermanDescription: This mod is localized for this language.
-	TagsLanguage_PolishDescription: This mod is localized for this language.
-	NextInfoAccPage: Next Page
-	PreviousInfoAccPage: Previous Page
-	FirstInfoAccPage: Go To First Page
-	LastInfoAccPage: Go To Last Page
-	ModsCancel: Cancel
-	ModsNoDisableSmartModManagement: SmartModManagement will not be disabled *config*
-	EnableOnlyThisListInfo: Only enable these mods
-	ModsFavouriteAdd: Add to Favorites
-	ModsFavouriteRem: Remove from Favorites
-	ModsCancelInfo:
-		'''
-		This button cancel any mod enable/disable changes.
-		{0} Mods will be Enabled
-		{1} Mods will be Disabled
-		'''
-	ModsViewInBrowserInfo:
-		'''
-		Reveal enabled in Mod Browser.
-		Local mods are not in list.
-		Also you can share enabled mods
-		to other person for download.
-		'''
-	ClickToViewAllMods: Click to view all mods
-	ModClipboardCopy: Copy
-	ModClipboardPaste: Paste
-	ModClipboardCopyInfo:
-		'''
-		Copy filtered mods to clipboard
-		Please copy some normal text before
-		'''
-	ModClipboardPasteInfo: Set filter to mods from clipboard
-	ModClipboardCopyInfoFail: Please filter mods from ModList/ModPacks
-	NoFiltersInfo: No Filters
-	ModsViewInBrowser: In Browser
+	TagsLanguage_Description: この言語向けに対応
+	TagsLanguage_EnglishDescription: この言語向けに対応
+	TagsLanguage_SpanishDescription: この言語向けに対応
+	TagsLanguage_FrenchDescription: この言語向けに対応
+	TagsLanguage_ItalianDescription: この言語向けに対応
+	TagsLanguage_RussianDescription: この言語向けに対応
+	TagsLanguage_ChineseDescription: この言語向けに対応
+	TagsLanguage_PortugueseDescription: この言語向けに対応
+	TagsLanguage_GermanDescription: この言語向けに対応
+	TagsLanguage_PolishDescription: この言語向けに対応
+	NextInfoAccPage: 次のページへ
+	PreviousInfoAccPage: 前のページへ
+	FirstInfoAccPage: 最初のページへ
+	LastInfoAccPage: 最後のページへ
 }
 
 Conditions: {
