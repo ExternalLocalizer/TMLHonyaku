@@ -1,0 +1,119 @@
+Configs: {
+	CritSoundMode: {
+		Sound4: {
+			Label: サウンド4
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+
+		Sound1: {
+			Label: サウンド1
+			Tooltip: ""
+		}
+
+		Sound2: {
+			Label: サウンド2
+			Tooltip: ""
+		}
+
+		Sound3: {
+			Label: サウンド3
+			Tooltip: ""
+		}
+
+		Random: {
+			Label: ランダム
+			Tooltip: ""
+		}
+	}
+
+	CritVFXStyle: {
+		Tooltip: ""
+
+		Gold: {
+			Label: 黄金
+			Tooltip: ""
+		}
+
+		Fire: {
+			Label: 火炎
+			Tooltip: ""
+		}
+
+		Lightning: {
+			Label: 稲妻
+			Tooltip: ""
+		}
+
+		Shadow: {
+			Label: 影
+			Tooltip: ""
+		}
+
+		Rainbow: {
+			Label: 虹
+			Tooltip: ""
+		}
+	}
+
+	CritVFXConfig: {
+		SoundMode: {
+			Label: クリティカルサウンドモード
+			Tooltip: クリティカル時の音を選択するか、毎回ランダムにします
+		}
+
+		SoundVolume: {
+			Label: クリティカル音量
+			Tooltip: ""
+		}
+
+		ParticleSizeMultiplier: {
+			Tooltip: ""
+			Label: パーティクルサイズ倍率
+		}
+
+		ParticleIntensityMultiplier: {
+			Tooltip: ""
+			Label: パーティクル強度倍率
+		}
+
+		EnableScreenShake: {
+			Label: 画面揺れを有効化
+			Tooltip: ""
+		}
+
+		ScreenShakeStrength: {
+			Label: 画面揺れの強度
+			Tooltip: ""
+		}
+
+		DisplayName: Crit V F X 設定
+
+		EnableCritVFX: {
+			Label: クリティカルVFXを有効化
+			Tooltip: ""
+		}
+
+		Intensity: {
+			Label: VFX強度
+			Tooltip: クリティカル時に生成されるパーティクル数
+		}
+
+		Style: {
+			Label: 演出スタイル
+			Tooltip: ""
+		}
+
+		PlaySound: {
+			Label: クリティカル音を再生
+			Tooltip: ""
+		}
+
+		EnhanceCombatText: {
+			Label: クリティカルテキスト強調
+			Tooltip: ""
+		}
+	}
+}
+
