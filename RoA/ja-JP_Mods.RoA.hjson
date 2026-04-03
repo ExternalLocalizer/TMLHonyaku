@@ -1,0 +1,3115 @@
+DamageClasses.DruidClass.DisplayName:自然ダメージ
+NoNeededLargeGem: ビーコンにテレポートするには大きな宝石が必要です
+TooFar: ビーコンに十分に近づいていないとテレポートできません
+WreathUI: 花輪スロット
+WreathSlot: 花輪
+SocialWreathSlot: 衣装花輪
+ReforgeSphereText: ???
+RoADev: 「RoAの開発者に成りすますのに最適？ もちろん！」
+AchievementModNotification: 実績を確認するには、Achievement Modを有効にしてください！
+ChecklistLothorSummon: グリムドルイドから時折出現するドルイドの魂を、奥地の草木に覆われた祭壇まで導く
+ManaWords: マナ
+LifeWords: ライフ;ライフ
+WreathWords: 花輪
+ExpireLeather1: 有効期限は{0}分後です
+ExpireLeather2: 有効期限は{0}分後です
+
+Achievements: {
+
+	DefeatLothor: {
+		FriendlyName: 獣の聖餐
+		Description: 辺境の地を脅かす、復活した怪物、ロソール・ザ・ワイルドを撃破する。
+	}
+
+	MineMercuriumNugget: {
+		FriendlyName: この匂いは何？
+		Description: 体調を崩すことなく、初めてマーキュリウムの塊を採掘しよう。
+	}
+
+	OpenRootboundChest: {
+		FriendlyName: グルートの戦利品
+		Description: 地下の奥地にある、根で覆われた宝箱を開ける。
+	}
+
+	SurviveBackwoodsFog: {
+		FriendlyName: サイレントヒル
+		Description: 奥地の朝に起こる、視界が1インチ先も見えないほどの濃霧が発生するイベントを生き延びよう。
+	}
+
+	CraftDruidWreath: {
+		FriendlyName: 死後ではない
+		Description: 花を使って、花輪を初めて作成する。
+	}
+
+	DefeatEnragedLothor: {
+		FriendlyName: 鋼鉄の根性
+		Description: 激怒したロソール・ザ・ワイルドを撃破し、鉄塊を手に入れよう。
+	}
+}
+
+Bestiary: {
+
+	Lothor: ロソールの死後、何年も経ってから、彼の魂は辺獄から引き抜かれ、強力なネクロマンサーによって巨大なコウモリの体に閉じ込められた。この呪文によって生まれた生物は、まさに怪物だった。
+	Pipistrelle: ロソールのしもべたちは、任務を終えるとすぐに立ち去ろうとしている。彼らは一時的に彼の意志に従う獣なのか、それともリーダーを助けるために現れた変身したドルイドなのか？
+	PettyGoblin: この卑劣な奴は、あなたのお金を盗むチャンスを絶対に逃さない。
+	Fleder: 子どもの頃とは異なり、成体のフレダーは攻撃するのに最適なタイミングを慎重に選ぶが、強力なフェロモンによってやはり野性的な衝動に駆り立てられる。
+	BabyFleder: フレダーは大型のコウモリの一種で、奥地の豊かな栄養分を食べて育つ。
+	DruidSoul: ロソールの邪悪な儀式の参加者、あるいはその犠牲者かもしれないこの哀れな魂は、未だに呪文の魔力に縛られている。
+	Ent: ドライアドを再生させようとした試みが失敗に終わり、これらの怪物のような奇形の巨人が生まれ、ドルイドの盟約のさらなる崩壊につながった。
+	Ravencaller: 人里離れた奥地で狂気に駆られた、捉えどころのないレイヴンコーラーは、新たな住処を守る。自らの言葉を忘れてしまった彼らは、カラス類の鳴き声を醜く真似て、カラス類を操る。
+	Lumberjack: 奥地に迷い込んだ者は、二度と元通りにはならない。日光不足で肌は灰色になり、精神ももはや自分のものではなくなっていく。
+	Grimdruid: ドライアドが絶滅した後、人間は彼女たちの役割を引き継ごうとした。正義感からそうした者もいたが、多くの者にとっては、それは権力欲を満たすための単なる手段に過ぎなかった。
+	GrimDefender: はるか昔にドライアドによって召喚された自然の精霊たちは、今もなお奥地の根元付近に留まり、そこに住むあらゆる生き物を守る準備ができている。
+	Hedgehog: 奥地に生息する最も小さな動物でさえ、身を守る術を身につけている。このトゲトゲした生き物は、驚くとトゲトゲボールのように丸まる。
+	Sentinel: 生きることは辛いものだ――特に、生者でない者にとっては。ダンジョンの彷徨える魂たちが、これらの古代の鎧の中に安住の地を見つけたのも、無理もない。
+	SentinelWarrior: 不気味な地下墓地で生きた鎧を装備した相手を驚かせるのは難しい。まあ、その鎧が猛スピードで頭蓋骨を粉砕するまでは。
+	FireflyMimic: 数世紀前に魔法使いによって作られたこれらの動く人工物は、捕獲されると元の姿に戻り、再び魔法を使用できるようになる。
+	SapSlime: 樹液を採取する人から溢れ出た樹液が塊になってできるもので、表面に汚れが付いていないなら、通常のスライムよりもさらに美味しいはずなのだが...
+	// CrowdRaven: 奥地に生息するワタリガラスの亜種は、しばしば異常な行動を示し、距離を保ち、陰謀を企て、森を偵察する。まるで誰かの不親切に従うかのように
+	// SummonedRaven: 奥地に生息するワタリガラスの亜種は、しばしば異常な行動を示し、距離を保ち、陰謀を企て、森を偵察する。まるで誰かの不親切に従うかのように。
+	SentinelSpirit: 鎧を失ったこれらの哀れな魂たちは、この世界を自分たちの罪人から、そして自分たち自身からも解放するために、荒涼とした海へと飛び込む。
+	Lothor2: 歴史上最も強い力を持つドルイドである賢者ロソールは、不死の力を与えるはずだった儀式の最中に裏切られ、殺された。
+	Hog: これらの力強い獣は、邪魔されると容赦なく襲いかかってくるが、どんぐりを少し与えれば、逃げるのに十分な時間稼ぎができるだろう。
+	Archdruid: 盟約の中で最も強力なメンバーであるアーチドルイドは、再生のサイクルを永続させ、自然の心臓の供給が続く限りエントを召喚し続ける。
+	DeerSkull: ロソールを破滅的な儀式に誘い込んだ後、ネクロマンサーたちは奥地で大きな支配力を手に入れ、これらの蘇った死骸は彼らの影響力の途方もない長さを示している。
+	BackwoodsRaven: 奥地に生息するワタリガラスの亜種は、しばしば変わった行動を示す。距離を保ち、陰謀を企て、森を偵察する。まるで誰かの意地悪に従うかのように。
+	Hunter: 目的を見失った男。
+
+}
+
+Biomes: {
+	InBackwoods: 奥地で
+
+	BackwoodsBiome: {
+		DisplayName: 奥地
+		TownNPCDialogueName: 奥地
+	}
+
+	BackwoodsBiomeFog: {
+		DisplayName: 濃霧
+		TownNPCDialogueName: 濃霧
+	}
+}
+
+Buffs: {
+
+	Deceleration: {
+		DisplayName: 減速
+		Description: 水の力があなたの運動能力を蝕んでいる
+	}
+
+	Skinning: {
+		DisplayName: 皮剥き
+		Description: これが付与中に敵を倒すと生皮をドロップすることがある
+	}
+
+	WreathCharged: {
+		DisplayName: リースチャージ I
+		Description:
+			'''
+			自然ダメージが増加
+			装備した花輪の効果を一部得る
+			'''
+	}
+
+	WreathFullCharged: {
+		DisplayName: リースチャージ II
+		Description:
+			'''
+			自然ダメージが大きく増加
+			装備した花輪の効果を得る
+			'''
+	}
+
+	WreathFullCharged2: {
+		DisplayName: リースチャージ III
+		Description:
+			'''
+			自然ダメージが大きく増加
+			装備した花輪の効果と木のソウルの最大チャージボーナスを得る
+			'''
+	}
+
+	Bloodlust: {
+		DisplayName: 血への渇望
+		Description: 敵を倒すとライフが回復する
+	}
+
+	DeathWard: {
+		DisplayName: 魂の保護
+		Description: 一度だけ致命傷を防ぐ
+	}
+
+	Willpower: {
+		DisplayName: 意思の力
+		Description: 花輪のチャージ速度が15%上昇
+	}
+
+	Resilience: {
+		DisplayName: 月の再生
+		Description: 花輪のチャージの減少速度が低下
+	}
+
+	ExtraRegen: {
+		DisplayName: 再生
+		Description: ライフが徐々に回復する
+	}
+
+	Hemorrhage: {
+		DisplayName: 大量出血
+		Description: ライフが徐々に減っていく
+	}
+
+	Brightstone: {
+		DisplayName: ブライトストーンのベール
+		Description: 光る粉塵の跡を残す
+	}
+
+	DryadBlood: {
+		DisplayName: ドライアドの血
+		Description: デバフによるダメージを75%軽減
+	}
+
+	Heavy: {
+		DisplayName: ヘビー
+		Description: 落下速度が上昇
+	}
+
+	RavencallersCloakBuff: {
+		DisplayName: カラスのベール
+		Description: 敵はあなたの影を追いかけることを好んでいる
+	}
+
+	Infected: {
+		DisplayName: 感染
+		Description: ライフが徐々に減っていく
+	}
+
+	BeastPoison: {
+		DisplayName: フェロモン
+		Description: ライフが徐々に減っていき、凶暴な獣を引き寄せる
+	}
+
+	FlederForm: {
+		DisplayName: コウモリ形態
+		Description:
+			'''
+			方向キー2回押しで高速ステップ
+			{$Controls.LeftClick}を押し続けるとどんぐり爆弾をチャージできる
+			'''
+	}
+
+	CorruptionInsectForm: {
+		DisplayName: カブトムシ形態
+		Description:
+			'''
+			{$Controls.LeftClick}で毒を吐く
+			立ち止まると虫の大群を召喚する
+			'''
+	}
+
+	CrimsonInsectForm: {
+		DisplayName: カブトムシ形態
+		Description:
+			'''
+			{$Controls.LeftClick}で毒を吐く
+			立ち止まると虫の大群を召喚する
+			'''
+	}
+
+	LilPhoenixForm: {
+		DisplayName: 火の鳥形態
+		Description:
+			'''
+			空中で{$Controls.LeftClick}を押し続けると、爆発的な火力ブーストをチャージできる
+			二段ジャンプでダメージを与える残り火を残す
+			'''
+	}
+
+	Burning: {
+		DisplayName: 燃焼
+		Description: ライフが徐々に減っていく
+	}
+
+	ToxicFumes: {
+		DisplayName: 毒ガス
+		Description: 水銀鉱石の有害な蒸気があなたの肺を満たしている
+	}
+
+	ToxicFumesNoTimeDisplay: {
+		DisplayName: 毒ガス
+		Description: 水銀鉱石の有害な蒸気があなたの肺を満たしている
+	}
+
+	OniMask: {
+		DisplayName: 鬼の仮面
+		Description: 敵の出現率が低下
+	}
+
+	Weak: {
+		DisplayName: 衰弱
+		Description: 身体能力が低下
+	}
+
+	Unburning: {
+		DisplayName: 耐火
+		Description: 炎があなたを活気づける
+	}
+
+	Moth: {
+		DisplayName: モス
+		Description: モスが一緒に戦ってくれる
+	}
+
+	FlametrackerDebuff: {
+		DisplayName: フレイムトラッカーのタグ
+		Description: Mods.RoA.Buffs.FlametrackerDebuff.Description
+	}
+
+	SolidifyingSap: {
+		DisplayName: 凝固した樹液
+		Description: 動きが制限される
+	}
+
+	Fireblossom: {
+		DisplayName: ファイアブロッサム
+		Description: ファイアブロッサムが爆発する
+	}
+
+	BoneHarpyAttackDebuff: {
+		DisplayName: 骨の疲労
+		Description: アンデッドハーピーの攻撃はクールダウン中
+	}
+
+	OnFire: {
+		DisplayName: 燃えている！
+		Description: ライフが徐々に減っていく
+	}
+
+	PrismaticFavor: {
+		DisplayName: プリズムの恩恵
+		Description: クラスのダメージ増加が他のクラスにも適応される
+	}
+
+	BoneHarpyMountBuff: {
+		DisplayName: アンデッドハーピー
+		Description: ""
+	}
+
+	BloodShedAxesDebuff: {
+		DisplayName: 血塗られた斧
+		Description: ""
+	}
+
+	LittleFleder: {
+		DisplayName: リトルフレダー
+		Description: 小さな飛行士が一緒に戦ってくれ、ハートを集めてくれる
+	}
+
+	EssenceDrain: {
+		DisplayName: エッセンスの吸収
+		Description: 指からライフが染み出ていっている
+	}
+
+	SmallMoon: {
+		DisplayName: 小さな月
+		Description: 「あなたはどんな人間になりたいか？」
+	}
+
+	Root: {
+		DisplayName: トラばさみ
+		Description: 一時的に移動できない
+	}
+
+	DynastySetBonusBuff: {
+		DisplayName: 桜の精密さ
+		Description: 移動速度が上昇するが、すぐに低下していく
+	}
+
+	ElderwoodSetBonusBuff: {
+		DisplayName: 奥地の守護
+		Description: 移動速度が一時的に低下
+	}
+
+	MercuriumZipperDebuff: {
+		DisplayName: マーキュリウムジッパー
+		Description: Mods.RoA.Buffs.MercuriumZipperDebuff.Description
+	}
+
+	CosmicHat_Buff: {
+		DisplayName: 自由の星
+		Description: 「自由になった気分はどう？」
+	}
+
+	CosmicHat_Cooldown: {
+		DisplayName: 星の重荷
+		Description: 「もちろん、あなたの操り人形になってあげるわ」
+	}
+
+	Honey: {
+		DisplayName: 蜂蜜
+		Description: "{$BuffDescription.Honey}"
+	}
+}
+
+Conditions: {
+
+	//Actual Conditions
+	FlederSlayer: 激怒したロソール・ザ・ワイルドを倒すとドロップする
+	BackwoodsKeyCondition: ハードモードの奥地でドロップする
+	TanningRack: 皮剥きが付与中にドロップする
+	InBackwoods: Mods.RoA.Conditions.InBackwoods
+	BackwoodsBiome: Mods.RoA.Conditions.BackwoodsBiome
+	HasSaddle: Mods.RoA.Conditions.HasSaddleCondition
+	SailorHat: Mods.RoA.Conditions.SailorHatCondition
+	LothorEnrageMonolith: Mods.RoA.Conditions.LothorEnrageMonolith
+	HasPeegeonSet: Mods.RoA.Conditions.HasPeegeonSet
+	HasNFASet: Mods.RoA.Conditions.HasNFASet
+	HasHas2rSet: Mods.RoA.Conditions.HasHas2rSet
+
+}
+
+Configs: {
+
+	HighlightModes: {
+		Tooltip: ""
+
+		Normal: {
+			Label: 通常
+			Tooltip: ""
+		}
+
+		Always: {
+			Label: 常に
+			Tooltip: ""
+		}
+
+		Off: {
+			Label: オフ
+			Tooltip: ""
+		}
+	}
+
+	WreathDrawingModes: {
+		Tooltip: ""
+
+		Normal: {
+			Label: クラシック
+			Tooltip: ""
+		}
+
+		Normal2: {
+			Label: クラシック 2
+			Tooltip: ""
+		}
+
+		Fancy: {
+			Label: ファンシー
+			Tooltip: ""
+		}
+
+		Bars: {
+			Label: バー
+			Tooltip: ""
+		}
+
+		Fancy2: {
+			Label: ファンシー 2
+			Tooltip: ""
+		}
+
+		Bars2: {
+			Label: バー 2
+			Tooltip: ""
+		}
+	}
+
+	RoAClientConfig: {
+		DisplayName: クライアント設定
+
+		DruidLeaves: {
+			Label: ドルイドのツールチップに画像
+			Tooltip: ドルイドのアイテム名に葉っぱを追加します
+		}
+
+		HighlightMode: {
+			Label: リソースキーワードハイライト
+			Tooltip: ""
+		}
+
+		WreathDrawingMode: {
+			Label: 花輪のUIのスタイル
+			Tooltip: ""
+		}
+
+		VanillaResprites: {
+			Label: バニラのスプライトの変更
+			Tooltip: 一部のテクスチャ（例：ハーブ類やヴァイルソーン）を置き換えます
+		}
+
+		Headers: {
+			Mods: {
+				RoA: {
+					Configs: {
+						GeneralOptionsHeader: 一般オプション
+						DruidOptionsHeader: ドルイドのオプション
+					}
+				}
+			}
+		}
+
+		WreathPosition: {
+			Label: 花輪UIの位置
+			Tooltip: ""
+		}
+
+		DamageTooltipOption: {
+			Label: ドルイドのダメージのツールチップ形式
+			Label2: プレビュー
+			Tooltip: ""
+		}
+
+		DamageTooltipOption_Internal: {
+			Label: ""
+			Tooltip: ""
+		}
+
+		DamageScaling: {
+			Label: ドルイドのダメージスケーリングに関するヒント
+			Tooltip: ""
+		}
+
+		WreathSoundMode: {
+			Label: 花輪の音のスタイル
+			Tooltip: ""
+		}
+	}
+
+	RoAServerConfig: {
+		DisplayName: 設定
+
+		DropDevSets: {
+			Label: 開発者装備をドロップする
+			Tooltip: オンにするとハードモード前のトレジャーバッグからRoA開発者セットがドロップするようになります
+		}
+
+		BackwoodsWidthMultiplier: {
+			Label: 奥地バイオーム幅の乗数
+			Tooltip: ""
+		}
+
+		BackwoodsHeightMultiplier: {
+			Label: 奥地バイオームの高さの乗数
+			Tooltip: ""
+		}
+
+		EvilBiomeExtraItemChance: {
+			Label: 邪悪なバイオームの追加アイテム入手確率
+			Tooltip: シャドウオーブ/クリムゾンハートが一度に2つのアイテムをドロップできるようにします
+		}
+
+		Headers: {
+			Mods: {
+				RoA: {
+					Configs: {
+						GeneralOptionsHeader2: 一般設定
+						GenerationOptionHeader: ワールド生成設定
+					}
+				}
+			}
+		}
+
+		ChangeVanillaRecipes: {
+			Label: バニラレシピの変更
+			Tooltip: ポーションなどの複数のアイテムのレシピを置き換えます
+		}
+	}
+
+	WreathPositions: {
+		Tooltip: ""
+
+		Health: {
+			Label: 右上
+			Tooltip: ""
+		}
+
+		Player: {
+			Label: プレイヤーの上
+			Tooltip: ""
+		}
+	}
+
+	DamageTooltipOptions: {
+		Tooltip: ""
+
+		Option1: {
+			Label: "1"
+			Tooltip: ""
+		}
+
+		Option2: {
+			Label: "2"
+			Tooltip: ""
+		}
+
+		Option3: {
+			Label: "3"
+			Tooltip: ""
+		}
+
+		Option4: {
+			Label: "4"
+			Tooltip: ""
+		}
+
+		Option5: {
+			Label: "5"
+			Tooltip: ""
+		}
+	}
+
+	WreathSoundModes: {
+		Tooltip: ""
+
+		Normal: {
+			Label: クラシック
+			Tooltip: ""
+		}
+
+		Alt: {
+			Label: ファンシー
+			Tooltip: ""
+		}
+	}
+}
+
+DeathReasons: {
+
+	ToxicFumesDeathMessage0: " 温度計で遊んではいけないことを忘れていた。"
+	ToxicFumesDeathMessage1: " 最期はあっという間だった…銀色に。"
+	ToxicFumesDeathMessage2: " 防毒マスクを忘れていた。"
+	ToxicFumesDeathMessage3: " 毒性に耐えられなかった。"
+	Root0: " 昼間から死んでいる。"
+	Root1: " やり過ぎた。"
+	HunterRifle0: " 獲物となった。"
+	HunterRifle1: " 狩られた"
+
+}
+Emotes: {
+
+	LothorEmote.Command: ロソール
+	HunterEmote.Command: 狩人
+	BackwoodsEmote.Command: 奥地
+	BackwoodsFogEmote.Command: 濃霧
+	HammerEmote.Command: 槌
+
+}
+
+GameTips: {
+
+	Tip1: 時として、奥地は朝になると静まり返る。
+	Tip2: 遥か彼方の地下世界には、かつて追悼の場所があった…。
+	Tip3: 水銀は確かに有害だが、結局のところ毒物であることに変わりはない。
+	Tip4: 昔、面白い男がいたんだ。君も彼と同じくらい幸運だったらよかったのに…。
+	Tip5: 誰かが冥界に武器とコートとイスを置き忘れたようだ。
+	Tip6: 対応する宝石を所持していれば、ビーコンを使ってテレポートできる。
+	Tip7: 奥地の地下は罠でいっぱいだ！
+	Tip8: 奥地はワールドの邪悪からは安全かもしれないが、そこに眠る宝物はそうではない。
+	Tip9: 奥地の祭壇は、かつてそれを崇拝していた者たちの魂を渇望している。だが、彼らの指導者と対峙する覚悟をしておくべきだ！
+	Tip10: ドルイドは強力な獣の姿に変身できるが、それは防具を身に着けている間だけだ。
+	Tip11: いつの日か、狩人は使命を全うするかもしれない。彼がもし、自分が成し遂げるべきことを覚えていればの話だが…。
+	Tip12: ダンジョンに新たな花が芽吹こうとしている。それは、散在する残骸と、そこに残る魔法から生まれた花だ。
+	Tip13: 奥地の木々を揺すっても無駄な努力だが…代わりに木の実が手に入るかもしれない！
+
+}
+
+Items: {
+
+	ElderwoodClaws: {
+		DisplayName: エバーウッドの爪
+		Tooltip:
+			'''
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、根の柵を生やす
+			「フレダーを模して作られた」
+			'''
+	}
+
+	Elderwood: {
+		DisplayName: エバーウッド
+		Tooltip: ""
+	}
+
+	GutwrenchingHooks: {
+		DisplayName: 断腸のフック
+		Tooltip:
+			'''
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、肉と内臓を排出する
+			「クリメラを模して作られた」
+			'''
+	}
+
+	HellfireClaws: {
+		DisplayName: ヘルファイアクロー
+		Tooltip:
+			'''
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、炎の亀裂を発生させる
+			「燃え盛る爪、全てを焼き尽くす」
+			'''
+	}
+
+	HorrorPincers: {
+		DisplayName: 恐怖のペンチ
+		Tooltip:
+			'''
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、胆汁と腐敗を排出する
+			「イーターオブソウルを模して作られた」
+			'''
+	}
+
+	ThornyClaws: {
+		DisplayName: 棘の爪
+		Tooltip:
+			'''
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、小さなマンイータ―を召喚する
+			「ホーネットのように刺し、マンイーターのように噛みつく」
+			'''
+	}
+
+	ElderwoodChest: {
+		DisplayName: エバーウッドの宝箱
+		Tooltip: ""
+	}
+
+	DryadStatue: {
+		DisplayName: ドライアドの像
+		Tooltip: 「テラリアを守るために命を落とした者たちへ」
+	}
+
+	MiracleMint: {
+		DisplayName: 奇跡のミント
+		Tooltip: ""
+	}
+
+	MushroomStaff: {
+		DisplayName: 壮大な毒きのこ
+		Tooltip: ゆっくりと落ちてくる胞子を放つ
+	}
+
+	PastoralRod: {
+		DisplayName: 牧歌的な杖
+		Tooltip: 落ち葉を数枚発射する
+	}
+
+	RipePumpkin: {
+		DisplayName: 熟したカボチャ
+		Tooltip:
+			'''
+			重いカボチャを投げつける
+			投げて少ししてから攻撃すると種をばら撒く
+			'''
+	}
+
+	ExoticTulip: {
+		DisplayName: 神秘的なチューリップ
+		Tooltip: 花の軌跡を残す、ピンク色の花びらを飛ばす
+	}
+
+	SweetTulip: {
+		DisplayName: 甘い香りのチューリップ
+		Tooltip: ハチを引き寄せるオレンジ色の花びらを飛ばす
+	}
+
+	WeepingTulip: {
+		DisplayName: 滴るチューリップ
+		Tooltip: 敵か地形に当たると魔法の爆発を起こす青い花びらを発射する
+	}
+
+	PineCone: {
+		DisplayName: 松ぼっくり
+		Tooltip: 松ぼっくりを落下させる
+	}
+
+	CactiCaster: {
+		DisplayName: サボテンの杖
+		Tooltip: 地面からサボテンの球を出現させ、カーソルに向けて放つ
+	}
+
+	SpikedIceStaff: {
+		DisplayName: 氷の棘の杖
+		Tooltip: カーソル位置に到達した後に落下するつららを最大で3本発射する
+	}
+
+	LuminousFlower: {
+		DisplayName: 光り輝く花
+		Tooltip: 「いい匂いがするし、光り輝いている」
+	}
+
+	Bonerose: {
+		DisplayName: 骨のバラ
+		Tooltip: ""
+	}
+
+	DiabolicDaikatana: {
+		DisplayName: 閻魔刀
+		Tooltip:
+			'''
+			剣戟の渦を解き放つ
+			「やる気があるのか？」
+			'''
+	}
+
+	RodOfTheDragonfire: {
+		DisplayName: 火葬の杖
+		Tooltip: 敵を追尾するヘルバットを発射する
+	}
+
+	RodOfTheStream: {
+		DisplayName: 流れの杖
+		Tooltip: 水流を3つ発射する
+	}
+
+	RodOfTheShock: {
+		DisplayName: 電撃の杖
+		Tooltip:
+			'''
+			稲妻を発射する
+			稲妻は敵の防御力を無視する
+			'''
+	}
+
+	RodOfTheTerra: {
+		DisplayName: 地震の杖
+		Tooltip: エネルギーをチャージ後、震動ビームを発射する
+	}
+
+	RodOfTheCondor: {
+		DisplayName: コンドルの杖
+		Tooltip: 幽玄な翼の力で使い手を前方へ飛ばす
+	}
+
+	BeastBow: {
+		DisplayName: 嘆きの弓
+		Tooltip:
+			'''
+			不正確に矢を数本発射する
+			33%の確率で矢を消費しない
+			「弓のために泣いているのは主人なのか、それとも弓が主人のために泣いているのか？」
+			'''
+	}
+
+	DoubleFocusCharm: {
+		DisplayName: くすんだお守り
+		Tooltip: 自然潜在ダメージが3増加
+	}
+
+	BandOfNature: {
+		DisplayName: 自然の腕輪
+		Tooltip: 花輪のチャージ速度が15%上昇
+	}
+
+	BandOfPurity: {
+		DisplayName: 清浄の腕輪
+		Tooltip:
+			'''
+			花輪のチャージ速度が20%上昇
+			花輪がチャージされていると、ライフ自然回復を増進
+			'''
+	}
+
+	GiantTreeSapling: {
+		DisplayName: 巨木の苗木
+		Tooltip:
+			'''
+			花輪のチャージ速度が15%上昇
+			花輪がチャージされていると、防御力が5増加
+			'''
+	}
+
+	FireflyPin: {
+		DisplayName: ホタルのピン
+		Tooltip: リースのチャージ効果が完全に終了すると、さらに効果が2秒間持続する
+	}
+
+	RavencallersCloak: {
+		DisplayName: レイヴンコーラーのマント
+		Tooltip: 敵の注意を引く影を発生させる
+	}
+
+	Tapper: {
+		DisplayName: タッパー
+		Tooltip: 時間をかけて木から樹脂を集める
+	}
+
+	Galipot: {
+		DisplayName: 樹脂
+		Tooltip: 「ボトルがなければ、とっくに逃げていっていただろう！」
+	}
+
+	AnimalLeather: {
+		DisplayName: 粗い生皮
+		Tooltip: なめし棚で加工できる
+	}
+
+	RoughLeather: {
+		DisplayName: 粗い皮
+		Tooltip: なめし棚で加工できる
+	}
+
+	SpoiledRawhide: {
+		DisplayName: 傷んだ革
+		Tooltip: 十分に速やかに精製されなかった、腐敗した残骸
+	}
+
+	TanningRack: {
+		DisplayName: なめし棚
+		Tooltip:
+			'''
+			敵から生皮を入手できるようになる
+			痛む前に加工台で加工する必要がある
+			効果が有効な間は設置できない
+			'''
+	}
+
+	BloodlustPotion: {
+		DisplayName: 血への渇望のポーション
+		Tooltip: 敵を倒すとライフが回復する
+	}
+
+	DeathWardPotion: {
+		DisplayName: 魂の保護のポーション
+		Tooltip:
+			'''
+			一度だけ致命傷を防ぐ
+			ポーション酔いを60秒間受ける
+			「送り主の手に委ねられている」
+			'''
+	}
+
+	WillpowerPotion: {
+		DisplayName: 意思の力のポーション
+		Tooltip:
+			'''
+			花輪のチャージ速度が上昇
+			「意志力の15%集中」
+			'''
+	}
+
+	ResiliencePotion: {
+		DisplayName: 月の再生のポーション
+		Tooltip: 花輪のチャージの減少速度が80%低下
+	}
+
+	//Wreaths
+
+	TwigWreath: {
+		DisplayName: 小枝の花輪
+		Tooltip: 自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で5%軽減する
+	}
+
+	ForestWreath: {
+		DisplayName: 森林の花輪 I
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で5%軽減する
+			花輪がチャージされていると、最大ライフが20増加
+			'''
+	}
+
+	ForestWreath2: {
+		DisplayName: 森林の花輪 II
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で10%軽減する
+			花輪がチャージされていると、最大ライフが40増加
+			'''
+	}
+
+	SnowWreath: {
+		DisplayName: 雪原の花輪 I
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で5%軽減する
+			花輪がチャージされていると、自然クリティカル率が4%上昇
+			'''
+	}
+
+	SnowWreath2: {
+		DisplayName: 雪原の花輪 II
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で10%軽減する
+			花輪がチャージされていると、自然クリティカル率が8%上昇
+			'''
+	}
+
+	JungleWreath: {
+		DisplayName: ジャングルの花輪 I
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で5%軽減する
+			花輪がチャージされていると、触れた敵にダメージを与える
+			'''
+	}
+
+	JungleWreath2: {
+		DisplayName: ジャングルの花輪 II
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で10%軽減する
+			花輪がチャージされていると、触れた敵にダメージを与える
+			'''
+	}
+
+	BeachWreath: {
+		DisplayName: ビーチの花輪 I
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で5%軽減する
+			花輪がチャージされていると、移動速度が7%上昇
+			'''
+	}
+
+	BeachWreath2: {
+		DisplayName: ビーチの花輪 II
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、被ダメージを最大で10%軽減する
+			花輪がチャージされていると、移動速度が15%上昇
+			'''
+	}
+
+	FenethsBlazingWreath: {
+		DisplayName: 燃え盛る花輪
+		Tooltip:
+			'''
+			自然ダメージを与えることで花輪がチャージされ、攻撃時に最大25%の確率で敵と自身に燃え盛る炎の花を咲かせる
+			花輪がチャージされていると、自然武器のノックバックが増加し、炎の花が時間経過で爆発して近くの敵に広がる 
+			'''
+	}
+
+	Cloudberry: {
+		DisplayName: クラウドベリー
+		Tooltip: 1秒ごとにライフを回復
+	}
+
+	SoulOfTheWoods: {
+		DisplayName: 木のソウル
+		Tooltip:
+			'''
+			花輪をさらにチャージできる
+			2つ目の花輪がチャージされていると、脈動するオーラを放つ
+			'''
+	}
+
+	BrightstonePotion: {
+		DisplayName: ブライトストーンポーション
+		Tooltip: 光る粉塵の軌跡を残す
+	}
+
+	DryadBloodPotion: {
+		DisplayName: ドライアドの血のポーション
+		Tooltip: ダメージを受けるデバフへの耐性が高まる
+	}
+
+	WeightPotion: {
+		DisplayName: ウェイトポーション
+		Tooltip:
+			'''
+			落下ダメージを無効化
+			落下速度が上昇
+			'''
+	}
+
+	ElderwoodChest2: {
+		DisplayName: 根詰まりの宝箱
+		Tooltip: ""
+	}
+
+	HellfireFractureTest: {
+		DisplayName: ヘルファイアフラクチャーテスト
+		Tooltip: ""
+	}
+
+	SapStream: {
+		DisplayName: サップストリーム
+		Tooltip: 地面に張り付く樹液を発射する
+	}
+
+	Woodbinder: {
+		DisplayName: ウッドバインダーケーン
+		Tooltip: カーソルの位置に木の障壁を出現させる
+	}
+
+	SlipperyBomb: {
+		DisplayName: つるつるな爆弾
+		Tooltip:
+			'''
+			ブロックと壁を破壊できる小さな爆発を起こす
+			固いブロックを貫通する
+			'''
+	}
+
+	SlipperyDynamite: {
+		DisplayName: つるつるなダイナマイト
+		Tooltip:
+			'''
+			ブロックと壁を破壊できる大きな爆発を起こす
+			固いブロックを貫通する
+			'''
+	}
+
+	SlipperyGlowstick: {
+		DisplayName: つるつるな蛍光棒
+		Tooltip:
+			'''
+			水中でも使える
+			固いブロックを貫通する
+			'''
+	}
+
+	SlipperyGrenade: {
+		DisplayName: つるつるな手榴弾
+		Tooltip:
+			'''
+			ブロックと壁を破壊しない小さな爆発を起こす
+			固いブロックを貫通する
+			'''
+	}
+
+	LivingBorealWoodChestplate: {
+		DisplayName: リビングボーリアルウッドの胸当て
+		Tooltip: 自然クリティカル率が4%上昇
+	}
+
+	LivingBorealWoodGreaves: {
+		DisplayName: リビングボーリアルウッドのすね当て
+		Tooltip: 自然潜在ダメージが3%増加
+	}
+
+	LivingBorealWoodHelmet: {
+		DisplayName: リビングボーリアルウッドの兜
+		Tooltip: 自然潜在ダメージが3%増加
+	}
+
+	LivingWoodChestplate: {
+		DisplayName: リビングウッドの胸当て
+		Tooltip: 自然潜在ダメージが4%増加
+	}
+
+	LivingWoodGreaves: {
+		DisplayName: リビングウッドのすね当て
+		Tooltip: ""
+	}
+
+	LivingWoodHelmet: {
+		DisplayName: リビングウッドの兜
+		Tooltip: ""
+	}
+
+	LivingMahoganyChestplate: {
+		DisplayName: リビングマホガニーの胸当て
+		Tooltip: 自然ダメージが4%増加
+	}
+
+	LivingMahoganyGreaves: {
+		DisplayName: リビングマホガニーのすね当て
+		Tooltip: 自然クリティカル率が3%上昇
+	}
+
+	LivingMahoganyHelmet: {
+		DisplayName: リビングマホガニーの兜
+		Tooltip: 自然クリティカル率が3%上昇
+	}
+
+	EbonwoodStaff: {
+		DisplayName: エボンウッドの杖
+		Tooltip: 葉を落とす、不浄の枝を生やして攻撃する
+	}
+
+	ShadewoodStaff: {
+		DisplayName: シェイドウッドの杖
+		Tooltip: 葉を落とす、真紅の枝を生やして攻撃する
+	}
+
+	BloomingDoom: {
+		DisplayName: 開花の杖
+		Tooltip: 花を生やして攻撃する
+	}
+
+	BrilliantBouquet: {
+		DisplayName: 光り輝くブーケ
+		Tooltip:
+			'''
+			鮮やかな花びらのブーケを放ち、それぞれの花びらには特別な効果がある
+			花輪がチャージされていると、花の軌道が残るようになる
+			'''
+	}
+
+	SacrificialSickleOfTheMoon: {
+		DisplayName: 月の犠牲の鎌
+		Tooltip: 月相に応じて月の力を伝達する
+	}
+
+	ElathaAmulet: {
+		DisplayName: エラサのお守り
+		Tooltip: 月相を進める
+	}
+
+	LivingElderwoodBreastplate: {
+		DisplayName: リビングエバーウッドの胸当て
+		Tooltip: 花輪がチャージされていると、防御力が4増加
+	}
+
+	LivingElderwoodCrown: {
+		DisplayName: リビングエバーウッドの王冠
+		Tooltip: 自然潜在ダメージが5%増加
+	}
+
+	LivingElderwoodGreaves: {
+		DisplayName: リビングエバーウッドのすね当て
+		Tooltip: 自然ダメージが5%増加
+	}
+
+	DreadheartCorruptionChestplate: {
+		DisplayName: 恐怖の心の胸当て
+		Tooltip:
+			'''
+			自然潜在ダメージが8%増加
+			自然武器のノックバックが増加
+			'''
+	}
+
+	DreadheartCorruptionHelmet: {
+		DisplayName: 恐怖の心の兜
+		Tooltip: 自然クリティカル率が5%上昇
+	}
+
+	DreadheartCorruptionLeggings: {
+		DisplayName: 恐怖の心のすね当て
+		Tooltip: 自然クリティカル率が5%上昇
+	}
+
+	DreadheartCrimsonChestplate: {
+		DisplayName: 恐怖の心の胸当て
+		Tooltip:
+			'''
+			自然ダメージが8%増加
+			自然武器のノックバックが増加
+			'''
+	}
+
+	DreadheartCrimsonHelmet: {
+		DisplayName: 恐怖の心の兜
+		Tooltip: 自然クリティカル率が5%上昇
+	}
+
+	DreadheartCrimsonLeggings: {
+		DisplayName: 恐怖の心のすね当て
+		Tooltip: 自然クリティカル率が5%上昇
+	}
+
+	TectonicCane: {
+		DisplayName: 地殻変動の杖
+		Tooltip: 下からファイアボールを発射する柱を召喚する
+	}
+
+	AshwalkerHood: {
+		DisplayName: 灰歩きのフード
+		Tooltip: 自然潜在ダメージが6%増加
+	}
+
+	AshwalkerLeggings: {
+		DisplayName: 灰歩きのレギンス
+		Tooltip: 自然潜在ダメージが6%増加
+	}
+
+	AshwalkerRobe: {
+		DisplayName: 灰歩きのローブ
+		Tooltip: 自然基本ダメージが10%増加
+	}
+
+	MercuriumOre: {
+		DisplayName: マーキュリウム鉱石
+		Tooltip: 「そんなものは持っちゃいけない…」
+	}
+
+	Grimstone: {
+		DisplayName: 深層岩
+		Tooltip: ""
+	}
+
+	MercuriumNugget: {
+		DisplayName: マーキュリウムの塊
+		Tooltip: 「もう持っても大丈夫！」
+	}
+
+	MillionDollarPainting: {
+		DisplayName: 100万ドルの絵画
+		Tooltip: 「V.F.D.」
+	}
+
+	TheLegend: {
+		DisplayName: 伝説
+		Tooltip: 「C.ナイト」
+	}
+
+	LuminousFlowerHat: {
+		DisplayName: 光り輝く花の帽子
+		Tooltip:
+			'''
+			移動時に光る
+			「もう臭いはしない…なのに周囲を明るく照らしてくれる」
+			'''
+	}
+
+	ElderTorch: {
+		DisplayName: 奥地のたいまつ
+		Tooltip: ""
+	}
+
+	FlamingFabric: {
+		DisplayName: 燃える布
+		Tooltip: ""
+	}
+
+	NaturesHeart: {
+		DisplayName: 自然の心
+		Tooltip: 「より高次の存在の接ぎ木された残滓」
+	}
+
+	DeerSkull: {
+		DisplayName: 鹿のドクロ
+		Tooltip: 自然クリティカル率が4%上昇
+	}
+
+	OniMask: {
+		DisplayName: 鬼の仮面
+		Tooltip: 妖怪を怖がらせる
+	}
+
+	ElderwoodBathtub: {
+		DisplayName: エバーウッドの浴槽
+		Tooltip: ""
+	}
+
+	ElderwoodBed: {
+		DisplayName: エバーウッドのベッド
+		Tooltip: ""
+	}
+
+	ElderwoodBookcase: {
+		DisplayName: エバーウッドの本棚
+		Tooltip: ""
+	}
+
+	ElderwoodCandelabra: {
+		DisplayName: エバーウッドの燭台
+		Tooltip: ""
+	}
+
+	ElderwoodCandle: {
+		DisplayName: エバーウッドの蝋燭
+		Tooltip: ""
+	}
+
+	ElderwoodChair: {
+		DisplayName: エバーウッドのイス
+		Tooltip: ""
+	}
+
+	ElderwoodChandelier: {
+		DisplayName: エバーウッドのシャンデリア
+		Tooltip: ""
+	}
+
+	ElderwoodClock: {
+		DisplayName: エバーウッドの時計
+		Tooltip: ""
+	}
+
+	ElderwoodDoor: {
+		DisplayName: エバーウッドのドア
+		Tooltip: ""
+	}
+
+	ElderwoodDresser: {
+		DisplayName: エバーウッドのドレッサー
+		Tooltip: ""
+	}
+
+	ElderwoodLamp: {
+		DisplayName: エバーウッドのランプ
+		Tooltip: ""
+	}
+
+	ElderwoodLantern: {
+		DisplayName: エバーウッドのランタン
+		Tooltip: ""
+	}
+
+	ElderwoodPiano: {
+		DisplayName: エバーウッドのピアノ
+		Tooltip: ""
+	}
+
+	ElderwoodPlatform: {
+		DisplayName: エバーウッドの足場
+		Tooltip: ""
+	}
+
+	ElderwoodSink: {
+		DisplayName: エバーウッドのシンク
+		Tooltip: ""
+	}
+
+	ElderwoodSofa: {
+		DisplayName: エバーウッドのソファ
+		Tooltip: ""
+	}
+
+	ElderwoodTable: {
+		DisplayName: エバーウッドのテーブル
+		Tooltip: ""
+	}
+
+	ElderwoodWorkbench: {
+		DisplayName: エバーウッドの作業台
+		Tooltip: ""
+	}
+
+	WeaknessPotion: {
+		DisplayName: 衰弱のポーション
+		Tooltip: これを投げつけると敵の身体能力が低下する
+	}
+
+	AlchemicalSkull: {
+		DisplayName: 錬金術のドクロ
+		Tooltip: 燃えるブロックのダメージ、毒、毒ガスを無効化
+	}
+
+	Coffin: {
+		DisplayName: 棺桶
+		Tooltip: ダメージを受けると骨を放ち、その後棺に戻す
+	}
+
+	Herbarium: {
+		DisplayName: 植物標本
+		Tooltip:
+			'''
+			倒した敵が時折薬草をドロップするようになる
+			花輪がチャージされていると、チャージを消費してライフを追加で回復する
+			'''
+	}
+
+	MagicHerb1: {
+		DisplayName: 薬草
+		Tooltip: ""
+	}
+
+	MagicHerb2: {
+		DisplayName: 薬草
+		Tooltip: ""
+	}
+
+	MagicHerb3: {
+		DisplayName: 薬草
+		Tooltip: ""
+	}
+
+	BizarreCowboyHat: {
+		DisplayName: 奇妙なカウボーイハット
+		Tooltip: 「ニョホホ」
+	}
+
+	DinoHat: {
+		DisplayName: 恐竜の帽子
+		Tooltip:
+			'''
+			「恐ろしい怪物、超不気味な奴ら
+			私を逃げ回らせる、恐怖に駆り立てて」
+			'''
+	}
+
+	JockeyHat: {
+		DisplayName: 騎手の帽子
+		Tooltip: 「-100% 走行速度」
+	}
+
+	MentorsHat: {
+		DisplayName: 助言者の帽子
+		Tooltip: ""
+	}
+
+	PresidentJacket: {
+		DisplayName: 大統領のコート
+		Tooltip: ""
+	}
+
+	PresidentPants: {
+		DisplayName: 大統領のパンツ
+		Tooltip: ""
+	}
+
+	PresidentWig: {
+		DisplayName: 大統領のウイッグ
+		Tooltip: ""
+	}
+
+	SailorHat: {
+		DisplayName: セーラー帽
+		Tooltip: 「オレはいったい誰なんだッ！？」
+	}
+
+	StoneMask: {
+		DisplayName: 普通のマスク
+		Tooltip: 「呪われた」
+	}
+
+	StrangerCoat: {
+		DisplayName: 旅人のコート
+		Tooltip: ""
+	}
+
+	StrangerPants: {
+		DisplayName: 旅人のパンツ
+		Tooltip: ""
+	}
+
+	DevilHunterCloak: {
+		DisplayName: デビルハンターのコート
+		Tooltip: ""
+	}
+
+	DevilHunterPants: {
+		DisplayName: デビルハンターのパンツ
+		Tooltip: ""
+	}
+
+	BunnyHat: {
+		DisplayName: ウサギの帽子
+		Tooltip: ""
+	}
+
+	BunnyJacket: {
+		DisplayName: ウサギのジャケット
+		Tooltip: ""
+	}
+
+	BunnyPants: {
+		DisplayName: ウサギのパンツ
+		Tooltip: ""
+	}
+
+	FlinxFurUshanka: {
+		DisplayName: フリンクスのウシャンカ
+		Tooltip: 鞭の攻撃範囲が10%増加
+	}
+
+	CopperAcolyteHat: {
+		DisplayName: アコライトの帽子
+		Tooltip: 消費マナが6%減少
+	}
+
+	CopperAcolyteJacket: {
+		DisplayName: アコライトのジャケット
+		Tooltip: 最大マナが40増加
+	}
+
+	CopperAcolyteLeggings: {
+		DisplayName: アコライトのレギンス
+		Tooltip: 魔法クリティカル率が8%上昇
+	}
+
+	TinAcolyteHat: {
+		DisplayName: アコライトの帽子
+		Tooltip: 消費マナが6%減少
+	}
+
+	TinAcolyteJacket: {
+		DisplayName: アコライトのジャケット
+		Tooltip: 最大マナが40増加
+	}
+
+	TinAcolyteLeggings: {
+		DisplayName: アコライトのレギンス
+		Tooltip: 魔法クリティカル率が8%上昇
+	}
+
+	Moss: {
+		DisplayName: 苔
+		Tooltip: 「C. ナイト」
+	}
+
+	SoapSellersJacket: {
+		DisplayName: 石鹸売りのジャケット
+		Tooltip: ""
+	}
+
+	SoapSellersJeans: {
+		DisplayName: 石鹸売りのジーンズ 
+		Tooltip: ""
+	}
+
+	SoapSellersShades: {
+		DisplayName: 石鹸売りのサングラス
+		Tooltip: ""
+	}
+
+	Hedgehog: {
+		DisplayName: ハリネズミ
+		Tooltip: 「とがっているけど、かわいい」
+	}
+
+	OvergrownSpear: {
+		DisplayName: 生茂の槍
+		Tooltip: 「エネルギーを爆発させるために、ボールを狙え」
+	}
+
+	MothStaff: {
+		DisplayName: モスの杖
+		Tooltip: 共に戦うモスを召喚する
+	}
+
+	DynastyWoodBow: {
+		DisplayName: 王朝風の木の弓
+		Tooltip: ""
+	}
+
+	ElderwoodBow: {
+		DisplayName: エバーウッドの弓
+		Tooltip: ""
+	}
+
+	MercuriumBolter: {
+		DisplayName: マーキュリウムの機械弓
+		Tooltip: 一度に矢を複数発射する
+	}
+
+	MercuriumBolt: {
+		DisplayName: マーキュリウムの矢
+		Tooltip: 「非常に毒性が強い」
+	}
+
+	DynastyWoodSword: {
+		DisplayName: 王朝風の木の剣
+		Tooltip: ""
+	}
+
+	ElderwoodSword: {
+		DisplayName: エバーウッドの剣
+		Tooltip: ""
+	}
+
+	MercuriumSword: {
+		DisplayName: マーキュリウムの剣
+		Tooltip: 攻撃が当たると毒ガスを発生させる
+	}
+
+	StarFusion: {
+		DisplayName: スターフュージョン
+		Tooltip: 攻撃が当たると星で追撃する
+	}
+
+	RavensEye: {
+		DisplayName: カラスの目
+		Tooltip: ""
+	}
+
+	MercuriumStaff: {
+		DisplayName: マーキュリウムの杖
+		Tooltip: 崩れかけたマーキュリウムの破片を発射する
+	}
+
+	MiracleMintSeeds: {
+		DisplayName: 奇跡のミントの種
+		Tooltip: ""
+	}
+
+	MiracleMintPlanterBox: {
+		DisplayName: 奇跡のミントのプランター
+		Tooltip: ""
+	}
+
+	MiracleMintHangingPot: {
+		DisplayName: 吊られた奇跡のミント
+		Tooltip: ""
+	}
+
+	FlametrackerHat: {
+		DisplayName: フレイムトラッカーの帽子
+		Tooltip: マナ自然回復を大きく増進
+	}
+
+	FlametrackerJacket: {
+		DisplayName: フレイムトラッカーのジャケット
+		Tooltip:
+			'''
+			消費マナが12減少
+			魔法ダメージが5%増加
+			'''
+	}
+
+	FlametrackerPants: {
+		DisplayName: フレイムトラッカーのパンツ
+		Tooltip:
+			'''
+			消費マナが8%減少
+			魔法ダメージが5%増加
+			'''
+	}
+
+	SentinelBreastplate: {
+		DisplayName: センチネルの胸当て
+		Tooltip: 遠距離ダメージが7%増加
+	}
+
+	SentinelHelmet: {
+		DisplayName: センチネルの兜
+		Tooltip: 15%の確率で弾薬を消費しない
+	}
+
+	SentinelLeggings: {
+		DisplayName: センチネルのすね当て
+		Tooltip: 遠距離ダメージが7%増加
+	}
+
+	SentinelTaurusMask: {
+		DisplayName: センチネルの牡牛座の仮面
+		Tooltip: 走行時の加速度が増加
+	}
+
+	AmuletOfLife: {
+		DisplayName: 生命の護符
+		Tooltip: 触れるとライフが回復する、かすかな光の渦を作り出す
+	}
+
+	MercuriumAxe: {
+		DisplayName: マーキュリウムの斧
+		Tooltip: ""
+	}
+
+	MercuriumHammer: {
+		DisplayName: マーキュリウムのハンマー
+		Tooltip: ""
+	}
+
+	MercuriumPickaxe: {
+		DisplayName: マーキュリウムのつるはし
+		Tooltip: ""
+	}
+
+	WorshipperBonehelm: {
+		DisplayName: 礼拝者の骨の兜
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが8%増加
+			'''
+	}
+
+	WorshipperGarb: {
+		DisplayName: 礼拝者のガーブ
+		Tooltip:
+			'''
+			召喚ダメージが8%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	WorshipperMantle: {
+		DisplayName: 礼拝者のマント
+		Tooltip: 召喚ダメージが12%増加
+	}
+
+	SentinelShield: {
+		DisplayName: センチネルの盾
+		Tooltip: ダメージを受ける代わりに、復讐の精霊を解き放つ可能性がある
+	}
+
+	DynastyWoodBreastplate: {
+		DisplayName: 王朝風の木の胸当て
+		Tooltip: ""
+	}
+
+	DynastyWoodHelmet: {
+		DisplayName: 王朝風の木の兜
+		Tooltip: ""
+	}
+
+	DynastyWoodLeggings: {
+		DisplayName: 王朝風の木のすね当て
+		Tooltip: ""
+	}
+
+	ElderwoodChestplate: {
+		DisplayName: エバーウッドの胸当て
+		Tooltip: ""
+	}
+
+	ElderwoodHelmet: {
+		DisplayName: エバーウッドの兜
+		Tooltip: ""
+	}
+
+	ElderwoodLeggings: {
+		DisplayName: エバーウッドのすね当て
+		Tooltip: ""
+	}
+
+	DynastyWoodHammer: {
+		DisplayName: 王朝風の木のハンマー
+		Tooltip: ""
+	}
+
+	ElderwoodHammer: {
+		DisplayName: エバーウッドのハンマー
+		Tooltip: ""
+	}
+
+	CosmicHat: {
+		DisplayName: 星見の帽子
+		Tooltip:
+			'''
+			マナが少なくなると、一時的にマナを消費しなくなる
+			「自由になった気分はどうだい？」
+			'''
+	}
+
+	BackwoodsCrate: {
+		DisplayName: 奥地の箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ElderwoodFence: {
+		DisplayName: エバーウッドのフェンス
+		Tooltip: ""
+	}
+
+	ElderwoodWall: {
+		DisplayName: エバーウッドの壁
+		Tooltip: ""
+	}
+
+	PrismaticPotion: {
+		DisplayName: プリズムのポーション
+		Tooltip: クラスのダメージ増加が他のクラスにも適応される
+	}
+
+	ElderwoodToilet: {
+		DisplayName: エバーウッドのトイレ
+		Tooltip: ""
+	}
+
+	RagingBoots: {
+		DisplayName: レイジングブーツ
+		Tooltip:
+			'''
+			落下速度が上昇
+			着地時に衝撃波を発生させる
+			'''
+	}
+
+	WingIcon: {
+		DisplayName: ""
+		Tooltip: ""
+	}
+
+	PettyBag: {
+		DisplayName: ペティサック
+		Tooltip:
+			'''
+			近くのアイテムを集める魔法の袋を召喚する
+			{$Controls.RightClick}でアイテムを集める
+			'''
+	}
+
+	Beacon: {
+		DisplayName: ビーコン
+		Tooltip:
+			'''
+			宝石をチャージするとテレポート地点を作成する
+			対応する大きな宝石を所持している必要がある
+			'''
+	}
+
+	BloodshedAxe: {
+		DisplayName: 流血の斧
+		Tooltip:
+			'''
+			攻撃時にライフを消費し、攻撃した敵をマークする
+			マークした敵からライフを吸収する
+			「血が流れるだろう」
+			'''
+	}
+
+	LothorBag: {
+		DisplayName: トレジャーバッグ (ロソール)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	LothorMask: {
+		DisplayName: ロソールのマスク
+		Tooltip: ""
+	}
+
+	LothorMusicBox: {
+		DisplayName: オルゴール (ロソール)
+		Tooltip: ""
+	}
+
+	LothorTrophy: {
+		DisplayName: ロソールのトロフィー
+		Tooltip: ""
+	}
+
+	BloodbathLocket: {
+		DisplayName: 血祭りのロケット
+		Tooltip: 近くにいる敵1体につきダメージが1%、ボス1体につきダメージが5%増加（最大で25%）
+	}
+
+	ChemicalPrisoner: {
+		DisplayName: ケミカルプリズナー
+		Tooltip: 時折、撃つと砕ける毒の入ったフラスコを投げつける
+	}
+
+	FlederStaff: {
+		DisplayName: フレダースタッフ
+		Tooltip: 共に戦い、ハートを集めてくれるフレダーを召喚する
+	}
+
+	FlederSlayer: {
+		DisplayName: フレダー殺し
+		Tooltip:
+			'''
+			敵を強烈な一撃で吹き飛ばす
+			良いタイミングで攻撃すれば、さらに強力な衝撃波を放つ
+			「それは剣というにはあまりにも大きすぎた」
+			'''
+	}
+
+	Bane: {
+		DisplayName: ベイン
+		Tooltip: 敵を衰弱させる
+	}
+
+	BackwoodsDayMusicBox: {
+		DisplayName: オルゴール (奥地)
+		Tooltip: ""
+	}
+
+	// BackwoodsNightMusicBox: {
+	// DisplayName: Music Box (Backwoods)
+	// Tooltip: ""
+	// }
+
+	BackwoodsFogMusicBox: {
+		DisplayName: オルゴール (奥地の濃霧)
+		Tooltip: ""
+	}
+
+	LivingPrimordialWand: {
+		DisplayName: リビングエバーウッドの杖
+		Tooltip:
+			'''
+			消費：エバーウッド
+			リビングエバーウッドを設置
+			'''
+	}
+
+	LivingPrimordialWand2: {
+		DisplayName: エバーウッドの葉の杖
+		Tooltip:
+			'''
+			消費：エバーウッド
+			エバーウッドの葉を設置
+			'''
+	}
+
+	MoonFlower: {
+		DisplayName: 月の花
+		Tooltip: 「あなたはどんな名前で記憶されるだろうか？」
+	}
+
+	FeathersInABottle: {
+		DisplayName: 瓶詰めの羽
+		Tooltip: 空中で無限にジャンプできるが、空中ジャンプするたびに花輪のチャージを25消費する
+	}
+
+	FeathersInABalloon: {
+		DisplayName: 羽の風船
+		Tooltip:
+			'''
+			空中で無限にジャンプできるが、空中ジャンプするたびに花輪のチャージを25消費する
+			ジャンプ高度が増加
+			「天は私の上に微笑んでいる」
+			'''
+	}
+
+	BigTreeSpawner: {
+		DisplayName: 巨木スポナー
+		Tooltip: "#TEST: SPAWNS A BIG BACKWOODS TREE"
+	}
+
+	GrimstoneWall: {
+		DisplayName: 深層岩の壁
+		Tooltip: ""
+	}
+
+	Vilethorn: {
+		DisplayName: ヴァイルソーン
+		Tooltip: "{$ItemTooltip.Vilethorn}"
+	}
+
+	CrimsonRod: {
+		DisplayName: クリムゾンロッド
+		Tooltip: "{$ItemTooltip.CrimsonRod}"
+	}
+
+	BackwoodsPylon: {
+		DisplayName: 奥地のパイロン
+		Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+	}
+
+	ArchdruidBanner: {
+		DisplayName: アーチドルイドのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Archdruid.DisplayName}"
+	}
+
+	BabyFlederBanner: {
+		DisplayName: ベビーフレダーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.BabyFleder.DisplayName}"
+	}
+
+	EntBanner: {
+		DisplayName: エントのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Ent.DisplayName}"
+	}
+
+	FlederBanner: {
+		DisplayName: フレダーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Fleder.DisplayName}"
+	}
+
+	GrimDefenderBanner: {
+		DisplayName: グリムディフェンダーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.GrimDefender.DisplayName}"
+	}
+
+	GrimdruidBanner: {
+		DisplayName: グリムドルイドのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.GrimDruid.DisplayName}"
+	}
+
+	HedgehogBanner: {
+		DisplayName: ハリネズミのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Hedgehog.DisplayName}"
+	}
+
+	HogBanner: {
+		DisplayName: イノシシのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Hog.DisplayName}"
+	}
+
+	LumberjackBanner: {
+		DisplayName: ランバージャックのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Lumberjack.DisplayName}"
+	}
+
+	PettyGoblinBanner: {
+		DisplayName: ベティゴブリンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.PettyGoblin.DisplayName}"
+	}
+
+	RavencallerBanner: {
+		DisplayName: レイヴンコーラーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Ravencaller.DisplayName}"
+	}
+
+	SapSlimeBanner: {
+		DisplayName: 樹液スライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.SapSlime.DisplayName}"
+	}
+
+	SentinelBanner: {
+		DisplayName: センチネルのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.Sentinel.DisplayName}"
+	}
+
+	SentinelWarriorBanner: {
+		DisplayName: タウルスセンチネルのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.SentinelWarrior.DisplayName}"
+	}
+
+	BackwoodsGrassSeeds: {
+		DisplayName: 奥地の草の種
+		Tooltip: ""
+	}
+
+	BloodCursor: {
+		DisplayName: 血のカーソル
+		Tooltip: マウスカーソルが脈動する
+	}
+
+	BackwoodsRavenBanner: {
+		DisplayName: 奥地のカラスのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.CrowdRaven.DisplayName}, {$Mods.RoA.NPCs.SummonedRaven.DisplayName}"
+	}
+
+	Almond: {
+		DisplayName: アーモンド
+		Tooltip: "{$CommonItemTooltip.MinorStats}"
+	}
+
+	Pistachio: {
+		DisplayName: ピスタチオ
+		Tooltip: "{$CommonItemTooltip.MinorStats}"
+	}
+
+	AlmondMilk: {
+		DisplayName: アーモンドミルク
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MinorStats}
+			「頭がおかしくなりそうだ」
+			'''
+	}
+
+	SherwoodShake: {
+		DisplayName: シャーウッドシェイク
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MinorStats}
+			「最高に美味しいミルクシェイクだ」
+			'''
+	}
+
+	SphereOfAspiration: {
+		DisplayName: 理想の球
+		Tooltip: 「落とせ、燃やせ、祝福しろ、鍛造しろ、溺れさせろ、テクノマジック」
+	}
+
+	SphereOfCondor: {
+		DisplayName: コンドルの球
+		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+	}
+
+	SphereOfPyre: {
+		DisplayName: 火葬の球
+		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+	}
+
+	SphereOfQuake: {
+		DisplayName: 地震の球
+		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+	}
+
+	SphereOfShock: {
+		DisplayName: 電撃の球
+		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+	}
+
+	SphereOfStream: {
+		DisplayName: 流れの球
+		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+	}
+
+	DeerSkullBanner: {
+		DisplayName: 鹿のドクロのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.RoA.NPCs.DeerSkullHead.DisplayName}"
+	}
+
+	BackwoodsCampfire: {
+		DisplayName: 奥地のキャンプファイア
+		Tooltip: "{$ItemTooltip.Campfire}"
+	}
+
+	FogStarter: {
+		DisplayName: フォクスターター
+		Tooltip: "#TEST: STARTS/ENDS FOG IN BACKWOODS"
+	}
+
+	LothorRelic: {
+		DisplayName: ロソールのレリック
+		Tooltip: ""
+	}
+
+	ArterialSpray: {
+		DisplayName: アーティリアルスプレー
+		Tooltip: 敵を深く切り裂く
+	}
+
+	GastroIntestinalMallet: {
+		DisplayName: ガストロインテスティナルマレット
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に血の塊を噴射して攻撃する血の塊を召喚する
+			'''
+	}
+
+	Bookworms: {
+		DisplayName: 本の虫
+		Tooltip: ワームを発射する
+	}
+
+	PlanetomaStaff: {
+		DisplayName: プラネトマスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			小さなイーターたちが周回する、堕落した巣を召喚する
+			'''
+	}
+
+	JawTrap: {
+		DisplayName: トラばさみ
+		Tooltip: 誰かが中に入ると閉まる
+	}
+
+	TealMoss: {
+		DisplayName: 苔（青緑）
+		Tooltip: ""
+	}
+
+	GrimstoneBrick: {
+		DisplayName: 磨かれた深層岩
+		Tooltip: ""
+	}
+
+	FireLighter: {
+		DisplayName: ライター
+		Tooltip: 「火を起こすのに最適」
+	}
+
+	LivingBackwoodsLeavesWall: {
+		DisplayName: リビングエバーウッドの壁
+		Tooltip: ""
+	}
+
+	BackwoodsFlowerGrassWall: {
+		DisplayName: 奥地の花の壁
+		Tooltip: ""
+	}
+
+	BackwoodsGrassWall: {
+		DisplayName: 奥地の草の壁
+		Tooltip: ""
+	}
+
+	BackwoodsDungeonKey: {
+		DisplayName: 奥地の鍵
+		Tooltip: ダンジョンにある奥地の宝箱を開ける
+	}
+
+	BackwoodsDungeonChest: {
+		DisplayName: 奥地の宝箱
+		Tooltip: ""
+	}
+
+	WreathCharger: {
+		DisplayName: 花輪チャージャー
+		Tooltip: "#TEST: CHARGES DRUID WREATH"
+	}
+
+	HedgehogTerrarium: {
+		DisplayName: テラリウム（ハリネズミ）
+		Tooltip: ""
+	}
+
+	BackwoodsDungeonChest_Trapped: {
+		DisplayName: 奥地の宝箱（罠）
+		Tooltip: ""
+	}
+
+	ElderwoodChest_Trapped: {
+		DisplayName: エバーウッドの宝箱（罠）
+		Tooltip: ""
+	}
+
+	ElderwoodChest2_Trapped: {
+		DisplayName: 根詰まりの宝箱（罠）
+		Tooltip: ""
+	}
+
+	EmptyPlanterBox: {
+		DisplayName: 空のプランターボックス
+		Tooltip: 他のプランターボックスに加工できる
+	}
+
+	BackwoodsStoneChest: {
+		DisplayName: 磨かれた深層岩の宝箱
+		Tooltip: ""
+	}
+
+	GrimstoneBrickWall: {
+		DisplayName: 磨かれた深層岩の壁
+		Tooltip: ""
+	}
+
+	BackwoodsStoneChest_Trapped: {
+		DisplayName: 磨かれた深層岩の宝箱（罠）
+		Tooltip: ""
+	}
+
+	FenethStatue: {
+		DisplayName: フェネスの像
+		Tooltip: 「光の騎士団の燃える殉教者へ」
+	}
+
+	LivingPalmChestplate: {
+		DisplayName: リビングパームの胸当て
+		Tooltip: 自然潜在ダメージが4%増加
+	}
+
+	LivingPalmGreaves: {
+		DisplayName: リビングパームのすね当て
+		Tooltip: 自然基本ダメージが3%増加
+	}
+
+	LivingPalmHelmet: {
+		DisplayName: リビングパームの兜
+		Tooltip: 自然基本ダメージが3%増加
+	}
+
+	DullDaikatana: {
+		DisplayName: 壊れた閻魔刀
+		Tooltip: 「散り散りになり、迷子になった」
+	}
+
+	BoneroseHangingPot: {
+		DisplayName: 吊られた骨のバラ
+		Tooltip: ""
+	}
+
+	LothorEnrageMonolith: {
+		DisplayName: 日食のモノリス
+		Tooltip: 「これは216年に一度しか見られない光景だ…」
+	}
+
+	FlederSlayerDecoration: {
+		DisplayName: フレダー殺しの礼儀作法
+		Tooltip: 「御子に栄光あれ」 
+	}
+
+	Has2rJacket: {
+		DisplayName: The Unspeakable Oneのジャケット
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「…そして奇妙な月々が空を巡る…」
+			'''
+	}
+
+	Has2rMask: {
+		DisplayName: The Unspeakable Oneの仮面
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「黒い星が昇る夜は、なんと不思議な夜だろう…」
+			'''
+	}
+
+	Has2rPants: {
+		DisplayName: The Unspeakable Oneのパンツ
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「…しかし、さらに奇妙なのは、行方不明になったカルコサだ。」
+			'''
+	}
+
+	Has2rShades: {
+		DisplayName: The Unspeakable Oneの影
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	EldritchRing: {
+		DisplayName: エルドリッチの輪
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			{$CommonItemTooltip.FlightAndSlowfall}
+			'''
+	}
+
+	NFAHorns: {
+		DisplayName: N.F.A.のつの
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	NFAJacket: {
+		DisplayName: N.F.A.のドレスシャツ
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「主人の命令により、シャツを着るように命じられている。」
+			'''
+	}
+
+	NFAPants: {
+		DisplayName: N.F.A.のパンツ
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	NFAWings: {
+		DisplayName: N.F.A.の翼
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「さあ、翼を広げる時だ、あの羽ばたき翼、大砲だ！」
+			「何もしてくれない…」
+			'''
+	}
+
+	PeegeonChestguard: {
+		DisplayName: Peege.Onの胸当て
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	PeegeonGreaves: {
+		DisplayName: Peege.Onのすね当て
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	PeegeonHood: {
+		DisplayName: Peege.Onのフード
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	PeegeonCape: {
+		DisplayName: Peege.Onのケープ
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			{$CommonItemTooltip.FlightAndSlowfall}
+			'''
+	}
+
+	SerorkBreastplate: {
+		DisplayName: Serorkの胸当て
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	SerorkGreaves: {
+		DisplayName: Serorkのすね当て
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	SerorkHelmet: {
+		DisplayName: Serorkの兜
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	SerorkMask: {
+		DisplayName: Serorkの仮面
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	BRIPEsHeart: {
+		DisplayName: BRIPEの心
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	BRIPEsHelmet: {
+		DisplayName: BRIPEのヘルメット
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	BRIPEsRocketBoots: {
+		DisplayName: BRIPEのロケットブーツ
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	cleoChestguard: {
+		DisplayName: cleo.の胸当て
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「彼らが置き去りにした一人」
+			'''
+	}
+
+	cleoMask: {
+		DisplayName: cleo.のマスク
+		Tooltip:
+			'''
+			{$Mods.RoA.RoADev}
+			「リル・ガンサー」
+			'''
+	}
+
+	cleoPants: {
+		DisplayName: cleo.のパンツ
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	HereticHood: {
+		DisplayName: Hereticのフード
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	HereticChestguard: {
+		DisplayName: Hereticのローブ
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	HereticPants: {
+		DisplayName: Hereticの装束 
+		Tooltip: "{$Mods.RoA.RoADev}"
+	}
+
+	IOU: {
+		DisplayName: I.O.U.
+		Tooltip: 「ドルイドの武器を君に渡す義務がある」
+	}
+
+	Nihility: {
+		DisplayName: 虚無
+		Tooltip: 「N.F.A.」
+	}
+
+	Absolute: {
+		DisplayName: アブソリュート
+		Tooltip: 「N.F.A.」
+	}
+
+	Them: {
+		DisplayName: 彼ら
+		Tooltip: 「N.F.A.」
+	}
+
+	GalipotArrow: {
+		DisplayName: 樹液の矢
+		Tooltip: 敵か地形に当たると樹液が噴出する
+	}
+
+	MercuriumBullet: {
+		DisplayName: マーキュリウムの弾丸
+		Tooltip: 「『遅い』銀の弾丸とでも呼ぶべきだろう」
+	}
+
+	BackwoodsWaterFountain: {
+		DisplayName: 奥地の噴水
+		Tooltip: ""
+	}
+
+	MercuriumZipper: {
+		DisplayName: マーキュリウムジッパー
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			5回攻撃するごとにジッパーが作られ、ミニオンの攻撃が当たると開いて毒ガスを放つ
+			「ショット・キーNo.2」
+			'''
+	}
+
+	MercuriumCenser: {
+		DisplayName: マーキュリウムセンサー 
+		Tooltip:
+			'''
+			花輪のチャージの減少速度が15%低下
+			花輪がチャージされていると、毒ガスが発生する
+			「オーラって言うんだよ」
+			'''
+	}
+
+	RoyalQualityHoney: {
+		DisplayName: 高貴な出来の蜂蜜
+		Tooltip:
+			'''
+			蜂蜜のライフ自然回復増進効果が高くなる
+			「イチジク、チーズ、そして蜂蜜を少々 」
+			'''
+	}
+
+	ElderwoodBeam: {
+		DisplayName: エバーウッドの梁
+		Tooltip: ""
+	}
+
+	TealMossWall: {
+		DisplayName: 苔の壁（青緑）
+		Tooltip: ""
+	}
+
+	BackwoodsRootWall: {
+		DisplayName: 奥地の根の壁
+		Tooltip: ""
+	}
+
+	DruidSoul: {
+		DisplayName: ドルイドの魂
+		Tooltip:
+			'''
+			専用の虫取り網で捕獲できる
+			「古代の儀式を待つ、降伏した精霊」
+			'''
+	}
+
+	JewellersBelt: {
+		DisplayName: 宝石商のポーチ
+		Tooltip:
+			'''
+			死亡時に大きな宝石をドロップしない
+			これを非表示にすると、所持している大きな宝石を隠すことができる
+			'''
+	}
+
+	AltarPlacer: {
+		DisplayName: 生茂の祭壇
+		Tooltip: "#TEST: PLACES AN OVERGROWN ALTAR"
+	}
+}
+
+Items.Tooltips: {
+
+	PotentialDamage: 自然潜在ダメージ
+	DruidToolTipOption1: 花輪のチャージに比例してダメージが増加
+	DruidToolTipOption3: チャージ
+	DruidToolTipOption4_1: 自然基本ダメージ
+	FillingRate1: チャージ速度：非常に遅い
+	FillingRate2: チャージ速度：とても遅い
+	FillingRate3: チャージ速度：遅い
+	FillingRate4: チャージ速度：普通
+	FillingRate5: チャージ速度：早い
+	FillingRate6: チャージ速度：とても早い
+	FillingRate7: チャージ速度：非常に速い
+	AttackSpeed1: 攻撃速度：遅すぎる
+	AttackSpeed2: 攻撃速度：とても遅い
+	AttackSpeed3: 攻撃速度：遅い
+	AttackSpeed4: 攻撃速度：普通
+	AttackSpeed5: 攻撃速度：早い
+	AttackSpeed6: 攻撃速度：とても速い
+	AttackSpeed7: 攻撃速度：非常に早い
+	AttackSpeed8: 攻撃速度：早すぎる
+	AttackSpeed12: 潜在攻撃速度：遅すぎる
+	AttackSpeed22: 潜在攻撃速度：とても遅い
+	AttackSpeed32: 潜在攻撃速度：遅い
+	AttackSpeed42: 潜在攻撃速度：普通
+	AttackSpeed52: 潜在攻撃速度：早い
+	AttackSpeed62: 潜在攻撃速度：とても速い
+	AttackSpeed72: 潜在攻撃速度：非常に早い
+	AttackSpeed82: 潜在攻撃速度：早すぎる
+	WhenCharged: 花輪がチャージされていると
+	LivingWoodSetBonus: 花輪のチャージ速度が10%上昇
+	LivingBorealSetBonus: 花輪のチャージ速度が10%上昇
+	LivingMahoganySetBonus: 花輪のチャージ速度が10%上昇
+	LivingPalmSetBonus: 花輪のチャージ速度が10%上昇
+	DreadheartCrimsonSetBonus:
+		'''
+		花輪のチャージが最大でダメージを受けるとチャージを消費して、大量の昆虫を放つ
+		{0}入力二回でカブトムシに変身する
+		'''
+	LivingElderwoodCrownSetBonus:
+		'''
+		花輪のチャージ速度が10%上昇
+		{0}入力二回でコウモリに変身する
+		'''
+	FlinxFurUshankaSetBonus: 凍えと凍結耐性
+	AshwalkerHoodSetBonus:
+		'''
+		燃えている！の効果が反転し、逆にライフが徐々に回復するようになる
+		{0}入力二回で火の鳥に変身する
+		'''
+	AcolyteSetBonus: マナが40以下で、魔法ダメージが40%増加
+	FlametrackerSetBonus: マナが最大時に魔法武器で攻撃すると敵を追尾する弾を追加で発射し、防御力を減少させる
+	SentinelSetBonus1: 静止時、敵の位置を表示する
+	SentinelSetBonus2: 走っている方向に発射する矢の弾速が大幅に上昇
+	WorshipperSetBonus:
+		'''
+		あなたを助けるアンデッドハーピーを召喚する
+		{0}入力二回で一時的に攻撃させる
+		{1}でハーピーが一時的に運んでくれる
+		'''
+	DynastySetBonus: 近距離で攻撃を当てると移動速度が上昇する
+	ElderwoodSetBonus: 移動速度が一時的に低下するが、被ダメージを軽減することがある
+
+}
+
+Map: {
+
+	AmethystBeacon: アメジストのビーコン
+	TopazBeacon: トパーズのビーコン
+	SapphireBeacon: サファイアのビーコン
+	EmeraldBeacon: エメラルドのビーコン
+	RubyBeacon: ルビーのビーコン
+	DiamondBeacon: ダイヤモンドのビーコン
+	AmberBeacon: コハクのビーコン
+	Beacon: ビーコン
+	TeleportTo: テレポート先
+
+}
+
+MusicDisplay: {
+
+	Lothor: {
+		Author: by Croul
+		DisplayName: Lothor the Wild
+	}
+
+	Backwoods: {
+		Author: by Croul & A44
+		DisplayName: Backwoods
+	}
+
+	BackwoodsFog: {
+		Author: by A44
+		DisplayName: Fog
+	}
+}
+
+NPCs: {
+
+	Fleder.DisplayName: フレダー
+	BabyFleder.DisplayName: ベビーフレダー
+	FlederSachem.DisplayName: フレダーサチェム
+	Lumberjack.DisplayName: ランバージャック
+	Hog.DisplayName: イノシシ
+	GrimDruid.DisplayName: グリムドルイド
+	Ent.DisplayName: エント
+	EntLegs.DisplayName: エントの足
+	Archdruid.DisplayName: アーチドルイド
+	EntLegs2.DisplayName: エントの足
+	Ravencaller.DisplayName: レイヴンコーラー
+	SummonedRaven.DisplayName: 召喚されたカラス
+	GrimDefender.DisplayName: グリムディフェンダー
+	Lothor.DisplayName: ロソール・ザ・ワイルド
+	DruidSoul.DisplayName: ドルイドの魂
+	CrowdRaven.DisplayName: 不親切なカラス
+	SapSlime.DisplayName: 樹液スライム
+	Hedgehog.DisplayName: ハリネズミ
+	Sentinel.DisplayName: センチネル
+	SentinelSpirit.DisplayName: センチネルスピリット
+	SentinelWarrior.DisplayName: タウルスセンチネル
+	Pipistrelle.DisplayName: コウモリ
+	LothorSoul.DisplayName: ロソールの魂
+	PettyGoblin.DisplayName: ベティゴブリン
+	FireflyMimic.DisplayName: ホタルのミミック
+	Lothor2.DisplayName: 賢者ロソール
+	DruidSoul2.DisplayName: ドルイドの魂
+	DeerSkullBody.DisplayName: 鹿のドクロ
+	DeerSkullHead.DisplayName: 鹿のドクロ
+	DeerSkullTail.DisplayName: 鹿のドクロ
+	BackwoodsRaven.DisplayName: 不親切なカラス
+	Hunter.DisplayName: 狩人
+	Hunter2.DisplayName: 狩人
+
+}
+
+NPCs.Town: {
+
+	Hunter: {
+		Name1: ゲルマン
+		Name2: ガスコイン
+		Name3: ケイレブ
+		Name4: エヴァン
+		Name5: ヘミングウェイ
+		Name6: ゲラルト
+		Name7: フランツ
+		Name8: エルマー
+		Name9: エイハブ
+		Button1: 話す
+		Button2_1: 取引
+		Button2_2: "{$Mods.RoA.NPCs.Town.Hunter.Button2_1} (15 {$ItemName.Leather})"
+		Quote1: ほら、君の後ろだ！ああ、あれはきっと風だったんだろう。
+		Quote2: ひどく不愉快なドルイドが、この森の一帯は立ち入り禁止だと教えてくれた。その理由が少しずつ分かってきた気がするな。
+		Quote3: ここまで来た道ははっきり覚えていない。草木をかき分けて進まなければならなかったのだが、今はすぐ後ろに草木が生えているみたいだ。
+		Quote4: 昔はどんな怪物も怖くなかったが、ここの怪物はこれまでで一番恐ろしい。君も見ているだろう、坊や？
+		Quote5: 気をつけろ、巨大な獣が俺の後を追っている…いつ攻撃されてもおかしくないぞ。
+		Quote6: 急いで逃げだしたから、服の修理が必要だ。もし革を持っているなら、コインを支払うぞ。
+		Quote7: うわっ!!! またそんな風に驚かせたら、俺は爆発し始めるぞ!
+		Quote8: 銛？悪いけど、坊や、この銃は本物の弾丸を発射するんだ。
+		Quote9: 俺が暗闇を怖がるだって？冗談だろう！暗闇の方が俺を怖がるはずだ。
+		Quote10: 革が欲しいのだが、手が以前ほど安定していない。もし入手できるなら、交換してもいいぞ。
+		Quote11: 昨夜、危うく木を撃ちそうになった！本当に、まるで賢そうに微笑んでいるように見えたぞ。
+		Quote12: 待ち伏せを敢えて仕掛けてくる生き物は、俺が…俺は身を守ることができると知っておくべきだ！
+		Quote13: 木こりが12人ほど歩き回っているのを見たが、木を1本も切ってない！俺が疑問に思っているのは、誰が彼らに給料を払っているんだ！
+		Quote14: 少なくとも毒沼で迷子にならなかったのは幸いだった。信じてくれ、ああいう場所には邪悪な魂が棲んでいるんだ。
+		Quote15: 野獣狩り？ それは普通の狩りにしか聞こえないよ、坊や。
+		Quote16: 振り返るたびに木に跡が残っている。なのに、なぜかいつも同じ場所に戻ってくる！一体どんな世界なんだ？
+		Quote17: この森…そこには重苦しい歴史がのしかかっているのが感じられる。ここに留まるのは危険だぞ。
+		NotEnoughTradeQuote1: 俺は上質な革にしか興味がない！もし汚れた端切れに使い道があるなら、とっくに獲物の死骸の皮を剥いでいるぞ。
+		NotEnoughTradeQuote2: 俺を騙そうとしているのか？革を持っていないなら、俺の邪魔をするな！
+		NotEnoughTradeQuote3: お前が一番やってはいけないのは、俺みたいな必死な男を挑発することだぞ、坊や。
+		TradeQuote1: ありがとう。この革のおかげで、またいつか戦うことができるかもしれない。
+		TradeQuote2: 大変感謝している。これらの物資はとても役に立つ。
+		TradeQuote3: ありがとう、坊や。これで夜明けまでに死ぬことはないだろうと確信できた。
+		TradeQuote4: 素晴らしい！今回は、死にかけずに済んだ。
+		DropFireLighterQuote1: いいか、坊や。もう二度と会うことはないような気がする。これを受け取ってくれ…もう俺には必要ないんだ。
+	}
+
+	Dryad: {
+		IntroQuote: あなたのおかげでこの繭から解放されたわ。何世紀にもわたって沈黙の中で成長してきたことは、耐え難い苦痛だわ。
+		AwakeQuote1: 他のドライアドたちは…教えて、彼女たちは生き延びたの？いや、そうではないと思っているわ。
+		AwakeQuote2: クトゥルフとの戦争は終わったの？もしそうなら、なぜ彼の存在は未だにこの世界を苦しめているの？
+		AwakeQuote3: 世界に起きた劇的な変化が、私の覚醒を促した。強大な怪物が倒された…それはあなたの仕業だったの？
+		AwakeQuote4: これは私たちにとって大きな重荷であることは承知しているけど、この世界の均衡を取り戻す必要があるの。
+		AwakeQuote5: もっと良い場所に根を下ろせたら嬉しいな。もちろん、文字通りの意味ではないわ！
+	}
+
+	GoblinTinkerer.PettyGoblinQuote1: あの怪しい魔法の袋を持ったバカに持ち物を盗まれたのかい？でも、被害者は君だけじゃないよ。
+
+	Guide: {
+		HelpText1: あの木の繭を見たことがあるかい？あれは長い間休眠状態にある。もしかしたら、強い敵を倒せば、あれが動き出すかもしれないよ？
+		HelpText2: あの木の人形、様子を見たかい？ちょっと背中を押してあげた方がいいかもしれないよ…。
+		HelpText3: 適切な道具があれば、奥地の木々を切り倒すことを妨げるものは何もないはずだよ。
+		HelpText4: 奥深い森の中に隠された宝箱を見たことがあるかい？丈夫なつるはしがあれば、それらにたどり着けるかもしれないよ。
+		HelpText5: 奥地の祭壇は、かつてそれを崇拝した者たちの魂を渇望している。その渇望を満たせば、古代の怪物を見つけられると思うよ。
+	}
+
+}
+
+Prefixes: {
+
+	Ingrained: 根付いた
+	Fragrant: 良い香りの
+	Bountiful: 豊かな
+	Vivid: 鮮やかな
+	Withered: 枯れた
+	Rotten: 腐った
+	Ragged: ボロボロな
+	Blooming: 開花の
+	Fertile: 肥沃な
+	Nourished: 栄養豊富な
+	Thorny: とげのある
+	Stumpy: ずんぐりした
+	Irritated: 歯がゆい
+	Overripe: 熟しすぎた
+	TipsyEffect: 使用すると酔いが回る
+	Keen: "{$Prefix.Keen}"
+	Superior: "{$Prefix.Superior}"
+	Forceful: "{$Prefix.Forceful}"
+	Broken: "{$Prefix.Broken}"
+	Damaged: "{$Prefix.Damaged}"
+	Shoddy: "{$Prefix.Shoddy}"
+	Hurtful: "{$Prefix.Hurtful}"
+	Strong: "{$Prefix.Strong}"
+	Unpleasant: "{$Prefix.Unpleasant}"
+	Weak: "{$Prefix.Weak}"
+	Ruthless: "{$Prefix.Ruthless}"
+	Godly: "{$Prefix.Godly}"
+	Demonic: "{$Prefix.Demonic}"
+	Zealous: "{$Prefix.Zealous}"
+	Quick: "{$Prefix.Quick}"
+	Deadly: "{$Prefix.Deadly}"
+	Agile: "{$Prefix.Agile}"
+	Nimble: "{$Prefix.Nimble}"
+	Murderous: "{$Prefix.Murderous}"
+	Slow: "{$Prefix.Slow}"
+	Sluggish: "{$Prefix.Sluggish}"
+	Lazy: "{$Prefix.Lazy}"
+	Annoying: "{$Prefix.Annoying}"
+	Nasty: "{$Prefix.Nasty}"
+	Large: "{$Prefix.Large}"
+	Massive: "{$Prefix.Massive}"
+	//You know what else is massive?
+	Dangerous: "{$Prefix.Dangerous}"
+	Savage: "{$Prefix.Savage}"
+	Sharp: "{$Prefix.Sharp}"
+	Pointy: "{$Prefix.Pointy}"
+	Tiny: "{$Prefix.Tiny}"
+	Terrible: "{$Prefix.Terrible}"
+	Small: "{$Prefix.Small}"
+	Dull: "{$Prefix.Dull}"
+	Unhappy: "{$Prefix.Unhappy}"
+	Bulky: "{$Prefix.Bulky}"
+	Shameful: "{$Prefix.Shameful}"
+	Heavy: "{$Prefix.Heavy}"
+	Light: "{$Prefix.Light}"
+	Legendary: "{$Prefix.Legendary}"
+	DruidDamageModifier: "{0:+0;-#} 基本ダメージ"
+	DruidDamageModifierMult: "{0:+0;-#}% 基本ダメージ"
+	DruidDamageModifier1: "{0:+0;-#} ダメージ"
+	DruidDamageModifierMult1: "{0:+0;-#}% ダメージ"
+	DruidKnockbackModifier: "{0:+0;-#} ノックバック"
+	DruidKnockbackModifierMult: "{0:+0;-#}% ノックバック"
+	DruidCritModifier: "{0:+0;-#}% クリティカル率"
+	DruidPotentialDamageModifier: "{0:+0;-#} 潜在ダメージ"
+	DruidPotentialDamageModifierMult: "{0:+0;-#}% 潜在ダメージ"
+	DruidSpeedModifier: "{0:+0;-#}% 速度"
+	DruidPotentialSpeedModifier: "{0:+0;-#}% 潜在速度"
+	DruidFillingRateModifierMult: "{0:+0;-#}% チャージ速度"
+	DruidSizeModifier: "{0:+0;-#}% 大きさ"
+
+}
+
+Projectiles: {
+
+	ClawsSlash.DisplayName: 爪の斬撃
+	HemorrhageWave.DisplayName: 血の衝撃波
+	InfectedWave.DisplayName: 感染の衝撃波
+	MushroomSpore.DisplayName: キノコの胞子
+	BaseRodProjectileType.DisplayName: Base Rod Projectile Type
+	BaseRodProjectile.DisplayName: Base Rod Projectile
+	PastoralRodBase.DisplayName: 牧歌的な杖
+	PastoralRodEnergy.DisplayName: 牧歌的なエネルギー
+	ShepherdLeaves.DisplayName: 落ち葉
+	RipePumpkin.DisplayName: 熟したカボチャ
+	PumpkinSeed.DisplayName: カボチャの種
+	ExoticTulipBase.DisplayName: 神秘的なチューリップ
+	SweepTulipBase.DisplayName: 甘い香りのチューリップ
+	WeepingTulipBase.DisplayName: 滴るチューリップ
+	TulipFlower.DisplayName: チューリップ
+	TulipPetal.DisplayName: チューリップの花びら
+	Bone.DisplayName: 骨のチューリップ
+	PineCone.DisplayName: 松ぼっくり
+	CactiCasterBase.DisplayName: サボテンの杖
+	Cacti.DisplayName: サボテンの
+	CactiExplosion.DisplayName: サボテンの
+	SharpIcicle.DisplayName: 氷の棘
+	SpikedIceStaffBase.DisplayName: 氷の棘の杖
+	LumberjackAxeSlash.DisplayName: ランバージャックの斧
+	GrimBranch.DisplayName: グリムブランチ
+	VileSpike.DisplayName: ヴァイルスパイク
+	VileSpikeTip.DisplayName: ヴァイルスパイク
+	PrimordialLeaf.DisplayName: プリズムの葉
+	ArchBranch.DisplayName: アーチブランチ
+	ArchVileSpike.DisplayName: アーチバイル
+	ArchVileSpikeTip.DisplayName: アーチバイル
+	TestSlash.DisplayName: Test Slash
+	JudgementCut.DisplayName: 次元斬
+	JudgementSlash.DisplayName: 次元斬
+	DiabolicDaikatanaProj.DisplayName: 閻魔刀
+	Hellbat.DisplayName: ヘルバット
+	WaterStream.DisplayName: 水流
+	ShockLightning.DisplayName: 稲妻
+	TerraProj.DisplayName: 稲妻
+	BeastProj.DisplayName: ビースト
+	RootRing.DisplayName: 脈動するオーラ
+	GrimDefenderSpearAttack.DisplayName: グリムディフェンダーの槍
+	Brightstone.DisplayName: ブライトストーン
+	Snatcher.DisplayName: スナッチャー
+	ElderwoodWallProjectile.DisplayName: エバーウッドの壁
+	HellfireClawsSlash.DisplayName: 炎の斬撃
+	HellfireFault.DisplayName: 炎の亀裂
+	HellfireFractureTestProjectile.DisplayName: ヘルファイアフラクチャー
+	HellfireFracture.DisplayName: ヘルファイアフラクチャー
+	GalipotStream.DisplayName: 樹液
+	WoodbinderBase.DisplayName: ウッドバインダー
+	ProtectiveRoots.DisplayName: 木の障壁
+	SlipperyBomb.DisplayName: つるつるな爆弾
+	SlipperyDynamite.DisplayName: つるつるなダイナマイト
+	SlipperyGlowstick.DisplayName: つるつるな蛍光棒
+	SlipperyGrenade.DisplayName: つるつるな手榴弾
+	EbonwoodStaffBase.DisplayName: エボンウッドの杖
+	ShadewoodStaffBase.DisplayName: シェイドウッドの杖
+	Bee.DisplayName: "{$ProjectileName.Bee}"
+	TulipPetalOld.DisplayName: チューリップの花びら
+	TulipTrailOld.DisplayName: チューリップの花びら
+	WeepingTulipExplosion.DisplayName: 花びらの爆発
+	BloomingDoomBase.DisplayName: ブルーミング・ドゥーム
+	EvilBranch.DisplayName: 邪悪な枝
+	EvilLeaf.DisplayName: 邪悪な葉
+	MoonlightBeam.DisplayName: 月のビーム
+	MoonSickle.DisplayName: 月の鎌
+	MoonSigil.DisplayName: 月の印章
+	SacrificialSickle.DisplayName: 月の犠牲の鎌
+	FlederBomb.DisplayName: フレダーボム
+	FlederFlame.DisplayName: フレダーファイア
+	ToxicStream.DisplayName: 毒
+	CorruptionInsect.DisplayName: 不浄の虫
+	CrimsonInsect.DisplayName: 真紅の虫
+	TectonicCaneBase.DisplayName: 地殻変動の杖
+	TectonicCaneProjectile.DisplayName: 溶岩の柱
+	TectonicCaneProjectile2.DisplayName: 溶岩の柱
+	LilPhoenixFlames.DisplayName: 火の鳥の炎
+	LilPhoenixFlames2.DisplayName: 火の鳥の炎
+	LilPhoenixTrailFlame.DisplayName: 火の鳥の軌跡の炎
+	LilPhoenixExplosion.DisplayName: 火の鳥の爆発
+	WeaknessPotion.DisplayName: 衰弱のポーション
+	BoneArm.DisplayName: 骨の腕
+	BoneArm_Back.DisplayName: 骨の腕
+	BoneBody.DisplayName: 骨の身体
+	BoneBody_Back.DisplayName: 骨の身体
+	BoneLeg.DisplayName: 骨の足
+	BoneLeg_Back.DisplayName: 骨の足
+	BoneSkull.DisplayName: スカル
+	BoneSkull_Back.DisplayName: スカル
+	Hedgehog.DisplayName: ハリネズミ
+	OvergrownBolt.DisplayName: 生茂のボルト
+	OvergrownSpear.DisplayName: 生茂の槍
+	OvergrownSphere.DisplayName: 生茂の球
+	Moth.DisplayName: モス
+	SmallMoth.DisplayName: 小さなモス
+	MercuriumFumes.DisplayName: 毒ガス
+	MeltingStar.DisplayName: 溶けていく星
+	BloodyFeather.DisplayName: 血の羽根
+	QuicksilverBolt.DisplayName: 水銀の矢
+	TrackingBolt.DisplayName: トラッキングボルト
+	AmuletOfLifeWisps.DisplayName: ヒーリングウィスプ
+	Fireblossom.DisplayName: ファイアブロッサム
+	FireblossomExplosion.DisplayName: ファイアブロッサムの爆発
+	VengefulSpirit.DisplayName: 復讐の霊
+	CosmicMana.DisplayName: 宇宙の星
+	BoneHarpy.DisplayName: アンデッドハーピー
+	BoneHarpyFeather.DisplayName: アンデッドハーピーの羽
+	RagingBootsWave.DisplayName: レイジングブーツの衝撃波
+	PettyBag.DisplayName: ペティサック
+	TectonicCaneFlames.DisplayName: ファイアボール
+	LothorStomp.DisplayName: ロサールの足踏み
+	LothorClawsSlash.DisplayName: ロサールの爪
+	LothorAngleAttack.DisplayName: ロサールの毒
+	LothorSpike.DisplayName: ロサールの棘
+	CursedAcorn.DisplayName: 呪いのどんぐり
+	LothorScream.DisplayName: ロサールの叫び
+	LothorAngleAttack2.DisplayName: ロサールの毒
+	BloodshedAxeHeal.DisplayName: 流血の斧
+	BloodshedAxe.DisplayName: 流血の斧
+	BloodshedAxeEnergy.DisplayName: 流血の斧
+	BloodShedAxesTarget.DisplayName: 流血の斧
+	ChemicalFlask.DisplayName: 毒のフラスコ
+	ToxicCrystal1.DisplayName: フラスコの破片
+	ToxicCrystal2.DisplayName: フラスコの破片
+	ToxicCrystal3.DisplayName: フラスコの破片
+	ChemicalFlask2.DisplayName: 毒のフラスコ
+	LittleFleder.DisplayName: リトルフレダー
+	Acorn.DisplayName: どんぐり
+	FlederSlayer.DisplayName: フレダー殺し
+	WaveSlash.DisplayName: 衝撃波
+	BaneSpell.DisplayName: ベイン
+	GoblinsDagger.DisplayName: ゴブリンダガー
+	SmallMoon.DisplayName: 小さな月
+	Vilethorn.DisplayName: "{$ProjectileName.VilethornBase}"
+	VilethornTip.DisplayName: "{$ProjectileName.VilethornTip}"
+	BloodCloudMoving.DisplayName: "{$ProjectileName.BloodCloudMoving}"
+	BloodCloudRaining.DisplayName: "{$ProjectileName.BloodCloudRaining}"
+	BloodRain.DisplayName: "{$ProjectileName.CrimsonRod}"
+	ArterialSprayProjectile.DisplayName: アーティリアルスプレー
+	ArterialSprayProjectile2.DisplayName: アーティリアルスプレー
+	ArterialSprayProjectile3.DisplayName: アーティリアルスプレー
+	GastroIntestinalMalletProjectile.DisplayName: ガストロインテスティナルマレット
+	GastroIntestinalMalletProjectile2.DisplayName: ガストロインテスティナルマレット
+	BookwormsProjectile.DisplayName: 本の虫
+	PlanetomaStaffProjectile.DisplayName: プラネトマスタッフ
+	PlanetomaStaffProjectile2.DisplayName: プラネトマスタッフ
+	MercuriumBoltProjectile.DisplayName: マーキュリウムの矢
+	HunterProjectile1.DisplayName: 猟銃
+	HunterProjectile2.DisplayName: 猟銃
+	HarmonizingBeam.DisplayName: 調和の光線
+	GalipotArrowProjectile.DisplayName: 樹液の矢
+	MercuriumBulletProjectile.DisplayName: マーキュリウムの弾丸
+	GalipotStream2.DisplayName: 樹液
+	MercuriumZipperProjectile.DisplayName: マーキュリウムジッパー
+	MercuriumCenserToxicFumes.DisplayName: 毒ガス
+	LargeBee.DisplayName: "{$ProjectileName.Bee}"
+	MercuriumZipper_Effect.DisplayName: マーキュリウムジッパー
+	MercuriumZipper_MercuriumCenserToxicFumes.DisplayName: 毒ガス
+	PoisonBubble_Large.DisplayName: 毒の泡
+	PoisonBubble_Small.DisplayName: 毒の泡
+
+}
+
+Tiles: {
+
+	PrimordialSapling.MapEntry: 苗木
+	FallenTree.MapEntry: 倒木
+	MiracleMint.MapEntry: 奇跡のミント
+	ElderwoodChest.MapEntry: エバーウッドの宝箱
+	DryadStatue.MapEntry: ドライアドの像
+	DryadStatue_Rubble.MapEntry: ドライアドの像
+	TreeBranch.MapEntry: 木の枝
+	SweepTulip.MapEntry: チューリップを掃く
+	ExoticTulip.MapEntry: 神秘的なチューリップ
+	WeepingTulip.MapEntry: 滴るチューリップ
+	SweetTulip.MapEntry: 甘い香りのチューリップ
+	LuminousFlower.MapEntry: 光り輝く花
+	Bonerose.MapEntry: 骨のバラ
+	OvergrownAltar.MapEntry: 生茂の祭壇
+	LivingElderwood.MapEntry: リビングエバーウッド
+	LivingElderwood2.MapEntry: リビングエバーウッド
+	ElderwoodChair.MapEntry: エバーウッドのイス
+	ElderwoodChandelier.MapEntry: エバーウッドのシャンデリア
+	ElderwoodDoorClosed.MapEntry: エバーウッドのドア
+	ElderwoodDoorOpened.MapEntry: エバーウッドのドア
+	ElderwoodPiano.MapEntry: エバーウッドのピアノ
+	ElderwoodPlatform.MapEntry: エバーウッドの足場
+	ElderwoodTable.MapEntry: エバーウッドのテーブル
+	ElderwoodWorkbench.MapEntry: エバーウッドの作業台
+	ElderwoodBookcase.MapEntry: エバーウッドの本棚
+	Cloudberry.MapEntry: クラウドベリー
+	LivingElderwood3.MapEntry: リビングエバーウッド
+	ElderwoodChest2.MapEntry: 根詰まりの宝箱
+	Elderwood.MapEntry: エバーウッド
+	MercuriumOre.MapEntry: マーキュリウム鉱石
+	NexusGateway.MapEntry: 特異な侵入
+	OniMask.MapEntry: 鬼の仮面
+	ElderwoodDresser.MapEntry: エバーウッドのドレッサー
+	Coffin.MapEntry: 棺桶
+	Tapper.MapEntry: タッパー
+	// LothorMusicBox.MapEntry: オルゴール (ロサール)
+	BackwoodsBigTree.MapEntry: 巨木
+	BackwoodsPylonTile.MapEntry: 奥地のパイロン
+	JawTrap.MapEntry: トラばさみ
+	BackwoodsDungeonChest.MapEntry: ロックされた奥地の宝箱
+	BackwoodsDungeonChest2.MapEntry: ロックされた奥地の宝箱
+	BackwoodsStoneChest.MapEntry: 磨かれた深層岩の宝箱
+	TreeDryad.MapEntry: ドライアドの繭
+	FenethStatue.MapEntry: フェネスの像
+	TanningRack.MapEntry: なめし棚
+	DullDaikatana.MapEntry: 壊れた閻魔刀
+	FlederSlayerDecoration.MapEntry: フレダー殺し
+	//Paintings
+	MillionDollarPainting.MapEntry: 100万ドルの絵画
+	Moss.MapEntry: 苔
+	TheLegend.MapEntry: 伝説
+	Absolute.MapEntry: アブソリュート
+	Nihility.MapEntry: 虚無
+	Them.MapEntry: 彼ら
+
+}
+
+TylerMessages: {
+
+	Death: 災厄のあとにだけ、俺たちは復活できる。
+	AlmostDeath: 傷一つ残さずに死ぬのはごめんだ
+	Explosive: すべてを失ったときに初めて、何でもできる自由が得られる。
+	RedPotion: これがお前の痛みだ。これがお前の燃える手だ。ここにあるんだ。
+	KilledBunny: 彼の名前はロバートポールセン！
+	OnSell: 文明の基本的な前提を拒否しろ！
+	OnBuy: てめえの持ちもんに支配されてどうする
+	OnCall: 俺たちはみんな、同じ堆肥の一部だ
+	Idle: これはお前の人生だ。そして、1分ごとに終わっていく
+	Special: 自分の信じるもののために立ち上がる
+}
+
+Vanilla: {
+
+	CanMineElderwood: エバーウッドとヘルストーンを採掘可能
+	CanChopElderwood: エバーウッドを伐採可能
+	BezoarDesc: 毒と毒ガスを無効化
+	MedicatedBandageDesc: 毒、出血、毒ガスを無効化
+	LavaproofBugNetDesc:
+		'''
+		溶岩の生き物と迷える魂を捕まえることができる
+		「熱すぎて手を焼かされる時に」
+		'''
+	GoldenBugNetDesc:
+		'''
+		動物や虫を捕まえるのに使う
+		溶岩の生き物や迷える魂も捕まえられる！
+		'''
+}
+
+World: {
+
+	BackwoodsFree1: 奥地は真紅の呪いから解放された...
+	BackwoodsFree2: 奥地は不浄の呪いから解放された...
+	BackwoodsFog: 奥地から声が響いている...
+	LothorArrival1: 血の匂いがする...
+	LothorArrival2: 邪悪なものがこちらへやってくる...
+	BackwoodsBGIcon: 奥地
+	ElathaAmuletUsage: 月の軌道が変化していく...
+
+}
+
+WorldGen: {
+
+	Backwoods0: 年齢を重ねる
+	Backwoods: 奥地が成長中
+	Backwoods2: ドルイドの覚醒中
+	Backwoods3: さらに深く掘り下げる
+	Backwoods4: 魔法を形成中
+	Backwoods5: 悪を封印
+
+}

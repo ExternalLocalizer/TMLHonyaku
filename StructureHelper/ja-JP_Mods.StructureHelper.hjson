@@ -1,0 +1,66 @@
+Items: {
+	ChestWand: {
+		DisplayName: 宝箱の杖
+		Tooltip:
+			'''
+			右クリックして宝箱のルールメニューを開く
+			宝箱を左クリックで現在のルールを設定する
+			ルールが設定されている宝箱を右クリックすると、ルールをコピーできる
+			'''
+	}
+
+	MultistructureWand: {
+		DisplayName: マルチ建築の杖
+		Tooltip: ワールド内の2つの地点を選択し、右クリックで構造物を追加する。完了したら、インベントリ内で右クリックで保存する
+	}
+
+	StructureWand: {
+		DisplayName: 建築の杖
+		Tooltip: ワールド内の2つのポイントを選択し、右クリックして構造物を保存できる
+	}
+
+	TestWand: {
+		DisplayName: 構造物配置ワンド
+		Tooltip: 左クリックで選択した構造物を配置し、右クリックで構造物セレクターを開く
+	}
+
+	NullBlockItem: {
+		DisplayName: 無のブロック
+		Tooltip:
+			'''
+			これらを構造物内で使用して、ジェネレーターの位置を示す
+			ワールド内に既に存在するものは、そのままにしておくべきだ
+			壁を無視する。壁を無視するには無の壁を使用しよう :3
+			'''
+	}
+
+	NullTileAndWallPlacer: {
+		DisplayName: 無の設置機
+		Tooltip: 無のブロックと無の壁を同時に設置する！
+	}
+
+	NullWallItem: {
+		DisplayName: 無の壁
+		Tooltip:
+			'''
+			これらを構造物内で使用して、ジェネレーターの位置を示す
+			ワールド内に既に存在するものは、そのままにしておくべきだ
+			壁専用。その他のものには無のブロックを使用しよう
+			'''
+	}
+
+	PortingWand: {
+		DisplayName: 移植の杖
+		Tooltip: SavedStructuresディレクトリ内の全ての構造物を自動的に移植する
+	}
+
+	UnitWand: {
+		DisplayName: 杖
+		Tooltip: 自分自身へのテストです。これをそのままにしておいたら、私を殴ること。
+	}
+
+	CustomDataWand: {
+		DisplayName: カスタムデータの杖
+		Tooltip: ""
+	}
+}

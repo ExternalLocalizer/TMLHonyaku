@@ -1,0 +1,2146 @@
+
+GameTips: {
+	DepthsTip0: 正体不明の友好的なNPCが、かつての姿の結晶として深淵に囚われている。彼らを浄化する方法があればいいのだが…。
+	DepthsTip1: 正しい世界で十分に深く掘り下げれば、深淵にたどり着くかもしれない！
+	DepthsTip2: 影の石の巨人、チャスメを倒して、世界を永遠に変えよう。ジェムフォージでルビーの遺物を使うと、彼女を召喚できるかもしれない…
+	DepthsTip3: アルケライトは非常に強い毒性を持つので、水晶のドクロを作れば毒に対する耐性を得られます。
+	DepthsTip4: 水晶の肌のポーションを飲まずに、水銀に落ちないように！
+	DepthsTip5: 適切な装備があれば、最大で16秒間水銀の中にいても何の悪影響も受けません！
+	DepthsTip6: チャスメとの戦闘中、深淵と地下世界の間に魔法の障壁が作られ、それを通り抜けることで戦闘から安全に脱出することができます。
+}
+
+common: {
+	Banner: "のバナー"
+	Banner2: 以下のモンスターに対してボーナスを得る:
+}
+
+SetBonus: {
+	GeodeHelmet: 20ダメージを与えるジオードクリスタルを4つ召喚する
+	MercuryHelmet:
+		'''
+		3 防御力
+		水銀中毒を無効化
+		'''
+	NightwoodHelmet:
+		'''
+		水銀の加速の持続時間が2倍になる
+		水銀中毒の持続時間を半分にする
+		'''
+	QuartzArmor: 鞭の攻撃速度が35%上昇し、攻撃範囲が35%増加
+	OnyxRobeWizard:
+		'''
+		2 防御力
+		魔法クリティカル率が18%上昇
+		'''
+	OnyxRobeMagic:
+		'''
+		3 防御力
+		最大マナが100増加
+		'''
+	PetrifiedWoodHelmet: 被ダメージを10%軽減
+}
+
+Quest: {
+	Description: {
+		Chasmefish: 古くからの伝説によると、王家の魚が皆既日食の始まりとともに生まれ、この世の深淵へと呪いをかけられたというんだ。その魚を見つけて、その真の力を確かめて欲しいんだ！
+		Relicarp: ご存知ないなら、深淵には宝石を崇拝する魔法のカルト集団がいるんだ。彼らの儀式は私には未だに謎だけど、一つだけ分かっていることがあるよ。それは、彼らの特別な聖遺物にそっくりの魔法の魚がいるんだ。一匹捕まえてきて。鍋に入れたらどうなるか、試してみたいんだ！
+		GlimmerDepthFish: 石英の上で遊んでいたら、突然石英の塊が水銀の中に落ちて、ヒレが生えて泳ぎ去ってしまったんだ。石英はどんな味がするのか知りたいから、この魚を釣ってきて。ボクが最初に味見するよ！
+	}
+
+	CaughtLocation: {
+		Chasmefish: 洞窟で釣れる
+		Relicarp: 洞窟で釣れる
+		GlimmerDepthFish: 洞窟で釣れる
+	}
+}
+
+Recipes.NearQuicksilver: 水銀が必要
+
+ShaleConfig: {
+	SlateBlock: 粘板岩のブロック
+	ShaleBlock: 頁岩のブロック
+	SlateBricks: 粘板岩のレンガ
+	ShaleBricks: 頁岩のレンガ
+	Slatestone: 粘板岩
+	Shalestone: 頁岩
+}
+
+Bestiary: {
+	# Enemies
+	AlbinoBat: 珍しい色素変異の犠牲となったこのコウモリは、生き延びるために周囲の水銀に溶け込み、洞窟の奥深くを徘徊している。
+	Archroma: ピンキーのいとこで、密度が似ているため非常に強く、お金を食べる。
+	CrystalKing: 風水術の王である彼は、歩くことはできないが、他の多くの魔術師と同様に瞬間移動することができる。
+	Ferroslime: このスライムはトゲトゲしているように見えるかもしれないが、それは単に磁性流体がトゲ状に突き出ているだけで、実際よりも威嚇的に見えるようにしているだけだ。
+	Geomancer: 忠実な信者たちは、風水術に精通している。伝説によれば、彼らは生きたシャドウフレイムの存在を崇拝しているという。
+	GoldBat: 深淵に生息する珍しいコウモリで、地霊術師によって呪いをかけられ、宝石のような姿になった。その名とは裏腹に、実際はトパーズと同じ色をしている。
+	KingCoal: 彼は陽気な老人なんかじゃない。水晶の王のライバルである弟で、炎の中で生まれ、あなたを倒すためならどんな手も使うだろう！
+	DepthsWorm: 石とサファイアでできた蛇。その血管には水が流れている。他に類を見ないショベルを携えている。
+	Shade: 深淵を漂う純粋な闇の存在であり、空中を自由に浮遊する能力を持つ。彼らの集団は「闇の集団」と呼ばれる。
+	ShadowBat: この半分黒、半分エメラルド色のコウモリは、深淵に生息するコウモリのより強力な亜種だ。これはコウモリの影なのか、それとも影のコウモリなのか？
+	ShadowSlime: 硬化した深淵を徘徊する、真っ黒なスライム。これに触れると、重度の失明を引き起こす可能性がある。
+	EnchantedNightmareWorm: 時が経ち、地下深くへとたどり着いたワームは、悪夢の森を発見する。周囲に溶け込むことを余儀なくされた彼らは、周囲の環境が持つ自然な紫色の色合いを受け継ぐことになる。
+	QuartzCrawler: 石英の塊によく似た殻を持つ黒いカタツムリ。水銀に潜む魚にとって、特に美味しいごちそうとな​​る。
+	AlbinoRat: 周囲の石英や水銀に溶け込もうとした、珍しい色素を持つラット。こんなものでどうやって魚を捕まえるつもりなんだ？
+	Chasme: 純粋な頁岩でできた巨人。チャスメと呼ばれているが、これは彼女の破壊と安全のための深淵の道具に過ぎない。チャスメも強力だったが、彼女は決して戦いを望んでいなかった。もしかしたら、これは全て誤解だったのかもしれない。
+	ChasmeHands: チャスメが深淵を今日のような姿に形作るために作り出した頁岩の顕現。これらはディアクロップスの手によるものとは何の関係もない。あなた達は古代の精霊たちの自由のために、彼女と彼女の故郷を破壊しました。幸福には代償が伴うのだ。
+	ChasmeSoul: チャスメは皆既日食の日に生まれ、その呪いによりあなたが当時見たような姿になってしまった。彼女は地下深くに閉じ込められ、そこで全てを永遠の暗黒の淵に変えてしまった。いつか彼女の呪いが解ける日が来るのだろうかと、時々思う。
+	CrystalBoundTaxCollector: その結晶体は、チャスメが地上にもたらした混沌の時代に生きた老人の遺物である。数年後、彼の野望は彼を深淵へと誘い込み、そこでチャスメの地術師教団によって水晶に変えられてしまった。
+}
+
+PlayerDeathReason: {
+	Gemforge: {
+		0: "{0}は純粋な光でカルト集団を召喚しようとした。"
+		1: "{0}はジェムフォージを元の場所から動かした。"
+		2: "{0}は地表で遺物を燃やそうとした。"
+	}
+
+	MercuryPoisoning: {
+		0: "{0}は治療法は見つけられなかった。"
+		1: "{0}は病気で亡くなった。"
+		2: "{0}は電球を飲み込んだ。"
+		3: "{0}は特別な石を舐めた。"
+	}
+
+	ChasmeHead: {
+		0: "{0}はチャスメに貪り食われた。"
+		1: "{0}はハッチから降りていった。"
+		2: "{0}はまさに求めていたものだった。"
+	}
+}
+
+Tiles: {
+	ArqueriteOre.MapEntry: アルケライト鉱石
+	BlackTorch.MapEntry: 松明（黒）
+	CoreBuilderTile.MapEntry: コアビルダー
+	DepthsBanners.MapEntry: バナー
+	DepthsMusicBox.MapEntry: オルゴール（深淵）
+	DepthsPot.MapEntry: 深淵の壺
+	EmberUpdated.MapEntry: 残り火
+	Gemforge.MapEntry: ジェムフォージ
+	GemlockTile.MapEntry: オニキスの錠
+	GeoTorch.MapEntry: ジオードのたいまつ
+	LargeCrystal.MapEntry: 大きな水晶
+	OnyxShalestone.MapEntry: オニキスの頁岩のブロック
+	Quartz.MapEntry: 石英
+	QuartzChair.MapEntry: 石英のイス
+	QuartzDoorClosed.MapEntry: 石英のドア
+	QuartzDoorOpen.MapEntry: 石英のドア
+	QuartzTable.MapEntry: 石英のテーブル
+	QuartzWorkbench.MapEntry: 石英の作業台
+	QuicksilverDropletSource.MapEntry: 水銀のしずく
+	ShadowShrub.MapEntry: シャドウシュラブ
+	Shalestone.MapEntry: Shalestone
+	ShalestoneAmethyst.MapEntry: アメジストの頁岩のブロック
+	ShalestoneDiamond.MapEntry: ダイヤモンドの頁岩のブロック
+	ShalestoneEmerald.MapEntry: エメラルドの頁岩のブロック
+	ShalestoneRuby.MapEntry: ルビーの頁岩のブロック
+	ShalestoneSapphire.MapEntry: サファイアの頁岩のブロック
+	ShalestoneTopaz.MapEntry: トパーズの頁岩のブロック
+	PetrifiedSapling.MapEntry: 珪化木のの苗
+	NightSapling.MapEntry: ナイトウッドの苗
+	QuicksilverSensor.MapEntry: 液体センサー (水銀)
+	OtherPortal.MapEntry: 別のポータル
+	NightwoodBath.MapEntry: ナイトウッドの浴槽
+	NightwoodBed.MapEntry: ナイトウッドのベッド
+	NightwoodBookcase.MapEntry: ナイトウッドの本棚
+	NightwoodCandelabra.MapEntry: ナイトウッドの燭台
+	NightwoodCandle.MapEntry: ナイトウッドの蝋燭
+	NightwoodChair.MapEntry: ナイトウッドのイス
+	NightwoodChandelier.MapEntry: ナイトウッドのシャンデリア
+	NightwoodChest.MapEntry: ナイトウッドの宝箱
+	NightwoodClock.MapEntry: ナイトウッドの時計
+	NightwoodDoorClosed.MapEntry: ナイトウッドのドア
+	NightwoodDoorOpen.MapEntry: ナイトウッドのドア
+	NightwoodDresser.MapEntry: ナイトウッドのドレッサー
+	NightwoodLamp.MapEntry: ナイトウッドのランプ
+	NightwoodLantern.MapEntry: ナイトウッドのランタン
+	NightwoodPiano.MapEntry: ナイトウッドのピアノ
+	NightwoodSink.MapEntry: ナイトウッドのシンク
+	NightwoodSofa.MapEntry: ナイトウッドのソファ
+	NightwoodTable.MapEntry: ナイトウッドのテーブル
+	NightwoodToilet.MapEntry: ナイトウッドのトイレ
+	NightwoodWorkbench.MapEntry: ナイトウッドの作業台
+	QuartzToilet.MapEntry: 石英のトイレ
+	QuartzSofa.MapEntry: 石英のソファ
+	QuartzSink.MapEntry: 石英のシンク
+	QuartzPiano.MapEntry: 石英のピアノ
+	QuartzLantern.MapEntry: 石英のランタン
+	QuartzLamp.MapEntry: 石英のランプ
+	QuartzDresser.MapEntry: 石英のドレッサー
+	QuartzClock.MapEntry: 石英の時計
+	QuartzChest.MapEntry: 石英の宝箱
+	QuartzChandelier.MapEntry: 石英のシャンデリア
+	QuartzCandle.MapEntry: 石英の蝋燭
+	QuartzCandelabra.MapEntry: 石英の燭台
+	QuartzBookcase.MapEntry: 石英の本棚
+	QuartzBed.MapEntry: 石英のベッド
+	QuartzBath.MapEntry: 石英の浴槽
+	DepthsVanityBanners.MapEntry: バナー
+	DepthsOtherworldlyMusicBox.MapEntry: アザーワールドのオルゴール（深淵）
+	AltarOfGems.MapEntry: 宝石の祭壇
+	ForTheSakeOfMakingGadgets.MapEntry: ジェットを作るために
+	ImPurrSonation.MapEntry: なりすまし
+	Mercury.MapEntry: 水銀
+	MusiciansBestFriend.MapEntry: 混沌の猫
+	ChaosCat.MapEntry: Painting
+	DONOTDRINK.MapEntry: 飲まないで
+	WaterGeyser.MapEntry: 水の間欠泉
+	PlacedGems.MapEntry: ジオード
+	PlacedOnyx.MapEntry: オニキス
+	OnyxStone.MapEntry: オニキスのブロック
+	OnyxGemtree.MapEntry: オニキスの宝石の木
+	PetrifiedTree.MapEntry: 珪化木
+	TheUnknownDepthsBelow.MapEntry: 未知の深淵
+	NightwoodTree.MapEntry: ナイトウッド
+	NightwoodTrappedChest.MapEntry: ナイトウッドの宝箱（罠）
+	QuartzTrappedChest.MapEntry: 石英の宝箱（罠）
+	HangingShadowShrub.MapEntry: 吊られたシャドウシュラブ
+	PetrifiedWoodBath.MapEntry: 珪化木の浴槽
+	PetrifiedWoodBookcase.MapEntry: 珪化木の本棚
+	PetrifiedWoodCandelabra.MapEntry: 珪化木の燭台
+	PetrifiedWoodCandle.MapEntry: 珪化木の蝋燭
+	PetrifiedWoodChair.MapEntry: 珪化木のイス
+	PetrifiedWoodChandelier.MapEntry: 珪化木のシャンデリア
+	PetrifiedWoodChest.MapEntry: 珪化木の宝箱
+	PetrifiedWoodClock.MapEntry: 珪化木の時計
+	PetrifiedWoodDresser.MapEntry: 珪化木のドレッサー
+	PetrifiedWoodLamp.MapEntry: 珪化木のランプ
+	PetrifiedWoodLantern.MapEntry: 珪化木のランタン
+	PetrifiedWoodBedShaleSheetsAreImpossible.MapEntry: 珪化木のベッド
+	PetrifiedWoodPiano.MapEntry: 珪化木のピアノ
+	PetrifiedWoodSink.MapEntry: 珪化木のシンク
+	PetrifiedWoodSofa.MapEntry: 珪化木のソファ
+	PetrifiedWoodTable.MapEntry: 珪化木のテーブル
+	PetrifiedWoodToilet.MapEntry: 珪化木のトイレ
+	PetrifiedWoodTrappedChest.MapEntry: 珪化木の宝箱（罠）
+	PetrifiedWoodWorkbench.MapEntry: 珪化木の作業台
+	FelineTombstone.MapEntry: 猫の墓石
+}
+
+Buffs: {
+	CrystalSkin: {
+		DisplayName: 水晶の肌
+		Description: 水銀を無効化
+	}
+
+	FlaskofMercury: {
+		DisplayName: 水銀付与
+		Description: 近接攻撃に水銀の追加効果を付与
+	}
+
+	FreezingWater: {
+		DisplayName: 凍った水
+		Description: 動けない！
+		}
+
+	LivingShadowSummonBuff: {
+		DisplayName: シルエット
+		Description: あなたの影が一緒に戦ってくれる
+	}
+
+	MercuryBoiling: {
+		DisplayName: 水銀中毒
+		Description: ライフが徐々に減っていく
+	}
+
+	MercuryFooting: {
+		DisplayName: 水銀の加速
+		Description: 移動速度が15%上昇
+	}
+
+	MercuryPoisoning: {
+		DisplayName: 水銀被曝
+		Description: 移動速度低下、ライフ減少
+	}
+
+	RelicsCurse: {
+		DisplayName: 遺物の呪い
+		Description: 遺物を使用できない
+	}
+
+	SilverSphereBuff: {
+		DisplayName: シルバースフィア
+		Description: 4つの銀色の球体があなたの周りを周っている
+	}
+
+	ShadePetBuff: {
+		DisplayName: 影
+		Description: 影があなたと一緒に漂っている！
+	}
+
+	ShadowCatBuff: {
+		DisplayName: シャドウキャット
+		Description: それは影の猫なのか、それとも猫の影なのか？
+		}
+
+	PurpleflameJellyBuff: {
+		DisplayName: パープルフレイムのクラゲ
+		Description: 水銀に生息している、独特だが希少で温和なクラゲの一種
+	}
+
+	MercuryContagion: {
+		DisplayName: 水銀の伝染
+		Description: 敵同士が触れるとと、その病が広がる
+	}
+
+	PhantomFirecartBuff.DisplayName: トロッコ
+	OnyxMinecartBuff.DisplayName: トロッコ
+
+	NightmareHorseBuff: {
+		DisplayName: 悪夢の馬
+		Description: チャスメ自身が制作した、おぞましい姿をした頁岩製の馬の像
+	}
+
+	BuffofaThousandYears: {
+		DisplayName: ミニチャスメ
+		Description: ミニチャスメが一緒に戦ってくれる
+	}
+}
+
+Items: {
+	AmalgamAmulet: {
+		DisplayName: アマルガムのお守り
+		Tooltip: 水銀を4秒間無効化
+	}
+
+	AquaGlove: {
+		DisplayName: 水のグローブ
+		Tooltip:
+			'''
+			近接攻撃のノックバックが増加し、凍った水を与える
+			近接ダメージと近接攻撃速度が12%上昇
+			近接武器のオート攻撃を有効にする
+			'''
+	}
+
+	AquaStone: {
+		DisplayName: 水の石
+		Tooltip: 近接攻撃で凍った水を与える
+	}
+
+	CrystalShield: {
+		DisplayName: 水晶の盾
+		Tooltip:
+			'''
+			攻撃を受けていない時間に応じて弾によるダメージを軽減する
+			最大でダメージを50%軽減する
+			ほとんどの弾を25%の確率で敵に反射する
+			水銀被曝を無効化
+			'''
+	}
+
+	CrystalSkull: {
+		DisplayName: 水晶のドクロ
+		Tooltip: 水銀被曝を無効化
+	}
+
+	CrystalWaterWalkingBoots: {
+		DisplayName: 水晶の水上ブーツ
+		Tooltip:
+			'''
+			水と蜂蜜の上を歩行可能
+			水銀被曝を無効化
+			'''
+	}
+
+	LodeStone: {
+		DisplayName: 天然磁石
+		Tooltip: アイテムを拾う範囲が広がる
+	}
+
+	QuickSilverSurfboard: {
+		DisplayName: 水銀のサーフボード
+		Tooltip: 装備者が数秒間浮くことができる
+	}
+
+	SanctusShield: {
+		DisplayName: 神聖な盾
+		Tooltip:
+			'''
+			攻撃を受けていない時間に応じて弾によるダメージを軽減する
+			最大でダメージを50%軽減する
+			ほとんどの弾を25%の確率で敵に反射する
+			水銀被曝を無効化
+			ほとんどの状態異常に耐性
+			'''
+	}
+
+	SilverSlippers: {
+		DisplayName: 銀のスリッパ
+		Tooltip:
+			'''
+			水、蜂蜜、溶岩、水銀の上を歩行可能
+			水銀被曝を無効化
+			水銀を4秒間無効化
+			'''
+	}
+
+	StoneRose: {
+		DisplayName: 石のバラ
+		Tooltip: 水銀のダメージを軽減
+	}
+
+	CharredCrown: {
+		DisplayName: 焦げた王冠
+		Tooltip: 魔法ダメージが18%増加
+	}
+
+	CrystalCrown: {
+		DisplayName: 水晶の王冠
+		Tooltip: 魔法クリティカル率が20%上昇
+	}
+
+	GeodeChestplate: {
+		DisplayName: ジオードの胸当て
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	GeodeHelmet: {
+		DisplayName: ジオードの兜
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	GeodeLeggings: {
+		DisplayName: ジオードのすね当て
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	Geode: {
+		DisplayName: ジオード
+		Tooltip: ""
+	}
+
+	MercuryChestplate: {
+		DisplayName: 水銀の胸当て
+		Tooltip: 近接ダメージが19%増加
+	}
+
+	MercuryGreaves: {
+		DisplayName: 水銀のすね当て
+		Tooltip: 移動速度が10%上昇
+	}
+
+	MercuryHelmet: {
+		DisplayName: 水銀の兜
+		Tooltip: 近接クリティカル率が6%上昇
+	}
+
+	OnyxRobe: {
+		DisplayName: オニキスローブ
+		Tooltip:
+			'''
+			最大マナが60増加
+			消費マナが22%減少
+			'''
+	}
+
+	PurplePlumbersHat: {
+		DisplayName: 紫の配管工の帽子
+		Tooltip: ""
+	}
+
+	PurplePlumbersPants: {
+		DisplayName: 紫の配管工のパンツ
+		Tooltip: ""
+	}
+
+	PurplePlumbersShirt: {
+		DisplayName: 紫の配管工のシャツ
+		Tooltip: ""
+	}
+
+	AchromaBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.Archroma.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Archroma.DisplayName}"
+	}
+
+	AlbinoBatBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}"
+	}
+
+	CrystalKingBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.CrystalKing.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.CrystalKing.DisplayName}"
+	}
+
+	FerroslimeBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.Ferroslime.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Ferroslime.DisplayName}"
+	}
+
+	GeomancerBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.Geomancer.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Geomancer.DisplayName}"
+	}
+
+	GoldBatBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.GoldBat.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.GoldBat.DisplayName}"
+	}
+
+	KingCoalBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.KingCoal.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.KingCoal.DisplayName}"
+	}
+
+	SapphireSerpentBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}"
+	}
+
+	ShadeBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.Shade.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Shade.DisplayName}"
+	}
+
+	ShadowBatBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.ShadowBat.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowBat.DisplayName}"
+	}
+
+	ShadowSlimeBanner: {
+		DisplayName: "{$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}{$Mods.TheDepths.common.Banner}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}"
+	}
+
+	CrystalSkinPotion: {
+		DisplayName: 水晶の肌のポーション
+		Tooltip: 水銀に耐性が付く
+	}
+
+	FlaskofMercury: {
+		DisplayName: 水銀のフラスコ
+		Tooltip: 近接攻撃に水銀の追加効果を付与
+	}
+
+	LargeOnyx: {
+		DisplayName: 大きなオニキス
+		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+	}
+
+	OnyxHook: {
+		DisplayName: オニキスフック
+		Tooltip: ""
+	}
+
+	Onyx: {
+		DisplayName: オニキス
+		Tooltip: ""
+	}
+
+	ArqueriteBar: {
+		DisplayName: アルケライトのインゴット
+		Tooltip: 「触れると吐き気がする」
+	}
+
+	ArqueriteBricks: {
+		DisplayName: アルケライトのレンガ
+		Tooltip: ""
+	}
+
+	ArqueriteBrickWall: {
+		DisplayName: アルケライトのレンガ壁
+		Tooltip: ""
+	}
+
+	ArqueriteOre: {
+		DisplayName: アルケライト鉱石
+		Tooltip: ""
+	}
+
+	BlackGemspark: {
+		DisplayName: 発光ブロック（オニキス）
+		Tooltip: ""
+	}
+
+	BlackTorch: {
+		DisplayName: 松明（黒）
+		Tooltip: ""
+	}
+
+	CoreBuilder: {
+		DisplayName: コアビルダー
+		Tooltip:
+			'''
+			地下世界の素材を深淵の素材に変換したり、その逆に変換することができる
+			「世界の中心を作り出したと噂される伝説の鍛冶場」
+			'''
+	}
+
+	DepthsMusicBox: {
+		DisplayName: オルゴール (深淵)
+		Tooltip: ""
+	}
+
+	DiamondDust: {
+		DisplayName: ダイアモンドの粉
+		Tooltip: ""
+	}
+
+	Ember: {
+		DisplayName: 残り火
+		Tooltip: ""
+	}
+
+	Gemforge: {
+		DisplayName: ジェムフォージ
+		Tooltip: ""
+	}
+
+	GeoTorch: {
+		DisplayName: ジオードのたいまつ
+		Tooltip: ""
+	}
+
+	LargeCrystal: {
+		DisplayName: 大きな水晶
+		Tooltip: ""
+	}
+
+	LivingFog: {
+		DisplayName: うごめく霧のブロック
+		Tooltip: ""
+	}
+
+	MagicQuicksilverDropper: {
+		DisplayName: 水銀入りの魔法のスポイト
+		Tooltip: ""
+	}
+
+	OnyxGemLock: {
+		DisplayName: オニキスの錠
+		Tooltip: 右クリックで大きなオニキスを着脱
+	}
+
+	PetrifiedWood: {
+		DisplayName: 珪化木
+		Tooltip: ""
+	}
+
+	Quartz: {
+		DisplayName: 石英
+		Tooltip: ""
+	}
+
+	QuartzBlock: {
+		DisplayName: 石英のブロック
+		Tooltip: ""
+	}
+
+	QuartzBricks: {
+		DisplayName: 石英のレンガ
+		Tooltip: ""
+	}
+
+	QuartzBrickWall: {
+		DisplayName: 石英のレンガ壁
+		Tooltip: ""
+	}
+
+	QuartzChair: {
+		DisplayName: 石英のイス
+		Tooltip: ""
+	}
+
+	QuartzDoor: {
+		DisplayName: 石英のドア
+		Tooltip: ""
+	}
+
+	QuartzPillar: {
+		DisplayName: 石英の柱
+		Tooltip: ""
+	}
+
+	QuartzPlatform: {
+		DisplayName: 石英の足場
+		Tooltip: ""
+	}
+
+	QuartzTable: {
+		DisplayName: 石英のテーブル
+		Tooltip: ""
+	}
+
+	QuartzWorkbench: {
+		DisplayName: 石英の作業台
+		Tooltip: ""
+	}
+
+	ShadowBrick: {
+		DisplayName: 影のレンガ
+		Tooltip: ""
+	}
+
+	ShadowShrubPlanterBox: {
+		DisplayName: シャドウシュラブのプランター
+		Tooltip: ""
+	}
+
+	ShadowShrubSeeds: {
+		DisplayName: シャドウシュラブの種
+		Tooltip: ""
+	}
+
+	ShadowShrub: {
+		DisplayName: シャドウシュラブ
+		Tooltip: ""
+	}
+
+	ShaleBlock.Tooltip: ""
+	ShaleBricks.Tooltip: ""
+	Shalestone.Tooltip: ""
+
+	SilverfallBlock: {
+		DisplayName: 流れる水銀のブロック
+		Tooltip: ""
+	}
+
+	SilverfallWall: {
+		DisplayName: 流れる水銀の壁
+		Tooltip: ""
+	}
+
+	RubyRelic: {
+		DisplayName: ルビーの遺物
+		Tooltip:
+			'''
+			「何か聞こえるか？」
+			これをジェムフォージに置くのは最善の策ではないかもしれない
+			'''
+	}
+
+	SilverSpherePotion: {
+		DisplayName: シルバースフィアポーション
+		Tooltip: 触れた敵にダメージを与える4つの銀の球を召喚する
+	}
+
+	BlackPhaseblade: {
+		DisplayName: フェーズブレード（黒）
+		Tooltip: ""
+	}
+
+	BlackPhasesaber: {
+		DisplayName: フェーズセイバー（黒）
+		Tooltip: ""
+	}
+
+	BlueSphere: {
+		DisplayName: ブルースフィア
+		Tooltip: 全部集めよう！
+	}
+
+	DiamondArrow: {
+		DisplayName: ダイアモンドの矢
+		Tooltip: 敵か地形に当たると3つの結晶の塊に分裂する
+	}
+
+	DiamondBolt: {
+		DisplayName: ダイアモンドボルト
+		Tooltip: ""
+	}
+
+	LivingShadowStaff: {
+		DisplayName: リビングシャドウスタッフ
+		Tooltip: 共に戦う影を召喚する
+	}
+
+	MercuryHamaxe: {
+		DisplayName: 水銀のハンマーアックス
+		Tooltip: ""
+	}
+
+	MercuryPickaxe: {
+		DisplayName: 水銀のつるはし
+		Tooltip: ""
+	}
+
+	Mercury: {
+		DisplayName: 水銀
+		Tooltip: 「L. ケーキ」
+	}
+
+	NightFury: {
+		DisplayName: ナイトフューリー
+		Tooltip: ""
+	}
+
+	OnyxSepter: {
+		DisplayName: オニキスの杖
+		Tooltip: ""
+	}
+
+	POWHammer: {
+		DisplayName: パワーハンマー
+		Tooltip: 「高い攻撃力」
+	}
+
+	QuartzCannon: {
+		DisplayName: 石英の大砲
+		Tooltip: ""
+	}
+
+	RubyBolt: {
+		DisplayName: ルビーボルト
+		Tooltip: ""
+	}
+
+	SapphireShovel: {
+		DisplayName: サファイアのシャベル
+		Tooltip: 敵を数秒間無力化する
+	}
+
+	ShadeBlade: {
+		DisplayName: シェードブレード
+		Tooltip: ""
+	}
+
+	Shaderang: {
+		DisplayName: シェードラン
+		Tooltip: ""
+	}
+
+	ShadowClaw: {
+		DisplayName: シャドウクロー
+		Tooltip: 闇のエネルギーを放つ
+	}
+
+	ShadowSphere: {
+		DisplayName: シャドウスフィア
+		Tooltip: ""
+	}
+
+	Silverado: {
+		DisplayName: シルバラード
+		Tooltip: 強力で高速な弾丸を発射する
+	}
+
+	SilverStar: {
+		DisplayName: シルバースター
+		Tooltip: ""
+	}
+
+	Skyfall: {
+		DisplayName: スカイフォール
+		Tooltip: 攻撃中、水銀を3つ降らせる
+	}
+
+	Steelocanth: {
+		DisplayName: スティーロカンス
+		Tooltip: ""
+	}
+
+	WhiteLightning: {
+		DisplayName: ホワイトライトニング
+		Tooltip: 互いに接続するライトニングオーブを最大で3つ召喚する
+	}
+
+	Terminex: {
+		DisplayName: ターミネックス
+		Tooltip: ""
+	}
+
+	ShadePetItem: {
+		DisplayName: チーズとクラッカー
+		Tooltip: 影のペットを召喚
+	}
+
+	GlitterBlock: {
+		DisplayName: グリッターブロック
+		Tooltip: ""
+	}
+
+	QuicksilverBucket: {
+		DisplayName: 水銀入りバケツ
+		Tooltip:
+			'''
+			水銀が少し入っている
+			注ぐことができる
+			'''
+	}
+
+	CoreGlobe: {
+		DisplayName: コア球
+		Tooltip:
+			'''
+			投げてコアを変化させよう！
+			「風景を変える時」
+			'''
+	}
+
+	NightmareSeeds: {
+		DisplayName: 悪夢の種
+		Tooltip: ""
+	}
+
+	QuicksilverSensor: {
+		DisplayName: 液体センサー (水銀)
+		Tooltip: 水銀に触れている間作動し、触れていないと停止
+	}
+
+	QuicksilverBomb: {
+		DisplayName: 水銀爆弾
+		Tooltip: 水銀をまき散らす小さな爆発を起こす
+	}
+
+	QuicksilverRocket: {
+		DisplayName: ロケット弾（水銀）
+		Tooltip: 当たると水銀が飛び散る
+	}
+
+	QuartzCrate: {
+		DisplayName: 石英の箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	QuartzFeeder: {
+		DisplayName: クォーツフィーダー
+		Tooltip: ""
+	}
+
+	ShadowFightingFish: {
+		DisplayName: 影の闘魚
+		Tooltip: ""
+	}
+
+	SilverLiner: {
+		DisplayName: シルバーライナー
+		Tooltip: 水銀での釣りが可能
+	}
+
+	ArqueriteCrate: {
+		DisplayName: アルケライトの箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	QuicksilverproofFishingHook: {
+		DisplayName: 耐水銀釣り針
+		Tooltip: 水銀での釣りが可能
+	}
+
+	QuartzLockBox: {
+		DisplayName: 石英の鍵付き箱
+		Tooltip:
+			'''
+			{$CommonItemTooltip.RightClickToOpen}
+			影の鍵が必要
+			'''
+	}
+
+	FluorescentLightBulb: {
+		DisplayName: 蛍光灯
+		Tooltip: ""
+	}
+
+	GiantFluorescentLightBulb: {
+		DisplayName: 大きな蛍光灯
+		Tooltip: 「屋根に吊るすには重すぎる」
+	}
+
+	OtherPortal: {
+		DisplayName: 別のポータル
+		Tooltip:
+			'''
+			「ダイヤモンド1個分の値段しかしない。」
+			「L. ケーキ」
+			'''
+	}
+
+	PottedMercuryTendrils: {
+		DisplayName: 水銀の蔓の鉢植え
+		Tooltip: ""
+	}
+
+	PottedNightmarePalm: {
+		DisplayName: 悪夢のヤシの木の鉢植え
+		Tooltip: ""
+	}
+
+	PottedNightterrorBush: {
+		DisplayName: 夜の恐怖の低木の鉢植え
+		Tooltip: ""
+	}
+
+	PottedPurplestarBrambles: {
+		DisplayName: 紫の星のイバラの木の鉢植え
+		Tooltip: ""
+	}
+
+	PottedShadowflameBulb: {
+		DisplayName: シャドウフレイムの球根の鉢植え
+		Tooltip: ""
+	}
+
+	ShadowFightingFishBowl: {
+		DisplayName: 影の闘魚の鉢
+		Tooltip: 「頭に水銀の入った鉢を乗せるのは嫌だろうね」
+	}
+
+	ShadowflameEmberedTreads: {
+		DisplayName: シャドウフレイム・エンバード・トレッド
+		Tooltip: 「あれを残り火と呼ぶには、ずいぶん大きいんじゃないか？」
+	}
+
+	NightmareFlareTreads: {
+		DisplayName: ナイトメア・フレア・トレッド
+		Tooltip:
+			'''
+			空を飛べる
+			超高速走行できる
+			歩いた後にシャドウフレイムの軌跡が残る
+			'''
+	}
+
+	QuicksilverproofTackleBag: {
+		DisplayName: 耐水銀タックルバッグ
+		Tooltip:
+			'''
+			釣り糸を切られなくなり、餌を消費しにくくなり、フィッシング・パワーが10向上する
+			水銀で釣りができる
+			'''
+	}
+
+	PurpleflameNecklace: {
+		DisplayName: パープルフレイムネックレス
+		Tooltip:
+			'''
+			パープルフレイムのクラゲを召喚する
+			「彼は放電はしないよね？」
+			'''
+	}
+
+	EnchantedNightmareWorm: {
+		DisplayName: 悪夢のワーム
+		Tooltip: ""
+	}
+
+	QuartzCrawler: {
+		DisplayName: 石英のカタツムリ
+		Tooltip: ""
+	}
+
+	AlbinoRat: {
+		DisplayName: アルビノのラット
+		Tooltip: ""
+	}
+
+	QuicksilverproofBugNet: {
+		DisplayName: 耐水銀虫取り網
+		Tooltip: 「物事が手に負えないほど有害になった時に」
+	}
+
+	AlbinoRatCage: {
+		DisplayName: テラリウム（アルビノのラット）
+		Tooltip: ""
+	}
+
+	EnchantedNightmareWormCage: {
+		DisplayName: テラリウム（悪夢のワーム）
+		Tooltip: ""
+	}
+
+	QuartzCrawlerCage: {
+		DisplayName: テラリウム（石英のカタツムリ）
+		Tooltip: ""
+	}
+
+	GeodeLazerPointer: {
+		DisplayName: ジオードのレーザーポインター
+		Tooltip:
+			'''
+			シャドウキャットを召喚
+			「影は歩けるのか？」
+			'''
+	}
+
+	Chasmefish: {
+		DisplayName: チャスメフィッシュ
+		Tooltip: （洞窟で釣れる）
+	}
+
+	GlimmerDepthFish: {
+		DisplayName: きらめく深淵魚
+		Tooltip: （洞窟で釣れる）
+	}
+
+	Relicarp: {
+		DisplayName: レリカープ
+		Tooltip: （洞窟で釣れる）
+	}
+
+	ShalestoneConch: {
+		DisplayName: 頁岩の巻き貝
+		Tooltip: 耳を澄ますと儀式的な詠唱が聞こえてくる
+	}
+
+	ShellPhoneDepths: {
+		DisplayName: シェルフォン (深淵)
+		Tooltip:
+			'''
+			すべての情報を表示する
+			使用すると深淵に行ける
+			<right>で行き先を切り替える
+			「耳を澄ますと車両保険がナントカって聞こえてくる」
+			'''
+	}
+
+	AncientShadowBrick: {
+		DisplayName: 古代の影のレンガ
+		Tooltip: ""
+	}
+
+	NightWood: {
+		DisplayName: ナイトウッド
+		Tooltip: ""
+	}
+
+	NightwoodBath: {
+		DisplayName: ナイトウッドの浴槽
+		Tooltip: ""
+	}
+
+	NightwoodBed: {
+		DisplayName: ナイトウッドのベッド
+		Tooltip: ""
+	}
+
+	NightwoodBookcase: {
+		DisplayName: ナイトウッドの本棚
+		Tooltip: ""
+	}
+
+	NightwoodCandelabra: {
+		DisplayName: ナイトウッドの燭台
+		Tooltip: ""
+	}
+
+	NightwoodCandle: {
+		DisplayName: ナイトウッドの蝋燭
+		Tooltip: ""
+	}
+
+	NightwoodChair: {
+		DisplayName: ナイトウッドのイス
+		Tooltip: ""
+	}
+
+	NightwoodChandelier: {
+		DisplayName: ナイトウッドのシャンデリア
+		Tooltip: ""
+	}
+
+	NightwoodChest: {
+		DisplayName: ナイトウッドの宝箱
+		Tooltip: ""
+	}
+
+	NightwoodClock: {
+		DisplayName: ナイトウッドの時計
+		Tooltip: ""
+	}
+
+	NightwoodDoor: {
+		DisplayName: ナイトウッドのドア
+		Tooltip: ""
+	}
+
+	NightwoodDresser: {
+		DisplayName: ナイトウッドのドレッサー
+		Tooltip: ""
+	}
+
+	NightwoodLamp: {
+		DisplayName: ナイトウッドのランプ
+		Tooltip: ""
+	}
+
+	NightwoodLantern: {
+		DisplayName: ナイトウッドのランタン
+		Tooltip: ""
+	}
+
+	NightwoodPiano: {
+		DisplayName: ナイトウッドのピアノ
+		Tooltip: ""
+	}
+
+	NightwoodPlatform: {
+		DisplayName: ナイトウッドの足場
+		Tooltip: ""
+	}
+
+	NightwoodSink: {
+		DisplayName: ナイトウッドのシンク
+		Tooltip: ""
+	}
+
+	NightwoodSofa: {
+		DisplayName: ナイトウッドのソファ
+		Tooltip: ""
+	}
+
+	NightwoodTable: {
+		DisplayName: ナイトウッドのテーブル
+		Tooltip: ""
+	}
+
+	NightwoodToilet: {
+		DisplayName: ナイトウッドのトイレ
+		Tooltip: ""
+	}
+
+	NightwoodWorkbench: {
+		DisplayName: ナイトウッドの作業台
+		Tooltip: ""
+	}
+
+	NightwoodWall: {
+		DisplayName: ナイトウッドの壁
+		Tooltip: ""
+	}
+
+	ChasmeBag: {
+		DisplayName: トレジャーバッグ（チャスメ）
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ChasmeSoulMask: {
+		DisplayName: チャスメの魂のマスク
+		Tooltip: ""
+	}
+
+	ShadowChasmeMask: {
+		DisplayName: 影のチャスメのマスク
+		Tooltip: ""
+	}
+
+	ChasmeTrophy: {
+		DisplayName: チャスメのトロフィー
+		Tooltip: ""
+	}
+
+	ChasmeMusicBox: {
+		DisplayName: オルゴール (チャスメ)
+		Tooltip: ""
+	}
+
+	ChasmeRelic: {
+		DisplayName: チャスメのレリック
+		Tooltip: ""
+	}
+
+	PhantomFirecart: {
+		DisplayName: ジオマンサーのトロッコ
+		Tooltip: 水銀を4秒間無効化
+	}
+
+	QuartzCandelabra: {
+		Tooltip: ""
+		DisplayName: 石英の燭台
+	}
+
+	QuartzBookcase: {
+		Tooltip: ""
+		DisplayName: 石英の本棚
+	}
+
+	QuartzBed: {
+		Tooltip: ""
+		DisplayName: 石英のベッド
+	}
+
+	QuartzBath: {
+		Tooltip: ""
+		DisplayName: 石英の浴槽
+	}
+
+	QuartzCandle: {
+		DisplayName: 石英の蝋燭
+		Tooltip: ""
+	}
+
+	QuartzChandelier: {
+		DisplayName: 石英のシャンデリア
+		Tooltip: ""
+	}
+
+	QuartzChest: {
+		DisplayName: 石英の宝箱
+		Tooltip: ""
+	}
+
+	QuartzClock: {
+		DisplayName: 石英の時計
+		Tooltip: ""
+	}
+
+	QuartzDresser: {
+		DisplayName: 石英のドレッサー
+		Tooltip: ""
+	}
+
+	QuartzLamp: {
+		DisplayName: 石英のランプ
+		Tooltip: ""
+	}
+
+	QuartzLantern: {
+		DisplayName: 石英のランタン
+		Tooltip: ""
+	}
+
+	QuartzPiano: {
+		DisplayName: 石英のピアノ
+		Tooltip: ""
+	}
+
+	QuartzSink: {
+		DisplayName: 石英のシンク
+		Tooltip: ""
+	}
+
+	QuartzSofa: {
+		DisplayName: 石英のソファ
+		Tooltip: ""
+	}
+
+	QuartzToilet: {
+		DisplayName: 石英のトイレ
+		Tooltip: ""
+	}
+
+	QuartzVase: {
+		DisplayName: 石英の花瓶
+		Tooltip: ""
+	}
+
+	GemforgeBanner: {
+		DisplayName: ジェムフォージのバナー
+		Tooltip: ""
+	}
+
+	GlowingQuicksilverBanner: {
+		DisplayName: 輝く水銀のバナー
+		Tooltip: ""
+	}
+
+	LostHeartBanner: {
+		DisplayName: 失われた心臓のバナー
+		Tooltip: ""
+	}
+
+	QuartzStackBanner: {
+		DisplayName: 堆積した石英のバナー
+		Tooltip: ""
+	}
+
+	RackedCollectionBanner: {
+		DisplayName: ラック式コレクションのバナー
+		Tooltip: ""
+	}
+
+	RelicBanner: {
+		DisplayName: 遺物のバナー
+		Tooltip: ""
+	}
+
+	SwordOfTheCavesBanner: {
+		DisplayName: 洞窟の剣のバナー
+		Tooltip: ""
+	}
+
+	NightwoodFence: {
+		DisplayName: ナイトウッドのフェンス
+		Tooltip: ""
+	}
+
+	NightwoodSword: {
+		Tooltip: ""
+		DisplayName: ナイトウッドの剣
+	}
+
+	NightwoodHammer: {
+		DisplayName: ナイトウッドのハンマー
+		Tooltip: ""
+	}
+
+	NightwoodBow: {
+		Tooltip: ""
+		DisplayName: ナイトウッドの弓
+	}
+
+	NightwoodHelmet: {
+		Tooltip: ""
+		DisplayName: ナイトウッドの兜
+	}
+
+	NightwoodGreaves: {
+		Tooltip: ""
+		DisplayName: ナイトウッドのすね当て
+	}
+
+	NightwoodBreastplate: {
+		Tooltip: ""
+		DisplayName: ナイトウッドの胸当て
+	}
+
+	Ciamito: {
+		DisplayName: チアミト
+		Tooltip: "{$CommonItemTooltip.MinorStats}"
+		
+	}
+
+	BlackOlive: {
+		DisplayName: ブラックオリーブ
+		Tooltip: "{$CommonItemTooltip.MinorStats}"
+	}
+
+	DepthsOtherworldlyMusicBox: {
+		DisplayName: アザーワールドのオルゴール (深淵)
+		Tooltip: ""
+	}
+
+	AltarOfGems: {
+		DisplayName: 宝石の祭壇
+		Tooltip: 「L. ケーキ」
+	}
+
+	ForTheSakeOfMakingGadgets: {
+		DisplayName: ガジェットを作るために
+		Tooltip: 「L. ケーキ」
+	}
+
+	ImPurrSonation: {
+		DisplayName: なりすまし
+		Tooltip: 「L. ケーキ & W. セフィ」
+	}
+
+	MusiciansBestFriend: {
+		DisplayName: ミュージシャンの親友
+		Tooltip: 「L. ケーキ」
+	}
+
+	ChaosCat: {
+		DisplayName: 混沌の猫
+		Tooltip: 「L. ケーキ & B. キャット」
+	}
+
+	DONOTDRINK: {
+		DisplayName: 飲まないで
+		Tooltip: 「L. ケーキ」
+	}
+
+	LivingFogDye: {
+		DisplayName: 流れる霧の染料
+		Tooltip: ""
+	}
+
+	IntenseShadowDye: {
+		Tooltip: ""
+		DisplayName: 激しい影の染料
+	}
+
+	CrystalHorseshoe: {
+		DisplayName: 水晶の蹄鉄
+		Tooltip:
+			'''
+			落下ダメージを無効化
+			水銀被曝を無効化
+			'''
+	}
+
+	SilverCharm: {
+		DisplayName: 銀のお守り
+		Tooltip:
+			'''
+			水銀被曝を無効化
+			水銀を4秒間無効化
+			'''
+	}
+
+	AzuriteRose: {
+		DisplayName: 藍銅鉱のバラ
+		Tooltip:
+			'''
+			水銀を4秒間無効化
+			水銀被曝を無効化
+			水銀のダメージを軽減
+			'''
+	}
+
+	CryingSkull: {
+		DisplayName: 泣いているドクロ
+		Tooltip:
+			'''
+			水銀を4秒間無効化
+			水銀被曝を無効化
+			'''
+	}
+
+	CrystalRose: {
+		DisplayName: 水晶のバラ
+		Tooltip:
+			'''
+			水銀被曝を無効化
+			水銀のダメージを軽減
+			'''
+	}
+
+	MercuryMoss: {
+		DisplayName: 水銀の苔
+		Tooltip: 「忘れられない光景」
+	}
+
+	MercuryMossFishingBobber: {
+		DisplayName: 苔の浮き（水銀）
+		Tooltip:
+			'''
+			フイッシング・パワーが10向上する
+			君の浮きは光る
+			'''
+	}
+
+	MercuryMossBricks: {
+		DisplayName: 苔のレンガ（水銀）
+		Tooltip: ""
+	}
+
+	MercuryMossBrickWall: {
+		DisplayName: 苔のレンガ壁（水銀）
+		Tooltip: ""
+	}
+
+	QuartzStackWall: {
+		DisplayName: 堆積した石英の壁
+		Tooltip: ""
+	}
+
+	LeakyMercuryWall: {
+		DisplayName: 漏れた水銀の壁
+		Tooltip: ""
+	}
+
+	MercuryBubbleWall: {
+		DisplayName: 水銀の泡の壁
+		Tooltip: ""
+	}
+
+	DottedQuicksilverWall: {
+		DisplayName: ドット柄の水銀の壁
+		Tooltip: ""
+	}
+
+	WaterGeyser: {
+		DisplayName: 水の間欠泉
+		Tooltip: ""
+	}
+
+	AquaQuiver: {
+		DisplayName: 水の矢筒
+		Tooltip:
+			'''
+			矢のスピードとダメージが10%増加
+			20%の確率で矢を消費しない
+			木の矢に凍った水をつけて発射する
+			「凍れ！」
+			'''
+	}
+
+	PalladiumShield: {
+		DisplayName: パラジウムの盾
+		Tooltip:
+			'''
+			攻撃を受けていない時間に応じて弾によるダメージを軽減する
+			最大でダメージを50%軽減する
+			ほとんどの弾を25%の確率で敵に反射する
+			'''
+	}
+
+	OnyxMinecart: {
+		DisplayName: オニキスのトロッコ
+		Tooltip: ""
+	}
+
+	OnyxStoneBlock: {
+		DisplayName: オニキスのブロック
+		Tooltip: ""
+	}
+
+	OnyxStoneWall: {
+		DisplayName: オニキス岩の壁
+		Tooltip: ""
+	}
+
+	BlackGemsparkWall: {
+		DisplayName: 発光壁（オニキス）
+		Tooltip: ""
+	}
+
+	BlackGemsparkWallOffline: {
+		DisplayName: 消えた発光壁（オニキス）
+		Tooltip: ""
+	}
+
+	OnyxSquirrel: {
+		Tooltip: ""
+		DisplayName: オニキスのリス
+	}
+
+	OnyxBunny: {
+		Tooltip: ""
+		DisplayName: オニキスのウサギ
+	}
+
+	OnyxBunnyCage: {
+		DisplayName: テラリウム（オニキスのウサギ）
+		Tooltip: ""
+	}
+
+	OnyxSquirrelCage: {
+		DisplayName: テラリウム（オニキスのリス）
+		Tooltip: ""
+	}
+
+	BlackStainedGlass: {
+		DisplayName: ステンドグラス（黒）
+		Tooltip: ""
+	}
+
+	OnyxGemcorn: {
+		DisplayName: オニキスのどんぐり
+		Tooltip: ""
+	}
+
+	TheUnknownDepthsBelow: {
+		DisplayName: 未知の深淵
+		Tooltip: 「D.コリン & D.リウス」
+	}
+
+	FlowingQuicksilver: {
+		DisplayName: 流れる水銀
+		Tooltip: 「D.コリン & D.リウス」
+	}
+
+	GeoCampfire: {
+		DisplayName: ジオードのキャンプファイア
+		Tooltip: "{$ItemTooltip.Campfire}"
+	}
+
+	NightwoodTrappedChest: {
+		DisplayName: ナイトウッドの宝箱（罠）
+		Tooltip: ""
+	}
+
+	QuartzTrappedChest: {
+		DisplayName: 石英の宝箱（罠）
+		Tooltip: ""
+	}
+
+	SapphireSerpentKite: {
+		DisplayName: サファイアサーペントの凧
+		Tooltip:
+			'''
+			風の日に凧を飛ばせる
+			右クリックで巻き取る
+			'''
+	}
+
+	Lamington: {
+		DisplayName: ラミントン
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MajorStats}
+			「…オーストラリアのどこかから」
+			'''
+	}
+
+	HangingShadowShrub: {
+		DisplayName: 吊られたシャドウシュラブ
+		Tooltip: ""
+	}
+
+	MidnightHorseshoe: {
+		DisplayName: 真夜中の蹄鉄
+		Tooltip: ""
+	}
+
+	AmethystShalestoneBlock: {
+		DisplayName: アメジストの頁岩のブロック
+		Tooltip: ""
+	}
+
+	DiamondShalestoneBlock: {
+		DisplayName: ダイヤモンドの頁岩のブロック
+		Tooltip: ""
+	}
+
+	EmeraldShalestoneBlock: {
+		DisplayName: エメラルドの頁岩のブロック
+		Tooltip: ""
+	}
+
+	OnyxShalestoneBlock: {
+		DisplayName: オニキスの頁岩のブロック
+		Tooltip: ""
+	}
+
+	RubyShalestoneBlock: {
+		DisplayName: ルビーの頁岩のブロック
+		Tooltip: ""
+	}
+
+	SapphireShalestoneBlock: {
+		DisplayName: サファイアの頁岩のブロック
+		Tooltip: ""
+	}
+
+	TopazShalestoneBlock: {
+		DisplayName: トパーズの頁岩のブロック
+		Tooltip: ""
+	}
+
+	ShaleWall: {
+		DisplayName: 頁岩の壁
+		Tooltip: ""
+	}
+
+	StaffOfAThousandYears: {
+		DisplayName: 千年の杖
+		Tooltip: 共に戦う小さなチャスメを召喚する
+	}
+
+	QuartzHood: {
+		DisplayName: 石英のフード
+		Tooltip: Increases whip range by 15%
+	}
+
+	QuartzLeggings: {
+		DisplayName: 石英のレギンス
+		Tooltip: Increases max number of minions by 1
+	}
+
+	QuartzWinterCoat: {
+		DisplayName: 石英の冬のコート
+		Tooltip: Increases whip speed by 15%
+	}
+
+	HungryLeash: {
+		DisplayName: 空腹の紐
+		Tooltip:
+			'''
+			ライフが25%減少するごとに、移動速度が25%上昇
+			「どれくらいお腹が空いてる？」
+			'''
+	}
+
+	PetrifiedWoodBath: {
+		DisplayName: 珪化木の浴槽
+		Tooltip: ""
+	}
+
+	PetrifiedWoodBed: {
+		DisplayName: 珪化木のベッド
+		Tooltip: ""
+	}
+
+	PetrifiedWoodBookcase: {
+		DisplayName: 珪化木の本棚
+		Tooltip: ""
+	}
+
+	PetrifiedWoodCandelabra: {
+		DisplayName: 珪化木の燭台
+		Tooltip: ""
+	}
+
+	PetrifiedWoodCandle: {
+		DisplayName: 珪化木の蝋燭
+		Tooltip: ""
+	}
+
+	PetrifiedWoodChair: {
+		DisplayName: 珪化木のイス
+		Tooltip: ""
+	}
+
+	PetrifiedWoodChandelier: {
+		DisplayName: 珪化木のシャンデリア
+		Tooltip: ""
+	}
+
+	PetrifiedWoodChest: {
+		DisplayName: 珪化木の宝箱
+		Tooltip: ""
+	}
+
+	PetrifiedWoodClock: {
+		DisplayName: 珪化木の時計
+		Tooltip: ""
+	}
+
+	PetrifiedWoodDoor: {
+		DisplayName: 珪化木のドア
+		Tooltip: ""
+	}
+
+	PetrifiedWoodDresser: {
+		DisplayName: 珪化木のドレッサー
+		Tooltip: ""
+	}
+
+	PetrifiedWoodLamp: {
+		DisplayName: 珪化木のランプ
+		Tooltip: ""
+	}
+
+	PetrifiedWoodLantern: {
+		DisplayName: 珪化木のランタン
+		Tooltip: ""
+	}
+
+	PetrifiedWoodPiano: {
+		DisplayName: 珪化木のピアノ
+		Tooltip: ""
+	}
+
+	PetrifiedWoodPlatform: {
+		DisplayName: 珪化木の足場
+		Tooltip: ""
+	}
+
+	PetrifiedWoodSink: {
+		DisplayName: 珪化木のシンク
+		Tooltip: ""
+	}
+
+	PetrifiedWoodSofa: {
+		DisplayName: 珪化木のソファ
+		Tooltip: ""
+	}
+
+	PetrifiedWoodTable: {
+		DisplayName: 珪化木のテーブル
+		Tooltip: ""
+	}
+
+	PetrifiedWoodToilet: {
+		DisplayName: 珪化木のトイレ
+		Tooltip: ""
+	}
+
+	PetrifiedWoodTrappedChest: {
+		DisplayName: 珪化木の宝箱（罠）
+		Tooltip: ""
+	}
+
+	PetrifiedWoodWorkbench: {
+		DisplayName: 珪化木の作業台
+		Tooltip: ""
+	}
+
+	PetrifiedWoodFence: {
+		DisplayName: 珪化木のフェンス
+		Tooltip: ""
+	}
+
+	PetrifiedWoodWall: {
+		DisplayName: 珪化木の壁
+		Tooltip: ""
+	}
+
+	PetrifiedWoodBow: {
+		DisplayName: 珪化木の弓
+		Tooltip: ""
+	}
+
+	PetrifiedWoodHammer: {
+		DisplayName: 珪化木のハンマー
+		Tooltip: ""
+	}
+
+	PetrifiedWoodSword: {
+		DisplayName: 珪化木の剣
+		Tooltip: ""
+	}
+
+	PetrifiedWoodBreastplate: {
+		DisplayName: 珪化木の胸当て
+		Tooltip: ""
+	}
+
+	PetrifiedWoodGreaves: {
+		DisplayName: 珪化木のすね当て
+		Tooltip: ""
+	}
+
+	PetrifiedWoodHelmet: {
+		DisplayName: 珪化木の兜
+		Tooltip: ""
+	}
+
+	BottomlessQuicksilverBucket: {
+		DisplayName: 底なしの水銀バケツ
+		Tooltip:
+			'''
+			無限に水銀が入っている
+			注ぐことができる
+			'''
+	}
+
+	QuicksilverAbsorbantSponge: {
+		DisplayName: 水銀吸収スポンジ
+		Tooltip: 無限に水銀を吸収できる
+	}
+
+	ShalestoneShackle: {
+		DisplayName: 頁岩の手枷
+		Tooltip:
+			'''
+			空中で急降下できるようになる
+			{$Key.DOWN}を入力二回で行う
+			'''
+	}
+
+	FelineTombstone: {
+		DisplayName: 猫の墓石
+		Tooltip: 「たとえ亡くなっても、私たちは彼らを記憶にとどめ、未来永劫にわたって彼らの功績を語り継いでいこう。」
+	}
+}
+
+NPCs: {
+	AlbinoBat.DisplayName: アルビノバット
+	Archroma.DisplayName: アークロマ
+	ChasmeBody.DisplayName: チャスメ
+	ChasmeHandLeft.DisplayName: チャスメの手
+	ChasmeHandRight.DisplayName: チャスメの手
+	ChasmeHead.DisplayName: チャスメの頭
+	ChasmeHeart.DisplayName: チャスメの心臓
+	CrystalKing.DisplayName: 水晶の王
+	Ferroslime.DisplayName: フェロライム
+	Geomancer.DisplayName: ジオマンサー
+	GoldBat.DisplayName: ゴールドバット
+	KingCoal.DisplayName: キングコール
+	Shade.DisplayName: シェード
+	ShadowBat.DisplayName: シャドウバット
+	ShadowSlime.DisplayName: シャドウスライム
+	DepthsWorm.DisplayName: サファイアサーペント
+	SapphireSerpentBody.DisplayName: サファイアサーペント
+	SapphireSerpentHead.DisplayName: サファイアサーペント
+	SapphireSerpentTail.DisplayName: サファイアサーペント
+	EnchantedNightmareWorm.DisplayName: 悪夢のワーム
+	QuartzCrawler.DisplayName: 石英のカタツムリ
+	AlbinoRat.DisplayName: アルビノのラット
+	OnyxSquirrel.DisplayName: オニキスのリス
+	OnyxBunny.DisplayName: オニキスのウサギ
+	CrystalBoundTaxCollector.DisplayName: とらわれの水晶の構成体
+		}
+
+Projectiles: {
+	ShadePetProjectile.DisplayName: 影のペット
+	BlueExplosion.DisplayName: 青い爆発
+	BlueSphereYoyo.DisplayName: ブルースフィア
+	GemforgeCutscene.DisplayName: ジェムフォージ
+	CrystalBall.DisplayName: 水晶の球
+	CrystalBallPassive.DisplayName:水晶の球
+	DiamondArrow.DisplayName: ダイヤモンドの矢
+	DiamondBolt.DisplayName: ダイヤモンドボルト
+	DiamondDustProj.DisplayName: ダイヤモンドの粉
+	GeodeCrystalSummon.DisplayName: ジオードのクリスタル
+	GlitteringGoldenLine.DisplayName: きらめく黄金の線
+	LumpOfCoal.DisplayName: 石炭の塊
+	OnyxBolt.DisplayName: オニキスボルト
+	OnyxHook.DisplayName: オニキスのフック
+	QuartzChunk.DisplayName: 石英
+	RubyBolt.DisplayName: ルビーボルト
+	SapphireShovelProj.DisplayName: 水のボルト
+	SapphireSpit.DisplayName: "{$Mods.TheDepths.Projectiles.SapphireShovelProj.DisplayName}"
+	Shaderang.DisplayName: シェードラン
+	ShadowBall.DisplayName: 大きなシャドウボール
+	ShadowBall2.DisplayName: シャドウボール
+	ShadowBall3.DisplayName: 小さなシャドウボール
+	ShadowClawBottom.DisplayName: シャドウクロー
+	ShadowClawMiddle.DisplayName: シャドウクロー
+	ShadowClawTip.DisplayName: シャドウクロー
+	SilverSpheres.DisplayName: シルバースフィア
+	SilverStar.DisplayName: シルバースター
+	SkyFallRain.DisplayName: 水銀の雨
+	SkyfallYoyo.DisplayName: スカイフォール
+	Steelocanth.DisplayName: スティールカンス
+	LivingShadowSummonProj.DisplayName: 影
+	CoreGlobe.DisplayName: コア球
+	WhiteLightning.DisplayName: ホワイトライトニング
+	WhiteLightningOrb.DisplayName: ホワイトライトニングオーブ
+	WhiteLightningOrb2.DisplayName: ホワイトライトニングオーブ
+	WhiteLightningOrb3.DisplayName: ホワイトライトニングオーブ
+	WhiteLightningTo2.DisplayName: ホワイトライトニング
+	WhiteLightningTo1.DisplayName: ホワイトライトニング
+	WhiteLightningTo3.DisplayName: ホワイトライトニング
+	QuicksilverBomb.DisplayName: 水銀爆弾
+	QuicksilverGrenade.DisplayName: 水銀のグレネード
+	QuicksilverMine.DisplayName: 水銀の地雷
+	QuicksilverRocket.DisplayName: 水銀のロケット
+	QuicksilverSnowmanRocket.DisplayName: 水銀のスノーマンロケット
+	SilverBobber.DisplayName: シルバーボバー
+	ShadowflameEmber1.DisplayName: シャドウフレイムの残り火
+	ShadowCat.DisplayName: シャドウキャット
+	ShadowflameEmber2.DisplayName: シャドウフレイムの残り火
+	ShadowflameEmber3.DisplayName: シャドウフレイムの残り火
+	POWHammerSwing.DisplayName: パワーハンマー
+	POWEffect.DisplayName: パワーエフェクト
+	MercuryExplosion1.DisplayName: 水銀爆発
+	MercuryExplosion.DisplayName: 水銀爆発
+	ShadeBladeLeft.DisplayName: シェードブレード
+	ShadeBladeRight.DisplayName: シェードブレード
+	ShadeBladeCalculator.DisplayName: シェードブレード
+	ChasmeRay.DisplayName: ルビーレイ
+	ChasmeShockwave.DisplayName: ルビーの衝撃波
+	MercuryMossFishingBobber.DisplayName: 苔の浮き（水銀）
+	WaterGeyser.DisplayName: 水の間欠泉
+	AquaArrow.DisplayName: 水の矢
+	OnyxExplosion.DisplayName: オニキス爆発
+	SapphireSerpentKite.DisplayName: サファイアサーペントの凧
+	MiniChasme.DisplayName: ミニチャスメ
+	MiniChasmeHand.DisplayName: ミニチャスメの頭
+	ShalestoneHand.DisplayName: シェルフォン
+	ShalestoneSlam.DisplayName: シェルフォン
+	ShadowLash.DisplayName: 影の紐
+	QuicksilverTears.DisplayName: 水銀の涙
+	EmeraldEnergy.DisplayName: エメラルドのエナジー
+	FelineTombstone.DisplayName: 猫の墓石
+}
+
+Biomes: {
+	DepthsBiome: {
+		DisplayName: 深淵
+		TownNPCDialogueName: 深淵
+	}
+}
+
+UnderworldSelection: {
+	Random: {
+		Title: ランダム
+		Description: 冥界か深淵、どちらがワールドの中心になるかを自然の成り行きに任せる。
+	}
+
+	Underworld: {
+		Title: 地下世界
+		Description: 溶岩で満たされた「地下世界」が、あなたのワールドにもたらされる。
+	}
+
+	Depths: {
+		Title: 深淵
+		Description: 冷たくて暗い「深淵」が、あなたのワールドにもたらされる。
+	}
+}
+
+Configs: {
+	TheDepthsClientConfig: {
+		DisplayName: The Depths クライアント設定
+		Headers.DepthsClientsideConfig: Depths クライアント設定
+
+		SlateConfig: {
+			Label: 頁岩の名称を粘板岩に変更する
+			Tooltip: 頁岩の名称を粘板岩に変更します。変更を適応するには再読み込みが必要です
+		}
+
+		EnableFog: {
+			Label: 深淵の霧を有効にする
+			Tooltip: 深淵の濃い霧を表示し、オフにすると非表示になります
+		}
+	}
+
+	FargosBoBWConfig: {
+		DisplayName: Fargos Best of Both Worlds 深淵の設定
+		Headers.DrunkSeedRequiresFargosbestofbothworldsmod: ドランクワールド (Fargo's Best of Both Worlds Modが必要)
+
+		BothCores: {
+			Label: "[i:174][i:TheDepths/ArqueriteOre] 二つのワールドの中心を生成する"
+			Tooltip: ""
+		}
+	}
+}
+
+Emotes: {
+	DepthsBiomeEmote: 闇のバイオーム
+	ShadowCatEmote: シャドウキャット
+	ChasmeEmote: チャスメ
+}
+
+DepthsBiome: 深淵
+
+Achievements: {
+	HeartBreaker: {
+		Name: ハートスマッシャー
+		Description: 深淵の創造者であり、ジオマンサーの指揮官である、チャスメを撃破する。
+		FriendlyName: "{$Mods.TheDepths.Achievements.HeartBreaker.Name}"
+	}
+
+	PickaxeOfPoison: {
+		Name: 毒のつるはし
+		Description: 最も危険な液体である、水銀を使って水銀のつるはしを作成する。
+		FriendlyName: "{$Mods.TheDepths.Achievements.PickaxeOfPoison.Name}"
+	}
+
+	MysteriesOfTheDark: {
+		Name: 闇の謎
+		Description: 闇に包まれた深淵に到達するまで、地下深く探検する。
+		FriendlyName: "{$Mods.TheDepths.Achievements.MysteriesOfTheDark.Name}"
+	}
+
+	MercuryAngler: {
+		Name: 水銀の釣り人
+		Description: 水銀の海に釣り糸を垂らし、水銀に強い海洋生物を見つける。
+		FriendlyName: "{$Mods.TheDepths.Achievements.MercuryAngler.Name}"
+	}
+}
+
+		BossChecklist.SpawnInfo.Chasme: ワールドの中心にある[i:TheDepths/Gemforge] で[i:TheDepths/RubyRelic]を使う [c/FF0000:討伐するとハードモードが始まります！]
+		InDepths: 深淵の中
+		OutDepths: 深淵の外
+		GameUI.LayerDepths: 深淵
+
+CreditsRollCategory_DepthsTeam: {
+	1: The Depths Team
+	2: Lion8cake
+	3: Snickerbobble
+	4: HBDeus
+	5: GabeHasWon
+	6: Ghasttear1
+	7: Syntrin
+	8: Darkrious
+	9: Larfleeze
+	10: Moddingus
+	11: Hariq “Hariq53”
+	12: Phase II “alpha0010”
+	13: Kurtis
+	14: Andrey2345
+	15: Yee苍棱
+	16: Seceip
+	17: zynn
+	18: Roton
+	19: CDT_Maggot
+	20: BasicallyIAmFox
+}
+
+MusicDisplay: {
+	ModName: The Depths
+	Author: by HBDeus
+	Depths.DisplayName: The Unsound Deep
+	DepthsOtherworldly.DisplayName: The Deep Unsound
+	Chasme.DisplayName: Chasmic to the Rock
+}
+
+Keybinds.GroundSlam.DisplayName: 急降下
+Liquids.Quicksilver.MapEntry: 水銀
+
+
+ItemTooltip.TerrasparkBoots:
+	'''
+	氷の上ですべらなくなり、飛行を可能にし、超高速走行、
+	移動速度が8%上昇
+	水、蜂蜜、溶岩、水銀の上を歩行可能
+	燃えるブロックと有毒なブロックのダメージを無効化
+	溶岩を7秒間、水銀を8秒間無効化し、
+	溶岩と水銀のダメージを軽減
+	'''

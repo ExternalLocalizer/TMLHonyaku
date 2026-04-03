@@ -1,0 +1,167 @@
+Items: {
+	MinionControlRod: {
+		DisplayName: ミニオン制御の杖
+		Tooltip:
+			'''
+			「ミニオンを支配し、指揮せよ」
+			左クリックで全てのミニオンをカーソルの位置にテレポートさせる
+			'''
+		Rightclick1: 敵を右クリックするとミニオンがその敵を集中攻撃する
+		Rightclick2Remove: 同じ敵を右クリックすると解除される
+		Rightclick2Spawn: 右クリックした所にミニオンが攻撃する
+		Rightclick3: 他のプレイヤーの照準を右クリックすると、そのプレイヤーがあなたのミニオンのターゲットを制御できるようになる
+	}
+
+	MinionLoadoutBook: {
+		DisplayName: ミニオン召喚の本
+		Tooltip:
+			'''
+			左クリックでロードアウトに基づいてミニオンを召喚する
+			右クリックでUIを開く
+			アイテムアイコンの上でスクロールホイールを回して召喚回数を調整する
+			'''
+		NoLoadout: 召喚のロードアウトが設定されていません
+		ExpectedManaCost: 現在の装備から{0}の追加消費マナが予想されます
+		LoadoutHeader: ロードアウト:
+		SummonsPerUse: "{0}: {1}"
+	}
+
+	MinionLoadoutBookAuto: {
+		DisplayName: ミニオン自動召喚の本
+		Tooltip:
+			'''
+			{$Items.MinionLoadoutBook.Tooltip}
+			リスポーン時にミニオンを自動的に召喚する
+			'''
+	}
+
+	MinionLoadoutBookSimple: {
+		DisplayName: ミニオン選択の本
+		Tooltip:
+			'''
+			右クリックでUIを開く
+			アイテムのアイコンを左クリックか右クリックで選択する
+			左クリックで選択したアイテムを使用する
+			'''
+		SelectedNotInInventory: 選択したアイテムが見つかりません
+		NoSelected: アイテムを選択していません
+	}
+
+	SummonersAssociationCard: {
+		DisplayName: 召喚師協会のカード
+		Tooltip:
+			'''
+			「召喚士協会へようこそ」
+			召喚関連の情報を表示する
+			'''
+	}
+}
+
+InfoDisplays: {
+	MinionInfoDisplay.DisplayName: ミニオンスロット
+	SentryInfoDisplay.DisplayName: セントリースロット
+}
+
+NPCs: {
+	MinionTarget: {
+		DisplayName: ミニオンターゲット
+		GivenName: "{0} ({1})"
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: クライアント設定
+
+		InventoryIcon: {
+			Label: インベントリのアイコンの切り替え
+			Tooltip: インベントリにミニオン/セントリースロットを表示するか切り替えます
+		}
+
+		InfoIcon: {
+			Label: 情報アイコンの切り替え
+			Tooltip: ミニマップの下にミニオン/セントリーのスロットを表示するか切り替えます
+		}
+
+		Headers: {
+			Blank: ""
+			HintToServerConfig: 機能切り替えを含むサーバー設定に移動するには、右下の矢印を押してください
+		}
+
+		Offset: {
+			Label: インベントリのアイコンの位置
+			Tooltip: 画面上のインベントリのアイコンの位置を変更します
+		}
+
+		Hint: {
+			Label: ヒント
+			Tooltip: ""
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		DisableAdvancedTargetingFeature: {
+			Label: 高度なターゲティング機能を無効にする
+			Tooltip: オフにするとミニオン制御の杖の照準機能が無効になります
+		}
+
+		PersistentReticle: {
+			Label: 照準を永続にする
+			Tooltip: オンにするとミニオン制御の杖の照準が射程外に出ても消えなくなります
+		}
+
+		PersistentBuffs: {
+			Label: バフを永続にする
+			Tooltip: オンにすると{$ItemName.SummoningPotion}などのミニオン/セントリースロットを増やすバフが、死亡時とワールドを出ても残ります
+		}
+
+		Headers.HintToClientConfig: ヒント：UI調整を含むクライアント設定に移動するには、左下の矢印を押してください
+
+		Hint: {
+			Label: ヒント
+			Tooltip: ""
+		}
+
+		LoadoutBookSpeed: {
+			Label: ミニオン召喚の本の速度
+			Tooltip: ミニオン召喚の本を使用時の召喚速度を変更します。最大値に設定すると、即座に使用されます
+			}
+	}
+}
+
+RecipeGroups.RecipeGroupGeneric: "{0} {1}"
+
+UI: {
+	Buffs: {
+		MinionSlots: "{0} / {1}"
+		UncountableMinions: 数えきれない数のModミニオンスロット: {0} / {1}
+	}
+
+	MinionSlotsIcon.MinionSlots: "{0} / {1} ミニオンスロット"
+
+	SentrySlotsIcon: {
+		SentrySlots: "{0} / {1} セントリースロット"
+		Counted: "{0}: {1}"
+		Uncountable: 不明
+	}
+
+	LoadoutBook: {
+		SlotsRequired: 必要なスロット数: {0}
+		Selected: (選択中)
+		NotFoundInInventory: インベントリ内に見つかりませんでした
+		SummonCountTotal: "{0}/{1}"
+		LeftClickClear: 左クリックでロードアウトをクリアします
+		RightClickCancel: 右クリックでキャンセルします
+		LeftClickTwiceClear: 左クリック二回でロードアウトをクリアします
+		RightClickSave: 右クリックでロードアウトを保存します
+		OnUseNoWeapons: 召喚武器が見つかりませんでした
+		OnUseReset: ロードアウトをリセットしました
+		OnUseSaved: ロードアウトを保存
+		OnUseSelected: 選択中: {0}
+		FillToggleTooltip: クリックで残りのスロットを埋めます
+		FillToggleEnabled: "[c/{0}:有効]"
+		FillToggleDisabled: 無効
+	}
+}

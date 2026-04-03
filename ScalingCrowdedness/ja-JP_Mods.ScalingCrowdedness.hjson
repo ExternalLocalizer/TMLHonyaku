@@ -1,0 +1,206 @@
+Chat: {
+	GetChat:
+		'''
+		私の家の{0}マス内には{2}人のタウンNPCがいます。
+		私の家の{3}マス内には、他に{1}人のタウンNPCがいます。
+		'''
+	OnEnterWorld:
+		'''
+		幸福度が低下する、近くのタウンNPCの人数は{0}人です。
+		幸福度がさらに低下する近くのタウンNPCの人数は{1}人です。
+		'''
+}
+
+Logger: {
+	FoundNPC: IDが{0}のタウンNPCを発見しました
+	NumberOfNPCs: 町のNPCが{0}人見つかりました
+	ScalingMultiple: 混雑の倍率は{0}です
+}
+
+Commands: {
+	Description:
+		'''
+		  [c/00ffff:TownNPCChat <true/false>]
+		    [c/aaaaaa:タウンNPCは近くにいる他のタウンNPCの数をチャットで伝えます。]
+		    [c/aaaaaa:例:] [c/008080:/sc TownNPCChat true]
+		  [c/00ffff:EnterWorld <true/false>]
+		    [c/aaaaaa:新しいしきい値は、ワールドに入った際、チャットに表示されます。]
+		    [c/aaaaaa:例:] [c/008080:/sc EnterWorld true]
+		  [c/00ffff:GetThreshold]
+		    [c/aaaaaa:チャットに現在のしきい値を表示します。]
+		    [c/aaaaaa:例:] [c/008080:/sc GetThreshold]
+		'''
+
+	TownNPCChat: {
+		Enable:
+			'''
+			タウンNPCのチャットが[c/00ff00:オン]になりました。
+			[c/bbbbbb:タウンNPCは][c/bbbbbb:近くにいる他のタウンNPCの数をチャットで][c/ffffff:伝えます。]
+			'''
+		Disable:
+			'''
+			タウンNPCのチャットが[c/ff0000:オフ]になりました。
+			[c/bbbbbb:タウンNPCは][c/bbbbbb:近くにいる他のタウンNPCの数をチャットで][c/ffffff:伝えません。]
+			'''
+	}
+
+	EnterWorld: {
+		Enable:
+			'''
+			ワールド参加時のチャットが[c/00ff00:オン]になりました。
+			[c/bbbbbb:ワールドに入ったとき、][c/bbbbbb:新しいしきい値をチャットで][c/ffffff:伝えます。]
+			'''
+		Disable:
+			'''
+			ワールド参加時のチャットが[c/ff0000:オフ]になりました。
+			[c/bbbbbb:ワールドに入ったとき、][c/bbbbbb:新しいしきい値をチャットで][c/ffffff:伝えません。]
+			'''
+	}
+}
+
+Configs: {
+	ScalingCrowdednessConfigClient: {
+		DisplayName: Scaling Crowdedness クライアント設定
+
+		ShowNumbersWhenTalkingToNPC: {
+			Label: "[i:MusicBoxTownDay] タウンNPCと話したときに近くのタウンNPCの人数を表示"
+			Tooltip:
+				'''
+				オンにするとタウンNPCと話したとき、近くにいる他のタウンNPCの人数がチャットに表示されます
+				この設定は次のコマンドで変更することもできます:
+				[c/008080:/sc TownNPCChat <true/false>]
+				'''
+		}
+
+		ShowNumbersEnteringWorld: {
+			Label: "[i:WorldGlobe] ワールドに入ったときにしきい値を表示"
+			Tooltip:
+				'''
+				ワールドに入ると、混雑しているとみなされる、現在のタウンNPCの人数がチャットに表示されます
+				この設定は次のコマンドで変更することもできます:
+				[c/008080:/sc EnterWorld <true/false>]
+				'''
+		}
+
+		NextConfigClient: {
+			Label: "[c/999999:左下の矢印をクリックして、サーバー設定画面に切り替えてください] >"
+			Tooltip: "[c/999999:サーバー設定で混雑設定を調整できます]"
+		}
+	}
+
+	ScalingCrowdednessConfigServer: {
+		DisplayName: Scaling Crowdedness サーバー設定
+
+		ManualAdjustmentBaseCrowdingStart: {
+			Label: "[i:GuideVoodooDoll] 基本の混雑人数"
+			Tooltip:
+				'''
+				混雑により幸福度が低下する、基準となる人数を変更します
+				バニラでは、近くに4人以上いると混雑しているとみなされます
+				値が4以下の場合、混雑しているとみなされやすくなります
+				4より大きい数値の場合は混雑しているとみなされにくくなります
+				デフォルトの値: 4
+				'''
+		}
+
+		ManualAdjustmentScalingStart: {
+			Label: "[i:LaserRuler] スケーリングが開始する人数"
+			Tooltip:
+				'''
+				このModがしきい値のスケーリングを開始するために必要なタウンNPCの人数を変更します
+				デフォルトではタウンNPCの人数が30人を超えてからしきい値を引き上げ始めます
+				値が30以下の場合、スケーリングがより早く始まります
+				30より大きい数値の場合はスケーリングが始まるのが遅くなります
+				デフォルトの値: 30
+				'''
+		}
+
+		ManualAdjustmentScalingIncrements: {
+			Label: "[i:Ruler] スケーリング増分"
+			# Spaces are important. Tabs are replaced with a * in game.
+			Tooltip:
+				'''
+				このModが混雑のしきい値を上昇させるのに必要なタウンNPCの人数を変更します
+				デフォルトではタウンNPCの人数が10増えるごとにしきい値が上昇します
+				    (スケーリングが開始する人数以降)
+				値が10以下の場合、しきい値が上昇しやすくなります
+				10より大きい数値の場合はしきい値が上昇しにくくなります
+				デフォルトの値: 10
+				'''
+		}
+
+		TownNPCsWithinHouseRange: {
+			Label: "[i:MusicBoxTownDay] 家の近隣範囲"
+			Tooltip:
+				'''
+				タウンNPCの家の旗の間の距離。この距離以上でないなら、NPC同士が近隣住民とみなされます
+				デフォルトでは、2人のタウンNPCが隣人として認識される最大範囲は25マスです
+				値が25以下の場合、近隣住民とみなされるには、タウンNPC同士がより接近している必要があります
+				25より大きい数値の場合は、遠くのタウンNPCも隣人としてカウントされます
+				デフォルトの値: 25
+				'''
+		}
+
+		TownNPCsWithinVillageRange: {
+			Label: "[i:MusicBoxTownNight] 村の範囲"
+			Tooltip:
+				'''
+				タウンNPCの家の旗の間の距離。この距離以上でないなら、それらのNPCは同じ村に属しているとみなされます
+				デフォルトでは、2人のタウンNPCが同じ村にいるとみなされる最大範囲は120マスです
+				値が120以下の場合、同じ村にいるとみなされるには、タウンNPC同士がより接近している必要があります
+				120より大きい数値の場合は、遠くのタウンNPCも同じ村にいるものとして扱われます
+
+				これが家の近隣範囲の数値以下の場合は効果がありません
+				(この値は空間が広く、幸福度が上昇するのに必要な値として使われます)
+
+				デフォルトの値: 120
+				'''
+		}
+
+		ScalingInfo: {
+			# Label is empty on purpose
+			Label: " "
+			Tooltip:
+				'''
+				これは混雑により幸福度が低下するタウンNPCの新しい数を示すプレビューです
+				タウンNPCの隣人の数が一定のしきい値を超えるとそのNPCは不満を抱き始めます
+
+				バニラでの動作
+				    26人のバニラタウンNPC
+				    3人までなら幸福度が低下しない (4人目から隣人が不満を抱くようになる)
+
+				しきい値は、以下のコマンドでチャットに表示できます:
+				[c/008080:/sc GetThreshold]
+				'''
+			# This the text that actually displays
+			String: 読み込まれたタウンNPCは[c/ffff00:{0}]です。新しいしきい値は[c/ffff00:{1}]です
+		}
+
+		CalculationInfo: {
+			Label: "[c/999999:Calculation Info]"
+			# Spaces are important. Tabs are replaced with a * in game.
+			Tooltip:
+				'''
+				しきい値の計算方法は以下の通りです:
+				  * まず、読み込まれたタウンNPCの数をカウントします
+				  ※  ただし、幸福度の影響を受けないタウンペットやNPC (旅商人)は除きます
+				  * 次に「基本の混雑人数」の数値から1を引きます
+				  * 読み込まれたタウンNPCの数が「スケーリングが開始する人数」の数値以下の場合は計算が停止します
+				  * 読み込まれたタウンNPCの数が「スケーリングが開始する人数」の数値以上なら...
+				  * 「スケーリングが開始する人数」の数値から1を引き、その値を読み込まれた読み込まれたタウンNPCの数から引きます
+				  *  次にその数値を「スケーリング増分」の数値で割り、切り捨てます
+				  *  最後に、数値に1を足し、計算は終了します
+				Pseudocode representation:
+				    minimumStartCrowding = BaseCrowdingStart - 1
+				    if (numOfTownNPCsLoaded < ScalingStart)
+				        最小開始混雑度を返す
+				    else
+				        countPastScalingStart = numOfTownNPCsLoaded - (ScalingStart - 1)
+				        minimumStartCrowding += (countPastScalingStart / ScalingIncrements) + 1
+				        最小開始混雑度を返す
+				'''
+		}
+
+		MultiplayerMessage: あなたはサーバーの所有者ではないため、この設定は変更できません！
+	}
+}

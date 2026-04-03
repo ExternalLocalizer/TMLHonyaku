@@ -1,0 +1,808 @@
+Achievements: {
+	Achi_ToolMaster: {
+		FriendlyName: ツールマスター
+		Description: 道具を全て集めた！君は間違いなくプロの建築家だ。
+	}
+}
+
+Buffs: {
+	CogflyBuff: {
+		DisplayName: カラクリバエ
+		Description: 「何がそれに知性を与えたのか？」
+	}
+
+	HealOvertimeBuff: {
+		DisplayName: 慢性治癒
+		Description: 徐々にライフが回復する
+	}
+
+	ClawMirrorCooldown: {
+		DisplayName: ステージの焦点
+		Description:
+			'''
+			爪鏡はクールダウン中
+			クリティカル率が{0}%上昇
+			'''
+		}
+
+	ClawMirrorCooldown2: {
+		DisplayName: 苦痛の焦点
+		Description:
+			'''
+			爪鏡はクールダウン中
+			クリティカル率が{0}%上昇し、ダメージが{1}%増加
+			'''
+	}
+
+	ReserveBindBuff: {
+		DisplayName: 予備の準備完了
+		Description: ポーション酔い中、ライフを{0}回復する
+	}
+
+	ReserveBindCooldown: {
+		DisplayName: シルクの復元中
+		Description: 予備のシルクはクールダウン中
+	}
+
+	MagmaBellBuff: {
+		DisplayName: マグマの鈴
+		Description: 次の炎のダメージを軽減する
+	}
+
+	MagmaBellCooldown: {
+		DisplayName: 鈴のオーパヒート中
+		Description: マグマの鈴はクールダウン中
+	}
+
+	WardingBellBuff: {
+		DisplayName: 護りの鐘
+		Description: 攻撃を防いでくれる
+	}
+
+	FracturedMaskBuff: {
+		DisplayName: 仮面の守り
+		Description: 致命的なダメージから身を守ってくれる
+	}
+
+	FracturedMaskCooldown: {
+		DisplayName: 仮面の修理中
+		Description: 仮面は現在修理中
+	}
+
+	PoshankaBuff: {
+		DisplayName: 闘志
+		Description:
+			'''
+			ダメージが{0}%増加し、敵に狙われやすくなる
+			「ポシャンカ！」
+			'''
+	}
+
+	LifebloodBuff: {
+		DisplayName: プラズマ化
+		Description:
+			'''
+			血液が変異している
+			回復ポーションを使用できず、ライフを吸収できないが、ライフ自然回復を大きく増進
+			'''
+	}
+
+	LifebloodBuff_2: {
+		DisplayName: 毒反応
+		Description: それらの液体はすぐに激しく代謝されるだろう…
+	}
+
+	FleaBrewBuff: {
+		DisplayName: ノミ酒
+		Description: 移動速度と攻撃速度が上昇
+	}
+
+	FleaBrewBuff_2: {
+		DisplayName: 毒酒
+		Description: 周囲に有毒な雲を発生させる
+	}
+
+	FlintslateBuff: {
+		DisplayName: 加熱
+		Description:
+			'''
+			近接ダメージが{0}%増加し、攻撃した敵にヘルファイアを与える
+			冷気による被ダメージを軽減
+			'''
+	}
+
+	FlintslateBuff_2: {
+		DisplayName: 毒の熱
+		Description:
+			'''
+			近接ダメージが{0}%増加し、攻撃した敵に酸性毒を与える
+			冷気による被ダメージを軽減
+			'''
+	}
+
+	WreathOfPurityBuff: {
+		DisplayName: 浄化のリース
+		Description: デバフを{0}回治療できる
+		Description1: リースは壊れている
+	}
+
+	PinBadgeBuff: {
+		DisplayName: 集中
+		Description: 次の攻撃のダメージが大きく増加
+	}
+
+	VoltDebuff: {
+		DisplayName: 帯電
+		Description: ライフが徐々に減少
+	}
+}
+
+		NurseReject: あなたの血液は過剰に活性化しているようで、通常の治療は効果がないわ。申し訳ないけど、私には何もできないわ。
+		NurseReject2: すぐに立ち去って！あなたが出す致死性の有毒ガスを吸いたくないわ！
+		NeedlePhobia: "{0}は注射恐怖症だった"
+		DeathByLifeblood_Venom: "{0}のわずかに残っていた血液は乾いてしまった"
+		DeathByLifeblood_Overdose1: "{0}は自然の限界を破ろうとした"
+		DeathByLifeblood_Overdose2: "{0}は生命の血の操り人形となった"
+		DeathByLifeblood_Overdose3: "{0}は祝福を受けるための条件を満たしていなかった"
+		DeathByLifeblood_Overdose4: "{0}は、死によってこの問題の有害性を証明した"
+		DeathByLifeblood_Overdose5: "{0}は薬物の過剰摂取で死亡した"
+		DeathByLifeblood_Overdose_Meme: このメッセージは公開されない
+		ShardPendantCondition: 破片のペンダントを装備中にドロップする
+		ThrowingStyleWeapon: "[c/ffff33:投擲武器]"
+		HardcoreOnly: ハードコアのキャラでプレイ中に販売
+		HardcoreExclusive: ハードコアでないキャラでプレイ中に販売
+
+Configs: {
+	VFXConfig: {
+		DisplayName: エフェクトの表示設定
+
+		DisableBuffVisual: {
+			Label: バフのエフェクトを表示しない
+			Tooltip:
+				'''
+				オンにすると、このModの粉塵や色などのバフを含む、全てのエフェクトを表示しなくなります
+				影響を受けるアイテムは以下のとおりです
+				[i:SilksongTools/FleaBrew_Item] [i:SilksongTools/Flintslate_Item] [i:SilksongTools/PlasmiumPhial_Item]
+				'''
+		}
+
+		DisableScreenShake: {
+			Label: 画面を揺らす効果を無効にする
+			Tooltip:
+				'''
+				オンにすると、このModの画面が揺れる効果を無効化します
+				視覚に何らかの影響を与える可能性があります
+				'''
+		}
+
+		DisableUIParticles: {
+			Label: 画面のパーティクルエフェクトを無効にする
+			Tooltip: オンにすると、画面に表示されるこのModの全てのパーティクルエフェクトを表示しなくなります
+		}
+	}
+}
+
+Items: {
+	StraightPin_Item: {
+		DisplayName: まっすぐなピン
+		Tooltip: 軽い投擲用武器。素早い攻撃に適している。
+	}
+
+	ThreefoldPin_Item: {
+		DisplayName: 三連ピン
+		Tooltip: 平らな三本のピンが重なり合ったもの。まとめて同時に投げることができる。
+	}
+
+	Longpin_Item: {
+		DisplayName: ロングピン
+		Tooltip:
+			'''
+			重りのついたピンと柄。硬い殻も貫くことができる。
+			敵の防御力を10無視する
+			'''
+	}
+
+	StingShard_Item: {
+		DisplayName: 刺殺のトゲ
+		Tooltip:
+			'''
+			刃をきつく束ねて作った致死の罠。
+			設置すると、それに触れた敵に突き刺さる。
+			'''
+	}
+
+	Curveclaw_Item: {
+		DisplayName: 湾曲した爪
+		Tooltip: 湾曲した鋭利な骨。狩猟者が空を飛ぶ獲物を仕留めるために使う。
+	}
+
+	Curvesickle: {
+		DisplayName: 切り裂きの円刃
+		Tooltip: 放射線状の鋭い骨。熟練の狩猟者が危険な獲物を倒すために使う。
+	}
+
+	ThrowingRing_Item: {
+		DisplayName: 投げ輪
+		Tooltip:
+			'''
+			勇敢な地図製作者が使う強力な投擲武器。
+			敵や固い表面に当たって跳ね返り、鈍器で殴られたような衝撃を与える。
+			'''
+		Tooltip1: 右クリックで投げ輪を叩いて敵を挑発し、ダメージが{0}秒間増加する
+	}
+
+	Tacks_Item: {
+		DisplayName: 足止めの鋲
+		Tooltip:
+			'''
+			地面に撒くことを想定して設計された短いピン。
+			踏んだ者にその鋭い針先が突き刺さる。
+			右クリックでばら撒いた鋲を全て破壊する
+			'''
+	}
+
+	CogworkWheel_Item: {
+		DisplayName: カラクリの円盤
+		Tooltip:
+			'''
+			カラクリで駆動し、拡張する円形の刃。
+			前方に向かって移動し、敵を切り裂く。
+			'''
+	}
+
+	Cogfly_Item: {
+		DisplayName: 機械仕掛けのボール
+		Tooltip:
+			'''
+			上に投げた後、一緒に戦ってくれるコグフライに変化する
+			「カラクリで飛翔する仲間。」
+			'''
+	}
+
+	Conchcutter_Item: {
+		DisplayName: ホラガイの刃
+		Tooltip:
+			'''
+			硬質化したホラガイのトゲから作られた、螺旋状の武器。
+			地形に当たると跳ね返る。
+			'''
+	}
+
+	Pimpillo_Item: {
+		DisplayName: ピンピロー
+		Tooltip:
+			'''
+			揮発性の物質が入った布のポーチ。
+			敵に当たるか、一定時間経過で爆発する。
+			'''
+	}
+
+	DelversDrill_Item: {
+		DisplayName: 採掘者のドリル
+		Tooltip:
+			'''
+			回転する刃のついた道具。
+			使用者は破壊的な力を持つドリルを回転させながら、突進する。
+			'''
+	}
+
+	BrokenTool: {
+		DisplayName: 壊れた道具
+		Tooltip: 「武器に見えるが、残骸だ...。」
+	}
+
+	Silkshot_Item: {
+		DisplayName: シルクショット
+		Tooltip:
+			'''
+			本来の形に修理された、古の武器。
+			空の銃弾とマナを消費して、敵を貫通するレーザーを発射する
+			'''
+	}
+
+	SilkshotTypeII: {
+		DisplayName: シルクショット
+		Tooltip:
+			'''
+			古の武器。鍛冶屋によって修理され、改良がほどこされた。
+			空の弾丸とマナを消費する
+			'''
+	}
+
+	SilkshotTypeIII: {
+		DisplayName: シルクショット
+		Tooltip:
+			'''
+			古の武器。設計者によって修理され、改良がほどこされた。
+			空の銃弾とマナを消費して、精度の悪い弾を3発発射する。
+			'''
+	}
+
+	SnareSetter_Item: {
+		DisplayName: 罠の土台	
+		Tooltip:
+			'''
+			古代の罠を設置するために使用する道具。
+			敵が触れると作動するシルクのルーンを設置する。
+			静止時にのみ使用でき、最大で5つのルーンを設置できる。
+			重力が逆転中は使用できない。
+			'''
+	}
+
+	RosaryCannon_Item: {
+		DisplayName: ロザリー砲
+		Tooltip:
+			'''
+			ロザリーを紐でつなげる機械を改造した物。
+			コインかロザリーを弾薬として使用し、撃ち続けるととリロードが必要。
+			'''
+	}
+
+	RosaryString: {
+		DisplayName: ロザリーの紐
+		Tooltip: ロザリー砲の弾薬として使用でき、消費しない
+	}
+
+	FleaBrew_Item: {
+		DisplayName: ノミ酒
+		Tooltip: キャラバンで造られた活力を生み出す飲み物。
+		Tooltip1: 移動速度と攻撃速度が{0}%上昇する
+	}
+
+	FleaBrewEmpty: {
+		DisplayName: 空き瓶
+		Tooltip: 「ただの空き瓶だよ…なくさないでね。」
+	}
+
+	Flintslate_Item: {
+		DisplayName: 発火棘
+		Tooltip:
+			'''
+			発火宝石を切って鋭く磨き上げた物。
+			近接武器を高熱で熱することでダメージを増加させ、攻撃した敵を炎上させる
+			ポリップのポーチを装備している場合はダメージがより増加し、酸性毒を与えるようになる
+			水に触れると効果がなくなる
+			'''
+	}
+
+	PlasmiumPhial_Item: {
+		DisplayName: プラスミフラスコ
+		Tooltip:
+			'''
+			プラスミウムが入った、槍形のフラスコ。
+			中の液体を注入することで、ライフ自然回復を増進するが、使いすぎると副作用が発生する。
+			'''
+	}
+
+	Voltvessels_Spear: {
+		DisplayName: 電撃の器
+		Tooltip:
+			'''
+			電気を内包したオーブ。エネルギーの柱を作り出すための槍として使用できる。
+			右クリックでつないだ状態にすることができる
+			'''
+	}
+
+	Voltvessels_Bola: {
+		DisplayName: 電撃の器
+		Tooltip:
+			'''
+			電気を内包したオーブ。投げることで電撃の爆発を引き起こすことができる。
+			右クリックで槍に変形する
+			'''
+	}
+
+	DruidsEye_Item: {
+		DisplayName: ドルイドの眼
+		Tooltip:
+			'''
+			苔の実から作られた護りのアミュレット。
+			ダメージを受けると苔の実を落とし、それに触れるとライフが回復する
+			'''
+	}
+
+	DruidsEyes: {
+		DisplayName: ドルイドの複眼
+		Tooltip:
+			'''
+			たくさんの苔の実から作られた強力な護りのアミュレット。
+			ダメージを受けると苔の実を複数落とし、それに触れるとライフが回復する
+			'''
+	}
+
+	MagmaBell_Item: {
+		DisplayName: マグマの鈴
+		Tooltip: 鉄製の鈴。強烈な熱を防ぐために作られた。
+		Tooltip1:
+			'''
+			溶岩と炎系のデバフのダメージを軽減し、燃えるブロックのダメージを無効化する
+			炎の攻撃によるダメージを{0}%軽減する
+			軽減後、{1}秒のクールダウンが発生する
+			'''
+	}
+
+	WardingBell_Item: {
+		DisplayName: 護りの鐘
+		Tooltip: 守護の聖歌が刻まれた鐘。
+		Tooltip1:
+			'''
+			回復ポーションを使用すると、{0}秒以内に攻撃を防御する
+			防御に成功すると、爆発を起こす
+			回復量が少ないと効果がない
+			'''
+	}
+
+	FracturedMask_Item: {
+		DisplayName: 割れた仮面
+		Tooltip: 古いムシの頭蓋骨を削って防具に仕立て上げた物。
+		Tooltip1:
+			'''
+			致命的なダメージから身を守ってくれるが、その際に壊れる。
+			壊れた後、修理には{0}分かかる
+			'''
+	}
+
+	Multibinder_Item: {
+		DisplayName: 紡ぎの触媒
+		Tooltip: 刻みが入れられた紡錘。
+		Tooltip1:
+			'''
+			回復ポーションと予備のシルクの効果が{0}%増加するが、
+			回復時、ライフが即座に回復せず、{1}後に回復する
+			爪鏡で攻撃を回避すると、爆発が2回起きる
+			'''
+	}
+
+	PollipPouch_Item: {
+		DisplayName: ポリップのポーチ
+		Tooltip: ある花から抽出した速効性の毒が入ったポーチ。
+		Tooltip1: 
+			'''
+			攻撃した敵に酸性毒を与え、ダメージが{0}%増加する
+			装備中は発火棘の効果が変化する
+			'''
+	}
+
+	Weavelight_Item: {
+		DisplayName: 紡ぎの光
+		Tooltip:
+			'''
+			古代人が作成した器具。その中心からは淡い光が放たれている。
+			マナ自然回復を増進する
+			'''
+		Tooltip1: マナが不足している場合にマナを{0}%回復し、{1}秒のクールダウンがある
+	}
+
+	ClawMirror_Item: {
+		DisplayName: 爪鏡
+		Tooltip:
+			'''
+			虚栄心の強い者が用いる飾り道具。
+			攻撃を回避することがある
+			回避に成功すると、周囲の敵にダメージを与えるまばゆい閃光を放つ
+			'''
+	}
+
+	ClawMirrorBlack: {
+		DisplayName: 黒い鏡
+		Tooltip:
+			'''
+			虚栄心の強い者が用いるもう一つの飾り道具。
+			爪鏡と組み合わせた時のみ効果を発揮する
+			'''
+	}
+
+	ClawMirrors: {
+		DisplayName: 2つの爪鏡
+		Tooltip:
+			'''
+			虚栄心の強い者が用いる飾り道具がセットになった物。
+			攻撃を回避することがある
+			回避に成功すると、周囲の敵にダメージを与える灼熱の爆発が起きる
+			'''
+	}
+
+	SawtoothCirclet_Item: {
+		DisplayName: 鋸歯のサークレット
+		Tooltip:
+			'''
+			鋸のような金属の歯で作られた、伸縮性のベルト。
+			追加ジャンプ時に刃が回転し、敵にダメージを与えることができる。
+			'''
+	}
+
+	SpoolExtender_Item: {
+		DisplayName: 糸巻拡張器
+		Tooltip: 古代のアーティファクトを模して作られた、シタデルのシルク収納道具。
+		Tooltip1: "最大マナが{0}%増加"
+	}
+
+	ReserveBind_Item: {
+		DisplayName: 予備のシルク
+		Tooltip: 装飾がされたシタデルのアーティファクトで、力を紡ぐのに必要な量のシルクを収容できる。
+		Tooltip1: ポーション酔い中に効果を発揮し、ライフを{0}回復できる
+		Tooltip2: クールダウンは2分
+		Tooltip3: 使用後に復元するには{0}が必要
+	}
+
+	InjectorBand_Item: {
+		DisplayName: 注入バンド
+		Tooltip: 外科施術用のピンを用いた装具で、白色の棟にて発見された。体にシルクを無理やり注入するために使われていた。
+		Tooltip1:
+			'''
+			回復ポーションと予備のシルクのクールダウンを{0}%短縮し、
+			バフポーションの持続時間が、服用中に1%増加
+			予備のシルクと紡ぎの触媒のクールダウンが短縮される
+			'''
+	}
+
+	WreathOfPurity_Item: {
+		DisplayName: 浄化のリース
+		Tooltip: 葦と葉で編まれた、脆弱なリース。汚物をはじくように作られている。
+		Tooltip1:
+			'''
+			使用するとデバフを治す
+			{0}回使うとリースが壊れる
+			デバフを受けていないなら{1}秒経過で使用できる回数が回復する
+			'''
+	}
+
+	PinBadge_Item: {
+		DisplayName: ピンバッジ
+		Tooltip: ファールームの古の剣士が率いていた、ピンストレス騎士団の紋章。
+		Tooltip1: 近接武器を選択中、{0}秒間攻撃していないなら、次の攻撃のダメージが{1}%増加する
+	}
+
+	SnitchPick_Item: {
+		DisplayName: 強奪のピック
+		Tooltip: 体からアイテムを強奪するために作られた、鉤爪の付いた道具。
+		Tooltip1:
+			'''
+			攻撃ヒット時、一定確率でお金を追加で落とす
+			ダメージが{0}%増加
+			'''
+	}
+
+	MemoryCrystal_Item: {
+		DisplayName: 記憶の水晶
+		Tooltip:
+			'''
+			記憶の媒介と反射性質を持った石。
+			ダメージを受けると、着用者の記憶が水晶となって実体化する。
+			敵が触れると水晶は砕け、鋭い破片となる。
+			'''
+	}
+
+	VoltFilament_Item: {
+		DisplayName: 電撃の繊維
+		Tooltip: 巨大なイソギンチャクから入手した電気を帯びた臓器。
+		Tooltip1:
+			'''
+			魔法攻撃で敵を帯電させ、ダメージが{0}%増加する
+			帯電した敵を魔法攻撃で攻撃すると、他の敵も帯電させる
+			'''
+	}
+
+	QuickSling_Item: {
+		DisplayName: スリング
+		Tooltip:
+			'''
+			葦と骨で作られた、腕に取り付けるための張力調整機構。
+			[c/ffff33:投擲武器を]二回投げる
+			'''
+		Tooltip1: 消費しない投擲武器のダメージが{0}%減少
+	}
+
+	Longclaw_Item: {
+		DisplayName: 長い爪
+		Tooltip: 巨大な捕食者の爪で作られたお守り。
+		Tooltip1: 近接武器のサイズが{0}%増加
+	}
+
+	WispfireLantern_Item: {
+		DisplayName: ウィスプの火のランタン
+		Tooltip: ウィスプの火が燻る、壊れた鉄のランタン。
+		Tooltip1: 敵が近くにいると、{0}秒ごとにマナを{1}消費して、敵を燃やすウィスプを生成する
+	}
+
+	EggOfFlealia_Item: {
+		DisplayName: フレアリアの卵
+		Tooltip:
+			'''
+			伝説に語られるノミの母のアイコン。古い時代よりキャラバンで受け継がれてきた。守護と同胞の絆の象徴でもある。
+			ライフが最大なら、マナを消費しない
+			'''
+	}
+
+	Compass_Item: {
+		DisplayName: コンパス
+		Tooltip:
+			'''
+			殻を削って作った、精巧な追跡装置。
+			深さと横位置を表示する
+			'''
+	}
+
+	DeadBugsPurse_Item: {
+		DisplayName: 死んだムシの財布
+		Tooltip: 命尽きた巡礼者が残した財布。
+		Tooltip1:
+			'''
+			死亡してもコインを落とさなくなる
+			コインを弾薬として使用する武器を使用中、{0}%の確率でコインを消費しない
+			'''
+	}
+
+	ShellSatchel_Item: {
+		DisplayName: 殻のサッチェル
+		Tooltip:
+			'''
+			古い殻を使って作られた収納容器。
+			金庫として使用でき、右クリックで開く
+			'''
+	}
+
+	ShardPendant_Item: {
+		DisplayName: 破片のペンダント
+		Tooltip:
+			'''
+			収集者や職工が身につける、粗野な装飾品。
+			ほとんどのスタックできるアイテムのドロップ量が増加する
+			'''
+	}
+
+	MagnetiteBrooch_Item: {
+		DisplayName: マグネタイトのブローチ
+		Tooltip:
+			'''
+			ロザリーへの祈りが刻まれた聖なる石。
+			周りのアイテムを着用者のもとに引き寄せる力がある。
+			'''
+	}
+
+	WeightedBelt_Item: {
+		DisplayName: 重いベルト
+		Tooltip:
+			'''
+			脚元の安定しない者が好んで着ける、重い輪。
+			ノックバックを無効化し、被ダメージ時の無敵時間を延長する
+			'''
+	}
+
+	MagnetiteDice_Item: {
+		DisplayName: マグネタイトのサイコロ
+		Tooltip:
+			'''
+			マグネタイトを削って作られた遊び道具。持ち主に幸運をもたらすと考えられている。
+			ダメージを無効化することがある
+			'''
+		Tooltip1: クリティカル率が{0}%上昇
+	}
+
+	SilkspeedAnklets_Item: {
+		DisplayName: シルクアンクレット
+		Tooltip:
+			'''
+			ウィーバーが実験的に作ったアンクレット。
+			着用者のマナを利用して機動性を向上させる
+			'''
+		Tooltip1: マナを消費して飛行時間を延長する
+	}
+
+	ThiefsMark_Item: {
+		DisplayName: 盗賊の証
+		Tooltip:
+			'''
+			自らが盗賊の一味であることを証明するもの。
+			倒した敵からより多くのコインを入手できるが、ダメージを受けるとコインを一部失う
+			'''
+		Tooltip1:
+			'''
+			コプリンのよろず屋のリフォージの費用が{0}%割引される
+			「勝者はより多く稼ぎ、敗者は損失を被る！」
+			'''
+	}
+
+	AscendantsGrip_Item: {
+		DisplayName: 登攀者の爪
+		Tooltip: 光沢を放つピン。壁につかまってその場にとどまることができる。
+	}
+
+	BarbedBracelet_Item: {
+		DisplayName:トゲの腕輪
+		Tooltip: 自らが適切に罰せられていないと感じる者たちが身につける、辛苦の腕輪。
+		Tooltip1: ダメージが{0}%増加するが、被ダメージが{1}%増加する
+	}
+
+	Scuttlebrace_Item: {
+		DisplayName: クモ走りの装具
+		Tooltip:
+			'''
+			殻を覆うようにきつく装着する、背骨のような形状の装具。
+			横方向入力2回で逆向きにダッシュし、入力し続けると移動を継続できる
+			「戦術的撤退」
+			'''
+	}
+
+	SpiderStrings_Item: {
+		DisplayName: クモの弦
+		Tooltip:
+			'''
+			洗練された古代の器具。音楽と共鳴し、そのパフォーマンスを高める力がある。
+			魔法のリズムを演奏し、近づいてくる敵を混乱させる
+			アクセサリを表示すると効果範囲が表示される
+			'''
+		Tooltip_Thorium: エンパワーメントの持続時間を{0}秒延長し、エンパワーメントの効果範囲がわずかに増加
+	}
+
+	BlueIcon: {
+		DisplayName: 青の道具
+		Tooltip: ""
+	}
+
+	RedIcon: {
+		DisplayName: 赤の道具
+		Tooltip: ""
+	}
+
+	YellowIcon: {
+		DisplayName: 黄の道具
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Cogfly_Summon.DisplayName: コグフライ
+	SilkshotBullet.DisplayName: シルクショットの弾
+	SilkshotLaser.DisplayName: シルクショットのレーザー
+	Silkshot_Held.DisplayName: "{$Mods.SilksongTools.Items.Silkshot_Item.DisplayName}"
+	SilkshotTypeII_Held.DisplayName: "{$Mods.SilksongTools.Items.SilkshotTypeII.DisplayName}"
+	SilkshotTypeIII_Held.DisplayName: "{$Mods.SilksongTools.Items.SilkshotTypeIII.DisplayName}"
+	ClawMirrorFlash.DisplayName: 閃光
+	ClawMirrorSubFlash.DisplayName: 閃光
+	RosaryCannon_Held.DisplayName: "{$Mods.SilksongTools.Items.RosaryCannon_Item.DisplayName}"
+	RosaryBullet.DisplayName: ロザリー
+	Conchcutter_Proj.DisplayName: "{$Mods.SilksongTools.Items.Conchcutter_Item.DisplayName}"
+	DelversDrill_Held.DisplayName: "{$Mods.SilksongTools.Items.DelversDrill_Item.DisplayName}"
+	StraightPin_Proj.DisplayName: "{$Mods.SilksongTools.Items.StraightPin_Item.DisplayName}"
+	ThreefoldPin_Proj.DisplayName: "{$Mods.SilksongTools.Items.ThreefoldPin_Item.DisplayName}"
+	Longpin_Proj.DisplayName: "{$Mods.SilksongTools.Items.Longpin_Item.DisplayName}"
+	Tacks_Proj.DisplayName: "{$Mods.SilksongTools.Items.Tacks_Item.DisplayName}"
+	SnareSetter_Held.DisplayName: "{$Mods.SilksongTools.Items.SnareSetter_Item.DisplayName}"
+	SilkRune.DisplayName: シルクのルーン
+	Mossberry.DisplayName: 苔の実
+	WardingBellRune.DisplayName: 護りのルーン
+	MagnetiteDiceImage.DisplayName: あなたはラッキーだ！
+	ThrowingRing_Proj.DisplayName: "{$Mods.SilksongTools.Items.ThrowingRing_Item.DisplayName}"
+	Curveclaw_Proj.DisplayName: "{$Mods.SilksongTools.Items.Curveclaw_Item.DisplayName}"
+	Curvesickle_Proj.DisplayName: "{$Mods.SilksongTools.Items.Curvesickle.DisplayName}"
+	PlasmiumPhial_Held.DisplayName: "{$Mods.SilksongTools.Items.PlasmiumPhial_Item.DisplayName}"
+	VenomCloud.DisplayName: 毒ガス
+	VenomCloud_Brew.DisplayName: 毒の雲
+	Flintslate_Held.DisplayName: "{$Mods.SilksongTools.Items.Flintslate_Item.DisplayName}"
+	FleaBrewEmpty_Proj.DisplayName: "{$Mods.SilksongTools.Items.FleaBrewEmpty.DisplayName}"
+	StingShard_Proj.DisplayName: 刺殺のトゲ
+	StingShard_Proj2.DisplayName: トゲの破片
+	CogworkWheel_Proj.DisplayName: "{$Mods.SilksongTools.Items.CogworkWheel_Item.DisplayName}"
+	MemoryCrystal_Proj.DisplayName: 記憶の水晶
+	MemoryCrystal_Proj2.DisplayName: 記憶の水晶
+	Pimpillo_Proj.DisplayName: "{$Mods.SilksongTools.Items.Pimpillo_Item.DisplayName}"
+	SawtoothCirclet_Proj.DisplayName: "{$Mods.SilksongTools.Items.SawtoothCirclet_Item.DisplayName}"
+	Voltvessels_Spear_Proj.DisplayName: "{$Mods.SilksongTools.Items.Voltvessels_Spear.DisplayName}"
+	Voltvessels_Bola_Proj.DisplayName: "{$Mods.SilksongTools.Items.Voltvessels_Bola.DisplayName}"
+	Voltvessels_Bola_Proj2.DisplayName: "{$Mods.SilksongTools.Items.Voltvessels_Bola.DisplayName}"
+	VoltBeam.DisplayName: エネルギーの柱
+	VoltSphere.DisplayName: 電気の爆発
+	Wispfire.DisplayName: ウィスプの火
+}
+
+ResourceDisplaySets: {
+	SSDisplay.DisplayName: シルクソング
+	SSDisplay_Architect.DisplayName: 設計者のクレスト
+	SSDisplay_Hunter.DisplayName: 狩猟者のクレスト
+	SSDisplay_Reaper.DisplayName: 収奪者のクレスト
+	SSDisplay_Wanderer.DisplayName: 放浪者のクレスト
+	SSDisplay_Beast.DisplayName: 獣者のクレスト
+	SSDisplay_Witch.DisplayName: 魔導者のクレスト
+	SSDisplay_Shaman.DisplayName: 憑依者のクレスト
+}

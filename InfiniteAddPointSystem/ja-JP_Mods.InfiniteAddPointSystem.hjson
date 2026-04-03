@@ -1,62 +1,44 @@
-Others.BalmMushroom.ChangeStatus: 敵の出現率100倍: {0}
-
-Items: {
-	BalmMushroomModItem: {
-		DisplayName: 良い香りのするキノコ
-		Tooltip:
-			'''
-			使用すると敵の出現率が100倍になる
-			もう一度使用するとオフになる
-			全ての敵がドロップすることがある
-			死亡時に強制的にオフになる
-			'''
-	}
-
-	RareCandyModItem: {
-		DisplayName: ふしぎなアメ
-		Tooltip:
-			'''
-			使用するとLVが1上がる
-			全ての敵がドロップすることがある
-			上を押しながら使うと一括で使用する
-			'''
-	}
-
-	HoneyModItem: {
-		DisplayName: 甘い蜜
-		Tooltip:
-			'''
-			使用するとポイントを1つ得る
-			全ての敵がドロップすることがある
-			上を押しながら使うと一括で使用する
-			'''
-	}
-
-	NoviceGiftModItem: {
-		DisplayName: 初心者への贈り物
-		Tooltip:
-			'''
-			新しいキャラで始めると、これを所持している
-			使用するとポイントを得る
-			獲得量は設定で変更できる
-			'''
-	}
-
-	GiftModItem: {
-		DisplayName: 特別な贈り物
-		Tooltip:
-			'''
-			名前が特殊な新しいキャラで始めると、これを所持している
-			使用すると全てのアイテムからランダムに1つ入手する
-			'''
-	}
-}
-
 Configs: {
-	IAPSClientConfig: {
-		DisplayName: Infinite Add Point Systemクライアント設定
+	OthersServerConfig: {
+		DisplayName: その他のサーバー設定
 
-		ImmuneDebuffBlacklist: {
+		NoviceGiftPoint: {
+			Label: 初心者への贈り物で得るポイント
+			Tooltip: 初心者への贈り物で得るポイントを変更します
+		}
+
+		DropBalmMushroomProbability: {
+			Label: 良い香りのするキノコのドロップ率(‱)
+			Tooltip:
+				'''
+				変更すると再読み込みが必要
+				0にすると、ドロップしなくなり、作成できなくなります
+				'''
+		}
+
+		DropRareCandyProbability: {
+			Label: ふしぎなアメのドロップ率(‱)
+			Tooltip:
+				'''
+				変更すると再読み込みが必要
+				0にすると、ドロップしなくなり、作成できなくなります
+				'''
+		}
+
+		DropHoneyProbability: {
+			Label: 甘い蜜のドロップ率(‱)
+			Tooltip:
+				'''
+				変更すると再読み込みが必要
+				0にすると、ドロップしなくなり、作成できなくなります
+				'''
+		}
+	}
+
+	IAPSClientConfig: {
+		DisplayName: Infinite Add Point System クライアント設定
+
+		ImmuneDeBuffBlacklist: {
 			Label: デバフ無効化のブラックリスト
 			Tooltip:
 				'''
@@ -66,7 +48,7 @@ Configs: {
 				'''
 		}
 
-		ImmuneDebuffWhitelist: {
+		ImmuneDeBuffWhitelist: {
 			Label: デバフ無効化のホワイトリスト
 			Tooltip:
 				'''
@@ -127,38 +109,6 @@ Configs: {
 			Tooltip: 最大LVを変更します
 		}
 
-		NoviceGiftPoint: {
-			Label: 初心者への贈り物で得るポイント
-			Tooltip: 初心者への贈り物で得るポイントを変更します
-		}
-
-		DropBalmMushroomProbability: {
-			Label: 良い香りのするキノコのドロップ率(‱)
-			Tooltip:
-				'''
-				変更すると再読み込みが必要
-				0にすると、アイテムをドロップしなくなります
-				'''
-		}
-
-		DropRareCandyProbability: {
-			Label: ふしぎなアメのドロップ率(‱)
-			Tooltip:
-				'''
-				変更すると再読み込みが必要
-				0にすると、アイテムをドロップしなくなります
-				'''
-		}
-
-		DropHoneyProbability: {
-			Label: 甘い蜜のドロップ率(‱)
-			Tooltip:
-				'''
-				変更すると再読み込みが必要
-				0にすると、アイテムをドロップしなくなります
-				'''
-		}
-
 		AttrAdjust: {
 			Label: 属性調整
 			Tooltip:
@@ -173,29 +123,82 @@ Configs: {
 		ReduceOrResetPointLimit: {
 			Label: ポイントを減らすかリセットする際の制限
 			Tooltip: 
-	'''
-	この設定がオンだと、ポイントを減らすかリセットするには、初期スポーン位置の一定範囲内にいて、
-	ボスがいない必要があります
-	'''
+				'''
+				この設定がオンだと、ポイントを減らすかリセットするには、初期スポーン位置の一定範囲内にいて、
+				ボスがいない必要があります
+				'''
+
 		}
 	}
 }
 
 Keybinds: {
-	IAPS: {
-		OpenPanel.DisplayName: ポイントUIを開く
-		TpToCursor.DisplayName: テレポート
+	TpToCursor.DisplayName: テレポート
+	OpenPanel.DisplayName: ポイントUIを開く
+}
+
+Items: {
+	BalmMushroomModItem: {
+		DisplayName: 良い香りのするキノコ
+		Tooltip:
+			'''
+			使用すると敵の出現率が100倍になる
+			もう一度使用するとオフになる
+			全ての敵がドロップすることがある
+			死亡時に強制的にオフになる
+			'''
+	}
+
+	RareCandyModItem: {
+		DisplayName: ふしぎなアメ
+		Tooltip:
+			'''
+			使用するとLVが1上がる
+			全ての敵がドロップすることがある
+			上を押しながら使うと一括で使用する
+			'''
+	}
+
+	HoneyModItem: {
+		DisplayName: 甘い蜜
+		Tooltip:
+			'''
+			使用するとポイントを1つ得る
+			全ての敵がドロップすることがある
+			上を押しながら使うと一括で使用する
+			'''
+	}
+
+	NoviceGiftModItem: {
+		DisplayName: 初心者への贈り物
+		Tooltip:
+			'''
+			新しいキャラで始めると、これを所持している
+			使用するとポイントを得る
+			獲得量は設定で変更でき
+			'''
+	}
+
+	GiftModItem: {
+		DisplayName: 特別な贈り物
+		Tooltip:
+			'''
+			名前が特殊な新しいキャラで始めると、これを所持している
+			使用すると全てのアイテムからランダムに1つ入手する
+			'''
 	}
 }
 
-######################################## 无限加点系统讯息 ########################################
-LevelUp: "[Infinite Add Point System] LVアップ！ 現在のLV{0}、現在のポイント {1}"
-CanNotReduceOrResetPoint: "[Infinite Add Point System] 初期スポーン位置の一定範囲内にいて、ボスがいない必要があります"
-######################################## 无限加点系统用户界面 ########################################
-ResetButton: ﾎﾟｲﾝﾄをﾘｾｯﾄ
-ChangeAddOrReduceLevelButton: 一度に{0}分LVを変更
-################################################## 无限加点系统攻击类属性 ##################################################
-AttackClassAttr: 攻撃面の強化
+Others.BalmMushroom.ChangeStatus: Current 敵の出現率100倍: {0}
+
+		######################################## 无限加点系统讯息 ########################################
+		LevelUp: "[Infinite Add Point System] LVアップ！ 現在のLV{0}、現在のポイント {1}"
+		CanNotReduceOrResetPoint: "[Infinite Add Point System] 初期スポーン位置の一定範囲内にいて、ボスがいない必要があります"
+		######################################## 无限加点系统用户界面 ########################################
+		ResetButton: ﾎﾟｲﾝﾄをﾘｾｯﾄ
+		ChangeAddOrReduceLevelButton: 一度に{0}分LVを変更
+		################################################## 无限加点系统攻击类属性 ##################################################
+		AttackClassAttr: 攻撃面の強化
 
 BaseDamage: {
 	Label: 基本ダメージ
