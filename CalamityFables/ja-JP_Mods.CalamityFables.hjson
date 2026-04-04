@@ -119,6 +119,11 @@ Compat: {
 			Despawn: デザートスカージが流れる砂の下に消えてゆく...
 		}
 
+		ScourgeVsScarab: {
+			SpawnInfo: "[i:{0}][i:{1}][i:{2}]のストームライオンの幼虫を[i:{3}]古代の祭壇に捧げる"
+			Despawn: 暴れ狂う獣たちは、君がいなくとも争い続ける...
+		}
+
 		Crabulon: {
 			SpawnInfo: 初撃破前に、キノコ群生地でまれに自然に姿を現す。またはキノコ草の上で[i:{0}] フックスタッフを使う
 			Despawn: キノコ群生地は再び静寂に包まれた...
@@ -337,6 +342,8 @@ Projectiles: {
 	YoblinBucketHoldout.DisplayName: Yoblin Bucket Holdout
 	CoraletiSpearHeld.DisplayName: Coraleti Spear
 	CoraletiSpearShrapnel.DisplayName: Coraleti Shrapnel
+	DesertScourgeDelayedLightningStrike.DisplayName: Desert Scourge Delayed Lightning Strike
+	GunkChunk.DisplayName: Gunk Chunk
 }
 
 Items: {
@@ -2557,6 +2564,21 @@ Items: {
 			最大成長時、槍は砕けて残留するサンゴの破片となる
 			'''
 	}
+
+	ScourgeVsScarabTrophyItem: {
+		DisplayName: スカージVSスカラベウスのトロフィー
+		Tooltip: ""
+	}
+
+	ScourgeVsScarabRelicItem: {
+		DisplayName: スカージVSスカラベウスのレリック
+		Tooltip: ""
+	}
+
+	ScourgeVsScarabMusicBoxItem: {
+		DisplayName: オルゴール（Sunbolt Showdown）
+		Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -2589,6 +2611,7 @@ NPCs: {
 	SandstormSprite.DisplayName: サンドストームスプライト
 	SpelunkerScarab.DisplayName: 探鉱甲虫
 	BlizzardSprite.DisplayName: ブリザードスプライト
+	ScourgeVsScarab.DisplayName: デザートスカージ＆スカラベウス
 }
 
 Buffs: {
@@ -2780,112 +2803,6 @@ Buffs: {
 	}
 }
 
-Keepsakes: {
-	ObtentionMessage: "新しい記念品を入手： "
-
-	Names: {
-		NautilusPendant: ロイヤルペンダント
-		Test: テストペンダント
-	}
-
-	Descriptions: {
-		NautilusPendant: ロイヤル・レモラ隊の隊員に与えられる証
-		Test: テスト・テスト・デバッグ　こんにちは
-	}
-
-	NameColors: {
-		NautilusPendant: FFCC41
-		Test: FF0900
-	}
-
-	TabNames: {
-		Open: 記念品
-		Close: 閉じる
-	}
-}
-
-NautilusDialogue: {
-	ExampleForLocalizers: <d:0.5>dタグ、または<delay:1></d>は、文字間の時間を示すために使用されるタグです。通常、強調のために使用されます。</d> <c:FF0000>cタグはカラータグで、16進数のカラーコードを使用します。</c> <s:3>sタグ、または<size:0.2>サイズタグ</s>はフォントサイズの倍率を変更します。</s>。 <a:FromTop>出現タグは、キャラクターが登場する際に使用されるアニメーションを示します</a>、同様に、<m:Shake>移動タグ</m>はテキストが表示された後の動きを示します。可能なアニメーションのキーはCharacterDisplacements.csに記載されています。 <s:2>タグは便利のために<s:4>ネスト</s>することができます。</s>。なお、すべてのタグは最初の文字のみを参照するため、<s:1>、<size:1>、または<spaghetti:1>を使用してもすべて機能します！ また、文末に続くタグを閉じる必要はありません。文の残りに影響を与えたくない場合にのみ閉じる必要があります。
-	CharacterName: サー・ノーチラス
-	Asleep: <s:1.8><d:0.2><a:FromTop>．．．
-	IntroWakeup: ん？<d:0.6> </d><s:1.1><m:Empathis>おお！やあ、ごきげんよう！ </s></m>この危うい深海で<c:afdc14><s:1.1>地上の者</c></s>に出会えるとは運がいい...
-	IntroSecond: 私のような<c:2cdcff>兵の一団</c>を見かけなかったか？ 彼らとは長らくはぐれてしまっていてな...
-	IntroThird: <d:0.25><s:1.1>... </s></d>見ていない？<d:0.4><m:SmallShake><s:1.3> </d>ハハ！</s></m> そうか。まあ、もう少し待つくらいはどうということもない...
-	IntroFourth: 何しろ、<d:0.04><s:1.1><m:SmallShake><c:f74d4d>ヤツら</c></m></s></d>が仕掛けてくるまでは、まだ少し時間があるからな...
-	PostIntroDuelProposition: ところで、君はなかなか活きがいいな。まだ時間もあるし...どうだ、<d:0.4>-</d>年老いた魚と<c:ffd144><s:1.1><m:Empathis>手合わせ</c>でもしてくれんか？
-	RandomPreDefeatTextbox1: <m:SmallWave><d:0.03><s:0.6>...あの<c:f74d4d><s:0.65>略奪者ども</c></s>がまた戻ってくるやもしれん...備えねば...
-	RandomPreDefeatTextbox2: 二度と<c:2cdcff>仲間たち</c>を失望させるわけにはいかん...<d:0.05><m:SmallWave>もっと強くならなければ。
-	RandomPreDefeatTextbox3: 墓の封印を解封してくれた事は感謝する、だがどこにも行くつもりはない。あの<c:f74d4d><m:Empathis>略奪者ども</m></c>が戻った時に備え、守りを固めねば...
-	RandomPreDefeatTextbox4: <c:2cdcff>海の王国</c>の王室衛兵の一員として、我の首はかなりの価値があろう<d:0.2>...！</d> だが、我を討つのはそう容易ではない！
-	FirstFightTextbox: <s:1.1><m:SmallShake>おお！</s></m> この老いた骨も戦場を離れて久しいが、鍛錬は怠っておらん！<d:0.6> </d><c:ffd144><d:0.04><s:1.3><a:FromTop><m:Shake>構えよ！
-	RandomPostDefeatTextbox1: 時間を気にするのはすぐにやめた。我が運命が「ここにいよ」と離してくれぬから、ひたすら訓練に打ち込むことにしたのだ！
-	RandomPostDefeatTextbox2: <d:0.04><s:1.1><m:SmallShake>おっと！</d></s></m> 我々の戦いの中で骨がバラバラに...だが問題ない！すぐに元通りとなる。
-	RandomPostDefeatTextbox3: もし私が同じことを繰り返しておっても気にしないでほしい... 幽霊とは古い習慣に陥りがちなのだ。
-	RandomPostDefeatTextbox4: 君と手合わせして、確信した。君は間違いなく大物になれるぞ！ <m:Empathis><s:1.1><d:0.03>もし誰かに聞かれたなら、私が君の師匠であったと伝えてほしい！
-	RandomPostDefeatTextbox5: 体中の砂を取り払ってくれた事のお礼がまだじゃったな？ 頭蓋骨にあれだけ砂が詰まってたというのに、気づいておらんかった！
-	RandomPostDefeatTextbox6: 鱗に水がかかる感覚程ではないが、<m:SmallWave>決闘のスリルは我をとても生き生きとさせてくれる！
-	RandomPostDefeatTextbox7: <s:1.1><d:0.03><c:28dcdc>シグナシオン</c>のことか？</d></s> 彼は我の勇敢な馬だ。 <m:SmallShake><s:0.9>彼は<d:0.13>...</d></s></m>我なんかよりもずっと忠実だ。彼と共にいれることがとても嬉しいのだ。
-	RandomPostDefeatTextbox8: <s:1.2><m:SmallShake>「地上の墓に書いてあった」とは...<s:1.5><m:Shake><d:0.15>何がだ？？？
-	LongTimeNoSee1: <d:0.05><s:1.1><m:SmallShake>おお！ </m></s></d>久しいな、友よ。ずいぶんと強くなっておるな...この世界は君にとって成長するための試練がたくさんあるということか。
-	LongTimeNoSee2: ...それにしても、君は見るたびに、より良く、より強い武器を手にしておるな！ 羨ましい限りだ...だが残念ながら、私は<c:af0616><d:0.05><s:1.1>レティアリウス</s></d></c>として鍛えられた身。無念にも、その網はとうに朽ち果ててしまったのだ！
-	DuelWinTextbox1: 君の装備がまだ十分じゃなかったのやもしれん... もっと充実してから、また手合わせしよう。
-	DuelWinTextbox2: なに、決闘に負けて気にする事はない。敗北の経験も、成長への道だからな。
-	DuelWinTextbox3: 落ち込むことはない、誰にでも敗北はある！ <c:28dcdc><s:1.1><d:0.04>シグナシオン</d></s></c>と我に敗れたところで、恥じることではないぞ！何しろ、我らは絆で結ばれているのだからな。
-	DuelLoseTextbox1: <c:ffd144><s:1.1><m:SmallWave>再戦の準備はいいか？</m></s></c> 今度こそ<m:Shake>君を</m>打ち倒してやるぞ！
-	DuelLoseTextbox2: こんな<s:1.2><m:Wave>燃え上がる</m></s>戦いは久しぶりだ！ よければ一度手合わせをせぬか？
-	DuelLoseTextbox3: もう戻ってきたのか？ 君のような熱心な戦士は、なんとも珍しい！
-	DuelLoseTextbox4: ハッハ！ 君との戦いは我を実にワクワクさせてくれるな、この感覚<d:0.2>...</d> かつて逃げ出した時、もう二度とこの感覚に恵まれることはないと思っていたぞ！
-	NohitTextbox1: <m:Shake><d:0.04><s:1.5>私の攻撃をすべてかわすとは！？！</m></d></s>我が時代でなら、コロシアムの<c:af0616>闘技</c>に参加して富と名声だけで生活できたやもしれぬな...
-	NohitTextbox2: ...君に一撃も当てられぬとは... 練習は本当に完璧を生むという事か！
-	NohitTextboxRare: <d:0.05><s:2.5><a:FromTop>テラリア - ノーチラス無傷クリア
-	OutmatchedTextbox1: <m:SmallShake>君の武器、いくらなんでも強すぎるな！ これじゃあ修行どころではない！
-	OutmatchedTextbox2: <m:Shake><d:0.05><s:1.3>プハッ！</s></d></m> ...良い気にならないことだ、楽をして得たものだという事を忘れるでないぞ！<d:0.04><s:0.6> ...別に恨んだりなどはしておらん！
-	ProgressionDesertScourge: <m:SmallShake><s:1.1>なんと！</s></m> あの<m:SmallShake>恐ろしい揺れ</m>の原因を倒したと？ 我が骨を食事の為に狙うことはなかろうが、この洞窟が崩れると困る故、本当に感謝する！
-	ProgressionHardmode: 死後の世界とつながった感覚などほとんどない...それでも、最近霊たちが騒がしくしておるのは分かる。 <s:0.8> 我の推測ではあるが、君もこの一件に何か関わっているのではないか...
-	DoppelgangerEasterEgg: <m:SmallShake><s:1.1>むっ！</s></m> おおっ、我が鎧を着てるから誰だか分からんかったぞ！そして... なんて奇妙なヘルメットだ。その彫刻された特徴<d:0.15>... </d><s:1.1><m:SmallShake>おっと！</s></m> 気にせんでくれ、時々変な考えが頭をよぎるのだ。
-	LoreWhoAreYou1: <m:SmallWave><s:1.1>我は<s:1.2><c:2cdcff>サー・ノーチラス</c></s>、偉大なる海王<c:2cdcff><s:1.2>アミディアス</s></c>に仕える<c:2cdcff><s:1.2><d:0.03>「海の騎士」</d></s></c>だ！
-	LoreWhoAreYou2: 聞き覚えがないか？ほう、それなら随分と遠くから来たのだな！
-	LoreWhatAreYouDoing: ...我は訓練のために休暇を取っておるのだ。いずれ来たる脅威に備えねばならなん。<d:0.06><m:SmallShake><c:f74d4d>あの侵略者ども</c></m></d>は必ず戻ってくる<d:0.4>...</d><d:0.04> そう、あの<d:0.05><c:f74d4d>死の軍団が</c></d>...今度こそ...我は覚悟を決めて立ち向かうのだ。
-	LoreWhyHere: <d:0.5>...</d>いや、その...この孤独こそが鍛錬に最適でな。肉体だけでなく、精神も鍛えねばならぬのだ！ <d:0.1>己を見つめ...</d>弱き部分を知るためにな...
-	LorePreDefeatWhatNow1: <d:0.04><s:3><a:FromTop>...
-	LorePreDefeatWhatNow2: ...ふん！ずいぶん詮索好きだな。はは、まあ、無口な<d:0.05><s:1.1><c:28dcdc>シグナシオン</d></s></c>とばかり過ごしていたせいかもしれん。
-	LorePreDefeatWhatNow3: さらなる話が聞きたいなら、<c:ffd144>まずは我に勝ってみせよ！</c><d:0.5>-</d> その力と誠を示し、我が物語を託すに値する者か証明してもらおう！
-	LoreWhatReallyHappened1: <d:2> </d><m:SmallShake><s:1.3><d:0.2>...</d><d:0.1><c:2cdcff>王国</c>が滅んだことは、わかっている...</m></d></s><d:0.04>...戦の結末をこの目で見たわけではないが、逃げる途中、煮えたぎる海水で肌が焼けただけで十分だった。
-	LoreWhatReallyHappened2: <d:0.05>そして、あの<d:0.1><s:1.1><c:f74d4d>侵略者ども</c></s></d><d:0.05>...！！</d>奴らは血も肉も持たぬ存在だった！！あれは我らの仲間、倒れた同胞だったのだ！ <d:0.05><m:SmallShake> 兵士だけでなく、死した民すべて...家族も、友も、子どもたちも...我の...
-	LoreWhatReallyHappened3: <m:SmallShake><s:1.6><d:1.2>...</s></d></m><d:0.04> ああ... <s:1.1><c:2cdcff>アミディアス王 </c></s><d:0.6>よ...
-	LoreWhatReallyHappened4: 最後まで忠誠を尽くしていれば...！！ この身の骨までもが、今も後悔に軋み続けておる！<m:SmallShake>それが、この忌まわしい洞窟に我を縛りつけているのだ！
-	LoreWhatHappenedToYou1: <d:0.04>我は逃げる中で、この洞窟へと入り込んだ。当時はまだ海の底だった...そしてあの <s:1.1><d:0.1><c:f74d4d>亡霊</c></d></s>どもは、水中でも燃える業火に覆われていた。恐らく、海水が干上がるまで燃え続けたのだろう。
-	LoreWhatHappenedToYou2: 我々の種族は短時間なら水がなくても耐えられるが、崩壊してここに閉じ込められた後、すぐに干からびてしまった様だ。
-	LoreSanity1: <d:0.06>正気を保てたかどうかは...わからん。</d><d:0.04>時折、あの戦いの記憶が夢に現れるのだ。民を守り、炎に包まれ、やがて<c:f74d4d>死者の軍勢</c>に加わっていく者たちの姿が...
-	LoreSanity2: <d:0.04>わ、我には夢の中で、どちらの側に立って戦っているのかすら分からなくなる...だが、良くも悪くも、この洞窟で目を覚ませば...逃げ延び、ここで果てたことだけは思い出すのだ。
-	LorePostDefeatWhatNow1: 正直なところ...どうすればいいのかわからん。<d:0.15>...</d> しかし、ここに留まるしかあるまい<d:0.15>...</d> 他に選べる道もない。
-	LorePostDefeatWhatNow2: 海流の歌は、とうの昔に虫のざわめきに取って代わられ、もう戻ることはない<d:0.4>...</d><m:SmallShake> 時代は変わり、我は過去の亡霊にすぎん...
-	LorePostDefeatWhatNow3: <d:0.4><s:3><a:FromTop>...
-	LorePostDefeatWhatNow4: おっと、湿っぽくなってしまったな！こんな話ばかりじゃ、君も気が滅入ってしまうな！
-	LorePostDefeatWhatNow5: <m:Shake><s:1.5><d:0.06><c:afdc14>君</c>！ 我の代わりに、前へ進み続けてくれ！
-	LorePostDefeatWhatNow6: 君が成長し、変わり続けてくれるなら、それだけで救われる思いだ。
-	LorePostDefeatWhatNow7: この老いた魚の悲しみなど忘れ、見聞を広げるがよい！
-	LorePostDefeatWhatNow8: さて、この<c:2cdcff>王家のメダリオン</c>を絆の証として受け取ってくれ！大したものではないが、時折、また私を訪ねるきっかけになれば嬉しい！
-	LoreWhatsUp1: そうだな、君の訪問を除けば、残念なことにかなり退屈だ...
-	LoreWhatsUp2: あぁー<d:0.2>...</d> ところで、我が同胞達に会ってはおらぬか？もし生き残っている者がいたなら、ぜひ知りたいのだ...
-
-	Buttons: {
-		StartFightPreDefeat: 挑戦する
-		StartFightPostDefeat: 手合わせ
-		StartFightHypedUp1: よし！
-		StartFightHypedUp2: 行こう！
-		LoreButtonPreDefeat: あなたは誰？
-		LoreButtonWhatHappened: 何が起きた？
-		WhyHerePreDefeat: なぜここに？
-		WhatAreYouDoingPreDefeat: 何してるの？
-		WhatHappenedPostDefeat: あなたに何が起きた？
-		HowDidYouStaySanePostDefeat: どうやって正気を保った？
-		WhatNowPreDefeat: これからは？
-		WhatNowPostDefeat: これからは？
-		WhatsUpPostDefeat: 最近どう？
-	}
-}
-
 BestiaryEntries: {
 	WulfrumGrappler: これを作ったエンジニアたちは新奇さに夢中だったようだ。グラップラーはその手を振り回して飛び跳ねるが、実用性は全くなさそうだ。
 	WulfrumMagnetizer: このロボット、運び屋のつもりのようだが、仲間から集めた爆発物を武器にする。発明者たちはよほど手持ち無沙汰だったのかもしれない。
@@ -2915,6 +2832,11 @@ BossIntroCards: {
 	DesertScourge: {
 		Name: デザートスカージ
 		Title: 貪欲な殻
+	}
+
+	ScourgeVsScarab: {
+		Name: スカージVSスカラベウス
+		Title: 日輪を喰らう大蛇
 	}
 
 	Crabulon: {
@@ -2956,7 +2878,7 @@ Configs: {
 		}
 
 		FluidSimVFXEnabled: {
-			Tooltip: 
+			Tooltip:
 				'''
 				煙のシミュレーションVFXを使用します
 				低性能なGPUではパフォーマンスに影響する場合があります
@@ -3067,6 +2989,8 @@ Extras: {
 
 	SirNautilusPhase1Name: ノーチラスとシグナシオン
 	HeatHazeSprite: ミラージュスプライト
+	ScourgeVsScarabHover: "{0}：{1}を倒そうとしている！"
+	ScourgeVsScarabDeathMessage: スカラベウスとデザートスカージは相打ちになった！？
 
 	MapIcons: {
 		SealedChamber: 封印された部屋
@@ -3182,11 +3106,19 @@ Extras: {
 			4: "{0}は収穫された。"
 		}
 
+		KaijuBattle: {
+			1: 離婚の果てに、{0}は最悪の結末を迎えた。
+			2: "{0}は大人の話に口を挟むべきじゃなかった。"
+			3: "{0}は巻き添えになった。"
+			4: "{0}は他人の問題に首を突っ込まない方がいいと学んだ。"
+			5: "{0}は関わるべきでないことに首を突っ込んだ。"
+		}
+
 		SandTwisterFall: {
 			1: "{0}は砂の悪魔と契約してしまった。"
 			2: "{0}はひどい目に遭った。"
 			3: "{0}は完全にひねられた。"
-			4: "サンドマンが{0}を砂の中へ送った。"
+			4: サンドマンが{0}を砂の中へ送った。
 		}
 
 		OpulentSelfInjection: {
@@ -3230,4 +3162,110 @@ Extras: {
 	}
 
 	Misc.or: または
+}
+
+Keepsakes: {
+	ObtentionMessage: "新しい記念品を入手： "
+
+	Names: {
+		NautilusPendant: ロイヤルペンダント
+		Test: テストペンダント
+	}
+
+	Descriptions: {
+		NautilusPendant: ロイヤル・レモラ隊の隊員に与えられる証
+		Test: テスト・テスト・デバッグ　こんにちは
+	}
+
+	NameColors: {
+		NautilusPendant: FFCC41
+		Test: FF0900
+	}
+
+	TabNames: {
+		Open: 記念品
+		Close: 閉じる
+	}
+}
+
+NautilusDialogue: {
+	ExampleForLocalizers: <d:0.5>dタグ、または<delay:1></d>は、文字間の時間を示すために使用されるタグです。通常、強調のために使用されます。</d> <c:FF0000>cタグはカラータグで、16進数のカラーコードを使用します。</c> <s:3>sタグ、または<size:0.2>サイズタグ</s>はフォントサイズの倍率を変更します。</s>。 <a:FromTop>出現タグは、キャラクターが登場する際に使用されるアニメーションを示します</a>、同様に、<m:Shake>移動タグ</m>はテキストが表示された後の動きを示します。可能なアニメーションのキーはCharacterDisplacements.csに記載されています。 <s:2>タグは便利のために<s:4>ネスト</s>することができます。</s>。なお、すべてのタグは最初の文字のみを参照するため、<s:1>、<size:1>、または<spaghetti:1>を使用してもすべて機能します！ また、文末に続くタグを閉じる必要はありません。文の残りに影響を与えたくない場合にのみ閉じる必要があります。
+	CharacterName: サー・ノーチラス
+	Asleep: <s:1.8><d:0.2><a:FromTop>．．．
+	IntroWakeup: ん？<d:0.6> </d><s:1.1><m:Empathis>おお！やあ、ごきげんよう！ </s></m>この危うい深海で<c:afdc14><s:1.1>地上の者</c></s>に出会えるとは運がいい...
+	IntroSecond: 私のような<c:2cdcff>兵の一団</c>を見かけなかったか？ 彼らとは長らくはぐれてしまっていてな...
+	IntroThird: <d:0.25><s:1.1>... </s></d>見ていない？<d:0.4><m:SmallShake><s:1.3> </d>ハハ！</s></m> そうか。まあ、もう少し待つくらいはどうということもない...
+	IntroFourth: 何しろ、<d:0.04><s:1.1><m:SmallShake><c:f74d4d>ヤツら</c></m></s></d>が仕掛けてくるまでは、まだ少し時間があるからな...
+	PostIntroDuelProposition: ところで、君はなかなか活きがいいな。まだ時間もあるし...どうだ、<d:0.4>-</d>年老いた魚と<c:ffd144><s:1.1><m:Empathis>手合わせ</c>でもしてくれんか？
+	RandomPreDefeatTextbox1: <m:SmallWave><d:0.03><s:0.6>...あの<c:f74d4d><s:0.65>略奪者ども</c></s>がまた戻ってくるやもしれん...備えねば...
+	RandomPreDefeatTextbox2: 二度と<c:2cdcff>仲間たち</c>を失望させるわけにはいかん...<d:0.05><m:SmallWave>もっと強くならなければ。
+	RandomPreDefeatTextbox3: 墓の封印を解封してくれた事は感謝する、だがどこにも行くつもりはない。あの<c:f74d4d><m:Empathis>略奪者ども</m></c>が戻った時に備え、守りを固めねば...
+	RandomPreDefeatTextbox4: <c:2cdcff>海の王国</c>の王室衛兵の一員として、我の首はかなりの価値があろう<d:0.2>...！</d> だが、我を討つのはそう容易ではない！
+	FirstFightTextbox: <s:1.1><m:SmallShake>おお！</s></m> この老いた骨も戦場を離れて久しいが、鍛錬は怠っておらん！<d:0.6> </d><c:ffd144><d:0.04><s:1.3><a:FromTop><m:Shake>構えよ！
+	RandomPostDefeatTextbox1: 時間を気にするのはすぐにやめた。我が運命が「ここにいよ」と離してくれぬから、ひたすら訓練に打ち込むことにしたのだ！
+	RandomPostDefeatTextbox2: <d:0.04><s:1.1><m:SmallShake>おっと！</d></s></m> 我々の戦いの中で骨がバラバラに...だが問題ない！すぐに元通りとなる。
+	RandomPostDefeatTextbox3: もし私が同じことを繰り返しておっても気にしないでほしい... 幽霊とは古い習慣に陥りがちなのだ。
+	RandomPostDefeatTextbox4: 君と手合わせして、確信した。君は間違いなく大物になれるぞ！ <m:Empathis><s:1.1><d:0.03>もし誰かに聞かれたなら、私が君の師匠であったと伝えてほしい！
+	RandomPostDefeatTextbox5: 体中の砂を取り払ってくれた事のお礼がまだじゃったな？ 頭蓋骨にあれだけ砂が詰まってたというのに、気づいておらんかった！
+	RandomPostDefeatTextbox6: 鱗に水がかかる感覚程ではないが、<m:SmallWave>決闘のスリルは我をとても生き生きとさせてくれる！
+	RandomPostDefeatTextbox7: <s:1.1><d:0.03><c:28dcdc>シグナシオン</c>のことか？</d></s> 彼は我の勇敢な馬だ。 <m:SmallShake><s:0.9>彼は<d:0.13>...</d></s></m>我なんかよりもずっと忠実だ。彼と共にいれることがとても嬉しいのだ。
+	RandomPostDefeatTextbox8: <s:1.2><m:SmallShake>「地上の墓に書いてあった」とは...<s:1.5><m:Shake><d:0.15>何がだ？？？
+	LongTimeNoSee1: <d:0.05><s:1.1><m:SmallShake>おお！ </m></s></d>久しいな、友よ。ずいぶんと強くなっておるな...この世界は君にとって成長するための試練がたくさんあるということか。
+	LongTimeNoSee2: ...それにしても、君は見るたびに、より良く、より強い武器を手にしておるな！ 羨ましい限りだ...だが残念ながら、私は<c:af0616><d:0.05><s:1.1>レティアリウス</s></d></c>として鍛えられた身。無念にも、その網はとうに朽ち果ててしまったのだ！
+	DuelWinTextbox1: 君の装備がまだ十分じゃなかったのやもしれん... もっと充実してから、また手合わせしよう。
+	DuelWinTextbox2: なに、決闘に負けて気にする事はない。敗北の経験も、成長への道だからな。
+	DuelWinTextbox3: 落ち込むことはない、誰にでも敗北はある！ <c:28dcdc><s:1.1><d:0.04>シグナシオン</d></s></c>と我に敗れたところで、恥じることではないぞ！何しろ、我らは絆で結ばれているのだからな。
+	DuelLoseTextbox1: <c:ffd144><s:1.1><m:SmallWave>再戦の準備はいいか？</m></s></c> 今度こそ<m:Shake>君を</m>打ち倒してやるぞ！
+	DuelLoseTextbox2: こんな<s:1.2><m:Wave>燃え上がる</m></s>戦いは久しぶりだ！ よければ一度手合わせをせぬか？
+	DuelLoseTextbox3: もう戻ってきたのか？ 君のような熱心な戦士は、なんとも珍しい！
+	DuelLoseTextbox4: ハッハ！ 君との戦いは我を実にワクワクさせてくれるな、この感覚<d:0.2>...</d> かつて逃げ出した時、もう二度とこの感覚に恵まれることはないと思っていたぞ！
+	NohitTextbox1: <m:Shake><d:0.04><s:1.5>私の攻撃をすべてかわすとは！？！</m></d></s>我が時代でなら、コロシアムの<c:af0616>闘技</c>に参加して富と名声だけで生活できたやもしれぬな...
+	NohitTextbox2: ...君に一撃も当てられぬとは... 練習は本当に完璧を生むという事か！
+	NohitTextboxRare: <d:0.05><s:2.5><a:FromTop>テラリア - ノーチラス無傷クリア
+	OutmatchedTextbox1: <m:SmallShake>君の武器、いくらなんでも強すぎるな！ これじゃあ修行どころではない！
+	OutmatchedTextbox2: <m:Shake><d:0.05><s:1.3>プハッ！</s></d></m> ...良い気にならないことだ、楽をして得たものだという事を忘れるでないぞ！<d:0.04><s:0.6> ...別に恨んだりなどはしておらん！
+	ProgressionDesertScourge: <m:SmallShake><s:1.1>なんと！</s></m> あの<m:SmallShake>恐ろしい揺れ</m>の原因を倒したと？ 我が骨を食事の為に狙うことはなかろうが、この洞窟が崩れると困る故、本当に感謝する！
+	ProgressionHardmode: 死後の世界とつながった感覚などほとんどない...それでも、最近霊たちが騒がしくしておるのは分かる。 <s:0.8> 我の推測ではあるが、君もこの一件に何か関わっているのではないか...
+	DoppelgangerEasterEgg: <m:SmallShake><s:1.1>むっ！</s></m> おおっ、我が鎧を着てるから誰だか分からんかったぞ！そして... なんて奇妙なヘルメットだ。その彫刻された特徴<d:0.15>... </d><s:1.1><m:SmallShake>おっと！</s></m> 気にせんでくれ、時々変な考えが頭をよぎるのだ。
+	LoreWhoAreYou1: <m:SmallWave><s:1.1>我は<s:1.2><c:2cdcff>サー・ノーチラス</c></s>、偉大なる海王<c:2cdcff><s:1.2>アミディアス</s></c>に仕える<c:2cdcff><s:1.2><d:0.03>「海の騎士」</d></s></c>だ！
+	LoreWhoAreYou2: 聞き覚えがないか？ほう、それなら随分と遠くから来たのだな！
+	LoreWhatAreYouDoing: ...我は訓練のために休暇を取っておるのだ。いずれ来たる脅威に備えねばならなん。<d:0.06><m:SmallShake><c:f74d4d>あの侵略者ども</c></m></d>は必ず戻ってくる<d:0.4>...</d><d:0.04> そう、あの<d:0.05><c:f74d4d>死の軍団が</c></d>...今度こそ...我は覚悟を決めて立ち向かうのだ。
+	LoreWhyHere: <d:0.5>...</d>いや、その...この孤独こそが鍛錬に最適でな。肉体だけでなく、精神も鍛えねばならぬのだ！ <d:0.1>己を見つめ...</d>弱き部分を知るためにな...
+	LorePreDefeatWhatNow1: <d:0.04><s:3><a:FromTop>...
+	LorePreDefeatWhatNow2: ...ふん！ずいぶん詮索好きだな。はは、まあ、無口な<d:0.05><s:1.1><c:28dcdc>シグナシオン</d></s></c>とばかり過ごしていたせいかもしれん。
+	LorePreDefeatWhatNow3: さらなる話が聞きたいなら、<c:ffd144>まずは我に勝ってみせよ！</c><d:0.5>-</d> その力と誠を示し、我が物語を託すに値する者か証明してもらおう！
+	LoreWhatReallyHappened1: <d:2> </d><m:SmallShake><s:1.3><d:0.2>...</d><d:0.1><c:2cdcff>王国</c>が滅んだことは、わかっている...</m></d></s><d:0.04>...戦の結末をこの目で見たわけではないが、逃げる途中、煮えたぎる海水で肌が焼けただけで十分だった。
+	LoreWhatReallyHappened2: <d:0.05>そして、あの<d:0.1><s:1.1><c:f74d4d>侵略者ども</c></s></d><d:0.05>...！！</d>奴らは血も肉も持たぬ存在だった！！あれは我らの仲間、倒れた同胞だったのだ！ <d:0.05><m:SmallShake> 兵士だけでなく、死した民すべて...家族も、友も、子どもたちも...我の...
+	LoreWhatReallyHappened3: <m:SmallShake><s:1.6><d:1.2>...</s></d></m><d:0.04> ああ... <s:1.1><c:2cdcff>アミディアス王 </c></s><d:0.6>よ...
+	LoreWhatReallyHappened4: 最後まで忠誠を尽くしていれば...！！ この身の骨までもが、今も後悔に軋み続けておる！<m:SmallShake>それが、この忌まわしい洞窟に我を縛りつけているのだ！
+	LoreWhatHappenedToYou1: <d:0.04>我は逃げる中で、この洞窟へと入り込んだ。当時はまだ海の底だった...そしてあの <s:1.1><d:0.1><c:f74d4d>亡霊</c></d></s>どもは、水中でも燃える業火に覆われていた。恐らく、海水が干上がるまで燃え続けたのだろう。
+	LoreWhatHappenedToYou2: 我々の種族は短時間なら水がなくても耐えられるが、崩壊してここに閉じ込められた後、すぐに干からびてしまった様だ。
+	LoreSanity1: <d:0.06>正気を保てたかどうかは...わからん。</d><d:0.04>時折、あの戦いの記憶が夢に現れるのだ。民を守り、炎に包まれ、やがて<c:f74d4d>死者の軍勢</c>に加わっていく者たちの姿が...
+	LoreSanity2: <d:0.04>わ、我には夢の中で、どちらの側に立って戦っているのかすら分からなくなる...だが、良くも悪くも、この洞窟で目を覚ませば...逃げ延び、ここで果てたことだけは思い出すのだ。
+	LorePostDefeatWhatNow1: 正直なところ...どうすればいいのかわからん。<d:0.15>...</d> しかし、ここに留まるしかあるまい<d:0.15>...</d> 他に選べる道もない。
+	LorePostDefeatWhatNow2: 海流の歌は、とうの昔に虫のざわめきに取って代わられ、もう戻ることはない<d:0.4>...</d><m:SmallShake> 時代は変わり、我は過去の亡霊にすぎん...
+	LorePostDefeatWhatNow3: <d:0.4><s:3><a:FromTop>...
+	LorePostDefeatWhatNow4: おっと、湿っぽくなってしまったな！こんな話ばかりじゃ、君も気が滅入ってしまうな！
+	LorePostDefeatWhatNow5: <m:Shake><s:1.5><d:0.06><c:afdc14>君</c>！ 我の代わりに、前へ進み続けてくれ！
+	LorePostDefeatWhatNow6: 君が成長し、変わり続けてくれるなら、それだけで救われる思いだ。
+	LorePostDefeatWhatNow7: この老いた魚の悲しみなど忘れ、見聞を広げるがよい！
+	LorePostDefeatWhatNow8: さて、この<c:2cdcff>王家のメダリオン</c>を絆の証として受け取ってくれ！大したものではないが、時折、また私を訪ねるきっかけになれば嬉しい！
+	LoreWhatsUp1: そうだな、君の訪問を除けば、残念なことにかなり退屈だ...
+	LoreWhatsUp2: あぁー<d:0.2>...</d> ところで、我が同胞達に会ってはおらぬか？もし生き残っている者がいたなら、ぜひ知りたいのだ...
+
+	Buttons: {
+		StartFightPreDefeat: 挑戦する
+		StartFightPostDefeat: 手合わせ
+		StartFightHypedUp1: よし！
+		StartFightHypedUp2: 行こう！
+		LoreButtonPreDefeat: あなたは誰？
+		LoreButtonWhatHappened: 何が起きた？
+		WhyHerePreDefeat: なぜここに？
+		WhatAreYouDoingPreDefeat: 何してるの？
+		WhatHappenedPostDefeat: あなたに何が起きた？
+		HowDidYouStaySanePostDefeat: どうやって正気を保った？
+		WhatNowPreDefeat: これからは？
+		WhatNowPostDefeat: これからは？
+		WhatsUpPostDefeat: 最近どう？
+	}
 }
