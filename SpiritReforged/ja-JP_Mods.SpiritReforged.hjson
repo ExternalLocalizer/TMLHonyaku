@@ -3,6 +3,16 @@ Biomes: {
 		DisplayName: サバンナ
 		TownNPCDialogueName: サバンナ
 	}
+
+	SaltBiome: {
+		DisplayName: 塩原
+		TownNPCDialogueName: 塩原
+	}
+
+	ZigguratBiome: {
+		DisplayName: ジッグラト
+		TownNPCDialogueName: ジッグラト
+	}
 }
 
 SlotContexts.Backpack: パック
@@ -12,6 +22,9 @@ Conditions: {
 	PeevedTumbler: キラキラ輝いているとき
 	Discovered: 発見する
 	Submerged: 水没時
+	InSaltFlats: 塩原にいるとき
+	IsPrickly: トゲ状態のとき
+	InZiggurat: ジッグラトにいるとき
 }
 
 Misc: {
@@ -52,6 +65,18 @@ GameTips: {
 Emotes: {
 	CartographerEmote.Command: cartographer
 	HikerEmote.Command: hikeremote
+}
+
+InfoDisplays: {
+	LedgerInfoDisplay: {
+		DisplayName: 台帳
+		Description: 価格情報を表示
+	}
+
+	ScryingLensInfoDisplay: {
+		DisplayName: シマー感知
+		Description: シマー関連情報を表示
+	}
 }
 
 Buffs: {
@@ -112,7 +137,7 @@ Buffs: {
 
 	ToucanMinion_Buff: {
 		DisplayName: トゥケイン
-		Description: トゥーカンが共に戦う
+		Description: オオハシが共に戦う
 	}
 
 	QuenchPotion_Buff: {
@@ -174,10 +199,35 @@ Buffs: {
 		DisplayName: 武器強化：凍結
 		Description: 近接および鞭攻撃で敵を凍らせる
 	}
+
+	Slowed: {
+		DisplayName: 鈍化
+		Description: Mods.SpiritReforged.Buffs.Slowed.Description
+	}
+
+	ToucaneMinion_Buff: {
+		DisplayName: トゥケイン
+		Description: オオハシが共に戦う...？
+	}
+
+	TinyDragonPet_Buff: {
+		DisplayName: ミニドラゴン
+		Description: 小さなドラゴンが後をついてくる
+	}
+
+	EnlilBuff: {
+		DisplayName: エンリルの加護
+		Description: 垂直移動が向上
+	}
+
+	ScarabLightPetBuff: {
+		DisplayName: スカラベビー
+		Description: 「何かを企んでいるようだ...」
+	}
 }
 
 Configs: {
-	ReforgeClientConfig: {
+	ReforgedClientConfig: {
 		DisplayName: Reforged クライアント設定
 
 		OceanShape: {
@@ -190,23 +240,48 @@ Configs: {
 				'''
 		}
 
-		SurfaceWaterTransparency: {
-			Label: 表面水の透明度
+		ReflectionDetail: {
+			Label: 反射品質
 			Tooltip:
 				'''
-				オンにすると海洋の水が透明になります
-				他のバイオームには影響しません
+				反射品質を設定します
+				値が高いほど精細ですが、負荷も増加します
 				'''
+		}
+
+		AmbientSounds: {
+			Label: 環境音
+			Tooltip: 一部のバイオームで環境音を再生します
 		}
 	}
 
 	OceanShape: {
 		Tooltip: ""
-		Default.Label: デフォルト
-		SlantedSine.Label: 傾斜サイン
-		Piecewise.Label: ピースワイズ
-		Piecewise_M.Label: ピースワイズ_M
-		Piecewise_V.Label: ピースワイズ_V
+
+		Default: {
+			Label: デフォルト
+			Tooltip: ""
+		}
+
+		SlantedSine: {
+			Label: 傾斜サイン
+			Tooltip: ""
+		}
+
+		Piecewise: {
+			Label: ピースワイズ
+			Tooltip: ""
+		}
+
+		Piecewise_M: {
+			Label: ピースワイズ_M
+			Tooltip: ""
+		}
+
+		Piecewise_V: {
+			Label: ピースワイズ_V
+			Tooltip: ""
+		}
 	}
 
 	ReforgedServerConfig: {
@@ -239,8 +314,10 @@ Generation: {
 	Gravel: 砂利の配置
 	SavannaTerrain: 高原の作成
 	SavannaObjects: サバンナのオブジェクト配置
+	SaltFlats: 塩を投入
 	Ecotones: エコトーンのマッピング
 	Caves: 洞窟を飾る
+	DesertExtras: 砂の中に秘密が隠される
 	NeonMosses: 輝く苔
 	Pottery: 壺を隠す
 	Scarecrow: 鳥を追い払う
@@ -278,8 +355,7 @@ Items: {
 	CommonTooltips: {
 		Backpack:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{0}つのアイテムを収納可能
 			'''
 		Shimmerable: "{0} がシマーによって変化"
 	}
@@ -303,7 +379,7 @@ Items: {
 		DisplayName: 生魚
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「食べられるよ…でも、調理してからの方がいいかな？」
 			'''
 	}
@@ -435,7 +511,7 @@ Items: {
 		DisplayName: 巻き寿司
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			水中での呼吸を可能にする
 			「冷たくて新鮮！」
 			'''
@@ -445,7 +521,7 @@ Items: {
 		DisplayName: 握り寿司
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			水中で自由に移動可能
 			「完璧な切れ具合だ」
 			'''
@@ -455,21 +531,21 @@ Items: {
 		DisplayName: はちみつ照り焼きサーモン
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「甘味と塩味による絶妙なミックス！」
 			'''
 	}
 
 	FishChips: {
 		DisplayName: フィッシュアンドチップス
-		Tooltip: 全ステータスが少し強化
+		Tooltip: "{$BuffDescription.WellFed}"
 	}
 
 	CrystalFish: {
 		DisplayName: クリスタライズドサーモン
 		Tooltip:
 			'''
-			全ステータスが中程度強化
+			{$BuffDescription.WellFed2}
 			魔法の力を強化
 			'''
 	}
@@ -478,7 +554,7 @@ Items: {
 		DisplayName: 生肉
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「食べられるよ…でも、調理してからの方がいいかな？」
 			'''
 	}
@@ -487,7 +563,7 @@ Items: {
 		DisplayName: 調理済みの肉
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「理想的に焼き上げられた」
 			'''
 	}
@@ -507,23 +583,23 @@ Items: {
 		DisplayName: ココナッツミルク
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「器なんていらないね！」
 			'''
 	}
 
 	DiverBody: {
-		DisplayName: 古代ダイバーの胸当て
+		DisplayName: 錆びたダイバーの胸当て
 		Tooltip: ""
 	}
 
 	DiverHead: {
-		DisplayName: 古代ダイバーのヘルメット
+		DisplayName: 錆びたダイバーのヘルメット
 		Tooltip: ""
 	}
 
 	DiverLegs: {
-		DisplayName: 古代ダイバーのパンツ
+		DisplayName: 錆びたダイバーのパンツ
 		Tooltip: ""
 	}
 
@@ -566,7 +642,7 @@ Items: {
 		DisplayName: 蒸されたムール貝
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$BuffDescription.WellFed}
 			「生き生きとして魅力的だ」
 			'''
 	}
@@ -653,7 +729,7 @@ Items: {
 
 	FishCrate: {
 		DisplayName: 梱包済みの木箱
-		Tooltip: <right>で開く
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	Ambergris: {
@@ -739,7 +815,7 @@ Items: {
 		Tooltip:
 			'''
 			3つの召喚タグのダメージ
-			攻撃を当てた敵にミニオンが集中攻撃する
+			{$CommonItemTooltip.Whips}
 			ミニオンに攻撃された敵がまれに泡の爆発を放つ
 			'''
 	}
@@ -766,12 +842,12 @@ Items: {
 
 	LivingBaobabLeafWand: {
 		DisplayName: リビングバオバブの葉の杖
-		Tooltip: ""
+		Tooltip: バオバブの葉を設置
 	}
 
 	LivingBaobabWand: {
 		DisplayName: リビングバオバブの杖
-		Tooltip: ""
+		Tooltip: リビングバオバブを設置
 	}
 
 	WrithingSticks: {
@@ -781,7 +857,7 @@ Items: {
 
 	BaobabFruit: {
 		DisplayName: バオバブフルーツ
-		Tooltip: 全ステータスが少し強化
+		Tooltip: "{$BuffDescription.WellFed}"
 	}
 
 	SavannaGrassSeeds: {
@@ -793,20 +869,19 @@ Items: {
 		DisplayName: レザーバックパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「快適で、実用的でありながら、なおかつ魅力的」
 			'''
 	}
 
 	Caryocar: {
 		DisplayName: カリオカール
-		Tooltip: 全ステータスが少し強化
+		Tooltip: "{$BuffDescription.WellFed}"
 	}
 
 	CustardApple: {
 		DisplayName: カスタードアップル
-		Tooltip: 全ステータスが少し強化
+		Tooltip: "{$BuffDescription.WellFed}"
 	}
 
 	BeachUmbrellaItem: {
@@ -816,12 +891,12 @@ Items: {
 
 	BigBuoy: {
 		DisplayName: 大型ブイ
-		Tooltip: 水中に設置可能
+		Tooltip: "{$ItemTooltip.CoralTorch}"
 	}
 
 	SmallBuoy: {
 		DisplayName: 小型ブイ
-		Tooltip: 水中に設置可能
+		Tooltip: "{$ItemTooltip.CoralTorch}"
 	}
 
 	LoungeChairItem: {
@@ -833,14 +908,14 @@ Items: {
 		DisplayName: オムレツ
 		Tooltip:
 			'''
-			全ステータスが中程度強化
+			{$BuffDescription.WellFed2}
 			「完璧な調理だ！」
 			'''
 	}
 
 	OstrichEgg: {
 		DisplayName: ダチョウの卵
-		Tooltip: 全ステータスが少し強化
+		Tooltip: "{$BuffDescription.WellFed}"
 	}
 
 	DrywoodItem: {
@@ -940,11 +1015,6 @@ Items: {
 
 	DrywoodClockItem: {
 		DisplayName: ドライウッドの時計
-		Tooltip: ""
-	}
-
-	DrywoodCouchItem: {
-		DisplayName: ドライウッドのカウチ
 		Tooltip: ""
 	}
 
@@ -1167,7 +1237,7 @@ Items: {
 		DisplayName: 小麦草の種入りポーチ
 		Tooltip:
 			'''
-			草の上に小麦草を育てる種をばらまく
+			種を撒き、小麦草を育てる
 			「手で振るとシャカシャカと鳴る」
 			'''
 	}
@@ -1186,7 +1256,7 @@ Items: {
 		DisplayName: 釣り用ルアー
 		Tooltip:
 			'''
-			水中に設置可能
+			{$ItemTooltip.CoralTorch}
 			近くの水域に魚の群れを引き寄せる
 			'''
 	}
@@ -1213,12 +1283,12 @@ Items: {
 
 	SavannaCrateHardmode: {
 		DisplayName: サファリの箱
-		Tooltip: <right>で開く
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SavannaCrate: {
 		DisplayName: グラスランドの箱
-		Tooltip: <right>で開く
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	MineralSlag: {
@@ -1263,7 +1333,11 @@ Items: {
 
 	FrostbiteItem: {
 		DisplayName: フロストバイト
-		Tooltip: 前方に小規模な吹雪を放つ
+		Tooltip: 
+			'''
+			前方に小規模な吹雪を放つ
+			敵の防御力を5無視する
+			'''
 	}
 
 	RogueCrest: {
@@ -1325,8 +1399,8 @@ Items: {
 		DisplayName: 冒険者の古靴
 		Tooltip:
 			'''
-			ライフが10%減少するごとに移動速度+5%
 			罠や危険を50%の確率で回避する
+			罠や危険に触れた際、短時間移動速度が上昇
 			「寺院の探索も楽になるだろう」
 			'''
 	}
@@ -1379,12 +1453,8 @@ Items: {
 	}
 
 	ArcaneNecklacePlatinum: {
-		DisplayName: アルケインネックレス
-		Tooltip:
-			'''
-			最大マナを20増加
-			攻撃した敵からまれにマナスターがドロップする
-			'''
+		DisplayName: "{$ArcaneNecklaceGold.DisplayName}"
+		Tooltip: "{$ArcaneNecklaceGold.Tooltip}"
 	}
 
 	PinBlue: {
@@ -1451,8 +1521,7 @@ Items: {
 		DisplayName: ファッショナブルバックパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「洗練され、現代的でありながら、しっかり効率的だ」
 			'''
 	}
@@ -1461,8 +1530,7 @@ Items: {
 		DisplayName: ハイキングバックパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「実用的で、耐久性があり、そして何よりも快適だ」
 			'''
 	}
@@ -1471,8 +1539,7 @@ Items: {
 		DisplayName: ミニパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「小さく軽く、非常にコンパクト」
 			'''
 	}
@@ -1481,8 +1548,7 @@ Items: {
 		DisplayName: ピンクパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「最適な色、実用的、遠くからでもよく見える」
 			'''
 	}
@@ -1491,8 +1557,7 @@ Items: {
 		DisplayName: ポーチパック
 		Tooltip:
 			'''
-			4つのアイテムを収納可能
-			外す前に中を空にする必要がある
+			{$CommonTooltips.Backpack}
 			「シンプルで快適、でもこぼれやすい」
 			'''
 	}
@@ -1501,7 +1566,7 @@ Items: {
 		DisplayName: 染料の木箱
 		Tooltip:
 			'''
-			<right>で開く
+			"{$CommonItemTooltip.RightClickToOpen}"
 			「香りは…意外な程に爽やかだ！」
 			'''
 	}
@@ -1513,11 +1578,7 @@ Items: {
 
 	SavannaPylonItem: {
 		DisplayName: サバンナのパイロン
-		Tooltip:
-			'''
-			２人以上の住民が近くにいる別のパイロンへテレポート
-			１種につき１つだけ、適したバイオームに設置することができる
-			'''
+		Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 	}
 
 	CraneFeather: {
@@ -1534,8 +1595,8 @@ Items: {
 		DisplayName: クレセントメロン
 		Tooltip:
 			'''
-			全ステータスが少し強化
-			マナ自然回復を増進
+			{$BuffDescription.WellFed}
+			{$ItemTooltip.ManaRegenerationPotion}
 			'''
 	}
 
@@ -1543,8 +1604,8 @@ Items: {
 		DisplayName: 闇夜のリンゴ
 		Tooltip:
 			'''
-			全ステータスが少し強化
-			マナ自然回復を増進
+			{$BuffDescription.WellFed}
+			{$ItemTooltip.ManaRegenerationPotion}
 			「星空のようにきらめいている」
 			'''
 	}
@@ -1553,8 +1614,8 @@ Items: {
 		DisplayName: ナイトスカイ
 		Tooltip:
 			'''
-			全ステータスが中程度強化
-			マナ自然回復を増進
+			{$BuffDescription.WellFed2}
+			{$ItemTooltip.ManaRegenerationPotion}
 			「宇宙的な風味がする」
 			'''
 	}
@@ -1563,8 +1624,8 @@ Items: {
 		DisplayName: パールベリー
 		Tooltip:
 			'''
-			全ステータスが少し強化
-			マナ自然回復を増進
+			{$BuffDescription.WellFed}
+			{$ItemTooltip.ManaRegenerationPotion}
 			「キラキラとまばゆく光る」
 			'''
 	}
@@ -1647,11 +1708,7 @@ Items: {
 
 	AncientKoiTotem: {
 		DisplayName: 古代コイのトーテム
-		Tooltip:
-			'''
-			近くに設置することで釣りのスキルを向上
-			最後に使用した餌をまれに補充する
-			'''
+		Tooltip: "{$Items.KoiTotem.Tooltip}"
 	}
 
 	BoomShroom: {
@@ -1670,7 +1727,7 @@ Items: {
 
 	ClayBombSticky: {
 		DisplayName: 粘着粘土爆弾
-		Tooltip: 小さな爆発で粘土を広げる
+		Tooltip: "{$Items.ClayBomb.Tooltip}"
 	}
 
 	SandBomb: {
@@ -1680,7 +1737,7 @@ Items: {
 
 	SandBombSticky: {
 		DisplayName: 粘着砂爆弾
-		Tooltip: 小さな爆発で砂を広げる
+		Tooltip: "{$Items.SandBomb.Tooltip}"
 	}
 
 	CoarseBomb: {
@@ -1690,7 +1747,7 @@ Items: {
 
 	CoarseBombSticky: {
 		DisplayName: 粘着粗い土爆弾
-		Tooltip: 小さな爆発で粗い土を広げる
+		Tooltip: "{$Items.CoarseBomb.Tooltip}"
 	}
 
 	MudBomb: {
@@ -1700,7 +1757,7 @@ Items: {
 
 	MudBombSticky: {
 		DisplayName: 粘着泥爆弾
-		Tooltip: 小さな爆発で泥を広げる
+		Tooltip: "{$Items.MudBomb.Tooltip}"
 	}
 
 	HideTunic: {
@@ -1869,17 +1926,17 @@ Items: {
 
 	SilverFoodPlatterItem: {
 		DisplayName: 銀の料理皿
-		Tooltip: <right> で皿にアイテムを置く
+		Tooltip: "{$ItemTooltip.FoodPlatter}"
 	}
 
 	RadonMossItem: {
 		DisplayName: 苔（ラドン）
-		Tooltip: 「忘れられない光景」
+		Tooltip: "{$ItemTooltip.XenonMoss}"
 	}
 
 	OganessonMossItem: {
 		DisplayName: 苔（オガネソン）
-		Tooltip: 「忘れられない光景」
+		Tooltip: "{$ItemTooltip.XenonMoss}"
 	}
 
 	RadonMossBrickItem: {
@@ -1947,32 +2004,32 @@ Items: {
 
 	FlaskHelium: {
 		DisplayName: 苔のフラスコ（ヘリウム）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	FlaskKrypton: {
 		DisplayName: 苔のフラスコ（クリプトン）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	FlaskNeon: {
 		DisplayName: 苔のフラスコ（ネオン）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	FlaskOganesson: {
 		DisplayName: 苔のフラスコ（オガネソン）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	FlaskRadon: {
 		DisplayName: 苔のフラスコ（ラドン）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	FlaskXenon: {
 		DisplayName: 苔のフラスコ（キセノン）
-		Tooltip: 衝撃時に光る苔を広げる
+		Tooltip: "{$Items.FlaskArgon.Tooltip}"
 	}
 
 	BiomePotsGraniteItem: {
@@ -1987,20 +2044,12 @@ Items: {
 
 	OganessonBobber: {
 		DisplayName: 苔の浮き（オガネソン）
-		Tooltip:
-			'''
-			フィッシング・パワーが10向上する
-			君の浮きは光る
-			'''
+		Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
 	}
 
 	RadonBobber: {
 		DisplayName: 苔の浮き（ラドン）
-		Tooltip:
-			'''
-			フィッシング・パワーが10向上する
-			君の浮きは光る
-			'''
+		Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
 	}
 
 	LandscapingShears: {
@@ -2062,7 +2111,7 @@ Items: {
 
 	BoStaff: {
 		DisplayName: 棒の杖
-		Tooltip: 継続的にダメージを与えることでコンボが蓄積される
+		Tooltip: 連続攻撃でコンボが蓄積される
 	}
 
 	Blasphemer: {
@@ -2072,7 +2121,11 @@ Items: {
 
 	Hummus: {
 		DisplayName: フムス
-		Tooltip: 温かくて美味しい！
+		Tooltip: 
+			'''
+			{$BuffDescription.WellFed}
+			「温かくて美味しい！」
+			'''
 	}
 
 	ZenithPotsItem: {
@@ -2081,7 +2134,7 @@ Items: {
 	}
 
 	ZenithPotsPaleItem: {
-		DisplayName: ゼニスの壺
+		DisplayName: "{$Items.ZenithPotsItem.DisplayName}"
 		Tooltip: ""
 	}
 
@@ -2112,27 +2165,27 @@ Items: {
 
 	FlaskBrown: {
 		DisplayName: 苔のフラスコ（茶）
-		Tooltip: 衝撃時に苔を広げる
+		Tooltip: "{$Items.FlaskBlue.Tooltip}"
 	}
 
 	FlaskGreen: {
 		DisplayName: 苔のフラスコ（緑）
-		Tooltip: 衝撃時に苔を広げる
+		Tooltip: "{$Items.FlaskBlue.Tooltip}"
 	}
 
 	FlaskLava: {
 		DisplayName: 苔のフラスコ（溶岩）
-		Tooltip: 衝撃時に苔を広げる
+		Tooltip: "{$Items.FlaskBlue.Tooltip}"
 	}
 
 	FlaskPurple: {
 		DisplayName: 苔のフラスコ（紫）
-		Tooltip: 衝撃時に苔を広げる
+		Tooltip: "{$Items.FlaskBlue.Tooltip}"
 	}
 
 	FlaskRed: {
 		DisplayName: 赤苔のフラスコ
-		Tooltip: 衝撃時に苔を広げる
+		Tooltip: "{$Items.FlaskBlue.Tooltip}"
 	}
 
 	TitleMusicBoxItem: {
@@ -2217,7 +2270,7 @@ Items: {
 		DisplayName: ジンクスボウ
 		Tooltip:
 			'''
-			矢を消費せず敵に射撃し、まれにマークを付ける
+			装備中の矢を敵に放ち、まれにマークを付ける
 			マークされた敵を遠距離攻撃で攻撃すると強力な魔法の矢が放たれる
 			'''
 	}
@@ -2236,18 +2289,14 @@ Items: {
 		DisplayName: 惑乱粉
 		Tooltip:
 			'''
-			漂う魔法の粉を広げる
+			{$Items.Flarepowder.Tooltip}
 			攻撃した敵を混乱させる
 			'''
 	}
 
 	VexpowderRed: {
-		DisplayName: 惑乱粉
-		Tooltip:
-			'''
-			漂う魔法の粉を広げる
-			攻撃した敵を混乱させる
-			'''
+		DisplayName: "{$Items.VexpowderBlue.DisplayName}"
+		Tooltip:　"{$Items.VexpowderBlue.Tooltip}"
 	}
 
 	BreakawayChair: {
@@ -2256,17 +2305,17 @@ Items: {
 	}
 
 	AncientMarksmanHood: {
-		DisplayName: 古代のマークスマンのフード
-		Tooltip: クリティカルヒット率を5%増加
+		DisplayName: 古代の{$Items.LeatherHood.DisplayName}
+		Tooltip: "{$Items.LeatherHood.Tooltip}"
 	}
 
 	AncientMarksmanLegs: {
-		DisplayName: 古代のマークスマンのブーツ
+		DisplayName: 古代の{$Items.LeatherLegs.DisplayName}
 		Tooltip: ""
 	}
 
 	AncientMarksmanPlate: {
-		DisplayName: 古代のマークスマンの胸当て
+		DisplayName: 古代の{$Items.LeatherPlate.DisplayName}
 		Tooltip: ""
 	}
 
@@ -2279,11 +2328,7 @@ Items: {
 
 	InvisibleLure: {
 		DisplayName: 透明なルアー
-		Tooltip:
-			'''
-			水中に設置可能
-			近くの水域に魚の群れを引き寄せる
-			'''
+		Tooltip:　"{$Items.FishLure.Tooltip}"
 	}
 
 	SharpshooterGlove: {
@@ -2337,20 +2382,20 @@ Items: {
 
 	GraniteHead: {
 		DisplayName: キネティックバイザー
-		Tooltip: ジャンプの高さがわずかに増加する
+		Tooltip: "{$Items.GraniteBody.Tooltip}"
 	}
 
 	GraniteLegs: {
-		DisplayName: キネティックグリーブ
-		Tooltip: ジャンプの高さがわずかに増加する
+		DisplayName: キネティックのすね当て
+		Tooltip: "{$Items.GraniteBody.Tooltip}"
 	}
 
 	FingerGun: {
 		DisplayName: フィンガーブラスター
 		Tooltip:
 			'''
-			敵の防御を一部無視する
 			マナが高いほど速く発射する
+			敵の防御を5無視する
 			「ピューピュー！」
 			'''
 	}
@@ -2366,6 +2411,994 @@ Items: {
 		AltDisplayName: ハードライトバイザー
 		AltTooltip: 「ハードライトバイザーと混同しないでください」
 	}
+
+	PolishedAmberItem: {
+		DisplayName: 磨かれたコハク
+		Tooltip: ""
+	}
+
+	AmberFossilSafeItem: {
+		DisplayName: コハクの化石
+		Tooltip: ""
+	}
+
+	GildedSandstoneItem: {
+		DisplayName: 金飾の砂岩
+		Tooltip: ""
+	}
+
+	RedSandstoneBrickItem: {
+		DisplayName: 砂岩のレンガ（赤）
+		Tooltip: ""
+	}
+
+	RedSandstoneBrickCrackedItem: {
+		DisplayName: ひび割れた砂岩のレンガ（赤）
+		Tooltip: 「まだ崩れたりはしない！」
+	}
+
+	WalkieTalkie: {
+		DisplayName: 携帯無線機
+		Tooltip: どこでも釣り人と会話できる
+		Disabled: 応答なし...
+	}
+
+	ScryingLens: {
+		DisplayName: 透視レンズ
+		Tooltip: シマーによる変換結果を表示する
+		ShimmerLine: " [i:{0}] [c/FFFFFF:{1}] に変換される"
+	}
+
+	Ledger: {
+		DisplayName: 台帳
+		Tooltip: アイテムの売値を表示する
+	}
+
+	MysticalCodex: {
+		DisplayName: 神秘の書
+		Tooltip: アイテムの売値とシマー変換結果を表示する
+	}
+
+	CommonPotsSavannaItem: {
+		DisplayName: サバンナの壺
+		Tooltip: ""
+	}
+
+	SunEarrings: {
+		DisplayName: 日輪の踊り子のイヤリング
+		Tooltip: 最大マナを20増加させ、魔法ダメージが7%上昇
+	}
+
+	SilkSirwal: {
+		DisplayName: 日輪の踊り子のズボン
+		Tooltip: 地上での移動性能が上昇
+	}
+
+	SilkTop: {
+		DisplayName: 日輪の踊り子の上衣
+		Tooltip: 魔法ダメージが7%増加
+	}
+
+	CeremonialDagger: {
+		DisplayName: 儀礼のダガー
+		Tooltip:
+			'''
+			住人を生贄にできる
+			出血中の敵に対して<right>でクリティカルダメージ
+			'''
+	}
+
+	Thornball: {
+		DisplayName: トゲボール
+		Tooltip: ブロックにくっつく
+	}
+
+	SaltBlockDullItem: {
+		DisplayName: くすんだ塩ブロック
+		Tooltip: ""
+	}
+
+	SaltBlockReflectiveItem: {
+		DisplayName: 塩ブロック
+		Tooltip: 「滑らかでよく反射する」
+	}
+
+	NeedleTrapItem: {
+		DisplayName: 針の罠
+		Tooltip: ""
+	}
+
+	DivingBeetleItem: {
+		DisplayName: ゲンゴロウ
+		Tooltip: ""
+	}
+
+	SunDropper: {
+		DisplayName: 太陽光のスポイト
+		Tooltip: ""
+	}
+
+	OsmosifierItem: {
+		DisplayName: 浸透装置
+		Tooltip: 水中に設置すると塩ブロックを自動生成する
+	}
+
+	GoldDivingBeetleItem: {
+		DisplayName: 黄金のゲンゴロウ
+		Tooltip: ""
+	}
+
+	StoneStupasItem: {
+		DisplayName: 石のストゥーパ
+		Tooltip: ""
+	}
+
+	SaltChestItem: {
+		DisplayName: 塩の宝箱
+		Tooltip: ""
+	}
+
+	SaltDresserItem: {
+		DisplayName: 塩のドレッサー
+		Tooltip: ""
+	}
+
+	SaltBathtubItem: {
+		DisplayName: 塩の浴場
+		Tooltip: ""
+	}
+
+	SaltBedItem: {
+		DisplayName: 塩のベッド
+		Tooltip: ""
+	}
+
+	SaltBookcaseItem: {
+		DisplayName: 塩の本棚
+		Tooltip: ""
+	}
+
+	SaltCandelabraItem: {
+		DisplayName: 塩の燭台
+		Tooltip: ""
+	}
+
+	SaltChandelierItem: {
+		DisplayName: 塩のシャンデリア
+		Tooltip: ""
+	}
+
+	SaltClockItem: {
+		DisplayName: 塩の時計
+		Tooltip: ""
+	}
+
+	SaltDoorItem: {
+		DisplayName: 塩のドア
+		Tooltip: ""
+	}
+
+	SaltLampItem: {
+		DisplayName: 塩のランプ
+		Tooltip: ""
+	}
+
+	SaltLanternItem: {
+		DisplayName: 塩のランタン
+		Tooltip: ""
+	}
+
+	SaltPianoItem: {
+		DisplayName: 塩のピアノ
+		Tooltip: ""
+	}
+
+	SaltSinkItem: {
+		DisplayName: 塩のシンク
+		Tooltip: ""
+	}
+
+	SaltSofaItem: {
+		DisplayName: 塩のソファ
+		Tooltip: ""
+	}
+
+	SaltTableItem: {
+		DisplayName: 塩のテーブル
+		Tooltip: ""
+	}
+
+	SaltToiletItem: {
+		DisplayName: 塩のトイレ
+		Tooltip: ""
+	}
+
+	SaltWorkBenchItem: {
+		DisplayName: 塩の作業台
+		Tooltip: ""
+	}
+
+	SaltCandleItem: {
+		DisplayName: 塩の蝋燭
+		Tooltip: ""
+	}
+
+	SaltChairItem: {
+		DisplayName: 塩の椅子
+		Tooltip: ""
+	}
+
+	OtherworldlyRadioItem: {
+		DisplayName: アザーワールドラジオ
+		Tooltip:
+			'''
+			<right>で アザーワールドの音楽へ切り替える
+			「どこか懐かしい魅力」
+			'''
+		TunedToNormal: （通常周波数）
+		TunedToOtherworld: （異界周波数）
+		MusicDisplay: "[i:576] 再生中："
+	}
+
+	SleightOfHand: {
+		DisplayName: スライハンド
+		Tooltip:
+			'''
+			遠距離武器を持った状態で{0}を二回入力すると弾薬タイプを切り替える
+			インベントリ内でも使用可能
+			'''
+	}
+
+	RuinedSandstonePillarItem: {
+		DisplayName: 崩れた砂岩の柱
+		Tooltip: ""
+	}
+
+	GlidingItem: {
+		DisplayName: 絵画『滑空』
+		Tooltip: 「Tix A. Lun」
+	}
+
+	ViciousFlamingoItem: {
+		DisplayName: 絵画『凶暴なフラミンゴ』
+		Tooltip: 「Tix A. Lun」
+	}
+
+	SaltWallItem: {
+		DisplayName: 塩の壁
+		Tooltip: ""
+	}
+
+	JerboaItem: {
+		DisplayName: トビネズミ
+		Tooltip: ""
+	}
+
+	JarboaItem: {
+		DisplayName: 瓶入りのトビネズミ
+		Tooltip: ""
+	}
+
+	RedSandstoneBrickWallItem: {
+		DisplayName: 砂岩のレンガ壁（赤）
+		Tooltip: ""
+	}
+
+	PolishedSandstoneWallItem: {
+		DisplayName: 磨かれた砂岩の壁
+		Tooltip: ""
+	}
+
+	CarvedLapisItem: {
+		DisplayName: 彫刻されたラピス
+		Tooltip: ""
+	}
+
+	LapisChestItem: {
+		DisplayName: ラピスの宝箱
+		Tooltip: ""
+	}
+
+	LapisDresserItem: {
+		DisplayName: ラピスのドレッサー
+		Tooltip: ""
+	}
+
+	LapisCandleItem: {
+		DisplayName: ラピスの蝋燭
+		Tooltip: ""
+	}
+
+	LapisBathtubItem: {
+		DisplayName: ラピスの浴場
+		Tooltip: ""
+	}
+
+	LapisBedItem: {
+		DisplayName: ラピスのベッド
+		Tooltip: ""
+	}
+
+	LapisBookcaseItem: {
+		DisplayName: ラピスの本棚
+		Tooltip: ""
+	}
+
+	LapisCandelabraItem: {
+		DisplayName: ラピスの燭台
+		Tooltip: ""
+	}
+
+	LapisChairItem: {
+		DisplayName: ラピスの椅子
+		Tooltip: ""
+	}
+
+	LapisChandelierItem: {
+		DisplayName: ラピスのシャンデリア
+		Tooltip: ""
+	}
+
+	LapisClockItem: {
+		DisplayName: ラピスの時計
+		Tooltip: ""
+	}
+
+	LapisDoorItem: {
+		DisplayName: ラピスのドア
+		Tooltip: ""
+	}
+
+	LapisLampItem: {
+		DisplayName: ラピスのランプ
+		Tooltip: ""
+	}
+
+	LapisLanternItem: {
+		DisplayName: ラピスのランタン
+		Tooltip: ""
+	}
+
+	LapisPianoItem: {
+		DisplayName: ラピスのピアノ
+		Tooltip: ""
+	}
+
+	LapisSinkItem: {
+		DisplayName: ラピスのシンク
+		Tooltip: ""
+	}
+
+	LapisSofaItem: {
+		DisplayName: ラピスのソファ
+		Tooltip: ""
+	}
+
+	LapisTableItem: {
+		DisplayName: ラピスのテーブル
+		Tooltip: ""
+	}
+
+	LapisToiletItem: {
+		DisplayName: ラピスのトイレ
+		Tooltip: ""
+	}
+
+	LapisWorkBenchItem: {
+		DisplayName: ラピスの作業台
+		Tooltip: ""
+	}
+
+	LapisPlatformItem: {
+		DisplayName: ラピスの足場
+		Tooltip: ""
+	}
+
+	SwordStandItem: {
+		DisplayName: 剣の展示台
+		Tooltip: <right>で一部の武器を飾ることができる
+	}
+
+	TrellisItem: {
+		DisplayName: トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisBorealItem: {
+		DisplayName: ボーリアルウッドのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisEbonwoodItem: {
+		DisplayName: エボンウッドのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisMahoganyItem: {
+		DisplayName: マホガニーのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisPalmItem: {
+		DisplayName: ヤシの木のトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisPearlwoodItem: {
+		DisplayName: パールウッドのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisShadewoodItem: {
+		DisplayName: シェイドウッドのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoItem: {
+		DisplayName: 交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoBorealItem: {
+		DisplayName: ボーリアルウッドの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoEbonwoodItem: {
+		DisplayName: エボンウッドの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoMahoganyItem: {
+		DisplayName: マホガニーの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoPalmItem: {
+		DisplayName: ヤシの木の交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoPearlwoodItem: {
+		DisplayName: パールウッドの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoShadewoodItem: {
+		DisplayName: シェイドウッドの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	ChainLoopItem: {
+		DisplayName: チェーンループ
+		Tooltip: 設置中に上/下キーで鎖の長さを調整できる
+	}
+
+	GoldChainLoopItem: {
+		DisplayName: 黄金のチェーンループ
+		Tooltip: 設置中に上/下キーで鎖の長さを調整できる
+	}
+
+	SaltPlatformItem: {
+		DisplayName: 塩の足場
+		Tooltip: ""
+	}
+
+	MahakalaMaskBlue: {
+		DisplayName: マハーカーラの仮面
+		Tooltip: 汚染された敵からの被ダメージを減少
+	}
+
+	MahakalaMaskRed: {
+		DisplayName: マハーカーラの仮面
+		Tooltip: 汚染された敵からの被ダメージを減少
+	}
+
+	RedSandstoneSlabItem: {
+		DisplayName: 平砂岩（赤）
+		Tooltip: ""
+	}
+
+	CenserItem: {
+		DisplayName: 香炉
+		Tooltip: ""
+	}
+
+	CarvedLapisWallItem: {
+		DisplayName: 彫刻されたラピスの壁
+		Tooltip: ""
+	}
+
+	BronzePotsItem: {
+		DisplayName: 青銅の壺
+		Tooltip: ""
+	}
+
+	LapisPotsItem: {
+		DisplayName: ラピスの壺
+		Tooltip: ""
+	}
+
+	TrellisDrywoodItem: {
+		DisplayName: 王朝風の木のトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisTwoDrywoodItem: {
+		DisplayName: 王朝風の木の交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	BronzeGrateItem: {
+		DisplayName: 青銅の格子
+		Tooltip: ""
+	}
+
+	BronzePlatingItem: {
+		DisplayName: 青銅メッキ
+		Tooltip: ""
+	}
+
+	BronzePlatingWallItem: {
+		DisplayName: 青銅メッキの壁
+		Tooltip: ""
+	}
+
+	BronzePlatformItem: {
+		DisplayName: 青銅の足場
+		Tooltip: ""
+	}
+
+	ZigguratTorchItem: {
+		DisplayName: ジッグラトのたいまつ
+		Tooltip: 近づくと明かりがつく
+	}
+
+	SwordStandMahoganyItem: {
+		DisplayName: マホガニーの剣の展示台
+		Tooltip: <right>で一部の武器を飾ることができる
+	}
+
+	SwordStandSandstoneItem: {
+		DisplayName: 砂岩の剣の展示台
+		Tooltip: <right>で一部の武器を飾ることができる
+	}
+
+	RedSandstoneBrickForegroundWallItem: {
+		DisplayName: 前景の砂岩レンガ壁（赤）
+		Tooltip: ""
+	}
+
+	SaltPylonItem: {
+		DisplayName: 塩原のパイロン
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+	}
+
+	SaltNightMusicBoxItem: {
+		Tooltip: ""
+		DisplayName: オルゴール（塩原 夜）
+	}
+
+	SaltMusicBoxItem: {
+		Tooltip: ""
+		DisplayName: オルゴール（塩原）
+	}
+
+	PineappleSeeds: {
+		DisplayName: パイナップルの種
+		Tooltip: ""
+	}
+
+	Dragonsong: {
+		DisplayName: ドラゴンソング
+		Tooltip:
+			'''
+			ジェルを弾薬として使用する
+			弾薬を50%の確率で消費しない
+			「なんてひどい人なの」
+			'''
+	}
+
+	TinyDragon: {
+		DisplayName: ミニドラゴン
+		Tooltip:
+			'''
+			ミニドラゴンを召喚する
+			「最後の生き残り」
+			'''
+	}
+
+	PileOfConsequences: {
+		DisplayName: 報いの山
+		Tooltip: 「自分のしたこと、わかってるだろ。」
+	}
+
+	BrineShrimpItem: {
+		DisplayName: ブラインシュリンプ
+		Tooltip: ""
+	}
+
+	GoldenBrineShrimpItem: {
+		DisplayName: 黄金のブラインシュリンプ
+		Tooltip: ""
+	}
+
+	CorruptStactusBannerItem.DisplayName: コラプションスタクタスのバナー
+	CrimsonStactusBannerItem.DisplayName: クリムゾンスタクタスのバナー
+	DesertStactusBannerItem.DisplayName: スタクタスのバナー
+	HallowedStactusBannerItem.DisplayName: ハロウスタクタスのバナー
+
+	AncientBannerItem: {
+		DisplayName: 古代のバナー
+		Tooltip: ""
+	}
+
+	TallSandstoneShelfItem: {
+		DisplayName: 背の高い砂岩の棚
+		Tooltip: ""
+	}
+
+	SaltTorchItem: {
+		DisplayName: 塩のたいまつ
+		Tooltip: ""
+	}
+
+	ZigguratMusicBoxItem: {
+		DisplayName: オルゴール（ジッグラト）
+		Tooltip: ""
+	}
+
+	PinSaltFlat: {
+		DisplayName: 塩原ピン
+		Tooltip: ""
+	}
+
+	PinZiggurat: {
+		DisplayName: ジッグラトピン
+		Tooltip: ""
+	}
+
+	BangleOfStrength: {
+		DisplayName: 剛力の腕輪
+		Tooltip: 一定時間ごとに近接攻撃を強化
+	}
+
+	ScarabTabletOneItem: {
+		DisplayName: 冠飾の偶像
+		Tooltip: ""
+	}
+
+	ScarabTabletTwoItem: {
+		DisplayName: 有翼の太陽
+		Tooltip: ""
+	}
+
+	ScarabAltarItem: {
+		DisplayName: エンシェントアルター
+		Tooltip: ""
+	}
+
+	RedSandstoneBrickCrackedWallItem: {
+		DisplayName: ひび割れた砂岩のレンガ壁（赤）
+		Tooltip: ""
+	}
+
+	AncientBooksItem: {
+		DisplayName: 古代の本
+		Tooltip: 「長い年月により読めなくなっている」
+	}
+
+	SaltGlassWallItem: {
+		DisplayName: 塩ガラスの壁
+		Tooltip: ""
+	}
+
+	SaltPanelWallItem: {
+		DisplayName: 塩パネルの壁
+		Tooltip: ""
+	}
+
+	SaltPlateWallItem: {
+		DisplayName: 塩プレートの壁
+		Tooltip: ""
+	}
+
+	SaltFireplaceItem: {
+		DisplayName: 塩の暖炉
+		Tooltip: ""
+	}
+
+	SaltGlassItem: {
+		DisplayName: 塩ガラス
+		Tooltip: ""
+	}
+
+	SaltPanelItem: {
+		DisplayName: 塩のパネル
+		Tooltip: ""
+	}
+
+	SaltPlateItem: {
+		DisplayName: 塩のプレート
+		Tooltip: ""
+	}
+
+	SaltCrate: {
+		DisplayName: 塩漬けのクレート
+		Tooltip: ""
+	}
+
+	SaltCrateHardmode: {
+		DisplayName: 塩水クレート
+		Tooltip: ""
+	}
+
+	SaltCrateRestored: {
+		DisplayName: 修復された塩漬けのクレート
+		Tooltip: ""
+	}
+
+	SaltCrateHardmodeRestored: {
+		DisplayName: 修復された塩水クレート
+		Tooltip: ""
+	}
+
+	GraverobberBannerItem.DisplayName: 墓荒らしのバナー
+
+	GiantBag: {
+		DisplayName: 戦利品バッグ
+		Tooltip:
+			'''
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
+			'''
+	}
+
+	CrackedSandstoneItem: {
+		DisplayName: ひび割れた砂岩
+		Tooltip: ""
+	}
+
+	StoneReliquaryItem: {
+		DisplayName: 石のレリクアリ
+		Tooltip: ""
+	}
+
+	SaltCampfireItem: {
+		DisplayName: 塩のキャンプファイア
+		Tooltip: "{$ItemTooltip.Campfire}"
+	}
+
+	SaltFountainItem: {
+		DisplayName: 塩原の噴水
+		Tooltip: ""
+	}
+
+	SaltskipperQuestFish: {
+		Description: あの塩原ってすごく変なんだ！塩がどこまでで水がどこからなのか、全然わからなかったよ！やっと針を水に入れたと思ったら、この気持ち悪い魚が水の外に飛び出してきて、なんと空気を吸い始めたんだ！新しいペットとして散歩させたいから、そいつを持ってきてくれよ。
+		CatchLocation: 塩原
+		DisplayName: ソルトスキッパー
+		Tooltip: （塩原で釣れる）
+	}
+
+	WispBannerItem.DisplayName: ウィスプのバナー
+	DecrepitMummyBannerItem.DisplayName: 老朽ミイラのバナー
+
+	PaleHiveItem: {
+		DisplayName: ペールハチの巣
+		Tooltip: ""
+	}
+
+	PaleHiveWallItem: {
+		DisplayName: ペールハチの巣の壁
+		Tooltip: ""
+	}
+
+	GooBlockItem: {
+		DisplayName: 粘液ブロック
+		Tooltip: ""
+	}
+
+	WindshearScepter: {
+		DisplayName: ウィンドシアの杖
+		Tooltip: 貫通する風の突風を放つ
+	}
+
+	SaltTallGateItem: {
+		DisplayName: 塩の高い門
+		Tooltip: ""
+	}
+
+	EnlilStatueItem: {
+		DisplayName: エンリルの石像
+		Tooltip: 近くに設置すると垂直移動が向上
+	}
+
+	SerratedClaws: {
+		DisplayName: 鋸歯の爪
+		Tooltip: ""
+	}
+
+	FlagRingItem: {
+		DisplayName: 旗竿
+		Tooltip: ハンマーで旗を取り付け可能
+	}
+
+	CobbledBrickWallItem: {
+		DisplayName: 石畳レンガの壁
+		Tooltip: ""
+	}
+
+	CobbledBrickItem: {
+		DisplayName: 石畳レンガ
+		Tooltip: ""
+	}
+
+	BronzeGrateDoorItem: {
+		DisplayName: 青銅格子のドア
+		Tooltip: ""
+	}
+
+	CalmingBellItem: {
+		DisplayName: 鎮静の鐘
+		Tooltip: 右クリックで敵の出現率を減少させる
+	}
+
+	BrownShinglesItem: {
+		DisplayName: 茶色の屋根板
+		Tooltip: ""
+	}
+
+	WoodenShinglesItem: {
+		DisplayName: 木の屋根板
+		Tooltip: ""
+	}
+
+	GildedRedSandstoneItem: {
+		DisplayName: 金装の砂岩（赤）
+		Tooltip: ""
+	}
+
+	BronzeGrateBlockItem: {
+		DisplayName: 青銅格子ブロック
+		Tooltip: ""
+	}
+
+	BedouinBreastplate: {
+		DisplayName: ベドウィンの胸当て
+		Tooltip: ダメージが5%増加
+	}
+
+	BedouinCowl: {
+		DisplayName: ベドウィンのフード
+		Tooltip: クリティカル率が5%上昇
+	}
+
+	BedouinLeggings: {
+		DisplayName: ベドウィンのすね当て
+		Tooltip: 移動速度が10%上昇
+	}
+
+	ZigguratTikiTorchItem: {
+		DisplayName: ジッグラトのティキトーチ
+		Tooltip: ""
+	}
+
+	CricketItem: {
+		DisplayName: コオロギ
+		Tooltip: ""
+	}
+
+	GoldCricketItem: {
+		DisplayName: 黄金のコオロギ
+		Tooltip: ""
+	}
+
+	CricketCageItem: {
+		DisplayName: テラリウム（コオロギ）
+		Tooltip: ""
+	}
+
+	GoldCricketCageItem: {
+		DisplayName: テラリウム（黄金のコオロギ）
+		Tooltip: ""
+	}
+
+	ScarabPetItem: {
+		DisplayName: スカラベフード
+		Tooltip: 小さなスカラベの仲間を召喚する
+	}
+
+	CarrotCake: {
+		DisplayName: にんじんケーキ
+		Tooltip: 全ステータスが大きく強化
+	}
+
+	AvianRitualMask: {
+		DisplayName: 鳥儀式の仮面
+		Tooltip: ""
+	}
+
+	BullRitualMask: {
+		DisplayName: 牛儀式の仮面
+		Tooltip: ""
+	}
+
+	AdornedBow: {
+		DisplayName: 金飾の大弓
+		Tooltip:
+			'''
+			溜めることで強力な射撃を放つ
+			タイミングよく放つと、矢が命中時に分裂する
+			'''
+	}
+
+	BagOScarabs: {
+		DisplayName: トレジャーバッグ（スカラベウス）
+		Tooltip: ""
+	}
+
+	ScarabMask: {
+		DisplayName: スカラベウスのマスク
+		Tooltip: ""
+	}
+
+	ScarabRelic: {
+		DisplayName: スカラベウスのレリック
+		Tooltip: ""
+	}
+
+	ScarabTrophy: {
+		DisplayName: スカラベウスのトロフィー
+		Tooltip: ""
+	}
+
+	ScarabRadio: {
+		DisplayName: スカラベのラジオ
+		Tooltip: ""
+	}
+
+	SpaceHeater: {
+		DisplayName: ラジエーター
+		Tooltip: 右クリックで温度設定を変更できる
+	}
+
+	ScarabMusicBox: {
+		DisplayName: オルゴール（スカラベウス）
+		Tooltip: ""
+	}
+
+	SpiritTreeTopper: {
+		DisplayName: 精霊樹の飾り
+		Tooltip: ""
+	}
+
+	LocustCrook: {
+		DisplayName: イナゴの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			投げた杖がイナゴを引き寄せ、敵に群がらせる
+			'''
+	}
+
+	IridescentDye: {
+		DisplayName: 染料（虹彩）
+		Tooltip: ""
+	}
+
+	ScarabLightPetItem: {
+		DisplayName: バルブラトル
+		Tooltip:
+			'''
+			スカラベの子供を召喚する
+			「ひらめいた！」
+			'''
+	}
 }
 
 MusicDisplay: {
@@ -2373,41 +3406,77 @@ MusicDisplay: {
 	Salvati: Salvati
 	Sbubby: Sbubby
 	Moonbird: Moonbird
-	BySalvati: By Salvati
+	By: by
+	BySalvati: "{$By} {$Salvati}"
 
 	Duststorm: {
 		DisplayName: Drifting Prairie (Duststorm Theme)
-		Author: By Sbubby
+		Author: "{$By} {$Sbubby}"
 	}
 
 	Savanna: {
-		DisplayName: Savanna
-		Author: By Salvati, Sbubby
+		DisplayName: Fever Trees (Savanna Day Theme)
+		Author: "{$BySalvati}, {$Sbubby}"
 	}
 
 	SavannaNight: {
-		DisplayName: Savanna Night
-		Author: By Salvati
+		DisplayName: Moonlit Meadow (Savanna Night Theme)
+		Author: "{$BySalvati}"
 	}
 
 	DeepOcean: {
 		DisplayName: Deep Ocean
-		Author: By Salvati
+		Author: "{$BySalvati}"
 	}
 
 	SavannaOtherworld: {
 		DisplayName: Otherworldly Savanna Day
-		Author: By Moonbird
+		Author: "{$By} {$Moonbird}"
 	}
 
 	SavannaOtherworldNight: {
 		DisplayName: Otherworldly Savanna Night
-		Author: By soundbin
+		Author: "{$By} soundbin"
 	}
 
 	DuststormOtherworld: {
-		DisplayName: Otherworldly Dustorm
-		Author: By jakedastardly
+		DisplayName: Otherworldly Duststorm
+		Author: "{$By} jakedastardly"
+	}
+
+	Ziggurat: {
+		DisplayName: Ziggurat
+		Author: "{$By} {$Moonbird}, {$Salvati}"
+	}
+
+	Salt: {
+		DisplayName: Reflected Skies (Salt Flats Day Theme)
+		Author: "{$By} {$Sbubby}"
+	}
+
+	SaltNight: {
+		DisplayName: Refracted Stars (Salt Flats Night Theme)
+		Author: "{$By} {$Sbubby}"
+	}
+
+	Scarabeus: {
+		DisplayName: Soaring Complications (Scarabeus Theme)
+		Author: "{$By} {$Sbubby}"
+	}
+
+	ScarabeusP2: {
+		DisplayName: Soaring Complications (Scarabeus Theme, Phase 2)
+		Author: "{$By} {$Sbubby}"
+	}
+
+	RadioScarab: {
+		DisplayName: Soaring Complications (Radio Edit)
+		Author: "{$By} {$Sbubby}"
+	}
+
+	TitleTheme: {
+		DisplayName: Another Journey (Spirit Title Theme)
+		Author: "{$By} {$Salvati}"
 	}
 }
 
@@ -2420,14 +3489,11 @@ NPCs: {
 			Kelp: 海藻は食べないでね。
 		}
 
-		ArmsDealer: {
-			Savanna1: この一帯は大型動物がうろついてる、きっとお前でも簡単に当てられるぜ！
-			Placeholder: プレースホルダー
-		}
+		ArmsDealer.Savanna: この一帯は大型動物がうろついてる、きっとお前でも簡単に当てられるぜ！
 
 		Stylist: {
-			Savanna1: この気候で髪型を維持するの、すごく大変だわ....
-			Duststorm1: もしもう一人髪の毛から砂を払えなんて言ってきたら、ホントに...
+			Savanna: この気候で髪型を維持するの、すごく大変だわ....
+			Duststorm: もしもう一人髪の毛から砂を払えなんて言ってきたら、ホントに...
 		}
 
 		TravellingMerchant: {
@@ -2436,10 +3502,7 @@ NPCs: {
 			Discoveries: 旅の途中で、たまに珍しいアイテムに遭遇することがある。気をつけて探せば、君も見つけられるかもしれないよ。
 		}
 
-		Demolitionist: {
-			HasBoomshroom: 君、なに？もっとデカい爆発を起こすキノコ持ってるの？自然って最高！
-			Placeholder: プレースホルダー
-		}
+		Demolitionist.HasBoomshroom: 君、なに？もっとデカい爆発を起こすキノコ持ってるの？自然って最高！
 
 		Nurse: {
 			Duststorm: 外の砂埃で怪我しないでね！そんなの私の給料じゃ対応しきれないよ。
@@ -2460,6 +3523,17 @@ NPCs: {
 			Savanna1: うわっ、この場所、めっちゃ最高！ここにいる可愛い動物たち、絶対チェックして！
 			Savanna2: え、ハイエナに噛まれた？でも、めっちゃ可愛いのに！
 		}
+
+		Angler: {
+			Pager0: ...なんだよ？ポケベルで魚を渡せるわけないだろ、バカ者！
+			Pager1: 魚は必ず『手渡し』で持って来るように
+		}
+
+		Wizard.SaltFlats: この周辺の岩は、質の良い水晶玉になりそうだ。
+		Painter.SaltFlats: こんなに美しい景色、見たことがない！ 一生ここで描いていたいよ。
+		Cyborg.SaltFlats: ...アァ、焼ケルヨウダ
+		Mechanic.SaltFlats: うわっ！ 塩のせいで機材が錆びちゃう！ 早くここから出して！
+		Truffle.SaltFlats: この場所は我々には不快すぎる...干からびてしまいそうだ...
 	}
 
 	Crinoid: {
@@ -2503,23 +3577,23 @@ NPCs: {
 	}
 
 	DiverZombie: {
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: 酸素タンクに本物の酸素が必要だなんて、誰が言ったんだ？
-		DisplayName: ゾンビ
 	}
 
 	KelpZombie: {
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: 魚は俺を恐れ、女は俺を恐れ、男は俺を恐れ、子供は俺を恐れる、なぜなら俺はアンデッドだから。
-		DisplayName: ゾンビ
 	}
 
 	SailorZombie: {
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: 今はこんなだけど、生前は良質な豪華クルーザーを運営してたんだ、いつかチェックしてみて。
-		DisplayName: ゾンビ
 	}
 
 	TridentZombie: {
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: そのトライデントは生きてるときに役に立たなかったようだ。まだかなり尖ってるから、気をつけよう。
-		DisplayName: ゾンビ
 	}
 
 	Killifish: {
@@ -2538,7 +3612,7 @@ NPCs: {
 	}
 
 	SavannaSandSlime: {
-		DisplayName: サンドスライム
+		DisplayName: "{$NPCName.SandSlime}"
 		Entry: ちょっと葉っぱっぽく、砂がなんだか少ない。だが危ないことには変わらない。
 	}
 
@@ -2553,12 +3627,12 @@ NPCs: {
 	}
 
 	SafariZombie: {
-		DisplayName: ゾンビ
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: 楽観的に言うなら、すでにゾンビなら蛇だって何の害も及ぼさないよね。
 	}
 
 	TumbleZombie: {
-		DisplayName: ゾンビ
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: ゾンビの姿の裏側...血や枝、胆汁の奥深くに、タンブラーとゾンビが意外な形で友情を育む感動的な物語が隠されている。
 	}
 
@@ -2694,7 +3768,7 @@ NPCs: {
 						'''
 						この地図のこのポイントだ！どう言えばいいか分からないけど...目の前に小さな光がふわふわ浮かんでることってない？
 						ちょ、笑わないでよ...？オレ、この場所で小さなピンクの蝶が飛んでるのを見たんだ。でも実体がないの！
-　						捕まえようとしても、光でできてるみたいで...ああもう、説明できないよぉ！
+						　						捕まえようとしても、光でできてるみたいで...ああもう、説明できないよぉ！
 						'''
 					2: オレ、今までにもいくつか穴に足を取られたことはあるけど、紫に光る穴なんて見たのは初めてだったよ。あれはまるで魔法みたいな代物だね。関わらない方がいい...さっさと通り過ぎるべきだよね。
 				}
@@ -2709,6 +3783,18 @@ NPCs: {
 					0: これでよし！地表を記録するのは、まあ“表面”だけの話だ。地下には奇妙なものがたくさんあるけど、たいていは近づかないようにしてる。なんでって？...オレは地図職人であって、冒険者じゃないからね！
 					1: ここだな！君ならできる気がする。オレが見つけたのは、話の通じるアンデッドだった。それだけでも十分変なのに、そいつが“手”を売ってきてさ。その手が指した方向に行ってみたら、不気味な地下墓地にたどり着いたんだ...オレはもう二度と行かないけど、君なら何か得られるかも？
 					2: 挑戦してみるかい？オレはごめんだけどね。血の匂いが立ちこめる部屋のあるダンジョンがあってさ...その中央に奇妙な祭壇があったんだ。あんなの見たら、普通すぐに引き返すよ。
+				}
+
+				SaltFlat: {
+					0: 忘れもしないよ！ほら、ここさ！初めて“空を映す鏡”を見た場所さ。いつものように下を見てたら――ドン！ 雲だよ！ 最初はちょっと焦ったけど、ただの浅い水だったみたいだ...たぶんね。安全かどうかは、君が確かめてみなよ。
+					1: あそこだって！ 雪の坂で滑ったことある？ 氷でツルツルのやつ！ ないの？ まあ、とにかく前が見えなくなるんだよ、あれ。意図的にね。でもここ、かなりいい景色だよ。雪さえどければおすすめだね。
+					2: いつもは転んだ勢いで発見するんだけど、今回は真面目に歩いてたんだ。そしたら、妙に濡れた地面に焦ったあと、絶景が広がってね。本当に見事だった。地図をちゃんと持っていけば、いい時間になるよ。
+				}
+
+				Ziggurat: {
+					0: ああ...そこだ。オレは地図屋だからな、地図を描くのが仕事でね。だから、崩れた赤レンガのデカくて怪しい壁を見たら、関わるべきかどうか判断するのは得意なんだ。中でブンブン何か鳴ってたけどさ...ま、あとは君に任せる。
+					1: あったあった！ 砂漠ってさ、覚えやすいんだよ。何もないからね。だから、いきなり地面から煙が出てたら...気になるだろう？で、覗いたら巨大な建物の表面が見えるわけ。印象に残るよな。あとは任せるよ。オレは溶岩とかごめんだ。
+					2: ここだよ。遺跡を見つけるのも仕事の一環さ。大丈夫、手順はちゃんとしてる。...けど、中に入った瞬間に地面から串刺しにされかけてさ。いやあ、オレって走るの得意だったんだなって再認識したよ。
 				}
 
 				FirstPin: このピンを君の「ピンコレクション」に追加したよ。マップの左下からいつでも見られるからね！
@@ -2780,12 +3866,12 @@ NPCs: {
 	}
 
 	HideZombieBig: {
-		DisplayName: ゾンビ
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: ハイエナ達は、毎夜蔓延るゾンビからいつも逃げ隠れなければならない。さもなければ彼らの皮は乗っ取られてしまうだろう。
 	}
 
 	HideZombieSmall: {
-		DisplayName: ゾンビ
+		DisplayName: "{$NPCName.Zombie}"
 		Entry: 彼らの服装は、最新のアンデッドファッションで大流行らしい。
 	}
 
@@ -2878,6 +3964,107 @@ NPCs: {
 	HeliumMossSlime.DisplayName: ヘリウム苔スライム
 	OganessonMossSlime.DisplayName: オガネソン苔スライム
 	RadonMossSlime.DisplayName: ラドン苔スライム
+	Tumbleweed.DisplayName: 怒れるタンブラー
+
+	Flamingo: {
+		DisplayName: フラミンゴ
+		Entry: 大きな群れを作り、水中の微生物をこし取って食べている。
+	}
+
+	DivingBeetle: {
+		DisplayName: ゲンゴロウ
+		Entry: 殻の下に空気をため、大きな後ろ脚で水中を泳ぐ。時折、魚がこれに引き寄せられる。
+	}
+
+	GoldDivingBeetle: {
+		DisplayName: 黄金のゲンゴロウ
+		Entry: 稀に、金色の生き物が見つかることがある！店主に高値で売れるし、魚は金色のエサが大好きだ！
+	}
+
+	Jerboa: {
+		DisplayName: トビネズミ
+		Entry: この素早く跳ね回る生き物は乾燥した気候を好み、平坦な砂漠を駆け抜け、サバンナの草地で虫を食べる。
+	}
+
+	Grub: {
+		DisplayName: スカラベ幼虫
+		Entry: スカラベは生まれた時から縄張り意識が強い。この小さな厄介者も、将来は恐るべき存在になるだろう！
+	}
+
+	DesertStactus: {
+		DisplayName: スタクタス
+		Entry: スタクタスは非常におとなしいが、そのトゲのせいで他者と打ち解けるのが苦手である。
+	}
+
+	CorruptStactus: {
+		DisplayName: コラプションスタクタス
+		Entry: スタクタスは非常におとなしいが、そのトゲのせいで他者と打ち解けるのが苦手である。
+	}
+
+	CrimsonStactus: {
+		DisplayName: クリムゾンスタクタス
+		Entry: スタクタスは非常におとなしいが、そのトゲのせいで他者と打ち解けるのが苦手である。
+	}
+
+	HallowedStactus: {
+		DisplayName: ハロウスタクタス
+		Entry: スタクタスは非常におとなしいが、そのトゲのせいで他者と打ち解けるのが苦手である。
+	}
+
+	BrineShrimp: {
+		DisplayName: ブラインシュリンプ
+		Entry: 一般には「シーモンキー」と呼ばれるが、海に生息するわけでもなく、見た目もサルとはまったく異なる。
+	}
+
+	GoldenBrineShrimp: {
+		DisplayName: 黄金のブラインシュリンプ
+		Entry: 金色に輝く珍しい個体で、幸運なフラミンゴを黄金に変えるとされるが、その真偽は定かではない。
+	}
+
+	Wisp: {
+		DisplayName: ウィスプ
+		Entry: 平原を漂う不思議なエネルギーで、刺激しない限りは穏やかに漂っている。わずかな夜明けの気配でも姿を消すことで知られる。
+	}
+
+	DecrepitMummy: {
+		DisplayName: 老朽ミイラ
+		Entry: 侵入者の気配に反応して目覚め、自らの領域を守るために墓から這い出してくる。
+	}
+
+	Graverobber: {
+		DisplayName: 墓荒らし
+		Entry: 彼らは不運にも、叩かれるとピニャータのように金をばら撒く。その様子は財宝にも劣らぬ魅力を持つ...
+		HoldingLantern: ランタンを手にしているとき
+	}
+
+	LootBag.DisplayName: 戦利品バッグ
+
+	Scarabeus: {
+		DisplayName: スカラベウス
+		Title: 冠せし偶像
+		Entry: 堂々たる姿と玉虫色の輝きを持つこの巨大な甲虫は、かつてジッグラトの住民に神として崇められていた。現在もなお、供物を待ち続けている。
+		SpawnInfo: ジッグラトにあるエンシェントアルターで宝石を使う
+	}
+
+	TinyGrub.DisplayName: ちび幼虫
+
+	CactusZombie: {
+		DisplayName: "{$NPCName.Zombie}"
+		Entry: サボテンで死ぬなんて最悪の部類だろう。サボテンで蘇るのも、きっと同じくらいひどい。
+	}
+
+	SunburntZombie: {
+		DisplayName: "{$NPCName.Zombie}"
+		Entry: 太陽を嫌悪するようになり、腐りかけた皮膚を守るため夜間に行動する。
+	}
+
+	VeiledZombie: {
+		DisplayName: "{$NPCName.Zombie}"
+		Entry: 暑さを防ぐ装いだけでは砂漠では生き延びられない。食料と水の確保も重要である。
+	}
+
+	Cricket.DisplayName: コオロギ
+	GoldCricket.DisplayName: 黄金のコオロギ
 }
 
 Origins: {
@@ -2909,6 +4096,30 @@ Origins: {
 		DisplayName: ハイカー
 		Flavor: 探求心が楽しさを増幅させ、ここには必要な物資だって揃ってる
 		Description: 最高の高さの丘の上で、松明60個、蛍光灯30個、ロープ150本を持って開始する。
+	}
+
+	Caveman: {
+		DisplayName: 原始人
+		Flavor: シンプルな暮らしこそ実りあるものだ。すべてを表す言葉はひとつ・・・『ウグ』
+		Description: 革のチュニックと木のこん棒を持ち、地下上層で開始する。
+	}
+
+	Disentombed: {
+		DisplayName: 墓蘇者
+		Flavor: 三千年の眠りを経て...我が時代は再来する。私は戻るのだ。
+		Description: ジッグラトでミイラ装備を身に着けた状態で開始する。
+	}
+
+	Worshipper: {
+		DisplayName: 崇拝者
+		Flavor: 太陽へ祈る運命に縛られながら、その姿を見ることはできない。それでもなお希望を捨てない。
+		Description: 地下のオアシスにて日輪の踊り子装備とウィンドシアの杖を持って開始する。
+	}
+
+	Purifier: {
+		DisplayName: 粛清者
+		Flavor: 忌むべき悪を払う...我が浄化の力に焼かれよ。
+		Description: 塩原で棒の杖とマハーカーラの仮面を持って開始する（可能な場合）
 	}
 }
 
@@ -2962,6 +4173,42 @@ Projectiles: {
 	EnergyImpact.DisplayName: Energy Stomp
 	EnergyPlunge.DisplayName: Energy Stomp
 	FingerShot.DisplayName: Finger Shot
+	NeedleTrapProj.DisplayName: Needle Trap
+	ThornballThrown.DisplayName: Thornball
+	ToucaneMinion.DisplayName: Toucan Minion
+	PhysicsChain.DisplayName: Chain
+	GoldPhysicsChain.DisplayName: Gold Chain
+	CactusSpine.DisplayName: Cactus Spine
+	TinyDragonPet.DisplayName: Tiny Dragon
+	DragonFireball.DisplayName: Dragon Fireball
+	PileOfConsequencesPet.DisplayName: Consequences
+	EnergyLaser.DisplayName: Energy Laser
+	BangleImpact.DisplayName: Shockwave
+	SandPillar.DisplayName: Sand Pillar
+	SlamShockwave.DisplayName: Slam Shockwave
+	WindBlast.DisplayName: Wind Blast
+	ClawHitbox.DisplayName: Claw Hitbox
+	DivebombScarab.DisplayName: Divebomb Scarab
+	SwarmScarab.DisplayName: Swarm Scarab
+	SerratedClawsHeld.DisplayName: Serrated Claws
+	AdornedArrow.DisplayName: Adorned Arrow
+	AdornedBowHeld.DisplayName: Adorned Bow Held
+	AdornedFlash.DisplayName: Adorned Flash
+	AdornedArrowDeathTrail.DisplayName: Adorned Arrow Death Trail
+	LocustCrookProjectile.DisplayName: Locust Crook
+	CrookLocust.DisplayName: Locust
+	LocustDamageProjectile.DisplayName: Locust Damage Projectile
+	LocustExplosion.DisplayName: Locust Explosion
+	CrookLocustGore.DisplayName: Crook Locust Gore
+	RoyalKhopeshThrown.DisplayName: Royal Khopesh Thrown
+	FloatingGem.DisplayName: Floating Gem
+	BeamOLight.DisplayName: Beam O Light
+	ScarabPetProjectile.DisplayName: Mini Scarabeus
+	SandShockwavePillar.DisplayName: Sand Shockwave Pillar
+	SandballProjectile.DisplayName: Sandball
+	BabyAntlionProjectile.DisplayName: Baby Antlion
+	ScarabLightPet.DisplayName: Scarababy
+	SoilBallProjectile.DisplayName: Soil Ball
 }
 
 SetBonuses: {
@@ -2999,6 +4246,12 @@ SetBonuses: {
 		{0}を二回入力して踏みつけ、
 		地面にぶつかった際、高さに応じて衝撃波が発生する
 		'''
+	Sundancer:
+		'''
+		0.5秒遅れて残像が追従する
+		マナを30消費すると、次の魔法攻撃の消費マナが0になり、残像がその攻撃を複製する
+		'''
+	Bedouin: 方向キーを二回入力で竜巻をまとってダッシュし、攻撃を回避する
 }
 
 Tiles: {
@@ -3027,81 +4280,78 @@ Tiles: {
 			地下深くに行くほど
 			価値が上がる。
 			'''
-		Potion: 
+		Potion:
 			'''
 			強力な調合物を
 			含んでいる。
 			'''
 		UpsideDown: 『製造ミス』
-		Worm: 
+		Worm:
 			'''
 			破壊すると
 			色々なワームが
 			飛び散る。
 			'''
-		Platter: 
+		Platter:
 			'''
 			すぐ食べられる
 			熱々の食事。
 			誰がこんなものを
 			置いていった？
 			'''
-		WickerBasket: 
+		WickerBasket:
 			'''
 			君のための
 			ピクニック！
 			'''
-		Aether: 
+		Aether:
 			'''
 			色んな役に立つ、
 			キラキラした
 			アップグレードを
 			提供する。
 			'''
-		Stuffed: 
+		Stuffed:
 			'''
 			こんな場所で商人が
 			見つかるとは奇妙だ。
 			邪魔してと
 			言わんばかりだ。
 			'''
-		Scrying: 
+		Scrying:
 			'''
 			破壊するとマップの
 			広い範囲を
 			明らかにする。
 			'''
-		Biome: 
+		Biome:
 			'''
 			一般的な壺よりも
 			多様な戦利品を
 			含んでいる。
 			'''
-		Boulder: 
+		Boulder:
 			'''
 			刺激を受けると
 			地面を転がる。
 			'''
 	}
 
-	SunkenTreasureTile.MapEntry: Sunken Treasure
+	FablesGraves: {
+		SetNames: {
+			Savanna: Savanna Graves
+			SaltFlats: Salt Graves
+		}
+	}
+
 	HydrothermalVent.MapEntry: Hydrothermal Vent
-	CoralMapEntry: Coral
-	KelpMapEntry: Kelp
-	GarInAJar_Tile.MapEntry: Gar in a Jar
-	CloudstalkTile.MapEntry: Cloudstalk
-	SmallDriftwoodTile.MapEntry: Small Driftwood
-	MediumDriftwoodTile.MapEntry: Medium Driftwood
-	LargeDriftwoodTile.MapEntry: Large Driftwood
-	BambooBirdCage.MapEntry: Bamboo Bird Cage
-	KoiTotemTile.MapEntry: Koi Totem
-	HerosMemorialStatue.MapEntry: A Hero's Memorial
-	TermiteJar_Tile.MapEntry: Termite Jar
-	GarInAJarTile.MapEntry: Gar In A Jar
-	KillieFishbowlTile.MapEntry: Killie Fishbowl
 	OreCarts.MapEntry: Minecart
 	PotionVats.MapEntry: Potion Vat
 	ObsidianShroom.MapEntry: Obsidian Shroom
 	Starflower.MapEntry: Starflower
 	BonsaiTrees.MapEntry: Bonsai
+	DustyTomb.MapEntry: Dusty Tomb
+	# Neither of the moss entries are used by Reforged, but rather used for Recipe Browser for another mod's, Everware's, functionality
+	OganessonMoss.MapEntry: Oganesson Moss
+	RadonMoss.MapEntry: Radon Moss
 }
