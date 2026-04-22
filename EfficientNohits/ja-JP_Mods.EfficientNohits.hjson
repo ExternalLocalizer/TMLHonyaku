@@ -1,0 +1,365 @@
+ChatMessages: {
+	CantToggle: ボス戦中にヒット時の即死と飛行の設定を変更することはできません！
+	AttemptNumber: 試行回数 {0}
+	FightTime: 戦闘時間: {0}
+	BossHealth: ボスの体力: {0}%
+	Slowdown: 戦闘スピード: {0}% ({1}% 平均遅延率- {2} 平均FPS - {3} リアルタイム)
+	Nohit: ノーヒット
+	WingsDisabled: 翼の無効化
+	FlightDisabled: 飛行の無効化
+	ListBosses: Boss - Attempts
+	TotalAttempts: Attempts for {0} by {1}: {2}
+	CounterModified: 試行回数カウンターを変更！
+	Removed: 消去
+	SingularAttempt: 試行回数
+	MultipleAttempts: 試行回数
+}
+
+Items: {
+	MaxLifeCrystal: {
+		DisplayName: マックスライフクリスタル
+		Tooltip: ライフクリスタルの最大数まで自動で使用します。
+	}
+
+	MaxLifeFruit: {
+		DisplayName: マックスライフフルーツ
+		Tooltip: ライフフルーツの最大数まで自動で使用します。
+	}
+
+	MaxManaCrystal: {
+		DisplayName: マックスマナクリスタル
+		Tooltip: マナクリスタルの最大数まで自動で使用します。
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			Despawns: デスポーン設定
+			Toggleables: 切り替え設定
+			Respawn: リスポーン設定
+			Gameplay: ゲームプレイの調整
+			FightStats: 戦闘の統計
+			Anti-Lag: ラグの抑制
+			Presets: プリセット
+		}
+
+		InstantDeath: {
+			Label: ヒット時の即死
+			Tooltip:
+				'''
+				ヒット時に即死します。
+				"ボス戦時のみ" に設定した場合ボス戦中しか即死せず、
+				"常時" に設定した場合常に即死するようになります。
+				'''
+		}
+
+		Flight: {
+			Label: 飛行
+			Tooltip:
+				'''
+				飛行の有効化を切り替える。
+				"翼を無効" は翼アクセサリーの効果を無効にし、
+				"全て無効" はあらゆる飛行手段を無効化します。
+				'''
+		}
+
+		AutoBuffs: {
+			Label: 自動バフ
+			Tooltip: リスポーン時、自動でバフアイテムを使用する、または30個以上所持しているバフアイテムを無限化できます。
+		}
+
+		DespawnCycles: {
+			Label: デスポーンのサイクル
+			Tooltip: 指定されたエンティティをデスポーンさせる連続フレーム数
+		}
+
+		DespawnHostileProjectiles: {
+			Label: 敵対的な発射物
+			Tooltip: ""
+		}
+
+		DespawnFriendlyProjectiles: {
+			Label: 友好的な発射物
+			Tooltip: ""
+		}
+
+		DespawnBosses: {
+			Label: ボス
+			Tooltip: ""
+		}
+
+		DespawnHostileNPCs: {
+			Label: 敵対的なNPC
+			Tooltip: ""
+		}
+
+		DespawnFriendlyNPCs: {
+			Label: 友好的なNPC
+			Tooltip: ""
+		}
+
+		DespawnDusts: {
+			Label: ダスト
+			Tooltip: ""
+		}
+
+		DespawnItems: {
+			Label: 地上にあるアイテム
+			Tooltip: ""
+		}
+
+		DisableEvents: {
+			Label: イベントの無効化
+			Tooltip: 自然に発生するイベントを無効化します。
+		}
+
+		DisableRain: {
+			Label: 雨の無効化
+			Tooltip: 雨が降らなくなります。
+		}
+
+		DisableNPCSpawns: {
+			Label: NPCのスポーンの無効化
+			Tooltip:
+				'''
+				NPCの自然スポーンを無効化します。
+				召喚アイテムやイベント等によるモブのスポーンは無効化されません。
+				'''
+		}
+
+		DisableFallenStars: {
+			Label: 流れ星の無効化
+			Tooltip: 流れ星が降らなくなります。
+		}
+
+		DisableTombstones: {
+			Label: 墓石の無効化
+			Tooltip: プレイヤー死亡時、墓石が生成されないようになります。
+		}
+
+		DestroyGroundedItems: {
+			Label: アイテムの削除
+			Tooltip: コイン、ハート、マナスターを除いた地面にあるアイテムを全て自動で削除します。
+		}
+
+		DestroyDroppedHearts: {
+			Label: ハートの削除
+			Tooltip: ドロップしたハートを自動で削除します。
+		}
+
+		DestroyManaStars: {
+			Label: マナスターの削除
+			Tooltip: ドロップしたマナスターを自動で削除します。
+		}
+
+		DestroyCoins: {
+			Label: ドロップされたコインの削除
+			Tooltip: ドロップしたコインを自動で削除します。
+		}
+
+		OverrideRespawnHP: {
+			Label: リスポーン時体力の変更の有効化
+			Tooltip: ""
+		}
+
+		RespawnHP: {
+			Label: リスポーン時体力
+			Tooltip: プレイヤーは、リスポーン時必ず設定された体力でリスポーンします。
+		}
+
+		ClearChatOnRespawn: {
+			Label: リスポーン時のチャットの消去
+			Tooltip: リスポーン時、チャットを消去します。
+		}
+
+		FramesBeforeChatClear: {
+			Label: チャットの消去までのフレーム数
+			Tooltip: リスポーン後にチャットが消去されるまでのフレーム数を設定します。
+		}
+
+		ShowAttemptNumber: {
+			Label: 試行回数の表示
+			Tooltip: リスポーン時、プレイヤーの頭上に試行回数を表示します。
+		}
+
+		FramesToShowAttemptNumber: {
+			Label: 試行回数の表示フレーム
+			Tooltip: 試行回数を何フレーム表示するかを設定します。
+		}
+
+		ResetMusicOnRespawn: {
+			Label: リスポーン時の曲のストップ
+			Tooltip: リスポーン時、曲の再生がストップされます。
+		}
+
+		ResetLightingOnRespawn: {
+			Label: リスポーン時の照明のリセット
+			Tooltip: リスポーン時、ゲーム内の全ての照明をリセットします。
+		}
+
+		StatColor: {
+			Label: チャットの文字色
+			Tooltip: このModのチャットの文字色を変更します。デフォルトはアクアマリンです。
+		}
+
+		OverrideRespawnTimer: {
+			Label: リスポーン時間の変更の有効化
+			Tooltip: ""
+		}
+
+		RespawnTimer: {
+			Label: リスポーン時間の変更
+			Tooltip: 何フレーム後にリスポーンするかを設定します。
+		}
+
+		InfiniteAmmo: {
+			Label: 弾薬の無限化
+			Tooltip: 弾薬を999個以上所持している場合、無限化します。
+		}
+
+		InfiniteWeapons: {
+			Label: 武器の無限化
+			Tooltip: 
+				'''
+				武器を999個以上所持している場合、無限化します。
+				これには手裏剣などの使用時消費される武器が含まれます。
+				'''
+		}
+
+		InfiniteConsumables: {
+			Label: 消耗品の無限化
+			Tooltip: 消耗品を999個以上所持している場合、無限化します。
+		}
+
+		InfiniteHealingPotions: {
+			Label: ライフポーションの無限化
+			Tooltip: ライフポーションを999個以上所持している場合、無限化します。
+		}
+
+		InfiniteManaPotions: {
+			Label: マナポーションの無限化
+			Tooltip: マナポーションを999個以上所持している場合、無限化します。
+		}
+
+		FightStatsAttemptNumber: {
+			Label: 試行回数
+			Tooltip: 何回目の試行かを表示します。
+		}
+
+		FightStatsTime: {
+			Label: 戦闘時間
+			Tooltip: ボスとの戦闘時間を表示します。
+		}
+
+		FightStatsBossHealth: {
+			Label: ボスの体力
+			Tooltip: 死亡時のボスの体力のパーセンテージを表示します。
+		}
+
+		FightStatsSlowdownStats: {
+			Label: 平均遅延率
+			Tooltip: ラグによる平均遅延率を表示します。
+		}
+
+		CapDustLifetime: {
+			Label: ダストの表示時間の変更の有効化
+			Tooltip: ""
+		}
+
+		DustLifetimeModifier: {
+			Label: ダストの表示フレームの変更
+			Tooltip: ダストは、設定したフレーム経過後消滅するようになります。ラグの抑制に繋がります。
+		}
+
+		CapGoreLifetime: {
+			Label: ゴアの表示時間の変更の有効化
+			Tooltip: ""
+		}
+
+		GoreLifetimeModifier: {
+			Label: ゴアの表示フレームの変更
+			Tooltip: ゴアは、設定したフレーム経過後消滅するようになります。ラグの抑制に繋がります。
+		}
+
+		PresetNohitSettings: {
+			Label: ノーヒット向けプリセット
+			Tooltip: ノーヒットチャレンジをする場合に推奨されるプリセット。
+		}
+
+		PresetStandardSettings: {
+			Label: 通常プレイ向けプリセット
+			Tooltip: 通常プレイをする場合に推奨されるプリセット。
+		}
+	}
+
+	DespawnTrigger: {
+		Disabled: {
+			Label: 無効
+			Tooltip: ""
+		}
+
+		OnHit: {
+			Label: ヒット時
+			Tooltip: ""
+		}
+
+		OnDeath: {
+			Label: 死亡時
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+	}
+
+	InstantDeath: {
+		Disabled: {
+			Label: 無効
+		}
+
+		Bosses: {
+			Label: ボス戦時のみ
+		}
+
+		Always: {
+			Label: 常時
+		}
+
+		Tooltip: ""
+	}
+
+	Flight: {
+		Enabled: {
+			Label: 有効
+		}
+
+		WingsDisabled: {
+			Label: 翼を無効
+		}
+
+		AllDisabled: {
+			Label: 全て無効
+		}
+
+		Tooltip: ""
+	}
+
+	AutoBuffs: {
+		Disabled: {
+			Label: 無効
+		}
+
+		Respawn: {
+			Label: リスポーン時
+		}
+
+		Permanent: {
+			Label: 無限化
+		}
+
+		Tooltip: ""
+	}
+}
+
