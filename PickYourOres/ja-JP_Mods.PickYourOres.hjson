@@ -1,8 +1,9 @@
 Configs: {
-	OreTypeConfig: {
+	PickYourOresConfig: {
 		Headers: {
 			PreHardmodeOres: ハードモード前の鉱石
 			HardmodeOres: ハードモードの鉱石
+			ExistingWorld: 既存のワールドで鉱石を変更したいですか？
 		}
 
 		DisplayName: 鉱石タイプの設定
@@ -40,6 +41,11 @@ Configs: {
 		AdamantiteOre: {
 			Label: アダマンタイト/チタン
 			Tooltip: ""
+		}
+
+		ChangeOreTypesInExistingWorld: {
+			Label: 既存のワールドで鉱石の種類を変更する
+			Tooltip: これをオンにしてワールドに再度入ると、現在の設定に基づいて鉱石が置き換えられます
 		}
 	}
 

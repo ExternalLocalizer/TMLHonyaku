@@ -9,9 +9,13 @@ Menu: {
 	GalleryText: ギャラリー
 	Options: 設定
 	SwitchManosabaBackground: ""
-	ModVersion: Ver. 1.3.1.3
+	ModVersion: Ver. 1.3.2.3
 	LogoCanPlay: メインタイトル画面のロゴをクリックすると、Bloom(PV)を再生できます！
 	InGameContext: 右クリックでスキップ
+	ButtonStart: ""
+	ButtonOption: ""
+	ButtonGallery: ""
+	ButtonExit: ""
 }
 
 Projectiles.NoaPainterProj.DisplayName: ノアのペインター
@@ -103,5 +107,12 @@ Items: {
 			'''
 		CrySound: 現在の死亡時の効果音: 子供のすすり泣く声
 		RegularSound: 現在の死亡時の効果音: 通常
+	}
+
+	TachibanaSherryItem: {
+		DisplayName: Tachibana Sherry Item
+		Tooltip: ""
+		SinnerType: ""
+		SinnerTooltip: ""
 	}
 }

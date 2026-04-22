@@ -865,7 +865,7 @@ Items: {
 			'''
 			近接クリティカル率と魔法クリティカル率が7%上昇
 			近接攻撃速度が20%上昇
-			消費マナが15%減少
+			マナ消費量が15%減少
 			'''
 	}
 
@@ -2832,7 +2832,7 @@ Items: {
 		DisplayName: テルミットの魔術師の帽子
 		Tooltip:
 			'''
-			最大マナが100増加し、消費マナが18%減少
+			最大マナが100増加し、マナ消費量が18%減少
 			魔法ダメージが15%増加
 			魔法クリティカル率が8%上昇
 			'''
@@ -3396,7 +3396,7 @@ NPCs: {
 
 	BlightKing: {
 		DisplayName: ブライトキング
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/BiomechanicalMatter]を夜間に使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/BiomechanicalMatter]を夜間に使用する。"
 	}
 
 	BlightKingLeftCannon.DisplayName: 左キャノン
@@ -3409,7 +3409,7 @@ NPCs: {
 
 	CursedLord: {
 		DisplayName: 呪いの伝道者
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/CursedSoul]を夜間に使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/CursedSoul]を夜間に使用する。"
 	}
 
 	DarkZombie.DisplayName: 闇のゾンビ
@@ -3419,7 +3419,7 @@ NPCs: {
 
 	GlaciationHead: {
 		DisplayName: グレイシエーション
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/KelviniteRadar]を雪原で使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/KelviniteRadar]を雪原で使用する。"
 	}
 
 	GlaciationProbe.DisplayName: グレイシエーションプローブ
@@ -3431,7 +3431,7 @@ NPCs: {
 
 	HandofCthulhu: {
 		DisplayName: クトゥルフの手
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/SlayerTrophy]を海で使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/SlayerTrophy]を海で使用する。"
 	}
 
 	MountedGoblinKnight.DisplayName: ゴブリンナイト
@@ -3439,7 +3439,7 @@ NPCs: {
 
 	TheGardener: {
 		DisplayName: ガーデナー
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/ThePrettiestFlower]をジャングルで使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/ThePrettiestFlower]をジャングルで使用する。"
 	}
 
 	Elf: {
@@ -3468,7 +3468,7 @@ NPCs: {
 
 	ViridianInquisitor: {
 		DisplayName: ヴィリジアン・インクイジター
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/DyingEcosystem]を使用する"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/DyingEcosystem]を使用する。"
 	}
 
 	FallenStarEater.DisplayName: 流れ星喰い

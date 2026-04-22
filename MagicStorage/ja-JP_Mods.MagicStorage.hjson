@@ -1,7 +1,7 @@
 # hazamax405様より
 	Items: {
 			BiomeGlobe: {
-				DisplayName: バイオームグローブ
+				DisplayName: バイオームの球
 				Tooltip:
 					'''
 					「世界のパワーはあなたの指先にある」
@@ -468,7 +468,7 @@
 			}
 		}
 
-		Projectiles.BiomeGlobeThrown.DisplayName: バイオームグローブ
+		Projectiles.BiomeGlobeThrown.DisplayName: バイオームの球
 
 		NPCs: {
 			Golem: {
@@ -487,7 +487,7 @@
 					HateBiome: "{BiomeName}でブルーマジックが不安定になってイル"
 					LikeNPC: "{NPCName}はブルーマジックの力を高く評価してイル"
 					LoveNPC: 当機は{NPCName}に体を調べてもらっても構わナイ
-					DislikeNPC: このユニットは {NPCName} にブルーマジックの事を話したことを後悔してイル
+					DislikeNPC: 当機は {NPCName} にブルーマジックの事を話したことを後悔してイル
 					HateNPC: "{NPCName} はブルーマジックが利益のために使用されるものではないことを学ぶ必要がアル"
 					LikeNPC_Princess: "{NPCName}は私の作成者と親友ダ"
 					Princess_LovesNPC: "{NPCName}はとても面白い機械ですわ、どのように動くのでしょう？"
@@ -546,7 +546,7 @@
 			PortableAccess: 携帯リモートストレージアクセスを作成すれば、外出先でもストレージにアクセスできます。
 			StorageCores: ストレージコアレンチを使うと、ストレージユニットからストレージコアを取り外し、空のストレージユニットに差し込むことができます。
 			DisableUnit: ストレージユニットワンドを使ってストレージユニットを無効にできます。無効になったストレージユニットはアイテムを保管できず、接続された他のストレージユニットへアイテムを移そうとします。
-			BiomeGlobe: バイオームグローブを使うと、雪原、墓場、キャンプファイア、水、溶岩、ハチミツ、そしてデーモン／クリムゾンアルターに関連するレシピが使用できるようになります。
+			BiomeGlobe: バイオームの球を使うと、雪原、墓場、キャンプファイア、水、溶岩、ハチミツ、そしてデーモン／クリムゾンアルターに関連するレシピが使用できるようになります。
 		}
 
 		Bestiary.Golem:
@@ -634,7 +634,7 @@
 					'''
 				Help11:
 					'''
-					クラフティングアクセスに必要な作業台の数を減らすための機能の一つとして、Magic Storageはバイオームグローブというアイテムがあります。
+					クラフティングアクセスに必要な作業台の数を減らすための機能の一つとして、Magic Storageはバイオームの球というアイテムがあります。
 					このアイテムは雪原、エクトミスト、デーモン/クリムゾンアルター水・溶岩・蜂蜜が必要な物を作れるようになります。
 					インベントリにあるなら、キャンプファイアの近くにいなくてもマシュマロを焼けます！
 					レシピ: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] [rg:MagicStorage:AnyDemonAltar] @ hand = [i:MagicStorage/BiomeGlobe]
@@ -917,7 +917,7 @@
 		RecipeConditions: {
 			EctoMistOverride: 墓地 / 統合作業台 (最終Tier)
 
-			CookedMarshmallowCondition: クラフトインターフェイスのバイオームグローブ
+			CookedMarshmallowCondition: クラフトインターフェイスのバイオームの球
 		}
 
 		DepositTooltip: クイックスタック - クリック、 全て預ける - ctrl+クリック、 補充 - 右クリック

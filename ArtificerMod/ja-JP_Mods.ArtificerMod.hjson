@@ -358,12 +358,12 @@ Buffs: {
 
 	TurboBoost: {
 		DisplayName: ターボブースト
-		Description: 移動速度と加速が大幅に上昇
+		Description: 移動速度と加速度が大幅に上昇
 	}
 
 	OverdriveBoost: {
 		DisplayName: オーバードライブブースト
-		Description: 移動速度、ジャンプ速度、加速が大幅に上昇
+		Description: 移動速度、ジャンプ速度、加速度が大幅に上昇
 	}
 
 	Supercharged: {
@@ -373,7 +373,7 @@ Buffs: {
 
 	ProstheticsBuff: {
 		DisplayName: エネルギーの義肢
-		Description: 移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇
+		Description: 移動速度、ジャンプ速度、加速度、近接攻撃速度が大幅に上昇
 	}
 
 	SwaggerTaunt: {
@@ -887,7 +887,7 @@ Items: {
 			'''
 			超高速走行できる
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速が大幅に上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速度が大幅に上昇する
 			「マキシマムオーバードライブ！」
 			'''
 	}
@@ -897,7 +897,7 @@ Items: {
 		Tooltip:
 			'''
 			超高速走行できる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速が大幅に上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度と加速度が大幅に上昇する
 			「音速で走り回る！」
 			'''
 	}
@@ -910,7 +910,7 @@ Items: {
 			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
 			攻撃に電撃を追加し、敵にショックを与えることがある
 			近接攻撃と鞭のオート攻撃を有効にし、近接攻撃速度を15%上昇させる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速、近接攻撃速度が大幅に上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、移動速度、ジャンプ速度、加速度、近接攻撃速度が大幅に上昇する
 			「より速く、より強く、より良く」
 			'''
 	}
@@ -1243,7 +1243,7 @@ Items: {
 		DisplayName: ハートのエース
 		Tooltip:
 			'''
-			ハートの効果が増加し、拾う範囲が広がる
+			ハートの効果が増加し、拾う距離が広がる
 			倒した敵がハートを落としやすくなる
 			「切り札」
 			'''
@@ -1271,7 +1271,7 @@ Items: {
 		DisplayName: 精神の贈り物
 		Tooltip:
 			'''
-			消費マナが12%減少
+			マナ消費量が12%減少
 			マナポーションを自動で使用してくれる
 			最大マナを20増加
 			'''
@@ -1305,12 +1305,12 @@ Items: {
 	}
 
 	AstralHeadgear: {
-		DisplayName: ノヴァのヘッドギア
+		DisplayName: ノヴァの額当て
 		Tooltip:
 			'''
 			ダメージが3%増加
 			クリティカル率が6%上昇
-			消費マナが5%減少
+			マナ消費量が5%減少
 			10%の確率で弾薬を消費しない
 			召喚できるミニオンの数が1体増える
 			'''
@@ -1379,7 +1379,7 @@ Items: {
 			'''
 			ダメージが4%増加
 			クリティカル率が3%上昇
-			消費マナが10%減少
+			マナ消費量が10%減少
 			召喚できるミニオンの数が1体増える
 			{$CommonItemtooltip.ForItems.MoreTarget}
 			'''
@@ -1420,7 +1420,7 @@ Items: {
 			'''
 			ダメージが5%増加
 			クリティカル率が2%上昇
-			消費マナが5%減少
+			マナ消費量が5%減少
 			'''
 	}
 
@@ -1648,7 +1648,7 @@ Items: {
 			クリティカル率が2%上昇
 			{$CommonItemtooltip.ForItems.SlowlyRegeneratesLife}
 			最大ライフが20増加
-			ハートを拾う範囲がわずかに広がる
+			ハートを拾う距離がわずかに広がる
 			敵を倒すか、クリティカルでミニハートが出現することがある
 			'''
 	}
@@ -1766,7 +1766,7 @@ Items: {
 		Tooltip:
 			'''
 			魔法ダメージが19%増加
-			消費マナが12%減少
+			マナ消費量が12%減少
 			'''
 	}
 
@@ -1879,7 +1879,7 @@ Items: {
 		Tooltip:
 			'''
 			アイテムを拾う距離が大きく広がる 
-			スター、コイン、ハートの拾う範囲が広がる
+			スター、コイン、ハートを拾う距離が広がる
 			装備していない状態では、弱体化を敵に与えることがある
 			'''
 	}
@@ -2055,7 +2055,7 @@ Items: {
 		DisplayName: 天上のお守り
 		Tooltip:
 			'''
-			消費マナが12%減少
+			マナ消費量が12%減少
 			マナポーションを自動で使用してくれる
 			最大マナが20増加
 			非表示でない場合、選択中のほとんどの魔法の武器が見えなくなる
@@ -2105,12 +2105,12 @@ Items: {
 	}
 
 	AstralHeadgearG: {
-		DisplayName: 古代のノヴァのヘッドギア
+		DisplayName: 古代のノヴァの額当て
 		Tooltip:
 			'''
 			ダメージが3%増加
 			クリティカル率が6%上昇
-			消費マナが5%減少
+			マナ消費量が5%減少
 			10%の確率で弾薬を消費しない
 			召喚できるミニオンの数が1体増える
 			'''

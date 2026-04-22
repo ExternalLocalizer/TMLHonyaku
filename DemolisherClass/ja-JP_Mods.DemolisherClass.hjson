@@ -470,11 +470,11 @@ Items: {
 	}
 
 	GrenadeBag: {
-		DisplayName: 手榴弾袋
+		DisplayName: グレネード袋
 		Tooltip:
 			'''
 			爆発ダメージが1%増加
-			爆発が当たると、手榴弾を発射する [c/FF0000:(3秒のクールダウン)]
+			爆発が当たると、グレネードを発射する [c/FF0000:(3秒のクールダウン)]
 			'''
 	}
 
@@ -489,7 +489,7 @@ Items: {
 			'''
 			爆発ダメージが2%増加
 			10%の確率で弾薬を消費しない
-			爆発が当たると、20%の確率で手榴弾を発射する
+			爆発が当たると、20%の確率でグレネードを発射する
 			'''
 	}
 
@@ -762,7 +762,7 @@ Items: {
 	}
 
 	LunarGrenade: {
-		DisplayName: 月の手榴弾
+		DisplayName: ルナグレネード
 		Tooltip: ""
 	}
 
@@ -955,7 +955,7 @@ Items: {
 	}
 
 	HolyHandGrenadeItem: {
-		DisplayName: 聖なる手榴弾
+		DisplayName: ホーリーグレネード
 		Tooltip:
 			'''
 			ブロックを破壊しない大きな爆発を起こす
@@ -2978,7 +2978,7 @@ Projectiles: {
 	MarineGrenade.DisplayName: マリーングレネード
 	BoomberryGrenade.DisplayName: ブームベリーグレネード
 	Boomberry.DisplayName: ブームベリー
-	HolyHandGrenade.DisplayName: 聖なる手榴弾
+	HolyHandGrenade.DisplayName: ホーリーグレネード
 	LihzahrdGrenade.DisplayName: リザードグレネード
 	NovaGrenade.DisplayName: ノヴァグレネード
 	PrimeBomb.DisplayName: プライムコア
@@ -3286,7 +3286,7 @@ Configs: {
 		}
 
 		EnableGrenadeBag: {
-			Label: "[i:DemolisherClass/ResourcefulNotes] 手榴弾袋と工夫について書かれたページの自動手榴弾"
+			Label: "[i:DemolisherClass/ResourcefulNotes] グレネード袋と工夫について書かれたページの自動グレネード"
 			Tooltip: ""
 		}
 
@@ -3356,7 +3356,7 @@ Achievements: {
 
 	Shrubbery: {
 		FriendlyName: 低木による死
-		Description: クロッパーにより死亡する
+		Description: クロッパーにより死亡する。
 	}
 
 	CEShopAchievement: {
