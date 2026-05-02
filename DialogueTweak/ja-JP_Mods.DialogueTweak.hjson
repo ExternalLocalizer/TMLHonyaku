@@ -1,8 +1,12 @@
 Configs: {
 	Configuration: {
-		TextScrolling: {
-			Tooltip: NPCのセリフが文字ごとに表示されるようになります
+		TextScrollingMode: {
 			Label: テキストスクロール
+			Tooltip: 
+				'''
+				NPCのセリフが1文字ずつ表示される速度を設定します
+				無効化することもできます
+				'''
 		}
 
 		DisplayName: 設定
@@ -14,7 +18,7 @@ Configs: {
 
 		DisplayHappiness: {
 			Label: NPC幸福度％表示
-			Tooltip: 
+			Tooltip:
 				'''
 				NPCの幸福度（ショップ価格の補正）を％で表示します
 				Terraria v1.4.5からの便利機能です
@@ -22,12 +26,12 @@ Configs: {
 		}
 
 		VanillaUI: {
+			Label: バニラUIを使用
 			Tooltip:
 				'''
 				ゲーム内でバニラの会話パネルを開けるようにします
 				このModのUIが他のModと互換性がない場合やバグがある場合は、この設定をオンにしてください
 				'''
-			Label: バニラUIを使用
 		}
 
 		PortraitDrawStyle: {
@@ -37,6 +41,20 @@ Configs: {
 				NPCチャットのポートレート描画スタイルを変更します
 				デフォルトのポートレート表示に問題がある場合は、スタイルを変更してみてください
 				'''
+		}
+
+		PortraitFbStyle: {
+			Label: ポートレート代替表示
+			Tooltip:
+				'''
+				NPCにv1.4.5のポートレートが無い場合の表示方法を変更します
+				　『ポートレートスタイル』が『ポートレート』のときのみ機能
+				'''
+		}
+
+		PortraitAnimation: {
+			Label: ポートレートアニメーション
+			Tooltip: NPCが話している間、ポートレートに揺れアニメーションを付けます
 		}
 
 		ShowSwapButton: {
@@ -49,28 +67,38 @@ Configs: {
 		}
 	}
 
+	TextScrollingSpeed: {
+		Tooltip: ""
+		Slow.Label: ゆっくり
+		Slow.Tooltip: ""
+		Regular.Label: デフォルト
+		Regular.Tooltip: ""
+		Fast.Label: 高速
+		Fast.Tooltip: ""
+		Disabled.Label: 無効
+		Disabled.Tooltip: ""
+	}
+
 	PortraitStyle: {
 		Tooltip: ""
+		LiveReaction.Label: リアルタイム
+		LiveReaction.Tooltip: ""
+		Portrait.Label: ポートレート
+		Portrait.Tooltip: Terraria (v1.4.5) スタイル
+		Retro.Label: 全身
+		Retro.Tooltip: ""
+		Profile.Label: プロファイル
+		Profile.Tooltip: ""
+	}
 
-		LiveReaction: {
-			Label: リアルタイム
-			Tooltip: ""
-		}
-
-		Portrait: {
-			Label: ポートレート
-			Tooltip: Terraria (v1.4.5) スタイル
-		}
-
-		Retro: {
-			Label: 全身
-			Tooltip: ""
-		}
-
-		Profile: {
-			Label: プロファイル
-			Tooltip: ""
-		}
+	PortraitFallbackStyle: {
+		Tooltip: ""
+		LiveReaction.Label: リアルタイム
+		LiveReaction.Tooltip: ""
+		Retro.Label: 全身
+		Retro.Tooltip: ""
+		Profile.Label: プロファイル
+		Profile.Tooltip: ""
 	}
 }
 
@@ -80,10 +108,6 @@ UISwitch: {
 }
 
 Hate: 嫌い：
-
 Dislike: 苦手：
-
 Like: 好き：
-
 Love: 大好き：
-
