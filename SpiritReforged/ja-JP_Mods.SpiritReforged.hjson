@@ -5,8 +5,8 @@ Biomes: {
 	}
 
 	SaltBiome: {
-		DisplayName: 塩原
-		TownNPCDialogueName: 塩原
+		DisplayName: 塩湖
+		TownNPCDialogueName: 塩湖
 	}
 
 	ZigguratBiome: {
@@ -22,7 +22,7 @@ Conditions: {
 	PeevedTumbler: キラキラ輝いているとき
 	Discovered: 発見する
 	Submerged: 水没時
-	InSaltFlats: 塩原にいるとき
+	InSaltFlats: 塩湖にいるとき
 	IsPrickly: トゲ状態のとき
 	InZiggurat: ジッグラトにいるとき
 }
@@ -60,6 +60,15 @@ GameTips: {
 	ReforgedTip7: クラウドストークは常に雲の下に生える。
 	ReforgedTip8: アカシアの木のてっぺんは、高さが必要な場合に立つことができる。
 	ReforgedTip9: アイテムが海の表面にランダムに浮かんでいる時がある、定期的にチェックしよう！
+	# Caves & Clubs
+	ReforgedTip10: 足元の洞窟には壺がたくさんある！見逃さないようにしよう。
+	ReforgedTip11: こん棒は狙った相手に大ダメージを与える武器だ。
+	# Sunscorched
+	ReforgedTip12: 古の祭壇の上に宝石を捧げるという伝説がある...
+	ReforgedTip13: 古代ジッグラトの探索には注意！至るところに危険が潜んでいる。
+	ReforgedTip14: 砂漠の地下にあるオアシスは、ひとときの安らぎを与えてくれるかもしれない。
+	ReforgedTip15: 琥珀には秘密が隠されている！中に報酬があるかもしれない…。
+	ReforgedTip16: 砂漠の遺跡を歩くときは注意！床が見た目ほどしっかりしていないこともある。
 }
 
 Emotes: {
@@ -253,6 +262,11 @@ Configs: {
 			Label: 環境音
 			Tooltip: 一部のバイオームで環境音を再生します
 		}
+
+		ScreenshakeStrength: {
+			Label: Screenshake Strength
+			Tooltip: ""
+		}
 	}
 
 	OceanShape: {
@@ -356,6 +370,7 @@ Items: {
 		Backpack:
 			'''
 			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			'''
 		Shimmerable: "{0} がシマーによって変化"
 	}
@@ -444,7 +459,7 @@ Items: {
 	}
 
 	JellyfishStaff: {
-		DisplayName: ジェリーフィッシュスタッフ
+		DisplayName: ジェリーフィッシュの杖
 		Tooltip: 共に戦う小さなクラゲを召喚する
 	}
 
@@ -802,7 +817,7 @@ Items: {
 	}
 
 	ButterflyStaff: {
-		DisplayName: エーテル蝶の杖
+		DisplayName: エーテルバタフライの杖
 		Tooltip:
 			'''
 			共に戦う魔法の蝶を召喚する
@@ -1335,8 +1350,8 @@ Items: {
 		DisplayName: フロストバイト
 		Tooltip: 
 			'''
-			前方に小規模な吹雪を放つ
-			敵の防御力を5無視する
+			小さな吹雪を放つ
+			敵の防御力を10無視する
 			'''
 	}
 
@@ -1458,57 +1473,57 @@ Items: {
 	}
 
 	PinBlue: {
-		DisplayName: ブルーピン
+		DisplayName: ピン（青）
 		Tooltip: ""
 	}
 
 	PinGreen: {
-		DisplayName: グリーンピン
+		DisplayName: ピン（緑）
 		Tooltip: ""
 	}
 
 	PinRed: {
-		DisplayName: レッドピン
+		DisplayName: ピン（赤）
 		Tooltip: ""
 	}
 
 	PinYellow: {
-		DisplayName: イエローピン
+		DisplayName: ピン（黄）
 		Tooltip: ""
 	}
 
 	PinHive: {
-		DisplayName: ハイブピン
+		DisplayName: ピン（蜂）
 		Tooltip: ""
 	}
 
 	PinButterfly: {
-		DisplayName: バタフライピン
+		DisplayName: ピン（蝶）
 		Tooltip: ""
 	}
 
 	PinFaeling: {
-		DisplayName: フェイリングピン
+		DisplayName: ピン（妖精）
 		Tooltip: ""
 	}
 
 	PinSavanna: {
-		DisplayName: サバンナピン
+		DisplayName: ピン（サバンナ）
 		Tooltip: ""
 	}
 
 	PinCuriosity: {
-		DisplayName: キュリオシティピン
+		DisplayName: ピン（キュリオシティ）
 		Tooltip: ""
 	}
 
 	PinSky: {
-		DisplayName: スカイピン
+		DisplayName: ピン（空）
 		Tooltip: ""
 	}
 
 	PinSword: {
-		DisplayName: ソードピン
+		DisplayName: ピン（剣）
 		Tooltip: ""
 	}
 
@@ -1682,12 +1697,12 @@ Items: {
 	}
 
 	PinBlood: {
-		DisplayName: ブラッドピン
+		DisplayName: ピン（ブラッド）
 		Tooltip: ""
 	}
 
 	PinWulfrum: {
-		DisplayName: ウルフラムピン
+		DisplayName: ピン（ウルフラム）
 		Tooltip: ""
 	}
 
@@ -2466,7 +2481,7 @@ Items: {
 
 	SunEarrings: {
 		DisplayName: 日輪の踊り子のイヤリング
-		Tooltip: 最大マナを20増加させ、魔法ダメージが7%上昇
+		Tooltip: 最大マナが20増加し、魔法ダメージが7%上昇
 	}
 
 	SilkSirwal: {
@@ -2520,7 +2535,7 @@ Items: {
 
 	OsmosifierItem: {
 		DisplayName: 浸透装置
-		Tooltip: 水中に設置すると塩ブロックを自動生成する
+		Tooltip: 水中に設置すると、くすんだ塩ブロックを自動生成する
 	}
 
 	GoldDivingBeetleItem: {
@@ -2930,7 +2945,7 @@ Items: {
 	}
 
 	BronzeGrateItem: {
-		DisplayName: 青銅の格子
+		DisplayName: 青銅格子の壁
 		Tooltip: ""
 	}
 
@@ -2966,11 +2981,11 @@ Items: {
 
 	RedSandstoneBrickForegroundWallItem: {
 		DisplayName: 前景の砂岩レンガ壁（赤）
-		Tooltip: ""
+		Tooltip: プレイヤーより前に表示される
 	}
 
 	SaltPylonItem: {
-		DisplayName: 塩原のパイロン
+		DisplayName: 塩湖のパイロン
 		Tooltip:
 			'''
 			２人以上の住民が近くにいる別のパイロンへテレポート
@@ -2980,12 +2995,12 @@ Items: {
 
 	SaltNightMusicBoxItem: {
 		Tooltip: ""
-		DisplayName: オルゴール（塩原 夜）
+		DisplayName: オルゴール（塩湖 夜）
 	}
 
 	SaltMusicBoxItem: {
 		Tooltip: ""
-		DisplayName: オルゴール（塩原）
+		DisplayName: オルゴール（塩湖）
 	}
 
 	PineappleSeeds: {
@@ -3023,7 +3038,7 @@ Items: {
 	}
 
 	GoldenBrineShrimpItem: {
-		DisplayName: 黄金のブラインシュリンプ
+		DisplayName: 金のブラインシュリンプ
 		Tooltip: ""
 	}
 
@@ -3053,12 +3068,12 @@ Items: {
 	}
 
 	PinSaltFlat: {
-		DisplayName: 塩原ピン
+		DisplayName: ピン（塩湖）
 		Tooltip: ""
 	}
 
 	PinZiggurat: {
-		DisplayName: ジッグラトピン
+		DisplayName: ピン（ジッグラト）
 		Tooltip: ""
 	}
 
@@ -3129,22 +3144,22 @@ Items: {
 
 	SaltCrate: {
 		DisplayName: 塩漬けのクレート
-		Tooltip: ""
+		Tooltip:<right>で開く
 	}
 
 	SaltCrateHardmode: {
 		DisplayName: 塩水クレート
-		Tooltip: ""
+		Tooltip: <right>で開く
 	}
 
 	SaltCrateRestored: {
 		DisplayName: 修復された塩漬けのクレート
-		Tooltip: ""
+		Tooltip: <right>で開く
 	}
 
 	SaltCrateHardmodeRestored: {
 		DisplayName: 修復された塩水クレート
-		Tooltip: ""
+		Tooltip: <right>で開く
 	}
 
 	GraverobberBannerItem.DisplayName: 墓荒らしのバナー
@@ -3153,8 +3168,8 @@ Items: {
 		DisplayName: 戦利品バッグ
 		Tooltip:
 			'''
-			{0}つのアイテムを収納可能
-			外す前に中身を空にする必要がある
+			{$CommonTooltips.Backpack}
+			「世界中の悪党どもに愛されている一品」
 			'''
 	}
 
@@ -3174,27 +3189,27 @@ Items: {
 	}
 
 	SaltFountainItem: {
-		DisplayName: 塩原の噴水
+		DisplayName: 塩湖の噴水
 		Tooltip: ""
 	}
 
 	SaltskipperQuestFish: {
-		Description: あの塩原ってすごく変なんだ！塩がどこまでで水がどこからなのか、全然わからなかったよ！やっと針を水に入れたと思ったら、この気持ち悪い魚が水の外に飛び出してきて、なんと空気を吸い始めたんだ！新しいペットとして散歩させたいから、そいつを持ってきてくれよ。
-		CatchLocation: 塩原
+		Description: あの塩湖ってすごく変なんだ！塩がどこまでで水がどこからなのか、全然わからなかったよ！やっと針を水に入れたと思ったら、この気持ち悪い魚が水の外に飛び出してきて、なんと空気を吸い始めたんだ！新しいペットとして散歩させたいから、そいつを持ってきてくれよ。
+		CatchLocation: 塩湖
 		DisplayName: ソルトスキッパー
-		Tooltip: （塩原で釣れる）
+		Tooltip: （塩湖で釣れる）
 	}
 
 	WispBannerItem.DisplayName: ウィスプのバナー
 	DecrepitMummyBannerItem.DisplayName: 老朽ミイラのバナー
 
 	PaleHiveItem: {
-		DisplayName: ペールハチの巣
+		DisplayName: 蜂の巣（ペール）
 		Tooltip: ""
 	}
 
 	PaleHiveWallItem: {
-		DisplayName: ペールハチの巣の壁
+		DisplayName: 蜂の巣の壁（ペール）
 		Tooltip: ""
 	}
 
@@ -3204,7 +3219,7 @@ Items: {
 	}
 
 	WindshearScepter: {
-		DisplayName: ウィンドシアの杖
+		DisplayName: ウィンドシアセプター
 		Tooltip: 貫通する風の突風を放つ
 	}
 
@@ -3219,7 +3234,7 @@ Items: {
 	}
 
 	SerratedClaws: {
-		DisplayName: 鋸歯の爪
+		DisplayName: 裂断の爪
 		Tooltip: ""
 	}
 
@@ -3264,7 +3279,7 @@ Items: {
 	}
 
 	BronzeGrateBlockItem: {
-		DisplayName: 青銅格子ブロック
+		DisplayName: 青銅格子
 		Tooltip: ""
 	}
 
@@ -3306,11 +3321,6 @@ Items: {
 	GoldCricketCageItem: {
 		DisplayName: テラリウム（黄金のコオロギ）
 		Tooltip: ""
-	}
-
-	ScarabPetItem: {
-		DisplayName: スカラベフード
-		Tooltip: 小さなスカラベの仲間を召喚する
 	}
 
 	CarrotCake: {
@@ -3398,6 +3408,23 @@ Items: {
 			スカラベの子供を召喚する
 			「ひらめいた！」
 			'''
+	}
+
+	BeetleLicense: {
+		DisplayName: カブトムシライセンス
+		Tooltip:
+			'''
+			カブトムシを町の住民に加えます。
+			すでにカブトムシがいるって？
+			さらにライセンスを使って、ペット交換プログラムを有効にしましょう！
+			あなたにピッタリのカブトムシを見つけましょう！
+			'''
+		LicenseUse: ライセンスはカブトムシの配達サービスにてレポートします…
+	}
+
+	GooeyHiveItem: {
+		DisplayName: 粘液まみれな蜂の巣
+		Tooltip: ""
 	}
 }
 
@@ -3732,7 +3759,7 @@ NPCs: {
 				}
 
 				Hive: {
-					0: ピンは...ここだ。正直に言うと、あのジャングルの場所はおすすめしない。かなり過酷なんだ。でも、大きなハチの巣を見つけたら、近くにハチミツがあるってことでもある。それはきっと、刺される価値のあるごちそうだよ。
+					0: ピンは...ここだ。正直に言うと、あのジャングルの場所はおすすめしない。かなり過酷なんだ。でも、大きな蜂の巣を見つけたら、近くにハチミツがあるってことでもある。それはきっと、刺される価値のあるごちそうだよ。
 					1: よし、これで完了！ぶっちゃけて言うとね、黄金の液体を見つけたとしても、それだけじゃ割に合わないこともあるんだよ。あの嫌な蜂どもがね...登山気分で行くならいいけど、商売にはしない方がいいね。
 					2: この辺をよく見てみて...ここに、君が興味を持つものがあるはずだよ。ただ先に言っておく。針は痛い。覚悟して行くんだ。
 				}
@@ -4046,7 +4073,11 @@ NPCs: {
 		SpawnInfo: ジッグラトにあるエンシェントアルターで宝石を使う
 	}
 
-	TinyGrub.DisplayName: ちび幼虫
+	TinyGrub: {
+		DisplayName: ちび幼虫
+		Entry: 可能性に満ちているが、それと同じくらい不気味でもある。
+	}
+
 
 	CactusZombie: {
 		DisplayName: "{$NPCName.Zombie}"
@@ -4063,8 +4094,121 @@ NPCs: {
 		Entry: 暑さを防ぐ装いだけでは砂漠では生き延びられない。食料と水の確保も重要である。
 	}
 
-	Cricket.DisplayName: コオロギ
-	GoldCricket.DisplayName: 黄金のコオロギ
+	Cricket: {
+		DisplayName: コオロギ
+		Entry: 夜になると、草むらのあちこちに現れる小さな虫たち。その鳴き声は夜を象徴する音でもある。
+	}
+
+	GoldCricket: {
+		DisplayName: 黄金のコオロギ
+		Entry: 町の人々は、黄金のコオロギを見つたら幸運になれると言う。よく売れるからだという説もあるが、それは違う...はずだ。
+	}
+
+	BeetleTownPet: {
+		DisplayName: カブトムシ
+		Chitter0: *楽しげにカサカサ鳴いている*
+		Chitter1: *虫の鳴き声*
+		Chitter2: *カブトムシの鳴き声*
+
+		Names: {
+			RoyalScarab0: アズール
+			RoyalScarab1: ベリー
+			RoyalScarab2: ブルーイ
+			RoyalScarab3: クラウノ
+			RoyalScarab4: ケプリ
+			RoyalScarab5: ラピス
+			RoyalScarab6: ルミ
+			RoyalScarab7: ミニベウス
+			RoyalScarab8: プリンス
+			RoyalScarab9: クイニー
+			RoyalScarab10: スカーブ
+			RoyalScarab11: セイディ
+			RoyalScarab12: サファイア
+			RoyalScarab13: スキッピー
+			RoyalScarab14: サニー
+			RoyalScarab15: スキャブ
+			DungBeetle0: アスベスト
+			DungBeetle1: ビット
+			DungBeetle2: ブリック
+			DungBeetle3: キャノンボール
+			DungBeetle4: クレイ
+			DungBeetle5: デイブ
+			DungBeetle6: ダート
+			DungBeetle7: グレッグ
+			DungBeetle8: グランピー
+			DungBeetle9: ヘラクレス
+			DungBeetle10: ジェフ
+			DungBeetle11: リコリス
+			DungBeetle12: ペブルズ
+			DungBeetle13: ピーティ
+			DungBeetle14: スート
+			DungBeetle15: スプーン
+			JewelBeetle0: オーブリー
+			JewelBeetle1: ビー
+			JewelBeetle2: ボンボン
+			JewelBeetle3: キャラメル
+			JewelBeetle4: グリンティ
+			JewelBeetle5: ゴルディロックス
+			JewelBeetle6: フムス
+			JewelBeetle7: カイリー
+			JewelBeetle8: マロウ
+			JewelBeetle9: ミナ
+			JewelBeetle10: オボル
+			JewelBeetle11: シアーシャ
+			JewelBeetle12: シーラ
+			JewelBeetle13: タフィー
+			JewelBeetle14: トパーズ
+			JewelBeetle15: ザーラ
+			Weevil0: アーチボルド
+			Weevil1: ブーツ
+			Weevil2: シャルルマーニュ
+			Weevil3: ディンキー
+			Weevil4: ダッチェス
+			Weevil5: エレノア
+			Weevil6: ヒューバート
+			Weevil7: イカボッド
+			Weevil8: ジェベダイア
+			Weevil9: ジョンソン
+			Weevil10: ニーベル
+			Weevil11: ローレンス
+			Weevil12: エグルストン卿三世
+			Weevil13: ポーキー
+			Weevil14: スニッフルズ
+			Weevil15: ウィニフレッド
+			Maybug0: エイプリル
+			Maybug1: シャーロット
+			Maybug2: クローバー
+			Maybug3: デュー
+			Maybug4: ディジー
+			Maybug5: ファジー
+			Maybug6: ジジ
+			Maybug7: ホリー
+			Maybug8: ジュニパー
+			Maybug9: マンディ
+			Maybug10: マヤ
+			Maybug11: ミンキー
+			Maybug12: パプリカ
+			Maybug13: パイパー
+			Maybug14: ポップコーン
+			Maybug16: ベルベット
+			Ladybug0: バジル
+			Ladybug1: チャチャ
+			Ladybug2: シナモン
+			Ladybug3: デインティ
+			Ladybug4: ダンディ
+			Ladybug5: ディーバ
+			Ladybug6: レディ
+			Ladybug7: ラブリー
+			Ladybug8: ミッシー
+			Ladybug9: ピン
+			Ladybug10: ポルカ
+			Ladybug11: ローザ
+			Ladybug12: スカーレット
+			Ladybug13: スポッツ
+			Ladybug14: ティターニア
+			Ladybug15: チューリップ
+		}
+	}
 }
 
 Origins: {
@@ -4119,7 +4263,7 @@ Origins: {
 	Purifier: {
 		DisplayName: 粛清者
 		Flavor: 忌むべき悪を払う...我が浄化の力に焼かれよ。
-		Description: 塩原で棒の杖とマハーカーラの仮面を持って開始する（可能な場合）
+		Description: 塩湖で棒の杖とマハーカーラの仮面を持って開始する（可能な場合）
 	}
 }
 
