@@ -1,0 +1,212 @@
+OptimizerConfig: {
+	ShowStats: {
+		Tooltip: ""
+		Label: ステータス表示
+	}
+
+	Headers: {
+		Debug: デバッグ
+		Furniture: 家具
+		Wire: ワイヤー
+		Visual: 表示
+		Memory: メモリ
+		Gore: ゴア
+		Dust: ダスト
+		Items: シテム
+		NPC: N P C
+		Projectiles: プロジェクタイル
+		Main: メイン
+		PerformanceMode: パフォーマンスモード
+		Lighting: 光源設定
+	}
+
+	EnableFurnitureOptimization: {
+		Tooltip: ""
+		Label: 家具の最適化
+	}
+
+	EnableWireOptimization: {
+		Tooltip: ""
+		Label: ワイヤーの最適化
+	}
+
+	EnableVisualOptimization: {
+		Tooltip: ""
+		Label: 表示効果の最適化
+	}
+
+	MemoryThresholdMB: {
+		Tooltip: ""
+		Label: メモリしきい値（MB）
+	}
+
+	EnableMemoryOptimization: {
+		Tooltip: ""
+		Label: メモリの最適化
+	}
+
+	MaxGore: {
+		Tooltip: ""
+		Label: ゴア最大数
+	}
+
+	EnableGoreOptimization: {
+		Tooltip: ""
+		Label: ゴアの最適化
+	}
+
+	MaxDustLowFPS: {
+		Tooltip: ""
+		Label: 低FPS時のダスト上限
+	}
+
+	MaxDust: {
+		Tooltip: ""
+		Label: ダスト最大数
+	}
+
+	EnableDustOptimization: {
+		Tooltip: ""
+		Label: ダストの最適化
+	}
+
+	ProtectBossDrops: {
+		Tooltip: ""
+		Label: ボスドロップを保護
+	}
+
+	ItemDistance: {
+		Tooltip: ""
+		Label: アイテム距離
+	}
+
+	EnableItemOptimization: {
+		Tooltip: ""
+		Label: アイテムの最適化
+	}
+
+	OptimizeTownNPCs: {
+		Tooltip: ""
+		Label: タウンNPCの最適化
+	}
+
+	NPCDistance: {
+		Tooltip: ""
+		Label: NPC距離
+	}
+
+	EnableNPCOptimization: {
+		Tooltip: ""
+		Label: NPCの最適化
+	}
+
+	ProjectileDistance: {
+		Tooltip: ""
+		Label: プロジェクタイル距離
+	}
+
+	EnableProjectileOptimization: {
+		Tooltip: ""
+		Label: プロジェクタイルの最適化
+	}
+
+	EnableAllOptimizations: {
+		Tooltip: ""
+		Label: 全ての最適化を有効
+	}
+
+	DisplayName: 最適化設定
+
+	EnableCommands: {
+		Label: コマンドを有効化
+		Tooltip: ""
+	}
+
+	TargetFPS: {
+		Label: ターゲットFPS
+		Tooltip: ""
+	}
+
+	EnableDustPooling: {
+		Label: ダスト再利用
+		Tooltip: ""
+	}
+
+	PreventGreenGlitch: {
+		Label: 緑色バグを防ぐ
+		Tooltip: ""
+	}
+
+	DebugMode: {
+		Label: デバッグモード
+		Tooltip: ""
+	}
+
+	PerformanceMode: {
+		Label: パフォーマンスモード
+		Tooltip: ""
+	}
+
+	LightingMode: {
+		Label: ライティングモード
+		Tooltip: ""
+	}
+
+	PreventNPCFalling: {
+		Label: NPCの落下を防止
+		Tooltip: ""
+	}
+}
+
+PerformanceModeType: {
+	Tooltip: ""
+
+	Auto: {
+		Label: オート
+		Tooltip: ""
+	}
+
+	Performance: {
+		Label: パフォーマンス
+		Tooltip: ""
+	}
+
+	Balanced: {
+		Label: バランス
+		Tooltip: ""
+	}
+
+	Quality: {
+		Label: クオリティ
+		Tooltip: ""
+	}
+}
+
+LightingModeType: {
+	Tooltip: ""
+
+	Auto: {
+		Label: オート
+		Tooltip: ""
+	}
+
+	Retro: {
+		Label: レトロ
+		Tooltip: ""
+	}
+
+	Color: {
+		Label: カラー
+		Tooltip: ""
+	}
+
+	White: {
+		Label: ホワイト
+		Tooltip: ""
+	}
+
+	Trippy: {
+		Label: サイケデリック
+		Tooltip: ""
+	}
+}
