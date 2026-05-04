@@ -2520,7 +2520,7 @@ Items: {
 			[c/BE90E5:メカニカルセット]
 			[c/f9f909:地獄セット]
 			[c/04C3F9:星の旅人セット]
-			[c/e10643:天空セット]
+			[c/e10643:宇宙セット]
 			----
 			その他: バニラセットの追加
 			[c/8686E5:雨靴]
@@ -2538,7 +2538,7 @@ Items: {
 	}
 
 	Celestial1Sunglasses: {
-		DisplayName: 天空のサンセット
+		DisplayName: 宇宙のサンセット
 		Tooltip:
 			'''
 			最大ライフが20、最大マナが40増加
@@ -2551,11 +2551,11 @@ Items: {
 			横方向入力2回で高速ステップ
 			ダッシュ時に天体の芝刈り機が降ってくる
 			-
-			[c/04C3F9:天空の剣]
+			[c/04C3F9:宇宙の剣]
 			芝刈り機のダメージが12%増加し、クリティカル率が12%上昇
 			ダッシュで召喚された芝刈り機が敵を追尾する
 			-
-			[c/04C3F9:天空の盾]
+			[c/04C3F9:宇宙の盾]
 			防御力が12増加し、被ダメージを16%軽減
 			周囲を周回し、触れた敵にダメージを与える天体の破片を召喚する
 			芝刈り機で攻撃中はより速く周回し、ダメージが増加する
@@ -2563,7 +2563,7 @@ Items: {
 	}
 
 	Celestial4Chest: {
-		DisplayName: 天空の鎧
+		DisplayName: 宇宙の鎧
 		Tooltip:
 			'''
 			最大ライフが60、最大マナが20増加
@@ -2573,7 +2573,7 @@ Items: {
 	}
 
 	Celestial5Legs: {
-		DisplayName: 天空のすね当て
+		DisplayName: 宇宙のすね当て
 		Tooltip:
 			'''
 			最大ライフが20、最大マナが40増加
@@ -3050,7 +3050,7 @@ Projectiles: {
 	CultistLawnmowerProj.DisplayName: セレスティアルボディ
 	OrbitalStrikeLawnmower.DisplayName: 天体の芝刈り機
 	OrbitalStrikeTarget.DisplayName: 天体の芝刈り機
-	CelestialShield.DisplayName: 天空の盾
+	CelestialShield.DisplayName: 宇宙の盾
 	AutoTurretBullet.DisplayName: 自動タレット 弾
 	AutoTurretIIBullet.DisplayName: 自動タレットII 弾
 	InfernalWingsLawnmower.DisplayName: 地獄の翼
@@ -3410,7 +3410,7 @@ Buffs: {
 	}
 
 	CelestialShieldBuff: {
-		DisplayName: "[c/e10643:天空の盾]"
+		DisplayName: "[c/e10643:宇宙の盾]"
 		Description:
 			'''
 			防御力が12増加し、被ダメージを16%軽減
@@ -3419,7 +3419,7 @@ Buffs: {
 	}
 
 	CelestialSwordBuff: {
-		DisplayName: "[c/e10643:天空の剣]"
+		DisplayName: "[c/e10643:宇宙の剣]"
 		Description:
 			'''
 			芝刈り機のダメージが12%増加し、クリティカル率が12%上昇

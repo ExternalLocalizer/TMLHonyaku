@@ -1,0 +1,1200 @@
+AnglerQuest: {
+
+	AetherianAngler: {
+		Description: あのきらめきを見たことがあるかい？一度、そこにどんな生き物がいるのか知りたくて釣りをしてみたけど、二度とやりたくない経験だったよ…。でも、きっと近くには奇妙な生き物がいるはず。近くで釣りをしてみてよ！
+		CatchLocation: エーテルの近くの水で釣れる
+	}
+
+	Garnite: {
+		Description: 御影石の洞窟には、ものすごく鋭い石でできた魚がいるって聞いたんだけど、実際どれくらい鋭いのか見てみたいんだ。一匹捕まえてきてよ！
+		CatchLocation: 御影石の洞窟で釣れる
+	}
+
+	HellstoneSnail: {
+		Description: 地下世界に行ったことはある？あそこには溶岩の中に珍しい魚が生息してるんだよ！絶対見てみたいよ！ボクは行かないよ、あそこは子供連れにはあまり向いてないから、キミが行ってみて！あそこにいる生き物たちと一緒に溶岩で釣りもできるよ、耐火性の網さえあればいいんだ。
+		CatchLocation: 地下世界で釣れる
+	}
+
+	GlassAnomalocaris: {
+		Description: なぜ土や泥に生息する魚はいるのに、砂に生息する魚はいないのか不思議に思ったことはある？それは、砂漠の暑さで砂の魚が全てガラスになってしまったからなんだよ！ぜひボクにも一匹持って来てよ。きっと燭台として素敵に見えると思うよ。
+		CatchLocation: 砂漠の溶岩で釣れる
+	}
+
+	Marbeel: {
+		Description: 大理石の洞窟に行ったことはある？ 遠い昔の勇猛な戦士たちがそこをさまよっているんだ。きっとすごくかっこいい魚もいるはず。一匹釣りに行って来てよ！
+		CatchLocation: 大理石の洞窟で釣れる
+	}
+
+	Mecherel: {
+		Description: あの巨大なロボット、知ってる？もっとたくさんいるって噂を聞いたんだ！中には魚の形をしたロボットもいるらしいよ！探しに行ってみてよ！!
+		CatchLocation: どこでも釣れる
+	}
+
+	SantaRay: {
+		Description: 毎年冬になると、サンタクロースがやってきてプレゼントをくれる。サンタはペットの魚を何匹も飼っているらしい。ボクも一匹もらって、サンタに脅して良いプレゼントをもらおうかな！
+		CatchLocation: 雪原で釣れる
+	}
+
+}
+
+ArmorSetBonus: {
+
+	NeonScaleArmor: 商品が割引される
+	TrawlerArmor: 敵の出現率が大幅に低下し、全ての釣竿に浮きを1つ追加する
+	ClamArmor: 被ダメージを10%軽減し、二段ジャンプが可能になる
+
+}
+
+Bestiary: {
+
+	//Friendly
+	PortableShop: 自分の釣り具店を経営している金魚。そこで役立つ釣り用品を販売しているんです。しかも、その店は全部自分で作ったんです！本当に誇りに思います。
+	//Hostile
+	LavaShark: 黒曜石のように硬い鱗を持つように進化したサメ。これらの鱗は驚異的な耐熱性を持ち、溶岩にも耐えることができる。
+	Clam: 2つの頑丈な殻の中に閉じ込められた生き物で、時には高価な真珠を内包していることもある。
+	//Passive
+	AtlanticCodCritter: このキャラを作っているうちに、これは基本的にベースの色違いだということが分かった。
+	BassCritter: 最も一般的な魚の一つで、味はまあまあ。
+	BombfishCritter: 何らかの理由で大量の火薬が詰め込まれた魚。爆発しやすいため、注意して接すること。
+	FlounderCritter: 砂漠地帯に生息する一般的な平たい魚で、水銀含有量が非常に低い。
+	ShrimpCritter: 名前は似ているが、シュリンプ・ポーボーイを作るのに使うことはできない。
+	NeonTetraCritter: とてもキラキラした魚だが、残念ながら食用には適していない。だが、適切にさばけば、有用な鱗を得ることができる。
+	EbonkoiCritter: この魚は、生涯にわたって不浄で泳ぎ続けることが、生存にとって理想的とは言えないことを科学的に証明している。漆黒コイのコミュニティの皆様に心よりお悔やみ申し上げます。
+	CrimsonTigerfishCritter: 真紅産の魚に関連するものを摂取することはお勧めしない。全く賢明なこととは思えない。
+	PrismiteCritter: この魚にはたくさんの色が付いているので、陰影が全くないという事実から目をそらすことができる。
+	SpecularFishCritter: ワームホールポーションを簡単に入手する良いコツは、余った帰還のポーションをシマーに投げ込むことだ。そうすれば、ほとんどの素材をかなり安価に入手できる。
+	DamselFishCritter: この魚を作ってみて、バニラの魚のスプライトの多くはあまり良くないということに気づいた。
+	PotSnail: ポットを殻代わりに使っているカタツムリ。まるで生きているスロットマシンのようだ！
+	PotSnailCrimson: 寄生性の植物に感染したカタツムリ。まるで生きているスロットマシンのようだ！
+
+}
+
+Buffs: {
+
+	SeaSlugBuff: {
+		DisplayName: ウミウシ
+		Description: 技術的には正しい。なぜならウミウシは「海のウサギ」と呼ばれているからだ
+	}
+
+	AnglerFishBuff: {
+		DisplayName: アンコウ
+		Description: 予想以上に友好的だった…
+	}
+
+	StablizedBuff: {
+		Description: 強力な風を無効化
+		DisplayName: 安定
+	}
+
+	BetsyCurseImbue: {
+		DisplayName: ベッツイの呪い付与
+		Description: 近接攻撃にベッツイの呪いの追加効果を付与
+	}
+
+	TackleBoxBuff: {
+		DisplayName: リラックス
+		Description: フィッシング・パワーが向上し、エサを消費しにくくなり、敵の出現率が低下
+	}
+
+	ClamMinionBuff: {
+		Description: 二枚貝が一緒に戦ってくれる
+		DisplayName: 二枚貝
+	}
+
+	MinorSwiftnessBuff: {
+		Description: 移動速度が15%上昇
+		DisplayName: 炭鉱夫の俊足
+	}
+
+	MinorShineBuff: {
+		Description: 弱く発光する
+		DisplayName: 弱い光源
+	}
+
+	MinorRegenerationBuff: {
+		Description: ライフ自然回復を僅かに増進
+		DisplayName: 弱い再生
+	}
+
+	MinorDefenseBuff: {
+		Description: 防御力 +4
+		DisplayName: 弱い鉄の肌
+	}
+
+	MinorDamageBuff: {
+		Description: ダメージが5%増加
+		DisplayName: 弱い激怒
+	}
+
+}
+
+Dialogue: {
+
+	PortableShop: {
+		Default1: *ブクッ*
+		Default2: *ゴボッ*
+		Default3: ...
+		Default4: *魚の鳴き声*
+	}
+
+}
+
+Items: {
+
+	FilletItemTooltip: このアイテムは[i:WaasephisFishingPlus/FilletKnife] で切り身にできる
+
+	FilletingTableItem: {
+		DisplayName: 魚の捌き台
+		Tooltip: 魚を別のアイテムにするのに使う
+	}
+
+	FilletKnife: {
+		DisplayName: 魚包丁
+		Tooltip: 魚を切り分けるのに使う
+	}
+
+	GalacticFilletKnife: {
+		DisplayName: 銀河の魚包丁
+		Tooltip:
+			'''
+			魚を切り分けるのに使う
+			どんな魚も切り分けることができ、さらに入手量も増える
+			'''
+	}
+
+	RefinedFilletKnife: {
+		DisplayName: 高級魚包丁
+		Tooltip:
+			'''
+			魚を切り分けるのに使う
+			他の包丁より多くの種類の魚を切り分けることができる
+			'''
+	}
+
+	OvergrownCrate: {
+		DisplayName: 生い茂った箱
+		Tooltip: 右クリックで開く
+	}
+
+	CrystalCatcher: {
+		DisplayName: クリスタルキャッチャー
+		Tooltip: 浮きを3つ投げる
+	}
+
+	CoralHeart: {
+		DisplayName: サンゴのハート
+		Tooltip:
+			'''
+			釣りに関するあらゆるバフを得て、フィッシング・パワーを向上させる
+			「これを持つ者の釣り能力を強化する」
+			'''
+	}
+
+	HandofCod: {
+		DisplayName: ハンド・オブ・コッド
+		Tooltip: 「これがあなたにとって最高の結果？」
+	}
+
+	Prismaline: {
+		DisplayName: プリズマリン
+		Tooltip:
+			'''
+			浮きを5つ投げる
+			「真の釣り人だけが、この釣竿を扱うことができる」
+			'''
+	}
+
+	Mecherel: {
+		DisplayName: メシェレル
+		Tooltip: どこでも釣れる
+	}
+
+	Garnite: {
+		DisplayName: ガーナイト
+		Tooltip: 御影石の洞窟で釣れる
+	}
+
+	RegalScepter: {
+		DisplayName: リーガルセプター
+		Tooltip:
+			'''
+			浮きを4つ投げる
+			「王にふさわしい釣竿」
+			'''
+	}
+
+	FishFillet: {
+		DisplayName: 魚の切り身
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			フィッシング・パワーが短時間向上する
+			「シンプルな切り身の魚」
+			'''
+	}
+
+	NeonScales: {
+		DisplayName: ネオンの鱗
+		Tooltip: 「信じられないほどキラキラしている！」
+	}
+
+	NeonScaleGreaves: {
+		DisplayName: ネオンの鱗のすね当て
+		Tooltip:
+			'''
+			フィッシング・パワーが2向上する
+			水中で素早く動ける
+			'''
+	}
+
+	NeonScalemail: {
+		DisplayName: ネオンの鱗の鎧
+		Tooltip:
+			'''
+			フィッシング・パワーが4向上する
+			泳げるようになる
+			'''
+	}
+
+	NeonScaleMask: {
+		DisplayName: ネオンの鱗の仮面
+		Tooltip:
+			'''
+			フィッシング・パワーが2向上する
+			水中にとても長く居られる
+			'''
+	}
+
+	SharkTooth: {
+		DisplayName: サメの歯
+		Tooltip: 「とても鋭い」
+	}
+
+	SharkToothPickaxe: {
+		DisplayName: サメの歯のつるはし
+		Tooltip: 「当然のこと」
+	}
+
+	TrawlerHat: {
+		DisplayName: 漁師の帽子
+		Tooltip: フィッシング・パワーが10向上する
+	}
+
+	TrawlerPants: {
+		DisplayName: 漁師のパンツ
+		Tooltip: フィッシング・パワーが10向上する
+	}
+
+	TrawlerVest: {
+		DisplayName: 漁師のベスト
+		Tooltip: フィッシング・パワーが10向上する
+	}
+
+	Ebonthodian: {
+		Tooltip: 不浄で釣れる
+		DisplayName: エボンソディ
+	}
+
+	Heartang: {
+		DisplayName: ハータン
+		Tooltip: 地下で釣れる
+	}
+
+	BonePole: {
+		DisplayName: ボーンポール
+		Tooltip: 浮きを2つ投げる
+	}
+
+	ChlorophyteFilletKnife: {
+		DisplayName: クロロファイトの魚包丁
+		Tooltip:
+			'''
+			魚を切り分けるのに使う
+			他の包丁より多くの種類の魚を切り分けることができ、さらに入手量も増える
+			'''
+	}
+
+	MoltenFilletKnife: {
+		DisplayName: ヘルストーンの魚包丁
+		Tooltip:
+			'''
+			魚を切り分けるのに使う
+			通常の包丁よりも入手量が増える
+			'''
+	}
+
+	InterstellarCaster: {
+		DisplayName: インターステラキャスター
+		Tooltip:
+			'''
+			浮きを2つ投げる
+			特定のバイオームで鉱石を入手できる
+			'''
+	}
+
+	SporeSnapper: {
+		Tooltip: 地下ジャングルで釣れる
+		DisplayName: スポアスナッパー
+	}
+
+	Gobee: {
+		Tooltip: 蜂蜜で釣れる
+		DisplayName: ゴビー
+	}
+
+	Asterovy: {
+		Tooltip: 隕石で釣れる
+		DisplayName: アステロヴィ
+	}
+
+	Stardustfish: {
+		Tooltip: ルナイベント後の宇宙で釣れる
+		DisplayName: スターダストのヒトデ
+	}
+
+	Solamola: {
+		Tooltip: ルナイベント後の宇宙で釣れる
+		DisplayName: ソーラーモラ
+	}
+
+	Nebulagazer: {
+		Tooltip: ルナイベント後の宇宙で釣れる
+		DisplayName: ネビュラゲイザー
+	}
+
+	LihzahrdFilletKnife: {
+		DisplayName: リザードの魚包丁
+		Tooltip:
+			'''
+			魚を切り分けるのに使う
+			どんな魚も切り分けることができる
+			'''
+	}
+
+	Vortexeye: {
+		DisplayName: ボルテックスアイ
+		Tooltip: ルナイベント後の宇宙で釣れる
+	}
+
+	SeaCarrot: {
+		DisplayName: 海の人参
+		Tooltip: ウミウシを召喚する
+	}
+
+	SantaRay: {
+		Tooltip: 雪原で釣れる
+		DisplayName: サンタレイ
+	}
+
+	AetherianAngler: {
+		Tooltip: エーテルで釣れる
+		DisplayName: エーテリアンアングラー
+	}
+
+	Ectolione: {
+		Tooltip: 墓地で釣れる
+		DisplayName: エクトリオーネ
+	}
+
+	BassStatueItem: {
+		DisplayName: バスの石像
+		Tooltip: ""
+	}
+
+	SeaUrchin: {
+		DisplayName: ウニ
+		Tooltip: 敵を攻撃すると、毒針が折れて毒を与える
+	}
+
+	PreparedUrchin: {
+		DisplayName: 調理したウニ
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			食いついた魚を見抜く 
+			「珍味だと言う人もいる」
+			'''
+	}
+
+	HellstoneSnail: {
+		DisplayName: ヘルストーンスネイル
+		Tooltip: 地下世界で釣れる
+	}
+
+	Marbeel: {
+		DisplayName: マービール
+		Tooltip: 大理石の洞窟で釣れる
+	}
+
+	LavaSharkBanner: {
+		DisplayName: ラーヴァシャークのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ラーヴァシャーク
+	}
+
+	PortableShopBox: {
+		DisplayName: 携帯店の箱
+		Tooltip: 商品を売ってくれる魚の屋台を一時的に召喚する
+	}
+
+	TrainingRod: {
+		DisplayName: 練習用の釣竿
+		Tooltip: 性能は非常に低いが糸は切られない
+	}
+
+	AnglerLantern: {
+		DisplayName: 釣り人のランタン
+		Tooltip: 光を発するアンコウを召喚する
+	}
+
+	BottomlessChumBucket: {
+		DisplayName: 底なしの撒き餌バケツ
+		Tooltip:
+			'''
+			無限に撒き餌が入っている
+			水に投げ入れるとフィッシング・パワーが向上する（3回まで）
+			'''
+	}
+
+	ChlorophyteFishingRod: {
+		DisplayName: クロロファイトの釣竿
+		Tooltip: ""
+	}
+
+	CorruptionLockBox: {
+		DisplayName: 不浄の鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	CrimsonLockBox: {
+		DisplayName: 真紅の鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	DesertLockBox: {
+		DisplayName: 砂漠の鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	FrozenLockBox: {
+		DisplayName: 氷の鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	HallowedLockBox: {
+		DisplayName: 聖域の鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	JungleLockBox: {
+		DisplayName: ジャングルの鍵付き箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	LockBoxMold: {
+		DisplayName: 鍵付き箱の型
+		Tooltip: バイオームの鍵と組み合わせると、レアな武器を入手できる
+	}
+
+	StablizingPotion: {
+		Tooltip: 砂嵐の風を無効化する
+		DisplayName: 安定のポーション
+	}
+
+	Woodskip: {
+		Tooltip: 森林で釣れる
+		DisplayName: ウッドスキップ
+	}
+
+	AncientSquid: {
+		Tooltip: 砂嵐中に釣れる
+		DisplayName: 古代のイカ
+	}
+
+	HeartBobber: {
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光り、粒子を放つ
+			'''
+		DisplayName: 浮き（ライフクリスタル）
+	}
+
+	ManaBobber: {
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光り、粒子を放つ
+			'''
+		DisplayName: 浮き（マナクリスタル）
+	}
+
+	LifeBobber: {
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光り、粒子を放つ
+			'''
+		DisplayName: 浮き（ライフフルーツ）
+	}
+
+	Squid: {
+		DisplayName: イカ
+		Tooltip: 海で釣れる
+	}
+
+	Calamari: {
+		DisplayName: カラマリ
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			箱を釣り上げやすくなる
+			「レモンとの相性は抜群だ」
+			'''
+	}
+
+	BaxterBobber: {
+		DisplayName: 浮き（バクスター）
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光り、私の猫
+			'''
+	}
+
+	GoldfishMirror: {
+		DisplayName: 金魚の鏡
+		Tooltip: 魚を見つめて、現在のスポーンポイントに戻る
+	}
+
+	GoldfishingRod: {
+		DisplayName: 金魚の釣竿
+		Tooltip: 浮きを2つ投げる
+	}
+
+	BudGold: {
+		DisplayName: バド・ゴールド
+		Tooltip:
+			'''
+			近接攻撃能力が増加し、防御力が減少
+			「これは…アルコール度数がかなり高い…」
+			'''
+	}
+
+	HappyNimbus: {
+		DisplayName: ハッピーニンバス
+		Tooltip:
+			'''
+			雨が降っている間、フィッシング・パワーが向上する
+			「彼はついに落ち着いた」
+			'''
+	}
+
+	FleshySpewer: {
+		DisplayName: フレッシースピューアー
+		Tooltip:
+			'''
+			血を無限に吐き出す
+			「一体どこからこんなに大量の血が出てくるんだ？」
+			'''
+	}
+
+	Oarfish: {
+		DisplayName: リュウグウノツカイ
+		Tooltip:
+			'''
+			海底に生息する、めったに見られない伝説の魚
+			「ポケットに収まらないほど大きい！」
+			'''
+	}
+
+	SunRay: {
+		DisplayName: 太陽のエイ
+		Tooltip: 昼間の宇宙で釣れる
+	}
+
+	TrashHook: {
+		DisplayName: ゴミ箱のフック
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上するが、体臭がひどくなる
+			「美は見る人の目にあるが、匂いはそうではない…」
+			'''
+	}
+
+	Searobin: {
+		DisplayName: ホウボウ
+		Tooltip:
+			'''
+			溶岩地帯に稀に現れる伝説の魚
+			「ちっちゃな体ながら、とてつもない熱を放つ」
+			'''
+	}
+
+	RegalMoonsquid: {
+		DisplayName: リーガルムーンスクイッド
+		Tooltip:
+			'''
+			ムーンロードを倒した後の、宇宙で稀に現れる伝説の魚
+			「頭足類の王」
+			'''
+	}
+
+	OarfishTrophyItem: {
+		DisplayName: リュウグウノツカイのトロフィー
+		Tooltip: ""
+	}
+
+	DreadnautilusTrophyItem: {
+		DisplayName: ドレッドノーチラスのトロフィー
+		Tooltip: ""
+	}
+
+	RegalMoonsquidTrophyItem: {
+		DisplayName: リーガルムーンスクイッドのトロフィー
+		Tooltip: ""
+	}
+
+	SearobinTrophyItem: {
+		DisplayName: ホウボウのトロフィー
+		Tooltip: ""
+	}
+
+	MoltenRod: {
+		Tooltip: 溶岩で釣りができる
+		DisplayName: 溶岩の釣竿
+	}
+
+	FishMush: {
+		Tooltip: 「正体不明の量の魚が凝固したもの…気持ち悪い…」
+		DisplayName: 魚のすり身の団子
+	}
+
+	FishFlakes: {
+		Tooltip: ""
+		DisplayName: 魚のフレーク
+	}
+
+	EtherianSeadragon: {
+		DisplayName: エーテリアンのシードラゴン
+		Tooltip: ゴーレムを倒した後のオールドワンズ・アーミー中に釣れる
+	}
+
+	FlaskofBetsy: {
+		DisplayName: ベッツイのフラスコ
+		Tooltip: 近接攻撃にベッツイの呪いの追加効果を付与
+	}
+
+	WaterBombDispenserItem: {
+		Tooltip: 瓶詰めの水を消費して水爆弾を発射する
+		DisplayName: 水爆弾発射機
+	}
+
+	HallowedDredger: {
+		DisplayName: ハロウドドレッジャー
+		Tooltip: 箱を釣り上げやすい
+	}
+
+	ClamBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：二枚貝
+		DisplayName: 二枚貝のバナー
+	}
+
+	ClamShell: {
+		Tooltip: 「殻は非常に硬く、海水のような味がする…。」
+		DisplayName: 二枚貝の殻
+	}
+
+	ShellstoneBrickItem: {
+		DisplayName: シェルストーンのレンガ
+		Tooltip: ""
+	}
+
+	ShellstoneCandleItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンの蝋燭
+	}
+
+	ShellstoneDoorItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのドア
+	}
+
+	ShellstoneChairItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのイス
+	}
+
+	ShellstoneLanternItem: {
+		DisplayName: シェルストーンのランタン
+		Tooltip: ""
+	}
+
+	ShellstoneTableItem: {
+		DisplayName: シェルストーンのテーブル
+		Tooltip: ""
+	}
+
+	ShellstoneWallItem: {
+		DisplayName: シェルストーンの壁
+		Tooltip: ""
+	}
+
+	ShellstoneLampItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのランプ
+	}
+
+	ShellstoneChestItem: {
+		DisplayName: シェルストーンの宝箱
+		Tooltip: ""
+	}
+
+	ShellstoneWorkbenchItem: {
+		DisplayName: シェルストーンの作業台
+		Tooltip: ""
+	}
+
+	ShellstoneSinkItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのシンク
+	}
+
+	ShellstoneCandelabraItem: {
+		DisplayName: シェルストーンの燭台
+		Tooltip: ""
+	}
+
+	ShellstoneClockItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンの時計
+	}
+
+	EnderPearl: {
+		DisplayName: エンダーパール
+		Tooltip:
+			'''
+			「このガラクタは何だ？」
+			「エンダーパールだ！投げた場所にテレポートできるぞ！」
+			「まさか。」
+			「いやああああ！」
+			'''
+	}
+
+	ShellstonePianoItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのピアノ
+	}
+
+	ShellstoneSofaItem: {
+		DisplayName: シェルストーンのソファ
+		Tooltip: ""
+	}
+
+	ShellstoneDresserItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンのドレッサー
+	}
+
+	ShellstoneChandelierItem: {
+		DisplayName: シェルストーンのシャンデリア
+		Tooltip: ""
+	}
+
+	ShellstoneBookcaseItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンの本棚
+	}
+
+	ShellstoneBedItem: {
+		DisplayName: シェルストーンのベッド
+		Tooltip: ""
+	}
+
+	ShellstoneBathtubItem: {
+		Tooltip: ""
+		DisplayName: シェルストーンの浴槽
+	}
+
+	ShellstonePlatformItem: {
+		DisplayName: シェルストーンの足場
+		Tooltip: ""
+	}
+
+	ShellforgeItem: {
+		Tooltip: 特別なクラフトに使う
+		DisplayName: シェルフォージ
+	}
+
+	BottledLava: {
+		Tooltip: 飲んでも構わないが…おそらく飲まない方が良いだろう
+		DisplayName: 瓶詰めの溶岩
+		RestoreLifeText: Mods.WaasephisFishingPlus.Items.BottledLava.RestoreLifeText
+	}
+
+	LavaBombDispenserItem: {
+		Tooltip:
+			'''
+			瓶詰めの溶岩を消費して溶岩爆弾を発射する
+			「自爆する可能性が高い」
+			'''
+		DisplayName: 溶岩爆弾発射機
+	}
+
+	HoneyBombDispenserItem: {
+		Tooltip: 瓶詰めの蜂蜜を消費して蜂蜜爆弾を発射する
+		DisplayName: 蜂蜜爆弾発射機
+	}
+
+	DryBombDispenserItem: {
+		Tooltip: 瓶を消費して乾燥爆弾を発射する
+		DisplayName: 乾燥爆弾発射機
+	}
+
+	PearlPurse: {
+		Tooltip: 射程限界で真珠を放つ
+		DisplayName: 真珠入りの財布
+	}
+
+	PearlMortar: {
+		Tooltip:
+			'''
+			真珠ではなく破裂する泡を発射することがある
+			「持ちやすいとは言えない」
+			'''
+		DisplayName: 真珠の迫撃砲
+	}
+
+	BaitBoxItem: {
+		DisplayName: 餌の箱
+		Tooltip: フィッシング・パワーが向上し、エサを消費しにくくなり、敵の出現率が低下する
+	}
+
+	ClamClapper: {
+		Tooltip: 水に分裂する泡を発射する
+		DisplayName: 二枚貝の打子
+	}
+
+	ClamTotem: {
+		Tooltip: 共に戦う二枚貝を召喚する
+		DisplayName: 二枚貝のトーテム
+	}
+
+	ClamChestplate: {
+		DisplayName: 貝殻の胸当て
+		Tooltip:
+			'''
+			フィッシング・パワーが4向上する
+			ダメージが10%増加
+			クリティカル率が5%上昇
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	ClamGreaves: {
+		DisplayName: 貝殻のすね当て
+		Tooltip:
+			'''
+			フィッシング・パワーが4向上する
+			移動速度が5%低下
+			泳げるようになる
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	ClamHelmet: {
+		DisplayName: 貝殻の兜
+		Tooltip:
+			'''
+			フィッシング・パワーが4向上する
+			最大マナが20増加
+			身につけると弱い光を発する
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	GlassAnomalocaris: {
+		DisplayName: ガラスのアノマロカリス
+		Tooltip: 砂漠の溶岩で釣れる
+	}
+
+	GlassCandelabrolacarisItem: {
+		DisplayName: ガラスの燭台
+		Tooltip:
+			'''
+			「その名前以上にひどいのは、その見た目だ…
+			釣り人にはセンスが全くない…」
+			'''
+	}
+
+	LihzahrdCrateItem: {
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		DisplayName: リザードの箱
+	}
+
+	CryptCoffinItem: {
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		DisplayName: 地下の棺
+	}
+
+	BaxterByThePondItem: {
+		Tooltip: 「ワセフィ」
+		DisplayName: バクスター・バイ・ザ・ポンド
+	}
+
+	AnglersLostPocketWatch: {
+		Tooltip:
+			'''
+			使用すると現在の釣り人のクエストを切り替える
+			「彼もあなたがこれを持っていても気にしないと思う…」
+			'''
+		DisplayName: 釣り人がなくした時計
+	}
+
+	FrigidLoach: {
+		DisplayName: 冷血なドジョウ
+		Tooltip: ハードモードの吹雪中に釣れる
+	}
+
+	GrassyGrouper: {
+		DisplayName: グラスグルーパー
+		Tooltip: 風が強いときに釣れる
+	}
+
+	PotSnailUGItem: {
+		DisplayName: ポットに入ったカタツムリ
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailCorruptionItem: {
+		DisplayName: ポットに入ったカタツムリ（不浄）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailTempleItem: {
+		DisplayName: ポットに入ったカタツムリ（寺院）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailJungleItem: {
+		DisplayName: ポットに入ったカタツムリ（ジャングル）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailIceItem: {
+		DisplayName: ポットに入ったカタツムリ（氷）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailHellItem: {
+		DisplayName: ポットに入ったカタツムリ（地下世界）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailDungeonItem: {
+		DisplayName: ポットに入ったカタツムリ（ダンジョン）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	PotSnailDesertItem: {
+		DisplayName: ポットに入ったカタツムリ（砂漠）
+		Tooltip:
+			'''
+			ポットを地面に投げつけて、何が出るか見てみよう！
+			「なんて失礼な…」
+			'''
+	}
+
+	RedGelatin: {
+		DisplayName: 赤のゼリー
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			ライフ自然回復を僅かに増進
+			「チェリーのような味がする」
+			'''
+	}
+
+	PurpleGelatin: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			ダメージが少し増加
+			「ブドウのような味がする」
+			'''
+		DisplayName: 紫のゼリー
+	}
+
+	GreenGelatin: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			移動速度が少し上昇
+			「ライムのような味がする」
+			'''
+		DisplayName: 緑のゼリー
+	}
+
+	BlueGelatin: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			防御力が少し増加
+			「ブルーベリーのような味がする」
+			'''
+		DisplayName: 青のゼリー
+	}
+
+	YellowGelatin: {
+		DisplayName: 黄のゼリー
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			弱い光を発する
+			「レモンの味がする」
+			'''
+	}
+
+	TheSludge: {
+		Tooltip: "[c/000000:すみません？！ それは私の ][c/ff0000:スラッジ][c/000000:！！！]"
+		DisplayName: スラッジ
+	}
+
+	BaxterBeanItem: {
+		DisplayName: バクスタービーン
+		Tooltip: 配置可能なバクスター、バクスターは好きですか？
+	}
+
+	TrueCatFish: {
+		Tooltip: 「なんて素晴らしい生き物だ！」
+		DisplayName: 真のキャットフィッシュ
+	}
+
+}
+
+NPCs: {
+
+	BassCritter.DisplayName: バス
+	FlounderCritter.DisplayName: ヒラメ
+	AtlanticCodCritter.DisplayName: 大西洋タラ
+	ShrimpCritter.DisplayName: エビ
+	LavaShark.DisplayName: ラーヴァシャーク
+	PortableShop.DisplayName: 携帯店
+	BombfishCritter.DisplayName: 爆弾魚
+	NeonTetraCritter.DisplayName: ネオンテトラ
+	EbonkoiCritter.DisplayName: 漆黒コイ
+	CrimsonTigerfishCritter.DisplayName: 紅虎魚
+	PrismiteCritter.DisplayName: 七色魚
+	SpecularFishCritter.DisplayName: 鏡面魚
+	DamselFishCritter.DisplayName: スズメダイ
+	Clam.DisplayName: 二枚貝
+	ClamPearl.DisplayName: 二枚貝
+	ClamEnderPearl.DisplayName: エンダークラム
+	PotSnailUG.DisplayName: ポットのカタツムリ
+	PotSnailCrimson.DisplayName: ポットのカタツムリ？
+	PotSnailCorruption.DisplayName: ポットのカタツムリ
+	PotSnailTemple.DisplayName: ポットのカタツムリ
+	PotSnailJungle.DisplayName: ポットのカタツムリ
+	PotSnailIce.DisplayName: ポットのカタツムリ
+	PotSnailHell.DisplayName: ポットのカタツムリ
+	PotSnailDungeon.DisplayName: ポットのカタツムリ
+	PotSnailDesert.DisplayName: ポットのカタツムリ
+
+}
+
+Projectiles: {
+
+	CrystalBobber.DisplayName: クリスタルキャッチャーの浮き
+	PrismBobber.DisplayName: プリズマリンの浮き
+	RegalBobber.DisplayName: リーガルセプターの浮き
+	BoneBobber.DisplayName: ボーンポールの浮き
+	InterstellarBobber.DisplayName: インターステラキャスターの浮き
+	SeaSlug.DisplayName: ウミウシ
+	SeaUrchinProj.DisplayName: ウニ
+	UrchinSpike.DisplayName: ウニの毒針
+	TrainingBobber.DisplayName: 練習用の釣竿の浮き
+	AnglerFishPet.DisplayName: アンコウ
+	ChlorophyteBobber.DisplayName: クロロファイトの釣竿の浮き
+	HeartBobberProjectile.DisplayName: 浮き（ライフクリスタル）
+	ManaBobberProjectile.DisplayName: 浮き（マナクリスタル）
+	LifeBobberProjectile.DisplayName: 浮き（ライフフルーツ）
+	BaxterBobberProjectile.DisplayName: 浮き（バクスター）
+	GoldfishBobber.DisplayName: 金魚の釣竿の浮き
+	HallowedBobber.DisplayName: ハロウドドレッジャーの浮き
+	EnderPearlProjectile.DisplayName: エンダーパール
+	WhitePearlProj.DisplayName: 真珠
+	PearlPurseProj.DisplayName: 真珠入りの財布
+	WaterShotProj.DisplayName: 水
+	ClamBubbleProj.DisplayName: 二枚貝の泡
+	ClamClapperProj.DisplayName: 二枚貝の打子
+	ClamMinionProj.DisplayName: 二枚貝のミニオン
+	PotSnailUGPot.DisplayName: ポットに入ったカタツムリ
+	PotSnailCorruptionPot.DisplayName: ポットに入ったカタツムリ（不浄）
+	PotSnailDesertPot.DisplayName: ポットに入ったカタツムリ（砂漠）
+	PotSnailDungeonPot.DisplayName: ポットに入ったカタツムリ（ダンジョン）
+	PotSnailHellPot.DisplayName: ポットに入ったカタツムリ（地下世界）
+	PotSnailIcePot.DisplayName: ポットに入ったカタツムリ（氷）
+	PotSnailJunglePot.DisplayName: ポットに入ったカタツムリ（ジャングル）
+	PotSnailTemplePot.DisplayName: ポットに入ったカタツムリ（寺院）
+
+}
+
+Tiles: {
+
+	ShellstoneDresser: {
+		ContainerName: シェルストーンのドレッサー
+		MapEntry: ドレッサー
+	}
+
+	ShellstoneChest.MapEntry: シェルストーンの宝箱
+	ShellstoneCandelabra.MapEntry: シェルストーンの燭台
+	ShellstoneCandle.MapEntry: シェルストーンの蝋燭
+	ShellstoneChair.MapEntry: シェルストーンのイス
+	ShellstoneClock.MapEntry: シェルストーンの時計
+	ShellstoneDoorClosed.MapEntry: 閉じたシェルストーンのドア
+	ShellstoneDoorOpen.MapEntry: 開いたシェルストーンのドア
+	ShellstoneLamp.MapEntry: シェルストーンのランプ
+	ShellstoneLantern.MapEntry: シェルストーンのランタン
+	ShellstonePiano.MapEntry: シェルストーンのピアノ
+	ShellstoneSink.MapEntry: シェルストーンのシンク
+	ShellstoneSofa.MapEntry: シェルストーンのソファ
+	ShellstoneTable.MapEntry: シェルストーンのテーブル
+	ShellstoneWorkbench.MapEntry: シェルストーンの作業台
+	FilletingTable.MapEntry: 魚の捌き台
+	WaterBombDispenser.MapEntry: 水爆弾発射機
+	Shellforge.MapEntry: シェルフォージ
+	LavaBombDispenser.MapEntry: 溶岩爆弾発射機
+	HoneyBombDispenser.MapEntry: 蜂蜜爆弾発射機
+	DryBombDispenser.MapEntry: 乾燥爆弾発射機
+	BaitBox.MapEntry: 餌の箱
+	GlassCandelabrolacaris.MapEntry: ガラスの燭台
+	BaxterBean.MapEntry: バクスタービーン
+
+}

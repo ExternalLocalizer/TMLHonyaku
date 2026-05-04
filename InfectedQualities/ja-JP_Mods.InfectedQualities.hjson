@@ -1,0 +1,193 @@
+Items: {
+	DivinePowder: {
+		DisplayName: 聖なる粉
+		Tooltip: 聖域の地を広める
+	}
+
+	KeyOfNaught: {
+		DisplayName: 無の鍵
+		Tooltip:
+			'''
+			{$ItemTooltip.NightKey}
+			別の邪悪のミミックを召喚する
+			'''
+	}
+
+	Placables: {
+		CorruptSnowBlock.DisplayName: 雪のブロック（不浄）
+		CrimsonSnowBlock.DisplayName: 雪のブロック（真紅）
+		HallowedSnowBlock.DisplayName: 雪のブロック（聖域）
+
+		PylonOfNightBlock: {
+			DisplayName: 闇のパイロン
+			Tooltip:
+				'''
+				別のパイロンにテレポートできる。住民は必要ない
+				邪悪なバイオーム内でのみ機能する
+				1種に付き1つだけ、適したバイオームに設置することができる
+				'''
+		}
+
+		CorruptSapphireGemstoneBlock.DisplayName: "{$ItemName.Sapphire}のブロック（不浄）"
+		CorruptRubyGemstoneBlock.DisplayName: "{$ItemName.Ruby}のブロック（不浄）"
+		CorruptEmeraldGemstoneBlock.DisplayName: "{$ItemName.Emerald}のブロック（不浄）"
+		CorruptTopazGemstoneBlock.DisplayName: "{$ItemName.Topaz}のブロック（不浄）"
+		CorruptAmethystGemstoneBlock.DisplayName: "{$ItemName.Amethyst}のブロック（不浄）"
+		CorruptDiamondGemstoneBlock.DisplayName: "{$ItemName.Diamond}のブロック（不浄）"
+		CorruptAmberGemstoneBlock.DisplayName: "{$ItemName.Amber}のブロック（真紅）"
+		CrimsonSapphireGemstoneBlock.DisplayName: "{$ItemName.Sapphire}のブロック（真紅）"
+		CrimsonRubyGemstoneBlock.DisplayName: "{$ItemName.Ruby}のブロック（真紅）"
+		CrimsonEmeraldGemstoneBlock.DisplayName: "{$ItemName.Emerald}のブロック（真紅）"
+		CrimsonTopazGemstoneBlock.DisplayName: "{$ItemName.Topaz}のブロック（真紅）"
+		CrimsonAmethystGemstoneBlock.DisplayName: "{$ItemName.Amethyst}のブロック（真紅）"
+		CrimsonDiamondGemstoneBlock.DisplayName: "{$ItemName.Diamond}のブロック（真紅）"
+		CrimsonAmberGemstoneBlock.DisplayName: "{$ItemName.Amber}のブロック（真紅）"
+		HallowedSapphireGemstoneBlock.DisplayName: "{$ItemName.Sapphire}のブロック（聖域）"
+		HallowedRubyGemstoneBlock.DisplayName: "{$ItemName.Ruby}のブロック（聖域）"
+		HallowedEmeraldGemstoneBlock.DisplayName: "{$ItemName.Emerald}のブロック（聖域）"
+		HallowedTopazGemstoneBlock.DisplayName: "{$ItemName.Topaz}のブロック（聖域）"
+		HallowedAmethystGemstoneBlock.DisplayName: "{$ItemName.Amethyst}のブロック（聖域）"
+		HallowedDiamondGemstoneBlock.DisplayName: "{$ItemName.Diamond}のブロック（聖域）"
+		HallowedAmberGemstoneBlock.DisplayName: "{$ItemName.Amber}のブロック（聖域）"
+	}
+}
+
+Biomes: {
+	HallowedJungle: {
+		DisplayName: 神聖なジャングル
+		TownNPCDialogueName: 神聖なジャングル
+	}
+}
+
+Config: {
+	Title: {
+		Main: {
+			Client: クライアント設定
+			Server: サーバー設定
+		}
+
+		Content: コンテンツ設定
+		Experimental: 実験設定
+		Visual: 表示設定
+		Audio: BGM設定
+	}
+
+	InfectedBiomes: {
+		Label: 侵食されたバイオーム
+		Tooltip:
+			'''
+			侵食されたバイオームに新たなコンテンツを追加します。これがこのModの核となる部分です
+			聖なるジャングルバイオーム、侵食されたプランテラのつぼみとライフフルーツ、そして侵食された雪ブロックを追加します
+			このModを有効にすると、プランテラが出現する前の侵食されたブロックにおけるクロロファイトの効果が無効になります
+			'''
+	}
+
+	InfectedMosses: {
+		Label: 侵食された苔
+		Tooltip:
+			'''
+			不浄、真紅、聖域が苔ブロックを破壊しなくなり、
+			代わりにその石を対応する石に変換するようになります
+			テクスチャパックとの互換性は部分的にありますが、
+			光らない苔のテクスチャは若干不正確な場合があります
+			ただし、テクスチャパックに準拠するはずです
+			'''
+	}
+
+	InfectedGemstones: {
+		Label: 侵食された宝石
+		Tooltip:
+			'''
+			石ブロックに埋め込まれた宝石が、侵食されたものへと変換できるようになります
+			テクスチャパックとの互換性は部分的にあり、宝石部分は変更されませんが、
+			ブロックの石の部分は変更されます
+			'''
+	}
+
+	PylonOfNight: {
+		Label: 闇のパイロン
+		Tooltip: 闇のパイロンを有効にし、プレイヤーが邪悪なバイオームにテレポートできるようなります
+	}
+
+	KeyOfNaught: {
+		Label: 無の鍵
+		Tooltip:
+			'''
+			無の鍵を有効にし、選択しなかった方の邪悪なミミックを出現させれるようになります
+			この鍵は闇の鍵と同じレシピですが、墓地で作成できます
+			'''
+	}
+
+	DivinePowder: {
+		Label: 聖なる粉
+		Tooltip:
+			'''
+			聖なる粉を有効にします。聖なる粉は粉系アイテムと同じく、聖域を拡大させます
+			浄化の粉の挙動は変化せず、聖域を元に戻すことできません
+			'''
+	}
+
+	HardmodeChasmPurification: {
+		Label: ハードモードになると裂け目を浄化する
+		Tooltip:
+			'''
+			ハードモードが始まると不浄と真紅の裂け目を浄化します
+			これはV示の感染が生成される前に行われます
+			Remnants modが有効になっている場合は何も起こりません
+			'''
+	}
+
+	DisableInfectionSpread: {
+		Label: 侵食を拡大させない
+		Tooltip:
+			'''
+			名称の通り、拡大するバイオームが拡大しなくなります
+			ゴーディングが正しいなら、ほとんどのModと互換性があるはずです
+			'''
+	}
+
+	AllowNPCsInEvilBiomes: {
+		Label: 邪悪なバイオームにタウンNPCが住める
+		Tooltip: 邪悪なバイオームにタウンNPCが住めるようになります。幸福度は最低になりますが、家がなくなるよりはましです
+	}
+
+	AltarEvilSpawning: {
+		Label: 祭壇が侵食されたブロックを生成する
+		Tooltip:
+			'''
+			祭壇を破壊するたびに侵食されたブロックが出現することがある、悪名高い機能を復活させます
+			苦痛を味わいたいならオンにしてください
+			'''
+	}
+
+	InfectedPlantera: {
+		Label: 侵食されたプランテラのテクスチャ
+		Tooltip:
+			'''
+			プランテラは、不浄、真紅、聖域で召喚されるとテクスチャが変化します
+			ボスのテクスチャを変更する他のModと互換性がない場合があります
+			そのような問題が発生した場合は、このModを無効にしてください
+			プランテラのつぼみには、独自の侵食テクスチャが引き続き適用されます
+			注：これは、一度に1つのプランテラのみを対象としています
+			'''
+	}
+
+	BiomeSightWallHighlightBrightness: {
+		Label: バイオームサイトの壁の明るさ
+		Tooltip:
+			'''
+			バイオームサイトポーションは侵食された壁を特定の明るさで強調表示します。他のModとの互換性があります
+			オフにするには0に設定してください
+			'''
+	}
+
+	HallowedJungleMusic: {
+		Label: 神聖なジャングルのBGM
+		Tooltip: 神聖なジャングルでは聖域のBGMが再生されます。BGMを変更する他のModとは互換性がない場合があります
+	}
+}
+
+Misc: {
+	ChasmPurifyMessage: 裂け目が浄化されました！
+	Pylon: パイロン
+}

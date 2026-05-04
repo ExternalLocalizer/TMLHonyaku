@@ -1,13 +1,8 @@
 MoonEclipse: 月食が発生中！
-
 Analysis: 分析
-
 AnalysisNext: 次のページ
-
-AnalysisPage: (ページ番号 {0})
-
+AnalysisPage: ページ番号 {0})
 AnalysisDone: やあ、{0}、{1}についてデータ解析したんだ。チェックして！
-
 BiomeOrOreModSecret: 誰にも言えない秘密だよ
 
 CLI: {
@@ -39,16 +34,11 @@ TownNPCMood: {
 }
 
 BlessBase: "{0}の祝福を受けた！"
-
-WorldBreak: この世界のバイオームが1つ削除されました。これにより重大な問題が起こる可能性があります！
-
+WorldBreak: このワールドのバイオームが1つ削除されました。これにより重大な問題が起こる可能性があります！
 AddedBy: 追加：
-
 ChooseBiome: クリックしてバイオームを選択
-
 ChooseOre: クリックして鉱石を選択
-
-ChooseHardmodeOre: ハードモード鉱
+ChooseHardmodeOre: ハードモードの鉱石
 
 Config: {
 	Randomization: ランダム設定
@@ -69,8 +59,8 @@ Config: {
 	}
 
 	SpecialSeedWorldPreview: {
-		Label: 特別シードのプレビュー
-		Tooltip: オンにすると、秘密のシードに基づいて世界のプレビュー画像が変わります
+		Label: 特別なシードのプレビュー
+		Tooltip: オンにすると、秘密のシードに基づいてワールドのプレビュー画像が変わります
 	}
 
 	VanillaShowUpIfOnlyAltVarExist: {
@@ -79,28 +69,27 @@ Config: {
 	}
 
 	HardmodeGenRandom: {
-		Label: 『Drunk』ワールドにおけるハードモード生成時のランダムバイオーム
-		Tooltip: オンにすると、聖域がランダムなジャングル代替バイオームに、悪がランダムな地下世界代替バイオームに置き換わる可能性があります
+		Label: 「Drunk」ワールドにおけるハードモード生成時のランダムバイオーム
+		Tooltip: オンにすると、聖域がランダムなジャングル代替バイオームに、邪悪がランダムな地下世界代替バイオームに置き換わる可能性があります
 	}
 
 	SecretFeatures: {
-		Label: 秘密シード
+		Label: 秘密のシード
 		Tooltip: オフにすると、隠し機能は一切表示されず、読み込まれません
 	}
 }
 
 OreHelpTextBase: 地獄のかまどと{0}鉱石を組み合わせてみな！きっとすごいものを作れるよ！
-
 HallowBunnyCageTooltip: 「絶対に後悔させてやる！」
 
 AltOreName: {
-	RandomCopper: ランダム銅ランク
-	RandomIron: ランダム鉄ランク
-	RandomSilver: ランダム銀ランク
-	RandomGold: ランダム金ランク
-	RandomCobalt: ランダムコバルトランク
-	RandomMythril: ランダムミスリルランク
-	RandomAdamantite: ランダムアダマンタイトランク
+	RandomCopper: ランダムな銅ランク
+	RandomIron: ランダムな鉄ランク
+	RandomSilver: ランダムな銀ランク
+	RandomGold: ランダムな金ランク
+	RandomCobalt: ランダムなコバルトランク
+	RandomMythril: ランダムなミスリルランク
+	RandomAdamantite: ランダムなアダマンタイトランク
 	Copper: 銅
 	Tin: 鈴
 	Iron: 鉄
@@ -118,13 +107,13 @@ AltOreName: {
 }
 
 AltOreDescription: {
-	RandomCopper: 銅ランクの鉱石をランダムに選択！
-	RandomIron: 鉄ランクの鉱石をランダムに選択！
-	RandomSilver: 銀ランクの鉱石をランダムに選択！
-	RandomGold: 金ランクの鉱石をランダムに選択！
-	RandomCobalt: コバルトランクの鉱石をランダムに選択！
-	RandomMythril: ミスリルランクの鉱石をランダムに選択！
-	RandomAdamantite: アダマンタイトランクの鉱石をランダムに選択！
+	RandomCopper: 銅ランクの鉱石をランダムに選択します！
+	RandomIron: 鉄ランクの鉱石をランダムに選択します！
+	RandomSilver: 銀ランクの鉱石をランダムに選択します！
+	RandomGold: 金ランクの鉱石をランダムに選択します！
+	RandomCobalt: コバルトランクの鉱石をランダムに選択します！
+	RandomMythril: ミスリルランクの鉱石をランダムに選択します！
+	RandomAdamantite: アダマンタイトランクの鉱石をランダムに選択します！
 }
 
 AltBiomeName: {
@@ -140,10 +129,10 @@ AltBiomeName: {
 }
 
 AltBiomeDescription: {
-	RandomEvilBiome: 邪悪なバイオームをランダムに選択！
-	RandomHallowBiome: 神聖なバイオームをランダムに選択！
-	RandomJungleBiome: 熱帯バイオームをランダムに選択！
-	RandomUnderworldBiome: 地下世界バイオームをランダムに選択！
+	RandomEvilBiome: 邪悪なバイオームをランダムに選択します！
+	RandomHallowBiome: 神聖なバイオームをランダムに選択します！
+	RandomJungleBiome: 熱帯バイオームをランダムに選択します！
+	RandomUnderworldBiome: 地下世界バイオームをランダムに選択します！
 	CorruptBiome: 腐敗した敵が棲む紫のバイオーム。腐った敵達が、命がけでこの地を守るだろう。
 	CrimsonBiome: 深紅のバイオーム。血に染まった大地が生んだ化け物達が、命がけでこの地を守るだろう。
 	HallowBiome: 聖域のバイオーム。希望と夢にあふれ、ユニコーンや妖精が住んでいる。
@@ -152,10 +141,10 @@ AltBiomeDescription: {
 }
 
 Warn: {
-	VanillaBiome: このバイオームは『Terraria』由来です
-	ModdedBiome: このバイオームは『{0}』由来です
-	VanillaOre: この鉱石は『Terraria』由来です
-	ModdedOre: この鉱石は『{0}』由来です
+	VanillaBiome: このバイオームは「Terraria」由来です
+	ModdedBiome: このバイオームは「{0}」由来です
+	VanillaOre: この鉱石は「Terraria」由来です
+	ModdedOre: この鉱石は「{0}」由来です
 }
 
 RecipeGroups: {
@@ -177,7 +166,7 @@ RecipeGroups: {
 	UnicornHorns: ユニコーンの角
 	CrystalShards: クリスタルの欠片
 	CursedFlames: 呪われし炎
-	ShadowScales: 邪悪なボスドロップ
+	ShadowScales: 邪悪なボスのドロップ
 	JungleSpores: ジャングルの胞子
 	Deathweed: デスウィード
 	Fireblossom: ファイアブロッサム
@@ -223,7 +212,7 @@ Condition: {
 Common: {
 	DevTooltip: Mod制作者になりきるのに最適！
 	FormerDevTooltip: Alternatives Libraryの元開発者になりきるのに最適！
-	FoxTooltip: Great for impersonating Katastrophenmacheren!
+	FoxTooltip: カタストロフェン・マヘレンに成りすますのに最適!
 }
 
 BunReason: {
@@ -312,7 +301,7 @@ Configs: {
 		}
 
 		HardmodeGenRandom: {
-			Label: 『Drunk』ワールドのハードモード生成でランダムバイオーム
+			Label: 「Drunk」ワールドのハードモード生成でランダムバイオーム
 			Tooltip: オンにすると、聖域がランダムなジャングル代替バイオームに、悪がランダムな地下世界代替バイオームに置き換わる可能性があります
 		}
 	}
@@ -322,7 +311,7 @@ AltBiomes: {
 	CrimsonBiome: {
 		DisplayName: 真紅
 		Description: 異様でグロテスクな「真紅」があなたのワールドにもたらされる。
-		GenPassName: 真紅バイーム
+		GenPassName: 真紅バイオーム
 	}
 
 	CorruptBiome: {
@@ -425,12 +414,33 @@ AltBiomes: {
 		GenPassName: デバッグ無バイオーム2
 		DryadTextDescriptor: デバッグ無バイオーム2
 	}
+
+	DebugHallowAltBiome: {
+		DisplayName: デバッグ聖域代替バイオーム
+		Description: デバッグ聖域代替バイオーム
+		GenPassName: デバッグ聖域代替バイオーム
+		DryadTextDescriptor: デバッグ聖域代替バイオーム
+	}
+
+	DebugHellAltBiome: {
+		DisplayName: デバッグ地獄代替バイオーム
+		Description: デバッグ地獄代替バイオーム
+		GenPassName: デバッグ地獄代替バイオーム
+		DryadTextDescriptor: デバッグ地獄代替バイオーム
+	}
+
+	DebugJungleAltBiome: {
+		DisplayName: デバッグジャングル代替バイオーム
+		Description: デバッグジャングル代替バイオーム
+		GenPassName: デバッグジャングル代替バイオーム
+		DryadTextDescriptor: デバッグジャングル代替バイオーム
+	}
 }
 
 AltOres: {
 	RandomOptionOre: {
 		DisplayName: ランダム {0}
-		Description: "{0}をランダムに選択！"
+		Description: "{0}をランダムに選択します！"
 	}
 
 	AdamantiteAltOre: {
@@ -540,3 +550,4 @@ AltOreSlot: {
 	}
 }
 
+Conditions.DownedBoss2: ハードモード前の邪悪なボスを倒した後

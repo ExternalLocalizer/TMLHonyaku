@@ -1,0 +1,289 @@
+Tooltips: {
+	Breakable: ワールドに生成されるのを破壊する
+	Craftable: から作成する
+	Shimmered: をシマーに投げ入れる
+	Decrafted: をシマーでデクラフトする
+	Grabbed: に入っている
+	FoundInChests: 宝箱に入っている
+	FromExtractinator: 抽出機から
+	FromBothExtractinator: 2種の抽出機から
+	Purchasable: から買う
+	Droppable: がドロップする
+	Catchable: を捕まえる
+	ObtainableAsBanner: を一定回数倒す
+	FishingCatch: 釣りで入手
+	ObtainedByBreaking: ワールドに生成される{0} を破壊して入手
+	CraftedWith: "{0} から作成する"
+	ShimmeredFrom: "{0} をシマーに投げ入れる"
+	DecraftedFrom: "{0} をシマーでデクラフトする"
+	GrabbedFrom: "{0} に入っている"
+	FoundIn: 以下の宝箱 {0} に入っている
+	ExtractedFrom: "{0} を抽出機[i:997] に入れる"
+	ChlorophyteExtractedFrom: "{0} を抽出機[i:5296] に入れる"
+	BothExtractedFrom: "{0} を抽出機[i:997] 、[i:5296] に入れる"
+	SoldBy: "{0}から買う"
+	DroppedBy: "{0}がドロップする"
+	ObtainedAfterKilling: "{0}を倒した後の{1}がドロップする"
+	CatchedFrom: "{0}をキャッチする"
+	# {0} = Rarity, {1} = Environment
+	FishingCatchDetails: "{1}で釣りを行うと{0} 確率で入手"
+	# Hint text
+	PressShiftHint: <Shiftで詳細を表示する>
+	PressShiftHintNum: <Shiftで{0}行のツールチップを表示する>
+	More: ... (他に{0})
+	AnyNPC: いずれかのNPCから
+	WhenPlayerHave: プレイヤーが{0} を持っている
+	UnknownChest: 不明な宝箱に入っている
+	MusicBoxFormat: "[i:576] を使って{0} を録音して入手"
+	// Quests & NPCs
+	AnglerQuest: 釣り人のクエストをクリアする
+	DyeTraderQuest: 染料職人のクエストをクリアする
+	PartyGirlGiven: パーティガールからもらう
+	// Shaking Trees
+	ShakingAnyTree: いずれかの木を揺らすと入手
+	ShakingForestTree: 森林の木を揺らすと入手
+	ShakingMahoganyTree: マホガニーを揺らすと入手
+	ShakingEbonwoodTree: エボンウッドを揺らすと入手
+	ShakingShadewoodTree: シェイドウッドを揺らすと入手
+	ShakingPearlwoodTree: パールウッドを揺らすと入手
+	ShakingPalmTree: パームウッドを揺らすと入手
+	ShakingBorealTree: ボーリアルウッドを揺らすと入手
+	ShakingAshTree: アッシュウッドを揺らすと入手
+	ShakingGlowingMushroom: 巨大な光るキノコを揺らすと入手
+	// Breaking Objects
+	BreakingPots: ポットを破壊して入手
+	BreakingShadowOrb: シャドウオーブを破壊して入手
+	BreakingCrimsonHeart: クリムゾンハートを破壊して入手
+	SlimeDrops: 特定のスライムから入手
+	AbigailsFlower: 墓石の近くの草むらから入手
+	MechCart: "[i:5289] を使うと入手"
+	TorchGodsFavor: たいまつの神のイベントをクリアすると入手
+	GardenGnome: ノームを日光に当てると入手
+	CookedMarshmallow: キャンプファイアでマシュマロを焼くと入手
+	MagicalPumpkinSeed: カボチャを破壊すると入手
+	PlayerDeath: プレイヤーが死亡するとドロップする
+	StartingItem: 初期アイテムとして所持している
+	JourneyStartingItem: ジャーニーモードのキャラの初期アイテムとして所持
+	DroppedInBiomeHardmode: ハードモードの{0}内で倒した敵がドロップする
+	DroppedInBiome: "{0}内で倒した敵がドロップする"
+	DroppedDuringEvent: "{0}のイベント中の敵がドロップする"
+	DroppedByKilledBy: "{0}が{1}を倒すとドロップする"
+	CascadeDrop: スケルトロンを倒した後の地下世界の敵がドロップする
+	YeletsDrop: いずれかのメカボスを倒した後のジャングルの敵がドロップする
+	KrakenDrop: プランテラを倒した後のダンジョンの敵がドロップする
+	ExhumedFrom: "{0}を採掘すると入手"
+
+	Fishing: {
+		Suffix: {
+			Hardmode: " (ハードモード)"
+			PostWoS: " (ウォールオブシャドウ以降)"
+			PostSupreme: " (至高のボス以降)"
+			PostDesertScourge: " (デザートスカージ以降)"
+			PostLeviathan: " (リヴァイアサンとアナヒタ以降)"
+			PostProvidence: " (プロヴィデンス以降)"
+		}
+
+		Rarities: {
+			Plentiful: とても容易
+			Common: 容易
+			Uncommon: 普通
+			Rare: 珍しい
+			VeryRare: とても珍しい
+			ExtremelyRare: 非常に珍しい
+			Junk: ジャンク
+			Quest: クエスト
+		}
+
+		Environments: {
+			Any: いずれかのバイオーム
+			AnyLowPower: いずれかのバイオーム
+			Forest:森林
+			Honey: 蜂蜜
+			Lava: 溶岩
+			LargeLakes: 大きな湖
+			GlowingMushroom: 光るキノコ
+			SunkenSea: 沈没海
+			AstralInfection: アストラル感染
+			SulphurousSea: 硫黄の海
+			BrimstoneCrags: 煉獄の岩山
+			Pyramid: ピラミッド
+			PlanetariumFishing: (専用の釣竿か餌を使う)
+		}
+	}
+}
+
+Configs: {
+	TooltipConfig: {
+		ShowMode: {
+			Label: 表示モード
+			Tooltip: ""
+			Always.Label: 常に
+			Never.Label: 非表示
+			OnShift.Label: Shiftで
+		}
+
+		TooltipColor: {
+			Label: ツールチップの色
+			Tooltip: ""
+		}
+
+		# Headers for each setting
+		Crafting: {
+			Label: クラフト
+			Tooltip: ""
+		}
+
+		Shops: {
+			Label: 購入
+			Tooltip: ""
+		}
+
+		Drops: {
+			Label: NPCのドロップ
+			Tooltip: ""
+		}
+
+		Catching: {
+			Label: 生きものを捕獲
+			Tooltip: ""
+		}
+
+		Shimmering: {
+			Label: シマーの変換
+			Tooltip: ""
+		}
+
+		Decrafting: {
+			Label: デクラフト
+			Tooltip: ""
+		}
+
+		GrabBags: {
+			Label: バッグ類
+			Tooltip: ""
+		}
+
+		Chests: {
+			Label: 宝箱
+			Tooltip: ""
+		}
+
+		Fishing: {
+			Label: 釣り
+			Tooltip: ""
+		}
+
+		Extractinator: {
+			Label: 抽出機
+			Tooltip: ""
+		}
+
+		ChlorophyteExtractinator: {
+			Label: クロロファイトの抽出機
+			Tooltip: ""
+		}
+
+		TooltipSettings: {
+			Enabled.Label: 友好
+
+			MaxCount: {
+				Label: 表示するアイテム/NPCの最大数
+				Tooltip: 0に設定するとこの方法でのみ入手できるなら表示されます（例：から作成する）
+			}
+		}
+
+		DisplayName: ツールチップ設定
+
+		Customized: {
+			Label: カスタマイズ
+			Tooltip: ""
+		}
+
+		ItemShowMode: {
+			Label: アイテムの表示モード
+			Tooltip: ""
+		}
+
+		ShowShopCondition: {
+			Label: ショップの表示
+			Tooltip: ""
+		}
+
+		MaxTooltipLength: {
+			Label: 行の長さ
+			Tooltip: ""
+		}
+
+		BreakableTiles: {
+			Label: 破壊できるブロック
+			Tooltip: ""
+		}
+
+		Banners: {
+			Label: バナー
+			Tooltip: ""
+		}
+
+		HideDuplicateItems: {
+			Label: 重複するアイテムを非表示
+			Tooltip: ""
+		}
+
+		AutomaticallyFoldRows: {
+			Label: 行を自動的に折りたたむ
+			Tooltip: ""
+		}
+	}
+
+	TooltipShowMode: {
+		Tooltip: ""
+
+		Never: {
+			Label: 非表示
+			Tooltip: ""
+		}
+
+		OnShift: {
+			Label: Shiftで
+			Tooltip: ""
+		}
+
+		Always: {
+			Label: 常に
+			Tooltip: ""
+		}
+	}
+
+	TooltipSettings: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: 有効
+			Tooltip: ""
+		}
+
+		MaxCount: {
+			Label: 最大カウント
+			Tooltip: ""
+		}
+	}
+
+	ItemShowMode: {
+		Tooltip: ""
+
+		Icon: {
+			Label: アイコン
+			Tooltip: ""
+		}
+
+		Name: {
+			Label: 名称
+			Tooltip: ""
+		}
+
+		IconAndName: {
+			Label: アイコンと名称
+			Tooltip: ""
+		}
+	}
+}
