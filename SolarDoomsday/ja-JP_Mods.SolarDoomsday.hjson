@@ -63,6 +63,8 @@ Buffs: {
 	}
 }
 
+ObsidianSkinSolar: 太陽光関連のデバフを無効化する
+ObsidianSkinSolarBuff: 太陽光関連のデバフ効果を無効化
 StagnationWatchPrefix: "{0}日、"
 
 Items: {
@@ -188,7 +190,10 @@ Projectiles: {
 	CombustibleLemonCeleb2.DisplayName: 可燃性レモンセレブレーション2
 }
 
-DropConditions.WorldNotSavedCondition: 太陽の黙示録がまだ続いているならドロップする
+DropConditions: {
+	WorldNotSavedCondition: 太陽の黙示録がまだ続いているならドロップする
+	IsConfigNPCCondition: コズミックサンブロックをドロップするよう設定したNPCがドロップする
+}
 
 Conditions: {
 	WhileApocalypseInactive: 太陽の黙示録中でないとき
@@ -221,6 +226,17 @@ Configs: {
 				'''
 				オンにすると、雨が降っている間は黙示録の悪影響が全てなくなります
 				しかし、ワールドは次第に雨が降らなくなっていきます！
+				'''
+		}
+
+		sunblockDropper: {
+			Label: サンブロックをドロップするNPCを変更する
+			Tooltip:
+				'''
+				デフォルトでは、ムーンロードがコズミックサンブロックをドロップします
+				これを「なし」以外にすると、別のNPCがドロップするように変更できます
+				この設定をアンロードされたModのNPCに指定していた場合、
+				デフォルトに戻ります
 				'''
 		}
 	}
