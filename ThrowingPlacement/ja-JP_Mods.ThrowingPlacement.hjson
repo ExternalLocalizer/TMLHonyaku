@@ -1,0 +1,37 @@
+Projectiles: {
+	ThrownTile: {
+		DisplayName: 投擲（タイル）
+	}
+
+	ThrownWall: {
+		DisplayName: 投擲（壁）
+	}
+}
+
+Items: {
+	CommonTooltips: {
+		CanBeThrown: 投擲可能
+	}
+}
+
+Configs: {
+	ThrowingPlacementConfig: {
+		throwSpeed: {
+			Tooltip: ""
+		}
+
+		throwingWall: {
+			Tooltip: ""
+		}
+
+		throwingTile: {
+			Tooltip: ""
+		}
+
+		DisplayName: Throwing Placement 設定
+		ThrowSpeed_Label: 投擲速度
+		ThrowWall_Label: 壁の投擲設置を有効化 [再読み込みが必要]
+		ThrowTile_Label: タイルの投擲設置を有効化 [再読み込みが必要]
+	}
+}
+
