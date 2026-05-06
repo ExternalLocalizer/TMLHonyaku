@@ -1,8 +1,8 @@
 Items: {
-    SerpentFang: {
-        DisplayName: 蛇の牙
-        Tooltip: 「アッ痛ッ…」
-    }
+	SerpentFang: {
+		DisplayName: 蛇の牙
+		Tooltip: 「アッ痛ッ…」
+	}
 
 	CactusStaff: {
 		DisplayName: サボテンの杖
@@ -36,134 +36,78 @@ Items: {
 			'''
 	}
 
-	EvilSnakeBannerItem: {
-		DisplayName: 邪悪な蛇のバナー
+	EvilSnakeBannerItem.DisplayName: 邪悪な蛇のバナー
+	CactoidBannerItem.DisplayName: サボトイドバナー
+	CorruptCactoidBannerItem.DisplayName: 不浄のサボトイドバナー
+	CrimsonCactoidBannerItem.DisplayName: クリムゾンサボトイドバナー
+	HallowedCactoidBannerItem.DisplayName: カラフルサボトイドバナー
+
+	HauntedSand: {
+		DisplayName: 呪われた砂
+		Tooltip: 手の中でまだうごめいている
 	}
 
-	CactoidBannerItem: {
-		DisplayName: サボトイドバナー
+	PharaohTrophy: {
+		DisplayName: ファラオのトロフィー
+		Tooltip: ""
 	}
 
-	CorruptCactoidBannerItem: {
-		DisplayName: 不浄のサボトイドバナー
-	}
-
-	CrimsonCactoidBannerItem: {
-		DisplayName: クリムゾンサボトイドバナー
-	}
-
-	HallowedCactoidBannerItem: {
-		DisplayName: カラフルサボトイドバナー
+	MegaCactusSlimeTrophy: {
+		Tooltip: ""
+		DisplayName: メガサボテンスライムの砂漠
 	}
 }
 
 WorldGen: {
-    DesertUrnMessage: 壺を生成中
-    DesertMoundMessage: 砂漠の丘を生成中
-    DesertHouseMessage: サボテンの家を生成中
+	DesertUrnMessage: 壺を生成中
+	DesertHouseMessage: サボテンの家を生成中
 }
 
 NPCs: {
-    MegaCactusSlime: {
-        DisplayName: メガサボテンスライム
-    }
-
-	TheSun: {
-		DisplayName: 太陽
-	}
-
-	Cactoid: {
-		DisplayName: サボトイド
-	}
-
-	CactusSlimeIdle: {
-		DisplayName: 眠ているスライム
-	}
-
-	EvilSnake: {
-		DisplayName: 邪悪な蛇
-	}
-
-	ScarabSpirit: {
-		DisplayName: スカラベ精霊
-	}
-
-	CorruptCactoid: {
-		DisplayName: 不浄のサボトイド
-	}
-
-	CrimsonCactoid: {
-		DisplayName: クリムゾンサボトイド
-	}
-
-	HallowedCactoid: {
-		DisplayName: カラフルサボトイド
-	}
-
-	HappySpirit: {
-		DisplayName: ハッピースピリット
-	}
-
-	BombSpirit: {
-		DisplayName: ボムスピリット
-	}
+	MegaCactusSlime.DisplayName: メガサボテンスライム
+	TheSun.DisplayName: 太陽
+	Cactoid.DisplayName: サボトイド
+	CactusSlimeIdle.DisplayName: 眠ているスライム
+	EvilSnake.DisplayName: 邪悪な蛇
+	ScarabSpirit.DisplayName: スカラベ精霊
+	CorruptCactoid.DisplayName: 不浄のサボトイド
+	CrimsonCactoid.DisplayName: クリムゾンサボトイド
+	HallowedCactoid.DisplayName: カラフルサボトイド
+	BombSpirit.DisplayName: ボムスピリット
+	HappySpirit.DisplayName: ハッピースピリット
+	DustDevil.DisplayName: ダストデビル
+	HauntedSandGlob.DisplayName: 呪われた砂の塊
+	PharaohsCurse.DisplayName: 復讐の亡霊
 }
 
 Projectiles: {
-	BombSpiritExplosion: {
-		DisplayName: Bomb Spirit Explosion
-	}
-
-	SandShakerProj: {
-		DisplayName: Sand Shaker
-	}
-
-	CactusLampPet: {
-		DisplayName: Cactus Lamp Pet
-	}
-
-	BloodSpit: {
-		DisplayName: Blood Spit
-	}
-
-	EvilSnakeBite: {
-		DisplayName: Evil Snake Bite
-	}
-
-	CactusSlimeSpike: {
-		DisplayName: Cactus Slime Spike
-	}
-
-	CactusSlimeShockwave: {
-		DisplayName: Cactus Slime Shockwave
-	}
-
-	ScepterSpit: {
-		DisplayName: Scepter Spit
-	}
-
-	ScepterBite: {
-		DisplayName: Scepter Bite
-	}
-
-	CactusStaffSpike: {
-		DisplayName: Cactus Staff Spike
-	}
-
-	CactusStaffSentry: {
-		DisplayName: Cactus Staff Sentry
-	}
+	CactusStaffSentry.DisplayName: Cactus Staff Sentry
+	CactusStaffSpike.DisplayName: Cactus Staff Spike
+	ScepterBite.DisplayName: Scepter Bite
+	ScepterSpit.DisplayName: Scepter Spit
+	CactusSlimeShockwave.DisplayName: Cactus Slime Shockwave
+	CactusSlimeSpike.DisplayName: Cactus Slime Spike
+	EvilSnakeBite.DisplayName: Evil Snake Bite
+	BloodSpit.DisplayName: Blood Spit
+	CactusLampPet.DisplayName: Cactus Lamp Pet
+	SandShakerProj.DisplayName: Sand Shaker
+	BombSpiritExplosion.DisplayName: Bomb Spirit Explosion
+	HauntedSandBall.DisplayName: Haunted Sand Ball
+	SandBarrier.DisplayName: Sand Barrier
+	CurseBlast.DisplayName: Curse Blast
+	CurseBlastBig.DisplayName: Curse Blast Big
+	DustVortex.DisplayName: Dust Vortex
+	DesertBlade.DisplayName: Desert Blade
 }
 
 Buffs: {
-    CactusLampBuff: {
-        DisplayName: サボテンランプの光
-        Description: 道を照らす…けど、チラつくよ
-    }
+	CactusLampBuff: {
+		DisplayName: サボテンランプの光
+		Description: 道を照らす…けど、チラつくよ
+	}
 
 	HappySpiritBuff: {
 		DisplayName: 精霊の加護
 		Description: なんだかツイてる気がする！
 	}
 }
-
