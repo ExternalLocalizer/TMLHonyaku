@@ -1,0 +1,130 @@
+DisplayName: Limit Your Vision 設定
+
+ExtraLimtedVision: {
+	Label: さらなる視界制限
+	Tooltip: 視界範囲を狭くします
+}
+
+NoMouseVision: {
+	Label: マウス視界無効
+	Tooltip: カーソル方向への追加視界を無効化します
+}
+
+FlashlightMode: {
+	Label: フラッシュライトモード
+	Tooltip: 視界がカーソル方向のみに制限されます
+}
+
+NoTilePierce: {
+	Label: タイル貫通なし
+	Tooltip: 
+		'''
+		視界の光線はブロックを貫通しません
+		ただし、最初に当たった壁の向こう側までは視認可能
+		'''
+}
+
+EnableMultiThread: {
+	Label: マルチスレッドを有効化（動作しません）
+	Tooltip: ほとんどのケースでパフォーマンスが悪化します
+}
+
+Headers: {
+	MoreDifficulty: 高難易度
+	Other: 内部設定
+	Override: カスタムモード
+}
+
+RaysPerFrame: {
+	Label: フレームごとのレイ数
+	Tooltip: 
+		'''
+		1フレームごとに発射されるレイの数
+		変更してもパフォーマンスへの影響はほとんどありません
+		'''
+}
+
+ExpandingRaysMode: {
+	Label: 拡張レイモード
+	Tooltip: ""
+}
+
+OverrideMode: {
+	Label: カスタムモードを有効化
+	Tooltip: 一部の設定を無視し、以下で指定した値を優先的に反映させます
+}
+
+lightTrans: {
+	Label: 空間の透過率
+	Tooltip: レイが空のタイルに当たったときの減衰量
+}
+
+tileTrans: {
+	Label: ブロックの透過率
+	Tooltip: レイが固体ブロックに当たったときの減衰量
+}
+
+platformTrans: {
+	Label: 足場の透過率
+	Tooltip: レイが木製足場に当たったときの減衰量
+}
+
+translucentTrans: {
+	Label: その他の透過率
+	Tooltip: 固体ではないが光を遮るタイルに当たったときの減衰量
+}
+
+liquidTrans: {
+	Label: 液体の透過率
+	Tooltip: レイが液体に当たったときの減衰量
+}
+
+maxFlashlightAng: {
+	Label: 遠距離フラッシュライト角度
+	Tooltip: 最大距離で照準したときの視界の弧の長さ
+}
+
+minFlashlightAng: {
+	Label: 近距離フラッシュライト角度
+	Tooltip: 最短距離で照準したときの視界の弧の長さ
+}
+
+rayPower: {
+	Label: レイ視界の強度
+	Tooltip: 各レイが提供する視界量の倍率
+}
+
+raysPerFrame: {
+	Label: レイの本数
+	Tooltip: 発射されるレイの数
+}
+
+rayAccumulation: {
+	Label: フレーム間レイ分散
+	Tooltip: レイの発射処理を何フレームに分割するか
+}
+
+rayLength: {
+	Label: レイの最大距離
+	Tooltip: レイが到達できる最大距離（タイル単位）
+}
+
+addLightAfterDecay: {
+	Label: 減衰後に視界を加算
+	Tooltip: タイル衝突による減衰の前後どちらで視界を加算するかを設定します
+}
+
+flashlightAimRange: {
+	Label: フラッシュライト照準範囲
+	Tooltip: フラッシュライトの角度範囲
+}
+
+flashlightAimMin: {
+	Label: フラッシュライト最小角度
+	Tooltip: フラッシュライト角度の最小値
+}
+
+visionLevelRange: {
+	Label: 視界レベル範囲
+	Tooltip: タイルが完全に視認可能とみなされる値
+}
