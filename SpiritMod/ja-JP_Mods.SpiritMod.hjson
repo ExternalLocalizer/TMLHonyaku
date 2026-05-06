@@ -175,10 +175,19 @@ Configs: {
 
 		AuroraEnabled: {
 			Label: "[i:SpiritMod/MoonStone]  演出：オーロラ"
-			Tooltip: 
+			Tooltip:
 				'''
 				オーロラ描画を切り替えます
 				ただし、オフにしても関連する効果や敵は通常どおり出現します
+				'''
+		}
+
+		EnableSepulchres: {
+			Label: "[i:SpiritMod/CursedArmorItem] ワールド生成：ダークセパルチャーを有効化"
+			Tooltip: 
+				'''
+				地下にダークセパルチャーを生成します
+				他Modと干渉する場合は無効化してください
 				'''
 		}
 	}
@@ -1524,7 +1533,7 @@ Items: {
 
 	ElectricGuitar: {
 		DisplayName: エレキギター
-		Tooltip: 
+		Tooltip:
 			'''
 			周囲や攻撃対象の敵に、一定間隔で雷を放つ
 			放った敵の付近に別の敵がいた際、雷が感電する
@@ -3236,7 +3245,7 @@ Items: {
 			アメアはもともと心優しい
 			青年で、あの教師にすら
 			悪意を抱いてはいなかった。
-			
+
 			だが、家で待つ母のことを
 			思い出し、恐怖を飲み込んだ。
 			...そして、地獄のような日々が始まった。
@@ -3606,7 +3615,7 @@ Items: {
 	Book_Gunslinger: {
 		DisplayName: 銃士の記録
 		Tooltip: 著者：ウソフ・リンクス
-		Content: 
+		Content:
 			'''
 			彼が昨日、町を歩いているのを見た。
 			ここ数日、町の連中は
@@ -3704,7 +3713,7 @@ Items: {
 	Book_MJW: {
 		DisplayName: ダグ・ディンガー
 		Tooltip: 著者：探検家トレヴ・アーウィン
-		Content: 
+		Content:
 			'''
 			さっき朝メシに食ったあの
 			年寄りキノコが効きすぎたのか、
@@ -4164,7 +4173,7 @@ Items: {
 
 	TalonBlade: {
 		DisplayName: タロンブレード
-		Tooltip: 
+		Tooltip:
 			'''
 			振る際に複数の羽を剣付近に展開する
 			羽が敵に追加ダメージを与える
@@ -5501,7 +5510,7 @@ Items: {
 
 	TinyLunazoaItem: {
 		DisplayName: 小さなルナゾア
-		Tooltip: 
+		Tooltip:
 			'''
 			夜間に餌パワーが向上する
 			クラゲ大洪水中はさらに向上
@@ -6841,7 +6850,7 @@ Items: {
 
 	PrintPrime: {
 		DisplayName: スケルトロン・プライムの設計図
-		Tooltip: 
+		Tooltip:
 			'''
 			("Fore"-Warned is "Four"-Armed.)
 			「『備え』あれば『四手』よし」
@@ -7861,7 +7870,7 @@ Items: {
 
 	BismiteBow: {
 		DisplayName: ビスマイトの弓
-		Tooltip: 
+		Tooltip:
 			'''
 			敵へまれに『腐りゆく傷』を付与
 			ライフが半分未満の敵に追加ダメージ
@@ -7870,7 +7879,7 @@ Items: {
 
 	BismiteChakra: {
 		DisplayName: ビスマイトのカッター
-		Tooltip: 
+		Tooltip:
 			'''
 			敵へまれに『腐りゆく傷』を付与
 			ライフが半分未満の敵に追加ダメージ
@@ -7894,7 +7903,7 @@ Items: {
 
 	BismiteSpear: {
 		DisplayName: ビスマイトの槍
-		Tooltip: 
+		Tooltip:
 			'''
 			敵へまれに『腐りゆく傷』を付与
 			ライフが半分未満の敵に追加ダメージ
@@ -8051,10 +8060,7 @@ Items: {
 
 	Ornament_Bow: {
 		DisplayName: 飾り弓
-		Tooltip:
-			'''
-			木の矢が装飾矢となり、砕けると様々な宝石矢が飛び散る
-			'''
+		Tooltip: 木の矢が装飾矢となり、砕けると様々な宝石矢が飛び散る
 	}
 
 	StarlightBow: {
@@ -8192,7 +8198,7 @@ Items: {
 
 	BruteHammer: {
 		DisplayName: 猛獣の戦鎚
-		Tooltip: 
+		Tooltip:
 			'''
 			チャージ中はプレイヤー中心に高速回転させ、
 			解放時に強力な一撃を与える
@@ -8269,7 +8275,7 @@ Items: {
 
 	CoilEnergizerItem: {
 		DisplayName: コイル式活力装置
-		Tooltip: 
+		Tooltip:
 			'''
 			周囲に電界を発生させ、
 			近くのプレイヤーの移動速度と近接攻撃速度を大幅に上昇させる
@@ -8893,7 +8899,7 @@ Items: {
 		Name3: 迅速型
 		Name4: 星鋼型
 		Tip1: 弾むガラス玉を発射する…痛そう！
-		Tip2: 
+		Tip2:
 			'''
 			攻撃した敵にマークを付与する
 			右クリックで全てのマークを爆破
@@ -9589,10 +9595,7 @@ Items: {
 
 	ObsidiusGreaves: {
 		DisplayName: 灼炎王のすね当て
-		Tooltip:
-			'''
-			ミニオンのダメージが5%増加し、最大召喚数も増加
-			'''
+		Tooltip: ミニオンのダメージが5%増加し、最大召喚数も増加
 	}
 
 	ObsidiusHelm: {
@@ -10198,10 +10201,7 @@ Items: {
 
 	SnapsporeStaff: {
 		DisplayName: 毒胞の杖
-		Tooltip:
-			'''
-			敵めがけて飛び込み、毒素をばらまく胞子を召喚する
-			'''
+		Tooltip: 敵めがけて飛び込み、毒素をばらまく胞子を召喚する
 	}
 
 	StardustBomb: {
@@ -10244,10 +10244,7 @@ Items: {
 
 	ClatterSpear: {
 		DisplayName: クラッタージャベリン
-		Tooltip:
-			'''
-			長押しで投げ、ためるほど威力と速度が増加する
-			'''
+		Tooltip: 長押しで投げ、ためるほど威力と速度が増加する
 	}
 
 	Coconut: {
@@ -12180,7 +12177,7 @@ NPCs: {
 			NoHome: 家を持っていないのが 嫌なんです。
 			FarFromHome: 家から遠すぎる。
 			LoveSpace: 充分なスペースが あるのがいいね。
-			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			DislikeCrowded: I dislike how crowded I am.
 			HateCrowded: こんなに混んでいるのは 嫌だよ。
 			LikeNPC_Princess: 私は {NPCName} が 好きだ。
 			Princess_LovesNPC: 私は {NPCName} が 好きだ。
@@ -12195,7 +12192,7 @@ NPCs: {
 			NoHome: 家を持っていないのが 嫌なんです。
 			FarFromHome: 家から遠すぎる。
 			LoveSpace: 充分なスペースが あるのがいいね。
-			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			DislikeCrowded: I dislike how crowded I am.
 			HateCrowded: こんなに混んでいるのは 嫌だよ。
 			LikeNPC_Princess: 私は {NPCName} が 好きだ。
 			Princess_LovesNPC: 私は {NPCName} が 好きだ。
@@ -12210,7 +12207,7 @@ NPCs: {
 			NoHome: 家を持っていないのが 嫌なんです。
 			FarFromHome: 家から遠すぎる。
 			LoveSpace: 充分なスペースが あるのがいいね。
-			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			DislikeCrowded: I dislike how crowded I am.
 			HateCrowded: こんなに混んでいるのは 嫌だよ。
 			LikeNPC_Princess: 私は {NPCName} が 好きだ。
 			Princess_LovesNPC: 私は {NPCName} が 好きだ。
@@ -12256,7 +12253,7 @@ NPCs: {
 			NoHome: 家を持っていないのが 嫌なんです。
 			FarFromHome: 家から遠すぎる。
 			LoveSpace: 充分なスペースが あるのがいいね。
-			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			DislikeCrowded: I dislike how crowded I am.
 			HateCrowded: こんなに混んでいるのは 嫌だよ。
 			LikeNPC_Princess: 私は {NPCName} が 好きだ。
 			Princess_LovesNPC: 私は {NPCName} が 好きだ。
@@ -13180,7 +13177,7 @@ Quests: {
 
 		AncestralWorship: {
 			Name: 祖霊への祈り
-			Description: 
+			Description:
 				'''
 				以前、レイワッツ教授とその調査隊と一緒に
 				茨林を探索していたときのことだ。
@@ -13193,7 +13190,7 @@ Quests: {
 
 		AnglerStatueQuest: {
 			Name: 魚くさい商売
-			Description: 
+			Description:
 				'''
 				【伝言：釣り人から】
 				ボクが自分のこと世界一の釣り人だと思ってるかって？
@@ -13218,7 +13215,7 @@ Quests: {
 
 		AuroraStagQuest: {
 			Name: 星を馴らす者
-			Description: 
+			Description:
 				'''
 				やあ、相棒！最近より一層物騒な世の中になってきたよな...
 				だが悪いことばかりじゃあない、面白い報告が上がったんだ！
@@ -13232,7 +13229,7 @@ Quests: {
 
 		BareNecessities: {
 			Name: 最低限の準備
-			Description: 
+			Description:
 				'''
 				助けてもらったうえに、あれこれと手配まで進めてくれて本当に
 				感謝しているよ、相棒！
@@ -13244,7 +13241,7 @@ Quests: {
 
 		BlastFromThePast: {
 			Name: 過去からの衝撃
-			Description: 
+			Description:
 				'''
 				放電管を手に入れたんだな、相棒よ！
 				俺からのデザイン助言をちゃんと活かしてくれて
@@ -13257,7 +13254,7 @@ Quests: {
 
 		FirstAdventure: {
 			Name: 最初の冒険
-			Description: 
+			Description:
 				'''
 				やあ、相棒！あんたも冒険者になりたいんだな。
 				なら、荷物をまとめて出発しよう！
@@ -13270,7 +13267,7 @@ Quests: {
 
 		RaidingTheStars: {
 			Name: 星々への襲撃
-			Description: 
+			Description:
 				'''
 				宇宙の惑星帯は、もう見に行ったかな？最近、あの辺りで妙な機械活動が
 				活発化しているという報告が入ってきてるんだ。どうやら金属でできた
@@ -13282,7 +13279,7 @@ Quests: {
 
 		StylishSetup: {
 			Name: 粋な模様替え
-			Description: 
+			Description:
 				'''
 				やあ、相棒！
 				たまには雰囲気を変えてみたくならないか？
@@ -13297,7 +13294,7 @@ Quests: {
 
 		ZombieOriginQuest: {
 			Name: 不浄なる企て
-			Description: 
+			Description:
 				'''
 				ゾンビ...そしておそらくその起源について重要な情報が
 				書かれた奇妙な巻物を見つけた。
@@ -13318,7 +13315,7 @@ Quests: {
 
 		BreakingAndEntering: {
 			Name: 不法侵入と救出
-			Description: 
+			Description:
 				'''
 				仲間の斥候が、世界の果て近くの海岸で
 				妙なものを見つけたらしい。縄で縛られた女を
@@ -13328,7 +13325,7 @@ Quests: {
 				...そんな面倒そうな顔するんじゃない！
 				きっといい戦利品もたくさんあるだろうさ！
 				'''
-			Dialogue: 
+			Dialogue:
 				'''
 				わー、ラッキー！こんな優しそうな人に出会えるなんて♪
 				ゴブリンたちに『ちょっとだけズルい取引』持ちかけたら怒られちゃってね。
@@ -13340,7 +13337,7 @@ Quests: {
 
 		CritterCaptureBlossmoon: {
 			Name: 聖域 ― 安らぎの花精
-			Description: 
+			Description:
 				'''
 				穏やかな夜にしか姿を見せない、珍しい生き物の話を聞いたことない？
 				月が上弦や下弦の頃、風に葉が揺れるとき...花の中から『ブロッスムーン』
@@ -13354,7 +13351,7 @@ Quests: {
 
 		CritterCaptureFloater: {
 			Name: 聖域 ― 夜の光たち
-			Description: 
+			Description:
 				'''
 				【伝言：ドライアドから】
 				私達が新たに保護すべき生物の痕跡を掴めたわ。
@@ -13376,7 +13373,7 @@ Quests: {
 
 		LumothQuest: {
 			Name: 聖域 ― 光り輝く命
-			Description: 
+			Description:
 				'''
 				私たちドライアドは、自然の守護者として、
 				すべての動植物を守る義務があるの...
@@ -13398,7 +13395,7 @@ Quests: {
 
 		SporeSalvage: {
 			Name: 聖域 ― 胞子の保護
-			Description: 
+			Description:
 				'''
 				キノコ群生地は、実に多様な生命であふれている場所よ。
 				そこで新たな『知性を持つキノコ』が発見されたとしても、
@@ -13411,7 +13408,7 @@ Quests: {
 
 		CritterCaptureSoulOrb: {
 			Name: 聖域 ― 魂の行方
-			Description: 
+			Description:
 				'''
 				地平線の向こうに現れた奇妙な『スピリット地帯』には、
 				見たこともない植物や生物が無数に棲んでいるわ。
@@ -13429,7 +13426,7 @@ Quests: {
 
 		DecrepitDepths: {
 			Name: 朽ちた深淵
-			Description: 
+			Description:
 				'''
 				地下にあんなに骸骨が多いの、気になったことはないかい？
 				実は昔、世界中の洞窟に根を張った死霊術師の一派がいて、
@@ -13443,7 +13440,7 @@ Quests: {
 
 		ExplorerQuestAsteroid: {
 			Name: 宇宙の岩塊群
-			Description: 
+			Description:
 				'''
 				この世界の海の真上に、なんと小惑星帯が浮かんでるらしい！
 				まだ誰も地図に記していない未踏の領域だ。すごくワクワクするだろ？
@@ -13457,7 +13454,7 @@ Quests: {
 
 		ExplorerQuestAurora: {
 			Name: 天空に揺らめく光
-			Description: 
+			Description:
 				'''
 				この依頼には特別な目的なんてないんだ。ただ、この世界の美しさを
 				もっと多くの人に知ってもらいたいだけさ。
@@ -13472,7 +13469,7 @@ Quests: {
 
 		ExplorerQuestBlueMoon: {
 			Name: 一度きりの...
-			Description: 
+			Description:
 				'''
 				この世界、まだまだ俺たちを殺すネタが尽きないらしいな？
 				忌々しいブラッドムーンはもう見慣れたが、
@@ -13486,7 +13483,7 @@ Quests: {
 
 		ExplorerQuestCorrupt: {
 			Name: 穢れた荒野
-			Description: 
+			Description:
 				'''
 				しばらくこの地で生活していくんだよね？
 				君もこの世界を理解するために、まだまだ探索が必要だと思うんだ。
@@ -13500,7 +13497,7 @@ Quests: {
 
 		ExplorerQuestCrimson: {
 			Name: 肉体の恐怖
-			Description: 
+			Description:
 				'''
 				しばらくこの地で生活していくんだよね？
 				君もこの世界を理解するために、まだまだ探索が必要だと思うんだ。
@@ -13514,7 +13511,7 @@ Quests: {
 
 		ExplorerQuestGranite: {
 			Name: 岩の道を往く
-			Description: 
+			Description:
 				'''
 				地下のいくつかの洞窟が、ほとんどすべて黒い御影石でできている
 				らしい。それに、何らかのエネルギー源が岩に命を与えているようなんだ。
@@ -13526,7 +13523,7 @@ Quests: {
 
 		ExplorerQuestHive: {
 			Name: 蜂の巣探索
-			Description: 
+			Description:
 				'''
 				地下ジャングルを見に行ったことはあるかい？
 				最近、あの辺りに巨大な巣がいくつもあるって
@@ -13540,7 +13537,7 @@ Quests: {
 
 		ExplorerQuestLuminous: {
 			Name: 満ちる光の波
-			Description: 
+			Description:
 				'''
 				俺は海辺が大好きなんだ。太陽と砂浜を思い浮かべたか？
 				もちろんそれも最高だよな！でもな、俺が言ってるのは
@@ -13553,7 +13550,7 @@ Quests: {
 
 		ExplorerQuestMarble: {
 			Name: 忘れられた文明
-			Description: 
+			Description:
 				'''
 				さらに深部にあると言われる、とある場所を調査してきてほしい。
 				洞窟のどこかに大理石が広がり、古代文明の遺跡が
@@ -13567,7 +13564,7 @@ Quests: {
 
 		ExplorerQuestMushroom: {
 			Name: 光る庭の証明
-			Description: 
+			Description:
 				'''
 				近くに『光るキノコの洞窟』があるって話を調べてるんだ。
 				商人と賭けをしててな、「そんな場所ある訳ない」って言われたんだが...
@@ -13580,7 +13577,7 @@ Quests: {
 
 		ExplorerQuestOcean: {
 			Name: 波の下へ
-			Description: 
+			Description:
 				'''
 				ボクが魚釣りを好きな理由、
 				分かるかな？この星のすべての魚を、
@@ -13598,7 +13595,7 @@ Quests: {
 
 		FriendSafari: {
 			Name: フレンドサファリ
-			Description: 
+			Description:
 				'''
 				何年か前に、ちょっとヤバい友人と一緒に仕事をしたことがあってな。
 				あいつは『バンディット』...つまり盗賊だが、腕は確かだった。
@@ -13613,7 +13610,7 @@ Quests: {
 
 		GranitechQuest: {
 			Name: 未来の力学
-			Description: 
+			Description:
 				'''
 				最近仕入れたスクラップの中に、妙な部品が混じってるみたいでね。
 				正直、驚くほど精巧なの！回路構造なんて、まるで未来の技術みたい...
@@ -13625,8 +13622,8 @@ Quests: {
 		}
 
 		HeartCrystalQuest: {
-			Name: 心を捧げて 
-			Description: 
+			Name: 心を捧げて
+			Description:
 				'''
 				この世界でさらに探索を続けていく(僕のガイド付き)ためには、
 				まずはより丈夫な体を手に入れる必要があると思う。
@@ -13639,7 +13636,7 @@ Quests: {
 
 		IceDeityQuest: {
 			Name: 氷の下で
-			Description: 
+			Description:
 				'''
 				冒険者よ、君に頼みたいことがある。
 				最近になって、雪原地帯から奇妙なエネルギーが放たれつつある...
@@ -13665,7 +13662,7 @@ Quests: {
 
 		IdleIdol: {
 			Name: 眠れる偶像
-			Description: 
+			Description:
 				'''
 				砂漠の砂の下には、多くの秘密が眠っているらしい。
 				その荒地のどこか、地表近くに古の偶像が
@@ -13678,7 +13675,7 @@ Quests: {
 
 		ItsNoSalmon: {
 			Name: サーモンじゃないけど...
-			Description: 
+			Description:
 				'''
 				今回はごく普通の依頼だぞ。ええと...そう、普通のやつだ。
 				ジャングルから『ホーネットフィッシュ』を釣ってきて欲しいんだ。
@@ -13695,7 +13692,7 @@ Quests: {
 
 		JellyfishHunter: {
 			Name: クラゲハンター
-			Description: 
+			Description:
 				'''
 				やあ、相棒！この可愛いクラゲたちが
 				どう動いてるのか調べてみたんだが、
@@ -13711,7 +13708,7 @@ Quests: {
 
 		ManicMage: {
 			Name: 狂気の魔女
-			Description: 
+			Description:
 				'''
 				世界の果てで活動してる斥候からの報告だと、どうやらその地域
 				を恐怖に陥れている魔女がいるらしい。ハーピーの一種で、
@@ -13723,7 +13720,7 @@ Quests: {
 
 		OlympiumQuest: {
 			Name: 古代の予兆
-			Description: 
+			Description:
 				'''
 				世界は悪化の一途を辿っているわ。邪悪な魔力が日に日に
 				強まっているのを感じるの。これ以上闇の勢力を
@@ -13740,7 +13737,7 @@ Quests: {
 
 		RescueQuestStylist: {
 			Name: ぐるぐる巻きの救出劇
-			Description: 
+			Description:
 				'''
 				蜘蛛だらけの洞窟で、とある娘の悲鳴を聞いたんだ。
 				助けに行きたいのは山々なんだが、え～っと...
@@ -13754,7 +13751,7 @@ Quests: {
 
 		ReturnToYourRoots: {
 			Name: 根源への回帰
-			Description: 
+			Description:
 				'''
 				あの地に閉じ込められていたとき、気づいたことがあるんだ...
 				どうやら茨林にある根は、その全てが中心にある『何か』へと
@@ -13767,20 +13764,20 @@ Quests: {
 
 		SinisterSands: {
 			Name: 邪悪なる砂原
-			Description: 
-			'''
-			やっぱり...この古い像を磨いていたら、見覚えあると思ったんだ。
-			こいつは『聖甲虫の偶像』だ。警告しておく、
-			十分に強くなるまでは絶対に手を出すな。
-			昔、俺と賞金稼ぎの仲間たちであいつに挑んだことがあるが、
-			命からがら逃げ延びるのがやっとだった。気をつけるんだぞ、相棒！
-			'''
+			Description:
+				'''
+				やっぱり...この古い像を磨いていたら、見覚えあると思ったんだ。
+				こいつは『聖甲虫の偶像』だ。警告しておく、
+				十分に強くなるまでは絶対に手を出すな。
+				昔、俺と賞金稼ぎの仲間たちであいつに挑んだことがあるが、
+				命からがら逃げ延びるのがやっとだった。気をつけるんだぞ、相棒！
+				'''
 			Objective: スカラベウスを撃破する
 		}
 
 		SkyHigh: {
 			Name: 空より高く
-			Description: 
+			Description:
 				'''
 				古い地図を眺めていたら、この世界の海の上空に『浮遊の塔群』
 				ってのがあるって記述を見つけたんだ。ただ、左にあるのか右にあるのか、
@@ -13792,7 +13789,7 @@ Quests: {
 
 		SlayerQuestBriar: {
 			Name: 花咲く悪魔たち
-			Description: 
+			Description:
 				'''
 				茨林に行って、あの化け物どもに
 				誰がボスか思い知らせてやって欲しい！
@@ -13805,7 +13802,7 @@ Quests: {
 
 		SlayerQuestCavern: {
 			Name: 這い寄る悪夢
-			Description: 
+			Description:
 				'''
 				最近、洞窟を住処にしはじめた気味の悪い連中がいるんだ。
 				毒ガスを吐き出すやつや、トゲだらけの
@@ -13813,7 +13810,7 @@ Quests: {
 				そいつらを駆除してくれないか？
 				十数体も倒せば、地下も少しはマシな場所になるだろう。
 				'''
-			Objective: 
+			Objective:
 				'''
 				]
 				ウィーザー、スポア・ウィーザー、キャバーン・クローラー、
@@ -13824,7 +13821,7 @@ Quests: {
 
 		SlayerQuestClown: {
 			Name: 笑い事じゃない
-			Description: 
+			Description:
 				'''
 				先週パーティーの用意をしてた時にね、あの吐き気さえしてくる
 				不気味なピエロたちが現れて、何もかも滅茶苦茶にされちゃったの！
@@ -13836,7 +13833,7 @@ Quests: {
 
 		SlayerQuestDrBones: {
 			Name: ゾンビ...なぜゾンビなんだ
-			Description: 
+			Description:
 				'''
 				俺の同僚でな、古代の寺院を探してジャングルを巡っていた
 				考古学者がいたんだ。だが、どうやら帰ってこなかったらしい。
@@ -13848,7 +13845,7 @@ Quests: {
 
 		SlayerQuestMarble: {
 			Name: 古代の眼差し
-			Description: 
+			Description:
 				'''
 				最近になって世界がまた様変わりしちまったな...その影響か、新たな
 				新たな怪物どもが、あちこちで湧きはじめている。
@@ -13860,7 +13857,7 @@ Quests: {
 
 		SlayerQuestNymph: {
 			Name: マニアックなあの子
-			Description: 
+			Description:
 				'''
 				茨林で遭難したあと、しばらく休んでたんだが...
 				俺にもついに恋愛の世界に来れたと思ってワクワク
@@ -13874,7 +13871,7 @@ Quests: {
 
 		SlayerQuestOccultist: {
 			Name: 亡霊の災厄
-			Description: 
+			Description:
 				'''
 				あの不気味なブラッドムーンだけでも厄介なのに、
 				今度は新たな死霊術師がゾンビの軍勢を操り始めたらしい！
@@ -13886,7 +13883,7 @@ Quests: {
 
 		SlayerQuestScreechOwls: {
 			Name: 不協和の悲鳴
-			Description: 
+			Description:
 				'''
 				基本的に僕は動物が好きなんだ。犬や猫、ウサギなんかもいいよね！
 				...でも、あの『恐ろしい脅威』だけは別だね。
@@ -13899,7 +13896,7 @@ Quests: {
 
 		SlayerQuestUGDesert: {
 			Name: さらに深くへ
-			Description: 
+			Description:
 				'''
 				さあ！もっと深く潜るんだ、相棒よ！
 				砂漠のさらに奥底へ行って、あの厄介な化け物どもを
@@ -13911,7 +13908,7 @@ Quests: {
 
 		SlayerQuestValkyrie: {
 			Name: ヴァルキリー戦
-			Description: 
+			Description:
 				'''
 				元より腹立たしいハーピーが矢を撃ってくるなんて、
 				夢にも思わなかったんだぜ？だがなんと厄介なことに、
@@ -13924,7 +13921,7 @@ Quests: {
 
 		SlayerQuestVultureMatriarch: {
 			Name: 母なる鳥獣
-			Description: 
+			Description:
 				'''
 				相棒があの『巨大な肉の壁』を片付けてからというもの、
 				世界は一段と恐ろしい場所になっちまったな...
@@ -13936,7 +13933,7 @@ Quests: {
 
 		StrangeSeas: {
 			Name: 奇怪なる海
-			Description: 
+			Description:
 				'''
 				伝説の「シーブレイク・パール」...最近になってまた現れたという
 				噂を聞いたんだ。世にも珍しい宝のひとつだが、
@@ -13949,7 +13946,7 @@ Quests: {
 
 		StylistQuestSeafoam: {
 			Name: 染料探訪 ー 海胞
-			Description: 
+			Description:
 				'''
 				旅人のお客さん、ちょっといいかしら？
 				今回は散髪じゃなくて、私からお願いがあるのよ。
@@ -13965,7 +13962,7 @@ Quests: {
 
 		UnidentifiedFloatingObjects: {
 			Name: 未確認浮遊生物
-			Description: 
+			Description:
 				'''
 				酒はもう何年も前にやめたんだがな...最近どうも、
 				空が妙に光ってる気がするんだ！少し調べてみたら、
@@ -14029,7 +14026,7 @@ SetBonuses: {
 		'''
 	DarkfeatherVisage: プレイヤーの周囲に、爆発する黒羽の弾を召喚する
 	Elderbark: 全アイテムのダメージが1増加
-	Floran: 
+	Floran:
 		'''
 		敵を倒した際、まれに生肉をドロップする
 		食べるとライフを回復し、『満腹』状態になる
