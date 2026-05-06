@@ -1,11 +1,66 @@
 Items: {
 	CursorLanternItem: {
+		DisplayName: カーソルランタン
 		Tooltip:
 			'''
 			カーソルに吊り下がり、周囲を照らす
 			たいまつの神の恩恵を得ることで、バイオームごとの色へ変化
 			'''
-		DisplayName: カーソルランタン
+	}
+
+	PrismaticLanternItem: {
+		DisplayName: プリズマティックランタン
+		Tooltip: 虹色の光を放つ
+	}
+
+	FaeLanternItem: {
+		DisplayName: 妖精のランタン
+		Tooltip: ""
+	}
+
+	RougeLanternItem: {
+		DisplayName: 紅のランタン
+		Tooltip: ""
+	}
+
+	SteampunkLanternItem: {
+		DisplayName: スチームパンクのランタン
+		Tooltip: ""
+	}
+
+	ForbiddenBrazierItem: {
+		DisplayName: 禁忌の火鉢
+		Tooltip: ""
+	}
+
+	NanoLanternItem: {
+		DisplayName: ナノランタン
+		Tooltip: ""
+	}
+
+	UltrabrightLanternItem: {
+		DisplayName: 超高輝度ランタン
+		Tooltip: ""
 	}
 }
 
+Configs: {
+	CursorConfig: {
+		DisplayName: 設定
+
+		LanternXOffset: {
+			Label: ランタン X座標
+			Tooltip: ""
+		}
+
+		LanternYOffset: {
+			Label: ランタン　Y座標
+			Tooltip: ""
+		}
+
+		SFXVolume: {
+			Label: サウンド音量
+			Tooltip: ""
+		}
+	}
+}
