@@ -1,0 +1,166 @@
+Tiles: {
+	SnakeDecor.MapEntry: Rubble
+	SnakePaintingTile.MapEntry: Snake Painting
+	SnakePortalTile.MapEntry: Portal
+	SnakeTrophy.MapEntry: Snake Trophy
+	IceBoxTile.MapEntry: Ice Box Tile
+}
+
+Biomes: {
+	SnakerArenaBiome: {
+		DisplayName: 蛇の闘技場
+		TownNPCDialogueName: 蛇の闘技場
+	}
+}
+
+Buffs: {
+	SnakeSummonBuff: {
+		DisplayName: デビルベビースネーク
+		Description: 「驚くほどパワフル！」
+	}
+
+	CangolerBuff: {
+		DisplayName: カンゴラー
+		Description: 「デーモンと氷のミックス、しかもツノ付き！」
+	}
+}
+
+NPCs: {
+	EventNPCSpawner.DisplayName: イベントNPCスポナー
+
+	DevilishSnake: {
+		DisplayName: デビルスネーク
+		Bestiary: 忘れ去られた地の深淵――地下世界に潜む巨大な蛇。なぜかイモ類を好むという奇妙な性質を持つ。
+	}
+
+	PotatoBeeFireAnt: {
+		DisplayName: ポテトビーファイアアント
+		Bestiary: ジャガイモと昆虫が融合した異形。柔らかくデンプン質な体だが、それでも痛いものは痛い！
+	}
+
+	IceMonster: {
+		DisplayName: アイスモンスター
+		Bestiary: 冷たく悪魔的でありながら気取った雰囲気を持つ獣。かつての主に操られ、無数の棘で冒険者へ突撃する。
+	}
+}
+
+Projectiles: {
+	LampSnake.DisplayName: Shadesnake
+	SnakeFireball.DisplayName: Fireball
+	SnakeFireballTrail.DisplayName: Fireball
+	SnakeMeteorPotato.DisplayName: Snake Meteor Potato
+	SnakeMine.DisplayName: Snake Mine
+	SnakePotato.DisplayName: Snake Potato
+	SnakeTongue.DisplayName: Snake Tongue
+	BurningPotatoProjectile.DisplayName: Burning Potato
+	SnakeHammerSwung.DisplayName: Snake Hammer
+	SnakeHammerThrown.DisplayName: Snake Hammer
+	SnakeSummon.DisplayName: Devilish Snakeling
+	SnakeSummonFireball.DisplayName: Fireball
+	FireAntPotato.DisplayName: Potato
+	CangolerMinion.DisplayName: Cangoler
+}
+
+DevilishSnakeSpawnInfo: 蛇の闘技場へ入り、敵を倒す
+DevilishSnakeEventDefeat: 猛り狂う気配が消え去った...
+DevilishSnakeEventWave: "{0} ウェーブ: {1}"
+SurviveText: 生き延びろ！
+SurviveSecondsText: 秒
+
+EventWaves: {
+	First: 1
+	Second: 2
+	Third: 3
+	Fourth: 4
+	Boss: ボス
+}
+
+UnfathomableColdDeath: {
+	0: "{0}は寒さに耐えられなかった。"
+	1: 冷気が{0}の体を蝕んだ。
+	2: "{0}は氷の中に囚われた。"
+}
+
+Items: {
+	FireyLamp: {
+		DisplayName: 炎のランプ
+		Tooltip:
+			'''
+			最大ライフが30増加
+			ダメージを受けた際、敵を追尾する蛇を放つ
+			「異界の光が上部から立ちのぼっている」
+			'''
+	}
+
+	SnakeBrick: {
+		DisplayName: 蛇のレンガ
+		Tooltip: 「どんな状況でも、触れると冷たい」
+	}
+
+	SnakePainting: {
+		DisplayName: 絵画『大蛇』
+		Tooltip: 「実に見事だ」
+	}
+
+	SnakePortal: {
+		DisplayName: 蛇のポータル
+		Tooltip: 「華やかさと自然さが調和している」
+	}
+
+	SnakeRelicItem: {
+		DisplayName: デビルスネークのレリック
+		Tooltip: ""
+	}
+
+	SnakeTrophyItem: {
+		DisplayName: デビルスネークのトロフィー
+		Tooltip: ""
+	}
+
+	SnakeBag: {
+		DisplayName: トレジャーバッグ（デビルスネーク）
+		Tooltip: ""
+	}
+
+	BurningPotato: {
+		DisplayName: バーニングポテト
+		Tooltip: 数秒後に爆発する
+	}
+
+	SnakeHammer: {
+		DisplayName: スネークハンマー
+		Tooltip:
+			'''
+			左クリックでチャージし、範囲攻撃を行う
+			右クリックでブーメランのように投げる
+			'''
+	}
+
+	SnakeStaff: {
+		DisplayName: 蛇の杖
+		Tooltip:
+			'''
+			小さな蛇を召喚して戦わせる
+			蛇は高速の近接攻撃を行い、遠距離では火の玉を放つ
+			'''
+	}
+
+	IceBox: {
+		DisplayName: アイスボックス
+		Tooltip: ""
+	}
+
+	CangolerItem: {
+		DisplayName: カンゴラー
+		Tooltip: その中には、古代より眠る謎多き怒れる存在が封じられている。
+	}
+
+	DevilishRiftmirror: {
+		DisplayName: デビルリフトミラー
+		Tooltip:
+			'''
+			蛇の闘技場へテレポートする
+			「氷と炎が混ざり合った気配がポータルから漂う」
+			'''
+	}
+}
