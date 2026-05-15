@@ -1,0 +1,54 @@
+Items: {
+}
+
+Configs: {
+	GuiPlusClientConfig: {
+		DisplayName: Gui Plus クライアント設定
+
+		EnableGuiAnimations: {
+			Label: GUIアニメーションを有効化
+			Tooltip: 設定をオフにした場合、他効果を維持したままGuiPlusのアニメーションが無効化されます
+		}
+
+		AnimationStrength: {
+			Label: アニメーション強度
+			Tooltip: 
+				'''
+				アニメーションの振れ幅を調整します。1が標準、2でより強くなります
+				完全に無効にするには「GUIアニメーションを有効化」をオフにしてください
+				'''
+		}
+
+		AnimationSpeed: {
+			Label: アニメーション速度
+			Tooltip: 
+				'''
+				アニメーションの再生速度を調整します
+				1が標準値で、低いほど遅く、高いほど速くなります
+				'''
+		}
+
+		AnimationStyle: {
+			Label: アニメーションスタイル
+			Tooltip: 
+				'''
+				Default：通常の動き方
+				Pop：その場で拡大してから縮小します
+				'''
+		}
+	}
+
+	GuiAnimationStyle: {
+		Tooltip: ""
+
+		Default: {
+			Label: デフォルト
+			Tooltip: ""
+		}
+
+		Pop: {
+			Label: ポップ
+			Tooltip: ""
+		}
+	}
+}

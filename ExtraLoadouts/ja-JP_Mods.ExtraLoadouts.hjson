@@ -18,38 +18,47 @@ Configs: {
 
 		FallenStar: {
 			Label: 流れ星
+			Tooltip: ""
 		}
 
 		AnyGoldBar: {
 			Label: 金orプラチナ インゴット
+			Tooltip: ""
 		}
 
 		AnyDemoniteBar: {
 			Label: デモナイトorクリムタン インゴット
+			Tooltip: ""
 		}
 
 		AnyShadowScale: {
 			Label: シャドースケールor組織サンプル
+			Tooltip: ""
 		}
 
 		BeeWax: {
 			Label: 蜜蝋
+			Tooltip: ""
 		}
 
 		Bone: {
 			Label: 骨
+			Tooltip: ""
 		}
 
 		AnySoul: {
 			Label: 任意のソウル
+			Tooltip: ""
 		}
 
 		HallowedBar: {
 			Label: 聖鉄のインゴット
+			Tooltip: ""
 		}
 
 		ChlorophyteBar: {
 			Label: クロロファイトのインゴット
+			Tooltip: ""
 		}
 	}
 }
@@ -63,147 +72,108 @@ GUI: {
 	Loadout9: 装備セット 9
 	DisabledButOccupied:
 		'''
-		このレイアウトはMODのコンフィグで無効化されていますが、まだアイテムが入っています！
-		すべてのアイテムが削除されるまで、アクセス可能なままです。
+		このレイアウトはMOD設定で無効化されていますが、まだアイテムが入っています！
+		すべてのアイテムが削除されるまで、アクセス可能です
 		'''
 }
 
-RecipeConditions: {
-	ExtraLoadoutVoodooDoll1: 少なくとも1つの追加スロットがExtended Equipment Loadouts設定で有効になっている必要があります。
-	ExtraLoadoutVoodooDoll2: 少なくとも2つの追加スロットがExtended Equipment Loadouts設定で有効になっている必要があります。
-	ExtraLoadoutVoodooDoll3: 少なくとも3つの追加スロットがExtended Equipment Loadouts設定で有効になっている必要があります。
-}
-
-CommonItemTooltips: {
-	LoadoutVoodooDollCurrentlyCopying: 現在コピー中： {0}
+Keybinds: {
+	SwapToLoadout4.DisplayName: 装備セット 4
+	SwapToLoadout5.DisplayName: 装備セット 5
+	SwapToLoadout6.DisplayName: 装備セット 6
+	SwapToLoadout7.DisplayName: 装備セット 7
+	SwapToLoadout8.DisplayName: 装備セット 8
+	SwapToLoadout9.DisplayName: 装備セット 9
 }
 
 Items: {
 	LoadoutVoodooDoll1: {
-		DisplayName: 装備セット・ブードゥー人形 1
+		DisplayName: 装備セット・ブードゥー人形（1）
 		Tooltip:
 			'''
-			装備セット1の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット1の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll2: {
-		DisplayName: 装備セット・ブードゥー人形 2
+		DisplayName: 装備セット・ブードゥー人形（2）
 		Tooltip:
 			'''
-			装備セット2の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット2の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll3: {
-		DisplayName: 装備セット・ブードゥー人形 3
+		DisplayName: 装備セット・ブードゥー人形（3）
 		Tooltip:
 			'''
-			装備セット3の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット3の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll4: {
-		DisplayName: 装備セット・ブードゥー人形 4
+		DisplayName: 装備セット・ブードゥー人形（4）
 		Tooltip:
 			'''
-			装備セット4の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット4の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll5: {
-		DisplayName: 装備セット・ブードゥー人形 5
+		DisplayName: 装備セット・ブードゥー人形（5）
 		Tooltip:
 			'''
-			装備セット5の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット5の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll6: {
-		DisplayName: 装備セット・ブードゥー人形 6
+		DisplayName: 装備セット・ブードゥー人形（6）
 		Tooltip:
 			'''
-			装備セット6の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット6の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll7: {
-		DisplayName: 装備セット・ブードゥー人形 7
+		DisplayName: 装備セット・ブードゥー人形（7）
 		Tooltip:
 			'''
-			装備セット7の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット7の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll8: {
-		DisplayName: 装備セット・ブードゥー人形 8
+		DisplayName: 装備セット・ブードゥー人形（8）
 		Tooltip:
 			'''
-			装備セット8の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット8の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 
 	LoadoutVoodooDoll9: {
-		DisplayName: 装備セット・ブードゥー人形 9
+		DisplayName: 装備セット・ブードゥー人形（9）
 		Tooltip:
 			'''
-			装備セット9の同じスロットにあるアクセサリーの効果をコピーする。
-			現在の装備セットに装備されているアクセサリーの効果をコピーすることはできない。
-			他の装備セットのブードゥー人形をコピーすることはできない。
+			装備セット9の同じスロットのアクセサリー効果をコピーする
+			現在装備中のアクセサリー効果はコピーできない
+			他の装備セットのブードゥー人形はコピーできない
 			'''
 	}
 }
-
-Misc: {
-	LoadoutVoodooDollCopyingNothing: 何もなし
-}
-
-RecipeGroup: {
-	AnyGoldBar: 金のインゴット
-	AnyDemoniteBar: デモナイトのインゴット
-	AnyShadowScale: シャドースケールor組織サンプル
-	AnySoul: どれかの魂
-}
-
-Keybinds: {
-	SwapToLoadout4: {
-		DisplayName: 装備セット 4
-	}
-
-	SwapToLoadout5: {
-		DisplayName: 装備セット 5
-	}
-
-	SwapToLoadout6: {
-		DisplayName: 装備セット 6
-	}
-
-	SwapToLoadout7: {
-		DisplayName: 装備セット 7
-	}
-
-	SwapToLoadout8: {
-		DisplayName: 装備セット 8
-	}
-
-	SwapToLoadout9: {
-		DisplayName: 装備セット 9
-	}
-}
-

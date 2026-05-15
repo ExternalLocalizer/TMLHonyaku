@@ -1,0 +1,30 @@
+Keybinds: {
+	IncreaseMultiplier: {
+		DisplayName: 倍率増加
+	}
+
+	DecreaseMultiplier: {
+		DisplayName: 倍率減少
+	}
+}
+
+Configs: {
+	MoreGoldConfig: {
+		GoldMultiplierSlider: {
+			Label: ゴールド倍率
+			Tooltip:
+				'''
+				ドロップするゴールドをX倍にします
+				エキスパート／マスターワールドのトレジャーバッグにも適用されます
+				他のMODの倍率効果と重複する場合があります
+				'''
+		}
+
+		Headers: {
+			General: 一般
+		}
+
+		DisplayName: メイン設定
+	}
+}
+

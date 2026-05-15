@@ -1,0 +1,273 @@
+ListAll: {
+	1: "{n}"
+	2: "{n}と{n}"
+	Any: "[{n}、]および{n}"
+}
+
+PluralityFormatting.NoValidFormat: "{1} で {0} 引数の有効なフォーマットが見つかりませんでした"
+FlagsEnumConfigElement.NoneSelected: なし
+ExtraDyeSlotsButton: 追加の染料
+WeakSyncedAction_BothSide: パフォーマンス上の理由から、WeakSyncedActionsはBoth-side Modで追加しないでください。代わりにSyncedActionを使用してください
+Warnings.WarningPrefaceText: Modの読み込み中にいくつかのエラーが発生しました。これは他のModとの互換性の問題が原因である可能性があります
+
+NotSynced_KeybindHandlerPlayer: {
+	Base: KeybindHandlerPlayerですが、サーバーにPegasusLibが存在しないため、一部のキーバインドが他のクライアントで期待どおりの効果を発揮しない可能性があります
+	1: "{n}は{$Base}を使用します"
+	2: "{n}と{n}は{$Base}を使用します"
+	Any: "[{n}、]および{n}は{$Base}を使用します"
+}
+
+NotSynced_WeakSyncedAction: {
+	Base: WeakSyncedActionですが、サーバーにPegasusLibが存在しないため、一部のアクションは他のクライアントで期待どおりの効果を発揮しない可能性があります
+	1: "{n}は{$Base}を使用します"
+	2: "{n}と{n}は{$Base}を使用します"
+	Any: "[{n}、]および{n}は{$Base}を使用します"
+}
+
+UnboundKey: '''"{0}" (バインドされていません)'''
+
+Configs: {
+	PegasusConfig: {
+		DisplayName: 設定
+
+		alwaysShowDyeSlotList: {
+			Label: 常に追加の染料リストを表示する
+			Tooltip: ""
+		}
+
+		buffHintListCondition: {
+			Label: バフヒントリストのコントロール
+			Tooltip:
+				'''
+				対応アイテムのバフヒントリストが表示されるタイミング
+				特定のキーを押している間、常に、または非表示
+				'''
+		}
+
+		buffHintListPosition: {
+			Label: バフヒントリストの位置
+			Tooltip: ""
+		}
+
+		buffHintListScale: {
+			Label: バフヒントリストの大きさ
+			Tooltip: ""
+		}
+
+		showAdditionalDebuffsTooltip: {
+			Label: 追加のデバフを表示するツールチップ
+			Tooltip: 通常のツールチップに記載されていないバフ効果を表示するためのツールチップの行を追加するかどうか
+		}
+
+		colorBuffHints: {
+			Label: バフのヒントに色を付ける
+			Tooltip: ""
+		}
+
+		invertOnHitBuffHintColor: {
+			Label: 「命中時」効果のバフヒントカラーを反転する
+			Tooltip: ""
+		}
+
+		dyeSlotNamePlacement: {
+			Label: 追加染料スロット名の配置
+			Tooltip: ""
+		}
+
+		preferredTextCursor: {
+			Label: 優先テキスト入力カーソル
+			Tooltip: PegasusLibを使用するテキスト入力フィールドで使用されるテキストカーソルの種類
+		}
+
+		ProceduralLightSourceDyeRate: {
+			Label: プロシージャル光源染料のレート
+			Tooltip:
+				'''
+				未知の染料がサポートされている光源の色を照会する頻度（照会あたりのティック数）
+				0に設定すると、光源は既知の染料のみで染色されます
+				低い値を設定すると、高性能なコンピューターが必要になります
+				'''
+		}
+	}
+
+	BuffListPosition: {
+		Tooltip: ""
+		Right.Label: 右
+
+		Below: {
+			Label: 下
+			Tooltip: ""
+		}
+
+		Side: {
+			Label: 側面
+			Tooltip: ""
+		}
+	}
+
+	BuffListControl: {
+		Tooltip: ""
+
+		Shift: {
+			Label: シフトキー
+			Tooltip: ""
+		}
+
+		Always: {
+			Label: 常
+			Tooltip: ""
+		}
+
+		Never: {
+			Label: 非表示
+			Tooltip: ""
+		}
+
+		Control: {
+			Label: コントロールキー
+			Tooltip: ""
+		}
+
+		Alt: {
+			Label: オルトキー
+			Tooltip: ""
+		}
+	}
+
+	SlotNamePlacement: {
+		SlotName: スロット名
+		ItemName: アイテム名
+		OtherTooltips:その他のツールチップ
+	}
+
+	"SlotNamePlacement[].Tooltip": ""
+
+	CursorType: {
+		Tooltip: ""
+
+		Line: {
+			Label: ライン
+			Tooltip: ""
+		}
+
+		Caret: {
+			Label: キャレット
+			Tooltip: ""
+		}
+
+		Caron: {
+			Label: カロン
+			Tooltip: ""
+		}
+
+		Underscore: {
+			Label: アンダースコア
+			Tooltip: ""
+		}
+	}
+}
+
+BuffTooltip: {
+	DOT: 毎秒{0:0.#}ダメージを与える
+	AffectDamage: "{0:+0%;-0%}{1}ダメージ"
+	CursedInferno: ノックバックが10%増加
+	Ichor: 防御力が15減少
+	Oiled: 炎上している対象に毎秒25ダメージを与える
+	Midas: 対象は死亡時にコインを10-49%多くドロップする
+	Daybreak: 対象に刺さった槍1本につき毎秒25ダメージを与える
+	Weak:
+		'''
+		防御力が4減少
+		近接ダメージが5.1%減少
+		近接攻撃速度が5.1%低下
+		移動速度が10%低下
+		'''
+	WitheredWeapon: ダメージが半分に減少する
+	Frozen: 移動できず、攻撃できない
+	Webbed: 移動できない
+	Stoned:
+		'''
+		{$Frozen}
+		落下ダメージが増加する
+		'''
+	Shimmer: 何かが起きるかもしれない！
+	DryadsWardDebuff: 倒したボスの数に応じてダメージが増加
+}
+
+InflictsDebuffs: "{0}を与える"
+
+AdvancedTextSnippet: {
+	Waggle_Handler: {
+		Option_t: 時間要素
+		Option_x: Xファクター
+		Option_y: 揺れ目盛
+	}
+
+	KeybindSnippetHandler: {
+		Option_Keyboard: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Keyboard
+		Option_KeyboardUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_KeyboardUI
+		Option_Mouse: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Mouse
+		Option_XBoxGamepad: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepad
+		Option_XBoxGamepadUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepadUI
+	}
+}
+
+ItemTooltip: {
+	FlaskofVenom: 近接攻撃と鞭攻撃に[buffhint:Venom]の追加効果を付与
+	FlaskofCursedFlames: 近接攻撃と鞭攻撃に[buffhint/dn呪炎:CursedInferno]の追加効果を付与
+	FlaskofFire: 近接攻撃と鞭攻撃に[buffhint/dn炎上:OnFire]の追加効果を付与
+	FlaskofGold: 近接攻撃と鞭攻撃に[buffhint/dnドロップ金額増加:Midas]の追加効果を付与
+	FlaskofIchor: 近接攻撃と鞭攻撃に[buffhint/dn敵の防御減少:Ichor]の追加効果を付与
+	FlaskofNanites: 近接攻撃と鞭攻撃に[buffhint/dn混乱:Confused]の追加効果を付与
+	FlaskofPoison: 近接攻撃と鞭攻撃に[buffhint/dn毒:Poisoned]の追加効果を付与
+	VenomArrow: 対象に[buffhint:Venom]を付与
+	VenomBullet: 対象に[buffhint:Venom]を付与
+	NanoBullet: "[buffhint/dn混乱:Confused]の追加効果を与え、壁に衝突時跳ね返る"
+	GoldenBullet: "敵の[buffhint/dnドロップする金額が増加:Midas]"
+	ShadowFlameKnife: 攻撃ヒット時に[buffhint:ShadowFlame]の効果を及ぼす
+	BeeKeeper:
+		'''
+		敵を攻撃すると蜂を召喚する
+		低確率で敵を[buffhint/dn混乱:Confused]させる
+		'''
+	DaoofPow:
+		'''
+		敵を[buffhint/dn混乱:Confused]させる
+		「あなたの心の闇と光を見定める」
+		'''
+	FireGauntlet:
+		'''
+		近接攻撃のノックバック増加、更に[buffhint/dn炎上:OnFire3]効果を付与
+		近接ダメージと攻撃速度が12%上昇
+		近接武器のオート攻撃を有効にする
+		近接武器のサイズを増加させる
+		'''
+	InfernoPotion: "周囲の敵を[buffhint/dn炎上:OnFire3]させる"
+	MagmaStone: 攻撃時に[buffhint/dn炎上:OnFire3]効果を加える
+	MolotovCocktail:
+		'''
+		敵を[buffhint/dn燃やす:OnFire3]小規模な爆発を起こす
+		一定時間、炎で辺りを照らす
+		'''
+	PoisonDart: 敵に[buffhint/dn毒:Poisoned]を与える
+}
+
+ArmorSetBonus: {
+	Frost:
+		'''
+		近接と遠距離攻撃に[buffhint:Frostburn2]の追加効果
+		近接と遠距離ダメージが10%増加
+		'''
+	HuntressTier2:
+		'''
+		召喚できるセントリーの数が増える
+		爆発罠の待ち時間を縮め敵を[buffhint/dnオイルまみれ:Oiled]にする
+		オイルは火のついた敵に追加ダメージを与える
+		'''
+	HuntressTier3:
+		'''
+		召喚できるセントリーの数が増える
+		爆発罠を大幅に強化し、敵を[buffhint/dnオイルまみれ:Oiled]にする
+		'''
+}
+

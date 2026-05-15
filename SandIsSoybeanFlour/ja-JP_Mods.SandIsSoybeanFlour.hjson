@@ -1,0 +1,78 @@
+Items: {
+	PlaceableSoybeanFlourBlock: {
+		Tooltip: ""
+		DisplayName: 硬化したきな粉ブロック
+	}
+
+	SoybeanFlourBlock: {
+		Tooltip:
+			'''
+			戦闘ステータスが少し強化
+			食べるほど効果が強化される
+			持続時間 1分
+			「水と一緒にどうぞ」
+			'''
+		DisplayName: きな粉ブロック
+	}
+
+	SoybeanFlour: {
+		Tooltip: アントリオンが砂の代わりにきな粉を発射するようになる
+		DisplayName: きな粉
+	}
+
+	RoastedRiceCake: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: 焼き餅
+	}
+
+	RiceCakeOnaStick: {
+		Tooltip: 「キャンプファイアで焼こう！」
+		DisplayName: 串餅
+	}
+
+	RiceCake: {
+		Tooltip: 「串にして火であぶろう！」
+		DisplayName: 餅
+	}
+
+	Kinakomochi: {
+		Tooltip:
+			'''
+			戦闘ステータスが少し強化
+			食べるほど効果が強化される
+			持続時間 8分
+			'''
+		DisplayName: きなこ餅
+	}
+
+	GelSolidifier: {
+		Tooltip: スライムを餅に変える
+		DisplayName: ジェル固化機
+	}
+
+	EdibleSandBlock: {
+		Tooltip: （tModLoader v1.4.4の仕様によりこの説明は無効です。v1.4.3でのプレイを推奨します）
+		DisplayName: 食用砂ブロック
+	}
+}
+
+Projectiles: {
+	SoybeanFlourBall.DisplayName: きな粉弾
+	SoybeanFlour.DisplayName: きな粉
+	RiceCakedSlime.DisplayName: 餅スライム
+	GelSolidifier.DisplayName: ジェル固化機
+}
+
+Buffs: {
+	Protein: {
+		Description: 戦闘ステータスが少し上昇
+		DisplayName: プロテイン
+	}
+
+	Choked: {
+		Description: 水が必要だ！
+		DisplayName: のど詰まり
+	}
+}
+
+UI.WorldGenMessage.PlacingFood: 食料を配置中

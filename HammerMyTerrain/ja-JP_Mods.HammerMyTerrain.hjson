@@ -1,0 +1,151 @@
+Configs: {
+	HammerMyTerrainConfig: {
+		DisplayName: オートハンマー設定
+
+		Headers: {
+			General: 一般
+			SmartHammerHeader: 実験的: スマートハンマーモード
+			HammerModeHeader: オートハンマー設定
+			FilterHeader: フィルターモード
+		}
+
+		RequireHammerInHotbar: {
+			Label: ホットバーにハンマーが必要
+			Tooltip: オンにすると、このModはホットバーにハンマーがある場合にのみ自動的にハンマーを振ります
+		}
+
+		ShowToggleIndicator: {
+			Label: インジケーターの表示切り替え
+			Tooltip: オンにすると、キーバインド使用時に頭上にインジケーターが表示されます
+		}
+
+		DisableOnWorldLoad: {
+			Label: ワールドロード時に無効化する
+			Tooltip: オンにすると、ワールドをロードする際にオートハンマーは常にオフになります
+		}
+
+		PopOffEnabled: {
+			Label: 傾斜とハーフブロックを自動的に破壊する
+			Tooltip: オンにすると、採掘時に隣接するブロックがない斜面かハーフブロックはアイテムになります
+		}
+
+		PopOffRespectWalls: {
+			Label: 壁は支えとして扱われる
+			Tooltip: オンにすると、斜面かハーフブロックの後ろに壁があるなら自動的に破壊されません
+		}
+
+		SmartHammerEnabled: {
+			Label: スマートハンマーモード
+			Tooltip: オンにすると、傾斜とハーフブロックはランダムではなく地形の形状に基づいて適用されます。「オートハンマー設定」セクションは適用されません
+		}
+
+		HammerMode: {
+			Label: オートハンマーモード
+			Tooltip:
+				'''
+				両方：斜面とハーフブロックにハンマーを自動的に使う
+				斜面のみ：斜面にのみハンマーを自動的に使う
+				ハーフブロックのみ：ハーフブロックにのみハンマーを自動的に使う
+				'''
+		}
+
+		SlopeChance: {
+			Label: 傾斜になる確率 (%)
+			Tooltip: 隣接するブロックが傾斜になる確率
+		}
+
+		HalfBlockChance: {
+			Label: ハーフブロックになる確率 (%)
+			Tooltip: 隣接するブロックがハーフブロックになる確率
+		}
+
+		AdditionalHalfBlocksEnabled: {
+			Label: 追加のハーフブロック
+			Tooltip:
+				'''
+				オンにすると、ブロックがハーフブロックになった場合、
+				最初のハーフブロックの後に最大で2つの追加のハーフブロックが生成されることがあります
+				'''
+		}
+
+		BlockFilter: {
+			Label: フィルターモード
+			Tooltip:
+				'''
+				オフ: 全ての固体ブロックにハンマーを自動的に使う
+				ホワイトリスト: ホワイトリストに登録されているブロックのみにハンマーを自動的に使う
+				ブラックリスト: ブラックリストに登録されていないブロックにハンマーを自動的に使う
+				'''
+		}
+
+		Blacklist: {
+			Label: ブラックリスト
+			Tooltip:
+				'''
+				フィルターモードがブラックリストに設定されている場合にのみ使用されます
+				バニラブロックはブロックID名を使用します（例：石、土、粘土）
+				Mod追加ブロックはMod名/ブロック名を使用します（例：ExampleMod/ExampleTile）
+				'''
+		}
+
+		Whitelist: {
+			Label: ホワイトリスト
+			Tooltip:
+				'''
+				フィルターモードがホワイトリストに設定されている場合にのみ使用されます
+				バニラブロックはブロックID名を使用します（例：石、土、粘土）
+				Mod追加ブロックはMod名/ブロック名を使用します（例：ExampleMod/ExampleTile）
+				'''
+		}
+	}
+
+	FilterMode: {
+		Off: {
+			Tooltip: ""
+			Label: オフ
+		}
+
+		Whitelist: {
+			Tooltip: ""
+			Label: ホワイトリスト
+		}
+
+		Blacklist: {
+			Tooltip: ""
+			Label: ブラックリスト
+		}
+
+		Tooltip: ""
+	}
+
+	HammerMode: {
+		Both: {
+			Tooltip: ""
+			Label: 両方
+		}
+
+		SlopesOnly: {
+			Tooltip: ""
+			Label: 斜面のみ
+		}
+
+		HalfBlocksOnly: {
+			Tooltip: ""
+			Label: ハーフブロックのみ
+		}
+
+		Tooltip: ""
+	}
+}
+
+Keybinds: {
+	ToggleMod: {
+		$parentVal: Hammer My Terrainの切り替え
+		DisplayName: オートハンマーの切り替え
+	}
+
+	OpenFilterUI: {
+		$parentVal: フィルターUIを開く
+		DisplayName: フィルターUIを開く
+	}
+}

@@ -23,11 +23,26 @@ Items: {
 		DisplayName: エンプレスブレード（LV5）
 		Tooltip: ""
 	}
-}
 
-Projectiles: {
-	EmpressBlade: {
-		DisplayName: エンプレブレード
+	ExampleSimpleMinionItem: {
+		Tooltip: ""
+		DisplayName: 簡易ミニオン召喚アイテム
+	}
+
+	EmpressBladeLVMAX: {
+		DisplayName: エンプレスブレード （最大レベル）
+		Tooltip: ""
 	}
 }
 
+Projectiles: {
+	EmpressBlade.DisplayName: エンプレブレード
+	SilverSword.DisplayName: 銀の剣
+}
+
+Buffs: {
+	ExampleSimpleMinionBuff: {
+		Description: Mods.MoreEmpressBlade.Buffs.ExampleSimpleMinionBuff.Description
+		DisplayName: 簡易ミニオン
+	}
+}

@@ -1,0 +1,4980 @@
+Keybinds: {
+	"Alchemist Hidden Reaction.DisplayName": 錬金術の隠し反応
+	"Alchemist Catalyst Tool Shortcut.DisplayName": 錬金術の触媒のショートカット
+	"Hidden Reaction.DisplayName": 隠し反応
+}
+
+Tiles: {
+	JungleLilyTile.MapEntry: ジャングルリリー
+	ShamanBiomeChestTile.MapEntry: キノコの宝箱
+	GuardianBuffStationTile.MapEntry: 回転するダミー
+	VerveineQuarterstaffTile.MapEntry: おならの植物
+}
+
+Buffs: {
+	TitanicBuff: {
+		DisplayName: タイタニック
+		Description: ""
+	}
+
+	LodestoneSlow: {
+		DisplayName: 磁石の鈍足
+		Description: ""
+	}
+
+	GraniteAura: {
+		DisplayName: 御影石のオーラ
+		Description: ""
+	}
+
+	AquaBump: {
+		DisplayName: アクアバンプ
+		Description: ""
+	}
+
+	ShroomHeal: {
+		DisplayName: キノコの治癒
+		Description: ""
+	}
+
+	ShamanicEmpowerment: {
+		DisplayName: シャーマニックエンパワーメント
+		Description: ""
+	}
+
+	MythrilDefense: {
+		DisplayName: ミスリルの守護
+		Description: ""
+	}
+
+	DeepForestAura: {
+		DisplayName: 深い森林のオーラ
+		Description: ""
+	}
+
+	WindStun: {
+		DisplayName: ウィンドスタン
+		Description: ""
+	}
+
+	WindSlow: {
+		DisplayName: ウィンドスロー
+		Description: ""
+	}
+
+	WindDamage: {
+		DisplayName: ウィンドダメージ
+		Description: ""
+	}
+
+	LeafSlow: {
+		DisplayName: リーフスロー
+		Description: ""
+	}
+
+	HellHit: {
+		DisplayName: ヘルヒット
+		Description: ""
+	}
+
+	EarthTotemRevive: {
+		DisplayName: 大地のトーテムの復活
+		Description: ""
+	}
+
+	DiabolistCauterizeCooldown: {
+		DisplayName: 悪魔主義者の焼灼のクールダウン
+		Description: ""
+	}
+
+	BrokenPower: {
+		DisplayName: 壊れた力
+		Description: ""
+	}
+
+	AbyssEmpowerment: {
+		DisplayName: アビスエンパワーメント
+		Description: ""
+	}
+
+	RCRemoteBuff: {
+		DisplayName: R Cのリモコン
+		Description: ブーン
+	}
+
+	SquareMinecartBuff: {
+		DisplayName: トロッコ
+		Description: トロッコに乗って
+	}
+
+	HarpyPotionBuff: {
+		DisplayName: ハーピーの機動
+		Description: 空中ジャンプできる回数が増え、空中ジャンプ時に羽を放つ
+	}
+
+	VulturePotionBuff: {
+		DisplayName: スカベンジャー
+		Description: ギャンブラーのチップの生成量が20%増加
+	}
+
+	ConquerorsPennantBuff: {
+		DisplayName: 征服者のスリル
+		Description: ギャンブルクリティカル率と移動速度が10%上昇
+	}
+
+	SlimeSlow: {
+		DisplayName: スライムスロー
+		Description: 移動速度が低下
+	}
+
+	ReactionCooldown: {
+		DisplayName: 隠し反応のクールダウン
+		Description: 隠し反応を発動できない
+	}
+
+	FlashFreeze: {
+		DisplayName: フラッシュフリーズ
+		Description: 移動速度が低下
+	}
+
+	Catalyzed: {
+		DisplayName: 触媒
+		Description: 様々な錬金術的な特性を誘発する
+	}
+
+	Attraction: {
+		DisplayName: アトラクション
+		Description: 近くの錬金術の投射物を引き寄せる
+	}
+
+	StellarTalcBuff: {
+		DisplayName: 星のオービット
+		Description: 星の滑石の弾が周囲を回る
+	}
+
+	StardustSamplesBuff: {
+		DisplayName: 星屑の混乱
+		Description: 森林のサンプルのヒマワリが混乱を与えるようになる
+	}
+
+	SpiritedWaterBuff: {
+		DisplayName: スピリテッド
+		Description: 化学攻撃で勢いよくウォーターフレイムを発射する
+	}
+
+	SlimeFlaskBuff: {
+		DisplayName: 燃えるサンプル
+		Description: スライムのサンプルを火の元素と併用すると、燃えかすをばら撒く
+	}
+
+	ReactiveVialsBuff: {
+		DisplayName: 反応性元素
+		Description: 次の化学調合物の化学ダメージが10%増加
+	}
+
+	QueenBeeFlaskBuff: {
+		DisplayName: 人間蜂の巣
+		Description: 3つ以上の元素を使って攻撃するとハチを召喚する
+	}
+
+	MushroomHeal: {
+		DisplayName: キノコの胞子
+		Description: 化学攻撃で発生する胞子が増える
+	}
+
+	MeteorSpeed: {
+		DisplayName: 隕石の機動
+		Description: ノックバックを無効化し、移動速度が20%上昇する
+	}
+
+	KingSlimeFlaskBuff: {
+		DisplayName: 毒のスライム
+		Description: スライムの泡が発生しやすくなり、スパイクジャングルスライムを生成する
+	}
+
+	JungleLilyExtractBuff: {
+		DisplayName: 浄化のリリー
+		Description: 元素を2つ以上使って攻撃すると、浄化のオーラが発生する
+	}
+
+	IceChestFlaskBuff: {
+		DisplayName: 永久凍結
+		Description: 様々な錬金術の投射物が凍り、周囲の敵の動きが遅くなる
+	}
+
+	DemonBreathFlaskBuff: {
+		DisplayName: デーモンの悪臭
+		Description: デーモンの息吹の炎が複製される
+	}
+
+	BloodMistFlaskBuff: {
+		DisplayName: 霧の足跡
+		Description: 移動すると血の霧が発生する
+	}
+
+	AttractiteAuraSmall: {
+		DisplayName: 小さなアトラクタイトのオーラ
+		Description: 近くの敵にアトラクタイトを与える
+	}
+
+	GuardianSpikeBuff: {
+		DisplayName: 鋭い反論
+		Description: 相克ダメージが15%増加
+	}
+
+	BambooBuff: {
+		DisplayName: 竹の守護
+		Description: 防御力が50%増加
+	}
+
+	GuardianGitBuff: {
+		DisplayName: 上手くなった
+		Description: 移動速度が30%上昇
+	}
+
+	GuardianRunePotionBuff: {
+		DisplayName: ルーンマスタリー
+		Description: ガーディアンのルーンの弾の数が増加する
+	}
+
+	GuardianJungleGauntletBuff: {
+		DisplayName: 野生の怒り
+		Description: 近接攻撃速度が100%上昇
+	}
+
+	GuardianSpiderGauntletBuff: {
+		DisplayName: 毒のパンチ
+		Description: パンチすると毒の牙を放つ
+	}
+
+	GuardianMechanicalGauntletBuff: {
+		DisplayName: ロケットパンチ
+		Description: パンチすると前進する！
+	}
+
+	GuardianHoneyPotionBuff: {
+		DisplayName: スイートガード
+		Description: ブロックかパリィに成功すると最大ライフの1%を回復する
+	}
+
+	GuardianPaladinGauntletBuff: {
+		DisplayName: クルセイダーストライク
+		Description: パンチすると光の火花を放つ
+	}
+
+	GuardianBuffStationBuff: {
+		DisplayName: 戦闘準備完了
+		Description: 最大スラムが1増加
+	}
+
+	SageOwlDebuff: {
+		DisplayName: フクロウ
+		Description: 防御力が減少
+	}
+
+	WardenTortoiseBuff: {
+		DisplayName: スナップジョー
+		Description: 次の一口が格段に美味しくなる
+	}
+
+	WardenSpiderDebuff: {
+		DisplayName: シェルウェブ
+		Description: 移動速度が低下
+	}
+
+	SageBatDebuff: {
+		DisplayName: エコーロケイテッド
+		Description: コウモリから攻撃されると大きなダメージを受ける
+	}
+
+	HockeyQuarterstaffDebuff: {
+		Description: パックアップ
+		DisplayName: わーい！
+	}
+
+	RubyHealing: {
+		DisplayName: ルビーの治癒
+		Description: ライフ自然回復を大きく増進
+	}
+
+	OpalResources: {
+		DisplayName: オパールリソース
+		Description: リソースの回復速度が10%上昇
+	}
+
+	ShapeshifterSurvivalPotionBuff: {
+		DisplayName: 生存本能
+		Description: ライフに応じて、ダメージ耐性と野生ダメージが増加する
+	}
+
+	ShapeshifterShapeshiftingCooldownDebuff: {
+		DisplayName: 変身酔い
+		Description: ステータスが弱化し、変身時の効果がなくなる
+	}
+
+	ThoriumGrandThunderBirdWarhammerDebuff: {
+		DisplayName: 導電性
+		Description: あなたはまるで避雷針だ！
+	}
+
+	GuardianThoriumBronzeShieldBuff: {
+		DisplayName: テステュード
+		Description: 近くの味方を守るため、次の攻撃のダメージが{0}%増加
+		AltDescription:
+			'''
+			 そしてさらに上昇中！
+			ガード回復力が消費されると、ダメージがさらに増加する
+			'''
+	}
+
+	ThoriumBronzeShieldProtection: {
+		DisplayName: テステュードフォーメーション
+		Description: 味方の盾に守られている
+	}
+
+	GuardianRegenPotionBuff: {
+		DisplayName: 粘り強さ
+		Description: ガードとスラムの最大回復量が増加
+	}
+}
+
+AlchemistRecipe: {
+	RecipeAirSpores: {
+		DisplayName: 空気の胞子
+		Tooltip: 空気の胞子が大量に発生するが、既存の胞子は破壊しない
+	}
+
+	RecipeLesserAttractiteAura: {
+		DisplayName: 小さなアトラクタイトのオーラ
+		Tooltip: 近くの敵にアトラクタイトを与える
+	}
+
+	RecipeAttractiteShurikens: {
+		DisplayName: アトラクタイトの手裏剣
+		Tooltip: 当たった敵にアトラクタイトを与える、アトラクタイト手裏剣を最大で5個生成する
+	}
+
+	RecipeBeeSwarm: {
+		DisplayName: ハチの群れ
+		Tooltip: プレイヤーの周囲にハチの大群が発生する
+	}
+
+	RecipeOilBubble: {
+		DisplayName: オイルの泡
+		Tooltip: 触媒として機能するオイルの泡を生成する
+	}
+
+	RecipePoisonBubble: {
+		DisplayName: 毒の泡
+		Tooltip: 触媒として機能する毒の泡を生成する
+	}
+
+	RecipeBubbles: {
+		DisplayName: 泡
+		Tooltip: 泡が広範囲に生成される
+	}
+
+	RecipeSapBubble: {
+		DisplayName: 樹液の泡
+		Tooltip: 触媒として機能する樹液の泡を生成する
+	}
+
+	RecipeSeafoamBubble: {
+		DisplayName: 海の泡
+		Tooltip: 触媒として機能する海の泡を生成する
+	}
+
+	RecipeSlimeBubble: {
+		DisplayName: スライムの泡
+		Tooltip: 触媒として機能するスライムの泡を生成する
+	}
+
+	RecipeLavaSlimeBubble: {
+		DisplayName: ラーヴァスライムの泡
+		Tooltip: 触媒として機能するラーヴァスライムの泡を生成する
+	}
+
+	RecipeSpiritedBubble: {
+		DisplayName: スピリテッドバブル
+		Tooltip: 触媒として機能するスピリテッドバブルを生成する
+	}
+
+	RecipeBurningSamples: {
+		DisplayName: 燃えるサンプル
+		Tooltip: スライムのサンプルを火の元素と併用すると、燃えかすをばら撒く
+	}
+
+	RecipeDemonReeks: {
+		DisplayName: デーモンの悪臭
+		Tooltip: デーモンの息吹の炎が複製される
+	}
+
+	RecipeFireSpores: {
+		DisplayName: 炎の胞子
+		Tooltip: 火の胞子が大量に発生するが、既存の胞子は破壊しない
+	}
+
+	RecipeGlowshroomHealing: {
+		DisplayName: 光るキノコの治癒
+		Tooltip: ライフを25回復
+	}
+
+	RecipeJungleLilyPurification: {
+		DisplayName: リリーの浄化
+		Tooltip: 序盤によく見られるほとんどのデバフを治し、周りにジャングルリリーを咲かせる
+	}
+
+	RecipeLivingBeehive: {
+		DisplayName: 生きた蜂の巣
+		Tooltip: 3つ以上の元素を使って攻撃すると蜂を召喚する
+	}
+
+	RecipeMistySteps: {
+		DisplayName: 霧の足跡
+		Tooltip: 移動すると触れた敵にダメージを与える霧が発生する
+	}
+
+	RecipeMushroomThread: {
+		DisplayName: キノコの糸
+		Tooltip: キノコの糸が生成される。この糸は防具の作成に使用できる
+	}
+
+	RecipePermanentFreeze: {
+		DisplayName: 永久凍結
+		Tooltip: プレイヤーの周囲に瞬間凍結のオーラをしばらくの間発生させる
+	}
+
+	RecipePoisonousSlime: {
+		DisplayName: 毒のスライム
+		Tooltip: スライムの泡が発生しやすくなり、スパイクジャングルスライムを生成する
+	}
+
+	RecipeBuilderPotion: {
+		DisplayName: 建築のポーション
+		Tooltip: 建築のポーションの効果を30秒間得る
+	}
+
+	RecipeFeatherfallPotion: {
+		DisplayName: 落下制御ポーション
+		Tooltip: 落下制御ポーションの効果を30秒間得る
+	}
+
+	RecipeFlipperPotion: {
+		DisplayName: 遊泳のポーション
+		Tooltip: 遊泳のポーションの効果を30秒間得る
+	}
+
+	RecipeInvisibilityPotion: {
+		DisplayName: 透明化のポーション
+		Tooltip: 透明化のポーションの効果を30秒間得る
+	}
+
+	RecipeNightOwlPotion: {
+		DisplayName: 夜目のポーション 
+		Tooltip: 夜目のポーションの効果を30秒間得る
+	}
+
+	RecipeObsidianSkinPotion: {
+		DisplayName: 黒曜石の肌ポーション
+		Tooltip: 黒曜石の肌ポーションの効果を30秒間得る
+	}
+
+	RecipePropulsion: {
+		DisplayName: 推進
+		Tooltip: プレイヤーを上に飛ばす
+	}
+
+	RecipePurifyingLilies: {
+		DisplayName: 浄化のリリー
+		Tooltip: 元素を2つ以上使って攻撃すると、浄化のオーラが発生する
+	}
+
+	RecipeSpiritedDroplets: {
+		DisplayName: スピリテッド
+		Tooltip: 化学攻撃で勢いよくウォーターフレイムを発射する
+	}
+
+	RecipeStardustConfusion: {
+		DisplayName: 星屑の混乱
+		Tooltip: 森林のサンプルのヒマワリが混乱を与えるようになる
+	}
+
+	RecipeStellarTalcOrbit: {
+		DisplayName: 星の滑石のオービット
+		Tooltip: 星の滑石の弾が使用者の周囲を回る
+	}
+
+	RecipeSunflowerSeeds: {
+		DisplayName: ヒマワリの種
+		Tooltip: プレイヤーの周囲にヒマワリの種をばら撒く
+	}
+
+	RecipeWaterSpores: {
+		DisplayName: 水の胞子
+		Tooltip: 水の胞子が大量に発生するが、既存の胞子は破壊しない
+	}
+}
+
+Items: {
+	AlchemistEmblem: {
+		DisplayName: 錬金術師の紋章
+		Tooltip: 化学ダメージが15%増加
+	}
+
+	AlchemistTest: {
+		DisplayName: 錬金術師のテストアクセサリ
+		Tooltip:
+			'''
+			同時に使用できる錬金術の元素の数が4つ増える
+			最大効力が20増加
+			効力の回復速度が50%上昇
+			[c/FF0000:テストアイテム]
+			'''
+	}
+
+	BloomingBud: {
+		DisplayName: 開花のつぼみ
+		Tooltip: 攻撃時に触媒として機能する開花のつぼみを定期的に発射する
+	}
+
+	KeystoneOfTheConvent: {
+		DisplayName: 修道院の要石
+		Tooltip:
+			'''
+			少なくとも3つ以上の非空気元素を使う攻撃が強化される
+			当たった敵は、周囲の全ての空気コーティングからダメージを受け、それらを消費する
+			'''
+	}
+
+	MeteorToolbelt: {
+		DisplayName: 隕石のツールベルト
+		Tooltip: 1回の攻撃で3つ以上の元素を使用すると、ノックバックを無効化し、移動速度が上昇する
+	}
+
+	PreservedCorruption: {
+		DisplayName: 不浄入りの瓶
+		Tooltip: 最大効力が2増加
+	}
+
+	PreservedCrimson: {
+		DisplayName: 真紅入りの瓶
+		Tooltip: 最大効力が2増加
+	}
+
+	ReactiveVials: {
+		DisplayName: 反応性の試験管
+		Tooltip: 隠し反応を発動した後、次の化学ダメージが10%増加する
+	}
+
+	WeightedBottles: {
+		DisplayName: 重り付きの瓶
+		Tooltip: 錬金術の主な投射物の速度が25%上昇
+	}
+
+	WeightedCorruption: {
+		DisplayName: 重り付きの不浄入りの瓶
+		Tooltip:
+			'''
+			錬金術の主な投射物の速度が25%上昇
+			最大効力が2増加
+			'''
+	}
+
+	WeightedCrimson: {
+		DisplayName: 重り付きの真紅入りの瓶
+		Tooltip:
+			'''
+			錬金術の主な投射物の速度が25%上昇
+			最大効力が2増加
+			'''
+	}
+
+	AlchemistJungleChest: {
+		DisplayName: ジャングルリリーの上衣
+		Tooltip:
+			'''
+			最大効力が3増加
+			錬金術の主な投射物の速度が20%上昇
+			'''
+	}
+
+	AlchemistJungleHead: {
+		DisplayName: ジャングルリリーのフード
+		Tooltip:
+			'''
+			効力の回復速度が20%上昇
+			同時に使用できる錬金術の元素の数が1つ増える
+			'''
+		SetBonus: 十分な触媒反応を引き起こすと、触媒として機能する花芽が生成される
+	}
+
+	AlchemistJungleLegs: {
+		DisplayName: ジャングルリリーのレギンス
+		Tooltip: 化学ダメージが10%増加
+	}
+
+	MushroomBandana: {
+		DisplayName: 燐光のバンダナ
+		Tooltip: 効力の回復速度が5%上昇
+		SetBonus: 同時に使用できる錬金術の元素の数が1増加
+	}
+
+	MushroomLeggings: {
+		DisplayName: 燐光のレギンス
+		Tooltip: 効力の回復速度が5%上昇
+	}
+
+	MushroomTunic: {
+		DisplayName: 燐光の上衣
+		Tooltip:
+			'''
+			効力の回復速度が5%上昇
+			最大効力が2増加
+			'''
+	}
+
+	PotionBag: {
+		DisplayName: ポーションバッグ
+		Tooltip:
+			'''
+			錬金術武器を最大で8個まで保管できる
+			バッグ内の武器は錬金術師の調合画面に表示される
+			「化学者による試作品。後日改良予定」
+			'''
+	}
+
+	AlchemicStabilizer: {
+		DisplayName: 錬金術の安定剤
+		Tooltip:
+			'''
+			様々な錬金術武器を作成に使用する
+			「蜜蝋のような匂いがする」
+			'''
+	}
+
+	EmptyFlask: {
+		DisplayName: 空の瓶
+		Tooltip:
+			'''
+			鉱山坑道の化学者から買える
+			様々な錬金術武器の作成に使用する
+			'''
+	}
+
+	JungleLily: {
+		DisplayName: ジャングルリリー
+		Tooltip:
+			'''
+			手に取った瞬間に閉まってしまった。
+			化学者に相談してみるといいかもしれない
+			'''
+	}
+
+	JungleLilyBloomed: {
+		DisplayName: 咲いたジャングルリリー
+		Tooltip: ""
+	}
+
+	MushroomThread: {
+		DisplayName: キノコの糸
+		Tooltip:
+			'''
+			ブリンクルートと光るキノコのエキスの隠し反応の結果できた糸
+			「全く予想外の結果」
+			'''
+	}
+
+	Potency: {
+		DisplayName: 効力
+		Tooltip: ""
+	}
+
+	ReactionItem: {
+		DisplayName: 隠し反応の書
+		Tooltip:
+			'''
+			左クリックで錬金術師の隠し反応を発動する
+			「隠し反応」（{0}）キーでも発動できる
+			右クリックで隠し反応の図鑑を開く
+			'''
+	}
+
+	ScrollTier1: {
+		DisplayName: 錬金術師のレシピの巻物 1
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			初期の武器に対応
+			'''
+	}
+
+	ScrollTier2: {
+		DisplayName: 錬金術師のレシピの巻物 2
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			クトゥルフの目以降の武器に対応
+			'''
+	}
+
+	ScrollTier3: {
+		DisplayName: 錬金術師のレシピの巻物 3
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			スケルトロンの武器に対応
+			'''
+	}
+
+	ScrollTier4: {
+		DisplayName: 錬金術師のレシピの巻物 4
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			ハードモード初期の武器に対応
+			'''
+	}
+
+	ScrollTier5: {
+		DisplayName: 錬金術師のレシピの巻物 5
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			メカボス以降の武器に対応
+			'''
+	}
+
+	ScrollTier6: {
+		DisplayName: 錬金術師のレシピの巻物 6
+		Tooltip:
+			'''
+			謎の錬金術師が隠した反応のレシピが記されている
+			ゴーレム以降の武器に対応
+			'''
+	}
+
+	UIItem: {
+		DisplayName: 錬金術師の説明書
+		Tooltip:
+			'''
+			クリックで錬金術武器を調合できる
+			アイテムアイコンを右クリックして調合
+			左クリックで攻撃を発動
+			最大で18個のアイテムを表示できる
+			'''
+	}
+
+	UIItemKeys: {
+		DisplayName: 初心者のための調合入門
+		Tooltip:
+			'''
+			ホットバーのキーで錬金術武器を調合できる
+			対応するキーで特定のアイテムを調合する
+			マウスホイールを使って表示する元素を変更できる
+			最大で10個のアイテムを表示できる
+			'''
+	}
+
+	UIItemNew: {
+		DisplayName: 錬金術師の説明書 [S-Pladison版]
+		Tooltip:
+			'''
+			クリックで錬金術武器を調合できる
+			アイテムアイコンを右クリックして調合
+			左クリックで攻撃を発動
+			最大で17個のアイテムを表示できる
+			'''
+	}
+
+	AirVial: {
+		DisplayName: 空気の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	BlizzardInAVial: {
+		DisplayName: 吹雪入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を上に打ち上げる
+			触媒の泡の発生確率が上昇する
+			'''
+	}
+
+	CloudInAVial: {
+		DisplayName: 雲入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を上に打ち上げる
+			触媒の泡の発生確率が上昇する
+			'''
+	}
+
+	CorruptionFlask: {
+		DisplayName: 憎悪の菌糸体
+		Tooltip:
+			'''
+			キノコを生やし、一定時間経過後か、触媒作用を受けると爆発する
+			使用した素材が多いほど、爆発が遅くなる
+			キノコは近くの胞子の特性を吸収し、胞子を増やす
+			同時に存在できるキノコは1つだけ
+			'''
+	}
+
+	CrimsonFlask: {
+		DisplayName: 本能的な菌糸体
+		Tooltip:
+			'''
+			浮遊するキノコを放ち、一定時間経過後か、触媒作用を受けると爆発する
+			キノコは近くの胞子の特性を吸収し、増殖する
+			同時に存在できるキノコは1つだけ
+			'''
+	}
+
+	DeathweedFlask: {
+		DisplayName: デスウィードのエキス
+		Tooltip:
+			'''
+			空中に胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	FartInAVial: {
+		DisplayName: おなら入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を上に打ち上げる
+			触媒の泡の発生確率が上昇する
+			'''
+	}
+
+	QueenBeeFlask: {
+		DisplayName: ローヤルゼリー入りの瓶
+		Tooltip:
+			'''
+			火の元素を使用していないなら、敵か地形に当たると蜂を召喚する
+			触媒として機能する蜂の巣を放つことがある
+			'''
+	}
+
+	ShadowChestFlask: {
+		DisplayName: デーモンの息吹
+		Tooltip:
+			'''
+			戻ってくる悪魔の炎を放つ
+			錬金術の空気で敵を攻撃する
+			'''
+	}
+
+	ShiverthornFlask: {
+		DisplayName: シバーソーンのエキス
+		Tooltip:
+			'''
+			空中に胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	SunplateFlask: {
+		DisplayName: 星の滑石
+		Tooltip:
+			'''
+			敵か地形に当たると周回する星を生成する
+			これらの星は残留粒子とみなされる
+			'''
+	}
+
+	TsunamiInAVial: {
+		DisplayName: 津波入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を上に打ち上げる
+			触媒の泡の発生確率が上昇する
+			'''
+	}
+
+	CrimtaneCatalyst: {
+		DisplayName: 真紅の触媒
+		Tooltip:
+			'''
+			錬金術師の触媒元素と相互作用させるために使う
+			触媒反応が成功すると、近くの敵を混乱させる
+			敵に当てると、触媒効果を与える
+			触媒の効果は、ほとんどの錬金術デバフを置き換える
+			'''
+	}
+
+	DemoniteCatalyst: {
+		DisplayName: 不浄の触媒
+		Tooltip:
+			'''
+			錬金術師の触媒元素と相互作用させるために使う
+			触媒反応が成功すると、近くの敵をシャドウフレイムで焼く
+			敵に当てると、触媒効果を与える
+			触媒の効果は、ほとんどの錬金術デバフを置き換える
+			'''
+	}
+
+	DungeonCatalyst: {
+		DisplayName: リップル
+		Tooltip:
+			'''
+			錬金術師の触媒元素と相互作用させるために使う
+			触媒反応が成功すると、敵を追尾するウォーターボルトを発射する
+			敵に当てると、触媒効果を与える
+			触媒の効果は、ほとんどの錬金術デバフを置き換える
+			'''
+	}
+
+	IronCatalyst: {
+		DisplayName: 触媒のシリンジ
+		Tooltip:
+			'''
+			錬金術師の触媒元素と相互作用させるために使う
+			敵に当てると、触媒効果を与える
+			触媒の効果は、ほとんどの錬金術デバフを置き換える
+			'''
+	}
+
+	DarkVial: {
+		DisplayName: 闇の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	BlinkrootFlask: {
+		DisplayName: ブリンクルートのエキス
+		Tooltip:
+			'''
+			火の胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	EmberVial: {
+		DisplayName: 残り火のフラスコ
+		Tooltip: 敵を短時間燃やす、残り火をばら撒く
+		}
+
+	FireblossomFlask: {
+		DisplayName: ファイアプロッサムのエキス
+		Tooltip:
+			'''
+			火の胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	FireVial: {
+		DisplayName: 火の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	GunpowderFlask: {
+		DisplayName: 火薬入りのフラスコ
+		Tooltip:
+			'''
+			小さな爆発を起こす
+			触媒元素の発動に使用できるが、触媒元素の生成を阻害する
+			'''
+	}
+
+	HellSlimeFlask: {
+		DisplayName: 燃えるスライム入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を打ち上げ、落下ダメージを受けやすくする
+			触媒として機能するラーヴァスライムの泡を発生させることがある
+			炎上している敵に当たると、溶岩の滴が飛び散る
+			'''
+	}
+
+	StardustSamples: {
+		DisplayName: 星屑のサンプル
+		Tooltip:
+			'''
+			自然の元素と調合すると、直撃させた敵を混乱させる
+			「手作りの壺は精密な錬金術には不向きだ」
+			'''
+	}
+
+	LightVial: {
+		DisplayName: 光の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	AttractiteShuriken: {
+		DisplayName: アトラクタイトの手裏剣
+		Tooltip: 当たった敵にアトラクタイトを与える
+	}
+
+	AttractiteFlask: {
+		DisplayName: アトラクタイトのフラスコ
+		Tooltip:
+			'''
+			当たった敵は錬金術の胞子と残留粒子を引き寄せる
+			当たらなかった場合、誘引効果は最も近い敵に移る
+			胞子を生成する際、エキスとしてカウントされる
+			'''
+	}
+
+	DaybloomFlask: {
+		DisplayName: ディブルームのエキス
+		Tooltip:
+			'''
+			自然の胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	GlowingAttractiteFlask: {
+		DisplayName: 光るアトラクタイトのフラスコ
+		Tooltip:
+			'''
+			当たった敵は錬金術の胞子と残留粒子を引き寄せる
+			当たらなかった場合、誘引効果は最も近い敵に移る
+			自然の胞子をばら撒き、他のエキスの使用量が少ないほど、数が多くなる
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	GlowingMushroomVial: {
+		DisplayName: 光るキノコのエキス
+		Tooltip:
+			'''
+			キノコを生やし、他のエキスから放たれる胞子の数を増加させるオーラを放つ
+			キノコは近くの胞子の特性を吸収し、胞子を増やす
+			同時に存在できるキノコは1つだけ
+			'''
+	}
+
+	JungleLilyFlask: {
+		DisplayName: ジャングルリリーのエキス
+		Tooltip:
+			'''
+			衝撃範囲内の敵と胞子を開花させる
+			開花した胞子は1回だけ複製される
+			開花した敵は、それぞれのコーティングに対応する胞子を生成する
+			直撃させた敵に自然のコーティングを与える
+			'''
+	}
+
+	LivingSapVial: {
+		DisplayName: 生きた樹液のフラスコ
+		Tooltip:
+			'''
+			他の素材と併用すると、ライフを回復する生きた樹液の泡を生成する
+			空気の元素を使用すると、回復量が2倍になる
+			強力な触媒として機能する樹液の泡が発生することがある
+			反応すると、プレイヤーのライフを回復し、敵を錬金術の性質で覆う
+			'''
+	}
+
+	MoonglowFlask: {
+		DisplayName: ムーングロウのエキス
+		Tooltip:
+			'''
+			自然の胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	MushroomFlask: {
+		DisplayName: キノコの胞子のフラスコ
+		Tooltip: エキスと調合すると、胞子のダメージが5倍になる
+	}
+
+	NatureVial: {
+		DisplayName: 自然の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	PoisonVial: {
+		DisplayName: 毒入りのフラスコ
+		Tooltip:
+			'''
+			短時間残る毒の泡をばら撒く
+			触媒として機能する毒の泡が発生することがある
+			他の泡の武器の効果を汚染することがある
+			'''
+	}
+
+	SunflowerFlask: {
+		DisplayName: 森林のサンプル
+		Tooltip:
+			'''
+			水の元素を使用するとダメージが増加し、ダメージを与えるヒマワリが出現する
+			「手作りの壺は精密な錬金術には不向きだ」
+			'''
+	}
+
+	BloodMoonFlask: {
+		DisplayName: 血の霧入りのフラスコ
+		Tooltip:
+			'''
+			触れた敵にダメージを与える霧を発生させる
+			霧のノックバックは使用した元素の数に大きく比例する
+			火の元素を使用するとダメージが増加し、風元素を使用すると拡散しやすくなる
+			両方の元素は同時に使用できず、使用すると両方の効果が無効になる
+			'''
+	}
+
+	DungeonFlask: {
+		DisplayName: スピリテッドウォーター
+		Tooltip:
+			'''
+			しばらく残るウォーターフレイムをばら撒く
+			炎は持続する粒子とみなされる
+			触媒として機能する泡が発生することがある
+			'''
+	}
+
+	GoblinArmyFlask: {
+		DisplayName: ゴブリンのオイル
+		Tooltip:
+			'''
+			同じ攻撃で炎の元素を使用すると、ダメージが大幅に増加する
+			また、周囲の水で覆われた敵全てにダメージを与え、錬金術の炎を拡散させる
+			反応時に触媒として機能するオイルの泡が発生し、周囲の敵を水で覆うことがある
+			'''
+	}
+
+	HellOil: {
+		DisplayName: 地獄のオイル
+		Tooltip:
+			'''
+			同じ攻撃で炎の元素を使用すると、ダメージが大幅に増加する
+			また、周囲の水で覆われた敵全てにダメージを与え、錬金術の炎を拡散させる
+			反応時に触媒として機能するオイルの泡が発生し、周囲の敵を水で覆うことがある
+			'''
+	}
+
+	IceChestFlask: {
+		DisplayName: フラッシュフリーズ
+		Tooltip:
+			'''
+			範囲内の胞子、触媒元素、残留粒子を全て凍らせる
+			凍った投射物は地面に落下して砕け散る
+			範囲内の敵は移動速度が低下し、水で覆われた敵に対しては持続時間が延長される
+			火の元素を使用した場合、これらの効果がなくなるが、
+			当たった敵が錬金術の水で覆われるようになる
+			'''
+	}
+
+	KingSlimeFlask: {
+		DisplayName: スライム入りのフラスコ
+		Tooltip:
+			'''
+			当たった敵を打ち上げ、落下ダメージを受けやすくする
+			触媒として機能するスライムの泡を発生させることがある
+			'''
+	}
+
+	SeafoamVial: {
+		DisplayName: 海のフラスコ
+		Tooltip:
+			'''
+			短時間残る海の泡をばら撒く
+			触媒として機能する海の泡が発生することがある
+			'''
+	}
+
+	SlimeFlask: {
+		DisplayName: ゼラチンのサンプル
+		Tooltip:
+			'''
+			火の元素と調合すると発火する
+			「手作りの壺は精密な錬金術には不向きだ」
+			'''
+	}
+
+	WaterleafFlask: {
+		DisplayName: ウォーターリーフのエキス
+		Tooltip:
+			'''
+			水の胞子をばら撒き、使った他のエキスの数が少ないほど、数が多くなる
+			同時に存在できる胞子は1つだけ
+			胞子は炎上している敵に対してダメージが10%増加
+			'''
+	}
+
+	WaterVial: {
+		DisplayName: 水の試験管
+		Tooltip: "[c/FF0000:テストアイテム]"
+	}
+
+	GoldFan: {
+		DisplayName: 金の扇
+		Tooltip:
+			'''
+			敵に向かって横方向にダッシュする
+			[c/FF0000:テストアイテム]
+			ダンサークラスはコンセプト実証版
+			リリースされるかどうかは、現時点では未定
+			'''
+	}
+
+	WoodenTekko: {
+		DisplayName: 木の手甲
+		Tooltip:
+			'''
+			敵に向かって横方向にダッシュする
+			[c/FF0000:テストアイテム]
+			ダンサークラスはコンセプト実証版
+			リリースされるかどうかは、現時点では未定
+			'''
+	}
+
+	BundleOfClovers: {
+		DisplayName: クローバーの束
+		Tooltip:
+			'''
+			4以上の目が出るとギャンブラーのダイスの回転速度が遅くなる
+			「全部の葉っぱが4枚だ！」
+			'''
+	}
+
+	BurningClovers: {
+		DisplayName: 燃えるクローバーの束
+		Tooltip:
+			'''
+			5以上の目が出るとギャンブラーのダイスの回転速度が遅くなり、
+			1と2の目が出なくなる
+			'''
+	}
+
+	ConquerorsPennant: {
+		DisplayName: 征服者の旗
+		Tooltip:
+			'''
+			ギャンブラーの「ボス」カードを引くと激怒し、
+			ギャンブルクリティカル率と移動速度が上昇
+			'''
+	}
+
+	DemonicPocketMirror: {
+		DisplayName: 悪魔のポケットミラー
+		Tooltip: 次に引くカードが見える
+	}
+
+	ElementalLens: {
+		DisplayName: エレメンタルレンズ
+		Tooltip:
+			'''
+			ギャンブラーの「元素」カードの攻撃で関連するデバフを敵に与える
+			すでにデバフを与えているなら、その効果時間が延長される
+			'''
+	}
+
+	GamblerTest: {
+		DisplayName: ギャンブラーのテストアクセサリ
+		Tooltip:
+			'''
+			次に引くカードが3枚見える
+			50%の確率でチップを消費しない
+			最大チップが45増加
+			再ドローのクールダウンが29秒短縮される
+			最大で再ドローできる回数が4回増加
+			[c/FF0000:テストアイテム]
+			'''
+	}
+
+	ImpDiceCup: {
+		DisplayName: インプのダイスカップ
+		Tooltip: ギャンブラーのダイスで1と2の目が出なくなる
+	}
+
+	LuckySprout: {
+		DisplayName: 幸運の苗木
+		Tooltip: 「バイオーム」カードの茂みが消えずに残るようになる
+	}
+
+	PileOfChips: {
+		DisplayName: チップの山
+		Tooltip:
+			'''
+			ギャンブルチップ武器の回転速度が50%上昇
+			チップ武器のダメージが15%増加
+			'''
+	}
+
+	SlimyLollipop: {
+		DisplayName: ぬるぬるするロリポップ
+		Tooltip: ギャンブラーの「スライム」カードが有効な間、定期的に友好的なスライムが出現する
+	}
+
+	VultureCharm: {
+		DisplayName: ハゲタカのお守り
+		Tooltip: カードを引くと、ハゲタカの羽を放つ
+	}
+
+	GamblerDungeonBody: {
+		DisplayName: テュケーの胸当て
+		Tooltip:
+			'''
+			ギャンブルクリティカル率が10%上昇
+			最大で再ドローできる回数が1回増加
+			'''
+	}
+
+	GamblerDungeonHead: {
+		DisplayName: テュケーの額当て
+		Tooltip: 最大チップが5増加
+		SetBonus: カードを引くとチップを1-2枚得る
+	}
+
+	GamblerDungeonLegs: {
+		DisplayName: テュケーのレギンス
+		Tooltip: ギャンブルダメージが10%増加
+	}
+
+	OutlawHat: {
+		DisplayName: アウトローの帽子
+		Tooltip: 最大チップが3増加
+		SetBonus: 最大で再ドローできる回数が1回増加
+	}
+
+	OutlawPants: {
+		DisplayName: アウトローのパンツ
+		Tooltip: ギャンブルダメージが4%増加
+	}
+
+	OutlawVest: {
+		DisplayName: アウトローのベスト
+		Tooltip: ギャンブルダメージが4%増加
+	}
+
+	DeckBone: {
+		DisplayName: ギャンブラーの爆弾のデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+206ボーン」
+			'''
+	}
+
+	DeckDog: {
+		DisplayName: ギャンブラーの犬のデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+1 ボーク」
+			'''
+	}
+
+	DeckEnchanted: {
+		DisplayName: ギャンブラーの魔法のデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+15 エンチャント」
+			'''
+	}
+
+	DeckJungle: {
+		DisplayName: ギャンブラーのジャングルのデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+15 葉の多さ」
+			'''
+	}
+
+	DeckPirate: {
+		DisplayName: ギャンブラーの海賊のデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+1 オウムとの親和性」
+			'''
+	}
+
+	DeckRainbow: {
+		DisplayName: 虹のギャンブラーのデッキ
+		Tooltip:
+			'''
+			ギャンブラーの能力を使用できる
+			「+7 色彩の豊かさ」
+			'''
+	}
+
+	GamblerAttack: {
+		DisplayName: ギャンブラーのデッキ
+		Tooltip: ギャンブラーの能力を使用できる
+	}
+
+	GamblerDummy: {
+		DisplayName: ギャンブラーのダミーカード
+		Tooltip:
+			'''
+			特定のギャンブラーカードが使用をできる
+			右クリックでデッキを切り替える
+			ダミーにのみダメージを与えることができる
+			ユーティリティカードは効果がない場合がある
+			'''
+	}
+
+	GamblerDummyTest: {
+		DisplayName: ギャンブラーのテストカード
+		Tooltip:
+			'''
+			特定のギャンブラーカードが使用をできる
+			右クリックでデッキを切り替える
+			[c/FF0000:テストアイテム]
+			'''
+	}
+
+	GamblerReset: {
+		DisplayName: カード : リセット
+		Tooltip:
+			'''
+			ギャンブラーカードをリセットする
+			[c/FF0000:テストアイテム]
+			'''
+	}
+
+	Chip: {
+		DisplayName: チップ
+		Tooltip: ""
+	}
+
+	TiamatRelic: {
+		DisplayName: テュケーの聖遺物
+		Tooltip: ""
+	}
+
+	VulturePotion: {
+		DisplayName: スカベンジャーポーション
+		Tooltip: ギャンブラーのチップの生成量が20%増加する
+	}
+
+	VultureTalon: {
+		DisplayName: ハゲタカの爪
+		Tooltip: ""
+	}
+
+	BrainCard: {
+		DisplayName: カード : 集合精神
+		Tooltip:
+			'''
+			周囲に3つの脳を召喚する
+			そのうちの1つはカーソルを追尾する
+			そのうち1つだけが実態を持ち、触れた敵にダメージを与える
+			攻撃するとたびにダメージが大幅に増加し、実態を持つ脳がランダムに変化する
+			距離が近すぎるとダメージを与えられない
+			'''
+	}
+
+	BubbleCard: {
+		DisplayName: カード : 泡
+		Tooltip:
+			'''
+			泡を召喚し、上空に浮かび上がらせる
+			左クリックを離すと、召喚されている泡がカーソルに向けて突進する
+			泡は時間とともにダメージが増加する
+			'''
+	}
+
+	DesertCard: {
+		DisplayName: カード : 砂漠
+		Tooltip:
+			'''
+			上に砂漠の茂みを召喚する
+			果物をドラッグして離すと、それを飛ばす
+			果物はは一定距離を進むとトゲを連射する
+			'''
+	}
+
+	DetonatorCard: {
+		DisplayName: カード : 雷管
+		Tooltip:
+			'''
+			爆発物を投げ、左クリックを離すと爆発する
+			爆発するまでにわずかな遅延がある
+			'''
+	}
+
+	DungeonCard: {
+		DisplayName: カード : スピリットティア
+		Tooltip:
+			'''
+			精霊の矢を連射する
+			全ての矢が同じ敵に当たると、その敵の魂の一部が引き裂かれる
+			引き裂かれた魂を拾うと、大きなダメージを与える
+			'''
+	}
+
+	EaterCard: {
+		DisplayName: カード : 不浄の悪夢
+		Tooltip:
+			'''
+			カーソルを追尾する不浄のワームを召喚する
+			腐った肉片がランダムに発生する
+			ワームが肉片に触れると、ワームのダメージと長さが増加する
+			'''
+	}
+
+	EmbersCard: {
+		DisplayName: カード : 残り火
+		Tooltip: 敵を追尾する火種を放つ
+	}
+
+	EyeCard: {
+		DisplayName: カード : 夜の守護者
+		Tooltip:
+			'''
+			クトゥルフのしもべを召喚し、カーソルに向かって突進させる
+			しもべは、カーソルがその位置から十分に離れている場合にのみ攻撃する
+			'''
+	}
+
+	ForestCard: {
+		DisplayName: カード : 森林
+		Tooltip:
+			'''
+			上に森の茂みを召喚する
+			ドングリをドラッグして離すと、それを飛ばす
+			'''
+	}
+
+	GoblinArmyCard: {
+		DisplayName: カード : 不安定な魔法
+		Tooltip:
+			'''
+			ポータルを出現させ、カーソルに向けてシャドウボルトを連射する
+			ポータルは左クリックを離すか、ポータルから離れすぎると消滅する
+			ポータルが長く残っているほど連射速度が上昇する
+			'''
+	}
+
+	GoldChestCard: {
+		DisplayName: カード : エンチャント
+		Tooltip: 火花を連射する
+	}
+
+	IceChestCard: {
+		DisplayName: カード : つらら
+		Tooltip: カーソルの真上からつららが落ちてくる
+	}
+
+	IvyChestCard: {
+		DisplayName: カード : 深い森林
+		Tooltip:
+			'''
+			葉をいくつか放つ
+			葉はカーソルを動かすと動く
+			移動した距離が長いほど、ダメージが増加
+			同時に存在できる葉は3セットまで
+			'''
+	}
+
+	JungleCard: {
+		DisplayName: カード : ジャングル
+		Tooltip:
+			'''
+			上にジャングルの茂みを召喚する
+			果物をドラッグして離すと、それを飛ばす
+			果物は一定距離を進むといくつかの胞子をばら撒く
+			'''
+	}
+
+	JungleSlimeCard: {
+		DisplayName: カード : トゲトゲのゼラチン
+		Tooltip:
+			'''
+			カーソルを追尾する、ジャングルスライムを召喚する
+			スライムは敵に触れると弾む
+			攻撃が当たるたびにダメージが増加し、地面に触れるとダメージはリセットされる
+			'''
+	}
+
+	KingSlimeCard: {
+		DisplayName: カード : 青の王
+		Tooltip:
+			'''
+			カーソルを追尾するスライムを召喚する
+			スライムは敵に触れると弾む
+			落下距離と敵の攻撃回数に応じてダメージが増加し、地面に触れるとリセットされる
+			'''
+	}
+
+	LavaSlimeCard: {
+		DisplayName: カード : 流れる溶岩
+		Tooltip:
+			'''
+			カーソルを追尾する、ラーヴァスライムを召喚する
+			スライムは敵に触れると弾む
+			攻撃が当たるたびにダメージが増加し、地面に触れるとダメージはリセットされる
+			攻撃が3回連続で当たると、スライムが強力な爆発を起こす
+			'''
+	}
+
+	MushroomCard: {
+		DisplayName: カード : 光るキノコ
+		Tooltip:
+			'''
+			上にキノコの茂みを召喚する
+			キノコをドラッグして離すと発射する
+			地形に当たると一度だけ跳ね返り、ダメージが増加し、
+			敵か地形に当たると爆発する
+			'''
+	}
+
+	OceanCard: {
+		DisplayName: カード : 海
+		Tooltip:
+			'''
+			上にヤシの木を召喚する
+			ヤシの実をドラッグして離すと発射する
+			着地が乱暴だとヤシの実が爆発する
+			'''
+	}
+
+	QueenBeeCard: {
+		DisplayName: カード : 毒の女王
+		Tooltip:
+			'''
+			カーソルを追尾する蜂の巣を召喚する
+			カーソルを激しく動かすと蜂が召喚される
+			'''
+	}
+
+	SapCard: {
+		DisplayName: カード : 不安定な樹液
+		Tooltip:
+			'''
+			カーソルを追尾する、ゆっくりと移動する樹液の泡を放つ
+			左クリックを離すと、泡が爆発する
+			泡が長く存在するほど、爆発時のダメージが増加
+			'''
+	}
+
+	ShuffleCard: {
+		DisplayName: カード : シャッフル
+		Tooltip:
+			'''
+			クラブ、スペード、ダイヤ、ハートの中からランダムに選ばれたカードを発射する
+			それぞれのカードには固有の特性と挙動がある
+			左クリックを長押しすると、カードの数が増え、効果が強化される
+			ダメージはデッキ内のカードの枚数に応じて増加する
+			'''
+	}
+
+	SkeletronCard: {
+		DisplayName: カード : ダンジョンの呪い
+		Tooltip:
+			'''
+			カーソルを追尾するドクロを召喚する
+			カーソルとドクロの距離に応じて、ドクロの挙動が変化する
+			'''
+	}
+
+	SkyCard: {
+		DisplayName: カード : 空
+		Tooltip:
+			'''
+			上に雲の茂みを召喚する
+			果物をドラッグして離すと、それを飛ばす
+			3回に1回、星を発射する
+			星を狙うと、星をいくつか発射する
+			'''
+	}
+
+	SlimeCard: {
+		DisplayName: カード : 弾むような始まり
+		Tooltip:
+			'''
+			カーソルを追尾するスライムを召喚する
+			スライムは敵に触れると弾む
+			攻撃が当たるたびにダメージが増加し、地面に触れるとダメージはリセットされる
+			'''
+	}
+
+	SlimeRainCard: {
+		DisplayName: カード : ゼリークラウド
+		Tooltip:
+			'''
+			カーソルを追尾するスライムの雨雲を召喚する
+			スライムは着地後、積極的に敵を追いかける
+			スライムの落下距離が長いほど、ダメージが大きくなる
+			'''
+	}
+
+	SnowCard: {
+		DisplayName: カード : 雪
+		Tooltip:
+			'''
+			上に雪の茂みを召喚する
+			果物をドラッグして離すと、それを飛ばす
+			果物は一定距離を進むと雪の結晶に変化する
+			'''
+	}
+
+	BouncyChip: {
+		DisplayName: バウンシーチップ
+		Tooltip: 地形に当たると跳ね返るチップを投げる
+	}
+
+	CopperChip: {
+		DisplayName: 銅のチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	FossilChip: {
+		DisplayName: 化石のチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	GamblingChip: {
+		DisplayName: ギャンブルのチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	GoldChip: {
+		DisplayName: 金のチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	HellChip: {
+		DisplayName: ヘルファイアチップ
+		Tooltip: 爆発するチップを投げる
+	}
+
+	MeteorDetonator: {
+		DisplayName: 隕石の雷管
+		Tooltip: タイミングよく攻撃すると爆発範囲が広がり、ダメージが2倍になる
+	}
+
+	PlatinumChip: {
+		DisplayName: プラチナのチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	Rusalka: {
+		DisplayName: ルサルカ
+		Tooltip:
+			'''
+			遅延発射する弾を発射する
+			25%の確率でチップを消費しない
+			'''
+	}
+
+	TinChip: {
+		DisplayName: 錫のチップ
+		Tooltip: ギャンブルのチップを投げる
+	}
+
+	GamblingDie: {
+		DisplayName: ギャンブラーのダイス
+		Tooltip: チップを消費して、ギャンブルダメージを出た目に応じて増加させる
+	}
+
+	HoneyDie: {
+		DisplayName: 蝋のダイス
+		Tooltip: ギャンブル武器でクリティカル時、ライフが出た目に応じて回復する
+	}
+
+	OrnateOrchid: {
+		DisplayName: 装飾の蘭
+		Tooltip: 「Orchidの開発者に成りすますのに最適！」
+	}
+
+	HarpyPotion: {
+		DisplayName: 雲の爆発のポーション
+		Tooltip:
+			'''
+			最初の空中ジャンプで、ダメージを与える羽を放つ
+			まだ二段ジャンプができない場合は、二段ジャンプが可能になる
+			'''
+	}
+
+	PrototypeSecrecy: {
+		DisplayName: 試作型のシークレシー
+		Tooltip:
+			'''
+			戻ってくるときは必ずクリティカルが出る
+			「Orchidの開発者に成りすますのに最適！」
+			'''
+	}
+
+	SquareMinecart: {
+		DisplayName: 四角いトロッコ
+		Tooltip: 「Orchidの開発者に成りすますのに最適！」
+	}
+
+	OrchidEmblem: {
+		DisplayName: 蘭の紋章
+		Tooltip: Orchidのダメージが15%増加
+	}
+
+	RCRemote: {
+		DisplayName: RCのリモコン
+		Tooltip: 「最近開発された、トナカイ以外の新型航空機を制御することを可能にする、高度なエルフの技術」
+	}
+
+	ShamanBiomeChest: {
+		DisplayName: キノコの宝箱
+		Tooltip: ""
+	}
+
+	ShroomKey: {
+		DisplayName: キノコの鍵
+		Tooltip: ダンジョンにあるキノコの宝箱を開ける
+	}
+
+	HeraldOfFrost: {
+		DisplayName: 霜の使者
+		Tooltip: ""
+	}
+
+	SearingOnslaught: {
+		DisplayName: シアリングオンスロート
+		Tooltip: ""
+	}
+
+	AbyssDrill: {
+		DisplayName: アビスのドリル
+		Tooltip: ""
+	}
+
+	AbyssHamaxe: {
+		DisplayName: アビスのハンマーアックス
+		Tooltip: ""
+	}
+
+	AbyssPickaxe: {
+		DisplayName: アビスのつるはし
+		Tooltip: ""
+	}
+
+	AmberIdol: {
+		DisplayName: コハクの霊像
+		Tooltip: アースボンドを得ている間、ライフ自然回復を大きく増進
+	}
+
+	AmethystIdol: {
+		DisplayName: アメジストの霊像
+		Tooltip: 放たれた精霊の触媒のダメージが20%増加
+	}
+
+	DeepForestCharm: {
+		DisplayName: 深い森林のお守り
+		Tooltip: ""
+	}
+
+	DestroyerNecklace: {
+		DisplayName: デストロイヤーのネックレス
+		Tooltip: ""
+	}
+
+	DiabolistRune: {
+		DisplayName: 悪魔のルーン
+		Tooltip: ""
+	}
+
+	DiamondIdol: {
+		DisplayName: ダイヤモンドの霊像
+		Tooltip: シャーマンの絆の持続時間を3秒延長する
+	}
+
+	DryadsGift: {
+		DisplayName: ドライアドの贈り物
+		Tooltip: ""
+	}
+
+	EmeraldIdol: {
+		DisplayName: エメラルドの霊像
+		Tooltip: 放たれた空気の触媒のダメージが20%増加
+	}
+
+	FloralStinger: {
+		DisplayName: フローラルスティンガー
+		Tooltip: ""
+	}
+
+	FragilePresent: {
+		DisplayName: 壊れやすいプレゼント
+		Tooltip: ""
+	}
+
+	FrostburnSigil: {
+		DisplayName: 霜焼けの印章
+		Tooltip: 炎の絆が有効な間、敵に霜焼けを与える
+	}
+
+	FurnaceSigil: {
+		DisplayName: かまどの印章
+		Tooltip: 炎の絆が有効な間、敵を燃やす
+	}
+
+	HallowedBaubles: {
+		DisplayName: 神聖な飾り
+		Tooltip: ""
+	}
+
+	HarpyAnklet: {
+		DisplayName: ハーピーのアンクレット
+		Tooltip: ""
+	}
+
+	HeavyBracer: {
+		DisplayName: 重い腕甲
+		Tooltip: ""
+	}
+
+	MeltedRing: {
+		DisplayName: 溶岩の指輪
+		Tooltip: 空気結合が解放されると、溶岩の滴をばら撒く
+	}
+
+	MourningTorch: {
+		DisplayName: 追悼のたいまつ
+		Tooltip: ""
+	}
+
+	PoisonSigil: {
+		DisplayName: 毒の印章
+		Tooltip: 炎の絆が有効な間、敵に毒を与える
+	}
+
+	PrismaticIdol: {
+		DisplayName: 虹の霊像
+		Tooltip: ""
+	}
+
+	RubyIdol: {
+		DisplayName: ルビーの霊像
+		Tooltip: 放たれた火の触媒のダメージが20%増加
+	}
+
+	RuneOfHorus: {
+		DisplayName: ホルスのルーン
+		Tooltip: ""
+	}
+
+	SapphireIdol: {
+		DisplayName: サファイアの霊像
+		Tooltip: 放たれた水の触媒のダメージが20%増加
+	}
+
+	ShamanEmblem: {
+		DisplayName: シャーマンの紋章
+		Tooltip: シャーマンダメージが15%増加
+	}
+
+	SinisterPresent: {
+		DisplayName: 不吉なプレゼント
+		Tooltip: ""
+	}
+
+	SpectralSkull: {
+		DisplayName: スペクトルスカル
+		Tooltip: ""
+	}
+
+	SpiritedWater: {
+		DisplayName: オンディーヌの涙
+		Tooltip: 水の絆を解放すると、ライフを30回復する
+	}
+
+	SpiritedWax: {
+		DisplayName: 精霊の涙
+		Tooltip:
+			'''
+			水か火の絆を解放すると、ライフを30回復し、
+			ハチを召喚する
+			'''
+	}
+
+	SunPriestBelt: {
+		DisplayName: 太陽の祭司のベルト
+		Tooltip: ""
+	}
+
+	SunPriestCloak: {
+		DisplayName: 太陽の祭司のローブ
+		Tooltip: ""
+	}
+
+	SunPriestTorch: {
+		DisplayName: 太陽の祭司のたいまつ
+		Tooltip: ""
+	}
+
+	TopazIdol: {
+		DisplayName: トパーズの霊像
+		Tooltip: 放たれた大地の触媒のダメージが20%増加
+	}
+
+	ToxicSigil: {
+		DisplayName: 猛毒の印章
+		Tooltip: ""
+	}
+
+	TreasuredBaubles: {
+		DisplayName: 大切な宝飾品
+		Tooltip: シャーマニックボンドの回復速度が15%上昇
+	}
+
+	VenomSigil: {
+		DisplayName: 酸性毒の印章
+		Tooltip: ""
+	}
+
+	WaxyVial: {
+		DisplayName: 蝋の小瓶
+		Tooltip: 炎の絆を解放するとハチを召喚する
+	}
+
+	WyvernTailFeather: {
+		DisplayName: ワイバーンの尻尾の羽
+		Tooltip: ""
+	}
+
+	AbyssalChestplate: {
+		DisplayName: アビスの胸当て
+		Tooltip: ""
+	}
+
+	AbyssalGreaves: {
+		DisplayName: アビスのすね当て
+		Tooltip: ""
+	}
+
+	AbyssalHelm: {
+		DisplayName: アビスの兜
+		Tooltip: ""
+	}
+
+	AbyssalWings: {
+		DisplayName: アビスの翼
+		Tooltip: ""
+	}
+
+	DarkShamanChest: {
+		DisplayName: 闇のシャーマンの胴
+		Tooltip: ""
+	}
+
+	DarkShamanLegs: {
+		DisplayName: 闇のシャーマンの足
+		Tooltip: ""
+	}
+
+	DarkShamanTiara: {
+		DisplayName: 闇のシャーマンのティアラ
+		Tooltip: ""
+	}
+
+	BloodShamanChest: {
+		DisplayName: 血のシャーマンの胴
+		Tooltip: ""
+	}
+
+	BloodShamanLegs: {
+		DisplayName: 血のシャーマンの足
+		Tooltip: ""
+	}
+
+	BloodShamanTiara: {
+		DisplayName: 血のシャーマンのティアラ
+		Tooltip: ""
+	}
+
+	DownpourCrown: {
+		DisplayName: 豪雨の冠
+		Tooltip: ""
+	}
+
+	DownpourKilt: {
+		DisplayName: 豪雨のキルト
+		Tooltip: ""
+	}
+
+	DownpourTunic: {
+		DisplayName: 豪雨の上衣
+		Tooltip: ""
+	}
+
+	AmethystTiara: {
+		DisplayName:アメジストのティアラ
+		Tooltip:
+			'''
+			放たれた精霊の触媒のダメージが20%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	DiamondTiara: {
+		DisplayName: ダイヤモンドのティアラ
+		Tooltip:
+			'''
+			放たれた全ての触媒のダメージが10%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	EmeraldTiara: {
+		DisplayName: エメラルドのティアラ
+		Tooltip:
+			'''
+			放たれた空気の触媒のダメージが20%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	RubyTiara: {
+		DisplayName: ルビーのティアラ
+		Tooltip:
+			'''
+			放たれた炎の触媒のダメージが20%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	SapphireTiara: {
+		DisplayName: サファイアのティアラ
+		Tooltip:
+			'''
+			放たれた水の触媒のダメージが20%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	TopazTiara: {
+		DisplayName: トパーズのティアラ
+		Tooltip:
+			'''
+			放たれた大地の触媒のダメージが20%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	HarpyCrown: {
+		DisplayName: ハーピーの冠
+		Tooltip: シャーマンダメージが6%増加
+	}
+
+	HarpyLegs: {
+		DisplayName: ハーピーの足
+		Tooltip:
+			'''
+			シャーマンダメージが6%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	HarpyLightArmor: {
+		DisplayName: ハーピーの軽鎧
+		Tooltip: シャーマンクリティカル率が8%上昇
+	}
+
+	HellShamanKilt: {
+		DisplayName: デプスウィーバーのキルト
+		Tooltip: シャーマンダメージが8%増加
+	}
+
+	HellShamanTiara: {
+		DisplayName: デプスウィーバーのティアラ
+		Tooltip:
+			'''
+			シャーマンダメージが6%増加
+			シャーマンの絆の持続時間が3秒延長される
+			'''
+	}
+
+	HellShamanTunic: {
+		DisplayName: デプスウィーバーの上衣
+		Tooltip: シャーマンクリティカル率が9%上昇
+	}
+
+	AdamantiteSpangenhelm: {
+		DisplayName: アダマンタイトのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	ChlorophyteSpangenhelm: {
+		DisplayName: クロロファイトのスパンゲンの兜m
+		Tooltip: ""
+	}
+
+	CobaltSpangenhelm: {
+		DisplayName: コバルトのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	HallowedSpangenhelm: {
+		DisplayName: 神聖なスパンゲンの兜
+		Tooltip: ""
+	}
+
+	MythrilSpangenhelm: {
+		DisplayName: ミスリルのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	OrichalcumSpangenhelm: {
+		DisplayName: オリハルコンのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	PalladiumSpangenhelm: {
+		DisplayName: パラジウムのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	TitaniumSpangenhelm: {
+		DisplayName: チタンのスパンゲンの兜
+		Tooltip: ""
+	}
+
+	SunPriestHood: {
+		DisplayName: 太陽の祭司のフード
+		Tooltip: ""
+	}
+
+	SunPriestPants: {
+		DisplayName: 太陽の祭司のパンツ
+		Tooltip: ""
+	}
+
+	SunPriestRobe: {
+		DisplayName: 太陽の祭司のローブ
+		Tooltip: ""
+	}
+
+	TitanSpangenhelm: {
+		DisplayName: 巨人のスパンゲンの兜
+		Tooltip: ""
+	}
+
+	VampireSarong: {
+		DisplayName: 吸血鬼の腰布
+		Tooltip: ""
+	}
+
+	VampireTiara: {
+		DisplayName: 吸血鬼のティアラ
+		Tooltip: ""
+	}
+
+	VampireTunic: {
+		DisplayName: 吸血鬼の上衣
+		Tooltip: ""
+	}
+
+	AbyssFragment: {
+		DisplayName: アビスの断片
+		Tooltip: ""
+	}
+
+	BrokenHeroScepter: {
+		DisplayName: 壊れた英雄の杖
+		Tooltip: ""
+	}
+
+	DownpourCrystal: {
+		DisplayName: 豪雨のクリスタル
+		Tooltip: ""
+	}
+
+	EmptyTiara: {
+		DisplayName: 空のティアラ
+		Tooltip: ""
+	}
+
+	HarpyTalon: {
+		DisplayName: ハーピーの爪
+		Tooltip: ""
+	}
+
+	LihzahrdSilk: {
+		DisplayName: リザードのシルク
+		Tooltip: ""
+	}
+
+	RitualScepter: {
+		DisplayName: 儀式用の笏
+		Tooltip: ""
+	}
+
+	ShamanicEmpowermentPotion: {
+		DisplayName: シャーマニック強化ポーション
+		Tooltip: ""
+	}
+
+	ViscountMaterial: {
+		DisplayName: バイカウントの素材
+		Tooltip: ""
+	}
+
+	AdornedBranch: {
+		DisplayName: 装飾の付いた枝
+		Tooltip: ""
+	}
+
+	AmberScepter: {
+		DisplayName: コハクの笏
+		Tooltip:
+			'''
+			この武器で絆を解放すると、持続時間が5秒延長される
+			絆を解放すると、ライフが20回復
+			'''
+	}
+
+	AvalancheScepter: {
+		DisplayName: アバランチ
+		Tooltip: 絆を開放すると巨大なつららを放つ
+	}
+
+	BeeSeeker: {
+		DisplayName: ザ・ハイブ
+		Tooltip:
+			'''
+			絆を解放するとハチを召喚する
+			プレイヤーを蜂蜜に浸す
+			'''
+	}
+
+	BloodCaller: {
+		DisplayName: ブラッドコーラー
+		Tooltip: ""
+	}
+
+	Blum: {
+		DisplayName: ブルム
+		Tooltip: ""
+	}
+
+	CopperScepter: {
+		DisplayName: アメジストの笏
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+	}
+
+	DepthsBaton: {
+		DisplayName: デプスバトン
+		Tooltip: ""
+	}
+
+	EnchantedScepter: {
+		DisplayName: エンチャントセプター
+		Tooltip: シャーマンの絆が有効な場合、攻撃が2回当たる
+	}
+
+	FeatherScepter: {
+		DisplayName: 羽の笏
+		Tooltip:
+			'''
+			シャーマンの絆が有効な場合、羽の発射量が増える
+			羽は回転し始め、最大射程距離でダメージが増加
+			'''
+	}
+
+	FireBatScepter: {
+		DisplayName: ファイアバットセプター
+		Tooltip: ""
+	}
+
+	GoldScepter: {
+		DisplayName: ルビーの笏
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+	}
+
+	AbyssPrecinct: {
+		DisplayName: アビスプリーシンクト
+		Tooltip: ""
+	}
+
+	AbyssShredder: {
+		DisplayName: アビスシュレッダー
+		Tooltip: ""
+	}
+
+	AdamantiteScepter: {
+		DisplayName: アダマンタイトの笏
+		Tooltip: ""
+	}
+
+	BulbScepter: {
+		DisplayName: つぼみの笏
+		Tooltip: ""
+	}
+
+	ChlorophyteScepter: {
+		DisplayName: クロロファイトの笏
+		Tooltip: ""
+	}
+
+	CobaltScepter: {
+		DisplayName: コバルトの笏
+		Tooltip: ""
+	}
+
+	CorruptCone: {
+		DisplayName: 不浄の笏
+		Tooltip: ""
+	}
+
+	GoblinStick: {
+		DisplayName: ゴブリンの棒
+		Tooltip: ""
+	}
+
+	HallowedCone: {
+		DisplayName: 聖なる笏
+		Tooltip: ""
+	}
+
+	IceFlakeCone: {
+		DisplayName: 氷の粒の笏
+		Tooltip: ""
+	}
+
+	IceMimicScepter: {
+		DisplayName: 氷のミミックの笏
+		Tooltip: ""
+	}
+
+	IchoryCone: {
+		DisplayName: 霊液の笏
+		Tooltip: ""
+	}
+
+	MartianBeamer: {
+		DisplayName: マーシャンビーマー
+		Tooltip: ""
+	}
+
+	MythrilScepter: {
+		DisplayName: ミスリルの笏
+		Tooltip: ""
+	}
+
+	Nirvana: {
+		DisplayName: ニルヴァーナ
+		Tooltip: ""
+	}
+
+	OrichalcumScepter: {
+		DisplayName: オリハルコンの笏
+		Tooltip: ""
+	}
+
+	PalladiumScepter: {
+		DisplayName: パラジウムの笏
+		Tooltip: ""
+	}
+
+	PiratesGlory: {
+		DisplayName: 海賊の栄光
+		Tooltip: ""
+	}
+
+	ReviverofSouls: {
+		DisplayName: リバースオブソウルズ
+		Tooltip: ""
+	}
+
+	RuneScepter: {
+		DisplayName: ルーンの笏
+		Tooltip: ""
+	}
+
+	Sanctify: {
+		DisplayName: サンクティファイ
+		Tooltip: ""
+	}
+
+	ShroomiteScepter: {
+		DisplayName: シュルーマイトの笏
+		Tooltip: ""
+	}
+
+	SightScepter: {
+		DisplayName: 視覚の笏
+		Tooltip: ""
+	}
+
+	VileSpout: {
+		Tooltip: 1つか2つのアクティブな結合を持つ最大で3つか5つの敵を追尾する
+		DisplayName: ヴァイルスパウト
+	}
+
+	TungstenScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: エメラルドの笏
+	}
+
+	TinScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: トパーズの笏
+	}
+
+	YewWoodScepter: {
+		Tooltip: ""
+		DisplayName: イチイの木の笏
+	}
+
+	ViscountScepter: {
+		Tooltip: ""
+		DisplayName: バイカウントの笏
+	}
+
+	ThunderScepter: {
+		Tooltip: ""
+		DisplayName: サンダーセプター
+	}
+
+	ThoriumScepter: {
+		Tooltip: ""
+		DisplayName: トリウムの笏
+	}
+
+	StarScouterScepter: {
+		Tooltip: ""
+		DisplayName: スタースカウターの笏
+	}
+
+	SpiritDropletScepter: {
+		Tooltip: ""
+		DisplayName: 精霊の雫の笏
+	}
+
+	QueenJellyfishScepter: {
+		Tooltip: ""
+		DisplayName: 女王クラゲの笏
+	}
+
+	PatchWerkScepter: {
+		Tooltip: ""
+		DisplayName: パッチワークの笏
+	}
+
+	OrchidScepter: {
+		Tooltip: ""
+		DisplayName: 蘭の笏
+	}
+
+	Monowai: {
+		Tooltip: ""
+		DisplayName: モノワイ
+	}
+
+	MagmaScepter: {
+		Tooltip: ""
+		DisplayName: 溶岩の笏
+	}
+
+	LeadScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: 鉛の笏
+	}
+
+	IronScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: 鉄の笏
+	}
+
+	IceShardScepter: {
+		Tooltip: ""
+		DisplayName: 氷の破片の笏
+	}
+
+	ValadiumScepter: {
+		Tooltip: ""
+		DisplayName: バラジウムの笏
+	}
+
+	UnfathomableFleshScepter: {
+		Tooltip: ""
+		DisplayName:計り知れない肉の笏
+	}
+
+	TitanicScepter: {
+		Tooltip: ""
+		DisplayName: タイタニックセプター
+	}
+
+	TerrariumScepter: {
+		Tooltip: ""
+		DisplayName: テラリウムの笏
+	}
+
+	StrangePlatingScepter: {
+		Tooltip: ""
+		DisplayName: 奇妙なメッキの笏
+	}
+
+	SolarPebbleScepter: {
+		Tooltip: ""
+		DisplayName: 太陽の小石の笏
+	}
+
+	PharaohScepter: {
+		Tooltip: ""
+		DisplayName: ファラオの笏
+	}
+
+	MoltenResidueScepter: {
+		Tooltip: ""
+		DisplayName: 溶融残渣の笏
+	}
+
+	LodestoneScepter: {
+		Tooltip: ""
+		DisplayName: 磁鉄鉱の笏
+	}
+
+	LichScepter: {
+		Tooltip: ""
+		DisplayName: リッチの笏
+	}
+
+	GeodeScepter: {
+		Tooltip: ""
+		DisplayName: ジオードの笏
+	}
+
+	DragonScaleScepter: {
+		Tooltip: ""
+		DisplayName: ドラゴンの鱗の笏
+	}
+
+	CoznixScepter: {
+		Tooltip: ""
+		DisplayName: コズニックスセプター
+	}
+
+	BoreanStriderScepter: {
+		Tooltip: ""
+		DisplayName: ボレアンスライダーの笏
+	}
+
+	BersekerShardScepter: {
+		Tooltip: ""
+		DisplayName: 狂戦士の欠片の笏
+	}
+
+	AbyssionScepter: {
+		Tooltip: ""
+		DisplayName: アビシオンセプター
+	}
+
+	AbyssalChitinScepter: {
+		Tooltip: ""
+		DisplayName: アビザルキチンセプター
+	}
+
+	GraniteEnergyScepter: {
+		Tooltip: ""
+		DisplayName: 御影石のエネルギーの笏
+	}
+
+	BronzeAlloyScepter: {
+		Tooltip: ""
+		DisplayName: 青銅合金の笏
+	}
+
+	AquaiteScepter: {
+		Tooltip: ""
+		DisplayName: アクアイトセプター
+	}
+
+	SporeCaller: {
+		Tooltip:
+			'''
+			胞子を不正確に拡散させる
+			結合を解除すると、全ての胞子が敵を追尾するようになる
+			'''
+		DisplayName: スポアコーラー
+	}
+
+	SpineScepter: {
+		Tooltip: 1つか2つのアクティブな結合を持つ最大で3つか5つの敵を追尾する
+		DisplayName: スパインセプター
+	}
+
+	SilverScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: サファイアの笏
+	}
+
+	ShamanRod: {
+		Tooltip: ""
+		DisplayName: シャーマンの杖
+	}
+
+	ShadowWeaver: {
+		Tooltip: ""
+		DisplayName: シャドウウィーバー
+	}
+
+	ScepterofStarpower: {
+		Tooltip: ""
+		DisplayName: 星の力の笏
+	}
+
+	PlatinumScepter: {
+		Tooltip: この武器で絆を解放すると、持続時間が5秒延長される
+		DisplayName: ダイヤモンドの笏
+	}
+
+	PerishingSoul: {
+		Tooltip: ""
+		DisplayName: 滅びゆくソウル
+	}
+
+	MeteorPhasestaff: {
+		Tooltip: ""
+		DisplayName: メテオフェーズセプター
+	}
+
+	HellShamanRod: {
+		Tooltip: ""
+		DisplayName: 地獄のシャーマンの杖
+	}
+
+	WyvernMoray: {
+		Tooltip: ""
+		DisplayName: ワイバーンモレイ
+	}
+
+	TrueSanctify: {
+		Tooltip: ""
+		DisplayName: トゥルーサンクティファイ
+	}
+
+	TrueDepthsBaton: {
+		Tooltip: ""
+		DisplayName: トゥルーデプスバトン
+	}
+
+	TitaniumScepter: {
+		Tooltip: ""
+		DisplayName: チタンの笏
+	}
+
+	TheCore: {
+		Tooltip: ""
+		DisplayName: ザ・コア
+	}
+
+	TerraScepter: {
+		Tooltip: ""
+		DisplayName: テラセプター
+	}
+
+	SunRay: {
+		Tooltip: ""
+		DisplayName: サンレイ
+	}
+
+	GuardianTest: {
+		DisplayName: ガーディアンテスト
+		Tooltip:
+			'''
+			無限のガーディアンのリソースを与える
+			表示時にデバッグビジュアルを表示する
+			[c/FF0000:テストアイテム]
+			'''
+	}
+
+	EnchantedRune: {
+		DisplayName: 魔法のルーン
+		Tooltip: 守護の魔法を召喚する
+	}
+
+	LivingRune: {
+		DisplayName: リビングルーン
+		Tooltip: 周回する樹液の泡を召喚する
+	}
+
+	EnchantedPavise: {
+		DisplayName: 魔法の盾
+		Tooltip: 魔法のシールドブラストを放つ
+	}
+
+	IronPavise: {
+		DisplayName: 鉄のパヴィス
+		Tooltip: ""
+	}
+
+	LeadPavise: {
+		DisplayName: 鉛のパヴィス
+		Tooltip: ""
+	}
+
+	WoodenPavise: {
+		DisplayName: 木のパヴィス
+		Tooltip: ""
+	}
+
+	GoldWarhammer: {
+		DisplayName: 金の戦槌
+		Tooltip: ""
+	}
+
+	PlatinumWarhammer: {
+		DisplayName: プラチナの戦槌
+		Tooltip: ""
+	}
+
+	Warhammer: {
+		DisplayName: 戦槌
+		Tooltip: 重いハンマーを投げる
+	}
+
+	CrimtaneShield: {
+		Tooltip: ブロックに成功するとライフを10回復する
+		DisplayName: スキャプラ
+	}
+
+	SkywareShield: {
+		Tooltip: 星を放つ
+		DisplayName: スカイウォード
+	}
+
+	MeteoriteShield: {
+		DisplayName: 隕石のパヴィス
+		Tooltip: 攻撃した敵を炎上させる
+	}
+
+	NightShield: {
+		DisplayName: スティクス
+		Tooltip: ""
+	}
+
+	BijouShield: {
+		DisplayName: ビジョンウォール
+		Tooltip: 「視覚的な快楽のためだけに存在する」
+	}
+
+	AdamantiteShield: {
+		DisplayName: アダマンタイトのパヴィス
+		Tooltip: ""
+	}
+
+	HallowedShield: {
+		DisplayName: スヴァリン
+		Tooltip: 神聖な光を放つ
+	}
+
+	TitaniumShield: {
+		DisplayName: チタンの護盾
+		Tooltip: ブロックするか反撃すると、チタンの破片の障壁が生成される
+	}
+
+	ChlorophyteShield: {
+		DisplayName: クロロファイトのパヴィス
+		Tooltip: 胞子の雲を放つ
+	}
+
+	SpectreShield: {
+		DisplayName: スペクターパヴィス
+		Tooltip: 弾をブロックすると、敵を追尾する魂を放つ
+	}
+
+	BambooWarhammer: {
+		DisplayName: 竹の戦槌
+		Tooltip: ""
+	}
+
+	DesertWarhammer: {
+		DisplayName: 化石の戦槌
+		Tooltip: 攻撃が敵に当たると骨片が飛び散る
+	}
+
+	CrimsonWarhammer: {
+		DisplayName: ハートビート
+		Tooltip: 攻撃が敵に当たるとライフが回復する
+	}
+
+	JungleWarhammer: {
+		DisplayName: アイビーカジェル
+		Tooltip: 攻撃が敵に当たると鋭い葉を放つ
+	}
+
+	HellWarhammer: {
+		DisplayName: グラウンド
+		Tooltip: 最大までチャージした攻撃が敵に当たると爆発する
+	}
+
+	PirateWarhammer: {
+		DisplayName: ギャングウェイの小槌
+		Tooltip: チャージ中に右クリック攻撃が当たると即座にチャージされる
+	}
+
+	ChlorophyteWarhammer: {
+		DisplayName: クロロファイトの小槌
+		Tooltip: 攻撃が敵に当たると胞子の雲を放つ
+	}
+
+	TempleWarhammer: {
+		DisplayName: ワーアマール
+		Tooltip: 敵を追尾する火花を放つ
+	}
+
+	BeeRune: {
+		Tooltip: 近くの敵にハチを放つ蜂の巣を召喚する
+		DisplayName: 女王のルーン
+	}
+
+	HellRune: {
+		DisplayName: スルトの印章
+		Tooltip: 縦に移動するファイアボールを召喚する
+	}
+
+	RuneRune: {
+		DisplayName: ルーンファイアルーン
+		Tooltip: ルーンファイアボールを召喚する
+	}
+
+	FrostRune: {
+		Tooltip: オーナメントを召喚する
+		DisplayName: オーナメントのルーン
+	}
+
+	EmpressRune: {
+		DisplayName: コンステレーション
+		Tooltip: きらめきの星座を召喚する
+	}
+
+	GuardianBambooHead: {
+		DisplayName: 竹の兜
+		Tooltip:
+			'''
+			ガードが徐々に回復する
+			敵に少し狙われやすくなる
+			'''
+		SetBonus: ガードかスラムを消費すると防御力が一時的に50%増加
+	}
+
+	GuardianBambooChest: {
+		DisplayName: 竹の胸当て
+		Tooltip:
+			'''
+			ガードとスラムが徐々に回復する
+			最大ガードが1増加
+			'''
+	}
+
+	GuardianBambooLegs: {
+		DisplayName: 竹のすね当て
+		Tooltip:
+			'''
+			スラムが徐々に回復する
+			最大スラムが1増加
+			'''
+	}
+
+	GuardianMeteoriteChest: {
+		DisplayName: 隕石の番人の胸当て
+		Tooltip:
+			'''
+			相克ダメージが5%増加
+			最大スラムが1増加
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	GuardianMeteoriteHead: {
+		DisplayName: 隕石の番人の兜
+		Tooltip:
+			'''
+			相克ダメージが5%増加
+			最大ガードが1増加
+			'''
+		SetBonus: ブロックとパリィに成功するとスラムを50%の確率で得る
+	}
+
+	GuardianMeteoriteLegs: {
+		DisplayName: 隕石の番人のブーツ
+		Tooltip: 移動速度と近接攻撃速度が10%上昇
+	}
+
+	GuardianEmpressChest: {
+		DisplayName: 夜明けのヴァルキリーの鎧
+		Tooltip:
+			'''
+			最大スラムが2増加し、スラムが徐々に回復する
+			近接攻撃速度が25%上昇
+			'''
+		SetBonus:
+			'''
+			ルーンの弾の発射数が大きく増え、射程が大幅に延長される
+			ルーンの効果の持続時間が50%延長される
+			'''
+	}
+
+	GuardianEmpressChestAlt: {
+		DisplayName: 夜明けの番人のプレートメイル
+		Tooltip:
+			'''
+			最大ガードが2増加し、ガードが徐々に回復する
+			敵に少し狙われやすくなる
+			'''
+		SetBonus:
+			'''
+			パヴィスかガントレットを選択中、被ダメージを30%軽減
+			敵にかなり狙われやすくなる
+			'''
+	}
+
+	GuardianEmpressHead: {
+		DisplayName: 夜明けの光のサークレット
+		Tooltip:
+			'''
+			相克ダメージが12%増加
+			最大ガードとスラムが1増加
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	GuardianEmpressLegs: {
+		DisplayName: 夜明けの光のタラリア
+		Tooltip:
+			'''
+			相克ダメージが10%増加
+			移動速度が15%上昇
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	GuardianAdamantiteHead: {
+		DisplayName: アダマンタイトのバイザー
+		Tooltip:
+			'''
+			相克ダメージが12%増加し、相克クリティカル率が12%上昇
+			最大ガードが2増加
+			敵に狙われやすくなる
+			'''
+		SetBonus: ガードが徐々に回復する
+	}
+
+	GuardianTitaniumHead: {
+		DisplayName: チタンの大兜
+		Tooltip:
+			'''
+			相克ダメージが15%増加し、相克クリティカル率が8%上昇
+			最大ガードとスラムが1増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	GuardianHallowedHead: {
+		DisplayName: 神聖な大兜
+		Tooltip:
+			'''
+			相克ダメージが12%増加し、相克クリティカル率が12%上昇
+			最大ガードとスラムが2増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	GuardianChlorophyteHead: {
+		DisplayName: クロロファイトの大兜
+		Tooltip:
+			'''
+			相克ダメージが16%増加し、近接攻撃速度が16%上昇
+			最大ガードとスラムが2増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	GuardianEmpressMaterial: {
+		DisplayName: プリズムのメッキ
+		Tooltip: 「非常に軽い」
+	}
+
+	GoblinSpike: {
+		DisplayName: ゴブリンの盾のトゲ
+		Tooltip: ブロックした敵に、防御力の100%分のダメージを与える
+	}
+
+	GuardianEmblem: {
+		DisplayName: ガーディアンの紋章
+		Tooltip: 相克ダメージが15%増加
+	}
+
+	DungeonSpike: {
+		DisplayName: 飛び出す盾のトゲ
+		Tooltip:
+			'''
+			ブロックした敵に防御力の150%分のダメージを与える
+			弾をブロックするとウォーターボルトを放ち、盾のトゲのダメージを与える
+			'''
+	}
+
+	MechanicalSpike: {
+		DisplayName: 機械の盾のトゲ
+		Tooltip:
+			'''
+			ブロックした敵に防御力の200%分のダメージを与え、
+			近くの敵にレーザーを発射し、盾のトゲのダメージを与える
+			ブロックに成功すると10秒間、ダメージが15%増加する
+			'''
+	}
+
+	TempleSpike: {
+		DisplayName: リザードの盾のトゲ
+		Tooltip:
+			'''
+			ブロックした敵に防御力の200%分のダメージを与え、
+			敵に強力なサンレーザーを放ち、盾のトゲのダメージを与える
+			ブロックに成功すると10秒間、ダメージが15%増加し、
+			クリティカル率が10%上昇
+			'''
+	}
+
+	Skateboard: {
+		DisplayName: スケートボード
+		Tooltip:
+			'''
+			落下中、下方向にブロックすると地面を滑走する
+			空中で下方の敵にスラム攻撃を当てると飛び上がる
+			'''
+	}
+
+	DemoniteShield: {
+		DisplayName: ナイトヴェール
+		Tooltip: スラムするとダークスピリットを放つ
+	}
+
+	CorruptionWarhammer: {
+		DisplayName: ソウルクラッシャー
+		Tooltip: ""
+	}
+
+	GuideShield: {
+		DisplayName: 盾サーフィンの説明書
+		Tooltip: 地面をブロックすると落下ダメージを無効化できる
+	}
+
+	GuideShieldBounce: {
+		DisplayName: 盾の跳ね返りの説明書
+		Tooltip: 地面をブロックすると跳ね返る
+	}
+
+	GuardianCobaltHead: {
+		DisplayName: コバルトの大兜
+		Tooltip:
+			'''
+			移動速度と近接攻撃速度が15%上昇
+			最大スラムが2増加
+			敵に狙われやすくなる
+			'''
+		SetBonus: スラムが徐々に早く回復する
+	}
+
+	GuardianMythrilHead: {
+		DisplayName: ミスリルの大兜
+		Tooltip:
+			'''
+			相克ダメージが10%増加し、相克クリティカル率が10%上昇
+			最大ガードとスラムが1増加
+			敵に狙われやすくなる
+			'''
+		SetBonus: 相克クリティカル率が10%上昇
+	}
+
+	GuardianOrichalcumHead: {
+		DisplayName: オリハルコンの大兜
+		Tooltip:
+			'''
+			相克クリティカル率と近接攻撃速度が18%上昇
+			最大ガードとスラムが1増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	GuardianPalladiumHead: {
+		DisplayName: パラジウムの大兜
+		Tooltip:
+			'''
+			相克ダメージが16%増加
+			最大ガードとスラムが1増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	GoblinRune: {
+		DisplayName: ゴブリンのルーン
+		Tooltip: あなたを守る不規則なシャドウフレイムを召喚する
+	}
+
+	GuardianGitHelm: {
+		DisplayName: グッドナイトの兜
+		Tooltip:
+			'''
+			最大ガードとスラムが1増加
+			ハードモード前の鉱石セットと組み合わせることができる
+			敵に少し狙われやすくなる
+			'''
+		SetBonus: ブロックかパリィに成功すると移動速度が上昇
+	}
+
+	GuardianRunePotion: {
+		DisplayName: ルーンのポーション
+		Tooltip: ガーディアンのルーンの弾の数が増加する
+	}
+
+	GuardianHoneyPotion: {
+		DisplayName: スイートガードポーション
+		Tooltip: ブロックかパリィに成功するとライフが回復する
+	}
+
+	Guard: {
+		DisplayName: ガード
+		Tooltip: ""
+	}
+
+	SilverGauntlet: {
+		DisplayName: 銀の籠手
+		Tooltip: ""
+	}
+
+	TungstenGauntlet: {
+		DisplayName: タングステンの籠手
+		Tooltip: ""
+	}
+
+	JungleGauntlet: {
+		DisplayName: グラスナックルズ
+		Tooltip:
+			'''
+			チャージして攻撃した敵に毒を与える
+			パリィに成功すると近接攻撃速度が大幅に上昇する
+			'''
+	}
+
+	SpiderGauntlet: {
+		DisplayName: デスタッチ
+		Tooltip: パリィに成功するとしばらくの間、攻撃時に牙を放つようになる
+	}
+
+	MechanicalGauntlet: {
+		DisplayName: アイアンフィスト
+		Tooltip:
+			'''
+			チャージ中に上か下入力で降下速度を制御できる
+			最大までチャージするかパリィ成功後の攻撃でロケットパンチを繰り出す
+			'''
+	}
+
+	NanitesGauntlet: {
+		DisplayName: サイバネティックストロングアーム
+		Tooltip:
+			'''
+			選択中は移動能力が大幅に上昇する
+			攻撃を当てるか、パリィに成功するとライフが回復する
+			「ナノマシンだよ、ボウヤ！」
+			'''
+	}
+
+	IceStandard: {
+		DisplayName: フローズンタイレイド
+		Tooltip:
+			'''
+			最大までチャージ中は周囲の敵の動きを継続的に遅くする
+			また最大までチャージすると、ダメージ耐性が20%増加する
+			'''
+	}
+
+	CopperStandard: {
+		DisplayName: 銅の軍旗
+		Tooltip:
+			'''
+			最大までチャージすると防御力が4増加
+			また最大までチャージすると、最大ガードが1増加し、ガードが徐々に回復する
+			'''
+	}
+
+	TinStandard: {
+		DisplayName: 錫の軍旗
+		Tooltip:
+			'''
+			最大までチャージすると防御力が4増加
+			また最大までチャージすると、最大ガードとスラムが1増加し、徐々に回復する
+			'''
+	}
+
+	PirateStandard: {
+		DisplayName: ジョリーロジャー
+		Tooltip:
+			'''
+			最大までチャージすると、近くの敵を倒した際にドロップする金額が増える
+			また最大までチャージすると、ダメージが10%増加する
+			'''
+	}
+
+	PlanteraStandard: {
+		DisplayName: 花びらのペナント
+		Tooltip:
+			'''
+			最大までチャージすると、最大ライフが50増加
+			また最大までチャージすると、ライフが少ない際、ライフ自然回復を大きく増進する
+			'''
+	}
+
+	DesertStandard: {
+		DisplayName: 突撃の軍旗
+		Tooltip:
+			'''
+			最大までチャージすると、移動速度が15%上昇する
+			また最大までチャージすると、チャージ攻撃とスラム攻撃で範囲内の敵に連鎖稲妻が発生する
+			'''
+	}
+
+	PaladinGauntlet: {
+		DisplayName: ティルの手
+		Tooltip:
+			'''
+			チャージして攻撃すると敵を追尾する光の破片を放つ
+			パリィに成功するとチャージしなくてもパンチで光の破片を放てるようになる
+			'''
+	}
+
+	CobaltGauntlet: {
+		DisplayName: コバルトの手甲
+		Tooltip: ""
+	}
+
+	PalladiumGauntlet: {
+		DisplayName: パラジウムの籠手
+		Tooltip: ライフが90%以上なら、ライフを消費してパリィできる
+	}
+
+	MythrilWarhammer: {
+		DisplayName: ミスリルの戦槌
+		Tooltip: ""
+	}
+
+	OrichalcumWarhammer: {
+		DisplayName: オリハルコンの戦槌
+		Tooltip: 軽くて弾力がある
+	}
+
+	BadgeBattlesPast: {
+		DisplayName: 過去の戦いのバッジ
+		Tooltip: パヴィスでブロックしている中、ダメージが徐々に増加する
+	}
+
+	ColossalWormTooth: {
+		DisplayName: 巨大なワームの歯
+		Tooltip: あなたの旗のバフを受けたプレイヤーのダメージが5%増加する
+	}
+
+	TerrifyingMonsterFang: {
+		DisplayName: 恐ろしいモンスターの牙
+		Tooltip: あなたの旗のバフを受けたプレイヤーのライフ自然回復を増進する
+	}
+
+	MoonLordRune: {
+		DisplayName: 月のルーン
+		Tooltip: あなたを守る異世界のポータルを召喚する
+	}
+
+	HorizonFragment: {
+		DisplayName: ホライズンの断片
+		Tooltip: 「このカケラの中には、理解を超えた広大さが宿っている」
+	}
+
+	HorizonShield: {
+		DisplayName: ターミナス
+		Tooltip:
+			'''
+			敵を追尾するエネルギー弾を放つ
+			ブロック後の反撃として強化されたエネルギー弾を放つ
+			「敵の消失点」
+			'''
+	}
+
+	HorizonLance: {
+		DisplayName: ホライゾンファーマメント
+		Tooltip:
+			'''
+			最大までチャージすると、強力なオーロラを放ち、
+			ライフ自然回復を大きく増進する
+			パリィに成功すると防御力の10%をライフとして回復する
+			「天と地の狭間」
+			'''
+	}
+
+	MoonLordShield: {
+		DisplayName: シックフリップ
+		Tooltip:
+			'''
+			落下中、下方向にブロックすると地面を滑走する
+			スラム攻撃するとクールなトリックをする
+			'''
+	}
+
+	GuardianBuffStation: {
+		DisplayName: 回転するダミー
+		Tooltip: 最大スラムが増加
+	}
+
+	EmpressPlateChest: {
+		DisplayName: 古代の夜明けの胸当て
+		Tooltip: ""
+	}
+
+	EmpressPlateHead: {
+		DisplayName: 古代の夜明けの兜
+		Tooltip: ""
+	}
+
+	EmpressPlateLegs: {
+		DisplayName: 古代の夜明けのすね当て
+		Tooltip: ""
+	}
+
+	HorizonDye: {
+		DisplayName: 染料（ホライズン）
+		Tooltip: ""
+	}
+
+	GuardianHorizonChest: {
+		DisplayName: ホライズンの胸当て
+		Tooltip:
+			'''
+			ダメージ耐性と相克ダメージが25%増加し、近接攻撃速度が25%上昇
+			最大ライフが100増加
+			'''
+	}
+
+	GuardianHorizonHead: {
+		DisplayName: ホライズンの大兜
+		Tooltip:
+			'''
+			ダメージ耐性と相克ダメージが15%増加し、クリティカル率が15%上昇
+			敵にものすごく狙われやすくなる
+			'''
+		SetBonus: ライフが50%以上なら、ライフを消費してガードとスラムができる
+	}
+
+	GuardianHorizonLegs: {
+		DisplayName: ホライズンのすね当て
+		Tooltip:
+			'''
+			ダメージ耐性が20%増加し、 移動速度と近接攻撃速度が20%上昇
+			最大ガードとスラムが3増加する
+			'''
+	}
+
+	SageOwl: {
+		DisplayName: 星のフクロウの霊像
+		LeftClick: 羽毛の弾幕を放つ
+		RightClick: 下の敵をマークし、被ダメージを3増加させる
+		Jump: ジャンプで最大で2回ダッシュし、ホバリング中は攻撃速度が上昇
+		Passive: 夜目のポーションの効果を得る
+		Tooltip: 星のフクロウに変身し、特別な能力を得る
+	}
+
+	WardenTortoise: {
+		DisplayName: スラップジョーの霊像
+		LeftClick: 顎をパチンと鳴らし、ダメージを無効化すると強化される
+		RightClick: 甲羅に入り、ダメージを無効化する
+		Jump: ジャンプができないが、代わりに移動速度が大きく上昇する
+		Passive: 被ダメージを20%軽減
+		Tooltip: スラップジョーに変身し、特別な能力を得る
+	}
+
+	PredatorIceFox: {
+		DisplayName: 狐の幽霊の小さな像
+		LeftClick: 狐火を最大で3つ召喚する
+		RightClick: 幽霊のような姿になり、通過した敵にダメージを与えることがある
+		Jump: 二段ジャンプで近くにテレポートし、狐火を3つ召喚する
+		Passive: 変身を繰り返すと移動速度が低下する
+		Tooltip: 狐に変身し、特別な能力を得る
+	}
+
+	PredatorHarpy: {
+		DisplayName: ハーピーの像
+		LeftClick: 鋭利な羽を発射し、敵の防御を一部無視する
+		RightClick: 横に突進し、羽の弾幕を放つ
+		Jump: 3回追加でジャンプできる
+		Passive: ジャンプやダッシュをするたびに、次の攻撃が強化される
+		Tooltip: ハーピーに変身し、特別な能力を得る
+	}
+
+	PredatorFossil: {
+		DisplayName: ラプターの小さな像
+		LeftClick: 強烈な噛みつきを行い、スタックする出血を与える
+		RightClick: ダッシュし、当たった敵に張り付き、攻撃速度が上昇する
+		Jump: 張り付いた敵から飛び降り、当たった敵をえぐり出すことができる
+		Passive: 落下ダメージを軽減
+		Tooltip: ボーンラプターに変身し、特別な能力を得る
+	}
+
+	PredatorUndine: {
+		DisplayName: ウンディーネの小さな像
+		LeftClick: 斬撃を行い、当たると潮汐を得て、クリティカル率が最大で100%上昇する
+		RightClick: 全ての潮を消費し、超過したクリティカル率の200%がダメージを増加させる
+		Jump: 追加で2回ジャンプできる。ダメージを受けると潮汐を5消費する。
+		Passive: スキルでクリティカルが出ると、近接攻撃速度と移動速度が短時間、最大で50%上昇
+		Tooltip: ウンディーネに変身し、特別な能力を獲得する
+	}
+
+	PredatorGoblin: {
+		DisplayName: バーゲストの霊像
+		LeftClick: 強烈な噛みつきを行い、当たるとエネルギーを生み出す
+		RightClick: エネルギーが最大まで溜まっているなら、一連の影炎の斬撃を放つ
+		Jump: 前方に進む二段ジャンプが可能
+		Passive: 動かずにいるとステルス状態になり、敵に狙われにくくなり、エネルギーを即座に回復できる
+		Tooltip: バーゲストに変身し、特別な能力を得る
+	}
+
+	SageBee: {
+		DisplayName: ハチの像
+		LeftClick: 毒針を発射し、当たった敵に継続的にダメージを与える
+		RightClick: 針の数が多いほどたくさんの蜂の群れを放つ
+		Jump: ジャンプで移動方向へダッシュする
+		Passive: 変身中は近くのプレイヤーを蜂蜜に浸す
+		Tooltip: ハチに変身し、特別な能力を得る
+	}
+
+	SageImp: {
+		DisplayName: インプの像
+		LeftClick: ファイアボールを発射し、ファイアウォールを通過すると強化される
+		RightClick: ファイアウォールを作り出し、それに触れた敵にダメージを与える
+		Jump: ジャンプで移動方向へ素早くテレポートする
+		Passive: 近くの敵を倒すと、次の3回の攻撃速度が上昇する
+		Tooltip: インプに変身し、特別な能力を得る
+	}
+
+	SageCorruption: {
+		DisplayName: コラプターの像
+		LeftClick: ヴァイルボルトを発射し、撃ち続けていると攻撃速度とチャージが上昇していく
+		RightClick: 敵と自身を吹き飛ばし、チャージに応じてダメージが増加
+		Jump: ジャンプで移動方向へダッシュし、数秒間浮遊できる
+		Passive: 近くの敵を倒すと、周囲の敵にダメージを与える
+		Tooltip: コラプターに変身し、特別な能力を得る
+	}
+
+	SageCrimson: {
+		DisplayName: クリメラの像
+		LeftClick: クリムゾンボルトを発射し、撃ち続けていると攻撃速度とチャージが上昇していく
+		RightClick: 敵と自身を吹き飛ばし、チャージに応じてダメージが増加
+		Jump: ジャンプで移動方向へダッシュし、数秒間浮遊できる
+		Passive: 近くの敵を倒すと、周囲の敵にダメージを与える
+		Tooltip: クリメラに変身し、特別な能力を得る
+	}
+
+	WardenSpider: {
+		DisplayName: シェルウェブの霊像
+		LeftClick: 噛みつきを行い、クモの巣まみれの敵を攻撃するとライフが回復する
+		RightClick: 糸を発射し、敵の動きを遅くし、ライフが少ない敵を仕留める
+		Jump: 糸の上を移動できる
+		Passive:
+			'''
+			敵を倒すとライフが回復する
+			回復の閾値と回復量は他の形態だと減少する
+			'''
+		Tooltip: シェルウェブスパイダーに変身し、特別な能力を獲得する
+	}
+
+	WardenSlime: {
+		DisplayName: ゼラチノスの霊像
+		LeftClick: 下に急降下して攻撃する。落下距離が長いほどダメージが増加
+		RightClick: 押し続けるとチャージし、最大までチャージしてから離すと敵を貫通するスライムのトゲを発射する
+		Jump: 地上で左クリックでチャージし、最大までチャージしてから離す大ジャンプする
+		Passive: ダメージを受けるか与えると、ライフを回復するスライムの塊を放つ
+		Tooltip: 高貴なスライムに変身し、特別な能力を獲得する
+	}
+
+	WardenSalamortar: {
+		DisplayName: サラモルタルの霊像
+		LeftClick: 爆発する迫撃砲弾を弧を描くように連射する
+		RightClick: 熱を全て消費して巨大な爆弾を発射し、当たるとライフが回復する
+		Jump: 移動し続けると高速走行し、走行中は熱が上昇していく
+		Passive: 溶岩に飛び込むと後方に吹き飛ばされ、熱が最大まで上昇する
+		Tooltip: サラモルタルに変身し、特別な能力を獲得する
+	}
+
+	WardenSnail: {
+		DisplayName: カタツムリの霊像
+		LeftClick: 殻に入り、耐久度を消費して敵を吹き飛ばす
+		RightClick: 殻を投げ、当たると耐久度が回復し、拾うとライフが回復する
+		Jump: スラギー状態だと移動速度が上昇し、二段ジャンプできる
+		Passive: スラギー状態だと殻の耐久度が回復していく
+		Tooltip: カタツムリに変身し、特別な能力を獲得する
+	}
+
+	WardenEater: {
+		DisplayName: マンイーターの像
+		LeftClick: 押し続けるとチャージし、離すと噛みついて攻撃する。果物を食べると強化される
+		RightClick: 最大で3個の果物を発射し、時間が経過するか近くの敵を倒すとと果物が熟す
+		Jump: ジャンプで突進し、触れた敵を吹き飛ばし、熟した果物を食べる
+		Passive: 地面に根を張り、植物のブロックに根を張っているなら移動速度が上昇する
+		Tooltip: 食虫植物に変身し、特別な能力を獲得する
+	}
+
+	SageBat: {
+		DisplayName: コウモリの霊像
+		LeftClick: 押し続けるとチャージし、離すと音波を発射し、エコーロケイテッドを受けている敵に対してダメージが増加
+		RightClick: 超音波を発射し、エコーロケイテッドを受けている敵が戻ってくる際に捕捉するとエコーロケイテッドを行う
+		Jump: 追加で2回ジャンプできる
+		Passive: 天井にぶら下がることができ、ぶら下がっている間はライフが回復し、敵に狙われにくくなる
+		Tooltip: コウモリに変身し、特別な能力を獲得する
+	}
+
+	SageBatHell: {
+		DisplayName: ヘルバットの霊像
+		LeftClick: 押し続けるとチャージし、離すと音波を発射し、エコーロケイテッドを受けている敵に対してダメージが増加
+		RightClick: 超音波を発射し、エコーロケイテッドを受けている敵が戻ってくる際に捕捉するとエコーロケイテッドを行う
+		Jump: 追加で3回ジャンプできる
+		Passive: 天井にぶら下がることができ、ぶら下がっている間はライフが回復し、敵に狙われにくくなる
+		Tooltip: ヘルバットに変身し、特別な能力を獲得する
+	}
+
+	SymbioteToad: {
+		DisplayName: サップトードの小さな像
+		LeftClick: 舌で攻撃し、当たると最大で10匹のサップフライを召喚する
+		RightClick: サップフライが対象のプレイヤーを守る。最大で5匹まで同時にプレイヤーか味方に追従させることができる
+		Jump: Press 上を押すと高くジャンプでき、落下ダメージが軽減される
+		Passive: ダメージを受けるとサップフライが自身を犠牲にしてライフを回復してくれる
+		Tooltip: サップトードに変身し、特別な能力を獲得する
+	}
+
+	ShapeshifterShampoo: {
+		DisplayName: プレミアムな生き物用シャンプー
+		Tooltip:
+			'''
+			変身に染料を塗布する
+			「これは自分だけのものにしたくなる」
+			'''
+	}
+
+	ShapeshifterHairpin: {
+		DisplayName: 奇妙なヘアピン
+		Tooltip: 変身にあなたの髪の色を適用する
+	}
+
+	ShapeshifterBlankEffigy: {
+		DisplayName: 人型の像
+		Tooltip: 人間に変身させる…らしい
+	}
+
+	HorizonDrill: {
+		DisplayName: ホライズンのドリル
+		Tooltip: ""
+	}
+
+	HorizonPickaxe: {
+		DisplayName: ホライズンのつるはし
+		Tooltip: ""
+	}
+
+	HorizonHamaxe: {
+		DisplayName: ホライズンのハンマーアックス
+		Tooltip: ""
+	}
+
+	CactusGauntlet: {
+		DisplayName: サボテンの籠手
+		Tooltip: パリィに成功するとダメージを与える
+	}
+
+	Quarterstaff: {
+		DisplayName: クォータースタッフ
+		Tooltip: ""
+	}
+
+	HellboneMaterial: {
+		DisplayName: クリーメインズ
+		Tooltip: 不気味なものの作成に使用できる（でもまだ！）
+	}
+
+	ThoriumLeafShield: {
+		DisplayName: ギリーカバー
+		Tooltip: スラム攻撃が当たると鋭い葉に分裂する
+	}
+
+	BambooQuarterstaff: {
+		DisplayName: 竹の棒
+		Tooltip: ""
+	}
+
+	DungeonQuarterstaff: {
+		DisplayName: パーティドシー
+		Tooltip: 攻撃するとウォーターボルトを放つ
+	}
+
+	CorruptionQuarterstaff: {
+		DisplayName: ウィキッドファング
+		Tooltip: ""
+	}
+
+	CrimsonQuarterstaff: {
+		DisplayName: リキト
+		Tooltip: ""
+	}
+
+	ShardQuarterstaff: {
+		DisplayName: ハーモニー
+		Tooltip: パリィに成功すると敵を混乱させ、二元性を放つ
+	}
+
+	ThoriumDarksteelGauntlet: {
+		DisplayName: ゴッドハンド
+		Tooltip:
+			'''
+			防御力に応じてチャージ速度が上昇し、攻撃の射程が伸びる
+			「かつて屈強な男が拳でクトゥルフを倒した」
+			'''
+	}
+
+	HockeyQuarterstaff: {
+		DisplayName: ウルトラプロ 9000X
+		Tooltip:
+			'''
+			最大までチャージした攻撃が当たると、攻撃した敵を吹き飛ばす
+			吹き飛ばされた敵は他の敵に当たるとダメージを与える
+			「ホッケーチャンピオンの高精度なスティック」
+			'''
+	}
+
+	ThoriumStarScouterStandard: {
+		DisplayName: ステラースティーリー
+		Tooltip:
+			'''
+			最大までチャージすると、近くの敵が味方を攻撃した際にノックバックさせる
+			また最大までチャージすると、任意の方向を二回入力でテレポートする
+			テレポートするとガードを1消費し、スラムを1得る
+			'''
+	}
+
+	MartianWarhammer: {
+		DisplayName: キネティックインパクトドライバー
+		Tooltip: チャージ中に右クリック攻撃が当たると即座にチャージされる
+	}
+
+	HallowedQuarterstaff: {
+		DisplayName: 聖なるクォータースタッフ
+		Tooltip: ""
+	}
+
+	DancerHallowedHead: {
+		DisplayName: 神聖なマスク
+		Tooltip: 「続く..？」
+	}
+
+	NeoAncientHallowedPlateMail: {
+		DisplayName: 真・古代の神聖なプレートメイル
+		Tooltip:
+			'''
+			「未来は過去」
+			「Orchidの開発者に成りすますのに最適！」
+			'''
+	}
+
+	GuardianAncientHallowedHead: {
+		DisplayName: 古代の神聖な大兜
+		Tooltip: ""
+	}
+
+	ThoriumGraniteGauntlet: {
+		DisplayName: グラナイトフィードバック
+		Tooltip:
+			'''
+			スラム攻撃を弾や急速に近づいてきた敵に当てると弾き返すことができる
+			弾き返すとガードが1つ減るが、スラムが1増加する
+			'''
+	}
+
+	ThoriumThorsHammerWarhammer: {
+		DisplayName: ソーのハンマー：相克
+		Tooltip: ""
+	}
+
+	ThoriumAquaiteQuarterstaff: {
+		DisplayName: ウェーブブレイカー
+		Tooltip: 突きが強力な振り回す攻撃に変化する
+	}
+
+	DukeGauntlet: {
+		DisplayName: デュークガントレット
+		Tooltip: ""
+	}
+
+	TrashPavise: {
+		DisplayName: ゴミ箱の蓋
+		Tooltip: ""
+	}
+
+	JewelerGauntlet: {
+		DisplayName: 宝石職人の籠手
+		Tooltip: 宝石を右クリックでソケットに装着でき、様々な効果が発揮される
+		Amethyst: "[i:Amethyst] [c/9C5ADC:アメジスト]: 攻撃が敵の防御力をかなり無視する"
+		Topaz: "[i:Topaz] [c/FFBA00:トパーズ]: パリィ後の無敵時間が延長される"
+		Sapphire: "[i:Sapphire] [c/2D6ACC:サファイア]: 二段ジャンプが可能になる"
+		Emerald: "[i:Emerald] [c/00A32E:エメラルド]: ダッシュが可能になる"
+		Ruby: "[i:Ruby] [c/D92B2B:ルビー]: パリィに成功するとライフ自然回復を大きく増進"
+		Diamond: "[i:Diamond] [c/FFC4E1:ダイアモンド]: 選択中、光を放つ"
+		Amber: "[i:Amber] [c/FF8800:コハク]: チャージした攻撃が当たるとガードゲージが50%回復する"
+		Aquamarine: "[i:ThoriumMod/Aquamarine] [c/6dffd8:アクアマリン]: 水中で素早く動ける"
+		Opal: "[i:ThoriumMod/Opal] [c/ef659a:オパール]: 近くのプレイヤーのリソース回復速度が上昇"
+		None: 宝石は装着されていない
+	}
+
+	VerveineQuarterstaff: {
+		DisplayName: バーベナ
+		Tooltip: パリィに成功すると雲を放つ
+	}
+
+	ThoriumViscountQuarterstaff: {
+		DisplayName: ピピストゥレル
+		Tooltip:
+			'''
+			敵の防御力を20無視する
+			パリィに成功するとコウモリの群れに短時間変身する
+			'''
+	}
+
+	ThoriumThoriumQuarterstaff: {
+		DisplayName: トリウムのクォータースタッフ
+		Tooltip: 攻撃が当たると火花を放つ
+	}
+
+	SturdySlab: {
+		DisplayName: 頑丈な平板
+		Tooltip: ブロックとパリィの持続時間が25%延長される
+	}
+
+	ParryingMailFeral: {
+		DisplayName: 野性の留め具
+		Tooltip:
+			'''
+			ブロックとパリィの持続時間が25%延長される
+			近接攻撃速度が12%上昇
+			'''
+	}
+
+	ParryingMailHoly: {
+		DisplayName: 十字架の鎧
+		Tooltip:
+			'''
+			ブロックとパリィの持続時間が25%延長される
+			パリィに成功時と被ダメージ時の無敵時間を延長する
+			'''
+	}
+
+	ParryingMailMech: {
+		DisplayName: 聖なる鎖帷子
+		Tooltip:
+			'''
+			パリィの持続時間が25%延長され、 近接攻撃速度が12%上昇
+			パリィに成功時、ダメージが10秒間15%増加
+			パリィに成功時と被ダメージ時の無敵時間を延長する
+			'''
+	}
+
+	ParryingMailNinja: {
+		DisplayName: 暗殺者の隠れ布
+		Tooltip:
+			'''
+			パリィの持続時間が25%延長され、 近接攻撃速度が12%上昇
+			パリィに成功時、ダメージが10秒間15%増加
+			パリィに成功時と被ダメージ時の無敵時間を延長する
+			壁登りとダッシュが可能
+			'''
+	}
+
+	ThoriumFeatherWarhammer: {
+		DisplayName: ウォーペッカー
+		Tooltip: 最大までチャージすると2回少し跳ね返って攻撃する
+	}
+
+	GoblinDagger: {
+		DisplayName: ゴブリンの補助短剣
+		Tooltip: 捕食者の攻撃は累積する出血を与える
+	}
+
+	PlantEnzymes: {
+		DisplayName: 植物の酵素
+		Tooltip:
+			'''
+			シェイプシフターのの回復効果が50%増加する
+			敵に少し狙われやすくなる
+			'''
+	}
+
+	DeepwaterLocket: {
+		DisplayName: 深海のロケット
+		Tooltip:
+			'''
+			賢者の攻撃を当てた敵1体につき、野生ダメージが2%増加し、最大で20%増加する
+			スタックは10秒間持続し、攻撃を当てると持続時間がリセットされる
+			'''
+	}
+
+	ShapeshifterEmblem: {
+		DisplayName: シェイプシフターの紋章
+		Tooltip: 野生ダメージが15%増加
+	}
+
+	HarnessYouxia: {
+		DisplayName: 侠客のハーネス
+		Tooltip: 変身時、敵に向けて短剣を5本放つ
+	}
+
+	ShawlFeather: {
+		DisplayName: 羽のショール
+		Tooltip:
+			'''
+			変身中に「フック」でダッシュできる
+			「フック」を長押しすると、通常通りフックを使用できる
+			'''
+	}
+
+	ShawlOfTheWind: {
+		DisplayName: 風のショール
+		Tooltip:
+			'''
+			移動速度が12%上昇
+			変身中に「フック」でダッシュできる
+			「フック」を長押しすると、通常通りフックを使用できる
+			'''
+	}
+
+	ShawlPhoenix: {
+		DisplayName: 不死鳥のショール
+		Tooltip:
+			'''
+			移動速度が12%上昇
+			溶岩のダメージを7秒間無効化
+			燃えるブロックのダメージを無効化
+			溶岩のダメージを減少
+			変身中に「フック」でダッシュできる
+			「フック」を長押しすると、通常通りフックを使用できる
+			'''
+	}
+
+	ShapeshifterHarpyHead: {
+		DisplayName: 飛翔のヘッドバンド
+		Tooltip: 野生クリティカル率が5%上昇
+		SetBonus: 上から攻撃すると、鋭い羽が敵に落ちてくる
+	}
+
+	ShapeshifterHarpyChest: {
+		DisplayName: 飛翔の胸当て
+		Tooltip: 近接攻撃速度が8%上昇
+	}
+
+	ShapeshifterHarpyLegs: {
+		DisplayName: 飛翔のローブ
+		Tooltip: 移動速度が10%上昇
+	}
+
+	ShapeshifterSurvivalPotion: {
+		DisplayName: 生存本能のポーション
+		Tooltip:
+			'''
+			ライフが少ないほど、ダメージ耐性と野生ダメージが15%増加する
+			変身中のみ有効
+			'''
+	}
+
+	ShapeshifterAshwoodHead: {
+		DisplayName: 葬送のフード
+		Tooltip: 野生クリティカル率が10%上昇
+		SetBonus:
+			'''
+			ダメージを与えると炎が燃え上がり、野生ダメージが最大で10%増加する
+			ダメージを受けると炎が燃え尽き、近くの敵にダメージを与える
+			'''
+	}
+
+	ShapeshifterAshwoodChest: {
+		DisplayName: 葬送のマント
+		Tooltip: 野生ダメージが5%増加
+	}
+
+	ShapeshifterAshwoodLegs: {
+		DisplayName: 葬送のスカート
+		Tooltip: 移動速度が10%上昇
+	}
+
+	GuideTorches: {
+		DisplayName: ハンズフリーなたいまつの説明書
+		Tooltip:
+			'''
+			変身中でもたいまつを設置できる
+			ミドルクリックでたいまつを設置する
+			右クリックで無効化
+			'''
+	}
+
+	GuideTorchesInactive: {
+		DisplayName: ハンズフリーなたいまつの説明書 (無効)
+		Tooltip:
+			'''
+			変身中でもたいまつを設置できる
+			ミドルクリックでたいまつを設置する
+			無効になっている。右クリックで有効化
+			'''
+	}
+
+	ThoriumCookWarhammer: {
+		DisplayName: ミートテンダライザー
+		Tooltip: 最大までチャージした攻撃が敵に当たると「肉片」がドロップされ、旨い飯を得る
+	}
+
+	GuardianCrystalNinjaHelm: {
+		DisplayName: 水晶の暗殺者の仮面
+		Tooltip:
+			'''
+			最大ガードとスラムが1増加
+			ダッシュするとパリィを行う
+			'''
+	}
+
+	ThoriumGrandThunderBirdWarhammer: {
+		DisplayName: ストームブレイカー
+		Tooltip:
+			'''
+			近くの敵に電気を伝導し、接続するたびにチャージ速度が上昇する
+			攻撃された敵は電気を伝導するようになる
+			'''
+	}
+
+	ThoriumBronzeShield: {
+		DisplayName: 青銅の大盾
+		Tooltip:
+			'''
+			加速度が低下し、ブロック中のガード回復が無効されるが、近くの味方を守れる
+			無効になったガード回復は、次のスラム攻撃時のダメージボーナスに変換される
+			'''
+	}
+
+	SpectreQuarterstaff: {
+		DisplayName: ゴーストリーグレイブ
+		Tooltip:
+			'''
+			精霊を徐々に召喚し、パリィに成功すると解き放つ
+			「恐ろしい同族とは混同しないように」
+			'''
+	}
+
+	FlamingQuarterstaff: {
+		DisplayName: 炎のクォータースタッフ
+		Tooltip: 「炎の光が道を照らすだろう」
+	}
+
+	GuardianNeedle: {
+		DisplayName: ハイブスチールニードル
+		Tooltip:
+			'''
+			突きを当てた敵に跳ね返り、ガードを得て、ダメージが増加する
+			パリィに成功すると反撃し、上に跳ね上がる
+			'''
+	}
+
+	CrystalGauntlet: {
+		DisplayName: クリスタルクラッシャー
+		Tooltip:
+			'''
+			ブロック中、最大で3秒間累積する無敵状態になり、
+			パリィに成功すると時間が延長される
+			パリィに成功するかスラム攻撃を当てると、
+			防御力を減少させるクリスタルの破片を放つ
+			'''
+	}
+
+	Slam: {
+		DisplayName: スラム
+		Tooltip: ""
+	}
+
+	GuardianRegenPotion: {
+		DisplayName: 粘り強さのポーション
+		Tooltip: ガードとスラムの最大回復量が増加
+	}
+
+	HeavyChain: {
+		DisplayName: 重い鎖
+		Tooltip: 戦槌を振る範囲が拡大される
+	}
+
+	HeavyChainTest: {
+		DisplayName: 重い鎖 (テスト)
+		Tooltip: 重い鎖（通常）よりも戦槌を振る範囲が拡大され、赤い
+	}
+
+	BeeGauntlet: {
+		DisplayName: バンブルビーター
+		Tooltip:
+			'''
+			チャージ中に下入力で降下速度を制御できる
+			パリィに成功するかスラム攻撃でハチを放つ
+			'''
+	}
+
+	MahoganyPavise: {
+		DisplayName: マホガニーのパヴィス
+		Tooltip: ""
+	}
+
+	BorealQuarterstaff: {
+		DisplayName: ボーリアルウッドのクォータースタッフ
+		Tooltip: ""
+	}
+
+	ShadewoodWarhammer: {
+		DisplayName: シェイドウッドの戦槌
+		Tooltip: ""
+	}
+
+	EbonwoodWarhammer: {
+		DisplayName: エボンウッドの戦槌
+		Tooltip: ""
+	}
+
+	PearlwoodPavise: {
+		DisplayName: パールウッドのパヴィス
+		Tooltip: ""
+	}
+
+	AshWoodPavise: {
+		DisplayName: アッシュウッドのパヴィス
+		Tooltip: ""
+	}
+
+	ThoriumIllusionistPavise: {
+		DisplayName: リフレクション
+		Tooltip: ブロックした弾を反射する
+	}
+
+	ThoriumYewGauntlet: {
+		DisplayName: ゴブリンのウォークロー
+		Tooltip: 最大までチャージするとグラップリングクローを放つ
+		PullOnKill: 敵を倒すと他の敵に鎖が付き、その敵を引き寄せる。右クリックで無効になる
+		NoPullOnKill: 敵を倒しても鎖は付かない。右クリックで有効になる
+	}
+
+	ThoriumEvergreenWoodQuarterstaff: {
+		DisplayName: 常緑樹のクォータースタッフ
+		Tooltip: ""
+	}
+
+	ThoriumDeadwoodGauntlet: {
+		DisplayName: デッドウッドの籠手
+		Tooltip: ""
+	}
+
+	GlowingMushroomGauntlet: {
+		DisplayName: フィスティパフ
+		Tooltip: 最大までチャージすると胞子を放つ
+	}
+
+	StaffRocketYellow: {
+		DisplayName: スタッフマウント式推進システム（黄）
+		Tooltip:
+			'''
+			クォータースタッフでパリィ中に左クリックでダッシュする
+			スラムを1消費する
+			'''
+	}
+
+	StaffRocketRed: {
+		DisplayName: スタッフマウント式推進システム（赤）
+		Tooltip:
+			'''
+			クォータースタッフでパリィ中に左クリックでダッシュする
+			スラムを1消費する
+			'''
+	}
+
+	StaffRocketGreen: {
+		DisplayName: スタッフマウント式推進システム（緑）
+		Tooltip:
+			'''
+			クォータースタッフでパリィ中に左クリックでダッシュする
+			スラムを1消費する
+			'''
+	}
+
+	StaffRocketBlue: {
+		DisplayName: スタッフマウント式推進システム（青）
+		Tooltip:
+			'''
+			クォータースタッフでパリィ中に左クリックでダッシュする
+			スラムを1消費する
+			'''
+	}
+
+	PumpkingWarhammer: {
+		DisplayName: グリムハーベスター
+		Tooltip:
+			'''
+			ブロックするとスラムを3消費し、近くの敵に向かって飛んでいき、その敵を攻撃する
+			一定時間が経過するか、敵を倒すとガード効果が発動する
+			最大までチャージした攻撃が当たると、得られるガード効果が増加する
+			'''
+	}
+
+	PresentQuarterstaff: {
+		DisplayName: 巨大なキャンディステッキ
+		Tooltip: ""
+	}
+
+	SurfaceFireShamanWeapon: {
+		DisplayName: ウィローウィスプ
+		Tooltip: 遅れて広がるかすかな光の筋を召喚する
+	}
+}
+
+NPCs: {
+	BoundChemist.DisplayName: とらわれの科学者
+
+	Chemist: {
+		DisplayName: 科学者
+		Bestiary: その化学者は、錬金術に挑戦してみたい人なら誰とでも、自分の情熱と素材を惜しみなく共有する。驚くべきことに、彼女はまだ一度もスライムに変身したことがない。今のところは。
+
+		Names: {
+			1: エロディ
+			2: アニック
+			3: サマンサ
+			4: アンブル
+			5: マエバ
+			6: フロリアンヌ
+			7: ジュリエット
+			8: クロエ
+			9: アマンディーヌ
+			10: アリシア
+		}
+
+		TownNPCMood: {
+			Content: ここは実験をおこなうのに絶好の場所だわ！
+			NoHome: 実験室を設置できる場所があればいいのだけど…
+			FarFromHome: 自宅の研究室が無事だといいのだけど…
+			LoveSpace: この場所では化学の相性が抜群なの！わかった？
+			DislikeCrowded: 周りに人が多すぎて、気が散ってしまうわ。
+			HateCrowded: こんな混雑した場所でどうやって実験すればいいの？
+			LoveBiome: "{BiomeName}は材料を探すのに良い場所だわ。"
+			LikeBiome: "{BiomeName}は最高だわ！いろいろ試したり、実験したりできるクールなものがたくさんあるから！"
+			DislikeBiome: "{BiomeName}は暑くて乾燥しているわ。素材をあらかじめたくさん買っておいてよかったわ。"
+			HateBiome: "{BiomeName}を見ると、あなたが私を見つけたときのことを思い出すわ。あれは恐ろしい経験だったわ…"
+			LoveNPC: "{NPCName}は試薬について本当に詳しいの！彼女にはすごく助けてもらっているわ。"
+			LikeNPC: "{NPCName}はクールな奴だわ。彼が化学が好きだとは思わなかったわ。"
+			DislikeNPC: "{NPCName}がまた私の研究室を爆破しないことを切に願うわ…"
+			HateNPC: "{NPCName}は新しい武器を作るようにしつこく言ってくるんだけど、放っておいてくれないかしら？"
+			LikeNPC_Princess: "{NPCName}が好きです。"
+			Princess_LovesNPC: "{NPCName}が好きですわ。"
+		}
+
+		UI: {
+			RHint: 反応のヒント！
+			SHint: 特別なヒント！
+		}
+
+		Dialogues: {
+			1: ありがとう、おかげでずいぶん面倒なことにならずに済んだわ。いや、それについては話さないことにするわ。
+			2: 献血で科学の研究に貢献したい？ いいえ？ なら、立ち去って。
+			3: 当然、普通の瓶は錬金術には使えないわ！コインが欲しいわ！
+			4: 何？自分自身を爆破したいの？
+			5: 絶対に何も汚さないで！もう汚しちゃったとしても構わないわ！
+			6: 錬金術に興味があって、しかもまだ爆発していないなんて？すごいわね。
+			7: 手袋は必ずつけて！ところで、私の手袋を見なかった？
+			8: ほら、遠心分離機で染み抜きができるの！ある意味ではね。
+			9: あなたは科学の触媒になれるわ！それとも灰の山になるか。優先順位を忘れないように気を付けて。
+			10: 錬金術が世界を動かしている…現在の科学理論はそう主張しているわ。
+			11: 安全上の注意：錬金術の化合物は飲まないで。メモを取れる場合を除いてはだけど。
+			12: 私を反動主義者と呼ぶ人もいるわ。
+			13: 錬金術は実に素晴らしいわ！
+			14: 人生とは、まさに大きな反応の連続だわ！
+			15: 不死とは、ただの大きな反応に過ぎないわ！月がなぜあんなことをするのか、私には分からないわ。
+			16: 月はアトラクタイトでできていると思う？
+			17: 科学的な方法とは…爆発しなくなるまで試してみること！
+			18: これが本日のレシピ…でも、レシピ自体は素材ではないからご注意して。
+			19: さあ、これで負けないように頑張って。
+			20: 私はそれを試す時間がなかった。明日、あなたに会わなければ、うまくいかなかったのだと推測しているわ。
+			21: 完璧なレシピが1つ、完全無料！…本当にそう？
+			22: あれならうまくいくはず。たぶん。もしかしたら。あなたを危険にさらすようなことはしないわよね？
+			23: 無料なら、おそらくあなたが商品、と言うの？いやいや…お願いだから、近くで試さないで。
+			24: もっとレシピを考える時間が必要なの。その間、ちょっと敵を何体か倒してきてくれない？
+			25: 私の素晴らしいアイデアに過度に触れることは、研修生にとって危険かもしれないわ。
+			26: 今日はすでに一つレシピを教えたけど、今度は自分でオリジナルのレシピを考えてみない？
+			27: 今のところ、あなたに検査してほしいことは何もないわ。あれ、今なんて言ったの？
+			28: 今回が初めての質問ということで、今回は3つのヒントを1つ分の料金でご提供するわ。おまけにちょっとしたプレゼントも！ぜひとも「隠し反応の書」を入手することをお勧めするわ。
+			29: 光るキノコを見つけたのね。それを使って素敵な糸が作れるって知っていた？レシピはこれ。
+			30: ジャングルリリー、この花が大好きよ！あなたも、どうやって咲かせるのか気になっているでしょう？その解決策を教えるわ。
+		}
+
+		Census.SpawnCondition: ワールドの中心にある鉱山坑道で発見
+	}
+
+	Croupier: {
+		DisplayName: クルーピエ
+		Bestiary: クルーピエはギャンブラーたちが独自の生活様式を維持できるよう手助けしている。彼は非常に運がよく、かつて6面サイコロで7を出して勝ったことがあるといわれている。
+
+		Names: {
+			1: カポネ
+			2: キャデラック
+			3: タネンバウム
+			4: オルダーマン
+			5: アッカルド
+			6: アンジェリーニ
+			7: バナーノ
+			8: アルブロシーノ
+			9: ダミーコ
+			10: アタナシオ
+			11: マノキオ
+		}
+
+		TownNPCMood: {
+			Content: ここは確かに取引するには良い場所だ。
+			NoHome: ホームレス生活は、俺に暗い時代を思い出させるな…
+			FarFromHome:ここが嫌いなわけではないが、戻りたいんだ。
+			LoveSpace: こんな素敵な場所にたどり着くことを知っていたら、もっと早く来ていた！
+			DislikeCrowded: 近所の人たちはいい人たちだけど、ちょっとやりすぎだな。
+			HateCrowded: 傍観者が多すぎる！ 見られずに正々堂々と試合をすることすらできないぞ！
+			LoveBiome: "{BiomeName}は、カードを新品と同様の状態に保つのに最適だ。"
+			LikeBiome: "{BiomeName}はのんびりしていて、ここに滞在してもいいな。"
+			DislikeBiome: "{BiomeName}は俺自身は問題ないが、俺のカードは？あまり良くありません。"
+			HateBiome: "{BiomeName}の空気中の湿気が俺のカードをダメにしている！"
+			LoveNPC: "{NPCName}は最高の仲間で、毎晩美味しいビールを飲みながら一緒に遊んでいるぞ！"
+			LikeNPC: "{NPCName}はクールな女性だ。化学はあのゲームを思い出させるな…"
+			DislikeNPC: 信じられなかったが、{NPCName}が教えてくれたのだが、ゴブリンは本当にカードゲームができないらしいな。
+			HateNPC: "{NPCName}がギャンブルのこととか何とかしつこく聞いてくるんだが、なぜあんなに詮索好きなんだ？"
+			LikeNPC_Princess: "{NPCName}が好きだ。"
+			Princess_LovesNPC: "{NPCName}が好きですわ。"
+		}
+
+		UI: {
+			DeckBuilding: デッキの構築
+			NewDeck: 新しいデッキを受け取る
+			FunnyDialogue: EULA C6はいつ？
+			CanBeRemoved: 除去可能
+			CannotBeRemoved: 除去不可
+			MostExpensiveCard: "必要なカードの枚数: "
+			Return: 戻る
+		}
+
+		Dialogues: {
+			1: 運は向いているか？
+			2: このオッズはいいな、ボス。いつもこのオッズは好きだ。
+			3: カードのことなら任せてくれ、ボス。ポーカー、ソリティア…さらにポーカー…
+			4: おい、ボス、親友！俺たちはすごく仲良しなんだから、ちょっと借金返済を手伝ってくれないか？
+			5: 俺はあなたの後方支援担当だ。
+			6: 運命は目の前に迫っている。お前はどう扱われたい？
+			7: 1から86までの数字を1つ選んでくれ！
+			8: あまり勝算が高くないようだな？ 手伝ってやるよ。
+			9: もうなくしたのか？ほら、ボス、これが新しいデッキだ。
+			10: おい、お前のポケットはパンパンだな。新品のデッキを地面に置きっぱなしにしたりしないだろう？
+		}
+
+		Census.SpawnCondition: デッキにカードを入れている
+	}
+
+	DownpourElemental.DisplayName: ダウンポーエレメンタル
+}
+
+Prefixes: {
+	VoodooedPrefix.DisplayName: ブードゥーの
+	SpiritualPrefix.DisplayName: 霊的な
+	SpiritedPrefix.DisplayName: 強健な
+	PossessedPrefix.DisplayName: 憑依の
+	OccultPrefix.DisplayName: 不思議な
+	LoadedPrefix.DisplayName: 装填の
+	JinxedPrefix.DisplayName: 縁起の悪い
+	HexxedPrefix.DisplayName: 不運の
+	FocusedPrefix.DisplayName: 集中の
+	FerventPrefix.DisplayName: 熱烈な
+	EtherealPrefix.DisplayName: 繊細な
+	EffervescentPrefix.DisplayName: 発泡性の
+	CursedPrefix.DisplayName: 呪いの
+	BrewingPrefix.DisplayName: 燻る
+	BewitchedPrefix.DisplayName: 魔法の
+	BlockingPrefix.DisplayName: 防御の
+	UnyieldingPrefix.DisplayName: 不屈の
+	ToweringPrefix.DisplayName: そびえ立つ
+	SturdyPrefix.DisplayName: がっしりした
+	StoutPrefix.DisplayName: どっしりした
+	SteadfastPrefix.DisplayName: 堅実な
+	SpartanPrefix.DisplayName: 厳格な
+	ResolutePrefix.DisplayName: 果敢な
+	HulkingPrefix.DisplayName: 巨大な
+	FragilePrefix.DisplayName: 脆い
+	FlimsyPrefix.DisplayName: 薄っぺらい
+	FeeblePrefix.DisplayName: 弱々しい
+	EmpyreanPrefix.DisplayName: 天上の
+	BestialPrefix.DisplayName: 粗暴な 
+	BoarishPrefix.DisplayName: 粗野な
+	MisshapenPrefix.DisplayName: 歪な
+	DivinePrefix.DisplayName: 神聖な
+	EnragedPrefix.DisplayName: 激怒の
+	FeralPrefix.DisplayName: 残忍な
+	FiercePrefix.DisplayName: 凄まじい
+	MonstrousPrefix.DisplayName: 怪物の
+	PrimalPrefix.DisplayName: 原始の
+	TimidPrefix.DisplayName: 小心な
+	UntamedPrefix.DisplayName: 野蛮な
+	VoraciousPrefix.DisplayName: 貪欲な
+	AngelicPrefix.DisplayName: 純真な
+	ImpregnablePrefix.DisplayName: 堅固な
+	HaidexPrefix.DisplayName: 隠蔽の
+	AddPotency: " 効力"
+	AddMaximumChips: " 最大チップ"
+	AddGuard: " 最大ガード"
+	AddAttackSpeed: % 攻撃速度
+	AddDuration: "{0}の持続時間"
+	AddParry: パリィ
+	AddBlock: ブロック
+	AddSize: 大きさ
+	AddSpeed: 速度
+}
+
+Projectiles: {
+	BronzeAlloyScepterProj.DisplayName: 青銅合金の笏
+	AdornedBranchProj.DisplayName: 装飾の付いた枝
+	CatalystSummon.DisplayName: 召喚触媒
+	CatalystAnchor.DisplayName: 触媒
+	HauntedCandle.DisplayName: 呪いのろうそく
+	GenericExplosion.DisplayName: 汎用の爆発
+	CroupierProjectile.DisplayName: クルーピエのチップ
+	ChemistProjectile.DisplayName: 科学者のフラスコ
+	DownpourElementalCloudProj.DisplayName: ダウンポーエレメンタルの雲
+	DownpourElementalCloud.DisplayName: ダウンポーエレメンタルの雲
+	AbyssDrillProjectile.DisplayName: アビスのドリル
+	SearingOnslaughtProjectile.DisplayName: シアリングオンスロート
+	RCRemoteProjectile.DisplayName: R Cリモコンのヘリ
+	PrototypeSecrecyProjectile.DisplayName: 試作型のシークレシー
+	PrototypeSecrecyHitProjectile.DisplayName: 試作型のシークレシー
+	MineshaftHookProjectile.DisplayName: 鉱山坑道のフック
+	EnchantedPaviseProj.DisplayName: シールドブラスト
+	LivingRuneProj.DisplayName: 樹液の泡
+	EnchantedRuneProj.DisplayName: 守護の魔法
+	GuardianShieldAnchor.DisplayName: パヴィス
+	SnowCardProjAlt.DisplayName: 雪の結晶
+	SnowCardProj.DisplayName: 雪の茂みの果物
+	SnowCardBase.DisplayName: 雪の茂み
+	SlimeRainCardProj2.DisplayName: 雨雲のスライム
+	SlimeRainCardProj1.DisplayName: スライムの雨雲
+	SlimeCardProj.DisplayName: スライム
+	SkyCardProjAlt.DisplayName: 雲の茂みの星
+	SkyCardProj.DisplayName:雲の茂みの果物
+	SkyCardBase.DisplayName: 雲の茂み
+	SkeletronCardProjAlt.DisplayName: ドクロのボルト
+	SkeletronCardProj.DisplayName: ドクロ
+	ShuffleCardProj.DisplayName: スート
+	SapCardProjExplosion.DisplayName: 樹液の泡の爆発
+	SapCardProj.DisplayName: 樹液の泡
+	QueenBeeCardProj.DisplayName: 蜂の巣
+	OceanCardProj.DisplayName: ヤシの実
+	OceanCardBase.DisplayName: ヤシの木
+	MushroomCardProj.DisplayName: キノコの茂みのキノコ
+	MushroomCardBase.DisplayName: キノコの茂み
+	LavaSlimeCardProj.DisplayName: ラーヴァスライム
+	KingSlimeCardProj2.DisplayName: キングスライム
+	KingSlimeCardProj.DisplayName: キングスライム
+	JungleSlimeCardProjAlt.DisplayName: ジャングルスライムのトゲ
+	JungleSlimeCardProj.DisplayName: ジャングルスライム
+	JungleCardProjAlt.DisplayName: ジャングルの茂みの胞子
+	JungleCardProj.DisplayName: ジャングルの茂みの果物
+	JungleCardBase.DisplayName: ジャングルの茂み
+	IvyChestCardProj.DisplayName: 葉
+	IceChestCardProj.DisplayName: つらら
+	GoldChestCardProj.DisplayName: 火花
+	GoblinArmyCardProjAlt.DisplayName: シャドウボルト
+	GoblinArmyCardProj.DisplayName: ポータル
+	ForestCardProj.DisplayName: ドングリ
+	ForestCardBase.DisplayName: 森の茂み
+	EyeCardProj.DisplayName: クトゥルフのしもべ
+	VultureCharmProj.DisplayName: ハゲタカの羽
+	EmbersCardProj.DisplayName: 火種
+	EaterCardProj3.DisplayName: ワームの目
+	EaterCardProj2.DisplayName: 腐った肉片
+	EaterCardProj1.DisplayName: ワーム
+	DungeonCardProjAlt.DisplayName: 敵の魂
+	DungeonCardProj.DisplayName: 精霊の矢
+	DetonatorCardProj.DisplayName: 爆発物
+	DesertCardProjAlt.DisplayName: 砂漠の茂みのトゲ
+	DesertCardProj.DisplayName: 砂漠の茂みの果物
+	DesertCardBase.DisplayName: 砂漠の茂み
+	TinChipProj.DisplayName: 錫のチップ
+	RusalkaProjAlt.DisplayName: ルサルカの弾
+	RusalkaProj.DisplayName: ルサルカ
+	PlatinumChipProj.DisplayName: プラチナのチップ
+	MeteorDetonatorProj.DisplayName: 隕石の雷管
+	HellChipProjAlt.DisplayName: ヘルファイアチップの爆発
+	HellChipProj.DisplayName: ヘルファイアチップ
+	GoldChipProj.DisplayName:金のチップ
+	GamblingChipProj.DisplayName: ギャンブルのチップ
+	FossilChipProj.DisplayName: 化石のチップ
+	CopperChipProj.DisplayName: 銅のチップ
+	BouncyChipProj.DisplayName: バウンシーチップ
+	BubbleCardProj.DisplayName: カードの泡
+	BrainCardProj2.DisplayName: カードの脳
+	BrainCardProj.DisplayName: カードの脳
+	WaterSporeProjAlt.DisplayName: 水の胞子
+	WaterSporeProj.DisplayName: 水の胞子
+	SlimeFlaskProj.DisplayName: スライム入りのフラスコ
+	SeafoamVialProjAlt.DisplayName: 海のフラスコ
+	SeafoamVialProj.DisplayName: 海のフラスコ
+	IceChestFlaskProjSmall.DisplayName: フラッシュフリーズ
+	IceChestFlaskProjBig.DisplayName: フラッシュフリーズ
+	IceChestFlaskProj.DisplayName: フラッシュフリーズ
+	DungeonFlaskProj.DisplayName: スピリテッドウォーター
+	BloodMoonFlaskProj.DisplayName: 血の霧入りのフラスコ
+	WaterSigil.DisplayName:水の印章
+	NatureSigil.DisplayName: 自然の印章
+	LightSigil.DisplayName: 光の印章
+	FireSigil.DisplayName: 炎の印章
+	DarkSigil.DisplayName: 闇の印章
+	AirSigil.DisplayName: 空の印章
+	SpiritedBubble.DisplayName: スピリテッドバブル
+	SlimeBubbleLava.DisplayName: ラーヴァスライムの泡
+	SlimeBubble.DisplayName: スライムの泡
+	SeafoamBubble.DisplayName: 海の泡
+	DungeonCatalystProj.DisplayName: リップル
+	BloomingPetal.DisplayName: 花びら
+	AlchemistSlimeLava.DisplayName: 錬金術のラーヴァスライム
+	AlchemistSlimeJungle.DisplayName: 錬金術のジャングルスライム
+	AlchemistSlime.DisplayName: 錬金術のスライム
+	PoisonBubble.DisplayName: 毒の泡
+	OilBubble.DisplayName: オイルの泡
+	LivingSapBubble.DisplayName: 生きた樹液の泡
+	FlowerReactive.DisplayName: 花の開花
+	BloomingReactiveAlt.DisplayName: 開花
+	BloomingReactive.DisplayName: 開花
+	AlchemistHive.DisplayName: 蜂の巣
+	SunflowerFlaskProj4.DisplayName: 森林のサンプル
+	SunflowerFlaskProj3.DisplayName: 森林のサンプル
+	SunflowerFlaskProj2.DisplayName: 森林のサンプル
+	SunflowerFlaskProj1.DisplayName: 森林のサンプル
+	PoisonVialProjAlt.DisplayName: 毒入りのフラスコ
+	PoisonVialProj.DisplayName: 毒入りのフラスコ
+	NatureSporeProjBloom.DisplayName: 自然の胞子
+	NatureSporeProjAlt.DisplayName: 自然の胞子
+	NatureSporeProj.DisplayName: 自然の胞子
+	LivingSapVialProjAlt.DisplayName: 生きた樹液のフラスコ
+	LivingSapVialProj.DisplayName: 生きた樹液のフラスコ
+	JungleLilyFlaskReaction.DisplayName: ジャングルリリーのエキスの開花
+	JungleLilyFlaskProj.DisplayName: ジャングルリリーのエキス
+	GlowingMushroomVialProjAlt2.DisplayName: 光るキノコのエキス
+	GlowingMushroomVialProjAlt.DisplayName: 光るキノコのエキス
+	GlowingMushroomVialProj.DisplayName: 光るキノコのエキス
+	AttractiteShurikenProj.DisplayName: アトラクタイトの手裏剣
+	HellSlimeFlaskProj.DisplayName: 燃えるスライム入りのフラスコ
+	GunpowderFlaskProj.DisplayName: 火薬入りのフラスコ
+	FireSporeProjAlt.DisplayName: 炎の胞子
+	FireSporeProj.DisplayName: 炎の胞子
+	EmberVialProjAlt.DisplayName: 残り火のフラスコ
+	EmberVialProj.DisplayName: 残り火のフラスコ
+	AlchemistSmoke3.DisplayName: アトラクタイトの煙
+	AlchemistSmoke2.DisplayName: アトラクタイトの煙
+	AlchemistSmoke1.DisplayName: アトラクタイトの煙
+	AlchemistRightClick.DisplayName: アトラクタイトのフラスコ
+	AlchemistProj.DisplayName: アトラクタイトのフラスコ
+	SunplateFlaskProj.DisplayName: 星の滑石
+	ShadowChestFlaskProj.DisplayName: デーモンの息吹j
+	QueenBeeFlaskProj.DisplayName: ローヤルゼリー入りの瓶
+	KeystoneOfTheConventProj.DisplayName: 本能的な菌糸体
+	CrimsonFlaskProjAlt.DisplayName: 本能的な菌糸体
+	CrimsonFlaskProj.DisplayName: 本能的な菌糸体
+	CorruptionFlaskProj.DisplayName:憎悪の菌糸体
+	CloudInAVialProj.DisplayName: 雲入りのフラスコ
+	AirSporeProjAlt.DisplayName: 空気の胞子
+	AirSporeProj.DisplayName: 空気の胞子
+	BlumProj.DisplayName: ブルム
+	SanctifyOrbHoming.DisplayName: サンクティファイのオーブ
+	SanctifyProj.DisplayName: サンクティファイ
+	LavaDroplet.DisplayName: 溶岩の滴
+	FeatherScepterProj.DisplayName: 羽の笏
+	EnchantedScepterProjectile.DisplayName: エンチャントセプター
+	GemScepterProjectileAmber.DisplayName: 宝石の杖（コハク）
+	GemScepterBreak.DisplayName: Gem Scepter ブレイク
+	GemScepterProjectileCopper.DisplayName: 宝石の杖（銅）
+	GemScepterProjectileGold.DisplayName: 宝石の杖（金）
+	GemScepterProjectilePlatinum.DisplayName: 宝石の杖（プラチナ）
+	GemScepterProjectileSilver.DisplayName: 宝石の杖（銀）
+	GemScepterProjectileTin.DisplayName: 宝石の杖（錫）
+	GemScepterProjectileTungsten.DisplayName: 宝石の杖（タングステン）
+	AvalancheProjectile.DisplayName: アバランチ
+	AvalancheProjectileAlt.DisplayName: アバランチ
+	VileSpoutProjectile.DisplayName: ヴァイルスパウト
+	SpineScepterProjectile.DisplayName: スパインセプター
+	BeeSeekerProjectile.DisplayName: ザ・ハイブ
+	BeeSeekerProjectileSplash.DisplayName: ザ・ハイブ
+	SporeCallerProjectile.DisplayName: スポアコーラーの胞子
+	BlumProjectile.DisplayName: ブルム
+	BlumProjectileSplash.DisplayName: ブルム
+	HarpyAnkletProj.DisplayName: ハーピーのアンクレットの羽
+	FeatherScepterProjectile.DisplayName: 羽の笏の羽
+	FeatherScepterProjectileSplash.DisplayName: 羽の笏の羽
+	DepthsWeaverBlast.DisplayName: デプスウィーバーの爆発
+	SkywareShieldProj.DisplayName: スカイウォードボルト
+	NightShieldProj.DisplayName: スティクス
+	NightShieldProjAlt.DisplayName: スティクス
+	BijouShieldProj.DisplayName: ビジョンウォール
+	HallowedShieldProj.DisplayName: スヴァリン
+	SpectreShieldProj.DisplayName: スペクターボルト
+	TempleWarhammerProj.DisplayName: 火花
+	BeeRuneProj.DisplayName: ハチ
+	HellRuneProj.DisplayName: ルーンのファイアボール
+	RuneRuneProj.DisplayName: ルーンファイア
+	FrostRuneProj.DisplayName: オーナメント
+	EmpressRuneProj.DisplayName: コンステレーション
+	WaterSpikeProj.DisplayName: ウォータースパイク
+	WaterSpikeProjAlt.DisplayName: ウォータースパイク
+	GoblinRuneProj.DisplayName: シャドウフレイム
+	GuardianGauntletAnchor.DisplayName: 篭手
+	GauntletPunchProjectile.DisplayName: 篭手
+	SpiderGauntletProjectile.DisplayName: 毒牙
+	GuardianStandardAnchor.DisplayName: 軍旗
+	StandardAuraProjectile.DisplayName: 軍旗
+	PaladinGauntletProjectile.DisplayName: 光の破片
+	GuardianHammerAnchor.DisplayName: 戦槌
+	GuardianRuneAnchor.DisplayName: ルーン
+	MechanicalGauntletProjectile.DisplayName: ロケットパンチ
+	MoonLordRuneProj.DisplayName: 月のルーン
+	MoonLordRuneProjAlt.DisplayName: 月のルーン
+	HorizonShieldProj.DisplayName: ターミナス
+	DesertStandardProj.DisplayName: 軍旗の連鎖稲妻
+	ShapeshifterShapeshiftAnchor.DisplayName: 変身
+	SageOwlProj.DisplayName: 羽
+	SageOwlProjAlt.DisplayName: 羽
+	WardenTortoiseProj.DisplayName: 噛みつき
+	PredatorIceFoxProj.DisplayName: 狐火
+	PredatorIceFoxProjAlt.DisplayName: 狐火
+	GuardianHorizonLanceAnchor.DisplayName: ホライゾンファーマメント
+	GuardianHorizonLanceProj.DisplayName: オーロラ
+	GuardianHorizonLanceProjAlt.DisplayName: オーロラ
+	GuardianHorizonLanceCounter.DisplayName: ホライゾンの回復
+	PredatorHarpyProj.DisplayName: 羽
+	PredatorHarpyProjAlt.DisplayName: 羽
+	SageBeeProj.DisplayName: 毒針
+	HorizonDrillProjectile.DisplayName: ホライズンのドリル
+	WardenSpiderProj.DisplayName:クモの噛みつき
+	WardenSpiderWeb.DisplayName: 糸
+	SageBatProj.DisplayName: 音波
+	SageBatProjAlt.DisplayName: 超音波
+	GuardianQuarterstaffAnchor.DisplayName: クォータースタッフ
+	ThoriumLeafShieldProj.DisplayName: 鋭い葉
+	DungeonQuarterstaffProjectile.DisplayName: クォータースタッフ
+	ShardQuarterstaffProjectile.DisplayName: クォータースタッフ
+	OrchidTitaniumShard.DisplayName: チタンの破片
+	ThoriumGraniteGauntletProjectile.DisplayName: はじき返し
+	TempleSpikeProj.DisplayName: サンレーザー
+	MechSpikeProj.DisplayName: レーザー
+	VerveineFart.DisplayName: おなら
+	ThoriumAquaiteQuarterstaffProjectile.DisplayName: ウェーブブレイカー
+	PredatorFossilProj.DisplayName: ボーンラプターの噛みつき
+	SageBatHellProj.DisplayName: ヘルバットの音波
+	SageImpProj.DisplayName: ファイアボール
+	SageImpProjAlt.DisplayName:ファイアウォール
+	WardenSlimeProj.DisplayName: スライムのスラム
+	WardenSlimeProjAlt.DisplayName: スライムのトゲ
+	WardenSlimeProjPassive.DisplayName: スライムの
+	SageImpDash.DisplayName: ダッシュ
+	WardenEaterStem.DisplayName: マンイーターの茎
+	WardenEaterProjAlt.DisplayName: マンイーターのつぼみ
+	WardenEaterProjAltDeath.DisplayName: マンイーターのライト
+	WardenEaterProj.DisplayName: マンイーターの噛みつき
+	SageCorruptionProj.DisplayName: ヴァイルボルト
+	SageCorruptionProjAlt.DisplayName: ヴァイルボルト
+	SageCorruptionProjBlast.DisplayName: バースト
+	SymbioteToadProj.DisplayName: サップトードの舌
+	SymbioteToadProjAlt.DisplayName: サップフライ
+	ShapeshifterHarpyProj.DisplayName: 鋭利な羽
+	WardenSalamortarProj.DisplayName: 迫撃砲弾
+	WardenSalamortarProjAlt.DisplayName: 迫撃砲弾
+	WardenSalamortarProjBig.DisplayName: 巨大な爆弾
+	WardenSalamortarProjBigAlt.DisplayName: 巨大な爆弾
+	ShapeshifterAshwoodFlame.DisplayName: 葬送の炎
+	ShapeshifterAshwoodProj.DisplayName: 葬送の炎
+	ShapeshifterHarnessProj.DisplayName: 短剣
+	WardenSnailProj.DisplayName: カタツムリの殻
+	PredatorUndineProj.DisplayName: ウンディーネの斬撃
+	PredatorUndineProjAlt.DisplayName: ウンディーネボルト
+	PredatorGoblinProj.DisplayName: バーゲストの噛みつき
+	PredatorGoblinProjAlt.DisplayName: バーゲストの斬撃
+	PredatorGoblinProjSlash.DisplayName: バーゲストの斬撃
+	PredatorGoblinProjResource.DisplayName: エネルギー
+	DesertWarhammerProjectile.DisplayName: 骨片
+	DemoniteShieldProjectile.DisplayName: ダークスピリット
+	SpectreQuarterstaffProj.DisplayName: 精霊
+	GuardianNeedleAnchor.DisplayName: ハイブスチールニードル
+	CrystalGauntletProjectile.DisplayName: クリスタルの破片
+	StarKO.DisplayName: スターK.O.
+	ThoriumViscountQuarterstaffProjectile.DisplayName: コウモリの群れ
+	ThoriumIllusionistPaviseArrow.DisplayName: 幻影
+	ThoriumIllusionistPaviseBoulder.DisplayName: 幻影
+	ThoriumIllusionistPaviseLaser.DisplayName: 幻影
+	ThoriumIllusionistPaviseStinger.DisplayName: 幻影
+	ThoriumIllusionistPaviseMagic.DisplayName: 幻影
+	ThoriumIllusionistPaviseFeather.DisplayName: 幻影
+	ThoriumIllusionistPaviseScythe.DisplayName: 幻影
+	ThoriumYewGauntletProjectile.DisplayName: グラップリングクロー
+	GlowingMushroomGauntletProjectile.DisplayName: キノコの胞子
+	StaffRocketProjectile.DisplayName: ロケットの軌道
+	PumpkingWarhammerProjectile.DisplayName: ハーベストサイス
+	SurfaceFireShamanWeaponAnchor.DisplayName: ウィローウィスプ
+	SurfaceFireShamanProjectile.DisplayName: ウィローウィスプ
+}
+
+Configs: {
+	OrchidClientConfig: {
+		DisplayName: Orchid クライアント設定
+
+		Headers: {
+			General: 一般
+			Guardian: ガーディアン
+			Shapeshifter: シェイプシフター
+		}
+
+		ShowClassTags: {
+			Label: クラスタグを表示
+			Tooltip: クラスタグの表示/非表示を切り替えます
+		}
+
+		ShowModTags: {
+			Label: Modタグを表示
+			Tooltip:
+				'''
+				Modタグの表示/非表示を切り替えます (Load Crossmod-Content without required mods must be enabled in Orchid Server Config)
+				Orchid サーバー設定にある「必要なModがなくてもクロスモッドコンテンツを読み込む」がオンになっている必要があります
+				'''
+		}
+
+		GuardianUseOldHammerUi: {
+			Label: 古いガーディアンのハンマーUI
+			Tooltip: ガーディアンのハンマーUIをペーパーマリオ風のスタイルに変更します
+		}
+
+		GuardianSwapPaviseImputs: {
+			Label: パヴィスの操作を入れ替える
+			Tooltip: ガーディアンのパヴィスの右クリックと左クリックを入れ替えます
+		}
+
+		GuardianSwapGauntletImputs: {
+			Label: パリィの操作を入れ替える
+			Tooltip: ガーディアンの武器のパリィと攻撃の操作を入れ替えます
+		}
+
+		GuardianAltChargeSounds: {
+			Label: ガーディアンのチャージ音を変更する
+			Tooltip: ガーディアン武器を最大までチャージしたときの効果音を変更します
+		}
+
+		GuardianBlockCancelChain: {
+			Label: パヴィスのブロックをキャンセル時、再度ブロックする
+			Tooltip: パヴィスのブロックをキャンセルしたとき、可能なら再度ブロックします
+		}
+
+		ShapeshifterUseHairColor: {
+			Label: 変身に髪の色を反映させる
+			Tooltip:
+				'''
+				「奇妙なヘアピン」の効果を常に発揮させ、変身時の色を髪の色と同じにします
+				「奇妙なヘアピン」は変身時の色を変更するのに使用できます
+				'''
+		}
+
+		ShapeshifterHookDelay: {
+			Label: ショールのダッシュの遅延
+			Tooltip:
+				'''
+				「ショール」系アクセサリを装備している際、「フック」をどのくらいの時間、
+				押し続ける必要があるか変更します
+				'''
+		}
+
+		ShapeshifterHookDashRelease: {
+			Label: ショールのダッシュの操作を変更する
+			Tooltip: 「フック」を押すのではなく、離すと「ショール」系のダッシュを行います
+		}
+
+		ShapeshifterScrollDelay: {
+			Label: シェイプシフターのスクロール遅延
+			Tooltip: スクロールした際、プレイヤーが新しく選択した武器の変身を行うまでの遅延を変更します
+		}
+
+		GuardianChargeCursor: {
+			Label: ガーディアンのチャージの表示の位置を変更する
+			Tooltip: ガーディアン武器をチャージするとプレイヤーではなく、カーソルの近くにアイコンが表示されます
+		}
+
+		GuardianMinHoldTimer: {
+			Label: ガーディアンのチャージの最小タイマー
+			Tooltip:
+				'''
+				UIが表示され、篭手などの武器がスラムを消費する前に、
+				チャージする必要がある時間の最小タイマーをフレーム単位で変更します
+				'''
+		}
+
+		GuardianMaxHoldTimer: {
+			Label: ガーディアンのチャージの最大タイマー
+			Tooltip:
+				'''
+				UIが表示され、篭手などの武器がスラムを消費する前に、
+				チャージする必要がある時間の最大タイマーをフレーム単位で変更します
+				'''
+		}
+
+		GuardianGauntletAlwaysSlam: {
+			Label: ガーディアンの籠手は常にスラムを消費する
+			Tooltip: オンにするとガーディアンの籠手がチャージ状態に関係なく、スラム攻撃を行うようになります
+		}
+	}
+
+	OrchidServerConfig: {
+		DisplayName: Orchid サーバー設定
+		Headers.General: 一般
+
+		LoadCrossmodContentWithoutRequiredMods: {
+			Label: 必要なModがなくてもクロスモッドコンテンツを読み込む
+			Tooltip: オンにすると必要なModがなくてもクロスモッドコンテンツを読み込みます
+		}
+
+		EnableContentAlchemist: {
+			Label: 錬金術師のコンテンツ
+			Tooltip: オンにすると錬金術師のアイテムを入手できるようになります
+		}
+
+		EnableContentGambler: {
+			Label: ギャンブラーのコンテンツ
+			Tooltip: オンにするとギャンブラーのアイテムを入手できるようになります
+		}
+
+		EnableContentShapeshifter: {
+			Label: シェイプシフターのコンテンツ
+			Tooltip: オンにするとシェイプシフターのアイテムを入手できるようになります
+		}
+	}
+}
+
+Misc: {
+	GuardianGrantsGuard: 最大までチャージすると{^0:ガード;ガード}を{0}得る
+	GuardianGrantsSlam: 最大までチャージすると{^1:スラム;スラム}を{1}得る
+	GuardianGrantsGuardSlamSame: 最大までチャージすると{^0:ガード;ガード}と{^0:スラム;スラム}を{0}得る
+	GuardianGrantsGuardSlam: 最大までチャージすると{^0:ガード;ガード}を{0}、{^1:スラム;スラム}を{1}得る
+	ShapeshifterLeftClick: "[c/AFFFAF:攻撃: ]"
+	ShapeshifterRightClick: "[c/AFFFAF:スキル: ]"
+	ShapeshifterJump: "[c/AFFFAF:移動能力: ]"
+	ShapeshifterPassive: "[c/AFFFAF:パッシブ: ]"
+	ShapeshifterNone: その他の変身
+	ShapeshifterSymbiote: 共生生物の変身
+	ShapeshifterSage: 賢者の変身
+	ShapeshifterPredator: 捕食者の変身
+	ShapeshifterWarden: 番人の変身
+	NewHiddenReac: 新たな隠し反応のヒントを得ました
+	NoHintsLeft: このティアにはヒントが残っていません
+	FailedReaction: 反応が失敗しました
+	EntryAdded: 隠し反応の書に{0}が追加されました！
+	CurrentСard: "現在のカード: "
+	PlayingСard: トランプ :
+	Crossmod: "これはクロスモッドアイテムだ: "
+}
+
+UI: {
+	PotionBag: {
+		ChangeState: 状態の変更     – アイテムを持っていないときに「動作」({0})を押す
+		PutInInventory: バッグに入れる – アイテムを持って「動作」({0})を押す
+		PullOutPotion: ポーションを取り出す  – 「ホットバー #1-8」({0}-{1})を押す
+		PullOutPotions: ポーションを全て取り出す – 「ホットバー #9」({0})を押す
+		PullOutDye: 染料を取り出す     – 「ホットバー #10」({0})を押す
+		Dye: 染料: «{0}»
+		MoreInformation: 詳細情報を表示するには、「オートセレクト」（{0}）を押し続ける
+		State: "状態: "
+		Active: 有効
+		ActiveTip: (調合UIに表示される)
+		NotActive: 無効
+		NotActiveTip: (調合UIには表示されない)
+	}
+
+	AlchemistItem: {
+		Mix: 右クリックで調合する
+		Cost: 消費効力：{0}効力
+		Water: 水の元素
+		Fire: 炎の元素
+		Nature: 自然の元素
+		Air: 空気の元素
+		Light: 光の元素
+		Dark: 闇の元素
+	}
+
+	GamblerItem: {
+		Requires: カードが{0}枚必要 (デッキ : {1})
+		InDeck: 現在、デッキに入っている
+		DeckIsFull: デッキはいっぱいだ
+		RequiresMore: カードが追加で{0}枚必要
+		AddToDeck: 使うとデッキに追加する
+		Sets: セット一覧
+		Set: セット
+		UsesChips: チップを{0}枚使う
+		DieDuration: "{0}秒の持続時間"
+		SetBiome: バイオーム
+		SetBoss: ボス
+		SetElemental: 元素
+		SetSlime: スライム
+	}
+
+	GuardianItem: {
+		LeftClick: 左
+		RightClick: 右
+		ChargeToSwing: 押し続けるとチャージし、離すと振り、チャージ中に{0}クリックで突く
+		ChargeToDash: 押し続けるとチャージし、離すとダッシュし、チャージ中に{0}クリックで突く
+		ParryDuration: パリィ可能時間： {0}秒
+		BlockDuration: ブロック可能時間： {0}秒
+		Interrupted: 中断された
+		Charged: チャージ完了
+		Reinforced: 強化発動
+		Failed: 失敗
+		Guard: "{0} {^0:ガード;ガード}"
+		Slam: "{0} {^0:スラム;スラム}"
+		Parry: "{0}クリックでパリィする"
+		ParryDash: "{0}クリックでパリィし、下入力でダッシュする"
+		ChargeToThrow: 押し続けるとチャージし、離すと投げる、チャージ中に右クリックで振って攻撃する
+		UsesUpTo: スラムを{0}消費する
+		RuneDuration: ルーンの効果時間： {0}秒
+		Block: "{0}クリックでブロックする"
+		BuffDuration: バフの効果時間： {0}秒
+		HorizonLaceShieldStacks: 完全にチャージするとガードを3つ得る
+		DamageOfDefense: 防御力の{0}%を相手へのダメージとして与える
+	}
+
+	DanserItem: {
+		ImpactWeapon: -インパクト武器-
+		PhaseWeapon: -フェーズ武器-
+		MomentumWeapon: -モメンタム武器-
+	}
+
+	ReactionBook: {
+		UnknownReaction: 未知の反応
+		Page: ページ {0}/{1}
+	}
+}
+
+DamageClasses: {
+	Alchemist: -錬金術師クラス-
+	Dancer: -ダンサークラス-
+	Gambler: -ギャンブラークラス-
+	Guardian: -ガーディアンクラス-
+	Shaman: -シャーマンクラス-
+	Shapeshifter: -シェイプシフタークラス-
+	AlchemistDamageClass.DisplayName: 化学ダメージ
+	DancerDamageClass.DisplayName: ポーズダメージ
+	GamblerChipDamageClass.DisplayName: ギャンブルダメージ
+	GamblerDamageClass.DisplayName: ギャンブルダメージ
+
+	GuardianDamageClass: {
+		DisplayName: 相克ダメージ
+
+		ThoriumMod_TerrariumArmorAddClassFocus: {
+			Name: 相克の集中
+			Description: 最大ガード数、スラム数、ライフ回復量、防御が3増加
+		}
+	}
+
+	ShamanDamageClass.DisplayName: シャーマンダメージ
+	ShapeshifterDamageClass.DisplayName: 野生ダメージ
+}
