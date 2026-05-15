@@ -1,0 +1,304 @@
+MusicLoadingException: トラック{0}の読み込み中にエラーが発生しました。トラックが読み込まれていない可能性があります
+SlotLoadingException: トラックスロット{0}の読み込み中にエラーが発生しました。一部のトラックが読み込まれない可能性があります
+OptionDescription:
+	'''
+	{0}
+	by {1}
+	'''
+
+Tracks: {
+	Abstract: {
+		DisplayName: Abstract
+		Subtitle: Origins Music Vol. I
+	}
+
+	Stolen_Memories: {
+		DisplayName: Stolen Memories
+		Subtitle: Origins Music Vol. I
+	}
+
+	Ad_Laceratur: {
+		DisplayName: Ad Laceratur
+		Subtitle: Origins Music Vol. I
+	}
+
+	Alkahest: {
+		DisplayName: Alkahest
+		Subtitle: Origins Music Vol. II
+	}
+
+	Below_The_Brine: {
+		DisplayName: Below The Brine
+		Subtitle: Origins Music Vol. I
+	}
+
+	Dancing_With_Ghosts: {
+		DisplayName: Dancing With Ghosts
+		Subtitle: Origins Music Vol. I
+	}
+
+	Deep_Luminance: {
+		DisplayName: Deep Luminance
+		Subtitle: Origins Music Vol. II
+	}
+
+	Dread_Heart: {
+		DisplayName: Dread Heart
+		Subtitle: Origins Music Vol. II
+	}
+
+	Festering_Hives: {
+		DisplayName: Festering Hives
+		Subtitle: Origins Music Vol. I
+	}
+
+	Festering_Hives_Ancient: {
+		DisplayName: Festering Hives Ancient
+		Subtitle: Origins Music Vol. I
+	}
+
+	Frayed_And_Stretched: {
+		DisplayName: Frayed And Stretched
+		Subtitle: Origins Music Vol. II
+	}
+
+	Heart_Of_The_Beast: {
+		DisplayName: Heart Of The Beast
+		Subtitle: Origins Music Vol. I
+	}
+
+	Internal_Organism: {
+		DisplayName: Internal Organism
+		Subtitle: Origins Music Vol. II
+	}
+
+	Only_the_Brave: {
+		DisplayName: Only The Brave
+		Subtitle: Origins Music Vol. I
+	}
+
+	Pereunt_Unum_Scindendum: {
+		DisplayName: Scinditur Pereunt
+		Subtitle: Origins Music Vol. I
+	}
+
+	Shattered_Topography_Old: {
+		DisplayName: Shattered Topography Old
+		Subtitle: Origins Music Vol. I
+	}
+
+	Skin: {
+		DisplayName: Skin
+		Subtitle: Origins Music Vol. II
+	}
+
+	Skulking: {
+		DisplayName: Skulking
+		Subtitle: Origins Music Vol. II
+	}
+
+	The_Room_Before: {
+		DisplayName: The Room Before
+		Subtitle: Origins Music Vol. I
+	}
+
+	This_Ocean_Of_Alkahest: {
+		DisplayName: This Ocean Of Alkahest
+		Subtitle: Origins Music Vol. I
+	}
+
+	Wasteland: {
+		DisplayName: Wasteland
+		Subtitle: Origins Music Vol. II
+	}
+
+	ADJUDICATE: {
+		DisplayName: ADJUDICATE
+		Subtitle: Origins Music Vol. I
+	}
+
+	ARBITRATE: {
+		DisplayName: ARBITRATE
+		Subtitle: Origins Music Vol. II
+	}
+
+	Mildewy_Situation: {
+		DisplayName: Mildewy Situation
+		Subtitle: Origins Music Vol. I
+	}
+
+	Carrion_Awakened: {
+		DisplayName: Carrion Awakened
+		Subtitle: Origins Music Vol. I
+	}
+
+	Carrion_Awakened_Finish: {
+		DisplayName: Paste
+		Subtitle: Origins Music Vol. II
+	}
+
+	Chee_Brine_Boss: {
+		DisplayName: What?
+		Subtitle: Origins Music Vol. I?
+	}
+
+	Shimmer_Construct: {
+		DisplayName: Shimmer Construct
+		Subtitle: Terraria Origins Music
+	}
+
+	A_Mothers_Soft_Side: {
+		DisplayName: A Mothers Soft Side
+		Subtitle: Terraria Origins Music
+	}
+
+	Mythopoeic_Lattice: {
+		DisplayName: Mythopoeic_Lattice
+		Subtitle: Terraria Origins Music
+	}
+
+	Scinditur_Pereunt: {
+		DisplayName: Scinditur Pereunt
+		Subtitle: Terraria Origins Music
+	}
+
+	Pocket_Dimension: {
+		DisplayName: Pocket Dimension
+		Subtitle: Terraria Origins Music
+	}
+
+	The_Dive: {
+		Subtitle: Terraria Origins Music
+		DisplayName: The Dive
+	}
+
+	Defiled_Otherworldly: {
+		DisplayName: "{§Defiled} Otherworldly"
+		Subtitle: Terraria Origins Music
+	}
+}
+
+TrackSets: {
+	DefaultTrackSet: {
+		DisplayName: デフォルト
+		Description: ""
+	}
+
+	CheeTrackSet: {
+		DisplayName: by {$Mods.OriginsMusic.Composers.Chee}
+		Description: ""
+	}
+
+	GojiTrackSet: {
+		DisplayName: by {$Mods.OriginsMusic.Composers.Goji}
+		Description: ""
+	}
+}
+
+TrackSlots: {
+	DefiledTrackSlot: {
+		DisplayName: "{§荒廃}"
+		Description: ""
+	}
+
+	UndergroundDefiledTrackSlot: {
+		DisplayName: 地下{§荒廃}
+		Description: ""
+	}
+
+	DefiledBossTrackSlot: {
+		DisplayName: "{§Mods.Origins.NPCs.Defiled_Amalgamation.DisplayName}"
+		Description: ""
+	}
+
+	AncientDefiledTrackSlot: {
+		DisplayName: Ancient {§Defiled_Wastelands} Music Box
+		Description: ""
+	}
+
+	RivenOceanTrackSlot: {
+		DisplayName: "{§Mods.Origins.Biomes.Riven_Hive_Ocean.DisplayName}"
+		Description: ""
+	}
+
+	RivenTrackSlot: {
+		DisplayName: "{§不和}"
+		Description: ""
+	}
+
+	UndergroundRivenTrackSlot: {
+		DisplayName: 地下{§不和}
+		Description: ""
+	}
+
+	RivenBossTrackSlot: {
+		DisplayName: "{§Mods.Origins.NPCs.World_Cracker_Head.DisplayName}"
+		Description: ""
+	}
+
+	AncientRivenTrackSlot: {
+		DisplayName: 古代のオルゴール ({§不和}）
+		Description: ""
+	}
+
+	BrinePoolTrackSlot: {
+		DisplayName: "{§塩水の池}"
+		Description: ""
+	}
+
+	AncientBrinePoolTrackSlot: {
+		DisplayName: 古代のオルゴール ({§塩水の池}）
+		Description: ""
+	}
+
+	FiberglassTrackSlot: {
+		DisplayName: "{$Mods.Origins.Biomes.Fiberglass_Undergrowth.DisplayName}"
+		Description: ""
+	}
+
+	DuskTrackSlot: {
+		DisplayName: 黄昏
+		Description: ""
+	}
+
+	BrineBossTrackSlot: {
+		DisplayName: 塩水の池のボス
+		Description: ""
+	}
+
+	ShimmerBossTrackSlot: {
+		DisplayName: シマーのボス
+		Description: ""
+	}
+
+	ShimmerPhase3BossTrackSlot: {
+		DisplayName: シマーのボスの3段階目
+		Description: ""
+	}
+
+	TheDiveTrackSlot: {
+		Description: ""
+		DisplayName: 黎明
+	}
+
+	OtherworldlyDefiledTrackSlot: {
+		DisplayName: "アザーワールドの{§荒廃}"
+		Description: ""
+	}
+}
+
+Composers: {
+	Chee: chrersis
+	Goji: gojisturba
+}
+
+Configs: {
+	OriginsMusicConfig: {
+		DisplayName: Origins Music 設定
+
+		trackChoices: {
+			Label: トラックの選択
+			Tooltip: ""
+		}
+	}
+}
