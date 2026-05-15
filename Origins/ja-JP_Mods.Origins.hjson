@@ -801,7 +801,7 @@ Buffs: {
 	}
 
 	Bee_Incantation_Buff: {
-		DisplayName: ハチではない!
+		DisplayName: 蜂ではない!
 		Description: シークレットシードと混合しないように
 	}
 
@@ -1548,12 +1548,12 @@ Projectiles: {
 	Breach_P.DisplayName: ブリーチの泡
 	Breach_Wisp.DisplayName: ブリーチのウィスプ
 	Chunky_Hook_P.DisplayName: チャンキーフック
-	Bee_Afraid_Incantation_Bee.DisplayName: 恐怖のハチ
-	Bee_Afraid_Incantation_P.DisplayName: 恐怖のハチ
+	Bee_Afraid_Incantation_Bee.DisplayName: 恐怖の蜂
+	Bee_Afraid_Incantation_P.DisplayName: 恐怖の蜂
 	True_Waning_Crescent_P.DisplayName: トゥルーウェイニングクレセント
 	True_Waning_Crescent_P2.DisplayName: トゥルーウェイニングクレセント
 	True_Waning_Crescent_Thrown.DisplayName: トゥルーウェイニングクレセント
-	Bee_Afraid_Incantation_Big_Bee.DisplayName: 恐怖のハチ
+	Bee_Afraid_Incantation_Big_Bee.DisplayName: 恐怖の蜂
 	Terrarang_P.DisplayName: テララン
 	Terrarang_Thrown.DisplayName: テララン
 	Terrarang_P2.DisplayName: テララン
@@ -5092,7 +5092,7 @@ Items: {
 		DisplayName: ディスマントラー
 		Tooltip:
 			'''
-			ヘルストーンを採掘可能
+			ヘルストーンの採掘が可能
 			「とても尖っている」
 			'''
 	}
@@ -5116,7 +5116,7 @@ Items: {
 		DisplayName: フェルナムのつるはし
 		Tooltip:
 			'''
-			ヘルストーンを採掘可能
+			ヘルストーンの採掘が可能
 			ダメージボーナスが50%増加
 			「その打撃音は雷鳴のようだ」
 			'''
@@ -5134,7 +5134,7 @@ Items: {
 
 	Rivenator: {
 		DisplayName: "{§リベネ}ーター"
-		Tooltip: ヘルストーンを採掘可能
+		Tooltip: ヘルストーンの採掘が可能
 	}
 
 	Snatcher: {
@@ -5144,7 +5144,7 @@ Items: {
 
 	Strainer: {
 		DisplayName: ストレーナー
-		Tooltip: ヘルストーンを採掘可能
+		Tooltip: ヘルストーンの採掘が可能
 	}
 
 	Alkahest_Arrow: {
@@ -5336,7 +5336,7 @@ Items: {
 	}
 
 	Bomb_Launcher: {
-		DisplayName: 爆弾発射機
+		DisplayName: 爆弾発射器
 		Tooltip: "{$GenericTooltip.AltAttack}"
 	}
 
@@ -5865,7 +5865,7 @@ Items: {
 	}
 
 	Potato_Launcher: {
-		DisplayName: じゃがいも発射機
+		DisplayName: じゃがいも発射器
 		Tooltip:
 			'''
 			弾薬としてじゃがいもを使用する
@@ -6707,12 +6707,12 @@ Items: {
 	}
 
 	Emergency_Bee_Canister: {
-		DisplayName: 緊急用のハチの容器
+		DisplayName: 緊急用の蜂の容器
 		Tooltip:
 			'''
-			全てのミツバチが友好的になり、複製されることがある
+			全ての蜂が友好的になり、複製されることがある
 			蜂蜜の中を自由に移動できる
-			「緊急時には、ミツバチのためにガラスを割ってください」
+			「緊急時には、蜂のためにガラスを割ってください」
 			'''
 	}
 
@@ -6742,7 +6742,7 @@ Items: {
 	}
 
 	Sunflower_Seed_Shooter: {
-		DisplayName: ヒマワリの種発射機
+		DisplayName: ヒマワリの種発射器
 		Tooltip:
 			'''
 			弾薬としてヒマワリを使用する
@@ -7475,10 +7475,10 @@ Items: {
 	}
 
 	Bee_Afraid_Incantation: {
-		DisplayName: ハチの恐怖の呪文
+		DisplayName: 蜂の恐怖の呪文
 		Tooltip:
 			'''
-			カーソルの位置に向けてハチの群れを発射する
+			カーソルの位置に向けて蜂の群れを発射する
 			召喚タグダメージ 6
 			{$CommonItemTooltip.Whips}
 			'''
@@ -8009,8 +8009,8 @@ Items: {
 	Sanguinite_Gun_Magazine.DisplayName: サングイナイトの銃の弾倉
 
 	Bee_Canister: {
-		DisplayName: ハチのキャニスター
-		Tooltip: 敵か地形に当たるとミツバチを放つ
+		DisplayName: 蜂のキャニスター
+		Tooltip: 敵か地形に当たると蜂を放つ
 	}
 
 	Discharge_Canister: {
@@ -9206,7 +9206,7 @@ Items: {
 	}
 
 	Chambersite_Mine_Launcher: {
-		DisplayName: チェンバーサイトの地雷発射機
+		DisplayName: チェンバーサイトの地雷発射器
 		Tooltip: 汎用ブーストの効果を強く受ける
 	}
 

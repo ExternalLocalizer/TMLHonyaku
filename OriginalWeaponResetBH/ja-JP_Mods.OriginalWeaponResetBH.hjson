@@ -446,7 +446,7 @@ Projectiles: {
 	SpiderHiverSentryProj.DisplayName:  女王クモ
 	SpiderShot.DisplayName: 小さなクモ
 	SpiderHiverSentryShot.DisplayName:  女王クモの糸
-	Cobweb.DisplayName: 蜘蛛の巣
+	Cobweb.DisplayName: クモの巣
 	FireBallSentryProj.DisplayName: ファイアスティック
 	TeslaElectricTowerSentryShot.DisplayName: テスラタワーの電撃
 	TeslaElectricTowerSentryProj.DisplayName: テスラタワー
@@ -707,9 +707,9 @@ ItemDescriptions: {
 	BeeKeeper:
 		'''
 		攻撃スタイルが一新された
-		攻撃時にハチを33%の確率で放つ
-		ハチは33%のダメージを与える
-		4回目の攻撃時に突きを放ち、50%のダメージを与える巨大なハチを放つ
+		攻撃時に蜂を33%の確率で放つ
+		蜂は33%のダメージを与える
+		4回目の攻撃時に突きを放ち、50%のダメージを与える巨大な蜂を放つ
 		'''
 	PurpleClubberfish:
 		'''
@@ -1389,9 +1389,9 @@ ItemDescriptions: {
 		左クリックでビーアローを発射し、
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
-		ビーアローは当たると、ハチを出現させ、巨大なハチを出現させることがある
-		チャージ時間に応じて巨大なハチが出現しやすくなり、
-		巨大なハチは敵の防御力を10無視する
+		ビーアローは当たると、蜂を出現させ、巨大な蜂を出現させることがある
+		チャージ時間に応じて巨大な蜂が出現しやすくなり、
+		巨大な蜂は敵の防御力を10無視する
 		'''
 	HellwingBow:
 		'''
@@ -1769,7 +1769,7 @@ ItemDescriptions: {
 		右クリックで従来の攻撃を行う
 		また、コウモリが2ヒットするようになった
 		'''
-	WaspGun: ハチが当たったときの無敵フレームが短縮された
+	WaspGun: 蜂が当たったときの無敵フレームが短縮された
 	PoisonStaff:
 		'''
 		毒の牙の貫通数が1体になった代わりに、
@@ -1955,8 +1955,8 @@ ItemDescriptions: {
 	QueenSpiderStaff:
 		'''
 		敵に糸を発射して攻撃するようになった
-		糸が敵に当たると蜘蛛の巣が発生し、それに触れた敵は一時的に動きが遅くなる
-		2匹の小さな蜘蛛を召喚し、近くの敵を攻撃する
+		糸が敵に当たるとクモの巣が発生し、それに触れた敵は一時的に動きが遅くなる
+		2匹の小さなクモを召喚し、近くの敵を攻撃する
 		'''
 }
 
