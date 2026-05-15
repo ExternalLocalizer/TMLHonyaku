@@ -1,64 +1,97 @@
-TheDepths: {
-	# This file will automatically update with entries for new content after a build and reload.
-	
+Contagion: {
+	Tiles.MagicStorage.BacciliteStorageUnitTile.MapEntry: バクシライトのストレージユニット
+
+	Items: {
+		MagicStorage: {
+			BacciliteCore.DisplayName: ストレージコア (バクシライト)
+
+			BacciliteStorageUnitItem: {
+				DisplayName: バクシライトのストレージユニット
+				Tooltip:
+					'''
+					マジックストレージのシステムにアイテムを保管するための部品
+					80アイテムを保管できる
+					'''
+			}
+
+			BacciliteUpgrade: {
+				DisplayName: バクシライトのストレージアップグレード
+				Tooltip:
+					'''
+					ストレージユニットの容量を80に増やす
+					ストレージユニットに<right>で容量を増やせる
+					'''
+			}
+		}
+	}
+}
+
+Depths: {
 	BPCrystalSkinPotion:
 		'''
 		水銀を無効化し、被ダメージを軽減する
-		また、低確率で敵の弾を反射する
+		また、10%の確率で敵の弾を反射する
 		'''
 	BPBuffCrystalSkin:
 		'''
 		水銀を無効化し、被ダメージを軽減する
-		さらに、低確率で敵の弾を反射する
+		さらに、10%の確率で敵の弾を反射する
 		'''
-}
+	Tiles.MagicStorage.ArqueriteStorageUnitTile.MapEntry: アルケライトのストレージユニット
 
-Tiles: {
-	NeapoliniteStorageUnitTile.MapEntry: ネアポリナイトのストレージユニット
-	ArqueriteStorageUnitTile.MapEntry: アルケライトのストレージユニット
-}
+	Items: {
+		MagicStorage: {
+			ArqueriteCore.DisplayName: ストレージコア (アルケライト)
 
-TheConfection.MagicStorage.UpgradeBlueChlorophyte: 聖なる/ネアポリナイトのストレージユニットに<right>で容量を増やせる
-
-Items: {
-	NeapoliniteCore.DisplayName: ストレージコア (ネアポリナイト)
-
-	NeapoliniteStorageUnitItem: {
-		DisplayName: ネアポリナイトのストレージユニット
-		Tooltip:
-			'''
-			マジックストレージのシステムにアイテムを保管するための部品
-			160アイテムを保管できる
-			'''
-	}
-
-	NeapoliniteUpgrade: {
-		DisplayName: ネアポリナイトのストレージアップグレード
-		Tooltip:
-			'''
-			ストレージユニットの容量を160に増やす
-			ヘルストーンのストレージユニットに<right>で容量を増やせる
-			'''
-		TooltipAlt: ヘルストーン/アルケライトのストレージユニットに<right>で容量を増やせる
-	}
-
-	ArqueriteCore.DisplayName: ストレージコア (アルケライト)
-
-	ArqueriteStorageUnitItem: {
-		DisplayName: アルケライトのストレージユニット
-		Tooltip:
-			'''
-			マジックストレージのシステムにアイテムを保管するための部品
+			ArqueriteStorageUnitItem: {
+				DisplayName: アルケライトのストレージユニット
+				Tooltip:
+					'''
+					マジックストレージのシステムにアイテムを保管するための部品
 			120アイテムを保管できる
-			'''
-	}
+					'''
+			}
 
-	ArqueriteUpgrade: {
-		DisplayName: アルケライトのストレージアップグレード
-		Tooltip:
-			'''
-			ストレージユニットの容量を120に増やす
-			デモナイト/クリムタンのストレージユニットに<right>で容量を増やせる
-			'''
+			ArqueriteUpgrade: {
+				DisplayName: アルケライトのストレージアップグレード
+				Tooltip:
+					'''
+					ストレージユニットの容量を120に増やす
+					デモナイト/クリムタンのストレージユニットに<right>で容量を増やせる
+					'''
+				TooltipAvalon: デモナイト/クリムタン/バクシライトのストレージユニットに<right>で容量を増やせる
+				TooltipGeneral: 邪悪なストレージユニットに<right>で容量を増やせる
+			}
+		}
+	}
+}
+
+Confection: {
+	MagicStorage.UpgradeBlueChlorophyte: 聖なる/ネアポリナイトのストレージユニットに<right>で容量を増やせる
+	Tiles.MagicStorage.NeapoliniteStorageUnitTile.MapEntry: ネアポリナイトのストレージユニット
+
+	Items: {
+		MagicStorage: {
+			NeapoliniteCore.DisplayName: ストレージコア (ネアポリナイト)
+
+			NeapoliniteStorageUnitItem: {
+				DisplayName: ネアポリナイトのストレージユニット
+				Tooltip:
+					'''
+					マジックストレージのシステムにアイテムを保管するための部品
+					160アイテムを保管できる
+					'''
+			}
+
+			NeapoliniteUpgrade: {
+				DisplayName: ネアポリナイトのストレージアップグレード
+				Tooltip:
+					'''
+					ストレージユニットの容量を160に増やす
+					ヘルストーンのストレージユニットに<right>で容量を増やせる
+					'''
+				TooltipDepths: ヘルストーン/アルケライトのストレージユニットに<right>で容量を増やせる
+			}
+		}
 	}
 }
