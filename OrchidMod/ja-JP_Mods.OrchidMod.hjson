@@ -174,7 +174,7 @@ Buffs: {
 
 	QueenBeeFlaskBuff: {
 		DisplayName: 人間蜂の巣
-		Description: 3つ以上の元素を使って攻撃するとハチを召喚する
+		Description: 3つ以上の元素を使って攻撃すると蜂を召喚する
 	}
 
 	MushroomHeal: {
@@ -294,7 +294,7 @@ Buffs: {
 
 	RubyHealing: {
 		DisplayName: ルビーの治癒
-		Description: ライフ自然回復を大きく増進
+		Description: ライフ自然回復を大幅に増進
 	}
 
 	OpalResources: {
@@ -355,8 +355,8 @@ AlchemistRecipe: {
 	}
 
 	RecipeBeeSwarm: {
-		DisplayName: ハチの群れ
-		Tooltip: プレイヤーの周囲にハチの大群が発生する
+		DisplayName: 蜂の群れ
+		Tooltip: プレイヤーの周囲に蜂の大群が発生する
 	}
 
 	RecipeOilBubble: {
@@ -1854,7 +1854,7 @@ Items: {
 
 	AmberIdol: {
 		DisplayName: コハクの霊像
-		Tooltip: アースボンドを得ている間、ライフ自然回復を大きく増進
+		Tooltip: アースボンドを得ている間、ライフ自然回復を大幅に増進
 	}
 
 	AmethystIdol: {
@@ -1987,7 +1987,7 @@ Items: {
 		Tooltip:
 			'''
 			水か火の絆を解放すると、ライフを30回復し、
-			ハチを召喚する
+			蜂を召喚する
 			'''
 	}
 
@@ -2028,7 +2028,7 @@ Items: {
 
 	WaxyVial: {
 		DisplayName: 蝋の小瓶
-		Tooltip: 炎の絆を解放するとハチを召喚する
+		Tooltip: 炎の絆を解放すると蜂を召喚する
 	}
 
 	WyvernTailFeather: {
@@ -2336,7 +2336,7 @@ Items: {
 		DisplayName: ザ・ハイブ
 		Tooltip:
 			'''
-			絆を解放するとハチを召喚する
+			絆を解放すると蜂を召喚する
 			プレイヤーを蜂蜜に浸す
 			'''
 	}
@@ -2920,7 +2920,7 @@ Items: {
 	}
 
 	BeeRune: {
-		Tooltip: 近くの敵にハチを放つ蜂の巣を召喚する
+		Tooltip: 近くの敵に蜂を放つ蜂の巣を召喚する
 		DisplayName: 女王のルーン
 	}
 
@@ -3317,7 +3317,7 @@ Items: {
 		Tooltip:
 			'''
 			最大までチャージすると、最大ライフが50増加
-			また最大までチャージすると、ライフが少ない際、ライフ自然回復を大きく増進する
+			また最大までチャージすると、ライフが少ない際、ライフ自然回復を大幅に増進する
 			'''
 	}
 
@@ -3399,7 +3399,7 @@ Items: {
 		Tooltip:
 			'''
 			最大までチャージすると、強力なオーロラを放ち、
-			ライフ自然回復を大きく増進する
+			ライフ自然回復を大幅に増進する
 			パリィに成功すると防御力の10%をライフとして回復する
 			「天と地の狭間」
 			'''
@@ -3531,12 +3531,12 @@ Items: {
 	}
 
 	SageBee: {
-		DisplayName: ハチの像
+		DisplayName: 蜂の像
 		LeftClick: 毒針を発射し、当たった敵に継続的にダメージを与える
 		RightClick: 針の数が多いほどたくさんの蜂の群れを放つ
 		Jump: ジャンプで移動方向へダッシュする
 		Passive: 変身中は近くのプレイヤーを蜂蜜に浸す
-		Tooltip: ハチに変身し、特別な能力を得る
+		Tooltip: 蜂に変身し、特別な能力を得る
 	}
 
 	SageImp: {
@@ -3815,7 +3815,7 @@ Items: {
 		Topaz: "[i:Topaz] [c/FFBA00:トパーズ]: パリィ後の無敵時間が延長される"
 		Sapphire: "[i:Sapphire] [c/2D6ACC:サファイア]: 二段ジャンプが可能になる"
 		Emerald: "[i:Emerald] [c/00A32E:エメラルド]: ダッシュが可能になる"
-		Ruby: "[i:Ruby] [c/D92B2B:ルビー]: パリィに成功するとライフ自然回復を大きく増進"
+		Ruby: "[i:Ruby] [c/D92B2B:ルビー]: パリィに成功するとライフ自然回復を大幅に増進"
 		Diamond: "[i:Diamond] [c/FFC4E1:ダイアモンド]: 選択中、光を放つ"
 		Amber: "[i:Amber] [c/FF8800:コハク]: チャージした攻撃が当たるとガードゲージが50%回復する"
 		Aquamarine: "[i:ThoriumMod/Aquamarine] [c/6dffd8:アクアマリン]: 水中で素早く動ける"
@@ -4112,7 +4112,7 @@ Items: {
 		Tooltip:
 			'''
 			チャージ中に下入力で降下速度を制御できる
-			パリィに成功するかスラム攻撃でハチを放つ
+			パリィに成功するかスラム攻撃で蜂を放つ
 			'''
 	}
 
@@ -4617,7 +4617,7 @@ Projectiles: {
 	HallowedShieldProj.DisplayName: スヴァリン
 	SpectreShieldProj.DisplayName: スペクターボルト
 	TempleWarhammerProj.DisplayName: 火花
-	BeeRuneProj.DisplayName: ハチ
+	BeeRuneProj.DisplayName: 蜂
 	HellRuneProj.DisplayName: ルーンのファイアボール
 	RuneRuneProj.DisplayName: ルーンファイア
 	FrostRuneProj.DisplayName: オーナメント

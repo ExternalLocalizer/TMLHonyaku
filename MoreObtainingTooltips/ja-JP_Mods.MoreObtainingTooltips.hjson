@@ -5,12 +5,12 @@ Tooltips: {
 	Decrafted: をシマーでデクラフトする
 	Grabbed: に入っている
 	FoundInChests: 宝箱に入っている
-	FromExtractinator: 抽出機から
-	FromBothExtractinator: 2種の抽出機から
+	FromExtractinator: 取り出し機から
+	FromBothExtractinator: 2種の取り出し機から
 	Purchasable: から買う
 	Droppable: がドロップする
 	Catchable: を捕まえる
-	ObtainableAsBanner: を一定回数倒す
+	ObtainableAsBanner: を特定の体数倒す
 	FishingCatch: 釣りで入手
 	ObtainedByBreaking: ワールドに生成される{0} を破壊して入手
 	CraftedWith: "{0} から作成する"
@@ -18,13 +18,13 @@ Tooltips: {
 	DecraftedFrom: "{0} をシマーでデクラフトする"
 	GrabbedFrom: "{0} に入っている"
 	FoundIn: 以下の宝箱 {0} に入っている
-	ExtractedFrom: "{0} を抽出機[i:997] に入れる"
-	ChlorophyteExtractedFrom: "{0} を抽出機[i:5296] に入れる"
-	BothExtractedFrom: "{0} を抽出機[i:997] 、[i:5296] に入れる"
+	ExtractedFrom: "{0} を[i:997] 取り出し機に入れる"
+	ChlorophyteExtractedFrom: "{0} を[i:5296] クロロファイト製の取り出し機に入れる"
+	BothExtractedFrom: "{0} を[i:997] [i:5296] 2種の取り出し機に入れる"
 	SoldBy: "{0}から買う"
 	DroppedBy: "{0}がドロップする"
-	ObtainedAfterKilling: "{0}を倒した後の{1}がドロップする"
-	CatchedFrom: "{0}をキャッチする"
+	ObtainedAfterKilling: "{1}を{0}体倒すとドロップする"
+	CatchedFrom: "{0}を捕まえる"
 	# {0} = Rarity, {1} = Environment
 	FishingCatchDetails: "{1}で釣りを行うと{0} 確率で入手"
 	# Hint text
@@ -174,12 +174,12 @@ Configs: {
 		}
 
 		Extractinator: {
-			Label: 抽出機
+			Label: 取り出し機
 			Tooltip: ""
 		}
 
 		ChlorophyteExtractinator: {
-			Label: クロロファイトの抽出機
+			Label: クロロファイト製の取り出し機
 			Tooltip: ""
 		}
 

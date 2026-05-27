@@ -2990,7 +2990,7 @@ Items: {
 		ArtifactTag: "[c/ffb300:-アーティファクトミニオン-]"
 		ConceptBy: コンセプト：{0}
 		ConceptAndSpriteBy: コンセプトとアート：{0}
-		Extractinator: 抽出器で使用できる
+		Extractinator: 取り出し機で使用できる
 		AltAttack: <right>で別の攻撃を行う
 	}
 
@@ -5499,7 +5499,7 @@ Items: {
 		Tooltip:
 			'''
 			振ると、弾丸を連射する
-			60%の確率で弾丸を消費しない
+			60%の確率で弾薬を消費しない
 			'''
 	}
 
@@ -5916,7 +5916,7 @@ Items: {
 		Tooltip:
 			'''
 			[buffhint:Bleeding]を与える針を連射する
-			20%の確率で弾丸を消費しない
+			20%の確率で弾薬を消費しない
 			'''
 	}
 
@@ -9703,7 +9703,7 @@ NPCs: {
 
 	Defiled_Amalgamation: {
 		DisplayName: "{§荒廃}の集合体"
-		BossChecklistIntegration.SpawnCondition: "[i:Origins/Nerve_Impulse_Manipulator] を使うか、{§荒廃}で{§荒廃}の中継器を3つ破壊し、地上に出ると出現する"
+		BossChecklistIntegration.SpawnCondition: "[i:Origins/Nerve_Impulse_Manipulator] を{§荒廃}で使うか、{§荒廃}にある{§荒廃}の中継器を3つ破壊し、地上に出ると出現する"
 	}
 
 	Defiled_Brute.DisplayName: "{§荒廃}のクラッシャー"
@@ -9726,7 +9726,7 @@ NPCs: {
 
 	Fiberglass_Weaver: {
 		DisplayName: グラスファイバーウィーバー
-		BossChecklistIntegration.SpawnCondition: "[i:Origins/Shaped_Glass] を使うか、グラスファイバーの茂みでランダムに出現する"
+		BossChecklistIntegration.SpawnCondition: "[i:Origins/Shaped_Glass] をグラスファイバーの茂みで使うか、グラスファイバーの茂みでランダムに出現する"
 	}
 
 	Swarmer.DisplayName: スウォーマー
@@ -9760,7 +9760,7 @@ NPCs: {
 
 		BossChecklistIntegration: {
 			EntryName: ワールドクラッカー
-			SpawnCondition: "[i:Origins/Sus_Ice_Cream] を使うか、{§不和}にあるゲルの気泡を3つ破壊するたびに出現する"
+			SpawnCondition: "[i:Origins/Sus_Ice_Cream] を{§不和}で使うか、{§不和}にあるゲルの気泡を3つ破壊するたびに出現する"
 		}
 	}
 
@@ -12581,7 +12581,7 @@ AprilFools: {
 			'''
 			実際には地雷を取り除くわけではない
 			振ると、弾丸を連射する
-			弾丸を消費しない確率が間違っている
+			弾薬を消費しない確率が間違っている
 			'''
 		Hot_Potato.Tooltip: 「気を付けろ、これはジャガイモだ」
 		Bottled_Brine.DisplayName: ピクルスの瓶
