@@ -1,0 +1,4825 @@
+//Note for mod translators, I will not be adding anything else to this list that is missing, I did not want to create a localisation file in the first place but sadly I was forced to, so there is a lot of text in this mod not present in this file but rather hardcoded into the mod.
+"Keybinds.Armor Special Ability.DisplayName": 防具の特殊能力
+
+GameTips: {
+	StormTip0: ボスを倒すのに苦労していますか？それなら、自分のライフを0以上に保ちながら、ボスのライフを0にすればいいのです。
+	StormTip1: 敵の攻撃は、避けることで回避できる。
+	StormTip2: ジャンプボタンでジャンプできる。
+	StormTip3: ダメージを与えたいなら、ダメージを与える武器を使おう。
+	StormTip4: 生き残るのに苦労している？ それはスキルの問題です！
+	StormTip5: エラー404、ヒントが見つかりません！
+	Stormtip6: ハードコアモードでないなら、死ぬことはライフを回復する効果的な方法だ。
+	Stormtip7: ブロックを配置することで建築できる。
+	Stormtip8: ブロックを採掘することで、ブロックを入手できます。
+	Stormtip9: ジャングル寺院に早めに入り、アイテムを全部盗んでみろ、できるものなら…
+	Stormtip10: ダープリングたちをシマーに誘い込もう。彼らはシマーが大好きだ。
+}
+
+//Achievements Mod
+Achievements: {
+	AchievementAridBoss: {
+		FriendlyName: 解放された魂
+		Description: 古代の殻、つまりひどく朽ち果てた鎧に憑依された存在を倒す。
+	}
+
+	AchievementStormBoss: {
+		FriendlyName: オーバーロード
+		Description: 危険で不安定な実験体である、オーバーロードスキャンドローンを倒す。
+	}
+
+	AchievementUltimateBoss: {
+		FriendlyName: 苦痛はついに終わった
+		Description: 究極の苦痛をもたらす者、ペインブリンガーを倒す。
+	}
+
+	AchievementNoPizza: {
+		FriendlyName: 苦情を申し立てたいのですが
+		Description: ピザ配達の雪だるまを倒す。どうせ注文は間違っていたのだから。
+	}
+
+	AchievementMoonling: {
+		FriendlyName: 最後のダープリング
+		Description: 月のエネルギーに侵されたダープリング、ムーンリングを倒す。
+	}
+
+	AchievementScaryDerp: {
+		FriendlyName: それは全く普通のこと
+		Description: ごく普通のダープリングを倒す。何もおかしなことはない…
+	}
+
+	AchievementBiomeCore: {
+		FriendlyName: バイオームの力
+		Description: 3つのバイオームの力を結集させた、バイオームコアを作成する。
+	}
+
+	AchievementFastDrill: {
+		FriendlyName: 高速な掘削
+		Description: 採掘を大幅にスピードアップさせる、メガドリルを作成する。
+	}
+
+	AchievementEquinox: {
+		FriendlyName: 光と闇の調和
+		Description: 万物のあるべき姿、完璧なバランスを備えた剣、エクイノックスを作成する。
+	}
+
+	AchievementStoneCannon4: {
+		FriendlyName: 最も危険な石
+		Description: 石を破壊的な月の大岩に変える、宇宙のストーンキャノンを作成する。
+	}
+
+	AchievementThePain: {
+		FriendlyName: 苦痛を！
+		Description: ペインマスクを入手して、自分がどれだけの苦痛を抱えているかを皆に見せつけよう。
+	}
+
+	AchievementClayman: {
+		FriendlyName: クレイマン！
+		Description: クレイマンのマスクを手に入れて、周囲の人々を静かに裁こう。
+	}
+
+	AchievementDerpKing: {
+		FriendlyName: ダープリングマスター
+		Description: ダープリングの防具セット、武器、道具、装備品を全て手に入れる。
+	}
+
+	AchievementLunarCosplay: {
+		FriendlyName: 月のコスプレイヤー
+		Description: ルナイベントの衣装を4種全て手に入れる。
+	}
+
+	AchievementGnomed: {
+		FriendlyName: あなたはノームだ！
+		Description: ノームの帽子をかぶって、ノームになろう。
+	}
+
+	AchievementPendants: {
+		FriendlyName: ペンダントのシナジー
+		Description: 2つ以上のバイオームのペンダントの効果を同時に発動させる。
+	}
+
+	AchievementStompBounce: {
+		FriendlyName: 少しだけ高い場所を目指す
+		Description: ヘビーブーツでストンプバウンスを成功させよう。
+	}
+
+	AchievementQuack: {
+		FriendlyName: クワック!!!
+		Description: クワックを5回、クワック、クワック、クワック、クワック、クワック...
+	}
+
+	AchievementHugBear: {
+		FriendlyName: あぁ！
+		Description: テディベアを抱きしめれば、どんな傷でも（ほぼ）癒すのに十分な、最も無条件の愛が感じられるだろう。
+	}
+
+	AchievementHeartSteal: {
+		FriendlyName: あなたは私の心を盗んだ
+		Description: 生命の紋章の効果で通常の敵からライフを奪う。
+	}
+
+	AchievementTwilight: {
+		FriendlyName: 黄昏のワープ
+		Description: 黄昏の防具セットを装備してワープする。歩いている暇はない。
+	}
+
+	AchievementSuperHeart: {
+		FriendlyName: 素晴らしい！
+		Description: スーパーハートの小瓶を使用し、効果時間中に敵がドロップするスーパーハートを拾う。
+	}
+
+	AchievementNineLives: {
+		FriendlyName: 私は死神だ！
+		Description: 死神のリストを装備し、一度に9つの魂を刈り取る。
+	}
+
+	AchievementSantanked: {
+		FriendlyName: いたずらリストにチェックを入れる
+		Description: サンタンクの防具から、満載のミサイルを発射する。
+	}
+
+	AchievementNoShield: {
+		FriendlyName: シールドは必要ない
+		Description: 宇宙の球を使ってセレスタルピラーたちのシールドを解除する。
+	}
+
+	AchievementThePets: {
+		FriendlyName: 双子???
+		Description: 黄昏のフィギュアとベビーストームダイバーを同時に召喚する。
+	}
+
+	AchievementWhack: {
+		FriendlyName: いや…それは正しい使い方ではない!!!!
+		Description: ペインブリンガーの杖で敵を累計で100回右クリックで攻撃する。
+	}
+
+	AchievementTemple: {
+		FriendlyName: 出て行け！！！！
+		Description: ジャングル寺院に本来より早く行き、その中身を手に入れようとする。
+	}
+
+	AchievementGlassShatter: {
+		FriendlyName: あなたはどんな結果になると思っていましたか？
+		Description: ガラスの鎧で身を守ろうとしたが、すぐに粉々に砕け散ってしまった。
+	}
+}
+
+MunchiesSupport.ZephyrFeather: "[i:1516] 、 [i:1517] 、[i:1518] 、[i:1519] のどれかをシマーに投げ入れる"
+
+Buffs: {
+	AridCoreDebuff: {
+		DisplayName: 乾燥のオーラ
+		Description: 被ダメージが増加
+	}
+
+	AridSandDebuff: {
+		DisplayName: 禁断の炎
+		Description: 禁断の砂があなたを焼き尽くしている
+	}
+
+	BeetleBuff: {
+		DisplayName: 甲虫の加護
+		Description: 近接武器が敵の防御力を20無視する
+	}
+
+	BeetleDebuff: {
+		DisplayName: 甲虫の群れ
+		Description: 甲虫が速度を大幅に低下させた
+	}
+
+	BloodBurstBuff: {
+		DisplayName: 血の爆発
+		Description: 血が噴き出し、次に攻撃した敵から飛び出そうとしている
+	}
+
+	CelestialBuff: {
+		DisplayName: 宇宙の守護者
+		Description: 宇宙の力があなたのライフを急速に自然回復させる
+	}
+
+	DarkShardDebuff: {
+		DisplayName: 闇のエッセンス
+		Description: あなたは暗闇に囲まれている
+	}
+
+	DerpBuff: {
+		DisplayName: ダープリングの力
+		Description: Terrariaでは、ダープリングがあなたを打ち上げる
+	}
+
+	DerpDebuff: {
+		DisplayName: 打ち上げ
+		Description: あなたはダープリングの力によって空中に打ち上げられた
+	}
+
+	FrozenBuff: {
+		DisplayName: 氷のトゲ
+		Description: 移動速度とクリティカル率が大幅に上昇
+	}
+
+	FruitHeartBuff: {
+		DisplayName: スーパーハートコレクター
+		Description: 倒した敵がスーパーハートをドロップすることががある
+	}
+
+	GladiatorAccessBuff: {
+		DisplayName: 戦士の贈り物
+		Description: クリティカル率が15%上昇
+	}
+
+	GraniteAccessBuff: {
+		DisplayName: 御影石の補強
+		Description: ダメージが30%増加
+	}
+
+	GraniteBuff: {
+		DisplayName: 御影石のバリア
+		Description: ダメージを軽減し、ノックバックを無効し、ダメージの一部を反射するが、移動速度とジャンプ速度が低下する
+	}
+
+	GunBuff: {
+		DisplayName: 射手
+		Description: 銃のダメージが15%増加
+	}
+
+	HeartBarrierBuff: {
+		DisplayName: 生命のバリア
+		Description: 次の攻撃で受けるダメージが25%軽減され、ノックバックを無効化する
+	}
+
+	HeartBuff: {
+		DisplayName: ハートコレクター
+		Description: 倒した敵がハートをドロップしやすくなる
+	}
+
+	HeartDebuff: {
+		DisplayName: 盗まれたハート
+		Description: ハートなしでは生きていけない
+	}
+
+	HellSoulBuff: {
+		DisplayName: 地獄の嵐
+		Description: 地獄の炎を解き放つ準備が整った
+	}
+
+	HellSoulFireDebuff: {
+		DisplayName: ソウルバーン
+		Description: これは良くないかもしれない
+	}
+
+	LunarBoulderDebuff: {
+		DisplayName: 月の大岩
+		Description: 想像を絶する痛み、移動能力の低下、そして絶え間ない灼熱感をもたらす
+	}
+
+	MushBuff1: {
+		DisplayName: キノコの力
+		Description: ダメージが1増加し、被ダメージが1減少する
+	}
+
+	MushBuff2: {
+		DisplayName: キノコの力
+		Description: ダメージが3増加し、被ダメージが3減少する
+	}
+
+	MushBuff3: {
+		DisplayName: キノコの力
+		Description: ダメージが5増加し、被ダメージが5減少する
+	}
+
+	//MushBuff4: {
+	//	DisplayName: キノコの力
+	//	Description: ダメージが6増加し、被ダメージが6減少する
+	//}
+	
+	PainBuff: {
+		DisplayName: ペインブリンガーの呪い
+		Description: 死後、あなたは再び苦痛を経験することになるだろう
+	}
+
+	PainlessDebuff: {
+		DisplayName: ペインブリンガーのクールダウン
+		Description: 死ねばこの苦しみは終わる
+	}
+
+	RainBuff: {
+		DisplayName: 雨中の全力疾走
+		Description: 移動速度が上昇する
+	}
+
+	SantankBuff1: {
+		DisplayName: ホーホーホーミングミサイル
+		Description: ミサイルの一部の発射準備が整っている
+	}
+
+	SantankBuff2: {
+		DisplayName: ホーホーホーミングミサイル
+		Description: ミサイルのほとんどの発射準備が整っている
+	}
+
+	SantankBuff3: {
+		DisplayName: ホーホーホーミングミサイル
+		Description: 全てのミサイルの発射準備が整っている
+	}
+
+	ScanDroneDebuff: {
+		DisplayName: マークされた
+		Description: あなたの防御力は0になった
+	}
+
+	ShroomiteBuff: {
+		DisplayName: キノコの加護
+		Description: 遠距離武器でクリティカル時のダメージが10%増加
+	}
+
+	SkyKnightSentryBuff: {
+		DisplayName: スターウォリアー
+		Description: スターウォリアーが敵を攻撃してくれる
+	}
+
+	SludgedDebuff: {
+		DisplayName: 猛毒の汚泥
+		Description: 移動速度が低下し、ライフが徐々に減っていく
+	}
+
+	SludgedVenomDebuff: {
+		DisplayName: 酸性汚泥
+		Description: 移動速度が低下し、ライフが徐々に減っていく
+	}
+
+	StungDebuff: {
+		DisplayName: 針が刺さった
+		Description: 体に刺さった針が本当に痛い
+	}
+
+	SpaceRockDefence: {
+		DisplayName: 軌道防御
+		Description:
+			'''
+			次の攻撃で受けるダメージを25%軽減
+			ダメージを受けると、空から小惑星の岩が降ってくる
+			'''
+	}
+
+	SpaceRockOffence: {
+		DisplayName: 軌道攻撃
+		Description: 次の攻撃で小惑星の岩が敵に落ちてくる
+	}
+
+	SpectreBuff: {
+		DisplayName: スペクター強化
+		Description: マナが半分以下になると魔法ダメージが20%増加
+	}
+
+	SpectreStarBuff: {
+		DisplayName: スペクターの星の強化
+		Description: 魔法ダメージが増加
+	}
+
+	SpookedDebuff: {
+		DisplayName: 恐慌
+		Description: 恐怖に圧倒されている
+	}
+
+	SpookyBuff: {
+		DisplayName: 不気味な強化
+		Description: ミニオンのダメージが10%増加し、鞭の攻撃速度が10%上昇
+	}
+
+	SuperBurnDebuff: {
+		DisplayName: 燃え盛る炎
+		Description: これは問題ない
+	}
+
+	SuperFrostBurn: {
+		DisplayName: 凍傷
+		Description: 霜焼けに似ているがもっと痛い
+	}
+
+	TeddyBuff: {
+		DisplayName: テディベアの愛
+		Description: テディベアの愛はライフ自然回復を増進する
+	}
+
+	TurtleBuff: {
+		DisplayName: 甲羅の守り
+		Description: カメの甲羅があなたを守る
+	}
+
+	TwilightDebuff: {
+		DisplayName: 黄昏のクールダウン
+		Description: 黄昏のテレポートを使用できない
+	}
+
+	UltraBurnDebuff: {
+		DisplayName: 極度の火傷
+		Description: これは絶対に良くない！！！
+	}
+
+	UltraFrostDebuff: {
+		DisplayName: 極度の凍傷
+		Description: これは本当に本当に本当に痛い！！！！
+	}
+
+	WebDebuff: {
+		DisplayName: クモの巣まみれ
+		Description: クモの巣に覆われていて、移動速度が低下する
+	}
+
+	WhiptagBloodDebuff: {
+		DisplayName: 血の筋繊維のタグ
+		Description: 血の筋繊維によりタグ付けされた
+	}
+
+	WhiptagForbiddenDebuff: {
+		DisplayName: 禁断の鞭のタグ
+		Description: 禁断の鞭によりタグ付けされた
+	}
+
+	WhiptagSpaceRockDebuff: {
+		DisplayName: アステロイドウィップのタグ
+		Description: アステロイドウィップによりタグ付けされた
+	}
+
+	WhiptagWebDebuff: {
+		DisplayName: スパイダーウィップのタグ
+		Description: スパイダーウィップによりタグ付けされた
+	}
+
+	WoodenBuff: {
+		DisplayName: 森林の力
+		Description: 森林にいる間、被ダメージを4軽減し、ライフ自然回復を増進
+	}
+
+	WoodenBlizzardBuff: {
+		DisplayName: 吹雪の力
+		Description: 自分の周囲に小さな吹雪を発生させ、その中の敵の移動速度を低下させる
+	}
+
+	WoodenDesertBuff: {
+		DisplayName: 砂漠の力
+		Description: 敵を攻撃すると、ダメージを与える火花が発生することがある
+	}
+
+	YouCantEscapeDebuff: {
+		DisplayName: 私からは逃げられないぞ！
+		Description: 死さえも苦痛からあなたを救うことはできない
+	}
+
+	AncientMinionBuff: {
+		DisplayName: エンシェントアリッド
+		Description: エンシェントアリッドが一緒に戦ってくれる
+	}
+
+	CursedSkullMinionBuff: {
+		DisplayName: カースドスカル
+		Description: カースドスカルが一緒に戦ってくれる
+	}
+
+	DerplingMinionBuff: {
+		DisplayName: ベビーダープリング
+		Description: ベビーダープリングが一緒に戦ってくれる
+	}
+
+	EyeMinionBuff: {
+		DisplayName: クトゥルフのしもべ
+		Description: クトゥルフのしもべが一緒に戦ってくれる
+	}
+
+	FrozenSpiritMinionBuff: {
+		DisplayName: フローズンスピリット
+		Description: フローズンスピリットが一緒に戦ってくれる
+	}
+
+	HellSoulMinionBuff: {
+		DisplayName: ソウルフレイム
+		Description: ソウルフレイムが一緒に戦ってくれる
+	}
+
+	LizardMinionBuff: {
+		DisplayName: 寺院のガーディアン
+		Description: 寺院のガーディアンが一緒に戦ってくれる
+	}
+
+	SpaceRockMinionBuff: {
+		DisplayName: アステロイド
+		Description: アステロイドが一緒に戦ってくれる
+	}
+
+	AridBossPetBuff: {
+		DisplayName: リベレイテッドハスク
+		Description: ついに自由になったのに、あなたのそばに留まることを決めた
+	}
+
+	GoldDerpieBuff: {
+		DisplayName: 金色のダープリング
+		Description: とてもツヤツヤで弾力がある！
+	}
+
+	MrStabbyPetBuff: {
+		DisplayName: ミニスタビー
+		Description: 物を刺したい衝動に駆られているが、あまり上手ではない！
+	}
+
+	StormBossPetBuff: {
+		DisplayName: 小さなオーバーロードスキャンドローン
+		Description: スキャンとドローン撮影を行っている
+	}
+
+	StormLightBuff: {
+		DisplayName: 小さなストームダイバー
+		Description: 可愛くないよ、全然可愛くない！！！
+	}
+
+	TwilightPetBuff: {
+		DisplayName: 黄昏のフイギュア
+		Description: フードを被った奇妙なフイギュアが光を放つ
+	}
+
+	UltimateBossPetBuff: {
+		DisplayName: ザ・キュート
+		Description: とてもかわいいので、決して苦痛を与えることはない
+	}
+
+	TempleDebuff: {
+		DisplayName: 寺院の呪いの炎
+		Description: 呪われたものに手を出したから、燃えている
+	}
+
+	SantankMinionBuff: {
+		DisplayName: ミニサンタンク
+		Description: ミニサンタンクが一緒に戦ってくれる
+	}
+
+	HarpyMinionBuff: {
+		DisplayName: 魔法の羽
+		Description: 魔法の羽が一緒に戦ってくれる
+	}
+
+	BlizzardDebuff: {
+		DisplayName: 吹雪
+		Description: 小規模な吹雪で足止めされている
+	}
+
+	GraniteDebuff: {
+		DisplayName: セルのリチャージ中
+		Description: 御影石のバリアを展開できない
+	}
+
+	SantaReviveBuff: {
+		DisplayName: 心臓ショック
+		Description: ダメージを受けず、ダメージが増加するが、ライフを十分に回復しないと死んでしまう
+	}
+
+	SantaReviveDebuff: {
+		DisplayName: 心臓の放熱中
+		Description: あなたの心臓はもうこれ以上の衝撃に耐えられない
+	}
+
+	ReflectedBuff: {
+		DisplayName: 反射
+		Description: 敵の弾を反射する
+	}
+
+	FlaskFrostImbue: {
+		DisplayName: 霜焼け付与
+		Description: 近接攻撃と鞭攻撃に霜焼けの追加効果を付与
+	}
+
+	FlaskExplosiveImbue: {
+		DisplayName: 爆発付与
+		Description: 近接攻撃と鞭攻撃で小さな爆発が起きる
+	}
+
+	BatBrokenDebuff: {
+		DisplayName: 破損
+		Description: 被ダメージが10%増加し、ライフが徐々に減っていく
+	}
+
+	TouchGrassBuff: {
+		DisplayName: 草に触れている
+		Description: ほら、そんなに悪くないよ。ステータスが上がって、ダッシュもできるんだから
+	}
+
+	TouchGrassDebuff: {
+		DisplayName: 草に触れろ！
+		Description: 早く！
+	}
+
+	GlassShardDebuff: {
+		DisplayName: ガラスの破片
+		Description: 体に鋭利なガラスの破片が刺さっている
+	}
+
+	RoseDebuff: {
+		DisplayName: バラの花びら
+		Description: バラの花びらがあなたのライフを吸収する
+	}
+}
+
+Items: {
+	AridCore: {
+		DisplayName: 古代のスカラベ
+		Tooltip:
+			'''
+			カーソルの周囲に砂のオーラを発生させ、オーラ内の敵は被ダメージが18%増加
+			敵がオーラから出ても1.5秒間は被ダメージが増加するが、徐々に増加量が減っていく
+			視線が通っていないと効果がない
+			'''
+	}
+
+	BeetleBoot: {
+		DisplayName: 甲虫のガントレット
+		Tooltip:
+			'''
+			近接攻撃でクリティカル時、敵を追尾する甲虫を召喚する
+			近接攻撃のノックバックを増加
+			近接ダメージと攻撃速度が12%上昇
+			近接武器のオート攻撃を有効にする
+			近接武器のサイズを増加させる
+			'''
+	}
+
+	BiomeCore: {
+		DisplayName: バイオームコア
+		Tooltip:
+			'''
+			1以上のダメージを受けるとダメージが3秒間、30%増加し、その後10秒のクールダウンが発生する
+			ライフが66%以上の際、クリティカル率が15%上昇
+			ライフが少なくなるとダメージが増加し、被ダメージが減少する
+			'''
+	}
+
+	BloodBoots: {
+		DisplayName: ブラッディトレッド
+		Tooltip:
+			'''
+			超高速走行できる
+			加速度が上昇
+			超高速走行中、ダメージを与える血痕を残す
+			'''
+	}
+
+	BlueCuffs: {
+		DisplayName: 霜のカフス
+		Tooltip:
+			'''
+			全ての攻撃で霜焼けを与えることがある
+			「冷たさを敵に向けよ」
+			'''
+	}
+
+	Celestialshield: {
+		DisplayName: 宇宙の守護者
+		Tooltip:
+			'''
+			大ダメージを受けると、数秒かけて減ったライフが回復する
+			地球外生命体によるデバフを無効化する
+			'''
+	}
+
+	ClawsBone: {
+		DisplayName: 猛禽の爪
+		Tooltip:
+			'''
+			近接攻撃速度と鞭の攻撃速度が12%上昇
+			近接武器と鞭のオート攻撃を有効にする
+			近接武器と鞭が敵の防御力を5無視する
+			'''
+	}
+
+	ClawsFrost: {
+		DisplayName: 氷河の爪
+		Tooltip:
+			'''
+			近接攻撃速度と鞭の攻撃速度が12%上昇
+			近接武器と鞭のオート攻撃を有効にする
+			近接武器と鞭が敵の防御力を5無視する
+			近接攻撃と鞭で凍傷を与えることがある
+			'''
+	}
+
+	ClawsSpooky: {
+		DisplayName: 悪夢の爪
+		Tooltip:
+			'''
+			近接攻撃速度と鞭の攻撃速度が12%上昇
+			近接武器と鞭のオート攻撃を有効にする
+			近接武器と鞭が敵の防御力を12無視する
+			近接攻撃と鞭で極度の火傷を与えることがある
+			周囲の敵を震え上がらせる恐怖のオーラを放つ
+			ライフが少ないほど効果範囲が広がる
+			'''
+	}
+
+	ObiPain: {
+		DisplayName: 黒曜石のネックレス
+		Tooltip:
+			'''
+			敵の防御力を5無視する
+			燃えるブロックのダメージを無効化
+			「燃えるブロックの上に立ちながら、防御力の高い敵と戦わなければならない、あの非常にありふれた瞬間のために」
+			'''
+	}
+
+	CoralEmblem: {
+		DisplayName: 渦巻きの紋章
+		Tooltip: ほとんどの武器で攻撃すると、カーソルに向かって水の球が空から降ってくる
+	}
+
+	CoralStormEmblem: {
+		DisplayName: 台風の紋章
+		Tooltip: 武器で攻撃時に敵を追尾するサンゴの台風を召喚する
+	}
+
+	DeathCore: {
+		DisplayName: ペインブリンガーのコア
+		Tooltip:
+			'''
+			2分に一度だけ致命傷を受けても死なず、ライフが全回復し、5秒間の無敵時間が発生する
+			効果が発動すると敵を追尾する苦痛のドクロを大量に放ち、大ダメージを与える
+			受けたダメージが9999以上だと発動しない
+			ライフが減るほど、ダメージが最大で25%増加する
+			「また明日も苦しめられる」
+			'''
+	}
+
+	DeathCorePain: {
+		DisplayName: アルティメットペインのコア
+		Tooltip:
+			'''
+			2分に一度だけ致命傷を受けても死なず、ライフが全回復し、5秒間の無敵時間が発生する
+			効果が発動すると敵を追尾する苦痛のドクロを大量に放ち、大ダメージを与える
+			受けたダメージが9999以上だと発動しない
+			「また明日も苦しめられる」
+			'''
+	}
+
+	DerpEye: {
+		DisplayName: ダープリングの目
+		Tooltip:
+			'''
+			運が大きく増加
+			クリティカル時のダメージが12%増加
+			「あなたはラッキーだ」
+			'''
+	}
+
+	DerpEyeGolem: {
+		DisplayName: ジャングルの目
+		Tooltip:
+			'''
+			クリティカル率が10%上昇
+			運が大きく増加
+			クリティカル時のダメージが12%増加
+			'''
+	}
+
+	DesertJar: {
+		DisplayName: ファラオの骨壺
+		Tooltip:
+			'''
+			触れた敵にダメージを与える2つの砂粒が周囲を回る
+			移動中、ダメージを与える砂粒を残す
+			'''
+	}
+
+	EyeofDungeon: {
+		DisplayName: ダンジョンの目
+		Tooltip: 敵が近くにいると敵を追尾する骨を召喚する
+	}
+
+	FlameCore: {
+		DisplayName: ベッツイの炎
+		Tooltip: 敵の近くで武器で攻撃すると敵を追尾する炎を召喚する
+	}
+
+	FrostAccess: {
+		DisplayName: 氷の心臓
+		Tooltip:
+			'''
+			1以上のダメージを受けると、氷のトゲを複数放つ
+			その後6秒間、クリティカル率と移動速度が上昇する
+			'''
+	}
+
+	FrostCube: {
+		DisplayName: 氷の女王のコア
+		Tooltip:
+			'''
+			召喚できるミニオンとセントリーが1体増える
+			鞭の攻撃範囲が15%増加
+			'''
+	}
+
+	FrostJar: {
+		DisplayName: 氷の骨壺
+		Tooltip:
+			'''
+			1以上のダメージを受けると、氷のトゲを複数放つ
+			その後6秒間、クリティカル率と移動速度が上昇する
+			触れた敵にダメージを与える2つの霜の粒子が周囲を回る
+			移動中、ダメージを与える霜を残す
+			'''
+	}
+
+	GladiatorAccess: {
+		DisplayName: 戦士のトロフィー
+		Tooltip: ライフが66%以上の際、クリティカル率が15%上昇
+	}
+
+	GraniteCoreAccess: {
+		DisplayName: 御影石のコア
+		Tooltip:
+			'''
+			1以上のダメージを受けるとダメージが3秒間、30%増加し、
+			その後10秒のクールダウンが発生する
+			'''
+	}
+
+	HeartJar: {
+		DisplayName: 生命の紋章
+		Tooltip:
+			'''
+			ライフが半分以下になった敵は一度だけライフを20回復することがある
+			ボスの場合は回復量が75に増加する
+			その後、その敵のライフが急速にライフが減っていく
+			イベント中は確率が低下する
+			'''
+	}
+
+	HeartJarPS: {
+		DisplayName: 生命のお守り
+		Tooltip:
+			'''
+			ライフ自然回復を増進し、回復ポーションの再使用間隔を25%短縮させる
+			ライフが半分以下になった敵は一度だけライフを20回復することがある
+			ボスの場合は回復量が75に増加する
+			その後、その敵のライフが急速にライフが減っていく
+			イベント中は確率が低下する
+			'''
+	}
+
+	HellSoulWings: {
+		DisplayName: ソウルフレイムの翼
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			上入力で素早く上昇する
+			'''
+	}
+
+	LightDarkWings: {
+		DisplayName: 調和の翼
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			飛行時間が短いが、加速度が高い
+			'''
+	}
+
+	LunaticHood: {
+		DisplayName: 狂気の指揮官のフード
+		Tooltip: あなたの隣を飛び、シャドウフレイムボールを発射して攻撃する小さな信仰者を2体召喚する
+	}
+
+	PrimeAccess: {
+		DisplayName: 機械のトゲ
+		Tooltip:
+			'''
+			あなたの周りを周るスパイクボールを6つ召喚し、触れた敵にダメージを与える
+			ほとんどの敵の弾を低確率で破壊することがある
+			'''
+	}
+
+	SantaWires: {
+		DisplayName: サンタンクのパワーコア
+		Tooltip:
+			'''
+			致命傷を受けても死なず、ショックで蘇生され、10秒間の猶予を得る
+			この時間中はダメージを受けず、ダメージが増加するが、
+			終了時にライフが33%未満だと死亡する
+			この効果には5分のクールダウンがある
+			受けたダメージが最大ライフを超えている場合は発動しない
+			'''
+	}
+
+	ShroomAccessory: {
+		DisplayName: シュルーマイトのロケットアタッチメント
+		Tooltip:
+			'''
+			全ての銃から小さなシュルーマイトロケットが発射される
+			銃を選択中、右クリックを押し続けるとレーザーサイトを表示する
+			'''
+	}
+
+	ShroomAccessorySnipe: {
+		DisplayName: シュルーマイトのスコープロケット
+		Tooltip:
+			'''
+			全ての銃から小さなシュルーマイトロケットが発射される
+			銃を選択中、右クリックを押し続けるとレーザーサイトを表示し、
+			視界を広げることができる
+			遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
+			'''
+	}
+
+	SoulBoots: {
+		DisplayName: ソウルストライダー
+		Tooltip:
+			'''
+			超高速走行でき、加速度が上昇
+			ジャンプ速度と落下耐性が増加し、自動ジャンプが可能となる
+			「昼夜を問わずスピードを維持できる」
+			'''
+	}
+
+	SpaceRockWings: {
+		DisplayName: アステロイドの翼
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			横方向の加速度が高い
+			'''
+	}
+
+	SpectreAccessory: {
+		DisplayName: スペクターのドクロ
+		Tooltip:
+			'''
+			倒した敵がマナを100回復する、スペクトラルスターをドロップすることがある
+			ボスを攻撃すると低確率でスターを落とす
+			このスターは拾うとスペクターの星の強化を得て
+			残り時間に応じて魔法ダメージが最大で25%増加する
+			スターを1つ拾うと持続時間が5秒延長され、最大で10秒まで延長できる
+			'''
+	}
+
+	SpectreAccessoryMagnet: {
+		DisplayName: 磁石のドクロの花
+		Tooltip:
+			'''
+			マナ消費量が8%減少
+			マナポーションで自動で使用してくれる
+			マナスターを拾う距離が広がる
+			倒した敵がマナを100回復する、スペクトラルスターをドロップすることがある
+			ボスを攻撃すると低確率でスターをドロップする
+			このスターは拾うとスペクターの星の強化を得て
+			残り時間に応じて魔法ダメージが最大で25%増加する
+			スターを1つ拾うと持続時間が5秒延長され、最大で10秒まで延長できる
+			'''
+	}
+
+	SpookyCore: {
+		DisplayName: 不気味な紋章
+		Tooltip:
+			'''
+			周囲の敵を震え上がらせる恐怖のオーラを放つ
+			ライフが少ないほど効果範囲が広がる
+			'''
+	}
+
+	StompBoot: {
+		DisplayName: ヘビーブーツ
+		Tooltip:
+			'''
+			下入力で落下速度が上昇し、着地時に衝撃波が発生する
+			落下した距離に応じて衝撃波の大きさとダメージが増加する
+			高速落下中はノックバックせず、触れた敵にダメージを与え、落下速度が速いほどダメージが増加する
+			着地してすぐに再度ジャンプするとジャンプ速度とジャンプ高度が大幅に増加する
+			'''
+	}
+
+	StompBootHorse: {
+		DisplayName: ロングフォールブーツ
+		Tooltip:
+			'''
+			空を飛べ、落下ダメージを無効化する
+			下入力で落下速度が上昇し、着地時に衝撃波が発生する
+			落下した距離に応じて衝撃波の大きさとダメージが増加する
+			高速落下中はノックバックせず、触れた敵にダメージを与え、落下速度が速いほどダメージが増加する
+			着地してすぐに再度ジャンプするとジャンプ速度とジャンプ高度が大幅に増加するt
+			'''
+	}
+
+	StompBootDrill: {
+		DisplayName: ドリルブーツ
+		Tooltip:
+			'''
+			下入力で落下速度が上昇し、足元のほとんどのブロックを掘り進みながら落下する
+			高速落下中は敵に触れてもダメージを受けず、逆にダメージを与える
+			「これが天才的なのか、それとも愚かなことなのか、私にはわからない」
+			'''
+	}
+
+	StormCoil: {
+		DisplayName: オーバーロードストームコイル 
+		Tooltip:
+			'''
+			下入力と右クリックで、カーソルを追尾し、近くの敵を攻撃する雷のポータルを召喚する
+			再度下入力と右クリックで、、ポータルを自身の位置に戻す
+			ポータルは、自身と視線が通っているなら雷を発射する
+			'''
+	}
+
+	StormWings: {
+		DisplayName: ストームの翼
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			下入力でホバリングする
+			'''
+	}
+
+	SuperMushroom: {
+		DisplayName: 魔法のキノコ
+		Tooltip: ライフが減るとダメージが増加し、被ダメージが減少する
+	}
+
+	WoodNecklace: {
+		DisplayName: 木のペンダント
+		Tooltip: 森林にいる間、被ダメージを4軽減し、ライフ自然回復をわずかに増進
+	}
+
+	WoodNecklaceFrozen: {
+		DisplayName: 氷のペンダント
+		Tooltip:
+			'''
+			雪原か氷にいる間、自分の周囲に小さな吹雪を発生させ、その中の敵の移動速度を低下させる
+			凍結耐性
+			「首元が少し冷たいかもしれない」
+			'''
+	}
+
+	WoodNecklaceDesert: {
+		DisplayName: 大顎のペンダント
+		Tooltip:
+			'''
+			砂漠で敵を攻撃すると、ダメージを与える火花が発生することがある
+			強力な風と窒息耐性
+			'''
+	}
+
+	AsteroidArrow: {
+		DisplayName: アステロイドの矢
+		Tooltip: 発射して少ししてからカーソルに向かって急加速する。急加速後は敵を無限に貫通する
+	}
+
+	AsteroidBullet: {
+		DisplayName: アステロイドの弾丸
+		Tooltip: 地形を貫通するが、貫通後はダメージとノックバックが33%減少し、弾速が33%低下する
+	}
+
+	BouncyArrow: {
+		DisplayName: 弾む矢
+		Tooltip: よく弾む
+	}
+
+	ChaosArrow: {
+		DisplayName: 混沌の矢
+		Tooltip:
+			'''
+			敵に当たるとカーソルの位置にテレポートし、速度は維持されるが、ダメージが50%減少
+			「混沌を解き放て」
+			'''
+	}
+
+	CrackedShot: {
+		DisplayName: ひび割れた弾丸
+		Tooltip: 発射時、4つの破片に分裂することがあり、それぞれ50%のダメージを与える
+	}
+
+	DesertArrow: {
+		DisplayName: 禁断の矢
+		Tooltip:
+			'''
+			矢が敵の上を通るとその敵に向かって飛んでいく
+			この場合、ダメージが少し減少し、ノックバックしない
+			'''
+	}
+
+	DesertBullet: {
+		DisplayName: 禁断の弾丸
+		Tooltip:
+			'''
+			地形に当たると禁断の小さな粉塵が発生する
+			敵に禁断の炎を与える
+			'''
+	}
+
+	DualArrow: {
+		DisplayName: 束にした矢
+		Tooltip: 2本の矢を結び合わせた矢で、空中で分裂することがある
+	}
+
+	FrostArrow: {
+		DisplayName: 氷の矢
+		Tooltip: 敵か地形に当たると霜の破片に分裂する
+	}
+
+	FrostBullet: {
+		DisplayName: 氷の弾丸
+		Tooltip: 当たった敵に刺さり、一定時間後に爆発して追撃し、霜焼けを与える
+	}
+
+	IronShot: {
+		DisplayName: 鉄の弾丸
+		Tooltip: 重力の影響を受けるが、強いノックバックを持つ、重い弾丸
+	}
+
+	LeadShot: {
+		DisplayName: 鉛の弾丸
+		Tooltip: 重力の影響を受けるが、強いノックバックを持つ、重い弾丸
+	}
+
+	MeteorArrow: {
+		DisplayName: 隕石の矢
+		Tooltip:
+			'''
+			発射して少ししてから急加速する
+			急加速後はダメージが増加し、敵を2体貫通し、炎上させる
+			'''
+	}
+
+	OceanShard: {
+		DisplayName: サンゴの弾丸
+		Tooltip: 水の影響を受けないが、射程が短い
+	}
+
+	ProtoGrenade: {
+		DisplayName: 試作型のグレネード
+		Tooltip: 特定のランチャーの弾薬として使用する
+	}
+
+	MineBomb: {
+		DisplayName: 粘着地雷
+		Tooltip:
+			'''
+			粘着地雷の起爆装置と一緒に使う
+			「これが体にくっつかないように気をつけて」
+			'''
+	}
+
+	C4Ammo: {
+		DisplayName: 梱包爆薬
+		Tooltip:
+			'''
+			梱包爆薬の起爆装置と一緒に使う
+			「爆発物が仕掛けられた」
+			'''
+	}
+
+	ShroomArrow: {
+		DisplayName: シュルーマイトの矢
+		Tooltip:
+			'''
+			飛行中、キノコの跡を残す
+			敵を1体だけ貫通する
+			'''
+	}
+
+	ShroomBullet: {
+		DisplayName: シュルーマイトの弾丸
+		Tooltip: 敵を2体貫通し、地形に当たると跳ね返る
+	}
+
+	SantaBullet: {
+		DisplayName: サンタの弾丸
+		Tooltip:
+			'''
+			2回跳ね返り、その後地形か敵に当たると爆発する
+			「こんなのをもらえるなんて、悪い子リストに載ってるに違いない」
+			'''
+	}
+
+	GemAmethystBullet: {
+		DisplayName: アメジストの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき2回まで、40%の採掘力で採掘する
+			'''
+	}
+
+	GemTopazBullet: {
+		DisplayName: トパーズの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき2回まで、50%の採掘力で採掘する
+			'''
+	}
+
+	GemSapphireBullet: {
+		DisplayName: サファイアの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき3回まで、45%の採掘力で採掘する
+			'''
+	}
+
+	GemEmeraldBullet: {
+		DisplayName: エメラルドの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき3回まで、55%の採掘力で採掘する
+			'''
+	}
+
+	GemRubyBullet: {
+		DisplayName: ルビーの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき4回まで、50%の採掘力で採掘する
+			'''
+	}
+
+	GemAmberBullet: {
+		DisplayName: コハクの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき4回まで、55%の採掘力で採掘する
+			'''
+	}
+
+	GemDiamondBullet: {
+		DisplayName: ダイヤモンドの弾丸
+		Tooltip:
+			'''
+			当たったブロックを採掘する
+			使用には注意が必要
+			1発につき4回まで、55%の採掘力で採掘する
+			'''
+	}
+
+	AridBMask: {
+		DisplayName: アライドの仮面
+		Tooltip: クリティカル率が6%上昇
+		SetBonus: クリティカル時、攻撃した敵が爆発することがある
+	}
+
+	AridChestplate: {
+		DisplayName: アライドの胸当て
+		Tooltip: クリティカル時のダメージが10%増加
+	}
+
+	AridGreaves: {
+		DisplayName: アライドのすね当て
+		Tooltip:
+			'''
+			クリティカル率が6%上昇
+			移動速度が12%上昇
+			'''
+	}
+
+	BloodBHelmet: {
+		DisplayName: ヘモグロビンの兜
+		Tooltip: 近接ダメージが4%増加し、近接クリティカル率が4%上昇
+		SetBonus:
+			'''
+			近接武器で敵を攻撃すると、敵から血のオーブが複数飛び出す
+			血のオーブは敵を追尾し、ダメージを与える
+			'''
+	}
+
+	BloodChainmail: {
+		DisplayName: ヘモグロビンの胸当て
+		Tooltip:
+			'''
+			近接ダメージが6%増加
+			近接攻撃速度が12%上昇
+			'''
+	}
+
+	BloodGreaves: {
+		DisplayName: ヘモグロビンのすね当て
+		Tooltip:
+			'''
+			近接クリティカル率が6%上昇
+			移動速度が12%上昇
+			'''
+	}
+
+	ContestArmourBHelmet: {
+		DisplayName: クライオジェニックの仮面
+		Tooltip:
+			'''
+			魔法ダメージと召喚ダメージが10%増加
+			最大マナが40増加
+			「寒くて霧深い」
+			'''
+		SetBonus1:
+			'''
+			全ての冷気系デバフ耐性、
+			'''
+		SetBonus2:
+			'''
+			を押すとカーソルの位置に氷の雲を召喚し、氷柱を降らせる
+			視線が通っている必要があり、マナを75消費する
+			'''
+	}
+
+	ContestArmourChestplate: {
+		DisplayName: クライオジェニックの胸当て
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			マナ自然回復を増進
+			'''
+	}
+
+	ContestArmourLeggings: {
+		DisplayName: クライオジェニックのすね当て
+		Tooltip:
+			'''
+			召喚できるセントリーの数が1体増える
+			最大マナが20増加
+			'''
+	}
+
+	DerplingBHeadgear: {
+		DisplayName: 古代のダープリングの兜
+		Tooltip:
+			'''
+			ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
+		SetBonus:
+			'''
+			ジャンプ速度と上昇速度が大幅に上昇し、自動ジャンプが可能となる
+			下入力で落下速度が上昇する
+			ジャンプ時に大きな衝撃波が発生し、近くの敵を打ち上げる
+			'''
+	}
+
+	DerplingBMask: {
+		DisplayName: ダープリングの仮面
+		Tooltip:
+			'''
+			ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
+		SetBonus:
+			'''
+			ジャンプ速度と上昇速度が大幅に上昇し、自動ジャンプが可能となる
+			下入力で落下速度が上昇する
+			ジャンプ時に大きな衝撃波が発生し、近くの敵を打ち上げる
+			'''
+	}
+
+	DerplingBreastplate: {
+		DisplayName: ダープリングの胸当て
+		Tooltip:
+			'''
+			ダメージが8%増加
+			クリティカル率が8%上昇
+			'''
+	}
+
+	DerplingGreaves: {
+		DisplayName: ダープリングのすね当て
+		Tooltip:
+			'''
+			ダメージが7%増加し、クリティカル率が7%上昇
+			落下ダメージを無効化する
+			'''
+	}
+
+	GraniteBMask: {
+		DisplayName: 御影石の仮面
+		Tooltip: 近接ダメージが2%増加し、近接クリティカル率が2%上昇
+		SetBonus2:
+			'''
+			を押すと5秒間、被ダメージを50%軽減し、ノックバックを無効化し、ダメージの一部を反射するが、
+			移動速度とジャンプ速度が低下する
+			20秒のクールダウンがある
+			'''
+	}
+
+	GraniteChestplate: {
+		DisplayName: 御影石の胸当て
+		Tooltip:
+			'''
+			近接ダメージが4%増加
+			近接攻撃速度が10%上昇
+			'''
+	}
+
+	GraniteGreaves: {
+		DisplayName: 御影石のすね当て
+		Tooltip: 近接ダメージが2%増加し、近接クリティカル率が2%上昇
+	}
+
+	HellSoulBCrown: {
+		DisplayName: 地獄の魂の冠
+		Tooltip: 召喚できるミニオンの数が2体増える
+		SetBonus1:
+			'''
+			召喚できるミニオンの数が1体増える
+			10秒経つとインフェルナルストームを発動できる
+			
+			'''
+		SetBonus2: を押すと発動し、インフェルナルストームは最大で15体の敵を攻撃する
+	}
+
+	HellSoulBHelmet: {
+		DisplayName: 地獄の魂の兜
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加
+			遠距離クリティカル率が15%上昇
+			'''
+		SetBonus1:
+			'''
+			10秒経つとインフェルナルストームを発動できる
+			'''
+		SetBonus2: を押すと発動し、インフェルナルストームは最大で15体の敵を攻撃する
+	}
+
+	HellSoulBHood: {
+		DisplayName: 地獄の魂のフード
+		Tooltip:
+			'''
+			魔法ダメージが5%増加
+			魔法クリティカル率が15%上昇
+			最大マナが80増加
+			'''
+		SetBonus1:
+			'''
+			10秒経つとインフェルナルストームを発動できる
+			'''
+		SetBonus2: を押すと発動し、インフェルナルストームは最大で15体の敵を攻撃する
+	}
+
+	HellSoulBMask: {
+		DisplayName: 地獄の魂の仮面
+		Tooltip:
+			'''
+			近接クリティカル率と近接攻撃速度が15%上昇
+			'''
+		SetBonus1:
+			'''
+			10秒経つとインフェルナルストームを発動できる
+			'''
+		SetBonus2: を押すと発動し、インフェルナルストームは最大で15体の敵を攻撃する
+	}
+
+	HellSoulChestplate: {
+		DisplayName: 地獄の魂の胸当て
+		Tooltip: クリティカル率が10%上昇
+	}
+
+	HellSoulLeggings: {
+		DisplayName: 地獄の魂のすね当て
+		Tooltip:
+			'''
+			ダメージが10%増加
+			移動速度が15%上昇
+			'''
+	}
+
+	MushroomBMask: {
+		DisplayName: キノコの仮面
+		Tooltip:
+			'''
+			遠距離クリティカル率が3%上昇
+			「そこにはキノコは入っていない」
+			'''
+		SetBonus: 敵を攻撃するとキノコで追撃することがある
+	}
+
+	MushroomChestplate: {
+		DisplayName: キノコの胸当て
+		Tooltip: 遠距離ダメージが1%増加
+	}
+
+	MushroomGreaves: {
+		DisplayName: キノコのすね当て
+		Tooltip: 遠距離クリティカル率が3%上昇
+	}
+
+	NightsBHelmet: {
+		DisplayName: 黄昏の兜
+		Tooltip:
+			'''
+			ダメージが8%増加
+			クリティカル率が8%上昇
+			'''
+		SetBonus2:
+			'''
+			を押すとカーソルの位置に限られた範囲内でテレポートする
+			8秒のクールダウンがある
+			「テレポートは光速でダッシュするようなものだ」
+			'''
+	}
+
+	NightsChainmail: {
+		DisplayName: 黄昏のローブ
+		Tooltip:
+			'''
+			ダメージが10%増加
+			加速度が上昇
+			'''
+	}
+
+	NightsGreaves: {
+		DisplayName: 黄昏のレギンス
+		Tooltip:
+			'''
+			クリティカル率が10%上昇
+			ジャンプ速度と高度が増加
+			'''
+	}
+
+	NightsOldBHelmet: {
+		DisplayName: 古代の黄昏のフード
+		Tooltip:
+			'''
+			ダメージが8%増加
+			クリティカル率が8%上昇
+			'''
+		SetBonus2:
+			'''
+			を押すとカーソルの位置に限られた範囲内でテレポートする
+			8秒のクールダウンがある
+			「テレポートは光速でダッシュするようなものだ」
+			'''
+	}
+
+	NightsOldChainmail: {
+		DisplayName: 古代の黄昏のローブ
+		Tooltip:
+			'''
+			ダメージが10%増加
+			加速度が上昇
+			'''
+	}
+
+	NightsOldGreaves: {
+		DisplayName: 古代の黄昏のレギンス
+		Tooltip:
+			'''
+			クリティカル率が10%上昇
+			ジャンプ速度と高度が増加
+			'''
+	}
+
+	RainBoots: {
+		DisplayName: 雨靴
+		Tooltip: ""
+		SetBonus1: 雨が降っている間、移動速度が20%上昇
+	}
+
+	SantankBMask: {
+		DisplayName: サンタンクの仮面
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加
+			遠距離クリティカル率が8%上昇
+			'''
+		SetBonus1:
+			'''
+			時間経過とともに最大で10発のミサイルを自動的に装填する
+			'''
+		SetBonus2: を押すと装填数に関わらず全て発射される
+	}
+
+	SantankChestplate: {
+		DisplayName: サンタンクの胸当て
+		Tooltip:
+			'''
+			遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	SantankGreaves: {
+		DisplayName: サンタンクのすね当て
+		Tooltip:
+			'''
+			遠距離ダメージが8%増加
+			遠距離クリティカル率が6%上昇
+			移動速度が20%上昇
+			'''
+	}
+
+	ShadowFlameBMask: {
+		DisplayName: シャドウフレイムの仮面
+		Tooltip:
+			'''
+			鞭の攻撃範囲が15%増加
+			鞭の攻撃速度が10%上昇
+			召喚ダメージが8%増加
+			'''
+		SetBonus:
+			'''
+			鞭で攻撃した敵にシャドウフレイムを与える
+			シャドウフレイムを受けている敵に対してダメージが増加
+			'''
+	}
+
+	ShadowFlameChestplate: {
+		DisplayName: シャドウフレイムのローブ
+		Tooltip:
+			'''
+			鞭の攻撃範囲が10%増加
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが8%増加
+			'''
+	}
+
+	ShadowFlameGreaves: {
+		DisplayName: シャドウフレイムのすね当て
+		Tooltip:
+			'''
+			鞭の攻撃範囲が10%増加
+			鞭の攻撃速度が15%上昇
+			召喚ダメージが8%増加
+			'''
+	}
+
+	SkyKnightBMask: {
+		DisplayName: スターウォリアーの顔
+		Tooltip:
+			'''
+			鞭の攻撃範囲が5%増加
+			ダメージが4%増加
+			'''
+		SetBonus: 自身の頭上に浮かぶ星を召喚し、そこから小さな敵を追尾する星を発射する
+	}
+
+	SkyKnightChest: {
+		DisplayName: スターウォリアーのプレートメイル
+		Tooltip:
+			'''
+			召喚できるセントリーの数が1体増える
+			ダメージが2%増加
+			'''
+	}
+
+	SkyKnightGreaves: {
+		DisplayName: スターウォリアーのすね当て
+		Tooltip:
+			'''
+			鞭の攻撃範囲が10%増加
+			ダメージが2%増加
+			'''
+	}
+
+	SnowfallBMask: {
+		DisplayName: スノーフォールのフード
+		Tooltip: 加速度がわずかに上昇
+		SetBonus:
+			'''
+			ジャンプを押し続けると、短時間滑空できる
+			滑空中に上入力で、さらにゆっくり滑空できるが、滑空時間は半分になる
+			'''
+	}
+
+	SnowfallChest: {
+		DisplayName: スノーフォールのコート
+		Tooltip: 加速度がわずかに上昇
+	}
+
+	SnowfallLeg: {
+		DisplayName: スノーフォールのブーツ
+		Tooltip: 加速度がわずかに上昇
+	}
+
+	SpaceRockBHelmet: {
+		DisplayName: アステロイドの兜
+		Tooltip:
+			'''
+			ダメージが15%増加
+			クリティカル率が8%上昇
+			'''
+		SetBonus: 軌道攻撃を得て、次に攻撃した敵に小惑星の岩を落とす
+	}
+
+	SpaceRockBMask: {
+		DisplayName: アステロイドの仮面
+		Tooltip:
+			'''
+			ダメージが5%増加
+			ライフ自然回復を増進し、ノックバックを無効化する
+			'''
+		SetBonus:
+			'''
+			次の攻撃のダメージを25%軽減する軌道防御を得る
+			さらに、空からダメージを与えるアステロイドの岩を召喚する
+			受けたダメージが1だと、この効果は発動しない
+			'''
+	}
+
+	SpaceRockChestplate: {
+		DisplayName: アステロイドの胸当て
+		Tooltip:
+			'''
+			ダメージが7%増加
+			クリティカル率が5%上昇
+			'''
+	}
+
+	SpaceRockLeggings: {
+		DisplayName: アステロイドのすね当て
+		Tooltip:
+			'''
+			ダメージが6%増加
+			クリティカル率が5%上昇
+			移動速度が25%上昇
+			'''
+	}
+
+	SpeedCrown: {
+		DisplayName: メッセンジャーの冠
+		Tooltip: 移動速度と加速度が上昇
+		SetBonus1: 3防御力
+		SetBonus2: 5防御力
+	}
+
+	TempleBMask: {
+		DisplayName: リザードチーフの仮面
+		Tooltip:
+			'''
+			鞭の攻撃範囲が10%増加し、鞭の攻撃速度が10%上昇
+			召喚ダメージが15%増加
+			召喚できるミニオンの数が1体増える
+			'''
+		SetBonus:
+			'''
+			鞭で敵を攻撃すると、リザードドローンを召喚され、タグが付いた敵の周囲を回る
+			ドローンは敵に近づいて爆発する
+			その敵を倒すか、タグが外れてもドローンは爆発する
+			'''
+	}
+
+	TempleChest: {
+		DisplayName: リザードチーフの胸当て
+		Tooltip:
+			'''
+			鞭の攻撃範囲が15%増加し、鞭の攻撃速度が15%上昇
+			召喚ダメージが15%増加
+			鞭のオート攻撃を有効にする
+			'''
+	}
+
+	TempleLegs: {
+		DisplayName: リザードチーフのすね当て
+		Tooltip:
+			'''
+			鞭の攻撃範囲が15%増加
+			鞭の攻撃速度が10%上昇
+			召喚ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	AridBossBag: {
+		DisplayName: トレジャーバッグ (エンシェントハスク)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AridBossRelic: {
+		DisplayName: エンシェントハスクのレリック
+		Tooltip: ""
+	}
+
+	AridBossTrophy: {
+		DisplayName: エンシェントハスクのトロフィー
+		Tooltip: ""
+	}
+
+	StormBossBag: {
+		DisplayName: トレジャーバッグ (オーバーロードスキャンドローン)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	StormBossRelic: {
+		DisplayName: オーバーロードスキャンドローンのレリック
+		Tooltip: ""
+	}
+
+	StormBossTrophy: {
+		DisplayName: オーバーロードスキャンドローンのトロフィー
+		Tooltip: ""
+	}
+
+	UltimateBossBag: {
+		DisplayName: トレジャーバッグ (ペインブリンガー)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	PainBossBag: {
+		DisplayName: トレジャーバッグ (アルティメットペイン)
+		Tooltip:
+			'''
+			"{$CommonItemTooltip.RightClickToOpen}"
+			「アルティメットペインに耐えた者の証」
+			'''
+	}
+
+	UltimateBossRelic: {
+		DisplayName: ペインブリンガーのレリック
+		Tooltip: ""
+	}
+
+	PainBossRelic: {
+		DisplayName: アルティメットペインのレリック
+		Tooltip: 「アルティメットペインに耐えた者の証」
+	}
+
+	UltimateBossTrophy: {
+		DisplayName: ペインブリンガーのトロフィー
+		Tooltip: ""
+	}
+
+	PainBossTrophy: {
+		DisplayName: アルティメットペインのトロフィー
+		Tooltip: 「アルティメットペインに耐えた者の証」
+	}
+
+	DerplingTrophyItem: {
+		DisplayName: ダープリングのトロフィー
+		Tooltip: 「ごく普通の方法で入手できる」
+	}
+
+	TheGoodBoyItem: {
+		DisplayName: ベストボーイ
+		Tooltip: 「あなたがいなくなると寂しくなります」
+	}
+
+	VortexiaPaintingItem: {
+		DisplayName: Storm's Additions Mod
+		Tooltip: 「プレイしてくれてありがとう」
+	}
+
+	BloodDrop: {
+		DisplayName: 血の滴
+		Tooltip: 「どういうわけか形を保っている一滴の血」
+	}
+
+	BlueCloth: {
+		DisplayName: 断熱布
+		Tooltip: 「保温効果がある」
+	}
+
+	ChaosShard: {
+		DisplayName: 混沌のオーブ
+		Tooltip: 「純粋な混沌に満ちている」
+	}
+
+	CrackedHeart: {
+		DisplayName: ひび割れたハートクリスタル
+		Tooltip: 「生命をほとんど感じない」
+	}
+
+	DerplingShell: {
+		DisplayName: ダープリングの殻
+		Tooltip: 「丈夫だが、柔軟性もある」
+	}
+
+	DesertOre: {
+		DisplayName: 禁断の破片
+		Tooltip: 「人けのない洞窟の奥深くから回収された」
+	}
+
+	GraniteCore: {
+		DisplayName: 御影石のパワーセル
+		Tooltip: 「エネルギーが脈打っている」
+	}
+
+	IceOre: {
+		DisplayName: 氷の破片
+		Tooltip: 「凍った洞窟の奥深くから回収された」
+	}
+
+	RedSilk: {
+		DisplayName: 戦士の布
+		Tooltip: 剣闘士のアイテムを作成するのに使う
+	}
+
+	SantankScrap: {
+		DisplayName: 機械のスクラップ
+		Tooltip: 「偉大なるサンタンクの残骸」
+	}
+
+	SoulFire: {
+		DisplayName: 地獄の魂の炎
+		Tooltip: 「燃え尽きることのない魂」
+	}
+
+	SpaceRock: {
+		DisplayName: アステロイドの破片
+		Tooltip: 「何やら奇妙なエネルギーが宿っている」
+	}
+
+	DesertBar: {
+		DisplayName: 禁断のインゴット
+		Tooltip: 禁断の防具や武器を作成するのに使う
+	}
+
+	IceBar: {
+		DisplayName: 氷のインゴット
+		Tooltip: 氷の防具や武器を作成するのに使う
+	}
+
+	SpaceRockBar: {
+		DisplayName: アステロイドのインゴット
+		Tooltip: 「エネルギーを放っている」
+	}
+
+	AridBossPetItem: {
+		DisplayName: 輝く角
+		Tooltip: 光を放つ、リベレイテッドハスクを召喚する
+	}
+
+	DerplingVine: {
+		DisplayName: 謎の蔓
+		Tooltip: 「何やら奇妙なエネルギーが宿っている」
+	}
+
+	StabbyKnife: {
+		DisplayName: 刺突用ナイフ 
+		Tooltip: ミニスタビーを召喚する
+	}
+
+	StormBossPetItem: {
+		DisplayName: 謎の装置
+		Tooltip:
+			'''
+			小さなオーバーロードスキャンドローンを召喚する
+			「スキャン完了！」
+			'''
+	}
+
+	StormLightItem: {
+		DisplayName: 怪しげなヘルメット
+		Tooltip: 想像を絶するものを召喚する
+	}
+
+	TwilightPetItem: {
+		DisplayName: 奇妙な黄昏のフード
+		Tooltip: 光を放つ、謎めいたフィギュアを召喚する
+	}
+
+	UltimateBossPetItem: {
+		DisplayName: ザ・キュート
+		Tooltip: 可愛くて苦痛を与えないものを召喚する
+	}
+
+	BarrierPotion: {
+		DisplayName: 耐久のライフポーション
+		Tooltip: ライフを回復し、次の攻撃で受けるダメージが25%軽減され、ノックバックを無効化する
+	}
+
+	BeetlePotion: {
+		DisplayName: 甲虫の加護のポーション
+		Tooltip: 近接武器が敵の防御力を20無視する
+	}
+
+	DoubleHealingPotion: {
+		DisplayName: 強化ライフポーション
+		Tooltip:
+			'''
+			最大ライフの50%（最大で300まで）を回復するが、
+			再使用間隔が通常より長い
+			'''
+	}
+
+	FruitHeartPotion: {
+		DisplayName: スーパーハートの小瓶
+		Tooltip:
+			'''
+			倒した敵がスーパーハートをドロップするようになる
+			スーパーハートはライフを50回復する
+			ボスは必ずスーパーハートを2個ドロップする
+			'''
+	}
+
+	GunPotion: {
+		DisplayName: 射手のポーション
+		Tooltip: 銃のダメージが15%増加
+	}
+
+	HeartPotion: {
+		DisplayName: ハートの小瓶
+		Tooltip:
+			'''
+			ライフが最大でないなら、倒した敵がハートをドロップしやすくなる
+			ボスは必ずハートをたくさんドロップする
+			'''
+	}
+
+	ShroomitePotion: {
+		DisplayName: キノコの加護のポーション
+		Tooltip: 遠距離武器でクリティカル時のダメージが10%増加
+	}
+
+	SpectrePotion: {
+		DisplayName: スペクター強化のポーション
+		Tooltip: マナが半分以下になると魔法ダメージが20%増加
+	}
+
+	SpookyPotion: {
+		DisplayName: 不気味な呪いのポーション
+		Tooltip: ミニオンのダメージが10%増加し、鞭の攻撃速度が10%上昇
+	}
+
+	AFlaskFrost: {
+		DisplayName: 霜のフラスコ
+		Tooltip: 近接攻撃と鞭攻撃に霜焼けの追加効果を付与
+	}
+
+	AFlaskExplosive: {
+		DisplayName: 爆発のフラスコ
+		Tooltip: 近接攻撃と鞭攻撃で小さな爆発が起きる
+	}
+
+	AridBossSummon: {
+		DisplayName: ひび割れた角
+		Tooltip: 呪われていて、使用には注意が必要だ
+	}
+
+	MoonlingSummoner: {
+		DisplayName: ムーンリングのコア
+		Tooltip:
+			'''
+			あなたを殺そうとするムーンリングを召喚する
+			地上で使用することを推奨
+			'''
+	}
+
+	StormBossSummoner: {
+		DisplayName: 嵐のビーコン
+		Tooltip: 強力な敵の存在を示唆している
+	}
+
+	UltimateBossSummoner: {
+		DisplayName: 謎のドクロ
+		Tooltip: ペインブリンガーを召喚する。あらゆる苦痛に備えること
+	}
+
+	Aircan: {
+		DisplayName: 圧縮空気缶 
+		Tooltip:
+			'''
+			敵を吹き飛ばす強力な空気を噴射する
+			「クモの巣を払うのに最適」
+			'''
+	}
+
+	BloodHammer: {
+		DisplayName: 血のハンマー
+		Tooltip: 「壁に血痕を残さないように気をつけて」
+	}
+
+	BloodPax: {
+		DisplayName: 血のパックス
+		Tooltip: 「これを汚さないように気をつけて」
+	}
+
+	DerpHook: {
+		DisplayName: ダープリングのフック
+		Tooltip: 同時にフックを4本発射でき、同時に3本を引っ掛けることができる
+	}
+
+	DerplingChainsaw: {
+		DisplayName: ダープリングのチェーンソー
+		Tooltip: 「木を切り倒せ」
+	}
+
+	DerplingDrill: {
+		DisplayName: ダープリングのドリル
+		Tooltip: 「地面を掘り進む」
+	}
+
+	DerplingJackhammer: {
+		DisplayName: ダープリングの機械槌
+		Tooltip: 「壁を打ち壊せ」
+	}
+
+	DesertHamaxe: {
+		DisplayName: 禁断のハンマーアックス
+		Tooltip: アルターを破壊できる
+	}
+
+	DesertPick: {
+		DisplayName: 禁断のつるはし
+		Tooltip: アダマンタイトとチタンを採掘可能
+	}
+
+	EyeHook: {
+		DisplayName: 目玉のフック
+		Tooltip: 長くてゆっくりとしたフックを1本発射する
+	}
+
+	FastDrill: {
+		DisplayName: ミニドリル
+		Tooltip: 「採掘を高速で行える」
+	}
+
+	FastDrill2: {
+		DisplayName: メガドリル
+		Tooltip: 「採掘をとても速く行える」
+	}
+
+	FishingRodCoral: {
+		DisplayName: フィッシャーオブシー
+		Tooltip: 浮きを2つ投げる
+	}
+
+	FishingRodDerpling: {
+		DisplayName: ダープリングの釣竿
+		Tooltip: 浮きを3つ投げる
+	}
+
+	FishingRodLunar: {
+		DisplayName: 宇宙の釣竿
+		Tooltip:
+			'''
+			浮きを4つ投げる
+			溶岩で釣りができる
+			'''
+	}
+
+	FrostHamaxe: {
+		DisplayName: 氷のハンマーアックス
+		Tooltip: アルターを破壊できる
+	}
+
+	FrostPick: {
+		DisplayName: 氷のつるはし
+		Tooltip: アダマンタイトとチタンを採掘可能
+	}
+
+	GladiatorAxe: {
+		DisplayName: 剣闘士の戦斧
+		Tooltip: 「かつては強力な武器だったが、今では単に木を切り倒すために使われている」
+	}
+
+	GladiatorHammer: {
+		DisplayName: 剣闘士の戦槌
+		Tooltip: 「かつては強力な武器だったが、今では壁を壊すための道具に過ぎない」
+	}
+
+	GladiatorPick: {
+		DisplayName: 剣闘士のつるはし
+		Tooltip: メテオライトを採掘可能
+	}
+
+	GraniteAxe: {
+		DisplayName: 御影石の斧
+		Tooltip: ""
+	}
+
+	GraniteHammer: {
+		DisplayName: 御影石のハンマー
+		Tooltip: ""
+	}
+
+	GranitePick: {
+		DisplayName: 御影石のつるはし
+		Tooltip: メテオライトを採掘可能
+	}
+
+	HellSoulHamaxe: {
+		DisplayName: 魂の炎のハンマーアックス
+		Tooltip: 「地獄の燃える魂で強化された」
+	}
+
+	HellSoulPick: {
+		DisplayName: 魂の炎のつるはし
+		Tooltip: 「地獄の燃える魂で強化された」
+	}
+
+	MushroomAxe: {
+		DisplayName: キノコの斧
+		Tooltip: 「キノコを使ってキノコを切り落とす」
+	}
+
+	MushroomHammer: {
+		DisplayName: キノコのハンマー
+		Tooltip: 「ハンマッシュの弟」
+	}
+
+	MushroomPick: {
+		DisplayName: キノコのつるはし
+		Tooltip: メテオライトを採掘可能
+	}
+
+	Oilcan: {
+		DisplayName: オイル缶
+		Tooltip:
+			'''
+			左クリックでオイルを発射し、敵やタウンNPCにオイルまみれを与える
+			右クリックで缶を2個消費してオイルまみれの敵に火をつける
+			「敵を油まみれにしろ」
+			'''
+	}
+
+	OilcanInfinite: {
+		DisplayName: 底なしのオイル缶
+		Tooltip:
+			'''
+			左クリックでオイルを発射し、敵やタウンNPCにオイルまみれを与える
+			右クリックで缶を2個消費してオイルまみれの敵に火をつける
+			無限に使用できる
+			「敵を油まみれにしろ」
+			'''
+	}
+
+	Quack: {
+		DisplayName: ゴムのアヒル
+		Tooltip: 「クワック！」
+	}
+
+	SantankDrill: {
+		DisplayName: サンタのドリル
+		Tooltip: 「悪い子に使う」
+	}
+
+	SantankJackham: {
+		DisplayName: サンタの機械槌
+		Tooltip: 「悪い子に使う」
+	}
+
+	SantankSaw: {
+		DisplayName: サンタのチェーンソー
+		Tooltip: 「悪い子に使う」
+	}
+
+	SentryKiller: {
+		DisplayName: 遠隔セントリー消去装置
+		Tooltip: 召喚した全てのセントリーを消す
+	}
+
+	ShieldKiller: {
+		DisplayName: 宇宙の球
+		Tooltip: 全ての活動中のピラーのシールドを解除する
+	}
+
+	SuperPainDummyItem: {
+		DisplayName: スーパーペインダミー
+		Tooltip:
+			'''
+			左クリックでスーパーペインダミーを任意の場所に設置できる
+			一度に設置できるダミーの数は50
+			右クリックで設置済みのダミーを全て消し、ボスがいてもダミーが消える
+			ダミーは追尾効果のある武器は検知し、ミニオンが敵と認識し、命中時の追加効果も発動する
+			インベントリで右クリックでダミーの種類（標準/頑丈/破損/軽い/ずんぐり）を変更できる
+			Shiftを押しながら右クリックで、浮遊と接地を切り替える
+			Ctrlキーを押しながら右クリックで、特定の種類のダミーの追加属性を変更できる
+			'''
+	}
+
+	SpaceRockDrillSaw: {
+		DisplayName: アステロイドのドリルソー
+		Tooltip: 「ソードリルと混同しないで」
+	}
+
+	SpaceRockJackhammer: {
+		DisplayName: アステロイドの機械槌
+		Tooltip: 「壁を壊すのに最適」
+	}
+
+	StormHook: {
+		DisplayName: ライトニングフック
+		Tooltip: 素早いフックを1本放つ
+	}
+
+	SuperHeartPickup: {
+		DisplayName: スーパーハート
+		Tooltip: 拾うとライフが50回復する
+	}
+
+	TeddyBear: {
+		DisplayName: テディベア
+		Tooltip:
+			'''
+			クマを抱きしめて、ライフを回復させよう
+			「愛に満ち溢れて」
+			'''
+	}
+
+	BossMaskAridBoss: {
+		DisplayName: エンシェントハスクのマスク
+		Tooltip: ""
+	}
+
+	BossMaskStormBoss: {
+		DisplayName: スキャンドローンのマスク
+		Tooltip: ""
+	}
+
+	BossMaskUltimateBoss: {
+		DisplayName: ペインブリンガーのマスク
+		Tooltip: ""
+	}
+
+	FlatCap: {
+		DisplayName: スノーマンの平たい帽子
+		Tooltip: 「まだ寒い」
+	}
+
+	GnomedHat: {
+		DisplayName: ノームの帽子
+		Tooltip: 「あなたはノームにやられました」
+	}
+
+	PizzaCap: {
+		DisplayName: スノーマンのピザキャップ
+		Tooltip: 「牛肉の少ないピザをお願いします」
+	}
+
+	PredictorBMask: {
+		DisplayName: 予言者のマスク
+		Tooltip: 「残念ながら、これはあなたの脳力を向上させるものではない」
+	}
+
+	PredictorBody: {
+		DisplayName: 予言者の体
+		Tooltip: ""
+	}
+
+	PredictorLegs: {
+		DisplayName: 予言者の足
+		Tooltip: ""
+	}
+
+	SelenianBMask: {
+		DisplayName: セレニアンのマスク
+		Tooltip: 「いや、弾を反射することはできない！」
+	}
+
+	SelenianBody: {
+		DisplayName: セレニアンの体
+		Tooltip: ""
+	}
+
+	SelenianLegs: {
+		DisplayName: セレニアンの足
+		Tooltip: ""
+	}
+
+	StargazerBMask: {
+		DisplayName: スターゲイザーのマスク
+		Tooltip: 「ただし、これによって実際に星がよりよく見えるようになるわけではない」
+	}
+
+	StargazerBody: {
+		DisplayName: スターゲイザーの体
+		Tooltip: ""
+	}
+
+	StargazerLegs: {
+		DisplayName: スターゲイザーの足
+		Tooltip: ""
+	}
+
+	StormDiverBMask: {
+		DisplayName: ストームダイバーのマスク
+		Tooltip: 「これ、外が見えるのか？」
+	}
+
+	StormDiverBody: {
+		DisplayName: ストームダイバーの体
+		Tooltip: ""
+	}
+
+	StormDiverLegs: {
+		DisplayName: ストームダイバーの足
+		Tooltip: ""
+	}
+
+	TheClaymanMask: {
+		DisplayName: クレイマンのマスク
+		Tooltip: 「周囲の人々を心の中で静かに判断する」
+	}
+
+	ThePainMask: {
+		DisplayName: ペインマスク
+		Tooltip: 「苦痛がひどすぎるときに」
+	}
+
+	UltimateFearMask: {
+		DisplayName: ごく普通のマスク
+		Tooltip: 「なんでみんなそんな目であなたを見るの？あなたはごく普通なのに」
+	}
+
+	AncientFlame: {
+		DisplayName: アリッドサンドブラスター
+		Tooltip:
+			'''
+			燃え盛る砂を発射する
+			弾薬としてジェルを使用する
+			敵の防御力を5無視する
+			'''
+	}
+
+	AncientKnives: {
+		DisplayName: アリッドナイフ
+		Tooltip: 投げてから少し経つと回転し、敵を貫通するナイフを投げる
+	}
+
+	AncientMinion: {
+		DisplayName: アリッドコマンドスタッフ
+		Tooltip:
+			'''
+			共に戦うエンシェントアリッドを召喚
+			ミニオンは敵に向かい、射程内に入るとその場にとどまり、砂を発射して攻撃する
+			'''
+	}
+
+	AncientStaff: {
+		DisplayName: アリッドサンドバーストスタッフ
+		Tooltip: カーソルの位置に砂の爆発を起こす
+	}
+
+	Bazooka: {
+		DisplayName: スカベンジャーのバズーカ
+		Tooltip:
+			'''
+			左クリックを押し続けるとミサイルを最大で6発装填し、離すと連射する
+			連射中のミサイルは、発射するごとにダメージがわずかに増加する
+			ミサイルはわずかに拡散する
+			弾薬としてロケットを使用する
+			「粗雑な作りだが、十分効果的だ」
+			'''
+	}
+
+	BeetleShellWeapon: {
+		DisplayName: 巨大な甲虫の殻
+		Tooltip:
+			'''
+			地形に当たると跳ね返る殻を投げる
+			敵か地形に当たると、敵を追尾する甲虫を召喚することがある
+			'''
+	}
+
+	BeetleSpear: {
+		DisplayName: 甲虫の槍
+		Tooltip:
+			'''
+			攻撃すると、メインの槍に加えて槍を2本召喚する
+			それぞれの槍は、敵を追尾する甲虫を召喚する
+			'''
+	}
+
+	BeetleYoyo: {
+		DisplayName: ソーラックス
+		Tooltip: 攻撃中、敵を追尾する甲虫を召喚する
+	}
+
+	BloodGrenade: {
+		DisplayName: ブラッディグレネード
+		Tooltip: いくつかの血に分裂する
+	}
+
+	BloodSpear: {
+		DisplayName: ハートピアサー
+		Tooltip: 攻撃速度が速いが、攻撃し続けると攻撃がぶれやすくなる
+	}
+
+	BloodSword: {
+		DisplayName: 血の剣
+		Tooltip: 血を放つ
+	}
+
+	BloodWhip: {
+		DisplayName: 血の筋繊維
+		Tooltip:
+			'''
+			召喚タグクリティカル率 8%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ミニオンの攻撃が当たると、血のオーブがその敵の周囲を回る
+			'''
+	}
+
+	BloodYoyo: {
+		DisplayName: ハートアタック
+		Tooltip: 血痕を残す
+	}
+
+	BloodyRifle: {
+		DisplayName: ブラッドショットライフル
+		Tooltip:
+			'''
+			マスケット銃の弾丸を血の弾丸に変換し、敵に当たると血の滴が飛び散る
+			<right>でズームアウト
+			'''
+	}
+
+	BloodySentry: {
+		DisplayName: 血のウニの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵に血を発射して攻撃する血のウニを召喚する
+			敵の防御力を12無視する
+			'''
+	}
+
+	BoneBoomerang: {
+		DisplayName: フェムラン
+		Tooltip:
+			'''
+			一度に3つ投げることができる
+			「え、これが上腕骨だと思ったの？」
+			'''
+	}
+
+	CaptainsGun: {
+		DisplayName: 船長の大砲
+		Tooltip:
+			'''
+			撃ち続けていると攻撃速度が上昇していく
+			攻撃中に右クリックで砲弾を消費して、砲弾を発射する
+			「海賊は自由だから、好きなようにやれ」
+			'''
+	}
+
+	ChloroDartGun: {
+		DisplayName: クロロファイトのダーツショットガン
+		Tooltip: ダーツを連射する
+	}
+
+	ChloroStaff: {
+		DisplayName: クロロファイトの胞子の杖
+		Tooltip: カーソルの位置に到達するか地形に当たると、爆発する胞子を発射する
+	}
+
+	ClaymanStick: {
+		DisplayName: 審判の棒
+		Tooltip:
+			'''
+			左クリックで自身の正面の一定範囲の敵を裁く
+			右クリックでカーソルの位置の敵を裁く
+			「誰もが裁かれる」
+			'''
+	}
+
+	CrackedDagger: {
+		DisplayName: 砕かれた短剣
+		Tooltip:
+			'''
+			カーソルの周囲に砕け散った短剣を3本召喚する
+			射程が短く、視線が通っている必要がある
+			'''
+	}
+
+	CultistBow: {
+		DisplayName: 月の氷の弓
+		Tooltip:
+			'''
+			矢が敵か地形に当たると特殊な氷の矢を召喚する
+			この矢は極度の凍傷を与え、ライフを徐々に大きく減少させ、移動速度を低下させる
+			また、拡散する通常の矢を2-3本発射する
+			'''
+	}
+
+	CultistLazor: {
+		DisplayName: 狂気の崇拝者のフード
+		Tooltip:
+			'''
+			左クリックを押し続けることで、チャージを行い、
+			チャージが完了すれば強力なレーザーを発射する
+			「え、何だって！？」
+			'''
+	}
+
+	CultistSpear: {
+		DisplayName: 狂気の炎の槍
+		Tooltip: 攻撃時に地形を貫通するファイアボールを5つ放つ
+	}
+
+	CultistStaff: {
+		DisplayName: 狂気の電撃の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵に電撃を発射して攻撃するライトニングスフィアを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	CultistTome: {
+		DisplayName: 狂気の古代の光の魔法
+		Tooltip: 敵を追尾する古代の光を複数召喚する
+	}
+
+	CursedSkullMinion: {
+		DisplayName: カースドスカルスタッフ
+		Tooltip:
+			'''
+			共に戦うカースドスカルを召喚する
+			ミニオンは敵の周りを飛び回り、地形に当たると跳ね返り、
+			敵を貫通する呪いの骨を敵に発射する
+			'''
+	}
+
+	CursedSpearGun: {
+		DisplayName: 呪いの銃槍
+		Tooltip:
+			'''
+			左クリックで敵の防御力を10無視する素早い突きを行う
+			右クリックで弾丸を消費して拡散しにくい弾丸を4発発射する
+			マスケット銃の弾丸を呪いのショットガンの弾丸に変換し、
+			呪いのショットガンの弾丸が12回当たると、次の突き攻撃のダメージが2.5倍になる
+			「槍にショットガンを括り付けるなんて、一体誰のアイデアだったんだ？」
+			'''
+	}
+
+	DerplingGun: {
+		DisplayName: ダープリングのライフル
+		Tooltip:
+			'''
+			4点バースト
+			初段のみ弾薬を消費
+			「残酷に見えるかもしれないが、そうするしかなかったんだ」
+			'''
+	}
+
+	DerplingMinion: {
+		DisplayName: ダープリングの杖
+		Tooltip:
+			'''
+			共に戦うベビーダープリングを召喚する
+			ミニオンは地面を跳ね回るが、射程内に入ると翼を生やして突進する
+			'''
+	}
+
+	DerplingStaff: {
+		DisplayName: ダープリングの短杖
+		Tooltip:
+			'''
+			魔法のダープリングの殻の破片を高速で発射する
+			低確率で、敵を追尾する小さな破片に分裂する、より大きな破片を発射することがある
+			'''
+	}
+
+	DerplingSword: {
+		DisplayName: ダープリングの剣
+		Tooltip:
+			'''
+			50%の確率で、地形に当たると跳ね返るダープリングの殻の破片を複数放つ
+			破片は敵を2体貫通するが、貫通するたびに速度が低下し、ダメージが減少する
+			'''
+	}
+
+	DesertBow: {
+		DisplayName: フォビドゥンフューリー
+		Tooltip:
+			'''
+			全ての矢を特殊な禁断の矢に変換する
+			この矢は敵の上を通るとその敵に砂を落とし、3回落とすと消滅する
+			禁断の矢を使用すると4回落とすと消滅するようになる
+			'''
+	}
+
+	DesertSpear: {
+		DisplayName: 禁断の槍
+		Tooltip: 禁断の砂を放つ
+	}
+
+	DesertSpell: {
+		DisplayName: 禁断の嵐
+		Tooltip: 禁断の砂を発射する
+	}
+
+	DesertStaff: {
+		DisplayName: 禁断の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			セントリーは全方位に砂を発射する
+			'''
+	}
+
+	DesertWhip: {
+		DisplayName: 禁断の鞭
+		Tooltip:
+			'''
+			召喚タグクリティカル率 12%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ミニオンの攻撃が当たると、禁断の砂が敵から放たれる
+			'''
+	}
+
+	EnchantedAxeMagic: {
+		DisplayName: ソウルスプリッター
+		Tooltip:
+			'''
+			複数の斧に分裂する、小さなクリムゾンアックスを召喚する
+			「敵の魂を分裂させろ」
+			'''
+	}
+
+	EnchantedHammer: {
+		DisplayName: ドリームクラッシャー
+		Tooltip:
+			'''
+			飛行中にハンマーを降らせる、小さなカースドハンマーを召喚する
+			「敵の夢を打ち砕け」
+			'''
+	}
+
+	EnchantedSword: {
+		DisplayName: ブレードオブライト
+		Tooltip:
+			'''
+			カーソルに向かって飛び、地形に当たると跳ね返り、
+			敵を貫通する小さなエンチャントソードを召喚する
+			「ナイトエッジと混同しないで」
+			'''
+	}
+
+	EyeGun: {
+		DisplayName: アイライフル
+		Tooltip:
+			'''
+			2点バースト
+			初段のみ弾薬を消費
+			'''
+	}
+
+	EyeMinion: {
+		DisplayName: アイボールの杖
+		Tooltip:
+			'''
+			共に戦うクトゥルフのしもべを召喚する
+			ミニオンは射程内の敵に突撃する
+			'''
+	}
+
+	EyeStaff: {
+		DisplayName: アイストーク
+		Tooltip: 地形に当たると自身に戻ってくる、鋭い眼球を召喚する
+	}
+
+	EyeSword: {
+		DisplayName: アイソー
+		Tooltip: 眼球を放つ
+	}
+
+	FlailLocker: {
+		DisplayName: フレイルロッカー
+		Tooltip: 「失われたシステムの遺物 」
+	}
+
+	FrostLauncher: {
+		DisplayName: フロストランチャー
+		Tooltip:
+			'''
+			敵か地形に当たると爆発し、霜焼けを与えるグレネードを発射する
+			試作型のグレネードを使用する
+			試作型のグレネードは爆破技師から買える
+			'''
+	}
+
+	FrostSentry: {
+		DisplayName: 霜の棘の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			高速で鋭い氷柱を発射して攻撃する霜のセントリーを召喚する
+			'''
+	}
+
+	FrostSpinner: {
+		DisplayName: フローズンポールスター
+		Tooltip:
+			'''
+			回転させて攻撃し、攻撃した敵に霜焼けを与え、自身が向いている方向にノックバックさせる
+			攻撃中に右クリックで敵の弾を短時間反射する
+			2秒のクールダウンがある
+			'''
+	}
+
+	FrostStar: {
+		DisplayName: 氷のフリスビー
+		Tooltip: 敵か地形に当たると、氷の破片に分裂するフリスビーを投げる
+	}
+
+	Frostthrower: {
+		DisplayName: クライオフリーザー
+		Tooltip:
+			'''
+			霜焼けを与える、超低温ガスを発射する
+			弾薬としてジェルを使用する
+			敵の防御力を15無視する
+			'''
+	}
+
+	GladiatorBow: {
+		DisplayName: 剣闘士の弓
+		Tooltip:
+			'''
+			3点バーストで矢を発射する
+			初段のみ弾薬を消費
+			'''
+	}
+
+	GladiatorSpear: {
+		DisplayName: 剣闘士の剣槍
+		Tooltip: 攻撃が遅いが力強い
+	}
+
+	GladiatorStaff: {
+		DisplayName: 剣闘士の杖
+		Tooltip: ソードビームを均等に3つ放つ
+	}
+
+	GraniteRifle: {
+		DisplayName: 御影石のブラスター
+		Tooltip: マスケット銃の弾丸を、敵を2体貫通する御影石の弾丸に変換する
+	}
+
+	GraniteStaff: {
+		DisplayName: 御影石の短杖
+		Tooltip: エネルギー弾を複数発射する
+	}
+
+	GraniteYoyo: {
+		DisplayName: サージ
+		Tooltip: ""
+	}
+
+	JungleSporeGun: {
+		DisplayName: ジャングルの胞子の銃
+		Tooltip: 敵か地形に当たると爆発する有毒な胞子を発射する
+	}
+
+	HarpyBow: {
+		DisplayName: 羽根飾りの弓
+		Tooltip: 木の矢を重力を無視し、敵を貫通する羽の矢に変換する
+	}
+
+	HarpyMinion: {
+		DisplayName: 羽のコマンドスタッフ
+		Tooltip:
+			'''
+			共に戦う魔法の羽を召喚する
+			ミニオンは敵の上を飛び、敵をゆっくりと追尾する回転する羽を発射する
+			'''
+	}
+
+	HarpyStaff: {
+		DisplayName: 羽の短杖
+		Tooltip:
+			'''
+			羽を拡散させて3枚発射する
+			中央の羽はダメージが高く、敵を1体貫通する
+			'''
+	}
+
+	HarpyYoyo: {
+		DisplayName: フェザースローワー
+		Tooltip: 近くの敵に鋭い羽を放つ
+	}
+
+	HellSoulBow: {
+		DisplayName: インファーナルフューリー 
+		Tooltip: 敵を追尾するソウルアローを追加で1本発射する
+	}
+
+	HellSoulFlare: {
+		DisplayName: インファーナルソウルフレイム
+		Tooltip: カーソルに向かって飛んでいくソウルフレイムを素早く召喚する
+	}
+
+	HellSoulMinion: {
+		DisplayName: ソウルフレイムの杖
+		Tooltip:
+			'''
+			共に戦うソウルフレイムを召喚する
+			ミニオンは敵の上を飛び、敵を追尾する小さなソウルフレイムを発射する
+			'''
+	}
+
+	HellSoulRifle: {
+		DisplayName: ソウルブラスター
+		Tooltip: 敵を貫通するソウルバレットを複数発射する
+	}
+
+	HellSoulSword: {
+		DisplayName: インファーナルブレード
+		Tooltip: 攻撃時に少し経ってから敵を追尾する、ソウルフレイムを召喚する
+	}
+
+	IceGrenade: {
+		DisplayName: 氷のグレネード
+		Tooltip: 霜焼けを与える
+	}
+
+	IceSentry: {
+		DisplayName: 氷の女王の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵にフロストボルトを発射して攻撃する氷のセントリーを召喚する
+			'''
+	}
+
+	IceStaff: {
+		DisplayName: 氷柱の杖
+		Tooltip: 氷柱を連射する
+	}
+
+	IceStaff2: {
+		DisplayName: 氷柱の短杖
+		Tooltip:
+			'''
+			左クリックで氷柱を連射する
+			右クリックでマナを大きく消費して、回転する大きな氷柱を発射する
+			大きな氷柱は地形に当たると跳ね返り、敵を4体貫通するが、速度が遅く、
+			敵に当たるたびに速度が低下する
+			'''
+	}
+
+	JungleRepeater: {
+		DisplayName: 苔の機械弓
+		Tooltip: 「少し古くて手入れが行き届いていないように見えるが、まだ使えるはずだ」
+	}
+
+	JungleSentry: {
+		DisplayName: ジャングルの木の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			ソーンボールをばら撒いて攻撃するジャングルの木を召喚する
+
+			'''
+	}
+
+	LightDarkSword: {
+		DisplayName: イクイノックス
+		Tooltip:
+			'''
+			左クリックで光のエッセンスを放つ
+			右クリックで、大きな闇のオーラを放ち、攻撃が最初に当たった敵に闇の爆発で追撃する
+			「万物はこうあるべきだ。完璧なバランスだ」
+			'''
+	}
+
+	LizardFlame: {
+		DisplayName: リザードフレイマー
+		Tooltip:
+			'''
+			地形に当たると曲がり、水の影響も受けない超高温の炎を発射する
+			弾薬としてジェルを使用する
+			敵の防御力を20無視する
+			'''
+	}
+
+	LizardMinion: {
+		DisplayName: リザードのガーディアンの杖
+		Tooltip:
+			'''
+			共に戦う寺院のガーディアンを召喚する
+			ミニオンは敵の周りを飛び回り、敵を貫通するレーザーを発射する
+			'''
+	}
+
+	LizardSpell: {
+		DisplayName: リザードのフレイムバーストの書
+		Tooltip: 地形に当たると跳ね返るファイアボールを召喚する
+	}
+
+	LizardSpinner: {
+		DisplayName: リザードのソーブレード
+		Tooltip:
+			'''
+			回転するソーブレードを投げ、その場にとどまり、触れた敵にダメージを与える
+			一度に6枚まで投げられ、右クリックで全てのソーブレードを消滅させる
+			'''
+	}
+
+	LunarNebulaStaff: {
+		DisplayName: ネビュラストーム
+		Tooltip:
+			'''
+			弾を発射し、カーソルの位置に到達するか、地形に当たると
+			敵を追尾する弾に分裂する
+			分裂した弾は地形を貫通するが、視線が通っている場合にのみ敵を追尾する
+			'''
+	}
+
+	LunarPredictorBrain: {
+		DisplayName: 預言者の脳
+		Tooltip: カーソルに向かって突進するネビュラの弾を召喚する
+	}
+
+	LunarSelenianBlade: {
+		DisplayName: セレニアンブレード
+		Tooltip: 敵に当てるとその場で回転する
+	}
+
+	LunarSolarSpin: {
+		DisplayName: ブレイジングスター
+		Tooltip:
+			'''
+			回転させて攻撃し、自身が向いている方向にノックバックさせる
+			攻撃中に右クリックで敵の弾を短時間反射する
+			1秒のクールダウンがある
+			'''
+	}
+
+	LunarStardustSentry: {
+		DisplayName: スターインベーダーの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を追尾する小さなフローインベーダーを発射して攻撃するスターダストのセントリーを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	LunarStargazerLaser: {
+		DisplayName: スターゲイザーのコア
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵に貫通弾を連射して攻撃するスターダストポータルを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	LunarVortexLauncher: {
+		DisplayName: ボルテックスランチャー
+		Tooltip:
+			'''
+			ボルテックスロケットを複数発射する
+			そのうちの1発はカーソルに向かって飛び、速度が速く、ダメージが高い
+			'''
+	}
+
+	LunarVortexShotgun: {
+		DisplayName: ストームダイバーのショットガン
+		Tooltip:
+			'''
+			左クリックを押し続けるとチャージし、精度、速度、ダメージが強化される
+			最大までチャージするとさらに強化され、マスケット銃の弾丸をルミナイト弾に変換する
+			「伝説のストームダイバーから盗まれた」
+			'''
+	}
+
+	MagicArrow: {
+		DisplayName: 探求の矢
+		Tooltip:
+			'''
+			左クリックを押し続けると、カーソルに向かって飛び、範囲内の敵を追尾する
+			左クリックを離すと戻ってくる
+			「俺はメリー・ポピンズだ！」
+			'''
+	}
+
+	MechanicalRepeater: {
+		DisplayName: メカニカルリピーター
+		Tooltip:
+			'''
+			3点バーストで矢を発射する
+			初段のみ弾薬を消費
+			'''
+	}
+
+	MechanicalRifle: {
+		DisplayName: スーパーチャージライフル
+		Tooltip:
+			'''
+			左クリックを押し続けると、チャージする
+			マスケット銃の弾丸を高速弾に変換する
+			最大までチャージするとノックバックが2倍、ダメージが3倍、混乱を与え、
+			敵を貫通し、貫通してもダメージが減少しない弾丸に変換する
+			右クリックでズームアウト
+			'''
+	}
+
+	MechDestroyerFlail: {
+		DisplayName: ヴェポライザー
+		Tooltip: 振りまわしている間と射程限界でトゲを8本発射する
+	}
+
+	MechPrimeStaff: {
+		DisplayName: オブリタレイター
+		Tooltip: 当たった敵を追尾する骸骨を発射する
+	}
+
+	MechSawBlade: {
+		DisplayName: シュレッダー 
+		Tooltip:
+			'''
+			触れた敵を粉々に砕く
+			地面に残る火花を放つ
+			'''
+	}
+
+	MechTheSeeker: {
+		DisplayName: シーカー
+		Tooltip:
+			'''
+			右クリックを押し続けてる間、カーソルに追従するボルトを発射する
+			試作型のグレネードを使用する
+			試作型のグレネードは爆破技師から買える
+			'''
+	}
+
+	MeteorBow: {
+		DisplayName: スペースボウ
+		Tooltip:
+			'''
+			一度に矢を3本発射する
+			隕石の矢を使用するとさらに弾速が早くなる
+			'''
+	}
+
+	MeteorKnives: {
+		DisplayName: 宇宙の羽根のナイフ
+		Tooltip: 宇宙の羽根のナイフを数本投げる
+	}
+
+	MeteorSentry: {
+		DisplayName: スペースソーサーの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			下方にいる敵にレーザーを高速で発射して攻撃するソーサーを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	MeteorSpear: {
+		DisplayName: スペーススピア
+		Tooltip: 敵を攻撃すると、空から隕石の破片が降ってくる
+	}
+
+	MineDetonate: {
+		DisplayName: 粘着地雷の起爆装置
+		Tooltip:
+			'''
+			左クリックで粘着地雷を投げる
+			地雷は地形に張り付き、一度に最大で6個まで投げられる
+			右クリックで全ての地雷を起爆する
+			上入力と右クリックで地雷を解除できる
+			空中に飛び上がるのに使用でき、敵やタウンNPCにも効果がある
+			弾薬として粘着地雷を使用する
+			'''
+	}
+
+	MineDetonateC4: {
+		DisplayName: 梱包爆薬の起爆装置
+		Tooltip:
+			'''
+			左クリックで梱包爆薬を投げる
+			爆薬は地形に張り付き、一度に1個しか投げられない
+			右クリックで爆薬を起爆する
+			上入力と右クリックで爆薬を解除できる
+			敵味方問わず非常に高いダメージを与え、ブロックと壁を破壊できる大きな爆発を起こす
+			爆発させる際は、細心の注意を払うこと！
+			弾薬として梱包爆薬を使用する
+			'''
+	}
+
+	MoltenDagger: {
+		DisplayName: 地獄の短剣
+		Tooltip: 敵を素早く切り裂く
+	}
+
+	MoltenSeedLauncher: {
+		DisplayName: 燃える種のランチャー
+		Tooltip:
+			'''
+			種に火をつけて発射する
+			弾薬として種かダーツを使用する
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	MoltenSentry: {
+		DisplayName: 溶岩のオーブの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			地形に当たると跳ね返るファイアボールを発射して攻撃する溶岩のセントリーを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	MoltenSpell: {
+		DisplayName: マグマバースト
+		Tooltip: 敵か地形に当たると溶岩に分裂する球を召喚する
+	}
+
+	MossStingerGun: {
+		DisplayName: ホーネットスティング
+		Tooltip:
+			'''
+			毒針を高速で連射する
+			毒針は敵に刺さり、最大で15本スタックするデバフを与える
+			'''
+	}
+
+	MushroomBow: {
+		DisplayName: キノコの弓
+		Tooltip: 一度に矢を2本発射する
+	}
+
+	MushroomStaff: {
+		DisplayName: キノコの杖
+		Tooltip: 敵を貫通し、地形に当たると跳ね返るキノコを召喚する
+	}
+
+	MushroomSword: {
+		DisplayName: シュルーワード
+		Tooltip:
+			'''
+			敵を攻撃すると回転するキノコを召喚する
+			「キノコのそばに立っていられるわけじゃない」
+			'''
+	}
+
+	OceanGun: {
+		DisplayName: コーラルブラスター
+		Tooltip: 全ての弾丸を、水の影響を受けないが、重力の影響を受けるサンゴの破片に変換する
+	}
+
+	OceanSpell: {
+		DisplayName: タイダルブラスト
+		Tooltip: 敵か地形に当たると水しぶきが上がり、敵の防御力を一部無視する水の球を召喚する
+	}
+
+	OceanSword: {
+		DisplayName: ブレードオブシー
+		Tooltip: 攻撃時に水を放つ
+	}
+
+	PainSword: {
+		DisplayName: ペインギバー
+		Tooltip:
+			'''
+			「あなたは想像を絶する苦痛を乗り越えてこれを手に入れた。今度はその苦痛を敵に与える番だ。」
+			右クリックで敵の頭を殴ることもできる
+			インベントリで右クリックでダメージの種類を切り替える（オートポーズは無効にしてください）
+			'''
+	}
+
+	PainStaff: {
+		DisplayName: ペインブリンガーの杖
+		Tooltip:
+			'''
+			様々なパターンで複数の敵を追尾するペインスカルを召喚し、ダメージを与える
+			右クリックで敵の頭を殴ることもできる
+			インベントリで右クリックでダメージの種類を切り替える（オートポーズは無効にしてください）
+			'''
+	}
+
+	PizzaCutter: {
+		DisplayName: 電動ピザカッター
+		Tooltip:
+			'''
+			敵を攻撃すると、回転するピザカッターの刃を召喚する
+			この刃は敵の防御力を15無視し、近くの敵を追尾する
+			「一体どんなピザのために作られたんだ？」
+			'''
+	}
+
+	ProtoLauncher: {
+		DisplayName: 試作型のランチャー
+		Tooltip:
+			'''
+			敵か地形に当たると爆発するグレネードを発射する
+			グレネードが爆発時、破片をばら撒くことがある
+			試作型のグレネードを使用する
+			試作型のグレネードは爆破技師から買える
+			'''
+	}
+
+	QuackStaff: {
+		DisplayName: ダックフラクチャー
+		Tooltip:
+			'''
+			小さなアヒルを3羽召喚する
+			「ガーガー鳴きやすいかもしれない」
+			'''
+	}
+
+	QuackStaffSuper: {
+		DisplayName: ダッククワクチャー
+		Tooltip:
+			'''
+			月のエネルギーで強化された小さなアヒルを素早く召喚する
+			アヒルには4種類の異なる効果がある
+			「驚くほどよく鳴く」
+			'''
+	}
+
+	RoseSickle: {
+		DisplayName: クレセントローズ
+		Tooltip:
+			'''
+			左クリックで鎌を振り回し、防御力を15無視する強力なオーラを発生させる
+			右クリックで弾薬を消費してライフルを発射する
+			空中だと、上か下を押していないと強い反動がある
+			マスケット銃の弾丸をローズバレットに変換する
+			敵に近接攻撃を10回当てると、次の弾丸が特殊なローズバレットに変換される
+			この弾丸はダメージが3倍で、バラの花びらを与える
+			「高威力の狙撃鎌で、敵を塵に変えろ」
+			'''
+	}
+
+	SandstoneGun: {
+		DisplayName: 古代のリボルバー
+		Tooltip:
+			'''
+			6点バースト
+			初段のみ弾薬を消費
+			連射の間にリロードする必要がある
+			'''
+	}
+
+	SantankMinion: {
+		DisplayName: サンタのコマンドスタッフ
+		Tooltip:
+			'''
+			共に戦う飛行するサンタンクを召喚する
+			サンタンクは敵に向かい、防御力を12無視する弾丸を高速で発射し、
+			敵を追尾するミサイルも発射する
+			「あらゆる悪党を追い詰める」
+			'''
+	}
+
+	SeekerBolt: {
+		DisplayName: ハンターブレード
+		Tooltip: 射程内の敵を追尾する大型の投擲刃
+	}
+
+	ShroomiteFury: {
+		DisplayName: シュルーマイトフューリー
+		Tooltip: 地形に当たると弾み、敵を貫通する矢を追加で2本発射する
+	}
+
+	ShroomiteLauncher: {
+		DisplayName: シュルーマイトのハイブリッドランチャー
+		Tooltip:
+			'''
+			シュルーマイトロケットを発射する
+			右クリックでシュルーマイトグレネードを発射する
+			どちらも爆発時、キノコをばら撒く
+			'''
+	}
+
+	ShroomiteSharpshooter: {
+		DisplayName: シュルーマイトのシャープシューター
+		Tooltip:
+			'''
+			50発撃ち続けるとダメージ、速度、ノックバックが強化される
+			撃つのを止めるとカウントがリセットされる
+			右クリックでズームアウト
+			33%の確率で弾丸を消費しない
+			'''
+	}
+
+	SludgeLauncher: {
+		DisplayName: 猛毒汚泥の大砲
+		Tooltip:
+			'''
+			猛毒汚泥を発射し、敵か地形に当たると小さな汚泥の塊に分裂する
+			小さな汚泥の塊は地形に張り付き、触れた敵にダメージを与える
+			有毒汚泥を与え、ライフを徐々に減少させ、移動速度を低下させる
+			弾薬としてジェルを使用する
+			'''
+	}
+
+	SludgeVenomLauncher: {
+		DisplayName: 酸性汚泥の大砲
+		Tooltip:
+			'''
+			酸性汚泥を発射し、敵か地形に当たると小さな汚泥の塊に分裂する
+			小さな汚泥の塊は地形に張り付き、触れた敵にダメージを与える
+			酸性汚泥を与え、ライフを徐々に減少させ、移動速度を低下させる
+			弾薬としてジェルを使用する
+			'''
+	}
+
+	SoulStaff: {
+		DisplayName: ソウルストーム
+		Tooltip: カーソルの周囲にダメージを与える魂を3つ召喚する
+	}
+
+	SpaceRockGlobe: {
+		DisplayName: アステロイドの球
+		Tooltip: カーソルの位置に浮遊し、近くの敵に破片を発射するアステロイドの岩を召喚する
+	}
+
+	SpaceRockGun: {
+		DisplayName: アステロイドブラスター
+		Tooltip:
+			'''
+			拡散しやすい弾丸を2発発射する
+			撃ち続けていると拡散しにくくなっていく
+			50%の確率で弾丸を消費しない
+			'''
+	}
+
+	SpaceRockMinion: {
+		DisplayName: アステロイドの杖
+		Tooltip:
+			'''
+			共に戦う小さなアステロイドを召喚する
+			ミニオンは敵に突撃する
+			'''
+	}
+
+	SpaceRockSword: {
+		DisplayName: アステロイドの剣
+		Tooltip:
+			'''
+			空からアステロイドの岩が落ちてくる
+			攻撃するごとに大きなオーラを発生させる
+			'''
+	}
+
+	SpaceRockWhip: {
+		DisplayName: アステロイドベルト
+		Tooltip:
+			'''
+			召喚タグダメージ 8
+			召喚タグクリティカル率 18%
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ミニオンの攻撃が当たると、アステロイドの破片が降ってくる
+			'''
+	}
+
+	SpectreDagger: {
+		DisplayName: スペクターダガー
+		Tooltip:
+			'''
+			魔法のダガーを自由に動かせる
+			一度に5本のダガーを動かせる
+			'''
+	}
+
+	SpectreHose: {
+		DisplayName: スペクターセプター
+		Tooltip:
+			'''
+			スペクタースカルを高速で発射する
+			スペクタースカルは敵を2体貫通し、徐々に速度が上昇する
+			速度が速いほどダメージが増加する
+			'''
+	}
+
+	SpectreStaff2: {
+		DisplayName: スペクターアーティファクト
+		Tooltip:
+			'''
+			自身の周囲を様々な速度で回るスペクターオーブを召喚する
+			右クリックでオーブをカーソルに向けて発射する
+			'''
+	}
+
+	SpiritStaff: {
+		DisplayName: フローズンスピリットの杖
+		Tooltip:
+			'''
+			共に戦うフローズンスピリットを召喚する
+			ミニオンは敵の上を飛び、一度に氷の破片を3つ発射する
+			'''
+	}
+
+	SpookyStaff: {
+		DisplayName: 不気味な杖
+		Tooltip: 空から敵を追尾する火の雨を降らせる
+	}
+
+	StickyBomb: {
+		DisplayName: スパイクボム
+		Tooltip:
+			'''
+			爆発時、トゲをばら撒く
+			ブロックと壁を破壊しない
+			'''
+	}
+
+	StickyLauncher: {
+		DisplayName: スパイクボムランチャー
+		Tooltip:
+			'''
+			地形に張り付くスパイクボムを最大で16個発射し、17個目のを発射すると古い爆弾が爆発する
+			右クリックでカーソル付近の爆弾を起爆し、右クリックを押し続けると全ての爆弾を起爆する
+			カーソルの位置によって爆弾の飛距離が変化する
+			空中に飛び上がるのに使用でき、敵やタウンNPCにも効果がある
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	StoneShot: {
+		DisplayName: 小さな大岩
+		Tooltip: 敵に石を投げつける
+	}
+
+	StoneThrower: {
+		DisplayName: ストーンキャノン
+		Tooltip: 「不要な石を全て敵に撃ち込め」
+	}
+
+	StoneThrowerHard: {
+		DisplayName: メガストーンキャノン
+		Tooltip: 「より強力な石を発射する、改良されたストーンキャノン」
+	}
+
+	StoneThrowerSuper: {
+		DisplayName: 燃えるストーンキャノン
+		Tooltip: 石を過熱して燃え盛る大岩に変換する
+	}
+
+	StoneThrowerSuperLunar: {
+		DisplayName: 宇宙のストーンキャノン
+		Tooltip: 宇宙の断片の力であなたの石を活性化させる
+	}
+
+	StormKnife: {
+		DisplayName: 電撃のナイフ
+		Tooltip: 当たった敵に強力な雷撃で追撃する
+	}
+
+	StormLauncher: {
+		DisplayName: オーバーロードライトニングランチャー 
+		Tooltip:
+			'''
+			電撃の爆発を起こすオーバーロードグレネードを発射する
+			弾薬としてロケットを使用する
+			'''
+	}
+
+	StormSentryStaff: {
+		DisplayName: オーバーロードスタッフ
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に弾を3つ発射して攻撃するスキャンドローンを召喚する
+			右クリックで敵を手動でターゲットできる
+			'''
+	}
+
+	StormStaff: {
+		DisplayName: ライトニングセプター
+		Tooltip:
+			'''
+			敵に当たると他の3体の敵に跳ね返る電撃を発射する
+			地形に当たると近くの敵に飛び移るが、他の敵に跳ね返らなくなる
+			'''
+	}
+
+	SuperDartLauncher: {
+		DisplayName: 火星のダーツランチャー
+		Tooltip:
+			'''
+			ダーツを素早く発射する
+			50%の確率でダーツを消費しない
+			'''
+	}
+
+	TheSickle: {
+		DisplayName: ナインライブズ
+		Tooltip:
+			'''
+			回転させて攻撃し、自身が向いている方向にノックバックさせる
+			右クリックで鎌を2つ投げる
+			攻撃中に右クリックで敵の弾を短時間反射する
+			2.5秒のクールダウンがある
+			死神のリストのボーナスが増加する
+			「拾え。拾え。」
+			'''
+	}
+
+	TheScythe: {
+		DisplayName: ラストチャンス
+		Tooltip:
+			'''
+			回転させて攻撃し、自身が向いている方向にノックバックさせる
+			右クリックで鎌を2つ投げる
+			同時に2セット投げられる
+			攻撃中に右クリックで敵の弾を短時間反射する
+			1.5秒のクールダウンがある
+			死神のリストのボーナスが増加する
+			「これが最後のチャンスだ」
+			'''
+	}
+
+	ThrowingKnifeSilver: {
+		DisplayName: 銀の投げナイフ
+		Tooltip: 地形に当たると跳ね返る
+	}
+
+	ThrowingKnifeTungsten: {
+		DisplayName: タングステンの投げナイフ
+		Tooltip: 地形に当たると跳ね返る
+	}
+
+	ThrowingKnifeBouncy: {
+		DisplayName: 弾む投げナイフ
+		Tooltip: よく弾む
+	}
+
+	TombStaff: {
+		DisplayName: 墓石の杖
+		Tooltip:
+			'''
+			地形に当たると跳ね返る魔法の墓石を召喚する
+			墓石が壊れると小さな幽霊が出現する
+			'''
+	}
+
+	TommyGun: {
+		DisplayName: スノーマンのトミーガン
+		Tooltip:
+			'''
+			左右にのみ発射できる
+			上/下入力で上下をそれぞれ45度の角度で狙う
+			「この武器があれば、俺は本物のギャングスターだ」
+			'''
+	}
+
+	TurtleShellWeapon: {
+		DisplayName: 巨大な亀の甲羅
+		Tooltip:
+			'''
+			地形に当たると跳ね返る甲羅を投げる
+			敵を攻撃している間、防御力が増加する
+			「これはイタリアの配管工のことではない」
+			'''
+	}
+
+	TurtleSpear: {
+		DisplayName: 亀の槍
+		Tooltip:
+			'''
+			攻撃時、槍の先端が少し伸びる
+			敵を攻撃すると、防御力が増加する
+			'''
+	}
+
+	TurtleYoyo: {
+		DisplayName: スピニングトータス
+		Tooltip:
+			'''
+			攻撃中、小さなヨーヨーを8つ放つ
+			敵を直接攻撃すると、防御力が増加する
+			'''
+	}
+
+	VortexiaWeapon: {
+		DisplayName: ボルテクシア
+		Tooltip:
+			'''
+			渦を召喚し、そこからさらに小さな渦を召喚する
+			小さな渦は敵を追尾する
+			「失われた時代の遺物」
+			'''
+	}
+
+	WebStaff: {
+		DisplayName: ウェブスタッフ
+		Tooltip: 地形に張り付く糸の塊を発射する
+	}
+
+	WebWhip: {
+		DisplayName: スパイダーウィップ 
+		Tooltip:
+			'''
+			召喚タグダメージ 3
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ミニオンの攻撃が当たると、その敵の移動速度が低下することがある
+			'''
+	}
+
+	WoodCrossbow: {
+		DisplayName: 木のクロスボウ
+		Tooltip:
+			'''
+			全ての矢を敵を貫通するクロスボウボルトに変換する
+			「遅いが強力だ」
+			'''
+	}
+
+	WoodPointyStick: {
+		DisplayName: 先がとがった木の棒
+		Tooltip:
+			'''
+			攻撃時に鋭い葉を飛ばす
+			「棒で突いてみて」
+			'''
+	}
+
+	WyvernBow: {
+		DisplayName: ワイバーンの弓
+		Tooltip:
+			'''
+			矢を均等に3本放つ
+			全ての矢の速度が上昇する
+			'''
+	}
+
+	BabyDerpBannerItem: {
+		DisplayName: ベビーダープリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ベビーダープリング？！ この怪物め！
+	}
+
+	FrozenEyeBannerItem: {
+		DisplayName: フローズンアイフィッシュのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：フローズンアイフィッシュ
+	}
+
+	FrozenSoulBannerItem: {
+		DisplayName: フローズンスピリットのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：フローズンスピリット
+	}
+
+	GladiatorMiniBossBannerItem: {
+		DisplayName: 倒れた戦士のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：倒れた戦士
+	}
+
+	GolemMinionBannerItem: {
+		DisplayName: 寺院のガーディアンのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：寺院のガーディアン
+	}
+
+	GolemSentryBannerItem: {
+		DisplayName: リザードの炎の罠のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：リザードの炎の罠
+	}
+
+	GraniteMiniBossBannerItem: {
+		DisplayName: 御影石の波打つコアのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：御影石の波打つコア
+	}
+
+	HellMiniBossBannerItem: {
+		DisplayName: ソウルコールドロンのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ソウルコールドロン
+	}
+
+	HellSoulBannerItem: {
+		DisplayName: ハートレスソウルのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ハートレスソウル
+	}
+
+	IceCoreBannerItem: {
+		DisplayName: 凍てつく雪の結晶のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：凍てつく雪の結晶
+	}
+
+	MeteorDropperBannerItem: {
+		DisplayName: メテオボンバーのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：メテオボンバー
+	}
+
+	MoonDerpBannerItem: {
+		DisplayName: ムーンリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ムーンリング
+	}
+
+	MushroomMiniBossBannerItem: {
+		DisplayName: アングリーマッシュルームのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：アングリーマッシュルーム
+	}
+
+	NebulaDerpBannerItem: {
+		DisplayName: ブレインリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ブレインリング
+	}
+
+	SandCoreBannerItem: {
+		DisplayName: デューンブラスターのバナー
+		Tooltip: Ne以下のモンスターに対してボーナスを得る：デューンブラスター
+	}
+
+	ScanDroneBannerItem: {
+		DisplayName: スキャンドローンのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：スキャンドローン
+	}
+
+	SolarDerpBannerItem: {
+		DisplayName: ブレイズリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ブレイズリング
+	}
+
+	SpaceRockHeadBannerItem: {
+		DisplayName: アステロイドオービターのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：アステロイドオービター
+	}
+
+	SpaceRockHeadLargeBannerItem: {
+		DisplayName: アステロイドチャージャーのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：アステロイドチャージャー
+	}
+
+	StardustDerpBannerItem: {
+		DisplayName: スターリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：スターリングとそのミニオン
+	}
+
+	StormDerpBannerItem: {
+		DisplayName: ストームリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ストームリング
+	}
+
+	VineDerpBannerItem: {
+		DisplayName: 迷彩ダープリングのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：迷彩ダープリング
+	}
+
+	VortCannonBannerItem: {
+		DisplayName: ボルテキシアンキャノンのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ボルテキシアンキャノン
+	}
+
+	TheClaySlimeBannerItem: {
+		DisplayName: クレイスライムのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：クレイスライム
+	}
+
+	ThePainSlimeBannerItem: {
+		DisplayName: ペインスライムのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ペインスライム
+	}
+
+	SnowmanPizzaBannerItem: {
+		DisplayName: ピザ配達のスノーマンのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ピザ配達のスノーマン
+	}
+
+	SnowmanBombBannerItem: {
+		DisplayName: スノーマンボンバーのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：スノーマンボンバー
+	}
+
+	SantaShotgun: {
+		DisplayName: サンタのブームスティック
+		Tooltip:
+			'''
+			攻撃すると爆発し、前方近くの敵にダメージを与える
+			左クリックで2回撃ち、爆発が2回起きる
+			右クリックでより大きく、強力で、拡散する攻撃を行う
+			空中で右クリックで攻撃すると反動で飛ばされる
+			'''
+	}
+
+	SoulDeathPickup: {
+		DisplayName: 刈り取った魂
+		Tooltip: 拾うとダメージとクリティカル率が強化される
+	}
+
+	DeathsList: {
+		DisplayName: 死神のリスト
+		Tooltip:
+			'''
+			敵を倒すと魂をドロップし、拾うことができ、最大で9個の魂を所持できる
+			ボスを攻撃すると低確率で魂をドロップする
+			魂1個に付き、ダメージが2%増加し、クリティカル率が1%上昇する
+			9秒内に魂を拾わないと魂が逃げ始める
+			魂を拾うとカウントダウンがリセットされる
+			'''
+	}
+
+	MusicBoxAridItem: {
+		DisplayName: オルゴール (エンシェントハスク)
+		Tooltip: ""
+	}
+
+	MusicBoxStormItem: {
+		DisplayName: オルゴール (オーバーロードスキャンドローン)
+		Tooltip: ""
+	}
+
+	MusicBoxUltimateItem: {
+		DisplayName: オルゴール (ペインブリンガー)
+		Tooltip: ""
+	}
+
+	MusicBoxUltimateItem2: {
+		DisplayName: オルゴール (ペインブリンガー - 絶望)
+		Tooltip: ""
+	}
+
+	PainMusicBoxitem: {
+		DisplayName: オルゴール (アルティメットペイン)
+		Tooltip: 「アルティメットペインに耐えた者の証」
+	}
+
+	ShockBand: {
+		DisplayName: 嵐のお守り
+		Tooltip: クリティカルが出ると近くの敵にも電撃で攻撃する
+	}
+
+	ShockQuiver: {
+		DisplayName: 電撃の矢筒
+		Tooltip:
+			'''
+			矢のスピードとダメージが10%増加
+			20%の確率で矢を消費しない
+			クリティカルが出ると近くの敵にも電撃で攻撃する
+			'''
+	}
+
+	ShockEye: {
+		DisplayName: 嵐の目
+		Tooltip:
+			'''
+			運が大きく増加
+			クリティカル時のダメージが12%増加
+			クリティカルが出ると近くの敵にも電撃で攻撃する
+			'''
+	}
+
+	ZephyrFeather: {
+		DisplayName: ゼファーの羽根
+		Tooltip: 永久に移動速度と加速度が10%上昇
+	}
+
+	CleansingHeart: {
+		DisplayName: 浄化のお守り
+		Tooltip:
+			'''
+			全ての永続するシマーの強化と手作りパンの効果を削除し、アイテムが戻ってくる
+			現在消費したアイテムの効果がなくなる
+			'''
+	}
+
+	SpectreStarPickup: {
+		DisplayName: スペクトルスター 
+		Tooltip: 拾うとマナが100回復し、スペクターの星の強化を5秒間得る
+	}
+
+	GalacticBat: {
+		DisplayName: ギャラクティックベースボーラー
+		Tooltip:
+			'''
+			攻撃が敵に当たるとチャージが1増加し、チャージは最大で10まで溜められる
+			チャージが最大まで溜まると右クリックで必ずクリティカルし、敵の防御力を15無視する強力な攻撃を行う
+			さらに破損を5秒間与え、被ダメージを10%増加させ、ライフを徐々に減少させる
+			敵に当たらないと再度チャージする必要はない
+			「ルールは…破られるためにある！」
+			'''
+	}
+
+	IOUBannerItem: {
+		DisplayName: IOUのバナー
+		Tooltip:
+			'''
+			特定の素材と組み合わせると、このModのあらゆるバナーに変換できる
+			バナーシステムが変更されたため、古いバナーが全て削除され、
+			全てのバナーが同じタイルIDを共有する新しいシステムに置き換えられた
+			そのため、古いバナーを直接1対1で変換することはできない
+			'''
+	}
+
+	TouchGrassSeed: {
+		DisplayName: 特別な草の種
+		Tooltip:
+			'''
+			使用するとこのワールドでタッチグラスモードがオンになる
+			このモードでは、5分内に草ブロックの上に立たないと、様々なペナルティが課せられる
+			代わりに草の上に立つと、多くのバフが得られる
+			Shiftを押しながら操作すると、効果を確認できる
+			この操作は元に戻せない為、自己責任で使うこと！
+			'''
+	}
+
+	ABladeofGrass: {
+		DisplayName: 草の剣
+		Tooltip:
+			'''
+			文字通りそれだけ、何を期待していたの？
+			本物の草に触れたことにはならない
+			'''
+	}
+
+	GlassSword: {
+		DisplayName: ガラスの剣
+		Tooltip:
+			'''
+			敵を攻撃すると、壊れて持続ダメージを与えることがある
+			壊れた後は修復できる
+			「これはあまり良い考えとは思えない…」
+			'''
+	}
+
+	GlassSwordBroken: {
+		DisplayName: 壊れたガラスの剣
+		Tooltip: 「ガラスの剣に何を期待していたんだ？」
+	}
+
+	GlassBow: {
+		DisplayName: ガラスの弓
+		Tooltip:
+			'''
+			攻撃時、壊れて通常よりダメージが高い破片を発射することがある
+			壊れた後は修復できる
+			「なぜこんなことをするんだ？」
+			'''
+	}
+
+	GlassBowBroken: {
+		DisplayName: 壊れたガラスの弓
+		Tooltip: 「ガラスの弓に何を期待していたんだ？」
+	}
+
+	GlassStaff: {
+		DisplayName: ガラスの杖
+		Tooltip:
+			'''
+			攻撃時、壊れて破片を発射することがある
+			壊れた後は修復できる
+			「一体何が問題になるというのか？」
+			'''
+	}
+
+	GlassStaffBroken: {
+		DisplayName: 壊れたガラスの杖
+		Tooltip: 「ガラスの杖に何を期待していたんだ？」
+	}
+
+	GlassBHelmet: {
+		DisplayName: ガラスの兜
+		Tooltip:
+			'''
+			ダメージが6%増加
+			ダメージを受けると壊れて、敵にダメージを与え、破片が刺さる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassChestplate: {
+		DisplayName: ガラスの胸当て
+		Tooltip:
+			'''
+			ダメージが8%増加
+			ダメージを受けると壊れて、敵にダメージを与え、破片が刺さる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassGreaves: {
+		DisplayName: ガラスのすね当て
+		Tooltip:
+			'''
+			ダメージが6%増加
+			ダメージを受けると壊れて、敵にダメージを与え、破片が刺さる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassAxe: {
+		DisplayName: ガラスの斧
+		Tooltip:
+			'''
+			木を伐採すると、壊れて破片を放つことがある
+			敵を攻撃した場合は必ず壊れる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassHammer: {
+		DisplayName: ガラスのハンマー
+		Tooltip:
+			'''
+			壁を破壊すると、壊れて破片を放つことがある
+			敵を攻撃した場合は必ず壊れる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassPick: {
+		DisplayName: ガラスのつるはし
+		Tooltip:
+			'''
+			ブロックを採掘すると、壊れて破片を放つことがある
+			敵を攻撃した場合は必ず壊れる
+			壊れた後は修復できる
+			'''
+	}
+
+	GlassHandle: {
+		DisplayName: 壊れたガラスの取っ手
+		Tooltip: 「ガラスの道具に何を期待していたんだ？」
+	}
+
+	GlassArmourShard: {
+		DisplayName: 壊れたガラスの破片
+		Tooltip: 「ガラスの防具に何を期待していたんだ？」
+	}
+
+	ShotgunBlaster: {
+		DisplayName: オーバークロックされたショットガン
+		Tooltip:
+			'''
+			撃ち続けると不安定になっていく
+			「これは安全そうにない」
+			'''
+	}
+
+	VoidSuitcase: {
+		DisplayName: 狡猾なスーツケース
+		Tooltip:
+			'''
+			左クリックを長押しするとチャージし、チャージするほど大きく、残る時間が延び、ダメージが増加する力場を放つ
+			同時に放てる力場は1つだけで、新たに力場を放つと前の力場が消滅する
+			放つには最低で60マナが必要
+			「たっぷり遊んであげる！へっ！」
+			'''
+	}
+
+	PainTicket: {
+		DisplayName: ペインチケット
+		Tooltip:
+			'''
+			右クリックでガチャを引く
+			90分の1の確率で、[i:StormDiversMod/TheGoldenPainMask] 伝説の金のペインマスクを50%の確率で入手する
+			天井は90で、50%の確率で入手できなかった場合、通常のペインマスクを入手するが、
+			次の金のペインマスクは必ず入手できる
+			それでもダメだった場合、10分の1の確率で少し珍しいアイテムを入手する
+			天井は10で、
+			上記全てに失敗した場合は、一般的なアイテムを入手する
+			-- 天井の数 --
+			金のペイン
+			保証
+			少し珍しいアイテム
+			'''
+	}
+
+	TheGoldenPainMask: {
+		DisplayName: 金のペインマスク
+		Tooltip: ""
+	}
+
+	PainCoin: {
+		DisplayName: ペイントークン
+		Tooltip:
+			'''
+			ペインチケットの作成に使う
+			-- 現在のクールダウン --
+			敵のドロップ
+			敵のドロップのクールダウン
+			ボスのドロップ
+			ボスのドロップのクールダウン
+			'''
+	}
+}
+
+NPCs: {
+	BabyDerp.DisplayName: ベビーダープリング
+
+	AridBoss: {
+		DisplayName: エンシェントハスク
+
+		BossChecklistIntegration: {
+			SpawnInfo: 砂漠で[i:StormDiversMod/AridBossSummon] を使う
+			DespawnMessage: エンシェントハスクは砂漠の奥深くへと戻っていった...
+		}
+	}
+
+	AridBossMinion.DisplayName: エンシェントスピリット
+
+	StormBoss: {
+		DisplayName: オーバーロードスキャンドローン
+
+		BossChecklistIntegration: {
+			SpawnInfo: メカボスを全て倒した後、[i:StormDiversMod/StormBossSummoner] を使う
+			DespawnMessage: オーバーロードスキャンドローンは故郷の惑星へ無事に帰還した
+		}
+	}
+
+	TheUltimateBoss: {
+		DisplayName: ペインブリンガー
+
+		BossChecklistIntegration: {
+			SpawnInfo:
+				'''
+				ムーンロードを倒した後、[i:StormDiversMod/UltimateBossSummoner] を使う
+				[i:StormDiversMod/UltimateBossSummoner] は[i:StormDiversMod/ThePainMask] か[i:StormDiversMod/TheClaymanMask] がインベントリ内にあるなら、
+				全ての敵がドロップする
+				マスクがなくてもムーンロードを倒した後のクレイスライムとペインスライムがドロップする
+				'''
+			DespawnMessage: 苦痛に耐えられなかったんだね？
+		}
+	}
+
+	DerpMimic.DisplayName: 全く普通のダープリング
+	FrozenEye.DisplayName: フローズンアイフィッシュ
+	FrozenSoul.DisplayName: フローズンスピリット
+	GladiatorMiniBoss.DisplayName: 倒れた戦士
+	GolemMinion.DisplayName: 寺院のガーディアン
+	GolemSentry.DisplayName: リザードの炎の罠
+	GraniteMiniBoss.DisplayName: 御影石の波打つコア
+	HellMiniBoss.DisplayName: ソウルコールドロン
+	HellMiniBossMinion.DisplayName: ソウルコールドロンのしもべ
+	HellSoul.DisplayName: ハートレスソウル
+	IceCore.DisplayName: 凍てつく雪の結晶
+	MeteorDropper.DisplayName: メテオボンバー
+	MoonDerp.DisplayName: ムーンリング
+	MushroomMiniBoss.DisplayName: アングリーマッシュルーム
+	NebulaDerp.DisplayName: ブレインリング
+	SandCore.DisplayName: デューンブラスター
+	ScanDrone.DisplayName: スキャンドローン
+	SolarDerp.DisplayName: ブレイズリング
+	SpaceRockHead.DisplayName: アステロイドオービター
+	SpaceRockHeadLarge.DisplayName: アステロイドチャージャー
+	StardustDerp.DisplayName: スターリング
+	StardustMiniDerp.DisplayName: スターリングのミニオン
+	StormDerp.DisplayName: ストームリング
+	VineDerp.DisplayName: 迷彩ダープリング
+	VortexCannon.DisplayName: ボルテキシアンキャノン
+	ThePainSlime.DisplayName: ペインスライム
+	TheClaySlime.DisplayName: クレイスライム
+	TheUltimateBossMinion.DisplayName: 苦痛の砕けた結晶
+	SuperPainDummy.DisplayName: スーパーペインダミー
+	SnowmanPizza.DisplayName: ピザ配達のスノーマン
+	SnowmanBomb.DisplayName: スノーマンボンバー
+	ThePainBoss.DisplayName: アルティメットペイン
+	HellSkull.DisplayName: 地獄のドクロ
+}
+
+Projectiles: {
+	AridBossFlameProj.DisplayName: エンシェントハスクの砂の炎
+	AridBossSandProj.DisplayName: エンシェントハスクの砂
+	AridBossShardProj.DisplayName: エンシェントハスクの欠片
+	DerplingEnemyShellProj.DisplayName: ダープリングの殻の破片
+	FrozenEyeProj.DisplayName: 小さな雪の結晶
+	FrozenSoulProj.DisplayName: 大きな雪の結晶
+	GladiatorMiniBossProj.DisplayName: 倒れた戦士のソード
+	GolemMinionProj.DisplayName: 寺院のガーディアンのレーザー
+	GraniteMiniBossProj.DisplayName: 御影石のボルト
+	HellMiniBossProj1.DisplayName: 地獄の魂のボルト
+	HellMiniBossProj2.DisplayName: 地獄の魂の大きな炎
+	HellSoulEnemyProj.DisplayName: 赤い骸骨の魂
+	IceCoreProj.DisplayName: 氷のトゲ
+	MeteorDropperProj.DisplayName: 隕石の破片
+	MoonDerpBoltProj.DisplayName: ムーンリングボルト
+	MoonDerpEyeProj.DisplayName: ムーンリングの目
+	MushroomMiniBossProj.DisplayName: 跳ね返るキノコ
+	NebulaFlame.DisplayName: ネビュラフレイム
+	SandCoreProj.DisplayName: 禁断の砂
+	ScanDroneProj.DisplayName: スキャンドローンボルト
+	SolarDerpProj.DisplayName: ソーラーファイアボール
+	SpaceHeadProj.DisplayName: アステロイドベルト
+	SpaceHeadProj2.DisplayName: アステロイドベルト
+	StormBossBolt.DisplayName: オーバーロードスキャンドローンボルト
+	StormBossBomb.DisplayName: オーバーロードスキャンドローンボム
+	StormBossLightning.DisplayName: オーバーロードスキャンドローンの電撃
+	StormBossLightningPortal.DisplayName: オーバーロードスキャンドローンポータル
+	StormBossMine.DisplayName: オーバーロードスキャンドローンの地雷
+	StormBossMineLarge.DisplayName: オーバーロードスキャンドローンの大きな地雷
+	StormDerpProj.DisplayName: ボルテックススパイク
+	TheUltimateBossProj.DisplayName: ペインスカル
+	TheUltimateBossProjExplode.DisplayName: 苦痛の爆発
+	TheUltimateBossProjCharge.DisplayName: 突進するペインスカル
+	TheUltimateBossProjGravity.DisplayName: 重いペインスカル
+	TheUltimateBossProjHome.DisplayName: 追尾するペインスカル
+	TheUltimateBossProjShard.DisplayName: 苦痛の破片
+	TheUltimateBossProjLarge.DisplayName: 大きなペインスカル
+	VortCannonProj.DisplayName: ボルテキシアンロケット
+	TheClaySlimeProj.DisplayName: クレイスライムのジェル
+	ThePainSlimeProj.DisplayName: ペインスライムのジェル
+	AsteroidArrowProj.DisplayName: アステロイドの矢
+	AsteroidBulletProj.DisplayName: アステロイドの弾丸
+	BouncyArrowProj.DisplayName: 弾む矢
+	ChaosArrowProj.DisplayName: 混沌の矢
+	CoralBulletProj.DisplayName: サンゴの弾丸
+	CrackedShotProj.DisplayName: ひび割れた弾丸
+	CrackedShotProj2.DisplayName: ひび割れた弾丸の破片
+	DesertArrowProj.DisplayName: 禁断の矢
+	DesertBulletProj.DisplayName: 禁断の弾丸
+	DualArrowProj.DisplayName: 束にした矢
+	FrostArrowProj.DisplayName: 氷の矢
+	FrostBulletProj.DisplayName: 氷の弾丸
+	FrostBulletProj2.DisplayName: 氷の弾丸2
+	IronShotProj.DisplayName: 鉄の弾丸
+	LeadShotProj.DisplayName: 鉛の弾丸
+	MeteorArrowProj.DisplayName: 隕石の矢
+	ProtoGrenadeProj.DisplayName: 試作型のグレネード
+	ProtoGrenadeProj2.DisplayName: グレネードの破片
+	ShroomArrowProj.DisplayName: シュルーマイトの矢
+	ShroomBulletProj.DisplayName: シュルーマイトの弾丸
+	GemAmethystBulletProj.DisplayName: アメジストの弾丸
+	GemTopazBulletProj.DisplayName: トパーズの弾丸
+	GemSapphireBulletProj.DisplayName: サファイアの弾丸
+	GemEmeraldBulletProj.DisplayName: エメラルドの弾丸
+	GemRubyBulletProj.DisplayName: ルビーの弾丸
+	GemAmberBulletProj.DisplayName: コハクの弾丸
+	GemDiamondBulletProj.DisplayName: ダイヤモンドの弾丸
+	AncientArmourProj.DisplayName: アライドの爆発
+	AncientFlameProj.DisplayName: 燃え盛る砂
+	AncientKnivesProj.DisplayName: アリッドナイフ
+	AncientStaffProj.DisplayName: 砂の爆発
+	BeetleGloveProj.DisplayName: 小さな甲虫
+	BeetleProj.DisplayName: 甲虫
+	BeetleShellProj.DisplayName: 巨大な甲虫の殻
+	BeetleSpearProj.DisplayName: 甲虫の槍
+	BeetleYoyoProj.DisplayName: ソーラックス
+	BetsyFlameProj.DisplayName: ベッツイの炎
+	BloodBootProj.DisplayName: 血痕
+	BloodDropProj.DisplayName: 血の滴
+	BloodGrenadeProj.DisplayName: ブラッディグレネード
+	BloodSpearProj.DisplayName: ハートピアサー
+	BloodSwordProj.DisplayName: 血の剣の血
+	BloodyBulletProj.DisplayName: 血の弾丸
+	BloodyBulletProj2.DisplayName: 血の滴
+	BloodYoyoProj.DisplayName: ハートアタック
+	BloodYoyoProj2.DisplayName: ハートアタックの血痕
+	BoneAcProj.DisplayName: ダンジョンの目の骨
+	BoneBoomerangProj.DisplayName: フェムラン
+	CelestialShieldProj.DisplayName: 宇宙の守護者
+	ChloroStaffProj.DisplayName: クロロファイトの胞子
+	ChloroStaffProj2.DisplayName: クロロファイトの胞子
+	CrimsonAxeProj.DisplayName: 小さなクリムゾンアックス
+	CrimsonAxeProj2.DisplayName: 小さなクリムゾンアックス
+	CultistBowProj.DisplayName: 特殊な氷の矢
+	CultistBowProj2.DisplayName: 特殊な氷の矢のトゲ
+	CultistLazorProj.DisplayName: 狂気の崇拝者のレーザー
+	CultistSpearProj.DisplayName: 狂気の炎の槍のファイアボール
+	CultistSpearProj2.DisplayName: ファイアボールの爆発
+	CultistTomeProj.DisplayName: 狂気の古代の光
+	CursedHammerProj.DisplayName: 小さなカースドハンマー
+	CursedHammerProj2.DisplayName: 小さなカースドハンマー
+	DerpMagicProj.DisplayName: 魔法のダープリングの殻
+	DerpMagicProj2.DisplayName: 魔法のダープリングの殻の破片
+	DerpMeleeProj.DisplayName: 跳ね返るダープリングの殻の破片
+	DerpWaveProj.DisplayName: ダープリングの衝撃波
+	DesertArrowDust.DisplayName: 特殊な禁断の矢の砂
+	DesertBowProj.DisplayName: 特殊な禁断の矢
+	DesertJarProj.DisplayName: ファラオの骨壺の砂
+	DesertJarProj2.DisplayName: ファラオの骨壺の砂
+	DesertSpearProj.DisplayName: 禁断の槍
+	DesertSpearTipProj.DisplayName: 禁断の槍の砂
+	DesertSpellProj.DisplayName: 禁断の嵐の砂
+	DestroyerFlailProj.DisplayName: ヴェポライザー
+	DestroyerFlailProj2.DisplayName: ヴェポライザー
+	DestroyerFlailProj3.DisplayName: ヴェポライザーのトゲ
+	EnchantedSwordProj.DisplayName: 小さなエンチャントソード
+	EnchantedSwordProj2.DisplayName: 小さなエンチャントソード
+	ExplosionAridProj.DisplayName: アリッドの爆発
+	ExplosionDarkProj.DisplayName: 闇の爆発
+	ExplosionFrostProj.DisplayName: 霜の爆発
+	ExplosionGenericProj.DisplayName: 爆発
+	ExplosionHellSoulProj.DisplayName: 魂の爆発
+	ExplosionPainProj.DisplayName: ペインの爆発
+	ExplosionPainNofaceProj.DisplayName: 苦痛の爆発
+	ExplosionShroomiteProj.DisplayName: シュルーマイトの爆発
+	ExplosionVortexProj.DisplayName: ボルテックスの爆発
+	EyeStaffProj.DisplayName: 鋭い眼球
+	EyeSwordProj.DisplayName: アイソーの眼球
+	FlamingSeed.DisplayName: 燃える種
+	FrostAccessProj.DisplayName: 氷のトゲ
+	FrostCryoArmourProj.DisplayName: 氷の雲
+	FrostGrenadeProj.DisplayName: フロストランチャーのグレネード
+	FrostSpinProj.DisplayName: フローズンポールスター
+	FrostStarProj.DisplayName: 氷のフリスビー
+	Frostthrowerproj.DisplayName: 超低温ガス
+	GladiatorSpearProj.DisplayName: 剣闘士の剣槍
+	GladiatorSpearProj2.DisplayName: 剣闘士の剣槍
+	GladiatorStaffProj.DisplayName: ソードビーム
+	GraniteBulletProj.DisplayName: 御影石の弾丸
+	GraniteSpearProj.DisplayName: 御影石の槍
+	GraniteSpearProj2.DisplayName: 御影石の槍のオーブ
+	GraniteStaffProj.DisplayName: 御影石のオーブ
+	GraniteYoyoProj.DisplayName: サージ
+	HarpyArrowProj.DisplayName: 羽の矢
+	HarpyProj.DisplayName: 羽の短杖の羽
+	HarpyProj2.DisplayName: 羽の短杖の羽
+	HarpyYoyoProj.DisplayName: フェザースローワー
+	HellSoulArmourProj.DisplayName: インフェルナルストーム
+	HellSoulBowProj.DisplayName: ソウルアロー
+	HellSoulMagicProj.DisplayName: ソウルフレイム
+	HellSoulMagicProj2.DisplayName: ソウルフレイム
+	HellSoulRifleProj.DisplayName: ソウルバレット
+	HellSoulSwordProj.DisplayName: インファーナルブレード
+	IceGrenadeProj.DisplayName: 氷のグレネード
+	IceStaffProj.DisplayName: 氷柱
+	LavaSmallProj.DisplayName: 溶岩
+	LavaSpellProj.DisplayName: マグマバースト
+	LizardFlameProj.DisplayName: リザードフレイマーの炎
+	LizardSpellProj.DisplayName: リザードのファイアボール
+	LizardSpinnerProj.DisplayName: リザードのソーブレード
+	MagicArrowProj.DisplayName: 探求の矢
+	MagicMushArmourProj.DisplayName: キノコ
+	MagicMushProj.DisplayName: 魔法のキノコ
+	MeteorSpearProj.DisplayName: スペーススピア
+	MeteorSpearProj2.DisplayName: 隕石の破片
+	AncientMinionProj.DisplayName: エンシェントアリッド
+	AncientMinionProj2.DisplayName: エンシェントアリッドの砂
+	DerplingMinionProj.DisplayName: ベビーダープリング
+	EyeMinionProj.DisplayName: クトゥルフのしもべ
+	FrozenSpiritMinionProj.DisplayName: フローズンスピリット
+	FrozenSpiritMinionProj2.DisplayName: フローズンスピリットの氷の破片
+	HellSoulMinionProj.DisplayName: ソウルフレイム
+	HellSoulMinionProj2.DisplayName: ソウルフレイムの炎
+	LizardMinionProj.DisplayName: 寺院のガーディアン
+	LizardMinionProj2.DisplayName: 寺院のガーディアンのレーザー
+	SpaceRockMinionProj.DisplayName: 小さなアステロイド
+	MoltenDaggerProj.DisplayName: 地獄の短剣
+	MoltenDaggerSlashProj.DisplayName: 地獄の短剣の斬撃
+	NebulaStaffProj.DisplayName: ネビュラストームの弾
+	NebulaStaffProj2.DisplayName: ネビュラストームの弾
+	OceanCoralProj.DisplayName: ブレードオブシー
+	OceanSmallProj.DisplayName: ブレードオブシーの水
+	OceanSpellProj.DisplayName: タイダルブラストの水の球
+	PainProj.DisplayName: 苦痛の弾
+	PainCoreProj.DisplayName: ペインスカル
+	PainStaffProj.DisplayName: 裁きのスカル
+	AridBossPetProj.DisplayName: リベレイテッドハスク
+	GoldDerpie.DisplayName: 金色のダープリング
+	MrStabbyPetProj.DisplayName: ミニスタビー
+	StormBossPetProj.DisplayName: 小さなオーバーロードスキャンドローン
+	StormLightProj.DisplayName: 小さなストームダイバー
+	TwilightPetProj.DisplayName: 黄昏のフイギュア
+	UltimateBossPetProj.DisplayName: ザ・キュート
+	PredictorBrainProj.DisplayName: 預言者の脳の弾
+	PredictorBrainProj2.DisplayName: 預言者の脳の弾
+	PrimeAccessProj.DisplayName: 機械のスパイクボール
+	QuackNebulaProj.DisplayName: 小さなネビュラのアヒル
+	QuackProj.DisplayName: 小さなアヒル
+	QuackSolarProj.DisplayName: 小さなソーラーのアヒル
+	QuackStardustMiniProj.DisplayName: 小さなスターダストのアヒル
+	QuackStardustProj.DisplayName: 小さなスターダストのアヒル
+	QuackVortexProj.DisplayName: 小さなボルテックスのアヒル
+	SantankMissleProj.DisplayName: ホーホーホーミングサイル
+	SawBladeChain.DisplayName: シュレッダー 
+	SeekerBoltProj.DisplayName: シーカーのボルト
+	SeekerKnifeProj.DisplayName: ハンターブレード
+	SelenianBladeProj.DisplayName: セレニアンブレード
+	BloodySentryProj.DisplayName: 血のウニ
+	BloodySentryProj2.DisplayName: 血のウニの血
+	CultistSentryProj.DisplayName: ライトニングスフィア
+	CultistSentryProj2.DisplayName: 狂気の電撃の
+	DesertStaffProj.DisplayName: 禁断のセントリー
+	DesertStaffProj2.DisplayName: 禁断のセントリーの砂
+	DesertStaffProj3.DisplayName: 禁断のセントリーの爆発
+	FrostSentryProj.DisplayName: 霜のセントリー
+	FrostSentryProj2.DisplayName: 鋭い氷柱
+	IceSentryProj.DisplayName: 氷のセントリー
+	IceSentryProj2.DisplayName: フロストボルト
+	JungleSentryProj.DisplayName: ジャングルの木
+	JungleSentryProj2.DisplayName: ジャングルのソーンボール
+	LunaticExpertSentryProj.DisplayName: 小さな信仰者
+	LunaticExpertSentryProj2.DisplayName: 小さな信仰者のシャドウフレイムボール
+	MagmaSentryProj.DisplayName: 溶岩のセントリー
+	MagmaSentryProj2.DisplayName: 溶岩のセントリーのファイアボール
+	MeteorSentryProj.DisplayName: ソーサー
+	MeteorSentryProj2.DisplayName: ソーサーのレーザー
+	SkyKnightSentryProj.DisplayName: スターウォリアーのセントリー
+	SkyKnightSentryProj2.DisplayName: スターウォリアーの星
+	StardustSentryProj.DisplayName: スターダストのセントリー
+	StardustSentryProj2.DisplayName: フローインベーダー
+	StardustSentryProj3.DisplayName: フローインベーダー
+	StargazerCoreProj.DisplayName: スターダストポータル
+	StargazerCoreProj2.DisplayName: スターダストポータルのレーザー
+	StormSentryProj.DisplayName: スキャンドローン
+	StormSentryProj2.DisplayName: スキャンドローンの弾
+	ShroomBowArrowProj.DisplayName: シュルーマイトフューリーの矢
+	ShroomGrenProj.DisplayName: シュルーマイトグレネード
+	ShroomMush.DisplayName: ランチャーのロケット
+	ShroomRocketProj.DisplayName: シュルーマイトロケット
+	ShroomSetRocketProj.DisplayName: アタッチメントのロケット
+	SkullSeek.DisplayName: オブリタレイターの骸骨
+	SolarSpinProj.DisplayName: ブレイジングスター
+	SoulsProj.DisplayName: ソウルストームの魂
+	SpaceArmourProj.DisplayName: アステロイドの岩
+	SpaceFragment.DisplayName: アステロイドの破片
+	SpaceGlobeProj.DisplayName: アステロイドの岩
+	SpaceGlobeFragment.DisplayName: アステロイドの破片
+	SpectreDaggerProj.DisplayName: スペクターダガー
+	SpectreDaggerProj2.DisplayName: スペクターダガー
+	SpectreHoseProj.DisplayName: スペクタースカル
+	SpectreStaffSpinProj.DisplayName: スペクターオーブ
+	SpectreStaffSpinProj2.DisplayName: スペクターオーブ
+	SpikeBombProj.DisplayName: スパイクボム
+	SpikeBombProj2.DisplayName: スパイクボムのトゲ
+	SpookyGlobeProj.DisplayName: 不気味な球
+	StickyBombProj.DisplayName: スパイクボム
+	StompBootProj.DisplayName: 衝撃波
+	StompBootProj2.DisplayName: 衝撃波
+	StoneFragCelestial.DisplayName: 宇宙の断片
+	StoneFragProj.DisplayName: 石の破片
+	StoneFragSuperProj.DisplayName: 燃え盛る破片
+	StoneHardProj.DisplayName: 大岩
+	StoneNebula.DisplayName: ネビュラの大岩
+	StoneProj.DisplayName: 大岩
+	StoneSolar.DisplayName: ソーラーの大岩
+	StoneStardust.DisplayName: スターダストの大岩
+	StoneSuperProj.DisplayName: 燃え盛る大岩
+	StoneVortex.DisplayName: ボルテックスの大岩
+	StormAccessProj.DisplayName: 雷のポータル
+	StormExplosionProj.DisplayName: 電撃の爆発
+	StormGrenadeProj.DisplayName: オーバーロードグレネード
+	StormKnifeProj.DisplayName: 電撃のナイフ
+	StormLightningProj.DisplayName: 跳ね返る電撃
+	SwordDarkProj.DisplayName: 闇のオーラ
+	SwordLightProj.DisplayName: 光のエッセンス
+	SwordLightProjspin.DisplayName: 光のエッセンス
+	TheSickleProj.DisplayName: ナインライブズ
+	TheSickleProj2.DisplayName: ナインライブズの鎌
+	TheScytheProj.DisplayName: ラストチャンス
+	TheScytheProj2.DisplayName: ラストチャンスの鎌
+	ThrowingKnifeBouncyProj.DisplayName: 弾む投げナイフ
+	ThrowingSilverKniveProj.DisplayName: 銀の投げナイフ
+	ThrowingTungstenKniveProj.DisplayName: タングステンの投げナイフ
+	TombProj.DisplayName: 魔法の墓石
+	TombGhostProj.DisplayName: 小さな幽霊
+	AircanProj.DisplayName: 強力な空気
+	OilCanProj.DisplayName: オイル
+	BobberCoral.DisplayName: フィッシャーオブシーの浮き
+	BobberDerpling.DisplayName: ダープリングの釣竿の浮き
+	BobberLunar.DisplayName: 宇宙の釣竿の浮き
+	BobberLunarNebula.DisplayName: ネビュラの浮き
+	BobberLunarSolar.DisplayName: ソーラーの浮き
+	BobberLunarStardust.DisplayName: スターダストの浮き
+	BobberLunarVortex.DisplayName: ボルテックスの浮き
+	DerpChainProj.DisplayName: ダープリングのチェーンソー
+	DerpDrillProj.DisplayName: ダープリングのドリル
+	DerpJackProj.DisplayName: ダープリングの機械槌
+	FastDrill2Proj.DisplayName: メガドリル
+	FastDrillProj.DisplayName: ミニドリル
+	HookDerpProj.DisplayName: ダープリングのフック
+	HookEyeProj.DisplayName: 目玉のフック
+	HookStormProj.DisplayName: ライトニングフック
+	SantankDrillProj.DisplayName: サンタのドリル
+	SantankJackhamProj.DisplayName: サンタの機械槌
+	SantankSawProj.DisplayName: サンタのチェーンソー
+	SpaceRockDrillSawProj.DisplayName: アステロイドのドリルソー
+	SpaceRockJackhammerProj.DisplayName: アステロイドの機械槌
+	TurtleShellProj.DisplayName: 大な亀の甲羅
+	TurtleSpearProj.DisplayName: 亀の槍
+	TurtleSpearProj2.DisplayName: 亀の槍
+	TurtleYoyoProj.DisplayName: スピニングトータス
+	TurtleYoyoProj2.DisplayName: スピニングトータス
+	VortexiaProj.DisplayName: ボルテクシアの渦
+	VortexiaProj2.DisplayName: ボルテクシアの小さな渦
+	VortexRocketProj.DisplayName: ボルテックスロケット
+	VortexRocketProj2.DisplayName: ボルテックスロケット
+	VortexShotgunGun.DisplayName: ストームダイバーのショットガン
+	WebProj.DisplayName: 糸
+	BloodWhipProj.DisplayName: 血の筋繊維
+	BloodWhipProj2.DisplayName: 血の筋繊維のオーブ
+	DesertWhipProj.DisplayName: 禁断の鞭
+	DesertWhipProj2.DisplayName: 禁断の鞭の砂
+	SpaceRockWhipProj.DisplayName: アステロイドベルト
+	SpaceRockWhipProj2.DisplayName: アステロイドの破片
+	WebWhipProj.DisplayName: スパイダーウィップ
+	WoodenBoltProj.DisplayName: クロスボウボルト
+	WoodPointyStickProj.DisplayName: 先がとがった木の棒
+	SantaBulletProj.DisplayName: サンタの弾丸
+	SantaBulletProj2.DisplayName: サンタの弾丸の爆発
+	ExplosionChloroProj.DisplayName: クロロファイトの爆発
+	MineBombProj.DisplayName: 粘着地雷
+	FlailLockerProj.DisplayName: フレイルロッカー
+	LizardArmourProj.DisplayName: リザードのドローン
+	BazookaProj.DisplayName: スカベンジャーのバズーカ
+	BazookaProj2.DisplayName: スカベンジャーのバズーカのミサイル
+	MechanicalRifleProj.DisplayName: スーパーチャージライフル
+	MechanicalRifleProj2.DisplayName: 超高速弾
+	AncientArmourRingProj.DisplayName: 砂のオーラ
+	PainbringerMaskProj.DisplayName: ペインブリンガーの結晶
+	AsteroidAura.DisplayName: アステロイドの剣
+	LightDarkAuraDark.DisplayName: エクイノックスの光のオーラ
+	LightDarkAuraLight.DisplayName: エクイノックスの闇のオーラ
+	SoulAura.DisplayName: インファーナルブレードのオーラ
+	DerpAura.DisplayName: ダープリングの剣のオーラ
+	SpaceSwordProj.DisplayName: アステロイドの岩
+	CaptainsGunProj.DisplayName: 船長の大砲
+	SantankMinionProj.DisplayName: サンタンク
+	SantankMinionProj2.DisplayName: サンタンクのミサイル
+	SantankMinionProj3.DisplayName: サンタンクの弾丸
+	MeteorKnifeProj.DisplayName: 宇宙の羽根のナイフ
+	HarpyMinionProj.DisplayName: 魔法の羽
+	HarpyMinionProj2.DisplayName: 魔法の羽の羽
+	DesertSparkProj.DisplayName: 禁断の火花
+	CursedSkullMinionProj.DisplayName: カースドスカル
+	CursedSkullMinionProj2.DisplayName: カースドスカルの骨
+	WoodPointyStickProj2.DisplayName: 鋭い葉
+	RoseAura.DisplayName: クレセントローズのオーラ
+	ClaymanProj.DisplayName: 審判
+	CursedSpearGunProj.DisplayName: 呪いの銃槍
+	CrackedDaggerProj.DisplayName: 砕かれた短剣
+	SnowmanPizzaProj.DisplayName: スノーマンのピザ
+	DerpMimicProj.DisplayName: 影のダープリング
+	PizzaCutterProj.DisplayName: 電動ピザカッター
+	PizzaCutterProj2.DisplayName: ピザカッターの刃
+	SnowmanExplosion.DisplayName: スノーマンボムの爆発
+	SnowmanSnowball.DisplayName: スノーマンの雪玉
+	IceStaff2Proj.DisplayName: 氷柱
+	IceStaff2Proj2.DisplayName: 大きな氷柱
+	SwordLightDarkBlade.DisplayName: エクイノックス
+	BloodArmourDropProj.DisplayName: 血のオーブ
+	BloodAura.DisplayName: 血のオーラ
+	SantaBoomProj.DisplayName: サンタのブームスティックの爆発
+	SantaBoomProj2.DisplayName: サンタのブームスティックの大爆発
+	DeathsListProj.DisplayName: 刈り取った魂
+	C4Proj.DisplayName: 梱包爆薬
+	ThePainBossProj.DisplayName: アルティメットペイン
+	ThePainBossProj2.DisplayName: アルティメットペインの爆発
+	CoralBoneProj.DisplayName: サンゴの台風
+	ExplosionEffect.DisplayName: 爆発
+	ExplosionCompactProj.DisplayName: 爆発
+	FlaskExplosionProj.DisplayName: フラスコの爆発
+	JungleSporeProj.DisplayName: ジャングルの胞子
+	StormStaffProj.DisplayName: ライトニングセプターの電撃
+	ShockBandProj.DisplayName: 嵐のお守りの電撃
+	SludgeOrbProj.DisplayName: 猛毒汚泥
+	SludgeOrbProj2.DisplayName: 小さな猛毒汚泥の塊
+	SludgeVenomProj.DisplayName: 酸性汚泥
+	SludgeVenomProj2.DisplayName: 小さな酸性汚泥の塊
+	ExplosionSporeProj.DisplayName: 爆発する胞子
+	MossStingerProj.DisplayName: ホーネットスティングの毒針
+	GalaticBatAura.DisplayName: ギャラクティックベースボーラー
+	GalaticBatAuraLarge.DisplayName: ギャラクティックベースボーラー
+	GemAmmoBulletProj.DisplayName: 宝石の弾丸
+	GlassShardProj.DisplayName: ガラスの破片
+	GlassShardFlyingProj.DisplayName: ガラスの破片
+	GlassStaffProj.DisplayName: ガラスの杖の弾
+	RoseSickleExplosionProj.DisplayName: ローズバレットの爆発
+	RoseSickleBulletProj.DisplayName: ローズバレット
+	CursedSpearBulletProj.DisplayName: 呪いのショットガンの弾丸
+	StompBootDrillProj.DisplayName: ドリルブーツのドリル
+	VoidProj.DisplayName: 大きな力場
+	VoidProj2.DisplayName: 力場
+	VoidSuitcaseProj.DisplayName: 狡猾なスーツケース
+	MeteorBowArrowProj.DisplayName: 隕石の矢
+}
+
+Tiles: {
+	DesertOrePlaced.MapEntry: 禁断鉱石
+	IceOrePlaced.MapEntry: 氷鉱石
+	BabyDerpBannerPlace.MapEntry: 古いバナー！
+	FrozenEyeBannerPlace.MapEntry: 古いバナー！
+	FrozenSoulBannerPlace.MapEntry: 古いバナー！
+	GladiatorMiniBossBannerPlace.MapEntry: 古いバナー！
+	GolemMinionBannerPlace.MapEntry: 古いバナー！
+	GolemSentryBannerPlace.MapEntry: 古いバナー！
+	GraniteMiniBossBannerPlace.MapEntry: 古いバナー！
+	HellMiniBossBannerPlace.MapEntry: 古いバナー！
+	HellSoulBannerPlace.MapEntry: 古いバナー！
+	IceCoreBannerPlace.MapEntry: 古いバナー！
+	MeteorDropperBannerPlace.MapEntry: 古いバナー！
+	MoonDerpBannerPlace.MapEntry: 古いバナー！
+	MushroomMiniBossBannerPlace.MapEntry: 古いバナー！
+	NebulaDerpBannerPlace.MapEntry: 古いバナー！
+	SandCoreBannerPlace.MapEntry: 古いバナー！
+	ScanDroneBannerPlace.MapEntry: 古いバナー！
+	SolarDerpBannerPlace.MapEntry: 古いバナー！
+	SpaceRockHeadBannerPlace.MapEntry: 古いバナー！
+	SpaceRockHeadLargeBannerPlace.MapEntry: 古いバナー！
+	StardustDerpBannerPlace.MapEntry: 古いバナー！
+	StormDerpBannerPlace.MapEntry: 古いバナー！
+	VineDerpBannerPlace.MapEntry: 古いバナー！
+	VortCannonBannerPlace.MapEntry: 古いバナー！
+	TheClaySlimeBannerPlaced.MapEntry: 古いバナー！
+	ThePainSlimeBannerPlaced.MapEntry: 古いバナー！
+	SnowmanPizzaBannerPlaced.MapEntry: 古いバナー！
+	SnowmanBombBannerPlaced.MapEntry: 古いバナー！
+	PainMusicBoxPlaced.MapEntry: オルゴール (アルティメットペイン)
+	TheGoodBoyPlaced.MapEntry: ベストボーイ
+	VortexiaPaintingPlaced.MapEntry: Storm's Additions Mod
+	MusicBoxAridPlaced.MapEntry: オルゴール (エンシェントハスク)
+	MusicBoxStormPlaced.MapEntry: オルゴール (オーバーロードスキャンドローン)
+	MusicBoxUltimatePlaced.MapEntry: オルゴール (ペインブリンガー)
+	MusicBoxUltimatePlaced2.MapEntry: オルゴール (ペインブリンガー - 絶望)
+}
+
+Configs: {
+	ConfigurationsIndividual: {
+		DisplayName: ローカル構成
+
+		Headers: {
+			Audio: 音
+			Visual: 表示
+		}
+
+		NoPain: {
+			Tooltip: 一部のアイテムが発する音声テキストを無効にします
+			Label: 音声テキストを無効にする
+		}
+
+		NoMessage: {
+			Label: 特定のチャットメッセージを無効にする
+			Tooltip:
+				'''
+				ボス/特定のアイテムから表示される特定のチャットメッセージを無効にします
+				ワールドイベントのステータスメッセージは引き続き表示されます
+				'''
+		}
+
+		NoShake: {
+			Tooltip: このModの画面が揺れる効果を無効にします
+			Label: 画面揺れ効果を無効にする
+		}
+
+		ShakeAmount: {
+			Label: 画面揺れ効果の強さ
+			Tooltip: 
+				'''
+				画面揺れの強さを変更します
+				0に設定すると無効になります
+				デフォルトは5
+				'''
+		}
+	}
+
+	ConfigurationsGlobal: {
+		DisplayName: グローバル構成
+
+		Headers: {
+			EnemyMisc: 敵のその他
+			EnemySpawning: 敵の出現
+			GenMisc: その他
+			AprilFools: エイプリルフールのイベント
+		}
+
+		PreventBossStorm: {
+			Tooltip: オフにするとこのModのボスが生きている場合の天候の変更を無効にします
+			Label: ボスの天候変更を無効にする
+		}
+
+		PreventBuffedDerps: {
+			Tooltip: オフにするとプランテラを倒してもダープリングが強化されなくなります
+			Label: ダープリングの強化を無効にする
+		}
+
+		StormBossSkipsPlant: {
+			Tooltip: オンにするとオーバーロードスキャンドローンを倒した後、プランテラ撃破後の要素が追加されるようになります
+			Label: ｵｰﾊﾞｰﾛｰﾄﾞｽｷｬﾝﾄﾞﾛｰﾝはﾌﾟﾗﾝﾃﾗの代わりとして機能する
+		}
+
+		NoMoonling4U: {
+			Label: ムーンリングの自然出現を無効にする
+			Tooltip: 
+				'''
+				オンにすると宇宙でムーンリングが出現しなくなります
+				ムーンリングのコアで召喚できます
+				'''
+		}
+
+		PreventPillarEnemies: {
+			Tooltip: オンにするとこのModの新しいピラーの敵が出現しなくなります
+			Label: ピラーのMod追加の敵の出現を無効にする
+		}
+
+		NoChestforu: {
+			Tooltip: オンにすると御影石、大理石、キノコの宝箱が追加で生成されなくなります
+			Label: 御影石、大理石、キノコの宝箱の追加生成を無効化する
+		}
+
+		NoScaryCurse: {
+			Tooltip: オンにするとこのModの寺院のアイテムがインベントリ内にあっても寺院の呪いが発動しなくなります
+			Label: 寺院の呪いを無効にする (推奨されません)
+		}
+
+		GlassSoWeak: {
+			Tooltip: オンにするとこのModのガラスの武器と道具が1回で壊れるようになります
+			Label: ガラスの武器と道具が必ず1回で壊れる
+		}
+
+		AFTouchGrass: {
+			Label: (2025) タッチグラスモード (バランスが悪くテストされていない)
+			Tooltip: 
+				'''
+				タッチグラスモードをオンにするための特別な草の種を作成できるようになります
+				オフにするとワールドのタッチグラスモードがオフになります
+				'''
+		}
+
+		AFGacha: {
+			Label: (2026) 金のペインマスクのガチャシステム
+			Tooltip:
+				'''
+				オンにするとペイントークンを入手できるようになり、
+				金のペインマスクを入手できるようになります
+				オフにしてもクールダウンと天井カウントはリセットされません
+				'''
+		}
+	}
+}
+
+Emotes: {
+	ThePainEmote.Command: 苦痛
+	TheAngeryEmote.Command: 怒り
+	TheEvilEmote.Command: 邪悪
+	TheSadEmote.Command: 悲しい
+	ClaymanEmote.Command: クレイマン
+	AridBossEmote.Command: エンシェントハスク
+	StormBossEmote.Command: オーバーロードスキャンドローン
+	UltimateBossEmote.Command: ペインブリンガー
+}
+
+Localshiton: Mods.StormDiversMod.Localshiton
+
