@@ -3,13 +3,13 @@ Log: {
 		BossLog: ボスログ
 		Entry: エントリ
 		Boss: ボス
-		BossPlural:ボスたち
+		BossPlural: ボスたち
 		MiniBoss: ミニボス
 		MiniBossPlural: ミニボスたち
 		Event: イベント
 		EventPlural: イベント
-		Enabled: 無効
-		Disabled: 有効
+		Enabled: 有効
+		Disabled: 無効
 		PartiallyEnabled: 一部有効
 	}
 
@@ -90,7 +90,7 @@ Log: {
 		TotalKills: 合計で倒した数
 		Hours: "{0}時間 {1}分 {2}秒 ({3}ミリ秒)"
 		Minutes: "{0}分 {1}秒 ({2}ミリ秒)"
-		Seconds: "{0} 秒{^0:d;ds} ({1}ミリ秒)"
+		Seconds: "{0}秒 ({1}ミリ秒)"
 		NoHit: ノーヒット！
 		Hit: "{0}回{^0:ヒット;ヒット}"
 		PreviousBest: これまでのベスト
@@ -392,7 +392,7 @@ Configs: {
 			Label: 自動チェックリスト
 			Tooltip:
 				'''
-				撃破した場合、自動的にマークます。無効にした場合、ユーザーが手動でチェックする必要があります
+				撃破した場合、自動的にマークされます。無効にした場合、ユーザーが手動でチェックする必要があります
 				オン/オフ問わず、名前を右クリックして手動でマークすることができます
 				'''
 		}
@@ -629,7 +629,7 @@ Configs: {
 			Label: 時間値の形式
 			Tooltip:
 				'''
-				スタンダード： [0:00:00.000]
+				スタンダード：[0:00:00.000]
 				シンプル：[0時間 0分 0秒 0ミリ秒]
 				'''
 		}
