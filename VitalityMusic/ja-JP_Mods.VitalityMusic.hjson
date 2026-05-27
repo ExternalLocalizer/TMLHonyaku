@@ -1,0 +1,101 @@
+Items: {
+	CorruptionRainMusicBox: {
+		DisplayName: オルゴール (不浄 - 雨)
+		Tooltip: ""
+	}
+
+	CrimsonRainMusicBox: {
+		DisplayName: オルゴール (真紅 - 雨)
+		Tooltip: ""
+	}
+
+	GlowingMossMusicBox: {
+		DisplayName: オルゴール (輝く苔の洞窟)
+		Tooltip: ""
+	}
+
+	HallowRainMusicBox: {
+		DisplayName: オルゴール (聖域 - 雨)
+		Tooltip: ""
+	}
+
+	JungleRainMusicBox: {
+		DisplayName: オルゴール (ジャングル - 雨)
+		Tooltip: ""
+	}
+
+	OceanRainMusicBox: {
+		DisplayName: オルゴール (海 - 雨)
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	VitalityMusicConfig: {
+		DisplayName: BGM設定
+
+		CorruptionRain: {
+			Label: 不浄 - 雨
+			Tooltip: 雨の不浄のBGM「Diseased Deluge」の再生のオン/オフを変更します
+		}
+
+		CrimsonRain: {
+			Label: 真紅 - 雨
+			Tooltip: 雨の真紅のBGM「Jagged Downpour」の再生のオン/オフを変更します
+		}
+
+		JungleRain: {
+			Label:ジャングル - 雨
+			Tooltip: 雨のジャングルのBGM「Tropic Rainfall」の再生のオン/オフを変更します
+		}
+
+		OceanRain: {
+			Label: 海 - 雨
+			Tooltip: 雨の海のBGM「Tidal Showers」の再生のオン/オフを変更します
+		}
+
+		GlowingMoss: {
+			Label: 輝く苔の洞窟
+			Tooltip: 輝く苔の洞窟のBGM「Glowing Caverns」の再生のオン/オフを変更します
+		}
+
+		HallowRain: {
+			Label: 聖域 - 雨
+			Tooltip: 雨の聖域のBGM「Dazzling Drizzle」の再生のオン/オフを変更します
+		}
+	}
+}
+
+MusicDisplay: {
+	ModName: Vitality Music
+
+	CorruptionRain: {
+		DisplayName: Diseased Deluge (雨の不浄のテーマ)
+		Author: by bartuscus
+	}
+
+	CrimsonRain: {
+		DisplayName: Jagged Downpour (雨の真紅のテーマ)
+		Author: by bartuscus
+	}
+
+	JungleRain: {
+		DisplayName: Tropic Rainfall (雨のジャングルのテーマ)
+		Author: by bartuscus
+	}
+
+	OceanRain: {
+		DisplayName: Tidal Showers (雨の海のテーマ)
+		Author: by bartuscus
+	}
+
+	GlowingMoss: {
+		DisplayName: Glowing Caverns (輝く苔の洞窟のテーマ)
+		Author: by bartuscus
+	}
+
+	HallowRain: {
+		DisplayName: Dazzling Drizzle (雨の聖域のテーマ)
+		Author: by bartuscus
+	}
+}

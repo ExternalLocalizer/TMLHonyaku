@@ -1,0 +1,8150 @@
+SetBonuses: {
+	DarkbloodArmor:
+		'''
+		{0}キー2度押しでダークブラッドヴィンディケーターを召喚し、
+		当たるとブラッドラストを獲得する衝撃波で攻撃する
+		'''
+	LivingWoodArmor:
+		'''
+		ミニオンが敵を樹脂で覆うことがある
+		樹脂で覆われた敵は移動速度が低下し、ミニオンから受けるダメージが3増加する
+		'''
+	LeatherArmor: 落下ダメージを無効化
+	ScubaArmor: 液体の中を自由に移動できる
+	TrailhunterArmor: ブラッドラストの杭の最大本数が1増加
+	HerbArmor:
+		'''
+		バフポーションを使うと
+		全ステータスが大きく強化される
+		'''
+	PurifiedArmor: 召喚できるミニオンの数が1体増える
+	GlacialArmor:
+		'''
+		凍え耐性、氷上で滑らなくなり、
+		落下時に氷が壊れない
+		'''
+	MetalsmithArmor: ダメージが2増加
+	OccultArmor:
+		'''
+		悪意クリティカル率が10%上昇
+		ブラッドラストの獲得量が25%増加
+		'''
+	SkyforgedArmor: 二段ジャンプが可能
+	MoonMothArmor: 光の近くにいると召喚ダメージが最大で30%増加
+	ShadewitchArmor: 悪意ダメージが10%増加
+	EbonwitchArmor: 悪意クリティカル率が10%上昇
+	AntlionArmorHood:
+		'''
+		ミニオンのノックバックが増加
+		砂漠の強力な風を無効化
+		'''
+	AntlionArmorHelmet:
+		'''
+		移動速度が7%上昇
+		遠距離クリティカル率が7%上昇
+		砂漠の強力な風を無効化
+		'''
+	RobinArmor:
+		'''
+		矢のダメージが5%増加
+		矢のスピードが上昇
+		20%の確率で矢を消費しない
+		'''
+	GeraniumArmor: 敵を攻撃し、毒を与える花を召喚する
+	OlympianArmor:
+		'''
+		受けたダメージの50%を吸収することがある
+		吸収したダメージは一時的なダメージ増加に変換される
+		'''
+	GlowshroomArmor:
+		'''
+		悪意攻撃で感染を与え、ライフを徐々に減少させる
+		ブラッドラストの獲得量が50%増加
+		'''
+	GeoformedArmor:
+		'''
+		ノックバックを無効化
+		接地時は防御力が8増加
+		'''
+	ArcaneGoldArmor:
+		'''
+		召喚できるミニオンの数が2体増える
+		コインの取得範囲が広がる
+		攻撃ヒット時、一定確率でお金を追加で落とす
+		'''
+	ShiverArmor:
+		'''
+		凍えと凍結耐性
+		敵を攻撃すると雪の結晶を召喚する
+		'''
+	ChaosArmor:
+		'''
+		マナ自然回復を大幅に増進
+		マナポーションを自動に使用してくれる
+		'''
+	HallowedArmorHeaddress:
+		'''
+		敵を攻撃すると、次の敵の攻撃を無効にする
+		ブラッドラストの獲得量が25%増加
+		'''
+	ChlorophyteArmorHeaddress:
+		'''
+		強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+		ブラッドラストの獲得量が50%増加
+		'''
+	MosquitoArmor:
+		'''
+		空を飛ぶことができ、落下速度が低下
+		ブラッドラストの獲得量が75%増加
+		'''
+	ArcticArmor:
+		'''
+		{0}キー2度押しでカーソルの位置に水の竜巻が発生
+		水の竜巻は2つ存在できる
+		'''
+	ChlorophyteArmorHat:
+		'''
+		強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+		召喚できるミニオンの数が2体増える
+		'''
+	SpiritKnightArmor:
+		'''
+		マナ酔いを受けているときは、アイテムを使ってもマナを消費しないが、
+		マナが自然回復しなくなる
+		'''
+	AnarchyArmor: 近接攻撃で敵を追尾するカースドフレイムを召喚する
+	MartianGunnerArmor: 遠距離武器と一緒に銃を発射する
+	BloodkeeperArmor: ブラッドラストを獲得すると、ライフ自然回復を一時的に大幅に増進
+	TempleArmor: 最大ライフが50増加
+	PaladinArmor:
+		'''
+		戦闘中、敵を追尾するハンマーを召喚する
+		ハンマーは敵に当たると戻ってきて、ハンマーを回収すると5秒間、被ダメージを25%軽減する
+		ノックバックを無効化
+		'''
+}
+
+Common: {
+	ChatMessages: {
+		GenerateGeraniumOre: ゼラニウムがあなたの世界の泥の中で育ち始めた…
+		GenerateArcticOre: 氷の洞窟からアークティック鉱石が豊富に産出された...
+	}
+
+	Items: {
+		ChlorophyteRevolver: {
+			Normal: 通常
+			RapidFire: 連射
+		}
+	}
+
+	DeathMessages: {
+		RitualKnife: "{0}が生贄になった"
+		Malaria: "{0}はマラリアに倒れた"
+		FirearrheaHotSauce: "{0}は激辛ソースを摂取して、炎上した"
+	}
+
+	BloodHunter: {
+		1stake: 1 杭
+		2stakes: 2 杭
+		3stakes: 3 杭
+		4stakes: 4 杭
+		5stakes: 5 杭
+	}
+
+	Tooltips: {
+		BloodHunter: {
+			ClassTag: "[c/A00000:-ブラッドハンタークラス-]"
+			BloodClotDropChance: "{0}%の確率でブラッドラストを獲得する"
+			ScrollTooltip: "[c/00FFFF:ブラッドハンターの辞書と一緒に使う]"
+		}
+	}
+}
+
+DamageClasses.BloodHunterClass.DisplayName: 悪意ダメージ
+
+#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
+TownNPCMood: {
+	MasterChef: {
+		Content: 俺はここで料理ができるから問題ないぞ。
+		NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんが。
+		LoveSpace: 周りにロバがいないのは、本当に気持ちがいいな。
+		FarFromHome: 俺はどこにいるんだ？
+		DislikeCrowded: 周りにロバがたくさんいるのが嫌だ。
+		HateCrowded: 周りにロバが多すぎるのがとても嫌だ。
+		LikeBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
+		LoveBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
+		DislikeBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
+		HateBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
+		LikeNPC:  "{NPCName}は魚を無限に供給してくれるから、俺の商売にとってとても便利だ。"
+		LikeNPC_Princess: 彼女は美味しい食べ物の味をよく知っているから、俺は{NPCName}が好きだ。
+		LoveNPC: "{NPCName}が好きだ。"
+		DislikeNPC: "{NPCName}は俺に味見させてくれないから、嫌いだ。"
+		HateNPC: "{NPCName}は食事をポーションで完全に代替できると考えているようだが、それは全くばかげていることだ。"
+	}
+}
+
+Buffs: {
+	AntlionDigBuff: {
+		DisplayName: ディガー
+		Description: 地下へ移動できる
+	}
+
+	AnarchyRecharge: {
+		Description: 被ダメージを吸収できない
+		DisplayName: 無法のクールダウン
+	}
+
+	AntlionMinionBuff: {
+		DisplayName: ベビーアントリオン
+		Description: 羽の付いたベビーアントリオンが一緒に戦ってくれる
+	}
+
+	ArmorPiercingBuff: {
+		DisplayName: アーマーピアシング
+		Description: 敵の防御力を5無視する
+	}
+
+	BloodkeeperArmorBuff: {
+		DisplayName: ブラッドキーパーの力
+		Description: ライフ自然回復を大幅に増進
+	}
+
+	BullWhipBuff: {
+		DisplayName: ブルウィップの狂乱
+		Description: ブルウィップでの攻撃が強力になる
+	}
+
+	ChaosBuff: {
+		DisplayName: カオススナッチャー
+		Description: カオススナッチャーが一緒に戦ってくれる
+	}
+
+	ChaosElementalBuff: {
+		DisplayName: カオスエレメンタル
+		Description: カオスエレメンタルが一緒に戦ってくれる
+	}
+
+	ChaosRecharge: {
+		DisplayName: 混沌のクールダウン
+		Description: カオス状態を無効化できない
+	}
+
+	CorruptMimicMinionBuff: {
+		DisplayName: 不浄のミミック
+		Description: 不浄のミミックが一緒に戦ってくれる
+	}
+
+	CrimsonMimicMinionBuff: {
+		DisplayName: 真紅のミミック
+		Description: 真紅のミミックが一緒に戦ってくれる
+	}
+
+	DigRecharge: {
+		DisplayName: 能力のクールダウン
+		Description: あなたは疲れ果てている
+	}
+
+	ExposedBuff: {
+		DisplayName: 無防備
+		Description: 被ダメージが10%増加
+	}
+
+	FirearrheaBuff1: {
+		DisplayName: ???
+		Description: 何もおこらない？
+	}
+
+	FirearrheaBuff2: {
+		DisplayName: !!!
+		Description: やばっ...
+	}
+
+	FlagMinionBuff: {
+		DisplayName: 鷲
+		Description: 鷲が一緒に戦ってくれる
+	}
+
+	FreezingBuff: {
+		DisplayName: 凍結
+		Description: 動きが妨げられる
+	}
+
+	GemElementalStaffBuff: {
+		DisplayName: ジェムエレメンタル
+		Description: ジェムエレメンタルが一緒に戦ってくれる
+	}
+
+	GeraniumArmorBuff: {
+		DisplayName: 咲き誇る花
+		Description: 花が近くの敵を攻撃する
+	}
+
+	GeraniumInfectionBuff: {
+		DisplayName: ゼラニウム感染
+		Description: 移動速度が低下し、毒の効果が高くなる
+	}
+
+	HallowedMimicMinionBuff: {
+		DisplayName: 聖域のミミック
+		Description: 聖域のミミックが一緒に戦ってくれる
+	}
+
+	HellBirdMinionBuff: {
+		DisplayName: ヘルバード
+		Description: ヘルバードが一緒に戦ってくれる
+	}
+
+	HellfireTotemDebuff: {
+		DisplayName: 燃え盛るエネルギーのクールダウン
+		Description: ミニオンが攻撃しても爆発しない
+	}
+
+	LeapingBuff: {
+		DisplayName: 跳躍
+		Description: ジャンプ高度が増加し、自動ジャンプが可能となる
+	}
+
+	LivingGemStaffBuff: {
+		DisplayName: ジェムゴーレム
+		Description: ジェムゴーレムが一緒に戦ってくれる
+	}
+
+	MalariaBuff: {
+		DisplayName: マラリア
+		Description: あなたはナースに間に合わなかったので、もう死んでしまうだろう
+	}
+
+	MimicMinionBuff: {
+		DisplayName: ミミック
+		Description: ミミックが一緒に戦ってくれる
+	}
+
+	MoonlightMedallionBuff: {
+		DisplayName: 月明かりの力
+		Description: 翼とロケットブーツで無限に飛べる
+	}
+
+	MosquitoDebuff: {
+		DisplayName: 蚊に刺された
+		Description: この件についてナースに相談した方がいい
+	}
+
+	MultigemCutter1Buff: {
+		DisplayName: アメジストヒット
+		Description: マルチジェムカッターの次の攻撃でトパーズのディスクを投げる
+	}
+
+	MultigemCutter2Buff: {
+		DisplayName: トパーズヒット
+		Description: マルチジェムカッターの次の攻撃でサファイアのディスクを投げる
+	}
+
+	MultigemCutter3Buff: {
+		DisplayName: サファイアヒット
+		Description: マルチジェムカッターの次の攻撃でエメラルドのディスクを投げる
+	}
+
+	MultigemCutter4Buff: {
+		DisplayName: エメラルドヒット
+		Description: マルチジェムカッターの次の攻撃でルビーのディスクを投げる
+	}
+
+	MultigemCutter5Buff: {
+		DisplayName: ルビーヒット
+		Description: マルチジェムカッターの次の攻撃でダイヤモンドのディスクを投げる
+	}
+
+	MultigemCutter6Buff: {
+		DisplayName: ダイヤモンドヒット
+		Description: マルチジェムカッターの次の攻撃でコハクのディスクを投げる
+	}
+
+	PaladinArmorBuff: {
+		DisplayName: パラディンのシナジー
+		Description: 被ダメージを25%軽減
+	}
+
+	PlanteraMinionBuff: {
+		DisplayName: ベビープランテラ
+		Description: ベビープランテラが一緒に戦ってくれる
+	}
+
+	RingRecharge: {
+		DisplayName: 指輪のクールダウン
+		Description: 指輪が熱すぎて機能しない
+	}
+
+	RitualKnifeBuff: {
+		DisplayName: 無敵
+		Description: 一時的に全てのダメージを無効化
+	}
+
+	RitualKnifeRecharge: {
+		DisplayName: 魂の出血
+		Description: ブラッドラストの杭の最大本数が3までに制限されている
+	}
+
+	SpriteCranberryBuff: {
+		DisplayName: クランベリーソーダ
+		Description: 近接攻撃能力が増加し、防御力が減少
+	}
+
+	TranquillityBuff: {
+		DisplayName: 静寂
+		Description: 全ては平和で、敵が出現しなくなっている
+	}
+
+	TravelsenseBuff: {
+		DisplayName: トラベルセンス
+		Description: 自分の現在位置と時刻がわかる
+	}
+
+	WarriorBuff: {
+		DisplayName: 戦士
+		Description: 近接ダメージが15%増加し、近接攻撃速度が15%上昇
+	}
+
+	AnarchulesBeetlePetBuff: {
+		DisplayName: アナーキービートル
+		Description: アナーキービートルが後をついてくる
+	}
+
+	TheRelicTag: {
+		DisplayName: 強欲の強化
+		Description: 敵を攻撃すると、一定確率でお金を追加で落とす
+	}
+
+	ChaosbringerPetBuff: {
+		DisplayName: 小さなカオスブリンガー
+		Description: 小さなカオスブリンガーが後をついてくる
+	}
+
+	DreadnaughtPetBuff: {
+		DisplayName: 小さなドレッドノート
+		Description: 小さなドレッドノートが後をついてくる
+	}
+
+	GemstoneElementalPetBuff: {
+		DisplayName: ジェムストーンエレメンタル
+		Description: ジェムストーンエレメンタルが後をついてくる
+	}
+
+	GrandAntlionMountBuff: {
+		DisplayName: 騎乗（アントリオン）
+		Description: アントリオンに乗っている
+	}
+
+	PaladinSpiritPetBuff: {
+		DisplayName: スピリットの頭
+		Description: パラディンスピリットの頭が後をついてくる
+	}
+
+	BoulderPetBuff: {
+		DisplayName: 大岩
+		Description: 大岩が後をついてくる…？
+	}
+
+	MimicPetBuff: {
+		DisplayName: ミミック
+		Description: ミミックが後をついてくる
+	}
+
+	RubyPetBuff: {
+		DisplayName: ルビー
+		Description: ルビーが後をついてくる
+	}
+
+	SlimeyPetBuff: {
+		DisplayName: スライミー
+		Description: スライミーが後をついてくる
+	}
+
+	StormCloudPetBuff: {
+		DisplayName: クラウドネード
+		Description: クラウドネードが後をついてくる
+	}
+
+	ThunderStrikerTag: {
+		DisplayName: サンダーストラック
+		Description: 召喚ダメージが12%増加
+	}
+
+	FiberglassWhipDebuff: {
+		DisplayName: グラスファイバーの鞭のタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	StardustWhipDebuff: {
+		DisplayName: スターダストの鞭のタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	ReplenishmentBuff: {
+		Description: 回復ポーションの回復量が50増加
+		DisplayName: ポーション強化
+	}
+
+	BrinkofBloodBuff1: {
+		DisplayName: ブラッドラッシュ1
+		Description: ブリンクオブブラッドの攻撃が強力になる
+	}
+
+	BrinkofBloodBuff2: {
+		DisplayName: ブラッドラッシュ2
+		Description: ブリンクオブブラッドの攻撃が強力になる
+	}
+
+	BrinkofBloodBuff3: {
+		DisplayName: ブラッドラッシュ3
+		Description: ブリンクオブブラッドの攻撃が強力になるl
+	}
+
+	JollylashDebuff: {
+		DisplayName: ジョリーラッシュのタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	BloodsBoundaryDebuff: {
+		DisplayName: ブラッディバウンダリーの流血
+		Description: ライフが徐々に減っていく
+	}
+
+	ScrollCooldownBuff: {
+		DisplayName: 巻物のクールダウン
+		Description: シナジー効果が発動しない
+	}
+
+	HinderedDebuff: {
+		DisplayName: 妨害
+		Description: lol
+	}
+
+	PricklewireDebuff: {
+		DisplayName: プリクルワイヤーの流血
+		Description: ライフが徐々に減っていく
+	}
+
+	InfestationBuff: {
+		DisplayName: 寄生
+		Description: ライフが徐々に減っていく
+	}
+
+	GrimmchildBuff1: {
+		DisplayName: グリムの子1
+		Description: 仲間が一緒に戦ってくれる
+	}
+
+	GrimmchildBuff2: {
+		DisplayName: グリムの子2
+		Description: 仲間が一緒に戦ってくれる
+	}
+
+	GrimmchildBuff3: {
+		DisplayName: グリムの子3
+		Description: 仲間が一緒に戦ってくれる
+	}
+
+	GrimmchildBuff4: {
+		DisplayName: グリムの子4
+		Description: 仲間が一緒に戦ってくれる
+	}
+
+	JellyfishMinionBuff: {
+		Description: 音符のクラゲが一緒に戦ってくれる
+		DisplayName: 音符のクラゲ
+	}
+
+	EelMinionBuff: {
+		Description: ウナギが一緒に戦ってくれる
+		DisplayName: 小さなウナギ
+	}
+
+	WiretapDebuff: {
+		Description: ミニオンから攻撃されると電気を放出する
+		DisplayName: ワイヤータップの過負荷
+	}
+
+	PowerlineDebuff: {
+		Description: この敵に対して召喚武器がいつもより有効
+		DisplayName: パワーラインのタグ
+	}
+
+	LivingWoodWhipDebuff: {
+		DisplayName: リビングウッドの鞭のタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	XenonWhipDebuff: {
+		DisplayName: キセノンの鞭のタグ
+		Description: この敵に対して召喚武器がいつもより有効
+	}
+
+	MartianGunnerBuff: {
+		DisplayName: 火星の銃
+		Description: 遠距離武器と一緒に銃が発射される
+	}
+
+	MosquitoSwarmStaffBuff: {
+		DisplayName: モスキートスワーム
+		Description: モスキートスワームが一緒に戦ってくれる
+	}
+
+	MosquitoMonarchPetBuff: {
+		DisplayName: モスキートノーブル
+		Description: モスキートノーブルが後をついてくる
+	}
+
+	SoaringClaymoreBuff: {
+		DisplayName: ソアリングブレイド
+		Description: 近接攻撃速度が上昇
+	}
+
+	CarefreeMelodyRecharge: {
+		DisplayName: メロディブレイク
+		Description: ダメージを無効化できない
+	}
+
+	BeeMinionBuff: {
+		Description: 蜂が一緒に戦ってくれる
+		DisplayName: 蜂
+	}
+
+	FaelingMinionBuff: {
+		DisplayName: フェイリング
+		Description: フェイリングが一緒に戦ってくれる
+	}
+
+	OlympianArmorBuff: {
+		Description: ダメージが20%増加
+		DisplayName: オリンピアンの強化
+	}
+
+	FrostHowlerBuff: {
+		Description: 雪のオオカミが一緒に戦ってくれる
+		DisplayName: 雪のオオカミ
+	}
+
+	CactusCrusherDebuff: {
+		DisplayName: サボテンクラッシャー
+		Description: サボテンクラッシャーの球が刺さっている
+	}
+
+	CursedFlamesSynergyDebuff: {
+		DisplayName: 呪炎のシナジー
+		Description: Mods.VitalityMod.Buffs.CursedFlamesSynergyDebuff.Description
+	}
+
+	FireSynergyDebuff: {
+		DisplayName: 炎のシナジー
+		Description: Mods.VitalityMod.Buffs.FireSynergyDebuff.Description
+	}
+
+	IceSynergyDebuff: {
+		DisplayName: 氷のシナジー
+		Description: Mods.VitalityMod.Buffs.IceSynergyDebuff.Description
+	}
+
+	IchorSynergyDebuff: {
+		DisplayName: 霊液のシナジー
+		Description: Mods.VitalityMod.Buffs.IchorSynergyDebuff.Description
+	}
+
+	PoisonSynergyDebuff: {
+		DisplayName: 毒のシナジー
+		Description: Mods.VitalityMod.Buffs.PoisonSynergyDebuff.Description
+	}
+
+	VenomSynergyDebuff: {
+		DisplayName: 酸性毒のシナジー
+		Description: Mods.VitalityMod.Buffs.VenomSynergyDebuff.Description
+	}
+
+	FossilizedChainsBuff: {
+		DisplayName: 化石の守り
+		Description: 防御力が8増加
+	}
+
+	DivineElixirRecharge: {
+		DisplayName: 霊薬のクールダウン
+		Description: 霊薬で復活できない
+	}
+
+	DeepFreezeBuff: {
+		DisplayName: ディープフリーズ
+		Description: 動けず、被ダメージが25%増加する
+	}
+
+	IceboundMedallionBuff: {
+		DisplayName: アイスバウンド
+		Description: 敵にディープフリーズを与えることができる
+	}
+
+	DuoFlowerFireDebuff: {
+		DisplayName: ディオフラワーの炎
+		Description: ディオフラワーのフロストボールを当てると蒸気が発生する
+	}
+
+	DuoFlowerFrostDebuff: {
+		DisplayName: ディオフラワーの霜
+		Description: ディオフラワーのファイアボールを当てると蒸気が発生する
+	}
+
+	DragonBreathBuff: {
+		Description: 炎を吐ける
+		DisplayName: ドラゴンブレス
+	}
+
+	BoStaffBlockRecharge: {
+		DisplayName: 棒の疲労
+		Description: 棒でブロックできない
+	}
+
+	CerberusPetBuff: {
+		DisplayName: ケルベロスの子犬
+		Description: 3つの頭を持つ子犬が後をついてくる
+	}
+
+	MoonlightDragonflyMountBuff: {
+		Description: とてもエレガントだ！
+		DisplayName: 月のトンボ
+	}
+
+	BubbleflyMinionBuff: {
+		DisplayName: バブルフライ
+		Description: バブルフライが一緒に戦ってくれる
+	}
+
+	LivingWoodArmorDebuff: {
+		DisplayName: 樹脂まみれ
+		Description: 移動速度が低下し、ミニオンから受けるダメージが3増加する
+	}
+}
+
+Tiles: {
+	TwistedAnvil.MapEntry: ねじれた金床
+	SpectralAnvil.MapEntry: スペクターの金床
+	TomatoPlant.MapEntry: トマトの苗
+	StrawberryPlant.MapEntry: イチゴの苗
+	PotatoPlant.MapEntry: じゃがいもの苗
+	LettucePlant.MapEntry: レタスの苗
+	StormCloudMusicBoxTile.MapEntry: オルゴール (ストームクラウド)
+	PaladinSpiritMusicBoxTile.MapEntry: オルゴール (パラディンスピリット)
+	MoonlightDragonflyMusicBoxTile.MapEntry: オルゴール (月光のトンボ)
+	GrandAntlionMusicBoxTile.MapEntry: オルゴール (巨大なアントリオン)
+	GemstoneElementalMusicBoxTile.MapEntry: オルゴール (ジェムストーンエレメンタル)
+	DreadnaughtMusicBoxTile.MapEntry: オルゴール (ドレッドノート)
+	ChaosbringerMusicBoxTile.MapEntry: オルゴール (カオスブリンガー)
+	AnarchulesBeetleMusicBoxTile.MapEntry: オルゴール (アナクルスビートル)
+	GeraniumOre.MapEntry: ゼラニウム鉱石
+	GeraniumWorkBench.MapEntry: ゼラニウムの作業台
+	GeraniumTable.MapEntry: ゼラニウムのテーブル
+	GeraniumSofa.MapEntry: ゼラニウムのソファ
+	GeraniumSink.MapEntry: ゼラニウムのシンク
+	GeraniumPiano.MapEntry: ゼラニウムのピアノ
+	GeraniumLantern.MapEntry: ゼラニウムのランタン
+	GeraniumLamp.MapEntry: ゼラニウムのランプ
+	GeraniumDresser.MapEntry: ゼラニウムのドレッサー
+	GeraniumDoorOpen.MapEntry: 開いたゼラニウムのドア
+	GeraniumDoorClosed.MapEntry: 閉じたゼラニウムのドア
+	GeraniumClock.MapEntry: ゼラニウムの時計
+	GeraniumChest.MapEntry: ゼラニウムの宝箱
+	GeraniumCandle.MapEntry: ゼラニウムの蝋燭
+	GeraniumBrick.MapEntry: ゼラニウムのレンガ
+	YellowCandle.MapEntry: 蝋燭（黄）
+	WhiteCandle.MapEntry: 蝋燭（白）
+	RedCandle.MapEntry: 蝋燭（赤）
+	RainbowCandle.MapEntry: 虹の蝋燭
+	PurpleCandle.MapEntry: 蝋燭（紫）
+	PinkCandle.MapEntry: 蝋燭（ピンク）
+	OrangeCandle.MapEntry: 蝋燭（オレンジ）
+	GreenCandle.MapEntry: 蝋燭（緑）
+	BlueCandle.MapEntry: 蝋燭（青）
+	SteelAlloy.MapEntry: 鋼の合金
+	RustyIngot.MapEntry: 錆びたインゴット
+	PurifiedBar.MapEntry: 純粋なインゴット
+	GlowingGraniteBar.MapEntry: 輝く御影石のインゴット
+	GeraniumBar.MapEntry: ゼラニウムのインゴット
+	DriedBar.MapEntry: 乾燥したインゴット
+	ChaosBar.MapEntry: 混沌のインゴット
+	BronzeAlloy.MapEntry: 青銅の合金
+	BloodrockBar.MapEntry: ブラッドロックのインゴット
+	ArcticBar.MapEntry: アークティックのインゴット
+	ArcaneGoldBar.MapEntry: 神秘の金のインゴット
+	AnarchyBar.MapEntry: 無法のインゴット
+	AnarchulesBeetleTrophyTile.MapEntry: アナクルスビートルのトロフィー
+	ChaosbringerTrophyTile.MapEntry: カオスブリンガーのトロフィー
+	DreadnaughtTrophyTile.MapEntry: ドレッドノートのトロフィー
+	GemstoneElementalTrophyTile.MapEntry: ジェムストーンエレメンタルのトロフィー
+	GrandAntlionTrophyTile.MapEntry: 巨大なアントリオンのトロフィー
+	MoonlightDragonflyTrophyTile.MapEntry: 月光のトンボのトロフィー
+	PaladinSpiritTrophyTile.MapEntry: パラディンスピリットのトロフィー
+	StormCloudTrophyTile.MapEntry: ストームクラウドのトロフィー
+	ArcticBathtub.MapEntry: アークティックの浴槽
+	ArcticBed.MapEntry: アークティックのベッド
+	ArcticBookcase.MapEntry: アークティックの本棚
+	ArcticBrick.MapEntry: アークティックのレンガ
+	ArcticCandelabra.MapEntry: アークティックの燭台
+	ArcticCandle.MapEntry: アークティックの蝋燭
+	ArcticChandelier.MapEntry: アークティックのシャンデリア
+	ArcticChest.MapEntry: アークティックの宝箱
+	ArcticClock.MapEntry: アークティックの時計
+	ArcticDoorClosed.MapEntry: 閉じたアークティックのドア
+	ArcticDoorOpen.MapEntry: 開いたアークティックのドア
+	ArcticDresser.MapEntry: アークティックのドレッサー
+	ArcticLamp.MapEntry: アークティックのランプ
+	ArcticLantern.MapEntry: アークティックのランタン
+	ArcticPiano.MapEntry: アークティックのピアノ
+	ArcticSink.MapEntry: アークティックのシンク
+	ArcticSofa.MapEntry: アークティックのソファ
+	ArcticTable.MapEntry: アークティックのテーブル
+	ArcticWorkBench.MapEntry: アークティックの作業台
+	ArcticOre.MapEntry: アークティック鉱石
+	WheatPlant.MapEntry: 小麦の苗
+	GlowingMossMusicBoxTile.MapEntry: オルゴール (輝く苔)
+	SugarBeetPlant.MapEntry: テンサイの苗
+	CocoaSapling.MapEntry: カカオの苗
+	MosquitoMonarchTrophyTile.MapEntry: モスキートモナークのトロフィー
+	MosquitoMonarchMusicBoxTile.MapEntry: オルゴール (モスキートモナーク)
+
+	GlowingMossChest: {
+		MapEntry_Locked: ロックされた輝く苔の宝箱
+		MapEntry: 輝く苔の宝箱
+	}
+
+	BlackChickenCageTile.MapEntry: テラリウム（黒いニワトリ）
+	BrownChickenCageTile.MapEntry: テラリウム（茶のニワトリ）
+	ChickenCageTile.MapEntry: テラリウム（ニワトリ）
+	AetherCrateTile.MapEntry: エーテルの箱
+	BeeCrateTile.MapEntry: 蜂の箱
+	ShimmerCrateTile.MapEntry: シマーの箱
+	WaspCrateTile.MapEntry: ワスプの箱
+}
+
+Items: {
+	BagofChalk: {
+		DisplayName: チョークの袋
+		Tooltip:
+			'''
+			棒のダメージが10%増加
+			棒のノックバックを増加
+			'''
+	}
+
+	BloodHunterEmblem: {
+		DisplayName: ブラッドハンターの紋章
+		Tooltip: 悪意ダメージが15%増加
+	}
+
+	BloodMagnet: {
+		DisplayName: 血の磁石
+		Tooltip: ブラッドラストの獲得クールダウンを25%短縮
+	}
+
+	BloodstalkerCape: {
+		DisplayName: ブラッドストーカーのマント
+		Tooltip:
+			'''
+			悪意ダメージが10%増加し、悪意クリティカル率が10%上昇
+			ダガーの攻撃速度が10%上昇
+			ブルウィップのスイートスポットのダメージが50%増加
+			棒のノックバックを増加
+			'''
+	}
+
+	ChlorophyteBloodMagnet: {
+		DisplayName: クロロファイトの血の磁石
+		Tooltip: ブラッドラストの獲得クールダウンを50%短縮
+	}
+
+	DarkbloodMagnet: {
+		DisplayName: ダークブラッドの磁石
+		Tooltip:
+			'''
+			ブラッドラストの獲得速度が100%上昇
+			ブラッドラストの獲得クールダウンを50%短縮
+			'''
+	}
+
+	GuidetoBloodChanneling: {
+		DisplayName: 血の交信の指南書
+		Tooltip: ブラッドラストの獲得速度が100%上昇
+	}
+
+	PocketSharpener: {
+		DisplayName: 携帯砥石
+		Tooltip: ダガーのダメージが10%増加し、ダガーの攻撃速度が10%上昇
+	}
+
+	SheriffBadge: {
+		DisplayName: 保安官のバッジ
+		Tooltip:
+			'''
+			ブルウィップのダメージが10%増加
+			ブルウィップのスイートスポットのダメージが50%増加
+			'''
+	}
+
+	AncientHallowedHeaddress: {
+		DisplayName: 古代の神聖な頭飾り
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が3増加
+			悪意ダメージが13%増加し、悪意クリティカル率が13%上昇
+			'''
+	}
+
+	BloodkeeperChestplate: {
+		DisplayName: ブラッドキーパーの胸当て
+		Tooltip:
+			'''
+			悪意ダメージが13%増加し、悪意クリティカル率が13%上昇
+			ブラッドラストの獲得量が50%増加
+			'''
+	}
+
+	BloodkeeperHelmet: {
+		DisplayName: ブラッドキーパーの兜
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が4増加
+			悪意ダメージが10%増加
+			悪意クリティカル率が5%上昇
+			'''
+	}
+
+	BloodkeeperLeggings: {
+		DisplayName: ブラッドキーパーのすね当て
+		Tooltip:
+			'''
+			悪意ダメージが7%増加し、悪意クリティカル率が7%上昇
+			移動速度が10%上昇
+			'''
+	}
+
+	ChlorophyteHeaddress: {
+		DisplayName: クロロファイトの頭飾り
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が3増加
+			悪意ダメージが17%増加
+			'''
+	}
+
+	DarkbloodBreastplate: {
+		DisplayName: ダークブラッドの胸当て
+		Tooltip:
+			'''
+			悪意ダメージが16%増加
+			悪意クリティカル率が7%上昇
+			ブラッドラストの獲得量が75%増加
+			'''
+	}
+
+	DarkbloodHelmet: {
+		DisplayName: ダークブラッドの兜
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が4増加
+			悪意ダメージが12%増加し、悪意クリティカル率が12%上昇
+			'''
+	}
+
+	DarkbloodLeggings: {
+		DisplayName: ダークブラッドのすね当て
+		Tooltip:
+			'''
+			悪意ダメージが8%増加し、悪意クリティカル率が8%上昇
+			移動速度が10%上昇
+			'''
+	}
+
+	BloodBook: {
+		Tooltip:
+			'''
+			射程が短く、弾速の遅いウォーターボルトを発射する
+			ブラッドラストの杭を[c/FFA000:1]本消費してボルトを[c/FFA000:3]発発射する
+			'''
+		DisplayName: 血の本
+	}
+
+	AstralDagger: {
+		Tooltip:
+			'''
+			敵を倒すと敵を追尾するアストラルの粒子が発生する
+			ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高く、
+			敵を追尾するアストラルの粒子を残すボルトを[c/FFA000:3]本発射する
+			
+			'''
+		DisplayName: アストラルダガー
+	}
+
+	AdamantiteBoStaff: {
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+		DisplayName: アダマンタイトの棒
+	}
+
+	RitualSyringe: {
+		Tooltip: 使用するとブラッドラストの杭を血の飴に変換する
+		DisplayName: 儀式用の注射器
+	}
+
+	RitualKnife: {
+		Tooltip:
+			'''
+			使用すると自身を刺し、5秒間、ダメージを受けなくなるが、魂の出血を45秒間受ける
+			ブラッドラストの杭を2本消費し、杭の本数に応じて使用時のダメージが少なくなる
+			魂の出血を受けていると使用できない
+			'''
+		DisplayName: 儀式用のナイフ
+	}
+
+	SanguineVial: {
+		Tooltip: ブラッドムーンの敵から抽出できる
+		DisplayName: 流血の小瓶
+	}
+
+	PumpkinVial: {
+		Tooltip: パンプキンムーンの敵から抽出できる
+		DisplayName: カボチャの小瓶
+	}
+
+	NightmareVial: {
+		Tooltip: 日食の敵から抽出できる
+		DisplayName: 悪夢の小瓶
+	}
+
+	FestiveVial: {
+		Tooltip: フロストムーンの敵から抽出できる
+		DisplayName: お祝いの小瓶
+	}
+
+	EmptyVial: {
+		Tooltip:
+			'''
+			敵からサンプルを収集するのに使う
+			使うには小瓶のライフルが必要
+			'''
+		DisplayName: 空の小瓶
+	}
+
+	DarkLeather: {
+		Tooltip: ""
+		DisplayName: 闇の革
+	}
+
+	BloodVial: {
+		Tooltip: 小瓶のライフルで敵から抽出できる
+		DisplayName: 血の小瓶
+	}
+
+	BloodSac: {
+		Tooltip: ""
+		DisplayName: 血の嚢
+	}
+
+	BloodrockBar: {
+		Tooltip: ""
+		DisplayName: ブラッドロックのインゴット
+	}
+
+	Bloodrock: {
+		Tooltip: ""
+		DisplayName: ブラッドロック
+	}
+
+	BloodCandy: {
+		Tooltip: 儀式用の注射器を使い、プレイヤーから抽出したもの
+		DisplayName: 血の飴
+	}
+
+	BloodClot: {
+		Tooltip: あなたはこれを見るべきではない
+		DisplayName: 血餅
+	}
+
+	TrailhunterLeggings: {
+		Tooltip: 移動速度が10%上昇
+		DisplayName: トレイルハンターのレギンス
+	}
+
+	TrailhunterHat: {
+		Tooltip: 悪意ダメージが1増加
+		DisplayName: トレイルハンターの帽子
+	}
+
+	TrailhunterCoat: {
+		Tooltip: 悪意クリティカル率が6%上昇
+		DisplayName: トレイルハンターのコート
+	}
+
+	ShadewitchLeggings: {
+		Tooltip:
+			'''
+			悪意クリティカル率が5%上昇
+			移動速度が5%上昇
+			'''
+		DisplayName: シェイドウィッチのレギンス
+	}
+
+	ShadewitchHat: {
+		Tooltip: ブラッドラストの杭の最大本数が1増加
+		DisplayName: シェイドウィッチの帽子
+	}
+
+	ShadewitchCoat: {
+		Tooltip: 悪意ダメージが10%増加
+		DisplayName: シェイドウィッチのコート
+	}
+
+	OccultRobe: {
+		Tooltip: 悪意ダメージが15%増加
+		DisplayName: オカルトのローブ
+	}
+
+	OccultHood: {
+		Tooltip: ブラッドラストの杭の最大本数が2増加
+		DisplayName: オカルトのフード
+	}
+
+	MosquitoMask: {
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が3増加
+			悪意ダメージが13%増加し、悪意クリティカル率が13%上昇
+			'''
+		DisplayName: モスキートの仮面
+	}
+
+	MosquitoGreaves: {
+		Tooltip:
+			'''
+			悪意ダメージが6%増加し、悪意クリティカル率が6%上昇
+			移動速度が10%上昇
+			'''
+		DisplayName: モスキートのすね当て
+	}
+
+	MosquitoBreastplate: {
+		Tooltip: 悪意ダメージが8%増加し、悪意クリティカル率が8%上昇
+		DisplayName: モスキートの胸当て
+	}
+
+	HallowedHeaddress: {
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が3増加
+			悪意ダメージが13%増加し、悪意クリティカル率が13%上昇
+			'''
+		DisplayName: 神聖な頭飾り
+	}
+
+	EbonwitchLeggings: {
+		Tooltip:
+			'''
+			悪意クリティカル率が5%上昇
+			移動速度が5%上昇
+			'''
+		DisplayName: エボンウィッチのレギンス
+	}
+
+	EbonwitchHat: {
+		Tooltip: ブラッドラストの杭の最大本数が1増加
+		DisplayName: エボンウィッチの帽子
+	}
+
+	EbonwitchCoat: {
+		Tooltip: 悪意ダメージが10%増加
+		DisplayName: エボンウィッチのコート
+	}
+
+	BloodOrbs: {
+		DisplayName: 血のオーブ
+		Tooltip:
+			'''
+			そこそこの射程
+			選択中は血のオーブを生成
+			左クリックを押し続けるとオーブが敵を追尾する
+			ブラッドラストの杭を[c/FFA000:1]本使うと全ての血のオーブが高いダメージの爆発を起こす
+			'''
+	}
+
+	BloodSlicer: {
+		DisplayName: ブラッドスライサー
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			クリティカルで効果が徐々に弱まる流血を与える
+			'''
+	}
+
+	BlueBook: {
+		DisplayName: 青い本
+		Tooltip:
+			'''
+			射程が短く、弾速が遅いウォーターボルトを発射する
+			ブラッドラストの杭を[c/FFA000:1]本消費してボルトを[c/FFA000:3]発発射する
+			'''
+	}
+
+	BorealWoodStake: {
+		DisplayName: ボーリアルウッドの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	CobaltBoStaff: {
+		DisplayName: コバルトの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+	}
+
+	EbonwoodStake: {
+		DisplayName: エボンウッドの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	Firelash: {
+		DisplayName: ファイアラッシュ
+		Tooltip:
+			'''
+			敵を炎上させる
+			ブラッドラストの杭を[c/FFA000:1]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、攻撃が当たると爆発する
+			'''
+	}
+
+	FlameCrackler: {
+		DisplayName: フレイムクラックラー
+		Tooltip:
+			'''
+			敵か地形に当たると爆発する
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高く、
+			炎の後を残すダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	FluxSeeker: {
+		DisplayName: フラックスシーカー
+		Tooltip:
+			'''
+			敵を追尾する
+			ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	GreenBook: {
+		DisplayName: 緑の本
+		Tooltip:
+			'''
+			射程が短く、弾速が遅いウォーターボルトを発射する
+			ブラッドラストの杭を[c/FFA000:1]本消費してボルトを[c/FFA000:3]発発射する
+			'''
+	}
+
+	HolyDagger: {
+		DisplayName: ホーリーダガー
+		Tooltip:
+			'''
+			敵を攻撃すると斬撃で追撃する
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	HoneyDipper: {
+		DisplayName: ハニーディッパー
+		Tooltip:
+			'''
+			攻撃が当たると蜂蜜で浸す
+			ブラッドラストの杭を[c/FFA000:1]本消費して蜂の群れを放つ
+			'''
+	}
+
+	LightsExile: {
+		DisplayName: ライツエグザイル
+		Tooltip:
+			'''
+			クリティカルでシャドウフレイムを与える
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	Masamune: {
+		DisplayName: マサムネ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高く、
+			水の雫を残すダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	MythrilBoStaff: {
+		DisplayName: ミスリルの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+	}
+
+	Nightshade: {
+		DisplayName: ナイトシェード
+		Tooltip:
+			'''
+			クリティカルでシャドウフレイムを与える
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高く、
+			シャドウフレイムを与え、シャドウフレイムを残すダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	OrichalcumBoStaff: {
+		DisplayName: オリハルコンの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+	}
+
+	PalladiumBoStaff: {
+		DisplayName: パラジウムの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+	}
+
+	PalmWoodStake: {
+		DisplayName: ヤシの木の杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	PearlwoodStake: {
+		DisplayName: パールウッドの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	ReinforcedBoStaff: {
+		DisplayName: 強化された棒
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]使って棒を振り、
+			高いダメージとノックバックを与え、[c/FFA000:3]本の釘を放つ
+			'''
+	}
+
+	RichMahoganyStake: {
+		DisplayName: マホガニーの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	RopeBullWhip: {
+		DisplayName: ロープのブルウィップ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、ダメージが増加し、射程が伸びる
+			'''
+	}
+
+	ShadewoodStake: {
+		DisplayName: シェイドウッドの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	SphinxONine: {
+		DisplayName: スフィンクスオーナイン
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、複数の鞭を振るう
+			'''
+	}
+
+	TheToothpick: {
+		DisplayName: トーチピック
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高い牙を[c/FFA000:3]本放つ
+	}
+
+	ThornCutter: {
+		DisplayName: ソーンカッター
+		Tooltip:
+			'''
+			毒を与える
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高く、
+			茨を残すダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	TitaniumBoStaff: {
+		DisplayName: チタンの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してより遠くまで投げ、2倍のダメージを与える
+	}
+
+	VialRifle: {
+		DisplayName: 小瓶のライフル
+		Tooltip:
+			'''
+			敵から小瓶のサンプルを採取するのに使う
+			弾薬として空の小瓶を使用する
+			'''
+	}
+
+	WoodenBoStaff: {
+		DisplayName: 木の棒
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]使って棒を振り、
+			高いダメージとノックバックを与える
+			'''
+	}
+
+	WoodenStake: {
+		DisplayName: 木の杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	CelestialShield: {
+		DisplayName: 宇宙の盾
+		Tooltip:
+			'''
+			ノックバックと燃えるブロックのダメージを無効化
+			ほとんどの状態異常に対する耐性
+			夜はウェアウルフに、水中では半魚人に変身する
+			ダメージ、近接攻撃速度、クリティカル率、ライフ自然回復、
+			防御力、採掘スピード、ミニオンのノックバックが少し増加
+			'''
+	}
+
+	CompoundLens: {
+		DisplayName: 複合レンズ
+		Tooltip:
+			'''
+			弓を装備時、右クリックで視界を広げることができる
+			矢が重力の影響を受けなくなる
+			'''
+	}
+
+	CompoundQuiver: {
+		DisplayName: 複合矢筒
+		Tooltip:
+			'''
+			弓を装備時、右クリックで視界を広げることができる
+			矢のスピードとダメージが10%増加
+			20%の確率で矢を消費しない
+			矢が重力の影響を受けなくなる
+			'''
+	}
+
+	CursedEye: {
+		DisplayName: 呪いの目
+		Tooltip:
+			'''
+			触れた敵に呪炎を与える
+			呪炎耐性
+			'''
+	}
+
+	EmblemCuffs: {
+		DisplayName: 紋章のカフス
+		Tooltip:
+			'''
+			星を拾う距離が広がる
+			ダメージを受けるとマナが回復する
+			最大マナが20増加
+			魔法ダメージが12%増加
+			'''
+	}
+
+	ExplorersNecklace: {
+		DisplayName: 探検家のネックレス
+		Tooltip:
+			'''
+			移動速度と加速度が上昇
+			身につけると光を放つ
+			アイテムを拾う距離が広がる
+			'''
+	}
+
+	EyeScope: {
+		DisplayName: 目のスコープ
+		Tooltip:
+			'''
+			銃を装備時、右クリックで視界を広げることができる
+			遠距離ダメージと遠距離クリティカル率が10%上昇
+			遠距離攻撃時、時折デーモンアイを発射する
+			'''
+	}
+
+	FlagofJustice: {
+		DisplayName: 正義の旗
+		Tooltip:
+			'''
+			共に戦う鷲を召喚する
+			鷲は召喚ダメージを与える
+			「正義は果たされた！」
+			'''
+	}
+
+	GiantLens: {
+		DisplayName: 巨大なレンズ
+		Tooltip: 遠距離攻撃時、時折デーモンアイを発射する
+	}
+
+	GildedKnuckles: {
+		DisplayName: 金色のナックル
+		Tooltip:
+			'''
+			敵に狙われやすくなる
+			触れた敵に霊液を与える
+			霊液耐性
+			'''
+	}
+
+	IceShoes: {
+		DisplayName: 氷の靴
+		Tooltip:
+			'''
+			滑りにくいブロック上でも滑る
+			「あなたは文字通り氷のブロックを身につけている…」
+			'''
+	}
+
+	IchorSack: {
+		DisplayName: 霊液の袋
+		Tooltip:
+			'''
+			触れた敵に霊液を与える
+			霊液耐性
+			'''
+	}
+
+	MachineGunJetpack: {
+		DisplayName:  マシンガンのジェットパック
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			飛行中、弾丸を発射する
+			衣装スロットに装備するとダメージを与えない
+			'''
+	}
+
+	ManaOverloader: {
+		DisplayName: マナのオーバーローダー
+		Tooltip:
+			'''
+			残りマナの割合が少なくなるほど魔法ダメージが増加
+			ダメージはマナが最大時の-8%から+17%まで変化する
+			'''
+	}
+
+	NonSlipSocks: {
+		DisplayName: 滑り止めの靴下
+		Tooltip: 滑りやすいブロックで滑らなくなる
+	}
+
+	PutridEye: {
+		DisplayName: 腐臭の目
+		Tooltip:
+			'''
+			敵に狙われにくくなる
+			ダメージが5%増加し、クリティカル率が5%上昇
+			触れた敵に呪炎を与える
+			呪炎耐性
+			'''
+	}
+
+	RingoftheLords: {
+		DisplayName: 主の指輪
+		Tooltip:
+			'''
+			ダメージを受けると衝撃波で反撃する
+			6秒のクールダウンがある
+			'''
+	}
+
+	ShadowflameGauntlet: {
+		DisplayName: シャドウフレイムのガントレット
+		Tooltip:
+			'''
+			近接武器のノックバックとサイズが増加
+			近接ダメージと近接攻撃速度が12%増加
+			近接武器のオート攻撃を有効にする
+			近接攻撃で敵を追尾するシャドウフレイムを放つ
+			'''
+	}
+
+	ShadowStone: {
+		DisplayName: シャドウストーン
+		Tooltip: 魔法攻撃で敵にシャドウフレイムを与える
+	}
+
+	ShieldofLife: {
+		DisplayName: 生命の盾
+		Tooltip: ノックバックを無効化し、最大ライフが50増加
+	}
+
+	SilkGlove: {
+		DisplayName: シルクのグローブ
+		Tooltip: 鞭の攻撃範囲が10%増加し、鞭の攻撃速度が10%上昇
+	}
+
+	StarstruckNecklace: {
+		DisplayName: スターストラックのネックレス
+		Tooltip:
+			'''
+			敵の防御力を10無視する
+			被ダメージ後の無敵時間を延長し、ダメージを受けると、星を降らせ、
+			蜂を放って使用者を蜂蜜に浸し、移動速度が上昇
+			'''
+	}
+
+	SummonersGlove: {
+		DisplayName: 召喚士のグローブ
+		Tooltip:
+			'''
+			鞭の攻撃範囲が20%増加し、鞭の攻撃速度が20%上昇
+			鞭と近接武器のオート攻撃を有効にする
+			'''
+	}
+
+	TurtleAegis: {
+		DisplayName: 亀の護盾
+		Tooltip:
+			'''
+			ノックバックを無効化し、最大ライフが50増加
+			残りライフの割合が少ないほど、被ダメージが減少
+			最大ライフの25%以下で効果が最大になり、25%軽減する
+			'''
+	}
+
+	HellfireDart: {
+		DisplayName: ヘルファイアのダーツ
+		Tooltip: ""
+	}
+
+	AnarchulesBeetleBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.AnarchulesBeetleBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AnarchulesBeetleMask: {
+		DisplayName: アナクルスビートルのマスク
+		Tooltip: ""
+	}
+
+	AnarchulesBeetlePetItem: {
+		DisplayName: 無法の角笛
+		Tooltip: アナーキービートルを召喚する
+	}
+
+	AnarchulesBeetleRelic: {
+		DisplayName: アナクルスビートルのレリック
+		Tooltip: ""
+	}
+
+	AnarchulesBeetleTrophy: {
+		DisplayName: アナクルスビートルのトロフィー
+		Tooltip: ""
+	}
+
+	AnarchyAnnihilation: {
+		DisplayName: アナーキーアナイアレーション
+		Tooltip: 近くの敵に呪炎のビームを放つ
+	}
+
+	AnarchyArrow: {
+		DisplayName: 無法の矢
+		Tooltip: 敵を追尾する
+	}
+
+	AnarchyBar: {
+		DisplayName: 無法のインゴット
+		Tooltip: ""
+	}
+
+	AnarchyBroadsword: {
+		DisplayName: 無法の剣
+		Tooltip: 攻撃が当たると、敵を追尾する呪炎のビームを召喚する
+	}
+
+	AnarchyCape: {
+		DisplayName: 無法のマント
+		Tooltip:
+			'''
+			受けたダメージの75%を回復する
+			クールダウンは30秒
+			'''
+	}
+
+	AnarchyChainmail: {
+		DisplayName: 無法の鎧
+		Tooltip: 近接クリティカル率が10%上昇
+	}
+
+	AnarchyChainsaw: {
+		DisplayName: 無法のチェーンソー
+		Tooltip: ""
+	}
+
+	AnarchyCrystal: {
+		DisplayName: 無法のクリスタル
+		Tooltip:
+			'''
+			アナクルスビートルを召喚する
+			不浄か真紅で使用できる
+			'''
+	}
+
+	AnarchyDrill: {
+		DisplayName: 無法のドリル
+		Tooltip: ""
+	}
+
+	AnarchyHeadgear: {
+		DisplayName: 無法の額当て
+		Tooltip:
+			'''
+			近接ダメージが10%増加し、近接クリティカル率が10%上昇
+			近接攻撃速度が10%上昇
+			'''
+	}
+
+	AnarchyJackhammer: {
+		DisplayName: 無法の機械槌
+		Tooltip: ""
+	}
+
+	AnarchyLeggings: {
+		DisplayName: 無法のすね当て
+		Tooltip:
+			'''
+			近接ダメージが10%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	AnarchyRepeater: {
+		DisplayName: 無法の機械弓
+		Tooltip: 木の矢を敵を追尾する無法の矢に変換する
+	}
+
+	AnarchyWings: {
+		DisplayName: 無法の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	ArcaneGoldBar: {
+		DisplayName: 神秘の金のインゴット
+		Tooltip: 「触れると魔法のようだ」
+	}
+
+	ArcaneGoldChainmail: {
+		DisplayName: 神秘の金の鎧
+		Tooltip:
+			'''
+			鞭の攻撃範囲が25%増加
+			召喚ダメージが10%増加
+			'''
+	}
+
+	ArcaneGoldDrax: {
+		DisplayName: 神秘の金のドラックス
+		Tooltip: 「少なくとも、何らかのドラックスであることは確かだ…」
+	}
+
+	ArcaneGoldHammer: {
+		DisplayName: 神秘の金のハンマー
+		Tooltip: ""
+	}
+
+	ArcaneGoldHeadpiece: {
+		DisplayName: 神秘の金のヘッドピース
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが10%増加
+			'''
+	}
+
+	ArcaneGoldJackhammer: {
+		DisplayName: 神秘の金の機械槌
+		Tooltip: ""
+	}
+
+	ArcaneGoldLeggings: {
+		DisplayName: 神秘の金のすね当て
+		Tooltip:
+			'''
+			移動速度が10%上昇
+			ミニオンのノックバックが増加
+			'''
+	}
+
+	ArcaneGoldPicksaw: {
+		DisplayName: 神秘の金のピックソー
+		Tooltip: 「少なくとも、何らかのピックソーであることは確かだ…」
+	}
+
+	ArcaneGoldSword: {
+		DisplayName: 神秘の金の剣
+		Tooltip: 古代のボルトを複数放つ
+	}
+
+	GoldenFryingPan: {
+		DisplayName: 黄金のフライパン
+		Tooltip:
+			'''
+			黄金のフライパンを投げる
+			当たった敵の防御力が減少し、クリティカルで混乱させる
+			「生まれて初めて、言葉を失った！」
+			'''
+	}
+
+	TheRelic: {
+		DisplayName: ザ・レリック
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると強欲の強化を得る
+			強欲の強化を得ているときに敵を攻撃すると、一定確率でお金を追加で落とす
+			'''
+	}
+
+	ArcticBar: {
+		DisplayName: アークティックのインゴット
+		Tooltip: ""
+	}
+
+	ArcticGuard: {
+		DisplayName: アークティックの胸当て
+		Tooltip: 遠距離クリティカル率が5%上昇
+	}
+
+	ArcticHat: {
+		DisplayName: アークティックの帽子
+		Tooltip: 遠距離ダメージが13%増加し、遠距離クリティカル率が13%上昇
+	}
+
+	ArcticOre: {
+		DisplayName: アークティック鉱石
+		Tooltip: ""
+	}
+
+	ArcticPants: {
+		DisplayName: アークティックのパンツ
+		Tooltip:
+			'''
+			遠距離ダメージが13%増加
+			移動速度が13%上昇
+			'''
+	}
+
+	ArcticPickaxe: {
+		DisplayName: アークティックのつるはし
+		Tooltip: ""
+	}
+
+	ArcticStaff: {
+		DisplayName: アークティックの杖
+		Tooltip:
+			'''
+			敵か地形に当たるとボルトに分裂するアークティックエネルギーを発射する
+			霜焼けを与えることがある
+			'''
+	}
+
+	ArcticWaraxe: {
+		DisplayName: アークティックの戦斧
+		Tooltip: ""
+	}
+
+	BlueRainCoat: {
+		DisplayName: レインコート（青）
+		Tooltip: ""
+	}
+
+	HerbGreaves: {
+		DisplayName: ハーブのすね当て
+		Tooltip: 装備中、俊足を得る
+	}
+
+	HerbHelmet: {
+		DisplayName:ハーブの兜
+		Tooltip: 装備中、フクロウの目を得る
+	}
+
+	HerbShirt: {
+		DisplayName: ハーブのシャツ
+		Tooltip: 装備中、ライフ自然回復増進を得る
+	}
+
+	IceBreastplate: {
+		DisplayName: シバーの胸当て
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが15%増加
+			鞭の攻撃範囲が20%増加
+			'''
+	}
+
+	IceHelmet: {
+		DisplayName: シバーの兜
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが15%増加
+			鞭の攻撃速度が20%上昇
+			'''
+	}
+
+	IceLeggings: {
+		DisplayName: シバーのすね当て
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが15%増加
+			移動速度が20%上昇
+			'''
+	}
+
+	PaladinBodyArmor: {
+		DisplayName: パラディンの鎧
+		Tooltip:
+			'''
+			近接ダメージが10%増加し、近接クリティカル率が10%上昇
+			敵に狙われやすくなる
+			'''
+	}
+
+	PaladinHelm: {
+		DisplayName: パラディンの兜
+		Tooltip:
+			'''
+			近接ダメージが10%増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	PaladinLeggings: {
+		DisplayName: パラディンのすね当て
+		Tooltip:
+			'''
+			近接攻撃速度が10%上昇
+			敵に狙われやすくなる
+			'''
+	}
+
+	RobinsHood: {
+		DisplayName: ロビンのフード
+		Tooltip: 矢のダメージが5%増加
+	}
+
+	RobinsPants: {
+		DisplayName: ロビンのパンツ
+		Tooltip: 矢のダメージが5%増加
+	}
+
+	RobinsShirt: {
+		DisplayName: ロビンのシャツ
+		Tooltip: 矢のダメージが5%増加
+	}
+
+	TempleBreastplate: {
+		DisplayName: 寺院の胸当て
+		Tooltip: 近接ダメージが10%増加し、近接クリティカル率が10%上昇
+	}
+
+	TempleHelmet: {
+		DisplayName: 寺院の兜
+		Tooltip: 近接ダメージが15%増加
+	}
+
+	TempleLeggings: {
+		DisplayName: 寺院のすね当て
+		Tooltip: 近接クリティカル率が10%上昇
+	}
+
+	CircleofExcavation: {
+		DisplayName: 採掘の円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			広範囲で、長時間持続する
+			効果範囲にいると採掘スピードが25%上昇
+			'''
+	}
+
+	CircleofHealing: {
+		DisplayName: 癒しの円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、短時間持続する
+			効果範囲にいるとライフ自然回復を増進
+			'''
+	}
+
+	CircleofPrecision: {
+		DisplayName: 精密の円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、短時間持続する
+			効果範囲にいるとクリティカル率が10%上昇
+			'''
+	}
+
+	CircleofProtection: {
+		DisplayName: 守護の円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、短時間持続する
+			効果範囲にいると防御力が8増加
+			'''
+	}
+
+	CircleofSorcery: {
+		DisplayName: 魔術の円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、短時間持続する
+			効果範囲にいるとマナ自然回復を増進
+			'''
+	}
+
+	CircleofSwiftness: {
+		DisplayName: 迅速の円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、中時間持続する
+			効果範囲にいると移動速度が25%上昇
+			'''
+	}
+
+	CircleofWrath: {
+		DisplayName: 怒りの円
+		Tooltip:
+			'''
+			セントリースロットを使用する円を召喚する
+			狭い範囲で、短時間持続する
+			効果範囲にいるとダメージが10%増加
+			'''
+	}
+
+	FreezeTotem: {
+		DisplayName: 氷のトーテム
+		Tooltip:
+			'''
+			セントリースロットを使用するトーテムを召喚する
+			狭い範囲で、ずっと持続する
+			効果範囲内の敵の移動速度を低下させる
+			'''
+	}
+
+	HellfireTotem: {
+		DisplayName: ヘルファイアのトーテム
+		Tooltip:
+			'''
+			セントリースロットを使用するトーテムを召喚する
+			狭い範囲で、短時間持続する
+			効果範囲内の敵に燃え盛るエネルギーを与える
+			ミニオンが燃え盛るエネルギーを受けている敵を攻撃すると爆発する
+			敵1体につき5秒のクールダウンがある
+			「ブームブーン！」
+			'''
+	}
+
+	MoonlightMedallion: {
+		DisplayName: 月光のメダル
+		Tooltip:
+			'''
+			セントリースロットを使用するメダルを召喚する
+			狭い範囲で、ずっと持続する
+			効果範囲にいると翼とロケットブーツで無限に飛べ、飛行とジャンプの機動性が上昇する
+			範囲外に出ると翼とロケットブーツの飛行がリセットされる
+			'''
+	}
+
+	SummonerTotem: {
+		DisplayName: 召喚士のトーテム
+		Tooltip:
+			'''
+			セントリースロットを使用するトーテムを召喚する
+			狭い範囲で、長時間持続する
+			効果範囲にいると召喚できるミニオンが1体増える
+			'''
+	}
+
+	BronzeAlloy: {
+		DisplayName: 青銅の合金
+		Tooltip: ""
+	}
+
+	BronzeAxe: {
+		DisplayName: 青銅の斧
+		Tooltip: ""
+	}
+
+	BronzeBow: {
+		DisplayName: 青銅の弓
+		Tooltip: ""
+	}
+
+	BronzeBroadsword: {
+		DisplayName: 青銅の剣
+		Tooltip: ""
+	}
+
+	BronzeChainmail: {
+		DisplayName: 青銅の鎧
+		Tooltip: ""
+	}
+
+	BronzedCrossfire: {
+		DisplayName: 青銅のクロスファイア
+		Tooltip: ""
+	}
+
+	BronzeHammer: {
+		DisplayName: 青銅のハンマー
+		Tooltip: ""
+	}
+
+	BronzeHelmet: {
+		DisplayName: 青銅の兜
+		Tooltip: ""
+	}
+
+	BronzeLeggings: {
+		DisplayName: 青銅のすね当て
+		Tooltip: ""
+	}
+
+	BronzePickaxe: {
+		DisplayName: 青銅のつるはし
+		Tooltip: ""
+	}
+
+	BronzeShard: {
+		DisplayName: 青銅の破片
+		Tooltip: ""
+	}
+
+	BronzeShortsword: {
+		DisplayName: 青銅の短剣
+		Tooltip: ""
+	}
+
+	BronzeSpear: {
+		DisplayName: 青銅の槍
+		Tooltip: ""
+	}
+
+	ChaosArrow: {
+		DisplayName: 混沌の矢
+		Tooltip:
+			'''
+			徐々に弾速が上昇
+			敵を混乱させることがある
+			'''
+	}
+
+	ChaosBar: {
+		DisplayName: 混沌のインゴット
+		Tooltip: ""
+	}
+
+	ChaosChainmail: {
+		DisplayName: 混沌の鎧
+		Tooltip:
+			'''
+			魔法クリティカル率が10%上昇
+			マナ消費量が10%減少
+			'''
+	}
+
+	ChaosChainsaw: {
+		DisplayName: 混沌のチェーンソー
+		Tooltip: ""
+	}
+
+	ChaosDrill: {
+		DisplayName: 混沌のドリル
+		Tooltip: ""
+	}
+
+	ChaosDust: {
+		DisplayName: 混沌の粉
+		Tooltip: ""
+	}
+
+	ChaosElementalStaff: {
+		DisplayName: カオスエレメンタルの杖
+		Tooltip: 共に戦うカオスエレメンタルを召喚する
+	}
+
+	ChaosGreaves: {
+		DisplayName: 混沌のすね当て
+		Tooltip:
+			'''
+			魔法ダメージが10%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	ChaosHood: {
+		DisplayName: 混沌のフード
+		Tooltip:
+			'''
+			最大マナが100増加
+			魔法ダメージが10%増加し、魔法クリティカル率が10%上昇
+			'''
+	}
+
+	ChaosJackhammer: {
+		DisplayName: 混沌の機械槌
+		Tooltip: ""
+	}
+
+	ChaosSaber: {
+		DisplayName: 混沌の剣
+		Tooltip:
+			'''
+			カオスボルトを放つ
+			左クリックを押し続けると攻撃とカオスボルトの複数発射を交互に行う
+			'''
+	}
+
+	BoomBox: {
+		DisplayName: ブームボックス
+		Tooltip: 自身の周囲に音符を発射する
+	}
+
+	ChaosbringerBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.ChaosbringerBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ChaosbringerMask: {
+		DisplayName: カオスブリンガーのマスク
+		Tooltip: ""
+	}
+
+	ChaosbringerPetItem: {
+		DisplayName: 目玉のロリポップ
+		Tooltip: 後をついてくる小さなカオスブリンガーを召喚する
+	}
+
+	ChaosbringerRelic: {
+		DisplayName: カオスブリンガーのレリック
+		Tooltip: ""
+	}
+
+	ChaosbringerTrophy: {
+		DisplayName: カオスブリンガーのトロフィー
+		Tooltip: ""
+	}
+
+	ChaosClaymore: {
+		DisplayName: 混沌の大剣
+		Tooltip: 虹のソードビームを放つ
+	}
+
+	ChaosDisc: {
+		DisplayName: 混沌のディスク
+		Tooltip: 魔法のディスクを投げる
+	}
+
+	ChaosMace: {
+		DisplayName: 混沌のメイス
+		Tooltip: 敵を攻撃すると虹の爆発が起きる
+	}
+
+	ChaosMantle: {
+		DisplayName: 混沌のマント
+		Tooltip:
+			'''
+			カオス状態を無効化する
+			無効化するとクールダウンが発生し
+			クールダウンは15秒
+			'''
+	}
+
+	ChaosStaff: {
+		DisplayName: 混沌の杖
+		Tooltip: 共に戦うカオススナッチャーを召喚する
+	}
+
+	ChaosWings: {
+		DisplayName: 混沌の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下する
+	}
+
+	TotemofChaos: {
+		DisplayName: 混沌のトーテム
+		Tooltip:
+			'''
+			カオスブリンガーを召喚する
+			夜間の聖域で使用できる
+			'''
+	}
+
+	VoidEye: {
+		DisplayName: 虚無の目
+		Tooltip:
+			'''
+			召喚した敵はクリックした敵を集中攻撃する
+			右クリックで視界を広げることができる
+			'''
+	}
+
+	ChlorophyteBlaster: {
+		DisplayName: クロロファイトブラスター
+		Tooltip:
+			'''
+			弾丸を複数回、拡散させて発射する
+			初弾のみ弾薬を消費
+			敵の防御力を15無視
+			'''
+	}
+
+	ChlorophyteDartgun: {
+		DisplayName: クロロファイトのダーツ銃
+		Tooltip: ""
+	}
+
+	ChlorophyteHat: {
+		DisplayName: クロロファイトの帽子
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが17%増加
+			'''
+	}
+
+	ChlorophyteWand: {
+		DisplayName: クロロファイトの杖
+		Tooltip: 衝撃波を発生させるエネルギーオーブを発射する
+	}
+
+	ChaosCrystal: {
+		DisplayName: 混沌のクリスタル
+		Tooltip: ""
+	}
+
+	CrystalArrow: {
+		DisplayName: クリスタルの矢
+		Tooltip: 衝撃でクリスタルの欠片を複数生成する
+	}
+
+	CrystalBlast: {
+		DisplayName: クリスタルブラスト
+		Tooltip: 破片をばら撒く爆発を起こす、強力なクリスタルを召喚する
+	}
+
+	CrystalBolt: {
+		DisplayName: クリスタルボルト
+		Tooltip:クリスタルボルトを広範囲に発射する
+	}
+
+	CrystalWings: {
+		DisplayName: クリスタルの翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	CoreOfWrath: {
+		DisplayName: 怒りのコア
+		Tooltip:
+			'''
+			ダメージが5%増加
+			残りライフの割合が少ないほど、ダメージが増加し、
+			最大で27%増加する
+			'''
+	}
+
+	Dreadcandle: {
+		DisplayName: ドレッドキャンドル
+		Tooltip:
+			'''
+			ドレッドノートを召喚する
+			地下世界で使用できる
+			'''
+	}
+
+	DreadnaughtBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.DreadnaughtBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	DreadnaughtMask: {
+		DisplayName: ドレッドノートのマスク
+		Tooltip: ""
+	}
+
+	DreadnaughtPetItem: {
+		DisplayName: 炎の涙
+		Tooltip: 後をついてくる小さなドレッドノートを召喚する
+	}
+
+	DreadnaughtRelic: {
+		DisplayName: ドレッドノートのレリック
+		Tooltip: ""
+	}
+
+	DreadnaughtTrophy: {
+		DisplayName: ドレッドノートのトロフィー
+		Tooltip: ""
+	}
+
+	HellbirdStaff: {
+		DisplayName: ヘルバードの杖
+		Tooltip:
+			'''
+			共に戦うヘルバードを召喚する
+			召喚するにはミニオンスロットが2つ必要で、
+			1体しか召喚できない
+			'''
+	}
+
+	HellShardStaff: {
+		DisplayName: ヘルシャードの杖
+		Tooltip:
+			'''
+			敵を追尾するヘルシャードを発射する
+			ヘルファイアを与える
+			'''
+	}
+
+	HellSlasher: {
+		DisplayName: ヘルスラッシャー
+		Tooltip: 敵を攻撃すると爆発する
+	}
+
+	LavawingBow: {
+		DisplayName: ラーヴァウィングボウ
+		Tooltip: ラーヴァバットを発射する
+	}
+
+	AquaBow: {
+		DisplayName: アクアボウ
+		Tooltip: 水流を発射する
+	}
+
+	Crossbone: {
+		DisplayName: クロスボーン
+		Tooltip: 木の矢を骨に変換する
+	}
+
+	DarkCaster: {
+		DisplayName: ダークキャスター
+		Tooltip: ""
+	}
+
+	ManaIncense: {
+		DisplayName: マナインセンス
+		Tooltip:
+			'''
+			敵を倒すと25%の確率でマナが全回復するが、
+			マナ消費量が30%増加
+			残りマナの割合が少なくなるほど魔法ダメージが増加
+			ダメージはマナが最大時の-5%から+20%まで変化する
+			'''
+	}
+
+	SpectralArrow: {
+		DisplayName: スペクターの矢
+		Tooltip:
+			'''
+			発射時、ダメージが25%増加する
+			大きく、ダメージも高いが、徐々に小さくなり、ダメージが減少する
+			'''
+	}
+
+	SpectralCuffs: {
+		DisplayName: スペクターのカフス
+		Tooltip:
+			'''
+			マナスターを拾う距離が広がる
+			ダメージを受けるとマナが回復する
+			最大マナが20増加
+			マナ消費量が20%減少
+			'''
+	}
+
+	SpectralThrow: {
+		DisplayName: スペクトラルスロー
+		Tooltip: 地形を無視する
+	}
+
+	KillerFish: {
+		DisplayName: キラーフィッシュ
+		Tooltip:
+			'''
+			敵に噛みついて持続ダメージを与える
+			「今夜は私があなたのキラーフィッシュになりますよ、ありがとう！」
+			'''
+	}
+
+	Saxophish: {
+		DisplayName: サクソフィッシュ
+		Tooltip: 金色の泡を複数発射する
+	}
+
+	BakedPotato: {
+		DisplayName: ベイクドポテト
+		Tooltip: 全ステータスが中程度強化
+	}
+
+	CheeseOmelette: {
+		DisplayName: チーズオムレツ
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「チーズの匂いがする」
+			'''
+	}
+
+	Cheese: {
+		DisplayName: チーズ
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「チーズの匂いがする」
+			'''
+	}
+
+	FirearrheaHotSauce: {
+		DisplayName: ファイアリアホットソース
+		Tooltip: 「これを飲んだ者は必ず死ぬだろう」
+	}
+
+	StrawberryPie: {
+		DisplayName: イチゴのパイ
+		Tooltip: 全ステータスが大きく強化
+	}
+
+	Strawberry: {
+		DisplayName: イチゴ
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「手を挙げて！これはイチゴだ！」
+			'''
+	}
+
+	SuspiciousLookingKebab: {
+		DisplayName: 怪しいケバブ
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			「最悪の賭けだ」
+			'''
+	}
+
+	ForbiddenFeather: {
+		DisplayName: 禁断の羽
+		Tooltip: ""
+	}
+
+	ForbiddenWings: {
+		DisplayName: 禁断の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	AmberPickaxe: {
+		DisplayName: コハクのつるはし
+		Tooltip: メテオライトの採掘が可能
+	}
+
+	AmethystPickaxe: {
+		DisplayName: アメジストのつるはし
+		Tooltip: ""
+	}
+
+	DiamondPickaxe: {
+		DisplayName: ダイヤモンドのつるはし
+		Tooltip:
+			'''
+			メテオライトの採掘が可能
+			「伝説によると、ブロックと箱で溢れた世界で、このつるはしはかつて王の称号を持っていたという」
+			'''
+	}
+
+	EmeraldPickaxe: {
+		DisplayName: エメラルドのつるはし
+		Tooltip: メテオライトの採掘が可能
+	}
+
+	RubyPickaxe: {
+		DisplayName: ルビーのつるはし
+		Tooltip: メテオライトの採掘が可能
+	}
+
+	SapphirePickaxe: {
+		DisplayName: サファイアのつるはし
+		Tooltip: ""
+	}
+
+	TopazPickaxe: {
+		DisplayName: トパーズのつるはし
+		Tooltip: ""
+	}
+
+	GemElementalStaff: {
+		DisplayName: ジェムエレメンタルの杖
+		Tooltip:
+			'''
+			共に戦うジェムエレメンタルを召喚する
+			ジェムエレメンタルは無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	GemstoneElementalBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.GemstoneElementalBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	GemstoneElementalMask: {
+		DisplayName: ジェムストーンエレメンタルのマスク
+		Tooltip: ""
+	}
+
+	GemstoneElementalPetItem: {
+		DisplayName: 奇妙なジオード
+		Tooltip: 後をついてくるジェムストーンエレメンタルを召喚する
+	}
+
+	GemstoneElementalRelic: {
+		DisplayName: ジェムストーンエレメンタルのレリック
+		Tooltip: ""
+	}
+
+	GemstoneElementalTrophy: {
+		DisplayName: ジェムストーンエレメンタルのトロフィー
+		Tooltip: ""
+	}
+
+	GemstoneRing: {
+		DisplayName: 宝石の指輪
+		Tooltip:
+			'''
+			弾で敵を攻撃すると様々な色のボルトで追撃する
+			様々な色のボルトは無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	Geodeshot: {
+		DisplayName: ジオショット
+		Tooltip:
+			'''
+			全ての矢を無防備を与える宝石の矢に変換する
+			無防備を受けている敵は被ダメージが10%増加
+			'''
+	}
+
+	Hammerthyst: {
+		DisplayName: ハンマーシスト
+		Tooltip:
+			'''
+			クリティカル時のダメージの増加度合いが他より高い
+			無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	MultigemCluster: {
+		DisplayName: 複数の宝石の塊
+		Tooltip:
+			'''
+			ジェムストーンエレメンタルを召喚する
+			地下で使用できる
+			'''
+	}
+
+	MultigemCutter: {
+		DisplayName: マルチジェムカッター
+		Tooltip:
+			'''
+			攻撃が当たると、より高ランクの宝石のディスクを投げる
+			コハクのディスクはランダムなダメージを与える宝石に分裂する
+			無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	RadiantResplendence: {
+		DisplayName: 輝かしい光彩
+		Tooltip:
+			'''
+			様々な色のボルトを発射する
+			無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	GeraniumBar: {
+		DisplayName: ゼラニウムのインゴット
+		Tooltip: ""
+	}
+
+	GeraniumBoomerang: {
+		DisplayName: ゼラニウムのブーメラン
+		Tooltip: 敵を攻撃すると花で追撃することがある
+	}
+
+	GeraniumBow: {
+		DisplayName: ゼラニウムの弓
+		Tooltip: 矢が敵に当たると花で追撃することがある
+	}
+
+	GeraniumBreastplate: {
+		DisplayName: ゼラニウムの胸当て
+		Tooltip: 魔法ダメージが8%増加し、魔法クリティカル率が8%上昇
+	}
+
+	GeraniumHamaxe: {
+		DisplayName: ゼラニウムのハンマーアックス
+		Tooltip: ""
+	}
+
+	GeraniumHelmet: {
+		DisplayName: ゼラニウムの兜
+		Tooltip:
+			'''
+			魔法ダメージが7%増加
+			最大マナが60増加
+			'''
+	}
+
+	GeraniumLeggings: {
+		DisplayName: ゼラニウムのすね当て
+		Tooltip: 魔法ダメージが7%増加し、移動速度が7%上昇
+	}
+
+	GeraniumOre: {
+		DisplayName: ゼラニウム鉱石
+		Tooltip: ""
+	}
+
+	GeraniumPickaxe: {
+		DisplayName: ゼラニウムのつるはし
+		Tooltip: ""
+	}
+
+	GeraniumShortsword: {
+		DisplayName: ゼラニウムの短剣
+		Tooltip: 敵を攻撃すると花で追撃することがある
+	}
+
+	GeraniumStaff: {
+		DisplayName: ゼラニウムの杖
+		Tooltip:
+			'''
+			敵か地形に当たると分裂するゼラニウムの結晶を複数発射する
+			敵に当たると花で追撃することがある
+			'''
+	}
+
+	GeraniumTrident: {
+		DisplayName: ゼラニウムのトライデント
+		Tooltip: 敵を攻撃すると花で追撃することがある
+	}
+
+	GeraniumWand: {
+		DisplayName: ゼラニウムの短杖
+		Tooltip:
+			'''
+			敵か地形に当たると分裂するゼラニウムの結晶を発射する
+			敵に当たると花で追撃することがある
+			'''
+	}
+
+	FrostburnKnife: {
+		DisplayName: 吹雪のナイフ
+		Tooltip:
+			'''
+			霜焼けを与える
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+			'''
+	}
+
+	GlacialBow: {
+		DisplayName: 氷河の弓
+		Tooltip: 木の矢を霜焼けの矢に変換する
+	}
+
+	GlacialChunk: {
+		DisplayName: 氷河の塊
+		Tooltip: 「触れると冷たい」
+	}
+
+	GlacialGreaves: {
+		DisplayName: 氷河のすね当て
+		Tooltip: 「足が冷たい」
+	}
+
+	GlacialHamaxe: {
+		DisplayName: 氷河のハンマーアックス
+		Tooltip: ""
+	}
+
+	GlacialHelmet: {
+		DisplayName: 氷河の兜
+		Tooltip: 「鼻が冷たい」
+	}
+
+	GlacialKatana: {
+		DisplayName: 氷河の刀
+		Tooltip: ""
+	}
+
+	GlacialPickaxe: {
+		DisplayName: 氷河のつるはし
+		Tooltip: ""
+	}
+
+	GlacialPlateMail: {
+		DisplayName: 氷河のプレートメイル
+		Tooltip: 「手が冷たい」
+	}
+
+	AncientCrown: {
+		DisplayName: 古代の王冠
+		Tooltip:
+			'''
+			巨大なアントリオンを召喚する
+			砂漠で使用できる
+			'''
+	}
+
+	AntlionAxe: {
+		DisplayName: アントリオンの斧
+		Tooltip: ""
+	}
+
+	AntlionChestplate: {
+		DisplayName: アントリオンの胸当て
+		Tooltip: 遠距離ダメージが5%増加
+	}
+
+	AntlionDiggingClaw: {
+		DisplayName: アントリオンの掘削爪
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			地下で採掘スピードが上昇
+			'''
+	}
+
+	AntlionGreaves: {
+		DisplayName: アントリオンのすね当て
+		Tooltip: 遠距離ダメージが5%増加
+	}
+
+	AntlionHammer: {
+		DisplayName: アントリオンのハンマー
+		Tooltip: ""
+	}
+
+	AntlionHelmet: {
+		DisplayName: アントリオンの兜
+		Tooltip: 遠距離ダメージが5%増加
+	}
+
+	AntlionHide: {
+		DisplayName: アントリオンの隠れ布
+		Tooltip:
+			'''
+			砂漠の強力な風を無効化
+			砂嵐中か、砂の上では移動能力が上昇
+			'''
+	}
+
+	AntlionHood: {
+		DisplayName: アントリオンのフード
+		Tooltip:
+			'''
+			召喚ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	AntlionPickaxe: {
+		DisplayName: アントリオンのつるはし
+		Tooltip: ""
+	}
+
+	AntlionStaff: {
+		DisplayName: アントリオンの杖
+		Tooltip: 共に戦う羽の付いたベビーアントリオンを召喚する
+	}
+
+	AntlionThrowingAxe: {
+		DisplayName: アントリオンの投げ斧
+		Tooltip: ""
+	}
+
+	DriedBar: {
+		DisplayName: 乾燥したインゴット
+		Tooltip:
+			'''
+			「こんなに乾燥したものを口に入れるのは
+			おそらく非常にまずい考えだろう」
+			'''
+	}
+
+	GrandAntlionBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.GrandAntlionBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	GrandAntlionMask: {
+		DisplayName: 巨大なアントリオンのマスク
+		Tooltip: ""
+	}
+
+	GrandAntlionMountItem: {
+		DisplayName: 巨大なアントリオンの大顎
+		Tooltip: 騎乗（アントリオン）を召喚する
+	}
+
+	GrandAntlionRelic: {
+		DisplayName: 巨大なアントリオンのレリック
+		Tooltip: ""
+	}
+
+	GrandAntlionTrophy: {
+		DisplayName: 巨大なアントリオンのトロフィー
+		Tooltip: ""
+	}
+
+	SandballCannon: {
+		DisplayName: 砂玉キャノン
+		Tooltip: 弾薬として砂玉を使用する
+	}
+
+	Sandball: {
+		DisplayName: 砂玉
+		Tooltip: ""
+	}
+
+	Sandshark: {
+		DisplayName: サンドシャーク
+		Tooltip:
+			'''
+			35%の確率で弾薬を消費しない
+			「サンドシャークと混同しないように」
+			'''
+	}
+
+	Sandthrower: {
+		DisplayName: サンドスロワー
+		Tooltip: 弾薬としてポケットサンドを使用する
+	}
+
+	GlowingGraniteBar: {
+		DisplayName: 輝く御影石のインゴット
+		Tooltip: ""
+	}
+
+	GlowingGranitePowder: {
+		DisplayName: 輝く御影石の粉
+		Tooltip: ""
+	}
+
+	GraniteBlade: {
+		DisplayName: 御影石の剣
+		Tooltip: 強力なオーラを生成する
+	}
+
+	GraniteBreastplate: {
+		DisplayName: 御影石の胸当て
+		Tooltip: ""
+	}
+
+	GraniteHamaxe: {
+		DisplayName: 御影石のハンマーアックス
+		Tooltip: ""
+	}
+
+	GraniteHelmet: {
+		DisplayName: 御影石の兜
+		Tooltip: ""
+	}
+
+	GraniteLeggings: {
+		DisplayName: 御影石のすね当て
+		Tooltip: ""
+	}
+
+	GranitePickaxe: {
+		DisplayName: 御影石のつるはし
+		Tooltip: ""
+	}
+
+	Roughstone: {
+		DisplayName: ラフストーン
+		Tooltip: ダメージを与えるオーラを放つ
+	}
+
+	HallowedWand: {
+		DisplayName: 聖なる短杖
+		Tooltip:
+			'''
+			聖なるエネルギーを発射する
+			混乱を与えることがある
+			'''
+	}
+
+	LivingStick: {
+		DisplayName: リビングウッドの枝
+		Tooltip: ""
+	}
+
+	LivingWoodBreastplate: {
+		DisplayName: リビングウッドの胸当て
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	LivingWoodHood: {
+		DisplayName: リビングウッドのフード
+		Tooltip: 召喚ダメージが1増加
+	}
+
+	LivingWoodLeggings: {
+		DisplayName: リビングウッドのレギンス
+		Tooltip: 移動速度が10%上昇
+	}
+
+	LivingWoodWhip: {
+		DisplayName: リビングウッドの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 3
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	ArcaneGoldShard: {
+		DisplayName: 神秘の金の破片
+		Tooltip: 「精錬するには極めて高い温度が必要」
+	}
+
+	CreatureCarver: {
+		DisplayName: クリーチャーカーバー
+		Tooltip: 敵の防御力を10無視する
+	}
+
+	Sculpturepick: {
+		DisplayName: スカルプチャーピック
+		Tooltip: ""
+	}
+
+	Smoothstone: {
+		DisplayName: スムーズストーン
+		Tooltip: 敵の防御力を10無視する
+	}
+
+	TileCrusher: {
+		DisplayName: タイルクラッシャー
+		Tooltip: ""
+	}
+
+	CherryBomb: {
+		DisplayName: チェリーボム
+		Tooltip:
+			'''
+			グレネードを2個同時に投げる
+			「ゾンビに使うのが最適」
+			'''
+	}
+
+	FryingPan: {
+		DisplayName: フライパン
+		Tooltip:
+			'''
+			フライパンを投げる
+			クリティカルで混乱させる
+			「今すぐ注文すれば、2回目の殴打を完全無料でお付けします」
+			'''
+	}
+
+	Omelette: {
+		DisplayName: オムレツ
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「チーズのような匂いはしない」
+			'''
+	}
+
+	RollingPin: {
+		DisplayName: 麺棒
+		Tooltip: クリティカル時のダメージの増加度合いが他より高い
+	}
+
+	SpriteCranberry: {
+		DisplayName: クランベリーソーダ
+		Tooltip:
+			'''
+			近接攻撃が少し強化され、防御力が減少
+			「答えは明白だ！」
+			'''
+	}
+
+	TinySprinklyTurtle: {
+		DisplayName: 小さなごま塩の亀
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「犬たちは大喜びだ！」
+			'''
+	}
+
+	Charcoal: {
+		DisplayName: 木炭
+		Tooltip: ""
+	}
+
+	ShiverFragment: {
+		DisplayName: シバーの欠片
+		Tooltip: ""
+	}
+
+	MeteorDrill: {
+		DisplayName: 隕石のドリル
+		Tooltip: ヘルストーンの採掘が可能
+	}
+
+	MeteorHood: {
+		DisplayName: 隕石のフード
+		Tooltip: 魔法ダメージが9%増加
+	}
+
+	MeteorMasher: {
+		DisplayName: メテオマッシャー
+		Tooltip: 近くの敵にレーザーを発射する
+	}
+
+	MeteorPickaxe: {
+		DisplayName: 隕石のつるはし
+		Tooltip: ヘルストーンの採掘が可能
+	}
+
+	OuterSpace: {
+		DisplayName: アウタースペース
+		Tooltip: ""
+	}
+
+	SpaceGrenade: {
+		DisplayName: スペースグレネード
+		Tooltip: 敵か地形に当たると火花を散らせる
+	}
+
+	GroanTube: {
+		DisplayName: 唸り声の筒
+		Tooltip: 「他人を困らせるかもしれない」
+	}
+
+	BubbleBlade: {
+		DisplayName: バブルブレード
+		Tooltip: 泡を放つ
+	}
+
+	BubbleBow: {
+		DisplayName: バブルボウ
+		Tooltip:
+			'''
+			木の矢をバブルアローに変換する
+			バブルアローは泡を残す
+			'''
+	}
+
+	BubbleRifle: {
+		DisplayName: バブルライフル
+		Tooltip: マスケット銃の弾丸を泡に変換する
+	}
+
+	BubbleScepter: {
+		DisplayName: バブルセプター
+		Tooltip: 敵を追尾する月光の泡を発射する
+	}
+
+	DragonflyPendant: {
+		DisplayName: トンボのペンダント
+		Tooltip: 空中で横方向への移動速度が大幅に上昇
+	}
+
+	MoonlightDragonflyBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.MoonlightDragonflyBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MoonlightDragonflyMask: {
+		DisplayName: 月光のトンボのマスク
+		Tooltip: ""
+	}
+
+	MoonlightDragonflyRelic: {
+		DisplayName: 月光のトンボのレリック
+		Tooltip: ""
+	}
+
+	MoonlightDragonflyTrophy: {
+		DisplayName: 月光のトンボのトロフィー
+		Tooltip: ""
+	}
+
+	MoonlightLotusFlower: {
+		DisplayName: 月光の蓮の花
+		Tooltip:
+			'''
+			月光のトンボを召喚する
+			夜間の海で使用できる
+			'''
+	}
+
+	MoonMothAntennae: {
+		DisplayName: ムーンモスの触角
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	MoonMothPants: {
+		DisplayName: ムーンモスのパンツ
+		Tooltip: 召喚ダメージが5%増加
+	}
+
+	MoonMothShirt: {
+		DisplayName: ムーンモスのシャツ
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	SirLoinPainting: {
+		DisplayName: 腰の低い騎士
+		Tooltip: 「S. Loin」
+	}
+
+	EquityCore: {
+		DisplayName: 律儀なコア
+		Tooltip: ""
+	}
+
+	GhastlyWings: {
+		DisplayName: ガーストリィーウィング
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	PaladinSpiritBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.PaladinSpiritBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	PaladinSpiritMask: {
+		DisplayName: パラディンスピリットのマスク
+		Tooltip: ""
+	}
+
+	PaladinSpiritPetItem: {
+		DisplayName: 霊的な蝋燭
+		Tooltip: 後をついてくるパラディンスピリットの頭を召喚する
+	}
+
+	PaladinSpiritRelic: {
+		DisplayName: パラディンスピリットのレリック
+		Tooltip: ""
+	}
+
+	PaladinSpiritTrophy: {
+		DisplayName: パラディンスピリットのトロフィー
+		Tooltip: ""
+	}
+
+	SpectralBlade: {
+		DisplayName: スペクトルブレード
+		Tooltip: 敵を攻撃すると敵を追尾するスペクトルボルトを召喚する
+	}
+
+	SpectralGrenade: {
+		DisplayName: スペクトルグレネード
+		Tooltip: 爆発時、敵を追尾するスペクトルボルトを発生させる
+	}
+
+	SpectralHammer: {
+		DisplayName: スペクトルハンマー
+		Tooltip: 魔法のハンマーを投げる
+	}
+
+	SpectralShield: {
+		DisplayName: スペクトルシールド
+		Tooltip:
+			'''
+			ノックバックを無効化する
+			ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+			10%の確率で攻撃を回避する
+			'''
+	}
+
+	SpiritBox: {
+		DisplayName: スピリットボックス
+		Tooltip:
+			'''
+			パラディンスピリットを召喚する
+			ダンジョンで使用できる
+			「この機器からは雑音が聞こえる」
+			'''
+	}
+
+	SpiritKnightBodyArmor: {
+		DisplayName: スピリットナイトの鎧
+		Tooltip: 魔法ダメージが11%増加し、魔法クリティカル率が11%上昇
+	}
+
+	SpiritKnightHelmet: {
+		DisplayName: スピリットナイトの兜
+		Tooltip: 魔法ダメージが11%増加し、魔法クリティカル率が11%上昇
+	}
+
+	SpiritKnightLeggings: {
+		DisplayName: スピリットナイトのすね当て
+		Tooltip: 魔法ダメージが11%増加し、魔法クリティカル率が11%上昇
+	}
+
+	SpiritPouch: {
+		DisplayName: スピリットポーチ
+		Tooltip: 攻撃を受けるとロストソウルを召喚する
+	}
+
+	BoulderPetItem: {
+		DisplayName: 大岩のリモコン
+		Tooltip: ペットの大岩を召喚する
+	}
+
+	MimicPetItem: {
+		DisplayName: 飾り立てた金の鍵
+		Tooltip: ペットのミミックを召喚する
+	}
+
+	RubyPetItem: {
+		DisplayName: 輝くルビー
+		Tooltip: 後をついてくるルビーを召喚する
+	}
+
+	SlimeyPetItem: {
+		DisplayName: スライムの鍵
+		Tooltip:
+			'''
+			後をついてくるスライミーを召喚する
+			「なんてこった！」
+			'''
+	}
+
+	ArcticBathtub: {
+		DisplayName: アークティックの浴槽
+		Tooltip: ""
+	}
+
+	ArcticBed: {
+		DisplayName: アークティックのベッド
+		Tooltip: ""
+	}
+
+	ArcticBookcase: {
+		DisplayName: アークティックの本棚
+		Tooltip: ""
+	}
+
+	ArcticBrick: {
+		DisplayName: アークティックのレンガ
+		Tooltip: ""
+	}
+
+	ArcticBrickWall: {
+		DisplayName: アークティックのレンガ壁
+		Tooltip: ""
+	}
+
+	ArcticCandelabra: {
+		DisplayName: アークティックの燭台
+		Tooltip: ""
+	}
+
+	ArcticCandle: {
+		DisplayName: アークティックの蝋燭
+		Tooltip: ""
+	}
+
+	ArcticChair: {
+		DisplayName: アークティックのイス
+		Tooltip: ""
+	}
+
+	ArcticChandelier: {
+		DisplayName: アークティックのシャンデリア
+		Tooltip: ""
+	}
+
+	ArcticChest: {
+		DisplayName: アークティックの宝箱
+		Tooltip: ""
+	}
+
+	ArcticClock: {
+		DisplayName: アークティックの時計
+		Tooltip: ""
+	}
+
+	ArcticDoor: {
+		DisplayName: アークティックのドア
+		Tooltip: ""
+	}
+
+	ArcticDresser: {
+		DisplayName: アークティックのドレッサー
+		Tooltip: ""
+	}
+
+	ArcticLamp: {
+		DisplayName: アークティックのランプ
+		Tooltip: ""
+	}
+
+	ArcticLantern: {
+		DisplayName: アークティックのランタン
+		Tooltip: ""
+	}
+
+	ArcticPiano: {
+		DisplayName: アークティックのピアノ
+		Tooltip: ""
+	}
+
+	ArcticPlatform: {
+		DisplayName: アークティックの足場
+		Tooltip: ""
+	}
+
+	ArcticSink: {
+		DisplayName: アークティックのシンク
+		Tooltip: ""
+	}
+
+	ArcticSofa: {
+		DisplayName: アークティックのソファ
+		Tooltip: ""
+	}
+
+	ArcticTable: {
+		DisplayName: アークティックのテーブル
+		Tooltip: ""
+	}
+
+	ArcticWorkBench: {
+		DisplayName: アークティックの作業台
+		Tooltip: ""
+	}
+
+	AsphaltPlatform: {
+		DisplayName: アスファルトの足場
+		Tooltip: ""
+	}
+
+	AmberSlimeBanner: {
+		DisplayName: コハクスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.AmberSlime.DisplayName}"
+	}
+
+	AmethystSlimeBanner: {
+		DisplayName: アメジストスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.AmethystSlime.DisplayName}"
+	}
+
+	BigEaterBanner: {
+		DisplayName: ビッグイーターのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.BigEater.DisplayName}"
+	}
+
+	BoneDemonBanner: {
+		DisplayName: ボーンデーモンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.BoneDemon.DisplayName}"
+	}
+
+	CrystalBasiliskBanner: {
+		DisplayName: クリスタルバジリスクのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.CrystalBasilisk.DisplayName}"
+	}
+
+	DiamondSlimeBanner: {
+		DisplayName: ダイヤモンドスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.DiamondSlime.DisplayName}"
+	}
+
+	DynamiteSnowmanBanner: {
+		DisplayName: ダイナマイトスノーマンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.DynamiteSnowman.DisplayName}"
+	}
+
+	EmeraldSlimeBanner: {
+		DisplayName: エメラルドスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.EmeraldSlime.DisplayName}"
+	}
+
+	FallenSoulBanner: {
+		DisplayName: フォールンソウルのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.FallenSoul.DisplayName}"
+	}
+
+	FlyingAtlanticCodBanner: {
+		DisplayName: フライングアトランティックコッドのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.FlyingAtlanticCod.DisplayName}"
+	}
+
+	FlyingGlacialFishBanner: {
+		DisplayName: フラインググレイシャルフィッシュのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.FlyingGlacialFish.DisplayName}"
+	}
+
+	ForestSpiritBanner: {
+		DisplayName: フォレストスピリットのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.ForestSpirit.DisplayName}"
+	}
+
+	FungalTortoiseBanner: {
+		DisplayName: ファンガルタートルのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.FungalTortoise.DisplayName}"
+	}
+
+	GeraniumGolemBanner: {
+		DisplayName: ゼラニウムゴーレムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GeraniumGolem.DisplayName}"
+	}
+
+	GeraniumWaspBanner: {
+		DisplayName: ゼラニウムウィスプのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GeraniumWasp.DisplayName}"
+	}
+
+	GhastlyHammerBanner: {
+		DisplayName: ガーストリィーハンマーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GhastlyHammer.DisplayName}"
+	}
+
+	GhostlySnowmanBanner: {
+		DisplayName: ゴーストリィのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GhostlySnowman.DisplayName}"
+	}
+
+	GiantOwlBanner: {
+		DisplayName: 巨大なフクロウのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GiantOwl.DisplayName}"
+	}
+
+	GlacialSlimeBanner: {
+		DisplayName: グレイシャルスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GlacialSlime.DisplayName}"
+	}
+
+	GladiatorBanner: {
+		DisplayName: 剣闘士のバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.Gladiator.DisplayName}"
+	}
+
+	HeatwaveZombieBanner: {
+		DisplayName: 熱波のゾンビのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.HeatwaveZombie.DisplayName}"
+	}
+
+	IceChimeBanner: {
+		DisplayName: 氷の風鈴のバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.IceChime.DisplayName}"
+	}
+
+	PufferfishBanner: {
+		DisplayName: フグのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.Pufferfish.DisplayName}"
+	}
+
+	RattlingArcherBanner: {
+		DisplayName: ラトリングアーチャーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.RattlingArcher.DisplayName}"
+	}
+
+	RubySlimeBanner: {
+		DisplayName: ルビースライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.RubySlime.DisplayName}"
+	}
+
+	SapphireSlimeBanner: {
+		DisplayName: サファイアスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.SapphireSlime.DisplayName}"
+	}
+
+	ScubaZombieBanner: {
+		DisplayName: スキューバゾンビのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.ScubaZombie.DisplayName}"
+	}
+
+	TaintedBasiliskBanner: {
+		DisplayName: 腐ったバジリスクのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.TaintedBasilisk.DisplayName}"
+	}
+
+	TopazSlimeBanner: {
+		DisplayName: トパーズスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.TopazSlime.DisplayName}"
+	}
+
+	UmbrellaZombieBanner: {
+		DisplayName: アンブレラゾンビのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.UmbrellaZombie.DisplayName}"
+	}
+
+	VileBasiliskBanner: {
+		DisplayName: 醜いバジリスクのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.VileBasilisk.DisplayName}"
+	}
+
+	BronzeBrick: {
+		DisplayName: 青銅のレンガ
+		Tooltip: ""
+	}
+
+	BronzeBrickWall: {
+		DisplayName: 青銅のレンガ壁
+		Tooltip: ""
+	}
+
+	BlueCandle: {
+		DisplayName: 蝋燭（青）
+		Tooltip: ""
+	}
+
+	GreenCandle: {
+		DisplayName: 蝋燭（緑）
+		Tooltip: ""
+	}
+
+	OrangeCandle: {
+		DisplayName: 蝋燭（オレンジ）
+		Tooltip: ""
+	}
+
+	PinkCandle: {
+		DisplayName: 蝋燭（ピンク）
+		Tooltip: ""
+	}
+
+	PurpleCandle: {
+		DisplayName: 蝋燭（紫）
+		Tooltip: ""
+	}
+
+	RainbowCandle: {
+		DisplayName: 虹の蝋燭
+		Tooltip: ""
+	}
+
+	RedCandle: {
+		DisplayName: 蝋燭（赤）
+		Tooltip: ""
+	}
+
+	WhiteCandle: {
+		DisplayName: 蝋燭（白）
+		Tooltip: ""
+	}
+
+	YellowCandle: {
+		DisplayName: 蝋燭（黄）
+		Tooltip: ""
+	}
+
+	CopperPiping: {
+		DisplayName: 銅パイプ
+		Tooltip: ""
+	}
+
+	FrozenSlimePlatform: {
+		DisplayName: 凍ったスライムの足場
+		Tooltip: ""
+	}
+
+	GeraniumBathtub: {
+		DisplayName: ゼラニウムの浴槽
+		Tooltip: ""
+	}
+
+	GeraniumBed: {
+		DisplayName: ゼラニウムのベッド
+		Tooltip: ""
+	}
+
+	GeraniumBookcase: {
+		DisplayName: ゼラニウムの本棚
+		Tooltip: ""
+	}
+
+	GeraniumBrick: {
+		DisplayName: ゼラニウムのレンガ
+		Tooltip: ""
+	}
+
+	GeraniumBrickWall: {
+		DisplayName: ゼラニウムのレンガ壁
+		Tooltip: ""
+	}
+
+	GeraniumCandelabra: {
+		DisplayName: ゼラニウムの燭台
+		Tooltip: ""
+	}
+
+	GeraniumCandle: {
+		DisplayName: ゼラニウムの蝋燭
+		Tooltip: ""
+	}
+
+	GeraniumChair: {
+		DisplayName: ゼラニウムのイス
+		Tooltip: ""
+	}
+
+	GeraniumChandelier: {
+		DisplayName: ゼラニウムのシャンデリア
+		Tooltip: ""
+	}
+
+	GeraniumChest: {
+		DisplayName: ゼラニウムの宝箱
+		Tooltip: ""
+	}
+
+	GeraniumClock: {
+		DisplayName: ゼラニウムの時計
+		Tooltip: ""
+	}
+
+	GeraniumDoor: {
+		DisplayName: ゼラニウムのドア
+		Tooltip: ""
+	}
+
+	GeraniumDresser: {
+		DisplayName: ゼラニウムのドレッサー
+		Tooltip: ""
+	}
+
+	GeraniumLamp: {
+		DisplayName: ゼラニウムのランプ
+		Tooltip: ""
+	}
+
+	GeraniumLantern: {
+		DisplayName: ゼラニウムのランタン
+		Tooltip: ""
+	}
+
+	GeraniumPiano: {
+		DisplayName: ゼラニウムのピアノ
+		Tooltip: ""
+	}
+
+	GeraniumPlatform: {
+		DisplayName: ゼラニウムの足場
+		Tooltip: ""
+	}
+
+	GeraniumSink: {
+		DisplayName: ゼラニウムのシンク
+		Tooltip: ""
+	}
+
+	GeraniumSofa: {
+		DisplayName: ゼラニウムのソファ
+		Tooltip: ""
+	}
+
+	GeraniumTable: {
+		DisplayName: ゼラニウムのテーブル
+		Tooltip: ""
+	}
+
+	GeraniumWorkBench: {
+		DisplayName: ゼラニウムの作業台
+		Tooltip: ""
+	}
+
+	AnarchulesBeetleMusicBox: {
+		DisplayName: オルゴール (アナクルスビートル)
+		Tooltip: ""
+	}
+
+	ChaosbringerMusicBox: {
+		DisplayName: オルゴール (カオスブリンガー)
+		Tooltip: ""
+	}
+
+	DreadnaughtMusicBox: {
+		DisplayName: オルゴール (ドレッドノート)
+		Tooltip: ""
+	}
+
+	GemstoneElementalMusicBox: {
+		DisplayName: オルゴール (ジェムストーンエレメンタル)
+		Tooltip: ""
+	}
+
+	GrandAntlionMusicBox: {
+		DisplayName: オルゴール (巨大なアントリオン)
+		Tooltip: ""
+	}
+
+	MoonlightDragonflyMusicBox: {
+		DisplayName: オルゴール (月光のトンボ)
+		Tooltip: ""
+	}
+
+	PaladinSpiritMusicBox: {
+		DisplayName: オルゴール (パラディンスピリット)
+		Tooltip: ""
+	}
+
+	StormCloudMusicBox: {
+		DisplayName: オルゴール (ストームクラウド フェーズ1)
+		Tooltip: ""
+	}
+
+	PinkSlimePlatform: {
+		DisplayName: ピンクスライムの足場
+		Tooltip: 着地時に落下ダメージを無効化する
+	}
+
+	TinPiping: {
+		DisplayName: 錫のパイプ
+		Tooltip: ""
+	}
+
+	TwistedAnvil: {
+		DisplayName: ねじれた金床
+		Tooltip: 通常の金床では作れない特別なアイテムを作れる
+	}
+
+	CutPotato: {
+		DisplayName: 切ったじゃがいも
+		Tooltip: じゃがいもが育つ
+	}
+
+	Lettuce: {
+		DisplayName: レタス
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「レタスよ、前進せよ！」
+			'''
+	}
+
+	LettuceStem: {
+		DisplayName: レタスの茎
+		Tooltip: レタスが育つ
+	}
+
+	Potato: {
+		DisplayName: じゃがいも
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「私がジャガイモ栽培の生活を選んだのではなく、ジャガイモ栽培の生活が私を選んだのだ」
+			'''
+	}
+
+	StrawberrySeeds: {
+		DisplayName: イチゴの種
+		Tooltip: イチゴが育つ
+	}
+
+	Tomato: {
+		DisplayName: トマト
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「トマト、トマト」
+			'''
+	}
+
+	TomatoSeeds: {
+		DisplayName: トマトの種
+		Tooltip: トマトが育つ
+	}
+
+	ArmorPiercingPotion: {
+		DisplayName:アーマーピアシングポーション
+		Tooltip: 敵の防御力を5無視する
+	}
+
+	LeapingPotion: {
+		DisplayName: 跳躍のポーション
+		Tooltip: ジャンプ高度が増加し、自動ジャンプが可能となる
+	}
+
+	LifeJuice: {
+		DisplayName: ライフジュース
+		Tooltip: ""
+	}
+
+	TranquillityPotion: {
+		DisplayName: 静寂のポーション
+		Tooltip: 敵が出現しなくなる
+	}
+
+	TravelsensePotion: {
+		DisplayName: トラベルセンスポーション
+		Tooltip: 自分の現在位置と時刻がわかる
+	}
+
+	WarriorPotion: {
+		DisplayName: 戦士のポーション
+		Tooltip: 近接ダメージが15%増加し、近接攻撃速度が15%上昇
+	}
+
+	PurifiedBar: {
+		DisplayName: 純粋なインゴット
+		Tooltip: ""
+	}
+
+	PurifiedBlade: {
+		DisplayName: 純粋な剣
+		Tooltip: 胞子雲を放つ
+	}
+
+	PurifiedBoomerang: {
+		DisplayName: 純粋なブーメラン
+		Tooltip: ""
+	}
+
+	PurifiedBreastplate: {
+		DisplayName: 純粋な胸当て
+		Tooltip: 召喚ダメージが10%増加
+	}
+
+	PurifiedHelmet: {
+		DisplayName: 純粋な兜
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが5%増加
+			'''
+	}
+
+	PurifiedLeggings: {
+		DisplayName: 純粋なすね当て
+		Tooltip:
+			'''
+			召喚ダメージが5%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	PurifiedSpore: {
+		DisplayName: 純粋な胞子
+		Tooltip: 「数千年経ってもなお、これほど純粋なまま」
+	}
+
+	RustyAxe: {
+		DisplayName: 錆びた斧
+		Tooltip: ""
+	}
+
+	RustyBow: {
+		DisplayName: 錆びた弓
+		Tooltip: ""
+	}
+
+	RustyBroadsword: {
+		DisplayName: 錆びた剣
+		Tooltip: ""
+	}
+
+	RustyChunk: {
+		DisplayName: 錆びた塊
+		Tooltip: 「役に立たなそうだ…」
+	}
+
+	RustyHammer: {
+		DisplayName: 錆びたハンマー
+		Tooltip: ""
+	}
+
+	RustyIngot: {
+		DisplayName: 錆びたインゴット
+		Tooltip: 「これが崩壊しないのは不思議だ」
+	}
+
+	RustyPickaxe: {
+		DisplayName: 錆びたつるはし
+		Tooltip: ""
+	}
+
+	RustyShortsword: {
+		DisplayName: 錆びた短剣
+		Tooltip: ""
+	}
+
+	RustySpear: {
+		DisplayName: 錆びた槍
+		Tooltip: ""
+	}
+
+	BrokenScubaHelmet: {
+		DisplayName: 壊れたスキューバヘルメット
+		Tooltip: ""
+	}
+
+	BrokenScubaLeggings: {
+		DisplayName: 壊れたスキューバのレギンス
+		Tooltip: ""
+	}
+
+	BrokenScubaSuit: {
+		DisplayName: 壊れたスキューバスーツ
+		Tooltip: ""
+	}
+
+	ScubaHelmet: {
+		DisplayName: スキューバヘルメット
+		Tooltip: 水中にとても長く居られる
+	}
+
+	ScubaLeggings: {
+		DisplayName: スキューバのレギンス
+		Tooltip: 泳げるようになる
+	}
+
+	ScubaSuit: {
+		DisplayName: スキューバスーツ
+		Tooltip: とても微弱な光を放ち、水の中でより鮮やかに光る
+	}
+
+	ShroomiteDartBlaster: {
+		DisplayName: シュルーマイトのダーツブラスター
+		Tooltip: ""
+	}
+
+	CosmicDestruction: {
+		DisplayName: コズミックデストラクション
+		Tooltip: 近くの敵に敵を追尾する輪を発射する
+	}
+
+	GalacticSlasher: {
+		DisplayName: ギャラクティックスラッシャー
+		Tooltip: 敵を倒すと敵を追尾する銀河の粒子を放つ
+	}
+
+	HeavenStorm: {
+		DisplayName: ヘブンストーム
+		Tooltip: 空から強力な星を落とす
+	}
+
+	SkyStabber: {
+		DisplayName: スカイスタバー
+		Tooltip: 敵を攻撃すると攻撃速度が上昇
+	}
+
+	StarstruckArrow: {
+		DisplayName: スターストラックアロー
+		Tooltip: ""
+	}
+
+	Starstruck: {
+		DisplayName: スターストラック
+		Tooltip: 矢が敵に当たるとしばらく残る星が発生する
+	}
+
+	Starthrower: {
+		DisplayName: スタースロワー
+		Tooltip:
+			'''
+			弾薬として流れ星を使用する
+			66%の確率で流れ星を消費しない
+			敵の防御力を15無視する
+			'''
+	}
+
+	StellarScepter: {
+		DisplayName: ステラーセプター
+		Tooltip:
+			'''
+			敵を追尾する星の欠片を発射するオーブを発射する
+			オーブは1つだけ存在できる
+			'''
+	}
+
+	EssenceofFire: {
+		DisplayName: 炎のエッセンス
+		Tooltip: ""
+	}
+
+	EssenceofFrost: {
+		DisplayName: 氷のエッセンス
+		Tooltip: ""
+	}
+
+	SoulofVitality: {
+		DisplayName: 生命のソウル
+		Tooltip: 「幽霊のような生き物のエッセンス」
+	}
+
+	BartHat: {
+		DisplayName: Bartの帽子
+		Tooltip: 「開発者に成りすますのに最適！」
+	}
+
+	BartJacket: {
+		DisplayName: Bartのジャケット
+		Tooltip: 「開発者に成りすますのに最適！」
+	}
+
+	BartPants: {
+		DisplayName: Bartのパンツ
+		Tooltip: 「開発者に成りすますのに最適！」
+	}
+
+	BartPistol: {
+		DisplayName: Bartのピストル
+		Tooltip: 「開発者に成りすますのに最適！」
+	}
+
+	SirLoinBodyArmor: {
+		DisplayName: Sir Loinのボディアーマー
+		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
+	}
+
+	SirLoinHelmet: {
+		DisplayName: Sir Loinの兜
+		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
+	}
+
+	SirLoinLeggings: {
+		DisplayName: Sir Loinのすね当て
+		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
+	}
+
+	SteelAlloy: {
+		DisplayName: 鋼の合金
+		Tooltip: ""
+	}
+
+	SteelAxe: {
+		DisplayName: 鋼の斧
+		Tooltip: ""
+	}
+
+	SteelBow: {
+		DisplayName: 鋼の弓
+		Tooltip: ""
+	}
+
+	SteelBroadsword: {
+		DisplayName: 鋼の剣
+		Tooltip: ""
+	}
+
+	SteelChestplate: {
+		DisplayName: 鋼の胸当て
+		Tooltip: ""
+	}
+
+	SteelGreaves: {
+		DisplayName: 鋼のすね当て
+		Tooltip: ""
+	}
+
+	SteelHammer: {
+		DisplayName: 鋼のハンマー
+		Tooltip: ""
+	}
+
+	SteelHelmet: {
+		DisplayName: 鋼の兜
+		Tooltip: ""
+	}
+
+	SteelPickaxe: {
+		DisplayName: 鋼のつるはし
+		Tooltip: メテオライトの採掘が可能
+	}
+
+	SteelShortsword: {
+		DisplayName: 鋼の短剣
+		Tooltip: ""
+	}
+
+	SteelSpear: {
+		DisplayName: 鋼の槍
+		Tooltip: ""
+	}
+
+	CloudCore: {
+		DisplayName: 雲のコア
+		Tooltip:
+			'''
+			ストームクラウドを召喚する
+			地上で使用できる
+			'''
+	}
+
+	CloudVapor: {
+		DisplayName: 湿った雲
+		Tooltip: ""
+	}
+
+	Fluffball: {
+		DisplayName: フラッフボール
+		Tooltip: 設置状態になると空中に浮く
+	}
+
+	SkyforgedChainmail: {
+		DisplayName: スカイフォージの鎧
+		Tooltip: 魔法ダメージが5%増加し、魔法クリティカル率が5%上昇
+	}
+
+	SkyforgedLeggings: {
+		DisplayName: スカイフォージのすね当て
+		Tooltip:
+			'''
+			魔法ダメージが5%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	SkyforgedMask: {
+		DisplayName: スカイフォージの仮面
+		Tooltip:
+			'''
+			魔法ダメージが5%増加
+			最大マナが40増加
+			'''
+	}
+
+	StormCloudBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.StormCloudBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	StormCloudMask: {
+		DisplayName: ストームクラウドのマスク (フェーズ1)
+		Tooltip: ""
+	}
+
+	StormCloudMask2: {
+		DisplayName: ストームクラウドのマスク (フェーズ2)
+		Tooltip: ""
+	}
+
+	StormCloudPetItem: {
+		DisplayName: 雲の欠片
+		Tooltip: 後をついてくるクラウドネードを召喚する
+	}
+
+	StormCloudRelic: {
+		DisplayName: ストームクラウドのレリック
+		Tooltip: ""
+	}
+
+	StormCloudTrophy: {
+		DisplayName: ストームクラウドのトロフィー
+		Tooltip: ""
+	}
+
+	StormRod: {
+		DisplayName: 嵐の杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵を感電させる帯電した雲を召喚する
+			'''
+	}
+
+	StormsBlessing: {
+		DisplayName: 嵐の祝福
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			雨が降っていると移動能力が大幅に上昇
+			'''
+	}
+
+	ThunderBolt: {
+		DisplayName: サンダーボルト
+		Tooltip: 電撃を連射する
+	}
+
+	ThunderStriker: {
+		DisplayName: サンダーストライカー
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると召喚ダメージが増加する
+			'''
+	}
+
+	BlueFlashlight: {
+		DisplayName: 懐中電灯（青）
+		Tooltip: 「全てが寒そうに見えるけど、クールだ」
+	}
+
+	Crowbar: {
+		DisplayName: バール
+		Tooltip: 「スタイリッシュに物を壊せ！」
+	}
+
+	Flashlight: {
+		DisplayName: 懐中電灯
+		Tooltip: 「光が道を照らすだろう」
+	}
+
+	GreenFlashlight: {
+		DisplayName: 懐中電灯（緑）
+		Tooltip: 「力強い輝き」
+	}
+
+	PurpleFlashlight: {
+		DisplayName: 懐中電灯（紫）
+		Tooltip: 「なんて素敵な輝きなんだ」
+	}
+
+	RainbowFlashlight: {
+		DisplayName: 懐中電灯（虹）
+		Tooltip: 「全ての色！」
+	}
+
+	RedFlashlight: {
+		DisplayName: 懐中電灯（赤）
+		Tooltip: 「全てが熱く、怒りに満ちているように見える」
+	}
+
+	YellowFlashlight: {
+		DisplayName: 懐中電灯（黄）
+		Tooltip: 「恐れるな」
+	}
+
+	ZombieLeg: {
+		DisplayName: ゾンビの足
+		Tooltip: ""
+	}
+
+	DemonSkull: {
+		DisplayName: デーモンのドクロ
+		Tooltip: ""
+	}
+
+	MoyaiMask: {
+		DisplayName: モアイのマスク
+		Tooltip: 「30ドルもする散髪代で説教しないでくれ！」
+	}
+
+	SnowmanMask: {
+		DisplayName: スノーマンのマスク
+		Tooltip: ""
+	}
+
+	ViqBoiMask: {
+		DisplayName: ViqBoiのマスク
+		Tooltip: ""
+	}
+
+	Afterlife: {
+		DisplayName: アフターライフ
+		Tooltip: 敵を追尾するスピリットに分裂する魂を召喚する
+	}
+
+	AmethystTrident: {
+		DisplayName: アメジストのトライデント
+		Tooltip: アメジストボルトを複数発射する
+	}
+
+	BeetleGun: {
+		DisplayName: ビートルガン
+		Tooltip:
+			'''
+			敵を追尾する甲虫を発射する
+			敵の防御力を15無視する
+			'''
+	}
+
+	BloomBuster: {
+		DisplayName: ブルームバスター
+		Tooltip: 鋭い葉を複数発射する
+	}
+
+	BookofHammers: {
+		DisplayName: ハンマーの書
+		Tooltip:
+			'''
+			敵を混乱させることがある
+			「敵をフレッチャーにする」
+			'''
+	}
+
+	CrimtaneWand: {
+		DisplayName: クリムタンの杖
+		Tooltip: ""
+	}
+
+	CursedBeamer: {
+		DisplayName: カースドビーマー
+		Tooltip: 壁にぶつかると反射するカースドビームを発射する
+	}
+
+	DemoniteWand: {
+		DisplayName: デモナイトの杖
+		Tooltip: ""
+	}
+
+	DiamondTrident: {
+		DisplayName: ダイヤモンドのトライデント
+		Tooltip: ダイヤモンドボルトを複数発射する
+	}
+
+	EmeraldTrident: {
+		DisplayName: エメラルドのトライデント
+		Tooltip: エメラルドボルトを複数発射する
+	}
+
+	FireBolt: {
+		DisplayName: ファイアボルト
+		Tooltip:			
+			'''
+			敵を追尾するファイアボルトを発射する
+			敵か地形に当たると爆発する
+			'''
+	}
+
+	Flamerino: {
+		DisplayName: フラメリーノ
+		Tooltip: 多機能なファイアボールを発射する
+	}
+
+	HellflameScythe: {
+		DisplayName: ヘルフレイムサイス
+		Tooltip:
+			'''
+			敵を追尾する鎌を投げる
+			ヘルファイアを与える
+			'''
+	}
+
+	IceBolt: {
+		DisplayName: アイスボルト
+		Tooltip:
+			'''
+			アイスボルトを発射する
+			霜焼けを与えることがある
+			'''
+	}
+
+	NightsPeak: {
+		DisplayName: ナイトピーク
+		Tooltip:
+			'''
+			闇のエネルギーボールを複数発射する
+			敵の防御力を10無視する
+			'''
+	}
+
+	PrimalFlare: {
+		DisplayName: プライマルフレア
+		Tooltip:
+			'''
+			敵を追尾するファイアボールを発射する
+			敵か地形に当たるとしばらく残る爆発が起きる
+			敵の防御力を15無視する
+			'''
+	}
+
+	RayBlaster: {
+		DisplayName: レイブラスター
+		Tooltip: 熱線を複数発射する
+	}
+
+	RubyTrident: {
+		DisplayName: ルビーのトライデント
+		Tooltip: ルビーボルトを複数発射する
+	}
+
+	SapphireTrident: {
+		DisplayName: サファイアのトライデント
+		Tooltip: サファイアボルトを複数発射する
+	}
+
+	SBMG: {
+		DisplayName: SBMG
+		Tooltip:
+			'''
+			敵を追尾する機械の甲虫を発射する
+			敵の防御力を15無視する
+			'''
+	}
+
+	Sunray: {
+		DisplayName: サンレイ
+		Tooltip: 壁にぶつかると反射する熱線を2発発射する
+	}
+
+	TerraWand: {
+		DisplayName: テラワンド
+		Tooltip:
+			'''
+			敵を追尾するエネルギーを複数発射する
+			敵の防御力を15無視する
+			'''
+	}
+
+	TomeofNature: {
+		DisplayName: 自然の書
+		Tooltip:
+			'''
+			胞子のボルトを発射する
+			毒を与えることがある
+			'''
+	}
+
+	TomeofTheElements: {
+		DisplayName: 元素の本
+		Tooltip: 炎、氷、胞子のボルトを発射する
+	}
+
+	TopazTrident: {
+		DisplayName: トパーズのトライデント
+		Tooltip: トパーズボルトを複数発射する
+	}
+
+	BloodsBoundary: {
+		DisplayName: ブラッディバウンダリー
+		Tooltip: スタックする流血を与える
+	}
+
+	CheeseWheel: {
+		DisplayName: チーズホイール
+		Tooltip: ""
+	}
+
+	CopperSpear: {
+		DisplayName: 銅の槍
+		Tooltip: ""
+	}
+
+	Cyclone: {
+		DisplayName: サイクロン
+		Tooltip: ランダムな方向に水流を放つ
+	}
+
+	DoubleTrouble: {
+		DisplayName: ダブルトラブル
+		Tooltip:
+			'''
+			ヨーヨーを一度に2つ放つ
+			ランダムな方向にカースファイアボールを放ち、
+			近くの敵にレーザーを発射する
+			'''
+	}
+
+	FlareGreatsword: {
+		DisplayName: 炎の大剣
+		Tooltip: 炎の斬撃を放つ
+	}
+
+	GoldSpear: {
+		DisplayName: 金の槍
+		Tooltip: ""
+	}
+
+	Honeydrop: {
+		DisplayName: ハニードロップ
+		Tooltip: ライフ自然回復を増進する蜂蜜を得ることがある
+	}
+
+	IronSpear: {
+		DisplayName: 鉄の槍
+		Tooltip: ""
+	}
+
+	LeadSpear: {
+		DisplayName: 鉛の槍
+		Tooltip: ""
+	}
+
+	PlatinumSpear: {
+		DisplayName: プラチナの槍
+		Tooltip: ""
+	}
+
+	PossessedSword: {
+		DisplayName: ポゼッションソード
+		Tooltip: 2回目の攻撃で敵を追尾するシャドウフレイムを放つ
+	}
+
+	Retilazer: {
+		DisplayName: レティレイザー
+		Tooltip: 近くの敵にレーザーを発射する
+	}
+
+	RodofFriendship: {
+		DisplayName: 友情の杖
+		Tooltip: ""
+	}
+
+	Screwdriver: {
+		DisplayName: ドライバー
+		Tooltip: 「スタイリッシュに物を突き刺せ！」
+	}
+
+	SilverSpear: {
+		DisplayName: 銀の槍
+		Tooltip: ""
+	}
+
+	Spazmatica: {
+		DisplayName: スパズマティカ
+		Tooltip: ランダムな方向にカースファイアボールを放つ
+	}
+
+	SpiderfangBlade: {
+		DisplayName: 蜘蛛の牙の剣
+		Tooltip: 糸の弾を放つ
+	}
+
+	SporeBlade: {
+		DisplayName: スポアブレード
+		Tooltip: しばらく残る光キノコを放つ
+	}
+
+	SporeSpreader: {
+		DisplayName: スポアスプレッダー
+		Tooltip: ランダムな方向に胞子雲を放つ
+	}
+
+	SwordofSparking: {
+		DisplayName: 火花の剣
+		Tooltip: 小さな火花を放つ
+	}
+
+	TestSword: {
+		DisplayName: テスト用の剣
+		Tooltip: これは消えるはずがない
+	}
+
+	ThePrank: {
+		DisplayName: プランク
+		Tooltip: 敵を攻撃すると悪臭の雲を放つことがある
+	}
+
+	TheSeaShell: {
+		DisplayName: シーシェル
+		Tooltip: ほとんどのヨーヨーより早く移動する
+	}
+
+	TinSpear: {
+		DisplayName: 錫の槍
+		Tooltip: ""
+	}
+
+	TungstenSpear: {
+		DisplayName: タングステンの槍
+		Tooltip: ""
+	}
+
+	AdamantiteHuntingRifle: {
+		DisplayName: アダマンタイトの狩猟ライフル
+		Tooltip:
+			'''
+			弾速が早く強力な弾丸を発射する
+			敵に当たると爆発することがある
+			'''
+	}
+
+	AllStar: {
+		DisplayName: オールスター
+		Tooltip:
+			'''
+			強化された矢を複数発射する
+			「誰かがかつて私にこう言った…」
+			'''
+	}
+
+	CobaltPistol: {
+		DisplayName: コバルトのピストル
+		Tooltip:
+			'''
+			通常の弾丸を銀の弾丸に変換する
+			弾速が上昇し、ダメージが増加
+			銀の弾丸を使うとさらに弾速が上昇し、ダメージが増加する
+			'''
+	}
+
+	CursedFlamesprayer: {
+		DisplayName: 呪いの火炎放射器
+		Tooltip:
+			'''
+			弾薬としてジェルを使用する
+			敵の防御力を15無視する
+			水中でも攻撃できる
+			'''
+	}
+
+	EaterofArrows: {
+		DisplayName: イーターオブアロー
+		Tooltip: 木の矢を敵を追尾する小さなイーターに変換する
+	}
+
+	EaterofBullets: {
+		DisplayName: イーターオブバレット
+		Tooltip: 通常の弾丸を敵を追尾する小さなイーターに変換する
+	}
+
+	EyeBow: {
+		DisplayName: 目の弓
+		Tooltip: 目の矢を発射する
+	}
+
+	GlassMarble: {
+		DisplayName: ガラスのビー玉
+		Tooltip: スリングショットの弾薬として使う
+	}
+
+	GoldGauger: {
+		DisplayName: ゴールドゲージ
+		Tooltip: 弾丸を複数発射する
+	}
+
+	JestersBow: {
+		DisplayName: 道化師の弓
+		Tooltip: 道化師の矢を発射する
+	}
+
+	JungleBlowTube: {
+		DisplayName: ジャングルの吹き筒
+		Tooltip: ""
+	}
+
+	MythrilShotgun: {
+		DisplayName: ミスリルのショットガン
+		Tooltip:
+			'''
+			散弾を発射する
+			通常の弾丸をミスリルの弾丸に変換する
+			敵か地形に当たると破片に分裂し、近距離でダメージが増加
+			'''
+	}
+
+	NightBlaster: {
+		DisplayName: ナイトブラスター
+		Tooltip: 散弾と敵を追尾するナイトボルトを発射する
+	}
+
+	ObsidianFireslinger: {
+		DisplayName: 黒曜石のファイアスリンガー
+		Tooltip: 弾薬としてジェルを使用する
+	}
+
+	OnyxBeater: {
+		DisplayName: オニキスビーター
+		Tooltip: 66%の確率で弾薬を消費しない
+	}
+
+	OrichalcumShotgun: {
+		DisplayName: オリハルコンのショットガン
+		Tooltip:
+			'''
+			散弾を発射する
+			通常の弾丸をオリハルコンの弾丸に変換する
+			敵か地形に当たると花びらに分裂し、近距離でダメージが増加
+			'''
+	}
+
+	PalladiumPistol: {
+		DisplayName: パラジウムのピストル
+		Tooltip: 敵を攻撃すると一時的にライフ自然回復を増進
+	}
+
+	PlatinumPumper: {
+		DisplayName: プラチナポンプ
+		Tooltip: 散弾を発射する
+	}
+
+	PocketSand: {
+		DisplayName: ポケットサンド
+		Tooltip:
+			'''
+			砂を1つかみ分投げる
+			「目に入るととても痛い」
+			'''
+	}
+
+	PulseRifle: {
+		DisplayName: パルスライフル
+		Tooltip:
+			'''
+			チャージバレットを発射する
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	SeekerofEnemies: {
+		DisplayName: シーカーオブエネミー
+		Tooltip:
+			'''
+			3点バースト
+			初段のみ弾薬を消費
+			呪炎を与える小さなイーターを発射することがある
+			'''
+	}
+
+	AdamantiteSlingshot: {
+		DisplayName: アダマンタイトのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	AnarchyMarbleCannon: {
+		DisplayName: 無法のビー玉大砲
+		Tooltip:
+			'''
+			ビー玉を複数発射する
+			弾薬としてビー玉を使用する
+			'''
+	}
+
+	BorealWoodSlingshot: {
+		DisplayName: ボーリアルウッドのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	ChaosMarbleSlinger: {
+		DisplayName: 混沌のマーブルスリンガー
+		Tooltip: 弾薬としてビー玉を使用する
+	}
+
+	CobaltSlingshot: {
+		DisplayName: コバルトのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	Deathslinger: {
+		DisplayName: デススリンガー
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			骨を発射する
+			5回目は敵を追尾する骸骨を発射する
+			'''
+	}
+
+	EbonwoodSlingshot: {
+		DisplayName: エボンウッドのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	MythrilSlingshot: {
+		DisplayName: ミスリルのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	OrichalcumSlingshot: {
+		DisplayName: オリハルコンのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	PalladiumSlingshot: {
+		DisplayName: パラジウムのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	PalmWoodSlingshot: {
+		DisplayName: ヤシの木のスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	PearlwoodSlingshot: {
+		DisplayName: パールウッドのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	RichMahoganySlingshot: {
+		DisplayName: マホガニーのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	ShadewoodSlingshot: {
+		DisplayName: シェイドウッドのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	TitaniumSlingshot: {
+		DisplayName: チタンのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			3回目はビー玉を複数発射する
+			'''
+	}
+
+	SnowballBlaster: {
+		DisplayName: スノーボールブラスター
+		Tooltip:
+			'''
+			雪玉を複数発射する
+			弾薬として雪玉を使用する
+			'''
+	}
+
+	SpiderBow: {
+		DisplayName: 蜘蛛の弓
+		Tooltip: 猛毒の矢を発射する
+	}
+
+	StinkBomb: {
+		DisplayName: スティンクボム
+		Tooltip: 悪臭の雲が発生する爆発が起きる
+	}
+
+	Stinksprayer: {
+		DisplayName: スティンクスプレー
+		Tooltip:
+			'''
+			悪臭の雲を発射する
+			弾薬を必要とせず、弾薬を消費しない
+			'''
+	}
+
+	TheBarrel: {
+		DisplayName: ザ・バレル
+		Tooltip:
+			'''
+			ランダムな魚を複数発射する
+			弾薬を必要とせず、弾薬を消費しない
+			「特定のダンジョンではかなり人気がある」
+			'''
+	}
+
+	TitaniumHuntingRifle: {
+		DisplayName: チタンの狩猟ライフル
+		Tooltip:
+			'''
+			弾速が早く強力な弾丸を発射する
+			敵に当たると衝撃波が発生することがある
+			'''
+	}
+
+	UnholyStar: {
+		DisplayName: アンホーリースター
+		Tooltip: 不浄の星を残していく矢を発射する
+	}
+
+	CorruptMimicStaff: {
+		DisplayName: 不浄のミミックの杖
+		Tooltip:
+			'''
+			共に戦う不浄ミミックを召喚する
+			呪炎を与えることがある
+			'''
+	}
+
+	CrimsonMimicStaff: {
+		DisplayName: 真紅のミミックの杖
+		Tooltip:
+			'''
+			共に戦う真紅ミミックを召喚する
+			霊液を与え、防御力を減少させる
+			'''
+	}
+
+	FoliageStaff: {
+		DisplayName: 枝葉の杖
+		Tooltip: 共に戦うベビープランテラを召喚する
+	}
+
+	HallowedMimicStaff: {
+		DisplayName: 聖域のミミックの杖
+		Tooltip:
+			'''
+			共に戦う聖域ミミックを召喚する
+			混乱を与えることがある
+			'''
+	}
+
+	LivingGemStaff: {
+		DisplayName: リビングジェムの杖
+		Tooltip: 共に戦うジェムゴーレムを召喚する
+	}
+
+	MimicStaff: {
+		DisplayName: ミミックの杖
+		Tooltip: 共に戦うミミックを召喚する
+	}
+
+	FiberglassWhip: {
+		DisplayName: グラスファイバーの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 5
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ほとんどの鞭よりも複数の敵に対して優れた性能を発揮する
+			'''
+	}
+
+	SerpentWhip: {
+		DisplayName: サーペインウィップ
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			酸性毒を与える
+			'''
+	}
+
+	StardustWhip: {
+		DisplayName: スターダストの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ 20
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると、ダメージを与えるスターダストセルが召喚される
+			'''
+	}
+
+	WoodenAxe: {
+		DisplayName: 木の斧
+		Tooltip: 「弱体化しているが、スピードは速い」
+	}
+
+	WoodenPickaxe: {
+		DisplayName: 木のつるはし
+		Tooltip: 「弱体化しているが、スピードは速い」
+	}
+
+	HoneydropProj2: {
+		DisplayName: 蜂蜜の雫
+		Tooltip: ""
+	}
+
+	AshWoodStake: {
+		DisplayName: アッシュウッドの杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	AcidBubbler: {
+		DisplayName: アシッドバブラー
+		Tooltip:
+			'''
+			毒を与える泡を発射する
+			弾薬を必要とせず、弾薬を消費しない
+			'''
+	}
+
+	MechanicalHandful: {
+		DisplayName: メカニカルハンドフル
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、複数の鞭を振るう
+			'''
+	}
+
+	GluttonousLeash: {
+		DisplayName: 貪欲な引き綱
+		Tooltip:
+			'''
+			敵に噛みつくハングリーを投げる
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いハングリーを[c/FFA000:3]つ投げる
+			'''
+	}
+
+	ChlorophyteBoStaff: {
+		DisplayName: クロロファイトの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してクロロファイトオーブを[c/FFA000:3]つ放つ
+	}
+
+	HallowedBoStaff: {
+		DisplayName: 聖なる棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いトゲを[c/FFA000:3]つ発射する
+	}
+
+	Droughtbringer: {
+		DisplayName: ドラウトブリンガー
+		Tooltip:
+			'''
+			高いダメージのオーラを放つ
+			ほとんどのヨーヨーより早く移動する
+			'''
+	}
+
+	WhineVine: {
+		DisplayName: ワインヴァイン
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇
+			'''
+	}
+
+	Chlorolash: {
+		DisplayName: クロロラッシュ
+		Tooltip:
+			'''
+			短時間残るトゲを発生させる
+			ブラッドラストの杭を[c/FFA000:3]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、地形を無視する
+			'''
+	}
+
+	ProtectorsShield: {
+		DisplayName: 守護者の盾
+		Tooltip:
+			'''
+			ノックバックを無効化する
+			ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+			チームプレイヤーのライフが200以下になるとポーション強化を与える
+			回復ポーションの回復量が50増加
+			'''
+	}
+
+	TornPage: {
+		DisplayName: 破れたページ
+		Tooltip: ""
+	}
+
+	ScrollofBloodMagic: {
+		DisplayName: 血の魔法の巻物
+		Tooltip: ブラッドオーブを発射する
+	}
+
+	BloodHunterLexicon: {
+		DisplayName: ブラッドハンターの辞書
+		Tooltip:
+			'''
+			弾薬スロットに置いた血のの着物を使って攻撃する
+			現在選択中の巻物によって違う攻撃を行う
+			右クリックを長押しで血の巻物のホイールを開く
+			巻物にカーソルを合わせて右クリックを離すと、巻物を選択できる
+			異なる巻物を組み合わせて、独自のシナジー効果を生み出そう
+			ブラッドラストの杭が多いほどダメージが減少する
+			'''
+	}
+
+	Paper: {
+		DisplayName: 紙
+		Tooltip: ""
+	}
+
+	DefiledScroll: {
+		DisplayName: 荒廃の巻物
+		Tooltip: 呪炎のシャワーを浴びせる
+	}
+
+	HematicScroll: {
+		DisplayName: 造血の巻物
+		Tooltip:
+			'''
+			イコルボールを召喚する
+			霊液を与え、防御力を減少させる
+			'''
+	}
+
+	SanguineScroll: {
+		DisplayName: 流血の巻物
+		Tooltip: 敵を追尾するブラッドオーブを発射する
+	}
+
+	LeafBlade: {
+		DisplayName: リーフブレード
+		Tooltip: 強力なリーフブレードを召喚する
+	}
+
+	LivingWoodScroll: {
+		DisplayName: リビングウッドの巻物
+		Tooltip: 鋭い葉を発射する
+	}
+
+	ScrollofFrosting: {
+		DisplayName: 氷柱の巻物
+		Tooltip: 霜焼けを与える氷柱を発射する
+	}
+
+	Eruption: {
+		DisplayName: イラプション
+		Tooltip:爆発するファイアボールを召喚する
+	}
+
+	Downpour: {
+		DisplayName: ダウンプア
+		Tooltip: 水のシャワーを浴びせる
+	}
+
+	Bread: {
+		DisplayName: パン
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「パンの耳をかじって！」
+			'''
+	}
+
+	Wheat: {
+		DisplayName: 小麦
+		Tooltip: 「信仰は一粒の麦のようなもの」
+	}
+
+	WheatSeeds: {
+		DisplayName: 小麦の種
+		Tooltip: 小麦が育つ
+	}
+
+	DarkbloodScroll: {
+		DisplayName: ダークブラッドの巻物
+		Tooltip: ""
+	}
+
+	ReadingSpecs: {
+		DisplayName: 読書用の眼鏡
+		Tooltip: 血の巻物のダメージが10%増加し、クリティカル率が10%上昇
+	}
+
+	BrinkofBlood: {
+		DisplayName: ブリンクオブブラッド
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費して強力な攻撃を行う
+			連続して杭を使うほどより強力になる
+			'''
+	}
+
+	Bloodstain: {
+		DisplayName: ブラッドスティン
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高く、
+			敵を追尾する血の泡を発射するダガーを[c/FFA000:3]本投げる
+			
+			'''
+	}
+
+	Jollylash: {
+		DisplayName: ジョリーラッシュ
+		Tooltip:
+			'''
+			召喚タグダメージ 10
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵を攻撃すると、ダメージを与える星を召喚する
+			「家族（部下）を集めて、美味しい食事（ボス）を召し上がれ」
+			'''
+	}
+
+	LavaniteBroadsword: {
+		DisplayName: ラヴァナイトの剣
+		Tooltip: 攻撃した敵を炎上させる
+	}
+
+	XenoniteClusterStaff: {
+		DisplayName: キセノナイトクラスターの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵にキセノンビームを発射するキセノナイトクラスターを召喚する
+			'''
+	}
+
+	NeonScepter: {
+		DisplayName: ネオンセプター
+		Tooltip: 左クリックを押し続けるとチャージし、苔の発射数を増加させる
+	}
+
+	HeliumRing: {
+		DisplayName: ヘリウムの指輪
+		Tooltip: ダメージが3増加
+	}
+
+	DarkbloodWings: {
+		DisplayName: ダークブラッドの翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	DarkbloodDrill: {
+		DisplayName: ダークブラッドのドリル
+		Tooltip: ""
+	}
+
+	DarkbloodHamaxe: {
+		DisplayName: ダークブラッドのハンマーアックス
+		Tooltip: ""
+	}
+
+	DarkbloodPickaxe: {
+		DisplayName: ダークブラッドのつるはし
+		Tooltip: ""
+	}
+
+	ArgonitePerforator: {
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してより遠くまで投げる
+		DisplayName: アルゴナイトパフォーレイター
+	}
+
+	PalladiumShield: {
+		DisplayName: パラジウムの盾
+		Tooltip:
+			'''
+			チームプレイヤーのライフが200以下になるとポーション強化を与える
+			回復ポーションの回復量が50増加
+			'''
+	}
+
+	JackOCrack: {
+		DisplayName: ジャック・オー・クラック
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、敵を攻撃すると敵を追尾するカボチャを召喚する
+			'''
+	}
+
+	AncientVPainting: {
+		DisplayName: 古代のV
+		Tooltip: 「D. Bart」
+	}
+
+	VitalityPainting: {
+		DisplayName: 生命
+		Tooltip: 「D. Bart」
+	}
+
+	VPainting: {
+		DisplayName: V
+		Tooltip: 「D. Bart」
+	}
+
+	GlacialBaton: {
+		DisplayName: 氷河のバトン
+		Tooltip:
+			'''
+			霜焼けを与える
+			ブラッドラストの杭を[c/FFA000:1]本消費して氷柱を[c/FFA000:3]つ放つ
+			'''
+	}
+
+	BloodHunterItem: {
+		DisplayName: ブラッドハンターのアイテム
+		Tooltip: あなたはこれを見るべきではない
+	}
+
+	BloodrockLance: {
+		DisplayName: ブラッドロックの槍
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して敵を追尾するボルトを[c/FFA000:3]発放つ
+	}
+
+	VampireFang: {
+		DisplayName: 吸血鬼の牙
+		Tooltip: ブラッドラストの獲得率が25%上昇
+	}
+
+	ChlorophyteVialRifle: {
+		DisplayName:  クロロファイトの小瓶のライフル
+		Tooltip:
+			'''
+			敵から小瓶のサンプルを採取するのに使う
+			弾薬として空の小瓶を使用する
+			'''
+	}
+
+	Glacier: {
+		DisplayName: グレイシャー
+		Tooltip: 霜焼けを与え、敵か地形に当たると爆発する氷柱を発射する
+	}
+
+	CarpentersSaw: {
+		DisplayName: 大工ののこぎり
+		Tooltip: ""
+	}
+
+	VenomBite: {
+		DisplayName: ヴェノムバイト
+		Tooltip: 複数の猛毒の牙に分裂する糸の玉を発射する
+	}
+
+	ChlorophyteDagger: {
+		DisplayName: クロロファイトのダガー
+		Tooltip: ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+	}
+
+	Piercicle: {
+		DisplayName: ピアシクル
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高い氷柱を[c/FFA000:5]本放つ
+	}
+
+	Pricklewire: {
+		DisplayName: プリクルワイヤー
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、攻撃した敵にスタックする流血を与える
+			'''
+	}
+
+	ThePlug: {
+		DisplayName: ザ・プラグ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、鞭のスイートスポットにエレクトロスフィアを発生させる
+			'''
+	}
+
+	SpookyStake: {
+		DisplayName: 不気味な木の杭
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高い杭を[c/FFA000:3]本投げる
+	}
+
+	MosquitoStylet: {
+		DisplayName: モスキートのスティレット
+		Tooltip: ""
+	}
+
+	Gluttony: {
+		DisplayName: グラトニー
+		Tooltip:
+			'''
+			敵に噛みつくハングリーを投げる
+			ブラッドラストの杭を[c/FFA000:1]本消費してライフを[c/FFA000:20]回復する
+			'''
+	}
+
+	Tarantulash: {
+		DisplayName: タランチュラシュ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、攻撃した敵に酸性毒を与える
+			'''
+	}
+
+	BloodrockCutter: {
+		DisplayName: ブラッドロックカッター
+		Tooltip: ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+	}
+
+	GlowingMossMusicBox: {
+		DisplayName: オルゴール (輝く苔)
+		Tooltip: ""
+	}
+
+	AdamantiteKnife: {
+		DisplayName: アダマンタイトのナイフ
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+	}
+
+	CobaltDagger: {
+		DisplayName: コバルトのダガー
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+	}
+
+	MythrilCutter: {
+		DisplayName: ミスリルカッター
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いカッターを[c/FFA000:3]本投げる
+	}
+
+	OrichalcumCutter: {
+		DisplayName: オリハルコンカッター
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いカッターを[c/FFA000:3]本投げる
+	}
+
+	PalladiumDagger: {
+		DisplayName: パラジウムのダガー
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+	}
+
+	TitaniumKnife: {
+		DisplayName: チタンのナイフ
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+	}
+
+	GlowshroomChestplate: {
+		DisplayName: 輝くキノコの胸当て
+		Tooltip:
+			'''
+			悪意ダメージが6%増加し、悪意クリティカル率が6%上昇
+			光をわずかに放つ
+			'''
+	}
+
+	GlowshroomHat: {
+		DisplayName: 輝くキノコの帽子
+		Tooltip:
+			'''
+			ブラッドラストの杭の最大本数が2増加
+			悪意ダメージが6%増加し、悪意クリティカル率が6%上昇
+			光をわずかに放つ
+			'''
+	}
+
+	GlowshroomLeggings: {
+		DisplayName: 輝くキノコのレギンス
+		Tooltip:
+			'''
+			悪意ダメージが6%増加し、悪意クリティカル率が6%上昇
+			移動速度が10%上昇
+			光をわずかに放つ
+			'''
+	}
+
+	Glowshroom: {
+		DisplayName: 輝くキノコ
+		Tooltip: 「光に魅せられて」
+	}
+
+	Grimmchild: {
+		DisplayName: グリムの子
+		Tooltip:
+			'''
+			敵を攻撃する相棒を召喚する
+			進行度合いによって強化される
+			召喚ダメージを与える
+			'''
+	}
+
+	SteelKnife: {
+		DisplayName: 鋼のナイフ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+			「刻印によるとステンレス製だ」
+			'''
+	}
+
+	BrokenHeartCharm: {
+		DisplayName: 壊れたハートのお守り
+		Tooltip:
+			'''
+			ブラッドラストの獲得率が25%上昇
+			ブラッドラストを獲得すると、悪意クリティカル率が最大で20%上昇
+			'''
+	}
+
+	PinnedHeart: {
+		DisplayName: 釘が刺さったハート
+		Tooltip: ブラッドラストを獲得すると、悪意クリティカル率が最大で20%上昇
+	}
+
+	Starfall: {
+		DisplayName: スターフォール
+		Tooltip: 敵を貫通する星を発射する
+	}
+
+	RegalWarCloak: {
+		DisplayName: 堂々とした戦争のマント
+		Tooltip: 「なぜか揚げ魚の匂いがする」
+	}
+
+	Brainrot: {
+		DisplayName: ブレインロット
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費して血流を[c/FFA000:3]つ放つ
+	}
+
+	TheWorm: {
+		DisplayName: ザ・ワーム
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、敵の防御力を5無視する
+			'''
+	}
+
+	ArcticToilet: {
+		DisplayName: アークティックのトイレ
+		Tooltip: ""
+	}
+
+	GeraniumToilet: {
+		DisplayName: ゼラニウムのトイレ
+		Tooltip: ""
+	}
+
+	AquaticMermanBanner: {
+		DisplayName: アクアティックマーマンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.AquaticMerman.DisplayName}"
+	}
+
+	PizzaCutter: {
+		DisplayName: ピザの一切れ
+		Tooltip:
+			'''
+			トッピングに分裂する
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高い一切れを[c/FFA000:3]つ投げる
+			「ピザをピザで切る！」
+			'''
+	}
+
+	ArcticKnife: {
+		DisplayName: アークティックのナイフ
+		Tooltip:
+			'''
+			定期的に氷柱を落とす
+			霜焼けを与え、他のデバフと相乗効果を発揮する
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いナイフを[c/FFA000:3]本投げる
+			'''
+	}
+
+	JellyfishWand: {
+		Tooltip: 共に戦う音符のクラゲを召喚する
+		DisplayName: クラゲの短杖
+	}
+
+	EelectricalStaff: {
+		Tooltip: 共に戦う電気ウナギを召喚する
+		DisplayName: 電気の杖
+	}
+
+	Wiretap: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃した敵に過負荷を与える
+			過負荷を受けた敵はミニオンから攻撃されると周囲にダメージを与える電気を放出する
+			'''
+		DisplayName: ワイヤータップ
+	}
+
+	Powerline: {
+		Tooltip:
+			'''
+			召喚タグダメージ 5
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: パワーライン
+	}
+
+	AncientBartPants: {
+		Tooltip: ""
+		DisplayName: 古代のBartのパンツ
+	}
+
+	AncientBartJacket: {
+		Tooltip: ""
+		DisplayName: 古代のBartのジャケット
+	}
+
+	AncientBartHat: {
+		Tooltip: ""
+		DisplayName: 古代のBartの帽子
+	}
+
+	BartShirt: {
+		Tooltip: 「開発者に成りすますのに最適！」
+		DisplayName: Bartのシャツ
+	}
+
+	StarVoulge: {
+		Tooltip: 強力な星を放つ
+		DisplayName: スターヴルジュ
+	}
+
+	TheDreamcatcher: {
+		Tooltip: 「Zzz...」
+		DisplayName: ドリームキャッチャー
+	}
+
+	Goldflower: {
+		Tooltip: ""
+		DisplayName: ゴールドフラワー
+	}
+
+	SkyBlossom: {
+		Tooltip: ""
+		DisplayName: スカイブロッサム
+	}
+
+	Pricklewand: {
+		Tooltip: ""
+		DisplayName: プリクルワンド
+	}
+
+	BloomBouquet: {
+		DisplayName: ブルームブーケ
+		Tooltip: ""
+	}
+
+	BlisterBlaster: {
+		DisplayName: ブリスターブラスター
+		Tooltip:
+			'''
+			散弾を発射する
+			霊液を与える小さなクリメラを発射することがある
+			'''
+	}
+
+	CrimsonCanniblaster: {
+		DisplayName: 真紅のクラブブラスター
+		Tooltip: 通常の弾丸を小さなクリメラに変換する
+	}
+
+	MartianGunnerChestplate: {
+		DisplayName: 火星の射手の胸当て
+		Tooltip:
+			'''
+			遠距離ダメージが20%増加
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	MartianGunnerHelmet: {
+		DisplayName: 火星の射手の兜
+		Tooltip: 遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
+	}
+
+	MartianGunnerLeggings: {
+		DisplayName: 火星の射手のすね当て
+		Tooltip:
+			'''
+			遠距離クリティカル率が10%上昇
+			移動速度が20%上昇
+			'''
+	}
+
+	MartianRadio: {
+		DisplayName: 火星のラジオ
+		Tooltip: 使用すると火星の侵攻が始まる
+	}
+
+	MartianScrap: {
+		DisplayName: 火星のスクラップ
+		Tooltip: ""
+	}
+
+	StrangeSaucerBanner: {
+		DisplayName: ストレンジソーサーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.StrangeSaucer.DisplayName}"
+	}
+
+	RottenAntlionBanner: {
+		DisplayName: 腐ったアントリオンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.RottenAntlion.DisplayName}"
+	}
+
+	SheddedAntlionBanner: {
+		DisplayName: 脱皮したアントリオンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.SheddedAntlion.DisplayName}"
+	}
+
+	AshWoodSlingshot: {
+		DisplayName: アッシュウッドのスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	Sugar: {
+		DisplayName: 砂糖
+		Tooltip: 「完全な無糖ではない…」
+	}
+
+	SugarBeet: {
+		DisplayName: テンサイ
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「応援してるよ！」
+			'''
+	}
+
+	SugarBeetSeeds: {
+		DisplayName: テンサイの種
+		Tooltip: テンサイが育つ
+	}
+
+	CherryCola: {
+		DisplayName: チェリーコーラ
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「チェリーピッキングソーダ！」
+			'''
+	}
+
+	CocoaBean: {
+		DisplayName: カカオ豆
+		Tooltip: ""
+	}
+
+	CoffeeBean: {
+		DisplayName: コーヒー豆
+		Tooltip: ""
+	}
+
+	ChocolateMilk: {
+		DisplayName: チョコレートミルク
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「はい、チョコレートミルクをどうぞ。だって君は最高だから！」
+			'''
+	}
+
+	MosquitoMasher: {
+		DisplayName: モスキートマッシャー
+		Tooltip:
+			'''
+			攻撃時、モスキートを放つ
+			ブラッドラストの杭を[c/FFA000:2]本消費してモスキートを複数放つ
+			'''
+	}
+
+	MeatyMushroom: {
+		DisplayName: 肉のキノコ
+		Tooltip:
+			'''
+			モスキートモナークを召喚する
+			不浄か真紅で使用できる
+			'''
+	}
+
+	MosquitoMonarchBossBag: {
+		DisplayName: トレジャーバッグ ({$Mods.VitalityMod.NPCs.MosquitoMonarchBoss.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MosquitoMonarchMask: {
+		DisplayName: モスキートモナークのマスク
+		Tooltip: ""
+	}
+
+	MosquitoMonarchRelic: {
+		DisplayName: モスキートモナークのレリック
+		Tooltip: ""
+	}
+
+	MosquitoMonarchTrophy: {
+		DisplayName: モスキートモナークのトロフィー
+		Tooltip: ""
+	}
+
+	MosquitoSwarmStaff: {
+		DisplayName: モスキートスワームスタッフ
+		Tooltip:
+			'''
+			共に戦う3匹のモスキートを召喚する
+			敵の防御力を25無視する
+			召喚タグダメージが25%減少する代わりに素早くヒットする
+			'''
+	}
+
+	BloodHarvester: {
+		DisplayName: ブラッドハーヴェスト
+		Tooltip:
+			'''
+			敵を追尾するモスキートを召喚する
+			敵の防御力を10無視する
+			'''
+	}
+
+	StyletSprayer: {
+		DisplayName: スティレットスプレー
+		Tooltip:
+			'''
+			弾薬として弾丸を使用する
+			鋭い針を発射する
+			敵の防御力を10無視する
+			'''
+	}
+
+	MonarchStaff: {
+		DisplayName: モナークの杖
+		Tooltip:
+			'''
+			敵を追尾するモスキートを召喚する
+			敵の防御力を10無視する
+			'''
+	}
+
+	MosquitoMonarchPetItem: {
+		DisplayName: 割れたモスキートの卵
+		Tooltip: 後をついてくるモスキートノーブルを召喚する
+	}
+
+	MosquitoMonarchMusicBox: {
+		DisplayName: オルゴール (モスキートモナーク)
+		Tooltip: ""
+	}
+
+	SanguineRing: {
+		DisplayName: 流血の指輪
+		Tooltip: 被ダメージを20%軽減し、ライフスティールエネルギーに変換する
+	}
+
+	RangerGlove: {
+		DisplayName: 狩人のグローブ
+		Tooltip:
+			'''
+			遠距離攻撃速度が12%上昇
+			遠距離武器のオート攻撃を有効にする
+			'''
+	}
+
+	IceStone: {
+		DisplayName: 氷の石
+		Tooltip: 遠距離武器で攻撃した敵に霜焼けを与える
+	}
+
+	FrozenGlove: {
+		DisplayName: 氷の手袋
+		Tooltip:
+			'''
+			遠距離攻撃速度が12%上昇
+			遠距離武器のオート攻撃を有効にする
+			遠距離武器で攻撃した敵に霜焼けを与える
+			'''
+	}
+
+	GuidetoWizardry: {
+		DisplayName: 魔法使いの説明書
+		Tooltip:
+			'''
+			魔法攻撃速度が12%上昇
+			魔法武器のオート攻撃を有効にする
+			'''
+	}
+
+	GuidetoShadowWizardry: {
+		DisplayName: 影の魔法使いの説明書
+		Tooltip:
+			'''
+			魔法攻撃速度が12%上昇
+			魔法武器のオート攻撃を有効にする
+			魔法武器で攻撃した敵にシャドウフレイムを与える
+			「私たちは呪文を唱えるのが大好きなんだ！」
+			'''
+	}
+
+	BOOMerang: {
+		DisplayName: ブームラング
+		Tooltip: 敵か地形に当たると爆発する
+	}
+
+	RegalRecurve: {
+		DisplayName: リーガルリカーブ
+		Tooltip:
+			'''
+			リーガルアローを発射する
+			敵の防御力を10無視する
+			'''
+	}
+
+	GildedGlory: {
+		DisplayName: ギルデッドグローリー
+		Tooltip:
+			'''
+			敵を追尾する金色のエネルギーを発射する
+			敵の防御力を10無視する
+			'''
+	}
+
+	Hrodreptus: {
+		DisplayName: フロドレプタス
+		Tooltip: 左クリックを押し続けるとチャージし、ダメージが増加し、大きくなるオーラを発生させる
+	}
+
+	WoodenSlingshot: {
+		DisplayName: 木のスリングショット
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			5回目はビー玉を複数発射する
+			'''
+	}
+
+	CrystalMarble: {
+		DisplayName: クリスタルのビー玉
+		Tooltip:
+			'''
+			スリングショットの弾薬として使う
+			衝撃で複数の破片に分裂する
+			'''
+	}
+
+	SoaringClaymore: {
+		DisplayName: 飛翔の大剣
+		Tooltip: 敵を攻撃すると攻撃速度が上昇する
+	}
+
+	StarSmasher: {
+		DisplayName: スタースマッシャー
+		Tooltip: 敵を攻撃すると星が複数発生する
+	}
+
+	ThousandDegreeKnife: {
+		DisplayName: 千度の巨大な包丁
+		Tooltip: 攻撃が複数回当たる
+	}
+
+	GiantKnife: {
+		Tooltip: ""
+		DisplayName: 巨大な包丁
+	}
+
+	SubZero: {
+		DisplayName: サブ-ゼロ
+		Tooltip: 2回目の攻撃で氷柱を複数放つ
+	}
+
+	SpareChange: {
+		DisplayName: スペアチェンジ
+		Tooltip:
+			'''
+			敵を攻撃するとお金を落とすことがある
+			ミニオンと連動する
+			'''
+	}
+
+	ShroomiteClaymore: {
+		DisplayName: シュルーマイトの大剣
+		Tooltip: 敵を攻撃すると寄生を与える光るキノコを召喚する
+	}
+
+	ForbiddenHandbook: {
+		DisplayName: 禁断の小冊子
+		Tooltip: 禁断のボルトを空から降らせる
+	}
+
+	MetalsmithChestplate: {
+		DisplayName: 金属細工師の胸当て
+		Tooltip: 採掘スピードが13%上昇
+	}
+
+	MetalsmithHelmet: {
+		DisplayName: 金属細工師の兜
+		Tooltip: ダメージが1増加
+	}
+
+	MetalsmithLeggings: {
+		DisplayName: 金属細工師のすね当て
+		Tooltip: 移動速度が15%上昇
+	}
+
+	EctoCore: {
+		DisplayName: エクトコア
+		Tooltip: ""
+	}
+
+	Bonemerang: {
+		DisplayName: ボーンメラン
+		Tooltip: 敵か地形に当たると複数の骨に分裂する
+	}
+
+	GlowingMossKey: {
+		DisplayName: 輝く苔の鍵
+		Tooltip: ダンジョンにある輝く苔の宝箱を開ける
+	}
+
+	GlowingMossChest: {
+		DisplayName: 輝く苔の宝箱
+		Tooltip: ""
+	}
+
+	GlowingMothShiv: {
+		DisplayName: 輝く苔のシバ
+		Tooltip: ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高いモスを[c/FFA000:5]匹召喚する
+	}
+
+	Beetlegeuse: {
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して液体の呪炎を[c/FFA000:3]発放つ
+		DisplayName: ビートルゲウス
+	}
+
+	Dissonance: {
+		DisplayName: ディソナンス
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して闇の欠片を複数放つ
+	}
+
+	Purifier: {
+		DisplayName: ピュリファイア
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いトゲを[c/FFA000:3]発放つ
+	}
+
+	HellCarver: {
+		DisplayName: 地獄の包丁
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いファイアボールを[c/FFA000:3]発放つ
+	}
+
+	Equilibrium: {
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費して光の欠片と闇の欠片を複数放つ
+			欠片は混乱を与えることがある
+			'''
+		DisplayName: イクィリブリアム
+	}
+
+	Harmony: {
+		DisplayName: ハーモニー
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			ダガーは敵か地形に当たると跳ね返る
+			'''
+	}
+
+	PocketMachete: {
+		DisplayName: 携帯マチェーテ
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いマチェーテを[c/FFA000:3]本投げる
+	}
+
+	TridentoftheCorruption: {
+		Tooltip: ブラッドラストの杭を[c/FFA000:1]本消費して敵を追尾する小さなイーターを[c/FFA000:3]匹召喚する
+		DisplayName: 不浄のトライデント
+	}
+
+	ShroomiteBoStaff: {
+		DisplayName: シュルーマイトの棒
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して敵を追尾するキノコを[c/FFA000:4]つ放つ
+	}
+
+	NerveBundle: {
+		DisplayName: ナーヴバンドル
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:1]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、混乱を与える
+			'''
+	}
+
+	TheConductor: {
+		DisplayName: ザ・コンダクター
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してブルウィップの狂乱を発動する
+			ブルウィップの狂乱中、攻撃速度が上昇し、スイートスポットから放電し、近くの敵を攻撃する
+			'''
+	}
+
+	Mummifier: {
+		DisplayName: マミファイアー
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してブルウィップの狂乱を発動する
+			近くの敵を攻撃するマミーを召喚する
+			'''
+	}
+
+	CarefreeMelody: {
+		DisplayName: 陽気なメロディ
+		Tooltip:
+			'''
+			被ダメージを無効化することがある
+			無効化に失敗するたびに確率が上昇する
+			無効化するとクールダウンが終了するまで確率がリセットされる
+			30秒のクールダウンがある
+			'''
+	}
+
+	BubbleBlast: {
+		DisplayName: バブルバースト
+		Tooltip: 上に飛んでいく泡を複数発射する
+	}
+
+	LightShow: {
+		DisplayName: ライトショー
+		Tooltip: ""
+	}
+
+	ScrollofJewels: {
+		DisplayName: 宝石の巻物
+		Tooltip:
+			'''
+			宝石のボルトを発射する
+			無防備を与え、被ダメージを10%増加させる
+			'''
+	}
+
+	Thundershock: {
+		DisplayName: サンダーショック
+		Tooltip: 素早く鋭い電撃を発射する
+	}
+
+	DukesTusk: {
+		DisplayName: デュークの牙
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			敵を追尾する泡を残す
+			'''
+	}
+
+	LivingWoodFishingPole: {
+		DisplayName: リビングウッドの釣竿
+		Tooltip:
+			'''
+			ジャンクを釣り上げない
+			エサを消費しにくい
+			'''
+	}
+
+	Hivetail: {
+		DisplayName: ハイブテイル
+		Tooltip: ""
+	}
+
+	NectaRay: {
+		DisplayName: ネクタレイ
+		Tooltip: ""
+	}
+
+	PancakeFish: {
+		DisplayName: パンケーキフィッシュ
+		Tooltip: ライフ自然回復を増進
+	}
+
+	EmberscaleGuppy: {
+		DisplayName: エンバースケールグッピー
+		Tooltip: ""
+	}
+
+	IgneousEel: {
+		DisplayName: 火成ウナギ
+		Tooltip: ""
+	}
+
+	MagmaDrifter: {
+		DisplayName: マグマドリフター
+		Tooltip: ""
+	}
+
+	HoneyedBoots: {
+		DisplayName: 蜂蜜のブーツ
+		Tooltip:
+			'''
+			超高速走行できる
+			蜂蜜ブロックの上でも移動速度が低下しなくなり、
+			上を歩くとライフ自然回復を増進
+			'''
+	}
+
+	StickyHiveBand: {
+		Tooltip:
+			'''
+			共に戦う蜂を召喚する
+			召喚ダメージを与える
+			'''
+		DisplayName: 粘つく巣の腕輪
+	}
+
+	NectarAmulet: {
+		Tooltip: ミニオンが敵にダメージを与えた際、一定確率でライフが回復する
+		DisplayName: ネクターのお守り
+	}
+
+	HoneycombAmulet: {
+		DisplayName: ハチの巣のお守り
+		Tooltip:
+			'''
+			共に戦う蜂を召喚する
+			ミニオンが時折、敵に攻撃を当てると蜂を放つ
+			ミニオンが敵にダメージを与えた際、一定確率でライフが回復する
+			'''
+	}
+
+	BeekeepersBadge: {
+		Tooltip: ミニオンが時折、敵に攻撃を当てると蜂を放つ
+		DisplayName: ビーキーパーのバッジ
+	}
+
+	BeeCrate: {
+		DisplayName: 蜂の箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	WaspCrate: {
+		DisplayName: ワスプの箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ShimmerFishingHook: {
+		DisplayName: 耐シマー釣り針
+		Tooltip: シマーで釣りができる
+	}
+
+	GlimmerEel: {
+		DisplayName: グリマーイール
+		Tooltip: ""
+	}
+
+	Faefish: {
+		DisplayName: フェアフィッシュ
+		Tooltip: ""
+	}
+
+	EtherealMinnow: {
+		DisplayName: エーテルミノー
+		Tooltip: ""
+	}
+
+	CrystallineBass: {
+		DisplayName: クリスタラインバス
+		Tooltip: ""
+	}
+
+	Stonefish: {
+		DisplayName: 石魚
+		Tooltip: ""
+	}
+
+	AetherCrate: {
+		DisplayName: エーテルの箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ShimmerCrate: {
+		DisplayName: シマーの箱
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	FaelingStaff: {
+		DisplayName: フェイリングの杖
+		Tooltip: 共に戦うフェイリングを召喚する
+	}
+
+	PrismaticFangblade: {
+		DisplayName: 虹の牙の剣
+		Tooltip: 敵を攻撃すると衝撃波を放つ
+	}
+
+	RadiantTome: {
+		DisplayName: 輝きの本
+		Tooltip: 弾速が遅い衝撃波を発射する
+	}
+
+	GeoformedPickaxe: {
+		Tooltip: ""
+		DisplayName: ジオフォームドのつるはし
+	}
+
+	GeoformedLeggings: {
+		Tooltip: ""
+		DisplayName: ジオフォームドのすね当て
+	}
+
+	GeoformedHelmet: {
+		Tooltip: ""
+		DisplayName: ジオフォームドの兜
+	}
+
+	GeoformedHamaxe: {
+		Tooltip: ""
+		DisplayName: ジオフォームドのハンマーアックス
+	}
+
+	GeoformedGlimmerWand: {
+		Tooltip: 衝撃波を発生させるエネルギーのオーブを発射する
+		DisplayName: ジオフォームドグリマーの杖
+	}
+
+	GeoformedEnergyBlaster: {
+		Tooltip: 近くの敵に跳ね返る弾丸を発射する
+		DisplayName: ジオフォームドエネルギーブラスター
+	}
+
+	GeoformedBreastplate: {
+		Tooltip: ""
+		DisplayName: ジオフォームドの胸当て
+	}
+
+	GeoformedBlade: {
+		Tooltip: 強力なオーラを発生させる
+		DisplayName: ジオフォームドの剣
+	}
+
+	GeoformedAlloy: {
+		Tooltip: ""
+		DisplayName: ジオフォームドの合金
+	}
+
+	OlympianKnife: {
+		DisplayName: オリンピアンのナイフ
+		Tooltip:
+			'''
+			ナイフを追加で投げることがある
+			敵の防御力を10無視する
+			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高いナイフを[c/FFA000:3-6]本投げる
+			'''
+	}
+
+	OlympianBreastplate: {
+		DisplayName: オリンピアンの胸当て
+		Tooltip: 近接ダメージが14%増加
+	}
+
+	OlympianHelmet: {
+		DisplayName: オリンピアンの兜
+		Tooltip: 近接クリティカル率が7%上昇
+	}
+
+	OlympianLeggings: {
+		DisplayName: オリンピアンのすね当て
+		Tooltip: 近接攻撃速度と移動速度が9%上昇
+	}
+
+	OlympianTrident: {
+		DisplayName: オリンピアンのトライデント
+		Tooltip:
+			'''
+			左クリックで槍として使う
+			右クリックで投げる
+			敵の防御力を10無視する
+			'''
+	}
+
+	ScubaFabric: {
+		Tooltip:
+			'''
+			取り出し機で使用できる
+			「まだ水っぽい…」
+			'''
+		DisplayName: スキューバの布
+	}
+
+	FrostHowlerStaff: {
+		Tooltip: 共に戦う雪のオオカミを召喚する
+		DisplayName: 雪のオオカミの杖
+	}
+
+	ShatterstormRifle: {
+		DisplayName: 粉砕の嵐のライフル
+		Tooltip:
+			'''
+			通常の弾丸をアークティックの弾丸に変換する
+			近距離でダメージが増加し、氷の霧が発生することがある
+			通常の敵を攻撃すると移動速度を低下させる
+			'''
+	}
+
+	Whirlwind: {
+		DisplayName: ワールウィンド
+		Tooltip: 近くの敵を吹き飛ばすことがある
+	}
+
+	BlizzardStriker: {
+		DisplayName: ブリザードストライカー
+		Tooltip:
+			'''
+			矢が敵に当たると、氷柱を生成する
+			吹雪の矢を使うと、敵に当たると小さな竜巻が発生する
+			竜巻は1つだけ存在できる
+			'''
+	}
+
+	CactusCrusher: {
+		DisplayName: サボテンクラッシャー
+		Tooltip:
+			'''
+			発射時、敵に当たると張り付く
+			再度左クリックで外れる
+			'''
+	}
+
+	Bambow: {
+		DisplayName: 竹の弓
+		Tooltip: 竹の矢を発射する
+	}
+
+	Shadowrang: {
+		DisplayName: シャドウラング
+		Tooltip:
+			'''
+			最大で2つのブーメランを投げる
+			シャドウフレイムを与えることがある
+			'''
+	}
+
+	CrimsonFangChakram: {
+		DisplayName: 真紅の牙のチャクラム
+		Tooltip:
+			'''
+			最大で2つのチャクラムを投げる
+			敵に当たるとライフが回復することがある
+			'''
+	}
+
+	JungleRainMusicBox: {
+		DisplayName: オルゴール (雨のジャングル)
+		Tooltip: ""
+	}
+
+	GrandMandibleBlade: {
+		DisplayName: 巨大な大顎の刃
+		Tooltip: 砂の粒を放つ
+	}
+
+	AstralCharm: {
+		DisplayName: 星のお守り
+		Tooltip:
+			'''
+			昼間にダメージが10%増加
+			夜間にクリティカル率が10%上昇
+			'''
+	}
+
+	FossilizedChains: {
+		DisplayName: 化石化した鎖
+		Tooltip: ダメージを受けると防御力が8増加する
+	}
+
+	MoonbindersOrb: {
+		DisplayName: ムーンバインダーのオーブ
+		Tooltip: 夜間にクリティカル率が10%上昇
+	}
+
+	ScorpionTail: {
+		DisplayName: サソリの尻尾
+		Tooltip:
+			'''
+			触れた敵に酸性毒を与える
+			酸性毒耐性
+			'''
+	}
+
+	SolarbrandRing: {
+		DisplayName: ソーラーバインダーの指輪
+		Tooltip: 昼間にダメージが10%増加
+	}
+
+	MirageCharm: {
+		DisplayName: 幻影のお守り
+		Tooltip: 砂漠にいるなら攻撃を20%の確率で回避する
+	}
+
+	DivineElixir: {
+		DisplayName: 神聖な霊薬
+		Tooltip:
+			'''
+			致命的なダメージを受けても死なず、最大ライフの25%で復活する
+			クールダウンは3分
+			「不思議なことに、時間とともに補充される…」
+			'''
+	}
+
+	FrozenFang: {
+		DisplayName: 氷の牙
+		Tooltip: 霜焼けか凍傷を受けている敵に対してダメージが15%増加
+	}
+
+	IceboundMedallion: {
+		DisplayName: アイスバウンドのメダル
+		Tooltip:
+			'''
+			攻撃を行うと、冷気エネルギーのスタックが蓄積される
+			蓄積は1秒のクールダウンがある
+			スタックが5に達すると、アイスバウンドを短時間得る
+			このバフを受けているなら通常の敵にディープフリーズを短時間与え
+			敵をその場に凍結させ、被ダメージを25%増加させる
+			'''
+	}
+
+	CactusSafeguard: {
+		DisplayName: サボテンのセーフガード
+		Tooltip: 触れた敵に流血を与えることがある
+	}
+
+	DustcallerTalisman: {
+		DisplayName: 塵呼びのタリスマン
+		Tooltip:
+			'''
+			敵を攻撃すると塵の竜巻を召喚する
+			4秒のクールダウンがある
+			'''
+	}
+
+	OceanRainMusicBox: {
+		DisplayName: オルゴール (雨の海)
+		Tooltip: ""
+	}
+
+	DecayingBatBanner: {
+		DisplayName: ディケイイングバットのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.DecayingBat.DisplayName}"
+	}
+
+	LeechingBatBanner: {
+		DisplayName: リーチングバットのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.LeechingBat.DisplayName}"
+	}
+
+	LeatherCap: {
+		DisplayName: 草の帽子
+		Tooltip: クリティカル率が10%上昇
+	}
+
+	LeatherPants: {
+		DisplayName: 草のパンツ
+		Tooltip: ジャンプ速度と落下耐性が増加
+	}
+
+	LeatherTunic: {
+		DisplayName: 草の上衣
+		Tooltip: 寒さや凍結を無効化する
+	}
+
+	CinderScale: {
+		DisplayName: シンダーの鱗
+		Tooltip: ""
+	}
+
+	MagmaSharkBanner: {
+		DisplayName: マグマシャークのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.MagmaShark.DisplayName}"
+	}
+
+	DuoFlower: {
+		DisplayName: デュオフラワー
+		Tooltip:
+			'''
+			左クリックでファイアボールを発射する
+			右クリックでフロストボールを発射する
+			両方の攻撃を組み合わせると、攻撃した敵から蒸気が噴出する
+			'''
+	}
+
+	EssenceofNature: {
+		DisplayName: 自然のエッセンス
+		Tooltip: ""
+	}
+
+	EssenceofWater: {
+		DisplayName: 水のエッセンス
+		Tooltip: ""
+	}
+
+	CursedKnife: {
+		DisplayName: 呪いのナイフ
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			呪炎の軌道を残し、敵か地形に当たると爆発する
+			'''
+	}
+
+	DragonDagger: {
+		DisplayName: ドラゴンダガー
+		Tooltip:
+			'''
+			ブラッドラストの杭を[c/FFA000:3]本消費してドラゴンブレスを発動する
+			ドラゴンブレスは5秒間持続し、炎を吐ける
+			'''
+	}
+
+	CinderstormBow: {
+		DisplayName: シンダーストームボウ
+		Tooltip: 矢が敵に当たると爆発する
+	}
+
+	AmberTrident: {
+		DisplayName: コハクのトライデント
+		Tooltip: コハクボルトを複数発射する
+	}
+
+	IchorDagger: {
+		DisplayName: 霊液のダガー
+		Tooltip:
+			'''
+			霊液を与える
+			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
+			'''
+	}
+
+	SwordofFrosting: {
+		DisplayName: 落霜の剣
+		Tooltip: 小さな冷気を放つ
+	}
+
+	SharpeningStone: {
+		DisplayName: 砥石
+		Tooltip: 槍のダメージが15%増加
+	}
+
+	ObsidianSpearhead: {
+		DisplayName: 黒曜石の槍先
+		Tooltip: 敵の防御力を10無視する
+	}
+
+	SpearWristguard: {
+		DisplayName: 槍のリストガード
+		Tooltip:
+			'''
+			槍での攻撃が敵に当たるたびに攻撃速度が1%上昇し、最大30%で上昇する
+			敵を攻撃せずに5秒経過すると攻撃速度の上昇がなくなる
+			'''
+	}
+
+	SpearAccessoryBag: {
+		DisplayName: 槍のアクセサリーバッグ
+		Tooltip:
+			'''
+			槍のダメージが15%増加し、敵の防御力を10無視する
+			槍での攻撃が敵に当たるたびに攻撃速度が1%上昇し、最大30%で上昇する
+			敵を攻撃せずに5秒経過すると攻撃速度の上昇がなくなる
+			'''
+	}
+
+	ChickenEgg: {
+		DisplayName: ニワトリの卵
+		Tooltip: 「これは実にワクワクする！」
+	}
+
+	ChickenBanner: {
+		DisplayName: ニワトリのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.Chicken.DisplayName}"
+	}
+
+	Chicken: {
+		DisplayName: ニワトリ
+		Tooltip: ""
+	}
+
+	BlackChicken: {
+		DisplayName: 黒いニワトリ
+		Tooltip: ""
+	}
+
+	BrownChicken: {
+		DisplayName: 茶のニワトリ
+		Tooltip: ""
+	}
+
+	BrownChickenCage: {
+		DisplayName: テラリウム（茶のニワトリ）
+		Tooltip: ""
+	}
+
+	BlackChickenCage: {
+		DisplayName: テラリウム（黒いニワトリ）
+		Tooltip: ""
+	}
+
+	ChickenCage: {
+		DisplayName: テラリウム（ニワトリ）
+		Tooltip: ""
+	}
+
+	SporePuffer: {
+		DisplayName: スポアパファー
+		Tooltip:
+			'''
+			胞子雲を発射する
+			弾薬を必要とせず、弾薬を消費しない
+			'''
+	}
+
+	CerberusPetItem: {
+		DisplayName: 古いトゲ付きの首輪
+		Tooltip: 後をついてくるケルベロスを召喚する
+	}
+
+	MossMothBanner: {
+		DisplayName: 苔のモスのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.MossMoth.DisplayName}"
+	}
+
+	MossSkeletonBanner: {
+		DisplayName: 苔のスケルトンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.MossSkeleton.DisplayName}"
+	}
+
+	BowofThorns: {
+		Tooltip: 攻撃した敵に毒を与える
+		DisplayName: 茨の弓
+	}
+
+	PhoenixBoots: {
+		DisplayName: 不死鳥の靴
+		Tooltip:
+			'''
+			空を飛べる 
+			超高速走行できる 
+			落下ダメージを無効化する
+			燃えるブロックのダメージを無効化
+			歩いた後に炎の軌跡が残る
+			'''
+	}
+
+	ChlorophyteRevolver: {
+		DisplayName: クロロファイトのリボルバー
+		Tooltip:
+			'''
+			通常の弾丸を強化し、近距離でダメージが増加
+			右クリックで射撃モードを切り替える
+			ダメージが減少し、弾丸が拡散しやすくなるが、連射速度が上昇
+			6発ごとにリロードが必要
+			'''
+	}
+
+	MoonlightDragonflyMountItem: {
+		DisplayName: 泡の蓮
+		Tooltip: 騎乗（月のトンボ）を召喚する
+	}
+
+	BubbleflyStaff: {
+		Tooltip: 共に戦うバブルフライを召喚する
+		DisplayName: バブルフライの杖
+	}
+
+	BlackChickenItem: {
+		DisplayName: 黒いニワトリ
+		Tooltip: ""
+	}
+
+	BrownChickenItem: {
+		DisplayName: 茶のニワトリ
+		Tooltip: ""
+	}
+
+	ChickenItem: {
+		DisplayName: ニワトリ
+		Tooltip: ""
+	}
+
+	HellFork: {
+		Tooltip: 炎を放つ
+		DisplayName: 地獄のフォーク
+	}
+
+	NimbusIdol: {
+		DisplayName: ニンバスの霊像
+		Tooltip: 雨を降らせるか、止ませる
+	}
+
+	StormCloud2MusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (ストームクラウド フェーズ2)
+	}
+
+	CrimsonRainMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (雨の真紅)
+	}
+
+	CorruptionRainMusicBox: {
+		Tooltip: ""
+		DisplayName: オルゴール (雨の不浄)
+			
+	}
+}
+
+NPCs: {
+	BigEater: {
+		DisplayName: ビッグイーター
+		BestiaryFlavorText: 不浄から生まれた純粋な悪意の存在であり、その唯一の本能は追跡し、罰し、殺すことである。
+	}
+
+	AnarchulesBeetleBoss: {
+		DisplayName: アナクルスビートル
+		BestiaryFlavorText: アナクルスビートルは、ねじれた不浄によってその恐ろしい姿へと変貌を遂げた。怒りに満ち溢れ、目の前のものを破壊することを止めない。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を不浄か真紅で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	ChaosbringerBoss: {
+		DisplayName: カオスブリンガー
+		BestiaryFlavorText: カオスブリンガーは、聖域に混沌をもたらす。エンプレスオブライトから教えを受け、虹色の攻撃を用いて混沌以外の全てを圧倒する。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を夜間の聖域で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	DreadnaughtBoss: {
+		DisplayName: ドレッドノート
+		BestiaryFlavorText: ドレッドノートは地下世界のの守護者だ。太陽に匹敵するほどの高温の炎で侵入者を焼き尽くす。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を地下世界で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	GemstoneElementalBoss: {
+		DisplayName: ジェムストーンエレメンタル
+		BestiaryFlavorText: 宝石でできた精霊。光っていないものは全て破壊する。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を地下で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	GrandAntlionBoss: {
+		DisplayName: 巨大なアントリオン
+		BestiaryFlavorText: この攻撃的な巨大なアントリオンは、怒りに燃えながら砂漠を徘徊し、近隣に生息する生き物たちに自らの優位性を誇示している。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を砂漠で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	MosquitoMonarchBoss: {
+		DisplayName: モスキートモナーク
+		BestiaryFlavorText: この巨大な蚊は、敵の血を得るためならどんな手段も厭わない。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を不浄か真紅で使う"
+			DespawnMessage: ""
+		}
+	}
+
+	MoonlightDragonflyBoss: {
+		DisplayName: 月光のトンボ
+		BestiaryFlavorText: この巨大なトンボは、月の光から直接エネルギーを得るため、夜間に最も活発に活動する。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を夜間の海で使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	FallenSpirit: {
+		DisplayName: フォールンスピリット
+		BestiaryFlavorText: これらの存在は、極めて高濃度なエクトソウルの集合体である。彼らは苦悶の表情を浮かべながら、次の犠牲者を求めて彷徨っている。
+	}
+
+	FallenSpirit2.DisplayName: フォールンスピリット
+	HealingSoul.DisplayName: 癒しの魂
+
+	PaladinSpiritBoss: {
+		DisplayName: パラディンスピリット
+		BestiaryFlavorText: 伝説によると、パラディンスピリットは、何十年も前に廃墟と化した古代都市の、今は失われてしまった守護者だったという。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} をダンジョンで使う。"
+			DespawnMessage: ""
+		}
+	}
+
+	SpiritHammer.DisplayName: スピリットハンマー
+
+	StormCloudBoss: {
+		DisplayName: ストームクラウド
+		BestiaryFlavorText: ストームクラウドは空の守護者だ。雷と灼熱の雨で潜在的な脅威を攻撃する。
+
+		BossChecklistIntegration: {
+			SpawnInfo: "{0} を地上で使う"
+			DespawnMessage: ""
+		}
+	}
+
+	CrystalBasilisk: {
+		DisplayName: クリスタルバジリスク
+		BestiaryFlavorText: クリスタルの欠片が徐々にバジリスクの硬化した体に浸透し、彼らは激しい攻撃に耐えられるようになった。
+	}
+
+	RattlingArcher: {
+		DisplayName: ラトリングアーチャー
+		BestiaryFlavorText: ラトリングアーチャーは、一般的に目が少ないにもかかわらず、高い視力を持つ。距離をとっても彼らの鋭い矢から身を守ることはできない。
+	}
+
+	DynamiteSnowman: {
+		DisplayName: ダイナマイトスノーマン
+		BestiaryFlavorText: 彼らの主な目的は大騒ぎを起こして、その後は誰のことも知らないふりをすることだ。
+	}
+
+	ForestSpirit: {
+		DisplayName: フォレストスピリット
+		BestiaryFlavorText: これらの種子のような生き物は、自分たちの住処を破壊する者を探し求めて徘徊している。
+	}
+
+	FungalTortoise: {
+		DisplayName: ファンガルタートル
+		BestiaryFlavorText: これらの亀は菌類に完全に侵食されている。攻撃時には、自らを飛ばすだけでなく、胞子をまき散らす。
+	}
+
+	AmberSlime: {
+		DisplayName: コハクスライム
+		BestiaryFlavorText: 地下に生息するスライムは、コハクを吸収して鎧として利用している。
+	}
+
+	AmethystSlime: {
+		DisplayName: アメジストスライム
+		BestiaryFlavorText: 地下に生息するスライムは、アメジストを吸収して鎧として利用している。
+	}
+
+	DiamondSlime: {
+		DisplayName: ダイヤモンドスライム
+		BestiaryFlavorText: 地下に生息するスライムは、ダイヤモンドを吸収して鎧として利用している。
+	}
+
+	EmeraldSlime: {
+		DisplayName: エメラルドスライム
+		BestiaryFlavorText: 地下に生息するスライムは、エメラルドを吸収して鎧として利用している。
+	}
+
+	RubySlime: {
+		DisplayName: ルビースライム
+		BestiaryFlavorText: 地下に生息するスライムは、ルビーを吸収して鎧として利用している。
+	}
+
+	SapphireSlime: {
+		DisplayName: サファイアスライム
+		BestiaryFlavorText: 地下に生息するスライムは、サファイアを吸収して鎧として利用している。
+	}
+
+	TopazSlime: {
+		DisplayName: トパーズスライム
+		BestiaryFlavorText: 地下に生息するスライムは、トパーズを吸収して鎧として利用している。
+	}
+
+	BluePixie: {
+		DisplayName: ブルーピクシー
+		BestiaryFlavorText: 普通のより大きくて輝いている妖精の一種。ピクシーは聖域に祝福された光を与え、土地の浄化を行う。
+	}
+
+	Gastropod2: {
+		DisplayName: 貝殻のガストロポッド
+		BestiaryFlavorText: 夜行性のスライムが祝福され、高出力のビームを吐きながら浮遊するカタツムリのような生き物に進化した。
+	}
+
+	GreenPixie: {
+		DisplayName: グリーンピクシー
+		BestiaryFlavorText: 普通のより大きくて輝いている妖精の一種。ピクシーは聖域に祝福された光を与え、土地の浄化を行う
+	}
+
+	PinkPixie: {
+		DisplayName: ピンクピクシー
+		BestiaryFlavorText: 普通のより大きくて輝いている妖精の一種。ピクシーは聖域に祝福された光を与え、土地の浄化を行う
+	}
+
+	IceChime: {
+		DisplayName: 氷の風鈴
+		BestiaryFlavorText: これらの氷のような風鈴は、優しい音色で獲物を誘い込む。
+	}
+
+	Gladiator: {
+		DisplayName: 剣闘士
+		BestiaryFlavorText: 深く埋められた古代文明の遺跡にて、今でも剣を振るう兵士達が大理石で装飾された道を歩いている。
+	}
+
+	GiantEyeSpring: {
+		DisplayName: ギガントアイスピリング
+		BestiaryFlavorText: バネのような体を持つ巨大な目。最も暗い日には、ぴょんぴょん跳ね回る。
+	}
+
+	HeatwaveZombie: {
+		DisplayName: 熱波のゾンビ
+		BestiaryFlavorText: 砂浜でゾンビに変身するのはかなり気まずい。しかし、だからといって脳を食べる本能が止まるわけではない。
+	}
+
+	Pufferfish: {
+		DisplayName: フグ
+		BestiaryFlavorText: フグは危険を感じると体を膨らませる。深刻な危害を加えてくる可能性がある。
+	}
+
+	ScubaZombie: {
+		DisplayName: スキューバゾンビ
+		BestiaryFlavorText: スキューバダイビングをするゾンビたちは海の隅々まで探検してきたが、その体験を語り継ぐほどの生還者はほとんどいない。
+	}
+
+	UmbrellaZombie: {
+		DisplayName: アンブレラゾンビ
+		BestiaryFlavorText: ゾンビの中には、頼りになる傘付き帽子なしでは家を出ない者もいる。快適な傘のおかげで、どんな天候でも人間の肉を求めて彷徨うことができるのだ。
+	}
+
+	TaintedBasilisk: {
+		DisplayName: 腐ったバジリスク
+		BestiaryFlavorText: 真紅に侵されたバジリスクは常に怒りに満ちており、恐ろしい捕食者となっている。
+	}
+
+	MasterChef: {
+		DisplayName: マスターシェフ
+		BestiaryFlavorText: マスターシェフの性格は扱いづらいところもあるが、彼が作る料理はいつも最高に素晴らしい！
+
+		TownNPCMood: {
+			Content: 俺は満足しているぞ。
+			NoHome: 家を持っていないのが嫌だ。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 沢山のスペースがあるのがいいな。
+			DislikeCrowded: 人混みが嫌いだ。
+			HateCrowded: こんなに混んでいるのは嫌だ。
+			LoveBiome: "{BiomeName}を愛している。"
+			LikeBiome: "{BiomeName}が好きだ。"
+			DislikeBiome: "{BiomeName}が嫌いだ。"
+			LoveNPC: "{NPCName}を愛している。"
+			LikeNPC: "{NPCName が好きだ。"
+			DislikeNPC: "{NPCName}が嫌いだ。"
+			HateNPC: "{NPCName}が大嫌いだ。"
+			LikeNPC_Princess: "{NPCName}が好きだ。"
+			Princess_LovesNPC: "{NPCName}が好きだ。"
+		}
+
+		Census.SpawnCondition: インベントリに[i:5] キノコがある
+
+		Names: {
+			Gordon: ゴードン
+			Smith: スマス
+			Will: ウィル
+			Carol: キャロル
+			Steven: スティーブン
+			Ainsley: エインズリー
+			Cody: コーディ
+			Peppino: ペッピーノ
+		}
+
+		Dialogue: {
+			Dialogue1: ポーションは健康的な食事の一部ではないことを{0}に伝えられるか？
+			Dialogue2: 次は魚にちゃんと火が通っているか確認しろよ！
+			Dialogue3: 料理をまともに作れないなら出て行け！
+			Dialogue4: ポーションにお金を無駄遣いせずに、ちゃんとした食事を摂れよ！
+			Dialogue5: 焦げたステーキを作るなよ、このロバ！
+			Dialogue6: 時間を無駄にするなよ、お前は料理もできないのだから！
+			Dialogue7: お前のひどい料理の腕前を確かめるためだけに引っ越してきた。
+			Dialogue8: きっとお前は卵を料理しようとするたびにキッチンを火事にしているんだろうな。
+			ShimmerDialogue1: ピザ。
+		}
+	}
+
+	BoneDemon: {
+		DisplayName: ボーンデーモン
+		BestiaryFlavorText: ボーンデーモンは、通常のデーモンよりも古く、強力だ。ほとんどのデーモンとは異なり、彼らは影の魔法ではなく、古代の炎の魔法を使って、招かれざる客を滅ぼす。
+	}
+
+	VileBasilisk: {
+		DisplayName: 醜いバジリスク
+		BestiaryFlavorText: 不浄によって歪められたバジリスクは、常に怒りに満ちており、恐ろしい捕食者となっている。.
+	}
+
+	LavaMossSkeleton.DisplayName: 苔（溶岩）のスケルトン
+	SoulPortal.DisplayName: 魂のポータル
+
+	AnarchyBeetle1: {
+		DisplayName: アナーキービートル
+		BestiaryFlavorText: 卵から孵化したばかりの彼らは、主人を脅かすものなら何にでも攻撃を仕掛ける。
+	}
+
+	AnarchyBeetle2.DisplayName: アナーキービートル
+	AnarchyBeetle3.DisplayName: アナーキービートル
+	AnarchyBeetleAlt1.DisplayName: アナーキービートル
+	AnarchyBeetleAlt2.DisplayName: アナーキービートル
+	AnarchyBeetleAlt3.DisplayName: アナーキービートル
+
+	AquaticMerman: {
+		DisplayName: アクアティックマーマン
+		BestiaryFlavorText: マーマンは海の活動が活発な時に狩りをすることを好み、人間の肉は彼らにとって黄金の喜びなのだ。
+	}
+
+	Dreadling: {
+		DisplayName: ドレッドリング
+		BestiaryFlavorText: ドレッドノートの配下である彼らは、必要なあらゆる手段を用いて主君を守るだろう。
+	}
+
+	StrangeSaucer: {
+		DisplayName: ストレンジソーサー
+		BestiaryFlavorText: はるか彼方の地球から飛来した空飛ぶ円盤。比較的小型の設計で、主に動植物の調査に用いられる。
+	}
+
+	RottenAntlion: {
+		DisplayName: 腐ったアントリオン
+		BestiaryFlavorText: このアントリオンは、巣を作る砂が不浄に汚染されたために徐々に変化していった。
+	}
+
+	SheddedAntlion: {
+		DisplayName: 脱皮したアントリオン
+		BestiaryFlavorText: このアントリオンは、巣を作る砂が真紅に汚染されたために徐々に変化していった。
+	}
+
+	MosquitoMinion: {
+		DisplayName: モスキート
+		BestiaryFlavorText: ホーネットよりもさらに厄介なことに、これらの動きの速い害虫は、あらゆる機会を捉えて噛みつこうとする。
+	}
+
+	ChaosSword: {
+		DisplayName: カオスソード
+		BestiaryFlavorText: カオスブリンガーに魅了された彼らは、自らの意思を持っている。
+	}
+
+	LavaMossMoth.DisplayName: 苔（溶岩）のモス
+	GrandAntlionHitbox.DisplayName: 巨大なアントリオン
+
+	AntlionServant1: {
+		DisplayName: アントリオンのしもべ
+		BestiaryFlavorText: 彼らは主人を守るため、驚くべきスピードで敵を猛烈に追い詰める。
+	}
+
+	AntlionServant2: {
+		DisplayName: 羽根付きのアントリオンのしもべ
+		BestiaryFlavorText: 彼らは主人を守るため、敵を追って飛び立つだろう。
+	}
+
+	LeechingBat: {
+		DisplayName: リーチングバット
+		BestiaryFlavorText: このコウモリは、洞窟に生息する同種のコウモリよりも動きが遅い。敵の顔に食らいつき、原型をとどめないほどに破壊する。
+	}
+
+	DecayingBat: {
+		DisplayName: ディケイイングバット
+		BestiaryFlavorText: このコウモリは、洞窟に生息する同種のコウモリよりも動きが遅い。敵の顔に食らいつき、原型をとどめないほどに破壊する。
+	}
+
+	MagmaShark: {
+		DisplayName: マグマシャーク
+		BestiaryFlavorText: 溶岩の中を泳ぐこれらの熱い血を持つサメは、他の地下世界の生物の燃えるようなエネルギーを糧として生き延びている。
+	}
+
+	BlackChicken.DisplayName: 黒いニワトリ
+	BrownChicken.DisplayName: 茶のニワトリ
+
+	Chicken: {
+		DisplayName: ニワトリ
+		BestiaryFlavorText: 卵を産む姿がよく見られる、ごく普通のニワトリ。
+	}
+
+	ArgonMossMoth.DisplayName: 苔（アルゴン）のモス
+	ArgonMossSkeleton.DisplayName: 苔（アルゴン）のスケルトン
+	HeliumMossMoth.DisplayName: 苔（ヘリウム）のモス
+	HeliumMossSkeleton.DisplayName: 苔（ヘリウム）のスケルトン
+	KryptonMossMoth.DisplayName: 苔（クリプトン）のモス
+	KryptonMossSkeleton.DisplayName: 苔（クリプトン）のスケルトン
+
+	MossMoth: {
+		DisplayName: 苔のモス
+		BestiaryFlavorText: 光る苔を貪り食うことで、これらのモスは現在の姿へと変貌し、地下を徘徊するようになった。
+	}
+
+	MossSkeleton: {
+		DisplayName: 苔のスケルトン
+		BestiaryFlavorText: 湿った洞窟をさまようスケルトンは、光る苔に覆われ、それによって大きな力を得る。
+	}
+
+	NeonMossMoth.DisplayName: 苔（ネオン）のモス
+	NeonMossSkeleton.DisplayName: 苔（ネオン）のスケルトン
+	OganessonMossMoth.DisplayName: 苔（オガネソン）のモス
+	OganessonMossSkeleton.DisplayName: 苔（オガネソン）のスケルトン
+	RadonMossMoth.DisplayName: 苔（ラドン）のモス
+	RadonMossSkeleton.DisplayName: 苔（ラドン）のスケルトン
+	XenonMossMoth.DisplayName: 苔（キセノン）のモス
+	XenonMossSkeleton.DisplayName: 苔（キセノン）のスケルトン
+
+	MinerZombie: {
+		DisplayName: マイナーゾンビ
+		BestiaryFlavorText: 生前、このつるはしを振り回すゾンビは採掘を渇望していた。死後、それは脳みそを渇望する。
+	}
+
+	CirclingCloud.DisplayName: クラウドボール
+	CirclingCloud2.DisplayName: クラウドボール
+}
+
+Projectiles: {
+	BloodStream.DisplayName: 血の流れ
+	AdamantiteBoStaffKnifeProj.DisplayName: アダマンタイトの棒
+	AdamantiteBoStaffProj.DisplayName: アダマンタイトの棒
+	AdamantiteBoStaffSpearProj.DisplayName: アダマンタイトの棒
+	AstralDaggerAltProj.DisplayName: アストラルダガー
+	AstralDaggerHomingProj.DisplayName: アストラルダガー
+	AstralDaggerProj.DisplayName: アストラルダガー
+	BloodExplosionProj.DisplayName: 血の爆発
+	BloodOrbProj.DisplayName: 血のオーブ
+	BloodSlicerProj.DisplayName: ブラッドスライサー
+	BorealWoodStakeProj.DisplayName: ボーリアルウッドの杭
+	CobaltBoStaffKnifeProj.DisplayName: コバルトの棒
+	CobaltBoStaffProj.DisplayName: コバルトの棒
+	CobaltBoStaffSpearProj.DisplayName: コバルトの棒
+	EbonwoodStakeProj.DisplayName: エボンウッドの杭
+	EmptyVial2Proj.DisplayName: 空の小瓶
+	EmptyVialProj.DisplayName: 空の小瓶
+	FirelashHelperProj.DisplayName: ファイアラッシュ
+	FirelashHitbox.DisplayName: ファイアラッシュ
+	FirelashProj.DisplayName: ファイアラッシュ
+	FlameCrackler2Proj.DisplayName: フレイムクラックラー
+	FlameCrackler3Proj.DisplayName: フレイムクラックラー
+	FlameCracklerAltProj.DisplayName: フレイムクラックラー
+	FlameCracklerProj.DisplayName: フレイムクラックラー
+	FluxSeekerProj.DisplayName: フラックスシーカー
+	HolyDaggerProj.DisplayName: ホーリーダガー
+	HoneyDipperBeeProj.DisplayName: ハニーディッパー
+	HoneyDipperGiantBeeProj.DisplayName: ハニーディッパー
+	HoneyDipperProj.DisplayName: ハニーディッパー
+	HoneyDipperSpearProj.DisplayName: ハニーディッパー
+	LightsExileProj.DisplayName: ライツエグザイル
+	MasamuneAltProj.DisplayName: マサムネ
+	MasamuneDropletProj.DisplayName: マサムネ
+	MasamuneProj.DisplayName: マサムネ
+	MythrilBoStaffKnifeProj.DisplayName: ミスリルの棒
+	MythrilBoStaffProj.DisplayName: ミスリルの棒
+	MythrilBoStaffSpearProj.DisplayName: ミスリルの棒
+	NightshadeProj.DisplayName: ナイトシェード
+	OrichalcumBoStaffKnifeProj.DisplayName: オリハルコンの棒
+	OrichalcumBoStaffProj.DisplayName: オリハルコンの棒
+	OrichalcumBoStaffSpearProj.DisplayName: オリハルコンの棒
+	PalladiumBoStaffKnifeProj.DisplayName: パラジウムの棒
+	PalladiumBoStaffProj.DisplayName: パラジウムの棒
+	PalladiumBoStaffSpearProj.DisplayName: パラジウムの棒
+	PalmWoodStakeProj.DisplayName: ヤシの木の杭
+	PearlwoodStakeProj.DisplayName: パールウッドの杭
+	ReinforcedBoStaffNailProj.DisplayName: 強化された棒
+	ReinforcedBoStaffProj.DisplayName: 強化された棒
+	ReinforcedBoStaffSpearProj.DisplayName: 強化された棒
+	RichMahoganyStakeProj.DisplayName:マホガニーの杭
+	RopeBullWhipHelperProj.DisplayName: ロープのブルウィップ
+	RopeBullWhipHitbox.DisplayName: ロープのブルウィップ
+	RopeBullWhipProj.DisplayName: ロープのブルウィップ
+	SandWhipHelperProj.DisplayName: 砂の鞭
+	SandWhipHitbox.DisplayName: 砂の鞭
+	SandWhipProj.DisplayName: 砂の鞭
+	ShadewoodStakeProj.DisplayName: シェイドウッドの杭
+	SphinxONineHelperProj.DisplayName: スフィンクスオーナイン
+	SphinxONineHitbox.DisplayName: スフィンクスオーナイン
+	SphinxONineProj.DisplayName: スフィンクスオーナイン
+	TheToothpickProj.DisplayName: トーチピック
+	TheToothpickSpearProj.DisplayName: トーチピック
+	TheToothpickToothProj.DisplayName: トーチピック
+	ThornCutterAltProj.DisplayName: ソーンカッター
+	ThornCutterBrambleProj.DisplayName: ソーンカッター
+	ThornCutterProj.DisplayName: ソーンカッター
+	TitaniumBoStaffKnifeProj.DisplayName: チタンの棒
+	TitaniumBoStaffProj.DisplayName: チタンの棒
+	TitaniumBoStaffSpearProj.DisplayName: チタンの棒
+	WoodenBoStaffProj.DisplayName: 木の棒
+	WoodenBoStaffSpearProj.DisplayName: 木の棒
+	WoodenStakeProj.DisplayName: 木の杭
+	AnarchulesBeetlePetProj.DisplayName: アナーキービートル
+	AnarchyBroadswordProj.DisplayName: 無法の剣
+	TheRelicProjectile.DisplayName: ザ・レリック
+	ArcticStaffProjA.DisplayName: アークティックの杖
+	ArcticStaffProjB.DisplayName: アークティックの杖
+	ChaosbringerPetProj.DisplayName: 小さなカオスブリンガー
+	VoidEyeHitbox.DisplayName: 虚無の目
+	CrystalBoltProj.DisplayName: クリスタルボルト
+	DreadnaughtPetProj.DisplayName: 小さなドレッドノート
+	DarkCasterProj.DisplayName: ダークキャスター
+	GemstoneElementalPetProj.DisplayName: ジェムストーンエレメンタル
+	MultigemClusterProj.DisplayName: マルチジェムカッター
+	RadiantResplendenceProj.DisplayName: 輝かしい光彩
+	GeraniumStaffProjA.DisplayName: ゼラニウムの杖
+	GeraniumStaffProjB.DisplayName: ゼラニウムの杖
+	GeraniumWandProjA.DisplayName: ゼラニウムの短杖
+	GeraniumWandProjB.DisplayName: ゼラニウムの短杖
+	ArgonBoltProj.DisplayName: アルゴンボルト
+	HallowedWandProj.DisplayName: 聖なる短杖
+	LivingWoodWhipProjectile.DisplayName: リビングウッドの鞭
+	OuterSpaceProj.DisplayName: アウタースペース
+	PaladinSpiritPetProj.DisplayName: パラディンスピリットの頭
+	BoulderPetProj.DisplayName: ペットの大岩
+	MimicPetProj.DisplayName: ペットのミミック
+	RubyPetProj.DisplayName: ペットのルビー
+	SlimeyPetProj.DisplayName: ペットのスライミー
+	StarthrowerProj.DisplayName: スタースロワー
+	BartPistolProj.DisplayName: Bartのピストル
+	SnowflakeProj.DisplayName: 氷の結晶
+	StormCloudPetProj.DisplayName: クラウドネード
+	ThunderBoltProj.DisplayName: サンダーボルト
+	ThunderStrikerProjectile.DisplayName: サンダーストライカー
+	BlueFlashlightProj.DisplayName: 懐中電灯（青）
+	FlashlightProj.DisplayName: 懐中電灯
+	GreenFlashlightProj.DisplayName: 懐中電灯（緑）
+	PurpleFlashlightProj.DisplayName: 懐中電灯（紫）
+	RainbowFlashlightProj.DisplayName: 懐中電灯（虹）
+	RedFlashlightProj.DisplayName: 懐中電灯（赤）
+	YellowFlashlightProj.DisplayName: 懐中電灯（黄）
+	Afterlife2Proj.DisplayName: アフターライフ
+	AfterlifeProj.DisplayName: アフターライフ
+	BloomBusterProj.DisplayName: ブルームバスター
+	CrimtaneWandProj.DisplayName: クリムタンの杖
+	CursedBeam.DisplayName: カースドビーム
+	DemoniteWandProj.DisplayName: デモナイトの杖
+	FireBoltProj.DisplayName: ファイアボルト
+	FlamerinoProj.DisplayName: フラメリーノ
+	IceBoltProj.DisplayName: アイスボルト
+	PrimalFlareProj.DisplayName: プライマルフレア
+	RayBlasterProj.DisplayName: レイブラスター
+	SunrayProj.DisplayName: サンレイ
+	TomeofNatureProj.DisplayName: 自然の書
+	TomeofTheElementsProj.DisplayName: 元素の本
+	FlareGreatswordProj.DisplayName: 炎の大剣
+	CursedFlamesprayerProj.DisplayName: 呪いの火炎放射器
+	ObsidianFireslingerProj.DisplayName: 黒曜石のファイアスリンガー
+	PulseRifleBullet.DisplayName: パルスバレット
+	FiberglassWhipProjectile.DisplayName: グラスファイバーの鞭
+	SerpentWhipProjectile.DisplayName: サーペインウィップ
+	StardustWhip2Proj.DisplayName: スターダストセル
+	StardustWhipProjectile.DisplayName: スターダストの鞭
+	AnarchyBall.DisplayName: 無法のボール
+	AnarchyCloud.DisplayName: 無法の雲
+	AnarchyShard.DisplayName: 無法の欠片
+	AnarchyShard2.DisplayName: 無法の欠片
+	AnarchyShardHoming.DisplayName: 無法の欠片
+	ClawAlt1.DisplayName: 爪
+	ClawAlt2.DisplayName: 爪
+	ChaosCrystal1.DisplayName: 混沌のクリスタル
+	ChaosCrystal2.DisplayName: 混沌のクリスタル
+	ChaosCrystal3.DisplayName: 混沌のクリスタル
+	ChaosCrystal4.DisplayName: 混沌のクリスタル
+	ChaosShard.DisplayName: 混沌の破片
+	ChaosShardHoming.DisplayName: 混沌の破片
+	EyeLaser.DisplayName: アイレーザー
+	Dreadfireball.DisplayName: ドレッドファイアボール
+	DreadfireballAlt1.DisplayName: ドレッドファイアボール
+	DreadfireballAlt2.DisplayName: ドレッドファイアボール
+	DreadfireballStraight.DisplayName: ドレッドファイアボール
+	DreadfireballStraightAcc.DisplayName: ドレッドファイアボール
+	AmethystGemstone.DisplayName: アメジストのジェムストーン
+	AmethystGemstoneHoming.DisplayName: アメジストのジェムストーン
+	DiamondGemstone.DisplayName: ダイヤモンドのジェムストーン
+	DiamondGemstoneHoming.DisplayName: ダイヤモンドのジェムストーン
+	EmeraldGemstone.DisplayName: エメラルドのジェムストーン
+	EmeraldGemstoneHoming.DisplayName: エメラルドのジェムストーン
+	RubyGemstone.DisplayName: ルビーのジェムストーン
+	RubyGemstoneHoming.DisplayName: ルビーのジェムストーン
+	SapphireGemstone.DisplayName: サファイアのジェムストーン
+	SapphireGemstoneHoming.DisplayName: サファイアのジェムストーン
+	TopazGemstone.DisplayName: トパーズのジェムストーン
+	TopazGemstoneHoming.DisplayName: トパーズのジェムストーン
+	AntlionLocateProj.DisplayName: アントリオンロケーター
+	AntlionLocateProjFake.DisplayName: アントリオンロケーター
+	GrandAntlionAttackProj.DisplayName: 砂の欠片
+	GrandAntlionHeavyAttackProj.DisplayName: 輝く砂玉
+	GrandAntlionSandShardProj.DisplayName: 砂の欠片
+	HomingBubble.DisplayName: 追尾する泡
+	MoonlightBubble.DisplayName: 月光の泡
+	MoonlightBubbleAlt.DisplayName: 月光の泡
+	HomingSoul.DisplayName: 追尾するソウル
+	LostSpirit.DisplayName: ロストスピリット
+	LostSpirit2.DisplayName: ロストスピリット
+	SpectreHammer.DisplayName: スペクターハンマー
+	SpectreHammerHoming.DisplayName: スペクターハンマー
+	SpectreHammerRotating.DisplayName: スペクターハンマー
+	LightningStrike.DisplayName: 落雷
+	LightningStrikeMini.DisplayName: 落雷
+	RainStream.DisplayName: 雨の嵐
+	AnarchyAnnihilationProj.DisplayName: アナーキーアナイアレーション
+	AnarchyBeam.DisplayName: 無法のビーム
+	AnarchyArrowProj.DisplayName: 無法の矢
+	AnarchyChainsawProj.DisplayName: 無法のチェーンソー
+	AnarchyDrillProj.DisplayName: 無法のドリル
+	AnarchyJackhammerProj.DisplayName: 無法の機械槌
+	AntlionThrowingAxeProj.DisplayName: アントリオンの投げ斧
+	ArcaneGoldChainsawProj.DisplayName: 神秘の金のチェーンソー
+	ArcaneGoldDraxProj.DisplayName: 神秘の金のドラックス
+	ArcaneGoldJackhammerProj.DisplayName: 神秘の金の機械槌
+	BeetleProj.DisplayName: 甲虫
+	BloodArrowProj.DisplayName: 血の矢
+	BloodBlasterProj.DisplayName: ブラッドブラスター
+	BookofHammersProj.DisplayName: ハンマーの書
+	CircleofExcavationProj.DisplayName: 採掘の円
+	CircleofHealingProj.DisplayName: 癒しの円
+	CircleofPrecisionProj.DisplayName: 精密の円
+	CircleofProtectionProj.DisplayName: 守護の円
+	CircleofSorceryProj.DisplayName: 魔術の円
+	CircleofSwiftnessProj.DisplayName: 迅速の円
+	CircleofWrathProj.DisplayName: 怒りの円
+	FreezeTotemProj.DisplayName: 氷のトーテム
+	HellfireTotemProj.DisplayName: ヘルファイアのトーテム
+	MoonlightMedallionProj.DisplayName: 月光のメダル
+	SummonerTotemProj.DisplayName: 召喚士のトーテム
+	BrinkofBlood2Proj.DisplayName: ブリンクオブブラッド
+	BrinkofBloodProj.DisplayName: ブリンクオブブラッド
+	BronzeShortswordProj.DisplayName: 青銅の短剣
+	BronzeSpearProj.DisplayName: 青銅の槍
+	BubbleArrowBubbleProj.DisplayName: バブルアローの泡
+	BubbleArrowProj.DisplayName: バブルアロー
+	BubbleBladeProj.DisplayName: バブルブレード
+	BubbleBulletProj.DisplayName: 泡の弾
+	BubbleScepterProj.DisplayName: バブルセプター
+	ChaosArrowProj.DisplayName: 混沌の矢
+	ChaosChainsawProj.DisplayName: 混沌のチェーンソー
+	ChaosClaymoreProj.DisplayName: 混沌の大剣
+	ChaosDiscProj.DisplayName: 混沌のディスク
+	ChaosDrillProj.DisplayName: 混沌のドリル
+	ChaosJackhammerProj.DisplayName: 混沌の機械槌
+	ChaosMace2Proj.DisplayName: 混沌のメイス
+	ChaosMaceProj.DisplayName: 混沌のメイス
+	ChaosNote1Proj.DisplayName: 混沌の音符
+	ChaosNote2Proj.DisplayName: 混沌の音符
+	ChaosNote3Proj.DisplayName: 混沌の音符
+	ChaosNoteHomingProj.DisplayName: 追尾する混沌の音符
+	ChaosSaber2Proj.DisplayName: 混沌の剣
+	ChaosSaberProj.DisplayName: 混沌の剣
+	ChaosSaberSlashProj.DisplayName: 混沌の剣の斬撃
+	CheeseWheelProj.DisplayName: チーズホイール
+	CherryBombProj.DisplayName: チェリーボム
+	ChlorophyteBallProjA.DisplayName: クロロファイトボール
+	ChlorophyteBallProjB.DisplayName: クロロファイトボール
+	CopperSpearProj.DisplayName: 銅の槍
+	CosmicDestruction2Proj.DisplayName: コズミックデストラクションの円
+	CosmicDestructionProj.DisplayName: コズミックデストラクション
+	CrossboneProj.DisplayName: クロスボーン
+	CrystalArrowProj.DisplayName: クリスタルの矢
+	CrystalMarbleProj.DisplayName: クリスタルのビー玉
+	CycloneProj.DisplayName: サイクロン
+	DarkSteelSpearProj.DisplayName: ダークスチールの槍
+	DoubleTroubleProj.DisplayName: ダブルトラブル
+	EaterProj.DisplayName: 小さなイーター
+	FlamingSickleExplosionProj.DisplayName: 炎の鎌の爆発
+	FlamingSickleProj.DisplayName: 炎の鎌
+	ExplosionRangedProj.DisplayName: 爆発
+	EyeArrowProj.DisplayName: 目の矢
+	FluffballProj.DisplayName: フラッフボール
+	FrostburnKnifeProj.DisplayName: 吹雪のナイフ
+	FryingPanProj.DisplayName: フライパン
+	GalacticSlasherHomingProj.DisplayName: ギャラクティックスラッシャー
+	GalacticSlasherProj.DisplayName: ギャラクティックスラッシャー
+	GemstoneArrowProj.DisplayName: 宝石の矢
+	GemstoneRingProj.DisplayName: 宝石の指輪
+	GeraniumBoomerangProj.DisplayName: ゼラニウムのブーメラン
+	GeraniumShortswordProj.DisplayName: ゼラニウムの短剣
+	GeraniumTridentProj.DisplayName: ゼラニウムのトライデント
+	GiantLensProj.DisplayName: デーモンアイ
+	GildedBubbleProj.DisplayName: 金色の泡
+	GlassMarbleProj.DisplayName: ガラスのビー玉
+	GoldenFryingPanProj.DisplayName: 黄金のフライパン
+	GoldSpearProj.DisplayName: 金の槍
+	GrandAntlionSummonProj.DisplayName: 巨大なアントリオンの召喚
+	GroanTube2Proj.DisplayName: 唸り声の筒2
+	GroanTubeProj.DisplayName: 唸り声の筒
+	HeavenStormProj.DisplayName: ヘブンストーム
+	HellfireDartProj.DisplayName: ヘルファイアのダーツ
+	HellflameScythe2Proj.DisplayName: ヘルフレイムサイス
+	HellflameScytheProj.DisplayName: ヘルフレイムサイス
+	HellShardStaffProj.DisplayName: ヘルシャードの杖
+	HoneydropProj.DisplayName: ハニードロップ
+	IronSpearProj.DisplayName: 鉄の槍
+	KillerFishProj.DisplayName: キラーフィッシュ
+	KryptonMossProj.DisplayName: 苔（クリプトン）
+	LavaBatProj.DisplayName: ラーヴァバット
+	LeadSpearProj.DisplayName: 鉛の槍
+	LordRingProj.DisplayName: 主の指輪
+	MarbleKnifeProj.DisplayName: 大理石のナイフ
+	MarbleTridentMeleeProj.DisplayName: 大理石のトライデント
+	MarbleTridentThrownProj.DisplayName: 大理石のトライデント
+	MechBeetleProj.DisplayName: 機械のハチ
+	MeteorDrillProj.DisplayName: 隕石のドリル
+	MeteorMasherProj.DisplayName: メテオマッシャー
+	AntlionMinionProj.DisplayName: アントリオンのミニオン
+	ChaosElementalStaffHomingProj.DisplayName: カオスエレメンタル
+	ChaosElementalStaffProj.DisplayName: カオスエレメンタル
+	ChaosStaffProj.DisplayName: 混沌の杖
+	CorruptMimicStaffProj.DisplayName: 不浄のミミック
+	CrimsonMimicStaffProj.DisplayName: 真紅のミミック
+	FlagMinionProj.DisplayName: 鷲
+	FoliageStaffProj.DisplayName: 枝葉の杖
+	FoliageStaffSporeProj.DisplayName: 枝葉の杖の胞子
+	GemElementalAmethystProj.DisplayName: ジェムエレメンタル
+	GemElementalDiamondProj.DisplayName: ジェムエレメンタル
+	GemElementalEmeraldProj.DisplayName: ジェムエレメンタル
+	GemElementalRubyProj.DisplayName: ジェムエレメンタル
+	GemElementalSapphireProj.DisplayName: ジェムエレメンタル
+	GemElementalStaffProj.DisplayName: ジェムエレメンタル
+	GemElementalTopazProj.DisplayName: ジェムエレメンタル
+	HallowedMimicStaffProj.DisplayName: 聖域のミミック
+	HellBirdMinionProj.DisplayName: ヘルバード
+	LivingGemStaffProj.DisplayName: リビングジェム
+	MimicStaffProj.DisplayName: ミミック
+	SpiritPouchProj.DisplayName: スピリットポーチ
+	MultigemCutter1Proj.DisplayName: アメジストのディスク
+	MultigemCutter2Proj.DisplayName: トパーズのディスク
+	MultigemCutter3Proj.DisplayName: サファイアのディスク
+	MultigemCutter4Proj.DisplayName: エメラルドのディスク
+	MultigemCutter5Proj.DisplayName: ルビーのディスク
+	MultigemCutter6Proj.DisplayName: ダイヤモンドのディスク
+	MultigemCutter7Proj.DisplayName: コハクのディスク
+	MultigemCutterAmethyst.DisplayName: アメジストのディスク
+	MultigemCutterDiamond.DisplayName: ダイヤモンドのディスク
+	MultigemCutterEmerald.DisplayName: エメラルドのディスク
+	MultigemCutterRuby.DisplayName: ルビーのディスク
+	MultigemCutterSapphire.DisplayName: サファイアのディスク
+	MultigemCutterTopaz.DisplayName: トパーズのディスク
+	NightBlasterProj.DisplayName: ナイトブラスター
+	NightsPeak2Proj.DisplayName: ナイトピーク
+	NightsPeakProj.DisplayName: ナイトピーク
+	PaladinArmorHammerProj.DisplayName: パラディンのハンマー
+	PizzaSliceProj.DisplayName: ピザの一切れ
+	PlasticBronzeSpearProj.DisplayName: プラスチックの胴の槍
+	PlatinumSpearProj.DisplayName: プラチナの槍
+	PocketSandProj.DisplayName: ポケットサンド
+	PufferfishCloudProj.DisplayName: フグの毒雲
+	PurifiedBladeProj.DisplayName: 純粋な剣
+	PurifiedBoomerangProj.DisplayName: 純粋なブーメラン
+	RetilazerProj.DisplayName: ティレイザー
+	RoughstoneProj.DisplayName: ラフストーン
+	RustyShortswordProj.DisplayName: 錆びた短剣
+	RustySpearProj.DisplayName: 錆びた槍
+	SandballProj.DisplayName: 砂玉
+	SandthrowerProj.DisplayName: サンドスロワー
+	ScrewdriverProj.DisplayName: ドライバー
+	ShadowflameProj.DisplayName: シャドウフレイム
+	SilverSpearProj.DisplayName: 銀の槍
+	SkyStabberKnifeProj.DisplayName: スカイスタバー
+	SkyStabberProj.DisplayName: スカイスタバー
+	AdamantiteSlingshotHoldout.DisplayName: アダマンタイトのスリングショット
+	BorealWoodSlingshotHoldout.DisplayName: ボーリアルウッドのスリングショット
+	CobaltSlingshotHoldout.DisplayName: コバルトのスリングショット
+	DeathslingerHoldout.DisplayName: デススリンガー
+	EbonwoodSlingshotHoldout.DisplayName: エボンウッドのスリングショット
+	MythrilSlingshotHoldout.DisplayName: ミスリルのスリングショット
+	OrichalcumSlingshotHoldout.DisplayName: オリハルコンのスリングショット
+	PalladiumSlingshotHoldout.DisplayName: パラジウムのスリングショット
+	PalmWoodSlingshotHoldout.DisplayName: ヤシの木のスリングショット
+	PearlwoodSlingshotHoldout.DisplayName: パールウッドのスリングショット
+	RichMahoganySlingshotHoldout.DisplayName: マホガニーのスリングショット
+	ShadewoodSlingshotHoldout.DisplayName: シェイドウッドのスリングショット
+	TitaniumSlingshotHoldout.DisplayName: チタンのスリングショット
+	WoodSlingshotHoldout.DisplayName: 木のスリングショット
+	SmoothstoneProj.DisplayName: スムーズストーン
+	SnowballHostileProj.DisplayName: 敵の雪玉
+	SpaceGrenadeProj.DisplayName: スペースグレネード
+	SpaceGrenadeShardProj.DisplayName: スペースグレネードの火花
+	SpazmaticaProj.DisplayName: スパズマティカ
+	SpectralArrowProj.DisplayName: スペクトルアロー
+	SpectralBladeProj.DisplayName: スペクトルブレード
+	SpectralGrenadeProj.DisplayName: スペクトルグレネード
+	SpectralHammerProj.DisplayName: スペクトルハンマー
+	SpectralHammerProj2.DisplayName: スペクトルハンマー
+	SpectralThrowProj.DisplayName: スペクトルスロー
+	SporeSpreaderProj.DisplayName: スポアスプレッダー
+	StarstruckArrowProj.DisplayName: スターストラックアロー
+	StarstruckArrowStarProj.DisplayName: スターストラックスター
+	SteelShortswordProj.DisplayName: 鋼の短剣
+	SteelSpearProj.DisplayName: 鋼の槍
+	StellarScepter2Proj.DisplayName: ステラーセプター
+	StellarScepterProj.DisplayName: ステラーセプター
+	StinkBombCloudProj.DisplayName: 悪臭の雲
+	StinkBombProj.DisplayName: スティンクボム
+	StormRod2Proj.DisplayName: 帯電した雲の電撃
+	StormRodProj.DisplayName: 帯電した雲
+	ThePrankProj.DisplayName: プランク
+	TheSeaShellProj.DisplayName: シーシェル
+	TinSpearProj.DisplayName: 錫の槍
+	TinyEaterProj.DisplayName: 小さなイーター
+	TungstenSpearProj.DisplayName: タングステンの槍
+	WebBallProj.DisplayName: 糸の玉
+	WebProj.DisplayName: 糸
+	AshWoodStakeProj.DisplayName: アッシュウッドの杭
+	GalacticSlasherSlash.DisplayName: ギャラクティックスラッシャー
+	MechanicalHandfulHelperProj.DisplayName: メカニカルハンドフル
+	MechanicalHandfulHitbox.DisplayName: メカニカルハンドフル
+	MechanicalHandfulProj.DisplayName: メカニカルハンドフル
+	MechanicalHandful2Proj.DisplayName: メカニカルハンドフル
+	MechanicalHandful4Proj.DisplayName: メカニカルハンドフル
+	MechanicalHandful3Proj.DisplayName: メカニカルハンドフル
+	GluttonousLeashProj.DisplayName: 貪欲な引き綱
+	GluttonousLeash2Proj.DisplayName: 貪欲な引き綱
+	ChlorophyteBoStaffProj.DisplayName: クロロファイトの棒
+	ChlorophyteBoStaffSpearProj.DisplayName: クロロファイトの棒
+	HallowedBoStaffProj.DisplayName: 聖なる棒
+	HallowedBoStaffSpearProj.DisplayName: 聖なる棒
+	HallowedBoStaffSpikeProj.DisplayName: 聖なるトゲ
+	ChlorophyteBoStaffBallProj.DisplayName: クロロファイトの棒
+	DroughtbringerProj.DisplayName: ドラウトブリンガー
+	WhipSweetSpotProj.DisplayName: スイートスポット
+	WhineVineHelperProj.DisplayName: ワインヴァイン
+	WhineVineProj.DisplayName: ワインヴァイン
+	ChlorolashHelperProj.DisplayName: クロロラッシュ
+	ChlorolashProj.DisplayName: クロロラッシュ
+	ChlorolashTrail1.DisplayName: クロロラッシュ
+	ChlorolashTrail2.DisplayName: クロロラッシュ
+	Chlorolash2Proj.DisplayName: クロロラッシュ
+	ChlorolashTrail3.DisplayName: クロロラッシュ
+	ChlorolashTrail4.DisplayName: クロロラッシュ
+	DarkbloodShockwaveProj.DisplayName: ダークブラッドの衝撃波
+	DarkbloodVindicatorProj.DisplayName: ダークブラッドヴィンディケーター
+	CursedOrb.DisplayName: 呪いのオーブ
+	CursedOrb2.DisplayName: 呪いのオーブ
+	CursedOrb3.DisplayName: 呪いのオーブ
+	CursedOrb4.DisplayName: 呪いのオーブ
+	BloodHunterLexiconHoldout.DisplayName: ブラッドハンターの辞書
+	HematicScrollProj.DisplayName: 造血の巻物
+	DefiledScrollProj.DisplayName: 荒廃の巻物
+	LeafBladeProj.DisplayName: リーフブレード
+	AnarchyEgg.DisplayName: 無法の卵
+	AnarchyEgg1.DisplayName: 無法の卵
+	AnarchyEgg2.DisplayName: 無法の卵
+	AnarchyEgg3.DisplayName: 無法の卵
+	LightningStrike2.DisplayName: 電撃
+	LivingWoodScrollProj.DisplayName: リビングウッドの巻物
+	SanguineScrollProj.DisplayName: 流血の巻物
+	ScrollofBloodMagicProj.DisplayName: 血の魔法の巻物
+	ScrollofFrostingProj.DisplayName: 氷柱
+	EruptionExplosionProj.DisplayName: イラプション
+	EruptionProj.DisplayName: イラプション
+	DownpourProj.DisplayName: ダウンプア
+	ChaosSaberHoldout.DisplayName: 混沌の剣
+	CrystalBlast2Proj.DisplayName: クリスタルバースト
+	CrystalBlastProj.DisplayName: クリスタルバースト
+	DarkbloodScrollProj.DisplayName: ダークブラッドの巻物
+	BrinkofBloodHelperProj.DisplayName: ブリンクオブブラッド
+	BloodstainAltProj.DisplayName: ブラッドスティン
+	BloodstainProj.DisplayName: ブラッドスティン
+	BrinkofBlood3Proj.DisplayName: ブリンクオブブラッド
+	JollylashProjectile.DisplayName: ジョリーラッシュ
+	Jollylash2Proj.DisplayName: ジョリーラッシュの星
+	HellSlasherProj.DisplayName: ヘルスラッシャー
+	HellSlasher2Proj.DisplayName: ヘルスラッシャー
+	LavaniteBroadswordProj.DisplayName: ラヴァナイトの剣
+	GemElementalShootProj.DisplayName: 宝石のボルト
+	XenoniteClusterProj.DisplayName: キセノナイトクラスター
+	XenoniteClusterShootProj.DisplayName: キセノンビーム
+	BloodsBoundaryProj.DisplayName: ブラッディバウンダリー
+	NeonMossProj.DisplayName: 苔（ネオン）
+	NeonScepterHoldoutProj.DisplayName: ネオンセプター
+	DarkbloodDrillProj.DisplayName: ダークブラッドのドリル
+	ArgonitePerforatorSpearProj.DisplayName: アルゴナイトパフォーレイター
+	ArgonitePerforatorShardProj.DisplayName: アルゴナイトパフォーレイター
+	ArgonitePerforatorProj.DisplayName: アルゴナイトパフォーレイター
+	JackOCrackHelperProj.DisplayName: ジャック・オー・クラック
+	JackOCrackProj.DisplayName: ジャック・オー・クラック
+	JackOCrackPumpkinProj.DisplayName: ジャック・オー・クラック
+	GlacialBatonProj.DisplayName: 氷河のバトン
+	GlacialBatonSpearProj.DisplayName: 氷河のバトン
+	AdamantiteBoStaffSwingProj.DisplayName: アダマンタイトの棒
+	CobaltBoStaffSwingProj.DisplayName: コバルトの棒
+	MythrilBoStaffSwingProj.DisplayName: ミスリルの棒
+	OrichalcumBoStaffSwingProj.DisplayName: オリハルコンの棒
+	PalladiumBoStaffSwingProj.DisplayName: パラジウムの棒
+	TitaniumBoStaffSwingProj.DisplayName: チタンの棒
+	HallowedBoStaffSwingProj.DisplayName: 聖なる棒
+	TheToothpickSwingProj.DisplayName: トーチピック
+	BloodrockLanceProj.DisplayName: ブラッドロックの槍
+	BloodrockLanceSpearProj.DisplayName: ブラッドロックの槍
+	BloodrockLanceSpikeAltProj.DisplayName: ブラッドロックの槍
+	BloodrockLanceSpikeProj.DisplayName: ブラッドロックの槍
+	BloodrockLanceSwingProj.DisplayName: ブラッドロックの槍
+	Glacier2Proj.DisplayName: グレイシャー
+	GlacierExplosion2Proj.DisplayName: 氷の爆発
+	GlacierExplosionProj.DisplayName: 氷の爆発
+	GlacierProj.DisplayName: グレイシャー
+	ScrollofFrostingExplosionProj.DisplayName: 氷の爆発
+	FrostExplosionProj.DisplayName: 氷の爆発
+	FrostExplosionSmallProj.DisplayName: 氷の爆発
+	FrostExplosionSmallSparkProj.DisplayName: 氷の爆発
+	ScrollProjectile.DisplayName: 巻物の他の
+	SteamCloudProj.DisplayName: ストームクラウド
+	IchorcicleProj.DisplayName: イコルシクル
+	CursedFireballSynergyProj.DisplayName: カースファイアボール
+	LingeringFlameProj.DisplayName:長引く炎
+	FireExplosionProj.DisplayName: 炎の爆発
+	PoisonCloudProj.DisplayName: 毒の雲
+	PoisonExplosionProj.DisplayName: 毒の爆発
+	VenomCloudProj.DisplayName: 酸性毒の雲
+	VenomExplosionProj.DisplayName: 酸性毒の爆発
+	PoisonIcicleProj.DisplayName: 毒の氷柱
+	VenomIcicleProj.DisplayName: 酸性毒の氷柱
+	PoisonSplatProj.DisplayName: 毒の滴
+	VenomSplatProj.DisplayName: 酸性毒の滴
+	CursedFireExplosionProj.DisplayName: 呪いの爆発
+	CursedIcicleProj.DisplayName: 呪いの氷柱
+	CursedExplosionProj.DisplayName: 呪いの爆発
+	ColdVenomTornadoProj.DisplayName: 冷たい酸性毒の竜巻
+	CarpentersSawProj.DisplayName: 大工ののこぎり
+	PoisonRainCloudProj.DisplayName: 毒の雨雲
+	PoisonRainProj.DisplayName: 毒の雨
+	VenomRainCloudProj.DisplayName: 酸性毒の雨雲
+	VenomRainProj.DisplayName: 酸性毒の雨
+	TerraWandProj.DisplayName: テラワンド
+	ColdPoisonTornadoProj.DisplayName: 冷たい毒の竜巻
+	VenomBiteProj.DisplayName: 毒の牙
+	VenomBiteStarterProj.DisplayName: 酸性毒の牙
+	PoisonFlameProj.DisplayName: 毒の炎
+	VenomFlameProj.DisplayName: 酸性毒の炎
+	ChlorophyteDaggerProj.DisplayName: クロロファイトのダガー
+	PoisonStreamProj.DisplayName: 毒流
+	VenomStreamProj.DisplayName: 酸性毒流
+	IcicleProj.DisplayName: 氷柱
+	PiercicleProj.DisplayName: ピアシクル
+	PiercicleSpearProj.DisplayName: ピアシクル
+	PricklewireHelperProj.DisplayName: ピアシクル
+	PricklewireProj.DisplayName: ピアシクル
+	ThePlugHelperProj.DisplayName: ザ・プラグ
+	ThePlugProj.DisplayName: ザ・プラグ
+	ThePlugAuraProj.DisplayName: エレクトロスフィア
+	SpookyStakeProj.DisplayName: 不気味な木の杭
+	MosquitoStyletProj.DisplayName: モスキートのスティレット
+	CursedCloudProj.DisplayName: 呪いの雲
+	IchorCloudProj.DisplayName: 霊液の雲
+	GluttonyProj.DisplayName: グラトニー
+	TarantulashHelperProj.DisplayName: タランチュラシュ
+	TarantulashProj.DisplayName: タランチュラシュ
+	BloodrockCutterProj.DisplayName: ブラッドロックカッター
+	DoubleTrouble2Proj.DisplayName: ダブルトラブル
+	AdamantiteKnifeProj.DisplayName: アダマンタイトのナイフ
+	CobaltDaggerProj.DisplayName: コバルトのダガー
+	MythrilCutterProj.DisplayName: ミスリルカッター
+	OrichalcumCutterProj.DisplayName: オリハルコンカッター
+	PalladiumDaggerProj.DisplayName: パラジウムのダガー
+	TitaniumKnifeProj.DisplayName: チタンのナイフ
+	BloodShockwavePoisonProj.DisplayName: 血の衝撃波
+	BloodShockwaveVenomProj.DisplayName: 血の衝撃波
+	BloodStreamSynergyProj.DisplayName: 血の流れ
+	BloodcicleProj.DisplayName: Bloodcicle
+	BloodExplosionSynergyProj.DisplayName: 血の爆発
+	BloodExplosionSynergySmallProj.DisplayName: 血の爆発
+	BloodExplosionSynergySmallSparkProj.DisplayName: 血の爆発
+	BloodFireballProj.DisplayName: 血のファイアボール
+	Grimmchild1Proj.DisplayName: グリムチャイルド
+	GrimmchildShootProj.DisplayName: グリムチャイルド
+	Grimmchild2Proj.DisplayName: グリムチャイルド
+	Grimmchild3Proj.DisplayName: グリムチャイルド
+	Grimmchild4Proj.DisplayName: グリムチャイルド
+	GrimmchildShoot1Proj.DisplayName: グリムチャイルド
+	GrimmchildShoot2Proj.DisplayName: グリムチャイルド
+	GrimmchildShoot3Proj.DisplayName: グリムチャイルド
+	SteelKnifeProj.DisplayName: 鋼のナイフ
+	StarfallProj.DisplayName: スターフォール
+	ChlorophyteShockwaveProj.DisplayName: クロロファイトの衝撃波
+	BrainrotProj.DisplayName: ブレインロット
+	BrainrotSpearProj.DisplayName: ブレインロット
+	BrainrotSwingProj.DisplayName: ブレインロット
+	BrainrotBloodProj.DisplayName: ブレインロット
+	TheWormHelperProj.DisplayName: ザ・ワーム
+	TheWormProj.DisplayName: ザ・ワーム
+	Dreadbreath.DisplayName: ドレッドブレス
+	DreadnaughtShockwave.DisplayName: ドレッドノートの衝撃波
+	DreadExplosion.DisplayName: ドレッドノートの爆発
+	AllStarProj.DisplayName: テラアロー
+	PizzaCutterProj.DisplayName: ピザの一切れ
+	PizzaCutterToppingProj.DisplayName: ピザのトッピング
+	ArcticKnifeAltProj.DisplayName: アークティックのナイフ
+	ArcticKnifeProj.DisplayName: アークティックのナイフ
+	JellyfishWandProj.DisplayName: クラゲの短杖
+	JellyfishWandNoteProj.DisplayName: クラゲの短杖
+	EelectricalStaffShootProj.DisplayName: 電気の杖
+	EelectricalStaffProj.DisplayName: 電気の杖
+	WiretapProjectile.DisplayName: ワイヤータップ
+	PowerlineProjectile.DisplayName: パワーライン
+	StarVoulgeProj.DisplayName: スターヴルジュ
+	TheDreamcatcherProj.DisplayName: ドリームキャッチャー
+	TheDreamcatcher2Proj.DisplayName: ドリームキャッチャー
+	StarVoulge2Proj.DisplayName: スターヴルジュ
+	GoldflowerProj.DisplayName: ゴールドフラワー
+	SkyBlossomProj.DisplayName: スカイブロッサム
+	PricklewandProj.DisplayName: プリクルワンド
+	BloomBouquetProj.DisplayName:ブルームブーケ
+	CrimeraProj.DisplayName: 小さなクリメラ
+	TinyCrimeraProj.DisplayName: 小さなクリメラ
+	AllStarStarProj.DisplayName: テラスター
+	MartianGunnerProj.DisplayName: 火星の銃
+	AshWoodSlingshotHoldout.DisplayName: アッシュウッドのスリングショット
+	Stylet.DisplayName: スティレット
+	Stylet2.DisplayName: スティレット
+	IchorStream.DisplayName: 霊液流
+	IchorStreamGravity.DisplayName: 霊液流
+	MosquitoMasher2Proj.DisplayName: モスキートマッシャー
+	MosquitoMasher3Proj.DisplayName: モスキートマッシャー
+	MosquitoMasherProj.DisplayName: モスキートマッシャー
+	MosquitoMasherSpearProj.DisplayName: モスキートマッシャー
+	MosquitoSwarmStaffProj.DisplayName: モスキート
+	BloodHarvesterProj.DisplayName: ブラッドハーヴェスト
+	StyletSprayerProj.DisplayName: スティレット
+	MosquitoMonarchPetProj.DisplayName: モスキートノーブル
+	MonarchStaffProj.DisplayName: モナークの杖
+	SanguineRingProj.DisplayName: 流血の指輪
+	LordRingShockwaveProj.DisplayName: 主の指輪の衝撃波
+	BOOMerang2Proj.DisplayName: ブームラング
+	BOOMerangProj.DisplayName: ブームラング
+	GraniteBladeAuraProj.DisplayName: 御影石の剣
+	GraniteEnergyBlasterProj.DisplayName: 帯電した弾丸
+	GraniteGlimmerWandProj.DisplayName: 輝く御影石の杖
+	GraniteGlimmerWandShockwaveProj.DisplayName: 輝く御影石の杖
+	RegalRecurveProj.DisplayName: リーガルアロー
+	GildedGloryProj.DisplayName: ギルデッドグローリー
+	HrodreptusProj.DisplayName: フロドレプタス
+	SoaringClaymoreProj.DisplayName: 飛翔の大剣
+	StarSmasherProj.DisplayName: スタースマッシャー
+	GiantKnifeProj.DisplayName: 巨大な包丁
+	ThousandDegreeKnifeProj.DisplayName: 千度の巨大な包丁
+	SubZeroProj.DisplayName: サブ-ゼロ
+	SubZeroIcicleProj.DisplayName: 氷柱
+	SpareChangeProj.DisplayName: スペアチェンジ
+	UnholyStar2Proj.DisplayName: アンホーリースター
+	UnholyStarProj.DisplayName: 不浄の星を
+	ShroomiteClaymoreProj.DisplayName: シュルーマイトの大剣
+	CursedFlameProj.DisplayName: カースドフレイム
+	GlowingMushroomProj.DisplayName: 光るキノコ
+	ForbiddenHandbookProj.DisplayName: 禁断のボルト
+	ArcticArmorProj.DisplayName: 水の竜巻
+	ArcticIcicleProj.DisplayName: 氷柱
+	HammerthystProj.DisplayName: ハンマーシスト
+	BonemerangProj.DisplayName: ボーンメラン
+	GlowingMoth1Proj.DisplayName: 輝く苔のモス
+	GlowingMothShivProj.DisplayName: 輝く苔のシバ
+	GlowingMoth2Proj.DisplayName: 輝く苔のモス
+	GlowingMoth3Proj.DisplayName: 輝く苔のモス
+	GlowingMoth4Proj.DisplayName: 輝く苔のモス
+	GlowingMoth5Proj.DisplayName: 輝く苔のモス
+	GlowingMoth6Proj.DisplayName: 輝く苔のモス
+	BeetlegeuseSprayProj.DisplayName: ビートルゲウス
+	BeetlegeuseSwingProj.DisplayName: ビートルゲウス
+	BeetlegeuseSpearProj.DisplayName: ビートルゲウス
+	BeetlegeuseProj.DisplayName: ビートルゲウス
+	DissonanceProj.DisplayName: ディソナンス
+	DissonanceShardProj.DisplayName: 闇の欠片
+	DissonanceSpearProj.DisplayName: ディソナンス
+	DissonanceSwingProj.DisplayName: ディソナンス
+	PurifierProj.DisplayName: ピュリファイア
+	PurifierSpearProj.DisplayName: ピュリファイア
+	PurifierSwingProj.DisplayName: ピュリファイア
+	HellCarverBallProj.DisplayName: 地獄の包丁
+	HellCarverProj.DisplayName: 地獄の包丁
+	HarmonyShardProj.DisplayName: 光の欠片
+	EquilibriumSpearProj.DisplayName: イクィリブリアム
+	EquilibriumProj.DisplayName: イクィリブリアム
+	HarmonyProj.DisplayName: ハーモニー
+	PocketMacheteProj.DisplayName: 携帯マチェーテ
+	TridentoftheCorruptionSpearProj.DisplayName: 不浄のトライデント
+	TridentoftheCorruptionProj.DisplayName: 不浄のトライデント
+	ShroomiteBoStaffProj.DisplayName: シュルーマイトの棒
+	ShroomiteBoStaffSpearProj.DisplayName: シュルーマイトの棒
+	NerveBundleHelperProj.DisplayName: ナーヴバンドル
+	NerveBundleProj.DisplayName: ナーヴバンドル
+	TheConductorBeamProj.DisplayName: ザ・コンダクター
+	TheConductorHelperProj.DisplayName: コンダクター
+	TheConductorProj.DisplayName: コンダクター
+	MummifierHelperProj.DisplayName: マミファイアー
+	MummifierProj.DisplayName: マミファイアー
+	MummifierMummyProj.DisplayName: 小さなマミー
+	DustSpawnProjectile.DisplayName: 塵の出現
+	BubbleBlastProj.DisplayName: 泡の爆発
+	ScrollofJewelsProj.DisplayName: 宝石の巻物
+	ThundershockProj.DisplayName: サンダーショック
+	DukesTuskAltProj.DisplayName: デュークの牙
+	DukesTuskProj.DisplayName: デュークの牙
+	DukesTuskBubbleProj.DisplayName: デュークの牙
+	BloodstainBubbleProj.DisplayName: ブラッドスティン
+	LivingWoodFishingPoleBobber.DisplayName: リビングウッドの釣竿の浮き
+	BeeMinionProj.DisplayName: 蜂
+	FaelingStaffProj.DisplayName: フェイリング
+	PrismaticFangbladeAuraProj.DisplayName: 虹の牙の剣
+	PrismaticFangbladeShockwaveProj.DisplayName: 虹の牙の剣
+	RadiantTomeProj.DisplayName: 輝きの本
+	MythrilShotgunHoldout.DisplayName: ミスリルのショットガン
+	FastBulletProj.DisplayName: 弾丸
+	CobaltPistolHoldout.DisplayName: コバルトのピストル
+	AdamantiteHuntingRifleHoldout.DisplayName: アダマンタイトの狩猟ライフル
+	MythrilBulletProj.DisplayName: ミスリルの弾丸
+	MythrilShardProj.DisplayName: ミスリルの破片
+	OrichalcumBulletProj.DisplayName: オリハルコンの弾丸
+	OrichalcumPetalProj.DisplayName: オリハルコンの花びら
+	OrichalcumShotgunHoldout.DisplayName: オリハルコンのショットガン
+	PalladiumPistolHoldout.DisplayName: パラジウムのピストル
+	TitaniumHuntingRifleHoldout.DisplayName: チタンの狩猟ライフル
+	AdamantiteHuntingRifleExplosionProj.DisplayName: アダマンタイトの爆発
+	TitaniumHuntingRifleShockwaveProj.DisplayName: チタンの衝撃波
+	CoreOfWrathExplosionProj.DisplayName: コアの爆発
+	PossessedSwordProj.DisplayName: ポゼッションソード
+	GeoformedGlimmerWandShockwaveProj.DisplayName: 輝く御影石の杖
+	GeoformedGlimmerWandProj.DisplayName: 輝く御影石の杖
+	GeoformedBladeAuraProj.DisplayName: 御影石の剣
+	GeoformedEnergyBlasterProj.DisplayName: 帯電した弾丸
+	OlympianKnifeProj.DisplayName: オリンピアンのナイフ
+	OlympianTridentMeleeProj.DisplayName: オリンピアンのトライデント
+	OlympianTridentThrownProj.DisplayName: オリンピアンのトライデント
+	FrostHowlerStaffProj1.DisplayName: 雪のオオカミの杖
+	FrostHowlerStaffProj2.DisplayName: 雪のオオカミの杖
+	FrostHowlerStaffProj3.DisplayName: 雪のオオカミの杖
+	ArcticBulletProj.DisplayName: アークティックの弾丸
+	ArcticMistProj.DisplayName: 氷の霧
+	ShatterstormRifleHoldout.DisplayName: 粉砕の嵐のライフル
+	WhirlwindProj.DisplayName: ワールウィンド
+	BlizzardStriker2Proj.DisplayName: 小さな氷の竜巻
+	BlizzardStrikerProj.DisplayName: 氷柱
+	FlareGreatswordAuraProj.DisplayName: 炎の大剣
+	CactusCrusherProj.DisplayName: サボテンクラッシャー
+	BambowProj.DisplayName: 竹の矢
+	BambowShard1Proj.DisplayName: 竹の欠片
+	BambowShard2Proj.DisplayName: 竹の欠片
+	ShadowrangProj.DisplayName: シャドウラング
+	CrimsonFangChakramProj.DisplayName: 真紅の牙のチャクラム
+	AntlionLocateProjFake1.DisplayName: アントリオンロケーター
+	AntlionLocateProjFake2.DisplayName: アントリオンロケーター
+	SandnadoProj.DisplayName: サンドネード
+	GrandMandibleBladeSandProj.DisplayName: ポケットサンド
+	BonePuppeteerStaffProj.DisplayName: 骨の人形の杖
+	DustcallerTalismanProj.DisplayName: 塵呼びのタリスマン
+	GeraniumArmorProj.DisplayName: ゼラニウムの花
+	DuoFlowerFireProj.DisplayName: ファイアボール
+	DuoFlowerFrostProj.DisplayName: フロストボール
+	DuoFlowerSteamProj.DisplayName: 蒸気
+	FireBolt2Proj.DisplayName: ボルトの爆発
+	CursedKnife2Proj.DisplayName: 呪いのナイフ
+	CursedKnife3Proj.DisplayName: 呪いのナイフ
+	CursedKnifeAltProj.DisplayName: 呪いのナイフ
+	CursedKnifeProj.DisplayName: 呪いのナイフ
+	DragonDaggerFireProj.DisplayName: ドラゴンダガー
+	DragonDaggerProj.DisplayName: ドラゴンダガー
+	CinderstormBowProj.DisplayName: シンダーストームボウ
+	IchorDaggerProj.DisplayName: 霊液のダガー
+	TheBarrelHoldout.DisplayName: ザ・バレル
+	TheBarrelProj.DisplayName: ザ・バレル
+	BoStaffBlockProj.DisplayName: 棒
+	NightshadeAlt2Proj.DisplayName: ナイトシェード
+	NightshadeAltProj.DisplayName: ナイトシェード
+	BOOMerangExplosionProj.DisplayName: ブームラング
+	PlaySoundProjectile.DisplayName: 音
+	SporePufferProj.DisplayName: 胞子雲
+	SporePufferHoldout.DisplayName: スポアパファー
+	CerberusPetProj.DisplayName: ケルベロスの子犬
+	GeraniumFlowerProj.DisplayName: ゼラニウムの花
+	ChlorophyteRevolverHoldout.DisplayName: クロロファイトのリボルバー
+	ChlorophyteRevolverReloadProj.DisplayName: クロロファイトのリボルバー
+	ChlorophyteRevolverReloadNoShellsProj.DisplayName: クロロファイトのリボルバー
+	FlamethrowerProj.DisplayName: 火炎放射器
+	ShroomiteBoStaffMushroomProj.DisplayName: シュルーマイトの棒
+	TridentoftheCorruptionEaterProj.DisplayName: 不浄のトライデント
+	UpwardsBubble.DisplayName: 月光の泡
+	BubbleflyStaffProj.DisplayName: バブルフライの杖
+	BubbleflyStaffBubbleProj.DisplayName: バブルフライの杖
+	TheDreamcatcherShardProj.DisplayName: ドリームキャッチャー
+	TheDreamcatcherZProj.DisplayName: ドリームキャッチャー
+	MythrilShotgunBulletProj.DisplayName: ミスリルの弾丸
+	MythrilShotgunShardProj.DisplayName: ミスリルの破片
+	OrichalcumShotgunBulletProj.DisplayName: オリハルコンの弾丸
+	OrichalcumShotgunPetalProj.DisplayName: オリハルコンの花びら
+	JellyfishWandShootProj.DisplayName: クラゲの短杖
+	TinyTornadoProj.DisplayName: 小さな竜巻
+	RainTearProj.DisplayName: 雨の涙
+	LightningHitboxProj.DisplayName: 電撃
+	LightningHitboxLongProj.DisplayName: 電撃
+	TinyTornado2ProjB.DisplayName: 小さな竜巻
+	TinyTornado2ProjA.DisplayName: 小さな竜巻
+	ZapChargeProj.DisplayName: 電気ショック
+	ZapProj.DisplayName: 電気ショック
+	StraightTornadoProj.DisplayName: 小さな竜巻
+	StraightTornado2Proj.DisplayName: 小さな竜巻
+	HellForkProj.DisplayName: 地獄のフォーク
+	LightningStrikeProj.DisplayName: 落雷
+	ZapBoltProj.DisplayName: 電撃
+	RainCloudProj.DisplayName: 雨雲
+}
+
+Prefixes: {
+	MalevolentPrefix.DisplayName: 極悪な
+	BloodClotBonusTooltip: 血餅のドロップ率
+	BarbedPrefix.DisplayName: トゲのある
+	SpitefulPrefix.DisplayName: 恨みの
+	BloodthirstyPrefix.DisplayName: 血に飢えた
+	CrudePrefix.DisplayName: 粗製の
+	DeceitfulPrefix.DisplayName: 狡い
+	DeprecatingPrefix.DisplayName: 廃棄予定の
+	DishonestPrefix.DisplayName: 悪辣な
+	MaliciousPrefix.DisplayName: 腹黒な
+	MercilessPrefix.DisplayName: 無慈悲な
+	ViciousPrefix.DisplayName: 悪質な
+	WoundingPrefix.DisplayName: 創傷の
+	RelentlessPrefix.DisplayName: 執拗な
+	BrutalPrefix.DisplayName: 残忍な
+	CruelPrefix.DisplayName: 非情な
+	FiendishPrefix.DisplayName: 狡猾な
+	BloodlustGainBonusTooltip: ブラッドラストの増加量
+}
+
+DropConditions: {
+	FireEssenceCondition: ハードモードの地下世界でドロップする
+	FrostEssenceCondition: ハードモードの地下氷雪でドロップする
+	GemstoneElementalEnragedCondition: インベントリに全ての大きな宝石がある状態でジェムストーンエレメンタルを召喚するとドロップする
+	DownedEvilBossCondition: イーターオブワールド/クトゥルフの脳がドロップする
+	GlowingMossBiomeKeyCondition: ハードモードの輝く苔の洞窟でドロップする
+	NatureEssenceCondition: ハードモードの地下ジャングルでドロップする
+	WaterEssenceCondition: ハードモードの海でドロップする
+	DownedPlanteraCondition: プランテラがドロップする
+	GlacialChunkCondition: 吹雪中にドロップする
+}
+
+Configs: {
+	VitalityConfig: {
+		BloodHunterTags: {
+			Tooltip: ブラッドハンターのアイテムの「-ブラッドハンタークラス-」タグの表示/非表示を切り替えます
+			Label: ブラッドハンターのタグを表示する
+		}
+
+		DisplayName: Vitality Mod 設定
+
+		BloodlustMeterTop: {
+			Label: ブラッドラストのメーターを一番上に移動
+			Tooltip: ブラッドラストのメーターを画面上部に移動させ、左側にミニマップ/アクセサリ情報を表示します
+		}
+	}
+}
+
+MusicDisplay: {
+	ModName: Vitality Mod
+
+	StormCloud: {
+		DisplayName: Turbulent Disturbance (ストームクラウドのテーマ)
+		Author: by bartuscus
+	}
+
+	GrandAntlion: {
+		DisplayName: Barren Offense (巨大なアントリオンのテーマ)
+		Author: by bartuscus
+	}
+
+	GemstoneElemental: {
+		DisplayName: Brilliant Foe (ジェムストーンエレメンタルのテーマ)
+		Author: by bartuscus
+	}
+
+	MoonlightDragonfly: {
+		DisplayName: Moonlight Madness (月光のトンボのテーマ)
+		Author: by bartuscus
+	}
+
+	Dreadnaught: {
+		DisplayName: Fiery Wrath (ドレッドノートのテーマ)
+		Author: by bartuscus
+	}
+
+	AnarchulesBeetle: {
+		DisplayName: Battle In Anarchy (アナクルスビートルのテーマ)
+		Author: by bartuscus
+	}
+
+	MosquitoMonarch: {
+		DisplayName: Razor Buzz (モスキートモナークのテーマ)
+		Author: by bartuscus
+	}
+
+	Chaosbringer: {
+		DisplayName: Rainbow Junkyard (カオスブリンガーのテーマ)
+		Author: by Salvati
+	}
+
+	PaladinSpirit: {
+		DisplayName: Protector's Care (パラディンスピリットのテーマ)
+		Author: by bartuscus
+	}
+}
+
+ShopConditions.DownedStormCloudCondition: ストームクラウドを倒した後

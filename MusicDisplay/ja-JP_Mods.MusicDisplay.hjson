@@ -1,0 +1,173 @@
+Configs: {
+	DisplayConfig: {
+		DisplayName: 表示設定
+
+		HideUnknown: {
+			Label: 不明なBGMを非表示にする
+			Tooltip: この設定がオンの場合、未知のBGMは表示されません。そうでない場合は、BGM名の代わりに「未知のBGM」と表示されます
+		}
+
+		Placement: {
+			Label: 表示位置
+			Tooltip: 表示位置を変更します
+		}
+
+		AlwaysOn: {
+			Label: 常に表示
+			Tooltip: この設定がオンだとBGMトラックが常に表示されます
+		}
+
+		AlwaysOnOpacity: {
+			Label: 常に表示する場合の透明度
+			Tooltip:
+				'''
+				「常に表示」がオンの場合の透明度を変更します
+				「常に表示」がオフだと機能しません
+				'''
+		}
+
+		TextScale: {
+			Label: テキストの大きさ
+			Tooltip: 表示されるテキストのサイズを変更します
+		}
+
+		TextPlacement: {
+			Label: テキストの位置
+			Tooltip: ""
+		}
+	}
+
+	Placements: {
+		Tooltip: ""
+
+		Top: {
+			Label: 上
+			Tooltip: ""
+		}
+
+		Bottom: {
+			Label: 下
+			Tooltip: ""
+		}
+
+		Left: {
+			Label: 左
+			Tooltip: ""
+		}
+
+		Custom: {
+			Label: カスタム
+			Tooltip: ""
+		}
+	}
+}
+
+CurrentMusic: 現在のBGM:
+
+TrackNames: {
+
+	VanillaByLine: by Scott Lloyd Shelly
+	OtherworldByLine: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan
+	OtherworldJeffBall: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Jeff Ball
+	OtherworldTinaGuo: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Tina Guo
+	OtherworldFrankKlepacki: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Frank Klepacki
+	TerrariaName: Terraria
+	OtherworldName: Terraria Otherworld
+	UnknownTrack: (不明なBGM)
+	SampleTrack: サンプルBGM
+	SampleMusician: サンプルの音楽家
+	MusicDisplay: Music Display
+
+	Vanilla: {
+		1: 地上 昼 1
+		2: 恐怖
+		3: 夜
+		4: 地下 1
+		5: ボス 1
+		6: タイトル
+		7: ジャングル
+		8: 不浄
+		9: 聖域
+		10: 地下不浄
+		11: 地下聖域
+		12: ボス 2
+		13: ボス 3
+		14: 雪
+		15: 宇宙 夜
+		16: 真紅
+		17: ボス 4
+		18: 地上 昼 2
+		19: 雨
+		20: 氷
+		21: 砂漠
+		22: 海 昼
+		23: ダンジョン
+		24: プランテラ
+		25: ボス 5
+		26: 寺院
+		27: 日食
+		28: 雨の音
+		29: キノコ
+		30: パンプキンムーン
+		31: 地下 2
+		32: フロストムーン
+		33: 地下真紅
+		34: タワー
+		35: 海賊の襲来
+		36: 地下世界
+		37: 火星の侵攻
+		38: ルナボス
+		39: ゴブリンの侵略
+		40: 砂嵐
+		41: オールドワンズ・アーミー
+		42: 宇宙 昼
+		43: 海 夜
+		44: 風の日
+		46: 町 昼
+		47: 町 夜
+		48: スライムレイン
+		49: 地上 昼リミックス
+		50: 旅の始まり
+		51: 旅の始まり
+		52: 嵐
+		53: 墓地
+		54: 地下ジャングル
+		55: ジャングル 夜
+		56: クイーンスライム
+		57: エンプレスオブライト
+		58: デュークフィッシュロン
+		59: 雨 朝
+		60: コンソール版のメニュー
+		61: 地下砂漠
+		62: Prelude (アザーワールドの雨)
+		63: Every Adventure Has a Beginning (アザーワールドの昼)
+		64: Night Falls, Darkness Emerge (アザーワールドの夜)
+		65: Below the Surface (アザーワールドの地下)
+		66: Secret of the Sands (アザーワールドの砂漠)
+		67: Enchanted Blue (アザーワールドの海)
+		68: Celestial Caverns (アザーワールドのキノコ)
+		69: Ancient Citadel (アザーワールドのダンジョン)
+		70: The Endless Void (アザーワールドの宇宙)
+		71: Journey to the Core (アザーワールドの地下世界)
+		72: Glimmers of Vibrance (アザーワールドの雪)
+		73: Shadows of Corruption (アザーワールドの不浄)
+		74: Decay and Corrosion (アザーワールドの地下不浄)
+		75: Blood Crawlers (アザーワールドの真紅)
+		76: Crimson Chasm (アザーワールドの地下真紅)
+		77: A Sweet Menace (アザーワールドの氷)
+		78: Twisted Virtue (アザーワールドの地下聖域)
+		79: Enter Darkness (アザーワールドの恐怖)
+		80: Sinkholes of Darkness (アザーワールドのボス 2)
+		81: Behold the OctoEye (アザーワールドのボス 1)
+		82: Fighting off the Invasion (アザーワールドの侵略)
+		83: Fighting the Night (アザーワールドのタワー)
+		84: Consumed by Darkness (アザーワールドのルナボス)
+		85: Rage Of Tarunnk (アザーワールドのプランテラ)
+		86: Sky Guardian (アザーワールドのジャングル)
+		87: アザーワールドのウォールオブフレッシュ
+		88: Postlude - Credits (アザーワールドの聖域)
+		89: 旅の終わり
+		90: ディアクロップス
+		91: エーテル
+	}
+}
