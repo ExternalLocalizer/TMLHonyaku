@@ -1,0 +1,8452 @@
+Common: {
+	PercentIncreasedManaOverflow: マナオーバーフローが{0}%増加
+	PercentIncreasedSentryDamage: セントリーのダメージが{0}%増加
+	PercrentIncreasedHeavyMeleeCrit: 重武器の近接クリティカル率が{0}%増加
+	PercrentIncreasedHeavyMeleeSpeed: 重近接攻撃の速度が{0}%上昇
+	PercentIncreasedHeavyMeleeDefense: 重近接時の防御力が{0}%増加
+}
+
+Sheep: {
+	Name: ヒツジ ({0})
+	0: ミルキー
+	1: クリーミー
+	2: バニラ
+	3: ライム
+	4: スカイ
+	5: バイオレット
+	6: ピンク
+	7: チョコレート
+	8: スモーキー
+	9: シャドウ
+	10: ラーヴァ
+	11: フォスフォラス
+	12: ディスコ
+}
+
+Tooltip: {
+	ArmorPrefix: {
+		Rooted: 立ち止まっている間、防御力が増加
+		Shielded: ノックバックを無効化
+		Marine: 泳げるようになる
+		Barbed: 敵の攻撃を反射する
+		Lit: 周囲を照らす
+		Shamanic: 鞭のリーチが22%増加
+		Elusive: 被ダメージ後の無敵時間を延長
+		Strong: 最大ライフが20増加
+		Enchanted: 最大マナが40増加
+	}
+
+	ReforgeWarning: 誰かが鍛え直せるかもしれない...
+}
+
+LazuriteBuff: {
+	Title: 海洋吸収
+	Description: 攻撃範囲内の敵が特定のデバフを持っている場合、アイテムが強化され、吸収したデバフを周囲の敵に拡散する
+}
+
+InsurgentBuff: {
+	Title: エーテルの絆
+	Description: ライフの一部を消費して強化。消費分は蓄積され、条件達成で回復するが、アイテムを切り替えると消失する。
+}
+
+BasaltBuff: {
+	Title: 地殻共鳴
+	Description: 地下世界や特定状況下でアイテムが強化され、新たな能力を得る...
+}
+
+RecipeGroup: {
+	SilverBar: 銀またはタングステンのインゴット
+	GoldBar: 金またはプラチナのインゴット
+	CobaltBar: コバルトまたはパラジウムのインゴット
+	MythrilBar: ミスリルまたはオリハルコンのインゴット
+	AdamantiteBar: アダマンタイトまたはチタンのインゴット
+	CooperBroadsword: 銅または錫の剣
+	IronBroadsword: 鉄または鉛の剣
+	SilverBroadsword: 銀またはタングステンの剣
+	GoldBroadsword: 金またはプラチナの剣
+	BewitchedHats: 任意の宝石付き帽子
+	BewitchedRobes: 任意の宝石付きローブ
+	GemHooks: 任意の宝石フック
+	AnyIce: 任意の氷
+	AnyPhasesaber: 任意のフェーズブレード
+}
+
+Supporters: {
+	Thanks: ご支援ありがとうございます、{0}！
+	CustomColors: このアイテムはあなたのカスタムカラーを使用しています。
+}
+
+Dialogue: {
+	Menace: {
+		Defeat:
+			'''
+			! name Menace
+			! portrait 0 1
+			! delay 2.2
+			! pause_at 2 0.5
+			- フン！このメナス様に災いなど訪れるものか！
+			! portrait 1 1
+			! shake 20 1.0
+			! name Menace (Defeated)
+			! delay 0.2
+			...
+			! portrait 2 1
+			! delay 1
+			...
+			'''
+		Escape:
+			'''
+			! name Menace
+			! portrait 3 1
+			! delay 2
+			- つ、次は覚悟なさい！弱虫め！
+			'''
+	}
+
+	MysteriousStranger:
+		'''
+		! name Mysterious Stranger
+		! portrait 4 0
+		! delay 2.5
+		! pause_at 9 0.5
+		- さあ、見たことを話してみろ。
+		- 誰も信じはしないだろうがな。
+		'''
+}
+
+Biomes: {
+	StrandedShipBiome: {
+		DisplayName: 漂着船
+		TownNPCDialogueName: 漂着船
+	}
+
+	UnderworldDomainBiome: {
+		DisplayName: アンダーワールド・ドメイン
+		TownNPCDialogueName: アンダーワールド・ドメイン
+	}
+}
+
+DamageClasses.HeavyMeleeDamageClass.DisplayName: 重近接ダメージ
+
+Photography: {
+	ShutterbugShop: 写真狂のおみやげ屋
+	ThemeTooltip:
+		'''
+		テーマ: [c/{0}:{1}]
+		ダブル右クリックでテーマフォルダを開く
+		右クリックでユーザーテーマを再読み込み
+		'''
+	PageIndicator: ページ
+	PageNumber: "{0} / {1}"
+	SpecialReward: 6項目達成で特別報酬を獲得！
+
+	Card: {
+		RewardAvailable: 報酬を獲得可能！
+		PosterAvailable: 印刷用コピーが利用可能！
+		PrimeRewardAvailable: フォトページが完成！
+		CrossModAvailable: 特別なフォトページが完成！
+		New: New!
+	}
+
+	Visit: "{0}を訪れて報酬を受け取ろう。"
+	CameraDetection: 撮影対象を検出！
+
+	Themes: {
+		Default: でフォルト
+		Magma: 溶岩
+		Stranded: 漂流
+		Crimson: 真紅
+	}
+
+	Rarity: {
+		Common: コモン
+		Uncommon: アンコモン
+		Rare: レア
+		VeryRare: ベリーレア
+	}
+}
+
+BlacksmithUI: ここに置いた防具を鍛え直します
+MeltedHeartPopup: 最大ライフ
+
+Configs: {
+	SplitClientSideConfig: {
+		DisplayName: Split クライアント設定
+
+		IsDebugMenuEnabled: {
+			Label: デバッグメニュー表示
+			Tooltip: ""
+		}
+
+		ScreenshakeIntensity: {
+			Label: 画面揺れ強度
+			Tooltip: ""
+		}
+
+		FlashEffectsIntensity: {
+			Label: フラッシュエフェクト強度
+			Tooltip: ""
+		}
+
+		ContrastEffectIntensity: {
+			Label: コントラスト強度
+			Tooltip: ""
+		}
+
+		BossCameraFocus: {
+			Label: ボス戦カメラフォーカス
+			Tooltip: ""
+		}
+	}
+}
+
+Bestiary: {
+	Fairyfly: 雨が降ると、聖なるピクシーたちは融合し、強力な虹色の集合体へと変わる。
+	FreeSoul: 化学的に加工された魂。もはや仕事や面倒事に縛られることはなくなった。
+	FootballZombie: フットボールゾンビは常に全力以上でプレーする。攻守ともに活躍するチームプレイヤーだ。フットボールが何かは知らないようだが。
+	FunkySoul: より『進んだ』世界では、この塊はコンパクトな知識記録媒体として利用される。通常、それ自体に人格はない...たいていは。
+	Husk: 乾ききった原始の人骨が、黒い魔術によって再び動き出したもの。
+	PossessedFrostArmor: 凍てつく洞窟に現れる凶暴な騎士。その鎧の内に魂は存在しない。
+	Moonwalker: ムーンウォーカーと現実の人物との一致は、すべて偶然である。
+	PossessedShadowArmor: 悪名高き邪霊は、さらに危険な装備にまで取り憑いている。ロケットブーツすら例外ではない。
+	ShadowCaster: 死霊術の技を身につけた、彷徨う影の術者。
+	RebelliousWisp: かつて勇敢な戦士が敗れ、無数の欠片に砕け散った。それらは今もなお、再び一つになることを望み彷徨っている。
+	SheepNPC: 太古の昔、永遠の眠りから目覚めた古の存在。今は魂と新鮮な血を求めて世界を彷徨う。
+	ShinyPixie: ただやたらと輝いているピクシーもいる。それだけだ。
+	SpikedLavaSlime: こんなの考えたやつ、絶対ろくでもないやつだ。
+	WraithShark: 何を期待してた？アダムス・ファミリーか？
+	Decaying: 武器や道具を使うのが好きだった？安心しろ、このふざけた連中がその能力ごと墓場まで持っていってくれる！
+	Stalker: 追いつかれたな。お前が1999年に何をしたか、奴らは知っている。
+	Fortress: 彼らはダンジョンにとってありがたい存在だ。トラップを整え、灼熱の車輪をうまく流してくれる。
+	Magneto: かつては尊敬されていたネクロマンサーたちが、この無残な姿だ。そしてひび割れたダンジョンブロックで埋め尽くすという『名案』のせいで二重に呪われたのだ。
+	Echo: 地下に住む者たちを、あの耳を裂く叫びで脅かすのがお気に入りらしい。洞窟にはすでに恐怖が溢れているのに。
+	SkeletonJester: 将来有望だったが、その不適切な衣装のせいでダンジョンから追放された。
+	GreatToxicSludge: 巨大化したトキシックスラッジ。その大きさは、そのまま鬱陶しさの増加量に比例している。
+	Sarracenia: この醜い花々は、とっくに絶滅していたはずだ。もし都合よく、活力を与える紫の光源がジャングルに現れていなければ。
+	PurpleDrone: ある日、パープルスライムは突然進化を遂げた。他のスライムたちは、その帳尻を合わせるために退化せざるを得なかった。
+	GoldenDrone: このスライムは遠い未来から来たに違いない。そこではすべてが浮かび、そして輝いているのだろう。
+	Colossus: 有機資源を使い果たしたネクサスの人々は、環境の脅威に対抗するため人工の身体を作り上げた。この知識をもとに、建築家ヴァルカンは自らの財産を守るためにこれらのゴーレムを生み出した。
+	Darknut: 最近、Terrariaの空気には反抗的なエネルギーが満ちている。それをインサージェントのせいだと思うかもしれないが、すべてを一人のせいにするのはあまりに短絡的だ。
+	Garghoul: 邪悪であさましい、ゴミを撒き散らすのが大好きな生き物。
+	Knocker: 扉を盾代わりに使う、少し賢いゾンビ。その扉をどこから持ってきたのかは誰にもわからない。
+	MindFlayer: ブラッドムーンの忌まわしき存在に取り憑かれたカオスエレメンタル。...あるいは、その逆かもしれない。真相は誰にもわからない。
+	Threater: 実のところ、ブラッドムーンとは何の関係もない。ただ、狩りに出るたびにブラッドムーンが起きるだけだ。そしてそれは、君と同じくらい彼らも迷惑している。
+	Troll: この蛮族たちは、どうやら時代も場所も間違えて迷い込んだらしい。
+	Jumpkin: 宴に遅れたこいつは、あろうことか全部お前のせいだと思っているぞ！
+	Crabcannon: カニがもし大砲だったら？その答えは現代科学にしか分からない。
+	GlassButterfly: 氷の洞窟に生息する、繊細で壊れやすい生物。
+	CaveImp: 地獄に厄介なロウ人形が現れて以来、悪魔たちは進化を始めた。彼女から逃れるため、より高みへと昇ろうとしているのだ。
+	Hobgoblin: 多くの戦争犯罪を犯した末に、洞窟へ追放された凶暴な兵士。
+	Sentinel: 地下の遺跡を守る勇敢な騎士たち。もっとも、頼んだ者は誰もいない。
+	Combuster: 地獄の地下砂漠に棲む危険な住人。かつては地上だった場所なのかもしれないが...
+	# Town NPCs
+	Magician: かつて大成功を収めたエンターテイナーだったが、欲深さが家族を危険に晒した。現在は引退し、才能の使い道を見直している。
+	Shutterbug: 凶暴なモンスターと戦うのは大変だが、写真を撮るのはさらに難しい。写真狂は、この過酷な仕事を手伝う者に気前よく報酬を与える。
+	TwilightWalker: 暗黒の地出身の胡散臭い商人。あらゆる人物の情報に通じているらしい。ついでに式典の司会役にも向いていそうだ。
+	Astrologist: 「この星々は、どの深き空から落ちてきたのだろうか？運命とは何なのか？今この時より、“ファタロジー”が君の運命に訪れる雲と陽光を読み解こう。だがその前に...少し昼寝をさせてくれ」
+	VulcanNPC: ヴァルカンは元冒険者だが、戦いよりも自分の好きなことを優先していた。その怠慢を見たネクサスは彼を排除しようとし、彼は地下深くへと逃げ込んだ...今では装備を強化しながら、しっかり金も巻き上げている！大したものだ！
+	Collector: 宇宙の果てにある城塞『ネクサス』から来た商人。その地は、故郷を失った者たちの新たな居場所となっている。
+	CommandoBoss: 水を浴びせられると機嫌を損ねる、ずる賢いエイリアンの敵。
+	# Stranded Ship
+	HauntedAnchor: 光と闇の勢力は、異世界の物すら支配しようとしているようだ。実に奇妙だ。
+	FacelessPirate: かつては漂流船の乗組員だったが、今では冷たい洞窟をさまようアンデッドとなり、これ以上ないほど鋭い笑みを浮かべている。
+	HeadlessPirate: 『頭を冷やせ』という言葉を、少し文字通りに受け取りすぎたようだ。
+	Muskeleton: 漂流船を取り巻く凍てつく風は、とうに収まっていてもおかしくないはずだ。だが現実は逆で、その力は増し続け、犠牲者をさらに恐ろしい怪物へと変えていく。
+	Witness: これらの存在は世界と世界の狭間に棲んでいる。漂流船が次元を越えて難破した際に、一緒に連れてこられたらしい。
+	Thriller: 漂流船の洞窟をなぞる、捉えどころのない影...え？今、後ろにいるって！？
+	# Underworld Domain
+	Breathtaker: このカッコよさで、こんな厄介な洞窟にいるのは大変なんだ！
+	Idler: ヴァルカンが玩具の軍隊のために妙な形の盾を鍛えていた頃、その仲間ウォルターはすべてを賭けてネクサスに反旗を翻し、この世界を守っていた。それが正しいかどうかは、君自身で判断するといい。
+	Latopus: アンダーワールド・ドメインに棲む燃え盛るクラゲで、正弦波のように漂う。まれに現れる黄金種は特に貴重なので見逃すな！
+	LatopusGold: さらに輝きを増した、愛される炎のクラゲ。捕まえたとはやるじゃないか！
+	Savage: ゴーレム造りの腕は一流だったが、ヴァルカンの兵は誰一人としてアンダーワールド・ドメインを離れる意志を持たなかった。一人たりとも...ほとんどは。
+	TectonicMimic: 地下世界の熱を浴びたミミックは、そのエネルギーを取り込み、サイズも力も増していく。もちろん食欲もだ！
+	Toiler: ヴァルカンは一度生命を生み出してしまうと、もう止めることができなかった。
+	Unfairy: どんなに純粋な生き物でも、追い詰められれば手段を選ばなくなる。...お前には荷が重いかもしれないな、坊や。
+
+	Bosses: {
+		Spirit: 異世界の異常現象を追い求める中で、スピリットは星図に存在しない遠い世界へと辿り着いた――それがこの世界だ。運命だったのか偶然だったのか、その真相は謎に包まれている。
+		Mirage: ミラージュは観客を魅了するのが得意だ。しかし戦闘は不得手で、演技に至ってはさらにひどい。
+		Seth: 非の打ち所がない男。加えて、驚くほど謙虚だ。
+		Paraffin:
+			'''
+			「炎はさらに高く燃え上がり、
+			火の王冠を戴くその姿、
+			豪奢な舞台を燃え立たせる、
+			唯一無二のキャンドルクイーン！」
+			'''
+		Insurgent: 世界をネクサスから切り離すという偉業を成し遂げたが、その代償は計り知れない。インサージェントは装甲の奥に身を潜め、常に迫り来る呪いの刃から逃れ続けている。それは彼の過去を忘れさせてはくれない。
+		OneShot: オスカー・ワンショットはテレポート技術で大きな進展を遂げたが、その成果を他の研究者と分かち合おうとはしなかった。その決断とは関係のない悲劇によって、彼は船ごと異世界へと飛ばされることになる。
+		Menace: 意地の悪い古臭いならず者だが、天候を自在に操る恐るべき力を秘めている。望むのは、絶対的な支配と落ち着ける場所だ。
+	}
+}
+
+BossChecklist: {
+	Colossus: ブラッドムーン中にに自然出現する
+	Breathtaker: "{0}をアンダーワールド・ドメインの溶岩に投げ入れる。"
+	Fairyfly: 聖域にて雨天時に自然出現する
+	TheSpirit: 邪悪な地で{1}から購入できる{0}を夜に使う。
+	OneShot: 漂流船にある氷の牢獄を見つけて破壊するか、{0}で召喚する
+	Menace: 夜に不吉な人物に挑戦するか、眠っている占星術師にメナスを憑依させる
+	Paraffin: "{0}を使ってアンダーワールドの牢獄から解放するか、{1}で召喚する"
+	Mirage: 砂漠で謎の女性に挑戦するか、{0}で召喚する
+	Insurgent: 夜に{0}を使う。
+	Seth: "{0}を解放し、夜に使うことで呼び出せる"
+	TheSpiritDespawn: スピリットは任務へと戻る...
+	OneShotDespawn: ワンショットは退却した...
+	MenaceDespawn: メナスはもっと骨のある相手を探しに行った...
+	ParaffinDespawn: パラフィンは容赦ない結末を望んでいる！
+	MirageDespawn: ミラージュは舞台を後にした！
+	InsurgentDespawn: インサージェントは夜の闇へと消えた...
+	SethDespawn: セスは軽やかに去っていった...
+}
+
+Buffs: {
+	ShadowScepterBuff: {
+		DisplayName: 影の秘術
+		Description: ダメージを与えた際マナが回復する
+	}
+
+	FirecasterBlessing: {
+		DisplayName: 炎術師の加護
+		Description: 全ステータスが上昇
+	}
+
+	FightingColdBuff: {
+		DisplayName: 戦慄の冷気
+		Description: 防御貫通力が増加
+	}
+
+	LunarflareBuff: {
+		DisplayName: ルナフレア
+		Description:
+			'''
+			シャタリング・デザインの攻撃がさらに強化される
+			決定的な一撃が迫っている...
+			'''
+	}
+
+	HeavyMetalBuff: {
+		DisplayName: ヘヴィメタル
+		Description:
+			'''
+			{0}の重近接ボーナスを得る
+			- ノックバック無効
+			- 防御力が{1}増加
+			{2}
+			'''
+	}
+
+	AttractionBuff: {
+		DisplayName: アトラクション
+		Description: アイテムの取得範囲が拡大
+	}
+
+	GelidRegeneration: {
+		DisplayName: 冷気再生
+		Description: ライフが徐々に回復
+	}
+
+	DiligenceBuff: {
+		DisplayName: 献身
+		Description: ミニオンの攻撃速度が10%上昇
+	}
+
+	PurityBuff: {
+		DisplayName: 純化
+		Description: ほとんどのデバフを一時的に無効化する
+	}
+
+	SolarRadianceBuff: {
+		DisplayName: ソーラーレイディアンス
+		Description: ソルスティスの攻撃時にサンストームビームを放つ
+	}
+
+	StrategicAdvantage: {
+		DisplayName: 戦略的優位
+		Description: セントリーの攻撃速度が10%上昇
+	}
+
+	CrabRave: {
+		DisplayName: カニの宴
+		Description: 一時的にダメージが10%増加
+	}
+
+	CrabGrave: {
+		DisplayName: カニの墓場
+		Description: 一時的に被ダメージを20%軽減
+	}
+
+	GalacticallyAwesome: {
+		DisplayName: ギャラクティック・オーサム
+		Description: 魔法能力が強化される
+	}
+
+	TimeRuinBuff: {
+		DisplayName: タイム・ルイン
+		Description: 遠距離攻撃速度が{0}増加
+	}
+
+	StupidMelodyBuff: {
+		DisplayName: バカで耳に残るメロディ！
+		Description: 近接速度、防御力、自然回復が上昇
+	}
+
+	AegisBuff: {
+		DisplayName: イージス
+		Description: 一時的に防御力が6増加
+	}
+
+	AgileStance: {
+		DisplayName: 機敏の構え
+		Description: 重近接の攻撃速度が上昇
+	}
+
+	AnxiousnessBuff: {
+		DisplayName: 不安
+		Description:
+			'''
+			移動中、ダメージが10%増加
+			静止中、ダメージが減少
+			'''
+	}
+
+	Balance: {
+		DisplayName: パーフェクトリーバランス
+		Description: ノックバックを無効化
+	}
+
+	Breakdown: {
+		DisplayName: ブレイクダウン
+		Description: 防御力が半減！
+	}
+
+	BrokenAegisBuff: {
+		DisplayName: ネメシス
+		Description: 防御力が無効化される
+	}
+
+	AmethystCandle: {
+		DisplayName: 火炎の足跡
+		Description: 足元に紫の炎を発生させる
+	}
+
+	DiamondCandle: {
+		DisplayName: 火炎の足跡
+		Description:
+			'''
+			足元に白い炎を発生させる
+			炎は立ち昇り、より強力なダメージを与える
+			'''
+	}
+
+	EmeraldCandle: {
+		DisplayName: 火炎の足跡
+		Description:
+			'''
+			足元に緑の炎を発生させる
+			炎で倒した敵は、より多くのゴールドを落とす
+			'''
+	}
+
+	RainbowCandle: {
+		DisplayName: 火炎の空気
+		Description: 現在位置に虹色の炎を発生させる
+	}
+
+	RubyCandle: {
+		DisplayName: 火炎の足跡
+		Description:
+			'''
+			足元に紅い炎を発生させる
+			炎で敵にダメージを与えるとライフが回復する
+			'''
+	}
+
+	SapphireCandle: {
+		DisplayName: 火炎の足跡
+		Description:
+			'''
+			足元に青い炎を発生させる
+			炎で敵にダメージを与えるとマナが回復する
+			'''
+	}
+
+	TopazCandle: {
+		DisplayName: 火炎の足跡
+		Description:
+			'''
+			足元に炎を発生させる
+			炎が敵に『燃えている！』デバフを付与
+			'''
+	}
+
+	ChampionsShield: {
+		DisplayName: 英雄の盾
+		Description: 防御力が12増加
+	}
+
+	InfusionFearful: {
+		DisplayName: 魂融合：恐怖
+		Description: あらゆる武器が敵に『燃えている！』を付与
+	}
+
+	InfusionMighty: {
+		DisplayName: 魂融合：猛威
+		Description: あらゆる武器が敵に『燃えている！』を付与
+	}
+
+	InfusionSighting: {
+		DisplayName: 魂融合：狙撃
+		Description: あらゆる武器が敵に『燃えている！』を付与
+	}
+
+	Constellated: {
+		DisplayName: Mods.Split.BuffName.Constellated
+		Description: Mods.Split.BuffDescription.Constellated
+	}
+
+	EtherealTeaBuff: {
+		DisplayName: エーテルティー
+		Description: 自然回復を大幅に増進
+	}
+
+	FastRegeneration: {
+		DisplayName: 活性再生
+		Description: 自然回復を大幅に増進
+	}
+
+	FunkyTime: {
+		DisplayName: ファンキータイム
+		Description: ライフ&マナの自然回復を大幅に増進
+	}
+
+	Fury: {
+		DisplayName: 激怒！
+		Description: 通常攻撃と重近接の速度が大きく上昇
+	}
+
+	GoldenTeaBuff: {
+		DisplayName: ゴールデンティー
+		Description: 自然回復を大幅に増進
+	}
+
+	HeavyMetal: {
+		DisplayName: ヘヴィメタル
+		Description: ノックバックを無効化し、重武器に応じて防御力が増加
+	}
+
+	Immobilized: {
+		DisplayName: 拘束
+		Description: 動けない
+	}
+
+	InsidiousAddiction: {
+		DisplayName: 蝕む依存
+		Description:
+			'''
+			全ステータスが減少
+			今すぐ逃げろ！
+			'''
+	}
+
+	MagiciansVenomDebuff: {
+		DisplayName: 魔術師の毒
+		Description: マナ消費が4倍になる
+	}
+
+	MarkedDebuff: {
+		DisplayName: 標的
+		Description: 敵に狙われやすくなっている
+	}
+
+	MenacingAura: {
+		DisplayName: 灼熱の業火
+		Description: ライフが急激に失われていく
+	}
+
+	MOD: {
+		DisplayName: 守護の極意
+		Description: ノックバックを無効化し、重武器に応じて防御力がさらに増加
+	}
+
+	OutOfBounds: {
+		DisplayName: エリア外
+		Description: ライフが急激に失われていく
+	}
+
+	InkDemonBuff: {
+		DisplayName: インクの悪魔
+		Description: 今、笑っているのはどっちだ？
+	}
+
+	JackFrostBuff: {
+		DisplayName: ジャックフロスト
+		Description: ヒーヤッホー！
+	}
+
+	LifeGalBuff: {
+		DisplayName: ライフガール
+		Description: ピンチな時にライフハートを運んでくる
+	}
+
+	LunaBuff: {
+		DisplayName: ルナ
+		Description: 「私の影、見なかった？」
+	}
+
+	ManaGalBuff: {
+		DisplayName: マナガール
+		Description: マナが少ないとき、マナスターを届けてくれる
+	}
+
+	NimbusMountBuff: {
+		DisplayName: アングリーニンバス
+		Description: 敵へ怒りの雨を叩きつける
+	}
+
+	UnpixieBuff: {
+		DisplayName: ピクシー
+		Description: 「面倒ごとはごめんだからね！」
+	}
+
+	WitnessPetBuff: {
+		DisplayName: ちびウィットネス
+		Description: 光を放つクラゲの仲間
+	}
+
+	PoisedStance: {
+		DisplayName: 構えの極意
+		Description: 重近接の攻撃速度が上昇
+	}
+
+	PossessedSaberBuff: {
+		DisplayName: 呪われたサーベル
+		Description: 「切り刻んでやる...」
+	}
+
+	PowerWithin: {
+		DisplayName: 内なる力
+		Description: ノックバックを無効化し、防御貫通力が増加
+	}
+
+	ProtectiveReflexes: {
+		DisplayName: 防衛本能
+		Description: 一時的に防御力が増加し、敵に狙われやすくなる
+	}
+
+	ScorchingBlaze: {
+		DisplayName: 灼熱の業火
+		Description: ライフが急激に失われていく
+	}
+
+	SpicyBuff: {
+		DisplayName: （ほぼ）すべてお見通し！
+		Description: 光のオーラを発し、周囲の敵や危険を察知できる
+	}
+
+	SpongyBuff: {
+		DisplayName: 大漁モード
+		Description: 釣れた魚を感知し、フィッシング・パワーとクレート入手率が上昇
+	}
+
+	StarAscended: {
+		DisplayName: 星位覚醒
+		Description: マナ自然回復を大幅に増進する
+	}
+
+	StrongBuff: {
+		DisplayName: 全力全開！
+		Description: ノックバック・ダメージ・クリティカル率が10%上昇
+	}
+
+	FireflyBuff: {
+		DisplayName: ホタル
+		Description: ホタルが一緒に戦ってくれる
+	}
+
+	GhostBuff: {
+		DisplayName: ゴースト
+		Description: 「ほらね、死んじゃったって感じだろう？」
+	}
+
+	IceFairyBuff: {
+		DisplayName: 氷の妖精
+		Description: 「ちょっ、違っ...馬鹿じゃないもん！」
+	}
+
+	NuclearFairyBuff: {
+		DisplayName: 核の妖精
+		Description: 「妖精扱いするな、この間抜け！」
+	}
+
+	RazorfrostBuff: {
+		DisplayName: レイザーフロスト
+		Description: 「冷酷に、容赦なく」
+	}
+
+	StarBuff: {
+		DisplayName: スターフィールド
+		Description: 「君は幸運の星の下に生まれたんだ！」
+	}
+
+	TravellingPrincessBuff: {
+		DisplayName: アエイの同行者
+		Description: 「私のことを知りたいなら、SNSをチェックしてね！」
+	}
+
+	VampireFairyBuff: {
+		DisplayName: ヴァンパイアフェアリー
+		Description: 「人間って、飲み物としてしか見たことないな...」
+	}
+
+	VolcanicHammerBuff: {
+		DisplayName: 火山のハンマー
+		Description: 「さあ、ぶっ飛ばそうぜ！」
+	}
+
+	SupportRelay: {
+		DisplayName: サポートリレー
+		Description: 味方を強化する
+	}
+
+	SupportRelayDamage: {
+		DisplayName: サポートリレー：攻撃
+		Description: ダメージとクリティカル率が上昇
+	}
+
+	SupportRelayDefense: {
+		DisplayName: サポートリレー：防御
+		Description: 防御力が増加
+	}
+
+	SupportRelayLife: {
+		DisplayName: サポートリレー：回復
+		Description: 回復力を上昇
+	}
+
+	SweetBuff: {
+		DisplayName: 安らぎの甘味
+		Description: 採掘速度が25%上昇し、設置速度と設置範囲が増加、敵の攻撃性が低下
+	}
+
+	Triumph: {
+		DisplayName: 勝利
+		Description: 全てのステータスが大幅に向上する
+	}
+
+	VivifyingTeaBuff: {
+		DisplayName: 活力の茶
+		Description: 自然回復を増進する
+	}
+
+	WellForged: {
+		DisplayName: 激昂の鍛錬
+		Description: クラフト時、25%の確率で素材を消費しない
+	}
+
+	Moonbounce: {
+		DisplayName: ムーンバウンス
+		Description: 最大ミニオン数が増加する
+	}
+
+	MirrorLockdown: {
+		DisplayName: 邪悪のエッセンス
+		Description: 鏡に姿が映らない...
+	}
+
+	BlueCrescentMoon: {
+		DisplayName: 三日月（青）
+		Description: 「これはほんの一部にすぎない」
+	}
+
+	GreenCrescentMoon: {
+		DisplayName: 三日月（緑）
+		Description: 「これはほんの一部にすぎない」
+	}
+
+	LuckyMoonBuff: {
+		DisplayName: ラッキームーン
+		Description: 月の満ち欠けに応じて見た目が変化
+	}
+
+	PinkCrescentMoon: {
+		DisplayName: 三日月（ピンク）
+		Description: 「これはほんの一部にすぎない」
+	}
+
+	YellowCrescentMoon: {
+		DisplayName: 三日月（黄）
+		Description: 「これはほんの一部にすぎない」
+	}
+
+	FunkyMirrorPetBuff: {
+		DisplayName: 憑依された鏡
+		Description: 「監禁生活だって悪くはないよ！」
+	}
+
+	SunnyBuff: {
+		DisplayName: Mr.サニー
+		Description: 「世界は確かに回ってる...」
+	}
+
+	VioletBuff: {
+		DisplayName: ヴァイ
+		Description: 「そこらの蜂と一緒にしないで！」
+	}
+
+	AstrolotlBuff: {
+		DisplayName: アストロロトル
+		Description: 「この満足感、言葉では言い表せないね」
+	}
+
+	FrogletBuff: {
+		DisplayName: ちびカエル
+		Description: 「なにしてるのー？」
+	}
+
+	SpooksterBuff: {
+		DisplayName: スプークスター
+		Description: 「ばあっ！」
+	}
+
+	StarfaceJrBuff: {
+		DisplayName: スターフェイスJr.
+		Description: どのグループにも属さない、独立した存在だ！
+	}
+
+	SheepMountBuff: {
+		DisplayName: ヒツジ仲間
+		Description: 「放っておいてくれ！」
+	}
+
+	HouseOfEvil: {
+		DisplayName: 邪悪の館
+		Description: 旅NPCの出現を防ぐ
+	}
+
+	MasterOfDefense: {
+		DisplayName: 防御の達人
+		Description: Mods.Split.Buffs.MasterOfDefense.Description
+	}
+
+	ZapCooldown: {
+		DisplayName: 放電クールタイム
+		Description: Mods.Split.Buffs.ZapCooldown.Description
+	}
+
+	ZapTagDebuff: {
+		DisplayName: 放電タグ
+		Description: Mods.Split.Buffs.ZapTagDebuff.Description
+	}
+
+	PoisonBreakBuff: {
+		DisplayName: ポイズンラッシュ
+		Description: 付与したデバフの数に応じて、ポイズンブレイクの攻撃速度が上昇
+	}
+
+	TheHummerBuff: {
+		DisplayName: ザ・ハマー
+		Description: 「この道に焼き跡を刻んでやるぜ！」
+	}
+
+	MasterSpiritBuff: {
+		DisplayName: スピリット嬢
+		Description: 「だって、君は私のロックスターだからね！」
+	}
+
+	DemonCompendiumBuff: {
+		DisplayName: 悪魔大全
+		Description: 「...そこは悪魔の集う場所」
+	}
+
+	MonolithBuff: {
+		DisplayName: モノリスの加護
+		Description: 次に受けるダメージを半減し、ノックバックを無効化する
+	}
+
+	EccentricBuff: {
+		DisplayName: 果てなき覚悟
+		Description: 次のシザー攻撃が強化される
+	}
+
+	GelidStarPower: {
+		DisplayName: 氷星の力
+		Description: "[fx/mof:マナオーバーフロー] が強化される"
+	}
+
+	MoonWheelBuff: {
+		DisplayName: 英雄の眼差し
+		Description: 仲間との絆が力を与える
+		And: と
+		Melee: 防御力
+		Ranged: 速度
+		Magic: ライフ回復
+		Summon: 武器速度
+	}
+
+	StarsignBuff: {
+		DisplayName: 星座の加護
+		Description: 魔法のクリティカル率が上昇
+	}
+
+	OverbladeBuff: {
+		DisplayName: オーバーブレード
+		Description: 天の剣があなたの意志に応える...
+		DisplayNameNight: 夜が訪れる...
+		DescriptionNight: 剣が自動で敵を攻撃し、マナを回復する
+	}
+
+	BewitchedStepBuff: {
+		DisplayName: 魅惑の歩み
+		Description: 足元の地面が魔法で燃え上がる
+	}
+
+	StargazerBuff: {
+		DisplayName: 星見の気配
+		Description: 周囲の空気が色彩を帯びて感じられる...
+	}
+
+	SpiritWrathBuff: {
+		DisplayName: 精霊の怒り
+		Description: ミニオンと鞭の攻撃速度が上昇する
+	}
+
+	AfterlifeLifeDebtDebuff: {
+		DisplayName: 来世の代償
+		Description: Mods.Split.Buffs.AfterlifeLifeDebtDebuff.Description
+	}
+
+	AfterlifeTagDebuff: {
+		DisplayName: 来世の刻印
+		Description: Mods.Split.Buffs.AfterlifeTagDebuff.Description
+	}
+
+	ReverberationBuff: {
+		DisplayName: 氷結の反響
+		Description:
+			'''
+			召喚ミニオンの攻撃速度が上昇する
+			近接型ミニオンはさらに効果が倍増する
+			'''
+	}
+
+	StrandedWhipTagDebuff: {
+		DisplayName: ストランデッド鞭タグデバフ
+		Description: Mods.Split.Buffs.StrandedWhipTagDebuff.Description
+	}
+
+	JellyBondBuff: {
+		DisplayName: ジェリーボンド
+		Description: ジェリー装備が大幅に強化される
+	}
+
+	DevouringHunt: {
+		DisplayName: 貪食の狩り
+		Description:
+			'''
+			鞭の射程が{0}%、速度が{1}%上昇する
+			召喚ダメージが{2}%増加する
+			移動速度が{3}%上昇する
+			ライフ再生が増加する
+			「虚無が漂っている...」
+			'''
+	}
+
+	GelTagDebuff: {
+		DisplayName: ジェルタグデバフ
+		Description: Mods.Split.Buffs.GelTagDebuff.Description
+	}
+
+	SpaceJellyfishBuff: {
+		DisplayName: 未来からの仲間たち
+		Description: 敵をジェルまみれにしてくれる！
+	}
+
+	ShroomedDebuff: {
+		DisplayName: キノコ状態
+		Description: Mods.Split.Buffs.ShroomedDebuff.Description
+	}
+
+	CrabWhipTagDebuff: {
+		DisplayName: カニ鞭タグデバフ
+		Description: Mods.Split.Buffs.CrabWhipTagDebuff.Description
+	}
+
+	MotorbugPetBuff: {
+		DisplayName: 小さな殺戮マシン
+		Description: 「我は主の道具。壊すことなど許されぬ」
+	}
+
+	SunStrikeBuff: {
+		DisplayName: サンストライク
+		Description: 次の攻撃でうごめく太陽光線を放つ
+	}
+
+	StarshroomBuff: {
+		DisplayName: スターシュルーム状態
+		Description: セントリーの近くにいる間、徐々にライフが回復する
+	}
+
+	StunlockedDebuff: {
+		DisplayName: スタンロックデバフ
+		Description: Mods.Split.Buffs.StunlockedDebuff.Description
+	}
+
+	StunlockDebuff: {
+		DisplayName: スタンロック
+		Description: Mods.Split.Buffs.StunlockDebuff.Description
+	}
+
+	MasterParaffinPetBuff: {
+		DisplayName: 何の変哲もない蝋燭
+		Description: 「どうやら、エアフライヤーは持ってないみたいだね...」
+	}
+
+	MasterMiragePetBuff: {
+		DisplayName: かけがえのない記憶
+		Description: 「ああ、この惨めさよ...」
+	}
+
+	RimeBreakerBuff: {
+		DisplayName: アイスブレイク
+		Description: 次の重攻撃のダメージとクリティカル率が上昇
+
+		Epic: {
+			DisplayName: 極撃
+			Description:
+				'''
+				次の重攻撃が2回分の威力になる
+				「ここで終わりにしてやる！」
+				'''
+		}
+	}
+
+	EyesoreTagDebuff: {
+		DisplayName: アイソアタグ
+		Description: Mods.Split.Buffs.EyesoreTagDebuff.Description
+	}
+
+	MetalcoreBuff: {
+		DisplayName: メタルコア
+		Description: ノックバックを無効化し、防御貫通力が増加
+	}
+
+	BreakdownBuff: {
+		DisplayName: ブレイクダウン
+		Description: Mods.Split.Buffs.BreakdownBuff.Description
+	}
+
+	WrathOfTheMaskBuff: {
+		DisplayName: 仮面の怒り
+		Description: 邪悪の仮面の効果が倍増する
+	}
+}
+
+Census: {
+	Shutterbug: いつでも
+	Astrologist: メナスを撃破後
+	Commando: コマンドーボスとマルシアンを撃破後
+	Collector: スピリットを撃破後
+}
+
+Conditions: {
+	DownedSpirit: スピリット撃破後
+	NotDownedSpirit: スピリット撃破前
+	DownedOneShot: ワン・ショット撃破後
+	NotDownedOneShot: ワン・ショット撃破前
+	DownedMenace: メナス撃破後
+	NotDownedMenace: メナス撃破前
+	DownedParaffin: パラフィン撃破後
+	NotDownedParaffin: パラフィン撃破前
+	DownedMirage: ミラージュ撃破後
+	NotDownedMirage: ミラージュ撃破前
+	DownedInsurgent: インサージェント撃破後
+	NotDownedInsurgent: インサージェント撃破前
+	DownedSeth: セス撃破後
+	NotDownedSeth: セス撃破前
+	DownedUltimateSeth: 究極の覇者との激闘を終えた後...
+	NotDownedUltimateSeth: 究極の覇者との激闘を迎える前...
+	DownedCommando: コマンドー撃破後
+	NotDownedCommando: コマンドー撃破前
+	DownedBreathtaker: ブレステイカー撃破後
+	NotDownedBreathtaker: ブレステイカー撃破前
+	DownedColossus: コロッサス撃破後
+	FedSpirit: スピリットの脳力をLv5まで育てる
+}
+
+Items: {
+	Tooltip: {
+		SlimeGun: ...しかし、異星の技術としては平和的すぎる。
+		ReforgeWarning: 誰かが鍛え直せるかもしれない
+		SharpReforge: 防具モディファイアを取り除ける
+		TroublesomeVessel: ...頼むから、お気に入り登録しておいてくれ。
+		PrimeRewardsComplete:
+			'''
+			「どうやら私の極上コレクションは全部受け取り終えたようだね！本当に、今はもう渡せる物が何もないんだ」
+			「何と言えばいいかな...[c/{0}:おめでとう]」
+			'''
+	}
+
+	# Armor
+	ContraptionistHat: {
+		DisplayName: 発明家の帽子
+		Tooltip:
+			'''
+			「ロケットブースター、レーザー銃、そしてナルシズムは付属していない場合があります」
+			召喚できるセントリーの数が1体増える
+			ミニオンダメージが14%増加
+			'''
+		Set:
+			'''
+			召喚できるミニオンの数が1体増える
+			狙った敵を掃射する『ヘリカル・コントラプション』タレットを召喚
+			敵を倒したりボスへダメージを与えると弾薬が落ちる
+			上方向入力2回でタレットを切り替える
+			'''
+	}
+
+	ContraptionistChestplate: {
+		DisplayName: 発明家の胸当て
+		Tooltip:
+			'''
+			召喚できるセントリーの数が1体増える
+			ミニオンダメージが16%増加
+			'''
+	}
+
+	ContraptionistBoots: {
+		DisplayName: 発明家のブーツ
+		Tooltip: 移動速度が15%上昇
+	}
+
+	JellyGelmet: {
+		DisplayName: ジェリーゲルメット
+		Tooltip:
+			'''
+			召喚できるセントリーの数が{0}体増える
+			セントリー攻撃時、{1} タグダメージを与える
+			'''
+		Set:
+			'''
+			Wキー二回入力で、ともに戦う[c/CE861A:ジェリータJr.]を召喚する！
+			Double tap W to recall [c/CE861A:ジェリータJr.]
+			'''
+		SlimeGooberName: ジェリータJr.
+
+		JellyBond: {
+			Title: ジェリーボンド
+			Description:
+				'''
+				- 召喚できるミニオンの数が{0}体増える
+				- 移動速度が{2}%上昇
+				- 防御力が{1}増加
+				-　[c/CE861A:ジェリータJr.]ダメージが強化され、近くの敵に揮発性ゼリーを投げるようになる
+				'''
+		}
+	}
+
+	JellySlimeplate: {
+		DisplayName: ジェリースライムプレート
+		Tooltip:
+			'''
+			セントリーダメージが{0}%増加
+			召喚できるミニオンの数が{1}体増える
+			'''
+	}
+
+	JellyWobblers: {
+		DisplayName: ジェリーワブラーズ
+		Tooltip: ジャンプ高度が増加
+	}
+
+	GravekeeperHood: {
+		DisplayName: 墓森のフード
+		Tooltip: ミニオンダメージが3%増加
+		Set:
+			'''
+			召喚できるミニオンの数が1体増える
+			上方向二回入力で『エーテリア蝶』に変身
+			ミニオン攻撃や時間経過によってゲージが回復する
+			'''
+	}
+
+	GravekeeperJacket: {
+		DisplayName: 墓守のローブ
+		Tooltip:
+			'''
+			ミニオンダメージが3%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	GravekeeperLeggings: {
+		DisplayName: 墓森のすね当て
+		Tooltip: ミニオンダメージが3%増加
+	}
+
+	WarlochSetItem: {
+		DisplayName: ウォーロックアーマー
+		Tooltip: ""
+	}
+
+	WarlochBreastplate: {
+		DisplayName: ウォーロックの胸当て
+		Tooltip:
+			'''
+			ミニオンダメージが{0}%増加
+			召喚できるミニオンの数が{1}体増える
+			'''
+	}
+
+	WarlochHat: {
+		DisplayName: ウォーロックの帽子
+		Tooltip:
+			'''
+			ミニオンダメージが{0}%増加
+			召喚できるミニオンの数が{1}体増える
+			「深き海の面影」
+			'''
+		Set:
+			'''
+			ムチで水中生物を釣り上げ、そのまま捕食可能
+			捕食することで攻撃力と防御力が増加
+			獲物は赤色で強調される
+			'''
+	}
+
+	WarlochLeggings: {
+		DisplayName: ウォーロックのすね当て
+		Tooltip: 移動速度が{0}%上昇
+	}
+
+	CrabHelmet: {
+		DisplayName: カニシェルメット
+		Tooltip: 重近接ダメージが12%増加
+		Set: 背後からの近接攻撃を防ぎ、投擲物によるダメージを軽減する
+	}
+
+	CrabBreastplate: {
+		DisplayName: カニシェルプレート
+		Tooltip: 重近接のクリティカル率が6%上昇
+	}
+
+	CrabLeggings: {
+		DisplayName: カニレッグス
+		Tooltip:
+			'''
+			移動速度が10%上昇
+			水中での高速移動が可能
+			'''
+	}
+
+	StarRangerCoat: {
+		DisplayName: スターレンジャーのコート
+		Tooltip:
+			'''
+			遠距離ダメージが8%増加
+			25%の確率で弾薬を消費しない
+			「銀河を守る者にふさわしい」
+			'''
+	}
+
+	StarRangerHat: {
+		DisplayName: スターレンジャーの帽子
+		Tooltip:
+			'''
+			遠距離ダメージとクリティカル率が8%上昇
+			最大マナが60増加
+			「銀河を守る者にふさわしい」
+			'''
+
+		GalacticallyAwesome: {
+			Title: 銀河級にイカしてる！
+			Description: 防具による遠距離ボーナスを一時的にすべて魔法へ変換する。マナ消費を大幅に軽減し、すべての魔法武器の攻撃速度を増加。さらに、即座に[fx/mov:マナオーバーロード]を発動する。
+		}
+
+		Set:
+			'''
+			遠距離ダメージを与えると、砕けた星を徐々に修復する
+			完全修復後、魔法武器を使用すると[fx/mov:ギャラクティック・オーサム]状態になる！
+			'''
+	}
+
+	StarRangerPants: {
+		DisplayName: スターレンジャーのズボン
+		Tooltip:
+			'''
+			移動速度が15%上昇
+			遠距離クリティカル率が8%上昇
+			「銀河を守る者にふさわしい」
+			'''
+	}
+
+	ArachnidLegs: {
+		DisplayName: 蜘蛛のすね当て
+		Tooltip:
+			'''
+			ミニオンダメージが6%増加
+			移動速度が10%上昇
+			召喚できるセントリーの数が1体増える
+			「噴水登りには不向き」
+			'''
+	}
+
+	StargazerHat: {
+		DisplayName: スターゲイザーの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%強化
+			'''
+		Set:
+			'''
+			優雅な動きが美しい星屑を放ち、周囲の敵を惑わせる
+			[fx/mov:マナオーバーロード]中は、弾幕からも星屑が放出される
+			'''
+	}
+
+	StargazerRobe: {
+		DisplayName: スターゲイザーのローブ
+		Tooltip:
+			'''
+			最大マナが100増加
+			マナ消費量が20%減少
+			'''
+	}
+
+	PossessedHelmet: {
+		DisplayName: 憑依の兜
+		Tooltip:
+			'''
+			ダメージが{0}%増加
+			クリティカル率が{1}%上昇
+			'''
+
+		Charge: {
+			Title: 静寂
+			Description: ライフの増減で[fx/eb:沈黙の獣]への変身エネルギーを蓄積する。変身中は無敵となり、瀕死時に回復する。
+		}
+
+		Set:
+			'''
+			[fx/eb:エーテルの絆]発動中はライフ自然回復を増進
+			Wキー二階入力で、突進する骸骨へと変身
+			'''
+	}
+
+	PossessedBreastplate: {
+		DisplayName: 憑依の胸当て
+		Tooltip:
+			'''
+			ダメージが{0}%増加
+			エーテルダメージが{1}%上昇
+			'''
+	}
+
+	PossessedLeggings: {
+		DisplayName: 憑依のすね当て
+		Tooltip: 移動速度が{0}%上昇
+	}
+
+	TectonicHelmet: {
+		DisplayName: 地殻の兜
+		Tooltip: クリティカル率が{0}%上昇
+		Set: 敵撃破時に爆発する辰砂爆弾を落とす
+	}
+
+	TectonicBreastplate: {
+		DisplayName: 地殻の胸当て
+		Tooltip:
+			'''
+			ダメージが{0}%増加
+			攻撃速度が{1}%上昇
+			'''
+	}
+
+	TectonicLeggings: {
+		DisplayName: 地殻のすね当て
+		Tooltip: 移動速度が{0}%上昇
+	}
+
+	RimebreakerHelmet: {
+		DisplayName: 氷砕の兜
+		Tooltip: 近接ダメージが{0}%増加
+		Set:
+			'''
+			攻撃時、[c/7AE5FF:氷河のこだま]を召喚して冷気の剣で敵を攻撃する！
+			彼が敵にダメージを与えるたび、[c/7AE5FF:アイスブレイク]を1スタック獲得
+			'''
+
+		Icebreak: {
+			Title: アイスブレイク
+			Description: スタックごとに重級近接ダメージとクリティカル率が大きく上昇するが、次の攻撃で消費される。6スタックで[c/7AE5FF:極撃]に変化し、次の一撃のダメージが2倍になる。
+		}
+	}
+
+	RimebreakerBreastplate: {
+		DisplayName: 氷砕の氷鎧
+		Tooltip:
+			'''
+			近接速度が{0}%上昇
+			敵に狙われやすくなる
+			'''
+	}
+
+	RimebreakerLeggings: {
+		DisplayName: 氷砕のすね当て
+		Tooltip: 「足元が冷えてきた？」
+	}
+
+	# Armor: Bewitched Hats
+	WitchAmethystHat: {
+		DisplayName: アメジストの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		CommonSet: 足元に魔女の炎を発生させる
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			敵が炎ダメージを受けた際、まれに[fx/mof:マナオーバーフロー]が回復する
+			'''
+	}
+
+	WitchDiamondHat: {
+		DisplayName: ダイヤモンドの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			炎のクリティカル率が上昇する
+			'''
+	}
+
+	WitchEmeraldHat: {
+		DisplayName: エメラルドの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			炎の上を歩いた敵を毒状態にする
+			'''
+	}
+
+	WitchRubyHat: {
+		DisplayName: ルビーの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			敵が炎ダメージを受けた際、まれにライフを回復する
+			'''
+	}
+
+	WitchSapphireHat: {
+		DisplayName: サファイアの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			敵が炎ダメージを受けた際、まれにマナを回復する
+			'''
+	}
+
+	WitchTopazHat: {
+		DisplayName: トパーズの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			炎を踏んだ敵を炎上状態にする
+			'''
+	}
+
+	WitchAmberHat: {
+		DisplayName: コハクの帽子
+		Tooltip:
+			'''
+			魔法ダメージが{0}%増加
+			マナオーバーフローが{1}%上昇
+			'''
+		Set:
+			'''
+			足元に魔女の炎を発生させる
+			炎を踏んだ敵を長時間炎上状態にする
+			'''
+	}
+
+	# Food
+	Kebab: {
+		DisplayName: ケバブ
+		Tooltip:
+			'''
+			ライフが自然に回復していく
+			「なんてひどい奴なんだ」
+			'''
+	}
+
+	DietzNuts: {
+		DisplayName: ディーツナッツ
+		Tooltip: 全ステータスが少し強化
+	}
+
+	# Potions
+	AnxiousnessPotion: {
+		DisplayName: 不安症のポーション
+		Tooltip:
+			'''
+			移動中、ダメージが10%増加
+			ただし静止中、ダメージが減少
+			'''
+	}
+
+	AttractionPotion: {
+		DisplayName: 引力のポーション
+		Tooltip: 
+			'''
+			アイテムを披露距離が広がる
+			持続時間 5分
+			'''
+	}
+
+	GreaterStrangeBrew: {
+		DisplayName: 奇妙な醸造酒
+		Tooltip:
+			'''
+			副作用には以下が含まれる可能性があります:
+			- 予測不能な回復効果
+			- 混沌としたポーション酔い
+			- 理由不明の無敵状態が安定して発生
+			「見た目も匂いも...前よりは多少マシ。」
+			'''
+		SideEffects:
+			'''
+			副作用には以下が含まれる可能性があります:
+			- 予測不能な回復効果
+			- 混沌としたポーション酔い
+			- 理由不明の無敵状態が安定して発生
+			'''
+		RestoreHealthRange: ライフを{0}～{1}回復
+	}
+
+	GreatestStrangeBrew: {
+		DisplayName: 最も奇妙な醸造酒
+		Tooltip:
+			'''
+			副作用には以下が含まれる可能性があります:
+			- 予測不能な回復効果
+			- 混沌としたポーション酔い
+			- 理由不明の無敵状態が安定して発生
+			「見た目や匂いなんて気にするな！飲むんだ！」
+			'''
+	}
+
+	DiligencePotion: {
+		DisplayName: 勤勉のポーション
+		Tooltip: ミニオンの攻撃速度が10%上昇
+	}
+
+	GelidHealingPotion: {
+		DisplayName: 氷結ライフポーション
+		Tooltip: 時間経過で追加の100ライフを回復
+	}
+
+	LesserGelidHealingPotion: {
+		DisplayName: 小型氷結ライフポーション
+		Tooltip: 時間経過で追加の75ライフを回復
+	}
+
+	PurifyingPotion: {
+		DisplayName: 洗浄のポーション
+		Tooltip: 一時的にほとんどのデバフに対する耐性を得るが、ポーション酔いを引き起こす
+	}
+
+	GelidManaPotion: {
+		DisplayName: 氷結マナポーション
+		Tooltip: "[fx/mof:マナオーバーフロー]ボーナスが{0}上昇"
+	}
+
+	# Accessories
+	BubbleShield: {
+		DisplayName: 泡の盾
+		Tooltip:
+			'''
+			敵にダメージを与えると、防護泡がプレイヤーを包む
+			「とってもフレ『フィッシュ』な気持ち！」
+			'''
+
+		Shield: {
+			Title: 防護泡
+			Description: 攻撃を受けるとダメージを吸収し、周囲の敵へ泡を飛ばして反撃する。破壊されると、シールド強度に応じて最大9秒のクールダウンが派生する。
+		}
+	}
+
+	JellyShield: {
+		DisplayName: ゼリーの盾
+		Tooltip:
+			'''
+			敵にダメージを与える揮発性ゼラチンを定期的に放出する
+			スライム系から攻撃を受けない
+			[c/CE861A:ジェリー装備]セットを同時装備すると大幅に強化される
+			'''
+	}
+
+	MementoVivere: {
+		DisplayName: メメント・ヴィヴェレ
+		Tooltip:
+			'''
+			攻撃時、伝説の竜剣がアシストして敵を斬り裂く
+			強力な近接ダメージを与え、武器の防御性能を100%強化する
+			「進み、そして生きよ...」
+			'''
+	}
+
+	# Accessories: Magic
+	DiscourteosFullMoon: {
+		DisplayName:　ディスコーテオス・フルムーン
+		Tooltip: 武器を切り替えながら戦うことで、魔法クリティカル率が{0}% / {1}% / {2}% 上昇する
+	}
+
+	DiscourteosNewMoon: {
+		DisplayName: ディスコーテオス・ニュームーン
+		Tooltip:
+			'''
+			マナスター取得時に [fx/mof:{1} マナオーバーフロー] 回復
+			他の非魔法職プレイヤーがマナスターを取得できなくなる
+			+{0} マナオーバーフロー
+			'''
+		MainTooltip:
+			'''
+			マナスター取得時に [fx/mof:{0} マナオーバーフロー] 回復
+			他の非魔法職プレイヤーがマナスターを取得できなくなる
+			'''
+	}
+
+	PrimordialEbonstone: {
+		DisplayName: 太古のエボンストーン
+		Tooltip:
+			'''
+			敵を攻撃中、[fx/mof:マナオーバーフロー] が自然回復する
+			+{0} マナオーバーフロー
+			'''
+		MainTooltip: 敵を攻撃中、[fx/mof:マナオーバーフロー] が自然回復する
+		BonusOverflowTooltip: +{0} マナオーバーフロー
+	}
+
+	LunarSmirkCharm: {
+		DisplayName: 月笑みのチャーム
+		Tooltip:
+			'''
+			 武器を切り替えながら戦うことで、魔法クリティカル率が{0} / {1}% / {2}% 上昇する
+			敵を攻撃中、[fx/mof:マナオーバーフロー] が自然回復する
+			マナスター取得時に [fx/mof:{1} マナオーバーフロー] 回復
+			他の非魔法職プレイヤーがマナスターを取得できなくなる
+			+{0} マナオーバーフロー
+			「少しくらい溢れたっていいでしょう？」
+			'''
+	}
+
+	MoonRock: {
+		DisplayName: 月の岩石
+		Tooltip:
+			'''
+			[fx/mov:マナオーバーロード] 発動時にムーンホイールを召喚する
+			チャージされると周囲のプレイヤーへバフを付与する
+			'''
+		ShortTip: "[fx/mov:マナオーバーロード] 発動時にムーンホイールを召喚する"
+
+		MoonWheel: {
+			Title: ムーンホイール
+			Description:
+				'''
+				プレイヤーや他人がダメージを与えると、対応するクラスの欠片が点灯し、発動時に以下の効果を付与する:
+				- [c/{3}:魔法]: ライフ自然回復量増加
+				- [c/{4}:遠距離]: 移動速度 +{1}
+				- [c/{5}:召喚]: 攻撃速度 +{2}
+				- [c/{6}:近接]: 防御力 +{0}
+				'''
+		}
+	}
+
+	MoonHand: {
+		DisplayName: ムーンハンド
+		Tooltip:
+			'''
+			[fx/mov:マナオーバーロード] 発動中、魔法攻撃速度が上昇
+			「疑う位なら、自分の目で見てみな！」
+			'''
+	}
+
+	NightoSphere: {
+		DisplayName: ナイトスフィア
+		Tooltip:
+			'''
+			[fx/mov:マナオーバーロード] 発動時にムーンホイールを召喚し、近くのプレイヤーへ強化効果を与える
+			[fx/mov:マナオーバーロード] 発動中、魔法攻撃速度が上昇
+			「疑う位なら、自分の目で見てみな！」
+			 武器を切り替えながら戦うことで、魔法クリティカル率が{0}% / {1}% / {2}% 上昇する
+			敵を攻撃中、[fx/mof:マナオーバーフロー] が自然回復する
+			マナスター取得時に [fx/mof:{1} マナオーバーフロー] 回復
+			他の非魔法職プレイヤーがマナスターを取得できなくなる
+			+{0} マナオーバーフロー
+			'''
+	}
+
+	CelestialGlobe: {
+		DisplayName: セレスティアルグローブ
+		Tooltip:
+			'''
+			[fx/mov:マナオーバーロード] 発動時にムーンホイールを召喚し、近くのプレイヤーへ強化効果を与える
+			[fx/mov:マナオーバーロード] 発動中、魔法攻撃速度が上昇
+			「疑う位なら、自分の目で見てみな！」
+			 武器を切り替えながら戦うことで、魔法クリティカル率が{0}% / {1}% / {2}% 上昇する
+			敵を攻撃中、[fx/mof:マナオーバーフロー] が自然回復する
+			マナスター取得時に [fx/mof:{1} マナオーバーフロー] 回復
+			他の非魔法職プレイヤーがマナスターを取得できなくなる
+			ステータスを強化し、マーフォーク / 狼男への変身を可能にする
+			+{0} マナオーバーフロー
+			「だが今や空はオパールの輝きに染まっている...」
+			'''
+	}
+
+	# Accessoriers: Summoner
+	BrightstoneChunk: {
+		DisplayName: ブライトストーンの欠片
+		Tooltip:
+			'''
+			夜間、ミニオン速度が{0}%上昇
+			昼間、セントリーのダメージが{1}% 増加
+			ミニオンまたはセントリー枠が2未満の場合、それぞれ1増加
+			'''
+		RawTooltip:
+			'''
+			夜間、ミニオン速度が{0}%上昇
+			昼間、セントリーのダメージが{1}% 増加
+			'''
+	}
+
+	AlluringSkull: {
+		DisplayName: 魅惑の頭蓋骨
+		Tooltip:
+			'''
+			夜間、ミニオン速度が{0}%上昇
+			昼間、セントリーのダメージが{1}% 増加
+			召喚できるミニオン及びセントリーの数を増やす
+			'''
+	}
+
+	AvengerMask: {
+		DisplayName: 復讐者の仮面
+		Tooltip: ライフが{0}% を下回ると、一時的にムチ速度とミニオン速度が{1}%上昇
+	}
+
+	SagesHead: {
+		DisplayName: 賢者の頭部
+		Tooltip:
+			'''
+			召喚中のセントリー1体につき防御力が{0}増加
+			召喚中のミニオン1体につき召喚ダメージが{1}%増加
+			'''
+	}
+
+	MaskOfEvil: {
+		DisplayName: 邪悪の仮面
+		Tooltip:
+			'''
+			召喚したミニオンまたはセントリー1体ごとに、召喚ダメージ・攻撃速度・鞭の速度が{0}%上昇する
+			ライフが{1}%未満の間、効果が倍になる
+			'''
+	}
+
+	MalachiteCasket: {
+		DisplayName: マラカイトの小箱
+		Tooltip:
+			'''
+			召喚中のミニオンまたはセントリー1体につき、ミニオンダメージ・攻撃速度・ムチ速度が{0}%上昇
+			ライフが{1}% 未満の間、効果が倍になる
+			夜間、ミニオン速度が{2}%増加
+			昼間、セントリーのダメージが{3}%増加
+			ミニオンおよびセントリー容量が1増加
+			ミニオンのノックバックと召喚ダメージが{4}%増加
+			召喚できるミニオンの数が {5} 増える
+			'''
+	}
+
+	Starshroom: {
+		DisplayName: スターシュルーム
+		Tooltip:
+			'''
+			セントリーの周囲に回復用のキノコ地帯を生成する
+			セントリーダメージが{0}%増加
+			'''
+	}
+
+	BrokenOverclocker: {
+		DisplayName: 故障したオーバークロッカー
+		Tooltip:
+			'''
+			ムチを使ってセントリーを過負荷状態にできる
+			過負荷状態のセントリーは射撃速度が50%上昇する
+			'''
+	}
+
+	ClockworkShield: {
+		DisplayName: 機巧の盾
+		Tooltip:
+			'''
+			ムチを使ってセントリーを過負荷状態にできる
+			過負荷状態のセントリーは射撃速度が50%上昇する
+			召喚できるセントリーの数が{0}体増える
+			召喚ダメージが{1}% 増加
+			'''
+	}
+
+	MyceliumFortress: {
+		DisplayName: マイセリウムフォートレス
+		Tooltip:
+			'''
+			セントリーの周囲に回復用のキノコ地帯を生成する
+			セントリーダメージが{0}%増加
+			ムチを使ってセントリーを過負荷状態にできる
+			過負荷状態のセントリーは射撃速度が50%上昇する
+			召喚できるセントリーの数が{1}体増える
+			召喚ダメージが {2}% 増加
+			'''
+	}
+
+	# Accessories: Vanity
+	PhantomHat: {
+		DisplayName: ファントムハット
+		Tooltip: マウントに素敵な帽子をプレゼント！
+
+		Masquerade: {
+			Title: マスカレイド
+			Description: 帽子かヘルメットを右クリックすると、ファントムハットがその外見になる。
+			Wear: 現在、マウントは {0} を身につけている。
+		}
+	}
+
+	# Tiles: Misc
+	AgateGrapplePoint: {
+		DisplayName: アゲートグラップルポイント
+		Tooltip:
+			'''
+			ブロックを貫通してフックを掛けられる
+			「大いなる力には...」
+			'''
+	}
+
+	JadeGrapplePoint: {
+		DisplayName: ジェイドグラップルポイント
+		Tooltip:
+			'''
+			ブロックを貫通してフックを掛けられる
+			「大いなる力には...」
+			'''
+	}
+
+	TourmalineGrapplePoint: {
+		DisplayName: トルマリングラップルポイント
+		Tooltip:
+			'''
+			ブロックを貫通してフックを掛けられる
+			「大いなる力には...」
+			'''
+	}
+
+	TectonicGrapplePoint: {
+		DisplayName: 地殻のグラップルポイント
+		Tooltip:
+			'''
+			ブロックを貫通してフックを掛けられる
+			「大いなる力には...」
+			'''
+	}
+
+	# Tiles: Paintings
+	Hunchback: {
+		DisplayName: ハンチバック
+		Tooltip: 「快適かい？」
+	}
+
+	# Weapons: Racquets
+	
+	/* Temporary text edit, terraria doesn't render blank lines. */
+	CommonTooltip.RacquetSlash: ""
+
+	BeeRacquet: {
+		DisplayName: ビーダムラケット
+		Tooltip:
+			'''
+			投擲可能な蜂の巣ボールを召喚する
+
+			'''
+	}
+
+	Chilblain: {
+		DisplayName: チルブレイン
+		Tooltip:
+			'''
+			投擲可能なフロストボールを3つ召喚する
+			フロストボールは冷気を蓄積し、攻撃を受けると砕け散る
+
+			'''
+	}
+
+	Crabquet: {
+		DisplayName: カニケット
+		Tooltip:
+			'''
+			投擲可能な泡を3つ召喚する
+			泡はまれに爆発する
+
+			'''
+	}
+
+	EnchantedRacquet: {
+		DisplayName: エンチャントラケット
+		Tooltip:
+			'''
+			投擲可能なマジックボールを召喚する
+
+			'''
+	}
+
+	Fartcquet: {
+		DisplayName: 臭気ラケット
+		Tooltip:
+			'''
+			投擲可能なクサい球を召喚する
+
+			「なんでこんなものを？」
+			'''
+	}
+
+	Hyperboloid: {
+		DisplayName: ハイパーボロイド
+		Tooltip:
+			'''
+			投擲可能な電撃オーブを3つ召喚する
+			近くの敵に雷が落ちる
+
+			'''
+	}
+
+	Instigator: {
+		DisplayName: インスティゲーター
+		Tooltip:
+			'''
+			投擲可能なファイアボールを3つ召喚する
+			ファイアボールは衝突時に爆発する
+
+			'''
+	}
+
+	NitroRacquet: {
+		DisplayName: ニトロラケット
+		Tooltip:
+			'''
+			投擲可能なピクセルファイアボールを3つ召喚する
+			そのうち1つは敵に当たると6発に分裂する
+
+			'''
+	}
+
+	RacquetOfCthulhu: {
+		DisplayName: クトゥルフの呼び声
+		Tooltip:
+			'''
+			投擲可能な眼球を召喚する
+			ライフが半分を下回ると眼球が周囲の敵へ突進する
+
+			'''
+	}
+
+	RibRacquet: {
+		DisplayName: リブラケット
+		Tooltip:
+			'''
+			投擲可能なアイボリーボールを2つ召喚する
+			ボールは敵を貫通する
+
+			'''
+	}
+
+	SawRacquet: {
+		DisplayName: マリスモード
+		Tooltip:
+			'''
+			投げられる2つの丸ノコを召喚する
+			丸ノコは敵を貫通する
+			敵に複数回ヒットする
+
+			'''
+	}
+
+	Terracquet: {
+		DisplayName: テララケット
+		Tooltip:
+			'''
+			投擲可能な4輪のデイジーを召喚する
+			花はカラフルな花びらを撒き散らす
+
+			'''
+	}
+
+	WoodenRacquet: {
+		DisplayName: 木のラケット
+		Tooltip:
+			'''
+			投擲可能なボールを召喚する
+
+			'''
+	}
+
+	# Weapons: Magic
+	AstralMayhem: {
+		DisplayName: アストラルメイヘム
+		Tooltip: ""
+	}
+
+	BlazingRiff: {
+		DisplayName: 灼熱のリフ
+		Tooltip: 遠距離からチャージ攻撃を放つ
+	}
+
+	BloodyStream: {
+		DisplayName: ブラッディストリーム
+		Tooltip: 敵を貫通するうごめく追尾弾を放つ
+	}
+
+	ColdFront: {
+		DisplayName: コールドフロント
+		Tooltip: 多彩な氷結ボルトを発射する
+	}
+
+	EyeOfBelial: {
+		DisplayName: ベリアルの眼
+		Tooltip: 広範囲に燃え盛る星弾を放つ
+	}
+
+	EyeOfColossus: {
+		DisplayName: コロッサスの眼
+		Tooltip: ""
+	}
+
+	FrostflakeFan: {
+		DisplayName: 氷華の扇
+		Tooltip:
+			'''
+			押し続けて近くの敵やアイテムを吸い寄せる氷の渦を作り出す
+			「氷に身を委ねろ！」
+			'''
+	}
+
+	Galaxia: {
+		DisplayName: ギャラクシア
+		Tooltip:
+			'''
+			色とりどりの光線で敵を焼き尽くす！
+			5発ごとにプリズム散弾を放つ
+			'''
+	}
+
+	KillerWand: {
+		DisplayName: キラーワンド
+		Tooltip:
+			'''
+			泡を吹き出す
+			[c/ffa500:<right>]で遠隔起爆する
+			'''
+	}
+
+	Landcrusher: {
+		DisplayName: イースター島
+		Tooltip: 岩石を降らせる
+	}
+
+	TearfulScepter: {
+		DisplayName: ティアフルセプター
+		Tooltip:
+			'''
+			マナが75%以上の時、追加のティアボルトを放つ
+			「君のせいで涙が止まらない！」
+			'''
+	}
+
+	MassDestructionOld: {
+		DisplayName: マス・デストラクション
+		Tooltip: 「このビームこそ天を穿つビームだ！」
+	}
+
+	MonolithTome: {
+		DisplayName: モノリスの書
+		Tooltip:
+			'''
+			重い盾弾を近距離で振り回す
+			3ヒットごとに魔法の盾を召喚する
+			'''
+
+		Shield: {
+			Title: 魔法の盾
+			Description:
+				'''
+				範囲内のプレイヤーの受けるダメージを減少させ、
+				[i:554] [c/FFF014:十字架のネックレス] と [i:156] [c/FFF014:コバルトの盾] の効果を付与。
+				被弾時に消滅し、所有者の[c/327DFF:マナ]を回復する。
+				'''
+		}
+	}
+
+	Overtaker: {
+		DisplayName: オーバーテイカー
+		Tooltip:
+			'''
+			天界の剣陣を操り敵を討ち滅ぼす
+			<right>で追加の剣を召喚し、マナ消費が増加する
+			'''
+
+		NightState: {
+			Title: ナイトフォール
+			Description: 剣を召喚した状態で武器を切り替えると、最大3本のナイトフォールソードが残留し、自動で敵を攻撃しつつ追加の [fx/mof:マナオーバーフロー] と共にマナを回復する。
+		}
+	}
+
+	PatromancerTome: {
+		DisplayName: パトロマンサーの書
+		Tooltip: 七色の炎を噴射し、命中した敵へランダムな状態異常を付与する
+	}
+
+	SwarmOfWrath: {
+		DisplayName: スウォーム・オブ・ラス
+		Tooltip: ""
+	}
+
+	TheConstellation: {
+		DisplayName: コンステレーター
+		Tooltip:
+			'''
+			「流星群よ」
+			夜間はクリティカル率が上昇
+			'''
+	}
+
+	TrueColor: {
+		DisplayName: 真彩の彩具
+		Tooltip: 「ありのままの色を忘れるな」
+	}
+
+	TomeofDarkPyromancy: {
+		DisplayName: 黒炎魔導書
+		Tooltip: 影の炎を連続で放つ
+	}
+
+	TomeofPyromancy: {
+		DisplayName: 炎魔導書
+		Tooltip: 火炎を連続で放つ
+	}
+
+	Highlighter: {
+		DisplayName: ハイライター
+		Tooltip: 一定距離で炸裂する3連爆発を放つ
+	}
+
+	PointofView: {
+		DisplayName: 定点観測
+		Tooltip: カーソル上で攻撃を放つ
+	}
+
+	DeadMansSaw: {
+		DisplayName: 亡者の鋸
+		Tooltip:
+			'''
+			敵に貼り付く小型の振動丸鋸を投げる
+			鋸が付いた敵を攻撃すると、クールダウン付きでマナを回復する
+			追加でマナオーバーフローも回復する
+			敵に存在できる鋸は同時に3つまで
+			'''
+	}
+
+	TraitorsRequiem: {
+		DisplayName: 背信者のレクイエム
+		Tooltip: カーソル上で攻撃を放つ
+	}
+
+	AnthemOfWar: {
+		DisplayName: 戦乱賛歌
+		Tooltip: カーソル上で攻撃を放つ
+	}
+
+	SongOfTheSiren: {
+		DisplayName: 妖歌のセイレーン
+		Tooltip: カーソル上で攻撃を放つ
+	}
+
+	CrabCannon: {
+		DisplayName: クラブキャノン
+		Tooltip:
+			'''
+			敵に張り付くマインクラブを打ち出す
+			<right>で爆破指示を出す！
+			'''
+	}
+
+	RazzleDazzle: {
+		DisplayName: ラズルダズル
+		Tooltip:
+			'''
+			視界内の敵をエメラルドレーザーで撃ち抜く
+			敵が多いほど発射速度が上昇する
+			'''
+	}
+
+	AmberCandelabra: {
+		DisplayName: コハクの燭台
+		Tooltip: ""
+	}
+
+	AmethystCandelabra: {
+		DisplayName: アメジストの燭台
+		Tooltip: ""
+	}
+
+	DiamondCandelabra: {
+		DisplayName: ダイヤモンドの燭台
+		Tooltip: ""
+	}
+
+	EmeraldCandelabra: {
+		DisplayName: エメラルドの燭台
+		Tooltip: ""
+	}
+
+	RubyCandelabra: {
+		DisplayName: ルビーの燭台
+		Tooltip: ""
+	}
+
+	SapphireCandelabra: {
+		DisplayName: サファイアの燭台
+		Tooltip: ""
+	}
+
+	TopazCandelabra: {
+		DisplayName: トパーズの燭台
+		Tooltip: ""
+	}
+
+	ShadowScepter: {
+		DisplayName: シャドウセプター
+		Tooltip:
+			'''
+			影のボルトを連続で放つ
+			右クリックで地面にシャドウトーテムを設置する
+			トーテムは近くのプレイヤーを強化する
+			'''
+
+		SecretOfShadows: {
+			Title: 影なる秘術
+			Description: 範囲内でマナ自然回復を増進し、魔法ダメージを与えた後に定期的にマナを回復する。
+		}
+	}
+
+	FirecasterScepter: {
+		DisplayName: ファイアキャスターセプター
+		Tooltip:
+			'''
+			敵を炎上させる火球を放つ
+			右クリックでフレイムトーテムを地面に設置する
+			トーテムは近くのプレイヤーを強化する
+			'''
+
+		Blessing: {
+			Title: 火術師の祝福
+			Description: 範囲内の味方の全ステータスを上昇させる。
+		}
+	}
+
+	SnowHalation: {
+		DisplayName: スノーハレーション
+		Tooltip:
+			'''
+			追尾する雪の魔弾を連続で放つ
+			右クリックでポーラートーテムを設置する
+			トーテムは近くのプレイヤーを強化する
+			'''
+
+		Blessing: {
+			Title: 極寒の闘志
+			Description: 範囲内の味方の防御貫通力を上昇させる。
+		}
+	}
+
+	# Weapons: Ranged
+	Musketron: {
+		DisplayName: マスケトロン
+		Tooltip: 右クリック長押しで特殊攻撃を放つ
+
+		SpinToWin: {
+			Title: スピン・トゥ・ウィン
+			Description: 右クリックを押しながらカーソルを回転させて勢いを溜め、タイミングよく解放することで霊骨の弾幕を放つ。クールダウンは{0}秒。
+		}
+	}
+
+	SupportGun: {
+		DisplayName: スワッパー
+		Tooltip: 自身と近くの味方を強化するオーラを展開する。
+
+		SupportRelay: {
+			Title: サポートリレー
+			Description: 敵に攻撃を当てると発動し、周囲の味方へ支援効果を付与する。右クリックで3種類の支援効果を切り替え可能。武器を持ち替えてもオーラは維持されるが、継続的にマナを消費する。
+		}
+
+		ProtocolRed: {
+			Title: プロトコル：レッド
+			Description: 周囲の味方のライフ自然回復を増進する。
+		}
+
+		ProtocolYellow: {
+			Title: プロトコル：イエロー
+			Description: 周囲の味方の与ダメージとクリティカル率を上昇させる。
+		}
+
+		ProtocolBlue: {
+			Title: プロトコル：ブルー
+			Description: 周囲の味方の防御力を6増加させる。
+		}
+	}
+
+	EchoOfParadise: {
+		DisplayName: 楽園の残響
+		Tooltip: <right>で全ての遠隔武器に[c/FF7F50:Time Ruin]効果を付与する
+
+		TimeRuin: {
+			Title: 時蝕
+			Description: クリティカル率を攻撃速度へ変換する。
+		}
+	}
+
+	Drizzle: {
+		DisplayName: 霧雨
+		Tooltip:
+			'''
+			放物線を描く水の矢で敵へ雨を降らせる
+			矢は炸裂してさらに矢を放ち、敵のデバフを吸収する
+			'''
+	}
+
+	Precipitation: {
+		DisplayName: 豪雨
+		Tooltip:
+			'''
+			嵐のような水の矢を降らせて敵を攻撃する
+			水の矢は定期的に水滴へ炸裂し、広範囲へ大ダメージを与える
+			'''
+	}
+
+	# Weapons: Melee
+	WingedSpear: {
+		DisplayName: 翼槍
+		Tooltip:
+			'''
+			激しい水流で敵を切り裂く
+			受けているバフ1つごとに攻撃速度が上昇
+			'''
+	}
+
+	PoisonBreak: {
+		DisplayName: ポイズンブレイク
+		Tooltip:
+			'''
+			毒の唾液を放ち、敵を切り裂く
+			敵のデバフ数に応じて攻撃速度が
+			'''
+	}
+
+	Hellgaze: {
+		DisplayName: ヘルゲイズ
+		Tooltip: 被ダメージ後に、最大6体の『紅蓮の鼓動』を召喚する
+
+		Notes: {
+			Title: 紅蓮の鼓動
+			Description: プレイヤーの周囲を旋回して敵にダメージを与える。音符1つごとにライフ再生・近接速度・防御力が増加する。ヘルゲイズを解除すると紅蓮の鼓動を消費し、1つにつき{0}のライフを回復する。
+		}
+	}
+
+	Onyxx: {
+		DisplayName: オニックス
+		Tooltip: 敵に命中すると跳ね回る2体の亡霊へ分裂する
+	}
+
+	Ballistick: {
+		DisplayName: バリスティック
+		Tooltip:
+			'''
+			炎上中の敵に追加ダメージを与える
+			[c/db7093:<right>]でダッシュ
+			'''
+	}
+
+	Chikage: {
+		DisplayName: 千景
+		Tooltip:
+			'''
+			<right>で血染めのダッシュを行う
+			敵を倒すとクールダウンがリセットされる
+			'''
+	}
+
+	Windfall: {
+		DisplayName: ウィンドフォール
+		Tooltip:
+			'''
+			右クリックで地面へ急降下し、強力な爆発を引き起こす
+			敵に命中すると{0}のライフを[fx/eb:エーテルの絆]へ変換する
+			満タン時、右クリックで特殊攻撃を放つ...
+			'''
+
+		SpecialPlunge: {
+			Title: 永劫崩壊
+			Description: 急降下後、クリスタルモスへ変身し、周囲の敵へエーテル近接ダメージを与える。[fx/eb:エーテルの絆]を消費して失ったライフを回復する。
+		}
+	}
+
+	# Weapons: Heavy Melee
+	ThornyGreatsword: {
+		DisplayName: 茨の大剣
+		Tooltip:
+			'''
+			攻撃時、確率で敵を毒状態にする
+			毒状態の敵へ攻撃するとダメージを与える茨を放つ
+			'''
+	}
+
+	TheArchitect: {
+		DisplayName: アーキテクト
+		Tooltip:
+			'''
+			古代の欠片を攻撃して敵へ撃ち出す
+			「秩序をもたらそう！」
+			'''
+
+		ArchaicShards: {
+			Title: 古代の欠片
+			Description: アーキテクトがホットバーにある状態で重量級近接武器を使って敵へ攻撃すると、定期的に[c/{0}:古代の欠片]を生成する。弾き返して莫大なダメージを与えよう。
+		}
+	}
+
+	ShatteringDesignItem: {
+		DisplayName: シャタリング・デザイン
+		Tooltip:
+			'''
+			3段目の強攻撃が敵または地形に命中すると、[c/1e90ffff:ルナフレア]が発動する
+			この状態中は、すべての攻撃が強化される
+			終了時、[c/1e90ffff:破壊の審判]が発動する...
+			'''
+	}
+
+	Solstice: {
+		DisplayName: ソルスティス
+		Tooltip: "[c/e69138:イグニッション]を蓄積して強力な攻撃を放つ"
+
+		Ignition: {
+			Title: イグニッション
+			Description: 通常攻撃で敵を攻撃すると蓄積される。炎ゲージが満タンになると、右クリックで[c/ff5a00:特殊構え]へ移行する。
+		}
+
+		SpecialStance: {
+			Title: 特殊構え
+			Description: マウスボタンを押すことで[c/ffb000:イグニッション]を消費し、[c/ff5a00:ヴォイドアレイ]または[c/ff5a00:ソーラーアペックス]を放つ。
+		}
+
+		VoidArray: {
+			Title: ヴォイドアレイ
+			Description: 3連続の斬撃を溜め放ち、それぞれで追尾ナイフを複数召喚し[c/ff5a00:200のクリティカルダメージ]を与える。[c/ffb000:ソーラーレディアンス]を6秒付与する。
+		}
+
+		SolarApex: {
+			Title: ソーラーアペックス
+			Description: 前方へ突進し、爆発する黒き太陽を生成して広範囲に[c/ff5a00:3000のクリティカルダメージ]を与える。[c/ffb000:ソーラーレディアンス]を12秒付与し、12秒のクールダウンを持つ。
+		}
+
+		SolarRadiance: {
+			Title: ソーラーレディアンス
+			Description: 通常攻撃コンボを強化し、遠距離の斬撃波を放つ。発動中は[c/ff5a00:バーストモード]として扱われる。
+		}
+	}
+
+	AncientSolstice: {
+		DisplayName: 古代の至点
+		Tooltip: ""
+	}
+
+	EccentricScissors: {
+		DisplayName: エキセントリックシザーズ
+		Tooltip:
+			'''
+			<right>で敵の攻撃を受け流す
+			完璧なタイミングで受け流すと衝撃波を放ち、次の攻撃を強化する
+			'''
+	}
+
+	QliphothCutter: {
+		DisplayName: クリフォトカッター
+		Tooltip:
+			'''
+			4回目の斬撃ごとに太陽射を放つ
+			<right>で敵の攻撃を受け流す
+			完璧なタイミングで受け流すと衝撃波を放ち、次の攻撃を強化する
+			'''
+	}
+
+	# Weapons: Whips
+	Sparky: {
+		DisplayName: スパーキー
+		Tooltip:
+			'''
+			ミニオンが注目状態の敵へ攻撃すると連鎖雷撃を発生させる
+			「...そして彼の音楽は電撃的だった」
+			'''
+	}
+
+	CrabWhip: {
+		DisplayName: ロブスターラッシュ
+		Tooltip:
+			'''
+			召喚タグダメージ {0}
+			敵への攻撃時、まれに与ダメージを強化するクラブハートを落とす
+			「アンダー・ザ・シー」
+			'''
+	}
+
+	BlueCrabWhip: {
+		DisplayName: ブルーロブスターラッシュ
+		Tooltip:
+			'''
+			召喚タグダメージ {0}
+			敵への攻撃時、まれに被ダメージを軽減するクラブハートを落とす
+			「甲殻類フライ？俺は絶叫したね」
+			'''
+	}
+
+	AfterlifeAnchor: {
+		DisplayName: 冥界の碇
+		Tooltip:
+			'''
+			召喚タグダメージ {0}
+			プレイヤーのライフを代償に、タグダメージを[fx/eb:生の代償]へ強化することがある
+			タグダメージを{1}、ミニオンのクリティカル率を{2}%増加させる
+			ミニオンがクリティカルを出すとプレイヤーのライフが回復する
+			「また別の人生で...」
+			'''
+	}
+
+	StrandedWhip: {
+		DisplayName: 放浪の鞭
+		Tooltip:
+			'''
+			召喚タグダメージ {0}
+			敵へ命中するとミニオン速度が{1}%上昇する
+			ミニオンが近距離で敵を攻撃した場合、速度上昇量が2倍になる
+			さらに、ミニオンのクリティカル率が{2}%増加させる
+			'''
+	}
+
+	# Weapons: Sentries
+	ArachnidRod: {
+		DisplayName: アラクニッドロッド
+		Tooltip:
+			'''
+			敵へ蜘蛛糸弾を発射するアラクニキャノンを召喚する
+			敵や地形に命中すると地面へダメージを与える蜘蛛の巣を広げる
+			'''
+	}
+
+	SmartStick: {
+		DisplayName: スマートスティック
+		Tooltip: 敵へ連鎖雷撃を放つクォンタムリフトを召喚する
+	}
+
+	VinemongerStaff: {
+		DisplayName: ヴァインモンガースタッフ
+		Tooltip:
+			'''
+			敵を喰らう三つ首の食人植物を召喚する！
+			ゾンビへのダメージが増加する
+			「芝生にゾンビはお断りだ」
+			'''
+	}
+
+	FungusRod: {
+		DisplayName: 菌糸の杖
+		Tooltip:
+			'''
+			近くの敵をゆっくり殴りつける巨大キノコを召喚する！
+			命中した敵は弱体化し、与ダメージが減少する
+			「キノコまみれになれ！」
+			'''
+	}
+
+	AlbedoRod: {
+		DisplayName: アルベドロッド
+		Tooltip:
+			'''
+			ランダムな敵を高速攻撃するアルベドクリスタルを召喚する
+			「灰は灰に、塵は塵に...」
+			'''
+	}
+
+	SprinklerRod: {
+		DisplayName: 散水の杖
+		Tooltip:
+			'''
+			近くの敵へ放水するスプリンクラークラウドを召喚する
+			周囲のデバフを吸収して攻撃範囲と威力が増加する
+			「水差しでもしているの？」
+			'''
+	}
+
+	# Accessories: Damage
+	RedPatch: {
+		DisplayName: レッドパッチ
+		Tooltip: 最大ライフの敵に2回ダメージを与える
+	}
+
+	# Treasure Bags
+	InsurgentBag: {
+		DisplayName: トレジャーバッグ（インサージェント）
+		Tooltip: <right>で開く
+	}
+
+	MenaceBag: {
+		DisplayName: トレジャーバッグ（メナス）
+		Tooltip: <right>で開く
+	}
+
+	MirageBag: {
+		DisplayName: トレジャーバッグ（ミラージュ）
+		Tooltip: <right>で開く
+	}
+
+	OneShotBag: {
+		DisplayName: トレジャーバッグ（ワン・ショット）
+		Tooltip: <right>で開く
+	}
+
+	ParaffinBag: {
+		DisplayName: トレジャーバッグ（パラフィン）
+		Tooltip: <right>で開く
+	}
+
+	SethBag: {
+		DisplayName: トレジャーバッグ（セス）
+		Tooltip: <right>で開く
+	}
+
+	TheSpiritBag: {
+		DisplayName: トレジャーバッグ（スピリット）
+		Tooltip: <right>で開く
+	}
+
+	# Misc
+	PhotographyPoster.DisplayName: ポスター: {0}
+
+	DiamondShip: {
+		DisplayName: ダイヤモンドシップ
+		Tooltip:
+			'''
+			漂流船へ向けてダイヤモンドパルスを送信する
+			「その輝きが、進むべき道を照らす...」
+			'''
+	}
+
+	EpicSethLore: {
+		DisplayName: セスの伝承
+		Tooltip:
+			'''
+			1) セスは生まれた瞬間、両親に『おめでとう！』と言った
+			2) それ以来一言も喋っていない　おしゃべりは弱者のすることだからだ
+			3) 世界に失望しないよう、目隠しで瞳を隠している
+			4) WinRARのライセンスを購入したが、結局使わなかった
+			5) 最後のボーンドラゴンを討ち喰らい、伝説的な炎の力を得た
+			'''
+	}
+
+	# Master Mode
+	HellBikerKeys: {
+		DisplayName: ヘルバイカーのキー
+		Tooltip: 伝説のバイク、[c/ffb000:ザ・ハマー]を召喚！
+
+		Execution: {
+			Title: ヒートスナップJr.
+			Description: 
+				'''
+				上方向2回入力で、画面内の全敵に凄まじいダメージを与える壊滅的な攻撃を放つ。
+				{0}分に一度だけ使用可能。
+				'''
+		}
+
+		ColorTooltip: カラースキーム: {0} (右クリックで変更)
+
+		Colors: {
+			0: "[c/ffb000:ラディアンス]"
+			1: "[c/C15EFF:アンチェインド]"
+			2: サポーター
+		}
+	}
+
+	HellBikerUpgrade: {
+		DisplayName: "'BikeMaker 8.1'"
+		Tooltip:
+			'''
+			[c/ffb000:ザ・ハマー]にアンチェインドの力を与える...
+			新たな炎の色を解放！
+			'''
+	}
+
+	SheepSneakersUpgrade: {
+		DisplayName: 不自然にド派手なスニーカー
+		Tooltip:
+			'''
+			ヒツジにスプリント能力とジャンプ力強化を与える
+			クール値が15%上昇
+			「光すら置き去りに...」
+			'''
+	}
+
+	EccentricGoggles: {
+		DisplayName: 奇抜なゴーグル
+		Tooltip: 後をついてくるミス・スピリットを召喚する
+	}
+
+	DemonCompendium: {
+		DisplayName: 悪魔の大事典
+		Tooltip: ともに戦う憑依された魔導書を召喚する
+
+		AutoSummon: {
+			Title: デビルサモナー
+			Description: リスポーン時にすべてのミニオンを自動召喚する。装備中またはインベントリ内にある間有効で、所持している最初の召喚武器を使用する。
+		}
+	}
+
+	EtherealThrone: {
+		DisplayName: 苦痛と苦悩の霊座
+		Tooltip: 「運命は時に残酷だ。」
+	}
+
+	TRustedRemote: {
+		DisplayName: T-錆びついたリモコン
+		Tooltip: キラーマシンを召喚して傍らを走らせる！
+	}
+
+	GasLighter: {
+		DisplayName: ガスライター
+		Tooltip: キャンドル・ボブを召喚して、冒険を妙な方向へ惑わせる！
+	}
+
+	BelovedMemoryLocket: {
+		DisplayName: 愛情のメモリーロケット
+		Tooltip:
+			'''
+			恋する二羽を召喚して周囲を飛び回らせる
+			「君だけは、他の何にも代えられない。」
+			'''
+	}
+
+	# Unsorted
+	Painmaker: {
+		DisplayName: ペインメーカー
+		Tooltip:
+			'''
+			倒した敵の魂を最大{0}個まで蓄積し、ダメージを受けた際に解き放つ
+			魂1つにつき被ダメージを{1}%軽減を
+			防御貫通力が{2}増加
+			被ダメージ後の無敵時間を延長
+			被ダメージ後、流れ星と蜂を放ち移動速度が上昇する
+			被ダメージ後にスパイクボールを放出する
+			'''
+	}
+
+	DangerRoom: {
+		DisplayName: デンジャールーム
+		Tooltip:
+			'''
+			倒した敵の魂を最大{0}個まで蓄積し、ダメージを受けた際に解き放つ
+			魂1つにつき被ダメージを{1}%軽減
+			ダメージを受けると移動速度が上昇
+			被ダメージ後にスパイクボールを放出する
+			'''
+	}
+
+	NotoriousSpark: {
+		DisplayName: ノトーリアススパーク
+		Tooltip:
+			'''
+			倒した敵の魂を最大{0}個まで蓄積し、ダメージを受けた際に解き放つ
+			魂1つにつき被ダメージを{1}%軽減
+			被ダメージ後にスパイクボールを放出する
+			'''
+	}
+
+	Moltenstern: {
+		DisplayName: モルテンシュテルン
+		Tooltip: 被ダメージ後に灼熱のスパイクボールを放出する
+	}
+
+	Morgenstern: {
+		DisplayName: モルゲンシュテルン
+		Tooltip: 被ダメージ後にスパイクボールを放出する
+	}
+
+	SacrificialBand: {
+		DisplayName: 生贄の指輪
+		Tooltip:
+			'''
+			倒した敵の魂を最大{0}個まで蓄積し、ダメージを受けた際に解き放つ
+			魂1つにつき被ダメージを{1}%軽減
+			'''
+	}
+
+	HostileCharm: {
+		DisplayName: 悪意のお守り
+		Tooltip:
+			'''
+			アーマー貫通が{0}上昇
+			まれに敵を数秒間足止めする
+			ダメージを受けると蜂を放ち、自身をハチミツで包む
+			'''
+	}
+
+	PestilentNecklace: {
+		DisplayName: 疫病のネックレス
+		Tooltip:
+			'''
+			防御貫通力が{0}増加
+			まれに敵を数秒間行動不能にする
+			'''
+	}
+
+	Thallium: {
+		DisplayName: タリウムスラブ
+		Tooltip: まれに敵を数秒間行動不能にする
+	}
+
+	SweetStarNecklace: {
+		DisplayName: スイートスターネックレス
+		Tooltip:
+			'''
+			ダメージを受けると移動速度が上昇
+			ダメージを受けると流れ星が降り蜂を放って、使用者を蜂蜜に浸す
+			'''
+	}
+
+	BejeweledWings: {
+		DisplayName: 宝飾の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	GlassWings: {
+		DisplayName: ガラスの翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	MalachiteWings: {
+		DisplayName: 孔雀石の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	ParaffinWings: {
+		DisplayName: 灯火の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	SethWings: {
+		DisplayName: 嵐の翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	Bellmet: {
+		DisplayName: ベルメット
+		Tooltip: ダメージを受けている間、周囲の敵の動きを封じる
+	}
+
+	FootballHelmet: {
+		DisplayName: フットボールヘルメット
+		Tooltip: 移動速度が25%上昇
+	}
+
+	HuskSkull: {
+		DisplayName: ハスクの骸骨
+		Tooltip:
+			'''
+			近接ダメージが4%増加
+			近接攻撃で敵のライフを吸収する
+			'''
+	}
+
+	ImperialGoldCrown: {
+		DisplayName: 帝国の金冠
+		Tooltip: ""
+	}
+
+	ImperialPlatinumCrown: {
+		DisplayName: 帝国の白金冠
+		Tooltip: ""
+	}
+
+	PaperBag: {
+		DisplayName: 紙袋
+		Tooltip: 敵に狙われにくくなる
+	}
+
+	RavenMask: {
+		DisplayName: 大鴉の仮面
+		Tooltip: 召喚できるミニオンとセントリーの数が1体ずつ増える
+	}
+
+	SerpentSkull: {
+		DisplayName: 蛇の頭蓋骨
+		Tooltip: ""
+	}
+
+	StrikersHelmet: {
+		DisplayName: 強襲兵の兜
+		Tooltip: 重量近接武器による防御力ボーナスを防具貫通力に変える
+	}
+
+	YellowObsidianSkull: {
+		DisplayName: 黄曜石の頭蓋骨
+		Tooltip: 採掘速度が25%上昇
+	}
+
+	FrostbiteBreastplate: {
+		DisplayName: フロストバイトの胸当て
+		Tooltip: ""
+	}
+
+	FrostbiteHelmet: {
+		DisplayName: フロストバイトの兜
+		Tooltip: ""
+		SetBonus: 寒冷系デバフに対する耐性
+	}
+
+	FrostbiteLeggings: {
+		DisplayName: フロストバイトのすね当て
+		Tooltip: ""
+	}
+
+	BlackKnightBreastplate: {
+		DisplayName: 黒騎士の胸当て
+		Tooltip: ""
+	}
+
+	BlackKnightGreaves: {
+		DisplayName: 黒騎士のすね当て
+		Tooltip: ""
+	}
+
+	BlackKnightHelmet: {
+		DisplayName: 黒騎士の兜
+		Tooltip: ""
+	}
+
+	CheapAstrologistCape: {
+		DisplayName: 見習い占星術師のマント
+		Tooltip: ""
+	}
+
+	CheapAstrologistHat: {
+		DisplayName: 見習い占星術師の帽子
+		Tooltip: ""
+	}
+
+	CheapAstrologistTights: {
+		DisplayName: 見習い占星術師のタイツ
+		Tooltip: ""
+	}
+
+	CleverNightCap: {
+		DisplayName: 利発なナイトキャップ
+		Tooltip: ""
+	}
+
+	CleverPajama: {
+		DisplayName: 利発なパジャマ
+		Tooltip: ""
+	}
+
+	DemonicShorts: {
+		DisplayName: 悪魔のショートパンツ
+		Tooltip: ""
+	}
+
+	DemonicTattoosBody: {
+		DisplayName: 悪魔のタトゥー（胴体）
+		Tooltip: ""
+	}
+
+	DemonicTattoosFace: {
+		DisplayName: 悪魔のタトゥー（顔）
+		Tooltip: ""
+	}
+
+	DesertSorceressHood: {
+		DisplayName: 砂漠魔女のフード
+		Tooltip: ""
+	}
+
+	DesertSorceressSkirt: {
+		DisplayName: 砂漠魔女のシカート
+		Tooltip: ""
+	}
+
+	DesertSorceressTop: {
+		DisplayName: 砂漠魔女の上着
+		Tooltip: ""
+	}
+
+	PaleBraccas: {
+		DisplayName: 医師のズボン
+		Tooltip: ""
+	}
+
+	PaleRostrum: {
+		DisplayName: 医師の仮面
+		Tooltip: ""
+	}
+
+	PaleVestis: {
+		DisplayName: 医師の白衣
+		Tooltip: ""
+	}
+
+	DreamwalkerHat: {
+		DisplayName: 夢歩きの帽子
+		Tooltip: ""
+	}
+
+	DreamwalkerCloak: {
+		DisplayName: 夢歩きのマント
+		Tooltip: ""
+	}
+
+	HollowBreastplate: {
+		DisplayName: ホロウプレート
+		Tooltip: ""
+	}
+
+	HollowGreaves: {
+		DisplayName: ホロウグリーヴ
+		Tooltip: ""
+	}
+
+	HollowHelmet: {
+		DisplayName: ホロウヘルム
+		Tooltip: ""
+	}
+
+	IDPDChestplate: {
+		DisplayName: I.D.P.D.防護胸甲
+		Tooltip: ""
+	}
+
+	IDPDGruntHelmet: {
+		DisplayName: I.D.P.D.一般隊員ヘルメット
+		Tooltip: ""
+	}
+
+	IDPDInspectorHelmet: {
+		DisplayName: I.D.P.D.監察官ヘルメット
+		Tooltip: ""
+	}
+
+	IDPDPants: {
+		DisplayName: I.D.P.D.防護脚甲
+		Tooltip: ""
+	}
+
+	IDPDShielderHelmet: {
+		DisplayName: I.D.P.D.盾兵ヘルメット
+		Tooltip: ""
+	}
+
+	CrownOfNothing: {
+		DisplayName: 虚無の王冠
+		Tooltip: 「ほんのりピザの香りがする」
+	}
+
+	LunarRags: {
+		DisplayName: 月影の衣
+		Tooltip: 「ほんのりピザの香りがする」
+	}
+
+	LunarScapular: {
+		DisplayName: 月影の肩掛け
+		Tooltip: 「ほんのりピザの香りがする」
+	}
+
+	MagicalHat: {
+		DisplayName: 魔法使いの帽子
+		Tooltip: ""
+	}
+
+	MagicalJacket: {
+		DisplayName: 魔法使いの上着
+		Tooltip: ""
+	}
+
+	MagicalSkirt: {
+		DisplayName: 魔法使いのスカート
+		Tooltip: ""
+	}
+
+	BejeweledCrown: {
+		DisplayName: 宝石の王冠
+		Tooltip: ""
+	}
+
+	BlueCup: {
+		DisplayName: ブルーマグ
+		Tooltip: ""
+	}
+
+	BlueStripedHat: {
+		DisplayName: 青縞の帽子
+		Tooltip: ""
+	}
+
+	Comedy: {
+		DisplayName: 喜劇
+		Tooltip: ""
+	}
+
+	DerpMask: {
+		DisplayName: 間抜け顔
+		Tooltip: ""
+	}
+
+	FeralSlimeMask: {
+		DisplayName: 暴れスライムのマスク
+		Tooltip: ""
+	}
+
+	FrogHat: {
+		DisplayName: カエルの帽子
+		Tooltip: ""
+	}
+
+	FunkyHat: {
+		DisplayName: イカした帽子
+		Tooltip: 「この帽子が大好きだ」
+	}
+
+	GyrosHat: {
+		DisplayName: 騎手の帽子
+		Tooltip: 「ニョホホ！」
+	}
+
+	LowkeyHorns: {
+		DisplayName: ロキの角
+		Tooltip: 「栄光ある使命と共に」
+	}
+
+	MaskoftheFather: {
+		DisplayName: 父の仮面
+		Tooltip: 「伝説は決して死なない！」
+	}
+
+	RedCup: {
+		DisplayName: レッドカップ
+		Tooltip: ""
+	}
+
+	RedStripedHat: {
+		DisplayName: 赤縞の帽子
+		Tooltip: 「お前を始末しても、ただの事故に見えるだろう」
+	}
+
+	SentinelsHood: {
+		DisplayName: 守護者のフード
+		Tooltip: ""
+	}
+
+	StarHat: {
+		DisplayName: 星の帽子
+		Tooltip: ""
+	}
+
+	Tragedy: {
+		DisplayName: 悲劇
+		Tooltip: ""
+	}
+
+	MoonPrinceBreastplate: {
+		DisplayName: 月の王子のローブ
+		Tooltip: ""
+	}
+
+	MoonPrinceGreaves: {
+		DisplayName: 月の王子のすね当て
+		Tooltip: ""
+	}
+
+	MoonPrinceHelmet: {
+		DisplayName: 月の王子の王冠
+		Tooltip: ""
+	}
+
+	ArmorOfShovelry: {
+		DisplayName: ショベルナイトの鎧
+		Tooltip: ""
+	}
+
+	HelmetOfShovelry: {
+		DisplayName: ショベルナイトの兜
+		Tooltip: ""
+	}
+
+	PantsOfShovelry: {
+		DisplayName: ショベルナイトの脚甲
+		Tooltip: ""
+	}
+
+	SmoothHat: {
+		DisplayName: スムースハット
+		Tooltip: 「アニー、大丈夫？」
+	}
+
+	SmoothJacket: {
+		DisplayName: スムースジャケット
+		Tooltip: 「大丈夫かい？」
+	}
+
+	SmoothPants: {
+		DisplayName: スムースパンツ
+		Tooltip: 「大丈夫かい、アニー？」
+	}
+
+	BlueSnowMaidenHat: {
+		DisplayName: 青雪姫の帽子
+		Tooltip: ""
+	}
+
+	BlueSnowMaidenRobe: {
+		DisplayName: 青雪姫のローブ
+		Tooltip: ""
+	}
+
+	RedSnowMaidenHat: {
+		DisplayName: 赤雪姫の帽子
+		Tooltip: ""
+	}
+
+	RedSnowMaidenRobe: {
+		DisplayName: 赤雪姫のローブ
+		Tooltip: ""
+	}
+
+	SpacemanBoots: {
+		DisplayName: 宇宙飛行士のブーツ
+		Tooltip: ""
+	}
+
+	SpacemanChestplate: {
+		DisplayName: 宇宙飛行士の胸当て
+		Tooltip: ""
+	}
+
+	SpacemanHelmet: {
+		DisplayName: 宇宙飛行士のヘルメット
+		Tooltip: ""
+	}
+
+	SwagGoggles: {
+		DisplayName: イケてるゴーグル
+		Tooltip: ""
+	}
+
+	SwagHoodie: {
+		DisplayName: イケてるパーカー
+		Tooltip: ""
+	}
+
+	SwagPants: {
+		DisplayName: イケてるパンツ
+		Tooltip: ""
+	}
+
+	Agate: {
+		DisplayName: メノウ
+		Tooltip: ""
+	}
+
+	Jade: {
+		DisplayName: 翡翠
+		Tooltip: ""
+	}
+
+	Tourmaline: {
+		DisplayName: トルマリン
+		Tooltip: ""
+	}
+
+	BlackAlloy: {
+		DisplayName: 黒合金
+		Tooltip: 「あらゆる合金の頂点」
+	}
+
+	BlueAlloy: {
+		DisplayName: 蒼合金
+		Tooltip: ""
+	}
+
+	BottleOfGlue: {
+		DisplayName: 接着剤入りボトル
+		Tooltip: 物をくっつけるのに使える
+	}
+
+	BurningCoal: {
+		DisplayName: 灼熱の石炭
+		Tooltip: 「燃えて、燃えて、燃え盛る！」
+	}
+
+	ChthonicPearl: {
+		DisplayName: 冥界真珠
+		Tooltip: バサルタイト上に群生している
+	}
+
+	CrabShell: {
+		DisplayName: カニの甲羅
+		Tooltip: ""
+	}
+
+	ElementOfAir: {
+		DisplayName: 風の元素
+		Tooltip: 身の丈を超えた野心を持つ冒険者メナスが盗み去った
+	}
+
+	ElementOfArt: {
+		DisplayName: 創造の元素
+		Tooltip: 遥か彼方の理想家ミラージュによって支配されている
+	}
+
+	ElementOfDarkness: {
+		DisplayName: 暗黒の元素
+		Tooltip: 世界の中枢たるウォール・オブ・フレッシュが飲み込んだ
+	}
+
+	ElementOfDeath: {
+		DisplayName: 死の元素
+		Tooltip: 呪われしダンジョンの守護者スケルトロンが宿している
+	}
+
+	ElementOfEarth: {
+		DisplayName: 大地の元素
+		Tooltip: 密林の奥底に潜む怪異プランテラが育て上げた
+	}
+
+	ElementOfFire: {
+		DisplayName: 炎の元素
+		Tooltip: 熱き魂を宿す戦士セスによって導かれた
+	}
+
+	ElementOfIce: {
+		DisplayName: 氷結の元素
+		Tooltip: 可能性に目を奪われた夢想家ローンショットが発見した
+	}
+
+	ElementOfLife: {
+		DisplayName: 生命の元素
+		Tooltip: リザード族の守護像ゴーレムを支える力となっている
+	}
+
+	ElementOfLight: {
+		DisplayName: 光輝の元素
+		Tooltip: あの眩い光と煌めきを生み出す光の女帝によって解き放たれた
+	}
+
+	ElementOfPain: {
+		DisplayName: 苦痛の元素
+		Tooltip: 過ちの代償を払い続けるインサージェントが見出した
+	}
+
+	ElementOfSpace: {
+		DisplayName: 宇宙の元素
+		Tooltip: 星々を統べる王ムーンロードが創り出した
+	}
+
+	ElementOfWater: {
+		DisplayName: 海洋の元素
+		Tooltip: 海を荒らす異形の王デュークフィッシュロンが簒奪した
+	}
+
+	Ether: {
+		DisplayName: エーテル
+		Tooltip: 「魔術と未知の技術が融合した物質」
+	}
+
+	EtherealFeather: {
+		DisplayName: エーテリアルフェザー
+		Tooltip: 「決してホプーから取ったものではない」
+	}
+
+	GlacialZircon: {
+		DisplayName: 氷晶ジルコン
+		Tooltip: ""
+	}
+
+	GlassBlossom: {
+		DisplayName: ガラスの花
+		Tooltip: ""
+	}
+
+	GoldenGel: {
+		DisplayName: 金色のジェル
+		Tooltip: 「頑丈で眩い」
+	}
+
+	GreenAlloy: {
+		DisplayName: 翠合金
+		Tooltip: ""
+	}
+
+	HemostoneItem: {
+		DisplayName: ヘモストーン
+		Tooltip: ブラッドムーンから生まれた破片
+	}
+
+	IrradiantQuartz: {
+		DisplayName: 揺らめく水晶
+		Tooltip: ""
+	}
+
+	LazuriteBar: {
+		DisplayName: ラズライトのインゴット
+		Tooltip: 「海と共鳴している」
+	}
+
+	LazuriteBrick: {
+		DisplayName: ラズライトのレンガ
+		Tooltip: ""
+	}
+
+	LazuriteBrickWallItem: {
+		DisplayName: ラズライトのレンガ壁
+		Tooltip: ""
+	}
+
+	LazuriteItem: {
+		DisplayName: ラズライト
+		Tooltip: 海底洞窟で採掘できる
+	}
+
+	LightCore: {
+		DisplayName: ライトコア
+		Tooltip: ""
+	}
+
+	LordsCogItem: {
+		DisplayName: ロードの歯車
+		Tooltip:
+			'''
+			魔導機構を構成する歯車
+			アンダーワールド・ドメインで入手可能
+			'''
+	}
+
+	MoltenHook: {
+		DisplayName: 溶岩のフック
+		Tooltip: ""
+	}
+
+	MoonDust: {
+		DisplayName: 月の粉
+		Tooltip: 「ひときわ辺鄙な場所で見つかる」
+	}
+
+	PieceOfGlass: {
+		DisplayName: ガラスの欠片
+		Tooltip: ""
+	}
+
+	PossessedArmorPiece: {
+		DisplayName: 呪われた鎧の破片
+		Tooltip: ""
+	}
+
+	ShinyDust: {
+		DisplayName: きらめく粉
+		Tooltip: ""
+	}
+
+	SkullHeart: {
+		DisplayName: スカルハート
+		Tooltip: 「清らかな心を持つ者の願いは、スカルハートによって叶えられる」
+	}
+
+	StellarBar: {
+		DisplayName: 星辰のインゴット
+		Tooltip: 日が昇ると消滅する
+	}
+
+	TectonicPlate: {
+		DisplayName: テクトニックプレート
+		Tooltip: ""
+	}
+
+	WildPetal: {
+		DisplayName: 野花の花びら
+		Tooltip: ""
+	}
+
+	AwesomeLookingMatch: {
+		DisplayName: 最高にイカしたマッチ
+		Tooltip: 溶岩に投げ込むと息を呑むような誰かを呼び寄せる
+	}
+
+	BrokenCamera: {
+		DisplayName: 壊れたカメラ
+		Tooltip: 「彼女はいったい何台持っているんだ？」
+	}
+
+	ChampionKey: {
+		DisplayName: チャンピオンキー
+		Tooltip:
+			'''
+			アンチェインドを倒し究極の財宝を手に入れよう
+			アンダーワールド・ドメインにある巨大チェストを開ける
+			'''
+	}
+
+	AuroraBorealis: {
+		DisplayName: オーロラ
+		Tooltip: ""
+	}
+
+	BlazingLockBox: {
+		DisplayName: 灼熱のロックボックス
+		Tooltip:
+			'''
+			右クリックで開く
+			テクトニックの鍵が必要
+			'''
+	}
+
+	Blockfish: {
+		DisplayName: ブロックフィッシュ
+		Tooltip: ""
+	}
+
+	DamnedCatcher: {
+		DisplayName: ダムドキャッチャー
+		Tooltip: 近くの敵にレーザーを発射する
+	}
+
+	Fangtooth: {
+		DisplayName: ファングトゥース
+		Tooltip:
+			'''
+			「ひときわ辺鄙な場所で釣れる」
+			「うわぁ、気味が悪い！」
+			'''
+	}
+
+	FrostbiteCrate: {
+		DisplayName: フロストバイトの木箱
+		Tooltip: 右クリックで開く
+	}
+
+	GlacierCrate: {
+		DisplayName: 氷河の箱
+		Tooltip: 右クリックで開く
+	}
+
+	TectonicCrate: {
+		DisplayName: テクトニックの箱
+		Tooltip: 右クリックで開く
+	}
+
+	GlassButterflyItem: {
+		DisplayName: 水晶蝶
+		Tooltip: ""
+	}
+
+	GoldenLatopus: {
+		DisplayName: 黄金のラトポス
+		Tooltip: ""
+	}
+
+	BlazingWhip: {
+		DisplayName: 灼熱の鞭
+		Tooltip:
+			'''
+			命中時に爆発を引き起こす
+			44ダメージ
+			'''
+	}
+
+	CrablingHook: {
+		DisplayName: クラブリングフック
+		Tooltip:
+			'''
+			敵をカニ化させる
+			22カニダメージ
+			'''
+	}
+
+	TrappersHook: {
+		DisplayName: トラッパーのフック
+		Tooltip: 小動物を捕まえる
+	}
+
+	PocketWormhole: {
+		DisplayName: ポケットワームホール
+		Tooltip: チームメンバーの所にワープする
+	}
+
+	RelayMirror: {
+		DisplayName: 中継の鏡
+		Tooltip:
+			'''
+			使用すると現在のスポーン地点に戻る
+			元居た場所に戻れるポータルが生成
+			ポータルを使用して、元の場所に戻ることが可能
+			使用後に短時間クールダウンが発生する
+			'''
+	}
+
+	SpaceCellPhone: {
+		DisplayName: 宇宙携帯電話
+		Tooltip:
+			'''
+			すべての情報を表示する
+			使用すると現在のスポーン地点に戻る
+			元居た場所に戻れるポータルが生成
+			ポータルを使用して、元の場所に戻ることが可能
+			使用後に短時間クールダウンが発生する
+			チームメンバーの所にワープする
+			'''
+	}
+
+	UnityMirror: {
+		DisplayName: 調和の鏡
+		Tooltip:
+			'''
+			使用すると現在のスポーン地点に戻る
+			元居た場所に戻れるポータルが生成
+			ポータルを使用して、元の場所に戻ることが可能
+			使用後に短時間クールダウンが発生する
+			チームメンバーの所にワープする
+			'''
+	}
+
+	RedHotSolution: {
+		DisplayName: 環境変更液（灼熱）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			土地をバサルタイトにする
+			'''
+	}
+
+	TectonicKey: {
+		DisplayName: テクトニックの鍵
+		Tooltip: アンダーワールド・ドメインにあるテクトニックの宝箱を開ける
+	}
+
+	PoorUnfortunateSoul: {
+		DisplayName: 哀れな魂
+		Tooltip:
+			'''
+			「よくシャドウキャスターの周囲をうろついている」
+			虫取り網で捕獲できる
+			'''
+	}
+
+	Garlic: {
+		DisplayName: ニンニク
+		Tooltip: 不浄または真紅の地で投げると、トワイライトウォーカーを召喚する
+	}
+
+	BlueBitOfSky: {
+		DisplayName: 蒼天の欠片
+		Tooltip:
+			'''
+			青色の三日月を召喚する
+			残念ながら日の出と共に消えてしまう
+			'''
+	}
+
+	GreenBitOfSky: {
+		DisplayName: 翠天の欠片
+		Tooltip:
+			'''
+			緑色の三日月を召喚する
+			残念ながら日の出と共に消えてしまう
+			'''
+	}
+
+	PinkBitOfSky: {
+		DisplayName: 桜天の欠片
+		Tooltip:
+			'''
+			桃色の三日月を召喚する
+			残念ながら日の出と共に消えてしまう
+			'''
+	}
+
+	PowerMoon: {
+		DisplayName: Cムーン
+		Tooltip: ラッキームーンを召喚する
+	}
+
+	YellowBitOfSky: {
+		DisplayName: 黄天の欠片
+		Tooltip:
+			'''
+			黄色の三日月を召喚する
+			残念ながら日の出と共に消えてしまう
+			'''
+	}
+
+	FunkyMirror: {
+		DisplayName: イカした鏡
+		Tooltip: 取り憑かれた鏡を召喚する
+	}
+
+	Matchbook: {
+		DisplayName: マッチ箱
+		Tooltip: Mr.サニーを召喚する
+	}
+
+	Beemerang: {
+		DisplayName: ビーメラン
+		Tooltip: ヴァイオレットを召喚する
+	}
+
+	BlueSkyEnvelope: {
+		DisplayName: 蒼空の封筒
+		Tooltip: <right>で開く
+	}
+
+	DeepSeaEnvelope: {
+		DisplayName: 深海の封筒
+		Tooltip: <right>で開く
+	}
+
+	DungeonEnvelope: {
+		DisplayName: ダンジョンの封筒
+		Tooltip:
+			'''
+			<right>で開く
+			開封には金の鍵が必要
+			'''
+	}
+
+	EmeraldEnvelope: {
+		DisplayName: エメラルドの封筒
+		Tooltip: <right>で開く
+	}
+
+	ExquisiteEnvelope: {
+		DisplayName: 豪華な封筒
+		Tooltip: <right>で開く
+	}
+
+	FieryEnvelope: {
+		DisplayName: 炎の封筒
+		Tooltip: <right>で開く
+	}
+
+	GoldenEnvelope: {
+		DisplayName: 黄金の封筒
+		Tooltip: <right>で開く
+	}
+
+	HorrificEnvelope: {
+		DisplayName: 恐怖の封筒
+		Tooltip: <right>で開く
+	}
+
+	PitchBlackEnvelope: {
+		DisplayName: 漆黒の封筒
+		Tooltip: <right>で開く
+	}
+
+	StandardEnvelope: {
+		DisplayName: 普通の封筒
+		Tooltip: <right>で開く
+	}
+
+	GroovyCamera: {
+		DisplayName: イカしたカメラ
+		Tooltip:
+			'''
+			多種多様な生物を撮影できる
+			毎日支給されるマジッククリップを使ってクエストを達成し、報酬を獲得しよう！
+			'''
+		Share: 付近のプレイヤーを右クリックしてマジッククリップを共有できる！
+	}
+
+	MagicClip: {
+		DisplayName: マジッククリップ
+		Tooltip: イカしたカメラで使用する
+	}
+
+	PhotoRifle: {
+		DisplayName: フォトライフル
+		Tooltip:
+			'''
+			遠距離から様々な生き物の写真を撮影できる
+			構えると照準を絞り、撮影距離が伸びる
+			毎日支給されるマジッククリップを使ってクエストを達成し、報酬を獲得しよう！
+			'''
+	}
+
+	PrimeEnvelope: {
+		DisplayName: 最上級の封筒
+		Tooltip: <right>で開く
+	}
+
+	StarMap: {
+		DisplayName: 星の地図
+		Tooltip: アストロロトルを召喚する
+	}
+
+	Conductor: {
+		DisplayName: 避雷針
+		Tooltip:
+			'''
+			頭上に雷雲を発生させる
+			「にわか雨の可能性あり」
+			'''
+	}
+
+	Toadstool: {
+		DisplayName: 発光キノコ
+		Tooltip: 小さなカエルの仲間を召喚する
+	}
+
+	ScarletHorns: {
+		DisplayName: 緋色の角
+		Tooltip: ""
+	}
+
+	SnowPigsRetribution: {
+		DisplayName: 天罰
+		Tooltip: 邪悪の化身となる
+	}
+
+	SpiritSoda: {
+		DisplayName: スピリットソーダ
+		Tooltip:
+			'''
+			「喉の渇きも怖がって逃げ出す！」
+			スプークスターを召喚する
+			'''
+	}
+
+	SkyBell: {
+		DisplayName: 天空の鐘
+		Tooltip: スターフェイスJr.を召喚する
+	}
+
+	ThePact: {
+		DisplayName: 契約
+		Tooltip: 足元に五芒星を描き出す
+	}
+
+	SheepItem: {
+		DisplayName: ヒツジ
+		Tooltip:
+			'''
+			騎乗（ヒツジ）を召喚する
+			なぜか染色を拒否する...
+			「全部捕まえよう！」
+			'''
+	}
+
+	BreathtakerBanner: {
+		DisplayName: ブレステイカーのバナー
+		Tooltip: ""
+	}
+
+	CaveImpBanner: {
+		DisplayName: ケイブインプのバナー
+		Tooltip: ""
+	}
+
+	ColossusBanner: {
+		DisplayName: コロッサスのバナー
+		Tooltip: ""
+	}
+
+	CombusterBanner: {
+		DisplayName: コンバスターのバナー
+		Tooltip: ""
+	}
+
+	CrabcannonBanner: {
+		DisplayName: キャノンガニのバナー
+		Tooltip: ""
+	}
+
+	DarknutBanner: {
+		DisplayName: 闇甲兵のバナー
+		Tooltip: ""
+	}
+
+	DecayingBanner: {
+		DisplayName: ディケイングのバナー
+		Tooltip: ""
+	}
+
+	EchoBanner: {
+		DisplayName: ウィスパラーのバナー
+		Tooltip: ""
+	}
+
+	FacelessPirateBanner: {
+		DisplayName: フェイスレスパイレーツのバナー
+		Tooltip: ""
+	}
+
+	FairyflyBanner: {
+		DisplayName: 妖光虫のバナー
+		Tooltip: ""
+	}
+
+	FootballZombieBanner: {
+		DisplayName: フットボールゾンビのバナー
+		Tooltip: ""
+	}
+
+	FortressBanner: {
+		DisplayName: フォートレスのバナー
+		Tooltip: ""
+	}
+
+	FunkySoulBanner: {
+		DisplayName: ファンキーソウルのバナー
+		Tooltip: ""
+	}
+
+	GarghoulBanner: {
+		DisplayName: ガーグールのバナー
+		Tooltip: ""
+	}
+
+	GlassButterflyBanner: {
+		DisplayName: 水晶蝶のバナー
+		Tooltip: ""
+	}
+
+	GoldenDroneBanner: {
+		DisplayName: ゴールドドローンのバナー
+		Tooltip: ""
+	}
+
+	GreatToxicSludgeBanner: {
+		DisplayName: 肥大トキシックスラッジのバナー
+		Tooltip: ""
+	}
+
+	HauntedAnchorBanner: {
+		DisplayName: ホーンテッドアンカーのバナー
+		Tooltip: ""
+	}
+
+	HeadlessPirateBanner: {
+		DisplayName: ヘッドレスパイレーツのバナー
+		Tooltip: ""
+	}
+
+	HobgoblinBanner: {
+		DisplayName: ホブゴブリンのバナー
+		Tooltip: ""
+	}
+
+	HuskBanner: {
+		DisplayName: ハスクのバナー
+		Tooltip: ""
+	}
+
+	PossessedShadowArmorBanner: {
+		DisplayName: 憑依したシャドウアーマーのバナー
+		Tooltip: ""
+	}
+
+	IdlerBanner: {
+		DisplayName: アイドラーのバナー
+		Tooltip: ""
+	}
+
+	JumpkinBanner: {
+		DisplayName: ジャンプキンのバナー
+		Tooltip: ""
+	}
+
+	KnockerBanner: {
+		DisplayName: ノッカーのバナー
+		Tooltip: ""
+	}
+
+	LatopusBanner: {
+		DisplayName: ラトポスのバナー
+		Tooltip: ""
+	}
+
+	MagnetoBanner: {
+		DisplayName: マグネトのバナー
+		Tooltip: ""
+	}
+
+	MindFlayerBanner: {
+		DisplayName: マインドフレイヤーのバナー
+		Tooltip: ""
+	}
+
+	MoonwalkerBanner: {
+		DisplayName: ムーンウォーカーのバナー
+		Tooltip: ""
+	}
+
+	PossessedFrostArmorBanner: {
+		DisplayName: 憑依したフロストアーマーのバナー
+		Tooltip: ""
+	}
+
+	MuskeletonBanner: {
+		DisplayName: マスケルトンのバナー
+		Tooltip: ""
+	}
+
+	PurpleDroneBanner: {
+		DisplayName: パープルドローンのバナー
+		Tooltip: ""
+	}
+
+	RebelliousWispBanner: {
+		DisplayName: レベリアスウィスプのバナー
+		Tooltip: ""
+	}
+
+	SarraceniaBanner: {
+		DisplayName: サラセニアのバナー
+		Tooltip: ""
+	}
+
+	SavageBanner: {
+		DisplayName: 狂戦士のバナー
+		Tooltip: ""
+	}
+
+	SentinelBanner: {
+		DisplayName: センチネルのバナー
+		Tooltip: ""
+	}
+
+	ShadowCasterBanner: {
+		DisplayName: シャドウキャスターのバナー
+		Tooltip: ""
+	}
+
+	SheepNPCBanner: {
+		DisplayName: ヒツジのバナー
+		Tooltip: ""
+	}
+
+	ShinyPixieBanner: {
+		DisplayName: シャイニーピクシーのバナー
+		Tooltip: ""
+	}
+
+	SkeletonJesterBanner: {
+		DisplayName: スケルトンジェスターのバナー
+		Tooltip: ""
+	}
+
+	SpikedLavaSlimeBanner: {
+		DisplayName: スパイクラーヴァスライムのバナー
+		Tooltip: ""
+	}
+
+	StalkerBanner: {
+		DisplayName: ストーカーのバナー
+		Tooltip: ""
+	}
+
+	TectonicMimicBanner: {
+		DisplayName: テクトニックミミックのバナー
+		Tooltip: ""
+	}
+
+	ThreaterBanner: {
+		DisplayName: スリーターのバナー
+		Tooltip: ""
+	}
+
+	ThrillerBanner: {
+		DisplayName: スリラーのバナー
+		Tooltip: ""
+	}
+
+	ToilerBanner: {
+		DisplayName: トイラーのバナー
+		Tooltip: ""
+	}
+
+	TrollBanner: {
+		DisplayName: トロールのバナー
+		Tooltip: ""
+	}
+
+	UnfairyBanner: {
+		DisplayName: アンフェアリーのバナー
+		Tooltip: ""
+	}
+
+	WitnessBanner: {
+		DisplayName: ウィットネスのバナー
+		Tooltip: ""
+	}
+
+	AmplifierItem: {
+		DisplayName: 増幅器
+		Tooltip: 月光の力をアイテムへ宿らせることができる
+	}
+
+	AncientFurnace: {
+		DisplayName: 古代のかまど
+		Tooltip: 鉱石を溶かすのに使う
+	}
+
+	AncientHellforge: {
+		DisplayName: 古代の地獄のかまど
+		Tooltip: ""
+	}
+
+	BlastForgeAncientItem: {
+		DisplayName: 古代の高炉
+		Tooltip:
+			'''
+			25%の確率で素材を消費しない
+			黒合金のクラフトに使用する
+			'''
+	}
+
+	BlastForgeItem: {
+		DisplayName: 高炉
+		Tooltip:
+			'''
+			25%の確率で素材を消費しない
+			黒合金のクラフトに使用する
+			'''
+	}
+
+	StoneofInspirationItem: {
+		DisplayName: 啓示の石
+		Tooltip: エレメントの力でアイテムを強化できる
+	}
+
+	BigDeal: {
+		DisplayName: 大物
+		Tooltip: ""
+	}
+
+	Coolwell: {
+		DisplayName: 井戸
+		Tooltip: 空のバケツを満たす
+	}
+
+	CriminalStatue: {
+		DisplayName: 犯罪者の石像
+		Tooltip: ""
+	}
+
+	GlassButterflyJar: {
+		DisplayName: 瓶入りの水晶蝶
+		Tooltip: ""
+	}
+
+	Goodwell: {
+		DisplayName: 恵みの井戸
+		Tooltip: 空のバケツを満たす
+	}
+
+	HiddenGoldenChestItem: {
+		DisplayName: 隠された金の宝箱
+		Tooltip: ""
+	}
+
+	KitCatClock: {
+		DisplayName: 猫目時計
+		Tooltip: ""
+	}
+
+	AltStrandedShipMusicBox: {
+		DisplayName: 漂流船（拡張版）
+		Tooltip: ""
+	}
+
+	BasaltMusicBox: {
+		DisplayName: オルゴール（アンダーワールド・ドメイン）
+		Tooltip: ""
+	}
+
+	BasaltOldMusicBox: {
+		DisplayName: オルゴール（アンダーワールド・ドメイン - 対話後）
+		Tooltip: ""
+	}
+
+	InsurgentMusicBox: {
+		DisplayName: オルゴール（インサージェント）
+		Tooltip: ""
+	}
+
+	MenaceMusicBox: {
+		DisplayName: オルゴール（メナス）
+		Tooltip: ""
+	}
+
+	MenaceGrandpaMusicBox: {
+		DisplayName: オルゴール（メナス - 旧）
+		Tooltip: ""
+	}
+
+	MirageMusicBox: {
+		DisplayName: オルゴール（ミラージュ）
+		Tooltip: ""
+	}
+
+	MysteriousPersonMusicBox: {
+		DisplayName: オルゴール（謎の人物）
+		Tooltip: ""
+	}
+
+	OneShotMusicBox: {
+		DisplayName: オルゴール（ワン・ショット）
+		Tooltip: ""
+	}
+
+	ParaffinMusicBox: {
+		DisplayName: オルゴール（パラフィン）
+		Tooltip: ""
+	}
+
+	SethMusicBox: {
+		DisplayName: オルゴール（セス）
+		Tooltip: ""
+	}
+
+	SpiritMusicBox: {
+		DisplayName: オルゴール（スピリット）
+		Tooltip: ""
+	}
+
+	StrandedShipMusicBox: {
+		DisplayName: オルゴール（漂着船）
+		Tooltip: ""
+	}
+
+	Aurora: {
+		DisplayName: 絵画『オーロラ』
+		Tooltip: ""
+	}
+
+	BigFan: {
+		DisplayName: 絵画『大ファン』
+		Tooltip: ""
+	}
+
+	ChildOfTheCorn: {
+		DisplayName: 絵画『トウモロコシの子』
+		Tooltip: 「H. ジーンマー」
+	}
+
+	DrCool: {
+		DisplayName: 絵画『Dr.クール』
+		Tooltip: 「Dr.クール」
+	}
+
+	EverybodyLovesGlowtoad: {
+		DisplayName: 絵画『愛されるグロウトード』
+		Tooltip: ""
+	}
+
+	FamiliarFace: {
+		DisplayName: 絵画『見覚えのある顔』
+		Tooltip: ""
+	}
+
+	FilthyFranChan: {
+		DisplayName: 絵画『汚れたフランちゃん』
+		Tooltip: 「Dr.クール」
+	}
+
+	FullHouse: {
+		DisplayName: 絵画『勢揃い』
+		Tooltip: ""
+	}
+
+	Huge: {
+		DisplayName: 絵画『巨大』
+		Tooltip: 「でかいやつ」
+	}
+
+	IBB: {
+		DisplayName: 絵画『ずっと忙しくて...』
+		Tooltip: ""
+	}
+
+	IDRTO: {
+		DisplayName: 絵画『お元気で』
+		Tooltip: ""
+	}
+
+	KingoftheNight: {
+		DisplayName: 絵画『夜を統べる者』
+		Tooltip: ""
+	}
+
+	LadyInWaiting: {
+		DisplayName: 絵画『宮廷女官』
+		Tooltip: ""
+	}
+
+	Loneliness: {
+		DisplayName: 絵画『ひとりぼっち』
+		Tooltip: 「A・ジャックスパイ」
+	}
+
+	ManOfShadows: {
+		DisplayName: 絵画『影の男』
+		Tooltip: ""
+	}
+
+	MissingPoster: {
+		DisplayName: 捜索願書
+		Tooltip: ""
+	}
+
+	MJ: {
+		DisplayName: 絵画『M.J.』
+		Tooltip: ""
+	}
+
+	MysteryMan: {
+		DisplayName: 絵画『謎の男』
+		Tooltip: 「A・ジャックスパイ」
+	}
+
+	OneAndOnly: {
+		DisplayName: 絵画『ただひとつの存在』
+		Tooltip: ""
+	}
+
+	OneSmallStepForAPirate: {
+		DisplayName: 絵画『これは小さな一歩だが...』
+		Tooltip: 「O・ローンショット」
+	}
+
+	OOOMagicianOOO: {
+		DisplayName: 絵画『000_魔術師_000』
+		Tooltip: 「Dr.クール」
+	}
+
+	PageTurner: {
+		DisplayName: 絵画『ページターナー』
+		Tooltip: 「Dr.クール」
+	}
+
+	SpinalGalaxy: {
+		DisplayName: 絵画『脊椎銀河』
+		Tooltip: ""
+	}
+
+	TheGlassman: {
+		DisplayName: 絵画『ガラスの男』
+		Tooltip: ""
+	}
+
+	TheGraduation: {
+		DisplayName: 絵画『卒業』
+		Tooltip: ""
+	}
+
+	TheIntruder: {
+		DisplayName: 絵画『侵入者』
+		Tooltip: 「J・スピプス」
+	}
+
+	TheNexus: {
+		DisplayName: 絵画『結節点』
+		Tooltip: 「その不可思議はどこから来るのか」
+	}
+
+	TheSandbox: {
+		DisplayName: 絵画『砂場』
+		Tooltip: ""
+	}
+
+	TheThunderbolt: {
+		DisplayName: 絵画『迅雷』
+		Tooltip: 「O・ローンショット」
+	}
+
+	TheTremor: {
+		DisplayName: 絵画『大地の鼓動』
+		Tooltip: 「H. ジーンマー」
+	}
+
+	WantedPoster: {
+		DisplayName: 指名手配書
+		Tooltip: ""
+	}
+
+	PorkChestItem: {
+		DisplayName: 豚の宝箱
+		Tooltip: ""
+	}
+
+	PottedGlacierAster: {
+		DisplayName: 氷晶ジルコンの鉢植え
+		Tooltip: ""
+	}
+
+	PottedGlassblossom: {
+		DisplayName: ガラスの花の鉢植え
+		Tooltip: ""
+	}
+
+	PottedHibiscus: {
+		DisplayName: ハイビスカスの鉢植え
+		Tooltip: ""
+	}
+
+	PottedPearlbush: {
+		DisplayName: パールブッシュの鉢植え
+		Tooltip: ""
+	}
+
+	PottedRosalia: {
+		DisplayName: ロザリアの鉢植え
+		Tooltip: ""
+	}
+
+	TeddyBai: {
+		DisplayName: テディ・バイ
+		Tooltip: 「いやだーっ！売り物のぬいぐるみにはなりたくない！」
+	}
+
+	TrappedFrostbiteWoodChest: {
+		DisplayName: フロストバイトウッドの宝箱（罠）
+		Tooltip: ""
+	}
+
+	TrappedHiddenGoldenChestItem: {
+		DisplayName: 隠された金の宝箱（罠）
+		Tooltip: ""
+	}
+
+	TrappedPorkChestItem: {
+		DisplayName: 豚の宝箱（罠）
+		Tooltip: ""
+	}
+
+	TrappedTectonicChest: {
+		DisplayName: テクトニックの宝箱
+		Tooltip: ""
+	}
+
+	CultistStatue: {
+		DisplayName: 崇拝者の石像
+		Tooltip: ""
+	}
+
+	HolographicBoardItem: {
+		DisplayName: ホログラムボード
+		Tooltip:
+			'''
+			設置時に最も近いプレイヤーを記録する
+			記録したプレイヤーの姿と状態を表示する
+			ペイント可能
+			'''
+		Offline: "[オフライン]"
+		OfflineText: "[{0}]"
+	}
+
+	HuskStatue: {
+		DisplayName: ハスクの石像
+		Tooltip: ""
+	}
+
+	Keystone: {
+		DisplayName: キーストーン
+		Tooltip: セントリーの攻撃速度が上昇
+	}
+
+	RevealingSign: {
+		DisplayName: 表示看板
+		Tooltip: 入力テキストをワールド上に表示する
+	}
+
+	ShovelStatue: {
+		DisplayName: シャベルの石像
+		Tooltip: ""
+	}
+
+	TeslaTower: {
+		DisplayName: テスラタワー
+		Tooltip: 電気エネルギーを蓄積する
+	}
+
+	ThickBoulderItem: {
+		DisplayName: 巨大な岩塊
+		Tooltip: 「一体何が問題になるっていうんだ？」
+	}
+
+	WarningSign: {
+		DisplayName: 警告看板
+		Tooltip: 範囲内で旅商人が出現しなくなる
+	}
+
+	RelicInsurgent: {
+		DisplayName: インサージェントのレリック
+		Tooltip: ""
+	}
+
+	RelicMenace: {
+		DisplayName: メナスのレリック
+		Tooltip: ""
+	}
+
+	RelicMirage: {
+		DisplayName: ミラージュのレリック
+		Tooltip: ""
+	}
+
+	RelicOneShot: {
+		DisplayName: ワン・ショットのレリック
+		Tooltip: ""
+	}
+
+	RelicParaffin: {
+		DisplayName: パラフィンのレリック
+		Tooltip: ""
+	}
+
+	RelicSeth: {
+		DisplayName: セスのレリック
+		Tooltip: ""
+	}
+
+	RelicSpirit: {
+		DisplayName: スピリットのレリック
+		Tooltip: ""
+	}
+
+	FrostbiteSail: {
+		DisplayName: フロストバイトの帆
+		Tooltip: ""
+	}
+
+	FrostbiteWood: {
+		DisplayName: フロストバイトウッド
+		Tooltip: ""
+	}
+
+	FrostbiteWoodFence: {
+		DisplayName: フロストバイトウッドのフェンス
+		Tooltip: ""
+	}
+
+	FrostbiteWoodPlatform: {
+		DisplayName: フロストバイトウッドの足場
+		Tooltip: ""
+	}
+
+	FrostbiteWoodWall: {
+		DisplayName: フロストバイトウッドの壁
+		Tooltip: ""
+	}
+
+	FrozenGravestone: {
+		DisplayName: 氷結の墓石
+		Tooltip: ""
+	}
+
+	FrozenHeadstone: {
+		DisplayName: 氷結の十字墓石
+		Tooltip: ""
+	}
+
+	FrozenObelisk: {
+		DisplayName: 氷結のオベリスク
+		Tooltip: ""
+	}
+
+	FrozenTombstone: {
+		DisplayName: 氷結の墓碑
+		Tooltip: ""
+	}
+
+	FrostbiteBarrelItem: {
+		DisplayName: フロストバイトの樽
+		Tooltip: ""
+	}
+
+	FrostbiteHelmetRack: {
+		DisplayName: 凍傷したヘルメットのラック
+		Tooltip: ""
+	}
+
+	FrostbiteKnifeRack: {
+		DisplayName: 凍傷したナイフのラック
+		Tooltip: ""
+	}
+
+	FrostbiteMap: {
+		DisplayName: 氷結した地図
+		Tooltip: ""
+	}
+
+	FrostbiteSpearRack: {
+		DisplayName: 凍傷した槍のラック
+		Tooltip: ""
+	}
+
+	FrostbiteSwordRack: {
+		DisplayName: 凍傷した剣のラック
+		Tooltip: ""
+	}
+
+	FrostbiteWoodBathtub: {
+		DisplayName: フロストバイトウッドの浴場
+		Tooltip: ""
+	}
+
+	FrostbiteWoodBed: {
+		DisplayName: フロストバイトウッドのベッド
+		Tooltip: ""
+	}
+
+	FrostbiteWoodBookcase: {
+		DisplayName: フロストバイトウッドの本棚
+		Tooltip: ""
+	}
+
+	FrostbiteWoodCandelabra: {
+		DisplayName: フロストバイトウッドの燭台
+		Tooltip: ""
+	}
+
+	FrostbiteWoodCandle: {
+		DisplayName: フロストバイトウッドの蝋燭
+		Tooltip: ""
+	}
+
+	FrostbiteWoodChair: {
+		DisplayName: フロストバイトウッドの椅子
+		Tooltip: ""
+	}
+
+	FrostbiteWoodChandelier: {
+		DisplayName: フロストバイトウッドのシャンデリア
+		Tooltip: ""
+	}
+
+	FrostbiteWoodChestItem: {
+		DisplayName: フロストバイトウッドの宝箱
+		Tooltip: ""
+	}
+
+	FrostbiteWoodDoor: {
+		DisplayName: フロストバイトウッドのドア
+		Tooltip: ""
+	}
+
+	FrostbiteWoodDresser: {
+		DisplayName: フロストバイトウッドのドレッサー
+		Tooltip: ""
+	}
+
+	FrostbiteWoodGrandfatherClock: {
+		DisplayName: フロストバイトウッドの柱時計
+		Tooltip: ""
+	}
+
+	FrostbiteWoodLamp: {
+		DisplayName: フロストバイトウッドのランプ
+		Tooltip: ""
+	}
+
+	FrostbiteWoodLantern: {
+		DisplayName: フロストバイトウッドのランタン
+		Tooltip: ""
+	}
+
+	FrostbiteWoodPiano: {
+		DisplayName: フロストバイトウッドのピアノ
+		Tooltip: ""
+	}
+
+	FrostbiteWoodSink: {
+		DisplayName: フロストバイトウッドのシンク
+		Tooltip: ""
+	}
+
+	FrostbiteWoodSofa: {
+		DisplayName: フロストバイトウッドのソファ
+		Tooltip: ""
+	}
+
+	FrostbiteWoodStatue: {
+		DisplayName: 木彫りの兵士像
+		Tooltip: ""
+	}
+
+	FrostbiteWoodStatueKnight: {
+		DisplayName: 木彫りの騎士像
+		Tooltip: ""
+	}
+
+	FrostbiteWoodTable: {
+		DisplayName: フロストバイトウッドのテーブル
+		Tooltip: ""
+	}
+
+	FrostbiteWoodWorkbench: {
+		DisplayName: フロストバイトウッドの作業台
+		Tooltip: ""
+	}
+
+	GlacialSoil: {
+		DisplayName: 氷河の土
+		Tooltip: フロストバイトツリーの成長に適した土壌
+	}
+
+	StrandedMonolith: {
+		DisplayName: 漂流のモノリス
+		Tooltip: 不思議な漂流のオーラを放つ
+	}
+
+	WhiteWoodenBeam: {
+		DisplayName: 白木の梁
+		Tooltip: ""
+	}
+
+	InsurgentTrophy: {
+		DisplayName: インサージェントのトロフィー
+		Tooltip: ""
+	}
+
+	MenaceTrophy: {
+		DisplayName: メナスのトロフィー
+		Tooltip: ""
+	}
+
+	MirageTrophy: {
+		DisplayName: ミラージュのトロフィー
+		Tooltip: ""
+	}
+
+	OneShotTrophy: {
+		DisplayName: ワン・ショットのトロフィー
+		Tooltip: ""
+	}
+
+	ParaffinTrophy: {
+		DisplayName: パラフィンのトロフィー
+		Tooltip: ""
+	}
+
+	SethTrophy: {
+		DisplayName: セスのトロフィー
+		Tooltip: ""
+	}
+
+	SpiritTrophy: {
+		DisplayName: スピリットのトロフィー
+		Tooltip: ""
+	}
+
+	BasaltiteBrickItem: {
+		DisplayName: バサルタイトのレンガ
+		Tooltip: 壮大な火山レンガ
+	}
+
+	BasaltiteBrickPlatform: {
+		DisplayName: バサルタイトレンガの足場
+		Tooltip: ""
+	}
+
+	BasaltiteBrickWallItem: {
+		DisplayName: バサルタイトのレンガ壁
+		Tooltip: ""
+	}
+
+	BasaltiteColumn: {
+		DisplayName: バサルタイトの柱
+		Tooltip: ""
+	}
+
+	BasaltiteItem: {
+		DisplayName: バサルタイト
+		Tooltip:
+			'''
+			強大な力を秘めた火山岩
+			アンダーワールド・ドメインの礎
+			'''
+	}
+
+	BasaltiteRocks: {
+		DisplayName: バサルタイト岩
+		Tooltip: ""
+	}
+
+	BasaltiteStatue1: {
+		DisplayName: 左手の石像
+		Tooltip: ""
+	}
+
+	BasaltiteStatue2: {
+		DisplayName: 右手の石像
+		Tooltip: ""
+	}
+
+	BasaltiteStatue3: {
+		DisplayName: 支配者の石像
+		Tooltip: ""
+	}
+
+	BasaltiteStatue4: {
+		DisplayName: バサルタイト遺構
+		Tooltip: ""
+	}
+
+	BasaltiteWallItem: {
+		DisplayName: バサルタイトの壁
+		Tooltip: ""
+	}
+
+	ChampionChest: {
+		DisplayName: 覇者の宝箱
+		Tooltip: ""
+	}
+
+	MonsterCage: {
+		DisplayName: 魔物の檻
+		Tooltip: ""
+	}
+
+	TectonicChestItem: {
+		DisplayName: テクトニックの宝箱
+		Tooltip: ""
+	}
+
+	TectonicToilet: {
+		DisplayName: テクトニックのトイレ
+		Tooltip: ""
+	}
+
+	PrismaticBullet: {
+		DisplayName: プリズマティック弾
+		Tooltip: 「気合いがあれば全部ショットガンだ！」
+	}
+
+	WeHaveTechnologyItem: {
+		DisplayName: 文明の力
+		Tooltip: 「私たちは原始人じゃない！」
+	}
+
+	ZirconWasterItem: {
+		DisplayName: ジルコンウェイスター
+		Tooltip: 敵を砕き、ネオンクリスタルの雨へ変える
+	}
+
+	DreamoftheButterfly: {
+		DisplayName: 夢幻蝶
+		Tooltip: 水晶蝶の群れを放つ
+	}
+
+	SearingEmber: {
+		DisplayName: 焦炎の火種
+		Tooltip: 灼熱の火炎波を解き放つ
+	}
+
+	Blazerang: {
+		DisplayName: ブレイズラング
+		Tooltip: 攻撃時にシャドウフレイムを付与
+	}
+
+	Bouncer: {
+		DisplayName: バウンサー
+		Tooltip: 最大3つまでスタック可能
+	}
+
+	PinkBouncer: {
+		DisplayName: バウンサーII
+		Tooltip: 最大3つまでスタック可能
+	}
+
+	Fishbone: {
+		DisplayName: フィッシュボーン
+		Tooltip: 「思い知れ...死んだ魚たちの怨念を！」
+	}
+
+	NightDisc: {
+		DisplayName: ナイトディスク
+		Tooltip:
+			'''
+			狙った方向へ殺傷レーザーを発射する
+			最大5つまでスタック可能
+			ディスク1枚ごとに攻撃速度が上昇
+			'''
+	}
+
+	Pursuer: {
+		DisplayName: パースアー
+		Tooltip: 長押しでカーソルを追従する
+	}
+
+	RodOfDread: {
+		DisplayName: 戦慄の杖
+		Tooltip: 「...だが太陽は月に覆い隠される」
+	}
+
+	TheEclipse: {
+		DisplayName: 日蝕
+		Tooltip: 「太陽の下にあるすべては一つとなる...」
+	}
+
+	Twister: {
+		DisplayName: アイスツイスター
+		Tooltip: 上空から氷の破片を降らせる
+	}
+
+	Blockbuster: {
+		DisplayName: ブロックバスター
+		Tooltip: 3つに分裂する巨大な榴散弾を撃つ
+	}
+
+	FlakCannon: {
+		DisplayName: フラックキャノン
+		Tooltip: 多数の弾丸へ分裂する榴散弾を撃つ
+	}
+
+	RedArc: {
+		DisplayName: レッドアーク
+		Tooltip: ""
+	}
+
+	BallofFlesh: {
+		DisplayName: フレッシュボール
+		Tooltip:
+			'''
+			攻撃を止めた際、ハングリーが襲い掛かる
+			タグダメージ 2
+			'''
+	}
+
+	Eyesore: {
+		DisplayName: アイソアー
+		Tooltip:
+			'''
+			「リード付き！」
+			タグダメージ 2
+			'''
+	}
+
+	AstroQuiver: {
+		DisplayName: 神秘の矢筒
+		Tooltip:
+			'''
+			矢のダメージが12%増加し、速度が大幅に上昇
+			20%の確率で矢を消費しない
+			矢が敵をわずかに追尾する
+			弓を使用すると黄金の矢を追加で放つ
+			'''
+	}
+
+	BadmintonBag: {
+		DisplayName: バドミントンバッグ
+		Tooltip:
+			'''
+			バドミントンラケットの性能を強化する
+			ラケット使用時のボール数が1個増加する
+			'''
+	}
+
+	BallPouch: {
+		DisplayName: ボールポーチ
+		Tooltip: ラケット使用時のボールを1個追加する
+	}
+
+	BlazingBangle: {
+		DisplayName: 灼熱の腕輪
+		Tooltip: 炎上状態の敵へのダメージが増加
+	}
+
+	ChillingCatalyst: {
+		DisplayName: 氷結の触媒
+		Tooltip: 最初の一撃で敵に凍傷を付与
+	}
+
+	EvilCatalyst: {
+		DisplayName: 邪悪の触媒
+		Tooltip: 最初の一撃で敵に霊液または呪炎を付与
+	}
+
+	FlamingCatalyst: {
+		DisplayName: 火炎の触媒
+		Tooltip: 最初の一撃で敵に炎上を付与
+	}
+
+	FrozenBangle: {
+		DisplayName: 氷結の腕輪
+		Tooltip: 凍傷状態の敵へのダメージが増加
+	}
+
+	MaliciousBangle: {
+		DisplayName: 邪悪の腕輪
+		Tooltip: 霊液または呪炎状態の敵へのダメージが増加
+	}
+
+	PerfidiousBangle: {
+		DisplayName: 猛毒の腕輪
+		Tooltip: 毒または猛毒状態の敵へのダメージが増加
+	}
+
+	TheFirestarter: {
+		DisplayName: 火種の護符
+		Tooltip:
+			'''
+			最初の一撃で敵に炎上を付与
+			炎上状態の敵へのダメージが増加
+			'''
+	}
+
+	TheIceberg: {
+		DisplayName: 氷山の護符
+		Tooltip:
+			'''
+			最初の一撃で敵に凍傷を付与
+			凍傷状態の敵へのダメージが増加
+			'''
+	}
+
+	TheNemesis: {
+		DisplayName: 宿敵の護符
+		Tooltip:
+			'''
+			最初の一撃で敵に霊液または呪炎を付与
+			霊液または呪炎状態の敵へのダメージが増加
+			'''
+	}
+
+	ThePlaguebringer: {
+		DisplayName: 疫病の運び手
+		Tooltip:
+			'''
+			最初の一撃で敵に毒を付与
+			毒または猛毒状態の敵へのダメージが増加
+			'''
+	}
+
+	ToxicCatalyst: {
+		DisplayName: 毒の触媒
+		Tooltip: 最初の一撃で敵に毒を付与
+	}
+
+	BlueTearstoneRing: {
+		DisplayName: 青涙石の指輪
+		Tooltip: 残りライフが少ない場合、防御力が大幅に増加
+	}
+
+	BuryTheLight: {
+		DisplayName: 光葬剣
+		Tooltip:
+			'''
+			攻撃時に壮大な剣が追撃する
+			ダメージは全クラス補正の影響を受ける
+			非表示スロットに配置すると出現しない
+			'''
+	}
+
+	EnchantedArrow: {
+		DisplayName: 金の矢じり
+		Tooltip:
+			'''
+			弓の使用時に追加の黄金の矢を放つ
+			発射ごとにマナを20消費する
+			非表示スロットでは発射されない
+			'''
+	}
+
+	BlazingScope: {
+		DisplayName: 灼熱のスコープ
+		Tooltip: クリティカル時に敵が爆発する
+	}
+
+	ChampionsCrown: {
+		DisplayName: 王者の王冠
+		Tooltip: 
+			'''
+			クリティカルダメージが大幅に上昇
+			ただし通常ダメージがやや減少
+			'''
+	}
+
+	EonOfCaptivity: {
+		DisplayName: 束縛の永劫
+		Tooltip:
+			'''
+			移動時に追尾する骸骨を放つ
+			ダメージは防御力に応じて増加
+			'''
+	}
+
+	PalladiumShield: {
+		DisplayName: パラジウムシールド
+		Tooltip:
+			'''
+			被ダメージ後、一時的に防御力が増加
+			「弱き者たちの砦」
+			'''
+	}
+
+	PossessedNeedle: {
+		DisplayName: 憑依された針
+		Tooltip: 防御貫通が5増加
+	}
+
+	SunsetTiara: {
+		DisplayName: 黄昏の冠飾り
+		Tooltip:
+			'''
+			クリティカル時に敵が爆発する
+			クリティカルダメージが大幅に上昇
+			ただし通常ダメージがやや減少
+			'''
+	}
+
+	TerrorShield: {
+		DisplayName: 恐怖の盾
+		Tooltip:
+			'''
+			ダメージを受けた直後、一時的に防御力が増加する
+			移動時に追尾する骸骨を放つ
+			ダメージは防御力に応じて増加する
+			「今こそ恐れる時だ」
+			'''
+	}
+
+	WoodooHeart: {
+		DisplayName: ブードゥーハート
+		Tooltip:
+			'''
+			防御貫通が5増加
+			最初の一撃が敵に2倍のダメージを与える
+			'''
+	}
+
+	EtherealTea: {
+		DisplayName: 幽玄の茶
+		Tooltip:
+			'''
+			ライフポーション使用時、一時的にライフ自然回復を増進
+			ポーションの回復効果を味方と共有し、回復量の50%を与える
+			'''
+	}
+
+	GoldenTea: {
+		DisplayName: 黄金の茶
+		Tooltip:
+			'''
+			ライフポーション使用時、一時的にライフ自然回復を増進
+			ポーションの回復効果を味方と共有し、回復量の75%を与える
+			'''
+	}
+
+	VivifyingTea: {
+		DisplayName: 活力の茶
+		Tooltip:
+			'''
+			ライフポーション使用時、一時的にライフ自然回復を増進
+			ポーションの回復効果を味方と共有し、回復量の25%を与える
+			'''
+	}
+
+	RingOfSun: {
+		DisplayName: 太陽の指輪
+		Tooltip: ライフポーションの効果が向上する
+	}
+
+	SaviourSchnapps: {
+		DisplayName: 救済のシュナップス
+		Tooltip: 致命傷を受けた際、自動でライフポーションを使用する
+	}
+
+	ScarletSunRing: {
+		DisplayName: 緋陽の護符
+		Tooltip:
+			'''
+			ライフポーションの効果が向上
+			ライフ自然回復を増進し、ライフポーションのクールダウンを短縮
+			'''
+	}
+
+	SeventhElement: {
+		DisplayName: 第七元素
+		Tooltip:
+			'''
+			ライフポーション使用時、一時的にライフ自然回復を増進
+			ポーションの回復効果を味方と共有し、回復量の75%を与える
+			ライフポーションの効果が向上
+			ライフ自然回復を増進し、ライフポーションのクールダウンを短縮
+			ライフポーション使用時、数秒間無敵になる
+			致命傷を受けた際、自動でライフポーションを使用する
+			'''
+	}
+
+	StairwayToHeaven: {
+		DisplayName: 天昇の階
+		Tooltip: 回復アイテム使用時、数秒間無敵になる
+	}
+
+	InsurgentsRing: {
+		DisplayName: 反逆者の指輪
+		Tooltip: ライフが満タンまたは瀕死時、攻撃力と防御力が大幅に増加
+	}
+
+	MagnetQuiver: {
+		DisplayName: 磁力の矢筒
+		Tooltip: 矢がわずかに敵を追尾する
+	}
+
+	PurpleTearstoneRing: {
+		DisplayName: 紫涙石の指輪
+		Tooltip: ライフが少ない時、攻撃力と防御力が大幅に増加
+	}
+
+	RedTearstoneRing: {
+		DisplayName: 紅涙石の指輪
+		Tooltip: ライフが少ない時、ダメージが大幅に増加
+	}
+
+	BoilingPoint: {
+		DisplayName: 臨界熱
+		Tooltip: 被ダメージ後、一時的に通常攻撃と強攻撃の近接速度が上昇
+	}
+
+	DragonShield: {
+		DisplayName: 竜盾
+		Tooltip:
+			'''
+			被ダメージ後、一時的に通常攻撃と強攻撃の近接速度が上昇
+			重武器使用時の防御力ボーナスが2倍になる
+			'''
+	}
+
+	KnightmareShield: {
+		DisplayName: 騎士の盾
+		Tooltip:
+			'''
+			被ダメージ後、一時的に通常攻撃と強攻撃の近接速度が上昇
+			重武器使用時の防御力ボーナスが2倍になる
+			ノックバックと炎ブロックを無効化し、ほとんどのデバフに耐性
+			'''
+	}
+
+	ToughstoneShield: {
+		DisplayName: 堅石の盾
+		Tooltip: 重武器使用時の防御力ボーナスが2倍になる
+	}
+
+	SportsBag: {
+		DisplayName: スポーツバッグ
+		Tooltip: ヨーヨーとバドミントンを強化する
+	}
+
+	SuspiciousLookingBone: {
+		DisplayName: あやしい顎骨
+		Tooltip: 敵と生き物のスポーン率および最大出現数が2倍になる
+	}
+
+	ToughGlove: {
+		DisplayName: 剛腕のグローブ
+		Tooltip: バドミントンを強化する
+	}
+
+	MenacingVibe: {
+		DisplayName: 不穏な気配
+		Tooltip: 「どこか奇妙な感じがする...」
+	}
+
+	StellaarHat: {
+		DisplayName: 星辰の帽子
+		Tooltip:
+			'''
+			遠距離ダメージと召喚ダメージが6%増加
+			遠距離クリティカル率が7%上昇
+			'''
+	}
+
+	StellarCoat: {
+		DisplayName: 星辰のコート
+		Tooltip:
+			'''
+			遠距離ダメージと召喚ダメージが6%増加
+			召喚できるミニオンの数が1体増える by 1
+			'''
+	}
+
+	StellarPants: {
+		DisplayName: 星辰のズボン
+		Tooltip:
+			'''
+			遠距離ダメージと召喚ダメージが6%増加
+			移動速度が20%上昇
+			'''
+	}
+
+	AmberMirror: {
+		DisplayName: 琥珀の鏡
+		Tooltip:
+			'''
+			ミラージュを召喚する
+			夜間の砂漠でのみ使用可能
+			'''
+	}
+
+	BoxOfDesired: {
+		DisplayName: パンドラの杯
+		Tooltip:
+			'''
+			偉大なる敵を召喚する
+			夜間のみ使用可能
+			'''
+	}
+
+	BulletproofCoin: {
+		DisplayName: 記念の贈り物
+		Tooltip: 「彼が初めて受け取った給料...」
+	}
+
+	DragonSkullTrophy: {
+		DisplayName: ドラゴンスカルのトロフィー
+		Tooltip: ""
+	}
+
+	ForecastersRod: {
+		DisplayName: 予報士のロッド
+		Tooltip: 騎乗（アングリーニンバス）を召喚する
+	}
+
+	HeartOfGuardian: {
+		DisplayName: 守護者の石
+		Tooltip: 復活時にライフを全回復する
+	}
+
+	InsurgentMask: {
+		DisplayName: インサージェントのマスク
+		Tooltip: ""
+	}
+
+	InsurgentMaskAlt: {
+		DisplayName: 歪んだインサージェントのマスク
+		Tooltip: ""
+	}
+
+	MenaceMask: {
+		DisplayName: メナスのマスク
+		Tooltip: ""
+	}
+
+	MirageMask: {
+		DisplayName: ミラージュの帽子
+		Tooltip: ""
+	}
+
+	OlympicTorch: {
+		DisplayName: 聖火
+		Tooltip:
+			'''
+			アンチェインドを召喚する
+			全盛期のセスを打ち倒し、究極の財宝を手に入れよう
+			夜間のみ使用可能
+			'''
+	}
+
+	OneShotMask: {
+		DisplayName: フロストバイトの帽子
+		Tooltip: ""
+	}
+
+	ParaffinMask: {
+		DisplayName: 蝋燭の帽子
+		Tooltip: ""
+	}
+
+	ParaffinsBox: {
+		DisplayName: 厄介な器
+		Tooltip:
+			'''
+			封印され、固く閉ざされている
+			「愛情を与えてあげよう」
+			'''
+	}
+
+	SethMask: {
+		DisplayName: 黒曜石のドラゴンスカル
+		Tooltip: ""
+	}
+
+	ShadowLocket: {
+		DisplayName: 不審な発信機
+		Tooltip:
+			'''
+			未知なる場所へ信号を送る
+			夜間のみ使用可能
+			'''
+		SellTipCrimson: おそらく、真紅の闇で誰かが売ってくれるだろう...
+		SellTipCorruption: おそらく、不浄の闇で誰かが売ってくれるだろう...
+	}
+
+	SinisterCandle: {
+		DisplayName: 不吉な蝋燭
+		Tooltip:
+			'''
+			パラフィンを召喚する
+			地底世界でのみ使用可能
+			'''
+	}
+
+	SnowBeacon: {
+		DisplayName: 雪原のビーコン
+		Tooltip:
+			'''
+			ワン・ショットを召喚する
+			漂着船でのみ使用可能
+			'''
+	}
+
+	TheSpiritMask: {
+		DisplayName: スピリットのフード
+		Tooltip: ""
+	}
+
+	TrustedKey: {
+		DisplayName: 信頼の鍵
+		Tooltip:
+			'''
+			インサージェントを召喚する
+			夜間のみ使用可能
+			'''
+	}
+
+	ArmorPolishKit: {
+		DisplayName: 防具研磨キット
+		Tooltip: アイテムを手に持った状態で防具を右クリックすることで、ランダムなモディファイアを付与
+	}
+
+	CrabHeart: {
+		DisplayName: クラブハート
+		Tooltip: ""
+	}
+
+	MoltenRing: {
+		DisplayName: 溶炎の指輪
+		Tooltip:
+			'''
+			5分間、自身の周囲に炎の輪を作り出す
+			冷えた後は溶岩の近くで再び力を蓄えられる
+			'''
+	}
+
+	MoltenRingCooled: {
+		DisplayName: 冷えた指輪
+		Tooltip: 溶岩の近くで力を充填する
+	}
+
+	BlackTome: {
+		DisplayName: 漆黒の魔導書
+		Tooltip: インクデビルを召喚する
+	}
+
+	BluePhylactery: {
+		DisplayName: 蒼の護符
+		Tooltip: まれにマナスターを運んでくる青い精霊を召喚する
+	}
+
+	EnchantedHorn: {
+		DisplayName: 魔法の角笛
+		Tooltip: 発光する発光クラゲを召喚する
+	}
+
+	LifeStone: {
+		DisplayName: ライフストーン
+		Tooltip: スノーエルフを召喚する
+	}
+
+	OcculticCellPhone: {
+		DisplayName: オカルト携帯電話
+		Tooltip: ピクシーを召喚する
+	}
+
+	PhosphorousLamp: {
+		DisplayName: 奇妙な電球
+		Tooltip: 発光する小さなストレンジャーを召喚する
+	}
+
+	PinkPhylactery: {
+		DisplayName: 桃の護符
+		Tooltip: まれにハートを運んでくるピンク色の精霊を召喚する
+	}
+
+	Timeskip: {
+		DisplayName: タイムスキップ
+		Tooltip: ""
+	}
+
+	TinyTinyCrystalHeart: {
+		DisplayName: 小さな小さなクリスタルハート
+		Tooltip:
+			'''
+			仲間コレクターの最大ライフを永久に30増加
+			「かすかに脈打っている」
+			'''
+	}
+
+	WhoopieCushionRequiem: {
+		DisplayName: ブーブークッション・レクイエム
+		Tooltip: 「終焉は近い...」
+	}
+
+	FullColor: {
+		DisplayName: フルカラー
+		Tooltip: 「七色の力を堪能しろ！」
+	}
+
+	ManaStaff: {
+		DisplayName: 涙のセプター
+		Tooltip: 「俺を引き裂く気か！」
+	}
+
+	Solaris: {
+		DisplayName: ソラリス
+		Tooltip: 「ちょっと星から熱を借りてくるだけさ」
+	}
+
+	WoodenScepter: {
+		DisplayName: ウッドセプター
+		Tooltip:
+			'''
+			魔法のオーブを放つ
+			<right>で螺旋状の魔法攻撃
+			'''
+	}
+
+	ArcticOscillation: {
+		DisplayName: 北極振動
+		Tooltip: 広範囲を覆う鋭い雪片を放つ
+	}
+
+	BurnMyDread: {
+		DisplayName: バーン・マイ・ドレッド
+		Tooltip: 燃え盛るブーメラン！説明はそれで十分だろう！
+	}
+
+	CeremonialKnife: {
+		DisplayName: 儀式用ナイフ
+		Tooltip: 敵撃破時に追尾する短剣を放つ
+	}
+
+	DeliciousSaturn: {
+		DisplayName: 飽食のサターン
+		Tooltip:
+			'''
+			攻撃時に刃の旋風を発生させる
+			刃1本につき防御力が増加
+			'''
+	}
+
+	DemonBloodSword: {
+		DisplayName: 魔血の剣
+		Tooltip:
+			'''
+			敵を斬りつけて力を吸収する
+			<right>で蓄えた力を解放
+			'''
+	}
+
+	Dragun: {
+		DisplayName: ドラガン
+		Tooltip:
+			'''
+			50%の確率で炸裂弾を発射
+			夜間は通常弾の代わりにメテオ弾を発射する
+			「Made in Gungeon」
+			'''
+	}
+
+	Flamaxe: {
+		DisplayName: フレイムアックス
+		Tooltip: "[c/ffff00:<right>]で投げた斧を爆発させる"
+	}
+
+	FlareBlade: {
+		DisplayName: バイパーフィッシュ
+		Tooltip: 閃光を放ち、追尾する破片へと分裂する
+	}
+
+	ForestEcho: {
+		DisplayName: 森のこだま
+		Tooltip: ""
+	}
+
+	FrigidRapier: {
+		DisplayName: 極寒のレイピア
+		Tooltip: 敵を貫通する氷のビームを放つ
+	}
+
+	Glasserang: {
+		DisplayName: ガラスラン
+		Tooltip:
+			'''
+			戻ってくる途中で砕け散る
+			「いまいち信用できない」
+			'''
+	}
+
+	GoldenSickle: {
+		DisplayName: 黄金の鎌
+		Tooltip: 手元へ戻る際にダメージが倍増する
+	}
+
+	AntarcticOscillation: {
+		DisplayName: 南極振動
+		Tooltip: 巨大な氷河ビームを放つ
+	}
+
+	BonePlague: {
+		DisplayName: ボーンプレイグ
+		Tooltip: 敵に命中した際に骨を放つ
+	}
+
+	CactusClaymore: {
+		DisplayName: サボテンのクレイモア
+		Tooltip: 一定確率で敵を毒状態にする
+	}
+
+	DragonFish: {
+		DisplayName: ドラゴンフィッシュ
+		Tooltip: ""
+	}
+
+	GoldClaymore: {
+		DisplayName: 黄金のクレイモア
+		Tooltip: 3回攻撃するごとに重武器の攻撃速度が上昇する
+	}
+
+	Laserbrand: {
+		DisplayName: レーザーブランド
+		Tooltip: 複数回ダメージを与える
+	}
+
+	Leviathan: {
+		DisplayName: リヴァイアサン
+		Tooltip:
+			'''
+			敵に攻撃を当てると重武器の攻撃速度が上昇する
+			所持中は移動速度が上昇
+			'''
+	}
+
+	MementoMori: {
+		DisplayName: メメント・モリ
+		Tooltip:
+			'''
+			<right>で200のライフを[fx/eb:エーテルの絆]へ変換する
+			次の数回の攻撃を大幅に強化するが、無防備な状態になる
+			'''
+
+		Chains: {
+			DisplayName: 分岐の鎖
+			Tooltip: "[fx/eb:エーテルの絆]が有効な間、敵への攻撃時に別のランダムな敵へ鎖が伸び、エーテルダメージを与える。鎖が命中するたびに絆の値を10消費し、尽きると効果が解除されてライフが回復する。"
+		}
+	}
+
+	Moondial: {
+		DisplayName: ムーンダイアル
+		Tooltip: 夜間に月の光線を放つ
+	}
+
+	PlatinumClaymore: {
+		DisplayName: プラチナのクレイモア
+		Tooltip: 3回攻撃するごとに重武器の攻撃速度が上昇する
+	}
+
+	Schwarzwelt: {
+		DisplayName: シュヴァルツヴェルト
+		Tooltip: 攻撃時に血の短剣を一斉に放つ
+	}
+
+	Scourge: {
+		DisplayName: 災厄
+		Tooltip:
+			'''
+			十分な力を蓄えている場合、敵への攻撃時にライフを回復する
+			力は時間経過で回復し、最大ライフ時に敵を攻撃しても回復する
+			'''
+	}
+
+	Zweihander: {
+		DisplayName: ツヴァイヘンダー
+		Tooltip: 右クリックで溜め攻撃
+	}
+
+	Hermes: {
+		DisplayName: ヘルメス
+		Tooltip: "[c/90ee90:<right>]でダッシュ"
+	}
+
+	KingsBounty: {
+		DisplayName: キングス・バウンティ
+		Tooltip: 接触時にダメージを与えるオーラを発生させる
+	}
+
+	MagnetYoyo: {
+		DisplayName: コラプス
+		Tooltip: 敵とアイテムを引き寄せる
+	}
+
+	SkullAxe: {
+		DisplayName: 呪骸の戦斧
+		Tooltip: 敵に攻撃時、ともに戦う呪われた骸骨を召喚する
+	}
+
+	StarlightBreaker: {
+		DisplayName: スターライトブレイカー
+		Tooltip:
+			'''
+			敵に攻撃時、星を生み出す
+			星の威力は近接・召喚ダメージに応じて強化される
+			<right>で強力なレーザーを放つ
+			「星よ、集え。そしてすべてを貫く光となれ！」
+			'''
+	}
+
+	Stella: {
+		DisplayName: ステラ
+		Tooltip: ""
+	}
+
+	StellaFortuna: {
+		DisplayName: 星運のステラ
+		Tooltip: 移動時に星を放つ
+	}
+
+	Troglodyte: {
+		DisplayName: トログロダイト
+		Tooltip:
+			'''
+			<right>で投げる
+			「チャットに氷穴の住人がいるぞ」
+			'''
+	}
+
+	Warfare: {
+		DisplayName: ウォーフェア
+		Tooltip: 敵に命中すると共に戦う骸骨を召喚する
+	}
+
+	Zephyr: {
+		DisplayName: ゼファー
+		Tooltip:
+			'''
+			ダッシュ直後の攻撃を大幅に強化する
+			[c/9370db:<right>]でダッシュ
+			'''
+	}
+
+	ZirconSpear: {
+		DisplayName: ディスハーモニー
+		Tooltip: 本体の槍を模した複数の幻影を生み出す
+	}
+
+	DragonslayerArrow: {
+		DisplayName: 漆黒矢
+		Tooltip: 敵へ当たると同じ矢をもう1本作り出す
+	}
+
+	LavaCream: {
+		DisplayName: 溶岩クリーム
+		Tooltip: ""
+	}
+
+	PiercingBullet: {
+		DisplayName: 貫通弾
+		Tooltip: 薄い壁を貫通する
+	}
+
+	TracingArrow: {
+		DisplayName: 追尾の矢
+		Tooltip: ""
+	}
+
+	BadForecast: {
+		DisplayName: バッドフォーキャスト
+		Tooltip: 稲妻の矢を放ち、敵に当たるとアングリーニンバスを召喚する
+	}
+
+	BalloonGland: {
+		DisplayName: バルーングランド
+		Tooltip: 弾薬としてジェルを使用する
+	}
+
+	Dazzler: {
+		DisplayName: ダズラー
+		Tooltip: ""
+	}
+
+	Enforcer: {
+		DisplayName: エンフォーサー
+		Tooltip: 50%の確率で弾薬を消費しない
+	}
+
+	FireBlaster: {
+		DisplayName: ラーヴァブラスター
+		Tooltip:
+			'''
+			「命中精度は期待するな」
+			弾薬として溶岩クリームを使用する
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	FireSalts: {
+		DisplayName: 火炎塩
+		Tooltip: 「入浴剤とは絶対に間違えないこと」
+	}
+
+	Gizmo: {
+		DisplayName: ギズモ
+		Tooltip: ""
+	}
+
+	GoldenBomb: {
+		DisplayName: 黄金の爆弾
+		Tooltip: 大きな十字爆発を起こす
+	}
+
+	GoldenDynamite: {
+		DisplayName: 黄金のダイナマイト
+		Tooltip: 巨大な十字爆発を発生させる
+	}
+
+	HailBow: {
+		DisplayName: ヘイルボウ
+		Tooltip: まれにつららと共に爆発する矢を放つ
+	}
+
+	Heartmelter: {
+		DisplayName: ハートメルター
+		Tooltip:
+			'''
+			弾薬としてジェルを使用する
+			「復讐の炎でも...マシュマロひとつ溶かせなかった」
+			'''
+	}
+
+	Klobbe: {
+		DisplayName: クロッベ
+		Tooltip: 25%の確率で弾薬を消費しない
+	}
+
+	LastSurprise: {
+		DisplayName: ラストサプライズ
+		Tooltip: ""
+	}
+
+	Macro: {
+		DisplayName: マクロ
+		Tooltip:
+			'''
+			矢の速度がランダムに変化する
+			<right>でブーメランのように弓を投げる
+			'''
+	}
+
+	MagicBow: {
+		DisplayName: エンチャントボウ
+		Tooltip: どこからともなく矢を召喚する
+	}
+
+	MagicElementBow: {
+		DisplayName: ジェムスパーク・スプラッシュ
+		Tooltip: ""
+	}
+
+	MagmaFang: {
+		DisplayName: マグマファング
+		Tooltip: 放った矢を灼熱の炎で包み込む
+	}
+
+	Messenger: {
+		DisplayName: メッセンジャー
+		Tooltip:
+			'''
+			<right>でマーキングアローを発射
+			マーキングされた敵は全てのダメージが増加する
+			'''
+	}
+
+	MiniMusketon: {
+		DisplayName: マスケトロン
+		Tooltip:
+			'''
+			「何でも撃てる」
+			左クリック長押しで強力な一撃を放つ
+			'''
+	}
+
+	Monsoon: {
+		DisplayName: モンスーン
+		Tooltip:
+			'''
+			ロケットの嵐を放つ
+			「生存者の気配はない」
+			'''
+	}
+
+	Musketon: {
+		DisplayName: マスケトロン・プライム
+		Tooltip:
+			'''
+			「何でも撃てる、しかも2倍だ！」
+			左クリック長押しで強力な一撃を放つ
+			'''
+	}
+
+	Overflow: {
+		DisplayName: オーバーフロー
+		Tooltip: 驚異的な速度でテクトニックの矢を放つ
+	}
+
+	Overgrowth: {
+		DisplayName: オーバーグロウス
+		Tooltip: <right>で近くの敵を絡め取る花を放つ
+	}
+
+	Ragnarok: {
+		DisplayName: ラグナロク
+		Tooltip:
+			'''
+			矢に太陽の炎を宿し、命中時に敵を爆発させる
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	ReflexBow: {
+		DisplayName: リフレックスボウ
+		Tooltip: ""
+	}
+
+	SnowFlakE: {
+		DisplayName:  スノーフレークE
+		Tooltip: 「冬来たりなば」
+	}
+
+	Starbreaker: {
+		DisplayName: スターブレイカー
+		Tooltip: 流れ星を撃つ
+	}
+
+	Starstorm: {
+		DisplayName: スターストーム
+		Tooltip:
+			'''
+			嵐のような流星を浴びせる
+			50%の確率で流れ星を消費しない
+			'''
+	}
+
+	Switcher: {
+		DisplayName: スイッチャー
+		Tooltip: 3発ごとにミサイルを発射する
+	}
+
+	TheCrescent: {
+		DisplayName: クレセント
+		Tooltip: 貫通する矢を放ち、命中時にエネルギー弾を放つ
+	}
+
+	Trifesta: {
+		DisplayName: トライフェスタ
+		Tooltip:
+			'''
+			50%の確率で弾薬を消費しない
+			発射までに時間がかかる
+			'''
+	}
+
+	Trigger: {
+		DisplayName: トリガー
+		Tooltip:
+			'''
+			手に持っている間、移動速度が上昇する
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	VulcanChaingun: {
+		DisplayName: バルカンチェインガン
+		Tooltip:
+			'''
+			弾薬として溶岩クリームを使用する
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	Walter: {
+		DisplayName: ウォルター
+		Tooltip:
+			'''
+			チャージして強力な弾を放つ
+			「それは宇宙の彼方からやって来た...」
+			'''
+	}
+
+	WeatherRocket: {
+		DisplayName: ウェザーロケット
+		Tooltip: <right>で目の前の弾を跳ね返す
+	}
+
+	AdvancedTurretStaff: {
+		DisplayName: 高性能タレットスタッフ
+		Tooltip:
+			'''
+			戦闘用の科学タレットセントリーを召喚する
+			タグダメージボーナスは25%しか適用されない
+			「弾丸1発あたり65%多くの弾丸を発射！」
+			'''
+	}
+
+	ExtraterrestrialRod: {
+		DisplayName: エクストラテレストリアルロッド
+		Tooltip: 強力なレーザーを放つ月面円盤セントリーを召喚する
+	}
+
+	FireflyStaff: {
+		DisplayName: ホタルの杖
+		Tooltip: 共に戦うホタルを召喚する
+	}
+
+	GrandKeyRod: {
+		DisplayName: 鍵のロッド
+		Tooltip: 共に戦うミミ・ザ・ミミックを召喚する
+	}
+
+	IceFairyStaff: {
+		DisplayName: 氷妖精の杖
+		Tooltip: 共に戦う氷の妖精を召喚する
+	}
+
+	NuclearFairyStaff: {
+		DisplayName: 核妖精の杖
+		Tooltip: 共に戦う核の妖精を召喚する
+	}
+
+	OCStaff: {
+		DisplayName: （自称）王族の杖
+		Tooltip: 共に戦う旅する王女を召喚する
+	}
+
+	RazorfrostStaff: {
+		DisplayName: レイザーフレークスタッフ
+		Tooltip:
+			'''
+			共に戦うレイザーフレークを2体召喚する
+			タグダメージボーナスは50%しか適用されない
+			'''
+	}
+
+	StellarStaff: {
+		DisplayName: 星明かりの杖
+		Tooltip: 共に戦う星々の星座を召喚
+	}
+
+	SupernaturalStaff: {
+		DisplayName: スーパーナチュラルスタッフ
+		Tooltip: 共に戦う恐ろしいゴーストを召喚する
+	}
+
+	TurretStaff: {
+		DisplayName: タレットスタッフ
+		Tooltip:
+			'''
+			共に戦うタレットセントリーを召喚する
+			タグダメージボーナスは25%しか適用されない
+			「ここにディスペンサーを設置だ！」
+			'''
+	}
+
+	VampireFairyStaff: {
+		DisplayName: スカーレットスタッフ
+		Tooltip:
+			'''
+			血に飢えた吸血鬼を召喚してあらゆるものを破壊させる
+			Shiftを押しながら下方向を2回入力すると真の吸血鬼の怒りを解放する...
+			激怒中は攻撃時にライフを回復する
+			'''
+	}
+
+	VulcanianStaff: {
+		DisplayName: ヴァルカニアンスタッフ
+		Tooltip: 共に戦う溶岩のハンマーを召喚する
+	}
+
+	CinnabarPillar: {
+		DisplayName: 辰砂の柱
+		Tooltip: ""
+	}
+
+	IronSledgehammer: {
+		DisplayName: 鉄のスレッジハンマー
+		Tooltip: 「俺を君の大槌にしてくれ」
+	}
+
+	LeadSledgehammer: {
+		DisplayName: 鉛のスレッジハンマー
+		Tooltip: 「俺を君の大槌にしてくれ」
+	}
+
+	Deflector: {
+		DisplayName: ディフレクター
+		Tooltip: 「今日は遠慮しておこう」
+	}
+
+	NightsBane: {
+		DisplayName: ナイトベイン
+		Tooltip: 3撃ごとに強力な一撃を放つ
+	}
+
+	ZirconHelmet: {
+		DisplayName: ジルコンの兜
+		Tooltip: ""
+	}
+
+	BlueCrabHeart: {
+		DisplayName: ブルークラブハート
+		Tooltip: ""
+	}
+
+	MusketronPrime: {
+		DisplayName: マスケトロン・プライム
+		Tooltip: ""
+	}
+
+	TheEnforcer: {
+		DisplayName: エンフォーサー
+		Tooltip: ""
+	}
+
+	BountifulCauldron: {
+		DisplayName: 豊穣の大釜
+		Tooltip:
+			'''
+			近くのプレイヤーへポーション効果を付与する
+			同時に効果を発揮できる大釜は1つのみ
+			効果範囲: 中
+			「新技術だ！」
+			'''
+		Toggle: クリックで有効化/無効化
+		QuickBuff: 右クリックですべてのポーションを適用
+		AddBuff: ダブルクリックでインベントリから追加
+		Inventory: インベントリ
+		Clear: 右クリックで効果をクリア
+		NearbyWarning: 同時に効果を発揮できる大釜は1つのみ
+		NearbyError:
+			'''
+			[c/FF0000:このエリアにはすでに有効な大釜が存在します！]
+			[c/FF0000:バフを受けるには無効化するか破壊してください。]
+			'''
+	}
+
+	EtherealCauldron: {
+		DisplayName: エーテルの大釜
+		Tooltip:
+			'''
+			近くのプレイヤーへポーション効果を付与する
+			同時に効果を発揮できる大釜は1つのみ
+			停止中はバフの消耗速度が低下する
+			バフ持続時間が25%増加
+			効果範囲: 中
+			'''
+	}
+
+	MoltenCauldron: {
+		DisplayName: 溶融の大釜
+		Tooltip:
+			'''
+			近くのプレイヤーへポーション効果を付与する
+			同時に効果を発揮できる大釜は1つのみ
+			停止中はバフが消耗しない
+			大量のポーションを追加すると消耗速度が低下する
+			バフ持続時間が50%増加
+			効果範囲: 大
+			'''
+	}
+
+	MagicCauldron: {
+		DisplayName: 魔法の大釜
+		Tooltip:
+			'''
+			近くのプレイヤーへポーション効果を付与する
+			停止するとポーション消耗を完全に防げる
+			大量のポーションを追加すると消耗速度が低下する
+			バフ持続時間が50%増加
+			効果範囲: 無限
+			'''
+	}
+
+	StarburstStaff: {
+		DisplayName: スターバーストスタッフ
+		Tooltip: 証人になってくれる宇宙クラゲを召喚する！
+	}
+
+	ExplodingBarrel: {
+		DisplayName: 爆発樽
+		Tooltip:
+			'''
+			火炎塩で点火可能
+			「本日は住宅取り壊し抽選会です！」
+			'''
+	}
+
+	InsidiousRemote: {
+		DisplayName: 邪悪なリモコン
+		Tooltip:
+			'''
+			ペットへショックセラピーを無料体験させる
+			「上下関係を教えてやれ！」
+			「...本気か？君は最低だな」
+			「いや、世界を越えて最低だ」
+			'''
+	}
+
+	FrostyGlove: {
+		DisplayName: フロスティグローブ
+		Tooltip:
+			'''
+			魔法の雪玉を降らせて敵を攻撃する
+			最大マナ時に強化される
+			'''
+	}
+
+	OverloadingCrystal: {
+		DisplayName: オーバーロードクリスタル
+		Tooltip: "[fx/mof:マナオーバーフロー]ボーナスを永久に高める"
+	}
+
+	BigGaboonga: {
+		DisplayName: ビッグ・ガブーンガ
+		Tooltip:
+			'''
+			マスケット弾を「ガブーンレット」に変換する
+			「ガブーンレット」を10発撃つごとに敵を蹂躙する「ガブーンガブラスト」を発射する
+			ミニシャークより威力が低い
+			'''
+	}
+
+	MemorySoapBar: {
+		DisplayName: 記憶の石鹸
+		Tooltip:
+			'''
+			一部NPCの記憶をリセットする
+			一回限りの会話イベントをもう一度楽しめる
+			「残念なことに、記憶泡は生成されない...」
+			'''
+	}
+}
+
+NPCs: {
+	FootballZombie.DisplayName: フットボールゾンビ
+	Moonwalker.DisplayName: ムーンウォーカー
+	RebelliousWisp.DisplayName: レベリアスウィスプ
+	FreeSoul.DisplayName: フリーソウル
+	FunkySoul.DisplayName: ファンキーソウル
+	Husk.DisplayName: ハスク
+	ShadowCaster.DisplayName: シャドウキャスター
+	SpikedLavaSlime.DisplayName: スパイクラーヴァスライム
+
+	Astrologist: {
+		DisplayName: 占星学者
+
+		TownNPCMood: {
+			Content: 他の連中はどうだか知らないけど、私は特に文句ないわ。
+			NoHome: ねえ、私の家はまだかしら...あなたが用意するのよ？
+			FarFromHome: 誰かさんは野宿が好きみたいだけど、私は遠慮しておくわ。せめて自分専用の木造の家くらい欲しいもの。
+			LoveSpace: こんな広々とした場所なんて久しぶり...いえ、違うわね。私の人生でこんな贅沢な空間は初めてだわ！
+			DislikeCrowded: この人だかり、どうにかならないかしら。少しは落ち着いて過ごしたいものね。
+			HateCrowded: 狭苦しくて息が詰まりそうだわ。まるでネクサスに逆戻りじゃない。
+			LoveBiome: 私は {BiomeName} が気に入っているわ。こんなに美しい空、他ではなかなか見られないもの。
+			LikeBiome: "{BiomeName}かしら。目を引く魔法使いは見当たらないけれど、まあ居心地は悪くないわね。"
+			DislikeBiome: "{BiomeName}は私の趣味じゃないわね。雪と星の区別まで曖昧になりそうだもの。"
+			HateBiome: "{BiomeName}？！冗談じゃないわ、私は絶対に行かないから！"
+			LoveNPC: "{NPCName}...あの人は違うわ。なんというか、ただ者じゃない雰囲気があるわ。"
+			LikeNPC: 私は {NPCName} が気に入っているわ。やっぱり年長者には魅力があるものね！
+			DislikeNPC: "{NPCName}は少し癇に障るのよね。"
+			HateNPC: "{NPCName}は歩くネクサスそのものよ。私があそこで嫌っていたものを全部思い出させるわ。"
+			LikeNPC_Princess: "{NPCName}？ふふ、あの子ったら本当に愛らしいじゃない。"
+			Princess_LovesNPC: "{NPCName}――あの子は別格だわ！"
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	AstrologistBad: {
+		DisplayName: 不気味な人物
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	Collector: {
+		DisplayName: コレクター
+
+		TownNPCMood: {
+			Content: 悪くないじゃないか！なかなかやるね！
+			NoHome: えぇ～、まさか芝生で寝ろって？勘弁してくれよ、この腰が泣いちまう！
+			FarFromHome: えーっと、あとどれくらい歩けばいいんだい？こう、宇宙タクシーみたいなの呼べないのか？
+			LoveSpace: ああいう何にもない場所って好きなんだよなぁ。静かで気楽じゃないか！
+			DislikeCrowded: 人が多すぎるよ！しかも誰も俺の言うこと聞いてくれないんだからなぁ！
+			HateCrowded: まったく、みんなして俺をからかうんだぜ？まったく、ひどいもんだよ！
+			LoveBiome: あぁ、{BiomeName}は落ち着くなぁ！まるで我が家に帰ってきたみたいだよ！
+			LikeBiome: まあまあ、{BiomeName}も案外悪くないじゃないか！
+			DislikeBiome: うっ、{BiomeName}は勘弁してくれよ～。あそこ、なんだか臭うんだよ。
+			HateBiome: "{BiomeName}！？悪いけど、俺は今すぐ逃げるぞ！"
+			LoveNPC: "{NPCName}は最高だよ！クリスマスが苦手ってところまで気が合うんだからな！"
+			LikeNPC: "{NPCName}かい？いい奴だよ！しかも懐具合もいいんだ！"
+			DislikeNPC: 俺は前から言ってるんだ！草なんてなければ世界はもっと良くなるってね！それに{NPCName}だって絶対そう思ってるはずさ！
+			HateNPC: いやいや、{NPCName}は分かっちゃいないね！Terrariaについてなら、この俺の右に出る者はいないっての！
+			LikeNPC_Princess: ははっ...{NPCName}って、本気で自分がみんなより偉いと思ってるのかい？
+			Princess_LovesNPC: あー、{NPCName}か。悪いけど、今はちょっと勘弁してくれよ。
+		}
+
+		Census.SpawnCondition: 条件不明
+		RecipeBrowser.ExchangeTip: ゲノシと交換する
+	}
+
+	CollectorTeleport.DisplayName: ゲノシ
+
+	Commando: {
+		DisplayName: コマンドー
+
+		Names: {
+			0: ウー
+			1: グレイ
+			2: フォード
+			3: ザフォド
+			4: ダグラス
+			5: マーヴィン
+			6: スラーティバートファスト
+		}
+
+		TownNPCMood: {
+			Content: 長期間ノ経過ヲ確認。結論ヲ報告スル...現在ノ状態ハ良好ダ。
+			NoHome: 現状ハ最適トハ言エナイ。シカシ、居住施設ノ確保ヲ希望スル権利ハアルハズダ。
+			FarFromHome: 異常ヲ検知。再度迷子ニナッテイナイコトヲ願ウ。
+			LoveSpace: 当地域ノ空間ハ極メテ広大ダ。広大過ギテ不審ナレベルデアル...
+			DislikeCrowded: 当地域ノ人口密度ハ以前カラコノ水準ダッタノカ？ソレトモ私ノ認識違イカ？
+			HateCrowded: 空気消費速度ガ異常値ダ。宇宙服デモ防護ハ困難ト予測スル...
+			LoveBiome: 私ハ {BiomeName} ヲ愛好スル。降雪ハ恒星群ノ記憶ヲ想起サセル。
+			LikeBiome: 私ハ {BiomeName} ヲ好ム。火星環境ト高イ類似性ヲ確認。
+			DislikeBiome: "{BiomeName}...当区域ハ異常性ガ高スギル。私デスラ違和感ヲ覚エル。"
+			HateBiome: "{BiomeName}ハ危険ダ。再ビ監視ドローンノ存在ガ示唆サレル..."
+			LoveNPC: "{NPCName}ハ私ヲ最モ理解スル存在ダ...彼モ私ト同様ノ裏切リ者ダカラナ！"
+			LikeNPC: "{NPCName}ハ『人間ラシクナイ存在』トノ意思疎通ニ長ケテイル。"
+			DislikeNPC: 特定個体ヘノ嫌悪感ハ希薄ダ。シカシ、全員ガ {NPCName} ヲ否定スルナラ、私モ同調スル。
+			HateNPC: サンタヘ伝達ヲ依頼スル。私ハクリスマス強奪ヲ計画シテイナイ！ソレハ任務内容ニ含マレテイナイ！
+			LikeNPC_Princess: "{NPCName} ハ全生命体ノ幸福ヲ肯定スル。私ノヨウナ異星生命体デサエモダ！"
+			Princess_LovesNPC: "{NPCName} ハ長期間不足シテイタ友好個体ダ！"
+		}
+
+		Start: 謝罪スル...。君タチノ世界ニハ善良ナ個体ガ多数存在スル。集会、祝祭、娯楽活動...ソシテ常ニ陽気デ、少々無防備ナ程ダ。私ノ母星デハ、ソノヨウナ平穏ナ生活ハ空想ノ産物ニ過ギナカッタ。私ハ君タチノ大家族ノ一員ニナリタカッタダケナノダ。
+		BloodMoon: 外部環境ハ危険ダ...。人類ガ脳ヲ摂取スル習慣ハ数世紀前ニハ廃レタモノト認識シテイタ。
+		Party: 飲料ノ提供提案ガ多過ギテ困惑スル。宇宙服ヲ解除シテ摂取シタ場合、酸素中毒ニヨリ死亡スル可能性ガ高イノダガ！
+
+		Talk: {
+			0: アロハ！人類ハコノ挨拶ヲ使用スルノダロウ？
+			1: オオ、到着ヲ確認シタ！何カ用件ガアルノカ？
+			2: ロボットガロボットヲ修復スル場合、整備士ト医師ノドチラニ分類スベキダロウカ...。オット、来訪ヲ確認！少々思考ニ没頭シテイタ。
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	Magician: {
+		DisplayName: マジシャン
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	MenaceNPC: {
+		DisplayName: メナス
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	MirageNPC: {
+		DisplayName: 謎の通信者
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	MirageNPC2: {
+		DisplayName: ミラージュ
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	Shutterbug: {
+		DisplayName: 写真狂
+
+		TownNPCMood: {
+			Content: うーん、まあまあかな！
+			NoHome: あたし専用のおうちがあったら最高なんだけどなー！
+			LoveSpace: こういう静かな場所、けっこう好きなんだよね！
+			FarFromHome: えー？これ、家には見えないんだけど！
+			DislikeCrowded: ねえ、こののんびり屋さんたちをさー、もっとずーっと遠くに連れてってくれない？
+			HateCrowded: 人多っ！ねえねえ、いったいいくつのコンテンツModを入れたの！？
+			LoveBiome: "{BiomeName}大好き！ここに住めばあたしのこともっと見かけるでしょ？そうすればクリップ撮るのも報酬も忘れなくて済むよね！"
+			LikeBiome: うん、{BiomeName}だね！間違いなく環境の一つだよ！
+			DislikeBiome: "{BiomeName}が苦手なのには、絶対ちゃんとした理由があるんだよ！...たぶん、まだ見つかってないだけで！"
+			HateBiome: うわっ、{BiomeName}かぁ...。それについて語り始めたら長くなるよ？
+			LikeNPC: "{NPCName}っていいよね！きっと政治の話も気が合うと思うんだ！"
+			DislikeNPC: 異世界から来た人たちの中でも、{NPCName}だけは本当に意味が分かんないんだよね！
+			HateNPC: それにさー、背の高い人ってなんか苦手なんだよね！ほんと、また{NPCName}に「おチビちゃん」なんて呼ばれたら消し去っちゃうんだから！
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	TwilightWalker: {
+		DisplayName: 黄昏の旅人
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	Vulcan: {
+		DisplayName: ヴァルカン
+		Start: ...あの忌々しいキャンドルを倒したのはあんたか。大したものだ。俺は鍛冶師ヴァルカンだ。防具を打ち直したくなったら来るといい。
+		Cup: ...それを、どこで見つけた。いいから戻せ。それは面倒事しか招かない。
+		PoorUnfortunateSoul: 
+			'''
+			...ああ、それか。
+			覚えている。
+			あれは道具を介して扱う記憶媒体だ。生きた保管庫と言った方が近いかもしれんな。
+			脳を分割し、必要な記憶だけを残して不要なものを切り捨てる。
+			昔の貴族は、退屈な会議中に居眠りしながら情報を頭に入れるために使っていた。
+			心配はいらん。物自体は危険じゃない。
+			...問題があるとすれば持ち主の方だ。
+			'''
+		Nickname: 同じ名前か。...悪くない、覚える手間が省ける。
+
+		Buttons: {
+			Reforge: 鍛え直す
+			Lore: 伝承
+		}
+
+		Chat: {
+			1: 来たか。...誰にも見られていないな？なにか鍛え直したいものがあるか？
+			2: 気に病むな。問題は遠くにあって、お前はここにいる。ほら見てみろ、俺はこんなに落ち着いている。だから大丈夫だ。...見つからなければ、な。
+			3: 嫌われても構わん。人を貶すのは、自分より下だと思う相手だけだ。本当に優れた者は...何も言わない。
+			4: いや、俺はここにいる方がいい。巨大な化け物の髑髏になる気分じゃない。
+			5: 昔はもっと良い仕事ができた。...あの呪われたキャンドルのせいだ。あいつも、いつか報いを受けるだろう。
+			6: 防具を打ち直したいなら、俺のところへ来い。
+			7: 
+				'''
+				人によって体格に大きな差があることに気付いたか。
+				...別に趣味が悪いわけじゃない。少なくとも大半はな。
+				砂の民は生まれた時、大きく形も定まっていない。
+				だが年を取るにつれ、経験と傷を積み重ねながら身体は引き締まっていく。
+				だから痩せたい連中が運動ではなく、お涙頂戴の芝居を見たがるのも理屈の上では説明がつく。
+				...まったく、妙な話だ。
+				'''
+		}
+
+		LoreStart: 
+			'''
+			...また会ったな。
+			どうやら、あいつの騒動には終止符が打たれたらしい。
+			あの器も、もう厄介事を招くことはないだろう。
+
+			なら話そう。
+			俺の過去についてだ。
+
+			あまり愉快な話じゃない。
+			涙を拭くものくらいは用意しておけ。
+			'''
+
+		Lore: {
+			0: 
+				'''
+				...昔は違った。気楽で、悪くない人生だった。
+				だが、ある日すべてが狂った。
+
+				ネクサスから逃げ、地下深くの洞窟に隠れた。
+				武器を鍛えても、何かを作っても、それを見る者はいない。
+
+				そして俺は――最悪の思いつきをした。
+				'''
+			1: 
+				'''
+				蝋と灰で彫像を作った。
+				外へ出られないよう、この場所に縛り付けた。
+
+				そして、生きた炎を宿す杯で命を与えた。
+
+				完璧だと思った。
+				裏切らず、どんな計画にも付き合う友になるはずだった。
+				'''
+			2: 
+				'''
+				本でも映画でも、こういう話の結末は決まっている。
+
+				あいつは口うるさく、図々しく、騒がしく、どこにでも現れた。
+
+				しかも冥界に結び付けてしまったせいで、
+				俺は永遠にあいつから逃れられなくなった。
+				'''
+			3: 
+				'''
+				あいつを殺すことはできなかった。
+				意思に反して命を奪う気もなかった。
+
+				だが、遠ざける必要はあった。
+				だから骨と石を集め、もう一体の生きた彫像を作った。
+				狙いは単純だ。あのキャンドルの興味を別へ向けること。
+
+				だからそいつを強く作り、見栄えも良くし、
+				ついでに大げさな英雄譚まで用意してやった。
+				'''
+			4: 
+				'''
+				やっと静かになったと思った。
+				だが、今度は彼が来た。
+
+				疲れ果て、打ちのめされていた。
+
+				あれほど辛抱強い男ですら、あいつには耐え切れなかったらしい。
+
+				また彫像を作ろうとしたが...炎はもう残っていなかった。
+				'''
+			5: 
+				'''
+				その夜だった。
+
+				彼は床を突き破って現れ、胸から炎を引き抜いた。
+				まるで芝居の一幕だったな。
+				炎を杯へ戻し、鎖で縛り、固く封じた。
+				残ったのは石の残骸だけだ。
+
+				彼女は激怒したよ。あれほど怒る姿は見たことがない。
+				そして、その責任は俺に押し付けられた。
+				'''
+			6: 
+				'''
+				彼女は遺跡を荒らし、杯と巨大な檻、そして鍵を持って地下へ消えた。
+
+				何を考えていたのかは分からん。
+				誰かに取り入るため、自分が囚われていたように
+				見せたかったのかもしれない。
+
+				...まあいい。
+				また聞きたくなったら来るといい。
+				どうせ暇だからな。
+				'''
+		}
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	SheepNPC.DisplayName: ヒツジ
+	Breathtaker.DisplayName: ブレステイカー
+	Idler.DisplayName: アイドラー
+	Latopus.DisplayName: ラトポス
+	OverloaderBody.DisplayName: オーバーローダー
+	OverloaderHead.DisplayName: オーバーローダー
+	OverloaderTail.DisplayName: オーバーローダー
+	Savage.DisplayName: 狂戦士
+	TectonicMimic.DisplayName: テクトニックミミック
+	Toiler.DisplayName: トイラー
+	Unfairy.DisplayName: アンフェアリー
+	BoneSerpentBody.DisplayName: 姫様ボーンサーペント
+	BoneSerpentHead.DisplayName: 姫様ボーンサーペント
+	BoneSerpentTail.DisplayName: 姫様ボーンサーペント
+
+	CommandoBoss: {
+		DisplayName: コマンドー
+		Revealed: シマッタ...変装ガ！カンペキナ変装ガァ！
+	}
+
+	Insurgent: {
+		DisplayName: インサージェント
+		Summon: インサージェントが目覚めた！
+	}
+
+	InsurgentDefeated.DisplayName: インサージェント
+
+	Menace: {
+		DisplayName: メナス
+		DeathMessage: フン！このメナス様に災いなど訪れるものか！
+
+		Escape: {
+			1: <Menace> つ、次は覚悟なさい！弱虫め！
+			2: <Menace> 音を上げるにはまだ早いわぁ！
+		}
+	}
+
+	MenaceDefeated.DisplayName: メナス
+	MirageDefeated.DisplayName: ミラージュ
+	OneShotFall.DisplayName: ワン・ショット
+	OneShotIcePrison.DisplayName: 氷の監獄
+	OneShotSpawn.DisplayName:ワン・ショット
+
+	OneShot: {
+		DisplayName: ワン・ショット
+		Summon: ワン・ショットが目覚めた！
+		Defeat: ワン・ショットを倒した！
+	}
+
+	ParaffinDefeated.DisplayName: パラフィン
+
+	ParaffinStalker: {
+		DisplayName: パラフィン
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	SethDefeated.DisplayName: セス
+	SpiritOfCaptivity.DisplayName: 囚われの亡霊
+	TheSpiritAnchor.DisplayName: 発想のオーブ
+	TheSpiritDefeated.DisplayName: スピリット
+	UltimateSethDefeated.DisplayName: セス
+	CaveImp.DisplayName: ケイブインプ
+	Hobgoblin.DisplayName: ホブゴブリン
+	Sentinel.DisplayName: センチネル
+	Decaying.DisplayName: ディケイング
+	Stalker.DisplayName: ストーカー
+	Fortress.DisplayName: フォートレス
+	Magneto.DisplayName: マグネト
+	Echo.DisplayName: ウィスパラー
+	Fairyfly.DisplayName: 妖光虫
+	ShinyPixie.DisplayName: シャイニーピクシー
+	SkeletonJester.DisplayName: スケルトンジェスター
+	GreatToxicSludge.DisplayName: 肥大トキシックスラッジ
+	MudBrain.DisplayName: グロウハート
+	Sarracenia.DisplayName: サラセニア
+	GoldenDrone.DisplayName: ゴールドドローン
+	PurpleDrone.DisplayName: パープルドローン
+	Colossus.DisplayName: コロッサス
+	ColossusDeath.DisplayName: コロッサス
+	Darknut.DisplayName: 闇甲兵
+	Garghoul.DisplayName: ガーグール
+	Jumpkin.DisplayName: ジャンプキン
+	Knocker.DisplayName: ノッカー
+	MindFlayer.DisplayName: マインドフレイヤー
+	Threater.DisplayName: スリーター
+	Troll.DisplayName: トロール
+	TrollDeath.DisplayName: トロール
+	Crabcannon.DisplayName: キャノンガニ
+	GlassButterfly.DisplayName: 水晶蝶
+	FacelessPirate.DisplayName: フェイスレスパイレーツ
+	HauntedAnchor.DisplayName: ホーンテッドアンカー
+	HeadlessPirate.DisplayName: ヘッドレスパイレーツ
+	HeadlessPirateExplode.DisplayName: ヘッドレスパイレーツ
+	Muskeleton.DisplayName: マスケルトン
+	Thriller.DisplayName: スリラー
+	Witness.DisplayName: ウィットネス
+	Combuster.DisplayName: コンバスター
+	PossessedShadowArmor.DisplayName: 憑依したシャドウアーマー
+	PossessedFrostArmor.DisplayName: 憑依したフロストアーマー
+
+	TectonicCage: {
+		DisplayName: テクトニックケージ
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LoveBiome: 私は {BiomeName} を 愛している。
+			LikeBiome: 私は {BiomeName} が 好きだ。
+			DislikeBiome: 私は {BiomeName} が 嫌いだ。
+			HateBiome: 私は {BiomeName} が 大嫌いだ。
+			LoveNPC: 私は {NPCName} を 愛しているよ。
+			LikeNPC: 私は {NPCName} が 好きだ。
+			DislikeNPC: 私は {NPCName} が 嫌いだ。
+			HateNPC: 私は {NPCName} が 大嫌いだ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	ParaffinRejected.DisplayName: 拒絶されたパラフィン
+	ParaffinReleased.DisplayName: 解き放たれたパラフィン
+	TheSpiritSpawn.DisplayName: スピリットスポーン
+	FortressBall.DisplayName: フォートレスボール
+	LatopusGold.DisplayName: 黄金のラトパス
+
+	TheSpirit: {
+		DisplayName: スピリット
+
+		Dialogues: {
+			Call: 回線接続中...しばらくお待ちください...
+			Summon_1: スピリットが参戦した！
+			Summon_2: スピリットが出動した！
+			Downed: スピリットが倒された！
+			Treat_1: 悪党よ、観念せよ！今ここで正義の裁きを受けるのダ！
+			Treat_2: 
+				'''
+				あぁ！通信装置が壊れた！！！
+				これが最近どれだけ高いか知ってるのか！？
+				'''
+			Treat_3: 報告してやる！全部報告してやるからな！
+			Escape: <Spirit> それでは皆さん、おやすみなさい！
+		}
+
+		Confusion: スピリットは...混乱している？
+
+		DefeatDialogues: {
+			Start: 
+				'''
+				まさかこんなことになるなんて...
+				あれ？待って！君、もしかして宇宙海賊...ではない...？
+				いやまさかそんなバカな...あぁ～
+				もしかして...全部勘違いでした？
+				でも通信機は確かにここを指してたし...
+				まぁ肝心の通信機も今やスクラップだけど...
+				ともかく、これじゃあどうやって帰れっていうんだ...
+				'''
+			StartConfirm: ゴメンナサイ...
+
+			Talk: {
+				0: 炭素生命体がワタシと交流しようとしている。どう対応すれば？
+				1: 今チョット取り込み中で...
+				2: あぁ、気にしないで。何か良いアイディアが浮かぶのを待ってるんだ。
+				3: 妙な曲が聞こえる...なんだか不吉で、タイヘンなことが起こりそう。
+				4: 答えは山ほどあるのに、肝心の質問が足りナイ！
+			}
+		}
+	}
+
+	MirageOscarNPC: {
+		DisplayName: ミラージュ＆オスカー
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: 家を持っていないのが 嫌なんです。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 充分なスペースが あるのがいいね。
+			DislikeCrowded: 人混みが嫌いです。
+			HateCrowded: こんなに混んでいるのは 嫌だよ。
+			LikeNPC_Princess: 私は {NPCName} が 好きだ。
+			Princess_LovesNPC: 私は {NPCName} が 好きだ。
+		}
+	}
+
+	SpiritNPC.DisplayName: 多忙なスピリット
+	MenacingPerson.DisplayName: 不気味な人物
+
+	Paraffin: {
+		DisplayName: パラフィン
+
+		Rejected: {
+			1: えっ...うそでしょ！？あたしじゃダメだったの！？そんなのアリ！？
+			2: ありえないって！誰も！誰ひとり！このパラフィンを振るなんてできないんだからー！！
+		}
+
+		Defeat: {
+			1: パラフィンを倒した！
+			2: パラフィン、再び吹き飛ばされる！
+			3: アンダーワールド・ドメインは静けさを取り戻した...
+		}
+
+		Summon: {
+			1: パラフィンが目覚めた！
+			2: パラフィンの逆襲だ！
+		}
+
+		Unleashed: 古の邪悪が解き放たれた...
+	}
+
+	Seth: {
+		DisplayName: セス
+
+		HeatSnapDeath: {
+			1: セスは溶け去ってしまった...
+			2: セスは塵となった...
+			3: セスには資格がなかった...
+		}
+
+		Summon: {
+			1: セスが現れた！
+			2: 解き放たれし者が目覚めた！
+		}
+
+		Defeat: {
+			1: セスを倒した！
+			2: 解き放たれし者を倒した！
+		}
+
+		Approaching: 太陽嵐が近づいている...
+
+		Taunt: {
+			1: <Seth> 虫けらめ。
+			2: <Seth> ひれ伏せ、虫けら。
+			3: <Seth> 貴様など無に等しい。
+			4: <Seth> 下衆め。
+			5: <Seth> 我が足元で砕け散れ。
+			6: <Seth> 貴様の肉体は砕かれる。
+			7: <Seth> 今こそ恐怖する時だ。
+			8: <Seth> 弱者め。
+			9: <Seth> 悲鳴を上げろ、虫けら。
+			10: <Seth> 過ちだ。
+		}
+
+		Fail: {
+			1: 寺院の太陽はまだ昇っていない。焦るな。
+			2: 寺院の太陽はまだ昇っていない。その守護者を討て。
+			3: 寺院の太陽はまだ昇っていない。ゴーレムを倒さねばならない。
+			4: 寺院の太陽はまだ昇っていない。まだその時ではない。
+		}
+	}
+
+	NewMenace.DisplayName: NEWメナス
+
+	Mirage: {
+		DisplayName: ミラージュ
+
+		Summon: {
+			1: ミラージュが現れた！
+			2: その挑戦、受けて立とう...
+		}
+
+		Defeated: ミラージュを倒した！
+		Retreat: ミラージュは昼間の方が商売繁盛のようだ...
+	}
+
+	VulcanNPC.DisplayName: ヴァルカン
+
+	Angler: {
+		QuestFish: {
+			AuroraBorealis: オーロラが？この季節に？この時間帯に？...しかも、ボクの水槽の中だけで？もしそうなるなら、ぜひ叶えたいよね！世界で最も美しいナイトライトになるだろうからさ。
+			Blockfish: この船がどこから来たのかは知らないけど、そこから放たれるエネルギーのせいで周囲の生き物がみんな氷になってしまうんだ！そんな環境じゃ釣りなんて無理だから、君がいて助かるよ！礼なら出すから、ちゃんと釣ってきてくれよ！
+		}
+
+		FishLocation.StrandedShip: 漂着船で釣れる
+	}
+
+	TheSpiritFrend.DisplayName: スピリット
+}
+
+Prefixes: {
+	BarbedPrefix.DisplayName: 有刺の
+	BlessedPrefix.DisplayName: 祝福された
+	CrackedPrefix.DisplayName: ひび割れた
+	DamagedPrefix.DisplayName: 損傷した
+	ElusivePrefix.DisplayName: 捕らえがたい
+	EnchantedPrefix.DisplayName: 魔法の
+	FortifiedPrefix.DisplayName: 堅牢な
+	FrailPrefix.DisplayName: 脆弱な
+	LightweightPrefix.DisplayName: 軽量な
+	LitPrefix.DisplayName: 輝く
+	MarinePrefix.DisplayName: 海洋の
+	PhantasmalPrefix.DisplayName: 幻影の
+	PlatedPrefix.DisplayName: 装甲された
+	ReinforcedPrefix.DisplayName: 強化された
+	RootedPrefix.DisplayName: 根付いた
+	ShamanicPrefix.DisplayName: 呪術の
+	ShieldedPrefix.DisplayName: 守護の
+	SpeedyPrefix.DisplayName: 俊足の
+	StrongPrefix.DisplayName: 強力な
+	TornPrefix.DisplayName: 引き裂かれた
+	TrustyPrefix.DisplayName: 信頼できる
+	UnfinishedPrefix.DisplayName: 未完成な
+	ClearedPrefix.DisplayName: 接頭辞除去済み
+}
+
+Projectiles: {
+	MorgensternBluePro.DisplayName: Morgenstern Blue Pro
+	MorgensternGreenPro.DisplayName: Morgenstern Green Pro
+	MorgensternMoltenPro.DisplayName: Morgenstern Molten Pro
+	MorgensternPro.DisplayName: Morgenstern Pro
+	MorgensternRedPro.DisplayName: Morgenstern Red Pro
+	SacrificialBandSpirit.DisplayName: Sacrificial Band Spirit
+	ElementalCreation.DisplayName: Elemental Creation
+	DiamondShipSound.DisplayName: Diamond Ship Sound
+	DamnedCatcherBobber.DisplayName: Damned Catcher Bobber
+	BlazingWhipProjectile.DisplayName: Blazing Whip
+	CrablingHookProjectile.DisplayName: Crabling Hook
+	TrappersHookProjectile.DisplayName: Trapper's Hook
+	RedHotSolutionPro.DisplayName: Red Hot Solution Pro
+	MoonwalkerStar.DisplayName: Moonwalker Star
+	LavaSpike.DisplayName: Lava Spike
+	GarlicProj.DisplayName: Garlic Proj
+	MenaceSpawn.DisplayName: Menace Spawn
+	MenacingStar.DisplayName: Menacing Star
+	MenacingStar2.DisplayName: Menacing Star
+	ShutterbugPhoto.DisplayName: Shutterbug Photo
+	TwilightWalker_MagicBook.DisplayName: Twilight Walker_ Magic Book
+	BlueCrescentPet.DisplayName: Blue Crescent Pet
+	BlueFallenMoon.DisplayName: Blue Fallen Moon
+	GreenCrescentPet.DisplayName: Green Crescent Pet
+	GreenFallenMoon.DisplayName: Green Fallen Moon
+	LuckyMoonPet.DisplayName: Lucky Moon Pet
+	PinkCrescentPet.DisplayName: Pink Crescent Pet
+	PinkFallenMoon.DisplayName: Pink Fallen Moon
+	YellowCrescentPet.DisplayName: Yellow Crescent Pet
+	YellowFallenMoon.DisplayName: Yellow Fallen Moon
+	FunkyMirrorPet.DisplayName: Funky Mirror Pet
+	SunnyPet.DisplayName: Sunny Pet
+	VioletPet.DisplayName: Violet Pet
+	PhotoRifleHeld.DisplayName: Photo Rifle Held
+	SnapshotProjectile.DisplayName: Snapshot Projectile
+	AstrolotlPet.DisplayName: Astrolotl Pet
+	FrogletPet.DisplayName: Froglet Pet
+	SpooksterPet.DisplayName: Spookster Pet
+	StarfaceJrPet.DisplayName: Starface Jr Pet
+	ThickBoulderLihzahrdProj.DisplayName: Thick Boulder
+	ThickBoulderProj.DisplayName: Thick Boulder
+	MonsterCageProj.DisplayName: Monster Cage Proj
+	PrismaticBulletProj.DisplayName: Prismatic Bullet Proj
+	LunarflarePillar.DisplayName: Lunarflare Pillar
+	MoonSnap.DisplayName: Moon Snap
+	ShatteringDesignFade.DisplayName: Shattering Design Fade
+	ShatteringDesignFinisher.DisplayName: Shattering Design Finisher
+	ShatteringDesignProjectile.DisplayName: Shattering Design Projectile
+	ThornyGreatswordProjectile.DisplayName: Thorny Greatsword Projectile
+	ThornyGreatswordSeed.DisplayName: Thorny Greatsword Seed
+	WeHaveTechnologyDecal.DisplayName: We Have Technology Decal
+	WeHaveTechnologyProjectile.DisplayName: We Have Technology Projectile
+	ZirconCrystal.DisplayName: Zircon Crystal
+	ZirconWasterProjectile.DisplayName: Zircon Waster Projectile
+	ButterflyStrikeBlue.DisplayName: Butterfly Strike Blue
+	ButterflyStrikeGreen.DisplayName: Butterfly Strike Green
+	ButterflyStrikePink.DisplayName: Butterfly Strike Pink
+	ButterflyStrikeYellow.DisplayName: Butterfly Strike Yellow
+	SearingEmberProj.DisplayName: Searing Ember Proj
+	Pyromancy.DisplayName: Pyromancy
+	PyromancyDark.DisplayName: Pyromancy
+	BlazerangProj.DisplayName: Blazerang Proj
+	BlazerangRipple.DisplayName: Blazerang Ripple
+	BouncerProj.DisplayName: Bouncer Proj
+	PinkBouncerProj.DisplayName: Pink Bouncer Proj
+	FishbonePro.DisplayName: Fishbone Pro
+	NightDiscLaser.DisplayName: Night Disc Laser
+	NightDiscProj.DisplayName: Night Disc Proj
+	PursuerProj.DisplayName: Pursuer Proj
+	RodOfDreadExplosion.DisplayName: Rod Of Dread Explosion
+	RodOfDreadProj.DisplayName: Rod Of Dread Proj
+	RodOfDreadRune.DisplayName: Mystic Sphere
+	TheEclipseProj.DisplayName: The Eclipse Proj
+	TheEclipseSun.DisplayName: Sun
+	TwisterIce.DisplayName: Twister Ice
+	TwisterProj.DisplayName: Twister Proj
+	FlakCannonProj.DisplayName: Flak Cannon Proj
+	SuperFlakCannonProj.DisplayName: Super Flak Cannon Proj
+	RedArrow.DisplayName: Red Arrow
+	BallofFleshMissilePro.DisplayName: Ball of Flesh
+	BallofFleshProj.DisplayName: Ball of Flesh
+	EyesoreProj.DisplayName: Eyesore
+	FrostflakeFanProj.DisplayName: Frostflake Fan Proj
+	SupportGunProj.DisplayName: Support Gun Proj
+	RagnarokProj.DisplayName: Ragnarok Proj
+	ReflexBowProj.DisplayName: Reflex Bow Proj
+	WeatherRocketProj.DisplayName: Weather Rocket Proj
+	DazzlerBolt.DisplayName: Dazzler Bolt
+	DazzlerBoltEffect.DisplayName: Bad karma
+	DragonslayerArrow.DisplayName: Dragonslayer Arrow
+	DragonslayerEffect.DisplayName: Black Arrow
+	FlareArrow.DisplayName: Flare Arrow
+	FlareArrowSpirit.DisplayName: Flare Arrow
+	GoldenArrow.DisplayName: Golden Arrow
+	HailArrow.DisplayName: Hail Arrow
+	LightningArrow.DisplayName: Lightning Arrow
+	MarkedArrow.DisplayName: Marked Arrow
+	PrecipitationArrow.DisplayName: Precipitation Arrow
+	StormArrowB.DisplayName: Storm Arrow
+	StormArrowC.DisplayName: Storm Arrow
+	TracingArrow.DisplayName: Tracing Arrow
+	Blunderbuss.DisplayName: Blunderbuss
+	FlareBolt.DisplayName: Flare Bolt
+	FlareBoltClone.DisplayName: Flare Bolt Clone
+	Axe.DisplayName: Axe
+	BadJesterArrow.DisplayName: Bad Jester Arrow
+	BarrelExplosion.DisplayName: Barrel Explosion
+	BasaltEruption.DisplayName: Basalt Eruption
+	BasaltEruption2.DisplayName: Basalt Eruption2
+	BatPotSpawn.DisplayName: Bat Pot Spawn
+	Balls.DisplayName: Solar Zenith
+	ChaseHand.DisplayName: Chase Hand
+	ChaseHandPunch.DisplayName: Chase Hand Punch
+	ChaseKnifeTelegraph.DisplayName: Chase Knife Telegraph
+	ChaseVoid.DisplayName: Chase Void
+	ChaseVoidKnife.DisplayName: Chase Void Knife
+	ChaseVoidTelegraph.DisplayName: Chase Void Telegraph
+	DeathSwirl.DisplayName: Scorching Swirl
+	FieryDagger.DisplayName: Fiery Dagger
+	FieryKnife.DisplayName: Fiery Knife
+	FlamingEdge.DisplayName: Flaming Edge
+	Hailstorm.DisplayName: Ash Spiral
+	HeatBomb.DisplayName: Heat Bomb
+	HeatClover.DisplayName: Heat Clover
+	HeatSnap.DisplayName: Heat Snap
+	BigDeathBone.DisplayName: Grim Bone
+	DeathBone.DisplayName: Death Bone
+	InsurgentExplosion.DisplayName: Insurgent Explosion
+	NocturnalFlare.DisplayName: Nocturnal Flare
+	RebelliousSkull.DisplayName: Rebellious Skull
+	RebelliousSkull2.DisplayName: Rebellious Skull2
+	RebelSkull.DisplayName: Skull
+	KillerHand.DisplayName: Killer Hand
+	BlueStar.DisplayName: Blue Star
+	BlueStarMini.DisplayName: Blue Star Mini
+	BouncyMenaceStar.DisplayName: Menacing Star
+	IceBlock.DisplayName: Frost Chunk
+	IceBowling.DisplayName: Ice Bowling
+	MenacingKnife.DisplayName: Menacing Knife
+	MenacingUmbrella.DisplayName: Menacing Umbrella
+	MoonBounce.DisplayName: Moon Bounce
+	RollingStar.DisplayName: Rolling Star
+	ShiningStar.DisplayName: Shining Star
+	SwirlingStar.DisplayName: Swirling Star
+	MinigunSolarApex.DisplayName: Minigun Solar Apex
+	Butterflies.DisplayName: Butterfly
+	MirageSpawn.DisplayName: Mirage Spawn
+	MirrorAmethyst.DisplayName: Mirror Bolt
+	MirrorDiamond.DisplayName: Mirror Bolt
+	MirrorEmerald.DisplayName: Mirror Bolt
+	MirrorRuby.DisplayName: Mirror Bolt
+	MirrorSapphire.DisplayName: Mirror Bolt
+	MirrorTopaz.DisplayName: Mirror Bolt
+	SinisterButterfly.DisplayName: Sinister Butterfly
+	StormArrow.DisplayName: Storm Arrow
+	Elec.DisplayName: Elec
+	FrostEffect.DisplayName: Frost Effect
+	FrostExplo.DisplayName: Frost Shot
+	FrostMark.DisplayName: Frost Mark
+	FrostMine.DisplayName: Frost Mine
+	FrostMineAlt.DisplayName: Frost Mine
+	FrostSpark.DisplayName: Frost Spark
+	FrostWave.DisplayName: Ice barrage
+	OneshotBomb.DisplayName: Befrosted Bomb
+	OneshotHolowave.DisplayName: Holowave
+	SnowWave.DisplayName: Snow Wave
+	ParaffinCoughBig.DisplayName: Skill Issue
+	ParaffinCoughSmall.DisplayName: Paraffin's Something
+	ParaffinFist.DisplayName: Paraffin Fist
+	ParaffinFlamingBolt.DisplayName: Paraffin's Cool Fireball
+	ParaffinNote.DisplayName: Paraffin's Note
+	ParaffinNote2.DisplayName: Paraffin's Note
+	ParaffinRing.DisplayName: Paraffin Ring
+	ParaffinRingShot.DisplayName: Paraffin's Ring
+	ParaffinSpawn.DisplayName: Paraffin Spawn
+	ParaffinSpawnCage.DisplayName: Paraffin Spawn Cage
+	SeetheCopeKnife.DisplayName: Seethe Cope Knife
+	ShotgunSolarApex.DisplayName: Shotgun Solar Apex
+	SonicHand.DisplayName: Sonic Hand
+	SonicWave.DisplayName: Burning Beam
+	BladewavePro.DisplayName: Dark Wave
+	SpiritFire.DisplayName: Spirit's Flame
+	SpiritFireAlt.DisplayName: Spirit's Flame
+	SpiritFireSphere.DisplayName: Spirit's Fire Sphere
+	SpiritFragileFireSphere.DisplayName: Spirit's Fire Sphere
+	SpiritFragileIceSphere.DisplayName: Spirit's Ice Sphere
+	SpiritFragileKnifeSphere.DisplayName: Spirit's Knife Sphere
+	SpiritIce.DisplayName: Spirit's Ice
+	SpiritIceAlt.DisplayName: Spirit's Ice
+	SpiritIceSphere.DisplayName: Spirit's Ice Sphere
+	SpiritKnife.DisplayName: Spirit's Knife
+	SpiritKnifeAlt.DisplayName: Spirit's Knife
+	SpiritKnifeSphere.DisplayName: Spirit's Knife Sphere
+	SpiritScissors.DisplayName: Scissors
+	UFOBomb.DisplayName: Alien Bomb
+	UltimateChaseKnifeTelegraph.DisplayName: Ultimate Chase Knife Telegraph
+	UltimateRay.DisplayName: Ultimate Ray
+	VoidKnife.DisplayName: Void Knife
+	BreathtakerShard.DisplayName: Breathtaker
+	Bubble.DisplayName: Bubble
+	CaveImpFire2.DisplayName: Fire Trail
+	ColossusBoom.DisplayName: Unpleasant Explosion
+	ColossusLaser.DisplayName: Laserball
+	CombustingOrb.DisplayName: Combusting Orb
+	CommonExplosion.DisplayName: Common Explosion
+	CrabBomb.DisplayName: Crab Bomb
+	CrystalShout.DisplayName: Crystal Shout
+	EvilSmoke.DisplayName: Evil Smoke
+	GiantSpike.DisplayName: Giant Spike
+	GoldenBombPro.DisplayName: Golden Bomb
+	GoldenDynamitePro.DisplayName: Golden Dynamite
+	GoldenGelBomb.DisplayName: Golden Gel Bomb
+	HoneyBlob.DisplayName: Honey Blob
+	MagnetoDeathBone.DisplayName: Magneto Death Bone
+	MuskeletonKnife.DisplayName: Muskeleton Knife
+	NutSword.DisplayName: Dark Blade
+	PlantShot.DisplayName: Plant essense
+	PurpleGelBomb.DisplayName: Purple Gel Bomb
+	SentinelFireball.DisplayName: Purple Star
+	TrollBoomerang.DisplayName: Hobgoblin's Boomerang
+	WitnessExplode.DisplayName: Witness Explode
+	YellowBone.DisplayName: Yellow Bone
+	AlbedoBolt.DisplayName: Albedo Bolt
+	AstralMayhemBolt.DisplayName: Astral Mayhem Bolt
+	AstralSpike.DisplayName: Astral Spike
+	BlazingRiffNote.DisplayName: Blazing Riff Note
+	BlazingRiffPro.DisplayName: Blazing Riff
+	BlazingScopeBoom.DisplayName: Pleasant Explosion
+	BlizzardSwirl.DisplayName: Blizzard Swirl
+	BloodyBolt.DisplayName: Bloody Bolt
+	BloodyStreamProj.DisplayName: Bloody Stream
+	ColdFrontShard.DisplayName: Cold Front Shard
+	ConstellationBolt.DisplayName: Constellation
+	CrabCannonProj.DisplayName: Crabikaze
+	EyeOfBelialPro.DisplayName: Eye of Belial
+	FirecasterSpellball.DisplayName: Fireball
+	FirecasterSpellshot.DisplayName: Firecaster Spellshot
+	FullColorAmethyst.DisplayName: Full Color Amethyst
+	FullColorBoom.DisplayName: Full Color Boom
+	FullColorDiamond.DisplayName: Full Color Diamond
+	FullColorEmerald.DisplayName: Full Color Emerald
+	FullColorRuby.DisplayName: Full Color Ruby
+	FullColorSapphire.DisplayName: Full Color Sapphire
+	FullColorTopaz.DisplayName: Full Color Topaz
+	GalacticZap.DisplayName: Galactic Zap
+	GreenPulse.DisplayName: Green Lightning
+	KillerWandBubble.DisplayName: Killer Wand Bubble
+	Landcrusher.DisplayName: Statue
+	MagicBookCrystalStorm.DisplayName: Magic Book Crystal Storm
+	MagicBookDemonScythe.DisplayName: Magic Book Demon Scythe
+	MagicBookWaterbolt.DisplayName: Magic Book Waterbolt
+	ManaBolt.DisplayName: Tear Bolt
+	ManaStaff.DisplayName: Tearstone Scepter
+	MassDestructionLaser.DisplayName: Mass Destruction
+	MassDestructionOld.DisplayName: Mass Destruction Old
+	Monolith.DisplayName: Monolith
+	NexusDollor.DisplayName: Nexus Dollor
+	NexusWallet.DisplayName: Nexus Wallet
+	OvertakerBlade.DisplayName: Overtaking Blade
+	OvertakerSpawner.DisplayName: Overtaker Spawner
+	Patromancy.DisplayName: Patromancy
+	PointOfViewFirePro.DisplayName: Point Of View Fire Pro
+	PointOfViewPro.DisplayName: Point Of View Pro
+	PrimeLaser.DisplayName: Laser
+	PrimeLaserButMelee.DisplayName: Laser
+	ScepterSpellball.DisplayName: Magic Orb
+	ScepterSpellshot.DisplayName: Spellshot
+	SnowSpellball.DisplayName: Snow Ring
+	SolarisBolt.DisplayName: Solaris Bolt
+	SolarisRune.DisplayName: Solaris Rune
+	SOWPro.DisplayName: Swarm of Wrath
+	Starr.DisplayName: Star
+	StepFlamesAmethyst.DisplayName: Flame
+	StepFlamesDiamond.DisplayName: Flame
+	StepFlamesEmerald.DisplayName: Flame
+	StepFlamesRainbow.DisplayName: Rainbow Star
+	StepFlamesRuby.DisplayName: Flame
+	StepFlamesSapphire.DisplayName: Flame
+	StepFlamesTopaz.DisplayName: Flame
+	DeadMansSawProjectile.DisplayName: Saw
+	SwapperShot.DisplayName: Swapper Shot
+	TrueColorRay.DisplayName: True Color Ray
+	ArcticOscillationProj.DisplayName: Arctic Oscillation
+	ArcticStar.DisplayName: Glacier Star
+	BallisticSpearProj.DisplayName: Mods.Split.Items.BallisticSpear.DisplayName
+	BonePlagueBone.DisplayName: Bone Plague Bone
+	BurnMyDreadProj.DisplayName: Dreadful Star
+	BurnMyDreadFlame.DisplayName: Pyro
+	BuryTheLight.DisplayName: Bury The Light
+	CeremonialKnife.DisplayName: Ceremonial Knife
+	ChikageSlash.DisplayName: Chikage
+	DeliciousSaturnBlade.DisplayName: Delicious Saturn Blade
+	DeliciousSaturnProj.DisplayName: Delicious Saturn
+	DragonLegacyBlue.DisplayName: Dragon Legacy Blue
+	DragonLegacyRed.DisplayName: Dragon Legacy Red
+	DragunYoyo.DisplayName: Dragun Yoyo
+	FlamaxeExplosion.DisplayName: Explosion
+	FlamaxeProj.DisplayName: Flamaxe
+	ForestEchoProj.DisplayName: Forest Echo
+	FrigidBeam.DisplayName: Frigid Beam
+	GlasserangProj.DisplayName: Glasserang
+	GlasserangShard.DisplayName: Glasserang Shard
+	GlowingBone.DisplayName: Glowing Bone
+	GoldenSickleProj.DisplayName: Golden Sickle
+	AntarcticOscillationBeam.DisplayName: Glacier Beam
+	AntarcticOscillationBlade.DisplayName: Antarctic Oscillation Blade
+	AntarcticStar.DisplayName: Glacier Star
+	BonePlagueBlade.DisplayName: Bone Plague Blade
+	CactusClaymoreBlade.DisplayName: Cactus Claymore Blade
+	DragonFishBlade.DisplayName: Dragon Fish Blade
+	EccentricBeam.DisplayName: Dark Beam
+	EccentricScissorsBlade.DisplayName: Eccentric Scissors Blade
+	FireWavePro.DisplayName: Fire Wave
+	GoldClaymoreBlade.DisplayName: Gold Claymore Blade
+	Haemorain.DisplayName: Haemorain
+	LaserbrandBlade.DisplayName: Laserbrand Blade
+	LaserbrandStar.DisplayName: Glacier Star
+	LeviathanBlade.DisplayName: Leviathan Blade
+	MementoMoriBlade.DisplayName: Memento Mori Blade
+	MoondialBlade.DisplayName: Moondial Blade
+	MoondialWave.DisplayName: Moondial Wave
+	PlatinumClaymoreBlade.DisplayName: Platinum Claymore Blade
+	QliphothBeam.DisplayName: Blaze Beam
+	QliphothCutterBlade.DisplayName: Qliphoth Cutter Blade
+	RealitySlicerBlade.DisplayName: Reality Slicer Blade
+	SchwarzweltBlade.DisplayName: Schwarzwelt Blade
+	SchwarzweltKnife.DisplayName: Schwarzwelt Knife
+	ScourgeBlade.DisplayName: Scourge Blade
+	SummitBreakerBlade.DisplayName: Summit Breaker Blade
+	SummitBreakerBoulder.DisplayName: Summit Breaker Boulder
+	ZweihanderBlade.DisplayName: Zweihander Blade
+	HellgazeHeld.DisplayName: Hellgaze Held
+	HellgazeNote.DisplayName: Hellgaze Note
+	HermesHeld.DisplayName: Hermes Held
+	HermesDash.DisplayName: Hermes Dash
+	KingsBountyThrown.DisplayName: King's Bounty
+	MagnetYoyoThrown.DisplayName: Collapse
+	OnyxxProjectile.DisplayName: Onyxx Projectile
+	OnyxxSpectre.DisplayName: Onyxx Spectre
+	PossessedSaber.DisplayName: Possessed Saber
+	PurpleRay.DisplayName: Hyper Ray
+	Baseball.DisplayName: Baseball
+	BaseballBee.DisplayName: Baseball Bee
+	BaseballCrab.DisplayName: Baseball Crab
+	BaseballDaisy.DisplayName: Baseball Daisy
+	BaseballEoc.DisplayName: Baseball Eoc
+	BaseballFart.DisplayName: Baseball Fart
+	BaseballFire.DisplayName: Baseball Fire
+	BaseballFrost.DisplayName: Baseball Frost
+	BaseballHyper.DisplayName: Baseball Hyper
+	BaseballHyperRay.DisplayName: Hyper Ray
+	BaseballIvory.DisplayName: Baseball Ivory
+	BaseballNitro.DisplayName: Baseball Nitro
+	BaseballSaw.DisplayName: Baseball Saw
+	BaseballWooden.DisplayName: Baseball Wooden
+	ChilblainShard.DisplayName: Chilblain Shard
+	CrabWaterExplosion.DisplayName: Crab Water Explosion
+	InstigatorBoom.DisplayName: Explosion
+	MorgensternBlueBoom.DisplayName: Explosion
+	MorgensternGreenBoom.DisplayName: Explosion
+	MorgensternRedBoom.DisplayName: Explosion
+	NitroSwirl.DisplayName: Nitro Swirl
+	RacquetSlash.DisplayName: Racquet
+	StarExplosion.DisplayName: Explosion
+	RimeBladeProj.DisplayName: Rime Blade Proj
+	SkeletonWarrior.DisplayName: Skeleton Warrior
+	SkeletonWarrior2.DisplayName: Skeleton Warrior2
+	SkeletonWarriorStar.DisplayName: Scarlet Star
+	Skullshot.DisplayName: Skullshot
+	Solstice.DisplayName: Solstice
+	SolsticeBlade.DisplayName: Solstice Blade
+	SparkyBolt.DisplayName: Sparky Bolt
+	SparkyRay.DisplayName: Hyper Ray
+	StarlightBreakerPentagram.DisplayName: Starlight Breaker Pentagram
+	StarlightBreakerRay.DisplayName: Starlight Breaker Ray
+	StarlightBreakerSpark.DisplayName: Starlight Breaker Spark
+	StarlightBreakerSpear.DisplayName: Starlight Breaker Spear
+	StarlightBreakerWave.DisplayName: Starlight Breaker Wave
+	StellaFortunaYoyo.DisplayName: Stella Fortuna
+	StellarFortuneBolt.DisplayName: Stellar Fortune Bolt
+	StellaYoyo.DisplayName: Stella
+	SummitEarthBlade.DisplayName: Summit Earth Blade
+	SummitShard.DisplayName: Summit Shard
+	SummitSlash.DisplayName: Summit Slash
+	TerracquetFlower.DisplayName: Terracquet Flower
+	TroglodyteProj.DisplayName: Troglodyte
+	WarfareProj.DisplayName: Warfare
+	WelkingProj.DisplayName: Mods.Split.Items.Welking.DisplayName
+	WelkingSpectre.DisplayName: Mods.Split.Items.Welking.DisplayName
+	WindfallPro.DisplayName: Windfall
+	WindfallThunder.DisplayName: Windfall Thunder
+	ZirconSpearSpectre.DisplayName: Disharmony
+	ZirconSpearReal.DisplayName: Disharmony
+	MiniBlunderbuss.DisplayName: Mini Blunderbuss
+	EmeraldSpirit.DisplayName: Emerald Spirit
+	EonSkull.DisplayName: Skull
+	FlandreBlood.DisplayName: Flandre Blood
+	FortuneReading.DisplayName: Fortune Reading
+	SupportRune.DisplayName: Support Rune
+	TeapotHealing.DisplayName: Teapot Healing
+	TroublesomeVesselProj.DisplayName: Nothing but trouble
+	InkDemonPet.DisplayName: Ink Demon Pet
+	JackFrostPet.DisplayName: Jack Frost Pet
+	LifeGal.DisplayName: Life Gal
+	LunaPet.DisplayName: Luna Pet
+	ManaGal.DisplayName: Mana Gal
+	UnpixiePet.DisplayName: Unpixie Pet
+	WitnessPet.DisplayName: Witness Pet
+	AngryNimbus.DisplayName: Angry Nimbus
+	BubbleFriendly.DisplayName: Bubble
+	FireSaltsPro.DisplayName: Fire Salts
+	Fireshot.DisplayName: Fireshot
+	FireshotEffect.DisplayName: Fireshot Effect
+	HailThorn.DisplayName: Hail Thorn
+	HeartmelterProj.DisplayName: Heartmelter Proj
+	Holowave.DisplayName: Holowave
+	PiercingHolowave.DisplayName: Piercing Holowave
+	TracingHolowave.DisplayName: Tracing Holowave
+	Macro.DisplayName: Macro
+	MonsoonRocket.DisplayName: Monsoon Rocket
+	OverflowBolt.DisplayName: Tectonic Arrow
+	OvergrowthFlower.DisplayName: Overgrowth Flower
+	PiercingBullet.DisplayName: Piercing Bullet
+	RagnarokArrow.DisplayName: Ragnarok Arrow
+	RagnarokBoom.DisplayName: Ragnarok Boom
+	ReflexArrow.DisplayName: Reflex Arrow
+	ReflexArrowBlue.DisplayName: Reflex Arrow Blue
+	ReflexShard.DisplayName: Reflex Shard
+	RocketStar.DisplayName: Rocket Star
+	SnowFlak.DisplayName: Snow Flak
+	Starbreaker.DisplayName: Starbreaker
+	StarstormArrow.DisplayName: Starstorm Arrow
+	StarstormBolt.DisplayName: Starstorm Bolt
+	StarstormBurst.DisplayName: Starstorm Burst
+	StarstormShard.DisplayName: Starstorm Shard
+	SwitcherRocket.DisplayName: Switcher Rocket
+	TheEnforcer.DisplayName: The Enforcer
+	TrifestaProj.DisplayName: Trifesta Proj
+	TriggerFlare.DisplayName: Trigger Flare
+	VulcanChaingunPro.DisplayName: Vulcan Chaingun Pro
+	ZirconReflexBow.DisplayName: Zircon Reflex Bow
+	AdvancedTurretSentry.DisplayName: Advanced Turret Sentry
+	Aeyh.DisplayName: Aeyh
+	AeyhBolt.DisplayName: Aeyh Bolt
+	AlbedoCrystal.DisplayName: Albedo Crystal
+	BigFungusSentry.DisplayName: Big Fungus Sentry
+	Cirno.DisplayName: Cirno
+	CirnoBolt.DisplayName: Cirno Bolt
+	Firefly.DisplayName: Firefly
+	Flandre.DisplayName: Flandre
+	FlandreWave.DisplayName: Flandre Wave
+	Ghost.DisplayName: Ghost
+	Mimi.DisplayName: Mimi
+	MimiProjectile.DisplayName: Mimi Projectile
+	MoonSaucerLaser.DisplayName: Laser
+	MoonSaucerSentry.DisplayName: Moon Saucer Sentry
+	Razorfrost.DisplayName: Razorfrost
+	SprinklerPro.DisplayName: Sprinkler Pro
+	SummonedStar.DisplayName: Summoned Star
+	TurretSentry.DisplayName: Turret Sentry
+	Utsuho.DisplayName: Utsuho
+	UtsuhoSunbolt.DisplayName: Utsuho Sunbolt
+	UtsuhoSunboltExplosion.DisplayName: Utsuho Sunbolt Explosion
+	Vinemonger.DisplayName: Vinemonger
+	VinemongerStem.DisplayName: Vinemonger Stem
+	VolcanicHammer.DisplayName: Volcanic Hammer
+	ShadowSpellshot.DisplayName: Shadow Spellshot
+	ShadowScepterHeld.DisplayName: Shadow Scepter Held
+	ShadowScepterTotem.DisplayName: Shadow Scepter Totem
+	FirecasterScepterHeld.DisplayName: Firecaster Scepter Held
+	FirecasterExplosion.DisplayName: Firecaster Explosion
+	FirecasterTotem.DisplayName: Firecaster Totem
+	RedPatchStrike.DisplayName: Red Patch Strike
+	SnowSpellshot.DisplayName: Snow Spellshot
+	Superflake.DisplayName: Superflake
+	SnowHalationHeld.DisplayName: Snow Halation Held
+	SnowHalationTotem.DisplayName: Snow Halation Totem
+	CinnabarPillarBlade.DisplayName: Cinnabar Pillar Blade
+	CinnabarPillarCritWave.DisplayName: Cinnabar Pillar Crit Wave
+	IronSledgehammerProjectile.DisplayName: Iron Sledgehammer Projectile
+	LeadSledgehammerProjectile.DisplayName: Lead Sledgehammer Projectile
+	DeflectorBullet.DisplayName: Deflector Bullet
+	DeflectorProjectile.DisplayName: Deflector Projectile
+	SolsticeProjectile.DisplayName: Solstice Projectile
+	SolsticeSpin.DisplayName: Solstice Spin
+	SolsticeStab.DisplayName: Solstice Stab
+	SolarApex.DisplayName: Solar Apex
+	SolsticeCharge.DisplayName: Solstice Charge
+	SolarApexHitbox.DisplayName: Solar Apex Hitbox
+	SunstormBeam.DisplayName: Sunstorm Beam
+	VoidBolt.DisplayName: Void Bolt
+	MonsoonHeld.DisplayName: Monsoon Held
+	WingedSpearProjectile.DisplayName: Winged Spear Projectile
+	WingedStream.DisplayName: Winged Stream
+	PoisonBreakProjectile.DisplayName: Poison Break Projectile
+	PoisonStream.DisplayName: Poison Stream
+	MusketronHeld.DisplayName: Musketron Held
+	MusketronSpin.DisplayName: Musketron Spin
+	SpectreBone.DisplayName: Spectre Bone
+	GoopProjectile.DisplayName: Goop Projectile
+	CeremonialKnifeProjectile.DisplayName: Ceremonial Knife Projectile
+	CeremonialKnifeSummon.DisplayName: Ceremonial Knife Summon
+	CeremonialSawblade.DisplayName: Ceremonial Sawblade
+	NightsBaneProjectile.DisplayName: Nights Bane Projectile
+	HelicalShell.DisplayName: Helical Shell
+	HelicalContraption.DisplayName: Helical Contraption
+	HelicalBullet.DisplayName: Helical Bullet
+	HelicalShellPickup.DisplayName: Helical Shell Pickup
+	AncientSolsticeProj.DisplayName: ItemName.AncientSolstice
+	AnthemOfWarProj.DisplayName: ItemName.AnthemOfWar
+	SongOfTheSirenProj.DisplayName: ItemName.SongOfTheSiren
+	TraitorsRequiemProj.DisplayName: ItemName.TraitorsRequiem
+	TraitorsRequiemStrike.DisplayName: Traitor's Requiem Strike
+	BubbleShieldProjectile.DisplayName: Bubble Shield Projectile
+	GravekeeperMoth.DisplayName: Gravekeeper Moth
+	DynamiteCrab.DisplayName: Dynamite Crab
+	CrabWhipProjectile.DisplayName: Crab Whip Projectile
+	SparkyProjectile.DisplayName: Sparky Projectile
+	SparkyZap.DisplayName: Sparky Zap
+	BlueCrabWhipProjectile.DisplayName: Blue Crab Whip Projectile
+	GrapplePointProjectile.DisplayName: Grapple Point Projectile
+	TestGoop.DisplayName: Test Goop
+	Arachnicannon.DisplayName: Arachnicannon
+	ArachnicannonProjectile.DisplayName: Arachnicannon Projectile
+	SpiderGoop.DisplayName: Spider Goop
+	SpiderGoopWave.DisplayName: Spider Goop Wave
+	IcePhantom.DisplayName: Ice Phantom
+	AntarcticBeam.DisplayName: Antarctic Beam
+	HighlighterExplosionProj.DisplayName: Highlighter Explosion Proj
+	HighlighterProj.DisplayName: Highlighter Proj
+	PointOfViewExplosionProj.DisplayName: Point Of View Explosion Proj
+	PointOfViewProj.DisplayName: Point Of View Proj
+	TomeOfDarkPyromancyProj.DisplayName: Tome Of Dark Pyromancy Proj
+	TomeOfPyromancyProj.DisplayName: Tome Of Pyromancy Proj
+	EccentricRift.DisplayName: Eccentric Rift
+	QuantumLeap.DisplayName: Quantum Leap
+	ArchaicBolt.DisplayName: Archaic Bolt
+	ArchaicShard.DisplayName: Archaic Shard
+	TheArchitectBlade.DisplayName: The Architect Blade
+	EquilibriumManifestation.DisplayName: Equilibrium Manifestation
+	EchoOfParadiseHeld.DisplayName: Echo Of Paradise Held
+	EchoOfParadiseHeldLeft.DisplayName: Echo Of Paradise Held Left
+	EchoOfParadiseHeldRight.DisplayName: Echo Of Paradise Held Right
+	PiercingBulletProj.DisplayName: Piercing Bullet Proj
+	SolRune.DisplayName: Sol Rune
+	SolBolt.DisplayName: Sol Bolt
+	SpiritFragileMagicSphere.DisplayName: Spirit Fragile Magic Sphere
+	SpiritMagicSphere.DisplayName: Spirit Magic Sphere
+	MacroProj.DisplayName: Macro Proj
+	TheEnforcerProj.DisplayName: The Enforcer Proj
+	BallistickHeld.DisplayName: Ballistick Held
+	LandcrusherProj.DisplayName: Landcrusher Proj
+	ManaStaffProj.DisplayName: Mana Staff Proj
+	MassDestructionOldProj.DisplayName: Mass Destruction Old Proj
+	SkullTransformation.DisplayName: Skull Transformation
+	BallistickDash.DisplayName: Ballistick Dash
+	StarbreakerProj.DisplayName: Starbreaker Proj
+	ZephyrDash.DisplayName: Zephyr Dash
+	ZephyrHeld.DisplayName: Zephyr Held
+	DragonslayerArrowProj.DisplayName: Dragonslayer Arrow Proj
+	TracingArrowProj.DisplayName: Tracing Arrow Proj
+	BikeSnap.DisplayName: Bike Snap
+	MasterSpiritPet.DisplayName: Master Spirit Pet
+	DemonCompendiumPet.DisplayName: Demon Compendium Pet
+	BloodyStreamHeld.DisplayName: Bloody Stream Held
+	DangerBloodyBolt.DisplayName: Danger Bloody Bolt
+	TearfulBolt.DisplayName: Tearful Bolt
+	TearfulScepterHeld.DisplayName: Tearful Scepter Held
+	AstralCharge.DisplayName: Astral Charge
+	AstralMayhemExplosion.DisplayName: Astral Mayhem Explosion
+	RazzleDazzleHeld.DisplayName: Razzle Dazzle Held
+	DazzleZap.DisplayName: Dazzle Zap
+	SwarmOfWrathBolt.DisplayName: Swarm Of Wrath Bolt
+	EyeOfBelialBolt.DisplayName: Eye Of Belial Bolt
+	EyeOfBelialHeld.DisplayName: Eye Of Belial Held
+	KillerWandExplosion.DisplayName: Killer Wand Explosion
+	CrabBolt.DisplayName: Crab Bolt
+	MineCrab.DisplayName: Mine Crab
+	MineCrabOdd.DisplayName: Mine Crab Odd
+	CrabBoltAlbino.DisplayName: Crab Bolt Albino
+	MineCrabAlbino.DisplayName: Mine Crab Albino
+	MineCrabOddAlbino.DisplayName: Mine Crab Odd Albino
+	FireWaveProj.DisplayName: Fire Wave Proj
+	AstrologistNPCProjectile.DisplayName: Astrologist N P C Projectile
+	AstrologistNPCProjectile2.DisplayName: Astrologist N P C Projectile2
+	TwilightBolt.DisplayName: Twilight Bolt
+	MenaceBossSpawnProjectile.DisplayName: Menace Boss Spawn Projectile
+	DeadMansSawBolt.DisplayName: Dead Mans Saw Bolt
+	BlazingRiffAnthem.DisplayName: Blazing Riff Anthem
+	GalaxiaBolt.DisplayName: Galaxia Bolt
+	ZweihanderKnockback.DisplayName: Zweihander Knockback
+	ZweihanderKnockbackImpact.DisplayName: Zweihander Knockback Impact
+	WalterHeld.DisplayName: Walter Held
+	HoloclipWave.DisplayName: Holoclip Wave
+	WalterBoom.DisplayName: Walter Boom
+	HoloclipBoom.DisplayName: Holoclip Boom
+	HoloclipBolt.DisplayName: Holoclip Bolt
+	MonolithBolt.DisplayName: Monolith Bolt
+	MonolithShield.DisplayName: Monolith Shield
+	EccentricScissorsParry.DisplayName: Eccentric Scissors Parry
+	NexusStrip.DisplayName: Nexus Strip
+	MoonWheel.DisplayName: Moon Wheel
+	MementoMoriDrill.DisplayName: Memento Mori Drill
+	MementoMoriSpin.DisplayName: Memento Mori Spin
+	Overblade.DisplayName: Overblade
+	OvertakerHeld.DisplayName: Overtaker Held
+	BewitchedStepFlame.DisplayName: Bewitched Step Flame
+	StarshroomSeed.DisplayName: Starshroom Seed
+	AfterlifeAnchorWhip.DisplayName: Afterlife Anchor Whip
+	StrandedWhipProjectile.DisplayName: Stranded Whip Projectile
+	GellersonJr.DisplayName: Gellerson Jr
+	GelFart.DisplayName: Gel Fart
+	GellitaJr.DisplayName: Gellita Jr
+	TurretBullet.DisplayName: Turret Bullet
+	VinemongerHead.DisplayName: Vinemonger Head
+	JellyBubble.DisplayName: Jelly Bubble
+	SpaceJellyfishSummon.DisplayName: Space Jellyfish Summon
+	BigFungusSentryOld.DisplayName: Big Fungus Sentry Old
+	MushroomSmash.DisplayName: Mushroom Smash
+	AlbedoSentry.DisplayName: Albedo Sentry
+	CrystalStrike.DisplayName: Crystal Strike
+	SprinklerSentry.DisplayName: Sprinkler Sentry
+	SprinklerSpray.DisplayName: Sprinkler Spray
+	ChikageBlade.DisplayName: Chikage Blade
+	ChikageDash.DisplayName: Chikage Dash
+	ChikageSheath.DisplayName: Chikage Sheath
+	WindfallGroundedSpectre.DisplayName: Windfall Grounded Spectre
+	WindfallSpear.DisplayName: Windfall Spear
+	WindfallSpearPlunge.DisplayName: Windfall Spear Plunge
+	WindfallSpearSwing.DisplayName: Windfall Spear Swing
+	MagmaFangArrow.DisplayName: Magma Fang Arrow
+	MotorbugPet.DisplayName: Motorbug Pet
+	IceSlamBlast.DisplayName: Ice Slam Blast
+	MenaceFrostWave.DisplayName: Menace Frost Wave
+	EpicIceSlamBlast.DisplayName: Epic Ice Slam Blast
+	MoonBoulder.DisplayName: Moon Boulder
+	MenaceStarfall.DisplayName: Menace Starfall
+	QliphothCutterParry.DisplayName: Qliphoth Cutter Parry
+	SunStrike.DisplayName: Sun Strike
+	DiamondResonance.DisplayName: Diamond Resonance
+	MirrorBolt.DisplayName: Mirror Bolt
+	DrizzleArrow.DisplayName: Drizzle Arrow
+	PrecipitationBoom.DisplayName: Precipitation Boom
+	SwitcherBoom.DisplayName: Switcher Boom
+	MasterParaffinPet.DisplayName: Master Paraffin Pet
+	FrostyGloveHeld.DisplayName: Frosty Glove Held
+	Smallball.DisplayName: Smallball
+	MothShockwave.DisplayName: Moth Shockwave
+	WindfallMoth.DisplayName: Windfall Moth
+	MasterMiragePet.DisplayName: Master Mirage Pet
+	CinnabarBoom.DisplayName: Cinnabar Boom
+	JohnRimebreaker.DisplayName: John Rimebreaker
+	JohnRimebreakerCheer.DisplayName: John Rimebreaker Cheer
+	BigGaboongaHeld.DisplayName: Big Gaboonga Held
+	BigJuicyMeat.DisplayName: Big Juicy Meat
+	Meatslice.DisplayName: Meatslice
+	MeatBlast.DisplayName: Meat Blast
+	MementoMoriDrain.DisplayName: Memento Mori Drain
+	MementoChain.DisplayName: Memento Chain
+	MeleeVivereLunge.DisplayName: Melee Vivere Lunge
+	MeleeVivereSlash.DisplayName: Melee Vivere Slash
+	GenericTileExplosion.DisplayName: Generic Tile Explosion
+	MementoVivereLunge.DisplayName: Memento Vivere Lunge
+	MementoVivereSlash.DisplayName: Memento Vivere Slash
+	MemorySoapProjectile.DisplayName: Memory Soap Projectile
+}
+
+Tiles: {
+	HiddenGoldenChest: {
+		ContainerName: Hidden Golden Chest
+		MapEntry: Hidden Golden Chest
+	}
+
+	PorkChest: {
+		ContainerName: Pork Chest
+		MapEntry: Pork Chest
+	}
+
+	FrostbiteBarrel: {
+		ContainerName: Frostbite Barrel
+		MapEntry: Frostbite Barrel
+	}
+
+	FrostbiteWoodChest: {
+		ContainerName: Hidden Golden Chest
+		MapEntry: Frostbite Wood Chest
+	}
+
+	FrostbiteWoodDresserTile.ContainerName: Frostbite Wood Dresser
+
+	ChampionChestTile: {
+		ContainerName: Champion Chest
+		MapEntry: Champion Chest
+		MapEntryLocked: Locked Champion Chest
+	}
+
+	TectonicChest: {
+		ContainerName: Tectonic Chest
+		MapEntry: Tectonic Chest
+		MapEntryLocked: Locked Tectonic Chest
+	}
+
+	LordsCog.MapEntry: Lord's Cog
+	FrostbiteCrateTile.MapEntry: Crate
+	Banners.MapEntry: Banner
+	Amplifier.MapEntry: Amplifier
+	BlastForge.MapEntry: Blast Forge
+	StoneofInspiration.MapEntry: Stone of Inspiration
+	CoolwellTile.MapEntry: Coolwell
+	CriminalStatueTile.MapEntry: Statue
+	GoodwellTile.MapEntry: Goodwell
+	HiddenGoldenChest_Locked.MapEntry: Locked Chest
+	KitCatClockTile.MapEntry: Kit Cat Clock
+	MusicBoxes.MapEntry: Music Box
+	HiddenGoldenChest_Trapped.MapEntry: Hidden Golden Chest
+	PorkChest_Trapped.MapEntry: Pork Chest
+	FrostbiteWoodChest_Trapped.MapEntry: Frostbite Wood Chest
+	TectonicChest_Trapped.MapEntry: Tectonic Chest
+	BatPot.MapEntry: Big Pot
+	CultistStatueTile.MapEntry: Statue
+	HolographicBoardTile.MapEntry: Holographic Board
+	HuskStatueTile.MapEntry: Statue
+	KeystoneTile.MapEntry: Keystone
+	OceanAltar.MapEntry: Ocean Beacon
+	RevealingSignTile.MapEntry: Revealing Sign
+	RoundCactus.MapEntry: Round Cactus
+	ShovelStatueTile.MapEntry: Statue
+	TeslaTowerTile.MapEntry: Tesla Tower
+	WarningSignTile.MapEntry: Warning Sign
+	FrostbiteSapling.MapEntry: Frostbite Sapling
+	FrozenGravestoneTile.MapEntry: Frozen Gravestone
+	FrostbiteWoodBedTile.MapEntry: Example Bed
+	FrostbiteWoodWorkbenchTile.MapEntry: Frostbite Workbench
+	BasaltitePot.MapEntry: Basaltite Pot
+	BasaltitePot2.MapEntry: Explosive Basaltite Pot
+	ChampionChestTile_Locked.MapEntry: Locked Champion Chest
+	MonsterCageTile.MapEntry: Monster Cage
+	TectonicChest_Locked.MapEntry: Tectonic Chest
+}
+
+TownNPCs: {
+	Generic.Interested: "{0}が何か話したそうだ！"
+
+	Collector: {
+		Name: ゲノシ
+		Tooltip: ゲノシが興味を示すかもしれない...
+		Tooltip2: ゲノシが不快に思うかもしれない...
+		Tooltip3: 誰かが興味を示すかもしれない...
+		Left: ゲノシは去っていった...
+
+		Exchange: {
+			1: おっ、エンチャントソードじゃないか！強い、速い、ビームも撃てる！王道ってやつだな！でもこれから先を考えると、もう少し頼れる相棒が欲しいところだ。どうだい、このムーンダイアルと交換しないか？こいつも強い！速い！しかもビームも撃つ！...え？他に何を期待してたんだ？虹色のネコでも飛び出してくると思ったかい？
+			2: そういえばスピリットってさ、頭蓋骨が大好きなんだよ。どこへ行くにも持ち歩いてるんだぜ？いやまあ、変わってるところは他にも山ほどあるんだけどさ！その話を始めると長くなるからな！どうだい？その頭蓋骨、召喚士にはたまらないアクセサリーと交換しないか？
+			3: おっ、アイスフェザーを見つけたのか！普通ならフロストウィングの材料になるやつだな。でもな、せっかくだから特別な品を紹介してやろう！これは昔いた氷の妖精の翼だ。しかもただの妖精じゃない、その一族で最強だったって噂のやつさ！どうだ？ちょっとワクワクしてきただろ？
+			4: おっ、シャドウキーじゃないか！でも正直なところ、それで開けるような大物はもう残ってないと思うんだよなぁ。そこでだ！このレッド・ティアストーンの指輪はどうだい？ピンチになればなるほど火力が上がる優れものさ！なかなか魅力的だと思わないか？
+			5: おいおい、そのマーク知ってるぞ！昔のネクサス硬貨じゃないか！...待てよ。まさか本当に？その硬貨の持ち主を見つけたっていうのか！？あいつにはずいぶん手を焼かされたんだ。散々好き放題やった挙げ句、この次元に逃げ込んだんだからな！ところが着地座標をミスして、氷の下に真っ逆さま！いやぁ、なんとも気の毒な話だ。今ごろ冷え冷えの時間を満喫してるんじゃないか？だって凍死したんだからな！...っと、悪い悪い。その硬貨、こっちにくれよ！報酬はしっかり渡すからさ！
+			6: その重たくて古臭いハープーン、そろそろ飽きてきたんじゃないか？大丈夫！面白い代物を用意してるぞ！このレイピアは火力だけ見れば少し控えめだ。でも伸びしろなら抜群！育てがいのある一本ってやつさ！
+			7: 新しい武器が欲しいって？だったらちょうどいい！とっておきの槍が一本だけ残ってるんだ！他のは全部、去年ある女優さんに買われちゃってな。演出は派手で評判だったんだけど、ダストを撒き散らしすぎて処理落ち祭りになっちまったんだ。結果、劇場は閉鎖！...いやいや、笑い事じゃないぞ？ちなみにこれは超重要な設定だからな！そのうちちゃんと意味が分かるはずさ！
+			8: いやー、正直これは説明できないな！設定的にどう辻褄を合わせればいいのか、俺にも分からん！変な芸術作品か、とんでもなく悪趣味な博物館の展示か...どっちにしても、存在してるってだけで怖すぎるんだよ！
+			9: おおっ！なんて珍しいスッポンだ！そんなの手に入れたら、他のコレクターたちが羨ましがるぞ～！そうそう、君ってラケット好きだったよな？だったらハチのようにハッピーになれる話がある！交換用に、とびきりハチミツ級の逸品を用意してるんだ！さあ、ブンブン飛び回ろうじゃないか！
+			10: この帽子を死都の蛙魔女から奪うのは大変だったらしいぞ！...え？その話の詳細？いやぁ、俺はぐっすり寝てて見逃しちゃったんだよな！でもせっかくの戦利品だ！きっと役に立つさ！
+			11: おっ、そのおもちゃのブラスター見つけたのか！よしよし、さっさとこっちへ渡してくれ！代わりにとびきりの宇宙技術を譲ってやるからさ！それと、あのアンデッド海賊の死体から拾った魔法銃――[c/DD99FF:ウォルター]だっけ？あんなのはポイだポイ！こっちの方が何倍もイケてるぞ！
+			12: おっ、見張り用の目玉じゃないか！これがあれば、町の連中がフラフラ歩き回ってても俺の金貨の山を見張らせられるな！うーん...代わりにスピリットが作ったこの杖をやろう！なんか量子的なアレを召喚するらしいぞ！詳しくは知らん！物理とか苦手なんだ！でもな、敵がたくさんいるほど強くなるって話だけは聞いてる！
+			13: おっと、心でも読んだのかい？ちょうど釣りに行こうとしてたんだ！釣りって最高だろ？夢中になれるし、のんびりできるしさ！ところで、ちょっと在庫整理に困っててな。手伝ってくれたら、このすごい装置を譲ってやるよ！昔は従業員の仕事ぶりを監視するための機械だったんだ。...もっとも、この世界じゃ誰も働いてないんだけどな！
+			14: おおっ！ついに究極の逸品が来たぞ！ただのスイッチだ！...いやいや、笑うなって！松明を消したり点けたりする手間がどれだけ大変か知ってるかい？それはさておき、昔の俺は結構な有名人だったんだ。大物になれば大きな仕事も舞い込む。で、中には契約を守らない連中もいるわけさ。そういう時は...まあ、ちょっとした教育が必要になるんだよな。
+			15: ま、待て待て！それどこで拾ったんだ！？いや...なんだか誰かのアレを思い出してな。...気にしないでくれ！ほら、俺って偉い立場だっただろ？だから時々は餌やり係みたいな仕事もしなきゃいけなかったんだよ。しかも従業員どもがまた怠け者でさ！...おっと、平民だったな！でもスピリットがとんでもないアイデアを思いついたんだ！どうだ？なかなか天才的だと思わないか？ネクサスじゃガブーンガを手に入れるのは本当に大変なんだ。だから今日は特別サービスだ！これを持っていきな！その銃はこっちに寄こしてくれよ？
+		}
+
+		ExchangeStart: {
+			1: さあ、どんな品を持ってきたんだい！
+			2: さあ友よ、とっておきの品を見せてくれ！
+			3: おっ、新しい掘り出し物でも持ってきたのか？
+		}
+
+		ExchangeAbort: {
+			1: おやおや、気が変わっちまったかい？
+			2: なるほど、まだ手放せない事情があるってわけだな？
+			3: なーに、焦ることはないさ！
+			4: 待つのは構わないけどさ、あんまり長いと店じまいしちまうぞ？
+		}
+
+		ExchangeIndicator: {
+			Empty: "[ 交換したいアイテムを選んでくれ！]"
+			Confirm: "[ この内容で交換するかい？]"
+		}
+
+		ExchangeButton: 交換
+		LoreButton: 伝承
+		ExchangeStatus: 交換可能なアイテムがあります！
+		BuffAccept: あぁ、そうだな...
+		Accept: もちろん
+
+		Phrase: {
+			Hello: おやおや！これは誰かと思ったら！君があの[c/DD99FF:スピリット]がずーっと話してた相手かい？いやぁ、しかし大変だな！転移装置の調子がイマイチだったみたいだ。その顔を見れば一目瞭然さ！...っと、君いじりはこのくらいにしておこう！俺は危険な冒険をサポートするために来たんだ。元素の話は聞いたことあるか？全部集めてきてくれ。そしたら面白いことができそうだからな！
+			Party: 楽しむのはいいけどさ！任務のことも忘れちゃ駄目だぞ！
+			Librarian: なあ、あの新しい司書さん、ちょっと怪しくないか？どこかで見た覚えがあるんだよなぁ...まあいいか！気のせいかもしれないしな！
+			Tavernkeeper: 昔はもっと平和だったんだぜ？異常現象もなかったし、異世界から人がどんどん流れ込んでくることもなかった。ほら、あの酒場の主人を見てみろよ！自分がどうやってここに来たのかすら覚えてないんだからさ！もう世界っていうより、異世界旅行者の乗り換え駅だよな！
+
+			Dryad: {
+				1: 	おいおい、このドライアド、相当な大物みたいじゃないか！でも妙だなぁ。ドライアドって何百人もいたはずだろ？他の連中はいったいどこへ行ったんだ？確かにもっといたはずなんだけどな！
+				2: 	もう勘弁してくれよ～！そのドライアドに言っといてくれ。浄化の粉を俺に振りまくのはやめろってさ！
+			}
+
+			WantedPoster: 
+				'''
+				あー、その顔かぁ...前にも話した気がするんだけどな！そうそう、あいつは科学者だったんだ。ジェットスリッパだとか妙な発明ばっかり作っててさ。
+
+				最初は面白かったんだよ？
+				でもそのうち俺の予算から資源をくすね始めて、挙げ句の果てには禁止技術にまで手を出した。そのせいで次元間飛行船は大惨事！犠牲者も山ほど出た！
+				で、その後始末を押し付けられたのが誰だったと思う？
+				...はぁ。悪いけど、それは片付けてくれ。まだ仕事が山積みなんだ。
+				'''
+			TravelingMerchant: いやぁ、{0}の商売のやり方は見事だよな！世界中を回って珍しいガラクタを集めるだろ？それを別次元の自分に売るんだ！で、向こうの自分も同じことをやる。無限の世界で無限の儲け！完璧じゃないか！ちょっと嫉妬しちゃうよなぁ。
+			Angler: まあ、この辺りに天才はそう多くないんだけどさ！{0}は気に入ってるんだ。あいつはタフだし、この世界の誰より物知りかもしれないぞ？あれだけファンが多いのも納得だな！
+			PoorUnfortunateSoul: 
+				'''
+				うーん、なんとも気の毒な魂だなぁ。でも正直、君には必要なさそうだし、俺のコレクションももう満杯なんだよな。
+
+				...とはいえ、面白い話を聞いたことがある。特別な儀式で魂を解放できるらしいんだ！
+				まず溶岩へ投げ込む！...いや、水だったかな？それから餞別を置いて、浄化の粉をパラパラっと振る！何が起こるかって？知らん！気になるなら試してみてくれよ！
+				'''
+			Nickname: おっと相棒、出遅れたな！そのニックネームはもう先客がいるぞ！
+			Sus: なあ、最近ちょっと変なことに気付いてるんだ。町の連中の何人かが、妙に怪しいんだよ。前から変だった奴もいるけど、それとは別の意味でな。なんていうか...誰かと入れ替わっちまったみたいなんだ。不気味だろ？気を付けて見ておけよ。中には本物じゃない奴が混じってるかもしれないぜ。
+			Skeletron: 元素が見つからないって？だったらダンジョンの近くにいる、あの呪われた老人を調べてみな！あいつ、絶対に元素を隠し持ってるぞ！
+			OneShot: そういえばさ、変な場所にでっかい帆船があったりしなかったか？いやいや、ただ気になっただけさ！
+			Cup: おおっ！なんて素敵なバケツなんだ！ちょっとだけネタバレすると、その中には火の元素が入ってるぞ！でも開け方は教えない！せっかくの発見の楽しみを奪いたくないからな！
+			Buff: 聞いて驚くなよ！今日はとんでもなく調子がいいんだ！こんなに元気なのは久しぶりだぞ！保険って本当に役に立つんだなぁ。さて！君も何か一つくらい役立つことをしてみないか？
+		}
+
+		ExchangeTip: {
+			1: 交換するアイテムを置いてください
+			2: アイテムをクリックして交換してください
+		}
+
+		ExchangeReaction: {
+			1: 完璧だ！
+			2: 素晴らしい！
+			3: キラリーン！
+			4: チリーン！
+			5: いいね。
+			6: やっとだ。
+			7: いい選択だ。
+		}
+
+		GaboongaReaction: ガブーンガブラスト！
+
+		Lore: {
+			1: 俺かい？君と同じ旅人みたいなものさ！まあ違うところがあるとすれば、自前の宮殿があって、部下が山ほどいて、それから金が――本当に山ほどあるってことくらいかな！なーに、君もそのうち追いつけるさ！
+			2: ネクサスを知らないって！？おいおい、本当に洞窟で暮らしてたのかい？しょうがないなぁ。分かりやすく説明してやろう！ネクサスってのは、いろんな世界の英雄たちが集まる場所さ。商人に科学者、建築家に冒険家...自分の世界だけじゃ物足りなくなった連中のたまり場ってわけだ！ま、見方を変えれば――こういう変わり者たちが君の世界へ押しかけてくるための口実でもあるんだけどな！
+			3: "[c/DD99FF:スピリット]のことか？あいつは俺の保護下にいる子だよ。君たちの世界で起きてる異常現象を調べながら、ある悪党を追ってたんだ。なのに突然ひとりで動き始めてな。まあ、心配はしてないさ！なんだかんだで、ちゃんと来るべき世界には辿り着いたみたいだしな！それより、この大騒動をどうやって片付けるつもりなのか気になるよ！"
+			4: 
+				'''
+				I.D.E.A.のことかい？正式名称は
+				『Inter-Dimensional Emergency Agency』
+				...うん、略称は俺も微妙だと思ってる。簡単に言うとだな、
+				「Modを入れすぎて世界をぶっ壊すな！」
+				って言うための組織さ。
+
+				やりすぎると世界の流れがめちゃくちゃになるし、せっかくの冒険も台無しになっちまうからな。もっとも――
+				[c/DD99FF:スピリット]みたいなのが組織の中枢にいる時点で、誰もそこまで真剣に受け止めちゃいないんだ。...まあ、そういうことさ！
+				'''
+			5:
+				'''
+				砂の民だって？へぇ、そんな話に興味があるのかい！まあ教えてやろう。
+				ネクサスの住人の大半は、実は鉱物系生命体なんだ。我ながら変な話だと思うよ！
+				でもな、そういう身体だからこそ転移が得意なんだ。遠い世界を飛び回る旅人にはうってつけってわけさ！ほら、一人は目の前にいるだろ？[c/DD99FF:スピリット]にも会ったはずだし...
+
+				あとの連中？いやぁ...できれば会わない方がいいと思うぞ。
+				'''
+			6:
+				'''
+				転送機の話か！昔の旅人はな、PDAなんて便利な物がなかったから、魔法の鏡みたいなもので空間を曲げて移動してたんだ。
+				でも俺たちはそこからさらに進歩した！今じゃ世界そのものを飛び越えられるんだぞ！それでだ、つい最近とびきり高性能な転送機を[c/DD99FF:スピリット]に渡したんだけど...
+
+				あいつ、もう壊した！本当に早かった！はぁ...あのサイズに合う転送機を見つける苦労も知らないでさ...。
+				'''
+			7: 
+				'''
+				さてさて！
+				どうやら俺の素晴らしく面白い講義もここまでみたいだな！もし何も分からなかったなら、それはそれで結構！
+				その方が説明する側としては楽だからさ！
+
+				それに暇なら、最初からもう一回話してやってもいいぞ？どうせ時間は腐るほどあるんだろ？
+				'''
+		}
+
+		Talk: {
+			1: おっ、生きてたか！それで、今日は何の用だい？
+			2: おおっ、俺のお気に入りの従業員くんじゃないか！で、仕事の方は順調かい？
+			3: ははっ！俺についてくれば山だって動かせるさ、間違いない！
+			4: おいおい、日に日に疲れた顔になってるじゃないか！ちゃんと寝てるか？
+			5: あれ、何か言おうとしてたんだけどなぁ。...まあいいか！
+			6: 珍しい物を見つけたらぜひ持ってきてくれよ！こっちも交換できる面白い品をたくさん用意してるからさ！
+			7: いやぁ、この世界って本当に可能性の塊だよな！もうすぐ滅ぶと思うと少し寂しくなるくらい――...え？今なんて言ったって？
+			8: 
+				'''
+				元素ってのは現代文明の土台なんだ！カッコいい銃を作るためだけの物じゃないぞ！...まあ、俺たちはだいたい銃作りに使ってるんだけどな！
+
+				でもな、それぞれの元素は無限に近いエネルギー源でもあるんだ。
+				問題は、その辺に転がってないってことさ。この世界の強いやつらが、きっと全部抱え込んじまってる。
+
+				だから倒して取り返してくれ！俺たちの元素をな！
+				'''
+			9: いらないガラクタを持ってこいよ！新品同然のガラクタと交換してやるからさ！
+			10: 武勇伝ばっかり語るくせに、肝心な時に何もできない奴っているだろ？ああいうのは苦手なんだ。その点[c/DD99FF:スピリット]はいいぞ！必要な時はしっかり賢いし、変なことを根掘り葉掘り聞いてこないからな！
+			11: ははっ、[c/DD99FF:スピリット]の話ばっかりしてるって？まあそうかもな！でもしょうがないだろ？あいつは俺の最高傑作なんだからさ！
+			12: この世界で生き残るコツを教えてくれる奴がいるって聞いたことがあるな。俺じゃないぞ？だって全然覚えてないんだから！
+		}
+	}
+
+	Shutterbug: {
+		Name: {
+			1: ディオナ
+			2: アンナ
+			3: フラッシュ
+			4: カミラ
+			5: クロエ
+			6: クレア
+			7: オリヤ
+		}
+
+		ClipButton: 撮影
+		AlbumButton: アルバム
+		Accept: よし！
+		RewardAvailable: 撮影報酬を受け取れます！
+		MagicClipAvailable: デイリーマジッククリップを受け取れます。
+
+		Phrase: {
+			Start: 
+				'''
+				おーい！ちょうど暇そうじゃん！
+
+				部屋探してくるから、その間カメラ持っててくれない？
+				ついでに、あたしが全然これっぽっちも怖がってない生き物たちの写真も撮ってきてよ！
+				だいじょーぶ、ちゃんとお金は払うからさ！
+				'''
+			Talk1: ねえねえ！あたしの自慢のアルバム見てみない？
+			Talk2: もーっ！自撮りしてる時は邪魔しないでって言ったじゃん！
+			Talk3: あたしね、言葉だけで伝えるのってあんまり得意じゃないんだ。だから写真を撮るの！
+			Talk4: ちょっと！絶対にそのカメラ壊さないでよね！ここじゃ直せる人なんていないんだから！
+			LowHealth: えっ、あたしのモデルになりたいの？ごめんねー、死んじゃった後の撮影は専門外なんだ！
+			Night: 外が暗いから撮れない？もー、そんなのただの言い訳なんだからね！
+			BloodMoon: ちょっとちょっと！こんなチャンス逃す気！？見てよ、あんなに写真映えするモンスターがうじゃうじゃいるのに、まだ誰も撮ってないんだよ！
+			TakeClip: はい、どーぞ！どこかで思いっきり自分らしさを爆発させてきなよ！
+			TakeClipParty: ラッキーだったね！今日は特別にサービスしちゃうよ！
+			NoClip: もー！一日に何枚も傑作が撮れるほど運が良いと思ってるの？
+			NoClipParty: 今パーティー楽しんでるんだから、邪魔しないでよね！
+		}
+	}
+
+	Magician: {
+		Name: {
+			1: アルカディ
+			2: ドリュー
+			3: ヴァディム
+			4: ガストン
+			5: ダープリング
+			6: カブロク
+			7: フーディーニ
+		}
+
+		Spawn: 旅のマジシャンが訪れた！
+		Despawn: 旅のマジシャンが旅立った！
+		Accept: もちろん！
+
+		Phrase: {
+			Start: 夜が訪れ、ようやく競争相手たちも店じまいしたようだな！私は誰かって？金儲けが大好きな老魔術師さ。懐に余裕があるなら、面白い芸を披露しよう！
+			Talk1: 何年も各地を巡って腕を磨いてきたからな！見ればきっと驚くはずさ！
+			Talk2: 「友情は魔法」なんて聞くたびに吹き出しそうになるよ。みんな知ってるだろう？あれは魔法じゃなくて魔女の業さ。
+		}
+	}
+
+	TwilightWalker: {
+		Name: {
+			1: カロン
+			2: ミノス
+			3: プルート
+			4: カトン
+			5: エレボス
+			6: アーケン
+			7: マロ
+			8: ムン
+		}
+
+		Accept: もちろん...?
+
+		Phrase: {
+			Start: そうか...君が新たにこの地へ辿り着いた者なのだな。こんな姿になった世界を最初に見るのは、あまり愉快なことではあるまい。だが案ずることはない。君の前にここを歩いた者が、もしものために連絡の術を残していった。困った時でも、退屈を持て余した時でも、好きに使うといい。...何だ、その顔は。見知らぬ旅人から怪しげな道具を受け取るくらい、そう珍しいことでもないだろう？
+			Talk1: 今日はどんな風が君をここへ運んできたのだろうな？
+			Talk2: また会えたな、異郷の旅人よ。
+			Talk3: 時折考えるのだ。あの魔物たちは、一体どこであれほどの金貨を手に入れているのだろう、と。
+			Talk4: 魂を差し出すつもりなら...せめて信用できる悪魔を選ぶことだな
+			TalkSurface1: ...ずいぶん冷えるな。
+			TalkSurface2: ...どうにも調子が優れない。星々の光が、私には少々眩しすぎるのかもしれないな。
+			Party: 消防隊を呼んだ方がいいかもしれないな。この宴は、火事と見紛うほどの熱気に満ちている。
+			Hardmode: この世界のどこかで、巨大で不穏な何かが蠢いている気がするか？...心配はいらない。それはごくありふれた不安というものだ。
+			NewMoon: 私の言葉が役に立たなかったなら許してくれ。こうして謎を纏い、疑念を抱かせる存在でいるのも、なかなか忙しいものでね。
+		}
+	}
+
+	AstrologistBad: {
+		Spawn: 新たな挑戦者が現れた！
+		Spawn2: メナスが再び暴れ出した！
+		Challenge: 挑戦
+
+		Phrase: {
+			Start: 私の蔵書にある古臭くて退屈な歴史書によれば、この世界の唯一の支配者になる方法は簡単よ。「テラリアン」を見つけて打ち倒すだけ。だから、その取るに足らない害獣探しに協力しなさいな。
+			Talk1: まったく、この夜が明けるまで誰も私に挑戦しないつもり？そんな拍子抜けな結末はごめんだわ。
+			Talk2: ひどい有様ね！私を迎えるなら、もう少し見栄えを整えておくべきだったんじゃないかしら？それに私の臣民たち、ずいぶん疲れ切っているようだけど...休息という概念を知らないの？
+			Talk3: この世界の建築事情、根本から見直す必要があるわね。
+		}
+	}
+
+	Astrologist: {
+		Name: {
+			1: オーロラ
+			2: セレス
+			3: ヴィーナス
+			4: ムーン
+			5: エクリプス
+			6: ハレー
+			7: メテオラ
+			8: モナ
+			9: ソラナ
+			10: ルミナ
+		}
+
+		Accept: もちろん
+
+		Phrase: {
+			Start: 
+				'''
+				あら、またあのペットに身体を乗っ取られていたみたいね。まったく、いつものことだわ。何を考えているのやら。
+				さて、この辺りの責任者はあなたかしら？なら都合がいいわ。
+				私はここに無償で居座って、胡散臭い品々を驚くような値段で売ることにする。
+				悪くない取引でしょう？
+				なら決まりね。さあ、誰か一人くらい始末してきなさいな。
+				'''
+			Talk1: 星々によれば、あなたの未来は実に輝かしいそうよ。...もっとも、私ならそんな甘い言葉で持ち上げたりはしないけれどね。
+			Talk2: 力を持つほど、物事なんてどうでもよくなってくるものよ。
+			Talk3: 今でも運命を出し抜けると思っているのかしら？ふふ、その足掻きがどんな結末を迎えるのか楽しみだわ。
+			Talk4: ねえ、そんなに暇なの？他にやるべきことがあるんじゃなくて？
+			Talk5: あなたのオーラ、なかなか深刻な状態ね。特に腕前が壊滅的だわ。
+			Talk6: 少なくとも私の家は妙な形をしていないし、茶色い箱みたいでもないわね。
+			Asleep: 『おかけになった相手は現在応答できません。』
+		}
+	}
+
+	Menace: {
+		Phrase: {
+			Start: 
+				'''
+				はぁ？あいつ寝たのか？ようやく静かになったわねぇ！
+				あの規格外の天候魔法と私の政治センスがあれば、世界なんてとっくに手中に収めていたというのに。
+				なのに私の提案は全然聞かない。というか、何事も真面目に考えないんだ。星のお告げだけを頼りにしてね。
+
+				ところで......あなた、もっと面白いことを求めているんでしょう？
+				一声かけてくれれば、私が盛大な見せ場を作ってあげるわ！
+				安心しなさい、合法だし怪しくもないわよ？
+				'''
+			Talk1: 正直、この世界の支配者としては悪くない働きをしていると思うわ。もっとも、すでに何かに憑かれているのが惜しいところだけれど。
+			Talk2: 私の名前を3回続けて唱えればいいのよ。そう、間を空けずに3回ね。...あら？それは別の誰かの決まりだったかしら。
+			Talk3: 憑依だの二重人格だの、陳腐な設定だと言う人もいるでしょうね。でも、あの子にも多少は物語の深みが必要じゃない？
+		}
+	}
+
+	Vulcan: {
+		Accept: もちろん
+		AcceptLore: あぁ...
+		Start: ...あの忌々しいキャンドルを倒したのはあんたか。大したものだ。俺は鍛冶師ヴァルカンだ。防具を打ち直したくなったら来るといい。
+		Cup: ...それを、どこで見つけた。いいから戻せ。それは面倒事しか招かない。
+		PoorUnfortunateSoul: 
+			'''
+			...ああ、それか。
+			覚えている。
+			あれは道具を介して扱う記憶媒体だ。生きた保管庫と言った方が近いかもしれんな。
+			脳を分割し、必要な記憶だけを残して不要なものを切り捨てる。
+			昔の貴族は、退屈な会議中に居眠りしながら情報を頭に入れるために使っていた。
+			心配はいらん。物自体は危険じゃない。
+			...問題があるとすれば持ち主の方だ。
+			'''
+		Reforge: 鍛え直す
+		Nickname: 同じ名前か。...悪くない、覚える手間が省ける。
+
+		Talk: {
+			1: 来たか。...誰にも見られていないな？なにか鍛え直したいものがあるか？
+			2: 気に病むな。問題は遠くにあって、お前はここにいる。ほら見てみろ、俺はこんなに落ち着いている。だから大丈夫だ。...見つからなければ、な。
+			3: 嫌われても構わん。人を貶すのは、自分より下だと思う相手だけだ。本当に優れた者は...何も言わない。
+			4: いや、俺はここにいる方がいい。巨大な化け物の髑髏になる気分じゃない。
+			5: 昔はもっと良い仕事ができた。...あの呪われたキャンドルのせいだ。あいつも、いつか報いを受けるだろう。
+			6: 防具を打ち直したいなら、俺のところへ来い。
+			7: 
+				'''
+				人によって体格に大きな差があることに気付いたか。
+				...別に趣味が悪いわけじゃない。少なくとも大半はな。
+				砂の民は生まれた時、大きく形も定まっていない。
+				だが年を取るにつれ、経験と傷を積み重ねながら身体は引き締まっていく。
+				だから痩せたい連中が運動ではなく、お涙頂戴の芝居を見たがるのも理屈の上では説明がつく。
+				...まったく、妙な話だ。
+				'''
+		}
+
+		LoreButton: 伝承
+		LoreStart: 
+			'''
+			...また会ったな。
+			どうやら、あいつの騒動には終止符が打たれたらしい。
+			あの器も、もう厄介事を招くことはないだろう。
+
+			なら話そう。
+			俺の過去についてだ。
+
+			あまり愉快な話じゃない。
+			涙を拭くものくらいは用意しておけ。
+			'''
+
+		Lore: {
+			0: 
+				'''
+				...昔は違った。気楽で、悪くない人生だった。
+				だが、ある日すべてが狂った。
+
+				ネクサスから逃げ、地下深くの洞窟に隠れた。
+				武器を鍛えても、何かを作っても、それを見る者はいない。
+
+				そして俺は――最悪の思いつきをした。
+				'''
+			1: 
+				'''
+				蝋と灰で彫像を作った。
+				外へ出られないよう、この場所に縛り付けた。
+
+				そして、生きた炎を宿す杯で命を与えた。
+
+				完璧だと思った。
+				裏切らず、どんな計画にも付き合う友になるはずだった。
+				'''
+			2: 
+				'''
+				本でも映画でも、こういう話の結末は決まっている。
+
+				あいつは口うるさく、図々しく、騒がしく、どこにでも現れた。
+
+				しかも冥界に結び付けてしまったせいで、
+				俺は永遠にあいつから逃れられなくなった。
+				'''
+			3: 
+				'''
+				あいつを殺すことはできなかった。
+				意思に反して命を奪う気もなかった。
+
+				だが、遠ざける必要はあった。
+				だから骨と石を集め、もう一体の生きた彫像を作った。
+				狙いは単純だ。あのキャンドルの興味を別へ向けること。
+
+				だからそいつを強く作り、見栄えも良くし、
+				ついでに大げさな英雄譚まで用意してやった。
+				'''
+			4: 
+				'''
+				やっと静かになったと思った。
+				だが、今度は彼が来た。
+
+				疲れ果て、打ちのめされていた。
+
+				あれほど辛抱強い男ですら、あいつには耐え切れなかったらしい。
+
+				また彫像を作ろうとしたが...炎はもう残っていなかった。
+				'''
+			5: 
+				'''
+				その夜だった。
+
+				彼は床を突き破って現れ、胸から炎を引き抜いた。
+				まるで芝居の一幕だったな。
+				炎を杯へ戻し、鎖で縛り、固く封じた。
+				残ったのは石の残骸だけだ。
+
+				彼女は激怒したよ。あれほど怒る姿は見たことがない。
+				そして、その責任は俺に押し付けられた。
+				'''
+			6: 
+				'''
+				彼女は遺跡を荒らし、杯と巨大な檻、そして鍵を持って地下へ消えた。
+
+				何を考えていたのかは分からん。
+				誰かに取り入るため、自分が囚われていたように
+				見せたかったのかもしれない。
+
+				...まあいい。
+				また聞きたくなったら来るといい。
+				どうせ暇だからな。
+				'''
+		}
+	}
+
+	Commando: {
+		Name: {
+			1: ウー
+			2: グレイ
+			3: フォード
+			4: ザフォド
+			5: ダグラス
+			6: マーヴィン
+			7: スラーティバートファスト
+			8: グーバー
+		}
+
+		Start: オオ、私ノトランジスタヨ...！モ、モ、申し訳ナイ...！君タチノ世界ニハ善良ナ個体ガ多数存在スル。集会、祝祭、娯楽、祭典...ソノ全テガ実ニ人類的デ、少々無防備ナ程ダ！私ノ母星デハ、ソノヨウナ平穏ナ生活ハ実現不可能ダ...。ダカラ私ハ、君タチノ大家族ノ一員ニナリタカッタダケナノダ！
+		Accept: 礼ニハ及バナイ！
+
+		Talk: {
+			0: アロハ！人類ハコノ挨拶ヲ使用スルノダロウ？
+			1: オオ、到着ヲ確認シタ！何カ用件ガアルノカ？
+			2: ロボットガロボットヲ修復スル場合、整備士ト医師ノドチラニ分類スベキダロウカ...。オット、来訪ヲ確認！少々思考ニ没頭シテイタ。
+		}
+
+		BloodMoon: 外部環境ハ危険ダ...。人類ガ脳ヲ摂取スル習慣ハ数世紀前ニハ廃レタモノト認識シテイタ。
+		Party: 飲料ノ提供提案ガ多過ギテ困惑スル。宇宙服ヲ解除シテ摂取シタ場合、酸素中毒ニヨリ死亡スル可能性ガ高イノダガ！
+	}
+
+	Spirit: {
+		Prompt: スピリットがとてもお腹を空かせている！
+		BrainPowerText: 与えて脳力を獲得！
+		BrainPowerLv: Lv.
+		Info:
+			'''
+			スピリットに食べ物を与えると貴重な報酬を獲得できる！
+			[c/DD99FF:脳力] を [c/DD99FF:レベル5] と [c/DD99FF:レベル15] まで上げると特別な贈り物がもらえる...
+			'''
+
+		Food: {
+			Button: 与える
+			1: やったーっ！！それだよ、それそれ！ずーっと待ってたんだから！キミっ頼りになるじゃないカ！！
+			2: えっ、これホントに食べ物！？なんだかアヤシイ気配がするんだけど...まあ、一応チャレンジしてみる！
+			3: ゴメン！エビに関するカッコいい決めゼリフは思いつかなかった！でも食べる！モチロン食べるよ！
+			4: わぁーっ、おいしそう！こっちへおいでーっ！
+			5: んー？それ飲み物じゃない？ワタシはどっちかっていうと食べる専門なんだけどなぁ。でもそのマグカップはもらっとこうかな！
+			6: 「ほらみんな集まってくる！集まってくる！ピカピカ輝くモノのところへ！...んーっ、魚料理サイコー！」
+			7: わぁっ、ゴージャスなご飯だ！このミッション、どんどん楽しくなってきたじゃない！
+			8: やったー！ちゃんとした食べ物だー！
+			9: ナイス！これでキミが持ってきてくれたご飯をぜんぶ楽しめるよ！
+			10: 焼きマシュマロ！？そういうのを待ってたんだよ、マジックマン！
+			11: メリークリスマス！それからハッピーニューイヤー！
+			12: わぁ、おいしそう！...でもコレ、急に動き出したりしないよね？
+			13: ナイスタイミング！この三十分ずーっとシュガークッキーのことばっかり考えてたんだから！
+			14: そう！そうだよ！ソレだーっ！！
+			15: わぁーっ！コレならココロのスキマも埋まりそうだよ！
+			16: 一日一個のリンゴでゲノシ撃退！
+			17: 新鮮で食べ頃だね！でもワタシにはちょっとヘルシーすぎるかも...。
+			18: えっ！？それってワタシにダイエットしろってコト！？
+			19: おいしーっ！！
+			20: わわっ！？ワタシを丸焼きにする気じゃないよね！？
+			21: ひゃーっ！カラすぎるよコレ！
+			22: わぁ、このモチモチ感サイコー！果肉の方はキミにあげヨウ！
+		}
+
+		Start: やぁ、魔法使いさん！ワタシ、今コレを修理してるんだ！何に使うモノだったかは忘れちゃったけど、完成したらボスが絶対褒めてくれるハズ！...うーん、キミじゃ手伝うのは難しそうかな？その小さな頭じゃね！でも何か食べるモノを持ってきてくれたら大助かり！お腹が空いてると良いアイディアも浮かばないんだよ！
+		Start2: やぁ、魔法使いさん！ワタシ、今コレを修理してるんだ！何に使うモノだったかは忘れちゃったけど、完成したらボスが絶対褒めてくれるハズ！...うーん、キミじゃ手伝うのは難しそうかな？その小さな頭じゃね！でも何か食べるモノを持ってきてくれたら大助かり！お腹が空いてると良いアイディアも浮かばないんだよ！
+		Accept: よーし、交渉成立ダ！
+
+		Talk: {
+			0: 「どうしてミンナ仲良くできないのかな～、どうしてなんだろうな～」
+			1: この前鏡を見たら自分の顔が映ってたんだ！あんなにガッカリしたのは初めてだったよ！
+			2: ボスったら、ワタシには核天体物理学と量子力学しか能がないって言うんだよ！でもおかげで余計なコトは気にせず、得意分野に集中できるから助かってるけどね！
+			3: えー？誰が来ると思ってたの？ムーンジェリー・ウィザードとか？
+			4: 知らないってば！『Yuyutsu』って誰なの！？なんでワタシに聞くのさー！
+			5: 気を付けてよ！ワタシを呼び出しては倒していくヘンなヤツがいるんだから！もうホントにウンザリだよ！
+			6: この前ね、知らない人をビックリさせたらお金を全部くれたんだよ！キミたちの世界のケイザイって最高だね！
+			7: ワタシが大好きな男の人はお父さんだけだからね！...ま、ソレはさておき！
+		}
+
+		Nickname: うわぁ...キミ、ネーミングセンスはちょっと改善の余地アリかもね。
+
+		Kebab: {
+			1: うっ...コレはさすがのワタシでも厳しいよ！キミ、一体ナニを考えてたの！？
+			2: ガッカリだよ...。おかげで食欲までどこかへ飛んでいっちゃったじゃないか！
+			3: このプレゼントはキケンすぎるよ！ミンナのためにも今すぐ処分しなきゃ！
+		}
+
+		SpiritBiome: わぁ！この洞窟、なんだかスゴくイイ感じだね！
+		BuffGenoshi: ゲノシのライフがチョットだけアップしたよ！
+		PotReward: いやーっ、本当においしかった！まさにサイコーのごちそうだったよ！ほら、コレを受け取って！前からイジってたんだけど、料理は全部キミがやってくれるし、ワタシにはあんまり必要なくてさ。それにキミ、料理のウデがめちゃくちゃ良いんだもん！
+		PotAccept: アリガトウゴザイマス！
+		GenoshiReward: キミがたくさん助けてくれたコト、本当に感謝してるよ！でもね、そろそろワタシ一人でもやっていけそうなんだ。そうそう、ボスが命がけでワタシを探してるって聞いたよ！まったくムチャするよね...。あの人、体もあんまり丈夫じゃないのにさ。ま、とりあえず！このアヤシイ道具を持っていって使ってよ！
+		GenoshiAccept: うん、まぁいいんじゃないかな！
+	}
+
+	Mirage: {
+		Start: あぁ、[c/B3CCFF:オスカー]...かわいそうなオスカー...。あの人は昔から、行く先々で厄介事に巻き込まれてしまうのよね...。何があったのかしら...。自分自身を見失ってしまったの？でも、こんな悲しい結末を望む人じゃなかったわ。...いいえ、私は諦めない。今の私があるのは彼のおかげだもの。だから今度は私が力になる番。少しの間、この世界に留まるつもりよ。もしこの世界が彼を変えてしまったのなら、その答えもきっとこの世界のどこかにあるはずだから。
+		Accept: 受諾
+
+		Talk: {
+			1: あぁ、[c/B3CCFF:オスカー]...あの人、いつも跳ねた髪が目にかかるって文句を言っていたの。そんな些細なことで悩む姿も、今では少し懐かしいわね。
+			2: あぁ、[c/B3CCFF:オスカー]...『いつか別の次元へ旅行しよう』なんて言っていたのよ。私は冗談だと思っていたのだけれど...まさか本当に異世界に来ることになるなんてね。人生は分からないものだわ。
+			3: あの人はもう私を覚えていないの。それでも、生きていてくれるだけでいいわ...。少し傷ついていても、変わってしまっていても、以前とは違う姿になっていても...私はずっと、あの人を見守り続けるつもりよ。
+			4: ...私たちにも、幸せだった頃はあったのよ。
+		}
+
+		Nickname: ごきげんよう、旅人さん...。とても印象的なお名前ね。ふふっ、きっとお気に入りなのでしょう？
+
+		Daytime: {
+			1: 焦らなくても大丈夫よ、あなた。
+			2: 今ではまだ早いわ。せっかくの模様も、この眩しい空の下では霞んでしまうもの。少しくらい私にも華を持たせてくれないかしら？
+			3: 悪いけれど、私の舞台は夜なの。無理に昼間に始めなくてもいいでしょう？せっかくなら一番美しい姿を見せたいもの。
+			4: 夜になるまで待っていてちょうだい。戦いにも演出というものが必要なのよ。案外、手間がかかるものなんだから。
+			5: 今夜は特別よ。私の持つ全てをお見せするつもりだから。そんな場に立ち会えるなんて、あなたは運がいいわね。
+			6: 夜になったらいらっしゃい。待っているわ...なんて、少し冗談よ。通信機は定期的に移動させないと、アントリオンたちに住み着かれてしまうものだから。
+		}
+
+		Communicator: {
+			1: 迷ってしまったの？不安になった？何が起きているのか分からない？...ふふ、それでいいのよ。そういう表情、嫌いじゃないわ。
+			2: 昔からの知り合いを探しているだけなの。...それとも、あなたの目的は戦いかしら？だったら少しくらい、私の技を披露してあげてもいいわ。
+			3: あなたも何かを探しているのね...。ふふ、不思議なものだわ。もしかすると私たち、同じものを追いかけているのかもしれないわね。
+		}
+
+		Challenge: 挑戦
+	}
+
+	TectonicCage: {
+		Message: {
+			1: "[c/FFAA99:テクトニックロック]で封印された[c/FFAA99:テクトニックケージ]を開くには、[c/FFAA99:テクトニックの鍵]が必要だ。看板にはこう書かれている―― [c/FF3355:『絶対に開けるな！』]。まあ、君を止められるとは思えないけどね！"
+			2: "[c/FFAA99:テクトニックロック]で封印された[c/FFAA99:テクトニックケージ]を開くには、[c/FFAA99:テクトニックの鍵]が必要だ。看板にはこう書かれている―― [c/FF3355:『クリスマスまで開けるな！』]。まあ、君を止められるとは思えないけどね！"
+		}
+
+		Unlock: 解錠
+	}
+
+	Paraffin: {
+		Start: アハハハハ！やっと出られたーっ！このつまんな～い檻の中で二時間も閉じ込められてたんだよ！？あたしは {0}！で、キミは超ラッキー！だってあたしみたいな最高の親友、そうそう見つからないんだから！さあ行こ行こ！一緒にこの世界をひっくり返して遊び尽くそうよ！
+		Nickname: えぇ～！？そのあだ名はナシでしょ、チャンプ！もっとカッコいいの思いつくまでやり直しやり直しー！
+
+		Talk: {
+			1: えっ、あたしが消えちゃう！？アハハハハ！なにそれ超ウケる！あたしのこと大好きな分身たちがいる限り、あたしはずーっと燃え続けるんだからね！
+			2: うわーっ、ヒマ！ヒマヒマヒマ！ねぇ、キミたちちゃんと遊ぶ気ある！？あたし退屈すぎてお腹ペコペコなんだけどー！
+			3: あたし悪者じゃないからね！？ホントだよ！？世界征服とか秘密の計画とか全然ないし！ただみんなの手伝いがしたいだけなんだから！
+			4: おっきな赤いボタンって最高だよね！だってさ、絶対『押してください！』って感じで置いてあるじゃん！しかも押したらだいたい面白いことが起きるんだよ！押さない理由なくない！？
+			5: ねぇねぇ！あたしの超スゴい魅力の中で、一番好きなのってどれ！？あたしはやっぱり謙虚なところかなー！アハハ！
+			6: デッカく！そしてド派手に！これからめちゃくちゃ盛り上がるぞーっ！！
+			7: 「Based」ってなに！？何を元にしてるって話なのさ！？
+			8: ダメダメ！まだ手をつなぐほど仲良くなってないでしょー！そんなに寂しいなら、ブレステイカーにでもハグしてもらえばー？
+			9: そういえばさ！Mod切ったままワールドに入り直すと、Modのチェストが全部ヘンテコなフモ人形になるって知ってた！？...なーんてね！冗談冗談！絶対試しちゃダメだからね！...いや、ちょっとだけ気になる？
+		}
+
+		Spirit: {
+			1: ちょっとちょっとー！！何見てんのさ！？ここアンダーワールド・ドメインじゃなくて、『Spirit Mod』のスピリットバイオームじゃん！！もーっ！今すぐ眼医者さんに行ってきなよー！！
+			2: うげーっ！この場所くっさ！！ほらね！？だから遊ぶ場所はいつもあたしが決めるんだってば！
+		}
+
+		Mad: {
+			Start: あんたのムカつく態度、忘れたと思ったら大間違いだからね、このバカー！
+
+			Talk: {
+				1: えー、また来たのー？
+				2: 世界が全部あんた中心だと思ってない！？そういうトコ、ほんっとムカつくんだけど！
+				3: もーっ！なんでみんな何か欲しがるの！？ただ仲良くしてくれるだけでいいじゃんかー！
+				4: 絶対リアルだと今よりもっとブサイクでしょ！
+				5: ほらほらー！撃てるもんなら撃ってみなよー！
+				6: あんたってさー、現実じゃ友達いーっぱいで毎日大騒ぎしてそうだよねー？
+			}
+		}
+
+		Botones: {
+			Reject: "[c/FF0000:拒否]"
+			Reject2: "[c/FF0000:戦う]"
+		}
+	}
+}
+
+WorldGen: {
+	Steps: {
+		StrandedShipGen: 秘められし何かを転送中...
+		BasaltGen: 灼熱の歴史を辿っています...
+		BarrelGen: 爆炎ショーを準備中...
+		ThickBoulderGen: 地下で岩塊を配置中...
+		StatuesCheck: 石像を設置中...
+		LazuriteGen: 壁をしっとりさせています...
+	}
+
+	StrandedShipTombstones: {
+		1: オスカーの希望は潰えた...
+		2: オスカーは呼吸の仕方を忘れてしまった。
+		3: オスカーは完全に打ち砕かれた。
+		4: やがて、オスカーは考えるのをやめた。
+		5: アメジストは溺れた。
+		6: ジャックスパイは海の底で眠っている。
+		7: ウスは落下して死亡した。
+		8: ボグダンは頭を吹き飛ばされた。
+		9: ハインツ・ジーンマーは首をはねられた。
+		10: キリルのことは忘れ去られるだろう。
+		11: ターナーはそれに気づくことはなかった...
+		12: ロマスは押し潰された...
+	}
+
+	GrowingRoundCacti: 球状のサボテンを育成中
+	HiddenChest: 重厚な宝を隠しています
+	Antique: 大理石の洞窟を装飾中...
+	OceanAltars: 海の加護を拡散中
+	Oceanite: 池がラズライトの力で強化された！
+	StrandedShip: 打ち上げられた場所から凍てつく寒気が流れ込む...
+	ColossusGems: 深淵で輝く宝石が揺らめいている...
+}
