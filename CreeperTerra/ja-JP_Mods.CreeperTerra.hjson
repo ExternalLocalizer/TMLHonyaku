@@ -3,6 +3,8 @@ NPCs: {
 	CreeperDeCactus.DisplayName: サボテンクリーパー
 	CreeperDeLasNieves.DisplayName: スノークリーパー
 	CreeperDeBambo.DisplayName: 竹林クリーパー
+	CreeperDeCoco.DisplayName: ココナッツクリーパー
+	CreeperDeMinaMarina.DisplayName: Seamine Creeper
 }
 
 Bestiary: {
@@ -10,6 +12,8 @@ Bestiary: {
 	CreeperDeCactus: しばしば標的を追いかけ、全方向に棘を放つ。発射後は隙ができるため、距離を取るのが有効だ。
 	CreeperDeLasNieves: 普段はおとなしい毛むくじゃらの敵だが、敵対すると周囲に4本の影の手を召喚する。平静に戻ると回復し始めるため、長期戦は不利だ。激昂し他の敵が加われば致命的だろう。
 	CreeperDeBambo: 竹に対して攻撃的な生物。敵対時には有害なダーツを発射し、平静に戻ると回復する。激昂しているなら真っ先に排除するのが望ましい。
+	CreeperDeCoco: 装甲に覆われた謎の生物。斧を使って装甲を取り外し、ココナッツを手に入れられる。ある毛皮の本を持っているなら、こちらを傷つけてこない。接近しすぎると爆発するが、自爆で倒れることはなく、再び攻撃の準備を整える。放っておこう。
+	CreeperDeMinaMarina: サンゴに制御された機械。動かずにじっとして、標的が近づくのを待っている。透明で、一部の武器では検知できない。爆発範囲には注意しよう。中心では100%のダメージを与え、離れるほど50%まで減少する。
 }
 
 Configs: {
@@ -39,6 +43,20 @@ Configs: {
 		Tooltip: ""
 		Label: 竹林クリーパーを有効化
 	}
+
+	EnableCreeperDeCoco: {
+		Tooltip: ""
+		Label: ココナッツクリーパーを有効化
+	}
+
+	EnableCreeperDeMinaMarina: {
+		Tooltip: ""
+		Label: 機雷クリーパー
+	}
 }
 
-Projectiles.CactusSpineProjectile.DisplayName: サボテンの棘
+Projectiles: {
+	CactusSpineProjectile.DisplayName: サボテンの棘
+	CreeperBambooSpore.DisplayName: 竹林クリーパーの胞子
+	CreeperShadowProjectile.DisplayName: クリーパーの闇弾
+}
