@@ -1,90 +1,120 @@
-Tiles: {
-	DrawbridgeTile.MapEntry: Drawbridge Tile
-	DrawbridgeHorizontalTile.MapEntry: Drawbridge Horizontal Tile
-	WheelTile.MapEntry: Wheel Tile
-	WheelAnchorTile.MapEntry: Wheel Anchor Tile
-	WheelHorizontalTile.MapEntry: Wheel Horizontal Tile
-	PortcullisDownTile.MapEntry: Portcullis Down Tile
-	PortcullisUpTile.MapEntry: Portcullis Up Tile
-	DrawbridgeHorizontalFlippedTile.MapEntry: Drawbridge Horizontal Flipped Tile
-	DrawbridgeVerticalFlippedTile.MapEntry: Drawbridge Vertical Flipped Tile
-	SpikedPallisadeTile.MapEntry: Spiked Pallisade Tile
-	SpikedPallisadeFlippedTile.MapEntry: Spiked Pallisade Flipped Tile
-	GoldBellTile.MapEntry: Gold Bell Tile
-	ClockTile.MapEntry: Clock
-	GraveyardBellTile.MapEntry: Graveyard Bell Tile
-	HorseStableTile.MapEntry: Horse Stable
-	Tile.CulvertDecorationTile: カルバートの装飾
+Projectiles: {
+	DrawbridgeAnimation.DisplayName: Drawbridge
+	WheelRender.DisplayName: Wheel Render
+	PortcullisAnimation.DisplayName: Portcullis Animation
+	GoldBellClapper.DisplayName: Gold Bell Clapper
+	GoldBellAnimation.DisplayName: Gold Bell Animation
+	ClockHand.DisplayName: Clock Hand
+	GraveyardBellClapper.DisplayName: Graveyard Bell Clapper
+	GraveyardBellAnimation.DisplayName: Graveyard Bell Animation
+	FriendlyBatProjectile.DisplayName: Friendly Bat Projectile
+	FriendlyFairyProjectile.DisplayName: Friendly Fairy Projectile
+	StableUnicornMount.DisplayName: Stable Unicorn Mount
+	PoopVisualProjectile.DisplayName: Poop Visual Projectile
+	HellDrawbridgeAnimation.DisplayName: Hell Drawbridge Animation
+	LionDrawbridgeAnimation.DisplayName: Lion Drawbridge Animation
+	HookProjectile.DisplayName: Hook Projectile
+	MachicolationWater.DisplayName: Boiling Water
+}
 
-	CulvertDecorationTile: {
-		$parentVal: Mods.Drawbridge.Tiles.CulvertDecorationTile.$parentVal
-		MapEntry: カルバートの装飾 Tile
+DeathReason.SpikedPallisade: 尖った柵に貫かれた！
+
+Configs: {
+	DrawbridgeConfig: {
+		DisplayName: Drawbridge 設定
+
+		DisableEasterEgg: {
+			Label: イースターエッグを無効化
+			Tooltip: ""
+		}
+
+		MuteClockSound: {
+			Label: 時計音を消去
+			Tooltip: 有効にした際、時計が毎時の音を鳴らさなくなります
+		}
+
+		MuteStableNoises: {
+			Label: 馬小屋の音を消去
+			Tooltip: 有効にした際、馬小屋が音を鳴らさなくなります
+		}
+
+		DisableHorseStablePooping: {
+			Label: 馬小屋の排便を無効化
+			Tooltip: 有効にした際、馬小屋の馬がうんちをしなくなります
+		}
+
+		PortcullisSpeed: {
+			Label: 落とし格子の速度
+			Tooltip: 
+				'''
+				落とし格子が上下する速さを調整します
+				数値が高いほど早くなります
+				'''
+		}
+	}
+}
+
+Tooltips.HorseDefense: 馬に騎乗中、防御力が {0} 増加する
+Wall.BlackCulvertWall: 黒いカルバート
+Item.BlackCulvertWallItem: 黒いカルバートの壁
+
+Walls: {
+	BlackCulvertWall.MapEntry: 黒いカルバートの壁
+	CulvertDecorationTile.MapEntry: カルバートの装飾
+}
+
+NPCs: {
+	ObsidianSerpent.DisplayName: 黒曜石の大蛇
+	ObsidianSerpentBody.DisplayName: 黒曜石の大蛇の胴体
+	ObsidianSerpentTail.DisplayName: 黒曜石の大蛇の尾
+
+	Haulox: {
+		DisplayName: ハウロックス
+		Entry: 開けた静かな森にまれに現れる、大型の荷役獣。穏やかそうに見えるが、油断は禁物。いくつかの亜種がいる。
+	}
+}
+
+"Keybinds.Cycle Mount Armor Overlay.DisplayName": マウント装備表示の切り替え
+Mods.Drawbridge.Tiles.ClockTile: Mods.Drawbridge.Mods.Drawbridge.Tiles.ClockTile
+
+Buffs: {
+	GoldenResonance: {
+		DisplayName: 黄金の共鳴
+		Description: ライフ自然回復を増進し移動速度を上昇
 	}
 
-	HorseStableExtendedTile.MapEntry: Horse Stable Extended Tile
-	HellDrawbridgeHorizontalFlippedTile.MapEntry: Hell Drawbridge Horizontal Flipped Tile
-	HellDrawbridgeHorizontalTile.MapEntry: Hell Drawbridge Horizontal Tile
-	HellDrawbridgeTile.MapEntry: Hell Drawbridge Tile
-	HellDrawbridgeVerticalFlippedTile.MapEntry: Hell Drawbridge Vertical Flipped Tile
-	LionDrawbridgeHorizontalFlippedTile.MapEntry: Lion Drawbridge Horizontal Flipped Tile
-	LionDrawbridgeHorizontalTile.MapEntry: Lion Drawbridge Horizontal Tile
-	LionDrawbridgeTile.MapEntry: Lion Drawbridge Tile
-	LionDrawbridgeVerticalFlippedTile.MapEntry: Lion Drawbridge Vertical Flipped Tile
-	EquineArmatureTile.MapEntry: Equine Armature Tile
-	TwinarchTile.MapEntry: Twinarch Tile
-	DoorcaseTile.MapEntry: Doorcase Tile
-	Fish_Sign_Placed.MapEntry: Fish Sign
-	Anvil_Sign_Placed.MapEntry: Anvil Sign
-	Spear_Tiles.MapEntry: Spear_ Tiles
-	Sword_Hang_TIle.MapEntry: Sword_ Hang_ T Ile
-	Trident_Tiles.MapEntry: Trident_ Tiles
-	SpearSignTile.MapEntry: Spear Sign Tile
-	SwordSignTile.MapEntry: Sword Sign Tile
-	TridentSignTile.MapEntry: Trident Sign Tile
-	AnvilSignTile.MapEntry: Anvil Sign Tile
-	BlankSignTile.MapEntry: Blank Sign Tile
-	ClothierSignTile.MapEntry: Clothier Sign Tile
-	CyberSignTile.MapEntry: Cyber Sign Tile
-	DemolitionistSignTile.MapEntry: Demolitionist Sign Tile
-	DryadSignTile.MapEntry: Dryad Sign Tile
-	DyeSignTile.MapEntry: Dye Sign Tile
-	GolfSignTile.MapEntry: Golf Sign Tile
-	GunSignTile.MapEntry: Gun Sign Tile
-	MechanicSignTile.MapEntry: Mechanic Sign Tile
-	MerchantSignTile.MapEntry: Merchant Sign Tile
-	PirateSignTile.MapEntry: Pirate Sign Tile
-	PrincessSignTile.MapEntry: Princess Sign Tile
-	SteamSignTile.MapEntry: Steam Sign Tile
-	StylistSignTile.MapEntry: Stylist Sign Tile
-	TinkererSignTile.MapEntry: Tinkerer Sign Tile
-	TruffleSignTile.MapEntry: Truffle Sign Tile
-	ZooSignTile.MapEntry: Zoo Sign Tile
-	HookTile.MapEntry: Hook
-	MacchicolationTile.MapEntry: Machicolation
-	MacchicolationTile_F.MapEntry: Macchicolation Tile_ F
+	SpiritVeil: {
+		DisplayName: 魂のヴェイル
+		Description: 夜間や墓地で防御力を高め、呪いと暗闇を無効化
+	}
+
+	SkyLionMane: {
+		DisplayName: 空獅子のたてがみ
+		Tooltip: 天を統べる獅子の雄々しきたてがみ
+	}
+
+	SkyLionCuirass: {
+		DisplayName: 空獅子の胸甲
+		Tooltip: 天翔ける獅子の加護を受けた守護の鎧
+	}
+
+	SkyLionGreaves: {
+		DisplayName: 空獅子のすね当て
+		Tooltip: 天空を駆ける獅子の脚のごとき軽やかさをもたらす
+	}
+
+	SkyLionCloak: {
+		DisplayName: 空獅子のマント
+		Tooltip: 天を翔ける獅子の力を宿し、風のごとく揺らめくマント
+	}
+
+	WightPalfreyBuff: {
+		DisplayName: 冥騎ワイト・ポルフリー
+		Description: 闇を駆ける白骨の馬――その一歩ごとに、死と再生の境界が揺らぐ
+	}
 }
 
 Items: {
-	TungstenHorseArmorItem: {
-		Tooltip: ""
-		DisplayName: タングステンの馬鎧
-	}
-
-	PlatinumHorseArmorItem: {
-		Tooltip: ""
-		DisplayName: プラチナの馬鎧
-	}
-
-	TinHorseArmorItem: {
-		Tooltip: ""
-		DisplayName: 錫の馬鎧
-	}
-
-	MeteoriteHorseArmorItem: {
-		Tooltip: ""
-		DisplayName: メテオライトの馬鎧
-	}
-
 	DrawbridgeItem: {
 		DisplayName: 跳ね橋
 		Tooltip: ""
@@ -144,13 +174,13 @@ Items: {
 	}
 
 	HellDrawbridgeItem: {
-		Tooltip: ""
 		DisplayName: 地獄の跳ね橋
+		Tooltip: ""
 	}
 
 	LionDrawbridgeItem: {
-		Tooltip: ""
 		DisplayName: 王家の跳ね橋
+		Tooltip: ""
 	}
 
 	EquineArmatureItem: {
@@ -223,7 +253,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	// New NPC-themed signs
 	BlankSignItem: {
 		DisplayName: 無地の看板
 		Tooltip: ""
@@ -398,119 +427,208 @@ Items: {
 		DisplayName: 石落とし・改
 		Tooltip: ""
 	}
-}
 
-Projectiles: {
-	DrawbridgeAnimation.DisplayName: Drawbridge
-	WheelRender.DisplayName: Wheel Render
-	PortcullisAnimation.DisplayName: Portcullis Animation
-	GoldBellClapper.DisplayName: Gold Bell Clapper
-	GoldBellAnimation.DisplayName: Gold Bell Animation
-	ClockHand.DisplayName: Clock Hand
-	GraveyardBellClapper.DisplayName: Graveyard Bell Clapper
-	GraveyardBellAnimation.DisplayName: Graveyard Bell Animation
-	FriendlyBatProjectile.DisplayName: Friendly Bat Projectile
-	FriendlyFairyProjectile.DisplayName: Friendly Fairy Projectile
-	StableUnicornMount.DisplayName: Stable Unicorn Mount
-	PoopVisualProjectile.DisplayName: Poop Visual Projectile
-	HellDrawbridgeAnimation.DisplayName: Hell Drawbridge Animation
-	LionDrawbridgeAnimation.DisplayName: Lion Drawbridge Animation
-	HookProjectile.DisplayName: Hook Projectile
-}
+	MeteoriteHorseArmorItem: {
+		DisplayName: メテオライトの馬鎧
+		Tooltip: ""
+	}
 
-DeathReason.SpikedPallisade: 尖った柵に貫かれた！
+	TinHorseArmorItem: {
+		DisplayName: 錫の馬鎧
+		Tooltip: ""
+	}
 
-Configs: {
-	DrawbridgeConfig: {
-		DisplayName: Drawbridge 設定
+	PlatinumHorseArmorItem: {
+		DisplayName: プラチナの馬鎧
+		Tooltip: ""
+	}
 
-		DisableEasterEgg: {
-			Label: イースターエッグを無効化
-			Tooltip: ""
-		}
+	TungstenHorseArmorItem: {
+		DisplayName: タングステンの馬鎧
+		Tooltip: ""
+	}
 
-		MuteClockSound: {
-			Label: 時計音を消去
-			Tooltip: 有効にした際、時計が毎時の音を鳴らさなくなります
-		}
+	BlackHauloxYoke: {
+		DisplayName: くびき（黒）
+		Tooltip:
+			'''
+			くびきを持った状態でハウロックスを左クリックすると、ハウロックスを引き連れられる
+			ハウロックスを誘導中、設置された杭を右クリックすると、杭[i:Drawbridge/StakeTileItem]に繋ぎ留められる
+			ハウロックスを誘導中に右クリックして、くびきを外す
+			距離が離れすぎると外れる
+			'''
+	}
 
-		MuteStableNoises: {
-			Label: 馬小屋の音を消去
-			Tooltip: 有効にした際、馬小屋が音を鳴らさなくなります
-		}
+	BrownHauloxYoke: {
+		DisplayName: くびき（茶）
+		Tooltip:
+			'''
+			くびきを持った状態でハウロックスを左クリックすると、ハウロックスを引き連れられる
+			ハウロックスを誘導中、設置された杭を右クリックすると、杭[i:Drawbridge/StakeTileItem]に繋ぎ留められる
+			ハウロックスを誘導中に右クリックして、くびきを外す
+			距離が離れすぎると外れる
+			'''
+	}
 
-		DisableHorseStablePooping: {
-			Label: 馬小屋の排便を無効化
-			Tooltip: 有効にした際、馬小屋の馬がうんちをしなくなります
-		}
+	GingerHauloxYoke: {
+		DisplayName: くびき（斑点）
+		Tooltip:
+			'''
+			くびきを持った状態でハウロックスを左クリックすると、ハウロックスを引き連れられる
+			ハウロックスを誘導中、設置された杭を右クリックすると、杭[i:Drawbridge/StakeTileItem]に繋ぎ留められる
+			ハウロックスを誘導中に右クリックして、くびきを外す
+			距離が離れすぎると外れる
+			'''
+	}
+
+	SpottedHauloxYoke: {
+		DisplayName: くびき（まだら）
+		Tooltip:
+			'''
+			くびきを持った状態でハウロックスを左クリックすると、ハウロックスを引き連れられる
+			ハウロックスを誘導中、設置された杭を右クリックすると、杭[i:Drawbridge/StakeTileItem]に繋ぎ留められる
+			ハウロックスを誘導中に右クリックして、くびきを外す
+			距離が離れすぎると外れる
+			'''
+	}
+
+	WhiteHauloxYoke: {
+		DisplayName: くびき（白）
+		Tooltip:
+			'''
+			くびきを持った状態でハウロックスを左クリックすると、ハウロックスを引き連れられる
+			ハウロックスを誘導中、設置された杭を右クリックすると、杭[i:Drawbridge/StakeTileItem]に繋ぎ留められる
+			ハウロックスを誘導中に右クリックして、くびきを外す
+			距離が離れすぎると外れる
+			'''
+	}
+
+	StakeTileItem: {
+		DisplayName: 地杭
+		Tooltip: くびきを繋ぎ留める
+	}
+
+	CrouchingGargoyleItem: {
+		DisplayName: うずくまるガーゴイル
+		Tooltip: ""
+	}
+
+	LargeCrouchingGargoyleItem: {
+		DisplayName: うずくまるガーゴイル（大）
+		Tooltip: ""
+	}
+
+	LargeGargoyleItem: {
+		DisplayName: 大型ガーゴイル
+		Tooltip: ""
+	}
+
+	FeatheredGargoyleSpoutItem: {
+		DisplayName: 羽飾り付きガーゴイルの吐水口
+		Tooltip: 滝を作り出す
+	}
+
+	GargoyleSpoutItem: {
+		DisplayName: ガーゴイルの吐水口
+		Tooltip: 滝を作り出す
+	}
+
+	LungingGargoyleSpoutItem: {
+		DisplayName: 飛びかかるガーゴイルの吐水口
+		Tooltip: 滝を作り出す
+	}
+
+	LargeLurkingGargoyleItem: {
+		DisplayName: 潜むガーゴイル（大）
+		Tooltip: ""
+	}
+
+	PoisedGargoyleItem: {
+		DisplayName: 身構えたガーゴイル
+		Tooltip: ""
+	}
+
+	TwistingGargoyleItem: {
+		DisplayName: ねじれたガーゴイル
+		Tooltip: ""
+	}
+
+	IronHauloxArmor: {
+		DisplayName: 鉄のハウロックス鎧
+		Tooltip:
+			'''
+			左クリックでハウロックスに装着できる
+			何も持っていない状態でハウロックスを右クリックして外せる
+			ハウロックスの防御力が増加
+			'''
 	}
 }
 
-Buffs: {
-	GoldenResonance: {
-		DisplayName: 黄金の共鳴
-		Description: ライフ自然回復を増進し移動速度を上昇
+Tiles: {
+	DrawbridgeTile.MapEntry: Drawbridge Tile
+	DrawbridgeHorizontalTile.MapEntry: Drawbridge Horizontal Tile
+	WheelTile.MapEntry: Wheel Tile
+	WheelAnchorTile.MapEntry: Wheel Anchor Tile
+	WheelHorizontalTile.MapEntry: Wheel Horizontal Tile
+	PortcullisDownTile.MapEntry: Portcullis Down Tile
+	PortcullisUpTile.MapEntry: Portcullis Up Tile
+	DrawbridgeHorizontalFlippedTile.MapEntry: Drawbridge Horizontal Flipped Tile
+	DrawbridgeVerticalFlippedTile.MapEntry: Drawbridge Vertical Flipped Tile
+	SpikedPallisadeTile.MapEntry: Spiked Pallisade Tile
+	SpikedPallisadeFlippedTile.MapEntry: Spiked Pallisade Flipped Tile
+	GoldBellTile.MapEntry: Gold Bell Tile
+	ClockTile.MapEntry: Clock
+	GraveyardBellTile.MapEntry: Graveyard Bell Tile
+	HorseStableTile.MapEntry: Horse Stable
+	Tile.CulvertDecorationTile: カルバートの装飾
+
+	CulvertDecorationTile: {
+		$parentVal: Mods.Drawbridge.Tiles.CulvertDecorationTile.$parentVal
+		MapEntry: カルバートの装飾 Tile
 	}
 
-	SpiritVeil: {
-		DisplayName: 魂のヴェイル
-		Description: 夜間や墓地で防御力を高め、呪いと暗闇を無効化
-	}
-
-	SkyLionMane: {
-		DisplayName: 空獅子のたてがみ
-		Tooltip: 天を統べる獅子の雄々しきたてがみ
-	}
-
-	SkyLionCuirass: {
-		DisplayName: 空獅子の胸甲
-		Tooltip: 天翔ける獅子の加護を受けた守護の鎧
-	}
-
-	SkyLionGreaves: {
-		DisplayName: 空獅子のすね当て
-		Tooltip: 天空を駆ける獅子の脚のごとき軽やかさをもたらす
-	}
-
-	SkyLionCloak: {
-		DisplayName: 空獅子のマント
-		Tooltip: 天を翔ける獅子の力を宿し、風のごとく揺らめくマント
-	}
-
-	WightPalfreyBuff: {
-		DisplayName: 冥騎ワイト・ポルフリー
-		Description: 闇を駆ける白骨の馬――その一歩ごとに、死と再生の境界が揺らぐ
-	}
+	HorseStableExtendedTile.MapEntry: Horse Stable Extended Tile
+	HellDrawbridgeHorizontalFlippedTile.MapEntry: Hell Drawbridge Horizontal Flipped Tile
+	HellDrawbridgeHorizontalTile.MapEntry: Hell Drawbridge Horizontal Tile
+	HellDrawbridgeTile.MapEntry: Hell Drawbridge Tile
+	HellDrawbridgeVerticalFlippedTile.MapEntry: Hell Drawbridge Vertical Flipped Tile
+	LionDrawbridgeHorizontalFlippedTile.MapEntry: Lion Drawbridge Horizontal Flipped Tile
+	LionDrawbridgeHorizontalTile.MapEntry: Lion Drawbridge Horizontal Tile
+	LionDrawbridgeTile.MapEntry: Lion Drawbridge Tile
+	LionDrawbridgeVerticalFlippedTile.MapEntry: Lion Drawbridge Vertical Flipped Tile
+	EquineArmatureTile.MapEntry: Equine Armature Tile
+	TwinarchTile.MapEntry: Twinarch Tile
+	DoorcaseTile.MapEntry: Doorcase Tile
+	Fish_Sign_Placed.MapEntry: Fish Sign
+	Anvil_Sign_Placed.MapEntry: Anvil Sign
+	Spear_Tiles.MapEntry: Spear_ Tiles
+	Sword_Hang_TIle.MapEntry: Sword_ Hang_ T Ile
+	Trident_Tiles.MapEntry: Trident_ Tiles
+	SpearSignTile.MapEntry: Spear Sign Tile
+	SwordSignTile.MapEntry: Sword Sign Tile
+	TridentSignTile.MapEntry: Trident Sign Tile
+	AnvilSignTile.MapEntry: Anvil Sign Tile
+	BlankSignTile.MapEntry: Blank Sign Tile
+	ClothierSignTile.MapEntry: Clothier Sign Tile
+	CyberSignTile.MapEntry: Cyber Sign Tile
+	DemolitionistSignTile.MapEntry: Demolitionist Sign Tile
+	DryadSignTile.MapEntry: Dryad Sign Tile
+	DyeSignTile.MapEntry: Dye Sign Tile
+	GolfSignTile.MapEntry: Golf Sign Tile
+	GunSignTile.MapEntry: Gun Sign Tile
+	MechanicSignTile.MapEntry: Mechanic Sign Tile
+	MerchantSignTile.MapEntry: Merchant Sign Tile
+	PirateSignTile.MapEntry: Pirate Sign Tile
+	PrincessSignTile.MapEntry: Princess Sign Tile
+	SteamSignTile.MapEntry: Steam Sign Tile
+	StylistSignTile.MapEntry: Stylist Sign Tile
+	TinkererSignTile.MapEntry: Tinkerer Sign Tile
+	TruffleSignTile.MapEntry: Truffle Sign Tile
+	ZooSignTile.MapEntry: Zoo Sign Tile
+	HookTile.MapEntry: Hook
+	MacchicolationTile.MapEntry: Machicolation
+	MacchicolationTile_F.MapEntry: Macchicolation Tile_ F
+	HookTileNew.MapEntry: Hook Tile New
+	StakeTile.MapEntry: Stake Tile
+	CrouchingGargoyle.MapEntry: Gargoyle
 }
-
-Mods: {
-	Drawbridge: {
-		Tiles.ClockTile: Mods.Drawbridge.Mods.Drawbridge.Tiles.ClockTile
-		HorseStableTile.DisplayName: 馬小屋
-
-		HorseStableItem: {
-			DisplayName: 馬小屋
-			Tooltip: 馬のための居心地の良い小屋。装飾専用
-		}
-	}
-}
-
-Wall.BlackCulvertWall: 黒いカルバート
-Item.BlackCulvertWallItem: 黒いカルバートの壁
-
-Tooltips: {
-	HorseDefense: 馬に騎乗中、防御力が {0} 増加する
-}
-
-Walls: {
-	BlackCulvertWall.MapEntry: 黒いカルバートの壁
-	CulvertDecorationTile.MapEntry: カルバートの装飾
-}
-
-NPCs: {
-	ObsidianSerpent.DisplayName: 黒曜石の大蛇
-	ObsidianSerpentBody.DisplayName: 黒曜石の大蛇の胴体
-	ObsidianSerpentTail.DisplayName: 黒曜石の大蛇の尾
-}
-
-"Keybinds.Cycle Mount Armor Overlay.DisplayName": マウント装備表示の切り替え
