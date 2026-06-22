@@ -1,9 +1,6 @@
 PlatformNotSupported: このMODはご使用の環境では動作しません。現在はWindows専用です。
-
 None: 未選択
-
 FilterByName: 名前で絞り込み
-
 XInTotal: 合計：{0}
 
 Configs: {
@@ -43,10 +40,20 @@ Configs: {
 
 		FontScale: {
 			Label: フォントサイズ
-			Tooltip: 
+			Tooltip:
 				'''
 				フォントの大きさを倍率で調整します
 				（再読み込みが必要）
+				'''
+		}
+
+		RasterSupersample: {
+			Label: ラスターフォント高解像度化
+			Tooltip:
+				'''
+				有効時、ラスターフォントを高解像度で描画します
+				文字が見やすくなる可能性がある一方で、VRAM使用量の増加やパフォーマンス低下を引き起こす場合があります
+				[c/FF3333:実験的機能。バグが発生する可能性があります]
 				'''
 		}
 
@@ -100,7 +107,7 @@ Configs: {
 
 		SetupFontPreview: {
 			Label: フォント表示プレビュー
-			Tooltip: 
+			Tooltip:
 				'''
 				オフにするとロード時間は短くなりますが、
 				フォントの見た目を確認できません
@@ -168,4 +175,3 @@ Configs: {
 		}
 	}
 }
-
