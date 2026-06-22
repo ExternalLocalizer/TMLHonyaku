@@ -1,79 +1,140 @@
 Configs: {
-	RainConfig: {
-		DisplayName: Rain Overhoul 設定
+	ConfigClient: {
+		DisplayName: クライアント設定
 
 		Headers: {
-			RainSettings: 設定
-			RainWorldExactly: 追加設定
+			AmbientModeSettings: 環境モード
+			RainWorldModeSettings: 雨の世界モード
 		}
 
-		cIntensity: {
-			Label: 雨の強さ
+		rainIntensity: {
+			Label: 雨の強度
 			Tooltip:
 				'''
-				このパラメータが少ないほど、雨による影響も少なくなります
+				[c/ddbb77:雨の強度]
+				環境モードでの雨フィルターの強度を調整します
 				◉ ◉ ◉ ◌ | ◌ ◌ ◌
 				'''
 		}
 
-		cCycleIndicatorPos: {
-			Label: サイクルインジケータの位置
+		blueFilterIntensity: {
+			Label: 青フィルターの強度
 			Tooltip:
 				'''
-				「雨の世界」モードでのサイクルインジケーターの位置を調整します
+				[c/ddbb77:青フィルターの強度]
+				環境モードでの青フィルターの強度を調整します
 				◉ ◉ ◉ ◉ | ◌ ◌ ◌
 				'''
 		}
 
-		cCustomDeathSound: {
-			Label: 追加死亡音
+		deathSoundInAmbientMode: {
+			Label: 雨の世界の死亡音
 			Tooltip:
 				'''
-				この設定をオンにすると、死亡時に「雨の世界」風の効果音が鳴ります
+				[c/ddbb77:雨の世界の死亡音]
+				プレイヤーの死亡時に「雨の世界」の死亡効果音が再生されます
 				◉ ◉ ◉ ◉ | ◉ ◌ ◌
 				'''
+		}
+
+		quakeIntensityInSafeArea: {
+			Label: 安全地帯での揺れの強度
+			Tooltip:
+				'''
+				[c/dd8877:安全地帯での揺れの強度]
+				「雨の世界」の雨の間、安全地帯での揺れフィルターの強度を調整します
+				'''
+		}
+
+		disableBiomesMusicDuringRain: {
+			Label: 豪雨中はバイオーム音楽を無効化
+			Tooltip:
+				'''
+				[c/dd8877:豪雨中はバイオーム音楽を無効化]
+				「雨の世界」の豪雨中、バイオームで再生される音楽を無効にします
+				'''
+		}
+
+		cycleIndicatorPosition: {
+			Label: サイクル表示の位置
+			Tooltip:
+				'''
+				[c/dd8877:サイクル表示の位置]
+				「雨の世界」のサイクル表示の位置を調整します
+				[c/aaaaaa:変更後、自動的に保存されます]
+				'''
+			ValueUpdatedText: 値が更新された
+		}
+
+		cycleIndicatorPositionReset: {
+			Tooltip: "[c/aaaaaa:表示位置をリセット]"
+			Label: デフォルトに戻す
 		}
 	}
 
-	RainConfigServer: {
-		DisplayName: Rain Overhour ワールド設定
+	ConfigServer: {
+		DisplayName: サーバー設定
 
 		Headers: {
-			RainSettingsServer: ワールド設定
+			RainWorldModeSettings: 雨の世界モード
+			MiscSettings: その他
+			DebugMenu: デバッグ項目
 		}
 
-		cRainWorld: {
-			Label: '''「雨の世界」モード'''
+		isRainWorldMode: {
+			Label: "[c/8899bb:雨の] [c/7788aa:世][c/8899bb:界] [c/7788aa:モード]"
 			Tooltip:
 				'''
-				この切り替え設定は新たなゲームサイクルを追加し、雨のシステムを完全に再構築します。
+				[c/8899bb:雨の] [c/7788aa:世][c/8899bb:界] [c/7788aa:モード]
+				新たなゲームサイクルを追加し、雨のシステムを完全に再構築します。
 				「雨の世界」のように、逃げたり隠れたりして生き延びよう！
+				[c/aaaaaa:ゲーム内体験に影響します]
+				'''
+		}
 
-				[c/888888:Disables "{$RainConfig.cIntensity.Label}" parameter.]
-				◉ ◉ ◉ ◉ | ◉ ◌ ◌
+		rainWorldAffectsTownNPSs: {
+			Label: 雨がタウンNPCに影響
+			Tooltip:
+				'''
+				[c/dd8877:雨がタウンNPCに影響]
+				「雨の世界」モードの際、不注意なタウンNPCを押しつぶしたい場合は有効にしてください
+				'''
+		}
+
+		rainWorldAffectsOtherNPCs: {
+			Label: 雨がNPCに影響
+			Tooltip:
+				'''
+				[c/dd8877:雨がNPCに影響]
+				「雨の世界」モードの際、不注意なNPCを押しつぶしたい場合は有効にしてください
+				[c/aaaaaa:この設定はタウンNPCに影響しません]
+				'''
+		}
+
+		isNoxusBossSupport: {
+			Label: Wrath of the Gods互換性
+			Tooltip:
+				'''
+				[c/ff6688:Wrath of the Gods互換性]
+				Rift Eclipse中にRain Overhaulを無効化したい場合は有効にする。
+				[c/aaaaaa:本来、Rift Eclipseは雨を雪に置き換える。]
+				'''
+		}
+
+		isRainWorldModeHasInfiniteRainCycle: {
+			Label: 永久の雨
+			Tooltip:
+				'''
+				[c/8899bb:永久の雨]
+				「雨の世界」モードで雨を永遠に降らせる
+				[c/aaaaaa:安全地帯外で有効にすることはおすすめしません...]
 				'''
 		}
 	}
 }
 
 RainDeathReason: 自然の力によって亡くなった。
-
-Biomes: {
-	aDimRainSound: {
-		DisplayName: ""
-		TownNPCDialogueName: ""
-	}
-
-	aRainSound: {
-		DisplayName: ""
-		TownNPCDialogueName: ""
-	}
-
-	aQuakeSound: {
-		DisplayName: ""
-		TownNPCDialogueName: ""
-	}
-}
+NegativeRainTimeException: "[c/8899bb:うわぁ！Rain Overhaulのタイマーが負の値になっている。開発者に報告してくれ！！！]"
 
 Buffs: {
 	ShelterNotification: {
@@ -81,4 +142,3 @@ Buffs: {
 		DisplayName: 雨が降り始めた？
 	}
 }
-
