@@ -1,42 +1,57 @@
 Keybinds: {
-	PreviousPlayer: {
-		DisplayName: 手前のプレイヤーを観戦
-	}
-
-	NextPlayer: {
-		DisplayName: 次のプレイヤーを観戦
-	}
-
-	Stop: {
-		DisplayName: 観戦を停止
-	}
+	PreviousPlayer.DisplayName: 手前のプレイヤーを観戦
+	NextPlayer.DisplayName: 次のプレイヤーを観戦
+	Stop.DisplayName: 観戦を停止
 }
 
 PlayerDead: 死亡したプレイヤーを観戦することはできません
-
 PlayerDifferentTeam: このプレイヤーはあなたとは別のチームに所属しているため、観戦できません
-
 PlayerNotFound: 指定されたプレイヤーを確認できませんでした
-
-SpectateBoss: ボスを観戦します
+BossHeadIndexNotFound: ボスは隠れている、または存在していない
+BossTooltip: ボス
+YouTooltip: あなた
+Filter: フィルター
+FilterEverythingTooltip: 全て
+FilterPlayersTooltip: プレイヤー
+FilterBossesTooltip: ボス
 
 Configs: {
 	Config: {
 		DisplayName: 設定
 
-		Headers: {
-			Tweaks: 観戦モードの設定
-		}
-
-		RespawnSpectateOffToggle: {
+		respawnSpectateOffToggle: {
+			Tooltip: リスポーン時に観戦モードを終了します
 			Label: リスポーン時に観戦モードを終了
-			Tooltip: ""
 		}
 
-		SpectateOnDeath: {
+		spectateOnDeath: {
+			Tooltip: 死亡時に最も近いプレイヤーを観戦します
 			Label: 死亡時に最も近いプレイヤーを観戦
-			Tooltip: ""
+		}
+
+		gridItemGap: {
+			Tooltip: 観戦メニュー内の項目間隔を変更します
+			Label: 項目の間隔
+		}
+
+		gridPadding: {
+			Tooltip: 観戦メニューの余白を変更します
+			Label: メニューの余白
+		}
+
+		gridMaxColumns: {
+			Tooltip: 観戦メニューの列数上限を変更します
+			Label: 最大列数
+		}
+
+		Headers: {
+			GridProperties: グリッド設定
+			QoL: 利便性
+		}
+
+		animationVelocity: {
+			Label: アニメーション速度
+			Tooltip: アニメーション速度を設定します
 		}
 	}
 }
-
