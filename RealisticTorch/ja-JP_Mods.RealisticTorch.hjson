@@ -145,6 +145,7 @@ Configs: {
 		Headers: {
 			ParticleBehavior: パーティクル動作
 			GeneralSettings: 基本設定
+			AudioSettings: サウンド設定
 		}
 
 		ParticleFrequency: {
@@ -168,6 +169,20 @@ Configs: {
 			Label: 風の影響度
 			Tooltip: ""
 		}
+
+		TorchSoundVolume: {
+			Label: たいまつ音量
+			Tooltip: ""
+		}
+
+		TorchSoundEnabled: {
+			Label: たいまつ音を有効化
+			Tooltip: ""
+		}
+
+		IndependentVolume: {
+			Label: 独立音量
+			Tooltip: ""
+		}
 	}
 }
-
