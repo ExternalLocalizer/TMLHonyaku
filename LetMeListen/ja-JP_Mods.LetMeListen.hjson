@@ -1,0 +1,117 @@
+Configs: {
+	LetMeListenConfig: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			BossMusicSettings: ボス戦中の音楽設定
+			BossSoundSettings: ボス戦中の効果音設定
+			BossAmbientSettings: ボス戦中の環境設定
+		}
+
+		EnableBossMusicFade: {
+			Label: ボス戦中の音楽の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボスがいる際、
+				音楽の音量が変化するようになります
+				'''
+		}
+
+		RespectManualMusicChanges: {
+			Label: 手動での音楽の音量の変更を優先させる
+			Tooltip:
+				'''
+				この設定をオンにすると、ボスがいる際に手動で音楽の音量を変更した場合、
+				戦闘が終了するまでこのModによる音楽の音量の変化がなくなります
+				'''
+		}
+
+		BossMusicTargetVolume: {
+			Label: ボス戦中の音楽の音量
+			Tooltip:
+				'''
+				ボスがいる際、ゲーム内の音楽の音量が徐々に小さくなります
+				この設定は数値%まで小さくします
+				例えば80と入力すると、音楽の音量が80%まで小さくなります
+				'''
+		}
+
+		BossMusicFadePercentPerSecond: {
+			Label: ボス戦中の音楽の音量の変化速度
+			Tooltip:
+				'''
+				ボスがいる際、音楽の音量が毎秒どのくらいの速さで変化するか変更します
+				例えば、1は音楽の音量が1秒あたり1%変化することを意味します
+				'''
+		}
+
+		EnableBossSoundFade: {
+			Label: ボス戦中の効果音の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボスがいる際、
+				効果音の音量が変化するようになります
+				'''
+		}
+
+		RespectManualSoundChanges: {
+			Label: 手動での効果音の音量の変更を優先させる
+			Tooltip:
+				'''
+				この設定をオンにすると、ボスがいる際に手動で効果音の音量を変更した場合、
+				戦闘が終了するまでこのModによる効果音の音量の変化がなくなります
+				'''
+		}
+
+		BossSoundTargetVolume: {
+			Label: ボス戦中の効果音の音量
+			Tooltip:
+				'''
+				ボスがいる際、ゲーム内の効果音の音量が徐々に小さくなります
+				この設定は数値%まで小さくします
+				例えば80と入力すると、効果音の音量が80%まで小さくなります
+				ボスの効果音が大きすぎる場合に役立ちます
+				'''
+		}
+
+		BossSoundFadePercentPerSecond: {
+			Label: ボス戦中の効果音の音量の変化速度
+			Tooltip: ボスがいる際、効果音の音量が毎秒どのくらいの速さで変化するか変更します
+		}
+
+		EnableBossAmbientFade: {
+			Label: ボス戦中の環境音の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボスがいる際、
+				環境音の音量が変化するようになります
+				'''
+		}
+
+		RespectManualAmbientChanges: {
+			Label: 手動での環境音の音量の変更を優先させる
+			Tooltip:
+				'''
+				この設定をオンにすると、ボスがいる際に手動で環境音の音量を変更した場合、
+				戦闘が終了するまでこのModによる環境音の音量の変化がなくなります
+				'''
+		}
+
+		BossAmbientTargetVolume: {
+			Label: ボス戦中の環境音の音量
+			Tooltip:
+				'''
+				ボスがいる際、ゲーム内の環境音の音量が徐々に小さくなります
+				この設定は数値%まで小さくします
+				例えば80と入力すると、環境音の音量が80%まで小さくなります
+				ボスの音楽をより際立たせたい場合に便利です
+				'''
+		}
+
+		BossAmbientFadePercentPerSecond: {
+			Label: ボス戦中の環境音の音量の変化速度
+			Tooltip: ボスがいる際、環境音の音量が毎秒どのくらいの速さで変化するか変更します
+		}
+	}
+}
+

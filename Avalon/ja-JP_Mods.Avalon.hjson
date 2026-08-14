@@ -7,16 +7,6 @@ LoadingTips_Default: {
 
 UI.WorldDescriptionEvilRandom: 不浄、真紅、伝染のどれがワールドを汚染するかを自然の成り行きに任せる。
 
-BiomeTitles: {
-	Title: {
-		Avalon: {
-			PhantomGardens: Phantom Gardens
-			Hellcastle: Hellcastle
-			Contagion: Contagion
-		}
-	}
-}
-
 AltLibrary: {
 	AltOres: {
 		CobaltAltOre: {
@@ -55,75 +45,6 @@ AltLibrary: {
 			BlessMessage: "[c/B9C2D7:{$Mods.AltLibrary.BlessBase}]"
 		}
 	}
-}
-
-ThoriumMod: {
-	Items: {
-		IronShield: {
-			DisplayName: 鉄の盾
-			Tooltip:
-				'''
-				防御力が1増加
-				常に11のライフシールドを生成
-				'''
-		}
-
-		LeadShield: {
-			DisplayName: 鉛の盾
-			Tooltip:
-				'''
-				防御力が1増加
-				常に12のライフシールドを生成
-				'''
-		}
-
-		SilverBulwark: {
-			DisplayName: 銀の防盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に14のライフシールドを生成
-				'''
-		}
-
-		TungstenBulwark: {
-			DisplayName: タングステンの防盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に15のライフシールドを生成
-				'''
-		}
-
-		GoldAegis: {
-			DisplayName: 金の護盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に17のライフシールドを生成
-				'''
-		}
-
-		PlatinumAegis: {
-			DisplayName: プラチナの護盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に18のライフシールドを生成
-				'''
-		}
-
-		ThoriumShield: {
-			DisplayName: トリウムの盾
-			Tooltip:
-				'''
-				防御力が3増加
-				常に20のライフシールドを生成
-				'''
-		}
-	}
-
-	Bestiary.Sickubus: 伝染の陰湿な影響の証拠。悪魔でさえも、その蔓延から逃れることはできない。
 }
 
 TrackNames: {
@@ -219,8 +140,8 @@ TrackNames: {
 }
 
 MunchiesSupport: {
-	StaminaCrystal: "[i:Avalon/Boltstoneで作成するか、ボスがドロップする"
-	EnergyCrystal: "[i:Avalon/StaminaCrystal] をシマーに入れる"
+	StaminaCrystal: "[i:Avalon/Boltstone] で作成するか、ボスがドロップする"
+	EnergyCrystal: "[i:Avalon/StaminaCrystal] をシマーに投げ入れる"
 }
 
 Stamina: スタミナ
@@ -237,7 +158,7 @@ GameTitles: {
 	7: Terraria: ロジックは別売り
 	8: Terraria: Core Ascensionもぜひ試してみてください！
 	9: Terraria: /q
-	10: Terraria:airarreT
+	10: Terraria: airarreT
 	11: Terraria: 18歳以上ではない！*
 	12: Terraria: The Depthsもぜひお試しください！
 	13: Terraria: バージョン1.1以降は「完成」です！
@@ -249,7 +170,7 @@ GameTitles: {
 	19: Terraria: 404 タイトルが見つかりません
 }
 
-Banana: スケルトンに近づくとバナナに変わります
+Banana: スケルトンに近づくとバナナに変化する
 
 Slots: {
 	StaminaScroll: スタミナの巻物
@@ -271,8 +192,8 @@ RecipeConditions: {
 
 BuilderToggles: {
 	CloudGloveBuilderToggle: {
-		OnText: 雲の手袋オン
-		OffText: 雲の手袋オフ
+		OnText: 雲のグローブがオン
+		OffText: 雲のグローブがオフ
 	}
 }
 
@@ -332,7 +253,7 @@ Achievements: {
 
 	Ach_FalseAlarm: {
 		FriendlyName: 誤報！
-		Description: 偽の宝の地図かゴブリンの退却命令のどちらかを使って襲来をキャンセルさせる。
+		Description: 偽物の宝の地図かゴブリンの退却命令のどちらかを使って襲来をキャンセルさせる。
 	}
 
 	Ach_Fatality: {
@@ -410,134 +331,134 @@ RejuvenationPotion: {
 
 BossChecklist: {
 	SpawnInfo: {
-		BacteriumPrime: "[i:Avalon/InfestedCarcass]を使うか、伝染でセプシスセルを3つ壊すたびに出現する"
+		BacteriumPrime: "[i:Avalon/InfestedCarcass] を使うか、伝染でセプシスセルを3つ壊すたびに出現する"
 		DesertBeak:
 			'''
-			[i:Avalon/DesertHorn]を昼間の砂漠で使う。
+			[i:Avalon/DesertHorn] を昼間の砂漠で使う。
 			スケルトロンとワールドの邪悪なボスを撃破後、ハゲワシを5羽倒した後、午前9時30分に砂漠で自然に出現する。
 			'''
-		Mechasting: "[i:Avalon/MechanicalWasp]を夜間に使う。"
-		Phantasm: "[i:Avalon/EctoplasmicBeacon]をヘルキャッスルで使う。"
+		Mechasting: "[i:Avalon/MechanicalWasp] を夜間に使う。"
+		Phantasm: "[i:Avalon/EctoplasmicBeacon] をヘルキャッスルで使う。"
 	}
 }
 
-Librarian.Bestiary: 司書は、謎の異世界の存在が侵略してきた際に故郷を逃れた。彼はここでずっと幸せそうに見える。
+Librarian.Bestiary: 司書は、謎の異世界の存在が侵略してきた際に故郷を逃れた。彼はここでは幸せそうに見える。
 
 DeathText: {
-	BloodBarrage_1: "{0}は血が必要なのを忘れていた"
-	BloodCasting_1: "{0}は心臓が間違った場所にあった"
-	CaesiumPoison_1: "{0}はセシウムによって中毒を起こした"
+	BloodBarrage_1: "{0}は血が必要なのを忘れていました。"
+	BloodCasting_1: "{0}は心臓が間違った場所にありました。"
+	CaesiumPoison_1: "{0}はセシウムによって中毒を起こしました。"
 	Drowned_1: "{0}「ぶくぶくぶく...」"
-	Drowned_2: "{0}は水で呼吸できると思っていた"
-	Drowned_3: "{0}は窒息した"
-	Drowned_4: "{0}は魚ではなかった"
-	Drowned_5: "{0}は気泡を吸い込むのを忘れていた"
-	Drowned_6: "{0}は沈んでいくような感覚を覚えた"
-	Electrocuted_1: "{0}がzzzzappedされた"
-	Electrocuted_2: "{0}は人を惹きつける魅力的な性格の持ち主だった"
-	Electrocuted_3: "{0}は独自のコンピュータを構築しようとした"
-	Electrocuted_4: "{0}はレッドストーンを台無しにした"
-	Electrocuted_5: "{0}に通電した！"
-	Electrocuted_6: "{0}はトースターだと思っていた"
-	Escape_1: "{0}が誤ってクリックされた"
-	Fell_1: "{0}は地面にぶつかった時に満足のいく「ベチャッ」という音を立てた"
-	Fell_2: "{0}は思い切って行動を起こした…"
+	Drowned_2: "{0}は水で呼吸できると思っていました。"
+	Drowned_3: "{0}は窒息しました。"
+	Drowned_4: "{0}は魚ではありませんでした。"
+	Drowned_5: "{0}は気泡を吸い込むのを忘れていました。"
+	Drowned_6: "{0}は沈んでいくような感覚を覚えました。"
+	Electrocuted_1: "{0}がzzzzappedされました。"
+	Electrocuted_2: "{0}は人を惹きつける魅力的な性格の持ち主でした。"
+	Electrocuted_3: "{0}は独自のコンピュータを構築しようとしました。"
+	Electrocuted_4: "{0}はレッドストーンを台無しにしました。"
+	Electrocuted_5: "{0}に通電しました！"
+	Electrocuted_6: "{0}はトースターだと思っていました。"
+	Escape_1: "{0}が誤ってクリックされました。"
+	Fell_1: "{0}は地面にぶつかった時に満足のいく「ベチャッ」という音を立てました。"
+	Fell_2: "{0}は思い切って行動を起こしました…"
 	Fell_3: "{0}、重力って最悪だよね？"
-	Fell_4: "{0}は空を飛ぶ夢を見た"
-	Fell_5: "{0}は文字通り地下6フィートに埋まった"
-	Fell_6: "{0}のパラシュートはただのバックパックだった"
-	Fell_7: "{0}は{1}全体に飛び散った"
-	Fell_8: "{0}がつまづいた"
-	Fell_9: "{0}は重力を過小評価していた"
-	Fell_10: "{0}はジャンプするのを忘れていた"
-	Fell_11: "{0}はかっこよく後転しようとした"
-	Fell_12: "{0}は「すぐにでも活動を開始する」という言葉を文字通りに受け取りすぎた"
-	Fell_13: 地面には現在、{0}の形をした穴が開いている
-	Fell_14: "{0}がまた騙された"
-	Fell_15: "{0}はゆっくりと膝蓋骨が内側に反転するのを見守った。"
-	Gambler_1: "{0}は命を賭けた"
-	Generic_1: "{0}はくすぐりすぎて粉々になった"
-	Generic_2: "{0}は細かいペーストになった"
-	Generic_3: "{0}は墓石ディスペンサーになった"
-	Generic_4: "{0}.exeは動作を停止しました。プログラムが終了しました"
-	Generic_5: "{0}の夢は打ち砕かれた"
-	Generic_6: "{0}の肺が露出した"
-	Generic_7: "{0}は生肉に変わった"
-	Generic_8: "{0}の骨は{1}中に散らばった"
-	Generic_9: "{0}は速すぎる死を迎えた"
-	Generic_10: "{0}は形勢逆転された"
-	Generic_11: "{0}がティンブクトゥに発送された"
-	Generic_12: "{0}はもうカンザスにはいない"
-	Generic_13: "{0}はスキルの問題を実感した"
-	Generic_14: "{0}のキーボードが壊れてしまった"
-	Generic_15: "{0}は折り紙にされた"
-	Generic_16: "{0}はヤマアラシを強制的に食べさせられた"
-	Generic_17: マウントの延長保証について{0}に問い合わせた
-	Generic_18: "{0}は肋骨を取り除かれた"
-	Generic_19: "{0}のノーヒットカウンターが増加した"
-	Generic_20: "{0}の頭部が切断された"
+	Fell_4: "{0}は空を飛ぶ夢を見ました。"
+	Fell_5: "{0}は文字通り地下6フィートに埋まりました。"
+	Fell_6: "{0}のパラシュートはただのバックパックでした。"
+	Fell_7: "{0}は{1}全体に飛び散りました。"
+	Fell_8: "{0}がつまづきました。"
+	Fell_9: "{0}は重力を過小評価していました。"
+	Fell_10: "{0}はジャンプするのを忘れていました。"
+	Fell_11: "{0}はかっこよく後転しようとしました。"
+	Fell_12: "{0}は「すぐにでも活動を開始する」という言葉を文字通りに受け取りすぎました。"
+	Fell_13: 地面には現在、{0}の形をした穴が開いています。
+	Fell_14: "{0}がまた騙されました。"
+	Fell_15: "{0}はゆっくりと膝蓋骨が内側に反転するのを見守りました。"
+	Gambler_1: "{0}は命を賭けました。"
+	Generic_1: "{0}はくすぐりすぎて粉々になりました。"
+	Generic_2: "{0}は細かいペーストになりました。"
+	Generic_3: "{0}は墓石ディスペンサーになりました。"
+	Generic_4: "{0}.exeは動作を停止しました。プログラムが終了しました。"
+	Generic_5: "{0}の夢は打ち砕かれました。"
+	Generic_6: "{0}の肺が露出しました。"
+	Generic_7: "{0}は生肉に変わりました。"
+	Generic_8: "{0}の骨が{1}中に散らばりました。"
+	Generic_9: "{0}は速すぎる死を迎えました。"
+	Generic_10: "{0}は形勢逆転されました。"
+	Generic_11: "{0}がティンブクトゥに発送されました。"
+	Generic_12: "{0}はもうカンザスにはいません。"
+	Generic_13: "{0}はスキルの問題を実感しました。"
+	Generic_14: "{0}のキーボードが壊れてしまいました。"
+	Generic_15: "{0}は折り紙にされました。"
+	Generic_16: "{0}はヤマアラシを強制的に食べさせられました。"
+	Generic_17: マウントの延長保証について{0}に問い合わせました。
+	Generic_18: "{0}は肋骨を取り除かれました。"
+	Generic_19: "{0}のノーヒットカウンターが増加しました。"
+	Generic_20: "{0}の頭部が切断されました。"
 	Generic_21: 死亡.{0}.事故.一般
-	Generic_22: "{0}の臓器が摘出された"
-	Generic_23: "{0}は彼らの致命的な束縛から解放された"
-	Generic_24: "{0}は見捨てられ、失望した"
-	Generic_25: "{0}は徹底的に解体された"
-	Generic_26: "{0}の自我は縮小した"
-	Generic_27: "{0}は負けた"
-	Generic_28: "{0}はやられた"
-	Generic_29: "{0}は{1}から奪われた"
-	Generic_30: "{0}の頭部は切断された"
-	Generic_31: "{0}のタスクは完了した"
-	Generic_32: "{1}は{0}を奪われた"
-	Generic_33: "{0}のベッドは食べられてしまった"
-	Generic_34: "{0}の骨格はバナナに変わった"
-	Lava_1: "{0}は火の湖に入浴した"
-	Lava_2: "{0}は炭になった"
-	Lava_3: "{0}は熱い、暑い、暑い"
-	Lava_4: "{0}は地獄で滅ぼされた"
-	Lava_5: "{0}、それはジャグジーではない"
-	Lava_6: "{0}は穴の中で火を見つけた"
-	Lava_7: "{0}は溶岩で誤って足を取られてしまった"
-	Lava_8: "{0}は儀式的に生贄に捧げられた"
-	Lava_9: "{0}は禁断のオレンジジュースを飲もうした"
-	Lava_10: "{0}のコーヒーは熱すぎた"
-	Malaria_1: "{0}は蚊に刺された"
-	Petrified_1: "{0}は石にされた"
-	Petrified_2: "{0}は御影石と間違えられた"
-	Poisoned_1: "{0}はリンゴの種を食べすぎた"
-	Poisoned_2: "{0}はあのキノコを食べるのが良い考えだと思った"
-	Poisoned_3: "{0}は内側から消化された"
-	SanguineKatana_1: "{0}の魂は剣の中に封じ込められた"
-	Space_1: "{0}はワープ10の閾値を突破した"
-	Space_2: "{0}はブラックホールに近づきすぎた"
-	Space_3: "{0}の遺体は火星人に発見された"
-	Space_4: "{0}は環境保護パックを忘れていた"
-	Space_5: "{0}の惑星はそれを必要としていた"
-	Teleport_1: "{0}の骨は一緒にテレポートしなかった"
-	Teleport_2: "{0}はエンダーマンだと思っていた"
-	Teleport_3: "{0}は3次元空間にワープした"
-	Teleport_4: "{0}は魔法で確かに消えてしまった"
-	Teleport_2_Male: "{0}の骨は一緒にテレポートしなかった"
-	Teleport_3_Male: "{0}はエンダーマンだと思った"
-	Teleport_4_Male: "{0}は3次元空間にワープした"
-	Teleport_5_Male: "{0}は魔法で確かに消えてしまった"
-	Teleport_2_Female: "{0}の骨は一緒にテレポートしなかった"
-	Teleport_3_Female: "{0}はエンダーマンだと思っていた"
-	Teleport_4_Female: "{0}は3次元空間にワープした"
-	Teleport_5_Female: "{0}は魔法で確かに消えてしまった"
-	Toxic_1: "{0}は病に倒れた"
-	WardCurse_1: "{0}は追加ダメージで死亡した"
-	Acid_0: "{0}は酸に溶かされた"
-	Acid_1: "{0}はスケルトンになった"
-	Acid_2: "{0}の肉が骨から剥がれ落ちた"
-	Acid_3: "{0}は間違った酸を使った"
-	Acid_4: "{0}は酸の間違った使い方をした"
+	Generic_22: "{0}の臓器が摘出されました。"
+	Generic_23: "{0}は彼らの致命的な束縛から解放されました。"
+	Generic_24: "{0}は見捨てられ、失望しました。"
+	Generic_25: "{0}は徹底的に解体されました。"
+	Generic_26: "{0}の自我は縮小しました。"
+	Generic_27: "{0}は負けました。"
+	Generic_28: "{0}はやられました。"
+	Generic_29: "{0}は{1}から奪われました。"
+	Generic_30: "{0}の頭部は切断されました。"
+	Generic_31: "{0}のタスクは完了しました。"
+	Generic_32: "{1}は{0}を奪われました。"
+	Generic_33: "{0}のベッドは食べられてしまいました。"
+	Generic_34: "{0}の骨格がバナナに変わりました。"
+	Lava_1: "{0}は火の湖に入浴しました。"
+	Lava_2: "{0}は炭になりました。"
+	Lava_3: "{0}は熱い、暑い、暑い。"
+	Lava_4: "{0}は地獄で滅ぼされました。"
+	Lava_5: "{0}、それはジャグジーではない。"
+	Lava_6: "{0}は穴の中で火を見つけました。"
+	Lava_7: "{0}は溶岩で誤って足を取られてしまいました。"
+	Lava_8: "{0}は儀式的に生贄に捧げられました。"
+	Lava_9: "{0}は禁断のオレンジジュースを飲もうとしました。"
+	Lava_10: "{0}のコーヒーは熱すぎました。"
+	Malaria_1: "{0}は蚊に刺されました。"
+	Petrified_1: "{0}は石にされました。"
+	Petrified_2: "{0}は御影石と間違えられました。"
+	Poisoned_1: "{0}はリンゴの種を食べすぎました。"
+	Poisoned_2: "{0}はあのキノコを食べるのが良い考えだと思いました。"
+	Poisoned_3: "{0}は内側から消化されました。"
+	SanguineKatana_1: "{0}の魂は剣の中に封じ込められました。"
+	Space_1: "{0}はワープ10の閾値を突破しました。"
+	Space_2: "{0}はブラックホールに近づきすぎました。"
+	Space_3: "{0}の遺体は火星人に発見されました。"
+	Space_4: "{0}は環境保護パックを忘れていました。"
+	Space_5: "{0}の惑星はそれを必要としていました。"
+	Teleport_1: "{0}の骨は一緒にテレポートしませんでした。"
+	Teleport_2: "{0}はエンダーマンだと思っていました。"
+	Teleport_3: "{0}は3次元空間にワープしました。"
+	Teleport_4: "{0}は魔法で確かに消えてしまいました。"
+	Teleport_2_Male: "{0}の骨は一緒にテレポートしませんでした。"
+	Teleport_3_Male: "{0}はエンダーマンだと思いました。"
+	Teleport_4_Male: "{0}は3次元空間にワープしました。"
+	Teleport_5_Male: "{0}は魔法で確かに消えてしまいました。"
+	Teleport_2_Female: "{0}の骨は一緒にテレポートしませんでした。"
+	Teleport_3_Female: "{0}はエンダーマンだと思っていました。"
+	Teleport_4_Female: "{0}は3次元空間にワープしました。"
+	Teleport_5_Female: "{0}は魔法で確かに消えてしまいました。"
+	Toxic_1: "{0}は病に倒れました。"
+	WardCurse_1: "{0}は追加ダメージで死亡しました。"
+	Acid_0: "{0}は酸に溶かされました。"
+	Acid_1: "{0}はスケルトンになりました。"
+	Acid_2: "{0}の肉が骨から剥がれ落ちました。"
+	Acid_3: "{0}は間違った酸を使いました。"
+	Acid_4: "{0}は酸の間違った使い方をしました。"
 }
 
 GameTips: {
 	AvalonTip0: Avalon: 地上の宝箱から空白の巻物を見つけることができる。これらの巻物を使ってスタミナの巻物を作成し、能力を強化しましょう！
-	AvalonTip1: Avalon: 書物は、ステータスを強化する特殊なアクセサリーです。クトゥルフの目を倒すと、司書が現れます。彼は書物作成台をはじめ、書物の素材をいくつか販売してくれます。
-	AvalonTip2: Avalon: ハートストーンは地下で見つけることができる！この鉱石はライフクリスタルの作成に使用でき、ハート型に生成される。
-	AvalonTip3: Avalon: ボルトストーンとスターストーンは、地下に稲妻と星の形をした形で存在する。これらの鉱石は、それぞれスタミナクリスタルとマナクリスタルに加工できる。
+	AvalonTip1: Avalon: 書物は、ステータスを強化する特殊なアクセサリーです。クトゥルフの目を倒すと、司書が現れます。彼は書物作成台をはじめ、書物の素材をいくつか売ってくれます。
+	AvalonTip2: Avalon: ハートストーンは地下で見つけることができる！この鉱石はライフクリスタルの作成に使用でき、ハートの型で生成される。
+	AvalonTip3: Avalon: ボルトストーンとスターストーンは、地下に稲妻と星の形の形で存在する。これらの鉱石で、それぞれスタミナクリスタルとマナクリスタルを作成できる。
 }
 
 WOSAwaken: ウォールオブスチールが目覚めた！
@@ -560,14 +481,14 @@ CougherMask.Tooltip:
 Bestiary: {
 	BaskingSpewer: 古代、この砂漠には塩水の川が流れていた。これらの力強い生き物は、今では乾燥した砂漠で生き残るために進化を遂げたのだ。
 	Blaze: この恐ろしい生物は水に非常に弱い。幸いなことに、その自然環境には水が存在しないため、繁殖することができる。
-	ContagionMimic: 時折、ミミックが病気になった際、完全に回復する代わりに、このモンスターに変身してしまうことがある。普通の宝箱から強制的に生み出すことも可能だ。
+	ContagionMimic: 時折、ミミックが病気にかかった後、完全に回復した際、このモンスターに変身してしまうことがある。普通の宝箱から強制的に生み出すことも可能だ。
 	ContaminatedGhoul: 伝染に侵されたグールは、感染性のよだれを垂らし、それが犠牲者の免疫システムを弱体化させる。
 	Cougher: コフカーは、毒の息を吐きかける獲物を求めて飛び回る。彼らの吐息には、標的の免疫系を完全に破壊する病原体が含まれており、それによって感染症が広がりやすくなる。
 	EctoHand: 彼らはまるで失われた人生に触れようとするかのように手を伸ばしてくる。あるいは、単にハイタッチをしたいだけなのかもしれない。
 	Gargoyle: 石でできたそれらは、神話上の生き物に似ている。それらはヘルキャッスルとその宝物を守っている。
 	GreenPigron: このドラゴンだか豚だかわかりにくい奴は、その丸々太った姿にもかかわらず、優れたステルス機能を備えている。それがどのようにして誕生したのかは不明。
 	HellboundLizard: リザードに似た外見を持つ彼らは、目的もなくヘルキャッスル内を走り回っている。
-	Ickslime: ゼラチン状で気持ち悪い、知性を持つ粘液の塊であるイクスライムは、獲物を分解して、新たな怪物を生み出すための感染源となる材料にする。
+	Ickslime: ゼラチン状で気持ち悪い、知性を持つスライムであるイクスライムは、獲物を分解して、新たな怪物を生み出すための感染源となる材料にする。
 	ViralMummy: 砂漠に埋葬されしものが、今や蘇り、善悪関係なく傷つけ殺すようになった。
 	Viriling: 伝染によって生み出された未完成の生物たち。生まれてすぐから親の仇を討つだけの知能を備えている。
 	Viris: 疫病の巨大な繁殖者であるウイルスは、イクスライムの物質を利用して新たな個体を作り出し、伝染の蔓延を助ける。
@@ -577,7 +498,7 @@ Bestiary: {
 	FallenHero: 血に染まった英雄。ブラッドムーンの夜、あてもなく彷徨う。
 	Pyrasite: 伝染によって生み出された巨大な扁形動物であるこれらの生物は、巨人やその他の大型生物の胃袋に残った食べ残しを好んで食べる。
 	BacteriumPrime: この巨大な伝染の目は決して止むことなく、決して完全に閉じることはない。その視線に晒された者は、同じようにその疫病によって滅ぼされるだろう。
-	DesertBeak: 砂漠の守護者であるこの大きなハゲワシは、小型の仲間を呼び集めて戦闘に加わらせる。鋭い爪で獲物を持ち上げ、そして落下させて破滅へと導く。
+	DesertBeak: 砂漠の守護者であるこの大きなハゲワシは、小型の仲間を呼び集めて戦闘に加わらせる。
 	IrateBones: これらのアングリーボーンたちは、怒りをさらに燃え上がらせるために鎧を身に着けた。
 	CursedScepter: ダンジョンの邪悪な力によって魔法をかけられたこのような武器は、侵入者を容赦なく叩き潰す。
 	CursedFlamer: コラプターの従兄弟であるこれらの邪悪な生物は、不浄の領域に侵入しようとする者全てに呪炎を放つ。
@@ -587,10 +508,10 @@ Bestiary: {
 	ContaminatedBunny: 大抵のウサギは、伝染の影響を受けないが、ブラッドムーンの影響下ではその限りではない。
 	Shadlopod: これらの狡猾な生き物は、エボンストーンの天井に溶け込み、獲物の視力を奪ってパニックに陥る様子を見て喜びを感じる。
 	Rafflesia: ひどく大きくて、腐ったような臭いのする植物で、常にハエが発生しているようだ。
-	Fly: 腐った肉や腐った野菜を好む、本当に厄介な虫たち。名前の通り、実に気持ち悪い。.
+	Fly: 腐った肉や腐った野菜を好む、本当に厄介な虫たち。名前の通り、実に気持ち悪い。
 	AmberSlime: ゼラチン質のシンプルな生物だが、なぜかコハクのような性質も持ち合わせている。消化には非常に時間がかかる。
 	InfestedAmberSlime: サバンナに生息する虫を継続的に摂取することで、これらのスライムは倒された際に無数の虫をばら撒くようになった。
-	OreSlime: 鉱石が詰まったゼラチン状の生物で、内部に含まれる鉱石を落とす。
+	OreSlime: コスメを趣味にし始めた、まばゆいスライム。
 	MineralSlime: 鉱石が詰まったゼラチン状の生物で、内部に含まれる鉱石を落とす。
 	PoisonDartFrog: サバンナに生息する、非常に毒性の強いカエル。皮膚に触れた者は、しばしば毒に侵されて死に至る。
 	Mosquito: これらの厄介な昆虫は、病原体を媒介することで知られている。彼らはあなたの血液を吸い取り、止まった場所に感染症を残していく。
@@ -600,8 +521,11 @@ Bestiary: {
 	MechanicalHungry: ウォールオブスチールには、鋼鉄製のケーブルで繋がれた多数の口がある。最終手段として、それらは切り離され、脅威を正確に追跡することができる。
 	InfectedPickaxe: 凶悪な伝染に触発されたこの道具は、敵を引き裂こうと振り回される。
 	EvilVulture: 不浄に染まったハゲワシ。その性質は歪み、邪悪なものへと変貌した。
-	BloodyVulture: クリムゾンに食われたハゲワシであるこの鳥も、同様に獲物を食らおうとする。
+	BloodyVulture: 真紅に食われたハゲワシであるこの鳥も、同様に獲物を食らおうとする。
 	SicklyVulture: 伝染に感染したハゲワシ。その細胞は、猛威を振るうウイルスによって突然変異を起こしている。
+	Undine: かつてダンジョンに住んでいた者たち。再活性化の前に肉体を失い、その魂が水に宿り動き出した存在だ。骸骨となった仲間や家族に比べ、彼らは精神をより色濃く保っている。
+	AngryFairy: 森を守る役目を担った、強力なフェアリーたち。彼らは、あなたの森林伐採を快く思っていない。
+	BloodGusher: 完全に成長したクリメラ。その飢餓感は凄まじく、食事を終える前に次の獲物を狙い始めるほどだ。
 }
 
 Keybinds: {
@@ -676,7 +600,7 @@ RangedText: 遠距離
 SetBonuses: {
 	BlahTier2: 
 		'''
-		シュルマイトとスペクターのセットボーナスの効果を得て、
+		シュルーマイトとスペクターのセットボーナスの効果を得て、
 		ゴーバーサーク、ローズバッド、スペクトラムスピード、ダメージを全て反射する
 		'''
 	Revenant: 自身の15マス内の敵の防御力が減少する
@@ -696,7 +620,7 @@ SetBonuses: {
 	Xanthophyte:
 		'''
 		{0}攻撃速度が10%上昇
-		{1}入力二回で化石をオンにする
+		{1}入力二回で化石に変身する
 		この状態時は防御力が40増加し、ライフ自然回復力が10増加するが、移動できなくなる
 		45秒のクールダウン
 		'''
@@ -724,7 +648,7 @@ SetBonuses: {
 	Cordyceps: 召喚ダメージが9%増加
 	Troxinium:
 		'''
-		敵を15回攻撃すると次の10回の{0}攻撃はクリティカルになる
+		敵を15回攻撃すると次の10回の{0}攻撃がクリティカルになる
 		クリティカル時のダメージが高いほど効果が弱くなる
 		'''
 }
@@ -761,7 +685,7 @@ PrefixTooltips: {
 }
 
 TooltipEdits: {
-	HiveWand: 敵に当たるとミツバチに分裂するボルトを発射する
+	HiveWand: 敵に当たると蜂に分裂するボルトを発射する
 	ExtraJumps: 翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 	HandofCreation: 空中や溶岩の中にブロックや壁を設置可能になる
 	Silt: Gather 100個集めると圧縮抽出ブロックを作成できる
@@ -776,9 +700,7 @@ TooltipEdits: {
 		'''
 	Blowpipes: 吹き矢と併用して使う
 	TempleKey: ジャングル寺院のドアを開く
-	PoisonDart: 吹き矢と焼き銃と併用して使う
-	IceBlade: 巨大な雪の結晶を放つ
-	Frostbrand: 巨大な雪の結晶を複数放つ
+	PoisonDart: 吹き矢と吹き銃と併用して使う
 	Extractinator: <right>でホットバー上の接頭辞の付いたアイテムに使用すると接頭辞を消せる
 	MonsterBanner: 以下の理由でダメージと防御力の増加:
 	UpgradeStage: "強化ダメージ: "
@@ -802,7 +724,6 @@ TooltipEdits: {
 		「ピックソーと混同すんなよ」
 		クロロファイト、キサントファイト、セシウムの採掘が可能
 		'''
-	MandibleBlade: 敵を混乱させる砂を放つ
 }
 
 Jukebox: {
@@ -810,7 +731,7 @@ Jukebox: {
 	Tracks: トラック
 	NowPlaying: "再生中: "
 	Stop: 再生を停止する
-	StoppedPlaying: 曲を再生するのをやめた
+	StoppedPlaying: 曲の再生を停止
 }
 
 Herbology: {
@@ -936,7 +857,7 @@ Items: {
 		Tooltip:
 			'''
 			夜から昼か、昼から夜へと時間を変化させる
-			条件が整っているなら、ブラッドムーンや日食が起きることがある
+			条件を満たしているなら、ブラッドムーンや日食が起きることがある
 			'''
 	}
 
@@ -951,7 +872,7 @@ Items: {
 
 	Rainbringer: {
 		DisplayName: レインブリンガー
-		Tooltip: 雨天のオン/オフを切り替える
+		Tooltip: 雨を降らせるか、止ませる
 	}
 
 	TacticalBlahncher: {
@@ -965,7 +886,7 @@ Items: {
 	}
 
 	BlahStaff: {
-		DisplayName: ブラスタッフ
+		DisplayName: ブラの杖
 		Tooltip:
 			'''
 			空から降り注ぐ流星群を召喚する
@@ -974,7 +895,7 @@ Items: {
 	}
 
 	BlahsKnives: {
-		DisplayName: ブラナイフ
+		DisplayName: ブラのナイフ
 		Tooltip: 敵を追尾し、当たるたびにダメージが増加し、ライフを吸収する短剣を素早く投げる
 	}
 
@@ -985,7 +906,7 @@ Items: {
 
 	FreezeBolt: {
 		DisplayName: フリーズボルト
-		Tooltip: 弾速が早い氷の弾丸を放つ
+		Tooltip: 弾速が早い氷の弾丸を発射する
 	}
 
 	VampireTeeth: {
@@ -1197,7 +1118,7 @@ Items: {
 
 	AeonsEternity: {
 		DisplayName: イーオンズエタニティ
-		Tooltip: 時折、爆発する星座を発射する
+		Tooltip: 爆発する星座を放つ
 	}
 
 	TomeoftheDistantPast: {
@@ -1217,7 +1138,7 @@ Items: {
 
 	MagmafrostBolt: {
 		DisplayName: マグマフロストボルト
-		Tooltip: 弾速が速い火炎と霜の弾丸を放つ
+		Tooltip: 弾速が速い火炎と霜の弾丸を発射する
 	}
 
 	FrozenLyre: {
@@ -1245,7 +1166,7 @@ Items: {
 
 	GlacierStaff: {
 		DisplayName: グレイシャーの杖
-		Tooltip: 壊れやすい氷の球を放つ
+		Tooltip: 壊れやすい氷の球を発射する
 	}
 
 	BlahsPicksawTierII: {
@@ -1419,7 +1340,7 @@ Items: {
 		DisplayName: レーザーポインター
 		Tooltip:
 			'''
-			忘却の眼を作るのに使用する
+			忘却の眼の作成に使用できる
 			照準を合わせることができる
 			チームによってビームの色が変化する
 			'''
@@ -1626,7 +1547,7 @@ Items: {
 		DisplayName: 河川の精霊の書
 		Tooltip:
 			'''
-			魔法ダメージと召喚ダメージが15%増加
+			魔法と召喚ダメージが15%増加
 			マナ消費量が5%減少
 			'''
 	}
@@ -2076,21 +1997,21 @@ Items: {
 
 	CarbonSteel: {
 		DisplayName: 炭素鋼
-		Tooltip: 書物の作成に使用される金属
+		Tooltip: 書物の作成に使用できる金属
 	}
 
 	FineLumber: {
 		DisplayName: 高級木材
 		Tooltip:
 			'''
-			書物の作成に使用される木材
+			書物の作成に使用できる木材
 			「素晴らしい！」
 			'''
 	}
 
 	Gravel: {
 		DisplayName: 砂利
-		Tooltip: 書物の作成に使用される
+		Tooltip: 書物の作成に使用できる
 	}
 
 	Sandstone: {
@@ -2185,7 +2106,11 @@ Items: {
 
 	OsmiumGreatsword: {
 		DisplayName: オスミウムの大剣
-		Tooltip: ""
+		Tooltip:
+			'''
+			攻撃をやめると剣を飛ばし、光った瞬間に左クリックでクリティカルが出る
+			剣のダメージは速度に応じて増加する
+			'''
 	}
 
 	OsmiumHelmet: {
@@ -2214,7 +2139,11 @@ Items: {
 
 	OsmiumLongbow: {
 		DisplayName: オスミウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数と速度が増加する
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たると爆発して破片をばら撒く
+			'''
 	}
 
 	OsmiumBrick: {
@@ -2346,17 +2275,17 @@ Items: {
 
 	CaesiumBruteBanner: {
 		DisplayName: セシウムブルートのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムブルート"
 	}
 
 	CaesiumSeekerBanner: {
-		DisplayName: セシウムシーカー のバナー
-		Tooltip: ""
+		DisplayName: セシウムシーカーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムシーカー"
 	}
 
 	CaesiumStalkerBanner: {
 		DisplayName: セシウムストーカーのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムストーカー"
 	}
 
 	CloudBatBanner: {
@@ -2421,7 +2350,7 @@ Items: {
 
 	EvilVultureBanner: {
 		DisplayName: 邪悪なハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.EvilVulture.DisplayName}"
 	}
 
 	EyeBonesBanner: {
@@ -2496,7 +2425,7 @@ Items: {
 
 	MimeBanner: {
 		DisplayName: マイムのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}マイム"
 	}
 
 	PoisonDartFrogBanner: {
@@ -2566,7 +2495,7 @@ Items: {
 
 	DesertLongSword: {
 		DisplayName: 砂漠の長剣
-		Tooltip: 敵を混乱させる砂を放つ
+		Tooltip: 砂の竜巻を放つ
 	}
 
 	SanguineKatana: {
@@ -2599,8 +2528,8 @@ Items: {
 	}
 
 	FakeFourLeafClover: {
-		DisplayName: 偽の四つ葉のクローバー
-		Tooltip: 「あぁ…偽物だ！』
+		DisplayName: 偽物の四つ葉のクローバー
+		Tooltip: 「あぁ…偽物だ！」
 	}
 
 	FourLeafClover: {
@@ -2673,7 +2602,7 @@ Items: {
 	}
 
 	CloudGlove: {
-		DisplayName: 雲の手袋
+		DisplayName: 雲のグローブ
 		Tooltip:
 			'''
 			空中にブロックや壁を設置可能になる
@@ -2755,7 +2684,7 @@ Items: {
 		Tooltip:
 			'''
 			最大マナが最大ライフと同じ数値分増加
-			ライフが消費したマナの1/3減少する
+			消費したマナの1/3分、ライフが減少する
 			'''
 	}
 
@@ -2781,12 +2710,12 @@ Items: {
 
 	HeartsickPotion: {
 		DisplayName: ハートシックポーション
-		Tooltip: ハートのライフ回復量が5増加
+		Tooltip: ライフ回復アイテムによるライフの回復量が25%増加
 	}
 
 	AdvHeartsickPotion: {
 		DisplayName: ハートシックエリクサー
-		Tooltip: ハートのライフ回復量が10増加
+		Tooltip: ライフ回復アイテムによるライフの回復量が50%増加
 	}
 
 	ImmortalityPotion: {
@@ -3404,22 +3333,34 @@ Items: {
 
 	IridiumGreatsword: {
 		DisplayName: イリジウムの大剣
-		Tooltip: ""
+		Tooltip: 泡を放ち、攻撃をやめると泡が破裂する
 	}
 
 	RhodiumGreatsword: {
 		DisplayName: ロジウムの大剣
-		Tooltip: ""
+		Tooltip:
+			'''
+			最初は攻撃速度が遅いが敵に攻撃を当てるたびに早くなっていく
+			攻撃をやめると敵に攻撃を当てた回数に応じて強力になる衝撃波を放つ
+			'''
 	}
 
 	IridiumLongbow: {
 		DisplayName: イリジウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数と速度が増加する
+		Tooltip: 
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たるとエネルギーアローが他の敵に飛んでいく
+			'''
 	}
 
 	RhodiumLongbow: {
 		DisplayName: ロジウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数と速度が増加する
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たるとエネルギーアローで追撃する
+			'''
 	}
 
 	VertexOfExcalibur: {
@@ -3442,7 +3383,7 @@ Items: {
 	}
 
 	VenomSpike: {
-		DisplayName: 毒の棘
+		DisplayName: 毒のトゲ
 		Tooltip: ""
 	}
 
@@ -3465,7 +3406,7 @@ Items: {
 		DisplayName: フリーズスロワー
 		Tooltip:
 			'''
-			ジェルを弾薬として使う
+			弾薬としてジェルを使用する
 			敵の防御力を30無視する
 			'''
 	}
@@ -3641,14 +3582,14 @@ Items: {
 		DisplayName: 古代のヘッドホン
 		Tooltip:
 			'''
-			特定のバイオームで様々なBGMの古いバージョンを再生する
+			特定のバイオームで様々な音楽の古いバージョンを再生する
 			衣装スロットでも効果を発揮する
 			'''
 	}
 
 	Blunderblight: {
 		DisplayName: ブランダーブライト
-		Tooltip: 弾丸を拡散して発射する
+		Tooltip: 弾丸を拡散させて撃つ
 	}
 
 	DartShotgun: {
@@ -3681,178 +3622,178 @@ Items: {
 	}
 
 	ACometHasStruckGround: {
-		DisplayName: 地上に衝突した彗星
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『地上に衝突した彗星』
+		Tooltip: 「B.ハロルド」
 	}
 
 	BirthofaMonster: {
-		DisplayName: 怪物の誕生
+		DisplayName: 絵画『怪物の誕生』
 		Tooltip: 「サー・E・ブラム」
 	}
 
 	Clash: {
-		DisplayName: 衝突
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『衝突』
+		Tooltip: 「B.ハロルド」
 	}
 
 	CrossingtheTropics: {
-		DisplayName: 熱帯地方の横断
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『熱帯地方の横断』
+		Tooltip: 「B.ハロルド」
 	}
 
 	CurseofOblivion: {
-		DisplayName: 忘却の呪い
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『忘却の呪い』
+		Tooltip: 「B.ハロルド」
 	}
 
 	EclipseofDoom: {
-		DisplayName: 破滅の蝕
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『破滅の蝕』
+		Tooltip: 「B.ハロルド」
 	}
 
 	EvilOuroboros: {
-		DisplayName: 邪悪なウロボロス
+		DisplayName: 絵画『邪悪なウロボロス』
 		Tooltip: 「サー・E・ブラム」
 	}
 
 	FightoftheBumblebee: {
-		DisplayName: バンブルビーの戦い
+		DisplayName: 絵画『バンブルビーの戦い』
 		Tooltip: 「ダン・D・ライオン」
 	}
 
 	FrostySpectacle: {
-		DisplayName: フロスティスペクタクル
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『フロスティスペクタクル』
+		Tooltip: 「B.ハロルド」
 	}
 
 	PlanterasRage: {
-		DisplayName: プランテラの怒り
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『プランテラの怒り』
+		Tooltip: 「B.ハロルド」
 	}
 
 	RingofDisgust: {
-		DisplayName: 嫌悪の輪
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『嫌悪の輪』
+		Tooltip: 「B.ハロルド」
 	}
 
 	RuinedCivilization: {
-		DisplayName: 滅びた文明
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『滅びた文明』
+		Tooltip: 「B.ハロルド」
 	}
 
 	SpectralAppearance: {
-		DisplayName: スペクトルアピアランス
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『スペクトルアピアランス』
+		Tooltip: 「B.ハロルド」
 	}
 
 	Trespassing: {
-		DisplayName: 不法侵入
-		Tooltip: 「B. ハロルド」
+		DisplayName: 絵画『不法侵入』
+		Tooltip: 「B.ハロルド」
 	}
 
 	Cottage: {
-		DisplayName: コテージ
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『コテージ』
+		Tooltip: 「R.ペンギン」
 	}
 
 	DeepBlue: {
-		DisplayName: 深い青
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『深い青』
+		Tooltip: 「R.ペンギン」
 	}
 
 	DanceoftheLotus: {
-		DisplayName: 蓮のダンス
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『蓮のダンス』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Australia: {
-		DisplayName: オーストラリア
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『オーストラリア』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Steep: {
-		DisplayName: 急な
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『急な』
+		Tooltip: 「R.ペンギン」
 	}
 
 	AncientBeast: {
-		DisplayName: 古代の獣
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『古代の獣』
+		Tooltip: 「R.ペンギン」
 	}
 
 	BurntheWitch: {
-		DisplayName: 魔女を燃やせ
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『魔女を燃やせ』
+		Tooltip: 「R.ペンギン」
 	}
 
 	JourneysBeginning: {
-		DisplayName: 旅の始まり
-		Tooltip: 「A. アイゼンメンガー」
+		DisplayName: 絵画『旅の始まり』
+		Tooltip: 「E.アイゼンメンガー」
 	}
 
 	TheBastion: {
-		DisplayName: バスティオン
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『バスティオン』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Pond: {
-		DisplayName: 池
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『池』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Damned: {
-		DisplayName: 呪われた
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『呪われた』
+		Tooltip: 「R. ペンギン」
 	}
 
 	ElectrostaticDischarge: {
-		DisplayName: 静電気放電
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『静電気放電』
+		Tooltip: 「R.ペンギン」
 	}
 
 	MirrorMirror: {
-		DisplayName: 鏡よ、鏡よ
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『鏡よ、鏡よ』
+		Tooltip: 「R.ペンギン」
 	}
 
 	MistyNight: {
-		DisplayName: 霧の深い夜
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『霧の深い夜』
+		Tooltip: 「R.ペンギン」
 	}
 
 	SixtyEight: {
-		DisplayName: "68"
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『68』
+		Tooltip: 「R.ペンギン」
 	}
 
 	CavernMan: {
-		DisplayName: 洞窟の男
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『洞窟の男』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Forgotten: {
-		DisplayName: 忘れられた
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『忘れられた』
+		Tooltip: 「R.ペンギン」
 	}
 
 	Rotting: {
-		DisplayName: 腐敗
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『腐敗』
+		Tooltip: 「R.ペンギン」
 	}
 
 	TakingFlight: {
-		DisplayName: 飛び立つ
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『飛び立つ』
+		Tooltip: 「R.ペンギン」
 	}
 
 	ThoughPoppiesGrow: {
-		DisplayName: ポピーが咲く
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『ポピーが咲く』
+		Tooltip: 「R.ペンギン」
 	}
 
 	WyvernSlayer: {
-		DisplayName: ワイバーンスレイヤー
-		Tooltip: 「R・ペンギン」
+		DisplayName: 絵画『ワイバーンスレイヤー』
+		Tooltip: 「R.ペンギン」
 	}
 
 	BlueEyeoftheUniverse: {
@@ -3877,7 +3818,7 @@ Items: {
 
 	SepticCell: {
 		DisplayName: セプティックセル
-		Tooltip: 光を提供するセルを召喚する
+		Tooltip: 光を放つセルを召喚する
 	}
 
 	SnotsandBlock: {
@@ -4022,7 +3963,11 @@ Items: {
 
 	DevilsScythe: {
 		DisplayName: デビルズサイス
-		Tooltip: 地獄の炎の鎌を放つ
+		Tooltip:
+			'''
+			地獄の審判の鎌を放つ
+			敵をデバフに弱くする
+			'''
 	}
 
 	ImperviousBrickWallItem: {
@@ -4137,7 +4082,7 @@ Items: {
 
 	CursedFlamelash: {
 		DisplayName: カースドフレイムラッシュ
-		Tooltip: カースドファイアボールを自由に操作できる
+		Tooltip: カースフレイムボールを自由に操作できる
 	}
 
 	DecorativeStaminaPotion: {
@@ -5173,7 +5118,7 @@ Items: {
 		Tooltip: "[c/C39FDD:[11周年記念コンテスト受賞者 - sapphirephly][c/C39FDD:]]"
 	}
 
-	CoughwoodFence: {
+	CoughwoodFenceItem: {
 		DisplayName: コフウッドのフェンス
 		Tooltip: ""
 	}
@@ -5638,7 +5583,7 @@ Items: {
 		Tooltip: ""
 	}
 
-	SepsisBlockWall: {
+	SepsisBlockWallItem: {
 		DisplayName: ゼプシスの壁
 		Tooltip: ""
 	}
@@ -5693,22 +5638,22 @@ Items: {
 		Tooltip: ""
 	}
 
-	ContagionBoilWall: {
+	ContagionBoilWallItem: {
 		DisplayName: 伝染の沸騰した壁
 		Tooltip: ""
 	}
 
-	ContagionCystWall: {
+	ContagionCystWallItem: {
 		DisplayName: 伝染の嚢胞の壁
 		Tooltip: ""
 	}
 
-	ContagionLumpWall: {
+	ContagionLumpWallItem: {
 		DisplayName: 伝染の腫瘤の壁
 		Tooltip: ""
 	}
 
-	ContagionMouldWall: {
+	ContagionMouldWallItem: {
 		DisplayName: 伝染のカビの壁
 		Tooltip: ""
 	}
@@ -5824,8 +5769,12 @@ Items: {
 	}
 
 	Longbow: {
-		DisplayName: 長弓
-		Tooltip: ""
+		DisplayName: ゴブリンの戦弓
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
+			完全に引き絞ると敵を複数貫通する
+			'''
 	}
 
 	BondrewdHelmet: {
@@ -5899,7 +5848,7 @@ Items: {
 	}
 
 	CaesiumPike: {
-		DisplayName: セシウムのパイク
+		DisplayName: セシウムの槍
 		Tooltip:
 			'''
 			攻撃が当たると爆発する
@@ -6102,7 +6051,7 @@ Items: {
 	}
 
 	DemonSpikeScale: {
-		DisplayName: 悪魔の棘の鱗
+		DisplayName: 悪魔のトゲの鱗
 		Tooltip: ""
 	}
 
@@ -6232,7 +6181,7 @@ Items: {
 	}
 
 	OutpostToken: {
-		DisplayName: トゥールトル前哨基地トークン
+		DisplayName: トゥールトル前哨基地のトークン
 		Tooltip:
 			'''
 			アイテムを作るのに使用する
@@ -7156,7 +7105,7 @@ Items: {
 			'''
 	}
 
-	ContagionGrassWall: {
+	ContagionGrassWallItem: {
 		DisplayName: 伝染の草の壁
 		Tooltip: ""
 	}
@@ -7312,16 +7261,16 @@ Items: {
 	}
 
 	SoullessLocket: {
-		DisplayName: ソウルレスロケット
+		DisplayName: 無魂のロケット
 		Tooltip:
 			'''
-			アンデッドから受けるダメージを軽減する
-			アンデッドから受けるダメージが1の場合はダメージを無効化する
+			アンデッドから受けるダメージを軽減し、
+			受けたダメージが1の場合はダメージを無効化する
 			'''
 	}
 
 	ThornHeartAmulet: {
-		DisplayName: 棘の心のお守り
+		DisplayName: トゲの心のお守り
 		Tooltip: ライフが少なくなるほどダメージが増加する
 	}
 
@@ -7434,7 +7383,7 @@ Items: {
 
 	Jukebox: {
 		DisplayName: ジュークボックス
-		Tooltip: BGMを再生できる
+		Tooltip: 音楽を再生できる
 	}
 
 	AnchorWhipworm: {
@@ -7588,18 +7537,18 @@ Items: {
 	}
 
 	TerrorPenguinsEarpiece: {
-		DisplayName: TerrorPenguinのイヤホン
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: テラーペンギンのイヤホン
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	TerrorPenguinsHeels: {
-		DisplayName: TerrorPenguinのヒール
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: テラーペンギンのヒール
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	TerrorPenguinsOnepiece: {
-		DisplayName: TerrorPenguinのワンピース
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: テラーペンギンのワンピース
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	AncientBodyplate: {
@@ -7735,7 +7684,7 @@ Items: {
 		Tooltip:
 			'''
 			マウスポインタの位置にテレポートできる
-			コウアレスンス状態になる
+			コウアレスンス状態になり、コウアレスンス状態中は使用できない
 			'''
 	}
 
@@ -7755,13 +7704,13 @@ Items: {
 	}
 
 	HallowedThorn: {
-		DisplayName: 聖なる棘
+		DisplayName: 聖なるトゲ
 		Tooltip: 聖なるトゲを召喚する
 	}
 
 	EnergyRevolver: {
-		DisplayName: エナジーリボルバー
-		Tooltip: ""
+		DisplayName: エネルギーリボルバー
+		Tooltip: <right>で弾速が遅いが高いダメージを与えるエネルギー弾を撃つ
 	}
 
 	IckyArrow: {
@@ -7810,7 +7759,7 @@ Items: {
 
 	TrueAeonsEternity: {
 		DisplayName: トゥルーイーオンズエタニティ
-		Tooltip: ""
+		Tooltip: 爆発する星座を放つ
 	}
 
 	SoulEdge: {
@@ -7951,7 +7900,7 @@ Items: {
 
 	GiantGravestone: {
 		DisplayName: 巨大な墓石
-		Tooltip: 設置すると墓地を作成する
+		Tooltip: 設置すると墓場が成立する
 	}
 
 	HeartstoneBathtub: {
@@ -8061,11 +8010,7 @@ Items: {
 
 	OilBottle: {
 		DisplayName: オイルの瓶
-		Tooltip:
-			'''
-			攻撃時、オイルの瓶を投げる
-			オイルの瓶はオイルを与える
-			'''
+		Tooltip: 攻撃時、オイルを与えるオイルの瓶を投げる
 	}
 
 	DungeonWand: {
@@ -8166,14 +8111,14 @@ Items: {
 
 	ForsakenRelic: {
 		DisplayName: 見捨てられた遺物
-		Tooltip: 無敵時間の間、ダメージが7%増加し、クリティカル率が7%上昇
+		Tooltip: 無敵時間の間、ダメージが25%増加し、クリティカル率が7%上昇
 	}
 
 	ForsakenCross: {
 		DisplayName: 見捨てられた十字架
 		Tooltip:
 			'''
-			無敵時間の間、ダメージが7%増加し、クリティカル率が7%上昇
+			無敵時間の間、ダメージが25%増加し、クリティカル率が7%上昇
 			被ダメージ後の無敵時間を延長
 			'''
 	}
@@ -8185,7 +8130,7 @@ Items: {
 
 	Sunstorm: {
 		DisplayName: サンストーム
-		Tooltip: 太陽から発せられる光線を発射する
+		Tooltip: 太陽の光線を発射する
 	}
 
 	BloodberryPlanterBox: {
@@ -8195,7 +8140,7 @@ Items: {
 
 	SulphurCrystal: {
 		DisplayName: 硫黄の結晶
-		Tooltip: 変換機でハードモードの様々なアイテムと交換できる
+		Tooltip: 変換機でハードモードの素材を別の素材に変換するのに使用する
 	}
 
 	GoblinArmyKnife: {
@@ -8397,7 +8342,7 @@ Items: {
 	}
 
 	RubberGloves: {
-		DisplayName: ゴムの手袋
+		DisplayName: ゴムのグローブ
 		Tooltip:
 			'''
 			近接攻撃速度が24%低下するが、
@@ -8523,7 +8468,7 @@ Items: {
 	}
 
 	BrambleSpike: {
-		DisplayName: ブランブルの棘
+		DisplayName: ブランブルのトゲ
 		Tooltip: ""
 	}
 
@@ -8559,7 +8504,7 @@ Items: {
 
 	AxeofEmancipation: {
 		DisplayName: 解放の斧
-		Tooltip: 耐候性の木を伐採可能
+		Tooltip: 耐候性の木の伐採が可能
 	}
 
 	Dirtalier: {
@@ -8573,7 +8518,7 @@ Items: {
 	}
 
 	BrokenVigilanteTome: {
-		DisplayName: 壊れた自警団の書
+		DisplayName: ボロボロの自警団の書
 		Tooltip: ""
 	}
 
@@ -8633,7 +8578,7 @@ Items: {
 	}
 
 	RustyHelmet: {
-		DisplayName: 錆びた兜の
+		DisplayName: 錆びた兜
 		Tooltip: ""
 	}
 
@@ -8665,14 +8610,14 @@ Items: {
 		DisplayName: ペストドクター
 		Tooltip:
 			'''
-			疫病の鎌を周囲に高速回転させる
+			疫病の鎌を周囲に高速で回転させる
 			ダメージを与えると、近くの味方の攻撃が病原体を与えるようになる
 			'''
 	}
 
 	Clarent: {
 		DisplayName: クラレント
-		Tooltip: 「生き物に害はない…たぶん。」
+		Tooltip: 「生き物に害はない…たぶん」
 	}
 
 	BannerBelt: {
@@ -8795,7 +8740,7 @@ Items: {
 
 	Boompipe: {
 		DisplayName: ブームパイプ
-		Tooltip: 破片を高速で複数発射する
+		Tooltip: 複数の破片を高速で撃つ
 	}
 
 	LargeMarineKelp: {
@@ -8809,7 +8754,7 @@ Items: {
 	}
 
 	ShroomiteOre: {
-		DisplayName: シュルーマイトこうせき
+		DisplayName: シュルーマイト鉱石
 		Tooltip: ""
 	}
 
@@ -9092,7 +9037,7 @@ Items: {
 		Tooltip:
 			'''
 			強い光を発する
-			ダメージを受けると光の棘を召喚する
+			ダメージを受けると光のトゲを召喚する
 			'''
 	}
 
@@ -9117,18 +9062,18 @@ Items: {
 	}
 
 	HadirosBodyplate: {
-		DisplayName: Hadiroの胸当て
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: ハディロの胸当て
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	HadirosCrownmet: {
-		DisplayName: Hadiroのクラウンメット
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: ハディロのクラウンメット
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	HadirosGreaves: {
-		DisplayName: Hadiroのすね当て
-		Tooltip: "[c/7FFFD4:[Developer item][c/7FFFD4:]]"
+		DisplayName: ハディロのすね当て
+		Tooltip: "[c/7FFFD4:[開発者アイテム][c/7FFFD4:]]"
 	}
 
 	XanthophyteWarhammer: {
@@ -9319,7 +9264,7 @@ Items: {
 	}
 
 	SoulofBlight: {
-		DisplayName: 荒廃のソウル
+		DisplayName: 穢れのソウル
 		Tooltip: 「死のエッセンス」
 	}
 
@@ -9405,11 +9350,11 @@ Items: {
 
 	ToxinStaff: {
 		DisplayName: 劇毒の杖
-		Tooltip: たくさんの敵を貫通する毒の牙を放つ
+		Tooltip: 敵を複数貫通する毒の牙を発射する
 	}
 
 	HellboundRemote: {
-		DisplayName: 地獄のリモコン
+		DisplayName: 地下世界のリモコン
 		Tooltip:
 			'''
 			ウォールオブスチールを召喚する
@@ -9544,7 +9489,11 @@ Items: {
 
 	ResourceBarSkin: {
 		DisplayName: リソースバーのスキン
-		Tooltip: ""
+		Tooltip:
+			'''
+			ライフ、マナ、スタミナのバーを染色できる
+			衣装スロットでも機能する
+			'''
 	}
 
 	StaffStatue: {
@@ -9554,12 +9503,12 @@ Items: {
 
 	BloodyVultureBanner: {
 		DisplayName: 血まみれのハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.BloodyVulture.DisplayName}"
 	}
 
 	SicklyVultureBanner: {
 		DisplayName: 病弱なハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.SicklyVulture.DisplayName}"
 	}
 
 	InactiveCoating: {
@@ -10042,6 +9991,149 @@ Items: {
 		DisplayName: 聖なる大剣
 		Tooltip: ""
 	}
+
+	AshWoodClub: {
+		DisplayName: アッシュウッドのこん棒
+		Tooltip: ""
+	}
+
+	BleachedEbonyClub: {
+		DisplayName: 漂白された黒檀のこん棒
+		Tooltip: ""
+			}
+
+	BorealWoodClub: {
+		DisplayName: ボーリアルウッドのこん棒
+		Tooltip: ""
+	}
+
+	CoughwoodClub: {
+		DisplayName: コフウッドのこん棒
+		Tooltip: ""
+	}
+
+	EbonwoodClub: {
+		DisplayName: エボンウッドのこん棒
+		Tooltip: ""
+	}
+
+	PalmWoodClub: {
+		DisplayName: ヤシの木のこん棒
+		Tooltip: ""
+	}
+
+	PearlwoodClub: {
+		DisplayName: パールウッドのこん棒
+		Tooltip: ""
+	}
+
+	ResistantWoodClub: {
+		DisplayName: 耐候性の木のこん棒
+		Tooltip: ""
+	}
+
+	RichMahoganyClub: {
+		DisplayName: リッチマホガニーのこん棒
+		Tooltip: ""
+	}
+
+	ShadewoodClub: {
+		DisplayName: シェイドウッドのこん棒
+		Tooltip: ""
+	}
+
+	CaesiumSlab: {
+		DisplayName: セシウムのスラブ
+		Tooltip: ""
+	}
+
+	BacciliteCore.DisplayName: ストレージコア (バクシライト)
+
+	BacciliteStorageUnitItem: {
+		DisplayName: バクシライトのストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			80アイテムを保管できる
+			'''
+	}
+
+	BacciliteUpgrade: {
+		DisplayName: バクシライトのストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を80に増やす
+			ストレージユニットに<right>で容量を増やせる
+			'''
+	}
+
+	EnemyGauntletStarter: {
+		DisplayName: エネミーガントレットスターター
+		Tooltip: ""
+	}
+
+	TilePlacer: {
+		DisplayName: タイル・プレイサー
+		Tooltip: 上か下でスタイルを変更する
+	}
+
+	DyeSlimeBanner: {
+		DisplayName: 染料スライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}染料スライム"
+	}
+
+	ForsakenCuffs: {
+		DisplayName: 見捨てられた者のカフス
+		Tooltip:
+			'''
+			{$Mods.Avalon.Items.ForsakenRelic.Tooltip}
+			{$ItemTooltip.MagicCuffs}
+			'''
+	}
+
+	ForsakenHeartNecklace: {
+		DisplayName: 見捨てられたハートネックレス
+		Tooltip:
+			'''
+			{$Mods.Avalon.Items.ForsakenRelic.Tooltip}
+			{$ItemTooltip.SweetheartNecklace}
+			'''
+	}
+
+	ShadlopodBanner: {
+		DisplayName: シャドロポッドのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.Shadlopod.DisplayName}"
+	}
+
+	UndineBanner: {
+		DisplayName: ウンディーネのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.Undine.DisplayName}"
+	}
+
+	StasisRifle: {
+		DisplayName: ステイシスライフル
+		Tooltip:
+			'''
+			「相応しくないものを凍らせろ」
+			[c/C39FDD:[10周年記念コンテスト受賞者 - Maykal (4年遅れて実装されたから、たぶん彼女は去ってしまった)][c/C39FDD:]]
+			'''
+	}
+
+	AngryFairyBanner: {
+		DisplayName: アングリーフェアリーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.AngryFairy.DisplayName}"
+	}
+
+	Zapshock: {
+		DisplayName: ザップショック
+		Tooltip: ""
+	}
+
+	BloodGusherBanner: {
+		DisplayName: ブラッドガッシャーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.BloodGusher.DisplayName}"
+	}
+
 }
 
 InfoDisplays: {
@@ -10135,8 +10227,8 @@ Projectiles: {
 	MushroomWall.DisplayName: キノコの壁
 	SporeSeed.DisplayName: 胞子の種
 	BlahFire.DisplayName: ブラファイア
-	BlahKnife.DisplayName: ブラナイフ
-	BlahKnifeSplit.DisplayName: ブラナイフスピリット
+	BlahKnife.DisplayName: ブラのナイフ
+	BlahKnifeSplit.DisplayName: ブラのナイフスピリット
 	BlahMeteor.DisplayName: ブラメテオ
 	BlahStar.DisplayName: ブラスター
 	Drone.DisplayName: ドローン
@@ -10241,7 +10333,7 @@ Projectiles: {
 	SpiritPoppy.DisplayName: 神秘の花
 	Sandstormer.DisplayName: サンドストーマ―
 	BeeBolt.DisplayName: ビーボルト
-	CrystalSkullProj.DisplayName: クリスタルのスカルの光の棘
+	CrystalSkullProj.DisplayName: クリスタルのスカルの光のトゲ
 	XanthophyteChainsaw.DisplayName: キサントファイトのチェーンソー
 	XanthophyteDrill.DisplayName: キサントファイトのドリル
 	BoompipeShrapnel.DisplayName: ブームパイプの破片
@@ -10290,6 +10382,20 @@ Projectiles: {
 	OutbreakProj.DisplayName: アウトブレイクのダニ
 	CanisterFire.DisplayName: キャニスターファイア
 	CanisterFireLinger.DisplayName: キャニスターファイア
+	TendrilShot.DisplayName: 触手弾
+	CougherCough.DisplayName: コフカーの咳
+	ShadlopodInk.DisplayName: シャドロポッドの墨
+	DesertLongswordTornado.DisplayName: 砂の竜巻
+	IridiumLongbowEnergyArrow.DisplayName: イリジウムの長弓
+	OsmiumShrapnel.DisplayName: オスミウムの破片
+	RhodiumLongbowEnergyArrow.DisplayName: ロジウムの長弓
+	IridiumGreatswordBubble.DisplayName: イリジウムの大剣の泡
+	RhodiumGreatswordBeam.DisplayName: ロジウムの大剣のビーム
+	IridiumGreatswordSpike.DisplayName: イリジウムの大剣の棘
+	EnergyBall.DisplayName: エネルギーボール
+	UndineTear.DisplayName: ウンディーネの涙
+	ZapshockProjectile.DisplayName: ザップショック
+	BloodgusherBlood.DisplayName: ブラッドガッシャ―の血
 }
 
 NPCs: {
@@ -10306,320 +10412,320 @@ NPCs: {
 
 	Merchant: {
 		DeathText: {
-			0: "はゾンビにたいまつを売ろうとした"
-			1: "は重大な間違いを犯した..."
-			2: "は殺された..."
-			3: "は虫取り網で吊るされた"
-			4: "は初めて砂金を試してみた"
-			5: "は自身の命を奪う取引をした"
-			6: "は土ブロックのために魂を売ろうとした"
+			0: "はゾンビにたいまつを売ろうとしました。"
+			1: "は重大な間違いを犯しました..."
+			2: "は死にました..."
+			3: "は虫取り網で吊るされました。"
+			4: "は初めて砂金を試してみました。"
+			5: "は自身の命を奪う取引をしました。"
+			6: "は土ブロックのために魂を売ろうとしました。"
 		}
 	}
 
 	Nurse: {
 		DeathText: {
-			0: "は適時に回復できなかった"
-			1: "は完全に回復すると予想されていた"
-			2: "は顔の縫合が不十分だった"
-			3: "は合併症に見舞われた"
-			4: "の手術は誤りだった"
+			0: "は適時に回復できませんでした。"
+			1: "は完全に回復すると予想されていました。"
+			2: "は顔の縫合が不十分でした。"
+			3: "は合併症に見舞われました。"
+			4: "の手術は誤りでした。"
 		}
 	}
 
 	OldMan: {
 		DeathText: {
-			0: "は老衰で亡くなった"
-			1: "は殺された..."
+			0: "は老衰で亡くなりました。"
+			1: "は死んでしまいました..."
 		}
 	}
 
 	ArmsDealer: {
 		DeathText: {
-			0: "は銃に弾詰まりが発生した"
-			1: "はメテオ弾を発射した..."
-			2: "は弾薬が切れた"
-			3: "は殺された..."
-			4: "は銃で自身を撃った"
-			5: "は捕まった"
-			6: "の腕前は西部で最速ではなかった"
+			0: "は銃に弾詰まりが発生しました。"
+			1: "はメテオ弾を発射しました..."
+			2: "は弾薬が切れました。"
+			3: "は死にました..."
+			4: "は銃で自身を撃ちました。"
+			5: "は捕まりました。"
+			6: "の腕前は西部で最速ではありませんでした。"
 		}
 	}
 
 	Dryad: {
 		DeathText: {
-			0: "は時間切れになった..."
-			1: "はハーブを喉に詰まらせてしまった"
-			2: "は草に変わった"
-			3: "は死亡した"
-			4: "は細かいペースト状になった.."
-			5: "は道の生き物に襲われた"
-			6: "は不浄の茨につまずいた"
+			0: "は時間切れになりました..."
+			1: "はハーブを喉に詰まらせてしまいました。"
+			2: "は草に変わりました。"
+			3: "は死にました。"
+			4: "は細かいペースト状になりました.."
+			5: "は道の生き物に襲われました。"
+			6: "は不浄の茨につまずきました。"
 		}
 	}
 
 	Guide: {
 		DeathText: {
-			0: "はゾンビを中に入れすぎた"
-			1: "は歴史書を読んでいた..."
-			2: "は殺された..."
-			3: "は串刺しになった..."
-			4: "は闇の魔法の犠牲者になった"
-			5: "はブードゥー教の教えを受けた"
-			6: "はドアを開けてしまった"
-			7: "は間違ったwikiを読んでいた"
+			0: "はゾンビを中に入れすぎました。"
+			1: "は歴史書を読んでいました..."
+			2: "は死にました..."
+			3: "は串刺しになりました..."
+			4: "は闇の魔法の犠牲者になりました。"
+			5: "はブードゥー教の教えを受けました。"
+			6: "はドアを開けてしまいました。"
+			7: "は間違ったwikiを読んでいました。"
 		}
 	}
 
 	Demolitionist: {
 		DeathText: {
-			0: "は自爆した"
-			1: "は敵に爆弾を投げたが、跳ね返って自爆した"
-			2: "の爆発物は少し敏感すぎた..."
-			3: "はダーティボムを作った"
-			4: "は爆撃された"
-			5: "は派手に散った"
-			6: "は真の殉教者になった"
+			0: "は自爆しました。"
+			1: "は敵に爆弾を投げたが、跳ね返って自爆しました。"
+			2: "の爆発物は少し敏感すぎました..."
+			3: "はダーティボムを作りました。"
+			4: "は爆撃されました。"
+			5: "は派手に散りました。"
+			6: "は真の殉教者になりました。"
 		}
 	}
 
 	Clothier: {
 		DeathText: {
-			0: "は知らず知らずのうちにまた呪われていた..."
-			1: "は原因不明で死亡した"
-			2: "は内臓を抜き取られた..."
-			3: "は内臓をえぐり取られた..."
-			4: "はダンジョンに戻された"
-			5: "は自身を縫い合わせてしまった"
+			0: "は知らず知らずのうちにまた呪われていました..."
+			1: "は原因不明で死亡しました。"
+			2: "は内臓を抜き取られました..."
+			3: "は内臓をえぐり取られました..."
+			4: "はダンジョンに戻されました。"
+			5: "は自身を縫い合わせてしまいました。"
 		}
 	}
 
 	GoblinTinkerer: {
 		DeathText: {
-			0: "は彼の仕掛けが爆発した"
-			1: "は自身の人生を修理した"
-			2: "は押しつぶされた..."
-			3: "は天井に激突した"
-			4: "はプラチナ中毒で死亡した"
-			5: "は北から接近された"
+			0: "は彼の仕掛けが爆発しました。"
+			1: "は自身の人生を修理しました。"
+			2: "は押しつぶされました..."
+			3: "は天井に激突しました。"
+			4: "はプラチナ中毒で死にました。"
+			5: "は北から接近されました。"
 		}
 	}
 
 	Wizard: {
 		DeathText: {
-			0: "は生き方を忘れた"
-			1: "は魔法を唱えすぎた..."
-			2: "は押しつぶされた..."
-			3: "は内臓が体の外に出ていくのを見た..."
-			4: "は自らを『消滅』させた'"
-			5: "はカエルになった"
-			6: "は低い防御力が裏目に出た"
+			0: "は生き方を忘れました。"
+			1: "は魔法を唱えすぎました..."
+			2: "は押しつぶされました..."
+			3: "は内臓が体の外に出ていくのを見ました..."
+			4: "は自らを『消滅』させました。"
+			5: "はカエルになりました。"
+			6: "は低い防御力が裏目に出ました。"
 		}
 	}
 
 	SantaClaus: {
 		DeathText: {
-			0: "は牛乳とクッキーが多すぎた"
-			1: "は信じられなかった"
+			0: "は牛乳とクッキーが多すぎました。"
+			1: "は信じられませんでした。"
 		}
 	}
 
 	Mechanic: {
 		DeathText: {
-			0: "は背骨が折れた..."
-			1: "はエンジンが故障した"
-			2: "はワイヤーが切れてしまった..."
-			3: "は死亡した"
-			4: "は連絡先を削除した..."
-			5: "は{0}から削除された"
+			0: "の背骨が折れました..."
+			1: "のエンジンが故障しました。"
+			2: "のワイヤーが切れてしまいました..."
+			3: "は死にました。"
+			4: "は連絡先を削除しました..."
+			5: "が{0}から削除されました。"
 		}
 	}
 
 	Truffle: {
 		DeathText: {
-			0: "は自身を噛んでしまった"
-			1: "は食べられた"
-			2: "は殺された..."
-			3: "はもう楽しい人ではない"
-			4: "は旅行に行った"
-			5: "は食べられかけの状態で発見された"
-			6: "はソテーにされた"
+			0: "は自身を噛んでしまいました。"
+			1: "が食べられました。"
+			2: "は死にました..."
+			3: "はもう楽しい人ではありません。"
+			4: "が旅行に行きました。"
+			5: "が食べられかけの状態で発見されました。"
+			6: "がソテーにされました。"
 		}
 	}
 
 	Steampunker: {
 		DeathText: {
-			0: "のタイムマシンはパラドックスを生み出した..."
-			1: "は歯車を滑らせた"
-			2: "は原因不明で死亡した"
-			3: "は飛行船から落ちた"
-			4: "はテレポーターを早すぎるタイミングで使ってしまった"
+			0: "のタイムマシンはパラドックスを生み出しました..."
+			1: "は歯車を滑らせました。"
+			2: "は原因不明で死にました。"
+			3: "が飛行船から落ちました。"
+			4: "はテレポーターを早すぎるタイミングで使ってしまいました。"
 		}
 	}
 
 	DyeTrader: {
 		DeathText: {
-			0: "は染料に落ちてしまった"
-			1: "は殺された"
-			2: "は原因不明で死亡した"
-			3: "は首を切られた"
-			4: "は染料で染められた"
-			5: "は濃い黄緑色に染められた"
+			0: "が染料に落ちてしまいました。"
+			1: "は死にました。"
+			2: "が原因不明で死亡しました。"
+			3: "が首を切られました。"
+			4: "が染料で染められました。"
+			5: "が濃い黄緑色に染められました。"
 		}
 	}
 
 	PartyGirl: {
 		DeathText: {
-			0: "はパーティーをしすぎた"
-			1: "は紙吹雪を吸い込みすぎた..."
-			2: "は押しつぶされた"
-			3: "はパーティーを抜け出した"
-			4: "は食べられた"
-			5: "はパンチに溶け込んだ"
+			0: "はパーティーをしすぎました。"
+			1: "は紙吹雪を吸い込みすぎました..."
+			2: "は押しつぶされました。"
+			3: "はパーティーを抜け出しました。"
+			4: "は食べられました。"
+			5: "がパンチに溶け込みました。"
 		}
 	}
 
 	Cyborg: {
 		DeathText: {
-			0: "は機械と同化された"
-			1: "の機構は修復不可能なほど損傷していた"
-			2: "は押しつぶされた"
-			3: "は404 Not Foundだ"
-			4: "のインプラントが引き裂かれた"
-			5: "はショートした"
-			6: "は故障した"
-			7: "は自身のシステムに不具合が生じた"
-			8: "はゼロで割ろうとした"
+			0: "は機械と同化されました。"
+			1: "の機構は修復不可能なほど損傷していました。"
+			2: "は押しつぶされました。"
+			3: "は404 Not Foundです。"
+			4: "のインプラントが引き裂かれました。"
+			5: "がショートしました。"
+			6: "が故障しました。"
+			7: "は自身のシステムに不具合が生じました。"
+			8: "はゼロで割ろうとしました。"
 		}
 	}
 
 	Painter: {
 		DeathText: {
-			0: "はペンキの煙を吸い込んでしまった"
-			1: "は自分自身を描こうとした"
-			2: "の遺体はバラバラにされた"
-			3: "の絵の具がキャンバスから剥がれ落ちた..."
-			4: "の絵の具にひびが入った"
-			5: "はアスベストを吸い込んでしまった"
+			0: "はペンキの煙を吸い込んでしまいました。"
+			1: "は自分自身を描こうとしました。"
+			2: "の遺体はバラバラにされました。"
+			3: "の絵の具がキャンバスから剥がれ落ちました..."
+			4: "の絵の具にひびが入りました。"
+			5: "はアスベストを吸い込んでしまいました。"
 		}
 	}
 
 	WitchDoctor: {
 		DeathText: {
-			0: "は自身の診療行為が死を招いた"
-			1: "は生命を体現しようとした"
-			2: "の遺体は無残に引き裂かれた"
-			3: "はバラバラにされた"
-			4: "は珍しい昆虫に食べられた"
-			5: "は自身がどの医者かを忘れてしまった"
+			0: "は自身の診療行為が死を招きました。"
+			1: "は生命を体現しようとしました。"
+			2: "の遺体は無残に引き裂かれました。"
+			3: "はバラバラにされました。"
+			4: "は珍しい昆虫に食べられました。"
+			5: "は自身がどの医者かを忘れてしまいました。"
 		}
 	}
 
 	Pirate: {
 		DeathText: {
-			0: "は金歯を喉に詰まらせてしまった"
-			1: "は砲弾に当たってしまった"
-			2: "は内臓をえぐり出された"
-			3: "のもう片方の目が摘出された"
-			4: "は義足を失った"
+			0: "は金歯を喉に詰まらせてしまいました。"
+			1: "が砲弾に当たってしまいました。"
+			2: "は内臓をえぐり出されました。"
+			3: "のもう片方の目が摘出されました。"
+			4: "は義足を失いました。"
 		}
 	}
 
 	Stylist: {
 		DeathText: {
-			0: "はクモの毛を刈ろうとした"
-			1: "は縛られた"
-			2: "は内臓を抜き取られた"
-			3: "はちょっとイライラしすぎた"
-			4: "はいとこのイットの毛を刈ろうとした"
-			5: "はもうクモを見るのが嫌になった"
+			0: "はクモの毛を刈ろうとしました。"
+			1: "が縛られました。"
+			2: "は内臓を抜き取られました。"
+			3: "はちょっとイライラしすぎました。"
+			4: "はいとこのイットの毛を刈ろうとしました。"
+			5: "はもうクモを見るのが嫌になりました。"
 		}
 	}
 
 	TravellingMerchant: {
 		DeathText: {
-			0: "は旅立った..."
-			1: "はインターポールとのトラブルを抱えていた"
-			2: "は蒸発した"
-			3: "には怪物は必要なかった"
-			4: "は珍しいウツボカズラを売ろうとした..."
-			5: "は全く売れなかった..."
-			6: "はあの世を旅している"
+			0: "が旅立ちました..."
+			1: "はインターポールとのトラブルを抱えていました。"
+			2: "が蒸発しました。"
+			3: "には怪物は必要ありませんでした。"
+			4: "は珍しいウツボカズラを売ろうとしました..."
+			5: "は全く売れませんでした..."
+			6: "はあの世を旅しています。"
 		}
 	}
 
 	Angler: {
 		DeathText: {
 			0: "は去った！"
-			1: "は魚を釣った！"
-			2: "は溝に落ちた！"
-			3: "はテストに落ちてしまった！"
-			4: "は試合に負けた！"
-			5: "は飛び立った！"
-			6: "は死亡した"
-			7: "はもっといい嫌がらせ相手を見つけた"
-			8: "は{0}に船外に投げ出された"
+			1: "が魚を釣りました！"
+			2: "が溝に落ちました！"
+			3: "がテストに落ちてしまいました！"
+			4: "が試合に負けました！"
+			5: "が飛び立ちました！"
+			6: "は死にました。"
+			7: "はもっといい嫌がらせ相手を見つけました。"
+			8: "が{0}に船外に投げ出されました。"
 		}
 	}
 
 	TaxCollector: {
 		DeathText: {
-			0: "は間違った家に行ってしまった"
-			1: "は偽札を集めていた"
-			2: "のポケットに穴が開いていた"
-			3: "は{0}の過去の亡霊を見た"
-			4: "は税金を払い過ぎた"
-			5: "はついに国税庁に捕まった"
+			0: "は間違った家に行ってしまいました。"
+			1: "は偽札を集めていました。"
+			2: "のポケットに穴が開いていました。"
+			3: "は{0}の過去の亡霊を見ました。"
+			4: "は税金を払い過ぎました。"
+			5: "がついに国税庁に捕まりました。"
 		}
 	}
 
 	DD2Bartender: {
 		DeathText: {
-			0: "はバーの反対側にいたことに気づいた"
-			1: "のセントリーが機能しなくなった"
-			2: "は自然発火した"
-			3: "は間違ったポータルを通り抜けてしまった"
-			4: "は酒で自身の感情を紛らわせた"
+			0: "はバーの反対側にいたことに気づきました。"
+			1: "のセントリーが機能しなくなりました。"
+			2: "が自然発火しました。"
+			3: "は間違ったポータルを通り抜けてしまいました。"
+			4: "は酒で自身の感情を紛らわせました。"
 		}
 	}
 
 	Princess: {
 		DeathText: {
-			0: "はドラゴンに連れ去られてしまった"
-			1: "は塔に鎖で繋がれてしまった"
-			2: "は笏を飲み込んでしまった"
-			3: "は自身のドレスにつまずいた"
-			4: "はガラスの靴の耐久性を考慮しなかった"
+			0: "がドラゴンに連れ去られてしまいました。"
+			1: "が塔に鎖で繋がれてしまいました。"
+			2: "は笏を飲み込んでしまいました。"
+			3: "が自身のドレスにつまずきました。"
+			4: "はガラスの靴の耐久性を考慮しませんでした。"
 		}
 	}
 
 	Golfer: {
 		DeathText: {
-			0: "は「フォア！」と叫ばなかった"
-			1: "はゴルフボールが頭に当たってしまった"
-			2: "はトリプルボギーを出してしまった"
-			3: "はパーをオーバーした"
-			4: "は穴に落ちてしまった"
-			5: "はクラブが跳ね返ってきた"
+			0: "は「フォア！」と叫びませんでした。"
+			1: "はゴルフボールが頭に当たってしまいました。"
+			2: "がトリプルボギーを出してしまいました。"
+			3: "はパーをオーバーしました。"
+			4: "が穴に落ちてしまいました。"
+			5: "はクラブが跳ね返ってきました。"
 		}
 	}
 
 	BestiaryGirl: {
 		DeathText: {
-			0: "は狂犬病にかかった"
-			1: "は安楽死させられた"
-			2: "は珍しい動物と仲良くなりすぎた"
+			0: "が狂犬病にかかりました。"
+			1: "は安楽死させられました。"
+			2: "は珍しい動物と仲良くなりすぎました。"
 		}
 	}
 
 	Iceman: {
 		DeathText: {
-			0: "は凍ってしまった"
-			1: "は溶けてしまった"
-			2: "は死亡した"
-			3: "の氷が割れてしまった"
-			4: "は{0}の飲み物を冷やすのに使われた"
-			5: "はクレバスに落ちてしまった"
-			6: "は足を滑らせてしまった"
+			0: "が凍ってしまいました。"
+			1: "が溶けてしまいました。"
+			2: "が死にました。"
+			3: "の氷が割れてしまいました。"
+			4: "が{0}の飲み物を冷やすのに使われました。"
+			5: "がクレバスに落ちてしまいました。"
+			6: "が足を滑らせてしまいました。"
 		}
 	}
 
@@ -10667,17 +10773,17 @@ NPCs: {
 		Census.SpawnCondition: ハードモード前のボスを撃破後
 
 		DeathText: {
-			0: "は大部隊に秒殺された"
-			1: "は有害なワールドチャットの犠牲になった"
-			2: "は18年生の学費を払えなかった"
-			3: "はボスの範囲攻撃で倒された"
-			4: "はクンクンには敵わなかった"
-			5: "のVisaカードが拒否された"
-			6: "は歴史書で過去形に書き換えられた"
+			0: "が大部隊に秒殺されました。"
+			1: "が有害なワールドチャットの犠牲になりました。"
+			2: "は18年生の学費を払えませんでした。"
+			3: "がボスの範囲攻撃で倒されました。"
+			4: "はクンクンには敵いませんでした。"
+			5: "のVisaカードが拒否されました。"
+			6: "が歴史書で過去形に書き換えられました。"
 		}
 	}
 
-	DeathTextGeneric: "は殺された..."
+	DeathTextGeneric: "は死にました..."
 	MineralSlime.DisplayName: ミネラルスライム
 	PyrasiteHead.DisplayName: ピラサイト
 	PyrasiteBody.DisplayName: ピラサイト
@@ -10760,6 +10866,12 @@ NPCs: {
 	SnakeBody.DisplayName: 蛇の体
 	SnakeHead.DisplayName: 蛇の頭
 	SnakeTail.DisplayName: 蛇の尾
+	BacteriumTendril.DisplayName: バクテリウムの触手
+	EnemyGauntletPortal.DisplayName: ""
+	DyeSlime.DisplayName: 染料スライム
+	Undine.DisplayName: ウンディーネ
+	AngryFairy.DisplayName: アングリーフェアリー
+	BloodGusher.DisplayName: ブラッドガッシャー
 }
 
 Buffs: {
@@ -10835,12 +10947,12 @@ Buffs: {
 
 	Heartsick: {
 		DisplayName: ハートシック
-		Description: ハートのライフ回復量が5増加
+		Description: ライフ回復アイテムによるライフの回復量が25%増加
 	}
 
 	AdvHeartsick: {
 		DisplayName: 強化ハートシック
-		Description: ハートのライフ回復量が10増加
+		Description: ライフ回復アイテムによるライフの回復量が50%増加
 	}
 
 	ImmortalityCooldown: {
@@ -11245,7 +11357,7 @@ Buffs: {
 
 	SnotOrb: {
 		DisplayName: セプティックセル
-		Description: セプティックセルが光を発する
+		Description: セプティックセルが光を放つ
 	}
 
 	BacteriaInfection: {
@@ -11299,7 +11411,7 @@ Buffs: {
 
 	Bacterium: {
 		DisplayName: バクテリウム
-		Description: ベビーバクテリウムがあとをついてくる
+		Description: ベビーバクテリウムが後をついてくる
 	}
 
 	Rejuvenation: {
@@ -11498,7 +11610,7 @@ Buffs: {
 
 	ShadowCurse: {
 		DisplayName: 影の呪い
-		Description: 被ダメージが2倍になる
+		Description: 被ダメージが{0}%増加
 	}
 
 	XanthophyteTree: {
@@ -11564,6 +11676,26 @@ Buffs: {
 	Dissolving: {
 		DisplayName: 溶解
 		Description: ライフが徐々に減っていく
+	}
+
+	EnergyRevolver: {
+		DisplayName: エネルギーリボルバー
+		Description: Mods.Avalon.Buffs.EnergyRevolver.Description
+	}
+
+	InfernalJudgement: {
+		DisplayName: 地獄の審判
+		Description: ライフが急激に減っていき、デバフに弱くなる
+	}
+
+	CryoStasis: {
+		DisplayName: 極低温凍結
+		Description: Mods.Avalon.Buffs.CryoStasis.Description
+	}
+
+	AttackSpeedDown: {
+		DisplayName: 攻撃速度低下
+		Description: 攻撃速度が低下する
 	}
 }
 
@@ -11645,7 +11777,7 @@ Tiles: {
 	HerbologyBench.MapEntry: ハーブ学台
 	IckyAltar.MapEntry: イッキーアルター
 	MonsterBanner.MapEntry: バナー
-	PlacedBars.MapEntry: 配置されたいんごっと
+	PlacedBars.MapEntry: 配置されたインゴット
 	Boltstone.MapEntry: ボルトストーン
 	Heartstone.MapEntry: ハートストーン
 	Starstone.MapEntry: スターストーン
@@ -11788,9 +11920,21 @@ Tiles: {
 		MapEntry1: ロックされた伝染の宝箱
 	}
 
+	ContagionChest: {
+		MapEntry0: 伝染の宝箱
+		MapEntry1: ロックされた伝染の宝箱
+		}
+
 	UnderworldChest: {
 		MapEntry0: 地下世界の宝箱
 		MapEntry1: ロックされた地下世界の宝箱
+	}
+
+	EnemyGauntletChest: {
+		MapEntry0: 雪の神殿の宝箱
+		MapEntry1: 呪われた雪の神殿の宝箱
+		MapEntry2: 砂の神殿の宝箱
+		MapEntry3: 呪われた砂の神殿の宝箱
 	}
 
 	ContagionPot.MapEntry: ポット
@@ -11864,6 +12008,7 @@ Tiles: {
 	AcidDropletTile.MapEntry: 滴る酸
 	BloodDropletTile.MapEntry: 滴る血
 	AlkalineJellyfishJarTile.MapEntry: アルカリ性のクラゲ入りの瓶
+	BacciliteStorageUnitTile.MapEntry: バクシライトのストレージユニット
 }
 
 Prefixes: {
@@ -12219,11 +12364,11 @@ Tools: {
 Liquids: {
 	Blood: {
 		RecipeEntry: 血の近く
-		MapEntry: Mods.Avalon.Liquids.Blood.MapEntry
+		MapEntry: 血
 	}
 
 	Acid: {
 		RecipeEntry: 酸の近く
-		MapEntry: Mods.Avalon.Liquids.Acid.MapEntry
+		MapEntry: 酸
 	}
 }

@@ -179,7 +179,7 @@ Vanilla: {
 		DefaultGiftNegative: この贈り物は大嫌いだ。
 		DefaultGiftPositive: この贈り物は大好きだ。
 		DefaultMonument: あの記念碑は大嫌いだ。
-		}
+	}
 
 	WizardChat: {
 		Hardmode: 宇宙に快適さを求めるにはちょっとキビしいかもしれんのう。
@@ -198,7 +198,7 @@ Vanilla: {
 	TaxCollectorChat: {
 		Has500Plat: そのお金はどこから、どうやって得ているんだ？
 		Has100Plat: もう町の借金に悩まされることはなさそうだな！
-		HasSlickCane: 素晴らしい！その杖は威勢がいい！
+		HasWalkingCane: おお！なんて粋な杖なんだ！
 		PreBrimmy: アザフレのチンピラどもは、私の土地でタダで暮らせると思っているのか？私の仕事の手伝いをすれば、ボーナスを出すかもしれないのにな！
 		DoGDefeated: 私が破壊者だって？ああ、そうさ！資金を破壊する者さ！
 	}
@@ -392,6 +392,12 @@ Vanilla: {
 		SolarFlarePieces: ライフ自然回復を+1 HP/s増進
 		Gi: 移動速度とジャンプ速度が10%上昇
 		MagicHat: 魔法クリティカル率が6%上昇
+		VolatileGelatin:
+			'''
+			不安定なゼラチンが5個命中するごとに、翼の生えた不安定なスライムが1体出現し、最大6体まで存在できる
+			不安定なスライム1体につき、ジャンプ速度が5%増加し、飛行時間が0.3秒増加する
+			飛行時間がなくなると、不安定なスライムの翼が外れる
+			'''
 		FlameWakerBoots:
 			'''
 			熱デバフダメージが25%増加
@@ -439,17 +445,17 @@ Vanilla: {
 		MonkAltShirt1: ローグクリティカル率が5%上昇
 		MonkAltShirt0: 召喚ダメージが20%増加しローグの弾速が上昇
 		MonkAltHead: セントリー最大数が2増加し召喚・ローグダメージが20%増加
-		SquireAltShirt: 召喚ダメージが30%増加しライフ自然回復を+4 HP/s増進
+		SquireAltShirt: 召喚ダメージが30%増加しライフ自然回復を+4 HP/s増進させる
 		MonkPants: ローグクリティカル率が15%上昇し移動速度が20%上昇
 		MonkShirt: 召喚ダメージとローグダメージが15%増加
 		MonkBrows: セントリー最大数が1増加しローグの弾速が15%上昇
-		SquireGreatHelm: セントリー最大数が1増加しライフ自然回復を+2 HP/s増進
-		AegisCrystal: ライフ自然回復を恒久的に増進
-		HamBat: 敵撃破後、一時的にライフ自然回復を+3 HP/s増進
-		RegenerationPotion: ライフ自然回復を+2 HP/s増進
+		SquireGreatHelm: セントリー最大数が1増加しライフ自然回復を+2 HP/s増進させる
+		AegisCrystal: ライフ自然回復を恒久的に増進させる
+		HamBat: 敵撃破後、一時的にライフ自然回復を+3 HP/s増進させる
+		RegenerationPotion: ライフ自然回復を+2 HP/s増進させる
 		CharmofMyths: ライフ自然回復を+1 HP/s増進しライフポーションのクールダウンを25%短縮
-		BandofRegeneration: ライフ自然回復を+1 HP/s増進
-		ShinyStone: 静止中、ライフ自然回復を+2 HP/s増進し自然回復を加速
+		BandofRegeneration: ライフ自然回復を+1 HP/s増進させる
+		ShinyStone: 静止中、ライフ自然回復を+2 HP/s増進させる
 		BottledHoney:
 			'''
 			短時間ライフ自然回復を+1 HP/s増進
@@ -590,7 +596,7 @@ Vanilla: {
 			Wizard: 魔法クリティカル率が4%上昇
 			Vortex:
 				'''
-				セットボーナス：{0}でステルスを切り替え、
+				セットボーナス：{0}とステルスを切り替え、
 				遠隔能力を強化し敵に狙われにくくなるが移動速度が低下する
 				'''
 			MagicHat: 最大マナが40増加
@@ -621,8 +627,8 @@ Vanilla: {
 			Nebula:
 				'''
 				ピンクのダメージブースターが1スタックごとに7.5%のダメージ増加を得る
-				オレンジのライフブースターが1スタックごとに+2 HP/sの回復を得る
-				ブルーのマナブースターが1スタックごとに+5 MP/sの回復を得る
+				オレンジのライフブースターが1スタックごとに+2 HP/sの自然回復を得る
+				ブルーのマナブースターが1スタックごとに+5 MP/sの自然回復を得る
 				'''
 			Mythril:
 				'''
@@ -662,7 +668,7 @@ Vanilla: {
 				'''
 			Forbidden:
 				'''
-				セットボーナス：{0}でカーソル位置に古代の嵐を呼び出す
+				セットボーナス：{0}とカーソル位置に古代の嵐を呼び出す
 				魔法武器装備中でもミニオンのダメージが低下しなくなる
 				'''
 			Rain:
@@ -1333,6 +1339,7 @@ UI: {
 		OmegaBlueCooldown: Abyssal Madness Cooldown
 		OmegaBlueActive: Abyssal Madness
 		OldDukeScalesFatigue: Stamina
+		OblivionCooldown: Oblivion Cooldown
 		NebulousCore: Nebulous Core Cooldown
 		MasterChefShieldRecharge: MJOLNIR Shield Recharge
 		MasterChefShieldDurability: MJOLNIR Shield Level
@@ -1638,6 +1645,13 @@ Status: {
 		UltracosmicMaelstrom2: "{0}は超宇宙の大渦によって粉砕されました。"
 		UltracosmicMaelstrom1: "{0}は超宇宙の大渦によって昇華されました。"
 		ThornBlossom: "{0}は花に激しく刺されました。"
+		SwinesWrath7: "{0}の命は骨の髄まで豚に食い尽くされました。"
+		SwinesWrath6: "{0}は調合薬のラベルを読んでいませんでした。"
+		SwinesWrath5: "{0}は残っていたライフまでも豚に根こそぎ搾り取られました。"
+		SwinesWrath4: "{0}は願い事に気を付けるべきでした。"
+		SwinesWrath3: "{0}は豚の怒りによって繊維質の粉末へと砕かれました。"
+		SwinesWrath2: "{0}は今や豚獄に住んでいます。"
+		SwinesWrath1: "{0}は神性を浴びる準備ができていませんでした。"
 		SulphuricPoisoning3: "{0}は工業用排水を飲みすぎました。"
 		SulphuricPoisoning2: "{0}は苛性化学物質を摂取しすぎました。"
 		SulphuricPoisoning1: "{0}は有毒廃棄物によって溶かされました。"
@@ -1664,6 +1678,9 @@ Status: {
 		MiracleBlight1: "{0}は奇跡的な技術の進歩に圧倒されました。"
 		ManaConversionEnchant: "{0}の生命は闇の魔法に蝕まれてしまいました。"
 		ManaBurn: "{0}の生命は完全にマナに変換されました。"
+		Lemonnade3: "{0}は自ら招いた家庭内火災の犠牲となりました。"
+		Lemonnade2: "{0}はガラス化区域へ送られました。"
+		Lemonnade1: "{0}は予算を打ち切られました。"
 		Laceration3: "{0}は粉々に砕け、命のしずくが四方に飛び散りました。"
 		Laceration2: "{0}は細かな赤い霧となりました。"
 		Laceration1: "{0}は無残に壁じゅうに塗り広げられました。"
@@ -1679,6 +1696,12 @@ Status: {
 		GodSlayerInferno2: "{0}の身体は忘却の彼方へと滑り落ちていきました。"
 		GodSlayerInferno1: "{0}は無に帰しました。"
 		FlareGunOverheat: "{0}の銃は熱くなりすぎて扱えませんでした。"
+		FishStocks6: "{0}はライフバーを空売りするべきでした。"
+		FishStocks5: "{0}は高利貸しザメたちの餌になりました。"
+		FishStocks4: "{0}は損失だけを抱え込むことになりました。"
+		FishStocks3: "{0}は'{1}年の魚価大暴落の犠牲となりました。"
+		FishStocks2: "{0}は高値で買って安値で売りました。"
+		FishStocks1: "{0}は資産を分散していませんでした。"
 		ElementalMix3: "{0}は元素の乱流に圧倒されました。"
 		ElementalMix2: "{0}は調和された元素の猛攻によって吹き飛ばされました。"
 		ElementalMix1: "{0}はカラフルな紙吹雪になってしまいました。"
@@ -1727,6 +1750,9 @@ Status: {
 		BrainRot3: "{0}は自分が誰なのか分からなくなりました。"
 		BrainRot2: "{0}は最後の神経細胞を失いました。"
 		BrainRot1: "{0}は機能停止しました。"
+		BrainIllusion3: "{0}はもっと注意を払うべきでした。"
+		BrainIllusion2: "{0}はまんまと騙されました。"
+		BrainIllusion1: "{0}は幻惑の向こうを見ることができませんでした。"
 		BloodFireArrow2: "{0}はもう捧げる血が残っていませんでした。"
 		BloodFireArrow1: "{0}は不用意に撃ちすぎてしまいました。"
 		BloodBoiler2: "{0}は輸血を受けることができませんでした。"
@@ -1744,25 +1770,6 @@ Status: {
 		AbyssDrown3: "{0}は暗い海に消えていきました。"
 		AbyssDrown2: "{0}は深すぎて酸素を確保できませんでした。"
 		AbyssDrown1: "{0}は竜の食料となりました。"
-		SwinesWrath7: "{0}の命は骨の髄まで豚に食い尽くされました。"
-		SwinesWrath6: "{0}は調合薬のラベルを読んでいませんでした。"
-		SwinesWrath5: "{0}は残っていたライフまでも豚に根こそぎ搾り取られました。"
-		SwinesWrath4: "{0}は願い事に気を付けるべきでした。"
-		SwinesWrath3: "{0}は豚の怒りによって繊維質の粉末へと砕かれました。"
-		SwinesWrath2: "{0}は今や豚獄に住んでいます。"
-		SwinesWrath1: "{0}は神性を浴びる準備ができていませんでした。"
-		Lemonnade3: "{0}は自ら招いた家庭内火災の犠牲となりました。"
-		Lemonnade2: "{0}はガラス化区域へ送られました。"
-		Lemonnade1: "{0}は予算を打ち切られました。"
-		FishStocks6: "{0}はライフバーを空売りするべきでした。"
-		FishStocks5: "{0}は高利貸しザメたちの餌になりました。"
-		FishStocks4: "{0}は損失だけを抱え込むことになりました。"
-		FishStocks3: "{0}は'{1}年の魚価大暴落の犠牲となりました。"
-		FishStocks2: "{0}は高値で買って安値で売りました。"
-		FishStocks1: "{0}は資産を分散していませんでした。"
-		BrainIllusion3: "{0}はもっと注意を払うべきでした。"
-		BrainIllusion2: "{0}はまんまと騙されました。"
-		BrainIllusion1: "{0}は幻惑の向こうを見ることができませんでした。"
 	}
 
 	Boss: {
@@ -1888,6 +1895,8476 @@ Status: {
 	}
 }
 
+Projectiles: {
+	Typeless: {
+		XykWings: {
+			DisplayName: Xyk Wings
+		}
+
+		XykDeathAnim: {
+			DisplayName: Xyk Death Animation
+		}
+
+		YellowLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		WulfrumLureSignal: {
+			DisplayName: Signal
+		}
+
+		WulfrumHook: {
+			DisplayName: Wulfrum Slingshot
+		}
+
+		WulfrumDiggingTurtleProjectile: {
+			DisplayName: Digging Turtle
+		}
+
+		WulfrumBobber: {
+			DisplayName: Wulfrum Bobber
+		}
+
+		WhitePearlFalling: {
+			DisplayName: White Pearl
+		}
+
+		WhiteLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		WarbannerLight: {
+			DisplayName: Warbanner Light
+		}
+
+		WarbannerDamage: {
+			DisplayName: The Unmatched Power of the Sun
+		}
+
+		VolcanicSandBallGun: {
+			DisplayName: Volcanic Sand Ball
+		}
+
+		VolcanicSandBallFalling: {
+			DisplayName: Volcanic Sand Ball
+		}
+
+		VoidFieldGenerator: {
+			DisplayName: Void Field Generator
+		}
+
+		VerstaltiteBobber: {
+			DisplayName: Verstaltite Bobber
+		}
+
+		V8000SoulVisual: {
+			DisplayName: V8000 Soul
+		}
+
+		UrsaSlash: {
+			DisplayName: Ursa Slash
+		}
+
+		TrustyOldBobber: {
+			DisplayName: Trusty Old Bobber
+		}
+
+		TransformerBlob: {
+			DisplayName: Transformer Shard
+		}
+
+		TransformerAura: {
+			DisplayName: Transformer Aura
+		}
+
+		TitanHeartBoom: {
+			DisplayName: Titan Heart Boom
+		}
+
+		TileSlamDamage: {
+			DisplayName: Grand Damage
+		}
+
+		TeslaAura: {
+			DisplayName: Tesla's Electricity
+		}
+
+		TatteredFairyDust: {
+			DisplayName: Tattered Fairy Dust
+		}
+
+		TarragonAura: {
+			DisplayName: Tarragon Aura
+		}
+
+		TarraEnergy: {
+			DisplayName: Tarra Energy
+		}
+
+		SulphurousSandBallGun: {
+			DisplayName: Sulphurous Sand Ball
+		}
+
+		SulphuricAcidBubbleFriendly: {
+			DisplayName: Acid Bubble
+		}
+
+		SuicideBomberDemon: {
+			DisplayName: Demon
+		}
+
+		StratusBlackHole: {
+			DisplayName: Stratus Singularity
+		}
+
+		StomperSlam: {
+			DisplayName: Stomper Slam
+		}
+
+		StickyFeatherAero: {
+			DisplayName: Feather
+		}
+
+		StepStoolBonusFX: {
+			DisplayName: Step Stool Bonus
+		}
+
+		StarStruckWaterBottle: {
+			DisplayName: Bottle
+		}
+
+		StandingFire: {
+			DisplayName: Calamitous Flame
+		}
+
+		SpringStoolFX: {
+			DisplayName: Spring Stool
+		}
+
+		SpiritOriginBullseye: {
+			DisplayName: Spirit Origin Bullseye
+		}
+
+		SlurperBobber: {
+			DisplayName: Slurper Bobber
+		}
+
+		SlimeStream: {
+			DisplayName: Slime Stream
+		}
+
+		SkyFlareFriendly: {
+			DisplayName: Flare
+		}
+
+		ShadeNimbusSpawner: {
+			DisplayName: Dank Creeper
+		}
+
+		ShadeNimbusRain: {
+			DisplayName: Shade Rain
+		}
+
+		ShadeNimbus: {
+			DisplayName: Shade Nimbus
+		}
+
+		SerpentsBiteHook: {
+			DisplayName: Serpent's Bite
+		}
+
+		SepulcherSoul: {
+			DisplayName: Tormented Soul
+		}
+
+		Seashell: {
+			DisplayName: Seashell
+		}
+
+		ScionsCurioMini: {
+			DisplayName: Scions Curio
+		}
+
+		SCalAltarArenaVisual: {
+			DisplayName: Supreme Calamitas Arena Visual
+		}
+
+		SandExplosion: {
+			DisplayName: Sand
+		}
+
+		SandCloakVeil: {
+			DisplayName: Dust Veil
+		}
+
+		RustyMedallionDroplet: {
+			DisplayName: Acid Droplet
+		}
+
+		RiftReelerBobber: {
+			DisplayName: Chaotic Bobber
+		}
+
+		RetaliationProjectile: {
+			DisplayName: Retaliation Shard
+		}
+
+		RelicGuard: {
+			DisplayName: Relic Guard
+		}
+
+		RedLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		ReaverThornBase: {
+			DisplayName: Thorn
+		}
+
+		PuddleSplash: {
+			DisplayName: Puddle Splash
+		}
+
+		PscTransformRocks: {
+			DisplayName: Psc Transform Rocks
+		}
+
+		PscTransformAnimation: {
+			DisplayName: Psc Transform Animation
+		}
+
+		ProtolithBangleProjectile: {
+			DisplayName: Marble Shatter
+		}
+
+		PolypSandBallGun: {
+			DisplayName: Polyp Sand Ball
+		}
+
+		PolypSandBallFalling: {
+			DisplayName: Polyp Sand Ball
+		}
+
+		PoisonousSeawater: {
+			DisplayName: Seawater
+		}
+
+		PinkPearlFalling: {
+			DisplayName: Pink Pearl
+		}
+
+		Pigion: {
+			DisplayName: Pigion
+		}
+
+		PlaguePulse: {
+			DisplayName: Plague Pulse
+		}
+
+		PearlAuraShard: {
+			DisplayName: Prism Shard
+		}
+
+		PauldronExplosion: {
+			DisplayName: Pauldron Explosion
+		}
+
+		PauldronDash: {
+			DisplayName: Pauldron Dash
+		}
+
+		OnyxLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		OmegaBlueTentacle: {
+			DisplayName: Omega Blue Tentacle
+		}
+
+		NobodyKnows: {
+			DisplayName: Nope
+		}
+
+		NebulaStar: {
+			DisplayName: Star
+		}
+
+		NebulaDust: {
+			DisplayName: Dust
+		}
+
+		NavyBobber: {
+			DisplayName: Navy Bobber
+		}
+
+		Nanotech: {
+			DisplayName: Nanoblade
+		}
+
+		NanoFlare: {
+			DisplayName: Nano Flare
+		}
+
+		MythrilFlare: {
+			DisplayName: Mythril Flare
+		}
+
+		MagnusBoom: {
+			DisplayName: Nebula Blast
+		}
+
+		MagnusBeam: {
+			DisplayName: Magnus Seeker
+		}
+
+		LuxorsGiftClassless: {
+			DisplayName: Luxor's Classless
+		}
+
+		Luxor: {
+			DisplayName: Luxor
+		}
+
+		LunicBeam: {
+			DisplayName: Lunic Seeker
+		}
+
+		LeviAmberDash: {
+			DisplayName: Riptide Slam
+		}
+
+		KelvinCatalystStar: {
+			DisplayName: Kelvin Catalyst Star
+		}
+
+		JewelSpike: {
+			DisplayName: Spike
+		}
+
+		HyperiusBleed: {
+			DisplayName: Hyperius Bleed
+		}
+
+		HyperiusDamage: {
+			DisplayName: Hyperius Overflow
+		}
+
+		HydrothermicSphere: {
+			DisplayName: Hydrothermic Sphere
+		}
+
+		HydrothermicFlareRogue: {
+			DisplayName: Hydrothermic Flare
+		}
+
+		HydrothermicFlare: {
+			DisplayName: Hydrothermic Flare
+		}
+
+		HydrothermalSmoke: {
+			DisplayName: Smoke
+		}
+
+		HolyStarDamage: {
+			DisplayName: Holy Star
+		}
+
+		HolyExplosionSupreme: {
+			DisplayName: Explosion
+		}
+
+		HideOfAstrumDeusExplosion: {
+			DisplayName: Explosion
+		}
+
+		HeronBobber: {
+			DisplayName: Heron Bobber
+		}
+
+		Gunshot: {
+			DisplayName: Gunshot
+		}
+
+		GreenLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		GodSlayerShrapnelRound: {
+			DisplayName: Round
+		}
+
+		GodSlayerShrapnel: {
+			DisplayName: Flame
+		}
+
+		GodKiller: {
+			DisplayName: God Killer
+		}
+
+		GluttonyBlenderAnimation: {
+			DisplayName: Gluttony Blender Animation
+		}
+
+		GhostlyBolt: {
+			DisplayName: Bolt
+		}
+
+		GenericElectricSpark: {
+			DisplayName: Electric Spark
+		}
+
+		GemTechArmorGem: {
+			DisplayName: Trireme's Gem
+		}
+
+		FungalClumpMinion: {
+			DisplayName: Fungal Clump
+		}
+
+		FuckYou: {
+			DisplayName: Explosion
+		}
+
+		FriendlyLaserWallBeam: {
+			DisplayName: God's Bane Doombeam
+		}
+
+		FlashBolt: {
+			DisplayName: The Reminder
+		}
+
+		FlameLickedHellblast: {
+			DisplayName: Flame Licked Hellblast
+		}
+
+		FlameLickedBarrage: {
+			DisplayName: Flame Licked Barrage
+		}
+
+		FestiveWingsOrnament: {
+			DisplayName: Ornament
+		}
+
+		FeralDoubleBobber: {
+			DisplayName: Feral Bobber
+		}
+
+		ExoTankMuzzleFlash: {
+			DisplayName: Mini Exo Flash
+		}
+
+		ExoTankMissile: {
+			DisplayName: Miracle Missile
+		}
+
+		ExoTankLaser: {
+			DisplayName: Mini Exo Pulse Laser
+		}
+
+		ExoTankHoverThrust: {
+			DisplayName: Exo Thrust
+		}
+
+		EutrophicSandBallGun: {
+			DisplayName: Eutrophic Sand Ball
+		}
+
+		EutrophicSandBallFalling: {
+			DisplayName: Eutrophic Sand Ball
+		}
+
+		EnergyShell: {
+			DisplayName: Energy Shell
+		}
+
+		EmpyreanStellarDetritus: {
+			DisplayName: Empyrean Stellar Detritus
+		}
+
+		EmpyreanMarble: {
+			DisplayName: Empyrean Marble
+		}
+
+		EmpyreanEmber: {
+			DisplayName: Empyrean Ember
+		}
+
+		EmpyreanBlast: {
+			DisplayName: Empyrean Blast
+		}
+
+		ElumphantMist: {
+			DisplayName: Elumphant Mist
+		}
+
+		Elumphant: {
+			DisplayName: Elumphant
+		}
+
+		EarlyBloomBobber: {
+			DisplayName: Early Bloom Bobber
+		}
+
+		DuneSandBallGun: {
+			DisplayName: Dunesand Ball
+		}
+
+		DunesandBallFalling: {
+			DisplayName: Dunesand Ball
+		}
+
+		DryadsTearBurst: {
+			DisplayName: Teardrop Ripple
+		}
+
+		DragonDust: {
+			DisplayName: Dust
+		}
+
+		DirectStrike: {
+			DisplayName: Nondescript Damaging Entity
+		}
+
+		DiamondOfTheDeepProjectile: {
+			DisplayName: Abyss Spirit
+		}
+
+		DevourerofCodsBobber: {
+			DisplayName: Devourer of Cods Bobber
+		}
+
+		DeepseaBlaze: {
+			DisplayName: Deepsea Blaze
+		}
+
+		DebuffSpreadEffect: {
+			DisplayName: Debuff Spread Effect
+		}
+
+		DarkIce: {
+			DisplayName: Dark Ice
+		}
+
+		CyanLabSeeker: {
+			DisplayName: Seeking Mechanism
+		}
+
+		CursorProjSplit: {
+			DisplayName: Aestheticus Crystal
+		}
+
+		CursorProj: {
+			DisplayName: Aestheticus Crystal
+		}
+
+		CryonicShield: {
+			DisplayName: Cryonic Shield
+		}
+
+		CosmicDashExplosion: {
+			DisplayName: Cosmic Dash Explosion
+		}
+
+		CoralBubbleSmall: {
+			DisplayName: Bubble
+		}
+
+		CoralBubble: {
+			DisplayName: Bubble
+		}
+
+		ClaretCannonProj: {
+			DisplayName: Claret Round
+		}
+
+		ChronoClock: {
+			DisplayName: Chrono Clock
+		}
+
+		ChaoticGeyser: {
+			DisplayName: Chaotic Geyser
+		}
+
+		BossRushTierAnimation: {
+			DisplayName: Boss Rush Tier Animation
+		}
+
+		BossRushFailureEffectThing: {
+			DisplayName: Boss Rush Failure Effect Thing
+		}
+
+		BossRushEndEffectThing: {
+			DisplayName: Boss Rush End Effect Thing
+		}
+
+		BossRushEffectThing: {
+			DisplayName: Boss Rush Effect Thing
+		}
+
+		BobbitHead: {
+			DisplayName: Bobbit Head
+		}
+
+		BlunderBoosterAura: {
+			DisplayName: Red Lightning Aura
+		}
+
+		BloomStoneFlower: {
+			DisplayName: Bloom Stone Flower
+		}
+
+		BloodBombExplosion: {
+			DisplayName: Explosion
+		}
+
+		BloodBomb: {
+			DisplayName: Bomb
+		}
+
+		BlissfulBombardierDustProjectile: {
+			DisplayName: Dust
+		}
+
+		BlazingSun2: {
+			DisplayName: Blazing Sun
+		}
+
+		BlazingSun: {
+			DisplayName: Blazing Sun
+		}
+
+		BlazingStarThatDoesNotHeal: {
+			DisplayName: Blazing Star That Does Not Heal
+		}
+
+		BlazingStarHeal: {
+			DisplayName: Blazing Star Heal
+		}
+
+		BlackPearlFalling: {
+			DisplayName: Black Pearl
+		}
+
+		BlackGlassBandProjectile: {
+			DisplayName: Obsidian Strike
+		}
+
+		BatholithBangleProjectile: {
+			DisplayName: Granite Flash
+		}
+
+		BasicPlagueBee: {
+			DisplayName: Basic Plague Bee
+		}
+
+		BasicBurstExclusive: {
+			DisplayName: Nondescript Damaging Explosion
+		}
+
+		BasicBurst: {
+			DisplayName: Nondescript Damaging Explosion
+		}
+
+		BabyCannonballProjectile: {
+			DisplayName: Baby Cannonball Projectile
+		}
+
+		AuricLandMineExplosion: {
+			DisplayName: Auric Land Mine Explosion
+		}
+
+		AstralStar: {
+			DisplayName: Star
+		}
+
+		AstralSpray: {
+			DisplayName: Astral Spray
+		}
+
+		AstralSandBallGun: {
+			DisplayName: Astral Sand Ball
+		}
+
+		AstralSandBallFalling: {
+			DisplayName: Astral Sand Ball
+		}
+
+		AscendantAura: {
+			DisplayName: Ascendant Aura
+		}
+
+		ArtifactOfResilienceShards: {
+			DisplayName: Artifact Shard
+		}
+
+		ArcZap: {
+			DisplayName: Arc Zap
+		}
+
+		AmuletEnergy: {
+			DisplayName: Sea Spirit
+		}
+
+		AllianceTriangle: {
+			DisplayName: Alliance Triangle
+		}
+
+		AeroExplosive: {
+			DisplayName: Aeroboom
+		}
+	}
+
+	Summon: {
+		YharonMinionFireball: {
+			DisplayName: Dragon Fireball
+		}
+
+		WulfrumFusionBolt: {
+			DisplayName: Fusion Bolt
+		}
+
+		WulfrumEnergyBurst: {
+			DisplayName: Wulfrum Bolt
+		}
+
+		WulfrumDroid: {
+			DisplayName: Wulfrum Droid
+		}
+
+		WitherBolt: {
+			DisplayName: Wither Bolt
+		}
+
+		WitherBlossom: {
+			DisplayName: Wither Blossom
+		}
+
+		WindRipperArrow: {
+			DisplayName: Wind Ripper Arrow
+		}
+
+		WindRipper: {
+			DisplayName: Wind Ripper
+		}
+
+		WhiteDragonTail: {
+			DisplayName: White Celestial Dragon
+		}
+
+		WhiteDragonHead: {
+			DisplayName: White Celestial Dragon
+		}
+
+		WhiteDragonBody: {
+			DisplayName: White Celestial Dragon
+		}
+
+		WaterSpearFriendly: {
+			DisplayName: Water Spear
+		}
+
+		WaterElementalSong: {
+			DisplayName: Siren Song
+		}
+
+		WaterElementalMinion: {
+			DisplayName: Anahita
+		}
+
+		VolcanicFireballSummon: {
+			DisplayName: Volcanic Fireball
+		}
+
+		VoidEaterMarionetteProjectile: {
+			DisplayName: Void Eater Marionette
+		}
+
+		VoidConcentrationMark: {
+			DisplayName: Void Concentration Mark
+		}
+
+		VoidConcentrationMinion: {
+			DisplayName: Void Concentration Minion
+		}
+
+		VoidConcentrationDarkEnergy: {
+			DisplayName: Orbiting Dark Energy
+		}
+
+		VoidConcentrationBeam: {
+			DisplayName: Concentrated Beam
+		}
+
+		VoidConcentrationSummonTagProj: {
+			DisplayName: Dark Energy Vortex
+		}
+
+		ViridVanguardBlade: {
+			DisplayName: Vanguard Blade
+		}
+
+		VileFeederSummon: {
+			DisplayName: Baby Eater
+		}
+
+		VileFeederProjectile: {
+			DisplayName: Eater of Souls Mini
+		}
+
+		VictideSeaSnail: {
+			DisplayName: Sea Snail
+		}
+
+		VengefulSunSpiritMinion: {
+			DisplayName: Vengeful Sun Spirit
+		}
+
+		VengefulSunBeam: {
+			DisplayName: Vengeful Sun Beam
+		}
+
+		Valkyrie: {
+			DisplayName: Valkyrie
+		}
+
+		UrchinSpike: {
+			DisplayName: Urchin Spike
+		}
+
+		UniverseSplitterSmallBeam: {
+			DisplayName: Universe Splitter Ray
+		}
+
+		UniverseSplitterHugeBeam: {
+			DisplayName: Universe Splitter Ray
+		}
+
+		UniverseSplitterField: {
+			DisplayName: Field
+		}
+
+		MagicUmbrella: {
+			DisplayName: Cyan Umbrella
+		}
+
+		MagicTree: {
+			DisplayName: Magic Tree
+		}
+
+		MagicRifle: {
+			DisplayName: Lavender Rifle
+		}
+
+		MagicHat: {
+			DisplayName: Magic Hat
+		}
+
+		MagicHammer: {
+			DisplayName: Marmalade Hammer
+		}
+
+		MagicBunny: {
+			DisplayName: Magic Bunny
+		}
+
+		MagicBulletBig: {
+			DisplayName: Magic Bullet
+		}
+
+		MagicBullet: {
+			DisplayName: Magic Bullet
+		}
+
+		MagicBird: {
+			DisplayName: Magic Bird
+		}
+
+		MagicAxe: {
+			DisplayName: Jade Axe
+		}
+
+		MagicArrow: {
+			DisplayName: Vermillion Arrow
+		}
+
+		TundraFlameBlossomsOrb: {
+			DisplayName: Tundra Flame Blossoms Orb
+		}
+
+		TundraFlameBlossom: {
+			DisplayName: Tundra Flame Blossoms
+		}
+
+		TacticalPlagueJet: {
+			DisplayName: Tactical Plague Jet
+		}
+
+		SunSpiritMinion: {
+			DisplayName: Sun Spirit
+		}
+
+		SunSpiritBeam: {
+			DisplayName: Sun Beam
+		}
+
+		SummonBrimstoneExplosionSmall: {
+			DisplayName: Explosion
+		}
+
+		SummonBrimstoneExplosion: {
+			DisplayName: Explosion
+		}
+
+		SummonAstralExplosion: {
+			DisplayName: Explosion
+		}
+
+		StormjawBaby: {
+			DisplayName: Stormjaw Baby
+		}
+
+		StellarTorusSummon: {
+			DisplayName: Stellar Torus Summon
+		}
+
+		StellarTorusBeam: {
+			DisplayName: Stellar Torus Beam
+		}
+
+		StatigelBlightedSlime: {
+			DisplayName: Blighted Paladin
+		}
+
+		StarforgeBlast: {
+			DisplayName: Starforge Blast
+		}
+
+		Starforge: {
+			DisplayName: Starforge
+		}
+
+		SquirrelSquireMinion: {
+			DisplayName: Squirrel Squire
+		}
+
+		SquirrelSquireAcorn: {
+			DisplayName: Squirrel Acorn
+		}
+
+		SpikecragSpike: {
+			DisplayName: Spikecrag Spike
+		}
+
+		Spikecrag: {
+			DisplayName: Spikecrag
+		}
+
+		SmallSkeletonMinion: {
+			DisplayName: Small Skeleton
+		}
+
+		MinionTeslaOrb: {
+			DisplayName: Tesla Sphere
+		}
+
+		MinionPlasmaGas: {
+			DisplayName: Superheated Plasma Cloud
+		}
+
+		MinionPlasmaBlast: {
+			DisplayName: Volatile Plasma Blast
+		}
+
+		MinionLaserBurst: {
+			DisplayName: Exothermal Laser
+		}
+
+		MinionGaussNuke: {
+			DisplayName: Gauss Nuke
+		}
+
+		MinionGaussBoom: {
+			DisplayName: Gauss Hyperexplosion
+		}
+
+		ExoskeletonTeslaCannon: {
+			DisplayName: Tesla Cannon
+		}
+
+		ExoskeletonPlasmaCannon: {
+			DisplayName: Plasma Cannon
+		}
+
+		ExoskeletonPanel: {
+			NoSlots: Insufficient minion slots!
+			DisplayName: UI
+		}
+
+		ExoskeletonLaserCannon: {
+			DisplayName: Laser Cannon
+		}
+
+		ExoskeletonGaussNukeCannon: {
+			DisplayName: Gauss Nuke
+		}
+
+		CannonLaserbeam: {
+			DisplayName: Exothermal Deathray
+		}
+
+		StormjawSpark: {
+			DisplayName: Spark
+		}
+
+		SlimePuppet: {
+			DisplayName: Slime Puppet
+		}
+
+		SkeletalDragonMother: {
+			DisplayName: Skeletal Mother
+		}
+
+		SkeletalDragonChild: {
+			DisplayName: Skeletal Child
+		}
+
+		SiriusMinion: {
+			DisplayName: Sirius
+		}
+
+		SiriusQuasar: {
+			DisplayName: Sirius Quasar
+		}
+
+		SiriusBeam: {
+			DisplayName: Sirius Beam
+		}
+
+		SilvaCrystalExplosion: {
+			DisplayName: Silva Explosion
+		}
+
+		SilvaCrystal: {
+			DisplayName: Silva Crystal
+		}
+
+		Shellfish: {
+			DisplayName: Shellfish
+		}
+
+		SepulcherMinion: {
+			DisplayName: Sepulcher
+		}
+
+		SeekerSummonProj: {
+			DisplayName: Soul Seeker
+		}
+
+		SeashineSwordProj: {
+			DisplayName: Seashine Sword
+		}
+
+		SarosEclipseBeam: {
+			DisplayName: Totality Ray
+		}
+
+		SarosSunfire: {
+			DisplayName: Saros Sunfire
+		}
+
+		SarosAura: {
+			DisplayName: Saros Aura
+		}
+
+		SandTornado: {
+			DisplayName: Tornado
+		}
+
+		SandnadoMinion: {
+			DisplayName: Sandnado
+		}
+
+		SandMark: {
+			DisplayName: Mark
+		}
+
+		SandElementalMinion: {
+			DisplayName: Sand Elemental
+		}
+
+		SandElementalHealer: {
+			DisplayName: Sand Healer
+		}
+
+		SandBolt: {
+			DisplayName: Bolt
+		}
+
+		SakuraBullet: {
+			DisplayName: Sakura Bullet
+		}
+
+		SageSpirit: {
+			DisplayName: Sage Spirit
+		}
+
+		SageNeedle: {
+			DisplayName: Sage Needle
+		}
+
+		RustyDrone: {
+			DisplayName: Rusty Drone
+		}
+
+		RustyBeaconPulse: {
+			DisplayName: Irradiated Pulse
+		}
+
+		PurpleButterfly: {
+			DisplayName: Purple Butterfly
+		}
+
+		PuffWarrior: {
+			DisplayName: Puff Warrior
+		}
+
+		PuffCloud: {
+			DisplayName: Puff Cloud
+		}
+
+		ProfanedEnergy: {
+			DisplayName: Profaned Energy
+		}
+
+		ProfanedCrystalWhip: {
+			DisplayName: Profaned Crystal Whip
+		}
+
+		ProfanedCrystalRogueShard: {
+			DisplayName: Holy Bab Crystal Shard
+		}
+
+		ProfanedCrystalRangedSmalls: {
+			DisplayName: Holy Bab Boomer Orb
+		}
+
+		ProfanedCrystalRangedHuges: {
+			DisplayName: Holy Bab Boomer
+		}
+
+		ProfanedCrystalMeleeSpear: {
+			DisplayName: Holy Friendly Spear
+		}
+
+		ProfanedCrystalMageFireballSplit: {
+			DisplayName: Holy Bab Fire
+		}
+
+		ProfanedCrystalMageFireball: {
+			DisplayName: Holy Bab Fireball
+		}
+
+		PowerfulRaven: {
+			DisplayName: Super Raven
+		}
+
+		PolypLauncherShrapnel: {
+			DisplayName: Polyp Shrapnel
+		}
+
+		PolypLauncherSentry: {
+			DisplayName: Polyp Launcher
+		}
+
+		PolypLauncherProjectile: {
+			DisplayName: Polyp Chunk
+		}
+
+		PlateProjectile: {
+			DisplayName: Plate
+		}
+
+		PlantationStaffThornball: {
+			DisplayName: Mini Plantera's Thornball
+		}
+
+		PlantationStaffTentacle: {
+			DisplayName: Mini Plantera's Tentacle
+		}
+
+		PlantationStaffSummon: {
+			DisplayName: Mini Plantera
+		}
+
+		PlantationStaffSporeCloud: {
+			DisplayName: Mini Plantera's Spores
+		}
+
+		PlantationStaffSeed: {
+			DisplayName: Mini Plantera's Seed
+		}
+
+		PlaguePrincess: {
+			DisplayName: Virili
+		}
+
+		PlaguebringerSummon: {
+			DisplayName: Lil' Plaguebringer
+		}
+
+		PlaguebringerMK2: {
+			DisplayName: Plaguebringer MK2
+		}
+
+		PlagueBeeSmall: {
+			DisplayName: Plague Bee
+		}
+
+		PinkButterfly: {
+			DisplayName: Pink Butterfly
+		}
+
+		PhantomicShield: {
+			DisplayName: Phantomic Bulwark
+		}
+
+		PhantomicDagger: {
+			DisplayName: Phantom Dagger
+		}
+
+		PhantomGuy: {
+			DisplayName: Phantom
+		}
+
+		PerditionBeacon: {
+			DisplayName: Perdition Beacon
+		}
+
+		Paradoxica: {
+			DisplayName: Paradoxica
+		}
+
+		OldDukeSharkVomit: {
+			DisplayName: Puke
+		}
+
+		OldDukeHeadCorpse: {
+			DisplayName: Absolutely Disgusting Shark Puker
+		}
+
+		MutatedTruffleVortex: {
+			DisplayName: Baby Boomer's Vortex
+		}
+
+		MutatedTruffleToothballSpike: {
+			DisplayName: Baby Boomer's Toothball Spike
+		}
+
+		MutatedTruffleToothball: {
+			DisplayName: Baby Boomer's Toothball
+		}
+
+		MutatedTruffleMinion: {
+			DisplayName: Baby Boomer
+		}
+
+		MortalityBolt: {
+			DisplayName: Bolt
+		}
+
+		MortalityBeam: {
+			DisplayName: Beam
+		}
+
+		MoonFistTeleportVisual: {
+			DisplayName: Light
+		}
+
+		MoonFist: {
+			DisplayName: Cosmic Fist
+		}
+
+		MK2RocketNormal: {
+			DisplayName: Plague Rocket
+		}
+
+		MK2RocketHoming: {
+			DisplayName: Plague Rocket
+		}
+
+		MK2FlaskSummon: {
+			DisplayName: Fuel Cell Flask
+		}
+
+		MiniSandShark: {
+			DisplayName: Mini Sand Shark
+		}
+
+		MiniGuardianStars: {
+			DisplayName: Bab Star
+		}
+
+		MiniGuardianSpear: {
+			DisplayName: Bab Spear
+		}
+
+		MiniGuardianRock: {
+			DisplayName: Rocky Road
+		}
+
+		MiniGuardianHolyRay: {
+			DisplayName: Bab Holy Ray
+		}
+
+		MiniGuardianHealer: {
+			DisplayName: Healer Guardian
+		}
+
+		MiniGuardianFireballSplit: {
+			DisplayName: Mini Guardian Fireball Split
+		}
+
+		MiniGuardianFireball: {
+			DisplayName: Mini Guardian Fireball
+		}
+
+		MiniGuardianDefense: {
+			DisplayName: Defensive Guardian
+		}
+
+		MiniGuardianAttack: {
+			DisplayName: Offensive Guardian
+		}
+
+		MidnightSunUFO: {
+			DisplayName: Midnight Sun UFO
+		}
+
+		MidnightSunShot: {
+			DisplayName: Midnight Shot
+		}
+
+		MidnightSunBeam: {
+			DisplayName: Midnight Beam
+		}
+
+		MidnightSunBeaconProj: {
+			DisplayName: Midnight Sun Beacon
+		}
+
+		DoGWeaponTeleportRift: {
+			DisplayName: Rift
+		}
+
+		VoidEaterMarionetteTail: {
+			DisplayName: Void Eater Marionette
+		}
+
+		VoidEaterMarionetteHead: {
+			DisplayName: Void Eater Marionette
+		}
+
+		VoidEaterMarionetteBody: {
+			DisplayName: Void Eater Marionette
+		}
+
+		LuxorsGiftSummon: {
+			DisplayName: Luxor's Summon
+		}
+
+		LostSoulSmall: {
+			DisplayName: Soul
+		}
+
+		LostSoulLarge: {
+			DisplayName: Soul
+		}
+
+		LostSoulGold: {
+			DisplayName: Gold Soul
+		}
+
+		LostSoulGiant: {
+			DisplayName: Soul
+		}
+
+		LiliesOfFinalityElster: {
+			DisplayName: Elster
+		}
+
+		LiliesOfFinalityBullet: {
+			DisplayName: Einhorn Bullet
+		}
+
+		LiliesOfFinalityBolt: {
+			DisplayName: Bioresonance Bolt
+		}
+
+		LiliesOfFinalityAriane: {
+			DisplayName: Ariane
+		}
+
+		LiliesOfFinalityAoE: {
+			DisplayName: Bioresonance Aura
+		}
+
+		LiliesOfEternityBullet: {
+			DisplayName: Lilies Of Eternity Bullet
+		}
+
+		LanternSoul: {
+			DisplayName: Lantern
+		}
+
+		LanternFlame: {
+			DisplayName: Lantern Flame
+		}
+
+		IrradiatedAura: {
+			DisplayName: Irradiated Aura
+		}
+
+		IgneousBladeStrike: {
+			DisplayName: Igneous Blade
+		}
+
+		IgneousBlade: {
+			DisplayName: Igneous Blade
+		}
+
+		IceSentryShard: {
+			DisplayName: Frost Shard
+		}
+
+		IceSentryFrostBolt: {
+			DisplayName: Ball
+		}
+
+		IceSentry: {
+			DisplayName: Ice Sentry
+		}
+
+		IceClasperSummonProjectile: {
+			DisplayName: Ice Shard
+		}
+
+		IceClasperMinion: {
+			DisplayName: Ice Clasper
+		}
+
+		HydrothermicVent: {
+			DisplayName: Hydrothermic Vent
+		}
+
+		HowlsHeartTurnipHead: {
+			DisplayName: Turnip-Head
+		}
+
+		HowlsHeartHowl: {
+			DisplayName: Howl
+		}
+
+		HowlsHeartFireball: {
+			DisplayName: Fireball
+		}
+
+		HowlsHeartCalcifer: {
+			DisplayName: Calcifer
+		}
+
+		HopeShredderArrowSplit: {
+			DisplayName: Hope Shredder Split Arrow
+		}
+
+		HopeShredderArrow: {
+			DisplayName: Hope Shredder Arrow
+		}
+
+		HopeShredder: {
+			DisplayName: Hope Shredder
+		}
+
+		HomingGammaBullet: {
+			DisplayName: Gamma Bullet
+		}
+
+		Hiveling: {
+			DisplayName: Hiveling
+		}
+
+		Hive: {
+			DisplayName: Hive
+		}
+
+		HerringMinion: {
+			DisplayName: Herring
+		}
+
+		HerringAI: {
+			DisplayName: Herring School
+		}
+
+		HermitCrabMinion: {
+			DisplayName: Hermit Crab
+		}
+
+		HauntedDishes: {
+			DisplayName: Haunted Dishes
+		}
+
+		HarvestStaffSentry: {
+			DisplayName: Pumpoem Nest
+		}
+
+		HarvestStaffMinion: {
+			DisplayName: Pumpoem
+		}
+
+		HallowedStarSummon: {
+			DisplayName: Hallowed Star
+		}
+
+		GlacialEmbracePointyThing: {
+			DisplayName: Ice Castle Shard
+		}
+
+		GiantIbanRobotOfDoom: {
+			DisplayName: Andromeda
+		}
+
+		GhostlyMine: {
+			DisplayName: Mine
+		}
+
+		GhostFire: {
+			DisplayName: Ghastly Particle
+		}
+
+		GastricBelcherVomit: {
+			DisplayName: Gastric Vomit
+		}
+
+		GastricBelcherBubble: {
+			DisplayName: Gastric Bubble
+		}
+
+		GastricBelcher: {
+			DisplayName: Gastric Belcher
+		}
+
+		GammaHead: {
+			DisplayName: Gamma Head
+		}
+
+		GammaCanister: {
+			DisplayName: Gamma Canister
+		}
+
+		FrostMistFriendly: {
+			DisplayName: Frost Mist
+		}
+
+		FrostBlossom: {
+			DisplayName: Frost Blossom
+		}
+
+		FrostBeam: {
+			DisplayName: Frost Beam
+		}
+
+		FrogGore5: {
+			DisplayName: Gore from a not frog of the explosive variety
+		}
+
+		FrogGore4: {
+			DisplayName: Gore from a not frog of the explosive variety
+		}
+
+		FrogGore3: {
+			DisplayName: Gore from a not frog of the explosive variety
+		}
+
+		FrogGore2: {
+			DisplayName: Gore from a not frog of the explosive variety
+		}
+
+		FrogGore1: {
+			DisplayName: Gore from a not frog of the explosive variety
+		}
+
+		ForbiddenCircletEater: {
+			DisplayName: Circlet Eater
+		}
+
+		FlyingOrthoceraStream: {
+			DisplayName: Acid Stream
+		}
+
+		FlyingOrthocera: {
+			DisplayName: Flying Orthocera
+		}
+
+		FlowersOfMortalityPetal: {
+			DisplayName: Elemental Petal
+		}
+
+		FleshBlood: {
+			DisplayName: Flesh Blood
+		}
+
+		FleshBallMinion: {
+			DisplayName: Flesh Ball
+		}
+
+		FlameBurst: {
+			DisplayName: Flame Burst
+		}
+
+		FlameBlast: {
+			DisplayName: Flame Blast
+		}
+
+		FieryDraconid: {
+			DisplayName: Fiery Draconid
+		}
+
+		EyeOfNightSummon: {
+			DisplayName: Eye of Night
+		}
+
+		EyeOfNightCell: {
+			DisplayName: Night Cell
+		}
+
+		EXPLODINGFROG: {
+			DisplayName: A not frog of the explosive variety
+		}
+
+		EnergyOrb: {
+			DisplayName: Energy Orb
+		}
+
+		EndoIceShard: {
+			DisplayName: Endo Ice Shard
+		}
+
+		EndoHydraRay: {
+			DisplayName: Endo Ray
+		}
+
+		EndoHydraHead: {
+			DisplayName: Hydra Head
+		}
+
+		EndoHydraBody: {
+			DisplayName: Hydra Body
+		}
+
+		EndoFire: {
+			DisplayName: Endo Fire
+		}
+
+		EndoCooperLimbs: {
+			DisplayName: Ascened Cooper
+		}
+
+		EndoCooperBody: {
+			DisplayName: Ascened Cooper
+		}
+
+		EndoBeam: {
+			DisplayName: Endo Beam
+		}
+
+		EnchantedKnifeStaffProjectile: {
+			DisplayName: Enchanted Knife Beam
+		}
+
+		EnchantedKnifeSummon: {
+			DisplayName: Enchanted Knife
+		}
+
+		DreadmineTurret: {
+			DisplayName: Dreadmine Turret
+		}
+
+		Dreadmine: {
+			DisplayName: Dreadmine
+		}
+
+		DormantBrimseekerSummoner: {
+			DisplayName: Dormant Brimseeker
+		}
+
+		DormantBrimseekerBab: {
+			DisplayName: Dormant Brimseeker
+		}
+
+		DormantBrimseekerAura: {
+			DisplayName: Dormant Brimseeker Aura Projecter
+		}
+
+		DeathstareEyeball: {
+			DisplayName: Deathstare
+		}
+
+		DeathstareBeam: {
+			DisplayName: Deathstare Beam
+		}
+
+		DazzlingStabber: {
+			DisplayName: Dazzling Stabber
+		}
+
+		DankCreeperMinion: {
+			DisplayName: Dank Creeper
+		}
+
+		DaedalusPellet: {
+			DisplayName: Daedalus Pellet
+		}
+
+		DaedalusLightning: {
+			DisplayName: Daedalus Lightning
+		}
+
+		DaedalusGolem: {
+			DisplayName: Daedalus Golem
+		}
+
+		DaedalusCrystalShot: {
+			DisplayName: Crystal Shot
+		}
+
+		DaedalusCrystal: {
+			DisplayName: Daedalus Crystal
+		}
+
+		CosmilampMinion: {
+			DisplayName: Cosmilamp
+		}
+
+		CosmilampBeam: {
+			DisplayName: Cosmic Beam
+		}
+
+		CosmicViperSummon: {
+			DisplayName: Cosmic Viper
+		}
+
+		CosmicViperSplittingRocket: {
+			DisplayName: Splitting Rocket
+		}
+
+		CosmicViperSplitRocket1: {
+			DisplayName: Rocket Shard
+		}
+
+		CosmicViperHomingRocket: {
+			DisplayName: Homing Rocket
+		}
+
+		CosmicViperConcussionMissile: {
+			DisplayName: Concussion Missile
+		}
+
+		CosmicEnergySpiral: {
+			DisplayName: Cosmic Energy
+		}
+
+		CosmicBlastBig: {
+			DisplayName: Cosmic Blast
+		}
+
+		CosmicBlast: {
+			DisplayName: Cosmic Blast
+		}
+
+		CnidarianSpark: {
+			DisplayName: Cnidarian Spark
+		}
+
+		CnidarianJellyfishOnTheString: {
+			DisplayName: Cnidarian
+		}
+
+		CloudElementalMinion: {
+			DisplayName: Cloud Elemental
+		}
+
+		CinderBlossom: {
+			DisplayName: Cinder Blossom
+		}
+
+		Cinder: {
+			DisplayName: Cinder
+		}
+
+		CelestialAxeMinion: {
+			DisplayName: Celestial Axe
+		}
+
+		CausticStaffSummon: {
+			DisplayName: Caustic Dragon
+		}
+
+		CausticStaffProjectile: {
+			DisplayName: Thorn
+		}
+
+		CatastropheSummon: {
+			DisplayName: Catastrophe
+		}
+
+		Catastromini: {
+			DisplayName: Catastromini
+		}
+
+		CataclysmSummon: {
+			DisplayName: Cataclysm
+		}
+
+		Cataclymini: {
+			DisplayName: Cataclymini
+		}
+
+		Calamitamini: {
+			DisplayName: Calamitamini
+		}
+
+		CalamarisLamentProjectile: {
+			DisplayName: Calamari Ink
+		}
+
+		CalamarisLamentMinion: {
+			DisplayName: Calamari
+		}
+
+		BrittleStarMinion: {
+			DisplayName: Brittle Star
+		}
+
+		BrimstoneLaserSummon: {
+			DisplayName: Vigil Mini Fireball
+		}
+
+		BrimstoneFireSummon: {
+			DisplayName: Brimstone Fire
+		}
+
+		BrimstoneFireballMinion: {
+			DisplayName: Brimstone Fireball
+		}
+
+		BrimstoneExplosionMinion: {
+			DisplayName: Explosion
+		}
+
+		BrimstoneElementalMinion: {
+			DisplayName: Brimstone Elemental
+		}
+
+		BrimstoneDartSummon: {
+			DisplayName: Brimstone Dart
+		}
+
+		BrimstoneDartMinion: {
+			DisplayName: Brimfire
+		}
+
+		BrimseekerAuraBall: {
+			DisplayName: Seeker
+		}
+
+		BloodSpit: {
+			DisplayName: Blood Spit
+		}
+
+		BloodRain: {
+			DisplayName: Blood Rain
+		}
+
+		BloodBreath: {
+			DisplayName: Blood Dragon Fire
+		}
+
+		BlightedSlimeMinion: {
+			DisplayName: Blighted Slime
+		}
+
+		BlackHawkSummon: {
+			DisplayName: Black Hawk
+		}
+
+		BlackHawkBullet: {
+			DisplayName: Black Hawk Bullet
+		}
+
+		BlackDragonTail: {
+			DisplayName: Black Celestial Dragon
+		}
+
+		BlackDragonHead: {
+			DisplayName: Black Celestial Dragon
+		}
+
+		BlackDragonBody: {
+			DisplayName: Black Celestial Dragon
+		}
+
+		BelladonnaSpirit: {
+			DisplayName: Belladonna Spirit
+		}
+
+		BelladonnaPetal: {
+			DisplayName: Belladonna Petal
+		}
+
+		BetterHornetStinger: {
+			DisplayName: Stinger
+		}
+
+		BabyPlaguebringer: {
+			DisplayName: Baby Plaguebringer
+		}
+
+		BabyBloodCrawler: {
+			DisplayName: Baby Blood Crawler
+		}
+
+		AureusBomber: {
+			DisplayName: Aureus Bomber
+		}
+
+		AtzirisDisfavor: {
+			DisplayName: Atziri's Disfavor
+		}
+
+		AtlasMunitionsLaserOverdrive: {
+			DisplayName: Exo Pulse Laser
+		}
+
+		AtlasMunitionsLaser: {
+			DisplayName: Exo Pulse Laser
+		}
+
+		AtlasMunitionsDropPodUpper: {
+			DisplayName: Drop Pod Cover
+		}
+
+		AtlasMunitionsDropPod: {
+			DisplayName: Drop Pod
+		}
+
+		AtlasMunitionsAutocannonHeld: {
+			DisplayName: Atlas Munitions Autocannon
+		}
+
+		AtlasMunitionsAutocannon: {
+			DisplayName: Atlas Munitions Autocannon
+		}
+
+		AstralProbeSummon: {
+			DisplayName: Astral Probe
+		}
+
+		AstralProbeRound: {
+			DisplayName: Astral Probe Laser
+		}
+
+		AstrageldonSummon: {
+			DisplayName: Astrageldon
+		}
+
+		AstrageldonLaser: {
+			DisplayName: Astral Laser
+		}
+
+		AquaticStarMinion: {
+			DisplayName: Aquatic Star
+		}
+
+		AquasScepterTeslaAura: {
+			DisplayName: Tesla Aura
+		}
+
+		AquasScepterRaindrop: {
+			DisplayName: Rain Droplet
+		}
+
+		AquasScepterCloud: {
+			DisplayName: Storm Cloud
+		}
+
+		ApparatusExplosion: {
+			DisplayName: Explosion
+		}
+
+		ApexShark: {
+			DisplayName: Ancient Mineral Shark
+		}
+
+		AngelRay: {
+			DisplayName: Angelic Ray
+		}
+
+		AngelOrb: {
+			DisplayName: Angelic Orb
+		}
+
+		AngelicAllianceArchangel: {
+			DisplayName: Archangel
+		}
+
+		AngelBolt: {
+			DisplayName: Angelic Bolt
+		}
+
+		AndromedaUI_Background: {
+			DisplayName: UI
+		}
+
+		AndromedaRegislash: {
+			DisplayName: Regislash
+		}
+
+		AndromedaDeathRay: {
+			DisplayName: Beam
+		}
+
+		AmphibiansGuitarProjectile: {
+			DisplayName: Note
+		}
+
+		AmphibiansGuitarMinion: {
+			DisplayName: Amphibian's Guitars
+		}
+	}
+
+	Rogue: {
+		WulfrumKnifeProj: {
+			DisplayName: Wulfrum Knife
+		}
+
+		WrathwingSpear: {
+			DisplayName: Wrathwing
+		}
+
+		WrathwingFireball: {
+			DisplayName: Wrathwing Fireball
+		}
+
+		WrathwingCinder: {
+			DisplayName: Wrathwing Eruption
+		}
+
+		WhitewaterSpear: {
+			DisplayName: Whitewater Spear
+		}
+
+		WhitewaterProj: {
+			DisplayName: Whitewater Flask
+		}
+
+		WhitewaterAura: {
+			DisplayName: Whitewater Aura
+		}
+
+		WebBallBol: {
+			DisplayName: Web Ball
+		}
+
+		WaveSkipperProjectile: {
+			DisplayName: Wave Skipper
+		}
+
+		VeneratedKnife: {
+			DisplayName: Venerated Knife
+		}
+
+		VegaStar: {
+			DisplayName: Vega Star
+		}
+
+		VegaSpark: {
+			DisplayName: Vega Spark
+		}
+
+		VegaProjectile: {
+			DisplayName: Vega
+		}
+
+		ValedictionBoomerang: {
+			DisplayName: Valediction
+		}
+
+		Valaricicle2: {
+			DisplayName: Valaricicle
+		}
+
+		Valaricicle: {
+			DisplayName: Valaricicle
+		}
+
+		ValariBoomerang: {
+			DisplayName: Frostcrush Valari
+		}
+
+		UrchinStingerProj: {
+			DisplayName: Urchin Stinger
+		}
+
+		UrchinIrradiation: {
+			DisplayName: Irradiation
+		}
+
+		UmbraphileBoom: {
+			DisplayName: Umbra Blast
+		}
+
+		TwistingThunderProj: {
+			DisplayName: Twisting Thunder
+		}
+
+		TurbulanceWindSlash: {
+			DisplayName: Wind Slash
+		}
+
+		TurbulanceProjectile: {
+			DisplayName: Turbulance
+		}
+
+		ToxicantTwisterProj: {
+			DisplayName: Toxicant Twister
+		}
+
+		ToxicantTwisterDust: {
+			DisplayName: Toxicant Raindrop
+		}
+
+		TotalMeltdown: {
+			DisplayName: Explosion
+		}
+
+		TotalityTar: {
+			DisplayName: Totality Tar
+		}
+
+		TotalityFlask: {
+			DisplayName: Totality Flask
+		}
+
+		TotalityFire: {
+			DisplayName: Totality Fire
+		}
+
+		ToothBallProjectile: {
+			DisplayName: Tooth Ball
+		}
+
+		TitaniumShurikenProjectile: {
+			DisplayName: Shuriken
+		}
+
+		TitaniumClone: {
+			DisplayName: Shuriken
+		}
+
+		TimeBoltKnife: {
+			DisplayName: Time Bolt
+		}
+
+		TheSyringeS1: {
+			DisplayName: Shrapnel
+		}
+
+		TheSyringeProj: {
+			DisplayName: Syringe
+		}
+
+		TheSyringeCinder: {
+			DisplayName: Syringe Cinder
+		}
+
+		TheAtomSplitterProjectile: {
+			DisplayName: Atom Splitter
+		}
+
+		TheAtomSplitterDuplicate: {
+			DisplayName: Atom Splitter
+		}
+
+		TarraThornRight: {
+			DisplayName: Tarragon Thorn
+		}
+
+		TarragonThrowingDartProjectile: {
+			DisplayName: Tarragon Throwing Dart
+		}
+
+		TalonSmallProj: {
+			DisplayName: Terror Talon
+		}
+
+		TalonLargeProj: {
+			DisplayName: Huge Terror Talon
+		}
+
+		SupernovaStealthBoom: {
+			DisplayName: Exo Supernova
+		}
+
+		SupernovaBoom: {
+			DisplayName: Micro Supernova
+		}
+
+		SupernovaBomb: {
+			DisplayName: Supernova Bomb
+		}
+
+		SupernovaHoldout: {
+			DisplayName: Supernova
+		}
+
+		SulphuricNukesplosion: {
+			DisplayName: Nuke
+		}
+
+		SubductionSlicerProj: {
+			DisplayName: Subduction Slicer
+		}
+
+		SubductionFlameburst: {
+			DisplayName: Flame Pillar
+		}
+
+		Stormfrontspark: {
+			DisplayName: Stormfront Spark
+		}
+
+		StormfrontRazorProjectile: {
+			DisplayName: Stormfront Razor
+		}
+
+		StormfrontLightning: {
+			DisplayName: Stormfront Lightning
+		}
+
+		StellarKnifeProj: {
+			DisplayName: Stellar Knife
+		}
+
+		StealthRain: {
+			DisplayName: Rain
+		}
+
+		StealthNimbusCloud: {
+			DisplayName: Nimbus
+		}
+
+		StealthNimbus: {
+			DisplayName: Nimbus
+		}
+
+		SporeKnifeProj: {
+			DisplayName: Spore Knife
+		}
+
+		SporeKnifeBud: {
+			DisplayName: Spore Knife Bud
+		}
+
+		SphereYellow: {
+			DisplayName: Yellow Thruster Sphere
+		}
+
+		SphereSpiked: {
+			DisplayName: Spiked Sphere
+		}
+
+		SphereBlue: {
+			DisplayName: Blue Thruster Sphere
+		}
+
+		SphereBladed: {
+			DisplayName: Bladed Sphere
+		}
+
+		SpentFuelContainerProjectile: {
+			DisplayName: Spent Fuel Container
+		}
+
+		SpearofPaleolithProj: {
+			DisplayName: Paleolith Spear
+		}
+
+		SpearofDestinyStealthExplosion: {
+			DisplayName: Strong Burst
+		}
+
+		SpearofDestinyStealth: {
+			DisplayName: Empowered Holy Lance
+		}
+
+		SpearofDestinyProjectile: {
+			DisplayName: Destiny Spear
+		}
+
+		SpadefishThrown: {
+			DisplayName: Spadefish
+		}
+
+		SpadefishHoldout: {
+			DisplayName: Spinfish
+		}
+
+		SnapClamStealth: {
+			DisplayName: Snap Clam
+		}
+
+		SnapClamProj: {
+			DisplayName: Snap Clam
+		}
+
+		SmallCoral: {
+			DisplayName: Small Coral
+		}
+
+		SludgeSplotchProj2: {
+			DisplayName: Sludge Splotch
+		}
+
+		SludgeSplotchProj1: {
+			DisplayName: Sludge Splotch
+		}
+
+		SkyfinNuke: {
+			DisplayName: Skyfin Nuke
+		}
+
+		SkyBomberGas: {
+			DisplayName: Irradiated Cloud
+		}
+
+		ShroomerangSpore: {
+			DisplayName: Infested Spore
+		}
+
+		ShockTeslaAura: {
+			DisplayName: Electrifying Aura
+		}
+
+		DoomsdayDeviceProjectile: {
+			DisplayName: Doomsday Device
+		}
+
+		ShockExplosion: {
+			DisplayName: Shock Explosion
+		}
+
+		ShockBolt: {
+			DisplayName: Shock Bolt
+		}
+
+		ShinobiBladeProjectile: {
+			DisplayName: Shinobi Blade
+		}
+
+		ShatteredDawnScorchedBlade: {
+			DisplayName: Scorched Blade
+		}
+
+		ShatteredDawnKnife: {
+			DisplayName: Shattered Dawn
+		}
+
+		ShatteredExplosion: {
+			DisplayName: Shattered Dawn Blast
+		}
+
+		ShadySalesmanGunshot: {
+			DisplayName: Elephant-Killing Round
+		}
+
+		SeraphimProjectile: {
+			DisplayName: Seraphim
+		}
+
+		SeraphimDagger: {
+			DisplayName: Seraphim
+		}
+
+		SeraphimBeamLarge: {
+			DisplayName: Holy Beam
+		}
+
+		SeraphimAngelicLight2: {
+			DisplayName: Light Orb
+		}
+
+		SeraphimAngelicLight: {
+			DisplayName: Light Orb
+		}
+
+		SealedSingularityProjectile: {
+			DisplayName: Sealed Singularity
+		}
+
+		SealedSingularityHoldout: {
+			DisplayName: Sealed Singularity
+		}
+
+		SealedSingularityGore: {
+			DisplayName: Sealed Singularity Fragment
+		}
+
+		SealedSingularityRock: {
+			DisplayName: Sealed Singularity Rock
+		}
+
+		SeafoamBubble: {
+			DisplayName: Seafoam Bubble
+		}
+
+		SeafoamBombProj: {
+			DisplayName: Seafoam Bomb
+		}
+
+		ScourgeVenomCloud: {
+			DisplayName: Venom Cloud
+		}
+
+		ScourgeoftheSeasProjectile: {
+			DisplayName: Moist Scourge
+		}
+
+		ScourgeoftheDesertProj: {
+			DisplayName: Scourge of the Desert
+		}
+
+		ScarletDevilProjectile: {
+			DisplayName: Spear the Gungnir
+		}
+
+		ScarletDevilBullet: {
+			DisplayName: Gungnir Bullet
+		}
+
+		ScarletBlast: {
+			DisplayName: Scarlet Blast
+		}
+
+		SandDollarStealth: {
+			DisplayName: Sand Dollar Duststorm
+		}
+
+		SandDollarProj: {
+			DisplayName: Sand Dollar
+		}
+
+		SandDollarFrag: {
+			DisplayName: Sand Dollar Frag
+		}
+
+		SamsaraSlicerSmallDisk: {
+			DisplayName: Samsara Slicer Split
+		}
+
+		SamsaraSlicerProjectile: {
+			DisplayName: Samsara Slicer
+		}
+
+		SacrificeProjectile: {
+			DisplayName: Sacrificial Dagger
+		}
+
+		RotBallProjectile: {
+			DisplayName: Rot Ball
+		}
+
+		RegulusRiotProj: {
+			DisplayName: Regulus Riot
+		}
+
+		RegulusEnergy: {
+			DisplayName: Regulus Energy
+		}
+
+		RefractionSlash: {
+			DisplayName: Refraction Slash
+		}
+
+		RefractionRotorSlashCreator: {
+			DisplayName: Refraction Rotor Slash Creator
+		}
+
+		RefractionRotorProjectile: {
+			DisplayName: Prism Shuriken
+		}
+
+		ReboundingRainbowSplit: {
+			DisplayName: Rebounding Rainbow
+		}
+
+		ReboundingRainbowProj: {
+			DisplayName: Rebounding Rainbow
+		}
+
+		ReaperProjectile: {
+			DisplayName: The Old Reaper
+		}
+
+		RealityRuptureStealth: {
+			DisplayName: Ruptured Reality
+		}
+
+		RealityRuptureMini: {
+			DisplayName: Reality Shard
+		}
+
+		RealityRuptureLance: {
+			DisplayName: Lance of Reality
+		}
+
+		RadiationRain: {
+			DisplayName: Radiation Rain
+		}
+
+		RadiationBurst: {
+			DisplayName: Radiation Burst
+		}
+
+		RadiantStarKnife: {
+			DisplayName: Radiant Star
+		}
+
+		RadiantStar2: {
+			DisplayName: Radiant Star
+		}
+
+		RadiantExplosion: {
+			DisplayName: Radiant Explosion
+		}
+
+		PumpkaboomBoomBig: {
+			DisplayName: Pump-KABOOM!!
+		}
+
+		PumpkaboomBig: {
+			DisplayName: Big Pumpkaboom
+		}
+
+		PumpkaboomBoomSmall: {
+			DisplayName: Pump-kaboom!
+		}
+
+		PumpkaboomSmall: {
+			DisplayName: Small Pumpkaboom
+		}
+
+		ProfanedPartisanFlare: {
+			DisplayName: Holy Light
+		}
+
+		ProfanedPartisanSpear: {
+			DisplayName: Holy Spear
+		}
+
+		ProfanedPartisanProj: {
+			DisplayName: Profaned Partisan
+		}
+
+		PrismShurikenBlade: {
+			DisplayName: Refraction Blade
+		}
+
+		PrismRocket: {
+			DisplayName: Prism Rocket
+		}
+
+		PrismallineProj: {
+			DisplayName: Prismalline
+		}
+
+		Prismalline3: {
+			DisplayName: Prismalline
+		}
+
+		Prismalline2: {
+			DisplayName: Prismalline
+		}
+
+		PlaguenadeProj: {
+			DisplayName: Plaguenade
+		}
+
+		PlaguenadeBee: {
+			DisplayName: Plague Bee
+		}
+
+		PlaguedFuelPackCloud: {
+			DisplayName: Plagued Cloud
+		}
+
+		PhantasmalSoulBlue: {
+			DisplayName: Blue Spirit
+		}
+
+		PhantasmalSoul: {
+			DisplayName: Phantasmal Soul
+		}
+
+		PhantasmalRuinProj: {
+			DisplayName: Phantasmal Ruin
+		}
+
+		PenumbraSoul: {
+			DisplayName: Penumbra Soul
+		}
+
+		PenumbraBomb: {
+			DisplayName: Penumbra Bomb
+		}
+
+		PartisanExplosion: {
+			DisplayName: Profaned Explosion
+		}
+
+		PalladiumJavelinProjectile: {
+			DisplayName: Palladium Javelin
+		}
+
+		PaleoShatterExplosion: {
+			DisplayName: Paleo Shatter Explosion
+		}
+
+		OrichalcumSpikedGemstoneProjectile: {
+			DisplayName: Orichalcum Gemstone
+		}
+
+		NastyChollaNeedle: {
+			DisplayName: Cactus Needle
+		}
+
+		NastyChollaBol: {
+			DisplayName: Nasty Cholla
+		}
+
+		NanoblackTesselation: {
+			DisplayName: Nanoblack Tesselation
+		}
+
+		NanoblackStrike: {
+			DisplayName: Zero-Point Energy Strike
+		}
+
+		NanoblackPiercingStrike: {
+			DisplayName: Zero-Point Energy Strike
+		}
+
+		NanoblackMain: {
+			DisplayName: Nanoblack Reaper
+		}
+
+		NanoblackLightspeedCarveSlashVisual: {
+			DisplayName: Nanoblack Light-speed Carve Visuals
+		}
+
+		NanoblackLightspeedCarve: {
+			Standard: Light-speed Carve
+			Perfect: Wrath of the Superluminae
+		}
+
+		MythrilKnifeProjectile: {
+			DisplayName: Mythril Knife
+		}
+
+		MycorootProj: {
+			DisplayName: Mycoroot
+		}
+
+		MoltenAmputatorProj: {
+			DisplayName: Molten Amputator
+		}
+
+		MeteorFistMeteorite: {
+			DisplayName: Meteorite REALLY Gud For A Lot Of Shtuff
+		}
+
+		MeteorFistProj: {
+			DisplayName: Meteor Fist Gud For A Lot Of Shtuff
+		}
+
+		MetalShard: {
+			DisplayName: Metal Shard
+		}
+
+		MetalChunk: {
+			DisplayName: Metal Chunk
+		}
+
+		MangroveChakramProjectile: {
+			DisplayName: Mangrove Chakram
+		}
+
+		MangroveChakramFlower: {
+			DisplayName: Mangrove Flower
+		}
+
+		MalachiteStealth: {
+			DisplayName: Malachite
+		}
+
+		MalachiteProj: {
+			DisplayName: Malachite
+		}
+
+		MalachiteBolt: {
+			DisplayName: Malachite
+		}
+
+		LyraConstellation: {
+			DisplayName: Lyra Constellation
+		}
+
+		LuxorsGiftRogue: {
+			DisplayName: Luxor's Rogue
+		}
+
+		LunarKunaiProj: {
+			DisplayName: Lunar Kunai
+		}
+
+		LuminousShard: {
+			DisplayName: Stardust Shard
+		}
+
+		LostSoulFriendly: {
+			DisplayName: Lost Soul
+		}
+
+		LionfishProj: {
+			DisplayName: Lionfish
+		}
+
+		LeviathanToothStealth: {
+			DisplayName: Leviathan Jaw
+		}
+
+		LeviathanTooth: {
+			DisplayName: Leviathan Tooth
+		}
+
+		LeonidStar: {
+			DisplayName: Leonid Star
+		}
+
+		LeonidProgenitorBombshell: {
+			DisplayName: Leonid Bombshell
+		}
+
+		LeonidCometSmall: {
+			DisplayName: Leonid Comet
+		}
+
+		LeonidCometBig: {
+			DisplayName: Leonid Comet
+		}
+
+		LemonNadeProjectile: {
+			DisplayName: Lemon 'nade
+		}
+
+		LemonNadeHoldout: {
+			DisplayName: Lemon 'nade
+		}
+
+		LeadTomahawkProj: {
+			DisplayName: Lead Tomahawk
+		}
+
+		LanceofDestiny: {
+			DisplayName: Holy Lance
+		}
+
+		KylieBoomerang: {
+			DisplayName: Kylie
+		}
+
+		Knife: {
+			DisplayName: Knife
+		}
+
+		KelvinCatalystBoomerang: {
+			DisplayName: Kelvin Catalyst
+		}
+
+		JawsShockwave: {
+			DisplayName: Reaper Tooth Shockwave
+		}
+
+		JawsProjectile: {
+			DisplayName: Reaper Tooth
+		}
+
+		IronFranciscaProj: {
+			DisplayName: Iron Francisca
+		}
+
+		InkCloud: {
+			DisplayName: Ink Cloud
+		}
+
+		InkBombProjectile: {
+			DisplayName: Ink Bomb
+		}
+
+		InfestedClawmerangProj: {
+			DisplayName: Shroomerang
+		}
+
+		InfernalKrisProjectile: {
+			DisplayName: Infernal Kris
+		}
+
+		InfernalKrisExplosion: {
+			DisplayName: Infernal Explosion
+		}
+
+		InfernalKrisCinder: {
+			DisplayName: Infernal Cinder
+		}
+
+		IchorSpearProj: {
+			DisplayName: Ichor Spear
+		}
+
+		IceStarProjectile: {
+			DisplayName: Ice Star
+		}
+
+		IcebreakerHammer: {
+			DisplayName: Icebreaker
+		}
+
+		HypothermiaShard: {
+			DisplayName: Ice Shard
+		}
+
+		HypothermiaChunk: {
+			DisplayName: Ice Chunk
+		}
+
+		HoneycombFragment: {
+			DisplayName: Honeycomb Fragment
+		}
+
+		Honeycomb: {
+			DisplayName: Honeycomb
+		}
+
+		HeavenfallenStardiskBoomerang: {
+			DisplayName: Heavenfallen Stardisk
+		}
+
+		HeavenfallenEnergy: {
+			DisplayName: Heavenfallen Energy
+		}
+
+		GrimreaverSkull: {
+			DisplayName: Grim Skull
+		}
+
+		GrimreaverBat: {
+			DisplayName: Grim Bat
+		}
+
+		GraveGrimreaverProjectile: {
+			DisplayName: Grave Grimreaver
+		}
+
+		GodsParanoiaProj: {
+			DisplayName: God's Paranoia
+		}
+
+		GodsParanoiaDart: {
+			DisplayName: God's Paranoia Dart
+		}
+
+		GleamingDaggerProj: {
+			DisplayName: Gleaming Dagger
+		}
+
+		GlaiveProj: {
+			DisplayName: Glaive
+		}
+
+		GlaiveOrbital: {
+			DisplayName: Orbital Glaive
+		}
+
+		GildedDaggerProj: {
+			DisplayName: Gilded Dagger
+		}
+
+		GhoulishGougerBoomerang: {
+			DisplayName: Ghoulish Gouger
+		}
+
+		GelDartProjectile: {
+			DisplayName: Gel Dart
+		}
+
+		GacruxianProj: {
+			DisplayName: Gacruxian Mollusk
+		}
+
+		GacruxianHome: {
+			DisplayName: Gacruxian Mollusk
+		}
+
+		FrostyFlareStealth: {
+			DisplayName: Frosty Flare
+		}
+
+		FrostyFlareProj: {
+			DisplayName: Frosty Flare
+		}
+
+		FrostShardFriendly: {
+			DisplayName: Frost Shard
+		}
+
+		FossilShardThrown: {
+			DisplayName: Fossil Shard
+		}
+
+		Fork: {
+			DisplayName: Fork
+		}
+
+		FishboneBoomerangProjectile: {
+			DisplayName: Fishbone Boomerang
+		}
+
+		FinalDawnThrow2: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnThrow: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnReticle: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnProjectile: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnHorizontalSlash: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnFlame: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnFireSlash: {
+			DisplayName: The Final Dawn
+		}
+
+		FinalDawnFireball: {
+			DisplayName: The Final Dawn
+		}
+
+		FeatherKnifeProjectile: {
+			DisplayName: Feather Knife
+		}
+
+		FantasyTalismanStealth: {
+			DisplayName: Talisman
+		}
+
+		FantasyTalismanProj: {
+			DisplayName: Talisman
+		}
+
+		ExorcismShockwave: {
+			DisplayName: Exorcism Shockwave
+		}
+
+		ExorcismProj: {
+			DisplayName: Exorcism
+		}
+
+		ExecutionersBladeStealthProj: {
+			DisplayName: Executioner's Blade
+		}
+
+		ExecutionersBladeProj: {
+			DisplayName: Executioner's Blade
+		}
+
+		DimensionTearingDiskProjectile: {
+			DisplayName: Dimension-Tearing Disk
+		}
+
+		EquanimityProj: {
+			DisplayName: Equanimity
+		}
+
+		EquanimityLightShard: {
+			DisplayName: Light Shard
+		}
+
+		EquanimityDarkShard: {
+			DisplayName: Dark Shard
+		}
+
+		EpidemicShredderProjectile: {
+			DisplayName: Epidemic Shredder
+		}
+
+		EnchantedAxeProj: {
+			DisplayName: Enchanted Axe
+		}
+
+		ElephantKillerThrown: {
+			DisplayName: Elephant Killer
+		}
+
+		ElephantKillerElephant: {
+			DisplayName: Spectral Elephant
+		}
+
+		EnchantedAxe2: {
+			DisplayName: Enchanted Axe
+		}
+
+		EGloveSpark: {
+			DisplayName: Electrician's Spark
+		}
+
+		EclipsesFall_StealthSpearExplosion: {
+			DisplayName: Third Contact
+		}
+
+		EclipsesFall_StealthSpear: {
+			DisplayName: Spear of Obscuration
+		}
+
+		EclipsesFall_LightSpark: {
+			DisplayName: Spark of Primodial Light
+		}
+
+		EclipsesFall_LightExplosion: {
+			DisplayName: Baily's Beads
+		}
+
+		EclipsesFall_LightFragment: {
+			DisplayName: Fragment of Primordial Light
+		}
+
+		EclipsesFall_Javelin: {
+			DisplayName: Eclipse's Fall
+		}
+
+		EclipseMirrorBurst: {
+			DisplayName: Eclipse Mirror Flash
+		}
+
+		DynamicPursuerProjectile: {
+			DisplayName: Dynamic Pursuer
+		}
+
+		DynamicPursuerLaser: {
+			DisplayName: Dynamic Laser
+		}
+
+		DynamicPursuerElectricity: {
+			DisplayName: Dynamic Electricity
+		}
+
+		DuststormInABottleHoldout: {
+			DisplayName: Duststorm Bottle
+		}
+
+		DuststormCloudExplosion: {
+			DisplayName: Dust Explosion
+		}
+
+		DuststormInABottleProj: {
+			DisplayName: Duststorm Bottle
+		}
+
+		DuststormCloud: {
+			DisplayName: Dust Storm
+		}
+
+		DukesDecapitatorProj: {
+			DisplayName: Duke's Decapitator
+		}
+
+		DukesDecapitatorBubble: {
+			DisplayName: Duke Bubble
+		}
+
+		DragonShit: {
+			DisplayName: Fire
+		}
+
+		DragonScalesInfernado: {
+			DisplayName: Infernado
+		}
+
+		DestructionStar: {
+			DisplayName: Star of Destruction
+		}
+
+		DestructionExplosion: {
+			DisplayName: Destruction Explosion
+		}
+
+		DestructionBolt: {
+			DisplayName: Destruction Bolt
+		}
+
+		DesecratedWaterProj: {
+			DisplayName: Desecrated Water
+		}
+
+		DesecratedBubble: {
+			DisplayName: Desecrated Bubble
+		}
+
+		DeepWounderWater: {
+			DisplayName: Water Droplet
+		}
+
+		DeepWounderProjectile: {
+			DisplayName: Deep Wounder Projectile
+		}
+
+		DeepSeaDumbbellWeight: {
+			DisplayName: Deep Sea Dumbbell
+		}
+
+		DeepSeaDumbbell3: {
+			DisplayName: Deep Sea Dumbbell
+		}
+
+		DeepSeaDumbbell2: {
+			DisplayName: Deep Sea Dumbbell
+		}
+
+		DeepSeaDumbbell1: {
+			DisplayName: Deep Sea Dumbbell
+		}
+
+		CursedDaggerProj: {
+			DisplayName: Cursed Dagger
+		}
+
+		CursedDaggerBlastHitbox: {
+			DisplayName: Cursed Vortex
+		}
+
+		CrystalPiercerShard: {
+			DisplayName: Crystal Shard
+		}
+
+		CrystalPiercerProjectile: {
+			DisplayName: Crystal Piercer
+		}
+
+		CrystallineProj: {
+			DisplayName: Crystalline
+		}
+
+		Crystalline2: {
+			DisplayName: Crystalline
+		}
+
+		Crushax: {
+			DisplayName: Crushax
+		}
+
+		CraniumSmasherStealth: {
+			DisplayName: Stealthy Cranium Smasher
+		}
+
+		CraniumSmasherProj: {
+			DisplayName: Cranium Smasher
+		}
+
+		CraniumSmasherExplosive: {
+			DisplayName: Explosive Cranium Smasher
+		}
+
+		CraniumSMASH: {
+			DisplayName: Cranium SMASH
+		}
+
+		CosmicScythe: {
+			DisplayName: Cosmic Scythe
+		}
+
+		CosmicKunaiProj: {
+			DisplayName: Cosmic Kunai
+		}
+
+		Corrocloud3: {
+			DisplayName: Corrocloud
+		}
+
+		Corrocloud2: {
+			DisplayName: Corrocloud
+		}
+
+		Corrocloud1: {
+			DisplayName: Corrocloud
+		}
+
+		CorpusAvertorStealth: {
+			DisplayName: Corpus Avertor
+		}
+
+		CorpusAvertorProj: {
+			DisplayName: Corpus Avertor
+		}
+
+		CorpusAvertorClone: {
+			DisplayName: Corpus Avertor Clone
+		}
+
+		ContaminatedBileFlask: {
+			DisplayName: Contaminated Bile
+		}
+
+		ConsecratedWaterProjectile: {
+			DisplayName: Consecrated Water
+		}
+
+		CobaltKunaiProjectile: {
+			DisplayName: Cobalt Kunai
+		}
+
+		CobaltEnergy: {
+			DisplayName: Cobalt Energy
+		}
+
+		CircletTornado: {
+			DisplayName: Tornado
+		}
+
+		CinquedeaProj: {
+			DisplayName: Cinquedea
+		}
+
+		CelestusProj: {
+			DisplayName: Celestus
+		}
+
+		CelestusMiniScythe: {
+			DisplayName: Celestus
+		}
+
+		CelestialReaperProjectile: {
+			DisplayName: Celestial Reaper
+		}
+
+		CelestialReaperAfterimage: {
+			DisplayName: Celestial Reaper
+		}
+
+		CarvingFork: {
+			DisplayName: Carving Fork
+		}
+
+		ButcherKnife: {
+			DisplayName: Butcher Knife
+		}
+
+		BurningTentacle: {
+			DisplayName: Strife Tentacle
+		}
+
+		BurningStrifeProj: {
+			DisplayName: Shadow Flame Spiky Ball
+		}
+
+		BurningStrifeExplosion: {
+			DisplayName: Shadow Flame Explosion
+		}
+
+		BrimbladeProj: {
+			DisplayName: Brimblade
+		}
+
+		Brimblade2: {
+			DisplayName: Brimblade
+		}
+
+		BrickFragment: {
+			DisplayName: Brick Fragment
+		}
+
+		Brick: {
+			DisplayName: Brick
+		}
+
+		BouncingEyeballProjectileStealthStrike: {
+			DisplayName: Bouncy Eyeball
+		}
+
+		BouncingEyeballProjectile: {
+			DisplayName: Bouncy Eyeball
+		}
+
+		BlunderBoosterLightning: {
+			DisplayName: Blunder Bolt
+		}
+
+		BlueFlamePillar: {
+			DisplayName: Flame Pillar
+		}
+
+		BloodsoakedCrashax: {
+			DisplayName: Bloodsoaked Crasher
+		}
+
+		BlazingStarProj: {
+			DisplayName: Blazing Star
+		}
+
+		BlazingStarOrbital: {
+			DisplayName: Orbital Blazing Star
+		}
+
+		BlastBarrelProjectile: {
+			DisplayName: Blast Barrel
+		}
+
+		BileExplosion: {
+			DisplayName: Bile
+		}
+
+		BarrelShrapnel: {
+			DisplayName: Barrel Shrapnel
+		}
+
+		BallisticPoisonCloud: {
+			DisplayName: Ballistic Cloud
+		}
+
+		BallisticPoisonBombSpike: {
+			DisplayName: Poison Spike
+		}
+
+		BallisticPoisonBombProj: {
+			DisplayName: Poison Bomb
+		}
+
+		AuroradicalStar: {
+			DisplayName: Auroradical Star
+		}
+
+		AuroradicalSplitter: {
+			DisplayName: Auroradical Star
+		}
+
+		AshenStalagmiteProj: {
+			DisplayName: Ashen Stalagmite
+		}
+
+		AshenStalactiteProj: {
+			DisplayName: Ashen Stalactite
+		}
+
+		AshenStalactiteDebris: {
+			DisplayName: Ashen Debris
+		}
+
+		ApoctolithShard: {
+			DisplayName: Apoctolith Shard
+		}
+
+		ApoctolithProj: {
+			DisplayName: Apoctolith
+		}
+
+		ApoctolithExplosion: {
+			DisplayName: Apoctolith Boom
+		}
+
+		AntumbraShardProjectile: {
+			DisplayName: Antumbra Shard
+		}
+
+		AntlionSkewerSandCloud: {
+			DisplayName: Dense Sand Cloud
+		}
+
+		AntlionSkewerSandBlast: {
+			DisplayName: Antlion Blast
+		}
+
+		AntlionSkewerProj: {
+			DisplayName: Antlion on a Stick
+		}
+
+		AdamantiteThrowingAxeProjectile: {
+			DisplayName: Adamantite Throwing Axe
+		}
+
+		AbyssalMirrorProjectile: {
+			DisplayName: Lumenyl Fluid
+		}
+	}
+
+	Ranged: {
+		WulfrumScrapBullet: {
+			DisplayName: High Speed Scrap
+		}
+
+		WildfireBloomFlare: {
+			DisplayName: Wildfire Flare
+		}
+
+		WildfireBloomFire: {
+			DisplayName: Wildfire Fire
+		}
+
+		WaterSpout: {
+			DisplayName: Spout
+		}
+
+		VoidBlast: {
+			DisplayName: Void Blast
+		}
+
+		VernalBolt: {
+			DisplayName: Vernal Bolt
+		}
+
+		VeriumBoltProj: {
+			DisplayName: Verium Bolt
+		}
+
+		VanquisherArrowProj: {
+			DisplayName: Vanquisher Arrow Proj
+		}
+
+		VanquisherArrowMain: {
+			DisplayName: Vanquisher Arrow
+		}
+
+		UniversalGenesisStarcaller: {
+			DisplayName: Starcaller Shot
+		}
+
+		UniversalGenesisStar: {
+			DisplayName: Genesis Star
+		}
+
+		UltimaSpark: {
+			DisplayName: Ultima Spark
+		}
+
+		UltimaRay: {
+			DisplayName: Ultima Ray
+		}
+
+		UltimaBolt: {
+			DisplayName: Ultima Bolt
+		}
+
+		TyphoonBubble: {
+			DisplayName: Typhoon
+		}
+
+		TyphoonArrow: {
+			DisplayName: Typhoon Arrow
+		}
+
+		ToxicArrow: {
+			DisplayName: Toxic Arrow
+		}
+
+		TorrentialArrow: {
+			DisplayName: Torrential Arrow
+		}
+
+		TitaniumRailgunShot: {
+			DisplayName: Titanium Decimator
+		}
+
+		TitaniumRailgunScope: {
+			DisplayName: Titanium Scope
+		}
+
+		TheStormLightningShot: {
+			DisplayName: Storm Bolt
+		}
+
+		ThePackMissile: {
+			DisplayName: Pack Missile
+		}
+
+		ThePackMinissile: {
+			DisplayName: Pack Minissile
+		}
+
+		TheMaelstromShark: {
+			DisplayName: Reaper Shark
+		}
+
+		TheMaelstromExplosion: {
+			DisplayName: Reaper Explosion
+		}
+
+		TelluricGlareArrow: {
+			DisplayName: Radiant Arrow
+		}
+
+		TauCannonPortal: {
+			DisplayName: Tau Cannon Portal
+		}
+
+		TauCannonBolt: {
+			DisplayName: Tau Cannon Bolt
+		}
+
+		TauCannonBeam: {
+			DisplayName: Tau Cannon Beam
+		}
+
+		SuperradiantSawLingering: {
+			DisplayName: Ultraradiant Saw
+		}
+
+		SuperradiantSaw: {
+			DisplayName: Superradiant Saw
+		}
+
+		SuperradiantBolt: {
+			DisplayName: Superradiant Bolt
+		}
+
+		SulphuricDrop: {
+			DisplayName: Sulphuric Drop
+		}
+
+		SulphuricBlast: {
+			DisplayName: Sulphuric Blast
+		}
+
+		SulphuricAcidCannonExplosion: {
+			DisplayName: Sulphuric Acid Cannon Explosion
+		}
+
+		StormSurgeTornado: {
+			DisplayName: Surge
+		}
+
+		StarmageddonStar2: {
+			DisplayName: Starmageddon Star
+		}
+
+		StarmageddonStar: {
+			DisplayName: Starmageddon Star
+		}
+
+		StarmageddonBinaryStarCenter: {
+			DisplayName: Starmageddon Binary Star Center
+		}
+
+		StarmadaStar: {
+			DisplayName: Starmada Star
+		}
+
+		StarmadaHitProj: {
+			DisplayName: Starmada
+		}
+
+		StarfleetStar: {
+			DisplayName: Starfleet Star
+		}
+
+		SpykerProj: {
+			DisplayName: Spyker
+		}
+
+		SputterCometBig: {
+			DisplayName: Sputter Comet
+		}
+
+		SputterComet: {
+			DisplayName: Sputter Comet
+		}
+
+		SproutingArrowSplit: {
+			DisplayName: Sprouting Arrow
+		}
+
+		SproutingArrowMain: {
+			DisplayName: Sprouting Arrow
+		}
+
+		SporeBomb: {
+			DisplayName: Spore Bomb
+		}
+
+		SpeedBlasterShot: {
+			DisplayName: Splatter Shot
+		}
+
+		SpectralFlare: {
+			DisplayName: Spectral Flare
+		}
+
+		SparkSpreaderFire: {
+			DisplayName: Sparked Flames
+		}
+
+		SlimeBolt: {
+			DisplayName: Slime Bolt
+		}
+
+		Slagfire: {
+			DisplayName: Slagfire
+		}
+
+		SlagRound: {
+			DisplayName: Slag Round
+		}
+
+		SicknessRound2: {
+			DisplayName: Round
+		}
+
+		SicknessRound: {
+			DisplayName: Round
+		}
+
+		Sickness: {
+			DisplayName: Sickness
+		}
+
+		Shroom: {
+			DisplayName: Shroom
+		}
+
+		ShortCircuitShot: {
+			DisplayName: Short Circuit Shot
+		}
+
+		ShortCircuitExplosion: {
+			DisplayName: Short Circuit
+		}
+
+		ShockblastRound: {
+			DisplayName: Round
+		}
+
+		Shockblast: {
+			DisplayName: Blast
+		}
+
+		Shell: {
+			DisplayName: Shell
+		}
+
+		ShadeFire: {
+			DisplayName: Shady Fire
+		}
+
+		SevensStrikerPlatinumCoin: {
+			DisplayName: Platinum Coin
+		}
+
+		SevensStrikerOrange: {
+			DisplayName: Orange
+		}
+
+		SevensStrikerGrape: {
+			DisplayName: Grapes
+		}
+
+		SevensStrikerCherrySplit: {
+			DisplayName: Cherry
+		}
+
+		SevensStrikerCherry: {
+			DisplayName: Cherry
+		}
+
+		SevensStrikerBrick: {
+			DisplayName: Brick
+		}
+
+		SepticSkewerHarpoon: {
+			DisplayName: Septic Skewer
+		}
+
+		SepticSkewerBacteria: {
+			DisplayName: Septic Gore
+		}
+
+		SeasSearingSpout: {
+			DisplayName: Spout
+		}
+
+		SeasSearingSecondary: {
+			DisplayName: Hydroshower
+		}
+
+		SeasSearingBubble: {
+			DisplayName: Searing Bubble
+		}
+
+		SeaDragonRocket: {
+			DisplayName: Seadragon RPG
+		}
+
+		ScorpioLargeRocket: {
+			DisplayName: Nano Nuke
+		}
+
+		ScorpioRocket: {
+			DisplayName: Nano Missile
+		}
+
+		ScorchedEarthRocket: {
+			DisplayName: Rocket
+		}
+
+		ScorchedEarthClusterBomb: {
+			DisplayName: Cluster Bomb
+		}
+
+		SandblasterBullet: {
+			DisplayName: Sandstorm
+		}
+
+		RubicoPrimeMag: {
+			DisplayName: Rubico Prime Mag
+		}
+
+		RubberMortarRoundProj: {
+			DisplayName: Rubber Mortar
+		}
+
+		RocketFire: {
+			DisplayName: Fire
+		}
+
+		RicoshotCoin: {
+			DisplayName: Ricoshot Coin
+		}
+
+		RealmRavagerBullet: {
+			DisplayName: Explosive Bullet
+		}
+
+		RainbowTrail: {
+			DisplayName: Rainbow
+		}
+
+		RainbowFront: {
+			DisplayName: Rainbow
+		}
+
+		P90Round: {
+			DisplayName: Armor-piercing Round
+		}
+
+		PumplerGrenade: {
+			DisplayName: Squash Shell
+		}
+
+		PristineSecondary: {
+			DisplayName: Pristine Lingering Fire
+		}
+
+		PristineFire: {
+			DisplayName: Pristine Fire
+		}
+
+		PrismMine: {
+			DisplayName: Mine
+		}
+
+		PrismExplosionSmall: {
+			DisplayName: Explosion
+		}
+
+		PrismExplosionLarge: {
+			DisplayName: Explosion
+		}
+
+		PrismEnergyBullet: {
+			DisplayName: Prism Rocket
+		}
+
+		PrismComet: {
+			DisplayName: Comet
+		}
+
+		PrismaticEnergyBlast: {
+			DisplayName: Energy Blast
+		}
+
+		PressurizedBubbleStream: {
+			DisplayName: Pressurized Bubble Stream
+		}
+
+		PrecisionBolt: {
+			DisplayName: Precision Bolt
+		}
+
+		PolarStar: {
+			DisplayName: Star Shot
+		}
+
+		PlasmaExplosion: {
+			DisplayName: Plasma Explosion
+		}
+
+		PlanetaryAnnihilationProj: {
+			DisplayName: Planetary Ball
+		}
+
+		PlanarRipperExplosion: {
+			DisplayName: Planar Explosion
+		}
+
+		PlanarRipperBolt: {
+			DisplayName: Planar Bolt
+		}
+
+		PlagueTaintedDrone: {
+			DisplayName: Plague Tainted Drone
+		}
+
+		PlagueTaintedProjectile: {
+			DisplayName: Plague Tainted Projectile
+		}
+
+		PlagueExplosionFriendly: {
+			DisplayName: Explosion
+		}
+
+		PlagueArrow: {
+			DisplayName: Plague Arrow
+		}
+
+		PiercingBullet: {
+			DisplayName: Piercing Blow
+		}
+
+		OpalStrike: {
+			DisplayName: Heated Bolt
+		}
+
+		OpalChargedStrike: {
+			DisplayName: Charged Plasma Bolt
+		}
+
+		OntologicalDespoilerShot: {
+			DisplayName: Unreality Condensate
+		}
+
+		OntologicalDespoilerGrenade: {
+			DisplayName: Disruption Sphere
+		}
+
+		OntoligicalDespoilerBurst: {
+			DisplayName: Disruption Blast
+		}
+
+		OntologicalDespoilerBeam: {
+			DisplayName: Null-Annihilation Beam
+		}
+
+		OmniShotgunShot: {
+			DisplayName: Omni Shotgun Shot
+		}
+
+		OmniGrenade: {
+			DisplayName: Omni Grenade
+		}
+
+		OmniSniperShot: {
+			DisplayName: Omni Sniper Shot
+		}
+
+		NullShot: {
+			DisplayName: Null
+		}
+
+		NullFlash: {
+			DisplayName: Null Flash
+		}
+
+		NukeOfBliss: {
+			DisplayName: Profaned Nuke
+		}
+
+		NovaShot: {
+			DisplayName: Nova Bolt
+		}
+
+		NovaChargedShot: {
+			DisplayName: Charged Nova Blast
+		}
+
+		NorfleetExplosion: {
+			DisplayName: Explosion
+		}
+
+		NorfleetComet: {
+			DisplayName: Comet
+		}
+
+		NitroShot: {
+			DisplayName: Nitro Shot
+		}
+
+		NeedlerProj: {
+			DisplayName: Needle
+		}
+
+		MortarRoundProj: {
+			DisplayName: Mortar
+		}
+
+		MistArrowFrostMist: {
+			DisplayName: Frost Mist
+		}
+
+		MistArrow: {
+			DisplayName: Mist Arrow
+		}
+
+		MiniSharkron: {
+			DisplayName: Mini Sharkron
+		}
+
+		MiniatureFolly: {
+			DisplayName: Miniature Folly
+		}
+
+		MineralMortarProjectile: {
+			DisplayName: Onyx Bomb
+		}
+
+		MeowFire: {
+			DisplayName: Purr Fire
+		}
+
+		MeowCreature: {
+			DisplayName: the creature :3
+		}
+
+		MegalodonShot: {
+			DisplayName: Megalodon Shot
+		}
+
+		MegalodonRocket: {
+			DisplayName: Megalodon Rocket
+		}
+
+		MechanicalBarracuda: {
+			DisplayName: Barracuda
+		}
+
+		MarksmanShot: {
+			DisplayName: Marksman Shot
+		}
+
+		MagnomalyRocket: {
+			DisplayName: Nuke
+		}
+
+		MagnomalyExplosion: {
+			DisplayName: Explosion
+		}
+
+		MagnomalyBeam: {
+			DisplayName: Beam
+		}
+
+		MagnomalyAura: {
+			DisplayName: Magnomaly Aura
+		}
+
+		MagnaShot: {
+			DisplayName: Magna Bolt
+		}
+
+		M1GarandShot: {
+			DisplayName: .30-06 Round
+		}
+
+		M1GarandEmptyClip: {
+			DisplayName: M1 Garand Empty Clip
+		}
+
+		M1GarandBulletCasing: {
+			DisplayName: M1 Garand Bullet Casing
+		}
+
+		LuxorsGiftRanged: {
+			DisplayName: Luxor's Ranged
+		}
+
+		LunarBolt: {
+			DisplayName: Bolt
+		}
+
+		LeviatitanMeteor: {
+			DisplayName: Leviatitan Meteor
+		}
+
+		LeviatitanExplosion: {
+			DisplayName: Leviatitan Explosion
+		}
+
+		LeviatitanAberration: {
+			DisplayName: Leviatitan Aberration
+		}
+
+		LeafArrow: {
+			DisplayName: Leaf Arrow
+		}
+
+		KarasawaShot: {
+			DisplayName: Karasawa Shot
+		}
+
+		ImpactRound: {
+			DisplayName: Impact Round
+		}
+
+		HallowPointRoundProj: {
+			DisplayName: Hallow-Point Round
+		}
+
+		HailstormBulletProj: {
+			DisplayName: Hailstorm Bullet
+		}
+
+		IcicleArrowProj: {
+			DisplayName: Icicle Arrow
+		}
+
+		HyperiusSplit: {
+			DisplayName: Hyperius Fragment
+		}
+
+		HyperiusBulletProj: {
+			DisplayName: Hyperius Bullet
+		}
+
+		HydrasBlood: {
+			DisplayName: Hydra's Blood
+		}
+
+		HydraHeadLaunch: {
+			DisplayName: Hydra Head
+		}
+
+		HydraHead: {
+			DisplayName: Hydra Head
+		}
+
+		HolyFireBulletProj: {
+			DisplayName: Holy Fire Bullet
+		}
+
+		HiveNuke: {
+			DisplayName: Hive Nuke
+		}
+
+		HiveMissile: {
+			DisplayName: Hive Missile
+		}
+
+		HellbornShell: {
+			DisplayName: Hell's Shell
+		}
+
+		HellbornProj: {
+			DisplayName: Hell-born Gunblast
+		}
+
+		HeavenlyGaleProj: {
+			DisplayName: Heavenly Gale
+		}
+
+		HandheldTankShell: {
+			DisplayName: Tank Shell
+		}
+
+		HalleysStarburst: {
+			DisplayName: Halley's Starburst
+		}
+
+		HalleysComet: {
+			DisplayName: Halley's Comet
+		}
+
+		GodSlayerSlugProj: {
+			DisplayName: God Slayer Slug
+		}
+
+		GemTechGreenFlechette: {
+			DisplayName: Gem Tech Flechette
+		}
+
+		FungiOrb2: {
+			DisplayName: Fungi Orb
+		}
+
+		FungiOrb: {
+			DisplayName: Fungi Orb
+		}
+
+		FreedomStarBeam: {
+			DisplayName: Freedom Star Beam
+		}
+
+		FossilShard: {
+			DisplayName: Shard
+		}
+
+		FlurrystormIceShard: {
+			DisplayName: Ice Shard
+		}
+
+		FlurrystormIceChunk: {
+			DisplayName: Ice Chunk
+		}
+
+		FlashRoundProj: {
+			DisplayName: Flash Round
+		}
+
+		FlashRoundFlash: {
+			DisplayName: Flash
+		}
+
+		Flash: {
+			DisplayName: Flash
+		}
+
+		FlareBat: {
+			DisplayName: Flare Bat
+		}
+
+		FlakToxicannonProjectile: {
+			DisplayName: Flak Toxicannon
+		}
+
+		FlakKrakenProjectile: {
+			DisplayName: Flak Kraken
+		}
+
+		FishronRPG: {
+			DisplayName: RPG
+		}
+
+		FeatherLarge: {
+			DisplayName: Feather
+		}
+
+		FallenStarProj: {
+			DisplayName: Fallen Star
+		}
+
+		ExoSpark: {
+			DisplayName: Exo Spark
+		}
+
+		ExoLightningBolt: {
+			DisplayName: Exo Teratesla Lightningbolt
+		}
+
+		ExoLight: {
+			DisplayName: Exo Light
+		}
+
+		ExoFlareCluster: {
+			DisplayName: Exo Flare Cluster
+		}
+
+		ExoFlare: {
+			DisplayName: Exo Flare
+		}
+
+		ExoFire: {
+			DisplayName: Exo Flames
+		}
+
+		ExoCrystalArrow: {
+			DisplayName: Exo Crystal
+		}
+
+		EssenceFire: {
+			DisplayName: God Slayer Fire
+		}
+
+		EmesisGore: {
+			DisplayName: Rotten Gore
+		}
+
+		ElysianArrowRain: {
+			DisplayName: Elysian Light
+		}
+
+		ElysianArrowProj: {
+			DisplayName: Elysian Arrow
+		}
+
+		DryadsTearMain: {
+			DisplayName: Dryad's Tear
+		}
+
+		DrizzlefishFireSplit: {
+			DisplayName: Drizzlefish Flames
+		}
+
+		DrizzlefishFireball: {
+			DisplayName: Drizzlefish Fireball
+		}
+
+		DrizzlefishFire: {
+			DisplayName: Drizzlefish Flames
+		}
+
+		DrataliornusFlame: {
+			DisplayName: Drataliornus Arrow
+		}
+
+		DrataliornusExoArrow: {
+			DisplayName: Drataliornus Arrow
+		}
+
+		DragonsBreathRound: {
+			DisplayName: Dragon's Breath Round
+		}
+
+		DragonsBreathMag: {
+			DisplayName: Dragons Breath Cartridge
+		}
+
+		DragonsBreathFlames: {
+			DisplayName: Draconic Flames
+		}
+
+		DragonsBreathBurst: {
+			DisplayName: Draconic Burst
+		}
+
+		DeadSunExplosion: {
+			DisplayName: Dead Sun's Explosion
+		}
+
+		DaemonsFlameArrow: {
+			DisplayName: Daemon's Arrow
+		}
+
+		CosmicFire: {
+			DisplayName: Dead Sun's Fire
+		}
+
+		CorrodedShell: {
+			DisplayName: Corroded Shell
+		}
+
+		CorinthPrimeAirburstGrenade: {
+			DisplayName: Corinth Prime Airburst Shot
+		}
+
+		CorinthPrimeAirburst: {
+			DisplayName: Airburst
+		}
+
+		ContagionBall: {
+			DisplayName: Contagion Ball
+		}
+
+		ContagionArrow: {
+			DisplayName: Contagion Arrow
+		}
+
+		CondemnationArrowHoming: {
+			DisplayName: Condemning Echo
+		}
+
+		CondemnationArrow: {
+			DisplayName: Condemning Arrow
+		}
+
+		ClamorRifleProjSplit: {
+			DisplayName: Clamor Bolt
+		}
+
+		ClamorRifleProj: {
+			DisplayName: Clamor Bolt
+		}
+
+		CinderArrowProj: {
+			DisplayName: Cinder Arrow
+		}
+
+		ChromaticFlare: {
+			DisplayName: Chromatic Flare
+		}
+
+		ChromaticFire: {
+			DisplayName: Chromatic Fire
+		}
+
+		ChickenRocket: {
+			DisplayName: Chicken Rocket
+		}
+
+		ChickenExplosion: {
+			DisplayName: Kentucky Fried Explosion
+		}
+
+		ChargedBlastSplit: {
+			DisplayName: Charged Blast Split
+		}
+
+		ChargedBlast: {
+			DisplayName: Blast
+		}
+
+		CardSpade: {
+			DisplayName: Spade
+		}
+
+		CardHeart: {
+			DisplayName: Heart
+		}
+
+		CardDiamond: {
+			DisplayName: Diamond
+		}
+
+		CardClubSplit: {
+			DisplayName: Club
+		}
+
+		CardClub: {
+			DisplayName: Club
+		}
+
+		BuzzkillSaw: {
+			DisplayName: Buzzsaw
+		}
+
+		BubonicRoundProj: {
+			DisplayName: Bubonic Round
+		}
+
+		BrimstoneFireFriendly: {
+			DisplayName: Brimstone Fire
+		}
+
+		BrimstoneBolt: {
+			DisplayName: Brimstone Bolt
+		}
+
+		BouncingShotgunPellet: {
+			DisplayName: Shotgun Pellet
+		}
+
+		BoltArrow: {
+			DisplayName: Bolt Arrow
+		}
+
+		BloodflareSoul: {
+			DisplayName: Blood Soul
+		}
+
+		BloodfireBulletProj: {
+			DisplayName: Bloodfire Bullet
+		}
+
+		BloodfireArrowProj: {
+			DisplayName: Bloodfire Arrow
+		}
+
+		BloodClotFriendly: {
+			DisplayName: Blood Clot
+		}
+
+		BloodBoilerFire: {
+			DisplayName: Blood Fire
+		}
+
+		BlissfulBombardierSplitProjectile: {
+			DisplayName: Profaned Mini-Rocket
+		}
+
+		BlightFlames: {
+			DisplayName: Blight Flames
+		}
+
+		BlahajBlast: {
+			DisplayName: Blahaj Blast
+		}
+
+		BarinadeArrow: {
+			DisplayName: Fin Arrow
+		}
+
+		BallistaShard: {
+			DisplayName: Ballista Shard
+		}
+
+		BallistaGreatArrow: {
+			DisplayName: Ballista Great Arrow
+		}
+
+		AuroraFire: {
+			DisplayName: Aurora Blaze
+		}
+
+		AuricBullet: {
+			DisplayName: Auric Bullet
+		}
+
+		AuralisBullet: {
+			DisplayName: Auralis Bullet
+		}
+
+		AstrealFlame: {
+			DisplayName: Astreal Flame
+		}
+
+		AstrealArrow: {
+			DisplayName: Astreal Arrow
+		}
+
+		AstralSandgun: {
+			DisplayName: Astral Sandgun
+		}
+
+		AstralRound: {
+			DisplayName: Astral Round
+		}
+
+		AstralCannonProjectile: {
+			DisplayName: Astral Crystal
+		}
+
+		ArcherfishShot: {
+			DisplayName: Water Round
+		}
+
+		ArcherfishRing: {
+			DisplayName: Archerfish Ring
+		}
+
+		AquashardSplit: {
+			DisplayName: Aquashard
+		}
+
+		Aquashard: {
+			DisplayName: Aquashard
+		}
+
+		AquaBlastToxic: {
+			DisplayName: Aqua Blast Toxic
+		}
+
+		AquaBlast: {
+			DisplayName: Aqua Blast
+		}
+
+		AnimosityBullet: {
+			DisplayName: Brimstone Round
+		}
+
+		AngelicBeam: {
+			DisplayName: Angelic Beam
+		}
+
+		AMRShot: {
+			DisplayName: AMR
+		}
+
+		AMR2: {
+			DisplayName: AMR
+		}
+
+		AdamAcceleratorBeam: {
+			DisplayName: Adamantite Particle Beam
+		}
+
+		AcidRocket: {
+			DisplayName: Acid Rocket
+		}
+
+		AbyssalFire: {
+			DisplayName: Abyssal Fire
+		}
+	}
+
+	Pets: {
+		BurrowerPet: {
+			DisplayName: Burrower
+		}
+
+		YharonSonPet: {
+			DisplayName: Son of Yharon
+		}
+
+		ToastyBatPet: {
+			DisplayName: Toasty Bat Friend
+		}
+
+		ThirdSage: {
+			DisplayName: Third Sage
+		}
+
+		StarSwallowerPet: {
+			DisplayName: G30RG3 II
+		}
+
+		Sparks: {
+			DisplayName: Sparks
+		}
+
+		SCalPet: {
+			DisplayName: Supreme Calamitas
+		}
+
+		RotomPet: {
+			DisplayName: Rotom
+		}
+
+		RadiatorPet: {
+			DisplayName: Radiator
+		}
+
+		PrimroseKeepsakeDisplay: {
+			DisplayName: Primrose Keepsake Display
+		}
+
+		PlaguebringerBab: {
+			DisplayName: Plaguebringer Bab
+		}
+
+		PineapplePetProj: {
+			DisplayName: Pineapple
+		}
+
+		PerforaMini: {
+			DisplayName: Perforamini
+		}
+
+		OceanSpirit: {
+			DisplayName: Ocean Spirit
+		}
+
+		MiniHiveMind: {
+			DisplayName: Mini Hive Mind
+		}
+
+		LordePet: {
+			DisplayName: Lil'orde
+		}
+
+		LittleLightProj: {
+			DisplayName: Little Light
+		}
+
+		LeviPet: {
+			DisplayName: Levi
+		}
+
+		LadShark: {
+			DisplayName: Lad Shark
+		}
+
+		KendraPet: {
+			DisplayName: Kendra
+		}
+
+		GoldiePet: {
+			DisplayName: Goldie
+		}
+
+		FoxPet: {
+			DisplayName: Fox
+		}
+
+		FrostyBatPet: {
+			DisplayName: Frosty Bat Friend
+		}
+
+		FlakPet: {
+			DisplayName: Flak Hermit
+		}
+
+		EidolonSnail: {
+			DisplayName: Escargidolon Snail
+		}
+
+		DannyDevitoPet: {
+			DisplayName: Danny Devito
+		}
+
+		DaawnlightSpiritOriginMinion: {
+			DisplayName: Daawnlight
+		}
+
+		ChibiiDoggoFly: {
+			DisplayName: Chibii Devourer (Flying)
+		}
+
+		ChibiiDoggo: {
+			DisplayName: Chibii Devourer
+		}
+
+		BrimlingPet: {
+			DisplayName: Brimling
+		}
+
+		BendyPet: {
+			DisplayName: Dreamfog Dragon
+		}
+
+		Beldum: {
+			DisplayName: Beldum
+		}
+
+		Bear: {
+			DisplayName: Bear
+		}
+
+		BabyGhostBell: {
+			DisplayName: Baby Ghost Bell
+		}
+
+		Astrophage: {
+			DisplayName: Astrophage
+		}
+
+		Akato: {
+			DisplayName: Akato
+		}
+	}
+
+	Misc: {
+		GreedTransmutation: {
+			DisplayName: Greed Transmutation
+		}
+
+		WaterShotBuffer: {
+			DisplayName: Water Shot
+		}
+
+		WaterShot: {
+			DisplayName: Water Shot
+		}
+
+		PlagueShotBuffer: {
+			DisplayName: Plague Shot
+		}
+
+		PlagueShot: {
+			DisplayName: Plague Shot
+		}
+
+		PlagueExplosionGas: {
+			DisplayName: Plague Gas
+		}
+
+		OnyxShotBuffer: {
+			DisplayName: Onyx Shot
+		}
+
+		OnyxShot: {
+			DisplayName: Onyx Shot
+		}
+
+		LaserShotBuffer: {
+			DisplayName: Laser Shot
+		}
+
+		LaserShot: {
+			DisplayName: Laser Shot
+		}
+
+		IceShotBuffer: {
+			DisplayName: Ice Shot
+		}
+
+		IceShot: {
+			DisplayName: Ice Shot
+		}
+
+		IceExplosion: {
+			DisplayName: Ice Gas
+		}
+
+		FireShotBuffer: {
+			DisplayName: Fire Shot
+		}
+
+		FireShot: {
+			DisplayName: Fire Shot
+		}
+
+		DraedonLaserBuffer: {
+			DisplayName: Draedon Laser
+		}
+
+		DraedonLaser: {
+			DisplayName: Draedon Laser
+		}
+
+		WaterAlgae: {
+			DisplayName: Water Algae
+		}
+
+		ThermalSteam: {
+			DisplayName: Steam
+		}
+
+		SmokeTelegraph: {
+			DisplayName: Smoke
+		}
+
+		MurkySteam: {
+			DisplayName: Steam
+		}
+
+		Lilyglow: {
+			DisplayName: Lilyglow
+		}
+
+		LavaChunk: {
+			DisplayName: Lava Chunk
+		}
+
+		HotSteam: {
+			DisplayName: Steam
+		}
+
+		GeyserTelegraph: {
+			DisplayName: Geyser
+		}
+
+		BrimstoneGeyser: {
+			DisplayName: Smoke
+		}
+
+		BarrelCactusProjectile: {
+			DisplayName: Barrel Cactus
+		}
+
+		AcidDrop: {
+			DisplayName: Acid
+		}
+
+		WavePounderProjectile: {
+			DisplayName: Wave Pounder
+		}
+
+		WavePounderBoom: {
+			DisplayName: Explosion
+		}
+
+		VulcanSpear: {
+			DisplayName: Vulcan Harpoon
+		}
+
+		VulcanProjectile: {
+			DisplayName: Vulcan Shot
+		}
+
+		VoltageStream: {
+			DisplayName: Voltage Stream
+		}
+
+		TeslaCannonShot: {
+			DisplayName: Tesla Beam
+		}
+
+		SystemBaneProjectile: {
+			DisplayName: System Bane
+		}
+
+		SystemBaneLightning: {
+			DisplayName: Lightning
+		}
+
+		SnakeEyesProjectile: {
+			DisplayName: Inescapable Bolt
+		}
+
+		SnakeEyesSummon: {
+			DisplayName: Snake Eyes
+		}
+
+		ShrimpPlasmaMissile: {
+			DisplayName: Plasma Shrimp Missile
+		}
+
+		ShortCircuitHook: {
+			DisplayName: Short Circuit Hook
+		}
+
+		PulseTurretShot: {
+			DisplayName: Pulse Bolt
+		}
+
+		PulseTurret: {
+			DisplayName: Pulse Turret
+		}
+
+		PulseRifleShot: {
+			DisplayName: Pulse Bolt
+		}
+
+		PulsePistolShot: {
+			DisplayName: Pulse Bolt
+		}
+
+		PulseGrenadeOrb: {
+			DisplayName: Pulse Orb
+		}
+
+		PulseGrenadeProjectile: {
+			DisplayName: Pulse Grenade
+		}
+
+		PulseDragonProjectile: {
+			DisplayName: Pulse Dragon
+		}
+
+		PoleWarperSummon: {
+			DisplayName: Pole Warper
+		}
+
+		PlasmaGrenadeSmallExplosion: {
+			DisplayName: Plasma Explosion
+		}
+
+		PlasmaGrenadeProjectile: {
+			DisplayName: Plasma Grenade
+		}
+
+		PlasmaCasterShot: {
+			DisplayName: Plasma Bolt
+		}
+
+		PhaseslayerBeam: {
+			DisplayName: Light Blade
+		}
+
+		PhalanxSurgeLaser: {
+			DisplayName: Phalanx Laser
+		}
+
+		PhalanxSurgeLance: {
+			DisplayName: Laser Lance
+		}
+
+		NidhoggExplosion: {
+			DisplayName: Magnetic Implosion
+		}
+
+		NidhoggRailgunBlast: {
+			DisplayName: Nidhogg Beam
+		}
+
+		NidhoggRailgunBigShot: {
+			DisplayName: Nidhogg Railgun
+		}
+
+		MountedScannerSummon: {
+			DisplayName: Mounted Scanner
+		}
+
+		MountedScannerLaser: {
+			DisplayName: Deathray
+		}
+
+		MassivePlasmaExplosion: {
+			DisplayName: Plasma Explosion
+		}
+
+		ImmolationSpray: {
+			DisplayName: Immolation Spray
+		}
+
+		ImmolationBurst: {
+			DisplayName: Immolation Burst
+		}
+
+		ImmolationArrow: {
+			DisplayName: Immolation Arrow
+		}
+
+		GaussFlux: {
+			DisplayName: Gauss Flux
+		}
+
+		GaussEnergy: {
+			DisplayName: Gauss Energy
+		}
+
+		CountermeasurePalmBlast: {
+			DisplayName: Palm Blast
+		}
+
+		AugerPull: {
+			DisplayName: Auger Pull
+		}
+
+		AugerSlash: {
+			DisplayName: Auger Slash
+		}
+
+		AugerHoldout: {
+			DisplayName: P-GSS Auger
+		}
+
+		AqueousHunterDroneSummon: {
+			DisplayName: Plasma Shrimp
+		}
+
+		AnomalysNanogunPlasmaBeam: {
+			DisplayName: Plasma Beam
+		}
+
+		AnomalysNanogunMPFBDevastator: {
+			DisplayName: MPFB Devastator
+		}
+
+		AnomalysNanogunMPFBBoom: {
+			DisplayName: MPFB Explosion
+		}
+
+		AnomalysNanogunHoldout: {
+			DisplayName: The Anomaly's Nanogun
+		}
+
+		AerialTrackerProjectile: {
+			DisplayName: Aerial Tracker
+		}
+
+		AerialTrackerLaser: {
+			DisplayName: Laser
+		}
+
+		MarniteRepulsionHitbox: {
+			DisplayName: Repulsion Matrix
+		}
+	}
+
+	Melee: {
+		YinYoLight: {
+			DisplayName: Light Shard
+		}
+
+		YinYoDark: {
+			DisplayName: Dark Shard
+		}
+
+		WulfrumScrewdriverProj: {
+			DisplayName: Wulfrum Screwdriver
+		}
+
+		WulfrumScrew: {
+			DisplayName: Wulfrum Screw
+		}
+
+		Waterfall: {
+			DisplayName: Waterfall Beam
+		}
+
+		VolcanicFireballLarge: {
+			DisplayName: Volcanic Fireball
+		}
+
+		VolcanicFireball: {
+			DisplayName: Volcanic Fireball
+		}
+
+		VoidTentacle: {
+			DisplayName: Void Tentacle
+		}
+
+		VoidEssence: {
+			DisplayName: Void Essence
+		}
+
+		VirulentWave: {
+			DisplayName: Virulent Wave
+		}
+
+		VirulentBeeWave: {
+			DisplayName: Virulent Bee Wave
+		}
+
+		UrchinSpikeFugu: {
+			DisplayName: Urchin Spike
+		}
+
+		UltimusCleaverDust: {
+			DisplayName: Ultimus Flame
+		}
+
+		TyphonsGreedBubble: {
+			DisplayName: Typhon's Greed
+		}
+
+		TumbleweedRolling: {
+			DisplayName: Rolling Tumbleweed
+		}
+
+		TruePurityProjection: {
+			DisplayName: Purity Projection
+		}
+
+		TruePureClarity: {
+			DisplayName: Pure Clarity
+		}
+
+		TrueGrovetendersTouch: {
+			DisplayName: Grovetender's Touch
+		}
+
+		TrueDecaysRetort: {
+			DisplayName: Decay's Retort
+		}
+
+		TrueBitingEmbrace: {
+			DisplayName: Biting Embrace
+		}
+
+		TrueBiomeBladeHoldout: {
+			DisplayName: True Biome Blade
+		}
+
+		TrueArkoftheAncientsSwungBlade: {
+			DisplayName: Ark of the Ancients
+		}
+
+		TrueArkoftheAncientsParryHoldout: {
+			DisplayName: Ark of the Ancients
+		}
+
+		TrueAridGrandeurShot: {
+			DisplayName: Arid Shredder
+		}
+
+		TrueAridGrandeur: {
+			DisplayName: Arid Grandeur
+		}
+
+		TrueAncientBlast: {
+			DisplayName: Ancient Energy Blast
+		}
+
+		TrueAncientBeam: {
+			DisplayName: True Ancient Beam
+		}
+
+		TriactisHammerProj: {
+			DisplayName: Triactis' True Paladinian Mage-Hammer of Might
+		}
+
+		TriactisHammerFlare: {
+			DisplayName: Prismatic Light Flare
+		}
+
+		TriactisHammerExplosion: {
+			DisplayName: The Great Collapse
+		}
+
+		Tornado: {
+			DisplayName: Tornado
+		}
+
+		TinyFlare: {
+			DisplayName: Flare
+		}
+
+		TinyCrystal: {
+			DisplayName: Crystal
+		}
+
+		ThornBase: {
+			DisplayName: Thorn
+		}
+
+		ThanatosBoom: {
+			DisplayName: Thanos Boom
+		}
+
+		TerrorBlast: {
+			DisplayName: Terror Blast
+		}
+
+		TerrorBeam: {
+			DisplayName: Terror Beam
+		}
+
+		TerratomereSwordBeam: {
+			DisplayName: Terra Slash Beam
+		}
+
+		TerratomereSlashCreator: {
+			DisplayName: Anime Sword Effect
+		}
+
+		TerratomereSlash: {
+			DisplayName: Terratomere Slash
+		}
+
+		TerratomereMeleeSlash: {
+			DisplayName: Terratomere Slash
+		}
+
+		TerratomereHoldoutProj: {
+			DisplayName: Terratomere
+		}
+
+		TerratomereExplosion: {
+			DisplayName: Terratomere Explosion
+		}
+
+		TenebreusTidesWaterSword: {
+			DisplayName: Tenebreus Tides Water Sword
+		}
+
+		TenebreusTidesWaterSpear: {
+			DisplayName: Tenebreus Tides Water Spear
+		}
+
+		TenebreusTidesWaterProjectile: {
+			DisplayName: Water Spear
+		}
+
+		TaintedBladeSlasher: {
+			DisplayName: Tainted Blade
+		}
+
+		SwordsplosionRed: {
+			DisplayName: Red Sword
+		}
+
+		SwordsplosionPurple: {
+			DisplayName: Purple Sword
+		}
+
+		SwordsplosionGreen: {
+			DisplayName: Green Sword
+		}
+
+		SwordsplosionBlue: {
+			DisplayName: Blue Sword
+		}
+
+		SwordsmithsPrideMonolith: {
+			DisplayName: Swordsmiths Pride Monolith
+		}
+
+		SwordsmithsPrideAstralEnergy: {
+			DisplayName: Swordsmith's Astral Energy
+		}
+
+		SwordsmithsPrideAstralBomber: {
+			DisplayName: Swordsmith's Astral Bomber
+		}
+
+		SwordsmithsPride: {
+			DisplayName: Swordsmith's Pride
+		}
+
+		SulphurousGrabberBubble2: {
+			DisplayName: Grabber Bubble
+		}
+
+		SulphurousGrabberBubble: {
+			DisplayName: Grabber Bubble
+		}
+
+		StygianShieldThrown: {
+			DisplayName: Shield of Chaos
+		}
+
+		StygianShieldAttack: {
+			DisplayName: Bull Rush
+		}
+
+		StreamGougePortal: {
+			DisplayName: Stream Gouge Portal
+		}
+
+		StormRulerProj: {
+			DisplayName: Storm Ruler
+		}
+
+		StormMark: {
+			DisplayName: Storm Mark
+		}
+
+		StormBeam: {
+			DisplayName: Storm Beam
+		}
+
+		StellarStrikerMeteor: {
+			DisplayName: Stellar Striker Meteor
+		}
+
+		StellarContemptHammer: {
+			DisplayName: Stellar Contempt
+		}
+
+		StellarContemptEcho: {
+			DisplayName: Echoes of Contempt
+		}
+
+		StellarContemptBlast: {
+			DisplayName: Stellar Blast
+		}
+
+		StarofOrder: {
+			DisplayName: Star of Order
+		}
+
+		StarofJudgement: {
+			DisplayName: Star of Judgement
+		}
+
+		StarnightBeam: {
+			DisplayName: Starnight Beam
+		}
+
+		SpineOfThanatosProjectile: {
+			DisplayName: Spine of Thanatos
+		}
+
+		SpatialSpear4: {
+			DisplayName: Elemental Spear
+		}
+
+		SpatialSpear3: {
+			DisplayName: Elemental Spear
+		}
+
+		SpatialSpear2: {
+			DisplayName: Elemental Spear
+		}
+
+		SpatialSpear: {
+			DisplayName: Elemental Spear
+		}
+
+		SoulScytheExplosion: {
+			DisplayName: Soul Explosion
+		}
+
+		SoulScythe: {
+			DisplayName: Soul Scythe
+		}
+
+		SolsticeBeam: {
+			DisplayName: Solstice Beam
+		}
+
+		SolarNeedle: {
+			DisplayName: Solar Needle
+		}
+
+		SeekingScorcherProj: {
+			DisplayName: Scorching Seeker
+		}
+
+		SeashineSwordProj: {
+			DisplayName: Seashine Beam
+		}
+
+		ScourgeoftheCosmosProj: {
+			DisplayName: Cosmic Scourge
+		}
+
+		ScourgeoftheCosmosMini: {
+			DisplayName: Miniature Cosmic Scourge
+		}
+
+		ScorpiusConstellation: {
+			DisplayName: Scorpius Constellation
+		}
+
+		ScorcherExplosion: {
+			DisplayName: Scorching Crystal Blast
+		}
+
+		SanguineFuryWheel: {
+			DisplayName: Sanguine Bladewheel
+		}
+
+		SanguineFuryDash: {
+			DisplayName: Shredding Lunge
+		}
+
+		SanguineFury: {
+			DisplayName: Sanguine Fury
+		}
+
+		SandFire: {
+			DisplayName: Fire
+		}
+
+		SandBlade: {
+			DisplayName: Sand Blade
+		}
+
+		SaharaSlicersBolt: {
+			DisplayName: Dagger Bolt
+		}
+
+		RSSolarFlare: {
+			DisplayName: Flare
+		}
+
+		RoxcaliburProj: {
+			DisplayName: Roxcalibur
+		}
+
+		Rox1: {
+			DisplayName: Rock
+		}
+
+		RespiteblockHoldout: {
+			DisplayName: Respiteblock
+		}
+
+		RespiteblockBlood: {
+			DisplayName: Respiteblock Blood
+		}
+
+		RendingNeedle: {
+			DisplayName: Rending Needle
+		}
+
+		RemsRevengeExplosion: {
+			DisplayName: Blood Explosion
+		}
+
+		RedtideWhirlpool: {
+			DisplayName: Whirlpool
+		}
+
+		Razorwind: {
+			DisplayName: Razorwind
+		}
+
+		RainbowBoom: {
+			DisplayName: Boom
+		}
+
+		PwnagehammerProj: {
+			DisplayName: Pwnagehammer
+		}
+
+		PwnagehammerExplosionSmall: {
+			DisplayName: Pwnage Blast
+		}
+
+		PwnagehammerExplosionBig: {
+			DisplayName: Pwnage Blast
+		}
+
+		PwnagehammerEcho: {
+			DisplayName: Pwnagehammer Echo
+		}
+
+		PurityProjectionSigil: {
+			DisplayName: Purity Sigil
+		}
+
+		PurityProjection: {
+			DisplayName: Purity Projection
+		}
+
+		PureClarity: {
+			DisplayName: Pure Clarity
+		}
+
+		PrismTooth: {
+			DisplayName: Photon Ripper
+		}
+
+		PrismRay: {
+			DisplayName: Prismatic Light
+		}
+
+		PrismaticRay: {
+			DisplayName: Prismatic Master Spark
+		}
+
+		PrismaticMagicCircle: {
+			DisplayName: Magic Circle
+		}
+
+		PrismaticWave: {
+			DisplayName: Prismatic Wave
+		}
+
+		PrismaticBeam: {
+			DisplayName: Prismatic Beam
+		}
+
+		PolarisGazeStar: {
+			DisplayName: Northern Star
+		}
+
+		PolarisGazeDash: {
+			DisplayName: Polaris Piercing Lunge
+		}
+
+		PolarisGaze: {
+			DisplayName: Polaris's Gaze
+		}
+
+		PlagueSeeker: {
+			DisplayName: Plague Seeker
+		}
+
+		PhotonRipperProjectile: {
+			DisplayName: Extraordinarily Cost-Inefficient Chainsaw
+		}
+
+		PhosphorescentGauntletPunches: {
+			DisplayName: Gauntlet Punch
+		}
+
+		PhoenixsPrideFirewall: {
+			DisplayName: Phoenix's Pride Flame Pillar
+		}
+
+		PhoenixsPride: {
+			DisplayName: Phoenix's Pride
+		}
+
+		OrderbringerWaveProj: {
+			DisplayName: Order-bringing Wave
+		}
+
+		OrderbringerBeam: {
+			DisplayName: Orderbringer Beam
+		}
+
+		Orbacle: {
+			DisplayName: Auric Orb
+		}
+
+		OblivionBolt: {
+			DisplayName: Oblivion Bolt
+		}
+
+		OblivionFire: {
+			DisplayName: Oblivion Fire
+		}
+
+		OathswordFlame: {
+			DisplayName: Oathsword Flame
+		}
+
+		NeptunesBountySplitProjectile: {
+			DisplayName: Neptune's Bounty Jet
+		}
+
+		NeptunesBountyProjectile: {
+			DisplayName: Neptune's Bounty
+		}
+
+		NeptuneOrb: {
+			DisplayName: Neptune's Trident
+		}
+
+		NebulaShot: {
+			DisplayName: Nebula Shot
+		}
+
+		NebulashFlail: {
+			DisplayName: Nebulash
+		}
+
+		Nebudust: {
+			DisplayName: Nebulash Dust
+		}
+
+		MutilatorSwordProj: {
+			DisplayName: The Mutilator
+		}
+
+		MourningstarFlail: {
+			DisplayName: Mourningstar
+		}
+
+		MourningSkull: {
+			DisplayName: Mourning Skull
+		}
+
+		MonstrousKnife: {
+			DisplayName: Monstrous Knife
+		}
+
+		MirrorBladeSlashCreator: {
+			DisplayName: Mirror Blade Slash Creator
+		}
+
+		MirrorBladeSlash: {
+			DisplayName: Mirror Blade Slash
+		}
+
+		MirrorBladeProjectile: {
+			DisplayName: Mirror Blade
+		}
+
+		MirrorBlast: {
+			DisplayName: Mirror Blast
+		}
+
+		MicrowaveAura: {
+			DisplayName: Microwave Radiation
+		}
+
+		MantisClawSlash: {
+			DisplayName: Mantis Claw Slash
+		}
+
+		MantisClawJet: {
+			DisplayName: Mantis Claw Jet
+		}
+
+		MantisClawHoldout: {
+			DisplayName: Mantis Claw
+		}
+
+		LuxorsGiftMelee: {
+			DisplayName: Luxor's Melee
+		}
+
+		LucreciaHoldout: {
+			DisplayName: Lucrecia
+		}
+
+		LucreciaDNATrailCreator: {
+			DisplayName: Darklight Comet Trail
+		}
+
+		LucreciaBolt: {
+			DisplayName: Lucrecia Bolt
+		}
+
+		LightspeedM1Hitbox: {
+			DisplayName: Lightspeed Stab
+		}
+
+		LightspeedHoldout: {
+			DisplayName: Lightspeed
+		}
+
+		LightspeedDashHitbox: {
+			DisplayName: Lightspeed Rupture
+		}
+
+		LightningThing: {
+			DisplayName: Lightning
+		}
+
+		LightBeam: {
+			DisplayName: Light Beam
+		}
+
+		LifeScythe: {
+			DisplayName: Lifehunt Scythe
+		}
+
+		LamentationsOfTheChained: {
+			DisplayName: Lamentations of the Chained
+		}
+
+		JudgementProj: {
+			DisplayName: JUDGEMENT
+		}
+
+		InsidiousHarpoon: {
+			DisplayName: Insidious Harpoon
+		}
+
+		IllustriousKnife: {
+			DisplayName: Illustrious Knife
+		}
+
+		IceBombFriendly: {
+			DisplayName: Ice Bomb
+		}
+
+		HolyColliderHolyFire: {
+			DisplayName: Holy Collider Fire
+		}
+
+		HellionSpike: {
+			DisplayName: Hellion Spike
+		}
+
+		HeavensMonolith: {
+			DisplayName: Heaven's Monolith
+		}
+
+		HeavensMight: {
+			DisplayName: Heaven's Might
+		}
+
+		GildedProboscisProj: {
+			DisplayName: Gilded Proboscis
+		}
+
+		GrovetendersTouch: {
+			DisplayName: Grovetender's Touch
+		}
+
+		GrovetendersEntanglingVines: {
+			DisplayName: Entangling Growth
+		}
+
+		GreenWater: {
+			DisplayName: Greentide Tooth
+		}
+
+		GrandGuardianBoom: {
+			DisplayName: Cosmic Burst
+		}
+
+		GhastlySoulSmall: {
+			DisplayName: Ghastly Soul
+		}
+
+		GhastlySoulMedium: {
+			DisplayName: Ghastly Soul
+		}
+
+		GhastlySoulLarge: {
+			DisplayName: Ghastly Soul
+		}
+
+		GhastlyChain: {
+			DisplayName: Ghastly Chain
+		}
+
+		GestureForTheDrownedOrb: {
+			DisplayName: Gesture for the Drowned
+		}
+
+		GestureForTheDrowned: {
+			DisplayName: Biome Blade
+		}
+
+		GemTechYellowShard: {
+			DisplayName: Trireme's Yellow Gem
+		}
+
+		GelWave: {
+			DisplayName: Gelitic Wave
+		}
+
+		GayBeam: {
+			DisplayName: Iridescent Beam
+		}
+
+		GalileoGladiusThrown: {
+			DisplayName: Galileo Gladius (Thrown)
+		}
+
+		GalileosPlanet: {
+			DisplayName: Planet
+		}
+
+		GalileosMoon: {
+			DisplayName: Crescent Moon
+		}
+
+		GalaxySmasherMini: {
+			DisplayName: Cosmic Shard
+		}
+
+		GalaxySmasherHammer: {
+			DisplayName: Galaxy Smasher
+		}
+
+		GalaxySmasherEcho: {
+			DisplayName: Galaxy Smasher Echo
+		}
+
+		GalaxySmasherBlast: {
+			DisplayName: Galactic Blast
+		}
+
+		GalaxiaHoldout: {
+			DisplayName: Galactic Formation
+		}
+
+		GalaxiaBolt: {
+			DisplayName: Galaxia Bolt
+		}
+
+		GalacticaComet: {
+			DisplayName: Galactus Comet
+		}
+
+		GaelSkull2: {
+			DisplayName: No Longer Ark of the Cosmos' Superior Cousin
+		}
+
+		GaelSkull: {
+			DisplayName: No Longer Ark of the Cosmos' Superior Cousin
+		}
+
+		GaelExplosion: {
+			DisplayName: Gael Explosion
+		}
+
+		ForbiddenOathbladeThrownBlade: {
+			DisplayName: Forbidden Oathblade Thrown Blade
+		}
+
+		FloodtideShark: {
+			DisplayName: SHORK
+		}
+
+		Flarefrost: {
+			DisplayName: Flarefrost
+		}
+
+		Feather: {
+			DisplayName: Feather
+		}
+
+		FallenPaladinsHammerProj: {
+			DisplayName: Fallen Paladin's Hammer
+		}
+
+		FallenPaladinsHammerEcho: {
+			DisplayName: Fallen Paladin's Hammer Echo
+		}
+
+		FallenExplosionSmall: {
+			DisplayName: Fallen Hammer Blast
+		}
+
+		FallenBlast: {
+			DisplayName: Fallen Paladin's Wrath
+		}
+
+		ExtantAbhorrence: {
+			DisplayName: Extant Abhorrence
+		}
+
+		Exoboom: {
+			DisplayName: Exoplasma Explosion
+		}
+
+		ExobeamSlashCreator: {
+			DisplayName: Anime Sword Effect
+		}
+
+		ExobeamSlash: {
+			DisplayName: Exobeam Slash
+		}
+
+		Exobeam: {
+			DisplayName: Exobeam
+		}
+
+		MawOfInfinityJaws: {
+			DisplayName: Divinity Devourer
+		}
+
+		MawOfInfinityHoldout: {
+			DisplayName: Maw of Infinity
+		}
+
+		ExaltedOathbladeThrownBlade: {
+			DisplayName: Exalted Oathblade Thrown Blade
+		}
+
+		EvilSmasherProjectile: {
+			DisplayName: Evil Smasher
+		}
+
+		EssenceScythe: {
+			DisplayName: Essence Scythe
+		}
+
+		EonBolt: {
+			DisplayName: Eon Bolt
+		}
+
+		EntropicFlechette: {
+			DisplayName: Entropic Flechette
+		}
+
+		EmpyreanKnife: {
+			DisplayName: Empyrean Knife
+		}
+
+		ElementalGlassStar: {
+			DisplayName: Glass Star
+		}
+
+		EarthenTidesShockwave: {
+			DisplayName: Earthen Tides Shockwave
+		}
+
+		EarthenTidesBlastSpawner: {
+			DisplayName: Blast Spawner
+		}
+
+		EarthenTidesBlast: {
+			DisplayName: Earthen Tides Blast
+		}
+
+		EarthenTidesBeam: {
+			DisplayName: Earthen Projection
+		}
+
+		EarthenTides: {
+			DisplayName: Earthen Tides
+		}
+
+		EarthMeteor: {
+			DisplayName: Gaia Meteor
+		}
+
+		EarthBoom: {
+			DisplayName: Earth's Judgement
+		}
+
+		DragoonSmallBolt: {
+			DisplayName: Dragoon Bolt
+		}
+
+		DragoonBigBolt: {
+			DisplayName: Dragoon Lightning
+		}
+
+		DragonRageFireball: {
+			DisplayName: Dragon Rage Fireball
+		}
+
+		DragonPowFlail: {
+			DisplayName: Dragon Pow
+		}
+
+		DraconicSpark: {
+			DisplayName: Draconic Spark
+		}
+
+		DracoBeam2: {
+			DisplayName: Draconic Beam
+		}
+
+		DracoBeam: {
+			DisplayName: Draconic Beam
+		}
+
+		DevilsSunriseCyclone: {
+			DisplayName: Devil's Sunrise
+		}
+
+		DevilsDevastationThrownBlade: {
+			DisplayName: Devils Devastation Thrown Blade
+		}
+
+		DepthCrusherSplitProjectile: {
+			DisplayName: Depth Crusher Jet
+		}
+
+		DepthCrusherProjectile: {
+			DisplayName: Depth Crusher
+		}
+
+		DecaysRetortDash: {
+			DisplayName: Evisceration Lunge
+		}
+
+		DecaysRetort: {
+			DisplayName: Decay's Retort
+		}
+
+		DeathsAscensionRift: {
+			DisplayName: Rift
+		}
+
+		DeathsAscensionProjectile: {
+			DisplayName: Ascended Scythe
+		}
+
+		DarkMasterClone: {
+			DisplayName: Dark Terrarian
+		}
+
+		DarkMasterBeam: {
+			DisplayName: Dark Master Beam
+		}
+
+		DarklightGreatswordSlashCreator: {
+			DisplayName: Darklight Greatsword Slash Creator
+		}
+
+		DarklightGreatswordSlash: {
+			DisplayName: Darklight Greatsword Slash
+		}
+
+		DarkIceZero: {
+			DisplayName: Dark Ice
+		}
+
+		DarkBeam: {
+			DisplayName: Dark Beam
+		}
+
+		DarkBall: {
+			DisplayName: Dark Ball
+		}
+
+		Cyclone: {
+			DisplayName: Cyclone
+		}
+
+		CrystylCrusherRay: {
+			DisplayName: Crystyl Crusher Ray
+		}
+
+		CrescentMoonProj: {
+			DisplayName: Seeking Moon
+		}
+
+		CrescentMoonFlail: {
+			DisplayName: Crescent Moon
+		}
+
+		CosmicSpiritBomb: {
+			DisplayName: Cosmic Bomb
+		}
+
+		CosmicShivTrail: {
+			DisplayName: Cosmic Shiv Trail
+		}
+
+		CosmicShivBlade: {
+			DisplayName: Cosmic Beam
+		}
+
+		CosmicShivBall: {
+			DisplayName: Cosmic Energy
+		}
+
+		CosmicShivAura: {
+			DisplayName: Cosmic Shiv Aura
+		}
+
+		CosmicOrb: {
+			DisplayName: Cosmic Orb
+		}
+
+		CosmicIceBurst: {
+			DisplayName: Cosmic Ice
+		}
+
+		CosmicDischargeFlail: {
+			DisplayName: Cosmic Discharge
+		}
+
+		CosmicBolt: {
+			DisplayName: Cosmic Bolt
+		}
+
+		CometQuasherMeteor: {
+			DisplayName: Comet Quasher Meteor
+		}
+
+		ClamCrusherFlail: {
+			DisplayName: Clam Crusher
+		}
+
+		ChainedMeatHook: {
+			DisplayName: Enchanted Meat Hook
+		}
+
+		CausticEdgeProjectile: {
+			DisplayName: Caustic Edge
+		}
+
+		BurningMeteor: {
+			DisplayName: Meteor
+		}
+
+		BurningHolyBlast: {
+			DisplayName: Profaned Blast
+		}
+
+		BrokenBiomeBladeHoldout: {
+			DisplayName: Broken Biome Blade
+		}
+
+		BrinyTyphoonBubble: {
+			DisplayName: Bubble
+		}
+
+		BrinySpout: {
+			DisplayName: Briny Spout
+		}
+
+		BrimstoneSwordProj: {
+			DisplayName: Brimstone Sword
+		}
+
+		BrimstoneSwordExplosion: {
+			DisplayName: Brimstone Sword Explosion
+		}
+
+		BrimstoneBoom: {
+			DisplayName: Boom
+		}
+
+		BrimlashProj: {
+			DisplayName: Brimlash
+		}
+
+		Brimlash2: {
+			DisplayName: Brimlash
+		}
+
+		BrimlanceStandingFire: {
+			DisplayName: Brimlance Flame
+		}
+
+		BrimlanceHellfireExplosion: {
+			DisplayName: Brimlance Explosion
+		}
+
+		Brimblast: {
+			DisplayName: Brimblast
+		}
+
+		BotanicSpear: {
+			DisplayName: Botanic Spear
+		}
+
+		BonebreakerProjectile: {
+			DisplayName: Bonebreaker
+		}
+
+		BonebreakerFragment1: {
+			DisplayName: Bone Crunching Shrapnel
+		}
+
+		BloodBall: {
+			DisplayName: Blood Ball
+		}
+
+		Blood2: {
+			DisplayName: Blood
+		}
+
+		Blood: {
+			DisplayName: Carnage Blood
+		}
+
+		BlazingPhantomBlade: {
+			DisplayName: Blazing Phantom Blade
+		}
+
+		BladecrestOathswordThrownBlade: {
+			DisplayName: Bladecrest Oathsword Thrown Blade
+		}
+
+		BitingEmbraceMist: {
+			DisplayName: Glacial Mist
+		}
+
+		BitingEmbrace: {
+			DisplayName: Biting Embrace
+		}
+
+		BiomeBladeHoldout: {
+			DisplayName: Mended Biome Blade
+		}
+
+		BansheeHookScythe: {
+			DisplayName: Banshee Scythe
+		}
+
+		BansheeHookBoom: {
+			DisplayName: Banshee Boom
+		}
+
+		BalefulHarvesterProjectile: {
+			DisplayName: Pumpkin Skull
+		}
+
+		AtaraxiaSplit: {
+			DisplayName: Still Not Exoblade
+		}
+
+		AtaraxiaSide: {
+			DisplayName: Also Not Exoblade
+		}
+
+		AtaraxiaMain: {
+			DisplayName: Not Exoblade
+		}
+
+		AtaraxiaBoom: {
+			DisplayName: Definitely Not Exoblade
+		}
+
+		AstralScytheProjectile: {
+			DisplayName: Astral Ring
+		}
+
+		ArkoftheElementsSwungBlade: {
+			DisplayName: Ark of the Elements
+		}
+
+		ArkoftheElementsSnapBlast: {
+			DisplayName: Rending Scissors
+		}
+
+		ArkoftheElementsParryHoldout: {
+			DisplayName: Ark of the Elements
+		}
+
+		ArkoftheCosmosSwungBlade: {
+			DisplayName: Ark of the Cosmos
+		}
+
+		ArkoftheCosmosParryHoldout: {
+			DisplayName: Ark of the Cosmos
+		}
+
+		ArkoftheCosmosConstellation: {
+			DisplayName: Constellation
+		}
+
+		ArkoftheCosmosBlast: {
+			DisplayName: Sundering Scissors
+		}
+
+		ArkoftheAncientsSwungBlade: {
+			DisplayName: Fractured Ark
+		}
+
+		ArkoftheAncientsParryHoldout: {
+			DisplayName: Fractured Ark
+		}
+
+		AriesWrathConstellation: {
+			DisplayName: Constellation
+		}
+
+		AriesWrath: {
+			DisplayName: Aries's Wrath
+		}
+
+		AridGrandeur: {
+			DisplayName: Arid Grandeur
+		}
+
+		AquaStream: {
+			DisplayName: Aqua Stream
+		}
+
+		AndromedasStrideBoltSpawner: {
+			DisplayName: Andromeda Shock
+		}
+
+		AndromedasStride: {
+			DisplayName: Andromeda's Stride
+		}
+
+		AncientStar: {
+			DisplayName: Ancient Star
+		}
+
+		AncientBeam: {
+			DisplayName: Ancient Beam
+		}
+
+		AmidiasWhirlpool: {
+			DisplayName: Whirlpool
+		}
+
+		AegisFlame: {
+			DisplayName: Aegis Flame
+		}
+
+		AegisBlast2: {
+			DisplayName: Aegis Blast
+		}
+
+		AegisBlast: {
+			DisplayName: Aegis Blast
+		}
+
+		AegisBeam: {
+			DisplayName: Aegis Beam
+		}
+
+		AbyssBladeSplitProjectile: {
+			DisplayName: Abyss Blade Jet
+		}
+
+		AbyssBladeProjectile: {
+			DisplayName: Abyss Blade
+		}
+	}
+
+	Magic: {
+		YharimsCrystalPrism: {
+			DisplayName: Yermes Christal
+		}
+
+		YharimsCrystalBeam: {
+			DisplayName: Yharim's Beam
+		}
+
+		WyvernProjectile: {
+			DisplayName: Wyvern
+		}
+
+		WyvernFeatherPurple: {
+			DisplayName: Feather
+		}
+
+		WyvernFeatherPink: {
+			DisplayName: Feather
+		}
+
+		WyvernFeatherGreen: {
+			DisplayName: Feather
+		}
+
+		WulfrumManaDrain: {
+			DisplayName: Mana Drain
+		}
+
+		WulfrumBolt: {
+			DisplayName: Wulfrum Bolt
+		}
+
+		WingmanShot: {
+			DisplayName: Mana Shot
+		}
+
+		WingmanGrenade: {
+			DisplayName: Mana Grenade
+		}
+
+		WaywasherProj: {
+			DisplayName: Waywasher Blast
+		}
+
+		WarpSigilShotCreator: {
+			DisplayName: Warped Shot Creator
+		}
+
+		WarpSigilShot: {
+			DisplayName: Warped Shot
+		}
+
+		WarpSigil: {
+			DisplayName: Warp Sigil
+		}
+
+		WaterLeechProj: {
+			DisplayName: Water Leech
+		}
+
+		VortexElementalBeam: {
+			DisplayName: Vortex Lightning
+		}
+
+		VolterionShot: {
+			DisplayName: Ultracharged Filament
+		}
+
+		VolterionOrb: {
+			DisplayName: Unstable Ball Lightning
+		}
+
+		VolatileStarcore: {
+			DisplayName: Volatile Starcore
+		}
+
+		VoidVortexProj: {
+			DisplayName: Void Vortex
+		}
+
+		VividOrb: {
+			DisplayName: Vivid Orb
+		}
+
+		VividLaser2: {
+			DisplayName: Vivid Laser
+		}
+
+		VividExplosion: {
+			DisplayName: Vivid Explosion
+		}
+
+		VividClarityBeam: {
+			DisplayName: Vivid Ray
+		}
+
+		VividBolt: {
+			DisplayName: Vivid Bolt
+		}
+
+		VividBeam: {
+			DisplayName: Vivid Beam
+		}
+
+		VitriolicViperSpit: {
+			DisplayName: Vitriolic Spit
+		}
+
+		VitriolicViperFang: {
+			DisplayName: Vitriolic Fang
+		}
+
+		VisNeedle: {
+			DisplayName: Vis Needle
+		}
+
+		VisceraBoom: {
+			DisplayName: Viscera Boom
+		}
+
+		VisceraBeam: {
+			DisplayName: Viscera
+		}
+
+		VenusianFlame: {
+			DisplayName: Venusian Cinder
+		}
+
+		VenusianExplosion: {
+			DisplayName: Venusian Explosion
+		}
+
+		VenusianBolt: {
+			DisplayName: Venusian Bolt
+		}
+
+		VehemenceSkull: {
+			DisplayName: Vehement Skull
+		}
+
+		VehemenceBolt: {
+			DisplayName: Vehemence Bolt
+		}
+
+		Vehemence: {
+			DisplayName: Blast of Vehemence
+		}
+
+		VeeringWindFrostWave: {
+			DisplayName: Veering Wind Frost Wave
+		}
+
+		VeeringWindAirWave: {
+			DisplayName: Veering Wind Air Wave
+		}
+
+		ValkyrieRayStaff: {
+			DisplayName: Valkyrie Ray
+		}
+
+		ValkyrieRayBeam: {
+			DisplayName: Valkyrie Ray
+		}
+
+		UndinesRetributionSpear: {
+			DisplayName: Undine's Retribution
+		}
+
+		UberBubble: {
+			DisplayName: Bubble
+		}
+
+		TridentIcicle: {
+			DisplayName: Trident Icicle
+		}
+
+		TradewindsProjectile: {
+			DisplayName: Tradewinds Feather
+		}
+
+		Teslabeam: {
+			DisplayName: Teslabeam
+		}
+
+		TerraSigilSmallRock: {
+			DisplayName: Terra Small Rock
+		}
+
+		TerraSigilMediumRock: {
+			DisplayName: Terra Medium Rock
+		}
+
+		TerraSigilLargeRock: {
+			DisplayName: Terra Large Rock
+		}
+
+		TerraSigil: {
+			DisplayName: Terra Sigil
+		}
+
+		TearsofHeavenProjectile: {
+			DisplayName: Tears of Heaven
+		}
+
+		TacticiansTrumpCardProj: {
+			DisplayName: Trump Beam
+		}
+
+		TacticiansElectricBoom: {
+			DisplayName: Electric Explosion
+		}
+
+		SylvRay: {
+			DisplayName: Sylv Ray
+		}
+
+		SylvBolt: {
+			DisplayName: Sylv Bolt
+		}
+
+		StickyFeather: {
+			DisplayName: Feather
+		}
+
+		StardustElementalBeam: {
+			DisplayName: Stardust Beam
+		}
+
+		Starblast: {
+			DisplayName: Star
+		}
+
+		SpiritDust: {
+			DisplayName: Spirit Dust
+		}
+
+		SpiritCongregation: {
+			DisplayName: Spirit Monster
+		}
+
+		SpectralFeather: {
+			DisplayName: Spectral Feather
+		}
+
+		SparklingLaser: {
+			DisplayName: Sparkling Laser
+		}
+
+		SparkInfernal: {
+			DisplayName: Spark
+		}
+
+		SoulPiercerBolt: {
+			DisplayName: Soul Piercer
+		}
+
+		SoulPiercerBeam: {
+			DisplayName: Soul Piercer
+		}
+
+		SolarElementalBeam: {
+			DisplayName: Solar Beam
+		}
+
+		SnowflakeIceStar: {
+			DisplayName: Ice Star
+		}
+
+		Snowflake: {
+			DisplayName: Snowflake
+		}
+
+		Snowball: {
+			DisplayName: Snowball
+		}
+
+		SmallSpirit: {
+			DisplayName: Small Angry Spirit
+		}
+
+		SlitheringEelProjectile: {
+			DisplayName: Slithering Eel
+		}
+
+		SilvaBurst: {
+			DisplayName: Silva Burst
+		}
+
+		SigilSet: {
+			DisplayName: Sigil Set
+		}
+
+		SHPV: {
+			DisplayName: SHPV
+		}
+
+		SHPS: {
+			DisplayName: SHPS
+		}
+
+		SHPL: {
+			DisplayName: SHPL
+		}
+
+		SHPExplosion: {
+			DisplayName: SHPB Explosion
+		}
+
+		SHPB: {
+			DisplayName: SHPB
+		}
+
+		ShiftingSandsProj: {
+			DisplayName: Shifting Sands
+		}
+
+		Shadowbolt: {
+			DisplayName: Shadowbolt
+		}
+
+		Shaderain: {
+			DisplayName: Shaderain
+		}
+
+		ShadeNimbusCloud: {
+			DisplayName: Shade Nimbus
+		}
+
+		ShadecrystalProjectile: {
+			DisplayName: Shadecrystal
+		}
+
+		SerpentineTail: {
+			DisplayName: Serpentine
+		}
+
+		SerpentineHead: {
+			DisplayName: Serpentine
+		}
+
+		SerpentineBody: {
+			DisplayName: Serpentine
+		}
+
+		SeethingDischargeBrimstoneHellblast: {
+			DisplayName: Seething Hellblast
+		}
+
+		SeethingDischargeBrimstoneBarrage: {
+			DisplayName: Seething Brimstone
+		}
+
+		SanguineFlareProj: {
+			DisplayName: Sanguine Flare
+		}
+
+		SandstreamScepterExplosion: {
+			DisplayName: Sandstream Blast
+		}
+
+		Sandstream: {
+			DisplayName: Sandstream
+		}
+
+		RougeSlashSmall: {
+			DisplayName: Rouge Slash
+		}
+
+		RougeSlashMedium: {
+			DisplayName: Rouge Slash
+		}
+
+		RougeSlashLarge: {
+			DisplayName: Rouge Slash
+		}
+
+		RedirectingVengefulSoul: {
+			DisplayName: Soul
+		}
+
+		RedirectingLostSoul: {
+			DisplayName: Soul
+		}
+
+		RedirectingGildedSoul: {
+			DisplayName: Gilded Soul
+		}
+
+		RedirectingFire: {
+			DisplayName: Fire
+		}
+
+		RancorSmallCinder: {
+			DisplayName: Rancor Cinder
+		}
+
+		RancorMagicCircle: {
+			DisplayName: Magic Circle
+		}
+
+		RancorLaserbeam: {
+			DisplayName: The Angy Beam
+		}
+
+		RancorLargeCinder: {
+			DisplayName: Lava Cinder
+		}
+
+		RancorArm: {
+			DisplayName: Vengeful Arm
+		}
+
+		RainbowRocket: {
+			DisplayName: Rainbow Rocket
+		}
+
+		RainbowComet: {
+			DisplayName: Comet
+		}
+
+		PrinceFlameSmall: {
+			DisplayName: Holy Fire
+		}
+
+		PrinceFlameLarge: {
+			DisplayName: Holy Fireball
+		}
+
+		PrimordialEarthProjectile: {
+			DisplayName: Primordial Earth
+		}
+
+		PrimordialEarthExplosion: {
+			DisplayName: Primordial Earth
+		}
+
+		PrimordialAncientProjectile: {
+			DisplayName: Primordial Ancient
+		}
+
+		PrimordialAncientExplosion: {
+			DisplayName: Primordial Ancient
+		}
+
+		PoseidonTyphoon: {
+			DisplayName: Poseidon Typhoon
+		}
+
+		PlasmaRifleShot: {
+			DisplayName: Concentrated Plasma Blast
+		}
+
+		PlasmaRifleExplosion: {
+			DisplayName: Ionizing Particle Cloud
+		}
+
+		PlasmaRay2: {
+			DisplayName: Plasma Ray
+		}
+
+		PlasmaRay: {
+			DisplayName: Plasma Ray
+		}
+
+		PlagueFang: {
+			DisplayName: Plague Fang
+		}
+
+		PhotosyntheticSolarBeam: {
+			DisplayName: Solar Beam
+		}
+
+		PhotosyntheticShard: {
+			DisplayName: Photosynthetic Shard
+		}
+
+		PhasedGodRay: {
+			DisplayName: Phased God Ray
+		}
+
+		Phantom: {
+			DisplayName: Phantom
+		}
+
+		PhantasmalFuryProj: {
+			DisplayName: Phantasmal Fury
+		}
+
+		PerditoSigilShotCreator: {
+			DisplayName: Perdito Shot Creator
+		}
+
+		PerditoSigilShot: {
+			DisplayName: Perdito Shot
+		}
+
+		PerditoSigil: {
+			DisplayName: Perdito Sigil
+		}
+
+		PartySparkle: {
+			DisplayName: Pretty Sparkle
+		}
+
+		OrdoSigilBeam: {
+			DisplayName: Ordo Beam
+		}
+
+		OrdoSigil: {
+			DisplayName: Ordo Sigil
+		}
+
+		OmicronBeam: {
+			DisplayName: Omicron Beam
+		}
+
+		NuclearFuryProjectile: {
+			DisplayName: Nuclear Fury
+		}
+
+		NightsRayBeam: {
+			DisplayName: Night's Ray
+		}
+
+		NightOrb: {
+			DisplayName: Night's Orb
+		}
+
+		NightBolt: {
+			DisplayName: Night's Bolt
+		}
+
+		NettleRight: {
+			DisplayName: Nettle Thorn
+		}
+
+		NebulaNova: {
+			DisplayName: Nebula Nova
+		}
+
+		NebulaElementalBeam: {
+			DisplayName: Nebula Beam
+		}
+
+		NebulaCloudCore: {
+			DisplayName: Nebula Cloud Core
+		}
+
+		NebulaCloud: {
+			DisplayName: Nebula Cloud
+		}
+
+		NanoPurgeLaser: {
+			DisplayName: Nano Beam
+		}
+
+		MoonSigil: {
+			DisplayName: Moon Sigil
+		}
+
+		MiasmaGas: {
+			DisplayName: Miasma Gas
+		}
+
+		MeteorStarExplosion: {
+			DisplayName: Explosion
+		}
+
+		MeteorStar: {
+			DisplayName: Meteor Star
+		}
+
+		MelterNote2: {
+			DisplayName: Melter Song
+		}
+
+		MelterNote1: {
+			DisplayName: Melter Song
+		}
+
+		MelterAmp: {
+			DisplayName: Melter Amp
+		}
+
+		ManaMonster: {
+			DisplayName: Mana Monster
+		}
+
+		ManaChargedCoral: {
+			DisplayName: Mana-charged Coral
+		}
+
+		ManaBoltSmall2: {
+			DisplayName: Mana Bolt
+		}
+
+		ManaBoltSmall: {
+			DisplayName: Mana Bolt
+		}
+
+		ManaBolt: {
+			DisplayName: Mana Bolt
+		}
+
+		MagneticOrb: {
+			DisplayName: Magnetic Orb
+		}
+
+		MagneticBeam: {
+			DisplayName: Magnetic Beam
+		}
+
+		MadAlchemistsCocktailShrapnel: {
+			DisplayName: Mad Alchemist's Shrapnel
+		}
+
+		MadAlchemistsCocktailRed: {
+			DisplayName: Mad Alchemist's Red Cocktail
+		}
+
+		MadAlchemistsCocktailPurple: {
+			DisplayName: Mad Alchemist's Purple Cocktail
+		}
+
+		MadAlchemistsCocktailGreen: {
+			DisplayName: Mad Alchemist's Green Cocktail
+		}
+
+		MadAlchemistsCocktailGasCloud: {
+			DisplayName: Mad Alchemist's Gas
+		}
+
+		MadAlchemistsCocktailBlue: {
+			DisplayName: Mad Alchemist's Blue Cocktail
+		}
+
+		MadAlchemistsCocktailAlt: {
+			DisplayName: Mad Alchemist's Prismatic Cocktail
+		}
+
+		LuxorsGiftMagic: {
+			DisplayName: Luxor's Magic
+		}
+
+		LiquidBlade2: {
+			DisplayName: Liquidating Blade
+		}
+
+		LiquidBlade: {
+			DisplayName: Liquidating Blade
+		}
+
+		LightningArc: {
+			DisplayName: Lightning Arc
+		}
+
+		LightBlade: {
+			DisplayName: Light Blade
+		}
+
+		LightBeadSplit: {
+			DisplayName: Light Bead
+		}
+
+		LightBead: {
+			DisplayName: Light Bead
+		}
+
+		LightBallExplosion: {
+			DisplayName: Light Explosion
+		}
+
+		LightBall: {
+			DisplayName: Light Ball
+		}
+
+		KeelhaulGeyserTop: {
+			DisplayName: Keelhaul Geyser
+		}
+
+		KeelhaulGeyserBottom: {
+			DisplayName: Keelhaul Geyser
+		}
+
+		KeelhaulBubble: {
+			DisplayName: Keelhaul Bubble
+		}
+
+		IonBlast: {
+			DisplayName: Ion Blast
+		}
+
+		InfernalBlade2: {
+			DisplayName: Infernal Blade
+		}
+
+		InfernalBlade: {
+			DisplayName: Infernal Blade
+		}
+
+		InfernadoMarkFriendly: {
+			DisplayName: Infernado Mark
+		}
+
+		InfernadoFriendly: {
+			DisplayName: Infernado
+		}
+
+		IncineratingFireball: {
+			DisplayName: Incinerating Fireball
+		}
+
+		IgnisSigilEmbers: {
+			DisplayName: Ignis Ember
+		}
+
+		IgnisSigilFireball: {
+			DisplayName: Ignis Fireball
+		}
+
+		IgnisSigilFireballExplosion: {
+			DisplayName: Ignis Fireball Explosion
+		}
+
+		IgnisSigil: {
+			DisplayName: Ignis Sigil
+		}
+
+		IcicleStaffProj: {
+			DisplayName: Furious Icicle
+		}
+
+		Icicle: {
+			DisplayName: Icicle
+		}
+
+		IceCluster: {
+			DisplayName: Ice Cluster
+		}
+
+		IceBlockIcicle: {
+			DisplayName: Ice Barrage Icicle
+		}
+
+		IceBlock: {
+			DisplayName: Ice Barrage Block
+		}
+
+		IceBarrageMain: {
+			DisplayName: Ice Barrage
+		}
+
+		HyperdeathRiftScepterBeam: {
+			DisplayName: Hyperdeath Rift Ripper
+		}
+
+		HolyLaser: {
+			DisplayName: Holy Laser
+		}
+
+		HolyFlame: {
+			DisplayName: Holy Flame
+		}
+
+		HellwingBat: {
+			DisplayName: Ashen Hellwing
+		}
+
+		HeliumFlashBlast: {
+			DisplayName: Helium Flash
+		}
+
+		HadalUrnStarfishShard: {
+			DisplayName: Starfish Shard
+		}
+
+		HadalUrnStarfish: {
+			DisplayName: Marianan Starfish
+		}
+
+		HadalUrnLamprey: {
+			DisplayName: Sea Lamprey
+		}
+
+		HadalUrnJellyfish: {
+			DisplayName: Mirage Jelly
+		}
+
+		HadalUrnIsopod: {
+			DisplayName: Abyssal Isopod
+		}
+
+		GleamingBolt2: {
+			DisplayName: Gleaming Bolt
+		}
+
+		GleamingBolt: {
+			DisplayName: Gleaming Bolt
+		}
+
+		GhastlySubBlast: {
+			DisplayName: Ghast Blast
+		}
+
+		GhastlyExplosionShard: {
+			DisplayName: Ghastly Fragment
+		}
+
+		GhastlyExplosion: {
+			DisplayName: Ghastly Explosion
+		}
+
+		GhastlyBlast: {
+			DisplayName: Ghast Blast
+		}
+
+		GenesisBeam: {
+			DisplayName: Genesis Beam
+		}
+
+		GammaLaser: {
+			DisplayName: Gamma Laser
+		}
+
+		FrostBoltProjectile: {
+			DisplayName: Frost Ball
+		}
+
+		FrigidflashBoltProjectile: {
+			DisplayName: Frigidflash Bolt
+		}
+
+		ForbiddenSunProjectile: {
+			DisplayName: Forbidden Sun
+		}
+
+		ForbiddenSunburst: {
+			DisplayName: Sunburst
+		}
+
+		ForbiddenAxeBlade: {
+			DisplayName: Ruin Blade
+		}
+
+		FleshTotemSoul: {
+			DisplayName: Flesh Totem Soul
+		}
+
+		FleshTotemMinion: {
+			DisplayName: Flesh Totem Minion
+		}
+
+		FlareBoltProjectile: {
+			DisplayName: Flare Bolt
+		}
+
+		FireImplosion: {
+			DisplayName: Swirling Backdraft
+		}
+
+		FatesRevealFlame: {
+			DisplayName: Fate's Reveal
+		}
+
+		ExoVortex2: {
+			DisplayName: Subsuming Vortex
+		}
+
+		ExoVortex: {
+			DisplayName: Subsuming Vortex
+		}
+
+		EvergladeSprayProjectile: {
+			DisplayName: Everglade Spray
+		}
+
+		EventHorizonStar: {
+			DisplayName: Event Horizon Star
+		}
+
+		EventHorizonBlackhole: {
+			DisplayName: Blackhole
+		}
+
+		EternityHoming: {
+			DisplayName: Eternity
+		}
+
+		EternityHex: {
+			DisplayName: Eternity
+		}
+
+		EternityCrystal: {
+			DisplayName: Crystal
+		}
+
+		EternityCircle: {
+			DisplayName: Eternity
+		}
+
+		EnormousConsumingVortex: {
+			DisplayName: Subsuming Vortex
+		}
+
+		EldritchTentacle: {
+			DisplayName: Eldritch Tentacle
+		}
+
+		EidolicWailSoundwave: {
+			DisplayName: Eidolic Wail
+		}
+
+		EelDrop: {
+			DisplayName: Acid Eel Drop
+		}
+
+		DracoConstellation: {
+			DisplayName: Draco
+		}
+
+		DeathhailBeam: {
+			DisplayName: Deathhail Beam
+		}
+
+		DeathValleyDusterProjectile: {
+			DisplayName: Death Valley Duster
+		}
+
+		DarkSparkPrism: {
+			DisplayName: Dark Crystal
+		}
+
+		DarkSparkBeam: {
+			DisplayName: Dark Spark Beam
+		}
+
+		CryoBlast: {
+			DisplayName: Cryo Blast
+		}
+
+		CosmicTentacle: {
+			DisplayName: Dark Tentacle
+		}
+
+		CosmicRainbowTrail: {
+			DisplayName: Rainbow
+		}
+
+		CosmicRainbowFront: {
+			DisplayName: Rainbow
+		}
+
+		CoralSpike: {
+			DisplayName: Coral Spike
+		}
+
+		ClimaxProj: {
+			DisplayName: Voltaic Orb
+		}
+
+		ClimaxBeam: {
+			DisplayName: Voltaic Bolt
+		}
+
+		ChronomancersScytheHoldout: {
+			DisplayName: Chronomancer's Scythe
+		}
+
+		ChronoIcicleSmall: {
+			DisplayName: Chrono Icicle
+		}
+
+		ChronoIcicleLarge: {
+			DisplayName: Chrono Icicle
+		}
+
+		CauldronProjSmall: {
+			DisplayName: Smaullerdron
+		}
+
+		CauldronProj: {
+			DisplayName: Smauldron
+		}
+
+		CalamitousFireballFriendly: {
+			DisplayName: Calamitous Fireball Friendly
+		}
+
+		CalamitousExplosionFriendly: {
+			DisplayName: Calamitous Explosion Friendly
+		}
+
+		CalamitousDartFriendly: {
+			DisplayName: Calamitous Dart Friendly
+		}
+
+		BrimroseBeam: {
+			DisplayName: Brimrose Beam
+		}
+
+		BlushieStaffProj: {
+			DisplayName: Staff of Blushie
+		}
+
+		BlueBubble: {
+			DisplayName: Bubble
+		}
+
+		BloodRay: {
+			DisplayName: Blood Ray
+		}
+
+		BloodBlast: {
+			DisplayName: Blood Blast
+		}
+
+		BloodBeam: {
+			DisplayName: Blood Beam
+		}
+
+		BlindingLight: {
+			DisplayName: Blinding Light
+		}
+
+		BlackAnurianPlankton: {
+			DisplayName: Anurian Plankton
+		}
+
+		BlackAnurianBubble: {
+			DisplayName: Anurian Bubble
+		}
+
+		BeastScythe: {
+			DisplayName: Beast Scythe
+		}
+
+		BeamStar: {
+			DisplayName: Stardust Star
+		}
+
+		BeamingBolt2: {
+			DisplayName: Beaming Bolt
+		}
+
+		BeamingBolt: {
+			DisplayName: Beaming Bolt
+		}
+
+		AuroraAustralis: {
+			DisplayName: Aurora Australis
+		}
+
+		AugurTentacle: {
+			DisplayName: Elemental Tentacle
+		}
+
+		AtlantisSpear: {
+			DisplayName: Atlantis Spear
+		}
+
+		AstralStarMagic: {
+			DisplayName: Astral Star
+		}
+
+		AstralCrystalInvisibleExplosion: {
+			DisplayName: Astral Crystal Invisible Explosion
+		}
+
+		AstralCrystal: {
+			DisplayName: Astral Crystal
+		}
+
+		AstralachneaFang: {
+			DisplayName: Astral Fang
+		}
+
+		AsteroidMolten: {
+			DisplayName: Molten Asteroid
+		}
+
+		ArtAttackStrike: {
+			DisplayName: Art Attack
+		}
+
+		ArtAttackStar: {
+			DisplayName: Artsy Star
+		}
+
+		ArcticBearPawProj: {
+			DisplayName: Arctic Bear Paw
+		}
+
+		AquaSigilWaterdroplet: {
+			DisplayName: Aqua Waterdroplet
+		}
+
+		AquaSigilWaterballExplosion: {
+			DisplayName: Aqua Waterball Explosion
+		}
+
+		AquaSigilWaterball: {
+			DisplayName: Aqua Waterball
+		}
+
+		AquaSigil: {
+			DisplayName: Aqua Sigil
+		}
+
+		AquamarineBolt: {
+			DisplayName: Aqua Bolt
+		}
+
+		ApotheosisWorm: {
+			DisplayName: The Devourer of Gods
+		}
+
+		ApotheosisEnergy: {
+			DisplayName: Apotheosis Energy
+		}
+
+		ApoctosisBlast: {
+			DisplayName: Apoctosis Blast
+		}
+
+		Ancient2: {
+			DisplayName: Ancient Dust
+		}
+
+		AnahitasArpeggioNote: {
+			DisplayName: Anahita's Song
+		}
+
+		AlphaDraconisStar: {
+			DisplayName: Shooting Star
+		}
+
+		AetherBeam: {
+			DisplayName: Aether Beam
+		}
+
+		AerSigilMissile: {
+			DisplayName: Aer Missile
+		}
+
+		AerSigilFeather: {
+			DisplayName: Aer Feather
+		}
+
+		AerSigilBlast: {
+			DisplayName: Aer Blast
+		}
+
+		AerSigil: {
+			DisplayName: Aer Sigil
+		}
+
+		AcidicSaxMist: {
+			DisplayName: Acid Mist
+		}
+
+		AcidicSaxBubble: {
+			DisplayName: Acid Bubble
+		}
+
+		AcidicReed: {
+			DisplayName: Acidic Reed
+		}
+
+		AcidGunStream: {
+			DisplayName: Acid Stream
+		}
+
+		AbyssBall: {
+			DisplayName: Abyss Ball
+		}
+	}
+
+	Healing: {
+		TransfusionTrail: {
+			DisplayName: Heal
+		}
+
+		ShinobiHealOrb: {
+			DisplayName: Blue Healing Orb
+		}
+
+		RoyalHeal: {
+			DisplayName: Heal
+		}
+
+		PinkJellyAura: {
+			DisplayName: Pink Jelly Aura
+		}
+
+		PhantomicHeart: {
+			DisplayName: Phantomic Heart
+		}
+
+		ManaPolarizerHealOrb: {
+			DisplayName: Mana Polarizer Heal Orb
+		}
+
+		HydrothermicHealOrb: {
+			DisplayName: Hydrothermic Rejuvenation
+		}
+
+		GreenJellyAura: {
+			DisplayName: Green Jelly Aura
+		}
+
+		GladiatorHealOrb: {
+			DisplayName: Heal
+		}
+
+		FungalHeal: {
+			DisplayName: Heal
+		}
+
+		EssenceFlame: {
+			DisplayName: Flame
+		}
+
+		EmpyreanHealOrb: {
+			DisplayName: Empyrean Heal Orb
+		}
+
+		DemonHeal: {
+			DisplayName: Heal
+		}
+
+		CactusHealOrb: {
+			DisplayName: Heal
+		}
+
+		BurntSiennaProj: {
+			DisplayName: Sienna
+		}
+
+		BlueJellyAura: {
+			DisplayName: Blue Jelly Aura
+		}
+
+		BloodstoneHealOrb: {
+			DisplayName: Bloodstone Heal Orb
+		}
+
+		AltTransfusionTrail: {
+			DisplayName: Alt Transfusion Trail
+		}
+
+		AbsorberAura: {
+			DisplayName: Absorber Aura
+		}
+	}
+
+	Enemy: {
+		TrilobiteSpike: {
+			DisplayName: Spike
+		}
+
+		ToxicMinnowCloud: {
+			DisplayName: Toxic Cloud
+		}
+
+		TornadoHostile: {
+			DisplayName: Tornado
+		}
+
+		SulphuricAcidMist: {
+			DisplayName: Acid Mist
+		}
+
+		SulphuricAcidBubble: {
+			DisplayName: Acid Bubble
+		}
+
+		StormMarkHostile: {
+			DisplayName: Mark
+		}
+
+		StormlionSentryBullet: {
+			DisplayName: Stormlion Sentry Bullet
+		}
+
+		ShoreskipperTackle: {
+			DisplayName: Shoreskipper Tackle
+		}
+
+		SharkoonExplosion: {
+			DisplayName: Sharkoon Explosion
+		}
+
+		PufferExplosion: {
+			DisplayName: Explosion
+		}
+
+		PrismBackCrystal: {
+			DisplayName: Prism-Back Shard
+		}
+
+		PodobooSpitUltima: {
+			DisplayName: Ultima Podoboo Spit
+		}
+
+		PodobooSpitSplitting: {
+			DisplayName: Loose Podoboo Spit
+		}
+
+		PodobooSpitHoming: {
+			DisplayName: Psychic Podoboo Spit
+		}
+
+		PodobooSpit: {
+			DisplayName: Podoboo Spit
+		}
+
+		PearlRain: {
+			DisplayName: Pearl Rain
+		}
+
+		PearlBurst: {
+			DisplayName: Pearl Burst
+		}
+
+		OrthoceraStream: {
+			DisplayName: Acid Stream
+		}
+
+		NuclearToadGoo: {
+			DisplayName: Goop
+		}
+
+		NuclearBulletMedium: {
+			DisplayName: Nuclear Bullet
+		}
+
+		NuclearBulletLarge: {
+			DisplayName: Nuclear Bullet
+		}
+
+		MaulerAcidDrop: {
+			DisplayName: Acid
+		}
+
+		MaulerAcidBubble: {
+			DisplayName: Acid Bubble
+		}
+
+		MantisRing: {
+			DisplayName: Mantis Ring
+		}
+
+		LightningCloud: {
+			DisplayName: Cloud
+		}
+
+		JellyghoulBolt: {
+			DisplayName: Jellyghoul Bolt
+		}
+
+		InkPoisonCloud: {
+			DisplayName: Ink Cloud
+		}
+
+		InkBombHostile: {
+			DisplayName: Ink Bomb
+		}
+
+		IceClasperEnemyProjectile: {
+			DisplayName: Ice Shard
+		}
+
+		HorsWaterBlast: {
+			DisplayName: Water
+		}
+
+		HorsPoisonBlast: {
+			DisplayName: Poisonous Spit
+		}
+
+		HorribleHogZombieSpawner: {
+			DisplayName: Horrible Hog Zombie Spawner
+		}
+
+		HorribleHogVomitEye: {
+			DisplayName: Regurgitated Demon Eye
+		}
+
+		HorribleHogVomitChunk: {
+			DisplayName: Horrible Hog's Leftovers
+		}
+
+		HorribleHogVomitBomb: {
+			DisplayName: Barf Bomb
+		}
+
+		HorribleHogShockwaveSpawner: {
+			DisplayName: Horrible Hog Shockwave Spawner
+		}
+
+		HorribleHogShockwave: {
+			DisplayName: Sinister Swine Shockwave
+		}
+
+		HorribleHogRubble: {
+			DisplayName: Rubble
+		}
+
+		HorribleHogChargeHitbox: {
+			DisplayName: Horrible Hog
+		}
+
+		GhostBellShock: {
+			DisplayName: Electrical Field
+		}
+
+		GammaRayBurst: {
+			DisplayName: G-FUEL BEAM
+		}
+
+		GammaBeam: {
+			DisplayName: Gamma Ray
+		}
+
+		GammaAcid: {
+			DisplayName: Acid
+		}
+
+		FlameBurstHostile: {
+			DisplayName: Burst
+		}
+
+		FlakAcid: {
+			DisplayName: Acid
+		}
+
+		EarthRockSmall: {
+			DisplayName: Rock
+		}
+
+		EarthRockBig: {
+			DisplayName: Rock
+		}
+
+		DraedonLaser: {
+			DisplayName: Lab Turret Laser
+		}
+
+		CrimsonSpike: {
+			DisplayName: Spike
+		}
+
+		CragmawVibeCheckChain: {
+			DisplayName: You Think You're Safe
+		}
+
+		CragmawSpike: {
+			DisplayName: Spike
+		}
+
+		CragmawExplosion: {
+			DisplayName: Nuclear Explosion
+		}
+
+		CragmawBeam: {
+			DisplayName: Gamma Ray
+		}
+
+		CragmawAcidDrop: {
+			DisplayName: Acid
+		}
+
+		CrabBoulder: {
+			DisplayName: Boulder
+		}
+
+		ClamBubbleBlast: {
+			DisplayName: Clam Bubble Blast
+		}
+
+		CarrionPus: {
+			DisplayName: Carrion Pus
+		}
+
+		BelchingCoralSpike: {
+			DisplayName: Spike
+		}
+
+		AstralMeteorProj: {
+			DisplayName: Astral Meteor
+		}
+
+		AnglerFlash: {
+			DisplayName: Angler Flash
+		}
+	}
+
+	Boss: {
+		YharonFireball2: {
+			DisplayName: Dragon Fireball
+		}
+
+		YharonFireball: {
+			DisplayName: Dragon Fireball
+		}
+
+		YharonBulletHellVortex: {
+			DisplayName: Bullet Hell Vortex
+		}
+
+		WaterSpear: {
+			DisplayName: Water Spear
+		}
+
+		VileClot: {
+			DisplayName: Vile Clot
+		}
+
+		UnstableEbonianGlob: {
+			DisplayName: Unstable Ebonian Glob
+		}
+
+		UnstableCrimulanGlob: {
+			DisplayName: Unstable Crimulan Glob
+		}
+
+		ToxicCloud: {
+			DisplayName: Toxic Cloud
+		}
+
+		ThornBallSpike: {
+			DisplayName: Thorn Ball Spike
+		}
+
+		THanosSideLaser: {
+			DisplayName: T Hanos Side Laser
+		}
+
+		ThanatosLaser: {
+			DisplayName: Exo Pulse Laser
+		}
+
+		ThanatosBeamTelegraph: {
+			DisplayName: Gamma Disintegration Beam Telegraph
+		}
+
+		ThanatosBeamStart: {
+			DisplayName: T Hanos Beam
+		}
+
+		TelekineticBlast: {
+			DisplayName: Telekinetic Blast
+		}
+
+		TelekineticEnemyGrab: {
+			DisplayName: Telekinetic Enemy Grab
+		}
+
+		SwirlingFire: {
+			DisplayName: Fire
+		}
+
+		SupremeCatastropheSlash: {
+			DisplayName: Resonance Slash
+		}
+
+		SupremeCataclysmFist: {
+			DisplayName: Fist of Fury
+		}
+
+		StormWeaverFrostWaveTelegraph: {
+			DisplayName: Frost Wave Telegraph
+		}
+
+		SporeGasPlantera: {
+			DisplayName: Spore Gas
+		}
+
+		SkyFlareRevenge: {
+			DisplayName: Sky Flare
+		}
+
+		SirenSong: {
+			DisplayName: Musical Note
+		}
+
+		SignusScythe: {
+			DisplayName: Scythe
+		}
+
+		Shadowflamethrower: {
+			DisplayName: Shadowflame Breath
+		}
+
+		ShadowflameFireball: {
+			DisplayName: Shadowflame Fireball
+		}
+
+		ShaderainHostile: {
+			DisplayName: Shade Rain
+		}
+
+		ShadeNimbusHostile: {
+			DisplayName: Shade Nimbus
+		}
+
+		HyperdeathRiftScepterBeam: {
+			DisplayName: Hyperdeath Rift Ripper
+		}
+
+		HomingLaserDart: {
+			DisplayName: Homing Dart
+		}
+
+		SCalRitualDrama: {
+			DisplayName: Calamitous Ritual Drama
+		}
+
+		SCalBrimstoneGigablast: {
+			DisplayName: Brimstone Gigablast
+		}
+
+		SCalBrimstoneFireblast: {
+			DisplayName: Brimstone Fireblast
+		}
+
+		SandTooth: {
+			DisplayName: Sand Tooth
+		}
+
+		SandPoisonCloudOldDuke: {
+			DisplayName: Toxic Cloud
+		}
+
+		SandPoisonCloud: {
+			DisplayName: Toxic Cloud
+		}
+
+		SandBlast: {
+			DisplayName: Sand Blast
+		}
+
+		RedLightningFeather: {
+			DisplayName: Lightning Feather
+		}
+
+		RedLightning: {
+			DisplayName: Red Lightning
+		}
+
+		RavagerNuke: {
+			DisplayName: Homing Nuke
+		}
+
+		RavagerFlame: {
+			DisplayName: Blue Flame
+		}
+
+		RavagerBlaster: {
+			DisplayName: Ravager Blaster
+		}
+
+		RavagerBlast: {
+			DisplayName: Ravaging Laser
+		}
+
+		ProvidenceHolyRay: {
+			DisplayName: Holy Ray
+		}
+
+		ProvidenceCrystalShard: {
+			DisplayName: Holy Crystal Shard
+		}
+
+		ProvidenceCrystal: {
+			DisplayName: Holy Crystal
+		}
+
+		ProfanedSpear: {
+			DisplayName: Profaned Spear
+		}
+
+		PlagueStingerGoliathV2: {
+			DisplayName: Exploding Plague Stinger
+		}
+
+		PlagueStingerGoliath: {
+			DisplayName: Plague Homing Stinger
+		}
+
+		PlagueExplosion: {
+			DisplayName: Plague Stinger Explosion
+		}
+
+		PhantomShot2: {
+			DisplayName: Potent Phantom Shot
+		}
+
+		PhantomShot: {
+			DisplayName: Phantom Shot
+		}
+
+		PhantomMine: {
+			DisplayName: Phantom Orb
+		}
+
+		PhantomHookShot: {
+			DisplayName: Phantom Hook Shot
+		}
+
+		PhantomGhostShot: {
+			DisplayName: Potent Phantom Spirit Shot
+		}
+
+		PhantomBlast2: {
+			DisplayName: Potent Phantom Blast
+		}
+
+		PhantomBlast: {
+			DisplayName: Phantom Blast
+		}
+
+		PermafrostMeat: {
+			DisplayName: Cool Meat
+		}
+
+		PermafrostColdheartIcicle: {
+			DisplayName: Coldheart Icicle
+		}
+
+		PermafrostBlaster: {
+			DisplayName: Blaster of Unlimited Air Conditioning
+		}
+
+		PermafrostBlast: {
+			DisplayName: Permafrost's Gigablast
+		}
+
+		PermafrostAbsoluteZeroProjectile: {
+			DisplayName: Absolute Ultra Zero
+		}
+
+		PeanutRocket: {
+			DisplayName: High Explosive Peanut Shell
+		}
+
+		OverlyDramaticDukeSummoner: {
+			DisplayName: Old Duke Summoner
+		}
+
+		OldDukeVortex: {
+			DisplayName: Sulphurous Vortex
+		}
+
+		OldDukeToothBallSpike: {
+			DisplayName: Spike
+		}
+
+		OldDukeSummonDrop: {
+			DisplayName: Acid
+		}
+
+		OldDukeGore: {
+			DisplayName: Sulphurous Gore
+		}
+
+		MushBombGround: {
+			DisplayName: Mushroom Shot
+		}
+
+		MushBombFall: {
+			DisplayName: Falling Mushroom
+		}
+
+		MushBomb: {
+			DisplayName: Mushroom Shot
+		}
+
+		MoltenBlob: {
+			DisplayName: Molten Blob
+		}
+
+		MoltenBlast: {
+			DisplayName: Molten Blast
+		}
+
+		MajesticSparkle: {
+			DisplayName: Majestic Sparkle
+		}
+
+		LeviathanSpawner: {
+			DisplayName: Spawner
+		}
+
+		LeviathanBomb: {
+			DisplayName: Meteor Vomit
+		}
+
+		JewelProjectile: {
+			DisplayName: Ruby Bolt
+		}
+
+		InfernadoRevenge: {
+			DisplayName: Infernado
+		}
+
+		Infernado2: {
+			DisplayName: Infernado
+		}
+
+		Infernado: {
+			DisplayName: Infernado
+		}
+
+		IchorShower: {
+			DisplayName: Ichor Shower
+		}
+
+		IchorShot: {
+			DisplayName: Ichor Shot
+		}
+
+		IchorBlob: {
+			DisplayName: Ichor Blob
+		}
+
+		IceRain: {
+			DisplayName: Ice Rain
+		}
+
+		IceBomb: {
+			DisplayName: Ice Bomb
+		}
+
+		IceBlast: {
+			DisplayName: Ice Blast
+		}
+
+		HomingGasBulbSporeGas: {
+			DisplayName: Spore Bulb Gas
+		}
+
+		HomingGasBulb: {
+			DisplayName: Homing Gas Bulb
+		}
+
+		HolySpear: {
+			DisplayName: Holy Spear
+		}
+
+		HolyLight: {
+			DisplayName: Holy Light
+		}
+
+		HolyFlare: {
+			DisplayName: Holy Flare
+		}
+
+		HolyFire2: {
+			DisplayName: Holy Fire
+		}
+
+		HolyFire: {
+			DisplayName: Holy Fire
+		}
+
+		HolyExplosionBoom: {
+			DisplayName: Holy Explosion
+		}
+
+		HolyBurnOrb: {
+			DisplayName: Holy Orb
+		}
+
+		HolyBomb: {
+			DisplayName: Holy Bomb
+		}
+
+		HolyBlastFrags: {
+			DisplayName: Holy Blast Fragment
+		}
+
+		HolyBlast: {
+			DisplayName: Holy Blast
+		}
+
+		HolyAura: {
+			DisplayName: Holy Aura
+		}
+
+		HiveBombGoliath: {
+			DisplayName: Hive Bomb
+		}
+
+		HellfireExplosion: {
+			DisplayName: Brimstone Hellfire Explosion
+		}
+
+		GreatSandBlast: {
+			DisplayName: Great Sand Blast
+		}
+
+		GooglyEye: {
+			DisplayName: Googly Eye
+		}
+
+		GolemInfernoBlast: {
+			DisplayName: Golem Fire Blast
+		}
+
+		GolemInfernoBolt: {
+			DisplayName: Golem Fire Bolt
+		}
+
+		FrostMist: {
+			DisplayName: Frost Mist
+		}
+
+		FriendlyLaserWallBeam: {
+			DisplayName: God's Bane Doombeam
+		}
+
+		Flarenado: {
+			DisplayName: Flarenado
+		}
+
+		FlareDust2: {
+			DisplayName: Flare Bomb
+		}
+
+		FlareDust: {
+			DisplayName: Flare Dust
+		}
+
+		FlareBomb: {
+			DisplayName: Flare Bomb
+		}
+
+		Flare: {
+			DisplayName: Flare
+		}
+
+		EssenceDust: {
+			DisplayName: Cosmic Dust
+		}
+
+		DraedonSummonLaser: {
+			DisplayName: Giant Fuck-off Deathray of Doom
+		}
+
+		DoGTeleportRift: {
+			DisplayName: DoG Distortion Rift
+		}
+
+		DoGRiftCrack: {
+			DisplayName: DoG Distortion Crack
+		}
+
+		DoGP1EndPortal: {
+			DisplayName: Portal
+		}
+
+		DoGLaserWallsBigBeam: {
+			DisplayName: "[ceffect/dog:Hyperdeath Rift Ripper]"
+		}
+
+		DoGLaserWalls: {
+			DisplayName: "[ceffect/dog:God's Bane Doombeam Array]"
+		}
+
+		DoGFire: {
+			DisplayName: "[ceffect/dog:Faith Incinerator]"
+		}
+
+		DoGDeathBoom: {
+			DisplayName: Cosmic Explosion
+		}
+
+		DoGBeamPortal: {
+			DisplayName: Beam Portal
+		}
+
+		DoGBeam: {
+			DisplayName: Portal Laser
+		}
+
+		DeusRitualDrama: {
+			DisplayName: Deus Ritual Drama
+		}
+
+		DeusMine: {
+			DisplayName: Astral Mine
+		}
+
+		DestroyerElectricLaser: {
+			DisplayName: Electric Laser
+		}
+
+		DestroyerCursedLaser: {
+			DisplayName: Cursed Laser
+		}
+
+		DesertScourgeSpit: {
+			DisplayName: Scourge Spit
+		}
+
+		DesertScourgeDiveSplash: {
+			DisplayName: Desert Scourge Dive Splash
+		}
+
+		DarkEnergyBall2: {
+			DisplayName: Dark Energy
+		}
+
+		DarkEnergyBall: {
+			DisplayName: Dark Energy
+		}
+
+		CursedFire: {
+			DisplayName: Eye Fire
+		}
+
+		CrimsonEye: {
+			DisplayName: Crimson Eye
+		}
+
+		CirclingBloodScythe: {
+			DisplayName: Circling Blood Scythe
+		}
+
+		CatastrophicCinder: {
+			DisplayName: Catastrophic Cinder
+		}
+
+		CataclysmicFlame: {
+			DisplayName: Cataclysmic Flame
+		}
+
+		CalamitousFireball: {
+			DisplayName: Calamitous Fireball
+		}
+
+		CalamitousExplosion: {
+			DisplayName: Calamitous Explosion
+		}
+
+		CalamitousDart: {
+			DisplayName: Calamitous Dart
+		}
+
+		BurningGigablast: {
+			DisplayName: Burning Gigablast
+		}
+
+		BurningFireblast: {
+			DisplayName: Burning Fireblast
+		}
+
+		BurningBolt: {
+			DisplayName: Burning Bolt
+		}
+
+		BrokenArtemisLens: {
+			DisplayName: Lens
+		}
+
+		BrokenApolloLens: {
+			DisplayName: Lens
+		}
+
+		BrimstoneWave: {
+			DisplayName: Brimstone Flame Skull
+		}
+
+		BrimstoneTargetRay: {
+			DisplayName: Brimstone Target Ray
+		}
+
+		BrimstoneRay: {
+			DisplayName: Brimstone Ray
+		}
+
+		BrimstoneMonster: {
+			DisplayName: Whispering Maelstrom
+		}
+
+		BrimstoneHellfireball: {
+			DisplayName: Brimstone Hellfireball
+		}
+
+		BrimstoneHellblast2: {
+			DisplayName: Brimstone Hellblast
+		}
+
+		BrimstoneHellblast: {
+			DisplayName: Brimstone Hellblast
+		}
+
+		BrimstoneFire: {
+			DisplayName: Brimstone Fire
+		}
+
+		BrimstoneBarrage: {
+			DisplayName: Brimstone Dart
+		}
+
+		BrimstoneBall: {
+			DisplayName: Brimstone Fireball
+		}
+
+		BloodScythe: {
+			DisplayName: Blood Scythe
+		}
+
+		BloodGeyser: {
+			DisplayName: Blood Geyser
+		}
+
+		BloodBombRTS: {
+			DisplayName: Blood Bomb
+		}
+
+		BirbAuraFlare: {
+			DisplayName: Draconic Aura Flare
+		}
+
+		BirbAura: {
+			DisplayName: Draconic Aura
+		}
+
+		BigFlare2: {
+			DisplayName: Big Flare
+		}
+
+		BigFlare: {
+			DisplayName: Big Flare
+		}
+
+		AstralShot2: {
+			DisplayName: Astral Laser
+		}
+
+		AstralLaser: {
+			DisplayName: Astral Laser Volley
+		}
+
+		AstralGodRay: {
+			DisplayName: Astral God Ray
+		}
+
+		AstralFlame: {
+			DisplayName: Astral Homing Flame
+		}
+
+		ArtemisSpinLaserbeam: {
+			DisplayName: Ohio Beam
+		}
+
+		ArtemisLaser: {
+			DisplayName: Exo Pulse Laser
+		}
+
+		ArtemisDeathrayTelegraph: {
+			DisplayName: Exothermal Artemis Beam Telegraph
+		}
+
+		ArtemisChargeTelegraph: {
+			DisplayName: Artemis Charge Telegraph
+		}
+
+		AresTeslaOrb: {
+			DisplayName: Tesla Sphere
+		}
+
+		AresPlasmaFireball: {
+			DisplayName: Volatile Plasma Blast
+		}
+
+		AresPlasmaBolt: {
+			DisplayName: Exoplasma Bolt
+		}
+
+		AresLaserBeamStart: {
+			DisplayName: Exothermal Laser
+		}
+
+		AresGaussNukeProjectileSpark: {
+			DisplayName: Gauss Spark
+		}
+
+		AresGaussNukeProjectileBoom: {
+			DisplayName: Gauss Explosion
+		}
+
+		AresGaussNukeProjectile: {
+			DisplayName: Gauss Nuke
+		}
+
+		AresDeathBeamTelegraph: {
+			DisplayName: Exo Overload Telegraph
+		}
+
+		AresDeathBeamStart: {
+			DisplayName: Blenderbeam
+		}
+
+		ApolloRocket: {
+			DisplayName: High Explosive Plasma Rocket
+		}
+
+		ApolloFireball: {
+			DisplayName: Volatile Plasma Blast
+		}
+
+		ApolloChargeTelegraph: {
+			DisplayName: Apollo Charge Telegraph
+		}
+
+		AnahitaTelegraph: {
+			DisplayName: Anahita Telegraph
+		}
+	}
+}
+
 Prefixes: {
 	Weapon: {
 		StealthDamageTooltip: ステルス攻撃ダメージ+{0}%
@@ -1998,6 +10475,7 @@ NPCs: {
 		}
 
 		Name: {
+			Poogie: Poogie
 			Piglet: Piglet
 			JohnPork: John Pork
 			Techno: Techno
@@ -2240,7 +10718,7 @@ NPCs: {
 			NamedRowan: 通常、私は動物を食べ物か獲物としてしか考えないけど、ドラゴンは例外さ。
 			NamedValerie: 通貨のかわりに使えそうな食料も持っていこう。
 			NamedPenelope: もっと手があれば、いっぱい物を投げられるのに...
-			NamedLaura: 地図のいいところは、落ちているものを追跡できるところだな。
+			NamedTaylor: 地図のいいところは、落としたものを追跡できるところだな。
 			NurseArmsDealer: "{0}に{1}の怪我は私のせいじゃないって言ってきてよ。嘘ついてなんかない、ホントだよ！"
 			Merchant: "{0}には内緒だけど、アイツの売り物をこっそり天使の像とすり替えたんだ。"
 			BrimstoneWitch: おいおい、{0}はマジでここに引っ越してきたの？なんで？？？
@@ -2277,7 +10755,7 @@ NPCs: {
 			Sarah: サラ
 			Bonnie: ボニー
 			Mie: ミエ
-			Laura: ラウラ
+			Taylor: Taylor
 		}
 
 		Census: {
@@ -2343,6 +10821,10 @@ NPCs: {
 
 	Yharon: {
 		DisplayName: 再臨のドラゴン、ヤーロン
+	}
+
+	VolatileSlime: {
+		DisplayName: 不安定なスライム
 	}
 
 	SupremeCatastrophe: {
@@ -3336,6 +11818,7 @@ NPCs: {
 }
 
 Misc: {
+	HotkeyNotEquipped: アクセサリー能力キー
 	HotkeyNotBound: "[None]"
 	GFBRougeLowercase: rouge
 	GFBRogueLowercase: rogue
@@ -3461,12 +11944,36 @@ Misc: {
 }
 
 Keybinds: {
-	SpringStoolJumpHotKey: {
-		DisplayName: バネ付きスツールハイジャンプ
+	Accessory7: {
+		DisplayName: アクセサリー能力7
 	}
 
-	ThePointerLock: {
-		DisplayName: ポインターロックオン
+	Accessory6: {
+		DisplayName: アクセサリー能力6
+	}
+
+	Accessory5: {
+		DisplayName: アクセサリー能力5
+	}
+
+	Accessory4: {
+		DisplayName: アクセサリー能力4
+	}
+
+	Accessory3: {
+		DisplayName: アクセサリー能力3
+	}
+
+	Accessory2: {
+		DisplayName: アクセサリー能力2
+	}
+
+	Accessory1: {
+		DisplayName: アクセサリー能力1
+	}
+
+	HeldItem: {
+		DisplayName: 手持ちアイテム能力
 	}
 
 	ExpandDebuffInfo: {
@@ -3477,24 +11984,12 @@ Keybinds: {
 		DisplayName: 重力反転
 	}
 
-	TransformerHotKey: {
-		DisplayName: モーフコア
-	}
-
-	SpectralVeilTeleport: {
-		DisplayName: 亡霊のベールのテレポート
-	}
-
 	RageMode: {
 		DisplayName: レイジモード
 	}
 
 	NormalityRelocator: {
 		DisplayName: 正規性リロケーター
-	}
-
-	GravistarSabatonHotkey: {
-		DisplayName: グラビスターサバトン
 	}
 
 	GodSlayerDash: {
@@ -3509,32 +12004,12 @@ Keybinds: {
 		DisplayName: ダッシュダブルタップをワンタップ化
 	}
 
-	BoosterDash: {
-		DisplayName: ブーストダッシュ
-	}
-
-	AscendantInsigniaHotKey: {
-		DisplayName: アセンダントの記章
-	}
-
 	ArmorSetBonus: {
 		DisplayName: アーマーセットボーナス
 	}
 
-	AngelicAllianceBlessing: {
-		DisplayName: エンジェリックアライアンスを発動する
-	}
-
-	AmmoCycle: {
-		DisplayName: 弾薬切替ホットキー
-	}
-
 	AdrenalineMode: {
 		DisplayName: アドレナリンモード
-	}
-
-	ActivateAccessoryParry: {
-		DisplayName: アクセサリー効果のパリィを発動する
 	}
 }
 
@@ -3670,6 +12145,8 @@ Items: {
 			}
 
 			VoidEaterMarionette: {
+				FetchEnd: Get 'em!
+				FetchStart: Go fetch!
 				Tooltip:
 					'''
 					小型の貪食者を操る力を宿す
@@ -3702,7 +12179,7 @@ Items: {
 					すべての武器は[cbuff:CalamityMod/SagePoison]を付与し、召喚される武器が多いほどその効果は強力になる
 					ミニオンスロットがすべて埋まっている状態で再度<left>を押すと、カーソルへ向けて連続斬撃を放つ
 					この能力には5秒のクールダウンがあり、このアイテムを所持している必要がある
-					インベントリ内でShift＋<right>すると回転方向を変更できる
+					このアイテムを手に持った状態で[KEY]を押すと回転方向を変更できる
 					'''
 				DisplayName: ヴィリッドヴァンガード
 			}
@@ -3806,7 +12283,7 @@ Items: {
 			}
 
 			StarspawnHelixStaff: {
-				Tooltip: 
+				Tooltip:
 					'''
 					共に戦うアストラル探査機を召喚する
 					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
@@ -3863,10 +12340,7 @@ Items: {
 			}
 
 			ShellfishStaff: {
-				Tooltip:
-					'''
-					[cbuff:CalamityMod/ShellfishClaps]で攻撃する共に戦う貝を召喚する
-					'''
+				Tooltip: "[cbuff:CalamityMod/ShellfishClaps]で攻撃する共に戦う貝を召喚する"
 				DisplayName: 貝の杖
 			}
 
@@ -3952,7 +12426,7 @@ Items: {
 			}
 
 			OrthoceraShell: {
-				Tooltip: 
+				Tooltip:
 					'''
 					セントリーを召喚する
 					敵へ[cbuff:CalamityMod/Irradiated]と[cbuff:Venom]を付与する体液を吐く飛行する直角貝を召喚する
@@ -4054,8 +12528,10 @@ Items: {
 			IgneousExaltation: {
 				Tooltip:
 					'''
-					自分の周囲を回るイグニスの刃を召喚する
-					右クリックで、すべての刃をカーソルに発射する
+					イグニスの刃を召喚し、自身の周囲を旋回させる
+					ミニオンスロットがすべて埋まっている状態で、もう一度<left>を押すとすべての刃をカーソルに向かって放つ
+					この能力には2秒間のクールダウンがあり、発動にはこのアイテムを手に持っている必要がある
+					このアイテムを手に持った状態で[KEY]を押すと回転方向を変更できる
 					'''
 				DisplayName: 崇高なる炎刃
 			}
@@ -4313,11 +12789,6 @@ Items: {
 				DisplayName: 冷たい杖
 			}
 
-			CrimslimeStaff: {
-				Tooltip: 共に戦うクリムスライムを召喚する
-				DisplayName: クリムスライムの杖
-			}
-
 			Cosmilamp: {
 				Tooltip:
 					'''
@@ -4357,11 +12828,6 @@ Items: {
 					「Nevermore」
 					'''
 				DisplayName: 先駆者のカラスの杖
-			}
-
-			CorroslimeStaff: {
-				Tooltip: 共に戦う腐食スライムを召喚する
-				DisplayName: 腐食スライムの杖
 			}
 
 			Cnidarian: {
@@ -4467,6 +12933,11 @@ Items: {
 				DisplayName: ボレアリスボンバー
 			}
 
+			BlightedSlimeStaff: {
+				Tooltip: 共に戦う汚染されたスライムを召喚する
+				DisplayName: 汚染スライムの杖
+			}
+
 			BlackHawkRemote: {
 				Tooltip:
 					'''
@@ -4555,28 +13026,6 @@ Items: {
 		}
 
 		Rogue: {
-			LemonNade: {
-				Tooltip:
-					'''
-					通常のステルス生成を無効化する
-					<left>長押しでピンを抜いてステルスを生成し、離すと投擲する
-					長く保持するほど、投げた後の爆発までの時間が短くなる
-					保持しすぎると手元で爆発する
-					ステルス攻撃では爆発するレモンの種を撒き散らす
-					「あいつらの家を燃やせ！」
-					'''
-				DisplayName: レモンネード
-			}
-
-			Pumpkaboom: {
-				Tooltip:
-					'''
-					敵に張り付き、遅れて爆発するかぼちゃを投げる
-					ステルス攻撃ではより大きなかぼちゃを投げ、爆発前に敵を引き寄せて大爆発を起こす
-					'''
-				DisplayName: 爆裂かぼちゃ
-			}
-
 			WulfrumKnife: {
 				Tooltip:
 					'''
@@ -4625,6 +13074,17 @@ Items: {
 					ステルス攻撃は3本の高速槍を投げる
 					'''
 				DisplayName: ウェーブスキッパー
+			}
+
+			WalkingCane: {
+				Tooltip:
+					'''
+					先端の尖った杖で薙ぎ払う
+					ステルスストライクは敵の正気を削り、攻撃された際に影の手を召喚させる
+					所持中、移動速度が{0}%上昇する
+					「杖に歩かされてるのか、それとも俺が杖を歩かせてるのか？」
+					'''
+				DisplayName: 歩行用杖
 			}
 
 			Vega: {
@@ -4908,17 +13368,6 @@ Items: {
 				DisplayName: 穢れたスライムの塊
 			}
 
-			SlickCane: {
-				Tooltip:
-					'''
-					杖を振るい、敵からお金を奪う
-					ステルス攻撃は1/20の確率で、命中した敵が1～2ゴールドコインを落とす
-					ステルス攻撃時は所持金に比例してダメージが増加する（最大1プラチナまで）
-					「最高の経済」
-					'''
-				DisplayName: 巧妙な杖
-			}
-
 			SkyfinBombers: {
 				Tooltip:
 					'''
@@ -5093,6 +13542,15 @@ Items: {
 					ステルス攻撃は、破壊的な爆発で敵を吸い込む
 					'''
 				DisplayName: レディアントスター
+			}
+
+			Pumpkaboom: {
+				Tooltip:
+					'''
+					敵に張り付き、遅れて爆発するかぼちゃを投げる
+					ステルス攻撃ではより大きなかぼちゃを投げ、爆発前に敵を引き寄せて大爆発を起こす
+					'''
+				DisplayName: 爆裂かぼちゃ
 			}
 
 			ProfanedPartisan: {
@@ -5301,6 +13759,19 @@ Items: {
 					ステルス攻撃は、ヒットするとさらに広範囲に攻撃する隕石を投げる
 					'''
 				DisplayName: リオニドプロジェニター
+			}
+
+			LemonNade: {
+				Tooltip:
+					'''
+					通常のステルス生成を無効化する
+					<left>長押しでピンを抜いてステルスを生成し、離すと投擲する
+					長く保持するほど、投げた後の爆発までの時間が短くなる
+					保持しすぎると手元で爆発する
+					ステルス攻撃では爆発するレモンの種を撒き散らす
+					「あいつらの家を燃やせ！」
+					'''
+				DisplayName: レモンネード
 			}
 
 			LeadTomahawk: {
@@ -6635,23 +15106,6 @@ Items: {
 				DisplayName: オパールストライカー
 			}
 
-			OmniGun: {
-				SalesPitch:
-					'''
-					「なぜ4丁もの銃を持ち歩く必要がある？1丁で済むじゃないか！昔の私はそう考えていた！
-					　この美しい逸品があれば、どんな間抜けでも無敵になれる。そしてカネさえ払えば、それは君のものだ！」
-					'''
-				Tooltip:
-					'''
-					複数のモードを順番に切り替えて使用する多用途武器
-					1発目は時間経過で威力が増加し、必ずクリティカルになる狙撃を行い、
-					2発目は10点バースト射撃、
-					3発目は至近距離で壊滅的な威力を発揮する散弾、
-					4発目は使用者すら巻き込む危険だが強力なグレネードを発射する
-					'''
-				DisplayName: オムニガン
-			}
-
 			Onyxia: {
 				Tooltip:
 					'''
@@ -6684,6 +15138,23 @@ Items: {
 					「連続性と、奴らが盲信する物理法則を奪い去れ」
 					'''
 				DisplayName: オントロジカル・デスポイラー
+			}
+
+			OmniGun: {
+				SalesPitch:
+					'''
+					「なぜ4丁もの銃を持ち歩く必要がある？1丁で済むじゃないか！昔の私はそう考えていた！
+					　この美しい逸品があれば、どんな間抜けでも無敵になれる。そしてカネさえ払えば、それは君のものだ！」
+					'''
+				Tooltip:
+					'''
+					複数のモードを順番に切り替えて使用する多用途武器
+					1発目は時間経過で威力が増加し、必ずクリティカルになる狙撃を行い、
+					2発目は10点バースト射撃、
+					3発目は至近距離で壊滅的な威力を発揮する散弾、
+					4発目は使用者すら巻き込む危険だが強力なグレネードを発射する
+					'''
+				DisplayName: オムニガン
 			}
 
 			NullificationPistol: {
@@ -6780,7 +15251,6 @@ Items: {
 			}
 
 			Megalodon: {
-				DisplayName: メガロドン
 				Tooltip:
 					'''
 					30発の弾丸と加圧水流のマガジンを装填し、高速で連射する
@@ -6788,6 +15258,7 @@ Items: {
 					ロケットのダメージは命中した弾数に応じて増加する
 					{0}%の確率で弾薬を消費しない
 					'''
+				DisplayName: メガロドン
 			}
 
 			MarksmanBow: {
@@ -6959,6 +15430,7 @@ Items: {
 					燃える青い彗星の炎を発射
 					<right>で[cbuff:CalamityMod/Voidfrost]を付与するスターバーストを連射する
 					命中精度に応じて、敵命中時にスターバーストを生成する
+					[KEY]を押すとスコープモードに切り替えできる
 					弾薬としてジェルを使用する
 					「ハレー彗星は予想より早くやってきた」
 					'''
@@ -7414,11 +15886,6 @@ Items: {
 				DisplayName: アーチャーフィッシュ
 			}
 
-			AquashardShotgun: {
-				Tooltip: マスケット銃の弾を、敵に当たると分裂するアクアシャードに変える
-				DisplayName: アクアシャードショットガン
-			}
-
 			Arbalest: {
 				Tooltip:
 					'''
@@ -7427,6 +15894,11 @@ Items: {
 					矢のダメージ、広がり、ノックバックは矢のサイズに比例する
 					'''
 				DisplayName: アルバレスト
+			}
+
+			AquashardShotgun: {
+				Tooltip: マスケット銃の弾を、敵に当たると分裂するアクアシャードに変える
+				DisplayName: アクアシャードショットガン
 			}
 
 			AntiMaterielRifle: {
@@ -8168,8 +16640,12 @@ Items: {
 					'''
 					射程: {0}ブロック
 					速度: {1}
-					投擲持続時間: 無限
-					敵が近づくとレーザーを発射する
+					投擲持続時間: {2}秒
+					非常に不安定なヨーヨーで、追尾する煉獄の炎をゆっくりと放つ
+					ヨーヨーで敵に命中させると力が蓄積し、煉獄の炎の発射速度が大幅に上昇する
+					最大までチャージすると、ヨーヨーが煉獄のダーツを放ち、飛行時間がリセットされる
+					最大チャージ時に敵を攻撃するとヨーヨーが過負荷状態になり、蓄積した力をすべて放出して砕け散る
+					ヨーヨーが砕け散ると甚大なダメージを与えるが、数秒間使用できなくなる
 					'''
 				DisplayName: オブリヴィオン
 			}
@@ -8628,12 +17104,12 @@ Items: {
 			}
 
 			EvilSmasher: {
-				DamageDialogue0: smash!
-				DamageDialogue1: evil!
-				DamageDialogue2: crush!
-				DamageDialogue3: des.. troy!
-				KillDialogue0: smash evil!
 				KillDialogue1: smash.. er!
+				KillDialogue0: smash evil!
+				DamageDialogue3: des.. troy!
+				DamageDialogue2: crush!
+				DamageDialogue1: evil!
+				DamageDialogue0: smash!
 				Tooltip:
 					'''
 					あらゆる邪悪を打ち砕く力を秘めた強力なハンマーの一撃を放つ
@@ -8980,7 +17456,6 @@ Items: {
 				Tooltip: クリティカルヒット時に[cbuff:CalamityMod/AstralInfectionDebuff]を付与するアストラルスターを召喚する
 				DisplayName: アストラルパイク
 			}
-			#ここまで
 
 			ArkoftheElements: {
 				ParryInfo:
@@ -9006,11 +17481,8 @@ Items: {
 			}
 
 			ArkoftheCosmos: {
-				BlastInfo:
-					'''
-					ゲージが溜まっている状態でWキーを押しながら <right> を押すと、ゲージを消費して時空を切り裂く
-					斬撃が発生した後もWキーを押し続けることでカーソルの方向にダッシュすることができる
-					'''
+				BlastInfoKeybind: チャージがある状態で[KEY]を押すと、すべてのチャージを消費し、時空に巨大な裂け目を発生させる
+				BlastInfo: ゲージが溜まっている状態でWキーを押しながら <right> を押すと、すべてのチャージを消費し、時空に巨大な裂け目を発生させる
 				ParryInfo:
 					'''
 					<right> で前方に攻撃する
@@ -9291,6 +17763,11 @@ Items: {
 			}
 
 			TheWand: {
+				SalesPitch:
+					'''
+					「今まで色々あったけど、本当に世話になったよ。これは君だけの特別サービスだ！
+					　どうやらこの杖は竜の聖域から持ち込まれたものらしくてな。あそこではどんなに小さな枝にさえ、計り知れない力が宿っているらしい！　文字通り破格の値段だぞ！」
+					'''
 				Tooltip: 「究極の杖！」
 				DisplayName: ザ・ワンド
 			}
@@ -10145,6 +18622,11 @@ Items: {
 				DisplayName: アナヒタのアルペジオ
 			}
 
+			AlulaAustralis: {
+				Tooltip: 美しいオーロラを放ち、星の雨を引き連れて飛び、命中した相手に[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
+				DisplayName: アルラオーストタリス
+			}
+
 			AlphaDraconis: {
 				Tooltip:
 					'''
@@ -10156,11 +18638,6 @@ Items: {
 					「狂気の模倣」
 					'''
 				DisplayName: 始竜の杖
-			}
-
-			AlulaAustralis: {
-				Tooltip: 美しいオーロラを放ち、星の雨を引き連れて飛び、命中した相手に[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
-				DisplayName: アルラオーストタリス
 			}
 
 			AethersWhisper: {
@@ -11215,11 +19692,10 @@ Items: {
 		}
 
 		ProfanedCore: {
+			EnrageText: "[c/64c8fa:この世界の理が、彼女の完全なる怒りを解き放つ...]"
 			Tooltip:
 				'''
-				聖域または地底世界で使用するとプロヴィデンスを召喚する
-				バイオームによってドロップアイテムが変化する
-				夜の間は発狂する
+				聖域または地底世界で使用するとプロヴィデンスを召喚する[ENRAGE]
 				消費されない
 				「彼女の守護者の心臓。その邪悪な怒りは、これを手にする者を焼き尽くすほどだ」
 				'''
@@ -12104,7 +20580,7 @@ Items: {
 		}
 
 		AstralInjection: {
-			Tooltip: 
+			Tooltip:
 				'''
 				毎秒{0}マナを回復する
 				使用すると[cbuff:ManaSickness]を付与する
@@ -15995,7 +24471,7 @@ Items: {
 		}
 
 		EldenDiorama: {
-			Tooltip: "「空を毒の激流で覆い尽くせ」"
+			Tooltip: 「空を毒の激流で覆い尽くせ」
 			DisplayName: エルデン・ジオラマ
 		}
 
@@ -18116,11 +26592,6 @@ Items: {
 		CoreofCalamity: {
 			Tooltip: ""
 			DisplayName: カラミティのコア
-		}
-
-		BloodstoneCore: {
-			Tooltip: ""
-			DisplayName: ブラッドストーンのコア
 		}
 
 		Bloodstone: {
@@ -20412,7 +28883,7 @@ Items: {
 			}
 
 			DesertProwlerPants: {
-				Tooltip: 
+				Tooltip:
 					'''
 					ローグのクリティカル率が{0}%増加する
 					[cbuffplr:WindPushed] に対する免疫を付与する
@@ -21007,23 +29478,26 @@ Items: {
 			DemonshadeHelm: {
 				SetBonus:
 					'''
-					最大ミニオン数が{0}増加
+					ミニオンの最大数が{0}増加
 					召喚ダメージが{1}%増加
-					シャドウビームと悪魔の鎌は、被弾したときに発射される
-					友好的な赤い悪魔が後をついて回る
-					{2}ことで、近くの敵に暗黒魔法を{3}秒間付与する
-					これにより、敵は受けるダメージが{4}倍になるが、与えるダメージも{5}倍になる
+					攻撃を受けるとシャドウビームとデーモンサイスが下方向に発射される
+					{2}で近くの敵を闇魔法で{3}秒間激昂させる
+					激昂した敵は受ける総ダメージが{4}倍になるが、プレイヤーに与えるダメージも{5}倍になる
 					'''
 				Tooltip:
 					'''
-					最大ミニオン数が{0}増加
-					ダメージが{1}%増加、クリティカル率が{2}%上昇
+					ミニオンの最大数が{0}増加する
+					ダメージが{1}%、クリティカル率が{2}%増加する
 					'''
 				DisplayName: デーモンシェードの兜
 			}
 
 			DemonshadeGreaves: {
-				Tooltip: 影のような速さ
+				Tooltip:
+					'''
+					移動速度が{0}%、加速が{1}%増加する
+					[c/aaaaaa:インベントリでShift-<右クリック>すると加速上昇効果を切り替えできる]
+					'''
 				DisplayName: デーモンシェードの足甲
 			}
 
@@ -21034,7 +29508,7 @@ Items: {
 					ダメージとクリティカル率が{1}%増加
 					近接速度が{2}%上昇
 					{3}%の確率で弾薬を消費しない
-					静止すると影を吸収し指数的に加速するライフ自然回復を得る
+					静止すると時間経過で加速するライフ自然回復を得る
 					'''
 				DisplayName: デーモンシェードの鎧
 			}
@@ -21046,7 +29520,7 @@ Items: {
 					ライフが{1}%未満の間、防御力が{0}増加
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus:
 					'''
@@ -21056,7 +29530,7 @@ Items: {
 					ライフが{1}%未満の間、防御力が{0}増加
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip:
 					'''
@@ -21074,7 +29548,7 @@ Items: {
 					ローグのクリティカルヒットにライフ吸収が付与される
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus:
 					'''
@@ -21083,7 +29557,7 @@ Items: {
 					ローグのクリティカルヒットにライフ吸収が付与される
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip:
 					'''
@@ -21101,7 +29575,7 @@ Items: {
 					遠距離武器は{2}秒ごとに血のオーブを発射する
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵は攻撃時にハートを落とす
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus:
 					'''
@@ -21110,7 +29584,7 @@ Items: {
 					遠距離武器は{2}秒ごとに血のオーブを発射する
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵は攻撃時にハートを落とす
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip:
 					'''
@@ -21128,7 +29602,7 @@ Items: {
 					この効果には{4}秒のクールダウンがある
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus:
 					'''
@@ -21138,7 +29612,7 @@ Items: {
 					この効果には{4}秒のクールダウンがある
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip:
 					'''
@@ -21155,7 +29629,7 @@ Items: {
 					クリティカルで{1}秒ごとに炎が爆発する
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus:
 					'''
@@ -21163,7 +29637,7 @@ Items: {
 					クリティカルで{1}秒ごとに炎が爆発する
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip:
 					'''
@@ -21187,7 +29661,7 @@ Items: {
 					'''
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵に攻撃がヒットした時にハートを落とすようになる
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				Tooltip: ダメージが{0}%増加し、クリティカル率が{1}%上昇する
 				DisplayName: ブラッドフレアの鎧
@@ -21381,7 +29855,7 @@ Items: {
 					遠距離武器は{2}秒ごとに血のオーブを発射する
 					クリムゾン防具相当のライフ自然回復を付与する
 					ライフ50%未満の敵は攻撃時にハートを落とす
-					この効果のクールダウンは5秒
+					この効果には5秒のクールダウンがある
 					'''
 				SetBonus1:
 					'''
@@ -21675,7 +30149,7 @@ Items: {
 					最大ミニオン数が{0}増加
 					召喚ダメージが{1}%増加
 					ハイドロサーミックベントを召喚して身を守る
-					ライフが{0}%未満で獄炎を付与する
+					ライフが{2}%未満で獄炎を付与する
 					被弾時に灼熱の爆発を放つ
 					'''
 				Tooltip:
@@ -21690,13 +30164,13 @@ Items: {
 				SetBonus:
 					'''
 					最大ステルス+{0}
-					ローグの武器は、2秒ごとにプレイヤーの周囲に追尾するカオスの炎を放つ
-					ライフが{0}%未満で獄炎を付与する
+					ローグの武器は、{1}秒ごとにプレイヤーの周囲に追尾するカオスの炎を放つ
+					ライフが{2}%未満で獄炎を付与する
 					被弾時に灼熱の爆発を放つ
 					'''
 				Tooltip:
 					'''
-					ローグダメージとローグクリティカル率が{0}%上昇
+					ローグダメージが{0}%、クリティカル率が{1}%上昇
 					移動速度が{2}%上昇
 					'''
 				DisplayName: ハイドロサーミックのフード
@@ -21765,9 +30239,9 @@ Items: {
 			ForbiddenCirclet: {
 				SetBonus:
 					'''
-					ステルス最大+40
-					{0}を押してカーソル位置に古代の嵐を呼び出す
-					古代の嵐は{1}マナを消費し、召喚とローグの両方のボーナスの恩恵を受ける
+					最大ステルス+{0}
+					{1}とカーソル位置に古代の嵐を呼び出す
+					古代の嵐は{2}マナを消費し、召喚とローグの両方のボーナスの恩恵を受ける
 					ローグのステルス攻撃が敵に命中すると追尾するモンスターを生み出す
 					ローグと召喚の攻撃は、1番高い性能から計算される
 					'''
@@ -21798,7 +30272,7 @@ Items: {
 				Tooltip:
 					'''
 					最大ミニオン数+{0}
-					召喚ダメージ{1}増加
+					召喚ダメージ{1}%増加
 					深淵での防御力低下を抑える
 					'''
 				DisplayName: ファソムスワーマーの鎧
@@ -21807,7 +30281,7 @@ Items: {
 			FathomSwarmerBoots: {
 				Tooltip:
 					'''
-					最大ミニオン数+{0}
+					召喚ダメージ{0}%増加
 					泳ぐ能力が付与される
 					液体に浸かっている間、移動速度が{1}%増加する
 					'''
@@ -21936,19 +30410,24 @@ Items: {
 					'''
 					ミニオン数の上限が{0}増加する
 					ダメージとクリティカル率が{1}%上昇する
-					クリティカルが発生するたび、星が降り注ぐ
-					この効果には{2}秒のクールダウンがあり、再発動にはクールダウンが必要
+					クリティカルが発生すると、星が降り注ぐ
+					この効果には{2}秒のクールダウンがある
 					'''
-				Tooltip: ダメージ+{0}%、クリティカル率+{1}%
+				Tooltip:
+					'''
+					ダメージが{0}%増加し、クリティカル率が{1}%上昇する
+					近くの生物、敵の飛び道具、罠、宝物を検知する
+					[c/aaaaaa:インベントリ内で Shift-<right>を押すことで][cbuffplr:CalamityMod/Omniscience][c/aaaaaa:の効果を切り替えられる]
+					'''
 				DisplayName: アストラルの兜
 			}
 
 			AstralBreastplate: {
 				Tooltip:
 					'''
-					ダメージが{0}%増加し、クリティカル率が{1}%上昇する
-					近くの生物、敵の飛び道具、罠、宝物を検知する
-					[c/aaaaaa:インベントリ内で Shift-<right>を押すことで][cbuffplr:CalamityMod/Omniscience][c/aaaaaa:の効果を切り替えられる]
+					最大マナが{0}増加
+					ダメージが{1}%増加
+					{2}の確率で弾薬を消費しない
 					'''
 				DisplayName: アストラルの鎧
 			}
@@ -22182,6 +30661,16 @@ Items: {
 				DisplayName: ヴォイドストライダー
 			}
 
+			TiredTail: {
+				Tooltip:
+					'''
+					空を飛ぶことができ、落下速度が低下
+					ジャンプボタンを押しながら下入力でホバリングする
+					上入力を続けて加速しろ！
+					'''
+				DisplayName: くたびれた尻尾
+			}
+
 			TarragonWings: {
 				Tooltip:
 					'''
@@ -22314,28 +30803,6 @@ Items: {
 			}
 		}
 
-		FrozenCube: {
-			Unequipped: このアクセサリーを装備すると現在の統計を表示する
-			EquippedElumphant: 現在の氷象ダメージ: +{0}%
-			EquippedDebuff: 現在の冷気デバフ強化: +{0}%
-			SalesPitch:
-				'''
-				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
-				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
-				'''
-			Tooltip:
-				'''
-				何かが閉じ込められた凍った氷塊
-				頭上に氷の象を召喚し、守ってもらう
-				象は[cbuff:CalamityMod/WindChilled]を付与する冷気ブレスと頭突きを交互に行う
-				象の頭突きは[cbuff:CalamityMod/WindChilled]状態の敵のみを狙う
-				防御力が33%減少する代わりに、失った防御力に応じて象の威力と冷気デバフのダメージが強化される
-				[DAMAGELINE]
-				[c/7497ED:「気になるのは、マンモスの方はどこへ行ったんだってことだ」]
-				'''
-			DisplayName: フローズンキューブ
-		}
-
 		XyksBlessingOrange: {
 			ArmorEnabled: "[c/58D447:有効]"
 			ArmorDisabled: "[c/D44748:無効]"
@@ -22372,11 +30839,6 @@ Items: {
 			DisplayName: 櫛
 		}
 
-		GlimmeringRibbon: {
-			Tooltip: 「私たちは生まれたときは無色なの。出会う人たちが、私たちに色を与えてくれるのよ。」
-			DisplayName: きらめくリボン
-		}
-
 		SharkyPlush: {
 			Tooltip: "[c/696969:「形なき力に、気をつけろ...」]"
 			DisplayName: シャーキーのぬいぐるみ
@@ -22409,6 +30871,11 @@ Items: {
 		HapuFruit: {
 			Tooltip: 「神経を落ち着かせる果物（思わぬ副作用があるかもしれない）」
 			DisplayName: ハープフルーツ
+		}
+
+		GlimmeringRibbon: {
+			Tooltip: 「私たちは生まれたときは無色なの。出会う人たちが、私たちに色を与えてくれるのよ。」
+			DisplayName: きらめくリボン
 		}
 
 		GhostBracelet: {
@@ -22632,6 +31099,21 @@ Items: {
 				「猫にもおすすめ！」
 				'''
 			DisplayName: ポインター
+		}
+
+		ThePact: {
+			SalesPitch:
+				'''
+				「金ってのは気まぐれなもんだ。一歩間違えりゃ、次の瞬間には……ゴミ箱暮らしだ！
+				　命そのものを賭ける、それこそが本当のギャンブルってもんだ。遺言に俺の名前を書いといてくれよ、な？」
+				'''
+			Tooltip:
+				'''
+				最大ライフが{0}倍に増加する
+				受ける攻撃の{1}%がクリティカルヒットになる
+				クリティカルヒットは{2}倍のダメージを与え、[cbuffplr:CalamityMod/FulfilledContract]を付与する
+				'''
+			DisplayName: 契約
 		}
 
 		TheFirstShadowflame: {
@@ -22951,7 +31433,7 @@ Items: {
 		SpectralVeil: {
 			Tooltip:
 				'''
-				[KEY] を押すと、最大ステルスの25%を消費して中距離テレポートを行い、一瞬無敵になる
+				[KEY]を押すと、最大ステルスの25%を消費して中距離テレポートを行い、一瞬無敵になる
 				無敵状態で何かを回避すると、即座に完全なステルス状態になる
 				混乱状態が有効な間、テレポートは不可能になる
 				ステルスゲージの増加が15%速くなる
@@ -23168,15 +31650,6 @@ Items: {
 			DisplayName: リーパートゥースのネックレス
 		}
 
-		OasisElementalinaBottle: {
-			Tooltip:
-				'''
-				海の精霊を召喚して戦わせる
-				ダメージを受けるとライフを10回復する回復魔法を放つ
-				'''
-			DisplayName: 瓶詰めの海霊
-		}
-
 		RampartofDeities: {
 			ToggleEffect: 移動速度を増加させ
 			Tooltip:
@@ -23260,10 +31733,10 @@ Items: {
 				[c/FFBF49:「だからこそ、純潔の名の下にすべてを燃やすのだ」]
 				'''
 			Reject: この呪われた魂はどんな人物であろうとも引き取ってはくれないだろう...
-			Locked: "[c/F05A5A:この結晶に宿る魂は{0}によって穢されている...]"
-			LockedBoth: "[c/F05A5A:この結晶に宿る魂は{0}と{1}によって穢されている...]"
-			ExoMechsLock: 解読不能な周波数
 			CalamitasLock: 強力な煉獄の魔術
+			ExoMechsLock: 解読不能な周波数
+			LockedBoth: "[c/F05A5A:この結晶に宿る魂は{0}と{1}によって穢されている...]"
+			Locked: "[c/F05A5A:この結晶に宿る魂は{0}によって穢されている...]"
 			Tooltip:
 				'''
 				使用者を冒涜された女神の使者に変える
@@ -23292,7 +31765,7 @@ Items: {
 		PlanebreakersPouch: {
 			Tooltip:
 				'''
-				遠距離ダメージ+15%、遠距離クリティカル率+5%、弾薬消費-20%
+				遠距離ダメージが15%増加、遠距離クリティカル率が7%上昇、弾薬消費量が20%減少する
 				20%の確率で矢を消費しない
 				[KEY]で弾薬スロットの弾を自動で切り替える
 				切り替わる弾の種類は、使用中の武器によって決まる
@@ -23315,19 +31788,14 @@ Items: {
 		PhantomicArtifact: {
 			HoldShiftTooltip:
 				'''
-				[c/8ce0ff:  亡霊の鼓舞：][c/ccf1ff: 召喚ダメージを10%増加させ、ミニオンの攻撃がナイフを生成する]
-				[c/d08aff:  亡霊の護り：][c/eed4ff: 防御力を10増加し、次に触れた飛び道具のダメージを20%吸収する盾を生成する]
-				[c/ff8cb5:  亡霊の癒し：][c/ffccde: 毎秒1HPのライフ自然回復を付与し、触れるとさらに毎秒1HPのライフ自然回復を付与するハートを生成する]
+				[c/8ce0ff:  亡霊の鼓舞：][c/ccf1ff: 召喚ダメージを{0}%増加させ、ミニオンの攻撃がナイフを生成する]
+				[c/d08aff:  亡霊の護り：][c/eed4ff: 防御力を{1}増加し、次に触れた飛び道具のダメージを20%吸収する盾を生成する]
+				[c/ff8cb5:  亡霊の癒し：][c/ffccde: 毎秒{2}HPのライフ自然回復を付与し、触れるとさらに毎秒1HPのライフ自然回復を付与するハートを生成する]
 				'''
 			Tooltip:
 				'''
 				ミニオンの攻撃がさまざまなバフを付与する
 				同系統の効果とは重複しない
-				自分のミニオンが敵にヒットするたびにランダムなバフを得る
-				これらのバフはしばらくの間、攻撃力かライフ自然回復、もしくは防御力を上昇させる
-				亡霊の鼓舞は召喚ダメージを10%増加させ、ミニオンの攻撃がナイフを生成する
-				亡霊の癒しは毎秒2HPのライフ自然回復を付与し、触れるとさらに毎秒2HPのライフ自然回復を付与するハートを生成する
-				亡霊の護りは防御力を10増加し、被ダメージ5%軽減させ、次に触れた飛び道具のダメージを20%吸収する盾を生成する
 				'''
 			DisplayName: 亡霊の遺物
 		}
@@ -23419,6 +31887,15 @@ Items: {
 			DisplayName: オカルトスカルの王冠
 		}
 
+		OasisElementalinaBottle: {
+			Tooltip:
+				'''
+				海の精霊を召喚して戦わせる
+				ダメージを受けるとライフを10回復する回復魔法を放つ
+				'''
+			DisplayName: 瓶詰めの海霊
+		}
+
 		Nucleogenesis: {
 			Tooltip:
 				'''
@@ -23480,6 +31957,11 @@ Items: {
 		}
 
 		MoonstoneCrown: {
+			HoldShiftTooltip:
+				'''
+				[c/27F5E0:「クリサディアの変貌を嘆き、数え切れぬ涙が流された]
+				[c/27F5E0:　その夕暮れの雲が晴れた先にあったのは愛する星々ではなく、敬愛する守護者たちでもなく、虚無と抗い難い恐怖だった」]
+				'''
 			Tooltip:
 				'''
 				最大マナが40増加
@@ -23490,11 +31972,6 @@ Items: {
 				マナ切れになるかマナポーションを使用するとすべての紋章が砕ける
 				紋章が砕けると5秒間新たな紋章は出現しない
 				見た目表示が無効の場合、紋章は透明かつ無音になる
-				'''
-			HoldShiftTooltip:
-				'''
-				[c/27F5E0:「クリサディアの変貌を嘆き、数え切れぬ涙が流された]
-				[c/27F5E0:　その夕暮れの雲が晴れた先にあったのは愛する星々ではなく、敬愛する守護者たちでもなく、虚無と抗い難い恐怖だった」]
 				'''
 			DisplayName: ムーンストーンの冠
 		}
@@ -23595,7 +32072,9 @@ Items: {
 		}
 
 		IVDripOnTheRocks: {
-			DisplayName: 酔いどれの点滴
+			SakeAndAleText: 近接武器サイズが25%増加するが、近接速度が10%低下する
+			CurrentAlcoholText: 内容物：
+			Empty: インベントリ内でアルコール飲料をこのアイテムに重ねると中身を注げる
 			Tooltip:
 				'''
 				[EFFECT]
@@ -23605,9 +32084,7 @@ Items: {
 				[c/aaaaaa:インベントリ内でShift-<right>すると中身を空にできる]
 				[ceffect/drunk:(酔っぱらいのつぶやき)]
 				'''
-			Empty: インベントリ内でアルコール飲料をこのアイテムに重ねると中身を注げる
-			CurrentAlcoholText: 内容物：
-			SakeAndAleText: 近接武器サイズが25%増加するが、近接速度が10%低下する
+			DisplayName: 酔いどれの点滴
 		}
 
 		IronBoots: {
@@ -23824,6 +32301,28 @@ Items: {
 			DisplayName: キノコの塊
 		}
 
+		FrozenCube: {
+			Unequipped: このアクセサリーを装備すると現在の統計を表示する
+			EquippedElumphant: 現在の氷象ダメージ: +{0}%
+			EquippedDebuff: 現在の冷気デバフ強化: +{0}%
+			SalesPitch:
+				'''
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
+				'''
+			Tooltip:
+				'''
+				何かが閉じ込められた凍った氷塊
+				頭上に氷の象を召喚し、守ってもらう
+				象は[cbuff:CalamityMod/WindChilled]を付与する冷気ブレスと頭突きを交互に行う
+				象の頭突きは[cbuff:CalamityMod/WindChilled]状態の敵のみを狙う
+				防御力が33%減少する代わりに、失った防御力に応じて象の威力と冷気デバフのダメージが強化される
+				[DAMAGELINE]
+				[c/7497ED:「気になるのは、マンモスの方はどこへ行ったんだってことだ」]
+				'''
+			DisplayName: フローズンキューブ
+		}
+
 		FrostFlare: {
 			Tooltip:
 				'''
@@ -23844,6 +32343,20 @@ Items: {
 			DisplayName: フロストバリア
 		}
 
+		FragmentsOfAnotherWorld: {
+			Tooltip:
+				'''
+				[cbuffplr:CalamityMod/WhisperingDeath]への耐性を得る
+				近接速度が{0}%上昇
+				特殊遠距離ダメージが{1}倍
+				マナ消費量が{2}%減少
+				セントリー上限+{3}
+				ローグ攻撃速度が{4}%上昇
+				[c/ff0000:「影に願いを語るな、奴らは聞いている」]
+				'''
+			DisplayName: 異世界の欠片
+		}
+
 		FleshTotem: {
 			Tooltip:
 				'''
@@ -23861,6 +32374,7 @@ Items: {
 		FlameLickedShell: {
 			Tooltip:
 				'''
+				ノックバックを無効化する
 				[KEY] を押すとパリィが発動し、岩に包まれる
 				パリィが成立すると、岩が爆発する
 				爆発時、受けるはずだったダメージが90%軽減され、灼熱の岩の破片が放たれる
@@ -23906,6 +32420,11 @@ Items: {
 		}
 
 		FeatherCrown: {
+			HoldShiftTooltip:
+				'''
+				[c/81B7F7:「若き魔術師たちは羽根を身に着け、星明かりの夜空を見上げた。それはまるで天の息吹を迎え入れるかのようだった。]
+				[c/81B7F7:　マナと交わることは世界と交わることであり、さらにその竜なる支配者たちと交わることでもあった。」]
+				'''
 			Tooltip:
 				'''
 				2秒ごとに[c/81B7F7:天空の羽]を召喚する（最大5枚）
@@ -23915,12 +32434,16 @@ Items: {
 				羽根を失うと5秒間新たな羽根を獲得できない
 				見た目表示が無効の場合、羽根は透明かつ無音になる
 				'''
-			HoldShiftTooltip:
-				'''
-				[c/81B7F7:「若き魔術師たちは羽根を身に着け、星明かりの夜空を見上げた。それはまるで天の息吹を迎え入れるかのようだった。]
-				[c/81B7F7:　マナと交わることは世界と交わることであり、さらにその竜なる支配者たちと交わることでもあった。」]
-				'''
 			DisplayName: フェザークラウン
+		}
+
+		FadedIdolatry: {
+			Tooltip:
+				'''
+				[i:CalamityMod/YharonsKindleStaff]ヤーロンの杖のミニオンスロットの消費が1減少する
+				[c/ffe100:「すべてが塵へと還った時、お前が築いた世界には何が残るのだろうか？」]
+				'''
+			DisplayName: 色褪せた偶像
 		}
 
 		EyeoftheStorm: {
@@ -24006,20 +32529,6 @@ Items: {
 			DisplayName: 電気絶縁手袋
 		}
 
-		FragmentsOfAnotherWorld: {
-			Tooltip:
-				'''
-				[cbuffplr:CalamityMod/WhisperingDeath]への耐性を得る
-				近接速度が{0}%上昇
-				特殊遠距離ダメージが{1}倍
-				マナ消費量が{2}%減少
-				セントリー上限+{3}
-				ローグ攻撃速度が{4}%上昇
-				[c/ff0000:「影に願いを語るな、奴らは聞いている」]
-				'''
-			DisplayName: 異世界の欠片
-		}
-
 		EclipseMirror: {
 			FlavorTooltip: 「光を反射しない...」
 			HoldShiftTooltip:
@@ -24086,13 +32595,18 @@ Items: {
 			DisplayName: ドレイドンの心臓
 		}
 
-		CrushingEgo: {
+		DivineProvidence: {
 			Tooltip:
 				'''
-				すべてのダメージが1.3倍になるが、受けるダメージが20%増加する
-				[c/ff00ff:「傲慢の仮面をかぶり、孤独に舞い踊れ。宴が静まり返ったとき、最後に立っているのはお前だ。」]
+				ノックバックを無効化
+				[KEY]を押すとパリィを発動し、光り輝く聖なるクリスタルに包まれる
+				クリスタルに包まれた直後に攻撃を受けると、クリスタルが砕ける
+				クリスタルが砕けると、聖なる星が螺旋状に飛び散り、受けるダメージを無効化する
+				クリスタルが砕けた後、このダメージ軽減効果はクールダウンに入る
+				クールダウン中にパリィしたダメージを受けると、追加の回復する星を召喚するが、ダメージは軽減されない
+				[c/FF8C00:「至高なる聖女の灼熱の核」]
 				'''
-			DisplayName: クラッシングエゴ
+			DisplayName: 神聖なる摂理
 		}
 
 		DiamondOfTheDeep: {
@@ -24104,8 +32618,8 @@ Items: {
 				[c/CB7AD7:ライフが50%未満]の状態で散開すると、精霊は代わりに支援を行う
 				精霊は順番に出現し、色ごとに異なる効果を持つ:
 				[c/3CB371: 着弾時に爆発し、][cbuff:CalamityMod/CrushDepth][c/3CB371: を付与] / [c/CB7AD7: ライフを8回復]
-				[c/FF4500: 敵を貫通し、][cbuff:OnFire3][cbuff:を付与] / [c/CB7AD7: 一時的に防御力を10増加]
-				[c/1E90FF: 複数回ヒットし、][cbuff:CalamityMod/HadopelagicPressure][c/1E90FF: を付与] / [c/CB7AD7: 最大ライフの5%を回復]
+				[c/FF4500: 敵を貫通し、][cbuff:OnFire3][c/FF4500:を付与] / [c/CB7AD7: 一時的に防御力を10増加]
+				[c/1E90FF: 複数回ヒットし、][cbuff:CalamityMod/HadopelagicPressure][c/1E90FF:を付与] / [c/CB7AD7: 最大ライフの5%を回復]
 				見た目表示を無効にすると、精霊は透明かつ無音になる
 				'''
 			DisplayName: 深淵のダイヤモンド
@@ -24143,10 +32657,11 @@ Items: {
 		DeadshotBrooch: {
 			Tooltip:
 				'''
-				遠距離ダメージ10%増加、遠距離クリティカル率5%増加、弾薬使用量20%減少
-				すべての弾丸の弾速を大幅に増加させる
+				遠距離ダメージが12%増加、遠距離クリティカル率が7%上昇、弾薬消費量が20%減少
+				[KEY]を押すと、弾薬スロット内の弾薬の順番を自動で入れ替える
+				入れ替わる弾薬の種類は、手に持っている武器の弾薬に応じて決まる
 				'''
-			DisplayName: 必殺のブローチ
+			DisplayName: 必中のブローチ
 		}
 
 		DarkSunRing: {
@@ -24156,7 +32671,6 @@ Items: {
 				  昼間：毎秒+2のライフ回復を付与する
 				  夜間：防御力+16を付与する
 				  日食時：毎秒+1のライフ回復と防御力+8を付与する
-
 				'''
 			Tooltip:
 				'''
@@ -24210,6 +32724,15 @@ Items: {
 				「古代の遺物の一つ」
 				'''
 			DisplayName: 冷たい石
+		}
+
+		CrushingEgo: {
+			Tooltip:
+				'''
+				すべてのダメージが1.3倍になるが、受けるダメージが20%増加する
+				[c/ff00ff:「傲慢の仮面をかぶり、孤独に舞い踊れ。宴が静まり返ったとき、最後に立っているのはお前だ。」]
+				'''
+			DisplayName: クラッシングエゴ
 		}
 
 		CrownJewel: {
@@ -24374,21 +32897,6 @@ Items: {
 			DisplayName: ブラッドフレアのコア
 		}
 
-		BlazingCore: {
-			Tooltip:
-				'''
-				冒涜された女神の灼熱のコア
-				[KEY] を押すとパリィが発動する
-				発動後に被弾すると、パリィが成立し、クリスタルは粉々になる
-				パリィが成立すると、周囲に星を放ち、受けるはずだったダメージが1になる
-				その後、このダメージ軽減効果はクールダウンに入る
-				クールダウン中でもパリィが成立すると周囲に星を放つ
-				クールダウンの間、攻撃のダメージは減少しない
-				深淵での視認性を向上させる
-				'''
-			DisplayName: 灼熱のコア
-		}
-
 		BlackGlassBand: {
 			Tooltip:
 				'''
@@ -24429,15 +32937,6 @@ Items: {
 			DisplayName: 勇気の印
 		}
 
-		FadedIdolatry: {
-			Tooltip:
-				'''
-				[i:CalamityMod/YharonsKindleStaff]ヤーロンの杖のミニオンスロットの消費が1減少する
-				[c/ffe100:「すべてが塵へと還った時、お前が築いた世界には何が残るのだろうか？」]
-				'''
-			DisplayName: 色褪せた偶像
-		}
-
 		AsgardsValor: {
 			Tooltip:
 				'''
@@ -24459,12 +32958,12 @@ Items: {
 		AscendantInsignia: {
 			Tooltip:
 				'''
-				翼の飛行時間が30%増加
-				移動速度とジャンプ速度が10% 増加、加速が 1.1倍になる
-				[KEY] を押すと「昇天の力」を得て、4秒間無限飛行が可能になる
-				この効果は40秒のクールダウンが必要
+				翼の飛行時間が{0}秒増加
+				移動速度が{1}%、ジャンプ速度が{2}%、加速度が{3}倍増加する
+				[KEY]を押すと飛行時間が完全に回復し、{4}秒間減少しなくなる
+				この能力には{5}秒のクールダウンがある
 				'''
-			DisplayName: アセンダントの記章
+			DisplayName: 昇天の徽章
 		}
 
 		ArchaicPowder: {
@@ -24551,7 +33050,7 @@ Items: {
 				天の力を、自分とミニオンに付与する
 				最大ミニオン数+{0}、召喚ダメージが{1}%増加、その他全クラスのダメージが{2}%増加
 				飛行時間を一部または完全に消費している間、ライフ自然回復+{3}/秒
-				[KEY]キーで[cbuff:CalamityMod/DivineBless]を{4}秒間付与
+				[KEY]で[cbuff:CalamityMod/DivineBless]を{4}秒間付与
 				神聖なる加護の効果中、ミニオン1体につき、戦闘を補助する大天使1体を召喚する
 				出現した天使は、即座にライフを{5}回復する
 				すべてのミニオンの攻撃は[cbuff:CalamityMod/BanishingFire]を与え、{6}秒ごとに4ずつ自分のライフが増加する
@@ -24695,15 +33194,15 @@ Items: {
 		}
 
 		Abaddon: {
-			DisplayName: アバドン
+			Unequipped: 現在の[cbuff:CalamityMod/Bane]ダメージを表示するにはこのアクセサリーを装備する必要がある
+			Equipped: 現在の[cbuff:CalamityMod/Bane]ダメージ: {0} DPS
 			Tooltip:
 				'''
 				クリティカルヒット時、クリティカル率に依存する[cbuff:CalamityMod/Bane]を敵に付与する
 				クリティカルヒットを受けた敵は、自身に付与されている[cbuff:CalamityMod/Bane]より弱いデバフを周囲の敵へ拡散する
 				[DAMAGELINE]
 				'''
-			Equipped: 現在の[cbuff:CalamityMod/Bane]ダメージ: {0} DPS
-			Unequipped: 現在の[cbuff:CalamityMod/Bane]ダメージを表示するにはこのアクセサリーを装備する必要がある
+			DisplayName: アバドン
 		}
 	}
 }
@@ -24780,6 +33279,10 @@ Events: {
 }
 
 DamageClasses: {
+	AllClassDamageClass: {
+		DisplayName: all-class damage
+	}
+
 	VoidTagDmgType: {
 		DisplayName: void tag damage
 	}
@@ -25218,15 +33721,6 @@ Configs: {
 			Label: "[i:LaserRuler] レイジメーターX位置"
 		}
 
-		BoCSpriteChange: {
-			Tooltip:
-				'''
-				恐怖症を誘発する可能性のある不快な表現を取り除くため、一部のボスのスプライトを変更する
-				人体が変形したような不気味な表現が苦手な場合や、集合体恐怖症がある場合は特に有効
-				'''
-			Label: "[i:BrainOfConfusion] 不快な表現を軽減する"
-		}
-
 		Photosensitivity: {
 			Tooltip:
 				'''
@@ -25246,6 +33740,15 @@ Configs: {
 				'''
 			Label: "[i:FragmentStardust] 最大パーティクルリミット"
 		}
+
+		MisophoniaSupport: {
+		Tooltip:
+			'''
+			繰り返し再生される、不快に感じやすい効果音を無効化または変更します
+			特定の音を聞くと強い不快感を覚える人に特におすすめです
+			'''
+		Label: "[i:Megaphone] 不快な音を引き起こす可能性のある効果音を無効化"
+	}
 
 		MeterPosLock: {
 			Tooltip:
@@ -25324,15 +33827,6 @@ Configs: {
 			Label: "[i:CalamityMod/TheSponge] エネルギーシールドの不透明度"
 		}
 
-		EnableVanillaTextureEdits: {
-			Tooltip:
-				'''
-				攻撃の予兆を分かりやすくするために、バニラボスのテクスチャに軽微な調整を加えます
-				テクスチャパックとの互換性を優先する場合は無効にしてください
-				'''
-			Label: "[i:Paintbrush] バニラテクスチャの調整を有効化"
-		}
-
 		DisableGravityScreenSwap: {
 			Tooltip:
 				'''
@@ -25397,6 +33891,15 @@ Configs: {
 			Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] ボスライフバー追加情報"
 		}
 
+		BoCSpriteChange: {
+			Tooltip:
+				'''
+				恐怖症を誘発する可能性のある不快な表現を取り除くため、一部のボスのスプライトを変更する
+				人体が変形したような不気味な表現が苦手な場合や、集合体恐怖症がある場合は特に有効
+				'''
+			Label: "[i:BrainOfConfusion] 不快な表現を軽減する"
+		}
+
 		Afterimages: {
 			Tooltip:
 				'''
@@ -25430,7 +33933,7 @@ Configs: {
 		}
 
 		Headers: {
-			MusicToggles: 音楽の再生設定
+			AudioToggles: Audio Toggles
 			MeterPositions: メーター位置
 			UI: UI変更
 			Graphics: グラフィック変更
@@ -25460,7 +33963,6 @@ Condition: {
 	HasRogueArmor: While wearing rogue armor
 	GibbousMoons: During a gibbous moon
 	CrescentMoons: During a crescent moon
-	LacewingBestiary: When at least 40% of the Bestiary has been completed
 	HasFlareGun: While holding a Flare Gun upgrade
 
 	Drops: {
@@ -25469,11 +33971,11 @@ Condition: {
 			Drops if Providence was defeated only with the [i:CalamityMod/ProfanedSoulArtifact] Profaned Soul Artifact
 			エキスパートモードでのドロップ率
 			'''
-		ProvidenceEnraged: Drops if Providence has been enraged
 		MechBoss: Drops on the first kill of the final Mechanical Boss
 		FirstKill: Drops only on the first kill
 		DownedT2AR: Drops after defeating the second tier of Acid Rain
 		DownedT1AR: Drops after defeating the first tier of Acid Rain
+		DownedDreadnautilus: After defeating Dreadnautilus
 		DownedBetsy: Drops after defeating Betsy
 		DownedGSS: Drops after defeating the Great Sand Shark
 		DownedClamHM: Drops after defeating the Giant Clam in Hardmode
@@ -25600,11 +34102,11 @@ Common: {
 	AggroBoost: 敵に狙われやすくなる
 	MinionSlotCostSingle: 使用ミニオンスロット：{0}
 	MinionSlotCost: 使用ミニオンスロット：{0}
-	DoubleTapDown: "{0}を2回押す"
-	ArmorSetBonusKey: "{0}を押す"
+	DoubleTapDown: "{0}キーを2回押す"
+	ArmorSetBonusKey: "{0}キーを押す"
 	NoArmorSetBonusKey: 防具セットボーナスキーを押す
-	BothArmorSetBonusKeys: "{0}を押すか、{1}を2回押す"
-	CritDamageTootip: "クリティカルダメージ+{0}%"
+	BothArmorSetBonusKeys: "{0}キーを押すか、{1}キーを2回押す"
+	CritDamageTootip: クリティカルダメージ+{0}%
 	RogueStealth: 最大ステルス量が+{0}増加
 	RogueVelocity: ローグ弾速が{0}%増加
 	RogueDamageCrit: ローグダメージとクリティカル率が{0}%増加
@@ -26066,11 +34568,6 @@ Buffs: {
 		DisplayName: ダイダロスクリスタル
 	}
 
-	Crimslime: {
-		Description: クリムスライムが共に戦ってくれる
-		DisplayName: クリムスライム
-	}
-
 	CosmilampBuff: {
 		Description: 宇宙のランタンが共に戦ってくれる
 		DisplayName: 宇宙のランタン
@@ -26089,11 +34586,6 @@ Buffs: {
 	CorvidHarbringerBuff: {
 		Description: 大きなカラスが共に戦ってくれる
 		DisplayName: カラス
-	}
-
-	Corroslime: {
-		Description: コーロスライムが共に戦ってくれる
-		DisplayName: コーロスライム
 	}
 
 	CloudElemental: {
@@ -26136,6 +34628,11 @@ Buffs: {
 		DisplayName: ブリムシーカー
 	}
 
+	BlightedSlime: {
+		Description: 汚染されたスライムが共に戦ってくれる
+		DisplayName: 汚染スライム
+	}
+
 	BlackHawkBuff: {
 		Description: 戦闘機が共に戦ってくれる
 		DisplayName: ブラックホーク
@@ -26151,9 +34648,9 @@ Buffs: {
 		DisplayName: 赤ちゃんストームリオン
 	}
 
-	BabySlimeGodBuff: {
-		Description: スライムゴッドが共に戦ってくれる
-		DisplayName: ミニ・スライムゴッド
+	BabyPaladinBuff: {
+		Description: 汚染されたパラディンが共に戦ってくれる
+		DisplayName: ベビーパラディン
 	}
 
 	BabyBloodCrawlerBuff: {
@@ -26420,7 +34917,6 @@ Buffs: {
 		DisplayName: 冒涜されたムチの呪い
 	}
 
-    # 修正
 	ProfanedCrystalBuff: {
 		LockedSCal: 「このクリスタルの中の魂は、至高の魔女の強力な魔法によって穢されている」
 		LockedExos: 「このクリスタルの中にある魂は、危険な機械が発する圧倒的なエネルギーによって穢されてしまった」
@@ -26505,6 +35001,17 @@ Buffs: {
 	GraxBoost: {
 		Description: 防御力と筋力が強化されてい
 		DisplayName: グラックスブースト
+	}
+
+	FulfilledContract: {
+		ItemTooltipPlayer:
+			'''
+			回復ポーションのクールダウンが25%短縮
+			自然回復力が75%増加
+			すべての攻撃に裂傷を付与
+			'''
+		Description: 血と涙によって得られた報酬
+		DisplayName: 履行された契約
 	}
 
 	Encased: {
@@ -27655,11 +36162,6 @@ Biomes: {
 		DisplayName: 玄武岩の峡谷
 	}
 
-	FloralParadiseBiome: {
-		TownNPCDialogueName: 花咲く楽園
-		DisplayName: 花咲く楽園
-	}
-
 	AstralCaveDesert: {
 		TownNPCDialogueName: アストラル汚染地下砂漠
 		DisplayName: アストラル汚染地下砂漠
@@ -27959,7 +36461,6 @@ Bestiary: {
 	Rimehound: ヤリムの軍勢によってツンドラの過酷な環境に適応するよう飼育・訓練された猟犬である。偵察兵としての役割を担っていたが、多くは主人に見捨てられ、目的を失ったまま永遠にさまよっている。
 	ProfanedEnergyBody: 彼女に最も忠実な者たちは、スパイや暗殺者として社会に潜入し、彼女に捧げられた神殿を建設する役割を担っている。その神殿は彼女の神聖な力を宿しており、闇に目を眩まされた異教徒たちに、彼女の新しい時代の光景を授けることができる。
 	Piggy: これらの小さなブタは目的もなく大地を歩き回るが、それだけで満足している。しかし、彼らの小さな胃がどのようにしてこれほど多くのコインを隠せるのかはいまだに謎のままだ。
-	HorribleHog: 神聖な瘴気によって堕落した豚。ブラッドムーンの緋色の光の下で邪悪にのそのそと歩き、その醜い鳴き声で群れを率いる。幸いにも完全に汚染された存在ではなく、適切な手段を用いれば本来の純粋な豚の姿へと戻すことができる。
 	PhantomSpirit: ダンジョンに囚われた霊たちは、自らの生前をぼんやりとしか覚えていない。しかし、彼らすべてが明確に覚えていることが一つある。それは、彼らをこの呪われた壁の中に閉じ込めた男の圧倒的な力であり、ダンジョンをさまよう強大な存在にその力を思い出させられたことで、彼らは混乱に陥っている。
 	PerennialSlime: 生命の女神のエッセンスの一部を取り込んだスライムである。女神が深淵の最深部に再び封じられているにもかかわらず、その影響力は世界中に伸びている。
 	OverloadedSoldier: 再び命を与えられた肉体であり、十字軍で命を落とし安らぎを得られなかった戦士たちの魂が溢れている。神のエッセンスを感じ取ったことで戦いへの渇望が再燃し、再び戦場に立つことに決めた。
@@ -27967,6 +36468,7 @@ Bestiary: {
 	ImpiousImmolator: 彼女の姿を模した偶像であり、作成者の生命力によって炎を灯されている。世界を彼女の神聖な炎で覆うことを望む者にとって、自身の命の重みは些細なものらしい。
 	IceClasper: その正確な起源は謎に包まれているが、冷たい住処に存在する熱源をすべて消し去ろうとしていることは知られている。この事実と記録を考慮すると、アイスクラスパーがツンドラの形成に重要な役割を果たした可能性が高いとされている。
 	EarthElemental: ブリムストーンエレメンタルが休眠した後、アザフレの鍛冶師たちは、歯車仕掛けと結晶を用いて、エレメンタルの力を機械の身体へと封じ込めた。それは確かに強力ではあったが、真のエレメンタルの代替を生み出すという夢は、アザフレそのものの滅びとともに果たされないまま終わったようだ。
+	HorribleHog: 神聖な瘴気によって堕落した豚。ブラッドムーンの緋色の光の下で邪悪にのそのそと歩き、その醜い鳴き声で群れを率いる。幸いにも完全に汚染された存在ではなく、適切な手段を用いれば本来の純粋な豚の姿へと戻すことができる。
 	Frogfish: 巧妙にカモフラージュし、いつでも攻撃できる状態にある魚である。この生物は、かつて栄華を極めた帝国の中心で、海がどれほど静穏とは程遠い場所かを物語っている。
 	FearlessGoldfishWarrior: 金魚は池や湖に生しているが、嵐の際には地上に上がり、地表に現れたミミズを捕食することもある。中には光る金の短剣を持った戦士のような金魚の目撃例もあるが、多くの人はその話を信じがたいものと見なしている。
 	Eidolist: かつては竜を信仰する教団の一員であったが、現在は新たな主人の庇護を求める存在である。竜のような生態を持つため、深淵に無限に生息することができ、新たな使命を果たしている。

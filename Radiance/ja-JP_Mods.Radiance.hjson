@@ -1,0 +1,432 @@
+Configs: {
+	AttackDifficulty: {
+		Harder: {
+			Tooltip: ""
+			Label: 困難
+		}
+
+		Easier: {
+			Tooltip: ""
+			Label: 簡単
+		}
+
+		World: {
+			Tooltip: ""
+			Label: ワールド難易度
+		}
+
+		Tooltip: ""
+	}
+
+	GlowQuality: {
+		Off: {
+			Tooltip: ""
+			Label: 無効
+		}
+
+		Normal: {
+			Tooltip: ""
+			Label: 通常
+		}
+
+		Higher: {
+			Tooltip: ""
+			Label: ハイクオリティ
+		}
+
+		Tooltip: ""
+	}
+
+	LightsWrathDebuffImmunity: {
+		Normal: {
+			Tooltip: ""
+			Label: 通常
+		}
+
+		Reduced: {
+			Tooltip: ""
+			Label: 低減
+		}
+
+		Off: {
+			Tooltip: ""
+			Label: 無し
+		}
+
+		Tooltip: ""
+	}
+
+	RadiantCharmNerfSize: {
+		None: {
+			Tooltip: ""
+			Label: 無し
+		}
+
+		Medium: {
+			Tooltip: ""
+			Label: 中
+		}
+
+		Large: {
+			Tooltip: ""
+			Label: 大
+		}
+
+		Tooltip: ""
+	}
+
+	World: {
+		MiscHeader: Misc
+		ItemTweaksHeader: Item Tweaks
+		GameplayTweaksHeader: Gameplay Tweaks
+
+		debugMode: {
+			Tooltip: 開発者で無い限り、有効にしないでください。
+			Label: デバッグモード
+		}
+
+		lightsWrathDebuffImmunity: {
+			Tooltip:
+				'''
+				光の憤怒は、ナースが治癒できるデバフを無効化します。この効果は、他Modとの競合を引き起こす可能性があります。
+				起きた場合は、"低減"または"無し"に設定してください。
+				通常：アイテムの使用により受けるデバフ以外の全てのデバフを無効化します。
+				低減：外的要因によるデバフを無効化します。(発射体等)
+				無し：なんのデバフも無効化しません。
+				'''
+			Label: 光の憤怒のデバフ無効化の設定
+		}
+
+		radiantCharmNerf: {
+			Tooltip:
+				'''
+				燦爛のお守りの武器強化を調整し、他Modとの互換性を向上します。
+				無し：ゼニス以降
+				中：ムーンロード以降よりちょっと強いぐらい
+				大：ムーンロード以降
+				'''
+			Label: 燦爛のお守りの武器強化の弱体化
+		}
+
+		attackDifficulty: {
+			Tooltip:
+				'''
+				ボスの難易度は通常ワールド難易度によって変動しますが、ここで強制的に特定の難易度に変更させることができます。
+				ワールド難易度：ボスの難易度はワールド難易度に従います。
+				簡単：エキスパート以下の難易度。束の間の光槍は使われず、融解光の命中精度は低下します。
+				困難：マスターの難易度。全くの慈悲のない難易度。
+				'''
+			Label: ボス難易度
+		}
+
+		nighttimeTerraprisma: {
+			Tooltip: プレイヤーが夜間にノーヒットでエンプレスオブライトを撃破した時、テラプリズマがドロップするようになります。
+			Label: テラプリズマの夜間ドロップ
+		}
+
+		phasePractice: {
+			Tooltip:
+				'''
+				指定した形態から戦闘が行われ、それが終わると戦闘は終了します。
+				-1：通常通り戦闘が行われ、全ての報酬を獲得できます。
+				0：開幕（可能な場合。不可能な場合、第一形態が行われます。）
+				1：第一形態。
+				2：第二形態。
+				3：第三形態。(可能な場合、不可能な場合、第二形態が行われます。)
+				'''
+			Label: 練習モード
+		}
+
+		alwaysUseHardAttacks: {
+			Tooltip:
+				'''
+				夜間に日中の攻撃を使用するようになります。
+				夜間では、ダメージが大幅に減少し、"破滅"デバフは付与されません。
+				この設定が有効な場合、主要な報酬は無効化され、副次的な報酬も減少します。
+				'''
+			Label: 夜間モード
+		}
+
+		DisplayName: ワールド設定
+	}
+
+	Client: {
+		VisualTweaksHeader: Visual Tweaks
+
+		lightsWrathBeamVolume: {
+			Tooltip: 光の憤怒から発射されるビームの音量を調整します。
+			Label: 光の憤怒のビームの音量
+		}
+
+		skyBrightness: {
+			Tooltip: 空が暗くなる演出の度合いを調整します。
+			Label: 空の暗さ
+		}
+
+		forceFiltersEnabled: {
+			Tooltip:
+				'''
+				光表現の設定がレトロ、またはトリッピーな場合でもフィルターを強制的に有効化するようにします。
+				特定のエフェクトが表示されないのを防ぎます。
+				他Modが同じような変更をしている場合、この設定を無効にしてください。
+				'''
+			Label: フィルターの強制適用
+		}
+
+		screenShakeIntensity: {
+			Tooltip: 画面の揺れ効果の強度を調整します。
+			Label: 画面の揺れ効果の強度
+		}
+
+		reducedFlashing: {
+			Tooltip: 一部の激しい点滅を無効化します。
+			Label: 点滅の低減
+		}
+
+		glowQuality: {
+			Tooltip:
+				'''
+				特定の光効果の品質の調整。パフォーマンスの向上がわずかに見込めます。
+				
+				ハイクオリティ：複数の光が重なった際の見栄えが少しだけ向上します。
+				通常：デフォルト。
+				無効：完全に無効化します。
+				'''
+			Label: 光演出の品質
+		}
+
+		blueFix: {
+			Tooltip: 何らかの理由で、tModLoaderは昼間のエンプレスオブライトを青色に表示します。この設定はそれを修正します。
+			Label: 青いエンプレスオブライトの修正
+		}
+
+		nighttimeGlow: {
+			Tooltip: 夜間のボスの発射体にも光演出を適用させます。
+			Label: 夜間の光演出
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+# Dialogue: {
+# 	Phase3Transform0Alt: That quickly?
+# 	Phase3Transform6: This isn't over yet.
+# 	Phase3Transform5: If you wish to win this battle, you will have to endure every last ounce of my strength.
+# 	Phase3Transform4: I will not yield to you so easily.
+# 	Phase3Transform3: ...No.
+# 	Phase3Transform2: How is it that you continue to survive, even as I push my abilities closer and closer to their limits?
+# 	Phase3Transform1: How can this be possible?
+# 	Phase3Transform0: ...
+# 
+# 	Victory: {
+# 		NighttimeTerraprisma1: Are you trying to impress me?
+# 		NighttimeTerraprisma0: Trying to show off?
+# 		NighttimeTooFast2: Can't we do this when it's brighter outside?
+# 		NighttimeTooFast1: "{0} {^0:second;seconds}? I hate nighttime..."
+# 		NighttimeTooFast0: It's over already?
+# 		SecretNohit5: It is yours, regardless.
+# 		SecretNohit4: I have a gift for you as usual, but your recent performance makes me question whether it will be of any use.
+# 		SecretNohit3: I believed my power was absolute. How arrogant that seems now...
+# 		SecretNohit2: ...
+# 		SecretNohit1: With the full force of my abilities, I couldn't hit you even a single time?!
+# 		SecretNohit0: No. This can't be happening!
+# 		Secret5: I now bestow upon you my final gift. Will it mark the end of your journey?
+# 		Secret4: I do not have the strength to fight you any longer, so you have my concession, and I will offer you one last reward. Perhaps it will make up for the pain I have caused you.
+# 		Secret3: Your skill grows quickly, too. Although you may not be able to kill me, it appears I am already not strong enough to end you, either.
+# 		Secret2: You are something which I have not seen before. It seems no matter how many times I strike you down, you only come back stronger.
+# 		Secret1: I feared this day would come eventually.
+# 		Secret0: Unbelievable. You're still alive.
+# 		Nohit5: Your skills are remarkable, but I hope you aren't trying to prove something...
+# 		Nohit4: I have something special for you. I think you deserve it.
+# 		Nohit3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
+# 		Nohit2: Your abilities prove stronger than I thought. Maybe I was wrong to underestimate you.
+# 		Nohit1: You're untouched.
+# 		Nohit0: Very impressive.
+# 		Default1Alt: I must admit,
+# 		Default5: Do not misuse it.
+# 		Default4: I have something for you. An offering of peace, perhaps?
+# 		Default3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
+# 		Default2: You're certainly stronger than you look.
+# 		Default1: I have to admit,
+# 		Default0: Impressive.
+# 		Invalid5Alt: Take these for now. They may be of some use to you.
+# 		Invalid3Alt: Well, I suppose I should give you something for your effort.
+# 		Invalid5: Take these for now.
+# 		Invalid4: If you want something greater you will have to challenge me when my abilities aren't so weak.
+# 		Invalid3: Well, I suppose I should give you a reward of some sort.
+# 		Invalid2: My powers were kind of disappointing this time, weren't they?
+# 		Invalid1: That's it?
+# 		Invalid0: ...
+# 	}
+# 
+# 	BellCutscene2: How about you ring this to summon me instead?
+# 	BellCutsceneAlt1: I have a solution to this.
+# 	BellCutscene1: I have an idea.
+# 	BellCutsceneAlt0: You really don't like those butterflies, huh?
+# 	BellCutscene0: You're going to make those critters extinct at this rate.
+# 
+# 	PostOpeningAttack: {
+# 		ManyTries2: It doesn't have to be this way...
+# 		ManyTries1: Are you sure this is necessary?.
+# 		ManyTries0: You survived.
+# 		FewTries1: I hope you understand what you're getting yourself into.
+# 		FewTries0: Still alive, huh?
+# 		FirstTry2: Let's see how long you last...
+# 		FirstTry1: Your skills truly are remarkable.
+# 		FirstTry0: That was quick.
+# 	}
+# 
+# 	PostSummonSecret2: Ready to see what I'm really capable of?
+# 	PostSummonSecret1: Alright then.
+# 	PostSummonSecret0: With my very own gift to you...
+# }
+
+Projectiles: {
+	TransientLance: {
+		DisplayName: 束の間の光槍
+	}
+
+	EventideLaser: {
+		DisplayName: 束の間の光槍
+	}
+
+	RadiantBolt: {
+		DisplayName: 集中光弾
+	}
+
+	RadiantBeam: {
+		DisplayName: 超放射光線
+	}
+
+	MeltingLight: {
+		DisplayName: 融解光
+	}
+
+	Gift: {
+		DisplayName: 贈り物
+	}
+}
+
+RadiantCharmSynergies: {
+	RadiantTerraprisma: 攻撃速度とリーチが上昇し、壁を無視するようになる。
+	RadiantStarlight: ホーミングライトを発射でき、壁を貫通して攻撃できるようにする。
+	RadiantNightglow:
+		'''
+		より強力な壁を無視するホーミング弾。
+		貫通はせず、代わりに爆発を起こす。
+		'''
+	RadiantKaleidoscopeCritChanceTooltip: "タグのクリティカル率を{0}%上昇させる。"
+	RadiantKaleidoscope: リーチが上昇し、自動でスイングするようになり、壁を無視するようになる。
+	RadiantEventideAlt: 最大 {0} 個の小さなビームによって反射される、貫通する長距離レーザーを発射する。
+	RadiantEventide:
+		'''
+		壁を無視するホーミング弾を発射する。
+		貫通後、一度爆発するようになる。
+		'''
+	RadiantEmpressWings:
+		'''
+		無限の飛行時間、そして加速度と飛行速度の上昇。
+		水中ではより高速になり、宇宙空間の重力の影響を低減。
+		ホバリングと急上昇が使用可能になる。
+		'''
+	RadiantWeaponMultiplierTooltip: "{0}倍のダメージ"
+	RadiantWeaponDamageBonus: +{0}
+	BaseEmpowered: "[i:Radiance/RadiantCharm]太陽光の力を冠している。"
+	BaseHint: 太陽の力で強化されている…？
+}
+
+Items: {
+	RadiantDye: {
+		Tooltip: ""
+		DisplayName: 染料（燦爛）
+	}
+
+	RadiantCharm: {
+		HiddenWarningTooltip: 幻影の蝶に太陽光の力を用いてはならない。それは悲劇を呼び起こすだろう、、、、
+		Tooltip:
+			'''
+			以下の装備に太陽光の力を与える。
+			-
+			'''
+		DisplayName: 燦爛のお守り
+	}
+
+	CrystalBell: {
+		LightsWrathTooltip: 光の憤怒を装備している場合、結晶鐘を用いることはできません！
+		CanUseAtNightTooltip: 設定によって夜間の使用が可能になっています。
+		OnlyUseDuringDayDontDigUpTooltip: 日中の地表でのみ使用可能。
+		OnlyUseDuringDayTooltip: 日中にのみ使用可能。
+		UnsummonTooltip: 練習モード中。再度使用して終了します。
+		CrackedTooltipCursed: お前は苦しむことになる。愚か者。	
+		CrackedTooltip: 真なるエンプレスオブライトを召喚する。
+		NormalTooltip: エンプレスオブライトを召喚する。
+		Tooltip: "\n\n"
+		DisplayName: 結晶鐘
+	}
+
+	AnomalousArtifact: {
+		PerfectFlavorText0: "「あなたにとって正気はあまり重要ではない。」"
+		FlavorText0: "「苦労してまでやる価値はあったのか？」"
+		PerfectExpandedTooltip: 完成した。 [効果が{0}%強化。]
+		PerfectTooltip: 完成した。
+		CurseTooltip: いくつかの条件付きで、ね。
+		OnHitTooltip: 発射体にライフスティール効果が付与され、攻撃中は定期的に超放射光線が発射される。
+		ShieldTooltip: ほぼ全てのデバフを無効化し、{0}秒ごとに攻撃を防ぐシールドを召喚します。
+		SpeedTooltip: プレイヤーの移動速度と射程を上昇させます。
+		Tooltip: "\n\n\n\n\n"
+		DisplayName: 光の憤怒
+	}
+}
+
+Buffs: {
+	ChaosStateLifestealTooltip: "[c/ff30c0:エンプレスオブライトはライフドレインを獲得した！ヒットするたびに彼女は回復します。]"
+
+	Ruin: {
+		Description: "[c/fff6b7:全ての攻撃があなたを死へと導く。]"
+		DisplayName: 破滅
+	}
+
+	RadiantKaleidoscope: {
+		Description: これが表示されている場合はバグってるね。おーまいがー！
+		DisplayName: Radiant Kaleidoscope
+	}
+
+	ArtifactShielded: {
+		Description: あなたはダメージから守られました。
+		DisplayName: 保護
+	}
+}
+
+DeathMessages: {
+	SunDance3: "{0}は惜しくも太陽系第九惑星とはなれなかったようだ。"
+	SunDance2: "{0}は星屑へと帰した。"
+	SunDance1: "{0}は蒸発した。"
+	SunDance0: "{0}は太陽へと堕落した。"
+	SunDanceContactDamageRare: "{0}は不快なほど温かい抱擁を受けた。"
+	RuinDeath2Alt: "{0}は{1}によって{2}から存在を消されました。"
+	RuinDeath0Alt: "{0}は{1}により存在を消し去られた。"
+	RuinDeath6: "{0}は{1}により跡形もなく消滅した。"
+	RuinDeath5: "{0}は{1}により削除されました。"
+	RuinDeath4: "{0}は{1}により虚無へと送られた。"
+	RuinDeath3: "{0}は{1}により物質という枷から解放されました。"
+	RuinDeath2: "{0}は{1}により消去されました。"
+	RuinDeath1: "{0}は{1}により壊滅しました。"
+	RuinDeath0: "{0}という概念は{1}により消去されました。"
+}
+
+DropConditions: {
+	RadiantDye: エンプレスオブライトを日中にノーヒットで撃破する。
+	RadiantCharm: エンプレスオブライトを日中に撃破する。
+}
+
+Common: {
+	LightsWrathCurseBoss: 光の憤怒はそれに危害を加えることを許さない。
+	LightsWrathCurseCritter: 光の憤怒はそれに危害を加えることを許さない。
+	InsigniaConflict1: ステータスは上昇しない。
+	InsigniaConflict0: このアクセサリーは、[i:4823]女帝の翼と[i:Radiance/RadiantCharm]燦爛のお守りが両方とも装備されている場合無効化される。
+	RecallBlockedByMultipleOpeningAttacks: 次の{0}回の攻撃を生き延びない限り、帰還することはできません！
+	RecallBlockedByOpeningAttack: 帰還するには、次の攻撃を生き延びなければなりません！
+	RecallBlocked: 今は使えません。
+}
+

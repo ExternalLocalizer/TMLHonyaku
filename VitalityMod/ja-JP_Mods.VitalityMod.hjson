@@ -10,7 +10,7 @@ SetBonuses: {
 		樹脂で覆われた敵は移動速度が低下し、ミニオンから受けるダメージが3増加する
 		'''
 	LeatherArmor: 落下ダメージを無効化
-	ScubaArmor: 液体の中を自由に移動できる
+	ScubaArmor: 液体内を自由に移動できる
 	TrailhunterArmor: ブラッドラストの杭の最大本数が1増加
 	HerbArmor:
 		'''
@@ -113,7 +113,7 @@ SetBonuses: {
 		マナが自然回復しなくなる
 		'''
 	AnarchyArmor: 近接攻撃で敵を追尾するカースドフレイムを召喚する
-	MartianGunnerArmor: 遠距離武器と一緒に銃を発射する
+	MartianGunnerArmor: 遠距離武器と一緒に銃を撃つ
 	BloodkeeperArmor: ブラッドラストを獲得すると、ライフ自然回復を一時的に大幅に増進
 	TempleArmor: 最大ライフが50増加
 	PaladinArmor:
@@ -138,9 +138,9 @@ Common: {
 	}
 
 	DeathMessages: {
-		RitualKnife: "{0}が生贄になった"
-		Malaria: "{0}はマラリアに倒れた"
-		FirearrheaHotSauce: "{0}は激辛ソースを摂取して、炎上した"
+		RitualKnife: "{0}が生贄になりました。"
+		Malaria: "{0}はマラリアに倒れました。"
+		FirearrheaHotSauce: "{0}は激辛ソースを摂取して、炎上しました。"
 	}
 
 	BloodHunter: {
@@ -250,12 +250,12 @@ Buffs: {
 	}
 
 	FirearrheaBuff1: {
-		DisplayName: ???
+		DisplayName: ？？？
 		Description: 何もおこらない？
 	}
 
 	FirearrheaBuff2: {
-		DisplayName: !!!
+		DisplayName: ！！！
 		Description: やばっ...
 	}
 
@@ -581,7 +581,7 @@ Buffs: {
 
 	MartianGunnerBuff: {
 		DisplayName: 火星の銃
-		Description: 遠距離武器と一緒に銃が発射される
+		Description: 遠距離武器と一緒に銃を撃つ
 	}
 
 	MosquitoSwarmStaffBuff: {
@@ -718,6 +718,12 @@ Buffs: {
 		DisplayName: 樹脂まみれ
 		Description: 移動速度が低下し、ミニオンから受けるダメージが3増加する
 	}
+
+	PricklewandDebuff: {
+		DisplayName: プリクルワンド
+		Description: サボテンのトゲが刺さっていて、ライフが徐々に減っていく
+	}
+
 }
 
 Tiles: {
@@ -735,7 +741,7 @@ Tiles: {
 	DreadnaughtMusicBoxTile.MapEntry: オルゴール (ドレッドノート)
 	ChaosbringerMusicBoxTile.MapEntry: オルゴール (カオスブリンガー)
 	AnarchulesBeetleMusicBoxTile.MapEntry: オルゴール (アナクルスビートル)
-	GeraniumOre.MapEntry: ゼラニウム鉱石
+	GeraniumOre.MapEntry: ゼラニウム
 	GeraniumWorkBench.MapEntry: ゼラニウムの作業台
 	GeraniumTable.MapEntry: ゼラニウムのテーブル
 	GeraniumSofa.MapEntry: ゼラニウムのソファ
@@ -798,7 +804,7 @@ Tiles: {
 	ArcticSofa.MapEntry: アークティックのソファ
 	ArcticTable.MapEntry: アークティックのテーブル
 	ArcticWorkBench.MapEntry: アークティックの作業台
-	ArcticOre.MapEntry: アークティック鉱石
+	ArcticOre.MapEntry: アークティック
 	WheatPlant.MapEntry: 小麦の苗
 	GlowingMossMusicBoxTile.MapEntry: オルゴール (輝く苔)
 	SugarBeetPlant.MapEntry: テンサイの苗
@@ -961,7 +967,7 @@ Items: {
 	BloodBook: {
 		Tooltip:
 			'''
-			射程が短く、弾速の遅いウォーターボルトを発射する
+			射程が短く、弾速が遅いウォーターボルトを発射する
 			ブラッドラストの杭を[c/FFA000:1]本消費してボルトを[c/FFA000:3]発発射する
 			'''
 		DisplayName: 血の本
@@ -1216,7 +1222,7 @@ Items: {
 			'''
 			敵か地形に当たると爆発する
 			ブラッドラストの杭を[c/FFA000:1]本消費してダメージが高く、
-			炎の後を残すダガーを[c/FFA000:3]本投げる
+			炎の跡を残すダガーを[c/FFA000:3]本投げる
 			'''
 	}
 
@@ -1430,17 +1436,6 @@ Items: {
 			'''
 	}
 
-	EmblemCuffs: {
-		DisplayName: 紋章のカフス
-		Tooltip:
-			'''
-			星を拾う距離が広がる
-			ダメージを受けるとマナが回復する
-			最大マナが20増加
-			魔法ダメージが12%増加
-			'''
-	}
-
 	ExplorersNecklace: {
 		DisplayName: 探検家のネックレス
 		Tooltip:
@@ -1490,7 +1485,7 @@ Items: {
 		DisplayName: 氷の靴
 		Tooltip:
 			'''
-			滑りにくいブロック上でも滑る
+			滑りにくいブロック上でも滑るようになる
 			「あなたは文字通り氷のブロックを身につけている…」
 			'''
 	}
@@ -1509,13 +1504,13 @@ Items: {
 		Tooltip:
 			'''
 			空を飛ぶことができ、落下速度が低下
-			飛行中、弾丸を発射する
+			飛行中、弾丸を撃つ
 			衣装スロットに装備するとダメージを与えない
 			'''
 	}
 
 	ManaOverloader: {
-		DisplayName: マナのオーバーローダー
+		DisplayName: マナオーバーローダー
 		Tooltip:
 			'''
 			残りマナの割合が少なくなるほど魔法ダメージが増加
@@ -1575,7 +1570,7 @@ Items: {
 	}
 
 	StarstruckNecklace: {
-		DisplayName: スターストラックのネックレス
+		DisplayName: スターストラックネックレス
 		Tooltip:
 			'''
 			敵の防御力を10無視する
@@ -2200,14 +2195,18 @@ Items: {
 		DisplayName: 混沌の剣
 		Tooltip:
 			'''
-			カオスボルトを放つ
-			左クリックを押し続けると攻撃とカオスボルトの複数発射を交互に行う
+			ランダムな色のビームを放つ
+			ビームは色によって挙動が違う
 			'''
 	}
 
 	BoomBox: {
 		DisplayName: ブームボックス
-		Tooltip: 自身の周囲に音符を発射する
+		Tooltip: 
+			'''
+			周囲に敵を追尾する音符を発射する
+			敵の防御力を15無視する
+			'''
 	}
 
 	ChaosbringerBossBag: {
@@ -2237,7 +2236,11 @@ Items: {
 
 	ChaosClaymore: {
 		DisplayName: 混沌の大剣
-		Tooltip: 虹のソードビームを放つ
+		Tooltip:
+			'''
+			敵を混乱させることがある
+			右クリックで投げ、投げた剣は近くの敵を追尾する
+			'''
 	}
 
 	ChaosDisc: {
@@ -2255,8 +2258,7 @@ Items: {
 		Tooltip:
 			'''
 			カオス状態を無効化する
-			無効化するとクールダウンが発生し
-			クールダウンは15秒
+			一度無効化すると15秒のクールダウンが発生する
 			'''
 	}
 
@@ -2279,20 +2281,11 @@ Items: {
 			'''
 	}
 
-	VoidEye: {
-		DisplayName: 虚無の目
-		Tooltip:
-			'''
-			召喚した敵はクリックした敵を集中攻撃する
-			右クリックで視界を広げることができる
-			'''
-	}
-
 	ChlorophyteBlaster: {
 		DisplayName: クロロファイトブラスター
 		Tooltip:
 			'''
-			弾丸を複数回、拡散させて発射する
+			弾丸を複数回拡散させて撃つ
 			初弾のみ弾薬を消費
 			敵の防御力を15無視
 			'''
@@ -2334,7 +2327,7 @@ Items: {
 
 	CrystalBolt: {
 		DisplayName: クリスタルボルト
-		Tooltip:クリスタルボルトを広範囲に発射する
+		Tooltip: クリスタルボルトを広範囲に発射する
 	}
 
 	CrystalWings: {
@@ -2407,7 +2400,13 @@ Items: {
 
 	HellSlasher: {
 		DisplayName: ヘルスラッシャー
-		Tooltip: 敵を攻撃すると爆発する
+		Tooltip:
+			'''
+			攻撃するたびに熱が蓄積され、敵を攻撃すると爆発し、より熱が蓄積する
+			熱が蓄積するほど、爆発のダメージが増加し、攻撃速度が上昇する
+			熱が最大まで蓄積されると次の攻撃がクリティカルになり、
+			大爆発が起きるが熱がリセットされる
+			'''
 	}
 
 	LavawingBow: {
@@ -2431,13 +2430,12 @@ Items: {
 	}
 
 	ManaIncense: {
-		DisplayName: マナインセンス
+		DisplayName: マナの香
 		Tooltip:
 			'''
-			敵を倒すと25%の確率でマナが全回復するが、
-			マナ消費量が30%増加
-			残りマナの割合が少なくなるほど魔法ダメージが増加
-			ダメージはマナが最大時の-5%から+20%まで変化する
+			最大マナが20増加
+			敵を倒すと25%の確率でマナが全回復する
+			残りマナの割合が少なくなるほど魔法ダメージが最大で25%増加
 			'''
 	}
 
@@ -2456,8 +2454,9 @@ Items: {
 			'''
 			マナスターを拾う距離が広がる
 			ダメージを受けるとマナが回復する
-			最大マナが20増加
-			マナ消費量が20%減少
+			最大マナが40増加
+			敵を倒すと25%の確率でマナが全回復する
+			残りマナの割合が少なくなるほど魔法ダメージが最大で25%増加
 			'''
 	}
 
@@ -2905,16 +2904,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	SandballCannon: {
-		DisplayName: 砂玉キャノン
-		Tooltip: 弾薬として砂玉を使用する
-	}
-
-	Sandball: {
-		DisplayName: 砂玉
-		Tooltip: ""
-	}
-
 	Sandshark: {
 		DisplayName: サンドシャーク
 		Tooltip:
@@ -2941,7 +2930,7 @@ Items: {
 
 	GraniteBlade: {
 		DisplayName: 御影石の剣
-		Tooltip: 強力なオーラを生成する
+		Tooltip: 強力なオーラを放つ
 	}
 
 	GraniteBreastplate: {
@@ -3208,7 +3197,7 @@ Items: {
 
 	SirLoinPainting: {
 		DisplayName: 腰の低い騎士
-		Tooltip: 「S. Loin」
+		Tooltip: 「S.ロイン」
 	}
 
 	EquityCore: {
@@ -3892,33 +3881,19 @@ Items: {
 		Tooltip: 近接ダメージが15%増加し、近接攻撃速度が15%上昇
 	}
 
-	PurifiedBar: {
-		DisplayName: 純粋なインゴット
-		Tooltip: ""
-	}
-
-	PurifiedBlade: {
-		DisplayName: 純粋な剣
-		Tooltip: 胞子雲を放つ
-	}
-
-	PurifiedBoomerang: {
-		DisplayName: 純粋なブーメラン
-		Tooltip: ""
-	}
 
 	PurifiedBreastplate: {
 		DisplayName: 純粋な胸当て
-		Tooltip: 召喚ダメージが10%増加
+		Tooltip:
+			'''
+			召喚ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
 	}
 
 	PurifiedHelmet: {
 		DisplayName: 純粋な兜
-		Tooltip:
-			'''
-			召喚できるミニオンの数が1体増える
-			召喚ダメージが5%増加
-			'''
+		Tooltip: 召喚ダメージが5%増加
 	}
 
 	PurifiedLeggings: {
@@ -3928,71 +3903,6 @@ Items: {
 			召喚ダメージが5%増加
 			移動速度が10%上昇
 			'''
-	}
-
-	PurifiedSpore: {
-		DisplayName: 純粋な胞子
-		Tooltip: 「数千年経ってもなお、これほど純粋なまま」
-	}
-
-	RustyAxe: {
-		DisplayName: 錆びた斧
-		Tooltip: ""
-	}
-
-	RustyBow: {
-		DisplayName: 錆びた弓
-		Tooltip: ""
-	}
-
-	RustyBroadsword: {
-		DisplayName: 錆びた剣
-		Tooltip: ""
-	}
-
-	RustyChunk: {
-		DisplayName: 錆びた塊
-		Tooltip: 「役に立たなそうだ…」
-	}
-
-	RustyHammer: {
-		DisplayName: 錆びたハンマー
-		Tooltip: ""
-	}
-
-	RustyIngot: {
-		DisplayName: 錆びたインゴット
-		Tooltip: 「これが崩壊しないのは不思議だ」
-	}
-
-	RustyPickaxe: {
-		DisplayName: 錆びたつるはし
-		Tooltip: ""
-	}
-
-	RustyShortsword: {
-		DisplayName: 錆びた短剣
-		Tooltip: ""
-	}
-
-	RustySpear: {
-		DisplayName: 錆びた槍
-		Tooltip: ""
-	}
-
-	BrokenScubaHelmet: {
-		DisplayName: 壊れたスキューバヘルメット
-		Tooltip: ""
-	}
-
-	BrokenScubaLeggings: {
-		DisplayName: 壊れたスキューバのレギンス
-		Tooltip: ""
-	}
-
-	BrokenScubaSuit: {
-		DisplayName: 壊れたスキューバスーツ
-		Tooltip: ""
 	}
 
 	ScubaHelmet: {
@@ -4017,7 +3927,7 @@ Items: {
 
 	CosmicDestruction: {
 		DisplayName: コズミックデストラクション
-		Tooltip: 近くの敵に敵を追尾する輪を発射する
+		Tooltip: 近くの敵を追尾する輪を発射する
 	}
 
 	GalacticSlasher: {
@@ -4080,37 +3990,37 @@ Items: {
 	}
 
 	BartHat: {
-		DisplayName: Bartの帽子
+		DisplayName: バートの帽子
 		Tooltip: 「開発者に成りすますのに最適！」
 	}
 
 	BartJacket: {
-		DisplayName: Bartのジャケット
+		DisplayName: バートのジャケット
 		Tooltip: 「開発者に成りすますのに最適！」
 	}
 
 	BartPants: {
-		DisplayName: Bartのパンツ
+		DisplayName: バートのパンツ
 		Tooltip: 「開発者に成りすますのに最適！」
 	}
 
 	BartPistol: {
-		DisplayName: Bartのピストル
+		DisplayName: バートのピストル
 		Tooltip: 「開発者に成りすますのに最適！」
 	}
 
 	SirLoinBodyArmor: {
-		DisplayName: Sir Loinのボディアーマー
+		DisplayName: サー・ロインのボディアーマー
 		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
 	}
 
 	SirLoinHelmet: {
-		DisplayName: Sir Loinの兜
+		DisplayName: サー・ロインの兜
 		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
 	}
 
 	SirLoinLeggings: {
-		DisplayName: Sir Loinのすね当て
+		DisplayName: サー・ロインのすね当て
 		Tooltip: 「聖なる使命に支えられた、力強い剣の腕――熱烈な戦士！」
 	}
 
@@ -4275,7 +4185,12 @@ Items: {
 
 	BlueFlashlight: {
 		DisplayName: 懐中電灯（青）
-		Tooltip: 「全てが寒そうに見えるけど、クールだ」
+		Tooltip:
+			'''
+			青い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全てが寒そうに見えるけど、クールだ」
+			'''
 	}
 
 	Crowbar: {
@@ -4285,32 +4200,62 @@ Items: {
 
 	Flashlight: {
 		DisplayName: 懐中電灯
-		Tooltip: 「光が道を照らすだろう」
+		Tooltip:
+			'''
+			光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「光が道を照らすだろう」
+			'''
 	}
 
 	GreenFlashlight: {
 		DisplayName: 懐中電灯（緑）
-		Tooltip: 「力強い輝き」
+		Tooltip:
+			'''
+			緑の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「力強い輝き」
+			'''
 	}
 
 	PurpleFlashlight: {
 		DisplayName: 懐中電灯（紫）
-		Tooltip: 「なんて素敵な輝きなんだ」
+		Tooltip:
+			'''
+			紫の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「なんて素敵な輝きなんだ」
+			'''
 	}
 
 	RainbowFlashlight: {
 		DisplayName: 懐中電灯（虹）
-		Tooltip: 「全ての色！」
+		Tooltip:
+			'''
+			虹の光を放つ	
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全ての色！」
+			'''
 	}
 
 	RedFlashlight: {
 		DisplayName: 懐中電灯（赤）
-		Tooltip: 「全てが熱く、怒りに満ちているように見える」
+		Tooltip:
+			'''
+			赤い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全てが熱く、怒りに満ちているように見える」
+			'''
 	}
 
 	YellowFlashlight: {
 		DisplayName: 懐中電灯（黄）
-		Tooltip: 「恐れるな」
+		Tooltip:
+			'''
+			黄の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「恐れるな」
+			'''
 	}
 
 	ZombieLeg: {
@@ -4566,7 +4511,12 @@ Items: {
 
 	PossessedSword: {
 		DisplayName: ポゼッションソード
-		Tooltip: 2回目の攻撃で敵を追尾するシャドウフレイムを放つ
+		Tooltip:
+			'''
+			攻撃が外れると最大で3スタックする苦悶を得る
+			スタックごとにダメージが100%増加するが、
+			攻撃が当たると苦悶のスタックを全て消費する
+			'''
 	}
 
 	Retilazer: {
@@ -4601,7 +4551,7 @@ Items: {
 
 	SporeBlade: {
 		DisplayName: スポアブレード
-		Tooltip: しばらく残る光キノコを放つ
+		Tooltip: しばらく残る光るキノコを放つ
 	}
 
 	SporeSpreader: {
@@ -4643,7 +4593,7 @@ Items: {
 		DisplayName: アダマンタイトの狩猟ライフル
 		Tooltip:
 			'''
-			弾速が早く強力な弾丸を発射する
+			弾速が早く強力な弾丸を撃つ
 			敵に当たると爆発することがある
 			'''
 	}
@@ -4699,7 +4649,7 @@ Items: {
 
 	GoldGauger: {
 		DisplayName: ゴールドゲージ
-		Tooltip: 弾丸を複数発射する
+		Tooltip: 弾丸を複数撃つ
 	}
 
 	JestersBow: {
@@ -4716,7 +4666,7 @@ Items: {
 		DisplayName: ミスリルのショットガン
 		Tooltip:
 			'''
-			散弾を発射する
+			散弾を撃つ
 			通常の弾丸をミスリルの弾丸に変換する
 			敵か地形に当たると破片に分裂し、近距離でダメージが増加
 			'''
@@ -4724,7 +4674,7 @@ Items: {
 
 	NightBlaster: {
 		DisplayName: ナイトブラスター
-		Tooltip: 散弾と敵を追尾するナイトボルトを発射する
+		Tooltip: 散弾と敵を追尾するナイトボルトを撃つ
 	}
 
 	ObsidianFireslinger: {
@@ -4741,7 +4691,7 @@ Items: {
 		DisplayName: オリハルコンのショットガン
 		Tooltip:
 			'''
-			散弾を発射する
+			散弾を撃つ
 			通常の弾丸をオリハルコンの弾丸に変換する
 			敵か地形に当たると花びらに分裂し、近距離でダメージが増加
 			'''
@@ -4754,7 +4704,7 @@ Items: {
 
 	PlatinumPumper: {
 		DisplayName: プラチナポンプ
-		Tooltip: 散弾を発射する
+		Tooltip: 散弾を撃つ
 	}
 
 	PocketSand: {
@@ -4770,7 +4720,7 @@ Items: {
 		DisplayName: パルスライフル
 		Tooltip:
 			'''
-			チャージバレットを発射する
+			チャージバレットを撃つ
 			33%の確率で弾薬を消費しない
 			'''
 	}
@@ -4959,7 +4909,7 @@ Items: {
 		DisplayName: チタンの狩猟ライフル
 		Tooltip:
 			'''
-			弾速が早く強力な弾丸を発射する
+			弾速が早く強力な弾丸を撃つ
 			敵に当たると衝撃波が発生することがある
 			'''
 	}
@@ -5242,7 +5192,7 @@ Items: {
 		Tooltip:
 			'''
 			ブラッドラストの杭を[c/FFA000:1]本消費して強力な攻撃を行う
-			連続して杭を使うほどより強力になる
+			連続して杭を消費するほど強力になる
 			'''
 	}
 
@@ -5262,7 +5212,7 @@ Items: {
 			召喚タグダメージ 10
 			攻撃を当てた敵にミニオンが集中攻撃する
 			敵を攻撃すると、ダメージを与える星を召喚する
-			「家族（部下）を集めて、美味しい食事（ボス）を召し上がれ」
+			「家族（ミニオン）を集めて、美味しい食事（ボス）を召し上がれ」
 			'''
 	}
 
@@ -5334,18 +5284,18 @@ Items: {
 	}
 
 	AncientVPainting: {
-		DisplayName: 古代のV
-		Tooltip: 「D. Bart」
+		DisplayName: 絵画『古代のV』
+		Tooltip: 「D.バート」
 	}
 
 	VitalityPainting: {
-		DisplayName: 生命
-		Tooltip: 「D. Bart」
+		DisplayName: 絵画『バイタリティ』
+		Tooltip: 「D.バート」
 	}
 
 	VPainting: {
-		DisplayName: V
-		Tooltip: 「D. Bart」
+		DisplayName: 絵画『V』
+		Tooltip: 「D.バート」
 	}
 
 	GlacialBaton: {
@@ -5566,7 +5516,7 @@ Items: {
 
 	RegalWarCloak: {
 		DisplayName: 堂々とした戦争のマント
-		Tooltip: 「なぜか揚げ魚の匂いがする」
+		Tooltip: 「なぜか揚げた魚の匂いがする」
 	}
 
 	Brainrot: {
@@ -5649,22 +5599,22 @@ Items: {
 
 	AncientBartPants: {
 		Tooltip: ""
-		DisplayName: 古代のBartのパンツ
+		DisplayName: 古代のバートのパンツ
 	}
 
 	AncientBartJacket: {
 		Tooltip: ""
-		DisplayName: 古代のBartのジャケット
+		DisplayName: 古代のバートのジャケット
 	}
 
 	AncientBartHat: {
 		Tooltip: ""
-		DisplayName: 古代のBartの帽子
+		DisplayName: 古代のバートの帽子
 	}
 
 	BartShirt: {
 		Tooltip: 「開発者に成りすますのに最適！」
-		DisplayName: Bartのシャツ
+		DisplayName: バートのシャツ
 	}
 
 	StarVoulge: {
@@ -5678,30 +5628,39 @@ Items: {
 	}
 
 	Goldflower: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			敵に当たると分裂する蜂蜜の塊を発射する
+			地形に当たると触れた敵にダメージを与え、
+			自身が触れるとライフ自然回復を増進する蜂蜜だまりを生成する
+			'''
 		DisplayName: ゴールドフラワー
 	}
 
 	SkyBlossom: {
-		Tooltip: ""
+		Tooltip: 圧縮された花粉を発射し、当たると花粉が弾ける
 		DisplayName: スカイブロッサム
 	}
 
 	Pricklewand: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			敵に突き刺さり、ライフを徐々に減少させるサボテンのトゲを発射する
+			この効果は最大6回までスタックする
+			'''
 		DisplayName: プリクルワンド
 	}
 
 	BloomBouquet: {
 		DisplayName: ブルームブーケ
-		Tooltip: ""
+		Tooltip: 右クリックで攻撃を変更する
 	}
 
 	BlisterBlaster: {
 		DisplayName: ブリスターブラスター
 		Tooltip:
 			'''
-			散弾を発射する
+			散弾を撃つ
 			霊液を与える小さなクリメラを発射することがある
 			'''
 	}
@@ -5921,7 +5880,7 @@ Items: {
 	}
 
 	FrozenGlove: {
-		DisplayName: 氷の手袋
+		DisplayName: 氷のグローブ
 		Tooltip:
 			'''
 			遠距離攻撃速度が12%上昇
@@ -6018,7 +5977,11 @@ Items: {
 
 	SubZero: {
 		DisplayName: サブ-ゼロ
-		Tooltip: 2回目の攻撃で氷柱を複数放つ
+		Tooltip:
+			'''
+			攻撃が当たると小さな氷の竜巻が発生する
+			2回目の攻撃で氷柱を複数放つ
+			'''
 	}
 
 	SpareChange: {
@@ -6081,7 +6044,7 @@ Items: {
 	}
 
 	Beetlegeuse: {
-		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して液体の呪炎を[c/FFA000:3]発放つ
+		Tooltip: ブラッドラストの杭を[c/FFA000:2]本消費して呪炎を[c/FFA000:3]発放つ
 		DisplayName: ビートルゲウス
 	}
 
@@ -6166,8 +6129,8 @@ Items: {
 			'''
 			被ダメージを無効化することがある
 			無効化に失敗するたびに確率が上昇する
-			無効化するとクールダウンが終了するまで確率がリセットされる
-			30秒のクールダウンがある
+			無効化すると確率がリセットされ、30秒のクールダウンが発生し、
+			クールダウン中はダメージを無効化できない
 			'''
 	}
 
@@ -6373,7 +6336,7 @@ Items: {
 	}
 
 	GeoformedEnergyBlaster: {
-		Tooltip: 近くの敵に跳ね返る弾丸を発射する
+		Tooltip: 近くの敵に跳ね返る弾丸を撃つ
 		DisplayName: ジオフォームドエネルギーブラスター
 	}
 
@@ -6566,7 +6529,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃を行うと、冷気エネルギーのスタックが蓄積される
-			蓄積は1秒のクールダウンがある
+			スタックの蓄積は1秒のクールダウンがある
 			スタックが5に達すると、アイスバウンドを短時間得る
 			このバフを受けているなら通常の敵にディープフリーズを短時間与え
 			敵をその場に凍結させ、被ダメージを25%増加させる
@@ -6859,6 +6822,119 @@ Items: {
 		Tooltip: ""
 		DisplayName: オルゴール (雨の不浄)
 	}
+
+	RedPhaseclub: {
+		DisplayName: フェーズクラブ（赤）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	BluePhaseclub: {
+		DisplayName: フェーズクラブ（青）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	GreenPhaseclub: {
+		DisplayName: フェーズクラブ（緑）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	OrangePhaseclub: {
+		DisplayName: フェーズクラブ（オレンジ）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	PurplePhaseclub: {
+		DisplayName: フェーズクラブ（紫）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	WhitePhaseclub: {
+		DisplayName: フェーズクラブ（白）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	YellowPhaseclub: {
+		DisplayName: フェーズクラブ（黄）
+		Tooltip:
+			'''
+			攻撃速度が他のほとんどの重近接武器より早い
+			右クリックで投げる
+			'''
+	}
+
+	OrangeFlashlight: {
+		DisplayName: 懐中電灯（オレンジ）
+		Tooltip:
+			'''
+			オレンジの光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「力強く輝く」
+			'''
+	}
+
+	WhiteFlashlight: {
+		DisplayName: 懐中電灯（白）
+		Tooltip:
+			'''
+			白い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「最も強い輝き」
+			'''
+	}
+
+	LivingChakram: {
+		DisplayName: 生茂のチャクラム
+		Tooltip: トゲの蔓をランダムな方向に広げる
+	}
+
+	SandSlinger: {
+		DisplayName: サンドスリンガー
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			砂の塊を発射する
+			5回目は砂の塊を複数発射する
+			'''
+	}
+
+	SpelunkerFlashlight: {
+		DisplayName: 探検家の懐中電灯
+		Tooltip:
+			'''
+			お宝を探知する光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「文字通り、豊かな輝きを放つ…」
+			'''
+	}
+
+	SoulboundBallista: {
+		DisplayName: 魂縛のバリスタ
+		Tooltip: 木の矢を敵か地形に当たると近くの敵を追尾する魂縛の矢に変換する
+	}
 }
 
 NPCs: {
@@ -7102,7 +7178,7 @@ NPCs: {
 			LikeBiome: "{BiomeName}が好きだ。"
 			DislikeBiome: "{BiomeName}が嫌いだ。"
 			LoveNPC: "{NPCName}を愛している。"
-			LikeNPC: "{NPCName が好きだ。"
+			LikeNPC: "{NPCName}が好きだ。"
 			DislikeNPC: "{NPCName}が嫌いだ。"
 			HateNPC: "{NPCName}が大嫌いだ。"
 			LikeNPC_Princess: "{NPCName}が好きだ。"
@@ -7142,7 +7218,7 @@ NPCs: {
 
 	VileBasilisk: {
 		DisplayName: 醜いバジリスク
-		BestiaryFlavorText: 不浄によって歪められたバジリスクは、常に怒りに満ちており、恐ろしい捕食者となっている。.
+		BestiaryFlavorText: 不浄によって歪められたバジリスクは、常に怒りに満ちており、恐ろしい捕食者となっている。
 	}
 
 	LavaMossSkeleton.DisplayName: 苔（溶岩）のスケルトン
@@ -7489,13 +7565,8 @@ Projectiles: {
 	ChaosJackhammerProj.DisplayName: 混沌の機械槌
 	ChaosMace2Proj.DisplayName: 混沌のメイス
 	ChaosMaceProj.DisplayName: 混沌のメイス
-	ChaosNote1Proj.DisplayName: 混沌の音符
-	ChaosNote2Proj.DisplayName: 混沌の音符
-	ChaosNote3Proj.DisplayName: 混沌の音符
 	ChaosNoteHomingProj.DisplayName: 追尾する混沌の音符
-	ChaosSaber2Proj.DisplayName: 混沌の剣
 	ChaosSaberProj.DisplayName: 混沌の剣
-	ChaosSaberSlashProj.DisplayName: 混沌の剣の斬撃
 	CheeseWheelProj.DisplayName: チーズホイール
 	CherryBombProj.DisplayName: チェリーボム
 	ChlorophyteBallProjA.DisplayName: クロロファイトボール
@@ -7593,12 +7664,8 @@ Projectiles: {
 	PlatinumSpearProj.DisplayName: プラチナの槍
 	PocketSandProj.DisplayName: ポケットサンド
 	PufferfishCloudProj.DisplayName: フグの毒雲
-	PurifiedBladeProj.DisplayName: 純粋な剣
-	PurifiedBoomerangProj.DisplayName: 純粋なブーメラン
 	RetilazerProj.DisplayName: ティレイザー
 	RoughstoneProj.DisplayName: ラフストーン
-	RustyShortswordProj.DisplayName: 錆びた短剣
-	RustySpearProj.DisplayName: 錆びた槍
 	SandballProj.DisplayName: 砂玉
 	SandthrowerProj.DisplayName: サンドスロワー
 	ScrewdriverProj.DisplayName: ドライバー
@@ -7698,7 +7765,6 @@ Projectiles: {
 	EruptionExplosionProj.DisplayName: イラプション
 	EruptionProj.DisplayName: イラプション
 	DownpourProj.DisplayName: ダウンプア
-	ChaosSaberHoldout.DisplayName: 混沌の剣
 	CrystalBlast2Proj.DisplayName: クリスタルバースト
 	CrystalBlastProj.DisplayName: クリスタルバースト
 	DarkbloodScrollProj.DisplayName: ダークブラッドの巻物
@@ -7810,14 +7876,14 @@ Projectiles: {
 	BloodExplosionSynergySmallProj.DisplayName: 血の爆発
 	BloodExplosionSynergySmallSparkProj.DisplayName: 血の爆発
 	BloodFireballProj.DisplayName: 血のファイアボール
-	Grimmchild1Proj.DisplayName: グリムチャイルド
-	GrimmchildShootProj.DisplayName: グリムチャイルド
-	Grimmchild2Proj.DisplayName: グリムチャイルド
-	Grimmchild3Proj.DisplayName: グリムチャイルド
-	Grimmchild4Proj.DisplayName: グリムチャイルド
-	GrimmchildShoot1Proj.DisplayName: グリムチャイルド
-	GrimmchildShoot2Proj.DisplayName: グリムチャイルド
-	GrimmchildShoot3Proj.DisplayName: グリムチャイルド
+	Grimmchild1Proj.DisplayName: グリムの子
+	GrimmchildShootProj.DisplayName: グリムの子
+	Grimmchild2Proj.DisplayName: グリムの子
+	Grimmchild3Proj.DisplayName: グリムの子
+	Grimmchild4Proj.DisplayName: グリムの子
+	GrimmchildShoot1Proj.DisplayName: グリムの子
+	GrimmchildShoot2Proj.DisplayName: グリムの子
+	GrimmchildShoot3Proj.DisplayName: グリムの子
 	SteelKnifeProj.DisplayName: 鋼のナイフ
 	StarfallProj.DisplayName: スターフォール
 	ChlorophyteShockwaveProj.DisplayName: クロロファイトの衝撃波
@@ -8044,6 +8110,39 @@ Projectiles: {
 	LightningStrikeProj.DisplayName: 落雷
 	ZapBoltProj.DisplayName: 電撃
 	RainCloudProj.DisplayName: 雨雲
+	HellSlasher3Proj.DisplayName: ヘルスラッシャー
+	RedPhaseclubProj.DisplayName: フェーズクラブ（赤）
+	RedPhaseclubThrowProj.DisplayName: フェーズクラブ（赤）
+	BluePhaseclubProj.DisplayName: フェーズクラブ（青）
+	BluePhaseclubThrowProj.DisplayName: フェーズクラブ（青）
+	GreenPhaseclubProj.DisplayName: フェーズクラブ（緑）
+	GreenPhaseclubThrowProj.DisplayName: フェーズクラブ（緑）
+	OrangePhaseclubProj.DisplayName: フェーズクラブ（オレンジ）
+	OrangePhaseclubThrowProj.DisplayName: フェーズクラブ（オレンジ）
+	PurplePhaseclubProj.DisplayName: フェーズクラブ（紫）
+	PurplePhaseclubThrowProj.DisplayName: フェーズクラブ（紫）
+	WhitePhaseclubProj.DisplayName: フェーズクラブ（白）
+	WhitePhaseclubThrowProj.DisplayName: フェーズクラブ（白）
+	YellowPhaseclubProj.DisplayName: フェーズクラブ（黄）
+	YellowPhaseclubThrowProj.DisplayName: フェーズクラブ（黄）
+	SubZeroTornadoProj.DisplayName: 氷の竜巻
+	Goldflower2Proj.DisplayName: 蜂蜜の塊
+	Goldflower3Proj.DisplayName: 蜂蜜だまり
+	SkyBlossom2Proj.DisplayName: 花粉
+	OrangeFlashlightProj.DisplayName: 懐中電灯（オレンジ）
+	WhiteFlashlightProj.DisplayName: 懐中電灯（白）
+	TerraWandHoldoutProj.DisplayName: テラワンド
+	TerraWandShockwaveProj.DisplayName: テラワンド
+	SnowballBlasterHoldout.DisplayName: スノーボールブラスター
+	LivingChakramProj.DisplayName: 生茂のチャクラム
+	LivingChakramThornSpawnProj.DisplayName: トゲの蔓
+	LivingChakramThornProj.DisplayName: トゲの蔓
+	ChaosClaymoreThrowProj.DisplayName: 混沌の大剣
+	SpelunkerFlashlightProj.DisplayName: 探検家の懐中電灯
+	SoulboundBallistaHoldout.DisplayName: 魂縛のバリスタ
+	SoulboundBallistaProj.DisplayName: 魂縛の矢
+	BoomBoxProj.DisplayName: ブームボックス
+	BoomBoxNoteProj.DisplayName: 音符
 }
 
 Prefixes: {
@@ -8086,11 +8185,24 @@ Configs: {
 			Label: ブラッドハンターのタグを表示する
 		}
 
-		DisplayName: Vitality Mod 設定
+		DisplayName: クライアント設定
 
 		BloodlustMeterTop: {
 			Label: ブラッドラストのメーターを一番上に移動
 			Tooltip: ブラッドラストのメーターを画面上部に移動させ、左側にミニマップ/アクセサリ情報を表示します
+		}
+	}
+
+	VitalityServerConfig: {
+		DisplayName: サーバー設定
+
+		SplitModHeavyMeleeIntegration: {
+			Label: 重近接武器の仕様をSplit Modの重近接武器と統一する
+			Tooltip:
+				'''
+				これがオンでSplit Modが有効なら、
+				このModの重近接武器のダメージをSplit Modの重近接ダメージに変更します
+				'''
 		}
 	}
 }
