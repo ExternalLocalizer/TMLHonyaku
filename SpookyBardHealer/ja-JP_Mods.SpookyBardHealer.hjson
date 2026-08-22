@@ -1,13 +1,13 @@
 Items: {
-    Backbone: {
-        DisplayName: バックボーン
-        Tooltip:
-            '''
-            骨と肉でできた塊を発射する
-            各塊は異なる効果を持つ
-            「背骨を育てなさい、ねえ？」
-            '''
-    }
+	Backbone: {
+		DisplayName: バックボーン
+		Tooltip:
+			'''
+			骨と肉でできた塊を発射する
+			各塊は異なる効果を持つ
+			「背骨を育てなさい、ねえ？」
+			'''
+	}
 
 	BigBrother: {
 		DisplayName: ビッグブラザー
@@ -17,7 +17,7 @@ Items: {
 			敵に噛みつく強力な肉のハンマーを振る
 			命中時に追尾性の魂のエッセンスを生成し、味方と自分の両方を回復する
 			噛んでいない時間が長いほど空腹になる
-			武器が徐々に空腹になり、最大500%分までダメージが増加する
+			武器が徐々に空腹になり、最大600%分までダメージが増加する
 			クリティカル以外でダメージブーストがリセットされ、クリティカル時は減少
 			3回目の攻撃ごとにハンマーを投げ、空腹時にターゲットを追尾する
 			「あのビッグブラザーを倒せ…」
@@ -72,11 +72,9 @@ Items: {
 		DisplayName: ダンデライザー
 		Tooltip:
 			'''
-			巨大なタンポポのフレイルで攻撃する
-			フレイルはダメージを与える軌跡を残す
-			クリティカルで金のタンポポを放ち、味方を回復する
-			金のタンポポは最大3つまで同時に存在可能
-			回復時には効果を発動しない
+			花でできたメイスを振り回し、最初の命中時にその場に残る回復の花を放つ
+			回復の花は同時に最大4つまで存在できる
+			「そもそも花が違うだろ！」
 			'''
 	}
 
@@ -141,12 +139,10 @@ Items: {
 		DisplayName: 腐食の胃汁
 		Tooltip:
 			'''
-			衝撃時にあらゆる方向に嘔吐する知的な胃を投げる
-			嘔吐は潰瘍を付与し、敵が受けるダメージを20増加
-			嘔吐が外れると地面に着地し、水たまりを形成
-			プレイヤーは水たまりを拾って酸逆流バフを得る
-			酸逆流はダメージを10％、アーマー貫通を10増加
-			水たまりは味方を回復するが、回復時効果を発動しない
+			命中すると辺り一面に嘔吐する自我を持った胃袋を投げ、被ダメージを5増加させる「潰瘍」を付与
+			嘔吐物が外れた場合は地面に落ちて水たまりとなり、プレイヤーが拾える
+			水たまりを拾うと「胃酸逆流」バフを得て、ダメージが5%、防具貫通が5増加する
+			水たまりは味方も回復するが、回復時に発動する効果は発生しない
 			'''
 	}
 
@@ -158,7 +154,7 @@ Items: {
 			回復およびシンフォニック演奏速度が20％増加
 			インスピレーション再生率が15％増加
 			敵に狙われにくくなる
-			「私は耳を傾けてるよ」
+			「全身耳にして聞いてるよ」
 			'''
 		SetBonus:
 			'''
@@ -179,13 +175,13 @@ Items: {
 			ラディアントダメージが45％増加
 			投擲ダメージが15％増加
 			敵に狙われやすくなる
-			「ヘヘ、ナックルヘッド」
+			「ヘヘ、この石頭め」
 			'''
 		SetBonus:
 			'''
 			最大テクニックポイントが2増加
 			テインテッドヒーラー武器でのダメージはクリティカルでライフを回復
-			「アーマーアビリティ」キーを押して巨大な手を召喚
+			「アーマーアビリティ」キーを押して巨大な手を召喚する
 			手は敵の射撃を防ぐがダメージを受ける
 			十分なダメージを受けると手は壊れ、クールダウンに入る
 			30秒のクールダウン
@@ -207,7 +203,7 @@ Items: {
 			回復魔法によるライフ回復量が6増加
 			シンフォニックエンパワーメントの持続時間が8秒増加
 			「アーマーアビリティ」キーを押してオロボロのような小さなヒルを召喚
-			ヒルは敵に追尾し、固定量でプレイヤーのリソースを補充
+			ヒルは敵に追尾し、一定量プレイヤーのリソースを回復させる
 			プレイヤーのリソースにはライフ、マナ、インスピレーション、エキゾーストが含まれる
 			60秒のクールダウン
 			'''
@@ -273,6 +269,26 @@ Items: {
 		Tooltip: 漂う胞子を発射する
 	}
 
+	MushroomMarcherArmor: {
+		DisplayName: キノコ兵の鎧
+		Tooltip: 投擲ダメージが5%増加
+	}
+
+	MushroomMarcherBoots: {
+		DisplayName: キノコ兵のブーツ
+		Tooltip: 投擲ダメージが5%増加
+	}
+
+	MushroomMarcherCap: {
+		DisplayName: キノコ兵の帽子
+		Tooltip: 投擲ダメージが5%増加
+		SetBonus:
+			'''
+			最大テクニックポイントが1増加
+			テクニック使用時、胞子グレネードの弾幕を投げ放つ
+			'''
+	}
+
 	NerveEndings: {
 		DisplayName: 神経末端
 		Tooltip:
@@ -304,9 +320,7 @@ Items: {
 		DisplayName: 滅魂の凶兆
 		Tooltip:
 			'''
-			パチンコを引いて放ち、弾を放つ
-			苔むした小石を怒れる亡魂の弾幕に変換する
-			武器を引くほど多くの魂を放つ
+			苔むした小石を怒れる亡魂の弾幕に変える
 			「その武器で大量絶滅を引き起こせると信じるなら、本当にそうなるのだろう」
 			'''
 	}
@@ -347,17 +361,8 @@ Items: {
 		Tooltip:
 			'''
 			味方を回復する小さな跳ねるカボチャを放つ
-			回復された味方は10秒間防御力20を得る
+			回復された味方は10秒間、防御力が5増加
 			「オイシイ！」
-			'''
-	}
-
-	SadWitch: {
-		DisplayName: 絵画「悲しき魔女」
-		Tooltip:
-			'''
-			by Not Una Nancy Owen (n0t_UN_Owen)
-			「絵の左側が破れているように見える…」
 			'''
 	}
 
@@ -403,6 +408,45 @@ Items: {
 			'''
 			By EduaRRdo
 			For DylanDoe21
+			'''
+	}
+
+	SneezePriestGreaves: {
+		DisplayName: くしゃみ司祭のすね当て
+		Tooltip:
+			'''
+			ラディアントダメージが5%増加
+			ラディアント以外のダメージが15%減少
+			回復呪文によるライフ回復量が1増加
+			「お大事に！」
+			'''
+	}
+
+	SneezePriestNose: {
+		DisplayName: くしゃみ司祭の鼻
+		Tooltip:
+			'''
+			ラディアントダメージが10%増加
+			ラディアント以外のダメージが15%減少
+			回復呪文によるライフ回復量が1増加
+			「お大事に！」
+			'''
+		SetBonus:
+			'''
+			回復呪文によるライフ回復量が1増加
+			ソウルエッセンスを獲得すると激しくくしゃみする
+			くしゃみすると短時間の無敵時間を得て、鼻水の弾幕を放つ
+			'''
+	}
+
+	SneezePriestRobe: {
+		DisplayName: くしゃみ司祭のローブ
+		Tooltip:
+			'''
+			ラディアントダメージが15%増加
+			ラディアント以外のダメージが15%減少
+			回復呪文によるライフ回復量が3増加
+			「お大事に！」
 			'''
 	}
 
@@ -455,6 +499,11 @@ Items: {
 			'''
 	}
 
+	TheWitchAuthor: {
+		DisplayName: 絵画『魔女の著者』
+		Tooltip: By Not Una Nancy Owen (n0t_UN_Owen)
+	}
+
 	ToothRusher: {
 		DisplayName: トゥースラッシャー
 		Tooltip:
@@ -483,256 +532,76 @@ Items: {
 }
 
 Projectiles: {
-	Backbone: {
-		DisplayName: Backbone
-	}
-
-	BigBrother: {
-		DisplayName: Big Brother
-	}
-
-	BloodExplosion: {
-		DisplayName: Blood Explosion
-	}
-
-	BloomRazor: {
-		DisplayName: Bloom Razor
-	}
-
-	CandleCoveHole: {
-		DisplayName: Candle Cove
-	}
-
-	CandleCoveRain: {
-		DisplayName: Candle Cove
-	}
-
-	CandleCoveStorm: {
-		DisplayName: Candle Cove
-	}
-
-	Colonoschord: {
-		DisplayName: Colonoschord
-	}
-
-	CursedNote: {
-		DisplayName: Cursed Note
-	}
-
-	Dandelizer: {
-		DisplayName: Dandelizer
-	}
-
-	DandelizerHeal: {
-		DisplayName: Dandelizer
-	}
-
-	ForbiddenCrucifix: {
-		DisplayName: Forbidden Crucifix
-	}
-
-	HandShield: {
-		DisplayName: Hand Shield
-	}
-
-	GastricAcid: {
-		DisplayName: Gastric Acid
-	}
-
-	GastricAcid2: {
-		DisplayName: Gastric Acid
-	}
-
-	GastricJuices: {
-		DisplayName: Gastric Juices
-	}
-
-	Gourdnade: {
-		DisplayName: Gourdnade
-	}
-
-	GourdnadeFly: {
-		DisplayName: Gourdnade
-	}
-
-	FacundoYPanfilo: {
-		DisplayName: Panfilo & Facundo
-	}
-
-	FiestaMeter: {
-		DisplayName: Fiesta Meter
-	}
-
-	FiestaSuper: {
-		DisplayName: Fiesta Super
-	}
-
-	LarrytheLarynx: {
-		DisplayName: Larry the Larynx
-	}
-
-	LarryVoiceCrack: {
-		DisplayName: Larry's Voice Crack
-	}
-
-	LeakingInk: {
-		DisplayName: Leaking Ink
-	}
-
-	LeechHealing: {
-		DisplayName: Ear Worm Healing
-	}
-
-	LickguaFranca: {
-		DisplayName: Lickgua Franca
-	}
-
-	LickguaSaliva: {
-		DisplayName: Lickgua Saliva
-	}
-
-	ManlessHorseHead: {
-		DisplayName: Manless Horse Head
-	}
-
-	MushDrumSpore: {
-		DisplayName: Mush Drum Spore
-	}
-
-	NerveEndings: {
-		DisplayName: Nerve Endings
-	}
-
-	NerveEndingsFang: {
-		DisplayName: Nerve Endings
-	}
-
-	OldWoodBaton: {
-		DisplayName: Old Wood Baton
-	}
-
-	Olfactor: {
-		DisplayName: Olfactor
-	}
-
-	OlfactorySnot: {
-		DisplayName: Olfactory Discharge
-	}
-
-	OmenoftheDamned: {
-		DisplayName: Omen of the Damned
-	}
-
-	Orriata: {
-		DisplayName: Orriata
-	}
-
-	OrroBoroLeech: {
-		DisplayName: Ear Worm
-	}
-
-	PinkyCross: {
-		DisplayName: Pinky Cross
-	}
-
-	PotofPain: {
-		DisplayName: Pot of Pain
-	}
-
-	Pumpkaracas: {
-		DisplayName: Pumpkaracas
-	}
-
-	PumpkaracasFly: {
-		DisplayName: Pumpkaracas
-	}
-
-	RotGuard: {
-		DisplayName: Rot Guard
-	}
-
-	Sceyethe: {
-		DisplayName: Sceyethe
-	}
-
-	SceyetheDual: {
-		DisplayName: Sceyethe
-	}
-
-	SceyetheEye: {
-		DisplayName: Sceyethe
-	}
-
-	ScreamWhistle: {
-		DisplayName: Scream
-	}
-
-	Sclerinet: {
-		DisplayName: Sclerinet
-	}
-
-	SerSemisonic: {
-		DisplayName: Ser Semisonic
-	}
-
-	Sneezoo: {
-		DisplayName: Sneezoo
-	}
-
-	SongFlowerFlower: {
-		DisplayName: Song Flower
-	}
-
-	SongFlowerPetal: {
-		DisplayName: Song Flower Petal
-	}
-
-	SouloftheDamned: {
-		DisplayName: Soul of the Damned
-	}
-
-	SubclavianTrumpet: {
-		DisplayName: Subclavian Trumpet
-	}
-
-	Tapeworm: {
-		DisplayName: Tapeworm
-	}
-
-	TendrilRoseSanguine: {
-		DisplayName: Tendril Rose Sanguine
-	}
-
-	TerrariumAcceleratedParticle: {
-		DisplayName: Terrarium Accelerated Particle
-	}
-
-	TerrariumParticleAccelerator: {
-		DisplayName: Terrarium Particle Accelerator
-	}
-
-	ToothRusher: {
-		DisplayName: Tooth Rusher
-	}
-
-	VaryingBones: {
-		DisplayName: Varying Bones
-	}
-
-	VerbalFire: {
-		DisplayName: Verbal Fire
-	}
-
-	VerbalFireSwearWords: {
-		DisplayName: Verbal Fire Swear Words
-	}
+	Backbone.DisplayName: Backbone
+	BigBrother.DisplayName: Big Brother
+	BloodExplosion.DisplayName: Blood Explosion
+	BloomRazor.DisplayName: Bloom Razor
+	CandleCoveHole.DisplayName: Candle Cove
+	CandleCoveRain.DisplayName: Candle Cove
+	CandleCoveStorm.DisplayName: Candle Cove
+	Colonoschord.DisplayName: Colonoschord
+	CursedNote.DisplayName: Cursed Note
+	Dandelizer.DisplayName: Dandelizer
+	DandelizerHeal.DisplayName: Dandelizer
+	ForbiddenCrucifix.DisplayName: Forbidden Crucifix
+	HandShield.DisplayName: Hand Shield
+	GastricAcid.DisplayName: Gastric Acid
+	GastricAcid2.DisplayName: Gastric Acid
+	GastricJuices.DisplayName: Gastric Juices
+	Gourdnade.DisplayName: Gourdnade
+	GourdnadeFly.DisplayName: Gourdnade
+	FacundoYPanfilo.DisplayName: Panfilo & Facundo
+	FiestaMeter.DisplayName: Fiesta Meter
+	FiestaSuper.DisplayName: Fiesta Super
+	LarrytheLarynx.DisplayName: Larry the Larynx
+	LarryVoiceCrack.DisplayName: Larry's Voice Crack
+	LeakingInk.DisplayName: Leaking Ink
+	LeechHealing.DisplayName: Ear Worm Healing
+	LickguaFranca.DisplayName: Lickgua Franca
+	LickguaSaliva.DisplayName: Lickgua Saliva
+	ManlessHorseHead.DisplayName: Manless Horse Head
+	MushDrumSpore.DisplayName: Mush Drum Spore
+	MushroomMarcherGrenade.DisplayName: Spore Grenade
+	MushroomMarcherSpore.DisplayName: Grenade Spore
+	NerveEndings.DisplayName: Nerve Endings
+	NerveEndingsFang.DisplayName: Nerve Endings
+	OldWoodBaton.DisplayName: Old Wood Baton
+	Olfactor.DisplayName: Olfactor
+	OlfactorySnot.DisplayName: Olfactory Discharge
+	OmenoftheDamned.DisplayName: Omen of the Damned
+	Orriata.DisplayName: Orriata
+	OrroBoroLeech.DisplayName: Ear Worm
+	PinkyCross.DisplayName: Pinky Cross
+	PotofPain.DisplayName: Pot of Pain
+	Pumpkaracas.DisplayName: Pumpkaracas
+	PumpkaracasFly.DisplayName: Pumpkaracas
+	RotGuard.DisplayName: Rot Guard
+	Sceyethe.DisplayName: Sceyethe
+	SceyetheDual.DisplayName: Sceyethe
+	SceyetheEye.DisplayName: Sceyethe
+	ScreamWhistle.DisplayName: Scream
+	Sclerinet.DisplayName: Sclerinet
+	SerSemisonic.DisplayName: Ser Semisonic
+	Sneezoo.DisplayName: Sneezoo
+	SongFlowerFlower.DisplayName: Song Flower
+	SongFlowerPetal.DisplayName: Song Flower Petal
+	SouloftheDamned.DisplayName: Soul of the Damned
+	SubclavianTrumpet.DisplayName: Subclavian Trumpet
+	Tapeworm.DisplayName: Tapeworm
+	TendrilRoseSanguine.DisplayName: Tendril Rose Sanguine
+	TerrariumAcceleratedParticle.DisplayName: Terrarium Accelerated Particle
+	TerrariumParticleAccelerator.DisplayName: Terrarium Particle Accelerator
+	ToothRusher.DisplayName: Tooth Rusher
+	VaryingBones.DisplayName: Varying Bones
+	VerbalFire.DisplayName: Verbal Fire
+	VerbalFireSwearWords.DisplayName: Verbal Fire Swear Words
 }
 
 Buffs: {
-    AcidReflux: {
-        DisplayName: 胃酸逆流
-        Description: ダメージ+10％、アーマー貫通+10
-    }
+	AcidReflux: {
+		DisplayName: 胃酸逆流
+		Description: ダメージ+10％、アーマー貫通+10
+	}
 
 	GourdGuarded: {
 		DisplayName: カボチャの守護
@@ -768,6 +637,15 @@ Buffs: {
 		DisplayName: サーセミソニッククールダウン
 		Description: Mods.SpookyBardHealer.Buffs.SerSemisonicCooldown.Description
 	}
+}
+
+WhisperingHood: {
+	RotGourd: かつての面影もない、ただの抜け殻...
+	SpookySpirit: おっと！パーティーはもうお開きだ！
+	Moco: 自分自身の存在にすらアレルギーがあるようだ...
+	Daffodil: よし。そのまま眠っていろ...
+	OrroBoro: 奴らの貪欲さには反吐が出る...
+	BigBone: 過保護になるのはやめようじゃないか？
 }
 
 Configs: {
@@ -822,4 +700,3 @@ Configs: {
 		}
 	}
 }
-

@@ -1,62 +1,132 @@
 NPCs: {
-	CreeperDeBosque.DisplayName: クリーパー
+	CreeperDeCesped.DisplayName: グラスクリーパー
 	CreeperDeCactus.DisplayName: サボテンクリーパー
 	CreeperDeLasNieves.DisplayName: スノークリーパー
 	CreeperDeBambo.DisplayName: 竹林クリーパー
-	CreeperDeCoco.DisplayName: ココナッツクリーパー
+	CreeperDePalmera.DisplayName: パームクリーパー
 	CreeperDeMinaMarina.DisplayName: 機雷クリーパー
+	CreeperDeCespedCorrupto.DisplayName: コラプトグラスクリーパー
+	CreeperDeCespedCarmesi.DisplayName: クリムゾングラスクリーパー
+	CreeperDeCespedBendito.DisplayName: ハロウグラスクリーパー
+	CreeperDeCactusCorrupto.DisplayName: コラプトサボテンクリーパー
+	CreeperDeCactusCarmesi.DisplayName: クリムゾンサボテンクリーパー
+	CreeperDeCactusBendito.DisplayName: ハロウサボテンクリーパー
+	CreeperDePalmeraCorrupto.DisplayName: コラプトパームクリーパー
+	CreeperDePalmeraCarmesi.DisplayName: クリムゾンパームクリーパー
+	CreeperDePalmeraBendito.DisplayName: ハロウパームクリーパー
 }
 
 Bestiary: {
-	CreeperDeBosque: 狙った相手に接近し、少しの溜めの後に爆発する危険な生物。爆風は周囲を破壊するので注意が必要だ。その性質から、体内に爆薬を蓄えているという噂が絶えない。
+	CreeperDeCesped: 狙った相手に接近し、少しの溜めの後に爆発する危険な生物。爆発範囲には注意しよう。中心では100%のダメージを受け、離れるほど50%まで減少する。
 	CreeperDeCactus: しばしば標的を追いかけ、全方向に棘を放つ。発射後は隙ができるため、距離を取るのが有効だ。
 	CreeperDeLasNieves: 普段はおとなしい毛むくじゃらの敵だが、敵対すると周囲に4本の影の手を召喚する。平静に戻ると回復し始めるため、長期戦は不利だ。激昂し他の敵が加われば致命的だろう。
 	CreeperDeBambo: 竹に対して攻撃的な生物。敵対時には有害なダーツを発射し、平静に戻ると回復する。激昂しているなら真っ先に排除するのが望ましい。
-	CreeperDeCoco: 装甲に覆われた謎の生物。斧を使って装甲を取り外し、ココナッツを手に入れられる。ある毛皮の本を持っているなら、こちらを傷つけてこない。接近しすぎると爆発するが、自爆で倒れることはなく、再び攻撃の準備を整える。放っておこう。
+	CreeperDePalmera: 装甲に覆われた中立的な生物。斧で装甲を剥がすと、ココナッツを入手できる。とある毛皮の本を持っていれば、こちらに危害を加えない。近づきすぎると爆発するが、その爆発で死ぬことはなく、しばらくすると再び攻撃できるようになる。放っておこう。
 	CreeperDeMinaMarina: サンゴに制御された機械。動かずにじっとして、標的が近づくのを待っている。透明で、一部の武器では検知できない。爆発範囲には注意しよう。中心では100%のダメージを与え、離れるほど50%まで減少する。
+	CreeperDeCespedCorrupto: クリーパーが不浄に侵された姿。不浄に関連するアイテムを落とす。
+	CreeperDeCespedCarmesi: クリーパーが真紅に侵された姿。真紅に関連するアイテムを落とす。
+	CreeperDeCespedBendito: クリーパーが聖域に侵された姿。聖域に関連するアイテムを落とす。
+	CreeperDeCactusCorrupto: サボテンクリーパーが不浄に侵された姿。不浄に関連するアイテムを落とす。
+	CreeperDeCactusCarmesi: サボテンクリーパーが真紅に侵された姿。真紅に関連するアイテムを落とす。
+	CreeperDeCactusBendito: サボテンクリーパーが聖域に侵された姿。聖域に関連するアイテムを落とす。
+	CreeperDePalmeraCorrupto: パームクリーパーが不浄に侵された姿。不浄に関連するアイテムを落とす。
+	CreeperDePalmeraCarmesi: パームクリーパーが真紅に侵された姿。真紅に関連するアイテムを落とす。
+	CreeperDePalmeraBendito: パームクリーパーが聖域に侵された姿。聖域に関連するアイテムを落とす。
 }
 
 Configs: {
 	EnableAllCreepers: {
-		Tooltip: ""
+		Tooltip: 全種類のクリーパーをまとめて有効または無効にします
 		Label: 全クリーパーを有効化
 	}
 
 	NPCSpawnConfig.DisplayName: クリーパースポーン設定
 
-	EnableCreeperDeBosque: {
-		Tooltip: ""
-		Label: クリーパーを有効化
+	EnableCreeperDeCesped: {
+		Tooltip: 森林でグラスクリーパーが出現します
+		Label: グラスクリーパーを有効化
 	}
 
 	EnableCreeperDeCactus: {
-		Tooltip: ""
+		Tooltip: 砂漠でサボテンクリーパーが出現します
 		Label: サボテンクリーパーを有効化
 	}
 
 	EnableCreeperDeLasNieves: {
-		Tooltip: ""
+		Tooltip: 雪原でスノークリーパーが出現します
 		Label: スノークリーパーを有効化
 	}
 
 	EnableCreeperDeBambo: {
-		Tooltip: ""
+		Tooltip: ジャングルで竹林クリーパーが出現します
 		Label: 竹林クリーパーを有効化
 	}
 
-	EnableCreeperDeCoco: {
-		Tooltip: ""
-		Label: ココナッツクリーパーを有効化
+	EnableCreeperDePalmera: {
+		Tooltip: 海でパームクリーパーが出現します
+		Label: パームクリーパーを有効化
 	}
 
 	EnableCreeperDeMinaMarina: {
-		Tooltip: ""
+		Tooltip: 海で機雷クリーパーが出現します
 		Label: 機雷クリーパーを有効化
+	}
+
+	EnableCreeperDeCespedCarmesi: {
+		Tooltip: 真紅でクリムゾングラスクリーパーが出現します
+		Label: クリムゾングラスクリーパーを有効化
+	}
+
+	EnableCreeperDeCespedCorrupto: {
+		Tooltip: 不浄でコラプトグラスクリーパーが出現します
+		Label: コラプトグラスクリーパーを有効化
+	}
+
+	EnableCreeperDeCespedBendito: {
+		Tooltip: 聖域でハロウグラスクリーパーが出現します
+		Label: ハロウグラスクリーパーを有効化
+	}
+
+	EnableCreeperDeCactusCarmesi: {
+		Tooltip: 真紅でクリムゾンサボテンクリーパーが出現します
+		Label: クリムゾンサボテンクリーパーを有効化
+	}
+
+	EnableCreeperDeCactusCorrupto: {
+		Tooltip: 不浄でコラプトサボテンクリーパーが出現します
+		Label: コラプトサボテンクリーパーを有効化
+	}
+
+	EnableCreeperDeCactusBendito: {
+		Tooltip: 聖域でハロウサボテンクリーパーが出現します
+		Label: ハロウサボテンクリーパーを有効化
+	}
+
+	EnableCreeperDePalmeraCarmesi: {
+		Tooltip: 真紅でクリムゾンパームクリーパーが出現します
+		Label: クリムゾンパームクリーパーを有効化
+	}
+
+	EnableCreeperDePalmeraCorrupto: {
+		Tooltip: 不浄でクリムゾンパームクリーパーが出現します
+		Label: コラプトパームクリーパーを有効化
+	}
+
+	EnableCreeperDePalmeraBendito: {
+		Tooltip: 聖域でハロウパームクリーパーを有効化
+		Label: ハロウパームクリーパーを有効化
 	}
 }
 
 Projectiles: {
-	CactusSpineProjectile.DisplayName: サボテンの棘
+	EspinaDeCactusProj.DisplayName: サボテンのトゲ
 	CreeperBambooSpore.DisplayName: 竹林クリーパーの胞子
 	CreeperShadowProjectile.DisplayName: クリーパーの闇弾
+	FragmentoDeEspina.DisplayName: トゲの欠片
+	FragmentoDeEspinaBendito.DisplayName: 聖なるトゲの欠片
+	FragmentoDeEspinaCorrupto.DisplayName: 汚染されたトゲの欠片
+	FragmentoDeEspinaCarmesi.DisplayName: 血染めのトゲの欠片
+	EspinaDeCactusProjBendito.DisplayName: 聖なるサボテンのトゲ
+	EspinaDeCactusProjCorrupto.DisplayName: 汚染されたサボテンのトゲ
+	EspinaDeCactusProjCarmesi.DisplayName: 血染めのサボテンのトゲ
 }
