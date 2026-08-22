@@ -1,0 +1,45 @@
+Items: {
+	HologramProjectorItem: {
+		DisplayName: ホログラム投影機
+		Tooltip: アンロック済みの生物図鑑の生物をホログラムとして投影する。設置後、右クリックで設定できる。
+	}
+
+	AdamantiteHologramProjectorItem: {
+		DisplayName: アダマンタイトのホログラム投影機
+		Tooltip: 高性能な投影機。生物図鑑の進行状況を無視し、より大きなホログラムを投影可能。
+	}
+
+	TitaniumHologramProjectorItem: {
+		DisplayName: チタニウムのホログラム投影機
+		Tooltip: 高性能な投影機。生物図鑑の進行状況を無視し、より大きなホログラムを投影可能。
+	}
+}
+
+Tiles: {
+	HologramProjectorTile.MapEntry: ホログラム投影機
+	AdamantiteHologramProjectorTile.MapEntry: アダマンタイトのホログラム投影機
+	TitaniumHologramProjectorTile.MapEntry: チタニウムのホログラム投影機
+}
+
+UI: {
+	SelectCreature: 表示生物
+	None: （なし）
+	Animate: アニメーション
+	Hologram: ホログラムエフェクト
+	AltRender: 代替描画
+	Scale: スケール
+	OffsetX: X座標
+	OffsetY: Y座標
+	Rotation: 回転
+	AnimSpeed: アニメーション間隔
+	InvisibleTile: 投影機を非表示
+	InvisibleWarning: 
+		'''
+		投影機を非表示にした際、
+		後から見つけづらい点に注意。
+		'''
+	PickerTitle: 生物を選択
+	SearchHint: 名前検索...
+	Close: 閉じる
+}
+
