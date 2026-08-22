@@ -20567,9 +20567,22 @@ tModLoader: {
 
 		いくつかの前提Modが導入されていません：
 		'''
+	RemovedWorkshopMods:
+		'''
+		これらのModはSteam上にインストールされていますが、現在Workshop上では表示されていません。
+		マルウェア、DMCAによる削除、非公開になったなどの可能性があります。削除しますか？
+		'''
+	ReuploadedWorkshopMods:
+		'''
+		これらのModは新しいPublish IDでSteamに再投稿されています。新しいバージョンをサブスクライブしますか？
+		注意：再サブスクライブしない場合、現在のバージョンは更新されなくなり、Steamによって自動削除される可能性があります。
+		'''
+	DeleteMods: Modを削除
+	KeepInstalled: インストール済みModを残す
 	InstallDependencies: 必要な依存関係をインストール
 	RedownloadMods: Modを再ダウンロード
 	InstallDependenciesAndRedownloadMods: 依存関係をインストールしてModを再ダウンロード
+	ResolveAbnormalMods: 再サブスクライブ
 	ContinueAnyway: このまま続行
 	ModUpdatedSinceLastLaunchMessage:
 		'''
@@ -20583,7 +20596,15 @@ tModLoader: {
 	MenuModsEnabled: "{0} {^0:Mod;Mod} が有効"
 	MenuModUpdatesAvailable: ({0} {^0:アップデート;アップデート} が利用可能！)
 	AudioNotSupported: オーディオハードウェアが見つかりません。すべてのオーディオを無効にします。
-	SwitchVersionInfoButton: tModLoaderのバージョンを変更する方法を知るにはここをクリック！
+	SwitchVersionInfoButton: tModLoaderのバージョンを切り替える
+	SwitchVersionInstructions: 切り替えたいバージョンを選択してください。ゲームは自動的に終了し、Steamが対象バージョンをダウンロードします。ダウンロード完了後、もう一度ゲームを起動してください。
+	SwitchVersionWikiLinkLabel: ベータバージョン情報
+	SwitchVersionCurrentlySelected: 選択中
+	SwitchVersionCurrentlySelectedButRunningSeparateInstallWarning: 注意：現在実行中のゲームは、Steam上にインストールされているものと別のインストール先にあります。バージョン切り替えは、このインストール先ではなくSteam側にインストールされているゲームへ適用されます。
+	SwitchVersionSwitchButtonTooltip: ゲームを終了してこのバージョンに切り替える
+	SwitchVersionConfirm: 本当にバージョンを切り替えますか？
+	SwitchVersionDefaultBranchName: デフォルトの公開バージョン
+	SwitchVersionDefaultBranchDescription: ほとんどのプレイヤーが利用している標準の安定版
 	LatestNews: 最新情報: {0}
 	LatestNewsOffline: オフライン
 	LatestNewsChecking: 確認中...
@@ -20749,6 +20770,7 @@ tModLoader: {
 	WorkshopDisclaimer: このアイテムを提出すると、tModLoaderの利用規約に同意したことになります。
 	NonModOwnerPublishWarning: 「{0}」という名前のModは他のMod開発者によってすでにワークショップに公開されています。このModの開発者でない場合、公開が失敗します。これはあなたのModの場合、正しいSteamアカウントでログインしているか確認してください。すべてのModは一意の内部名を持っている必要があります。
 	SteamPublishingLimit: Error: エラー: Steam tModLoaderの所有者のみがゲーム内からワークショップに公開できます。
+	ModWasBuiltForDebugging: エラー：Workshopにアップロードできるのは「Release」ビルドのModのみです。ゲーム内の「ビルド＋リロード」を使えば、すぐにReleaseビルドを作成できます。
 	NoWorkshopAccess:
 		'''
 		エラー: Steamワークショップにアクセスできません。
@@ -20813,6 +20835,11 @@ tModLoader: {
 		'''
 		このModはtModLoader v{0}用に作成されたことが検出されました。
 		現在使用しているバージョン: {1}
+		'''
+	LoadErrorLikelyOutdated: 
+		'''
+		このModは現在のtModLoaderバージョンに合わせて更新する必要があるか、他に導入しているModの一部とバージョンの互換性がない可能性があります。
+		詳しくは「ウェブヘルプを開く」ボタンをクリックしてください。
 		'''
 	LoadErrorDotNet45Required: Modを使用するには.NET Framework 4.5以上が必要です。最新の.NET Frameworkをダウンロードしてください。
 	LoadErrorDependencyMissing: 必要なModがありません: {0} (必要とするMod: {1})
@@ -21186,6 +21213,7 @@ tModLoader: {
 	MigrateIndividualPlayersHeader: 個別のプレイヤーデータを移行中...
 	MigrateIndividualWorldsHeader: 個別のワールドデータを移行...
 	MigratingWorldsText: 移行中...
+	ClickToCopyFileOverFromReleaseName: クリックして「{0}」を{1}からコピーする
 	ModsDifferentSinceLastPlay: "前回プレイ以降に変更のあったMod: "
 	Missing1Mod: 1つのModが見つかりません
 	MissingXMods: "{0}個のModが見つかりません"
@@ -21461,15 +21489,15 @@ tModLoader: {
 	TagsLanguage_Portuguese: Brazilian Portuguese
 	TagsLanguage_Polish: Polish
 	TagsLanguage_Description: この言語向けに対応
-	TagsLanguage_EnglishDescription: この言語向けに対応
-	TagsLanguage_SpanishDescription: この言語向けに対応
-	TagsLanguage_FrenchDescription: この言語向けに対応
-	TagsLanguage_ItalianDescription: この言語向けに対応
-	TagsLanguage_RussianDescription: この言語向けに対応
-	TagsLanguage_ChineseDescription: この言語向けに対応
-	TagsLanguage_PortugueseDescription: この言語向けに対応
-	TagsLanguage_GermanDescription: この言語向けに対応
-	TagsLanguage_PolishDescription: この言語向けに対応
+	TagsLanguage_EnglishDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_SpanishDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_FrenchDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_ItalianDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_RussianDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_ChineseDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_PortugueseDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_GermanDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_PolishDescription: "{$TagsLanguage_Description}"
 	NextInfoAccPage: 次のページへ
 	PreviousInfoAccPage: 前のページへ
 	FirstInfoAccPage: 最初のページへ
