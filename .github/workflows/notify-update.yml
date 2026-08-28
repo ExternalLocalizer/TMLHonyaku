@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - '**.hjson'
+      - 'TranslatedMods.csv'
 
 jobs:
   call-workflow:
