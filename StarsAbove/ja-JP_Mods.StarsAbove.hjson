@@ -9482,7 +9482,7 @@ Dialogue: {
 				'''
 				爆弾投げるのって楽しいよね。
 				...でも、今回はそのせいで大変なことになったみたい。
-				覚悟して！
+				気を付けて！
 				'''
 
 			//StarAboveのサブワールド関係だが読込先が不明、使われてない？
@@ -9527,7 +9527,7 @@ Dialogue: {
 				'''
 
 			//spiritModのボスダイアログ
-			194: 砂漠のスカラベが、鎧をまとってまっすぐ君に向かってくるよ！
+			194: 砂漠のスカラベが、鎧をまとってまっすぐ向かってくるよ！
 			195: 
 				'''	
 				あのクラゲたち、まとまってひとつになったみたい...
@@ -9651,13 +9651,13 @@ Dialogue: {
 				'''			
 			234: 	
 				'''
-				巨大なゼノマイトの怪物...危険すぎる！
+				巨大なゼノマイトの怪物...危険すぎるよ！
 				絶対に油断しないで！
 				'''
 			235: なんで急に雨が...？待って、警戒して！前とは様子が違うよ！
 			236: 
 				'''
-				ギャラクシーストーンが空の向こうの何かと共鳴してる...
+				ネビュラストーンが空の向こうの何かと共鳴してる...
 				これ、本当にやってよかったのかな？
 				'''
 			//Calamity Fablesボス
@@ -10317,8 +10317,8 @@ Dialogue: {
 				'''
 			234: 
 				'''
-				研究所の奥に封じられていたのは...これ、だったのね。
-				感染の兆しと同じ反応がある。すぐに片づけましょう。
+				研究所の奥に封じられていたのは...これだったのね。
+				感染源と同じ反応がある。すぐに片づけましょう。
 				'''
 			235: 周囲の気象が乱れ始めてる...何かが起きてるわ。焦らないで、慎重にね。
 			236: 衛星軌道上から何かが...落ちてきたみたい。あの石のせいね。で、次はどうする？
@@ -21708,6 +21708,22 @@ Items: {
 		DisplayName:Origin Infinity
 		Tooltip: 未実装
 	}
+
+	AsphodeneForkliftKey: {
+		DisplayName: アスフォデンのフォークリフトの鍵
+		Tooltip: 機械式フォークリフトを召喚する
+	}
+
+	EridaniForkliftKey: {
+		DisplayName: エリダニのフォークリフトの鍵
+		Tooltip: 機械式フォークリフトを召喚する
+	}
+
+	ForkliftKey: {
+		DisplayName: フォークリフトの鍵
+		Tooltip: ""
+	}
+
 }
 
 
@@ -28944,6 +28960,17 @@ Buffs: {
 		DisplayName: ノヴァ・チェインアタック(エリダニ)
 		Description: Mods.StarsAbove.Buffs.NovaChainAttackEridani.Description
 	}
+
+	AsphodeneForkliftMountBuff: {
+		DisplayName: アスフォデンのフォークリフト
+		Description: 「これが最高速度なの？ねえ、こいつにジェットエンジンを搭載するのはどう？」
+	}
+
+	EridaniForkliftMountBuff: {
+		DisplayName: エリダニのフォークリフト
+		Description: 「遅いわね...あなたのインベントリが余分な物だらけで重いのが原因なんじゃないかしら？」
+	}
+
 }
 
 Bestiary: {
@@ -29213,7 +29240,7 @@ Configs: {
 	MiscHeader: "[c/7A76FF:その他の設定]"
 
 	StarsAboveConfigClient: {
-		DisplayName: Stars Above Config (Client-side)
+		DisplayName: Stars Above 設定 (クライアント)
 
 		DisableStellarNovaCutIns: {
 			Label: ステラ・ノヴァのカットインを非表示
@@ -29222,12 +29249,12 @@ Configs: {
 
 		DisableStarfarerVoices: {
 			Label: スターフェアラーのボイスを無効
-			Tooltip: スターフェアラーのボイスラインを無効にする。
+			Tooltip: スターフェアラーのボイス再生を無効にする。
 		}
 
 		DisableStellarNovaDialogue: {
-			Label: ステラ・ノヴァのダイアログボックスを無効に
-			Tooltip: ステラ・ノヴァのカットイン中のダイアログボックスを無効にする。
+			Label: ステラ・ノヴァのダイアログボックスを無効
+			Tooltip: ステラ・ノヴァのカットイン中の発言を無効にする。
 		}
 
 		DisableStarfarerCommentary: {
@@ -29236,18 +29263,23 @@ Configs: {
 		}
 
 		DisableStarfarerCommentaryBuffs: {
-			Label: 状態にまつわるスターフェアラーの発言を無効
-			Tooltip: バフ/デバフを受けた際にスターフェアラーの発言を受け取らなくなる。
+			Label: バフ/デバフにまつわるスターフェアラーの発言を無効
+			Tooltip: バフ/デバフを受けた際のスターフェアラーの発言を無効化する。
 		}
 
 		DisableStarfarerCommentaryCombat: {
 			Label: 戦闘にまつわるスターフェアラーの発言を無効
-			Tooltip: 敵を倒した時などにスターフェアラーの発言を受け取らなくなる。
+			Tooltip: 敵を倒した時などにスターフェアラーの発言を無効化する。
 		}
 
 		StarfarerPromptCooldown: {
 			Label: スターフェアラーの発言の間隔
-			Tooltip: スターフェアラーの発言間の時間を分単位で指定する。この時間内にプロンプトのトリガーが発生した場合、それは無視される。ユニークプロンプト(ボスなど)には適用されない。
+			Tooltip:
+			'''
+			スターフェアラーの発言間の時間を分単位で指定する。
+			この時間内に特別な発言フラグが発生した場合、それは無視される。
+			ユニークなコメント(対ボスなど)には適用されない。
+			'''
 		}
 
 		CommentaryTimer: {
@@ -29257,22 +29289,30 @@ Configs: {
 
 		DialogueScrollValue: {
 			Label: スターフェアラーのテキスト速度
-			Tooltip: 台詞テキストが増加する時間をフレーム単位で指定する。2以下では、ダイアログの効果音を無効にすることを推奨する。
+			Tooltip: 
+			'''
+			台詞テキストが流れる速度をフレーム単位で指定する。
+			2以下にする場合、効果音を無効にすることを推奨する。
+			'''
 		}
 
 		DialogueAudio: {
 			Label: スターフェアラーのテキスト効果音
-			Tooltip: スターフェアラー・ダイアログ中に文字が表示されたときに再生される効果音。オプション5は効果音を無効にする。
+			Tooltip: 
+			'''
+			スターフェアラーの発言でテキストが表示されたときに再生される効果音。
+			5にすると効果音を無効にする。
+			'''
 		}
 
 		InstantText: {
 			Label: インスタントテキスト
-			Tooltip: スターフェアラーのテキスト速度オプションは無視され、すべてのテキストが即座に表示される。
+			Tooltip: スターフェアラーのテキスト速度オプションを無視し、すべてのテキストが即座に表示されるようにあうえう。
 		}
 
 		EnableMusicOverride: {
-			Label: 武器の音楽を最優先で再生
-			Tooltip: 有効にすると、ゲームの音楽を変化させる武器が、他のほとんどすべてに優先するようになる。
+			Label: 武器固有のBGMを最優先で再生
+			Tooltip: 有効にするとゲームのBGMを変化させる武器を使用した時、最優先で再生するようになる。
 		}
 
 		DisableWeaponCutIns: {
@@ -29281,17 +29321,17 @@ Configs: {
 		}
 
 		PromptLoc: {
-			Label: スターフェアラーの発言のポジション
+			Label: スターフェアラーの発言の位置座標
 			Tooltip: ""
 		}
 
 		NovaGaugeLoc: {
-			Label: ノヴァゲージのポジション
+			Label: ノヴァゲージの位置座標
 			Tooltip: ""
 		}
 
 		MovingDialogueAmount: {
-			Label: スターフェアラーメニューの動き
+			Label: スターフェアラーメニューの移動量
 			Tooltip: 移動中のスターフェアラーメニューの移動量を調整する。
 		}
 
@@ -29302,16 +29342,20 @@ Configs: {
 
 		DisableScreenShake: {
 			Label: 画面揺れを無効
-			Tooltip: すべてのソースからのスクリーンシェイク効果を無効にする。
+			Tooltip: 画面揺れ効果を無効にする。
 		}
 
 		StarfarerVoiceCooldown: {
-			Label: スターフェアラーの声のクールダウン
-			Tooltip: ボイス付きダイアログの再生間隔を秒単位で指定する。値が低いとダイアログが重なってしまい、ボイスダイアログが再生される機会が減少する。
+			Label: スターフェアラーのボイスのクールダウン
+			Tooltip:
+			''' 
+			ボイス付きコメントの再生の間隔を秒単位で指定する。
+			値が低いと重なってしまい、ボイスが再生される機会が減少する。
+			'''
 		}
 
 		StarfarerDialogueVoiceVolume: {
-			Label: スターフェアラー・ダイアログボイス・ボリューム
+			Label: ボイス付きコメントの音量
 			Tooltip: ""
 		}
 
@@ -29321,7 +29365,7 @@ Configs: {
 		}
 
 		ForceNeonVeilShader: {
-			Label: ネオンベールのシェーダーを強制
+			Label: ネオンベールのシェーダー効果
 			Tooltip: ""
 		}
 
@@ -29329,14 +29373,28 @@ Configs: {
 			Label: ステラノヴァのカットシーン
 			Tooltip: ステラ・ノヴァのカットシーンを表示する頻度を決定する。
 		}
+
+		bossVoiceVolume: {
+			Label: ボスのボイス音量
+			Tooltip: ""
+		}
+
+		DisableBossVoiceLines: {
+			Label: ボスのボイスを無効化
+			Tooltip: 旧仕様のボスボイスを無効にする。
+		}
 	}
 
 	StarsAboveServersideConfig: {
-		DisplayName: Stars Above 設定(サーバー側)
+		DisplayName: Stars Above 設定(サーバー)
 
 		DisableTypePenalty: {
-			Label: アスペクトダメージ修正時のダメージペナルティを無効
-			Tooltip: アスペクトダメージ修正有効時の10%ダメージペナルティが削除される。この効果も取り除かれる一部の効果は結果としてオーバーパワーになるので注意。
+			Label: アスペクトウェポンのダメージタイプ変更ペナルティを無効
+			Tooltip: 
+			'''
+			アスペクトウェポンのダメージタイプ変更時の10%ダメージペナルティが削除される。
+			一部の武器がオーバーパワーになるので注意。
+			'''
 		}
 
 		DisableBossAggro: {
@@ -29345,43 +29403,57 @@ Configs: {
 		}
 
 		DisableCalamityWeaponBuffs: {
-			Label: MODの互換性のためにグローバル・ダメージ修正を無効
-			Tooltip: Calamity Modが有効な場合の、アスペクト・ダメージのダメージ増加を無効化する。
+			Label: MODの互換性のための威力調整を無効
+			Tooltip: Calamity Modが有効な場合の、アスペクトウェポンの威力調整を無効化する。
 		}
 
 		DisableWeaponRestrictions: {
 			Label: アスペクトウェポンの制限を無効
-			Tooltip: アストラルおよびアンブラル・ウェポンを反対側のアスペクトが振るう際の制限を無効化する。
+			Tooltip: アスフォデンとエリダニ専用武器の制限を無効化する。
 		}
 
 		DisableBossEnemySpawnMod: {
-			Label: エネミースポーン抑制を無効
-			Tooltip: 全プレイヤーに付与される、ボス戦時のモブスポーンを防ぐバフを無効にする。他のMODではこの機能が重複している場合がある。
+			Label: ボス戦時のスポーン抑制を無効
+			Tooltip: 全ボス戦時のモブスポーンを防ぐバフを無効にする。他のMODに搭載されている抑制は無効化できない。
 		}
 
 		DisableManaSicknessChange: {
-			Label: マナシックの変化を無効
-			Tooltip: マナシックのダメージ軽減を魔法だけでなく全てのダメージに適用する変更を無効にする。これを変更するとマナを消費する魔法以外の武器の性能が異常に高くなる可能性がある。
+			Label: マナ酔いの適用範囲拡大を無効
+			Tooltip: 
+			'''
+			マナ酔いの効果を魔法だけでなく全てのダメージタイプに適用する変更を無効にする。
+			これを変更するとマナを消費する魔法以外の武器の性能が異常に高くなる可能性がある。
+			'''
 		}
 
 		ColorblindBoss: {
 			Label: 色覚異常者サポート（ペンテシレイア戦）
-			Tooltip: ペンテシレイアのボス戦で、特定の色に基づくメカニズムを置き換える
+			Tooltip: ペンテシレイア戦で、特定の色に基づくギミックの色を置き換える
 		}
 
 		DisableCompatibilityMode: {
-			Label: 星海航行のマルチプレイ互換性
+			Label: 星海航行のマルチプレイ許可
 			Tooltip:
 				'''
 				無効にすると、マルチプレイでも星海航行を行うことができる。
-				これは問題を引き起こす可能性があるため、自己責任で使用すること。
+				問題を引き起こす可能性があるため、自己責任で使用すること。
 				有効にすると、星海航行に必要なアイテムが時間経過でドロップするようになる。
 				'''
 		}
 
 		CombatTimer: {
 			Label: 戦闘タイマー
-			Tooltip: 敵を攻撃したとき、あるいは攻撃されたとき、「戦闘中」になる時間(秒)。
+			Tooltip: 敵を攻撃したとき、あるいは攻撃されたとき、「戦闘中」扱いになる秒数
+		}
+
+		MultiplayerFallbackSubworlds: {
+			Label: 星海航行のマルチプレイ制限
+			Tooltip: 
+			'''
+			有効にすると、星海航行のアイテムがドロップするようになる。
+			無効にすると、マルチプレイ中でもプレイヤーが星海航行に挑戦できるようになる。
+			問題を引き起こす可能性があるため、自己責任で利用するか、非公式パッチと併用すること。
+			'''
 		}
 	}
 
@@ -29390,23 +29462,27 @@ Configs: {
 
 		Never: {
 			Label: 表示しない
+			Tooltip: ""
 		}
 
 		Session: {
 			Label: 1プレイ1回のみ
+			Tooltip: ""
 		}
 
 		Always: {
 			Label: 常に表示する
+			Tooltip: ""
 		}
 	}
 }
 
 WorldGen: {
-	NeonVeilGenerationMessage: ネオンベールを照らす
-	ExtraStructuresGenerationMessage: 星からの着陸ノベルティ
+	NeonVeilGenerationMessage: ネオンベールを構築中
+	ExtraStructuresGenerationMessage: 天体を構成中
 }
 
 Conditions: {
-	InNeonVeil: ネオンベールの中
+	InNeonVeil: ネオンベール内部
 }
+
