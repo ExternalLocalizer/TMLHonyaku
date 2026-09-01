@@ -2842,7 +2842,7 @@ Items: {
 
 		InfiniteToiletItem: {
 			OnlyZenithCondition: ゼニスワールド限定
-			DisplayName: 無限トイレアイテム
+			DisplayName: 無限のトイレ
 			Tooltip: ""
 		}
 	}
@@ -4138,10 +4138,9 @@ Items: {
 		DisplayName: プライムプラズマ皮下装甲
 		Tooltip:
 			'''
-
+			全身の皮膚下に織り込まれた電気活性ゲル層
 			防御力25とダメージ軽減6%を永続的に付与
 			ノックバック耐性を大幅に増加させる
-			「全身の皮膚下に織り込まれた電気活性ゲル層」
 			'''
 	}
 
@@ -5805,23 +5804,23 @@ Legend: {
 		OrbDrainAura: +チャージ中、周囲の敵からオーブがライフを吸収する
 		BeamExplodeOnHit: +ビーム命中時に微小パルスを爆発させる
 		MergeBeams: +3本のビームを1本に融合する
-		Minions: "爆発追尾オーブ+{0}"
-		Split: "分裂ビーム+{0}"
-		Chain: "連鎖回数+{0}"
-		Pierce: "追加貫通+{0}"
-		Crit: "クリティカル率+{0}%"
-		BeamCount: "ビーム本数+{0}"
-		ExplosionRadius: "爆発範囲+{0}%"
-		BeamLife: "ビーム射程+{0}%"
-		OrbSpeed: "オーブ速度+{0}%"
+		Minions: "爆発追尾オーブ{0}"
+		Split: "分裂ビーム{0}"
+		Chain: "連鎖回数{0}"
+		Pierce: "追加貫通{0}"
+		Crit: "クリティカル率{0}%"
+		BeamCount: "ビーム本数{0}"
+		ExplosionRadius: "爆発範囲{0}%"
+		BeamLife: "ビーム射程{0}%"
+		OrbSpeed: "オーブ速度{0}%"
 		ChargeTime: "チャージ時間{0}%"
 		ManaCost: "マナ消費{0}%"
-		MergedDamage: "融合ダメージ+{0}%"
-		Homing: "誘導性能+{0}%"
-		BeamSpeed: "ビーム速度+{0}%"
-		Spread: "拡散+{0}%"
-		Damage: "ダメージ+{0}%"
-		AttackSpeed: "攻撃速度+{0}%"
+		MergedDamage: "融合ダメージ{0}%"
+		Homing: "誘導性能{0}%"
+		BeamSpeed: "ビーム速度{0}%"
+		Spread: "拡散{0}%"
+		Damage: "ダメージ{0}%"
+		AttackSpeed: "攻撃速度{0}%"
 	}
 
 	SHPCSlotTag: SHPCモジュール・{0}
