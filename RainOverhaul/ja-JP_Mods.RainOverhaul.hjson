@@ -4,7 +4,7 @@ Configs: {
 
 		Headers: {
 			AmbientModeSettings: 環境モード
-			RainWorldModeSettings: 雨の世界モード
+			RainWorldModeSettings: Rain Worldモード
 		}
 
 		rainIntensity: {
@@ -28,11 +28,11 @@ Configs: {
 		}
 
 		deathSoundInAmbientMode: {
-			Label: 雨の世界の死亡音
+			Label: Rain Worldの死亡音
 			Tooltip:
 				'''
-				[c/ddbb77:雨の世界の死亡音]
-				プレイヤーの死亡時に「雨の世界」の死亡効果音が再生されます
+				[c/ddbb77:Rain Worldの死亡音]
+				プレイヤーの死亡時に「Rain World」の死亡効果音が再生されます
 				◉ ◉ ◉ ◉ | ◉ ◌ ◌
 				'''
 		}
@@ -42,7 +42,7 @@ Configs: {
 			Tooltip:
 				'''
 				[c/dd8877:安全地帯での揺れの強度]
-				「雨の世界」の雨の間、安全地帯での揺れフィルターの強度を調整します
+				「Rain World」の雨の間、安全地帯での揺れフィルターの強度を調整します
 				'''
 		}
 
@@ -51,7 +51,7 @@ Configs: {
 			Tooltip:
 				'''
 				[c/dd8877:豪雨中はバイオーム音楽を無効化]
-				「雨の世界」の豪雨中、バイオームで再生される音楽を無効にします
+				「Rain World」の豪雨中、バイオームで再生される音楽を無効にします
 				'''
 		}
 
@@ -60,7 +60,7 @@ Configs: {
 			Tooltip:
 				'''
 				[c/dd8877:サイクル表示の位置]
-				「雨の世界」のサイクル表示の位置を調整します
+				「Rain World」のサイクル表示の位置を調整します
 				[c/aaaaaa:変更後、自動的に保存されます]
 				'''
 			ValueUpdatedText: 値が更新された
@@ -76,18 +76,18 @@ Configs: {
 		DisplayName: サーバー設定
 
 		Headers: {
-			RainWorldModeSettings: 雨の世界モード
+			RainWorldModeSettings: Rain Worldモード
 			MiscSettings: その他
 			DebugMenu: デバッグ項目
 		}
 
 		isRainWorldMode: {
-			Label: "[c/8899bb:雨の] [c/7788aa:世][c/8899bb:界] [c/7788aa:モード]"
+			Label: "[c/8899bb:Rain] [c/7788aa:Wor][c/8899bb:ld][c/7788aa:モード]"
 			Tooltip:
 				'''
-				[c/8899bb:雨の] [c/7788aa:世][c/8899bb:界] [c/7788aa:モード]
+				[c/8899bb:Rain] [c/7788aa:Wor][c/8899bb:ld][c/7788aa:モード]
 				新たなゲームサイクルを追加し、雨のシステムを完全に再構築します。
-				「雨の世界」のように、逃げたり隠れたりして生き延びよう！
+				「Rain World」のように、逃げたり隠れたりして生き延びよう！
 				[c/aaaaaa:ゲーム内体験に影響します]
 				'''
 		}
@@ -97,7 +97,7 @@ Configs: {
 			Tooltip:
 				'''
 				[c/dd8877:雨がタウンNPCに影響]
-				「雨の世界」モードの際、不注意なタウンNPCを押しつぶしたい場合は有効にしてください
+				「Rain World」モードの際、不注意なタウンNPCを押しつぶしたい場合は有効にしてください
 				'''
 		}
 
@@ -106,7 +106,7 @@ Configs: {
 			Tooltip:
 				'''
 				[c/dd8877:雨がNPCに影響]
-				「雨の世界」モードの際、不注意なNPCを押しつぶしたい場合は有効にしてください
+				「Rain World」モードの際、不注意なNPCを押しつぶしたい場合は有効にしてください
 				[c/aaaaaa:この設定はタウンNPCに影響しません]
 				'''
 		}
@@ -126,19 +126,19 @@ Configs: {
 			Tooltip:
 				'''
 				[c/8899bb:永久の雨]
-				「雨の世界」モードで雨を永遠に降らせる
-				[c/aaaaaa:安全地帯外で有効にすることはおすすめしません...]
+				「Rain World」モードで雨を永遠に降らせる
+				[c/aaaaaa:安全地帯外で有効にしない事をおすすめします...]
 				'''
 		}
 	}
 }
 
-RainDeathReason: 自然の力によって亡くなった。
+RainDeathReason: 荒れ狂う雨に飲み込まれた。
 NegativeRainTimeException: "[c/8899bb:うわぁ！Rain Overhaulのタイマーが負の値になっている。開発者に報告してくれ！！！]"
 
 Buffs: {
 	ShelterNotification: {
-		Description: 雨が強すぎる！最悪の事態を避けるため、急いで避難しよう！
-		DisplayName: 雨が降り始めた？
+		Description: この雨は危険だ！手遅れになる前に、急いで避難を！
+		DisplayName: 雨が強くなってきた…
 	}
 }

@@ -1,4 +1,15 @@
+Return: 戻る
 Move: "{0} は {1} に行きました。"
 
-Return: 戻る
+Configs.Config: {
+	DisplayName: 設定
 
+	PreloadSubservers: {
+		Label: サブサーバーを事前読み込み
+		Tooltip:
+			'''
+			マルチプレイ時のサブワールド読み込み時間を大幅に短縮します
+			軽量なMOD構成では約0.5GBのRAMが使用されます
+			'''
+	}
+}

@@ -1,39 +1,91 @@
 Configs: {
-	Config: {
-		DisplayName: 設定
-		Headers: {
-			General: 一般設定
-		}
+	
+}
+ClientConfig: {
+	DisplayName: クライアント設定
 
-		PrefixCount: {
-			Label: モディファイア付与数
-			Tooltip: 現在はシステムの制約により、最大2回まで。
-		}
+	ShiftToShowDetailed: {
+		Label: Shiftキーで詳細表示
+		Tooltip: ""
+	}
 
-		AllowSamePrefix: {
-			Label: 同モディファイアの許可
-			Tooltip: 武器に同じモディファイアが付く可能性を有効にします(例：伝説の伝説の銅の短剣)
-		}
-
-		PrefixChance: {
-			Label: 追加モディファイア確率(%)
-			Tooltip: 鍛え直した際アイテムに追加でモディファイアが付く確率を調整します
-		}
-
-		TinkerCostFromValue: {
-			Label: 改良コスト（価値基準）
-			Tooltip: アイテムの価値に応じて改良にかかるコストを設定します（通常の鍛え直しは約30%程度）
-		}
-
-		ShowPrefixDebug: {
-			Label: 鍛え直しデバッグ情報の表示
-			Tooltip: ""
-		}
-
-		ShiftToShowDetailed: {
-			Label: Shift で詳細表示
-			Tooltip: ""
-		}
+	ShowPrefixDebug: {
+		Label: モディファイアのデバッグ情報を表示
+		Tooltip: ""
 	}
 }
 
+ServerConfig: {
+	DisplayName: サーバー設定
+
+	Headers: {
+		General: 一般設定
+		Stacking: スタック
+	}
+
+	TinkerCostFromValue: {
+		Label: 鍛え直し費用
+		Tooltip:
+			'''
+			アイテムの購入価格を基準に、鍛え直し費用をどの程度にするかを設定します
+			通常の鍛え直し費用は購入価格のおよそ1/3です
+			'''
+	}
+
+	PrefixChance: {
+		Label: 追加モディファイア確率
+		Tooltip: 追加のモディファイアが付与される確率を調整します
+	}
+
+	AllowSameStatPrefix: {
+		Label: 類似能力のモディファイアを許可
+		Tooltip:
+			'''
+			一部の能力が重複するモディファイアを同時に付与可能にします
+			(バニラのダメージ、攻撃速度、クリティカル率、マナ、弾速、ノックバックの能力にのみ適用)
+			デフォルト時、アクセサリーには適用されません
+			'''
+	}
+
+	AllowSamePrefix: {
+		Label: 同モディファイアを許可
+		Tooltip: 
+			'''
+			同じモディファイアを同時に付与可能にします
+			他よりこの設定項目の方が優先されます
+			'''
+	}
+
+	AllowAccessoryStacking: {
+		Label: アクセサリーの追加モディファイアを許可
+		Tooltip: アクセサリーに追加のモディファイアが付与可能になります
+	}
+
+	CustomSameStatPrefixes: {
+		Label: 同じ能力を持つモディファイアのカスタム設定
+		Tooltip: 同時に付与できないモディファイアの組み合わせをリストで設定できます
+	}
+
+	DisableTinkering: {
+		Label: 個別リフォージを無効化
+		Tooltip:
+			'''
+			個別リフォージ機能を無効化します
+			(個別リフォージでは通常のリフォージとは異なり、1つ目または2つ目のモディファイアのみをリフォージできます)
+			'''
+	}
+}
+
+PrefixSubConfig: {
+	Tooltip: ""
+
+	Name: {
+		Label: 名前
+		Tooltip: 主にデバッグ目的で使用する名前。項目を多数追加する場合は、整理用の名前としても使えます
+	}
+
+	PrefixList: {
+		Label: モディファイア一覧
+		Tooltip: 同時に付与したくないモディファイアをここに追加
+	}
+}

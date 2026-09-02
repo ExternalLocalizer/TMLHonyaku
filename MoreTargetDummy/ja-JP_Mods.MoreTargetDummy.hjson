@@ -1,50 +1,50 @@
 Items: {
 	WoodenDummy: {
+		DisplayName: 木のダミー
 		Tooltip:
 			'''
 			ノックバックに弱い木のダミーを召喚する
 			ターゲット指定が必要
 			右クリックで全ダミーを削除
 			'''
-		DisplayName: 木のダミー
 	}
 
 	StoneTarget: {
+		DisplayName: 石のターゲット
 		Tooltip:
 			'''
 			ダミーの防御を10上げる
 			右クリックで全ダミーに取り付け
 			'''
-		DisplayName: 石のターゲット
 	}
 
 	StoneDummy: {
+		DisplayName: 石のダミー
 		Tooltip:
 			'''
 			ノックバック耐性50%の石のダミーを召喚する
 			ターゲット指定が必要
 			右クリックで全ダミーを削除
 			'''
-		DisplayName: 石のダミー
 	}
 
 	IronTarget: {
+		DisplayName: 鉄のターゲット
 		Tooltip:
 			'''
 			ダミーの防御を50上げる
 			右クリックで全ダミーに取り付け
 			'''
-		DisplayName: 鉄のターゲット
 	}
 
 	IronDummy: {
+		DisplayName: 鉄のダミー
 		Tooltip:
 			'''
 			ノックバックを一切受けない鉄のダミーを召喚する
 			ターゲット指定が必要
 			右クリックで全ダミーを削除
 			'''
-		DisplayName: 鉄のダミー
 	}
 
 	WoodenTarget: {
@@ -58,31 +58,22 @@ Items: {
 
 	DummyKiller: {
 		DisplayName: ダミークリーナー
-		Tooltip: 使用または右クリックで召喚中の全ダミーを削除
+		Tooltip: 信号を受け取るか右クリックで召喚中の全ダミーを削除
 	}
 
 	DummySpawner: {
 		DisplayName: ダミーサモナー
 		Tooltip:
 			'''
-			使用または右クリックでダミーを召喚する
-			ダミーをセットすると召喚されるダミーの種類が変化
+			信号を受け取るか右クリックでダミーを召喚する
+			ダミーを入れると召喚ダミーを指定可能
 			ターゲットを入れるとターゲットタイプを指定可能
 			'''
 	}
 }
 
 NPCs: {
-	IronDummy: {
-		DisplayName: 鉄のダミー
-	}
-
-	StoneDummy: {
-		DisplayName: 石のダミー
-	}
-
-	WoodenDummy: {
-		DisplayName: 木のダミー
-	}
+	IronDummy.DisplayName: 鉄のダミー
+	StoneDummy.DisplayName: 石のダミー
+	WoodenDummy.DisplayName: 木のダミー
 }
-

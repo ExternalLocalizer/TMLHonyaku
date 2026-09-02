@@ -45,11 +45,44 @@ Configs: {
 
 		PortcullisSpeed: {
 			Label: 落とし格子の速度
-			Tooltip: 
+			Tooltip:
 				'''
 				落とし格子が上下する速さを調整します
 				数値が高いほど早くなります
 				'''
+		}
+
+		SlotPosition: {
+			Label: 馬鎧スロットの位置
+			Tooltip: 他のMODと表示が重なる場合、ここから馬鎧スロットの位置を変更できます
+		}
+	}
+
+	HorseMountSlotPosition: {
+		Tooltip: ""
+		Default: {
+			Label: デフォルト
+			Tooltip: デフォルトのスロット位置：バニラのマウントスロットの右側
+		}
+
+		DownOne: {
+			Label: 1段下
+			Tooltip: デフォルト位置から1スロット下：バニラのフックスロットの右側
+		}
+
+		NextToBuffs: {
+			Label: バフ横
+			Tooltip: 縦に並ぶバフアイコン表示の左側：バニラのフック染料スロットの下
+		}
+
+		LeftOfTop: {
+			Label: 左上
+			Tooltip: 一番上のその他装備スロットの左側：バニラのペット染料スロットの左側
+		}
+
+		LeftOfBottom: {
+			Label: 左下
+			Tooltip: 一番下のその他装備スロットの左側：バニラのフック染料スロットの左側
 		}
 	}
 }
@@ -562,6 +595,152 @@ Items: {
 			ハウロックスの防御力が増加
 			'''
 	}
+
+	AnglerSignTileItem: {
+		DisplayName: 釣り人の看板
+		Tooltip: ""
+	}
+
+	AnvilSignTileItem: {
+		DisplayName: ゴブリンのよろず屋の看板
+		Tooltip: ""
+	}
+
+	BlankSignTileItem: {
+		DisplayName: 無地の看板
+		Tooltip: ""
+	}
+
+	ClothierSignTileItem: {
+		DisplayName: 仕立屋の看板
+		Tooltip: ""
+	}
+
+	CyberSignTileItem: {
+		DisplayName: サイボーグの看板
+		Tooltip: ""
+	}
+
+	DemolitionistSignTileItem: {
+		DisplayName: 爆破技師の看板
+		Tooltip: ""
+	}
+
+	DryadSignTileItem: {
+		DisplayName: ドライアドの看板
+		Tooltip: ""
+	}
+
+	DyeSignTileItem: {
+		DisplayName: 染料商人の看板
+		Tooltip: ""
+	}
+
+	GolfSignTileItem: {
+		DisplayName: ゴルファーの看板
+		Tooltip: ""
+	}
+
+	GunSignTileItem: {
+		DisplayName: 武器商人の看板
+		Tooltip: ""
+	}
+
+	MechanicSignTileItem: {
+		DisplayName: メカニックの看板
+		Tooltip: ""
+	}
+
+	MerchantSignTileItem: {
+		DisplayName: 商人の看板
+		Tooltip: ""
+	}
+
+	PirateSignTileItem: {
+		DisplayName: 海賊の看板
+		Tooltip: ""
+	}
+
+	PrincessSignTileItem: {
+		DisplayName: プリンセスの看板
+		Tooltip: ""
+	}
+
+	SteamSignTileItem: {
+		DisplayName: スチームパンカーの看板
+		Tooltip: ""
+	}
+
+	StylistSignTileItem: {
+		DisplayName: スタイリストの看板
+		Tooltip: ""
+	}
+
+	TruffleSignTileItem: {
+		DisplayName: トリュフの看板
+		Tooltip: ""
+	}
+
+	ZooSignTileItem: {
+		DisplayName: 動物学者の看板
+		Tooltip: ""
+	}
+
+	NurseSignTileItem: {
+		DisplayName: ナースの看板
+		Tooltip: ""
+	}
+
+	PainterSignTileItem: {
+		DisplayName: 画家の看板
+		Tooltip: ""
+	}
+
+	PartySignTileItem: {
+		DisplayName: パーティーガールの看板
+		Tooltip: ""
+	}
+
+	TavernSignTileItem: {
+		DisplayName: 居酒屋の看板
+		Tooltip: ""
+	}
+
+	TaxSignTileItem: {
+		DisplayName: 収税吏の看板
+		Tooltip: ""
+	}
+
+	WitchDoctorSignTileItem: {
+		DisplayName: 呪術医の看板
+		Tooltip: ""
+	}
+
+	WoodenTableBaseItem: {
+		DisplayName: 木製テーブルパーツ（脚）
+		Tooltip: 同じパーツの上、またはテーブル用の足場パーツの下に設置できる
+	}
+
+	ClothRemoval: テーブルクロスは、テーブルを右クリックするか破壊すると取り外せる
+
+	WoodenTablePlatformItem: {
+		DisplayName: 木製テーブルパーツ（足場）
+		Tooltip:
+			'''
+			同じパーツ、固形ブロック、木の上に横方向へ設置できるほか、脚パーツの上にも設置可能
+			上にテーブルクロスを設置可能
+			テーブルクロスは、テーブルを右クリックするか破壊すると取り外せる
+			'''
+	}
+
+	RedTablecloth: {
+		DisplayName: テーブルクロス（赤）
+		Tooltip:
+			'''
+			テーブル用の足場パーツの上に設置可能
+			テーブルクロスは、テーブルを右クリックするか破壊すると取り外せる
+			'''
+	}
 }
 
 Tiles: {
@@ -631,4 +810,13 @@ Tiles: {
 	HookTileNew.MapEntry: Hook Tile New
 	StakeTile.MapEntry: Stake Tile
 	CrouchingGargoyle.MapEntry: Gargoyle
+	AnglerSignTile.MapEntry: Angler Sign Tile
+	NurseSignTile.MapEntry: Nurse Sign Tile
+	PainterSignTile.MapEntry: Painter Sign Tile
+	PartySignTile.MapEntry: Party Sign Tile
+	TavernSignTile.MapEntry: Tavern Sign Tile
+	TaxSignTile.MapEntry: Tax Sign Tile
+	WitchDoctorSignTile.MapEntry: Witch Doctor Sign Tile
+	WoodenTableBase.MapEntry: Wooden Table Base
+	WoodenTablePlatform.MapEntry: Wooden Table Platform
 }

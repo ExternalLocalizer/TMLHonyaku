@@ -1,95 +1,101 @@
+Keybinds: {
+	"Send map data.DisplayName": 地図データを送信
+	"Request map data.DisplayName": 地図データをリクエスト
+	"Mark first position.DisplayName": 最初の位置をマーク
+	"Mark second position.DisplayName": 2番目の位置をマーク
+	"Clear marked positions.DisplayName": マークした位置をクリア
+}
+
+ChatMessages: {
+	send_map: マップデータを送信中
+	request_map: "{0}からマップデータの送信リクエストを受信中"
+	read_map: "{0}からマップデータを読み込み中"
+	send_request: マップデータの送信リクエストを送信中
+	no_send: サーバーによって手動でのマップ共有が無効化されています
+	no_request: サーバーによって手動でのマップデータのリクエストが無効化されています
+	share_time: 再度共有するには{0}分{1}秒お待ちください
+	request_time: 再度リクエストするには{0}分{1}秒お待ちください
+	auto_share: マップデータを同期中
+	in_prog: 現在の転送が完了するまでお待ちください
+	rev_map: このコマンドはシングルプレイヤーでのみ使用できます
+	set_fpos: 1つ目の位置を設定しました
+	set_spos: 2つ目の位置を設定しました
+	reset_pos: 位置をリセットしました
+	send_done: マップデータの送信が完了しました
+	no_file: ファイル「{0}」が見つかりません
+	importing: マップ「{0}」からデータをインポートしています
+	import_fail: マップデータをインポートできません。保存されたマップのシード値が現在のワールドのシード値と一致しません
+	import_done: マップデータのインポートが完了しました
+	exporting: マップデータをエクスポートしています
+	export_done: マップデータを{0}にエクスポートしました
+}
+
 Configs: {
-	ShareInfo: {
-		minutes: {
-			Tooltip: 指定した分数の間隔で自動的に地図データを共有します
-			Label: 自動共有間隔 (分)
-		}
+	ClientConfig: {
+		DisplayName: クライアント設定
 
-		allowed: {
-			Tooltip: ""
-			Label: 自動共有を有効化
+		displaynotifs: {
+			Label: 通知を表示
+			Tooltip: 警告やエラーは影響しません
 		}
-
-		Tooltip: ""
 	}
 
-	Config: {
-		requestcooldown: {
-			Tooltip: ユーザーが地図データを再度リクエストできるまでに必要な時間
-			Label: リクエストクールダウン (分)
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		autosharesettings: {
+			Label: 自動共有設定
+			Tooltip: ""
+		}
+
+		allowsend: {
+			Label: 手動送信を許可
+			Tooltip: ユーザーがクールダウン時間の範囲内で自由にマップデータを共有できます
+		}
+
+		allowrequest: {
+			Label: 手動リクエストを許可
+			Tooltip: ユーザーがクールダウン時間の範囲内で他ユーザーにマップデータをリクエストできます
 		}
 
 		sharecooldown: {
-			Tooltip: ユーザーが地図データを再度共有できるまでに必要な時間
 			Label: 共有クールダウン (分)
+			Tooltip: ユーザーが地図データを再度共有できるまでに必要な時間
 		}
 
-		liveshareA: {
-			Tooltip: 新たに探索したエリアを自動的に共有します（問題が発生する場合は無効にしてください）
-			Label: ライブ地図共有 (開発中)
+		requestcooldown: {
+			Label: リクエストクールダウン (分)
+			Tooltip: ユーザーが地図データを再度リクエストできるまでに必要な時間
 		}
-
-		seconds: {
-			Tooltip: ""
-			Label: 共有クールダウン (秒)
-		}
-
-		serverwaittime: {
-			Tooltip: サーバーが次のプレイヤーに地図情報を転送するまでに必要な時間です。プレイヤー数が多く、サーバーから切断されやすくなった場合、この値を増やしてください
-			Label: プレイヤー間の共有遅延 (ミリ秒)
-		}
-
-		waittime: {
-			Tooltip: 地図データ共有中に接続エラーや不正なエラーが発生する場合、この値を増やしてください
-			Label: 全体マップ待機時間 (ミリ秒)
-		}
-
-		allowsending: {
-			Tooltip: ""
-			Label: プレイヤーが自由に地図データを送信できるようにします
-		}
-
-		allowdownloads: {
-			Tooltip: ""
-			Label: プレイヤーが自由に地図データをダウンロードできるようにします
-		}
-
-		shareInfo: {
-			Tooltip: ""
-			Label: 地図データの自動共有
-		}
-
-		DisplayName: 設定
 	}
 
-	ClientConfig: {
-		hidenotif: {
+	AutoShare: {
+		Tooltip: ""
+
+		enable: {
+			Label: 自動共有を有効化
 			Tooltip: ""
-			Label: 送信とリクエストの通知をチャットから非表示にします
 		}
 
-		DisplayName: クライアント設定
+		interval: {
+			Label: 自動共有間隔 (分)
+			Tooltip: 指定した分数の間隔で自動的に地図データを共有します
+		}
 	}
 }
 
-Keybinds: {
-	"Mark first position": {
-		DisplayName: 最初の位置をマーク
-	}
-
-	"Mark second position": {
-		DisplayName: 2番目の位置をマーク
-	}
-
-	"Clear marked positions": {
-		DisplayName: マークした位置をクリア
-	}
-
-	"Request map data": {
-		DisplayName: 地図データをリクエスト
-	}
-
-	"Send map data": {
-		DisplayName: 地図データを送信
-	}
+Miscellaneous: {
+	not_host: 変更するにはサーバーのホストである必要があります。シングルプレイヤーで再度お試しください
+	command_Chat_DeleteMapData: マップデータを削除
+	command_DeleteMapData_description: 現在のワールドのすべてのマップデータを削除します
+	command_Chat_RevealMap: マップを全開放
+	command_RevealMap_description: 現在のワールドのすべてのマップデータを開放します
+	command_Chat_ExportMapData: マップデータをエクスポート
+	command_ExportMapData_description: 現在のワールドのマップデータをファイルにエクスポートします
+	command_ExportMapData_example: /exportmapdata <保存名>
+	command_Chat_ImportMapData: マップデータをインポート
+	command_ImportMapData_description: 指定したファイルから保存済みのマップデータをインポートして読み込みます
+	command_ImportMapData_example: /importmapdata <保存名>
 }
+
+Tooltips.rc_area: 右クリックでこの範囲を共有
