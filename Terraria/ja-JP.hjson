@@ -20522,7 +20522,7 @@ tModLoader: {
 		'''
 		警告：プレイヤーは注意してください！
 		これはプレビュービルド（ベータ版）であり、変更点があるため、MODは正常に動作しない可能性があります。
-		[c/ff1919:このプレビュービルドのためにMODを修正するようMod製作者に依頼しないでください。］
+		[c/ff1919:このプレビュービルドのためにMODを修正するようMod製作者に依頼しないでください。]
 		このプレビューブランチは、Mod製作者が自分のスケジュールでModをアップデートする機会を提供するものです。
 
 		リリースサイクルについての詳細は「詳細情報」をクリックしてください。
@@ -20705,7 +20705,7 @@ tModLoader: {
 	ModsXWalls: "{0} {^0:壁;壁}"
 	ModsXBuffs: "{0} {^0:バフ;バフ}"
 	ModsXMounts: "{0} {^0:マウント;マウント}"
-	ModsReloadAndReturn: リロードしてワールドメニューに戻る
+	ModsReloadAndReturn: 再読み込みしてワールドメニューに戻る
 	ModsNotFoundServer:
 		'''
 		「{0}」にModが見つかりませんでした。
@@ -20715,7 +20715,7 @@ tModLoader: {
 	AskForModIndex: 有効/無効を切り替える番号を入力してください。
 	AskForCommand: "コマンドを入力してください: "
 	DedErrorNoConfig: このModには設定がありません。
-	DedErrorNotEnabled: Modが有効ではありません。有効にしてからリロードしてください。
+	DedErrorNotEnabled: Modが有効ではありません。有効にしてから再読み込みしてください。
 	DedErrorModOOB: Modインデックスが範囲外です。
 	DedConfigEditServerConfigsForMod: Modのサーバー設定を編集
 	DedConfigConfigIndexOOB: 設定インデックス {0} が範囲外です
@@ -20742,7 +20742,7 @@ tModLoader: {
 	ModConfigRestoreDefaults: デフォルト設定を復元
 	ModConfigDefaultsRestored: デフォルト設定を復元
 	ModConfigAskingServerToAcceptChanges: サーバーに変更の受け入れを依頼中...
-	ModConfigCantSaveBecauseChangesWouldRequireAReload: 変更にはリロードが必要なため、保存できません。
+	ModConfigCantSaveBecauseChangesWouldRequireAReload: 変更には再読み込みが必要なため、保存できません。
 	ModConfigServerSide: サーバー設定
 	ModConfigClientSide: クライアント設定
 	ModConfigAdd: 追加
@@ -20770,7 +20770,7 @@ tModLoader: {
 	WorkshopDisclaimer: このアイテムを提出すると、tModLoaderの利用規約に同意したことになります。
 	NonModOwnerPublishWarning: 「{0}」という名前のModは他のMod開発者によってすでにワークショップに公開されています。このModの開発者でない場合、公開が失敗します。これはあなたのModの場合、正しいSteamアカウントでログインしているか確認してください。すべてのModは一意の内部名を持っている必要があります。
 	SteamPublishingLimit: Error: エラー: Steam tModLoaderの所有者のみがゲーム内からワークショップに公開できます。
-	ModWasBuiltForDebugging: エラー：Workshopにアップロードできるのは「Release」ビルドのModのみです。ゲーム内の「ビルド＋リロード」を使えば、すぐにReleaseビルドを作成できます。
+	ModWasBuiltForDebugging: エラー：Workshopにアップロードできるのは「Release」ビルドのModのみです。ゲーム内の「ビルド＋再読み込み」を使えば、すぐにReleaseビルドを作成できます。
 	NoWorkshopAccess:
 		'''
 		エラー: Steamワークショップにアクセスできません。
@@ -20892,7 +20892,7 @@ tModLoader: {
 	LoadErrorCallDuringLoad: "{0} はコンテンツ読み込み後にのみ実行可能です。該当コードを Load() フックから SetStaticDefaults() または PostSetupContent() フックへ移動してください。"
 	LoadErrorEquipTextureMissingParameters: AddEquipTexture には item か name の指定が必要ですが、どちらも指定されていません
 	LoadErrorNotLoading: Mod.AddContent はロード中のみ呼び出すことができます。
-	LoadErrorDuplicateName: じ名前 {1} の {0} を2つ追加することはできません。2つのクラスが異なる名前空間で同じクラス名を共有しているか、または手動で同じ名前の {0} を2つ追加した可能性があります。または、重複しているか、すでに使用されている古い名前の可能性があります。
+	LoadErrorDuplicateName: 同じ名前 {1} の {0} を2つ追加することはできません。2つのクラスが異なる名前空間で同じクラス名を共有しているか、または手動で同じ名前の {0} を2つ追加した可能性があります。または、重複しているか、すでに使用されている古い名前の可能性があります。
 	LoadErrorResourceNotFoundPathHint:
 		'''
 		予期されたリソースが見つかりませんでした:
@@ -21005,9 +21005,9 @@ tModLoader: {
 	MPErrorModDownloadError: "{0} のダウンロード中にエラーが発生しました"
 	MPPacketTooLarge: パケットが大きすぎます {0} > {1}
 	ReloadRequiredDownloadAndContinue: ダウンロードして続行
-	ReloadRequiredReloadAndContinue: リロードして続行
-	ReloadRequiredServerJoinMessage: このサーバーに参加すると、有効化されているModの変更が自動的に適用されます。リロードしてこのサーバーに参加するには 「{0}」を押してください。
-	ReloadRequiredSinglePlayerMessage: シングルプレイヤーに入ると、有効化されているModの変更が自動的に適用されます。リロードしてシングルプレイヤーに入るには 「{0}」を押してください。
+	ReloadRequiredReloadAndContinue: 再読み込みして続行
+	ReloadRequiredServerJoinMessage: このサーバーに参加すると、有効化されているModの変更が自動的に適用されます。再読み込みしてこのサーバーに参加するには 「{0}」を押してください。
+	ReloadRequiredSinglePlayerMessage: シングルプレイヤーに入ると、有効化されているModの変更が自動的に適用されます。再読み込みしてシングルプレイヤーに入るには 「{0}」を押してください。
 	ReloadRequiredExplanationDownload: "[c/{0}:ダウンロード] サーバーから v{1}"
 	ReloadRequiredExplanationDownloadDowngradeTemporary:
 		'''
@@ -21177,10 +21177,10 @@ tModLoader: {
 	ClearMBCredentials: Modブラウザ認証情報をクリア
 	AutomaticallyEnableNewlyDownloadedModsYes: 新しくダウンロードしたModを自動的に有効化: オン
 	AutomaticallyEnableNewlyDownloadedModsNo: 新しくダウンロードしたModを自動的に有効化: オフ
-	AutomaticallyReloadAndEnableModsLeavingModBrowserYes: Modブラウザを離れるときにModを自動的に有効化およびリロード: オン
-	AutomaticallyReloadAndEnableModsLeavingModBrowserNo: Modブラウザを離れるときにModを自動的に有効化およびリロード: オフ
-	AutomaticallyReloadRequiredModsLeavingModsScreenYes: Mod画面を離れるときに必要なModを自動的にリロード: オン
-	AutomaticallyReloadRequiredModsLeavingModsScreenNo: Mod画面を離れるときに必要なModを自動的にリロード: オフ
+	AutomaticallyReloadAndEnableModsLeavingModBrowserYes: Modブラウザを離れるときにModを自動的に有効化および再読み込み: オン
+	AutomaticallyReloadAndEnableModsLeavingModBrowserNo: Modブラウザを離れるときにModを自動的に有効化および再読み込み: オフ
+	AutomaticallyReloadRequiredModsLeavingModsScreenYes: Mod画面を離れるときに必要なModを自動的に再読み込み: オン
+	AutomaticallyReloadRequiredModsLeavingModsScreenNo: Mod画面を離れるときに必要なModを自動的に再読み込み: オフ
 	ShowConfirmationWindowWhenEnableDisableAllModsYes: すべてのModを有効化/無効化する際に確認ウィンドウを表示: オン
 	ShowConfirmationWindowWhenEnableDisableAllModsNo: すべてのModを有効化/無効化する際に確認ウィンドウを表示: オフ
 	DontShowAgain: 再表示しない
@@ -21204,7 +21204,7 @@ tModLoader: {
 		以下のボタンを押して自動的に移行するか、
 		/Terraria/Worlds から
 		/Terraria/{0}/Worlds に手動でコピーしてください。
-		.wldファイルをコピーしてください。
+		.wldファイルもコピーしてください。
 		フォルダーを開くには、このテキストをクリックしてください。
 		移行したいワールドをコピーした後、「戻る」を押してください。
 		'''
@@ -21288,7 +21288,7 @@ tModLoader: {
 	DownloadNetSDK: .NET SDK をダウンロード
 	DevModsInSandbox: tModLoaderはサンドボックス環境(例: Flatpak)で動作している場合、Modを開発できません。Steamを直接システムにインストールしてください。
 	MSSourceIssue: Modソースの問題
-	MSSourceIssueMessage: "{0} のMODのソースコードで以下のエラーが検出されました: {1}"
+	MSSourceIssueMessage: "{0} MODのソースコードで以下のエラーが検出されました: {1}"
 	CreateModName: Mod名 (スペースなし)
 	CreateModDisplayName: Mod表示名
 	CreateModAuthor: Mod作成者
@@ -21333,9 +21333,9 @@ tModLoader: {
 	CommandModListClientMods: クライアントMod:
 	CommandModListModlist: Modリスト:
 	CommandCustomSetsDescription: 定義済みのIDセット一覧を表示します
-	CommandCustomSetsUsage: /customsets [ModName|SetKey|SearchTerm] [-v (output values)] [-o (open logs folder)]
+	CommandCustomSetsUsage: /customsets [Mod名|SetKey|検索語] [-v (値を出力)] [-o (ログフォルダを開く)]
 	CommandPurgeUnloadedDescription: 未ロードのタイルと壁をワールドから除去します
-	CommandPurgeUnloadedUsage: /purgeunloaded [ModName] [-t (purge tiles)] [-w (purge walls)] [-p (confirm purge action)]
+	CommandPurgeUnloadedUsage: /purgeunloaded [Mod名] [-t (タイルを削除)] [-w (壁を削除)] [-p (削除アクションを確認)]
 	Building: ビルド中: {0}
 	ReadingProperties: プロパティを読み込み中: {0}
 	Compiling: コンパイル中: {0}
@@ -21456,7 +21456,7 @@ tModLoader: {
 	TerrariaOutOfDateMessage: Terrariaが古いバージョンです。SteamでTerrariaを更新する必要があります。
 	TerrariaLegacyBranchMessage: Terrariaが古いバージョンに設定されています。tModLoaderを読み込むには、Steamで通常のTerrariaバージョンに戻す必要があります。
 	TagsCategoryModFeatures: Modの機能
-	TagsCategoryModSide: Mod Side
+	TagsCategoryModSide: Modサイド
 	TagsCategoryTModLoaderVersion: tModLoaderバージョン
 	TagsCategoryLanguage: 言語
 	TagsContent: 新しいコンテンツ
