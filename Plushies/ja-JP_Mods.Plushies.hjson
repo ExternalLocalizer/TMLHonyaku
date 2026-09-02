@@ -1,4 +1,12 @@
 Plushie: ぬいぐるみ
+PlushieThatKillsYou_0: "{0}は殺人ぬいぐるみに殺された。"
+PlushieThatKillsYou_1: "{0}はドカーンと吹っ飛んだ！"
+PlushieThatKillsYou_2: "{0}はダイナマイト型のぬいぐるみの中から本物のダイナマイトを見つけてしまった。"
+PlushieThatKillsYou_3: "{0}は派手な爆発とともに散った。"
+PlushieThatKillsYou_4: "{0}は木っ端微塵に吹き飛んだ。"
+PlushieThatKillsYou_5: "{0}は灰になった。"
+PlushieThatKillsYou_6: "{0}は爆発物の扱いにもう少し注意すべきだった。"
+PlushieThatKillsYou_7: "{0}はダイナマイトを圧縮したらどうなるのか確かめたかった。"
 
 Configs: {
 	ClientConfig: {
@@ -243,5 +251,28 @@ Items: {
 			:3
 			'''
 	}
-}
 
+	PlushieDynamite_Item: {
+		DisplayName: 小さなぬいぐるみ（ダイナマイト）
+		Tooltip: <right>で……むぎゅ？
+	}
+
+	PlushieDicePopper_Item: {
+		DisplayName: 小さなぬいぐるみ（ダイスポッパー）
+		Tooltip: <right>で振る！
+	}
+
+	PlushieMadeline_Item: {
+		DisplayName: 中サイズのぬいぐるみ（マデリン）
+		Tooltip: <right>でむぎゅ！
+	}
+
+	PlushieRalsei_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ラルセイ）
+		Tooltip:
+			'''
+			<right>でむぎゅ！
+			「希望小売価格は32.00ドル」
+			'''
+	}
+}
