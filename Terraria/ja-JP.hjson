@@ -20606,15 +20606,15 @@ tModLoader: {
 	MenuManageModsDescription: 使いたいModの管理や削除、Modパックの設定ができます。
 	MenuModSources: Modのソース
 	MenuDevelopMods: Modの開発
-	MenuDevelopModsDescription: 自作のMODソースコードを使用して、他の人が使用できるMODを開発し、公開できます。
+	MenuDevelopModsDescription: 自作のModソースコードを使用して、他の人が使用できるMODを開発し、公開できます。
 	ModsModPacks: Modパック
-	MenuModPackDescription: 現在のMODリストと設定の保存、MODパックのインポートとエクスポートなどの機能が利用できます。（テスト機能）
+	MenuModPackDescription: 現在のModリストと設定の保存、Modパックのインポートとエクスポートなどの機能が利用できます。（テスト機能）
 	MenuEnableDeveloperMode: 開発者モードを有効にする
 	WelcomeMessagePreview:
 		'''
 		警告：プレイヤーは注意してください！
-		これはプレビュービルド（ベータ版）であり、変更点があるため、MODは正常に動作しない可能性があります。
-		[c/ff1919:このプレビュービルドのためにMODを修正するようMod製作者に依頼しないでください。]
+		これはプレビュービルド（ベータ版）であり、変更点があるため、Modは正常に動作しない可能性があります。
+		[c/ff1919:このプレビュービルドのためにModを修正するようMod製作者に依頼しないでください。］
 		このプレビューブランチは、Mod製作者が自分のスケジュールでModをアップデートする機会を提供するものです。
 
 		リリースサイクルについての詳細は「詳細情報」をクリックしてください。
@@ -20625,18 +20625,18 @@ tModLoader: {
 		'''
 		tModLoaderへようこそ。
 
-		tModLoaderのインストールが完了しました。ワークショップメニューからtModLoaderのMOD関連機能にアクセスできます。
+		tModLoaderのインストールが完了しました。ワークショップメニューからtModLoaderのMod関連機能にアクセスできます。
 
 		本日以前に1.3でプレイしていた場合、Steamで1.3-legacy beta branchに切り替えることで元に戻すことができます。遊ぼうと思っていたMODが見つからない場合は、今のところ1.3にしか存在しないかもしれません。
 		'''
 	WhatsNewMessage:
 		'''
-		以下は、前回のプレビューを起動した時からの基本的な変更点です。これらの変更に関連するMODは作者によって再構築される必要があるかもしれません。詳しくはGitHubをご覧ください：
+		以下は、前回のプレビューを起動した時からの基本的な変更点です。これらの変更に関連するModは作者によって再構築される必要があるかもしれません。詳しくはGitHubをご覧ください：
 
 		'''
 	ShowNewUpdatedModsInfoMessage:
 		'''
-		前回のローンチ以降、以下のMODがワークショップから追加または更新されました（このメッセージは設定で無効にできます）：
+		前回のローンチ以降、以下のModがワークショップから追加または更新されました（このメッセージは設定で無効にできます）：
 
 		'''
 	ShowNewUpdatedModsInfoMessageNewMods:
@@ -20678,16 +20678,16 @@ tModLoader: {
 	ContinueAnyway: このまま続行
 	ModUpdatedSinceLastLaunchMessage:
 		'''
-		このMODは自動的に更新されました
+		このModは自動的に更新されました
 		前回のバージョン：{0}
 		'''
-	ModAddedSinceLastLaunchMessage: このMODは前回のローンチ以降に追加されたものです。
+	ModAddedSinceLastLaunchMessage: このModは前回のローンチ以降に追加されたものです。
 	ViewOnGitHub: GitHubで表示
 	tModLoaderSettings: tModLoaderの設定
 	ModMenuSwap: テーマを切り替え
 	MenuModsEnabled: "{0} {^0:Mod;Mod} が有効"
 	MenuModUpdatesAvailable: ({0} {^0:アップデート;アップデート} が利用可能！)
-	AudioNotSupported: オーディオハードウェアが見つかりません。すべてのオーディオを無効にします。
+	AudioNotSupported: オーディオハードウェアが見つかりません。全てのオーディオを無効にします。
 	SwitchVersionInfoButton: tModLoaderのバージョンを切り替える
 	SwitchVersionInstructions: 切り替えたいバージョンを選択してください。ゲームは自動的に終了し、Steamが対象バージョンをダウンロードします。ダウンロード完了後、もう一度ゲームを起動してください。
 	SwitchVersionWikiLinkLabel: ベータバージョン情報
@@ -20711,12 +20711,12 @@ tModLoader: {
 		'''
 	WaitXSeconds: "{0} {^0:秒;秒}お待ちください..."
 	ViewInstructions: 説明書を見る
-	ModReadyFor144: このMODは1.4.4にアップデートされました。
+	ModReadyFor144: このmodは1.4.4にアップデートされました。
 	ModsModsList: Modリスト
-	ModsEnableAll: すべて有効化
-	ModsEnableAllConfirm: 本当にすべてのMODを有効にしますか？
-	ModsDisableAll: すべて無効化
-	ModsDisableAllConfirm: 本当にすべてのMODを無効にしますか？
+	ModsEnableAll: 全て有効化
+	ModsEnableAllConfirm: 本当に全てのModを有効にしますか？
+	ModsDisableAll: 全て無効化
+	ModsDisableAllConfirm: 本当に全てのModを無効にしますか？
 	YesDontAskAgain: はい（二度と表示しない）
 	ModsReloadMods: Modを再読み込みする
 	ModsForceReload: 強制再読み込み
@@ -20785,7 +20785,7 @@ tModLoader: {
 	ModsSortRecently: 最近変更された順に並べ替え
 	ModsSortNamesAlph: Mod名をアルファベット順に並べ替え
 	ModsSortNamesReverseAlph: Mod名を逆アルファベット順に並べ替え
-	ModsShowAllMods: すべてのModを表示
+	ModsShowAllMods: 全てのModを表示
 	ModsShowEnabledMods: 有効なModのみ表示
 	ModsShowDisabledMods: 無効なModのみ表示
 	ModsXModsFilteredByEnabled: "{0} {^0:mod;mods}は有効なフィルターで絞り込まれています。"
@@ -20797,7 +20797,7 @@ tModLoader: {
 	ModsXWalls: "{0} {^0:壁;壁}"
 	ModsXBuffs: "{0} {^0:バフ;バフ}"
 	ModsXMounts: "{0} {^0:マウント;マウント}"
-	ModsReloadAndReturn: 再読み込みしてワールドメニューに戻る
+	ModsReloadAndReturn: リロードしてワールドメニューに戻る
 	ModsNotFoundServer:
 		'''
 		「{0}」にModが見つかりませんでした。
@@ -20807,7 +20807,7 @@ tModLoader: {
 	AskForModIndex: 有効/無効を切り替える番号を入力してください。
 	AskForCommand: "コマンドを入力してください: "
 	DedErrorNoConfig: このModには設定がありません。
-	DedErrorNotEnabled: Modが有効ではありません。有効にしてから再読み込みしてください。
+	DedErrorNotEnabled: Modが有効ではありません。有効にしてからリロードしてください。
 	DedErrorModOOB: Modインデックスが範囲外です。
 	DedConfigEditServerConfigsForMod: Modのサーバー設定を編集
 	DedConfigConfigIndexOOB: 設定インデックス {0} が範囲外です
@@ -20834,7 +20834,7 @@ tModLoader: {
 	ModConfigRestoreDefaults: デフォルト設定を復元
 	ModConfigDefaultsRestored: デフォルト設定を復元
 	ModConfigAskingServerToAcceptChanges: サーバーに変更の受け入れを依頼中...
-	ModConfigCantSaveBecauseChangesWouldRequireAReload: 変更には再読み込みが必要なため、保存できません。
+	ModConfigCantSaveBecauseChangesWouldRequireAReload: 変更にはリロードが必要なため、保存できません。
 	ModConfigServerSide: サーバー設定
 	ModConfigClientSide: クライアント設定
 	ModConfigAdd: 追加
@@ -21003,7 +21003,7 @@ tModLoader: {
 	SkipToMainMenu: Modのロードをスキップ
 	Retry: 再試行
 	Exit: 終了
-	ExitAndDisableAll: 終了してすべて無効化
+	ExitAndDisableAll: 終了して全て無効化
 	ModInfoHeader: "Mod情報: "
 	ModInfoVisitHomepage: ホームページを閲覧
 	ModInfoExtract: 抽出
@@ -21021,13 +21021,13 @@ tModLoader: {
 	ModPackEnableThisList: このリストを有効化
 	ModPackEnableThisListDesc:
 		'''
-		このModパックに含まれるすべてのModを有効化し、
+		このModパックに含まれる全てのModを有効化し、
 		Steamワークショップ上の最新バージョンを使用します。
 		'''
 	ModPackEnableOnlyThisList: このリストのみを有効化
 	ModPackEnableOnlyThisListDesc:
 		'''
-		すべてのModを無効化し、このModパックを有効化します。
+		全てのModを無効化し、このModパックを有効化します。
 		ワークショップで見つかった最新バージョンを使用します。
 		'''
 	ModPackUpdateListWithEnabled: 現在有効なModでリストを更新
@@ -21063,17 +21063,17 @@ tModLoader: {
 		パックを使用してサーバーを迅速にセットアップできます。
 		'''
 	DeletePackInstance: インスタンスを削除
-	DeletePackInstanceDesc: InstallDirectory/<ModPackName> のすべてのファイルを削除します。
+	DeletePackInstanceDesc: InstallDirectory/<ModPackName> の全てのファイルを削除します。
 	RemovePackLocal: ローカルのパックを削除
 	RemovePackLocalDesc:
 		'''
-		すべてのModを無効化し、
+		全てのModを無効化し、
 		tModLoaderのModロードパスから凍結されたModを削除します。
 		'''
 	InstallPackLocal: ローカルパックをインポート
 	InstallPackLocalDesc:
 		'''
-		すべてのModを無効化し、
+		全てのModを無効化し、
 		Modパック内の凍結されたModバージョンを有効化します。
 		'''
 	ModPackMismatch: 最後に使用したModパック: {0}
@@ -21143,10 +21143,10 @@ tModLoader: {
 	ReloadRequiredHostAndPlayModWasDisabledHint: 以前有効にしていたModの一部がサーバー上でエラーを起こし、自動的に無効化された可能性があります。問題の詳細は server.log を確認してください。この問題に関するFAQを開くにはここをクリックしてください。
 	ALLoading: 読み込み中...
 	ALNoEntries: 一致するエントリーがありません。
-	ALCancel: 読み込みがキャンセルされました。すべてのエントリーを表示するにはリフレッシュしてください。
+	ALCancel: 読み込みがキャンセルされました。全てのエントリーを表示するにはリフレッシュしてください。
 	ALError: エラーが発生しました。リフレッシュして再試行してください。
 	MBDownload: ダウンロード
-	MBDownloadAll: すべてダウンロード
+	MBDownloadAll: 全てダウンロード
 	MBDownloadingMod: ダウンロード中: {0}
 	MBInstallingMod: インストール中: {0}
 	MBDownloadFileProblem: "{0} の処理に失敗しました。"
@@ -21172,11 +21172,11 @@ tModLoader: {
 	MBSortDownloadAsc: ダウンロード数が少ない順に並べ替え
 	MBTimePeriodToggleDisabled: "[c/{0}:{1} (このソートモードでは無効)]"
 	MBSortByRelevance: テキストの関連性で並べ替え
-	MBShowAllMods: すべてのModを表示
+	MBShowAllMods: 全てのModを表示
 	MBShowNotInstalledUpdates: 未インストールのModと更新を表示
 	MBShowUpdates: 更新のみを表示
 	MBShowInstalled: インストール済みModを表示
-	MBShowMSAll: すべてのModを表示
+	MBShowMSAll: 全てのModを表示
 	MBShowMSBoth: 両方で利用可能なModを表示
 	MBShowMSClient: クライアント専用のModを表示
 	MBShowMSServer: サーバー専用のModを表示
@@ -21184,7 +21184,7 @@ tModLoader: {
 	MBTagsSelected: タグ:
 	MBTagsCategories: カテゴリー: {0}
 	MBTagsLanguage: 言語: {0}
-	MBTagsClear: すべてのタグ選択をクリア
+	MBTagsClear: 全てのタグ選択をクリア
 	MBClearSpecialFilter: 特殊フィルターをクリア: {0}
 	MBOfflineWithReason: オフライン ({0})
 	MBBusy: 使用中
@@ -21220,7 +21220,7 @@ tModLoader: {
 	ThreeMonths: 3か月
 	SixMonths: 6か月
 	OneYear: 1年
-	AllTime: すべての期間
+	AllTime: 全ての期間
 	MBServerReturnToMenu: ワールドメニューに戻る
 	MBServerAskForModName: "ダウンロードする正確なMod名を入力してください: "
 	MBPublishEnterPassphrase: パスコードを入力してください。
@@ -21255,7 +21255,7 @@ tModLoader: {
 	ExperimentalFeaturesNo: 実験的機能: オフ
 	RemoveForcedMinimumZoomYes: 最小ズーム制限を解除: オン
 	RemoveForcedMinimumZoomNo: 最小ズーム制限を解除: オフ
-	AttackSpeedScalingTooltipVisibility0: 攻撃速度効果のツールチップ: すべて表示
+	AttackSpeedScalingTooltipVisibility0: 攻撃速度効果のツールチップ: 全て表示
 	AttackSpeedScalingTooltipVisibility1: 攻撃速度効果のツールチップ: 調整後の効果のみ表示
 	AttackSpeedScalingTooltipVisibility2: 攻撃速度効果のツールチップ: 非表示
 	AllowGreaterResolutionsYes: 高解像度を許可: オン
@@ -21269,12 +21269,12 @@ tModLoader: {
 	ClearMBCredentials: Modブラウザ認証情報をクリア
 	AutomaticallyEnableNewlyDownloadedModsYes: 新しくダウンロードしたModを自動的に有効化: オン
 	AutomaticallyEnableNewlyDownloadedModsNo: 新しくダウンロードしたModを自動的に有効化: オフ
-	AutomaticallyReloadAndEnableModsLeavingModBrowserYes: Modブラウザを離れるときにModを自動的に有効化および再読み込み: オン
-	AutomaticallyReloadAndEnableModsLeavingModBrowserNo: Modブラウザを離れるときにModを自動的に有効化および再読み込み: オフ
-	AutomaticallyReloadRequiredModsLeavingModsScreenYes: Mod画面を離れるときに必要なModを自動的に再読み込み: オン
-	AutomaticallyReloadRequiredModsLeavingModsScreenNo: Mod画面を離れるときに必要なModを自動的に再読み込み: オフ
-	ShowConfirmationWindowWhenEnableDisableAllModsYes: すべてのModを有効化/無効化する際に確認ウィンドウを表示: オン
-	ShowConfirmationWindowWhenEnableDisableAllModsNo: すべてのModを有効化/無効化する際に確認ウィンドウを表示: オフ
+	AutomaticallyReloadAndEnableModsLeavingModBrowserYes: Modブラウザを離れるときにModを自動的に有効化およびリロード: オン
+	AutomaticallyReloadAndEnableModsLeavingModBrowserNo: Modブラウザを離れるときにModを自動的に有効化およびリロード: オフ
+	AutomaticallyReloadRequiredModsLeavingModsScreenYes: Mod画面を離れるときに必要なModを自動的にリロード: オン
+	AutomaticallyReloadRequiredModsLeavingModsScreenNo: Mod画面を離れるときに必要なModを自動的にリロード: オフ
+	ShowConfirmationWindowWhenEnableDisableAllModsYes: 全てのModを有効化/無効化する際に確認ウィンドウを表示: オン
+	ShowConfirmationWindowWhenEnableDisableAllModsNo: 全てのModを有効化/無効化する際に確認ウィンドウを表示: オフ
 	DontShowAgain: 再表示しない
 	ModControls: Modコントロール
 	MigratePlayersMessage:
@@ -21296,7 +21296,7 @@ tModLoader: {
 		以下のボタンを押して自動的に移行するか、
 		/Terraria/Worlds から
 		/Terraria/{0}/Worlds に手動でコピーしてください。
-		.wldファイルもコピーしてください。
+		.wldファイルをコピーしてください。
 		フォルダーを開くには、このテキストをクリックしてください。
 		移行したいワールドをコピーした後、「戻る」を押してください。
 		'''
@@ -21339,8 +21339,8 @@ tModLoader: {
 	SavingModdedWorldData: Mod導入済みワールドデータを保存中...
 	MSBuild: ビルド
 	MSBuildReload: ビルド + リロード
-	MSBuildAll: すべてビルド
-	MSBuildReloadAll: すべてビルド + リロード
+	MSBuildAll: 全てビルド
+	MSBuildReloadAll: 全てビルド + リロード
 	MSUpgradeCSProj: .csproj ファイルをアップグレード
 	MSOpenCSProj: .csproj を開く
 	MSUpgradeLangFiles: .lang ファイルを .hjson にアップグレード (非破壊的)
@@ -21425,9 +21425,9 @@ tModLoader: {
 	CommandModListClientMods: クライアントMod:
 	CommandModListModlist: Modリスト:
 	CommandCustomSetsDescription: 定義済みのIDセット一覧を表示します
-	CommandCustomSetsUsage: /customsets [Mod名|SetKey|検索語] [-v (値を出力)] [-o (ログフォルダを開く)]
+	CommandCustomSetsUsage: /customsets [ModName|SetKey|SearchTerm] [-v (output values)] [-o (open logs folder)]
 	CommandPurgeUnloadedDescription: 未ロードのタイルと壁をワールドから除去します
-	CommandPurgeUnloadedUsage: /purgeunloaded [Mod名] [-t (タイルを削除)] [-w (壁を削除)] [-p (削除アクションを確認)]
+	CommandPurgeUnloadedUsage: /purgeunloaded [ModName] [-t (purge tiles)] [-w (purge walls)] [-p (confirm purge action)]
 	Building: ビルド中: {0}
 	ReadingProperties: プロパティを読み込み中: {0}
 	Compiling: コンパイル中: {0}
@@ -21548,7 +21548,7 @@ tModLoader: {
 	TerrariaOutOfDateMessage: Terrariaが古いバージョンです。SteamでTerrariaを更新する必要があります。
 	TerrariaLegacyBranchMessage: Terrariaが古いバージョンに設定されています。tModLoaderを読み込むには、Steamで通常のTerrariaバージョンに戻す必要があります。
 	TagsCategoryModFeatures: Modの機能
-	TagsCategoryModSide: Modサイド
+	TagsCategoryModSide: Mod Side
 	TagsCategoryTModLoaderVersion: tModLoaderバージョン
 	TagsCategoryLanguage: 言語
 	TagsContent: 新しいコンテンツ
@@ -21558,7 +21558,7 @@ tModLoader: {
 	TagsLibrary: ライブラリ
 	TagsLibraryDescription: Mod制作者に役立つ追加のAPIや機能を提供します。
 	TagsTranslation: 翻訳
-	TagsTranslationDescription: 他MODの翻訳を提供します。（build.txt で translationMod = true に設定）
+	TagsTranslationDescription: 他Modの翻訳を提供します。（build.txt で translationMod = true に設定）
 	TagsQoL: QoL
 	TagsQoLDescription: あまり楽しくない作業に費やす時間を減らす機能や変更点です。
 	TagsGameplay: ゲームプレイの調整
