@@ -2,69 +2,69 @@
 
 
 Effect: {
-	IncreaseMaxHealth: 最大体力が上昇する
-	IncreasedMaxMana: 最大マナが上昇する
-	RunFaster: 移動速度が15%上昇する
-	IncreasedPickupRange: アイテムの回収範囲が大きく広がる
-	PermanentRandomBuff: 永続的にランダムなバフを得る
-	DoubleCoinDrops: 敵のコインドロップ量が2倍になる
-	WalkOnWater: 液体の上を歩けるようになり、水中でマーフォークに変化する
+	IncreaseMaxHealth: 最大ライフが増加
+	IncreasedMaxMana: 最大マナが増加
+	RunFaster: 移動速度が15%上昇
+	IncreasedPickupRange: アイテムの取得範囲が大きく広がる
+	PermanentRandomBuff: ランダムなバフを永続で得る
+	DoubleCoinDrops: 敵がドロップするコインが2倍になる
+	WalkOnWater: 液体の上を歩行でき、水中で半魚人に変身する
 	CheaperShops: 全タウンNPCの販売価格が50%安くなる
-	Dash: ダッシュができるようになる
+	Dash: ダッシュが可能になる
 	NoFallDamageExplosion: 落下ダメージを受けず、着地時に周囲へダメージを与える
-	SummonBeesOnHit: 敵を攻撃した際にハチを召喚する
+	SummonBeesOnHit: 敵を攻撃すると蜂を召喚する
 	DoubleMiningSpeed: 採掘速度が2倍になる
 	PermanentFoodBuffs: 食事バフが永続する
 	ScreenUpsideDown: 画面が上下反転する
 	RandomFarts: 時々おならをする
 	PoopBomb: 時々爆弾を排出する
-	RandomTeleport: ポーション酔い中にランダムでテレポートする
-	DropCoinsWalking: 移動中にコインを落とす
+	RandomTeleport: ポーション酔い中、ランダムでテレポートする
+	DropCoinsWalking: 移動中、コインをドロップする
 	WaterKills: 液体に触れると即死する
 	SpawnBats: 時々、周囲にコウモリが出現する
 	DoubleKnockback: 被ダメージとノックバックが増加する
 	DizzyJumps: ジャンプすると画面が揺れる
 	SneezeDropWeapon: くしゃみで手に持っているアイテムを落とすことがある
 	NoGrapple: フックを使用できなくなる
-	SlowerAtNight: 夜になると移動速度が低下する
+	SlowerAtNight: 夜間、移動速度が低下する
 	DoubleManaCost: マナ消費量が2倍になる
 	AllergicToFlowers: 花粉でくしゃみが止まらない！
 	FallThroughUnsupportedBlocks: 支えのないブロックをすり抜けて落下する
 	SinkWhenStill: 立ち止まっていると地面に沈む
-	HideHealthUI: 体力、マナ、バフのUIが非表示になる
-	CrumblingFloor: 足元のブロックが一度きりで崩れ落ちる！
+	HideHealthUI: 体力・マナ・バフのUIが表示されなくなる
+	CrumblingFloor: 一度だけ自分の下のブロックが破壊される！
 	DamageOnEBlocks: 名前に「e」を含むブロックの上に立つとダメージを受ける
 	DoubleFishingPower: フィッシング・パワーが2倍になる
-	DoubleOreMined: 採掘した鉱石量が2倍になる
-	UnlimitedAmmo: 弾薬スロットの弾が無限になる
-	PeriodicInvulnerability: 10秒ごとに1秒間の無敵時間を得る
+	DoubleOreMined: 採掘した鉱石を2倍入手できる
+	UnlimitedAmmo: 弾薬スロットの弾を消費しない
+	PeriodicInvulnerability: 10秒ごとに1秒間無敵になる
 	GameCloseOnDeath: 死亡するとゲームが終了する
 	DirtEncasement: たまに土の中に閉じ込められる！
 	MentalCurse: 時々よくわからない呪いにかかる！
-	WaterBreathingOnly: 水中でしか呼吸できなくなる
+	WaterBreathingOnly: 水と蜂蜜内でしか呼吸できなくなる
 	DoubleFlightTime: 飛行時間が2倍になる
-	AutoBuffPotion: 回復ポーションを使用すると、所持しているバフポーションの効果が全て発動する（消費しない）
-	IncreasedWeaponSpeed: 武器の使用速度が50%上昇する
+	AutoBuffPotion: ライフ回復アイテムを使用すると、所持しているバフポーションの効果が全て発動する（消費しない）
+	IncreasedWeaponSpeed: 武器の使用速度が50%上昇
 	DeathDenial: 10分ごとに一度だけ死を免れる
-	DamageBoost: 全攻撃力が50%増加する
-	LoseAllDefense: 防御力が4減少する
-	EveryBoulderBounces: 全ての岩が跳ね返るようになる
-	BoulderRain: 時々頭上から岩が落ちてくる
+	DamageBoost: ダメージが50%増加
+	LoseAllDefense: 防御力が4減少
+	EveryBoulderBounces: 全ての大岩が跳ね返るようになる
+	BoulderRain: 時々頭上から大岩が落ちてくる
 	OldDungeonGuardian: 不死の古のダンジョンガーディアンがあなたを追ってくる
-	ReducePotionSicknessCD: ポーション酔いの再使用時間が5%短縮される
-	IncreasePotionSicknessCD: ポーション酔いの再使用時間が5%延長される
-	IncreaseDefensePercent: 防御力が4上昇する
-	DecreasePotionHealing: ポーションの回復量が5%減少する
-	IncreasePotionHealing: ポーションの回復量が5%増加する
-	DisableAccessory: アクセサリー効果が無効になる
+	ReducePotionSicknessCD: ライフ回復アイテムの再使用時間が5%短縮される
+	IncreasePotionSicknessCD: ライフ回復アイテムの再使用時間が5%延長される
+	IncreaseDefensePercent: 防御力が4増加
+	DecreasePotionHealing: ライフ回復アイテムの回復量が5%減少する
+	IncreasePotionHealing: ライフ回復アイテムの回復量が5%増加する
+	DisableAccessory: アクセサリーの効果が無効になる
 	StoneOnCritterKill: 小動物を倒した時、自分自身が石化する
 	NightlyBossSpawn: 撃破済みのボスが毎晩ランダムで近くに出現する
 	RandomItemReward: ランダムなアイテムを入手する
 	ReduceNPCLife: 敵の最大ライフが減少する
 	IncreaseNPCLife: 敵の最大ライフが増加する
 	CloneOnKill: 敵を倒すとその敵のクローンが出現する
-	DoubleRecipeCost: クラフトに必要な素材数が２倍になる
-	IncreasedItemScale: アイテムサイズが大きくなる
+	DoubleRecipeCost: 作成に必要な素材数が2倍になる
+	IncreasedItemScale: アイテムのサイズが大きくなる
 }
 
 UI: {
