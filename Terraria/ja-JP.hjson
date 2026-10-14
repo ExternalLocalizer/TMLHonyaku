@@ -1,6 +1,6 @@
 # synctam様より
 # ライセンス: CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）
-# 一部アイテム名や、未翻訳部分を改変済み
+# 一部アイテム名、ツールチップ、未翻訳部分を改変済み
 
 WorldGeneration: {
 	OceanSand: 海の砂を生成中
@@ -177,7 +177,7 @@ ChatCommandDescription: {
 	Party: /p メッセージ：パーティメンバーにメッセージを送信する
 	Emote: /me メッセージ：三人称視点でメッセージを送信する
 	Playing: /playing：サーバーの全プレイヤーの名前を一覧表示する
-	Roll: /roll：1～100の数字をランダムに表示する
+	Roll: /roll：1-100の数字をランダムに表示する
 	Emoji: /e：絵文字を表示
 	Help: /help：使用可能なチャットコマンドリスト
 	RPS: /rps：ジャンケンふきだしをランダムに表示する
@@ -14850,7 +14850,7 @@ LegacyMenu: {
 	29: 死ぬとキャラクターが消滅します。
 	2: 切断
 	30: 死ぬとアイテムをドロップします。
-	31: 死ぬとお金をドロップします。
+	31: 死ぬとコインをドロップします。
 	32: 難易度選択
 	33: 胴
 	34: 肌着
@@ -15570,7 +15570,7 @@ UI: {
 	NormalDescriptionFlavor: さあ、冒険の始まりだ…
 	NormalDescription: （標準的なテラリアを体験する）
 	ExpertDescriptionFlavor: 冨と栄光さ、坊や。
-	ExpertDescription: （高難易度＆高報酬）
+	ExpertDescription: （高難易度&高報酬）
 	More: たくさん
 	CopySeed: シード値をコピー: {0}
 	SeedCopied: シード値をコピーしました
@@ -15669,8 +15669,8 @@ UI: {
 	Version: バージョン {0}
 	AvailableResourcePacksTitle: 使用可能なパック（{Amount}）
 	EnabledResourcePacksTitle: 現在有効なパック（{Amount}）
-	OffsetTexturePackPriorityUp: 優先度を下げる
-	OffsetTexturePackPriorityDown: 優先度を上げる
+	OffsetTexturePackPriorityUp: 上へ移動
+	OffsetTexturePackPriorityDown: 下へ移動
 	EnableTexturePack: 有効化
 	DisableTexturePack: 無効化
 	SeeTexturePackInfo: パック情報を見る
@@ -15815,7 +15815,7 @@ WorkshopTags: {
 	CorruptionWorlds: Corruption
 	CorruptionWorldsDescription: 不浄に汚染されたワールド。
 	CrimsonWorlds: Crimson
-	CrimsonWorldsDescription: 全てを貪るクリムゾンに苦しめられているワールド。
+	CrimsonWorldsDescription: 全てを貪る真紅に苦しめられているワールド。
 	SmallWorlds: Small
 	SmallWorldsDescription: 小さく、コンパクトで、心地よいワールド！
 	MediumWorlds: Medium
@@ -15872,8 +15872,8 @@ Net: {
 	PlayerIsNotCreativeAndWorldIsCreative: ジャーニーのキャラクターは、ジャーニーのサーバーにしか入れません。
 	PlayerIsCreativeAndWorldIsNotCreative: ジャーニーでないキャラクターは、ジャーニーでないサーバーにしか入れません。
 	CannotTeleportToPylonBecausePlayerIsNotNearAPylon: テレポートするにはもっとパイロンに近づく必要があります
-	CannotTeleportToPylonBecauseNotEnoughNPCs: そのパイロンの近くには、アクセスするのに十分な数の住民がいません
-	CannotTeleportToPylonBecauseNotEnoughNPCsAtCurrentPylon: 現在パイロンの近くに十分な数の住民がいません
+	CannotTeleportToPylonBecauseNotEnoughNPCs: そのパイロンの近くには、アクセスするのに十分な数のタウンNPCがいません
+	CannotTeleportToPylonBecauseNotEnoughNPCsAtCurrentPylon: 現在パイロンの近くに十分な数のタウンNPCがいません
 	CannotTeleportToPylonBecauseThereIsDanger: パイロンネットワークを使用可能にする前に、現在の脅威を打ち破ろう！
 	CannotTeleportToPylonBecauseNotMeetingBiomeRequirements: このパイロンはこのバイオームでの使用条件を満たしていません
 	CannotTeleportToPylonBecauseAccessingLihzahrdTempleEarly: この場所は古代の力で守られている…
@@ -15905,7 +15905,7 @@ GameUI: {
 	OreDetected: 近くに {0} を発見！
 	NoRareCreatures: 近くに珍しい生き物はいません
 	NoEnemiesNearby: 近くの敵：なし
-	OneEnemyNearby: 近くの敵：１匹！
+	OneEnemyNearby: 近くの敵：1匹！
 	EnemiesNearby: 近くの敵： {0}匹！
 	NoKillCount: 撃破数が表示できません
 	NoDPS: N/A
@@ -15984,7 +15984,7 @@ GameUI: {
 	PlayerLifeMax: ﾗｲﾌ
 	PlayerManaMax: マナ
 	NotificationsOptionsCategory: 通知
-	ClearAllNotifications: すべてクリア
+	ClearAllNotifications: 全てクリア
 	OpenFileFolder: 画像のフォルダを開く
 	PotionOfReturnExitPortal: 帰還ポータル出口
 	PotionOfReturnHomePortal: 帰還ポータル入口
@@ -16268,7 +16268,7 @@ Misc: {
 	SandstormBalloon: 砂嵐風船
 	CritterGuides: 生き物とのつきあい方
 	NatureGuides: 環境保護の手引き
-	CombatBookVolumeTwoUsed: 本の知識が住民に力を与える！
+	CombatBookVolumeTwoUsed: 本の知識がタウンNPCたちに力を与える！
 	PeddlersSatchelUsed: 旅商人のカバンがより深くなる！
 }
 
@@ -16292,13 +16292,13 @@ Achievements: {
 	BENCHED_Name: 作業台作業完了！
 	BENCHED_Description: 初めて作業台を作成する。
 	NO_HOBO_Name: 宿無しじゃない
-	NO_HOBO_Description: ガイドなどのNPCが住める家を作り、移住させる。
+	NO_HOBO_Description: ガイドなどのタウンNPCが住める家を作り、移住させる。
 	OBTAIN_HAMMER_Name: ストップ！ハンマーの時間だ！
 	OBTAIN_HAMMER_Description: クラフトか、それ以外の方法で初めてハンマーを入手する。
 	OOO_SHINY_Name: うぉっ！まぶしっ！
 	OOO_SHINY_Description: つるはしを使って初めて鉱石を入手する。
 	HEART_BREAKER_Name: ハートブレイカー
-	HEART_BREAKER_Description: クリスタル・ハートを見つけ、破壊する。
+	HEART_BREAKER_Description: ハートクリスタルを見つけて破壊する。
 	HEAVY_METAL_Name: ヘビーメタル
 	HEAVY_METAL_Description: 鉄か鉛でできた金床を入手する。
 	I_AM_LOOT_Name: お宝みっけ！
@@ -16310,7 +16310,7 @@ Achievements: {
 	EYE_ON_YOU_Name: 貴方への視線
 	EYE_ON_YOU_Description: 夜にのみ現れる『目』の脅威、クトゥルフの眼を撃破する。
 	SMASHING_POPPET_Name: ぶっ壊れな、イイ子だから！
-	SMASHING_POPPET_Description: 爆薬か信頼できるハンマーを使って、シャドウオーブかクリムゾンハートを破壊する。
+	SMASHING_POPPET_Description: 爆発物か信頼できるハンマーを使って、シャドウオーブかクリムゾンハートを破壊する。
 	WORM_FODDER_Name: 虫の餌やり
 	WORM_FODDER_Description: 不浄の地に棲む巨大なワーム、イーターオブワールドを撃破する。
 	MASTERMIND_Name: 偉大な知能
@@ -16380,13 +16380,13 @@ Achievements: {
 	TIN_FOIL_HATTER_Name: ブリキのイカれ野郎
 	TIN_FOIL_HATTER_Description: 気味悪い場所で、君の脳をかき回し調査しようとやって来たワールド外の生命体、火星人の侵略を撃退する。
 	BALEFUL_HARVEST_Name: 悪意の収穫
-	BALEFUL_HARVEST_Description: 悪魔が秋の収穫物の中に潜むパンプキンムーンで、ウェーブ：１５まで到達する。
+	BALEFUL_HARVEST_Description: 悪魔が秋の収穫物の中に潜むパンプキンムーンで、ウェーブ：15まで到達する。
 	ICE_SCREAM_Name: アイス狂いム
-	ICE_SCREAM_Description: 狂気へと陥るお祭りの季節フロストムーンで、ウェーブ：１５まで到達する。
+	ICE_SCREAM_Description: 狂気へと陥るお祭りの季節フロストムーンで、ウェーブ：15まで到達する。
 	STICKY_SITUATION_Name: 厄介な！
 	STICKY_SITUATION_Description: ゼラチン状の有機体が空からどんどん降ってくる、スライムレインを生き残る。
 	REAL_ESTATE_AGENT_Name: 不動産業者
-	REAL_ESTATE_AGENT_Description: すべてのタウンNPCを住まわせる。
+	REAL_ESTATE_AGENT_Description: 全てのタウンNPCを住まわせる。
 	NOT_THE_BEES_Name: ハチとは違うのだよ、ハチとは！
 	NOT_THE_BEES_Description: フルセットの蜂の防具を装備して、ビーガンを撃つ。
 	JEEPERS_CREEPERS_Name: ヒューマン・キャッチャー
@@ -16400,7 +16400,7 @@ Achievements: {
 	MECHA_MAYHEM_Name: 暴力装置
 	MECHA_MAYHEM_Description: ツインズ・デストロイヤー・スケルトロンプライムと同時に戦い、これを撃破する。
 	GELATIN_WORLD_TOUR_Name: 世界ゼリー博覧会
-	GELATIN_WORLD_TOUR_Description: 存在するすべてのタイプのスライムを撃破する。
+	GELATIN_WORLD_TOUR_Description: 存在する全てのタイプのスライムを撃破する。
 	FASHION_STATEMENT_Name: 流行の発信地
 	FASHION_STATEMENT_Description: 防具か衣装を装備して3つの衣装スロットを埋める。
 	VEHICULAR_MANSLAUGHTER_Name: 自動車運転業務上過失致死傷罪
@@ -16486,9 +16486,9 @@ Achievements: {
 	DEFEAT_OLD_ONES_ARMY_TIER3_Name: エーテリアの英雄
 	DEFEAT_OLD_ONES_ARMY_TIER3_Description: オールドワンズ・アーミーが集結可能な最強の軍勢を退ける。
 	GET_ZENITH_Name: 無限大+1の剣
-	GET_ZENITH_Description: 鍛え上げられた究極の剣にして旅の集大成、ゼニスを製作する。
+	GET_ZENITH_Description: 鍛え上げられた究極の剣にして旅の集大成、ゼニスを作成する。
 	GET_TERRASPARK_BOOTS_Name: 英雄のブーツ
-	GET_TERRASPARK_BOOTS_Description: 最高級の火と氷のブーツから鍛造された、テラスパークブーツを製作する。
+	GET_TERRASPARK_BOOTS_Description: 最高級の火と氷のブーツから鍛造された、テラスパークブーツを作成する。
 	FLY_A_KITE_ON_A_WINDY_DAY_Name: 少々風の強い日
 	FLY_A_KITE_ON_A_WINDY_DAY_Description: 風の日に凧を揚げる。
 	FOUND_GRAVEYARD_Name: 静かなる隣人
@@ -16520,13 +16520,13 @@ Achievements: {
 	DEFEAT_DEERCLOPS_Name: 目には目を
 	DEFEAT_DEERCLOPS_Description: 異国の地から来た寒気がするような一つ目の怪物、ディアクロップスを撃破する。
 	DRINK_BOTTLED_WATER_WHILE_DROWNING_Name: 奇抜なサバイバルテクニック
-	DRINK_BOTTLED_WATER_WHILE_DROWNING_Description: 水を飲んで溺死を遅らせる。あまり意味はないが、やらなければならない事だった。
+	DRINK_BOTTLED_WATER_WHILE_DROWNING_Description: 水を飲んで溺死を遅らせる。あまり意味はないが、やらなければならないことだった。
 	ALL_TOWN_SLIMES_Name: スライム大有糸分裂
-	ALL_TOWN_SLIMES_Description: すべてのスライムペットを見つけて、入居させよう！
+	ALL_TOWN_SLIMES_Description: 全てのスライムペットを見つけて、入居させよう！
 	TRANSMUTE_ITEM_Name: 闇の中に煌めく光
 	TRANSMUTE_ITEM_Description: シマーでアイテムを別のアイテムに変化させる。他にはどんな変化があるかな？
 	PURIFY_ENTIRE_WORLD_Name: 厄介払いできた！
-	PURIFY_ENTIRE_WORLD_Description: ドライアドが満足するまで、ワールドからすべての不浄、真紅、聖域を完全に浄化しよう！
+	PURIFY_ENTIRE_WORLD_Description: ドライアドが満足するまで、ワールドから全ての不浄・真紅・聖域を完全に浄化しよう！
 	TO_INFINITY_AND_BEYOND_Name: 無限の彼方へ…さあ行くぞ！
 	TO_INFINITY_AND_BEYOND_Description: クワッドレーシングドローンを外宇宙へ飛ばす。
 }
@@ -16567,7 +16567,7 @@ GameTitle: {
 	15: Terraria: コンテンツの滝！
 	16: Terraria: MOTHER2
 	17: Terraria: ディグダグとは何も関係ないよ
-	18: Terraria: 鉱石良ければすべてよし
+	18: Terraria: 鉱石良ければ全てよし
 	19: Terraria: ジャッジメント・クレイ
 	2: Terraria: アダマンタイト！
 	20: Terraria: 地上のトラブル
@@ -18976,7 +18976,7 @@ NPCName: {
 	GiantWormHead: ジャイアントワーム
 	SeekerTail: ワールドフィーダー
 	Clinger: クリンガー
-	AnglerFish: アングラーフィッシュ
+	AnglerFish: アンコウ
 	GreenJellyfish: 緑クラゲ
 	Werewolf: ウェアウルフ
 	BoundGoblin: とらわれのゴブリン
