@@ -1,20 +1,20 @@
 Zenith: {
 	StarGame: {
 		Description: 星のミニゲームを有効にします
-		$parentVal: スターゲーム
+		$parentVal: 星のゲーム
 	}
 
-	Description: Zenithの秘密シード
+	Description: Zenithの隠しシード
 	$parentVal: Zenith(Get fixed boi)
 }
 
 TheConstant: {
-	Description: Don't Starveコラボの秘密シード
+	Description: Don't Starveコラボの隠しシード
 	$parentVal: The Constant
 }
 
 Spooky: {
-	Description: ハロウィーンがテーマの世界
+	Description: ハロウィーンがテーマのワールド
 	$parentVal: Spooky
 }
 
@@ -24,7 +24,7 @@ SortedWorld: {
 }
 
 Santa: {
-	Description: クリスマスがテーマの世界
+	Description: クリスマスがテーマのワールド
 
 	Conflicts: {
 		Random: Santaでは、ランダム化できるブロックがほとんどありません
@@ -38,17 +38,17 @@ Santa: {
 }
 
 Remix: {
-	Description: リミックスされた秘密シード
+	Description: 逆さまの隠しシード
 	$parentVal: Remix
 }
 
 Random: {
 	Painted: {
-		Description: ブロックや壁の種類ごとにペイントされた世界
+		Description: ブロックや壁の種類ごとにペイントされたワールド
 		$parentVal: Painted
 	}
 
-	Description: 各ブロックと壁の種類がランダム化された世界
+	Description: 各ブロックと壁の種類がランダム化されたワールド
 
 	Conflicts: {
 		Santa: Santaでは、ランダム化できるブロックがほとんどありません
@@ -65,10 +65,10 @@ Random: {
 
 NotTheBees: {
 	JungleWorld: {
-		Description: 世界中がジャングルになる
+		Description: ワールド中がジャングルになる
 
 		Conflicts: {
-			Santa: SantaはNot the beesの世界には影響を与えることはできません
+			Santa: SantaはNot the beesのワールドには影響を与えることはできません
 			Random: Not the beesでは、ランダム化できるブロックがほとんどありません
 			Evil: Not the beesは汚染できるブロックがほとんどありません
 		}
@@ -76,22 +76,22 @@ NotTheBees: {
 		$parentVal: Jungle World
 	}
 
-	Description: 「ハチはやめてくれ」秘密シード
+	Description: Not the bees隠しシード
 	$parentVal: Not the bees
 }
 
 NoTraps: {
-	Description: 「罠なき」秘密シード
+	Description:  No Traps隠しシード
 	$parentVal: No Traps
 }
 
 ForTheWorthy: {
-	Description: 「価値ある者のため」の秘密シード
+	Description: For the worthyの隠しシード
 	$parentVal: For the worthy
 }
 
 Evil: {
-	Description: すべてのブロックを汚染されたものに変更します
+	Description: 全てのブロックを汚染されたものに変更します
 
 	Conflicts: {
 		Random: Evilでは、ランダム化できるブロックがほとんどありません
@@ -105,20 +105,20 @@ Evil: {
 }
 
 Entropy: {
-	Description: 夕暮れと夜明けのたびに、世界の一部が1種類のタイルと壁になる世界
+	Description: 夕暮れと夜明けのたびに、世界の一部が1種類のタイルと壁になるワールド
 	$parentVal: Entropy
 }
 
 Drunk: {
 	MiddleLavaOcean: {
-		Description: 地底世界には世界の真ん中に溶岩の海が生成されます
+		Description: 地下世界にはワールドの真ん中に溶岩の海が生成されます
 		$parentVal: Middle Lava Ocean
 	}
 
 	Description: 9周年の秘密シード
 
 	Crimruption: {
-		Description: 不浄と真紅の両方が世界に生成されます
+		Description: 不浄と真紅の両方がワールドに生成されます
 		$parentVal: Crimruption
 	}
 
@@ -132,14 +132,14 @@ Drunk: {
 
 Celebrationmk10: {
 	Painted: {
-		Description: 祝いの色で世界を彩ります
+		Description: 祝いの色でワールドを彩ります
 		$parentVal: Painted
 	}
 
 	Description: 10周年の秘密シード
 
 	BeachSpawn: {
-		Description: 海岸でプレイヤーとNPCがスポーンします
+		Description: 海岸でプレイヤーとNPCが出現します
 		$parentVal: Beach Spawn
 	}
 
@@ -151,8 +151,8 @@ InvalidSizes: {
 	ClamityMinX: Calamityではスモールワールドを利用できません
 	NormalMaxX:
 		'''
-		大きすぎる世界を生成しようとすると、ワールド生成がクラッシュします
-		そのような世界を生成するには、MOD設定でオーバーホールされたワールド生成を有効にする必要があります
+		大きすぎるワールドを生成しようとすると、ワールド生成がクラッシュします
+		そのようなワールドを生成するには、Mod設定でオーバーホールされたワールド生成を有効にする必要があります
 		'''
 	ComfortNormalMaxX:
 		'''
@@ -182,13 +182,13 @@ Config: {
 	}
 
 	VanillaWeight: {
-		Tooltip: MODのデバッグ用です
+		Tooltip: Modのデバッグ用です
 		Label: ワールド生成予測時間の精度を落とす
 	}
 
 	ZenithEnabler: {
-		Tooltip: ゼニスを有効にすると、「Drunk World」「The Constant」「For the Worthy」「No Traps」「Remix」のシードオプションが適用されます
-		Label: ゼニスで他のオプションを有効化
+		Tooltip: Zenithを有効にすると、「Drunk World」「The Constant」「For the Worthy」「No Traps」「Remix」のシードオプションが適用されます
+		Label: Zenithで他のオプションを有効化
 	}
 
 	SaveOnFail: {

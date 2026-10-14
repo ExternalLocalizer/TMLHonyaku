@@ -1,7 +1,7 @@
 InfoDisplays: {
-	FoundRareCreature: "{0}{1}{^1:タイル;タイル} 先"
-	FoundTreasure: "{0}{1}{^1:タイル;タイル} 先"
-	TilesDistance: "{0}{^0:タイル;タイル} 先"
+	FoundRareCreature: "{0}{1}{^1:マス;マス} 先"
+	FoundTreasure: "{0}{1}{^1:マス;マス} 先"
+	TilesDistance: "{0}{^0:マス;マス} 先"
 	GemTree: 宝石の木
 }
 
@@ -32,32 +32,32 @@ RecipeGroups: {
 }
 
 Tooltips: {
-	HandOfCreation0: ブロックを置ける範囲が5増加
-	HandOfCreation1: 道具の届く範囲が4増加
-	TerrasparkBoots0: ジャンプ速度が増加し、自動ジャンプが可能となる
-	TerrasparkBoots1: 落下耐性を増加
-	AnkhShield0: ライフが50%以下の際、周囲に防壁を展開してダメージを25%軽減
-	AnkhShield1: ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+	HandOfCreation0: ブロックの配置範囲が5マス広がる
+	HandOfCreation1: 道具が届く範囲が4マス広がる
+	TerrasparkBoots0: ジャンプ速度が上昇し、オートジャンプができる
+	TerrasparkBoots1: 落下耐性が増加
+	AnkhShield0: ライフが50%以下の際、バリアを展開し、被ダメージを25%軽減
+	AnkhShield1: ライフが25%以上の際、近くのチームメイトの被ダメージを25%肩代わりする
 	AnkhShield2: 敵に狙われやすくなる
-	BundleOfBalloons0: 六段ジャンプが可能
+	BundleOfBalloons0: 6段ジャンプが可能
 	Radar0: 周囲の敵と罠を探知
 
 	WingStats: {
 		NegatesFallDamage: 落下ダメージを無効化
 		FlightTime: "飛行時間 {0}{^0:秒;秒}"
-		FlightHeight: "飛行できる高度 {0}{^0:タイル;タイル}"
-		FlightHeightUnknown: 飛行できる高度 不明
-		MaxHSpeed: 最大水平速度 {0}マイル
-		MaxHSpeedUnknown: 最大水平速度 不明
-		HAccelerationMult: "水平加速力 {0}倍"
+		FlightHeight: "飛行可能高度 {0}{^0:マス;マス}"
+		FlightHeightUnknown: 飛行可能高度 不明
+		MaxHSpeed: 最大横速度 {0}マイル
+		MaxHSpeedUnknown: 最大横速度 不明
+		HAccelerationMult: "横加速力 {0}倍"
 		CanHover: 滞空可能
-		MaxHSpeedHover: "滞空中の最大水平速度 {0}マイル"
-		MaxHSpeedHoverUnknown: 滞空中の最大水平速度 不明
-		HAccelerationMultHover: "滞空中の水平加速力 {0}倍"
+		MaxHSpeedHover: "滞空中の最大横速度 {0}マイル"
+		MaxHSpeedHoverUnknown: 滞空中の最大横速度 不明
+		HAccelerationMultHover: "滞空中の横加速力 {0}倍"
 	}
 
 	HookStats: {
-		Reach: "射程 {0}{^0:タイル;タイル}"
+		Reach: "射程 {0}{^0:マス;マス}"
 		ReachUnknown: 射程 不明
 		NumHooks: "{^0:フックの本数;フックの本数} {0}"
 		NumHooksUnknown: フックの本数 不明
@@ -88,10 +88,10 @@ Tooltips: {
 		SwimSpeed: "泳ぐ速度 {0}マイル"
 		Acceleration: "加速力 {0}マイル/秒"
 		JumpSpeed: "ジャンプ速度 {0}マイル"
-		JumpHeight: "ジャンプ高度 {0} {^0:タイル;タイル} "
-		AutoJump: 自動ジャンプが可能
-		HeightBoost: "高さ {0} {^0:タイル;タイル}"
+		JumpHeight: "ジャンプ高度 {0} {^0:マス;マス} "
+		AutoJump: オートジャンプができる
+		HeightBoost: "高さ {0} {^0:マス;マス}"
 		FallDamageMult: "落下ダメージが{0}倍になる"
-		BoostedMinecart: 性能が強化された
+		BoostedMinecart: 性能が強化
 	}
 }

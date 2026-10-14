@@ -9,33 +9,46 @@ Config: {
 		ImprovedGrapplingHooks: フックの改良
 		AccessorySlots: アクセサリスロット
 		StatTooltips: ツールチップに性能を表示
-		Obtainability: 入手しやすさの変更
+		Obtainability: 入手性の変更
 	}
 
 	// Improved Accessories
 	ImprovedTerrasparkBoots: {
-		Label: "[i:TerrasparkBoots] テラスパークブーツの改良を有効にする"
-		Tooltip: テラスパークブーツに[i:AmphibianBoots] 両生類のブーツを追加するか変更します
+		Label: "[i:TerrasparkBoots] テラスパークブーツを改良する"
+		Tooltip:
+			'''
+			オンにするとテラスパークブーツの効果とレシピに、
+			[i:AmphibianBoots] 両生類のブーツを追加します
+			'''
 	}
 
 	ImprovedAnkhShield: {
-		Label: "[i:AnkhShield] 聖十字の盾の改良を有効にする"
+		Label: "[i:AnkhShield] 聖十字の盾を改良する"
 		Tooltip:
 			'''
-			聖十字の盾に[i:HeroShield] 英雄の盾と[i:FrozenShield] 氷結の盾を、
+			オンにすると聖十字の盾の効果とレシピに、
+			[i:HeroShield] 英雄の盾と[i:FrozenShield] 氷結の盾を、
 			聖十字のお守りに[i:HandWarmer] あったか手袋を追加し、
-			聖十字の盾の防御力を12に増加させるか変更します
+			聖十字の盾の防御力が12に増加します
 			'''
 	}
 
 	ImprovedHorseshoeBundle: {
-		Label: "[i:HorseshoeBundle] 風船の束の改良を有効にする"
-		Tooltip: 風船の束に[i:SharkronBalloon] シャークロンの風船と[i:FartInABalloon] おなら入り風船を追加するか変更します
+		Label: "[i:HorseshoeBundle] 風船の束を改良する"
+		Tooltip:
+			'''
+			オンにすると風船の束の効果とレシピに、
+			[i:SharkronBalloon] シャークロンの風船と[i:FartInABalloon] おなら入り風船を追加します
+			'''
 	}
 
 	ImprovedHandOfCreation: {
-		Label: "[i:HandOfCreation] 創造の手の改良を有効にする"
-		Tooltip: 創造の手に[i:Toolbox] ツールベルトと[i:Toolbelt] ツールボックスを追加するか変更します
+		Label: "[i:HandOfCreation] 創造の手を改良する"
+		Tooltip:
+			'''
+			オンにすると創造の手の効果とレシピに、
+			[i:Toolbox] ツールベルトと[i:Toolbelt] ツールボックスを追加します
+			'''
 	}
 
 	ImprovedPDA: {
@@ -53,64 +66,64 @@ Config: {
 	
 	// Accessory Slots
 	SlotMoonlord: {
-		Label: "[i:BossMaskMoonlord] ML撃破後のアクセサリスロットの追加を有効にする"
-		Tooltip: ムーンロードを撃破後、アクセサリスロットが追加されるか変更します
+		Label: "[i:BossMaskMoonlord] MLを撃破後、アクセサリスロットを追加する"
+		Tooltip: ムーンロードを倒すと、アクセサリスロットが追加されるか変更します
 	}
 
 	SlotWings: {
-		Label: "[i:WingsSolar] 翼スロットを有効にする"
-		Tooltip: 翼のみ装備できるスロットを追加するか変更します
+		Label: "[i:WingsSolar] 翼のスロットを追加する"
+		Tooltip: オンにすると翼のみ装備できるスロットを追加します
 	}
 
 	SlotShield: {
-		Label: "[i:AnkhShield] 盾スロットを有効にする"
-		Tooltip: 盾のみ装備できるスロットを追加するか変更します
+		Label: "[i:AnkhShield] 盾のスロットを追加する"
+		Tooltip: オンにすると盾のみ装備できるスロットを追加します
 	}
 
 	SlotBoots: {
-		Label: "[i:TerrasparkBoots] ブーツスロットを有効にする"
-		Tooltip: ブーツのみ装備できるスロットを追加するか変更します
+		Label: "[i:TerrasparkBoots] ブーツのスロットを追加する"
+		Tooltip: オンにするとブーツのみ装備できるスロットを追加します
 	}
 
 	SlotForceWings: {
 		Label: "[i:CreativeWings] 翼は専用スロットにのみ装備できる"
-		Tooltip: 翼は専用のスロットにのみ装備できるか変更します
+		Tooltip: オンにすると翼は専用のスロットにのみ装備できます
 	}
 
 	SlotForceShields: {
 		Label: "[i:ObsidianShield] 盾は専用スロットにのみ装備できる"
-		Tooltip: 盾は専用のスロットにのみ装備できるか変更します
+		Tooltip: オンにすると盾は専用のスロットにのみ装備できます
 	}
 
 	SlotForceBoots: {
 		Label: "[i:HermesBoots] ブーツは専用スロットにのみ装備できる"
-		Tooltip: ブーツは専用のスロットにのみ装備できるか変更します
+		Tooltip: オンにするとブーツは専用のスロットにのみ装備できます
 	}
 
 	// Stat Tooltips
 	StatsWings: {
-		Label: "[i:WingsSolar] 翼の性能の表示を有効にする"
-		Tooltip: 翼の性能を表示するか変更します
+		Label: "[i:WingsSolar] 翼の性能を表示する"
+		Tooltip: オンにすると翼の性能を表示します
 	}
 
 	StatsHooks: {
-		Label: "[i:LunarHook] フックの性能の表示を有効にする"
-		Tooltip: フックの性能を表示するか変更します
+		Label: "[i:LunarHook] フックの性能を表示する"
+		Tooltip: オンにするとフックの性能を表示します
 	}
 
 	StatsLightPets: {
-		Label: "[i:SuspiciousLookingTentacle] 光源ペットの性能の表示を有効にする"
-		Tooltip: 光源ペットの性能を表示するか変更します
+		Label: "[i:SuspiciousLookingTentacle] 光源ペットの性能を表示する"
+		Tooltip: オンにすると光源ペットの性能を表示します
 	}
 
 	StatsMinecarts: {
-		Label: "[i:MeowmereMinecart] トロッコの性能の表示を有効にする"
-		Tooltip: トロッコの性能を表示するか変更します
+		Label: "[i:MeowmereMinecart] トロッコの性能を表示する"
+		Tooltip: オンにするとトロッコの性能を表示します
 	}
 
 	StatsMounts: {
-		Label: "[i:DrillContainmentUnit] マウントの性能の表示を有効にする"
-		Tooltip: マウントの性能を表示するか変更します
+		Label: "[i:DrillContainmentUnit] マウントの性能を表示する"
+		Tooltip: オンにするとマウントの性能を表示します
 	}
 
 	// Obtainability
@@ -118,7 +131,7 @@ Config: {
 		Label: "[i:HermesBoots] アクセサリのレシピを追加する"
 		Tooltip:
 			'''
-			これがオンだと、アクセサリのレシピを色々追加します
+			オンにするとアクセサリのレシピを色々追加します
 			説明するのは面倒なのでRecipe Browser Modを使って探してみてください
 			'''
 	}
@@ -127,9 +140,9 @@ Config: {
 		Label: "[i:BottomlessShimmerBucket] シマーで変化させれるアクセサリを増やす"
 		Tooltip:
 			'''
-			これがオンだと、以下のアクセサリをシマーで変化させることができるようになります
-			[i:BrickLayer] レンガ設置機、[i:ExtendoGrip] 拡張グリップ、[i:PaintSprayer] ペイントスプレー 、[i:PortableCementMixer] 携帯コンクリートミキサー
-			[i:Stopwatch] ストップウォッチ、[i:LifeformAnalyzer] 生命体分析器、[i:DPSMeter] DPS測定器
+			オンにすると、以下のアクセサリをシマーで変化させることができるようになります
+			[i:BrickLayer] レンガ設置機・[i:ExtendoGrip] 拡張グリップ・[i:PaintSprayer] ペイントスプレー・[i:PortableCementMixer] 携帯コンクリートミキサー
+			[i:Stopwatch] ストップウォッチ・[i:LifeformAnalyzer] 生命体分析器・[i:DPSMeter] DPS測定器
 			[i:ShinyRedBalloon] 輝く赤い風船と[i:BalloonPufferfish] フグの風船
 			[i:PutridScent] 腐臭の袋と[i:FleshKnuckles] 肉のナックル
 			[i:BandofStarpower] 星の腕輪と[i:PanicNecklace] パニックネックレス 
@@ -139,19 +152,19 @@ Config: {
 
 	ObtainabilityNPCDrops: {
 		Label: "[i:ArmorPolish] 聖十字のお守りの素材を入手しやすくする"
-		Tooltip: これがオンだと、敵が[i:AnkhCharm] 聖十字のお守りの素材のアクセサリを落とす確率が3倍になります
+		Tooltip: オンにすると、敵が[i:AnkhCharm] 聖十字のお守りの素材のアクセサリをドロップする確率が3倍になります
 	}
 
 	ObtainabilityTravellingMerchant: {
 		Label: "[i:PeddlersHat] 旅商人がアクセサリを必ず販売する"
-		Tooltip: これがオンだと、旅商人にアクセサリの販売枠が追加されます
+		Tooltip: オンにすると、旅商人にアクセサリの販売枠が追加されます
 	}
 
 	ObtainabilityPresents: {
 		Label: "[i:Present] プレゼントからアクセサリを取り除く"
 		Tooltip:
 			'''
-			これがオンだと、プレゼントから[i:HandWarmer] あったか手袋と、
+			オンにすると、プレゼントから[i:HandWarmer] あったか手袋と、
 			[i:Toolbox] ツールボックスを入手できなくなる代わりに、
 			あったか手袋のレシピが追加され、
 			メカニックからツールボックスを買えるようになります
@@ -171,54 +184,62 @@ PDAConfig: {
 	// Radar
 	RadarHighlightEnemies: {
 		Label: 敵のハイライト表示
-		Tooltip: これがオンだと、[i:Radar] レーダーが敵を[i:HunterPotion] 狩人のポーションのようにハイライト表示するようになります
+		Tooltip:
+			'''
+			オンにすると、[i:Radar] レーダーが敵を、
+			[i:HunterPotion] 狩人のポーションのようにハイライト表示するようになります
+			'''
 	}
 
 	RadarHighlightDanger: {
 		Label: 罠のハイライト表示
-		Tooltip: これがオンだと、[i:Radar] レーダーが罠を[i:TrapsightPotion] 危険察知ポーションのようにハイライト表示するようになります
+		Tooltip:
+			'''
+			オンにすると、[i:Radar] レーダーが罠を、
+			[i:TrapsightPotion] 危険察知ポーションのようにハイライト表示するようになります
+			'''
 	}
 
 	// Metal detector
 	MetalDetectorDistanceInfo: {
 		Label: 距離の表示
-		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が距離を表示するようになります
+		Tooltip: オンにすると、[i:MetalDetector] 金属探知機が距離を表示するようになります
 	}
 
 	MetalDetectorArrows: {
-		Label: 宝物の方角を矢印で表示
-		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が近くの宝物の方角を矢印で表示するようになります
+		Label: 宝物の方向を矢印で表示
+		Tooltip: オンにすると、[i:MetalDetector] 金属探知機が近くの宝物の方向を矢印で表示するようになります
 	}
 
 	MetalDetectorHighlight: {
 		Label: 宝物のハイライト表示
-		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が宝物をハイライト表示するようになります
+		Tooltip: オンにすると、[i:MetalDetector] 金属探知機が宝物をハイライト表示するようになります
 	}
 
 	TrackGems: {
 		Label: 宝石の探知
-		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機が宝石を探知するようになります
+		Tooltip: オンにすると、[i:MetalDetector] 金属探知機が宝石を探知するようになります
 	}
 
 	TrackHellstone: {
 		Label: ヘルストーンの探知
-		Tooltip: これがオンだと、[i:MetalDetector] 金属探知機がヘルストーンを探知するようになります
+		Tooltip: オンにすると、[i:MetalDetector] 金属探知機がヘルストーンを探知するようになります
 	}
 
 	// Lifeform analyzer
 	LifeformAnalyzerDistanceInfo: {
 		Label: 距離の表示
-		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が距離を表示するようになります
+		Tooltip: オンにすると、[i:LifeformAnalyzer] 生命体分析器が距離を表示するようになります
 	}
 
 	LifeformAnalyzerArrows: {
-		Label: 珍しい生き物の方角を矢印で表示
-		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物の方角を矢印で表示するようになります
+		Label: 珍しい生き物の方向を矢印で表示
+		Tooltip: オンにすると、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物の方向を矢印で表示するようになります
 	}
 
 	LifeformAnalyzerHighlight: {
 		Label: 珍しい生き物のハイライト表示
-		Tooltip: これがオンだと、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物をハイライト表示するようになります
+		Tooltip: オンにすると、[i:LifeformAnalyzer] 生命体分析器が珍しい生き物をハイライト表示するようになります
 	}
 
 	UseNPCWhitelist: {
