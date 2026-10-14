@@ -79,7 +79,7 @@ Config: {
 	}
 }
 
-OreHelpTextBase: 地獄のかまどと{0}鉱石を組み合わせてみな！きっとすごいものを作れるよ！
+OreHelpTextBase: 地獄のかまどと{0}鉱石を組み合わせてみて！きっとすごいものを作れるよ！
 HallowBunnyCageTooltip: 「絶対に後悔させてやる！」
 
 AltOreName: {
@@ -136,7 +136,7 @@ AltBiomeDescription: {
 	CorruptBiome: 腐敗した敵が棲む紫のバイオーム。腐った敵達が、命がけでこの地を守るだろう。
 	CrimsonBiome: 深紅のバイオーム。血に染まった大地が生んだ化け物達が、命がけでこの地を守るだろう。
 	HallowBiome: 聖域のバイオーム。希望と夢にあふれ、ユニコーンや妖精が住んでいる。
-	JungleBiome: 樹木が生い茂り、蜂が飛び交う活気ある場所。ジャングルの奥深くに古代寺院が存在する。
+	JungleBiome: 樹木が生い茂り、蜂が飛び交う活気ある場所。ジャングルの奥深くに古代の寺院が存在する。
 	UnderworldBiome: 溶岩と悪魔が徘徊する、時と共に荒廃した灼熱の大地。
 }
 
@@ -185,6 +185,8 @@ RecipeGroups: {
 	GoldWatches: 金の時計
 	IronOres: 鉄鉱石
 	GoldOres: 金鉱石
+	Bars: "{0}のインゴット"
+	Ores: "{0}鉱石"
 }
 
 DryadSpecialText: {
@@ -509,7 +511,7 @@ AltOres: {
 	}
 
 	TitaniumAltOre: {
-		DisplayName: チタニウム
+		DisplayName: チタン
 		Description: ""
 		BlessMessage: "[c/B9C2D7:{0}の祝福を受けた！]"
 	}
@@ -523,31 +525,39 @@ AltOres: {
 AltOreSlot: {
 	AdamantiteOreSlot: {
 		DisplayName: アダマンタイトランクの鉱石
+		RecipeGroupDisplayName: アダマンタイト
 	}
 
 	CobaltOreSlot: {
 		DisplayName: コバルトランクの鉱石
+		RecipeGroupDisplayName: コバルト
 	}
 
 	CopperOreSlot: {
 		DisplayName: 銅ランクの鉱石
+		RecipeGroupDisplayName: 銅
 	}
 
 	GoldOreSlot: {
 		DisplayName: 金ランクの鉱石
+		RecipeGroupDisplayName: 金
 	}
 
 	IronOreSlot: {
 		DisplayName: 鉄ランクの鉱石
+		RecipeGroupDisplayName: 鉄
 	}
 
 	MythrilOreSlot: {
 		DisplayName: ミスリルランクの鉱石
+		RecipeGroupDisplayName: ミスリル
 	}
 
 	SilverOreSlot: {
 		DisplayName: 銀ランクの鉱石
+		RecipeGroupDisplayName: 銀
 	}
+
 }
 
 Conditions.DownedBoss2: ハードモード前の邪悪なボスを倒した後

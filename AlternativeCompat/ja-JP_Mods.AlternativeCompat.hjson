@@ -96,19 +96,32 @@ Confection: {
 	}
 }
 
-MagicStorage.Warning:
-	'''
-	[c/FF0000:Mod間互換性があるストレージユニットは不具合を起こして消失する可能性があります！]
-	使用前にワールドやプレイヤーのバックアップを取ることをお勧めします！
-	'''
-
 Configs: {
 	AltCompatClient: {
-		DisplayName: クライアント設定
+		DisplayName: ABC クライアント設定
 
 		MStorageWarning: {
 			Label: Magic Storageの警告
 			Tooltip: Mod間互換性があるストレージユニットとコアのツールチップに警告を表示します
 		}
+
+		DebugMessages: {
+			Label: デバッグメッセージ
+			Tooltip: ""
+		}
+
+	AltCompatConfig: {
+		DisplayName: ABC サーバー設定
+
+		RequireAltMaterials: {
+			Label: 互換性有Modの素材が必要
+			Tooltip: ""
+		}
 	}
 }
+
+MagicStorage.Warning:
+	'''
+	[c/FF0000:Mod間互換性があるストレージユニットは不具合を起こして消失する可能性があります！]
+	使用前にワールドやプレイヤーのバックアップを取ることをお勧めします！
+	'''
