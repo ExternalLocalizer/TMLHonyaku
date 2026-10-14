@@ -931,40 +931,52 @@ BuffName: {
 }
 
 BuffDescription: {
-	ObsidianSkin: 溶岩からのダメージを無効にする
+	ObsidianSkin: 炎のブロックと溶岩のダメージ、燃えている！を無効化
 	Regeneration: ライフ自然回復を増進
 	Swiftness: 移動速度が25%上昇
-	Gills: 空気の代わりに水で呼吸する
-	Ironskin: 防御力 +8
+	Gills: 水と蜂蜜内で呼吸できるようになる
+	Ironskin: 防御力が8増加
 	ManaRegeneration: マナ自然回復を増進
 	MagicPower: 魔法ダメージが20%増加
-	Featherfall: 上下入力で落下速度を調整できる
+	Featherfall:
+		'''
+		落下速度が低下し、落下ダメージを無効化する
+		上下入力で落下速度を調整できる
+		'''
 	Spelunker: 宝と鉱石が光って見える
-	Invisibility: 透明になる
+	Invisibility: 透明になり、敵の出現率が低下
 	Shine: 発光する
-	NightOwl: 暗くても視界が利くようになる
+	NightOwl: 視界が良くなる
 	Battle: 敵の出現率が上昇
-	Thorns: ダメージの一部を反射する
-	WaterWalking: 下入力で水に潜れる
-	Archery: 弓のダメージが10%増加し矢の速度が20%増加
+	Thorns: 接触ダメージを反射する
+	WaterWalking:
+		'''
+		液体の上を歩行できる
+		下入力で液体に潜る
+		'''
+	Archery: 弓のダメージが10%増加し、矢の速度が20%上昇
 	Hunter: 敵が光って見える
 	Gravitation: 上入力で重力が反転する
-	ShadowOrb: マジカルオーブが光を放つ
+	ShadowOrb: 魔法のオーブが光を放つ
 	Poisoned: ライフが徐々に減っていく
-	PotionSickness: 回復アイテムが使えない
+	PotionSickness: ライフ回復アイテムが使えない
 	Darkness: 視界が悪くなる
 	Cursed: アイテムが使えない
 	OnFire: ライフが徐々に減っていく
-	Tipsy: 近接攻撃能力が増加し、防御力が減少
+	Tipsy:
+		'''
+		近接攻撃が強化され、フィッシング・パワーが上昇するが、
+		防御力が減少
+		'''
 	FairyBlue: 妖精が後をついてくる
-	Werewolf: 身体能力が増加
-	Clairvoyance: 魔力が増加
+	Werewolf: 身体能力が強化
+	Clairvoyance: 魔法攻撃が強化される
 	Bleeding: ライフが自然回復しなくなる
 	Confused: 移動方向が反転する
 	Slow: 移動速度が低下
-	Weak: 身体能力が減少
-	Merfolk: 水中呼吸が出来るようになり、水の中を自由に動ける
-	Silenced: マナを要するアイテムが使えない
+	Weak: 身体能力が低下
+	Merfolk: 水中で呼吸ができるようになり、水中で無限にジャンプでき、減速しない
+	Silenced: マナを消費するアイテムが使えない
 	BrokenArmor: 防御力が半減する
 	Horrified: 得体の知れない恐怖で逃げられない！
 	TheTongue: 口の中に吸い込まれそう
@@ -2402,68 +2414,72 @@ CommonItemTooltip: {
 	UsesLife: 消費： {0} ライフ
 	UsesMana: 消費： {0} マナ
 	RestoresLife: 回復： {0} ライフ
-	RestoresLifeRange: "{0}から{1}の範囲でライフが回復"
+	RestoresLifeRange: ライフを{0}-{1}回復
 	RestoresMana: 回復： {0} マナ
 	MinuteDuration: 持続時間 {0}分
 	SecondDuration: 持続時間 {0}秒
-	PlaceableOnXmasTree: クリスマスツリーに配置可能
-	String: ヨーヨーの射程が増加
-	Counterweight: ヨーヨーヒット時におもりを飛ばす
+	PlaceableOnXmasTree: クリスマスツリーに飾ることができる
+	String: ヨーヨーの射程が伸びる
+	Counterweight: ヨーヨーが当たるとおもりを飛ばす
 	BannerBonus: 以下のモンスターに対してボーナスを得る：
 	BannerBonusReduced: 以下のモンスターに対して少しボーナスを得る：
 	SpecialCrafting: 何かいいものが作れそうだ
 	DevItem: 「開発者に成りすますのに最適！」
-	FlightAndSlowfall: 空を飛ぶことができ、落下速度が低下
+	FlightAndSlowfall: 飛行と低速落下ができ、落下ダメージを無効化
 	PressDownToHover:
 		'''
 		下入力でホバリングする
 		上入力でホバリングをやめる
 		'''
-	PressUpToBooster: 上入力を続けて加速しろ！
+	PressUpToBooster: 上入力を続けると加速する！
 	RightClickToOpen: <right>で開く
 	RightClickToClose: <right>で閉じる
 	MinorStats: 全ステータスが少し強化
 	MediumStats: 全ステータスが中程度強化
 	MajorStats: 全ステータスが大きく強化
-	TipsyStats: 近接攻撃が少し強化され、防御力が減少
-	EtherianManaCost10: エターニアの水晶を守っている間、１使用あたり１０エーテリアンマナ消費
+	TipsyStats:
+		'''
+		近接攻撃が強化され、フィッシング・パワーが上昇するが、
+		防御力が減少
+		'''
+	EtherianManaCost10: エターニアの水晶を守っている間、1使用あたりエーテリアンマナを10消費
 	GolfBall: ゴルフクラブで打てる
 	Sentry: セントリーを召喚する
 	GolfIron:
 		'''
 		中距離に最適な丸々としたクラブ
-		まあまあのロフト角でゴルフボールをかなり運ぶ
+		そこそこ高く飛び、かなりの飛距離が出る
 		'''
 	GolfPutter:
 		'''
-		最終ホール専用クラブ
-		正確なショットのためにゴルフボールを近くの距離までしか運ばない
+		最終ホールのための専門クラブ
+		飛距離が短く、正確に飛ばせる
 		'''
 	GolfWedge:
 		'''
 		バンカーや高い障害物用のクラブ
-		高く上がる、ゴルフボールをそれほど遠くまでは運ばない
+		飛距離が短いが、高く飛ばせる
 		'''
 	GolfDriver:
 		'''
 		長距離用の強力なクラブ
-		少しのロフト角でゴルフボールをかなり遠くまで運ぶ
+		高さは出ないが、非常に遠くまで飛ばせる
 		'''
 	Kite:
 		'''
 		風の日に凧を飛ばせる
 		<right>で巻き取る
 		'''
-	LavaFishing: 溶岩での釣りが可能
+	LavaFishing: 溶岩で釣りができる
 	CreativeSacrificeNeeded: あと{0}個調査で複製可能
 	CreativeSacrificeComplete: 複製可能
 	TeleportationPylon:
 		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
+		2人以上のタウンNPCが近くにいる別のパイロンへテレポートできる
+		1種につき1つだけ、適したバイオームに設置することができる
 		'''
 	Whips: 攻撃を当てた敵にミニオンが集中攻撃する
-	WizardHatDuringAnniversary: 召喚できるミニオンの数が1体増える
+	WizardHatDuringAnniversary: ミニオンスロットを1つ追加
 	MechSummonDuringEverything: 「セットの一部」
 	MechdusaSummonNotDuringEverything: 「このワールドでは何の効果もない」
 	LuminiteVariant: 「彼方から来た禁断の素材」
@@ -8112,119 +8128,111 @@ ItemTooltip: {
 	ChlorophyteBar: 光に反応する
 	ShadowScalemail: クリティカル率が5%上昇
 	ShadowHelmet: クリティカル率が5%上昇
-	NightmarePickaxe: ヘルストーンを採掘可能
-	Paintbrush:
-		'''
-		ブロックにペンキを塗るのに使う
-		コーティングもできる
-		'''
-	PaintRoller:
-		'''
-		壁にペンキを塗るのに使う
-		コーティングもできる
-		'''
-	ManaCrystal: 永久に最大マナを20増加
+	NightmarePickaxe: ヘルストーンを採掘できる
+	Paintbrush: ブロックにペンキとコーティングを塗ることができる
+	PaintRoller: 壁にペンキとコーティングを塗ることができる
+	ManaCrystal: 永久に最大マナが20増加
 	PaintScraper:
 		'''
-		塗ったペンキやコーティングを剥がすのに使う
-		稀に苔を回収することもできる
+		塗ったペンキとコーティングを剥がす
+		苔に対して使うと稀に回収できる
 		'''
-	TealMushroom: 染料（青緑）の作成に使用
-	GreenMushroom: 染料（緑）の作成に使用
-	SkyBlueFlower: 染料（空）の作成に使用
+	TealMushroom: 染料（青緑）の作成に使う
+	GreenMushroom: 染料（緑）の作成に使う
+	SkyBlueFlower: 染料（空）の作成に使う
 	BandofStarpower: 最大マナが20増加
-	YellowMarigold: 染料（黄）の作成に使用
-	BlueBerries: 染料（青）の作成に使用
-	LimeKelp: 染料（ライム）の作成に使用
-	PinkPricklyPear: 染料（ピンク）の作成に使用
-	OrangeBloodroot: 染料（オレンジ）の作成に使用
-	RedHusk: 染料（赤）の作成に使用
-	CyanHusk: 染料（シアン）の作成に使用
-	VioletHusk: 染料（すみれ）の作成に使用
-	PurpleMucos: 染料（紫）の作成に使用
-	BlackInk: 染料（黒）の作成に使用
-	FlowerofFire: ファイアボールを発射
-	DyeVat: 染料作成に使用
-	BeeGun: 敵を追跡する蜂を放つ
-	PossessedHatchet: 敵を追跡する
+	YellowMarigold: 染料（黄）の作成に使う
+	BlueBerries: 染料（青）の作成に使う
+	LimeKelp: 染料（ライム）の作成に使う
+	PinkPricklyPear: 染料（ピンク）の作成に使う
+	OrangeBloodroot: 染料（オレンジ）の作成に使う
+	RedHusk: 染料（赤）の作成に使う
+	CyanHusk: 染料（シアン）の作成に使う
+	VioletHusk: 染料（すみれ）の作成に使う
+	PurpleMucos: 染料（紫）の作成に使う
+	BlackInk: 染料（黒）の作成に使う
+	FlowerofFire: ファイアボールを発射する
+	DyeVat: 染料を作成できる
+	BeeGun: 敵を追尾する蜂を発射する
+	PossessedHatchet: 敵を追尾する
 	BeeKeeper:
 		'''
-		敵を攻撃すると蜂を召喚する
-		低確率で敵を混乱させる
+		攻撃が当たると蜂を召喚する
+		敵を混乱させる
 		'''
-	HiveWand: 蜂の巣ブロックを設置
+	HiveWand: 蜂の巣ブロックを設置できる
 	MagicMissile: マジックミサイルを自由に動かせる
-	Beenade: 蜂の群れを爆発させる
+	Beenade: 爆発すると蜂の群れが発生する
 	GravityGlobe:
 		'''
 		重力を反転させる
 		上入力で重力が反転
 		'''
-	HoneyComb: ダメージを受けると蜂を放って、使用者を蜂蜜に浸す
+	HoneyComb: ダメージを受けると蜂を放ち、蜂蜜を得る
 	Abeemination: 女王蜂を召喚する
-	DirtRod: 土を移動できる
-	TempleKey: ジャングル寺院のドアを開ける
-	LihzahrdWorkBench: 基本的なクラフトに使う
+	DirtRod: 土を動かすことができる
+	TempleKey: ジャングル寺院のドアを開けるのに使う
+	LihzahrdWorkBench: 基本的なアイテムを作成できる
 	ShadowOrb: シャドウオーブを召喚する
 	LihzahrdPressurePlate: プレイヤーが乗ると作動する
-	PiranhaGun: 敵に噛みついて持続ダメージを与える
+	PiranhaGun: 敵に噛みついてダメージを与え続ける
 	PygmyStaff: 共に戦うピグミーを召喚する
-	PygmyNecklace: 召喚できるミニオンの数が1体増える
+	PygmyNecklace: ミニオンスロットを1つ追加
 	TikiMask:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが10%増加
-		鞭の攻撃範囲が10%増加
+		鞭の射程が10%伸びる
 		'''
 	TikiShirt:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが10%増加
 		'''
 	TikiPants:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが10%増加
 		'''
-	LeafWings: 空を飛ぶことができ、落下速度が低下
+	LeafWings: 飛行と低速落下ができ、落下ダメージを無効化
 	BetsyWings:
 		'''
-		空を飛ぶことができ、落下速度が低下
+		飛行と低速落下ができ、落下ダメージを無効化
 		下入力でホバリングする
 		上入力でホバリングをやめる
 		'''
 	BlizzardinaBalloon:
 		'''
 		二段ジャンプが可能
-		ジャンプ高度が増加
+		ジャンプ高度が上昇
 		'''
 	BundleofBalloons:
 		'''
 		四段ジャンプが可能
-		ジャンプ高度が増加
+		ジャンプ高度が上昇
 		'''
-	BatWings: 空を飛ぶことができ、落下速度が低下
+	BatWings: 飛行と低速落下ができ、落下ダメージを無効化
 	HerculesBeetle:
 		'''
 		召喚ダメージが15%増加
 		ミニオンの攻撃のノックバックが増加
 		'''
 	BoneKey: ベビースケルトロンの頭を召喚する
-	MeteoriteBar: 「触ると温かい」
+	MeteoriteBar: 「触ると暖かい」
 	Nectar: ベビーホーネットを召喚する
 	TikiTotem: ティキ・スピリットを召喚する
 	LizardEgg: ペットのトカゲを召喚する
-	LeafBlower: 鋭利な木の葉を高速で放つ
-	ChlorophyteBullet: 敵を追跡する
-	Hook: スケルトンとピラニアがたまに落とす
+	LeafBlower: 鋭利な木の葉を高速で発射する
+	ChlorophyteBullet: 敵を追尾する
+	Hook: スケルトンとピラニアがたまにドロップする
 	ParrotCracker: ペットのオウムを召喚する
 	StrangeGlowingMushroom: ベビートリュフを召喚する
 	Seedling: ペットの苗木を召喚する
 	WispinaBottle: 発光するウィスプを召喚する
-	PalladiumPickaxe: ミスリルとオリハルコンの採掘が可能
-	PalladiumDrill: ミスリルとオリハルコンの採掘が可能
-	OrichalcumPickaxe: アダマンタイトとチタンの採掘が可能
-	OrichalcumDrill: アダマンタイトとチタンの採掘が可能
+	PalladiumPickaxe: ミスリルとオリハルコンを採掘できる
+	PalladiumDrill: ミスリルとオリハルコンを採掘できる
+	OrichalcumPickaxe: アダマンタイトとチタンを採掘できる
+	OrichalcumDrill: アダマンタイトとチタンを採掘できる
 	MoltenFury: 木の矢に火をつけて発射する
 	PalladiumMask:
 		'''
@@ -8291,57 +8299,67 @@ ItemTooltip: {
 		'''
 	TitaniumLeggings:
 		'''
-		ダメージとクリティカル率が3%上昇
+		ダメージが3%増加し、クリティカル率が3%上昇
 		移動速度が6%上昇
 		'''
-	OrichalcumAnvil: ミスリル、オリハルコン、アダマンタイト、チタンからのアイテム作成に使用する
-	TitaniumForge: アダマンタイトとチタンの精錬に使用する
+	OrichalcumAnvil:
+		'''
+		通常の金床で作成できるアイテムに加え、
+		ミスリル・オリハルコン・アダマンタイト・チタンなど、
+		ハードモードの鉱石と素材からアイテムを作成できる
+		'''
+	TitaniumForge:
+		'''
+		下位のかまどで製錬・作成できるアイテムに加え、
+		アダマンタイト・チタン・クロロファイトなどハードモードの鉱石を製錬でき、
+		スペクタイトのインゴットを作成できる
+		'''
 	ChlorophyteClaymore: 強力なオーブを放つ
 	ChlorophyteSaber: 胞子の雲を放つ
 	ChlorophytePartisan: 胞子の雲を放つ
 	MeteorHelmet: 魔法ダメージが9%増加
-	ChlorophyteArrow: 壁に衝突時跳ね返る
+	ChlorophyteArrow: 地形に当たると跳ね返る
 	MeteorSuit: 魔法ダメージが9%増加
 	AmberMosquito: ベビーダイナソーを召喚する
 	NimbusRod: 敵にダメージを与える雨雲を召喚する
-	BeeCloak: ダメージを受けると流れ星が降り蜂を放って、使用者を蜂蜜に浸す
+	BeeCloak: ダメージを受けると流れ星が降り、蜂を放ち、蜂蜜を得る
 	EyeoftheGolem: クリティカル率が10%上昇
 	HoneyBalloon:
 		'''
-		ジャンプ高度が増加
-		ダメージを受けると蜂を放って、使用者を蜂蜜に浸す
+		ジャンプ高度が上昇
+		ダメージを受けると蜂を放ち、蜂蜜を得る
 		'''
 	MeteorLeggings: 魔法ダメージが9%増加
 	BlueHorseshoeBalloon:
 		'''
-		二段ジャンプが可能
-		ジャンプ高度が増加し、落下ダメージを無効化
+		ジャンプ高度が上昇し、二段ジャンプが可能
+		落下ダメージを無効化し、運が増加
 		'''
 	WhiteHorseshoeBalloon:
 		'''
-		二段ジャンプが可能
-		ジャンプ高度が増加し、落下ダメージを無効化
+		ジャンプ高度が上昇し、二段ジャンプが可能
+		落下ダメージを無効化し、運が増加
 		'''
 	YellowHorseshoeBalloon:
 		'''
-		二段ジャンプが可能
-		ジャンプ高度が増加し、落下ダメージを無効化
+		ジャンプ高度が上昇し、二段ジャンプが可能
+		落下ダメージを無効化し、運が増加
 		'''
-	FrozenTurtleShell: ライフが50%以下の際、周囲に防壁を展開してダメージを25%軽減
+	FrozenTurtleShell: ライフが50%以下の際、バリアを展開し、被ダメージを25%軽減
 	SniperRifle:
 		'''
 		強力で高速な弾丸を撃つ
-		<right>でズームアウト
+		<right>で視界を広げる
 		'''
 	VenusMagnum: 強力で高速な弾丸を撃つ
 	CrimsonRod: 敵にダメージを与える血の雨雲を召喚する
 	Stynger:
 		'''
 		爆発する矢を放つ
-		直撃すると追加でダメージを与える
+		直撃させるとダメージが増加
 		'''
 	FlowerPow: 近くの敵に鋭利な花びらを放つ
-	RainbowGun: ダメージを与え続ける虹を放つ
+	RainbowGun: 触れた敵にダメージを与え続ける虹を発射する
 	StyngerBolt: 榴散弾を爆発させる
 	FlowerofFrost: 冷気の玉を放つ
 	Uzi: 強力で高速な弾丸を撃つ
@@ -8426,90 +8444,81 @@ ItemTooltip: {
 		'''
 	MagicQuiver:
 		'''
-		矢のスピードとダメージが10%増加
+		矢のダメージが10%増加し、矢の速度が大幅に上昇
 		20%の確率で矢を消費しない
 		'''
-	MagmaStone: 攻撃時に炎上効果を加える
-	ObsidianRose: 溶岩のダメージを減少
+	MagmaStone: 近接攻撃でヘルファイアを与える
+	ObsidianRose: 溶岩のダメージを軽減
 	RodofDiscord:
 		'''
-		マウスポインタの位置にテレポートできる
-		カオス状態になる
+		カーソルの位置にテレポートできるが、
+		カオス状態を受ける
 		'''
 	DeathSickle: 死の鎌を放つ
 	BloodySpine: クトゥルフの脳を召喚する
 	Ichor: 「神の血である」
-	IchorTorch: 水中に設置可能
-	IchorArrow: 対象の防御力を減少させる
-	IchorBullet: 対象の防御力を減少させる
+	IchorTorch: 液体内に設置できる
+	IchorArrow: 敵の防御力を減少させる
+	IchorBullet: 敵の防御力を減少させる
 	GoldenShower:
 		'''
-		霊液のシャワーを浴びせかける
-		対象の防御力を減少させる
+		霊液のシャワーを浴びせる
+		敵の防御力を減少させる
 		'''
-	ImbuingStation: 攻撃に追加効果を与える薬の作成時に使用する
-	EmptyBullet: 様々なタイプの弾薬を作る際に使用する
-	ShadowbeamStaff: 壁にぶつかると反射するシャドウビームを発射する
-	InfernoFork: 爆発する火の玉を発射する
-	SpectreStaff: 敵を追撃する失われた魂を召喚する
+	ImbuingStation: 近接攻撃と鞭の攻撃に追加効果を与えるフラスコを作成できる
+	EmptyBullet: 様々な弾丸の作成に使う
+	ShadowbeamStaff: 地形に当たると跳ね返るシャドウビームを発射する
+	InfernoFork: 爆発するファイアボールを発射する
+	SpectreStaff: 敵を追尾する失われた魂を召喚する
 	BubbleMachine: 泡を吹く
 	BubbleWand: 泡を吹く
-	WaterCandle: 持っていると敵を惹きつける
+	WaterCandle: 装備中か、近くに設置すると敵の出現率が上昇
 	Book: 「変なシンボルが書かれている」
-	CopperWatch: ゲーム内時刻を表示（1時間単位）
-	SpectreRobe: 魔法ダメージとクリティカル率が7%上昇
+	CopperWatch: ゲーム内の時刻を表示（1時間単位）
+	SpectreRobe: 魔法ダメージが7%増加し、魔法クリティカル率が7%上昇
 	SpectrePants:
 		'''
 		魔法ダメージが8%増加
 		移動速度が8%上昇
 		'''
 	PaladinsHammer: 手元に返ってくる強力なハンマー
-	BeeWings: 空を飛ぶことができ、落下速度が低下
-	LargeAmethyst: 争奪戦に使用する宝石。死亡時にその場に落とす
-	LargeTopaz: 争奪戦に使用する宝石。死亡時にその場に落とす
-	LargeSapphire: 争奪戦に使用する宝石。死亡時にその場に落とす
-	LargeEmerald: 争奪戦に使用する宝石。死亡時にその場に落とす
-	LargeRuby: 争奪戦に使用する宝石。死亡時にその場に落とす
-	LargeDiamond: 争奪戦に使用する宝石。死亡時にその場に落とす
-	JungleKey: ダンジョンにあるジャングルの宝箱を開ける
-	CorruptionKey: ダンジョンにある不浄の宝箱を開ける
-	CrimsonKey: ダンジョンにある真紅の宝箱を開ける
-	HallowedKey: ダンジョンにある聖域の宝箱を開ける
-	FrozenKey: ダンジョンにある氷の宝箱を開ける
-	SpectrePaintbrush:
-		'''
-		ブロックにペンキを塗るのに使う
-		コーティングもできる
-		'''
-	SpectrePaintRoller:
-		'''
-		壁にペンキを塗るのに使う
-		コーティングもできる
-		'''
+	BeeWings: 飛行と低速落下ができ、落下ダメージを無効化
+	LargeAmethyst: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	LargeTopaz: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	LargeSapphire: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	LargeEmerald: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	LargeRuby: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	LargeDiamond: 争奪戦で使用する宝石。死亡するとその場にドロップする
+	JungleKey: ダンジョンにあるジャングルの宝箱を開けるのに使う
+	CorruptionKey: ダンジョンにある不浄の宝箱を開けるのに使う
+	CrimsonKey: ダンジョンにある真紅の宝箱を開けるのに使う
+	HallowedKey: ダンジョンにある聖域の宝箱を開けるのに使う
+	FrozenKey: ダンジョンにある氷の宝箱を開けるのに使う
+	SpectrePaintbrush: ブロックにペンキとコーティングを塗ることができる
+	SpectrePaintRoller: 壁にペンキとコーティングを塗ることができる
 	SpectrePaintScraper:
 		'''
-		塗ったペンキやコーティングを剥がすのに使う
-		稀に苔を回収することもできる
+		塗ったペンキとコーティングを剥がす
+		苔に対して使うと稀に回収できる
 		'''
 	ShroomiteHeadgear:
 		'''
-		弓ダメージが15%増加
+		弓のダメージが15%増加
 		遠距離クリティカル率が5%上昇
 		'''
 	ShroomiteMask:
 		'''
-		銃ダメージが15%増加
+		銃のダメージが15%増加
 		遠距離クリティカル率が5%上昇
 		'''
 	ShroomiteHelmet:
 		'''
-		特定の遠距離ダメージが15%増加
-		ランチャーやダーツ銃など、矢と弾丸を使わないものが該当
+		弓/機械弓と銃を除く遠距離武器のダメージが15%増加
 		遠距離クリティカル率が5%上昇
 		'''
 	ShroomiteBreastplate:
 		'''
-		遠距離ダメージとクリティカル率が13%上昇
+		遠距離ダメージが13%増加し、遠距離クリティカル率が13%上昇
 		20%の確率で弾薬を消費しない
 		'''
 	ShroomiteLeggings:
@@ -8718,31 +8727,35 @@ ItemTooltip: {
 	FeralClaws:
 		'''
 		近接攻撃速度が12%上昇
-		近接武器のオート攻撃を有効にする
+		近接武器と鞭でオート攻撃が可能になる
 		'''
 	AnkletoftheWind: 移動速度が10%上昇
 	StaffofRegrowth:
 		'''
 		土に草を生やす
-		植物を多めに収集できる
+		ハーブ類を収穫した際、ハーブと種を多く入手できる
 		'''
 	WhoopieCushion: 「イライラさせちゃうかも」
-	HeavyWorkBench: 高度なクラフトに使う
+	HeavyWorkBench: 特殊なブロックや家具などを作成できる
 	AmmoBox: 20%の確率で弾薬を消費しない
 	Flamelash: ファイアボールを自由に操作できる
-	VenomStaff: 複数の敵を貫通する猛毒の牙を放つ
+	VenomStaff: 敵を複数貫通する猛毒の牙を発射する
 	SpectreMask:
 		'''
-		最大マナが60増加、マナ消費量が13%減少
-		魔法ダメージ・クリティカル率が10%上昇
+		最大マナが60増加し、マナ消費量が13%減少
+		魔法ダメージが10%増加し、魔法クリティカル率が10%上昇
 		'''
-	BoneWelder: 何かいいものが作れそうだ
-	FleshCloningVaat: 何かいいものが作れそうだ
-	GlassKiln: 何かいいものが作れそうだ
-	LihzahrdFurnace: 何かいいものが作れそうだ
-	LivingLoom: 何かいいものが作れそうだ
-	SkyMill: 何かいいものが作れそうだ
-	IceMachine: 何かいいものが作れそうだ
+	BoneWelder: 骨から家具を作成できる
+	FleshCloningVaat: 肉のブロックから家具を作成できる
+	GlassKiln: ガラスから家具を作成できる
+	LihzahrdFurnace: リザードのレンガから家具を作成できる
+	LivingLoom:
+		'''
+		織機で作成できるアイテムに加え、
+		木からリビングウッドの家具を作成できる
+		'''
+	SkyMill: 太陽のブロックから家具を作成できる
+	IceMachine: 通常の氷ブロックから家具を作成できる
 	BeetleHelmet:
 		'''
 		近接ダメージが6%増加
@@ -8763,43 +8776,48 @@ ItemTooltip: {
 		移動速度と近接攻撃速度が6%上昇
 		敵に狙われやすくなる
 		'''
-	SteampunkBoiler: 何かいいものが作れそうだ
-	HoneyDispenser: 何かいいものが作れそうだ
-	BrickLayer: ブロックなどを置く速度が上昇
-	ExtendoGrip: ブロックを置ける範囲と道具の届く範囲が3増加
-	PaintSprayer: 設置した物に自動で塗装やコーティングをする
-	PortableCementMixer: 壁を置く速度が上昇
-	CelestialMagnet: マナスターを拾う距離が広がる
-	ClayPot: 植物を栽培可能
+	SteampunkBoiler: 歯車から家具を作成できる
+	HoneyDispenser: 蜂蜜のブロックから家具を作成できる
+	BrickLayer: ブロックの設置速度が上昇
+	ExtendoGrip: ブロックの設置範囲と道具が届く範囲が3広がる
+	PaintSprayer:
+		'''
+		物を設置した際、ペンキやコーティングを所持しているなら、
+		それを消費して自動で塗ってくれる
+		インベントリでオンオフを切り替えられる
+		'''
+	PortableCementMixer: 壁の設置速度が上昇
+	CelestialMagnet: マナスターの取得範囲が広がる
+	ClayPot: ハーブを栽培できる
 	CelestialEmblem:
 		'''
-		マナスターを拾う距離が広がる
+		マナスターの取得範囲が広がる
 		魔法ダメージが15%増加
 		'''
 	CelestialCuffs:
 		'''
-		マナスターを拾う距離が広がる
-		ダメージを受けるとマナが回復する
+		マナスターの取得範囲が広がる
+		ダメージを受けると被ダメージに応じてマナが回復する
 		最大マナが20増加
 		'''
 	PulseBow: チャージされた矢を放つ
-	NaturesGift: 消費マナが6%減少
-	RestorationPotion: 再使用間隔が短縮されたポーション
+	NaturesGift: マナ消費量が6%減少
+	RestorationPotion: 他のライフ回復アイテムより再使用間隔が短い
 	Gatligator:
 		'''
 		50%の確率で弾薬を消費しない
 		非常に精度が低い
 		'''
 	WaterGun: 水流を発射する
-	MagicHat: 魔法ダメージとクリティカル率が6%上昇
+	MagicHat: 魔法ダメージが6%増加し、魔法クリティカル率が6%上昇
 	Gi:
 		'''
-		ダメージとクリティカル率が5%上昇
+		ダメージが5%増加し、クリティカル率が5%上昇
 		近接攻撃速度と移動速度が10%上昇
 		'''
 	GypsyRobe:
 		'''
-		魔法ダメージとクリティカル率が6%上昇
+		魔法ダメージが6%増加し、魔法クリティカル率が6%上昇
 		マナ消費量が10%減少
 		'''
 	JungleHat:
@@ -8845,96 +8863,100 @@ ItemTooltip: {
 		'''
 	RecallPotion: スポーンポイントに戻る
 	TeleportationPotion: ワールド内のどこかにテレポートする
-	LovePotion: 当てられた者は恋に落ちる
-	StinkPotion: 当てられた者はひどい匂いになる
-	FishingPotion: フィッシング・パワーが15向上する
-	SonarPotion: 食いついた魚を見抜く
-	CratePotion: 箱を釣り上げやすくなる
-	WarmthPotion: 冷気による被ダメージ減少
+	LovePotion: 当たった者は恋に落ちる
+	StinkPotion: 当たった者はひどい匂いになる
+	FishingPotion: フィッシング・パワーが15上昇する
+	SonarPotion: 釣り針に食いついたものがわかる
+	CratePotion: 箱を釣り上げる確率が上昇
+	WarmthPotion: 冷気による被ダメージを軽減
 	BeeHeadgear:
 		'''
 		召喚ダメージが4%増加
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		'''
 	BeeBreastplate:
 		'''
 		召喚ダメージが4%増加
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		'''
 	BeeGreaves: 召喚ダメージが5%増加
 	HornetStaff: 共に戦うホーネットを召喚する
 	ImpStaff: 共に戦うインプを召喚する
-	AnglerHat: フィッシング・パワーが5向上する
-	AnglerVest: フィッシング・パワーが5向上する
-	AnglerPants: フィッシング・パワーが5向上する
+	AnglerHat: フィッシング・パワーが5上昇する
+	AnglerVest: フィッシング・パワーが5上昇する
+	AnglerPants: フィッシング・パワーが5上昇する
 	Sunglasses: 「カッコよくなれる！」
 	SpiderMask:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが5%増加
 		'''
 	SpiderBreastplate:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが5%増加
 		'''
 	SpiderGreaves:
 		'''
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		召喚ダメージが6%増加
 		'''
-	HighTestFishingLine: 釣り糸を切られなくなる
-	AnglerEarring: フィッシング・パワーが10向上する
-	TackleBox: エサの消費確率減少
+	HighTestFishingLine: 釣り糸が切られなくなる
+	AnglerEarring: フィッシング・パワーが10上昇する
+	TackleBox: エサを消費しにくくなる
 	WizardHat: 魔法ダメージが5%増加
 	ZephyrFish: そよ風魚を召喚する
 	FrogLeg:
 		'''
-		ジャンプ速度が増加し、自動ジャンプが可能となる
-		落下耐性を増加
+		ジャンプ速度が上昇し、オートジャンプができる
+		落下耐性が増加
 		'''
-	FinWings: 空を飛ぶことができ、落下速度が低下
+	FinWings: 飛行と低速落下ができ、落下ダメージを無効化
 	OpticStaff: 共に戦うツインズを召喚する
 	RedHat: 変なにおいがする…
 	Goldfish: 「いいおやつになるかも」
 	Sandgun: 「これは良いアイデア！」
 	GuideVoodooDoll: 「おいおい、冗談だろう…」
-	DivingHelmet: 水中にとても長く居られる
+	DivingHelmet: 息がとても長く続く
 	DemonScythe: デーモンサイスを召喚する
-	Blowpipe: 弾薬用の種を拾える
-	Glowstick: 水中でも使える
+	Blowpipe: 所持中、弾薬用の種を拾える
+	Glowstick: 液体内でも使える
 	Seed: 吹き筒用の弾薬
 	Aglet: 移動速度が5%上昇
-	ObsidianSkinPotion: 溶岩耐性が付く
+	ObsidianSkinPotion: 炎のブロックと溶岩のダメージ、燃えている！を無効化
 	RegenerationPotion: ライフ自然回復を増進
-	LifeCrystal: 永久に最大ライフを20増加
+	LifeCrystal: 永久に最大ライフが20増加
 	SwiftnessPotion: 移動速度が25%上昇
-	GillsPotion: 空気の代わりに水で呼吸する
-	IronskinPotion: 防御力 +8
+	GillsPotion: 水と蜂蜜内で呼吸できるようになる
+	IronskinPotion: 防御力が8増加
 	ManaRegenerationPotion: マナ自然回復を増進
 	MagicPowerPotion: 魔法ダメージが20%増加
-	FeatherfallPotion: 落下速度が低下
+	FeatherfallPotion: 落下速度が低下し、落下ダメージを無効化
 	SpelunkerPotion: 宝と鉱石が光って見える
 	InvisibilityPotion: 透明になり、敵の出現率が低下
 	ShinePotion: 体が光る
-	NightOwlPotion: 暗視能力の向上
+	NightOwlPotion: 視界が良くなる
 	BattlePotion: 敵の出現率が上昇
-	ThornsPotion: ダメージの一部を反射する
-	WaterWalkingPotion: 水上を歩ける
-	ArcheryPotion: 弓のダメージが10%増加し矢の速度が20%増加
+	ThornsPotion: 接触ダメージを反射する
+	WaterWalkingPotion: 液体の上を歩行可能になる
+	ArcheryPotion: 弓のダメージが10%増加し、矢の速度が20%増加
 	HunterPotion: 敵が光って見える
 	GravitationPotion: 重力をコントロールできる
 	IllegalGunParts: 「多くの国で違法」
-	GoldenKey: 鍵付きの金の宝箱か鍵付き箱を開ける
-	ShadowKey: すべての影の宝箱と黒曜石の鍵付き箱を開ける
-	Furnace: 鉱石を溶かすのに使う
-	Loom: 布をクラフトする時に使う
+	GoldenKey: 鍵付きの金の宝箱と黄金の鍵付き箱を開ける
+	ShadowKey: 全ての影の宝箱と黒曜石の鍵付き箱を開ける
+	Furnace: 鉱石を製錬することができる
+	Loom: 
+		'''
+		布を作成でき、一部衣装や装備、
+		アイテムを作成できる
+		'''
 	IronAnvil: インゴットからアイテムを作成できる
-	Keg: エールを醸造する時に使う
-	WorkBench: 基本的なクラフトに使う
+	Keg: エールを醸造できる
+	WorkBench: 基本的なアイテムを作成できる
 	GoblinBattleStandard: ゴブリン軍団を召喚する
-	Sawmill: 高度な木の加工に使う
-	Pwnhammer: デーモンアルターを破壊できる
+	Sawmill: 各種木材やブロックから家具を作成できる
+	Pwnhammer: デーモン/クリムゾンアルターを破壊できる
 	CobaltHat:
 		'''
 		最大マナが40増加
@@ -8976,29 +8998,25 @@ ItemTooltip: {
 	Compass: 横位置を表示する
 	DivingGear:
 		'''
-		泳げるようになる
-		水中にとても長く居られる
+		液体内で無限にジャンプできる
+		息がとても長く続く
 		'''
-	GPS:
-		'''
-		現在位置を表示する
-		時刻が分かる
-		'''
+	GPS: 現在位置と時刻を表示する
 	ObsidianHorseshoe:
 		'''
-		落下ダメージを無効化
-		燃えるブロックのダメージを無効化
+		落下ダメージと燃えるブロックのダメージを無効化
+		運が増加
 		'''
 	ObsidianShield:
 		'''
 		ノックバックを無効化
 		燃えるブロックのダメージを無効化
 		'''
-	TinkerersWorkshop: 特殊なアクセサリーをクラフトできる
+	TinkerersWorkshop: アクセサリを合成し、1つにまとめることができる
 	CloudinaBalloon:
 		'''
 		二段ジャンプが可能
-		ジャンプ高度が増加
+		ジャンプ高度が上昇
 		'''
 	AdamantiteHeadgear:
 		'''
@@ -9021,28 +9039,24 @@ ItemTooltip: {
 		クリティカル率が7%上昇
 		移動速度が5%上昇
 		'''
-	SpectreBoots:
-		'''
-		空を飛べる
-		超高速走行できる
-		'''
-	Toolbelt: ブロックを置ける範囲が1増加
+	SpectreBoots: 飛行と超高速走行ができる
+	Toolbelt: ブロックの設置範囲が1広がる
 	HolyWater: ブロックを聖域に変える
 	UnholyWater: ブロックを不浄に変える
 	FairyBell: 魔法の妖精を召喚する
 	SuspiciousLookingEye: クトゥルフの目を召喚する
 	ClockworkAssaultRifle:
 		'''
-		３点バースト
+		3点バースト
 		初弾のみ弾薬を消費
 		'''
-	MoonCharm: 夜間はウェアフルフに変身する
+	MoonCharm: 夜間にウェアウルフに変身する
 	SorcererEmblem: 魔法ダメージが15%増加
 	BandofRegeneration: ライフが徐々に自然回復する
 	WarriorEmblem: 近接ダメージが15%増加
 	RangerEmblem: 遠距離ダメージが15%増加
-	DemonWings: 空を飛ぶことができ、落下速度が低下
-	AngelWings: 空を飛ぶことができ、落下速度が低下
+	DemonWings: 飛行と低速落下ができ、落下ダメージを無効化
+	AngelWings: 飛行と低速落下ができ、落下ダメージを無効化
 	RainbowRod: 自由に操作できる虹を召喚する
 	IceRod: 氷のブロックを召喚する
 	NeptunesShell: 水中で半魚人に変身する
@@ -9052,35 +9066,45 @@ ItemTooltip: {
 		弾薬としてジェルを使用する
 		敵の防御力を15無視する
 		'''
-	Wrench: ワイヤー（赤）を設置
-	WireCutter: ワイヤーを除去する
-	CrystalBullet: ヒット時に分裂する
-	HolyArrow: ヒット時に流れ星を落とす
-	MagicDagger: 自動で手元に戻る魔法のダガー
+	Wrench: ワイヤー（赤）を設置できる
+	WireCutter: ワイヤーを除去できる
+	CrystalBullet: 敵か地形に当たると分裂する
+	HolyArrow: 敵か地形に当たると流れ星が降ってくる
+	MagicDagger: 自動で手元に戻ってくる魔法のダガー
 	CrystalStorm: クリスタルの欠片を高速で発射する
 	CursedFlames: 呪炎を発射する
 	SoulofLight: 「光の生物のエッセンス」
 	SoulofNight: 「闇の生物のエッセンス」
 	CursedFlame: 「水中でも消えない炎」
-	CursedTorch: 水中に設置可能
-	AdamantiteForge: アダマンタイトとチタンの精錬に使用する
-	MythrilAnvil: ミスリル、オリハルコン、アダマンタイト、チタンのアイテムを作成可能
+	CursedTorch: 液体内に設置できる
+	AdamantiteForge:
+		'''
+		下位のかまどで製錬・作成できるアイテムに加え、
+		アダマンタイト・チタン・クロロファイトなどハードモードの鉱石を製錬でき、
+		スペクタイトのインゴットを作成できる
+		'''
+	MythrilAnvil:
+		'''
+		通常の金床から作成できるアイテムに加え、
+		ミスリル・オリハルコン・アダマンタイト・チタンなど、
+		ハードモードの鉱石と素材からアイテムを作成できる
+		'''
 	UnicornHorn: 「尖っていて素敵！」
 	DarkShard: 「不浄の砂漠にいる生物が持っている」
 	LightShard: 「聖域の砂漠にいる生物が持っている」
 	RedPressurePlate: 何か乗ると作動する
 	CloudinaBottle: 二段ジャンプが可能
 	SpellTome: 魔法をかけることができる
-	StarCloak: ダメージを受けると流れ星が降る
+	StarCloak: ダメージを受けると流れ星が降ってくる
 	Megashark:
 		'''
 		50%の確率で弾薬を消費しない
 		「ミニシャークの兄」
 		'''
-	Shotgun: 散弾を発射する
-	PhilosophersStone: 回復ポーションの再使用間隔を25%短縮させる
+	Shotgun: 散弾を撃つ
+	PhilosophersStone: ライフ回復アイテムの再使用間隔が25%短縮される
 	HermesBoots: 超高速走行できる
-	GreenPressurePlate: 何か乗ると作動する
+	GreenPressurePlate: 何かが乗ると作動する
 	GrayPressurePlate: プレイヤーが乗ると作動する
 	BrownPressurePlate: プレイヤーが乗ると作動する
 	MechanicalEye: ツインズを召喚する
@@ -9121,11 +9145,16 @@ ItemTooltip: {
 	LightDisc: 「ごきげんよう、プログラム！」
 	DemoniteBar: 「闇のエネルギーを放っている」
 	SoulofFlight: 「強大な飛行生物のエッセンス」
-	MusicBox: BGMを記録可能
+	MusicBox:
+			'''
+			装備して少し待つと現在流れている音楽を記録し、
+			その音楽のオルゴールに変化する
+			音楽の音量が0だと記録しない
+			'''
 	Drax: 「ピックソーと混同すんなよ」
-	Explosives: 起動すると爆発する
-	InletPump: 出力用ポンプに水を送る
-	OutletPump: 入力用ポンプから水を受ける
+	Explosives: メカニズムで起動すると爆発する
+	InletPump: 出力用ポンプに液体を送る
+	OutletPump: 入力用ポンプから液体を受ける
 	Timer1Second: 1秒ごとに起動する
 	Timer3Second: 3秒ごとに起動する
 	Timer5Second: 5秒ごとに起動する
@@ -9203,121 +9232,120 @@ ItemTooltip: {
 	DarkBlueSolution:
 		'''
 		環境変更銃の弾
-		光るキノコを発生させる
+		泥に光るキノコ草を生やす
 		'''
 	RedSolution:
 		'''
 		環境変更銃の弾
 		土地を真紅にする
 		'''
-	HarpyWings: 空を飛ぶことができ、落下速度が低下
-	BoneWings: 空を飛ぶことができ、落下速度が低下
-	Hammush: デーモンアルターを破壊できる
+	HarpyWings: 飛行と低速落下ができ、落下ダメージを無効化
+	BoneWings: 飛行と低速落下ができ、落下ダメージを無効化
+	Hammush: デーモン/クリムゾンアルターを破壊できる
 	NettleBurst: 敵の防御力を10無視する
 	CrimsonHelmet: ダメージが3%増加
 	CrimsonScalemail: ダメージが3%増加
 	CrimsonGreaves: ダメージが3%増加
-	DeathbringerPickaxe: ヘルストーンを採掘可能
+	DeathbringerPickaxe: ヘルストーンを採掘できる
 	Torch: 周りを照らす
-	FlameWings: 空を飛ぶことができ、落下速度が低下
-	FrozenWings: 空を飛ぶことができ、落下速度が低下
-	GhostWings: 空を飛ぶことができ、落下速度が低下
-	LivingWoodWand: リビングウッドを設置
+	FlameWings: 飛行と低速落下ができ、落下ダメージを無効化
+	FrozenWings: 飛行と低速落下ができ、落下ダメージを無効化
+	GhostWings: 飛行と低速落下ができ、落下ダメージを無効化
+	LivingWoodWand: リビングウッドを設置できる
 	GrapplingHook: 「こっちに来い！」
-	Actuator: 固形ブロックのオンオフ切り替え
+	Actuator: 固形ブロックのオン/オフを切り替える
 	Chain: 上り下りが可能
-	BlueWrench: ワイヤー（青）を設置
-	GreenWrench: ワイヤー（緑）を設置
+	BlueWrench: ワイヤー（青）を設置できる
+	GreenWrench: ワイヤー（緑）を設置できる
 	BluePressurePlate: プレイヤーが乗ると作動する
 	YellowPressurePlate: プレイヤー以外が乗ると作動
-	DiscountCard: 商品が20％割引になる
+	DiscountCard: アイテムとリフォージが20%割引される
 	LuckyCoin:
 		'''
-		攻撃ヒット時、一定確率でお金を追加で落とす
+		攻撃が当たると、一定確率でコインがドロップする
 		「コイン見っけ！今日はラッキーな日だ！」
 		'''
 	UnicornonaStick: 「楽しもう！」
-	SandstorminaBottle: 改良された二段ジャンプが可能
-	CharmofMyths: ライフ自然回復を増進し、回復ポーションの再使用間隔を25％短縮させる
-	MoonShell: 夜はウェアウルフに、水中では半魚人に変身する
+	SandstorminaBottle: 高性能な二段ジャンプが可能
+	CharmofMyths: ライフ自然回復を増進し、ライフ回復アイテムの再使用間隔が25%短縮される
+	MoonShell: 夜間はウェアウルフに、水中では半魚人に変身する
 	StarVeil:
 		'''
 		被ダメージ後の無敵時間を延長
-		ダメージを受けると流れ星を降らせる
+		ダメージを受けると流れ星が降ってくる
 		'''
-	WaterWalkingBoots: 水と蜂蜜の上を歩行可能
-	MiningHelmet: ライト付き
-	AdhesiveBandage: 出血耐性
-	ArmorPolish: 防具破損耐性
-	Bezoar: 毒耐性
-	Blindfold: 暗闇耐性
-	FastClock: 鈍化耐性
-	Megaphone: 沈黙耐性
-	Nazar: 呪い耐性
-	Vitamins: 衰弱耐性
-	TrifoldMap: 混乱耐性
+	WaterWalkingBoots: 水・蜂蜜・シマーの上を歩行可能
+	MiningHelmet: ライトが付いている
+	AdhesiveBandage: 流血を無効化
+	ArmorPolish: 防具破損を無効化
+	Bezoar: 毒を無効化
+	Blindfold: 暗闇を無効化
+	FastClock: 鈍化を無効化
+	Megaphone: 沈黙を無効化
+	Nazar: 呪いを無効化
+	Vitamins: 衰弱を無効化
+	TrifoldMap: 混乱を無効化
 	LightningBoots:
 		'''
-		飛行を可能にし、超高速走行
-		移動速度が8％上昇
+		飛行と超高速走行ができる
+		移動速度が8%上昇
 		'''
 	SunStone:
 		'''
-		昼間に全ステータスが少し増加
-		（ダメージ、近接攻撃速度、近接クリティカル率、
-		ライフ自然回復、防御、採掘速度、ミニオンのノックバック）
+		昼間、全ステータスが少し強化される
+		（ダメージ・近接攻撃速度・近接クリティカル率、
+		ライフ自然回復・防御・採掘速度・ミニオンの攻撃のノックバック）
 		'''
 	MoonStone:
 		'''
-		夜間に全ステータスが少し増加
-		（ダメージ、近接攻撃速度、近接クリティカル率、
-		ライフ自然回復、防御、採掘速度、ミニオンのノックバック）
+		夜間、全ステータスが少し強化される
+		（ダメージ・近接攻撃速度・近接クリティカル率、
+		ライフ自然回復・防御・採掘速度・ミニオンの攻撃のノックバック）
 		'''
-	ArmorBracing: 衰弱と防具破損耐性
-	MedicatedBandage: 毒と出血耐性
-	ThePlan: 鈍化と混乱耐性
-	CountercurseMantra: 沈黙と呪い耐性
+	ArmorBracing: 衰弱と防具破損を無効化
+	MedicatedBandage: 毒と流血を無効化
+	ThePlan: 鈍化と混乱を無効化
+	CountercurseMantra: 沈黙と呪いを無効化
 	CoinGun:
 		'''
 		コインを弾薬として使用
-		高価なコインほどダメージが増加
+		高価なコインほどダメージが高くなる
 		'''
 	LavaCharm: 溶岩のダメージを7秒間無効化
 	ObsidianWaterWalkingBoots:
 		'''
-		水と蜂蜜の上を歩行可能
+		水・蜂蜜・シマーの上を歩行可能
 		燃えるブロックのダメージを無効化
 		'''
 	LavaWaders:
 		'''
-		水と蜂蜜と溶岩の上を歩行可能
+		水・蜂蜜・溶岩・シマーの上を歩行可能
 		燃えるブロックのダメージを無効化
-		溶岩のダメージを7秒間無効化
-		溶岩のダメージを減少
+		溶岩を7秒間無効化し、溶岩のダメージを軽減
 		'''
-	BoneWand: 骨を設置
-	LeafWand: 葉っぱを設置
-	FlyingCarpet: 少しの間浮遊出来る
+	BoneWand: 骨を設置できる
+	LeafWand: 葉っぱを設置できる
+	FlyingCarpet: 少しの間浮遊できる
 	AvengerEmblem: ダメージが12%増加
 	LandMine: 踏むと爆発する
 	PaladinsShield:
 		'''
-		ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+		ライフが25%以上の際、チームメンバーの被ダメージを25%肩代わりする
 		ノックバックを無効化
 		'''
-	Umbrella: 落下速度低下
+	Umbrella: 装備中、落下速度が低下し、落下ダメージを無効化
 	ChlorophyteOre: 「光に反応する」
-	SteampunkWings: 空を飛ぶことができ、落下速度が低下
+	SteampunkWings: 飛行と低速落下ができ、落下ダメージを無効化
 	IceSkates:
 		'''
-		氷上で滑らなくなる
-		落下時に氷が壊れない
+		氷系ブロックで滑らなくなる
+		薄氷の上に落ちても割れない
 		'''
-	SnowballLauncher: 雪球を素早く撃ち出す
+	SnowballLauncher: 雪玉を素早く発射する
 	ClimbingClaws:
 		'''
-		壁を滑り降りることが可能
-		スパイクシューズと組み合わせることで能力増加
+		壁に張り付き、滑り降りとジャンプができる
+		スパイクシューズと同時に装備すると自然に滑り落ちなくなる
 		'''
 	AncientShadowHelmet: クリティカル率が5%上昇
 	AncientShadowScalemail: クリティカル率が5%上昇
@@ -9372,46 +9400,60 @@ ItemTooltip: {
 	SandstorminaBalloon:
 		'''
 		二段ジャンプが可能
-		ジャンプ高度が増加
+		ジャンプ高度が上昇
 		'''
 	MasterNinjaGear:
 		'''
-		壁登りとダッシュが可能
+		壁に張り付き、滑り降りとジャンプができ、ダッシュできる
 		一定確率で攻撃を回避
 		'''
-	RopeCoil: 上り下り可能なロープを投擲する
-	Blowgun: 弾薬用の種を拾える
+	RopeCoil: 上り下り可能なロープを投げる
+	Blowgun: 所持中、弾薬用の種を拾える
 	BlizzardinaBottle: 二段ジャンプが可能
 	EnchantedSword: ソードビームを放つ
 	PickaxeAxe: 「ハンマーやドリルと混同しないように」
 	EatersBone: ベビーイーターオブソウルを召喚する
-	BlendOMatic: クラフトに使う
-	MeatGrinder: クラフトに使う
-	Extractinator: 取り出し機に沈泥、水雪、化石を入れるとより便利なものになる
-	Solidifier: クラフトに使う
-	ActuationAccessory: 設置した物に自動でアクチュエータを付ける
+	BlendOMatic: アスファルトのブロックを作成できる
+	MeatGrinder: 汚染された/肉ブロックを作成できる
+	Extractinator:
+		'''
+		沈泥・水雪・化石など、特定のアイテムをこれに投入すると、
+		より便利なアイテムか、別のアイテムに変換する
+		'''
+	Solidifier:
+		'''
+		ジェルと砂のブロックを固めることができ、
+		スライムブロックから家具を作成できる
+		'''
+	ActuationAccessory:
+		'''
+		物を設置した際、アクチュエータを所持しているなら、
+		それを消費して自動で付けてくれる
+		インベントリでオンオフを切り替えられる
+		'''
 	ActuationRod: アクチュエーターを作動させる
-	AlchemyTable: ポーション作成時に33%の確率で素材を消費しない
+	AlchemyTable: ポーションを作成時に33%の確率で素材を消費しない
 	AncientBattleArmorHat: 魔法ダメージと召喚ダメージが15%増加
 	AncientBattleArmorShirt:
 		'''
 		最大マナが40増加
 		召喚ダメージが10%増加
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		'''
 	AncientBattleArmorPants:
 		'''
 		最大マナが40増加
 		魔法ダメージが10%上昇
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		'''
 	AncientHorn: 騎乗（バジリスク）を召喚する
-	AnglerTackleBag: 釣り糸を切られなくなり、エサを消費しにくくなり、フィッシング・パワーが10向上する
+	AnglerTackleBag: 釣り糸が切られなくなり、エサを消費しにくくなり、フィッシング・パワーが10上昇する
 	ArchitectGizmoPack:
 		'''
 		ブロックと壁の設置速度が上昇
-		ブロックの設置範囲と道具の届く範囲が3増加
-		設置した物に自動で塗装やコーティングをする
+		ブロックの設置範囲と道具の届く範囲が3広がる
+		物を設置した際、ペンキやコーティングを所持しているなら、
+		それを消費して自動で塗ってくれる
 		'''
 	AviatorSunglasses:
 		'''
@@ -9516,21 +9558,25 @@ ItemTooltip: {
 	CosmicCarKey: 騎乗（UFO）を召喚する
 	CrimsonFishingCrate: <right>で開く
 	CrimsonHeart: 発光する心臓を召喚する
-	CrystalSerpent: 爆発性のクリスタルの弾丸を放つ
+	CrystalSerpent: 爆発するクリスタルの弾を発射する
 	CrystalVileShard:
 		'''
 		強力な水晶のトゲを召喚する
 		敵の防御力を10無視する
 		'''
-	CursedCampfire: キャンプファイアの近くではライフ自然回復が増進
+	CursedCampfire: "{$ItemTooltip.Campfire}"
 	DaedalusStormbow: 空から矢を降らせる
 	DayBreak: 「立ちふさがる者は光の槍で引き裂く！」
-	DemonCampfire: キャンプファイアの近くではライフ自然回復が増進
-	DemonHeart: 永久にアクセサリ欄を増加（一回だけ）
+	DemonCampfire: "{$ItemTooltip.Campfire}"
+	DemonHeart:
+		'''
+		エキスパートモード以上で、永久にアクセサリスロットを1つ追加
+		1回だけ使用できる
+		'''
 	Detonator: 「はらわたを…ブチ撒けろ！」
 	DevDye: 「開発者に成りすますのに最適！」
-	DjinnsCurse: 脚と引き換えにゆっくり落ちる事ができる
-	DPSMeter: 秒間ダメージを表示する
+	DjinnsCurse: 脚と引き換えにゆっくり落ちることができる
+	DPSMeter: 秒間与ダメージを表示する
 	DrillContainmentUnit:
 		'''
 		騎乗（ドリルユニット）を召喚する
@@ -9651,24 +9697,20 @@ ItemTooltip: {
 	LokisWings:
 		'''
 		「開発者に成りすますのに最適！」
-		空を飛ぶことができ、落下速度が低下
+		飛行と低速落下ができ、落下ダメージを無効化
 		隠密たること夜陰の如く、激動すること雷鳴の如し。
 		'''
 	LunarBar: 「光り輝く宇宙のエネルギーが込められている」
-	LunarCraftingStation: ルナ・フラグメントとルミナイトからアイテムを作り出せる
+	LunarCraftingStation: ルナの断片とルミナイトからアイテムを作成できる
 	LunarFlareBook: ルナフレアの雨を降らせる
 	LunarHook: 「月が欲しいならこれで引っ張ればいいさ！」
 	LunarOre: 「天の小石」
 	MagicLantern: 近くの宝を探知する魔法のランタンを召喚する
-	MechanicalLens: ワイヤーを見えるようにする
-	MetalDetector: 周囲の最も貴重な鉱石を探知する
+	MechanicalLens: ワイヤーが見えるようになる
+	MetalDetector: 周囲の最も貴重な物を探知する
 	MeteorStaff: 隕石を降らせる
 	Minecart: トロッコに乗ろう
-	MinecartTrack:
-		'''
-		ハンマーでバンパーの形を変えられる
-		ハンマーで加速方向を変えられる
-		'''
+	MinecartTrack: ハンマーでバンパーの形と加速方向を変更できる
 	MolotovCocktail:
 		'''
 		敵を燃やす小規模な爆発を起こす
@@ -9682,30 +9724,39 @@ ItemTooltip: {
 		セントリーを召喚する
 		敵をレーザーで撃つルナポータルを召喚する
 		'''
-	MothronWings: 空を飛ぶことができ、落下速度が低下
-	MulticolorWrench: <right>を押すとモードの切り替えができる
+	MothronWings: 飛行と低速落下ができ、落下ダメージを無効化
+	MulticolorWrench: <right>でモードを切り替える
 	NebulaArcanum: 「喚び出されたアストラルエネルギー体が敵を追う」
 	NebulaBlaze: 「オリオン座からキミの手に」
-	NebulaBreastplate: 魔法ダメージとクリティカル率が9%上昇
+	NebulaBreastplate: 魔法ダメージが9%増加し、魔法クリティカル率が9%上昇
 	NebulaHelmet:
 		'''
-		マナ最大値が60増加、マナ消費量が15%減少
-		魔法ダメージとクリティカル率が7%上昇
+		最大マナが60増加、マナ消費量が15%減少
+		魔法ダメージが7%増加し、魔法クリティカル率が7%上昇
 		'''
 	NebulaLeggings:
 		'''
 		魔法ダメージが10%増加
 		移動速度が10%上昇
 		'''
-	NebulaMonolith: 「ネビュラの塔の力が少し込められている」
+	NebulaMonolith:
+		'''
+		「ネビュラの塔の力が少し込められている」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
 	NightKey: 「数多の魂が充填されている」
-	NightVisionHelmet: 視界が広がる
+	NightVisionHelmet: 視界が良くなる
 	PartyBundleOfBalloonTile: 「みんなの喜びが詰め込まれている」
 	PartyGirlGrenade: ブロックと壁を破壊しない小さな爆発を起こす
-	PartyMonolith: 「風船のシャワーが天から降り注ぐ」
+	PartyMonolith:
+		'''
+		「風船のシャワーが天から降り注ぐ」
+		<right>で調べるか、メカニズムで起動すると機能する
+		'''
 	PartyPresent: 何が入ってるのかな？
-	PDA: すべての情報を表示する
-	PeaceCandle: 周囲の敵から敵意を減らす
+	PDA: 全ての情報を表示する
+	PeaceCandle: 装備中か、近くに設置すると敵の出現率が低下
 	PedguinHat:
 		'''
 		これで君もペドギンだ
@@ -9732,18 +9783,23 @@ ItemTooltip: {
 	PirateStaff: 共に戦う海賊を召喚する
 	PixelBox:
 		'''
-		ワイヤー配線を分断する
+		ワイヤーの配線を分断する
 		同じタイミングで交差する信号が入るとライトが切り替わる
 		'''
-	PlatinumPickaxe: メテオライトの採掘が可能
-	PocketMirror: 石化耐性
+	PlatinumPickaxe: メテオライトを採掘できる
+	PocketMirror: 石化を無効化
 	PressureTrack: 斜め向きに設置することはできない
 	ProjectilePressurePad: 発射物とペットが触れると作動
-	PsychoKnife: ステルスモードに移行できる
+	PsychoKnife:
+		'''
+		装備中、動かずにいるとステルスモードに移行し
+		移動速度が低下するが、敵に狙われにくくなり、
+		ダメージとノックバックが大きく増加し、クリティカル率が大幅に上昇する
+		'''
 	PutridScent:
 		'''
 		敵に狙われにくくなる
-		ダメージとクリティカル率が5%上昇
+		ダメージが5%増加し、クリティカル率が5%上昇
 		'''
 	QueenSpiderStaff:
 		'''
@@ -9815,26 +9871,31 @@ ItemTooltip: {
 	SolarFlareHelmet:
 		'''
 		近接クリティカル率が26%上昇
-		自然回復を少し増進
+		ライフ自然回復を少し増進
 		敵に狙われやすくなる
 		'''
 	SolarFlareLeggings:
 		'''
 		近接攻撃速度と移動速度が15%上昇
-		自然回復を少し増進
+		ライフ自然回復を少し増進
 		敵に狙われやすくなる
 		'''
-	SolarMonolith: 「太陽の塔の力が少し込められている」
-	SolarTablet: 日食を引き起こす
-	SoulDrain: 敵からライフを吸収する
-	SpelunkerGlowstick: 近くのお宝を探知する
+	SolarMonolith:
+		'''
+		「太陽の塔の力が少し込められている」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
+	SolarTablet: 日食を発生させる
+	SoulDrain: 攻撃した敵からライフを吸収する
+	SpelunkerGlowstick: 近くの宝と鉱石を探知する
 	SpiderStaff: 共に戦うクモを召喚する
-	SporeSac: 周囲に攻撃性能のある胞子を呼び出す
+	SporeSac: 敵を攻撃する胞子を周囲に呼び出す
 	StardustBreastplate:
 		'''
-		召喚できるミニオンの数が2体増える
+		ミニオンスロットを2つ追加
 		召喚ダメージが22%増加
-		鞭の攻撃範囲が15%増加
+		鞭の射程が15%伸びる
 		'''
 	StardustCellStaff:
 		'''
@@ -9848,17 +9909,21 @@ ItemTooltip: {
 		'''
 	StardustHelmet:
 		'''
-		召喚できるミニオンの数が1体増える
-		召喚できるセントリーの数が1体増える
+		ミニオンスロットとセントリースロットを1つ追加
 		召喚ダメージが22%増加
 		'''
 	StardustLeggings:
 		'''
-		召喚できるミニオンの数が2体増える
+		ミニオンスロットを2つ追加
 		召喚ダメージが22%増加
-		鞭の攻撃範囲が15%増加
+		鞭の射程が15%伸びる
 		'''
-	StardustMonolith: 「スターダストタワーの力が少し込められている」
+	StardustMonolith:
+		'''
+		「スターダストタワーの力が少し込められている」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
 	StickyDynamite:
 		'''
 		ブロックと壁を破壊できる大きな爆発を起こす
@@ -9883,7 +9948,12 @@ ItemTooltip: {
 	StrangePlant3: 珍しい染料と交換できる
 	StrangePlant4: 珍しい染料と交換できる
 	SummonerEmblem: 召喚ダメージが15%増加
-	Sundial: 1週間に1回だけ、次の夜明けまで時間をすっとばす
+	Sundial:
+		'''
+		<right>で調べると時間を次の日の午前4:30まで早送りする
+		一度使うと1週間が経つまで再度使用できない
+		クールダウンはワールド内の全ての魔法の日時計で共通
+		'''
 	SuperAbsorbantSponge: 無限に水を吸収できる
 	SuspiciousLookingTentacle:
 		'''
@@ -9921,30 +9991,35 @@ ItemTooltip: {
 		'''
 	VortexLeggings:
 		'''
-		遠距離ダメージとクリティカル率が8%上昇
+		遠距離ダメージが8%増加し、遠距離クリティカル率が8%上昇
 		移動速度が10%上昇
 		'''
-	VortexMonolith: 「ボルテックスの塔の力が少し込められている」
+	VortexMonolith:
+		'''
+		「ボルテックスの塔の力が少し込められている」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
 	WandofSparking: 小さな火花を放つ
 	WeaponRack: <right>で武器を飾れる
 	WeatherRadio: 天気を表示する
 	WebRope: 上り下りが可能
-	WebRopeCoil: 上り下り可能なクモ糸のロープを投擲する
+	WebRopeCoil: 上り下り可能なクモ糸のロープを投げる
 	WeightedPressurePlateCyan: プレイヤーが乗った瞬間と降りた瞬間に作動
 	WeightedPressurePlateOrange: プレイヤーが乗った瞬間と降りた瞬間に作動
 	WeightedPressurePlatePink: プレイヤーが乗った瞬間と降りた瞬間に作動
 	WeightedPressurePlatePurple: プレイヤーが乗った瞬間と降りた瞬間に作動
 	WingsNebula:
 		'''
-		空を飛ぶことができ、落下速度が低下
+		飛行と低速落下ができ、落下ダメージを無効化
 		下入力でホバリングする
 		上入力でホバリングをやめる
 		'''
-	WingsSolar: 空を飛ぶことができ、落下速度が低下
-	WingsStardust: 空を飛ぶことができ、落下速度が低下
+	WingsSolar: 飛行と低速落下ができ、落下ダメージを無効化
+	WingsStardust: 飛行と低速落下ができ、落下ダメージを無効化
 	WingsVortex:
 		'''
-		空を飛ぶことができ、落下速度が低下
+		飛行と低速落下ができ、落下ダメージを無効化
 		下入力でホバリングする
 		上入力でホバリングをやめる
 		'''
@@ -11264,28 +11339,48 @@ ItemTooltip: {
 	Grate:
 		'''
 		液体のみを通過させることができる
-		開閉の切り替えが可能
+		開閉を切り替えられる
 		「グーレィト！」
 		'''
-	LuckPotionLesser: 使用者の運を増加させる
-	LuckPotion: 使用者の運を増加させる
-	LuckPotionGreater: 使用者の運を増加させる
-	MagicConch: 耳を澄ますと海の音が聞こえてくる
+	LuckPotionLesser: 一時的に運が増加する
+	LuckPotion: 一時的に運が増加する
+	LuckPotionGreater: 一時的に運が増加する
+	MagicConch:
+		'''
+		耳を澄ますと海の音が聞こえてくる
+		使用すると左右どちらかの海にテレポートする
+		'''
 	TimerOneHalfSecond: 1/2秒ごとに起動する
 	TimerOneFourthSecond: 1/4秒ごとに起動する
 	Terragrim: かまいたちを放つ
-	FloatingTube: 水に浮かぶことができるようになる
+	FloatingTube:
+		'''
+		液体面に浮かぶことができる
+		下入力で液体に潜れる
+		また、液体内で無限にジャンプでき、
+		フィッシング・パワーが5増加
+		'''
 	SharkBait:
 		'''
 		サメの幼体を召喚する
 		「ドゥ、ドゥ、ドゥ、ドゥ、ドゥ、ドゥ」
 		'''
-	Geode: 割ると宝石をドロップするかも！
-	CrackedBlueBrick: 乗ると壊れる
-	CrackedGreenBrick: 乗ると壊れる
-	CrackedPinkBrick: 乗ると壊れる
-	BloodMoonMonolith: 「ブラッドムーンを一部維持する」
-	VoidMonolith: 「虚空の力を少し利用する」
+	Geode: 投げて割ると宝石をドロップするかも！
+	CrackedBlueBrick: 乗ると壊れることがある
+	CrackedGreenBrick: 乗ると壊れることがある
+	CrackedPinkBrick: 乗ると壊れることがある
+	BloodMoonMonolith: 
+		'''
+		「ブラッドムーンを一部維持する」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
+	VoidMonolith:
+		'''
+		「虚空の力を少し利用する」
+		アクセサリスロットに装備するか、<right>で調べるか、
+		メカニズムで起動すると機能する
+		'''
 	ScarabBomb:
 		'''
 		ブロックと壁を破壊する爆発を起こす
@@ -11473,11 +11568,15 @@ ItemTooltip: {
 	UnicornHornHat: 「ニューデイがやってきたぞ！」
 	ChumBucket:
 		'''
-		水に投げ入れるとフィッシング・パワーが向上する（最大3回）
+		水に投げ入れるとフィッシング・パワーが上昇する（最大3回）
 		「プランクトン！」
 		'''
-	GardenGnome: 「幸運をもたらし、悪霊を寄せ付けないという」
-	BloodFishingRod: ブラッドムーンの間、敵を釣り上げやすくなる
+	GardenGnome:
+		'''
+		近くに設置すると運が増加する
+		「幸運をもたらし、悪霊を寄せ付けないという」
+		'''
+	BloodFishingRod: ブラッドムーン中、敵を釣り上げやすくなる
 	IvyGuitar:
 		'''
 		演奏できる
@@ -11815,7 +11914,11 @@ ItemTooltip: {
 		動物や虫を捕まえるのに使う
 		溶岩の中の動物や虫をも捕まえられる！
 		'''
-	FireproofBugNet: 「熱すぎて手を焼かされる時に」
+	FireproofBugNet:
+		'''
+		溶岩の中の動物や虫を捕まえることができる
+		「熱すぎて手を焼かされるときに」
+		'''
 	WetBomb: 水をまき散らす小さな爆発を起こす
 	LavaBomb: 溶岩をまき散らす小さな爆発を起こす
 	HoneyBomb: 蜂蜜をまき散らす小さな爆発を起こす
@@ -12050,46 +12153,14 @@ ItemTooltip: {
 		さらにライセンスを使って、ペット交換プログラムを有効にしましょう！
 		あなたにピッタリのウサギを見つけましょう！
 		'''
-	TeleportationPylonJungle:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonPurity:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonHallow:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonUnderground:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonOcean:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonDesert:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonSnow:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
-	TeleportationPylonMushroom:
-		'''
-		２人以上の住民が近くにいる別のパイロンへテレポート
-		１種につき１つだけ、適したバイオームに設置することができる
-		'''
+	TeleportationPylonJungle: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonPurity: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonHallow: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonUnderground: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonOcean: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonDesert: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonSnow: "{$CommonItemTooltip.TeleportationPylon}"
+	TeleportationPylonMushroom: "{$CommonItemTooltip.TeleportationPylon}"
 	TerraToilet: マジで？こんなのに壊れた英雄の剣使ったわけ？
 	QueenSlimePetItem:
 		'''
@@ -12873,71 +12944,76 @@ ItemTooltip: {
 		'''
 	CombatBookVolumeTwo:
 		'''
-		すべての住民の防御力と強さを増加させる
+		このワールドの全てのタウンNPCの防御力とダメージが増加する
 		「攻防技法を収録、第二弾！」
 		'''
 	AegisCrystal: 永久にライフ自然回復を増進
-	AegisFruit: 永久に防御力を増加
+	AegisFruit: 永久に防御力が増加
 	ArcaneCrystal: 永久にマナ自然回復を増進
-	GalaxyPearl: 永久に運を増加
-	GummyWorm: 永久に釣り技術を増加
-	Ambrosia: 永久に採掘速度と建築速度を増加
-	PeddlersSatchel: 永久に旅商人のアイテム販売数を増加
+	GalaxyPearl: 永久に運が増加
+	GummyWorm: 永久にフイッシング・パワーが上昇
+	Ambrosia: 永久に採掘速度と配置速度が上昇
+	PeddlersSatchel: このワールドの旅商人のアイテム販売数が1つ増える
 	EchoCoating:
 		'''
-		コーティングされた物体は反響視覚で可視化される
-		他のペンキやコーティングと併用可能
+		コーティングした物は反響視覚で可視化される
+		他のペンキやコーティングと併用できる
 		「今や全てが明らかだ」
 		'''
-	GasTrap: 入れている収納が開いた時に有毒ガスを発生する
-	ReflectiveShades: 暗闇と石化耐性
-	EchoMonolith: 反響視覚でエコーブロックを見えるようにする
+	GasTrap: 収納内に入れると開けた際に毒ガスを発生させる
+	ReflectiveShades: 暗闇と石化を無効化
+	EchoMonolith:
+		'''
+		アクセサリスロットに装備するか、<right>で調べるか、メカニズムで起動すると
+		反響視覚で可視化される物が見えるようになる
+		'''
 	ShimmerMonolith:
 		'''
 		「エーテルの力を垣間見ることができる。」
-		エーテルを発現または抑制できる
+		アクセサリスロットに装備するか、<right>で調べるか、メカニズムで起動すると
+		エーテルの発現/抑制を切り替える
 		'''
 	ShimmerArrow: 上方に落下する
 	ShimmerCloak:
 		'''
-		シマーの中での変化を無効化
-		シマー潜り中に下長押しで変化する
+		シマー内に入ってもシマー中を受けない
+		シマー内で下入力でシマー中を受ける
 		'''
 	Shellphone:
 		'''
-		すべての情報を表示する
+		全ての情報を表示する
 		使用すると現在のスポーンポイントに戻る
 		<right>で行き先を切り替える
 		「耳を澄ますと車両保険がナントカって聞こえてくる」
 		'''
 	ShellphoneSpawn:
 		'''
-		すべての情報を表示する
+		全ての情報を表示する
 		使用すると基本スポーンポイントに戻る
 		<right>で行き先を切り替える
 		「耳を澄ますと車両保険がナントカって聞こえてくる」
 		'''
 	ShellphoneOcean:
 		'''
-		すべての情報を表示する
-		使用すると海に行ける
+		全ての情報を表示する
+		使用すると左右どちらかの海にテレポートする
 		<right>で行き先を切り替える
 		「耳を澄ますと車両保険がナントカって聞こえてくる」
 		'''
 	ShellphoneHell:
 		'''
-		すべての情報を表示する
-		使用すると地下世界に行ける
+		全ての情報を表示する
+		使用すると地下世界にテレポートする
 		<right>で行き先を切り替える
 		「耳を澄ますと車両保険がナントカって聞こえてくる」
 		'''
 	ShellphoneDummy:
 		'''
-		すべての情報を表示する
+		全ての情報を表示する
 		<right>で行き先を切り替える
 		「耳を澄ますと車両保険がナントカって聞こえてくる」
 		'''
-	SpiderWallUnsafe: 卵が寄生したクモの壁（クモが出現する）
+	SpiderWallUnsafe: 卵が寄生し、クモが出現するクモの壁
 	BlueBrickWallUnsafe: モンスターが出現するダンジョンの呪われた壁
 	BlueSlabWallUnsafe: モンスターが出現するダンジョンの呪われた壁
 	BlueTiledWallUnsafe: モンスターが出現するダンジョンの呪われた壁
@@ -12955,9 +13031,14 @@ ItemTooltip: {
 	SandstoneWallUnsafe: モンスターが出現する危険な砂の平板の壁
 	HardenedSandWallUnsafe: モンスターが出現する危険な砂の平板の壁
 	LihzahrdWallUnsafe: リザードが出現する古代の壁
-	SpelunkerFlare: 近くのお宝を探知する
-	Moondial: 1週間に1回だけ、次の夕暮れまで時間をすっとばす
-	ShimmerSlimeBanner: 以下のモンスターに対してボーナスを得る：シマースライム
+	SpelunkerFlare: 近くの宝と鉱石を探知する
+	Moondial:
+		'''
+		<right>で調べると時間を次の日の午後7:30まで早送りする
+		一度使うと1週間が経つまで再度使用できない
+		クールダウンはワールド内の全ての魔法の月時計で共通
+		'''
+	ShimmerSlimeBanner: "{$CommonItemTooltip.BannerBonus}シマースライム"
 	DizzyHat:
 		'''
 		「ブルートラクターがやってくる」
