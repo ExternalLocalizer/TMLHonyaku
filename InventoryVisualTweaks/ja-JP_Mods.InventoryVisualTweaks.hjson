@@ -1,0 +1,449 @@
+DisplayName: インベントリ視覚調整
+Description: クライアント側のインベントリスロット表示、アイテム枠、ワールド上アイテムのエフェクト
+
+Configs: {
+	InventoryBackColorConfig: {
+		DisplayName: スロットカラー
+
+		EnableInventoryBackColorsOverride: {
+			Label: スロット背景色を上書き
+			Tooltip: ""
+		}
+
+		InventoryBackColorsIntensity: {
+			Label: スロット背景色の強度
+			Tooltip: 「スロット背景色を上書き」が有効な場合の倍率です
+		}
+
+		EnableEmptySlotTransparency: {
+			Label: 空のスロットを透明化
+			Tooltip: ""
+		}
+
+		SlotBackColors: {
+			Label: スロット背景色
+			Tooltip: ""
+		}
+
+		EnableItemBackColor: {
+			Label: アイテム背景色
+			Tooltip: ""
+		}
+
+		ItemBackColorBased: {
+			Label: アイテム背景色の基準
+			Tooltip: ""
+		}
+
+		DoNotUseItemBackColorIfRarityIsLessThan: {
+			Label: アイテム背景色を適用する最低レア度
+			Tooltip: -1でレア度フィルターを無効化します
+		}
+	}
+
+	SlotBackColorsConfig: {
+		DisplayName: スロット背景色
+
+		InventoryColor: {
+			Label: インベントリの色
+			Tooltip: ""
+		}
+
+		HotbarColor: {
+			Label: ホットバーの色
+			Tooltip: インベントリを閉じている間の下部ホットバーに使用されます
+		}
+
+		HotbarOpenInventoryColor: {
+			Label: インベントリ表示中のホットバーの色
+			Tooltip: インベントリを開いている間の1列目に使用されます（ホットバースロット1～0）
+		}
+
+		HighlightedSlotColor: {
+			Label: ハイライト中のスロットの色
+			Tooltip: ホバー中のハウジングスロットと一時的なクラフト素材のハイライトに使用され、閉じたホットバーの選択枠には使用されません
+		}
+
+		NewItemHighlightColor: {
+			Label: 新規アイテムのハイライト色
+			Tooltip: ""
+		}
+
+		TrashSlotColor: {
+			Label: ゴミ箱スロットの色
+			Tooltip: ""
+		}
+
+		EquipmentColor: {
+			Label: 装備の色
+			Tooltip: ""
+		}
+
+		VanityColor: {
+			Label: 見た目装備の色
+			Tooltip: ""
+		}
+
+		DyeColor: {
+			Label: 染料の色
+			Tooltip: ""
+		}
+
+		MiscEquipmentColor: {
+			Label: その他の装備の色
+			Tooltip: ""
+		}
+
+		MiscVanityColor: {
+			Label: その他の見た目装備の色
+			Tooltip: ""
+		}
+
+		MiscDyeColor: {
+			Label: その他の染料の色
+			Tooltip: ""
+		}
+
+		PiggyBankColor: {
+			Label: 貯金箱の色
+			Tooltip: ""
+		}
+
+		ChestColor: {
+			Label: チェストの色
+			Tooltip: ""
+		}
+
+		NPCInteractionColor: {
+			Label: NPCインタラクションの色
+			Tooltip: ""
+		}
+
+		ShopColor: {
+			Label: ショップの色
+			Tooltip: ""
+		}
+
+		CraftingColor: {
+			Label: クラフトの色
+			Tooltip: ""
+		}
+
+		JourneyInfiniteColor: {
+			Label: ジャーニー無限モードの色
+			Tooltip: ""
+		}
+
+		OtherColor: {
+			Label: その他の色
+			Tooltip: ""
+		}
+	}
+
+	InventoryInteractionConfig: {
+		DisplayName: アイテム操作
+
+		EnableSlotTransferMotion: {
+			Label: スロット移動アニメーション
+			Tooltip: ""
+		}
+
+		EnableMouseItemMotion: {
+			Label: マウス上のアイテム移動アニメーション
+			Tooltip: ""
+		}
+
+		EnableHoverScale: {
+			Label: ホバー時の拡大
+			Tooltip: ""
+		}
+
+		HoverScaleAmount: {
+			Label: ホバー時の拡大率
+			Tooltip: ""
+		}
+
+		PickupFlashIntensity: {
+			Label: アイテム取得フラッシュの強度
+			Tooltip: 0で無効化されます
+		}
+
+		NewItemEffectIntensity: {
+			Label: 新規アイテムエフェクトの強度
+			Tooltip: 0で無効化されます
+		}
+
+		EnableHotbarRarityName: {
+			Label: ホットバーのアイテム名をレア度で着色
+			Tooltip: 選択中のホットバーアイテム名をアイテムのレア度に応じた色で表示します
+		}
+
+		EnableOpenInventoryHotbarHighlight: {
+			Label: インベントリ表示中のホットバーハイライト
+			Tooltip: インベントリを開いている間、選択中のホットバースロットにバニラの白い選択枠を表示します
+		}
+
+		OpenInventoryHotbarHighlightOpacity: {
+			Label: インベントリ表示中のホットバーハイライトの不透明度
+			Tooltip: 0で無効化されます
+		}
+
+		EnableUseCooldownMask: {
+			Label: 使用クールダウンマスク
+			Tooltip: アイテム使用中または再使用待機中、選択中のホットバースロットに上から下へ消えていくマスクを表示します
+		}
+
+		UseCooldownMaskOpacity: {
+			Label: 使用クールダウンマスクの不透明度
+			Tooltip: 0で無効化されます
+		}
+
+		UseCooldownMaskOnAllHotbarSlots: {
+			Label: すべてのホットバースロットに使用クールダウンマスクを適用
+			Tooltip: アイテム使用中、選択中のスロットだけでなくホットバー全体にクールダウン表示を適用します
+		}
+
+		EnableTooltipFade: {
+			Label: ツールチップのフェード
+			Tooltip: ツールチップの背景と文字を徐々に表示・非表示にします。背景のフェードには、バニラの不透明なツールチップ背景が必要です
+		}
+
+		TooltipFadeInDuration: {
+			Label: ツールチップのフェードイン時間
+			Tooltip: フェードインにかけるフレーム数で、大きいほど遅くなります
+		}
+
+		TooltipFadeOutDuration: {
+			Label: ツールチップのフェードアウト時間
+			Tooltip: フェードアウトにかけるフレーム数で、大きいほど遅くなります
+		}
+
+		EnableHeldItemTooltipOffsetEase: {
+			Label: カーソル上アイテムのツールチップ位置補間
+			Tooltip: アイテムをカーソルで持っている際、バニラの34pxの即時移動ではなくツールチップボックスを滑らかに移動します
+		}
+
+		HeldItemTooltipOffsetDuration: {
+			Label: カーソル上アイテムのツールチップ位置補間時間
+			Tooltip: カーソル上アイテムのツールチップ位置の補間にかけるフレーム数で、大きいほど遅くなります
+		}
+	}
+
+	InventoryBorderConfig: {
+		DisplayName: アイテム枠
+
+		Headers: {
+			ItemIconOutlineSettings: アイテムアイコンの輪郭
+		}
+
+		EnableBorder: {
+			Label: 枠を有効化
+			Tooltip: ""
+		}
+
+		BorderColorBased: {
+			Label: 枠色の基準
+			Tooltip: ""
+		}
+
+		BorderOpacity: {
+			Label: 枠の不透明度
+			Tooltip: ""
+		}
+
+		BorderSaturation: {
+			Label: 枠の彩度
+			Tooltip: ""
+		}
+
+		DoNotUseBorderIfRarityIsLessThan: {
+			Label: 枠を適用する最低レア度
+			Tooltip: -1でレア度フィルターを無効化します
+		}
+
+		AdaptiveBorderOrRectangleBorder: {
+			Label: 枠の形状を自動調整
+			Tooltip: ""
+		}
+
+		BorderWidth: {
+			Label: 枠の幅
+			Tooltip: ""
+		}
+
+		EnableOutline: {
+			Label: 内側の輪郭
+			Tooltip: ""
+		}
+
+		OutlineBrightness: {
+			Label: 内側の輪郭の明るさ
+			Tooltip: ""
+		}
+
+		ItemIconOutlineIntensity: {
+			Label: アイテムアイコンの輪郭の強度
+			Tooltip: インベントリ内のアイテムスプライトの周囲に色付きのずらし描画を追加します。0で無効化されます
+		}
+
+		DoNotUseItemIconOutlineIfRarityIsLessThan: {
+			Label: アイテムアイコンの輪郭を適用する最低レア度
+			Tooltip: -1でレア度フィルターを無効化します
+		}
+
+		EnableCornerFrame: {
+			Label: コーナーフレーム
+			Tooltip: ""
+		}
+
+		CornerFrameWidth: {
+			Label: コーナーフレームの幅
+			Tooltip: ""
+		}
+
+		UnderlineHeight: {
+			Label: 下線の高さ
+			Tooltip: 0で無効化されます
+		}
+
+		AbovelineHeight: {
+			Label: 上線の高さ
+			Tooltip: 0で無効化されます
+		}
+	}
+
+	DrawItemInWorldConfig: {
+		DisplayName: ワールド上アイテムの表示
+
+		DoNotUseWorldEffectsIfRarityIsLessThan: {
+			Label: ワールドエフェクトを適用する最低レア度
+			Tooltip: -1でレア度フィルターを無効化します
+		}
+
+		Headers: {
+			OutlineSettings: 輪郭
+			LusterSettings: 光沢
+			TrailSettings: 軌跡
+			ItemGlowSettings: アイテムの発光
+			StackCountSettings: スタック数
+		}
+
+		EnableOutline: {
+			Label: 輪郭を有効化
+			Tooltip: ワールド上にドロップされたアイテムのみで、インベントリ内アイテムの枠には使用されません
+		}
+
+		OutlineColorBased: {
+			Label: 輪郭色の基準
+			Tooltip: ""
+		}
+
+		OutLineHighlight: {
+			Label: 輪郭ハイライト
+			Tooltip: 昼間でも輪郭が見えるように暗い下地を追加します
+		}
+
+		OutlineIntensity: {
+			Label: 輪郭の強度
+			Tooltip: ""
+		}
+
+		EnableLuster: {
+			Label: 光沢を有効化
+			Tooltip: ""
+		}
+
+		LusterColorBased: {
+			Label: 光沢色の基準
+			Tooltip: ""
+		}
+
+		LusterIntensity: {
+			Label: 光沢の強度
+			Tooltip: ""
+		}
+
+		EnableTrail: {
+			Label: 軌跡を有効化
+			Tooltip: ""
+		}
+
+		TrailColorBased: {
+			Label: 軌跡の色の基準
+			Tooltip: ""
+		}
+
+		TrailIntensity: {
+			Label: 軌跡の強度
+			Tooltip: ""
+		}
+
+		TrailScaleWithRarity: {
+			Label: レア度に応じて軌跡を拡大
+			Tooltip: ""
+		}
+
+		EnableItemGlow: {
+			Label: アイテムの発光を有効化
+			Tooltip: ""
+		}
+
+		ItemGlowIntensity: {
+			Label: アイテムの発光の強度
+			Tooltip: ""
+		}
+
+		ItemGlowStyle: {
+			Label: 発光スタイル
+			Tooltip: ""
+		}
+
+		ItemGlowScaleWithRarity: {
+			Label: レア度に応じて発光を拡大
+			Tooltip: ""
+		}
+
+		EnableExtraParticles: {
+			Label: 追加パーティクルを有効化
+			Tooltip: ""
+		}
+
+		EnableStackCount: {
+			Label: スタック数を表示
+			Tooltip: ""
+		}
+	}
+
+	UseColor: {
+		Tooltip: ""
+
+		TypeColor: {
+			Label: タイプの色
+			Tooltip: ""
+		}
+
+		RarityColor: {
+			Label: レア度の色
+			Tooltip: ""
+		}
+
+		White: {
+			Label: 白
+			Tooltip: ""
+		}
+	}
+
+	ItemGlowStyle: {
+		Tooltip: ""
+
+		Normal: {
+			Label: 通常
+			Tooltip: ""
+		}
+
+		Fancy: {
+			Label: ファンシー
+			Tooltip: ""
+		}
+	}
+}

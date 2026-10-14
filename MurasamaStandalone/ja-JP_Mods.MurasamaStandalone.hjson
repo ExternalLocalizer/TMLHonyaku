@@ -1,0 +1,414 @@
+Common.Notbound: "[未割り当てキー]"
+
+Configs: {
+	MuraSkinConfig: {
+		DisplayName: Murasama：カラーカスタマイズ
+		Headers.SkinSettings: カラー＆エフェクト設定
+
+		SkinTheme: {
+			Label: カラー
+			Tooltip: ""
+		}
+
+		SkinPreview: {
+			Label: カラープレビュー
+			Tooltip: 現在選択中のカラーによる刀身の発光、斬撃エフェクト、カラースウォッチをリアルタイムで確認できます
+		}
+
+		SkinSubtitle: {
+			Default: ジェットストリーム・サム：赤色の高周波ブレード
+			Vergil: バージル：蒼い閻魔刀＆バージルボイス
+			Audrey: コーラルピンク＆ピーチゴールド
+			AstralViolet: ダークバイオレット＆エレクトリックパープル
+			Angel: アイボリー＆ワインレッド
+			Amber: アンバーオレンジ＆ルビーレッド
+			Aqua: アクアマリン＆クリスタルシアン
+			Pinky: ネオンピンク＆桜ピンク
+			Rainbow: RGBレインボー
+			ExoPrism: フォトンプリズム＆ゴールド
+			LavenderGold: パステルラベンダー＆ゴールド
+			CyberNeon: ネオンマゼンタ＆エレクトリックシアン
+			Symphony: サファイアブルー＆スカイブルー
+			MagmaCoral: コーラルレッド＆ホワイト
+			SolarCorona: サンイエロー＆オレンジ
+			VoidObsidian: ブラック＆ダークグレー
+			Platinum: プラチナホワイト＆シルバー
+			EmeraldJade: エメラルドグリーン＆ミントグリーン
+			FrozenSnow: アイスブルー＆ホワイト
+		}
+	}
+
+	MuraConfig: {
+		DisplayName: ムラサマ設定
+
+		Headers: {
+			UI: UIカスタマイズ
+			HUDWidget: インベントリ画面表示
+			Graphic: グラフィック
+			Progression: 進捗状況
+		}
+
+		TooltipStyle: {
+			Label: ツールチップ表示形式
+			Tooltip:
+				'''
+				Modern: Split Mod風の横に独立表示されるスキルカード形式
+				Classic: 元の1列表示による詳細説明形式
+				'''
+		}
+
+		MuraUIStyleType: {
+			Label: チャージUI表示形式
+			Tooltip:
+				'''
+				刀の構えとチャージゲージの表示デザインを設定：
+				1: Delicacy Overhead（プレイヤー頭上）
+				2: Delicacy Compact（HUD端）
+				3: Classical Overhead（レトロなドット絵UIをプレイヤー頭上に表示）
+				4: Classical Compact（レトロなドット絵UIをHUD隅に表示）
+				5: 非表示（UIを完全に隠す）
+				'''
+		}
+
+		MuraPosStyleType: {
+			Label: チャージUI HUD位置
+			Tooltip:
+				'''
+				コンパクト表示時のチャージUI位置を調整：
+				1: 右下（デフォルト）
+				2: 左下
+				3: 上部中央
+				'''
+		}
+
+		ShowMaxLevelMuraBadge: {
+			Label: 最大レベル時にジェットストリーム・サムのバッジを表示
+			Tooltip: 武器が最大試練レベルに到達した時、構えゲージ上部にジェットストリーム・サムの紋章バッジを表示する
+		}
+
+		ShowUnlockNotifications: {
+			Label: スキル解放通知
+			Tooltip: Murasamaのレベル上昇や新しいスキル解放時に、ゲーム内チャットと戦闘テキストで通知を表示する
+		}
+
+		MurasamaSpaceFragmentationBool: {
+			Label: 空間断裂エフェクト
+			Tooltip: 強力な斬撃や次元斬発動時に、画面破砕型の空間断裂シェーダー効果を有効化する
+		}
+
+		LensEasing: {
+			Label: 動的カメラレンズ補間
+			Tooltip: トリガーダッシュや次元斬発動時に、滑らかなカメラ追従と映画的な焦点移動を有効化する
+		}
+
+		LockWidgetPosition: {
+			Label: 試練ウィジェットの位置を固定
+			Tooltip: ムラサマ試練クエストのウィジェットボタンの位置を固定する。無効にするとマウスでウィジェットを移動できる
+		}
+
+		WidgetPositionX: {
+			Label: ウィジェット位置 X
+			Tooltip: ウィジェットボタンのX座標を指定する。ロック解除時に適用される
+		}
+
+		WidgetPositionY: {
+			Label: ウィジェット位置 Y
+			Tooltip: ウィジェットボタンのY座標を指定する。ロック解除時に適用される
+		}
+
+		ProgressionMode: {
+			Label: 進行モード
+			Tooltip: 試練に到達するまで今後登場するボスの名前とアイコンを非表示にする
+		}
+
+		ReducedVFX: {
+			Label: 軽量VFXモード
+			Tooltip: 武器アニメーションは維持したまま、パーティクルの光や衝撃粉塵、視覚エフェクトの密度を適度に減らし、フレームレートを安定させる
+		}
+	}
+
+	MurasamaSkin: {
+		Tooltip: ""
+
+		Default: {
+			Label: Default
+			Tooltip: ""
+		}
+
+		Vergil: {
+			Label: Vergil
+			Tooltip: ""
+		}
+
+		Audrey: {
+			Label: Audrey
+			Tooltip: ""
+		}
+
+		AstralViolet: {
+			Label: Astral Violet
+			Tooltip: ""
+		}
+
+		Angel: {
+			Label: Angel
+			Tooltip: ""
+		}
+
+		Amber: {
+			Label: Amber
+			Tooltip: ""
+		}
+
+		Aqua: {
+			Label: Aqua
+			Tooltip: ""
+		}
+
+		Pinky: {
+			Label: Pinky
+			Tooltip: ""
+		}
+
+		Rainbow: {
+			Label: Rainbow
+			Tooltip: ""
+		}
+
+		ExoPrism: {
+			Label: Exo Prism
+			Tooltip: ""
+		}
+
+		LavenderGold: {
+			Label: Lavender Gold
+			Tooltip: ""
+		}
+
+		CyberNeon: {
+			Label: Cyber Neon
+			Tooltip: ""
+		}
+
+		Symphony: {
+			Label: Symphony
+			Tooltip: ""
+		}
+
+		MagmaCoral: {
+			Label: Magma Coral
+			Tooltip: ""
+		}
+
+		SolarCorona: {
+			Label: Solar Corona
+			Tooltip: ""
+		}
+
+		VoidObsidian: {
+			Label: Void Obsidian
+			Tooltip: ""
+		}
+
+		Platinum: {
+			Label: Platinum
+			Tooltip: ""
+		}
+
+		EmeraldJade: {
+			Label: Emerald Jade
+			Tooltip: ""
+		}
+
+		FrozenSnow: {
+			Label: Frozen Snow
+			Tooltip: ""
+		}
+	}
+
+	MuraTooltipStyle: {
+		Tooltip: ""
+
+		Modern: {
+			Label: Modern
+			Tooltip: ""
+		}
+
+		Classic: {
+			Label: Classic
+			Tooltip: ""
+		}
+	}
+
+	MuraServerConfig: {
+		UnlockAllSkills: {
+			Tooltip: ""
+			Label: 全スキル解放
+		}
+
+		StrictBossOrder: {
+			Tooltip: • 有効にすると、ムラサマの進行度を進めるために、すべてのプレイヤーがボスをリストに記載された順序通りに撃破しなければならなくなります。
+			Label: ボスの順序通りの撃破を必須にする
+		}
+
+		Headers.Gameplay: ゲームプレイ設定
+		DisplayName: サーバー設定
+	}
+}
+
+Keybinds: {
+	Murasama_TriggerKey.DisplayName: ムラサマ：トリガーキー
+	Murasama_DownKey.DisplayName: ムラサマ：下降斬り
+	Murasama_KuuenzanKey.DisplayName: ムラサマ：空円斬
+	Murasama_QuestUIKey.DisplayName: ムラサマ：試練一覧
+}
+
+UI: {
+	TrialQuestHUD: {
+		HeaderTitle: 試練の進行状況
+		ButtonTooltip:
+			'''
+			[c/e12834:ムラサマ試練クエストHUD]
+			クリックで試練の進行状況HUDを切り替え
+			'''
+		ButtonTooltipDrag: (左クリック長押しでドラッグ)
+		TrialProgress: 試練の進行状況：
+		AllTrialsCompleted: ✓ すべての試練を完了
+		NextTrial: 次の試練：
+		ActiveStatus: " [進行中]"
+		TargetStatus: ▶ 目標
+		LockedStatus: 未解放
+		Progression: 進行状況
+		AllTrialsComplete: 100%（すべての試練を完了）
+		MilestoneKuuenzan: "[ 空円斬 ]"
+		MilestoneRisingDragon: "[ バットウジュツ ]"
+		MilestoneGroundSmash: "[ 下降斬り ]"
+		MilestoneDimensionalExecution: "[ 次元斬 ]"
+		ProgressionModeBtnOn: 進行モード：ON（今後のボスを非表示）
+		ProgressionModeBtnOff: 進行モード：OFF（すべてのボスを表示）
+		ProgressionModeToggleHint: クリックで切り替え
+		PromptTitle: 試練の表示モード
+		PromptSubtitle: 試練の進行状況の表示方法を選択
+		PromptProgModeTitle: 進行モード（ネタバレ防止）
+		PromptProgModeDesc:
+			'''
+			今後登場するボスの名前とアイコンを非表示にする。完了した試練と現在の目標のみ表示される。
+			ネタバレを避けて進めたい場合におすすめ。
+			'''
+		PromptFullViewTitle: 全表示（すべて表示）
+		PromptFullViewDesc:
+			'''
+			最初から最後まで、すべてのボスと試練を表示する。
+			ボス戦や進行ルートを事前に計画したい場合におすすめ。
+			'''
+		PromptNote: HUD上部の切り替えボタンからいつでも変更可能
+		PromptSelectBtn: 選択
+		NextUnlockKuuenzan: 空円斬（レベル1で解放）
+		NextUnlockRisingDragon: バットウジュツ（レベル{0}で解放）
+		NextUnlockGroundSmash: 下降斬り（レベル{0}で解放）
+		NextUnlockDimensionalExecution: 次元斬（レベル{0}で解放）
+		NextUnlockAll: すべてのスキルを解放済み！
+	}
+
+	ModernTooltip: {
+		Desc1: 右クリックを長押しするか、左クリックの攻撃が命中すると、刀のエネルギーがチャージされる
+		Desc2: 近くに強大な敵がいる場合、刀のエネルギーが自然にゆっくりとチャージされる
+		Desc3: 試練を乗り越えると強化される
+		Quote: "[c/ff4500:「これがチェーンソーだったらもっとよかったんだが」]"
+		RisingDragonTitle: "[ バットウジュツ ]"
+		RisingDragonDesc:
+			'''
+			エネルギーが最大蓄積状態で[c/ffaf50:'{0}']を押すと刀身を放つ
+			射出中[c/ffaf50:{1}]で[c/cd2432:刀の元へ飛び]
+			その後に右クリックを押すと[c/cd2432:斬撃]を繰り出す
+			この[c/cd2432:斬撃]を敵に当てると、必殺技ゲージが蓄積する
+			'''
+		KuuenzanTitle: "[ 空円斬 ]"
+		KuuenzanDesc:
+			'''
+			空中で[c/ffaf50:'{0}']を押すとエネルギーを1/2消費し、
+			[c/ffaf50:投射物]を[c/ffaf50:弾き返しながら]空円斬を放つ
+			弾き返しに成功すると追加でエネルギーを消費する
+			'''
+		KuuenzanUpgrade1: + 空円斬の突進と斬撃の速度が上昇
+		KuuenzanUpgrade2:
+			'''
+			+ 空円斬の突進と斬撃の速度が上昇し、
+			下降斬りへ繋ぐと衝撃が25%増加する
+			'''
+		GroundSmashTitle: "[ 下降斬り ]"
+		GroundSmashDesc:
+			'''
+			[c/ffaf50:'{0}']を押すと必殺技ゲージを1消費し、
+			下方向へ斬り下ろす
+			'''
+		DimensionalExecutionTitle: "[ 次元斬 ]"
+		DimensionalExecutionDesc:
+			'''
+			必殺技ゲージが10に達した状態で、
+			[c/cd2432:バットウジュツ]の[c/cd2432:斬撃]を当てると次元斬が発動する
+			'''
+		StatusLocked: "[ 未解放 ]"
+		StatusAirborne: 空中時のみ
+		KeyPrefixKey: キー
+		KeyPrefixButton: ボタン
+		AttackBtnClick: 左クリック
+	}
+}
+
+Items: {
+	MurasamaItem: {
+		DisplayName: ムラサマ
+		Tooltip:
+			'''
+			右クリックを長押しするか、左クリックの攻撃が命中すると、刀のエネルギーがチャージされる
+			近くに強大な敵がいる場合、刀のエネルギーが自然にゆっくりとチャージされる
+			空中で[KEY3]を押すと刀のチャージを1/2消費し、投射物を弾く空円斬を発動する [LangKuuenzan]
+			刀のエネルギーが満タンの時に[KEY1]を押すと刃が射出され、
+			刃の射出中に左クリックをすると刀の元へ飛び、斬撃を繰り出すことができる [Lang1]
+			この斬撃が敵に命中すると必殺技ゲージがチャージされる
+			[KEY2]で必殺技ゲージを1消費し、下降斬りを発動する [Lang2]
+			必殺技ゲージが最大値の10の時に、バットウジュツの斬撃が敵に命中すると必殺技が発動する [Lang3]
+			[c/ff4500:「これがチェーンソーだったらもっとよかったんだが」]
+			[Lang4]
+			'''
+	}
+}
+
+Legend: {
+	World_Text0: 以前強化されたワールド：<{0}> | レベル：<{1}>
+	Text0: 解放済み
+	Text1: ロック中（試練レベル{0}が必要）
+	TextKingSlime: ロック中（試練レベル1が必要）
+	Text_Lang_0: 試練：
+	KuuenzanUpgrade1: + 空円斬の斬撃速度が上昇する
+	KuuenzanUpgrade2: + 空円斬の突進と斬撃速度が上昇し、下降斬りへ繋げると衝撃が25%強化される
+	NotifyUnlockKuuenzan: 空円斬が解放される
+	NotifyUnlockSkill1: バットウジュツが解放され、空円斬が強化される
+	NotifyUnlockSkill2: 下降斬りが解放され、空円斬が強化される
+	NotifyUnlockSkill3: 次元斬が解放される
+	CombatTextUnlocked: Unlocked {0}!
+}
+
+Projectiles: {
+	MurasamaHeld.DisplayName: Murasama
+	MuraSlashDefault.DisplayName: Murasama Slash
+	MuraTriggerDash.DisplayName: Murasama Dash
+	MuraBreakerSlash.DisplayName: Rising Dragon Slash
+	MuraGroundSmash.DisplayName: Ground Smash
+	MuraKuuenzan.DisplayName: Kuuenzan
+	MuraDimensionSlash.DisplayName: Dimension Slash
+	MuraExecutionCut.DisplayName: Execution Cut
+	MuraExecutionCutOnSpan.DisplayName: Judgement Cut
+	MuraSlashArc.DisplayName: Slash Arc
+	MuraSlashLine.DisplayName: Slash Line
+	EndSkillEffectStart.DisplayName: Judgement Cut End
+	PowerSoundEgg.DisplayName: Vergil Power
+}
+
+RemakeItems: {
+	MurasamaOverride: {
+		DisplayName: ムラサマ
+		Tooltip: ""
+	}
+}

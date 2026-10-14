@@ -13,14 +13,9 @@ DeathReason: {
 	Arbitration: は混沌に陥る運命でした。
 }
 
-Boss: {
-	WarriorOfLight: ウォーリア・オブ・ライトが降臨した！
-}
-
+Boss.WarriorOfLight: ウォーリア・オブ・ライトが降臨した！
 WOTGCheck: "Stars Above: マルチプレイヤーで「Wrath of the Gods」を使用しています。特に「The Stars Above」と組み合わせると、問題が発生し、クラッシュすることが知られているので注意してください。"
-
 SLUMPDetected: "Stars Above: Subworld Libraryの非公式MODパッチが検出されました。マルチプレイでサブワールドを使用するには、MOD設定でマルチプレイ互換性を無効にしてください。このMODですべての問題が解決されるわけではありません。"
-
 SLUMPNotDetected: "Stars Above: マルチプレイヤーサブワールドを修正できるSubworld Library Unoffical Mod Patchのインストールを推奨します。未導入の場合、MOD設定でマルチプレイ互換性を有効にしてください。"
 
 CombatText: {
@@ -501,7 +496,7 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:]ムーンロードを撃破する"
 			Description: 
 				'''
-				一度に200以上のダメージを受けた場合、そのダメージ量分だけ回復し、5秒間無敵状態となる
+				一度に200以上のダメージを受ける場合、そのダメージ分だけ回復し、5秒間無敵状態となる
 				さらに、周囲のボス以外の敵を5秒間スタンさせる
 				クールダウン2分
 				'''
@@ -512,10 +507,10 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:]Terrariaの全ボスを撃破する"
 			Description: 
 				'''
-				低レアリティのアスペクトウェポンは、その元のレアリティに応じて最大1200%の基礎ダメージボーナスを得る
+				レアリティの低いアスペクトウェポンは、そのレアリティに応じて最大1200%の基礎ダメージボーナスを得る
 				ゲームの進行度で強化される武器やアップグレードが可能な武器には効果が適用されない
 				'''
-			Name: "[c/D82BFF:Tier 3][c/FFC258:'超越する無限']"
+			Name: "[c/D82BFF:Tier 3][c/FFC258:'無限の彼方']"
 		}
 
 		LivingDead: {
@@ -547,7 +542,7 @@ StellarArray: {
 				8秒ごとに「Ebb(マナ残量0)」と「Flow(マナ無限)」が切り替わる
 				Flow中はダメージが40%、攻撃速度が20%上昇する
 				'''
-			Name: "[c/D82BFF:Tier 3][c/FFC258:'境界の彼方']"
+			Name: "[c/D82BFF:Tier 3][c/FFC258:'境界の狭間']"
 		}
 
 		UnbridledRadiance: {
@@ -571,7 +566,7 @@ StellarArray: {
 			Description: 
 				'''
 				クリティカル発生時、ダメージの10%分の追加ダメージを与える(この追加ダメージは敵を倒せない)
-				バニラのデバフを受けている敵を攻撃すると、15%の追加固定ダメージを与える
+				基本的なデバフを受けている敵を攻撃すると、15%の追加ダメージを与える
 				'''
 			Name: "[c/9C4FFF:Tier 2][c/FFD792:'弱点特効']"
 		}
@@ -580,8 +575,9 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:]???を撃破する"
 			Description: 
 				'''
-				ダメージを受けると発動、発動時に受けたダメージを含むすべてのダメージを2秒間半減し、その後4秒間ダメージが20%増加する
-				クールダウン30秒(待機中に被弾するとクールダウンがリセットされる)
+				ダメージを受けると発動
+				発動時に受けたダメージを含むすべてのダメージを2秒間半減し、その後4秒間ダメージが20%増加する
+				クールダウン30秒(クールダウン中に被弾すると残り時間が30秒に戻る)
 				'''
 			Name: "[c/9C4FFF:Tier 2][c/FFD792:'空間戦術']"
 		}
@@ -620,8 +616,8 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:]任意のメカボスを撃破する"
 			Description: 
 				'''
-				ライフが100未満の時、ダメージが50%増加し、全ての攻撃が敵を炎上させる
-				ダメージを受けた時も3秒間発動する(ライフ100未満の時と重複する)
+				ライフが100未満の時、与えるダメージが50%増加し、全ての攻撃が敵を炎上させる
+				この効果はダメージを受けた時も3秒間発動する(ライフ100未満の時と重複する)
 				'''
 			Name: "[c/9C4FFF:Tier 2][c/FFD792:'地獄の終焉']"
 		}
@@ -636,10 +632,11 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:]デューク・フィッシュロンを撃破する"
 			Description: 
 				'''
-				受けるダメージが15%減少する
-				ライフが300以上の時、移動速度が15%、攻撃速度が10%増加する
+				ダメージを受ける時、マナを追加のライフとして扱う。
+				この効果が発動するたびに最大マナが40%減少し、最終的には最大マナが100%減少する
+				10秒間ダメージを受けずにいると、最大マナが徐々に回復する
 				'''
-			Name: "[c/9C4FFF:Tier 2][c/FFD792:'ラベンダーレフレイン']"
+			Name: "[c/9C4FFF:Tier 1][c/FFD792:'ラベンダーリフレイン']"
 		}
 
 		InevitableEnd: {
@@ -673,7 +670,7 @@ StellarArray: {
 		KineticConversion: {
 			Description: 
 				'''
-				移動速度の一部が攻撃ダメージに加算される
+				移動速度の一部がダメージに加算される
 				ダッシュや高速移動時に短時間無敵になる（クールタイム40秒）
 				'''
 			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'運動エネルギー転換']"
@@ -682,8 +679,8 @@ StellarArray: {
 		FabledFashion: {
 			Description: 
 				'''
-				装備している見た目防具が通常防具として扱われる（セットボーナスは適用されない）
-				ダメージが50%、防御力が50%、最大ライフが150減少する
+				装備している見た目用防具が通常の防具として扱われる（セットボーナスは適用されない）
+				ダメージ50%、防御力50%、最大ライフ150減少
 				'''
 			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'伝説の装い']"
 		}
@@ -704,14 +701,14 @@ StellarArray: {
 				戦闘中、ダメージ軽減率とクリティカル率が1%ずつ徐々に増加する(最大15%)
 				最大時はクリティカルダメージが15%増加する
 				'''
-			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'継続の意志']"
+			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'方針の堅持']"
 		}
 
 		#機能してないっぽい？ダミー人形じゃわからなかった
 		MysticIncision: {
 			Description: 
 				'''
-				防御貫通がクリティカルダメージ増加に変換され、120防御貫通で最大60%増加する
+				防御貫通でクリティカルダメージが増加されるようになり、最大120防御貫通で60%増加する
 				敵が近くにいる時、防御貫通が30%増加する
 				'''
 			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'神秘の刃']"	
@@ -765,7 +762,7 @@ StellarArray: {
 			Unlock: "[c/9D9D9D:ロック中:] インクの魔女、ペンテシレイアを撃破する"
 			Description: 
 				'''
-				クリティカル率1%につき最終ダメージが0.5%増加する（上限はクリティカル率60%の30%まで）
+				クリティカル率1%につき最終ダメージが0.5%増加する（変換上限は最終ダメージ30%まで）
 				特定のスキルで発生する確定クリティカル攻撃以外ではクリティカルが発生しなくなる
 				クリティカル率に応じて最大15%まで攻撃速度増加
 				'''
@@ -797,7 +794,7 @@ StellarArray: {
 			Description: 
 				'''
 				防御力が6増加し、100以上のダメージを30減少させる
-				ライフが100以下の場合、他の防御計算に関係なく全てのダメージが20%減少する
+				ライフが100未満の場合、他の防御計算に関係なく全てのダメージを20%軽減する
 				'''
 			Name: "[c/C2BDFF:Tier 1] [c/FFEED1:'鉄の意志']"
 		}
@@ -9482,7 +9479,7 @@ Dialogue: {
 				'''
 				爆弾投げるのって楽しいよね。
 				...でも、今回はそのせいで大変なことになったみたい。
-				覚悟して！
+				気を付けて！
 				'''
 
 			//StarAboveのサブワールド関係だが読込先が不明、使われてない？
@@ -9527,7 +9524,7 @@ Dialogue: {
 				'''
 
 			//spiritModのボスダイアログ
-			194: 砂漠のスカラベが、鎧をまとってまっすぐ君に向かってくるよ！
+			194: 砂漠のスカラベが、鎧をまとってまっすぐ向かってくるよ！
 			195: 
 				'''	
 				あのクラゲたち、まとまってひとつになったみたい...
@@ -9642,7 +9639,8 @@ Dialogue: {
 			232: 
 				'''
 				掘削機にしては...ちょっと大きすぎじゃない！？
-				複数のシールドコアが制御しているみたい！壊せば動きを止めれるかも？
+				複数のシールドコアが制御しているみたい！
+				壊せば動きを止めれるかも？
 				'''
 			233: 
 				'''
@@ -9651,13 +9649,13 @@ Dialogue: {
 				'''			
 			234: 	
 				'''
-				巨大なゼノマイトの怪物...危険すぎる！
+				巨大なゼノマイトの怪物...危険すぎるよ！
 				絶対に油断しないで！
 				'''
 			235: なんで急に雨が...？待って、警戒して！前とは様子が違うよ！
 			236: 
 				'''
-				ギャラクシーストーンが空の向こうの何かと共鳴してる...
+				銀河の力が込められた石が空の向こうの何かと共鳴してる...
 				これ、本当にやってよかったのかな？
 				'''
 			//Calamity Fablesボス
@@ -10317,8 +10315,8 @@ Dialogue: {
 				'''
 			234: 
 				'''
-				研究所の奥に封じられていたのは...これ、だったのね。
-				感染の兆しと同じ反応がある。すぐに片づけましょう。
+				研究所の奥に封じられていたのは...これだったのね。
+				感染源と同じ反応がある。すぐに片づけましょう。
 				'''
 			235: 周囲の気象が乱れ始めてる...何かが起きてるわ。焦らないで、慎重にね。
 			236: 衛星軌道上から何かが...落ちてきたみたい。あの石のせいね。で、次はどうする？
@@ -14492,29 +14490,18 @@ NPCs: {
 		}
 	}
 
-	ParacausalEntity: {
-		DisplayName: パラカル・ウォッチャー
-	}
-
-	ParacausalEnigma: {
-		DisplayName: パラカル・エニグマ
-	}
-
-	StarfarerBossWallsNPC: {
-		DisplayName: Starfarer Boss Walls N P C
-	}
-
-	SemaphoreEnemy: {
-		DisplayName: セマフォ
-	}
-
-	LogicBombEnemy: {
-		DisplayName: ロジックボム
-	}
-
-	LogicVirusEnemy: {
-		DisplayName: ロジックウイルス
-	}
+	ParacausalEntity.DisplayName: パラコーザル・ウォッチャー
+	ParacausalEnigma.DisplayName: パラコーザル・エニグマ
+	StarfarerBossWallsNPC.DisplayName: Starfarer Boss Walls N P C
+	SemaphoreEnemy.DisplayName: セマフォ
+	LogicBombEnemy.DisplayName: ロジックボム
+	LogicVirusEnemy.DisplayName: ロジックウイルス
+	VeilbugAlpha.DisplayName: ベールバグ・アルファ
+	VeilbugBeta.DisplayName: ベールバグ・ベータ
+	VeilbugOmega.DisplayName: ベールバグ・オメガ
+	Veilcaper.DisplayName: ベールケイパー
+	Veilsniper.DisplayName: ベールスナイパー
+	Veilspear.DisplayName: ベールスピア
 }
 
 BossAttacks: {
@@ -18483,7 +18470,7 @@ Items: {
 			弓を最大までチャージしてから放つと、矢が特殊な[c/25ACF0:断流の矢]に変化する
 			[c/25ACF0:断流の矢]は命中した敵に[c/4A91FF:断流]を12秒間付与する
 			右クリックでマナを200消費し、8秒間[c/2361C1:荒波]状態となる
-			[c/2361C1:荒波]中は近接攻撃に変化し、ダメージが2倍となり、マナが回復しなくなる
+			[c/2361C1:荒波]中は近接攻撃に変化し、ダメージが6倍となり、マナが回復しなくなる
 			さらに、このバフの効果中は移動速度が上昇する
 			この状態で[c/4A91FF:断流]にかかった敵を攻撃すると、追加ダメージを与える
 			「隙を見せるのはほんの一瞬だ！」
@@ -20678,10 +20665,11 @@ Items: {
 			'''
 			[c/D294FF:ウェポンメモリー]
 			[c/999999:武器に刻印することで、以下の効果を適用する]
-			ウェポンメモリーキーを押すと、6秒間無敵になるが、無敵中はこの武器を使用できなくなる(クールダウン2分)
+			ウェポンメモリーキーを押すと、6秒間無敵になる(クールダウン2分)
 			'''
-		TooltipAttached: ウェポンメモリーキーを押すと、6秒間無敵になるが、無敵中はこの武器を使用できなくなる(クールダウン2分)
+		TooltipAttached: ウェポンメモリーキーを押すと、6秒間無敵になる(クールダウン2分)
 	}
+	//原文には『無敵中はこの武器を使用できなくなる』と記載があるが、そのような効果を確認できず。
 
 	ChartTheCosmosMusicBox: {
 		Tooltip:
@@ -21708,6 +21696,27 @@ Items: {
 		DisplayName:Origin Infinity
 		Tooltip: 未実装
 	}
+
+	AsphodeneForkliftKey: {
+		DisplayName: アスフォデンのフォークリフトの鍵
+		Tooltip: 機械式フォークリフトを召喚する
+	}
+
+	EridaniForkliftKey: {
+		DisplayName: エリダニのフォークリフトの鍵
+		Tooltip: 機械式フォークリフトを召喚する
+	}
+
+	ForkliftKey: {
+		DisplayName: フォークリフトの鍵
+		Tooltip: ""
+	}
+
+	NeonVeilReplicaMonolithItem: {
+		DisplayName: ネオンベールのモノリス(レプリカ)
+		Tooltip: ""
+	}
+
 }
 
 
@@ -28944,6 +28953,17 @@ Buffs: {
 		DisplayName: ノヴァ・チェインアタック(エリダニ)
 		Description: Mods.StarsAbove.Buffs.NovaChainAttackEridani.Description
 	}
+
+	AsphodeneForkliftMountBuff: {
+		DisplayName: アスフォデンのフォークリフト
+		Description: 「これが最高速度なの？ねえ、こいつにジェットエンジンを搭載するのはどう？」
+	}
+
+	EridaniForkliftMountBuff: {
+		DisplayName: エリダニのフォークリフト
+		Description: 「遅いわね...あなたのインベントリが余分な物だらけで重いのが原因なんじゃないかしら？」
+	}
+
 }
 
 Bestiary: {
@@ -29213,7 +29233,7 @@ Configs: {
 	MiscHeader: "[c/7A76FF:その他の設定]"
 
 	StarsAboveConfigClient: {
-		DisplayName: Stars Above Config (Client-side)
+		DisplayName: Stars Above 設定 (クライアント)
 
 		DisableStellarNovaCutIns: {
 			Label: ステラ・ノヴァのカットインを非表示
@@ -29222,12 +29242,12 @@ Configs: {
 
 		DisableStarfarerVoices: {
 			Label: スターフェアラーのボイスを無効
-			Tooltip: スターフェアラーのボイスラインを無効にする。
+			Tooltip: スターフェアラーのボイス再生を無効にする。
 		}
 
 		DisableStellarNovaDialogue: {
-			Label: ステラ・ノヴァのダイアログボックスを無効に
-			Tooltip: ステラ・ノヴァのカットイン中のダイアログボックスを無効にする。
+			Label: ステラ・ノヴァのダイアログボックスを無効
+			Tooltip: ステラ・ノヴァのカットイン中の発言を無効にする。
 		}
 
 		DisableStarfarerCommentary: {
@@ -29236,18 +29256,23 @@ Configs: {
 		}
 
 		DisableStarfarerCommentaryBuffs: {
-			Label: 状態にまつわるスターフェアラーの発言を無効
-			Tooltip: バフ/デバフを受けた際にスターフェアラーの発言を受け取らなくなる。
+			Label: バフ/デバフにまつわるスターフェアラーの発言を無効
+			Tooltip: バフ/デバフを受けた際のスターフェアラーの発言を無効化する。
 		}
 
 		DisableStarfarerCommentaryCombat: {
 			Label: 戦闘にまつわるスターフェアラーの発言を無効
-			Tooltip: 敵を倒した時などにスターフェアラーの発言を受け取らなくなる。
+			Tooltip: 敵を倒した時などにスターフェアラーの発言を無効化する。
 		}
 
 		StarfarerPromptCooldown: {
 			Label: スターフェアラーの発言の間隔
-			Tooltip: スターフェアラーの発言間の時間を分単位で指定する。この時間内にプロンプトのトリガーが発生した場合、それは無視される。ユニークプロンプト(ボスなど)には適用されない。
+			Tooltip:
+			'''
+			スターフェアラーの発言間の時間を分単位で指定する。
+			この時間内に特別な発言フラグが発生した場合、それは無視される。
+			ユニークなコメント(対ボスなど)には適用されない。
+			'''
 		}
 
 		CommentaryTimer: {
@@ -29257,22 +29282,30 @@ Configs: {
 
 		DialogueScrollValue: {
 			Label: スターフェアラーのテキスト速度
-			Tooltip: 台詞テキストが増加する時間をフレーム単位で指定する。2以下では、ダイアログの効果音を無効にすることを推奨する。
+			Tooltip: 
+			'''
+			台詞テキストが流れる速度をフレーム単位で指定する。
+			2以下にする場合、効果音を無効にすることを推奨する。
+			'''
 		}
 
 		DialogueAudio: {
 			Label: スターフェアラーのテキスト効果音
-			Tooltip: スターフェアラー・ダイアログ中に文字が表示されたときに再生される効果音。オプション5は効果音を無効にする。
+			Tooltip: 
+			'''
+			スターフェアラーの発言でテキストが表示されたときに再生される効果音。
+			5にすると効果音を無効にする。
+			'''
 		}
 
 		InstantText: {
 			Label: インスタントテキスト
-			Tooltip: スターフェアラーのテキスト速度オプションは無視され、すべてのテキストが即座に表示される。
+			Tooltip: スターフェアラーのテキスト速度オプションを無視し、すべてのテキストが即座に表示されるようになる。
 		}
 
 		EnableMusicOverride: {
-			Label: 武器の音楽を最優先で再生
-			Tooltip: 有効にすると、ゲームの音楽を変化させる武器が、他のほとんどすべてに優先するようになる。
+			Label: 武器固有のBGMを最優先で再生
+			Tooltip: 有効にするとゲームのBGMを変化させる武器を使用した時、最優先で再生するようになる。
 		}
 
 		DisableWeaponCutIns: {
@@ -29281,17 +29314,17 @@ Configs: {
 		}
 
 		PromptLoc: {
-			Label: スターフェアラーの発言のポジション
+			Label: スターフェアラーの発言の位置座標
 			Tooltip: ""
 		}
 
 		NovaGaugeLoc: {
-			Label: ノヴァゲージのポジション
+			Label: ノヴァゲージの位置座標
 			Tooltip: ""
 		}
 
 		MovingDialogueAmount: {
-			Label: スターフェアラーメニューの動き
+			Label: スターフェアラーメニューの移動量
 			Tooltip: 移動中のスターフェアラーメニューの移動量を調整する。
 		}
 
@@ -29302,16 +29335,20 @@ Configs: {
 
 		DisableScreenShake: {
 			Label: 画面揺れを無効
-			Tooltip: すべてのソースからのスクリーンシェイク効果を無効にする。
+			Tooltip: 画面揺れ効果を無効にする。
 		}
 
 		StarfarerVoiceCooldown: {
-			Label: スターフェアラーの声のクールダウン
-			Tooltip: ボイス付きダイアログの再生間隔を秒単位で指定する。値が低いとダイアログが重なってしまい、ボイスダイアログが再生される機会が減少する。
+			Label: スターフェアラーのボイスのクールダウン
+			Tooltip:
+			''' 
+			ボイス付きコメントの再生の間隔を秒単位で指定する。
+			値が低いと重なってしまい、ボイスが再生される機会が減少する。
+			'''
 		}
 
 		StarfarerDialogueVoiceVolume: {
-			Label: スターフェアラー・ダイアログボイス・ボリューム
+			Label: ボイス付きコメントの音量
 			Tooltip: ""
 		}
 
@@ -29321,7 +29358,7 @@ Configs: {
 		}
 
 		ForceNeonVeilShader: {
-			Label: ネオンベールのシェーダーを強制
+			Label: ネオンベールのシェーダー効果
 			Tooltip: ""
 		}
 
@@ -29329,14 +29366,28 @@ Configs: {
 			Label: ステラノヴァのカットシーン
 			Tooltip: ステラ・ノヴァのカットシーンを表示する頻度を決定する。
 		}
+
+		bossVoiceVolume: {
+			Label: ボスのボイス音量
+			Tooltip: ""
+		}
+
+		DisableBossVoiceLines: {
+			Label: ボスのボイスを無効化
+			Tooltip: 旧仕様のボスボイスを無効にする。
+		}
 	}
 
 	StarsAboveServersideConfig: {
-		DisplayName: Stars Above 設定(サーバー側)
+		DisplayName: Stars Above 設定(サーバー)
 
 		DisableTypePenalty: {
-			Label: アスペクトダメージ修正時のダメージペナルティを無効
-			Tooltip: アスペクトダメージ修正有効時の10%ダメージペナルティが削除される。この効果も取り除かれる一部の効果は結果としてオーバーパワーになるので注意。
+			Label: アスペクトウェポンのダメージタイプ変更ペナルティを無効
+			Tooltip: 
+			'''
+			アスペクトウェポンのダメージタイプ変更時の10%ダメージペナルティが削除される。
+			一部の武器がオーバーパワーになるので注意。
+			'''
 		}
 
 		DisableBossAggro: {
@@ -29345,43 +29396,57 @@ Configs: {
 		}
 
 		DisableCalamityWeaponBuffs: {
-			Label: MODの互換性のためにグローバル・ダメージ修正を無効
-			Tooltip: Calamity Modが有効な場合の、アスペクト・ダメージのダメージ増加を無効化する。
+			Label: MODの互換性のための威力調整を無効
+			Tooltip: Calamity Modが有効な場合の、アスペクトウェポンの威力調整を無効化する。
 		}
 
 		DisableWeaponRestrictions: {
 			Label: アスペクトウェポンの制限を無効
-			Tooltip: アストラルおよびアンブラル・ウェポンを反対側のアスペクトが振るう際の制限を無効化する。
+			Tooltip: アスフォデンとエリダニ専用武器の制限を無効化する。
 		}
 
 		DisableBossEnemySpawnMod: {
-			Label: エネミースポーン抑制を無効
-			Tooltip: 全プレイヤーに付与される、ボス戦時のモブスポーンを防ぐバフを無効にする。他のMODではこの機能が重複している場合がある。
+			Label: ボス戦時のスポーン抑制を無効
+			Tooltip: 全ボス戦時のモブスポーンを防ぐバフを無効にする。他のMODに搭載されている抑制は無効化できない。
 		}
 
 		DisableManaSicknessChange: {
-			Label: マナシックの変化を無効
-			Tooltip: マナシックのダメージ軽減を魔法だけでなく全てのダメージに適用する変更を無効にする。これを変更するとマナを消費する魔法以外の武器の性能が異常に高くなる可能性がある。
+			Label: マナ酔いの適用範囲拡大を無効
+			Tooltip: 
+			'''
+			マナ酔いの効果を魔法だけでなく全てのダメージタイプに適用する変更を無効にする。
+			これを変更するとマナを消費する魔法以外の武器の性能が異常に高くなる可能性がある。
+			'''
 		}
 
 		ColorblindBoss: {
 			Label: 色覚異常者サポート（ペンテシレイア戦）
-			Tooltip: ペンテシレイアのボス戦で、特定の色に基づくメカニズムを置き換える
+			Tooltip: ペンテシレイア戦で、特定の色に基づくギミックの色を置き換える
 		}
 
 		DisableCompatibilityMode: {
-			Label: 星海航行のマルチプレイ互換性
+			Label: 星海航行のマルチプレイ許可
 			Tooltip:
 				'''
 				無効にすると、マルチプレイでも星海航行を行うことができる。
-				これは問題を引き起こす可能性があるため、自己責任で使用すること。
+				問題を引き起こす可能性があるため、自己責任で使用すること。
 				有効にすると、星海航行に必要なアイテムが時間経過でドロップするようになる。
 				'''
 		}
 
 		CombatTimer: {
 			Label: 戦闘タイマー
-			Tooltip: 敵を攻撃したとき、あるいは攻撃されたとき、「戦闘中」になる時間(秒)。
+			Tooltip: 敵を攻撃したとき、あるいは攻撃されたとき、「戦闘中」扱いになる秒数
+		}
+
+		MultiplayerFallbackSubworlds: {
+			Label: 星海航行のマルチプレイ制限
+			Tooltip: 
+			'''
+			有効にすると、星海航行のアイテムがドロップするようになる。
+			無効にすると、マルチプレイ中でもプレイヤーが星海航行に挑戦できるようになる。
+			問題を引き起こす可能性があるため、自己責任で利用するか、非公式パッチと併用すること。
+			'''
 		}
 	}
 
@@ -29390,23 +29455,27 @@ Configs: {
 
 		Never: {
 			Label: 表示しない
+			Tooltip: ""
 		}
 
 		Session: {
 			Label: 1プレイ1回のみ
+			Tooltip: ""
 		}
 
 		Always: {
 			Label: 常に表示する
+			Tooltip: ""
 		}
 	}
 }
 
 WorldGen: {
-	NeonVeilGenerationMessage: ネオンベールを照らす
-	ExtraStructuresGenerationMessage: 星からの着陸ノベルティ
+	NeonVeilGenerationMessage: ネオンベールを構築中
+	ExtraStructuresGenerationMessage: 天体を構成中
 }
 
 Conditions: {
-	InNeonVeil: ネオンベールの中
+	InNeonVeil: ネオンベール内部
 }
+

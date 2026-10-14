@@ -1,57 +1,74 @@
 Affixes: {
-	# 各接頭辞には、標準の事前生成された行が付属します：
+	# 各モディファイアには、標準の事前生成された行が付属します：
     # 「{1}{0} to stat」
-    # {0}は接頭辞の値、{1}は符号です。
+    # {0}はモディファイアの値、{1}は符号です。
     # ゲーム内の表示例：-5.58 to stat
-	IncreasedDamageAffix.Description: "{1}{0}% ダメージ"
-	DefenseItemAffix.Description: "{1}{0} 防御"
+	IncreasedDamageAffix.Description: "{1}{0}% 全ダメージ増加"
+	DefenseItemAffix.Description: "{1}{0} 防御力追加"
 	EnduranceItemAffix.Description: "{1}{0}% 被ダメージ軽減"
-	ResistanceHelmetAffix.Description: "{1}{0}% デバフ時間短縮"
-	BuffBoostHelmetAffix.Description: "{1}{0}% バフ時間延長"
+	ResistanceHelmetAffix.Description: "{1}{0}% デバフ持続時間減少"
+	BuffBoostHelmetAffix.Description: "{1}{0}% バフ持続時間増加"
 	ThornyArmorAffix.Description: "{1}{0} ダメージ反射"
-	BaseLifeAffix.Description: "{1}{0} 最大ライフ"
-	AddedLifeAffix.Description: "{1}{0}% 最大ライフ"
-	MultipliedLifeAffix.Description: "{1}{0}% 最大ライフ倍率"
-	FlatLifeAffix.Description: "{1}{0} 固定最大ライフ"
-	LifeRegenAffix.Description: "{1}{0}% ライフ自然回復"
-	LifeRegenMultiplierAffix.Description: "{1}{0}% ライフ自然回復倍率"
+	BaseLifeAffix.Description: "{1}{0} 最大ライフ追加"
+	AddedLifeAffix.Description: "{1}{0}% 最大ライフ増加"
+	LifeRegenAffix.Description: "{1}{0} ライフ自然回復増進"
+	LifeRegenMultiplierAffix.Description: "{1}{0}% ライフ自然回復増進"
 	LifePotionPowerAffix.Description: "{1}{0}% ライフポーション強化"
 	LifePotionCapAffix.Description: "{1}{0} 最大ライフポーション数"
-	LifePotionCooldownAffix.Description: "{1}{0}% マナポーションクールダウン"
-	ManaAffix.Description: "{1}{0} 最大マナ"
-	ManaRegenAffix.Description: "{1}{0}% マナ自然回復"
+	LifePotionCooldownAffix.Description: "{1}{0}% ライフポーションのクールダウン短縮"
+	ManaAffix.Description: "{1}{0} 最大マナ追加"
+	ManaRegenAffix.Description: "{1}{0}% マナ自然回復増進"
 	ManaPotionPowerAffix.Description: "{1}{0}% マナポーション強化"
 	ManaPotionCapAffix.Description: "{1}{0} 最大マナポーション数"
-	ManaPotionCooldownAffix.Description: "{1}{0}% マナポーションクールダウン短縮"
+	ManaPotionCooldownAffix.Description: "{1}{0}% マナポーションのクールダウン短縮"
+	MaximumEnergyShieldAffix.Description: "{1}{0} 最大エナジーシールド"
+	IncreasedEnergyShieldAffix.Description: "{1}{0}% エナジーシールド増加"
+	EnergyShieldRechargeRateAffix.Description: "{1}{0}% エナジーシールド自然回復増進"
+	FasterEnergyShieldRechargeStartAffix.Description: "{1}{0}% エナジーシールド回復開始時間短縮"
 	PiercingItemAffix.Description: "{1}{0}% 防御貫通"
-	AddedKnockbackItemAffix.Description: "{1}{0} ノックバック"
-	IncreasedKnockbackItemAffix.Description: "{1}{0}% ノックバック"
-	FlatKnockbackItemAffix.Description: "{1}{0} 固定ノックバック"
+	AddedKnockbackItemAffix.Description: "{1}{0} ノックバック追加"
+	IncreasedKnockbackItemAffix.Description: "{1}{0}% ノックバック増加"
 	ChanceToApplyOnFireGearAffix.Description: "{1}{0} 炎上付与"
 	ChanceToApplyArmorShredGearAffix.Description: "{1}{0} 防御低下付与"
 	ChanceToApplyBloodclotItemAffix.Description: "{1}{0}% 血栓付与"
 	ChanceToApplyPoisonItemAffix.Description: "{1}{0}% 毒付与"
 	BuffPoisonedHitsAffix.Description: "{1}{0}% 毒状態の敵への与ダメージ"
-	MovementSpeedAffix.Description: "{1}{0}% 移動速度"
+	MovementSpeedAffix.Description: "{1}{0}% 移動速度上昇"
+	MiningSpeedAffix.Description: "{1}{0}% 採掘速度上昇"
+	FishingPowerAffix.Description: "{1}{0} 釣り力"
+	BaitConservationAffix.Description: "{1}{0}% の確率で餌を消費しない"
+	TilePlacementSpeedAffix.Description: "{1}{0}% ブロック設置速度上昇"
+	WallPlacementSpeedAffix.Description: "{1}{0}% 壁設置速度増加"
+	ItemPickupRangeAffix.Description: "{1}{0} タイル アイテム回収範囲増加"
+	CoinPickupRangeAffix.Description: "{1}{0} タイル コイン回収範囲増加"
+	PotionCooldownReductionAffix.Description: "{1}{0}% ポーションクールダウン短縮"
+	BuffDurationAffix.Description: "{1}{0}% バフ持続時間増加"
+	BreathCapacityAffix.Description: "{1}{0}% 水中呼吸時間増加"
+	SwimSpeedAffix.Description: "{1}{0}% 水中移動速度上昇"
+	SafeFallDistanceAffix.Description: "{1}{0} タイル 安全落下距離増加"
+	JumpHeightAffix.Description: "{1}{0}% ジャンプ高度増加"
+	JumpSpeedAffix.Description: "{1}{0}% ジャンプ速度増加"
+	WingFlightTimeAffix.Description: "{1}{0}% 翼の飛行時間増加"
+	WingGlideControlAffix.Description: "{1}{0}% 低速落下の速度減少"
 	HealOnKillingBurningEnemiesAffix.Description: "{1}{0} 炎上状態の敵撃破時ライフ回復"
-	IncreasedAttackSpeedAffix.Description: "{1}{0}% 攻撃速度"
-	AddedAttackSpeedAffix.Description: "{1}{0}% 攻撃速度上昇"
-	AddedDamageAffix.Description: "{1}{0} 固定ダメージ"
-	MoltenShellAffix.Description: "{1}{0} モルテンシェル"
-	BloodSiphonAffix.Description: "{1}{0} 血液吸収"
-	FetidCarapaceAffix.Description: "{1}{0} 腐臭の外殻"
+	IncreasedAttackSpeedAffix.Description: "{1}{0}% 攻撃速度上昇"
+	AddedAttackSpeedAffix.Description: "{1}{0} 攻撃速度強化"
+	AddedDamageAffix.Description: "{1}{0} ダメージ追加"
+	MoltenShellAffix.Description: +{1}{0} モルテンシェルのレベル
+	BloodSiphonAffix.Description: +{1}{0} ブラッドサイフォンのレベル
+	FetidCarapaceAffix.Description: +{1}{0} フェティッドカラペイスのレベル
 
 	NoFallDamageAffix: {
 		Description: 落下ダメージ無効
 		Removed: 落下ダメージ耐性無し
 	}
 
-	PercentageIncreasedCriticalStrikeChanceAffix.Description: "{1}{0}% クリティカル率"
-	PercentageCriticalStrikeMultiplierAffix.Description: "{1}{0}% クリティカル倍率"
-	FlatCriticalStrikeChanceAffix.Description: "{1}{0} 固定クリティカル率"
-	PercentageIncreasedCriticalStrikeDamageAffix.Description: "{1}{0}% クリティカルダメージ"
-	ChanceToApplyShockGearAffix.Description: "{1}{0}% 感電付与"
-	BuffShockedEffectAffix.Description: "{1}{0}% 感電効果倍率"
+	PercentageIncreasedCriticalStrikeChanceAffix.Description: "{1}{0}% クリティカル率上昇"
+	PercentageCriticalStrikeMultiplierAffix.Description: "{1}{0}% クリティカルダメージ増加"
+	FlatCriticalStrikeChanceAffix.Description: "{1}{0} クリティカル率強化"
+	PercentageIncreasedCriticalStrikeDamageAffix.Description: "{1}{0}% クリティカルダメージ増加"
+	ChanceToApplyShockGearAffix.Description: "{1}{0}% の確率で感電を付与"
+	BuffShockedEffectAffix.Description: "{1}{0}% 感電効果強化"
 	IncreaseBlockAffix.Description: "{1}{0}% ブロック"
 	StrengthItemAffix.Description: "{1}{0} 筋力"
 	DexterityItemAffix.Description: "{1}{0} 敏捷"
@@ -64,9 +81,15 @@ Affixes: {
 	ChanceToApplyRootedGearAffix.Description: "{1}{0}% 拘束付与"
 	MapDamageAffix.Description: "{1}{0}% 敵ダメージ増加"
 	MapBossHealthAffix.Description: "{1}{0}% ボス最大ライフ増加"
-	MapMobCritChanceAffix.Description: "{1}{0}% 敵クリティカル率増加"
+	MapMobCritChanceAffix.Description: "{1}{0}% 敵クリティカル率上昇"
 	MapMobChillChanceAffix.Description: "{1}{0}% 敵による冷却付与"
 	MapIncreasedBehaviourAffix.Description: "{1}{0}% 敵行動速度上昇"
+	MapStealAegisChargeAffix.Description: 攻撃を受けた際、モンスターに防護チャージを1つ奪われる
+	MapStealFocusChargeAffix.Description: 攻撃を受けた際、モンスターにフォーカスチャージを1つ奪われる
+	MapStealHasteChargeAffix.Description: 攻撃を受けた際、モンスターに加速チャージを1つ奪われる
+	MapFireAddedDamageAffix.Description: モンスターは{1}{0}%の追加炎ダメージを与える
+	MapColdAddedDamageAffix.Description: モンスターは{1}{0}%の追加冷気ダメージを与える
+	MapLightningAddedDamageAffix.Description: モンスターは{1}{0}%の追加雷ダメージを与える
 	ColdAffix.Prefix: 氷結
 	LightningAffix.Prefix: 電撃
 	FlamingAffix.Prefix: 燃え盛る
@@ -77,9 +100,44 @@ Affixes: {
 	FocusChargeChanceOnKillAffix.Description: "{1}{0}% 撃破時にフォーカスチャージ取得"
 	HasteChargeChanceOnKillAffix.Description: "{1}{0}% 撃破時に加速チャージ取得"
 	AegisChargeChanceOnKillAffix.Description: "{1}{0}% 撃破時に防護チャージ取得"
-	FireConversionDamage.Description: "{1}{0}% 火属性ダメージに変換"
-	ColdConversionDamage.Description: "{1}{0}% 氷属性ダメージに変換"
-	LightningConversionDamage.Description: "{1}{0}% 雷属性ダメージに変換"
+	FireConversionDamage.Description: "{1}{0}% ダメージを炎属性に変換"
+	ColdConversionDamage.Description: "{1}{0}% ダメージを冷気属性に変換"
+	LightningConversionDamage.Description: "{1}{0}% ダメージを雷属性に変換"
+	ChaosResistItemAffix.Description: "{1}{0}% 混沌耐性"
+	ChaosConversionDamage.Description: "{1}{0}% のダメージを混沌ダメージに変換"
+	ChaoticAffix.Prefix: 混沌の
+	FireFlatDamage.Description: "{1}{0} 追加炎ダメージ"
+	ColdFlatDamage.Description: "{1}{0} 追加冷気ダメージ"
+	LightningFlatDamage.Description: "{1}{0} 追加雷ダメージ"
+	ChaosFlatDamage.Description: "{1}{0} 追加混沌ダメージ"
+	ExtraFireDamage.Description: "{1}{0}% の追加炎ダメージを与える"
+	ExtraLightningDamage.Description: "{1}{0}% の追加雷ダメージを与える"
+	ExtraColdDamage.Description: "{1}{0}% の追加冷気ダメージを与える"
+	ExtraChaosDamage.Description: "{1}{0}% の追加混沌ダメージを与える"
+	ChanceToApplyBleedingItemAffix.Description: "命中時、{1}{0}% の確率で出血を1スタック付与"
+	AddedBleedStackAffix.Description: "{1}{0} 出血スタック上限"
+	BetterBleedAffix.Description: "{1}{0}% 出血ダメージ増加"
+	EoLDaylightAffix.Description: 日中に戦う
+	AmmoReservationAffix.Description: "{1}{0}% の確率で弾薬を節約"
+	IncreasedSummonDamageAffix.Description: "{1}{0}% 召喚ダメージ増加"
+	AddedMaxMinionsAffix.Description: "{1}{0} 最大ミニオン数"
+	IncreasedMeleeDamageAffix.Description: "{1}{0}% 近接ダメージ増加"
+	IncreasedRangedDamageAffix.Description: "{1}{0}% 遠距離ダメージ増加"
+	IncreasedMagicDamageAffix.Description: "{1}{0}% 魔法ダメージ増加"
+	LifeOnKillAffix.Description: "{1}{0} 敵撃破時にライフ回復"
+	ManaOnKillAffix.Description: "{1}{0} 敵撃破時にマナ回復"
+	AddedSummonCritAffix.Description: "{1}{0}% 召喚クリティカル率"
+	AddBlockAffix.Description: "{1}{0} ブロック率"
+	MapFireConversionAffix.Description: 敵のダメージの{1}{0}%を炎ダメージに変換
+	MapColdConversionAffix.Description: 敵のダメージの{1}{0}%を冷気ダメージに変換
+	MapLightningConversionAffix.Description: 敵のダメージの{1}{0}%を雷ダメージに変換
+	IgniteChanceAffix.Description: "{1}{0}% の確率で炎上を付与"
+	CannotBeChilledAffix.Description: 凍え状態にならない
+	NearbyEnemiesScorchedAffix.Description: 周囲の敵を焦熱状態にする
+	PermanentlyScorchedAffix.Description: 常に焦熱状態になる
+	IncreasedIgniteEffectAffix.Description: "{1}{0}% 炎上効果増加"
+	SpreadIgniteScorchOnKillAffix.Description: 敵撃破時、炎上と焦熱のデバフを周囲のすべての対象に拡散する
+	AllResistancesAffix.Description: "{1}{0}% 全耐性"
 }
 
 Biomes: {
@@ -91,6 +149,16 @@ Biomes: {
 	MechBiome: {
 		DisplayName: 機械機構地帯
 		TownNPCDialogueName: 機械機構地帯
+	}
+
+	SwampBiome: {
+		DisplayName: 湿地帯
+		TownNPCDialogueName: 湿地帯
+	}
+
+	LunaticDungeonBiome: {
+		DisplayName: 狂信者のダンジョン
+		TownNPCDialogueName: 狂信者のダンジョン
 	}
 }
 
@@ -204,7 +272,192 @@ Buffs: {
 
 	IgnitedDebuff: {
 		DisplayName: 着火
-		Description: Mods.PathOfTerraria.Buffs.IgnitedDebuff.Description
+		Description: 大幅かつ変動する継続ダメージ
+	}
+
+	FreezeDebuff: {
+		DisplayName: 氷結
+		Description: 動けない！
+	}
+
+	PoisonedDebuff: {
+		DisplayName: 毒
+		Description: 時間とともにダメージが蓄積していく
+	}
+
+	FlameWardBuff: {
+		DisplayName: 炎の加護
+		Description: 炎耐性が{0}%増加
+	}
+
+	IntenseHeatBuff: {
+		DisplayName: 灼熱
+		Description: 炎ダメージが{0}%増加
+	}
+
+	BleedDebuff: {
+		DisplayName: 出血
+		Description: 強力な継続ダメージが蓄積していく
+	}
+
+	CrackedCarapaceDebuff: {
+		DisplayName: 甲殻破損
+		Description: 防御力が半減
+	}
+
+	FishingBuff: {
+		DisplayName: 釣り強化
+		Description: フィッシングパワーが合計{0}増加
+	}
+
+	ScorchingFlamesDebuff: {
+		DisplayName: 焼き焦がす炎
+		Description: 炎耐性が減少
+	}
+
+	SingleFocusBuff: {
+		DisplayName: 一点集中
+		Description: チャネリングダメージが増加
+	}
+
+	ElectrostaticBuff: {
+		DisplayName: 静電気
+		Description: 雷ダメージ倍率が増加
+	}
+
+	AnticipatedStrikeBuff: {
+		DisplayName: 先制の構え
+		Description: 次に使用するスキルが2回発動
+	}
+
+	SkillfulBoostBuff: {
+		DisplayName: 熟練
+		Description: クリティカルダメージと移動速度が大幅に増加
+	}
+
+	BrittleDebuff: {
+		DisplayName: 脆弱
+		Description: 凍結中に被ダメージが増加
+	}
+
+	ArcaneSurgeBuff: {
+		DisplayName: 秘術の奔流
+		Description: 魔法ダメージとマナ自然回復が増加
+	}
+
+	MinionDamageAuraBuff: {
+		DisplayName: ダメージオーラ
+		Description: ダメージが増加
+	}
+
+	MinionManaRegenAuraBuff: {
+		DisplayName: マナ自然回復オーラ
+		Description: マナ自然回復を増進
+	}
+
+	SwiftPlacementsBuff: {
+		DisplayName: 迅速配置
+		Description: 移動速度と召喚ダメージが増加
+	}
+
+	WitheringBoltsDebuff: {
+		DisplayName: 衰弱の弾丸
+		Description: 移動速度が大幅に低下
+	}
+
+	SacrificeReviveCooldown: {
+		DisplayName: 生贄の余韻
+		Description: 再度ミニオンを生贄にすることはできない
+	}
+
+	HastySummonBuff: {
+		DisplayName: 俊敏な召喚
+		Description: 移動速度+100%
+	}
+
+	BloodroundBuff: {
+		DisplayName: 血弾の熱狂
+		Description: +{0}% の確率で弾薬を消費しない
+	}
+
+	IdentifiedDebuff: {
+		DisplayName: 発見済み
+		Description: 姿が見えている！
+	}
+
+	SoulReaveDebuff: {
+		DisplayName: 魂刈り
+		Description: まもなくこの敵にダメージが発生する
+	}
+
+	ElementalReverberationBuff: {
+		DisplayName: 属性反響
+		Description: まもなくこの敵にダメージが発生する
+	}
+
+	WideSwingsBuff: {
+		DisplayName: 大振り
+		Description: 武器サイズが増加
+	}
+
+	DwarvishBuff: {
+		DisplayName: ドワーフの力
+		Description: Mods.PathOfTerraria.Buffs.DwarvishBuff.Description
+	}
+
+	AvariceBuff: {
+		DisplayName: 貪欲
+		Description: Mods.PathOfTerraria.Buffs.AvariceBuff.Description
+	}
+
+	SlowburnDebuff: {
+		DisplayName: 遅燃
+		Description: Mods.PathOfTerraria.Buffs.SlowburnDebuff.Description
+	}
+
+	EverburningShadowflameDebuff: {
+		DisplayName: 永劫のシャドウフレイム
+		Description: Mods.PathOfTerraria.Buffs.EverburningShadowflameDebuff.Description
+	}
+
+	PrismaticOrbBuff: {
+		DisplayName: プリズム強化
+		Description: プリズムオーブの爆発が2回発生する
+	}
+
+	FleaBellBuff: {
+		DisplayName: ノミのベル
+		Description: とんでもなくふわふわしている
+	}
+
+	FleaBellEnhancedBuff: {
+		DisplayName: 狂乱のノミ
+		Description: ノミの攻撃速度、ダメージ、移動速度が増加
+	}
+
+	RageStacksBuff: {
+		DisplayName: レイジ
+		Description: "レイジ：{0}。レイジ1つにつき近接・遠距離ダメージが1%増加"
+	}
+
+	SwampAlgaeBuff: {
+		DisplayName: 沼地の藻
+		Description: 水の影響を受けにくくなる...だが、余計な注目を集めるかもしれない
+	}
+
+	MosquitoTrappedDebuff: {
+		DisplayName: 締め付け
+		Description: ライフが減少していく
+	}
+
+	ToxicSmogDebuff: {
+		DisplayName: 毒の霧
+		Description: 時間とともにライフの減少速度が増加する
+	}
+
+	ToxicSmogImmunityBuff: {
+		DisplayName: 復活の加護
+		Description: 短時間、毒の霧を受けない
 	}
 }
 
@@ -225,16 +478,66 @@ Configs: {
 			Tooltip: UIデバッグ用に各要素の枠線を表示します
 		}
 
-		Headers.Graphics: グラフィック
+		SaveSubworlds: {
+			Label: サブワールドを保存
+			Tooltip: 
+				'''
+				サブワールドを保存するかどうか設定します
+				サブワールドのテスト時に便利です
+				'''
+		}
+
+		LogFilterRejections: {
+			Label: アイテムフィルターの除外をログ出力
+			Tooltip: 
+				'''
+				適用中のアイテムフィルターによって除外された各アイテムについて、
+				フィルター・アイテム・失敗した条件を示すメッセージをチャットとMod.Loggerに出力します
+				デバッグビルドでのみ有効です
+				'''
+		}
 	}
 
 	UIConfig: {
 		DisplayName: UI設定
 		Headers.UI: UI
 
+		DisplayRichTooltipsInHotbar: {
+			Label: ホットバーに詳細ツールチップを表示
+			Tooltip: 
+				'''
+				ホットバーの各要素にカーソルを合わせた際、
+				アイテムや要素の名前だけでなく、詳細なツールチップを表示します
+				'''
+		}
+
 		PreventExpBarClicking: {
 			Label: 経験値バーのクリック無効化
 			Tooltip: レベルアップメニューをホットキーからのみ開くようにします
+		}
+
+		UseVirtualBag: {
+			Label: 収納袋を使用
+			Tooltip: ドメイン内で収納袋を使用できるようになり、インベントリ管理がしやすくなります
+		}
+
+		ShowLootBeams: {
+			Label: ドロップアイテムに光柱を表示
+			Tooltip: 戦利品フィルターでハイライト対象となったアイテムの上に光柱が表示されます
+		}
+	}
+
+	GameplayConfig: {
+		DisplayName: ゲームプレイ設定
+		Headers.Gameplay: ゲームプレイ
+
+		NearbyAuras: {
+			Label: オーラ表示
+			Tooltip: 
+				'''
+				「ミニオンダメージオーラ」パッシブを使用しているミニオンに視覚的なオーラを表示します
+				今後さらに多くのオーラが対象になる可能性があります
+				'''
 		}
 	}
 }
@@ -257,8 +560,9 @@ Gear: {
 		Corrupted: 不浄
 		Tier: ティア:
 		Level: アイテムレベル:
-		Damage: 攻撃力
 		Defense: 防御力
+		BlockChance: ブロック率
+		EnergyShield: エナジーシールド
 		Pickaxe: 採掘力
 		Axe: 伐採力
 		Hammer: 槌力
@@ -267,6 +571,7 @@ Gear: {
 		CastSpeed: 発動速度
 		BuildBlocked: エリア内の力によってブロックされている
 		ShootBlocked: 発射時、{0} [i:{1}] に置き換えられる
+		WeaponNerfed: この武器は少し弱体化しているようだ
 	}
 
 	Influence: {
@@ -401,7 +706,7 @@ Gear: {
 
 	Staff: {
 		Name: 魔杖
-		AltUse: 右クリックで短時間マナを消費し、投射物を通常の4倍速で放つ
+		AltUse: 右クリックで短時間マナを消費し、発射体を通常の4倍速で放つ
 
 		Prefixes: {
 			0: 秘術の
@@ -420,7 +725,26 @@ Gear: {
 		}
 	}
 
-	Broadsword.Name: 大剣
+	Broadsword: {
+		Name: 大剣
+		AltUse: 右クリックで刃から精霊を召喚し、前方に突進させる。敵に命中するとライフを15回復する
+
+		Prefixes: {
+			0: 鋭利な
+			1: 共鳴する
+			2: 魔法の
+			3: 輝く
+			4: 奇妙な
+		}
+
+		Suffixes: {
+			0: 垂れ布
+			1: 円蓋
+			2: 精神
+			3: 視界
+			4: 大口
+		}
+	}
 
 	Sword: {
 		Name: 剣
@@ -530,7 +854,7 @@ Gear: {
 	Grimoire: {
 		Name: 魔導書
 		# This is the alt use line but is used to describe basic functionality. Change to be more clear?
-		AltUse: ミニオンにカーソル方向へ移動させる
+		AltUse: ミニオンをカーソル方向へ移動させる
 
 		Prefixes: {
 			0: 古代の
@@ -574,8 +898,6 @@ Gear: {
 
 	Shield: {
 		Name: 盾
-		Block: "[i:278] ブロック率 +{0}%"
-		Speed: "[i:278] 移動速度 -{0}%"
 
 		Prefixes: {
 			0: 硬質な
@@ -594,6 +916,46 @@ Gear: {
 		}
 	}
 
+	Quiver: {
+		Name: 矢筒
+
+		Prefixes: {
+			0: 俊敏な
+			1: 鋭敏な
+			2: 名工の
+			3: 古びた
+			4: エルフの
+		}
+
+		Suffixes: {
+			0: 射手の
+			1: 貫通の
+			2: 狩りの
+			3: 軽業の
+			4: 守護の
+		}
+	}
+
+	Talisman: {
+		Name: 護符
+
+		Prefixes: {
+			0: 召喚士の
+			1: 召喚の
+			2: 束縛の
+			3: 古の
+			4: 神秘の
+		}
+
+		Suffixes: {
+			0: 支配の
+			1: 指揮の
+			2: 覇王の
+			3: 隷属の
+			4: 死霊術師の
+		}
+	}
+
 	Map.Name: マップ
 	ExplorableMap.Name: 探索マップ
 	BossMap.Name: ボスマップ
@@ -601,8 +963,113 @@ Gear: {
 	Magic.Name: 魔法
 	Ranged.Name: 遠距離
 	Melee.Name: 近接
-	Summon.Name: 召喚
 	Accessory.Name: アクセサリー
+	Charm.Name: アクセサリー
+	Wings.Name: 翼
+	JumpAccessories.Name: ジャンプアクセサリー
+
+	Ring: {
+		Name: リング
+
+		Prefixes: {
+			0: 呪われた
+			1: 虚ろな
+			2: 砕けた
+			3: 頑丈な
+			4: 強化された
+		}
+
+		Suffixes: {
+			0: 残り火の
+			1: 記憶の
+			2: 永久の別れの
+			3: 憎悪の
+			4: 憤怒の
+		}
+	}
+
+	Focus: {
+		Name: フォーカス
+
+		Prefixes: {
+			0: 安定した
+			1: 増強された
+			2: 圧縮された
+			3: 充填された
+			4: 完璧な
+		}
+
+		Suffixes: {
+			0: 三重の
+			1: 神聖の
+			2: 確実なる
+			3: 恩寵の
+			4: 力の
+		}
+	}
+
+	Amulet: {
+		Name: アミュレット
+
+		Prefixes: {
+			0: 失われた
+			1: 渇望された
+			2: 忘れられた
+			3: 呪われた
+			4: 空虚な
+		}
+
+		Suffixes: {
+			0: 幸運の
+			1: 複製品
+			2: 悲哀の
+			3: 再鍛造された
+			4: 信念の
+		}
+	}
+
+	Gun: {
+		Name: 銃
+
+		Prefixes: {
+			0: 爆発性の
+			1: 拡張された
+			2: 重厚な
+			3: スコープ付き
+			4: 丈夫な
+		}
+
+		Suffixes: {
+			0: 伝説の
+			1: 再鍛造された
+			2: 敏捷の
+			3: 殺戮の
+			4: 静寂の
+		}
+	}
+
+	Summon: {
+		Name: 召喚
+
+		Prefixes: {
+			0: 古代の
+			1: 異界の
+			2: 寂れた
+			3: 忌み嫌われた
+			4: 蔑まれた
+		}
+
+		Suffixes: {
+			0: 伝承の
+			1: 無限
+			2: 秘匿
+			3: 憎悪の
+			4: 贖罪の
+		}
+	}
+
+	Visors.Name: バイザー
+	Yoyo.Name: ヨーヨー
 }
 
 Generation: {
@@ -624,6 +1091,7 @@ Generation: {
 	Clouds: 空を探索中
 	Space: 宇宙へ到達中
 	Scanning: 地表を解析中
+	Arena: 巣穴を建築中
 
 	EaterSign: {
 		0: "{0}は一瞬で喰われた。"
@@ -664,14 +1132,6 @@ Generation: {
 	}
 
 	RemoveBeeLarvaeStep: ""
-}
-
-GUI: {
-	PassiveTreeTab: パッシブ
-	SkillTreeTab: スキル
-	QuestsAvailableTab: 受注可能
-	QuestsCompletedTab: 完了済み
-	PlayerStatsTab: ステータス
 }
 
 Items: {
@@ -730,16 +1190,10 @@ Items: {
 	Staff: {
 		DisplayName: 魔杖
 		Tooltip: ""
-		Staff: 魔杖
 	}
 
 	Wand: {
 		DisplayName: 呪杖
-		Tooltip: ""
-	}
-
-	LowTierMap: {
-		DisplayName: マップ（初級）
 		Tooltip: ""
 	}
 
@@ -788,8 +1242,153 @@ Items: {
 		Tooltip: ""
 	}
 
-	CaveMap: {
-		DisplayName: マップ（洞窟）
+	BatteredHelm: {
+		DisplayName: ボロボロの兜
+		Tooltip: ""
+	}
+
+	IronboundHelm: {
+		DisplayName: 鉄縁の兜
+		Tooltip: ""
+	}
+
+	HallowforgedHelm: {
+		DisplayName: 聖域鍛造の兜
+		Tooltip: ""
+	}
+
+	AstralforgedGreathelm: {
+		DisplayName: 星界鍛造の大兜
+		Tooltip: ""
+	}
+
+	EternalforgedGreathelm: {
+		DisplayName: 永劫鍛造の大兜
+		Tooltip: ""
+	}
+
+	BatteredMail: {
+		DisplayName: ボロボロの鎧
+		Tooltip: ""
+	}
+
+	IronboundCuirass: {
+		DisplayName: 鉄縁の胸当て
+		Tooltip: ""
+	}
+
+	HallowforgedCuirass: {
+		DisplayName: 聖域鍛造の胸当て
+		Tooltip: ""
+	}
+
+	AstralforgedAegis: {
+		DisplayName: 星界鍛造のイージス
+		Tooltip: ""
+	}
+
+	EternalforgedAegis: {
+		DisplayName: 永劫鍛造のイージス
+		Tooltip: ""
+	}
+
+	BatteredGreaves: {
+		DisplayName: ボロボロのすね当て
+		Tooltip: ""
+	}
+
+	IronboundGreaves: {
+		DisplayName: 鉄縁のすね当て
+		Tooltip: ""
+	}
+
+	HallowforgedGreaves: {
+		DisplayName: 聖域鍛造の脚甲
+		Tooltip: ""
+	}
+
+	AstralforgedSabatons: {
+		DisplayName: 星界鍛造のサバトン
+		Tooltip: ""
+	}
+
+	EternalforgedSabatons: {
+		DisplayName: 永劫鍛造のサバトン
+		Tooltip: ""
+	}
+
+	ApprenticeCap: {
+		DisplayName: 見習いの帽子
+		Tooltip: ""
+	}
+
+	AcolyteHood: {
+		DisplayName: 侍祭のフード
+		Tooltip: ""
+	}
+
+	MysticCirclet: {
+		DisplayName: 神秘のサークレット
+		Tooltip: ""
+	}
+
+	SpectralVeil: {
+		DisplayName: 亡霊のヴェール
+		Tooltip: ""
+	}
+
+	EtherealDiadem: {
+		DisplayName: 幽玄のダイアデム
+		Tooltip: ""
+	}
+
+	ApprenticeRobe: {
+		DisplayName: 見習いのローブ
+		Tooltip: ""
+	}
+
+	AcolyteVestment: {
+		DisplayName: 侍祭の祭服
+		Tooltip: ""
+	}
+
+	MysticGarb: {
+		DisplayName: 神秘の装束
+		Tooltip: ""
+	}
+
+	SpectralShroud: {
+		DisplayName: 亡霊の外套
+		Tooltip: ""
+	}
+
+	EtherealMantle: {
+		DisplayName: 幽玄のマント
+		Tooltip: ""
+	}
+
+	ApprenticeSlippers: {
+		DisplayName: 見習いのスリッパ
+		Tooltip: ""
+	}
+
+	AcolyteSandals: {
+		DisplayName: 侍祭のサンダル
+		Tooltip: ""
+	}
+
+	MysticBoots: {
+		DisplayName: 神秘のブーツ
+		Tooltip: ""
+	}
+
+	SpectralStriders: {
+		DisplayName: 亡霊のストライダー
+		Tooltip: ""
+	}
+
+	EtherealGreaves: {
+		DisplayName: 幽玄のすね当て
 		Tooltip: ""
 	}
 
@@ -1091,8 +1690,8 @@ Items: {
 		Tooltip: ""
 		AltUseDescription:
 			'''
-			右クリックで敵や投射物をパリィする。
-			投射物をパリィすると、追加の星を放つ。
+			右クリックで敵や発射体をパリィする。
+			発射体をパリィすると、追加の星を放つ。
 			右クリックを素早く二度押しすると、バッシュのクールダウンをほぼ無効化し、空を飛び回れる。
 			'''
 		Description: 星の力が、あなたを天へ押し上げる。
@@ -1162,12 +1761,12 @@ Items: {
 
 	RoyalJelly: {
 		DisplayName: ロイヤルジェリー
-		Tooltip: ""
+		Tooltip: 消費して女王に挑もう
 	}
 
 	RoyalJellyClump: {
 		DisplayName: ロイヤルジェリーの塊
-		Tooltip: ""
+		Tooltip: 2つ組み合わせてロイヤルジェリーを作れる
 	}
 
 	RoyalJellyClumpPlacer: {
@@ -1177,7 +1776,7 @@ Items: {
 
 	PolarIceLanternItem: {
 		DisplayName: 極氷のランタン
-		Tooltip: ディアクロプスのエリアに満ちる圧迫的な闇の中で光を放つ
+		Tooltip: ディアクロップスのエリアに満ちる圧迫的な闇の中で光を放つ
 	}
 
 	PolarIceLampItem: {
@@ -1222,7 +1821,7 @@ Items: {
 
 	EbonwoodWand: {
 		DisplayName: エボンウッドの呪杖
-		Tooltip:  「邪悪な香りがする。」
+		Tooltip: 「邪悪な香りがする。」
 	}
 
 	ShadewoodWand: {
@@ -1274,8 +1873,7 @@ Items: {
 		DisplayName: きらめく欠片
 		Tooltip:
 			'''
-			『マジック』レアリティアイテムの追加効果を再抽選する
-			アイテムを持った状態で、この欠片を右クリックして再抽選する
+			『マジック』レアリティアイテムの接頭辞を再抽選する
 			「不自然なほどに輝いている。」
 			'''
 	}
@@ -1285,8 +1883,8 @@ Items: {
 		Tooltip:
 			'''
 			混沌で制御不能
-			新たな追加効果を付与したり、以後のアイテム操作を無効化する可能性がある
-			レアリティをレアへ変質させ、追加効果を再抽選する可能性がある
+			新たな接頭辞を付与したり、以後のアイテム操作を無効化する可能性がある
+			レアリティをレアへ変質させ、接頭辞を再抽選する可能性がある
 			何も起こらない可能性も高い
 			「不調の鼓動を刻んでいる。」
 			'''
@@ -1296,8 +1894,7 @@ Items: {
 		DisplayName: 昇華の欠片
 		Tooltip:
 			'''
-			アイテムに新たな追加効果を付与
-			アイテムを持った状態で、この欠片を右クリックして付与する
+			アイテムに新たな接頭辞を付与
 			「力が溢れ出している。」
 			'''
 	}
@@ -1309,6 +1906,15 @@ Items: {
 			レアリティを『ノーマル』から『マジック』に強化する
 			アイテムを持った状態で、この欠片を右クリックして強化する
 			「中で何かがうごめいている...？」
+			'''
+	}
+
+	RegalShard: {
+		DisplayName: 王者の欠片
+		Tooltip:
+			'''
+			レアリティを『マジック』から『レア』に強化し、接頭辞を維持したまま新たに1つ追加する
+			「結晶の姿へと精錬された力」
 			'''
 	}
 
@@ -1365,7 +1971,6 @@ Items: {
 		Tooltip:
 			'''
 			アイテムを一つ複製する
-			アイテムを持った状態で、この欠片を右クリックして複製する
 			「私がもう一人...！？」
 			'''
 	}
@@ -1374,8 +1979,7 @@ Items: {
 		DisplayName: 輝光の欠片
 		Tooltip:
 			'''
-			アイテムの追加効果の値を再抽選する
-			アイテムを持った状態で、この欠片を右クリックして数値を再抽選する
+			アイテムの接頭辞の値を再抽選する
 			「目が焼けそうだ」
 			'''
 	}
@@ -1551,7 +2155,6 @@ Items: {
 		Tooltip:
 			'''
 			『マジック』または『レア』のアイテムレアリティを『ノーマル』に戻す
-			アイテムを持った状態で、この欠片を右クリックして使用する
 			「何の変哲もない。」
 			'''
 	}
@@ -1561,7 +2164,6 @@ Items: {
 		Tooltip:
 			'''
 			『ノーマル』アイテムレアリティを『レア』に変化させる
-			アイテムを持った状態で、この欠片を右クリックして昇格させる
 			「暗闇に灯る火種のようだ」
 			'''
 	}
@@ -1570,8 +2172,7 @@ Items: {
 		DisplayName: 変転の欠片
 		Tooltip:
 			'''
-			『レア』アイテムの追加効果を再抽選する
-			アイテムを持った状態で、この欠片を右クリックして再抽選する
+			『レア』アイテムの接頭辞を再抽選する
 			「予測不能だ」
 			'''
 	}
@@ -1613,6 +2214,16 @@ Items: {
 
 	CorrodedTowerShield: {
 		DisplayName: 錆びた大盾
+		Tooltip: ""
+	}
+
+	LeatherQuiver: {
+		DisplayName: 革の矢筒
+		Tooltip: ""
+	}
+
+	WoodenTalisman: {
+		DisplayName: 木の護符
 		Tooltip: ""
 	}
 
@@ -2052,6 +2663,271 @@ Items: {
 		DisplayName: ラピスラズリの指輪
 		Tooltip: ""
 	}
+
+	ObsidianAdversaryDebug: {
+		DisplayName: 黒曜石の敵対者 (デバッグ)
+		Tooltip: 肉の壁のミニアリーナで使用する、黒曜石の敵対者のデバッグ版を設置する
+	}
+
+	ObsidianAdversaryItem: {
+		DisplayName: 黒曜石の敵対者
+		Tooltip: 「おぞましい顔が、こちらを見返しているようだ...」
+	}
+
+	RoyalJellyCore: {
+		DisplayName: ロイヤルゼリーのコア
+		Tooltip: 「力を放っている...ガリックの元へ持ち帰った方がよさそうだ。」
+	}
+
+	LunarFragment: {
+		DisplayName: 月の欠片
+		Tooltip:
+			'''
+			ツインズのエリアを召喚するために使われる小さな要素
+			「...異世界のような臭いがする」
+			'''
+	}
+
+	CelestialConflux: {
+		DisplayName: 天界の集束体
+		Tooltip:
+			'''
+			天界の裂け目から集められた電気エネルギー
+			これを{0}個マップデバイスに注入すると、特別なポータルが開く
+			'''
+	}
+
+	GlacialConflux: {
+		DisplayName: 氷河の集束体
+		Tooltip:
+			'''
+			氷河の裂け目から集められた凍てつくエネルギー
+			これを{0}個マップデバイスに注入すると、特別なポータルが開く
+			'''
+	}
+
+	InfernalConflux: {
+		DisplayName: 地獄の集束体
+		Tooltip:
+			'''
+			地獄の裂け目から集められた燃え盛るエネルギー
+			これを{0}個マップデバイスに注入すると、特別なポータルが開く
+			'''
+	}
+
+	GreenCore: {
+		DisplayName: 自然のコア
+		Tooltip: ""
+	}
+
+	RichMahoganyTalisman: {
+		DisplayName: リッチマホガニーの護符
+		Tooltip: ""
+	}
+
+	YellowCore: {
+		DisplayName: 封じられしコア
+		Tooltip: ""
+	}
+
+	Faeflame: {
+		DisplayName: 妖炎
+		Tooltip: ""
+	}
+
+	SporeLoci: {
+		DisplayName: 胞子の中枢
+		Tooltip: ""
+	}
+
+	CoralCrown: {
+		DisplayName: サンゴの王冠
+		Tooltip: ""
+	}
+
+	StoneStar: {
+		DisplayName: 石星
+		Tooltip: ""
+	}
+
+	SeveranceShard: {
+		DisplayName: 切断の欠片
+		Tooltip:
+			'''
+			アイテムからランダムな接頭辞を1つ取り除く
+			「絶えず砕け、そして再び成長する」
+			'''
+	}
+
+	BerylRing: {
+		DisplayName: ベリルの指輪
+		Tooltip: ""
+	}
+
+	FireDiamondRing: {
+		DisplayName: 炎のダイヤモンドリング
+		Tooltip: ""
+	}
+
+	PrismaticOrb: {
+		Description: プリズムオーブを前方へ投げ、投げた方向に水切り石のように跳ねさせる。跳ねるたびにランダムな属性爆発を引き起こす。
+		AltUseDescription: 次の5秒間、オーブの爆発が2回発動するようになる。
+		DisplayName: プリズムオーブ
+		Tooltip: ""
+	}
+
+	FleaBell: {
+		DisplayName: ノミのベル
+		Tooltip: ""
+		Description: ノミを召喚し、敵へ飛び込ませてダメージを与える。対象に命中すると跳ね返り、再び突撃の準備を始める。
+		AltUseDescription: 右クリックでノミを強化し、X秒間、攻撃速度と移動速度が上昇し、与えるダメージも増加する。
+	}
+
+	Simulacra: {
+		Description: 矢を撃ち、その少し後に同じ初期軌道でもう一度矢が放たれる。
+		AltUseDescription: 右クリックでカーソルの位置にX秒間、武器の鏡像を作り出す。エコーボウから放たれたすべての矢が、その位置からカーソルに向けて複製される。
+		DisplayName: シミュラクラ
+		Tooltip: ""
+	}
+
+	Ouroboros: {
+		Description: 毒を与えるガスの軌跡を残す。
+		AltUseDescription: 右クリックで周囲の敵を貪り始め、ヨーヨーへ引き寄せる。ライフが15%未満の敵は即座に倒す。
+		DisplayName: ウロボロス
+		Tooltip: ""
+	}
+
+	DeepMossItem: {
+		DisplayName: 深層の苔
+		Tooltip: ""
+	}
+
+	PurpleCloudsItem: {
+		DisplayName: 紫雲
+		Tooltip: ""
+	}
+
+	SwampMossItem: {
+		DisplayName: 沼地の苔
+		Tooltip: ""
+	}
+
+	MossyPurpleCloudsItem: {
+		DisplayName: 苔むした紫雲
+		Tooltip: ""
+	}
+
+	CypressWoodItem: {
+		DisplayName: イトスギ
+		Tooltip: ""
+	}
+
+	MangroveWoodItem: {
+		DisplayName: マングローブ
+		Tooltip: ""
+	}
+
+	SwampMap: {
+		DisplayName: 沼地の地図
+		Tooltip:
+			'''
+			マップデバイスに設置すると使用できる
+			プレイヤー数に応じて一定回数使用できる
+			「地図から苔と木の匂いがする」
+			'''
+	}
+
+	CrystalVisors: {
+		DisplayName: クリスタルバイザー
+		Tooltip:
+			'''
+			半次元を見通せるようになる
+			「...しかも、その姿は最高にイカしてる。」
+			'''
+	}
+
+	PrismShardItem: {
+		DisplayName: プリズムの欠片
+		Tooltip: アラリックなら、これを見たがるかもしれない
+	}
+
+	NostalgicShardBannerItem.DisplayName: ノスタルジックシャードのバナー
+
+	CypressLeavesItem: {
+		DisplayName: イトスギの葉
+		Tooltip: ""
+	}
+
+	MangroveLeavesItem: {
+		DisplayName: マングローブの葉
+		Tooltip: ""
+	}
+
+	LogwoodPistol: {
+		DisplayName: ログウッドピストル
+		Description:
+			'''
+			必ず敵に毒を与える
+			すでに毒状態の敵に弾丸が命中すると、最大5体の他の毒状態の敵へ跳ね返る
+			'''
+		Tooltip: 「安全上の理由で濡れている。」
+	}
+
+	BloatingLeech: {
+		DisplayName: 膨れヒル
+		Tooltip: ""
+		Description:
+			'''
+			敵に吸い付き、血で膨れ上がりながら時間経過で爆発する。
+			出血状態の敵に吸い付くと、より早く膨れ上がる
+			'''
+		AltUseDescription: 「味方であることに感謝しよう。」
+	}
+
+	MetadataEntityPlacer: {
+		DisplayName: メタデータエンティティ設置ツール
+		Tooltip: コードから特定の位置を検索するためのタイルエンティティを設置する
+	}
+
+	FirelordsWill: {
+		DisplayName: 炎王の意志
+		Tooltip: ""
+	}
+
+	PyralisHeart: {
+		DisplayName: パイラリスの心臓
+		Tooltip: ""
+	}
+
+	FallenKingsLegacy: {
+		DisplayName: 滅びし王の遺産
+		Tooltip: ""
+	}
+
+	ProlifRing: {
+		DisplayName: 増殖の指輪
+		Tooltip: ""
+	}
+
+	Cryobrand: {
+		DisplayName: クライオブランド
+		Tooltip: ""
+		Description: 炎と氷の激突の中で鍛えられたクライオブランドは、炎と冷気の両方を操る。
+		AltUseDescription:
+			'''
+			右クリックで剣（炎）形態と盾（冷気）形態を切り替える。
+			剣形態：与えるダメージが15%増加。
+			盾形態：被ダメージが15%減少。
+			コンボ：
+			剣-剣-盾：炎の斬撃と、回転しながら飛ぶ盾。
+			盾-盾-剣：盾による強打と、巨大な氷の衝撃波。
+			'''
+	}
+
+	MapRecoveryItem: {
+		DisplayName: マップ復旧アイテム
+		Tooltip: ""
+	}
 }
 
 Keybinds: {
@@ -2066,6 +2942,171 @@ Keybinds: {
 	QuestUIKey.DisplayName: クエストUI
 	DropTableKey.DisplayName: ドロップ表
 	PassiveTreeUIKey.DisplayName: パッシブツリー
+	ToggleQuestDebugging.DisplayName: デバッグ：クエストデバッグ切替
+	ToggleEncounterDebugging.DisplayName: デバッグ：エンカウンターデバッグ切替
+	VirtualBagHotkey.DisplayName: 収納袋を開閉
+	CurrencyPouchHotkey.DisplayName: 通貨ポーチを開閉
+	ItemFilterHotkey.DisplayName: アイテムフィルター編集画面を開閉
+	ItemCreatorKey.DisplayName: アイテム作成キー
+}
+
+Mechanics: {
+	Shift: (Shiftキー長押しで関連メカニクスを表示)
+	SmallShift: (shift)
+	Mechanic: メカニクス
+	Scroll: ({0} / {1}、マウスホイールで表示切替)
+
+	Error: {
+		Tag: (無効)
+		Description: このメカニクスタグは無効です。
+	}
+
+	Self: {
+		Tag: メカニクスタグ
+		Description: 下線付きのタグにカーソルを合わせると、機能の詳細を確認できます！
+	}
+
+	ElementalDamage: {
+		Tag: 属性ダメージ
+		Description:
+			'''
+			属性ダメージは、他のダメージに固定値で追加したり、割合で変換したりできます。
+			これにより追加ダメージを与えたり、他のメカニクスと相乗効果を得たり、デバフを付与したりできます。
+			'''
+	}
+
+	Fire: {
+		Tag: 炎属性ダメージ
+		Description: 属性ダメージの一種で、クリティカルヒット時に「炎上」を付与します。「炎上」は、その攻撃のダメージに応じて威力が増加する継続ダメージ系デバフです。
+	}
+
+	Cold: {
+		Tag: 冷気属性ダメージ
+		Description: 属性ダメージの一種で、まれに「氷結」を付与します。氷結中は敵が完全に行動不能になり、その持続時間は与えたダメージに応じて変化します。
+	}
+
+	Lightning: {
+		Tag: 雷属性ダメージ
+		Description: 属性ダメージの一種で、「感電」を付与します。感電した対象は被ダメージが増加します。
+	}
+
+	Chaos: {
+		Tag: 混沌ダメージ
+		Description: 混沌ダメージは「毒」を付与します。毒は重ねがけ可能な継続ダメージ系デバフです。属性ダメージには含まれません。
+	}
+
+	Ravencrest: {
+		Tag: レイヴンクレスト
+		Description: 冒険者たちの主要な拠点となる町で、クエストの中心地でもあります。
+	}
+
+	Mapping: {
+		Tag: マッピング
+		Description: マップデバイスを使用すると、所持している任意のマップへ移動できます。主にボスのエリアへ向かうために使用します。
+	}
+
+	Blocking: {
+		Tag: ブロック
+		Description: 一部の装備品、主に盾には、一定確率で攻撃を「ブロック」する効果があります。
+	}
+
+	Affixes: {
+		Tag: 接頭辞
+		Description: 接頭辞はランダムに付与され、その対象にさまざまな強化効果を与えます。
+	}
+
+	MapAffixes: {
+		Tag: マップ接頭辞
+		Description: マップに変化を加え、難易度を大きく上昇させる接頭辞です。効果はエリアレベルに応じて強化されます。
+	}
+
+	ItemAffixes: {
+		Tag: アイテム接頭辞
+		Description:
+			'''
+			アイテムにランダムで付与される接頭辞です。
+			付与される接頭辞は、アイテムのレベル、種類、レアリティによって決まります。
+			'''
+	}
+
+	EnemyAffixes: {
+		Tag: 敵接頭辞
+		Description: 敵に適用される接頭辞です。NPCのレアリティに応じて、コモンは0個、マジックは2個、レアは4個付与されます。
+	}
+
+	AreaLevel: {
+		Tag: エリアレベル
+		Description: 現在いるエリアのレベルです。戦利品のレベル、出現する接頭辞、敵のステータス、アイテムやNPCのレアリティに影響します。
+	}
+
+	ItemRarity: {
+		Tag: アイテムレアリティ
+		Description:
+			'''
+			エリアレベルとマップ接頭辞に応じてランダムに決まるレアリティです。マジックには1～2個、レアには3～4個の接頭辞が付与されます。
+			ユニークはこれらとは別枠で、ランダム性は低いものの、武器としてはより複雑な性能を持つことが多いです。
+			'''
+	}
+
+	GrimoirePickups: {
+		Tag: 魔導書素材
+		Description: 魔導書を通じて召喚を行うために使用する素材です。拾った後は魔導書の保管庫内でのみ確認できます。
+	}
+
+	Questing: {
+		Tag: クエスト
+		Description: 世界各地を探索すると、クエストブックに記録して追跡できるクエストが見つかります。新たなボスやコンテンツ、さまざまな報酬につながります。
+	}
+
+	DamageOverTime: {
+		Tag: 継続ダメージ
+		Description: 「毒」や「炎上」のように、一定の間隔でダメージを与えるデバフです。
+	}
+
+	Nearby: {
+		Tag: 近距離
+		Description: 対象から150ピクセル以内の範囲です。「効果範囲の増加」などの影響は受けません。
+	}
+
+	Far: {
+		Tag: 遠距離
+		Description: 対象から150ピクセルより離れた範囲です。「効果範囲の増加」などの影響は受けません。
+	}
+
+	BehaviorSpeed: {
+		Tag: 挙動速度
+		Description: "[mechanic:ActionSpeed]と[mechanic:MovementSpeed]をまとめた速度です。エンティティがどれだけ速く移動するか、どれだけ頻繁に行動できるかの両方を表します。"
+	}
+
+	ActionSpeed: {
+		Tag: 行動速度
+		Description: エンティティが行動できる頻度です。
+	}
+
+	MovementSpeed: {
+		Tag: 移動速度
+		Description: エンティティが移動する速さです。
+	}
+
+	Siphon: {
+		Tag: ライフ吸収
+		Description: 与えたダメージに応じて体力を回復する効果です。
+	}
+
+	Intelligence: {
+		Tag: 知力
+		Description: 10ポイントにつき最大マナを5増加させる能力値です。
+	}
+
+	Strength: {
+		Tag: 筋力
+		Description: 10ポイントにつき最大体力を5増加させる能力値です。
+	}
+
+	Dexterity: {
+		Tag: 敏捷
+		Description: 10ポイントにつき、すべてのアイテムの使用速度を0.1%増加させる能力値です。
+	}
 }
 
 Misc: {
@@ -2083,7 +3124,7 @@ Misc: {
 	GrimoireConsume: "{0}を消費した！"
 	GrimoireMaterial: 魔導書のメナジェリーに追加可能。右クリックで使用。
 	GrimoireBoon: "{0}をコインと交換した！"
-	# これは、EoW/BoC のスポーンを無効にするために使用され、ボスをスポーンする代わりに、次のように表示されます。
+	# This is used for disabling EoW/BoC spawns, instead of spawning the boss it says this.
 	ChasmAppears: 大地に裂け目が走った...
 	HealthPotionTooltip: ライフポーション
 	ManaPotionTooltip: マナポーション
@@ -2101,6 +3142,56 @@ Misc: {
 	ImpendingDoom: 世界の中心で脈動が速まる...
 	VoidPearlCondition: ハードモード中、または『混沌解放』クエスト中
 	SubworldItemDisabler: サブワールド内では使用できない
+	Damage: "{0} ダメージ"
+	RestockShop: ショップを再入荷
+	RestockTooltip: (各商人につき1回のみ使用可能)
+
+	Element: {
+		Fire.Name: 炎
+		Cold.Name: 冷気
+		Lightning.Name: 雷
+		Chaos.Name: 混沌
+	}
+
+	ShardInvalidations: {
+		NotRareOrMagic: 『レア』または『マジック』アイテムが必要です
+		MaxAffixes: 接頭辞の付与上限に達しています
+		NoAffixes: このアイテムには接頭辞がありません
+		Invalid: このアイテムには接頭辞を付与できません
+		CorruptOrCloned: 破損または複製されたアイテムはこれ以上変更できません
+		IsUnique: 『ユニーク』以外のアイテムが必要です
+		IsNormal: 『ノーマル』以外のアイテムが必要です
+		NotMagic: 『マジック』アイテムが必要です
+		NotRare: 『レア』アイテムが必要です
+		NotNormal: 『ノーマル』アイテムが必要です
+	}
+
+	RavencrestSigns: {
+		Anvil: 鉄の金床
+		Lodge: ロッジ
+		Split:
+			'''
+			<-- ロッジ、鍛冶場
+			    図書館、あばら家 -->
+			'''
+	}
+
+	Rifts: {
+		Stability: リフト安定度
+		Touch: リフトに触れる
+		NaturalSpawn: 世界のどこかにリフトが開きました！
+		Introduction: 壁の奥に封印されていた古の力が、世界各地で姿を現し始めています。
+	}
+}
+
+MusicDisplay: {
+	ModName: Path of Terraria
+	Ennway: ENNWAY
+
+	SunDevourer: {
+		DisplayName: Godrays (Sun Devourer テーマ)
+		Author: by ENNWAY
+	}
 }
 
 NPCs: {
@@ -2114,11 +3205,19 @@ NPCs: {
 			Common0: 鋼と共に生きてきた身だ。何か買ってくか？
 			Common1: 時々洞窟が恋しくなる。岩と石だ...もはや兄弟同然よ。
 			Common2: 骨を空気みたいに切る剣は最高だ。料理も捗る！
-			Common3: 腕相撲なら俺が勝つ。鍛冶仕事はいい鍛錬になるからな。
+			Common3: "[plrclass/:l] - 腕相撲なら簡単に勝てるぞ。鉄を鍛える作業は、いい運動になる。"
 			Quest: 見ての通り、恐ろしい出来事が起きて鍛冶場が粉々になった。何が起きたか？さあな、岩みたいに寝てたもんでな。ともかく、材料集めを手伝ってほしい。街の金属がしばらく底をついてる。それと木材も頼む。
-			Quest2: 見事だ！急いで古い鍛冶場を直すとしよう。これは攻撃前に作った試しの剣だ。ゾンビで切れ味を見てきてくれ。面倒な連中だからな。あと素材も追加で頼めると助かる。鉄の金床を完全復活させたいんだ。
+			Quest2: 見事だ！急いで古い鍛冶場を直すとしよう。これは攻撃前に作った剣だ。ゾンビで切れ味を見てきてくれ。面倒な連中だからな。あと素材も追加で頼めると助かる。鉄の金床を完全復活させたいんだ。
 			Quest3: 涙が出そうだ...鉄の鍛冶場はほぼ完成だ！これは戦場で学んだ教訓だ。時には、思い切って狂う必要がある。だが気をつけろよ！またいつでも来てくれ。大いに助かった！
 			OldManDialogue: おぉ、旅人よ...どうした？誰かに紹介された？ふむ...赤い外套の男なら覚えがある。ずいぶん前だがな。妙な物を探していた。邪悪な書、蝋燭二本、そして邪悪なインゴットだ。粉を本に振りかけるとか言っていたが...詳しくは分からん。
+			EoWDialogue: 不浄から不穏な知らせが届いてる。仲間の一人、モルヴェンが広がる闇を調べに行ったきり、行方不明になっちまった。最近の不浄はますます凶暴になってるらしい...あの歪んだ地へ向かうつもりなら、あいつを見かけないか気にかけてやってくれ。機転の利く奴だが、どんな勇敢な者でもあの悪夢の中じゃ迷っちまうからな。
+
+			Golem: {
+				Intro: おぉ！偉大なる冒険者よ。新しい鍛冶仕事を探してたんだが、最近の騒ぎを見てて気になるものを見つけた。ジャングルの奥深くに寺院があってな、面白い金属鍛冶の技術があるかもしれん...いや、レンガ鍛冶か？そこはまだ分からん。守りも固いらしいから、気をつけろ！
+				0: 見事な仕事だ！妙な鍛造法だが、汗水垂らして取り組めば俺に解けないものじゃない。しばらく寺院を片付けてきてくれ。凶暴な獣どもがかなり巣食ってるらしい。俺はこいつの扱い方を考えておく...そのうちにな。昼飯までには何とかしたいところだ！
+				1: よし！簡単な地図を手に入れたぞ。俺は刻印職人じゃないが、これでも色々見てきた。奴らはそれぞれの動力セルの内側に何か情報を刻んでいたらしい。セル自体はもう使えないが、どうやら何かの「起源」を指し示してる。こいつを持って、その先にいる獣を探し出してくれ。きっと大したお宝を持ってるはずだ。全部うまくいったら、後で盛大なご馳走といこうじゃないか！
+				2: 俺を超えちまったな！まあ、それで文句を言う奴もいないか。これだけの偉業にふさわしいご馳走を何とか用意してみるとしよう。こいつは俺の鍛冶仕事にも大いに役立つ、本当にありがとな！
+			}
 		}
 
 		BubbleDialogue: {
@@ -2149,6 +3248,7 @@ NPCs: {
 
 		Entry: 陽気なドワーフ、スレインは賑やかな会話と旨い酒、そして最高の武器作りを愛している。たいていは鍛冶場で武器を打っている姿が見られる。
 		DownedForest: 森林地帯を攻略後
+		Census.SpawnCondition: レイヴンクレストに最初から出現する。住居は鍛冶場。
 	}
 
 	BarkeepNPC: {
@@ -2159,7 +3259,7 @@ NPCs: {
 			Common1: 『酒場の主人』かって？あぁ、そうだよ！して、何をお求めで？
 			Common2: 実は、酒に弱くてね。戦いもからきしだ。だからこそ、俺は酒場に立ってるってわけさ。
 			Common3: 二人組が酒場に来てな、俺は聞くんだ。「何を飲む？」ってな！...え？オチ？
-			Quest: やぁ、少しいいかな？蜂蜜が足りなくて困ってるんだ。昔の友人がくれた蜂蜜があったんだが、さすがに尽きた。蜂蜜の当てはあるか？いや、できれば取ってきてほしい。礼は弾くよ。この瓶を渡すから、満たしてきてくれ。
+			Quest: やぁ、少しいいかな？蜂蜜が足りなくて困ってるんだ。昔の友人がくれた蜂蜜があったんだが、さすがに尽きた。蜂蜜の当てはあるか？いや、できれば取ってきてほしい。礼は弾むよ。この瓶を渡すから、満たしてきてくれ。
 			NeedsMoreHoney: ありがとう！これは約束の報酬だ。ただ...これでも量が少なすぎる。客足も料理も増えてて、きっとすぐ尽きるだろう。もっと効率のいい手はないだろうか？俺が動いてもいいが...アラリックに聞いてみてくれ。変人だが奇跡を起こす。気をつけてな。
 		}
 
@@ -2179,7 +3279,7 @@ NPCs: {
 			Goblins: {
 				0: ゴブリンどもめ、俺の酒に手出しするんじゃない！
 				1: 火炎瓶は慣れてる。もう一度回すか？
-				2: これ以上グラスを割われたら、本気で剣を握り直すぞ。
+				2: これ以上グラスを割られたら、本気で剣を握り直すぞ。
 			}
 
 			Rain: {
@@ -2190,13 +3290,14 @@ NPCs: {
 		}
 
 		Entry: ブロムは単純な男だ。楽しい時間が欲しけりゃ酒場に来る。ブロム・ハーディに話しかける。良い人々と、良い酒で、良い時間を過ごす。それ以上に何が要る？
+		Census.SpawnCondition: レイヴンクレストに最初から出現する。住居は酒場。
 	}
 
 	HunterNPC: {
 		DisplayName: エラーラ
 
 		Dialogue: {
-			Common0: ごきげんよう、旅人さん。鋭い目と確かな腕をお求めで？
+			Common0: ごきげんよう、[plrclass/l:l]。鋭い目と確かな腕をお求めで？
 			Common1: この森で多くの獣たちを追ってきたわ。ご一緒されます？
 			Common2: 気を抜かないで。森は数多の秘密を持っているわ。
 			Common3: お帰りなさい。相変わらず波乱万丈のようね。
@@ -2235,7 +3336,8 @@ NPCs: {
 		}
 
 		MapButton: マップ（20ゴールド）
-		Entry: 寡黙な狩人エララは、非常に多くの知識を持つ。卓越した狩猟と追跡の腕を持ち、ほとんど全方位に目を配っている。
+		Entry: 寡黙な狩人エラーラは、非常に多くの知識を持つ。卓越した狩猟と追跡の腕を持ち、ほとんど全方位に目を配っている。
+		Census.SpawnCondition: レイヴンクレストに最初から出現する。
 	}
 
 	Minera: {
@@ -2249,7 +3351,7 @@ NPCs: {
 		Dialogue: {
 			0: 王のエリアでは地面が勝手に揺れ続ける。まるでスライムが岩に染み込んでいるかのようだ。
 			1: 冒険者は冒険の「ヌメヌメさ」を隠すものだ。私は隠さない。はっきり言うがあれは異常だ。
-			2: 頭上に注意しろ。あえりふれたアドバイスに聞こえるだろうが、王のエリアでは特に重要なのでな。
+			2: 頭上に注意しろ。ありふれたアドバイスに聞こえるだろうが、王のエリアでは特に重要なのでな。
 			3: 刃は限界まで鍛えるべきだ。スライムを斬るのは、見た目以上に難しい。
 			Quest: 遠いエリアへ冒険者を送る古代装置の噂を聞いた。金属インゴットと、焦点用の宝石があれば作れるそうだ...用意できたら持ってきてくれ。
 			QuestResponse: よし、完成だ。これがマップデバイスだ。私は昔、あの王に挑んでほぼ全てを失った。君は街を立て直した。今度は私の願いだ、キングスライムを倒してくれ。このマップを使ってくれ。
@@ -2257,6 +3359,12 @@ NPCs: {
 			TradeLunarLiquid: これか。...経験はある。だが軽い気持ちで扱うものではないぞ。
 			CantTradeLiquid: 液体をなくしたのか？再製作には月光の欠片が要る。最低でも5つだ。
 			GetKingMapAgain: マップをなくした？大丈夫だ、予備ならある。地図道具は常備している。
+
+			QueenSlime: {
+				0: 感じるか、冒険者よ...？大地そのものが変化し、新たに現れた光り輝くエリアの生物から、何か異質な力が放たれている。このエネルギーを集めてきてほしい。持ち帰ってくれれば、我々が一体どんな力を相手にしているのか理解できるはずだ。
+				1: やはり恐れていた通りか...その魂は君が持っていてくれ。次の標的が誰なのか、はっきり分かった。王による侵食は始まりに過ぎなかったのだ。それを上回るスライム、クイーンスライムが動き始めている。このマップを使って、きらめく洞窟へ向かい、ロイヤルゼリーコアを持ち帰ってくれ。それを手に入れなければ、彼女の支配を止める望みはない。
+				2: これで終わりだな...これは私に任せてくれ。今度こそ完全に破壊し、この腐敗したスライム王族に終止符を打つ。ありがとう、冒険者。これでようやく私も休める。
+			}
 		}
 
 		BubbleDialogue: {
@@ -2268,7 +3376,7 @@ NPCs: {
 
 			Night: {
 				0: 休まねば...
-				1: 目を閉じても、あの青い外皮がよぎるl...
+				1: 目を閉じても、あの青い外皮がよぎる...
 				2: 誰か、ライフポーションを持ってないか...
 			}
 
@@ -2288,6 +3396,7 @@ NPCs: {
 		LunarLiquidButton: 月光液
 		AnotherMap: マップ
 		Entry: 王に打ちのめされた戦士、ガリック。レイヴンクレストで英気を養いながら、スライムへの執念と力への渇望を抱いている。近いうちに、彼は復帰するはずだ。
+		Census.SpawnCondition: 20%の確率で酒場に出現する。
 	}
 
 	TownScoutNPC: {
@@ -2308,12 +3417,20 @@ NPCs: {
 		Dialogue: {
 			Common0: 魔法はオソロシイ...かつて誰かが、己の手をネズミにヘンカさせていた。教訓？ハテ...
 			Common1: 叡智はチカラよ。あの天使像もかつてはナニカを...いや...。いずれワカルことだ。
-			Common2: キミの運命ならば見えておる。だがそれを表す言葉が浮かんでこぬ。
+			Common2: "[plrclass/l:l]、キミの運命ならば見えておるぞ。だがそれを表す言葉が浮かんでこぬ。"
 			Common3: オットォ！危うく君を神にも等しいほど巨大なモグラに変えてしまう所ダッタ！ワレの力には気を付けることだ。
 			Common4: ワレはこう見えて商人じゃ...ホレ！太古のカケラに、強大な魔法素材タチ！思わず目眩がしてくるだろう...？
+			Common5: もしアイテムをなくした時は、ワレが役に立てるぞ！ハッハッハ！今度は燃やさんようにするからな。
 			Quest: フム、各地の被害は見たようだな。ザンネンながら、ワレの力でも世界を元通りにはできん。ワレは...別の研究で手一杯だ。実はな、ゴブリンの盗人がワレの魔導書を一冊奪っていった。あれは強力すぎて、熟練の魔術師でなければ扱えん。奴らは秘密を探ろうとしているはずだ。急いで取り戻してくれ。成功すれば、想像を超える力を授けようぞ！ワレはここで、魔法の力を使って一冊ずつ本を棚に戻しているのでな。
-			Quest2: 礼を言うぞ、若者よ！キミの行いは必ず報われるだろう！この力で、キミは常に前進できる。そしてこれが力の一端...『ノヴァ』だ！！図書館もすぐ直る。本の整列は、涙が出るほど完璧だろう。
+			Quest2: ああ！本当にありがとう。君の親切には、いつかたっぷり報いると約束しよう！...その前にもう一つ。町の左側にゴブリンが潜んでいるという噂を聞いてな...様子を見てきてくれぬか？もし脅威になるようなら、何としてでも排除してくれ...急ぐのだ！
+			End: マーリンの髭にかけて！ゴブリンの大群を討ち倒したか！ホレ、力のカケラを受け取るがよい。『ノヴァ』など、ワレの力のほんの一端に過ぎぬ！図書館については...力を取り戻した今、キミが戻る頃には修復を終えているだろう！今まで見たこともないほど完璧に整列した本々！その光景を目にして涙するがよい...もうスグにな！
 			GiveQSQuest: フム、中々にボウケンしているようだな。だがワレは、君を成功へ運ぶだけの存在ではない。そこで小さな試練を用意した。世界を巡り、私の力の一端に触れるのだ。
+
+			EoL: {
+				0: アハ！ごきげんよう、[plrclass/l:l]よ。キミらが聖域と呼ぶ場所に、実に興味深い生物がいると耳にしてな――奴らのクリスタルを、この手で確かめてみたいと思っておる。ワレに時間さえあれば...アァ、ザンネン！キミが代わりに取ってくるのだ。道中が真っ直ぐで、邪魔の入らぬ旅になることを願っておるぞ！これを身につけよ。きっと――いや、確実に旅が楽になるハズだ！
+				1: 興味深いクリスタルよ...ウム。その力は大抵の者に匹敵する――ワレには及ばんが――そして、多くの者には見えぬ世界の存在を示しておる――もちろんワレは例外だ。ワレにはあらゆる領域が見えておるぞ、[plrclass/l:l]よ。ただ、それをあえて利用しておらぬだけだ。ハッハァ！キミの妙なマップデバイスなら、この羊皮紙もうまく扱えるだろう。
+				2: フム...エンプレスオブライト、と言ったか？ワレの古きライバルよ。もちろん、ワレと同格ではないがな。ワレの放つ爆――いや、魔法を見れば奴も目を丸くするだろう！ともあれ礼を言うぞ。危うくワレ自身が...この底知れぬ偉大なる力を、久々に振るわねばならぬところだった。別に普段使っていないワケではないぞ。
+			}
 		}
 
 		BubbleDialogue: {
@@ -2343,17 +3460,32 @@ NPCs: {
 		}
 
 		Entry: おそらく史上最強の魔術師、アラリック。しかし本人の態度は「最強を気取る魔術師」そのものだ。時の気まぐれで、即座に真の大災厄を引き起こすこともある。
+		Census.SpawnCondition: レイヴンクレストに最初から出現する。住居は図書館。
+		Recover: 復旧
+		Rebuild: 再建
+
+		RecoverDialogue: {
+			0: アイテムをなくしたのか？ホレ、ここにあるぞ...ハッハ！キミの心の奥に隠れていたものを見つけ出したのだ。だが脆いから注意せよ。ワレの力には、他にも使い道が山ほどあるのでな！
+			1: 世界にアイテムを盗まれたようだな？ゴブリンどもを思い出す...何千年もの努力も...結局、彼女を救うことはできなかった...オォ！いや、何でもない。それらのアイテムは一時的なものだ。気をつけて使うがよい！
+			2: ドカーン！ハッハ、冗談だ！ホレ、これでよいだろう。頼りすぎるでないぞ――いつまでも残るものではないからな！
+		}
+
+		RebuildDialogue: {
+			0: オヤ？ワレの図書館がまたメチャクチャになったのか？...違う？ハテ。まあよい、心配してくれたことには礼を言うぞ、[plrclass/l,1:l]よ。
+			1: ジャジャーン！その目に焼き付けるがよい、苦難など知らぬかのような図書館の姿を！キミの助力には、強い感謝の念を授けようぞ。
+			2: ...アハ！見ての通り、図書館は元通りだ。なぜ最初からこうしなかったのかって？...あの頃は忙しかったのだ。
+		}
 	}
 
 	EldricNPC: {
 		DisplayName: エルドリック
 
 		Dialogue: {
-			Common0: 世界も随分と騒がしくいなっているな。
+			Common0: 世界も随分と騒がしくなっているな。
 			Common1: 土地が騒がしくとも、冷静さを失うな。
-			Common2: 紅茶でもどうだ？ 私なら大歓迎だ。
+			Common2: 紅茶でもどうだ？私なら大歓迎だ。
 			Common3: 魔法は手段の一つにすぎない。実用性もまた重要だ。忘れるなよ。
-			Quest: 旅人よ、私はエルドリック。西の工事を担当している。警告しに来た。巨大な「眼」が我々を見下ろし、星々を乱そうとしている。それを止められる戦士は、君しかいない。引き受けてくれるか。デーモンアイとゾンビから、月光の欠片が必要だ。調合の残りはガリックに聞いてくれ。
+			Quest: "[plrclass/l,1:l]よ、私はエルドリック。西の工事を担当している。警告しに来た。巨大な「眼」が我々を見下ろし、星々を乱そうとしている。それを止められる戦士は、君しかいない。引き受けてくれるか。デーモンアイとゾンビから、月光の欠片が必要だ。調合の残りはガリックに聞いてくれ。"
 			QuestLunar: ありがとう。ガリックに話しかければ、準備も整うはずだ。
 			Quest2: ありがとう。これが調合品だ。地面に投げれば、一時的だが『眼』へのエリアが開く。失敗すればまたやり直しになる。慎重にな。私はその間、天文台の建設を続ける。健闘を祈る。
 			Quest3: 想定通りだ。『眼』は退いた。再成長？今は気にしなくていい。これで一息つける。近いうちに天文台も完成するだろう。よければ立ち寄ってくれ。
@@ -2391,6 +3523,7 @@ NPCs: {
 		CreateConcoction: 調合作成
 		DonateLunar: 月光の欠片/液体を提供
 		Entry: 物静かで孤高なエルドリックは、沈黙を愛する。星を見つめ、宇宙を知る観測者でもある。彼が見つめれば、宇宙もまた見返す。大の紅茶好き。
+		Census.SpawnCondition: キングスライムを撃破後、酒場に出現する。
 	}
 
 	MorvenNPC: {
@@ -2405,19 +3538,18 @@ NPCs: {
 			Follow1: ワシが死んだら、覚悟しんしゃいよ！
 			Follow2: 会話は無用じゃ、先を行けい！
 			Follow3: ほれ、気を取り直せい...先へ行くぞ。
-			Rescue: ...ああ、助けか。感謝するぞ、見知らぬ人よ。デバウアーを追ってここに来たのだが...失敗じゃった。道具が役に立たず、気づけばこの腐臭の石に閉じ込められていた。数時間、ここで過ごす羽目になってな。悪いが、外まで護衛してレイヴン像まで連れて行ってくれぬか。礼はする...多分な。
 			Aboveground: ああ、助かったぞい。あの息苦しい洞窟から解放された。ところで、レイヴンクレストという集落を知っておるか？古い知人がいてな。デモナイトを見せたい。レイヴン像まで連れて行けば、君にも分け前があるぞ。
 			InRavencrest: 身なりを整えるのは後じゃ。礼じゃ、旅人よ。ついでに仕事もやろう。シャドウオーブという奇妙な球体を調べておっての。一つ壊してもらいたい。それでどうなるか知りたいんじゃ。
-			NearObelisk: ふむ、興味深い...ワシはレイブン像を指示したはずなんじゃが。
-			BeforeBeatingEoW: 何じゃと？ 裂け目が出て放置した？観測対象を前に引き返すとは...突入じゃ！
-			AfterBeatingEoW: 驚いた。あの腐った領域で、あんな巨獣が現れるとは。だが成果を得ることはできた。これをやろう。研究的価値は高いぞ。
-			Abandoned: やっと来たか。ワシを放置して世界を歩けと？ 冗談じゃない。
+			NearObelisk: ふむ、興味深い...ワシはレイヴン像を指示したはずなんじゃが。
+			BeforeBeatingEoW: 何じゃと？裂け目が出て放置した？観測対象を前に引き返すとは...突入じゃ！
+			AfterBeatingEoW: 驚いた。あの腐ったエリアで、あんな巨獣が現れるとは。だが成果を得ることはできた。これをやろう。研究的価値は高いぞ。
+			Abandoned: やっと来たか。ワシを放置して世界を歩けと？冗談じゃない。
 		}
 
 		BubbleDialogue: {
 			Day: {
 				0: 近いうちにも太陽を制御せねば...
-				1: ははっ！ この木、水で動くぞ！...
+				1: ははっ！この木、水で動くぞ！...
 				2: まったく、愚か者だらけじゃ。
 			}
 
@@ -2467,6 +3599,7 @@ NPCs: {
 		}
 
 		Entry: 地下の不浄地帯に閉じ込められた経験により、この狂気の科学者はさらに狂気を深めた。彼は他者を見下すが、「科学のため」とあらば即座に利用する。
+		Census.SpawnCondition: クトゥルフの目を倒した後、地下の不浄で縛られた状態で見つかる。彼のクエストを完了するとレイヴンクレストへ移動する。
 	}
 
 	LloydNPC: {
@@ -2476,7 +3609,7 @@ NPCs: {
 			Common0: 多くは語らん。
 			Common1: この世界を守れ。
 			Common2: なんだ？
-			Common3: やあ、同胞の冒険者よ。
+			Common3: やあ、同胞、[plrclass/l,1:l]よ。
 			Follow0: 前進しよう。
 			Follow1: 当面の目標は一つだ。
 			Follow2: 目を光らせよう。
@@ -2558,17 +3691,19 @@ NPCs: {
 				2: 皆に感謝を...
 			}
 		}
+
+		Census.SpawnCondition: 地上の真紅で見つけることができる。彼のクエストを完了するとレイヴンクレストへ移動する。
 	}
 
 	RhineNPC: {
 		DisplayName: ライン
 
 		Dialogue: {
-			Common0: やあ！ レイヴンクレストの名物ミード、これ以上最高な日はないな。
-			Common1: 旅人かい？ 昔話に出てくる「牛のエリア」を見たことは？ うちの家系の伝承でさ。
+			Common0: やあ！レイヴンクレストの名物ミード、これ以上最高な日はないな。
+			Common1: 旅人かい？昔話に出てくる「牛のエリア」を見たことは？うちの家系の伝承でさ。
 			Common2: ゴールド五枚で、人生一番ぶっ飛んだ話を教えてやろう。乗るか？
 			Common3: いやはや、こんな味は他にないな。君も今日は休みかい？
-			Quest: やあ、冒険者よ。凍てつく雪原地帯って行ったことあるかい？母から聞いた話がずっと気になっていてな...凍てつく大地の奥深くに、巨大でのっそりした獣がいるという伝説だ。ただの昔話だとは思うが、私は寒さが苦手でな。世界の雪原、地表から少し下に小さな砦がある。このコンパスを持って探し、開いてみてくれ。何を取るべきかは、すぐ分かるはずさ。
+			Quest: やあ、 [plrclass/l:l]よ。凍てつく雪原地帯って行ったことあるかい？母から聞いた話がずっと気になっていてな...凍てつく大地の奥深くに、巨大でのっそりした獣がいるという伝説だ。ただの昔話だとは思うが、私は寒さが苦手でな。世界の雪原、地表から少し下に小さな砦がある。このコンパスを持って探し、開いてみてくれ。何を取るべきかは、すぐ分かるはずさ。
 			Antlers: なんと...本当だったのか。母の話は嘘じゃなかった。角の欠片だけで、妙な圧を感じる。鹿そのものを探すべきだな。その道のハンターなら知っているはずだ。
 			Success: ...信じられない...ホントに...ああ！すまない！これを受け取ってくれ。私はここで、真実を噛みしめているよ。さあ、楽しんでこい。ブロム、ミードをもう一杯頼む。
 		}
@@ -2581,7 +3716,7 @@ NPCs: {
 			}
 
 			Night: {
-				0: 夜通し飲めるぞ！ どんどん注いで！
+				0: 夜通し飲めるぞ！どんどん注いで！
 				1: ああ...少し落ち着いてきた。
 				2: カード遊びもたまにはいいな...
 			}
@@ -2606,13 +3741,14 @@ NPCs: {
 		}
 
 		Entry: 旅と仕事に生きるライン。家族に会い、伝説の獣を追う日々だ。この町では、いい食事と酒、話し相手があれば満足らしい。
+		Census.SpawnCondition: クトゥルフの目を倒した後、酒場に出現する。
 	}
 
 	SkullApparition.DisplayName: スカル・アパリション
 
 	OldMan: {
 		Dialogue: {
-			QuestStart: あぁ...冒険者？ こんにちは。私は自分が誰かも、どこにいるかも分からない。だが、私の下で恐ろしい出来事が進んでいるのは確かだ。記憶はほとんど失われている。ただ、背の低い、髭の男に助けられた覚えがある。町でだ。名前は分からない。彼を探してくれ。
+			QuestStart: あぁ...冒険者？こんにちは。私は自分が誰かも、どこにいるかも分からない。だが、私の下で恐ろしい出来事が進んでいるのは確かだ。記憶はほとんど失われている。ただ、背の低い、髭の男に助けられた覚えがある。町でだ。名前は分からない。彼を探してくれ。
 			HasItems:
 				'''
 				...
@@ -2666,18 +3802,25 @@ NPCs: {
 
 		Dialogue: {
 			Common0: ウフフ...薬が囁くわ...あなた、買いに来たのでしょう？
-			Common1: 混ぜて！ 混ぜて！ 世にも奇怪な調合をね！
+			Common1: 混ぜて！混ぜて！世にも奇怪な調合をね！
 			Common2: ネズミの尻尾！コウモリの翼！で、韻？...何それ？
 			Common3: 面倒と混沌の合間が私の居場所。悪魔的な調合はいかが？
-			Quest: その狡猾さ、気に入ったわ、旅人さん。あなたも召喚、好きでしょう？魔導書のエサを連れてきなさい！基本何でもいいわ。魔導書がない...？ならこれどうぞ！オーッホッホ！
-			Quest2: ハハハ！五体満足の帰還、お見事よ！さあ、急いで！ グリモアを開いて、好きな獣を召喚しなさい！フクロウ？ コウモリ？ それとも別の何か？陽気にいきましょう！ 不死鳥があなたを導くように！
+			Quest: その狡猾さ、気に入ったわ、[plrclass/l,1:l]さん。あなたも召喚、好きでしょう？魔導書のエサを連れてきなさい！基本何でもいいわ。魔導書がない...？ならこれどうぞ！オーッホッホ！
+			Quest2: ハハハ！五体満足の帰還、お見事よ！さあ、急いで！魔導書を開いて、好きな獣を召喚しなさい！フクロウ？コウモリ？それとも別の何か？陽気にいきましょう！不死鳥があなたを導くように！
 			Quest3: ほら見て頂戴！あなただけのミニオンよ！魅惑的すぎるかしら～？さて、私も仕事に戻るわね。可能性は無限大、この世界を巡りまわりなさいな！
-			QueenBeeQuest: あら！久々の再開...かしら！？それはそうとお願いがあるの！ジャングルにいるバチ達の針を取ってきてほしいのよ！報酬は弾むわよ♪
+			QueenBeeQuest: あら！久々の再会...かしら！？それはそうとお願いがあるの！ジャングルにいる蜂達の針を取ってきてほしいのよ！報酬は弾むわよ♪
 			GotStingers: なんと素敵なのかしら！それじゃあこれをどうぞ！魔導書で小悪魔を呼び出せるはずよぉ！...それと、もう一つお願いがあるわぁ。ジャングルに潜む大物、女王蜂を始末してきて欲しいのよ。いつもいつも、私を困らせてばかり...あの害虫！クズッ！〇んでしまえ！...ゴッホン。報酬ももちろん用意してるわ！蜂蜜漬けにしてしまいなさい！
-			QueenBeeKilled: もう戻ったの？強いのね！ありがとう！ならじゃあこれを持っていきなさい！ばははは！それじゃ、さようなら～！
+			QueenBeeKilled: もう戻ったの？強いのね！ありがとう！なら、これを持っていきなさい！ばははは！それじゃ、さようなら～！
+
+			Plantera: {
+				0: ウ～ン...！実に興味深いわ。地下ジャングルの奥底から、とうの昔に失われた植物の騒がしい香りが漂ってくる...！そう！あの子が育ったのね！アハハ...なんて素敵な宝物なのかしら。あの子が目覚めたことで、この地では忘れ去られていた花々も再び芽吹いたみたい。けれど、他の地ではそうでもないのよ――その肉を持ってきて頂戴、[plrclass/l:l]。それと胞子もね。オホホ...！
+				1: フム、フム、フム。そうよ！これこそがあの子の成長、あの子の輝き！ありがとね、[plrclass/l,1:l]！でも――今度はあの子と戦ってもらうわ！プランテラが目覚めたのよ！あの凶暴な植物には、世に知られていない奇妙な性質があるの。どうしても調べたいわぁ！さあ、行って！行って！
+				2: まあ、なんて危険な恵みなのかしら！さすがは腕の立つ冒険者ね！ああ、これならきっとみんなの役に立つわ...ありがとう、優しい旅人さん。私はこれから...研究に没頭しないと。いずれお返しに、あなたにも何か素敵な恵みをあげられるかもしれないわね。そうよ！きっとそうするわ！絶対に！
+			}
 		}
 
 		Entry: 奇矯だが、見かけ以上に強大なモルガナはレイヴンクレストに多くをもたらす。理解不能な言動も多く、敬遠されがちだが、腕は確か。何をしているのか？...それは、まあ...
+		Census.SpawnCondition: レイヴンクレストに最初から出現する。住居は巣穴。
 	}
 
 	Entling: {
@@ -2724,7 +3867,7 @@ NPCs: {
 
 	Sawblade: {
 		DisplayName: 電動ソーブレード
-		Entry: 「単純この正義」とは、ある技師の言葉だ。このノコギリ刃は回る。触れれば痛い。それだけだ...実に清々しい。
+		Entry: 「単純こそ正義」とは、ある技師の言葉だ。このノコギリ刃は回る。触れれば痛い。それだけだ...実に清々しい。
 	}
 
 	CircuitSkull: {
@@ -2856,14 +3999,14 @@ NPCs: {
 			}
 
 			Reserved: {
-				0: 会えて光栄だ。
+				0: 会えて光栄だ、[plrclass/l:l]。
 				1: やあ。
 				2: 変わった格好だな。
 				3: 乾杯だ、友よ。
 			}
 
 			Boastful: {
-				0: バーンフィールド？ 大したことはなかったな。伝説もこの刃の前じゃな！
+				0: バーンフィールド？大したことはなかったな。伝説もこの刃の前じゃな！
 				1: ほほう、興味があるか？君は何を倒した？獣か？神か？
 				2: 大地の口近くの崖？子供の遊びだ！散歩みたいなものだった！
 				3: 大仕事の後の強い酒、これに勝るものはないだろ？はは！
@@ -2921,8 +4064,8 @@ NPCs: {
 			}
 
 			Partygoer: {
-				0: うおー！ このミード、効いてきたな...
-				1: ブロム？ もう一杯もらえるか...？
+				0: うおー！このミード、効いてきたな...
+				1: ブロム？もう一杯もらえるか...？
 				2: おっと。あのコイン、ここにあったのか。
 				3: ふぅ...。ちょっと休むか...
 			}
@@ -2954,32 +4097,228 @@ NPCs: {
 	}
 
 	FlameSentry.DisplayName: フレイムセントリー
+	FlamethrowerSentry.DisplayName: 火炎放射セントリー
+	MoltenSentry.DisplayName: 溶岩セントリー
+	VolatileSentry.DisplayName: 爆発性セントリー
+	SimpleLocust.DisplayName: 普通のイナゴ
+
+	TinkerNPC: {
+		DisplayName: パイラ＝コグライト
+
+		Dialogue: {
+			Common0: あら、金属と魔法が絡み合って...ふふ、なんて素敵な混沌かしら。
+			Common1: そのレバー、扱いには気をつけなさい。動かしても何も爆発しない...なんて保証はできないわよ？
+			Common2: ガチャガチャ鳴って、ブンブン唸って、おまけに爆発する――そんなものを見つけたら、だいたい私の仕業ね。
+			Common3: 機械は嘘をつかないわ...人間と違ってね。
+			TinkerIntroDialogue1: あら！そこのあなた、ちょっといいかしら？私はパイラ・コグライト。秘術工学を専門にしていてね、ガチャガチャ鳴ったり、ブンブン唸ったり...たまに景気よく爆発したりするものが大好きなの。最近、妙な機械反応を追いかけていたら、どういうわけかここへ辿り着いたのよ。せっかくだからレイヴンクレストに工房を構えようと思っているんだけど、装置を安定させるには少し材料が足りなくてね。集めてきてもらえないかしら？もちろん、ただ働きなんてさせないわ。
+			TinkerIntroDialogue2: あら、完璧じゃない！まさにこれが欲しかったのよ、冒険者さん。これだけ揃えば、やっと工房を本格的に動かせるわ。この妙なエネルギーを計器に通せば、一体何が起きているのかも見えてくるはず...。小屋を組み上げたら、また顔を出してちょうだい。ふふ、そんなに待たせはしないわよ。
+			TinkerTwinsDialogue1: ...これは...すごいわね。この観測値、とても興味深いわ。二つの反応が互いに結びついていて、そのどちらもクトゥルフの目を模している...でも中身は歯車、炎、それに鋼。自然に生まれたものじゃないわ。これは“再現品”よ。かつて巨大な獣から失われたものを補うために造られた機械...それも二体ね。月明かりを浴びると反応が一気に強くなる。どうやら夜そのものを糧にしているみたい。居場所を正確に割り出すには、月の精髄を含んだ欠片が必要になるわ。それを持ってきて。そうすれば、こちらから奴らの信号を捉えてみせる。
+			TinkerTwinsDialogue2: ふふ、素晴らしいわ！この月の欠片、奴らの信号と見事に共鳴している。干渉が強すぎて、もう少しで私のかわいい計器たちが丸焦げになるところだったわ。テレポーターはおおよその位置に合わせておいたから、準備ができたら使いなさい。でも油断は禁物よ、冒険者さん...ツインズはかなり複雑な機械みたい。まるで、神話さえ機械で再現しようとしたかのような代物ね。倒したら私のところへ戻ってきて。もし負けても大丈夫。準備を整えて、もう一度テレポーターを使えばいいわ。
+			TinkerTwinsDialogue3: お見事ね！それにしても...あの怪物たち、一体どんな職人が造ったのかしら。興味が尽きないわ。さて、いい知らせよ。次の反応がある方角を掴めたわ。今のうちに少し休んでおきなさい。またすぐ、機械仕掛けの大騒ぎに付き合ってもらうことになりそうだから。
+			TinkerDestroyerDialogue1: やれやれ...ようやく計器も一息つけると思ったのに、もう次の信号を拾ってしまったわ。地中深くに、とんでもなく巨大な何かがいる。千もの機関が噛み合って一斉に動いているような脈動...そして、信じられないほど長い蛇型の機械構造。私の読みが正しければ、これはイーターオブワールドの代用品として造られたものね。エネルギーの性質を詳しく調べたいから、冒涜的な物質のサンプルと、それの...まあ、遠い親戚にあたる肉の化け物たちと戦った証拠を持ってきてくれる？あなたなら大丈夫でしょう？
+			TinkerDestroyerDialogue2: あら、素敵ね！この素材、なんとも不気味なエネルギーを帯びて蠢いているわ...でも困ったことに、私の予想とぴったり一致している。調整結果も出たわ。デストロイヤー――遠方で鋼鉄と巨大な顎をうねらせる、途方もない機械よ。その巨大な信号を捕まえるよう、テレポーターを合わせておいたわ。準備ができたら使いなさい。ただし、いつも以上に慎重にね、冒険者さん。あれはもう獣なんかじゃない。最初から何もかもを破壊するためだけに造られた、純粋な兵器よ。
+			TinkerDestroyerDialogue3: ...まさか、本当に倒してしまうなんてね。お見事よ！デストロイヤーは瓦礫になり、あれほど騒がしかった無数の歯車も、ようやく静かになったわ。それにしても、あれほど巨大で精密な怪物が実在するなんて...恐ろしいけれど、技術者としては少し見惚れてしまうわね。奴が消えたからかしら、大地まで少し軽くなったように感じる。でも...目もワームも機械として造り直されていた。それなら、レーダーに残っている反応は...あと一つね。
+			TinkerSkeletronPrimeDialogue1: 冒険者さん、悪い知らせよ。また計器が大きく振れているわ。しかも今度の反応は、これまでよりずっと禍々しい。発信源は古いダンジョン――かつてスケルトロンが守っていた場所よ。死霊の力と機械のエネルギーが、嫌になるくらい濃く入り混じっている。どうやらツインズとデストロイヤーを造った者は、まだ満足していないみたいね。今度はダンジョンの守護者そのものを、もっと恐ろしい姿に造り変えたらしいわ。調整を仕上げるために、闇に染まった魂とたっぷりの骨、それからダンジョンに落ちている機械の残骸を集めてきてちょうだい。
+			TinkerSkeletronPrimeDialogue2: ええ、申し分ないわ！これなら観測値も綺麗に出る。下で待っているものの正体が分かったわ――スケルトロンプライム。呪われた守護者を造り直し、歯車に大砲、それに刃物まで取り付けた機械仕掛けの怪物ね。もう骨より機械の方が多いくらいよ。テレポーターの準備はできているわ。好きな時に使いなさい。ただし...覚悟だけはしておいて。きっと今までで一番手強い戦いになるわよ。
+			TinkerSkeletronPrimeDialogue3: あら？...反応が消えたわ。ふふ、お見事ね。となると、可能性は二つ。これで私の仕事はおしまいか...それとも、次の反応を探すために新しいスキャナーを造る必要があるか。ほらほら、もう行きなさい！私はさっそく新しい機械に取りかからなくちゃ。
+		}
+
+		BubbleDialogue: {
+			Day: {
+				0: いじって、叩いて、最後にちょっと爆発...ふふ、こういう一日って最高ね！
+				1: 日が出ていると細かい作業はしやすいのよね。でも火花だけは、いつも気まぐれだわ。
+				2: 機械にも夢ってあると思う？私は...あると思ってるわ。
+			}
+
+			Night: {
+				0: これだけ明かりが灯って、あちこち爆発してたら...夜でも全然暗くないわね。
+				1: 月明かりだけで安全に作業するのは、さすがに骨が折れるわ...
+				2: 暗闇の中で発明するなんて、あまり賢いやり方じゃないわよね...まあ、やるんだけど。
+			}
+
+			Rain: {
+				0: 工房に当たる雨はシューシュー鳴って、歯車は歯車で勝手に歌ってる...ふふ、なんだか面白いわね。
+				1: 湿気と機械なんて、本来なら最悪の組み合わせだけど...今夜はちょっとした見世物になるかもね。
+				2: 嵐って、水だけを騒がせるわけじゃないのね...こういう時ほど、発明したくてうずうずしてくるわ。
+			}
+
+			Goblins: {
+				0: まったく...私の発明品に傷一つでもつけたら、たっぷり電撃を浴びせてあげるわ。
+				1: ふふ...ちょうどいいわ。私の...少し不安定な子たちを試すにはね。
+				2: もう...こんなに騒がれたら、まともに調整なんてできないじゃない。
+			}
+		}
+
+		Entry: 未実装:
+		Census.SpawnCondition: 条件不明
+	}
+
+	FishermanNPC: {
+		DisplayName: マーリン
+
+		Dialogue: {
+			Common0: また網が破られたか...近頃の海は、どうにも穏やかじゃないな。
+			Common1: 海には果てがないと人は言う。だが俺はそうは思わん。奴はただ、見せたくないものを深みに隠しているだけだ。
+			Common2: 餌、釣り竿、そして忍耐。それさえあれば漁師は戦える。...まあ、切れ味のいいナイフも一本あると心強いがな。
+			Common3: 魚の悲鳴を聞いたことはあるか？...ないか。なら、それでいい。知らずに済むなら、その方が幸せだ。
+			FishermanFishronDialogue1: よう、旅の者。俺の名はマーリン。今夜の海は騒いでいる...いや、これまでの荒れ方とは違う。俺は長く海を見てきたが、こんな気配は初めてだ。深き海の底で、何かが獲物を求めて彷徨っている。そいつをその目で確かめたいというなら、まずはお前が海に挑む資格を持つ者だと証明してみせろ。滅多に釣れぬ魚と、海底に眠る素材を持ってこい。この先に待つものを前にしても、その胆力が揺るがぬか...見定めさせてもらう。
+			FishermanFishronDialogue2: ...見たのだな。海底に穿たれた、あの裂け目を。リフト...まるで海そのものに刻まれた傷だ。俺も長く生きてきたが、海があんな姿で口を開く日が来ようとはな。周囲の水には死の臭いが満ち、お前が釣り上げた魚でさえ、あれに近づくだけで怯えていた。あの闇の奥に潜むものは、この世の理に生まれた獣ではない。俺の勘が告げている。リフトが欲しているのはただ一つ...孤独に身を隠すトリュフミミズだ。そいつをここへ持ってこい、冒険者。そうすれば、海が何を隠しているのか暴いてやれる。
+			FishermanFishronDialogue3: ...手に入れたか、そのミミズを。潮の神も驚くだろうよ。見ろ、あの蠢き方を。まるで自分の行く末を知っているようじゃないか。海底のリフトは飢えている。そしてそいつは、その飢えを満たすための鍵だ。リフトの口へ針を投げ込め。そうすれば、深淵で眠る王が必ずお前を迎えに来る。デュークフィッシュロン――深き海を支配する暴君だ。己の玉座を守るためなら、奴は必ず姿を現す。剣を研げ、心を決めろ、冒険者。これはもう釣りではない。海の王との決戦だ。
+			FishermanFishronDialogue4: ...本当に行ったのか。そして、あの深淵から生きて帰ってきた。大した奴だ。お前と奴がぶつかり合った時、リフトそのものが怒号を上げるように震えていた。その震えは、岸に立つ俺の足元まで届いていたぞ。そしてやがて...すべてが静まった。デュークの支配は砕かれた。少なくとも今、この海で奴が王を名乗ることはない。だがリフトはまだ残っている。海底に刻まれた傷として、じっとこちらを見ながら次の時を待っている。見事だった、冒険者。お前は荒れ狂う潮すら乗り越える力を証明した。だが、これだけは胸に刻んでおけ。海は決して忘れない。いつの日か必ず、自らのものを取り返しに来る。
+		}
+
+		BubbleDialogue: {
+			Day: {
+				0: 海風を浴びていると、心が静まる。大抵の日は酒なんぞよりよほど効く。
+				1: 水面を照らす陽光...その輝きを見ていると、深みに潜むものさえ忘れそうになるな。
+				2: 手には竿、糸は潮の中。...やはり、ここが俺の居場所だ。
+			}
+
+			Night: {
+				0: 夜の海には歌がある。優しい子守歌の夜もあれば...命を守るための警告を告げる夜もある。
+				1: 頭上には星々、眼下には波。二つの美しきものに挟まれるとは、悪くないものだ。
+				2: 波止場へ近づくなら用心しろ。闇の中からお前を見つめる目が、すべて人のものだと思うな。
+			}
+
+			Rain: {
+				0: 雨でも晴れでも関係ない。海はいつだって、自らに支払われるべき代償を取り立てる。
+				1: 雨を吸った網は重い。だが、苦労して引き上げた獲物ほど味わい深いものだ。
+				2: 嵐は深淵に眠るものを目覚めさせる――そう語る者もいる。だが俺は違うと思う。ただ、奴らがこちらへ近づいてくるだけだ。
+			}
+		}
+
+		Entry: 未実装:
+		Census.SpawnCondition: 条件不明
+	}
+
+	AzarielNPC: {
+		DisplayName: アザリエル
+
+		Dialogue: {
+			Common0: 後悔なら...山ほどある。それでも、償わなければならない。
+			Common1: なぜ私を信じる。かつて...闇に仕えた男だぞ。
+			Common2: この仮面は、今の私を隠せる。...過去までは隠せない。
+			Common3: 影は、昔の失敗を忘れさせてくれない。...せめて最後には、償いたいものだ。
+
+			Endgame: {
+				0: ...生き延びたか。最近現れたリフトを。気配で分かる。私はアザリエル。かつて...ある存在に仕えていた。崇高な目的だと思っていた。だが違った。奴らが望んでいたのは...すべての命の終わりだ。お前ももう知っているだろう。古の者が来る。私は愚かだった。あれを信じれば、滅びの後に新たな世界が生まれると...本気で思っていた。だが、残るのは破滅だけだ。この狂気を終わらせたい。力を貸してくれ、冒険者。...私は...いや。準備しておけ。
+				1: ...戻ったか。教団にいた過去は、一生背負うつもりだ。だが...全てが無駄だったわけではない。お前の戦いは見ていた、[plrclass/l:l]。上のポータルへ行け。あれは我々の...奴らの古いダンジョンへ繋がっている。奴らは今も...そこにいるかもしれない。信仰も、まだ残っているのかもしれない。お前なら確かめられる。私は...行けない。準備だけはしておけ。戻ってきても構わない。事が終わるまで、ポータルは閉じない。
+				2: 古の者が...死んだのか。いや...違うのか...。分からない。どう受け止めればいいのかも。肩の重荷は消えた。だが...その亡骸の下にある空虚が、今度は恐ろしい。...お前には関係のない話だ。ありがとう。もう...あれに見られずに済むことを願う。少し...一人で考えたい。
+				Retry: ...そうか。何を見たのかは聞かない。見たいとも思わない。だが...何度でも行ける。覚悟ができたら、また行け。
+			}
+
+			Epilogue: {
+				0: ...終わった。そう見える。だが...まだ争いは消えていない。何かが...いや、誰かが動いている。これを持っていけ。教団にいた頃、去る少し前に手に入れた地図だ。...私は行けなかった。怖かったんだ。だが、噂は聞いている。その場所を探せ。...何かが見つかるかもしれない。
+				1: ...戻ったか。それも、手ぶらではないようだ。私から話せることは...もうない。私は冒険者じゃない。ただ、魔法を少し知っていただけの...愚か者だ。だが、お前なら分かるだろう。この先がある。古の者で...終わりではなかったらしい。
+			}
+		}
+
+		BubbleDialogue: {
+			Day: {
+				0: 闇は...今も呼んでいる。だが、もう応えない。
+				1: 昼でも...過去の影は消えない。
+				2: まだ...償えるのかもしれない。太陽を見ていると、そう思う。
+			}
+
+			Night: {
+				0: 夜の海は歌う。...優しい時もあれば、警告する時もある。
+				1: この星の下で...昔、許されない儀式を行った。
+				2: 夜は昔の私を思い出させる。...朝は、これからの私を。
+			}
+
+			Rain: {
+				0: 雨で罪は消えない。...だが、この重さくらいは冷ましてくれるかもしれない。
+				1: 雨粒の一つ一つが...裁きに感じる。それでも、悪くない。
+				2: 空まで泣いている。...私のしたことを思えば、当然だ。
+			}
+		}
+
+		Entry: 未実装:
+		Census.SpawnCondition: 条件不明
+	}
+
+	Abominable.DisplayName: 忌まわしき者
+	FallenSchemer.DisplayName: 堕落した策士
+	FallenSavage.DisplayName: 堕落した蛮人
+	FallenTyrant.DisplayName: 堕落した暴君
+
+	SwampCroc: {
+		DisplayName: クロコログ
+		Entry: この狡猾な爬虫類は、沼地に浮かぶ丸太に擬態するよう進化した。その皮膚はまるで紙やすりのようだが、砂粒の代わりに小さな刃がびっしりと生えている。
+	}
+
+	GiantEel: {
+		DisplayName: マンモス・モスイール
+		Entry: 巨大で、縄張り意識が強く、しかも伸び放題。それらを全部合わせるとこうなる！非常に攻撃的で、信じられないほど力も強い。歩いて逃げるより――いや、走って逃げた方がいい。ちなみに、水に濡れるのは嫌いらしい。
+	}
+
+	GiantEelBody.DisplayName: マンモス・モスイール
+	GiantEelTail.DisplayName: マンモス・モスイール
+
+	DragonFly: {
+		DisplayName: ドラゴンフォロウ
+		Entry: 沼地という環境の影響で、ドラゴンフォロウは独特な進化を遂げた。その役目はマンモス・モスイールの餌となる獲物を追い立てることで、食事が終わった後はその残り物にありつく。
+	}
+
+	Mudsquit: {
+		DisplayName: マッドスクイット
+		Entry: 昔ながらの、ごく普通の、満腹になると爆発する天然ものの魚だ。そう、その通り！ほんの少しでも君の血を味わえば、激しく爆発する。なぜかって？まあ、仲間まで一緒に吹き飛ばすからな！これで納得できたかな。
+	}
+
+	CryoStalker.DisplayName: クライオ・ストーカー
+	FallenShaman.DisplayName: 堕落したシャーマン
+	Shambling.DisplayName: よろめく者
+
+	InfernalBoss: {
+		DisplayName: 堕落したパイラリス
+		OverlayTitle1: パイラリス
+		OverlayTitle2: パイラリス
+		OverlaySubTitle1: 堕落した者
+		OverlaySubTitle2: 呪われし者
+		OverlayDefeatedTitle: 堕落したパイラリス
+		OverlayDefeatedSubTitle: 討伐
+	}
+
+	Mossmother: {
+		DisplayName: 若きカラカルコス
+		Entry: 苔と胞子に満ちた沼地に君臨する、比較的若いながらも強力な頂点捕食者。さらに巨大で年老いたカラカルコスは、いまだ誰にも目撃されていない...あるいは、目撃できたとしてもほんの一瞬だけだったのかもしれない。
+	}
+
+	Mossling: {
+		DisplayName: モスリング
+		Entry: 小さく、おとなしく、そして美味しそうなひと口サイズの生き物。何年も何年もかけて、より大きな若きカラカルコスへと成長する...運が良ければの話だが。そんな幸運に恵まれる個体は、本当にごくわずかだ。
+	}
+
+	NostalgicShard: {
+		DisplayName: ノスタルジックシャード
+		Entry: 人間をひどく嫌う、奇妙な半次元的生物。なぜか人々に、不快なほど強く昔を思い出させると言われている。クリスタルバイザーを装着している時にしか見ることができない。
+	}
 }
 
 Passives: {
-	# パッシブは常に以下の形式になります
-	# 名前:
-	# ツールチップ:
-	# これらを自分で生成する必要はありません。mod を実行すると自動的にキーが追加されます。
-	# {0} はパッシブの値です
+	# Passives will always be in the format
+	# Name:
+	# Tooltip:
+	# You do not need to generate these yourself, run the mod and it'll add the keys automatically.
+	# The {0} is the value of the passive
 	
 	IncreasedMeleeDamagePassive: {
-		Name: 近接鍛錬
+		Name: 近接強化
 		Tooltip: レベルごとに近接ダメージが{0}%増加
 	}
 
 	IncreasedRangedDamagePassive: {
-		Name: 精密射撃
+		Name: 遠距離強化
 		Tooltip: レベルごとに遠距離ダメージが{0}%増加
 	}
 
 	IncreasedMagicDamagePassive: {
-		Name: 魔力熟練
+		Name: 魔力強化
 		Tooltip: レベルごとに魔法ダメージが{0}%増加
 	}
 
 	AddedLifePassive: {
-		Name: 生命力増強
+		Name: ライフ増強
 		Tooltip: レベルごとに最大ライフが{0}増加
 	}
 
@@ -2989,28 +4328,28 @@ Passives: {
 	}
 
 	LongRangePassive: {
-		Name: 狙撃手
-		Tooltip: レベルごとに遠距離の敵へのダメージが{0}%増加
+		Name: 遠距離の敵へのダメージ増加
+		Tooltip: "[mechanic/shift:遠距離]の敵へのダメージ +{0}%"
 	}
 
 	CloseRangePassive: {
-		Name: 白兵戦の心得
-		Tooltip: レベルごとに近くの敵へのダメージが10%増加
+		Name: 近距離の敵へのダメージ増加
+		Tooltip: 近くの敵へのダメージ +{0}%
 	}
 
 	ChanceToBleedPassive: {
-		Name: 紅き斬撃
-		Tooltip: 近接攻撃が出血を付与し、毎秒5ダメージをレベル + 2秒間与える
+		Name: 出血付与率追加
+		Tooltip: 近接攻撃が出血を付与し、毎秒5ダメージを（レベル+2）秒間与える
 	}
 
 	DamageReductionPassive: {
-		Name: 不屈の精神
-		Tooltip: レベルごとに被ダメージ軽減が{0}%増加
+		Name: ダメージ軽減追加
+		Tooltip: 被ダメージ軽減が{0}%増加
 	}
 
 	DamageReflectionPassive: {
-		Name: 茨の皮膚
-		Tooltip: レベルごとに接触ダメージを与えた敵へ{0}多くダメージを反射する
+		Name: ダメージ反射追加
+		Tooltip: 接触ダメージを与えた敵へ{0}多くダメージを反射する
 	}
 
 	StartPassive: {
@@ -3019,13 +4358,13 @@ Passives: {
 	}
 
 	IncreasedSummonDamagePassive: {
-		Name: 召喚軍勢
-		Tooltip: レベルごとにすべてのミニオンダメージが{0}%増加
+		Name: ミニオン進化
+		Tooltip: ミニオンダメージが{0}%増加
 	}
 
 	IncreasedSentryDamagePassive: {
-		Name: セントリー強化
-		Tooltip: レベルごとにセントリー召喚のダメージが{0}%増加
+		Name: セントリー進化
+		Tooltip: セントリーダメージが{0}%増加
 	}
 
 	JewelSocket: {
@@ -3034,28 +4373,28 @@ Passives: {
 	}
 
 	LifeRegenPassive: {
-		Name: 強き鼓動
-		Tooltip: レベルごとにライフ自然回復を{0}増進
+		Name: ライフ自然回復増進
+		Tooltip: ライフ自然回復を{0}増進
 	}
 
 	DecreasedManaCostPassive: {
 		Name: 魔力節約
-		Tooltip: レベルごとにマナ消費量が{0}%減少
+		Tooltip: マナ消費量が{0}%減少
 	}
 
 	AddedCriticalStrikeChance: {
 		Name: 精密打撃
-		Tooltip: レベルごとに固定クリティカル率が{0}%上昇
+		Tooltip: 固定クリティカル率が{0}%上昇
 	}
 
 	IncreasedCriticalStrikeChance: {
 		Name: 研ぎ澄まされた一撃
-		Tooltip: レベルごとにクリティカル率が{0}%上昇
+		Tooltip: クリティカル率が{0}%上昇
 	}
 
 	IncreasedCriticalStrikeMultiplier: {
 		Name: 破壊的打撃
-		Tooltip: レベルごとにクリティカル時ダメージ倍率が{0}%増加
+		Tooltip: クリティカル時ダメージが{0}%増加
 	}
 
 	ArmorPenetrationPassive: {
@@ -3074,18 +4413,18 @@ Passives: {
 	}
 
 	ShockChancePassive: {
-		Name: 電磁場
-		Tooltip: レベルごとに敵を感電させる確率が5%増加
+		Name: 感電強化
+		Tooltip: "{0}% の確率で感電を付与"
 	}
 
 	IncreasedMinionDamagePassive: {
 		Name: ミニオン強化
-		Tooltip: レベルごとにミニオンのダメージが{0}%増加
+		Tooltip: "ミニオンとセントリーのダメージが{0}%増加"
 	}
 
 	AddedAggressionPassive: {
 		Name: 敵意誘導
-		Tooltip: レベルごとに敵からの注目度が1上昇
+		Tooltip: 敵からの注目度が上昇
 	}
 
 	GlancingBlowsPassive: {
@@ -3094,43 +4433,48 @@ Passives: {
 	}
 
 	IncreasedBlockChancePassive: {
-		Name: 重装備
-		Tooltip: レベルごとに攻撃をブロックする確率が10%増加
+		Name: ブロック率上昇
+		Tooltip: ブロック率 +10%
 	}
 
 	AddedIntelligencePassive: {
-		Name: 高度研究
-		Tooltip: レベルごとに知力が+{0}増加
+		Name: 知力追加
+		Tooltip: "[mechanic/shift:知力] +{0}"
 	}
 
 	AddedStrengthPassive: {
-		Name: 肉体強化
-		Tooltip: レベルごとに筋力が+{0}増加
+		Name: 筋力追加
+		Tooltip: "[mechanic/shift:筋力] +{0}"
 	}
 
 	AddedDexterityPassive: {
-		Name: 俊敏訓練
-		Tooltip: レベルごとに敏捷が+{0}増加
+		Name: 敏捷追加
+		Tooltip: "[mechanic/shift:敏捷] +{0}"
+	}
+
+	AddedIntelligenceStrengthPassive: {
+		Name: 知力と筋力追加
+		Tooltip: "[mechanic/shift=0;2:知力]と[mechanic/shift=1;2:筋力] +{0}"
+	}
+
+	AddedIntelligenceDexterityPassive: {
+		Name: 知力と敏捷追加
+		Tooltip: "[mechanic/shift=0;2:知力]と[mechanic/shift=1;2:敏捷] +{0}"
+	}
+
+	AddedDexterityStrengthPassive: {
+		Name: 敏捷と筋力追加
+		Tooltip: "[mechanic/shift=0;2:敏捷]と[mechanic/shift=1;2:筋力] +{0}"
 	}
 
 	IncreasedPotionRecoveryPassive: {
-		Name: 薬効強化
-		Tooltip: レベルごとにライフポーションの回復量が+{0}%増加
+		Name: ポーション回復量上昇
+		Tooltip: 回復ポーションによる回復量 +{0}%
 	}
 
 	IncreasedMoveSpeedPassive: {
 		Name: 俊足
 		Tooltip: レベルごとに移動速度が+{0}%上昇
-	}
-
-	IncreasedWhipDamage: {
-		Name: 激打
-		Tooltip: レベルごとに鞭のダメージが+{0}%増加
-	}
-
-	IncreasedWhipSpeed: {
-		Name: 高速連打
-		Tooltip: レベルごとにムチの攻撃速度が+{0}%上昇
 	}
 
 	IncreasedJumpHeight: {
@@ -3139,73 +4483,48 @@ Passives: {
 	}
 
 	PercentIncreasedMaximumManaPassive: {
-		Name: 魔力深化
+		Name: 最大マナ増加
 		Tooltip: 最大マナが+{0}%増加
 	}
 
-	IncreasedFireDamagePassive: {
-		Name: 灼熱の力
-		Tooltip: 炎ダメージが+{0}%増加
-	}
-
-	IncreasedLightningDamagePassive: {
-		Name: 雷撃増幅
-		Tooltip: 雷ダメージが+{0}%増加
-	}
-
-	IncreasedColdDamagePassive: {
-		Name: 絶対零度
-		Tooltip: 氷ダメージが+{0}%増加
-	}
-
-	IncreasedWhipDamagePassive: {
-		Name: 鞭撃強化
-		Tooltip: 鞭ダメージが+{0}%増加
-	}
-
-	IncreasedWhipSpeedPassive: {
-		Name: 鞭撃迅速
-		Tooltip: ムチの攻撃速度が+{0}%上昇
-	}
-
 	IncreasedMagicAndSummonDamagePassive: {
-		Name: 魔導共鳴
+		Name: 魔法&召喚強化
 		Tooltip: 魔法および召喚ダメージが+{0}%増加
 	}
 
 	AddedFireResistancePassive: {
-		Name: 火炎防護
+		Name: 炎耐性追加
 		Tooltip: 炎耐性が+{0}%増加
 	}
 
 	AddedColdResistancePassive: {
-		Name: 氷結耐性
+		Name: 氷耐性追加
 		Tooltip: 氷耐性が+{0}%増加
 	}
 
 	AddedLightningResistancePassive: {
-		Name: 雷の加護
+		Name: 雷耐性追加
 		Tooltip: 雷耐性が+{0}%増加
 	}
 
 	AddedAllResistancePassive: {
-		Name: 元素結界
+		Name: 全属性耐性追加
 		Tooltip: すべての属性耐性が+{0}%増加
 	}
 
 	IncreasedAttackSpeedPassive: {
-		Name: 電光石火
+		Name: 攻撃速度上昇
 		Tooltip: すべての攻撃速度が+{0}%上昇
 	}
 
 	IncreasedManaRegenerationRatePassive: {
-		Name: 魔力循環
+		Name: マナ自然回復増進
 		Tooltip: マナ自然回復を+{0}%増進
 	}
 
 	IncreasedProjectileCountPassive: {
 		Name: 弾幕増加
-		Tooltip: 発射体の数が{0}%増加
+		Tooltip: 発射する発射体 +{0}
 	}
 
 	IncreasedProjectileSpeedPassive: {
@@ -3231,6 +4550,946 @@ Passives: {
 	MasteryPassive: {
 		Name: 極致
 		Tooltip: ""
+	}
+
+	AddedChaosResistancePassive: {
+		Name: 混沌耐性追加
+		Tooltip: 混沌耐性が+{0}%増加
+	}
+
+	AegisChargeChanceOnKillPassive: {
+		Name: 防護チャージ獲得率追加
+		Tooltip: 敵撃破時、+{0}%の確率で防護チャージを獲得
+	}
+
+	AegisChargePercentMaxHealthPassive: {
+		Name: 防護チャージごとのライフ増加
+		Tooltip: 防護チャージごとに最大ライフ+{0}%
+	}
+
+	AegisChargeMaxChargesPassive: {
+		Name: 最大防護チャージ追加
+		Tooltip: 最大防護チャージ数+{0}
+	}
+
+	FocusChargeChanceOnKillPassive: {
+		Name: フォーカスチャージ獲得率追加
+		Tooltip: 敵撃破時、+{0}%の確率でフォーカスチャージを獲得
+	}
+
+	FocusChargeDamageBonusPassive: {
+		Name: フォーカスチャージごとのダメージ増加
+		Tooltip: フォーカスチャージごとにダメージ+{0}%
+	}
+
+	FocusChargeMaxChargesPassive: {
+		Name: 最大フォーカスチャージ追加
+		Tooltip: 最大フォーカスチャージ数+{0}
+	}
+
+	HasteChargeChanceOnKillPassive: {
+		Name: 加速チャージ獲得率追加
+		Tooltip: 敵撃破時、+{0}%の確率で加速チャージを獲得
+	}
+
+	HasteChargeProjectileSpeedPassive: {
+		Name: 加速チャージごとの投射速度増加
+		Tooltip: 加速チャージごとに投射速度+{0}%
+	}
+
+	HasteChargeMaxChargesPassive: {
+		Name: 最大加速チャージ数追加
+		Tooltip: 最大加速チャージ数+{0}
+	}
+
+	ChanceToConsumeAmmoPassive: {
+		Name: 弾薬節約率
+		Tooltip: +{0}%の確率で弾薬を消費しない
+	}
+
+	IncreasedProjectileDamagePassive: {
+		Name: 発射体ダメージ増加
+		Tooltip: 発射体ダメージ+{0}%
+	}
+
+	IncreasedWhipDamagePassive: {
+		Name: 鞭撃強化
+		Tooltip: 鞭ダメージが+{0}%増加
+	}
+
+	IncreasedWhipSpeedPassive: {
+		Name: 鞭撃迅速
+		Tooltip: 鞭の攻撃速度が+{0}%上昇
+	}
+
+	WhipCritDamageMastery: {
+		Name: 烙印
+		Tooltip: 鞭が命中した敵は3秒間、ミニオンから受けるクリティカルダメージが{0}%増加
+	}
+
+	WhipDoubleStrikeMastery: {
+		Name: 双雷
+		Tooltip: 鞭攻撃が追加でもう1回命中し、{0}%のダメージを与える
+	}
+
+	WhipReachMastery: {
+		Name: 電撃の間合い
+		Tooltip: "鞭の射程+{0}%、ただし攻撃速度が{1}%低下"
+	}
+
+	ReducedSkillCooldownPassive: {
+		Name: スキルクールダウン短縮
+		Tooltip: スキルクールダウン+{0}%短縮
+	}
+
+	AddedFireDamageConversionPassive: {
+		Name: 炎ダメージ変換追加
+		Tooltip: 炎ダメージ変換+{0}%
+	}
+
+	AddedColdDamageConversionPassive: {
+		Name: 冷気ダメージ変換追加
+		Tooltip: 冷気ダメージ変換+{0}%
+	}
+
+	AddedLightningDamageConversionPassive: {
+		Name: 雷ダメージ変換追加
+		Tooltip: 雷ダメージ変換+{0}%
+	}
+
+	ChanceToChillPassive: {
+		Name: 冷気付与率
+		Tooltip: +{0}%の確率で冷気を付与
+	}
+
+	ChanceToFreezePassive: {
+		Name: 凍結付与率
+		Tooltip: +{0}%の確率で凍結を付与
+	}
+
+	ChanceToIgnitePassive: {
+		Name: 炎上付与率
+		Tooltip: +{0}%の確率で炎上を付与
+	}
+
+	PercentStrongManaPotionsPassive: {
+		Name: マナポーション強化
+		Tooltip: マナポーションの効果+{0}%
+	}
+
+	FishingPowerPassive: {
+		Name: 釣り強化
+		Tooltip: フィッシングパワーが+{0}増加
+	}
+
+	AddedFishingLineMastery: {
+		Name: マルチ釣り
+		Tooltip: 釣り竿が追加でもう1本の釣り糸を垂らす
+	}
+
+	FishingCatchBuffMastery: {
+		Name: 豊漁の浮き
+		Tooltip: 魚を釣ると10秒間、釣り力+10の効果を1スタック獲得する。最大5スタック
+	}
+
+	MagicFindBoost: {
+		Name: マジックファインド増加
+		Tooltip: MagicまたはRareアイテムを見つける確率+{0}%
+	}
+
+	BossDownIncreaseItemRarityMastery: {
+		Name: 魔力の滲出
+		Tooltip: ワールド内で一度でも倒したボス1体につき、マジックファインドが0.5%増加。現在:
+	}
+
+	MoreUniquesMastery: {
+		Name: ユニークを見抜く目
+		Tooltip: ユニークアイテムのドロップ率+{0}%
+	}
+
+	ItemDropRatePassive: {
+		Name: アイテムドロップ率増加
+		Tooltip: 敵からのアイテムドロップ率+{0}%
+	}
+
+	AfterburnMastery: {
+		Name: 残り火
+		Tooltip: 炎ダメージ+{0}%、被ダメージ+{1}%
+	}
+
+	AddedFireDamageMultiplierPassive: {
+		Name: 炎ダメージ増加
+		Tooltip: 炎ダメージが+{0}%増加
+	}
+
+	AddedColdDamageMultiplierPassive: {
+		Name: 冷気ダメージ増加
+		Tooltip: 冷気ダメージが+{0}%増加
+	}
+
+	AddedLightningDamageMultiplierPassive: {
+		Name: 雷ダメージ増加
+		Tooltip: 雷ダメージが+{0}%増加
+	}
+
+	ScorchingFlamesMastery: {
+		Name: 灼熱の炎
+		Tooltip: +{0}%の確率で灼熱の炎を付与し、敵の炎耐性を30%低下させる
+	}
+
+	BurstingFuryMastery: {
+		Name: 炸裂する怒り
+		Tooltip: 炎ダメージで敵を倒すと爆発し、与えた元のダメージの{0}%に相当するダメージを与える
+	}
+
+	DeepPoolsMastery: {
+		Name: 深き泉
+		Tooltip: 最大マナが{0}%増加し、最大マナ25ごとにダメージが1%増加する
+	}
+
+	ManaBombMastery: {
+		Name: スターボム
+		Tooltip: マナを100消費するたびに敵を追尾するマナ爆弾を放ち、{0}の魔法ダメージを与える。ダメージは最大マナに応じてさらに増加する
+	}
+
+	MagicGuardMastery: {
+		Name: 魔法の守り
+		Tooltip: マナが50%を超えている間は被ダメージが{0}%減少し、それ以下では与ダメージが{1}%増加する
+	}
+
+	ThunderbootsMastery: {
+		Name: サンダーブーツ
+		Tooltip: ジャンプ時に自身の足元へ小さな雷のノヴァを発生させ、命中した敵に最大強度の感電を付与する
+	}
+
+	ElectrostaticAttractionMastery: {
+		Name: 帯電
+		Tooltip: 雷属性ダメージを与えるたびに、雷属性ダメージを増加させるバフが累積する。最大50%まで増加する
+	}
+
+	ChannelingBurstMastery: {
+		Name: チャネリングバースト
+		Tooltip: チャネリング中、自分からマウスカーソルが離れているほど魔法ダメージとマナ消費量が増加する
+	}
+
+	EnergySurgeMastery: {
+		Name: エネルギー奔流
+		Tooltip: チャネリング開始から最初の2秒間、与えるダメージが{0}%増加する
+	}
+
+	SingleFocusMastery: {
+		Name: 一点集中
+		Tooltip: チャネリング中、0.5秒ごとに与えるダメージが3%増加する。最大10スタック
+	}
+
+	ChainLightningMastery: {
+		Name: チェインライトニング
+		Tooltip: 雷属性ダメージを与えた時、{0}%の確率でダメージが別の[mechanic/shift:周囲]の敵へ連鎖する
+	}
+
+	CriticalOverloadMastery: {
+		Name: クリティカルオーバーロード
+		Tooltip: クリティカルにならなかった攻撃1回につき、クリティカル率が{0}%増加する。クリティカル発生時にリセットされる
+	}
+
+	AnticipatedStrikeMastery: {
+		Name: 満を持して
+		Tooltip: "{0}秒間スキルを使用していない場合、次に使用するスキルが2回発動する"
+	}
+
+	StarcallerMastery: {
+		Name: 星呼び
+		Tooltip: 魔法攻撃がクリティカルすると星を生成し、元の攻撃の{0}%のダメージを与える。敵1体につき1秒に1回まで発動する
+	}
+
+	CenterOfTheUniverseMastery: {
+		Name: 宇宙の中心
+		Tooltip: 魔法攻撃が命中した時、{0}%の確率で自身の周囲を公転する惑星を生成する（最大14個）。惑星は元の攻撃の40%のダメージを与え、命中時にマナを15回復する
+	}
+
+	OverloadingEnergyMastery: {
+		Name: 窮地の力
+		Tooltip: "{0}秒ごとに最大マナの5%を回復する。現在のマナが少ないほど与えるダメージが増加し、最大40%まで増加する"
+	}
+
+	ReverberationMastery: {
+		Name: 反響
+		Tooltip: 魔法の発射体が{0}%の確率で2回生成され、追加で生成されたものは70%のダメージを与える。追加生成には元の攻撃の50%分のマナを消費する
+	}
+
+	SkillfulMagicMastery: {
+		Name: 熟練の魔法
+		Tooltip: スキルを使用すると、{0}秒間クリティカルダメージと移動速度が増加する
+	}
+
+	AutomagicMissileMastery: {
+		Name: オートマジックミサイル
+		Tooltip: 魔法攻撃が命中した時、{0}%の確率で敵を追尾するマジックミサイルを生成し、元の攻撃の50%のダメージを与える
+	}
+
+	SharpenedSpellsMastery: {
+		Name: 鋭利な魔法
+		Tooltip: 自身が凍結させた敵は、すべての直接攻撃による被ダメージが25%増加する
+	}
+
+	AbsoluteZeroMastery: {
+		Name: 絶対零度
+		Tooltip: 凍えの効果が{0}%強化され、凍結の持続時間が{1}%延長される
+	}
+
+	BludgeoningBlowMastery: {
+		Name: 粉砕の一撃
+		Tooltip: 凍結した敵を倒すと粉砕し、とどめを刺した攻撃の{0}%分のダメージを与える
+	}
+
+	YoyoDamagePassive: {
+		Name: ヨーヨー威力強化
+		Tooltip: ヨーヨーのダメージが{0}%増加
+	}
+
+	YoyoDurationPassive: {
+		Name: ヨーヨー持続時間増加
+		Tooltip: ヨーヨーの持続時間が{0}%増加
+	}
+
+	YoyoRangePassive: {
+		Name: ヨーヨー射程増加
+		Tooltip: ヨーヨーの射程が{0}%増加
+	}
+
+	YoyoSpeedPassive: {
+		Name: ヨーヨー速度増加
+		Tooltip: ヨーヨーの速度が{0}%増加
+	}
+
+	IncreasedWhipReachPassive: {
+		Name: 鞭の射程増加
+		Tooltip: +{0}% 鞭の射程増加
+	}
+
+	IncreasedTagCritPassive: {
+		Name: タグ対象へのクリティカル率上昇
+		Tooltip: +{0}% タグ付けされた敵へのクリティカル率が上昇
+	}
+
+	LifeRegenRatePassive: {
+		Name: ライフ自然回復速度増進
+		Tooltip: ライフ自然回復率が{0}%増進
+	}
+
+	LifeRegenCountPassive: {
+		Name: ライフ自然回復量増加
+		Tooltip: 1秒ごとのライフ自然回復量が+{0}
+	}
+
+	LifeOnKillPassive: {
+		Name: ライフ回復
+		Tooltip: 敵を倒した時、{0}%の確率でライフを{1}%回復する
+	}
+
+	ArcaneSurgeMastery: {
+		Name: 魔力奔流
+		Tooltip: 4秒間にスキルまたは魔法攻撃を5回使用すると魔力奔流が発動し、魔法ダメージが{0}%増加し、毎秒2マナを追加で回復する
+	}
+
+	AddedSummonCritChancePassive: {
+		Name: 召喚クリティカル率上昇
+		Tooltip: 召喚ダメージのクリティカル率が+{0}%上昇
+	}
+
+	OpportuneStrikeMastery: {
+		Name: 好機到来
+		Tooltip: ミニオンのクリティカル時、すべての召喚スキルのクールダウンを{0}%短縮する [発動クールダウン1秒]
+	}
+
+	UndeadLegionMastery: {
+		Name: 不死の軍勢
+		Tooltip: 召喚ダメージが{0}%増加する。最大ミニオンスロット数に応じて、1スロットにつきさらに3%増加する。
+	}
+
+	OverrunMastery: {
+		Name: 強化
+		Tooltip: ミニオンの移動速度と行動速度が{0}%増加する
+	}
+
+	MinionDamageAuraPassive: {
+		Name: ミニオンダメージオーラ
+		Tooltip: ミニオンがオーラを獲得し、[mechanic/shift:周囲]のプレイヤーのダメージを{0}%増加させる
+	}
+
+	MinionManaRegenAuraPassive: {
+		Name: ミニオンマナ自然回復オーラ
+		Tooltip: ミニオンがオーラを獲得し、[mechanic/shift:周囲]のプレイヤーのマナ自然回復量を毎秒{0}増加させる
+	}
+
+	HeartySummonsPassive: {
+		Name: 健全な召喚強化
+		Tooltip: ライフが90%以上の時、召喚ダメージが{0}%増加する
+	}
+
+	SymbioticPulseMastery: {
+		Name: 共生する召喚
+		Tooltip: 30秒ごとに召喚物が回復オーブを落とし、拾うと最大ライフの{0}%を回復する
+	}
+
+	SwiftPlacementsMastery: {
+		Name: 素早い設置
+		Tooltip: セントリーを設置すると、{0}秒間移動速度が25%増加し、召喚ダメージが15%増加する
+	}
+
+	WitheringBoltsMastery: {
+		Name: 衰弱の矢
+		Tooltip: セントリーが命中した敵は、{0}秒間移動速度が40%低下する（ボスは15%）
+	}
+
+	MaximumSentryPassive: {
+		Name: セントリー上限増加
+		Tooltip: セントリーの最大召喚数が{0}増加する
+	}
+
+	IncreasedSentryKnockbackPassive: {
+		Name: セントリーノックバック増加
+		Tooltip: セントリーのノックバックが{0}%増加する
+	}
+
+	SentryDuplicatedProjectilePassive: {
+		Name: セントリー追加弾発射率
+		Tooltip: セントリーが{0}%の確率で追加の発射体を発射する
+	}
+
+	SacrificialSummonsMastery: {
+		Name: 生贄の召喚
+		Tooltip: 自身または[mechanic/shift:周囲]の誰かが死亡した時、召喚物を{0}体犠牲にして死を免れ、ライフ100で復活する [クールダウン5分]
+	}
+
+	OverhealMastery: {
+		Name: 過剰回復パルス
+		Tooltip: ライフが最大の状態で回復すると、すべてのミニオンからダメージ波動が発生する。威力はミニオンの基礎ダメージと過剰回復量に応じて増加する。[クールダウン0.2秒]
+	}
+
+	StrongerDebuffsPassive: {
+		Name: デバフ持続時間増加
+		Tooltip: "[mechanic/shift:周囲]の敵に付与されたデバフの持続時間が{0}%増加する"
+	}
+
+	FasterMinionsPassive: {
+		Name: ミニオン行動速度増加
+		Tooltip: ミニオンの行動速度が{0}%増加する
+	}
+
+	FasterGrimoirePassive: {
+		Name: 魔導書召喚高速化
+		Tooltip: 魔導書の召喚物の移動速度と行動速度が{0}%増加する
+	}
+
+	IncreasedGrimoireDamagePassive: {
+		Name: 魔導書ダメージ増加
+		Tooltip: 魔導書の召喚物が与えるダメージが{0}%増加する
+	}
+
+	IncreasedGrimoireCritPassive: {
+		Name: 魔導書クリティカル率上昇
+		Tooltip: 魔導書の召喚物のクリティカル率が+{0}%上昇する
+	}
+
+	SniperMastery: {
+		Name: スナイパー
+		Tooltip: "[mechanic/shift:遠距離]にいる敵が受ける遠距離ダメージが{0}%増加する"
+	}
+
+	PinningShotMastery: {
+		Name: 拘束射撃
+		Tooltip: 遠距離攻撃の発射体が{0}%の確率で拘束を付与し、拘束された敵に対するダメージが{1}%増加する
+	}
+
+	LimitedEntranceMastery: {
+		Name: 一時の好機
+		Tooltip: 召喚されてから{0}秒間、召喚物が与えるダメージが30%増加する。
+	}
+
+	DeathrushMastery: {
+		Name: デスラッシュ
+		Tooltip: ミニオン1体につき（最大10体）、自身の[mechanic/shift=0;2:移動速度]が増加し、ミニオンの[mechanic/shift=1;2:行動速度]が{0}%増加する
+	}
+
+	ShatteredBondMastery: {
+		Name: 砕けた絆
+		Tooltip: 召喚物が消滅するたびに（魔導書の召喚物を除く）、{0}%のダメージを与える爆発を起こす
+	}
+
+	AddedMaxMinionsPassive: {
+		Name: 最大ミニオン数増加
+		Tooltip: 最大ミニオン数が{0}増加する
+	}
+
+	MoveIncreaseOnSummonPassive: {
+		Name: 召喚後の移動速度強化
+		Tooltip: 召喚後{0}秒間、移動速度が100%上昇する
+	}
+
+	HealingGrimoireMastery: {
+		Name: 祝福されし知識
+		Tooltip: 魔導書の召喚物が回復オーラを放ち、{1}秒ごとにライフを{0}回復する
+	}
+
+	ManaLeechMastery: {
+		Name: マナ吸収
+		Tooltip: 魔導書の召喚物が徐々に多くのマナを吸収し、与えるダメージを増加させる
+	}
+
+	TwinPowerMastery: {
+		Name: 双子の力
+		Tooltip: 魔導書を使用すると、{0}%のダメージを与える召喚物を2体召喚する
+	}
+
+	TowerDefenseMastery: {
+		Name: タワーディフェンス
+		Tooltip: セントリーが範囲ダメージオーラを持ち、{0}秒ごとに武器の基礎ダメージを与える
+	}
+
+	SoulReaveMastery: {
+		Name: 魂刈り
+		Tooltip: 召喚ダメージが{0}%の確率で魂刈りを1スタック付与する。効果終了時、最大ライフの{1}%を回復し、元の攻撃の{2}%分のダメージを与える
+	}
+
+	RagingSpiritsMastery: {
+		Name: 荒ぶる魂
+		Tooltip: ミニオンの攻撃命中時、{0}%の確率で短時間だけ荒ぶる魂を召喚し、ミニオンの50%のダメージを与える
+	}
+
+	ChaoticReverberationMastery: {
+		Name: 混沌の残響
+		Tooltip: "与えるダメージの{0}%が混沌ダメージとして反響する"
+	}
+
+	StrongerPotionsPassive: {
+		Name: ポーション効果時間増加
+		Tooltip: すべてのポーション（食事を含む）のバフ持続時間が{0}%増加する
+	}
+
+	MorePickupPotionsPassive: {
+		Name: ポーション所持数増加
+		Tooltip: 回復ポーションとマナポーションを+{0}個所持できる
+	}
+
+	AlchemistMastery: {
+		Name: 錬金術師
+		Tooltip: マナポーションと回復ポーションのクールダウンが{0}%短縮される
+	}
+
+	BurstingBottlesMastery: {
+		Name: 破裂する瓶
+		Tooltip: マナポーションまたは回復ポーションを使用すると、小ダメージを与え、[mechanic/shift:周囲]の敵を{0}%のノックバックで押し退ける
+	}
+
+	IncreasedSkillDamagePassive: {
+		Name: スキルダメージ増加
+		Tooltip: スキルが与えるダメージが{0}%増加する
+	}
+
+	ProlongingSkillMastery: {
+		Name: スキル持続時間延長
+		Tooltip: スキルの持続時間が{0}%増加する
+	}
+
+	SurplusVitalityMastery: {
+		Name: 余剰生命力
+		Tooltip: スキルを使用すると、[mechanic/shift:周囲]のプレイヤーに最大ライフの{0}%分のオーバーヘルスを付与する
+	}
+
+	PseudoicarianMastery: {
+		Name: 擬似イカロス
+		Tooltip: ジャンプの高さが{0}%増加し、常時落下制御を得る
+	}
+
+	HermesBoonMastery: {
+		Name: ヘルメスの恩恵
+		Tooltip: 戦闘状態でない時、移動速度が{0}%増加し、ジャンプ速度が大幅に上昇する
+	}
+
+	FasterPlacementPassive: {
+		Name: 設置速度増加
+		Tooltip: オブジェクトの設置速度が{0}%増加する
+	}
+
+	ExtendedTileRangePassive: {
+		Name: 設置距離増加
+		Tooltip: オブジェクトを最大{0}タイル遠くまで設置できる
+	}
+
+	JourneymanMastery: {
+		Name: 熟練工
+		Tooltip: 採掘速度が{0}%増加し、自分の真下にある硬いブロックを壊しやすくなる
+	}
+
+	MasterBuilderMastery: {
+		Name: マスタービルダー
+		Tooltip: 静止している間、タイル設置距離が{0}増加し、タイル設置速度が{1}%増加する
+	}
+
+	BloodroundMastery: {
+		Name: ブラッドラウンド
+		Tooltip: 出血または燃焼状態の敵を倒すと、50%の確率で弾薬を消費しなくなる
+	}
+
+	BouncingAmmoMastery: {
+		Name: 跳弾
+		Tooltip: 弾薬を使用する発射体は、命中時に別の敵へ跳ね返る
+	}
+
+	TracerShotsMastery: {
+		Name: トレーサーショット
+		Tooltip: 弾薬の飛翔速度が{0}%増加し、命中した敵を{1}秒間識別する
+	}
+
+	HairTriggerMastery: {
+		Name: ヘアトリガー
+		Tooltip: 遠距離攻撃速度が{0}%増加するが、命中精度が低下する
+	}
+
+	ExplosiveSlugsMastery: {
+		Name: 爆発弾
+		Tooltip: 弾丸によるクリティカル攻撃が爆発し、与えたダメージの{0}%分のダメージを与える
+	}
+
+	AdvantageShotMastery: {
+		Name: 好機の射撃
+		Tooltip: その場で{0}秒間静止すると、遠距離ダメージが{1}%増加する
+	}
+
+	IgnitingProjectilesPassive: {
+		Name: 発射体の炎上付与率増加
+		Tooltip: 発射体が炎上を付与する確率が+{0}%増加する
+	}
+
+	ChanceForAdditionalProjectilePassive: {
+		Name: 追加発射体発射率
+		Tooltip: +{0}%の確率で発射体を追加で発射する
+	}
+
+	PoisonedRangedAttacksPassive: {
+		Name: 毒付与率増加
+		Tooltip: 命中時、+{0}%の確率で毒を1スタック付与する
+	}
+
+	LongerPoisonPassive: {
+		Name: 毒持続時間増加
+		Tooltip: 毒のスタック持続時間が{0}%増加する
+	}
+
+	StrongerPoisonPassive: {
+		Name: 毒強化
+		Tooltip: 毒ダメージが{0}%増加する
+	}
+
+	FasterPoisonTickPassive: {
+		Name: 毒ダメージ間隔短縮
+		Tooltip: 毒のダメージ発生速度が{0}%増加する
+	}
+
+	ContagionBurstMastery: {
+		Name: 感染爆発
+		Tooltip: 敵を倒すと、その敵の毒スタックの{0}%を[mechanic/shift:周囲]の敵に拡散する
+	}
+
+	CorrosiveTouchMastery: {
+		Name: 腐食の触れ
+		Tooltip: 毒状態の敵に{0}回攻撃を当てるたび、毒スタックを1つ破裂させ、そのスタックが与えるはずだった全ダメージを即座に与える
+	}
+
+	LethalDoseMastery: {
+		Name: 致死量
+		Tooltip: 自身が攻撃した敵は、毒スタック1つにつき被ダメージが{0}%増加する（最大{1}%）
+	}
+
+	QuickExplosionsPassive: {
+		Name: 爆発速度増加
+		Tooltip: 爆発物が{0}%早く爆発する
+	}
+
+	StrongerExplosivesPassive: {
+		Name: 爆発物ダメージ増加
+		Tooltip: 爆発物が与えるダメージが{0}%増加する
+	}
+
+	BlastProtectionPassive: {
+		Name: 爆発防護
+		Tooltip: 自分の爆発物による自爆ダメージを受けない
+	}
+
+	ExplosiveKnockbackPassive: {
+		Name: 爆発物ノックバック増加
+		Tooltip: 爆発物のノックバックが{0}%増加する
+	}
+
+	BiggerExplosivesPassive: {
+		Name: 爆発範囲増加
+		Tooltip: 爆発物の爆発範囲が{0}%増加する
+	}
+
+	DemolitionsExpertMastery: {
+		Name: 爆破の専門家
+		Tooltip: 爆発範囲が{0}%増加し、爆発ダメージが{1}%増加する
+	}
+
+	ShrapnelStormMastery: {
+		Name: 破片の嵐
+		Tooltip: 爆発物が破裂して破片を飛ばし、各破片が{0}%のダメージを与える
+	}
+
+	BlastChainMastery: {
+		Name: 連鎖爆発
+		Tooltip: 爆発で敵を倒すと、その敵が爆発して{0}%のダメージを与える
+	}
+
+	ReturningProjectilesMastery: {
+		Name: 帰還する弾丸
+		Tooltip: 弾丸は{0}秒後に発射地点へ戻る
+	}
+
+	MarksmanMastery: {
+		Name: 射撃の名手
+		Tooltip: 近距離の敵をマークできる。マークされた敵は、自身が受けたダメージの{0}%を[mechanic/shift:周囲]の敵にも与える
+	}
+
+	FatBulletsMastery: {
+		Name: 大型弾
+		Tooltip: 遠距離攻撃の発射体が大きくなり、ダメージが{0}%増加する。このボーナスは飛ぶほど失われ、発射体は重くなる
+	}
+
+	StillDamagePassive: {
+		Name: 静止時ダメージ増加
+		Tooltip: 静止している間、ダメージが{0}%増加する
+	}
+
+	MeleeSizePassive: {
+		Name: 近接武器サイズ増加
+		Tooltip: +{0}% 近接武器サイズ増加
+	}
+
+	TitanicImpactMastery: {
+		Name: 巨大な衝撃
+		Tooltip: "近接攻撃が{0}%の確率で強烈なノックバックを与え、ダメージが{1}%増加する"
+	}
+
+	FatalFocusMastery: {
+		Name: 必殺の集中
+		Tooltip: クリティカルダメージ+{0}%、クリティカル率-{1}%
+	}
+
+	WideSwingsMastery: {
+		Name: 大振り
+		Tooltip: 近接攻撃がクリティカルすると、近接武器のサイズが{0}%増加する（最大{1}スタック）
+	}
+
+	RangerMeleeChanceToBleedPassive: {
+		Name: 遠距離・近接攻撃の出血付与率
+		Tooltip: 遠距離または近接攻撃が出血を付与する確率が+{0}%増加する
+	}
+
+	BleedEffectivenessPassive: {
+		Name: 出血ダメージ増加
+		Tooltip: 出血ダメージが{0}%増加する
+	}
+
+	BleedTimePassive: {
+		Name: 出血持続時間増加
+		Tooltip: 出血の持続時間が{0}%増加する
+	}
+
+	BleedTickPassive: {
+		Name: 出血ダメージ間隔短縮
+		Tooltip: 出血のダメージ発生速度が{0}%増加する
+	}
+
+	HemorrhageMastery: {
+		Name: 大出血
+		Tooltip: 出血の最大スタック数が2倍になる
+	}
+
+	ExsanguinateMastery: {
+		Name: 失血
+		Tooltip: 出血状態の敵を倒すと、その敵に残っていた出血ダメージの{0}%分を周囲に与える
+	}
+
+	BloodbenderMastery: {
+		Name: 血操り
+		Tooltip: 出血状態の敵にクリティカルすると、出血1スタックにつき与えたダメージの{0}%を吸収する。[クールダウン0.5秒]
+	}
+
+	HealOnKillPassive: {
+		Name: 撃破時回復率
+		Tooltip: "敵を倒した時、{1}%の確率でライフを{0}回復する"
+	}
+
+	BloodRushMastery: {
+		Name: ブラッドラッシュ
+		Tooltip: "敵を倒した時、{0}%の確率で最大ライフの{1}%を[mechanic/shift:吸収]する"
+	}
+
+	HeartAndMindMastery: {
+		Name: 心と精神
+		Tooltip: ライフ自然回復量の{0}%がマナ自然回復量に加算される
+	}
+
+	PainTransferenceMastery: {
+		Name: 苦痛転移
+		Tooltip: "ライフ自然回復またはライフ回復量の{0}%分を、[mechanic/shift:周囲]の敵にダメージとして与える"
+	}
+
+	PuppeteerMastery: {
+		Name: 操り人形師
+		Tooltip: ヨーヨーを敵に当てると、その敵をヨーヨーに繋ぎ止めて引き寄せる。さらに、何かにダメージを与えるたびにその敵へ{0}%のダメージを与える
+	}
+
+	TranslucentTricksMastery: {
+		Name: 透過の妙技
+		Tooltip: ヨーヨーのダメージと速度が{0}%増加し、タイルを通過できるようになる
+	}
+
+	SpoolbreakerMastery: {
+		Name: スプールブレイカー
+		Tooltip: ヨーヨーが敵に命中すると徐々に巨大化し、限界に達すると爆発して{0}%のダメージを与える
+	}
+
+	FriendlyDefensePassive: {
+		Name: 味方防御力増加
+		Tooltip: 防御力+{0}、周囲の味方プレイヤーの防御力+{1}
+	}
+
+	IncreasedEnemyAggressionPassive: {
+		Name: 敵の注意を引く
+		Tooltip: 敵からの狙われやすさが{0}増加する
+	}
+
+	UndyingGraspMastery: {
+		Name: 不死の掌握
+		Tooltip: 受けたダメージの{0}%を{1}秒後に回復する
+	}
+
+	WillingSacrificeMastery: {
+		Name: 自ら望む犠牲
+		Tooltip: 防御力が{1}増加し、ノックバックを無効化する。近くの味方プレイヤーが被ダメージの{0}%を代わりに受ける
+	}
+
+	ReprisalMastery: {
+		Name: 報復
+		Tooltip: ブロック成功時、受けるはずだったダメージの{0}%を大きな斬撃として反射する
+	}
+
+	ImmolationStrideMastery: {
+		Name: 焼身の歩み
+		Tooltip: 未使用。
+	}
+
+	ShortFuseMastery: {
+		Name: 短気
+		Tooltip: 未使用。
+	}
+
+	AddRagePassive: {
+		Name: 怒り追加
+		Tooltip: 敵への攻撃命中時、怒りを{0}スタック獲得する。再獲得しないと短時間で失われる
+	}
+
+	AddMaxRagePassive: {
+		Name: 怒り上限増加
+		Tooltip: 怒りの最大スタック数が{0}増加する
+	}
+
+	AddRageCritPassive: {
+		Name: 怒りクリティカル率増加
+		Tooltip: 怒り1スタックにつきクリティカル率が{0}%増加する
+	}
+
+	SlowRageDecayPassive: {
+		Name: 怒り持続時間増加
+		Tooltip: 怒りの維持時間が{0}%増加する
+	}
+
+	RageResistancePassive: {
+		Name: 怒りの耐性
+		Tooltip: 怒りが1スタック以上ある時、被ダメージが{0}%軽減される
+	}
+
+	BurningRageMastery: {
+		Name: 燃える怒り
+		Tooltip: 怒り1スタックにつき最大ライフが{0}%増加する。怒り最大時、与えるダメージが100%炎属性に変換される
+	}
+
+	FuriousSiphonMastery: {
+		Name: 怒りの吸収
+		Tooltip: 怒り最大時、近接または遠距離ダメージの1%を[mechanic/shift:吸収]する
+	}
+
+	RagingSpeedMastery: {
+		Name: 怒りの加速
+		Tooltip: 怒り1スタックにつき攻撃速度が{0}%増加する。怒り最大時、攻撃が{1}%の確率で2回適用される
+	}
+
+	RockAndStoneMastery: {
+		Name: 岩石魂
+		Tooltip: ブロックを{0}個破壊するたび、{2}秒間採掘速度が{1}%増加するバフを得る
+	}
+
+	FasterMiningPassive: {
+		Name: 採掘速度増加
+		Tooltip: 採掘速度が{0}%増加する
+	}
+
+	SpelunkyMastery: {
+		Name: スペランキー
+		Tooltip: 鉱石を採掘すると、その鉱脈全体を自動で採掘する
+	}
+
+	CheaperShopsPassive: {
+		Name: 購入価格低下
+		Tooltip: アイテムの購入価格が{0}%低下する
+	}
+
+	ValuableSalesPassive: {
+		Name: 売却価格増加
+		Tooltip: アイテムの売却価格が{0}%増加する
+	}
+
+	ExtraStockMastery: {
+		Name: 在庫入れ替え
+		Tooltip: 旅商人が訪れるたびに1回だけ、販売品を再抽選できる
+	}
+
+	MoneySpeedMastery: {
+		Name: 強欲の疾走
+		Tooltip: コインを拾った時、{0}秒間移動速度が上昇する
+	}
+
+	DangerMiningPassive: {
+		Name: パニック採掘
+		Tooltip: "[mechanic/shift:周囲]に敵がいる時、採掘速度が{0}%増加する。"
+	}
+
+	OneMinionArmyKeystone: {
+		Name: 一体だけの軍勢
+		Tooltip: 最大ミニオン数が1体に制限されるが、最大ミニオンスロット1つにつきダメージが{0}%増加する。
+	}
+
+	DirectShotKeystone: {
+		Name: 至近射撃
+		Tooltip: 20ブロック以内では発射体のダメージが最大50%増加するが、20ブロックを超えると最大50%減少する。
+	}
+
+	BloodMagicKeystone: {
+		Name: 血の魔術
+		Tooltip: すべてのマナ消費がライフ消費に置き換わる。すべてのダメージで与えたダメージの{0}%をライフとして回復し、この効果は最大ライフに応じて変化する。
+	}
+
+	CinderBastionMastery: {
+		Name: 残火の砦
+		Tooltip: 最大ライフ10につき炎上ダメージが2%増加する。移動すると、自身に最大ライフの{0}%分の炎上を付与する。
+	}
+
+	HollowVesselKeystone: {
+		Name: 虚ろな器
+		Tooltip: 最大ライフが1に制限される。混沌ダメージを無効化する。
 	}
 }
 
@@ -3316,8 +5575,8 @@ Projectiles: {
 	PlatinumStaffProjectile.DisplayName: Diamond Energy
 	StaffHeldProjectile.DisplayName: Staff
 	EoCRitualProj.DisplayName: Ritual
-	EyePortal.DisplayName: Eye Portal
-	EoWPortal.DisplayName: Eater Portal
+	EyePortal.DisplayName: Portal
+	EoWPortal.DisplayName: Portal
 	CrimsonMaw.DisplayName: Crimson Maw
 
 	HornetSummon: {
@@ -3329,10 +5588,10 @@ Projectiles: {
 			'''
 	}
 
-	QueenBeePortal.DisplayName: Queen Bee Portal
+	QueenBeePortal.DisplayName: Portal
 	FallingAshBlock.DisplayName: Falling Ash
 	GeyserPredictionProjectile.DisplayName: Geyser Prediction
-	SkeletronPortal.DisplayName: Skeletron Portal
+	SkeletronPortal.DisplayName: Portal
 	SkeletronRitualProj.DisplayName: Skeletron Ritual
 	DwarvenGreatswordAltHammer.DisplayName: Dwarven Greathammer
 	TinyAlaric.DisplayName: Tiny Alaric
@@ -3352,6 +5611,7 @@ Projectiles: {
 
 	ExplosionHitbox.DisplayName: Explosion
 	ExplosionHitboxFriendly.DisplayName: Explosion
+	Explosion.DisplayName: "{$Mods.PathOfTerraria.Projectiles.ExplosionHitbox.Name}"
 
 	DemonSummon: {
 		DisplayName: デーモン
@@ -3419,6 +5679,78 @@ Projectiles: {
 	WhipBaseProjectile.DisplayName: Whip Base Projectile
 	AntlerShardProj.DisplayName: Antler Shard Proj
 	FlameSentryFireball.DisplayName: Fireball
+	FlamethrowerSentryFlame.DisplayName: Flamethrower Sentry Flame
+	MoltenSentryAura.DisplayName: Molten Sentry Aura
+	FlamethrowerFlame.DisplayName: Flamethrower Flame
+	Flame.DisplayName: Flame
+	SimpleLocust.DisplayName: Simple Locust
+	LocustSpawnCircle.DisplayName: Locust Spawn Circle
+	AntlionSwarmerSummon.DisplayName: Antlion Swarmer
+	LocustEgg.DisplayName: Locust Egg
+	AntlionExplosion.DisplayName: Antlion Explosion
+	AntlionSummon.DisplayName: Antlion Summon
+	IceShards.DisplayName: Ice Shards
+	DelayedStrike.DisplayName: Delayed Strike
+	Flameburst.DisplayName: Flameburst
+	ManaBomb.DisplayName: Mana Bomb
+	ManaBombExplosion.DisplayName: Mana Bomb
+	ChainLightning.DisplayName: Chain Lightning
+	StarcallerStar.DisplayName: Starcaller
+	OrbitingPlanet.DisplayName: Planetoid
+	BlastIcicle.DisplayName: Blast Icicle
+	ConfluxRift.DisplayName: Conflux Rift
+	HealingOrb.DisplayName: Healing Orb
+	ReviveEffect.DisplayName: Revive Effect
+	OverhealPulseAura.DisplayName: Overheal Pulse Aura
+	ExplosiveShard.DisplayName: Explosive Shard
+	RagingSpirit.DisplayName: Raging Spirit
+	StickyFlame.DisplayName: Sticky Flame
+	FrostfireMeteorProjectile.DisplayName: Frostfire Meteor
+	BlastIcicleSmall.DisplayName: Blast Icicle
+	ColdAura.DisplayName: Cold Aura
+
+	ShadowflamePyreProjectile: {
+		DisplayName: シャドウフレイムの火葬壇
+
+		DeathReason: {
+			0: "{0}は焼かれ、影へと消えた。"
+			1: "{0}は炎に呑み込まれた。"
+			2: "{0}は残り火と影となって消え去った。"
+		}
+	}
+
+	PrismaticOrbProjectile.DisplayName: Prismatic Orb Projectile
+	PrismaticOrbExplosion.DisplayName: Prismatic Orb Explosion
+	FleaBellMinion.DisplayName: Flea Bell Minion
+	SimulacraEcho.DisplayName: Simulacra Echo
+	SimulacraMirror.DisplayName: Simulacra Mirror
+	OuroborosPoisonGas.DisplayName: Ouroboros Poison Gas
+	OuroborosProjectile.DisplayName: Ouroboros Projectile
+	CelestialRift.DisplayName: Celestial Rift
+	GlacialRift.DisplayName: Glacial Rift
+	InfernalRift.DisplayName: Infernal Rift
+
+	UnderwaterRift: {
+		DisplayName: 不可思議な亀裂
+
+		DeathReason: {
+			0: "{0}は虚無と一つになった。"
+			1: "{0}は現実の彼方へ踏み込んだ。"
+			2: "{0}は異界に拒絶された。"
+		}
+	}
+
+	SlashAoE.DisplayName: Slash AoE
+	FloatingMudplatform.DisplayName: Mudplatform
+	BrittleFloatingMudplatform.DisplayName: Mudplatform
+	CryoStalkerIcicle.DisplayName: Cryo Stalker Icicle
+	FallenShamanRocket.DisplayName: Fallen Shaman Rocket
+	FallenSoul.DisplayName: Fallen Soul
+	InfernalFlames.DisplayName: Infernal Flames
+	MosslingPoison.DisplayName: Mossling Poison
+	AzarielPortal.DisplayName: Stable Portal
+	SimulacraBowAnimation.DisplayName: Simulacra Bow Animation
+	BloatingLeechProjectile.DisplayName: Bloating Leech Projectile
 }
 
 Quests: {
@@ -3435,6 +5767,8 @@ Quests: {
 		GiveItTo: "{0} へ渡す"
 	}
 
+	Skip: スキップ？
+	Sure: 本当にいい？
 	TalkTo: "{0} に話しかける"
 	GiveThem: " 以下を渡す："
 	Exploration.Ice: 雪原バイオームの探索 ({0}%)
@@ -3454,7 +5788,7 @@ Quests: {
 		BlacksmithStartQuest: {
 			Name: 新しい刃の鍛造
 			Description: ""
-			Kill.Zombies: ゾンビを{0}体倒す
+			Kill.Zombies: ゾンビを({0}/{1})体倒す
 		}
 
 		KingSlimeQuest: {
@@ -3479,6 +5813,8 @@ Quests: {
 		WizardStartQuest: {
 			Name: 魔法の回帰
 			Description: ""
+			KillScout: 地上でゴブリン調査員を倒す
+			KillSurveyor: レイヴンクレストの左側でゴブリン測量士を倒す
 		}
 
 		EoCQuest: {
@@ -3490,16 +5826,18 @@ Quests: {
 		EoWQuest: {
 			Name: 深淵の囁き
 			Description: ""
-			MorvenRaven: モーヴェンをレイヴン像の元へ連れて行く
+			MorvenRaven: モルヴェンをレイヴン像の元へ連れて行く
 			SmashOrbs: シャドウオーブを3つ破壊する
 			KillEoW: イーターオブワールドを討伐する
 			ReturnToOverworld: 地上世界へ戻る
+			MorvenDialogue: フワァ...おや。これはどうも、見知らぬ者よ。窮地を救ってくれたこと、感謝するぞい。実は、印を付けておいたデバウラーを追ってここまで降りてきたのじゃが...まあ、それはいい。頼みの道具が役立たずだったようでな、気づけばこの臭い石の中に閉じ込められたのじゃ。もうずっとここで酷い目に遭っておる。ワシを連れて、カラスの像まで送り届けてくれぬか？礼...？ああ、勿論渡す...つもりじゃ。
+			EnterEvilBiome: 地下の不浄で科学者を探す
 		}
 
 		BoCQuest: {
 			Name: 脈打つもの
 			Description: ""
-			SmashOrb: クリムゾンハートを破壊する
+			SmashOrb: ロイドにクリムゾンハートを破壊してもらう
 			EnterDomain: クトゥルフの脳エリアに侵入する
 			KillBrain: クトゥルフの脳を討伐する
 		}
@@ -3508,17 +5846,18 @@ Quests: {
 			Name: 王宮への旅路
 			Description: ""
 			KillQueen: 女王蜂を討伐する
+			EnterDomain: 魔導書から召喚したホーネットを蜂蜜に沈める
 		}
 
 		DeerclopsQuest: {
 			Name: 氷原の怪物
 			Description: ""
 			KillDeerclops: ディアクロップスを討伐する
-			GetAntlersOrShards: 奇妙な角、または角の欠片を入手する
+			GetAntlersOrShards: 奇妙な角、または角の欠片
 		}
 
 		SkeletronQuest: {
-			Name: Skeletal 白骨の遺物
+			Name: 白骨の遺物
 			Description: ""
 			EnterDomain: スケルトロンエリアに侵入する
 			KillSkeletron: スケルトロンを討伐する
@@ -3529,7 +5868,7 @@ Quests: {
 			Description: ""
 			WizardStart: ふむ...そうだな。はるか地下で大地が震えている。かつて封じられた“それ”のせいだ。昔、冒険者たちは邪悪を疑似的な器に封印した。しかし君が世界中の魔物を屠ったことで、その力が封印へと流れ込んだようだ。つまり――倒さねばならない。急いでスレイン、モルガナ、エラーラに話しかけるといい。武器を用意してくれる。これを持っていけ。健闘を祈る。モルガナにも感謝するといい...あまり詮索はしないでもらいたい。ここは忙しいんでな。
 			ThrainHelp: ああ...やはり来たか。これを持て。いつかのために備えていた。アラリックも手を貸してくれてな。俺の戦いの記憶が宿っている。武運を。
-			ElaraHelp: 無事を願うわ。あぁ、これも持っていきなさい。派手さはないけど、スレインも手を貸してくれたら質は確かよ。あとは...相対す敵は『目』が弱点って話もあるわね。
+			ElaraHelp: 無事を願うわ。あぁ、これも持っていきなさい。派手さはないけど、スレインも手を貸してくれたから質は確かよ。あとは...相対する敵は『目』が弱点って話もあるわね。
 			MorganaHelp: おやぁ...ハッハッハ！！ついに時は来た！ほれほれ、魔導書のエサをたんまりと用意したぞぉ！エラーラは実に物知りで役に立ったよ。存分に利用しなさい！バッハッハ！！
 			WizardContinue: 受け取ってくれ。爆発？するに決まっておろう、だが君なら大丈夫だ。地獄の灰に投げれば、封印の地への扉が開く。チャンスは一度きり。失敗は許されない。壁の死後も不明だ。だが、倒す必要がある。幸運を。追加注文は...まあ、値段次第だ。
 			KillWall: ウォールオブフレッシュを討伐する
@@ -3544,11 +5883,13 @@ Quests: {
 		}
 
 		QueenSlimeQuest: {
-			Name: 王権体制
+			Name: 女王を討て
 			Description: ""
 			Tiers: ティア1探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: クイーンスライムエリアへ侵入する
 			Boss: クイーンスライムを討伐する
+			IlluminantSlimes: イルミナントスライムを({0}/{1})体倒す
+			TalkToGarrick: ガリックの元へ戻る
 		}
 
 		TwinsQuest: {
@@ -3556,21 +5897,31 @@ Quests: {
 			Description: ""
 			Tiers: ティア2探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: ツインズエリアへ侵入する
-			Boss: ツインズを討伐する
+			Boss1: レティネイザーを倒す
+			Boss2: スパズマティズムを倒す
+			Wraiths: レイスを({0}/{1})体倒す
+			PossessedArmors: ポゼッションアーマーを({0}/{1})体倒す
+			WanderingEyes: ワンダリングアイを({0}/{1})体倒す
+			CollectFragments: ワンダリングアイ、ポゼッションアーマー、またはレイスから月光の欠片を5個集める。
+		}
+
+		TinkerIntroQuest: {
+			Name: 工房の修理
+			Description: ""
 		}
 
 		DestroyerQuest: {
-			Name: 鋼鉄の大喰らい
+			Name: 機械の心臓
 			Description: ""
-			Tiers: ティア3探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: デストロイヤーエリアへ侵入する
 			Boss: デストロイヤーを討伐する
+			Clingers: クリンガーまたはイコルスティッカーを({0}/{1})体倒す
+			Materials: 呪炎または霊液
 		}
 
 		SkelePrimeQuest: {
-			Name: 鋼の骨格
+			Name: プライム再構築
 			Description: ""
-			Tiers: ティア4探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: スケルトロンプライムエリアへ侵入する
 			Boss: スケルトロンプライムを討伐する
 		}
@@ -3578,9 +5929,9 @@ Quests: {
 		PlanteraQuest: {
 			Name: 喰らい咲くもの
 			Description: ""
-			Tiers: ティア5探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: プランテラエリアへ侵入する
 			Boss: プランテラを討伐する
+			Plantera: 奇妙な成長体モンスターを({0}/{1})体倒す
 		}
 
 		GolemQuest: {
@@ -3589,6 +5940,7 @@ Quests: {
 			Tiers: ティア6探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: ゴーレムエリアへ侵入する
 			Boss: ゴーレムを討伐する
+			Lihzards: リザードを({0}/{1})体倒す
 		}
 
 		FishronQuest: {
@@ -3597,29 +5949,36 @@ Quests: {
 			Tiers: ティア7探索マップを{1}個クリアする（{0}/{1}）
 			EnterDomain: デュークフィッシュロンエリアへ侵入する
 			Boss: デュークフィッシュロンを討伐する
+			OceanEnemies: 海の敵を({0}/{1})体倒す
 		}
 
 		EoLQuest: {
 			Name: 聖なる断罪
 			Description: ""
-			Tiers: ティア8探索マップを{1}個クリアする（{0}/{1}）
-			EnterDomain: エンプレスオブライトエリアへ侵入する
+			EnterDomain: 聖域の裂け目に入る
 			Boss: エンプレスオブライトを討伐する
+			EquipGlasses: ローズカラードグラスを作成して装備する
+			ExploreHallow: ローズカラードグラスを装備して聖域を探索する
 		}
 
-		CultistQuest: {
-			Name: 月追い人
+		CultistMoonlordQuest: {
+			Name: 世界の終焉
 			Description: ""
-			Tiers: ティア9探索マップを{1}個クリアする（{0}/{1}）
-			EnterDomain: 狂気の崇拝者エリアへ侵入する
-			Boss: 狂気の崇拝者を討伐する
+			CollectSigils: バイオームの印章を5個集める
+			EnterDomain1: 狂信者のエリアに入る
+			EnterDomain2: ムーンロードのエリアに入る
+			Boss1: 狂信者を倒す
+			Boss2: ムーンロードを倒す
+			EnterDomain: Mods.PathOfTerraria.Quests.Quest.CultistMoonlordQuest.EnterDomain
+			Boss: Mods.PathOfTerraria.Quests.Quest.CultistMoonlordQuest.Boss
+			ReadyToGo: Mods.PathOfTerraria.Quests.Quest.CultistMoonlordQuest.ReadyToGo
+			Prepare: 地上で決戦に備える
 		}
 
-		MoonLordQuest: {
-			Name: そして終焉へ
+		EpilogueQuest: {
+			Name: 遥かなる旅路
 			Description: ""
-			EnterDomain: ムーンロードエリアへ侵入する
-			Boss: ムーンロードを討伐する
+			BeatABoss: 探索可能なエリアのボスを1体倒す
 		}
 	}
 }
@@ -3674,15 +6033,34 @@ SkillAugments: {
 		Name: クリティカル
 		Tooltip: マナ消費量が{1}%増加する代わりに、クリティカル率が{0}%上昇
 	}
+
+	Duplicate: {
+		Name: 二重召喚
+		Tooltip: 与えるダメージが{0}%減少する代わりに、召喚体を2体同時に召喚できる
+	}
+
+	Extend: {
+		Name: 延長
+		Tooltip: 持続時間が{0}%増加する
+	}
+
+	Command: {
+		Name: 指揮
+		Tooltip: ミニオンのダメージが{0}%増加する
+	}
 }
 
 SkillFailReasons: {
 	NotEnoughMana: マナが不足している
+	NotEnoughLife: 発動に必要なライフが足りない
 	NeedsWeapon: 使用には{0}武器が必要
 	RangedWeaponConsumable: 非消費型の武器が必要
 	WeaponInvalid: 現在の武器ではスキルを使えない
 	NoAmmo: 弾薬が必要
 	MissingAffix: +{0}の付与された装備が必要
+	Blocked: ここには設置できない
+	WrongAmmo: 手持ちのアイテムに対応する弾薬ではない
+	BadChanneled: チャネリングを行うアイテムは使用できない
 }
 
 SkillPassives: {
@@ -3708,7 +6086,7 @@ SkillPassives: {
 
 	ThunderClaps: {
 		Name: 轟雷
-		Tooltip: レベルごとに5%の確率で、命中した敵の周囲に小さなノヴァを発生させる
+		Tooltip: レベルごとに{0}%の確率で、命中した敵の周囲に小さなノヴァを発生させる
 	}
 
 	ConcurrentBlasts: {
@@ -3746,7 +6124,7 @@ SkillPassives: {
 
 	FesteringSpores: {
 		Name: 膿む胞子
-		Tooltip: 投射物が命中時、低確率でダメージを与える爆発胞子を発生させる
+		Tooltip: 発射体が命中時、低確率でダメージを与える爆発胞子を発生させる
 	}
 
 	MoldColony: {
@@ -3756,17 +6134,17 @@ SkillPassives: {
 
 	FungalSpread: {
 		Name: 菌類拡散
-		Tooltip: 胞子の爆発サイズが1スタックにつき10%増加
+		Tooltip: 胞子の爆発サイズが1スタックにつき{0}%増加
 	}
 
 	LingeringPoison: {
 		Name: 残留毒
-		Tooltip: 投射物が命中時、有毒なガスを発生させる
+		Tooltip: 発射体が命中時、有毒なガスを発生させる
 	}
 
 	PowerfulSmog: {
 		Name: 濃厚毒煙
-		Tooltip: 毒ガスの持続時間がスタックごとに+1秒増加
+		Tooltip: 毒雲が1スタックごとに{0}{^0:秒;秒}長く残る
 	}
 
 	Megatoxin: {
@@ -3776,22 +6154,22 @@ SkillPassives: {
 
 	ColdBlast: {
 		Name: 冷気爆発
-		Tooltip: すべての爆発斉射が2秒間の冷却を付与し、ダメージが冷気属性になる
+		Tooltip: すべての爆発斉射が{0}秒間の冷却を付与し、ダメージの{1}%が冷気属性になる
 	}
 
 	ShatteringArrows: {
 		Name: 破砕矢
-		Tooltip: 爆発斉射が2倍の弾数になるが、1発あたりのダメージは70%になる
+		Tooltip: 爆発斉射が2倍の弾数になるが、1発あたりのダメージは{0}%になる
 	}
 
 	ConcussiveBurst: {
 		Name: 脳震爆発
-		Tooltip: レベルごとに破砕投射物を1つ追加
+		Tooltip: レベルごとに破砕発射体を1つ追加
 	}
 
 	SlicingShrapnel: {
 		Name: 裂傷の破片
-		Tooltip: すべての破砕投射物が3秒間の出血を付与
+		Tooltip: すべての破砕発射体が{0}秒間の出血を付与
 	}
 
 	CreepingVines: {
@@ -3801,22 +6179,327 @@ SkillPassives: {
 
 	Quickload: {
 		Name: 高速装填
-		Tooltip: 投射物の発射速度が大幅に上昇
+		Tooltip: 発射体の発射速度が大幅に上昇
 	}
 
 	SharpenedTips: {
 		Name: 鋭利な矢尻
-		Tooltip: スタックごとに防御貫通が10%増加
+		Tooltip: スタックごとに防御貫通が{0}%増加
 	}
 
 	TargetLock: {
 		Name: 標的固定
-		Tooltip: 投射物が最も近い敵に緩やかに追尾する
+		Tooltip: 発射体が最も近い敵に緩やかに追尾する
 	}
 
 	Ghostfire: {
 		Name: 幽火
-		Tooltip: 敵に命中した投射物が低確率で分身する
+		Tooltip: 敵に命中した発射体が低確率で分身する
+	}
+
+	IntenseHeat: {
+		Name: 灼熱
+		Tooltip: 範囲内のすべての味方の炎ダメージが{0}%増加する
+	}
+
+	FlameWard: {
+		Name: 炎の加護
+		Tooltip: 範囲内のすべての味方の炎耐性が{0}%増加する
+	}
+
+	LivingFurnace: {
+		Name: 生ける炉
+		Tooltip: セントリーの敵を引きつける力が+10され、ライフが25%増加する
+	}
+
+	HeatCompression: {
+		Name: 熱圧縮
+		Tooltip: 炎の有効範囲が{0}%減少する代わりに、ダメージが{1}%増加する
+	}
+
+	CombustiveAura: {
+		Name: 燃焼のオーラ
+		Tooltip: 周囲の敵に追加の継続ダメージを与える
+	}
+
+	MeltingPoint: {
+		Name: 融点
+		Tooltip: "{1}秒以上燃えている敵が受ける継続ダメージが{0}%増加する"
+	}
+
+	SlowBurn: {
+		Name: 緩慢燃焼
+		Tooltip: セントリーは急速にライフを失い、{0}秒後に消滅するが、周囲へ継続的にダメージを与える
+	}
+
+	ImprovedWarding: {
+		Name: 耐火強化
+		Tooltip: レベルごとに炎耐性が{0}%増加する
+	}
+
+	ImprovedBurning: {
+		Name: 燃焼強化
+		Tooltip: レベルごとに炎ダメージが{0}%増加する
+	}
+
+	Vitality: {
+		Name: 生命力
+		Tooltip: レベルごとにセントリーのライフが{0}%増加する
+	}
+
+	EnduringFlame: {
+		Name: 尽きぬ炎
+		Tooltip: 敵が炎の中にいる時間1秒ごとに、ダメージが{0}%増加する
+	}
+
+	OverwhelmingPressure: {
+		Name: 圧倒的圧力
+		Tooltip: 燃焼のオーラの範囲内にいる敵の炎耐性が{0}%低下する
+	}
+
+	Weakening: {
+		Name: 耐性低下
+		Tooltip: レベルごとに炎耐性が{0}%低下する
+	}
+
+	BlastForce: {
+		Name: 爆発力
+		Tooltip: レベルごとに爆発範囲が{0}%増加する
+	}
+
+	Accelerant: {
+		Name: 促進剤
+		Tooltip: セントリーが毎秒失うライフが{0}%増加する代わりに、ダメージが{0}%増加する
+	}
+
+	BiggerBrood: {
+		Name: 群れの拡大
+		Tooltip: レベルごとに卵が{0}個増加する
+	}
+
+	Gestation: {
+		Name: 孵化準備
+		Tooltip: "{0}%の確率で、イナゴが敵を倒した時に追加の卵を生成する"
+	}
+
+	QuickerHatching: {
+		Name: 孵化促進
+		Tooltip: レベルごとに卵の孵化速度が{0}%増加する
+	}
+
+	CarnivorousLarvae: {
+		Name: 肉食幼虫
+		Tooltip: 倒れた敵から卵が生成される確率が、レベルごとに追加で{0}%増加する
+	}
+
+	Eggsplosion: {
+		Name: エッグスプロージョン
+		Tooltip: 孵化する卵が小範囲に爆発を起こす
+	}
+
+	ShockingEmergence: {
+		Name: 感電孵化
+		Tooltip: エッグスプロージョンが周囲の敵を感電させる
+	}
+
+	ViciousBites: {
+		Name: 凶悪な噛みつき
+		Tooltip: アントリオンの攻撃が命中した敵に出血を付与する
+	}
+
+	VolatileInsects: {
+		Name: 爆裂昆虫
+		Tooltip: アントリオンは対象への攻撃命中後に爆発し、{0}%の炎ダメージを与える
+	}
+
+	InfectedDetonation: {
+		Name: 連鎖感染爆発
+		Tooltip: 爆裂昆虫の爆発で倒された敵は、{0}%の確率でさらに爆発し、最大ライフの{1}%分のダメージを与える
+	}
+
+	HeartierExplosions: {
+		Name: 生命爆発
+		Tooltip: 感染爆発のダメージに変換される最大ライフの割合が、レベルごとに{0}%増加する
+	}
+
+	CombustableGuts: {
+		Name: 可燃性の内臓
+		Tooltip: 敵死亡時に感染爆発が発生する確率が{0}%増加する
+	}
+
+	OverheatingBugs: {
+		Name: 過熱する虫
+		Tooltip: 虫とその爆発が敵に「燃えている！」を付与する
+	}
+
+	SuperheatedBugs: {
+		Name: 超加熱された虫
+		Tooltip: 虫とその爆発による「燃えている！」のダメージが{0}%増加する
+	}
+
+	ColdBlooded: {
+		Name: 冷血
+		Tooltip: アントリオンは敵を倒すたびに寿命が追加で{0}{^0:秒;秒}延びる
+	}
+
+	ThermalConversion: {
+		Name: 熱変換
+		Tooltip: レベルごとに、敵を倒した際に得る寿命が{0}秒増加する
+	}
+
+	FrostbiteMandibles: {
+		Name: 凍傷の大顎
+		Tooltip: 冷気ダメージが増加し、攻撃命中時に{0}%の確率で凍えを付与する
+	}
+
+	AggressiveChill: {
+		Name: 凍てつく猛攻
+		Tooltip: 冷気ダメージが増加する
+	}
+
+	IceVenom: {
+		Name: 氷毒
+		Tooltip: 攻撃命中時に凍えを付与する確率が大幅に増加する
+	}
+
+	ShatteringCarapace: {
+		Name: 砕ける甲殻
+		Tooltip: 倒された敵が氷の破片となって砕け散り、敵の最大ライフに応じた追加ダメージを与える
+	}
+
+	CarapaceCracker: {
+		Name: 甲殻砕き
+		Tooltip: アントリオンの攻撃命中時、ダメージ貫通効果を持つデバフを付与する
+	}
+
+	SmolderingFury: {
+		Name: 燻る怒り
+		Tooltip: 火球で直接倒された敵が爆発し、周囲の敵を燃焼させる
+	}
+
+	FireballNova: {
+		Name: ファイアノヴァ
+		Tooltip: すでに燃焼している敵を再び燃焼させると、小さなファイアノヴァが発生して範囲ダメージを与える
+	}
+
+	ScorchedEarth: {
+		Name: 焦土
+		Tooltip: 火球が爆発して複数の小さな火球に分裂し、地面に残留する
+	}
+
+	LongerScorchedEarth: {
+		Name: 持続する焦土
+		Tooltip: 焦土で発生する小さな火球の持続時間が増加する
+	}
+
+	StrongerScorchedEarth: {
+		Name: 強化された焦土
+		Tooltip: 焦土で発生する小さな火球のダメージが増加する
+	}
+
+	LongerIgnites: {
+		Name: 燃焼延長
+		Tooltip: 燃焼の持続時間が{0}%増加する
+	}
+
+	StrongerSmolderingFury: {
+		Name: 強化された燻る怒り
+		Tooltip: 燻る怒りの爆発ダメージが、スタックごとに{0}%増加する
+	}
+
+	LargerSmolderingFury: {
+		Name: 拡大する燻る怒り
+		Tooltip: 燻る怒りの爆発範囲が、スタックごとに{0}%拡大する
+	}
+
+	SlowingSmolderingFury: {
+		Name: 鈍化する燻る怒り
+		Tooltip: 燻る怒りの爆発が命中した敵を鈍化させる
+	}
+
+	Pyroclasm: {
+		Name: 火砕流
+		Tooltip: 火球による燃焼ダメージが{0}%増加する
+	}
+
+	CrystallineImpact: {
+		Name: 結晶の衝撃
+		Tooltip: フロストファイアメテオが着弾時に破片へと砕け散る
+	}
+
+	Rime: {
+		Name: 霧氷
+		Tooltip: 破片のサイズが、スタックごとに{0}%増加する
+	}
+
+	EverburningFrost: {
+		Name: 消えぬ霜炎
+		Tooltip: チャネリングを続けるほど、メテオの生成速度が上昇する
+	}
+
+	FrozenGround: {
+		Name: 凍結地帯
+		Tooltip: メテオが小範囲の鈍化地帯を残す
+	}
+
+	ColdFocus: {
+		Name: 冷気集中
+		Tooltip: フロストファイアメテオ使用中の移動速度が増加する
+	}
+
+	AbsoluteZero: {
+		Name: 絶対零度
+		Tooltip: 凍結または燃焼している敵に対して、メテオが追加ダメージを与える
+	}
+
+	ThermalFeedback: {
+		Name: 熱還元
+		Tooltip: メテオが敵に直接命中すると、マナを{0}回復する
+	}
+
+	EverburningPyre: {
+		Name: 消えぬ火葬壇
+		Tooltip: シャドウフレイムの火葬壇の持続時間が20%増加する
+	}
+
+	PainIsPleasure: {
+		Name: 灼熱の贖罪
+		Tooltip: 自分の火葬壇に入るとダメージを受ける代わりに、[mechanic/shift=0;2:Chaos]と[mechanic/shift=1;2:Fire]が50%増加する
+	}
+
+	AbyssalHunger: {
+		Name: 深淵の飢え
+		Tooltip: 火葬壇は{1}%の確率で、与えたダメージの{0}%をライフとマナとして回復する
+	}
+
+	CrawlingFlame: {
+		Name: 這い寄る炎
+		Tooltip: 火葬壇は長く存在するほど大きくなる
+	}
+
+	Pyremaniac: {
+		Name: パイロマニア
+		Tooltip: 永続シャドウフレイムのデバフダメージが50%増加する
+	}
+
+	AdditionalPyres: {
+		Name: 迅速魔法
+		Tooltip: シャドウフレイムの火葬壇のクールダウンが{0}%短縮される
+	}
+
+	ConjoinedFlames: {
+		Name: 融合する炎
+		Tooltip: 接触した火葬壇同士が融合し、より強力な1つの火葬壇になる
+	}
+
+	ShadowflameEruption: {
+		Name: 影炎噴出
+		Tooltip: 2つの火葬壇を融合すると、一時的に融合後の火葬壇が強化され、短時間ダメージが50%増加する
+	}
+
+	FrostfireBlast: {
+		Name: 霜炎爆発
+		Tooltip: 敵に凍結または凍えと燃焼が同時に付与されると、それらのデバフを解除して即座に強力な爆発を起こす
 	}
 }
 
@@ -3825,6 +6508,10 @@ Skills: {
 	LevelLine: (レベル {0}/{1})
 	ManaLine: マナ消費：{0}
 	NotEnoughMana: マナ消費：[c/FF6666:{0}]
+	LifeLine: ライフを{0}消費
+	NotEnoughLife: "[c/FF6666:ライフを{0}消費]"
+	ManaDrain: 1秒ごとにマナを{0}消費
+	LifeDrain: 1秒ごとにライフを{0}消費
 	NoWeaponLine: 武器は不要
 	NoKeybindLine: キー設定が未登録
 	DurationLine: 持続時間：{0}秒
@@ -3834,6 +6521,37 @@ Skills: {
 	BaseDamage: 基礎ダメージ：{0}
 	# This is for the hover text in the skills menu.
 	CantEquip: 装備不可：{0}
+	TagsLine: タグ：
+	CantBeAdded: スキルを追加できません。
+	AlreadyAdded: スキルはすでに装備されています。
+	ShowTags: （Shiftでタグ名を表示）
+	NoTree: （このスキルにはツリーがありません）
+	OpenTree: 中クリックでツリーを開く
+	NoCost: "[c/999999:（スキルの使用コストなし）]"
+	ManaReserve: 最大マナの{0}%を予約
+	HealthReserve: 最大ライフの{0}%を予約
+
+	Tags: {
+		None: なし
+		Fire: 炎
+		Cold: 冷気
+		Lightning: 雷
+		Chaos: 混沌
+		Melee: 近接
+		Ranged: 遠距離
+		Magic: 魔法
+		Summon: 召喚
+		Projectile: 発射物
+		Channeling: チャネリング
+		AreaOfEffect: 範囲効果
+		Sentry: セントリー
+		Minion: ミニオン
+		Debuff: デバフ
+		Buff: バフ
+		Movement: 移動
+		Critical: クリティカル
+		Healing: 回復
+	}
 
 	# These are the actual localization lines for skills.
 	Nova: {
@@ -3848,7 +6566,7 @@ Skills: {
 
 	RainOfArrows: {
 		Name: 矢の雨
-		Description: 少し遅れて、手に持った遠距離武器の投射物をカーソル方向へ一斉射撃する
+		Description: 少し遅れて、手に持った遠距離武器の発射体をカーソル方向へ一斉射撃する
 	}
 
 	MoltenShield: {
@@ -3863,7 +6581,7 @@ Skills: {
 
 	FetidCarapace: {
 		Name: 腐臭の甲殻
-		Description: 周囲を回転する投射物を展開し、敵と弾を防ぐ
+		Description: 周囲を回転する発射体を展開し、敵と弾を防ぐ
 	}
 
 	Fireball: {
@@ -3878,12 +6596,21 @@ Skills: {
 
 	FlameSage: {
 		Name: 炎の賢者
-		Description: 敵の注意を引きつける炎のセントリーを召喚する
+		Description: 
+			'''
+			敵の注意を引きつける炎のセントリーを召喚する
+			同時に設置できるセントリーは2体まで
+			'''
+	}
+
+	Swarm: {
+		Name: 害虫の群れ
+		Description: 短時間だけ存在する生物を召喚して戦わせます。生物は自動的に敵を狙います。
 	}
 }
 
 SkillSpecials: {
-	OneLine: Only one skill specialization may be selected
+	OneLine: 選択できるスキル特化は1つだけです
 
 	FireNova: {
 		Name: 火炎爆発
@@ -3913,6 +6640,51 @@ SkillSpecials: {
 	PiercingPrecision: {
 		Name: 貫通精度
 		Description: 連射の代わりに遅れて放つ高貫通の弾幕へ変更する
+	}
+
+	Flamethrower: {
+		Name: 火炎放射器
+		Description: 炎のセントリーを召喚し、扇状の範囲内にいる敵へ継続的にダメージを与えます
+	}
+
+	MoltenSentinel: {
+		Name: 溶岩の番兵
+		Description: 炎のセントリーを召喚し、周囲の敵へ継続的にダメージを与えます
+	}
+
+	VolatileConstruct: {
+		Name: 爆発性構造体
+		Description: 炎のセントリーを召喚し、{0}秒後に爆発させます。残りライフに応じて追加ダメージを与えます
+	}
+
+	AntlionSwarm: {
+		Name: 飛翔アントリオン
+		Description: 虫の最大数が半分になりますが、虫が飛行するようになり、与えるダメージが増加します
+	}
+
+	LocustBrood: {
+		Name: イナゴの大群
+		Description: 2倍の数の虫が卵として一度に出現し、しばらくすると孵化します
+	}
+
+	GlacialAntlions: {
+		Name: 氷河のアントリオン
+		Description: アントリオンが100%冷気ダメージを与えるようになります
+	}
+
+	Inferno: {
+		Name: インフェルノ
+		Description: ファイアボールが100%の確率で敵を炎上させます
+	}
+
+	FrostfireMeteor: {
+		Name: 霜炎の隕石
+		Description: ファイアボールがチャネリング式の隕石に置き換わり、[mechanic/shift=0;2:冷気]と[mechanic/shift=1;2:炎]の両方のダメージを与えます
+	}
+
+	ShadowflamePyre: {
+		Name: シャドウフレイムの火葬壇
+		Description: ファイアボールが弧を描いて飛ぶようになり、シャドウフレイムの火葬壇を残します。火葬壇は[mechanic/shift=0;2:混沌]と[mechanic/shift=1;2:炎]のダメージを与え、永続するシャドウフレイムを付与します
 	}
 }
 
@@ -3960,7 +6732,7 @@ Subworlds: {
 
 	MoonLordDomain: {
 		DisplayName: 月の瘴気
-		Description: 深層から浮上し、月の支配者ムーンロードに討て。
+		Description: 深層から浮上し、月の支配者ムーンロードを討て。
 		Mining: "[i:1] 全ブロック採掘可。ただし入手不可"
 		Placing: "[i:2] 設置可能：松明／ロープ"
 	}
@@ -3982,7 +6754,7 @@ Subworlds: {
 	QueenSlimeDomain: {
 		DisplayName: 舞い上がる空洞
 		Description: 脆い結晶を抜け、その先にあるクイーンスライムエリアを目指そう。
-		Mining: "[i:1] 採掘可能：松明／ロープ"
+		Mining: "[i:1] 松明、ロープ、脆い結晶 [i:PathOfTerraria/BrittleCrystalItem] を採掘できる"
 		Placing: "[i:2] 設置可能：松明／ロープ"
 	}
 
@@ -3998,6 +6770,7 @@ Subworlds: {
 		Description: 赤色の階段の果てにある門を通り、クトゥルフの脳と対峙せよ。
 		Mining: "[i:1] 採掘可能：松明／ロープ"
 		Placing: "[i:2] 設置可能：松明／ロープ"
+		Extra: "[i:53] 謎の力によって空中ジャンプが3回追加される"
 	}
 
 	DeerclopsDomain: {
@@ -4058,7 +6831,7 @@ Subworlds: {
 
 	ForestArea: {
 		DisplayName: 生い茂る森
-		Description: 差しの届かぬ巨木の森を進み、エルダー・グローヴテンダーに挑め。
+		Description: 陽の差し込まぬ巨木の森を進み、エルダー・グローヴテンダーに挑め。
 		Mining: "[i:1] 採掘可能：松明／ロープ"
 		Placing: "[i:2] 設置可能：松明／ロープ"
 	}
@@ -4066,6 +6839,20 @@ Subworlds: {
 	RavencrestSubworld: {
 		DisplayName: レイヴンクレスト
 		Description: 人々と話し、クエストを受けて達成し、さまざまな商人から買い物をしよう。ゴブリン軍団と戦うことにもなるだろう。
+		Mining: "[i:1] 採掘可能：松明／ロープ"
+		Placing: "[i:2] 設置可能：松明／ロープ"
+	}
+
+	SwampArea: {
+		DisplayName: 苔むした沼地
+		Description: 浮かぶ物体を足場にし、凶暴な虫の群れを泳ぎ抜け、生い茂る樹冠を探索して沼地のボスに挑もう。
+		Mining: "[i:1] 採掘可能：松明／ロープ"
+		Placing: "[i:2] 設置可能：松明／ロープ"
+	}
+
+	InfernalRealm: {
+		DisplayName: 灼熱のエリア
+		Description: 地獄の裂け目の起源を突き止めた。この灼熱のエリアを支配する者を倒せ！
 		Mining: "[i:1] 採掘可能：松明／ロープ"
 		Placing: "[i:2] 設置可能：松明／ロープ"
 	}
@@ -4083,9 +6870,13 @@ TooltipNotices: {
 	NoDifferences: （違いなし）
 	TierXOfY: ティア {1} 中 {0}
 	AffixValueRange: 範囲：{0} ～ {1}
+	Ephemeral: （一時的）
+	Disabled: このアイテムは使用できません - 代わりにレイヴンクレストでクエストを探してください
 }
 
 UI: {
+	Confirm: 確認
+
 	Gear: {
 		Buttons: {
 			Previous: 前へ
@@ -4099,20 +6890,24 @@ UI: {
 		}
 	}
 
+	Hotbar: {
+		RichTooltipsToggle: {
+			On: ホットバーに詳細ツールチップを表示: オン
+			Off: ホットバーに詳細ツールチップを表示: オフ
+		}
+	}
+
 	Slots: {
-		0: 兜
-		1: 胸当て
-		2: すね当て
-		3: アクセサリー1
-		4: 武器
-		5: ネックレス
-		6: オフハンド
-		7: 左指輪
-		8: 右指輪
-		9: アクセサリー2
-		10: 翼
-		11: アクセサリー3
-		12: アクセサリー4
+		Head: 頭
+		Body: 胴
+		Legs: 脚
+		Weapon: 武器
+		Necklace: ネックレス
+		Offhand: オフハンド
+		RingLeft: 左の指輪
+		RingRight: 右の指輪
+		Wings: 翼
+		NumberedAccessory: アクセサリー {0}
 	}
 
 	BaseDamage: 基本ダメージ： {0}
@@ -4124,6 +6919,7 @@ UI: {
 		Experience: 経験値
 		DefenseHeader: 防御力
 		Life: ライフ
+		EnergyShield: エナジーシールド
 		LifeRegen: ライフ自然回復/秒
 		Mana: マナ
 		ManaRegen: マナ自然回復/秒
@@ -4134,8 +6930,12 @@ UI: {
 		FireResistance: 炎耐性
 		ColdResistance: 氷耐性
 		LightningResistance: 雷耐性
+		ChaosResistance: 混沌耐性
 		OffenseHeader: 攻撃力
 		CriticalChance: クリティカル率
+		CriticalMultiplier: クリティカル倍率
+		ProjectileSpeed: 発射物速度
+		ProjectileCount: 追加発射物数
 		AttributesHeader: 能力値
 		Strength: 筋力
 		Dexterity: 敏捷
@@ -4144,14 +6944,37 @@ UI: {
 		HasteChargeChance: 撃破時に加速チャージ取得
 		FocusChargeChance: 撃破時にフォーカスチャージ取得
 		AegisChargeChance: 撃破時に防護チャージ取得
+		MaxHasteCharges: 最大加速チャージ数
+		MaxFocusCharges: 最大フォーカスチャージ数
+		MaxAegisCharges: 最大防護チャージ数
+		GatheringHeader: 採集
+		MiningSpeed: 採掘速度
+		BaitConservation: エサ消費軽減
+		TilePlacementSpeed: ブロック設置速度
+		WallPlacementSpeed: 壁設置速度
+		ItemPickupRange: アイテム取得範囲
+		CoinPickupRange: コイン取得範囲
+		MobilityHeader: 機動力
+		JumpHeight: ジャンプ高度
+		JumpSpeed: ジャンプ速度
+		WingFlightTime: 翼の飛行時間
+		WingGlideControl: 翼の滑空操作性
+		SwimSpeed: 泳ぐ速度
+		BreathCapacity: 呼吸容量
+		SafeFallDistance: 安全落下距離
+		ConsumablesHeader: 消耗品
+		PotionCooldownReduction: ポーションのクールダウン短縮
+		BuffDuration: バフ持続時間
 		MiscHeader: その他
 		MaxMinions: 最大ミニオン数
+		AmmoConsumptionChance: 弾薬消費軽減
 		HealthPotions: ライフポーション
 		ManaPotions: マナポーション
+		FishingPower: 釣り力
 
 		Help: {
 			Strength: 10ポイントごとに最大ライフが5増加
-			Dexterity: 10ポイントごとに全体攻撃速度が1%上昇
+			Dexterity: 10ポイントごとに全体攻撃速度が0.1%上昇
 			Intelligence: 10ポイントごとに最大マナが5増加
 		}
 	}
@@ -4167,6 +6990,15 @@ UI: {
 		RateMod: +率
 		Run: 実行
 		SortBy: "並び替え： "
+		Category: カテゴリ: {0}
+
+		Categories: {
+			All: すべて
+			Gear: 装備
+			Currency: 通貨
+			Maps: マップ
+		}
+
 		UniqueItem: （ユニークアイテム）
 	}
 
@@ -4174,7 +7006,7 @@ UI: {
 		Back: 戻る
 		NoPassives: このスキルはパッシブ効果を持たない
 		NoSkill: （スキルなし）
-		ChooseSkill: スキルメニューからスキルを選択してください
+		ChooseSkill: クリックしてスキルを追加
 	}
 
 	Guide: {
@@ -4187,7 +7019,7 @@ UI: {
 		# Welcome/hello, explain purpose of tutorial
 		0:
 			'''
-			こんにちは！ Path of Terraria へようこそ。
+			こんにちは！Path of Terraria へようこそ。
 			このMODは、ゲーム内容を大きく変化させます。
 			そのため、このガイドでは変更点や仕組み、注意点を解説します。
 			途中で省略したい場合は、スキップボタンを使用できます。
@@ -4236,12 +7068,13 @@ UI: {
 			スキルにカーソルを合わせれば、使用条件を確認できます。
 			'''
 		# Explain inventory
-		7:
+7:
 			'''
 			次はホットバーについてです。ここも大きく変更されています。
-			1番目のホットバースロットを選択している間、ホットバーは戦闘モードになります。
-			このモードでは、スキルや武器、ポーションが表示されます。
-			それ以外のスロットでは通常モードとなり、ホットバーは従来通り表示されます。
+			ホットバーの最初のスロットを選択すると、ホットバーは戦闘モードになります。ここにはスキル、武器、ポーションが表示されます。
+			スロット2～10は建築モードとなり、通常どおり残りのホットバーが表示されます。
+			これらのモードは意図的に分けられており、マウスホイールは現在のモード内だけを切り替えます。また、戦闘スキルキーは建築用スロットを選択せず、引き続きスキルを使用します。
+			必要に応じて、ホットバーキーを使って戦闘モードと建築モードを切り替えてください。
 			準備が整ったら、『次へ』を押してください。
 			'''
 		# Explain inventory pt2, hotswapping
@@ -4249,7 +7082,7 @@ UI: {
 			'''
 			武器は1番目のスロットにのみ装備できます。また、武器は即時切り替えが可能です。
 			スロットに武器を装備し、武器スワップキー（デフォルト：Z）を押しましょう。
-			武器は空の状態、もしくは前に切り替えた武器と交換されます。
+			空いている武器枠、または直前に切り替えた武器と入れ替わる
 			好きな武器を、好きなように切り替えよう。
 			'''
 		# Character sheet
@@ -4291,7 +7124,7 @@ UI: {
 			'''
 			お疲れさまです！Path of Terraria の基本はすべて説明し終えました。
 			『次へ』を押せば、自由に冒険を始められます。
-			健闘を祈る。是非楽しんで！
+			健闘を祈ります。ぜひ楽しんでください！
 
 			PS: 『秘術のオベリスク』を忘れないで！
 			'''
@@ -4300,16 +7133,18 @@ UI: {
 	# For the various inventory buttons. NoGrimoire is only if the Grimoire isn't in the player's inventory.
 	InvButtons: {
 		Grimoire: 魔導書
-		NoGrimoire: "[c/888888:(必要] [i:PathOfTerraria/GrimoireItem] [c/888888:魔導書)]"
+		NoGrimoire: "[c/888888:（必要] [i:PathOfTerraria/GrimoireItem] [c/888888:魔導書）]"
 		Quest: クエスト
 		Stats: ステータス
 		RestartTutorial: チュートリアル再開
 		DomainInformation: エリア情報
+		VirtualBag: 収納袋
+		CurrencyPouch: 通貨ポーチ
 	}
 
 	SubworldHelp: {
 		MapTier: "[i:4927] マップランク： "
-		Affixes: "[i:885] 追加効果："
+		Affixes: "[i:885] 接頭辞："
 		MapStrength: "[i:29] マップ強度補正： "
 		ExperienceBoost: "    [i:278] 経験値ボーナス： +"
 		DropRateBoost: "    [i:278] ドロップ率増加： +"
@@ -4320,6 +7155,12 @@ UI: {
 	Grimoire: {
 		Storage: ストレージ
 		ClickMe: 押してみて！
+		HelpLine: ヘルプ
+		AnyMaterial: すべての素材
+		AnyMaterialDesc: すべての素材を表示できるようにします。
+		MinionMaterial: ミニオン専用素材
+		MinionMaterialDesc: 召喚アイテムを選択している場合、その召喚に使用される素材のみを表示します。
+		Base: 基本
 
 		Help: {
 			Materials:
@@ -4339,7 +7180,7 @@ UI: {
 				ストレージ内の素材がそれを可能にするの。
 				各ミニオンを選択すれば、必要な素材が分かるわ。
 				'''
-			Ritual: 
+			Ritual:
 				'''
 				さあ、儀式を始めましょう！必要な素材を置いて頂戴。
 				それ以外のものは置いても意味なんてないからね。
@@ -4358,7 +7199,7 @@ UI: {
 		1: フックを持ち歩くと安心だ。窮地を救ってくれる。
 		2: すべての武器は、適切な欠片で『マジック』や『レア』に強化できる。
 		3: その魔導書は常に空腹だ。右クリックして中身を確認しよう！
-		4: ゴブリンの調査員がレイヴンクレスト近くに潜むことがある。倒すと厄介な結果を招くかもしれない...
+		4: ゴブリン調査員がレイヴンクレスト近くに潜むことがある。倒すと厄介な結果を招くかもしれない...
 		5: パッシブツリーは、どれだけあっても足りないだろう。
 		6: ボスを討って進むと、地底世界が揺れ始めるという...
 		7: 秘術のオベリスクは、レイヴンクレストへの行き方を自在に変えられる！
@@ -4380,14 +7221,18 @@ UI: {
 		23: 『マジック』『レア』の敵は必ず同レアリティのアイテムを落とす
 		24: 『ユニーク』は個性特化のアイテムだ。新しいプレイ感覚が欲しければ使ってみよう。
 		25: ミニマップ隣のキャラクターシートで、詳細な情報を確認できる。
-		26: 『鍛え直し』はもはや過去のものとなった。今は『追加効果』の時代さ！
+		26: 『鍛え直し』はもはや過去のものとなった。今は『接頭辞』の時代さ！
 		27: 一部エリアでは追加の移動能力が得られる。まずはジャンプだ！
 		28: ディアクロップスエリアは恐怖に支配されている。常に明かりを保て。
 		29: 「選択肢があるなら、爆発物一択だ。」― アラリック
 		30: 武器のサブ使用は重要だ。様々な場面で役に立つ！
+		31: クエストアイテムをなくした？アラリックに話しかければもう一度手に入れられます。
+		32: クエストで困ったら、レイヴンクレストで聞き込みをしてみましょう！こまめに確認するのも大切です。
 	}
 
 	PointsRemaining: 未使用ポイント
+	ResetPoints: ポイントリセット
+	ExpGain: +{0} XP
 	ExpBarHover:
 		'''
 		レベル {0}
@@ -4397,9 +7242,211 @@ UI: {
 		'''
 	AreaLevel: エリアレベル：
 	Waypoints.TutorialTip: ホームウェイポイントを使用するには、メインワールドに秘術のオベリスクを設置する必要がある。続行するには、設定メニューの「戻る」ボタンを使用してくれ。
+
+	VirtualBag: {
+		Title: 収納袋
+		Description: 装備品をすべて収納できます！ドメインを離れると中身はリセットされます。
+		RightClick: (右クリックでインベントリに追加)
+		Review: 所持アイテムを確認 (この画面を閉じるとサブワールドから退出します)
+		Conflux: コンフラックス
+		ConfluxTooltip: このドメインで獲得したコンフラックス
+		CurrencyShards: 通貨の欠片
+		CurrencyShardsTooltip: このドメインで獲得した通貨の欠片
+		TabMatched: 条件一致
+		TabFilteredOut: 除外
+		FilterLabel: フィルター: {0}
+		NoFilter: 有効なフィルターなし
+		EditFilter: フィルターを編集
+	}
+
+	ItemFilter: {
+		Title: アイテムフィルター
+		Filters: フィルター
+		Rules: ルール
+		New: 新規作成
+		Duplicate: 複製
+		Delete: 削除
+		AddRule: 新規作成
+		DuplicateRule: コピー
+		DeleteRule: 削除
+		MoveUp: 上へ移動
+		MoveDown: 下へ移動
+		SetActive: 有効化
+		ClearActive: 有効解除
+		ActiveMarker: "[有効] {0}"
+		DefaultName: 新規フィルター
+		DefaultRuleName: ルール {0}
+		EmptyHint: 編集を始めるには、フィルターを作成するか選択してください。
+		RuleEmptyHint: 編集を始めるには、このフィルターにルールを追加してください。
+		FilterName: フィルター名
+		RuleName: ルール名
+		RuleAction: アクション
+		RuleSummary: "{0}. {1}: {2}"
+		ItemLevel: アイテムレベル（最小 - 最大）
+		Any: すべて
+		Rarity: レアリティ（未選択の場合はすべて）
+		BaseTypes: 基本タイプ（未選択の場合はすべて）
+		SelectAllBaseTypes: すべて選択
+		DeselectAllBaseTypes: すべて選択解除
+
+		Actions: {
+			Show: 表示
+			Hide: 非表示
+			Highlight: 強調表示
+		}
+
+		Rarities: {
+			Normal: ノーマル
+			Magic: マジック
+			Rare: レア
+			Unique: ユニーク
+		}
+
+		BaseType.Fallback: "{0}"
+
+		Reason: {
+			ItemMissing: アイテムがnullまたはair
+			MissingData: PoTデータなし
+			LevelBelowMin: レベル {0} < 最小 {1}
+			LevelAboveMax: レベル {0} > 最大 {1}
+			RarityNotAllowed: レアリティ {0} は {{{1}}} に含まれていません
+			BaseTypeNotAllowed: 基本タイプ {0} は {1} に含まれていません
+			NoMatchingRule: 一致するルールなし
+			ShownByRule: ルール '{0}' によりアイテムを表示
+			HiddenByRule: ルール '{0}' によりアイテムを非表示
+			HighlightedByRule: ルール '{0}' によりアイテムを強調表示
+		}
+
+		RejectionChat: フィルター '{0}' が '{1}' を除外しました — {2}
+	}
+
+	CurrencyPouch: {
+		Title: 通貨ポーチ
+		Apply: 右クリックで手に持っているアイテムに適用
+		ExtractOne: Ctrl + 左クリック: 1個取り出す
+		ExtractAll: Ctrl + Shift + 左クリック: すべて取り出す
+		StoreAll: Shift + 左クリック: インベントリからすべて収納
+	}
+
+	PassiveTreeTab: パッシブ
+	MasteryRequiredNodes: 割り当てるには接続されたノードが{0}個必要
+	SkillTreeTab: スキル
+	QuestsAvailableTab: 受注可能
+	QuestsCompletedTab: 完了済み
+	PlayerStatsTab: ステータス
+
+	ClassPages: {
+		StarterClasses: {
+			Melee: 近接
+			Magic: 魔法
+			Ranged: 遠距離
+			Summon: 召喚
+		}
+
+		PreferredWeapons: 得意武器
+		Awakenings: 覚醒
+		Skill: スキル
+		DefaultNouns: よそ者;冒険者
+
+		Melee: {
+			Description: 
+				'''
+				近距離でのハイリスクな戦闘を得意とする戦士。
+				標準アイテムとバーサークスキルを所持して開始する。
+				'''
+			Weapons: "[i:PathOfTerraria/IronBroadsword] 剣, [i:PathOfTerraria/SteelWarShield] 戦盾, [i:PathOfTerraria/IronBattleaxe]  戦斧"
+			Awakenings: 仮, 置き
+			Skill: 一時的に与えるダメージと被ダメージが増加する
+			SkillTitle: - バーサーク
+			Nouns: 戦士;兵士
+		}
+
+		Ranged: {
+			Description: 
+				'''
+				遠距離から攻撃する射手。
+				追加の木のショートボウと一斉射撃スキルを
+				所持して開始する。
+				'''
+			Weapons: "[i:PathOfTerraria/WoodenBow] 弓, [i:PathOfTerraria/LeadDangpa] ジャベリン, [i:PathOfTerraria/IronBoomerang] ブーメラン"
+			Awakenings: 間に, 合わせ
+			Skill: 手に持っている遠距離武器に応じて大量の矢を放つ
+			SkillTitle: - 一斉射撃
+			Nouns: 狙撃手;射手
+		}
+
+		Magic: {
+			Description: 
+				'''
+				幻想的な力を操る魔法使い...善のために？
+				リッチマホガニーワンドとファイアボールスキルを
+				所持して開始する。
+				'''
+			Weapons: "[i:PathOfTerraria/WoodenWand] ワンド, [i:PathOfTerraria/LeadStaff] 杖"
+			Awakenings: 代, 役
+			Skill: カーソルに向かって大きな爆発する火球を放つ
+			SkillTitle: - ファイアボール
+			Nouns: 魔法使い;魔術師
+		}
+
+		Summon: {
+			Description: 
+				'''
+				小さな軍勢に命令して襲撃者と戦わせる召喚士。
+				スライムの杖と炎の賢者スキルを所持して開始する。
+				'''
+			Weapons: "[i:PathOfTerraria/GrimoireItem] 魔導書"
+			Awakenings: 未, 完成, です
+			Skill: 
+				'''
+				カーソルの下に、短時間だけ存在する
+				ダメージを受けるセントリーを召喚する
+				'''
+			SkillTitle: - 炎の賢者
+			Nouns: 召喚術師;召喚士
+		}
+	}
+
+	MapDevice: {
+		MapSlot: マップスロット
+		ActivatePortal: ポータルを開く
+		DeactivatePortal: ポータルを閉じる
+		ConfirmClosePortal: 閉じる
+		AlreadyInUse: このマップデバイスはすでに使用中です！
+		InjectResource: リソースを注入
+		EjectResource: リソースを排出
+		NotEnoughResources: リソースが不足しています
+		ClosePortalMapWarning: ポータルを閉じるとマップが失われます！
+		ClosePortalResourceWarning: ポータルを閉じるとポータル液が失われます！
+		InjectionModuleUnavailable: ???
+	}
+
+	MigrateRavencrest: {
+		Yes: はい
+		No: いいえ
+		Question: レイヴンクレストが古いバージョンのため、問題が発生する可能性があります。セーブデータを更新しますか？
+		Note: （1分ほどかかる場合があります）
+		Title: レイヴンクレストを移行しますか？
+	}
+
+	OnlineModPopup: {
+		Title: Path of Terraria Online
+		Description:
+			'''
+			Path of TerrariaとオンラインModを併用することをおすすめします
+			Path Of Terraria OnlineはSteamワークショップで入手でき、以下の機能を利用できます：
+			- グローバルランキング
+			- グローバル取引システム
+			- グローバルチャットシステム
+			'''
+		OpenWorkshop: Steamワークショップページを開く
+		Decline: 拒否
+	}
+
+	RecoveryAvailable: クエストアイテムはアラリックから復元できます
 }
 
 Waypoints: {
-	RavencrestWaypoint.DisplayName: レイブンクレスト
+	RavencrestWaypoint.DisplayName: レイヴンクレスト
 	HomeWaypoint.DisplayName: 家
 }
