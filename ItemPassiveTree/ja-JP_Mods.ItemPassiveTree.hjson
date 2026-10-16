@@ -135,7 +135,7 @@ Stats: {
 	AmmoConsumption: 弾薬消費軽減確率
 	ToolSpeed: ツール速度
 	ToolRange: ツール範囲
-	PickaxePower: 採掘スピード
+	PickaxePower: 採掘速度
 	FishingPower: フィッシング・パワー
 	WeaponSize: 武器のサイズ
 	# Imbues / Buffs
@@ -151,14 +151,14 @@ Stats: {
 	Wrath: 激怒バフ
 	Rage: 怒りバフ
 	Lifeforce: 生命強化バフ
-	Endurance: 忍耐バフ
+	Endurance: 耐久バフ
 	FishingPotion: 釣りバフ
 	Sonar: ソナーバフ
 	Crate: 箱バフ
 	WaterWalking: 水上歩行バフ
 	Calm: 平穏バフ
 	Inferno: 獄炎バフ
-	Shine: 輝きバフ
+	Shine: 発光バフ
 	Spelunker: 探検家バフ
 	Hunter: 狩人バフ
 	WeaponImbueFire: 武器付与: 炎
@@ -174,7 +174,7 @@ Stats: {
 	WeaponImbueVenom: 武器付与: 酸性毒
 	WeaponImbueVenomDesc: 近接攻撃で酸性毒を与える
 	WeaponImbueParty: 武器付与: 紙吹雪
-	WeaponImbuePartyDesc: 近接攻撃時に紙吹雪が発生する
+	WeaponImbuePartyDesc: 近接攻撃を当てると紙吹雪が舞う
 	WeaponImbueNanites: 武器付与: 混乱
 	WeaponImbueNanitesDesc: 近接攻撃で混乱を与える
 	MinionImbueFireDesc: ミニオンが敵を炎上させる
@@ -205,8 +205,8 @@ Stats: {
 	IronskinDesc: 防御力が8増加
 	WrathDesc: ダメージが10%増加
 	RageDesc: クリティカル率が10%増加する 
-	FishingPotionDesc: フィッシング・パワーが向上する
-	SonarDesc: 釣り針に食いついているものが見える
+	FishingPotionDesc: フィッシング・パワーが上昇する
+	SonarDesc: 釣り針に食いついたものがわかる
 	CrateDesc: 木箱を釣り上げる確率が上昇 
 	WaterWalkingDesc: 水上を歩ける
 	CalmDesc: 敵の出現率が低下

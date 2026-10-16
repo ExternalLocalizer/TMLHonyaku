@@ -321,8 +321,8 @@ Items: {
 	JadePylonItem: {
 		Tooltip:
 			'''
-			２人以上の住民が近くにいる別のパイロンへテレポート
-			１種につき１つだけ、適したバイオームに設置することができる
+			2人以上のタウンNPCが近くにいる別のパイロンへテレポートできる
+			1種につき1つだけ、適したバイオームに設置することができる
 			'''
 		DisplayName: ヒスイのパイロン
 	}
@@ -420,7 +420,7 @@ Items: {
 		Tooltip:
 			'''
 			既にあるランタンの上に設置することで延長可能
-			その際ランタンの消費無し
+			その際はランタンを消費しない
 			'''
 		DisplayName: 泉のランタン
 	}
@@ -478,15 +478,15 @@ Items: {
 	}
 
 	Chopsticks: {
-		Tooltip: 剣の攻撃範囲が増加し、全方向に攻撃可能となる
+		Tooltip: 剣の攻撃範囲が広がり、全方向に攻撃可能となる
 		DisplayName: お箸
 	}
 
 	SpringWater: {
 		Tooltip:
 			'''
-			ほぼすべてのデバフを解除する
-			ただし15秒間ポーション酔いを引き起こす
+			ほぼ全てのデバフを解除する
+			ただし15秒間ポーション酔いを受ける
 			'''
 		DisplayName: 湧き水
 	}
@@ -507,7 +507,7 @@ Items: {
 	}
 
 	HeartbeatPotion: {
-		Tooltip: 落ちるハートがより大きくなり、回復量が増加する
+		Tooltip: ドロップするハートがより大きくなり、回復量が増加する
 		DisplayName: 鼓動のポーション
 	}
 
@@ -526,7 +526,7 @@ Items: {
 	}
 
 	LotusHammer: {
-		Tooltip: すべての天然壁を回収可能
+		Tooltip: 全ての天然壁を回収できる
 		DisplayName: 蓮のハンマー
 	}
 
@@ -536,17 +536,17 @@ Items: {
 	}
 
 	LotusLeggings: {
-		Tooltip: フィッシング・パワーが向上する
+		Tooltip: フィッシング・パワーが上昇する
 		DisplayName: 蓮のすね当て
 	}
 
 	LotusHelmet: {
-		Tooltip: フィッシング・パワーが向上する
+		Tooltip: フィッシング・パワーが上昇する
 		DisplayName: 蓮の兜
 	}
 
 	LotusChestplate: {
-		Tooltip: フィッシング・パワーが向上する
+		Tooltip: フィッシング・パワーが上昇する
 		DisplayName: 蓮の胸当て
 	}
 
@@ -588,8 +588,8 @@ Items: {
 	JadeBow: {
 		Tooltip:
 			'''
-			小動物達に放つことで仲間として戦わせる
-			タウンNPCに放つことでシールドを付与
+			小動物達に放つと仲間として戦わせる
+			タウンNPCに放つとシールドを付与
 			'''
 		DisplayName: ヒスイの弓
 	}
@@ -600,17 +600,17 @@ Items: {
 	}
 
 	JadeRobe: {
-		Tooltip: 移動速度と走行加速が7%上昇
+		Tooltip: 移動速度と走行加速度が7%上昇
 		DisplayName: ヒスイのローブ
 	}
 
 	JadeHat: {
-		Tooltip: ダメージとクリティカル率が10%上昇する
+		Tooltip: ダメージが10%増加し、クリティカル率が10%上昇する
 		DisplayName: ヒスイの帽子
 	}
 
 	FestivalLantern: {
-		Tooltip: ランタンナイトを始める
+		Tooltip: ランタンナイトを発生させる
 		DisplayName: 祝宴のランタン
 	}
 
@@ -667,7 +667,7 @@ Items: {
 			'''
 			移動中のジャンプでより強く前方に加速する
 			二段ジャンプ時に水平方向の力を加える
-			移動速度と加速が上昇する
+			移動速度と加速度が上昇する
 			身につけると光を放つ
 			'''
 		DisplayName: ウシガエルの装飾ベルト
@@ -677,7 +677,7 @@ Items: {
 		Tooltip:
 			'''
 			移動中のジャンプでより強く前方に加速する
-			移動速度と加速が上昇する
+			移動速度と加速度が上昇する
 			身につけると光を放つ
 			'''
 		DisplayName: ウシガエルの輝玉
