@@ -1,11 +1,11 @@
 LoadingTips_Default: {
-	25: ボスを倒すことでドライアドが家に来る。不浄、真紅、伝染、聖域の状態を知りたければ彼女に訊こう。
-	30: デーモンアルター、クリムゾンアルター、イッキーアルターは普通のハンマーでは壊せない。ムテキの力が必要だ。
-	39: 聖域は不浄、真紅、伝染に侵食されない唯一の地域だ。
-	56: シャドウオーブ、クリムゾンハート、セプシスセルはハンマーか爆薬で壊すことができる。それらが解放する力には気を付けなければならないが。
+	25: ボスを倒すことでドライアドが家に来る。不浄・真紅・伝染・聖域の状態を知りたければ彼女に訊こう。
+	30: デーモンアルター・クリムゾンアルター・イッキーアルターは普通のハンマーでは壊せない。ムテキの力が必要だ。
+	39: 聖域は不浄・真紅・伝染に侵食されない唯一の地域だ。
+	56: シャドウオーブ・クリムゾンハート・セプシスセルはハンマーか爆発物で壊すことができる。それらが解放する力には気を付けなければならないが。
 }
 
-UI.WorldDescriptionEvilRandom: 不浄、真紅、伝染のどれがワールドを汚染するかを自然の成り行きに任せる。
+UI.WorldDescriptionEvilRandom: 不浄・真紅・伝染のどれがワールドを汚染するかを自然の成り行きに任せる。
 
 AltLibrary: {
 	AltOres: {
@@ -49,55 +49,55 @@ AltLibrary: {
 
 TrackNames: {
 	ContagionOtherworldly: {
-		Name: Otherworldly Contagion
+		Name: アザーワールドの伝染
 		Author: by ENNWAY
 		ModName: Avalon
 	}
 
 	UndergroundContagionOtherworldly: {
-		Name: Otherworldly Underground Contagion
+		Name: アザーワールドの地下伝染
 		Author: by ENNWAY
 		ModName: Avalon
 	}
 
 	DesertBeakOtherworldly: {
-		Name: Otherworldly Desert Beak
+		Name: アザーワールドのデザートビーク
 		Author: by ENNWAY
 		ModName: Avalon
 	}
 
 	BacteriumPrime: {
-		Name: Bacterium Prime
+		Name: バクテリウスプライム
 		Author: by ENNWAY
 		ModName: Avalon
 	}
 
 	ArmageddonSlime: {
-		Name: Armageddon Slime
+		Name: アルマゲドンスライム
 		Author: by ENNWAY
 		ModName: Avalon
 	}
 
 	Hellcastle: {
-		Name: Hellcastle
+		Name: ヘルキャッスル
 		Author: by musicman
 		ModName: Avalon
 	}
 
 	Phantasm: {
-		Name: Hellcastle
+		Name: ファントム
 		Author: by musicman
 		ModName: Avalon
 	}
 
 	DesertBeak: {
-		Name: Desert Beak
+		Name: デザートビーク
 		Author: by Marlilo
 		ModName: Avalon
 	}
 
 	SkyFortress: {
-		Name: Sky Fortress
+		Name: 空の要塞
 		Author: by FatCat
 		ModName: Avalon
 	}
@@ -109,31 +109,31 @@ TrackNames: {
 	}
 
 	TuhrtlOutpost: {
-		Name: Tuhrtl Outpost
+		Name: トゥールトル前哨基地
 		Author: by FatCat
 		ModName: Avalon
 	}
 
 	DarkMatter: {
-		Name: Dark Matter
+		Name: ダークマター
 		Author: by Mioqu
 		ModName: Avalon
 	}
 
 	Mechasting: {
-		Name: Mechasting
+		Name: メカスティング
 		Author: by Zemmie
 		ModName: Avalon
 	}
 
 	Contagion: {
-		Name: Contagion
+		Name: 伝染
 		Author: by Heart Plus Up!
 		ModName: Avalon
 	}
 
 	UndergroundContagion: {
-		Name: Underground Contagion
+		Name: 地下伝染
 		Author: by Heart Plus Up!
 		ModName: Avalon
 	}
@@ -186,7 +186,7 @@ Conditions: {
 
 RecipeConditions: {
 	#for giving recipe conditions translations
-	retroWorld: レトロなワールドにて
+	retroWorld: レトロなワールドで
 	notRetroWorld: レトロなワールドでない
 }
 
@@ -273,7 +273,7 @@ Achievements: {
 
 	Ach_ItBurnsX4: {
 		FriendlyName: 燃える、燃える、燃える、燃える！
-		Description: 1体の敵に燃えている！、霜焼け、呪炎、シャドウフレイムを一度に与える
+		Description: 1体の敵に燃えている！・霜焼け・呪炎・シャドウフレイムを一度に与える。
 	}
 
 	Ach_LuckyStiff: {
@@ -293,7 +293,7 @@ Achievements: {
 
 	Ach_SolarSystemPluto: {
 		FriendlyName: ちょっと待って、惑星じゃないの？！
-		Description: ソーラーシステムを使用時、冥王星を発生させる。
+		Description: ソーラーシステムを使用時、冥王星が発生する。
 	}
 
 	Ach_StaminaCrystal: {
@@ -455,8 +455,8 @@ DeathText: {
 }
 
 GameTips: {
-	AvalonTip0: Avalon: 地上の宝箱から空白の巻物を見つけることができる。これらの巻物を使ってスタミナの巻物を作成し、能力を強化しましょう！
-	AvalonTip1: Avalon: 書物は、ステータスを強化する特殊なアクセサリーです。クトゥルフの目を倒すと、司書が現れます。彼は書物作成台をはじめ、書物の素材をいくつか売ってくれます。
+	AvalonTip0: Avalon: 地上の宝箱から空白の巻物を見つけることができる。これらの巻物を使ってスタミナの巻物を作成し、能力を強化しよう！
+	AvalonTip1: Avalon: 書物は、ステータスを強化する特殊なアクセサリーです。クトゥルフの目を倒すと、司書が現れます。彼は書物作成台をはじめ、書物の素材をいくつか売ってくれる。
 	AvalonTip2: Avalon: ハートストーンは地下で見つけることができる！この鉱石はライフクリスタルの作成に使用でき、ハートの型で生成される。
 	AvalonTip3: Avalon: ボルトストーンとスターストーンは、地下に稲妻と星の形の形で存在する。これらの鉱石で、それぞれスタミナクリスタルとマナクリスタルを作成できる。
 }
@@ -614,21 +614,22 @@ SetBonuses: {
 	Aeroforce:
 		'''
 		空の祝福を受ける
-		召喚できるミニオンの数が1体増える
-		ミニオンが敵にダメージを与えたとき、スカイインシグニアがドロップされることがある
+		ミニオンスロットを1つ追加
+		ミニオンが敵にダメージを与えたとき、空の記章をドロップすることがある
 		'''
 	Xanthophyte:
 		'''
 		{0}攻撃速度が10%上昇
 		{1}入力二回で化石に変身する
-		この状態時は防御力が40増加し、ライフ自然回復力が10増加するが、移動できなくなる
+		この状態時は防御力が40増加し、ライフ自然回復量が10増加するが、動けなくなる
 		45秒のクールダウン
 		'''
 	Caesium:
 		'''
 		ステータスが強化
 		{0}入力二回でセシウムブーストスタンスがオンになる
-		このスタンス中は移動速度が低下するが、ダメージとダメージ軽減が増加する
+		このスタンス中は移動速度が低下するが、
+		近接ダメージとダメージ軽減が増加し、近接攻撃速度が上昇
 		'''
 	Rhodium: ダメージが9%増加
 	Bismuth: 防御力が4増加
@@ -657,7 +658,7 @@ PrefixTooltips: {
 	Ammo: 5%の確率で弾薬を消費しない
 	Money: コインのドロップ量が5%増加
 	StamRegen: スタミナ自然回復を増進
-	Efficiency: 採掘スピードが10%上昇
+	Efficiency: 採掘速度が10%上昇
 	Damage: ダメージ
 	Size: サイズ
 	Knockback: ノックバック
@@ -687,29 +688,29 @@ PrefixTooltips: {
 TooltipEdits: {
 	HiveWand: 敵に当たると蜂に分裂するボルトを発射する
 	ExtraJumps: 翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
-	HandofCreation: 空中や溶岩の中にブロックや壁を設置可能になる
+	HandofCreation: 空中や溶岩の中にブロックや壁を設置できるようになる
 	Silt: Gather 100個集めると圧縮抽出ブロックを作成できる
 	BottomlessBuckets: 右クリックで3x3の範囲に液体を注ぐ
 	Sponges: 右クリックで3x3の範囲の液体を吸収する
 	HerbologyLine: ハーブ学台で交換できる
-	EvilPickaxe: ロジウム、オスミウム、イリジウムの採掘が可能
+	EvilPickaxe: ロジウム・オスミウム・イリジウムを採掘できる
 	FishingLine:
 		'''
-		釣り糸を切られなくなる
+		釣り糸が切られなくなる
 		衣装スロットでも機能する
 		'''
-	Blowpipes: 吹き矢と併用して使う
+	Blowpipes: ダーツと併用して使う
 	TempleKey: ジャングル寺院のドアを開く
-	PoisonDart: 吹き矢と吹き銃と併用して使う
+	PoisonDart: 吹き筒と吹き銃と併用して使う
 	Extractinator: <right>でホットバー上の接頭辞の付いたアイテムに使用すると接頭辞を消せる
-	MonsterBanner: 以下の理由でダメージと防御力の増加:
+	MonsterBanner: 以下のモンスターに対してダメージと防御力が増加:
 	UpgradeStage: "強化ダメージ: "
 
 	CoinGun: {
 		PartOne: 弾薬としてコインを使用する
 		PartTwo:
 			'''
-			高価なコインほどダメージが増加
+			高価なコインほどダメージが高くなる
 			「敵に数セント叩き込む」
 			'''
 	}
@@ -717,12 +718,12 @@ TooltipEdits: {
 	PickaxeAxe.PartOne:
 		'''
 		「ハンマーやドリルと混同しないように」
-		クロロファイト、キサントファイト、セシウムの採掘が可能
+		クロロファイト・キサントファイト・セシウムを採掘できる
 		'''
 	Drax.PartOne:
 		'''
 		「ピックソーと混同すんなよ」
-		クロロファイト、キサントファイト、セシウムの採掘が可能
+		クロロファイト・キサントファイト・セシウムを採掘できる
 		'''
 }
 
@@ -828,7 +829,7 @@ Items: {
 		Tooltip:
 			'''
 			夜目のポーションの効果を得る
-			フックの射程が50%増加
+			フックの射程が50%伸びる
 			[c/C39FDD:[10周年記念コンテスト受賞者 - Crispy][c/C39FDD:]]
 			'''
 	}
@@ -837,8 +838,8 @@ Items: {
 		DisplayName: アーススプリッターのすね当て
 		Tooltip:
 			'''
-			ジャンプ高度が増加
-			採掘スピードが15%上昇
+			ジャンプ高度が上昇
+			採掘速度が15%上昇
 			[c/C39FDD:[10周年記念コンテスト受賞者 - Crispy][c/C39FDD:]]
 			'''
 	}
@@ -939,7 +940,7 @@ Items: {
 
 	NerveNumbNecklace: {
 		DisplayName: ナーブナムネックレス
-		Tooltip: デバフの持続時間が短縮されるが、スタミナを消費する
+		Tooltip: デバフの持続時間をスタミナを消費して短縮させる
 	}
 
 	RingofArrogance: {
@@ -975,7 +976,7 @@ Items: {
 			驚異的な速さで走行でき、攻撃を回避することがある
 			倒した敵が15%の確率でプラチナハートをドロップする
 			無敵時間の間、ダメージが7%増加し、クリティカル率が7%上昇
-			回復ポーションの再使用間隔を短縮させる
+			ライフ回復アイテムの再使用間隔が短縮される
 			罠のダメージを無効化
 			その他、様々な効果がある
 			'''
@@ -985,9 +986,9 @@ Items: {
 		DisplayName: フロストガントレット
 		Tooltip:
 			'''
-			近接攻撃で霜焼けを与え、近接ダメージと攻撃速度が12%上昇
+			近接攻撃で霜焼けを与え、近接ダメージが12%増加し、近接攻撃速度が12%上昇
 			近接攻撃のノックバックが増加し、ライフが50%以下の際、被ダメージを軽減する
-			近接攻撃のオート攻撃が有効になり、近接武器のサイズが増加
+			近接武器と鞭でオート攻撃でき、近接武器のサイズが増加
 			'''
 	}
 
@@ -1005,7 +1006,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが6%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			[c/C39FDD:[10周年記念コンテスト受賞者 - Crabby][c/C39FDD:]]
 			'''
 	}
@@ -1015,7 +1016,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが10%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			[c/C39FDD:[10周年記念コンテスト受賞者 - Crabby][c/C39FDD:]]
 			'''
 	}
@@ -1034,18 +1035,18 @@ Items: {
 		DisplayName: シャドウフォン (スポーンポイント)
 		Tooltip:
 			'''
-			すべての情報を表示する
+			全ての情報を表示する
 			使用するとスポーンポイントに戻る
 			<right>で行き先を切り替える
 			'''
 	}
 
 	ShadowPhoneSurface: {
-		DisplayName: シャドウフォン (地上)
+		DisplayName: シャドウフォン (地表)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用すると地上に行ける
+			全ての情報を表示する
+			使用すると地表に行ける
 			横の位置は変わらない
 			<right>で行き先を切り替える
 			'''
@@ -1055,8 +1056,8 @@ Items: {
 		DisplayName: シャドウフォン (海)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用すると海に行ける
+			全ての情報を表示する
+			使用すると左右どちらかの海にテレポートする
 			<right>で行き先を切り替える
 			'''
 	}
@@ -1065,8 +1066,8 @@ Items: {
 		DisplayName: シャドウフォン (地下世界)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用すると地下世界に行ける
+			全ての情報を表示する
+			使用すると地下世界にテレポートする
 			<right>で行き先を切り替える
 			'''
 	}
@@ -1075,8 +1076,8 @@ Items: {
 		DisplayName: シャドウフォン (荒野)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用するとジャングルかサバンナに行ける
+			全ての情報を表示する
+			使用するとジャングルかサバンナにテレポートする
 			<right>で行き先を切り替える
 			'''
 	}
@@ -1085,7 +1086,7 @@ Items: {
 		DisplayName: シャドウフォン (ランダム)
 		Tooltip:
 			'''
-			すべての情報を表示する
+			全ての情報を表示する
 			使用するとランダムな場所にテレポートする
 			<right>で行き先を切り替える
 			'''
@@ -1095,8 +1096,8 @@ Items: {
 		DisplayName: シャドウフォン (現スポーンポイント)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用すると現在のスポーンポイントに戻る
+			全ての情報を表示する
+			使用すると現在のスポーン地点に戻る
 			<right>で行き先を切り替える
 			'''
 	}
@@ -1105,8 +1106,8 @@ Items: {
 		DisplayName: シャドウフォン (ダンジョン)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用するとダンジョンに行ける
+			全ての情報を表示する
+			使用するとダンジョンにテレポートする
 			<right>で行き先を切り替える
 			'''
 	}
@@ -1258,17 +1259,17 @@ Items: {
 
 	LargePeridot: {
 		DisplayName: 大きなペリドット
-		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+		Tooltip: 争奪戦で使用する宝石。死亡するとその場にドロップする
 	}
 
 	LargeTourmaline: {
 		DisplayName: 大きなトルマリン
-		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+		Tooltip: 争奪戦で使用する宝石。死亡するとその場にドロップする
 	}
 
 	LargeZircon: {
 		DisplayName: 大きなジルコン
-		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+		Tooltip: 争奪戦で使用する宝石。死亡するとその場にドロップする
 	}
 
 	Blackberry: {
@@ -1689,17 +1690,17 @@ Items: {
 
 	BronzeWatch: {
 		DisplayName: 青銅の時計
-		Tooltip: ゲーム内時刻を表示（1時間単位）
+		Tooltip: ゲーム内の時刻を表示（1時間単位）
 	}
 
 	ZincWatch: {
 		DisplayName: 亜鉛の時計
-		Tooltip: ゲーム内時刻を表示（30分単位）
+		Tooltip: ゲーム内の時刻を表示（30分単位）
 	}
 
 	BismuthWatch: {
 		DisplayName: ビスマスの時計
-		Tooltip: ゲーム内時刻を表示（1分単位）
+		Tooltip: ゲーム内の時刻を表示（1分単位）
 	}
 
 	SixSidedDie: {
@@ -1712,7 +1713,7 @@ Items: {
 		Tooltip:
 			'''
 			最大スタミナが90増加
-			スタミナポーションを自動で使用してくれる
+			スタミナがなくなるとスタミナポーションを自動で使用する
 			'''
 	}
 
@@ -2091,17 +2092,17 @@ Items: {
 
 	RhodiumPickaxe: {
 		DisplayName: ロジウムのつるはし
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	OsmiumPickaxe: {
 		DisplayName: オスミウムのつるはし
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	IridiumPickaxe: {
 		DisplayName: イリジウムのつるはし
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	OsmiumGreatsword: {
@@ -2485,7 +2486,12 @@ Items: {
 
 	BloodBarrage: {
 		DisplayName: ブラッドバラージ
-		Tooltip: <right>でライフを80消費して強化する
+		Tooltip:
+			'''
+			<right>でライフを80消費して強化し、
+			ダメージが増加し、攻撃速度が上昇し、
+			血の塊が当たるとライフが回復する
+			'''
 	}
 
 	Beak: {
@@ -2502,7 +2508,8 @@ Items: {
 		DisplayName: 流血のカタナ
 		Tooltip:
 			'''
-			<right>でライフを80消費して強化する
+			<right>でライフを80消費して強化し、
+			ダメージが増加し、攻撃範囲が拡大される
 			「血が流れるだろう！」
 			'''
 	}
@@ -2605,7 +2612,7 @@ Items: {
 		DisplayName: 雲のグローブ
 		Tooltip:
 			'''
-			空中にブロックや壁を設置可能になる
+			空中にブロックや壁を設置できるようになる
 			衣装スロットでも効果を発揮する
 			'''
 	}
@@ -2614,7 +2621,7 @@ Items: {
 		DisplayName: 黒曜石のグローブ
 		Tooltip:
 			'''
-			空中や溶岩の中にブロックや壁を設置可能になる
+			空中や溶岩の中にブロックや壁を設置できるようになる
 			衣装スロットでも効果を発揮する
 			'''
 	}
@@ -2626,7 +2633,7 @@ Items: {
 
 	TomeForge: {
 		DisplayName: 書物作成台
-		Tooltip: 書物を作るのに使用
+		Tooltip: 書物の作成に使う
 	}
 
 	BlankScroll: {
@@ -2636,22 +2643,22 @@ Items: {
 
 	FlightTimeScroll: {
 		DisplayName: 飛行の巻物
-		Tooltip: スタミナを消費して飛行時間を回復できるようになる
+		Tooltip: スタミナを消費して飛行時間を回復できる
 	}
 
 	TeleportScroll: {
 		DisplayName: テレポートの巻物
-		Tooltip: スタミナを消費してテレポートできるようになる
+		Tooltip: スタミナを消費してテレポートできる
 	}
 
 	SprintScroll: {
 		DisplayName: 走行の巻物
-		Tooltip: スタミナを消費して走行できるようになる
+		Tooltip: スタミナを消費して走行できる
 	}
 
 	StaminaCrystal: {
 		DisplayName: スタミナクリスタル
-		Tooltip: 永久に最大スタミナを30増加
+		Tooltip: 永久に最大スタミナが30増加
 	}
 
 	ChaosDust: {
@@ -2683,7 +2690,7 @@ Items: {
 		DisplayName: ブラッドキャストポーション
 		Tooltip:
 			'''
-			最大マナが最大ライフと同じ数値分増加
+			最大マナが最大ライフと同じ数値分増加するが、
 			消費したマナの1/3分、ライフが減少する
 			'''
 	}
@@ -2729,7 +2736,7 @@ Items: {
 
 	GPSPotion: {
 		DisplayName: GPSポーション
-		Tooltip: 一時的に現在位置と時刻を表示する
+		Tooltip: 一時的に現在位置と時刻がわかる
 	}
 
 	InvincibilityPotion: {
@@ -2753,7 +2760,7 @@ Items: {
 
 	MagnetPotion: {
 		DisplayName: 磁石のポーション
-		Tooltip: アイテムを拾う距離が広がる
+		Tooltip: アイテムの取得範囲が広がる
 	}
 
 	NinjaPotion: {
@@ -2768,7 +2775,7 @@ Items: {
 
 	RoguePotion: {
 		DisplayName: ローグポーション
-		Tooltip: 遠距離ダメージが5%減少するが、20%の確率で弾薬を消費しない
+		Tooltip: 遠距離ダメージが5%減少するが、20%の確率で弾薬を消費しなくなる
 	}
 
 	ShadowPotion: {
@@ -2783,12 +2790,12 @@ Items: {
 
 	StarbrightPotion: {
 		DisplayName: スターブライトポーション
-		Tooltip: 流れ星がより頻繁に落ちてくるようになる
+		Tooltip: 流れ星がより頻繁に降ってくるようになる
 	}
 
 	StrengthPotion: {
 		DisplayName: 力のポーション
-		Tooltip: 全ステータスが強化
+		Tooltip: 全ステータスを強化
 	}
 
 	BlahPotion: {
@@ -2838,7 +2845,7 @@ Items: {
 
 	AdvBuilderPotion: {
 		DisplayName: 建築のエリクサー
-		Tooltip: 配置速度と射程が増加 
+		Tooltip: ブロックと壁の設置速度が上昇し、設置範囲が広がる
 	}
 
 	AdvCalmingPotion: {
@@ -2848,7 +2855,7 @@ Items: {
 
 	AdvCratePotion: {
 		DisplayName: 箱のエリクサー
-		Tooltip: 箱を釣り上げやすくなる 
+		Tooltip: 箱を釣り上げる確率が上昇する
 	}
 
 	AdvAuraPotion: {
@@ -2858,7 +2865,7 @@ Items: {
 
 	AdvDangersensePotion: {
 		DisplayName: 危険察知エリクサー
-		Tooltip: 罠がよく見える
+		Tooltip: 罠などの危険物がよく見える
 	}
 
 	AdvEndurancePotion: {
@@ -2868,17 +2875,17 @@ Items: {
 
 	AdvFeatherfallPotion: {
 		DisplayName: 落下制御エリクサー
-		Tooltip: 落下速度が低下
+		Tooltip: 落下速度が低下し、落下ダメージを無効化
 	}
 
 	AdvFishingPotion: {
 		DisplayName: 釣りのエリクサー
-		Tooltip: フィッシング・パワーが向上する 
+		Tooltip: フィッシング・パワーが上昇する 
 	}
 
 	AdvFlipperPotion: {
 		DisplayName: 遊泳のエリクサー
-		Tooltip: 水中で素早く泳げるようになる
+		Tooltip: 液体内で無限にジャンプでき、水・溶岩・蜂蜜で減速しない
 	}
 
 	AdvForceFieldPotion: {
@@ -2898,12 +2905,12 @@ Items: {
 
 	AdvGillsPotion: {
 		DisplayName: エラのエリクサー
-		Tooltip: 空気の代わりに水で呼吸する
+		Tooltip: 水と蜂蜜内で呼吸できるようになる
 	}
 
 	AdvGPSPotion: {
 		DisplayName: GPSのエリクサー
-		Tooltip: GPSの効果を得る
+		Tooltip: 一時的に現在位置と時刻がわかる
 	}
 
 	AdvGravitationPotion: {
@@ -2913,7 +2920,7 @@ Items: {
 
 	AdvHeartreachPotion: {
 		DisplayName: ハート回収エリクサー
-		Tooltip: ハートを拾う距離が広がる
+		Tooltip: ハートの取得範囲が広がる
 	}
 
 	AdvHunterPotion: {
@@ -2937,7 +2944,7 @@ Items: {
 	}
 
 	AdvIronskinPotion: {
-		DisplayName: 鉄壁のエリクサー
+		DisplayName: 鉄の肌エリクサー
 		Tooltip: 防御力が12増加 
 	}
 
@@ -2963,7 +2970,7 @@ Items: {
 
 	AdvMagnetPotion: {
 		DisplayName: 磁石のエリクサー
-		Tooltip: アイテムを拾う距離が広がる
+		Tooltip: アイテムの取得範囲が広がる
 	}
 
 	AdvManaRegenerationPotion: {
@@ -2972,18 +2979,18 @@ Items: {
 	}
 
 	AdvMiningPotion: {
-		DisplayName: 掘削のエリクサー
-		Tooltip: 採掘スピードが上昇
+		DisplayName: 採掘のエリクサー
+		Tooltip: 採掘速度が上昇
 	}
 
 	AdvNightOwlPotion: {
 		DisplayName: 夜目のエリクサー
-		Tooltip: 暗視能力の向上
+		Tooltip: 視界が良くなる
 	}
 
 	AdvObsidianSkinPotion: {
 		DisplayName: 黒曜石の肌のエリクサー
-		Tooltip: 溶岩耐性が付く 
+		Tooltip: 炎のブロックと溶岩のダメージ、燃えている！を無効化
 	}
 
 	AdvRagePotion: {
@@ -2992,13 +2999,13 @@ Items: {
 	}
 
 	AdvRegenerationPotion: {
-		DisplayName: 自然回復エリクサー
+		DisplayName: 自然回復のエリクサー
 		Tooltip: ライフ自然回復を増進
 	}
 
 	AdvRoguePotion: {
 		DisplayName: ローグエリクサー
-		Tooltip: 遠距離ダメージが5%減少するが、25%の確率で弾薬を消費しない
+		Tooltip: 遠距離ダメージが5%減少するが、25%の確率で弾薬を消費しなくなる
 	}
 
 	AdvShadowPotion: {
@@ -3018,7 +3025,7 @@ Items: {
 
 	AdvSonarPotion: {
 		DisplayName: 魚探知のエリクサー
-		Tooltip: 食いついた魚を見抜く
+		Tooltip: 釣り針に食いついたものがわかる
 	}
 
 	AdvSpelunkerPotion: {
@@ -3028,17 +3035,17 @@ Items: {
 
 	AdvStarbrightPotion: {
 		DisplayName: スターブライトエリクサー
-		Tooltip: 流れ星がより頻繁に落ちてくるようになる
+		Tooltip: 流れ星がより頻繁に降ってくるようになる
 	}
 
 	AdvStrengthPotion: {
 		DisplayName: 力のエリクサー
-		Tooltip: 全ステータスが強化
+		Tooltip: 全ステータスがより強化
 	}
 
 	AdvSummoningPotion: {
 		DisplayName: 召喚のエリクサー
-		Tooltip: 召喚できるミニオンの数が増える 
+		Tooltip: ミニオンスロットを2つ追加 
 	}
 
 	AdvSupersonicPotion: {
@@ -3053,7 +3060,7 @@ Items: {
 
 	AdvThornsPotion: {
 		DisplayName: イバラのエリクサー
-		Tooltip: ダメージを反射する
+		Tooltip: 接触ダメージを反射する
 	}
 
 	AdvTimeShiftPotion: {
@@ -3063,7 +3070,7 @@ Items: {
 
 	AdvTitanPotion: {
 		DisplayName: 巨人のエリクサー
-		Tooltip: ノックバックが増加
+		Tooltip: 攻撃のノックバックが増加
 	}
 
 	AdvTitanskinPotion: {
@@ -3078,7 +3085,7 @@ Items: {
 
 	AdvWarmthPotion: {
 		DisplayName: 暖気のエリクサー
-		Tooltip: 冷気による被ダメージ減少
+		Tooltip: 冷気による被ダメージを軽減
 	}
 
 	AdvWaterWalkingPotion: {
@@ -4003,7 +4010,7 @@ Items: {
 		Tooltip:
 			'''
 			空中での機動性が大幅に上昇
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -4018,14 +4025,14 @@ Items: {
 
 	SonicScrewdriverMkI: {
 		DisplayName: ソニックドライバー Mk I
-		Tooltip: 近くの宝物、鉱石、敵が光る
+		Tooltip: 近くの宝物・鉱石・敵が光る
 	}
 
 	SonicScrewdriverMkII: {
 		DisplayName: ソニックドライバー Mk II
 		Tooltip:
 			'''
-			近くの宝物、鉱石、敵が光る
+			近くの宝物・鉱石・敵が光る
 			現在位置と時刻を表示する
 			'''
 	}
@@ -4034,7 +4041,7 @@ Items: {
 		DisplayName: ソニックドライバー Mk III
 		Tooltip:
 			'''
-			近くの宝物、鉱石、敵が光る
+			近くの宝物・鉱石・敵が光る
 			現在位置と時刻を表示する
 			宝箱を<left>でロックを解除する
 			'''
@@ -4042,37 +4049,37 @@ Items: {
 
 	AmmoMagazine: {
 		DisplayName: 弾倉
-		Tooltip: 未装填耐性
+		Tooltip: 未装填を無効化
 	}
 
 	HiddenBlade: {
 		DisplayName: 隠し刃
-		Tooltip: 武器破損耐性
+		Tooltip: 武器破損を無効化
 	}
 
 	Bayonet: {
 		DisplayName: 銃剣
-		Tooltip: 未装填と武器破損耐性
+		Tooltip: 未装填と武器破損を無効化
 	}
 
 	MidasShoe: {
 		DisplayName: 黄金の靴
-		Tooltip: 霊液と感電耐性
+		Tooltip: 霊液と感電を無効化
 	}
 
 	RubberBoot: {
-		DisplayName: ゴム靴
-		Tooltip: 感電耐性
+		DisplayName: ゴムの靴
+		Tooltip: 感電を無効化
 	}
 
 	Antivenom: {
 		DisplayName: 血清
-		Tooltip: 酸性毒耐性
+		Tooltip: 酸性毒を無効化
 	}
 
 	SpaceHelmet: {
-		DisplayName: 宇宙のヘルメット
-		Tooltip: 燃えている！と窒息耐性
+		DisplayName: 宇宙服のヘルメット
+		Tooltip: 燃えている！と窒息を無効化
 	}
 
 	SolarSystem: {
@@ -4641,14 +4648,14 @@ Items: {
 
 	FlaskOfPathogens: {
 		DisplayName: 病原体のフラスコ
-		Tooltip: 近接攻撃に病原体の追加効果を付与
+		Tooltip: 近接攻撃と鞭の攻撃で病原体を与える
 	}
 
 	PurpleHaze: {
 		DisplayName: パープルヘイズ
 		Tooltip:
 			'''
-			病原菌の霧を発射する
+			病原体の霧を発射する
 			敵のデバフの持続時間と効果を増加させる
 			'''
 	}
@@ -5300,17 +5307,17 @@ Items: {
 
 	CrackedOrangeBrick: {
 		DisplayName: ひびの入った橙のレンガ
-		Tooltip: 乗ると壊れる
+		Tooltip: 乗ると壊れることがある
 	}
 
 	CrackedPurpleBrick: {
 		DisplayName: ひびの入った紫のレンガ
-		Tooltip: 乗ると壊れる
+		Tooltip: 乗ると壊れることがある
 	}
 
 	CrackedYellowBrick: {
 		DisplayName: ひびの入った黄のレンガ
-		Tooltip: 乗ると壊れる
+		Tooltip: 乗ると壊れることがある
 	}
 
 	OrangeBrickWallUnsafe: {
@@ -5360,17 +5367,17 @@ Items: {
 
 	PeridotGemLock: {
 		DisplayName: ペリドットの錠
-		Tooltip: 右クリックで大きなペリドットを着脱
+		Tooltip: 右クリックで大きなペリドットを着脱し、オンオフを切り替える
 	}
 
 	TourmalineGemLock: {
 		DisplayName: トルマリンの錠
-		Tooltip: 右クリックで大きなトルマリンを着脱
+		Tooltip: 右クリックで大きなトルマリンを着脱し、オンオフを切り替える
 	}
 
 	ZirconGemLock: {
 		DisplayName: ジルコンの錠
-		Tooltip: 右クリックで大きなジルコンを着脱
+		Tooltip: 右クリックで大きなジルコンを着脱し、オンオフを切り替える
 	}
 
 	BrownTorch: {
@@ -5395,7 +5402,7 @@ Items: {
 
 	PathogenTorch: {
 		DisplayName: 病原体のたいまつ
-		Tooltip: 水中に設置可能
+		Tooltip: 液体内に設置できる
 	}
 
 	AmberChest: {
@@ -5510,7 +5517,7 @@ Items: {
 
 	GoblinDagger: {
 		DisplayName: ゴブリンのダガー
-		Tooltip: 倒した敵がより多くのコインを落とす
+		Tooltip: 倒した敵がより多くのコインをドロップする
 	}
 
 	ZincBullet: {
@@ -5525,12 +5532,12 @@ Items: {
 
 	ContagionCampfire: {
 		DisplayName: 伝染のキャンプファイア
-		Tooltip: キャンプファイアの近くではライフ自然回復が増進
+		Tooltip: 近くに設置するとライフ自然回復が増進
 	}
 
 	PathogenCampfire: {
 		DisplayName: 病原体のキャンプファイア
-		Tooltip: キャンプファイアの近くではライフ自然回復が増進
+		Tooltip: 近くに設置するとライフ自然回復が増進
 	}
 
 	ClearCutter: {
@@ -5755,7 +5762,13 @@ Items: {
 
 	Longbone: {
 		DisplayName: ロングボーン
-		Tooltip: 矢が敵か地形に当たると爆発し、跳ね返るアクアフレイムボールをばら撒く
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
+			一定以上引き絞ると矢が敵か地形に当たると爆発するようになり、
+			跳ね返るアクアフレイムボールをばら撒く
+			引き絞るほど爆発が大きくなり、ボールの数が増える
+			'''
 	}
 
 	MoonlightLongbow: {
@@ -5765,7 +5778,13 @@ Items: {
 
 	Moonforce: {
 		DisplayName: ムーンフェンス
-		Tooltip: 月のエネルギーが矢に力を与える
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
+			一定以上引き絞ると月のエネルギーが矢に力を与え、
+			矢の当たり判定が大きくなり、敵を貫通し、地形に当たると跳ね返る
+			引き絞るほどより大きく、より多く貫通し、跳ね返る
+			'''
 	}
 
 	Longbow: {
@@ -5839,7 +5858,11 @@ Items: {
 
 	CaesiumForge: {
 		DisplayName: セシウムのかまど
-		Tooltip: 強力な鉱石の精錬に使用する
+		Tooltip:
+			'''
+			下位のかまどで製錬・作成できるアイテムに加え、
+			セシウムを製錬でき、より強力な装備を作成できる
+			'''
 	}
 
 	CaesiumMace: {
@@ -6011,7 +6034,7 @@ Items: {
 	}
 
 	SkyInsignia: {
-		DisplayName: スカイインシグニア
+		DisplayName: 空の記章
 		Tooltip: ""
 	}
 
@@ -6139,7 +6162,7 @@ Items: {
 		DisplayName: 伝染のトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			ボスを倒した後、伝染で入手できる
 			'''
 	}
@@ -6148,7 +6171,7 @@ Items: {
 		DisplayName: ヘルキャッスルのトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			ファントムを倒した後、ヘルキャッスルで入手できる
 			'''
 	}
@@ -6157,7 +6180,7 @@ Items: {
 		DisplayName: ダークマターのトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			アルマゲドンスライムを倒した後、入手できる
 			'''
 	}
@@ -6166,7 +6189,7 @@ Items: {
 		DisplayName: サバンナのトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			サバンナで入手できる
 			'''
 	}
@@ -6175,7 +6198,7 @@ Items: {
 		DisplayName: スーパーハードモードのトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			スーパーハードモードで入手できる
 			'''
 	}
@@ -6184,7 +6207,7 @@ Items: {
 		DisplayName: トゥールトル前哨基地のトークン
 		Tooltip:
 			'''
-			アイテムを作るのに使用する
+			アイテムの作成に使用する
 			トゥールトル前哨基地で入手できる
 			'''
 	}
@@ -6248,7 +6271,7 @@ Items: {
 		Tooltip:
 			'''
 			保存した場所にテレポートする
-			<右>でウェイポイントを現在地に設定する
+			<right>でウェイポイントを現在地に設定する
 			保存できる場所は最大で3箇所
 			'''
 	}
@@ -6540,7 +6563,7 @@ Items: {
 
 	FleshPants: {
 		DisplayName: 肉のパンツ
-		Tooltip: 召喚できるミニオンの数が2体増える
+		Tooltip: ミニオンスロットを2つ追加
 	}
 
 	VisionPotion: {
@@ -6672,12 +6695,22 @@ Items: {
 
 	NaquadahAnvil: {
 		DisplayName: ナクアダの金床
-		Tooltip: ミスリル、オリハルコン、ナクアダ、アダマンタイト、チタン、トロキシニウムのアイテムを作成可能
+		Tooltip:
+			'''
+			通常の金床から作成できるアイテムに加え、
+			ミスリル・オリハルコン・・ナクアダ・アダマンタイト・チタン・トロキシニウムなど、
+			ハードモードの鉱石と素材からアイテムを作成できる
+			'''
 	}
 
 	TroxiniumForge: {
 		DisplayName: トロキシニウムのかまど
-		Tooltip: アダマンタイト、チタン、トロキシニウムの製錬に使用する
+		Tooltip:
+			'''
+			下位のかまどで製錬・作成できるアイテムに加え、
+			アダマンタイト・チタン・クロロファイト・トロキシニウムなどハードモードの鉱石を製錬でき、
+			スペクタイトのインゴットを作成できる
+			'''
 	}
 
 	DurataniumChainsaw: {
@@ -6687,12 +6720,12 @@ Items: {
 
 	DurataniumDrill: {
 		DisplayName: デュラタニウムのドリル
-		Tooltip: ミスリル、オリハルコン、ナクアダの採掘が可能
+		Tooltip: ミスリル・オリハルコン・ナクアダを採掘できる
 	}
 
 	DurataniumPickaxe: {
 		DisplayName: デュラタニウムのつるはし
-		Tooltip: ミスリル、オリハルコン、ナクアダの採掘が可能
+		Tooltip: ミスリル・オリハルコン・ナクアダを採掘できる
 	}
 
 	DurataniumWaraxe: {
@@ -6707,7 +6740,7 @@ Items: {
 
 	NaquadahDrill: {
 		DisplayName: ナクアダのドリル
-		Tooltip: アダマンタイト、チタン、トロキシニウムの採掘が可能
+		Tooltip: アダマンタイト・チタン・トロキシニウムを採掘できる
 	}
 
 	NaquadahGreataxe: {
@@ -6717,7 +6750,7 @@ Items: {
 
 	NaquadahPickaxe: {
 		DisplayName: ナクアダのつるはし
-		Tooltip: アダマンタイト、チタン、トロキシニウムの採掘が可能
+		Tooltip: アダマンタイト・チタン・トロキシニウムを採掘できる
 	}
 
 	TroxiniumChainsaw: {
@@ -6981,17 +7014,17 @@ Items: {
 
 	GreekExtinguisher: {
 		DisplayName: 緑の消化器
-		Tooltip: 呪炎耐性
+		Tooltip: 呪炎を無効化
 	}
 
 	NuclearExtinguisher: {
 		DisplayName: 核消火器
-		Tooltip: 深い暗闇と呪炎耐性
+		Tooltip: 深い暗闇と呪炎を無効化
 	}
 
 	SixHundredWattLightbulb: {
 		DisplayName: 600ワットの電球
-		Tooltip: 深い暗闇耐性
+		Tooltip: 深い暗闇を無効化
 	}
 
 	MinersPickaxe: {
@@ -7031,17 +7064,17 @@ Items: {
 
 	OxygenTank: {
 		DisplayName: 酸素タンク
-		Tooltip: 窒息耐性
+		Tooltip: 窒息を無効化
 	}
 
 	Vortex: {
 		DisplayName: 螺旋
-		Tooltip: 燃えている！耐性
+		Tooltip: 燃えている！を無効化
 	}
 
 	GoldenShield: {
 		DisplayName: 金の盾
-		Tooltip: 霊液耐性
+		Tooltip: 霊液を無効化
 	}
 
 	ReflexCharm: {
@@ -7054,7 +7087,7 @@ Items: {
 		Tooltip:
 			'''
 			50%の確率で弾を反射する
-			ほとんどの状態異常に対する耐性
+			ほとんどのデバフを無効化
 			ノックバックと炎のブロックのダメージを無効化
 			'''
 	}
@@ -7064,8 +7097,8 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが17%増加
-			ミニオンのノックバックが増加
-			召喚できるミニオンの数が1体増える
+			ミニオンの攻撃のノックバックが増加
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -7073,7 +7106,7 @@ Items: {
 		DisplayName: ピグミーの盾
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			ノックバックを無効化
 			'''
 	}
@@ -7082,7 +7115,7 @@ Items: {
 		DisplayName: ディオニュソスのアミュレット
 		Tooltip:
 			'''
-			召喚できるミニオンの数が2体増える
+			ミニオンスロットを2つ追加
 			召喚ダメージが8%増加
 			敵の防御力を5無視する
 			ノックバックを無効化
@@ -7101,7 +7134,7 @@ Items: {
 			水中で半魚人に変身する
 			溶岩で溶岩の半魚人に変身する
 			夜間はウェアウルフに変身する
-			全ステータスが強化
+			全ステータスを強化
 			'''
 	}
 
@@ -7111,11 +7144,11 @@ Items: {
 	}
 
 	ThePill: {
-		DisplayName: 薬
+		DisplayName: カプセル薬
 		Tooltip:
 			'''
-			回復ポーションの効果が50%増加するが、
-			回復ポーションの再使用間隔が15%延長される
+			ライフ回復アイテムの効果が50%増加するが、
+			ライフ回復アイテムの再使用間隔が15%伸びる
 			デバフの持続時間が20%短縮される
 			'''
 	}
@@ -7161,7 +7194,7 @@ Items: {
 		DisplayName: 混沌のクリスタル
 		Tooltip:
 			'''
-			クリティカル時のダメージが35%増加するが
+			クリティカル時のダメージが35%増加するが、
 			クリティカル率の上限が10%低下する
 			'''
 	}
@@ -7201,8 +7234,7 @@ Items: {
 		Tooltip:
 			'''
 			クリティカル時のダメージが20%増加
-			ダメージが10%増加
-			クリティカル率が8%上昇
+			ダメージが10%増加し、クリティカル率が8%上昇
 			ライフが少なくなるほど、クリティカル率が上昇
 			罠のダメージを無効化
 			クリティカル率の上限が3%低下する
@@ -7211,7 +7243,7 @@ Items: {
 
 	SurgicalMask: {
 		DisplayName: 手術用のマスク
-		Tooltip: 病原体耐性
+		Tooltip: 病原体を無効化
 	}
 
 	PaladinHelm: {
@@ -7246,17 +7278,18 @@ Items: {
 
 	RestorationBand: {
 		DisplayName: 復元の腕輪
-		Tooltip: ライフ、マナ、スタミナの自然回復を増進
+		Tooltip: ライフ・マナ・スタミナの自然回復を増進
 	}
 
 	RingofReplenishment: {
 		DisplayName: 回復の指輪
 		Tooltip:
 			'''
-			マナポーションとスタミナポーションを自動で使用してくれる
+			マナがなくなるとマナポーションを、
+			スタミナがなくなるとスタミナポーションを自動的に使用する
 			最大スタミナが60増加
-			回復ポーションの再使用時間を短縮させる
-			ライフ、マナ、スタミナの自然回復を増進
+			ライフ回復アイテムの再使用時間が短縮される
+			ライフ・マナ・スタミナの自然回復を増進
 			'''
 	}
 
@@ -7265,7 +7298,7 @@ Items: {
 		Tooltip:
 			'''
 			アンデッドから受けるダメージを軽減し、
-			受けたダメージが1の場合はダメージを無効化する
+			被ダメージが1の場合はダメージを無効化する
 			'''
 	}
 
@@ -7317,14 +7350,14 @@ Items: {
 		Tooltip:
 			'''
 			攻撃を受けると防御力が大きく増加
-			ライフ回復速度の上昇を早める
-			継続ダメージを受けるデバフの効果を軽減
+			ライフ回復速度の上昇が早くなる
+			ライフが減っていくデバフの効果を軽減
 			'''
 	}
 
 	PalladiumCrossShield: {
 		DisplayName: パラジウムの十字架の盾
-		Tooltip: ライフ回復速度の上昇を早める
+		Tooltip: ライフ回復速度の上昇が早くなる
 	}
 
 	PalladiumOmegaShield: {
@@ -7332,14 +7365,14 @@ Items: {
 		Tooltip:
 			'''
 			攻撃を受けると防御力が増加
-			ライフ回復速度の上昇を大幅に早める
-			継続ダメージを受けるデバフの効果を軽減
+			ライフ回復速度の上昇が大幅に早くなる
+			ライフが減っていくデバフの効果を軽減
 			'''
 	}
 
 	DurataniumCrossShield: {
 		DisplayName: デュラタニウムの十字架の盾
-		Tooltip: ライフ回復速度の上昇を早める
+		Tooltip: ライフ回復速度の上昇が早くなる
 	}
 
 	DurataniumOmegaShield: {
@@ -7347,8 +7380,8 @@ Items: {
 		Tooltip:
 			'''
 			攻撃を受けると防御力が増加
-			ライフ回復速度の上昇を早める
-			継続ダメージを受けるデバフの効果を大きく軽減
+			ライフ回復速度の上昇が早くなる
+			ライフが減っていくデバフの効果を大きく軽減
 			'''
 	}
 
@@ -7356,7 +7389,7 @@ Items: {
 		DisplayName: ブレイクドーン (通常)
 		Tooltip:
 			'''
-			木を伐採するときにドングリを植える
+			木を伐採すると同時にドングリを植える
 			<right>で範囲モードに切り替える
 			「一振りごとに夜明けが訪れる」
 			'''
@@ -7378,7 +7411,7 @@ Items: {
 
 	Blueshift: {
 		DisplayName: ブルーシフト
-		Tooltip: 攻撃中、攻撃速度と伐採スピードが上昇していく
+		Tooltip: 攻撃中、攻撃速度と伐採速度が上昇していく
 	}
 
 	Jukebox: {
@@ -7429,7 +7462,7 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が30%減少
-			召喚できるミニオンの数が12体増える
+			ミニオンスロットを12つ追加
 			最大マナが800増加
 			'''
 	}
@@ -7448,7 +7481,7 @@ Items: {
 		Tooltip:
 			'''
 			被ダメージを5%軽減し、落下ダメージを無効化
-			スライム系から攻撃を受けない
+			スライム系から攻撃されない
 			'''
 	}
 
@@ -7464,7 +7497,7 @@ Items: {
 
 	SapphirePickaxe: {
 		DisplayName: サファイアのつるはし
-		Tooltip: 攻撃中、攻撃速度と採掘スピードが上昇していく
+		Tooltip: 攻撃中、攻撃速度と採掘速度が上昇していく
 	}
 
 	BundleofBalloons: {
@@ -7472,7 +7505,7 @@ Items: {
 		Tooltip:
 			'''
 			四段ジャンプが可能
-			ジャンプ高度が増加
+			ジャンプ高度が上昇
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 			'''
 	}
@@ -7482,8 +7515,9 @@ Items: {
 		Tooltip:
 			'''
 			四段ジャンプが可能
-			ジャンプ高度が増加し、落下ダメージを無効化
+			ジャンプ高度が上昇し、落下ダメージを無効化
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
+			運が増加
 			'''
 	}
 
@@ -7492,7 +7526,7 @@ Items: {
 		Tooltip:
 			'''
 			七段ジャンプが可能
-			ジャンプ高度が増加
+			ジャンプ高度が上昇
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 			'''
 	}
@@ -7502,8 +7536,9 @@ Items: {
 		Tooltip:
 			'''
 			七段ジャンプが可能
-			ジャンプ高度が増加し、落下ダメージを無効化
+			ジャンプ高度が上昇し、落下ダメージを無効化
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
+			運が増加
 			'''
 	}
 
@@ -7512,8 +7547,9 @@ Items: {
 		Tooltip:
 			'''
 			二段ジャンプが可能
-			ジャンプ高度が増加し、落下ダメージを無効化
+			ジャンプ高度が上昇し、落下ダメージを無効化
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
+			運が増加
 			'''
 	}
 
@@ -7521,8 +7557,8 @@ Items: {
 		DisplayName: ロケットの風船
 		Tooltip:
 			'''
-			二段ジャンプが可能
-			ジャンプ高度が増加
+			高度が高い二段ジャンプが可能
+			ジャンプ高度が上昇
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 			'''
 	}
@@ -7573,7 +7609,7 @@ Items: {
 		DisplayName: 古代のすね当て
 		Tooltip:
 			'''
-			召喚できるミニオンの数が6体増える
+			ミニオンスロットを6つ追加
 			最大マナが100増加
 			'''
 	}
@@ -7625,14 +7661,14 @@ Items: {
 		Tooltip:
 			'''
 			バブルブーストを使用できる
-			ジャンプと横入力を押すと飛行
+			ジャンプと横を押し続けると浮遊する
 			「スターバウンドの過去の遺物」
 			'''
 	}
 
 	SwimmingScroll: {
 		DisplayName: 泳ぎの巻物
-		Tooltip: スタミナを消費して泳げるようになる
+		Tooltip: スタミナを消費して液体内で無限にジャンプできる
 	}
 
 	EggCannon: {
@@ -7724,7 +7760,7 @@ Items: {
 	}
 
 	GaseousTsunamiRocketinaJar: {
-		DisplayName: 瓶詰めのガス、津波、ロケット
+		DisplayName: 瓶詰めのガス・津波・ロケット
 		Tooltip:
 			'''
 			四段ジャンプが可能
@@ -8025,12 +8061,12 @@ Items: {
 
 	MiningScroll: {
 		DisplayName: 採掘の巻物
-		Tooltip: スタミナを消費して採掘スピードを上昇させることができるようになる
+		Tooltip: スタミナを消費して採掘スピードを上昇させる
 	}
 
 	WallSlidingScroll: {
 		DisplayName: 壁登りの巻物
-		Tooltip: スタミナを消費して壁に張り付くことができるようになる
+		Tooltip: スタミナを消費して壁に張り付く
 	}
 
 	GiftofStarpower: {
@@ -8038,7 +8074,7 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が20%減少し、最大マナが40増加
-			マナポーションを自動で使用してくれる
+			マナがなくなるとマナポーションを自動的に使用する
 			魔法ダメージが15%増加
 			'''
 	}
@@ -8057,8 +8093,9 @@ Items: {
 		Tooltip:
 			'''
 			二段ジャンプが可能
-			ジャンプ高度が増加し、落下ダメージを無効化
+			ジャンプ高度が上昇し、落下ダメージを無効化
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
+			運が増加
 			「他人を不快な気持ちにさせるかもしれない」
 			'''
 	}
@@ -8068,7 +8105,7 @@ Items: {
 		Tooltip:
 			'''
 			二段ジャンプが可能
-			ジャンプ高度が増加
+			ジャンプ高度が上昇
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 			「他人を不快な気持ちにさせるかもしれない」
 			'''
@@ -8088,9 +8125,7 @@ Items: {
 		DisplayName: 錬金術のドクロ
 		Tooltip:
 			'''
-			出現率が上昇
-			ダメージの一部を反射
-			水と溶岩の上を歩ける
+			闘争・鉄の肌・イバラ・水上歩行のポーションの効果を得る
 			ノックバックと燃えるブロックのダメージを無効化
 			'''
 	}
@@ -8100,13 +8135,13 @@ Items: {
 		Tooltip:
 			'''
 			ダメージを受けると蜂を放ち、星と雷が落ち、
-			使用者を蜂蜜に浸し、移動速度が上昇
+			蜂蜜を得て、移動速度が上昇
 			'''
 	}
 
 	LightninginaBottle: {
 		DisplayName: 瓶詰めの稲妻
-		Tooltip: ダメージを受けた後に雷が落ちてくる
+		Tooltip: ダメージを受けると雷が落ちてくる
 	}
 
 	ForsakenRelic: {
@@ -8151,11 +8186,11 @@ Items: {
 			ライフとマナの自然回復を増進
 			ダメージが7%増加
 			クリティカル率が2%上昇
-			ブロックの設置範囲が4マス増加
-			アイテムを拾う距離が広がる
+			ブロックの設置範囲が4広がる
+			アイテムの取得範囲が広がる
 			特定のアイテムをどこでも作成できる
 			現在位置と時刻を表示する
-			近くの宝物と敵が光る
+			近くの宝・鉱石・敵が光る
 			光を発する
 			'''
 	}
@@ -8164,7 +8199,7 @@ Items: {
 		DisplayName: ゴブリンのツールベルト
 		Tooltip:
 			'''
-			ブロックの設置範囲が2マス増加し、現在位置と時刻を表示する
+			ブロックの設置範囲が2広がり、現在位置と時刻を表示する
 			どこでも作業台と修理屋の工作台が必要なものを作成できる
 			'''
 	}
@@ -8380,7 +8415,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが4%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -8389,7 +8424,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが4%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -8398,7 +8433,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが4%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -8436,7 +8471,8 @@ Items: {
 		DisplayName: AIコントローラー
 		Tooltip:
 			'''
-			スティンガープローブがあなたの周囲を旋回し、攻撃するとカーソルに向かってレーザーを発射する
+			スティンガープローブがあなたの周囲を旋回し、
+			攻撃するとカーソルに向けてレーザーを発射する
 			プローブは敵の投射物を反射して爆発する
 			プローブは一定時間経過で復活し、最大で4機まで出現する
 			'''
@@ -8624,7 +8660,7 @@ Items: {
 		DisplayName: バナーベルト
 		Tooltip:
 			'''
-			所持している敵のバナーの効果を、自身と周囲のチームプレイヤーに付与する
+			所持している敵のバナーの効果を、自身と周囲のチームプレイヤーに与える
 			バナーの効果は、装備者に対して強力になる
 			'''
 	}
@@ -8638,13 +8674,14 @@ Items: {
 		DisplayName: 創造の手
 		Tooltip:
 			'''
-			採掘スピードが25%上昇
+			採掘速度が25%上昇
 			ブロックと壁の設置速度が上昇
-			ブロックの設置範囲と道具の届く範囲が3増加
-			アイテムを拾う距離が広がる
-			設置した物に自動で塗装やコーティングをする
+			ブロックの設置範囲と道具の届く範囲が3広がる
+			アイテムの取得範囲が広がる
+			物を設置した際、ペンキやコーティングを所持しているなら、
+			それを消費して自動で塗ってくれる
 			上入力を続けている間、高い位置に移動できる
-			空中や溶岩の中にブロックや壁を設置可能になる
+			空中や溶岩の中にブロックや壁を設置できるようになる
 			'''
 	}
 
@@ -8784,22 +8821,22 @@ Items: {
 
 	AdvArcanePotion: {
 		DisplayName: アルケインのエリクサー
-		Tooltip: 魔法と神聖ダメージにより、定期的に収集可能な小さい星を生成する
+		Tooltip: 魔法と神聖ダメージにより、定期的に取得可能な小さなスターを生成する
 	}
 
 	AdvArtilleryPotion: {
 		DisplayName: 大砲のエリクサー
-		Tooltip: 召喚できるセントリーの数が2体増える
+		Tooltip: セントリースロットを2つ追加
 	}
 
 	AdvAssassinPotion: {
 		DisplayName: 暗殺者のエリクサー
-		Tooltip: 非戦闘時の最初の投擲攻撃はクリティカルになり、4倍のダメージを与える
+		Tooltip: 非戦闘時の最初の投擲攻撃が必ずクリティカルになり、4倍のダメージを与える
 	}
 
 	AdvBloodPotion: {
 		DisplayName: 血のエリクサー
-		Tooltip: 採掘スピードと移動速度が20%上昇
+		Tooltip: 採掘速度と移動速度が20%上昇
 	}
 
 	AdvBouncingFlamePotion: {
@@ -8844,12 +8881,12 @@ Items: {
 
 	AdvInspirationalReachPotion: {
 		DisplayName: ひらめきのエリクサー
-		Tooltip: インスピレーションノートの収集範囲を拡大する
+		Tooltip: インスピレーションノートの取得範囲を広げる
 	}
 
 	AdvKineticPotion: {
 		DisplayName: キネティックエリクサー
-		Tooltip: ダブルタップでダッシュできるようにする
+		Tooltip: 横入力2回でダッシュできるようになる
 	}
 
 	AdvWarmongerPotion: {
@@ -8919,7 +8956,7 @@ Items: {
 
 	CalculatorSpectacles: {
 		DisplayName: 電卓のメガネ
-		Tooltip: カーソルを合わせた鉱脈、鉱石の塊の鉱石量を表示する
+		Tooltip: カーソルを合わせた鉱脈と鉱石の塊の鉱石量を表示する
 	}
 
 	StarTorch: {
@@ -9216,7 +9253,7 @@ Items: {
 		Tooltip:
 			'''
 			魔法ダメージが12%減少するが、マナ消費量が8%減少
-			マナポーションを自動で使用してくれる
+			マナがなくなるとマナポーションを自動的に使用する
 			マナ酔いを無効化する
 			'''
 	}
@@ -9240,10 +9277,10 @@ Items: {
 		DisplayName: 建築家のツールベルト
 		Tooltip:
 			'''
-			ブロックの設置範囲と道具の届く範囲が10マス増加
+			ブロックの設置範囲と道具の届く範囲が10広がる
 			ブロックと壁の設置速度が上昇
 			現在位置と時刻を表示する
-			どこでも作業台、修理屋の工作台、かまど、金床が必要なものを作成できる
+			どこでも作業台・修理屋の工作台・かまど・金床が必要なものを作成できる
 			少しの間浮遊できる
 			'''
 	}
@@ -9491,7 +9528,7 @@ Items: {
 		DisplayName: リソースバーのスキン
 		Tooltip:
 			'''
-			ライフ、マナ、スタミナのバーを染色できる
+			ライフ・マナ・スタミナのバーを染色できる
 			衣装スロットでも機能する
 			'''
 	}
@@ -9658,8 +9695,8 @@ Items: {
 		DisplayName: シュルーマイトの弾
 		Tooltip:
 			'''
-			弾丸、矢、ロケットとして使用できる
-			発射すると弾丸、矢、ロケットに変化する
+			弾丸・矢・ロケットとして使用できる
+			発射すると弾丸・矢・ロケットに変化する
 			'''
 	}
 
@@ -9680,12 +9717,12 @@ Items: {
 
 	FortunePotion: {
 		DisplayName: 幸運のポーション
-		Tooltip: 敵、箱、釣りアイテムのドロップが増えることがある
+		Tooltip: 敵・箱・釣りアイテムのドロップが増えることがある
 	}
 
 	AdvFortunePotion: {
 		DisplayName: 幸運のエリクサー
-		Tooltip: 敵、箱、釣りアイテムのドロップが増えることがある
+		Tooltip: 敵・箱・釣りアイテムのドロップが増えることがある
 	}
 
 	BloodClotBlock: {
@@ -9894,7 +9931,7 @@ Items: {
 		Tooltip:
 			'''
 			水と酸の上を歩行可能
-			酸に触れたときのダメージを軽減
+			酸のダメージを軽減
 			'''
 	}
 
@@ -9982,7 +10019,7 @@ Items: {
 		DisplayName: 耐酸タックルバッグ
 		Tooltip:
 			'''
-			釣り糸を切られなくなり、餌を消費しにくくなり、フイッシング・パワーが10向上する
+			釣り糸が切られなくなり、餌を消費しにくくなり、フイッシング・パワーが10上昇する
 			溶岩と酸で釣りができる
 			'''
 	}
@@ -10917,7 +10954,11 @@ Buffs: {
 
 	BloodCast: {
 		DisplayName: 血の詠唱
-		Description: 最大マナが最大ライフと同じ数値分増加
+		Description:
+			'''
+			最大マナが最大ライフと同じ数値分増加するが、
+			消費したマナの1/3分、ライフが減少する
+			'''
 	}
 
 	CrimsonDrain: {
@@ -10942,7 +10983,7 @@ Buffs: {
 
 	GPS: {
 		DisplayName: GPS
-		Description: GPSの効果を得る
+		Description: 現在位置と時刻がわかる
 	}
 
 	Heartsick: {
@@ -10967,7 +11008,7 @@ Buffs: {
 
 	Magnet: {
 		DisplayName: 磁石
-		Description: アイテムを拾う距離が広がる
+		Description: アイテムの取得範囲が広がる
 	}
 
 	Rogue: {
@@ -10987,12 +11028,16 @@ Buffs: {
 
 	Starbright: {
 		DisplayName: スターブライト
-		Description: 流れ星がより頻繁に落ちてくるようになる
+		Description: 流れ星がより頻繁に降ってくるようになる
 	}
 
 	Strong: {
 		DisplayName: 力
-		Description: 全ステータスが強化
+		Description:
+			'''
+			ダメージ・防御力・ライフ自然回復量が増加し、
+			クリティカル率が上昇
+			'''
 	}
 
 	Supersonic: {
@@ -11042,7 +11087,7 @@ Buffs: {
 
 	AdvBuilder: {
 		DisplayName: 強化建築
-		Description: 配置速度と射程が増加
+		Description: 配置速度が上昇し、配置範囲が広がる
 	}
 
 	AdvCalming: {
@@ -11052,7 +11097,7 @@ Buffs: {
 
 	AdvCrate: {
 		DisplayName: 強化箱
-		Description: 箱を釣り上げる確率が上昇
+		Description: 箱を釣り上げる確率が上昇する
 	}
 
 	AdvCrimson: {
@@ -11066,23 +11111,28 @@ Buffs: {
 	}
 
 	AdvEndurance: {
-		DisplayName: 強化忍耐
+		DisplayName: 強化耐久
 		Description: 被ダメージを15%軽減
 	}
 
 	AdvFeatherfall: {
 		DisplayName: 強化落下制御
-		Description: 上下入力で落下速度を調整できる
+		Description:
+			'''
+			落下速度が低下
+			上下入力で落下速度を調整できる
+			落下ダメージも無効化する
+			'''
 	}
 
 	AdvFishing: {
-		DisplayName: 強化フィッシング・パワー向上
-		Description: ィッシング・パワーが向上する 
+		DisplayName: 強化釣り
+		Description: フィッシング・パワーが上昇する 
 	}
 
 	AdvFlipper: {
-		DisplayName: 強化足ひれ
-		Description: 水の中で自由に動ける
+		DisplayName: 強化遊泳
+		Description: 液体内で無限にジャンプでき、水・溶岩・蜂蜜で減速しない
 	}
 
 	AdvForceField: {
@@ -11102,7 +11152,7 @@ Buffs: {
 
 	AdvGills: {
 		DisplayName: 強化エラ呼吸
-		Description: 空気の代わりに水で呼吸する
+		Description: 水と蜂蜜内で呼吸できるようになる
 	}
 
 	AdvGPS: {
@@ -11117,7 +11167,7 @@ Buffs: {
 
 	AdvHeartreach: {
 		DisplayName: 強化ハート回収
-		Description: ハートを拾う距離が広がる
+		Description: ハートの取得範囲が広がる
 	}
 
 	AdvHunter: {
@@ -11136,7 +11186,7 @@ Buffs: {
 	}
 
 	AdvInvisibility: {
-		DisplayName: 強化透明化
+		DisplayName: 強化透明
 		Description: 透明になる
 	}
 
@@ -11167,27 +11217,27 @@ Buffs: {
 
 	AdvMagnet: {
 		DisplayName: 強化磁石
-		Description: アイテムを拾う距離が広がる
+		Description: アイテムの取得範囲が広がる
 	}
 
 	AdvManaRegeneration: {
-		DisplayName: 強化マナ自然回復増進
+		DisplayName: 強化マナ自然回復
 		Description: マナ自然回復を増進
 	}
 
 	AdvMining: {
-		DisplayName: 強化掘削
-		Description: 採掘スピードが35%上昇
+		DisplayName: 強化採掘
+		Description: 採掘速度が35%上昇
 	}
 
 	AdvNightOwl: {
 		DisplayName: 強化フクロウの目
-		Description: 暗くても視界が利くようになる
+		Description: 視界が良くなる
 	}
 
 	AdvObsidianSkin: {
 		DisplayName: 強化黒曜石の肌
-		Description: 溶岩のダメージを無効化する
+		Description: 炎のブロックと溶岩のダメージ、燃えている！を無効化
 	}
 
 	AdvRage: {
@@ -11196,7 +11246,7 @@ Buffs: {
 	}
 
 	AdvRegeneration: {
-		DisplayName: 強化ライフ自然回復増進
+		DisplayName: 強化再生
 		Description: ライフ自然回復を増進
 	}
 
@@ -11211,7 +11261,7 @@ Buffs: {
 	}
 
 	AdvShine: {
-		DisplayName: 強化光源
+		DisplayName: 強化発光
 		Description: 発光する
 	}
 
@@ -11222,7 +11272,7 @@ Buffs: {
 
 	AdvSonar: {
 		DisplayName: 強化ソナー
-		Description: 釣り針に食いついているものが見える
+		Description: 釣り針に食いついたものがわかる
 	}
 
 	AdvSpelunker: {
@@ -11232,17 +11282,21 @@ Buffs: {
 
 	AdvStarbright: {
 		DisplayName: 強化スターブライト
-		Description: 流れ星がより頻繁に落ちてくるようになる
+		Description: 流れ星がより頻繁に降ってくるようになる
 	}
 
 	AdvStrength: {
 		DisplayName: 強化力
-		Description: 全ステータスが強化
+		Description:
+			'''
+			ダメージ・防御力・ライフ自然回復量が増加し、
+			クリティカル率が上昇
+			'''
 	}
 
 	AdvSummoning: {
 		DisplayName: 強化召喚
-		Description: 召喚できるミニオンの数がより増える 
+		Description: ミニオンスロットを2つ追加 
 	}
 
 	AdvSupersonic: {
@@ -11257,7 +11311,7 @@ Buffs: {
 
 	AdvThorns: {
 		DisplayName: 強化イバラ
-		Description: ダメージを全て反射する
+		Description: 接触ダメージを全て反射する
 	}
 
 	AdvTimeShift: {
@@ -11267,7 +11321,7 @@ Buffs: {
 
 	AdvTitan: {
 		DisplayName: 強化タイタン
-		Description: ノックバックが増加
+		Description: 攻撃のノックバックが増加
 	}
 
 	AdvTitanskin: {
@@ -11282,12 +11336,16 @@ Buffs: {
 
 	AdvWarmth: {
 		DisplayName: 強化暖気
-		Description: 冷気による被ダメージ減少
+		Description: 冷気による被ダメージを軽減
 	}
 
 	AdvWaterWalking: {
 		DisplayName: 強化水上歩行
-		Description: 下入力で水に潜れる
+		Description:
+			'''
+			液体の上を歩行できる
+			下入力で液体に潜る
+			'''
 	}
 
 	AdvWisdom: {
@@ -11377,7 +11435,7 @@ Buffs: {
 
 	ImbuePathogen: {
 		DisplayName: 病原体付与
-		Description: 近接攻撃に病原体の追加効果を付与
+		Description: 近接攻撃と鞭で病原体を与える
 	}
 	IcySlowdown: {
 		DisplayName: 氷による減速
@@ -11406,7 +11464,7 @@ Buffs: {
 
 	CaesiumBoostingStance: {
 		DisplayName: セシウムブーストスタンス
-		Description: 移動速度は耐久と交換されている
+		Description: 移動速度は耐久と近接攻撃能力と交換されている
 	}
 
 	Bacterium: {
@@ -11535,12 +11593,12 @@ Buffs: {
 
 	AdvArtillery: {
 		DisplayName: 強化砲兵
-		Description: 召喚できるミニオンの数が2体増える
+		Description: セントリースロットを2つ追加
 	}
 
 	AdvAssassin: {
 		DisplayName: 強化アサシン
-		Description: 非戦闘時の投擲攻撃は4倍のダメージを与える
+		Description: 非戦闘時の最初の投擲攻撃が必ずクリティカルになり、4倍のダメージを与える
 	}
 
 	AdvBloodRush: {
@@ -11555,7 +11613,7 @@ Buffs: {
 
 	AdvConflagration: {
 		DisplayName: 強化大火
-		Description: 体の内側が熱くなり、ダメージが増える
+		Description: 体の内側が熱くなり、ダメージが増加する
 	}
 
 	AdvCreativity: {
@@ -11580,22 +11638,22 @@ Buffs: {
 
 	AdvHoly: {
 		DisplayName: 強化聖なる力
-		Description: 回復魔法でライフを追加で回復する
+		Description: 回復魔法のライフ回復量が増加
 	}
 
 	AdvHydration: {
 		DisplayName: 強化水分補給
-		Description: 体力とテクニカルポイントの回復がより早くなる
+		Description: 体力とテクニカルポイントの回復が早くなる
 	}
 
 	AdvInspirationalReach: {
 		DisplayName: 強化インスピレーションリーチ
-		Description: インスピレーションの収集範囲を拡大
+		Description: インスピレーションの取得範囲が広がる
 	}
 
 	AdvKinetic: {
 		DisplayName: 強化キネティックストレージ
-		Description: ダブルタップでダッシュできるようになる
+		Description: 横入力2回でダッシュできるようになる
 	}
 
 	AdvWarmonger: {
@@ -11665,12 +11723,12 @@ Buffs: {
 
 	Dupe: {
 		DisplayName: 幸運
-		Description: 敵、箱、釣りアイテムのドロップが増えることがある
+		Description: 敵・箱・釣りアイテムのドロップが増えることがある
 	}
 
 	AdvDupe: {
 		DisplayName: 強化幸運
-		Description: 敵、箱、釣りアイテムのドロップが増えることがある
+		Description: 敵・箱・釣りアイテムのドロップが増えることがある
 	}
 
 	Dissolving: {
