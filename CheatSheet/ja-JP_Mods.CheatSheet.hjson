@@ -3,7 +3,7 @@ Hotbar: {
 	ShowClearMenu: クリアメニューを表示
 	ShowNPCBrowser: NPCブラウザを表示
 	ShowRecipeBrowser: レシピブラウザを表示
-	ShowModExtensionCheats: 追加されたチートツールの表示
+	ShowModExtensionCheats: 追加チートツールの表示
 	ShowPaintTools: ペイントツールを表示
 	ExtraAccessorySlots: 拡張アクセサリスロット
 	VacuumItems: アイテムを吸引する
@@ -26,7 +26,7 @@ Vacuum: {
 Teleport: {
 	Dungeon: ダンジョン
 	Spawnpoint: スポーン地点
-	Hell: 地獄
+	Hell: 地下世界
 	Temple: 寺院
 	Random: ランダム
 }
@@ -41,10 +41,10 @@ QuickClear: {
 }
 
 SpawnRate: {
-	SpawnRateMultiplier: スポーン率の倍率 : 1х
-	SpawnRateMultiplierNew: "スポーン率の倍率: "
-	SpawnRateMultiplierText: "スポーン率と最大スポーン数 "
-	SpawnRateNormalValue: " ノーマルのスポーン率"
+	SpawnRateMultiplier: 出現率の倍率 : 1х
+	SpawnRateMultiplierNew: "出現率の倍率: "
+	SpawnRateMultiplierText: "出現率と最大出現数 "
+	SpawnRateNormalValue: " 通常の出現率"
 }
 
 LightHack: {
@@ -55,14 +55,14 @@ LightHack: {
 }
 
 GodMode: {
-	GodModeDisabled: ゴッドモードを無効化しました
-	GodModeEnabled: ゴッドモードを有効化しました
+	GodModeDisabled: 無敵モードが無効になりました
+	GodModeEnabled: 無敵モードが有効になりました
 }
 
 MinionSlot: {
-	MinionSlotBooster: ミニオンスロットブースト: +0
-	MinionSlotBoosterNew: "ミニオンスロットブースト: "
-	MinionSlotBoosterText: "現在のミニオンのブーストは "
+	MinionSlotBooster: ミニオンスロット追加: +0
+	MinionSlotBoosterNew: "ミニオンスロット追加: "
+	MinionSlotBoosterText: "現在のミニオンの追加数は "
 }
 
 RecipeBrowser: {
@@ -81,11 +81,11 @@ ConfigurationTool: {
 	ExtraAccessorySlots: 拡張アクセサリスロット
 	ModExtensions: 拡張Mod
 	PaintTools: ペイントツール
-	SpawnRate: スポーン率
+	SpawnRate: 出現率
 	Vacuum: 吸引
 	Waypoints: ウェイポイント
 	LightHack: ライトハック
-	GodMode: ゴッドモード
+	GodMode: 無敵モード
 }
 
 ExtendedCheatMenu: {
@@ -109,7 +109,7 @@ MobBrowser: {
 	FilteredNPCs: フィルター済みNPC
 	CycleModSpecificNPCs: ModごとのNPC
 	SpawnNPCNotification: "{0}が{1}によって召喚された"
-	NoNPCHaveBeenAddedByMods: MODによるNPC追加無し
+	NoNPCHaveBeenAddedByMods: ModによるNPC追加無し
 }
 
 ItemBrowser: {
@@ -124,9 +124,9 @@ ItemBrowser: {
 	Expert: エキスパート
 	Furniture: 家具
 	Pets: ペット
-	Mounts: 騎乗ペット
+	Mounts: マウント
 	CycleModSpecificItems: Modごとのアイテム
-	NoItemsHaveBeenAddedByMods:MODによるアイテム追加無し
+	NoItemsHaveBeenAddedByMods: Modによるアイテム追加無し
 }
 
 PaintTools: {
@@ -197,7 +197,7 @@ Configs: {
 
 		DisableCheatsForNonHostUsers: {
 			Label: ホストユーザー以外のチートを無効化
-			Tooltip: このmodの機能がホスト以外のマルチプレイヤーで動作しないようにします
+			Tooltip: このModの機能がホスト以外のマルチプレイヤーで動作しないようにします
 		}
 	}
 }

@@ -3,8 +3,8 @@ Configs: {
 		StaminaCrystalGenerationRate: {
 			Tooltip:
 				'''
-				ワールド生成時にスポーンするスタミナクリスタルの数を変更します
-				Exxo Avalon Originsがロードされていない場合は何もしません
+				ワールド生成時に生成されるスタミナクリスタルの数を変更します
+				Exxo Avalon Originsが有効でない場合は何もしません
 				0に設定するとスタミナクリスタルの生成を無効にします
 				デフォルト値：0.33
 				'''
@@ -14,7 +14,7 @@ Configs: {
 		ManaCrystalGenerationRate: {
 			Tooltip:
 				'''
-				ワールド生成時のマナクリスタルの生成数を変更します
+				ワールド生成時に生成されるマナクリスタルの数を変更します
 				この値はゲームが生成しようとするマナクリスタルの量に乗数を適用します
 				1.0に設定するとライフクリスタルと同量のマナクリスタルが生成されます
 				0に設定するとマナクリスタルの生成を無効にします
@@ -24,7 +24,7 @@ Configs: {
 		}
 
 		Headers: {
-			Modded: MOD互換性
+			Modded: Mod互換性
 			Generation: 生成
 		}
 

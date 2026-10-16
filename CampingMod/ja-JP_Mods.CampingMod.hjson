@@ -5,36 +5,50 @@ Common: {
 	SleepingBag: 寝袋
 	CraftTent: サバイバルテント
 	LargeTent: 大型テント
-	TemporarySpawn: 臨時のリスポーンポイントを設定することができる。
-	TemporarySpawnPoint: 臨時のスポーン
-	TentCrafting: 作業台が使用可能
-	LargeTentCrafting: 作業台、調合テーブル、調理鍋が利用可能。
-	OutpostCrafting: 作業台、調合テーブル、調理鍋、金床、かまど、重厚な作業台、修理屋の工作台が利用可能。
+	TemporarySpawn: 臨時リスポーンポイントを設定できる
+	TemporarySpawnPoint: 臨時スポーン
+	TentCrafting: 近くに設置すると作業台を利用できる
+	LargeTentCrafting: 近くに設置すると作業台・調合テーブル・調理鍋・イスを利用できる
+	OutpostCrafting:
+			'''
+			近くに設置すると作業台・調合テーブル・調理鍋・
+			金床・かまど・重工作台・修理屋の工作台・イス・
+			ベッド・時計を利用できる
+			'''
 	Outpost: 多機能テント
-	OutpostBank: 金庫と豚の貯金箱にアクセス可能。
-	OutpostEffect: 近くにいると体力が回復する。
+	OutpostBank: 金庫と豚の貯金箱にアクセスできる
+	OutpostEffect:
+			'''
+			アクセサリとして装備するか、近くに設置すると
+			ハートのランタンと瓶詰めの星を得る
+			近くに設置すると時間を表示し、さらに近づくと
+			現在位置も表示し、15秒間ダメージを受けなければ、
+			流血を無効化し、ライフ自然回復を増進する
+			さらに15秒間ダメージを受けなければ、ライフ自然回復をより増進し、
+			衰弱・防具破損・凍え・噛み傷の効果時間を大幅に短縮
+			'''
 	SittingLog: 丸太のベンチ
 }
 
 CampTent: {
-	SpawnSet: 臨時のスポーンポイントを設定！
-	SpawnRemove: 臨時のスポーンポイントを削除！
+	SpawnSet: 臨時スポーンポイントを設定！
+	SpawnRemove: 臨時スポーンポイントを削除！
 	SpawnBlocked: 十分なスペースがありません。
 	SpawnRemoveBed: スポーンポイントがリセットされました！
-	SpawnMissing: 臨時のスポーンポイントが見つかりません。
-	SpawnAtTent: 臨時のスポーンポイントでリスポーンする
+	SpawnMissing: 臨時スポーンポイントが見つかりません
+	SpawnAtTent: 臨時スポーンポイントでリスポーンする
 	SpawnAtHome: 元のスポーンポイントでリスポーンする
 	CannotTeleportToTentBecauseNotMeetingItemRequirements: "{0}がないとテレポートできません！"
 }
 
 BuffDescription: {
-	OutpostStage1: 多機能テントの近くにいるとき、ライフ回復量が増加する。
-	OutpostStage2: ライフの自然回復を促進し、%TIME 秒間ダメージを受けないでいるとデバフの持続時間が短縮される。
-	OutpostStage3: ライフの自然回復を促進し、一部のデバフの効果時間が大幅に短縮される。
+	OutpostStage1: 多機能テントの近くにいると、ライフ自然回復を増進
+	OutpostStage2: ライフ自然回復を増進し、%TIME 秒間ダメージを受けなければ効果がより強くなる
+	OutpostStage3: ライフ自然回復を増進し、衰弱・防具破損・凍え・噛み傷の効果時間を大幅に短縮
 }
 
 WeaponOutConvertor: {
-	ConvertTent: Camping Mod: Converted WeaponOut tent to Camping tent.
+	ConvertTent: Camping Modのテントをキャンプ用テントに変換
 }
 
 ItemName: {

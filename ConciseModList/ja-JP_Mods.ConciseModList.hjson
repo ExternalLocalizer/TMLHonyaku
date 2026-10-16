@@ -1,43 +1,43 @@
 Configs: {
 	ConciseModConfig: {
 		TranslationModIcon: {
-			Tooltip: このMODが他のMODを翻訳することを示すアイコンが表示されます
-			Label: 翻訳MODアイコン
+			Tooltip: このModが他のModを翻訳することを示すアイコンが表示されます
+			Label: 翻訳Modアイコン
 		}
 
 		ModReferenceIcon: {
-			Tooltip: このMODに依存関係があることを示すアイコンが表示されます
-			Label: MOD 参照アイコン
+			Tooltip: このModに依存関係があることを示すアイコンが表示されます
+			Label: Mod参照アイコン
 		}
 
 		ObsidianSkull: {
-			Tooltip: このMODのプレビュービルドがないことを示すドクロが表示されます
-			Label: 黒曜石の頭骨
+			Tooltip: このModのプレビュービルドがないことを示すドクロが表示されます
+			Label: 黒曜石のドクロ
 		}
 
 		UpdateDot: {
-			Tooltip: MODがアップデートされたときにMODアイコンに表示されるドットが表示されます
+			Tooltip: ModがアップデートされたときにModアイコンに表示されるドットが表示されます
 			Label: アップデート・ドット
 		}
 
 		ModpackIcon: {
-			Tooltip: MODパックのMODであれば、MODアイコンにMODパックのアイコンが表示されます
-			Label: MODパックアイコン
+			Tooltip: ModパックのMODであれば、ModアイコンにModパックのアイコンが表示されます
+			Label: Modパックアイコン
 		}
 
 		SteamIcon: {
-			Tooltip: SteamワークショップのMODの場合、MODアイコンにSteamアイコンが表示されます
+			Tooltip: SteamワークショップのModの場合、ModアイコンにSteamアイコンが表示されます
 			Label: Steam アイコン
 		}
 
 		ConfigButton: {
-			Tooltip: これがオフでも、MODアイコンを右クリックして設定を開くことができます
+			Tooltip: これがオフでも、Modアイコンを右クリックして設定を開くことができます
 			Label: 設定ボタン
 		}
 
 		EnabledModsFirst: {
 			Tooltip: ""
-			Label: 有効なMODをリストの上側に表示
+			Label: 有効なModをリストの上側に表示
 		}
 
 		DisplayName: 設定
@@ -46,15 +46,15 @@ Configs: {
 
 ExportEnabledMods:
 	'''
-	左クリックで有効なMODのリストをテキストとしてエクスポート
+	左クリックで有効なModのリストをテキストとしてエクスポート
 	右クリックでSteamワークショップのリンクなしでエクスポート
 	'''
 
-Dependencies: "[c/CC88AA:中クリック] で依存関係を有効にする"
+Dependencies: "[c/CC88AA:ミドルクリック]で依存関係を有効にする"
 
-Delete: "[c/CC88AA:右クリック] でMODを削除する"
+Delete: "[c/CC88AA:右クリック]でModを削除する"
 
-ModsMoreInfo: "[c/CC88AA:Ctrlキー] で詳細を見る"
+ModsMoreInfo: "[c/CC88AA:Ctrlキー]で詳細を見る"
 
-ModsOpenConfig: "[c/CC88AA:右クリック] で設定を開く"
+ModsOpenConfig: "[c/CC88AA:右クリック]で設定を開く"
 

@@ -17,21 +17,21 @@ Configs: {
 		}
 
 		DisableConditionsText: {
-			Label: 出現条件のテキストを無効化
+			Label: 出現条件を表示しない
 			Tooltip:
 				'''
-				これを有効にすると、出現条件のテキストが表示されなくなります
-				NPCが出現する可能性を知りたいが、出現条件を知らずに楽しみたい場合に使用してください
+				これをオンにすると、出現条件のテキストが表示されなくなります
+				NPCが出現するかどうかを知りたいが、出現条件を知らずに楽しみたい場合に使用してください
 				'''
 		}
 
 		Headers.DeveloperOptions: "[c/ff0000:開発者向けオプション]"
 
 		DisableAutoLocalization: {
-			Label: 自動ローカライズを無効化
+			Label: 自動翻訳を無効化
 			Tooltip:
 				'''
-				デフォルトでは、Censusは構築中のMODに含まれるNPCの出現条件テキストにローカライズキーを追加します
+				デフォルトでは、Censusは構築中のModに含まれるNPCの出現条件テキストを翻訳します
 				この動作を無効にするにはオンに設定してください
 				'''
 		}
@@ -42,45 +42,85 @@ Next: 次へ
 
 SpawnConditions: {
 	Unknown: 条件不明
-	Guide: ワールド生成時に出現
-	Merchant: インベントリに [i/s50:SilverCoin]を所持
-	Nurse: HP100以上で、商人が到着している
+	Guide: 通常のワールド生成時に出現
+	Merchant: インベントリに[i:72] を50枚所持
+	Nurse: 最大ライフが100より上で、商人がいる
 	Demolitionist: インベントリに爆発物を所持
-	DyeTrader: 染料アイテムを入手し、ボスを倒すか奇妙な植物を見つける
-	Angler: 海で発見
-	BestiaryGirl: 図鑑を10%を埋める
-	Dryad:
+	DyeTrader:
 		'''
-		クトゥルフの目、イーターオブワールド、
-		クトゥルフの脳、またはスケルトロンを撃破後
+		インベントリに染料の素材か奇妙な植物を所持し、
+		タウンNPCが4人以上いる
 		'''
-	Painter: 町に8人の住民がいる時
-	Golfer: 地下砂漠で発見
-	ArmsDealer: インベントリに銃弾または銃を所持
-	DD2Bartender: イーターオブワールドまたはクトゥルフの脳を撃破後、ワールドで発見
-	Stylist: Find クモの住処で発見
-	GoblinTinkerer: ゴブリン襲撃を撃退後、ワールドで発見
-	WitchDoctor: 女王蜂を撃破後
-	Clothier: スケルトロンを撃破後
-	Mechanic: ダンジョンで発見
-	PartyGirl: 町に14人の住民がいる時
-	Wizard: ハードモードの地下層で発見
-	TaxCollector: ハードモードで、地底世界で苛まれた霊に{$ItemName.PurificationPowder} [i:PurificationPowder]を使用
+	Angler: 海に出現し、寝ているところを話しかける
+	BestiaryGirl: 図鑑を10%以上埋める
+	Dryad: いずれかのボスを一度でも倒す
+	Painter: タウンNPCが8人以上いる
+	Golfer: 地下砂漠に出現し、話しかける
+	ArmsDealer: インベントリに弾丸か銃を所持
+	DD2Bartender:
+		'''
+		イーターオブワールドかクトゥルフの脳を倒した後、
+		地上と地下に出現し、倒れているところを話しかける
+		'''
+	Stylist: 蜘蛛の洞窟に出現し、縛られているところを話しかける
+	GoblinTinkerer:
+		'''
+		ゴブリン軍団を撃退後、洞窟に出現し、
+		縛られているところを話しかける
+		'''
+	WitchDoctor: 女王蜂を倒した後
+	Clothier: スケルトロンを倒した後
+	Mechanic:
+		'''
+		ダンジョンに出現し、
+		縛られているところを話しかける
+		'''
+	PartyGirl: タウンNPCが14人以上いる
+	Wizard:
+		'''
+		ハードモードの洞窟かダンジョンに出現し、
+		縛られているところを話しかける
+		'''
+	TaxCollector: 
+		'''
+		ハードモードの地底世界に出現する、
+		苛まれた霊に[i:PurificationPowder] {$ItemName.PurificationPowder}を使う
+		'''
 	Truffle: ハードモードで、地上のキノコバイオームに家を建てる
-	Pirate: 海賊襲撃を撃退した後
-	Steampunker: メカニカルボスを撃破後
-	Cyborg: プランテラを撃破後
-	SantaClaus: フロストレギオンを撃退後、12月15日から31日までの間のみ
-	Princess: 町に全ての住民がいる時
-	TownCat: 動物学者から購入できる{$ItemName.LicenseCat} [i:LicenseCat]を使用
-	TownDog: 動物学者から購入できる{$ItemName.LicenseDog} [i:LicenseDog]を使用
-	TownBunny: 動物学者から購入できる{$ItemName.LicenseBunny} [i:LicenseBunny]を使用
-	TownSlimeBlue: キングスライムを撃破後
-	TownSlimeGreen: 自然発生するパーティーの時
-	TownSlimeOld: スケルトロンを撃破後、洞窟層の古びた揺れる宝箱に{$ItemName.GoldenKey} [i:GoldenKey]を使って解錠
-	TownSlimePurple: 宇宙層で不器用な風船スライムの風船を攻撃して割る
-	TownSlimeRainbow: "{$ItemName.GelBalloon} [i:GelBalloon]をシマーに落とす"
+	Pirate: 海賊を撃退した後
+	Steampunker: いずれかのメカニカルボスを一度でも倒す
+	Cyborg: プランテラを倒した後
+	SantaClaus:
+		'''
+		フロストレギオンを撃退した後、12月15日から31日までの間か、
+		フロストムーンでウェーブ15に到達するとゲーム内で1日間のみ出現
+		'''
+	Princess: サンタクロースとタウンペット以外のバニラのタウンNPCが全員いる
+	TownCat: 動物学者から購入できる[i:LicenseCat] {$ItemName.LicenseCat}を使う
+	TownDog: 動物学者から購入できる[i:LicenseDog] {$ItemName.LicenseDog}を使う
+	TownBunny: 動物学者から購入できる[i:LicenseBunny] {$ItemName.LicenseBunny}を使う
+	TownSlimeBlue: キングスライムを倒すと出現
+	TownSlimeGreen: 自然に発生したパーティー中に出現
+	TownSlimeOld:
+		'''
+		スケルトロンを倒した後、洞窟に出現する、
+		揺れている古い宝箱に[i:GoldenKey] {$ItemName.GoldenKey}を使う
+		'''
+	TownSlimePurple:
+		'''
+		ワールドの中心から少し離れた宇宙に出現する、
+		不器用な風船スライムの風船を攻撃して割る
+		'''
+	TownSlimeRainbow: "[i:GelBalloon] {$ItemName.GelBalloon}をシマーに投げるかドロップする"
 	TownSlimeRed: ブラッドムーン中に釣り上げる
-	TownSlimeYellow: ジャングルで魔法使いカエルに{$ItemName.PurificationPowder} [i:PurificationPowder]を使用
-	TownSlimeCopper: スライムを{$ItemName.CopperHelmet} [i:CopperHelmet]か{$ItemName.CopperShortsword} [i:CopperShortsword]に触れさせる
+	TownSlimeYellow:
+		'''
+		ジャングルに出現する、
+		魔法使いカエルに[i:PurificationPowder] {$ItemName.PurificationPowder}を使う
+		'''
+	TownSlimeCopper:
+		'''
+		通常のスライムが[i:CopperHelmet] {$ItemName.CopperHelmet}か、
+		[i:CopperShortsword] {$ItemName.CopperShortsword}に触れる
+		'''
 }
