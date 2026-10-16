@@ -3,8 +3,12 @@ Configs: {
 		DisplayName: 表示設定
 
 		HideUnknown: {
-			Label: 不明な音楽を非表示にする
-			Tooltip: この設定がオンの場合、未知の音楽は表示されません。そうでない場合は、音楽名の代わりに「未知の音楽」と表示されます
+			Label: 未知の音楽を非表示にする
+			Tooltip:
+				'''
+				この設定がオンの場合、未知の音楽は表示されません
+				そうでない場合は、音楽名の代わりに「未知の音楽」と表示されます
+				'''
 		}
 
 		Placement: {
@@ -81,6 +85,7 @@ TrackNames: {
 	OtherworldJeffBall: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Jeff Ball
 	OtherworldTinaGuo: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Tina Guo
 	OtherworldFrankKlepacki: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Frank Klepacki
+	DayRemixByLine: by Xenon and DSniper
 	TerrariaName: Terraria
 	OtherworldName: Terraria Otherworld
 	UnknownTrack: (不明な音楽)
@@ -137,8 +142,8 @@ TrackNames: {
 		47: 町 夜
 		48: スライムレイン
 		49: 地上 昼リミックス
-		50: 旅の始まり
-		51: 旅の始まり
+		50: 旅の始まり(メニュー)
+		51: 旅の始まり(メニュー)
 		52: 嵐
 		53: 墓場
 		54: 地下ジャングル
