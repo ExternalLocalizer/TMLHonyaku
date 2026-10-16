@@ -8,15 +8,15 @@ Items: {
 		DisplayName: 偶像
 		Tooltip: 遠征任務で用いられる
 		Unidentified: 未確認
-		CoinsQuantity: 入手するコイン量を増加させる
-		LootQuantity: 入手するアイテム種類を増加させる
-		LootStack: アイテムごとの数量を増加させる
-		RareLoot: レアアイテムの発見率を上昇させる
+		CoinsQuantity: 入手するコイン量が増加する
+		LootQuantity: 入手するアイテムの種類が増える
+		LootStack: アイテムごとの数量が増加する
+		RareLoot: レアアイテムの発見率が上昇する
 		ReduceTime: 遠征時間を短縮する
-		ReduceDifficulty: 遠征難易度を軽減する
-		PlantRarity: 植物の収集率を上昇させる
-		FishingPower: フィッシング・パワーを向上させる
-		PickaxePower: 鉱物採掘の成功率を上昇させる
+		ReduceDifficulty: 遠征難易度が低下する
+		PlantRarity: 植物の収集率が上昇する
+		FishingPower: フィッシング・パワーが上昇する
+		PickaxePower: 鉱物採掘の成功率が上昇する
 		ExtraSlot: インベントリ枠を拡張する
 	}
 
@@ -137,9 +137,9 @@ Items: {
 		DisplayName: 遠征者のパック
 		Tooltip:
 			'''
-			「古びているが頼れるバッグ。」
-			無数の偶像と記録帳を収めてきた。
-			お気に入りにすると自動収納が可能。
+			「古びているが頼れるバッグ」
+			無数の偶像と記録帳を収めてきた
+			お気に入りにすると自動収納ができる
 			'''
 	}
 

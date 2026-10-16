@@ -38,7 +38,7 @@ Items: {
 
 	SilverGun: {
 		DisplayName: 銀の拳銃
-		Tooltip: 「高品質」
+		Tooltip: ""
 	}
 
 	TungstenGun: {
@@ -113,7 +113,7 @@ Items: {
 
 	ShimmerBullet: {
 		DisplayName: シマーの弾丸
-		Tooltip: 地形を無視する
+		Tooltip: 弾速が遅い
 	}
 
 	BunnyBed: {
@@ -128,7 +128,7 @@ Items: {
 
 	ShroomiteHookItem: {
 		DisplayName: シュルーマイトフック
-		Tooltip: ゆっくりと引っ張る
+		Tooltip: 引っ張る速度が遅い
 	}
 
 	FlamingDart: {
@@ -157,7 +157,7 @@ Items: {
 	}
 
 	BunnySink: {
-		DisplayName: ウサギの真紅
+		DisplayName: ウサギのシンク
 		Tooltip: ""
 	}
 
@@ -229,8 +229,9 @@ Items: {
 		DisplayName: クロロファイトの鞭
 		Tooltip:
 			'''
-			召喚タグダメージ 5
+			召喚タグダメージ 8
 			攻撃を当てた敵にミニオンが集中攻撃する
+			毒を与える
 			'''
 	}
 
@@ -323,7 +324,7 @@ Items: {
 		Tooltip:
 			'''
 			インゴットからアイテムを作成できる
-			「機能的には全く同じだが、見た目は全く異なる！」
+			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
 
@@ -331,8 +332,10 @@ Items: {
 		DisplayName: アダマンタイトの金床
 		Tooltip:
 			'''
-			ミスリル、オリハルコン、アダマンタイト、チタンのアイテムを作成できる
-			「機能的には全く同じだが、見た目は全く異なる！」
+			通常の金床から作成できるアイテムに加え、
+			ミスリル・オリハルコン・アダマンタイト・チタンなど、
+			ハードモードの鉱石と素材からアイテムを作成できる
+			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
 
@@ -340,8 +343,10 @@ Items: {
 		DisplayName: チタンの金床
 		Tooltip:
 			'''
-			ミスリル、オリハルコン、アダマンタイト、チタンのアイテムを作成できる
-			「機能的には全く同じだが、見た目は全く異なる！」
+			通常の金床から作成できるアイテムに加え、
+			ミスリル・オリハルコン・アダマンタイト・チタンなど、
+			ハードモードの鉱石と素材からアイテムを作成できる
+			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
 
@@ -351,7 +356,7 @@ Items: {
 	}
 
 	FlaskOfSlime: {
-		Tooltip: 近接攻撃と鞭攻撃にスライムの追加効果を付与
+		Tooltip: 近接攻撃と鞭攻撃でスライムを与える
 		DisplayName: スライムのフラスコ
 	}
 
@@ -395,7 +400,7 @@ Items: {
 	}
 
 	PunchArrow: {
-		DisplayName: パンチアロー
+		DisplayName: ボクシンググローブの矢
 		Tooltip: 「ノックアウト！」
 	}
 
@@ -528,8 +533,10 @@ Items: {
 		DisplayName: クロロファイトの金床
 		Tooltip:
 			'''
-			ミスリル、オリハルコン、アダマンタイト、チタンのアイテムを作成できる
-			「機能的には全く同じだが、見た目は全く異なる！」
+			通常の金床から作成できるアイテムに加え、
+			ミスリル・オリハルコン・アダマンタイト・チタンなど、
+			ハードモードの鉱石と素材からアイテムを作成できる
+			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
 
@@ -539,7 +546,7 @@ Items: {
 	}
 
 	JumpingPotion: {
-		Tooltip: ジャンプ速度が増加
+		Tooltip: ジャンプ速度が上昇
 		DisplayName: 跳躍のポーション
 	}
 
@@ -673,7 +680,7 @@ Items: {
 	ForbiddenWings: {
 		Tooltip:
 			'''
-			空を飛ぶことができ、落下速度が低下
+			飛行と低速落下ができ、落下ダメージを無効化
 			「エジプトのファラオは空から降ってきた！」
 			'''
 		DisplayName: 禁断の翼
@@ -700,13 +707,13 @@ Items: {
 	}
 
 	SpinalWings: {
-		Tooltip: 空を飛ぶことができ、落下速度が低下
+		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
 		DisplayName: 成長した脊椎
 	}
 
 	ShadowWings: {
 		DisplayName: 影の触手
-		Tooltip: 空を飛ぶことができ、落下速度が低下
+		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
 	}
 
 	FossilBow: {
@@ -785,17 +792,17 @@ Items: {
 	}
 
 	WoodenPickaxe: {
-		Tooltip: 表示名: 木のつるはし
+		Tooltip: ""
 		DisplayName: 木のつるはし
 	}
 
 	WoodenAxe: {
-		Tooltip: 表示名: 木の斧
+		Tooltip: ""
 		DisplayName: 木の斧
 	}
 
 	StrengthPotion: {
-		Tooltip: 近接ダメージとノックバックが増加し、近接攻撃速度が上昇
+		Tooltip: 近接攻撃をわずかに強化
 		DisplayName: 筋力強化ポーション
 	}
 
@@ -831,7 +838,7 @@ Items: {
 
 	FrostDart: {
 		DisplayName: 氷のダーツ
-		Tooltip: 敵の移動速度を低下させる
+		Tooltip: 当たった敵の移動速度を低下させる
 	}
 
 	FlaskOfFrost: {
@@ -857,22 +864,17 @@ Items: {
 	SlimeHat: {
 		SetBonus: 落下ダメージを無効化
 		DisplayName: スライムの帽子
-		Tooltip: 移動速度が上昇し、ジャンプ速度が増加
+		Tooltip: 移動速度とジャンプ速度が上昇
 	}
 
 	SlimePants: {
 		DisplayName: スライムのパンツ
-		Tooltip: 移動速度が上昇し、ジャンプ速度が増加
+		Tooltip: 移動速度とジャンプ速度が上昇
 	}
 
 	SlimeShirt: {
 		DisplayName: スライムのシャツ
-		Tooltip: 移動速度が上昇し、ジャンプ速度が増加
-	}
-
-	MinionPowerPotion: {
-		DisplayName: セントリーポーション
-		Tooltip: 召喚できるセントリーの数が1体増える
+		Tooltip: 移動速度とジャンプ速度が上昇
 	}
 
 	CurePotion: {
@@ -930,62 +932,59 @@ Items: {
 	}
 
 	CobaltHood: {
-		SetBonus: 召喚できるミニオンの数が1体増える
+		SetBonus: ミニオンスロットを1つ追加
 		DisplayName: コバルトのフード
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
 			'''
 	}
 
 	AdamantiteVisor: {
-		SetBonus: 召喚できるミニオンの数が1体増える
+		SetBonus: ミニオンスロットを1つ追加
 		DisplayName: アダマンタイトのバイザー
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
 			'''
 	}
 
 	MythrilMask: {
-		SetBonus: 召喚できるミニオンの数が1体増える
+		SetBonus: ミニオンスロットを1つ追加
 		DisplayName: ミスリルの仮面
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増える
 			'''
 	}
 
 	OrichalcumVisor: {
 		SetBonus:
 			'''
-			召喚できるミニオンの数が1体増え、
-			花びらが攻撃した敵にダメージを追加で与える
+			ミニオンスロットを1つ追加
+			花びらが攻撃した敵に追撃する
 			'''
 		DisplayName: オリハルコンのバイザー
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増え、
-			花びらが攻撃した敵にダメージを追加で与える
 			'''
 	}
 
 	PalladiumHat: {
 		SetBonus:
 			'''
-			召喚できるミニオンの数が1体増え、
+			ミニオンスロットを1つ追加
 			敵を攻撃すると、ライフ自然回復を大幅に増進
 			'''
 		DisplayName: パラジウムの帽子
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
 			'''
 	}
@@ -993,13 +992,13 @@ Items: {
 	TitaniumHood: {
 		SetBonus:
 			'''
-			召喚できるミニオンの数が1体増え、
-			攻撃を当てると、チタンの欠片の防護を生成
+			ミニオンスロットを1つ追加
+			攻撃を当てるとチタンの欠片を生成し、身を守る
 			'''
 		DisplayName: チタンのフード
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが10%増加
 			'''
 	}
@@ -1008,7 +1007,7 @@ Items: {
 		DisplayName: 鞭強化ポーション
 		Tooltip:
 			'''
-			鞭の攻撃範囲とダメージが10%増加
+			鞭の射程が10%伸び、鞭の攻撃速度が10%上昇
 			「しっかり混ぜて！」
 			'''
 	}
@@ -1084,7 +1083,7 @@ Items: {
 
 	MagicThread: {
 		DisplayName: 魔法の糸巻き
-		Tooltip: 鞭の攻撃範囲が15%増加
+		Tooltip: 鞭の射程が15%伸びる
 	}
 
 	Telescope: {
@@ -1094,7 +1093,7 @@ Items: {
 
 	GentlePotion: {
 		DisplayName: 温和のポーション
-		Tooltip: ノックバックを軽減する
+		Tooltip: 攻撃のノックバックが減少し、クリティカル率が低下
 	}
 
 	BottledLava: {
@@ -1123,23 +1122,13 @@ Items: {
 	}
 
 	DexterityCybernetic: {
-		DisplayName: デクダクティリネーター
-		Tooltip:
-			'''
-			近接攻撃速度と遠距離攻撃速度が20%上昇するが、
-			近接と遠距離ダメージが20%減少
-			'''
+		DisplayName: オートローダー
+		Tooltip: 遠距離攻撃速度が12%上昇
 	}
 
 	FocusCrystal: {
-		DisplayName: 集中のクリスタル
-		Tooltip:
-			'''
-			魔法と召喚ダメージが20%増加
-			魔法攻撃速度と鞭の攻撃速度が20%低下し、
-			最大マナが10減少
-			召喚できるミニオンの数が1体増える
-			'''
+		DisplayName: 星の籠手
+		Tooltip: 魔法攻撃速度が12%上昇
 	}
 
 	CoinBanner: {
@@ -1309,13 +1298,13 @@ Items: {
 	}
 
 	Heartstone: {
-		Tooltip: 永久に最大ライフを20増加
+		Tooltip: 永久に最大ライフが20増加
 		DisplayName: ハートストーン
 	}
 
 	Starheart: {
 		DisplayName: スターハート
-		Tooltip: 永久に最大ライフとマナを20増加
+		Tooltip: 永久に最大ライフとマナが20増加
 	}
 
 	VultureStatue: {
@@ -1365,7 +1354,7 @@ Items: {
 
 	MartianRemote: {
 		Tooltip: 火星の侵攻を発生させる
-		DisplayName: 遭難した火星のビーコン
+		DisplayName: 急ごしらえのプローブ
 	}
 
 	MothFish: {
@@ -1400,7 +1389,7 @@ Items: {
 	}
 
 	RuneConfusion: {
-		DisplayName: 眩惑のルーン
+		DisplayName: ナノのルーン
 		Tooltip: 魔法攻撃で攻撃した敵を混乱させる
 	}
 
@@ -1421,7 +1410,7 @@ Items: {
 
 	RuneMidas: {
 		DisplayName: 金のルーン
-		Tooltip: 魔法攻撃で倒した敵が落とすお金が増加
+		Tooltip: 魔法攻撃で強欲を与え、敵がドロップするコインが増加
 	}
 
 	RunePoison: {
@@ -1446,7 +1435,7 @@ Items: {
 
 	DemoniteStaff: {
 		Tooltip: ""
-		DisplayName: シャドウキャスト
+		DisplayName: プレイグベアラー
 	}
 
 	CrimtaneStaff: {
@@ -1455,7 +1444,11 @@ Items: {
 	}
 
 	VortexCannon: {
-		Tooltip: 33%の確率でロケットを消費しない
+		Tooltip:
+			'''
+			33%の確率でロケットを消費しない
+			<right>でズームアウト
+			'''
 		DisplayName: ボルテックスキャノン
 	}
 
@@ -1465,7 +1458,7 @@ Items: {
 	}
 
 	Drillsaw: {
-		Tooltip: リザードのレンガの採掘が可能
+		Tooltip: リザードのレンガを採掘できる
 		DisplayName: ドリルソー
 	}
 
@@ -1500,11 +1493,12 @@ Items: {
 			無限飛行、超高速走行、氷の上で滑らない
 			飛行と空中での機動力を強化
 			移動速度が大きく上昇し、液体の上を歩ける
-			シマーを無効化し、落下、炎のブロック、溶岩によるダメージを無効化
-			採掘スピードとブロックと壁の配置速度が50%上昇
+			シマー中を無効化し、落下・燃えるブロック・溶岩のダメージを無効化
+			採掘速度とブロックと壁の配置速度が50%上昇
 			ブロックの配置範囲と道具が届く範囲が5マス広がる
-			アイテムを拾う距離が広がる
-			設置した物に自動的に塗装やコーティングをする
+			アイテムの取得範囲が広がる
+			物を設置した際、ペンキやコーティングを所持しているなら、
+			それを消費して自動で塗ってくれる
 			ワイヤーが見えるようになる
 			ブロック設置時に距離と厚さを測れる
 			'''
@@ -1551,7 +1545,7 @@ Items: {
 	}
 
 	ShimmerRocket: {
-		Tooltip: ""
+		Tooltip: 爆発が起きる。ブロックと壁を破壊しない
 		DisplayName: ロケット弾（シマー）
 	}
 
@@ -1597,18 +1591,18 @@ Items: {
 	}
 
 	SpectreDart: {
-		Tooltip: 敵を貫通し、地形を無視する
-		DisplayName: スペクターのダーツ
+		Tooltip: 敵と地形を貫通する
+		DisplayName: スペクタイトのダーツ
 	}
 
 	SpectreBullet: {
-		Tooltip: 敵を貫通し、地形を無視する
-		DisplayName: スペクター弾
+		Tooltip: 敵と地形を貫通する
+		DisplayName: スペクタイト弾
 	}
 
 	SpectreArrow: {
-		Tooltip: 敵を貫通し、地形を無視する
-		DisplayName: スペクターの矢
+		Tooltip: 敵と地形を貫通する
+		DisplayName: スペクタイトの矢
 	}
 
 	DiamondDust: {
@@ -1617,11 +1611,7 @@ Items: {
 	}
 
 	InfernalGauntlet: {
-		Tooltip:
-			'''
-			炎上耐性
-			触れた敵にヘルファイアを与える
-			'''
+		Tooltip: 触れた敵にヘルファイアを与える
 		DisplayName: 地獄の腕当て
 	}
 
@@ -1638,6 +1628,354 @@ Items: {
 	Corona: {
 		Tooltip: ""
 		DisplayName: コロナ
+	}
+
+	Sorbet: {
+		Tooltip: ""
+		DisplayName: 真っ白なソルベ
+	}
+
+	Chutney: {
+		Tooltip: 「めちゃくちゃ辛い！」
+		DisplayName: 地下世界のチャツネ
+	}
+
+	ShadowflameLantern: {
+		Tooltip:
+			'''
+			セントリーを召喚する
+			内部に入った敵にダメージと、
+			シャドウフレイムを与えるオーラを放つランタンを召喚する
+			'''
+		DisplayName: シャドウフレイムのランタン
+	}
+
+	DisintegrationStaff: {
+		Tooltip: 「分子の分離が、かつてないほど簡単に！」
+		DisplayName: 分解の杖
+	}
+
+	Slimeball: {
+		Tooltip: ""
+		DisplayName: スライムボール
+	}
+
+	Starmaker: {
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を分裂する星で攻撃する星を召喚する
+			'''
+		DisplayName: スターマーカー
+	}
+
+	SentryPotion: {
+		Tooltip: セントリースロットを1つ追加
+		DisplayName: セントリーのポーション
+	}
+
+	MetalPipe: {
+		Tooltip: ""
+		DisplayName: 鉄のパイプ
+	}
+
+	StarreachPotion: {
+		DisplayName: マナスター回収ポーション
+		Tooltip: マナスターの取得範囲が広がる
+	}
+
+	CorruptNightfish: {
+		DisplayName: 不浄のナイトフィッシュ
+		Tooltip: ""
+	}
+
+	WoodenSpear: {
+		Tooltip: ""
+		DisplayName: 木の槍
+	}
+
+	HallowedAnvil: {
+		Tooltip:
+			'''
+			通常の金床から作成できるアイテムに加え、
+			ミスリル・オリハルコン・アダマンタイト・チタンなど、
+			ハードモードの鉱石と素材からアイテムを作成できる
+			「機能は全く同じだが、見た目は全く異なる！」
+			'''
+		DisplayName: 聖なる金床
+	}
+
+	DemoniteAltar: {
+		Tooltip: アルターで作成できるアイテムを作成できる
+		DisplayName: デモナイトの祭壇
+	}
+
+	CrimtaneAltar: {
+		Tooltip: アルターで作成できるアイテムを作成できる
+		DisplayName: クリムタンの祭壇
+	}
+
+	HallowedAltar: {
+		Tooltip: アルターで作成できるアイテムを作成できる
+		DisplayName: 聖なる祭壇
+	}
+
+	MoonlitSea: {
+		Tooltip: 「C.リストロン」
+		DisplayName: 絵画『月明かりの海』
+	}
+
+	LivingRainbowFireBlock: {
+		Tooltip: ""
+		DisplayName: うごめく虹の炎のブロック
+	}
+
+	SpookyBeam: {
+		Tooltip: ""
+		DisplayName: 不気味な木の梁
+	}
+
+	ShadewoodBeam: {
+		Tooltip: ""
+		DisplayName: シェイドウッドの梁
+	}
+
+	PearlwoodBeam: {
+		Tooltip: ""
+		DisplayName: パールウッドの梁
+	}
+
+	PalmBeam: {
+		Tooltip: ""
+		DisplayName: ヤシの木の梁
+	}
+
+	EbonwoodBeam: {
+		Tooltip: ""
+		DisplayName: エボンウッドの梁
+	}
+
+	DynastyBeam: {
+		Tooltip: ""
+		DisplayName: 王朝風の木の梁
+	}
+
+	BambooBeam: {
+		Tooltip: ""
+		DisplayName: 竹の梁
+	}
+
+	AshWoodBeam: {
+		Tooltip: ""
+		DisplayName: アッシュウッドの梁
+	}
+
+	GraniticLeggings: {
+		Tooltip: ""
+		DisplayName: 御影石のすね当て
+	}
+
+	GraniticHelmet: {
+		Tooltip: ""
+		DisplayName: 御影石の兜
+		SetBonus: 被ダメージを5%軽減
+	}
+
+	GraniticBreastplate: {
+		Tooltip: ""
+		DisplayName: 御影石の胸当て
+	}
+
+	LuckySkates: {
+		Tooltip:
+			'''
+			落下ダメージを無効化
+			氷系ブロックで滑らなくなる
+			薄氷の上に落ちても割れない
+			'''
+		DisplayName: 幸運のスケート靴
+	}
+
+	IcyObsidianHorseshoe: {
+		Tooltip:
+			'''
+			落下ダメージを無効化
+			燃えるブロックのダメージを無効化
+			氷系ブロックで滑らなくなる
+			薄氷の上に落ちても割れない
+			'''
+		DisplayName: 氷の黒曜石の蹄鉄
+	}
+
+	IceSkull: {
+		Tooltip:
+			'''
+			燃えるブロックのダメージを無効化
+			氷系ブロックで滑らなくなる
+			薄氷の上に落ちても割れない
+			'''
+		DisplayName: 氷のドクロ
+	}
+
+	BandOfVitality: {
+		Tooltip:
+			'''
+			ライフが徐々に自然回復する
+			最大ライフが20増加
+			'''
+		DisplayName: 生命の腕輪
+	}
+
+	LavaRose: {
+		Tooltip:
+			'''
+			溶岩のダメージを7秒間無効化
+			溶岩のダメージを軽減
+			'''
+		DisplayName: 溶岩のバラ
+	}
+
+	LavaDivingGear: {
+		Tooltip:
+			'''
+			液体内で無限にジャンプでき、息が長く続く
+			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
+			溶岩のダメージを7秒間無効化
+			溶岩のダメージを軽減
+			燃えるブロックのダメージを無効化
+			'''
+		DisplayName: 溶岩の潜水具
+	}
+
+	GruesomeVambrace: {
+		Tooltip:
+			'''
+			敵に狙われやすくなる
+			触れた敵にヘルファイアを与える
+			'''
+		DisplayName: 恐ろしい腕当て
+	}
+
+	LodestoneHeart: {
+		Tooltip:
+			'''
+			最大ライフが20増加
+			ハートの取得範囲が広がる
+			'''
+		DisplayName: 磁石のハート
+	}
+
+	LifeMagnet: {
+		Tooltip: ハートの取得範囲が広がる
+		DisplayName: 生命の磁石
+	}
+
+	AgilityGear: {
+		Tooltip:
+			'''
+			ダッシュが可能
+			横方向入力2回で高速ステップ
+			攻撃を回避することがある
+			'''
+		DisplayName: 迅速の装具
+	}
+
+	DefenderNecklace: {
+		Tooltip:
+			'''
+			ミニオンスロットとセントリースロットを1つ追加
+			ミニオンとセントリーのダメージが5%増加
+			'''
+		DisplayName: ディフェンダーのネックレス
+	}
+
+	BonusLoader: {
+		DisplayName: 魔法のローダー
+		Tooltip:
+			'''
+			遠距離攻撃速度が12%上昇
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	DruidBracer: {
+		DisplayName: 魔法使いの籠手
+		Tooltip:
+			'''
+			魔法攻撃速度が12%上昇
+			マナ消費量が8%減少
+			マナがなくなるとマナポーションを自動的に使用する
+			'''
+	}
+
+	BloodCharm: {
+		DisplayName: 血のお守り
+		Tooltip: 魔法攻撃で敵に流血を与える
+	}
+
+	BloodmageCuffs: {
+		DisplayName: 血の魔法使いのカフス
+		Tooltip:
+			'''
+			最大マナが20増加
+			ダメージを受けると被ダメージに応じてマナが回復する
+			魔法攻撃で敵に流血を与える
+			'''
+	}
+
+	CheatDeathRay: {
+		DisplayName: チートデスレイ
+		Tooltip: ""
+	}
+
+	EndlessBaitBag: {
+		DisplayName: 無限の餌袋
+		Tooltip: ""
+	}
+
+	FrostwalkingBoots: {
+		DisplayName: 氷歩きのブーツ
+		Tooltip:
+			'''
+			水・蜂蜜・シマーの上を歩行できる
+			氷系ブロックで滑らなくなる
+			薄氷の上に落ちても割れない
+			'''
+	}
+
+	MagicDivingGear: {
+		DisplayName: 魔法の潜水具
+		Tooltip:
+			'''
+			水・溶岩・蜂蜜・シマーの上を歩行できる
+			液体内で無限にジャンプでき、息が長く続く
+			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
+			溶岩のダメージを7秒間無効化
+			溶岩のダメージを軽減
+			燃えるブロックのダメージを無効化し、シマーに入ってもシマー中を受けない
+			'''
+	}
+
+	TechnoBracer: {
+		DisplayName: テクノブレイサー
+		Tooltip:
+			'''
+			魔法攻撃速度が12%上昇
+			マナ消費量が8%減少
+			マナがなくなるとマナポーションを自動的に使用する
+			マナスターの取得範囲が広がる
+			'''
+	}
+
+	PowerLoader: {
+		DisplayName: 極めて違法な銃のパーツ
+		Tooltip:
+			'''
+			遠距離武器のノックバックが増加
+			遠距離ダメージが12%増加し、遠距離攻撃速度が12%上昇
+			20%の確率で弾薬を消費しない
+			「あらゆる国で禁止されている」
+			'''
 	}
 }
 
@@ -1727,20 +2065,27 @@ Projectiles: {
 	CrimtaneStaffProjectile.DisplayName: クリムタンの杖
 	HallowedJackhammerProjectile.DisplayName: フラックハンマー
 	DrillsawProjectile.DisplayName: ドリルソー
-	AberratorProjectile.DisplayName: Aberrator Projectile
-	IchorFlareProjectile.DisplayName: Ichor Flare Projectile
-	UltrabrightFlareProjectile.DisplayName: Ultrabright Flare Projectile
-	NanoDartProjectile.DisplayName: Nano Dart Projectile
-	LuminiteSnowmanRocketProjectile.DisplayName: Luminite Snowman Rocket Projectile
-	LuminiteRocketProjectile.DisplayName: Luminite Rocket Projectile
-	LuminiteProximityMineProjectile.DisplayName: Luminite Proximity Mine Projectile
-	LuminiteGrenadeProjectile.DisplayName: Luminite Grenade Projectile
-	LuminiteFlareProjectile.DisplayName: Luminite Flare Projectile
-	SpectreDartProjectile.DisplayName: Spectre Dart Projectile
-	SpectreBulletProjectile.DisplayName: Spectre Bullet Projectile
-	SpectreArrowProjectile.DisplayName: Spectre Arrow Projectile
-	CoronaProjectile.DisplayName: Corona Projectile
-	SolarGreatswordEnergy.DisplayName: Solar Greatsword Energy
+	AberratorProjectile.DisplayName: アベレーター
+	IchorFlareProjectile.DisplayName: 照明弾（霊液）
+	UltrabrightFlareProjectile.DisplayName: 明るい照明弾
+	NanoDartProjectile.DisplayName: ナノダーツ
+	LuminiteSnowmanRocketProjectile.DisplayName: ルミナイトのスノーマンロケット
+	LuminiteRocketProjectile.DisplayName: ルミナイトのロケット
+	LuminiteProximityMineProjectile.DisplayName: ルミナイトの感知地雷
+	LuminiteGrenadeProjectile.DisplayName: ルミナイトのグレネード
+	LuminiteFlareProjectile.DisplayName: 照明弾（ルミナイト）
+	SpectreDartProjectile.DisplayName: スペクタイトのダーツ
+	SpectreBulletProjectile.DisplayName: スペクタイト弾
+	SpectreArrowProjectile.DisplayName: スペクタイトの矢
+	CoronaProjectile.DisplayName: コロナ
+	SolarGreatswordEnergy.DisplayName: ソーラーグレートソードのエネルギー
+	ShadowflameLanternSentry.DisplayName: シャドウフレイムのランタン
+	DisintegrationStaffProjectile.DisplayName: 分解の杖
+	SlimeballProjectile.DisplayName: スライムボール
+	StarmakerShotSmall.DisplayName: スターマーカーの星
+	StarmakerShotBig.DisplayName: スターマーカーの星
+	StarmakerSentry.DisplayName: スターマーカー
+	WoodenSpearProjectile.DisplayName: 木の槍
 }
 
 Tiles: {
@@ -1781,6 +2126,10 @@ Tiles: {
 	MantleCrate.MapEntry: 岩石の木箱
 	MushroomCrate.MapEntry: キノコの箱
 	MyceliumCrate.MapEntry: 菌糸の箱
+	CrimtaneAltar.MapEntry: クリムタンの祭壇
+	DemoniteAltar.MapEntry: デモナイトの祭壇
+	HallowedAnvil.MapEntry: 聖なる金床
+	HallowedAltar.MapEntry: 聖なる祭壇
 }
 
 Buffs: {
@@ -1790,7 +2139,7 @@ Buffs: {
 	}
 
 	WeaponImbueSlime: {
-		Description: 近接攻撃にスライムの追加効果を付与
+		Description: 近接攻撃と鞭でスライムを与える
 		DisplayName: スライム付与
 	}
 
@@ -1800,7 +2149,7 @@ Buffs: {
 	}
 
 	JumpingBuff: {
-		Description: ジャンプ速度が増加
+		Description: ジャンプ速度が上昇
 		DisplayName: 跳躍
 	}
 
@@ -1825,7 +2174,7 @@ Buffs: {
 	}
 
 	StrengthBuff: {
-		Description: 近接ダメージとノックバックが増加し、近接攻撃速度が上昇
+		Description: 近接攻撃を強化
 		DisplayName: 筋力強化
 	}
 
@@ -1837,11 +2186,6 @@ Buffs: {
 	WeaponImbueFrost: {
 		DisplayName: 凍え付与
 		Description: 近接攻撃で敵の移動速度を低下させる
-	}
-
-	MinionPowerBuff: {
-		DisplayName: セントリー
-		Description: 召喚できるセントリーの数が1体増える
 	}
 
 	CureBuff: {
@@ -1866,12 +2210,12 @@ Buffs: {
 
 	WhippingBuff: {
 		DisplayName: 鞭強化
-		Description: 鞭の攻撃範囲とダメージが10%増加
+		Description: 鞭の射程が10%伸び、鞭の攻撃速度が10%上昇
 	}
 
 	GentleBuff: {
 		DisplayName: 温和
-		Description: ノックバックを軽減する
+		Description: ノックバックを減少し、クリティカル率が低下
 	}
 
 	ActionBuff: {
@@ -1890,7 +2234,7 @@ Buffs: {
 	}
 
 	MagicImbueConfusion: {
-		DisplayName: 混乱魔法付与
+		DisplayName: ナノ魔法付与
 		Description: 魔法攻撃で攻撃した敵を混乱させる
 	}
 
@@ -1911,7 +2255,7 @@ Buffs: {
 
 	MagicImbueMidas: {
 		DisplayName: 金増加魔法付与
-		Description: 魔法攻撃で倒した敵が落とすお金が増加
+		Description: 魔法攻撃で強欲を与え、ドロップするコインが増加
 	}
 
 	MagicImbuePoison: {
@@ -1923,6 +2267,107 @@ Buffs: {
 		DisplayName: スライム魔法付与
 		Description: 魔法攻撃で攻撃した敵にスライムを与える
 	}
+
+	SentryBuff: {
+		Description: セントリースロットを1つ追加
+		DisplayName: セントリー
+	}
+
+	MinionPowerBuff: {
+		Description: Mods.ExcessEquipment.Buffs.MinionPowerBuff.Description
+		DisplayName: ミニオンの力
+	}
+
+	StarreachBuff: {
+		Description: マナスターの取得範囲が広がる
+		DisplayName: マナスター回収
+	}
 }
 
 FishingPlayer.Wrong: Mods.ExcessEquipment.FishingPlayer.Wrong
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		RecipesForVanillaItems: {
+			Label: バニラのアイテムのレシピを追加
+			Tooltip:
+				'''
+				オンにするとバニラのアイテムを素材として使う、
+				バニラのアイテムのレシピを追加します
+				'''
+		}
+
+		VanillaEnemiesDropVanillaItems: {
+			Label: バニラの敵がバニラのアイテムをドロップする
+			Tooltip:
+				'''
+				オンにするとバニラの敵がドロップする、
+				バニラのアイテムの種類が増えます
+				'''
+		}
+
+		VanillaCratesDropVanillaItems: {
+			Label: バニラの箱にバニラのアイテムを追加
+			Tooltip:
+				'''
+				オンにするとバニラの箱から入手できる、
+				バニラのアイテムの種類が増えます
+				'''
+		}
+
+		NewWorldGeneration: {
+			Label: ワールドに追加の石像を生成する
+			Tooltip:
+				'''
+				オンにするとワールドにこのModで追加される、
+				石像が生成されるようになります
+				'''
+		}
+
+		NewModifiers: {
+			Label: 接頭辞を追加
+			Tooltip: オンにすると接頭辞が追加されます
+		}
+
+		VanillaBuffChanges: {
+			Label: バニラのバフを変更
+			Tooltip:
+				'''
+				オンにするとバニラの流血と凍えを敵に与えることができるようになります
+				これがオフだと、凍え関連のアイテムが機能しなくなりますが、
+				ゲームの進行には支障をきたしません
+				'''
+		}
+
+		MeleeSpeedModifiersAffectRangedAndMagic: {
+			Label: 近接攻撃速度の接頭辞が遠距離と魔法にも有効
+			Tooltip:
+				'''
+				オンにするとアクセサリに付く荒々しい・向こう見ずの・恐れ知らずの・乱暴者の接頭辞が、
+				近接武器だけでなく、遠距離武器と魔法武器にも影響するようになります
+				ツールチップには反映されません！
+				'''
+		}
+	}
+}
+
+Prefixes: {
+	Vital: {
+		AdditionalTooltip: 最大ライフ +10
+		DisplayName: 生命の
+	}
+
+	Bouncy: {
+		AdditionalTooltip: ジャンプ速度 +5
+		DisplayName: 弾む
+	}
+
+	Luring: {
+		AdditionalTooltip: フィッシング・パワー +4
+		DisplayName: 釣りの
+	}
+
+	WildChange.DisplayName: 荒々しいの変更
+}

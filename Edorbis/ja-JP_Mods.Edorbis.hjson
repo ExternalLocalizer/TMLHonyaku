@@ -162,7 +162,7 @@ Buffs: {
 		Description:
 			'''
 			ジャングルのドローンが敵を攻撃する
-			ジャングルでは毒に耐性を得る
+			ジャングルでは毒を無効化する
 			'''
 	}
 
@@ -409,7 +409,7 @@ Buffs: {
 
 	ThermalDisengagement: {
 		DisplayName: テルミットの離脱
-		Description: ほとんどの防御ステータスが強化
+		Description: ほとんどの防御能力が強化
 	}
 
 	ArmorSetCooldown: {
@@ -506,17 +506,17 @@ Buffs: {
 Items: {
 	BandOfSummoning: {
 		DisplayName: 召喚師の腕輪
-		Tooltip: 召喚できるセントリーの数が1体増える
+		Tooltip: セントリースロットを1つ追加
 	}
 
 	CentaurianWings: {
 		DisplayName: ケンタウリウムの翼
-		Tooltip: 空を飛ぶことができ、落下速度が低下
+		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
 	}
 
 	CentauriumNecklace: {
 		DisplayName: ケンタウリウムのネックレス
-		Tooltip: 放射線耐性
+		Tooltip: 放射線を無効化
 	}
 
 	CursedStone: {
@@ -524,7 +524,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃した敵に呪炎を与える
-			呪炎耐性
+			呪炎を無効化
 			'''
 	}
 
@@ -580,7 +580,7 @@ Items: {
 		Tooltip:
 			'''
 			無敵時間中はライフ自然回復を大幅に増進
-			呪炎耐性
+			呪炎を無効化
 			攻撃者に呪炎を与える
 			'''
 	}
@@ -591,7 +591,7 @@ Items: {
 			'''
 			毎秒ライフが2回復する
 			この回復は自然回復増進の影響は受けない
-			ライフが満タンでダメージが10%増加
+			ライフが最大でダメージが10%増加
 			'''
 	}
 
@@ -619,7 +619,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃した敵に凍傷を与える
-			霜焼け耐性
+			霜焼けを無効化
 			'''
 	}
 
@@ -656,7 +656,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃した敵に全ての炎のデバフを与える
-			炎のデバフ耐性
+			全ての炎のデバフを無効化
 			'''
 	}
 
@@ -670,7 +670,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃した敵にシャドウフレイムを与える
-			シャドウフレイム耐性
+			シャドウフレイムを無効化
 			'''
 	}
 
@@ -678,7 +678,7 @@ Items: {
 		DisplayName: ナイトウッドの人形
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増えるが、
+			セントリースロットを1つ追加するが、
 			召喚ダメージが20%減少
 			「質より量」
 			'''
@@ -783,7 +783,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが12%増加
-			召喚できるミニオンの数が2体増える
+			セントリースロットを2つ追加
 			'''
 	}
 
@@ -1077,7 +1077,7 @@ Items: {
 
 	NightwoodBreastplate: {
 		DisplayName: ナイトウッドの胸当て
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	NightwoodGreaves: {
@@ -1298,42 +1298,42 @@ Items: {
 
 	AndroidGoblinBanner: {
 		DisplayName: アンドロイドゴブリンのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：アンドロイドゴブリン
+		Tooltip: "{$CommonItemTooltip.BannerBonus}アンドロイドゴブリン"
 	}
 
 	AnglerZombieBanner: {
 		DisplayName: 釣り人ゾンビのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：釣り人ゾンビ
+		Tooltip: "{$CommonItemTooltip.BannerBonus}釣り人ゾンビ"
 	}
 
 	BloodNimbusBanner: {
 		DisplayName: ブラッドニンバスのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ブラッドニンバス
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ブラッドニンバス"
 	}
 
 	CentaurionBanner: {
 		DisplayName: ケンタウリオンのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ケンタウリオン
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ケンタウリオン"
 	}
 
 	CentauriumCoreBanner: {
 		DisplayName: ケンタウリウムコアのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ケンタウリウムコア
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ケンタウリウムコア"
 	}
 
 	DarkZombieBanner: {
 		DisplayName: 闇のゾンビのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：闇のゾンビ
+		Tooltip: "{$CommonItemTooltip.BannerBonus}闇のゾンビ"
 	}
 
 	EngineerSkeletonBanner: {
 		DisplayName: 技師スケルトンのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：技師スケルトン
+		Tooltip: "{$CommonItemTooltip.BannerBonus}技師スケルトン"
 	}
 
 	GoblinKnightBanner: {
 		DisplayName: ゴブリンナイトのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ゴブリンナイト
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ゴブリンナイト"
 	}
 
 	CentauriumReactor: {
@@ -1484,7 +1484,7 @@ Items: {
 		Tooltip:
 			'''
 			ハードモード前は最大エネルギーが25増加
-			ハードモードでは最大エネルギーが50増加
+			ハードモードでは増加量が2倍になる
 			'''
 	}
 
@@ -1780,7 +1780,7 @@ Items: {
 			レーザーを発射して攻撃するエネルギードラゴンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: エネルギー回復が1増加するごとにダメージが10%増加する]
+			[c/00FF00:特殊能力: エネルギー回復量が1増加するごとにダメージが10%増加する]
 			'''
 	}
 
@@ -1827,7 +1827,7 @@ Items: {
 			毒のトゲを発射して攻撃するジャングルのドローンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: ジャングルではトゲを追加で2本発射し、毒に耐性を得る]
+			[c/00FF00:特殊能力: ジャングルではトゲを追加で2本発射し、毒を無効化]
 			'''
 	}
 
@@ -1998,7 +1998,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中は攻撃速度が8%上昇
+			装備中は攻撃速度が8%上昇
 			'''
 	}
 
@@ -2028,7 +2028,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中はエネルギーの秒間回復量が1増加
+			装備中はエネルギーの秒間回復量が1増加
 			'''
 	}
 
@@ -2048,7 +2048,7 @@ Items: {
 			'''
 			特定のドローンで射撃ができる
 			右クリックで攻撃モードを変更する
-			選択中は攻撃速度が12%上昇
+			装備中は攻撃速度が12%上昇
 			'''
 	}
 
@@ -2227,7 +2227,7 @@ Items: {
 
 	NecromancerBook: {
 		DisplayName: ネクロマンサーの本
-		Tooltip: シャドウフレイム、呪炎、霊液の触手を召喚する
+		Tooltip: シャドウフレイム・呪炎・霊液の触手を召喚する
 	}
 
 	SporeStaff: {
@@ -2459,7 +2459,7 @@ Items: {
 
 	ThiefKnife: {
 		DisplayName: 盗賊のナイフ
-		Tooltip: 敵のドロップする金額が増加
+		Tooltip: 敵がドロップするコインが増加
 	}
 
 	KelviniteArrow: {
@@ -2850,7 +2850,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが15%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -2916,14 +2916,14 @@ Items: {
 		DisplayName: 浄化された人形
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			不浄か真紅にいると、召喚ダメージが10%増加
 			'''
 	}
 
 	CavernBlobBanner: {
 		DisplayName: 洞窟のブロブのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：洞窟のブロブ
+		Tooltip: "{$CommonItemTooltip.BannerBonus}洞窟のブロブ"
 	}
 
 	BlobTentacles: {
@@ -2938,7 +2938,7 @@ Items: {
 
 	StickyArrow: {
 		DisplayName: 粘着の矢
-		Tooltip: 敵に張り付く
+		Tooltip: 敵に貼り付く
 	}
 
 	TestWrench: {
@@ -2976,7 +2976,7 @@ Items: {
 
 	NightwoodTotemBanner: {
 		DisplayName: ナイトウッドトーテムのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ナイトウッドトーテム
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ナイトウッドトーテム"
 	}
 
 	LihzahrdWrench: {
@@ -3275,7 +3275,7 @@ Items: {
 		Tooltip:
 			'''
 			プレイヤーが左右に移動していないとき、いくつかの効果を得る
-			ノックバックに耐性、防御力が3増加、近接ダメージが8%増加などの効果がある
+			ノックバック無効化、防御力が3増加、近接ダメージが8%増加などの効果がある
 			'''
 	}
 
@@ -3331,7 +3331,7 @@ Items: {
 
 	FallenStarEaterBanner: {
 		DisplayName: 流れ星喰いのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：流れ星喰い
+		Tooltip: "{$CommonItemTooltip.BannerBonus}流れ星喰い"
 	}
 
 	BouncingStar: {
@@ -3341,7 +3341,7 @@ Items: {
 
 	MeteorPickaxe: {
 		DisplayName: 隕石のつるはし
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	NightsClaws: {
@@ -3443,7 +3443,7 @@ ArmorSets: {
 		'''
 	ThermiteSummonerMask:
 		'''
-		召喚できるミニオンの数が2体増える
+		ミニオンスロットを2つ追加
 		炎上か霜焼けを受けている敵に対してダメージが15%増加
 		防具の能力キーで、大爆発が起き、
 		生存率が短時間上昇し、ライフが50回復する
@@ -3464,7 +3464,7 @@ ArmorSets: {
 		防具の能力キーで、エネルギーを20消費して、
 		15秒間、ゴブリンタレットを出現させる
 		'''
-	Hunter: 凍えや凍結に耐性
+	Hunter: 凍えと凍結を無効化
 	Goblin: 
 		'''
 		ダメージを受けるとバーサーカーレイジが発動し、近接ステータスが上昇する
@@ -3479,12 +3479,12 @@ ArmorSets: {
 		'''
 	KelviniteHelmet:
 		'''
-		霜焼け耐性
+		霜焼けを無効化
 		ケルビナイトのプローブが敵を追尾する弾丸を撃つ
 		'''
 	KelviniteMask:
 		'''
-		霜焼け耐性
+		霜焼けを無効化
 		ケルビナイトのプローブが敵か地形に当たると爆発する弾丸を撃つ
 		'''
 	AtlantiumWarriorHelmet:
@@ -3504,7 +3504,7 @@ ArmorSets: {
 		'''
 	AtlantiumSummonerCrown:
 		'''
-		召喚できるセントリーが1体増える
+		セントリースロットを1つ追加
 		ダメージを受けるとアトランティウムの破片を生成する
 		'''
 	AtlantiumEngineerHelmet:
@@ -3515,7 +3515,7 @@ ArmorSets: {
 		'''
 	AtlantiumHemomancerMask:
 		'''
-		回復ポーションの再使用時間を15%短縮させる
+		ライフ回復アイテムの再使用時間が15%短縮される
 		ダメージを受けるとアトランティウムの破片を生成する
 		'''
 	NeoCobalt: コバルトドラゴンのレーザーが消滅時に破片をばら撒く
@@ -3533,7 +3533,7 @@ ArmorSets: {
 	Centaurium:
 		'''
 		ライフが100未満になると防御モードになる
-		照射耐性
+		照射を無効化
 		'''
 }
 
