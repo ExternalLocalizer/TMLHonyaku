@@ -3,7 +3,7 @@ ClientCheck: ホストのみがサーバーオプションを編集できます�
 Configs: {
 	ToolData: {
 		Enabled: {
-			Tooltip: 最初のツールを交換します
+			Tooltip: 最初の道具を交換します
 			Label: 有効化
 		}
 
@@ -18,7 +18,7 @@ Configs: {
 		}
 
 		SelectedItem: {
-			Tooltip: 最初のツールと交換されるアイテム
+			Tooltip: 最初の道具と交換されるアイテム
 			Label: 交換アイテム
 		}
 
@@ -68,7 +68,7 @@ Configs: {
 		}
 
 		EnableAccs: {
-			Tooltip: 実際にこれらのアクセサリーをスポーン／装備するかどうか
+			Tooltip: 実際にこれらのアクセサリーをスポーン/装備するかどうか
 			Label: 有効化
 		}
 
@@ -85,7 +85,7 @@ Configs: {
 		}
 
 		EnableEquips: {
-			Tooltip: 実際にこの装備をスポーン／装備するかどうか
+			Tooltip: 実際にこの装備をスポーン/装備するかどうか
 			Label: 有効化
 		}
 
@@ -127,7 +127,7 @@ Configs: {
 		}
 
 		EnableVanity: {
-			Tooltip: 実際にこの衣装装備をスポーン／装備するかどうか
+			Tooltip: 実際にこの衣装装備をスポーン/装備するかどうか
 			Label: 有効化
 		}
 
@@ -159,7 +159,7 @@ Configs: {
 		}
 
 		EnableArmor: {
-			Tooltip: 実際にこの防具をスポーン／装備するかどうか
+			Tooltip: 実際にこの防具をスポーン/装備するかどうか
 			Label: 有効化
 		}
 
@@ -201,7 +201,7 @@ Configs: {
 		}
 
 		Pickaxe: {
-			Tooltip: インベントリ内の最初のツルハシを置き換えます
+			Tooltip: インベントリ内の最初のつるはしを置き換えます
 			Label: ツルハシ [i:3509]
 		}
 
@@ -393,7 +393,7 @@ Configs: {
 		DemonHeart: {
 			Tooltip:
 				'''
-				アクセサリスロットを1つ永続的に増加させます
+				アクセサリスロットを1つ永続的に追加します
 				（エキスパート/マスター/レジェンダリー世界のみ）
 				'''
 			Label: デーモンハート [i:3335]
@@ -405,37 +405,37 @@ Configs: {
 		}
 
 		GalaxyPearl: {
-			Tooltip: 幸運度を永続的に上昇させます
+			Tooltip: 運を永続的に増加させます
 			Label: ギャラクシーパール [i:5340]
 		}
 
 		GummyWorm: {
-			Tooltip: 釣りスキルを永続的に向上させます
+			Tooltip: フィッシング・パワーを永久に上昇させます
 			Label: グミワーム [i:5341]
 		}
 
 		Ambrosia: {
-			Tooltip: 採掘速度と建築速度を永続的に向上させます
+			Tooltip: 採掘速度と配置速度を永久に上昇させます
 			Label: アンブロシア [i:5342]
 		}
 
 		ArcaneCrystal: {
-			Tooltip: マナ回復速度を永続的に強化します
+			Tooltip: マナ自然回復速度を永久に上昇させます
 			Label: アーケインクリスタル [i:5339]
 		}
 
 		AegisFruit: {
-			Tooltip: 防御力を永続的に上昇させます
+			Tooltip: 防御力を永久に増加させます
 			Label: イージスフルーツ [i:5338]
 		}
 
 		VitalCrystal: {
-			Tooltip: ライフ回復速度を永続的に強化します
+			Tooltip: ライフ自然回復速度を永久に上昇させます
 			Label: バイタルクリスタル [i:5337]
 		}
 
 		ArtisanLoaf: {
-			Tooltip: 作業台の使用範囲を永続的に広げます
+			Tooltip: 作業台の使用範囲を永久に広げます
 			Label: 手作のパン [i:5326]
 		}
 
@@ -513,7 +513,7 @@ Configs: {
 			MaxStats: ライフとマナ
 		}
 
-		Tooltip: プレイヤーの最大ライフ、マナ、コインなどを変更します
+		Tooltip: プレイヤーの最大ライフ・マナ・コインなどを変更します
 		Label: プレイヤー設定
 	}
 
@@ -582,7 +582,7 @@ Configs: {
 		toolSettings: {
 			Tooltip:
 				'''
-				初期装備の剣、ツルハシ、斧を他のアイテムに置き換えます
+				初期装備の剣・つるはし・斧を他のアイテムに置き換えます
 				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
 				'''
 			Label: ツール設定
@@ -599,7 +599,7 @@ Configs: {
 		}
 
 		playerSettings: {
-			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更
+			Tooltip: キャラクターの最大ライフ・マナ・コインなどを変更
 			Label: プレイヤー設定
 		}
 
@@ -639,7 +639,7 @@ Configs: {
 		toolSettings: {
 			Tooltip:
 				'''
-				初期装備の剣、ツルハシ、斧を他のアイテムに置き換え可能です
+				初期装備の剣・つるはし・斧を他のアイテムに置き換え可能です
 				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
 				'''
 			Label: ツール設定
@@ -656,7 +656,7 @@ Configs: {
 		}
 
 		playerSettings: {
-			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更します
+			Tooltip: キャラクターの最大ライフ・マナ・コインなどを変更します
 			Label: プレイヤー設定
 		}
 
@@ -738,7 +738,7 @@ Configs: {
 		toolSettings: {
 			Tooltip:
 				'''
-				初期装備の剣、ツルハシ、斧を他のアイテムに置き換え可能です
+				初期装備の剣・つるはし・斧を他のアイテムに置き換え可能です
 				（他のModで初期装備を編集している場合、正しく動作しないことがあります）
 				'''
 			Label: ツール設定
@@ -755,7 +755,7 @@ Configs: {
 		}
 
 		playerSettings: {
-			Tooltip: キャラクターの最大ライフ、マナ、コインなどを変更します
+			Tooltip: キャラクターの最大ライフ・マナ・コインなどを変更します
 			Label: プレイヤー設定
 		}
 

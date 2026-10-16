@@ -5,7 +5,7 @@ Buffs: {
     }
 
 	"Stamina Sickness": {
-		Description: 即時スタミナポーションを飲めない
+		Description: 即時スタミナポーションを使用できない
 		DisplayName: スタミナ不調
 	}
 
@@ -20,7 +20,7 @@ Buffs: {
 	}
 
 	"Stamina Potion": {
-		Description: スタミナ自然回復が100%増加。キャンプファイヤーと重複
+		Description: スタミナ自然回復速度が100%上昇。キャンプファイヤーと重複
 		DisplayName: スタミナポーション
 	}
 }
@@ -78,7 +78,7 @@ Items: {
 		Tooltip:
 			'''
 			標準的なAAバッテリー
-			最大スタミナを40増加
+			最大スタミナが40増加
 			'''
 		DisplayName: AAバッテリー
 	}
@@ -86,7 +86,7 @@ Items: {
 	StaminaPotion: {
 		Tooltip:
 			'''
-			スタミナ自然回復を100%増加
+			スタミナ自然回復速度が100%上昇
 			キャンプファイヤーと重複する
 			'''
 		DisplayName: スタミナポーション

@@ -1,7 +1,7 @@
 Configs: {
 	SpawnHousesConfig: {
 		EnableMineshaft: {
-			Tooltip: オンにすると、ワールドのスポーン地点付近に坑道が生成されます
+			Tooltip: オンにすると、ワールドのスポーンポイント付近に坑道が生成されます
 			Label: 坑道を生成
 		}
 
@@ -9,7 +9,7 @@ Configs: {
 			Tooltip: 
 				'''
 				オンにすると、片方の海岸に家が生成されます
-				(まれに焚き火も追加生成されます)
+				(まれにキャンプファイアも追加生成されます)
 				'''
 			Label: ビーチハウスを生成
 		}
@@ -24,7 +24,7 @@ Configs: {
 		}
 
 		EnableSpawnPointHouse: {
-			Tooltip: オンにすると、スポーン位置に家が自動生成されます
+			Tooltip: オンにすると、スポーンポイントに家が自動生成されます
 			Label: スポーンハウスを生成
 		}
 
@@ -40,15 +40,15 @@ Configs: {
 		}
 
 		SpawnPointHouseSetsSpawn: {
-			Tooltip: オンにすると、スポーンハウスがワールドのスポーン位置になります
+			Tooltip: オンにすると、スポーンハウスがワールドのスポーンポイントになります
 			Label: スポーンハウスでスポーン
 		}
 
 		SpawnPointHouseOffset: {
 			Tooltip:
 				'''
-				オンにすると、スポーン地点の家がスポーン座標から少し離れて生成されます
-				他のMODとの競合を避けるのに役立ちます
+				オンにすると、スポーンポイントの家がスポーン座標から少し離れて生成されます
+				他のModとの競合を避けるのに役立ちます
 				'''
 			Label: スポーンハウスの位置ずらし
 		}
@@ -56,8 +56,8 @@ Configs: {
 		MagicStorageIntegrations: {
 			Tooltip:
 				'''
-				オンにすると、スポーンハウスに「Magic Storage」の初期セットが生成されます
-				ただし、この機能を使うには「Magic Storage」MODが読み込まれている必要があります
+				オンにすると、スポーンハウスにMagic Storageの初期セットが生成されます
+				ただし、この機能を使うにはMagic Storageが有効である必要があります
 				'''
 			Label: Magic Storageとの連携
 		}

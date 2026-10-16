@@ -9,7 +9,11 @@ Items: {
 		Rightclick1: 敵を右クリックするとミニオンがその敵を集中攻撃する
 		Rightclick2Remove: 同じ敵を右クリックすると解除される
 		Rightclick2Spawn: 右クリックした所にミニオンが攻撃する
-		Rightclick3: 他のプレイヤーの照準を右クリックすると、そのプレイヤーがあなたのミニオンのターゲットを制御できるようになる
+		Rightclick3:
+			'''
+			他のプレイヤーの照準を右クリックすると、
+			そのプレイヤーがあなたのミニオンのターゲットを制御できるようになる
+			'''
 	}
 
 	MinionLoadoutBook: {
@@ -80,7 +84,7 @@ Configs: {
 
 		InfoIcon: {
 			Label: 情報アイコンの切り替え
-			Tooltip: ミニマップの下にミニオン/セントリーのスロットを表示するか切り替えます
+			Tooltip: ミニマップの下にミニオン/セントリースロットを表示するか切り替えます
 		}
 
 		Headers: {
@@ -114,7 +118,11 @@ Configs: {
 
 		PersistentBuffs: {
 			Label: バフを永続にする
-			Tooltip: オンにすると{$ItemName.SummoningPotion}などのミニオン/セントリースロットを増やすバフが、死亡時とワールドを出ても残ります
+			Tooltip:
+				'''
+				オンにすると{$ItemName.SummoningPotion}などのミニオン/セントリースロットを増やすバフが、
+				死亡時とワールドを出ても残ります
+				'''
 		}
 
 		Headers.HintToClientConfig: ヒント：UI調整を含むクライアント設定に移動するには、左下の矢印を押してください
