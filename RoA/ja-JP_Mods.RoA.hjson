@@ -643,7 +643,7 @@ Items: {
 		DisplayName: 断腸のフック
 		Tooltip:
 			'''
-			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、肉と内臓を排出する
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、肉と内臓を放つ
 			「クリメラを模して作られた」
 			'''
 	}
@@ -661,7 +661,7 @@ Items: {
 		DisplayName: 恐怖のペンチ
 		Tooltip:
 			'''
-			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、胆汁と腐敗を排出する
+			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、胆汁と腐敗を放つ
 			「イーターオブソウルを模して作られた」
 			'''
 	}
@@ -982,8 +982,10 @@ Items: {
 		DisplayName: 燃え盛る花輪
 		Tooltip:
 			'''
-			自然ダメージを与えることで花輪がチャージされ、攻撃時に最大25%の確率で敵と自身に燃え盛る炎の花を咲かせる
-			花輪がチャージされていると、自然武器のノックバックが増加し、炎の花が時間経過で爆発して近くの敵に広がる 
+			自然ダメージを与えることで花輪がチャージされ、
+			攻撃時に最大25%の確率で敵と自身に燃え盛る炎の花を咲かせる
+			花輪がチャージされていると、自然武器のノックバックが増加し、
+			炎の花が時間経過で爆発して近くの敵に広がる 
 			'''
 	}
 
@@ -1175,7 +1177,7 @@ Items: {
 		Tooltip:
 			'''
 			自然潜在ダメージが8%増加
-			自然武器のノックバックが増加
+			自然攻撃のノックバックが増加
 			'''
 	}
 
@@ -1194,7 +1196,7 @@ Items: {
 		Tooltip:
 			'''
 			自然ダメージが8%増加
-			自然武器のノックバックが増加
+			自然攻撃のノックバックが増加
 			'''
 	}
 
@@ -1384,7 +1386,7 @@ Items: {
 
 	AlchemicalSkull: {
 		DisplayName: 錬金術のドクロ
-		Tooltip: 燃えるブロックのダメージ、毒、毒ガスを無効化
+		Tooltip: 燃えるブロックのダメージ・毒・毒ガスを無効化
 	}
 
 	Coffin: {
@@ -1502,7 +1504,7 @@ Items: {
 
 	FlinxFurUshanka: {
 		DisplayName: フリンクスのウシャンカ
-		Tooltip: 鞭の攻撃範囲が10%増加
+		Tooltip: 鞭の射程が10%伸びる
 	}
 
 	CopperAcolyteHat: {
@@ -1702,7 +1704,7 @@ Items: {
 		DisplayName: 礼拝者の骨の兜
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			召喚ダメージが8%増加
 			'''
 	}
@@ -1940,7 +1942,7 @@ Items: {
 		Tooltip:
 			'''
 			空中で無限にジャンプできるが、空中ジャンプするたびに花輪のチャージを25消費する
-			ジャンプ高度が増加
+			ジャンプ高度が上昇
 			「天は私の上に微笑んでいる」
 			'''
 	}
@@ -2606,7 +2608,7 @@ Items.Tooltips: {
 		花輪のチャージ速度が10%上昇
 		{0}入力二回でコウモリに変身する
 		'''
-	FlinxFurUshankaSetBonus: 凍えと凍結耐性
+	FlinxFurUshankaSetBonus: 凍えと凍結を無効化
 	AshwalkerHoodSetBonus:
 		'''
 		燃えている！の効果が反転し、逆にライフが徐々に回復するようになる
@@ -2645,17 +2647,17 @@ MusicDisplay: {
 
 	Lothor: {
 		Author: by Croul
-		DisplayName: Lothor the Wild
+		DisplayName: ロソール・ザ・ワイルド
 	}
 
 	Backwoods: {
 		Author: by Croul & A44
-		DisplayName: Backwoods
+		DisplayName: 奥地
 	}
 
 	BackwoodsFog: {
 		Author: by A44
-		DisplayName: Fog
+		DisplayName: 霧
 	}
 }
 
@@ -3060,7 +3062,6 @@ Tiles: {
 }
 
 TylerMessages: {
-
 	Death: 災厄のあとにだけ、俺たちは復活できる。
 	AlmostDeath: 傷一つ残さずに死ぬのはごめんだ
 	Explosive: すべてを失ったときに初めて、何でもできる自由が得られる。
@@ -3075,14 +3076,14 @@ TylerMessages: {
 
 Vanilla: {
 
-	CanMineElderwood: エバーウッドとヘルストーンの採掘が可能
-	CanChopElderwood: エバーウッドの伐採が可能
+	CanMineElderwood: エバーウッドとヘルストーンを採掘できる
+	CanChopElderwood: エバーウッドを伐採できる
 	BezoarDesc: 毒と毒ガスを無効化
-	MedicatedBandageDesc: 毒、出血、毒ガスを無効化
+	MedicatedBandageDesc: 毒・流血・毒ガスを無効化
 	LavaproofBugNetDesc:
 		'''
 		溶岩の生き物と迷える魂を捕まえることができる
-		「熱すぎて手を焼かされる時に」
+		「熱すぎて手を焼かされるときに」
 		'''
 	GoldenBugNetDesc:
 		'''

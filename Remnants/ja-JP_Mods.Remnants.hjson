@@ -1,14 +1,14 @@
 Safeguard: {
 	IssuesFound: Remnantsは互換性の問題を1つ以上検出したため、以下のワールドを作成できません。検出された問題:
 	SmallWorlds: ワールドのサイズが小さすぎます。
-	SecretSeeds: 秘密のシード値が選択されています。
+	SecretSeeds: 隠しシード値が選択されています。
 	BadRatio: 非標準の縦横比が使用されています。
-	HomewardJourney: Homeward Journey MODが有効になっています。
-	Aequus: Aequus MODが有効になっています。
-	StartWithBase: Start With Base MODが有効になっています。
-	LunarVeil: Lunar Veil MODが有効になっています。
+	HomewardJourney: Homeward Journey Modが有効になっています。
+	Aequus: Aequus Modが有効になっています。
+	StartWithBase: Start With Base Modが有効になっています。
+	LunarVeil: Lunar Veil Modが有効になっています。
 	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
-	WOTGMultiplayer: Remnantsは、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
+	WOTGMultiplayer: Remnantsは、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このModはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
 }
 
 Chat: {
@@ -225,7 +225,7 @@ Tiles: {
 
 	PyramidChest: {
 		MapEntry: ピラミッドの宝箱
-		MapEntry0: 施錠されたピラミッドの宝箱
+		MapEntry0: ロックされたピラミッドの宝箱
 	}
 
 	PyramidPot: {
@@ -262,7 +262,7 @@ Tiles: {
 
 	ArcaneChest2: {
 		MapEntry0: 秘術の宝箱
-		MapEntry1: 施錠された秘術の宝箱
+		MapEntry1: ロックされた秘術の宝箱
 	}
 
 	PrismbudHead: {
@@ -278,12 +278,12 @@ Buffs: {
 
 	RunestalkBlessing: {
 		DisplayName: ルーンストークの祝福
-		Description: 採掘速度50%向上
+		Description: 採掘速度が50%上昇
 	}
 
 	PyramidAntiCheese: {
 		DisplayName: 静寂の地
-		Description: 固体ブロック、足場、ロープを設置できない
+		Description: 固体ブロック・足場・ロープを設置できない
 	}
 }
 
@@ -292,7 +292,7 @@ Items: {
 		DisplayName: 魔法の盾
 		Tooltip:
 			'''
-			マナを消費することで、受ける最終ダメージを25%軽減する
+			マナを消費して、受ける最終ダメージを25%軽減する
 			マナを完全に消費すると、一時的に使用不可になる
 			'''
 	}
@@ -301,8 +301,8 @@ Items: {
 		DisplayName: 神聖な盾
 		Tooltip:
 			'''
-			ダメージを受けた後の無敵時間を延長する
-			マナを消費することで、受ける最終ダメージを25%軽減する
+			被ダメージ後の無敵時間を延長
+			マナを消費して、受ける最終ダメージを25%軽減する
 			マナを完全に消費すると、一時的に使用不可になる
 			'''
 	}
@@ -314,7 +314,7 @@ Items: {
 
 	IronKey: {
 		DisplayName: 鉄の鍵
-		Tooltip: 施錠された鉄扉を開けることができる
+		Tooltip: ロックされた鉄扉を開けることができる
 	}
 
 	NightglowBerry: {
@@ -324,12 +324,12 @@ Items: {
 
 	PyramidKey: {
 		DisplayName: ピラミッドの鍵
-		Tooltip: 施錠されたピラミッドの宝箱を開けることができる
+		Tooltip: ロックされたピラミッドの宝箱を開けることができる
 	}
 
 	CoinMold: {
 		DisplayName: コインの鋳型
-		Tooltip: 金のインゴットを使って硬貨を偽造できるが、1回使うと壊れる
+		Tooltip: 金のインゴットを使ってコインを偽造できるが、1回使うと壊れる
 	}
 
 	SalvagedMetal: {
@@ -414,12 +414,12 @@ Items: {
 
 	SpiritLance: {
 		DisplayName: 精霊の槍
-		Tooltip: マナが最大でない場合、4倍のダメージを与え、攻撃ヒット時にマナを回復する
+		Tooltip: マナが最大でない場合、4倍のダメージを与え、攻撃が当たるとマナを回復する
 	}
 
 	SummonCrown: {
 		DisplayName: 指導者の王冠
-		Tooltip: 装備者の負傷の度合いに応じて、ミニオンが与えるダメージが最大33%増加する
+		Tooltip: 装備者の負傷の度合いに応じて、ミニオンのダメージが最大で33%増加する
 	}
 
 	TombBrick: {
@@ -1088,7 +1088,7 @@ Configs: {
 			Label: "[i:54] 移動の自由"
 			Tooltip:
 				'''
-				プレイヤーの移動速度と機動性が自然に向上します（15mph → 18mph）
+				プレイヤーの移動速度と機動性が自然に上昇します（15mph → 18mph）
 				Calamity Modを使用している場合は、こちらの移動強化を推奨します
 
 				注意：強く推奨
