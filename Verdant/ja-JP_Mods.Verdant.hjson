@@ -1,380 +1,577 @@
-Configs: {
-	HeadLabel: Verdant 設定
-	EnableSteamEffectLabel: "[i:3365] スチーム効果を有効化"
-	EnableSteamEffectTooltip: 地下のヴァーダント内にいるときにスチームオーバーレイを有効化。
-	EnableForeOrBackgroundObjectsLabel: "[i:933] 前景/背景オブジェクトを有効化"
-	EnableForeOrBackgroundObjectsTooltip: 装飾オブジェクトが地表の背景や前景にどこにでも現れるようにします
-	EnableCustomWaterfallsLabel: "[i:2169] カスタム滝を有効にする"
-	EnableCustomWaterfallsTooltip: タイルからしだれ柳のような滝を出現させることを可能にします
-	CustomDialogueSystemLabel: "[i:320] カスタムダイアログシステム"
-	CustomDialogueSystemTooltip: アポテオシスのカスタムダイアログシステムを使用できるようにします。オフにすると、ただのチャットが使用されます
-	FancyBookUILabel: "[i:4065] ファンシーな本のUI"
-	FancyBookUITooltip: 本のUIをユニークなものに変更します
+Achievements: {
+	GardenerAchievement: {
+		FriendlyName: 庭師
+		Description: アポテオシスのクエストを半分完了する。
+	}
 
-	VerdantClientConfig: {
-		DisplayName: "{$Mods.Verdant.Configs.HeadLabel}"
+	GreenThumbAchievement: {
+		FriendlyName: 緑の指
+		Description: アポテオシスのクエストを1つ完了する。
+	}
 
-		EnableSteam: {
-			Label: "{$Mods.Verdant.Configs.EnableSteamEffectLabel}"
-			Tooltip: "{$Mods.Verdant.Configs.EnableSteamEffectTooltip}"
-		}
+	MarigoldAchievement: {
+		FriendlyName: マリーゴールデン
+		Description: 新緑の葉の上でマリーゴールドを育てよう。
+	}
 
-		BackgroundObjects: {
-			Label: "{$Mods.Verdant.Configs.EnableForeOrBackgroundObjectsLabel}"
-			Tooltip: "{$Mods.Verdant.Configs.EnableForeOrBackgroundObjectsTooltip}"
-		}
+	ReachingApotheosisAchievement: {
+		FriendlyName: アポテオシスへの到達
+		Description: アポテオシスのクエストを全て完了する。
+	}
 
-		Waterfalls: {
-			Label: "{$Mods.Verdant.Configs.EnableCustomWaterfallsLabel}"
-			Tooltip: "{$Mods.Verdant.Configs.EnableCustomWaterfallsTooltip}"
-		}
+	MudsquidAchievement: {
+		FriendlyName: 泥の旅人
+		Description: 泥のイカに変身し、1000マス分移動しよう。
+	}
 
-		CustomDialogue: {
-			Label: "{$Mods.Verdant.Configs.CustomDialogueSystemLabel}"
-			Tooltip: "{$Mods.Verdant.Configs.CustomDialogueSystemTooltip}"
-		}
-
-		JungleSpawn: {
-			Label: "[i:620] ジャングルのスポーン"
-			Tooltip: ヴァーダントがジャングルにしかスポーンしないようにします。もしこれが問題であれば、ほとんどのMODバイオームを上書きする可能性が低くなります
-			}
-
-		DialogueSpeed: {
-			Label: "[i:4485] ダイアログ速度"
-			Tooltip: すべての画面テキストのダイアログ速度を上げたり下げたりできます
-		}
+	ShowcaseAchievement: {
+		FriendlyName: ショーケスター
+		Description: アポテオシスにアイテムを見せよう。
 	}
 }
 
-ScreenText: {
-RightClick: 右クリックして続ける
-
-Apotheosis: {
-	EoWName: イーター
-	BoCName: 脳
-
-	Intro: {
-		0: こんにちは、旅人。
-		1: 新しい顔を見るのは久しぶりだ。
-		2: 私のことはアポテオシスと呼んでくれ。
-		3: 緑豊かな植物の中心で私たちを見つけてごらん、
-		4: 君を助ける贈り物がいくつかあるかもしれない。
-		5: さらばだ…
+Biomes: {
+	VerdantUndergroundBiome: {
+		TownNPCDialogueName: 新緑
+		DisplayName: 新緑
 	}
 
-	# Intro.5 "Farewell" line has a little extra space to fade out nicely, keep it there.
-	# Try to keep the following lines around the same length, if possible
-	
-	Greeting: {
-		0: 呼吸を忘れずに、
-		1: 植物を元気に育て、
-		2: あの巨大な目を倒したら私のところに戻ってくるんだ。
-		3: また元気な姿で会えることを願っているよ。
+	VerdantBiome: {
+		TownNPCDialogueName: 新緑
+		DisplayName: 新緑
 	}
 
-	Idle: {
-		Normal: {
-			0: あの跳ねる芽には特に自信があるんだ。
-			1: 私たちは樹木を宿そうとしているが、うまくいったか？
-			2: 私の羽ペンはどこだ…ん？
-			3: 『私』も『私たち』も、結局同じことだ。
-			4: これ以上言うことはない。
-			5: 外に出て、花の香りを楽しんでごらん。
-			6: さあ、早く行きなさい。
-			7: この辺りでヘビを見かけなかったか？
-			8: まだ花の香りを覚えている。
-			9: カタツムリは過小評価されている生き物だ。
-			10: この世界は君の庭だ、友よ。
-			11: うろうろする必要はない。
-			12: 私たちの草の上に金の山を置くがよい、驚きを得るために…
-			13: 時には、夕日を思い出す…
-			14: この世界で、君が祝福されることを願っている…
-			15: 探索は魂を満たす。
-			16: 水の流れに集中し、花々の輝きを感じるがよい…
-			17: 持っているものを大切にするがよい、子よ。
-			18: 共に成長してきたな、そうだろう？
-			19: …私はいい庭師だろうか？
-			20: また後で話そう。
-			21: もっと花が欲しいか？ふむ…
-			22: 火山について知っているか？
-			23: テラリウムのように、私は観察する。素敵で、美しい。
-			24: すべてと美しさを分かち合おう。
-			25: ミツバチを間近で見るのが懐かしい。
-			26: ここを歩いているのを見た。楽しんでいるのだろうか？
-			27: 踊れるときは踊るがよい、子よ。花々と共に踊れ。
-			28: もう少ししか言うことがないのが残念だ。
-			29: 何もの君を止めてはならない。私たちも、私も止まってはいないのだから。
-		}
+	NearApotheosisBiome: {
+		TownNPCDialogueName: アポテオシスの近く
+		DisplayName: アポテオシスの近く
+	}
+}
 
-		EvilBoss: {
-			0: 恵みが君に訪れますように。
-			1: "{0}はもはや存在しない。"
-			2: 蔓延から解放された存在が…
-			3: 失われた空が今は少し澄んでいる。
-		}
+Books:{
+	# Try to keep every line here as long or shorter than the longest lines.
+	# If they're too long, they will look really bad in the books.
 
-		Thoughts: {
-			0: "自然がもっとも素朴で純粋な場所で…"
-			1: ふむ…どうするか…
-			2: "害虫駆除か…"
-			3: ああ、思い出よ…
-			4: 研究、研究、研究…
-			5: 葉が落ち、我々は働く…
-			6: 物思いにふける私…
-			7: 葉と蔓の間に…
-			8: 調和の中での共鳴…
-			9: …迷子に…
-			10: 時々、ただ故郷が見たくなる。
-			11: …次は何をする？
-			12: もっと花が必要だな…
-			13: 蜂たちは、なんて自由なんだ…
-			14: 自分の中に慰めを見出して…
-		}
+	RockBook: {
+		Content:
+			'''
 
-		EoC: その偉大な目は驚異であったが、脅威でもあった。
+			「推測では、遠くの島からのものと思われ、詳細は不明。
+			素晴らしい研究機会となりそうだ！
+			岩には黒曜石の条線が見られ、
+			その中に琥珀の粒子も見受けられる？これは後で調べる。
+			鉄、ビスマイト、鉛、黒曜石の微量が含まれている。
+			その古さにもかかわらず、触れるとまだ温かい─
+			また、空洞のような音も？さらにサンプルが必要で、周囲に
+			聞いてみたが…返答なし。追加の探索を行うかもしれない。
+			しばらく経った！
+			地図には[引っ掻き傷]の周辺に火山地帯が示されている。」
 
-		Skeletron: {
-			0: あのスケルトンは…ややこしいやつだったな。
-			1: 貧しい者の自由は得られた…
-		}
+			この本は、冒頭の内容から徐々にその目的が変わり、
+			探検家の記録のようになっていく。
 
-		MiscBosses: {
-			KingSlime: ああ、スライムの王が倒された、素晴らしい…
-			QueenBee: 私たちのミツバチと素敵な時間を過ごしていることを願っている。
-			Scarabeus: 砂漠の砂が今は穏やかに感じる。
-			MJW: ああ、あの輝くクラゲの夜を覚えているよ…
-			VinewrathBane: 花たちが今、とてもリラックスしているようだ。ありがとう。
-			AncientAvian: 空は今、より穏やかになった。よくやった。
-			StarplateRaider: あの輝くメカに興味があったが、残念ながら…
-		}
+			"冒険は順調だが、実を結ばず、
+			理想的な森が静かに広がり、
+		
+			この冒険の終わりに待っているもの─
+			それは、大きな火山だと確信している…
+
+			間違いないんだ。」
+
+			'''
+		Title: 岩石
 	}
 
-	Downed: {
-		EoC: {
-			0: 目が倒れた。感謝する。
-			1: この小物を受け取れ。{0}を倒したらまた戻ってきてくれ。
+	LightbulbBook: {
+		Content: {
+			0:
+				'''
+
+				「奇妙な球根？種？
+				柔らかい植物のような素材でできており、葉のような質感。
+				柔らかな光を放ち、時には波のように動くことがある。
+				日光の供給源として機能し、特定の花の上で育つ。」
+
+				'''
+			1:
+				'''
+
+				「水が満たされている？砂糖？
+				味は淡白で、少し甘く、土のような味、軽く草っぽく、鉄
+				（または他の金属？後で検査予定）のような風味がある。
+				珍しいもので、検査できる量はあまりない。
+				後で探しに行こう、良い食料になるかもしれない。
+				分析を超えた、信じられないような標本だ…
+				これらの蛍よりも優れた光源になるだろう。」
+
+				ランダムなものがページに並んでいる。
+				落書き、スケッチ、メモ。
+				時々、使える情報が少しだけ見つかる。
+				「汚れた水で育つ？」
+				「日光ではどうだろう？」
+				「成長する時、ほぼ花のようになる。」
+				「柔らかいが、丈夫。」
+
+				'''
 		}
 
-		Evil: {
-			0: "{0}を倒してくれて感謝する…"
-			1: 次なる頼みはこれだ。ダンジョン付近の巨大な骸骨を倒してくれ。
-			2: これは私の古い装備の一部だ…少し手を加えてある。
-		}
-
-		Skeletron: {
-			0: ダンジョンの魂は…部分的に解放された。
-			1: 君は受け取るにふさわしい。これを持っていってくれ。私たちのお気に入りだ。
-			2: さて、地獄の深淵で壁を見つけてくれ。それを取り除いてほしい。
-			3: でも、必要なだけ時間をかけてくれて構わない。
-			4: 成長は一朝一夕ではない。
-		}
-
-		WoF: {
-			0: 強力な精霊が解放された…
-			1: 私たちがもっと自由になると、いくつかの変化が見えてくるだろう。
-			2: もういくつか気づいているかもしれない。ともあれ、
-			3: 感謝として、これを受け取ってほしい。私…私はもう必要ないから。
-			4: …それと、ここにいる間に、
-			5: もっと悪を倒してくれれば、報酬を与えることを知っておいてほしい。
-			6: だから、時々様子を見に来てくれ、いいな？
-		}
-
-		AnyMech: {
-			0: 機械のそのうち一つが打ち倒された。
-			1: よくやった！私は何かを作っているところだ…
-			2: それは…奇妙だが楽しい。君も楽しんでくれ。
-		}
-
-		Plantera: {
-			0: 恐ろしい植物が死んだ。
-			1: これによって多くのチャンスが生まれる。
-			2: これは小さな恩恵だが、役に立てば嬉しい。
-			3: これからは、自分で作ることもできるだろう。
-			4: これも自由に受け取ってくれ、
-			5: これがあれば、きっと役に立つだろう。
-		}
-
-		Golem: {
-			0: 神殿の守護者が倒された。
-			1: これはちょっとした…私の情熱を注いだプロジェクトだ。
-			2: これがどれほど役立つかはわからないが、
-			3: 楽しいものになると見込んでいる。
-			4: 幸運を祈っているよ。
-		}
-
-		Cultist: {
-			0: あのペテン師どもが倒れたか、ふむ。
-			1: 奴らの行いは危険な愚行だった。
-			2: 脅威は徐々に…少なくなってきているようだな。
-			3: 我らの力の一片を、
-			4: 君の加護に捧げよう。存分に楽しむがよい。
-		}
-
-		MoonLord: {
-			0: どうやらこれが最後の戦いだろうな。
-			1: 君が他に何を計画しているかは知らぬが、
-			2: 我らに与えられるものはもうほとんど残っていない。
-			3: とても楽しかった、
-			4: 実に大変でもあったが、
-			5: 少し休憩が必要なようだ。
-			6: またいつの日か、新たなものに出会うかもしれないな。
-		}
+		Title: 球根？
 	}
 
-	# The following lines are not visible in-game at any point and will be added in a future update.
-	# Feel free to skip these until they're added.
-	
-	PestControlNotif: {
-		0: With the wall defeated,
-		1: we are free to purify.
-		2: You've certainly noticed the corruption of this world, hm?
-		3: There's...an agreement we can come to.
-		4: This corruption is a ghost over a body;
-		5: and we can help purify the body and push back the ghost.
-		6: Simply give us, ah, this...effigy.
-		7: Be prepared, be well, and I send you luck.
+	LeafBook: {
+		Content: {
+			0:
+				'''
+
+				この本は特に古く、ページが擦り切れ、妙に茶色く見える。
+				素材も明らかに異国のものだ。
+				ページの上部には水滴がいくつかついている。
+				細かい落書きもたくさんある。
+				その落書きはまず、ランダムな地形の風景のようなもの、
+				そして、ありふれた洞窟…なぜだろう。
+				日付も著者の名前も書かれていないが、
+				サインが一つあった。
+
+				'''
+			1:
+				'''
+
+				本をざっと調べると、次のページが目に留まる。
+
+				'''
+			2:
+				'''
+
+				「ほとんど布のような質感、丈夫でありながら柔らかい。
+				手に持つと不可解に落ち着く、球根の光でもよく育つ。
+				食べるのは不快で、草や土のような味がする。
+				豊富にある（本？ページ？近いうちに確認する）。
+				小さな部分で使えるかもしれない？
+				ツルのような塊で育つのか、それともただの塊なのか？
+				わからない。
+				主に花の周りで育つ。
+
+				（絶対に食べないこと）
+
+				ページに押し込んでみた。機能しているように見えるが、
+				もっと工夫が必要だ。ページが緑すぎる。」
+
+				'''
+		}
+
+		Title: 葉
 	}
 
-	PestControlWarning: {
-		0: Are you sure you wish to start?
-		1: This is no simple matter.
-		2: Leave if you need to prepare;
-		3: we shall be here.
+	HardyVineBook: {
+		Content:
+			'''
+
+			「このあたりで残されたわずかな生命の兆し。
+			驚くほど丈夫で、薄いにもかかわらず、
+			切り離すのはほぼ不可能に近い。
+			周りには平均的で小ぶりなツルや葉、植物が点在する中、
+			まばらに生えている。ときどき花をつけ、
+			小さな光を放つ球状の芽が咲くこともある。
+		
+			食用禁止
+		
+			レタスのようだが、革のような硬さで、土の味がする。
+			非常に頑丈なロープを作るのに使えそうだ。
+			補強材としての利用も検討か？
+			…できるかどうかは分からない。」
+
+			残された数ページには小さなスケッチや
+			時折短いメモが書かれている─
+
+			「…今はもっと豊富に…？」
+			「新しい標本はがっしりとしてきている」
+			「…発芽が頻繁に…」
+
+			─そして本は終わりを迎える。
+
+			'''
+		Title: 頑丈なツルの研究
 	}
 
-	PestControl: {
-		0: Very well.
-		1: You best have prepared.
-		2: Pests must be controlled, invasion quelled,
-		3: and you must defeat them. Good luck.
+	ApotheosisBook: {
+		Content:
+			'''
+
+			「補給が尽きてからしばらく経った。
+			キャラバンは研究以外何も残っていなくて、
+			食べ物と言えばネズミやコウモリしかない。
+			ここの水は驚くほど清潔で新鮮で…空腹だけが問題だ。
+			とはいえ、いくつかの研究は進んでいる。
+			この地の植物を分類していて、それが…魔法のよう。
+			ただの言葉なのか、本当のことなのか、よく分からない。
+			驚くほど豊かな草や葉が生い茂っていて、
+			小さな木の苗木もあちこちで見かけた。
+			それと、非常に興味深い木も！
+			飢えにもかかわらず、ここは私にとって天国なんだ！」
+
+
+			...
+
+
+			この土地のわずかな食料で、しばらくは十分だった。
+			かろうじてだけど。
+			私は小さいながらも十分な研究施設を作った、
+			物を保管するため、そして自分を守るために。
+			しばしば、どこからともなく骨の残骸や怒ったコウモリが
+			私の周りに現れる。
+			私は探検家であって、モンスター退治は得意ではない。
+			それはさておき、食料はまだまだ不足している。
+			コウモリだけでなく、ネズミもいなくなった─
+			どうやら小さな生き物たちは最大の脅威を学んだようだ。
+			時間は私の手の届かないところにある。
+			研究は別として、私にはほとんど何も残っていない。」
+
+
+			...
+
+
+			「時が経てば疲れる。
+			研究は続き、熱意は新たな高みへと達し、
+			この奇妙な洞窟で唯一無二のものを目にするたびに。
+			空腹と疲労の裏側で、
+			悲惨な状況にもかかわらず、
+			私は今まで以上に強く生きている。
+			私にとって、これこそが人生だ。この地の生き物たちは
+			繁栄し、遊び、語り、戦っている。
+			私の目に見えないもっと多くのものがあるのだろう。
+			だが、死が扉を叩いている、
+			私にはドアを閉める術がない。
+			だが、もしかしたら、別の時代に、
+			これらの植物は別の目に見つけられ、
+			私が驚かされたように驚かせるのだろう。」
+
+
+			...
+
+
+			「視界に現れた花。球根のある花、
+			不思議な花。
+			花びらの間から、優しい光が見える。
+			落ち着くような光。
+			ここで見たことのないような光。
+			私はほとんど研究を放棄してしまった。
+			食料はなく、私は息も絶え絶えだ。
+			唯一の後悔は、この植物、
+			目の前に現れたこの贈り物を研究できないことだ。」
+			...
+			誰かが私の仕事を見つけますように。
+			私が死にながらも成し遂げたことに、
+			情熱が再び宿りますように。
+			この日記が、誰かの手に渡り、
+			健やかな状態で見つかりますように。
+			元気で、
+			さようなら。」
+
+			'''
+
+		# Note that the lines "in good spirits," and "and goodbye." are intentionally spaced out, ideally keep that if you can.
+		
+		Title: 「私のアポテオシス」
 	}
 
-	# Lines after here are in-game.
-	
-	ItemInteractions: {
-		WiltedFlower: {
-			0: デイジー、私の好きな花だ。
-			1: 残念ながら、長い間見ていないな、ふむ？
-			2: ああ、何か気になることがあれば遠慮なく聞いてくれ。
-			3: 我々は隠し事はしないのだから。
-		}
+	PoetryBook: {
+		Title: 走り書き
+		Content:
+			'''
+			さすらう森を越え、
+			眠る花々の下で
 
-		ApotheosisBook: {
-			0: 私の古いノート。
-			1: いつもそれに書いていたのを覚えている、
-			2: 今でも、時々書きたくなるんだ。
-			3: まあ、もう使えないけれど。
-			4: それを見つめるだけでも奇妙なことだ、
-			5: 最後にそれに書いた時を考えると…。
-		}
+			朽ちゆく肉を越え、
+			塔の骨の傍らで
 
-		LushLeaf: {
-			0: 私たちを囲む葉々、
-			1: ある意味、美しい。
-		}
+			私は気づいた
+			知らなかったのだと
+			自らの役割を、見つけられずにいたことを
 
-		Lightbulb: {
-			0: 私の最後の光、それは長い間助けになった。
-			1: その光が君にも役立つことを願っている。
-		}
+			葉の棘と生命の幹を越えて
+			モウセンゴケと、雨上がりの土の香りの
 
-		YellowBulb: {
-			0: 私の好きな花、
-			1: この土地に広げている。
-			2: なんて心地よい…
-		}
+			私は見つけた
+			知らなかったものを
+			魂の奥底からあの古き響きを
 
-		Wisplant: {
-			0: 私たちは本当に…これを実験し始めた。
-			1: なぜかわからないが、楽しかった。
-		}
+			モウセンゴケと、雨上がりの土の香りの
 
-		PuffMaterial: 正直に言うと、これを作れるかどうか試してみたかっただけなんだ。
-		Halfsprout: 興味深い小さな芽だな、ふむ？
-		MysteriaClump: ちょっと、ああ、広がるのは良いことだ。
-		PinkPetal: レッドペタルには言わないで。これは私のお気に入り。
-		RedPetal: ピンクペタルには言わないで。これは私のお気に入り。
+			- e. m.
+			'''
+	}
+}
 
-		CrudePaintbrush: {
-			0: ああ、私の古い絵筆だ。  
-			1: 申し訳ないが、少し急いでいる、  
-			2: でもこれが役立つ道具だと知っている。
-		}
+Buffs:{
+	HealingFlowerBuff: {
+		DisplayName: 癒しの花
+		Description: 花のオーラがライフを回復してくれる
+	}
 
-		Bouncebloom: {
-			0: 私たちは…まだ物事を把握している最中だった。
-			1: でも、楽しかった。
-		}
+	PropellerpadBuff: {
+		DisplayName: プロペラパッド
+		Description: なんて奇妙な睡蓮！
+	}
 
-		Cloudsprout: {
-			0: 正直に言うと、なぜこれをしたのかわからない。
-			1: 確かに美しいな、ふむ？
-		}
+	SnailBuff: {
+		DisplayName: カタツムリのミニオン
 
-		ThornBlock: …
-		FlotieItem: 私たちはこの小さな子が大好きだ。
-		FlotinyItem: 私たちはこの小さな子が大好きだ。
-		LushWingletItem: 最初のうちの一つ…
+		Description: 草に覆われたカタツムリが一緒に戦ってくれる
+	}
 
-		Propellerpad: {
-			0: 私のお気に入りの一つだ。
-			1: シンプルで、クリーンで、自然で、静か。
-			2: これ以上何が求められるだろう？
-		}
+	FlotiePetBuff: {
+		DisplayName: 憤怒のフラティー
+		Description: 「ドクロがあるけど、とても落ち着く」
+	}
 
-		Mudsquid: {
-			0: おそらく私たちの誇るべき成果の一つだ。
-			1: こんなものは見たことも、ましてや使ったこともない。
-			2: これまでにあまり魔法を使ったことがないが…
-		}
+	MudsquidMarkerBuff: {
+		DisplayName: 泥のイカ
+		Description: 特定のブロックに触れると、泥のイカに変身する
+	}
 
-		SproutInAGlove: 時には、シンプルさが鍵となる。
-		VineHook: この男はいつも人生を楽しんでいる。
+	PeaceTreeMarkerBuff: {
+		DisplayName: 平和の木
+		Description: 出現率が低下し、ハードモード前の敵だけが出現する
+	}
+}
 
-		ExpertPlantGuide: {
-			0: ああ、私の古い本だ。
-			1: 数年前にこれを書いた…
-			2: 時が経つのは早いな。
-		}
+Generation: {
+	Plants: 植物を育てる…
+	Vines: 蔓を伸ばす…
+	Flowers: つるを伸ばす…
+	Watering: 植物に水をやる…
+	Surface: 太陽に届く…
+	Trimming: つぼみを整える…
+}
 
-		ApotheoticSoul: {
-			0: …
-			1: …あまり深く潜らないように、
-			2: しかし、これは私たちの力の小さなサンプルだ。
-			3: これは君が得たものだ、
-			4: そしてここまで来るのはよくやった。
-			5: これ以上は必要ないだろう、
-			6: 私たちが君に与えたものを理解してくれることを願っている。
-			7: 世界は君を大切に思っている、
-			8: 君がそれを大切にしているように。
-		}
+MapObject: {
+	VerdantPylonTile: 新緑のパイロン
+	FloatingCrystal: 浮遊するクリスタル
+}
 
-		LushDagger: {
-			0: 暴力は避けられないものだが、
-			1: 私たちは君が私たちの植物でそれを避けてくれることを願っている。
+TileInteraction: {
+	MysteriaClock: {
+		London: " (ロンドン時間)"
+		NewYork: " (ニューヨーク時間)"
+	}
+}
+
+ApotheosisName: アポテオシス
+ApotheosisFullName: アポテオシス
+
+# Try to keep these short, the text looks weird if it's too long
+VineHookLines: {
+	0: わー！
+	1: わっほー！
+	2: うぇーい！
+}
+
+Condition.InVerdant: 新緑内で
+
+RecipeCondition: {
+	AfterApotheosisDownedPlantera: アポテオシスのプランテラの贈り物を受け取った後
+	HasShears: "[i:{0}] ハサミを持っている間"
+}
+
+"Keybinds.Verdant:SquidForm.DisplayName": 泥のイカに変身
+
+GameTips: {
+	VerdantGameTip0: アポテオシスと頻繁に話すと、報酬をくれるかもしれない。
+	VerdantGameTip1: 緑の洞窟は、どこでも休息を提供してくれる！
+}
+
+DryadShop: {
+	Restock: 5日ごとに補充、または新緑内では3日ごとに補充
+	Condition: 一回おきのストックローテーション
+}
+
+ShowApoth: アポテオシスに右クリックでこれを見せる
+HardmodeMessage: 新緑の方から、何やら轟音が聞こえてくる……
+
+GraveDialogue: {
+	Listen: 聞いて
+
+	Ma: {
+		Name: 母
+		0: 今でも……
+		1: 誇りに……思ってるわ……
+		2: （笑い声）
+	}
+
+	Pa: {
+		Name: 父
+		0: 戻ってこい……
+		1: ……最高のものに……なって……
+		2: ……それは……見事なものだ……
+	}
+
+	Dreams: {
+		Name: ……
+		0: 遠い……地……
+		1: 未踏の地、だが……
+		2: 岩が……指し示した……
+	}
+
+	Me: {
+		Name: 自分
+		0: 懸命にやったが……よく分からない……
+		1: ……すべてに……価値はあったのか……？ 
+		2: ……だが、もう二度と会えない。 
+		3: 成し遂げたことを……誇りに思う……
+		4: ……ずっと……遠すぎたのかも……
+		5: 恋しい……紙を擦る鉛筆の音が……
+		6: 愚かだった……我欲に……突き動かされ……
+		7: おそらく……史上最高……
+		8: それでも……ただの、自分。 
+	}
+}
+GenConfigs: {
+	Pages: {
+		Verdant: {
+			Name: 新緑
+			Description: 新緑の生成に関する設定を変更します
+
+			Members: {
+				WaterMultiplier: {
+					DisplayName: "[i:126] 水の乗数"
+					Tooltip: 新緑に配置される水の乗数を変更します
+				}
+
+				CircleModifier: {
+					DisplayName: "[i:2] 基本サイズの乗数"
+					Tooltip: 新緑が生成される際のサイズを変更します
+				}
+
+				StoneModifier: {
+					DisplayName: "[i:3] 石の乗数"
+					Tooltip: 新緑に配置される石の乗数を変更します
+				}
+
+				OreModifier: {
+					DisplayName: "[i:13] 鉱石の乗数"
+					Tooltip: 新緑に配置される鉱石の乗数を変更します
+				}
+
+				AquamarineModifier: {
+					DisplayName: "[i:Verdant/EmbeddedAquamarineItem] アクアマリンの乗数"
+					Tooltip: 新緑の茂った土に埋め込まれて配置されるアクアマリンの乗数を変更します
+				}
+
+				WaterfallModifier: {
+					DisplayName: "[i:206] Waterfall 滝の乗数"
+					Tooltip: 新緑に配置される滝の乗数を変更します
+				}
+
+				VinesModifier: {
+					DisplayName: "[i:Verdant/VineRopeItem] 蔓の乗数"
+					Tooltip: 新緑に配置される蔓の乗数を変更します
+				}
+
+				VinesChance: {
+					DisplayName: "[i:Verdant/VineRopeItem] 蔓の生成率"
+					Tooltip:
+						'''
+						蔓が生成される確率を変更します
+						0に設定すると生成されなくなります
+						'''
+				}
+
+				VineStrongChance: {
+					DisplayName: "[i:Verdant/VerdantStrongVineMaterial] 頑丈な蔓の生成率"
+					Tooltip: 蔓の代わりに頑丈な蔓が生成される確率を変更します
+				}
+
+				LightbulbChance: {
+					DisplayName: "[i:Verdant/Lightbulb] 光る花の生成率"
+					Tooltip: 光る花が生成される確率を変更します
+				}
+
+				WaterfallFlowerChance: {
+					DisplayName: "[i:Verdant/WaterPlantItem] ウィーピングバッドの生成率"
+					Tooltip: ウィーピングバッドが生成される確率を変更します
+				}
+
+				BeehiveChance: {
+					DisplayName: "[i:Verdant/BeehiveBlock] 蜂の巣の生成率"
+					Tooltip: 蜂の巣が生成される確率を変更します
+				}
+
+				WallLightbulbChance: {
+					DisplayName: "[i:Verdant/VerdantFlowerBulb] 壁の花の生成率"
+					Tooltip: 壁に花が生成される確率を変更します
+				}
+
+				WallLightbulbBigChance: {
+					DisplayName: "[i:Verdant/VerdantFlowerBulb] 壁の大きな花の生成率"
+					Tooltip: 壁に大きな花が生成される確率を変更します
+				}
+
+				TreeChance: {
+					DisplayName: "[i:Verdant/VerdantWoodBlock] 木の生成率"
+					Tooltip: 木が生成される確率を変更します
+				}
+
+				PuffChance: {
+					DisplayName: "[i:Verdant/PinkPuff] ピンクパフの生成率"
+					Tooltip: 地面にピンクパフが生成される確率を変更します
+				}
 			}
-
-		BowlFruit: {
-			0: ああ、これがボウルフルーツか。なんと美しいものだ。
-			1: その味を教えてくれ。
 		}
 
-		Dropberry: {
-			0: このベリー、実に綺麗だな。
-			1: その味を思い出せたなら、どれほど幸せだうか。
-		}
+		Backslate: {
+			Name: 粘板岩
+			Description: 新緑の粘板岩の生成に関する設定を変更します
 
-		FloralTea: 旅路において、役立つものだろう？
+			Members: {
+				BackslateMicrobiomeModifier: {
+					DisplayName: "[i:Verdant/BackslateWallItem] 生成量の補正"
+					Tooltip: 生成される粘板岩の塊の群生地を変更します
+				}
 
-		Grapecherry: {
-			0: 科学者たるもの、時として…
-			1: 時として、過ちを犯すものだ。
-		}
+				BackslateSizeModifier: {
+					DisplayName: "[i:Verdant/BackslateWallItem] サイズ補正"
+					Tooltip: 生成される粘板岩の塊のサイズを変更します
+				}
 
-		Mystuber: 揚げようと揚げまいと、心臓に良きものだ。
-		Walnut: 時には…シンプルが一番だ。
-		Waterberry: 豊富にあるが…もしも…
-		HoneyNuggets: 蜂は魔法そのものだ。大切にしてくれ。
+				BackslateSpam: {
+					DisplayName: "[i:Verdant/BackslateTileItem] 塊の数"
+					Tooltip: 生成される粘板岩の塊の数を変更します
+				}
+
+				BackslateWidth: {
+					DisplayName: "[i:Verdant/BackslateTileItem] バイオームの幅"
+					Tooltip: バイオームの幅をマス単位で変更します
+				}
+
+				AquamarineChance: {
+					DisplayName: "[i:Verdant/AquamarineItem] アクアマリンの生成率"
+					Tooltip: 群生地にアクアマリンが密集して生成される確率を変更します
+				}
+
+				WallChance: {
+					DisplayName: "[i:Verdant/BackslateWallItem] 壁の生成率"
+					Tooltip: 粘板岩の壁の柱の生成率を変更します
+				}
+
+				BubblingWallChance: {
+					DisplayName: "[i:Verdant/BackslateBubblingWallItem] 穴あき壁の生成率"
+					Tooltip: 粘板岩の壁が穴あきになる確率を変更します
+				}
+
+				BushChance: {
+					DisplayName: "[i:Verdant/WaterberryBushItem] 茂みの生成率"
+					Tooltip: ウォーターベリーの生成率を変更します
+				}
+
+				RandomAquamarine: {
+					DisplayName: "[i:Verdant/EmbeddedStoneAquamarineItem] 石内のアクアマリンの数"
+					Tooltip: アクアマリンが石に埋め込まれて生成される数を変更します
+				}
+
+				AquamarineChunkSize: {
+					DisplayName: "[i:Verdant/EmbeddedStoneAquamarineItem] Stone Aquamarine Size"
+					Tooltip: 石に埋め込まれて生成されるアクアマリンの塊のサイズを変更します
+				}
+			}
 		}
 	}
 }
@@ -386,45 +583,45 @@ Items: {
 	}
 
 	LushWoodBody: {
-		DisplayName: ラッシュウッドの胸当て
-		Tooltip: ミニオンダメージが1増加
+		DisplayName: 茂った木の胸当て
+		Tooltip: 召喚ダメージが1増加
 	}
 
 	LushWoodHead: {
-		DisplayName: ラッシュウッドの兜
-		Tooltip: ミニオンダメージが1増加
+		DisplayName: 茂った木の兜
+		Tooltip: 召喚ダメージが1増加
 	}
 
 	LushWoodLegs: {
-		DisplayName: ラッシュウッドのすね当て
+		DisplayName: 茂った木のすね当て
 		Tooltip: ""
 	}
 
 	MysteriaChest: {
-		DisplayName: ミステリアの胸当て
+		DisplayName: 神秘の木の胸当て
 		Tooltip:
 			'''
-			採掘速度が増加
-			ブロックや壁の設置速度が増加
+			採掘速度が上昇
+			ブロックや壁の設置速度が上昇
 			'''
 	}
 
 	MysteriaHelmet: {
-		DisplayName: ミステリアのベール
+		DisplayName: 神秘の木のベール
 		Tooltip:
 			'''
-			採掘速度が増加
-			ブロックや壁の設置速度が増加
-			設置範囲が増加
+			採掘速度が上昇
+			ブロックや壁の設置速度が上昇し、
+			設置範囲が広がる
 			'''
 	}
 
 	MysteriaLeggings: {
-		DisplayName: ミステリアのすね当て
+		DisplayName: 神秘の木のすね当て
 		Tooltip:
 			'''
-			採掘速度が増加
-			ブロックや壁の設置速度が増加
+			採掘速度が上昇
+			ブロックや壁の設置速度が上昇
 			'''
 	}
 
@@ -432,8 +629,8 @@ Items: {
 		DisplayName: グロースの胸当て
 		Tooltip:
 			'''
-			ミニオンダメージが7%増加
-			最大ミニオン数が1増加
+			召喚ダメージが7%増加
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -441,8 +638,8 @@ Items: {
 		DisplayName: グロースの頭飾り
 		Tooltip:
 			'''
-			ミニオンダメージが5%増加
-			わずかな光を発する
+			召喚ダメージが5%増加
+			とても弱い光を放つ
 			'''
 	}
 
@@ -450,9 +647,9 @@ Items: {
 		DisplayName: グロースのすね当て
 		Tooltip:
 			'''
-			再生速度が増加
-			最大ミニオン数が1増加
-			歩くことで下に植物を育てる
+			ライフ自然回復を増進
+			ミニオンスロットを1つ追加
+			歩くと下の植物が育つ
 			'''
 	}
 
@@ -467,7 +664,7 @@ Items: {
 	}
 
 	BackslateTileItem: {
-		DisplayName: バックスレート
+		DisplayName: 粘板岩
 		Tooltip: ""
 	}
 
@@ -500,7 +697,7 @@ Items: {
 		DisplayName: バンブルビーの巣
 		Tooltip:
 			'''
-			近くの花を受粉するミツバチを生成
+			近くの花を受粉するミツバチを生成する
 			十分なミツバチが花粉を持ち帰った後、収穫できる
 			「ブンブン音が少し気になる」
 			'''
@@ -522,57 +719,57 @@ Items: {
 	}
 
 	LushBathtubItem: {
-		DisplayName: 茂ったバスタブ
+		DisplayName: 茂った木の浴槽
 		Tooltip: ""
 	}
 
 	LushBedItem: {
-		DisplayName: 茂ったベッド
+		DisplayName: 茂った木のベッド
 		Tooltip: ""
 	}
 
 	LushBookshelfItem: {
-		DisplayName: 茂った本棚
+		DisplayName: 茂った木の本棚
 		Tooltip: ""
 	}
 
 	LushCandelabraItem: {
-		DisplayName: 茂ったシャンデリア
+		DisplayName: 茂った木のシャンデリア
 		Tooltip: ""
 	}
 
 	LushCandleItem: {
-		DisplayName: 茂ったキャンドル
+		DisplayName: 茂った木の蝋燭
 		Tooltip: ""
 	}
 
 	LushChairItem: {
-		DisplayName: 茂ったイス
+		DisplayName: 茂った木のイス
 		Tooltip: ""
 	}
 
 	LushClockItem: {
-		DisplayName: 茂った時計
+		DisplayName: 茂った木の時計
 		Tooltip: ""
 	}
 
 	LushDresserItem: {
-		DisplayName: 茂ったドレッサー
+		DisplayName: 茂った木のドレッサー
 		Tooltip: ""
 	}
 
 	LushLampItem: {
-		DisplayName: 茂ったランプ
+		DisplayName: 茂った木のランプ
 		Tooltip: ""
 	}
 
 	LushLanternItem: {
-		DisplayName: 茂ったランタン
+		DisplayName: 茂った木のランタン
 		Tooltip: ""
 	}
 
 	LushPianoItem: {
-		DisplayName: 茂ったピアノ
+		DisplayName: 茂った木のピアノ
 		Tooltip: ""
 	}
 
@@ -582,27 +779,27 @@ Items: {
 	}
 
 	LushSinkItem: {
-		DisplayName: 茂ったシンク
+		DisplayName: 茂った木のシンク
 		Tooltip: ""
 	}
 
 	LushTableItem: {
-		DisplayName: 茂ったテーブル
+		DisplayName: 茂った木のテーブル
 		Tooltip: ""
 	}
 
 	LushWoodDoorItem: {
-		DisplayName: 茂ったドア
+		DisplayName: 茂った木のドア
 		Tooltip: ""
 	}
 
 	LushWoodSofaItem: {
-		DisplayName: 茂ったソファ
+		DisplayName: 茂った木のソファ
 		Tooltip: ""
 	}
 
 	LushWorkbenchItem: {
-		DisplayName: 茂った作業台
+		DisplayName: 茂った木の作業台
 		Tooltip: ""
 	}
 
@@ -618,19 +815,19 @@ Items: {
 
 	ThePlantItem: {
 		DisplayName: 植物
-		Tooltip: "「実際の植物」"
+		Tooltip: 「実際の植物」
 	}
 
 	ApotheoticPaintingItem: {
-		DisplayName: 神格化
-		Tooltip: "「Emily A.」"
+		DisplayName: 絵画『神格化』
+		Tooltip: 「エミリー・A」
 	}
 
 	HardyVineBook: {
-		DisplayName: ハーディヴァインの研究
+		DisplayName: 頑丈なツルの研究
 		Tooltip:
 			'''
-			「ハーディヴァインに関する驚くべき洞察」
+			「頑丈なツルに関する驚くべき洞察」
 			右クリックで読む
 			'''
 	}
@@ -645,10 +842,10 @@ Items: {
 	}
 
 	LightbulbBook: {
-		DisplayName: 電球の研究
+		DisplayName: 光るつぼみの研究
 		Tooltip:
 			'''
-			「電球に関する驚くべき洞察」
+			「光るつぼみに関する驚くべき洞察」
 			右クリックで読む
 			'''
 	}
@@ -682,22 +879,22 @@ Items: {
 
 	GreenCrystalItem: {
 		DisplayName: グリーンクリスタル
-		Tooltip: "「見た目ほど鋭くない」"
+		Tooltip: 「見た目ほど鋭くない」
 	}
 
 	HangingCrystalItem: {
 		DisplayName: 吊るされたクリスタル
 		Tooltip:
 			'''
-			設置すると回復する植物が生成される
-			メカニズムでオン/オフを切り替え可能
+			設置すると、触れるとライフが回復する植物を周囲に生成する
+			メカニズムでオン/オフを切り替えできる
 			「穏やかな力で輝く」
 			'''
 	}
 
 	LightbulbPaintingItem: {
-		DisplayName: 電球
-		Tooltip: "「Emily A.」"
+		DisplayName: 絵画『光るつぼみ』
+		Tooltip: 「エミリー・A」
 	}
 
 	OvergrownBrickItem: {
@@ -707,133 +904,133 @@ Items: {
 
 	ResearchBooksItem: {
 		DisplayName: 研究の書
-		Tooltip: "「ページとページにわたる落書きやテキストや理論」"
+		Tooltip: 「ページとページにわたる落書きやテキストや理論」
 	}
 
 	SnailShellBlockItem: {
 		DisplayName: カタツムリの殻
-		Tooltip: "「これを持っていると本当に気分が悪い」"
+		Tooltip: 「これを持っていると本当に気分が悪い」
 	}
 
 	LullabyBox: {
-		DisplayName: オルゴール (アポテオシスの子守唄)
+		DisplayName: オルゴール (アポテオシス)
 		Tooltip: ""
 	}
 
 	PetalsFallBox: {
-		DisplayName: オルゴール (花びらが散る)
+		DisplayName: オルゴール (新緑 - 雨)
 		Tooltip: ""
 	}
 
 	TearRainBox: {
-		DisplayName: オルゴール (涙の雨)
+		DisplayName: オルゴール (地下新緑)
 		Tooltip: ""
 	}
 
 	VibrantHorizonBox: {
-		DisplayName: オルゴール (鮮やかな地平線)
+		DisplayName: オルゴール (新緑 - 昼)
 		Tooltip: ""
 	}
 
 	MysteriaBathtubItem: {
-		DisplayName: ミステリアのバスタブ
+		DisplayName: 神秘の木の浴槽
 		Tooltip: ""
 	}
 
 	MysteriaBedItem: {
-		DisplayName: ミステリアのベッド
+		DisplayName: 神秘の木のベッド
 		Tooltip: ""
 	}
 
 	MysteriaBookshelfItem: {
-		DisplayName: ミステリアの本棚
+		DisplayName: 神秘の木の本棚
 		Tooltip: ""
 	}
 
 	MysteriaCandelabraItem: {
-		DisplayName: ミステリアのシャンデリア
+		DisplayName: 神秘の木のシャンデリア
 		Tooltip: ""
 	}
 
 	MysteriaCandleItem: {
-		DisplayName: ミステリアのキャンドル
+		DisplayName: 神秘の木の蝋燭
 		Tooltip: ""
 	}
 
 	MysteriaChairItem: {
-		DisplayName: ミステリアのイス
+		DisplayName: 神秘の木のイス
 		Tooltip: ""
 	}
 
 	MysteriaClockItem: {
-		DisplayName: ミステリアの時計
-		Tooltip: "「小さな時計はかなり狂っているようだ」"
+		DisplayName: 神秘の木の時計
+		Tooltip: 「小さな時計はかなり狂っているようだ」
 	}
 
 	MysteriaDoorItem: {
-		DisplayName: ミステリアのドア
+		DisplayName: 神秘の木のドア
 		Tooltip: ""
 	}
 
 	MysteriaDresserItem: {
-		DisplayName: ミステリアのドレッサー
+		DisplayName: 神秘の木のドレッサー
 		Tooltip: ""
 	}
 
 	MysteriaLampItem: {
-		DisplayName: ミステリアのランプ
+		DisplayName: 神秘の木のランプ
 		Tooltip: ""
 	}
 
 	MysteriaLanternItem: {
-		DisplayName: ミステリアのランタン
+		DisplayName: 神秘の木のランタン
 		Tooltip: ""
 	}
 
 	MysteriaPianoItem: {
-		DisplayName: ミステリアのピアノ
+		DisplayName: 神秘の木のピアノ
 		Tooltip: ""
 	}
 
 	MysteriaPlatformItem: {
-		DisplayName: ミステリアの足場
+		DisplayName: 神秘の木の足場
 		Tooltip: ""
 	}
 
 	MysteriaSinkItem: {
-		DisplayName: ミステリアのシンク
+		DisplayName: 神秘の木のシンク
 		Tooltip: ""
 	}
 
 	MysteriaSofaItem: {
-		DisplayName: ミステリアのソファ
+		DisplayName: 神秘の木のソファ
 		Tooltip: ""
 	}
 
 	MysteriaTableItem: {
-		DisplayName: ミステリアのテーブル
+		DisplayName: 神秘の木のテーブル
 		Tooltip: ""
 	}
 
 	MysteriaWorkbenchItem: {
-		DisplayName: ミステリアの作業台
+		DisplayName: 神秘の木の作業台
 		Tooltip: ""
 	}
 
 	MysteriaAcorn: {
-		DisplayName: ミステリアの苗木
+		DisplayName: 神秘の苗木
 		Tooltip:
 			'''
-			ミステリアの木を植える
-			ミステリアの木は近くのヴァーダントにミステリアの微生物群を広げる
+			神秘の木を植える
+			神秘の木は近くの新緑に神秘の微生物群を広げる
 			木は固体であり、通り抜けることができない
 			'''
 	}
 	MysteriaDrapesItem: {
-		DisplayName: ミステリアのカーテン
+		DisplayName: 神秘のカーテン
 		Tooltip:
 			'''
-			任意のブロックに設置可能
+			任意のブロックに設置できる
 			ツタのようにゆっくりと成長する
 			既存のカーテンにさらに設置してカーテンを成長させる
 			常にプレイヤーの前に表示される
@@ -841,27 +1038,27 @@ Items: {
 	}
 
 	MysteriaTreetop: {
-		DisplayName: ミステリアの木の冠
+		DisplayName: 神秘の木の冠
 		Tooltip:
 			'''
-			ミステリアの木の冠を設置する
-			「組み立てが必要です」
+			神秘の木の冠を設置する
+			「組み立てが必要」
 			'''
 	}
 
 	MysteriaWood: {
-		DisplayName: ミステリアの木
-		Tooltip: このブロックは形を変えることができない
+		DisplayName: 神秘の木
+		Tooltip: 「乾燥していて頑丈」
 	}
 
 	PeaceTreetopItem: {
 		DisplayName: 平和の木の冠
 		Tooltip:
 			'''
-			ミステリアの木の上にのみ設置可能
+			神秘の木の上にのみ設置できる
 			平和の木の冠を設置する
-			平和の木の冠の近くにいると、出現率が減少し、
-			出現がハードモード前に戻る
+			平和の木の冠の近くにいると、敵の出現率が減少し、
+			ハードモード前の敵だけが出現するようになる
 			'''
 	}
 
@@ -875,8 +1072,8 @@ Items: {
 	}
 
 	LightbulbSeeds: {
-		DisplayName: 電球の種
-		Tooltip: "「わずかな光を放っている」"
+		DisplayName: 光るつぼみ
+		Tooltip: 「わずかな光を放っている」
 	}
 
 	LilyPadItem: {
@@ -889,7 +1086,7 @@ Items: {
 		Tooltip:
 			'''
 			「見事に明るい色！」
-			塗料（ピンク）の作成に使用
+			塗料（ピンク）の作成に使う
 			'''
 	}
 
@@ -907,26 +1104,26 @@ Items: {
 		Tooltip:
 			'''
 			「見事に明るい色！」
-			塗料（赤）の作成に使用
+			塗料（赤）の作成に使う
 			'''
 	}
 
 	RootRopeItem: {
-		DisplayName: 豊かな根のロープ
+		DisplayName: 茂った根のロープ
 		Tooltip: ""
 	}
 
 	VerdantFlowerBulb: {
 		DisplayName: 花の球根
-		Tooltip: ヴァーダントの葉やヴァーダントのツタの壁にのみ設置可能
+		Tooltip: 新緑の葉や新緑のツタの壁にのみ設置可能
 	}
 
 	VerdantStrongVineMaterial: {
-		DisplayName: ハーディヴァイン
+		DisplayName: 頑丈なツル
 		Tooltip:
 			'''
 			これらの上または下にいくつかのものを設置できる
-			「これを切り抜けるにはかなり鋭い刃が必要」
+			「これを切断するにはかなり鋭い刃が必要」
 			'''
 	}
 
@@ -939,14 +1136,14 @@ Items: {
 		DisplayName: ウォーターベリーの茂み
 		Tooltip:
 			'''
-			ヴァーダントの葉にも設置できる
-			水の中でのみ成長する
+			新緑の葉にも設置できる
+			水中でのみ成長する
 			'''
 	}
 
 	WaterPlantItem: {
 		DisplayName: しだれのつぼみ
-		Tooltip: "「残骸で、永遠に泣き続ける」"
+		Tooltip: 「残骸で、永遠に泣き続ける」
 	}
 
 	WisplantSeeds: {
@@ -956,7 +1153,7 @@ Items: {
 
 	PuffBlockItem: {
 		DisplayName: パフのブロック
-		Tooltip: "「とても柔らかい！」"
+		Tooltip: 「とても柔らかい！」
 	}
 
 	SnailStatueItem: {
@@ -972,23 +1169,23 @@ Items: {
 		DisplayName: ピッキパフ（収穫済み）
 		Tooltip:
 			'''
-			豊かな葉にのみ設置可能
-			ピックしてパフを収穫できる
+			新緑の葉にのみ設置できる
+			パフに触れるとパフを収穫できる
 			しばらくすると再生する
 			'''
 	}
 
 	MarigoldItem: {
 		DisplayName: マリーゴールド
-		Tooltip: "「匂いが…金属的で…そしてわずかに魔法の匂いがする」"
+		Tooltip: 「匂いが…金属的で…そしてわずかに魔法の匂いがする」
 	}
 
 	PickipuffItem: {
 		DisplayName: ピッキパフ
 		Tooltip:
 			'''
-			豊かな葉にのみ設置可能
-			ピックしてパフを収穫できる
+			新緑の葉にのみ設置できる
+			パフに触れるとパフを収穫できる
 			しばらくすると再生する
 			'''
 	}
@@ -1009,112 +1206,112 @@ Items: {
 	}
 
 	VerdantGrassBlock: {
-		DisplayName: ヴァーダントの草ブロック
+		DisplayName: 新緑の草ブロック
 		Tooltip: ""
 	}
 
 	VerdantBathtubItem: {
-		DisplayName: ヴァーダントのバスタブ
+		DisplayName: 新緑の浴槽
 		Tooltip: ""
 	}
 
 	VerdantBedItem: {
-		DisplayName: ヴァーダントのベッド
+		DisplayName: 新緑のベッド
 		Tooltip: ""
 	}
 
 	VerdantBookshelfItem: {
-		DisplayName: ヴァーダントの本棚
+		DisplayName: 新緑の本棚
 		Tooltip: ""
 	}
 
 	VerdantCandelabraItem: {
-		DisplayName: ヴァーダントのシャンデリア
+		DisplayName: 新緑のシャンデリア
 		Tooltip: ""
 	}
 
 	VerdantCandleItem: {
-		DisplayName: ヴァーダントのキャンドル
+		DisplayName: 新緑の蝋燭
 		Tooltip: ""
 	}
 
 	VerdantChairItem: {
-		DisplayName: ヴァーダントのイス
+		DisplayName: 新緑のイス
 		Tooltip: ""
 	}
 
 	VerdantChandelierBlock: {
-		DisplayName: ヴァーダントのシャンデリア（小型）
+		DisplayName: 新緑のシャンデリア（小型）
 		Tooltip: ""
 	}
 
 	VerdantChandelierLargeItem: {
-		DisplayName: ヴァーダントのシャンデリア（大型）
+		DisplayName: 新緑のシャンデリア（大型）
 		Tooltip: ""
 	}
 
 	VerdantClockItem: {
-		DisplayName: ヴァーダントの時計
+		DisplayName: 新緑の時計
 		Tooltip: ""
 	}
 
 	VerdantDoorItem: {
-		DisplayName: ヴァーダントのドア
+		DisplayName: 新緑のドア
 		Tooltip: ""
 	}
 
 	VerdantHungTableBlock_Pink: {
-		DisplayName: 吊り下げられたヴァーダントのテーブル（ピンク）
+		DisplayName: 吊り下げられた新緑のテーブル（ピンク）
 		Tooltip: 2本の強いツタの下に配置すると吊るすことができる
 	}
 
 	VerdantHungTableBlock_PinkLightless: {
-		DisplayName: 吊り下げられたヴァーダントのテーブル（ピンク、電球なし）
+		DisplayName: 吊り下げられた新緑のテーブル（ピンク、電球なし）
 		Tooltip: 2本の強いツタの下に配置すると吊るすことができる
 	}
 
 	VerdantHungTableBlock_Red: {
-		DisplayName: 吊り下げられたヴァーダントのテーブル（赤）
+		DisplayName: 吊り下げられた新緑のテーブル（赤）
 		Tooltip: 2本の強いツタの下に配置すると吊るすことができる
 	}
 
 	VerdantHungTableBlock_RedLightless: {
-		DisplayName: 吊り下げられたヴァーダントのテーブル（赤、電球なし）
+		DisplayName: 吊り下げられた新緑のテーブル（赤、電球なし）
 		Tooltip: 2本の強いツタの下に配置すると吊るすことができる
 	}
 
 	VerdantLampItem: {
-		DisplayName: ヴァーダントのランプ
+		DisplayName: 新緑のランプ
 		Tooltip: ""
 	}
 
 	VerdantLanternItem: {
-		DisplayName: ヴァーダントのランタン
+		DisplayName: 新緑のランタン
 		Tooltip: ""
 	}
 
 	VerdantPianoItem: {
-		DisplayName: ヴァーダントのピアノ
+		DisplayName: 新緑のピアノ
 		Tooltip: ""
 	}
 
 	VerdantPlatformItem: {
-		DisplayName: ヴァーダントの足場
+		DisplayName: 新緑の足場
 		Tooltip: ""
 	}
 
 	VerdantSofaItem: {
-		DisplayName: ヴァーダントのソファ
+		DisplayName: 新緑のソファ
 		Tooltip: ""
 	}
 
 	VerdantTableItem: {
-		DisplayName: ヴァーダントのテーブル
+		DisplayName: 新緑のテーブル
 		Tooltip: ""
 	}
 
 	VerdantWorkbenchItem: {
-		DisplayName: ヴァーダントの作業台
+		DisplayName: 新緑の作業台
 		Tooltip: ""
 	}
 
@@ -1125,41 +1322,41 @@ Items: {
 
 	WisplantCandelabraItem: {
 		DisplayName: ウィスプラントの燭台
-		Tooltip: 近くの成長速度を上げる
+		Tooltip: 近くの植物の成長速度を上げる
 	}
 
 	VerdantPylonItem: {
-		DisplayName: ヴァーダントのパイロン
+		DisplayName: 新緑のパイロン
 		Tooltip: ""
 	}
 
 	BackslateBubblingWallItem: {
-		DisplayName: 穴あきバックスレートの壁
+		DisplayName: 穴あき粘板岩の壁
 		Tooltip: ""
 	}
 
 	BackslateWallItem: {
-		DisplayName: バックスレートの壁
+		DisplayName: 粘板岩の壁
 		Tooltip: ""
 	}
 
 	LivingLushWoodWallItem: {
-		DisplayName: 生きている青々とした木の壁
+		DisplayName: 生きている茂った木の壁
 		Tooltip: ""
 	}
 
 	LushSoilWallItem: {
-		DisplayName: 青々とした土の壁
+		DisplayName: 茂った土の壁
 		Tooltip: ""
 	}
 
 	LushWoodWallItem: {
-		DisplayName: 青々とした木の壁
+		DisplayName: 茂った木の壁
 		Tooltip: ""
 	}
 
 	MysteriaWoodWallItem: {
-		DisplayName: ミステリアの木の壁
+		DisplayName: 神秘の木の壁
 		Tooltip: ""
 	}
 
@@ -1169,7 +1366,7 @@ Items: {
 	}
 
 	VerdantLeafWallItem: {
-		DisplayName: 青々とした葉の壁
+		DisplayName: 茂った葉の壁
 		Tooltip: ""
 	}
 
@@ -1184,12 +1381,13 @@ Items: {
 	}
 
 	VerdantVineWallItem: {
-		DisplayName: 青々としたツタの壁
+		DisplayName: 茂ったツタの壁
 		Tooltip: ""
 	}
 
+
 	WisplantInfusedMudBoulder: {
-		DisplayName: ウィスプラントが注入された青々とした土のボール
+		DisplayName: ウィスプラントが注入された茂った土のボール
 		Tooltip:
 			'''
 			「ただ2つのものをくっつけただけ、それは魔法じゃない」 - みんな
@@ -1209,22 +1407,22 @@ Items: {
 
 	AxolotlItem: {
 		DisplayName: ウーパールーパー
-		Tooltip: "「なんて可愛いんだ！」"
+		Tooltip: 「なんて可愛いんだ！」
 	}
 
 	BulbboxJellyItem: {
 		DisplayName: バルボックスゼリー
-		Tooltip: "「ぷにぷに！」"
+		Tooltip: 「ぷにぷに！」
 	}
 
 	MossCarpItem: {
 		DisplayName: モスカープ
-		Tooltip: "「肉と草が混ざった味わい」"
+		Tooltip: 「肉と草が混ざった味わい」
 	}
 
 	PoolwormItem: {
 		DisplayName: プールワーム
-		Tooltip: "「意外とヌルヌル！」"
+		Tooltip: 「意外とヌルヌル！」
 	}
 
 	FlotieItem: {
@@ -1234,7 +1432,7 @@ Items: {
 
 	FlotinyItem: {
 		DisplayName: フロティニー
-		Tooltip: "「おお、なんて小さいんだ'」"
+		Tooltip: 「おお、なんて小さいんだ」
 	}
 
 	FolifishItem: {
@@ -1243,12 +1441,12 @@ Items: {
 	}
 
 	MysteriaFlotieItem: {
-		DisplayName: ミステリアのフラティー
+		DisplayName: 神秘のフラティー
 		Tooltip: ""
 	}
 
 	MysteriaFlotinyItem: {
-		DisplayName: ミステリアのフロティニー
+		DisplayName: 神秘のフロティニー
 		Tooltip: ""
 	}
 
@@ -1259,22 +1457,22 @@ Items: {
 
 	RedGrassSnail: {
 		DisplayName: 赤い花びらのカタツムリ
-		Tooltip: なんて優しい生き物！
+		Tooltip: 「なんて優しい生き物！」
 	}
 
 	ExpertPlantGuide: {
-		DisplayName: 植物繊維ロープの達人ガイド
+		DisplayName: 達人のツタ縄の作り方
 		Tooltip:
 			'''
-			非常に特化した要素の習得を可能
-			ヴァーダントからツタを収穫できる
-			ヴァーダントから収穫したツタはかなり速く成長する
+			非常に特化した要素を習得できる
+			新緑からツタを収穫できる
+			新緑から収穫したツタはかなり速く成長する
 			ツタは下にスペースがない場合、上に伸びる
 			'''
 	}
 
 	FlotieOfWrathItem: {
-		DisplayName: 好奇心の強い頭蓋骨
+		DisplayName: 好奇心の強いドクロ
 		Tooltip:
 			'''
 			怒りのフラティーを召喚
@@ -1287,8 +1485,8 @@ Items: {
 		DisplayName: 黄色い芽
 		Tooltip:
 			'''
-			ポーションによる回復量が20%増加
-			ポーションによるマナ回復量が30%増加
+			ライフ回復アイテムの回復量が20%増加
+			マナポーションの回復量が30%増加
 			わずかな光を放つ
 			「あなたは意志の力によって支えられている」
 			'''
@@ -1298,8 +1496,8 @@ Items: {
 		DisplayName: ライトブルーム
 		Tooltip:
 			'''
-			光の中でライフ自然回復が増進
-			光が強いほど増加量が大きくなる
+			光の中でライフ自然回復を増進
+			光が強いほどより増進する
 			'''
 	}
 
@@ -1308,7 +1506,7 @@ Items: {
 		Tooltip:
 			'''
 			いくつかのブロックを直接通過することで素早く移動できる
-			ヴァーダントのすべての自然タイルを含む
+			新緑の全ての自然のブロックを含む
 			'''
 	}
 
@@ -1317,27 +1515,29 @@ Items: {
 		Tooltip:
 			'''
 			奇妙なハスの葉を召喚する
-			パッドのツタを掴んで飛び回ろう
+			葉が近くにいるときに上でつかまり、空を飛び回ることができる
+			ジャンプで離す
+			横に素早く移動できるが、上への移動は遅い
+			「いろいろあるけど、これの上に乗ることはできない」
 			'''
 	}
 
 	SproutInABoot: {
-		DisplayName: スプラウトインブーツ
+		DisplayName: 苗木のブーツ
 		Tooltip:
 			'''
-			装備すると自動的にプレイヤーの下に葉っぱの足場を広げる
-			設置される足場ごとに1つの青々とした葉を使用
-			作動を続けるには水が必要
+			移動中、自動的に下に葉っぱの足場を茂った葉を消費して設置する
+			接地してくれる回数には制限があり、水に触れると回数が回復する
 			「驚くほど快適で耐久性がある」
 			'''
 	}
 
 	SproutInAGlove: {
-		DisplayName: スプラウトイングローブ
+		DisplayName: 苗木の手袋
 		Tooltip:
 			'''
-			敵の弾をランダムに回避する（33%の確率）
-			弾を回避すると少しの無敵時間と回復効果が得られる
+			敵の弾を33%の確率で回避する
+			回避するとライフが回復し、無敵時間が発生する
 			弾は貫通したり跳ね返ったりしても一度しか当たらない
 			'''
 	}
@@ -1346,23 +1546,23 @@ Items: {
 		DisplayName: 生きたツタのフック
 		Tooltip:
 			'''
-			十分近くなると自動的に外れる
+			距離が十分に近くなると自動的に外れる
 			「大抵のフックより優しい友達」
 			'''
 	}
 
 	LushWoodCrateItem: {
-		DisplayName: 青々とした木の箱
+		DisplayName: 茂った木の箱
 		Tooltip: 右クリックで開く
 	}
 
 	MysteriaCrateItem: {
-		DisplayName: ミステリアの箱
+		DisplayName: 神秘の箱
 		Tooltip: 右クリックで開く
 	}
 
 	Shellfish: {
-		DisplayName: 蔦の生い茂った貝
+		DisplayName: ツタの生い茂った貝
 		Tooltip: ""
 	}
 
@@ -1439,23 +1639,23 @@ Items: {
 	}
 
 	Lightbulb: {
-		DisplayName: 電球
-		Tooltip: "「チャーリーを遠ざける」"
+		DisplayName: 光るつぼみ
+		Tooltip: 「チャーリーを遠ざける」
 	}
 
 	LushLeaf: {
-		DisplayName: 青々とした葉
-		Tooltip: "「非常に耐久性がある」"
+		DisplayName: 茂った葉
+		Tooltip: 「非常に丈夫」
 	}
 
 	MysteriaClump: {
-		DisplayName: ミステリアの花束
-		Tooltip: "「素晴らしく柔らかい」"
+		DisplayName: 神秘の花束
+		Tooltip: 「素晴らしく柔らかい」
 	}
 
 	PinkPetal: {
 		DisplayName: ピンクの花びら
-		Tooltip: "「とても柔らかい」"
+		Tooltip: 「とても柔らかい」
 	}
 
 	PuffMaterial: {
@@ -1469,17 +1669,17 @@ Items: {
 
 	RedPetal: {
 		DisplayName: 赤い花びら
-		Tooltip: "「とても滑らか」"
+		Tooltip: 「とても滑らか」
 	}
 
 	WisplantItem: {
 		DisplayName: ウィスプラント
-		Tooltip: "「雲のように柔らかい」"
+		Tooltip: 「雲のように柔らかい」
 	}
 
 	YellowBulb: {
 		DisplayName: 黄色い球根
-		Tooltip: "「とても珍しい…」"
+		Tooltip: 「とても珍しい…」
 	}
 
 	ApotheosisBag: {
@@ -1488,7 +1688,7 @@ Items: {
 	}
 
 	ApotheosisBook: {
-		DisplayName: "「私のアポテオシス」"
+		DisplayName: 「私のアポテオシス」
 		Tooltip: 「エミリー」
 	}
 
@@ -1501,8 +1701,8 @@ Items: {
 		DisplayName: 成長の心
 		Tooltip:
 			'''
-			ミニオンのダメージを永続的に5%増加
-			1人につき1回しか使えない
+			永久に召喚ダメージが5%増加
+			一度だけ使用できる
 			「永遠に鼓動する心」
 			'''
 	}
@@ -1512,7 +1712,7 @@ Items: {
 		Tooltip:
 			'''
 			「ドルイドの強力なエネルギーが周囲を包む」
-			周囲で自然の成長速度が劇的に速くなる
+			周囲の自然の成長速度が劇的に速くなる
 			'''
 	}
 
@@ -1520,9 +1720,9 @@ Items: {
 		DisplayName: マイクロコズム
 		Tooltip:
 			'''
-			どこでも小さなヴァーダントのバイオームを作り出す
-			注意！広範囲を上書きする（小さいワールドで最低60x60タイル）
-			気にしない場所で使うようにしよう！
+			どこでも小さな新緑のバイオームを作り出す
+			注意！広範囲を上書きする（スモールのワールドで最低60x60タイル）
+			使っても問題ない場所で使おう！
 			「ガラスの中の世界、明るく輝く」
 			'''
 	}
@@ -1537,7 +1737,7 @@ Items: {
 	}
 
 	AquamarineHook: {
-		DisplayName: アクアマリンのフック
+		DisplayName: アクアマリンフック
 		Tooltip: ""
 	}
 
@@ -1545,51 +1745,52 @@ Items: {
 		DisplayName: バウンスブルーム
 		Tooltip:
 			'''
-			落下速度を遅くする
-			下キーを押し続けると速く落下できる
+			装備中、落下速度が遅くなる
+			下を押し続けると速く落下できる
 			軽い敵は花の上で跳ねる
 			'''
 	}
 
 	CloudsproutPuff: {
-		DisplayName: 雲の新芽
+		DisplayName: 雲の苗木
 		Tooltip:
 			'''
-			浮かんで弾むクッション
-			ワールドを退出しても残り続ける
-			既存の雲を左クリックで取り除ける
-			アイテムを持ちながら2秒間右クリックですべての雲の新芽を取り除ける
+			上に乗ると弾む木を設置する
+			ワールドを退出しても残る
+			設置した雲の苗木木を左クリックで除去し、
+			このアイテムを装備して2秒間右クリックで、
+			全ての雲の苗木を除去する
 			'''
 	}
 
 	GemFlower: {
 		DisplayName: ジェムフラワー
-		Tooltip: アポテオシスの場所にテレポートする
+		Tooltip: アポテオシスの元にテレポートする
 	}
 
 	Halfsprout: {
 		DisplayName: ハーフスプラウト
 		Tooltip:
 			'''
-			すべてのハーブを即座に成長させ、収穫して再び植える
+			全てのハーブを即座に成長させ、収穫し、再び植える
 			「自然の美しさ、それ自体を他者に捧げる」
 			'''
 	}
 
 	LivingLushWoodWand: {
-		DisplayName: 生きている青々とした木の杖
+		DisplayName: 生きている茂った木の杖
 		Tooltip:
 			'''
-			生きている青々とした木のブロックを設置する
-			[c/88FF88:右クリック]で青々とした葉に切り替える
+			生きている茂った木のブロックを設置できる
+			[c/88FF88:右クリック]で茂った葉に切り替える
 			'''
 	}
 
 	LushLeafWand: {
-		DisplayName: 青々とした葉の杖
+		DisplayName: 茂った葉の杖
 		Tooltip:
 			'''
-			青々とした葉のブロックを設置する
+			茂った葉のブロックを設置する
 			[c/88FF88:右クリック]で赤い花びらに切り替える
 			'''
 	}
@@ -1599,7 +1800,7 @@ Items: {
 		Tooltip:
 			'''
 			さまざまな配置スタイルでブロックを高速に設置できる
-			ブラシを持ちながら右クリックで配置スタイルを切り替え
+			これを装備して右クリックで配置スタイルを切り替え
 			塗りつぶしツールでは一度に最大1000ブロックまで設置可能
 			「粗末な外観の中に秘められた強力なアーティファクト」
 			'''
@@ -1619,10 +1820,10 @@ Items: {
 		DisplayName: ジップヴァイン
 		Tooltip:
 			'''
-			ツタを作成する能力を持つ
-			ツタはロープのように機能し、開けた場所ならどこでも使用可能
-			このツタは[i:{0}]を使用して作成され、破壊されるとドロップする
-			この杖を持ちながらジップヴァインを右クリックして削除する
+			ツタを設置できる
+			ツタはロープのように機能し、開けた場所ならどこでも使用できる
+			このツタは[i:{0}]茂った葉を使用して作成し、破壊されるとドロップする
+			これを装備してジップヴァインを右クリックして取り除く
 			'''
 	}
 
@@ -1631,7 +1832,7 @@ Items: {
 		Tooltip:
 			'''
 			ピンクの花びらブロックを設置する
-			[c/88FF88:右クリック]で生きている青々とした木に切り替える
+			[c/88FF88:右クリック]で生きている茂った木に切り替える
 			'''
 	}
 
@@ -1650,27 +1851,28 @@ Items: {
 			'''
 			特定の植物を刈り取る
 			ピッキパフやミステリアのカーテンを除去できる
-			一応斧としても使用可能
+			一応斧としても使用できる
 			'''
 	}
 
 	VerdantFishingRod: {
-		DisplayName: 青々とした釣り竿
+		DisplayName: 茂った釣り竿
 		Tooltip:
 			'''
-			持っていると光を放つ
-			ヴァーダント内で強化される
+			装備中、光を放つ
+			新緑内で強化される
 			'''
 	}
 
 	YellowPetalFloater: {
-		DisplayName: 雲の新芽
+		DisplayName: 雲の苗木
 		Tooltip:
 			'''
-			浮かんで弾むクッション
-			ワールドを退出しても残り続ける
-			既存の雲を左クリックで取り除ける
-			アイテムを持ちながら2秒間右クリックですべての雲の新芽を取り除ける
+			上に乗ると弾む木を設置する
+			ワールドを退出しても残る
+			設置した雲の苗木木を左クリックで除去し、
+			このアイテムを装備して2秒間右クリックで、
+			全ての雲の苗木を除去する
 			'''
 	}
 
@@ -1685,65 +1887,65 @@ Items: {
 	}
 
 	AquamarinePlatinumStaff: {
-		DisplayName: アクアマリンスタッフ
+		DisplayName: アクアマリンの杖
 		Tooltip:
 			'''
-			召喚されたミニオンからボルトを放つ
-			ボルトはミニオンの一部の追加ダメージを得る
+			召喚したミニオンから魔法弾を発射する
+			魔法弾はミニオンのダメージに応じてダメージが増加
 			'''
 	}
 
 	AquamarineStaff: {
-		DisplayName: アクアマリンスタッフ
+		DisplayName: アクアマリンの杖
 		Tooltip:
 			'''
-			召喚されたミニオンからボルトを放つ
-			ボルトはミニオンの一部の追加ダメージを得る
+			召喚したミニオンから魔法弾を発射する
+			魔法弾はミニオンのダメージに応じてダメージが増加
 			'''
 	}
 
 	LushDagger: {
-		DisplayName: 青々とした棘
+		DisplayName: 茂った棘
 		Tooltip:
 			'''
-			三連で投擲する
+			素早く三連で投げる
 			「自然が選ぶ厄介者」
 			'''
 	}
 
 	LushWoodBow: {
-		DisplayName: 青々とした木の弓
+		DisplayName: 茂った木の弓
 		Tooltip: ""
 	}
 
 	LushWoodHammer: {
-		DisplayName: 青々とした木のハンマー
+		DisplayName: 茂った木のハンマー
 		Tooltip: ""
 	}
 
 	LushWoodSword: {
-		DisplayName: 青々とした木の剣
+		DisplayName: 茂った木の剣
 		Tooltip: ""
 	}
 
 	MudBoulderItem: {
-		DisplayName: 青々とした土の玉
+		DisplayName: 茂った土の玉
 		Tooltip: 軽い厄介事
 	}
 
 	SpikedPuffball: {
-		DisplayName: トゲ付きパフボール
+		DisplayName: スパイクパフボール
 		Tooltip: 空中で30秒間浮かび、その後落下
 	}
 
 	VerdantStaff: {
-		DisplayName: 青々とした癒しの杖
+		DisplayName: 茂った癒しの杖
 		Tooltip:
 			'''
 			神聖な癒しの花を召喚する
-			植物の近くにいると再生能力が向上する
-			一度に1つだけ召喚可能
-			既に花が出ている状態で再度使用すると花を移動できる
+			癒しの花のオーラ内にいるとライフが徐々に回復
+			1つだけ召喚できる
+			召喚中、再度使用で花を移動させる
 			'''
 		MultiplayerTooltip: 複数の花を召喚すると花が強化される
 	}
@@ -1759,23 +1961,23 @@ Items: {
 	}
 
 	CrystalHeart: {
-		DisplayName: クリスタルハート
+		DisplayName: クリスタルのハート
 		Tooltip:
 			'''
 			使用するとさまざまなデバフを無効化
-			プレイヤーごとに一度しか使用できない
+			一度だけ使用できる
 			多くの秘密を秘めている、どこかで、いつか
 			「ひび割れた、空っぽの心」
 			'''
 	}
 
 	ThornBlock: {
-		DisplayName: 棘のブロック
+		DisplayName: イバラのブロック
 		Tooltip: あらゆる形で不快
 	}
 
 	ThornWallItem: {
-		DisplayName: 棘の壁
+		DisplayName: イバラの壁
 		Tooltip: これは…おかしい
 	}
 
@@ -1783,48 +1985,46 @@ Items: {
 		DisplayName: アポテオティックホストヘッドドレス
 		Tooltip:
 			'''
-			ハチの群れを宿す
-			召喚アイテムを持つと、ハチがカーソルを囲み、継続ダメージを与える
-			ミニオンダメージが10％増加
-			最大ミニオンが2増加
-			蜂の巣パックによってハチが強化される
+			蜂の群れが後をついてくる
+			召喚武器を装備中、蜂がカーソルを追尾し、敵にダメージを与える
+			蜂の巣パックによって蜂が強化される
+			召喚ダメージが10%増加し、ミニオンスロットを2つ追加
 			「頭の上にあると、より一層不安を感じる」
 			'''
 	}
 
 	ApotheoticTreeHelmet: {
-		DisplayName: アポテオティックツリーバンド
+		DisplayName: アポテオティックの木のバンド
 		Tooltip:
 			'''
 			ヘッドバンドに木が生えている、なぜか癒しのオーラを持つ
 			木がさまざまな果物を実らせる
 			ミニオンの1体をクリックすると、一時的に大幅な強化を与える
-			ミニオンダメージが10％増加
-			最大ミニオンが1増加
+			召喚ダメージが10%増加し、ミニオンスロットを1つ追加
 			「木は命を癒し、命はあなたを癒す」
 			'''
 	}
 
 	ApotheoticChestplate: {
-		DisplayName: アポテオティックチェストプレート
+		DisplayName: アポテオティックの胸当て
 		Tooltip:
 			'''
-			ミニオンダメージが10％増加
-			最大ミニオンが1増加
+			召喚ダメージが10%増加
+			ミニオンスロットを1つ追加
 			'''
 	}
 
 	ApotheoticLeggings: {
-		DisplayName: アポテオティックレギンス
+		DisplayName: アポテオティックのすね当て
 		Tooltip:
 			'''
-			ミニオンダメージが5％増加
-			最大ミニオンが1増加
+			召喚ダメージが5%増加
+			ミニオンスロットを1つ追加
 			'''
 	}
 
 	HoneyHeart: {
-		DisplayName: ハニーハート
+		DisplayName: 蜂蜜のハート
 		Tooltip: ""
 	}
 
@@ -1839,7 +2039,7 @@ Items: {
 	}
 
 	FruitIconYellow: {
-		DisplayName: ハニードロップ
+		DisplayName: 蜂蜜のしずく
 		Tooltip: ""
 	}
 
@@ -1853,12 +2053,12 @@ Items: {
 	}
 
 	LushWoodPlankBlock: {
-		DisplayName: 青々とした木材
+		DisplayName: 茂った木
 		Tooltip: ""
 	}
 
 	LushPlankWallItem: {
-		DisplayName: 青々とした木の壁
+		DisplayName: 茂った木の壁
 		Tooltip: ""
 	}
 
@@ -1873,13 +2073,13 @@ Items: {
 	}
 
 	LushFenceItem: {
-		DisplayName: 青々としたフェンス
+		DisplayName: 茂った木のフェンス
 		Tooltip: ""
 	}
 
 	LushGrassSeeds: {
-		DisplayName: 青々とした草の種
-		Tooltip: "「レタスみたいな味がする」"
+		DisplayName:  茂った草の種
+		Tooltip: 「レタスみたいな味がする」
 	}
 
 	BlueDyeBulb: {
@@ -1887,7 +2087,7 @@ Items: {
 		Tooltip:
 			'''
 			「見事に鮮やかな色！」
-			塗料（青）の作成に使用
+			塗料（青）の作成に使う
 			'''
 	}
 
@@ -1896,7 +2096,7 @@ Items: {
 		Tooltip:
 			'''
 			「とても喜ばしい色！」
-			塗料（銀）の作成に使用
+			塗料（銀）の作成に使う
 			'''
 	}
 
@@ -1906,8 +2106,8 @@ Items: {
 	}
 
 	LushLoomItem: {
-		DisplayName: 青々とした織機
-		Tooltip: リビングウッドの織機と通常の織機の両方として機能する
+		DisplayName: 茂った織機
+		Tooltip: リビングウッドの織機と通常の織機の機能を持つ
 	}
 
 	TrimmedOvergrownBrickItem: {
@@ -1917,72 +2117,72 @@ Items: {
 
 	BasicTerrariumItem: {
 		DisplayName: 基本のテラリウム
-		Tooltip: "「観察していて心地よい」"
+		Tooltip: 「観察していて心地よい」
 	}
 
 	FlotieTerrariumItem: {
 		DisplayName: フラティーのテラリウム
-		Tooltip: "「リラックスできて興味深い…」"
+		Tooltip: 「リラックスできて興味深い…」
 	}
 
 	FlotinyTerrariumItem: {
 		DisplayName: フロティニーのテラリウム
-		Tooltip: "「テラリウムの中の浮かぶ電球？これが未来のランプだ！」"
+		Tooltip: 「テラリウムの中の浮かぶ電球？これが未来のランプだ！」
 	}
 
 	MysteriaFlotinyTerrariumItem: {
 		DisplayName: ミステリアフロティニーのテラリウム
-		Tooltip: "「見るだけでほとんど催眠的なパターンだ」"
+		Tooltip: 「見るだけでほとんど催眠的なパターンだ」
 	}
 
 	MysteriaFlotieTerrariumItem: {
 		DisplayName: ミステリアフラティーのテラリウム
-		Tooltip: "「その魂の風は永遠に吹き続ける」"
+		Tooltip: 「その魂の風は永遠に吹き続ける」
 	}
 
 	AquariumItem: {
 		DisplayName: アクアリウム
-		Tooltip: 水中生物を飼うのに使える
+		Tooltip: 水中の生物を飼うのに使える
 	}
 
 	PoolwormAquariumItem: {
 		DisplayName: プールワームのアクアリウム
-		Tooltip: "「楽しそうに見える！」"
+		Tooltip: 「楽しそうに見える！」
 	}
 
 	BulbboxAquariumItem: {
 		DisplayName: バルボックスのアクアリウム
-		Tooltip: "「この子なら泳ぎで勝てそうだ」"
+		Tooltip: 「この子なら泳ぎで勝てそうだ」
 	}
 
 	MossCarpAquariumItem: {
 		DisplayName: コケ鯉のアクアリウム
-		Tooltip: "「魚の底に小さなテラリウムがある…」"
+		Tooltip: 「魚の底に小さなテラリウムがある…」
 	}
 
 	AxolotlAquariumItem: {
 		DisplayName: アホロートルのアクアリウム
-		Tooltip: "「彼らの小さな鳴き声、聞いたことある？」"
+		Tooltip: 「彼らの小さな鳴き声、聞いたことある？」
 	}
 
 	RedSnailCage: {
-		DisplayName: 赤いカタツムリのケージ
-		Tooltip: "「自信に満ちているが、遅い」"
+		DisplayName: 赤いカタツムリのテラリウム
+		Tooltip: 「自信に満ちているが、遅い」
 	}
 
 	BulbSnailCage: {
-		DisplayName: バルブカタツムリのケージ
-		Tooltip: "「臆病だが、強力」"
+		DisplayName: バルブカタツムリのテラリウム
+		Tooltip: 「臆病だが、強力」
 	}
 
 	LushWingletItem: {
-		DisplayName: 青々としたウィングレット
-		Tooltip: "「小さくて弱々しい」"
+		DisplayName: 茂ったウィングレット
+		Tooltip: 「小さくて弱々しい」
 	}
 
 	LushWingletTerrariumItem: {
-		DisplayName: 青々としたウィングレットのテラリウム
-		Tooltip: "「…満足しているように見える！」"
+		DisplayName: 茂ったウィングレットのテラリウム
+		Tooltip: 「…満足しているように見える！」
 	}
 
 	PlainMicrocosm: {
@@ -2008,432 +2208,852 @@ Items: {
 		Tooltip:
 			'''
 			クロロヴァインを設置できる
-			このツタはロープのように機能し、どんな空間でも使用可能
-			これらのツタは[i:{0}]を使って作られ、破壊されるとそれを落とす
+			このツタはロープのように機能し、どんな所でも使用できる
+			このツタは[i:{0}]茂った葉を使用して作成し、破壊されるとドロップする
 			魔法の力で非常に速く登ることができる
-			この杖を持ちながらクロロヴァインを右クリックして取り除ける
+			これを装備してクロロヴァインを右クリックして取り除く
 			'''
 	}
 
 	ShellSnailCage: {
-		DisplayName: シェルカタツムリのケージ
-		Tooltip: 気まぐれだが頑丈
+		DisplayName: シェルカタツムリのテラリウム
+		Tooltip: 「気まぐれだが頑丈」
 	}
 
 	ShellSnailItem: {
 		DisplayName: シェルカタツムリ
-		Tooltip: 頑丈でかわいらしい
+		Tooltip: 「頑丈でかわいらしい」
 	}
 
 	CanopySnailItem: {
 		DisplayName: キャノピーカタツムリ
-		Tooltip: 自然の美しい姿だね
+		Tooltip: 「自然の美しい姿だね」
 	}
 
 	CanopySnailCage: {
-		DisplayName: キャノピーカタツムリのケージ
-		Tooltip: のろまだが愛情深い
+		DisplayName: キャノピーカタツムリのテラリウム
+		Tooltip: 「のろまだが愛情深い」
 	}
 
 	StargazerPlantItem: {
 		DisplayName: ブルースターゲイザー
-		Tooltip: あなたの手の中で穏やかに輝く
+		Tooltip: 「あなたの手の中で穏やかに輝く」
 	}
 
 	LunarJellyItem: {
 		DisplayName: ルナーゼリー
-		Tooltip: 柔らかくて実体がない
+		Tooltip: 「柔らかくて実体がない」
 	}
 
 	LunarJellyTerrariumItem: {
 		DisplayName: ルナーゼリーのテラリウム
-		Tooltip: 夜は儚くない、ただ輝いている
+		Tooltip: 「夜は儚くない、ただ輝いている」
 	}
 
 	GlassFlowerItem: {
 		DisplayName: ガラスフラワー
 		Tooltip:
-		'''
-		近くのヴァーダントバイオームを無効化し、他のバイオームを使用可能にする
-		「すごく壊れやすい…」
-		'''
+			'''
+			近くの新緑を無効化し、他のバイオームを使用可能にする
+			「すごく壊れやすい…」
+			'''
+	}
+
+	DropsnailItem: {
+		DisplayName: ドロップスネイル
+		Tooltip: 「柔らかくて、冷たい」
+	}
+
+	SmokeBulbItem: {
+		DisplayName: 蒸気のつぼみ
+		Tooltip:
+			'''
+			設置して右クリックで蒸気が出る
+			「……臭い」
+			'''
+	}
+
+	TearBulbItem: {
+		DisplayName: 涙のつぼみ
+		Tooltip:
+			'''
+			設置して右クリックで、涙の雨のエフェクトがかかる
+			「タマネギみたいなもの」
+			'''
+	}
+
+	PuffCandleItem: {
+		DisplayName: パフの蝋燭
+		Tooltip: ""
+	}
+
+	PuffLampItem: {
+		DisplayName: パフのランプ
+		Tooltip: ""
+	}
+
+	PuffLanternItem: {
+		DisplayName: パフのランタン
+		Tooltip: ""
+	}
+
+	PuffWorkbenchItem: {
+		DisplayName: パフの作業台
+		Tooltip: ""
+	}
+
+	PuffDoorItem: {
+		DisplayName: パフのドア
+		Tooltip: ""
+	}
+
+	PuffBookcaseItem: {
+		DisplayName: パフの本棚
+		Tooltip: ""
+	}
+
+	PuffDresserItem: {
+		DisplayName: パフのドレッサー
+		Tooltip: ""
+	}
+
+	PuffCandelabraItem: {
+		DisplayName: パフの燭台
+		Tooltip: ""
+	}
+
+	PuffChairItem: {
+		DisplayName: パフのイス
+		Tooltip: ""
+	}
+
+	PuffSinkItem: {
+		DisplayName: パフのシンク
+		Tooltip: ""
+	}
+
+	TearPlantItem: {
+		DisplayName: 涙の花
+		Tooltip: 「いつかまた会えるかもしれない」
+	}
+
+	DropsnailCage: {
+		DisplayName: ドロップスネイルのテラリウム
+		Tooltip: 「水っぽいけど優しい」
+	}
+
+	JellydewItem: {
+		DisplayName: ジェリーデュー
+		Tooltip: 「なんて可愛いんだ！」
+	}
+
+	JellydewAquariumItem: {
+		DisplayName: ジェリーデューのテラリウム
+		Tooltip: ""
+	}
+
+	PuffBathtubItem: {
+		DisplayName: パフの浴槽
+		Tooltip: ""
+	}
+
+	PuffBedItem: {
+		DisplayName: パフのベッド
+		Tooltip: ""
+	}
+
+	PuffClockItem: {
+		DisplayName: パフの時計
+		Tooltip: ""
+	}
+
+	PuffTableItem: {
+		DisplayName: パフのテーブル
+		Tooltip: ""
+	}
+
+	PuffPlatformItem: {
+		DisplayName: パフの足場
+		Tooltip: ""
+	}
+
+	PuffSofaItem: {
+		DisplayName: パフのソファ
+		Tooltip: ""
+	}
+
+	PuffPianoItem: {
+		DisplayName: パフのピアノ
+		Tooltip: ""
+	}
+
+	TearRainEventBox: {
+		DisplayName: オルゴール (涙の雨)
+		Tooltip: ""
+	}
+
+	PoetryBook: {
+		DisplayName: 「走り書き」
+		Tooltip: 右クリックで読む
+	}
+
+	DreamGrave: {
+		DisplayName: 草に覆われた墓石
+		Tooltip: ""
+	}
+
+	MaGrave: {
+		DisplayName: "{$DreamGrave.DisplayName}"
+		Tooltip: ""
+	}
+
+	MeGrave: {
+		DisplayName: 個人の墓石
+		Tooltip: ""
+	}
+
+	PaGrave: {
+		DisplayName: "{$DreamGrave.DisplayName}"
+		Tooltip: ""
 	}
 }
 
-# This file is for miscellaneous stuff that I don't really want to move to its own file.
-# If a single part ever gets too large, I'll move it to its own file.
-MapObject: {
-	VerdantPylonTile: ヴァーダントのパイロン
-	FloatingCrystal: 浮遊するクリスタル
-}
+MusicDisplay: {
+	ModName: Verdant
 
-TileInteraction: {
-	MysteriaClock: {
-		London: " (ロンドン時間)"
-		NewYork: " (ニューヨーク時間)"
+	VibrantHorizon: {
+		DisplayName: Vibrant Horizon (新緑 - 昼)
+		Author: by Heltonyan
+	}
+
+	TearRain: {
+		DisplayName: Tear Rain (地下新緑)
+		Author: by GabeHasWon
+	}
+
+	ApotheosisLullaby: {
+		DisplayName: Apotheosis Lullaby (アポテオシスのテーマ)
+		Author: by GabeHasWon & Liz
+	}
+
+	PetalsFall: {
+		DisplayName: Petals Fall (新緑 - 雨)
+		Author: "{$Mods.Verdant.MusicDisplay.ApotheosisLullaby.Author}"
+	}
+
+	TearRainEvent: {
+		DisplayName: Of Petrichor (涙の雨のテーマ)
+		Author: by mzxie
 	}
 }
 
-ApotheosisName: アポテオシス
-ApotheosisFullName: アポテオシス
+NPCDialogue: {
+	Guide: {
+		ApotheosisEvilDown: 地下深くの緑意の洞窟からかすかな声が聞こえる。見に行ってみたほうがいいかもしれないよ。
+		ApotheosisSkeletronDown: さらに強い声が緑意の洞窟から聞こえてくる。そこを見てみて。
+	}
 
-# Try to keep these short, the text looks weird if it's too long
-VineHookLines: {
-	0: わー！
-	1: わっほー！
-	2: うぇーい！
+	Dryad: {
+		0: この茂った土地が大好き。ここでは世界が力強い。
+		1: 今までこの場所を見たことがないなんて信じられないわ…
+		GreenCrystal: もし興味があれば、素晴らしい緑のクリスタルをいくつか分けてあげる。ただし、あまり多くはないけれど。
+	}
+
+	Stylist: ここは湿気がひどすぎるわ、髪がすごく広がってきちゃった。
+
+	WitchDoctor: {
+		0: ここの花々に宿るエネルギー…それは力強く流れている。
+		1: 葉の中に古代の力を感じる。
+		Dryad: "{0}が彼女の在庫をいくつかくれた…見てみるか？なかなか良いものだ。"
+	}
+
+	# Keep the {0} to refer to the Dryad's name.
+
+	DyeTrader: {
+		0: これぞ景色だ！この花たちはなんて美しい色をしているんだろう！
+		1: この球根の光…見事だ…
+	}
+
+	TaxCollector: {
+		0: ちっ！この葉が家に入ってくるんだ。誰か片付けろ！
+		1: あの明るい花がうるさい！その光をワシの視界から消してくれ！
+	}
+
+	Painter: この色合いは美しい！なんて素晴らしい風景なんだ！
+	Princess: ここには本当にたくさんのきれいな色がありますわ！
+ }
+
+NPCs: {
+	HostFly: {
+		DisplayName: 敵のウィングレット
+		Entry: 小さなハエの群れの女家長。子供たちが襲われていることに怒っている。近縁種の茂ったウィングレットは一般的だが、この種は自然界では絶滅してしまったようだ。
+	}
+
+	Mossling: {
+		DisplayName: モスリング
+		Entry: 湿り気のある緑豊かな場所に生息する、肉眼ではほとんど見えないほどの小さな粒。耳には聞こえないリズムに合わせて動く。残念ながら、今では自然界で見つけることはできない。
+	}
+
+	# Note that the Hostess Winglet and the Mossling are both deprecated.
+	# They are only visible in-game when a cheat mod is active.
+
+	SmallFly: {
+		DisplayName: 茂ったウィングレット
+		Entry: 葉・花びら・肉でできた小さな生き物。臆病だが無害。どこか、ほんの少しの哀愁を漂わせている。
+	}
+
+	Bumblebee: {
+		DisplayName: バンブルビー
+		Entry: バンブルの要素が強めの蜂。蜂の要素も少し加わったバンブル。羽の生えた小さな粒のような存在。
+	}
+
+	Axolotl: {
+		DisplayName: アホロートル
+		Entry: 基本的には水生生物だが、陸上でも問題なく生きていける（少し落ち着きがないが）。背景の壁にある穴に入り込むのを好む。
+	}
+
+	BulbboxJelly: {
+		DisplayName: バルボックスゼリー
+		Entry: 好奇心旺盛で無害な小さなクラゲ。透明な体から、植物のような触手が伸びている
+	}
+
+	MossCarp: {
+		DisplayName: モスカープ
+		Entry: この魚の腹部には栄養分や植物が付着しており、他のモスカープがそれを採取できるため、共生関係が築かれている。
+	}
+
+	Poolworm: {
+		DisplayName: プールワーム
+		Entry: 新緑で最も小さな水生生物。釣り餌として最適。
+	}
+
+	Flotie: {
+		DisplayName: フラティー
+		Entry: 緑豊かな洞窟で見られる、好奇心旺盛で光る生き物。たいてい、子供たちに囲まれている姿が見られる。
+	}
+
+	Flotiny: {
+		DisplayName: フロティニー
+		Entry: 小さな浮遊生物。宙に浮いてはいるものの、音を立てることはなく、そよ風に揺られるかのように優しく揺れる以外は動かない。
+	}
+
+	MysteriaFlotie: {
+		DisplayName: 神秘のフラティー
+		Entry: 神秘の森で見られる、一般的なフロティニーの亜種。心地よい花の香りがする。
+	}
+
+	MysteriaFlotiny: {
+		DisplayName: 神秘のフロティニー
+		Entry: 近発見された生物で、神秘の木の樹冠付近に集まる習性があるようだ。この生物については、まだ何か秘密があるのか​​もしれない。
+	}
+
+	Folifish: {
+		DisplayName: フォリーフィッシュ
+		Entry: 体が植物に覆われた魚。食べてもそれほど美味しくはないが、健康にはとても良いらしい。しかし、新緑からはほとんど姿を消してしまったようだ。
+	}
+
+	PuffSlimeSmall: {
+		DisplayName: パフスライム
+		Entry: ごく一般的なスライム……と言いたいところだが、ずっと人懐っこくて好奇心旺盛、そしてフワフワしている！……それに、ちょっとだけ落ち着きがないかもしれない。
+	}
+
+	VerdantBulbSnail: {
+		DisplayName: バルブカタツムリ
+		Entry: このカタツムリは電球を食べたのだろうか？いいえ。電球を食べたのか？……もしかすると。
+	}
+
+	# Sorry for the below entry being really long, I just think it's funny.
+
+	VerdantRedGrassSnail: {
+		DisplayName: 赤い花びらのカタツムリ
+		Entry: 何千年も昔、あるマッドサイエンティストが不可能を成し遂げたと言われている。それは、植物と動物を融合させることだった。人間からは忌み嫌われ、自然からも恐れられたその獣のような被造物は、この残酷で容赦のない世界で、独り立ちして生きている。彼らはあらゆるものを求め始めた――力・愛・友情、そして何よりも、ちっぽけな存在であることを。その探求において、そしてその探求においてのみ、彼らは成功したと言えるかもしれない。とはいえ、彼らも町のだれかから聞いた話だそうで、肝心の相手は覚えていないとのこと。だから、あれこれ聞くのはやめて、何か買っていってほしい。結局のところ、このカタツムリは葉っぱでできている――それさえ知っていれば十分なのだ。
+	}
+
+	ShellSnail: {
+		DisplayName: シェルカタツムリ
+		Entry: 葉の量が少ない分、少しばかり丈夫になっているが、その素晴らしさは変わらない。
+	}
+
+	CanopySnail: {
+		DisplayName: キャノピーカタツムリ
+		Entry: この力強いカタツムリの殻の上には、小さな森がバランスよく乗っている。よく見ると、そこには無数の極小のカタツムリたちがいるのがわかる。
+	}
+
+	LunarJelly: {
+		DisplayName: ルナーゼリー
+		Entry: どうやら夜が新緑へと忍び込んできたようだ。この神秘的な生き物は、ブルースターゲイザーが受粉したときにのみ現れ、すぐに消えてしまう。その理由は誰にもわからない。
+	}
+
+	Dropsnail: {
+		DisplayName: ドロップスネイル
+		Entry: 新緑に数多ある涙の雫の一つから凝縮して生まれたカタツムリ。その出自とは裏腹に、他のどのカタツムリよりも陽気な性格をしている。もしかすると、自らの生まれに抗っているのかもしれない。
+	}
+
+	Jellydew: {
+		DisplayName: ジェリーデュー
+		Entry: 水に含まれるエネルギーによって形作られた、クラゲの姿をした水だ。
+	}
 }
 
-Condition.InVerdant: ヴァーダントバイオーム
+Origins: {
+	Botanist: {
+		DisplayName: 植物学者
+		Flavor: 科学界のドルイド；生命とは何か、生と死、そして何よりも美味しいキノコを知る。
+		Description: 500個のラッシュナイフ・10個のウィスプラント・10個のピンクパフ・最大マナ80、そして植物繊維の紐についての専門的なガイドを持って開始する。
+	}
 
-RecipeCondition: {
-	AfterApotheosisDownedPlantera: アポテオシスのプランテラの贈り物を受け取った後
-	HasShears: ハサミ[i:{0}]を持っている間
+	MinorSummoner: {
+		DisplayName: ラッシュマン
+		Flavor: 言葉だけでアポセオシスの子供。過去には植物学者だった。
+		Description: 茂った木ののフルセット・イエロースプラウト・ライトブルームを持ち、最大ライフが減少した状態で開始する。
+	}
 }
 
-"Keybinds.Verdant:SquidForm.DisplayName": Verdant：イカ形態
 
-GameTips: {
-	VerdantGameTip0: アポテオシスと頻繁に話すと、報酬をくれるかもしれない。
-	VerdantGameTip1: 緑の洞窟は、どこでも休息を提供してくれる！
+Projectiles: {
+	PermVineWandProjectile.DisplayName: 魔法の蔓
+	AquamarineBolt.DisplayName: アクアマリンの魔法弾
+	HealPlants.DisplayName: 治癒の植物
+	HealingFlower.DisplayName: 黄色い芽
+	PropellerpadProjectile.DisplayName: 奇妙なハスの葉
+	VerdantHealingMinion.DisplayName: 癒しの花
+	VerdantSnailMinion.DisplayName: 草に覆われたカタツムリ
+	AquamarineHookProjectile.DisplayName: ${ProjectileName.GemHookAmethyst}
+	FlotieOfWrath.DisplayName: 怒りのフラティー
+	MagicWisplantProj.DisplayName: 魔法のウィスプラント
+	MudBoulder.DisplayName: 茂った土の塊
+	PestControlTag.DisplayName: 害虫駆除タグ
+	VerdantBobber.DisplayName: 新緑の浮き
+	VerdantWisp.DisplayName: ウィスプ
+	VineHookProjectile.DisplayName: ${ProjectileName.GemHookAmethyst}
+	VineWandVine.DisplayName: 蔓
+	WisplantInfusedLushBallProjectile.DisplayName: ウィスプラントが注入された茂った土のボール
+	ApotheosisHand.DisplayName: アポテオシスの手
+	HealingParticle.DisplayName: 治癒
+	Smoke.DisplayName: 煙
+	LushDaggerProj.DisplayName: 茂った棘
+	SpikedPuffballProj.DisplayName: スパイクパフボール
+	HostSwarm.DisplayName: 群れ
+	HostSwarmBee.DisplayName: 蜂の群れ
+	FruitProjectile.DisplayName: 果物
+	ChlorovineWandProjectile.DisplayName: クロロヴァイン
 }
 
-DryadShop: {
-	Restock: 5日ごとに補充、またはヴァーダント内では3日ごとに補充
-	Condition: 一回おきのストックローテーション
+ScreenText: {
+	RightClick: 右クリックして続ける
+
+Apotheosis: {
+	EoWName: イーター
+	BoCName: 脳
+
+	Intro: {
+		0: こんにちは、旅人。
+		1: 新しい顔を見るのは久しぶりだ。
+		2: 私のことはアポテオシスと呼んでくれ。
+		3: 緑豊かな植物の中心で私たちを見つけてごらん、
+		4: 君を助ける贈り物がいくつかあるかもしれない。
+		5: さらばだ…
+	}
+
+		# Intro.5 "Farewell" line has a little extra space to fade out nicely, keep it there.
+		# Try to keep the following lines around the same length, if possible
+		
+		Greeting: {
+			0: 呼吸を忘れずに、
+			1: 植物を元気に育て、
+			2: あの巨大な目を倒したら私のところに戻ってくるんだ。
+			3: また元気な姿で会えることを願っているよ。
+		}
+
+		Idle: {
+			Normal: {
+				0: あの跳ねる芽には特に自信があるんだ。
+				1: 私たちは樹木を宿そうとしているが、うまくいったか？
+				2: 私の羽ペンはどこだ…ん？
+				3: 『私』も『私たち』も、結局同じことだ。
+				4: これ以上言うことはない。
+				5: 外に出て、花の香りを楽しんでごらん。
+				6: さあ、早く行きなさい。
+				7: この辺りでヘビを見かけなかったか？
+				8: まだ花の香りを覚えている。
+				9: カタツムリは過小評価されている生き物だ。
+				10: この世界は君の庭だ、友よ。
+				11: うろうろする必要はない。
+				12: 私たちの草の上に金の山を置くがよい、驚きを得るために…
+				13: 時には、夕日を思い出す…
+				14: この世界で、君が祝福されることを願っている…
+				15: 探索は魂を満たす。
+				16: 水の流れに集中し、花々の輝きを感じるがよい…
+				17: 持っているものを大切にするがよい、子よ。
+				18: 共に成長してきたな、そうだろう？
+				19: …私はいい庭師だろうか？
+				20: また後で話そう。
+				21: もっと花が欲しいか？ふむ…
+				22: 火山について知っているか？
+				23: テラリウムのように、私は観察する。素敵で、美しい。
+				24: すべてと美しさを分かち合おう。
+				25: ミツバチを間近で見るのが懐かしい。
+				26: ここを歩いているのを見た。楽しんでいるのだろうか？
+				27: 踊れるときは踊るがよい、子よ。花々と共に踊れ。
+				28: もう少ししか言うことがないのが残念だ。
+				29: 何もの君を止めてはならない。私たちも、私も止まってはいないのだから。
+			}
+
+			EvilBoss: {
+				0: 恵みが君に訪れますように。
+				1: "{0}はもはや存在しない。"
+				2: 蔓延から解放された存在が…
+				3: 失われた空が今は少し澄んでいる。
+			}
+
+			Thoughts: {
+				0: "自然がもっとも素朴で純粋な場所で…"
+				1: ふむ…どうするか…
+				2: "害虫駆除か…"
+				3: ああ、思い出よ…
+				4: 研究、研究、研究…
+				5: 葉が落ち、我々は働く…
+				6: 物思いにふける私…
+				7: 葉と蔓の間に…
+				8: 調和の中での共鳴…
+				9: …迷子に…
+				10: 時々、ただ故郷が見たくなる。
+				11: …次は何をする？
+				12: もっと花が必要だな…
+				13: 蜂たちは、なんて自由なんだ…
+				14: 自分の中に慰めを見出して…
+			}
+
+			EoC: その偉大な目は驚異であったが、脅威でもあった。
+
+			Skeletron: {
+				0: あのスケルトンは…ややこしいやつだったな。
+				1: 貧しい者の自由は得られた…
+			}
+
+			MiscBosses: {
+				KingSlime: ああ、スライムの王が倒された、素晴らしい…
+				QueenBee: 私たちのミツバチと素敵な時間を過ごしていることを願っている。
+				Scarabeus: 砂漠の砂が今は穏やかに感じる。
+				MJW: ああ、あの輝くクラゲの夜を覚えているよ…
+				VinewrathBane: 花たちが今、とてもリラックスしているようだ。ありがとう。
+				AncientAvian: 空は今、より穏やかになった。よくやった。
+				StarplateRaider: あの輝くメカに興味があったが、残念ながら…
+				SirNautilus: 魚は魅力的な人々だ...
+				SunkenSea: 水草を揺らす波の音が聞こえてくる...
+			}
+
+			TearRain: {
+				0: ああ、また雨の音が聞けるなんて。 
+				1: 私は多くのことを嘆いている。あなたはどうだ？ 
+				2: ……思いを巡らせることこそが、生きるということなのか……？ 
+				3: 濡れないよう、気をつけて。 
+				4: 心が安らぐといいのだが。 
+				5: 私たちという存在について、なぜこれほど不確かさを感じるのだ？ 
+				6: ああ。流れる水よ……
+				7: 私の色を思い出させてくれる。 
+				8: さあ、行きなさい。滑らないように。 
+				9: ひと粒の涙、そしてまた一つの言葉……
+			}
+		}
+
+		Downed: {
+			EoC: {
+				0: 目が討ち倒された。感謝する。
+				1: この小物を受け取れ。
+				2: "{0}を倒したらまた戻ってきてくれ。"
+			}
+
+			Evil: {
+				0: "{0}を倒してくれて感謝する…"
+				1: 次なる頼みはこれだ。ダンジョン付近の巨大な骸骨を倒してくれ。
+				2: これは私の古い装備の一部だ…少し手を加えてある。
+			}
+
+			Skeletron: {
+				0: ダンジョンの魂は…部分的に解放された。
+				1: 君は受け取るにふさわしい。これを持っていってくれ。私たちのお気に入りだ。
+				2: さて、地獄の深淵で壁を見つけてくれ。それを取り除いてほしい。
+				3: でも、必要なだけ時間をかけてくれて構わない。
+				4: 成長は一朝一夕ではない。
+			}
+
+			WoF: {
+				0: 強力な精霊が解放された…
+				1: 私たちがもっと自由になると、いくつかの変化が見えてくるだろう。
+				2: もういくつか気づいているかもしれない。ともあれ、
+				3: 感謝として、これを受け取ってほしい。私…私はもう必要ないから。
+				4: …それと、ここにいる間に、
+				5: もっと悪を倒してくれれば、報酬を与えることを知っておいてほしい。
+				6: だから、時々様子を見に来てくれ、いいな？
+			}
+
+			AnyMech: {
+				0: 機械のそのうち一つが打ち倒された。
+				1: よくやった！私は何かを作っているところだ…
+				2: それは…奇妙だが楽しい。君も楽しんでくれ。
+			}
+
+			Plantera: {
+				0: 恐ろしい植物が死んだ。
+				1: これによって多くのチャンスが生まれる。
+				2: これは小さな恩恵だが、役に立てば嬉しい。
+				3: これからは、自分で作ることもできるだろう。
+				4: これも自由に受け取ってくれ、
+				5: これがあれば、きっと役に立つだろう。
+			}
+
+			Golem: {
+				0: 神殿の守護者が倒された。
+				1: これはちょっとした…私の情熱を注いだプロジェクトだ。
+				2: これがどれほど役立つかはわからないが、
+				3: 楽しいものになると見込んでいる。
+				4: 幸運を祈っているよ。
+			}
+
+			Cultist: {
+				0: あのペテン師どもが倒れたか、ふむ。
+				1: 奴らの行いは危険な愚行だった。
+				2: 脅威は徐々に…少なくなってきているようだな。
+				3: 我らの力の一片を、
+				4: 君の加護に捧げよう。存分に楽しむがよい。
+			}
+
+			MoonLord: {
+				0: どうやらこれが最後の戦いだろうな。
+				1: 君が他に何を計画しているかは知らぬが、
+				2: 我らに与えられるものはもうほとんど残っていない。
+				3: とても楽しかった、
+				4: 実に大変でもあったが、
+				5: 少し休憩が必要なようだ。
+				6: またいつの日か、新たなものに出会うかもしれないな。
+			}
+		}
+
+		# The following lines are not visible in-game at any point and will be added in a future update.
+		# Feel free to skip these until they're added.
+		
+		PestControlNotif: {
+			0: 壁が打ち破られた今、
+			1: 我々は自由に浄化を行える。 
+			2: この世界の汚染には、もうお気づきだろう？ 
+			3: 我々の間で……ある取り決めができるはずだ。 
+			4: この汚染は、肉体に憑りついた亡霊のようなもの。 
+			5: 我々は肉体を浄化し、その亡霊を退ける手助けができる。 
+			6: 単に、その……偶像を我々に渡してくれればいい。 
+			7: 備えを万全に。健闘を祈る。
+		}
+
+		PestControlWarning: {
+			0: 本当に始めるつもりか？ 
+			1: これは容易なことではないぞ。 
+			2: 準備が必要なら、一旦立ち去るがいい。 
+			3: 我々はここにいるぞ。
+		}
+
+		PestControl: {
+			0: よろしい。 
+			1: 準備は万全なのだろうな。 
+			2: 害獣を駆除し、侵略を鎮め、
+			3: 奴らを打ち倒すのだ。健闘を祈る。
+		}
+
+		# Lines after here are in-game.
+		
+		ItemInteractions: {
+			WiltedFlower: {
+				0: デイジー、私の好きな花だ。
+				1: 残念ながら、長い間見ていないな、ふむ？
+				2: ああ、何か気になることがあれば遠慮なく聞いてくれ。
+				3: 我々は隠し事はしないのだから。
+			}
+
+			ApotheosisBook: {
+				0: 私の古いノート。
+				1: いつもそれに書いていたのを覚えている、
+				2: 今でも、時々書きたくなるんだ。
+				3: まあ、もう使えないけれど。
+				4: それを見つめるだけでも奇妙なことだ、
+				5: 最後にそれに書いた時を考えると…。
+			}
+
+			LushLeaf: {
+				0: 私たちを囲む葉々、
+				1: ある意味、美しい。
+			}
+
+			Lightbulb: {
+				0: 私の最後の光、それは長い間助けになった。
+				1: その光が君にも役立つことを願っている。
+			}
+
+			YellowBulb: {
+				0: 私の好きな花、
+				1: この土地に広げている。
+				2: なんて心地よい…
+			}
+
+			Wisplant: {
+				0: 私たちは本当に…これを実験し始めた。
+				1: なぜかわからないが、楽しかった。
+			}
+
+			PuffMaterial: 正直に言うと、これを作れるかどうか試してみたかっただけなんだ。
+			Halfsprout: 興味深い小さな芽だな、ふむ？
+			MysteriaClump: ちょっと、ああ、広がるのは良いことだ。
+			PinkPetal: レッドペタルには言わないで。これは私のお気に入り。
+			RedPetal: ピンクペタルには言わないで。これは私のお気に入り。
+
+			CrudePaintbrush: {
+				0: ああ、私の古い絵筆だ。  
+				1: 申し訳ないが、少し急いでいる、  
+				2: でもこれが役立つ道具だと知っている。
+			}
+
+			Bouncebloom: {
+				0: 私たちは…まだ物事を把握している最中だった。
+				1: でも、楽しかった。
+			}
+
+			Cloudsprout: {
+				0: 正直に言うと、なぜこれをしたのかわからない。
+				1: 確かに美しいな、ふむ？
+			}
+
+			ThornBlock: …
+			FlotieItem: 私たちはこの小さな子が大好きだ。
+			FlotinyItem: 私たちはこの小さな子が大好きだ。
+			LushWingletItem: 最初のうちの一つ…
+
+			Propellerpad: {
+				0: 私のお気に入りの一つだ。
+				1: シンプルで、クリーンで、自然で、静か。
+				2: これ以上何が求められるだろう？
+			}
+
+			Mudsquid: {
+				0: おそらく私たちの誇るべき成果の一つだ。
+				1: こんなものは見たことも、ましてや使ったこともない。
+				2: これまでにあまり魔法を使ったことがないが…
+			}
+
+			SproutInAGlove: 時には、シンプルさが鍵となる。
+			VineHook: この男はいつも人生を楽しんでいる。
+
+			ExpertPlantGuide: {
+				0: ああ、私の古い本だ。
+				1: 数年前にこれを書いた…
+				2: 時が経つのは早いな。
+			}
+
+			ApotheoticSoul: {
+				0: …
+				1: …あまり深く潜らないように、
+				2: しかし、これは私たちの力の小さなサンプルだ。
+				3: これは君が得たものだ、
+				4: そしてここまで来るのはよくやった。
+				5: これ以上は必要ないだろう、
+				6: 私たちが君に与えたものを理解してくれることを願っている。
+				7: 世界は君を大切に思っている、
+				8: 君がそれを大切にしているように。
+			}
+
+			LushDagger: {
+				0: 暴力は避けられないものだが、
+				1: 私たちは君が私たちの植物でそれを避けてくれることを願っている。
+			}
+
+			BowlFruit: {
+				0: ああ、これがボウルフルーツか。なんと美しいものだ。
+				1: その味を教えてくれ。
+			}
+
+			Dropberry: {
+				0: このベリー、実に綺麗だな。
+				1: その味を思い出せたなら、どれほど幸せだうか。
+			}
+
+			FloralTea: 旅路において、役立つものだろう？
+
+			Grapecherry: {
+				0: 科学者たるもの、時として…
+				1: 時として、過ちを犯すものだ。
+			}
+
+			Mystuber: 揚げようと揚げまいと、心臓に良きものだ。
+			Walnut: 時には…シンプルが一番だ。
+			Waterberry: 豊富にあるが…もしも…
+			HoneyNuggets: 蜂は魔法そのものだ。大切にしてくれ。
+
+			SmokeBulbItem: {
+				0: 私たちにできること……それは、どこか不穏なものかもしれない。 
+				1: でも、そこにはある種の「遊び心」も宿っていると思わないか？ 
+			}
+
+			TearBulbItem: {
+				0: これのおかげで、人間らしくいられる気がする。
+				1: この……涙を流すということが。 
+			}
+
+			SnailStatueItem: {
+				0: ……
+				1: ……あなたのことを、忘れたくない。 
+				TooSoon: ……忘れたくない。まだ……そのときは来てほしくない。 
+			}
+
+			HardyVineBook: {
+				0: あのツタ（についての、私の古いメモか。 
+				1: 不思議なものだ。 
+			}
+
+			LeafBook.0: あんなふうに絵を描けたら、よかったのに。 
+
+			LightbulbBook: {
+				0: あの小さくて、優しい光たち。 
+				1: あなたの滞在が……少しでも素敵なものになればいいのだが。 
+			}
+
+			RockBook: {
+				0: あの頃抱いていた志を、今でも覚えている。
+				1: 無謀な夢だったのかもしれない。 
+				2: あるいは……ほんの少しの可能性として、
+				3: それはあなたの未来にこそ、待っているものなのかもしれないね。
+			}
+		}
+	}
 }
-
-ShowApoth: アポテオシスに右クリックでこれを見せる
-
-Guide: {
-	ApotheosisEvilDown: 地下深くの緑意の洞窟からかすかな声が聞こえる。見に行ってみたほうがいいかもしれないよ。
-	ApotheosisSkeletronDown: さらに強い声が緑意の洞窟から聞こえてくる。そこを見てみて。
-}
-
-Dryad: {
-	0: この茂った土地が大好き。ここでは世界が力強い。
-	1: 今までこの場所を見たことがないなんて信じられないわ…
-	GreenCrystal: もし興味があれば、素晴らしい緑のクリスタルをいくつか分けてあげる。ただし、あまり多くはないけれど。
-}
-
-Stylist: ここは湿気がひどすぎるわ、髪がすごく広がってきちゃった。
-
-WitchDoctor: {
-	0: ここの花々に宿るエネルギー…それは力強く流れている。
-	1: 葉の中に古代の力を感じる。
-	Dryad: "{0}が彼女の在庫をいくつかくれた…見てみるか？なかなか良いものだ。"
-}
-
-# Keep the {0} to refer to the Dryad's name.
-
-DyeTrader: {
-	0: これぞ景色だ！この花たちはなんて美しい色をしているんだろう！
-	1: この電球の光…見事だ…
-}
-
-TaxCollector: {
-	0: ちっ！この葉が家に入ってくるんだ。誰か片付けろ！
-	1: あの明るい花がうるさい！その光を俺の視界から消してくれ！
-}
-
-Painter: この色合いは美しい！なんて素晴らしい風景なんだ！
-Princess: ここには本当にたくさんのきれいな色があります！
 
 SetBonuses: {
-Lush: 召喚ダメージが1増加
-Mysteria:
-	'''
-	タイルと壁の設置速度と範囲が増加
-	採掘速度が増加
-	敵の出現頻度が大幅に減少
-	'''
-Verdant:
-	'''
-	ミニオンダメージが4%増加
-	最大ミニオン数が1増加
-	落下速度が減少 - 下キーを押し続けると早く落下
-	リスポーン時にHPを50回復
-	'''
-
-Apotheotic: {
-	Tree:
+	Lush: 召喚ダメージが1増加
+	Mysteria:
 		'''
-		果物が大幅に早くなる
-		果物の効果が強化
-		最大ミニオン数が1増加
-		防御力が10増加
+		ブロックや壁の設置速度が上昇し、設置範囲が広がる
+		採掘速度が上昇
+		敵の出現率が大幅に低下
 		'''
-	Bee:
+	Verdant:
 		'''
-		ハチのダメージが増加
-		ハチが何かを倒すと、HPが10回復するハニーハートがドロップ
-		最大ミニオン数が1増加
-		ミニオンダメージが5%増加
-		'''
-	}
-}
-
-Biomes: {
-VerdantUndergroundBiome: {
-	TownNPCDialogueName: ヴァーダント
-	DisplayName: ヴァーダントバイオーム
-}
-
-VerdantBiome: {
-	TownNPCDialogueName: ヴァーダント
-	DisplayName: ヴァーダントバイオーム
-}
-
-NearApotheosisBiome: {
-	TownNPCDialogueName: アポテオシス付近
-	DisplayName: アポテオシス付近
-	}
-}
-
-Books: {
-# Try to keep every line here as long or shorter than the longest lines.
-# If they're too long, they will look really bad in the books.
-RockBook: {
-	Content:
+		召喚ダメージが4%増加
+		ミニオンスロットを1つ追加
+		落下速度が低下 - 下を押し続けると早く落下
+		リスポーン時にライフが50回復
 		'''
 
-		「推測では、遠くの島からのものと思われ、詳細は不明。
-		素晴らしい研究機会となりそうだ！
-		岩には黒曜石の条線が見られ、
-		その中に琥珀の粒子も見受けられる？これは後で調べる。
-		鉄、ビスマイト、鉛、黒曜石の微量が含まれている。
-		その古さにもかかわらず、触れるとまだ温かい─
-		また、空洞のような音も？さらにサンプルが必要で、周囲に
-		聞いてみたが…返答なし。追加の探索を行うかもしれない。
-		しばらく経った！
-		地図には[引っ掻き傷]の周辺に火山地帯が示されている。」
-
-		この本は、冒頭の内容から徐々にその目的が変わり、
-		探検家の記録のようになっていく。
-
-		"冒険は順調だが、実を結ばず、
-		理想的な森が静かに広がり、
-		
-		この冒険の終わりに待っているもの─
-		それは、大きな火山だと確信している…
-
-		間違いないんだ。」
-
-		'''
-	Title: 岩石
-}
-
-LightbulbBook: {
-	Content: {
-		0:
+	Apotheotic: {
+		Tree:
 			'''
-
-			「奇妙な球根？種？
-			柔らかい植物のような素材でできており、葉のような質感。
-			柔らかな光を放ち、時には波のように動くことがある。
-			日光の供給源として機能し、特定の花の上で育つ。」
-
+			果物の成長が大幅に早くなる
+			果物の効果が強化
+			ミニオンスロットを1つ追加
+			防御力が10増加
 			'''
-		1:
+		Bee:
 			'''
-
-			「水が満たされている？砂糖？
-			味は淡白で、少し甘く、土のような味、軽く草っぽく、鉄
-			（または他の金属？後で検査予定）のような風味がある。
-			珍しいもので、検査できる量はあまりない。
-			後で探しに行こう、良い食料になるかもしれない。
-			分析を超えた、信じられないような標本だ…
-			これらの蛍よりも優れた光源になるだろう。」
-
-			ランダムなものがページに並んでいる。
-			落書き、スケッチ、メモ。
-			時々、使える情報が少しだけ見つかる。
-			"汚れた水で育つ？"
-			"日光ではどうだろう？"
-			"成長する時、ほぼ花のようになる。"
-			"柔らかいが、丈夫。"
-
+			蜂のダメージが増加
+			蜂が敵を倒すと、取得するとライフが10回復する蜂蜜のハートがドロップする
+			ミニオンスロットを1つ追加
+			召喚ダメージが5%増加
 			'''
-	}
-
-	Title: 電球？
-}
-
-LeafBook: {
-	Content: {
-		0:
-			'''
-
-			この本は特に古く、ページが擦り切れ、妙に茶色く見える。
-			素材も明らかに異国のものだ。
-			ページの上部には水滴がいくつかついている。
-			細かい落書きもたくさんある。
-			その落書きはまず、ランダムな地形の風景のようなもの、
-			そして、ありふれた洞窟…なぜだろう。
-			日付も著者の名前も書かれていないが、
-			サインが一つあった。
-
-			'''
-		1:
-			'''
-
-			本をざっと調べると、次のページが目に留まる。
-
-			'''
-		2:
-			'''
-
-			「ほとんど布のような質感、丈夫でありながら柔らかい。
-			手に持つと不可解に落ち着く、球根の光でもよく育つ。
-			食べるのは不快で、草や土のような味がする。
-			豊富にある（本？ページ？近いうちに確認する）。
-			小さな部分で使えるかもしれない？
-			ツルのような塊で育つのか、それともただの塊なのか？
-			わからない。
-			主に花の周りで育つ。
-
-			（絶対に食べないこと）
-
-			ページに押し込んでみた。機能しているように見えるが、
-			もっと工夫が必要だ。ページが緑すぎる。」
-
-			'''
-	}
-
-	Title: 葉
-}
-
-HardyVineBook: {
-	Content:
-		'''
-
-		「このあたりで残されたわずかな生命の兆し。
-		驚くほど丈夫で、薄いにもかかわらず、
-		切り離すのはほぼ不可能に近い。
-		周りには平均的で小ぶりなツルや葉、植物が点在する中、
-		まばらに生えている。ときどき花をつけ、
-		小さな光を放つ球状の芽が咲くこともある。
-		
-		食用禁止
-		
-		レタスのようだが、革のような硬さで、土の味がする。
-		非常に頑丈なロープを作るのに使えそうだ。
-		補強材としての利用も検討か？
-		…できるかどうかは分からない。」
-
-		残された数ページには小さなスケッチや
-		時折短いメモが書かれている─
-
-		"…今はもっと豊富に…？"
-		"新しい標本はがっしりとしてきている"
-		"…発芽が頻繁に…"
-
-		─そして本は終わりを迎える。
-
-		'''
-	Title: ハーディヴァインの研究
-}
-
-ApotheosisBook: {
-	Content:
-		'''
-
-		「補給が尽きてからしばらく経った。
-		キャラバンは研究以外何も残っていなくて、
-		食べ物と言えばネズミやコウモリしかない。
-		ここの水は驚くほど清潔で新鮮で…空腹だけが問題だ。
-		とはいえ、いくつかの研究は進んでいる。
-		この地の植物を分類していて、それが…魔法のよう。
-		ただの言葉なのか、本当のことなのか、よく分からない。
-		驚くほど豊かな草や葉が生い茂っていて、
-		小さな木の苗木もあちこちで見かけた。
-		それと、非常に興味深い木も！
-		飢えにもかかわらず、ここは私にとって天国なんだ！」
-
-
-		...
-
-
-		この土地のわずかな食料で、しばらくは十分だった。
-		かろうじてだけど。
-		私は小さいながらも十分な研究施設を作った、
-		物を保管するため、そして自分を守るために。
-		しばしば、どこからともなく骨の残骸や怒ったコウモリが
-		私の周りに現れる。
-		私は探検家であって、モンスター退治は得意ではない。
-		それはさておき、食料はまだまだ不足している。
-		コウモリだけでなく、ネズミもいなくなった─
-		どうやら小さな生き物たちは最大の脅威を学んだようだ。
-		時間は私の手の届かないところにある。
-		研究は別として、私にはほとんど何も残っていない。」
-
-
-		...
-
-
-		「時が経てば疲れる。
-		研究は続き、熱意は新たな高みへと達し、
-		この奇妙な洞窟で唯一無二のものを目にするたびに。
-		空腹と疲労の裏側で、
-		悲惨な状況にもかかわらず、
-		私は今まで以上に強く生きている。
-		私にとって、これこそが人生だ。この地の生き物たちは
-		繁栄し、遊び、語り、戦っている。
-		私の目に見えないもっと多くのものがあるのだろう。
-		だが、死が扉を叩いている、
-		私にはドアを閉める術がない。
-		だが、もしかしたら、別の時代に、
-		これらの植物は別の目に見つけられ、
-		私が驚かされたように驚かせるのだろう。」
-
-
-		...
-
-
-		「視界に現れた花。球根のある花、
-		不思議な花。
-		花びらの間から、優しい光が見える。
-		落ち着くような光。
-		ここで見たことのないような光。
-		私はほとんど研究を放棄してしまった。
-		食料はなく、私は息も絶え絶えだ。
-		唯一の後悔は、この植物、
-		目の前に現れたこの贈り物を研究できないことだ。」
-		...
-		誰かが私の仕事を見つけますように。
-		私が死にながらも成し遂げたことに、
-		情熱が再び宿りますように。
-		この日記が、誰かの手に渡り、
-		健やかな状態で見つかりますように。
-		元気で、
-		さようなら。」
-
-		'''
-	# Note that the lines "in good spirits," and "and goodbye." are intentionally spaced out, ideally keep that if you can.
-	
-	Title: "「私のアポテオシス」"
-	}
-}
-
-Buffs: {
-	HealingFlowerBuff: {
-		DisplayName: 癒しの花
-		Description: 花のオーラがあなたを癒す
-	}
-
-	PropellerpadBuff: {
-		DisplayName: プロペラパッド
-		Description: なんて奇妙な睡蓮！
-	}
-
-	SnailBuff: {
-		DisplayName: カタツムリのミニオン
-		Description: 草に覆われたカタツムリがあなたのために戦う
-	}
-
-	FlotiePetBuff: {
-		DisplayName: 憤怒のフラティー
-		Description: "「頭蓋骨があるけど、とても落ち着く」"
 	}
 }
 
@@ -2463,16 +3083,147 @@ SnailDialogue: {
 	}
 }
 
-Origins: {
-	Botanist: {
-		DisplayName: 植物学者
-		Flavor: 科学界のドルイド；生命とは何か、生と死、そして何よりも美味しいキノコを知る。
-		Description: 500個のラッシュナイフ、10個のウィスプラント、10個のピンクパフ、最大マナ80、そして植物繊維の紐についての専門的なガイドを持って開始する。
+Tiles: {
+	VerdantPylonTile.MapEntry: 新緑のパイロン
+	FloatingCrystal.MapEntry: 浮遊するクリスタル
+	AquamarineTile.MapEntry: アクアマリン
+	Beehive.MapEntry: 蜂の巣
+	LootPlant.MapEntry: パッションフラワー
+	MysteriaSprout.MapEntry: 神秘の苗木
+	LushSapling.MapEntry: 苗木
+	MarigoldTile.MapEntry: マリーゴールド
+	WaterberryBush.MapEntry: 茂み
+	WaterberryBushPicked.MapEntry: 茂み
+	Wisplant.MapEntry: ウィスプラント
+	Apotheosis.MapEntry: アポテオシス
+	AquamarineTorch.MapEntry: アクアマリンのたいまつ
+	HardmodeApotheosis.MapEntry: アポテオシス
+	LushDoorClosed.MapEntry: 茂った木のドア
+	LushDoorOpen.MapEntry: 茂った木のドア
+
+	LushDresser: {
+		MapEntry: 茂った木のドレッサー
+		ContainerName: 茂った木のドレッサー
 	}
 
-	MinorSummoner: {
-		DisplayName: ラッシュマン
-		Flavor: 言葉だけでアポセオシスの子供。過去には植物学者だった。
-		Description: ラッシュウッドのフルセット、イエロースプラウト、ライトブルームを持ち、最大ライフが低下した状態で開始する。
+	VerdantWoodChest: {
+		MapEntry: 茂った木の宝箱
+		ContainerName: 茂った木の宝箱
+	}
+
+	VerdantWood.MapEntry: 茂った木
+	LullabyBoxTile.MapEntry: オルゴール (アポテオシス)
+	PetalsFallBoxTile.MapEntry: オルゴール (新緑 - 雨)
+	TearRainBoxTile.MapEntry: オルゴール (地下新緑)
+	VibrantHorizonBoxTile.MapEntry: オルゴール (新緑 - 昼)
+	MysteriaDoorClosed.MapEntry: 神秘の木のドア
+	MysteriaDoorOpen.MapEntry: 神秘の木のドア
+
+	MysteriaDresser: {
+		MapEntry: 神秘の木のドレッサー
+		ContainerName: 神秘の木のドレッサー
+	}
+
+	SnailStatue.MapEntry: カタツムリの像
+	VerdantDoorClosed.MapEntry: 新緑のドア
+	VerdantDoorOpen.MapEntry: 新緑のドア
+
+	VerdantYellowPetalChest: {
+		MapEntry: 黄色の花びらの宝箱
+		ContainerName: 黄色の花びらの宝箱
+	}
+
+	GreenCrystal.MapEntry: グリーンクリスタル
+	ApotheoticPainting.MapEntry: 苗木
+	LightbulbPainting.MapEntry: 苗木
+	BigVerdantTree.MapEntry: 巨木
+	VerdantTree.MapEntry: 木
+	PeaceTreeTop.MapEntry: 平和の木
+	MysteriaTreeTop.MapEntry: 神秘の木
+	MysteriaTree.MapEntry: 神秘の木
+	VerdantRedPetal.MapEntry: 赤い花びら
+	VerdantPinkPetal.MapEntry: ピンクの花びら
+	VerdantLeaves.MapEntry: ツタ
+	VerdantGrassLeaves.MapEntry: 新緑の草
+	SnailShellBlock.MapEntry: カタツムリの殻
+	PuffBlock.MapEntry: パフブロック
+	OvergrownBricks.MapEntry: 繁茂レンガ
+	LushSoil.MapEntry: 茂った土
+	LivingLushWood.MapEntry: 生きている茂った木
+	GemsparkAquamarine.MapEntry: 発光ブロック（アクアマリン）
+	EmbeddedStoneAquamarine.MapEntry: アクアマリンの石ブロック
+	EmbeddedAquamarine.MapEntry: アクアマリンの茂った土ブロック
+	BackslateTile.MapEntry: 粘板岩
+	ThornTile.MapEntry: イバラ
+	LushPlanks.MapEntry: 茂った木
+	MysteriaFluff.MapEntry: 神秘的な綿毛
+	LushGrass.MapEntry: 茂った草
+	LightbulbLeaves.MapEntry: "{$VerdantGrassLeaves.MapEntry}"
+	TrimmedOvergrownBricks.MapEntry: 刈り取られた繁茂レンガ
+	PuffDresser.MapEntry: パフのドレッサー
+	Graves.MapEntry: 墓石
+}
+
+Configs: {
+	HeadLabel: Verdant クライアント設定
+	EnableSteamEffectLabel: "[i:3365] 蒸気エフェクトを表示"
+	EnableSteamEffectTooltip: 地下新緑にいる際、蒸気エフェクトを表示します
+	EnableForeOrBackgroundObjectsLabel: "[i:933] 前景/背景オブジェクトを表示"
+	EnableForeOrBackgroundObjectsTooltip: 装飾オブジェクトが地表の背景や前景にどこにでも表示されるようにします
+	EnableCustomWaterfallsLabel: "[i:2169] カスタム滝を有効にする"
+	EnableCustomWaterfallsTooltip: ブロックからしだれ柳のような滝を出現させることを可能にします
+	CustomDialogueSystemLabel: "[i:320] カスタムダイアログシステム"
+	CustomDialogueSystemTooltip: アポテオシスのカスタムダイアログシステムを使用できるようにします。オフにすると、ただのチャットが使用されます
+	FancyBookUILabel: "[i:4065] ファンシーな本のUI"
+	FancyBookUITooltip: 本のUIをユニークなものに変更します
+
+	VerdantClientConfig: {
+		DisplayName: "{$Mods.Verdant.Configs.HeadLabel}"
+
+		EnableSteam: {
+			Label: "{$Mods.Verdant.Configs.EnableSteamEffectLabel}"
+			Tooltip: "{$Mods.Verdant.Configs.EnableSteamEffectTooltip}"
+		}
+
+		BackgroundObjects: {
+			Label: "{$Mods.Verdant.Configs.EnableForeOrBackgroundObjectsLabel}"
+			Tooltip: "{$Mods.Verdant.Configs.EnableForeOrBackgroundObjectsTooltip}"
+		}
+
+		Waterfalls: {
+			Label: "{$Mods.Verdant.Configs.EnableCustomWaterfallsLabel}"
+			Tooltip: "{$Mods.Verdant.Configs.EnableCustomWaterfallsTooltip}"
+		}
+
+		CustomDialogue: {
+			Label: "{$Mods.Verdant.Configs.CustomDialogueSystemLabel}"
+			Tooltip: "{$Mods.Verdant.Configs.CustomDialogueSystemTooltip}"
+		}
+
+		JungleSpawn: {
+			Label: "[i:620] ジャングルのみに生成"
+			Tooltip:
+				'''
+				新緑がジャングルにしか生成されないようにします。
+				もしこれが問題であれば、ほとんどのModバイオームを上書きする可能性が低くなります
+				'''
+			}
+
+		DialogueSpeed: {
+			Label: "[i:4485] ダイアログ速度"
+			Tooltip: 全ての画面テキストのダイアログ速度を上げたり下げたりできます
+		}
+
+		CenterSpawn: {
+			Label: "[i:9] 中央に生成"
+			Tooltip:
+				'''
+				新緑をワールドのスポーン地点の真下のみに強制的に生成させます
+				砂漠や雪原などのバイオームと重なる可能性があります
+				この設定は「ジャングルのみに生成」より優先されます
+				'''
+		}
 	}
 }
+
+

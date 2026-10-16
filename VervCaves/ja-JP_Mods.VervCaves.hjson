@@ -20,12 +20,12 @@ Items: {
 
 	MarbleStiletto: {
 		DisplayName: 大理石の小剣
-		Tooltip: 攻撃は周囲の敵に一定の3のボーナスダメージを与える
+		Tooltip: 攻撃が周囲の敵に一定の3の追加ダメージを与える
 	}
 
 	GraniteEmblem: {
 		DisplayName: 御影石の紋章
-		Tooltip: HPが90%以上の敵に対してダメージが75%増加
+		Tooltip: ライフが90%以上の敵に対してダメージが75%増加
 	}
 
 	ShimmerTrapItem: {
@@ -96,8 +96,8 @@ Configs: {
 		}
 
 		NoData: {
-			Label: トラップ、チェストからの戦利品無し
-			Tooltip: このMODのトラップとチェストの戦利品を生成プロセスから削除し、ワールド作成後にMODをアンロードできるようにします
+			Label: トラップと宝箱からの戦利品無し
+			Tooltip: このModのトラップと宝箱の戦利品を生成プロセスから削除し、ワールド作成後にModをアンロードできるようにします
 		}
 
 		Platforms: {

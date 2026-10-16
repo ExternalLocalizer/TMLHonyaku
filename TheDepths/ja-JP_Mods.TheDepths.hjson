@@ -11,7 +11,7 @@ GameTips: {
 
 common: {
 	Banner: "のバナー"
-	Banner2: 以下のモンスターに対してボーナスを得る:
+	Banner2: "{$CommonItemTooltip.BannerBonus}"
 }
 
 SetBonus: {
@@ -23,10 +23,10 @@ SetBonus: {
 		'''
 	NightwoodHelmet:
 		'''
-		水銀の加速の持続時間が2倍になる
+		水銀加速の持続時間が2倍になる
 		水銀中毒の持続時間を半分にする
 		'''
-	QuartzArmor: 鞭の攻撃速度が35%上昇し、攻撃範囲が35%増加
+	QuartzArmor: 鞭の攻撃速度が35%上昇し、射程が35%伸びる
 	OnyxRobeWizard:
 		'''
 		2 防御力
@@ -68,7 +68,7 @@ ShaleConfig: {
 Bestiary: {
 	# Enemies
 	AlbinoBat: 珍しい色素変異の犠牲となったこのコウモリは、生き延びるために周囲の水銀に溶け込み、洞窟の奥深くを徘徊している。
-	Archroma: ピンキーのいとこで、密度が似ているため非常に強く、お金を食べる。
+	Archroma: ピンキーのいとこで、密度が似ているため非常に強く、コインを食べる。
 	CrystalKing: 風水術の王である彼は、歩くことはできないが、他の多くの魔術師と同様に瞬間移動することができる。
 	Ferroslime: このスライムはトゲトゲしているように見えるかもしれないが、それは単に磁性流体がトゲ状に突き出ているだけで、実際よりも威嚇的に見えるようにしているだけだ。
 	Geomancer: 忠実な信者たちは、風水術に精通している。伝説によれば、彼らは生きたシャドウフレイムの存在を崇拝しているという。
@@ -220,12 +220,12 @@ Tiles: {
 Buffs: {
 	CrystalSkin: {
 		DisplayName: 水晶の肌
-		Description: 水銀を無効化
+		Description: 有毒なブロックのダメージと水銀を無効化
 	}
 
 	FlaskofMercury: {
 		DisplayName: 水銀付与
-		Description: 近接攻撃に水銀の追加効果を付与
+		Description: 近接攻撃と鞭で水銀中毒を与える
 	}
 
 	FreezingWater: {
@@ -244,13 +244,13 @@ Buffs: {
 	}
 
 	MercuryFooting: {
-		DisplayName: 水銀の加速
+		DisplayName: 水銀加速
 		Description: 移動速度が15%上昇
 	}
 
 	MercuryPoisoning: {
 		DisplayName: 水銀被曝
-		Description: 移動速度低下、ライフ減少
+		Description: 移動速度が低下し、ライフが徐々に減っていく
 	}
 
 	RelicsCurse: {
@@ -279,12 +279,12 @@ Buffs: {
 	}
 
 	MercuryContagion: {
-		DisplayName: 水銀の伝染
+		DisplayName: 水銀伝染
 		Description: 敵同士が触れると、その病が広がる
 	}
 
-	PhantomFirecartBuff.DisplayName: トロッコ
-	OnyxMinecartBuff.DisplayName: トロッコ
+	PhantomFirecartBuff.DisplayName: ジオマンサーのトロッコ
+	OnyxMinecartBuff.DisplayName: オニキスのトロッコ
 
 	NightmareHorseBuff: {
 		DisplayName: 騎乗（悪夢の馬）
@@ -307,9 +307,10 @@ Items: {
 		DisplayName: 水のグローブ
 		Tooltip:
 			'''
-			近接攻撃のノックバックが増加し、凍った水を与える
-			近接ダメージと近接攻撃速度が12%上昇
-			近接武器のオート攻撃を有効にする
+			近接攻撃のノックバックが増加し、
+			凍った水を与えるようになる
+			近接ダメージが12%増加し、近接攻撃速度が12%上昇
+			近接武器と鞭でオート攻撃ができる
 			'''
 	}
 
@@ -338,19 +339,19 @@ Items: {
 		DisplayName: 水晶の水上ブーツ
 		Tooltip:
 			'''
-			水と蜂蜜の上を歩行可能
+			水・蜂蜜・シマー・水銀の上を歩行可能
 			有毒なブロックのダメージを無効化
 			'''
 	}
 
 	LodeStone: {
 		DisplayName: 天然磁石
-		Tooltip: アイテムを拾う距離が広がる
+		Tooltip: アイテムの取得範囲が広がる
 	}
 
 	QuickSilverSurfboard: {
 		DisplayName: 水銀のサーフボード
-		Tooltip: 少しの間浮遊出来る
+		Tooltip: 少しの間浮遊できる
 	}
 
 	SanctusShield: {
@@ -361,7 +362,7 @@ Items: {
 			最大でダメージを50%軽減する
 			ほとんどの弾を25%の確率で敵に反射する
 			有毒なブロックのダメージを無効化
-			ほとんどの状態異常に対する耐性
+			ほとんどのデバフを無効化
 			'''
 	}
 
@@ -369,7 +370,7 @@ Items: {
 		DisplayName: 銀のスリッパ
 		Tooltip:
 			'''
-			水、蜂蜜、溶岩、水銀の上を歩行可能
+			水・蜂蜜・溶岩・シマー・水銀の上を歩行可能
 			有毒なブロックのダメージを無効化
 			水銀を4秒間無効化
 			'''
@@ -377,7 +378,7 @@ Items: {
 
 	StoneRose: {
 		DisplayName: 石のバラ
-		Tooltip: 水銀中毒を受けるのが遅くなり、ダメージを軽減する
+		Tooltip: 水銀中毒を受けるのが遅くなり、水銀中毒のダメージを軽減する
 	}
 
 	CharredCrown: {
@@ -392,17 +393,17 @@ Items: {
 
 	GeodeChestplate: {
 		DisplayName: ジオードの胸当て
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	GeodeHelmet: {
 		DisplayName: ジオードの兜
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	GeodeLeggings: {
 		DisplayName: ジオードのすね当て
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	Geode: {
@@ -451,72 +452,72 @@ Items: {
 
 	AchromaBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.Archroma.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Archroma.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.Archroma.DisplayName}"
 	}
 
 	AlbinoBatBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.AlbinoBat.DisplayName}"
 	}
 
 	CrystalKingBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.CrystalKing.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.CrystalKing.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.CrystalKing.DisplayName}"
 	}
 
 	FerroslimeBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.Ferroslime.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Ferroslime.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.Ferroslime.DisplayName}"
 	}
 
 	GeomancerBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.Geomancer.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Geomancer.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.Geomancer.DisplayName}"
 	}
 
 	GoldBatBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.GoldBat.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.GoldBat.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.GoldBat.DisplayName}"
 	}
 
 	KingCoalBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.KingCoal.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.KingCoal.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.KingCoal.DisplayName}"
 	}
 
 	SapphireSerpentBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.DepthsWorm.DisplayName}"
 	}
 
 	ShadeBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.Shade.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.Shade.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.Shade.DisplayName}"
 	}
 
 	ShadowBatBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.ShadowBat.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowBat.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.ShadowBat.DisplayName}"
 	}
 
 	ShadowSlimeBanner: {
 		DisplayName: "{$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}{$Mods.TheDepths.common.Banner}"
-		Tooltip: "{$Mods.TheDepths.common.Banner2} {$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}"
+		Tooltip: "{$Mods.TheDepths.common.Banner2}{$Mods.TheDepths.NPCs.ShadowSlime.DisplayName}"
 	}
 
 	CrystalSkinPotion: {
 		DisplayName: 水晶の肌のポーション
-		Tooltip: 水銀に耐性が付く
+		Tooltip: 有毒なブロックのダメージと水銀を無効化
 	}
 
 	FlaskofMercury: {
 		DisplayName: 水銀のフラスコ
-		Tooltip: 近接攻撃に水銀の追加効果を付与
+		Tooltip: 近接攻撃と鞭で水銀中毒を与える
 	}
 
 	LargeOnyx: {
 		DisplayName: 大きなオニキス
-		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+		Tooltip: 争奪戦で使用する宝石。死亡するとその場にドロップする
 	}
 
 	OnyxHook: {
@@ -585,7 +586,12 @@ Items: {
 
 	Gemforge: {
 		DisplayName: ジェムフォージ
-		Tooltip: ""
+		Tooltip:
+			'''
+			通常のかまどで作成できるアイテムに加え、
+			アルケライトを製錬でき、
+			深淵に関するアイテムを作成できる
+			'''
 	}
 
 	GeoTorch: {
@@ -610,7 +616,7 @@ Items: {
 
 	OnyxGemLock: {
 		DisplayName: オニキスの錠
-		Tooltip: 右クリックで大きなオニキスを着脱
+		Tooltip: <right>で大きなオニキスを着脱し、オンオフを切り替える
 	}
 
 	PetrifiedWood: {
@@ -706,7 +712,7 @@ Items: {
 		DisplayName: ルビーの遺物
 		Tooltip:
 			'''
-			「何か聞こえるか？」
+			「何か聞こえる？」
 			これをジェムフォージに置くのは最善の策ではないかもしれない
 			'''
 	}
@@ -728,7 +734,12 @@ Items: {
 
 	BlueSphere: {
 		DisplayName: ブルースフィア
-		Tooltip: 全部集めよう！
+		Tooltip:
+			'''
+			5秒ごとに自身から糸に沿って金の光線が放たれ、
+			ヨーヨーに触れると大ダメージを与える爆発が起きる
+			「全部集めよう！」
+			'''
 	}
 
 	DiamondArrow: {
@@ -738,7 +749,7 @@ Items: {
 
 	DiamondBolt: {
 		DisplayName: ダイアモンドボルト
-		Tooltip: ""
+		Tooltip: 地形に当たると跳ね返り、たくさんの敵を貫通する
 	}
 
 	LivingShadowStaff: {
@@ -763,12 +774,12 @@ Items: {
 
 	NightFury: {
 		DisplayName: ナイトフューリー
-		Tooltip: ""
+		Tooltip: 木の矢をダイヤモンドの矢に変換する
 	}
 
 	OnyxSepter: {
 		DisplayName: オニキスの杖
-		Tooltip: ""
+		Tooltip: 敵を1体貫通し、消滅時に爆発する
 	}
 
 	POWHammer: {
@@ -783,17 +794,22 @@ Items: {
 
 	RubyBolt: {
 		DisplayName: ルビーボルト
-		Tooltip: ""
+		Tooltip: 地形に当たると跳ね返り、たくさんの敵を貫通し、炎上させる
 	}
 
 	SapphireShovel: {
 		DisplayName: サファイアのシャベル
-		Tooltip: 敵を数秒間無力化する
+		Tooltip: ウォーターボルトを放ち、攻撃した敵に凍った水を与える
 	}
 
 	ShadeBlade: {
 		DisplayName: シェードブレード
-		Tooltip: ""
+		Tooltip:
+			'''
+			攻撃時に前にチャスメの手を召喚し、触れた敵にダメージを与える
+			手を2つ召喚すると敵と地形を貫通する手を放つ
+			手は少しすると戻ってくる
+			'''
 	}
 
 	Shaderang: {
@@ -808,12 +824,12 @@ Items: {
 
 	ShadowSphere: {
 		DisplayName: シャドウスフィア
-		Tooltip: ""
+		Tooltip: 消滅時に2つのシャドウボールに分裂するシャドウボールを発射する
 	}
 
 	Silverado: {
 		DisplayName: シルバラード
-		Tooltip: 強力で高速な弾丸を発射する
+		Tooltip: マスケット銃の弾丸を高速弾に変換する
 	}
 
 	SilverStar: {
@@ -823,7 +839,7 @@ Items: {
 
 	Skyfall: {
 		DisplayName: スカイフォール
-		Tooltip: 攻撃中、水銀を3つ降らせる
+		Tooltip: 攻撃中、水銀を3つ降らせ、攻撃した敵に水銀中毒を与える
 	}
 
 	Steelocanth: {
@@ -838,7 +854,12 @@ Items: {
 
 	Terminex: {
 		DisplayName: ターミネックス
-		Tooltip: ""
+		Tooltip:
+			'''
+			敵を攻撃すると水銀伝染を与える雲を発生させる
+			水銀伝染は近くの敵にも移る
+			雲は1つしか発生できない
+			'''
 	}
 
 	ShadePetItem: {
@@ -865,7 +886,7 @@ Items: {
 		Tooltip:
 			'''
 			投げて中枢を変化させよう！
-			「景色を変える時」
+			「風景を変えるとき」
 			'''
 	}
 
@@ -983,11 +1004,10 @@ Items: {
 	}
 
 	NightmareFlareTreads: {
-		DisplayName: ナイトメア・フレア・トレッド
+		DisplayName: ナイトメアフレア・トレッド
 		Tooltip:
 			'''
-			空を飛べる
-			超高速走行できる
+			飛行と超高速走行ができる
 			歩いた後にシャドウフレイムの軌跡が残る
 			'''
 	}
@@ -996,7 +1016,7 @@ Items: {
 		DisplayName: 耐水銀タックルバッグ
 		Tooltip:
 			'''
-			釣り糸を切られなくなり、餌を消費しにくくなり、フィッシング・パワーが10向上する
+			釣り糸が切られなくなり、餌を消費しにくくなり、フィッシング・パワーが10上昇する
 			水銀で釣りができる
 			'''
 	}
@@ -1027,7 +1047,11 @@ Items: {
 
 	QuicksilverproofBugNet: {
 		DisplayName: 耐水銀虫取り網
-		Tooltip: 「物事が手に負えないほど有害になった時に」
+		Tooltip:
+			'''
+			水銀の中の動物や虫を捕まえることができる
+			「物事が手に負えないほど有害になったときに」
+			'''
 	}
 
 	AlbinoRatCage: {
@@ -1071,15 +1095,19 @@ Items: {
 
 	ShalestoneConch: {
 		DisplayName: 頁岩の巻き貝
-		Tooltip: 耳を澄ますと儀式的な詠唱が聞こえてくる
+		Tooltip:
+			'''
+			耳を澄ますと儀式的な詠唱が聞こえてくる
+			使用すると深淵にテレポートできる
+			'''
 	}
 
 	ShellPhoneDepths: {
 		DisplayName: シェルフォン (深淵)
 		Tooltip:
 			'''
-			すべての情報を表示する
-			使用すると深淵に行ける
+			全ての情報を表示する
+			使用すると深淵にテレポートする
 			<right>で行き先を切り替える
 			「耳を澄ますと車両保険がナントカって聞こえてくる」
 			'''
@@ -1447,6 +1475,7 @@ Items: {
 			'''
 			落下ダメージを無効化
 			有毒なブロックのダメージを無効化
+			運が増加
 			'''
 	}
 
@@ -1465,7 +1494,7 @@ Items: {
 			'''
 			水銀を4秒間無効化
 			有毒なブロックのダメージを無効化
-			水銀中毒を受けるのが遅くなり、ダメージを軽減する
+			水銀中毒を受けるのが遅くなり、水銀中毒のダメージを軽減する
 			'''
 	}
 
@@ -1483,7 +1512,7 @@ Items: {
 		Tooltip:
 			'''
 			有毒なブロックのダメージを無効化
-			水銀中毒を受けるのが遅くなり、ダメージを軽減する
+			水銀中毒を受けるのが遅くなり、水銀中毒のダメージを軽減する
 			'''
 	}
 
@@ -1496,7 +1525,7 @@ Items: {
 		DisplayName: 苔の浮き（水銀）
 		Tooltip:
 			'''
-			フィッシング・パワーが10向上する
+			フィッシング・パワーが10上昇する
 			浮きが光るようになる
 			'''
 	}
@@ -1540,9 +1569,9 @@ Items: {
 		DisplayName: 水の矢筒
 		Tooltip:
 			'''
-			矢のスピードとダメージが10%増加
+			矢のダメージが10%増加し、矢の速度が大幅に上昇
 			20%の確率で矢を消費しない
-			木の矢に凍った水をつけて発射する
+			木の矢に凍った水を付けて発射する
 			「凍れ！」
 			'''
 	}
@@ -1712,12 +1741,12 @@ Items: {
 
 	QuartzHood: {
 		DisplayName: 石英のフード
-		Tooltip: 鞭の攻撃範囲が15%増加
+		Tooltip: 鞭の射程が15%伸びる
 	}
 
 	QuartzLeggings: {
 		DisplayName: 石英のレギンス
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	QuartzWinterCoat: {
@@ -2062,9 +2091,9 @@ Configs: {
 }
 
 Emotes: {
-	DepthsBiomeEmote: 闇のバイオーム
-	ShadowCatEmote: シャドウキャット
-	ChasmeEmote: チャスメ
+	DepthsBiomeEmote: darknessbiome
+	ShadowCatEmote: shadowcat
+	ChasmeEmote: chasme
 }
 
 DepthsBiome: 深淵
@@ -2137,9 +2166,9 @@ Liquids.Quicksilver.MapEntry: 水銀
 
 ItemTooltip.TerrasparkBoots:
 	'''
-	氷の上ですべらなくなり、飛行を可能にし、超高速走行、
+	氷系ブロックの上で滑らなくなり、飛行と超高速走行ができ、
 	移動速度が8%上昇
-	水、蜂蜜、溶岩、水銀の上を歩行可能
+	水・蜂蜜・溶岩・シマー・水銀の上を歩行可能
 	燃えるブロックと有毒なブロックのダメージを無効化
 	溶岩を7秒間、水銀を8秒間無効化し、
 	溶岩のダメージを軽減し、水銀中毒を受けるのが遅くなり、ダメージを軽減する
