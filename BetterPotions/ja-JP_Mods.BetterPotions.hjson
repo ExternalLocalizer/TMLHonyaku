@@ -26,7 +26,7 @@ Buffs: {
 
 	HeightenedSensesBuff: {
 		DisplayName: 感覚強化
-		Description: 周囲の危険物と敵が光って見え、光源が明るく見える
+		Description: 周囲の危険物と敵が光って見え、視界が良くなる
 	}
 
 	ImmovableBuff: {
@@ -41,7 +41,7 @@ Buffs: {
 
 	LeapingBuff: {
 		DisplayName: 跳躍
-		Description: ジャンプ速度が50%増加し、自動ジャンプが可能となる
+		Description: ジャンプ速度が50%上昇し、オートジャンプができる
 	}
 
 	OrichalcumskinBuff: {
@@ -114,7 +114,7 @@ Items: {
 		DisplayName: 感覚強化ポーション
 		Tooltip:
 			'''
-			周囲の危険物と敵が光って見え、光が明るく見える
+			周囲の危険物と敵が光って見え、視界が良くなる
 			[i:TrapsightPotion] 危険察知のポーション、[i:NightOwlPotion] 夜目のポーション、[i:HunterPotion] 狩人のポーションと併用できない
 			'''
 	}
@@ -131,7 +131,7 @@ Items: {
 
 	LeapingPotion: {
 		DisplayName: 跳躍のポーション
-		Tooltip: ジャンプ速度が50%増加し、自動ジャンプが可能となる
+		Tooltip: ジャンプ速度が50%上昇し、オートジャンプができる
 	}
 
 	OrichalcumskinPotion: {
@@ -139,7 +139,7 @@ Items: {
 		Tooltip:
 			'''
 			防御力が14増加
-			[i:IronskinPotion] 鉄壁のポーションと併用できない
+			[i:IronskinPotion] 鉄の肌のポーションと併用できない
 			'''
 	}
 
@@ -202,38 +202,48 @@ VanillaChanges: {
 	BuffAmmoReservation: 50%の確率で弾薬を消費しない
 	ArcheryRename: プレデターポーション
 	ArcheryPotion: 遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
-	BuilderPotion: ブロックの設置範囲が3増加し、設置速度が50%上昇
-	BuffBuilder: ブロックの設置範囲が3増加し、設置速度が50%上昇
+	BuilderPotion: ブロックと壁の設置速度が50%上昇し、設置範囲が3広がる
+	BuffBuilder: ブロックと壁の設置速度が50%上昇し、設置範囲が3広がる
 	ManaRegenerationPotion: 毎秒マナを4回復する
 	BuffManaRegeneration: 毎秒マナを4回復する
-	ObsidianSkinPotion: 炎のブロック、溶岩、呪炎、霊液に耐性が付く
-	BuffObsidianSkin: 炎のブロック、溶岩、呪炎、霊液を無効化する
-	SummoningPotion: 召喚できるミニオンとセントリーの数が1体増え、召喚ダメージが10%増加
-	BuffSummoning: 召喚できるミニオンとセントリーの数が1体増え、召喚ダメージが10%増加
+	ObsidianSkinPotion: 燃えるブロック・溶岩・呪炎・霊液を無効化する
+	BuffObsidianSkin: 燃えるブロック・溶岩・呪炎・霊液を無効化する
+	SummoningPotion: ミニオンスロットとセントリースロットを1つ追加し、召喚ダメージが10%増加
+	BuffSummoning: ミニオンスロットとセントリースロットを1つ追加し、召喚ダメージが10%増加
 	BattlePotion: 敵の出現率と出現上限が100%上昇
 	BuffBattle: 敵の出現率と出現上限が100%上昇
 	CalmingPotion: 敵の出現率が17%低下し、出現上限が20%低下
 	BuffCalm: 敵の出現率が17%低下し、出現上限が20%低下
 	CratePotion: 箱を釣り上げる確率が10%上昇
 	BuffCrate: 箱を釣り上げる確率が10%上昇
-	TrapsightPotion: 周囲の危険物が光って見える
-	BuffDangersense: 周囲の危険物が光って見える
+	TrapsightPotion: 罠などの危険物が光って見える
+	BuffDangersense: 罠などの危険物が光って見える
 	FeatherfallPotion:
 		'''
-		落下速度が遅くなる
+		落下速度が低下
 		上下入力で落下速度を調整できる
+		落下ダメージも無効化する
 		'''
 	BuffFeatherfall:
 		'''
-		落下速度が遅くなる
+		落下速度が低下
 		上下入力で落下速度を調整できる
+		落下ダメージも無効化する
 		'''
-	FishingPotion: フィッシング・パワーが15向上する
-	BuffFishing: フィッシング・パワーが15向上する
-	FlipperPotion: 液体内で素早く泳げるようになる
-	BuffFlipper: 液体内で素早く泳げるようになる
-	GillsPotion: 水中で呼吸できるようになる
-	BuffGills: 水中で呼吸できるようになる
+	FishingPotion: フィッシング・パワーが15上昇する
+	BuffFishing: フィッシング・パワーが15上昇する
+	FlipperPotion: 液体内で無限にジャンプでき、水・溶岩・蜂蜜で減速しない
+	BuffFlipper: 液体内で無限にジャンプでき、水・溶岩・蜂蜜で減速しない
+	GillsPotion:
+		'''
+		水と蜂蜜内で呼吸できるようになる
+		For the Worthyワールドでは水と蜂蜜内でしか呼吸できなくなる
+		'''
+	BuffGills:
+		'''
+		水と蜂蜜内で呼吸できるようになる
+		For the Worthyワールドでは水と蜂蜜内でしか呼吸できなくなる
+		'''
 	GravitationPotion:
 		'''
 		重力を制御できる
@@ -249,24 +259,24 @@ VanillaChanges: {
 	IronskinPotion: 防御力が8増加
 	BuffIronskin: 防御力が8増加
 	MagicPowerPotion: 魔法ダメージが20%増加
-	NightOwlPotion: 光が明るく見える
-	BuffNightOwl: 光が明るく見える
+	NightOwlPotion: 光が明るく見え、視界が良くなる
+	BuffNightOwl: 光が明るく見え、視界が良くなる
 	RegenerationPotion: ライフ自然回復を増進
 	BuffRegeneration: ライフ自然回復を増進
 	SwiftnessPotion: 移動速度が25%上昇
-	TitanPotion: ノックバックが50%増加
-	BuffTitan: ノックバックが50%増加
+	TitanPotion: 攻撃のノックバックが50%増加
+	BuffTitan: 攻撃のノックバックが50%増加
 	WarmthPotion: 冷気による被ダメージを30%軽減
 	BuffWarmth: 冷気による被ダメージを30%軽減
 	WaterWalkingPotion:
 		'''
-		液体の上を歩ける
-		下入力で水に潜る
+		液体の上を歩行できる
+		下入力で液体に潜る
 		'''
 	BuffWaterWalking:
 		'''
-		液体の上を歩ける
-		下入力で水に潜る
+		液体の上を歩行できる
+		下入力で液体に潜る
 		'''
 }
 
@@ -332,7 +342,7 @@ Configs: {
 			Label: "[i:2325] 建築のポーションの変更"
 			Tooltip:
 				'''
-				ブロックの設置範囲の増加量が3に増加し、(前は1%)
+				ブロックの設置範囲拡大量が3に増加し、(前は1%)
 				設置速度の上昇量が50%に上昇します (前は25%)
 				'''
 		}
@@ -349,7 +359,7 @@ Configs: {
 
 		PotionChanges_Summoning: {
 			Label: "[i:2328] 召喚のポーションの変更"
-			Tooltip: 既存の効果に加え、召喚できるセントリーの数が1体増え、召喚ダメージが10%増加するようになります
+			Tooltip: 既存の効果に加え、セントリースロットも1つ追加し、召喚ダメージが10%増加するようになります
 		}
 
 		PotionsAdded_Grave: {
@@ -431,7 +441,7 @@ Configs: {
 			Label: "[i:BetterPotions/LeapingPotion] 跳躍のポーションを有効にする"
 			Tooltip:
 				'''
-				ジャンプ速度が50%増加し、自動ジャンプができるようになります
+				ジャンプ速度が50%上昇し、オートジャンプができるようになります
 				瓶詰めの水、雲、プリンクルート、ウォータリーフで作成できます
 				'''
 		}
@@ -449,7 +459,7 @@ Configs: {
 			Label: "[i:BetterPotions/HeightenedSensesPotion] 感覚強化ポーションを有効にする"
 			Tooltip:
 				'''
-				周囲の危険物と敵が光って見え、光が明るく見えるようになります
+				周囲の危険物と敵が光って見え、視界が良くなります
 				瓶詰めの水、視覚のソウル、デイブルーム、ブリンクルートで作成できます
 				'''
 		}
