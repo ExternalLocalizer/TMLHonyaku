@@ -9,7 +9,7 @@ RecipeBrowserUI: {
 	ModFilter: Modフィルター
 	NoFavoritedRecipes:
 		'''
-		お気に入りされたレシピは
+		お気に入りレシピは
 		ありません
 		'''
 	RecipeAddedBy: "{0}によって追加されたレシピ"
@@ -35,7 +35,7 @@ Keybind: {
 RecipeCatalogueUI: {
 	Tile: タイル
 	AllRecipes: 全てのレシピ
-	NearbyChests: 近くのチェスト
+	NearbyChests: 近くの宝箱
 	ClickToRefresh: クリックでリフレッシュする
 	ItemChecklistOnly: Item Checklistのみ
 	OnlyNewItemsMadeFromSeenItems: 見たことのあるアイテムから作られた新しいアイテムのみ
@@ -118,14 +118,14 @@ RecipeCatalogueFilters: {
 		Blocks: ブロック
 		Containers: コンテナ
 		Wiring: 配線
-		Statues: 彫像
+		Statues: 石像
 		Doors: ドア
-		Chairs: 椅子
+		Chairs: イス
 		Tables: テーブル
 		LightSources: 光源
-		Torches: トーチ
+		Torches: たいまつ
 		PlaceTile: タイル設置
-		Solid: ソリッド
+		Solid: 固形
 		NonSolid: 背景
 	}
 
@@ -150,8 +150,8 @@ RecipeCatalogueFilters: {
 
 	Potions: {
 		Name: ポーションと食品
-		HealthPotions: 体力ポーション
-		HealLife: 体力回復
+		HealthPotions: ライフポーション
+		HealLife: ライフ回復
 		ManaPotions: マナポーション
 		HealMana: マナ回復
 		BuffPotions: バフポーション
@@ -282,13 +282,13 @@ UIArmorSetCatalogue: {
 	TotalSetDefense: セット全体の防御力: {0}
 	ArmorSets:
 		'''
-		アーマーセット
+		防具セット
 		(警告: 計算に数秒かかる場合があります)
 		'''
 	ShowItems: アイテムを表示
 	ShowItemsTooltip: セットを構成するアイテムを表示する
 	UseDye: 染料を使用
-	UseDyeTooltip: 現在装備している染料でアーマーセットを描画する
+	UseDyeTooltip: 現在装備している染料で防具セットを描画する
 	Animate: アニメーション
 	AnimateTooltip: プレイヤーのアニメーションを模倣する
 	Accessories: アクセサリー
@@ -300,20 +300,24 @@ BestiaryUI: {
 	Unencountered: 未遭遇
 	ShowOnlyNPCKilledAlready:
 		'''
-		倒したことのあるNPCのみ表示
-		(右クリックで倒したことのないNPCの表示に切り替え)
+		倒したことがあるNPCのみ表示
+		(右クリックで倒したことがないNPCの表示に切り替え)
 		'''
 	ShowOnlyNPCNotKilled:
 		'''
-		倒したことのないNPCのみ表示
-		(右クリックで倒したことのあるNPCの表示に切り替え)
+		倒したことがないNPCのみ表示
+		(右クリックで倒したことがあるNPCの表示に切り替え)
 		'''
 	HasLoot: 戦利品あり
 	ShowOnlyNPCWithLoot: 戦利品を持つNPCのみ表示
 	NewLoot: 新しい戦利品
 	ShowOnlyNPCWithNeverBeforeSeenLoot: 今までに見たことのない戦利品を持つNPCのみ表示
 	EmptyQuerySlotHint: ここにアイテムを置く
-	NPCDrops: "{0} ドロップ:"
+	NPCDrops: "{0}がドロップ:"
+	SortBestiary: "{$BestiaryInfo.Sort_BestiaryID}"
+	SortBestiaryTooltip: "{$SortBestiary}で検索"
+	SortNPCID: "NPCのID"
+	SortNPCIDTooltip: "{$SortNPCID}で検索"
 }
 
 HelpUI: {

@@ -13,7 +13,7 @@ Buffs: {
 
 Items: {
     VigorousPebble: {
-        Tooltip: 移動速度と自然回復が5%上昇
+        Tooltip: 移動速度が5%上昇し、ライフ自然回復を5%増進
         DisplayName: 活発な小石
     }
 
@@ -38,7 +38,7 @@ Items: {
 	}
 
 	EnragedPebble: {
-		Tooltip: ダメージと近接速度が5%増加
+		Tooltip: ダメージが5%増加し、近接攻撃速度が5%上昇
 		DisplayName: 激昂の小石
 	}
 
@@ -48,7 +48,7 @@ Items: {
 	}
 
 	TopazPebble: {
-		Tooltip: 移動速度、加速、ジャンプ速度が5%上昇
+		Tooltip: 移動速度・加速度・ジャンプ速度が5%上昇
 		DisplayName: トパーズの小石
 	}
 
@@ -58,7 +58,7 @@ Items: {
 	}
 
 	EmeraldPebble: {
-		Tooltip: ライフ自然回復が5%増進
+		Tooltip: ライフ自然回復を5%増進
 		DisplayName: エメラルドの小石
 	}
 
@@ -70,7 +70,8 @@ Items: {
 	JewelOfLife: {
 		Tooltip:
 			'''
-			移動速度、ライフ自然回復が10%上昇し、被ダメージを10%軽減
+			移動速度が10%上昇し、ライフ自然回復を10%増進し、
+			被ダメージを10%軽減
 			「めっちゃ活き活きしてるね！」
 			'''
 		DisplayName: 生命の宝石
@@ -79,16 +80,17 @@ Items: {
 	DivineBrilliance: {
 		Tooltip:
 			'''
-			移動速度、自然回復、ダメージ、近接速度、クリティカル率が10%上昇し、
-			被ダメージとマナ消費量が10%減少
-			他の宝石と同時に装備不可
+			移動速度・近接速度・クリティカル率が10%上昇し、
+			ライフ自然回復を10%増進し、ダメージが10%増加し、
+			被ダメージを10%軽減し、マナ消費量が10%減少
+			他の宝石と同時に装備できない
 			「これってやりすぎ？ やりすぎだよね～」
 			'''
 		DisplayName: 神聖な輝き
 	}
 
 	VigorousCrystal: {
-		Tooltip: 移動速度とライフ自然回復が10%増加
+		Tooltip: 移動速度が10%上昇し、ライフ自然回復を10%増進
 		DisplayName: 活発なクリスタル
 	}
 
@@ -109,7 +111,8 @@ Items: {
 	JewelOfDeath: {
 		Tooltip:
 			'''
-			ダメージ、近接速度、クリティカル率が10%上昇し、マナ消費量が10%減少
+			ダメージが10%増加し、近接速度とクリティカル率が10%上昇し、
+			マナ消費量が10%減少
 			「めっちゃ危険そうに見えるね！」
 			'''
 		DisplayName: 死の宝石
@@ -126,12 +129,12 @@ Items: {
 	}
 
 	AmethystPebble: {
-		Tooltip: 近接速度が5%上昇
+		Tooltip: 近接攻撃速度が5%上昇
 		DisplayName: アメジストの小石
 	}
 
 	EnragedCrystal: {
-		Tooltip: ダメージと近接速度が10%上昇
+		Tooltip: ダメージが10%増加し、近接攻撃速度が10%上昇
 		DisplayName: 激昂のクリスタル
 	}
 

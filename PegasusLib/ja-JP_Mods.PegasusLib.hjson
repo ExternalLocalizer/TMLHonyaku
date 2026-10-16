@@ -213,22 +213,22 @@ AdvancedTextSnippet: {
 }
 
 ItemTooltip: {
-	FlaskofVenom: 近接攻撃と鞭攻撃に[buffhint:Venom]の追加効果を付与
-	FlaskofCursedFlames: 近接攻撃と鞭攻撃に[buffhint/dn呪炎:CursedInferno]の追加効果を付与
-	FlaskofFire: 近接攻撃と鞭攻撃に[buffhint/dn炎上:OnFire]の追加効果を付与
-	FlaskofGold: 近接攻撃と鞭攻撃に[buffhint/dnドロップ金額増加:Midas]の追加効果を付与
-	FlaskofIchor: 近接攻撃と鞭攻撃に[buffhint/dn敵の防御減少:Ichor]の追加効果を付与
-	FlaskofNanites: 近接攻撃と鞭攻撃に[buffhint/dn混乱:Confused]の追加効果を付与
-	FlaskofPoison: 近接攻撃と鞭攻撃に[buffhint/dn毒:Poisoned]の追加効果を付与
-	VenomArrow: 対象に[buffhint:Venom]を付与
-	VenomBullet: 対象に[buffhint:Venom]を付与
-	NanoBullet: "[buffhint/dn混乱:Confused]の追加効果を与え、壁に衝突時跳ね返る"
-	GoldenBullet: "敵の[buffhint/dnドロップする金額が増加:Midas]"
-	ShadowFlameKnife: 攻撃ヒット時に[buffhint:ShadowFlame]の効果を及ぼす
+	FlaskofVenom: 近接攻撃と鞭の攻撃で[buffhint:Venom]を与える
+	FlaskofCursedFlames: 近接攻撃と鞭の攻撃で[buffhint/dn呪炎:CursedInferno]を与える
+	FlaskofFire: 近接攻撃と鞭の攻撃で[buffhint/dn炎上:OnFire]を与える
+	FlaskofGold: 近接攻撃と鞭の攻撃で[buffhint/dn強欲:Midas]を与え、ドロップするコインが増加
+	FlaskofIchor: 近接攻撃と鞭の攻撃で[buffhint/dn敵の防御減少:Ichor]を与える
+	FlaskofNanites: 近接攻撃と鞭の攻撃で[buffhint/dn混乱:Confused]させる
+	FlaskofPoison: 近接攻撃と鞭の攻撃で[buffhint/dn毒:Poisoned]を与える
+	VenomArrow: 敵に[buffhint:Venom]を与える
+	VenomBullet: 敵に[buffhint:Venom]を与える
+	NanoBullet: 敵を[buffhint/dn混乱:Confused]させ、地形に当たると跳ね返る
+	GoldenBullet: "敵が[buffhint/dnドロップするコインが増加:Midas]"
+	ShadowFlameKnife: 攻撃が当たると[buffhint:ShadowFlame]を与える
 	BeeKeeper:
 		'''
 		敵を攻撃すると蜂を召喚する
-		低確率で敵を[buffhint/dn混乱:Confused]させる
+		敵を[buffhint/dn混乱:Confused]させる
 		'''
 	DaoofPow:
 		'''
@@ -237,13 +237,14 @@ ItemTooltip: {
 		'''
 	FireGauntlet:
 		'''
-		近接攻撃のノックバック増加、更に[buffhint/dn炎上:OnFire3]効果を付与
-		近接ダメージと攻撃速度が12%上昇
-		近接武器のオート攻撃を有効にする
-		近接武器のサイズを増加させる
+		近接攻撃のノックバックが増加し、
+		[buffhint/dn炎上:OnFire3]を与えるようになる
+		近接ダメージが12%増加し、近接攻撃速度が12%上昇
+		近接武器と鞭でオート攻撃が可能になる
+		近接武器のサイズが大きくなる
 		'''
 	InfernoPotion: "周囲の敵を[buffhint/dn炎上:OnFire3]させる"
-	MagmaStone: 攻撃時に[buffhint/dn炎上:OnFire3]効果を加える
+	MagmaStone: 近接攻撃で[buffhint/dnヘルファイア:OnFire3]を与える
 	MolotovCocktail:
 		'''
 		敵を[buffhint/dn燃やす:OnFire3]小規模な爆発を起こす
@@ -255,19 +256,20 @@ ItemTooltip: {
 ArmorSetBonus: {
 	Frost:
 		'''
-		近接と遠距離攻撃に[buffhint:Frostburn2]の追加効果
-		近接と遠距離ダメージが10%増加
+		近接攻撃と遠距離攻撃で[buffhint:Frostburn2]を与える
+		近接ダメージと遠距離ダメージが10%増加
 		'''
 	HuntressTier2:
 		'''
-		召喚できるセントリーの数が増える
-		爆発罠の待ち時間を縮め敵を[buffhint/dnオイルまみれ:Oiled]にする
-		オイルは火のついた敵に追加ダメージを与える
+		セントリースロットを1つ追加
+		爆発罠の攻撃速度が上昇し、敵に[buffhint/dnオイル:Oiled]を与えるようになる
+		オイルは炎上した敵に与えるダメージが増加する
 		'''
 	HuntressTier3:
 		'''
-		召喚できるセントリーの数が増える
-		爆発罠を大幅に強化し、敵を[buffhint/dnオイルまみれ:Oiled]にする
+		セントリースロットを1つ追加
+		爆発罠の攻撃速度が上昇し、敵に[buffhint/dnオイル:Oiled]を与えるようになる
+		オイルは炎上した敵に与えるダメージが増加する
 		'''
 }
 
