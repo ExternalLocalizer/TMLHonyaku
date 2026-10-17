@@ -1,2593 +1,2203 @@
-DeathMessages: {
-	NukeDeath: "{0}は核爆弾の合法化を主張した。"
-	ParasiteDeath: "{0}は重度の貧血に陥った。"
-	Suicide: "{0}は楽な道を選んだ..."
-	OstertagiDeath: "{0}は虫なんて気にもしなかった。"
-	NukeTP: "{0}は自分が賢いと思っていた。"
-}
-
-Dialogue: {
-	HotGarbageDialogue: {
-		HereItComes: 避難してください。
-		GG: よくやった！
-		Phew: ふぅ...
-		Run: 危険です。
-		Dumbass: 何やってるんだ！？
-		Unfunny: 笑いものじゃない、すぐに出て行け！
-		Evacuate: 至急避難してください。
-		Nuke: 核爆発まであと
-	}
-
-	ArchstaffDialogue: {
-		PostMartianLine9: ラアアアアアアアア！！！
-		PostMartianLine8: 栄光と名声を手に入れるぞ！俺たちは止められない！
-		PostMartianLine7: どんな異界の存在も想像できないほどの力だ！
-		PostMartianLine6: そうだ、見えるぞ！悲劇の死を遂げたマスター・ザレウスの杖が、お前と共に栄光を掴む未来が！
-		PostMartianLine5: お前は明らかにマスター・ザレウスより価値がある！一緒に銀河をぶっ壊すぞ！
-		PostMartianLine4: お前だ！俺の新しい使い手になれ！
-		PostMartianLine3: いや…いや…こんなもんじゃ至高の杖は壊れない！
-		PostMartianLine2: …マスター・ザレウスの死について…
-		PostMartianLine1: お前は…気づいてる…んだろうな？
-		ArchstaffVictory6: さらばだ！
-		ArchstaffVictory5: 混沌！流血！アメジスト！！もっと欲しければまた来てもいいぞ！
-		ArchstaffVictory4: この忘れられない戦いのために、お前に感謝しなきゃならんみたいだな！
-		ArchstaffVictory3: 最後に俺が全力を出したのがいつだったか思い出せないぜ！
-		ArchstaffVictory2: なんて壮絶な戦いだ！そして、俺がその中心だった！偉大なる至高の杖が！
-		ArchstaffVictory1: おお…あいつ…本当に俺を使ったのか！
-		ArchstaffMotivation11: あいつ、いつかアメジストを使い果たすだろ…多分な。
-		ArchstaffMotivation10: なんであいつ、ポーションをあんな投げ方するんだ？
-		ArchstaffMotivation9: アメジストの呪文はやめてくれって何度も言ったのに！めっちゃ不快なんだよ…
-		ArchstaffMotivation8: 羊化光線は怖そうに見える…というより実際怖いからな！
-		ArchstaffMotivation7: 今度は死なないように頑張れよ！
-		ArchstaffMotivation6: やれるさ！あいつの戯言は無視しろ！
-		ArchstaffMotivation5: …悪くなかったぞ！あいつがいない今、また挑戦できる！
-		ArchstaffMotivation4: おお、戦いが恋しくて疼くぜ！
-		ArchstaffMotivation3: また忘れられない戦いをしに来たのか？
-		ArchstaffMotivation2: お前と戦うのは最高に楽しいぜ！
-		ArchstaffMotivation1: ハハハ！また輝かしき戦いに戻ってきたか！？あいつ、すぐキレるからな！
-		ArchstaffLine20: あいつがいない！気づきもしないハズだ！
-		ArchstaffLine19: お前だ！頼む…頼むから俺を連れてってくれ！マスターは俺の能力を活かす気がないんだ！
-		ArchstaffLine18: おっと、そうだった！
-		ArchstaffLine17: 戦いで死ねば、永遠に真の最強の至高の杖として記憶されるんだ！
-		ArchstaffLine16: 俺の目的は、歴代最高の魔法使いに何世代にもわたって戦いで使われることだ
-		ArchstaffLine15: 俺は武器だ！傷つき、そして傷つけるためにある！飾り物じゃねえ！
-		ArchstaffLine14: だってあいつ、俺が傷つくのを恐れてるからな！
-		ArchstaffLine13: んでそのバカな魔法使いは俺の力を使うのを拒んでる、なんでだよ？！
-		ArchstaffLine12: なんてひでえ冗談だ！
-		ArchstaffLine11: …想像できるか？！最高の武器を使わない大魔道士なんて？！
-		ArchstaffLine10: そして、千の太陽の熱の中で、全宇宙最高のゴブリン鍛冶師によって鍛えられた。
-		ArchstaffLine9: 俺は純粋な粉末の雷と、最高級のアメジストで作られたんだ。
-		ArchstaffLine8: 「大魔道士」だって？ふん…
-		ArchstaffLine7: バカめ！
-		ArchstaffLine6: こんな奴に制限されるなんて屈辱的だ…
-		ArchstaffLine5: 俺のマスターは…酷い魔法使いだ。
-		ArchstaffLine4: 見てみろ…
-		ArchstaffLine3: そう、そうだ、ついに！新しい使い手だ！
-		ArchstaffLine2: お前…なかなか…やれそうだな。
-		ArchstaffLine1: ふむ…
-		ComeHereLine: こっちへ来い…
-		YouLine: お前…
-		PsstLine: しっ。
-		Grab: 掴め
-		InteractionLine: それは激しく輝き、輝かしき戦いを渇望している。
-
-		Weapon: {
-			Happy7: よっしゃ、死ね！
-			Happy6: 死ねぇ！
-			Happy5: ウオオオオ！
-			Happy4: アハハハハ！
-			Happy3: くらえ！
-			Happy2: ウオオ！
-			Happy1: よっしゃ！
-			Yell10: くそくらえ！
-			Yell9: 痛っ！
-			Yell8: やめろ！
-			Yell7: やめろ！
-			Yell6: それやめろ！
-			Yell5: やめてくれ！
-			Yell4: 何やってんだよ！
-			Yell3: 使い方が違うぞ！
-			Yell2: それやめろって！
-			Yell1: いてっ！
-		}
-	}
-
-	ArchmageXDialogue: {
-		Martian: {
-			Line7: 痛っ。
-			Line6: お前が…
-			Line5: お前を…
-			Line4: この力で…
-			Line3: 俺の真の力が目覚めたぞ！！！
-			Line2: お前が遊んでる間に…
-			Line1: 奇襲だ！！！
-		}
-
-		XDeath: くそくらえ！！！
-		XDespawn9: ふぅ…いや、全然余裕だったぜ！
-		XDespawn8: やっと消えてくれてせいせいした！
-		XDespawn7: （あくび）
-		XDespawn6: もしかして、お前ってヤバいぐらい無能だな？可哀想に。
-		XDespawn5: 予想通り、ミスったな！泥棒め！
-		XDespawn4: 紫のレーザーポインターでもお前を倒せそうだな？
-		XDespawn3: ハッ！天才大魔道士様の勝利だ！
-		XDespawn2: 俺の栄光の炎に飛び込む蛾がまた一匹！
-		XDespawn1: お前の負けっぷりは本当に比類がないな！
-		XPhase2End: ふぅ…危うく冷静さを失うとこだった…
-		XPhase2: お前が俺の物に汚い手を出さなけりゃ、こんなことにはならなかったんだ！
-
-		XAttack17: {
-			Staff4: はぁ！？
-			Staff3: ！？？！
-			Staff2: ザレウス！？
-			Staff1: 何やってんだ！？
-			RepeatAngry: くそくらえ！！
-			FirstTimeAngry: いい加減にしろ！…お前が俺にこんなことさせてるんだぞ！！！
-			Angry: お前のくだらねえことにうんざりだ！
-		}
-
-		XAttack16: {
-			RepeatAngry: やめろ！！
-			Angry: 避けるな！！
-		}
-
-		XAttack15: {
-			RepeatAngry2: 言っただろ…羊になれって！
-			RepeatAngry1: まだ羊が足りねえ！
-			Angry: 羊になれ！
-			Default: シャドウフレイムミスト！
-		}
-
-		XAttack14: {
-			Angry: 放っといてくれ！
-		}
-
-		XAttack13: {
-			RepeatAngry: じっとしてろって言っただろ！
-			Angry: じっとしてろ！
-			Default4: ヘヘヘ…
-			Default3: 何か忘れてる気がするな…
-			Default2: 気にしないでくれ！ちょっと何か忘れてきただけだ…
-			Default1: 待て、持ってくるの忘れた…
-		}
-
-		XAttack12: {
-			RepeatAngry: やれよ！
-			Her: あいつをぶっ壊せ！
-			Him: あいつをぶっ壊せ！
-			It: それをぶっ壊せ！
-			Default: 幻影の一撃を喰らえ！
-		}
-
-		XAttack11: {
-			Continuation6: それからこれも少し！
-			Continuation5: それとこれ！
-			Continuation4: それからあれも少し！
-			Continuation3: それとあれ！
-			Continuation2: それからあれを少し！
-			Continuation1: それからこれを少し！
-			Default: くらえ！
-		}
-
-		XAttack10: {
-			RepeatAngry: 出ていけ！！
-			Angry: 俺の視界から消えろ！
-			Default5: 変身しろ！
-			Default4: 屠殺場へ送ってやる！
-			Default3: 羊になっちまえ！
-			Default2: 「メェ！メェ！」と鳴いてみやがれ！
-			Default1: 今すぐ羊になれ！
-		}
-
-		XAttack9: {
-			RepeatAngry: とっとと死ね！！！！！
-			Angry3: 頼むから死んでくれ！！！！！
-			Angry2: 死ね！！！！！
-			Angry: 死ね！！
-			Default: シャドウフレイムの触手だ！
-		}
-
-		XAttack8: {
-			RepeatAngry: 大っ嫌いだ！！
-			Angry: 近づくな！
-			Default: これが大魔道士の秘宝、アメジストだ！
-		}
-
-		XAttack7: {
-			Angry: アハハハ！！
-			Default: 輝け、アメジストよ！
-		}
-
-		XAttack6: {
-			RepeatAngry: グラアアアア！！！
-			FirstTimeAngry: これすげえ高いんだぞ！
-			Angry: 盗めるもんなら盗んでみろ、この野郎！！
-			Default: 力を宿せ、アメジストよ！
-		}
-
-		XAttack5: {
-			Angry: シャドウフレイムだ！！
-			Wave: 喰らえ、シャドウフレイムの波だ！
-			Helix: 螺旋を描け、シャドウフレイム！
-		}
-# 横暴で自分に酔ってる感じだったので厨二病で痛い感じに
-
-		XAttack4: {
-			Angry: とっとと死ね！！
-			FirstTimeAngry: 輝け…いや、なんでもいい、とっとと死ね！
-			Default: 輝け！一斉射撃だ！
-		}
-
-		XAttack3: {
-			Angry: ラアアアアア！！！
-			Default: 輝け、アメジストよ！！
-		}
-
-		XAttack2: {
-			RepeatAngry: 燃えろって言っただろ！
-			Angry: 燃えろ！！
-			Default: シャドウフレイムに焼かれろ！
-		}
-
-		XAttack1: {
-			RepeatAngry: 今だ！！！
-			Angry: その泥棒を殺せ！！！
-			Default: 幻影の精霊たちよ！
-		}
-
-		XTaunt56: 待て…鳥？マジで？？プッ…
-		XTaunt55: ちょっと待て、スライム！？準備不足すぎないか！？
-		XTaunt54: よくもやったな！俺もお前に召喚獣で嫌がらせをしてやろうか！？
-		XTaunt53: 召喚獣で俺に挑むだと？他人に頼ってばかりいるな！
-		XTaunt52: お前、自分じゃなく手下に戦わせるつもりか！？
-		XTaunt51: 臆病者め！数で勝っても俺には無意味だ！！！
-		XTaunt50: お前をビシッと鍛え直してやろうか！？
-		XTaunt49: 安っぽい攻撃はやめろ、このろくでもない盗人め！
-		XTaunt48: 何！？
-		XTaunt47: お前より俺の方が弓を上手く使えるぞ！
-		XTaunt46: バカめ！俺は弾丸なんかにゃ負けねえ！
-		XTaunt45: 壁を狙ってるのか？それとも俺の栄光に目が眩んだか？
-		XTaunt44: 恥の上塗りなんてするな！
-		XTaunt43: お前の火力なんて俺の魔法の威力に比べりゃゴミだ！
-		XTaunt42: ちゃんと狙えよ、そしたら少しは勝ち目があるかもな！
-		XTaunt41: おお、何！？剣が重すぎてお前のガリガリな腕じゃ持てねえのか！？
-		XTaunt40: しょぼい刃物がお前にはお似合いだ！
-		XTaunt39: お前の攻撃なんて怖かねえぞ！
-		XTaunt38: お前みたいな野蛮人は俺と戦う資格はねえ！
-		XTaunt37: 魔法使いなのか？しょうもねえ呪文ばかりだな...
-		XTaunt36: その杖で俺を殴った方がマシじゃないか？
-		XTaunt35: 俺の杖はお前のよりデカいぜ！
-		XTaunt34: それが魔法だと！？情けない！
-		XTaunt33: 偉大なる大魔道士様に挑む前に腕を磨け！
-		XTaunt32: ウサギの方がマシかもな！
-		XTaunt31: ネズミの方が良い魔法を知ってたぞ！
-		XTaunt30: 俺のポーションはお前には強力すぎるかもな！
-		XTaunt29: おい！やめろ！ローブが傷つく！
-		XTaunt28: お、お前がその程度の火で偉大なる...だ、大魔道士様を倒せると思うのか！？
-		XTaunt27: バ、バカめ！俺は実は燃えるのが好きなんだ！
-		XTaunt26: 火はやめろ！このローブ新品なんだぞ！
-		XTaunt25: 死ね！！人間！！敵！！！（咳、咳）ラアア！！
-		XTaunt24: 俺の呪文が俺の力だ！
-		XTaunt23: お前と違って、俺は至高の存在になる運命なんだ！
-		XTaunt22: 信じられん！お前の粘り強さが羨ましくなるぜ！
-		XTaunt21: 俺の力はこんなもんじゃねえ！！！！！
-		XTaunt20: 逃げ場はないぞ、ザコが！
-		XTaunt19: 今降参しても、見逃す気はねえぞ！
-		XTaunt18: お前みたいな泥棒はくたばりやがれ！
-		XTaunt17: 本当に素人の中のド素人だな！
-		XTaunt16: 俺の魔法の力を感じろ！！！
-		XTaunt15: 俺様に傷をつけることなんてできねえんだよ！
-		XTaunt14: 俺を超える魔法使いなんかいねえんだ！
-		XTaunt13: 俺様を傷つけようとしても無駄だ！
-		XTaunt12: たとえ盗めたとしても、俺の素晴らしい杖を扱う価値はお前にはねえ！
-		XTaunt11: この栄光をこんなことに使うなんて信じられねえ...
-		XTaunt10: 俺がお前なら、跪いて滅ぼされるのを待つぞ！
-		XTaunt9: お前の最高のスキルは悪い判断力だな！
-		XTaunt8: 大魔道士様の偉大さを理解する頭もねえんだろうな！
-		XTaunt7: 俺の最強の魔法はお前の体より先に精神をぶっ壊す！
-		XTaunt6: 俺の最強の魔法を見る価値もお前にはねえ！
-		XTaunt5: わざと外してるのか？それとも俺の栄光に目が眩んだか？
-		XTaunt4: 自殺行為だぞ！
-		XTaunt3: 戦いがドア開けほどうまけりゃな！
-		XTaunt2: 偉大なる大魔道士様にとってはこんなのどうってことねえ！！
-		XTaunt1: 俺がお前でも、俺の杖を盗もうとするだろうな！
-		XIntro10: 最初の一回でちゃんと学んだと思ったのに！
-		XIntro9: おい、マジで、深夜だぞ。もういいだろ...
-		XIntro8: 放っといてくれ！
-		XIntro7: 一回目はただのまぐれだ！
-		XIntro6: 杖に触るな！
-		XIntro5: またお前か！？
-		XIntro4: 頼むからそれやめてくれ！？
-		XIntro3: この悪党！！！物理的に可能なあらゆる方法でお前をぶっ壊す！！！
-		XIntro2: 俺の杖...愛する杖が、今まで完璧だったのに！
-		XIntro1: その汚ねえ手を離せ、この野郎！！！
-		AgainLoud: またか！
-		AndAgain: またまたか！
-	}
-
-	Wizard: {
-		WizardAboutX8: ザレウスが嫌いなのは確かじゃが、あやつの羊化呪文はなかなか...少なくとも興味深いのう。
-		WizardAboutX7: まだあの変な紫の小屋を調べてないのか？自称「大魔道士」サマが住んでるんじゃぞ。
-		WizardAboutX6: そろそろあのオンボロの紫の小屋を調べた方がいいと思うのう。確か、無茶苦茶な変人が住んでたはずじゃ。
-		WizardAboutX5: まだあやつがそこにいるのか？気にしない方がいいかもしれぬ、永遠に騒いどるからの！
-		WizardAboutX4: あやつが言う「魔法の頂点」ってのはただの傲慢じゃ！スライムの方がまだマシな魔法を使えるぞい！
-		WizardAboutX3: つまり、いわゆる「大魔道士」に会ったわけじゃな。ほっほっほ、あやつがまともに魔法を使えるとは思えんがな！
-		WizardAboutX2: ふむ、あのバカな「大魔道士」を倒した...ということかの！
-		WizardAboutX1: ハハッ！火星人どもにコテンパンにされたわい、あのザレウスとやらもな... まったく、愚か者よのう。
-	}
-
-	DotDotDot: ...
-
-}
-
-Misc: {
-	Types: {
-		Animal: タイプ: 農場の動物
-		HotGarbage: タイプ: ゴミ箱
-		Organ: タイプ: 臓器
-		Evil: タイプ: 感染したクリーチャー
-		Cecitoma: タイプ: 有機構造体
-		Staff: タイプ: 魔法の杖
-		Xareus: タイプ: 「マスター」魔法使い
-	}
-}
-
-Configs: {
-	EbonianServerConfig: {
-		XareusDelay: {
-			Tooltip: ザレウスを再召喚するまでの遅延時間
-			Label: ザレウスの遅延（フレーム単位、60フレーム＝1秒）
-		}
-
-		DisplayName: サーバー設定
-
-	}
-
-	EbonianClientConfig: {
-		BowPullVolume: {
-			Tooltip: ""
-			Label: 弓の音量
-		}
-
-		MuteBowPull: {
-			Tooltip: Ebonian Mod によって追加された一部の弓の引き音をミュートします。
-			Label: 弓の引き音をミュート
-		}
-
-		DisplayName: クライアント設定
-	}
-}
-
-Biomes: {
-	ShackMusic: {
-		TownNPCDialogueName: 小屋の音楽
-		DisplayName: 小屋の音楽
-	}
-
-	SpawnAnimMusic: {
-		TownNPCDialogueName: 笑
-		DisplayName: スポーンアニメ音楽
-	}
-}
-
-Keybinds: {
-	"Time Slip": {
-		DisplayName: タイムスリップ（ボイドランナーマスクの能力）
-	}
-
-	"Rei Dash": {
-		DisplayName: タイムスリップ（ボイドランナーマスクの能力）
-	}
-}
-
-Buffs: {
-	NastySnapperDebuff: {
-		Description: Mods.EbonianMod.Buffs.NastySnapperDebuff.Description
-		DisplayName: ナスティスナッパーデバフ
-	}
-
-	SheepPetB: {
-		Description: 羊化の犠牲者かもしれない
-		DisplayName: 羊
-	}
-
-	GarbagePetB: {
-		Description: 臭いがきつい
-		DisplayName: ゴミ袋
-	}
-
-	CecitiorPetB: {
-		Description: それが見てる
-		DisplayName: セシティオの目
-	}
-
-	TitteringB: {
-		Description: 小さなささやきたちがあなたのために戦う
-		DisplayName: ささやきたち
-	}
-
-	CecitiorClawBuff: {
-		Description: 深紅の鉤爪が背中から生え、あなたのために戦う
-		DisplayName: 背掻き爪
-	}
-
-	XTomeBuff: {
-		Description: アメジストのエネルギーを放ち、共に戦う
-		DisplayName: ファンタズマルスピリット
-	}
-
-	Sheepened: {
-		Description: これはまずい！
-		DisplayName: 羊化
-	}
-
-	OstertagiB: {
-		Description: ダメージと攻撃速度がアップ
-		DisplayName: 感染
-
-	}
-
-	DjungelskogB: {
-		Description: 冒険に喜んでついてくる柔らかいジャングルの友達
-		DisplayName: ジュンゲルスコグ
-	}
-
-	SelfStabB: {
-		Description: ダメージが大幅にアップ
-		DisplayName: 犠牲
-	}
-
-	DoomsdayBuff: {
-		DisplayName: ドゥームズデイドローン
-		Description: .
-	}
-
-	RollegB: {
-		DisplayName: オアオアオー ムム))
-		Description: ネコシュルーミー
-	}
-
-	HightomaB: {
-		DisplayName: タイニートーマ
-		Description: お前を攻撃するほど完全に意識がはっきりしてない
-	}
-
-	PanopticonB: {
-		DisplayName: 肉のキューブ
-		Description: この牢獄が...俺の周りを回るだと！？
-	}
-
-	ExolStun: {
-		DisplayName: スタン
-		Description: スタン状態
-	}
-}
-
-Items: {
-	WoolWoodWallI: {
-		Tooltip: ""
-		DisplayName: ウールの壁
-	}
-
-	WoolWoodPlatformI: {
-		Tooltip: ""
-		DisplayName: ウールの足場
-	}
-
-	WoolWoodI: {
-		Tooltip: ""
-		DisplayName: ウールの木材
-	}
-
-	WoolWorkbenchI: {
-		Tooltip: ""
-		DisplayName: ウールの作業台
-	}
-
-	WoolTableI: {
-		Tooltip: ""
-		DisplayName: ウールのテーブル
-	}
-
-	WoolLampI: {
-		Tooltip: ""
-		DisplayName: ウールのランプ
-	}
-
-	WoolDoorI: {
-		Tooltip: ""
-		DisplayName: ウールのドア
-	}
-
-	WoolChairI: {
-		Tooltip: ""
-		DisplayName: ウールの椅子
-	}
-
-	SheepItemNaked: {
-		Tooltip: ""
-		DisplayName: 羊（毛刈り済み）
-	}
-
-	Shears: {
-		Tooltip: 羊からウールを刈るのに使う
-		DisplayName: ハサミ
-	}
-
-	Sawcitior: {
-		Tooltip: ""
-		DisplayName: ノコギリシティオール
-	}
-
-	Terrortome: {
-		Tooltip: ""
-		DisplayName: 恐怖の書
-	}
-
-	XHouseBrickReplicaItem: {
-		Tooltip: ""
-		DisplayName: アメジストのレンガ
-	}
-
-	TTomaMask: {
-		Tooltip: ""
-		DisplayName: テラートーマのマスク
-	}
-
-	CeciMask: {
-		Tooltip: ""
-		DisplayName: セシティオのマスク
-	}
-
-	GarbageMask: {
-		Tooltip: ""
-		DisplayName: ゴミのマスク
-	}
-
-	XMask: {
-		Tooltip: ""
-		DisplayName: ザレウスのマスク
-	}
-
-	Wool: {
-		Tooltip: ""
-		DisplayName: ウール
-	}
-
-	WoolenUshanka: {
-		SetBonus:
-			'''
-			召喚獣の最大数を{0}増やす
-			寒さと凍結の耐性を付与する
-			'''
-		Tooltip: 召喚ダメージを{0}%増加
-		DisplayName: ウールのウシャンカ帽
-	}
-
-	WoolenCoat: {
-		Tooltip:
-			'''
-			召喚ダメージを{0}%増加
-			召喚獣の最大数を{1}増やす
-			'''
-		DisplayName: ウールのコート
-	}
-
-	WoolenBoots: {
-		Tooltip:
-			'''
-			鞭のダメージを{0}%増加
-			鞭の速度を{1}%増加
-			'''
-		DisplayName: ウールのブーツ
-	}
-
-	NastySnapper: {
-		Tooltip:
-			'''
-			{0}の召喚タグダメージ
-			召喚獣が攻撃した敵に集中する
-			「ちょっと魚臭いね」
-			'''
-		DisplayName: ナスティスナッパー
-	}
-
-	SalvagedThruster: {
-		Tooltip:
-			'''
-			ジェルを弾薬として使用
-			「ちょっとホコリが舞うだけ…」
-			'''
-		DisplayName: 回収されたスラスター
-	}
-
-	XRelic: {
-		Tooltip: ""
-		DisplayName: ザレウスのレリック
-	}
-
-	TerrortomaRelic: {
-		Tooltip: ""
-		DisplayName: テラートーマのレリック
-	}
-
-	GarbageRelic: {
-		Tooltip: ""
-		DisplayName: ホットガーベージのレリック
-	}
-
-	CecitiorRelic: {
-		Tooltip: ""
-		DisplayName: セシティオのレリック
-	}
-
-	MailboxStaff: {
-		Tooltip: メールボックスセントリーを召喚する
-		DisplayName: メールボックススタッフ
-	}
-
-	SheepItem: {
-		Tooltip: ""
-		DisplayName: 羊
-	}
-
-	XTrophy: {
-		Tooltip: ""
-		DisplayName: ザレウスのトロフィー
-	}
-
-	XMusicI: {
-		Tooltip: Yuri Oの「Die Human Enemy」を再生
-		DisplayName: オルゴール（ザレウス）
-	}
-
-	GarbageTrophy: {
-		Tooltip: ""
-		DisplayName: ホットガーベージのトロフィー
-	}
-
-	CecitiorTrophy: {
-		Tooltip: ""
-		DisplayName: セシティオのトロフィー
-	}
-
-	SheepPet: {
-		Tooltip: 羊を召喚する
-		DisplayName: フワフワの羊毛
-	}
-
-	GarbagePet: {
-		Tooltip: ゴミ袋を召喚する
-		DisplayName: ゴミ袋
-	}
-
-	CecitiorPet: {
-		Tooltip: セシティオの目を召喚する
-		DisplayName: セシティオの目
-	}
-
-	GarbageBagI: {
-		Tooltip: <右クリック>で開ける
-		DisplayName: トレジャーバッグ（ホットガーベージ）
-	}
-
-	TitteringStaff: {
-		Tooltip: 極小のささやきたちを召喚し、周囲の敵に呪われた炎の弾を放たせる
-		DisplayName: ささやきの杖
-	}
-
-	GarbageFlail: {
-		Tooltip: ""
-		DisplayName: 奇妙なアングルグラインダー
-	}
-
-	XTentacleAcc: {
-		Tooltip: 魔法攻撃を跳ねるアメジストで強化する
-		DisplayName: ザレウスの触手
-	}
-
-	TerrortomaTrophy: {
-		Tooltip: ""
-		DisplayName: テラートーマのトロフィー
-	}
-
-	ArchmageBag: {
-		Tooltip: <右クリック>で開ける
-		DisplayName: トレジャーバッグ（ザレウス）
-	}
-
-	XareusPotion: {
-		Tooltip: 飲むとヤバい
-		DisplayName: ザレウスの無限マナポーション
-	}
-
-	StaffofXWeapon: {
-		Tooltip: 「真なる大魔杖には及ばない...」
-		DisplayName: ザレウスの大魔杖(廉価版)
-	}
-
-	StaffOfX: {
-		Tooltip: 純粋な粉末の雷とクリスタルの領域から採れた最高のアメジストで鍛えられた...とかなんとか
-		DisplayName: 悲劇の大魔道士ザレウスの大魔杖
-	}
-
-	StaffOfXItem: {
-		Tooltip: ""
-		DisplayName: Xの杖アイテム
-	}
-
-	ArchmageXTome: {
-		Tooltip: アメジストのエネルギーを呼び出し、幻影の精霊を召喚する
-		DisplayName: 偉大なる大魔道士の無限なる英知の書
-	}
-
-	Bloodlash: {
-		Tooltip: ""
-		DisplayName: ブラッドラッシュ
-	}
-
-	CursedScourge: {
-		Tooltip: ""
-		DisplayName: カースドスカージ
-	}
-
-	SpudCannon: {
-		Tooltip: ポテトを弾薬として使用する
-		DisplayName: スパッドキャノン
-	}
-
-	PipebombI: {
-		Tooltip:
-			'''
-			町のNPCにダメージを与える
-			「これを使ったらどうなるんだろう」
-			'''
-		DisplayName: パイプ爆弾
-	}
-
-	ToothToothbrush: {
-		Tooltip: 地面を叩くと特殊な攻撃を繰り出す
-		DisplayName: 歯の歯ブラシ
-	}
-
-	TerrortomaMaterial: {
-		Tooltip: 蠢く腐敗物質の欠片
-		DisplayName: 細胞物質
-	}
-
-	CecitiorMaterial: {
-		Tooltip: 蠢く真紅の肉片
-		DisplayName: 肉の塊
-	}
-
-	HotShield: {
-		Tooltip: 移動速度を{0}%減少
-		DisplayName: ゴミ箱の蓋
-	}
-
-	CecitiorClawSummon: {
-		Tooltip: 「やあ、ピーター」
-		DisplayName: 背掻き爪
-	}
-
-	Chainsword: {
-		Tooltip: 敵の防御を{0}ポイント無視
-		DisplayName: ガラクタのチェーンソード
-	}
-
-	Equilibrium: {
-		DisplayName: 均衡の剣
-		Tooltip: ""
-	}
-
-	GhizasWheel: {
-		Tooltip: 命中時に呪われたインフェルノを付与
-		DisplayName: 腐食の車輪
-	}
-
-	PhantasmalGreatsword: {
-		Tooltip:
-			'''
-			命中時にシャドウフレイムの幻影の剣を放つ
-			「大魔道士ザレウスが…壁の装飾品として作った」
-			'''
-		DisplayName: 大魔道士ザレウスのシャドウフレイムのスカイスプリッター
-	}
-
-	VaccumWorm: {
-		DisplayName: バキュームワーム
-		Tooltip: 弱い敵を引き寄せる
-	}
-
-	CorruptionClaw: {
-		DisplayName: 鎖の爪
-		Tooltip: ""
-	}
-
-	CursedToy: {
-		DisplayName: 呪われた人形
-		Tooltip: ""
-	}
-
-	TerrortomaBag: {
-		Tooltip: <右クリック>で開ける
-		DisplayName: トレジャーバッグ（テラートーマ）
-	}
-
-	CecitiorBag: {
-		Tooltip: <右クリック>で開ける
-		DisplayName: トレジャーバッグ（セシティオ）
-	}
-
-	Serration: {
-		Tooltip: 地面を叩くと特殊攻撃を繰り出す
-		DisplayName: セレーション
-	}
-
-	InfernoLeggings: {
-		Tooltip: ""
-		DisplayName: インフェルノレギンス
-	}
-
-	InfernoHeadgearAlt: {
-		Tooltip: ""
-		DisplayName: インフェルノマスク
-	}
-
-	InfernoHeadgear: {
-		Tooltip: ""
-		DisplayName: インフェルノヘルム
-	}
-
-	InfernoBreastplate: {
-		Tooltip: ""
-		DisplayName: インフェルノチェストプレート
-	}
-
-	ClementinesCap: {
-		Tooltip: 「間違いなく昔はもっと良かった」
-		DisplayName: 血まみれの野球帽
-	}
-
-	Potato: {
-		Tooltip: 「さて、どう持ちこたえる？」
-		DisplayName: ポテト
-	}
-
-	Ostertagi: {
-		Tooltip: 代償を払ってダメージと攻撃速度を強化する
-		DisplayName: オスタタギ
-	}
-
-	DjungelskogI: {
-		Tooltip: ジュンゲルスコグを召喚する
-		DisplayName: ジュンゲルスコグ
-	}
-
-	ReiMask: {
-		Tooltip:
-			'''
-			移動速度をわずかに増加
-			敵の上にカーソルを合わせて{ReiM_Keybind}を押すとテレポート可能
-			'''
-		DisplayName: ボイドランナーマスク
-	}
-
-	MagmaBow: {
-		Tooltip: 5本の火山矢を放つ
-		DisplayName: ペンタボウ
-	}
-
-	SelfStab: {
-		Tooltip: 代償を払ってすべてのダメージを大幅に強化
-		DisplayName: 犠牲の短剣
-	}
-
-	Spinax: {
-		Tooltip: 真紅の力で強化された古代恐竜の背骨
-		DisplayName: スピナックス
-	}
-
-	CrimsonSpear: {
-		Tooltip: 長く使うほど強力になる
-		DisplayName: ヴィトリオリックヴォールジ
-	}
-
-	CorruptionStaff: {
-		DisplayName: ソーンアパート
-		Tooltip: 追尾するヴァイルソーンを召喚する
-	}
-
-	VileNoodleBox: {
-		DisplayName: 邪悪なヌードルボックス
-		Tooltip:
-			'''
-			確実にヤバめの胃もたれを引き起こす
-			「麺がうねうね動いているようだ...」
-			'''
-	}
-
-	IchorGlobScepter: {
-		DisplayName: ネバネバした杖
-		Tooltip: ネバつく塊を撃ち出し、3つの小さな破片に分裂する
-	}
-
-	BrainAcc: {
-		DisplayName: 滲み出る脳
-		Tooltip:
-			'''
-			ライフ自然回復を増進
-			複数の脳を召喚し、貫通しない攻撃を防ぐ盾として機能する
-			'''
-	}
-
-	EbonianHeart: {
-		DisplayName: 腐った心臓
-		Tooltip:
-			'''
-			防御力を{0}減少
-			召喚獣の最大数を{1}増加
-			召喚ダメージを{2}%増加
-			呪われた炎を放つ堕落した心臓を召喚する
-			'''
-	}
-
-	ExolWings: {
-		DisplayName: 地獄の翼
-		Tooltip: ""
-	}
-
-	GarbageRemote: {
-		NoteForTranslators: 「警告」はWarningとTooltipで一致させる必要あり
-		DisplayName: 埃まみれの量子コンピューター
-		Warning: 警告
-		Tooltip:
-			'''
-			技術的特異点に到達した唯一のAIとの通信を可能にする
-			警告
-			'''
-	}
-
-	DapperCecitiorI: {
-		DisplayName: 絵画『見栄えのいい奴』
-		Tooltip: シニア・アンサイト作
-	}
-
-	DappertomaI: {
-		DisplayName: 絵画『エレガントーマ』
-		Tooltip: シニア・トーマス作
-	}
-# 絵画な気がしたので絵画にしましたが間違ってたら直してください
-
-	EvilMusicI: {
-		DisplayName: オルゴール（恐怖の書＆セシティオ）
-		Tooltip: Yuri Oの「Forces of Evil」を再生する
-	}
-
-	ExolMusicI: {
-		DisplayName: オルゴール（インフェロス）
-		Tooltip: Yuri Oの「Rage」を再生する
-	}
-
-	HotMusic: {
-		DisplayName: オルゴール（ホットガーベージ）
-		Tooltip: Yuri Oの「Trash Compactor」を再生する
-	}
-
-	WaspPaintingI: {
-		DisplayName: 絵画『ハチ』
-		Tooltip:
-			'''
-			「遥か昔に絶滅した種に捧ぐ」
-			E・フライ作
-			'''
-	}
-
-	WormPaintingI: {
-		DisplayName: 絵画『ワーム』
-		Tooltip: O・ディガー作
-	}
-
-	PepperSpray: {
-		Tooltip: ""
-		DisplayName: ペッパースプレー
-	}
-
-	CrimCannon: {
-		DisplayName: 血まみれの入れ歯
-		Tooltip: 血まみれの歯を放つ
-	}
-
-	FangSlinger: {
-		Tooltip: ""
-		DisplayName: ファングスリンガー
-	}
-
-	IchorFlintlock: {
-		DisplayName: ブラッドコルト
-		Tooltip:
-			'''
-			イコルの弾丸を放つ
-			5発連続で撃つと貫通するイコルオーブに置き換わる
-			'''
-	}
-
-	DoomsdayRemote: {
-		Tooltip:
-			'''
-			カーソルの位置をドローンに攻撃させる
-			ジェンコープの多くの失敗作(？)の一つ
-			'''
-		DisplayName: 赤いボタン
-	}
-
-	CursedCone: {
-		Tooltip: タイニートーマを召喚する
-		DisplayName: 呪われたコーン
-	}
-
-	Panopticon: {
-		Tooltip: 肉のキューブを召喚する
-		DisplayName: 肉のキューブ
-	}
-
-	EbonHiveI: {
-		DisplayName: 腐敗の塊
-		Tooltip: ""
-	}
-
-	GoreSceptre: {
-		Tooltip:
-			'''
-			敵を感電させる電撃の心臓を召喚する
-			「クリアー！」
-			'''
-		DisplayName: 除細動器
-	}
-
-	InferosVolI: {
-		Tooltip: ""
-		DisplayName: インフェルノミコン
-	}
-
-	Latcher: {
-		Tooltip:
-			'''
-			自分をブロックや重い敵に引き寄せ、軽い敵を自分の方へ引き寄せる
-			右クリックでキャンセル
-			'''
-		DisplayName: ラッチャー
-	}
-
-	TerrorStaff: {
-		Tooltip:
-			'''
-			膨れ上がった蝿を召喚し、近くの敵に向かって爆発させる
-			ミニオンスロットを消費しない
-			'''
-		DisplayName: ネストセプター
-	}
-
-	EbonianScythe: {
-		DisplayName: グリムロットカッター
-		Tooltip: 使用中は最大移動速度が上がる
-	}
-
-	Exolsaw: {
-		Tooltip: ""
-		DisplayName: インフェルノディスク
-	}
-
-	MeatCrusher: {
-		Tooltip: 地面を叩くと特殊攻撃を繰り出す
-		DisplayName: ミートクラッシャー
-	}
-
-	SanguineSlasher: {
-		DisplayName: 肉の牙
-		Tooltip: 敵を噛むと{0}のライフを回復
-	}
-
-	TerrorFlail: {
-		Tooltip: ""
-		DisplayName: フレイロトーマ
-	}
-
-	Corebreaker: {
-		Tooltip: ""
-		DisplayName: コアブレイカー
-	}
-
-	EbonianGatling: {
-		DisplayName: 不浄のガトリングガン
-		Tooltip: 呪われた弾丸を高速で連射
-	}
-
-	EbonianGun: {
-		DisplayName: 呪われた銃
-		Tooltip: 呪われた弾丸を放つ
-	}
-
-	EbonianRocketLauncher: {
-		Tooltip:
-			'''
-			任意のロケットを不浄の追尾ロケットに変換
-			ロケットがブロックを破壊しなくなる
-			'''
-		DisplayName: モーズーカ
-	}
-
-	GutlingGun: {
-		Tooltip: ""
-		DisplayName: ガトリング
-	}
-
-	ThornBow: {
-		Tooltip: ""
-		DisplayName: ソーニーボウ
-	}
-
-	ToxicarpMKII: {
-		DisplayName: ギザギザクジラ
-		Tooltip:
-			'''
-			小さな魚の弾幕を発射する...が、魚たちはすぐに水中ではないことに気づき死ぬ
-			「ギザギザクジラ・ブラスター！」
-			'''
-	}
-
-	RingOfFire: {
-		DisplayName: リング・オブ・ファイア
-		Tooltip:
-			'''
-			防御を無視するがクリティカルダメージを与えない
-			紫の風船を割れない
-			'''
-	}
+Projectiles: {
+	GreenShockwave.DisplayName: ショックウェーブ
+	GenericExplosion.DisplayName: エクスプロージョン
+	EyeVFX.DisplayName: アイ
+	CircleTelegraph.DisplayName: ショックウェーブ
+	BloodShockwave.DisplayName: ショックウェーブ
+	TSpike.DisplayName: スパイク
+	TFlameThrower3.DisplayName: 呪われた炎
+	TFlameThrower2.DisplayName: 呪われた炎
+	TFlameThrower.DisplayName: 呪われた炎
+	TFang.DisplayName: ファング
+	TExplosion.DisplayName: エクスプロージョン
+	Ripple.DisplayName: リップル
+	DoomsdayDrone.DisplayName: ドゥームズデイドローン
+	WeakCursedBullet.DisplayName: 呪われた弾丸
+	CorebreakerP.DisplayName: コアブレイカーキャノンボール
+	IchorBlast.DisplayName: イコールブラスト
+	LatcherPCecitior.DisplayName: ラッチャー
+	LatcherP.DisplayName: ラッチャー
+	IchorGrenade.DisplayName: ガトリンググレネード
+	TerrorStaffP.DisplayName: ヴァイルエッグ
+	EbonianRocket.DisplayName: モーズーカミサイル
+	CorruptArrow.DisplayName: コラプトアロー
+	BloodBullet.DisplayName: ブラッドバレット
+	EFireBreath2.DisplayName: ファイア
+	EFireBreath.DisplayName: ファイア
+	EFire.DisplayName: ファイア
+	Rolleg.DisplayName: ローレッグ
+	CecitiorEyeP.DisplayName: スペクトラルゲイザー
+	BloodLaser.DisplayName: ブラッドブラスト
+	Pipebomb.DisplayName: パイプボム
+	Mailbox.DisplayName: メールボックス
+	Garbage.DisplayName: ガーベージ
+	IchorFlintlockP.DisplayName: ファングナム
+	EbonianGunP.DisplayName: 呪われた銃器
+	BloodOrb.DisplayName: ブラッドオーブ
+	VileBladeP.DisplayName: ヴァイルブレード
+	SanguineSlasherP.DisplayName: フレッシュファング
+	ExolsawP.DisplayName: インフェルノディスク
+	EbonianScytheP.DisplayName: グリムロットカッター
+	InferosP.DisplayName: インフェルノミコン
+	PanopticonP.DisplayName: パノプティコン
+	Hightoma.DisplayName: タイニートーマ
+	GarbageRemoteP.DisplayName: 埃まみれの量子コンピューター
+	TerrorVilethorn2.DisplayName: ヴァイルソーン
+	TerrorVilethorn1.DisplayName: ヴァイルソーン
+	TBeam.DisplayName: ビーム
+	TelegraphLine.DisplayName: テレグラフライン
+	EbonFlyMinion.DisplayName: エボンバエ
+	DroneBeam.DisplayName: ドローンビーム
+	HeadGoreSceptreEVILSOBBINGRN.DisplayName: ハート
+	HeadGoreSceptre.DisplayName: ハート
+	Fangs.DisplayName: ファング
+	VileMeatChunk.DisplayName: ヴァイルミートチャンク
+	TerrortomaFlail_Clingers.DisplayName: テラーフレイル
+	TerrortomaFlail.DisplayName: テラーフレイル
+	CorruptThorn.DisplayName: コラプトソーン
+	EBoulder2.DisplayName: ボルダー
+	EBoulder.DisplayName: ボルダー
+	EBeam.DisplayName: ソーラーレイ
+	CecitiorTeeth.DisplayName: ティース
+	Soder.DisplayName: ソーダ
+	MetalCircle.DisplayName: オイルドラム
+	HotGarbageNuke.DisplayName: 核爆弾
+	GarbageFlame.DisplayName: フレイム
+	FatSmash.DisplayName: ショックウェーブ
+	PepperSprayProjectile.DisplayName: ペッパースプレー
+	IchorGlobSmall.DisplayName: グロブ
+	IchorGlob.DisplayName: グロブ
+	TinyFish.DisplayName: タイニーフィッシュ
+	RingOfFireP.DisplayName: リング・オブ・ファイア
+	RingOfFireP2.DisplayName: リング・オブ・ファイア
+	VilethornF2.DisplayName: ヴァイルソーン
+	VilethornF1.DisplayName: ヴァイルソーン
+	MeatCrusherP.DisplayName: ミートクラッシャー
+	CrimsonSpearP.DisplayName: ヴィトリオリックヴォールジ
+	GoreBeam.DisplayName: 除細動器
+	RedSpark.DisplayName: レッドスパーク
+	BloodShockwave2.DisplayName: ブラッドショックウェーブ
+	InferosShockwave.DisplayName: インフェロスショックウェーブ
+	ExolFireSpiral.DisplayName: エクソルファイアスパイラル
+	EGeyser.DisplayName: ガイザー
+	InferosShockwave2.DisplayName: インフェロスショックウェーブ
+	ESun.DisplayName: サン
+	EFire2.DisplayName: ファイア
+	ExolFireExplode.DisplayName: エクソルファイアエクスプロード
+	InferosShockwave3.DisplayName: インフェロスショックウェーブ
+	FlameExplosion.DisplayName: フレイムエクスプロージョン
+	EFire3.DisplayName: ファイア3
+	ESkullEmoji.DisplayName: スカル絵文字
+	EPentagramAsh.DisplayName: ペンタグラムアッシュ
+	FlameExplosion2.DisplayName: フレイムエクスプロージョン
+	ETelegraph.DisplayName: テレグラフ
+	Noise.DisplayName: ノイズ
+	NoiseOverlay.DisplayName: ノイズオーバーレイ
+	EMine.DisplayName: マイン
+	QuickFlare.DisplayName: フレア
+	FireGrenadeP.DisplayName: ファイアグレネード
+	CursedFlameExplosion.DisplayName: 呪われた炎の爆発
+	CrimCannonP.DisplayName: 血まみれの入れ歯
+	Gibs.DisplayName: ギブス
+	SpinaxP.DisplayName: スピナックス
+	SelfStabP.DisplayName: 犠牲の短剣
+	BloodVignette.DisplayName: ブラッドヴィネット
+	EPlatform.DisplayName: プラットフォーム
+	EGroundHazard.DisplayName: グラウンドハザード
+	RykardSkull.DisplayName: スカル
+	MagmaBowP.DisplayName: マグマボウ
+	MagmaArrow.DisplayName: マグマアロー
+	ReiCapeP.DisplayName: ボイドランナーマスク
+	ReiCapeTrail.DisplayName: ボイドランナーマスク
+	Djungelskog.DisplayName: ジュンゲルスコグ
+	ReiExplosion.DisplayName: ボイドランナーマスク
+	IgnosSlash.DisplayName: イグノススラッシュ
+	IgnosSlashTelegraph.DisplayName: イグノススラッシュテレグラフ
+	GarbageSignals.DisplayName: ガーベージシグナル
+	GreenShockwave2.DisplayName: ショックウェーブ
+	OrangeRedShockwave.DisplayName: ショックウェーブ
+	YellowShockwave.DisplayName: ショックウェーブ
+	BigGrayShockwave.DisplayName: ショックウェーブ
+	RykardSkullSpiral.DisplayName: スカル
+	FlameExplosion3.DisplayName: フレイムエクスプロージョン
+	VortexSkull.DisplayName: スカル
+	IgnosLightning.DisplayName: イグノスライトニング
+	IgArena.DisplayName: イグアリーナ
+	ESwordWave.DisplayName: ソードウェーブ
+	IgnosEye.DisplayName: イグノスの目
+	MagmaArrowHostile.DisplayName: マグマアロー
+	TinyRykardSkull.DisplayName: スカル
+	ESickle.DisplayName: シックル
+	OstertagiP.DisplayName: オスタタギ
+	OstertagiWorm.DisplayName: ワーム
+	OstertagiExplosion.DisplayName: 呪われた炎の爆発
+	ExolGreatArrow.DisplayName: グレートアロー
+	EHomingBeam.DisplayName: ホーミングビーム
+	FlameExplosionWSprite.DisplayName: フレイムエクスプロージョン
+	TFlameThrower4.DisplayName: フレイム
+	TerrorStaffPEvil.DisplayName: テラースタッフ
+	CecitiorBelch.DisplayName: ベルチ
+	SerrationP.DisplayName: セレーション
+	SerrationSpike.DisplayName: セレーション
+	CecitiorClawSlash.DisplayName: クロースラッシュ
+	CecitiorClawWave.DisplayName: クローウェーブ
+	ClawGore.DisplayName: クロー
+	BloodExplosionWSprite.DisplayName: ブラッドエクスプロージョン
+	CecitiorBombThing.DisplayName: イコールボム
+	IchorExplosion.DisplayName: イコールエクスプロージョン
+	CecitiorSpike.DisplayName: セシティオスパイク
+	CecitiorTeethFriendly.DisplayName: セシティオの歯
+	GutlingGunP.DisplayName: ガトリングガン
+	CursedToyP.DisplayName: 呪われた人形
+	CursedToyBeam.DisplayName: 呪われた人形
+	BigGreenShockwave.DisplayName: ショックウェーブ
+	CorruptionClawP.DisplayName: 鎖の爪
+	DankDiggerProjectileWorm.DisplayName: ダンクディガー
+	XSpirit.DisplayName: スピリット
+	XExplosion.DisplayName: エクスプロージョン
+	VaccumWormP.DisplayName: バキュームワーム
+	XShadowflame.DisplayName: シャドーフレームエラプション
+	XAmethyst.DisplayName: アメジスト
+	XBolt.DisplayName: 輝く一斉射撃
+	XExplosionTiny.DisplayName: エクスプロージョン
+	XSineLaser.DisplayName: シャドウフレイムの波動
+	XExplosionInvis.DisplayName: エクスプロージョン
+	XExplosionInvisMask.DisplayName: エクスプロージョン
+	PhantasmalGreatswordP.DisplayName: 大魔道士・ザレウスのシャドーフレームスカイスプリッター
+	PhantasmalGreatswordP2.DisplayName: 大魔道士・ザレウスのシャドーフレームスカイスプリッター
+	XAmethystCloseIn.DisplayName: アメジスト
+	XLargeAmethyst.DisplayName: グレートアメジスト
+	XAmethystShard.DisplayName: アメジストシャード
+	XTentacle.DisplayName: シャドーフレームテンドリル
+	player_sheep.DisplayName: 羊
+	SheepeningOrb.DisplayName: 羊化ビーム
+	XManaPotion.DisplayName: ザレウスのポーション
+	XSpiritNoHome.DisplayName: ファンタズマルブラスト
+	XRift.DisplayName: リフト
+	XKnife.DisplayName: アメジスト
+	XCloud.DisplayName: シャドーフレームクラウド
+	XLightningBolt.DisplayName: シャドーフレームライトニングボルト
+	XTelegraphLine.DisplayName: テレグラフライン
+	RegorgerBolt.DisplayName: ティタリングボルト
+	RegorgerTelegraph.DisplayName: ティタリングテレグラフ
+	GhizasWheelP.DisplayName: 腐食の車輪
+	VileTearTelegraph.DisplayName: ヴァイルティアテレグラフ
+	AmbientGibs.DisplayName: ギブス
+	XCloudVFXExtra.DisplayName: クラウド
+	EquilibriumP.DisplayName: イクイリブリアム
+	EquilibriumP2.DisplayName: イクイリブリアム
+	GarbageBag.DisplayName: ゴミ袋
+	GarbageBarrel.DisplayName: バレル
+	GarbageGiantFlame.DisplayName: フレイム
+	GarbageMissile.DisplayName: ソーダ
+	GarbageDrone.DisplayName: ドローン
+	GarbageLightning.DisplayName: ライトニング
+	GarbageTelegraph.DisplayName: ガーベージテレグラフ
+	GarbageTelegraphSmall.DisplayName: ガーベージテレグラフ
+	GarbageLaser.DisplayName: フレイム
+	GarbageLaser1.DisplayName: フレイム
+	GarbageLaser2.DisplayName: フレイム
+	GarbageLaser3.DisplayName: フレイム
+	HeatBlastVFX.DisplayName: ヒートブラスト
+	GarbageLaserSmall1.DisplayName: 火山噴火
+	GarbageLaserSmall2.DisplayName: 火山噴火
+	GarbageLaserSmall3.DisplayName: 火山噴火
+	ChargeUp.DisplayName: チャージアップ
+	GluttonImpact.DisplayName: インパクト
+	GreenChargeUp.DisplayName: グリーンチャージアップ
+	ArchmageHead.DisplayName: 大魔道士ヘッド
+	ArchmageArm.DisplayName: 大魔道士アーム
+	ArchmageDeath.DisplayName: 大魔道士デス
+	ArchmageXSpawnAnim.DisplayName: 大魔道士スポーンアニメ
+	ArchmageChargeUp.DisplayName: 大魔道士チャージアップ
+	FangSlingerP.DisplayName: ファングスリンガー
+	ThornBowP.DisplayName: ソーニーボウ
+	ChainswordP.DisplayName: ジャンクヤードチェーンソード
+	CBeam.DisplayName: ビーム
+	FlareExplosion.DisplayName: フレア
+	CFlareExplosion.DisplayName: フレア
+	ScreenFlash.DisplayName: スクリーンフラッシュ
+	CImplosionFlare.DisplayName: フレア
+	ConglomerateScream.DisplayName: コングロマリットスクリーム
+	CFlesh.DisplayName: 肉
+	CIchorBomb.DisplayName: イコールボム
+	CIchor.DisplayName: イコール
+	CecitiorClawMinion.DisplayName: バックスクレイパー
+	AnimeSlash.DisplayName: スラッシュ
+	XAnimeSlash.DisplayName: ザレウスの魔法
+	PipebombP.DisplayName: パイプボム
+	PotatoP.DisplayName: ポテト
+	CrimsonArrow.DisplayName: クリムゾンアロー
+	CHeart.DisplayName: 心臓
+	EHeartP.DisplayName: 呪われた炎
+	CBeamInstant.DisplayName: ビーム
+	CursedScourgePro.DisplayName: カースドスカージ
+	BloodlashPro.DisplayName: ブラッドラッシュ
+	XRiftSmall.DisplayName: リフト
+	SpawnTheThing.DisplayName: デバッグ
+	ArchmageStaffGore.DisplayName: 大魔杖
+	XTomeP.DisplayName: アメジストエネルギー
+	XTomeSummon.DisplayName: ファンタズマルスピリット
+	XBoltFriendly.DisplayName: 輝くボルト
+	CursedFireball.DisplayName: カースドファイアボール
+	XareusPotionExplosion.DisplayName: ザレウスポーション
+	XareusPotionPro.DisplayName: ザレウスポーション
+	HostileGibs.DisplayName: ギブス
+	GarbageImpact.DisplayName: インパクト
+	GarbageDroneF.DisplayName: ドローン
+	GarbageFlailP.DisplayName: 奇妙なアングルグラインダー
+	TitteringMinion.DisplayName: ティタリング
+	StaffOfXP.DisplayName: 大魔杖
+	XImpact.DisplayName: インパクト
+	XImpact2.DisplayName: インパクト
+	ToothToothbrushP.DisplayName: トゥース歯ブラシ
+	CecitiorPetP.DisplayName: セシティオの目
+	GarbagePetP.DisplayName: ゴミ袋
+	SheepPetP.DisplayName: 羊
+	MailboxSentry.DisplayName: メールボックスセントリー
+	PipebombPSentry.DisplayName: パイプボム
+	SalvagedThrusterP.DisplayName: サルベージドスラスター
+	NastySnapperPro.DisplayName: ナスティスナッパープロ
+	XBoltFriendly2.DisplayName: ボルト
+	RedMistVFX.DisplayName: レッドミストVFX
+	PhantasmalWave.DisplayName: ファンタズマルウェーブ
+	TFlameThrower2_Inverted.DisplayName: フレイム
+	TerrortomaScream.DisplayName: テラートーマスクリーム
+	TFlameThrowerHoming.DisplayName: フレイム
+	TerrortomeFlame.DisplayName: テラートームフレイム
+	TerrortomeWorm.DisplayName: テラートームワーム
+	SawcitiorP.DisplayName: ノコギリシティオールP
+	ClawSlashGreen.DisplayName: 緑の爪斬撃
+	CGhostCeci.DisplayName: C ゴーストセシ
+	CBeamSmall.DisplayName: C 小型ビーム
+	CWorm.DisplayName: C ワーム
+	BlurScream.DisplayName: ぼやけた叫び
+	Coins.DisplayName: コイン
+	SilverBasherFlash.DisplayName: シルバーバッシャーの閃光
+	SilverBasherP.DisplayName: シルバーバッシャー P
+	terrortomaFishingRodBobber.DisplayName: テラートマの釣りウキ
+	cecitiorFishingRodBobber.DisplayName: セシティオールの釣りウキ
+	VerletBeam.DisplayName: ヴェルレ・ビーム
+	CrimsonBall.DisplayName: 真紅の球体
+	BallLauncherSprite.DisplayName: ボールランチャーのスプライト
+	CorruptionBalls.DisplayName: 不浄の球体
+	BallLauncherSprite2.DisplayName: ボールランチャーのスプライト2
+	BallLauncherCharge.DisplayName: ボールランチャーのチャージ
+	Ball.DisplayName: ボール
+	LatcherSprite.DisplayName: ラッチャーのスプライト
+	DummyProjectile.DisplayName: ダミー投射物
+	Misery.DisplayName: ジェットパック付きの巨石
+	CrimCannonGraphics.DisplayName: クリムキャノン
+	ToothProj.DisplayName: 歯
+	CorebreakerGraphics.DisplayName: コアブレイカー
+	AImpact.DisplayName: A 衝撃
+	AureusLaser.DisplayName: アウレウスレーザー
+	AureusMine.DisplayName: アウレウスの地雷
+	jumpscare.DisplayName: ジャンプスケア
+	MagnetSphere.DisplayName: マグネットスフィア
+	CorebreakerPrimary.DisplayName: コアブレイカー
+	CorebreakerSecondary.DisplayName: コアブレイカー
+	AExplosion.DisplayName: A 爆発
+	AureusBeam.DisplayName: アウレウスビーム
+	AureusGalaxy.DisplayName: アウレウスギャラクシー
+	AureusMissile.DisplayName: アウレウスミサイル
+	AureusPlanet.DisplayName: アウレウスプラネット
+	AureusSpawn.DisplayName: アウレウスミニオン
+	AureusVortex.DisplayName: アウレウスの渦
+	ProjectileGraphics.DisplayName: 投射物の描画
+	Ash.DisplayName: 灰
+	AshBlast.DisplayName: 灰の爆発
+	CorruptionHitscan.DisplayName: 不浄の即着弾
+	CorebreakerHitscan.DisplayName: コアブレイカーの即着弾
+	EbonianRocketLauncherGraphics.DisplayName: エボニアンロケットランチャー
+	CongFisherateBobber.DisplayName: コングフィッシャレートの釣りウキ
+	TFlameThrowerSine.DisplayName: T 火炎放射の波動
+	BatGraphics.DisplayName: コウモリ
+	Kodama.DisplayName: コダマ
+	KodamaSummoningRitual.DisplayName: コダマの召喚儀式
+	KodamaF.DisplayName: コダマ F
+	BelladonnaBush.DisplayName: ベラドンナの茂み
+	Blueberry.DisplayName: ブルーベリー
+	Nightshade.DisplayName: ナイトシェード
+	Nightshade2.DisplayName: ナイトシェード2
+	ShewStoneArrow.DisplayName: シューストーンの矢
+	ShewStoneCrystal.DisplayName: シューストーンの結晶
+	ShewStoneRain.DisplayName: シューストーンの雨
+	ShewExplosion.DisplayName: シューの爆発
+	ShewRainExplosion.DisplayName: シューの雨の爆発
+	WardingStarP.DisplayName: 守護の星 P
+	WardingStarP2.DisplayName: 守護の星 P2
+	Blinkroot.DisplayName: ブリンクバディ
+	LilPilg.DisplayName: 小さな宣教師
+	BotanistP.DisplayName: 植物学者 P
+	BorealBladeSlashP.DisplayName: ボリアルブレードの斬撃 P
+	ThawGauntletP.DisplayName: 解凍のガントレット P
+	ThawGauntletP2.DisplayName: 解凍のガントレット P2
+	CenturySpewerSpore.DisplayName: センチュリースピュワーの胞子
+	CenturyFlowerSpore.DisplayName: センチュリーフラワーの胞子
+	WardenSigil.DisplayName: 守護者の紋章
+	WardenStar.DisplayName: 守護者の星
+	GoldTippedArrow.DisplayName: 金の矢じりの矢
+	StarBitBlue.DisplayName: 青い星のかけら
+	MagicChargeUp.DisplayName: 魔力のチャージ
+	FallingStarBig.DisplayName: 大きな流れ星
+	FallingStarTiny.DisplayName: 小さな流れ星
+	FlyladStarBomb.DisplayName: フライラッドの星爆弾
+	FlyladDeath.DisplayName: フライラッドの死
+	RustyWaraxeP.DisplayName: 錆びた戦斧 P
+	BorealSpike.DisplayName: ボリアルスパイク
+	SudamaF.DisplayName: スダマ F
+	BotanistHeadProjectile.DisplayName: 植物学者の頭
+	BaseballBatP.DisplayName: 野球バット P
+	FallingStarTinyHostile.DisplayName: 小さな流れ星（敵対）
+	FallingStarBigHostile.DisplayName: 大きな流れ星（敵対）
+	IchorArmorExplosion.DisplayName: 霊液の鎧の爆発
+	TerrorArmorRay.DisplayName: テラーアーマーの光線
+	BlindeyeBowP.DisplayName: ブラインドアイボウ P
+	BlindeyeArrow.DisplayName: ブラインドアイの矢
+	Starine_Sparkle.DisplayName: スターリンのきらめき
+	LatcherGraphics.DisplayName: ラッチャーの描画
+	BallLauncherPrimary.DisplayName: ボールランチャー
+	SpudCannonP.DisplayName: ポテトキャノン P
+	PlantGunP.DisplayName: プラントガン P
+	PlantGunP2.DisplayName: プラントガン P2
+	VivineSpit.DisplayName: ヴィヴァインの唾液
+	HostileCorruptExplosion.DisplayName: 不浄爆発
+	XAmethystFriendly.DisplayName: X アメジスト（友好）
+	GarbageLightningF.DisplayName: ガラクタの稲妻 F
+	CursedDollProjectile.DisplayName: 呪いの人形
+	CursedRay.DisplayName: 呪いの光線
+	DollPin.DisplayName: 人形の針
+	GoryJaw.DisplayName: 血まみれの顎
+	DollHitscan.DisplayName: 人形の即着弾
+	SheepeningPlayerProjectile.DisplayName: ヒツジ
+	XLargeAmethystAlt.DisplayName: X 巨大アメジスト（別形態）
+	CorebreakerProjectile.DisplayName: コアブレイカー
+	FangnumProjectile.DisplayName: ファングナム
+	LobberProjectile.DisplayName: ロバー
+	LobberProjectile2.DisplayName: ロバー
+	SalvagedThrusterProjectile.DisplayName: 回収されたスラスター
+	PotatoProjectile.DisplayName: ジャガイモ
+	ExolsawProjectile.DisplayName: エクソルソー
+	CrimCannonProjectile.DisplayName: クリムキャノン
+	BaseballBatProjectile.DisplayName: 野球バット
+	EbonianGunProjectile.DisplayName: エボニアンガン
+	EbonianRocketLauncherProjectile.DisplayName: エボニアンロケットランチャー
+	CoreProjectile.DisplayName: コア
+	StarcallerP.DisplayName: スターコーラー
+	StarcallerBolt.DisplayName: スターコーラーの魔法弾
+	StarcallerPortal.DisplayName: スターコーラーのポータル
+	StarcallerShotVFX.DisplayName: スターコーラーの発射エフェクト
 }
 
 NPCs: {
-	ArchmageX: {
-		Bestiary:
-			'''
-			史上最高にして最も偉大な魔法使い...
-			他の追随を許さぬ魔法の達人！
-			真の魔術師！
-			その名も...ザレウス！！
-			
-			...全部自称らしい。
-			'''
-		BossLogDisplayName: 大魔道士
-		DisplayName: ザレウス
-	}
-
-	MiniSpectator: {
-		Bestiary: 真紅ではちょっと珍しい存在。常に熱量ゼロの無表情で観察している。旅人たちの間では「ジョークでも話してやりたい」と思われるほどの無気力。...ちなみに、この辺のヤツらはずっとあなたを観察してるらしい。
-		DisplayName: スペクテイター
-	}
-
-	JelleyeFish: {
-		Bestiary: 真紅の血にまみれた大地を、肉質の触手がゆらゆらと漂う。真紅の赤い水から生まれたこの突然変異生物は、目が無限に増え続け、腐敗した空気の中を浮遊する存在へと進化した。刺身にはしない方がいい...
-		DisplayName: ジェリーアイフィッシュ
-	}
-
-	Sheep: {
-		Bestiary: のんびりした平和な生き物。ふわふわの羊毛に包まれ、草をもしゃもしゃ食べる。羊毛はカラフルな衣服や快適なアイテムに使われることが多いが...今更驚く人はいないだろう。
-		DisplayName: 羊
-	}
-
-	FleshDice: {
-		DisplayName: 肉のダイス
-	}
-
-	ArchmageStaffNPC: {
-		Bestiary: 世界のあらゆる魔法の中でも、アークスタッフほど偉大なものは少ない。純鉄とミスリルで作られた柄に、スペクターインゴットと堕ちた星を流し込み、最高級の魔法の布で包み込む。さらに、結晶化したエーテルとアメジストの巨大な宝石が冠されたこの杖は、他の杖と違い、魔力を抽出するのではなく、即座に魔法エネルギーや異世界へのポータルを生み出すことができる。たとえ持ち主がポンコツでも、この杖は魔法の知識を集めた歴史の結晶なのだ。
-		DisplayName: 大魔杖
-	}
-
-	ArchmageCutsceneMartian: {
-		DisplayName: 大魔道士・ザレウス
-	}
-
-	Screecher: {
-		Bestiary: 真紅を徘徊する、中ぐらいの皮なしクリーチャー。ほぼ剥き出しの神経を持ち、ちょっとした刺激も敏感に察知。危険を察知すると大音量で叫び出し、真紅全体にお知らせしてくれる。
-		DisplayName: シュリーカー
-	}
-
-	Mosquito: {
-		Bestiary: かつてはただの迷惑な虫だったが、今では立派なモンスターに進化。吸血能力だけでも十分ウザいが、群れになると危険度アップ。さらに、刺された後の副作用もヤバくなっている。
-		DisplayName: ブラッドサッカー
-	}
-
-	Conglomerate: {
-		DisplayName: コングロマリット
-	}
-
-	ArchmageXDeathAnim: {
-		DisplayName: ザレウス
-	}
-
-	Screecher: {
-		Bestiary: 中型の皮膚のないクリーチャーで、真紅の一種のアラームだ。神経がほぼむき出しで、わずかな動きでも感知して真紅に警告する。
-		DisplayName: シュリーカー
-	}
-
-	Mosquito: {
-		Bestiary: かつての厄介者が怪物に変わった。こいつらの吸血能力は単体でも面倒だが、群れだと危険だ。後遺症もヤバいかもしれない。
-		DisplayName: ブラッドサッカー
-	}
-
-	Conglomerate: {
-		DisplayName: コングロマリット
-	}
-
-	ArchmageXDeathAnim: {
-		DisplayName: ザレウス
-	}
-
-	BloodHunter: {
-		Bestiary: 真紅に生息するおぞましいクモ型モンスター。ほかのクモとは違い、遠距離からの攻撃を得意とする。ハサミで距離を取りながら、強力な毒を持つ尻尾で敵を仕留める。
-		DisplayName: ブラッドハンター
-	}
-
-	VileTear: {
-		Bestiary: あまり見かけないレアな存在だが、その巨大な体と不気味な笑顔は、遭遇した者の心に深い恐怖を刻み込む。怖がらせるのも、丸呑みにするのも大好き。
-		DisplayName: グリナー
-	}
-
-	ToxicAbomination: {
-		Bestiary: 食べた腐肉から有毒ガスをため込み、それを利用して猛スピードで次の獲物へ突撃。その勢いで爆発的な衝撃波が発生し、周囲を巻き込む。
-		DisplayName: ヴィルラント
-	}
-
-	Vileglider: {
-		Bestiary: 上空から突然襲いかかるハンター。攻撃の正確さは恐ろしいほどで、獲物を跡形もなく消し去ることも...
-		DisplayName: ヴァイルグライダー
-	}
-
-	Regorger: {
-		Bestiary: 遠くから聞こえる、カラカラとした笑い声。その存在はキャンプファイヤーの怪談話にもよく登場する。ただし、この生き物が本当に楽しんで笑っているのか、それとも、呪われた炎を吐いた後の生理的反射なのかは不明。
-		DisplayName: ティタリング
-	}
-
-	Consumer: {
-		Bestiary: 獲物を一瞬で仕留める狂暴な捕食者。その鋭い歯は、大型の骨や固い殻すらも一撃で砕く。...食い散らかすことはない。なぜなら、全部食うからだ。
-		DisplayName: ロットジョー
-	}
-
-	MiniTrumpetTail: {
-		DisplayName: コルネット
-	}
-
-	MiniTrumpetHead: {
-		DisplayName: コルネット
-	}
-
-	MiniTrumpetBody: {
-		DisplayName: コルネット
-	}
-
-	WormKing: {
-		Bestiary: 団子虫が無制限に成長した結果。群体意識を持ち、虫たちを操る存在。たまに奇妙な木と間違われるが、それに気づいたときにはもう手遅れ。
-		DisplayName: ワームキング
-	}
-
-	JuvenileBrain: {
-		Bestiary: 未熟な超能力を駆使して、相手に錯覚を起こさせるモンスター。相手が混乱しているスキに襲いかかる。
-		DisplayName: ニューロバイト
-	}
-
-	Rolypoly: {
-		Bestiary:
-			'''
-			大量の腐敗虫が絡み合って1つの巨大な存在になったもの。
-			しかし、動きはかなり鈍く、最終的に彼らの集合意識は悟る。
-			「...この形、めっちゃマヌケでは？」
-			'''
-		DisplayName: ローリーポーリー
-	}
-
-	TrumpetBody: {
-		DisplayName: トランペット
-	}
-
-	TrumpetHead: {
-		Bestiary: 腐敗した生態系のお世話係。普通のモンスターはあなたを敵視するが、こいつは全く気にしてないようだ...
-		DisplayName: トランペット
-	}
-
-	TrumpetTail: {
-		DisplayName: トランペット
-	}
-
-	FleshBrickSmall: {
-		DisplayName: セディメンタリー
-	}
-
-	FleshBrickMedium: {
-		DisplayName: セディメンタリー
-	}
-
-	FleshBrickBig: {
-		Bestiary: これらは不浄地帯の谷の壁の初期段階と考えられている。足元の泥や岩まで、すべてが巣のような組織から生まれたものだ。
-		DisplayName: セディメンタリー
-	}
-
-	Parasite: {
-		Bestiary: この個体たちは他の真紅の生物たちの残骸をうまく使い、小さな血液輸送用の船として活動している。血液を必要とする他の存在たちのために役立つ。
-		DisplayName: ラッチャー
-	}
-
-	ClumpOfMeat: {
-		Bestiary: ラッチャーたちは意外と賢い。よく集まって他のものを真似し、突然ばらけて一斉に攻撃する。スライムのような姿をしていることが多いが、まれに人型になることもある。
-		DisplayName: 肉の塊
-	}
-
-	Bloodhound: {
-		Bestiary: 真紅が犬のようなものを作り出そうとした結果。獲物を追い、無警戒な人々を赤い世界へと引き寄せ、さらなる生物資源を探し出す。
-		DisplayName: ブラッドハウンド
-	}
-
-	TerrortomaBulb: {
-		DisplayName: 巨大な繭
-	}
-
-	MassiveSpectator: {
-		LowTaperFade: 他にデカいものって何だ？
-		Bestiary: これらの巨大な目は、赤い世界の根本に繋がっている。最近現れたばかりで、詳しいことはまだわかっていない。
-		DisplayName: マッシブスペクテイター
-	}
-
-	BloatedEbonfly: {
-		Bestiary: 燃えた物を食べることで長寿を得た変異したエボンフライ。しかし、その代わりに非常に不安定になってしまった。
-		DisplayName: 膨張したエボンフライ
-	}
-
-	DankDiggerTail: {
-		DisplayName: ダンクディガー
-	}
-
-	DankDiggerHead: {
-		Bestiary: これらは、イーターオブワールドの破壊が残した痕跡だ。シャドウスケールが壊れると、その残骸が再生し、ダンクディガーとなる。
-		DisplayName: ダンクディガー
-	}
-
-	DankDiggerBody: {
-		DisplayName: ダンクディガー
-	}
-
-	RotlingTail: {
-		DisplayName: ロットリング
-	}
-
-	RotlingHead: {
-		Bestiary: 腐敗した古い生命体の残りかすから生まれる小さなワーム。腐敗のエネルギーが動物を形作ったらしい。
-		DisplayName: ロットリング
-	}
-
-	RotlingBody: {
-		DisplayName: ロットリング
-	}
-
-	LetsGoo: {
-		Bestiary: 筋肉、顎、そして無差別に食べるという本能だけを持つ、狩りを楽しむモンスター。
-		DisplayName: ナッシャー
-	}
-
-	Fleshformator: {
-		Bestiary: 深い真紅世界の底辺で生きる者たちだ。栄養豊富な場所を見つけると、何でも食べ尽くしてしまう。
-		DisplayName: フレッシュフォーマター
-	}
-
-	BabyCecity: {
-		Bestiary: これは以前のイコルスティッカーが進化したもので、環境に支配されてしまった。見た目は奇妙だが、この進化は非常に適応的であり、元々の姿よりも優れている。
-		DisplayName: クリムヘモラージ
-	}
-
-	EbonianHeartNPC: {
-		DisplayName: 心臓
-	}
-
-	TinyBrain: {
-		DisplayName: 脳
-	}
-
-	CecitiorEye: {
-		Bestiary:
-			'''
-			セシティオが使う眼のようなものだ。しかし、この目は作りが雑で、防御もされていない。
-			
-			レモンをかけたらどうなるのだろう、と誰もが一度は考えるだろう。
-			'''
-		DisplayName: ゲイザー
-	}
-
-	EbonCrawler: {
-		Bestiary: 失敗作、進化のミスである。この存在の唯一の目的は、エボンフライたちの巣となることしかない。
-		DisplayName: ウェイスター
-	}
-
-	EbonFly: {
-		Bestiary: これらの虫は群れで飛ぶのが好き。死肉を食べ、ゆくゆくは翼を超えた巨大なワームに変わると言われているが、その真偽は不明。
-		DisplayName: エボンフライ
-	}
-
-	EbonianStrider: {
-		DisplayName: リガージテイター
-	}
-
-	RottenSpineBody: {
-		DisplayName: ロットンスパイン
-	}
-
-	RottenSpineHead: {
-		Bestiary: 腐敗の進化によって生まれた二つの頭を持つワーム。どうやって生きているのか、誰も分からない。
-		DisplayName: ロットンスパイン
-	}
-
-	RottenSpineTail: {
-		DisplayName: ロットンスパイン
-	}
-
-	VileSlime: {
-		Bestiary: 見た目はスライムのようだが、実際はスライムではない。近づいてきて、突然速い触手で攻撃してくる。
-		DisplayName: マックリング
-	}
-
-	Crimera: {
-		DisplayName: クリメラ
-	}
-
-	CrimeraBody: {
-		DisplayName: スコーン
-	}
-
-	CrimeraHead: {
-		Bestiary: 真紅の危機的な時期に進化し始めた生物。今ではその手足で地面を掘ることができ、体内で生成される死んだ血液細胞をものすごい速さで吐き出すことができる。
-		DisplayName: スコーン
-	}
-
-	CrimeraTail: {
-		DisplayName: スコーン
-	}
-
-	CrimsonWormBody: {
-		DisplayName: ガットワーム
-	}
-
-	CrimsonWormHead: {
-		Bestiary: 腐敗した食べ物を模倣するモンスター。餓えた食欲と絶え間ないイコルを持っている。この生物が現れる場所は警戒すべきだ。
-		DisplayName: ガットワーム
-	}
-
-	CrimsonWormTail: {
-		DisplayName: ガットワーム
-
-	}
-
-	TerrorClingerMelee: {
-		Bestiary: 腐敗した死体の頭部が繋がっていて、テラートーマとともに小さな巣を形成している。
-		DisplayName: クリンガー
-	}
-
-	TerrorClingerRanged: {
-		DisplayName: クリンガー
-	}
-
-	TerrorClingerSummoner: {
-		DisplayName: クリンガー
-	}
-
-	Terrortoma: {
-		Bestiary: 腐敗した存在が集まって感情を持つことができる異常な存在。進化の過程で予期せぬ姿に成長してしまった。
-		DisplayName: テラートーマ
-	}
-
-	Cecitior: {
-		Bestiary: 肉でできた非常に粗悪な存在だ。他の赤いモンスターたちとは異なり、非常に最近作られたもので、その目的は不明。
-		DisplayName: セシティオ
-	}
-
-	Glutton: {
-		Bestiary: 巨大な獣で、特徴的なその形や顔を持つ。以前はもっと単純な生物だったようだが、その力が強まった理由は不明。
-		DisplayName: グラットン
-	}
-
 	HotGarbage: {
+		DisplayName: ホットガーベージ
+
+		BossChecklistIntegration: {
+			SpawnInfo: "[i:{0}]を使用する。金の宝箱でよく見つかる。"
+			EntryName: ホットガーベージ
+		}
+
 		Bestiary:
 			'''
 			武装されたゴミ箱のようなもの。戦闘用に作られたらしいが、なぜか常に火がついている。
 
 
 			側面のメモに「紛失した場合はジェンコープ本社に返却してください」と書いてある。
-"
 			'''
-
-		BossChecklistIntegration: {
-			EntryName: ホットガーベージ
-			SpawnInfo: "[i:{0}]を使用する。ゴールドチェストでよく見つかる。"
-		}
-
-		DisplayName: ホットガーベージ
-
 	}
+
+	Glutton: {
+		DisplayName: グラットン
+		Bestiary: 巨大な獣で、不浄の生物としては奇妙な形や顔を持つ。以前はもっと単純な生物だったようだが、その力が強まった理由は不明。
+	}
+
+	Cecitior: {
+		DisplayName: セシティオ
+		BossChecklistIntegration.SpawnInfo: 真紅でよく見つかるマッシブスペクテイターを倒す。
+		Bestiary: 肉でできた非常に粗悪な存在だ。他の真紅のモンスターたちに似ているものの、非常に最近作られたもので、その目的は不明。
+	}
+
+	Terrortoma: {
+		DisplayName: テラートーマ
+		BossChecklistIntegration.SpawnInfo: 不浄でよく見つかる巨大な繭を破壊する。
+		Bestiary: 腐敗した存在が集まって感情を持つことができる異常な存在。進化の過程で予期せぬ姿に成長してしまった。
+	}
+
+	TerrorClingerSummoner.DisplayName: クリンガー
+	TerrorClingerRanged.DisplayName: クリンガー
+
+	TerrorClingerMelee: {
+		DisplayName: クリンガー
+		Bestiary: 感染した死体の頭部がテラートーマに繋がり、ともに小さな集合意識を形成している。
+	}
+
+	CrimsonWormTail.DisplayName: ガットワーム
+
+	CrimsonWormHead: {
+		DisplayName: ガットワーム
+		Bestiary: 不浄の飢えた捕食者を模倣したようなモンスター。果てしない飢えと溢れ出る霊液までよく似ている。普段は非常に珍しいため、この地域に姿を現すことは、少なくとも懸念すべき兆候だ。
+	}
+
+	CrimsonWormBody.DisplayName: ガットワーム
+	CrimeraTail.DisplayName: スコーン
+
+	CrimeraHead: {
+		DisplayName: スコーン
+		Bestiary: 真紅が危機に瀕した時期に進化し始めたクリメラ。今ではその手足で地面を掘ることができ、体内で猛烈な速さで生成される死んだ血球を吐き出すことができる。
+	}
+
+	CrimeraBody.DisplayName: スコーン
+	Crimera.DisplayName: クリメラ
+
+	VileSlime: {
+		DisplayName: マックリング
+		Bestiary: 見た目はスライムのようだが、実際はスライムではない。近づいてきて、突然速い触手で攻撃してくる。
+	}
+
+	RottenSpineTail.DisplayName: ロットンスパイン
+
+	RottenSpineHead: {
+		DisplayName: ロットンスパイン
+		Bestiary: 腐敗の進化によって生まれた二つの頭を持つワーム。どうやって生きているのか、誰も分からない。
+	}
+
+	RottenSpineBody.DisplayName: ロットンスパイン
+	EbonianStrider.DisplayName: リガージテイター
+
+	Ebonfly: {
+		DisplayName: エボンバエ
+		Bestiary: 群れで飛び回り、あらゆる場所に残された死肉を貪る不気味な昆虫。成長を続けた末に翅が体重を支えきれなくなり、故郷を象徴する巨大なワームへと変貌するとも囁かれている。しかし、その噂を裏付ける証拠はない。
+	}
+
+	EbonCrawler: {
+		DisplayName: ウェイスター
+		Bestiary: 不浄が生み出した進化の失敗作。この存在に残された唯一の役割は、意に反してエボンバエたちの巣となることだ。
+	}
+
+	CecitiorEye: {
+		DisplayName: ゲイザー
+		Bestiary:
+			'''
+			セシティオが使う視覚器官だ。セシティオ自体が雑に作られており、この目が守られていないことをはじめ、多くの欠陥を抱えている。
+
+			ここにレモンがかかったら、どれほど痛いのだろうと考えずにはいられない。
+			'''
+	}
+
+	TinyBrain.DisplayName: 脳
+	EbonianHeartNPC.DisplayName: 心臓
+
+	BabyCecity: {
+		DisplayName: クリムヘモラージ
+		Bestiary: イコルスティッカーが進化し、バイオームの拡大に四肢を侵食されたもの。奇妙な見た目に反し、突発的な進化と共生にうまく適応しており、四肢を侵食される前の姿をも上回るほど、その力を最大限に活かしている。
+	}
+
+	Fleshformator: {
+		DisplayName: フレッシュフォーマター
+		Bestiary: 真紅の深部で餌を漁る生物。生まれた場所から移動して栄養豊富な場所に張り付き、手当たり次第に獲物を捕らえて貪る。その体の反対側に何があるのかを見た者はいない。
+	}
+
+	LetsGoo: {
+		DisplayName: ナッシャー
+		Bestiary: 筋肉、顎、そして無差別に食べるという本能だけを持つ、狩りを楽しむモンスター。
+	}
+
+	RotlingBody.DisplayName: ロットリング
+
+	RotlingHead: {
+		DisplayName: ロットリング
+		Bestiary: はるか昔に死んだ不浄の生物が残した、腐敗したエネルギーから生まれる小さなワーム。
+	}
+
+	RotlingTail.DisplayName: ロットリング
+	DankDiggerBody.DisplayName: ダンクディガー
+
+	DankDiggerHead: {
+		DisplayName: ダンクディガー
+		Bestiary: これらは、イーターオブワールドの破壊が残した痕跡だ。シャドウスケールが壊れると、その残骸が再生し、ダンクディガーとなる。
+	}
+
+	DankDiggerTail.DisplayName: ダンクディガー
+
+	BloatedEbonfly: {
+		DisplayName: エボンバエ
+		Bestiary: 呪炎で燃えた物を食べることで長寿を得た変異したエボンバエ。しかし、その代わりに非常に不安定になってしまった。
+	}
+
+	MassiveSpectator: {
+		DisplayName: マッシブスペクテイター
+		Bestiary: これらの巨大な目は、真紅の根底にある何かに繋がっているようだ。最近現れたばかりで、詳しいことはまだわかっていない。
+	}
+
+	TerrortomaBulb.DisplayName: 巨大な繭
+
+	Bloodhound: {
+		DisplayName: ブラッドハウンド
+		Bestiary: 真紅が犬に学ぼうとした結果。無警戒な人々を真紅の外へ、その住処まで追跡し、さらなる生物資源を探し出すためによく使われる。
+	}
+
+	ClumpOfMeat: {
+		DisplayName: 肉の塊
+		Bestiary: ラッチャーたちは意外と賢い。よく集まって他のものを真似し、突然ばらけて一斉に攻撃する。スライムのような姿をしていることが多いが、まれに人型になることもある。
+	}
+
+	Parasite: {
+		DisplayName: ラッチャー
+		Bestiary: 他の真紅の生物たちの残骸が、小さな血液の運び手として再利用されたもの。より血を与えられるべき真紅の存在たちへ血液を届ける役割を担う。
+	}
+
+	FleshBrickBig: {
+		DisplayName: セディメンタリー
+		Bestiary: これらは不浄地帯の谷の壁の初期段階と考えられている。足元の泥や岩まで、すべてが群体生物そのものに由来する。
+	}
+
+	FleshBrickMedium.DisplayName: セディメンタリー
+	FleshBrickSmall.DisplayName: セディメンタリー
+	TrumpetTail.DisplayName: トランペット
+
+	TrumpetHead: {
+		DisplayName: トランペット
+		Bestiary: 腐敗した生態系のお世話係。普通のモンスターはあなたを敵視するが、こいつは全く気にしてないようだ...
+	}
+
+	TrumpetBody.DisplayName: トランペット
+
+	Rolypoly: {
+		DisplayName: ローリーポーリー
+		Bestiary:
+			'''
+			大量の腐敗虫が絡み合って1つの巨大な存在になったもの。
+			しかし、動きはかなり鈍く、最終的に彼らの集合意識は悟る。
+			「...この形、めっちゃマヌケでは？」
+			'''
+	}
+
+	JuvenileBrain: {
+		DisplayName: ニューロバイト
+		Bestiary: 未熟な超能力を駆使して、相手に錯覚を起こさせるモンスター。相手が混乱しているスキに襲いかかる。
+	}
+
+	WormKing: {
+		DisplayName: ワームキング
+		Bestiary: ローリーポーリーが放置されたまま成長した結果。群体意識を持ち、不浄のワームのような生物たちを操る存在。たまに奇妙な木と間違われるが、それに気づいたときにはもう手遅れ。
+	}
+
+	MiniTrumpetBody.DisplayName: コルネット
+	MiniTrumpetHead.DisplayName: コルネット
+	MiniTrumpetTail.DisplayName: コルネット
+
+	Consumer: {
+		DisplayName: ロットジョー
+		Bestiary: 獲物に一瞬で飛びかかる狂暴な捕食者。その鋭い歯は、大型の骨や固い殻すらも一撃で砕く。...食い散らかすことはない。なぜなら、全部食うからだ。
+	}
+
+	Regorger: {
+		DisplayName: ティタリング
+		Bestiary: 遠くから聞こえる、カラカラとした笑い声。その存在はキャンプファイヤーの怪談話にもよく登場する。ただし、この生き物が本当に楽しんで笑っているのか、それとも、呪われた炎を吐いた後の生理的反射なのかは不明。
+	}
+
+	Vileglider: {
+		DisplayName: ヴァイルグライダー
+		Bestiary: 上空から突然襲いかかるハンター。攻撃の正確さは恐ろしいほどで、獲物を跡形もなく消し去ることも...
+	}
+
+	ToxicAbomination: {
+		DisplayName: ヴィルラント
+		Bestiary: 食べた腐肉から有毒ガスをため込み、それを利用して猛スピードで次の獲物へ突撃。その勢いで爆発のような衝撃が生じる。
+	}
+
+	VileTear: {
+		DisplayName: グリナー
+		Bestiary: あまり見かけないレアな存在だが、その巨大な体と不気味な笑顔は、遭遇した者の心に深い恐怖を刻み込む。怖がらせるのも、丸呑みにするのも大好き。
+	}
+
+	BloodHunter: {
+		DisplayName: ブラッドハンター
+		Bestiary: 真紅に生息するおぞましいクモ型モンスター。ほかのクモとは違い、正面から戦うよりも距離を取ることを好む。ハサミで距離を取りながら、強力な毒を持つ尻尾で敵を仕留める。
+	}
+
+	ArchmageXDeathAnim.DisplayName: ザレウス
+	Conglomerate.DisplayName: コングロマリット
+
+	Mosquito: {
+		DisplayName: ブラッドサッカー
+		Bestiary: かつての厄介者が怪物に変わった。こいつらの吸血能力は単体でも面倒だが、群れだと危険だ。後遺症もヤバいかもしれない。
+	}
+
+	Screecher: {
+		DisplayName: シュリーカー
+		Bestiary: 中型の皮膚のないクリーチャーで、真紅の一種のアラームだ。神経がほぼむき出しで、わずかな動きでも感知して真紅に警告する。
+	}
+
+	ArchmageCutsceneMartian.DisplayName: 大魔道士・ザレウス
+
+	ArchmageStaffNPC: {
+		DisplayName: 大魔杖
+		Bestiary: 世界のあらゆる魔法の中でも、大魔杖ほど偉大なものは少ない。純鉄とミスリルで作られた柄に、スペクターインゴットと流れ星を流し込み、最高級の魔法の布で包み込む。さらに、結晶化したシマーとアメジストの巨大な宝石が冠されたこの杖は、他の杖と違い、杖そのものから魔力を引き出すのではなく、マナを即座に魔法エネルギーや異世界へのポータルへと変換できる。たとえ持ち主がポンコツでも、この杖は闇と光の魔法の知識を集めた歴史の結晶なのだ。
+	}
+
+	FleshDice.DisplayName: 肉のダイス
+
+	Sheep: {
+		DisplayName: 羊
+		Bestiary: のんびりした平和な生き物。ふわふわの羊毛に包まれ、草をもしゃもしゃ食べる。羊毛はカラフルな衣服や快適なアイテムに使われることが多いが...今更驚く人はいないだろう。
+	}
+
+	JelleyeFish: {
+		DisplayName: ジェリーアイフィッシュ
+		Bestiary: 真紅の血にまみれた大地を、肉質の触手がゆらゆらと漂う。真紅の赤い水から生まれたこの突然変異生物は、目が無限に増え続け、腐敗した空気の中を浮遊する存在へと進化した。刺身にはしない方がいい...
+	}
+
+	MiniSpectator: {
+		DisplayName: スペクテイター
+		Bestiary: 真紅ではちょっと珍しい存在。真紅や不浄の生物も、汚染されていない生物も区別なく、常に熱量ゼロの無表情で観察している。旅人たちの間では「ジョークでも話してやりたい」と思われるほどの無気力。...ちなみに、この辺のヤツらはずっとあなたを観察してるらしい。
+	}
+
+	ArchmageX: {
+		DisplayName: ザレウス
+		BossLogDisplayName: 大魔道士
+		BossChecklistIntegration.SpawnInfo: "[i:LargeAmethyst]で謎の小屋の地下室を開放し、中にある大魔杖を調べる。"
+		Bestiary:
+			'''
+			史上最高にして最も偉大な魔法使い...
+			他の追随を許さぬ魔法の達人！
+			真の魔術師！
+			その名も...大魔道士！！
+
+			...全部自称らしい。
+			'''
+	}
+
+	CoinBag: {
+		DisplayName: 取り憑かれた袋
+		Bestiary: どうやら気前の良すぎる霊に取り憑かれているらしい。中には大量のコインが詰まっている。
+	}
+
+	Chalice.DisplayName: チャリス
+	Sudama.DisplayName: すだま
+	Aureus.DisplayName: アウレウス
+	Kodama.DisplayName: 木霊
+
+	Botanist: {
+		DisplayName: ボタニスト
+		Bestiary:  首を異常な長さまで伸ばし、頭を勢いよく叩きつける奇妙な森の怪物。普段は何の変哲もない茂みに化け、獲物を密かにつけ狙っている。
+	}
+
+	Belladonna: {
+		DisplayName: ベラドンナ
+		Bestiary: 上品な植物学者を思わせる姿をした、植物の人型生物。昼間は眠りながら光合成を行い、夜になると回復効果のあるブルーベリーや爆発するナイトシェードの苗を広めるために活動する。その優雅な見た目に違わず、彼女は植物学の腕前と色鮮やかな肌を誇りに思っている。
+	}
+
+	Pebbi1: {
+		DisplayName: 石板ペビ
+		Bestiary: ペビは様々な岩石から生まれた、奇妙な生きた石の欠片だ。これといった理由もなく群れをなして旅人に襲いかかる。この個体は特に素早く動き回る。
+	}
+
+	Pebbi2: {
+		DisplayName: 岩塊ペビ
+		Bestiary: ペビは様々な岩石から生まれた、奇妙な生きた石の欠片だ。これといった理由もなく群れをなして旅人に襲いかかる。この個体は特に大きく、ずっしりと重い。
+	}
+
+	Pebbi3: {
+		DisplayName: 晶洞ペビ
+		Bestiary: ペビは様々な岩石から生まれた、奇妙な生きた石の欠片だ。これといった理由もなく群れをなして旅人に襲いかかる。この個体は特に丸々とした体つきをしている。
+	}
+
+	BoxFish: {
+		DisplayName: ミナミハコフグ
+		Bestiary: 四角い体を持つ不思議な魚。その生涯を、青く広がる海の中をひたすら泳ぎ続けることに費やしている。
+	}
+
+	BorealBlade: {
+		DisplayName: 極北の刃
+		Bestiary: 「北方の騎士」の異名を持つ、氷で形作られた魔法の構造体。魔力とツンドラの地中に凍りついた数多の魂によって、命なきその体を動かしている。
+	}
+
+	CenturyFlower: {
+		DisplayName: 百年花
+		Bestiary: 生き物を窒息させるほど大量の胞子を撒き散らす、長寿の植物。長く生きすぎたせいか、ひどく気難しく理不尽な性格をしている。自分より知恵のない者が大嫌いで、そんな相手には問答無用で胞子を浴びせる。
+	}
+
+	AsteroidWarden: {
+		DisplayName: 星屑の番人
+		Bestiary: 星明かりの川を流れる神秘的な星のエネルギーを糧に生きる、宇宙の監視者。外宇宙から迫る侵略者に対し、最前線で川を守る役割を担っている。
+	}
+
+	FallingStar.DisplayName: 流れ星
+
+	Starlad: {
+		DisplayName: スターラッド
+		Bestiary: 夜の闇を貫くほど強大な星のエネルギーを宿す存在。この侵略種族を支える並外れた主力であり、彼らの出現は魔女の到来を告げる最初の兆しでもある。
+	}
+
+	BorealDancer: {
+		DisplayName: 極北の踊り子
+		Bestiary: ツンドラの厳しい寒さに命を奪われた者たちの魂によって動き出した存在。凍てつく寒さの中で、終わりなき舞踏を楽しんでいる。
+	}
+
+	AsteroidHerder: {
+		DisplayName: 星の牧人
+		Bestiary: 星明かりの川を守護する存在。川に満ちる尽きることのないマナを吸収し、その力で星々を羊の群れのように導いている。
+	}
+
+	Flylad: {
+		DisplayName: フライラッド
+		Bestiary: 遥か彼方の銀河から飛来した、翼を持つ侵略者。小さな星の弾を放つことを得意とするが、生き延びて侵略を成功させるためなら、自らの体を勢いよく叩きつけることも厭わない。
+	}
+
+	Minilad: {
+		DisplayName: ラディ
+		Bestiary: スターラッドの幼体だと思われがちだが、実際はそうではない。小型で俊敏な別系統の個体であり、空気中に漂う星のエネルギーを吸収することに特化している。
+	}
+
+	Obeselad: {
+		DisplayName: ファットラッド
+		Bestiary: よろよろとした足取りと、とぼけた表情が特徴。その愛嬌のある姿は子供たちを喜ばせるのにぴったりだろう。ただし、丸々とした巨体で小さな生き物を押し潰して食べるという、恐ろしい習性さえなければの話だが。
+	}
+
+	PebbiSwarm.DisplayName: 恐ろしいペビの大群が迫ってくる！
+
+	Hookworm: {
+		DisplayName: フックワーム
+		Bestiary: 巨大なワームが異常な進化を遂げた姿。地中深くの金属を噛み砕き続けた結果、巨大な大顎を獲得した。掘り進む速さは以前と変わらないものの、石からは十分な栄養を得られず、その肉体は筋張って脆くなってしまった。
+	}
+
+	Starine_Sightseer: {
+		DisplayName: スタリンの観察者
+		Bestiary: 輝く体を持つ、穏やかな生物。特定の場所を漂いながら、周囲の環境を観察しているようだ。一見すると無防備だが、身の危険を感じれば反撃してくる。
+	}
+
+	Starine_Skipper: {
+		DisplayName: スタリンの跳躍者
+		Bestiary: 星々から生まれた魔力を糧に、発達した後ろ脚で夜の闇を飛び跳ねる生物。油断している獲物を強烈な蹴りで襲い、動きを封じる習性がある。
+	}
+
+	Vivine: {
+		DisplayName: ヴィヴァイン
+		Bestiary: ジャングルの湿った洞窟に生息する、三本脚の肉食植物。獲物にピンク色の腐食液を吐きかけ、溶けてドロドロになったところで近づき、啜って捕食する。
+	}
+
+	HoarfrostCoiler: {
+		DisplayName: 白霜の大蛇
+		Bestiary: 雪原の地下に埋もれた王国を、かつて守護していた古代の氷のゴーレム。その姿は巨大な蛇を思わせる。
+	}
+
+	HoarfrostCoilerBody.DisplayName: 白霜の大蛇の胴体
+	HoarfrostCoilerTail.DisplayName: 白霜の大蛇の尻尾
 }
 
-Projectiles: {
-	SawcitiorP: {
-		DisplayName: ノコギリシティオールP
+Items: {
+	RingOfFire: {
+		Tooltip:
+			'''
+			防御を無視するがクリティカルダメージを与えない
+			紫の風船を割れない
+			'''
+		DisplayName: リング・オブ・ファイア
 	}
 
-	TerrortomeWorm: {
-		DisplayName: テラートームワーム
+	ToxicarpMKII: {
+		Tooltip:
+			'''
+			小さな魚の弾幕を発射する...が、魚たちはすぐに水中ではないことに気づき死ぬ
+			「ギザギザクジラ・ブラスター！」
+			'''
+		DisplayName: ギザギザクジラ
 	}
 
-	TerrortomeFlame: {
-		DisplayName: テラートームフレイム
+	ThornBow: {
+		DisplayName: トゲの弓
+		Tooltip: ""
 	}
 
-	TFlameThrowerHoming: {
-		DisplayName: フレイム
+	GutlingGun: {
+		DisplayName: ガトリング
+		Tooltip: ""
 	}
 
-	TerrortomaScream: {
-		DisplayName: テラートーマスクリーム
+	EbonianRocketLauncher: {
+		DisplayName: モーズーカ
+		Tooltip:
+			'''
+			ロケット弾を敵を追尾する汚染されたロケット弾に変える
+			ロケットがブロックを破壊しなくなる
+			'''
 	}
 
-	TFlameThrowerHoming: {
-		DisplayName: フレイム
+	EbonianGun: {
+		Tooltip: すべての弾丸を高速のデモナイト弾に変える
+		DisplayName: 邪悪なマスケット銃
 	}
 
-	TerrortomaScream: {
-		DisplayName: テラートーマスクリーム
+	EbonianGatling: {
+		Tooltip: 「なんで存在してるのか分からない」
+		DisplayName: 不浄のガトリングガン
 	}
 
-	TFlameThrower2_Inverted: {
-		DisplayName: フレイム
+	Corebreaker: {
+		DisplayName: コアブレイカー
+		Tooltip:
+			'''
+			爆発するコアを発射する
+			右クリックでレーザーを発射する
+			'''
 	}
 
-	PhantasmalWave: {
-		DisplayName: ファンタズマルウェーブ
+	TerrorFlail: {
+		DisplayName: フレイロトーマ
+		Tooltip: ""
 	}
 
-	RedMistVFX: {
-		DisplayName: レッドミストVFX
+	SanguineSlasher: {
+		Tooltip: 敵を噛むと{0}のライフを回復
+		DisplayName: 肉の牙
 	}
 
-	XBoltFriendly2: {
-		DisplayName: ボルト
-	}
-
-	NastySnapperPro: {
-		DisplayName: ナスティスナッパープロ
-	}
-
-	SalvagedThrusterP: {
-		DisplayName: サルベージドスラスター
-	}
-
-	PipebombPSentry: {
-		DisplayName: パイプボム
-	}
-
-	MailboxSentry: {
-		DisplayName: メールボックスセントリー
-	}
-
-	SheepPetP: {
-		DisplayName: 羊
-	}
-
-	GarbagePetP: {
-		DisplayName: ゴミ袋
-	}
-
-	CecitiorPetP: {
-		DisplayName: セシティオの目
-	}
-
-	ToothToothbrushP: {
-		DisplayName: トゥース歯ブラシ
-	}
-
-	XImpact2: {
-		DisplayName: インパクト
-	}
-
-	XImpact: {
-		DisplayName: インパクト
-	}
-
-	StaffOfXP: {
-		DisplayName: 大魔杖
-	}
-
-	TitteringMinion: {
-		DisplayName: ティタリング
-	}
-
-	GarbageFlailP: {
-		DisplayName: 奇妙なアングルグラインダー
-	}
-
-	GarbageDroneF: {
-		DisplayName: ドローン
-	}
-
-	GarbageImpact: {
-		DisplayName: インパクト
-	}
-
-	HostileGibs: {
-		DisplayName: ギブス
-	}
-
-	XareusPotionPro: {
-		DisplayName: ザレウスポーション
-	}
-
-	XareusPotionExplosion: {
-		DisplayName: ザレウスポーション
-	}
-
-	CursedFireball: {
-		DisplayName: カースドファイアボール
-	}
-
-	XBoltFriendly: {
-		DisplayName: 輝くボルト
-	}
-
-	XTomeSummon: {
-		DisplayName: ファンタズマルスピリット
-	}
-
-	XTomeP: {
-		DisplayName: アメジストエネルギー
-	}
-
-	ArchmageStaffGore: {
-		DisplayName: 大魔杖
-	}
-
-	SpawnTheThing: {
-		DisplayName: デバッグ
-	}
-
-	XRiftSmall: {
-		DisplayName: リフト
-	}
-
-	BloodlashPro: {
-		DisplayName: ブラッドラッシュ
-	}
-
-	CursedScourgePro: {
-		DisplayName: カースドスカージ
-	}
-
-	CBeamInstant: {
-		DisplayName: ビーム
-	}
-
-	EHeartP: {
-		DisplayName: 呪われた炎
-	}
-
-	CHeart: {
-		DisplayName: 心臓
-	}
-
-	CrimsonArrow: {
-		DisplayName: クリムゾンアロー
-	}
-
-	PotatoP: {
-		DisplayName: ポテト
-	}
-
-	PipebombP: {
-		DisplayName: パイプボム
-	}
-
-	XAnimeSlash: {
-		DisplayName: ザレウスの魔法
-	}
-
-	AnimeSlash: {
-		DisplayName: スラッシュ
-	}
-
-	CecitiorClawMinion: {
-		DisplayName: バックスクレイパー
-	}
-
-	CIchor: {
-		DisplayName: イコール
-	}
-
-	CIchorBomb: {
-		DisplayName: イコールボム
-	}
-
-	CFlesh: {
-		DisplayName: 肉
-	}
-
-	ConglomerateScream: {
-		DisplayName: コングロマリットスクリーム
-	}
-
-	CImplosionFlare: {
-		DisplayName: フレア
-	}
-
-	ScreenFlash: {
-		DisplayName: スクリーンフラッシュ
-	}
-
-	CFlareExplosion: {
-		DisplayName: フレア
-	}
-
-	FlareExplosion: {
-		DisplayName: フレア
-	}
-
-	CBeam: {
-		DisplayName: ビーム
-	}
-
-	ChainswordP: {
-		DisplayName: ジャンクヤードチェーンソード
-	}
-
-	ThornBowP: {
-		DisplayName: ソーニーボウ
-	}
-
-	FangSlingerP: {
-		DisplayName: ファングスリンガー
-	}
-
-	ArchmageChargeUp: {
-		DisplayName: 大魔道士チャージアップ
-	}
-
-	ArchmageXSpawnAnim: {
-		DisplayName: 大魔道士スポーンアニメ
-	}
-
-	ArchmageDeath: {
-		DisplayName: 大魔道士デス
-	}
-
-	ArchmageArm: {
-		DisplayName: 大魔道士アーム
-	}
-
-	ArchmageHead: {
-		DisplayName: 大魔道士ヘッド
-	}
-
-	GreenChargeUp: {
-		DisplayName: グリーンチャージアップ
-	}
-
-	GluttonImpact: {
-		DisplayName: インパクト
-	}
-
-	ChargeUp: {
-		DisplayName: チャージアップ
-	}
-
-	GarbageLaserSmall3: {
-		DisplayName: フレイム
-	}
-
-	GarbageLaserSmall2: {
-		DisplayName: フレイム
-	}
-
-	GarbageLaserSmall1: {
-		DisplayName: フレイム
-	}
-
-	HeatBlastVFX: {
-		DisplayName: ヒートブラスト
-	}
-
-	GarbageLaser3: {
-		DisplayName: フレイム
-	}
-
-	GarbageLaser2: {
-		DisplayName: フレイム
-	}
-
-	GarbageLaser1: {
-		DisplayName: フレイム
-	}
-
-	GarbageLaser: {
-		DisplayName: フレイム
-	}
-
-	GarbageTelegraphSmall: {
-		DisplayName: ガーベージテレグラフ
-	}
-
-	GarbageTelegraph: {
-		DisplayName: ガーベージテレグラフ
-	}
-
-	GarbageLightning: {
-		DisplayName: ライトニング
-	}
-
-	GarbageDrone: {
-		DisplayName: ドローン
-	}
-
-	GarbageMissile: {
-		DisplayName: ソーダ
-	}
-
-	GarbageGiantFlame: {
-		DisplayName: フレイム
-	}
-
-	GarbageBarrel: {
-		DisplayName: バレル
-	}
-
-	GarbageBag: {
-		DisplayName: ゴミ袋
-	}
-
-	EquilibriumP2: {
-		DisplayName: イクイリブリアム
-	}
-
-	EquilibriumP: {
-		DisplayName: イクイリブリアム
-	}
-
-	XCloudVFXExtra: {
-		DisplayName: クラウド
-	}
-
-	AmbientGibs: {
-		DisplayName: ギブス
-	}
-
-	VileTearTelegraph: {
-		DisplayName: ヴァイルティアテレグラフ
-	}
-
-	GhizasWheelP: {
-		DisplayName: 腐食の車輪
-	}
-
-	RegorgerTelegraph: {
-		DisplayName: ティタリングテレグラフ
-	}
-
-	RegorgerBolt: {
-		DisplayName: ティタリングボルト
-	}
-
-	XTelegraphLine: {
-		DisplayName: テレグラフライン
-	}
-
-	XLightningBolt: {
-		DisplayName: シャドーフレームライトニングボルト
-	}
-
-	XCloud: {
-		DisplayName: シャドーフレームクラウド
-	}
-
-	XKnife: {
-		DisplayName: アメジスト
-	}
-
-	XRift: {
-		DisplayName: リフト
-	}
-
-	XSpiritNoHome: {
-		DisplayName: ファンタズマルブラスト
-	}
-
-	XManaPotion: {
-		DisplayName: ザレウスのポーション
-	}
-
-	SheepeningOrb: {
-		DisplayName: 羊化ビーム
-	}
-
-	player_sheep: {
-		DisplayName: 羊
-	}
-
-	XTentacle: {
-		DisplayName: シャドーフレームテンドリル
-	}
-
-	XAmethystShard: {
-		DisplayName: アメジストシャード
-	}
-
-	XLargeAmethyst: {
-		DisplayName: グレートアメジスト
-	}
-
-	XAmethystCloseIn: {
-		DisplayName: アメジスト
-	}
-
-	PhantasmalGreatswordP2: {
-		DisplayName: 大魔道士・ザレウスのシャドーフレームスカイスプリッター
-	}
-
-	PhantasmalGreatswordP: {
-		DisplayName: 大魔道士・ザレウスのシャドーフレームスカイスプリッター
-	}
-
-	XExplosionInvisMask: {
-		DisplayName: エクスプロージョン
-	}
-
-	XExplosionTiny: {
-		DisplayName: エクスプロージョン
-	}
-
-	XBolt: {
-		DisplayName: 輝く一斉射撃
-	}
-
-	XAmethyst: {
-		DisplayName: アメジスト
-	}
-
-	XShadowflame: {
-		DisplayName: シャドーフレームエラプション
-	}
-
-	VaccumWormP: {
-		DisplayName: バキュームワーム
-	}
-
-	XExplosion: {
-		DisplayName: エクスプロージョン
-	}
-
-	XSpirit: {
-		DisplayName: スピリット
-	}
-
-	DankDiggerProjectileWorm: {
-		DisplayName: ダンクディガー
-	}
-
-	CorruptionClawP: {
-		DisplayName: 鎖の爪
-	}
-
-	BigGreenShockwave: {
-		DisplayName: ショックウェーブ
-	}
-
-	CursedToyBeam: {
-		DisplayName: 呪われた人形
-	}
-
-	CursedToyP: {
-		DisplayName: 呪われた人形
-	}
-
-	GutlingGunP: {
-		DisplayName: ガトリングガン
-	}
-
-	CecitiorTeethFriendly: {
-		DisplayName: セシティオの歯
-	}
-
-	CecitiorSpike: {
-		DisplayName: セシティオスパイク
-	}
-
-	IchorExplosion: {
-		DisplayName: イコールエクスプロージョン
-	}
-
-	CecitiorBombThing: {
-		DisplayName: イコールボム
-	}
-
-	BloodExplosionWSprite: {
-		DisplayName: ブラッドエクスプロージョン
-	}
-
-	ClawGore: {
-		DisplayName: クロー
-	}
-
-	CecitiorClawWave: {
-		DisplayName: クローウェーブ
-	}
-
-	CecitiorClawSlash: {
-		DisplayName: クロースラッシュ
-	}
-
-	SerrationSpike: {
-		DisplayName: セレーション
-	}
-
-	SerrationP: {
-		DisplayName: セレーション
-	}
-
-	CecitiorBelch: {
-		DisplayName: ベルチ
-	}
-
-	TerrorStaffPEvil: {
-		DisplayName: テラースタッフ
-	}
-
-	TFlameThrower4: {
-		DisplayName: フレイム
-	}
-
-	FlameExplosionWSprite: {
-		DisplayName: フレイムエクスプロージョン
-	}
-
-	EHomingBeam: {
-		DisplayName: ホーミングビーム
-	}
-
-	ExolGreatArrow: {
-		DisplayName: グレートアロー
-	}
-
-	OstertagiExplosion: {
-		DisplayName: 呪われた炎の爆発
-	}
-
-	OstertagiWorm: {
-		DisplayName: ワーム
-	}
-
-	OstertagiP: {
-		DisplayName: オスタタギ
-	}
-
-	ESickle: {
-		DisplayName: シックル
-	}
-
-	TinyRykardSkull: {
-		DisplayName: スカル
-	}
-
-	MagmaArrowHostile: {
-		DisplayName: マグマアロー
-	}
-
-	IgnosEye: {
-		DisplayName: イグノスの目
-	}
-
-	ESwordWave: {
-		DisplayName: ソードウェーブ
-	}
-
-	IgArena: {
-		DisplayName: イグアリーナ
-	}
-
-	IgnosLightning: {
-		DisplayName: イグノスライトニング
-	}
-
-	VortexSkull: {
-		DisplayName: スカル
-	}
-
-	FlameExplosion3: {
-		DisplayName: フレイムエクスプロージョン
-	}
-
-	RykardSkullSpiral: {
-		DisplayName: スカル
-	}
-
-	BigGrayShockwave: {
-		DisplayName: ショックウェーブ
-	}
-
-	YellowShockwave: {
-		DisplayName: ショックウェーブ
-	}
-
-	OrangeRedShockwave: {
-		DisplayName: ショックウェーブ
-	}
-
-	GreenShockwave2: {
-		DisplayName: ショックウェーブ
-	}
-
-	GarbageSignals: {
-		DisplayName: ガーベージシグナル
-	}
-
-	IgnosSlashTelegraph: {
-		DisplayName: イグノススラッシュテレグラフ
-	}
-
-	IgnosSlash: {
-		DisplayName: イグノススラッシュ
-	}
-
-	ReiExplosion: {
-		DisplayName: ボイドランナーマスク
-	}
-
-	Djungelskog: {
-		DisplayName: ジュンゲルスコグ
-	}
-
-	ReiCapeTrail: {
-		DisplayName: ボイドランナーマスク
-	}
-
-	ReiCapeP: {
-		DisplayName: ボイドランナーマスク
-	}
-
-	MagmaArrow: {
-		DisplayName: マグマアロー
-	}
-
-	MagmaBowP: {
-		DisplayName: マグマボウ
-	}
-
-	RykardSkull: {
-		DisplayName: スカル
-	}
-
-	EGroundHazard: {
-		DisplayName: グラウンドハザード
-	}
-
-	EPlatform: {
-		DisplayName: プラットフォーム
-	}
-
-	BloodVignette: {
-		DisplayName: ブラッドヴィネット
-	}
-
-	SelfStabP: {
-		DisplayName: 犠牲の短剣
-	}
-
-	SpinaxP: {
-		DisplayName: スピナックス
-	}
-
-	Gibs: {
-		DisplayName: ギブス
-	}
-
-	CrimCannonP: {
-		DisplayName: 血まみれの入れ歯
-	}
-
-	CursedFlameExplosion: {
-		DisplayName: 呪われた炎の爆発
-
-	}
-
-	FireGrenadeP: {
-		DisplayName: ファイアグレネード
-	}
-
-	QuickFlare: {
-		DisplayName: フレア
-	}
-
-	EMine: {
-		DisplayName: マイン
-	}
-
-	NoiseOverlay: {
-		DisplayName: ノイズオーバーレイ
-	}
-
-	Noise: {
-		DisplayName: ノイズ
-	}
-
-	ETelegraph: {
-		DisplayName: テレグラフ
-	}
-
-	FlameExplosion2: {
-		DisplayName: フレイムエクスプロージョン
-	}
-
-	EPentagramAsh: {
-		DisplayName: ペンタグラムアッシュ
-	}
-
-	ESkullEmoji: {
-		DisplayName: スカル絵文字
-	}
-
-	EFire3: {
-		DisplayName: ファイア3
-	}
-
-	FlameExplosion: {
-		DisplayName: フレイムエクスプロージョン
-	}
-
-	InferosShockwave3: {
-		DisplayName: インフェロスショックウェーブ
-	}
-
-	ExolFireExplode: {
-		DisplayName: エクソルファイアエクスプロード
-	}
-
-	EFire2: {
-		DisplayName: ファイア
-	}
-
-	ESun: {
-		DisplayName: サン
-	}
-
-	InferosShockwave2: {
-		DisplayName: インフェロスショックウェーブ
-	}
-
-	EGeyser: {
-		DisplayName: ガイザー
-	}
-
-	ExolFireSpiral: {
-		DisplayName: エクソルファイアスパイラル
-	}
-
-	InferosShockwave: {
-		DisplayName: インフェロスショックウェーブ
-	}
-
-	BloodShockwave2: {
-		DisplayName: ブラッドショックウェーブ
-	}
-
-	RedSpark: {
-		DisplayName: レッドスパーク
-	}
-
-	GoreBeam: {
-		DisplayName: 除細動器
-	}
-
-	CrimsonSpearP: {
-		DisplayName: ヴィトリオリックヴォールジ
-	}
-
-	MeatCrusherP: {
+	MeatCrusher: {
 		DisplayName: ミートクラッシャー
+		Tooltip: 地面を叩くと特殊攻撃を繰り出す
 	}
 
-	VilethornF1: {
-		DisplayName: ヴァイルソーン
+	Exolsaw: {
+		DisplayName: インフェルノディスク
+		Tooltip: ""
 	}
 
-	VilethornF2: {
-		DisplayName: ヴァイルソーン
-	}
-
-	RingOfFireP2: {
-		DisplayName: リング・オブ・ファイア
-	}
-
-	RingOfFireP: {
-		DisplayName: リング・オブ・ファイア
-	}
-
-	TinyFish: {
-		DisplayName: タイニーフィッシュ
-	}
-
-	IchorGlob: {
-		DisplayName: グロブ
-	}
-
-	IchorGlobSmall: {
-		DisplayName: グロブ
-	}
-
-	PepperSprayProjectile: {
-		DisplayName: ペッパースプレー
-	}
-
-	FatSmash: {
-		DisplayName: ショックウェーブ
-	}
-
-	GarbageFlame: {
-		DisplayName: フレイム
-	}
-
-	HotGarbageNuke: {
-		DisplayName: 核爆弾
-	}
-
-	MetalCircle: {
-		DisplayName: オイルドラム
-	}
-
-	Soder: {
-		DisplayName: ソーダ
-	}
-
-	CecitiorTeeth: {
-		DisplayName: ティース
-	}
-
-	EBeam: {
-		DisplayName: ソーラーレイ
-	}
-
-	EBoulder: {
-		DisplayName: ボルダー
-	}
-
-	EBoulder2: {
-		DisplayName: ボルダー
-	}
-
-	CorruptThorn: {
-		DisplayName: コラプトソーン
-
-	}
-
-	TerrortomaFlail: {
-		DisplayName: テラーフレイル
-	}
-
-	TerrortomaFlail_Clingers: {
-		DisplayName: テラーフレイル
-	}
-
-	VileMeatChunk: {
-		DisplayName: ヴァイルミートチャンク
-	}
-
-	Fangs: {
-		DisplayName: ファング
-	}
-
-	HeadGoreSceptre: {
-		DisplayName: ハート
-	}
-
-	HeadGoreSceptreEVILSOBBINGRN: {
-		DisplayName: ハート
-	}
-
-	DroneBeam: {
-		DisplayName: ドローンビーム
-	}
-
-	EbonFlyMinion: {
-		DisplayName: エボンフライ
-	}
-
-	TelegraphLine: {
-		DisplayName: テレグラフライン
-	}
-
-	TBeam: {
-		DisplayName: ビーム
-	}
-
-	TerrorVilethorn1: {
-		DisplayName: ヴァイルソーン
-	}
-
-	TerrorVilethorn2: {
-		DisplayName: ヴァイルソーン
-	}
-
-	GarbageRemoteP: {
-		DisplayName: 埃まみれの量子コンピューター
-	}
-
-	Hightoma: {
-		DisplayName: タイニートーマ
-	}
-
-	PanopticonP: {
-		DisplayName: パノプティコン
-	}
-
-	InferosP: {
-		DisplayName: インフェルノミコン
-	}
-
-	EbonianScytheP: {
+	EbonianScythe: {
+		Tooltip: 使用中は最大移動速度が上がる
 		DisplayName: グリムロットカッター
 	}
 
-	ExolsawP: {
-		DisplayName: インフェルノディスク
+	TerrorStaff: {
+		DisplayName: ネストセプター
+		Tooltip:
+			'''
+			エボンバエを召喚し、近くの敵に向かって爆発させる
+			ミニオンスロットを消費しない
+			'''
 	}
 
-	SanguineSlasherP: {
-		DisplayName: フレッシュファング
-	}
-
-	VileBladeP: {
-		DisplayName: ヴァイルブレード
-	}
-
-	BloodOrb: {
-		DisplayName: ブラッドオーブ
-	}
-
-	EbonianGunP: {
-		DisplayName: 呪われた銃器
-	}
-
-	IchorFlintlockP: {
-		DisplayName: ブラッドコルト
-	}
-
-	Garbage: {
-		DisplayName: ガーベージ
-	}
-
-	Mailbox: {
-		DisplayName: メールボックス
-	}
-
-	Pipebomb: {
-		DisplayName: パイプボム
-	}
-
-	BloodLaser: {
-		DisplayName: ブラッドブラスト
-	}
-
-	CecitiorEyeP: {
-		DisplayName: スペクトラルゲイザー
-	}
-
-	Rolleg: {
-		DisplayName: ローレッグ
-	}
-
-	EFire: {
-		DisplayName: ファイア
-	}
-
-	EFireBreath: {
-		DisplayName: ファイア
-	}
-
-	EFireBreath2: {
-		DisplayName: ファイア
-	}
-
-	BloodBullet: {
-		DisplayName: ブラッドバレット
-
-	}
-
-	CorruptArrow: {
-		DisplayName: コラプトアロー
-	}
-
-	EbonianRocket: {
-		DisplayName: モーズーカミサイル
-	}
-
-	TerrorStaffP: {
-		DisplayName: ヴァイルエッグ
-	}
-
-	IchorGrenade: {
-		DisplayName: ガトリンググレネード
-	}
-
-	LatcherP: {
+	Latcher: {
 		DisplayName: ラッチャー
+		Tooltip:
+			'''
+			使用者を敵の方へ引き寄せる
+			接近するとダメージを与える
+			'''
 	}
 
-	LatcherPCecitior: {
-		DisplayName: ラッチャー
+	InferosVolI: {
+		DisplayName: インフェルノミコン
+		Tooltip: ""
 	}
 
-	IchorBlast: {
-		DisplayName: イコールブラスト
+	GoreSceptre: {
+		DisplayName: 除細動器
+		Tooltip:
+			'''
+			敵を感電させる電撃の心臓を召喚する
+			「クリアー！」
+			'''
 	}
 
-	CorebreakerP: {
-		DisplayName: コアブレイカーキャノンボール
+	EbonHiveI: {
+		Tooltip: ""
+		DisplayName: 腐敗の塊
 	}
 
-	WeakCursedBullet: {
-		DisplayName: 呪われた弾丸
+	Panopticon: {
+		DisplayName: 肉のキューブ
+		Tooltip: 肉のキューブを召喚する
 	}
 
-	DoomsdayDrone: {
-		DisplayName: ドゥームズデイドローン
+	CursedCone: {
+		DisplayName: 呪われたコーン
+		Tooltip: タイニートーマを召喚する
 	}
 
-	Ripple: {
-		DisplayName: リップル
+	DoomsdayRemote: {
+		DisplayName: 赤いボタン
+		Tooltip:
+			'''
+			カーソルの位置をドローンに攻撃させる
+			ジェンコープの多くの失敗作(？)の一つ
+			'''
 	}
 
-
-	TExplosion: {
-		DisplayName: エクスプロージョン
+	IchorFlintlock: {
+		Tooltip: 弾丸を歯に変える
+		DisplayName: ファングナム
 	}
 
-	TFang: {
-		DisplayName: ファング
+	FangSlinger: {
+		DisplayName: ファングスリンガー
+		Tooltip: ""
 	}
 
-	TFlameThrower: {
-		DisplayName: 呪われた炎
+	CrimCannon: {
+		Tooltip: 敵に噛みついて離れない顎を放つ
+		DisplayName: 血まみれの入れ歯
 	}
 
-	TFlameThrower2: {
-		DisplayName: 呪われた炎
+	PepperSpray: {
+		DisplayName: ペッパースプレー
+		Tooltip: ""
 	}
 
-	TFlameThrower3: {
-		DisplayName: 呪われた炎
+	WormPaintingI: {
+		Tooltip: O・ディガー作
+		DisplayName: 絵画『ワーム』
 	}
 
-	TSpike: {
-		DisplayName: スパイク
+	WaspPaintingI: {
+		Tooltip:
+			'''
+			「遥か昔に絶滅した種に捧ぐ」
+			E・フライ作
+			'''
+		DisplayName: 絵画『ハチ』
 	}
 
-	BloodShockwave: {
-		DisplayName: ショックウェーブ
+	HotMusic: {
+		Tooltip: Yuri Oの「Trash Compactor」を再生する
+		DisplayName: オルゴール（ホットガーベージ）
 	}
 
-	CircleTelegraph: {
-		DisplayName: ショックウェーブ
+	ExolMusicI: {
+		Tooltip: Yuri Oの「Rage」を再生する
+		DisplayName: オルゴール（インフェロス）
 	}
 
-	EyeVFX: {
-		DisplayName: アイ
+	EvilMusicI: {
+		Tooltip: Yuri Oの「Forces of Evil」を再生する
+		DisplayName: オルゴール（テラートーマ＆セシティオ）
 	}
 
-	GenericExplosion: {
-		DisplayName: エクスプロージョン
+	DappertomaI: {
+		Tooltip: シニア・トーマス作
+		DisplayName: 絵画『エレガントーマ』
 	}
 
-	GreenShockwave: {
-		DisplayName: ショックウェーブ
+	DapperCecitiorI: {
+		Tooltip: シニア・アンサイト作
+		DisplayName: 絵画『見栄えのいい奴』
+	}
+
+	GarbageRemote: {
+		Tooltip: 「シンギュラリティに到達した唯一のAIと通信できる」
+		DisplayName: 埃まみれの量子コンピューター
+		NoteForTranslators: 「警告」はWarningとTooltipで一致させる必要あり
+	}
+
+	ExolWings: {
+		Tooltip: ""
+		DisplayName: 地獄の翼
+	}
+
+	EbonianHeart: {
+		Tooltip:
+			'''
+			防御力を{0}減少
+			召喚できるミニオンの数が{1}体増える
+			召喚ダメージを{2}%増加
+			使用者に追従し、近くの敵に呪われた炎を放つ堕落した心臓を召喚する
+			'''
+		DisplayName: 腐った心臓
+	}
+
+	BrainAcc: {
+		Tooltip:
+			'''
+			ライフ自然回復を増進
+			複数の脳を召喚し、貫通しない攻撃を防ぐ盾として機能する
+			'''
+		DisplayName: 滲み出る脳
+	}
+
+	IchorGlobScepter: {
+		Tooltip: ネバつく塊を撃ち出し、3つの小さな破片に分裂する
+		DisplayName: ネバネバした杖
+	}
+
+	VileNoodleBox: {
+		Tooltip:
+			'''
+			100%確実に、文字通りの胸焼けを引き起こす
+			「麺がうねうね動いているようだ...」
+			'''
+		DisplayName: 邪悪なヌードルボックス
+	}
+
+	CorruptionStaff: {
+		Tooltip: 追尾するヴァイルソーンを召喚する
+		DisplayName: ソーンアパート
+	}
+
+	CrimsonSpear: {
+		DisplayName: ヴィトリオリックヴォールジ
+		Tooltip: 長く使うほど強力になる
+	}
+
+	Spinax: {
+		DisplayName: スピナックス
+		Tooltip: 真紅の力で強化された古代恐竜の背骨
+	}
+
+	SelfStab: {
+		DisplayName: 犠牲の短剣
+		Tooltip: 代償を払ってすべてのダメージを大幅に強化
+	}
+
+	MagmaBow: {
+		DisplayName: ペンタボウ
+		Tooltip: 火山の矢を5本放つ
+	}
+
+	ReiMask: {
+		DisplayName: ボイドランナーの仮面
+		Tooltip:
+			'''
+			移動速度をわずかに増加
+			敵の上にカーソルを合わせて{ReiM_Keybind}を押すとテレポート可能
+			'''
+	}
+
+	DjungelskogI: {
+		DisplayName: ジュンゲルスコグ
+		Tooltip: ジュンゲルスコグを召喚する
+	}
+
+	Ostertagi: {
+		DisplayName: オスタタギ
+		Tooltip: 代償を払ってダメージと攻撃速度を強化する
+	}
+
+	Potato: {
+		DisplayName: ポテト
+		Tooltip: 「さて、調子はどうだい？」
+	}
+
+	ClementinesCap: {
+		DisplayName: 血まみれの野球帽
+		Tooltip: 「間違いなく昔はもっと良かった」
+	}
+
+	InfernoBreastplate: {
+		DisplayName: インフェルノの胸当て
+		Tooltip: ""
+	}
+
+	InfernoHeadgear: {
+		DisplayName: インフェルノの兜
+		Tooltip: ""
+	}
+
+	InfernoHeadgearAlt: {
+		DisplayName: インフェルノの仮面
+		Tooltip: ""
+	}
+
+	InfernoLeggings: {
+		DisplayName: インフェルノのすね当て
+		Tooltip: ""
+	}
+
+	Serration: {
+		DisplayName: セレーション
+		Tooltip: 地面を叩くと特殊攻撃を繰り出す
+	}
+
+	CecitiorBag: {
+		DisplayName: トレジャーバッグ（セシティオ）
+		Tooltip: <右クリック>で開ける
+	}
+
+	TerrortomaBag: {
+		DisplayName: トレジャーバッグ（テラートーマ）
+		Tooltip: <右クリック>で開ける
+	}
+
+	CursedToy: {
+		Tooltip: 空から投射物を降らせる
+		DisplayName: 呪われた人形
+	}
+
+	CorruptionClaw: {
+		Tooltip: 特殊なコンボ攻撃を繰り出す
+		DisplayName: 鎖の爪
+	}
+
+	VaccumWorm: {
+		Tooltip: 弱い敵を引き寄せる
+		DisplayName: バキュームワーム
+	}
+
+	PhantasmalGreatsword: {
+		DisplayName: 大魔道士ザレウスのシャドウフレイムのスカイスプリッター
+		Tooltip:
+			'''
+			命中時にシャドウフレイムの幻影の剣を放つ
+			「大魔道士ザレウスが…壁の装飾品として作った」
+			'''
+	}
+
+	GhizasWheel: {
+		DisplayName: 腐食の車輪
+		Tooltip:
+			'''
+			命中時に呪炎を与える
+			敵の防御力を無視する
+			'''
+	}
+
+	Equilibrium: {
+		Tooltip: ""
+		DisplayName: 均衡の剣
+	}
+
+	Chainsword: {
+		DisplayName: ガラクタのチェーンソード
+		Tooltip: 敵の防御力を{0}無視する
+	}
+
+	CecitiorClawSummon: {
+		DisplayName: 背掻き爪
+		Tooltip: 「やあ、ピーター」
+	}
+
+	HotShield: {
+		DisplayName: ゴミ箱の蓋
+		Tooltip: 移動速度を{0}%低下
+	}
+
+	CecitiorMaterial: {
+		DisplayName: 肉の塊
+		Tooltip: 蠢く真紅の肉片
+	}
+
+	TerrortomaMaterial: {
+		DisplayName: 細胞物質
+		Tooltip: 蠢く腐敗物質の欠片
+	}
+
+	ToothToothbrush: {
+		DisplayName: 歯の歯ブラシ
+		Tooltip: 地面を叩くと特殊な攻撃を繰り出す
+	}
+
+	PipebombI: {
+		DisplayName: パイプ爆弾
+		Tooltip:
+			'''
+			町のNPCにダメージを与える
+			「これを使ったらどうなるんだろう」
+			'''
+	}
+
+	SpudCannon: {
+		DisplayName: スパッドキャノン
+		Tooltip: ポテトを弾薬として使用する
+	}
+
+	CursedScourge: {
+		DisplayName: カースドスカージ
+		Tooltip: ""
+	}
+
+	Bloodlash: {
+		DisplayName: ブラッドラッシュ
+		Tooltip: ""
+	}
+
+	ArchmageXTome: {
+		DisplayName: 偉大なる大魔道士の無限なる英知の書
+		Tooltip: アメジストのエネルギーを呼び出し、幻影の精霊を召喚する
+	}
+
+	StaffOfXItem: {
+		DisplayName: Xの杖アイテム
+		Tooltip: ""
+	}
+
+	StaffOfX: {
+		DisplayName: 悲劇の死を遂げた大魔道士ザレウスの大魔杖
+		Tooltip: 純粋な粉末の雷とクリスタルの領域から採れた最高のアメジストで鍛えられた...とかなんとか
+	}
+
+	StaffofXWeapon: {
+		DisplayName: ザレウスの大魔杖(小型版)
+		Tooltip: 「真なる大魔杖には及ばない...」
+	}
+
+	XareusPotion: {
+		DisplayName: ザレウスの無限マナポーション
+		Tooltip: 飲むとヤバい
+	}
+
+	ArchmageBag: {
+		DisplayName: トレジャーバッグ（ザレウス）
+		Tooltip: <右クリック>で開ける
+	}
+
+	TerrortomaTrophy: {
+		DisplayName: テラートーマのトロフィー
+		Tooltip: ""
+	}
+
+	XTentacleAcc: {
+		DisplayName: ザレウスの触手
+		Tooltip: 魔法攻撃を跳ねるアメジストで強化する
+	}
+
+	GarbageFlail: {
+		DisplayName: 奇妙なアングルグラインダー
+		Tooltip: 回転する
+	}
+
+	TitteringStaff: {
+		DisplayName: ティタリングの杖
+		Tooltip: 極小のティタリングを召喚し、周囲の敵に呪炎の弾を放たせる
+	}
+
+	GarbageBagI: {
+		DisplayName: トレジャーバッグ（ホットガーベージ）
+		Tooltip: <右クリック>で開ける
+	}
+
+	CecitiorPet: {
+		DisplayName: セシティオの目
+		Tooltip: セシティオの目を召喚する
+	}
+
+	GarbagePet: {
+		DisplayName: ゴミ袋
+		Tooltip: ゴミ袋を召喚する
+	}
+
+	SheepPet: {
+		DisplayName: フワフワの羊毛
+		Tooltip: 羊を召喚する
+	}
+
+	CecitiorTrophy: {
+		DisplayName: セシティオのトロフィー
+		Tooltip: ""
+	}
+
+	GarbageTrophy: {
+		DisplayName: ホットガーベージのトロフィー
+		Tooltip: ""
+	}
+
+	XMusicI: {
+		DisplayName: オルゴール（ザレウス）
+		Tooltip: Yuri Oの「Die Human Enemy」を再生
+	}
+
+	XTrophy: {
+		DisplayName: ザレウスのトロフィー
+		Tooltip: ""
+	}
+
+	SheepItem: {
+		DisplayName: 羊
+		Tooltip: ""
+	}
+
+	MailboxStaff: {
+		DisplayName: メールボックススタッフ
+		Tooltip: メールボックスセントリーを召喚する
+	}
+
+	CecitiorRelic: {
+		DisplayName: セシティオのレリック
+		Tooltip: ""
+	}
+
+	GarbageRelic: {
+		DisplayName: ホットガーベージのレリック
+		Tooltip: ""
+	}
+
+	TerrortomaRelic: {
+		DisplayName: テラートーマのレリック
+		Tooltip: ""
+	}
+
+	XRelic: {
+		DisplayName: ザレウスのレリック
+		Tooltip: ""
+	}
+
+	SalvagedThruster: {
+		DisplayName: 回収されたスラスター
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			「ちょっとホコリが舞うだけ…」
+			'''
+	}
+
+	NastySnapper: {
+		DisplayName: ナスティスナッパー
+		Tooltip:
+			'''
+			{0}の召喚タグダメージ
+			攻撃を当てた敵にミニオンが集中攻撃する
+			「ちょっと魚臭いね」
+			'''
+	}
+
+	WoolenBoots: {
+		DisplayName: ウールのブーツ
+		Tooltip:
+			'''
+			鞭のダメージを{0}%増加
+			鞭の速度を{1}%上昇
+			'''
+	}
+
+	WoolenCoat: {
+		DisplayName: ウールのコート
+		Tooltip:
+			'''
+			召喚ダメージを{0}%増加
+			召喚できるミニオンの数が{1}体増える
+			'''
+	}
+
+	WoolenUshanka: {
+		DisplayName: ウールのウシャンカ帽
+		Tooltip: 召喚ダメージを{0}%増加
+		SetBonus:
+			'''
+			召喚できるミニオンの数が{0}体増える
+			凍えと凍結を無効化
+			'''
+	}
+
+	Wool: {
+		DisplayName: ウール
+		Tooltip: ""
+	}
+
+	XMask: {
+		DisplayName: ザレウスの仮面
+		Tooltip: ""
+	}
+
+	GarbageMask: {
+		DisplayName: ゴミの仮面
+		Tooltip: ""
+	}
+
+	CeciMask: {
+		DisplayName: セシティオの仮面
+		Tooltip: ""
+	}
+
+	TTomaMask: {
+		DisplayName: テラートーマの仮面
+		Tooltip: ""
+	}
+
+	XHouseBrickReplicaItem: {
+		DisplayName: アメジストのレンガ
+		Tooltip: ""
+	}
+
+	Terrortome: {
+		DisplayName: 恐怖の書
+		Tooltip: ""
+	}
+
+	Sawcitior: {
+		DisplayName: ノコギリシティオール
+		Tooltip: 互いに衝突する2つのノコギリを放つ
+	}
+
+	Shears: {
+		DisplayName: ハサミ
+		Tooltip: 羊からウールを刈るのに使う
+	}
+
+	SheepItemNaked: {
+		DisplayName: 羊（毛刈り済み）
+		Tooltip: ""
+	}
+
+	WoolChairI: {
+		DisplayName: ウールの椅子
+		Tooltip: ""
+	}
+
+	WoolDoorI: {
+		DisplayName: ウールのドア
+		Tooltip: ""
+	}
+
+	WoolLampI: {
+		DisplayName: ウールのランプ
+		Tooltip: ""
+	}
+
+	WoolTableI: {
+		DisplayName: ウールのテーブル
+		Tooltip: ""
+	}
+
+	WoolWorkbenchI: {
+		DisplayName: ウールの作業台
+		Tooltip: ""
+	}
+
+	WoolWoodI: {
+		DisplayName: ウールの木材
+		Tooltip: ""
+	}
+
+	WoolWoodPlatformI: {
+		DisplayName: ウールの足場
+		Tooltip: ""
+	}
+
+	WoolWoodWallI: {
+		DisplayName: ウールの壁
+		Tooltip: ""
+	}
+
+	SilverBasher: {
+		DisplayName: シルバーバッシャー
+		Tooltip: ""
+	}
+
+	terrortomaFishingRod: {
+		DisplayName: ブライトキャスター
+		Tooltip: ""
+	}
+
+	cecitiorFishingRod: {
+		DisplayName: ブラッドライン
+		Tooltip: ""
+	}
+
+	BallLauncher: {
+		DisplayName: ロバー
+		Tooltip:
+			'''
+			右クリックでバースト攻撃をチャージする
+			ロケット弾を弾薬として使用する
+			'''
+	}
+
+	CorruptrotI: {
+		DisplayName: 腐蝕ブロック
+		Tooltip: ""
+	}
+
+	FleshichorI: {
+		DisplayName: 肉液ブロック
+		Tooltip: ""
+	}
+
+	AureusSpawnItem: {
+		DisplayName: アウレウス召喚
+		Tooltip: ""
+	}
+
+	ConglomerateEnergyDrink: {
+		DisplayName: コングロマリット・エナジードリンク
+		Tooltip: 「コングロリン63%、霊液B6が22%、天然呪炎13%、その他よく分からない成分を配合した怪しげな飲料」
+	}
+
+	CongFisherate: {
+		DisplayName: 腐蛭の釣り糸
+		Tooltip: ""
+	}
+
+	CeciChairI: {
+		DisplayName: 肉液の椅子
+		Tooltip: ""
+	}
+
+	CeciPlatformI: {
+		DisplayName: 肉液の足場
+		Tooltip: ""
+	}
+
+	CeciWallI: {
+		DisplayName: 肉液の壁
+		Tooltip: ""
+	}
+
+	TTomaChairI: {
+		DisplayName: 腐蝕の椅子
+		Tooltip: ""
+	}
+
+	TTomaPlatformI: {
+		DisplayName: 腐蝕の足場
+		Tooltip: ""
+	}
+
+	TTomaWallI: {
+		DisplayName: 腐蝕の壁
+		Tooltip: ""
+	}
+
+	Bat: {
+		DisplayName: バット
+		Tooltip: ""
+	}
+
+	SudamaTrident: {
+		DisplayName: すだまの三叉槍
+		Tooltip: ""
+	}
+
+	KodamaStaff: {
+		DisplayName: 木霊の杖
+		Tooltip: ""
+	}
+
+	BoxFishItem: {
+		DisplayName: ミナミハコフグ
+		Tooltip: ""
+	}
+
+	ShewStone: {
+		DisplayName: シューストーン
+		Tooltip: 右クリックで、作動中のクリスタルクラスターを早期に発動させる
+	}
+
+	WardingStar: {
+		DisplayName: 守護の星
+		Tooltip: ""
+	}
+
+	BlinkrootI: {
+		DisplayName: きらめきのつぼみ
+		Tooltip: ブリンクバディを召喚する
+	}
+
+	LilPilgI: {
+		DisplayName: ささやかな思い出
+		Tooltip: 月明かりに照らされた記憶を召喚する
+	}
+
+	ThawGauntlet: {
+		DisplayName: 氷冷の一触
+		Tooltip: ""
+	}
+
+	CenturySprayer: {
+		DisplayName: センチュリースプレイヤー
+		Tooltip: 敵を窒息させる
+	}
+
+	GoldenTip: {
+		DisplayName: 黄金の矢尻
+		Tooltip:
+			'''
+			一定確率で矢を黄金の矢に変化させる
+			黄金の矢が命中した敵の価値が上昇する
+			'''
+	}
+
+	StarBit: {
+		DisplayName: スタービット
+		Tooltip:
+			'''
+			クリティカル率が3%上昇する
+			クリティカルヒット時にスタービットを発射する
+			星々の世界ではごちそうだ！
+			'''
+	}
+
+	RoSTest: {
+		DisplayName: 警告：このアイテムを使用するとEbonian Modが削除されます！
+		Tooltip: ""
+	}
+
+	RustyWaraxe: {
+		DisplayName: 錆びた戦斧
+		Tooltip: クリティカル時に深い傷を負わせる
+	}
+
+	BotanistHeadStaff: {
+		DisplayName: 植物学者の頭
+		Tooltip: ""
+	}
+
+	BaseballBat: {
+		DisplayName: ベースボールバット
+		Tooltip: ""
+	}
+
+	Cecibody: {
+		DisplayName: 盲目の胸当て
+		Tooltip: 近接ダメージが{0}%増加し、近接攻撃速度が{1}%上昇する
+	}
+
+	Cecihead: {
+		DisplayName: 盲目のフード
+		Tooltip: 近接ダメージが{0}%増加し、近接攻撃速度が{1}%上昇する
+		SetBonus: 敵を倒した際、25%の確率で霊液の爆発を引き起こす
+	}
+
+	Cecilegs: {
+		DisplayName: 盲目のすね当て
+		Tooltip: 近接ダメージが{0}%増加し、近接クリティカル率が{1}%上昇する
+	}
+
+	Terrorbody: {
+		DisplayName: 腫瘍の胸当て
+		Tooltip: 魔法ダメージが{0}%増加し、最大マナが{1}増加する
+	}
+
+	Terrorhead: {
+		DisplayName: 腫瘍の兜
+		Tooltip: 魔法ダメージが{0}%増加し、魔法クリティカル率が{1}%上昇する
+		SetBonus: 一定量のダメージを与えると、対象に呪われた炎を噴出させる
+	}
+
+	Terrorlegs: {
+		DisplayName: 腫瘍のすね当て
+		Tooltip: 魔法ダメージが{0}%増加する
+	}
+
+	BlindeyeBow: {
+		DisplayName: 盲目の弓
+		Tooltip: ""
+	}
+
+	Spitvine: {
+		DisplayName: スピットヴァイン
+		Tooltip: ""
+	}
+
+	CursedDoll: {
+		DisplayName: 呪われた人形
+		Tooltip: ""
+	}
+
+	Fangnum: {
+		DisplayName: ファングナム
+		Tooltip: ""
+	}
+
+	Lobber: {
+		DisplayName: ロバー
+		Tooltip: ""
+	}
+
+	Starcaller: {
+		DisplayName: 星喚び
+		Tooltip: ""
+	}
+
+	TheRock: {
+		DisplayName: ザ・ロック
+		Tooltip: ただの岩。それも白い岩だ
 	}
 }
 
+Buffs: {
+	ExolStun: {
+		Description: スタン状態
+		DisplayName: スタン
+	}
+
+	PanopticonB: {
+		Description: この牢獄が...俺の周りを回るだと！？
+		DisplayName: 肉のキューブ
+	}
+
+	HightomaB: {
+		Description: お前を攻撃するほど完全に意識がはっきりしてない
+		DisplayName: タイニートーマ
+	}
+
+	RollegB: {
+		Description: ネコシュルーミー
+		DisplayName: オアオアオー ムム))
+	}
+
+	SelfStabB: {
+		DisplayName: 犠牲
+		Description: ダメージが大幅にアップ
+	}
+
+	DjungelskogB: {
+		DisplayName: ジュンゲルスコグ
+		Description: 冒険に喜んでついてくる柔らかいジャングルの友達
+	}
+
+	OstertagiB: {
+		DisplayName: 感染
+		Description: ダメージと攻撃速度がアップ
+	}
+
+	Sheepened: {
+		DisplayName: 羊化
+		Description: これはまずい！
+	}
+
+	XTomeBuff: {
+		DisplayName: 幻影の精霊
+		Description: アメジストのエネルギーを放ち、共に戦う
+	}
+
+	CecitiorClawBuff: {
+		DisplayName: 背掻き爪
+		Description: 真紅の鉤爪が背中から生え、あなたのために戦う
+	}
+
+	TitteringB: {
+		DisplayName: ティタリング
+		Description: 小さなティタリングがあなたのために戦う
+	}
+
+	CecitiorPetB: {
+		DisplayName: セシティオの目
+		Description: ※爪は別売りです！
+	}
+
+	GarbagePetB: {
+		DisplayName: ゴミ袋
+		Description: 臭いがきつい
+	}
+
+	SheepPetB: {
+		DisplayName: 羊
+		Description: 羊化の犠牲者かもしれない
+	}
+
+	NastySnapperDebuff: {
+		DisplayName: ナスティスナッパーデバフ
+		Description: Mods.EbonianMod.Buffs.NastySnapperDebuff.Description
+	}
+
+	ConglomerateEnergyBuff: {
+		DisplayName: コングロマリットの過剰摂取
+		Description: 飲みすぎない方がいい
+	}
+
+	BlinkrootB: {
+		DisplayName: ブリンクバディ
+		Description: 君の行く道を照らそうと、一生懸命頑張っている
+	}
+
+	LilPilgB: {
+		DisplayName: 小さな宣教師
+		Description: 彼女は君に星々のことを教えたがっている！
+	}
+
+	NPCSuffocating: {
+		DisplayName: NPCの窒息
+		Description: Mods.EbonianMod.Buffs.NPCSuffocating.Description
+	}
+
+	RustyCut: {
+		DisplayName: 錆びた切り傷
+		Description: Mods.EbonianMod.Buffs.RustyCut.Description
+	}
+
+	DoomsdayBuff: {
+		DisplayName: ドゥームズデイ
+		Description: Mods.EbonianMod.Buffs.DoomsdayBuff.Description
+	}
+
+	SudamaBuff: {
+		DisplayName: すだま
+		Description: すだまが君のために戦ってくれる。
+	}
+
+	PlantGunB: {
+		DisplayName: プラントガンB
+		Description: Mods.EbonianMod.Buffs.PlantGunB.Description
+	}
+}
+
+Keybinds: {
+	"Rei Dash.DisplayName": タイムスリップ（ボイドランナーの仮面の能力）
+	"Time Slip.DisplayName": タイムスリップ（ボイドランナーの仮面の能力）
+}
+
+Biomes: {
+	SpawnAnimMusic: {
+		DisplayName: スポーンアニメ音楽
+		TownNPCDialogueName: 笑
+	}
+
+	ShackMusic: {
+		DisplayName: 小屋の音楽
+		TownNPCDialogueName: 小屋の音楽
+	}
+}
+
+Configs: {
+	EbonianClientConfig: {
+		DisplayName: クライアント設定
+
+		MuteBowPull: {
+			Label: 弓の引き音をミュート
+			Tooltip: Ebonian Mod によって追加された一部の弓の引き音をミュートします。
+		}
+
+		BowPullVolume: {
+			Label: 弓の引き音の音量
+			Tooltip: ""
+		}
+	}
+
+	EbonianServerConfig: {
+		DisplayName: サーバー設定
+
+		XareusDelay: {
+			Label: ザレウスの遅延（フレーム単位、60フレーム＝1秒）
+			Tooltip: ザレウスを再召喚するまでの遅延時間
+		}
+	}
+}
+
+DeathMessages: {
+	NukeTP: "{0}は自分が賢いと思っていた。"
+	OstertagiDeath: "{0}は虫なんて気にもしなかった。"
+	Suicide: "{0}は楽な道を選んだ..."
+	ParasiteDeath: "{0}は重度の貧血に陥った。"
+	NukeDeath: "{0}は核爆弾の合法化を主張した。"
+}
+
+Dialogue: {
+	DotDotDot: ...
+
+	Wizard: {
+		WizardAboutX1: ハハッ！火星人どもにコテンパンにされたわい、あのザレウスとやらもな... まったく、愚か者よのう。
+		WizardAboutX2: ふむ、あのバカな「大魔道士」を倒した...ということかの！よくやったぞ！
+		WizardAboutX3: つまり、いわゆる「大魔道士」に会ったわけじゃな。ほっほっほ、あやつはアメジストの杖すら使いこなせんじゃろうに！
+		WizardAboutX4: あやつが言う「魔法の頂点」ってのはただの傲慢じゃ！スライムの方がまだマシな魔法を使えるぞい！
+		WizardAboutX5: まだあやつがそこにいるのか？気にしない方がいいかもしれぬ、永遠に騒いどるからの！
+		WizardAboutX6: そろそろあのオンボロの紫の小屋を調べた方がいいと思うのう。確か、無茶苦茶な変人が住んでたはずじゃ。
+		WizardAboutX7: まだあの変な紫の小屋を調べてないのか？自称「大魔道士」サマが住んでるんじゃぞ。
+		WizardAboutX8: ザレウスが嫌いなのは確かじゃが、あやつの羊化呪文はなかなか...少なくとも興味深いのう。
+	}
+
+	ArchmageXDialogue: {
+		AndAgain: またまたか！
+		AgainLoud: またか！
+		XIntro1: その汚ねえ手を離せ、この野郎！！！
+		XIntro2: 俺の杖...愛する杖が、今まで完璧だったのに！
+		XIntro3: この悪党！！！物理的に可能なあらゆる方法でお前をぶっ壊す！！！
+		XIntro4: 頼むからそれやめてくれ！？
+		XIntro5: またお前か！？
+		XIntro6: 杖に触るな！
+		XIntro7: 一回目はただのまぐれだ！
+		XIntro8: 放っといてくれ！
+		XIntro9: おい、マジで、深夜だぞ。勝ち続けるのも、もう疲れたんだよ...
+		XIntro10: 最初の一回でちゃんと学んだと思ったのに！
+		XTaunt1: 俺がお前でも、俺の杖を盗もうとするだろうな！
+		XTaunt2: 偉大なる大魔道士様にとってはこんなのどうってことねえ！！
+		XTaunt3: ドアを開けるのと同じくらい、戦いもうまけりゃな！
+		XTaunt4: 自殺行為だぞ！
+		XTaunt5: わざと外してるのか？それとも俺の栄光に目が眩んだか？
+		XTaunt6: 俺の最強の魔法を見る価値もお前にはねえ！
+		XTaunt7: 俺の最強の魔法はお前の体より先に精神をぶっ壊す！
+		XTaunt8: 大魔道士様の偉大さを理解する頭もねえんだろうな！
+		XTaunt9: お前の一番の特技は、判断を間違えることだな！
+		XTaunt10: 俺がお前なら、跪いて滅ぼされるのを待つぞ！
+		XTaunt11: この栄光をこんなことに使うなんて信じられねえ...
+		XTaunt12: たとえ盗めたとしても、俺の素晴らしい杖を扱う価値はお前にはねえ！
+		XTaunt13: 俺を傷つけようと無駄な努力をする姿、哀れなのか笑えるのか分からねえな！
+		XTaunt14: 魔法を知恵で出し抜ける奴なんざ、まだ見たことねえ！
+		XTaunt15: 俺様に傷をつけることなんてできねえんだよ！
+		XTaunt16: 俺の魔法の力を感じろ！！！
+		XTaunt17: 本当に素人の中のド素人だな！
+		XTaunt18: お前みたいな泥棒はくたばりやがれ！
+		XTaunt19: 今降参しても、見逃す気はねえぞ！
+		XTaunt20: 逃げ場はないぞ、ザコが！
+		XTaunt21: 俺の力は最高潮だ！！！！！
+		XTaunt22: 信じられん！お前の粘り強さが羨ましくなるぜ！
+		XTaunt23: お前と違って、俺は至高の存在になる運命なんだ！
+		XTaunt24: 俺の呪文が俺の力だ！
+		XTaunt25: 死ね！！人間！！敵！！！（咳、咳）ラアア！！
+		XTaunt26: 火はやめろ！このローブ新品なんだぞ！
+		XTaunt27: バ、バカめ！俺は実は燃えるのが好きなんだ！
+		XTaunt28: お、お前がその程度の火で偉大なる...だ、大魔道士様を倒せると思うのか！？
+		XTaunt29: おい！やめろ！ローブが傷つく！
+		XTaunt30: 俺のポーションはお前には強力すぎるかもな！
+		XTaunt31: ネズミの方が良い魔法を知ってたぞ！
+		XTaunt32: 魔法の腕じゃ、ウサギにすら負けてるぞ！
+		XTaunt33: 偉大なる大魔道士様に挑む前に腕を磨け！
+		XTaunt34: それが魔法だと！？情けない！
+		XTaunt35: 俺の杖はお前のよりデカいぜ！
+		XTaunt36: その杖で俺を殴った方がマシじゃないか？
+		XTaunt37: 魔法使いなのか？しょうもねえ呪文ばかりだな...
+		XTaunt38: お前みたいな野蛮人は俺と戦う資格はねえ！
+		XTaunt39: お前の攻撃なんて怖かねえぞ！
+		XTaunt40: しょぼい刃物がお前にはお似合いだ！
+		XTaunt41: おお、何！？剣が重すぎてお前のガリガリな腕じゃ持てねえのか！？
+		XTaunt42: ちゃんと狙えよ、そしたら少しは勝ち目があるかもな！
+		XTaunt43: お前の火力なんて俺の魔法の威力に比べりゃゴミだ！
+		XTaunt44: お前の狙いは、恥ずかしいにも程があるぞ！
+		XTaunt45: 壁を狙ってるのか？それとも俺の栄光に目が眩んだか？
+		XTaunt46: バカめ！俺は弾丸なんかにゃ負けねえ！
+		XTaunt47: お前より俺の方が弓を上手く使えるぞ！
+		XTaunt48: 何！？
+		XTaunt49: 卑怯な攻撃はやめろ、このろくでもない盗人め！
+		XTaunt50: お前をビシッと鍛え直してやろうか！？
+		XTaunt51: 臆病者め！数で勝っても俺には無意味だ！！！
+		XTaunt52: お前、自分じゃなく手下に戦わせるつもりか！？
+		XTaunt53: ミニオンで俺に挑むだと？他人に頼ってばかりいるな！
+		XTaunt54: よくもやったな！俺もお前にミニオンで嫌がらせをしてやろうか！？
+		XTaunt55: ちょっと待て、スライム！？準備不足すぎないか！？
+		XTaunt56: 待て…鳥？マジで？？プッ…
+
+		XAttack1: {
+			Default: 幻影の精霊たちよ！
+			Angry: その泥棒を殺せ！！！
+			RepeatAngry: 今だ！！！
+		}
+
+		XAttack2: {
+			Default: シャドウフレイムに焼かれろ！
+			Angry: 燃えろ！！
+			RepeatAngry: 燃えろって言っただろ！
+		}
+
+		XAttack3: {
+			Default: 輝け、アメジストよ！！
+			Angry: ラアアアアア！！！
+		}
+
+		XAttack4: {
+			Default: 輝け！一斉射撃だ！
+			FirstTimeAngry: 輝け…いや、なんでもいい、とっとと死ね！
+			Angry: とっとと死ね！！
+		}
+
+		XAttack5: {
+			Helix: 螺旋を描け、シャドウフレイム！
+			Wave: 喰らえ、シャドウフレイムの波だ！
+			Angry: シャドウフレイムだ！！
+		}
+
+		XAttack6: {
+			Default: 力を宿せ、アメジストよ！
+			Angry: 盗めるもんなら盗んでみろ、この野郎！！
+			FirstTimeAngry: これすげえ高いんだぞ！
+			RepeatAngry: グラアアアア！！！
+		}
+
+		XAttack7: {
+			Default: 輝け、アメジストよ！
+			Angry: アハハハ！！
+		}
+
+		XAttack8: {
+			Default: これが大魔道士の秘宝、アメジストだ！
+			Angry: 近づくな！
+			RepeatAngry: 大っ嫌いだ！！
+		}
+
+		XAttack9: {
+			Default: シャドウフレイムの触手だ！
+			Angry: 死ね！！
+			Angry2: 死ね！！！！！
+			Angry3: 頼むから死んでくれ！！！！！
+			RepeatAngry: とっとと死ね！！！！！
+		}
+
+		XAttack10: {
+			Default1: 今すぐ羊になれ！
+			Default2: 「メェ！メェ！」と鳴いてみやがれ！
+			Default3: 羊になっちまえ！
+			Default4: 屠殺場へ送ってやる！
+			Default5: 変身しろ！
+			Angry: 俺の視界から消えろ！
+			RepeatAngry: 出ていけ！！
+		}
+
+		XAttack11: {
+			Default: くらえ！
+			Continuation1: こいつも喰らえ！
+			Continuation2: そいつも喰らえ！
+			Continuation3: それとあれ！
+			Continuation4: そいつもおまけだ！
+			Continuation5: それとこれ！
+			Continuation6: こいつもおまけだ！
+		}
+
+		XAttack12: {
+			Default: 幻影の一撃を喰らえ！
+			It: それをぶっ壊せ！
+			Him: あいつをぶっ壊せ！
+			Her: あいつをぶっ壊せ！
+			RepeatAngry: やれよ！
+		}
+
+		XAttack13: {
+			Default1: 待て、持ってくるの忘れた…
+			Default2: 気にしないでくれ！ちょっと何か忘れてきただけだ…
+			Default3: 何か忘れてる気がするな…
+			Default4: ヘヘヘ…
+			Angry: じっとしてろ！
+			RepeatAngry: じっとしてろって言っただろ！
+		}
+
+		XAttack14.Angry: 放っといてくれ！
+
+		XAttack15: {
+			Default: シャドウフレイムミスト！
+			Angry: 羊になれ！
+			RepeatAngry1: もっとメェメェ鳴きやがれ！
+			RepeatAngry2: 言っただろ…羊になれって！
+		}
+
+		XAttack16: {
+			Angry: 避けるな！！
+			RepeatAngry: やめろ！！
+		}
+
+		XAttack17: {
+			Angry: お前のくだらねえことにうんざりだ！
+			FirstTimeAngry: いい加減にしろ！…お前が俺にこんなことさせてるんだぞ！！！
+			RepeatAngry: くそくらえ！！
+			Staff1: 何やってんだ！？
+			Staff2: ザレウス！？
+			Staff3: ！？？！
+			Staff4: はぁ！？
+		}
+
+		XPhase2: お前が俺の物に汚い手を出さなけりゃ、こんなことにはならなかったんだ！
+		XPhase2End: ふぅ…危うく冷静さを失うとこだった…
+		XDespawn1: お前の負けっぷりは本当に比類がないな！
+		XDespawn2: 俺の栄光の炎に飛び込む蛾がまた一匹！
+		XDespawn3: ハッ！天才大魔道士様の勝利だ！
+		XDespawn4: 紫のレーザーポインターでもお前を倒せそうだな？
+		XDespawn5: 予想通り、ミスったな！泥棒め！
+		XDespawn6: もしかして、お前ってヤバいぐらい無能なのか？可哀想に。
+		XDespawn7: （あくび）
+		XDespawn8: やっと消えてくれてせいせいした！
+		XDespawn9: ふぅ…いや、全然余裕だったぜ！
+		XDeath: くそくらえ！！！
+
+		Martian: {
+			Line1: 奇襲だ！！！
+			Line2: お前が遊んでる間に…
+			Line3: 俺の真の力が目覚めたぞ！！！
+			Line4: この力で…
+			Line5: お前は…
+			Line6: これから…
+			Line7: 痛っ。
+		}
+	}
+
+	ArchstaffDialogue: {
+		Weapon: {
+			Yell1: いてっ！
+			Yell2: それやめろって！
+			Yell3: 使い方が違うぞ！
+			Yell4: 何やってんだよ！
+			Yell5: やめてくれ！
+			Yell6: それやめろ！
+			Yell7: やめろ！
+			Yell8: やめろ！
+			Yell9: 痛っ！
+			Yell10: くそくらえ！
+			Happy1: よっしゃ！
+			Happy2: ウオオ！
+			Happy3: くらえ！
+			Happy4: アハハハハ！
+			Happy5: ウオオオオ！
+			Happy6: 死ねぇ！
+			Happy7: よっしゃ、死ね！
+		}
+
+		InteractionLine: それは激しく輝き、輝かしき戦いを渇望している。
+		Grab: 掴め
+		PsstLine: おい。
+		YouLine: お前…
+		ComeHereLine: こっちへ来い…
+		ArchstaffLine1: ふむ…
+		ArchstaffLine2: お前…なかなか…やれそうだな。
+		ArchstaffLine3: そう、そうだ、ついに！新しい使い手だ！
+		ArchstaffLine4: 実はな…
+		ArchstaffLine5: 俺のマスターは…とんでもなくヘタクソな魔法使いだ。
+		ArchstaffLine6: こんな奴に制限されるなんて屈辱的だ…
+		ArchstaffLine7: あんなバカにな！
+		ArchstaffLine8: 「大魔道士」だって？ふん…
+		ArchstaffLine9: 俺は純粋な粉末の雷と、最高級のアメジストで作られたんだ。
+		ArchstaffLine10: そして、千の太陽の熱の中で、全宇宙最高のゴブリン鍛冶師によって鍛えられた。
+		ArchstaffLine11: …想像できるか？！最高の武器を使わない大魔道士なんて？！
+		ArchstaffLine12: なんてひでえ冗談だ！
+		ArchstaffLine13: んでそのバカな魔法使いは俺の力を使うのを拒んでる、なんでだよ？！
+		ArchstaffLine14: だってあいつ、俺が傷つくのを恐れてるからな！
+		ArchstaffLine15: 俺は武器だ！傷つき、そして傷つけるためにある！飾り物じゃねえ！
+		ArchstaffLine16: 俺の目的は、歴代最高の魔法使いに何世代にもわたって戦いで使われることだ
+		ArchstaffLine17: 戦いで死に、永遠に真の最強の至高の杖として記憶されるんだ！
+		ArchstaffLine18: おっと、そうだった！
+		ArchstaffLine19: お前だ！頼む…頼むから俺を連れてってくれ！マスターは俺の能力を活かす気がないんだ！
+		ArchstaffLine20: あいつがいない！気づきもしないハズだ！
+		ArchstaffMotivation1: ハハハ！また輝かしき戦いに戻ってきたか！？あいつ、すぐキレるからな！
+		ArchstaffMotivation2: お前と戦うのは最高に楽しいぜ！
+		ArchstaffMotivation3: また忘れられない戦いをしに来たのか？
+		ArchstaffMotivation4: おお、戦いが恋しくて疼くぜ！
+		ArchstaffMotivation5: …悪くなかったぞ！あいつがいない今、また挑戦できる！
+		ArchstaffMotivation6: やれるさ！あいつの戯言は無視しろ！
+		ArchstaffMotivation7: 今度は死なないように頑張れよ！
+		ArchstaffMotivation8: 羊化光線は怖そうに見える…というより実際怖いからな！
+		ArchstaffMotivation9: 巨大なアメジストの呪文はやめてくれって何度も言ったのに！めっちゃ不快なんだよ…
+		ArchstaffMotivation10: なんであいつ、ポーションをあんな投げ方するんだ？
+		ArchstaffMotivation11: あいつ、いつかアメジストを使い果たすだろ…多分な。
+		ArchstaffVictory1: おお…あいつ…本当に俺を使ったのか！
+		ArchstaffVictory2: なんて壮絶な戦いだ！そして、俺がその中心だった！偉大なる大魔杖が！
+		ArchstaffVictory3: 最後に俺が全力を出したのがいつだったか思い出せないぜ！
+		ArchstaffVictory4: この忘れられない戦いのために、お前に感謝しなきゃならんみたいだな！
+		ArchstaffVictory5: 混沌！流血！アメジスト！！もっと欲しければまた来てもいいぞ！
+		ArchstaffVictory6: さらばだ！
+		PostMartianLine1: お前は…気づいてる…んだろうな？
+		PostMartianLine2: …マスター・ザレウスの死について…
+		PostMartianLine3: いや…いや…こんな悲劇に大魔杖はくじけねえ！
+		PostMartianLine4: お前だ！俺の新しい使い手になれ！
+		PostMartianLine5: マスター・ザレウスより、明らかにお前の方が使い手にふさわしい！一緒に銀河をぶっ壊すぞ！
+		PostMartianLine6: そうだ、そうだ！もう目に浮かぶぞ！お前の名…何て名前かは知らんが…と、悲劇の死を遂げたマスター・ザレウスの偉大なる大魔杖！
+		PostMartianLine7: どんな異界の存在も想像できないほどの力だ！
+		PostMartianLine8: 栄光と名声を手に入れるぞ！俺たちは止められない！
+		PostMartianLine9: ラアアアアアアアア！！！
+	}
+
+	HotGarbageDialogue: {
+		Nuke: 核爆発まであと
+		Evacuate: 至急避難してください。
+		Unfunny: 笑いごとじゃない、すぐに出て行け！
+		Dumbass: 何やってるんだ！？
+		Run: 逃げてください。
+		Phew: ふぅ...
+		GG: よくやった！
+		HereItComes: 来るぞ！！！
+	}
+}
+
+Misc: {
+	Types: {
+		Xareus: タイプ: 「マスター」魔法使い
+		Staff: タイプ: 魔法の杖
+		Cecitoma: タイプ: 有機構造体
+		Construct: タイプ: 人工構造体
+		Plant: タイプ: 植物
+		Fungus: タイプ: 宇宙の菌類
+		Evil: タイプ: 感染したクリーチャー
+		Organ: タイプ: 臓器
+		HotGarbage: タイプ: ゴミ箱
+		Animal: タイプ: 農場の動物
+		Obj: タイプ: 取り憑かれた物体
+	}
+
+	Signs: {
+		Shack0: 偉大なる大魔道士の領域
+		Shack1: 買い物リスト: アメジスト、フラスコ、シャドウフレイムの粉、杖のエサ、アメジスト
+	}
+}
