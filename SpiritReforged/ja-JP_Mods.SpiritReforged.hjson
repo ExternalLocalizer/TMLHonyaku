@@ -44,6 +44,13 @@ Misc: {
 		Random: ランダムエンチャント
 	}
 
+	TombText: {
+		0: "{0}、ここに眠る。"
+		1: 多くの人に愛された{0}、ここに眠る。
+		2: "{0}、そして{1}、ここに眠る。"
+		3: 墓の中には何もない。
+	}
+
 	NoStock: 在庫切れ
 	GraveText: <wavy>文字は古く色あせており、何が書いてあるかよくわからない。
 	MenuButton: メニュー形式を使用
@@ -67,7 +74,7 @@ GameTips: {
 	ReforgedTip3: サバンナの動物達は虫取り網で捕まえることができない。
 	ReforgedTip4: バックパック。今、もっとスペースがあるよ。
 	ReforgedTip5: 海の深部には、興味深いものがたくさん眠っている。
-	ReforgedTip6: スターグラスは夜の暗闇で心地よい休息を提供する。
+	ReforgedTip6: 星草は夜の暗闇で心地よい休息を提供する。
 	ReforgedTip7: クラウドストークは必ず雲の下に生える。上を見るのを忘れずに！
 	ReforgedTip8: 高さが必要なら、アカシアの木の上に立つことができる。
 	ReforgedTip9: 海では時々、何かが岸に流れ着くことがある。たまに確認してみよう！
@@ -83,7 +90,7 @@ GameTips: {
 	# Spellbound
 	ReforgedTip17: 刻印は武器に強力な効果を与え、その使い方を大きく変化させる！
 	ReforgedTip18: クロマティックワックスは壺や木箱から見つかるほか、特定の敵を倒した際の戦利品としても入手できる。
-	ReforgedTip19: エンチャーターは、個性豊かな刻印を武器に付与できる。全部試してみよう！
+	ReforgedTip19: エンチャンターは、個性豊かな刻印を武器に付与できる。全部試してみよう！
 }
 
 Emotes: {
@@ -123,11 +130,13 @@ EcotoneEdges: {
 }
 
 DamageClasses.HybridDamageClass.DisplayName: 複合ダメージクラス
+BackpackPickupEnabled: 直接回収：有効
+BackpackPickupDisabled: 直接回収：無効
 
 Buffs: {
 	EmpoweredSwim: {
 		DisplayName: 強化された泳ぎ
-		Description: 水中がとても速く泳げる
+		Description: 水中でとても速く泳げる
 	}
 
 	MantarayBuff: {
@@ -299,6 +308,16 @@ Buffs: {
 		DisplayName: 憤怒の力 [{0}]
 		Description: 蓄積ダメージ: {0}
 	}
+
+	ColumbatBuff: {
+		DisplayName: コロンバット
+		Description: コウモリたる存在
+	}
+
+	ColumbaldBuff: {
+		DisplayName: コロンバルド
+		Description: ハゲたる存在
+	}
 }
 
 Configs: {
@@ -361,7 +380,7 @@ Configs: {
 		DisplayName: Reforged サーバー設定
 
 		VentCritters: {
-			Label: 噴出孔に沸く生物
+			Label: 噴出孔に湧く生物
 			Tooltip:
 				'''
 				熱水噴出孔の周囲に多数の生き物が現れます
@@ -390,6 +409,243 @@ Configs: {
 	}
 }
 
+CrossMod: {
+	Spooky: {
+		DhampirBounty: {
+			Dialogue: {
+				# For continuity's sake, these dialogue entries are read sequentially, one eye, one player - so it'd be Eye.0, then Player.0, then Eye.1, etc
+				Eye: {
+					0: 
+						'''
+						ソウソウ、昔キミそっくりなヤツがいてネ！身軽で頑丈、
+						オマケに使い勝手も抜群！イヤァ、モウ素晴らしいヤツだった！
+						だがシカシ！オ天道様の光を浴びると、アッという間に
+						こんがり焼けてしまう！これでは困るダロウ？
+						ダカラ、魔法で体質をまるっと逆転させタノサ！
+						昼間の任務に最適な、完璧なるモルモットだね！
+						'''
+					1: 
+						'''
+						ア～...まぁ、ｿｳﾀﾞﾈ。ホントは気の利いた『韻』ヲ踏もうト思ったケド...
+						マッ、そんな感じサ！一つ覚えておいてホシイのは、奴ラは姿が見えないクセに、
+						自分の映った姿を見るのがダーイ好きなんダ！そこでコイツの出番！
+						粗末な檻にトジコメテ、毎晩棒でツツいてる、やせ細ったコウモリ！
+						コイツを使えば、隠れてる連中もホイホイ出てくるって寸法サ！
+						'''
+					2: 
+						'''
+						キット今、コノ儚いワタシといるには、自分たちはカッコよすぎるとでも
+						思ってるんだろうサ！マッタク、恩知らずダヨネ！！
+						'''
+				}
+
+				Player: {
+					0: 
+						'''
+						それで、
+						結局ソイツが
+						逃げ出したん
+						だろ？
+						'''
+					1: 
+						'''
+						...イヤァ、
+						なんで逃げた
+						のか全然
+						分からんなぁ！
+						'''
+					2: 
+						'''
+						ああ、他に
+						理由なんて
+						ないって
+						ことね。
+						わかったよ。
+						'''
+				}
+			}
+
+			RecoveryDialogue: {
+				Eye: {
+					0: オカエリ！脱走者共ハ始末デキタカナ？
+					1: 
+						'''
+						ナント！デモ心配ご無用サ！粗末な檻にトジコメテ、毎晩棒でツツいてる、
+						やせ細ったコウモリなら山ホドいるのサ！アノ哀れなダンピールより、
+						ワタシの方がずーっっと優れてイルと理解するタメにね！アァ、哀れな
+						ダンピールよ...
+						'''
+					2: 
+						'''
+						...マァ、色々アルけれド、キミはワタシを助けてクレル。
+						案外、『似た者同士』カモヨ？
+						'''
+				}
+
+				Player: {
+					0: 
+						'''
+						いや、違う。
+						コウモリを
+						無くしたから
+						来たんだ。
+						'''
+					1: 
+						'''
+						マジで頭
+						イカレてん
+						じゃねえの！？
+						'''
+					2: 
+						'''
+						ハイハイ。
+						いいから
+						早く
+						コウモリを
+						頂戴。
+						'''
+				}
+			}
+
+			CompletionDialogue: {
+				Eye: {
+					0: 脱走者共を塩漬ケにしてきたカナ？
+					1: 
+						'''
+						お祝いしないトネ！ホラ、この古いマントを受け取ッテ。
+						あの阿呆なダンピールに着せたんダケド、「ダサイ」なんて
+						言われテ...センスのないダンピールめ。
+						'''
+				}
+
+				Player: {
+					0: 
+						'''
+						あんた、
+						本当に
+						ゾッと
+						するよ...
+						まあ、
+						やってきた
+						けど。
+						'''
+					1: 
+						'''
+						ハイハイ、
+						そうだ
+						ねぇ...
+						'''
+				}
+			}
+		}
+
+		MummyBounty: {
+			Dialogue: {
+				Eye: {
+					0: 
+						'''
+						オヤ！戻ってきてくれたんダネ！戻ってきたとイエバ、
+						ミイラの話は聞いたことがアリマスカ？シバラクの間、
+						趣味で実験をしてたんダケド、これガとんだ大馬鹿さんデネ！
+						'''
+					1: 
+						'''
+						イヤァ...そいつはバラバラにナッテ、ドコカへ旅立ってシマッタ...
+						ええと...そんな感じカナ。ドウニモ身体を一つにする気がなかったらしく、
+						「墓に戻らなければ」ナンテ、うめいてイタヨ。
+						'''
+					2: 
+						'''
+						そいつらを集める楽しみはキミに譲ロウ！コノ...ナニカを持っていクノダ。
+						あの間抜け...いや、ミイラが気に入っていたと思ウ！
+						'''
+				}
+
+				Player: {
+					0: 
+						'''
+						隙を見て
+						逃げ出された
+						って所か。
+						'''
+					1: 
+						'''
+						それで、
+						そいつらを
+						集めるのが
+						仕事って
+						わけか...
+						'''
+					2: ...ハイよ。
+				}
+			}
+
+			RecoveryDialogue: {
+				Eye: {
+					0: アハッ！ミイラの宝は手に入ったカナ？
+					1: 
+						'''
+						イヤァ、予め複製しておいてヨカッタネ！
+						自分が作った哀れな連中に、誰が主人なのか思い知らせるのに最高の方法ダロウ？
+						'''
+					2: マァ、いつかキミも分かるサ！ハイ、ドウゾ！
+				}
+
+				Player: {
+					0: 
+						'''
+						いや、あの
+						王冠みたい
+						なの
+						無くし
+						たんだよ。
+						'''
+					1: 
+						'''
+						あまりに
+						理解でき
+						なさ過ぎて
+						もう呆れる
+						しかないわ。
+						'''
+					2: 
+						'''
+						もう金輪際
+						あんたと
+						話したく
+						ないわ。
+						'''
+				}
+			}
+
+			CompletionDialogue: {
+				Eye: {
+					0: 
+						'''
+						オォ！何とも目立たない古びた包帯の束ダ！いやはや、
+						キミとワタシにとって、これ程嬉しいことはナイネ！
+						'''
+					1: 
+						'''
+						ソンナ浮かない顔をしないでヨォ！ホラ、これはずーっと奥の山積みの中に
+						あったものダヨ。余計な肉片トカくっついてないといいんダケド！
+						'''
+				}
+
+				Player: {
+					0: ...ハイ
+					1: 
+						'''
+						うげっ、
+						気持ち
+						悪い！！
+						'''
+				}
+			}
+		}
+	}
+}
+
 GenConfigs: {
 	UI: {
 		Min: すべて最小化
@@ -411,8 +667,8 @@ GenConfigs: {
 		None: 未選択
 		Reset: リセット
 		ResetAll: すべてリセット
-		Prior: Prior:
-		Next: Next:
+		Prior: 前:
+		Next: 次:
 		True: 有効
 		False: 無効
 		Total: 合計 {0}
@@ -544,10 +800,10 @@ GenConfigs: {
 				}
 
 				StupaChance: {
-					DisplayName: "[i:SpiritReforged/StoneStupasItem] 石造仏塔の生成率"
+					DisplayName: "[i:SpiritReforged/StoneStupasItem] 石のストゥーパの生成率"
 					Tooltip:
 						'''
-						装飾処理で石造仏塔が出現する確率を、分母（1/x）で設定します。
+						装飾処理で石のストゥーパが出現する確率を、分母（1/x）で設定します。
 						既存のタイルを上書きしないため、1に設定しても全タイルに壺が配置されるわけではありません。
 						'''
 				}
@@ -645,8 +901,8 @@ GenConfigs: {
 				}
 
 				SunkenTreasureCount: {
-					DisplayName: "[i:SpiritReforged/SunkenTreasure] 沈没財宝の最大数"
-					Tooltip: 海に配置される可能性がある沈没財宝の最大数。通常、すべて配置されることはありません。
+					DisplayName: "[i:SpiritReforged/SunkenTreasure] 沈んだ宝の最大数"
+					Tooltip: 海に配置される可能性がある沈んだ宝の最大数。通常、すべて配置されることはありません。
 				}
 
 				SandDepth: {
@@ -685,7 +941,7 @@ GenConfigs: {
 				}
 
 				KelpMaxHeight: {
-					DisplayName: "[i:SpiritReforged/Kelp] 昆布の最大高度"
+					DisplayName: "[i:SpiritReforged/Kelp] 昆布の最大高さ"
 					Tooltip: 昆布がどこまで高く生成されるか、タイル数で設定します。
 				}
 
@@ -717,38 +973,38 @@ GenConfigs: {
 				}
 
 				OrnateScale: {
-					DisplayName: "[i:SpiritReforged/OrnatePotsItem] 装飾壺の生成倍率"
-					Tooltip: 装飾壺の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/OrnatePotsItem] 装飾された壺の生成倍率"
+					Tooltip: 装飾された壺の生成試行回数にかかる倍率。
 				}
 
 				PotionScale: {
-					DisplayName: "[i:SpiritReforged/PotionVatsCloningItem] ポーション大釜の生成倍率"
-					Tooltip: ポーション大釜の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/PotionVatsCloningItem] ポーションの大桶の生成倍率"
+					Tooltip: ポーションの大桶の生成試行回数にかかる倍率。
 				}
 
 				ScryingScale: {
-					DisplayName: "[i:SpiritReforged/ScryingPotItem] 占術壺の生成倍率"
-					Tooltip: 占術壺の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/ScryingPotItem] 占いの壺の生成倍率"
+					Tooltip: 占いの壺の生成試行回数にかかる倍率。
 				}
 
 				StuffedScale: {
-					DisplayName: "[i:SpiritReforged/StuffedPotsItem] 詰め込み壺の生成倍率"
-					Tooltip: 詰め込み壺の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/StuffedPotsItem] 詰め込まれた壺の生成倍率"
+					Tooltip: 詰め込まれた壺の生成試行回数にかかる倍率。
 				}
 
 				WormScale: {
-					DisplayName: "[i:SpiritReforged/WormPotItem] ワーム壺の生成倍率"
-					Tooltip: ワーム壺の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/WormPotItem] ワームの壺の生成倍率"
+					Tooltip: ワームの壺の生成試行回数にかかる倍率。
 				}
 
 				PlatterScale: {
-					DisplayName: "[i:SpiritReforged/SilverPlattersItem] 銀の大皿の生成倍率"
-					Tooltip: 銀の大皿の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/SilverPlattersItem] 銀の皿の生成倍率"
+					Tooltip: 銀の皿の生成試行回数にかかる倍率。
 				}
 
 				AetherScale: {
-					DisplayName: "[i:SpiritReforged/AetherShipmentItem] エーテル積荷の生成倍率"
-					Tooltip: エーテル積荷の生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/AetherShipmentItem] エーテルの荷物の生成倍率"
+					Tooltip: エーテルの荷物の生成試行回数にかかる倍率。
 				}
 
 				UpsideDownScale: {
@@ -762,8 +1018,8 @@ GenConfigs: {
 				}
 
 				PicnicScale: {
-					DisplayName: "[i:SpiritReforged/WickerBasketsItem] ピクニックバスケットの生成倍率"
-					Tooltip: ピクニックバスケットの生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/WickerBasketsItem] 柳のバスケットの生成倍率"
+					Tooltip: 柳のバスケットの生成試行回数にかかる倍率。
 				}
 
 				StackScale: {
@@ -782,8 +1038,8 @@ GenConfigs: {
 				}
 
 				WaxScale: {
-					DisplayName: "[i:SpiritReforged/WaxPotItem] ワックスポットの生成倍率"
-					Tooltip: ワックスポットの生成試行回数にかかる倍率。
+					DisplayName: "[i:SpiritReforged/WaxPotItem] ロウの壺の生成倍率"
+					Tooltip: ロウの壺の生成試行回数にかかる倍率。
 				}
 			}
 
@@ -855,7 +1111,7 @@ GenConfigs: {
 				}
 
 				StructuresMax: {
-					DisplayName: "[i:SpiritReforged/PotteryWheelItem] （保管庫）生成率"
+					DisplayName: "[i:SpiritReforged/PotteryWheelItem] （保管庫）生成倍率"
 					Tooltip: ワールド内の保管庫構造物の数にかかる倍率。
 				}
 
@@ -875,13 +1131,13 @@ GenConfigs: {
 				}
 
 				DisplayCaseChance: {
-					DisplayName: "[i:SpiritReforged/DisplayCaseItem] (住居) ディスプレイケースの生成率"
-					Tooltip: 地下の住居にディスプレイケースが出現する確率（1/x）の分母。
+					DisplayName: "[i:SpiritReforged/DisplayCaseItem] (住居) 展示ケースの生成率"
+					Tooltip: 地下の住居に展示ケースが出現する確率（1/x）の分母。
 				}
 
 				MirrorRate: {
 					DisplayName: "[i:SpiritReforged/EnchantedMirrorItem] (装飾) 帰還の鏡の生成率"
-					Tooltip: ワールドに生成される帰還の鏡にかかる最大倍率。
+					Tooltip: ワールドに生成される帰還の鏡の上限数にかかる倍率。
 				}
 			}
 
@@ -977,17 +1233,17 @@ GenConfigs: {
 				}
 
 				DresserNormalization: {
-					DisplayName: "[i:SpiritReforged/LapisDresserItem] タンスの均等化"
+					DisplayName: "[i:SpiritReforged/LapisDresserItem] ドレッサーの均等化"
 					Tooltip:
 						'''
-						タンスの戦利品を均等化する度合い。
+						ドレッサーの戦利品を均等化する度合い。
 						値が高いほど、すべてのアイテムがより均等な確率で抽選されます。
 						'''
 				}
 
 				AncientBannerChance: {
-					DisplayName: "[i:SpiritReforged/AncientBannerItem] 古代の旗の生成率"
-					Tooltip: 古代の旗が生成される確率。
+					DisplayName: "[i:SpiritReforged/AncientBannerItem] 古代のバナーの生成率"
+					Tooltip: 古代のバナーが生成される確率。
 				}
 
 				BannerChance: {
@@ -1031,8 +1287,8 @@ GenConfigs: {
 				}
 
 				DresserItemRange: {
-					DisplayName: "[i:SpiritReforged/LapisDresserItem] タンスのアイテム数"
-					Tooltip: タンスに入るアイテム数の範囲。
+					DisplayName: "[i:SpiritReforged/LapisDresserItem] ドレッサーのアイテム数"
+					Tooltip: ドレッサーに入るアイテム数の範囲。
 				}
 
 				DebrisMinimum: {
@@ -1274,7 +1530,7 @@ GenConfigs: {
 
 Generation: {
 	Discoveries: 発見の追加
-	Stargrass: きらきらな草木を育む
+	Stargrass: 星草を育む
 	HerosMemorial: 英雄を偲ぶ
 	Butterfly: 蝶の祠を隠す
 	FishingCoves: 釣りスポットの追加
@@ -1337,7 +1593,7 @@ Generation: {
 				2:
 					'''
 					<wavy>0
-					日、洞窟事故以来
+					日間、洞窟事故なし
 					'''
 			}
 		}
@@ -1637,7 +1893,7 @@ Items: {
 		Tooltip:
 			'''
 			全ステータスが少し強化
-			「生き生きとして魅力的だ」
+			「新鮮でおいしい」
 			'''
 	}
 
@@ -1767,7 +2023,7 @@ Items: {
 	}
 
 	KoiTotem: {
-		DisplayName: コイトーテム
+		DisplayName: 鯉のトーテム
 		Tooltip:
 			'''
 			近くに設置することで釣りのスキルを向上
@@ -1808,7 +2064,7 @@ Items: {
 		DisplayName: プールヌードル
 		Tooltip:
 			'''
-			3つの召喚タグのダメージ
+			召喚タグダメージ 3
 			攻撃を当てた敵にミニオンが集中攻撃する
 			ミニオンに攻撃された敵がまれに泡の爆発を放つ
 			'''
@@ -1979,7 +2235,7 @@ Items: {
 	}
 
 	DrywoodBathtubItem: {
-		DisplayName: ドライウッドの浴場
+		DisplayName: ドライウッドの浴槽
 		Tooltip: ""
 	}
 
@@ -2074,7 +2330,7 @@ Items: {
 	}
 
 	DriftwoodBathtubItem: {
-		DisplayName: 流木の浴場
+		DisplayName: 流木の浴槽
 		Tooltip: ""
 	}
 
@@ -2239,7 +2495,11 @@ Items: {
 
 	RoyalKhopesh: {
 		DisplayName: ロイヤルコペシュ
-		Tooltip: ""
+		Tooltip: 
+			'''
+			右クリックでコペシュを投げる
+			左または右クリックで命中した敵を引き寄せ、次の攻撃を強化する
+			'''
 	}
 
 	SavannaSandstormMusicBoxItem: {
@@ -2288,7 +2548,7 @@ Items: {
 
 	MineralSlag: {
 		DisplayName: ミネラルスラグ
-		Tooltip: エクストラクティネーターで使用可能
+		Tooltip: 取り出し機で使用可能
 	}
 
 	HyenaBannerItem.DisplayName: ハイエナのバナー
@@ -2339,9 +2599,9 @@ Items: {
 		DisplayName: 盗賊の紋章
 		Tooltip:
 			'''
-			共に戦う錆びれた剣を召喚する
+			共に戦う錆びた剣を召喚する
 			この剣はミニオンスロットを消費しない
-			まれに「開いた傷」デバフを付与し、近接または鞭攻撃で敵を攻撃すると「出血」デバフを付与する
+			まれに「開いた傷」デバフを付与し、近接攻撃で敵を攻撃すると「出血」デバフを付与する
 			'''
 	}
 
@@ -2405,7 +2665,7 @@ Items: {
 		Tooltip:
 			'''
 			砂嵐の強風に対する免疫
-			移動速度を5%、移動速度上昇を15%上昇
+			移動速度を5%、走行時の加速度を15%上昇
 			'''
 	}
 
@@ -2715,7 +2975,7 @@ Items: {
 	}
 
 	AncientKoiTotem: {
-		DisplayName: 古代コイのトーテム
+		DisplayName: 古代の鯉のトーテム
 		Tooltip:
 			'''
 			近くに設置することで釣りのスキルを向上
@@ -2778,11 +3038,11 @@ Items: {
 	}
 
 	PotteryWheelItem: {
-		DisplayName: 陶芸の車輪
+		DisplayName: ろくろ
 		Tooltip:
 			'''
 			装飾用の壺の製作に使用
-			<right> で配置時に利用可能なレシピを表示
+			設置後、<right>で利用可能なレシピを表示
 			'''
 	}
 
@@ -3045,12 +3305,12 @@ Items: {
 	}
 
 	BiomePotsGraniteItem: {
-		DisplayName: 花崗岩の壺
+		DisplayName: 御影石の壺
 		Tooltip: ""
 	}
 
 	CommonPotsGraniteItem: {
-		DisplayName: 小さな花崗岩の壺
+		DisplayName: 小さな御影石の壺
 		Tooltip: ""
 	}
 
@@ -3083,7 +3343,7 @@ Items: {
 	}
 
 	GoldClub: {
-		DisplayName: 黄金のこん棒
+		DisplayName: 黄金の大槌
 		Tooltip: スイング中に再度使用するとチャージ可能なアッパーカットを繰り出す
 	}
 
@@ -3100,8 +3360,8 @@ Items: {
 		DisplayName: 霜巨人のベルト
 		Tooltip:
 			'''
-			棍棒をチャージ中はノックバック耐性が50%増加
-			棍棒のチャージ中に防御力が徐々に上昇
+			こん棒をチャージ中はノックバック耐性が50%増加
+			こん棒のチャージ中に防御力が徐々に上昇
 			'''
 	}
 
@@ -3159,17 +3419,17 @@ Items: {
 	}
 
 	OtherworldSavannaMusicBoxItem: {
-		DisplayName: アザーワールドのオルゴール(サバンナ　日中)
+		DisplayName: アザーワールドのオルゴール（昼のサバンナ）
 		Tooltip: ""
 	}
 
 	OtherworldSavannaNightMusicBoxItem: {
-		DisplayName: アザーワールドのオルゴール (サバンナ　夜中)
+		DisplayName: アザーワールドのオルゴール（夜のサバンナ）
 		Tooltip: ""
 	}
 
 	SavannaSandstormOtherworldMusicBoxItem: {
-		DisplayName: アザーワールドのオルゴール (砂嵐)
+		DisplayName: アザーワールドのオルゴール（砂嵐）
 		Tooltip: ""
 	}
 
@@ -3363,8 +3623,8 @@ Items: {
 		DisplayName: シャープシューターの手袋
 		Tooltip:
 			'''
-			遠距離での遠距離ダメージが増加する
-			この距離での連続攻撃はダメージが増加する
+			離れた敵への遠距離ダメージが増加する
+			この距離での連続射撃はダメージが増加する
 			'''
 	}
 
@@ -3437,7 +3697,7 @@ Items: {
 		DisplayName: ハード・ライト・バイザー
 		Tooltip: ""
 		AltDisplayName: ハードライトバイザー
-		AltTooltip: 「ハードライトバイザーと混同しないでください」
+		AltTooltip: 「ハード・ライト・バイザーと混同しないでください」
 	}
 
 	PolishedAmberItem: {
@@ -3499,7 +3759,7 @@ Items: {
 
 	SilkSirwal: {
 		DisplayName: 日輪の踊り子のズボン
-		Tooltip: 地上での移動性能が上昇
+		Tooltip: 地上での移動速度と加速度が上昇
 	}
 
 	SilkTop: {
@@ -3518,7 +3778,7 @@ Items: {
 
 	Thornball: {
 		DisplayName: トゲボール
-		Tooltip: ブロックと敵にくっつく
+		Tooltip: ブロックにくっつき、敵の移動速度を低下させる
 	}
 
 	SaltBlockDullItem: {
@@ -3572,7 +3832,7 @@ Items: {
 	}
 
 	SaltBathtubItem: {
-		DisplayName: 塩の浴場
+		DisplayName: 塩の浴槽
 		Tooltip: ""
 	}
 
@@ -3738,7 +3998,7 @@ Items: {
 	}
 
 	LapisBathtubItem: {
-		DisplayName: ラピスの浴場
+		DisplayName: ラピスの浴槽
 		Tooltip: ""
 	}
 
@@ -3914,12 +4174,12 @@ Items: {
 
 	MahakalaMaskBlue: {
 		DisplayName: マハーカーラの仮面
-		Tooltip: 汚染された敵からの被ダメージを減少
+		Tooltip: 汚染された敵からの被ダメージと、その敵への与ダメージを減少
 	}
 
 	MahakalaMaskRed: {
 		DisplayName: マハーカーラの仮面
-		Tooltip: 汚染された敵からの被ダメージを減少
+		Tooltip: 汚染された敵からの被ダメージと、その敵への与ダメージを減少
 	}
 
 	RedSandstoneSlabItem: {
@@ -3948,12 +4208,12 @@ Items: {
 	}
 
 	TrellisDrywoodItem: {
-		DisplayName: 王朝風の木のトレリス
+		DisplayName: ドライウッドのトレリス
 		Tooltip: 草の種を使用してツタを育てる
 	}
 
 	TrellisTwoDrywoodItem: {
-		DisplayName: 王朝風の木の交差トレリス
+		DisplayName: ドライウッドの交差トレリス
 		Tooltip: 草の種を使用してツタを育てる
 	}
 
@@ -4008,7 +4268,7 @@ Items: {
 
 	SaltNightMusicBoxItem: {
 		Tooltip: ""
-		DisplayName: オルゴール（塩湖 夜）
+		DisplayName: オルゴール（塩湖の夜）
 	}
 
 	SaltMusicBoxItem: {
@@ -4051,7 +4311,7 @@ Items: {
 	}
 
 	GoldenBrineShrimpItem: {
-		DisplayName: 金のブラインシュリンプ
+		DisplayName: 黄金のブラインシュリンプ
 		Tooltip: ""
 	}
 
@@ -4234,7 +4494,7 @@ Items: {
 
 	WindshearScepter: {
 		DisplayName: ウィンドシアセプター
-		Tooltip: 貫通する風の突風を放つ
+		Tooltip: 貫通する突風を放つ
 	}
 
 	SaltTallGateItem: {
@@ -4363,7 +4623,7 @@ Items: {
 
 	BagOScarabs: {
 		DisplayName: トレジャーバッグ（スカラベウス）
-		Tooltip: ""
+		Tooltip: "<right>で開く"
 	}
 
 	ScarabMask: {
@@ -4396,8 +4656,8 @@ Items: {
 		Tooltip: ""
 
 		Toggle: {
-			0: Phase One
-			1: Phase Two
+			0: 第1形態
+			1: 第2形態
 		}
 	}
 
@@ -4424,7 +4684,7 @@ Items: {
 		DisplayName: バルブラトル
 		Tooltip:
 			'''
-			スカラベの子供を召喚する
+			スカラベビーを召喚する
 			「ひらめいた！」
 			'''
 	}
@@ -4438,7 +4698,7 @@ Items: {
 			さらにライセンスを使って、ペット交換プログラムを有効にしましょう！
 			あなたにピッタリのカブトムシを見つけましょう！
 			'''
-		LicenseUse: ライセンスはカブトムシの配達サービスにてレポートします...
+		LicenseUse: ライセンスはカブトムシの配達サービスにテレポートします...
 	}
 
 	GooeyHiveItem: {
@@ -4543,7 +4803,7 @@ Items: {
 
 	ChromaticWax: {
 		DisplayName: クロマティックワックス
-		Tooltip: 刻印の付与に必要
+		Tooltip: 刻印と交換できる
 		Gain: エンチャントされた武器に付与される効果: [c/{0}:{1}]
 		Target: 武器にのみ適用可能
 		RightClick: 刻印を持ち、エンチャントしたいアイテムを右クリックする
@@ -4602,8 +4862,8 @@ Items: {
 		DisplayName: 暴風の刻印
 		Tooltip:
 			'''
-			遠距離系武器
-			にのみ適用可能。
+			飛び道具を放つ
+			武器にのみ適用可能。
 
 			飛び道具の
 			速度が上昇。
@@ -4742,7 +5002,7 @@ Items: {
 	}
 
 	PrefixVoucher: {
-		DisplayName: "{0} モディファイア引換券"
+		DisplayName: "{0} 接頭辞引換券"
 		Tooltip:
 			'''
 			{0}
@@ -4773,7 +5033,7 @@ Items: {
 			切り替えをアンロック。
 			有効時に、クラフト・入手・鍛え直した
 			アイテムに対しまれに刻印効果を付与する。
-			さらに、アイテムにモディファイアと
+			さらに、アイテムに接頭辞と
 			刻印効果を同時に付与できるようになる。
 			'''
 	}
@@ -4896,12 +5156,12 @@ Items: {
 	}
 
 	CandlewickCoil: {
-		DisplayName: 蝋燭の投げ縄
-		Tooltip: 上り下り可能な蝋燭のロープを投擲する
+		DisplayName: 蝋燭芯の投げ縄
+		Tooltip: 上り下り可能な蝋燭芯のロープを投擲する
 	}
 
 	CandleBathtubItem: {
-		DisplayName: 蝋燭の浴場
+		DisplayName: 蝋燭の浴槽
 		Tooltip: ""
 	}
 
@@ -5005,6 +5265,300 @@ Items: {
 		DisplayName: ワックスの足場
 		Tooltip: ""
 	}
+
+	PinSpookyFarms: {
+		DisplayName: 腐臭農場のピン
+		Tooltip: ""
+	}
+
+	PinSpookyKrampus: {
+		DisplayName: クランプス工房のピン
+		Tooltip: ""
+	}
+
+	PinSpookyNose: {
+		DisplayName: モコの寺院のピン
+		Tooltip: ""
+	}
+
+	PinSpookyRotten: {
+		DisplayName: 腐敗した深海のピン
+		Tooltip: ""
+	}
+
+	StarGourdGreenCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（緑）
+		Tooltip: ""
+	}
+
+	StarGourdLimeCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（ライム）
+		Tooltip: ""
+	}
+
+	StarGourdOrangeLimeCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（ライムとオレンジ）
+		Tooltip: ""
+	}
+
+	StarGourdOrangeCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（オレンジ）
+		Tooltip: ""
+	}
+
+	StarGourdRedCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（赤）
+		Tooltip: ""
+	}
+
+	StarGourdRottenCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（カビている）
+		Tooltip: ""
+	}
+
+	StarGourdWhiteCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（白）
+		Tooltip: ""
+	}
+
+	StarGourdYellowCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（黄）
+		Tooltip: ""
+	}
+
+	StarGourdYellowGreenCarvedItem: {
+		DisplayName: キラキラ彫刻済みひょうたん（黄と緑）
+		Tooltip: ""
+	}
+
+	PumpkinPailOrange: {
+		DisplayName: カボチャのバケツ
+		Tooltip:
+			'''
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
+			「これぞ定番ホラー」
+			'''
+	}
+
+	PumpkinPailPurple: {
+		DisplayName: カボチャのバケツ
+		Tooltip:
+			'''
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
+			「堂々たる不気味さ」
+			'''
+	}
+
+	PumpkinPailWhite: {
+		DisplayName: カボチャのバケツ
+		Tooltip:
+			'''
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
+			「本当に不気味だ」
+			'''
+	}
+
+	TrellisOldBirchItem: {
+		DisplayName: オルドバーチの交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisOldBirchTwoItem: {
+		DisplayName: オルドバーチのトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisSpookyWoodItem: {
+		DisplayName: 朽ちた木の交差トレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	TrellisSpookyWoodTwoItem: {
+		DisplayName: 朽ちた木のトレリス
+		Tooltip: 草の種を使用してツタを育てる
+	}
+
+	DhampirQuestItem: {
+		DisplayName: しょんぼりコウモリ
+		Tooltip:
+			'''
+			インベントリにある間、塩湖に潜むとあるモンスターを引き寄せる
+			「なぜか放っておけない気持ちになる」
+			'''
+	}
+
+	UncommonSpookyPotsLowerCatacombsItem: {
+		DisplayName: 嘲笑う壺
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsUpperCatacombsItem: {
+		DisplayName: 古代の彫刻壺
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsKrampusItem: {
+		DisplayName: 最高のプレゼント
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsTarPitsItem: {
+		DisplayName: タールの陶器
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsRottenDepthsItem: {
+		DisplayName: 荷物を抱えた骸骨
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsFetidFarmsItem: {
+		DisplayName: 食料品
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsNoseTempleItem: {
+		DisplayName: 磁器の鼻
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsSpiderGrottoItem: {
+		DisplayName: 蜘蛛の巣まみれの鍋
+		Tooltip: ""
+	}
+
+	UncommonSpookyPotsSpookyForestItem: {
+		DisplayName: お菓子でいっぱいのバケツ
+		Tooltip: ""
+	}
+
+	FruitBrownie: {
+		DisplayName: フルーツブラウニー
+		Tooltip: 「食べられるけど、ブラウニーではない」
+	}
+
+	SandBrownie: {
+		DisplayName: 砂のブラウニー
+		Tooltip: 「まあ、ガラスじゃないだけマシか？」
+	}
+
+	MummyQuestItem: {
+		DisplayName: 古代の王冠
+		Tooltip:
+			'''
+			インベントリにある間、ジッグラトの頂上に生息するとあるモンスターを引き寄せる
+			「王冠にしては、やけに小さい」
+			'''
+	}
+
+	BallOfBandages: {
+		DisplayName: 包帯玉
+		Tooltip:
+			'''
+			リトル・アイが興味を示すかもしれない
+			「なんだか妙な手触りだ」
+			'''
+	}
+
+	DhampirCompletionItem: {
+		DisplayName: ダンピールの耳
+		Tooltip:
+			'''
+			リトル・アイはこれに興味を示すかもしれない
+			「痛っ！」
+			'''
+	}
+
+	MummyBandageScrap: {
+		DisplayName: ミイラの包帯の切れ端
+		Tooltip: なぜかリトル・アイは、これで作った包帯玉を欲しがっている…
+	}
+
+	LookerClub: {
+		DisplayName: ルッカー
+		Tooltip:
+			'''
+			チャージ攻撃を当てると、一時的な目玉のミニオンが出現する
+			このミニオンのダメージは近接と召喚の両方として扱われる
+			'''
+	}
+
+	PumpkinClub: {
+		DisplayName: スマック・オー・ランタン
+		Tooltip: チャージ攻撃を当てると、燃える破片が飛び散る
+	}
+
+	ShovelClub: {
+		DisplayName: 墓掘り人
+		Tooltip:
+			'''
+			チャージ攻撃で白骨化した遺骸を掘り起こす
+			カーソルで遺骸の飛ぶ方向を指定できる
+			'''
+	}
+
+	DhampirPaintingItem: {
+		DisplayName: 絵画『黄昏のダンピール』
+		Tooltip: "'S. Pookie'"
+	}
+
+	MummyPaintingItem: {
+		DisplayName: 絵画『きらめくウリたち』
+		Tooltip: "'S. Pookie'"
+	}
+
+	DhampirCape: {
+		DisplayName: 古びたマント
+		Tooltip:
+			'''
+			重力を軽減し、落下ダメージを無効化する
+			敵に狙われにくくなる
+			アクセサリーを非表示にすると、プレイヤーも姿を消す
+			「見た目も着心地も、どっこいどっこいだ」
+			'''
+	}
+
+	DhampirRelic: {
+		DisplayName: ダンピールのレリック
+		Tooltip: ""
+	}
+
+	MummyRelic: {
+		DisplayName: ムミアスのレリック
+		Tooltip: ""
+	}
+
+	GiantThornWallItem: {
+		DisplayName: 巨大なトゲの壁
+		Tooltip: ""
+	}
+
+	StonePillarItem: {
+		DisplayName: 石の柱
+		Tooltip: ""
+	}
+
+	HerosMemorialStatueMossyItem: {
+		DisplayName: 英雄の記念碑
+		Tooltip: 「その名は永遠に語り継がれる」
+	}
+
+	GloomyStatueItem: {
+		DisplayName: 陰鬱な石像
+		Tooltip: ""
+	}
+
+	BoxOfSpareLimbs: {
+		DisplayName: 予備の手足の箱
+		Tooltip:
+			'''
+			攻撃を受けると、予備の手足が出現して戦ってくれる
+			脚は近くの敵に飛びかかり、手は近くの敵をつかもうとする。それだけだ
+			'''
+	}
 }
 
 MusicDisplay: {
@@ -5031,7 +5585,7 @@ MusicDisplay: {
 	}
 
 	DeepOcean: {
-		DisplayName: Deep Ocean
+		DisplayName: Undersea Adventure (Deep Ocean Theme)
 		Author: by Salvati
 	}
 
@@ -5090,7 +5644,7 @@ NPCs: {
 	VanillaDialogue: {
 		Guide: {
 			WorldNPC: 世界を旅していると、他の探検者に出会うことがあるかもしれない。もし出会ったら、互いに助け合ってもいいかも！
-			Ecotone: 適切な気候下では、砂漠とジャングルの間には広大なサバンナが広がっている聞いてたから、訪れる事が出来てとても嬉しいよ！
+			Ecotone: 気候が合えば、砂漠とジャングルの間に広大なサバンナが広がることがあるんだ。ずっと見てみたいと思っていたんだよ！
 			Savanna: ここの動物の革を使えば、きっとかっこいい装備が作れるだろうね。
 			Kelp: 海藻は食べないでね。
 		}
@@ -5099,11 +5653,11 @@ NPCs: {
 
 		Stylist: {
 			Savanna: この気候で髪型を維持するの、すごく大変だわ....
-			Duststorm: もしもう一人髪の毛から砂を払えなんて言ってきたら、ホントに...
+			Duststorm: もう一人でも髪から砂を取ってくれなんて言ってきたら、ホントに...
 		}
 
 		TravellingMerchant: {
-			Cartographer1: 旅の途中、よく迷子の地図製作者に出会うよ。やれやれ、彼女にはいつもハラハラさせられるよ！
+			Cartographer1: 旅の途中、よく迷子の地図製作者に出会うよ。彼女には商売敵としても負けていられないよ！
 			Cartographer2: おっと、{0}だ！先月、彼女が私に道を教えてくれたけど、すぐに溝に落ちてしまうのさ。
 			Discoveries: 旅の途中で、たまに珍しいアイテムに遭遇することがある。気をつけて探せば、君も見つけられるかもしれないよ。
 		}
@@ -5144,7 +5698,7 @@ NPCs: {
 
 	Crinoid: {
 		DisplayName: ウミシダ
-		Entry: この不思議な生き物はヒトデと近しい生態のようだ。いつも海の底に沈むものを食べている。
+		Entry: この不思議な生き物はヒトデに近縁の種だ。いつも海の底に沈むものを食べている。
 	}
 
 	Pelican: {
@@ -5174,7 +5728,7 @@ NPCs: {
 
 	GoldGar: {
 		DisplayName: ゴールドガー
-		Entry: この貴重ななゴールドガーを美味しいキャビアにするために引き裂こうなんて真似をするのは、モンスターだけだ。そう、モンスターだけ...
+		Entry: この貴重なゴールドガーを、美味しいキャビア目当てで切り開こうなんて真似をするのは、モンスターだけだ。そう、モンスターだけ...
 	}
 
 	OceanSlime: {
@@ -5184,7 +5738,7 @@ NPCs: {
 
 	DiverZombie: {
 		DisplayName: ゾンビ
-		Entry: 酸素タンクに本物の酸素が必要だなんて、誰が言ったんだ？
+		Entry: 酸素タンクには本当に酸素を入れておかなきゃいけないなんて、誰が知ってた？
 	}
 
 	KelpZombie: {
@@ -5209,7 +5763,7 @@ NPCs: {
 
 	GoldKillifish: {
 		DisplayName: ゴールドキリフィッシュ
-		Entry: この輝く金色の鱗も、キリフィッシュの悩みを助けてはくれない。
+		Entry: この輝く金色の鱗も、キリフィッシュの悩みを解消してはくれない。
 	}
 
 	Termite: {
@@ -5228,7 +5782,7 @@ NPCs: {
 	}
 
 	Sparrow: {
-		Entry: 森林にいる鳥のいとこで、世界的に有名な鳥と同じく単純明解だ。彼らは飛び回り、シロアリをついばみ、サバンナの空気を楽しんでいる。
+		Entry: 森林にいる鳥のいとこで、世界的に有名な鳥と同じく単純明快だ。彼らは飛び回り、シロアリをついばみ、サバンナの空気を楽しんでいる。
 		DisplayName: スズメ
 	}
 
@@ -5292,7 +5846,7 @@ NPCs: {
 				EnchantedSword: {
 					0: ここだよここ！狭いトンネルの奥でさ、本当に石に刺さった剣見つけたんだ！伝説とかに出てくるやつ！...けど、ビビっちまって触れなかったんだよ。オレ、選ばれし者って感じじゃないもん！
 					1: ここ！一見地味だけど、地下にドーンってキラキラした剣があったんだ！持って帰ろうと思ったけど、ポケットがキノコと地図でパンパンで～...泣く泣く諦めた！
-					2: これだ！なんであそこあったのか知らないんだけど、石にぶっ刺さった剣を見つけたんだ！アーサー王？とかの話みたいに！でもオレ、そういう怪しい武器には手ぇ出したくないんだ。君が試してみなよ！
+					2: これだ！なんであそこにあったのか知らないんだけど、石にぶっ刺さった剣を見つけたんだ！アーサー王？とかの話みたいに！でもオレ、そういう怪しい武器には手ぇ出したくないんだ。君が試してみなよ！
 				}
 
 				Shimmer: {
@@ -5319,7 +5873,7 @@ NPCs: {
 						'''
 						よし、ピンを立ててっと...あのね、いつものように朝の散歩をして、リンゴを取るために木を全力で叩いてたんだ。
 						何本か殴ったあとでふと見上げたら、いつの間にか草原が広がってたんだよ。
-						...ま、しばらく眺めてかまた叩いてたけどね。
+						...ま、しばらく眺めてからまた叩いてたけどね。
 						'''
 					1:
 						'''
@@ -5374,7 +5928,7 @@ NPCs: {
 						'''
 						この地図のこのポイントだ！どう言えばいいか分からないけど...目の前に小さな光がふわふわ浮かんでることってない？
 						ちょ、笑わないでよ...？オレ、この場所で小さなピンクの蝶が飛んでるのを見たんだ。でも実体がないの！
-						　						捕まえようとしても、光でできてるみたいで...ああもう、説明できないよぉ！
+						捕まえようとしても、光でできてるみたいで...ああもう、説明できないよぉ！
 						'''
 					2: オレ、今までにもいくつか穴に足を取られたことはあるけど、紫に光る穴なんて見たのは初めてだったよ。あれはまるで魔法みたいな代物だね。関わらない方がいい...さっさと通り過ぎるべきだよね。
 				}
@@ -5401,6 +5955,30 @@ NPCs: {
 					0: ああ...そこだ。オレは地図屋だからな、地図を描くのが仕事でね。だから、崩れた赤レンガのデカくて怪しい壁を見たら、関わるべきかどうか判断するのは得意なんだ。中でブンブン何か鳴ってたけどさ...ま、あとは君に任せる。
 					1: あったあった！ 砂漠ってさ、覚えやすいんだよ。何もないからね。だから、いきなり地面から煙が出てたら...気になるだろう？で、覗いたら巨大な建物の表面が見えるわけ。印象に残るよな。あとは任せるよ。オレは溶岩とかごめんだ。
 					2: ここだよ。遺跡を見つけるのも仕事の一環さ。大丈夫、手順はちゃんとしてる。...けど、中に入った瞬間に地面から串刺しにされかけてさ。いやあ、オレって走るの得意だったんだなって再認識したよ。
+				}
+
+				Spooky_FetidFarms: {
+					0: オレ、ジャングルにはあんまり近づかないようにしてるんだよ。ジメジメしてて危ないし、蜂だの針だのがそこら中にいるだろ？たしか...この辺から腐ったような臭いがし始めたんだ。温室みたいな建物が見えたと思ったら、足元のグズグズした地面が崩れて落っこちちゃってさ。あれは最悪だったよ！
+					1: たしかここだったはず...ゴホン。オレ、あんまり胃が丈夫じゃないんだけどさ、蜂蜜はどんな病気にも効くって言うだろ？でもね、地下ジャングルを延々と歩いた挙句、温室の中で暴れ回る巨大な腐ったニンジンみたいなヤツとご対面してみなよ...いや、これ以上は話さないでおくよ。
+					2: この辺だったと思うけど、正直あんまり覚えてないんだよね。松明を掲げたら、妙な温室が照らし出されてさ。そこにはなんていうか...野菜の幽霊みたいなヤツがいて、ガラスを食べようとしてたんだ。全然うまくいってなかったけどね！...いや、もしかしたら食べられたのかも。確認する前に逃げちゃったからさ！
+				}
+
+				Spooky_NoseCult: {
+					0: えーっと、たしかここだったかな。いや～、あそこはひどい臭いだったんだ。辺り一面が...なんだろう、スライムみたいなので覆われててさ。...スライムだったらいいんだけど。そしたらデカいヤツがこっちを振り向いたんだよ。顔のほとんどが鼻でさ！いやもう、あんなの二度と見たくないよ！
+					1: オレの忠告を聞いてくれ！地底にはね、君の地図でいうと...この辺かな。絶対に行かなくていい場所があるんだ。カルト教団？もちろんいたよ！目玉だの肉だのがそこら中にベッタリ？その通り！おまけにデカい鼻のついた虫が飛び回って叫んでくるんだぜ？...いやいや、遠慮しとく！あんな場所、もうこりごりだよ！
+					2: 探検するたびに、世界から嫌がらせされてる気がするんだよね。ここなんてまさにそうさ。「お前はここに来るべきじゃない」って言われた気分だったよ。顔を上げたら、目の前には地獄みたいな景色。まあ、そこまでは慣れっこさ。地図に印をつけて、もう一度顔を上げたら...目玉。鼻。臓器に肉の塊。...オレは黙って引き返したよ。余計なことはしないに限るね！
+				}
+
+				Spooky_KrampusWorkshop: {
+					0: ここだよここ！オレ、雪原の奥深くまではあんまり探検しないんだ。移動するだけでも大変だからね。でも、あの...でっかくて...青い...迷路？みたいなのを見つけたときはさ、ニッコリ笑って、くるっと引き返して、そのまま歩き続けたよ！
+					1: 雪原の地下をウロウロしてたんだ。まあ、深ーい穴に落っこちたら、そうするしかないだろ？それでこの辺に来たとき、窓の向こうから巨大な獣人みたいなヤツが驚いた顔でこっちを見てたんだ！手を振ろうとしてた気もするけど...オレ、慌てて振り返ったせいで雪に顔から突っ込んじゃってさ！
+					2: 小さな焚き火に、美味しそうな料理、それから壁。オレはこの辺で横になって休んでたんだ。そしたらさ...信じられる？雪の向こうから機械が軋むような音とか、歯車やプラスチックが壁にぶつかるような音が聞こえてきたんだよ！もう、音が静かになるまでその場で凍りついてたね！...あ、本当に凍ったわけじゃないよ？例え話だからね！
+				}
+
+				Spooky_RottenDepths: {
+					0: ここだよ。えーっと...本当にいいの？君、ここに行きたいの？でっかい水たまりの奥から、巨大な目玉がこっちを見つめ返してくるような場所だぜ？オレなら考え直すね！あとは、何かの噴出口が勢いよく噴き出してたかな。まあ、少なくとも暖かくて気持ちいい場所かもしれないね？
+					1: ああ、海辺かぁ。正直に言うと、地図の印は適当につけちゃったんだ。合ってるといいけどね！オレ、いつも持ち歩いてる20枚の地図をようやく置いて、気持ちよく泳いでたんだよ。そしたら下に何がいたと思う？骸骨の魚だよ！ハハハ！...いや～、オレって思ってたより泳ぐの速かったんだね！
+					2: この前また海に行ったんだけどさ、潜水ヘルメットが置いてある建物を見つけたんだ。だからオレ、へへっ、これはいただき！って思ってさ。さっそく頭を水に突っ込んだら、足元の砂が崩れ落ちて大パニック！水の底からものすごい咆哮が響いたと思ったら、今度はゾッとするようなバキッて音がしたんだ！幸い、岸からほんの1～2メートルくらいの場所だったから助かったけどね！
 				}
 
 				FirstPin: このピンを君の「ピンコレクション」に追加したよ。マップの左下からいつでも見られるからね！
@@ -5439,13 +6017,13 @@ NPCs: {
 			Idle: {
 				0: 洞窟の奥底へと突き進む探検ほど心躍るものもない。もっとも、全身がクモの巣まみれになるまでじゃが。そうなっては、さすがに興も冷めてしまうのぉ。
 				1: かつての相棒が、松明の代わりにブリンクルートを使って探索しておってのぉ。「この方が安全なの！」じゃと。変な奴じゃったのぉ。あいつは今どうしとるのか...
-				2: ピンを使ったことあるかのぉ？とても便利なんじゃ。かつての相棒もいつも持ち歩いておった...最後に話したときは「浮島に登る方法を考えたよ！」って。全く、大変そうな仕事じゃろうて。
+				2: ピンを使ったことあるかのぉ？とても便利なんじゃ。かつての相棒もいつも持ち歩いておった...最後に話したときは「浮島に登る方法を調べてるんだ！」って。全く、大変そうな仕事じゃろうて。
 				3: 時々妖精に出会うとな、金やプラチナに導いてくれてのぉ。いつも興奮した様子を見せてるんじゃが、ホントはピッケルさえ持ってないんじゃ。だが彼女らが喜んでくれてると嬉しいのぉ。
 				4: 賢いやつはいつも予備の物資を持ってるもんじゃ。でも、さすがに背中が痛くてなぁ！持ちすぎたようじゃ...どうじゃ、ポケットで小銭がうずいているようなら、取引してやろうぞ、ヴァッハッハ！
 			}
 
 			Purchase: {
-				0: お、肩の荷が少し下りたのぉ！じゃが背中の痛みと引き換えに、リュックが重くなるならいつでも大歓迎じゃよ。
+				0: お、肩の荷が少し下りたのぉ！じゃが背中の痛みと引き換えに、懐が重くなるならいつでも大歓迎じゃよ。
 				1: ヴァッハッハ、ありがとう、相棒よ！皆がよく「あんた、そんな量の荷物どうやって入れてんだ」って聞いてくるんじゃよ。ああ、安心せい、ワシはお主にそんなこと詮索せんよ！
 				2: 見知らぬものよ、よくぞ出会った！良き取引ほど絆を強めるものもなかろうて。
 				3: 空いたスペースを有効活用するんじゃぞ！ああ、これは聞いた話じゃが、天使の像をバッグに詰めまくると、驚くようなことが起こるらしいぞ。
@@ -5455,7 +6033,7 @@ NPCs: {
 			FailPurchase: {
 				0: いやぁ、取引と呼ぶにゃあもう少し良い金額を見せてもらわんと。あぁ、食料がポケットでジャマしてるってなら別じゃがな、ヴァッハッハ！
 				1: すまんね、ワシこの荷物たちは手放せんよ。もう少し金銭を持ってきてもらわんと。いやいや、時間をかけてでも得る価値があるぞ！それに、ワシの荷物だって減らせるしのぉ。
-				2: ダメじゃね、相棒よ。今は取引するつもりはないんじゃ。なに、ただちょっと準備万端すぎただけじゃ。...スナックはちょっと足りんが
+				2: ダメじゃね、相棒よ。物々交換をしに来たわけではないんじゃ。なに、ただちょっと準備万端すぎただけじゃ。...スナックはちょっと足りんが
 			}
 		}
 
@@ -5473,7 +6051,7 @@ NPCs: {
 
 	HideZombieBig: {
 		DisplayName: ゾンビ
-		Entry: ハイエナ達は、毎夜蔓延るゾンビからいつも逃げ隠れなければならない。さもなければ彼らの皮は乗っ取られてしまうだろう。
+		Entry: ハイエナ達は、毎夜蔓延るゾンビからいつも逃げ隠れしなければならない。さもなければ彼らの皮は乗っ取られてしまうだろう。
 	}
 
 	HideZombieSmall: {
@@ -5553,7 +6131,7 @@ NPCs: {
 
 		Reports: {
 			CavesAndClubs_0: 『ホーカス・ポーカス』憂うな！ 洞窟に新たな宝の壺を満たした！
-			CavesAndClubs_1: 『アブラ・カダブラ』汝に新たな壺を授く。地底へ赴けば喜びが待っている！
+			CavesAndClubs_1: 『アブラ・カダブラ』汝に新たな壺を授く。地下へ赴けば喜びが待っている！
 			Spellbound_0: エンチャントを結びし新たな卓、ここに現れたり！汝の世界を探せば、その魔具に巡り会えよう！
 			Spellbound_1: 鏡は今や方々に現れたり！ 新たな冒険の芽吹きを、今か今かと待ちわびている！
 		}
@@ -5561,7 +6139,7 @@ NPCs: {
 
 	MossSlime: {
 		DisplayName: 苔スライム
-		Entry: 何らかの理由で苔に覆われた好奇心旺盛なスライム達。多くの種類が存在するが、なぜか光る苔のものだけの様...。無料の光源になるかも？
+		Entry: 何らかの理由で苔に覆われた不思議なスライム達。多くの種類が存在するが、なぜか光る苔のものだけの様...。無料の光源になるかも？
 	}
 
 	KryptonMossSlime.DisplayName: クリプトン苔スライム
@@ -5651,12 +6229,12 @@ NPCs: {
 		DisplayName: スカラベウス
 		Title: 冠せし偶像
 		Entry: 堂々たる姿と玉虫色の輝きを持つこの巨大な甲虫は、かつてジッグラトの住民に神として崇められていた。現在もなお、供物を待ち続けている。
-		SpawnInfo: 昼間に、ジッグラトにあるエンシェントアルターで宝石を使う
+		SpawnInfo: 昼間に、ジッグラトにある[i:SpiritReforged/ScarabAltarItem] エンシェントアルターで宝石を使う
 	}
 
 	TinyGrub: {
-		DisplayName: ちび幼虫
 		Entry: 可能性に満ちているが、それと同じくらい不気味でもある。
+		DisplayName: ちび幼虫
 	}
 
 	CactusZombie: {
@@ -5794,7 +6372,7 @@ NPCs: {
 	}
 
 	Enchanter: {
-		DisplayName: エンチャーター
+		DisplayName: エンチャンター
 		Entry: いつも疲れ気味だが心優しいエンチャンターは、さまざまな呪文や魔法を扱っている。武器や道具にもうひと味加えたいなら、声をかけてみよう！
 
 		Names: {
@@ -5880,13 +6458,46 @@ NPCs: {
 	}
 
 	SealedKnight.DisplayName: 封印の騎士
+
+	DhampirNPC: {
+		DisplayName: ダンピール
+		Entry: クールすぎてリトル・アイに追い出されたダンピールたち。世界を放浪した末、塩の効いた、とびきりクールな場所に落ち着いたようだ。
+	}
+
+	SpookyMummyNPC: {
+		DisplayName: ムミアス
+		Entry: どうにか歩けるくらいには蘇った巨大なミイラ。ただし、身体は今にもバラバラになりそうだ。尚、リトル・アイは自身に一切責任がないと主張している。
+		DropCondition: (ムミアスのほかの部位が残っていない場合のみ)
+	}
+
+	SpookyMummyHand: {
+		DisplayName: ムミアスの手
+		Entry: 走るのが速いだけじゃない。鉛筆を握らせれば、その見事な腕前に驚くだろう。芸術の才能も一級品だ。
+	}
+
+	SpookyMummyHead: {
+		DisplayName: ムミアスの頭
+		Entry: 一味の親玉にして、みんなを率いるリーダー。作戦を考える頭脳役でもある。もっとも、脳みそが残っていればの話だが。
+	}
+
+	SpookyMummyHeart: {
+		DisplayName: ムミアスの心臓
+		Entry: ひえっ！ ここから逃げなきゃ！
+	}
+
+	SpookyMummyLegs: {
+		DisplayName: ムミアスの脚
+		Entry: どんな集団にも、真面目で地に足のついた働き者がいるものだ。こいつの場合は、文字どおりだが。
+	}
+
+	PassiveGhost.DisplayName: おとなしいおばけ
 }
 
 Origins: {
 	Diver: {
 		DisplayName: ダイバー
-		Flavor: 凄惨な事故の後、ダイバーは新たな土地でまた、次なる海を見ようと懸命だ。
-		Description: 古代ダイバーの衣装セット、足ひれ、そしてマーフォークの宝を持って開始する。
+		Flavor: ひどい事故を経て、ダイバーは新たな土地で再出発し、未知の海を見ようと意気込んでいる。
+		Description: 錆びたダイバーの衣装セット、足ひれ、そしてマーフォークの宝を持って開始する。
 	}
 
 	Botanist: {
@@ -5898,37 +6509,37 @@ Origins: {
 	Recluse: {
 		DisplayName: 引きこもり
 		Flavor: 彼らにとって、誰にも邪魔されない地下深くに隠れる方が楽だ。そしてここでの釣りは最高だね！
-		Description: 地下の釣り小屋で釣り人の帽子、グラスファイバーの釣り竿、いくつかの餌、松明25個、そして木箱を持って開始する。
+		Description: 地下の釣り小屋で釣り人の帽子、グラスファイバーの釣り竿、いくつかの餌、そして木箱を持って開始する。
 	}
 
 	Hunter: {
 		DisplayName: ハンター
-		Flavor: 野生の獲物が彼らのゲームだ。サバンナに暮らす動物同様、ここでは狩りが全て！
-		Description: サバンナでハンティングライフル、弾丸、そしてサファリの衣装セットを持って開始する。
+		Flavor: 野生の獲物を狩るのが彼らの得意分野だ。サバンナに暮らす動物同様、ここでは狩りが全て！
+		Description: サバンナでハンティングライフル、弾丸、そして探検家の衣装セットを持って開始する。
 	}
 
 	Hiker: {
 		DisplayName: ハイカー
 		Flavor: 探求心が楽しさを増幅させ、ここには必要な物資だって揃ってる
-		Description: 最高の高さの丘の上で、松明60個、蛍光灯30個、ロープ150本を持って開始する。
+		Description: 一番高い丘の上で、松明60個、蛍光棒30個、ロープ150本を持って開始する。
 	}
 
 	Caveman: {
 		DisplayName: 原始人
 		Flavor: シンプルな暮らしこそ実りあるものだ。すべてを表す言葉はひとつ・・・『ウグ』
-		Description: 革のチュニックと木のこん棒を持ち、地下上層で開始する。
+		Description: 皮のチュニックと木のこん棒を持ち、地下上層で開始する。
 	}
 
 	Disentombed: {
 		DisplayName: 墓蘇者
 		Flavor: 三千年の眠りを経て...我が時代は再来する。私は戻るのだ。
-		Description: ジッグラトでミイラ装備を身に着けた状態で開始する。
+		Description: ジッグラトでミイラ装備を身に着け、砂漠のたいまつ3本を持った状態で開始する。
 	}
 
 	Worshipper: {
 		DisplayName: 崇拝者
 		Flavor: 太陽へ祈る運命に縛られながら、その姿を見ることはできない。それでもなお希望を捨てない。
-		Description: 地下のオアシスにて日輪の踊り子装備とウィンドシアの杖を持って開始する。
+		Description: 地下のオアシスにて日輪の踊り子装備とウィンドシアセプターを持って開始する。
 	}
 
 	Purifier: {
@@ -5940,7 +6551,7 @@ Origins: {
 	Enchanter: {
 		DisplayName: エンチャンター
 		Flavor: やった！もう少し華やかさが欲しい？なら、まずは火花から始めよう！
-		Description: フレアパウダー60個、クロマティックワックス3個、チャームキャスターの衣装セットを所持し、エンチャンターNPCと共に開始する。
+		Description: 閃光粉60個、クロマティックワックス3個、呪符使いの衣装セットを所持し、エンチャンターNPCと共に開始する。
 	}
 }
 
@@ -6048,6 +6659,14 @@ Projectiles: {
 	MariglowSeed.DisplayName: Mariglow Seed
 	RageHit.DisplayName: Rage Hit
 	MirrorReturnPortal.DisplayName: Mirror of Return Portal
+	Columbat.DisplayName: Columbat
+	Columbald.DisplayName: Columbald
+	EyeballMinion.DisplayName: Eyeball
+	PumpkinEmberProjectile.DisplayName: Ember
+	ShovelClubBoneProjectile.DisplayName: Bone
+	SpareLeg.DisplayName: Spare Leg
+	SpareHand.DisplayName: Spare Hand
+	SpareHeart.DisplayName: Spare Heart
 }
 
 SetBonuses: {
@@ -6095,10 +6714,11 @@ SetBonuses: {
 
 Tiles: {
 	Records: {
+		# Reforged pots
 		CoinPortal:
 			'''
 			常にコインポータルを
-			含んる。
+			含んでいる。
 
 			こいつはラッキー！
 			'''
@@ -6179,6 +6799,101 @@ Tiles: {
 			強力な魔力が
 			宿っている。
 			'''
+
+		# Spooky cross mod pots
+		SpookyForest: {
+			Name: お菓子でいっぱいのバケツ
+			Entry: 
+				'''
+				頼りない
+				お菓子入れの
+				最先端。
+				'''
+		}
+
+		SpiderGrotto: {
+			Name: 蜘蛛の巣まみれの鍋
+			Entry: 
+				'''
+				…いったい
+				誰がこんなに
+				料理したんだ？
+				'''
+		}
+
+		NoseTemple: {
+			Name: 磁器の鼻
+			Entry: 
+				'''
+				高慢な鼻に
+				ふさわしい、
+				最高級の磁器
+				'''
+		}
+
+		FetidFarms: {
+			Name: 食料品
+			Entry: 
+				'''
+				採れたて
+				新鮮な農作物！
+				'''
+		}
+
+		RottenDepths: {
+			Name: 荷物を抱えた骸骨
+			Entry: 
+				'''
+				どうやら、
+				この魚たちは
+				何かを
+				飲み込んで
+				いたようだ。
+				'''
+		}
+
+		TarPits: {
+			Name: タールの陶器
+			Entry: 
+				'''
+				華やかな装飾に、
+				少しベタつく
+				表面、そして
+				ちょっぴり
+				ひび割れ。
+				'''
+		}
+
+		Krampus: {
+			Name: 最高のプレゼント
+			Entry: 
+				'''
+				今まで見た中で
+				最高にイカした
+				プレゼント箱。
+				'''
+		}
+
+		UpperCatacombs: {
+			Name: 古代の彫刻壺
+			Entry: 
+				'''
+				見えにくい
+				けれど、
+				施された彫刻は
+				実に見事だ。
+				'''
+		}
+
+		LowerCatacombs: {
+			Name: 嘲笑う壺
+			Entry: 
+				'''
+				壺たちが
+				君をあざ笑って
+				いる。
+				'''
+		}
 	}
 
 	FablesGraves: {
@@ -6198,4 +6913,6 @@ Tiles: {
 	# Neither of the moss entries are used by Reforged, but rather used for Recipe Browser for another mod's, Everware's, functionality
 	OganessonMoss.MapEntry: Oganesson Moss
 	RadonMoss.MapEntry: Radon Moss
+	StarscareSapling.MapEntry: Starscare Sapling
+	StarscareSaplingGreen.MapEntry: Starscare Sapling Green
 }
