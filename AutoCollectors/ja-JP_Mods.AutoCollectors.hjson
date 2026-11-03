@@ -1,0 +1,250 @@
+Items: {
+	CollectorSpawner: {
+		DisplayName: コレクタースポナー
+		Tooltip: ""
+	}
+
+	MyChestTileSpawner: {
+		DisplayName: マイチェストタイルスポナー
+		Tooltip: 開発用アイテムのため、無視してください
+	}
+
+	DaybloomFairyTrunk: {
+		DisplayName: デイブルームの妖精の切り株
+		Tooltip: ""
+	}
+
+	WoodFairyTrunk: {
+		DisplayName: 木こりの妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/00BF09:木こり]の妖精が出現する！
+			[c/858585:木こりの妖精は近くの木を伐採してくれる]
+			'''
+	}
+
+	TransportFairyTrunk: {
+		DisplayName: 運搬妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/940000:運搬]の妖精が出現する！
+			[c/858585:運搬妖精はチェストから別のチェストへアイテムを運ぶ]
+			設置したブロックを妖精のレンチで右クリックすると、搬出元と搬入先のチェストを設定できる！
+			'''
+	}
+
+	GrowDebugWeapon: {
+		DisplayName: 成長デバッグ武器
+		Tooltip: ""
+	}
+
+	DaybloomPlanterFairyTrunk: {
+		DisplayName: デイブルーム栽培妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/F5CF27:デイブルーム栽培]の妖精が出現する！
+			[c/858585:栽培妖精はチェストから対応する種類の種を取り出し、プランターに植える]
+			'''
+	}
+
+	DaybloomCutterFairyTrunk: {
+		DisplayName: デイブルーム収穫妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/F5CF27:デイブルーム収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の開花したハーブを収穫する]
+			'''
+	}
+
+	GlowingMushroomTrunk: {
+		DisplayName: 光るキノコの切り株
+		Tooltip:
+			'''
+			使用すると、[c/759AFF:光るキノコ収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の植物を収穫する]
+			'''
+	}
+
+	GlowingMushroomTreeFairyTrunk: {
+		DisplayName: 光るキノコの木の妖精の切り株
+		Tooltip: ""
+	}
+
+	GlowingMushroomFairyTrunk: {
+		DisplayName: 光るキノコ収穫妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/759AFF:光るキノコ収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の植物を収穫する]
+			'''
+	}
+
+	FairyWrench: {
+		DisplayName: 妖精のレンチ
+		Tooltip: 特定の妖精の切り株の設定に使用可能
+	}
+
+	CollectorFairyTrunk: {
+		DisplayName: 回収妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/2FA600:回収]の妖精が出現する！
+			[c/858585:回収妖精は地面に落ちているアイテムを集め、最も近いチェストに運ぶ]
+			'''
+	}
+
+	WoodFairyPlanterTrunk: {
+		DisplayName: 植林妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/00BF09:植林]の妖精が出現する！
+			[c/858585:植林妖精は近くのチェストからどんぐりを取り出し、草ブロックに植える]
+			'''
+	}
+
+	MoonglowCutterFairyTrunk: {
+		DisplayName: ムーングロウ収穫妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/A6BEFF:ムーングロウ収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の開花したハーブを収穫する]
+			'''
+	}
+
+	MoonglowPlanterFairyTrunk: {
+		DisplayName: ムーングロウ栽培妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/A6BEFF:ムーングロウ栽培]の妖精が出現する！
+			[c/858585:栽培妖精はチェストから対応する種類の種を取り出し、プランターに植える]
+			'''
+	}
+
+	TestFairyTrunk: {
+		DisplayName: テスト用妖精の切り株
+		Tooltip: ""
+	}
+
+	AmethystGemcornFairyTrunk: {
+		DisplayName: アメジストのどんぐり植林妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/CF4AFF:アメジストのどんぐりを植える]妖精が出現する！
+			[c/858585:宝石の木の植林妖精は、石ブロックに宝石のどんぐりを植える]
+			'''
+	}
+
+	GemcornHarvesterFairyTrunk: {
+		DisplayName: 宝石の木の伐採妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/624AFF:宝石の木を伐採する]妖精が出現する！
+			[c/858585:宝石の木の伐採妖精は近くにある宝石の木を伐採する]
+			'''
+	}
+
+	RubyGemcornFairyTrunk: {
+		DisplayName: ルビーのどんぐり植林妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/FF4545:ルビーのどんぐりを植える]妖精が出現する！
+			[c/858585:宝石の木の植林妖精は石ブロックに宝石のどんぐりを植える]
+			'''
+	}
+
+	SapphireGemcornFairyTrunk: {
+		DisplayName: サファイアのどんぐり植林妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/0095FF:サファイアのどんぐりを植える]妖精が出現する！
+			[c/858585:宝石の木の植林妖精は石ブロックに宝石のどんぐりを植える]
+			'''
+	}
+
+	HandyWand: {
+		DisplayName: 便利な杖
+		Tooltip: ""
+	}
+
+	BlinkrootPlanterFairyTrunk: {
+		DisplayName: ブリンクルート栽培妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/FFBD26:ブリンクルート栽培]の妖精が出現する！
+			[c/858585:栽培妖精はチェストから対応する種類の種を取り出し、プランターに植える]
+			'''
+	}
+
+	BlinkrootCutterFairyTrunk: {
+		DisplayName: ブリンクルート収穫妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/FFBD26:ブリンクルート収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の開花したハーブを収穫する]
+			'''
+	}
+
+	WaterleafCutterFairyTrunk: {
+		DisplayName: ウォーターリーフ収穫妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/00CDED:ウォーターリーフ収穫]の妖精が出現する！
+			[c/858585:収穫妖精は対応する種類の開花したハーブを収穫する]
+			'''
+	}
+
+	WaterleafPlanterFairyTrunk: {
+		DisplayName: ウォーターリーフ栽培妖精の切り株
+		Tooltip:
+			'''
+			使用すると、[c/00CDED:ウォーターリーフ栽培]の妖精が出現する！
+			[c/858585:栽培妖精はチェストから対応する種類の種を取り出し、プランターに植える]
+			'''
+	}
+
+	CopperMiningTileItem: {
+		DisplayName: 銅の採掘場
+		Tooltip: ""
+	}
+
+	NoviceMinerFairyTrunk: {
+		DisplayName: 見習い採掘妖精の切り株
+		Tooltip: ""
+	}
+
+	IronMiningTileItem: {
+		DisplayName: 鉄の採掘場
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Collector.DisplayName: Collector
+	TreeCollector.DisplayName: Tree Collector
+	ItemCollector.DisplayName: Item Collector
+	HerbFairyClass.DisplayName: Herb Fairy Class
+	DayBloomFairy.DisplayName: Day Bloom Fairy
+	WoodFairy.DisplayName: Wood Fairy
+	TransportFairy.DisplayName: Transport Fairy
+	TestFairy.DisplayName: Test Fairy
+	BaseWoodFairy.DisplayName: Base Wood Fairy
+	TestFairy2.DisplayName: Test Fairy2
+	DaybloomCutterFairy.DisplayName: Daybloom Cutter Fairy
+	DaybloomPlanterFairy.DisplayName: Daybloom Planter Fairy
+	GlowingMushroomFairy.DisplayName: Glowing Mushroom Fairy
+	GlowingMushroomTreeFairy.DisplayName: Glowing Mushroom Tree Fairy
+	CollectorFairy.DisplayName: Collector Fairy
+	TreePlantFairy.DisplayName: Tree Plant Fairy
+	WoodFairyPlanter.DisplayName: Wood Fairy Planter
+	MoonglowCutterFairy.DisplayName: Moonglow Cutter Fairy
+	MoonglowPlanterFairy.DisplayName: Moonglow Planter Fairy
+	AmethystGemcornFairy.DisplayName: Amethyst Gemcorn Fairy
+	GemcornHarvesterFairy.DisplayName: Gemcorn Harvester Fairy
+	RubyGemcornFairy.DisplayName: Ruby Gemcorn Fairy
+	SapphireGemcornFairy.DisplayName: Sapphire Gemcorn Fairy
+	BlinkrootPlanterFairy.DisplayName: Blinkroot Planter Fairy
+	BlinkrootCutterFairy.DisplayName: Blinkroot Cutter Fairy
+	WaterleafCutterFairy.DisplayName: Waterleaf Cutter Fairy
+	WaterleafPlanterFairy.DisplayName: Waterleaf Planter Fairy
+	NoviceMinerFairy.DisplayName: Novice Miner Fairy
+}

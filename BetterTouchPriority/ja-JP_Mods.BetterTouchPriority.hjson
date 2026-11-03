@@ -1,0 +1,72 @@
+Configs: {
+BtpConfig: {
+		DisplayName: Better Touch Priority 設定
+
+		Enabled: {
+			Label: 最前面のUIへのマウス入力を優先
+			Tooltip:
+				'''
+				カーソル位置で上に描画されたUIに覆われているUserInterfaceベースのUIに対し、マウス入力を遮断します
+				描画順序が不明なものや、当たり判定が不確かなものは元の動作を維持します
+				'''
+		}
+
+		ArbitrateVanillaInventory: {
+			Label: バニラインベントリをUIレイヤーとして扱う
+			Tooltip: 
+				'''
+				インベントリは、その下に描画されたModウィンドウよりもクリックを優先して受け付けます
+				上に描画されたModウィンドウへのクリックは無視します
+				'''
+		}
+
+		PreclaimMouseInterfaceBelowReceiver: {
+			Label: インベントリより下のレイヤーでカーソルを使用中として扱う
+			Tooltip:
+				'''
+				バニラのインベントリがカーソルの操作権を持つ場合、その下のレイヤーが描画されている間、Player.mouseInterfaceを設定します
+				これにより、mouseInterfaceを尊重する即時モードのMod UIは、インベントリ越しの操作に反応しなくなります
+				'''
+		}
+
+		CompatibilityAdapters: {
+			Label: 即時モードUI用の互換性アダプター
+			Tooltip:
+				'''
+				描画中に独自にマウス入力を読み取るUIを制御：Movable Minimap、Calamityのタイル・召喚UI、
+				Wrath of the Godsの会話画面、ImproveGameのウィンドウ、ThoriumのWishing Glass、バニラのポップアップとバフアイコン
+				各アダプターは解析済みの特定バージョン向けに作成されており、それ以外のバージョンでは安全な機能のみ適用されます
+				/btp adaptersで一覧を確認できます
+				'''
+		}
+
+		DebugOverlay: {
+			Label: デバッグオーバーレイ
+			Tooltip: 
+				'''
+				カーソル下で選択されたUI、そのMod、レイヤー、当たり判定、選択理由を表示します
+				/btp debugでも操作可能
+				'''
+		}
+
+		LogDecisions: {
+			Label: 入力判定をログに記録
+			Tooltip: 
+				'''
+				各クリックの入力先、キャンセルされた入力の占有状態、テストウィンドウのイベントをclient.logに記録します
+				/btp logでも操作可能
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	ToggleDebugOverlay.DisplayName: 入力優先順位のデバッグオーバーレイを切り替える
+	ToggleTestWindows.DisplayName: 入力優先順位のテストウィンドウを切り替える
+	ToggleArbitration.DisplayName: Better Touch Priorityのオン/オフを切り替える
+}
+
+Messages: {
+	ArbitrationOn: Better Touch Priority：オン
+	ArbitrationOff: Better Touch Priority：オフ（再度切り替えるか、設定が変更されるまで）
+}

@@ -1,0 +1,105 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	PoisonDart: {
+		DisplayName: 毒のダーツ
+		Tooltip: 敵をわずかに追尾し、毒状態にする
+	}
+
+	SandDart: {
+		DisplayName: 砂のダーツ
+		Tooltip: 威力は低いが、非常に広範囲の爆発を起こす
+	}
+
+	BoboGrenade: {
+		DisplayName: ボボグレネード
+		Tooltip: 
+			'''
+			小さな爆発を起こす
+			間違っても君を吹き飛ばしたりはしない
+			'''
+	}
+
+	HellDart: {
+		DisplayName: 地獄のダーツ
+		Tooltip: 敵を貫通し、爆発させる
+	}
+
+	VenomDart: {
+		DisplayName: 猛毒のダーツ
+		Tooltip: 敵を追尾する3発の弾を放ち、毒状態にする
+	}
+
+	SnowDart: {
+		DisplayName: 雪のダーツ
+		Tooltip: 雪の結晶の軌跡を残す
+	}
+
+	NanoDart: {
+		DisplayName: ナノダーツ
+		Tooltip: 爆発して複数の弾丸を放つ
+	}
+
+	EctoDart: {
+		DisplayName: エクトダーツ
+		Tooltip: 低速で飛び、敵を貫通して生命力を死の力へと変える
+	}
+
+	RainbowDartGun: {
+		DisplayName: レインボーダーツガン
+		Tooltip: 鋼鉄のダーツをランダムな種類のダーツに変換する
+	}
+
+	SteelDart: {
+		DisplayName: 鋼鉄のダーツ
+		Tooltip: 「たぶん、ちょっとだけダメージが高い...?」
+	}
+
+	Blowspine: {
+		DisplayName: ブロウスパイン
+		Tooltip: 骨の破片を放つ
+	}
+
+	BoneDart: {
+		DisplayName: 骨のダーツ
+		Tooltip: 爆発して骨の破片を飛び散らせる
+	}
+
+	NimkiPlushie: {
+		DisplayName: クッキーのぬいぐるみ
+		Tooltip: ん？AntlersとJekに感謝を！
+	}
+
+	ChillyEgg: {
+		DisplayName: ひんやりした卵
+		Tooltip: 
+			'''
+			ペットのハミスを召喚する
+			NoitaとCrabmasterに感謝を！
+			'''
+	}
+}
+
+Projectiles: {
+	PoisonDartProjectile.DisplayName: 毒のダーツ
+	SandDartProjectile.DisplayName: 砂のダーツ
+	HellDartProjectile.DisplayName: 地獄のダーツ
+	BoboGrenadeProjectile.DisplayName: ボボグレネード
+	HellDartExplosionProjectile.DisplayName: 地獄のダーツの爆発
+	VenomDartProjectile.DisplayName: 猛毒のダーツ
+	SnowDartProjectile.DisplayName: 雪のダーツ
+	NanoDartProjectile.DisplayName: ナノダーツ
+	EctoDartProjectile.DisplayName: エクトダーツ
+	SteelDartProjectile.DisplayName: 鋼鉄のダーツ
+	BoneDartProjectile.DisplayName: 骨のダーツ
+	BoneShardProjectile.DisplayName: 骨の破片
+	NimkiProjectile.DisplayName: ニムキ
+	HamisProjectile.DisplayName: ハミス
+}
+
+Buffs: {
+	HamisBuff: {
+		DisplayName: ハミス
+		Description: ハミスは最高だ。みんなの愛するハミス！
+	}
+}
