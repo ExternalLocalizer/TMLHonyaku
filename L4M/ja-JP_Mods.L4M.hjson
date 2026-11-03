@@ -1,0 +1,71 @@
+Configs: {
+	OreSlimesConfig: {
+		DisplayName: スポーン設定
+
+		SpawnRateMultiplier: {
+			Label: スポーン頻度（倍率）
+			Tooltip: 
+				'''
+				スポーン頻度の倍率を変更します
+				0.5～2倍まで設定可能
+				デフォルト：1倍（スライムのみ）
+				'''
+		}
+	}
+}
+
+RoyalGelOreTooltip: 鉱石スライムは敵対したままですが、弱体化を受けます
+
+Projectiles: {
+	SilverReflectedShot.DisplayName: 反射弾
+	IronShard.DisplayName: 鉄弾
+	TitaniumShard.DisplayName: チタンの欠片
+	PalladiumFlame.DisplayName: パラジウムの火炎
+	PlatinumSpark.DisplayName: プラチナの閃光
+}
+
+Buffs: {
+	GoldFortune: {
+		DisplayName: 手のひらの黄金
+		Description: 
+			'''
+			高揚感を覚える
+			敵が落とすコインが増えるが、すべてを失わないように！
+			'''
+	}
+
+	LeadPoisoning: {
+		DisplayName: 鉛中毒
+		Description:
+			'''
+			ひどく気分が悪い...
+
+			視界が暗くなり、動きが不規則になり、回復ポーションが危険になる
+			'''
+	}
+
+	CopperWaterCurse: {
+		DisplayName: 通電状態
+		Description: 水に触れると感電する
+	}
+}
+
+CopperWaterDeath: "{0}は感電して地面に倒れた。"
+
+NPCs: {
+	SmallTungstenSlime.DisplayName: スモールタングステンスライム
+	CopperSlime.DisplayName: 銅スライム
+	TinSlime.DisplayName: 	錫スライム
+	LeadSlime.DisplayName: 鉛スライム
+	IronSlime.DisplayName: 鉄スライム
+	SilverSlime.DisplayName: シルバースライム
+	TungstenSlime.DisplayName: タングステンスライム
+	GoldSlime.DisplayName: ゴールドスライム
+	PlatinumSlime.DisplayName: プラチナスライム
+	CobaltSlime.DisplayName: コバルトスライム
+	PalladiumSlime.DisplayName: パラジウムスライム
+	MythrilSlime.DisplayName: ミスリルスライム
+	OrichalcumSlime.DisplayName: オリハルコンスライム
+	AdamantiteSlime.DisplayName: アダマンタイトスライム
+	TitaniumSlime.DisplayName: チタンスライム
+}

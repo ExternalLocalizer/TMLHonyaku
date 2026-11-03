@@ -1,0 +1,208 @@
+NPCs: {
+	EmpressOfNight.DisplayName: エンプレスオブナイト
+	UmbralLacewing.DisplayName: アンブラチョウ
+}
+
+Items: {
+UmbralLacewingItem: {
+		DisplayName: アンブラチョウ
+		Tooltip:
+			'''
+			星と星の狭間から生まれた不思議な蛾
+			夜に放つと[c/B48CFF:エンプレスオブナイト]を呼び出す
+			昼間に放つと、そのまま飛び去ってしまう
+			'''
+	}
+
+	NightEmpressWings: {
+		DisplayName: 夜の女帝の翼
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			下入力およびジャンプ入力でホバリングする
+			[c/B48CFF:夜の抱擁:] 夜間または地下では飛行時間が20%増加
+			[c/8CD2FF:流星の瞬き:] [c/FFFFFF:<KEY>]を押すと最大14タイルの距離を瞬間移動する
+			短時間無敵になり、敵を攻撃する流れ星を残す（再使用まで6秒）
+			[c/FF8CD7:彗星の航跡:] 高速飛行中、敵にダメージを与える星を後方に残す
+			[c/9A74E6:「その翼膜は、果てなき夜空へと続く窓」]
+			'''
+	}
+
+	MilkyWayDye: {
+		DisplayName: 天の川の染料
+		Tooltip:
+			'''
+			防具、アクセサリー、翼、見た目装備を生きた夜空で彩る
+			動きに合わせて星雲が漂い、星々が瞬き、流星が輝く
+			シマーに投入すると[c/E6E6F0:無彩色の染料]を入手できる
+			'''
+	}
+
+	EmpressOfNightBag: {
+		DisplayName: トレジャーバッグ（エンプレスオブナイト）
+		Tooltip: <right>で開く
+	}
+
+NightsGift: {
+		DisplayName: 夜の贈り物
+		Tooltip:
+			'''
+			召喚タグダメージ[c/8CD2FF:12]
+			攻撃を当てた敵にミニオンが集中攻撃する
+			鞭を当てるたび、敵の周囲に[c/B48CFF:2～4本のクリスタルダガー]を召喚する。
+			ダガーは一度引いてから敵を突き刺し、再びタグを付与する
+			「屍よ、地に伏せろ…」
+			'''
+	}
+
+	VantablackWhip: {
+		DisplayName: ベンタブラックの鞭
+		Tooltip:
+			'''
+			召喚タグダメージ[c/E6E6F0:9]
+			召喚タグクリティカル率[c/E6E6F0:12%]
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵に命中すると[c/E6E6F0:ベンタブラックの集中]を獲得し、召喚ダメージと鞭の攻撃速度が10%増加する
+			「光の99.96%を飲み込む。希望さえも。」
+			'''
+	}
+
+	AbyssalBlade: {
+		DisplayName: 深淵の刃
+		Tooltip:
+			'''
+			共に戦う深淵の刃を召喚する
+			刃は絶えず角度を変えながら、交互に標的を一直線に貫く
+			刃を手に持って[c/B48CFF:右クリック長押し]：刃がカーソルの周囲に星座を形成する
+			星座の形は毎回変化し、星々を結ぶ光の線が敵を切り裂く
+			[c/B48CFF:右クリックを離す]と、すべての刃が星座の中心に収束し、強力な一撃を放つ
+			星座を維持している間、毎秒30マナを消費する
+			「夜の剣は、汝のために戦う」
+			'''
+	}
+
+Dayglow: {
+		DisplayName: 昼の輝き
+		Tooltip:
+			'''
+			長押しで日食の弾を発射する。暁の光冠に包まれた黒い月が敵を追尾する
+			弾を発射するたびに星の光が集まり、プレイヤーの周囲に形成される[c/B48CFF:星座]の星が1つ増える
+			星座が完成すると光が駆け巡り、その力が解き放たれる。次に現れる星座は必ず異なる：
+			[c/96D2FF:レースウィング] 星の蛾  ·  [c/FFC8EB:王冠] 収束する槍  ·  [c/BEA0FF:鎌] 三日月の波＋月光のヴェール
+			[c/8CE6FF:射手] 星の矢の雨  ·  [c/FFD7AA:竪琴] ライフ回復＋星の歌  ·  [c/C8AAFF:彗星] 巨大な彗星の一撃
+			「夜の底にも、昼の光はひそかに息づいている」
+			'''
+	}
+
+	TimeBreaker: {
+		DisplayName: 時の破壊者
+		Tooltip:
+			'''
+			あらゆる矢を壊れた時計の3本の針に変える：
+			[c/78DCFF:時針] 即座に飛び出し、敵を追尾する
+			[c/AA78FF:分針] 背後から現れる残響。最大5体の敵を貫通する
+			[c/FFA0C8:秒針] 最後に現れる残響。暁炎で敵を炎上させる
+			「かつて伝説の射手が手にした弓」
+			'''
+	}
+
+	AchromaticDye: {
+		DisplayName: 無彩色の染料
+		Tooltip:
+			'''
+			装備からすべての色彩を奪い、墨と月光が波のように揺らめく
+			その狭間には、彼女の姉妹がまとう虹の一筋が刃のように走る
+			シマーに投入すると[c/B48CFF:天の川の染料]を入手できる
+			'''
+	}
+
+	EmpressOfNightRelic: {
+		DisplayName: エンプレスオブナイトのレリック
+		Tooltip: ""
+	}
+}
+
+
+Buffs: {
+	StarfallRecharge: {
+		DisplayName: 星降りの再充填
+		Description: 翼が次の瞬間移動に向けて星の光を蓄えている
+	}
+
+	AbyssalBladeBuff: {
+		DisplayName: 深淵の刃
+		Description: 夜の剣があなたのために戦ってくれる
+	}
+
+	Starsong: {
+		DisplayName: 星の歌
+		Description: 竪琴の旋律が血潮に響き、ライフ自然回復速度が上昇し、受けるダメージが6%減少、与えるダメージが6%増加する
+	}
+
+	MoonlitVeil: {
+		DisplayName: 月光のヴェール
+		Description: 魔法ダメージが15%、防御力が8増加し、マナ自然回復速度が上昇する
+	}
+
+	VantablackFocus: {
+		DisplayName: ベンタブラックの集中
+		Description: 召喚ダメージと鞭の攻撃速度が10%増加する。完全な暗闇の中、召喚した仲間には標的しか見えない
+	}
+
+	NightsGiftTag: {
+		DisplayName: 夜の贈り物
+		Description: ""
+	}
+
+	VantablackTag: {
+		DisplayName: ベンタブラック
+		Description: ""
+	}
+}
+
+Keybinds.StarfallBlink.DisplayName: 流星の瞬き（夜の女帝の翼）
+
+Projectiles: {
+	NightWakeStar.DisplayName: 航跡の星
+	MoonPetal.DisplayName: 月の花びら
+	StarNeedle.DisplayName: 星光の針
+	NightLance.DisplayName: 夜の槍
+	StarRay.DisplayName: 星の光線
+	NebulaBolt.DisplayName: 星雲の矢
+	StarfallPillar.DisplayName: 星降りの柱
+	VoidOrb.DisplayName: 虚空のオーブ
+	NightBlackHole.DisplayName: 崩壊する星
+	NightRitual.DisplayName: 夜の儀式
+	NightsGiftWhip.DisplayName: 夜の贈り物
+	VantablackWhipProj.DisplayName: ベンタブラックの鞭
+	NightGiftDagger.DisplayName: 夜の贈り物の短剣
+	VantaRift.DisplayName: ベンタブラックの裂け目
+	DayglowHoldout.DisplayName: 昼の輝き
+	AbyssalBladeMinion.DisplayName: 深淵の刃
+	DayglowBolt.DisplayName: 昼の輝き
+	TimeArrow.DisplayName: 時計の針
+	TimeDial.DisplayName: 時計の文字盤
+	MoonSickle.DisplayName: 月の鎌
+}
+
+
+Bestiary: {
+	EmpressOfNight: エンプレスオブライトと血を分かつ姉妹。一方が万物を照らす眩い真昼ならば、彼女は星々の狭間に横たわる深遠なる夜空。翼を授かった天の川そのものとして、千の瞳から地上のすべてを見つめている。
+	UmbralLacewing: 夜の聖域に舞い、星明かりを糧とする希少なチョウ。この小さな命を傷つけた者は、遥か天上に潜む何者かの眼差しを受けるという。
+}
+
+Chat: {
+	Phase2: 星々が巡り始める…
+	Phase3: 夜はその瞳を開いた。
+	Defeated: 夜の女帝は天の川へと溶けていく…
+}
+
+DeathReasons.Arena: "{0}は星々の狭間に潜む虚無に呑み込まれた。"
+Title.Subtitle: ～ エンプレスオブライトの姉妹 ～
+
+BossChecklist: {
+	SpawnInfo: 夜の帳が下りた頃、アンブラチョウを倒すか空へ放つことで姿を現す。エンプレスオブライトを討伐した後、夜の地表の聖域にアンブラチョウが出現するようになる。また、水晶玉でプリズムクサカゲロウ、闇のソウル、流れ星を組み合わせて作ることもできる。
+	Despawn: 夜の女帝は星々の彼方、深き虚空へと還っていく…
+}
+
+MenuTheme: Empress of Night

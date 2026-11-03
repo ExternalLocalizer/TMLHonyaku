@@ -1,0 +1,378 @@
+# NPC Log - English strings.
+# Every entry below is optional: delete one and the mod falls back to its built-in English,
+# so a missing or misspelled key can never break the interface.
+# To translate, copy this file to another language code, e.g. de-DE_Mods.NPCLog.hjson
+
+Keybinds.ToggleNPCLog.DisplayName: NPCログを開く
+
+Configs: {
+	NPCLogConfig: {
+		DisplayName: NPCログ
+
+		ShowButton: {
+			Label: インベントリにボタンを表示
+			Tooltip: 図鑑やエモートボタンの隣にNPCログのボタンを表示します
+		}
+
+		ShowButtonOutsideInventory: {
+			Label: ボタンを常に画面上に表示
+			Tooltip: オフにすると、バニラのボタンと同様にインベントリを開いている間だけ表示されます
+		}
+
+		ResetButtonPosition: {
+			Label: ボタンの位置を初期化
+			Tooltip: ボタンを操作できない場所に移動してしまった場合は、これをチェックしてください
+		}
+	}
+}
+
+Absence: {
+	# --- Absence
+	Locked: まだ入居できない。上記の条件を達成しよう
+	Missing: 以前ワールドに住んでいたが、現在はいない。死亡時は、空き家に再入居する
+	Ready: 条件達成済み。空き家を用意すれば、今後入居してくる
+	Wanderer: このNPCは家に入居せず、自発的に出現するため、入居可能状態にはならない
+}
+
+Affection: {
+	# --- Affection
+	Dislike: 嫌い
+	Hate: 大嫌い
+	Like: 好き
+	Love: 大好き
+}
+
+Biome: {
+	# --- Biome
+	Cavern: 洞窟
+	Corruption: 不浄
+	Crimson: 真紅
+	Desert: 砂漠
+	Dungeon: ダンジョン
+	Forest: 森林
+	Granite: 御影石の洞窟
+	Graveyard: 墓地
+	Hallow: 聖域
+	Jungle: ジャングル
+	Marble: 大理石の洞窟
+	Meteorite: 隕石
+	Mushroom: キノコバイオーム
+	Ocean: 海
+	Snow: 雪原
+	Underworld: 地下世界
+}
+
+Button: {
+	# --- Button
+	Close: クリックして閉じる
+	Drag: 右クリックでドラッグしてボタンを移動
+	Ping: ワールド内で位置を表示
+	ReadyMany: "{0}人のNPCが入居可能"
+	ReadyOne: 1人のNPCが入居可能
+	ShowOnMap: マップに表示
+}
+
+Card: {
+	# --- Card
+	Location: 現在地
+	Mood: 幸福度
+	Shop: ショップ
+	Unlock: 解放条件
+}
+
+Empty: {
+	# --- Empty
+	Clear: フィルターを解除
+	Detail: 左側のNPCを選択すると、解放条件や現在地、販売アイテムを確認できる
+	Filtered: 条件に一致するNPCがいない
+	None: 登録されているタウンNPCがいない
+}
+
+Layer: {
+	# --- Layer
+	Caverns: 洞窟
+	Space: 宇宙
+	Surface: 地表
+	Underground: 地下
+	Underworld: 地下世界
+}
+
+Location: {
+	# --- Location
+	Crowd: "120ブロック以内に{0}人のタウンNPC"
+	Homeless: 家なし - 有効な住居が割り当てられていない
+	LivesIn: 居住バイオーム: {0}
+	Neighbours: 近くに住むNPC: {0}
+	Offset: "プレイヤーから{0}"
+}
+
+Mood: {
+	# --- Mood
+	Discount: "価格: {0}%（割引）"
+	Markup: "価格: {0}%（割増）"
+	Standard: 通常価格
+}
+
+NoShop: {
+	# --- NoShop
+	None: このNPCはショップを開いていない
+	Pet: 彼らは何も販売しない。仲間として暮らし、幸福度ボーナスをもたらす
+	Travelling: 訪問中にしか商品を販売しない。ワールドに現れたときに確認しよう
+}
+
+Pylon: {
+	# --- Pylon
+	NeedsNeighbour: パイロン: 幸福度は十分だが、近くに別のNPCが住んでいる必要がある
+	Ready: パイロン: 販売条件を満たしており、この場所に設置できる
+	Unhappy: パイロン: 幸福度が足りないため、まだ販売されない
+}
+
+Role: {
+	# --- Role
+	Pets: ペット
+	Services: サービス
+	Shops: ショップ
+}
+
+RoleTag: {
+	# --- RoleTag
+	Pet: ペット
+	Services: サービス
+	Shop: ショップ
+	Slime: スライム
+	Wanderer: 家に住まない
+}
+
+Row: {
+	# --- Row
+	Homeless: 家なし
+	Pet: タウンペット
+	Sells: 販売: {0}
+	Services: サービス
+	Slime: タウンスライム
+	Vendor: 商人
+}
+
+# --- Search
+Search.Placeholder: NPC名や販売アイテムを検索
+
+Shop: {
+	# --- Shop
+	MoodPrices: 価格にNPCの幸福度が反映されている（{0}%）
+	Needs: 必要条件: {0}
+}
+
+Sort: {
+	# --- Sort
+	Alphabetical: 名前順（A～Z）
+	Prefix: 並び替え: {0}
+	Progression: 進行度
+	Status: 状態
+}
+
+Stage: {
+	# --- Stage
+	Companions: ペットとスライム
+	Hardmode: ハードモード
+	LateHardmode: ハードモード後半
+	Modded: Mod追加
+	PreHardmode: ハードモード前
+	Start: ゲーム開始時
+}
+
+Status: {
+	# --- Status
+	Here: ワールド内に存在
+	Locked: 未解放
+	Missing: 不在
+	Ready: 入居可能
+}
+
+Tag: {
+	# --- Tag
+	Away: 不在
+	Here: 滞在中
+	Locked: 未解放
+	Ready: 入居可能
+}
+
+Tip: {
+	# --- Tip
+	Away: 以前このワールドに住んでいたか、自発的に出現するNPC
+	ClearSearch: 検索内容を消去
+	Close: 閉じる
+	Here: 現在このワールド内で生存している
+	Locked: まだ解放条件を満たしていない
+	Pets: タウンペットとタウンスライム
+	Ready: 解放済みで、空き家への入居を待っている
+	Resize: ドラッグしてサイズを変更
+	Search: NPC名、Mod名、販売アイテムで検索
+	Services: 回復、リフォージ、クエストなど
+	Shops: アイテムを販売するNPC
+	Sort: 一覧の並び順を変更
+	TitleBar: ドラッグして移動、ダブルクリックでウィンドウの位置を初期化
+}
+
+Unlock: {
+	# --- Unlock
+	Unknown: このModは解放条件を公開していない。上記の状態は、Mod独自の出現判定に基づいている
+
+	Guide: {
+		# --- Unlock steps, notes and hints, one set per town NPC.
+		# Modded NPCs follow Unlock.<ModName>_<NpcName>.StepN, e.g. Unlock.CalamityMod_SeaKing.Step1
+		Step1: ワールド作成時から入居可能
+		Note: ガイドのブードゥー人形を溶岩に落とすと、ウォールオブフレッシュが召喚される
+	}
+
+	Merchant.Step1: いずれかのプレイヤーが50シルバー以上所持している
+
+	Nurse: {
+		Step1: いずれかのプレイヤーがライフクリスタルを使用している
+		Step2: 商人がワールドに住んでいる
+	}
+
+	Demolitionist: {
+		Step1: いずれかのプレイヤーが爆発物（爆弾、手榴弾、ダイナマイトなど）を所持している
+		Step2: 商人がワールドに住んでいる
+	}
+
+	ArmsDealer.Step1: いずれかのプレイヤーが弾丸、または弾丸を使用する銃を所持している
+
+	DyeTrader: {
+		Step1: いずれかのプレイヤーが染料、染料の素材となる植物、または奇妙な植物を所持している
+		Step2: ワールドに4人以上のタウンNPCが住んでいる
+	}
+
+	Angler: {
+		Step1: 海岸で眠っている釣り人を見つけて話しかける
+		Note: ワールドの両端のいずれかの地表に出現する。ショップは開かず、釣りクエストを依頼してくる
+	}
+
+	Golfer.Step1: 地下砂漠に囚われているゴルファーを解放する
+	Stylist.Step1: クモの巣に囚われているスタイリストを解放する
+	Painter.Step1: ワールドに8人以上のタウンNPCが住んでいる
+
+	BestiaryGirl: {
+		Step1: 図鑑の登録率を10%以上にする
+		Note: タウンペットを解放するためのネコライセンス、イヌライセンス、ウサギライセンスを販売する
+	}
+
+	OldMan: {
+		Step1: スケルトロンがまだ倒されていない
+		Step2: 毎晩ダンジョンの入口で待っている
+		Note: 住居を必要としない。夜間に話しかけるとスケルトロンとの戦闘が始まる
+		LockedHint: スケルトロンは倒されているため、老人はもう現れない。代わりに仕立屋が入居する
+	}
+
+	TravellingMerchant: {
+		Step1: ワールドに2人以上のタウンNPCが住んでいる
+		Step2: 毎日ランダムな確率で訪問し、夜になると立ち去る
+		Note: 訪問するたびに販売アイテムが再抽選される。滞在中はNPCログで商品を確認できる
+	}
+
+	SkeletonMerchant: {
+		Step1: 洞窟層に自然出現する
+		Note: 家には入居しない。販売アイテムの一部は月齢や時間帯によって変化する
+	}
+
+	Dryad.Step1: クトゥルフの目、イーターオブワールド／クトゥルフの脳、またはスケルトロンを倒す
+	Clothier.Step1: スケルトロンを倒す
+
+	GoblinTinkerer: {
+		Step1: ゴブリン軍団を撃退する
+		Step2: 洞窟層に囚われているゴブリンを解放する
+	}
+
+	WitchDoctor.Step1: 女王蜂を倒す
+
+	Mechanic: {
+		Step1: スケルトロンを倒す
+		Step2: ダンジョン内に囚われているメカニックを解放する
+	}
+
+	DD2Bartender: {
+		Step1: イーターオブワールドまたはクトゥルフの脳を倒す
+		Step2: 地下に囚われている居酒屋を解放する
+	}
+
+	PartyGirl: {
+		Step1: ワールドに14人以上のタウンNPCが住んでいる
+		Step2: 出現判定時に1/40の確率で出現する
+		Note: 一度でも入居すれば、それ以降は確率判定が不要になる
+	}
+
+	Wizard: {
+		Step1: ハードモードに突入する
+		Step2: 洞窟層に囚われている魔法使いを解放する
+	}
+
+	Truffle: {
+		Step1: ハードモードに突入する
+		Step2: 地表のキノコバイオームに家を建てる
+		Note: 住居の周囲に約100ブロック分のキノコバイオームが必要で、地表より上に建てなければならない
+	}
+
+	Steampunker.Step1: いずれかのメカニカルボスを倒す
+	Pirate.Step1: 海賊の襲撃を撃退する
+
+	TaxCollector: {
+		Step1: ハードモードに突入する
+		Step2: 地下世界にいる苛まれた霊に浄化の粉を使用する
+		Note: ほかのタウンNPCから税金を徴収する。話しかけると貯まったお金を受け取れる
+	}
+
+	Cyborg.Step1: プランテラを倒す
+
+	Princess: {
+		Step1: ほかのすべてのタウンNPCがワールドに住んでいる
+		Note: タウンペットやタウンスライムは入居条件の人数に含まれない
+	}
+
+	SantaClaus: {
+		Step1: フロスト軍団を撃退する
+		Step2: クリスマス期間中である（12月15日～31日）
+	}
+
+	TownCat.Step1: 動物学者からネコライセンスを購入する
+	TownDog.Step1: 動物学者からイヌライセンスを購入する
+	TownBunny.Step1: 動物学者からウサギライセンスを購入する
+
+	TownSlimeBlue: {
+		Step1: キングスライムを倒す
+		Note: 初めてキングスライムを倒したときに、その体内から飛び出してくる
+	}
+
+	TownSlimeGreen: {
+		Step1: 町でNPCたちによる誕生日パーティーが開催されている
+		Note: タウンNPCが自発的に開催したパーティーのみ有効。パーティーセンターで強制的に開催したものは対象外
+	}
+
+	TownSlimeOld: {
+		Step1: スケルトロンを倒す
+		Step2: 洞窟層にまれに出現する囚われた古いスライムを解放する
+	}
+
+	TownSlimePurple: {
+		Step1: 地下のスライムに混じってまれに出現する囚われたスライムを倒す
+		Note: 繭を破壊すると解放される。通常のスライムの出現時に約1/25の確率で置き換わる
+	}
+
+	TownSlimeRainbow.Step1: 煌めくスライムの風船をシマーに投げ込む
+	TownSlimeRed.Step1: 釣りでまれに釣り上げる
+
+	TownSlimeYellow: {
+		Step1: カエルが出現する場所にまれに現れる囚われたスライムを攻撃する
+		Note: 飛び道具などで攻撃すると解放される。カエルの代わりに出現するため、雨の日やジャングルで探そう
+	}
+
+	TownSlimeCopper: {
+		Step1: タウンスライムに銅の兜または銅の短剣を飲み込ませる
+		Note: いずれかのタウンスライムの近くに銅の装備を落とし、拾われるまで待とう
+	}
+}
+
+Window: {
+	# --- Window
+	Summary: "ワールド内のNPC: {0}/{1}"
+	Title: NPCログ
+}

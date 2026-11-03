@@ -1,7 +1,3 @@
-# synctam様より
-# ライセンス: CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）
-# 一部アイテム名や、未翻訳部分を改変済み
-
 WorldGeneration: {
 	OceanSand: 海の砂を生成中
 	WavyCaves: うねる洞窟を生成
@@ -2485,6 +2481,7 @@ CommonItemTooltip: {
 	ReducesDamageTakenByPercent: Reduces damage taken by {0}%
 	PercentChanceToSaveAmmo: "{0}% chance to save ammo"
 	PercentReducedManaCost: "{0}% reduced mana cost"
+	ReducesHealingPotionCooldownByPercent: Reduces the cooldown of healing potions by {0}%
 	PercentIncreasedMiningSpeed: "{0}% increased mining speed"
 	PercentIncreasedMovementSpeed: "{0}% increased movement speed"
 	ArmorPenetration: "{0} armor penetration"
@@ -20521,8 +20518,8 @@ tModLoader: {
 	WelcomeMessagePreview:
 		'''
 		警告：プレイヤーは注意してください！
-		これはプレビュービルド（ベータ版）であり、変更点があるため、MODは正常に動作しない可能性があります。
-		[c/ff1919:このプレビュービルドのためにMODを修正するようMod製作者に依頼しないでください。]
+		これは毎月更新されるプレビュービルドであり、互換性を損なう変更が含まれるため、Modが正常に動作しなくなります。
+		[c/ff1919:このプレビュービルドのためにModを修正するようMod製作者に依頼しないでください。]
 		このプレビューブランチは、Mod製作者が自分のスケジュールでModをアップデートする機会を提供するものです。
 
 		リリースサイクルについての詳細は「詳細情報」をクリックしてください。
@@ -20539,7 +20536,7 @@ tModLoader: {
 		'''
 	WhatsNewMessage:
 		'''
-		以下は、前回のプレビューを起動した時からの基本的な変更点です。これらの変更に関連するMODは作者によって再構築される必要があるかもしれません。詳しくはGitHubをご覧ください：
+		前回プレビュー版を起動してからの主な変更点は以下のとおりです。これらの変更の影響を受けるModは、作者による再ビルドが必要になる場合があります。詳しくはGitHubをご覧ください：
 
 		'''
 	ShowNewUpdatedModsInfoMessage:
@@ -20560,7 +20557,7 @@ tModLoader: {
 	ShowRemovedModsInfoMessageUpdatedMods:
 		'''
 
-		前回のプレイ以降に削除されたModがあります。誤って削除した場合は、「依存関係をダウンロード」をクリックすると再ダウンロードできます
+		前回のプレイ以降に削除されたModがあります。誤って削除した場合は、「Modを再ダウンロード」をクリックすると再ダウンロードの対象を選べます
 		'''
 	DependenciesNeededForOtherMods:
 		'''
@@ -20605,6 +20602,7 @@ tModLoader: {
 	SwitchVersionConfirm: 本当にバージョンを切り替えますか？
 	SwitchVersionDefaultBranchName: デフォルトの公開バージョン
 	SwitchVersionDefaultBranchDescription: ほとんどのプレイヤーが利用している標準の安定版
+	SwitchVersionObsoleteBranch: このブランチは廃止されました。
 	LatestNews: 最新情報: {0}
 	LatestNewsOffline: オフライン
 	LatestNewsChecking: 確認中...
@@ -20640,8 +20638,8 @@ tModLoader: {
 	DownloadMissingMods: 欠けているModをダウンロードする
 	ModsDisable: クリックして無効化
 	ModsEnable: クリックして有効化
-	ModsDisableAndDependents: "{0} と {1}個の{^1:依存関係;依存関係}を無効化するにはクリック"
-	ModsEnableAndDependencies: "{0} と {1}個の{^1:依存関係;依存関係}を有効化するにはクリック"
+	ModsDisableAndDependents: "{0}と、それに依存する{1}個のModを無効化するにはクリック"
+	ModsEnableAndDependencies: "{0}と、必要な{1}個の前提Modを有効化するにはクリック"
 	ModConfiguration: Modの設定
 	ModsOpenConfig: クリックして設定を開く
 	ModOldWarning: 古いModです。有効化は自己責任で。
@@ -20676,12 +20674,12 @@ tModLoader: {
 	ModWorkshopIconResizeWarning: "{0} から {1} にリサイズされます。"
 	ModUsesDefaultIcon: Modのカスタムアイコンを作成してください。{0} を修正することで作成できます。
 	OutdatedModCantPublishError: 古いバージョンのtModLoaderで作成したModは公開できません。
-	WrongVersionCantPublishError: tModLoaderの異なるバージョンで作成したModは公開できません。
+	WrongVersionCantPublishError: 現在実行中のtModLoaderと異なるバージョンでビルドしたModは公開できません。
 	ModReloadRequired: 再読み込みが必要です。
 	ModReloadRequiredMemberTooltip: これを変更すると再読み込みが必要になります。
 	ModReloadForced: 強制的に再読み込み
 	ModIsServerSide: これはサーバー専用のModです
-	ModFromWorkshop: SteamWrokshopからのMod
+	ModFromWorkshop: Steam WorkshopからのMod
 	ModFromModpack: ModパックからのMod
 	ModFromLocal: ローカルフォルダからのMod
 	ModsByline: 作者: {0}
@@ -20696,9 +20694,9 @@ tModLoader: {
 	ModsShowAllMods: すべてのModを表示
 	ModsShowEnabledMods: 有効なModのみ表示
 	ModsShowDisabledMods: 無効なModのみ表示
-	ModsXModsFilteredByEnabled: "{0} {^0:mod;mods}は有効なフィルターで絞り込まれています。"
-	ModsXModsFilteredByModSide: "{0} {^0:mod;mods}は有効なModサイドフィルターで絞り込まれています。"
-	ModsXModsFilteredBySearch: "{0} {^0:mod;mods}は有効な検索フィルターで絞り込まれています。"
+	ModsXModsFilteredByEnabled: "{0}個のModが有効・無効のフィルターによって非表示になっています。"
+	ModsXModsFilteredByModSide: "{0}個のModが動作環境フィルターによって非表示になっています。"
+	ModsXModsFilteredBySearch: "{0}個のModが検索フィルターによって非表示になっています。"
 	ModsXItems: "{0} {^0:アイテム;アイテム}"
 	ModsXNPCs: "{0} {^0:NPC;NPC}"
 	ModsXTiles: "{0} {^0:ブロック;ブロック}"
@@ -20769,7 +20767,7 @@ tModLoader: {
 	AchievementsOnlyShowModded: Mod実績のみ表示
 	WorkshopDisclaimer: このアイテムを提出すると、tModLoaderの利用規約に同意したことになります。
 	NonModOwnerPublishWarning: 「{0}」という名前のModは他のMod開発者によってすでにワークショップに公開されています。このModの開発者でない場合、公開が失敗します。これはあなたのModの場合、正しいSteamアカウントでログインしているか確認してください。すべてのModは一意の内部名を持っている必要があります。
-	SteamPublishingLimit: Error: エラー: Steam tModLoaderの所有者のみがゲーム内からワークショップに公開できます。
+	SteamPublishingLimit: エラー: Steam tModLoaderの所有者のみがゲーム内からワークショップに公開できます。
 	ModWasBuiltForDebugging: エラー：Workshopにアップロードできるのは「Release」ビルドのModのみです。ゲーム内の「ビルド＋再読み込み」を使えば、すぐにReleaseビルドを作成できます。
 	NoWorkshopAccess:
 		'''
@@ -20815,7 +20813,7 @@ tModLoader: {
 	PublishUpdateButton: 既存のアイテムを更新
 	PublishNewButton: 新しいアイテムを公開
 	DownloadProgress: ダウンロード完了: {0}%
-	DescriptionLengthExceedLimit: このMODの（ワークショップの）説明はSteamの制限{0}文字を超えています。
+	DescriptionLengthExceedLimit: このModの（ワークショップの）説明文はSteamの上限{0}バイトを{1}バイト超えています。
 	TitleLengthExceedLimit: Mod名がSteamの制限（128バイト）を超えています
 	CommandLinePublishNeedsSteam: コマンドライン公開を行うにはSteamを読み込む必要があります（-steamオプション）
 	CommandLinePublishOnlyUsableWithServerSideMods: 現在、コマンドライン公開はサーバーサイドModのみ対応しています
@@ -20833,16 +20831,17 @@ tModLoader: {
 	LoadErrorModNotFoundDuringAsset: 「{0}」という名前のModが、パス「{1}」のアセットを読み込もうとしたときに見つかりませんでした。パスが正しいMod名で始まっているか確認してください。
 	LoadErrorVersionMessage:
 		'''
-		このModはtModLoader v{0}用に作成されたことが検出されました。
+		開発者向けの注意：このModはtModLoader v{0}用にビルドされています。
 		現在使用しているバージョン: {1}
 		'''
-	LoadErrorLikelyOutdated: 
+	LoadErrorLikelyOutdated:
 		'''
 		このModは現在のtModLoaderバージョンに合わせて更新する必要があるか、他に導入しているModの一部とバージョンの互換性がない可能性があります。
-		詳しくは「ウェブヘルプを開く」ボタンをクリックしてください。
+		詳しくは「{$tModLoader.OpenWebHelp}」ボタンをクリックしてください。
 		'''
 	LoadErrorDotNet45Required: Modを使用するには.NET Framework 4.5以上が必要です。最新の.NET Frameworkをダウンロードしてください。
 	LoadErrorDependencyMissing: 必要なModがありません: {0} (必要とするMod: {1})
+	LoadErrorDependencySideIncompatible: "{0}（動作環境: {1}）は{2}（動作環境: {3}）を必要としますが、{4}では読み込まれません。弱参照への変更を検討してください。"
 	LoadErrorErrorReadingModFile: Modファイル {0} の読み込み中にエラーが発生しました。
 	LoadErrorHashMismatchCorrupted: ハッシュが一致しません。データが変更または破損しています。
 	LoadErrorHashMismatchCorruptedWithModName: "{0} の整合性を確認できません: ハッシュが一致しません。データが変更または破損しています。"
@@ -20855,7 +20854,7 @@ tModLoader: {
 		'''
 	LoadErrorRecentlyBuiltLocalModWithLowerVersionModpack:
 		'''
-		{0} v{1} は最近ビルドされましたが、アクティブなModパックに解凍されていないコピー (v{2}) が存在するためロードされませんでした。
+		{0} v{1} は最近ビルドされましたが、使用中のModパックにバージョンを固定して保存したコピー (v{2}) があるため、読み込み対象に選ばれませんでした。
 		このModをテストするには、Modパックを無効化する必要があります。
 		'''
 	LoadWarningBannerOrBannerItemNotSet: "{0}: {1}。ModNPC.Banner または ModNPC.BannerItem のいずれかを設定していますが、もう片方が設定されていません。または、BannerItemの値が同じバナーを共有する他のModNPCと競合しています。代表するModNPCのために両方を設定し、スペルミスがないこと、またはMod.Find<ModItem>().Typeを使用している場合はアイテムが存在することを確認してください。この問題を{0}の開発者に報告してください。"
@@ -20891,7 +20890,7 @@ tModLoader: {
 	LoadErrorCannotLoadCompressedEffects: 圧縮されたエフェクトを読み込むことができません。
 	LoadErrorCallDuringLoad: "{0} はコンテンツ読み込み後にのみ実行可能です。該当コードを Load() フックから SetStaticDefaults() または PostSetupContent() フックへ移動してください。"
 	LoadErrorEquipTextureMissingParameters: AddEquipTexture には item か name の指定が必要ですが、どちらも指定されていません
-	LoadErrorNotLoading: Mod.AddContent はロード中のみ呼び出すことができます。
+	LoadErrorNotLoading: Modのコンテンツを追加できるのはMod.LoadまたはMod.Autoloadの実行中のみです。
 	LoadErrorDuplicateName: 同じ名前 {1} の {0} を2つ追加することはできません。2つのクラスが異なる名前空間で同じクラス名を共有しているか、または手動で同じ名前の {0} を2つ追加した可能性があります。または、重複しているか、すでに使用されている古い名前の可能性があります。
 	LoadErrorResourceNotFoundPathHint:
 		'''
@@ -20976,17 +20975,17 @@ tModLoader: {
 	RemovePackLocalDesc:
 		'''
 		すべてのModを無効化し、
-		tModLoaderのModロードパスから凍結されたModを削除します。
+		バージョンを固定して保存したModをtModLoaderの読み込み先から除外します。
 		'''
 	InstallPackLocal: ローカルパックをインポート
 	InstallPackLocalDesc:
 		'''
 		すべてのModを無効化し、
-		Modパック内の凍結されたModバージョンを有効化します。
+		Modパック内に固定保存されたバージョンのModを有効化します。
 		'''
 	ModPackMismatch: 最後に使用したModパック: {0}
 	ModPackDelete: Modパックを削除
-	ModPackDisableToDelete: Modパックを削除するには無効化してください。
+	ModPackDisableToDelete: Modパックを削除する前に、「ローカルのパックを削除」を実行してください。
 	MPSyncingMods: Modを同期中...
 	MPServerModsCantDownload: サーバーにインストールされている以下のModをダウンロードできません。
 	MPServerModsCantDownloadReasonSigned: Modブラウザで署名されたModのみを受け入れる設定のため、
@@ -21064,7 +21063,7 @@ tModLoader: {
 	MBDowngrade: ダウングレード
 	MBUpdate: アップデート
 	MBRequiresTMLUpdate: 必須: {0}
-	MBClickToUpdate: 更新するにはここクリック
+	MBClickToUpdate: 更新するにはここをクリック
 	MBDowngradeWithDependencies: 前提Modと共にダウングレード
 	MBUpdateWithDependencies: 前提Modと共にアップデート
 	MBDownloadWithDependencies: 前提Modと共にダウンロード
@@ -21132,7 +21131,7 @@ tModLoader: {
 	MBServerReturnToMenu: ワールドメニューに戻る
 	MBServerAskForModName: "ダウンロードする正確なMod名を入力してください: "
 	MBPublishEnterPassphrase: パスコードを入力してください。
-	MBPublishVisitWebsiteForPassphrase: パスコードを生成するにはウェブサイトをアクセスしてください。
+	MBPublishVisitWebsiteForPassphrase: パスコードを生成するにはウェブサイトにアクセスしてください。
 	MBPublishPastePassphrase: パスコードを貼り付け (Ctrl+V)
 	MBMyPublishedMods: 自分が公開したMod
 	MBUnpublish: 公開停止
@@ -21210,7 +21209,7 @@ tModLoader: {
 		'''
 	MigrateWorldsText: ここをクリックするとTerrariaからワールドデータを移行できます。
 	MigrateWorldsException: ワールドファイルの移行中に問題が発生しました。
-	MigrateIndividualPlayersHeader: 個別のプレイヤーデータを移行中...
+	MigrateIndividualPlayersHeader: 個別のプレイヤーデータを移行...
 	MigrateIndividualWorldsHeader: 個別のワールドデータを移行...
 	MigratingWorldsText: 移行中...
 	ClickToCopyFileOverFromReleaseName: クリックして「{0}」を{1}からコピーする
@@ -21233,10 +21232,10 @@ tModLoader: {
 	PlayerCustomDataSaveFail: このプレイヤーを最後に保存した際、以下のエラーが報告されました。関連するModのデータが失われた可能性があります: {0}
 	WorldCustomDataSaveFail: このワールドを最後に保存した際、以下のエラーが報告されました。関連するModのデータが失われた可能性があります: {0}
 	PlayerLoadWorldFail: ワールドを読み込む際に問題が発生しました。
-	SaveWorldHeaderExceptionWarning: 「{1}Modの"{0}.SaveWorldHeader"でエラーが発生したため、カスタムワールドヘッダーデータの保存中にエラーが発生しました。このクラスに関連するデータは保存されません。
+	SaveWorldHeaderExceptionWarning: 「{1}」Modの"{0}.SaveWorldHeader"でエラーが発生したため、カスタムワールドヘッダーデータの保存中にエラーが発生しました。このクラスに関連するデータは保存されません。
 	SaveWorldDataExceptionWarning: 「{1}」Modの"{0}.SaveWorldData"でエラーが発生したため、カスタムワールドデータの保存中にエラーが発生しました。このクラスに関連するデータは保存されません: {2}
 	SavePlayerDataExceptionWarning: 「{1}」Modの"{0}.SaveData"でエラーが発生したため、カスタムプレイヤーデータの保存中にエラーが発生しました。このクラスに関連するデータは保存されません: {2}
-	ViewSaveErrorMessage: 保存したエラーメッセージを表示
+	ViewSaveErrorMessage: 保存時のエラーメッセージを表示
 	CloudWarning: クラウドストレージの上限に達しました。クラウドに移動できません。
 	PlayerFromNewerTModMightNotWork: このプレイヤーは新しいバージョンのtModLoaderから作成されたため、正常に動作しない可能性があります。
 	WorldFromNewerTModMightNotWork: このワールドは新しいバージョンのtModLoaderから作成されたため、正常に動作しない可能性があります。
@@ -21293,7 +21292,7 @@ tModLoader: {
 	CreateModDisplayName: Mod表示名
 	CreateModAuthor: Mod作成者
 	CreateModBasicSword: BasicSword (スペースなし)
-	CreateModBasicSwordHint: スキップ可能
+	CreateModBasicSwordHint: 空欄でスキップ
 	CreateModFolderAlreadyExists: フォルダーは既に存在します
 	CreateModNameInvalid: Mod名が無効なC#識別子です。スペースを削除してください。
 	CreateModNameReserved: Mod名が予約済みの名前です。別の名前を選んでください。
@@ -21335,7 +21334,7 @@ tModLoader: {
 	CommandCustomSetsDescription: 定義済みのIDセット一覧を表示します
 	CommandCustomSetsUsage: /customsets [Mod名|SetKey|検索語] [-v (値を出力)] [-o (ログフォルダを開く)]
 	CommandPurgeUnloadedDescription: 未ロードのタイルと壁をワールドから除去します
-	CommandPurgeUnloadedUsage: /purgeunloaded [Mod名] [-t (タイルを削除)] [-w (壁を削除)] [-p (削除アクションを確認)]
+	CommandPurgeUnloadedUsage: /purgeunloaded [Mod名] [-t (タイルを削除)] [-w (壁を削除)] [-p (削除を実行)]
 	Building: ビルド中: {0}
 	ReadingProperties: プロパティを読み込み中: {0}
 	Compiling: コンパイル中: {0}
@@ -21363,9 +21362,9 @@ tModLoader: {
 	ModifiedByModsHoldSHIFT: Modで変更されています (詳細はSHIFTを押してください)
 	ModifiedByMods: "Modにより変更されています： "
 	MagicSummonHybridDamageClass: " 魔法または召喚ダメージ"
-	LastLoadRamUsage: 推定最後の読み込みRAM使用量: {0}
+	LastLoadRamUsage: 前回読み込み時の推定RAM使用量: {0}
 	AvailableMemory: 利用可能なメモリ: {0}
-	InstalledMemory: インストール済みメモリ: {0}
+	InstalledMemory: 搭載メモリ: {0}
 	TerrariaMemory: Terraria + その他: {0}
 	ManagedMemory: 管理メモリ: {0}
 	CodeMemory: コードメモリ: {0}
@@ -21459,6 +21458,7 @@ tModLoader: {
 	TagsCategoryModSide: Modサイド
 	TagsCategoryTModLoaderVersion: tModLoaderバージョン
 	TagsCategoryLanguage: 言語
+	TagsCategoryRating: Modコンテンツレーティング
 	TagsContent: 新しいコンテンツ
 	TagsContentDescription: 新しいコンテンツ(例: アイテム、武器、NPCなど)をゲームに追加します。
 	TagsUtility: ユーティリティ
@@ -21479,25 +21479,31 @@ tModLoader: {
 	TagsLangDescription: このModは複数の言語に対応しています。
 	TagsGen: ワールド生成
 	TagsGenDescription: ワールド生成方法を変更します(例: 鉱石、新しい構造物など)。
-	TagsLanguage_English: English
-	TagsLanguage_German: German
-	TagsLanguage_Italian: Italian
-	TagsLanguage_French: French
-	TagsLanguage_Spanish: Spanish
-	TagsLanguage_Russian: Russian
-	TagsLanguage_Chinese: Simplified Chinese
-	TagsLanguage_Portuguese: Brazilian Portuguese
-	TagsLanguage_Polish: Polish
+	TagsLanguage_English: 英語
+	TagsLanguage_German: ドイツ語
+	TagsLanguage_Italian: イタリア語
+	TagsLanguage_French: フランス語
+	TagsLanguage_Spanish: スペイン語
+	TagsLanguage_Russian: ロシア語
+	TagsLanguage_Chinese: 簡体字中国語
+	TagsLanguage_Portuguese: ブラジルポルトガル語
+	TagsLanguage_Polish: ポーランド語
 	TagsLanguage_Description: この言語向けに対応
-	TagsLanguage_EnglishDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_SpanishDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_FrenchDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_ItalianDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_RussianDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_ChineseDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_PortugueseDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_GermanDescription: "{$TagsLanguage_Description}"
-	TagsLanguage_PolishDescription: "{$TagsLanguage_Description}"
+	TagsLanguage_EnglishDescription: この言語向けに対応
+	TagsLanguage_SpanishDescription: この言語向けに対応
+	TagsLanguage_FrenchDescription: この言語向けに対応
+	TagsLanguage_ItalianDescription: この言語向けに対応
+	TagsLanguage_RussianDescription: この言語向けに対応
+	TagsLanguage_ChineseDescription: この言語向けに対応
+	TagsLanguage_PortugueseDescription: この言語向けに対応
+	TagsLanguage_GermanDescription: この言語向けに対応
+	TagsLanguage_PolishDescription: この言語向けに対応
+	TagsRating_AdultsOnly: 成人向け
+	TagsRating_AdultsOnlyDescription: 性的に露骨な内容やグラフィックを含み、成人向けです。ユーザーはコンテンツを閲覧する前に18歳以上であることを確認する必要があります。
+	TagsRating_Gore: 過激なグロテスク
+	TagsRating_GoreDescription: 過激な暴力やグロテスクな内容を含みます。
+	TagsRating_QuestionableContent: 問題のあるコンテンツ
+	TagsRating_QuestionableContentDescription: すべての視聴者に適さない可能性のある大人向けのトピックを含みます。
 	NextInfoAccPage: 次のページへ
 	PreviousInfoAccPage: 前のページへ
 	FirstInfoAccPage: 最初のページへ
@@ -22171,7 +22177,7 @@ CyborgNames: {
 		N: {
 			D: {
 				Y: {
-					"": Ａ.Ｎ.Ｄ.Ｙ.
+					"": A.N.D.Y.
 				}
 			}
 		}
