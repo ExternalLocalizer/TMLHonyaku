@@ -1,0 +1,3557 @@
+UI: {
+	Standard: 通常 OST
+	Alternate: アザーワールド OST
+	StandardDesc: SpectralAvesによるサウンドトラック
+	AlternateDesc: MaestroVGMによるもう一つのサウンドトラック
+}
+
+Biomes: {
+	InfernoSurfaceBiome: {
+		DisplayName: インフェルノ
+		TownNPCDialogueName: インフェルノ
+		Subtitle: 焼けゆく荒れ地
+	}
+
+	InfernoUndergroundBiome: {
+		DisplayName: 地下インフェルノ
+		TownNPCDialogueName: 地下インフェルノ
+	}
+
+	MireSurfaceBiome: {
+		DisplayName: 沼地
+		TownNPCDialogueName: 沼地
+		Subtitle: 有毒湖沼
+	}
+
+	MireUndergroundBiome: {
+		DisplayName: 地下沼地
+		TownNPCDialogueName: 地下沼地
+	}
+
+	MushblightBiome: {
+		DisplayName: 菌糸感染地帯
+		TownNPCDialogueName: 菌糸感染地帯
+		Subtitle: 感染の心臓部
+	}
+
+	MushblightSurfaceBiome: {
+		DisplayName: （表層）菌糸感染地帯
+		TownNPCDialogueName: 菌糸感染地帯
+	}
+
+	DreadMoonBiome: {
+		TownNPCDialogueName: 戦慄の月
+		DisplayName: 戦慄の月
+	}
+
+	MourningSunBiome: {
+		TownNPCDialogueName: 悲嘆の太陽
+		DisplayName: 悲嘆の太陽
+	}
+}
+
+FlavorTextBestiary: {
+	Fanatic: 出自不明の熱狂的な信奉者。彼らは世界を形作ったとされる「忘れられし神々」と呼ばれる存在を信仰しているようだ。
+	Historian: 故郷から遠く離れた地にやって来た貴族の女性。歴史家である彼女は、遥かなる過去の深淵に強い関心を抱いている。豊富な知識を持ち、尋ねる者には知るべきことを惜しみなく教えてくれる。
+	InfernoGrip: インフェルノに生息する、完全に成長した鉤爪の怪物。成熟するにつれて炎を操る能力を獲得するようだ。成体になると、身を守るために硬いマグマの外殻を形成する。この個体は強烈な匂いに引き寄せられ、何かを探し求めてやって来たようだ。
+	MireGrip: 沼地に生息する、完全に成長した鉤爪の怪物。成熟するにつれて水を操る能力を獲得するようだ。時間の経過とともに防御用の石の外殻を形成するが、すぐに雑草や植物に覆われてしまう。この個体は強烈な匂いに引き寄せられ、何かを探し求めてやって来たようだ。
+	TruffleToad: 地下のキノコと共生関係にあるヒキガエル。この青い菌類は宿主との間に互いに利益をもたらす関係を築き、宿主の生命を維持しているようだ。何らかの理由から、このヒキガエルは自ら進んでキノコが体内に繁殖することを受け入れた。
+	MushMon: 汚染に取り憑かれ、肉体を歪められ、操られる冒険者の亡骸。最初の人間を宿主としたことで、この寄生性の捕食者たちは新たな知恵を得た。そして今、さらなる犠牲者を飽くことなく求めている。
+	LeafBeetle: 草原を歩き回る、ごくありふれた昆虫。その甲殻を衣服に身につけると幸運が訪れるという言い伝えがある。
+	HoneyBee: 天敵の少ない環境で育ったため、ジャングルに生息する同種よりも巨大化したハチ。攻撃性は比較的低いものの、その毒は強力であり、近づきすぎると刺されることがある。
+	DragonClaw: インフェルノで発生する奇妙な現象の産物。火山岩が人間の手を模した不格好な形へと変化し、通りかかる者に襲いかかる。
+	HydraClaw: 沼地は奇妙で過酷な場所だ。そこでは植物でさえ、腐臭を放つ鉤爪の姿となり、外部からの侵入者に襲いかかる。
+	BlueMushMound: 一見すると普通の青いキノコが群生しているだけに見えるが、その正体は獲物を待ち伏せる捕食者の誘い餌だ。昆虫や小動物は菌類の光と匂いに引き寄せられるが、その下で何が待ち受けているのか知る由もない...
+	Boomshroom: 生存本能を持たない、奇妙な意思あるキノコ。生まれて間もなく、最初に目にしたものへと突進し、自爆を仕掛ける。
+	GoAheadTellThemNobodyWillBelieveYou: フッ素、アスタチン、フッ素、ウラン、炭素、カリウムで構成された存在。
+	FungoidSwarmer: 生まれたばかりの菌類生物。俊敏な体と柔らかな甲殻を持ち、嗅覚と味覚を頼りに周囲の環境を把握している。
+	FungoidGrunt: 成熟した菌類生物が巣を離れることは滅多にない。その大きな体は即席の防壁として機能する。刺激を受けると、近くにいるものすべてに凶暴に飛びかかる。
+	FungoidHulk: 汚染の中で生み出された、粗雑に縫い合わされた略奪者。傷を負うと神経組織を分裂させ、一つの体が二つに分かれる。すべては生き延び、悪性の呪いを広めるための必死の行動だ。
+	Splinter: 見た目とは裏腹に、その正体は感染性のキノコによって動き出した石化木の丸太だ。地面を伝わる振動で周囲を感知し、察知したものに襲いかかる。
+	CreeperVine: 汚染された洞窟の天井に潜む、悪性の肉塊。洞窟の根と繋がっているため、驚くほど広い範囲に攻撃を仕掛けられる。獲物の気配を察知すると口を勢いよく伸ばし、未知の深淵へ足を踏み入れた不運な犠牲者に歯の生えた口器を食い込ませる。
+	Witherwing: 感染に蝕まれ、汚染の奴隷となった洞窟のコウモリ。もはや自らの体を制御することはできず、宿主である菌類の胞子を広めるためだけに存在している。
+	TumoroidMaw: 汚染の本能によって形成された、胆汁に満ちた歪な口。地面に根を張ることで、尽きることのない毒液を吐き出し、周囲のあらゆるものを覆い尽くしている。
+	TumoroidSentry: 壁から突き出し、視界の外から獲物を狙撃する悪性の腫瘍生物。地面そのものを歪め、根と菌糸を繋ぎ合わせることで洞窟の壁に自らの体を固定している。
+	TumoroidSpewer: 汚染の最深部にある中枢を守るため、無秩序に生み出された悪性の突然変異体。自由に動けない体を持つため、這いずり回りながら胆汁を吐き出し、近づくものを弱らせる。
+	Mushlad: キノコによる汚染に侵された等脚類。汚染の影響を受けながらも臆病な性質は変わらず、危険を感じると体を丸めて転がりながら逃げ出す。しかし、それで安全な場所に辿り着けることは滅多にない。
+	BlightWorm: 汚染の成長にまつわる大きな謎の一つ。ワームのように機能し、行動するにもかかわらず、その姿も振る舞いも本物のワームとはどこか異なる。現実と非現実の狭間にあるような不気味さを漂わせている。これは神経なのか、それとも生物なのか？生きているのか？それとも、本当は死んでいるのだろうか？
+	Flamebrute: インフェルノに生息する、特に気性の荒い住人。腹部に余分な熱を蓄えており、気に障るものを見つけると火球を吐きつけることで知られている。
+	LivingEmber: かつての生命の囁き。長年の孤独と地獄のような環境にさらされたことで、その魂はかすかな炎へと姿を変えた。
+	ObsidianGolem: 燃え盛る廃墟と化した故郷の奥深くで、とうに命を落とした鉱夫たちは今なお働き続けている。その体は溶け、自らの仕事と一体化してしまった。
+	Mosster: 動物と植物の境界を曖昧にする不気味な存在。人間の姿だけでなく、その残虐さまでも取り込んでいる。
+	WillowWisp: かつての生命の囁き。邪悪な力によって本質を歪められ、吸い尽くされた結果、もはや元の姿を判別することすらできない。
+	Gator: 沼地に生息する無慈悲な捕食者。獲物を捕らえると、強靭な顎を使って容赦なく引き裂く。
+	Longneck: ヒュドラの近縁種。体に不釣り合いなほど長い首を持ち、獲物がどこにいようとも噛みつくことができる。
+	TwistedRoot: 沼地の樹木から生まれた、生きた根。分厚い泥を激しく引き裂きながら進み、侵入者や樹木の誘惑の歌声に誘われた不運な魂を突き刺す。
+	Terrorvine: 美しさは時に人を惑わせる。芽吹いたばかりのハスに見えるその姿の下には、魂も恐れも持たない釣り師のような捕食者が潜んでいる。罠にかかったものを締めつけ、命を奪う機会を待ち構えているのだ。
+	MireViper: 沼地に生息する数多くの競争相手の中でも、狡猾な夜行性の捕食者。獲物を水辺へと追い込み、水中から飛びかかって確実に仕留める。
+	GiantMosquito: 沼地に満ちる過剰な魔力が生み出した、数多くの失敗作の一つ。膨れ上がったこの羽虫は、目についたものを捕らえ、大切なものをすべて吸い尽くす。それが叶わなかったとしても、その死が捕らえた獲物の運命を決定づける。
+	RootSucker: 沼地に生えるヤナギの木の、栄養豊富な根から養分を吸い取る底生生物。正気を失い、見る影もなく変形してしまったこの哀れな獣たちは、何らかの力によって憎悪に染められている。
+	SoulTotem: 恐ろしい樹木の根が獲物の存在を察知すると、光り輝く道標を出現させて誘い込む。そして、かつての犠牲者を奴隷として操り、新たな獲物を同じ運命へと引きずり込ませる。
+	Apparition: 歪められた魂の残骸。ヤナギの根によって吐き戻され、捕食者の餌として利用される。
+	Depthstalker: 沼地の最深部に潜む、巨大で盲目の両生類。振動を感知することで獲物を追い詰める。
+}
+
+SetBonuses: {
+	Razewood: 防御力が1増加
+	Bogwood: 防御力が1増加
+	Stellar:
+		'''
+		体が光る
+		マナ自然回復を増進
+		マナ消費量が10%減少
+		'''
+	Steward: 未定
+	GoblinM:
+		'''
+		防御貫通を2増加
+		ノックバックを無効化
+		'''
+	GoblinR:
+		'''
+		防御貫通を2増加
+		移動速度が15%上昇
+		'''
+	Ashigaru: 釣りで得られる量が増えることがある(未実装)
+	Biotic:
+		'''
+		青菌糸の蔓延と赤菌糸の蔓延を無効化
+		ライフが50%を超えている間、ダメージが12%、攻撃速度が10%増加
+		ライフが50%未満の間、移動速度とダメージ軽減率が15%上昇
+		'''
+	Incinerite:
+		'''
+		魔法攻撃とミニオンの攻撃で敵を燃やす
+		炎の魔法が強化される
+		'''
+	Scalemail: 未定
+}
+
+GameTips: {
+	AATip0: 夜間、インフェルノの空が火山灰に覆われ、視認性が大きく低下する。
+	AATip1: 日中、沼地には濃い霧が立ち込め、視認性が低下する。
+	AATip2: バグを見つけたら、またはフィードバックがあれば、Ancients Awakenedの公式Discordサーバーに参加してお知らせください！
+	AATip3: トリュフヒキガエルは煙を嫌う。
+}
+
+StatusMessages: {
+	Death.Clapped: "{0}は叩き潰されてしまいました。"
+
+	WorldGen: {
+		Inferno: 噴火を引き起こす
+		Mire: 沼地に呪いをかける
+		Blight: 病害を植え付ける
+		Blight2: 病害を植え付ける...腫瘍を成長させる
+		Blight3: 病害を植え付ける...トンネルを掘る
+		Blight4: 病害を植え付ける...草を広げる
+	}
+
+	Progression: {
+		ToadDowned: 獣が逃げ出したことで、青いキノコの地に新たな植物が広がり始めた...
+		TumorsDowned: 病害に侵された壁の筋肉が緩み始めた...
+		MonarchDowned: 侵食された石の中にある守護の根が枯れ果てた...
+	}
+}
+
+Configs: {
+	AAConfigClient: {
+		DisplayName: AA クライアント設定
+
+		OtherworldSoundtrack: {
+			Label: アザーワールドのサウンドトラックを有効化
+			Tooltip:
+				'''
+				Ancients Awakenedのアザーワールドのサウンドトラックを有効化し、通常のBGMを置き換えて独特の雰囲気を演出します。
+				「Ancients Awakened Music」をダウンロードする必要があります。
+				'''
+		}
+
+		Headers.Visuals: 視覚効果
+
+		NoScreenShake: {
+			Label: 画面の揺れを無効化
+			Tooltip: 
+				'''
+				演出を強調するために発生する画面の揺れを無効化します。
+				光過敏症の方には、この設定を推奨します。
+				'''
+		}
+	}
+}
+
+SpecialTooltips: {
+	Readable: "[Shift]キーを押し続けて内容を読む"
+	AdventurersNotebook:
+		'''
+		これが俺の遺言になるだろう、俺はここで死ぬんだ
+
+		奴らにこの洞窟の奥まで引きずり込まれた
+		黒い虫どもが喉の奥へ入り込んできた、今も腹の中を這いずり回っている
+
+		もう助からない、全身が焼けるように痛む、意識が薄れていく
+		奴らが俺の内臓を食い荒らしている
+
+		せめてこの手記だけでも俺が生きていた証にしてくれ
+
+		頼む、これを読んでいる奴がいるなら
+		絶対に菌糸感染地帯へ近づくな
+
+		俺と同じ末路を辿りたくなければ絶対に近づくな
+		'''
+}
+
+Buffs: {
+	CriminalBuff: {
+		DisplayName: 罪人
+		Description: 「ひどい腹痛に苦しんでいる」
+	}
+
+	EaterBuff: {
+		DisplayName: 悪魔喰らい
+		Description: 「悪魔だけを食べると思ったら大間違いだ」
+	}
+
+	HandsBuff: {
+		DisplayName: お助けハンド
+		Description: 「片手どころか、両手を貸してくれる！」
+	}
+
+	TwinkleStarBuff: {
+		DisplayName: きらきら星
+		Description: 「お空の星よ、何者なの...？」
+	}
+
+	GriplingsBuff: {
+		DisplayName: グリップリング
+		Description: 離れる気はないらしい
+	}
+
+	Struggle: {
+		DisplayName: 拘束状態
+		Description: 必死に振りほどこうとしている
+	}
+
+	StruggleAlt: {
+		DisplayName: スペースキーを押せ！
+		Description: スペースキーを押せ！
+	}
+
+	InfestedBlue: {
+		DisplayName: 青菌糸の蔓延
+		Description: 体中が青いキノコに覆われている
+	}
+
+	FrogletBuff: {
+		DisplayName: キノコガエル
+		Description: 真実の愛のキッスを待っている
+	}
+
+	FesteringSkinBuff: {
+		DisplayName: 化膿した皮膚
+		Description: 「激痛にのたうち回っている」
+	}
+
+	InfestedRed: {
+		DisplayName: 赤菌糸の蔓延
+		Description: 赤いキノコが肉体に食い込んでくる
+	}
+
+	DukeShroomBuff: {
+		DisplayName: デュークシュルーム
+		Description: 妙に見覚えがある...
+	}
+
+	WikiBuff: {
+		DisplayName: ウィキ
+		Description: 「君はザックじゃないけど、結構イケてるね♪」
+	}
+
+	ManaforceBuff: {
+		DisplayName: マナフォース
+		Description: 最大マナが20%増加
+	}
+
+	CommanderBuff: {
+		DisplayName: 指揮官
+		Description: 鞭の射程が増加
+	}
+
+	ReboundBuff: {
+		DisplayName: リバウンド
+		Description: 追加の空中ジャンプ
+	}
+
+	HeartPowerBuff: {
+		DisplayName: ハートパワー
+		Description: ハートの回復効果が上昇する
+	}
+
+	StarreachBuff: {
+		DisplayName: 星の引力
+		Description: スターを拾う距離が広がる
+	}
+
+	ChillBuff: {
+		DisplayName: 冷気
+		Description: 熱によるダメージを軽減
+	}
+
+	Mushedlad: {
+		DisplayName: イカれた奴ら
+		Description: 「さあ、進化を失敗したのはどっちかな！？」
+	}
+
+	SporovidBuff: {
+		DisplayName: 奇怪な胞子生物
+		Description: 「こんなものが存在するべきではない」
+	}
+
+	BroodminiBuff: {
+		DisplayName: ミニブルード
+		Description: Mods.AAMod.Buffs.BroodminiBuff.Description
+	}
+
+	BabyCragBuff: {
+		Description: Mods.AAMod.Buffs.BabyCragBuff.Description
+		DisplayName: 岩塊の幼体
+	}
+
+	Hydratoxin: {
+		Description: 強力な毒が防御力を奪っていく！
+		DisplayName: ヒュドラトキシン
+	}
+
+	Dragonfire: {
+		Description: ドラゴンの炎が攻撃力を弱めている！
+		DisplayName: ドラゴンファイア
+	}
+
+	SicknessTonicBuff: {
+		Description: 毒と酸性毒を無効化する
+		DisplayName: 耐毒薬
+	}
+
+	CoagulantTonicBuff: {
+		Description: 毒に関連する継続ダメージの持続時間が半減
+		DisplayName: 凝固剤のトニック
+	}
+
+	SuperSpicyCurryBuff: {
+		DisplayName: とても辛いカレー
+		Description: 辛い！からい！カライ！
+	}
+
+	SmoulderingTonicBuff: {
+		Description: Mods.AAMod.Buffs.SmoulderingTonicBuff.Description
+		DisplayName: 「燃焼」と「燃えている！」を無効化
+	}
+
+	SacrificeCurse: {
+		Description:
+			'''
+			「魂が生と死の狭間に囚われている」
+			あらゆる手段による回復と自然回復が無効になる
+			'''
+		DisplayName: ウィローの災厄
+	}
+
+	AccursedBlood: {
+		DisplayName: 忌まわしき血
+		Description: Mods.AAMod.Buffs.AccursedBlood.Description
+	}
+
+	StunnedDebuff: {
+		Description: Mods.AAMod.Buffs.StunnedDebuff.Description
+		DisplayName: 気絶
+	}
+}
+
+Items: {
+	BeetleShell: {
+		DisplayName: 翠緑の甲殻
+		Tooltip: 運が少し上昇する
+	}
+
+	IridescentScale: {
+		DisplayName: 	虹色の鱗
+		Tooltip:
+			'''
+			防御力が1増加
+			クリティカル率が4%上昇する
+			運が上昇する
+			'''
+	}
+
+	ExoticScent: {
+		DisplayName: 異国の香り
+		Tooltip:
+			'''
+			いたずら好きのグリップリングを召喚する
+			「ちっちゃなおてて！」
+			'''
+	}
+
+	TwinClawPendant: {
+		DisplayName: 双爪のペンダント
+		Tooltip:
+			'''
+			インフェルノまたは沼地にいる間、受けるダメージが10%減少する
+			炎上または毒状態の敵に与えるダメージが増加する
+			'''
+	}
+
+	InfernoSolution: {
+		DisplayName: 環境変更液（橙）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			インフェルノを広げる
+			'''
+	}
+
+	MireSolution: {
+		DisplayName: 環境変更液（深緑）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			沼地を広げる
+			'''
+	}
+
+	OrderSolution: {
+		DisplayName: 環境変更液（秩序）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			カオスを浄化する
+			'''
+	}
+
+	MushblightSolution: {
+		DisplayName: 環境変更液（赤・黄）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			菌糸感染地帯を広げる
+			'''
+	}
+
+	BogwoodBreastplate: {
+		DisplayName: 沼木のシャツ
+		Tooltip: ""
+	}
+
+	BogwoodGreaves: {
+		DisplayName: 沼木のズボン
+		Tooltip: ""
+	}
+
+	BogwoodHelmet: {
+		DisplayName: 沼木の笠
+		Tooltip: ""
+	}
+
+	RazewoodBoots: {
+		DisplayName: レイズウッドのブーツ
+		Tooltip: ""
+	}
+
+	RazewoodChestplate: {
+		DisplayName: レイズウッドの胸当て
+		Tooltip: ""
+	}
+
+	RazewoodHelmet: {
+		DisplayName: レイズウッドの兜
+		Tooltip: ""
+	}
+
+	StellarGreaves: {
+		DisplayName: 星辰のすね当て
+		Tooltip: 最大マナが20増加する
+	}
+
+	StellarHat: {
+		DisplayName: 星辰の帽子
+		Tooltip: 魔法とミニオンのダメージが8%増加する
+	}
+
+	StellarRobe: {
+		DisplayName: 星辰のローブ
+		Tooltip:
+			'''
+			最大マナが20増加する
+			ミニオンの最大召喚数が1増加する
+			'''
+	}
+
+	HandSummons: {
+		DisplayName: カオスの抽出液
+		Tooltip:
+			'''
+			グリップスオブカオスを召喚する
+			「天然の鉱物から作られた強力な調合液」
+			'''
+	}
+
+	HoneycombChunk: {
+		DisplayName: ハチの巣のかけら
+		Tooltip: 蜂蜜のバフを付与する
+	}
+
+	InfernoCrate: {
+		DisplayName: 灰の木箱
+		Tooltip: <right>で開く
+	}
+
+	MireCrate: {
+		DisplayName: 泥まみれの木箱
+		Tooltip: <right>で開く
+	}
+
+	Fishmother: {
+		DisplayName: 母なる魚
+		Tooltip: ""
+	}
+
+	Hydrafish: {
+		DisplayName: ポンドラーカー
+		Tooltip: ""
+	}
+
+	HooksOfChaos: {
+		DisplayName: 混沌のフック
+		Tooltip: 「もう二度と手を滑らせない」
+	}
+
+	ChaosPowder: {
+		DisplayName: 混沌の粉
+		Tooltip: 「かすかなエネルギーの痕跡が宿っている」
+	}
+
+	InfernoShroom: {
+		DisplayName: ソーラーマッシュルーム
+		Tooltip: ""
+	}
+
+	MireShroom: {
+		DisplayName: ルナマッシュルーム
+		Tooltip: ""
+	}
+
+	Boulders: {
+		DisplayName: インフェルノの大岩
+		Tooltip: ""
+	}
+
+	BrokenLanterns: {
+		DisplayName: 壊れたランタン
+		Tooltip: ""
+	}
+
+	BurntPole: {
+		DisplayName: 焼け焦げた柱
+		Tooltip: ""
+	}
+
+	BurntTent: {
+		DisplayName: 焼け焦げたテント
+		Tooltip: ""
+	}
+
+	DragonEggShell: {
+		DisplayName: ドラゴンの卵殻
+		Tooltip: ""
+	}
+
+	DragonEgg: {
+		DisplayName: ドラゴンの卵
+		Tooltip: ""
+	}
+
+	LargeRubble: {
+		DisplayName: インフェルノの瓦礫（大）
+		Tooltip: ""
+	}
+
+	LargeStalactites: {
+		DisplayName: インフェルノの鍾乳石（大）
+		Tooltip: ""
+	}
+
+	LargeStalagmites: {
+		DisplayName: インフェルノの石筍（大）
+		Tooltip: ""
+	}
+
+	Rubble: {
+		DisplayName: インフェルノの瓦礫（中）
+		Tooltip: ""
+	}
+
+	SmallRubble: {
+		DisplayName: インフェルノの瓦礫（小）
+		Tooltip: ""
+	}
+
+	SmallStalactites: {
+		DisplayName: インフェルノの鍾乳石（小）
+		Tooltip: ""
+	}
+
+	SmallStalagmites: {
+		DisplayName: インフェルノの石筍（小）
+		Tooltip: ""
+	}
+
+	MireBoulders: {
+		DisplayName: 沼地の大岩
+		Tooltip: ""
+	}
+
+	MireBushes: {
+		DisplayName: 沼地の茂み
+		Tooltip: ""
+	}
+
+	MireGraves: {
+		DisplayName: 沼地の墓
+		Tooltip: ""
+	}
+
+	MireLargeRubble: {
+		DisplayName: 沼地の瓦礫（大）
+		Tooltip: ""
+	}
+
+	MireLargeStalactites: {
+		DisplayName: 沼地の鍾乳石（大）
+		Tooltip: ""
+	}
+
+	MireLargeStalagmites: {
+		DisplayName: 沼地の石筍（大）
+		Tooltip: ""
+	}
+
+	MireReeds: {
+		DisplayName: 沼地の葦
+		Tooltip: ""
+	}
+
+	MireSmallRubble: {
+		DisplayName: 沼地の瓦礫（小）
+		Tooltip: ""
+	}
+
+	MireSmallStalactites: {
+		DisplayName: 沼地の鍾乳石（小）
+		Tooltip: ""
+	}
+
+	MireSmallStalagmites: {
+		DisplayName: 沼地の石筍（小）
+		Tooltip: ""
+	}
+
+	MireTallGrass: {
+		DisplayName: 沼地の背の高い草
+		Tooltip: ""
+	}
+
+	DragonClawBanner: {
+		DisplayName: ドラゴンクローのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ドラゴンクロー
+	}
+
+	HoneyBeeBanner: {
+		DisplayName: 巨大蜂のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：巨大蜂
+	}
+
+	HydraClawBanner: {
+		DisplayName: ヒュドラの爪のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ヒュドラの爪
+	}
+
+	LeafBeetleBanner: {
+		DisplayName: ハムシのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ハムシ
+	}
+
+	Bogwood: {
+		DisplayName: 沼木
+		Tooltip: ""
+	}
+
+	Darkmud: {
+		DisplayName: 暗泥
+		Tooltip: ""
+	}
+
+	Depthsand: {
+		DisplayName: 深層砂
+		Tooltip: ""
+	}
+
+	Depthstone: {
+		DisplayName: 深層石
+		Tooltip: ""
+	}
+
+	DepthstoneBrick: {
+		DisplayName: 深層石のレンガ
+		Tooltip: ""
+	}
+
+	HardenedDepthsand: {
+		DisplayName: 固まった深層砂
+		Tooltip: ""
+	}
+
+	HardenedTorchsand: {
+		DisplayName: 固まった松明砂
+		Tooltip: ""
+	}
+
+	Razewood: {
+		DisplayName: レイズウッド
+		Tooltip: ""
+	}
+
+	Torchsand: {
+		DisplayName: 松明砂
+		Tooltip: ""
+	}
+
+	Torchslag: {
+		DisplayName: 松明鉱滓
+		Tooltip: ""
+	}
+
+	Torchstone: {
+		DisplayName: 松明石
+		Tooltip: ""
+	}
+
+	TorchstoneBrick: {
+		DisplayName: 松明石レンガ
+		Tooltip: ""
+	}
+
+	FurnitureDynamo: {
+		DisplayName: 家具ダイナモ
+		Tooltip:
+			'''
+			家具を製作するための作業台を1つにまとめる
+			「12種もの設備を並べずに済むぞ！」
+			'''
+	}
+
+	BogwoodBathtub: {
+		DisplayName: 沼木の浴槽
+		Tooltip: ""
+	}
+
+	BogwoodBed: {
+		DisplayName: 沼木のベッド
+		Tooltip: ""
+	}
+
+	BogwoodBookcase: {
+		DisplayName: 沼木の本棚
+		Tooltip: ""
+	}
+
+	BogwoodCandelabra: {
+		DisplayName: 沼木の燭台
+		Tooltip: ""
+	}
+
+	BogwoodCandle: {
+		DisplayName: 沼木の蝋燭
+		Tooltip: ""
+	}
+
+	BogwoodChair: {
+		DisplayName: 沼木のイス
+		Tooltip: ""
+	}
+
+	BogwoodChandelier: {
+		DisplayName: 沼木のシャンデリア
+		Tooltip: ""
+	}
+
+	BogwoodChest: {
+		DisplayName: 沼木の宝箱
+		Tooltip: ""
+	}
+
+	BogwoodClock: {
+		DisplayName: 沼木の時計
+		Tooltip: ""
+	}
+
+	BogwoodDoor: {
+		DisplayName: 沼木のドア
+		Tooltip: ""
+	}
+
+	BogwoodDresser: {
+		DisplayName: 沼木のドレッサー
+		Tooltip: ""
+	}
+
+	BogwoodLamp: {
+		DisplayName: 沼木のランプ
+		Tooltip: ""
+	}
+
+	BogwoodLantern: {
+		DisplayName: 沼木のランタン
+		Tooltip: ""
+	}
+
+	BogwoodPiano: {
+		DisplayName: 沼木のピアノ
+		Tooltip: ""
+	}
+
+	BogwoodPlatform: {
+		DisplayName: 沼木の足場
+		Tooltip: ""
+	}
+
+	BogwoodSink: {
+		DisplayName: 沼木のシンク
+		Tooltip: ""
+	}
+
+	BogwoodSofa: {
+		DisplayName: 沼木のソファ
+		Tooltip: ""
+	}
+
+	BogwoodTable: {
+		DisplayName: 沼木のテーブル
+		Tooltip: ""
+	}
+
+	BogwoodTorch: {
+		DisplayName: 沼地の松明
+		Tooltip: ""
+	}
+
+	BogwoodWorkBench: {
+		DisplayName: 沼木の作業台
+		Tooltip: ""
+	}
+
+	MireCampfire: {
+		DisplayName: 沼地のキャンプファイア
+		Tooltip: キャンプファイアの近くではライフ自然回復が増進
+	}
+
+	InfernoCampfire: {
+		DisplayName: インフェルノのキャンプファイア
+		Tooltip: キャンプファイアの近くではライフ自然回復が増進
+	}
+
+	RazewoodBathtub: {
+		DisplayName: レイズウッドの浴槽
+		Tooltip: ""
+	}
+
+	RazewoodBed: {
+		DisplayName: レイズウッドのベッド
+		Tooltip: ""
+	}
+
+	RazewoodBookcase: {
+		DisplayName: レイズウッドの本棚
+		Tooltip: ""
+	}
+
+	RazewoodCandelabra: {
+		DisplayName: レイズウッドの燭台
+		Tooltip: ""
+	}
+
+	RazewoodCandle: {
+		DisplayName: レイズウッドの蝋燭
+		Tooltip: ""
+	}
+
+	RazewoodChair: {
+		DisplayName: レイズウッドのイス
+		Tooltip: ""
+	}
+
+	RazewoodChandelier: {
+		DisplayName: レイズウッドのシャンデリア
+		Tooltip: ""
+	}
+
+	RazewoodChest: {
+		DisplayName: レイズウッドの宝箱
+		Tooltip: ""
+	}
+
+	RazewoodClock: {
+		DisplayName: レイズウッドの時計
+		Tooltip: ""
+	}
+
+	RazewoodDoor: {
+		DisplayName: レイズウッドのドア
+		Tooltip: ""
+	}
+
+	RazewoodDresser: {
+		DisplayName: レイズウッドのドレッサー
+		Tooltip: ""
+	}
+
+	RazewoodLamp: {
+		DisplayName: レイズウッドのランプ
+		Tooltip: ""
+	}
+
+	RazewoodLantern: {
+		DisplayName: レイズウッドのランタン
+		Tooltip: ""
+	}
+
+	RazewoodPiano: {
+		DisplayName: レイズウッドの古琴
+		Tooltip: ""
+	}
+
+	RazewoodPlatform: {
+		DisplayName: レイズウッドの足場
+		Tooltip: ""
+	}
+
+	RazewoodSink: {
+		DisplayName: レイズウッドのシンク
+		Tooltip: ""
+	}
+
+	RazewoodSofa: {
+		DisplayName: レイズウッドのソファ
+		Tooltip: ""
+	}
+
+	RazewoodTable: {
+		DisplayName: レイズウッドのテーブル
+		Tooltip: ""
+	}
+
+	RazewoodTorch: {
+		DisplayName: インフェルノの松明
+		Tooltip: ""
+	}
+
+	RazewoodWorkBench: {
+		DisplayName: レイズウッドの作業台
+		Tooltip: ""
+	}
+
+	GripRelic: {
+		DisplayName: グリップスオブカオスのレリック
+		Tooltip: ""
+	}
+
+	ToadRelic: {
+		DisplayName: トリュフヒキガエルのレリック
+		Tooltip: ""
+	}
+
+	InfernoGripTrophy: {
+		DisplayName: 業火の拳のトロフィー
+		Tooltip: ""
+	}
+
+	MireGripTrophy: {
+		DisplayName: 泥沼の掌のトロフィー
+		Tooltip: ""
+	}
+
+	BogwoodWall: {
+		DisplayName: 沼木の壁
+		Tooltip: ""
+	}
+
+	DarkmudWall: {
+		DisplayName: 暗泥の壁
+		Tooltip: ""
+	}
+
+	DepthstoneBrickWall: {
+		DisplayName: 深層石のレンガ壁
+		Tooltip: ""
+	}
+
+	DepthstoneWall: {
+		DisplayName: 深層石の壁
+		Tooltip: ""
+	}
+
+	RazewoodWall: {
+		DisplayName: レイズウッドの壁
+		Tooltip: ""
+	}
+
+	TorchstoneBrickWall: {
+		DisplayName: 松明石レンガの壁
+		Tooltip: ""
+	}
+
+	TorchstoneWall: {
+		DisplayName: 松明石の壁
+		Tooltip: ""
+	}
+
+	BogwoodHammer: {
+		DisplayName: 沼木のハンマー
+		Tooltip: ""
+	}
+
+	RazewoodHammer: {
+		DisplayName: レイズウッドのハンマー
+		Tooltip: ""
+	}
+
+	GripsTreasureBag: {
+		DisplayName: トレジャーバッグ（グリップスオブカオス）
+		Tooltip: <right>で開く
+	}
+
+	ToadTreasureBag: {
+		DisplayName: トレジャーバッグ（トリュフヒキガエル）
+		Tooltip: <right>で開く
+	}
+
+	MonarchTreasureBag: {
+		DisplayName: トレジャーバッグ（マッシュルームモナーク）
+		Tooltip: <right>で開く
+	}
+
+	UndownerAA: {
+		DisplayName: AAボス撃破履歴リセット
+		Tooltip:
+			'''
+			AAのすべてのボスを未撃破状態に戻す
+			消費されない
+			'''
+	}
+
+	UndownerAA2: {
+		DisplayName: AAフラグリセット
+		Tooltip:
+			'''
+			AAのすべてのフラグをリセットする
+			消費されない
+			'''
+	}
+
+	InfernoSeeds: {
+		DisplayName: 焼け焦げた種
+		Tooltip: 土にインフェルノの草を生やす
+	}
+
+	MireSeeds: {
+		DisplayName: 湿った種
+		Tooltip: 暗泥に沼地の草を生やす
+	}
+
+	TitleTester: {
+		DisplayName: タイトルテスター
+		Tooltip: タイトルをテストする...名前のとおりさ！
+	}
+
+	InfernoGripMask: {
+		DisplayName: 業火の拳のマスク
+		Tooltip: 「イカしてる！」
+	}
+
+	MireGripMask: {
+		DisplayName: 泥沼の掌のマスク
+		Tooltip: 「イカしてる！」
+	}
+
+	ChillaBag: {
+		DisplayName: ローカルローデントのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「ローカルローデントになりきるためのアイテムが全部入り！」
+			'''
+	}
+
+	FezLordsBag: {
+		DisplayName: フェズロードのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「フェズロードになりきるためのアイテムが全部入り！」
+			'''
+	}
+
+	DearGod: {
+		DisplayName: ルディクラスパープルのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「ルディクラスパープルになりきるためのアイテムが全部入り！」
+			'''
+	}
+
+	LunaticRag: {
+		DisplayName: ルディクラスパープルのぼろ服
+		Tooltip:
+			'''
+			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			こんなにチクチクする服、正気の人間なら着ないだろう
+			'''
+	}
+
+	LunaticTendrils: {
+		DisplayName: ルディクラスパープルの触手
+		Tooltip:
+			'''
+			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			有線イヤホンもびっくりの絡まり具合
+			'''
+	}
+
+	LunaticWig: {
+		DisplayName: ルディクラスパープルのウィッグ
+		Tooltip:
+			'''
+			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			なぜかカシスの匂いがする
+			'''
+	}
+
+	DragonBag: {
+		DisplayName: ラスティックドラゴンのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「ラスティックドラゴンになりきるための必需品がすべて揃っている！」
+			'''
+	}
+
+	DragonBody: {
+		DisplayName: ラスティックドラゴンの胸当て
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DragonHead: {
+		DisplayName: ラスティックドラゴンのマスク
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DragonLegs: {
+		DisplayName: ラスティックドラゴンのすね当て
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	FoxWonderBox: {
+		DisplayName: フォックスワンダーの道具箱
+		Tooltip:
+			'''
+			<right>で開く
+			「フォックスワンダーになりきるための必需品がすべて揃っている！」
+			'''
+	}
+
+	TailsBody: {
+		DisplayName: フォックスワンダーの衣装
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	TailsHead: {
+		DisplayName: フォックスワンダーのヘルメット
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	TailsLegs: {
+		DisplayName: フォックスワンダーのレギンス
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DoxiBag: {
+		DisplayName: パラドックストラベラーのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「次元旅行者になりきるための必需品がすべて揃っている！」
+			「パラドックスは試さないこと」
+			'''
+	}
+
+	DevSlinkyHead: {
+		DisplayName: スリンキーのリボン付きヘアピン
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DevSlinkyBody: {
+		DisplayName: スリンキーのダークトップス
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DevSlinkyLegs: {
+		DisplayName: スリンキーのダークパンツ
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	FinityDye: {
+		DisplayName: フィニティ染料
+		Tooltip:
+			'''
+			「Ancients Awakenedの開発者になりきるのにピッタリ！」
+			「自分だけのおしゃれを楽しもう！」
+			'''
+	}
+
+	BurningGelWand: {
+		DisplayName: 火炎ジェルの杖
+		Tooltip: 粘着性のある燃えるジェルの塊を放つ
+	}
+
+	ClawCast: {
+		DisplayName: クローキャスター
+		Tooltip:
+			'''
+			幻影の爪を生み出し、敵を切り裂く
+			「ページには手信号ばかりが描かれている」
+			'''
+	}
+
+	ManaFlower: {
+		DisplayName: マナブルーム
+		Tooltip: 「とてもいい香り」
+	}
+
+	PinkGelWand: {
+		DisplayName: 跳ねるジェルの杖
+		Tooltip: 燃えながら跳ね回るジェルの塊を発射する
+	}
+
+	StargazersJournal: {
+		DisplayName: 星詠みの手記
+		Tooltip: カーソル位置に流れ星を降らせる
+	}
+
+	BleedingBone: {
+		DisplayName: 血まみれの骨
+		Tooltip: ""
+	}
+
+	BogwoodSword: {
+		DisplayName: 沼木のカタナ
+		Tooltip: ""
+	}
+
+	CosmicCutter: {
+		DisplayName: コズミックカッター
+		Tooltip: 敵に攻撃した際、貫通する星を放つ
+	}
+
+	FryingPan: {
+		DisplayName: フライパン
+		Tooltip: 「使いすぎると耳を痛めるかもしれない」
+	}
+
+	GoldFryingPan: {
+		DisplayName: 黄金のフライパン
+		Tooltip: 「めったにお目にかかれない逸品」
+	}
+
+	RazewoodSword: {
+		DisplayName: レイズウッドのマチェーテ
+		Tooltip: ""
+	}
+
+	TwinTalons: {
+		DisplayName: 双爪
+		Tooltip:
+			'''
+			左クリックで連続パンチを放つ
+			右クリックで横方向に斬りかかる
+			'''
+	}
+
+	YoinkySploinky: {
+		DisplayName: ヨインキースプロインキー
+		Tooltip: 「狂気はさらに深く染み込んでいく」
+	}
+
+	BogwoodBow: {
+		DisplayName: 沼木のロングボウ
+		Tooltip: ""
+	}
+
+	HeavenlyString: {
+		DisplayName: 天界の弦
+		Tooltip: 木の矢を道化師の矢に変える
+	}
+
+	RazewoodBow: {
+		DisplayName: レイズウッドの弓
+		Tooltip: ""
+	}
+
+	Vehemence: {
+		DisplayName: ヴェヘメンス
+		Tooltip: マスケットの弾丸をドラゴンの弾丸に変える
+	}
+
+	Vice: {
+		DisplayName: ヴァイス
+		Tooltip: マスケットの弾丸をヒュドラの弾丸に変える
+	}
+
+	VnV: {
+		DisplayName: ヴァイス＆ヴェヘメンス
+		Tooltip:
+			'''
+			ドラゴンの弾丸とヒュドラの弾丸を交互に発射する
+			右クリックで分離する
+			'''
+	}
+
+	CrimsonStaff: {
+		DisplayName: ヘマテメシス
+		Tooltip: 共に戦うクリメラを召喚する
+	}
+
+	DemoniteStaff: {
+		DisplayName: 影なる大口
+		Tooltip: 共に戦うイーターオブソウルを召喚する
+	}
+
+	HelpingHands: {
+		DisplayName: お助けハンド
+		Tooltip: 共に戦う2つの手を召喚する
+	}
+
+	Nightcrawler: {
+		DisplayName: ナイトクローラーの鉤爪
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			攻撃を当てた敵にミニオンが集中攻撃する
+			攻撃命中時、敵にダメージを与える星を降らせる
+			'''
+	}
+
+	TwinkleStaff: {
+		DisplayName: きらめきの杖
+		Tooltip: 共に戦う小さな星を召喚する
+	}
+
+	Worms: {
+		DisplayName: ワームの束
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			攻撃を当てた敵にミニオンが集中攻撃する
+			「来るぞ！」
+			'''
+	}
+
+	Fungrock: {
+		DisplayName: キノコ岩
+		Tooltip: ""
+	}
+
+	Rott: {
+		DisplayName: 腐敗物
+		Tooltip: ""
+	}
+
+	BlightShroom: {
+		DisplayName: 腐敗したキノコ
+		Tooltip: ""
+	}
+
+	ToadTrophy: {
+		DisplayName: トリュフヒキガエルのトロフィー
+		Tooltip: ""
+	}
+
+	ToadMask: {
+		DisplayName: トリュフヒキガエルのマスク
+		Tooltip: ""
+	}
+
+	TruffleTongue: {
+		DisplayName: トリュフの舌
+		Tooltip:
+			'''
+			召喚タグダメージ 4
+			攻撃を当てた敵にミニオンが集中攻撃する
+			まれに敵を混乱させる
+			'''
+	}
+
+	Frogeyes: {
+		DisplayName: カエルの目
+		Tooltip:
+			'''
+			一度に2つのヨーヨーを投げる
+			まれに敵を混乱させる
+			'''
+	}
+
+	FungalFrag: {
+		DisplayName: ファンガル手榴弾
+		Tooltip:
+			'''
+			小さな爆発を起こし、胞子をその場に残す
+			まれに敵を毒状態にする
+			'''
+	}
+
+	SporeBloon: {
+		DisplayName: 胞子の風船
+		Tooltip:
+			'''
+			ダメージを与える胞子の雲を溜めて発射する
+			まれに敵を毒状態にする
+			'''
+	}
+
+	FrogSpawn: {
+		DisplayName: 発光カエルの卵
+		Tooltip:
+			'''
+			トリュフヒキガエルを召喚する
+			「中で何かが蠢いているのがかすかに見える」
+			'''
+	}
+
+	FatPixieBanner: {
+		DisplayName: でっぷりピクシーのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：でっぷりピクシー
+	}
+
+	BlightSeeds: {
+		DisplayName: 腐敗した種
+		Tooltip: 腐敗物に草を生やす
+	}
+
+	HalmEars: {
+		DisplayName: ハルムの耳
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	HalmHoodie: {
+		DisplayName: ハルムのパーカー
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	HalmJeans: {
+		DisplayName: ハルムのジーンズ
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	HalmTail: {
+		DisplayName: ハルムの尻尾
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	WeirdCat: {
+		DisplayName: 変なネコ
+		Tooltip:
+			'''
+			ママ、迎えに来て、怖いよ
+			「!!??になりきるためのアイテムが全部入り！」
+			'''
+	}
+
+	Slingshot: {
+		DisplayName: パチンコ
+		Tooltip: スパイクボールを弾薬として使用する
+	}
+
+	GoblinBreastplate: {
+		DisplayName: ゴブリンの胸当て
+		Tooltip: ""
+	}
+
+	GoblinGreaves: {
+		DisplayName: ゴブリンのすね当て
+		Tooltip: ""
+	}
+
+	GoblinRangerHat: {
+		DisplayName: ゴブリン射手の帽子
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加する
+			遠距離攻撃のクリティカル率が8%上昇する
+			'''
+	}
+
+	GoblinWarriorHelmet: {
+		DisplayName: ゴブリン戦士の兜
+		Tooltip:
+			'''
+			近接ダメージが12%増加する
+			近接攻撃速度が10%上昇する
+			'''
+	}
+
+	MonarchRelic: {
+		DisplayName: マッシュルームモナークのレリック
+		Tooltip: ""
+	}
+
+	MonarchMask: {
+		DisplayName: マッシュルームモナークのマスク
+		Tooltip: ""
+	}
+
+	MycelialThumper: {
+		DisplayName: マイセリアルサンパー
+		Tooltip:
+			'''
+			キノコを弾薬として使用する
+			使用するキノコによって効果が変化する
+			'''
+	}
+
+	MushroomAmmo: {
+		DisplayName: キノコ弾
+		Tooltip: ""
+	}
+
+	LeechingFungus: {
+		DisplayName: 吸命菌
+		Tooltip:
+			'''
+			敵を倒すことで一時的な追加ライフを獲得する（最大10%）
+			追加ライフは時間とともに減少する
+			敵を倒すとライフが回復する
+			'''
+	}
+
+	FeastingTubes: {
+		DisplayName: 貪食の触管
+		Tooltip: 敵に張り付いてライフを吸収する
+	}
+
+	Derooter: {
+		DisplayName: デルーター
+		Tooltip: ""
+	}
+
+	StemSmacker: {
+		DisplayName: ステムスマッカー
+		Tooltip: ""
+	}
+
+	StipeShot: {
+		DisplayName: スタイプショット
+		Tooltip: まれに木の矢を腐敗したキノコに変える
+	}
+
+	BioticAssimilator: {
+		DisplayName: 生体同化装置
+		Tooltip: 生体素材を利用してアイテムを製作・合成できる
+	}
+
+	Biomass: {
+		DisplayName: 濃縮バイオマス
+		Tooltip: 有機物が混ざり合ってできたおぞましい塊
+	}
+
+	RoomMusher: {
+		DisplayName: ルームマッシャー
+		Tooltip: ""
+	}
+
+	ShroomSaber: {
+		DisplayName: シュルームセイバー
+		Tooltip: 青菌糸の蔓延を付与する
+	}
+
+	GlowBow: {
+		DisplayName: 発光弓
+		Tooltip: まれに木の矢を光るキノコに変える
+	}
+
+	BioticBreastplate: {
+		DisplayName: 生体の胸当て
+		Tooltip: 最大ライフが10増加する
+	}
+
+	BioticGreaves: {
+		DisplayName: 生体のすね当て
+		Tooltip: 最大ライフが10増加する
+	}
+
+	BioticHelmet: {
+		DisplayName: 生体の兜
+		Tooltip:
+			'''
+			最大ライフが10増加する
+			クリティカル率が2%上昇する
+			'''
+	}
+
+	ToadBrain: {
+		DisplayName: 光りし脳
+		Tooltip: 「手の中で震えているのが分かる」
+	}
+
+	MonarchHeart: {
+		DisplayName: 腐敗の心臓
+		Tooltip: 「手の中で脈打っているのが分かる」
+	}
+
+	SaprophyteString: {
+		DisplayName: 腐生菌の弦
+		Tooltip: 木の矢を光るキノコまたは腐敗したキノコに変える
+	}
+
+	RootMasher: {
+		DisplayName: 根砕き
+		Tooltip: ""
+	}
+
+	ShadowflameDimbolt: {
+		DisplayName: シャドウフレイム・ディムボルト
+		Tooltip: ブロックをすり抜けるカオスの球を放つ
+	}
+
+	CranialThorn: {
+		DisplayName: 頭蓋の棘
+		Tooltip: 破片となって飛び散る大きな棘を投げる
+	}
+
+	BlightshroomStew: {
+		DisplayName: 腐敗したキノコのシチュー
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「煮込めば食べても平気さ。たぶんね。そうであってくれ！」
+			'''
+	}
+
+	NastyPatty: {
+		DisplayName: ゲテモノパティ
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「衛生検査官を殺しちまった！」
+			'''
+	}
+
+	Chordyceps: {
+		DisplayName: コードセプス
+		Tooltip:
+			'''
+			右クリックで普通に演奏する
+			「まだ調律が必要だ」
+			'''
+	}
+
+	FesteringSkewer: {
+		DisplayName: 腐敗の串槍
+		Tooltip: 化膿した皮膚を召喚し、地面にいる敵を串刺しにする
+	}
+
+	Brasshroom: {
+		DisplayName: トリュフトランペット
+		Tooltip:
+			'''
+			右クリックで普通に演奏する
+			「まだ調律が必要だ」
+			'''
+	}
+
+	SerbBag: {
+		DisplayName: ネファリアスホワイト
+		Tooltip:
+			'''
+			<right>で開く
+			「ネファリアスホワイトになりきるためのアイテムが全部入り！」
+			命乞いをしてくるが、耳を貸してはならない。
+			'''
+	}
+
+	SerbBody: {
+		DisplayName: ネファリアスホワイトの胴体
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	SerbHead: {
+		DisplayName: ネファリアスホワイトの頭
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	SerbLeggings: {
+		DisplayName: ネファリアスホワイトの脚
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DawnBag: {
+		DisplayName: ハイパーアクティブフェラインのバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「ハイパーアクティブフェラインになりきるための必需品がすべて揃っている！」
+			'''
+	}
+
+	DawnBody: {
+		DisplayName: ハイパーアクティブフェラインのシャツ
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DawnHead: {
+		DisplayName: ハイパーアクティブフェラインのマスク
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	DawnLeggings: {
+		DisplayName: ハイパーアクティブフェラインのレギンス
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	AfungusPainting: {
+		DisplayName: 絵画『我が子じゃない』
+		Tooltip: "'D.B. Martin'"
+	}
+
+	Slashroom: {
+		DisplayName: スラッシュルーム
+		Tooltip: ""
+	}
+
+	CopperPendant: {
+		DisplayName: 銅のペンダント
+		Tooltip: クリティカル率が2%上昇する
+	}
+
+	OrderBottleBlade: {
+		DisplayName: 秩序の瓶剣
+		Tooltip: とても脆い
+	}
+
+	BrokenOrderBottleBlade: {
+		DisplayName: 破損した秩序の瓶剣
+		Tooltip:
+			'''
+			振るたびにガラス片と環境変更液（秩序）を飛び散らせる
+			溶液の飛沫は混沌に属する敵に追加ダメージを与える
+			'''
+	}
+
+	CopperCapper: {
+		DisplayName: カッパーキャッパー
+		Tooltip:
+			'''
+			コインを弾薬として使用する
+			高価なコインほどダメージが増加する
+			'''
+	}
+
+	RottWall: {
+		DisplayName: 腐敗した壁
+		Tooltip: ""
+	}
+
+	RoyalEffigy: {
+		DisplayName: 王の彫像
+		Tooltip:
+			'''
+			マッシュルームモナークとの再戦に使用する
+			「寄生体の亡き宿主を偲んで」
+			'''
+	}
+
+	HeartyTruffle: {
+		DisplayName: 元気なトリュフ
+		Tooltip:
+			'''
+			デュークシュルームを召喚する
+			「我らの中にキノコあり」
+			'''
+	}
+
+	BlightedPlatform: {
+		DisplayName: 汚染された足場
+		Tooltip: ""
+	}
+
+	TestBook: {
+		DisplayName: 功績の書
+		Tooltip: 左クリックで読む
+	}
+
+	UndownerAA3: {
+		DisplayName: AAクエストリセッター
+		Tooltip:
+			'''
+			すべてのAAクエストをリセットする
+			消耗しない
+			'''
+	}
+
+	MushladItem: {
+		DisplayName: キノコ小僧（水玉模様）
+		Tooltip: ""
+	}
+
+	BarbarosBell: {
+		DisplayName: バルバロスの鈴
+		Tooltip:
+			'''
+			魔法の黄金のサルを呼び出す
+			「リンリン♪」
+			'''
+	}
+
+	ManaforcePotion: {
+		DisplayName: マナフォースポーション
+		Tooltip: 最大マナが20%増加
+	}
+
+	CommanderPotion: {
+		DisplayName: 指揮官のポーション
+		Tooltip: 鞭の射程が増加
+	}
+
+	BogEel: {
+		DisplayName: 沼ウナギ
+		Tooltip: ""
+	}
+
+	FesteringHerring: {
+		DisplayName: 腐敗ニシン
+		Tooltip: ""
+	}
+
+	FireTuna: {
+		DisplayName: 火炎マグロ
+		Tooltip: ""
+	}
+
+	GlowingCarp: {
+		DisplayName: 発光コイ
+		Tooltip: ""
+	}
+
+	RazewoodToilet: {
+		DisplayName: レイズウッドのトイレ
+		Tooltip: ""
+	}
+
+	ReboundPotion: {
+		DisplayName: 跳躍のポーション
+		Tooltip: ジャンプ回数が1回増加
+	}
+
+	RazewoodFence: {
+		DisplayName: レイズウッドのフェンス
+		Tooltip: ""
+	}
+
+	Bloomshroom: {
+		DisplayName: 花咲きキノコ
+		Tooltip: ""
+	}
+
+	WardenPainting: {
+		DisplayName: 絵画『看守』
+		Tooltip: "'T.I. M'"
+	}
+
+	BloomshroomSeeds: {
+		DisplayName: 花咲きキノコの種
+		Tooltip: ""
+	}
+
+	HeartPowerPotion: {
+		DisplayName: ハートパワーポーション
+		Tooltip: ハートの回復量が5増加
+	}
+
+	H: {
+		DisplayName: ""
+		Tooltip: ""
+	}
+
+	StarreachPotion: {
+		DisplayName: スターリーチポーション
+		Tooltip: スターを拾える範囲が広がる
+	}
+
+	ChillPotion: {
+		DisplayName: 冷却のポーション
+		Tooltip: 高温によるダメージを軽減
+	}
+
+	CB: {
+		DisplayName: ""
+		Tooltip: ""
+	}
+
+	MushladBlackItem: {
+		DisplayName: キノコ小僧（黒）
+		Tooltip: ""
+	}
+
+	MushladBrownItem: {
+		DisplayName: キノコ小僧（茶）
+		Tooltip: ""
+	}
+
+	ImitationBag: {
+		DisplayName: 偽物の君主のバッグ
+		Tooltip:
+			'''
+			<right>で開く
+			「マッシュルームモナークになりきるための必需品が全部入り...なのか？」
+			'''
+	}
+
+	ImitationHood: {
+		DisplayName: 模造君主のフード
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	ImitationRobe: {
+		DisplayName: 模造君主のローブ
+		Tooltip: 「Ancients Awakenedの開発者になりきるのにピッタリ！」
+	}
+
+	BlightTorch: {
+		DisplayName: 腐敗した松明
+		Tooltip: ""
+	}
+
+	WiltingFibers: {
+		Tooltip: 「ひどく臭い...」
+		DisplayName: しおれた繊維
+	}
+
+	FungoidHulkBanner: {
+		DisplayName: 菌巨兵のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：菌巨兵
+	}
+
+	CreeperVineBanner: {
+		DisplayName: ツタクリーパーのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ツタクリーパー
+	}
+
+	FungoidGruntBanner: {
+		DisplayName: 低級菌兵のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：低級菌兵
+	}
+
+	FungoidSwarmerBanner: {
+		DisplayName: 群生菌類のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：群生菌類
+	}
+
+	MushladBanner: {
+		DisplayName: キノコ小僧のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：キノコ小僧
+	}
+
+	SplinterBanner: {
+		DisplayName: ササクレのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：ササクレ
+	}
+
+	WitherwingBanner: {
+		DisplayName: 枯れ羽のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：枯れ羽
+	}
+
+	BioticHamaxe: {
+		DisplayName: 生体のハンマーアックス
+		Tooltip: ""
+	}
+
+	MonarchTrophy: {
+		DisplayName: マッシュルームモナークのトロフィー
+		Tooltip: ""
+	}
+
+	ShinyRing: {
+		DisplayName: きらめく指輪
+		Tooltip: ダメージが2%増加
+	}
+
+	CancroidAccordian: {
+		DisplayName: キャンクロイドのアコーディオン
+		Tooltip:
+			'''
+			右クリックで音程を変更
+			「混沌の和音が奏でる不協和音」
+			'''
+	}
+
+	Plumeshroom: {
+		DisplayName: 噴煙キノコ
+		Tooltip: 巨大なキノコを召喚し、有害な胞子を放出させる
+	}
+
+	BlightCrate: {
+		DisplayName: 病蝕された木箱
+		Tooltip: 右クリックで開く
+	}
+
+	MushladStaff: {
+		DisplayName: マッドラッドの杖
+		Tooltip: 共に戦う凶暴なキノコ小僧を召喚する
+	}
+
+	SporovidStaff: {
+		DisplayName: 双生キノコの杖
+		Tooltip:
+			'''
+			共に戦う結合したキノコを召喚する
+			ミニオンスロットを2つ消費する
+			'''
+	}
+
+	VolcanicPupfish: {
+		DisplayName: 火山メダカ
+		Tooltip: ""
+	}
+
+	FrogspawnBottle: {
+		DisplayName: 瓶詰めのカエルの卵
+		Tooltip:
+			'''
+			周囲を照らすキノコガエルを召喚する
+			「日光浴を欠かさずに」
+			'''
+	}
+
+	StemCell: {
+		DisplayName: 幹細胞
+		Tooltip: 回復アイテムの効果が10%増加
+	}
+
+	TruffleLeg: {
+		DisplayName: トリュフの脚
+		Tooltip:
+			'''
+			ジャンプ速度が上昇し、落下ダメージを軽減
+			下キーを押し続けると落下速度が上昇
+			'''
+	}
+
+	GoldenHunterPainting: {
+		DisplayName: 絵画『黄金の狩人』
+		Tooltip:
+			'''
+			作者不明
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	AdventurersNotebook: {
+		DisplayName: 冒険者の手記
+		Tooltip:
+			'''
+			最後のページ以外は読めない
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	RegalRapier: {
+		DisplayName: 王家のレイピア
+		Tooltip: ""
+	}
+
+	PerishedRose: {
+		DisplayName: 枯れ果てたバラ
+		Tooltip:
+			'''
+			どういうわけか侵食を免れた花
+			しおれて乾ききっているが、それでも命をつないでいる
+			思い出の品として以外の価値はない
+			'''
+	}
+
+	MessageInABottle: {
+		DisplayName: 瓶入りの手紙
+		Tooltip:
+			'''
+			瓶の中に古びた羊皮紙が入っている
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	Tumor: {
+		DisplayName: 腫瘍ブロック
+		Tooltip: ""
+	}
+
+	TumorWall: {
+		DisplayName: 腫瘍の壁
+		Tooltip: ""
+	}
+
+	ArrestBounty: {
+		DisplayName: 逮捕のための指名手配書
+		Tooltip:
+			'''
+			表面には女性兵士の肖像画が描かれている
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	TradeNotice: {
+		DisplayName: 交易通知書
+		Tooltip:
+			'''
+			交易契約の終了を宣言する正式な通知
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	Terathrowma: {
+		DisplayName: テラスローマ
+		Tooltip: 敵に膿を滴らせる
+	}
+
+	HandMortar: {
+		DisplayName: 手持ち迫撃砲
+		Tooltip: 手榴弾を弾薬として使用する
+	}
+
+	InfestedHalberd: {
+		DisplayName: 侵蝕されたハルバード
+		Tooltip: ""
+	}
+
+	ClusterGrenade: {
+		DisplayName: 分裂手榴弾
+		Tooltip:
+			'''
+			爆発すると複数の小型手榴弾に分裂する
+			小型手榴弾はタイルを破壊しない
+			'''
+	}
+
+	Bilethrower: {
+		DisplayName: バイルスロワー
+		Tooltip:
+			'''
+			キノコを弾薬として使用する
+			敵の防御力を5無視する
+			'''
+	}
+
+	BlightWormBanner: {
+		DisplayName: 汚染ワームのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：汚染ワーム
+	}
+
+	TumoroidMawBanner: {
+		DisplayName: 腫瘍の大口のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：腫瘍の大口
+	}
+
+	TumoroidSentryBanner: {
+		DisplayName: 腫瘍の番兵のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：腫瘍の番兵
+	}
+
+	TumoroidSpewerBanner: {
+		DisplayName: 腫瘍の吐き手のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：腫瘍の吐き手
+	}
+
+	FlamebruteBanner: {
+		DisplayName: 灼熱の猛者のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：灼熱の猛者
+	}
+
+	DragonCape: {
+		DisplayName: ドラゴンのマント
+		Tooltip: ""
+	}
+
+	HydraNecklace: {
+		DisplayName: ヒュドラのネックレス
+		Tooltip: ""
+	}
+
+	MosquitoWing: {
+		DisplayName: 蚊の羽
+		Tooltip: ""
+	}
+
+	CragShell: {
+		DisplayName: 岩塊の甲殻
+		Tooltip: ""
+	}
+
+	ScorchedEgg: {
+		DisplayName: 焼け焦げた卵
+		Tooltip: ""
+	}
+
+	LivingEmberItem: {
+		DisplayName: 生ける残り火
+		Tooltip: ""
+	}
+
+	AbyssiumBar: {
+		DisplayName: 粗製の鱗鎧
+		Tooltip: ""
+	}
+
+	BeastScales: {
+		DisplayName: 獣の鱗
+		Tooltip: ""
+	}
+
+	DragonScale: {
+		DisplayName: ドラゴンの鱗
+		Tooltip: ""
+	}
+
+	FishSkin: {
+		DisplayName: 魚の皮
+		Tooltip: ""
+	}
+
+	IncineriteBar: {
+		DisplayName: インシネライトのインゴット
+		Tooltip: ""
+	}
+
+	IncineriteOre: {
+		DisplayName: インシネライト鉱石
+		Tooltip: ""
+	}
+
+	LurkerHide: {
+		DisplayName: ラーカーの皮
+		Tooltip: ""
+	}
+
+	MonsterTeeth: {
+		DisplayName: モンスターの歯
+		Tooltip: ""
+	}
+
+	ScorchedScale: {
+		DisplayName: 焼け焦げた鱗
+		Tooltip: ""
+	}
+
+	FlamespitterBanner: {
+		DisplayName: フレイムスピッターのバナー
+		Tooltip: ""
+	}
+
+	GiantMosquitoBanner: {
+		DisplayName: 巨大蚊のバナー
+		Tooltip: ""
+	}
+
+	KomodoBanner: {
+		DisplayName: コモドのバナー
+		Tooltip: ""
+	}
+
+	WyrmlingBanner: {
+		DisplayName: 幼竜のバナー
+		Tooltip: ""
+	}
+
+	AncientBogwood: {
+		DisplayName: 古代の沼木
+		Tooltip: ""
+	}
+
+	AncientRazewood: {
+		DisplayName: 古代のレイズウッド
+		Tooltip: ""
+	}
+
+	IncineriteBrick: {
+		DisplayName: インシネライトのレンガ
+		Tooltip: ""
+	}
+
+	TorchAsh: {
+		DisplayName: 火山灰
+		Tooltip: ""
+	}
+
+	Torchice: {
+		DisplayName: スノーフレークオブシディアン
+		Tooltip: ""
+	}
+
+	BroodmotherRelic: {
+		DisplayName: 繁殖母体のレリック
+		Tooltip: ""
+	}
+
+	BroodmotherTrophy: {
+		DisplayName: 繁殖母体のトロフィー
+		Tooltip: ""
+	}
+
+	SwamplurkerRelic: {
+		DisplayName: スワンプラーカーのレリック
+		Tooltip: ""
+	}
+
+	SwamplurkerTrophy: {
+		DisplayName: スワンプラーカーのトロフィー
+		Tooltip: ""
+	}
+
+	AncientBogwoodWall: {
+		DisplayName: 古代の沼木の壁
+		Tooltip: ""
+	}
+
+	AncientRazewoodWall: {
+		DisplayName: 古代のレイズウッドの壁
+		Tooltip: ""
+	}
+
+	IncineriteBrickWall: {
+		DisplayName: インシネライトのレンガ壁
+		Tooltip: ""
+	}
+
+	Lantern: {
+		DisplayName: ランタン
+		Tooltip: ""
+	}
+
+	BroodmotherTreasureBag: {
+		DisplayName: トレジャーバッグ（繁殖母体）
+		Tooltip: ""
+	}
+
+	SwamplurkerTreasureBag: {
+		DisplayName: トレジャーバッグ（スワンプラーカー）
+		Tooltip: ""
+	}
+
+	BroodmotherMask: {
+		DisplayName: 繁殖母体のマスク
+		Tooltip: ""
+	}
+
+	SwamplurkerMask: {
+		DisplayName: スワンプラーカーのマスク
+		Tooltip: ""
+	}
+
+	HeatersMaw: {
+		DisplayName: 灼熱の大顎
+		Tooltip: ""
+	}
+
+	Pyrosphere: {
+		DisplayName: パイロスフィア
+		Tooltip: ""
+	}
+
+	Railjaw: {
+		DisplayName: レールジョー
+		Tooltip: ""
+	}
+
+	TriheadLongbow: {
+		DisplayName: 三つ首のロングボウ
+		Tooltip: ""
+	}
+
+	InfernoRubble: {
+		Tooltip: ""
+		DisplayName: インフェルノの瓦礫
+	}
+
+	IncineriteHelmet: {
+		DisplayName: 烈火の僧帽
+		Tooltip:
+			'''
+			魔法とミニオンダメージが10%増加
+			鞭の射程が10%増加
+			'''
+	}
+
+	IncineriteChestplate: {
+		DisplayName: 烈火の僧衣
+		Tooltip:
+			'''
+			魔法とミニオンダメージが8%増加
+			ミニオンの最大召喚数が1増加
+			'''
+	}
+
+	IncineriteBoots: {
+		DisplayName: 烈火の僧裙
+		Tooltip: セントリーの最大設置数が1増加
+	}
+
+	DragonBullet: {
+		Tooltip: ""
+		DisplayName: ドラゴンの弾丸
+	}
+
+	DragonArrow: {
+		Tooltip: 空気抵抗を受けず、空中を勢いよく飛んでいく
+		DisplayName: ドラゴンの矢
+	}
+
+	BurningStaff: {
+		DisplayName: 燃え盛る杖
+		Tooltip: 
+			'''
+			カーソルの位置に炎の塊を召喚する
+			炎の塊は近くの敵に向けて次々と飛翔体を放ち、最後に爆発する
+			'''
+	}
+
+	DragonsBreath: {
+		DisplayName: ドラゴンブレス
+		Tooltip: ""
+	}
+
+	DragonClaws: {
+		DisplayName: ドラゴンクロー
+		Tooltip: 
+			'''
+			左クリックで炎をまとった連続攻撃を行う
+			右クリックで敵との距離を詰めるダッシュ斬りを行う
+			'''
+	}
+
+	FlamingFury: {
+		DisplayName: 烈火の憤怒
+		Tooltip: ""
+	}
+
+	Incineration: {
+		DisplayName: インシネレーション
+		Tooltip: 
+			'''
+			敵に衝突することで武器に熱が蓄積される
+			熱が最大まで蓄積されると、ヨーヨーが爆発し、手元に戻る
+			'''
+	}
+
+	DragonFlamebow: {
+		DisplayName: ドラゴンフレイムボウ
+		Tooltip: ""
+	}
+
+	SearingGuard: {
+		DisplayName: 灼熱の守護
+		Tooltip:
+			'''
+			防御力が3増加
+			「燃えている！」を無効化
+			ダメージを受けると熱波を放つ
+			'''
+	}
+
+	Kusarigama: {
+		Tooltip: ""
+		DisplayName: 鎖鎌
+	}
+
+	ThrowingPickaxe: {
+		Tooltip: ""
+		DisplayName: 投擲ツルハシ
+	}
+
+	Spluttershot: {
+		Tooltip: ""
+		DisplayName: スプラッターショット
+	}
+
+	SmokeBomb: {
+		Tooltip: ""
+		DisplayName: 煙霧弾
+	}
+
+	Fukiya: {
+		Tooltip: ""
+		DisplayName: 吹き矢
+	}
+
+	SacrificialKnife: {
+		Tooltip: 右クリックでライフを消費して刃に血を蓄え、与えるダメージを増加させる
+		DisplayName: 生贄のナイフ
+	}
+
+	ExilesKatana: {
+		Tooltip: ""
+		DisplayName: 追放者のカタナ
+	}
+
+	Daisho: {
+		Tooltip: ""
+		DisplayName: 大小
+	}
+
+	RootWand: {
+		Tooltip: 敵を根で拘束する
+		DisplayName: 根の杖
+	}
+
+	BogwoodPike: {
+		Tooltip: ""
+		DisplayName: 沼木の長槍
+	}
+
+	ScalemailHelmet: {
+		DisplayName: 鱗鎧の兜
+		Tooltip: 近接と遠距離ダメージが10%増加
+	}
+
+	ScalemailGreaves: {
+		DisplayName: 鱗鎧のすね当て
+		Tooltip: 移動速度が18%上昇
+	}
+
+	ScalemailBreastplate: {
+		DisplayName: 鱗鎧の胸当て
+		Tooltip:
+			'''
+			近接と遠距離ダメージが8%増加
+			攻撃してきた敵にもダメージを与える
+			'''
+	}
+
+	AshigaruCap: {
+		DisplayName: 足軽の笠
+		Tooltip: 敵から狙われにくくなる
+	}
+
+	AshigaruBreastplate: {
+		DisplayName: 足軽の装束
+		Tooltip: フィッシング・パワーが6向上する
+	}
+
+	AshigaruBoots: {
+		DisplayName: 足軽の脚絆
+		Tooltip: フィッシング・パワーが7向上する
+	}
+
+	ToothDart: {
+		Tooltip: ""
+		DisplayName: 歯のダーツ
+	}
+
+	SmallMirePod: {
+		Tooltip: ""
+		DisplayName: 小さな沼地の莢
+	}
+
+	HydraBullet: {
+		Tooltip: ""
+		DisplayName: ヒュドラの弾丸
+	}
+
+	IronPike: {
+		DisplayName: 鉄の長槍
+		Tooltip: ""
+	}
+
+	LeadPike: {
+		DisplayName: 鉛の長槍
+		Tooltip: ""
+	}
+
+	MushladTerrarium: {
+		DisplayName: テラリウム（キノコ小僧）
+		Tooltip: ""
+	}
+
+	BrownMushladTerrarium: {
+		DisplayName: テラリウム（キノコ小僧（茶））
+		Tooltip: ""
+	}
+
+	GreyMushladTerrarium: {
+		DisplayName: テラリウム（キノコ小僧（灰））
+		Tooltip: ""
+	}
+
+	FungrockBrick: {
+		DisplayName: キノコ岩のレンガ
+		Tooltip: ""
+	}
+
+	FungrockBrickWall: {
+		DisplayName: キノコ岩のレンガ壁
+		Tooltip: ""
+	}
+
+	InfernoTable: {
+		DisplayName: インフェルノのテーブル
+		Tooltip: ""
+	}
+
+	DevPlacementTool: {
+		DisplayName: 開発者用配置ツール
+		Tooltip: ""
+	}
+
+	IncineriteDrillHead: {
+		DisplayName: インシネライトドリルヘッド
+		Tooltip:
+			'''
+			高度に発展した文明が残した採掘機器の部品
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	UnderworldRelic: {
+		DisplayName: 地下世界のレリック
+		Tooltip:
+			'''
+			何者かを讃えるために建てられた記念碑と思われる
+			歴史の知識を持つ者なら興味を示すかもしれない
+			'''
+	}
+
+	BlightCampfire: {
+		DisplayName: 腐敗したキャンプファイア
+		Tooltip: ""
+	}
+
+	FungrockWall: {
+		DisplayName: キノコ岩の壁
+		Tooltip: ""
+	}
+
+	Bogroot: {
+		DisplayName: 沼地の根
+		Tooltip: ""
+	}
+
+	BogwoodFence: {
+		DisplayName: 沼木のフェンス
+		Tooltip: ""
+	}
+
+	BogrootWall: {
+		DisplayName: 沼地の根の壁
+		Tooltip: ""
+	}
+
+	Cinderock: {
+		DisplayName: シンダーロック
+		Tooltip: 魔法武器を4回使用するごとに火の玉を発射する
+	}
+
+	StewardGuardHelmet: {
+		Tooltip: ""
+		DisplayName: スチュワードガードの兜
+	}
+
+	StewardGuardGreaves: {
+		Tooltip: ""
+		DisplayName: スチュワードガードのすね当て
+	}
+
+	StewardGuardChainmail: {
+		Tooltip: ""
+		DisplayName: スチュワードガードの胸当て
+	}
+
+	ObsidianGolemBanner: {
+		DisplayName: 黒曜石ゴーレムのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：黒曜石ゴーレム
+	}
+
+	WillowWispItem: {
+		DisplayName: ウィローウィスプ
+		Tooltip: ""
+	}
+
+	HotCoal: {
+		Tooltip: ""
+		DisplayName: 灼熱の炭
+	}
+
+	AnguishedCoalsBanner: {
+		DisplayName: 苦悶の炭のバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：苦悶の炭
+	}
+
+	TwistedRootBanner: {
+		Tooltip: ""
+		DisplayName: ねじれた根のバナー
+	}
+
+	TerrorvineBanner: {
+		Tooltip: ""
+		DisplayName: 恐怖のツタのバナー
+	}
+
+	RootSuckerBanner: {
+		Tooltip: ""
+		DisplayName: 吸い付き根のバナー
+	}
+
+	LongneckBanner: {
+		Tooltip: ""
+		DisplayName: ロングネックのバナー
+	}
+
+	DepthstalkerBanner: {
+		DisplayName: 深淵の追跡者のバナー
+		Tooltip: ""
+	}
+
+	OilSlimeBanner: {
+		DisplayName: オイルスライムのバナー
+		Tooltip: ""
+	}
+
+	MireBearTrap: {
+		DisplayName: トラバサミ
+		Tooltip: ""
+	}
+
+	ShrapnelOfTeeth: {
+		DisplayName: 牙の散弾
+		Tooltip: ""
+	}
+
+	TerrorvineWhip: {
+		DisplayName: 恐怖のツタの鞭
+		Tooltip: ""
+	}
+
+	HydraArrow: {
+		DisplayName: ヒュドラの矢
+		Tooltip: 矢が2つに分裂する
+	}
+
+	Torchsandstone: {
+		DisplayName: 松明砂石
+		Tooltip: ""
+	}
+
+	TorchAshWall: {
+		DisplayName: 火山灰の壁
+		Tooltip: ""
+	}
+
+	TorchiceWall: {
+		DisplayName: スノーフレークオブシディアンの壁
+		Tooltip: ""
+	}
+
+	HardenedTorchsandWall: {
+		DisplayName: 固まった松明砂の壁
+		Tooltip: ""
+	}
+
+	TorchsandstoneWall: {
+		DisplayName: 松明砂石の壁
+		Tooltip: ""
+	}
+
+	Crossbow: {
+		DisplayName: クロスボウ
+		Tooltip: ""
+	}
+
+	VialOfResentment: {
+		DisplayName: 怨恨の小瓶
+		Tooltip:
+			'''
+			戦慄の月を召喚する
+			「ヒュドラは決して忘れない。」
+			'''
+	}
+
+	UrnOfRemembrance: {
+		DisplayName: 追憶の壺
+		Tooltip:
+			'''
+			悲嘆の太陽を召喚する
+			「ドラゴンは非常に感情豊かな生き物だ。」
+			'''
+	}
+
+	HydravenomGland: {
+		DisplayName: ヒュドラの毒腺
+		Tooltip: クリティカルダメージが50%増加
+	}
+
+	IncineriteTower: {
+		Tooltip: ""
+		DisplayName: インシネライトの塔
+	}
+
+	MusblightGrassWall: {
+		Tooltip: ""
+		DisplayName: 菌糸感染地帯の草の壁
+	}
+
+	BlightedMushroomWall: {
+		Tooltip: ""
+		DisplayName: 腐敗したキノコの壁
+	}
+
+	SullenwoodHuskBanner: {
+		Tooltip: ""
+		DisplayName: サレンウッドハスクのバナー
+	}
+
+	Eruptor: {
+		Tooltip: ""
+		DisplayName: イラプター
+	}
+
+	SicknessTonic: {
+		Tooltip: 毒と酸性毒を無効化する
+		DisplayName: 耐毒薬
+	}
+
+	CoagulantTonic: {
+		Tooltip: 毒に関連するデバフの持続時間が半減する
+		DisplayName: 凝固剤のトニック
+	}
+
+	SuperSpicyCurry: {
+		DisplayName: とても辛いカレー
+		Tooltip: 敵に向かって火を吐くようになる
+	}
+
+	MagmaSpriteBanner: {
+		Tooltip: ""
+		DisplayName: マグマスプライトのバナー
+	}
+
+	SmoulderingTonic: {
+		Tooltip: 「燃焼」と「燃えている！」を無効化する
+		DisplayName: 燻るトニック
+	}
+
+	AccursedBlade: {
+		DisplayName: 呪われた刃
+		Tooltip:
+			'''
+			右クリックでマナを20消費し、呪われた血を発射する
+			呪われた血が命中した敵は、この剣から受けるダメージが増加する
+			'''
+	}
+
+	GraveHand: {
+		DisplayName: 墓場の手
+		Tooltip:
+			'''
+			右クリックを押し続けると移動速度が低下するが、
+			近くの敵のライフを吸収しつつ魔法ダメージを与える
+			「君は幽霊を信じるかい？」
+			'''
+	}
+
+	TheKnife: {
+		DisplayName: ザ・ナイフ
+		Tooltip: ""
+	}
+
+	BlightedBathtub: {
+		DisplayName: 腐敗した浴槽
+		Tooltip: ""
+	}
+
+	BlightedBed: {
+		DisplayName: 腐敗したベッド
+		Tooltip: ""
+	}
+
+	BlightedBookcase: {
+		DisplayName: 腐敗した本棚
+		Tooltip: ""
+	}
+
+	BlightedCandelabra: {
+		DisplayName: 腐敗した燭台
+		Tooltip: ""
+	}
+
+	BlightCandle: {
+		DisplayName: 腐敗した蝋燭
+		Tooltip: ""
+	}
+
+	BlightedChair: {
+		DisplayName: 腐敗したイス
+		Tooltip: ""
+	}
+
+	BlightedChandelier: {
+		DisplayName: 腐敗したシャンデリア
+		Tooltip: ""
+	}
+
+	BlightedClock: {
+		DisplayName: 腐敗した時計
+		Tooltip: ""
+	}
+
+	BlightedDoor: {
+		DisplayName: 腐敗したドア
+		Tooltip: ""
+	}
+
+	BlightedDresser: {
+		DisplayName: 腐敗したドレッサー
+		Tooltip: ""
+	}
+
+	Cranberries: {
+		DisplayName: クランベリー
+		Tooltip: ""
+	}
+
+	Roselle: {
+		DisplayName: ローゼル
+		Tooltip: ""
+	}
+
+	Salak: {
+		DisplayName: サラク
+		Tooltip: ""
+	}
+
+	WaterChestnut: {
+		DisplayName: クワイ
+		Tooltip: ""
+	}
+
+	BlightedLamp: {
+		DisplayName: 腐敗したランプ
+		Tooltip: ""
+	}
+
+	BlightedLantern: {
+		DisplayName: 腐敗したランタン
+		Tooltip: ""
+	}
+
+	BlightedPiano: {
+		DisplayName: 腐敗したピアノ
+		Tooltip: ""
+	}
+
+	BlightedSink: {
+		DisplayName: 腐敗したシンク
+		Tooltip: ""
+	}
+
+	BlightedSofa: {
+		DisplayName: 腐敗したソファ
+		Tooltip: ""
+	}
+
+	BlightedTable: {
+		DisplayName: 腐敗したテーブル
+		Tooltip: ""
+	}
+
+	BlightedToilet: {
+		DisplayName: 腐敗したトイレ
+		Tooltip: ""
+	}
+
+	BlightedWorkbench: {
+		DisplayName: 腐敗した作業台
+		Tooltip: ""
+	}
+
+	TwistedBracer: {
+		DisplayName: ねじれた腕当て
+		Tooltip: 身体から防御用のツタが生え、敵に命中すると生命力を奪う
+	}
+
+	MireStargazer: {
+		DisplayName: 沼地のスターゲイザー
+		Tooltip: 右クリックで皮を剥ぎ取る
+	}
+
+	ShinyCrappie: {
+		DisplayName: 輝くクラッピー
+		Tooltip: ""
+	}
+
+	AcidGar: {
+		DisplayName: アシッドガー
+		Tooltip: 右クリックで皮を剥ぎ取る
+	}
+
+	BloatedBluegill: {
+		DisplayName: 膨れたブルーギル
+		Tooltip: 右クリックで皮を剥ぎ取る
+	}
+
+	DwellerFish: {
+		DisplayName: ドウェラーフィッシュ
+		Tooltip: ""
+	}
+
+	Moonfish: {
+		DisplayName: ムーンフィッシュ
+		Tooltip: 右クリックで流れ星を入手できる！
+	}
+
+	Whiskerfish: {
+		DisplayName: ヒゲ魚
+		Tooltip: 右クリックで皮を剥ぎ取る
+	}
+
+	SkinnedFish: {
+		DisplayName: 皮を剥いだ魚
+		Tooltip: 全ステータスがわずかに強化
+	}
+
+	WickedNeckpiece: {
+		Tooltip:
+			'''
+			クリティカル率が7%上昇する
+			弓でクリティカルが発生すると、7秒間連射速度が上昇する
+			効果中はクリティカルが発生せず、終了後は7秒間再発動できない
+			'''
+		DisplayName: 邪悪な首飾り
+	}
+}
+
+Projectiles: {
+	InfernoHook.DisplayName: インフェルノフック
+	MireHook.DisplayName: 沼地フック
+	HelpingHands_Proj.DisplayName: 混沌の指揮棒
+	Nightcrawler_Proj.DisplayName: ナイトクローラーの鉤爪
+	Worms_Proj.DisplayName: ワームの束
+	Blazeshot.DisplayName: 火炎弾
+	Furyflame.DisplayName: 憤怒の炎
+	Inferno_GroundShock.DisplayName: 衝撃波
+	InfernoGripDefeat.DisplayName: 業火の拳
+	Mire_GroundShock.DisplayName: 衝撃波
+	MireGripDefeat.DisplayName: 泥沼の掌
+	Wrathbolt.DisplayName: 憤怒の雷撃
+	Wrathshot.DisplayName: 憤怒の弾丸
+	ShockwaveBoom.DisplayName: 衝撃波の爆発
+	BlueFireGel.DisplayName: 燃えるジェル
+	ManaPetal.DisplayName: マナの花びら
+	PhantomClaw1.DisplayName: 幻影の鉤爪1
+	PhantomClaw2.DisplayName: 幻影の鉤爪2
+	PinkFireGel.DisplayName: 跳ねるジェル
+	RestingGel.DisplayName: 静止したジェル
+	FireTalon.DisplayName: 炎の鉤爪
+	BleedingBone.DisplayName: 血を滴らせる骨
+	StarShard.DisplayName: 星の破片
+	TalonSlash.DisplayName: 鉤爪の斬撃
+	WaterTalon.DisplayName: 水の鉤爪
+	CopperChunk.DisplayName: 銅の塊
+	Criminal.DisplayName: 罪人
+	Criminal_Proj.DisplayName: 血の吐瀉物
+	DemonEater.DisplayName: 悪魔喰らい
+	InfernoHelper.DisplayName: インフェルノの援護者
+	InfernoHelper_Proj.DisplayName: 火炎噴射
+	MireHelper.DisplayName: 沼地の援護者
+	MireHelper_Proj.DisplayName: 水弾
+	TwinkleStar.DisplayName: きらきら星
+	TwinkleStar_Proj.DisplayName: 星の弾丸
+	InfernoGripling.DisplayName: 小さな業火の拳
+	MireGripling.DisplayName: 小さな泥沼の掌
+	DragonShot.DisplayName: ドラゴンショット
+	HydraShot.DisplayName: ヒュドラショット
+	Minisquito.DisplayName: ミニモスキート
+	VolcanicShot.DisplayName: 火山弾
+	InfernoSpray.DisplayName: インフェルノの噴射
+	MireSpray.DisplayName: 沼地の噴射
+	OrderSpray.DisplayName: 秩序の噴射
+	CocktailSummon.DisplayName: カクテルの召喚
+	TorchsandBall.DisplayName: 松明砂の球
+	DepthsandBall.DisplayName: 深層砂の球
+	SporeBomb.DisplayName: 胞子爆弾
+	TruffleTongue_Proj.DisplayName: トリュフの舌
+	Frogeyes_Proj.DisplayName: カエルの目
+	FFExplosion.DisplayName: ファンガル手榴弾
+	FungalFrag.DisplayName: ファンガル手榴弾
+	SporeBloonHoldOut.DisplayName: 胞子風船の構え
+	FungalFroglet.DisplayName: キノコガエル
+	SporeBloonCloud.DisplayName: 胞子風船の雲
+	ToadSummon.DisplayName: ヒキガエルの召喚
+	MushblightSpray.DisplayName: キノコ汚染液の噴射
+	Mushroom.DisplayName: キノコ
+	GlowingMushroom.DisplayName: 光るキノコ
+	ViciousMushroom.DisplayName: 凶悪なキノコ
+	VileMushroom.DisplayName: 不浄のキノコ
+	InfernoMushroom.DisplayName: インフェルノキノコ
+	MireMushroom.DisplayName: 沼地キノコ
+	BlightShroom.DisplayName: 腐敗したキノコ
+	FeastingTube_Top.DisplayName: 貪食の触管
+	FeastingTube_Proj.DisplayName: 貪食の触管
+	FeastingTube_Proj_Top.DisplayName: 貪食の触管
+	StemSmacker_Ball.DisplayName: ステムスマッカー
+	ChaosBallFriendly.DisplayName: 味方の混沌球
+	CranialThorn.DisplayName: 頭蓋の棘
+	CranialThorn_Shrapnel.DisplayName: 頭蓋の破片
+	HeadSpike.DisplayName: 頭部の棘
+	HeadSpike_Shrapnel.DisplayName: 頭部の破片
+	FesteringSkewer.DisplayName: 腐敗の串槍
+	FesteringSkin.DisplayName: 化膿した皮膚
+	Chordyceps_Proj.DisplayName: コードセプス
+	Brasshroom_Proj.DisplayName: ブラスルーム
+	GroundSpike.DisplayName: 地面の棘
+	MonarchDie.DisplayName: マッシュルームモナーク
+	SporeCloud.DisplayName: 胞子の雲
+	Slashroom_Tip.DisplayName: スラッシュルーム
+	LongSkewer.DisplayName: 長い串
+	OrderSolutionDroplet.DisplayName: 環境変更液（秩序）の滴
+	GlassShards.DisplayName: ガラスの破片
+	DukeShroom.DisplayName: デュークシュルーム
+	Slashroom_Proj.DisplayName: スラッシュルーム
+	Splinter_Proj.DisplayName: 木片の棘
+	FungoidHulk_Bottom_Proj.DisplayName: 菌巨兵の吐瀉物
+	CreeperVine_Lure.DisplayName: ツタクリーパー
+	LadsFolly.DisplayName: 若者の愚行
+	Wiki.DisplayName: ウィキ
+	Brasshroom_Proj2.DisplayName: ブラスルーム
+	BloodBubble.DisplayName: 血の泡
+	ToadLeave.DisplayName: トリュフヒキガエル
+	ToadSeed.DisplayName: ヒキガエルの種
+	SporeBubble.DisplayName: 胞子の泡
+	HealingTalismanHold.DisplayName: 治癒のお守り
+	Tadpole.DisplayName: トリュフオタマジャクシ
+	ToadEggs.DisplayName: ヒキガエルの卵
+	CancroidAccordian_Proj3.DisplayName: キャンクロイドの低音
+	CancroidAccordian_Proj2.DisplayName: キャンクロイドの音符
+	CancroidAccordian_Proj.DisplayName: キャンクロイドの高音
+	PlumeshroomSentry.DisplayName: 噴煙キノコのセントリー
+	Plumeshroom_Proj.DisplayName: 噴煙キノコの胞子
+	Madlad_Red.DisplayName: マッドラッド
+	Madlad.DisplayName: マッドラッド
+	SporadicSporovid.DisplayName: 奇怪な胞子生物
+	BlightWorm_Proj.DisplayName: 汚染ワーム
+	RegalRapier.DisplayName: 王家のレイピア
+	TumoroidBile.DisplayName: 腫瘍体の胆汁
+	TumoroidBouncingBile.DisplayName: 跳ねる腫瘍体の胆汁
+	PusDrip.DisplayName: 滴る膿
+	Terathrowma_Proj.DisplayName: テラスローマ
+	InfestedHalberd_Proj.DisplayName: 侵蝕されたハルバード
+	TumorTendril.DisplayName: 腫瘍の触手
+	InfestedHalberd_Held.DisplayName: 侵蝕されたハルバード
+	Bilethrower_Proj.DisplayName: バイルスロワー
+	ClusterGrenade_Proj.DisplayName: 分裂手榴弾
+	Mininade.DisplayName: ミニ手榴弾
+	Brasshroom_Held.DisplayName: ブラスルーム
+	SporadicSporovid_Proj.DisplayName: スポロビッドの棘
+	FlameSpit.DisplayName: 火炎弾
+	Pyrosphere_Ball.DisplayName: パイロスフィア
+	FlamespitterSpit.DisplayName: フレイムスピッターの火球
+	MawLavaBlast.DisplayName: 大口の溶岩弾
+	BabyCrag.DisplayName: 岩塊の幼体
+	Broodmini.DisplayName: ミニブルード
+	RailjawLavaBlob.DisplayName: レールジョーの溶岩塊
+	RailjawStone1.DisplayName: レールジョーの石1
+	RailjawStone2.DisplayName: レールジョーの石2
+	HeatPulse.DisplayName: 熱波
+	DragonClawsSlashAlt.DisplayName: ドラゴンの鉤爪
+	KomodoBreath.DisplayName: コモドのブレス
+	IncineriteFireball.DisplayName: インシネライトの火球
+	MagmaBall.DisplayName: マグマの球
+	FlamingFuryThrow.DisplayName: 烈火の憤怒の投擲
+	DragonClawSlash.DisplayName: ドラゴンの鉤爪
+	FlamingFuryEnergy.DisplayName: 烈火の憤怒のエネルギー
+	FuryBall1.DisplayName: 憤怒の球1
+	Incineration_Proj.DisplayName: インシネレーション
+	DragonArrow.DisplayName: ドラゴンの矢
+	DragonArrowFireball.DisplayName: ドラゴンの矢の火球
+	IncineriteExplosion.DisplayName: インシネライトの爆発
+	RootWandProjectile.DisplayName: 根の杖
+	BogwoodPike.DisplayName: 沼木の長槍
+	TwistedRootProj.DisplayName: ねじれた根
+	TerrorvineHead.DisplayName: 恐怖のツタの頭部
+	SoulResidue.DisplayName: 魂の残滓
+	Kusarigama_Proj.DisplayName: 鎖鎌
+	Spluttershot_HoldOut.DisplayName: スプラッターショット
+	ExilesKatana_Proj.DisplayName: 追放者のカタナ
+	CancroidAccordian_Proj4.DisplayName: キャンクロイドのアコーディオン
+	ToothDart_Proj.DisplayName: 歯のダーツ
+	SmallMirePod_Proj.DisplayName: 沼地の莢
+	RootWandProjectileRoots.DisplayName: 木の根
+	DaishoSlash.DisplayName: 大小の斬撃
+	DaishoThrust.DisplayName: 大小の突き
+	SmokeBomb.DisplayName: 煙霧弾
+	SmokeCloud.DisplayName: スモッグの雲
+	ThrowingPickaxe.DisplayName: 投擲ツルハシ
+	IronPike.DisplayName: 鉄の長槍
+	LeadPike.DisplayName: 鉛の長槍
+	LargeRubbleProj.DisplayName: 瓦礫
+	LavaBomb.DisplayName: 溶岩爆弾
+	SmallRubbleProj.DisplayName: 瓦礫
+	InfernoExplosion.DisplayName: インフェルノの爆発
+	FlamingFury_Held.DisplayName: 烈火の憤怒
+	TumorBlood.DisplayName: 腫瘍の血液
+	InfernoExplosionHostile.DisplayName: 敵対的なインフェルノの爆発
+	TerathrowmaTooth.DisplayName: テラスローマの歯
+	CinderShot.DisplayName: 燃え殻の弾丸
+	CinderWheel.DisplayName: 燃え殻の車輪
+	VenomSpit.DisplayName: 毒液
+	ApparitionSpawner.DisplayName: 亡霊の出現
+	ApparitionDespawner.DisplayName: 亡霊の消失
+	AnguishedCoals_Proj.DisplayName: 苦悶の岩
+	SacrificialKnife_Proj.DisplayName: 生贄のナイフ
+	SacknifeReturner.DisplayName: 戻ってくる生贄のナイフ
+	MireBearTrap.DisplayName: トラバサミ
+	ShrapnelOfTeeth.DisplayName: 牙の散弾
+	ShrapnelOfTeeth_Tooth.DisplayName: 牙の散弾の歯
+	TerrorvineWhip_Proj.DisplayName: 恐怖のツタの鞭
+	HydraArrow.DisplayName: ヒュドラの矢
+	SullenwoodHusk_Proj.DisplayName: サレンウッドハスク
+	IncineriteTowerSentry.DisplayName: インシネライトの塔型セントリー
+	AccursedBlade_Proj.DisplayName: 呪われた刃
+	GraveHand_HoldOut.DisplayName: 墓場の手
+	GraveDrain.DisplayName: 墓場の吸収
+	TwistedBracerThorn.DisplayName: ねじれた腕当ての棘
+	ShroomSaber.DisplayName: シュルームセイバー
+}
+
+NPCs: {
+	GrappleClap: {
+		DisplayName: グリップスオブカオス
+		Subtitle: 災厄の双生児
+
+		BossChecklistIntegration: {
+			SpawnInfo: 	夜に[i:AAMod/HandSummons]を使用する
+			DespawnMessage: 双手はそれぞれの住処へと帰っていった...
+		}
+	}
+
+	TruffleToad: {
+		BossChecklistIntegration: {
+			SpawnInfo: 動いている青いキノコの群れを攻撃するか、キノコバイオームで[i:AAMod/FrogSpawn]を使用する
+			DespawnMessage: トリュフヒキガエルはぼんやりと跳ね去っていった...
+		}
+
+		DisplayName: トリュフヒキガエル
+		Subtitle: 菌糸に覆われた巨大両生類
+	}
+
+	InfernoGrip.DisplayName: 業火の拳
+	MireGrip.DisplayName: 泥沼の掌
+	OffGuardClap.DisplayName: グリップスオブカオス
+	DragonClaw.DisplayName: ドラゴンクロー
+	HoneyBee.DisplayName: 巨大蜂
+	HydraClaw.DisplayName: ヒュドラの爪
+	Hydra.DisplayName: ヒュドラ
+	LeafBeetle.DisplayName: ハムシ
+	Fanatic.DisplayName: 狂信者
+	Boomshroom.DisplayName: 爆発キノコ
+	GoAheadTellThemNobodyWillBelieveYou.DisplayName: でっぷりピクシー
+	BlueMushMound.DisplayName: 群生キノコ
+	ToadTongue.DisplayName: ヒキガエルの舌
+
+	MushMon: {
+		BossChecklistIntegration: {
+			SpawnInfo: 	菌糸感染地帯の洞窟の最深部にある腐敗した死骸を調べるか、菌糸感染地帯で[i:AAMod/RoyalEffigy]を使用する
+			DespawnMessage: マッシュルームモナークは地中へと姿を消した...
+		}
+
+		DisplayName: マッシュルームモナーク
+		Title: マッシュルームモナーク
+		Subtitle: 生み出されし菌類の王
+	}
+
+	ExhaustedWoman.DisplayName: 疲弊した女性
+	FungoidSwarmer.DisplayName: 群生菌類
+	FungoidGrunt.DisplayName: 低級菌兵
+	Splinter.DisplayName: ササクレ
+	FungoidHulk.DisplayName: 菌巨兵
+	FungoidHulk_Top.DisplayName: 菌巨兵
+	FungoidHulk_Bottom.DisplayName: 菌巨兵
+	Mushlad.DisplayName: キノコ小僧
+	CreeperVine.DisplayName: ツタクリーパー
+	Witherwing.DisplayName: 枯れ羽
+	HealingTree.DisplayName: 癒しの木
+
+	RoyalEffigy: {
+		DisplayName: ..?
+		ChatText: 腐敗した遺体が横たわっている...
+		ChatButtonText: 詳しく調べる
+	}
+
+	MonarchAwaken.DisplayName: ..!
+	BlightWorm.DisplayName: 汚染ワーム
+	BlightWorm_Dig.DisplayName: 汚染ワーム
+
+	Historian: {
+		DisplayName: 歴史学者
+
+		TownNPCMood: {
+			Content: 私は満足しています。
+			NoHome: まだこうして外にいるってことは、最初の質問への答えは「いいえ」ってことなんだろうね。
+			FarFromHome: また道に迷っちゃったみたいだ。ここの道順はいつまで経っても覚えられそうにないね。
+			LoveSpace: ようやく静かになったね。失って初めて、そのありがたさに気づくものなんだね。これは書き留めておかないと。故郷のみんなも、この発見にはきっと興味を持つはずだ。
+			DislikeCrowded: わがままを言って申し訳ないんだけど...もう少し静かな場所を探してくれないかな？こんなに騒がしいと、まるで故郷に戻ったみたいだよ。
+			HateCrowded: こんなに混んでいるのは嫌だよ。
+			LikeBiome: 残念ながら、これまで自然に触れる機会はあまりなかったんだ。でも、昔から自然は好きでね。動物や植物、それらが織りなす小さな生態系...私たちが彼らを興味深く思うように、彼らも私たちに興味を持っているのかな？ははっ...
+			HateBiome: わ、私は、その...す、住む場所を用意してくれたことには感謝しているよ。でも、お願いだからここから出してくれ。この場所は、ど、どうにも恐ろしくて...今すぐ出たいんだ！
+			LikeNPC: ここで気の合う人に出会えるとは思っていなかったよ。幸い、{NPCName}は話題が本当に豊富でね！
+			DislikeNPC: "{NPCName}をもう少ししつけてくれないかな。あの菌まみれの魚をまた見せられたら、私の精神が持ちそうにないよ。"
+			HateNPC: 頼むから、もっと離れた場所に移してくれないかな...{NPCName}のそばにはいられないんだ。
+			LikeNPC_Princess: "{NPCName}の称号が...本当に正当なものなのかは疑わしいけど、彼女がその地位にふさわしい人物であることは否定できないね。本当に王族なのだとしたら、これまで話した中で最も感じのいい王族だよ。"
+			Princess_LovesNPC: 私は{NPCName}が好きだ。
+		}
+
+		Census.SpawnCondition: 条件不明
+	}
+
+	TumoroidMaw.DisplayName: 腫瘍の大口
+	TumoroidSentry.DisplayName: 腫瘍の番兵
+	TumorNPC.DisplayName: 腫瘍
+	TumoroidSpewer.DisplayName: 腫瘍の吐き手
+	Mosster.DisplayName: モススター
+	Flamebrute.DisplayName: 灼熱の猛者
+	Broodmother.DisplayName: 繁殖母体
+	LurkerHeadBlue.DisplayName: スワンプラーカーの頭
+	LurkerHeadGreen.DisplayName: スワンプラーカーの頭
+	LurkerHeadPurple.DisplayName: スワンプラーカーの頭
+	Swamplurker.DisplayName: スワンプラーカー
+	Swamplurker_Sleep.DisplayName: スワンプラーカー
+	DragonEgg.DisplayName: ドラゴンの卵
+	LivingEmber.DisplayName: 生ける残り火
+	AcidFrog.DisplayName: 酸性ガエル
+	Flamespitter.DisplayName: フレイムスピッター
+	KaboomBeetle.DisplayName: 爆発甲虫
+	KomodoWalk.DisplayName: コモド
+	KomodoWall.DisplayName: コモド
+	LargeCrag.DisplayName: 岩塊
+	NormalCrag.DisplayName: 岩塊
+	OilSlime.DisplayName: オイルスライム
+	SmallCrag.DisplayName: 岩塊
+	WyrmlingBody.DisplayName: 幼竜
+	WyrmlingHead.DisplayName: 幼竜
+	WyrmlingTail1.DisplayName: 幼竜
+	WyrmlingTail2.DisplayName: 幼竜
+	Earwig.DisplayName: ハサミムシ
+	GatorSwim.DisplayName: ゲーター
+	GatorWalk.DisplayName: ゲーター
+	GiantMosquito.DisplayName: 巨大蚊
+	JunkSlime.DisplayName: ガラクタスライム
+	MireLoot.DisplayName: ???
+	MireFish2.DisplayName: ???
+	MireFish.DisplayName: ???
+	MireCrate.DisplayName: ???
+	GenericItem.DisplayName: ???
+	GenericFish.DisplayName: ???
+	TwistedRoot.DisplayName: ねじれた根
+	Terrorvine.DisplayName: 恐怖のツタ
+	RootSucker.DisplayName: 吸い付き根
+	MireViperTail.DisplayName: 沼地の毒蛇
+	MireViperHead.DisplayName: 沼地の毒蛇
+	MireViperBody.DisplayName: 沼地の毒蛇
+	FungoidSkitterer.DisplayName: キノコの徘徊者
+	MireTadpole.DisplayName: 沼地のオタマジャクシ
+	SmallEncampment.DisplayName: 小さな野営地
+	SoulTotem.DisplayName: 	ソウルトーテム
+	LongneckHead.DisplayName: ロングネック
+	Longneck.DisplayName: ロングネック
+	ObsidianGolem.DisplayName: 黒曜石ゴーレム
+	WillowWisp.DisplayName: ウィローウィスプ
+	Apparition.DisplayName: 亡霊
+	AnguishedCoals.DisplayName: 苦悶の炭
+	Depthstalker.DisplayName: 深淵の追跡者
+	DepthstalkerBaby.DisplayName: 深淵の追跡者の幼体
+	DepthstalkerEgg.DisplayName: 深淵の追跡者の卵
+	SullenwoodHusk.DisplayName: サレンウッドハスク
+	MireTreeNPC.DisplayName: ""
+	TreeApparation.DisplayName: 亡霊
+	MagmaSpriteOrbit.DisplayName: マグマスプライト
+	MagmaSprite.DisplayName: マグマスプライト
+}
+
+Dialogue: {
+Fanatic: {
+		StandardDialogue1: この世界の起源と、我々がいかにして生まれたのかについて語り合うために、9時間ほどお時間をいただけませんか？おや、無理ですか。それではまたの機会に。
+		StandardDialogue2: ああ、またお会いできて嬉しいですよ。...ん？まだ一度も会ったことがない、ですって？
+		StandardDialogue3: 私が旅した先では、どこもかしこも様々な姿形の神々を崇めていました。まったく、狂気の沙汰ですよ。忘れられし神々こそ、すべての神々の頂点に立つ存在なのです。
+		StandardDialogue4: あの声が消えることは決してありません。
+		DayDialogue1: 手短にお願いしますよ、我が友よ。あなたの視界から外れた瞬間、私は姿を消すつもりですから。
+		DayDialogue2: ううっ、日光は肌に障りますね。私は暗くなってから商売をする方がずっと好きなのですよ。
+		GraveyardDialogue: おや、なんとも陰鬱な雰囲気ですね。ここは私のいるべき場所ではありません。死者というものは、忘れられし神々について語り合う相手には向いていませんから。
+		BloodMoonDialogue1: おや、今夜の住民たちは随分と気が立っているようですね。...ん？あれは「ゾンビ」だと？
+		BloodMoonDialogue2: 月が血を流している？ああ、心配には及びません。時々あることですから。
+		EclipseDialogue1: 昼なのに明るくない。これは昼なのか、それとも夜なのか？私は留まるべきか、去るべきか？分からない。だから叫ぶしかないのです！
+		EclipseDialogue2: 日食というのは、実に見事な現象ですね。ただし、あまり長く見つめてはいけませんよ。網膜に取り返しのつかない損傷を与える恐れがありますから。
+		RainDialogue1: 雨を嫌う人もいますが、私は結構好きなのですよ。地面を叩く雨粒の音は、実に心が落ち着きます。それに、脱水症状で死ぬことも防げますからね。
+		RainDialogue2: おや、雨が降っていますね。幸いなことに、私の商品は防水仕様になっているのですよ。
+		RainDialogue3: 湿気よ...
+		SlimeRainDialogue1: ところで、王殺しというものをご存じですか？なぜそんなことを聞くのかって？このゼラチン状の生物たちを虐殺し続けていれば、思わぬ驚きが待っているかもしれませんのでね。
+		SlimeRainDialogue2: あのスライムたちを食べようなどとは、決して考えないことを強くおすすめしますよ。彼らの体は驚くほど酸性が強く、皮肉にもあなた自身が内側から消化されてしまうでしょうから。
+		FrostMoonDialogue: 私はもうクリスマスが好きではありません。
+		PumpkinMoonDialogue: 私はもうハロウィンが好きではありません。
+		PartyDialogue: パーティーですか？ぜひ参加したいところですが、忘れられし神々を讃えることに費やさない時間は、別のことに使った方が有意義ですからね。
+		MoonLordDialogue: 本当に、今がそれをするのにふさわしい時だと思っているのですか？
+	}
+
+	Historian: {
+		SavedDialogue: あっ！ち、近づかな...ああ、神様ありがとう！一瞬、本当にこれで最期だと思ったよ。た、助けてくれてありがとう。私はソフィー、西の方から来た、まだまだ勉強中の歴史家なんだ。数日前に襲われて、それからずっとここで立ち往生していてね。もし迷惑でなければ、この近くに避難できる場所を知らないかな？このままじゃ、今にも病気になってしまいそうで...
+		StandardDialogue1: 正直、私はもっと大きな場所に慣れているんだ。でも、ここもいいね。小さくて趣がある。何にせよ、毎晩草むらに身を隠して過ごすよりはずっとマシだよ...
+		StandardDialogue2: 私は主に都会で暮らしてきたから、こういう...ええと、気を悪くしたら申し訳ないけど、未開の土地にはあまり馴染みがなくてね。でも、全体的には期待以上の場所だよ！
+		StandardDialogue3: この地域が禁忌とされる理由も分かる気がするよ。砂漠とツンドラが歩いて行ける距離にあるなんて！？戦争の影響で、この土地が随分と奇妙な姿になってしまったのは確かだね！
+		StandardDialogue4: 差し支えなければ聞きたいんだけど、君は一体どうしてここにいるんだい？この一帯はとても危険で、500年ほど誰も定住していなかったんだよ！まあ、いつかは誰かが住み着くことになるとは思っていたけどね。
+		NightDialogue1: "{0}にドアを開けっ放しにしないよう言ってくれないかな？あの人が何度もモンスターを中に入れるから、何も手につかないんだ。"
+		NightDialogue2: こ、ここって、どこも同じくらいモンスターだらけなのかな？ちょっと外の空気を吸いたかっただけなのに、あのおぞましい目玉たちが何度も襲ってきて！ここがすっかり見捨てられたのも無理はないね...
+		NightDialogue3: 私の故郷では、空をじっくり眺めるのも難しくてね。その点、ここは素晴らしいよ。浮島もすぐ近くにあるし！あの上では一体何が起きているんだろう？ずっと静まり返っているみたいだけど。
+		BloodMoonDialogue1: 一度しか言わないからね、あの忌々しい連中を黙らせて！君は戦うのが好きなんだろう？だったら、ここに隠れてないで、さっさとあいつらを叩きのめしてきてよ！
+		BloodMoonDialogue2: 黙って！何も聞きたくない！いいから、あいつらを黙らせてきてよ！うるさすぎて、自分が何を考えているのかも分からないんだから！
+		RainDialogue: 雨のしとしと降る音は心が落ち着くね。おかげで集中できるよ。でも、雨そのものはあまり好きじゃないんだ。この服を洗うのがどれだけ大変か、君には分かるかい？
+		GraveyardDialogue: 私の知り合いに連絡を取れれば、何か分かるかもしれないんだけど...残念ながら、こういうことは私の専門外なんだ。ごめんね！
+		Help1: 沼地にはもう行ったことがあるかな？あそこへ行くなら夜だけにした方がいいよ。昼間は濃い霧に覆われているからね。
+		Help2: インフェルノには行ったことがあるよね？あそこに足を踏み入れるなら、昼間だけにすることをおすすめするよ。夜になると大量の火山灰に覆われるんだ。
+		Help3: 古い沼地や火山の周辺には、小さくて不思議な精霊たちが飛び回っているらしいよ！網で捕まえて、色々な用途に利用する人もいるんだとか。あそこへ行く勇気があるなら、試してみるといいかもね。
+		HelpBlight: 私は...菌糸感染地帯についてはあまり覚えていないんだ。ただ、地面が妙に硬かったことと...おぞましい、脈打つ肉の塊をちらりと見たことだけは覚えている。もしかすると、この二つには何か関係があるのかもしれないね。
+		Quest1Start: ああ、私を手伝ってくれるのかい？素晴らしい！実はちょうど助けが必要だったんだ...そうだね、まずは住む場所が欲しいな。さすがに草むらの中じゃ仕事もできないからね。少し厚かましいお願いだけど、一時的な場所でもいいから、どこか探してもらえないかな？
+		Quest1Current: 住む場所の方はどうかな？気長に待つつもりだけど、そろそろ土の上で寝転がっているのにも疲れてきてね。急かしているようだったらごめんよ、ははっ。
+		Quest1End: おお、見つけてくれたのかい！素晴らしい！正直、今はどんな場所でもありがたいよ。さて、お礼に何かちゃんとした贈り物ができればいいんだけど、残念ながら面白いものは何も持っていなくてね。後で別のものを渡せるようになるまでは、ひとまずこのお金で勘弁してくれるかな。
+		Quest2Start: さて、いよいよ君にとって最初の本格的な任務だね！改めて、協力してくれてありがとう。私はこの土地についてもっと知りたいんだ。少し曖昧なお願いだけど、何か遺物や、それに似た興味深い品物を見つけて持ってきてほしい。何か見つけたら私に報告してね！
+		Quest2Current: まだ探しているところかな？まあ、焦らずゆっくりでいいよ。急ぐ必要はないからね！
+		Quest2End: ふむ、これは興味深い品々だね。この地域は私が思っていたよりも、ずっとずっと多様な歴史を持っているようだ。ははっ。私もこうしたものにはあまり詳しくないけど、できる限り調べて、いつか故郷に持ち帰れたらいいな！
+		NoMoreQuests: やる気があるのはありがたいけど...今のところ、これ以上手伝ってほしいことはないんだ。また後で来てくれるかな？
+		GivePainting: おお！なんて美しい絵画なんだ！絵の具はとても素朴なものなのに、長い年月を経ても劣化した様子がない。絵の裏に書かれた文字の書体を考えると、不思議なことだね。「黄金の狩人」...描かれた男性は誇り高く、毅然としていて、まるで偉大な統治者のような風格を感じるよ。これは地下で見つけたんだよね？残念ながら、私もこの絵画については何も知らないみたいだ。
+		GiveTrade: アクロポリスと地上の人々との交易が断絶したって？これは少なくとも数世紀前のものだね。かつてアクロポリスは、私たち地上の人間とも交流があったんだ。でも、ある夜に君主が暗殺されて以来、門は閉ざされたままになっている。彼らが再び私たちと交流しようとすることは、もうないんじゃないかな。この手紙の書きぶりからすると、次の継承者も私たちに対して、まったく好意的ではなかったようだね。
+		GiveNotebook: ど、どこでこれを見つけたの！？ああ...菌糸感染地帯か。なんて悲しいことなんだろう...これはレジナルド・アガリクスの手帳だよ。彼は私の...私の友人だったんだ。彼に誘われて、あの忌まわしいキノコの群生地へ調査に向かったんだ。私たちは感染した生物の一体を追って洞窟へ入り、そこで待ち伏せに遭って...ごめん、もうこの話はしたくないんだ。
+		GiveBottle: おお、海賊か。これは随分と昔にまで遡る時代の手がかりだね。ススリック諸島についても書かれているよ。あそこは奇妙な失踪事件や不可解な出来事があまりにも多くて、今では不吉な場所として悪名高いんだ。ただ、残りの文章は私にも解読できない言語で書かれているね。色々な言語を使えるつもりだけど、これはさっぱりだよ。
+		GiveBounty: 賞金首の手配書？なんて野蛮なんだろう。これだけでも、かなり苛烈な統治が行われていたか、衛兵組織が腐敗していた可能性がうかがえるね。でも、この人物が誰なのかはまったく分からないな。この都市か地区で戦いを重ねてきた、歴戦の兵士のように見えるけど。残念ながら日付も紋章も記されていない。こういう制度を設けるなら、それくらい記載する知恵はありそうなものなのにね。まったく...
+		GiveDrill: わあっ、インシネライトドリルじゃないか！これはインフェルノにある硬い火山の残滓を掘り進むために造られたものなんだ。トロッコの先端に取り付ける設計で、回転しながら高温になり、まるでバターを切るように岩を削り進めるんだよ！すごいだろう？火山の奥深くに眠る豊富な貴重鉱物を探るため、公爵の命令で何台も製造されたんだ。
+	}
+}
+
+Tiles: {
+	BogwoodChest: {
+		ContainerName: 沼木の宝箱
+		MapEntry: 沼木の宝箱
+	}
+
+	BogwoodDresser: {
+		ContainerName: 沼木のドレッサー
+		MapEntry: 沼木のドレッサー
+	}
+
+	RazewoodChest: {
+		ContainerName: レイズウッドの宝箱
+		MapEntry: レイズウッドの宝箱
+	}
+
+	RazewoodDresser: {
+		ContainerName: レイズウッドのドレッサー
+		MapEntry: レイズウッドのドレッサー
+	}
+
+	FurnitureDynamo.MapEntry: 家具ダイナモ
+	InfernoCrate.MapEntry: 灰の木箱
+	MireCrate.MapEntry: 泥まみれの木箱
+	BogwoodBathtub.MapEntry: 沼木の浴槽
+	BogwoodBed.MapEntry: 沼木のベッド
+	BogwoodBookcase.MapEntry: 沼木の本棚
+	BogwoodCandelabra.MapEntry: 沼木の燭台
+	BogwoodCandle.MapEntry: 沼木の蝋燭
+	BogwoodClock.MapEntry: 沼木の時計
+	BogwoodPiano.MapEntry: 沼木のピアノ
+	BogwoodSofa.MapEntry: 沼木のソファ
+	BogwoodTorch.MapEntry: 沼地の松明
+	BogwoodWorkBench.MapEntry: 沼木の作業台
+	MireCampfire.MapEntry: 沼地のキャンプファイア
+	InfernoCampfire.MapEntry: インフェルノのキャンプファイア
+	RazewoodBathtub.MapEntry: レイズウッドの浴槽
+	RazewoodBed.MapEntry: レイズウッドのベッド
+	RazewoodBookcase.MapEntry: レイズウッドの本棚
+	RazewoodCandelabra.MapEntry: レイズウッドの燭台
+	RazewoodCandle.MapEntry: レイズウッドの蝋燭
+	RazewoodClock.MapEntry: レイズウッドの時計
+	RazewoodPiano.MapEntry: レイズウッドの古琴
+	RazewoodSofa.MapEntry: レイズウッドのソファ
+	RazewoodTorch.MapEntry: インフェルノの松明
+	RazewoodWorkBench.MapEntry: レイズウッドの作業台
+	BioticAssimilator.MapEntry: 生体同化装置
+	MushmonTile.MapEntry: ..?
+	Bloomshroom.MapEntry: 花咲きキノコ
+	BlightTorch.MapEntry: 腐敗した松明
+	ManmadeMushmonTile.MapEntry: 王の彫像
+	BlightCrate.MapEntry: 病蝕された木箱
+	TumorTile.MapEntry: 腫瘍
+	IncineriteOre.MapEntry: インシネライト鉱石
+	MushladTerrarium.MapEntry: テラリウム（キノコ小僧）
+	MushladTerrariumTile.MapEntry: テラリウム（キノコ小僧）
+	BrownMushladTerrariumTile.MapEntry: テラリウム（キノコ小僧（茶））
+	GreyMushladTerrariumTile.MapEntry: テラリウム（キノコ小僧（灰））
+	BlightCampfire.MapEntry: 腐敗したキャンプファイア
+	MireTree.MapEntry: 沼地の木
+	BlightedBathtub.MapEntry: 腐敗した浴槽
+	BlightedBed.MapEntry: 腐敗したベッド
+	BlightedBookcase.MapEntry: 腐敗した本棚
+	BlightedCandelabra.MapEntry: 腐敗した燭台
+	BlightCandle.MapEntry: 腐敗した蝋燭
+	BlightedClock.MapEntry: 腐敗した時計
+	BlightedDresser.MapEntry: 腐敗したドレッサー
+	BlightedPiano.MapEntry: 腐敗したピアノ
+	BlightedSofa.MapEntry: 腐敗したソファ
+	BlightedWorkbench.MapEntry: 腐敗した作業台
+}
+
+Emotes: {
+	FanaticEmote.Command: fanatic
+	InfernoGripEmote.Command: infernogrip
+	MireGripEmote.Command: miregrip
+	ToadEmote.Command: truffletoad
+	MonarchEmote.Command: mushmon
+}
+
+Achievements: {
+	ToadKilled: {
+		Description: キノコバイオームを歩き回る巨大なカエル、トリュフヒキガエルを倒す
+		FriendlyName: 姫とキノコたち
+	}
+
+	MonarchKilled: {
+		Description: 菌糸にのまれた不幸な冒険者のなれはて、マッシュルームモナークを倒す
+		FriendlyName: 抗生物質
+	}
+
+	GripsKilled: {
+		Description: 混沌のエネルギーが込められた一対の手、グリップスオブカオスを倒す
+		FriendlyName: 落ち着いて、握手しよう
+	}
+}
+
+Players: {
+	AAPlayer: {
+		OnEnterWorldText1: Ancients Awakenedはまだ開発初期のアルファ版であるため、いくつかの機能に不具合があったり、未実装だったりする可能性があります。問題が発生した場合は、Ancients Awakenedの公式Discordに報告してください。
+		OnEnterWorldText2: お前はさらなる強敵を求めている。これから先、そう簡単にはいかないぞ。
+		OnEnterWorldText3: 自分が何に身を投じたのか、分かっているんだろうな？
+		InfestedRedDeathText: "{0} は菌の餌になりました"
+		EatedDeathText: "{0} はハエと間違えられてしまいました"
+		ClappedDeathText: "{0} は叩き潰されてしまいました"
+	}
+}
+
+DamageClasses.SpearfishingDamage.DisplayName: 近接ダメージ
