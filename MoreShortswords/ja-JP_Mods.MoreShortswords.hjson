@@ -4,8 +4,8 @@ Items: {
         Tooltip:
             '''
             『とても奇妙だ…』
-            短剣のダメージと攻撃速度が上昇
-            ダメージを受けた後に星を降らせる
+            短剣のダメージが増加し、短剣の攻撃速度が上昇
+            ダメージを受けると星が降ってくる
             '''
     }
 
@@ -14,7 +14,7 @@ Items: {
         Tooltip:
             '''
             『とても奇妙だ…』
-            短剣のダメージと攻撃速度が上昇
+            短剣のダメージが増加し、短剣の攻撃速度が上昇
             '''
     }
 
@@ -25,7 +25,7 @@ Items: {
 
     CactusShort: {
         DisplayName: サボテンの短剣
-        Tooltip: 敵にまれに『毒』デバフを付与する
+        Tooltip: 敵にまれに毒を与える
     }
 
     ChaosControl: {
@@ -39,7 +39,7 @@ Items: {
     }
 
     DayAbomination: {
-        DisplayName: デイライトのアボミネーション
+        DisplayName: デイライトアボミネーション
         Tooltip: ""
     }
 
@@ -50,7 +50,7 @@ Items: {
 
     FinalSword: {
         DisplayName: アポジー
-        Tooltip: 「死に別れを告げなさい。」
+        Tooltip: 「死に別れを告げなさい」
     }
 
     Magma: {
@@ -58,7 +58,7 @@ Items: {
         Tooltip:
             '''
             「注意、熱いよ！」
-            敵に命中すると爆発を起こす
+            敵に当たると爆発が起きる
             '''
     }
 
@@ -67,7 +67,7 @@ Items: {
         Tooltip:
             '''
             「注意、冷たいよ！」
-            まれに敵に『フロストバーン』デバフを付与する
+            まれに敵に霜焼けを与える
             '''
     }
 
@@ -78,20 +78,20 @@ Items: {
 
     HeartRod: {
         DisplayName: ハートロッド
-        Tooltip: クリティカル後にまれにライフが回復する
+        Tooltip: クリティカル時、まれにライフが回復する
     }
 
     Ladnerud: {
         DisplayName: ハロウドシヴ
-        Tooltip: 聖域バイオームで使用するとダメージが増加
+        Tooltip: 聖域内だとダメージが増加
     }
 
     LifeSplitter: {
         DisplayName: ライフスプリッター
         Tooltip:
             '''
-            25%の確率で敵に『弱体化』デバフを付与
-            攻撃命中時、敵をホーミングする緑色のボルトを降らせる
+            25%の確率で敵に衰弱を与える
+            攻撃が当たると、敵を追尾する緑色のボルトを降らせる
             '''
     }
 
@@ -117,7 +117,7 @@ Items: {
 
     ShortswordOfGrass: {
         DisplayName: グラッシーシヴ
-        Tooltip: 20%の確率で敵に『毒』デバフを付与
+        Tooltip: 20%の確率で敵に毒を与える
     }
 
     SkyBlade: {
@@ -127,17 +127,17 @@ Items: {
 
     StarFragment: {
         DisplayName: スターフラグメント
-        Tooltip: 敵に命中すると星を降らせる
+        Tooltip: 敵に当たると星を降らせる
     }
 
     TriangleSword: {
         DisplayName: キラーズクナイ
-        Tooltip: 33%の確率で敵に『弱体化』『出血』デバフを付与
+        Tooltip: 33%の確率で敵に衰弱と流血を与える
     }
 
     TrueStarFragment: {
         DisplayName: スカイズレイジ
-        Tooltip: 敵に命中すると多くの星を降らせる
+        Tooltip: 敵に当たると多くの星を降らせる
     }
 
     Destroyer: {
