@@ -17,7 +17,7 @@ SetBonuses: {
 		バフポーションを使うと
 		全ステータスが大きく強化される
 		'''
-	PurifiedArmor: ミニオンスロットを1つ追加
+	PurifiedArmor: セントリースロットを1つ追加
 	GlacialArmor:
 		'''
 		凍えを無効化し、氷系ブロックで滑らなくなり、
@@ -68,7 +68,7 @@ SetBonuses: {
 		'''
 	ArcaneGoldArmor:
 		'''
-		鞭の攻撃を10回当てると黄金の共鳴が発動し、
+		鞭の攻撃を10回当てると黄金の共鳴が発動し、5秒間、
 		ミニオンとセントリーの速度が20%上昇する
 		'''
 	ShiverArmor:
@@ -314,7 +314,7 @@ Buffs: {
 
 	LeapingBuff: {
 		DisplayName: 跳躍
-		Description: ジャンプ高度が上昇し、オートジャンプができる
+		Description: ジャンプ高度が上昇し、自動ジャンプができる
 	}
 
 	LivingGemStaffBuff: {
@@ -719,7 +719,7 @@ Buffs: {
 
 	SerpentWhipDebuff: {
 		Description: ミニオンがこのタグが付いた敵を攻撃すると猛毒のエネルギーで追撃する
-		DisplayName: サーペインウィップのタグ
+		DisplayName: サーペントウィップのタグ
 	}
 
 	TheRelicDebuff: {
@@ -824,7 +824,7 @@ Buffs: {
 
 	Seafood2Buff: {
 		DisplayName: 海鮮の食事
-		Description: "$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}中程度強化"
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}中程度強化"
 	}
 
 	Seafood3Buff: {
@@ -3944,7 +3944,7 @@ Items: {
 
 	LeapingPotion: {
 		DisplayName: 跳躍のポーション
-		Tooltip: ジャンプ高度が上昇し、オートジャンプができる
+		Tooltip: ジャンプ高度が上昇し、自動ジャンプができる
 	}
 
 	LifeJuice: {
@@ -4251,7 +4251,7 @@ Items: {
 		Tooltip:
 			'''
 			雨が降っているとダメージ・近接攻撃速度・クリティカル率・
-			防御力・採掘速度・ミニオンの攻撃のノックバックを少し強化し、
+			防御力・採掘速度・ミニオンの攻撃のノックバックを大きく強化し、
 			移動速度とジャンプ速度が大幅に上昇
 			'''
 	}
@@ -4267,6 +4267,7 @@ Items: {
 			'''
 			召喚タグダメージ 2
 			{$CommonItemTooltip.Whips}
+			静電気のエネルギーで敵を攻撃する
 			この鞭で攻撃した敵にミニオンが攻撃すると電撃で追撃する
 			'''
 	}
@@ -4560,7 +4561,7 @@ Items: {
 		DisplayName: ダブルトラブル
 		Tooltip:
 			'''
-			ヨーヨーが当たるともう一つのヨーヨーを放つ
+			ヨーヨーを同時に2つ使用できる
 			ランダムな方向にカースファイアボールを放ち、
 			近くの敵にレーザーを発射する
 			'''
@@ -4578,7 +4579,7 @@ Items: {
 
 	Honeydrop: {
 		DisplayName: ハニードロップ
-		Tooltip: 蜂蜜を得ることがある
+		Tooltip: ライフ自然回復を増進する蜂蜜をドロップすることがある
 	}
 
 	IronSpear: {
@@ -4663,7 +4664,7 @@ Items: {
 
 	TheSeaShell: {
 		DisplayName: シーシェル
-		Tooltip: ほとんどのヨーヨーより早く動かせる
+		Tooltip: ほとんどのヨーヨーより速く動かせる
 	}
 
 	TinSpear: {
@@ -5338,7 +5339,7 @@ Items: {
 		DisplayName: パラジウムの盾
 		Tooltip:
 			'''
-			チームプレイヤーのライフが200以下になるとライフ回復アイテム強化を与え、
+			チームメンバーのライフが200以下になるとライフ回復アイテム強化を与え、
 			ライフ回復アイテムの回復量を50増加させる
 			'''
 	}
@@ -7024,7 +7025,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリーを召喚する
-			甲虫を放って攻撃する、アナクルスビートルの頭部を召還する
+			アナクルスビートルの頭部を召喚し、甲虫を放って敵を攻撃する
 			'''
 	}
 
@@ -7033,7 +7034,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリーを召喚する
-			敵を攻撃するハンマーを召還する
+			意思を持つハンマーを召喚して敵を攻撃する
 			'''
 	}
 
@@ -7041,7 +7042,7 @@ Items: {
 		DisplayName: スリングショット用のポーチ
 		Tooltip:
 			'''
-			スリングショットがビー玉を2倍発射するようになるが、
+			スリングショットの弾が2倍になるが、
 			ダメージが減少し、拡散しやすくなる
 			'''
 	}
@@ -7078,7 +7079,7 @@ Items: {
 		DisplayName: スリングショットの改造キット
 		Tooltip:
 			'''
-			スリングショットがビー玉を2倍発射するようになるが、
+			スリングショットの弾が2倍になるが、
 			ダメージが減少し、拡散しやすくなる
 			スリングショットのチャージショットを行う攻撃回数が1回少なくなる
 			スリングショットの弾が地形に当たると跳ね返るようになる
@@ -7117,7 +7118,7 @@ Items: {
 		Tooltip:
 			'''
 			スリングショットの弾薬として使う
-			霊液を与える
+			敵の防御力を低下させる
 			'''
 	}
 
@@ -7137,8 +7138,8 @@ Items: {
 			液体内で無限にジャンプでき、息が長く続く
 			氷系ブロックで滑らなくなる
 			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
-			炎のブロックのダメージと溶岩を無効化
-			溶岩内にいると、溶岩内に何があるがわかりやすくなる
+			溶岩と燃えるブロックのダメージを無効化
+			溶岩の中にいると、溶岩内の様子が見えやすくなる
 			'''
 	}
 
@@ -7154,7 +7155,7 @@ Items: {
 	}
 
 	JadeDragonWings: {
-		DisplayName: ドラゴンの翡翠の翼
+		DisplayName: ジェイドドラゴンの翼
 		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
 	}
 
@@ -7164,17 +7165,17 @@ Items: {
 	}
 
 	DragonWarriorBreastplate: {
-		DisplayName: 竜の戦士の胸当て
+		DisplayName: ドラゴンウォリアーの胸当て
 		Tooltip: 近接ダメージが10%増加し、近接クリティカル率が10%上昇
 	}
 
 	DragonWarriorGreaves: {
-		DisplayName: 竜の戦士のすね当て
+		DisplayName: ドラゴンウォリアーのすね当て
 		Tooltip: 近接クリティカル率が10%上昇
 	}
 
 	DragonWarriorMask: {
-		DisplayName: 竜の戦士の仮面
+		DisplayName: ドラゴンウォリアーの仮面
 		Tooltip: 近接ダメージが15%増加
 	}
 
@@ -7194,16 +7195,16 @@ Items: {
 	}
 
 	DragonBait: {
-		DisplayName: 竜の餌
+		DisplayName: ドラゴンの餌
 		Tooltip:
 			'''
 			フェザードサーペントを召喚する
-			ジャングル寺院で使用できる
+			ジャングル寺院でのみ使用できる
 			'''
 	}
 
 	ChickenSoup: {
-		DisplayName: 鶏のスープ
+		DisplayName: チキンスープ
 		Tooltip:
 			'''
 			{$CommonItemTooltip.MediumStats}され、
@@ -7215,7 +7216,7 @@ Items: {
 		DisplayName: 魚のサラダ
 		Tooltip:
 			'''
-			{$CommonItemTooltip.MediumStats}
+			{$CommonItemTooltip.MediumStats}され、
 			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}中程度強化
 			'''
 	}
@@ -7239,7 +7240,7 @@ Items: {
 	}
 
 	FreshPasta: {
-		DisplayName: 生のパスタ
+		DisplayName: 生パスタ
 		Tooltip:
 			'''
 			{$CommonItemTooltip.MediumStats}
@@ -7631,7 +7632,7 @@ NPCs: {
 
 		TownNPCMood: {
 			Content: 俺はここで料理ができるから問題ないぞ。
-			NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんが。
+			NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんだが。
 			FarFromHome: 俺はどこにいるんだ？
 			LoveSpace: 周りにロバがいないのは、本当に気持ちがいいな。
 			DislikeCrowded: 周りにロバがたくさんいるのが嫌だ。
@@ -7648,7 +7649,7 @@ NPCs: {
 			Princess_LovesNPC: "{NPCName}が好きですわ。"
 		}
 
-		Census.SpawnCondition: 地下のキノコバイオームに出現し、縛られているところを話しかける
+		Census.SpawnCondition: 地下のキノコバイオームで見つける
 
 		Names: {
 			Gordon: ゴードン
@@ -7669,12 +7670,12 @@ NPCs: {
 			Dialogue5: 焦げたステーキを作るなよ、このロバ！
 			Dialogue6: 時間を無駄にするなよ、お前は料理もできないのだから！
 			Dialogue7: お前のひどい料理の腕前を確かめるためだけに引っ越してきた。
-			Dialogue8: きっとお前は卵を料理しようとするたびにキッチンを火事にしているんだろうな
+			Dialogue8: きっとお前は卵を料理しようとするたびにキッチンを火事にしているんだろうな。
 			ShimmerDialogue1: ピザ。
 			Full1: 今日受け取った食事を食べたから、おなかがいっぱいだ。
 			Full2: また明日、次の課題の食事を持ってこい。
 			QuestComplete1: 食べてみるが、おいしいとは思うなよ。
-			QuestComplete2: なかなか良さそうだな、食べてみるか!
+			QuestComplete2: なかなか良さそうだな、食べてみるか！
 			QuestComplete3: もっと期待していたが……まあ、これならいいか。
 		}
 
@@ -7685,10 +7686,10 @@ NPCs: {
 			GrilledSquirrel: リスだ！リスって可愛いよな？……まあ、ちゃんと味付けすればすごく美味しいんだが！さあ、手早く調理しろ！
 			RoastedBird: 今日の課題は焼き鳥だ！鳥の種類は何でもいい、とにかく鳥なら何でもいい。俺はこれから鳥肉のサラダを作る予定だから、もし余ったら教えてやるよ！
 			SauteedFrogLegs: カエル脚のソテーを作ってくれないか？自分で作りたいところだが、あいにくカエルがいなくてな。つまり、お前が作るしかないってことだ！
-			BowlofSoup: 金魚が笑っているのを見たことはあるか？……まあ、私もないけどな。それより、俺がずっと気になっていることがある。金魚をスープに入れたら、どんな味がするんだ！というわけで、今日の料理はそれだ。
+			BowlofSoup: 金魚が笑っているのを見たことはあるか？……まあ、俺もないけどな。それより、俺がずっと気になっていることがある。金魚をスープに入れたら、どんな味がするんだ！というわけで、今日の料理はそれだ。
 			GrubSoup: ちょっと聞いてくれ！ジャングルに行って、そこにいる生き物を捕まえてスープにする……最高だと思わないか？……え、そうでもない？まあいい、とにかく作ってもらうぞ！
 			Sashimi: 刺身って知ってるか？魚を一口サイズに薄く切る料理のことだ。今日はこれを作ってもらう。そんなに難しいことじゃないだろ？
-			Escargot: コホン、コホン……エスカルゴ！そう、カタツムリのことだ！……さあ、さっさと料理してくれ！
+			Escargot: オッホッホ……エスカルゴ！そう、カタツムリのことだ！……さあ、さっさと料理してくれ！
 			FroggleBunwich: カエルの足よりいいものって何だと思う？……そう、カエルバーガーだ！今日の課題はこれだ。
 			RoastedDuck: アヒルってどうやって水の上に浮いていられるんだろうな？……まあどうでもいいか。とにかく今日はアヒルを料理してくれ！俺も鳥のサラダを作る予定だから、もし余ったら分けてやるよ！
 			LobsterTail: これは高級食材、ロブスターの尾だ！自分で捕まえて料理するのは面倒だから、お前がやってくれるのを楽しみにしてるぞ！ロブスターの調理なんて大したことないはずだ、期待してるからな！
@@ -8559,7 +8560,7 @@ Projectiles: {
 	FeatheredSerpentFireball.DisplayName: ファイアボール
 	MeteorShowerProj.DisplayName: メテオシャワー
 	ThunderStrikerZapProj.DisplayName: エレクトロスフィア
-	Jollylash3Proj.DisplayName: クラゲ
+	Jollylash3Proj.DisplayName: ジョリーラッシュ
 }
 
 Prefixes: {

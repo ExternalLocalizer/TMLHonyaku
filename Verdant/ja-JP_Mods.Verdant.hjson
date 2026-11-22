@@ -38,7 +38,7 @@ Biomes: {
 
 	VerdantBiome: {
 		TownNPCDialogueName: 新緑
-		DisplayName: 新緑
+		DisplayName: ヴァーダント
 	}
 
 	NearApotheosisBiome: {
@@ -337,7 +337,7 @@ Buffs:{
 Generation: {
 	Plants: 植物を育てる…
 	Vines: 蔓を伸ばす…
-	Flowers: つるを伸ばす…
+	Flowers: 花を芽吹かせる…
 	Watering: 植物に水をやる…
 	Surface: 太陽に届く…
 	Trimming: つぼみを整える…
@@ -457,7 +457,7 @@ GenConfigs: {
 				}
 
 				WaterfallModifier: {
-					DisplayName: "[i:206] Waterfall 滝の乗数"
+					DisplayName: "[i:206] 滝の乗数"
 					Tooltip: 新緑に配置される滝の乗数を変更します
 				}
 
@@ -486,7 +486,7 @@ GenConfigs: {
 				}
 
 				WaterfallFlowerChance: {
-					DisplayName: "[i:Verdant/WaterPlantItem] ウィーピングバッドの生成率"
+					DisplayName: "[i:Verdant/WaterPlantItem] しだれのつぼみの生成率"
 					Tooltip: ウィーピングバッドが生成される確率を変更します
 				}
 
@@ -524,7 +524,7 @@ GenConfigs: {
 			Members: {
 				BackslateMicrobiomeModifier: {
 					DisplayName: "[i:Verdant/BackslateWallItem] 生成量の補正"
-					Tooltip: 生成される粘板岩の塊の群生地を変更します
+					Tooltip: 新緑に生成される粘板岩の群生数を増減します
 				}
 
 				BackslateSizeModifier: {
@@ -568,7 +568,7 @@ GenConfigs: {
 				}
 
 				AquamarineChunkSize: {
-					DisplayName: "[i:Verdant/EmbeddedStoneAquamarineItem] Stone Aquamarine Size"
+					DisplayName: "[i:Verdant/EmbeddedStoneAquamarineItem] 石内アクアマリンのサイズ"
 					Tooltip: 石に埋め込まれて生成されるアクアマリンの塊のサイズを変更します
 				}
 			}
@@ -1072,7 +1072,7 @@ Items: {
 	}
 
 	LightbulbSeeds: {
-		DisplayName: 光るつぼみ
+		DisplayName: 光るつぼみの種
 		Tooltip: 「わずかな光を放っている」
 	}
 
@@ -1755,11 +1755,10 @@ Items: {
 		DisplayName: 雲の苗木
 		Tooltip:
 			'''
-			上に乗ると弾む木を設置する
+			浮かぶ弾む足場を設置する
 			ワールドを退出しても残る
-			設置した雲の苗木木を左クリックで除去し、
-			このアイテムを装備して2秒間右クリックで、
-			全ての雲の苗木を除去する
+			設置済みの雲の苗木を左クリックで除去し、
+			このアイテムを装備して2秒間右クリックすると、すべての雲の苗木を除去する
 			'''
 	}
 
@@ -1868,11 +1867,10 @@ Items: {
 		DisplayName: 雲の苗木
 		Tooltip:
 			'''
-			上に乗ると弾む木を設置する
+			浮かぶ弾む足場を設置する
 			ワールドを退出しても残る
-			設置した雲の苗木木を左クリックで除去し、
-			このアイテムを装備して2秒間右クリックで、
-			全ての雲の苗木を除去する
+			設置済みの雲の苗木を左クリックで除去し、
+			このアイテムを装備して2秒間右クリックすると、すべての雲の苗木を除去する
 			'''
 	}
 
@@ -1985,8 +1983,8 @@ Items: {
 		DisplayName: アポテオティックホストヘッドドレス
 		Tooltip:
 			'''
-			蜂の群れが後をついてくる
-			召喚武器を装備中、蜂がカーソルを追尾し、敵にダメージを与える
+			蜂の群れを宿す
+			召喚アイテムを装備中、蜂がカーソルを囲み、継続ダメージを与える
 			蜂の巣パックによって蜂が強化される
 			召喚ダメージが10%増加し、ミニオンスロットを2つ追加
 			「頭の上にあると、より一層不安を感じる」
@@ -2131,12 +2129,12 @@ Items: {
 	}
 
 	MysteriaFlotinyTerrariumItem: {
-		DisplayName: ミステリアフロティニーのテラリウム
+		DisplayName: 神秘のフロティニーのテラリウム
 		Tooltip: 「見るだけでほとんど催眠的なパターンだ」
 	}
 
 	MysteriaFlotieTerrariumItem: {
-		DisplayName: ミステリアフラティーのテラリウム
+		DisplayName: 神秘のフラティーのテラリウム
 		Tooltip: 「その魂の風は永遠に吹き続ける」
 	}
 
@@ -2348,7 +2346,7 @@ Items: {
 	}
 
 	JellydewAquariumItem: {
-		DisplayName: ジェリーデューのテラリウム
+		DisplayName: ジェリーデューのアクアリウム
 		Tooltip: ""
 	}
 
@@ -2485,7 +2483,7 @@ NPCDialogue: {
 
 NPCs: {
 	HostFly: {
-		DisplayName: 敵のウィングレット
+		DisplayName: 女家長ウィングレット
 		Entry: 小さなハエの群れの女家長。子供たちが襲われていることに怒っている。近縁種の茂ったウィングレットは一般的だが、この種は自然界では絶滅してしまったようだ。
 	}
 
@@ -2508,7 +2506,7 @@ NPCs: {
 	}
 
 	Axolotl: {
-		DisplayName: アホロートル
+		DisplayName: ウーパールーパー（アクアリウム側も統一）
 		Entry: 基本的には水生生物だが、陸上でも問題なく生きていける（少し落ち着きがないが）。背景の壁にある穴に入り込むのを好む。
 	}
 
@@ -2539,12 +2537,12 @@ NPCs: {
 
 	MysteriaFlotie: {
 		DisplayName: 神秘のフラティー
-		Entry: 神秘の森で見られる、一般的なフロティニーの亜種。心地よい花の香りがする。
+		Entry: 神秘の森で見られる、より一般的な新緑のフラティーの亜種。心地よい花の香りがする。
 	}
 
 	MysteriaFlotiny: {
 		DisplayName: 神秘のフロティニー
-		Entry: 近発見された生物で、神秘の木の樹冠付近に集まる習性があるようだ。この生物については、まだ何か秘密があるのか​​もしれない。
+		Entry: 最近発見された生物で、神秘の木の樹冠付近に集まる習性があるようだ。この生物については、まだ何か秘密があるのかもしれない。
 	}
 
 	Folifish: {
@@ -2558,7 +2556,7 @@ NPCs: {
 	}
 
 	VerdantBulbSnail: {
-		DisplayName: バルブカタツムリ
+		DisplayName: 電球カタツムリ
 		Entry: このカタツムリは電球を食べたのだろうか？いいえ。電球を食べたのか？……もしかすると。
 	}
 
@@ -2599,13 +2597,13 @@ Origins: {
 	Botanist: {
 		DisplayName: 植物学者
 		Flavor: 科学界のドルイド；生命とは何か、生と死、そして何よりも美味しいキノコを知る。
-		Description: 500個のラッシュナイフ、10個のウィスプラント、10個のピンクパフ、最大マナ80、そして植物繊維の紐についての専門的なガイドを持って開始する。
+		Description: 500個の茂ったナイフ、10個のウィスプラント、10個のピンクパフ、最大マナ80、そして考古学者の帽子を持って開始する。
 	}
 
 	MinorSummoner: {
 		DisplayName: ラッシュマン
 		Flavor: 言葉だけでアポテオシスの子供。過去には植物学者だった。
-		Description: 茂った木のフルセット、イエロースプラウト、ライトブルームを持ち、最大ライフが減少した状態で開始する。
+		Description: 茂った木のフルセット、イエロースプラウト、ライトブルームを持ち、新緑内では最大ライフが減少した状態で開始する。
 	}
 }
 
@@ -3134,8 +3132,8 @@ Tiles: {
 	}
 
 	GreenCrystal.MapEntry: グリーンクリスタル
-	ApotheoticPainting.MapEntry: 苗木
-	LightbulbPainting.MapEntry: 苗木
+	ApotheoticPainting.MapEntry: 絵画（神格化）
+	LightbulbPainting.MapEntry: 絵画（光るつぼみ）
 	BigVerdantTree.MapEntry: 巨木
 	VerdantTree.MapEntry: 木
 	PeaceTreeTop.MapEntry: 平和の木
@@ -3144,7 +3142,7 @@ Tiles: {
 	VerdantRedPetal.MapEntry: 赤い花びら
 	VerdantPinkPetal.MapEntry: ピンクの花びら
 	VerdantLeaves.MapEntry: ツタ
-	VerdantGrassLeaves.MapEntry: 新緑の草
+	VerdantGrassLeaves.MapEntry: 新緑の葉
 	SnailShellBlock.MapEntry: カタツムリの殻
 	PuffBlock.MapEntry: パフブロック
 	OvergrownBricks.MapEntry: 繁茂レンガ
@@ -3171,7 +3169,7 @@ Configs: {
 	EnableForeOrBackgroundObjectsLabel: "[i:933] 前景/背景オブジェクトを表示"
 	EnableForeOrBackgroundObjectsTooltip: 装飾オブジェクトが地表の背景や前景にどこにでも表示されるようにします
 	EnableCustomWaterfallsLabel: "[i:2169] カスタム滝を有効にする"
-	EnableCustomWaterfallsTooltip: ブロックからしだれ柳のような滝を出現させることを可能にします
+	EnableCustomWaterfallsTooltip: しだれのつぼみなど、ブロックから滝を出現させられるようにします
 	CustomDialogueSystemLabel: "[i:320] カスタムダイアログシステム"
 	CustomDialogueSystemTooltip: アポテオシスのカスタムダイアログシステムを使用できるようにします。オフにすると、ただのチャットが使用されます
 	FancyBookUILabel: "[i:4065] ファンシーな本のUI"
