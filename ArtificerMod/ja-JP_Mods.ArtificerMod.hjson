@@ -363,7 +363,7 @@ Buffs: {
 
 	OverdriveBoost: {
 		DisplayName: オーバードライブブースト
-		Description: 移動速度・ジャンプ速度・加速度が大幅に上昇
+		Description: 移動速度、ジャンプ速度、加速度が大幅に上昇
 	}
 
 	Supercharged: {
@@ -373,7 +373,7 @@ Buffs: {
 
 	ProstheticsBuff: {
 		DisplayName: エネルギーの義肢
-		Description: 移動速度・ジャンプ速度・加速度・近接攻撃速度が大幅に上昇
+		Description: 移動速度、ジャンプ速度、加速度、近接攻撃速度が大幅に上昇
 	}
 
 	SwaggerTaunt: {
@@ -538,7 +538,7 @@ Buffs: {
 
 	BorealisBarrier: {
 		DisplayName: ボレアリスのバリア
-		Description: 防御力・被ダメージ軽減・ライフ自然回復力が増加
+		Description: 防御力、被ダメージ軽減、ライフ自然回復力が増加
 	}
 
 	Refresh: {
@@ -645,7 +645,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}頭上にクリスタルプリズムを召喚し、近くの敵にビームを発射する
-			最大14回ビームを発射し、それぞれが近接・遠距離・魔法・召喚のダメージタイプをランダムに継承する
+			最大14回ビームを発射し、それぞれが近接、遠距離、魔法、召喚のダメージタイプをランダムに継承する
 			「巨大な力を持つ神話のプリズムの失われた前身...」
 			'''
 	}
@@ -682,7 +682,7 @@ Items: {
 		DisplayName: スターライター
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}発動時の位置・ライフ・マナを記憶する星を生成する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}発動時の位置、ライフ、マナを記憶する星を生成する
 			この能力を再度発動すると、星によって記憶された位置とステータスが復元され、現在の星が削除される
 			星が存在中に致命傷を受けると、クールダウン中でないならこの能力が自動的に発動される
 			「銀河はあなたの名前を覚えているだろう」
@@ -743,7 +743,7 @@ Items: {
 		DisplayName: 洗浄剤
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}あなたと近くの味方の毒・酸性毒・炎上・霜焼け・シャドウフレイム・呪炎を治す
+			{$CommonItemtooltip.ForItems.ActivatedAbility}あなたと近くの味方の毒、酸性毒、炎上、霜焼け、シャドウフレイム、呪炎を治す
 			{$CommonItemtooltip.ForItems.BrieflyLifeRegen}
 			[placeholder]
 			'''
@@ -763,7 +763,7 @@ Items: {
 		DisplayName: 消火器
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}あなたと近くの味方の炎上・霜焼け・シャドウフレイム・呪炎を治す
+			{$CommonItemtooltip.ForItems.ActivatedAbility}あなたと近くの味方の炎上、霜焼け、シャドウフレイム、呪炎を治す
 			{$CommonItemtooltip.ForItems.BrieflyLifeRegen}
 			「まるで背中に消火器を縛り付けているみたいだ！」
 			'''
@@ -864,7 +864,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃時、敵に金属のクロスボーンを撃つ
-			{$CommonItemtooltip.ForItems.ActivatedAbility}クロスボーンにエネルギーを5秒間与え、弾速・連射速度・ダメージを大幅に強化する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}クロスボーンにエネルギーを5秒間与え、弾速、連射速度、ダメージを大幅に強化する
 			[placeholder]
 			'''
 	}
@@ -887,7 +887,7 @@ Items: {
 			'''
 			超高速走行できる
 			ジャンプ速度が上昇し、落下耐性が増加し、オートジャンプができる
-			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度・ジャンプ速度・加速度が大幅に上昇する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}5秒間、移動速度、ジャンプ速度、加速度が大幅に上昇する
 			「マキシマムオーバードライブ！」
 			'''
 	}
@@ -1085,7 +1085,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}近くのプレイヤー全員にバフを5秒間与える
-			このバフは、恐怖・視覚・力の3つのサイクルがあり、使用ごとに効果が違う
+			このバフは、恐怖、視覚、力の3つのサイクルがあり、使用ごとに効果が違う
 			ソウルエミュレーターを装備しているならバフが10秒間持続し、
 			エミュレータのバフが循環する
 			[placeholder]
@@ -1170,7 +1170,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}オーロラを発生させ、一時的にあらゆる攻撃から身を守る
-			オーロラの近くにいるプレイヤー（使用者自身を含む）の防御力・被ダメージ軽減・ライフ自然回復力を一時的に増加させる
+			オーロラの近くにいるプレイヤー（使用者自身を含む）の防御力、被ダメージ軽減、ライフ自然回復力を一時的に増加させる
 			オーロラの近くの敵を混乱させ、被ダメージを短時間増加させる
 			「その湧き上がる天上の力は、反転したアルカナの残滓のようだ…」
 			'''
@@ -1200,7 +1200,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ReducedAbilityCooldown}
-			凍え・霜焼け・凍結を無効化
+			凍え、霜焼け、凍結を無効化
 			'''
 	}
 
@@ -1880,7 +1880,7 @@ Items: {
 		Tooltip:
 			'''
 			アイテムの取得範囲が大きく広がる
-			スター・コイン・ハートの取得範囲が広がる
+			スター、コイン、ハートの取得範囲が広がる
 			装備していない状態では、弱体化を敵に与えることがある
 			'''
 	}
@@ -1961,7 +1961,7 @@ Items: {
 			'''
 			ダメージを受けると防御力とライフ自然回復力が増加し、
 			氷の破片を放ち、近くの敵を攻撃することがある
-			凍え・凍結・霜焼けを無効化
+			凍え、凍結、霜焼けを無効化
 			'''
 	}
 
@@ -1974,7 +1974,7 @@ Items: {
 			被ダメージを25%軽減する
 			甲羅があるときにダメージを受けると、敵に激しく衝突して爆発する
 			甲羅が破壊されてもすぐに次の甲羅が出現する
-			凍え・凍結・霜焼けを無効化
+			凍え、凍結、霜焼けを無効化
 			「青い甲羅？！」
 			'''
 	}
@@ -2124,7 +2124,7 @@ Items: {
 
 	AquaticBoots: {
 		DisplayName: アクアティックブーツ
-		Tooltip: 水・蜂蜜・シマーの上を歩行でき、液体内で無限にジャンプできる
+		Tooltip: 水、蜂蜜、シマーの上を歩行でき、液体内で無限にジャンプできる
 	}
 
 	MerfolkBoots: {
@@ -2134,7 +2134,7 @@ Items: {
 			超高速走行できる
 			ジャンプ速度が上昇し、オートジャンプができる
 			落下耐性が増加
-			水・蜂蜜・シマーの上を歩行でき、液体内で無限にジャンプできる
+			水、蜂蜜、シマーの上を歩行でき、液体内で無限にジャンプできる
 			'''
 	}
 
@@ -2162,7 +2162,7 @@ Items: {
 			ダッシュが可能
 			方向入力2回で高速ステップ
 			空中で長押しすると落下速度が上昇
-			ノックバックと火のブロックのダメージを無効化
+			ノックバックと燃えるブロックのダメージを無効化
 			落下耐性が増加し、重力を軽減する効果の効力が低下する
 			'''
 	}
