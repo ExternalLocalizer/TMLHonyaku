@@ -118,7 +118,7 @@ Configs: {
 		}
 
 		StanceTwoHandGuard: {
-			Label: 構え：両手武器（衛兵）
+			Label: 構え：両手武器（ガード）
 			Tooltip: ""
 		}
 
@@ -143,7 +143,7 @@ Configs: {
 		}
 
 		StancePoleShoulder: {
-			Label: 構え：長柄武器（肩）
+			Label: 構え：長柄武器（肩掛け）
 			Tooltip: ""
 		}
 
@@ -158,7 +158,7 @@ Configs: {
 		}
 
 		JoustingLance: {
-			Label: 構え：突撃槍
+			Label: 構え：馬上槍
 			Tooltip: ""
 		}
 
@@ -168,7 +168,7 @@ Configs: {
 		}
 
 		BackFlailShoulder: {
-			Label: 背負い：フレイル（肩）
+			Label: 背負い：フレイル（肩掛け）
 			Tooltip: ""
 		}
 
@@ -193,7 +193,7 @@ Configs: {
 		}
 
 		StancePistolHoldUp: {
-			Label: 構え：ピストル（上げ持ち）
+			Label: 構え：ピストル（上向き）
 			Tooltip: ""
 		}
 
@@ -213,7 +213,7 @@ Configs: {
 		}
 
 		StanceRifleHipReady: {
-			Label: 構え：ライフル（腰構え）
+			Label: 構え：ライフル（腰だめ）
 			Tooltip: ""
 		}
 
@@ -243,12 +243,12 @@ Configs: {
 		}
 
 		BackGunShoulder: {
-			Label: 背負い：銃（肩）
+			Label: 背負い：銃（肩掛け）
 			Tooltip: ""
 		}
 
 		StanceLauncherShoulder: {
-			Label: 構え：ランチャー（肩）
+			Label: 構え：ランチャー（肩掛け）
 			Tooltip: ""
 		}
 
@@ -392,7 +392,7 @@ Configs: {
 		}
 
 		TwoHandJoustingLance: {
-			Label: 両手槍試合ランス構え
+			Label: 両手馬上槍構え
 			Tooltip: ""
 		}
 
@@ -427,22 +427,22 @@ Configs: {
 		}
 
 		OrbitClockwiseFast: {
-			Label: 周回：時計回り（速め）
+			Label: 軌道回転：時計回り（速め）
 			Tooltip: ""
 		}
 
 		OrbitAntiClockFast: {
-			Label: 周回：反時計回り（速め）
+			Label: 軌道回転：反時計回り（速め）
 			Tooltip: ""
 		}
 
 		OrbitClockwiseSlow: {
-			Label: 周回：時計回り（ゆっくり）
+			Label: 軌道回転：時計回り（ゆっくり）
 			Tooltip: ""
 		}
 
 		OrbitAntiClockSlow: {
-			Label: 周回：反時計回り（ゆっくり）
+			Label: 軌道回転：反時計回り（ゆっくり）
 			Tooltip: ""
 		}
 
@@ -452,7 +452,7 @@ Configs: {
 		}
 
 		CombatReady: {
-			Label: 戦闘：構え準備
+			Label: 戦闘：準備構え
 			Tooltip: ""
 		}
 
@@ -477,7 +477,7 @@ Configs: {
 		}
 
 		CombatRapierHold: {
-			Label: 戦闘： レイピア保持構え
+			Label: 戦闘：レイピア保持構え
 			Tooltip: ""
 		}
 
@@ -547,7 +547,7 @@ Configs: {
 		}
 
 		CombatTwoHandGuard: {
-			Label: 戦闘：両手構え（衛兵）
+			Label: 戦闘：両手構え（ガード）
 			Tooltip: ""
 		}
 
@@ -696,17 +696,17 @@ Configs: {
 		}
 
 		Pistol: {
-			Label: 拳銃
+			Label: ハンドガン
 			Tooltip: ""
 		}
 
 		Gun: {
-			Label: フルオートの銃
+			Label: 自動火器
 			Tooltip: ""
 		}
 
 		GunManual: {
-			Label: セミオートの銃
+			Label: セミオート銃
 			Tooltip: ""
 		}
 
@@ -798,7 +798,7 @@ Configs: {
 		}
 
 		EnableWeaponOutVisuals: {
-			Label: WeaponOutの表示を有効にする
+			Label: WeaponOutのビジュアルを有効にする
 			Tooltip: 
 				'''
 				プレイヤーが武器、ツール、アイテムなどを表示できるようにします
@@ -930,7 +930,7 @@ Configs: {
 
 		SmallMeleePose: {
 			Label: "[i:3508] 近接武器"
-			Tooltip: デフォルトは戦闘：構え準備
+			Tooltip: デフォルトは戦闘：準備構え
 		}
 
 		SmallMeleePV: {
@@ -940,7 +940,7 @@ Configs: {
 
 		SmallToolPose: {
 			Label: "[i:1] ツール"
-			Tooltip: デフォルトは戦闘：構え準備
+			Tooltip: デフォルトは戦闘：準備構え
 		}
 
 		SmallToolPV: {
@@ -1110,7 +1110,7 @@ Configs: {
 
 		GunManualPose: {
 			Label: "[i:96] セミオートライフル"
-			Tooltip: デフォルトは構え：両手構え（ボルトアクション）
+			Tooltip: デフォルトは戦闘：両手構え（ボルトアクション）
 		}
 
 		GunManualPV: {
@@ -1140,7 +1140,7 @@ Configs: {
 
 		StaffPose: {
 			Label: "[i:739] 魔法の杖"
-			Tooltip: デフォルトは片手：長柄構え
+			Tooltip: デフォルトは片手長柄構え
 		}
 
 		StaffPV: {
@@ -1236,7 +1236,7 @@ Configs: {
 
 		GiantItemPose: {
 			Label: 巨大なアイテム
-			Tooltip: デフォルトは巨大運搬構え
+			Tooltip: デフォルトは両手運搬構え
 		}
 
 		GiantItemPV: {
@@ -1266,7 +1266,7 @@ Configs: {
 
 		GiantGunPose: {
 			Label: 巨大な遠距離武器
-			Tooltip: デフォルトは片手肩掛け構え
+			Tooltip: デフォルトは戦闘：両手ライフル構え（高め）
 		}
 
 		GiantGunPV: {
@@ -1332,10 +1332,10 @@ Configs: {
 
 		ModIntegrationTerrariaOverhaul: {
 			Label: "[i:509] 切替: Terraria Overhaul"
-			Tooltip: 
+			Tooltip:
 				'''
 				照準可能な武器を選択時、アイテムを非表示にします
-				Terraria Overhaulの設定 「AlwaysShowAimableWeapons」を参照してください
+				WeaponOutの表示を使いたい場合は、この設定をオフにし、Terraria Overhaulの「ビジュアル」内の「Always Show Aimable Weapons」もオフにしてください
 				デフォルトはオン
 				'''
 		}
@@ -1351,9 +1351,9 @@ Configs: {
 
 		ModIntegrationVibrantReverie: {
 			Label: "[i:1344] 自動: Vibrant Reverie"
-			Tooltip: 
+			Tooltip:
 				'''
-				特定アイテム用のデフォルト設定
+				Mod Call連携に対応しています
 				ありがとう W1K [i:58]！
 				'''
 		}

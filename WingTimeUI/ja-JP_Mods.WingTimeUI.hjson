@@ -3,7 +3,7 @@ Configs: {
 		DisplayName: UI 設定
 
 		horizontalPercentage: {
-			Label: 水平スクリーン比率
+			Label: 横画面比率
 			Tooltip: 0%は左、100%は右
 		}
 
@@ -38,7 +38,7 @@ Configs: {
 			Tooltip:
 				'''
 				UIの可視性の動作と連動して、UIが表示されるタイミングを決定します
-				空中で表示： 空中で表示します
+				空中で表示： 空中にいる間は常に表示します
 				ジャンプを押したときに表示： 空中でジャンプを押すと表示します
 				'''
 		}
