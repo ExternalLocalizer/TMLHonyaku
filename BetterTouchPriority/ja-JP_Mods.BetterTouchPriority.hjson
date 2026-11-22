@@ -33,8 +33,8 @@ BtpConfig: {
 			Label: 即時モードUI用の互換性アダプター
 			Tooltip:
 				'''
-				描画中に独自にマウス入力を読み取るUIを制御：Movable Minimap、Calamityのタイル・召喚UI、
-				Wrath of the Godsの会話画面、ImproveGameのウィンドウ、ThoriumのWishing Glass、バニラのポップアップとバフアイコン
+				描画中に独自にマウス入力を読み取るUIを制御：Movable Minimap、CalamityのタイルUI・召喚UI、
+				Wrath of the Godsの会話画面、ImproveGameのウィンドウ、Thoriumの願いの鏡、バニラのポップアップとバフアイコン
 				各アダプターは解析済みの特定バージョン向けに作成されており、それ以外のバージョンでは安全な機能のみ適用されます
 				/btp adaptersで一覧を確認できます
 				'''
@@ -51,9 +51,9 @@ BtpConfig: {
 
 		LogDecisions: {
 			Label: 入力判定をログに記録
-			Tooltip: 
+			Tooltip:
 				'''
-				各クリックの入力先、キャンセルされた入力の占有状態、テストウィンドウのイベントをclient.logに記録します
+				各クリックの入力先、キャンセルされた入力キャプチャ、テストウィンドウのイベントをclient.logに記録します
 				/btp logでも操作可能
 				'''
 		}

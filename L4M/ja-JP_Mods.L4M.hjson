@@ -3,10 +3,10 @@ Configs: {
 		DisplayName: スポーン設定
 
 		SpawnRateMultiplier: {
-			Label: スポーン頻度（倍率）
-			Tooltip: 
+			Label: 出現率（倍率）
+			Tooltip:
 				'''
-				スポーン頻度の倍率を変更します
+				出現率の倍率を変更します
 				0.5～2倍まで設定可能
 				デフォルト：1倍（スライムのみ）
 				'''
@@ -14,14 +14,14 @@ Configs: {
 	}
 }
 
-RoyalGelOreTooltip: 鉱石スライムは敵対したままですが、弱体化を受けます
+RoyalGelOreTooltip: 鉱石スライムは敵対したままですが、弱体化します
 
 Projectiles: {
 	SilverReflectedShot.DisplayName: 反射弾
-	IronShard.DisplayName: 鉄弾
+	IronShard.DisplayName: 鉄の弾丸
 	TitaniumShard.DisplayName: チタンの欠片
 	PalladiumFlame.DisplayName: パラジウムの火炎
-	PlatinumSpark.DisplayName: プラチナの閃光
+	PlatinumSpark.DisplayName: プラチナの火花
 }
 
 Buffs: {
@@ -50,7 +50,7 @@ Buffs: {
 	}
 }
 
-CopperWaterDeath: "{0}は感電して地面に倒れた。"
+CopperWaterDeath: "{0}は感電して地面に倒れた"
 
 NPCs: {
 	SmallTungstenSlime.DisplayName: スモールタングステンスライム

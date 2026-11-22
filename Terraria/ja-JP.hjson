@@ -20699,7 +20699,7 @@ tModLoader: {
 	ModsShowEnabledMods: 有効なModのみ表示
 	ModsShowDisabledMods: 無効なModのみ表示
 	ModsXModsFilteredByEnabled: "{0}個のModが有効・無効のフィルターによって非表示になっています。"
-	ModsXModsFilteredByModSide: "{0}個のModが動作環境フィルターによって非表示になっています。"
+	ModsXModsFilteredByModSide: "{0}個のModがModサイドフィルターによって非表示になっています。"
 	ModsXModsFilteredBySearch: "{0}個のModが検索フィルターによって非表示になっています。"
 	ModsXItems: "{0} {^0:アイテム;アイテム}"
 	ModsXNPCs: "{0} {^0:NPC;NPC}"
@@ -20845,7 +20845,7 @@ tModLoader: {
 		'''
 	LoadErrorDotNet45Required: Modを使用するには.NET Framework 4.5以上が必要です。最新の.NET Frameworkをダウンロードしてください。
 	LoadErrorDependencyMissing: 必要なModがありません: {0} (必要とするMod: {1})
-	LoadErrorDependencySideIncompatible: "{0}（動作環境: {1}）は{2}（動作環境: {3}）を必要としますが、{4}では読み込まれません。弱参照への変更を検討してください。"
+	LoadErrorDependencySideIncompatible: "{0}（Modサイド: {1}）は{2}（Modサイド: {3}）を必要としますが、{4}では読み込まれません。弱参照への変更を検討してください。"
 	LoadErrorErrorReadingModFile: Modファイル {0} の読み込み中にエラーが発生しました。
 	LoadErrorHashMismatchCorrupted: ハッシュが一致しません。データが変更または破損しています。
 	LoadErrorHashMismatchCorruptedWithModName: "{0} の整合性を確認できません: ハッシュが一致しません。データが変更または破損しています。"
@@ -20979,13 +20979,13 @@ tModLoader: {
 	RemovePackLocalDesc:
 		'''
 		すべてのModを無効化し、
-		バージョンを固定して保存したModをtModLoaderの読み込み先から除外します。
+		バージョンを固定して保存したModをtModLoaderのMod読み込みパスから除外します。
 		'''
 	InstallPackLocal: ローカルパックをインポート
 	InstallPackLocalDesc:
 		'''
 		すべてのModを無効化し、
-		Modパック内に固定保存されたバージョンのModを有効化します。
+		Modパック内の、バージョンを固定して保存したModを有効化します。
 		'''
 	ModPackMismatch: 最後に使用したModパック: {0}
 	ModPackDelete: Modパックを削除
@@ -21504,7 +21504,7 @@ tModLoader: {
 	TagsLanguage_PolishDescription: この言語向けに対応
 	TagsRating_AdultsOnly: 成人向け
 	TagsRating_AdultsOnlyDescription: 性的に露骨な内容やグラフィックを含み、成人向けです。ユーザーはコンテンツを閲覧する前に18歳以上であることを確認する必要があります。
-	TagsRating_Gore: 過激なグロテスク
+	TagsRating_Gore: 過激なグロテスク表現
 	TagsRating_GoreDescription: 過激な暴力やグロテスクな内容を含みます。
 	TagsRating_QuestionableContent: 問題のあるコンテンツ
 	TagsRating_QuestionableContentDescription: すべての視聴者に適さない可能性のある大人向けのトピックを含みます。
@@ -22181,7 +22181,7 @@ CyborgNames: {
 		N: {
 			D: {
 				Y: {
-					"": A.N.D.Y.
+					"": Ａ.Ｎ.Ｄ.Ｙ.
 				}
 			}
 		}

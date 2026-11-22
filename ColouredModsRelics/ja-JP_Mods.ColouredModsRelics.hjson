@@ -1,7 +1,7 @@
 Configs: {
 	RainbowConfig: {
 		DisplayName: Rainbow 設定
-		Headers.RainbowHeader: レリックのカラー表示切り替え
+		Headers.RainbowHeader: カラーレリックの表示切り替え
 
 		CalValEX: {
 			Label: Calamity's Vanities
@@ -207,6 +207,6 @@ Configs: {
 
 ErrorTexts: {
 	TypeLoadException: "[NOT USED]"
-	RelicTileAssetMissing: Mod [c/FF7F00:"{0}"] のレリック [c/FF7F00:"{1}"] のカラー版が見つかりません。[c/00CCFF:Coloured Relics] の開発者に連絡し、新しいレリックの描画を依頼してください！
+	RelicTileAssetMissing: Mod [c/FF7F00:"{0}"] のレリック [c/FF7F00:"{1}"] のカラー版が見つかりません。[c/00CCFF:Coloured Relics] の開発者に連絡し、新しいレリックのカラー版を描いてもらうよう依頼してください！
 	WarningForcoloredhjrelic: "[Rainbow Master/警告]: Rainbow MasterとColored Homeward Journey Relicsの両方が有効になっています。後者が前者を上書きします！"
 }
