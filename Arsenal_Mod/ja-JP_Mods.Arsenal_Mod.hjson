@@ -478,7 +478,7 @@ Items: {
 			鞭のダメージが12%増加し、近接攻撃速度が12%上昇
 			鞭の射程が20%伸び、鞭のノックバックが20%増加
 			鞭で攻撃した敵の防御力を減少させる
-			近接武器と鞭でオート攻撃が可能になる
+			近接武器のオート攻撃を有効にする
 			「敵を星に夢中にさせろ！」
 			'''
 	}
@@ -681,7 +681,7 @@ Items: {
 		Tooltip:
 			'''
 			木の矢に火をつけて発射し、
-			時々、矢を略奪者の矢に変換して発射する
+			時々、矢をピリジャーの矢に変換して発射する
 			'''
 	}
 
@@ -911,7 +911,7 @@ Items: {
 		DisplayName: デススピン
 		Tooltip:
 			'''
-			プライムの腕がフレイルの周りを回転し、フレイル本体を当てるとダメージが増加する
+			プライムの腕がフレイルの周りを回転し、追加でダメージを与える
 			「スピンして勝つ」
 			'''
 	}
@@ -1422,7 +1422,7 @@ Items: {
 			'''
 			地形に当たると跳ね返る蜂蜜の球を発射する
 			蜂蜜の球が当たるとライフが最も少ないプレイヤーのライフが回復し
-			この武器で攻撃するか、回復すると蜂蜜を得る
+			この武器で攻撃するか、この武器で回復すると、しばらく蜂蜜を得る
 			「銀河で最も甘い蜂蜜が含まれている」
 			'''
 	}
@@ -2226,7 +2226,7 @@ Items: {
 			左クリックで回転攻撃し、右クリックで投げる
 			空中にいるか、素早く移動しているときはダメージが増加し、
 			空中かつ素早く移動している場合はダメージが大きく増加する
-			装備中は移動速度が上昇する
+			選択中は移動速度が上昇する
 			「空と星の災いとなれ！」
 			'''
 	}
@@ -2353,7 +2353,7 @@ Items: {
 			召喚タグクリティカル率 15%
 			召喚タグ ノックバック増加
 			攻撃を当てた敵にミニオンが集中攻撃する
-			敵を攻撃すると鞭の攻撃速度、防御力、ライフ回復量を強化する
+			敵を攻撃すると、鞭の攻撃速度、自身の防御力、ライフ自然回復が上昇する
 			「オーロラ…？この鞭の中に完全に集まっているのか？」
 			'''
 	}
@@ -3068,7 +3068,7 @@ Items: {
 		DisplayName: ニードルダーツ
 		Tooltip:
 			'''
-			敵に突き刺さり、しばらくしてから爆発する
+			敵に突き刺さり、しばらくしてから爆発して追加ダメージを与える
 			複数のダーツが刺さっていると、
 			それら全てが一度に爆発し、数に応じてダメージが増加する
 			'''
@@ -3134,12 +3134,12 @@ Items: {
 
 	Skewer: {
 		DisplayName: スキュア
-		Tooltip: 時間経過とともにダメージが増加していく、リップタイドボルトを発射する
+		Tooltip: 時間経過とともにダメージが増加していくリップタイドボルトを発射する
 	}
 
 	GreatBranch: {
 		DisplayName: グレートブランチ
-		Tooltip: 速度に応じてダメージが増加
+		Tooltip: 勢いを蓄えるほどダメージが増加する
 	}
 
 	FlyingStaff: {
@@ -3465,7 +3465,7 @@ Items: {
 			召喚タグダメージ 6
 			召喚タグ ノックバック小増加
 			攻撃を当てた敵にミニオンが集中攻撃する
-			攻撃時、振るう鞭が増えることがある
+			攻撃時、追加で鞭を振るうことがある
 			「腐敗と破滅に注意」
 			'''
 	}
@@ -3568,7 +3568,7 @@ Items: {
 			セントリーを召喚する
 			敵にエネルギービームを発射して攻撃するリザードモノリスを召喚する
 			近くの敵に対しては火炎放射で攻撃する
-			火炎放射は攻撃間隔が短いが、召喚タグダメージが50%減少する
+			火炎放射は攻撃間隔が短いが、召喚タグダメージが25%減少する
 			'''
 	}
 
@@ -3790,7 +3790,7 @@ Projectiles: {
 	NightArrow.DisplayName: ナイトアロー
 	OmegaArrow.DisplayName: オメガアロー
 	OmegaArrowSecondary.DisplayName: オメガアロー
-	PillagerArrow.DisplayName: 略奪者の矢
+	PillagerArrow.DisplayName: ピリジャーの矢
 	PlasmcasterProjectile.DisplayName: プラズマボルト
 	PlasmcasterVortex.DisplayName: プラズマの渦
 	PoisonArrowProjectile.DisplayName: 毒矢
@@ -3958,7 +3958,7 @@ Projectiles: {
 	GreekFireProjectile.DisplayName: ギリシャの炎1
 	GreekFireProjectile2.DisplayName: ギリシャの炎2
 	GreekFireProjectile3.DisplayName: ギリシャの炎3
-	LilPokeyProjectile.DisplayName: リル・ポーキー
+	LilPokeyProjectile.DisplayName: リル・ポッキー
 	MythrilRapierProjectile.DisplayName: ミスリルのレイピア
 	NecroticDaggerProjectile.DisplayName: ネクロティックダガー
 	NecroticDaggerSecondary.DisplayName: ネクロティックダガー
