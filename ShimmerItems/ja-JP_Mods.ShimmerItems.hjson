@@ -14,7 +14,7 @@ Items:{
 	}
 
 	ShimmerRocket:{
-		DisplayName: ロケット弾(シマー)
+		DisplayName: ロケット弾（シマー）
 		Tooltip: 当たるとシマーが飛び散る
 	}
 
@@ -25,7 +25,7 @@ Items:{
 
 	ShimmerSwimmingPotion:{
 		DisplayName: シマー遊泳ポーション
-		Tooltip: シマーに入ってもシマー中を受けない
+		Tooltip: シマー中に対する免疫を付与する
 	}
 
 	ShimmerAbsorbantSponge:{
@@ -64,7 +64,7 @@ Buffs:{
 
 	ShimmerSwimming:{
 		DisplayName: シマー遊泳
-		Description: シマーに入ってもシマー中を受けない
+		Description: シマー中に対する免疫
 	}
 }
 
@@ -87,8 +87,8 @@ Configs:{
 			オンにすると
 			- シマー吸収スポンジが入手できるようになります
 			- 超吸収スポンジがシマーを吸収できなくなります
-			- 万能吸収スポンジの素材と効果にシマー吸収スポンジが追加されます
-			デフォルトでオン
+			- 万能吸収スポンジのクラフトにシマー吸収スポンジが必要になります
+			デフォルトはオン
 			'''
 		ContentToggle_ShimmerAbsorbantSponge_Label: シマー吸収スポンジを有効にする
 	}

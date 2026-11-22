@@ -1,14 +1,14 @@
 Safeguard: {
 	IssuesFound: Remnantsは互換性の問題を1つ以上検出したため、以下のワールドを作成できません。検出された問題:
 	SmallWorlds: ワールドのサイズが小さすぎます。
-	SecretSeeds: 隠しシード値が選択されています。
+	SecretSeeds: 秘密のシード値が選択されています。
 	BadRatio: 非標準の縦横比が使用されています。
 	HomewardJourney: Homeward Journey Modが有効になっています。
 	Aequus: Aequus Modが有効になっています。
 	StartWithBase: Start With Base Modが有効になっています。
 	LunarVeil: Lunar Veil Modが有効になっています。
 	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
-	WOTGMultiplayer: Remnantsは、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このModはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
+	WOTGMultiplayer: Remnantsは、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このModはマルチプレイで問題を引き起こすことが知られています。このことを理解した上で続行する場合は、Remnantsの設定でセーフガードを無効にしてください。
 }
 
 Chat: {
@@ -324,7 +324,7 @@ Items: {
 
 	PyramidKey: {
 		DisplayName: ピラミッドの鍵
-		Tooltip: ロックされたピラミッドの宝箱を開けることができる
+		Tooltip: 地下砂漠にあるロックされたピラミッドの宝箱を解錠する
 	}
 
 	CoinMold: {
@@ -1088,7 +1088,7 @@ Configs: {
 			Label: "[i:54] 移動の自由"
 			Tooltip:
 				'''
-				プレイヤーの移動速度と機動性が自然に上昇します（15mph → 18mph）
+				プレイヤーの移動速度と機動性が自然に上昇します（15mph → 20mph）
 				Calamity Modを使用している場合は、こちらの移動強化を推奨します
 
 				注意：強く推奨
@@ -1099,7 +1099,7 @@ Configs: {
 			Label: "[i:1248] 敵AIの改善"
 			Tooltip:
 				'''
-				多くの飛行、水中の敵のAIが改善されます
+				ほとんどの飛行・水中の敵のAIが改善されます
 
 				注意：マルチプレイでは効果がありません
 				'''
