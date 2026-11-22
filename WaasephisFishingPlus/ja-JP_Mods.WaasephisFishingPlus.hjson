@@ -88,7 +88,7 @@ Buffs: {
 
 	BetsyCurseImbue: {
 		DisplayName: ベッツイの呪い付与
-		Description: 近接攻撃と鞭でベッツイの呪いを与える
+		Description: 近接攻撃と鞭の攻撃でベッツイの呪いを与える
 	}
 
 	TackleBoxBuff: {
@@ -108,12 +108,12 @@ Buffs: {
 
 	MinorShineBuff: {
 		Description: 弱く発光する
-		DisplayName: 弱い光源
+		DisplayName: 弱い発光
 	}
 
 	MinorRegenerationBuff: {
 		Description: ライフ自然回復を僅かに増進
-		DisplayName: 弱い再生
+		DisplayName: 弱いライフ自然回復増進
 	}
 
 	MinorDefenseBuff: {
@@ -243,7 +243,7 @@ Items: {
 		Tooltip:
 			'''
 			フィッシング・パワーが2上昇する
-			水・溶岩・蜂蜜内で減速しない
+			水、溶岩、蜂蜜内で減速しない
 			'''
 	}
 
@@ -682,7 +682,7 @@ Items: {
 
 	FlaskofBetsy: {
 		DisplayName: ベッツイのフラスコ
-		Tooltip: 近接攻撃と鞭でベッツイの呪いを与える
+		Tooltip: 近接攻撃と鞭の攻撃でベッツイの呪いを与える
 	}
 
 	WaterBombDispenserItem: {
