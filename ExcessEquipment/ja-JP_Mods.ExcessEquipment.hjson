@@ -128,7 +128,7 @@ Items: {
 
 	ShroomiteHookItem: {
 		DisplayName: シュルーマイトフック
-		Tooltip: 引っ張る速度が遅い
+		Tooltip: ゆっくりと引き寄せる
 	}
 
 	FlamingDart: {
@@ -230,8 +230,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚タグダメージ 8
-			攻撃を当てた敵にミニオンが集中攻撃する
-			毒を与える
+			攻撃を当てた敵にミニオンが集中攻撃し、毒を与える
 			'''
 	}
 
@@ -332,9 +331,7 @@ Items: {
 		DisplayName: アダマンタイトの金床
 		Tooltip:
 			'''
-			通常の金床から作成できるアイテムに加え、
-			ミスリル・オリハルコン・アダマンタイト・チタンなど、
-			ハードモードの鉱石と素材からアイテムを作成できる
+			ミスリル、オリハルコン、アダマンタイト、チタンのインゴットからアイテムを作成できる
 			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
@@ -343,9 +340,7 @@ Items: {
 		DisplayName: チタンの金床
 		Tooltip:
 			'''
-			通常の金床から作成できるアイテムに加え、
-			ミスリル・オリハルコン・アダマンタイト・チタンなど、
-			ハードモードの鉱石と素材からアイテムを作成できる
+			ミスリル、オリハルコン、アダマンタイト、チタンのインゴットからアイテムを作成できる
 			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
@@ -426,7 +421,7 @@ Items: {
 
 	NanoSink: {
 		Tooltip: ""
-		DisplayName: ナノマシンの真紅
+		DisplayName: ナノマシンのシンク
 	}
 
 	NanoPiano: {
@@ -533,9 +528,7 @@ Items: {
 		DisplayName: クロロファイトの金床
 		Tooltip:
 			'''
-			通常の金床から作成できるアイテムに加え、
-			ミスリル・オリハルコン・アダマンタイト・チタンなど、
-			ハードモードの鉱石と素材からアイテムを作成できる
+			ミスリル、オリハルコン、アダマンタイト、チタンのインゴットからアイテムを作成できる
 			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 	}
@@ -680,7 +673,7 @@ Items: {
 	ForbiddenWings: {
 		Tooltip:
 			'''
-			飛行と低速落下ができ、落下ダメージを無効化
+			空を飛ぶことができ、落下速度が低下
 			「エジプトのファラオは空から降ってきた！」
 			'''
 		DisplayName: 禁断の翼
@@ -707,13 +700,13 @@ Items: {
 	}
 
 	SpinalWings: {
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 		DisplayName: 成長した脊椎
 	}
 
 	ShadowWings: {
 		DisplayName: 影の触手
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
 	FossilBow: {
@@ -965,7 +958,7 @@ Items: {
 		SetBonus:
 			'''
 			ミニオンスロットを1つ追加
-			花びらが攻撃した敵に追撃する
+			花びらが攻撃対象に追加のダメージを与える
 			'''
 		DisplayName: オリハルコンのバイザー
 		Tooltip:
@@ -993,7 +986,7 @@ Items: {
 		SetBonus:
 			'''
 			ミニオンスロットを1つ追加
-			攻撃を当てるとチタンの欠片を生成し、身を守る
+			攻撃を命中させるとチタンの欠片の防護を生成
 			'''
 		DisplayName: チタンのフード
 		Tooltip:
@@ -1410,7 +1403,7 @@ Items: {
 
 	RuneMidas: {
 		DisplayName: 金のルーン
-		Tooltip: 魔法攻撃で強欲を与え、敵がドロップするコインが増加
+		Tooltip: 魔法攻撃で敵がドロップするコインが増加
 	}
 
 	RunePoison: {
@@ -1644,8 +1637,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリーを召喚する
-			内部に入った敵にダメージと、
-			シャドウフレイムを与えるオーラを放つランタンを召喚する
+			シャドウフレイムを与えるオーラを放つランタン
 			'''
 		DisplayName: シャドウフレイムのランタン
 	}
@@ -1664,7 +1656,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリーを召喚する
-			敵を分裂する星で攻撃する星を召喚する
+			星を撃ち出す星を撃ち出す星
 			'''
 		DisplayName: スターマーカー
 	}
@@ -1676,7 +1668,7 @@ Items: {
 
 	MetalPipe: {
 		Tooltip: ""
-		DisplayName: 鉄のパイプ
+		DisplayName: 金属のパイプ
 	}
 
 	StarreachPotion: {
@@ -1697,26 +1689,24 @@ Items: {
 	HallowedAnvil: {
 		Tooltip:
 			'''
-			通常の金床から作成できるアイテムに加え、
-			ミスリル・オリハルコン・アダマンタイト・チタンなど、
-			ハードモードの鉱石と素材からアイテムを作成できる
+			ミスリル、オリハルコン、アダマンタイト、チタンのインゴットからアイテムを作成できる
 			「機能は全く同じだが、見た目は全く異なる！」
 			'''
 		DisplayName: 聖なる金床
 	}
 
 	DemoniteAltar: {
-		Tooltip: アルターで作成できるアイテムを作成できる
+		Tooltip: アルターでの作成に使用する
 		DisplayName: デモナイトの祭壇
 	}
 
 	CrimtaneAltar: {
-		Tooltip: アルターで作成できるアイテムを作成できる
+		Tooltip: アルターでの作成に使用する
 		DisplayName: クリムタンの祭壇
 	}
 
 	HallowedAltar: {
-		Tooltip: アルターで作成できるアイテムを作成できる
+		Tooltip: アルターでの作成に使用する
 		DisplayName: 聖なる祭壇
 	}
 
@@ -1832,14 +1822,14 @@ Items: {
 			溶岩のダメージを7秒間無効化
 			溶岩のダメージを軽減
 			'''
-		DisplayName: 溶岩のバラ
+		DisplayName: マグマのバラ
 	}
 
 	LavaDivingGear: {
 		Tooltip:
 			'''
-			液体内で無限にジャンプでき、息が長く続く
-			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
+			水中を泳ぐのが上手くなり、息が長く保つ
+			とても微弱な光を放ち、水の中でより鮮やかに光る
 			溶岩のダメージを7秒間無効化
 			溶岩のダメージを軽減
 			燃えるブロックのダメージを無効化
@@ -1899,7 +1889,7 @@ Items: {
 	}
 
 	DruidBracer: {
-		DisplayName: 魔法使いの籠手
+		DisplayName: ドルイドの籠手
 		Tooltip:
 			'''
 			魔法攻撃速度が12%上昇
@@ -1937,7 +1927,7 @@ Items: {
 		DisplayName: 氷歩きのブーツ
 		Tooltip:
 			'''
-			水・蜂蜜・シマーの上を歩行できる
+			水・蜂蜜の上を歩行できる
 			氷系ブロックで滑らなくなる
 			薄氷の上に落ちても割れない
 			'''
@@ -1948,11 +1938,11 @@ Items: {
 		Tooltip:
 			'''
 			水・溶岩・蜂蜜・シマーの上を歩行できる
-			液体内で無限にジャンプでき、息が長く続く
-			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
+			水中を泳ぐのが上手くなり、息が長く保つ
+			とても微弱な光を放ち、水の中でより鮮やかに光る
 			溶岩のダメージを7秒間無効化
 			溶岩のダメージを軽減
-			燃えるブロックのダメージを無効化し、シマーに入ってもシマー中を受けない
+			燃えるブロックのダメージとシマー中を無効化
 			'''
 	}
 
@@ -1999,7 +1989,7 @@ Projectiles: {
 	ScrollAcid.DisplayName: 巻物の酸性毒
 	ScrollPoison.DisplayName: 巻物の毒
 	JungleArrow.DisplayName: ジャングルの矢
-	PunchArrowProjectile.DisplayName: パンチアロー
+	PunchArrowProjectile.DisplayName: ボクシンググローブの矢
 	ChlorophyteBobber.DisplayName: クロロファイトの浮き
 	IncendiarySnowmanRocketProjectile.DisplayName: ヘルファイアスノーマンロケット
 	IncendiaryRocketProjectile.DisplayName: ヘルファイアロケット
@@ -2216,7 +2206,7 @@ Buffs: {
 
 	GentleBuff: {
 		DisplayName: 温和
-		Description: ノックバックを減少し、クリティカル率が低下
+		Description: ノックバックが減少し、クリティカル率が低下
 	}
 
 	ActionBuff: {
@@ -2337,7 +2327,7 @@ Configs: {
 			Tooltip:
 				'''
 				オンにするとバニラの流血と凍えを敵に与えることができるようになります
-				これがオフだと、凍え関連のアイテムが機能しなくなりますが、
+				これがオフだと一部の効果が機能しなくなりますが、
 				ゲームの進行には支障をきたしません
 				'''
 		}
@@ -2366,7 +2356,7 @@ Prefixes: {
 	}
 
 	Bouncy: {
-		AdditionalTooltip: ジャンプ速度 +5
+		AdditionalTooltip: ジャンプ速度 +5%
 		DisplayName: 弾む
 	}
 
@@ -2375,5 +2365,5 @@ Prefixes: {
 		DisplayName: 釣りの
 	}
 
-	WildChange.DisplayName: 荒々しいの変更
+	WildChange.DisplayName: 荒々しい変化
 }

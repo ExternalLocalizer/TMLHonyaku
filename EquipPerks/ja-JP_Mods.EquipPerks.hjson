@@ -35,7 +35,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			水に入っても凍えなくなる
-			フィッシング・パワーが5上昇する
+			フィッシング・パワーが5向上する
 			'''
 		PetTurtle:
 			'''
@@ -51,7 +51,7 @@ CommonItemtooltip: {
 		PetHornet:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			毒耐性
+			毒を無効化
 			'''
 		PetTiki:
 			'''
@@ -132,7 +132,7 @@ CommonItemtooltip: {
 		PetZephyr:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			フィッシング・パワーが10上昇する
+			フィッシング・パワーが10向上する
 			雨が降っている間は2倍になる
 			'''
 		PetMinotaur:
@@ -167,13 +167,13 @@ CommonItemtooltip: {
 		PetSugarGlider:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			落下ダメージを軽減
+			落下耐性を増加
 			'''
 		PetShark:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			液体内で無限にジャンプできる
-			フィッシング・パワーが5上昇する
+			泳げるようになる
+			フィッシング・パワーが5向上する
 			'''
 		PetPanda:
 			'''
@@ -204,7 +204,7 @@ CommonItemtooltip: {
 		PetPlantero:
 			'''
 			{$CommonItemtooltip.PerkTitle}
-			鞭の射程が5%伸びる
+			鞭の攻撃範囲が5%増加
 			ライフが50%以下の際、近接攻撃速度と鞭の攻撃速度が5%上昇する
 			'''
 		PetDynamiteKitten:
@@ -298,7 +298,7 @@ CommonItemtooltip: {
 			'''
 			{$CommonItemtooltip.PerkTitle}
 			噛み傷を無効化
-			液体内で無限にジャンプできる
+			泳げるようになる
 			雨が降っているか、液体内か、ライフが50%以下の際、
 			移動速度がわずかに上昇し、ダメージが7%増加する
 			'''
@@ -507,13 +507,13 @@ CommonItemtooltip: {
 		WingsAngel: ライフ自然回復をわずかに増進
 		WingsDemon: ダメージが2%増加
 		WingsFairy: ライフが25%以下の際、ライフ自然回復を増進する
-		WingsFin: 液体内で無限にジャンプできる
+		WingsFin: 泳げるようになる
 		WingsFrozen: 凍えと凍結を無効化
 		WingsHarpy: ジャンプ速度が上昇
 		WingsJetpack: 遠距離攻撃速度が3%上昇
 		WingsLeaf:
 			'''
-			鞭の射程が5%伸びる
+			鞭の攻撃範囲が5%増加
 			鞭の攻撃速度が2%上昇
 			'''
 		WingsBat: ライフ吸収能力がわずかに上昇
@@ -527,7 +527,7 @@ CommonItemtooltip: {
 			昼間にライフ自然回復を増進
 			夜間にマナ自然回復を増進
 			'''
-		WingsFlame: 燃えるブロック、燃えている！、呪炎、霜焼けを無効化
+		WingsFlame: 燃えるブロックのダメージ、燃えている！、呪炎、霜焼けを無効化
 		WingsSpectre:
 			'''
 			ライフが50%以下の際、ライフ吸収能力がわずかに上昇
