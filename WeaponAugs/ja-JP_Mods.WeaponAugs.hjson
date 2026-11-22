@@ -64,7 +64,7 @@ CommonItemTooltip: {
 	AugDescHeartsurge:
 		'''
 		{0}: 敵を倒すと、一定確率でライフ自然回復を{1}秒間増進
-		この武器を装備中はさらに増進
+		この武器を選択中はさらに増進
 		'''
 	AugDescArcana: "{0}: マナ消費量が{1}%減少"
 	AugDescArcanaUnusual:
@@ -106,7 +106,7 @@ CommonItemTooltip: {
 		'''
 	AugDescUnleash:
 		'''
-		{0}: この武器を装備中、攻撃しないでいると、次の攻撃のダメージが増加していく
+		{0}: この武器を選択中、攻撃しないでいると、次の攻撃のダメージが増加していく
 		最大で{1}%増加
 		'''
 	AugDescUnleashUnusual:
@@ -129,10 +129,10 @@ CommonItemTooltip: {
 		{0}: 攻撃で敵を倒したとき、近くの敵に倒した敵の最大ライフの約{1}%のダメージを与える
 		最大ライフの高い敵によって発動した場合はダメージが減少
 		'''
-	AugDescLightweight: "{0}: この武器を装備中、移動速度と走行速度が{1}%上昇"
-	AugDescRevitalize: "{0}: この武器を装備中、毎秒のライフ自然回復量が{1}増加"
+	AugDescLightweight: "{0}: この武器を選択中、移動速度と走行速度が{1}%上昇"
+	AugDescRevitalize: "{0}: この武器を選択中、毎秒のライフ自然回復量が{1}増加"
 	AugDescMegastrike: "{0}: 攻撃速度が20%低下するが、ダメージが{1}%増加"
-	AugDescSturdy: "{0}: この武器を装備中、防御力が{1}増加"
+	AugDescSturdy: "{0}: この武器を選択中、防御力が{1}増加"
 	AugDescBarrage:
 		'''
 		{0}: 5回攻撃するたびにルーン弾を発射する
@@ -146,10 +146,10 @@ CommonItemTooltip: {
 	AugDescDiversion: "{0}: 攻撃で混乱を{1}秒間与えることがある"
 	AugDescWildstrike: "{0}: ダメージが20%減少するが、攻撃速度が{1}%上昇"
 	AugDescWildstrikeUnusual: "{0}: 攻撃が{1}%の確率でほぼ瞬時に実行され、すぐに次の攻撃ができる"
-	AugDescUplifting: "{0}: この武器を装備中、飛行時間が{1}%延長され、ジャンプ速度が{1}%上昇"
+	AugDescUplifting: "{0}: この武器を選択中、飛行時間が{1}%延長され、ジャンプ速度が{1}%上昇"
 	AugDescLuck:
 		'''
-		{0}: この武器を装備中、運が{1}増加
+		{0}: この武器を選択中、運が{1}増加
 		参考までに、運の範囲は-1.0から1.0
 		'''
 	AugDescRend: "{0}: 攻撃で敵の防御力を一時的に{1}下げることがある"
@@ -191,7 +191,7 @@ CommonItemTooltip: {
 		'''
 	AugDescSuperluck:
 		'''
-		{0}: この武器を装備中、自身と周囲のプレイヤーの運が{1}増加
+		{0}: この武器を選択中、自身と周囲のプレイヤーの運が{1}増加
 		参考までに、運の範囲は-1.0から1.0
 		'''
 	AugDescKingslayer: "{0}: ほとんどのボスに対してダメージが{1}%増加"
@@ -214,7 +214,7 @@ CommonItemTooltip: {
 		'''
 	AugDescDeterminationUnusual:
 		'''
-		{0}: この武器を装備中、残りライフの割合が少ないほど防御力が割合で増加
+		{0}: この武器を選択中、残りライフの割合が少ないほど防御力が割合で増加
 		最大ライフの20%以下で効果が最大になり、防御力が{1}%増加
 		'''
 	AugDescBreaker:
@@ -307,13 +307,13 @@ CommonItemTooltip: {
 		'''
 	AugDescResurgence:
 		'''
-		{0}: この武器を装備中、致命傷を受けても死なず、{1}秒間無敵状態になる
+		{0}: この武器を選択中、致命傷を受けても死なず、{1}秒間無敵状態になる
 		無敵状態の間、この武器は与えたダメージの2.5%分ライフを回復
 		この効果には5分のクールダウンがある
 		'''
 	AugDescResurgenceUnusual:
 		'''
-		{0}: この武器を装備中、致命傷を受けても死なず、最大ライフの{1}%を瞬時に回復
+		{0}: この武器を選択中、致命傷を受けても死なず、最大ライフの{1}%を瞬時に回復
 		この効果には5分のクールダウンがある
 		'''
 	AugDescRunic:
@@ -329,7 +329,7 @@ CommonItemTooltip: {
 	AugDescPowertheftUnusual:
 		'''
 		{0}: 攻撃が当たると、敵の防御力を{1}秒間30%減少させることがある
-		この効果中でこの武器を装備中、防御力が20%増加
+		この効果中、この武器を選択中は防御力が20%増加
 		'''
 	# Exotics
 	
@@ -596,7 +596,7 @@ Items: {
 	Voidic: ヴォイド
 	Runic: ルーニック
 	Resurgence: リサージェンス
-	Powertheft: パワーセプト
+	Powertheft: パワーセフト
 	Execution: エグゼキューション
 	Aweshock: オーショック
 	Bladeheart: ブレイドハート
@@ -4391,7 +4391,7 @@ Buffs: {
 	}
 
 	Powertheft: {
-		DisplayName: パワーセプト
+		DisplayName: パワーセフト
 		Description: 敵の攻撃力が10%減少
 	}
 
@@ -4414,7 +4414,7 @@ Buffs: {
 
 	Deathshroud: {
 		DisplayName: デスシュラウド
-		Description: デスシュラウド武器を装備中なら、次の攻撃を回避
+		Description: デスシュラウド武器を選択中なら、次の攻撃を回避
 	}
 
 	Charge: {
@@ -4469,7 +4469,7 @@ Buffs: {
 
 	Heartsurge: {
 		DisplayName: ハートサージ
-		Description: ライフ自然回復が増進されていて、ハートサージ武器を装備中はさらに増進
+		Description: ライフ自然回復が増進されていて、ハートサージ武器を選択中はさらに増進
 	}
 
 	Momentum: {
@@ -4518,11 +4518,11 @@ Buffs: {
 
 	Ward: {
 		DisplayName: ウォード
-		Description: ウォード武器を装備中、被ダメージを軽減
+		Description: ウォード武器を選択中、被ダメージを軽減
 	}
 
 	PowertheftBuff: {
-		DisplayName: パワーセプト
+		DisplayName: パワーセフト
 		Description: パワーセフト武器が敵から攻撃力を奪い、ダメージが20%増加中
 	}
 
@@ -4583,7 +4583,7 @@ Buffs: {
 
 	PowertheftDef: {
 		DisplayName: アンユージュアルパワーセフト
-		Description: アンユージュアルパワーセフト武器が敵から防御力を奪い、この武器を装備中、防御力が20%増加
+		Description: アンユージュアルパワーセフト武器が敵から防御力を奪い、この武器を選択中、防御力が20%増加
 	}
 
 	UnuUnleash: {
@@ -4602,7 +4602,7 @@ Buffs: {
 		Description: ""
 		Desc:
 			'''
-			アンユージュアルデターミネーション武器を装備中、残りライフの割合が少ないほど防御力が割合で増加
+			アンユージュアルデターミネーション武器を選択中、残りライフの割合が少ないほど防御力が割合で増加
 			防御力: +{0}%
 			'''
 	}
