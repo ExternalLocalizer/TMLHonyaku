@@ -65,7 +65,7 @@ Configs: {
 		}
 
 		invertOnHitBuffHintColor: {
-			Label: 「命中時」効果のバフヒントカラーを反転する
+			Label: 攻撃を当てた際の効果のバフヒントカラーを反転する
 			Tooltip: ""
 		}
 
@@ -86,6 +86,16 @@ Configs: {
 				未知の染料がサポートされている光源の色を照会する頻度（照会あたりのティック数）
 				0に設定すると、光源は既知の染料のみで染色されます
 				低い値を設定すると、高性能なコンピューターが必要になります
+				'''
+		}
+
+		highlightFirstKeybindSnippet: {
+			Label: 最初のキーバインドを自動的に選択する
+			Tooltip:
+				'''
+				Control Configuratorが有効でないと機能しません
+				これがオフだと、アイテムのツールチップ内でキー割り当てを選択するには、
+				スクロール操作が必要になります。
 				'''
 		}
 	}
@@ -204,13 +214,16 @@ AdvancedTextSnippet: {
 	}
 
 	KeybindSnippetHandler: {
-		Option_Keyboard: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Keyboard
-		Option_KeyboardUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_KeyboardUI
-		Option_Mouse: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Mouse
-		Option_XBoxGamepad: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepad
-		Option_XBoxGamepadUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepadUI
+		Option_Keyboard: キーボード
+		Option_KeyboardUI: キーボードのUI
+		Option_Mouse: マウス
+		Option_XBoxGamepad: XBoxゲームパッド
+		Option_XBoxGamepadUI: XBoxゲームパッドのUI
 	}
 }
+
+StackableAccessory.Tooltip: スタック可能
+SecretTitle: Terraria: 今ならウマゼロ！
 
 ItemTooltip: {
 	FlaskofVenom: 近接攻撃と鞭の攻撃で[buffhint:Venom]を与える

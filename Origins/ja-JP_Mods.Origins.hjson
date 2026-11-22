@@ -265,6 +265,49 @@ Dialogue: {
 		Death_2: ある日。
 		Death_3: 我々は前進し続ける。
 	}
+
+	Cubekon_Tinkerer: {
+		StandardDialogue1: "[player:_]、笑顔を忘れるなよ。"
+		StandardDialogue2: 普段の俺は目立ちたがり屋な方なんだが、あの日はキューブコンの連中が俺に意地悪していたようだったな。
+		StandardDialogue3: 旅行者、何か手伝えることはあるか？
+		StandardDialogue4: 正直言って、キューボイドの解剖学は、俺の知識をもってしても理解するのは簡単ではないぞ…。
+		StandardDialogue5: まだ笑えるうちに笑っておくか…
+		InteractionWizard: "{NPCName}が一体何に悩んでいるのか、本当に分からないな。旅行者、彼の気分を少しでも明るくしてくれないか？"
+		InteractionTaxCollector: 時々、{NPCName}の頭の中で何が起こっているのか本当に不思議に思う。もしかしたら、もう笑うネタが尽きてしまったのかもしれないな。
+		InteractionPartyTavernKeep: さあ、笑って盛り上がろう！アイリッシュレッドエールが飲みたい気分だ…あ、あそこにいる。
+		InteractionParty: パーティーでは、笑顔にならないのは難しいだろう…
+		InteractionWind: テラリアン、新鮮な空気はキューボコンのマトリックスからの気分転換になる。実にありがたいことだ。
+		InteractionStorm1: 嵐はいつも俺をワクワクさせてくれる。
+		InteractionStorm2: 俺はちょっと変わっているんだ…雨の日に散歩に行くのが好きだ。
+		InteractionGraveYard: アンデッドが存在しているから…量子不死には反対だ…
+		BloodMoon1: 単一の直方体マトリックスだけで様々なIQT経路の不整合を考慮するのは確かに大変だ、ツーリスト...一体何を考えているんだ？
+		BloodMoon2: 今の俺の「状況」は最悪だが、[player:_]、何か手伝えることはあるか？
+		StrangeComputerPresent: 彼は本当に賢い人だな。自分の姿をファブリケーターに保存しておくなんて。
+	}
+
+	Dusk_Trader: {
+		StandardDialogue1: それは何だ？
+		StandardDialogue2: 急げ、テラリアン。
+		StandardDialogue3: はい、ここにいる。何かご用か？
+		StandardDialogue4: 何だ？
+		BloodMoon: 興味深い。今夜は邪悪な霊にあまり悩まされることはないだろう。
+	}
+
+	Demolitionist: {
+		StandardDialogue9001: 面白い話があるぞ！昔、俺と同じことをする魔法使いたちがいたんだが、彼らはそれを魔法だと思っていたんだ。面白いと思わないか？
+		AshenWorld: 構造物が邪魔かって？ これはまるで俺の爆弾のために作られたみたいだな！
+		DefiledWorld: あのチャンクの岩を突破しようとしてるのか？だったら、この爆発物でぶち壊してやろうぜ！
+		RivenWorld: スキンの塊を突破しようとしてるのか？だったら、この爆弾を試してみたらどうだ？
+		BloodMoon9001: あの忌々しい怪物どもを血まみれの惨状に変えることはできないな。なぜなら、あいつらはすでに血まみれだからだ。粉々に吹き飛ばすことはできるが！
+	}
+
+	WitchDoctor: {
+		InteractionAcidFreak1: "{NPCName}とは良好な関係を築いている。"
+		InteractionAcidFreak2: "{NPCName}は自信を体現している。私はその自信に親近感を覚える。"
+		InteractionAcidFreak3: "{NPCName}はかなり気まぐれなところがあるが、彼女はまだ若いということを理解してくれ。"
+	}
+
+	Truffle.InteractionTeenyTruffle: なんて可愛い子なんだ！痛っ！彼はそれが気に入らなかったのか…
 }
 
 Interface: {
@@ -650,7 +693,7 @@ Buffs: {
 
 	Depth_Ravel_Mount_Buff: {
 		DisplayName: デプスラヴェル
-		Description: 10%の確率で攻撃を回避し、水・溶岩・蜂蜜内で減速しない
+		Description: 10%の確率で攻撃を回避し、水、溶岩、蜂蜜内で減速しない
 	}
 
 	Lousy_Liver_Debuff: {
@@ -2738,7 +2781,7 @@ SetBonuses: {
 	Acrid:
 		'''
 		全ての攻撃で[buffhint:Origins/Toxic_Shock_Debuff]を与える
-		[buffhint/self:Venom]・[buffhint/self:Poisoned][ox:・][buffhint/self:Origins/Toxic_Shock_Debuff]を無効化
+		[buffhint/self:Venom]、[buffhint/self:Poisoned][ox:、][buffhint/self:Origins/Toxic_Shock_Debuff]を無効化
 		息がとても長く続く
 		'''
 	Amber:
@@ -3159,8 +3202,8 @@ Items: {
 		DisplayName: 宇宙の石仮面
 		Tooltip:
 			'''
-			ダメージ・近接攻撃速度・クリティカル率、
-			ライフ自然回復・防御力・採掘速度[ox:・]ミニオンのノックバックを少し強化するが
+			ダメージ、近接攻撃速度、クリティカル率、
+			ライフ自然回復、防御力、採掘速度[ox:、]ミニオンのノックバックを少し強化するが
 			移動関係の能力が低下する
 			'''
 	}
@@ -3189,7 +3232,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃した敵に[buffhint:Bleeding]と[buffhint/dnヘルファイア:OnFire3]を与える
-			自身に近い4体の敵が[buffhint:Bleeding]・[buffhint/On Fire:OnFire][ox:・][buffhint:Origins/Rasterized_Debuff]を受ける
+			自身に近い4体の敵が[buffhint:Bleeding]、[buffhint/On Fire:OnFire][ox:、][buffhint:Origins/Rasterized_Debuff]を受ける
 			'''
 	}
 
@@ -3238,7 +3281,7 @@ Items: {
 			'''
 			マウントキーで、小さなボールに変身する
 			10%の確率で攻撃を回避し、
-			水・溶岩・蜂蜜内で減速しない
+			水、溶岩、蜂蜜内で減速しない
 			'''
 	}
 
@@ -3383,7 +3426,7 @@ Items: {
 		DisplayName: ガングローブ
 		Tooltip:
 			'''
-			武器を振ると弾丸が発射される
+			弾丸を所持して武器を振ると弾丸を撃つ
 			（弾薬は付属しません）
 			'''
 	}
@@ -3500,13 +3543,13 @@ Items: {
 			'''
 			マナ消費量が8%減少
 			マナがなくなるとマナポーションを自動的に使用する
-			武器を振るとランダムな魔法が発射される
+			武器を振るとマナを消費してランダムな魔法を発射する
 			「魔法の腕前が求められるかもしれない」
 			'''
 	}
 
 	Magic_Tripwire: {
-		DisplayName: 魔法のトリップワイヤー
+		DisplayName: 魔法の仕掛け線
 		Tooltip:
 			'''
 			爆発物が敵の近くで爆発するようになる
@@ -3548,7 +3591,7 @@ Items: {
 			爆発範囲が15%広がる
 			爆発物の投擲攻撃速度が上昇
 			全ての爆発武器でオート攻撃が可能になる
-			武器を振るとロケットが発射される
+			ロケットを所持して武器を振るとロケットを撃つ
 			「ペイロードは含まれません」
 			'''
 	}
@@ -3596,7 +3639,7 @@ Items: {
 	}
 
 	No_U_Card: {
-		DisplayName: No Uカード
+		DisplayName: お返しだ！カード
 		Tooltip:
 			'''
 			接触ダメージを全て反射し、耐性を無視してデバフを与える
@@ -3745,7 +3788,7 @@ Items: {
 
 	Rope_Of_Sharing: {
 		DisplayName: 分かち合いのロープ
-		Tooltip: 全てのステータス・デバフ[ox:・]その他の効果を接続している他のプレイヤーと共有する
+		Tooltip: 全てのステータス、デバフ[ox:、]その他の効果を接続している他のプレイヤーと共有する
 	}
 
 	Ruby_Reticle: {
@@ -3795,7 +3838,7 @@ Items: {
 		DisplayName: 音波レーダー
 		Tooltip:
 			'''
-			罠・敵[ox:・]宝物が光る
+			罠、敵[ox:、]宝物が光る
 			とても弱い光を放つ
 			'''
 	}
@@ -3860,7 +3903,7 @@ Items: {
 			危険はゲームに及ぼすものであり、ゲームをクラッシュさせる可能性があります。
 			危険の形態は、弾の放出です。
 			危険は、あなたがこのアイテムを物理的に大きく動かした場合にのみ解き放たれます。このアイテムは避けて、装備しないのが最善です。
-			副作用には[ox:、]普遍的不安定性・永遠主義・盗み癖・幻覚・早漏などがある。
+			副作用には[ox:、]普遍的不安定性、永遠主義、盗み癖、幻覚、早漏などがある。
 			'''
 	}
 
@@ -4353,7 +4396,7 @@ Items: {
 			'''
 			魔法ダメージが5%増加
 			液体内で無限にジャンプでき、
-			水・溶岩・蜂蜜内で減速しない
+			水、溶岩、蜂蜜内で減速しない
 			'''
 	}
 
@@ -6791,7 +6834,7 @@ Items: {
 			マナ消費量が8%減少
 			近接武器と鞭でオート攻撃が可能になる
 			マナがなくなるとマナポーションを自動的に使用する
-			武器を振るとランダムな魔法が発射される
+			武器を振るとマナを消費してランダムな魔法を発射する
 			'''
 	}
 
@@ -7058,7 +7101,7 @@ Items: {
 			被ダメージ時の無敵時間が延長され[ox:、]ダメージを受けると一時的にダメージが増加し、移動速度が上昇する
 			爆発攻撃速度が上昇
 			全ての爆発武器でオート攻撃が可能になる
-			武器を振るとロケットが発射される
+			ロケット弾を所持して武器を振ると発射する
 			ダメージを受けると流れ星が降り、インベントリ内のキャニスターを発射する
 			「エントロピーはコーヒーの良い代替品だ」
 			'''
@@ -7279,8 +7322,8 @@ Items: {
 		DisplayName: アビサルアンカー
 		Tooltip:
 			'''
-			ダメージ・近接攻撃速度・クリティカル率、
-			ライフ自然回復・防御力・採掘速度・ミニオンの攻撃のノックバックを少し強化
+			ダメージ、近接攻撃速度、クリティカル率、
+			ライフ自然回復、防御力、採掘速度、ミニオンの攻撃のノックバックを少し強化
 			マナシールドが25%増加し、マナスターの取得範囲が広がるが、
 			移動速度が25%低下し、ジャンプ速度が40%低下する
 			液体内での落下速度が上昇し、
@@ -7765,7 +7808,7 @@ Items: {
 			'''
 			ライフが80%以上の際、被ダメージを40%軽減するが、
 			ライフが50%以上でダメージを受けると、ライフが4秒間自然回復しなくなる
-			ノックバック・燃えるブロックのダメージ[ox:・][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
+			ノックバック、燃えるブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
 			接触ダメージを近くの3体の敵に全て反射する
 			[buffhint/dn炎上|self:OnFire]していてもライフが自然回復する
 			'''
@@ -7776,7 +7819,7 @@ Items: {
 		Tooltip:
 			'''
 			被ダメージを15%軽減し、ライフ自然回復を増進する
-			ノックバック・燃えるブロックのダメージ[ox:・][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
+			ノックバック、燃えるブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
 			接触ダメージを近くの3体の敵に全て反射する
 			[buffhint/dn炎上|self:OnFire]していてもライフが自然回復する
 			'''
@@ -8285,7 +8328,7 @@ Items: {
 		Tooltip:
 			'''
 			[buffhint/self:Suffocation]を無効化し、窒息ダメージを軽減する
-			液体内で無限にジャンプでき、水・溶岩・蜂蜜内で減速しない
+			液体内で無限にジャンプでき、水、溶岩、蜂蜜内で減速しない
 			攻撃した敵に[buffhint:Origins/Cavitation_Debuff]と[buffhint:Wet]を与え[ox:、]液体内だと爆発することがある
 			爆発範囲が40%広がり
 			「苦闘を通してのみ、私たちは自分自身を見出すことができる」
@@ -8323,7 +8366,7 @@ Items: {
 
 	Crown_Jewel: {
 		DisplayName: 王冠の宝石
-		EffectTooltip: ハードモードのボスを倒すごとに[ox:、]ダメージ・クリティカル率・自爆ダメージ耐性が1%強化される
+		EffectTooltip: ハードモードのボスを倒すごとに[ox:、]ダメージ、クリティカル率、自爆ダメージ耐性が1%強化される
 		Tooltip:
 			'''
 			{$Mods.Origins.Items.Crown_Jewel.EffectTooltip}
@@ -8529,7 +8572,7 @@ Items: {
 		DisplayName: ミトラフィン
 		Tooltip:
 			'''
-			敵が受けている[buffhint/dn毒:Poisoned]・[buffhint:Venom]・[buffhint:Origins/Toxic_Shock_Debuff]の持続時間を延長する
+			敵が受けている[buffhint/dn毒:Poisoned]、[buffhint:Venom]、[buffhint:Origins/Toxic_Shock_Debuff]の持続時間を延長する
 			自身がこれらのデバフを受けた場合、その持続時間を短縮する
 			'''
 	}
@@ -8676,7 +8719,7 @@ Items: {
 
 	Shotgun_Glove: {
 		DisplayName: ショットガングローブ
-		Tooltip: 武器を振ると弾丸が発射される
+		Tooltip: 弾丸を所持して武器を振ると弾丸を複数撃つ
 	}
 
 	Wilting_Rose_Seeds: {
@@ -9834,10 +9877,10 @@ NPCs: {
 			# HateBiome_Mushroom: ここのトリュフは、全然美味しくないわ。
 			
 			LikeBiome_Evil: ここは私のアルカリ性の醸造液で全てを溶かし尽くすのに最適な場所だわ！
-			LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
+			LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
 			LoveNPC: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
 			# LoveNPC_WitchDoctor: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
 			
@@ -9972,33 +10015,6 @@ NPCs: {
 			
 			DislikeNPC: "{NPCName}…かわいそうだ。もっとよく知っていたらよかったのに…。"
 		}
-
-		Dialogue: {
-			StandardDialogue1: "[player:_]、笑顔を忘れるなよ。"
-			StandardDialogue2: 普段の俺は目立ちたがり屋な方なんだが、あの日はキューブコンの連中が俺に意地悪していたようだったな。
-			StandardDialogue3: 旅行者、何か手伝えることはあるか？
-			StandardDialogue4: 正直言って、キューボイドの解剖学は、俺の知識をもってしても理解するのは簡単ではないぞ…。
-			StandardDialogue5: まだ笑えるうちに笑っておくか…
-			InteractionWizard: "{NPCName}が一体何に悩んでいるのか、本当に分からないな。旅行者、彼の気分を少しでも明るくしてくれないか？"
-			InteractionTaxCollector: 時々、{NPCName}の頭の中で何が起こっているのか本当に不思議に思う。もしかしたら、もう笑うネタが尽きてしまったのかもしれないな。
-			InteractionPartyTavernKeep: さあ、笑って盛り上がろう！アイリッシュレッドエールが飲みたい気分だ…あ、あそこにいる。
-			InteractionParty: パーティーでは、笑顔にならないのは難しいだろう…
-			InteractionWind: テラリアン、新鮮な空気はキューボコンのマトリックスからの気分転換になる。実にありがたいことだ。
-			InteractionStorm1: 嵐はいつも俺をワクワクさせてくれる。
-			InteractionStorm2: 俺はちょっと変わっているんだ…雨の日に散歩に行くのが好きだ。
-			InteractionGraveYard: アンデッドが存在しているから…量子不死には反対だ…
-			BloodMoon1: 単一の直方体マトリックスだけで様々なIQT経路の不整合を考慮するのは確かに大変だ、ツーリスト...一体何を考えているんだ？
-			BloodMoon2: 今の俺の「状況」は最悪だが、[player:_]、何か手伝えることはあるか？
-			StrangeComputerPresent: 彼は本当に賢い人だな。自分の姿をファブリケーターに保存しておくなんて。
-		}
-	}
-
-	Dusk_Trader: {
-		StandardDialogue1: それは何だ？
-		StandardDialogue2: 急げ、テラリアン。
-		StandardDialogue3: はい、ここにいる。何かご用か？
-		StandardDialogue4: 何だ？
-		BloodMoon: 興味深い。今夜は邪悪な霊にあまり悩まされることはないだろう。
 	}
 
 	Mother-Unit: {
@@ -10024,22 +10040,6 @@ NPCs: {
 	Graveshield_Zombie.DisplayName: 墓石の盾のゾンビ
 	Enchanted_Fiberglass_Cannon.DisplayName: 魔法のグラスファイバーの大砲
 	Ancient_Defiled_Flyer.DisplayName: 古代の{§荒廃}のファントム
-
-	Demolitionist: {
-		StandardDialogue9001: 面白い話があるぞ！昔、俺と同じことをする魔法使いたちがいたんだが、彼らはそれを魔法だと思っていたんだ。面白いと思わないか？
-		AshenWorld: 構造物が邪魔かって？ これはまるで俺の爆弾のために作られたみたいだな！
-		DefiledWorld: あのチャンクの岩を突破しようとしてるのか？だったら、この爆発物でぶち壊してやろうぜ！
-		RivenWorld: スキンの塊を突破しようとしてるのか？だったら、この爆弾を試してみたらどうだ？
-		BloodMoon9001: あの忌々しい怪物どもを血まみれの惨状に変えることはできないな。なぜなら、あいつらはすでに血まみれだからだ。粉々に吹き飛ばすことはできるが！
-	}
-
-	Truffle.InteractionTeenyTruffle: なんて可愛い子なんだ！痛っ！彼はそれが気に入らなかったのか…
-
-	WitchDoctor: {
-		InteractionAcidFreak1: "{NPCName}とは良好な関係を築いている。"
-		InteractionAcidFreak2: "{NPCName}は自信を体現している。私はその自信に親近感を覚える。"
-		InteractionAcidFreak3: "{NPCName}はかなり気まぐれなところがあるが、彼女はまだ若いということを理解してくれ。"
-	}
 
 
 	Dryad: {
@@ -12915,4 +12915,65 @@ CrossMod: {
 	ExpandedTooltips.Fountain: バイオームを取り巻く力は、活性化時に{0}の状態になる。
 	RecipeBrowserAnyArmor: 全て
 
+}
+
+TownNPCMood: {
+	Brine_Fiend: {
+		Content: 今日は塩水の池で泳ぎたい気分だわ。
+		NoHome: 避難する場所があればありがたいけど、私は過酷な環境には慣れているわ。
+		FarFromHome: 家に帰らないと。トロフィーの様子を見に行かなきゃ！
+		LoveSpace: この環境は、密集したジャングルとは全く違うわ。本当に。
+		DislikeCrowded: 周りに他人がたくさんいるせいで、私のビールの出来が悪くなっているわ…
+		HateCrowded: ここは私が以前塩水に潜ったときよりもはるかにひどいわ。
+		LikeBiome: ジャングルは私に喜びを与えてくれる。私は家の近くにいるし、かつては毒に満ちた迷宮だった場所もすぐそこにあるわ！
+		LoveBiome: 一団のリーダーなんてくそくらえだわ！私は堂々と寺院の中にいるわ！
+		LikeBiome_Evil: ここは私のアルカリ性の醸造液で全てを溶かし尽くすのに最適な場所だわ！
+		LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LoveNPC: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
+		LikeNPC: "{NPCName}は私と同じくらい自然を愛している。私は彼女を高く評価しているわ。"
+		DislikeNPC: "{NPCName}は自分の動物を放し飼いにしていて、私の平穏を乱している。彼女は私の仕事を台無しにしているわ。"
+		HateNPC: "{NPCName}は私に近づかない方がいい。私が彼に何をするか、彼は知りたくないと思うわ。"
+		HateBiome: "{BiomeName}は嫌いだわ。"
+		LikeNPC_Princess: "{NPCName}が好きです。"
+		Princess_LovesNPC: "{NPCName}が好きですわ。"
+	}
+
+	Cubekon_Tinkerer: {
+		Content: うーん、今日はちょっとぶらぶらしたい気分なんだ、旅行者。
+		NoHome: 俺の量子ストレージバックパックは問題なく機能しているが、それでも自分の作業場を作っていろいろと試してみたいんだよね？
+		FarFromHome: 今日は十分な量のスクラップを集めた。そろそろ店に戻ろう。
+		LoveSpace: まるで子供に戻った気分だ…この部屋を見ていると色々なアイデアが湧いてくる。君が喜ぶようなアイデアではないが。
+		DislikeCrowded: 物事を批判するのはあまり好きではないが、今はちょっとプライバシーが欲しいな。
+		LikeBiome: ここはなかなか面白い場所だ。何かスクラップが転がっていないか？
+		DislikeBiome_Evil: 怖いものは苦手だが、お誘いありがとう、[player:_]。
+		DislikeBiome_Ashen: ここは働くにはすごく楽しい場所だと思うが、どうも気分が良くない。
+		DislikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		LoveNPC: 今、俺の頭の中にあるのはただ一つ、[player:_]だけ。誰だか分かるかい？
+		LikeNPC: "{NPCName}はまともな人だ。今日は機嫌が良さそうだな…"
+		DislikeNPC: "{NPCName}…かわいそうだ。もっとよく知っていたらよかったのに…。"
+	}
+
+	Defiled_Effigy: {
+		Content: 我々は今この瞬間を無駄に過ごしたいと願っている。
+		NoHome: 休息場所は、塊を風雨から守るのに最適だ。
+		FarFromHome: "[player:_]よ、我々は道に迷ってしまった。町はどこにあるのだろうか？"
+		LoveSpace: 緊張度は低く、心拍数も正常だ。
+		DislikeCrowded: ここでは我々は歓迎されていない、[player:_]よ…少しスペースを空けてほしい。
+		HateCrowded: 混雑は本能を刺激してしまう。[player:_]よ、今すぐ解決してほしい。
+		Ocean: "[player:_]よ、我々の牢獄への障壁は、その向こうにある。"
+		LoveBiome: 満足だ。兄弟や姉妹たちの魂が我々を歓迎してくれる。
+		LikeBiome: 我々がそこにいる限り、どこであってもそこは最適な住まいであり続ける。
+		HateBiome: この大地では、私たちの残骸は朽ち果てていく。テラリアンよ、我々を助けてくれ。
+		LikeNPC: "{NPCName}はまともだ。その気持ちは…お互い様だった。"
+		DislikeNPC: "{NPCName}は興味深い人物だが…我々は争いを好まない。"
+		HateNPC: "{NPCName}は我々の宿敵だ。彼女は我々のいない世界を望んでいる。"
+		LikeNPC_Princess: "{NPCName}が好きだ。"
+		Princess_LovesNPC: "{NPCName}が好きですわ。"
+	}
 }
