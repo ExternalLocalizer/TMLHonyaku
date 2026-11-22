@@ -3,7 +3,7 @@ ClientCheck: ホストのみがサーバーオプションを編集できます�
 Configs: {
 	ToolData: {
 		Enabled: {
-			Tooltip: 最初の道具を交換します
+			Tooltip: 最初のツールを実際に置き換えるかどうか
 			Label: 有効化
 		}
 
@@ -18,7 +18,7 @@ Configs: {
 		}
 
 		SelectedItem: {
-			Tooltip: 最初の道具と交換されるアイテム
+			Tooltip: 最初のツールを置き換えるアイテム
 			Label: 交換アイテム
 		}
 
@@ -393,7 +393,7 @@ Configs: {
 		DemonHeart: {
 			Tooltip:
 				'''
-				アクセサリスロットを1つ永続的に追加します
+				アクセサリスロットを1つ永久に追加します
 				（エキスパート/マスター/レジェンダリー世界のみ）
 				'''
 			Label: デーモンハート [i:3335]
@@ -405,7 +405,7 @@ Configs: {
 		}
 
 		GalaxyPearl: {
-			Tooltip: 運を永続的に増加させます
+			Tooltip: 運を永久に増加させます
 			Label: ギャラクシーパール [i:5340]
 		}
 
@@ -415,7 +415,7 @@ Configs: {
 		}
 
 		Ambrosia: {
-			Tooltip: 採掘速度と配置速度を永久に上昇させます
+			Tooltip: 採掘速度と建築速度を永久に上昇させます
 			Label: アンブロシア [i:5342]
 		}
 

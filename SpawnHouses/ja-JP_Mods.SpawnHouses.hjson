@@ -47,7 +47,7 @@ Configs: {
 		SpawnPointHouseOffset: {
 			Tooltip:
 				'''
-				オンにすると、スポーンポイントの家がスポーン座標から少し離れて生成されます
+				オンにすると、スポーンハウスがスポーン座標から少し離れて生成されます
 				他のModとの競合を避けるのに役立ちます
 				'''
 			Label: スポーンハウスの位置ずらし
@@ -134,8 +134,8 @@ Items: {
 	}
 
 	SpawnFirepit: {
-		Tooltip: カーソル位置に焚火を生成する
-		DisplayName: 生成（焚火）
+		Tooltip: カーソル位置にキャンプファイアを生成する
+		DisplayName: 生成（キャンプファイア）
 	}
 
 	FlipRegion: {

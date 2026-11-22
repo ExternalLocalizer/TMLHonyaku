@@ -694,7 +694,7 @@ Items: {
 
 	GrandSlammer: {
 		DisplayName: グランドスラマー
-		Tooltip: デーモン/クリムゾンアルターを破壊できる
+		Tooltip: デーモンアルターを破壊できる
 	}
 
 	ConfectionCampfire: {
@@ -760,7 +760,7 @@ Items: {
 		Tooltip:
 			'''
 			遠距離ダメージが10%増加
-			遠距離攻撃のクリティカル率が4%上昇
+			遠距離クリティカル率が4%上昇
 			'''
 	}
 
@@ -845,7 +845,7 @@ Items: {
 
 	NeapoliniteJoustingLance: {
 		DisplayName: ネアポリナイトランス
-		Tooltip: 移動速度に応じてダメージが増加
+		Tooltip: "{$ItemTooltip.HallowJoustingLance}"
 	}
 
 	CosmicCookieCannon: {
@@ -889,7 +889,7 @@ Items: {
 
 	BakersDozen: {
 		DisplayName: ベイカーズダズン
-		Tooltip: 攻撃が14回当たると、5回追撃する
+		Tooltip: 攻撃が13回当たると、さらに5回攻撃する
 	}
 
 	SweetStaff: {
@@ -909,10 +909,9 @@ Items: {
 
 	CreamBeam: {
 		DisplayName: クリームビーム
-		Tooltip: 
+		Tooltip:
 			'''
-			敵か地形に当たると近くの敵に向かって飛び、
-			当たるとさらに分裂するチョコクリームビームを発射する
+			追尾して2回分裂するチョコクリームビームを発射する
 			'''
 	}
 
@@ -1222,29 +1221,29 @@ Items: {
 
 	CookieWings: {
 		DisplayName: クッキーの翼
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
 	CreamWings: {
 		DisplayName: クリームの翼
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
 	SacchariteWings: {
 		DisplayName: サッカライトの翼
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
 	SprinkleWings: {
 		DisplayName: スプリンクルの翼
-		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+		Tooltip: 空を飛ぶことができ、落下速度が低下
 	}
 
 	WildAiryBlue: {
 		DisplayName: 野生のエアリーブルー
 		Tooltip:
 			'''
-			飛行と低速落下ができ、落下ダメージを無効化
+			空を飛ぶことができ、落下速度が低下
 			下入力でホバリングする
 			上入力でホバリングをやめる
 			'''
@@ -1737,8 +1736,7 @@ Items: {
 		DisplayName: チェリーの炸裂矢
 		Tooltip:
 			'''
-			敵か地形に当たると爆発し、
-			敵か地形に当たると爆発するチェリーの破片をばら撒く
+			チェリーの破片となって爆発し、破片もまた爆発する
 			'''
 	}
 
@@ -1960,7 +1958,7 @@ Configs: {
 				　　　ピンクフェアリーフロス
 				　　　パープルフェアリーフロス
 				　　　ブルーフェアリーフロス
-				　　　クッキエストとクッキーブロック
+				　　　超クッキーブロック
 				　　　全てのクリームストーン系宝石
 				'''
 			Label: クッキー＆クリームの広がり
