@@ -790,7 +790,7 @@ Projectiles: {
 	AshWoodBowLeftHoldout.DisplayName: アッシュウッドの弓左クリック
 	AshWoodBowRightHoldout.DisplayName: アッシュウッドの弓右クリック
 	BorealWoodBowLeftHoldout.DisplayName: ボーリアルウッドの弓左クリック
-	BorealWoodBowRightHoldout.DisplayName: ボーリアルウッドの弓
+	BorealWoodBowRightHoldout.DisplayName: ボーリアルウッドの弓右クリック
 	EbonWoodBowLeftHoldout.DisplayName: エボンウッドの弓左クリック
 	EbonWoodBowRightHoldout.DisplayName: エボンウッドの弓右クリック
 	PalmWoodBowLeftHoldout.DisplayName: ヤシの木の弓左クリック
@@ -801,7 +801,7 @@ Projectiles: {
 	ShadeWoodBowLeftHoldout.DisplayName: シェイドウッドの弓左クリック
 	ShadeWoodBowRightHoldout.DisplayName: シェイドウッドの弓右クリック
 	WoodBowLeftHoldout.DisplayName: 木の弓左クリック
-	WoodBowRightHoldout.DisplayName: 木の弓の弓右クリック
+	WoodBowRightHoldout.DisplayName: 木の弓右クリック
 	DemonBowLeftHoldout.DisplayName: 悪魔の弓左クリック
 	DemonBowRightHoldout.DisplayName: 悪魔の弓右クリック
 	TendonBowLeftHoldout.DisplayName: 筋繊維の弓左クリック
@@ -837,7 +837,7 @@ Projectiles: {
 	TsunamiLeftArrow2.DisplayName: タイダルアロー
 	PhantasmLeftHoldout.DisplayName: ファンタズム左クリック
 	PhantasmRightHoldout.DisplayName: ファンタズム右クリック
-	PhantasmShot.DisplayName: ファントムアロー
+	PhantasmShot.DisplayName: ファンタズムアロー
 	PhantasmShot2.DisplayName: ファントムアロー
 	WoodlandArrowProjectile.DisplayName: ウッドランドストーカーの矢
 	WoodlandStalkerLeftHoldout.DisplayName: ウッドランドストーカー左クリック
@@ -869,7 +869,7 @@ Projectiles: {
 	PlatinumArrowShot.DisplayName: プラチナのエネルギーアロー
 	PlatinumBowLeftHoldout.DisplayName: プラチナの弓左クリック
 	PlatinumBowRightHoldout.DisplayName: プラチナの弓右クリック
-	PreHardOreArrowShot.DisplayName: ハードモード前の弓のエネルギーアロー
+	PreHardOreArrowShot.DisplayName: ハードモード前の鉱石のエネルギーアロー
 	SilverArrowShot.DisplayName: 銀のエネルギーアロー
 	SilverBowLeftHoldout.DisplayName: 銀の弓左クリック
 	SilverBowRightHoldout.DisplayName: 銀の弓右クリック
@@ -883,8 +883,8 @@ Projectiles: {
 	ChargedBlasterLaser.DisplayName: チャージブラスターキャノンのレーザー
 	ChargedBlasterOrb.DisplayName: チャージブラスターキャノンの弾
 	BoneArrowProjectile.DisplayName: スケルトンの矢
-	SkeletonBowLeftHoldout.DisplayName: スケルトロンの弓左クリック
-	SkeletonBowRightHoldout.DisplayName: スケルトロンの弓右クリック
+	SkeletonBowLeftHoldout.DisplayName: スケルトンの弓左クリック
+	SkeletonBowRightHoldout.DisplayName: スケルトンの弓右クリック
 }
 
 ItemDescriptions: {
@@ -1017,7 +1017,7 @@ ItemDescriptions: {
 		剣と防具の素材が違うなら、その素材に応じた効果が発揮され、素材が同じなら、
 		ビームのダメージが4増加し、ノックバックが1増加する
 		---
-		錫の効果: ビームが消滅時に爆発し、50%のダメージを与える
+		錫の効果: ビームが消滅するときに爆発し、50%のダメージを与える
 		'''
 	IronBroadsword:
 		'''
@@ -1025,7 +1025,7 @@ ItemDescriptions: {
 		剣と防具の素材が違うなら、その素材に応じた効果が発揮され、素材が同じなら、
 		ビームのダメージが4増加し、ノックバックが1増加する
 		---
-		鉄の効果: 60%のダメージを与えるソードビームを螺旋状に2つ放つ
+		鉄の効果: 60%のダメージを与えるソードビームを螺旋状に2本放つ
 		'''
 	LeadBroadsword:
 		'''
@@ -1837,7 +1837,7 @@ ItemDescriptions: {
 		弓と防具の素材が違うなら、その素材に応じた効果が発揮され、素材が同じなら、
 		弓のダメージが6増加し、ノックバックが1増加する
 		---
-		銀の効果: エネルギーアローの初速が大幅に上昇
+		銀の効果: エネルギーアローの初速が大幅に上昇する
 		'''
 	OreBowTungsten:
 		'''
@@ -4095,7 +4095,7 @@ Configs: {
 
 		EnableSkeletonBow: {
 			Label: "[i:OriginalWeaponResetBH/SkeletonBow] スケルトロンの弓を有効にする"
-			Tooltip: スケルトロンの弓を有効にするかどうか変更します
+			Tooltip: スケルトンの弓を有効にするかどうか変更します
 		}
 	}
 
@@ -4633,12 +4633,11 @@ Items: {
 			'''
 			左クリックを押し続けてチャージし、チャージは2段階ある
 			1段階でイバラの矢を3本発射し、チャージ時間に応じてダメージが増加する
-			最大までチャージするとイバラの矢が刺さっている数に応じてダメージが増加する、
-			ウッドランドアローを発射する
-			右クリックで通常の攻撃を行い、イバラの矢を発射する
-			イバラの矢は敵に当たると10秒間突き刺さり、本数に応じて効果が強くなる、
+			最大までチャージすると、刺さっているイバラの矢の数に応じてダメージが増加する貫通するウッドランドアローを発射する
+			右クリックで通常の攻撃を行い、木の矢をイバラの矢に変換する
+			イバラの矢は敵に当たると最大10秒間突き刺さり、本数に応じて効果が強くなる、
 			森の毒素を与える
-			森の毒素は1スタックごとにライフを20減少させ、最大で15スタックする
+			森の毒素は1スタックごとに1秒あたりライフを20減少させ、最大15スタックで1秒あたり300減少させる
 			'''
 	}
 
@@ -4649,23 +4648,23 @@ Items: {
 			インベントリに所持しているとエネルギーゲージが出現する
 			右クリックで最大6連撃の通常攻撃を行う。最初の5回は敵を追尾する矢を、
 			最後は敵を貫通する矢を発射する
-			追尾矢が当たるとエネルギーを1、貫通矢が当たるとエネルギーを10獲得する
+			追尾矢が当たるとエネルギーを1、貫通矢が最初の対象に当たるとエネルギーを10獲得する
 			エネルギーが最大でないときに左クリックで追尾矢を2本発射し、
 			最大なら、狩猟の構えを発動し攻撃が変化する
 			エネルギーを消費してハンターアローを発射する
 			ハンターアローはカーソルから75マス内の敵を最大2体ロックオンし、追尾する
 			当たるとその敵に強力な矢の雨で追撃する
-			5回攻撃でき、その後は通常状態に戻る
+			最大5回攻撃でき、エネルギーが尽きると通常状態に戻る
 			周囲に敵がおらず、ボス戦中でないなら、エネルギーがゆっくりと回復する
-			
+
 			'''
 	}
 
 	SkeletonBow: {
-		DisplayName: スケルトロンの弓
+		DisplayName: スケルトンの弓
 		Tooltip:
 			'''
-			左クリックを押し続けてチャージするとダメージと同時発射数が増加
+			左クリックを押し続けてチャージし、最大までチャージするとスケルトンアローを3本発射する
 			右クリックで通常の攻撃を行い、スケルトンアローを発射する
 			スケルトンアローが当たると、敵を追尾する頭蓋骨を召喚することがある
 			'''

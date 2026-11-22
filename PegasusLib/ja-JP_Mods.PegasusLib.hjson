@@ -94,8 +94,8 @@ Configs: {
 			Tooltip:
 				'''
 				Control Configuratorが有効でないと機能しません
-				これがオフだと、アイテムのツールチップ内でキー割り当てを選択するには、
-				スクロール操作が必要になります。
+				これがオフだと、アイテムのツールチップ内でキーバインドを選択するには
+				スクロール操作が必要になります
 				'''
 		}
 	}
@@ -215,33 +215,33 @@ AdvancedTextSnippet: {
 
 	KeybindSnippetHandler: {
 		Option_Keyboard: キーボード
-		Option_KeyboardUI: キーボードのUI
+		Option_KeyboardUI: キーボードUI
 		Option_Mouse: マウス
-		Option_XBoxGamepad: XBoxゲームパッド
-		Option_XBoxGamepadUI: XBoxゲームパッドのUI
+		Option_XBoxGamepad: Xboxゲームパッド
+		Option_XBoxGamepadUI: XboxゲームパッドUI
 	}
 }
 
 StackableAccessory.Tooltip: スタック可能
-SecretTitle: Terraria: 今ならウマゼロ！
+SecretTitle: Terraria: 今ならウマフリー0%！
 
 ItemTooltip: {
 	FlaskofVenom: 近接攻撃と鞭の攻撃で[buffhint:Venom]を与える
 	FlaskofCursedFlames: 近接攻撃と鞭の攻撃で[buffhint/dn呪炎:CursedInferno]を与える
 	FlaskofFire: 近接攻撃と鞭の攻撃で[buffhint/dn炎上:OnFire]を与える
-	FlaskofGold: 近接攻撃と鞭の攻撃で[buffhint/dn強欲:Midas]を与え、ドロップするコインが増加
+	FlaskofGold: 近接攻撃と鞭の攻撃で敵に[buffhint/dn強欲:Midas]を与え、ドロップするコインを増やす
 	FlaskofIchor: 近接攻撃と鞭の攻撃で[buffhint/dn敵の防御減少:Ichor]を与える
 	FlaskofNanites: 近接攻撃と鞭の攻撃で[buffhint/dn混乱:Confused]させる
 	FlaskofPoison: 近接攻撃と鞭の攻撃で[buffhint/dn毒:Poisoned]を与える
 	VenomArrow: 敵に[buffhint:Venom]を与える
 	VenomBullet: 敵に[buffhint:Venom]を与える
-	NanoBullet: 敵を[buffhint/dn混乱:Confused]させ、地形に当たると跳ね返る
-	GoldenBullet: "敵が[buffhint/dnドロップするコインが増加:Midas]"
+	NanoBullet: 敵を[buffhint/dn混乱:Confused]させ、壁に当たると跳ね返る
+	GoldenBullet: "倒した敵の[buffhint/dnドロップするコインが増加:Midas]"
 	ShadowFlameKnife: 攻撃が当たると[buffhint:ShadowFlame]を与える
 	BeeKeeper:
 		'''
 		敵を攻撃すると蜂を召喚する
-		敵を[buffhint/dn混乱:Confused]させる
+		低確率で敵を[buffhint/dn混乱:Confused]させる
 		'''
 	DaoofPow:
 		'''
@@ -257,7 +257,7 @@ ItemTooltip: {
 		近接武器のサイズが大きくなる
 		'''
 	InfernoPotion: "周囲の敵を[buffhint/dn炎上:OnFire3]させる"
-	MagmaStone: 近接攻撃で[buffhint/dnヘルファイア:OnFire3]を与える
+	MagmaStone: 近接攻撃で[buffhint/dn炎上:OnFire3]を与える
 	MolotovCocktail:
 		'''
 		敵を[buffhint/dn燃やす:OnFire3]小規模な爆発を起こす
@@ -274,15 +274,14 @@ ArmorSetBonus: {
 		'''
 	HuntressTier2:
 		'''
-		セントリースロットを1つ追加
-		爆発罠の攻撃速度が上昇し、敵に[buffhint/dnオイル:Oiled]を与えるようになる
-		オイルは炎上した敵に与えるダメージが増加する
+		召喚できるセントリーの数が増える
+		爆発罠の待ち時間が短くなり、敵に[buffhint/dnオイル:Oiled]を与えるようになる
+		オイル状態の敵は炎上による被ダメージが増加する
 		'''
 	HuntressTier3:
 		'''
-		セントリースロットを1つ追加
-		爆発罠の攻撃速度が上昇し、敵に[buffhint/dnオイル:Oiled]を与えるようになる
-		オイルは炎上した敵に与えるダメージが増加する
+		召喚できるセントリーの数が増える
+		爆発罠を大幅に[buffhint/dn :Oiled]強化する
 		'''
 }
 
