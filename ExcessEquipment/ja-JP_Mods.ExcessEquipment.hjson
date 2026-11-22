@@ -2086,6 +2086,7 @@ Projectiles: {
 	StarmakerShotBig.DisplayName: スターマーカーの星
 	StarmakerSentry.DisplayName: スターマーカー
 	WoodenSpearProjectile.DisplayName: 木の槍
+	DeathRay.DisplayName: デスレイ
 }
 
 Tiles: {
@@ -2294,7 +2295,7 @@ Configs: {
 			Label: バニラのアイテムのレシピを追加
 			Tooltip:
 				'''
-				オンにするとバニラのアイテムを素材として使う、
+				オンにすると本来レシピがない、
 				バニラのアイテムのレシピを追加します
 				'''
 		}
@@ -2349,6 +2350,11 @@ Configs: {
 				近接武器だけでなく、遠距離武器と魔法武器にも影響するようになります
 				ツールチップには反映されません！
 				'''
+		}
+
+		RecipeTweaks: {
+			Label: レシピの調整
+			Tooltip: オンにするとバニラのアイテムの一部のレシピを変更します
 		}
 	}
 }
