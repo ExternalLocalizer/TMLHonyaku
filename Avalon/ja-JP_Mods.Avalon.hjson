@@ -699,7 +699,7 @@ TooltipEdits: {
 		釣り糸が切られなくなる
 		衣装スロットでも機能する
 		'''
-	Blowpipes: ダーツと併用して使う
+	Blowpipes: 吹き筒と併用して使う
 	TempleKey: ジャングル寺院のドアを開く
 	PoisonDart: 吹き筒と吹き銃と併用して使う
 	Extractinator: <right>でホットバー上の接頭辞の付いたアイテムに使用すると接頭辞を消せる
@@ -940,7 +940,7 @@ Items: {
 
 	NerveNumbNecklace: {
 		DisplayName: ナーブナムネックレス
-		Tooltip: デバフの持続時間をスタミナを消費して短縮させる
+		Tooltip: スタミナを消費してデバフの持続時間を短縮する
 	}
 
 	RingofArrogance: {
@@ -2488,9 +2488,7 @@ Items: {
 		DisplayName: ブラッドバラージ
 		Tooltip:
 			'''
-			<right>でライフを80消費して強化し、
-			ダメージが増加し、攻撃速度が上昇し、
-			血の塊が当たるとライフが回復する
+			<right>でライフを80消費して強化する
 			'''
 	}
 
@@ -2508,8 +2506,7 @@ Items: {
 		DisplayName: 流血のカタナ
 		Tooltip:
 			'''
-			<right>でライフを80消費して強化し、
-			ダメージが増加し、攻撃範囲が拡大される
+			<right>でライフを80消費して強化する
 			「血が流れるだろう！」
 			'''
 	}
@@ -2875,7 +2872,7 @@ Items: {
 
 	AdvFeatherfallPotion: {
 		DisplayName: 落下制御エリクサー
-		Tooltip: 落下速度が低下し、落下ダメージを無効化
+		Tooltip: 落下速度が低下
 	}
 
 	AdvFishingPotion: {
@@ -2885,7 +2882,7 @@ Items: {
 
 	AdvFlipperPotion: {
 		DisplayName: 遊泳のエリクサー
-		Tooltip: 液体内で無限にジャンプでき、水、溶岩、蜂蜜内で減速しない
+		Tooltip: 液体内を素早く移動できる
 	}
 
 	AdvForceFieldPotion: {
@@ -2905,7 +2902,7 @@ Items: {
 
 	AdvGillsPotion: {
 		DisplayName: エラのエリクサー
-		Tooltip: 水と蜂蜜内で呼吸できるようになる
+		Tooltip: 空気の代わりに水で呼吸する
 	}
 
 	AdvGPSPotion: {
@@ -2944,7 +2941,7 @@ Items: {
 	}
 
 	AdvIronskinPotion: {
-		DisplayName: 鉄の肌エリクサー
+		DisplayName: 鉄壁のエリクサー
 		Tooltip: 防御力が12増加 
 	}
 
@@ -2985,12 +2982,12 @@ Items: {
 
 	AdvNightOwlPotion: {
 		DisplayName: 夜目のエリクサー
-		Tooltip: 視界が良くなる
+		Tooltip: 暗くても視界が利くようになる
 	}
 
 	AdvObsidianSkinPotion: {
 		DisplayName: 黒曜石の肌のエリクサー
-		Tooltip: 炎のブロックと溶岩のダメージ、燃えている！を無効化
+		Tooltip: 溶岩のダメージを無効化
 	}
 
 	AdvRagePotion: {
@@ -3040,7 +3037,7 @@ Items: {
 
 	AdvStrengthPotion: {
 		DisplayName: 力のエリクサー
-		Tooltip: 全ステータスがより強化
+		Tooltip: 全ステータスを強化
 	}
 
 	AdvSummoningPotion: {
@@ -5402,7 +5399,7 @@ Items: {
 
 	PathogenTorch: {
 		DisplayName: 病原体のたいまつ
-		Tooltip: 液体内に設置できる
+		Tooltip: 水中に設置できる
 	}
 
 	AmberChest: {
@@ -5764,10 +5761,7 @@ Items: {
 		DisplayName: ロングボーン
 		Tooltip:
 			'''
-			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
-			一定以上引き絞ると矢が敵か地形に当たると爆発するようになり、
-			跳ね返るアクアフレイムボールをばら撒く
-			引き絞るほど爆発が大きくなり、ボールの数が増える
+			矢が敵か地形に当たると爆発し、跳ね返るアクアフレイムボールをばら撒く
 			'''
 	}
 
@@ -5780,10 +5774,7 @@ Items: {
 		DisplayName: ムーンフェンス
 		Tooltip:
 			'''
-			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
-			一定以上引き絞ると月のエネルギーが矢に力を与え、
-			矢の当たり判定が大きくなり、敵を貫通し、地形に当たると跳ね返る
-			引き絞るほどより大きく、より多く貫通し、跳ね返る
+			月のエネルギーが矢に力を与える
 			'''
 	}
 
@@ -5860,8 +5851,7 @@ Items: {
 		DisplayName: セシウムのかまど
 		Tooltip:
 			'''
-			下位のかまどで製錬、作成できるアイテムに加え、
-			セシウムを製錬でき、より強力な装備を作成できる
+			高性能な鉱石の製錬に使用する
 			'''
 	}
 
@@ -6697,9 +6687,7 @@ Items: {
 		DisplayName: ナクアダの金床
 		Tooltip:
 			'''
-			通常の金床から作成できるアイテムに加え、
-			ミスリル、オリハルコン、ナクアダ、アダマンタイト、チタン、トロキシニウムなど、
-			ハードモードの鉱石と素材からアイテムを作成できる
+			ミスリル、オリハルコン、ナクアダ、アダマンタイト、チタン、トロキシニウムのインゴットからアイテムを作成できる
 			'''
 	}
 
@@ -6707,9 +6695,7 @@ Items: {
 		DisplayName: トロキシニウムのかまど
 		Tooltip:
 			'''
-			下位のかまどで製錬、作成できるアイテムに加え、
-			アダマンタイト、チタン、クロロファイト、トロキシニウムなどハードモードの鉱石を製錬でき、
-			スペクタイトのインゴットを作成できる
+			アダマンタイト、チタン、トロキシニウムの鉱石の製錬に使用する
 			'''
 	}
 
@@ -7462,7 +7448,7 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が30%減少
-			ミニオンスロットを12つ追加
+			ミニオンスロットを12個追加
 			最大マナが800増加
 			'''
 	}
@@ -7557,7 +7543,7 @@ Items: {
 		DisplayName: ロケットの風船
 		Tooltip:
 			'''
-			高度が高い二段ジャンプが可能
+			二段ジャンプが可能
 			ジャンプ高度が上昇
 			翼を装備している場合、追加ジャンプ回数を飛行時間に変換する
 			'''
@@ -8125,7 +8111,9 @@ Items: {
 		DisplayName: 錬金術のドクロ
 		Tooltip:
 			'''
-			闘争、鉄の肌、イバラ、水上歩行のポーションの効果を得る
+			出現率が上昇
+			ダメージの一部を反射
+			水と溶岩の上を歩ける
 			ノックバックと燃えるブロックのダメージを無効化
 			'''
 	}
@@ -8134,8 +8122,7 @@ Items: {
 		DisplayName: 支援のクローク
 		Tooltip:
 			'''
-			ダメージを受けると蜂を放ち、星と雷が落ち、
-			蜂蜜を得て、移動速度が上昇
+			ダメージを受けると蜂を放ち、星と雷が落ち、移動速度が上昇
 			'''
 	}
 
@@ -8186,7 +8173,7 @@ Items: {
 			ライフとマナの自然回復を増進
 			ダメージが7%増加
 			クリティカル率が2%上昇
-			ブロックの設置範囲が4広がる
+			ブロックの設置範囲が4マス広がる
 			アイテムの取得範囲が広がる
 			特定のアイテムをどこでも作成できる
 			現在位置と時刻を表示する
@@ -8956,7 +8943,7 @@ Items: {
 
 	CalculatorSpectacles: {
 		DisplayName: 電卓のメガネ
-		Tooltip: カーソルを合わせた鉱脈と鉱石の塊の鉱石量を表示する
+		Tooltip: カーソルを合わせた鉱脈や鉱石の塊から得られるインゴットの量を表示する
 	}
 
 	StarTorch: {
@@ -11121,7 +11108,6 @@ Buffs: {
 			'''
 			落下速度が低下
 			上下入力で落下速度を調整できる
-			落下ダメージも無効化する
 			'''
 	}
 
@@ -11132,7 +11118,7 @@ Buffs: {
 
 	AdvFlipper: {
 		DisplayName: 強化遊泳
-		Description: 液体内で無限にジャンプでき、水、溶岩、蜂蜜内で減速しない
+		Description: 水の中で普通に動ける
 	}
 
 	AdvForceField: {
@@ -11152,7 +11138,7 @@ Buffs: {
 
 	AdvGills: {
 		DisplayName: 強化エラ呼吸
-		Description: 水と蜂蜜内で呼吸できるようになる
+		Description: 空気の代わりに水で呼吸する
 	}
 
 	AdvGPS: {
@@ -11186,7 +11172,7 @@ Buffs: {
 	}
 
 	AdvInvisibility: {
-		DisplayName: 強化透明
+		DisplayName: 強化透明化
 		Description: 透明になる
 	}
 
@@ -11232,12 +11218,12 @@ Buffs: {
 
 	AdvNightOwl: {
 		DisplayName: 強化フクロウの目
-		Description: 視界が良くなる
+		Description: 暗くても視界が利くようになる
 	}
 
 	AdvObsidianSkin: {
 		DisplayName: 強化黒曜石の肌
-		Description: 炎のブロックと溶岩のダメージ、燃えている！を無効化
+		Description: 溶岩のダメージを無効化
 	}
 
 	AdvRage: {
@@ -11464,7 +11450,7 @@ Buffs: {
 
 	CaesiumBoostingStance: {
 		DisplayName: セシウムブーストスタンス
-		Description: 移動速度は耐久と近接攻撃能力と交換されている
+		Description: 移動速度と引き換えに、耐久力が上昇する
 	}
 
 	Bacterium: {
