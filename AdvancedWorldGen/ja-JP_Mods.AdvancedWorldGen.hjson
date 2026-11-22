@@ -19,7 +19,7 @@ Spooky: {
 }
 
 SortedWorld: {
-	Description: 世界を高さでソート
+	Description: ワールドを高さでソート
 	$parentVal: Sorted World
 }
 
@@ -38,7 +38,7 @@ Santa: {
 }
 
 Remix: {
-	Description: 逆さまの隠しシード
+	Description: Remixの隠しシード
 	$parentVal: Remix
 }
 
@@ -65,7 +65,7 @@ Random: {
 
 NotTheBees: {
 	JungleWorld: {
-		Description: ワールド中がジャングルになる
+		Description: ワールド全体がジャングルになる
 
 		Conflicts: {
 			Santa: SantaはNot the beesのワールドには影響を与えることはできません
@@ -76,12 +76,12 @@ NotTheBees: {
 		$parentVal: Jungle World
 	}
 
-	Description: Not the bees隠しシード
+	Description: Not the Beesの隠しシード
 	$parentVal: Not the bees
 }
 
 NoTraps: {
-	Description:  No Traps隠しシード
+	Description: No Trapsの隠しシード
 	$parentVal: No Traps
 }
 
@@ -115,7 +115,7 @@ Drunk: {
 		$parentVal: Middle Lava Ocean
 	}
 
-	Description: 9周年の秘密シード
+	Description: 9周年の隠しシード
 
 	Crimruption: {
 		Description: 不浄と真紅の両方がワールドに生成されます
@@ -136,7 +136,7 @@ Celebrationmk10: {
 		$parentVal: Painted
 	}
 
-	Description: 10周年の秘密シード
+	Description: 10周年の隠しシード
 
 	BeachSpawn: {
 		Description: 海岸でプレイヤーとNPCが出現します
@@ -157,27 +157,27 @@ InvalidSizes: {
 	ComfortNormalMaxX:
 		'''
 		大きなワールド生成には時間がかかります
-		MOD設定でオーバーホールされたワールド生成を有効にしてくださいまた、クラッシュする可能性があります
+		Mod設定でオーバーホールされたワールド生成を有効にしてくださいまた、クラッシュする可能性があります
 		'''
 	NormalMinX:
 		'''
-		MODの設定でオーバーホールされたワールド生成を有効にする必要があります
+		Modの設定でオーバーホールされたワールド生成を有効にする必要があります
 		x={0} のワールドを生成できるようにする必要があります
 		'''
 	OverhauledMinY: ワールドはこの値以下では生成できません under y={0}.
 	OverhauledMinX: ワールドはこの値以下では生成できません under x={0}.
-	TooBigFromRAM:" {0}×{1}の大きさの世界は、このコンピューターでは利用できません"
+	TooBigFromRAM: " {0}×{1}の大きさのワールドは、このコンピューターでは利用できません"
 }
 
 WorldGenMessage: {
-	SnowReplace: 世界をよりクールに
+	SnowReplace: ワールドをよりクールに
 	Random: タイルのランダム化
 	Evil: ピュアさを取り除く
 }
 
 Config: {
 	Analytics: {
-		Tooltip: 匿名化されたデータは、ワールドが生成されるたびに送信され、MODの開発に役立てられます
+		Tooltip: 匿名化されたデータは、ワールドが生成されるたびに送信され、Modの開発に役立てられます
 		Label: 分析提供
 	}
 
@@ -223,7 +223,7 @@ Vanilla: {
 CustomSizes: {
 	TerrainType: 地形タイプ
 	EditTerrainPass: ワールド生成中に別のカスタマイズを有効にします
-	ScaledBeaches: 世界の大きさに合わせたビーチのスケール
+	ScaledBeaches: ワールドの大きさに合わせたビーチのスケール
 	BeachMultiplier: ビーチサイズの倍率：
 	DungeonMultiplier: ダンジョンサイズ倍率：
 	TempleMultiplier: 寺院サイズの倍率：
@@ -268,7 +268,7 @@ NoneSelected: {
 	Description: ご希望のオプションを選択してください
 }
 
-NoOptions: 選択肢なき世界
+NoOptions: 選択肢なきワールド
 
 Import: クリップボードからのインポート
 

@@ -34,11 +34,11 @@ Config: {
 	}
 
 	ImprovedHorseshoeBundle: {
-		Label: "[i:HorseshoeBundle] 風船の束を改良する"
+		Label: "[i:HorseshoeBundle] 蹄鉄と風船の束を改良する"
 		Tooltip:
 			'''
 			オンにすると風船の束の効果とレシピに、
-			[i:SharkronBalloon] シャークロンの風船と[i:FartInABalloon] おなら入り風船を追加します
+			[i:SharkronBalloon] シャークロンの風船と[i:FartInABalloon] おならの風船を追加します
 			'''
 	}
 
@@ -66,8 +66,8 @@ Config: {
 	
 	// Accessory Slots
 	SlotMoonlord: {
-		Label: "[i:BossMaskMoonlord] ムーンロードを撃破後、アクセサリスロットを追加する"
-		Tooltip: ムーンロードを倒すと、アクセサリスロットが追加されるか変更します
+		Label: "[i:BossMaskMoonlord] ムーンロード撃破後、アクセサリスロットを追加する"
+		Tooltip: オンにすると、ムーンロード撃破後にアクセサリスロットが追加されます
 	}
 
 	SlotWings: {
