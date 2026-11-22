@@ -683,7 +683,7 @@ Bestiary: {
 	GhostJelly: 死後も毒性を失わず、危険なままであり続ける発光クラゲ。幽霊となった今では空中を漂えるため、水の外にいても逃れることはできない！
 	GiantAnglerfish: 生前も死後も、その光で獲物をおびき寄せることができる。このアンコウは規格外の大きさに成長しており、その鋭い歯の脅威も格段に増している。
 	GiantSnail: この水生の巻貝は臆病で驚きやすく、ほとんどの時間を殻の中に隠れて過ごしている。体が大きい生き物ほど、美容のための睡眠も長く必要なのかもしれない！
-	HermitCrab: 幽霊になっても、貝殻を探し求める本能は失われていない。クイーンコンクとは激しい縄張り争いを繰り広げており、頻繁に貝殻を乗っ取られ、追い出されている。
+	HermitCrab: 幽霊になっても、貝殻を探し求める本能は失われていない。クイーン・ホラガイとは激しい縄張り争いを繰り広げており、頻繁に貝殻を乗っ取られ、追い出されている。
 	Isopod: せわしなく這い回るこの等脚類は、造船所で最も長く生き延びた種の一つだった。砂の上に生える苔を頻繁に食べている。
 	Nudibranch: 造船所で最も多様性に富んだ生物の一つであるウミウシは、実にさまざまな鮮やかな体色を持っている。
 	Parrotfish: 死後の世界でも、この魚たちは子供を守ろうとする強い本能を失っていない。親や子供に攻撃を仕掛ければ、即座に猛烈な反撃を受けることになる。
@@ -11717,10 +11717,10 @@ Items: {
 	}
 
 	GourdGenerator: {
-		DisplayName: ウリ生成器
+		DisplayName: ひょうたん生成器
 		Tooltip:
 			'''
-			巨大な生きたウリを生成する
+			巨大な生きたひょうたんを生成する
 			テスト用アイテム
 			'''
 	}
@@ -12353,7 +12353,7 @@ NPCs: {
 	YetiCrab.DisplayName: キワ・ヒルスタ
 	Batfish.DisplayName: アカグツ
 	HermitCrab.DisplayName: ヤドカリ
-	QueenConch.DisplayName: クイーンコンク
+	QueenConch.DisplayName: クイーン・ホラガイ
 	QueenConchIntro.DisplayName: ""
 	PirateChestVisuals.DisplayName: ""
 
@@ -13243,7 +13243,7 @@ Tiles: {
 			詰まった
 			古い貝殻。
 			'''
-		ShipyardCratePotName: 腐った木箱
+		ShipyardCratePotName: 腐ったクレート
 		ShipyardCratePotDescription: 
 			'''
 			基本的な
@@ -13495,7 +13495,7 @@ UI: {
 		SpiderWarBarDisplayName: クモの闘争
 		SpiderWarWave: ウェーブ
 		SpiderWarFinalWave: 最終ウェーブ
-		SpiderWarKills: 討伐数
+		SpiderWarKills: 撃破数
 	}
 
 	HunterScepter: {
