@@ -68,9 +68,8 @@ SetBonuses: {
 		'''
 	ArcaneGoldArmor:
 		'''
-		ミニオンスロットを2つ追加
-		コインの取得範囲が広がる
-		攻撃が当たると一定確率でコインをドロップする
+		鞭の攻撃を10回当てると黄金の共鳴が発動し、
+		ミニオンとセントリーの速度が20%上昇する
 		'''
 	ShiverArmor:
 		'''
@@ -115,7 +114,7 @@ SetBonuses: {
 	AnarchyArmor: 近接攻撃を当てると敵を追尾するカースドフレイムを召喚する
 	MartianGunnerArmor: 遠距離武器で攻撃すると火星の銃も攻撃する
 	BloodkeeperArmor: ブラッドラストを獲得すると、ライフ自然回復を一時的に大幅に増進
-	TempleArmor: 最大ライフが50増加
+	DragonWarriorArmor: 最大ライフが50増加
 	PaladinArmor:
 		'''
 		戦闘中、敵を追尾するハンマーを召喚する
@@ -159,31 +158,43 @@ Common: {
 		}
 
 		SlingshotChargeCount: 通常の攻撃を{0}回行った後、チャージショットを行う
+
+
+		FoodBonuses: {
+			Filling: 被ダメージ軽減とライフ自然回復量が
+			Protein: 近接ダメージと採掘速度が
+			Seafood: 遠距離ダメージとフィッシング・パワーが
+			Vegetable: 魔法ダメージとマナ消費量軽減が
+			Exotic: 召喚ダメージと運が
+			Sweet: 移動速度とジャンプ速度が
+			Spicy: ダメージと攻撃速度が
+			AddedImprovements: また、
+			Filling1: "[c/A0A0A0:-食べごたえがある軽食-]"
+			Filling2: "[c/A0A0A0:-食べごたえがある食事-]"
+			Filling3: "[c/A0A0A0:-食べごたえがあるご馳走-]"
+			Protein1: "[c/FF7F00:-高タンパク質の軽食-]"
+			Protein2: "[c/FF7F00:-高タンパク質の食事-]"
+			Protein3: "[c/FF7F00:-高タンパク質のご馳走-]"
+			Seafood1: "[c/00A000:-海鮮の軽食-]"
+			Seafood2: "[c/00A000:-海鮮の食事-]"
+			Seafood3: "[c/00A000:-海鮮のご馳走-]"
+			Vegetable1: "[c/A000FF:-野菜の軽食-]"
+			Vegetable2: "[c/A000FF:-野菜の食事-]"
+			Vegetable3: "[c/A000FF:-野菜のご馳走-]"
+			Exotic1: "[c/00A0FF:-異国風の軽食-]"
+			Exotic2: "[c/00A0FF:-異国風の食事-]"
+			Exotic3: "[c/00A0FF:-異国風のご馳走-]"
+			Sweet1: "[c/FFA0FF:-甘い軽食-]"
+			Sweet2: "[c/FFA0FF:-甘い食事-]"
+			Sweet3: "[c/FFA0FF:-甘いご馳走-]"
+			Spicy1: "[c/A00000:-スパイシーな軽食-]"
+			Spicy2: "[c/A00000:-スパイシーな食事-]"
+			Spicy3: "[c/A00000:-スパイシーなご馳走-]"
+		}
 	}
 }
 
 DamageClasses.BloodHunterClass.DisplayName: 悪意ダメージ
-
-#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
-TownNPCMood: {
-	MasterChef: {
-		Content: 俺はここで料理ができるから問題ないぞ。
-		NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんが。
-		LoveSpace: 周りにロバがいないのは、本当に気持ちがいいな。
-		FarFromHome: 俺はどこにいるんだ？
-		DislikeCrowded: 周りにロバがたくさんいるのが嫌だ。
-		HateCrowded: 周りにロバが多すぎるのがとても嫌だ。
-		LikeBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
-		LoveBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
-		DislikeBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
-		HateBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
-		LikeNPC:  "{NPCName}は魚を無限に供給してくれるから、俺の商売にとってとても便利だ。"
-		LikeNPC_Princess: 彼女は美味しい食べ物の味をよく知っているから、俺は{NPCName}が好きだ。
-		LoveNPC: "{NPCName}が好きだ。"
-		DislikeNPC: "{NPCName}は俺に味見させてくれないから、嫌いだ。"
-		HateNPC: "{NPCName}は食事をポーションで完全に代替できると考えているようだが、それは全くばかげていることだ。"
-	}
-}
 
 Buffs: {
 	AntlionDigBuff: {
@@ -386,15 +397,6 @@ Buffs: {
 		Description: ブラッドラストの杭の最大本数が3つまでに制限されている
 	}
 
-	SpriteCranberryBuff: {
-		DisplayName: クランベリーソーダ
-		Description:
-					'''
-					近接攻撃が強化され、フィッシング・パワーが上昇するが、
-					防御力が減少
-					'''
-	}
-
 	TranquillityBuff: {
 		DisplayName: 静寂
 		Description: 全ては平和で、敵が出現しなくなっている
@@ -413,11 +415,6 @@ Buffs: {
 	AnarchulesBeetlePetBuff: {
 		DisplayName: アナーキービートル
 		Description: アナーキービートルが後をついてくる
-	}
-
-	TheRelicTag: {
-		DisplayName: 強欲の強化
-		Description: 敵を攻撃すると、一定確率でコインを追加でドロップする
 	}
 
 	ChaosbringerPetBuff: {
@@ -468,11 +465,6 @@ Buffs: {
 	StormCloudPetBuff: {
 		DisplayName: クラウドネード
 		Description: クラウドネードが後をついてくる
-	}
-
-	ThunderStrikerTag: {
-		DisplayName: サンダーストラック
-		Description: 召喚ダメージが12%増加
 	}
 
 	FiberglassWhipDebuff: {
@@ -555,11 +547,6 @@ Buffs: {
 		DisplayName: 小さなウナギ
 	}
 
-	WiretapDebuff: {
-		Description: ミニオンから攻撃されると電気を放出する
-		DisplayName: ワイヤータップの過負荷
-	}
-
 	PowerlineDebuff: {
 		Description: この敵に対して召喚武器がいつもより有効
 		DisplayName: パワーラインのタグ
@@ -567,11 +554,6 @@ Buffs: {
 
 	LivingWoodWhipDebuff: {
 		DisplayName: リビングウッドの鞭のタグ
-		Description: この敵に対して召喚武器がいつもより有効
-	}
-
-	XenonWhipDebuff: {
-		DisplayName: キセノンの鞭のタグ
 		Description: この敵に対して召喚武器がいつもより有効
 	}
 
@@ -729,11 +711,174 @@ Buffs: {
 		DisplayName: アダマンタイトの守り
 		Description: 防御力が5増加
 	}
+
+	ThunderStrikerDebuff: {
+		Description: ミニオンがこのタグが付いた敵を攻撃すると電撃で追撃する
+		DisplayName: サンダーストライカーのタグ
+	}
+
+	SerpentWhipDebuff: {
+		Description: ミニオンがこのタグが付いた敵を攻撃すると猛毒のエネルギーで追撃する
+		DisplayName: サーペインウィップのタグ
+	}
+
+	TheRelicDebuff: {
+		DisplayName: ザ・レリックのタグ
+		Description: 倒した敵がドロップするコインが増加
+	}
+
+	GraniteShockDebuff: {
+		DisplayName: 御影石の感電
+		Description: ライフが徐々に減っていく
+	}
+
+	CircleofWrathBuff: {
+		Description: ダメージが5%増加
+		DisplayName: 怒りの円
+	}
+
+	CircleofSwiftnessBuff: {
+		Description: 移動速度が10%上昇
+		DisplayName: 迅速の円
+	}
+
+	CircleofSorceryBuff: {
+		Description: マナ自然回復を増進
+		DisplayName: 魔術の円
+	}
+
+	CircleofProtectionBuff: {
+		Description: 防御力が4増加
+		DisplayName: 守護の円
+	}
+
+	CircleofPrecisionBuff: {
+		Description: クリティカル率が5%上昇
+		DisplayName: 精密の円
+	}
+
+	CircleofHealingBuff: {
+		Description: ライフ自然回復を増進
+		DisplayName: 癒しの円
+	}
+
+	CircleofExcavationBuff: {
+		Description: 採掘速度が10%上昇
+		DisplayName: 採掘の円
+	}
+
+	ArcaneGoldArmorBuff: {
+		DisplayName: 黄金の共鳴
+		Description: ミニオンとセントリーの速度が20%上昇
+	}
+
+	Exotic1Buff: {
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Exotic}少し強化"
+		DisplayName: 異国風の軽食
+	}
+
+	Exotic2Buff: {
+		DisplayName: 異国風の食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Exotic}中程度強化"
+	}
+
+	Exotic3Buff: {
+		DisplayName: 異国風のご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Exotic}大きく強化"
+	}
+
+	Filling1Buff: {
+		DisplayName: 食べごたえがある軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}少し強化"
+	}
+
+	Filling2Buff: {
+		DisplayName: 食べごたえがある食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}中程度強化"
+	}
+
+	Filling3Buff: {
+		DisplayName: 食べごたえがあるご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}大きく強化"
+	}
+
+	Protein1Buff: {
+		DisplayName: 高タンパク質の軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Protein}少し強化"
+	}
+
+	Protein2Buff: {
+		DisplayName: 高タンパク質の食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Protein}中程度強化"
+	}
+
+	Protein3Buff: {
+		DisplayName: 高タンパク質のご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Protein}大きく強化"
+	}
+
+	Seafood1Buff: {
+		DisplayName: 海鮮の軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}少し強化"
+	}
+
+	Seafood2Buff: {
+		DisplayName: 海鮮の食事
+		Description: "$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}中程度強化"
+	}
+
+	Seafood3Buff: {
+		DisplayName: 海鮮のご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}大きく強化"
+	}
+
+	Spicy1Buff: {
+		DisplayName: スパイシーな軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Spicy}少し強化"
+	}
+
+	Spicy2Buff: {
+		DisplayName: スパイシーな食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Spicy}中程度強化"
+	}
+
+	Spicy3Buff: {
+		DisplayName: スパイシーなご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Spicy}大きく強化"
+	}
+
+	Sweet1Buff: {
+		DisplayName: 甘い軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}少し強化"
+	}
+
+	Sweet2Buff: {
+		DisplayName: 甘い食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}中程度強化"
+	}
+
+	Sweet3Buff: {
+		DisplayName: 甘いご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}大きく強化"
+	}
+
+	Vegetable1Buff: {
+		DisplayName: 野菜の軽食
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}少し強化"
+	}
+
+	Vegetable2Buff: {
+		DisplayName: 野菜の食事
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}中程度強化"
+	}
+
+	Vegetable3Buff: {
+		DisplayName: 野菜のご馳走
+		Description: "{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}大きく強化"
+	}
 }
 
 Tiles: {
-	TwistedAnvil.MapEntry: ねじれた金床
-	SpectralAnvil.MapEntry: スペクターの金床
 	TomatoPlant.MapEntry: トマトの苗
 	StrawberryPlant.MapEntry: イチゴの苗
 	PotatoPlant.MapEntry: じゃがいもの苗
@@ -829,6 +974,7 @@ Tiles: {
 	BeeCrateTile.MapEntry: 蜂の箱
 	ShimmerCrateTile.MapEntry: シマーの箱
 	WaspCrateTile.MapEntry: ワスプの箱
+	KitchenCounterTile.MapEntry: キッチンカウンター
 }
 
 Items: {
@@ -1728,7 +1874,7 @@ Items: {
 		DisplayName: 神秘の金の鎧
 		Tooltip:
 			'''
-			鞭の射程が25%伸びる
+			鞭の射程が20%伸び、鞭の攻撃速度が10%上昇
 			召喚ダメージが10%増加
 			'''
 	}
@@ -1761,8 +1907,8 @@ Items: {
 		DisplayName: 神秘の金のすね当て
 		Tooltip:
 			'''
-			移動速度が10%上昇
-			ミニオンの攻撃のノックバックが増加
+			ミニオンスロットを1つ追加
+			召喚ダメージが10%増加
 			'''
 	}
 
@@ -1781,7 +1927,7 @@ Items: {
 		Tooltip:
 			'''
 			黄金のフライパンを投げる
-			敵の防御力が減少させ、クリティカルで混乱させる
+			敵の防御力を減少させ、クリティカルで混乱させる
 			「生まれて初めて、言葉を失った！」
 			'''
 	}
@@ -1790,9 +1936,10 @@ Items: {
 		DisplayName: ザ・レリック
 		Tooltip:
 			'''
-			攻撃を当てた敵にミニオンが集中攻撃する
-			敵を攻撃すると強欲の強化を得る
-			強欲の強化を得ているときに敵を攻撃すると、一定確率でコインを追加でドロップする
+			召喚タグダメージ 5
+			{$CommonItemTooltip.Whips}
+			強欲のエネルギーで敵を攻撃する
+			この鞭で攻撃した敵にミニオンが攻撃すると追加でコインをドロップする
 			'''
 	}
 
@@ -1936,28 +2083,13 @@ Items: {
 		Tooltip: 矢のダメージが5%増加
 	}
 
-	TempleBreastplate: {
-		DisplayName: 寺院の胸当て
-		Tooltip: 近接ダメージが10%増加し、近接クリティカル率が10%上昇
-	}
-
-	TempleHelmet: {
-		DisplayName: 寺院の兜
-		Tooltip: 近接ダメージが15%増加
-	}
-
-	TempleLeggings: {
-		DisplayName: 寺院のすね当て
-		Tooltip: 近接クリティカル率が10%上昇
-	}
-
 	CircleofExcavation: {
 		DisplayName: 採掘の円
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			広範囲で、長時間持続する
-			効果範囲にいると採掘速度が25%上昇
+			範囲は広く、1分間持続する
+			効果範囲にいると採掘速度が10%上昇
 			'''
 	}
 
@@ -1966,7 +2098,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、短時間持続する
+			範囲は狭く、15秒間持続する
 			効果範囲にいるとライフ自然回復を増進
 			'''
 	}
@@ -1976,8 +2108,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、短時間持続する
-			効果範囲にいるとクリティカル率が10%上昇
+			範囲は狭く、15秒間持続する
+			効果範囲にいるとクリティカル率が5%上昇
 			'''
 	}
 
@@ -1986,8 +2118,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、短時間持続する
-			効果範囲にいると防御力が8増加
+			範囲は狭く、15秒間持続する
+			効果範囲にいると防御力が4増加
 			'''
 	}
 
@@ -1996,7 +2128,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、短時間持続する
+			範囲は狭く、15秒間持続する
 			効果範囲にいるとマナ自然回復を増進
 			'''
 	}
@@ -2006,8 +2138,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、中時間持続する
-			効果範囲にいると移動速度が25%上昇
+			範囲は狭く、30秒間持続する
+			効果範囲にいると移動速度が10%上昇
 			'''
 	}
 
@@ -2016,8 +2148,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用する円を召喚する
-			狭い範囲で、短時間持続する
-			効果範囲にいるとダメージが10%増加
+			範囲は狭く、15秒間持続する
+			効果範囲にいるとダメージが5%増加
 			'''
 	}
 
@@ -2026,8 +2158,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用するトーテムを召喚する
-			狭い範囲で、ずっと持続する
-			効果範囲内の敵の移動速度を低下させる
+			範囲は狭い
+			効果範囲内の通常の敵に凍傷を与え、移動速度を低下させる
 			'''
 	}
 
@@ -2036,10 +2168,10 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用するトーテムを召喚する
-			狭い範囲で、短時間持続する
-			効果範囲内の敵に燃え盛るエネルギーを与える
+			範囲は狭く、5秒間持続する
+			効果範囲内の敵にヘルファイアと燃え盛るエネルギーを与える
 			ミニオンが燃え盛るエネルギーを受けている敵を攻撃すると爆発する
-			敵1体につき5秒のクールダウンがある
+			敵1体につき1秒のクールダウンがある
 			「ブームブーン！」
 			'''
 	}
@@ -2049,9 +2181,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用するメダルを召喚する
-			狭い範囲で、ずっと持続する
-			効果範囲にいると翼とロケットブーツで無限に飛べ、飛行とジャンプの機動性が上昇する
-			範囲外に出ると翼とロケットブーツの飛行がリセットされる
+			範囲は狭い
+			効果範囲にいると翼とロケットブーツで無限に飛べる
 			'''
 	}
 
@@ -2060,7 +2191,7 @@ Items: {
 		Tooltip:
 			'''
 			セントリースロットを使用するトーテムを召喚する
-			狭い範囲で、長時間持続する
+			範囲は狭く、1分間持続する
 			効果範囲にいるとミニオンスロットが1つ追加される
 			'''
 	}
@@ -2485,15 +2616,10 @@ Items: {
 
 	BakedPotato: {
 		DisplayName: ベイクドポテト
-		Tooltip: 全ステータスが中程度強化
-	}
-
-	CheeseOmelette: {
-		DisplayName: チーズオムレツ
-		Tooltip:
+		Tooltip: 
 			'''
-			全ステータスが中程度強化
-			「チーズの匂いがする」
+			{$CommonItemTooltip.MediumStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}中程度強化
 			'''
 	}
 
@@ -2501,7 +2627,8 @@ Items: {
 		DisplayName: チーズ
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Protein}少し強化
 			「チーズの匂いがする」
 			'''
 	}
@@ -2513,24 +2640,20 @@ Items: {
 
 	StrawberryPie: {
 		DisplayName: イチゴのパイ
-		Tooltip: 全ステータスが大きく強化
+		Tooltip: 
+			'''
+			{$CommonItemTooltip.MajorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}大きく強化
+			'''
 	}
 
 	Strawberry: {
 		DisplayName: イチゴ
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}少し強化
 			「手を挙げて！これはイチゴだ！」
-			'''
-	}
-
-	SuspiciousLookingKebab: {
-		DisplayName: 怪しいケバブ
-		Tooltip:
-			'''
-			全ステータスが大きく強化
-			「最悪の賭けだ」
 			'''
 	}
 
@@ -2965,7 +3088,7 @@ Items: {
 
 	Roughstone: {
 		DisplayName: ラフストーン
-		Tooltip: ダメージを与えるオーラを放つ
+		Tooltip: 範囲内の敵に御影石の感電を与えるオーラを放つ
 	}
 
 	HallowedWand: {
@@ -3002,7 +3125,9 @@ Items: {
 		Tooltip:
 			'''
 			召喚タグダメージ 3
-			攻撃を当てた敵にミニオンが集中攻撃する
+			{$CommonItemTooltip.Whips}
+			自然のエネルギーで敵を攻撃する
+			この鞭で攻撃した敵にミニオンが攻撃すると鋭い葉を放つ
 			'''
 	}
 
@@ -3050,35 +3175,17 @@ Items: {
 			'''
 	}
 
-	Omelette: {
-		DisplayName: オムレツ
-		Tooltip:
-			'''
-			全ステータスが少し強化
-			「チーズのような匂いはしない」
-			'''
-	}
-
 	RollingPin: {
 		DisplayName: 麺棒
 		Tooltip: クリティカル時のダメージの増加度合いが他より高い
-	}
-
-	SpriteCranberry: {
-		DisplayName: クランベリーソーダ
-		Tooltip:
-			'''
-			近接攻撃が強化され、フィッシング・パワーが上昇するが、
-			防御力が減少
-			「答えは明白だ！」
-			'''
 	}
 
 	TinySprinklyTurtle: {
 		DisplayName: 小さなごま塩の亀
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}少し強化
 			「犬たちは大喜びだ！」
 			'''
 	}
@@ -3435,11 +3542,6 @@ Items: {
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.AmberSlime.DisplayName}"
 	}
 
-	AmethystSlimeBanner: {
-		DisplayName: アメジストスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.AmethystSlime.DisplayName}"
-	}
-
 	BigEaterBanner: {
 		DisplayName: ビッグイーターのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.BigEater.DisplayName}"
@@ -3455,19 +3557,9 @@ Items: {
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.CrystalBasilisk.DisplayName}"
 	}
 
-	DiamondSlimeBanner: {
-		DisplayName: ダイヤモンドスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.DiamondSlime.DisplayName}"
-	}
-
 	DynamiteSnowmanBanner: {
 		DisplayName: ダイナマイトスノーマンのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.DynamiteSnowman.DisplayName}"
-	}
-
-	EmeraldSlimeBanner: {
-		DisplayName: エメラルドスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.EmeraldSlime.DisplayName}"
 	}
 
 	FallenSoulBanner: {
@@ -3550,16 +3642,6 @@ Items: {
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.RattlingArcher.DisplayName}"
 	}
 
-	RubySlimeBanner: {
-		DisplayName: ルビースライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.RubySlime.DisplayName}"
-	}
-
-	SapphireSlimeBanner: {
-		DisplayName: サファイアスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.SapphireSlime.DisplayName}"
-	}
-
 	ScubaZombieBanner: {
 		DisplayName: スキューバゾンビのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.ScubaZombie.DisplayName}"
@@ -3568,11 +3650,6 @@ Items: {
 	TaintedBasiliskBanner: {
 		DisplayName: 腐ったバジリスクのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.TaintedBasilisk.DisplayName}"
-	}
-
-	TopazSlimeBanner: {
-		DisplayName: トパーズスライムのバナー
-		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.TopazSlime.DisplayName}"
 	}
 
 	UmbrellaZombieBanner: {
@@ -3819,7 +3896,8 @@ Items: {
 		DisplayName: レタス
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}少し強化
 			「レタスよ、前進せよ！」
 			'''
 	}
@@ -3833,7 +3911,8 @@ Items: {
 		DisplayName: じゃがいも
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}少し強化
 			「私がジャガイモ栽培の生活を選んだのではなく、ジャガイモ栽培の生活が私を選んだのだ」
 			'''
 	}
@@ -3847,7 +3926,8 @@ Items: {
 		DisplayName: トマト
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Vegetable}少し強化
 			「トマト、トマト」
 			'''
 	}
@@ -4185,8 +4265,9 @@ Items: {
 		DisplayName: サンダーストライカー
 		Tooltip:
 			'''
-			攻撃を当てた敵にミニオンが集中攻撃する
-			敵を攻撃すると召喚ダメージが増加する
+			召喚タグダメージ 2
+			{$CommonItemTooltip.Whips}
+			この鞭で攻撃した敵にミニオンが攻撃すると電撃で追撃する
 			'''
 	}
 
@@ -4330,7 +4411,11 @@ Items: {
 
 	CursedBeamer: {
 		DisplayName: カースドビーマー
-		Tooltip: 地形に当たると跳ね返るカースドビームを発射する
+		Tooltip:
+			'''
+			地形に当たると跳ね返るカースドビームを発射する
+			敵に当たるとカースボールを生成することがある
+			'''
 	}
 
 	DemoniteWand: {
@@ -4399,11 +4484,6 @@ Items: {
 			'''
 	}
 
-	RayBlaster: {
-		DisplayName: レイブラスター
-		Tooltip: 熱線を複数発射する
-	}
-
 	RubyTrident: {
 		DisplayName: ルビーのトライデント
 		Tooltip: ルビーボルトを複数発射する
@@ -4415,7 +4495,7 @@ Items: {
 	}
 
 	SBMG: {
-		DisplayName: SBMG
+		DisplayName: S.B.M.G.
 		Tooltip:
 			'''
 			敵を追尾する機械の甲虫を発射する
@@ -4428,8 +4508,8 @@ Items: {
 		Tooltip: 壁に当たると反射する熱線を2発発射する
 	}
 
-	TerraWand: {
-		DisplayName: テラワンド
+	SpeleoStaff: {
+		DisplayName: スペレオスタッフ
 		Tooltip:
 			'''
 			敵を追尾するエネルギーを複数発射する
@@ -4877,7 +4957,12 @@ Items: {
 
 	SpiderBow: {
 		DisplayName: 蜘蛛の弓
-		Tooltip: 猛毒の矢を発射する
+		Tooltip: 
+			'''
+			矢を連射する
+			クリティカル時、酸性毒を与える
+			敵の防御力を15無視する
+			'''
 	}
 
 	StinkBomb: {
@@ -4915,7 +5000,7 @@ Items: {
 
 	UnholyStar: {
 		DisplayName: アンホーリースター
-		Tooltip: 不浄の星を残していく矢を発射する
+		Tooltip: 矢が通ったところに不浄の星が残る
 	}
 
 	CorruptMimicStaff: {
@@ -4960,22 +5045,14 @@ Items: {
 		Tooltip: 共に戦うミミックを召喚する
 	}
 
-	FiberglassWhip: {
-		DisplayName: グラスファイバーの鞭
-		Tooltip:
-			'''
-			召喚タグダメージ 5
-			攻撃を当てた敵にミニオンが集中攻撃する
-			ほとんどの鞭よりも複数の敵に対して優れた性能を発揮する
-			'''
-	}
-
 	SerpentWhip: {
 		DisplayName: サーペインウィップ
 		Tooltip:
 			'''
-			攻撃を当てた敵にミニオンが集中攻撃する
-			酸性毒を与える
+			召喚タグダメージ 10
+			{$CommonItemTooltip.Whips}
+			猛毒のエネルギーで敵を攻撃する
+			この鞭で攻撃した敵にミニオンが攻撃すると猛毒のエネルギーで追撃する
 			'''
 	}
 
@@ -4984,8 +5061,9 @@ Items: {
 		Tooltip:
 			'''
 			召喚タグダメージ 20
-			攻撃を当てた敵にミニオンが集中攻撃する
-			敵を攻撃すると、ダメージを与えるスターダストセルが召喚される
+			{$CommonItemTooltip.Whips}
+			スターダストのエネルギーで敵を攻撃する
+			この鞭で攻撃した敵にミニオンが攻撃するとスターセルで追撃する
 			'''
 	}
 
@@ -5151,7 +5229,8 @@ Items: {
 		DisplayName: パン
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}少し強化
 			「パンの耳をかじって！」
 			'''
 	}
@@ -5199,8 +5278,9 @@ Items: {
 		Tooltip:
 			'''
 			召喚タグダメージ 10
-			攻撃を当てた敵にミニオンが集中攻撃する
-			敵を攻撃すると、ダメージを与える星を召喚する
+			{$CommonItemTooltip.Whips}
+			ジョリーのエネルギーで敵を攻撃する
+			この鞭で攻撃した敵にミニオンが攻撃すると敵を追尾する星を生成する
 			「家族（ミニオン）を集めて、美味しい食事（ボス）を召し上がれ」
 			'''
 	}
@@ -5567,21 +5647,13 @@ Items: {
 		DisplayName: 電気の杖
 	}
 
-	Wiretap: {
-		Tooltip:
-			'''
-			攻撃を当てた敵にミニオンが集中攻撃する
-			攻撃した敵に過負荷を与える
-			過負荷を受けた敵はミニオンから攻撃されると周囲にダメージを与える電気を放出する
-			'''
-		DisplayName: ワイヤータップ
-	}
-
 	Powerline: {
 		Tooltip:
 			'''
-			召喚タグダメージ 5
-			攻撃を当てた敵にミニオンが集中攻撃する
+			召喚タグダメージ 4
+			{$CommonItemTooltip.Whips}
+			攻撃した敵に過負荷を与え、その敵にミニオンが攻撃すると、
+			周囲にダメージを与えるエレクトロスフィアが発生する
 			'''
 		DisplayName: パワーライン
 	}
@@ -5725,7 +5797,8 @@ Items: {
 		DisplayName: テンサイ
 		Tooltip:
 			'''
-			全ステータスが少し強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}少し強化
 			「応援してるよ！」
 			'''
 	}
@@ -5739,7 +5812,8 @@ Items: {
 		DisplayName: チェリーコーラ
 		Tooltip:
 			'''
-			全ステータスが中程度強化
+			{$CommonItemTooltip.MinorStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}少し強化
 			「チェリーピッキングソーダ！」
 			'''
 	}
@@ -5758,7 +5832,8 @@ Items: {
 		DisplayName: チョコレートミルク
 		Tooltip:
 			'''
-			全ステータスが中程度強化
+			{$CommonItemTooltip.MediumStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}中程度強化
 			「はい、チョコレートミルクをどうぞ。だって君は最高だから！」
 			'''
 	}
@@ -6603,6 +6678,7 @@ Items: {
 		DisplayName: 呪いのナイフ
 		Tooltip:
 			'''
+			敵に呪炎を与える
 			ブラッドラストの杭を[c/FFA000:2]本消費してダメージが高いダガーを[c/FFA000:3]本投げる
 			呪炎の軌道を残し、敵か地形に当たると爆発する
 			'''
@@ -7053,6 +7129,138 @@ Items: {
 			毒を与える
 			'''
 	}
+	
+		LavaproofDivingGear: {
+		DisplayName: 対溶岩潜水具
+		Tooltip:
+			'''
+			液体内で無限にジャンプでき、息が長く続く
+			氷系ブロックで滑らなくなる
+			とても弱い光を放ち、水と蜂蜜内だとより強い光を放つ
+			炎のブロックのダメージと溶岩を無効化
+			溶岩内にいると、溶岩内に何があるがわかりやすくなる
+			'''
+	}
+
+	DungBeetle: {
+		DisplayName: フンコロガシ
+		Tooltip:
+			'''
+			召喚ダメージが20%増加
+			ミニオンの攻撃のノックバックが増加
+			敵に狙われにくくなる
+			5%の確率でミニオンとセントリーがクリティカルする
+			'''
+	}
+
+	JadeDragonWings: {
+		DisplayName: ドラゴンの翡翠の翼
+		Tooltip: 飛行と低速落下ができ、落下ダメージを無効化
+	}
+
+	DragonJade: {
+		DisplayName: ドラゴンの翡翠
+		Tooltip: 「生命の諸形態に惹かれる」
+	}
+
+	DragonWarriorBreastplate: {
+		DisplayName: 竜の戦士の胸当て
+		Tooltip: 近接ダメージが10%増加し、近接クリティカル率10%が上昇
+	}
+
+	DragonWarriorGreaves: {
+		DisplayName: 竜の戦士のすね当て
+		Tooltip: 近接クリティカル率10%が上昇
+	}
+
+	DragonWarriorMask: {
+		DisplayName: 竜の戦士の仮面
+		Tooltip: 近接ダメージが15%増加
+	}
+
+	SerpentFeather: {
+		DisplayName: サーペントの羽
+		Tooltip: ""
+	}
+
+	MeteorShower: {
+		DisplayName: メテオシャワー
+		Tooltip: 矢が通ったところに隕石が残る
+	}
+
+	FeatheredSerpentBanner: {
+		DisplayName: フェザードサーペントのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.FeatheredSerpent.DisplayName}"
+	}
+
+	DragonBait: {
+		DisplayName: 竜の餌
+		Tooltip:
+			'''
+			フェザードサーペントを召喚する
+			ジャングル寺院で使用できる
+			'''
+	}
+
+	ChickenSoup: {
+		DisplayName: 鶏のスープ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MediumStats}され、
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}中程度強化
+			'''
+	}
+
+	FishSalad: {
+		DisplayName: 魚のサラダ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MediumStats}
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Seafood}中程度強化
+			'''
+	}
+
+	FowlSalad: {
+		DisplayName: 鶏のサラダ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MediumStats}
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Protein}中程度強化
+			'''
+	}
+
+	BlueberryPie: {
+		DisplayName: ブルーベリーパイ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MajorStats}
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Sweet}大きく強化
+			'''
+	}
+
+	FreshPasta: {
+		DisplayName: 生のパスタ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.MediumStats}
+			{$Mods.VitalityMod.Common.Tooltips.FoodBonuses.Filling}中程度強化
+			'''
+	}
+
+	GemSlimeBanner: {
+		DisplayName: 宝石スライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.VitalityMod.NPCs.GemSlime.DisplayName}"
+	}
+
+	KitchenCounter: {
+		DisplayName: キッチンカウンター
+		Tooltip: 作業台、シンク、調理鍋、かまどの機能を持ち、それらで作れるアイテムを作成できる
+	}
+
+	CropSeedBag: {
+		DisplayName: 農作物の種袋
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
 }
 
 NPCs: {
@@ -7281,55 +7489,6 @@ NPCs: {
 		BestiaryFlavorText: 真紅に侵されたバジリスクは常に怒りに満ちており、恐ろしい捕食者となっている。
 	}
 
-	MasterChef: {
-		DisplayName: マスターシェフ
-		BestiaryFlavorText: マスターシェフの性格は扱いづらいところもあるが、彼が作る料理はいつも最高に素晴らしい！
-
-		TownNPCMood: {
-			Content: 俺はここで料理ができるから問題ないぞ。
-			NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんが。
-			FarFromHome: 俺はどこにいるんだ？
-			LoveSpace: 周りにロバがいないのは、本当に気持ちがいいな。
-			DislikeCrowded: 周りにロバがたくさんいるのが嫌だ。
-			HateCrowded: 周りにロバが多すぎるのがとても嫌だ。
-			LoveBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
-			LikeBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
-			DislikeBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
-			HateBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
-			LikeNPC:  "{NPCName}は魚を無限に供給してくれるから、俺の商売にとってとても便利だ。"
-			LikeNPC_Princess: 彼女は美味しい食べ物の味をよく知っているから、俺は{NPCName}が好きだ。
-			LoveNPC: "{NPCName}が好きだ。"
-			DislikeNPC: "{NPCName}は俺に味見させてくれないから、嫌いだ。"
-			HateNPC: "{NPCName}は食事をポーションで完全に代替できると考えているようだが、それは全くばかげていることだ。"
-			Princess_LovesNPC: "{NPCName}が好きですわ。"
-		}
-
-		Census.SpawnCondition: インベントリに[i:5] キノコを所持
-
-		Names: {
-			Gordon: ゴードン
-			Smith: スマス
-			Will: ウィル
-			Carol: キャロル
-			Steven: スティーブン
-			Ainsley: エインズリー
-			Cody: コーディ
-			Peppino: ペッピーノ
-		}
-
-		Dialogue: {
-			Dialogue1: ポーションは健康的な食事の一部ではないことを{0}に伝えられるか？
-			Dialogue2: 次は魚にちゃんと火が通っているか確認しろよ！
-			Dialogue3: 料理をまともに作れないなら出て行け！
-			Dialogue4: ポーションにお金を無駄遣いせずに、ちゃんとした食事を摂れよ！
-			Dialogue5: 焦げたステーキを作るなよ、このロバ！
-			Dialogue6: 時間を無駄にするなよ、お前は料理もできないのだから！
-			Dialogue7: お前のひどい料理の腕前を確かめるためだけに引っ越してきた。
-			Dialogue8: きっとお前は卵を料理しようとするたびにキッチンを火事にしているんだろうな。
-			ShimmerDialogue1: ピザ。
-		}
-	}
-
 	BoneDemon: {
 		DisplayName: ボーンデーモン
 		BestiaryFlavorText: ボーンデーモンは、通常のデーモンよりも古く、強力だ。ほとんどのデーモンとは異なり、彼らは影の魔法ではなく、古代の炎の魔法を使って、招かれざる客を滅ぼす。
@@ -7458,6 +7617,135 @@ NPCs: {
 
 	CirclingCloud.DisplayName: クラウドボール
 	CirclingCloud2.DisplayName: クラウドボール
+
+	FeatheredSerpent: {
+		DisplayName: フェザードサーペント
+		BestiaryFlavorText: この古く荘厳な生き物は寺院の壁の中に潜んでおり、誘い出された時にのみ姿を現す。
+	}
+
+	FeatheredSerpentHitbox.DisplayName: フェザードサーペント
+
+	MasterChef: {
+		DisplayName: マスターシェフ
+		BestiaryFlavorText: マスターシェフの性格は扱いづらいところもあるが、彼が作る料理はいつも最高に素晴らしい！
+
+		TownNPCMood: {
+			Content: 俺はここで料理ができるから問題ないぞ。
+			NoHome: ここに来たとき、俺はテーブルとイスがある家を想像していたんが。
+			FarFromHome: 俺はどこにいるんだ？
+			LoveSpace: 周りにロバがいないのは、本当に気持ちがいいな。
+			DislikeCrowded: 周りにロバがたくさんいるのが嫌だ。
+			HateCrowded: 周りにロバが多すぎるのがとても嫌だ。
+			LoveBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
+			LikeBiome: "{BiomeName}で取れる食材の種類の豊富さがとても気に入っている。"
+			DislikeBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
+			HateBiome: 何を食べても甘すぎるから、{BiomeName}は大嫌いだ。
+			LikeNPC:  "{NPCName}は魚を無限に供給してくれるから、俺の商売にとってとても便利だ。"
+			LikeNPC_Princess: 彼女は美味しい食べ物の味をよく知っているから、俺は{NPCName}が好きだ。
+			LoveNPC: "{NPCName}が好きだ。"
+			DislikeNPC: "{NPCName}は味見させてくれないから、嫌いだ。"
+			HateNPC: "{NPCName}はポーションがあれば食事なんて必要ないと思っているようだが、全く馬鹿げている。"
+			Princess_LovesNPC: "{NPCName}が好きですわ。"
+		}
+
+		Census.SpawnCondition: 地下のキノコバイオームに出現し、縛られているところを話しかける
+
+		Names: {
+			Gordon: ゴードン
+			Smith: スマス
+			Will: ウィル
+			Carol: キャロル
+			Steven: スティーブン
+			Ainsley: エインズリー
+			Cody: コーディ
+			Peppino: ペッピーノ
+		}
+
+		Dialogue: {
+			Dialogue1: ポーションは健康的な食事の一部ではないことを{0}に伝えられるか？
+			Dialogue2: 次は魚にちゃんと火が通っているか確認しろよ！
+			Dialogue3: 料理をまともに作れないなら出て行け！
+			Dialogue4: ポーションにコインを無駄遣いせずに、ちゃんとした食事を摂れよ！
+			Dialogue5: 焦げたステーキを作るなよ、このロバ！
+			Dialogue6: 時間を無駄にするなよ、お前は料理もできないのだから！
+			Dialogue7: お前のひどい料理の腕前を確かめるためだけに引っ越してきた。
+			Dialogue8: きっとお前は卵を料理しようとするたびにキッチンを火事にしているんだろうな
+			ShimmerDialogue1: ピザ。
+			Full1: 今日受け取った食事を食べたから、おなかがいっぱいだ。
+			Full2: また明日、次の課題の食事を持ってこい。
+			QuestComplete1: 食べてみるが、おいしいとは思うなよ。
+			QuestComplete2: なかなか良さそうだな、食べてみるか!
+			QuestComplete3: もっと期待していたが……まあ、これならいいか。
+		}
+
+		QuestDialogue: {
+			BunnyStew: 今日ウサギを見かけたんだが、人生で一番可愛いってくらい最高だった！そのウサギでシチューを作ってくれないか？ 
+			CookedFish: 魚を焼こうとすると、いつも真っ黒焦げになってしまうのか……。普通の焼き魚なら作れるか？今日は魚のサラダを作る予定だから、もし余ったら分けてやるよ！
+			FruitSalad: 今日はヘルシーな気分なんだ……フルーツサラダなんてどうだ？ボウルにフルーツを3種類入れて。それ以上でもそれ以下でもダメだ。辛いトウガラシを混ぜてもいいが……その場合は、俺は食べないからな！
+			GrilledSquirrel: リスだ！リスって可愛いよな？……まあ、ちゃんと味付けすればすごく美味しいんだが！さあ、手早く調理しろ！
+			RoastedBird: 今日の課題は焼き鳥だ！鳥の種類は何でもいい、とにかく鳥なら何でもいい。俺はこれから鳥肉のサラダを作る予定だから、もし余ったら教えてやるよ！
+			SauteedFrogLegs: カエル脚のソテーを作ってくれないか？自分で作りたいところだが、あいにくカエルがいなくてな。つまり、お前が作るしかないってことだ！
+			BowlofSoup: 金魚が笑っているのを見たことはあるか？……まあ、私もないけどな。それより、俺がずっと気になっていることがある。金魚をスープに入れたら、どんな味がするんだ！というわけで、今日の料理はそれだ。
+			GrubSoup: ちょっと聞いてくれ！ジャングルに行って、そこにいる生き物を捕まえてスープにする……最高だと思わないか？……え、そうでもない？まあいい、とにかく作ってもらうぞ！
+			Sashimi: 刺身って知ってるか？魚を一口サイズに薄く切る料理のことだ。今日はこれを作ってもらう。そんなに難しいことじゃないだろ？
+			Escargot: コホン、コホン……エスカルゴ！そう、カタツムリのことだ！……さあ、さっさと料理してくれ！
+			FroggleBunwich: カエルの足よりいいものって何だと思う？……そう、カエルバーガーだ！今日の課題はこれだ。
+			RoastedDuck: アヒルってどうやって水の上に浮いていられるんだろうな？……まあどうでもいいか。とにかく今日はアヒルを料理してくれ！俺も鳥のサラダを作る予定だから、もし余ったら分けてやるよ！
+			LobsterTail: これは高級食材、ロブスターの尾だ！自分で捕まえて料理するのは面倒だから、お前がやってくれるのを楽しみにしてるぞ！ロブスターの調理なんて大したことないはずだ、期待してるからな！
+			FruitJuice: 今日は何か飲み物が欲しい気分だな……フルーツジュースを用意してくれ！サラダより使う果物も少なくて済むはずだ。……あ、間違っても唐辛子なんか入れるなよ。バレるからな……
+			Lemonade: 「人生がレモンをくれるなら、レモネードを作ればいい」……って言葉を知ってるか？そう、お前にレモネードを作ってほしいんだ！レモンを絞ってボトルに入れるだけ、失敗するほうが難しいだろう！
+			FrozenBananaDaiquiri: 今日は南国気分だ？バナナを集めて、冷たーいバナナダイキリを作ってくれ！ 
+			AppleJuice: 「1日1個のリンゴは医者を遠ざける」って言うだろ……ちょっと試してみたいことがある。リンゴジュースを作ってくれないか？……できれば空のスプレーボトルも一緒にな。まあ、ボトルはあってもなくてもいいが。
+			CookedMarshmallow: 運がいいな、これなら失敗はありえないな！キャンプファイヤーでマシュマロを焼いてみろ。それだけだ！
+			PeachSangria: 今日はのんびり過ごす日……俺にとってはな！というわけで、ピーチサングリアを作ってもらうよ。桃の果汁をボトルに絞り入れるだけでいいから。
+			PiñaColada: ピニャ・コラーダって知ってるか？……知らないのか？まあ、驚きはしないが……。パイナップルとココナッツのジュースをボトルに入れるだけだ。
+			TropicalSmoothie: 今は南国気分なんだ。マンゴーとパイナップルを使ったスムージーを作ってくれ！
+			Teacup: お茶の時間にしないか？そう、ただのお茶でいい。
+			FreshPasta: 今日はスパゲッティを作るから、その手伝いとして生パスタを作ってくれないか？余ったら、分けてやるかもしれないな。
+			ChickenSoup: 今日はちょっと体調が悪くてな……そんな時はチキンスープに限るよな？
+			FishSalad: 調理した魚に、レタスとトマトを添えるのはどうだ？そう、今日の課題は魚のサラダだ！
+			FowlSalad: 調理した鶏肉に、レタスとトマトを添えるのはどうだ？そう、今日の課題は鶏のサラダだ！
+			Bread: パンを焼いてくれ！それだけだ！切らしてしまったからサンドイッチが作れないんだ。気が向いたら少し分けてやるかもしれないな！
+			TinySprinklyTurtle: 何て名前かは知らないけど、お店で見かけてな。あれを再現してほしいんだ！スプリンクルがかかった、小さなカメの形をしたクッキーだ。どう作るかは、お前に任せる！
+			BakedPotato: ジャガイモを焼いてくれ。フライドポテトの新しいレシピを試してみたいんだ！うまくいったら、お前ににも分けてやるよ！
+			ChickenNugget: チキンナゲットが好きなら、付き合ってくれるか？チキンナゲットに正解も不正解もないのだから。さあ、調理してくれ。
+			SeafoodDinner: ただの焼き魚より、もっといいものがあるって知ってるか？調理済みの魚を2匹、これに決まりだ！最高の食事になること間違いなしだ！
+			PotatoChips: 何か小腹が空いたな……そうだ、ポテトチップスにしよう！どうやって作るかは任せるから、とにかく用意してくれ！
+			PumpkinPie: パンプキンパイなんて過大評価されすぎだが……まあいい、作ってくれ！
+			ChocolateChipCookie: クッキーをくれ！
+			MonsterLasagna: モンスターラザニアの作り方って、とんでもないな。本来なら成立しないはず！本当に作れるのか、証明してみてくれ！
+			Coffee: 今日はエネルギーが必要なんだ。コーヒーを一杯作ってくれないか……。
+			SmoothieofDarkness: 今日の課題は、とびきり「闇」を感じるスムージーを作ること。クロフサスグリやニワトコの実を使えば、いい感じになるはずだ！
+			BloodyMoscato: 今日の課題は、とびきり「赤い」スムージーを作ること。ブラッドオレンジやランブータンを使えば、うまくいくはずだ！
+			Cheese: 1年も待たずに熟成チーズを作る方法ってないのか……。1日以内にチーズを作って、確かめてみろ！気が向いたらナチョスも作るつもりだ。余ったら、分けてやるよ。
+			ChocolateMilk: 俺って最高だろ？そう思うなら、チョコレートミルクを持ってきてくれるか？
+			Spaghetti: 俺もスパゲッティを作ったことがあるが、お前のと食べ比べてみたいんだが。俺の方が上手いと思うけどね！
+			Pizza: ピザって最高だよな。作ってくれ。そう、それだけだ！
+			Burger: 今日はハンバーガーの気分だ。お前が作るものに期待はしていないが、とにかくハンバーガーが食べたいんだ！
+			BananaSplit: バナナスプリットを作ってくれ！……いや、作り方は自分で考えてみろ！
+			IceCream: 今日はアイスクリームを作ってもらうぞ！上にチェリーを乗せるのを忘れるなよ！
+			StrawberryPie: 美味しいストロベリーパイの時間だ！イチゴを忘れるなよ。そうしないと、ただのパイになってしまうからな！
+			BlueberryPie: 美味しいブルーベリーパイの時間だ！「そのベリーは食べられるのか？」だって？それは俺が確かめるからいい！
+			ApplePie: お前が噂通りのテラリアンなのか、アップルパイを作って証明してみろ！
+			Milkshake: ミルクシェイクっていうのは、ただ牛乳パックを振ればいいってもんじゃないんだ。一度作り、その違いを確かめてみろ！
+			GingerbreadCookie: 今日はとてもいい気分だ！ジンジャーブレッド・クッキーを焼いて、俺に渡してくれ！
+			SugarCookie: 今日はとてもいい気分だ！シュガークッキーを焼いて、俺に渡してくれ！
+		}
+	}
+
+	GemSlime: {
+		DisplayName: 宝石スライム
+		BestiaryFlavorText: 地下で見かけるスライムは、宝石を吸収して鎧として身にまとっている。
+	}
+
+	BoundMasterChef.DisplayName: 縛られたマスターシェフ
+	AquamarineSlime.DisplayName: アクアマリンスライム
+	OpalSlime.DisplayName: オパールスライム
+
+	FarmerZombie: {
+		DisplayName: 農家ゾンビ
+		BestiaryFlavorText: これらのゾンビは、農業への執着を抱いたまま命を落とした。中には、彼らの育てていた植物が、最期まで彼らのために戦ったのだと言う者さえいる。
+	}
 }
 
 Projectiles: {
@@ -7582,7 +7870,6 @@ Projectiles: {
 	FlamerinoProj.DisplayName: フラメリーノ
 	IceBoltProj.DisplayName: アイスボルト
 	PrimalFlareProj.DisplayName: プライマルフレア
-	RayBlasterProj.DisplayName: レイブラスター
 	SunrayProj.DisplayName: サンレイ
 	TomeofNatureProj.DisplayName: 自然の書
 	TomeofTheElementsProj.DisplayName: 元素の本
@@ -7938,7 +8225,7 @@ Projectiles: {
 	PoisonRainProj.DisplayName: 毒の雨
 	VenomRainCloudProj.DisplayName: 酸性毒の雨雲
 	VenomRainProj.DisplayName: 酸性毒の雨
-	TerraWandProj.DisplayName: テラワンド
+	SpeleoStaffProj.DisplayName: スペレオスタッフ
 	ColdPoisonTornadoProj.DisplayName: 冷たい毒の竜巻
 	VenomBiteProj.DisplayName: 毒の牙
 	VenomBiteStarterProj.DisplayName: 酸性毒の牙
@@ -8007,7 +8294,6 @@ Projectiles: {
 	JellyfishWandNoteProj.DisplayName: クラゲの短杖
 	EelectricalStaffShootProj.DisplayName: 電気の杖
 	EelectricalStaffProj.DisplayName: 電気の杖
-	WiretapProjectile.DisplayName: ワイヤータップ
 	PowerlineProjectile.DisplayName: パワーライン
 	StarVoulgeProj.DisplayName: スターヴルジュ
 	TheDreamcatcherProj.DisplayName: ドリームキャッチャー
@@ -8052,8 +8338,7 @@ Projectiles: {
 	SubZeroProj.DisplayName: サブ-ゼロ
 	SubZeroIcicleProj.DisplayName: 氷柱
 	SpareChangeProj.DisplayName: スペアチェンジ
-	UnholyStar2Proj.DisplayName: アンホーリースター
-	UnholyStarProj.DisplayName: 不浄の星を
+	UnholyStarProj.DisplayName: 不浄の星
 	ShroomiteClaymoreProj.DisplayName: シュルーマイトの大剣
 	CursedFlameProj.DisplayName: カースドフレイム
 	GlowingMushroomProj.DisplayName: 光るキノコ
@@ -8232,8 +8517,8 @@ Projectiles: {
 	SkyBlossom2Proj.DisplayName: 花粉
 	OrangeFlashlightProj.DisplayName: 懐中電灯（オレンジ）
 	WhiteFlashlightProj.DisplayName: 懐中電灯（白）
-	TerraWandHoldoutProj.DisplayName: テラワンド
-	TerraWandShockwaveProj.DisplayName: テラワンド
+	SpeleoStaffHoldoutProj.DisplayName: スペレオスタッフ
+	SpeleoStaffShockwaveProj.DisplayName: スペレオスタッフ
 	SnowballBlasterHoldout.DisplayName: スノーボールブラスター
 	LivingChakramProj.DisplayName: 生茂のチャクラム
 	LivingChakramThornSpawnProj.DisplayName: トゲの蔓
@@ -8271,6 +8556,10 @@ Projectiles: {
 	IchorMarbleProj.DisplayName: 霊液のビー玉
 	PoisonMarbleProj.DisplayName: 毒のビー玉
 	TitaniumSlingshotShockwaveProj.DisplayName: チタンの衝撃波
+	FeatheredSerpentFireball.DisplayName: ファイアボール
+	MeteorShowerProj.DisplayName: メテオシャワー
+	ThunderStrikerZapProj.DisplayName: エレクトロスフィア
+	Jollylash3Proj.DisplayName: クラゲ
 }
 
 Prefixes: {
