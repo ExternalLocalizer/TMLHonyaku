@@ -31,7 +31,7 @@ Configs: {
 			Label: 自動翻訳を無効化
 			Tooltip:
 				'''
-				デフォルトでは、Censusは構築中のModに含まれるNPCの出現条件テキストを翻訳します
+				デフォルトでは、Censusは構築中のModに含まれるNPCの出現条件テキストにローカライズキーを追加します
 				この動作を無効にするにはオンに設定してください
 				'''
 		}
@@ -42,8 +42,8 @@ Next: 次へ
 
 SpawnConditions: {
 	Unknown: 条件不明
-	Guide: 通常のワールド生成時に出現
-	Merchant: インベントリに[i:72] を50枚所持
+	Guide: 常に出現可能で、ワールド生成時に出現
+	Merchant: インベントリに[i/s50:SilverCoin]を50枚所持
 	Nurse: 最大ライフが100より上で、商人がいる
 	Demolitionist: インベントリに爆発物を所持
 	DyeTrader:
@@ -51,18 +51,18 @@ SpawnConditions: {
 		インベントリに染料の素材か奇妙な植物を所持し、
 		タウンNPCが4人以上いる
 		'''
-	Angler: 海に出現し、寝ているところを話しかける
+	Angler: 海に出現し、眠っているところに話しかける
 	BestiaryGirl: 図鑑を10%以上埋める
-	Dryad: いずれかのボスを一度でも倒す
+	Dryad: クトゥルフの目、イーターオブワールド、クトゥルフの脳、またはスケルトロンを撃破後
 	Painter: タウンNPCが8人以上いる
 	Golfer: 地下砂漠に出現し、話しかける
 	ArmsDealer: インベントリに弾丸か銃を所持
 	DD2Bartender:
 		'''
 		イーターオブワールドかクトゥルフの脳を倒した後、
-		地上と地下に出現し、倒れているところを話しかける
+		地上と地下に出現し、倒れているところに話しかける
 		'''
-	Stylist: 蜘蛛の洞窟に出現し、縛られているところを話しかける
+	Stylist: クモの巣に出現し、縛られているところに話しかける
 	GoblinTinkerer:
 		'''
 		ゴブリン軍団を撃退後、洞窟に出現し、
@@ -78,16 +78,16 @@ SpawnConditions: {
 	PartyGirl: タウンNPCが14人以上いる
 	Wizard:
 		'''
-		ハードモードの洞窟かダンジョンに出現し、
-		縛られているところを話しかける
+		ハードモードの洞窟に出現し、
+		縛られているところに話しかける
 		'''
-	TaxCollector: 
+	TaxCollector:
 		'''
-		ハードモードの地底世界に出現する、
+		ハードモードの地下世界に出現する、
 		苛まれた霊に[i:PurificationPowder] {$ItemName.PurificationPowder}を使う
 		'''
 	Truffle: ハードモードで、地上のキノコバイオームに家を建てる
-	Pirate: 海賊を撃退した後
+	Pirate: 海賊の襲来を撃退した後
 	Steampunker: いずれかのメカニカルボスを一度でも倒す
 	Cyborg: プランテラを倒した後
 	SantaClaus:
@@ -108,10 +108,10 @@ SpawnConditions: {
 		'''
 	TownSlimePurple:
 		'''
-		ワールドの中心から少し離れた宇宙に出現する、
-		不器用な風船スライムの風船を攻撃して割る
+		宇宙に出現する、
+		不器用なバルーンスライムのバルーンを攻撃して割る
 		'''
-	TownSlimeRainbow: "[i:GelBalloon] {$ItemName.GelBalloon}をシマーに投げるかドロップする"
+	TownSlimeRainbow: "[i:GelBalloon] {$ItemName.GelBalloon}をシマーに投げ入れる"
 	TownSlimeRed: ブラッドムーン中に釣り上げる
 	TownSlimeYellow:
 		'''
@@ -120,7 +120,7 @@ SpawnConditions: {
 		'''
 	TownSlimeCopper:
 		'''
-		通常のスライムが[i:CopperHelmet] {$ItemName.CopperHelmet}か、
-		[i:CopperShortsword] {$ItemName.CopperShortsword}に触れる
+		スライムに[i:CopperHelmet] {$ItemName.CopperHelmet}か、
+		[i:CopperShortsword] {$ItemName.CopperShortsword}を落とす
 		'''
 }
