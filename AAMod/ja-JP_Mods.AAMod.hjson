@@ -135,13 +135,13 @@ GameTips: {
 }
 
 StatusMessages: {
-	Death.Clapped: "{0}は叩き潰されてしまいました。"
+	Death.Clapped: "{0}は叩き潰されてしまいました"
 
 	WorldGen: {
 		Inferno: 噴火を引き起こす
 		Mire: 沼地に呪いをかける
-		Blight: 病害を植え付ける
-		Blight2: 病害を植え付ける...腫瘍を成長させる
+		Blight: 菌糸感染地帯を広げる
+		Blight2: 菌糸感染地帯を広げる...腫瘍を成長させる
 		Blight3: 病害を植え付ける...トンネルを掘る
 		Blight4: 病害を植え付ける...草を広げる
 	}
@@ -273,7 +273,7 @@ Buffs: {
 
 	CommanderBuff: {
 		DisplayName: 指揮官
-		Description: 鞭の射程が増加
+		Description: 鞭の攻撃範囲が増加
 	}
 
 	ReboundBuff: {
@@ -1112,7 +1112,7 @@ Items: {
 		DisplayName: ルディクラスパープルのぼろ服
 		Tooltip:
 			'''
-			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			「Ancients Awakenedの開発者になりきるのにピッタリ！」
 			こんなにチクチクする服、正気の人間なら着ないだろう
 			'''
 	}
@@ -1121,7 +1121,7 @@ Items: {
 		DisplayName: ルディクラスパープルの触手
 		Tooltip:
 			'''
-			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			「Ancients Awakenedの開発者になりきるのにピッタリ！」
 			有線イヤホンもびっくりの絡まり具合
 			'''
 	}
@@ -1130,7 +1130,7 @@ Items: {
 		DisplayName: ルディクラスパープルのウィッグ
 		Tooltip:
 			'''
-			「Ancients Awakenedの開発者になりきるのにぴったり！」
+			「Ancients Awakenedの開発者になりきるのにピッタリ！」
 			なぜかカシスの匂いがする
 			'''
 	}
@@ -1801,7 +1801,7 @@ Items: {
 		Tooltip:
 			'''
 			すべてのAAクエストをリセットする
-			消耗しない
+			消費されない
 			'''
 	}
 
@@ -1826,7 +1826,7 @@ Items: {
 
 	CommanderPotion: {
 		DisplayName: 指揮官のポーション
-		Tooltip: 鞭の射程が増加
+		Tooltip: 鞭の攻撃範囲が増加
 	}
 
 	BogEel: {
@@ -2008,7 +2008,7 @@ Items: {
 	}
 
 	BlightCrate: {
-		DisplayName: 病蝕された木箱
+		DisplayName: 腐敗した木箱
 		Tooltip: 右クリックで開く
 	}
 
@@ -2158,8 +2158,8 @@ Items: {
 	}
 
 	BlightWormBanner: {
-		DisplayName: 汚染ワームのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：汚染ワーム
+		DisplayName: 腐敗ワームのバナー
+		Tooltip: 以下のモンスターに対してボーナスを得る：腐敗ワーム
 	}
 
 	TumoroidMawBanner: {
@@ -2392,7 +2392,7 @@ Items: {
 		Tooltip:
 			'''
 			魔法とミニオンダメージが10%増加
-			鞭の射程が10%増加
+			鞭の攻撃範囲が10%増加
 			'''
 	}
 
@@ -3150,7 +3150,7 @@ Projectiles: {
 	Madlad_Red.DisplayName: マッドラッド
 	Madlad.DisplayName: マッドラッド
 	SporadicSporovid.DisplayName: 奇怪な胞子生物
-	BlightWorm_Proj.DisplayName: 汚染ワーム
+	BlightWorm_Proj.DisplayName: 腐敗ワーム
 	RegalRapier.DisplayName: 王家のレイピア
 	TumoroidBile.DisplayName: 腫瘍体の胆汁
 	TumoroidBouncingBile.DisplayName: 跳ねる腫瘍体の胆汁
@@ -3201,7 +3201,7 @@ Projectiles: {
 	DaishoSlash.DisplayName: 大小の斬撃
 	DaishoThrust.DisplayName: 大小の突き
 	SmokeBomb.DisplayName: 煙霧弾
-	SmokeCloud.DisplayName: スモッグの雲
+	SmokeCloud.DisplayName: 煙霧の雲
 	ThrowingPickaxe.DisplayName: 投擲ツルハシ
 	IronPike.DisplayName: 鉄の長槍
 	LeadPike.DisplayName: 鉛の長槍
@@ -3242,13 +3242,13 @@ NPCs: {
 
 		BossChecklistIntegration: {
 			SpawnInfo: 	夜に[i:AAMod/HandSummons]を使用する
-			DespawnMessage: 双手はそれぞれの住処へと帰っていった...
+			DespawnMessage: 一対の手はそれぞれの住処へと帰っていった...
 		}
 	}
 
 	TruffleToad: {
 		BossChecklistIntegration: {
-			SpawnInfo: 動いている青いキノコの群れを攻撃するか、キノコバイオームで[i:AAMod/FrogSpawn]を使用する
+			SpawnInfo: 動いている青いキノコの群れを攻撃するか、発光キノコバイオームで[i:AAMod/FrogSpawn]を使用する
 			DespawnMessage: トリュフヒキガエルはぼんやりと跳ね去っていった...
 		}
 
@@ -3300,8 +3300,8 @@ NPCs: {
 	}
 
 	MonarchAwaken.DisplayName: ..!
-	BlightWorm.DisplayName: 汚染ワーム
-	BlightWorm_Dig.DisplayName: 汚染ワーム
+	BlightWorm.DisplayName: 腐敗ワーム
+	BlightWorm_Dig.DisplayName: 腐敗ワーム
 
 	Historian: {
 		DisplayName: 歴史学者
@@ -3488,7 +3488,7 @@ Tiles: {
 	RazewoodCandelabra.MapEntry: レイズウッドの燭台
 	RazewoodCandle.MapEntry: レイズウッドの蝋燭
 	RazewoodClock.MapEntry: レイズウッドの時計
-	RazewoodPiano.MapEntry: レイズウッドの古琴
+	RazewoodPiano.MapEntry: レイズウッドのピアノ
 	RazewoodSofa.MapEntry: レイズウッドのソファ
 	RazewoodTorch.MapEntry: インフェルノの松明
 	RazewoodWorkBench.MapEntry: レイズウッドの作業台
@@ -3497,7 +3497,7 @@ Tiles: {
 	Bloomshroom.MapEntry: 花咲きキノコ
 	BlightTorch.MapEntry: 腐敗した松明
 	ManmadeMushmonTile.MapEntry: 王の彫像
-	BlightCrate.MapEntry: 病蝕された木箱
+	BlightCrate.MapEntry: 腐敗した木箱
 	TumorTile.MapEntry: 腫瘍
 	IncineriteOre.MapEntry: インシネライト鉱石
 	MushladTerrarium.MapEntry: テラリウム（キノコ小僧）
@@ -3528,12 +3528,12 @@ Emotes: {
 
 Achievements: {
 	ToadKilled: {
-		Description: キノコバイオームを歩き回る巨大なカエル、トリュフヒキガエルを倒す
+		Description: 発光キノコの間を歩き回る巨大なカエル、トリュフヒキガエルを倒す
 		FriendlyName: 姫とキノコたち
 	}
 
 	MonarchKilled: {
-		Description: 菌糸にのまれた不幸な冒険者のなれはて、マッシュルームモナークを倒す
+		Description: 菌糸にのまれた不幸な冒険者の成れの果て、マッシュルームモナークを倒す
 		FriendlyName: 抗生物質
 	}
 
@@ -3550,7 +3550,7 @@ Players: {
 		OnEnterWorldText3: 自分が何に身を投じたのか、分かっているんだろうな？
 		InfestedRedDeathText: "{0} は菌の餌になりました"
 		EatedDeathText: "{0} はハエと間違えられてしまいました"
-		ClappedDeathText: "{0} は叩き潰されてしまいました"
+		ClappedDeathText: "{0}は叩き潰されてしまいました"
 	}
 }
 
