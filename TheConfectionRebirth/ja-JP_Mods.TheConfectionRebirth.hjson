@@ -1404,7 +1404,7 @@ Items: {
 		Tooltip:
 			'''
 			3本ごとに発射する矢がクリームの力を宿し、
-			ダメージ・ノックバック・貫通数が増加する
+			ダメージ、ノックバック、貫通数が増加する
 			'''
 	}
 
@@ -1960,7 +1960,7 @@ Configs: {
 				　　　ピンクフェアリーフロス
 				　　　パープルフェアリーフロス
 				　　　ブルーフェアリーフロス
-				　　　クッキエスト・クッキーブロック
+				　　　クッキエストとクッキーブロック
 				　　　全てのクリームストーン系宝石
 				'''
 			Label: クッキー＆クリームの広がり
@@ -2287,7 +2287,7 @@ Bestiary_ItemDropConditions: {
 }
 
 Conditions.InConfection: お菓子楽園
-NotInSeveralBiomes: 雪原・砂漠・ジャングル以外かつ、ブラッドムーン発生中ではない
+NotInSeveralBiomes: 雪原、砂漠、ジャングル以外かつ、ブラッドムーン発生中ではない
 
 CreditsRollCategory_ConfectionTeam: {
 	1: Confection REBAKED Team

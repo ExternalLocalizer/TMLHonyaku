@@ -161,6 +161,11 @@ Achievements: {
 		FriendlyName: あなたはどんな結果になると思っていましたか？
 		Description: ガラスの鎧で身を守ろうとしたが、すぐに粉々に砕け散ってしまった。
 	}
+
+	AchievementNoU: {
+		FriendlyName: お返しだ！
+		Description: スピナー系武器で、敵の弾を反射する
+	}
 }
 
 MunchiesSupport.ZephyrFeather: "[i:1516] 、 [i:1517] 、[i:1518] 、[i:1519] のどれかをシマーに投げ入れる"
@@ -1399,9 +1404,9 @@ Items: {
 		Tooltip: 近接ダメージが2%増加し、近接クリティカル率が2%上昇
 		SetBonus2:
 			'''
-			を押すと5秒間、被ダメージを50%軽減し、ノックバックを無効化し、接触ダメージを反射するが、
+			を押すと2秒間、被ダメージを50%軽減し、ノックバックを無効化し、接触ダメージを反射するが、
 			移動速度とジャンプ速度が低下する
-			20秒のクールダウンがある
+			5秒間のクールダウンがある
 			'''
 	}
 
@@ -2142,6 +2147,15 @@ Items: {
 		Tooltip: 浮きを3つ投げる
 	}
 
+	FishingRodDerplingGold: {
+		DisplayName: 黄金のダープリングの釣竿
+		Tooltip:
+			'''
+			浮きを3つ投げる
+			「45%のパワーでは足りない、そんな時のために」
+			'''
+	}
+
 	FishingRodLunar: {
 		DisplayName: 宇宙の釣竿
 		Tooltip:
@@ -2293,7 +2307,7 @@ Items: {
 
 	StormHook: {
 		DisplayName: ライトニングフック
-		Tooltip: 素早いフックを1本放つ
+		Tooltip: 素早いフックを2本発射するが、1本しか貼り付けられない
 	}
 
 	SuperHeartPickup: {
@@ -2772,7 +2786,11 @@ Items: {
 
 	FlailLocker: {
 		DisplayName: フレイルロッカー
-		Tooltip: 「失われたシステムの遺物」
+		Tooltip:
+			'''
+			設置状態になるとその場に固定され、攻撃範囲が広がる
+			右クリックを押し続けると自身のプレイヤーの動きに合わせてフレイルが動く
+			'''
 	}
 
 	FrostLauncher: {
@@ -3106,7 +3124,11 @@ Items: {
 
 	MechDestroyerFlail: {
 		DisplayName: ヴェポライザー
-		Tooltip: 振りまわしている間と射程限界でトゲを8本放つ
+		Tooltip:
+			'''
+			振りまわしている間と射程限界でトゲを8本放つ
+			右クリックを押し続けると自身のプレイヤーの動きに合わせてフレイルが動く
+			'''
 	}
 
 	MechPrimeStaff: {
@@ -3455,7 +3477,7 @@ Items: {
 			召喚タグダメージ 8
 			召喚タグクリティカル率 18%
 			攻撃を当てた敵にミニオンが集中攻撃する
-			ミニオンの攻撃が当たると、アステロイドの破片が降ってくる
+			ミニオンの攻撃が当たると、その敵にアステロイドの破片が降ってくる
 			'''
 	}
 
@@ -4599,6 +4621,7 @@ Projectiles: {
 	ExplosionChloroProj.DisplayName: クロロファイトの爆発
 	MineBombProj.DisplayName: 粘着地雷
 	FlailLockerProj.DisplayName: フレイルロッカー
+	FlailLockerProj2.DisplayName: フレイルロッカー
 	LizardArmourProj.DisplayName: リザードのドローン
 	BazookaProj.DisplayName: スカベンジャーのバズーカ
 	BazookaProj2.DisplayName: スカベンジャーのバズーカのミサイル
@@ -4670,7 +4693,6 @@ Projectiles: {
 	VoidProj.DisplayName: 大きな力場
 	VoidProj2.DisplayName: 力場
 	VoidSuitcaseProj.DisplayName: 狡猾なスーツケース
-	MeteorBowArrowProj.DisplayName: 隕石の矢
 }
 
 Tiles: {
