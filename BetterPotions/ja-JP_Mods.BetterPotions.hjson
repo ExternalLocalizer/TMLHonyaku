@@ -26,7 +26,7 @@ Buffs: {
 
 	HeightenedSensesBuff: {
 		DisplayName: 感覚強化
-		Description: 周囲の危険物と敵が光って見え、視界が良くなる
+		Description: 周囲の危険物と敵が光って見え、暗くても視界が利くようになる
 	}
 
 	ImmovableBuff: {
@@ -41,7 +41,7 @@ Buffs: {
 
 	LeapingBuff: {
 		DisplayName: 跳躍
-		Description: ジャンプ速度が50%上昇し、オートジャンプができる
+		Description: ジャンプ速度が50%上昇し、自動ジャンプができる
 	}
 
 	OrichalcumskinBuff: {
@@ -114,7 +114,7 @@ Items: {
 		DisplayName: 感覚強化ポーション
 		Tooltip:
 			'''
-			周囲の危険物と敵が光って見え、視界が良くなる
+			周囲の危険物と敵が光って見え、暗くても視界が利くようになる
 			[i:TrapsightPotion] 危険察知のポーション、[i:NightOwlPotion] 夜目のポーション、[i:HunterPotion] 狩人のポーションと併用できない
 			'''
 	}
@@ -131,7 +131,7 @@ Items: {
 
 	LeapingPotion: {
 		DisplayName: 跳躍のポーション
-		Tooltip: ジャンプ速度が50%上昇し、オートジャンプができる
+		Tooltip: ジャンプ速度が50%上昇し、自動ジャンプができる
 	}
 
 	OrichalcumskinPotion: {
@@ -139,7 +139,7 @@ Items: {
 		Tooltip:
 			'''
 			防御力が14増加
-			[i:IronskinPotion] 鉄の肌のポーションと併用できない
+			[i:IronskinPotion] 鉄壁のポーションと併用できない
 			'''
 	}
 
@@ -202,7 +202,7 @@ VanillaChanges: {
 	BuffAmmoReservation: 50%の確率で弾薬を消費しない
 	ArcheryRename: プレデターポーション
 	ArcheryPotion: 遠距離ダメージが10%増加し、遠距離クリティカル率が10%上昇
-	BuilderPotion: ブロックと壁の設置速度が50%上昇し、設置範囲が3広がる
+	BuilderPotion: ブロックと壁の設置速度が50%上昇し、設置範囲が3タイル広がる
 	BuffBuilder: ブロックと壁の設置速度が50%上昇し、設置範囲が3広がる
 	ManaRegenerationPotion: 毎秒マナを4回復する
 	BuffManaRegeneration: 毎秒マナを4回復する
@@ -216,33 +216,29 @@ VanillaChanges: {
 	BuffCalm: 敵の出現率が17%低下し、出現上限が20%低下
 	CratePotion: 箱を釣り上げる確率が10%上昇
 	BuffCrate: 箱を釣り上げる確率が10%上昇
-	TrapsightPotion: 罠などの危険物が光って見える
+	TrapsightPotion: 周囲の罠などの危険物が光って見える
 	BuffDangersense: 罠などの危険物が光って見える
 	FeatherfallPotion:
 		'''
 		落下速度が低下
 		上下入力で落下速度を調整できる
-		落下ダメージも無効化する
 		'''
 	BuffFeatherfall:
 		'''
 		落下速度が低下
 		上下入力で落下速度を調整できる
-		落下ダメージも無効化する
 		'''
-	FishingPotion: フィッシング・パワーが15上昇する
+	FishingPotion: フィッシング・パワーが15向上する
 	BuffFishing: フィッシング・パワーが15上昇する
-	FlipperPotion: 液体内で無限にジャンプでき、水、溶岩、蜂蜜内で減速しない
-	BuffFlipper: 液体内で無限にジャンプでき、水、溶岩、蜂蜜内で減速しない
+	FlipperPotion: 液体内で素早く泳げるようになる
+	BuffFlipper: 液体内を素早く泳げる
 	GillsPotion:
 		'''
-		水と蜂蜜内で呼吸できるようになる
-		For the Worthyワールドでは水と蜂蜜内でしか呼吸できなくなる
+		水中で呼吸できるようになる
 		'''
 	BuffGills:
 		'''
-		水と蜂蜜内で呼吸できるようになる
-		For the Worthyワールドでは水と蜂蜜内でしか呼吸できなくなる
+		水中で呼吸できるようになる
 		'''
 	GravitationPotion:
 		'''
@@ -259,7 +255,7 @@ VanillaChanges: {
 	IronskinPotion: 防御力が8増加
 	BuffIronskin: 防御力が8増加
 	MagicPowerPotion: 魔法ダメージが20%増加
-	NightOwlPotion: 光が明るく見え、視界が良くなる
+	NightOwlPotion: 暗くても視界が利くようになる
 	BuffNightOwl: 光が明るく見え、視界が良くなる
 	RegenerationPotion: ライフ自然回復を増進
 	BuffRegeneration: ライフ自然回復を増進
@@ -342,7 +338,7 @@ Configs: {
 			Label: "[i:2325] 建築のポーションの変更"
 			Tooltip:
 				'''
-				ブロックの設置範囲拡大量が3に増加し、(前は1%)
+				ブロックの設置範囲の増加量が3タイルになり (前は1タイル)、設置速度の上昇量が50%になります (前は25%)
 				設置速度の上昇量が50%に上昇します (前は25%)
 				'''
 		}
@@ -359,7 +355,7 @@ Configs: {
 
 		PotionChanges_Summoning: {
 			Label: "[i:2328] 召喚のポーションの変更"
-			Tooltip: 既存の効果に加え、セントリースロットも1つ追加し、召喚ダメージが10%増加するようになります
+			Tooltip: 既存の効果に加え、セントリースロットを1つ追加し、召喚ダメージが10%増加するようになります
 		}
 
 		PotionsAdded_Grave: {
@@ -441,7 +437,7 @@ Configs: {
 			Label: "[i:BetterPotions/LeapingPotion] 跳躍のポーションを有効にする"
 			Tooltip:
 				'''
-				ジャンプ速度が50%上昇し、オートジャンプができるようになります
+				ジャンプ速度が50%上昇し、自動ジャンプができるようになります
 				瓶詰めの水、雲、プリンクルート、ウォータリーフで作成できます
 				'''
 		}

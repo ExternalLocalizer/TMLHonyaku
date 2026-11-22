@@ -148,14 +148,14 @@ Items: {
 		DisplayName: エンジニアの登録簿
 		Tooltip:
 			'''
-			最大セントリースロットの数と、現在使用されているスロットの数を表示
+			セントリースロットの最大数と、現在使用されているスロットの数を表示
 			「セントリースロットの上限に近づいている」
 			'''
 	}
 
 	AttendanceLog: {
 		DisplayName: 出席記録
-		Tooltip: 最大ミニオンスロットの数と、現在使用されているスロットの数を表示
+		Tooltip: ミニオンスロットの最大数と、現在使用されているスロットの数を表示
 	}
 
 	FortuneMirror: {
@@ -212,7 +212,7 @@ Items: {
 			'''
 			狙われやすさを表示
 			これは、敵があなたを標的にする確率を示す
-			「『or alive』の部分すら省略したのか…」
+			「『生死を問わず』の部分すら省略したのか…」
 			'''
 	}
 
@@ -303,7 +303,7 @@ Configs: {
 				近隣の全てのバイオームは引き続き順番に表示されます。優先度の高いバイオームは、サイクルの早い段階で表示されます
 				バイオーム表示は以下のModをサポートしています:
 				「Thorium Mod」、「Calamity Mod」、「Mod of Redemption」、「Exxo Avalon Origins」、
-				「The Stars Above」、「Spirit Mod」、「Spooky Mod」、 「Confection Rebaked」、
+				「The Stars Above」、「Spirit Mod」、「Spooky Mod」、「Confection Rebaked」、
 				「The Depths」、「Aequus」、「Verdant」、「Food, Furniture & Fun」、「Remnants」
 				'''
 		}
