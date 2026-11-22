@@ -20,7 +20,7 @@ Configs: {
 
 		DisableOnWorldLoad: {
 			Label: ワールドロード時に無効化する
-			Tooltip: オンにすると、ワールドをロードする際に自動ハンマーは常にオフになります
+			Tooltip: オンにすると、ワールドをロードする際にオートハンマーは常にオフになります
 		}
 
 		PopOffEnabled: {
@@ -136,7 +136,7 @@ Configs: {
 Keybinds: {
 	ToggleMod: {
 		$parentVal: Hammer My Terrainの切り替え
-		DisplayName: 自動ハンマーの切り替え
+		DisplayName: オートハンマーの切り替え
 	}
 
 	OpenFilterUI: {
