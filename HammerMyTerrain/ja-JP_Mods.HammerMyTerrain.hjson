@@ -1,11 +1,10 @@
 Configs: {
 	HammerMyTerrainConfig: {
-		DisplayName: 自動ハンマー設定
+		DisplayName: オートハンマー設定
 
 		Headers: {
 			General: 一般
-			SmartHammerHeader: 実験的: スマートハンマーモード
-			HammerModeHeader: 自動ハンマー設定
+			HammerModeHeader: オートハンマー設定
 			FilterHeader: フィルターモード
 		}
 
@@ -34,16 +33,11 @@ Configs: {
 			Tooltip: オンにすると、斜面かハーフブロックの後ろに壁があるなら自動的に破壊されません
 		}
 
-		SmartHammerEnabled: {
-			Label: スマートハンマーモード
-			Tooltip: オンにすると、傾斜とハーフブロックはランダムではなく地形の形状に基づいて適用されます。「オートハンマー設定」セクションは適用されません
-		}
-
 		HammerMode: {
-			Label: 自動ハンマーモード
+			Label: オートハンマーモード
 			Tooltip:
 				'''
-				両方：斜面とハーフブロックにハンマーを自動的に使う
+				斜面とハーフブロック：斜面とハーフブロックにハンマーを自動的に使う
 				斜面のみ：斜面にのみハンマーを自動的に使う
 				ハーフブロックのみ：ハーフブロックにのみハンマーを自動的に使う
 				'''
@@ -122,7 +116,7 @@ Configs: {
 	HammerMode: {
 		Both: {
 			Tooltip: ""
-			Label: 両方
+			Label: 斜面とハーフブロック
 		}
 
 		SlopesOnly: {
