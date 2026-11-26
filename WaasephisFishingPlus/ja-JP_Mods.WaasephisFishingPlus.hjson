@@ -48,12 +48,12 @@ ArmorSetBonus: {
 Bestiary: {
 
 	//Friendly
-	PortableShop: 自分の釣り具店を経営している金魚。そこで役立つ釣り用品を販売しているんです。しかも、その店は全部自分で作ったんです！本当に誇りに思います。
+	PortableShop: 自分の釣り具店を経営している金魚。そこで役立つ釣り用品を販売している。しかも、その店は全部自分で作ったんです！本当に誇りに思います。
 	//Hostile
 	LavaShark: 黒曜石のように硬い鱗を持つように進化したサメ。これらの鱗は驚異的な耐熱性を持ち、溶岩にも耐えることができる。
-	Clam: 2つの頑丈な殻の中に閉じ込められた生き物で、時には高価な真珠を内包していることもある。
+	Clam: 2つの頑丈な殻の中に閉じ込められた生き物で、時には高価な真珠が中にあることがある。
 	//Passive
-	AtlanticCodCritter: このキャラを作っているうちに、これは基本的にベースの色違いだということが分かった。
+	AtlanticCodCritter: このNPCを作っているうちに、これは基本的にベースの色違いだということが分かった。
 	BassCritter: 最も一般的な魚の一つで、味はまあまあ。
 	BombfishCritter: 何らかの理由で大量の火薬が詰め込まれた魚。爆発しやすいため、注意して接すること。
 	FlounderCritter: 砂漠地帯に生息する一般的な平たい魚で、水銀含有量が非常に低い。
@@ -88,12 +88,12 @@ Buffs: {
 
 	BetsyCurseImbue: {
 		DisplayName: ベッツイの呪い付与
-		Description: 近接攻撃にベッツイの呪いの追加効果を付与
+		Description: 近接攻撃と鞭の攻撃でベッツイの呪いを与える
 	}
 
 	TackleBoxBuff: {
 		DisplayName: リラックス
-		Description: フィッシング・パワーが向上し、エサを消費しにくくなり、敵の出現率が低下
+		Description: フィッシング・パワーが上昇し、エサを消費しにくくなり、敵の出現率が低下
 	}
 
 	ClamMinionBuff: {
@@ -108,16 +108,16 @@ Buffs: {
 
 	MinorShineBuff: {
 		Description: 弱く発光する
-		DisplayName: 弱い光源
+		DisplayName: 弱い発光
 	}
 
 	MinorRegenerationBuff: {
 		Description: ライフ自然回復を僅かに増進
-		DisplayName: 弱い再生
+		DisplayName: 弱いライフ自然回復増進
 	}
 
 	MinorDefenseBuff: {
-		Description: 防御力 +4
+		Description: 防御力が4増加
 		DisplayName: 弱い鉄の肌
 	}
 
@@ -185,8 +185,8 @@ Items: {
 		DisplayName: サンゴのハート
 		Tooltip:
 			'''
-			釣りに関するあらゆるバフを得て、フィッシング・パワーを向上させる
-			「これを持つ者の釣り能力を強化する」
+			釣りに関するあらゆるバフを得て、フィッシング・パワーが上昇する
+			「これを持つ者の釣りの能力を強化する」
 			'''
 	}
 
@@ -228,7 +228,7 @@ Items: {
 		Tooltip:
 			'''
 			全ステータスが中程度強化
-			フィッシング・パワーが短時間向上する
+			フィッシング・パワーが短時間上昇する
 			「シンプルな切り身の魚」
 			'''
 	}
@@ -251,7 +251,7 @@ Items: {
 		DisplayName: ネオンの鱗の鎧
 		Tooltip:
 			'''
-			フィッシング・パワーが4向上する
+			フィッシング・パワーが4上昇する
 			泳げるようになる
 			'''
 	}
@@ -411,7 +411,7 @@ Items: {
 		Tooltip:
 			'''
 			全ステータスが大きく強化
-			食いついた魚を見抜く 
+			釣り針に食いついたものがわかる
 			「珍味だと言う人もいる」
 			'''
 	}
@@ -428,7 +428,7 @@ Items: {
 
 	LavaSharkBanner: {
 		DisplayName: ラーヴァシャークのバナー
-		Tooltip: 以下のモンスターに対してボーナスを得る：ラーヴァシャーク
+		Tooltip: "{$CommonItemTooltip.BannerBonus}ラーヴァシャーク"
 	}
 
 	PortableShopBox: {
@@ -451,7 +451,7 @@ Items: {
 		Tooltip:
 			'''
 			無限に撒き餌が入っている
-			水に投げ入れるとフィッシング・パワーが向上する（3回まで）
+			水に投げ入れるとフィッシング・パワーが上昇する（3回まで）
 			'''
 	}
 
@@ -547,7 +547,7 @@ Items: {
 		Tooltip:
 			'''
 			全ステータスが中程度強化
-			箱を釣り上げやすくなる
+			箱を釣り上げる確率が上昇
 			「レモンとの相性は抜群だ」
 			'''
 	}
@@ -584,7 +584,7 @@ Items: {
 		DisplayName: ハッピーニンバス
 		Tooltip:
 			'''
-			雨が降っている間、フィッシング・パワーが向上する
+			雨が降っている間、フィッシング・パワーが上昇する
 			「彼はついに落ち着いた」
 			'''
 	}
@@ -681,7 +681,7 @@ Items: {
 
 	FlaskofBetsy: {
 		DisplayName: ベッツイのフラスコ
-		Tooltip: 近接攻撃にベッツイの呪いの追加効果を付与
+		Tooltip: 近接攻撃と鞭の攻撃でベッツイの呪いを与える
 	}
 
 	WaterBombDispenserItem: {
@@ -695,7 +695,7 @@ Items: {
 	}
 
 	ClamBanner: {
-		Tooltip: 以下のモンスターに対してボーナスを得る：二枚貝
+		Tooltip: "{$CommonItemTooltip.BannerBonus}二枚貝"
 		DisplayName: 二枚貝のバナー
 	}
 
@@ -821,7 +821,11 @@ Items: {
 	}
 
 	ShellforgeItem: {
-		Tooltip: 特別なクラフトに使う
+		Tooltip:
+			'''
+			通常のかまどで作れるアイテムに加え、
+			シェルストーンのレンガとシェルストーンの家具を作成できる
+			'''
 		DisplayName: シェルフォージ
 	}
 
@@ -866,7 +870,7 @@ Items: {
 
 	BaitBoxItem: {
 		DisplayName: 餌の箱
-		Tooltip: フィッシング・パワーが向上し、エサを消費しにくくなり、敵の出現率が低下する
+		Tooltip: フィッシング・パワーが上昇し、エサを消費しにくくなり、敵の出現率が低下する
 	}
 
 	ClamClapper: {
@@ -883,7 +887,7 @@ Items: {
 		DisplayName: 貝殻の胸当て
 		Tooltip:
 			'''
-			フィッシング・パワーが4向上する
+			フィッシング・パワーが4上昇する
 			ダメージが10%増加
 			クリティカル率が5%上昇
 			敵に少し狙われやすくなる
@@ -894,7 +898,7 @@ Items: {
 		DisplayName: 貝殻のすね当て
 		Tooltip:
 			'''
-			フィッシング・パワーが4向上する
+			フィッシング・パワーが4上昇する
 			移動速度が5%低下
 			泳げるようになる
 			敵に少し狙われやすくなる
@@ -905,7 +909,7 @@ Items: {
 		DisplayName: 貝殻の兜
 		Tooltip:
 			'''
-			フィッシング・パワーが4向上する
+			フィッシング・パワーが4上昇する
 			最大マナが20増加
 			身につけると弱い光を発する
 			敵に少し狙われやすくなる
@@ -918,7 +922,7 @@ Items: {
 	}
 
 	GlassCandelabrolacarisItem: {
-		DisplayName: ガラスの燭台
+		DisplayName: ルカリスのガラスの燭台
 		Tooltip:
 			'''
 			「その名前以上にひどいのは、その見た目だ…
