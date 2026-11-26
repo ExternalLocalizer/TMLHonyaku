@@ -1,56 +1,55 @@
 Configs: {
 	LightsConfig: {
-		Headers: {
-			Presets: プリセット
-			Bloom: ブルーム
-			Lighting: Lighting & Shadows
-		}
+		DisplayName: クライアント設定
 
-		BloomCounts: {
+		UseLight: {
+			Label: 光と影を適用
 			Tooltip: ""
-			Label: ブルームカウント
-		}
-
-		BloomIntensity: {
-			Tooltip: ""
-			Label: ブルーム強度
-		}
-
-		UseBloom: {
-			Tooltip: ""
-			Label: ブルームを使用
-		}
-
-		shadowIntensity: {
-			Tooltip: ""
-			Label: 影の強さ
-		}
-
-		moonlightIntensity: {
-			Tooltip: ""
-			Label: 月明かりの強さ
-		}
-
-		dayColor: {
-			Tooltip:
-				'''
-				Classic： 日光が黄色く表示されます
-				Alternate： 日光が白く表示されます
-				'''
-			Label: 昼光カラー
 		}
 
 		lightIntensity: {
-			Tooltip: ""
 			Label: 光の強さ
-		}
-
-		UseLight: {
 			Tooltip: ""
-			Label: 影と光の適用
 		}
 
-		DisplayName: クライアント設定
+		dayColor: {
+			Label: 日光のカラー
+			Tooltip:
+				'''
+				Classic: 日光が黄色く表示されます
+				Alternate: 日光が白く表示されます
+				'''
+		}
+
+		moonlightIntensity: {
+			Label: 月光の強さ
+			Tooltip: ""
+		}
+
+		shadowIntensity: {
+			Label: 影の強さ
+			Tooltip: ""
+		}
+
+		UseBloom: {
+			Label: ブルームを適用
+			Tooltip: ""
+		}
+
+		BloomIntensity: {
+			Label: ブルームの強さ
+			Tooltip: ""
+		}
+
+		BloomCounts: {
+			Label: ブルームのレベル
+			Tooltip: ""
+		}
+
+		Headers: {
+			Lighting: 光と影
+			Bloom: ブルーム
+			Presets: プリセット
+		}
 	}
 }
-
