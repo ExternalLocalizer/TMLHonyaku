@@ -34,10 +34,10 @@ AudioConfig: {
 	}
 
 	campfireSounds: {
-		Label: 焚き火の立体音響
+		Label: キャンプファイアの立体音響
 		Tooltip:
 			'''
-			焚き火の音を再生します
+			キャンプファイアの音を再生します
 			デフォルトはオン
 			'''
 	}
@@ -164,7 +164,7 @@ FootstepsConfig: {
 		Label: 足音の音量
 		Tooltip: 
 			'''
-			プレイヤー・NPCを含む全体の足音音量を調整します
+			プレイヤー、NPCを含む全体の足音音量を調整します
 			0で無効化
 			'''
 	}
@@ -195,11 +195,11 @@ AmbientConfig: {
 
 	debugInterface: {
 		Label: デバッグ切り替え
-		Tooltip: 雪・虫の声などの環境音のデバッグ用音量情報を表示／非表示にします
+		Tooltip: 雪、虫の声などの環境音のデバッグ用音量情報を表示/非表示にします
 	}
 
 	showInfoAndWarnings: {
-		Label: 情報／警告の表示
+		Label: 情報/警告の表示
 		Tooltip:
 			'''
 			エラーや警告をチャット欄に表示します

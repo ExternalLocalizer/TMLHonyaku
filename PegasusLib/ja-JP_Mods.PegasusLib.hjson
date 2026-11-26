@@ -65,7 +65,7 @@ Configs: {
 		}
 
 		invertOnHitBuffHintColor: {
-			Label: 「命中時」効果のバフヒントカラーを反転する
+			Label: 攻撃を当てた際の効果のバフヒントカラーを反転する
 			Tooltip: ""
 		}
 
@@ -86,6 +86,16 @@ Configs: {
 				未知の染料がサポートされている光源の色を照会する頻度（照会あたりのティック数）
 				0に設定すると、光源は既知の染料のみで染色されます
 				低い値を設定すると、高性能なコンピューターが必要になります
+				'''
+		}
+
+		highlightFirstKeybindSnippet: {
+			Label: 最初のキーバインドを自動的に選択する
+			Tooltip:
+				'''
+				Control Configuratorが有効でないと機能しません
+				これがオフだと、アイテムのツールチップ内でキーバインドを選択するには
+				スクロール操作が必要になります
 				'''
 		}
 	}
@@ -204,27 +214,30 @@ AdvancedTextSnippet: {
 	}
 
 	KeybindSnippetHandler: {
-		Option_Keyboard: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Keyboard
-		Option_KeyboardUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_KeyboardUI
-		Option_Mouse: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_Mouse
-		Option_XBoxGamepad: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepad
-		Option_XBoxGamepadUI: Mods.PegasusLib.AdvancedTextSnippet.KeybindSnippetHandler.Option_XBoxGamepadUI
+		Option_Keyboard: キーボード
+		Option_KeyboardUI: キーボードUI
+		Option_Mouse: マウス
+		Option_XBoxGamepad: Xboxゲームパッド
+		Option_XBoxGamepadUI: XboxゲームパッドUI
 	}
 }
 
+StackableAccessory.Tooltip: スタック可能
+SecretTitle: Terraria: 今ならウマフリー0%！
+
 ItemTooltip: {
-	FlaskofVenom: 近接攻撃と鞭攻撃に[buffhint:Venom]の追加効果を付与
-	FlaskofCursedFlames: 近接攻撃と鞭攻撃に[buffhint/dn呪炎:CursedInferno]の追加効果を付与
-	FlaskofFire: 近接攻撃と鞭攻撃に[buffhint/dn炎上:OnFire]の追加効果を付与
-	FlaskofGold: 近接攻撃と鞭攻撃に[buffhint/dnドロップ金額増加:Midas]の追加効果を付与
-	FlaskofIchor: 近接攻撃と鞭攻撃に[buffhint/dn敵の防御減少:Ichor]の追加効果を付与
-	FlaskofNanites: 近接攻撃と鞭攻撃に[buffhint/dn混乱:Confused]の追加効果を付与
-	FlaskofPoison: 近接攻撃と鞭攻撃に[buffhint/dn毒:Poisoned]の追加効果を付与
-	VenomArrow: 対象に[buffhint:Venom]を付与
-	VenomBullet: 対象に[buffhint:Venom]を付与
-	NanoBullet: "[buffhint/dn混乱:Confused]の追加効果を与え、壁に衝突時跳ね返る"
-	GoldenBullet: "敵の[buffhint/dnドロップする金額が増加:Midas]"
-	ShadowFlameKnife: 攻撃ヒット時に[buffhint:ShadowFlame]の効果を及ぼす
+	FlaskofVenom: 近接攻撃と鞭の攻撃で[buffhint:Venom]を与える
+	FlaskofCursedFlames: 近接攻撃と鞭の攻撃で[buffhint/dn呪炎:CursedInferno]を与える
+	FlaskofFire: 近接攻撃と鞭の攻撃で[buffhint/dn炎上:OnFire]を与える
+	FlaskofGold: 近接攻撃と鞭の攻撃で敵に[buffhint/dn強欲:Midas]を与え、ドロップするコインを増やす
+	FlaskofIchor: 近接攻撃と鞭の攻撃で[buffhint/dn敵の防御減少:Ichor]を与える
+	FlaskofNanites: 近接攻撃と鞭の攻撃で[buffhint/dn混乱:Confused]させる
+	FlaskofPoison: 近接攻撃と鞭の攻撃で[buffhint/dn毒:Poisoned]を与える
+	VenomArrow: 敵に[buffhint:Venom]を与える
+	VenomBullet: 敵に[buffhint:Venom]を与える
+	NanoBullet: 敵を[buffhint/dn混乱:Confused]させ、壁に当たると跳ね返る
+	GoldenBullet: "倒した敵の[buffhint/dnドロップするコインが増加:Midas]"
+	ShadowFlameKnife: 攻撃が当たると[buffhint:ShadowFlame]を与える
 	BeeKeeper:
 		'''
 		敵を攻撃すると蜂を召喚する
@@ -237,13 +250,14 @@ ItemTooltip: {
 		'''
 	FireGauntlet:
 		'''
-		近接攻撃のノックバック増加、更に[buffhint/dn炎上:OnFire3]効果を付与
-		近接ダメージと攻撃速度が12%上昇
-		近接武器のオート攻撃を有効にする
-		近接武器のサイズを増加させる
+		近接攻撃のノックバックが増加し、
+		[buffhint/dn炎上:OnFire3]を与えるようになる
+		近接ダメージが12%増加し、近接攻撃速度が12%上昇
+		近接武器と鞭でオート攻撃が可能になる
+		近接武器のサイズが大きくなる
 		'''
 	InfernoPotion: "周囲の敵を[buffhint/dn炎上:OnFire3]させる"
-	MagmaStone: 攻撃時に[buffhint/dn炎上:OnFire3]効果を加える
+	MagmaStone: 近接攻撃で[buffhint/dn炎上:OnFire3]を与える
 	MolotovCocktail:
 		'''
 		敵を[buffhint/dn燃やす:OnFire3]小規模な爆発を起こす
@@ -255,19 +269,19 @@ ItemTooltip: {
 ArmorSetBonus: {
 	Frost:
 		'''
-		近接と遠距離攻撃に[buffhint:Frostburn2]の追加効果
-		近接と遠距離ダメージが10%増加
+		近接攻撃と遠距離攻撃で[buffhint:Frostburn2]を与える
+		近接ダメージと遠距離ダメージが10%増加
 		'''
 	HuntressTier2:
 		'''
 		召喚できるセントリーの数が増える
-		爆発罠の待ち時間を縮め敵を[buffhint/dnオイルまみれ:Oiled]にする
-		オイルは火のついた敵に追加ダメージを与える
+		爆発罠の待ち時間が短くなり、敵に[buffhint/dnオイル:Oiled]を与えるようになる
+		オイル状態の敵は炎上による被ダメージが増加する
 		'''
 	HuntressTier3:
 		'''
 		召喚できるセントリーの数が増える
-		爆発罠を大幅に強化し、敵を[buffhint/dnオイルまみれ:Oiled]にする
+		爆発罠を大幅に[buffhint/dn :Oiled]強化する
 		'''
 }
 

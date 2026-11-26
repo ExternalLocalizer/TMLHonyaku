@@ -9,7 +9,7 @@ RecipeBrowserUI: {
 	ModFilter: Modフィルター
 	NoFavoritedRecipes:
 		'''
-		お気に入りされたレシピは
+		お気に入りレシピは
 		ありません
 		'''
 	RecipeAddedBy: "{0}によって追加されたレシピ"
@@ -35,7 +35,7 @@ Keybind: {
 RecipeCatalogueUI: {
 	Tile: タイル
 	AllRecipes: 全てのレシピ
-	NearbyChests: 近くのチェスト
+	NearbyChests: 近くの宝箱
 	ClickToRefresh: クリックでリフレッシュする
 	ItemChecklistOnly: Item Checklistのみ
 	OnlyNewItemsMadeFromSeenItems: 見たことのあるアイテムから作られた新しいアイテムのみ
@@ -118,14 +118,14 @@ RecipeCatalogueFilters: {
 		Blocks: ブロック
 		Containers: コンテナ
 		Wiring: 配線
-		Statues: 彫像
+		Statues: 石像
 		Doors: ドア
-		Chairs: 椅子
+		Chairs: イス
 		Tables: テーブル
 		LightSources: 光源
-		Torches: トーチ
+		Torches: たいまつ
 		PlaceTile: タイル設置
-		Solid: ソリッド
+		Solid: 固形
 		NonSolid: 背景
 	}
 
@@ -150,8 +150,8 @@ RecipeCatalogueFilters: {
 
 	Potions: {
 		Name: ポーションと食品
-		HealthPotions: 体力ポーション
-		HealLife: 体力回復
+		HealthPotions: ライフポーション
+		HealLife: ライフ回復
 		ManaPotions: マナポーション
 		HealMana: マナ回復
 		BuffPotions: バフポーション
@@ -244,8 +244,8 @@ CraftUI: {
 	Inventory: インベントリ
 	Banks: 貯金箱
 	BanksTooltip: 豚の貯金箱、金庫、ディフェンダーの炉のアイテムを含む（未実装）
-	Chests: チェスト
-	ChestsTooltip: 近くのチェストのアイテムを含める（未実装）
+	Chests: 宝箱
+	ChestsTooltip: 近くの宝箱のアイテムを含める（未実装）
 	MagicStorage: Magic Storage
 	MagicStorageTooltip: 近くの「Magic Storage」に収納されているアイテムと登録されているクラフト作業台を含む（未実装）
 	BottomInstructions: レシピを右クリックするとこのタブに素早く移動できます
@@ -282,13 +282,13 @@ UIArmorSetCatalogue: {
 	TotalSetDefense: セット全体の防御力: {0}
 	ArmorSets:
 		'''
-		アーマーセット
+		防具セット
 		(警告: 計算に数秒かかる場合があります)
 		'''
 	ShowItems: アイテムを表示
 	ShowItemsTooltip: セットを構成するアイテムを表示する
 	UseDye: 染料を使用
-	UseDyeTooltip: 現在装備している染料でアーマーセットを描画する
+	UseDyeTooltip: 現在装備している染料で防具セットを描画する
 	Animate: アニメーション
 	AnimateTooltip: プレイヤーのアニメーションを模倣する
 	Accessories: アクセサリー
@@ -300,20 +300,24 @@ BestiaryUI: {
 	Unencountered: 未遭遇
 	ShowOnlyNPCKilledAlready:
 		'''
-		倒したことのあるNPCのみ表示
-		(右クリックで倒したことのないNPCの表示に切り替え)
+		倒したことがあるNPCのみ表示
+		(右クリックで倒したことがないNPCの表示に切り替え)
 		'''
 	ShowOnlyNPCNotKilled:
 		'''
-		倒したことのないNPCのみ表示
-		(右クリックで倒したことのあるNPCの表示に切り替え)
+		倒したことがないNPCのみ表示
+		(右クリックで倒したことがあるNPCの表示に切り替え)
 		'''
 	HasLoot: 戦利品あり
 	ShowOnlyNPCWithLoot: 戦利品を持つNPCのみ表示
 	NewLoot: 新しい戦利品
 	ShowOnlyNPCWithNeverBeforeSeenLoot: 今までに見たことのない戦利品を持つNPCのみ表示
 	EmptyQuerySlotHint: ここにアイテムを置く
-	NPCDrops: "{0} ドロップ:"
+	NPCDrops: "{0}がドロップ:"
+	SortBestiary: "{$BestiaryInfo.Sort_BestiaryID}"
+	SortBestiaryTooltip: "{$SortBestiary}でソート"
+	SortNPCID: "NPCのID"
+	SortNPCIDTooltip: "{$SortNPCID}でソート"
 }
 
 HelpUI: {
@@ -325,7 +329,7 @@ HelpUI: {
 	Recipes:
 		'''
 		[c/{0}:Recipes]
-		    クエリスロットにアイテムを置くと、そのアイテムを使用または結果として得られるレシピを検索できます。ウィンドウ内のさまざまなオプションで検索やフィルタリングも可能です。近くのチェストオプションは、必要な材料を少なくとも1つずつ持っているレシピのみを表示します。[c/{1}:Item Checklist Only]オプションは、未見のアイテムを結果とするレシピで、かつ見たことのあるアイテムを使用するレシピのみを表示します。タイルチェックボックスを選択すると、最も頻繁に必要とされる作業台のリストが表示されます。タイルをクリックすると、その作業台を使用するレシピに限定されます。[image:RecipeBrowser/Images/Help/uniqueTile] ユニークレシピ表示オプションは、継承されたレシピの表示を切り替えます。たとえば、『地獄のかまど』はかまどのすべてのレシピを継承しますが、ヘルストーンインゴットのユニークなレシピを持っています。選択したレシピの作業台とレシピ条件は下部にリストされ、プレイヤーが近くにいるかどうかを赤または緑の色で示します。右側には選択したアイテムをドロップするNPCが表示されます。NPCをダブルクリックすると図鑑に移動します。レシピや材料をダブルクリックすると、そのアイテムがクエリスロットに設定され、複数のクラフティングツリーをたどるのに便利です。レシピをAltクリックするとお気に入りに追加できます。以下のお気に入りセクションを参照してください。
+		    クエリスロットにアイテムを置くと、そのアイテムを使用または結果として得られるレシピを検索できます。ウィンドウ内のさまざまなオプションで検索やフィルタリングも可能です。近くの宝箱オプションは、必要な材料を少なくとも1つずつ持っているレシピのみを表示します。[c/{1}:Item Checklist Only]オプションは、未見のアイテムを結果とするレシピで、かつ見たことのあるアイテムを使用するレシピのみを表示します。タイルチェックボックスを選択すると、最も頻繁に必要とされる作業台のリストが表示されます。タイルをクリックすると、その作業台を使用するレシピに限定されます。[image:RecipeBrowser/Images/Help/uniqueTile] ユニークレシピ表示オプションは、継承されたレシピの表示を切り替えます。たとえば、『地獄のかまど』はかまどのすべてのレシピを継承しますが、ヘルストーンインゴットのユニークなレシピを持っています。選択したレシピの作業台とレシピ条件は下部にリストされ、プレイヤーが近くにいるかどうかを赤または緑の色で示します。右側には選択したアイテムをドロップするNPCが表示されます。NPCをダブルクリックすると図鑑に移動します。レシピや材料をダブルクリックすると、そのアイテムがクエリスロットに設定され、複数のクラフティングツリーをたどるのに便利です。レシピをAltクリックするとお気に入りに追加できます。以下のお気に入りセクションを参照してください。
 		'''
 	Craft:
 		'''

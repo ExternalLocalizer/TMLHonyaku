@@ -1,0 +1,15 @@
+NPCs: {
+	BarnacleTongue.DisplayName: バナクルの舌
+	BarnacleBody.DisplayName: バナクル
+}
+
+Configs: {
+	BarnacleConfig: {
+		DisplayName: スポーン率設定
+
+		SpawnRatePercent: {
+			Tooltip: デフォルトは100。10で10%、1000で10倍のスポーン率になります。
+			Label: スポーン率倍率
+		}
+	}
+}

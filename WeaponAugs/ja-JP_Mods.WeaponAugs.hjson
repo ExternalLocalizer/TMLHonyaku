@@ -319,7 +319,7 @@ CommonItemTooltip: {
 	AugDescRunic:
 		'''
 		{0}: 攻撃が当たると、1秒に1回、どのプレイヤーでも回収できるルーンを生成することがある
-		このルーンは、ダメージ、ノックバック、クリティカル率、攻撃速度のどれか1つを{1}秒間強化
+		このルーンはダメージ、ノックバック、クリティカル率、攻撃速度のどれか1つを{1}秒間強化
 		'''
 	AugDescPowertheft:
 		'''
@@ -329,7 +329,7 @@ CommonItemTooltip: {
 	AugDescPowertheftUnusual:
 		'''
 		{0}: 攻撃が当たると、敵の防御力を{1}秒間30%減少させることがある
-		この効果中、この武器を選択中、防御力が20%増加
+		この効果中、この武器を選択中は防御力が20%増加
 		'''
 	# Exotics
 	
@@ -338,7 +338,7 @@ CommonItemTooltip: {
 	AugDescSteady: "{0}: ダメージのばらつきが{1}%小さくなる"
 	AugDescToxinstrike: "{0}: 攻撃が当たると、{1}%の確率で敵に毒を一時的に与える"
 	AugDescKarmathorn: "{0}: 受けた接触ダメージの{1}%を反射"
-	AugDescSpringfeet: "{0}: ジャンプ速度が{1}%増加"
+	AugDescSpringfeet: "{0}: ジャンプ速度が{1}%上昇"
 	AugDescGreed: "{0}: 倒した敵がアイテムをドロップした場合、そのアイテムの価値の{1}%に相当するコインを追加で入手"
 	AugDescPlightpurge: "{0}: ほとんどのデバフによるダメージを{1}%軽減"
 	AugDescResolve: "{0}:被ダメージを{1}%軽減"
@@ -352,17 +352,17 @@ CommonItemTooltip: {
 	AugDescDeflect: "{0}: 飛び道具から受けるダメージを{1}%軽減"
 	AugDescAweshock: "{0}: クリティカル時、光の火花を放ち、対象の防御力を1秒間20%減少"
 	AugDescRider: "{0}: マウントに騎乗中、ダメージが{1}%増加"
-	AugDescTerraform: "{0}: 採掘スピードと配置速度が{1}%上昇"
+	AugDescTerraform: "{0}: 採掘速度と配置速度が{1}%上昇"
 	AugDescDestructionUnusual: "{0}: ダメージが{1}%増加するが、被ダメージが10%増加"
 	AugDescBloodfuelUnusual: "{0}: ライフが自然回復しなくなるが、敵を倒すとその敵の最大ライフの{1}%を回復"
 	AugDescDaredevilUnusual:
 		'''
-		{0}: 攻撃を回避する確率が{1}%増加するが、
+		{0}: 攻撃を回避する確率が{1}%上昇するが、
 		被ダメージが25%の確率で2倍になる
 		'''
 	AugDescSpeedlustUnusual:
 		'''
-		{0}: 最大移動速度が{1}%増加
+		{0}: 最大移動速度が{1}%上昇
 		ただし、移動速度が遅すぎると、ライフ自然回復量とダメージが減少
 		移動していないとライフが徐々に減っていくが、非常に速く移動しているときは、ライフ自然回復をわずかに増進
 		'''
@@ -596,7 +596,7 @@ Items: {
 	Voidic: ヴォイド
 	Runic: ルーニック
 	Resurgence: リサージェンス
-	Powertheft: パワーセプト
+	Powertheft: パワーセフト
 	Execution: エグゼキューション
 	Aweshock: オーショック
 	Bladeheart: ブレイドハート
@@ -4391,7 +4391,7 @@ Buffs: {
 	}
 
 	Powertheft: {
-		DisplayName: パワーセプト
+		DisplayName: パワーセフト
 		Description: 敵の攻撃力が10%減少
 	}
 
@@ -4522,7 +4522,7 @@ Buffs: {
 	}
 
 	PowertheftBuff: {
-		DisplayName: パワーセプト
+		DisplayName: パワーセフト
 		Description: パワーセフト武器が敵から攻撃力を奪い、ダメージが20%増加中
 	}
 
@@ -4577,12 +4577,12 @@ Buffs: {
 	}
 
 	UnusualPowertheft: {
-		DisplayName: アンユージュアルパワーセプト
+		DisplayName: アンユージュアルパワーセフト
 		Description: 敵の防御力が30%減少
 	}
 
 	PowertheftDef: {
-		DisplayName: アンユージュアルパワーセプト
+		DisplayName: アンユージュアルパワーセフト
 		Description: アンユージュアルパワーセフト武器が敵から防御力を奪い、この武器を選択中、防御力が20%増加
 	}
 
