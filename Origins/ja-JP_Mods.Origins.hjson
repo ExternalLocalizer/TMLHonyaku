@@ -76,7 +76,7 @@ Laser_Tag: {
 	HP: HP
 	PointsToWin: ポイントで勝利
 	Score: "{0}スコア！"
-	Victory: "{0の勝ち！"
+	Victory: "{0}の勝ち！"
 	Team_Red: レッドチーム
 	Team_Green: グリーンチーム
 	Team_Blue: ブルーチーム
@@ -122,7 +122,7 @@ FishQuest: {
 	Duskarp: {
 		Description:
 			'''
-			地下世界の暗く陰鬱な深淵には、{§黄昏}と呼ばれる非常に暗い場所がある。{§黄昏}には「{§ダス}カープ」と呼ばれる魚が生息していると聞いているよ。
+			地下世界の暗く陰鬱な深淵には、{§黄昏}と呼ばれる非常に暗い場所がある。{§黄昏}には{§ダス}カープと呼ばれる魚が生息していると聞いているよ。
 			彼らについてはあまり詳しく知らないけど、紫色の溶岩の上にあるものなら何でも噛みつくことができるようだから、手には十分注意が必要だよ！
 			'''
 		Location: "{§黄昏}で釣れる"
@@ -182,7 +182,7 @@ Dialogue: {
 		Combat_1: おい！バカ！
 		Combat_2: 攻撃的だ。そういうところが好きだ。
 		Combat_3: "[笑い]"
-		Combat_4: 私はその殺意に満ちた感情がとても好きです。次の上司（彼／彼女／それ、性別）と対峙するときも、その心構えを維持してください。
+		Combat_4: 私はその殺意に満ちた感情がとても好きです。次の上司（彼/彼女/それ、性別）と対峙するときも、その心構えを維持してください。
 		Combat_5: これは難しそうですね…君にとって、という意味ですが。
 		Combat_6: もし私が賭けをする人工知能だったら、彼らが今すぐ君を殺す方に賭けるだろう。
 		Combat_7: 彼らには言わないでおこう。サプライズになるから。
@@ -218,7 +218,7 @@ Dialogue: {
 		Summoned_1: オイルはガリエットのどこにあるの？
 		Summoned_2: あなたは誰？ここはどこ？私は一体何者なの？！
 		Idle_0: ここは故郷の惑星とは全く違う。
-		Idle_1: 「テラリアン」って呼ばれてるの？ 「ヴェニソウル」って呼ばれてるよ。
+		Idle_1: テラリアンって呼ばれてるの？ ヴェニソウルって呼ばれてるよ。
 		Idle_2: はい。私はヴェニスール朝カリフ国のカリフです。なぜ疑問を呈するのですか？
 		Idle_3: 誰が私を商品化されたぬいぐるみに変えたの？
 		Dog_0: お願いだからやめて。
@@ -265,6 +265,49 @@ Dialogue: {
 		Death_2: ある日。
 		Death_3: 我々は前進し続ける。
 	}
+
+	Cubekon_Tinkerer: {
+		StandardDialogue1: "[player:_]、笑顔を忘れるなよ。"
+		StandardDialogue2: 普段の俺は目立ちたがり屋な方なんだが、あの日はキューブコンの連中が俺に意地悪していたようだったな。
+		StandardDialogue3: 旅行者、何か手伝えることはあるか？
+		StandardDialogue4: 正直言って、キューボイドの解剖学は、俺の知識をもってしても理解するのは簡単ではないぞ…。
+		StandardDialogue5: まだ笑えるうちに笑っておくか…
+		InteractionWizard: "{NPCName}が一体何に悩んでいるのか、本当に分からないな。旅行者、彼の気分を少しでも明るくしてくれないか？"
+		InteractionTaxCollector: 時々、{NPCName}の頭の中で何が起こっているのか本当に不思議に思う。もしかしたら、もう笑うネタが尽きてしまったのかもしれないな。
+		InteractionPartyTavernKeep: さあ、笑って盛り上がろう！アイリッシュレッドエールが飲みたい気分だ…あ、あそこにいる。
+		InteractionParty: パーティーでは、笑顔にならないのは難しいだろう…
+		InteractionWind: テラリアン、新鮮な空気はキューブコンのマトリックスからの気分転換になる。実にありがたいことだ。
+		InteractionStorm1: 嵐はいつも俺をワクワクさせてくれる。
+		InteractionStorm2: 俺はちょっと変わっているんだ…雨の日に散歩に行くのが好きだ。
+		InteractionGraveYard: アンデッドが存在しているから…量子不死には反対だ…
+		BloodMoon1: 単一の直方体マトリックスだけで様々なIQT経路の不整合を考慮するのは確かに大変だ、ツーリスト...一体何を考えているんだ？
+		BloodMoon2: 今の俺の「状況」は最悪だが、[player:_]、何か手伝えることはあるか？
+		StrangeComputerPresent: 彼は本当に賢い人だな。自分の姿をファブリケーターに保存しておくなんて。
+	}
+
+	Dusk_Trader: {
+		StandardDialogue1: それは何だ？
+		StandardDialogue2: 急げ、テラリアン。
+		StandardDialogue3: はい、ここにいる。何かご用か？
+		StandardDialogue4: 何だ？
+		BloodMoon: 興味深い。今夜は邪悪な霊にあまり悩まされることはないだろう。
+	}
+
+	Demolitionist: {
+		StandardDialogue9001: 面白い話があるぞ！昔、俺と同じことをする魔法使いたちがいたんだが、彼らはそれを魔法だと思っていたんだ。面白いと思わないか？
+		AshenWorld: 構造物が邪魔かって？ これはまるで俺の爆弾のために作られたみたいだな！
+		DefiledWorld: あのチャンクの岩を突破しようとしてるのか？だったら、この爆発物でぶち壊してやろうぜ！
+		RivenWorld: スキンの塊を突破しようとしてるのか？だったら、この爆弾を試してみたらどうだ？
+		BloodMoon9001: あの忌々しい怪物どもを血まみれの惨状に変えることはできないな。なぜなら、あいつらはすでに血まみれだからだ。粉々に吹き飛ばすことはできるが！
+	}
+
+	WitchDoctor: {
+		InteractionAcidFreak1: "{NPCName}とは良好な関係を築いている。"
+		InteractionAcidFreak2: "{NPCName}は自信を体現している。私はその自信に親近感を覚える。"
+		InteractionAcidFreak3: "{NPCName}はかなり気まぐれなところがあるが、彼女はまだ若いということを理解してくれ。"
+	}
+
+	Truffle.InteractionTeenyTruffle: なんて可愛い子なんだ！痛っ！彼はそれが気に入らなかったのか…
 }
 
 Interface: {
@@ -356,8 +399,8 @@ GuideAdvice: {
 		DFissure: "{§荒廃}の中継機は大抵、{§荒廃}の地の周辺の溝にあるよ。たくさん壊せば心臓が免疫系に警告する。そいつを倒せば、空から隕石が降ってくるかも！"
 		RLesion: ゲルの気泡は大抵、{§不和}の地にあるよ。たくさん壊せばワールドクラッカーが解放される。そいつを倒せば、空から隕石が降ってくるかも！
 		Defiled_Heart: "{§荒廃}の地は全ての{§荒廃}の心臓を破壊するまで、汚染を浄化しても元に戻ってしまうよ。心臓は荒廃の洞窟の中心にあるよ。"
-		HardmodeAltarD: "{§ディファイルド}アルターを見つけたら必ず破壊しよう。そうすれば何か良い事が起こるよ！"
-		HardmodeAltarR: "{§リヴェン}アルターを見つけたら必ず破壊しよう。そうすれば何か良い事が起こるよ！"
+		HardmodeAltarD: "{§ディファイルド}アルターを見つけたら必ず破壊しよう。そうすれば何か良いことが起こるよ！"
+		HardmodeAltarR: "{§リヴェン}アルターを見つけたら必ず破壊しよう。そうすれば何か良いことが起こるよ！"
 	}
 
 	Other: {
@@ -423,7 +466,7 @@ Buffs: {
 
 	Antisolve_Buff: {
 		DisplayName: 溶解防護
-		Description: いかなる化学物質によっても分解されない
+		Description: 断裂と毒性ショックを無効化
 	}
 
 	Blue_Bovine_Buff: {
@@ -567,7 +610,7 @@ Buffs: {
 
 	Riven_Assimilation: {
 		DisplayName: "{§不和}の侵食"
-		Description: あなたは§不和}のの侵食を受けている
+		Description: あなたは{§不和}の侵食を受けている
 		DeathMessage: "{0}は{§不和}の生態系の一つとなりました。"
 	}
 
@@ -578,7 +621,11 @@ Buffs: {
 
 	Slow_Debuff: {
 		DisplayName: 鈍足
-		Description: これは敵側のデバフです。これを受けたら、移動キーをタップして移動速度を遅くするなどしてください。¯\_(ツ)_/¯
+		Description:
+			'''
+			これは敵側のデバフです。これを受けたら、
+			移動キーをタップして移動速度を遅くするなどしてください。¯\_(ツ)_/¯
+			'''
 	}
 
 	Soulhide_Weakened_Debuff: {
@@ -611,7 +658,7 @@ Buffs: {
 
 	Voidsight_Buff: {
 		DisplayName: ヴォイドサイト
-		Description: 視認性が大幅に向上する
+		Description: 視界がかなり良くなる
 	}
 
 	Weak_Shadowflame_Debuff: {
@@ -621,12 +668,12 @@ Buffs: {
 
 	Weapon_Imbue_Bile: {
 		DisplayName: ラスタライズ化付与
-		Description: 近接攻撃にラスタライズ化の追加効果を付与
+		Description: 近接攻撃と鞭の攻撃でラスタライズ化を与える
 	}
 
 	Weapon_Imbue_Salt: {
 		DisplayName: 断裂付与
-		Description: 近接攻撃に断裂の追加効果を付与
+		Description: 近接攻撃と鞭の攻撃で断裂を与える
 	}
 
 	Woodsprite_Buff: {
@@ -646,7 +693,7 @@ Buffs: {
 
 	Depth_Ravel_Mount_Buff: {
 		DisplayName: デプスラヴェル
-		Description: 10%の確率で攻撃を回避し、水中で高い能力を発揮する
+		Description: 10%の確率で攻撃を回避し、水、溶岩、蜂蜜内で減速しない
 	}
 
 	Lousy_Liver_Debuff: {
@@ -672,7 +719,7 @@ Buffs: {
 
 	Stealth_Ravel_Mount_Buff: {
 		DisplayName: ステルスラヴェル
-		Description: 10%の確率で攻撃を回避し、敵に狙われにくくなる
+		Description: 10%の確率で攻撃を回避し、敵に非常に狙われにくくなる
 	}
 
 	Shadefire_Debuff: {
@@ -927,7 +974,7 @@ Buffs: {
 		Description:
 			'''
 			ミニオンの移動速度が10%上昇
-		アーティファクトミニオンのライフが20%増加
+			アーティファクトミニオンのライフが20%増加
 			'''
 	}
 
@@ -1069,7 +1116,7 @@ Buffs: {
 
 	Greater_Summoning_Buff: {
 		DisplayName: 上級召喚
-		Description: 召喚できるミニオンの数が2体増える
+		Description: ミニオンスロットを2つ追加
 	}
 
 	Sweet_Broth_Buff: {
@@ -1102,7 +1149,7 @@ Buffs: {
 
 	Plain_Broth_Buff: {
 		DisplayName: 普通のスープ
-		Description: ミニオンのサイズが25%増加
+		Description: ミニオンのサイズが25%大きくなる
 	}
 
 	Greasy_Broth_Buff: {
@@ -1133,7 +1180,7 @@ Buffs: {
 		DisplayName: ナーブフラン
 		Description:
 			'''
-			全ステータスが大きく強化…
+			全ステータスが大きく強化されるが…
 			帯域幅は除く
 			'''
 	}
@@ -2336,12 +2383,12 @@ Configs: {
 
 		RainSetBuff: {
 			Label: レインセットの強化
-			Tooltip: レインセットを装備するとボーナスとセットボーナスを得られる
+			Tooltip: レインセットを装備するとボーナスとセットボーナスを得られるようになります
 		}
 
 		GrassMerge: {
 			Label: 汎用的な草のマージ
-			Tooltip:草を他の種類の草と強制的に融合させます
+			Tooltip: 草を他の種類の草と強制的に融合させます
 		}
 
 		DebugMode: {
@@ -2356,7 +2403,11 @@ Configs: {
 
 		VolatileGelatin: {
 			Label: 揮発性ゼラチンの強化
-			Tooltip: 揮発性ゼラチンの攻撃が爆発ダメージになり、敵を高爆発性のジェルでコーティングするようになります
+			Tooltip:
+				'''
+				揮発性ゼラチンの攻撃が爆発ダメージになり、
+				敵を高爆発性のジェルでコーティングするようになります
+				'''
 		}
 
 		Assimilation: {
@@ -2366,10 +2417,17 @@ Configs: {
 
 		StatShareRatio: {
 			Label: ステータスの共有の乗数
-			Tooltip: これらの値は、ステータスの共有効果を使用する際に、クラスボーナスが汎用ダメージにどれだけ影響するかを決めます
+			Tooltip:
+				'''
+				これらの値は、ステータスの共有効果が発揮される際に、
+				クラスボーナスが汎用ダメージにどれだけ影響するかを決めます
+				'''
 		}
 
-		AddDebuff: "{0}に{1}を与える"
+		AddDebuff:
+				'''
+				{0}で攻撃した敵に{1}を与えるようになります
+				'''
 		ThunderSpear.Tooltip: "{0}に{1}を与える"
 
 		FrostHydra: {
@@ -2397,7 +2455,7 @@ Configs: {
 
 		ExportAllItemStatsJSON: {
 			Label: 全てのアイテムのステータスのJSONを抽出する
-			Tooltip: ステータスを大量に抽出するにはシフトを押しておく必要があります
+			Tooltip: ステータスを大量に抽出するにはShiftを押しておく必要があります
 		}
 
 		ExportItemStatsJSON: {
@@ -2722,8 +2780,8 @@ SetBonuses: {
 	Acrid:
 		'''
 		全ての攻撃で[buffhint:Origins/Toxic_Shock_Debuff]を与える
-		[buffhint/self:Venom]、[buffhint/self:Poisoned][ox:、][buffhint/self:Origins/Toxic_Shock_Debuff]耐性
-		水中にとても長く居られる
+		[buffhint/self:Venom]、[buffhint/self:Poisoned][ox:、][buffhint/self:Origins/Toxic_Shock_Debuff]を無効化
+		息がとても長く続く
 		'''
 	Amber:
 		'''
@@ -2740,13 +2798,13 @@ SetBonuses: {
 	Chromtain:
 		'''
 		敵に狙われやすくなる
-		防具破損耐性
+		防具破損を無効化
 		'''
 	Cryosten:
 		'''
 		全ての攻撃で[buffhint:Frostburn]を与える
 		爆発武器の弾速が10%上昇
-		[buffhint/self:Frozen]と[buffhint/self:Chilled]耐性
+		[buffhint/self:Frozen]と[buffhint/self:Chilled]を無効化
 		'''
 	Defiled: 最大ライフが大きく増加
 	Encrusted: ライフが50%以上の際、召喚ダメージが最大で30%増加
@@ -2757,24 +2815,25 @@ SetBonuses: {
 	Necromancer:
 		'''
 		敵を倒すと召喚ダメージが短時間増加
-		墓場にいるとマナ消費量が半分になり、アーティファクトミニオンならさらに半分になる
+		墓場にいるとマナ消費量が半分になり、
+		アーティファクトミニオンならさらに半分になる
 		敵の出現率が上昇する
-		召喚できるミニオンの数が3体増える
+		ミニオンスロットを3つ追加
 		'''
 	NecromancerCrown:
 		'''
 		倒した敵から満たされない魂が出現する
 		墓場にいるとマナ消費量が半分になる
 		敵の出現率が上昇する
-		召喚できるミニオンの数が3体増える
+		ミニオンスロットを3つ追加
 		'''
 	Nova:
 		'''
-		爆発範囲が60%拡大される
-		爆発武器の弾が複製されることがある
-		爆発武器の弾が近くの敵を追尾する
+		爆発範囲が60%広がる
+		爆発武器の弾が複製されることがあり、
+		近くの敵を追尾する
 		'''
-	Chlorohpyte_Summoner: 召喚できるミニオンの数が2体増える
+	Chlorohpyte_Summoner: ミニオンスロットを2つ追加
 	Riptide:
 		'''
 		液体内か、雨が降っていると魔法ダメージが6%増加
@@ -2811,7 +2870,7 @@ SetBonuses: {
 		'''
 	Rubber:
 		'''
-		[buffhint:Origins/Static_Shock_Debuff]と[buffhint:Electrified]耐性
+		[buffhint:Origins/Static_Shock_Debuff]と[buffhint:Electrified]を無効化
 		被ダメージを5%軽減
 		'''
 	Extremophile:
@@ -2828,7 +2887,7 @@ SetBonuses: {
 		'''
 	Mildew:
 		'''
-		[buffhint:Origins/Toxic_Shock_Debuff]耐性
+		[buffhint:Origins/Toxic_Shock_Debuff]を無効化
 		全てのミニオンが[buffhint:Venom]を与えるカビの塊をまとう
 		全ての弾が軌跡に沿って[buffhint:Venom]を与えるカビの蔓を放つ
 		'''
@@ -2837,7 +2896,7 @@ SetBonuses: {
 	ChambersiteCommander:
 		'''
 		[buffhint/self:Origins/Voidsight_Buff]を常に得る
-		召喚できるミニオンの数が1体増える
+		ミニオンスロットを1つ追加
 		武器のノックバックが15%増加
 		チェンバーサイト・センチネルを一時的に召喚できる
 		5秒のクールダウン
@@ -3007,7 +3066,7 @@ Items: {
 		DisplayName: アクミーの箱
 		Tooltip:
 			'''
-			爆発範囲が40%拡大
+			爆発範囲が40%広がる
 			爆発物が敵の近くで爆発するようになる
 			'''
 	}
@@ -3017,7 +3076,7 @@ Items: {
 		Tooltip:
 			'''
 			武器の弾の速度が上昇し、クリティカル率が10%上昇
-			爆発範囲が20%拡大され、混乱を無効化
+			爆発範囲が20%広がり、混乱を無効化
 			'''
 	}
 
@@ -3025,14 +3084,14 @@ Items: {
 		DisplayName: 酸素タンク
 		Tooltip:
 			'''
-			水中にとても長く居られる
-			窒息耐性
+			息がとても長く続く
+			窒息を無効化
 			'''
 	}
 
 	Amebic_Vial: {
 		DisplayName: アメーバのバイアル
-		Tooltip: アメーバの触手が敵の弾からあなたを守る
+		Tooltip: アメーバの触手が敵の弾からあなたを守ってくれる
 	}
 
 	Asylum_Whistle: {
@@ -3059,7 +3118,7 @@ Items: {
 			'''
 			移動速度と加速度が上昇
 			身につけると光を発する
-			壁登りとダッシュが可能
+			壁に張り付き、滑り降りとジャンプができ、ダッシュできる
 			グラップリングフックとパーブーンガンが戻ってくる速度が大幅に上昇
 			10%の確率で攻撃を回避する
 			'''
@@ -3089,7 +3148,7 @@ Items: {
 		Tooltip:
 			'''
 			ブーメランとパーブーンガンが戻ってくる速度が上昇
-			アイテムを拾う距離が拡がる
+			アイテムの取得範囲が広がる
 			'''
 	}
 
@@ -3143,7 +3202,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージ、近接攻撃速度、クリティカル率、
-			ライフ自然回復、防御力、採掘スピード[ox:、]ミニオンのノックバックが増加するが
+			ライフ自然回復、防御力、採掘速度[ox:、]ミニオンのノックバックを少し強化するが
 			移動関係の能力が低下する
 			'''
 	}
@@ -3152,7 +3211,7 @@ Items: {
 		DisplayName: 宇宙の星明かり
 		Tooltip:
 			'''
-			マナスターを拾う距離が拡がる
+			マナスターの取得範囲が広がる
 			クリティカル時にマナスターがドロップされることがある
 			'''
 	}
@@ -3162,7 +3221,7 @@ Items: {
 		Tooltip:
 			'''
 			全ての爆発武器が[buffhint:OnFire]を与え、爆発するまでの時間が短縮される
-			爆発範囲が60%拡大
+			爆発範囲が60%広がる
 			爆発物が敵の近くで爆発するようになる
 			'''
 	}
@@ -3202,6 +3261,7 @@ Items: {
 			'''
 			マウントキーで、触れた敵にダメージを与える小さなボールに変身する
 			横入力二回でダッシュして即座に変身する
+			10%の確率で攻撃を回避する
 			'''
 	}
 
@@ -3219,7 +3279,8 @@ Items: {
 		Tooltip:
 			'''
 			マウントキーで、小さなボールに変身する
-			水中で極めて高い能力を発揮する
+			10%の確率で攻撃を回避し、
+			水、溶岩、蜂蜜内で減速しない
 			'''
 	}
 
@@ -3229,7 +3290,7 @@ Items: {
 			'''
 			投げた爆発物の速度が25%上昇
 			爆発物の投擲攻撃速度が上昇
-			全ての爆発武器のオート攻撃を有効にする
+			全ての爆発武器でオート攻撃が可能になる
 			'''
 	}
 
@@ -3254,13 +3315,13 @@ Items: {
 			ダメージが5%増加
 			被ダメージ時の無敵時間が延長され[ox:、]ダメージを受けると一時的にダメージが増加し、移動速度が上昇する
 			[buffhint/dnドライアドのオーラ:DryadsWardDebuff]を発する
-			周囲に攻撃性能のある胞子を呼び出す
+			敵を攻撃する胞子を呼び出す
 			'''
 	}
 
 	Eccentric_Stone: {
 		DisplayName: 風変わりな石
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	Entangled_Energy: {
@@ -3268,8 +3329,9 @@ Items: {
 		Tooltip:
 			'''
 			ライフが少ないほどダメージが増加
-			敵を攻撃すると、回復ポーションの再使用時間が短縮されるが、
-			回復ポーションの効果が25%減少する
+			敵を攻撃するたびに、
+			ライフ回復アイテムの再使用時間がわずかに短縮されるが、
+			ライフ回復アイテムの効果が25%減少する
 			'''
 	}
 
@@ -3293,36 +3355,36 @@ Items: {
 
 	Agility_Core: {
 		DisplayName: 素早さのコア
-		Tooltip: 移動関係の能力が大幅に上昇
+		Tooltip: 移動関係の能力が大幅に強化される
 	}
 
 	Combat_Core: {
 		DisplayName: 戦闘のコア
-		Tooltip: 戦闘関係の能力が大幅に上昇
+		Tooltip: 戦闘関係の能力が大幅に強化される
 	}
 
 	Construction_Core: {
 		DisplayName: 建設のコア
-		Tooltip: 建設関係の能力が大幅に上昇
+		Tooltip: 建設関係の能力が大幅に強化される
 	}
 
 	Fishing_Core: {
 		DisplayName: 釣りのコア
-		Tooltip: 釣り関係の能力が大幅に上昇
+		Tooltip: 釣り関係の能力が大幅に強化される
 	}
 
 	Lifeforce_Core: {
 		DisplayName: 生命のコア
 		Tooltip:
 			'''
-			ライフ関係の能力が大幅に上昇
+			ライフ関係の能力が大幅に強化される
 			「ライフを得る」
 			'''
 	}
 
 	Magic_Core: {
 		DisplayName: 魔法のコア
-		Tooltip: 魔法関係の能力が大幅に上昇
+		Tooltip: 魔法関係の能力が大幅に強化される
 	}
 
 	Fiberglass_Dagger: {
@@ -3363,7 +3425,7 @@ Items: {
 		DisplayName: ガングローブ
 		Tooltip:
 			'''
-			武器を振ると弾丸が発射される
+			弾丸を所持して武器を振ると弾丸を撃つ
 			（弾薬は付属しません）
 			'''
 	}
@@ -3381,11 +3443,11 @@ Items: {
 		DisplayName: 便利なヘルパー
 		Tooltip:
 			'''
-			アメーバの触手が敵の弾からあなたを守る
+			アメーバの触手が敵の弾からあなたを守ってくれる
 			近接攻撃のノックバックが増加
 			近接攻撃速度が12%上昇
-			近接武器のオート攻撃を有効にする
-			近接武器のサイズを増加させる
+			近接武器と鞭でオート攻撃が可能になる
+			近接武器のサイズが大きくなる
 			'''
 	}
 
@@ -3413,8 +3475,8 @@ Items: {
 		DisplayName: ヘリウムのタンク
 		Tooltip:
 			'''
-			水中にとても長く居られる
-			窒息耐性
+			息がとても長く続く
+			窒息を無効化
 			「笑わないで」
 			'''
 	}
@@ -3467,7 +3529,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージが5%増加
-			飛行を可能にし、超高速走行
+			飛行と超高速走行ができる
 			ダメージを受けると一時的にダメージが増加し、移動速度が上昇する
 			敵に向かってダッシュ攻撃できる
 			横方向入力2回で高速ステップ
@@ -3479,14 +3541,14 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が8%減少
-			マナポーションを自動で使用してくれる
-			武器を振るとランダムな魔法が発射される
+			マナがなくなるとマナポーションを自動的に使用する
+			武器を振るとマナを消費してランダムな魔法を発射する
 			「魔法の腕前が求められるかもしれない」
 			'''
 	}
 
 	Magic_Tripwire: {
-		DisplayName: 魔法のトリップワイヤー
+		DisplayName: 魔法の仕掛け線
 		Tooltip:
 			'''
 			爆発物が敵の近くで爆発するようになる
@@ -3525,10 +3587,10 @@ Items: {
 			'''
 			投げた爆発物の速度が25%上昇
 			爆発武器のノックバックが20%増加
-			爆発範囲が15%拡大
+			爆発範囲が15%広がる
 			爆発物の投擲攻撃速度が上昇
-			全ての爆発武器のオート攻撃を有効にする
-			武器を振るとロケットが発射される
+			全ての爆発武器でオート攻撃が可能になる
+			ロケットを所持して武器を振るとロケットを撃つ
 			「ペイロードは含まれません」
 			'''
 	}
@@ -3566,20 +3628,21 @@ Items: {
 			マウントキーで、小さなボールに変身する
 			変身中は壁や天井に張り付くことができ、
 			敵に狙われにくくなる
+			10%の確率で攻撃を回避する
 			'''
 	}
 
 	Nitro_Crate: {
 		DisplayName: ニトロ箱
-		Tooltip: 爆発範囲が20%拡大
+		Tooltip: 爆発範囲が20%広がる
 	}
 
 	No_U_Card: {
-		DisplayName: No Uカード
+		DisplayName: お返しだ！カード
 		Tooltip:
 			'''
-			ダメージを全て反射し、耐性を無視してデバフを与える
-			ほとんどの状態異常に対する耐性
+			接触ダメージを全て反射し、耐性を無視してデバフを与える
+			ほとんどのデバフを無効化
 			'''
 	}
 
@@ -3623,7 +3686,7 @@ Items: {
 			'''
 			ライフ自然回復をわずかに増進し、
 			デバフの持続時間が30%短縮される
-			ホーション酔いには影響しない
+			ポーション酔いには効果がない
 			[buffhint/self:Bleeding]を受けるとライフが急激に減っていく
 			'''
 	}
@@ -3643,7 +3706,7 @@ Items: {
 			'''
 			クリティカル時にマナスターがドロップされることがある
 			マナ消費量が8%減少
-			マナポーションを自動で使用してくれる
+			マナがなくなるとマナポーションを自動的に使用する
 			'''
 	}
 
@@ -3672,7 +3735,7 @@ Items: {
 		DisplayName: 原生動物の餌
 		Tooltip:
 			'''
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			ミニオンスロットごとに、敵を追尾するアメーバのペレットを召喚し、
 			[buffhint:Origins/Slow_Debuff]を与えて敵を弱らせる
 			'''
@@ -3680,12 +3743,16 @@ Items: {
 
 	Ravel: {
 		DisplayName: ラヴェル
-		Tooltip: マウントキーで、小型のボールに変形する
+		Tooltip:
+			'''
+			マウントキーで、小さなボールに変身する
+			10%の確率で攻撃を回避する
+			'''
 	}
 
 	Razorwire: {
 		DisplayName: 有刺鉄線
-		Tooltip: ダメージを近くの3体の敵に全て反射する
+		Tooltip: 接触ダメージを近くの3体の敵に全て反射する
 	}
 
 	Rebreather: {
@@ -3706,7 +3773,7 @@ Items: {
 		DisplayName: 樹脂の盾
 		Tooltip:
 			'''
-			ノックバックと火のブロックのダメージを無効化する
+			ノックバックと燃えるブロックのダメージを無効化
 			次の攻撃で受ける自爆ダメージを全て無効化する
 			クールダウン：3.3秒
 			「時の試練に耐える盾」
@@ -3715,7 +3782,7 @@ Items: {
 
 	Return_To_Sender: {
 		DisplayName: リタ―ントゥセンダー
-		Tooltip: ダメージを全て反射する
+		Tooltip: 接触ダメージを全て反射する
 	}
 
 	Rope_Of_Sharing: {
@@ -3733,8 +3800,8 @@ Items: {
 		Tooltip:
 			'''
 			敵の防御力を5無視し、攻撃した敵に[buffhint/dn断裂:Origins/Torn_Debuff]を与える
-			召喚できるミニオンの数が1体増える
-			召喚ダメージが15%増加し、ミニオンのノックバックが増加
+			ミニオンスロットを1つ追加
+			召喚ダメージが15%増加し、ミニオンの攻撃のノックバックが増加
 			'''
 	}
 
@@ -3742,7 +3809,7 @@ Items: {
 		DisplayName: 肉の神の巻物
 		Tooltip:
 			'''
-			ダッシュ中は小さいウォールオブフレッシュに変身する
+			小さいウォールオブフレッシュに変身し、敵を攻撃するダッシュが可能
 			「お前は肉でできている」
 			'''
 	}
@@ -3751,7 +3818,7 @@ Items: {
 		DisplayName: ソーラーパネル
 		Tooltip:
 			'''
-			日光を浴びているとマナ自然回復を増進する
+			日光を浴びているとマナが徐々に回復する
 			「心配しないで、マナは元々再生可能なものだから！」
 			'''
 	}
@@ -3761,7 +3828,7 @@ Items: {
 		Tooltip:
 			'''
 			武器の弾の速度が上昇し、クリティカル率が10%上昇
-			爆発範囲が20%拡大され、混乱を無効化
+			爆発範囲が20%広がり、混乱を無効化
 			ブロックの最外層をハイライト表示する
 			'''
 	}
@@ -3771,7 +3838,7 @@ Items: {
 		Tooltip:
 			'''
 			罠、敵[ox:、]宝物が光る
-			僅かに光る
+			とても弱い光を放つ
 			'''
 	}
 
@@ -3804,7 +3871,7 @@ Items: {
 			'''
 			アーティファクトのミニオンが死亡時に生前の姿の幽霊に変化する
 			召喚ダメージが10%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -3813,7 +3880,7 @@ Items: {
 		Tooltip:
 			'''
 			マウントキーで、小さなボールに変身する
-			ステルス中、敵に狙われにくくなる
+			敵の攻撃を10%の確率で回避し、敵に非常に狙われにくくなる
 			'''
 	}
 
@@ -3882,7 +3949,7 @@ Items: {
 		DisplayName: 三脚のニップ
 		Tooltip:
 			'''
-			敵の攻撃性と出現率を低下させる
+			敵の出現率が低下し、敵に狙われにくくなる
 			{§Mods.Origins.NPCs.Defiled_Tripod.DisplayName}が友好的になる
 			'''
 	}
@@ -3905,7 +3972,7 @@ Items: {
 		DisplayName: 望まれない臓器
 		Tooltip:
 			'''
-			ダメージを近くの3体の敵に全て反射する
+			接触ダメージを近くの3体の敵に全て反射する
 			ダメージが5%増加し、クリティカル率が5%上昇
 			攻撃した敵に[buffhint:Origins/Toxic_Shock_Debuff]を与え、
 			敵に狙われにくくなる
@@ -3938,7 +4005,7 @@ Items: {
 			'''
 			爆発クリティカル率と投げた爆発物の速度が10%上昇
 			液体内で効果が強力になる
-			弱い光を発する
+			弱い光を放つ
 			'''
 	}
 
@@ -3953,7 +4020,7 @@ Items: {
 			'''
 			魔法ダメージが10%増加し、マナ消費量が25%減少
 			液体内で効果が強力になる
-			弱い光を発する
+			弱い光を放つ
 			'''
 	}
 
@@ -3972,9 +4039,9 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージが10%増加
-			召喚できるミニオンの数が2体増える
+			ミニオンスロットを2つ追加
 			液体内で効果が強力になる
-			弱い光を発する
+			弱い光を放つ
 			'''
 	}
 
@@ -3984,7 +4051,7 @@ Items: {
 			'''
 			遠距離攻撃速度が20%上昇
 			液体内で効果が強力になる
-			弱い光を発する
+			弱い光を放つ
 			'''
 	}
 
@@ -4022,7 +4089,7 @@ Items: {
 		DisplayName: クライオステンの兜
 		Tooltip:
 			'''
-			爆発範囲が20%拡大
+			爆発範囲が20%広がる
 			ライフ自然回復を増進
 			'''
 	}
@@ -4031,7 +4098,7 @@ Items: {
 		DisplayName: クライオステンの胸当て
 		Tooltip:
 			'''
-			爆発範囲が20%拡大
+			爆発範囲が20%広がる
 			最大ライフが8%増加
 			'''
 	}
@@ -4041,7 +4108,7 @@ Items: {
 		Tooltip:
 			'''
 			移動速度が10%上昇
-			氷の上で移動速度が上昇
+			氷系ブロックの上で移動速度が上昇
 			'''
 	}
 
@@ -4092,7 +4159,7 @@ Items: {
 
 	Encrusted_Coat: {
 		DisplayName: インクラスティドのコート
-		Tooltip: 召喚できるミニオンの数が1体増える
+		Tooltip: ミニオンスロットを1つ追加
 	}
 
 	Encrusted_Mask: {
@@ -4102,7 +4169,7 @@ Items: {
 
 	Encrusted_Pants: {
 		DisplayName: インクラスティドのパンツ
-		Tooltip: ジャンプ高度が増加
+		Tooltip: ジャンプ高度が上昇
 	}
 
 	Scavenger_Breastplate: {
@@ -4203,7 +4270,7 @@ Items: {
 
 	Mythic_Shell: {
 		DisplayName: ミシックシェル
-		Tooltip: ジャンプ速度が45%増加
+		Tooltip: ジャンプ速度が45%上昇
 	}
 
 	Mythic_Skull: {
@@ -4220,7 +4287,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚攻撃速度が15%上昇
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -4257,7 +4324,7 @@ Items: {
 		Tooltip:
 			'''
 			爆発ダメージが4%増加し、爆発クリティカル率が4%上昇
-			爆発範囲が50%拡大
+			爆発範囲が50%広がる
 			'''
 	}
 
@@ -4276,7 +4343,7 @@ Items: {
 			'''
 			召喚ダメージが12%増加
 			アーティファクトミニオンのダメージが15%増加
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -4284,7 +4351,7 @@ Items: {
 		DisplayName: クロロファイトの顔
 		Tooltip:
 			'''
-			爆発範囲が35%拡大
+			爆発範囲が35%広がる
 			爆発するまでの時間が25%短縮される
 			'''
 	}
@@ -4310,7 +4377,7 @@ Items: {
 
 	Bleeding_Obsidian_Helmet: {
 		DisplayName: 血染めの黒曜石の軍用帽
-		Tooltip: 爆発範囲が20%拡大
+		Tooltip: 爆発範囲が20%広がる
 	}
 
 	Riptide_Breastplate: {
@@ -4327,7 +4394,8 @@ Items: {
 		Tooltip:
 			'''
 			魔法ダメージが5%増加
-			泳げるようになり、水中で移動速度が上昇する
+			液体内で無限にジャンプでき、
+			水、溶岩、蜂蜜内で減速しない
 			'''
 	}
 
@@ -4336,7 +4404,7 @@ Items: {
 		Tooltip:
 			'''
 			魔法ダメージが5%増加
-			水中にすこし長く居られる
+			息が少し長く続く
 			'''
 	}
 
@@ -4527,17 +4595,17 @@ Items: {
 
 	Defiled_Key: {
 		DisplayName: "{§荒廃}の鍵"
-		Tooltip: ダンジョンにある{§荒廃}の宝箱を開ける
+		Tooltip: ダンジョンにある{§荒廃}の宝箱を開けるのに使う
 	}
 
 	Dawn_Key: {
 		DisplayName: 黎明の鍵
-		Tooltip: ダンジョンにある黎明の宝箱を開ける
+		Tooltip: ダンジョンにある黎明の宝箱を開けるのに使う
 	}
 
 	Dusk_Key: {
 		DisplayName: "{§黄昏}の鍵"
-		Tooltip: ダンジョンにある{§黄昏}の宝箱を開ける
+		Tooltip: ダンジョンにある{§黄昏}の宝箱を開けるのに使う
 	}
 
 	Dreadful_Powder: {
@@ -4565,7 +4633,7 @@ Items: {
 
 	FragmentNova: {
 		DisplayName: ノヴァの断片
-		Tooltip: 「死にゆく星が最期の瞬間を迎える、そのエッセンス…」
+		Tooltip: 「死にゆく星が最期の瞬間を迎える、そのエッセンスの断片…」
 	}
 
 	Hell_Key: {
@@ -4616,7 +4684,7 @@ Items: {
 
 	Riven_Key: {
 		DisplayName: "{§不和}の鍵"
-		Tooltip: ダンジョンにある{§不和}の宝箱を開ける
+		Tooltip: ダンジョンにある{§不和}の宝箱を開けるのに使う
 	}
 
 	Rotor.DisplayName: ローター
@@ -4668,12 +4736,12 @@ Items: {
 
 	Antisolve_Potion: {
 		DisplayName: 溶解防護のポーション
-		Tooltip: "[buffhint/self:Origins/Toxic_Shock_Debuff]と[buffhint/self:Origins/Torn_Debuff]耐性を得る"
+		Tooltip: "[buffhint/self:Origins/Toxic_Shock_Debuff]と[buffhint/self:Origins/Torn_Debuff]を無効化"
 	}
 
 	Bile_Flask: {
 		DisplayName: 黒い胆汁のフラスコ
-		Tooltip: 近接攻撃に[buffhint/dnラスタライズ化:Origins/Rasterized_Debuff]の追加効果を付与
+		Tooltip: 近接攻撃と鞭の攻撃で[buffhint/dnラスタライズ化:Origins/Rasterized_Debuff]を与える
 	}
 
 	Blue_Bovine: {
@@ -4717,7 +4785,7 @@ Items: {
 
 	Focus_Potion: {
 		DisplayName: 集中のポーション
-		Tooltip: ダメージが増加するが、攻撃時にマナを消費する
+		Tooltip: ダメージが増加するが、攻撃時にマナを消費するようになる
 	}
 
 	Bileberry: {
@@ -4738,7 +4806,7 @@ Items: {
 		DisplayName: 塩水漬けのチーズ
 		Tooltip:
 			'''
-			{$CommonItemTooltip.MajorStats}
+			{$CommonItemTooltip.MajorStats}されるが...
 			「しかし、落とし穴がある…」
 			'''
 	}
@@ -4888,7 +4956,7 @@ Items: {
 
 	Quantum_Injector: {
 		DisplayName: クアンタムインジェクター
-		Tooltip: 永久に最大マナを40増加
+		Tooltip: 永久に最大マナが40増加
 	}
 
 	Riven_Loot_Box: {
@@ -4898,7 +4966,7 @@ Items: {
 
 	Salt_Flask: {
 		DisplayName: アルカヘストのフラスコ
-		Tooltip: 近接攻撃に[buffhint/dn断裂:Origins/Torn_Debuff]の追加効果を付与
+		Tooltip: 近接攻撃と鞭の攻撃で[buffhint/dn断裂:Origins/Torn_Debuff]を与える
 	}
 
 	Sus_Ice_Cream: {
@@ -4922,12 +4990,12 @@ Items: {
 
 	Void_Lock: {
 		DisplayName: 虚無の錠前
-		Tooltip: 使用すると自身だけが解錠できる錠前を宝箱に付ける
+		Tooltip: 使用すると自身だけが解錠できるロックを宝箱に付ける
 	}
 
 	Voidsight_Potion: {
 		DisplayName: ヴォイドサイトポーション
-		Tooltip: 視認性を大幅に向上させる
+		Tooltip: 視界がかなり良くなる
 	}
 
 	White_Water: {
@@ -5065,7 +5133,7 @@ Items: {
 
 	Acrid_Drill: {
 		DisplayName: "{§エイクリッド}のドリル"
-		Tooltip: 液体内で採掘スピードが上昇
+		Tooltip: 液体内で採掘速度が上昇
 	}
 
 	Acrid_Hamaxe: {
@@ -5075,7 +5143,7 @@ Items: {
 
 	Acrid_Pickaxe: {
 		DisplayName: "{§エイクリッド}のつるはし"
-		Tooltip: 液体内で採掘スピードが上昇
+		Tooltip: 液体内で採掘速度が上昇
 	}
 
 	Amoeba_Hook: {
@@ -5092,7 +5160,7 @@ Items: {
 		DisplayName: ディスマントラー
 		Tooltip:
 			'''
-			ヘルストーンの採掘が可能
+			ヘルストーンを採掘できる
 			「とても尖っている」
 			'''
 	}
@@ -5116,7 +5184,7 @@ Items: {
 		DisplayName: フェルナムのつるはし
 		Tooltip:
 			'''
-			ヘルストーンの採掘が可能
+			ヘルストーンを採掘できる
 			ダメージボーナスが50%増加
 			「その打撃音は雷鳴のようだ」
 			'''
@@ -5134,7 +5202,7 @@ Items: {
 
 	Rivenator: {
 		DisplayName: "{§リベネ}ーター"
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	Snatcher: {
@@ -5144,7 +5212,7 @@ Items: {
 
 	Strainer: {
 		DisplayName: ストレーナー
-		Tooltip: ヘルストーンの採掘が可能
+		Tooltip: ヘルストーンを採掘できる
 	}
 
 	Alkahest_Arrow: {
@@ -5204,7 +5272,7 @@ Items: {
 		Tooltip:
 			'''
 			ハープーンガンの弾薬として使う
-			衝撃により爆発する
+			敵か地形に当たると爆発する
 			'''
 	}
 
@@ -5852,7 +5920,10 @@ Items: {
 
 	Vorpal_Sword: {
 		DisplayName: ヴォーパルソード
-		Tooltip: "[buffhint/dn断裂:Origins/Torn_Debuff]を与える"
+		Tooltip:
+			'''
+			[buffhint/dn断裂:Origins/Torn_Debuff]を与える
+			'''
 	}
 
 	Vorpal_Sword_Cursed: {
@@ -5860,7 +5931,7 @@ Items: {
 		Tooltip:
 			'''
 			[buffhint/dn断裂:Origins/Torn_Debuff]を与える
-			インベントリ内にあると自動的にこの武器で攻撃する
+			インベントリに所持していると、自動的にこの武器で攻撃する
 			'''
 	}
 
@@ -5941,11 +6012,11 @@ Items: {
 	}
 
 	Broken_Fiberglass_Bow: {
-		DisplayName: 弦のないグラスファイバーの弓
+		DisplayName: 弦がないグラスファイバーの弓
 		Tooltip:
 			'''
-			弦がないとあまり役に立たない
-			何か代わりのものを見つけられるかもしれない
+			弦がないと攻撃できず、役に立たない
+			代わりのものを見つけて使う必要がある
 			<right>でツタを絡ませる
 			'''
 	}
@@ -5981,9 +6052,9 @@ Items: {
 			'''
 			弾薬として銛を使用する
 			85.7%の確率で銛を消費しない
-			「銛は含まれていません」
+			「銛は付いていません」
 			'''
-		VanillaTooltip: 「銛は含まれている」
+		VanillaTooltip: 「銛は付いている」
 	}
 
 	Incision: {
@@ -6116,7 +6187,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚タグダメージ 5
-			この武器で攻撃された敵にミニオンが攻撃すると、近くの敵にも電撃で攻撃する
+			この武器で攻撃した敵にミニオンが攻撃すると、近くの敵にも電撃で攻撃する
 			{$CommonItemTooltip.Whips}
 			ダメージボーナスが50%増加する
 			'''
@@ -6415,12 +6486,12 @@ Items: {
 
 	Bile_Torch: {
 		DisplayName: 胆汁のたいまつ
-		Tooltip: 水中に設置可能
+		Tooltip: 液体内に設置できる
 	}
 
 	Alkahest_Torch: {
 		DisplayName: アルカヘストのたいまつ
-		Tooltip: 水中に設置可能
+		Tooltip: 液体内に設置できる
 	}
 
 	Surveysprout.DisplayName: サーベイスプラウト
@@ -6493,7 +6564,7 @@ Items: {
 			'''
 			ステータスを12.5%共有
 			全ての武器の弾の速度が10%上昇
-			近接武器のサイズか10%増加
+			近接武器のサイズが10%大きくなる
 			'''
 	}
 
@@ -6599,7 +6670,7 @@ Items: {
 
 	Peat_Moss_Item: {
 		DisplayName: 苔（泥炭）
-		Tooltip: 「解体業者なら興味を持つかもしれない…」
+		Tooltip: 「爆破技師なら興味を持つかもしれない…」
 	}
 
 	Qube_Item: {
@@ -6635,8 +6706,8 @@ Items: {
 		DisplayName: 報復の盾
 		Tooltip:
 			'''
-			ノックバックと火のブロックのダメージを無効化
-			近くの敵にダメージを全て反射する
+			ノックバックと燃えるブロックのダメージを無効化
+			近くの敵に接触ダメージを全て反射する
 			'''
 	}
 
@@ -6653,9 +6724,9 @@ Items: {
 		DisplayName: 束縛の書
 		Tooltip:
 			'''
-			マナスターを拾う距離が広がる
+			マナスターの取得範囲が広がる
 			最大マナが20増加
-			ダメージを受けるとマナが回復する
+			ダメージを受けると被ダメージに応じてマナが回復する
 			被ダメージを10%軽減し、マナシールドが10%増加する
 			{§荒廃}のブロックをすり抜けるダッシュが可能になる
 			'''
@@ -6711,7 +6782,7 @@ Items: {
 		Tooltip:
 			'''
 			全ての蜂が友好的になり、複製されることがある
-			蜂蜜の中を自由に移動できる
+			蜂蜜内で減速しない
 			「緊急時には、蜂のためにガラスを割ってください」
 			'''
 	}
@@ -6727,7 +6798,7 @@ Items: {
 			'''
 			スライムのような粘性を得る
 			移動速度と加速度が低下
-			ジャンプ速度が大幅に増加
+			ジャンプ速度が大幅に上昇
 			被ダメージを30%軽減
 			'''
 	}
@@ -6737,7 +6808,7 @@ Items: {
 		Tooltip:
 			'''
 			ミニオンスロットごとに、敵を追尾する小さなサーバントを召喚する
-			ライフが少ないとサーバントがハートを落とすことがある
+			ライフが少ないとサーバントがハートをドロップすることがある
 			'''
 	}
 
@@ -6756,9 +6827,9 @@ Items: {
 			'''
 			近接攻撃速度が12%上昇
 			マナ消費量が8%減少
-			近接武器のオート攻撃を有効にする
-			マナポーションを自動で使用してくれる
-			武器を振るとランダムな魔法が発射される
+			近接武器と鞭でオート攻撃が可能になる
+			マナがなくなるとマナポーションを自動的に使用する
+			武器を振るとマナを消費してランダムな魔法を発射する
 			'''
 	}
 
@@ -7021,11 +7092,11 @@ Items: {
 			'''
 			投げた爆発物の速度が25%上昇
 			爆発武器のノックバックが20%増加
-			爆発範囲が15%拡大
+			爆発範囲が15%広がる
 			被ダメージ時の無敵時間が延長され[ox:、]ダメージを受けると一時的にダメージが増加し、移動速度が上昇する
 			爆発攻撃速度が上昇
-			全ての爆発武器のオート攻撃を有効にする
-			武器を振るとロケットが発射される
+			全ての爆発武器でオート攻撃が可能になる
+			ロケット弾を所持して武器を振ると発射する
 			ダメージを受けると流れ星が降り、インベントリ内のキャニスターを発射する
 			「エントロピーはコーヒーの良い代替品だ」
 			'''
@@ -7204,7 +7275,7 @@ Items: {
 			'''
 			移動速度が25%上昇
 			加速度が2%上昇
-			ジャンプ速度が増加
+			ジャンプ速度が上昇
 			爆発の自爆ダメージを10%軽減
 			'''
 	}
@@ -7247,8 +7318,8 @@ Items: {
 		Tooltip:
 			'''
 			ダメージ、近接攻撃速度、クリティカル率、
-			ライフ自然回復、防御力、採掘スピード、ミニオンのノックバックが増加
-			マナシールドが25%増加し、マナスターを拾う距離が広がるが、
+			ライフ自然回復、防御力、採掘速度、ダメージ軽減、ミニオンの攻撃のノックバックを強化
+			マナシールドが25%増加し、マナスターの取得範囲が広がるが、
 			移動速度が25%低下し、ジャンプ速度が40%低下する
 			液体内での落下速度が上昇し、
 			{§荒廃}のブロックをすり抜けるダッシュが可能になる
@@ -7379,7 +7450,7 @@ Items: {
 
 	Defiled_Banner_NPC_Banner_Item: {
 		DisplayName: "{§Mods.Origins.Generic.Defiled_Antibody}のバナー"
-		Tooltip: 以下のモンスターに対してボーナスを得る：{§Mods.Origins.Generic.Defiled_Antibodies}
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{§Mods.Origins.Generic.Defiled_Antibodies}"
 	}
 
 	Link_Grenade: {
@@ -7396,7 +7467,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.Origins.Items.Link_Grenade.Tooltip}
-			敵やブロックに張り付く
+			敵やブロックに貼り付く
 			'''
 	}
 
@@ -7436,7 +7507,7 @@ Items: {
 
 	Ziptie: {
 		DisplayName: ジップタイ
-		Tooltip: 3体以上の敵を同時に攻撃すると[buffhint:Origins/Rasterized_Debuff] を与え、攻撃速度が上昇する
+		Tooltip: 3体以上の敵を同時に攻撃すると[buffhint:Origins/Rasterized_Debuff]を与え、攻撃速度が上昇する
 	}
 
 	Communion: {
@@ -7449,7 +7520,7 @@ Items: {
 		Tooltip:
 			'''
 			近接ダメージが10%増加
-			近接武器のサイズを増加させる
+			近接武器のサイズが大きくなる
 			攻撃した敵に[buffhint/dn弱体化:Origins/Soulhide_Weakened_Debuff]を与える
 			'''
 	}
@@ -7523,13 +7594,14 @@ Items: {
 		Tooltip:
 			'''
 			ダメージが5%増加
-			飛行を可能にし、超高速走行[ox:、]加速度が上昇し、
+			飛行と超高速走行ができ[ox:、]加速度が上昇し、
 			ダメージを受けると一時的にダメージが増加し、移動速度が上昇する
 			身につけると光を放つ
-			壁登りとダッシュが可能
+			壁に張り付き、滑り降りとジャンプができ、ダッシュできる
 			グラップリングフックとパーブーンガンが戻ってくる速度が大幅に上昇
 			10%の確率で攻撃を回避する
-			超高速走行を続けると強力なダッシュを行う
+			超高速走行を続けると速度が大幅に上昇し、
+			同じ移動キーを2回押すと長距離ダッシュを行う
 			'''
 	}
 
@@ -7646,11 +7718,11 @@ Items: {
 	}
 
 	Scrap_Barrier: {
-		DisplayName: スクラップバリア（呪い）
+		DisplayName: スクラップバリア
 		Tooltip:
 			'''
 			ライフが90%以上の際、被ダメージを50%軽減するが、
-			ライフが50%以上でダメージを受けると、ライフの自然回復が3秒間停止する
+			ライフが50%以上でダメージを受けると、ライフが3秒間自然回復しなくなる
 			'''
 	}
 
@@ -7726,13 +7798,13 @@ Items: {
 	}
 
 	Slag_Bucket: {
-		DisplayName: スラグバケツ（呪い）
+		DisplayName: スラグバケツ
 		Tooltip:
 			'''
 			ライフが80%以上の際、被ダメージを40%軽減するが、
-			ライフが50%以上でダメージを受けると、ライフの自然回復が4秒間停止する
-			ノックバック、火のブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
-			ダメージを近くの3体の敵に全て反射する
+			ライフが50%以上でダメージを受けると、ライフが4秒間自然回復しなくなる
+			ノックバック、燃えるブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
+			接触ダメージを近くの3体の敵に全て反射する
 			[buffhint/dn炎上|self:OnFire]していてもライフが自然回復する
 			'''
 	}
@@ -7742,8 +7814,8 @@ Items: {
 		Tooltip:
 			'''
 			被ダメージを15%軽減し、ライフ自然回復を増進する
-			ノックバック、火のブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
-			ダメージを近くの3体の敵に全て反射する
+			ノックバック、燃えるブロックのダメージ[ox:、][buffhint/self:Origins/Impeding_Shrapnel_Debuff]を無効化
+			接触ダメージを近くの3体の敵に全て反射する
 			[buffhint/dn炎上|self:OnFire]していてもライフが自然回復する
 			'''
 	}
@@ -8211,7 +8283,7 @@ Items: {
 		Tooltip:
 			'''
 			最大ライフの一部が徐々にカビのライフに変換され、最大で65%が変換される
-			カビのライフは通常のライフより早く回復する
+			カビのライフは通常のライフより早く自然回復する
 			最大カビのライフが減っている間は、死ぬのが遅くなる
 			'''
 	}
@@ -8251,9 +8323,9 @@ Items: {
 		Tooltip:
 			'''
 			[buffhint/self:Suffocation]を無効化し、窒息ダメージを軽減する
-			泳げるようになり、液体内で自由に動ける
+			泳げるようになり、液体内で動きやすくなる
 			攻撃した敵に[buffhint:Origins/Cavitation_Debuff]と[buffhint:Wet]を与え[ox:、]液体内だと爆発することがある
-			爆発範囲が40%拡大
+			爆発範囲が40%広がる
 			「苦闘を通してのみ、私たちは自分自身を見出すことができる」
 			'''
 	}
@@ -8328,7 +8400,7 @@ Items: {
 		Tooltip:
 			'''
 			最大ライフの一部が徐々にカビのライフに変換され、最大で65%が変換される
-			カビのライフは通常のライフより早く回復する
+			カビのライフは通常のライフより早く自然回復する
 			最大カビのライフが減っている間は、死ぬのが遅くなる
 			現在受けている[buffhint/self:Origins/Torn_Debuff]の深刻度に応じてライフ自然回復を増進し、
 			防御力が増加し、カビのライフへの変換速度が上昇する
@@ -8358,7 +8430,7 @@ Items: {
 		DisplayName: 羽のケープ
 		Tooltip:
 			'''
-			ジャンプの高度がとても高くなり、落下ダメージを無効化する
+			ジャンプ高度が大幅に上昇し、落下ダメージを無効化する
 			ジャンプ中は重力が軽減される
 			下を押し続けると落下速度が上昇する
 			'''
@@ -8368,8 +8440,8 @@ Items: {
 		DisplayName: 蹄鉄と風船（ハーピー）
 		Tooltip:
 			'''
-			二段ジャンプが可能
-			ジャンプ高度が増加し、落下ダメージを無効化 
+			ジャンプ高度が上昇し、二段ジャンプが可能
+			落下ダメージを無効化し、運が増加 
 			ジャンプ中は重力が軽減される
 			下を押し続けると落下速度が上昇する
 			'''
@@ -8404,7 +8476,7 @@ Items: {
 
 	Heartache_Dynamite: {
 		DisplayName: ハート食いのダイナマイト
-		Tooltip: これで倒した敵は回復ハートを落としやすい
+		Tooltip: これで倒した敵は回復ハートをドロップしやすい
 	}
 
 	Sonar_Dynamite: {
@@ -8414,7 +8486,7 @@ Items: {
 
 	Brine_Key: {
 		DisplayName: 塩水の鍵
-		Tooltip: ダンジョンにある塩水の宝箱を開ける
+		Tooltip: ダンジョンにある塩水の宝箱を開けるのに使う
 	}
 
 	Mildew_Item: {
@@ -8434,7 +8506,10 @@ Items: {
 
 	Defiled_Monolith_Item: {
 		DisplayName: "{§荒廃}のモノリス"
-		Tooltip: 「第四の壁を破壊する{§荒廃}の力を少し利用する」
+		Tooltip:
+			'''
+			「第四の壁を破壊する{§荒廃}の力を少し利用する」
+			'''
 	}
 
 	Charm_Of_Naivety: {
@@ -8604,7 +8679,7 @@ Items: {
 		Tooltip:
 			'''
 			グリッチが発生する二段ジャンプが可能
-			ジャンプ高度が増加するが、落下ダメージは無効化しない
+			ジャンプ高度が上昇するが、落下ダメージは無効化しない
 			落下ダメージの86%を近くの3体の敵に分散する
 			'''
 	}
@@ -8625,7 +8700,8 @@ Items: {
 			[buffhint:Origins/Toxic_Shock_Debuff]を与える
 			地形に攻撃が当たるとアルカリのオーラを放つ
 			<right>でフレイル系の武器として使用でき、
-			<right>を離すとアンカーのように攻撃する
+			頭部を飛ばしてアンカーのように攻撃する
+			頭部が地形に当たると戻ってくる際、引っ張られる
 			'''
 	}
 
@@ -8636,7 +8712,7 @@ Items: {
 
 	Shotgun_Glove: {
 		DisplayName: ショットガングローブ
-		Tooltip: 武器を振ると弾丸が発射される
+		Tooltip: 弾丸を所持して武器を振ると弾丸を複数撃つ
 	}
 
 	Wilting_Rose_Seeds: {
@@ -8665,8 +8741,8 @@ Items: {
 			'''
 			攻撃で[buffhint:Origins/Toxic_Shock_Debuff]を与える
 			{§エイクリッド}セットを装備していると効果が強化される
-			ノックバックと火のブロックのダメージを無効化する
-			ダメージを近くの3体の敵に全て反射する
+			ノックバックと燃えるブロックのダメージを無効化する
+			接触ダメージを近くの3体の敵に全て反射する
 			敵に向かってダッシュ攻撃できる
 			横方向入力2回で高速ステップ
 			'''
@@ -8696,7 +8772,7 @@ Items: {
 		DisplayName: 黄金の蓮
 		Tooltip:
 			'''
-			アイテムを拾う距離が広がる
+			アイテムの取得範囲が広がる
 			<key>で敵のドロップアイテムの検索のオン/オフを切り替える
 			敵のドロップアイテムの上で、<key>で妖精がアイテムを運んできてくれる
 			'''
@@ -8736,12 +8812,12 @@ Items: {
 		DisplayName: 力の蓮
 		Tooltip:
 			'''
-			妖精が敵の弾や敵からあなたを守る
+			妖精が敵の弾や敵からあなたを守ってくれる
 			近接攻撃のノックバックが増加
 			近接攻撃速度が12%上昇
-			近接武器のオート攻撃を有効にする
-			近接武器のサイズを増加させる
-			アイテムを拾う距離が広がる
+			近接武器と鞭でオート攻撃が可能になる
+			近接武器のサイズが増加する
+			アイテムの取得範囲が広がる
 			<key>で敵のドロップアイテムの検索のオン/オフを切り替える
 			敵のドロップアイテムの上で、<key>で妖精がアイテムを運んできてくれる
 			'''
@@ -8843,27 +8919,27 @@ Items: {
 
 	Greater_Summoning_Potion: {
 		DisplayName: 上級召喚のポーション
-		Tooltip: 召喚できるミニオンの数が2体増える
+		Tooltip: ミニオンスロットを2つ追加
 	}
 
 	Greater_Summoning_Potato: {
 		DisplayName: 上級召喚のじゃがいも
-		Tooltip: 召喚できるミニオンの数が2体増える
+		Tooltip: ミニオンスロットを2つ追加
 	}
 
 	Fake_Defiled_Altar_Item: {
 		DisplayName: "{§ディファイルド}アルター"
-		Tooltip: 配置できる{§ディファイルド}アルター。破壊してもハードモードの鉱石は出現しない
+		Tooltip: 配置できる{§ディファイルド}アルター。破壊してもハードモードの鉱石は生成されない
 	}
 
 	Fake_Riven_Altar_Item: {
 		DisplayName: "{§リヴェン}アルター"
-		Tooltip: 配置できる{§リヴェン}アルター。破壊してもハードモードの鉱石は出現しない
+		Tooltip: 配置できる{§リヴェン}アルター。破壊してもハードモードの鉱石は生成されない
 	}
 
 	Fake_Ashen_Altar_Item: {
 		DisplayName: アシェンアルター
-		Tooltip: 配置できるアシェンアルター。破壊してもハードモードの鉱石は出現しない
+		Tooltip: 配置できるアシェンアルター。破壊してもハードモードの鉱石は生成されない
 	}
 
 	Impetus: {
@@ -8973,7 +9049,7 @@ Items: {
 
 	Mildew_Greaves: {
 		DisplayName: カビのパンツ
-		Tooltip: 召喚できるミニオンの数が2体増える
+		Tooltip: ミニオンスロットを2つ追加
 	}
 
 	Mildew_Helmet: {
@@ -8987,7 +9063,7 @@ Items: {
 
 	Plain_Broth: {
 		DisplayName: 普通のスープ
-		Tooltip: ミニオンのサイズが25%増加
+		Tooltip: ミニオンのサイズが25%大きくなる
 	}
 
 	Greasy_Broth: {
@@ -9003,7 +9079,7 @@ Items: {
 		DisplayName: 風味豊かなスープ
 		Tooltip:
 			'''
-			ミニオンが与えるデバフの持続時間が20%延長させる
+			ミニオンが与えるデバフの持続時間を20%延長させる
 			アーティファクトミニオンが[buffhint/dn断裂:Origins/Torn_Debuff]を与えるようになる
 			'''
 	}
@@ -9171,7 +9247,7 @@ Items: {
 		Tooltip:
 			'''
 			近接武器を振るたびにランダムなサイズになる
-			近接武器のオート攻撃を有効にする
+			近接武器と鞭でオート攻撃が可能になる
 			「リサイズされたグローブか。なんで小さいサイズしかないんだ？」
 			'''
 	}
@@ -9197,12 +9273,12 @@ Items: {
 
 	Large_Chambersite: {
 		DisplayName: 大きなチェンバーサイト
-		Tooltip: 争奪戦に使用する宝石。死亡時にその場に落とす
+		Tooltip: 争奪戦で使用する宝石。死亡するとその場にドロップする
 	}
 
 	Chambersite_Gem_Lock_Item: {
 		DisplayName: チェンバーサイトの錠
-		Tooltip: <right>で{$Large_Chambersite.DisplayName}を着脱
+		Tooltip: <right>で{$Large_Chambersite.DisplayName}を着脱し、オンオフを切り替える
 	}
 
 	Chambersite_Mine_Launcher: {
@@ -9225,7 +9301,7 @@ Items: {
 		Tooltip:
 			'''
 			消費しない
-			爆発範囲内のブロックはシマーに投げ込まれたように変化する
+			爆発範囲内のブロックがシマーに投げ込まれたように変化する
 			'''
 	}
 
@@ -9248,7 +9324,7 @@ Items: {
 		Tooltip:
 			'''
 			全ての攻撃速度が24%上昇
-			ジャンプ速度が増加し、落下が遅くなる
+			ジャンプ速度が上昇し、落下が遅くなる
 			'''
 	}
 
@@ -9257,7 +9333,7 @@ Items: {
 		Tooltip:
 			'''
 			弾速が15%上昇
-			近接武器のサイズが15%増加
+			近接武器のサイズが15%大きくなる
 			'''
 	}
 
@@ -9265,9 +9341,9 @@ Items: {
 		DisplayName: ゲーミンググローブ
 		Tooltip:
 			'''
-			近接攻撃のノックバックを増加
+			近接攻撃のノックバックが増加
 			近接攻撃速度が12%上昇
-			近接武器のオート攻撃を有効にする
+			近接武器と鞭でオート攻撃が可能になる
 			近接武器を振るたびにランダムなサイズになる
 			'''
 	}
@@ -9307,7 +9383,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージが12%増加し、弾速が12%上昇
-			召喚できるミニオンの数が1体増える
+			ミニオンスロットを1つ追加
 			'''
 	}
 
@@ -9342,8 +9418,8 @@ Items: {
 		Tooltip:
 			'''
 			バラを発射し、[buffhint/dn敵の速度を低下:Origins/Amnestic_Rose_Buff]させる
-			バラは敵か地形に当たると、触れた敵の速度を低下させる粘液をばら撒く
-			バラがない間はバラのつぼみを発射して攻撃し、バラか当たった敵に当たるとマナを奪う
+			バラは敵か地形に当たると爆発し、触れた敵の速度を低下させる粘液をばら撒く
+			バラがない間はバラのつぼみを発射して攻撃し、バラか当たった敵に当たるとマナを吸収する
 			「バラ、だが誰のためのバラだ？」
 			'''
 	}
@@ -9353,7 +9429,7 @@ Items: {
 		Tooltip:
 			'''
 			タグの付いた敵を追尾し、攻撃する
-			ジャンプの高度がとても高くなり、落下ダメージを無効化する
+			ジャンプ高度が大幅に上昇し、落下ダメージを無効化する
 			ジャンプ中は重力が軽減される
 			下を押し続けると落下速度が上昇する
 			'''
@@ -9364,11 +9440,11 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が8%減少
-			マナポーションを自動で使用してくれる
-			ダメージを受けた後に星を落とす
-			星を拾うとマナが回復する
+			マナがなくなるとマナポーションを自動的に使用する
+			ダメージを受けると流れ星が降ってくる
+			流れ星を拾うとマナが回復する
 			タグの付いた敵を追尾し、攻撃する
-			ジャンプの高度がとても高くなり、落下ダメージを無効化する
+			ジャンプ高度が大幅に上昇し、落下ダメージを無効化する
 			ジャンプ中は重力が軽減される
 			下を押し続けると落下速度が上昇する
 			'''
@@ -9451,7 +9527,7 @@ Items: {
 			'''
 			{$DioSet}
 			{$TODev}
-			不可解だが、空を飛ぶことができ、落下速度が低下
+			不可解だが、飛行と低速落下ができ、落下ダメージを無効化
 			'''
 	}
 
@@ -9794,10 +9870,10 @@ NPCs: {
 			# HateBiome_Mushroom: ここのトリュフは、全然美味しくないわ。
 			
 			LikeBiome_Evil: ここは私のアルカリ性の醸造液で全てを溶かし尽くすのに最適な場所だわ！
-			LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
-			LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Acid_Freak.LikeBiome_Evil}"
+			LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+			LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
 			LoveNPC: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
 			# LoveNPC_WitchDoctor: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
 			
@@ -9932,33 +10008,6 @@ NPCs: {
 			
 			DislikeNPC: "{NPCName}…かわいそうだ。もっとよく知っていたらよかったのに…。"
 		}
-
-		Dialogue: {
-			StandardDialogue1: "[player:_]、笑顔を忘れるなよ。"
-			StandardDialogue2: 普段の俺は目立ちたがり屋な方なんだが、あの日はキューブコンの連中が俺に意地悪していたようだったな。
-			StandardDialogue3: 旅行者、何か手伝えることはあるか？
-			StandardDialogue4: 正直言って、キューボイドの解剖学は、俺の知識をもってしても理解するのは簡単ではないぞ…。
-			StandardDialogue5: まだ笑えるうちに笑っておくか…
-			InteractionWizard: "{NPCName}が一体何に悩んでいるのか、本当に分からないな。旅行者、彼の気分を少しでも明るくしてくれないか？"
-			InteractionTaxCollector: 時々、{NPCName}の頭の中で何が起こっているのか本当に不思議に思う。もしかしたら、もう笑うネタが尽きてしまったのかもしれないな。
-			InteractionPartyTavernKeep: さあ、笑って盛り上がろう！アイリッシュレッドエールが飲みたい気分だ…あ、あそこにいる。
-			InteractionParty: パーティーでは、笑顔にならないのは難しいだろう…
-			InteractionWind: テラリアン、新鮮な空気はキューボコンのマトリックスからの気分転換になる。実にありがたいことだ。
-			InteractionStorm1: 嵐はいつも俺をワクワクさせてくれる。
-			InteractionStorm2: 俺はちょっと変わっているんだ…雨の日に散歩に行くのが好きだ。
-			InteractionGraveYard: アンデッドが存在しているから…量子不死には反対だ…
-			BloodMoon1: 単一の直方体マトリックスだけで様々なIQT経路の不整合を考慮するのは確かに大変だ、ツーリスト...一体何を考えているんだ？
-			BloodMoon2: 今の俺の「状況」は最悪だが、[player:_]、何か手伝えることはあるか？
-			StrangeComputerPresent: 彼は本当に賢い人だな。自分の姿をファブリケーターに保存しておくなんて。
-		}
-	}
-
-	Dusk_Trader: {
-		StandardDialogue1: それは何だ？
-		StandardDialogue2: 急げ、テラリアン。
-		StandardDialogue3: はい、ここにいる。何かご用か？
-		StandardDialogue4: 何だ？
-		BloodMoon: 興味深い。今夜は邪悪な霊にあまり悩まされることはないだろう。
 	}
 
 	Mother-Unit: {
@@ -9984,22 +10033,6 @@ NPCs: {
 	Graveshield_Zombie.DisplayName: 墓石の盾のゾンビ
 	Enchanted_Fiberglass_Cannon.DisplayName: 魔法のグラスファイバーの大砲
 	Ancient_Defiled_Flyer.DisplayName: 古代の{§荒廃}のファントム
-
-	Demolitionist: {
-		StandardDialogue9001: 面白い話があるぞ！昔、俺と同じことをする魔法使いたちがいたんだが、彼らはそれを魔法だと思っていたんだ。面白いと思わないか？
-		AshenWorld: 構造物が邪魔かって？ これはまるで俺の爆弾のために作られたみたいだな！
-		DefiledWorld: あのチャンクの岩を突破しようとしてるのか？だったら、この爆発物でぶち壊してやろうぜ！
-		RivenWorld: スキンの塊を突破しようとしてるのか？だったら、この爆弾を試してみたらどうだ？
-		BloodMoon9001: あの忌々しい怪物どもを血まみれの惨状に変えることはできないな。なぜなら、あいつらはすでに血まみれだからだ。粉々に吹き飛ばすことはできるが！
-	}
-
-	Truffle.InteractionTeenyTruffle: なんて可愛い子なんだ！痛っ！彼はそれが気に入らなかったのか…
-
-	WitchDoctor: {
-		InteractionAcidFreak1: "{NPCName}とは良好な関係を築いている。"
-		InteractionAcidFreak2: "{NPCName}は自信を体現している。私はその自信に親近感を覚える。"
-		InteractionAcidFreak3: "{NPCName}はかなり気まぐれなところがあるが、彼女はまだ若いということを理解してくれ。"
-	}
 
 
 	Dryad: {
@@ -12875,4 +12908,65 @@ CrossMod: {
 	ExpandedTooltips.Fountain: バイオームを取り巻く力は、活性化時に{0}の状態になる。
 	RecipeBrowserAnyArmor: 全て
 
+}
+
+TownNPCMood: {
+	Brine_Fiend: {
+		Content: 今日は塩水の池で泳ぎたい気分だわ。
+		NoHome: 避難する場所があればありがたいけど、私は過酷な環境には慣れているわ。
+		FarFromHome: 家に帰らないと。トロフィーの様子を見に行かなきゃ！
+		LoveSpace: この環境は、密集したジャングルとは全く違うわ。本当に。
+		DislikeCrowded: 周りに他人がたくさんいるせいで、私のビールの出来が悪くなっているわ…
+		HateCrowded: ここは私が以前塩水に潜ったときよりもはるかにひどいわ。
+		LikeBiome: ジャングルは私に喜びを与えてくれる。私は家の近くにいるし、かつては毒に満ちた迷宮だった場所もすぐそこにあるわ！
+		LoveBiome: 一団のリーダーなんてくそくらえだわ！私は堂々と寺院の中にいるわ！
+		LikeBiome_Evil: ここは私のアルカリ性の醸造液で全てを溶かし尽くすのに最適な場所だわ！
+		LikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Brine_Fiend.LikeBiome_Evil}"
+		LoveNPC: "{NPCName}の芸術作品は本当に素晴らしいわ。一緒にどんな飲み物を作ろうかしら？"
+		LikeNPC: "{NPCName}は私と同じくらい自然を愛している。私は彼女を高く評価しているわ。"
+		DislikeNPC: "{NPCName}は自分の動物を放し飼いにしていて、私の平穏を乱している。彼女は私の仕事を台無しにしているわ。"
+		HateNPC: "{NPCName}は私に近づかない方がいい。私が彼に何をするか、彼は知りたくないと思うわ。"
+		HateBiome: "{BiomeName}は嫌いだわ。"
+		LikeNPC_Princess: "{NPCName}が好きです。"
+		Princess_LovesNPC: "{NPCName}が好きですわ。"
+	}
+
+	Cubekon_Tinkerer: {
+		Content: うーん、今日はちょっとぶらぶらしたい気分なんだ、旅行者。
+		NoHome: 俺の量子ストレージバックパックは問題なく機能しているが、それでも自分の作業場を作っていろいろと試してみたいんだよね？
+		FarFromHome: 今日は十分な量のスクラップを集めた。そろそろ店に戻ろう。
+		LoveSpace: まるで子供に戻った気分だ…この部屋を見ていると色々なアイデアが湧いてくる。君が喜ぶようなアイデアではないが。
+		DislikeCrowded: 物事を批判するのはあまり好きではないが、今はちょっとプライバシーが欲しいな。
+		LikeBiome: ここはなかなか面白い場所だ。何かスクラップが転がっていないか？
+		DislikeBiome_Evil: 怖いものは苦手だが、お誘いありがとう、[player:_]。
+		DislikeBiome_Ashen: ここは働くにはすごく楽しい場所だと思うが、どうも気分が良くない。
+		DislikeBiome_Corruption: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Crimson: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Defiled_Wastelands: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		DislikeBiome_Riven_Hive: "{$Mods.Origins.TownNPCMood.Cubekon_Tinkerer.DislikeBiome_Evil}"
+		LoveNPC: 今、俺の頭の中にあるのはただ一つ、[player:_]だけ。誰だか分かるかい？
+		LikeNPC: "{NPCName}はまともな人だ。今日は機嫌が良さそうだな…"
+		DislikeNPC: "{NPCName}…かわいそうだ。もっとよく知っていたらよかったのに…。"
+	}
+
+	Defiled_Effigy: {
+		Content: 我々は今この瞬間を無駄に過ごしたいと願っている。
+		NoHome: 休息場所は、塊を風雨から守るのに最適だ。
+		FarFromHome: "[player:_]よ、我々は道に迷ってしまった。町はどこにあるのだろうか？"
+		LoveSpace: 緊張度は低く、心拍数も正常だ。
+		DislikeCrowded: ここでは我々は歓迎されていない、[player:_]よ…少しスペースを空けてほしい。
+		HateCrowded: 混雑は本能を刺激してしまう。[player:_]よ、今すぐ解決してほしい。
+		Ocean: "[player:_]よ、我々の牢獄への障壁は、その向こうにある。"
+		LoveBiome: 満足だ。兄弟や姉妹たちの魂が我々を歓迎してくれる。
+		LikeBiome: 我々がそこにいる限り、どこであってもそこは最適な住まいであり続ける。
+		HateBiome: この大地では、私たちの残骸は朽ち果てていく。テラリアンよ、我々を助けてくれ。
+		LikeNPC: "{NPCName}はまともだ。その気持ちは…お互い様だった。"
+		DislikeNPC: "{NPCName}は興味深い人物だが…我々は争いを好まない。"
+		HateNPC: "{NPCName}は我々の宿敵だ。彼女は我々のいない世界を望んでいる。"
+		LikeNPC_Princess: "{NPCName}が好きだ。"
+		Princess_LovesNPC: "{NPCName}が好きですわ。"
+	}
 }

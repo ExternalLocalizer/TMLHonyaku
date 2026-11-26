@@ -1,0 +1,23 @@
+Items: {
+	FourLeafCloverItem: {
+		DisplayName: 四つ葉のクローバー
+		Tooltip: インベントリにある間、幸運値が表示される
+	}
+
+	GoldenFourLeafCloverItem: {
+		DisplayName: 黄金の四つ葉のクローバー
+		Tooltip:
+			'''
+			インベントリにある間、幸運値が表示される
+			幸運値がわずかに上昇する
+			「あなたは本当に幸運だ」
+			'''
+	}
+}
+
+InfoDisplays: {
+	FourLeafCloverInfoDisplay: {
+		DisplayName: 幸運
+		DisplayValue: "幸運：{0}"
+	}
+}

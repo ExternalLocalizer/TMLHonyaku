@@ -1,0 +1,123 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	# Placeable
+	Xenoblade2: {
+		DisplayName: ゼノブレイド2
+		Tooltip: ""
+	}
+
+	Xenoblade2Logo: {
+		DisplayName: タイトルロゴ
+		Tooltip: ""
+	}
+
+	# Weapons
+	AegisSword: {
+		DisplayName: 聖杯の剣
+		Tooltip: "[c/FFDAB9:右クリック]で[c/FFB43D:ホムラ]と[c/E2E53D:ヒカリ]を切り替える"
+		WeaponLevel: 武器レベル {0}
+	}
+
+	PneumaSword: {
+		Tooltip: ""
+		DisplayName: プネウマの剣
+		WeaponLevel: 武器レベル {0}
+	}
+
+	PneumaWings: {
+		Tooltip: ""
+		DisplayName: プネウマの翼
+	}
+}
+
+Projectiles: {
+	ShockWave.DisplayName: 衝撃波
+	# AegisSword
+	AegisSwordSwing_Homura.DisplayName: 聖杯の剣の斬撃
+	AegisSwordSwing_Homura2.DisplayName: 聖杯の剣の斬撃
+	AegisSwordSwing_Hikari.DisplayName: 聖杯の剣の斬撃
+	AegisSwordSwing_Hikari2.DisplayName: 聖杯の剣の斬撃
+	ChangeSymbol_Homura.DisplayName: 切り替えシンボル
+	ChangeSymbol_Hikari.DisplayName: 切り替えシンボル
+	BlazeEnd.DisplayName: ブレイズエンド
+	BlazeEnd_Fire.DisplayName: ブレイズエンド
+	ProminenceRevolt.DisplayName: プロミネンスリボルト
+	ProminenceRevolt_Dive.DisplayName: プロミネンスリボルト
+	ProminenceRevolt_Fire.DisplayName: プロミネンスリボルト
+	BurningSword.DisplayName: バーニングソード
+	BurningSword_Fire.DisplayName: バーニングソード
+	BurningSword_Spark.DisplayName: バーニングソード
+	PunishmentRay.DisplayName: パニッシュメントレイ
+	PunishmentRay_Laser.DisplayName: パニッシュメントレイ
+	PunishmentRay_Impact.DisplayName: パニッシュメントレイ
+	PhotonEdge.DisplayName: フォトンエッジ
+	PhotonEdge_Teleport.DisplayName: フォトンエッジ
+	PhotonEdge_Slash.DisplayName: フォトンエッジ
+	SacredArrow.DisplayName: セイクリッドアロー
+	SacredArrow_Summon.DisplayName: セイクリッドアロー
+	SacredArrow_Luminescence.DisplayName: セイクリッドアロー
+	SacredArrow_Laser.DisplayName: セイクリッドアロー
+	SacredArrow_Explosion.DisplayName: セイクリッドアロー
+	PneumaSwordSwing2.DisplayName: プネウマの剣の斬撃2
+	PneumaSwordSwing.DisplayName: プネウマの剣の斬撃
+	StarBurstPortal.DisplayName: スターバーストポータル
+	PneumaShoot.DisplayName: プネウマショット
+	PneumaStar.DisplayName: プネウマの星
+	PneumaStar2.DisplayName: プネウマの星2
+	PneumaExplosion.DisplayName: プネウマの爆発
+	PneumaDive.DisplayName: プネウマダイブ
+	StarBurstSwing.DisplayName: スターバーストの斬撃
+	StarBurstDeathray.DisplayName: スターバーストの光線
+	GenesisSaber.DisplayName: ジェネシスセイバー
+	GenesisSaberFlame.DisplayName: ジェネシスセイバーの炎
+	GenesisSaberHeld.DisplayName: ジェネシスセイバー
+	PneumaSparkle.DisplayName: プネウマの煌めき
+	PneumaSpark.DisplayName: プネウマの火花
+	BlazeEndFire.DisplayName: ブレイズエンドの炎
+	BurningSwordSpark.DisplayName: バーニングソードの火花
+	ShiningFlareHeld.DisplayName: シャイニングフレア
+	ShiningFlare.DisplayName: シャイニングフレア
+	ShiningFlareBase.DisplayName: シャイニングフレア
+}
+
+Buffs: {
+	AegisFracture_Homura: {
+		DisplayName: 聖杯の破砕
+		Description: 聖なる炎が敵を焼き尽くす
+	}
+
+	AegisFracture_Hikari: {
+		DisplayName: 聖杯の破砕
+		Description: 聖なる光が敵の動きを鈍らせる
+	}
+
+	PneumaForce: {
+		DisplayName: プネウマの力
+		Description: 体からプネウマの力が溢れ出す！
+	}
+
+	PneumaResurrection: {
+		DisplayName: 復活
+		Description: プネウマの力があなたを蘇らせる...
+	}
+
+	PneumaResurrectionDelay: {
+		DisplayName: 復活待機
+		Description: まだ復活できない
+	}
+}
+
+Keybinds.SpecialAttack.DisplayName: 必殺技
+
+Configs: {
+	XenobladeConfig: {
+		DisplayName: ゼノブレイド設定
+		Headers.Items: アイテム
+
+		WeaponEnhancementsLevel: {
+			Label: 武器強化倍率レベル
+			Tooltip: レベルが高いほど武器が強力になります
+		}
+	}
+}

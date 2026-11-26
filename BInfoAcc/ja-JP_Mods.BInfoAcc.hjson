@@ -148,14 +148,14 @@ Items: {
 		DisplayName: エンジニアの登録簿
 		Tooltip:
 			'''
-			使用できるセントリースロットの数と、現在使用されているスロットの数を表示
+			セントリースロットの最大数と、現在使用されているスロットの数を表示
 			「セントリースロットの上限に近づいている」
 			'''
 	}
 
 	AttendanceLog: {
 		DisplayName: 出席記録
-		Tooltip: 使用できるミニオンスロットの数と、現在使用されているスロットの数を表示
+		Tooltip: ミニオンスロットの最大数と、現在使用されているスロットの数を表示
 	}
 
 	FortuneMirror: {
@@ -203,7 +203,7 @@ Items: {
 
 	Magimeter: {
 		DisplayName: マジメーター 
-		Tooltip: マナの回復量、マナを消費するアイテムを使用時の消費量を表示
+		Tooltip: マナの回復量とマナを消費するアイテム使用時の消費量を表示
 	}
 
 	WantedPoster: {
@@ -212,7 +212,7 @@ Items: {
 			'''
 			狙われやすさを表示
 			これは、敵があなたを標的にする確率を示す
-			「『生きてるか』の部分すら省略したのか…」
+			「『生死を問わず』の部分すら省略したのか…」
 			'''
 	}
 
@@ -278,7 +278,7 @@ Configs: {
 			Label: 情報更新のレート
 			Tooltip:
 				'''
-				一部の情報表示（出現率/上限、バイオームなど）は、毎フレーム情報が更新されません
+				一部の情報表示（出現率/上限やバイオームなど）は、毎フレーム情報が更新されません
 				これは、テキストのちらつきを防ぎ、遅延の可能性を低減するためです
 				更新間隔はここでカスタマイズできます。設定値は、各更新間のティック数です
 				参考までに、1秒＝60ティックです
@@ -302,8 +302,9 @@ Configs: {
 				バイオーム表示で、（サポートされている）Modバイオームが（ほとんどの）バニラバイオームより先に表示されるようにします
 				近隣の全てのバイオームは引き続き順番に表示されます。優先度の高いバイオームは、サイクルの早い段階で表示されます
 				バイオーム表示は以下のModをサポートしています:
-				「Thorium Mod」、「Calamity Mod」、「Mod of Redemption」、「Exxo Avalon Origins」、「The Stars Above」、「Spirit Mod」、「Spooky Mod」、 
-				「Confection Rebaked」、「The Depths」、「Aequus」、「Verdant」、「Food, Furniture & Fun」、「Remnants」
+				「Thorium Mod」、「Calamity Mod」、「Mod of Redemption」、「Exxo Avalon Origins」、
+				「The Stars Above」、「Spirit Mod」、「Spooky Mod」、「Confection Rebaked」、
+				「The Depths」、「Aequus」、「Verdant」、「Food, Furniture & Fun」、「Remnants」
 				'''
 		}
 
@@ -313,7 +314,7 @@ Configs: {
 				'''
 				特定の表示画面から余分な記号を削除します。具体的には、複数の情報行が交互に表示される表示画面に表示される「+」記号を削除します。
 				また、スポーン率/制限表示の前の「~」（「およそ」の略）も削除します。
-				バイオーム、コンボ、および出現率/上限の表示に影響します
+				バイオーム、コンボ、出現率/上限の表示に影響します
 				'''
 		}
 	}
