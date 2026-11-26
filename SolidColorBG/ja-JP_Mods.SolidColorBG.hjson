@@ -1,0 +1,56 @@
+Configs: {
+	SolidColorBGConfig: {
+		DisplayName: Solid Color Background 設定
+
+		Enabled: {
+			Label: 背景色の変更を有効化
+			Tooltip: 
+				'''
+				背景を単色に置き換えます
+				操作設定から切り替えキーを設定できます
+				'''
+		}
+
+		ColorUnderground: {
+			Label: 地下層の背景にも色を適用
+			Tooltip: 
+				'''
+				洞窟や地下世界の背景にも色を適用します
+				無効の場合、背景は黒のままになります
+				'''
+		}
+
+		UndergroundDarkness: {
+			Label: 地下の暗さ
+			Tooltip: 光のない場所での背景色の表示方法を設定します
+		}
+
+		BackgroundColor: {
+			Label: 背景色
+			Tooltip: 色を選択するか、カラーコード（#RRGGBB）を入力します
+		}
+
+		Headers.Color: カラー設定
+	}
+
+	UndergroundDarknessMode: {
+		ColorEverywhere: {
+			Label: すべての場所に色を適用
+			Tooltip: 完全な暗闇でも背景色が表示されます
+		}
+
+		BlackInDarkness: {
+			Label: 暗闇では黒くする
+			Tooltip: 光のない場所は黒くなります
+		}
+
+		FollowLighting: {
+			Label: 光量に合わせる
+			Tooltip: バニラの洞窟と同様に、光量に応じて背景色が薄くなります
+		}
+
+		Tooltip: ""
+	}
+}
+
+Keybinds.ToggleBackground.DisplayName: 背景色の切り替え
