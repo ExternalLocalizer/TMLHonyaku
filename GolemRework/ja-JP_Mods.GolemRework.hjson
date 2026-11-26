@@ -1,83 +1,83 @@
 ItemDescriptions: {
-    GrenadeLauncher:
-        '''
-        右クリックを長押しして手動起爆モードに入る
-        右クリックを離してすべての弾頭を起爆する
-        '''
-    RocketLauncher:
-        '''
-        右クリックでマウスカーソルに最も近いターゲットをマーク
-        ロケットはマークされたターゲットを追跡する
-        '''
-    NettleBurst:
-        '''
-        左クリックで棘を発射
-        右クリックで種を発射し、敵に命中すると花が咲く
-        花が付いた敵に棘を当てると花が爆発
-        花の爆発時に近くの棘が壊れる
-        花の爆発は近くの花も爆発させ、次の棘の発射に一時的なダメージブーストを付与
-        '''
-    ChlorophyteBullet:
-        '''
-        複数回貫通し、壁に当たると跳ね返る
-        近くに敵がいれば、代わりに敵に向かって跳ねる
-        '''
-    ChlorophyteClaymore:
-        '''
-         数回跳ねる
-        左クリックを長押ししてオーブをチャージし、一定時間後に離して強力な攻撃を行う
-        右クリックで通常攻撃
-        強力な攻撃は表面に当たると跳ねる巨大な衝撃波を生成
-        '''
-    ChlorophyteSaber: 刃で敵を攻撃すると胞子の雲を生成
-    ChlorophytePartisan:
-        '''
-        その場に留まる葉を生成し、プレイヤーに固定される
-        3回目の攻撃ごとに、の貫通槍を前方に突き出し、葉を発射
-        葉は最も近い敵にホーミングする
-        '''
-    GolemEye: 5回目の攻撃は必ずクリティカルヒット
-    Stynger:
-        '''
-        5本のボルトのマガジンを持つ
-        弾薬を消費しない場合、マガジンのボルトは減らない
-        マガジンが満タンのとき、右クリックですべてのボルトを一度に発射
-        '''
-    HeatRay:
-        '''
-        一定時間後にオーバーヒートし、与ダメージが増加し、ターゲットを焦がす
-        オーバーヒート時にビームが敵の鎧を溶かし、防御力を下げる
-        焦がされたターゲットを攻撃すると、発火する可能性がある
-        '''
-    NanoBullet: 混乱を引き起こし、ターゲットを追いかける
-    PulseBow:
-        '''
-        タップで通常の矢を射る
-        引き絞ると矢の威力が上がり、最大まで引くと武器がチャージされる
-        チャージして矢をパルスボルトに変換
-        パルスボルトを3回撃つと、次の2回のチャージショットがパルスレイになる
-        2回のパルスレイを撃つとチャージ時間が短縮
-        シュルマイト装備時に攻撃中でもステルスが蓄積可能
-        '''
-    LaserMachineGun: 最大発射速度でシールドを生成し、受けるダメージを最大25%軽減
-    ButchersChainsaw:
-        '''
-        ターゲットを連続で攻撃すると、ユーザーを空中に浮遊させる
-        右クリックでチェーンソーをターゲットに投げ、くっついて継続ダメージを与える
-        一度に最大2本のチェーンソーを投げられる
-        '''
+	GrenadeLauncher:
+		'''
+		右クリックを長押しして手動起爆モードに入る
+		右クリックを離してすべての弾頭を起爆する
+		'''
+	RocketLauncher:
+		'''
+		右クリックでマウスカーソルに最も近いターゲットをマーク
+		ロケットはマークされたターゲットを追跡する
+		'''
+	NettleBurst:
+		'''
+		左クリックで棘を発射
+		右クリックで種を発射し、敵に命中すると花が咲く
+		花が付いた敵に棘を当てると花が爆発
+		花の爆発時に近くの棘が壊れる
+		花の爆発は近くの花も爆発させ、次の棘の発射に一時的なダメージブーストを付与
+		'''
+	ChlorophyteBullet:
+		'''
+		複数回貫通し、壁に当たると跳ね返る
+		近くに敵がいれば、代わりに敵に向かって跳ねる
+		'''
+	ChlorophyteClaymore:
+		'''
+		数回跳ねる
+		左クリックを長押ししてオーブをチャージし、一定時間後に離して強力な攻撃を行う
+		右クリックで通常攻撃
+		強力な攻撃は表面に当たると跳ねる巨大な衝撃波を生成
+		'''
+	ChlorophyteSaber: 刃で敵を攻撃すると胞子の雲を生成
+	ChlorophytePartisan:
+		'''
+		その場に留まる葉を生成し、プレイヤーに固定される
+		3回目の攻撃ごとに、貫通槍を前方に突き出し、葉を発射
+		葉は最も近い敵にホーミングする
+		'''
+	GolemEye: 5回攻撃するごとに必ずクリティカルヒット
+	Stynger:
+		'''
+		5本のボルトのマガジンを持つ
+		弾薬を消費しない場合、マガジンのボルトは減らない
+		マガジンが満タンのとき、右クリックですべてのボルトを一度に発射
+		'''
+	HeatRay:
+		'''
+		一定時間後にオーバーヒートし、与ダメージが増加し、ターゲットを焦がす
+		オーバーヒート時にビームが敵の鎧を溶かし、防御力を下げる
+		焦がされたターゲットを攻撃すると、発火する可能性がある
+		'''
+	NanoBullet: 混乱を引き起こし、ターゲットを追いかける
+	PulseBow:
+		'''
+		タップで通常の矢を射る
+		引き絞ると矢の威力が上がり、最大まで引き切った状態でさらに引き続けると武器がチャージされる
+		チャージして矢をパルスボルトに変換
+		パルスボルトを3回撃つと、次の2回のチャージショットがパルスレイになる
+		2回のパルスレイを撃つとチャージ時間が短縮
+		シュルーマイト装備時に攻撃中でもステルスが蓄積可能
+		'''
+	LaserMachineGun: 最大発射速度でシールドを生成し、受けるダメージを最大25%軽減
+	ButchersChainsaw:
+		'''
+		ターゲットを連続で攻撃すると、ユーザーを空中に浮遊させる
+		右クリックでチェーンソーをターゲットに投げ、くっついて継続ダメージを与える
+		一度に最大2本のチェーンソーを投げられる
+		'''
 
 	ShinyStone: {
 		Tooltip:
 			'''
 			失ったライフに基づいて一時的に防御力を増加
-			最大自然ライフ再生に達する時間を短縮
+			ライフ自然回復が最大になるまでの時間を短縮
 			マナ再生遅延を大幅に短縮
 			'''
-			TooltipFlavor: 「守護者となれ」
-			TooltipThoriumMod: 光輝ダメージ、キャスト速度、クリティカル率が10%増加
-			TooltipGeneral: 輝く石の効果
-		}
+		TooltipFlavor: 「守護者となれ」
+		TooltipThoriumMod: 神聖ダメージ、詠唱速度、クリティカル率が10%増加
+		TooltipGeneral: 輝く石の効果
+	}
 }
 
 Buffs: {
@@ -92,27 +92,27 @@ Buffs: {
 }
 
 Items: {
-    CursedTotem: {
-        DisplayName: 呪われたトーテム
-        Tooltip:
-            '''
-            共に戦う憑依されたリザード像を召喚する
-            足場の上には設置できない
-            '''
-    }
+	CursedTotem: {
+		DisplayName: 呪われたトーテム
+		Tooltip:
+			'''
+			共に戦う憑依されたリザード像を召喚する
+			足場の上には設置できない
+			'''
+	}
 
 	GraspofGrass: {
 		DisplayName: 草の掌握
 		Tooltip:
 			'''
 			6連射のコンボで種を撃つ
-			最初の2発は高ダメージの毒性種をゆっくりとした間隔で撃つ
-			次の3発は低ダメージの毒性種を素早く連射
+			最初の2発は高ダメージの猛毒の種をゆっくりとした間隔で撃つ
+			次の3発は低ダメージの毒の種を素早く連射
 			最後の1発は複数回ヒット可能な棘の球を発射する
 			武器を保持中、花の妖精が戦闘を補助
-			妖精はミニオンダメージを与え、ミニオンボーナスを受ける
-			妖精はミニオンタグ付きのターゲットのみ攻撃
-			種はミニオンタグを付与するが、インジケーターは表示されない
+			妖精は召喚ダメージを与え、召喚ボーナスを受ける
+			妖精は召喚タグ付きのターゲットのみ攻撃
+			種はターゲットに召喚タグを付与するが、インジケーターは表示されない
 			種とダーツを弾薬として使用
 			「この草に触れてみよ」
 			'''
@@ -153,247 +153,84 @@ Items: {
 		DisplayName: テンプルリンク
 		Tooltip:
 			'''
-			このワールドの寺院の祭壇にテレポートする
+			このワールドのリザードの祭壇にテレポートする
 			「リザードが溶岩ランプを使ってたなんて誰が知ってた？」
 			'''
 	}
 }
 
 NPCs: {
-    Alraune: {
-        DisplayName: アルラウネ
-    }
-
-	Golem: {
-		DisplayName: ゴーレム
-	}
-
-	GolemHead: {
-		DisplayName: ゴーレムの頭
-	}
-
-	GiantFireball: {
-		DisplayName: 巨大火球
-	}
-
-	LihzahrdPin: {
-		DisplayName: リザードピン
-	}
-
-	LivingStatue: {
-		DisplayName: 生きたリザード像
-	}
-
-	Plantera: {
-		DisplayName: プランテラ
-	}
-
-	PlanteraHook: {
-		DisplayName: プランテラフック
-	}
-
-	TempleWarden: {
-		DisplayName: テンプルウォーデン
-	}
+	Alraune.DisplayName: アルラウネ
+	Golem.DisplayName: ゴーレム
+	GolemHead.DisplayName: ゴーレムの頭
+	GiantFireball.DisplayName: 巨大火球
+	LihzahrdPin.DisplayName: リザードピン
+	LivingStatue.DisplayName: 生きたリザード像
+	Plantera.DisplayName: プランテラ
+	PlanteraHook.DisplayName: プランテラフック
+	TempleWarden.DisplayName: テンプルウォーデン
 }
 
 Projectiles: {
-	Alraune: {
-		DisplayName: Alraune
-	}
-
-	BloomerShot: {
-		DisplayName: Bloomer
-	}
-
-	BurstFlower: {
-		DisplayName: Burst Flower
-	}
-
-	ChlorophyteClaymore: {
-		DisplayName: Chlorophyte Claymore
-	}
-
-	ChlorophyteSaber: {
-		DisplayName: Chlorophyte Saber
-	}
-
-	CrystalLeaf: {
-		DisplayName: Crystal Leaf
-	}
-
-	DeathSickle: {
-		DisplayName: Death Sickle
-	}
-
-	Explosion: {
-		DisplayName: Explosion
-	}
-
-	GolemBoulder: {
-		DisplayName: Golem Boulder
-	}
-
-	GolemFist: {
-		DisplayName: Golem Fist
-	}
-
-	GolemGrab: {
-		DisplayName: Golem Grab
-	}
-
-	GolemMount: {
-		DisplayName: Lihzahrd Mech Suit MK-44
-	}
-
-	GolemMountPunch: {
-		DisplayName: Lihzahrd Punch
-	}
-
-	GolemStomp: {
-		DisplayName: Golem Stomp
-	}
-
-	GrenadeLauncher: {
-		DisplayName: Grenade Launcher
-	}
-
-	GruntSlap: {
-		DisplayName: Grunt Slap
-	}
-
-	HeatRay: {
-		DisplayName: Heat Ray
-	}
-
-	IgneousFireball: {
-		DisplayName: Igneous Fireball
-	}
-
-	Ignition: {
-		DisplayName: Ignition
-	}
-
-	LihzahrdBoulder: {
-		DisplayName: Lihzahrd Boulder
-	}
-
-	LihzahrdExecutioner: {
-		DisplayName: Lihzahrd Executioner
-	}
-
-	LihzahrdScrap: {
-		DisplayName: Lihzahrd Scrap
-	}
-
-	LihzahrdSpike: {
-		DisplayName: the architects
-	}
-
-	LivingStatue: {
-		DisplayName: Possessed Lihzahrd Statue
-	}
-
-	MiniSun: {
-		DisplayName: Solar Grenade
-	}
-
-	PlanteraCrystalLeafRing: {
-		DisplayName: Crystal Leaf
-	}
-
-	PlanteraFlower: {
-		DisplayName: Burst Flower
-	}
-
-	PlanteraLeaf: {
-		DisplayName: Leaf
-	}
-
-	PlanteraNote: {
-		DisplayName: Note
-	}
-
-	PlanteraSeed: {
-		DisplayName: Seed
-	}
-
-	PlanteraSpore: {
-		DisplayName: Spore
-	}
-
-	PlanteraSporeCloud: {
-		DisplayName: Spore Cloud
-	}
-
-	PlanteraTentacle: {
-		DisplayName: Venus Flytrap
-	}
-
-	PlanteraThornBall: {
-		DisplayName: Thorn Ball
-	}
-
-	PlanteraVine: {
-		DisplayName: Nettle Burst
-	}
-
-	PossessedHatchet: {
-		DisplayName: Possessed Hatchet
-	}
-
-	PulseBow: {
-		DisplayName: Pulse Bow
-	}
-
-	PulseRay: {
-		DisplayName: Pulse Ray
-	}
-
-	RetaliationSwarm: {
-		DisplayName: Retaliation Swarm
-	}
-
-	RocketLauncher: {
-		DisplayName: Rocket Launcher
-	}
-
-	ScorchedArrow: {
-		DisplayName: Scorched Arrow
-	}
-
-	ScorchedEarth: {
-		DisplayName: Scorched Earth
-	}
-
-	Stynger: {
-		DisplayName: Stynger
-	}
-
-	StyngerBolt: {
-		DisplayName: Stynger Bolt
-	}
-
-	SunBeam: {
-		DisplayName: Sun Beam
-	}
-
-	Sunbracers: {
-		DisplayName: Sunbracers
-	}
+	Alraune.DisplayName: アルラウネ
+	BloomerShot.DisplayName: ブルーマー
+	BurstFlower.DisplayName: 爆ぜる花
+	ChlorophyteClaymore.DisplayName: クロロファイトの大剣
+	ChlorophyteSaber.DisplayName: クロロファイトセーバー
+	CrystalLeaf.DisplayName: クリスタルリーフ
+	DeathSickle.DisplayName: 死神の鎌
+	Explosion.DisplayName: 爆発
+	GolemBoulder.DisplayName: ゴーレムの大岩
+	GolemFist.DisplayName: ゴーレムの拳
+	GolemGrab.DisplayName: ゴーレムのつかみ
+	GolemMount.DisplayName: リザードメカスーツMK-44
+	GolemMountPunch.DisplayName: リザードパンチ
+	GolemStomp.DisplayName: ゴーレムの踏みつけ
+	GrenadeLauncher.DisplayName: グレネードランチャー
+	GruntSlap.DisplayName: グラントスラップ
+	HeatRay.DisplayName: 熱線銃
+	IgneousFireball.DisplayName: イグニアスファイアボール
+	Ignition.DisplayName: 発火
+	LihzahrdBoulder.DisplayName: リザードの大岩
+	LihzahrdExecutioner.DisplayName: リザードエクセキューショナー
+	LihzahrdScrap.DisplayName: リザードの破片
+	LihzahrdSpike.DisplayName: 建築家たち
+	LivingStatue.DisplayName: 憑依されたリザード像
+	MiniSun.DisplayName: ソーラーグレネード
+	PlanteraCrystalLeafRing.DisplayName: クリスタルリーフ
+	PlanteraFlower.DisplayName: 爆ぜる花
+	PlanteraLeaf.DisplayName: 葉
+	PlanteraNote.DisplayName: 音符
+	PlanteraSeed.DisplayName: 種
+	PlanteraSpore.DisplayName: 胞子
+	PlanteraSporeCloud.DisplayName: 胞子の雲
+	PlanteraTentacle.DisplayName: ハエトリグサ
+	PlanteraThornBall.DisplayName: 棘の球
+	PlanteraVine.DisplayName: ネトルバースト
+	PossessedHatchet.DisplayName: 狂気の手斧
+	PulseBow.DisplayName: パルスボウ
+	PulseRay.DisplayName: パルスレイ
+	RetaliationSwarm.DisplayName: 報復の群れ
+	RocketLauncher.DisplayName: ロケットランチャー
+	ScorchedArrow.DisplayName: 焼け焦げた矢
+	ScorchedEarth.DisplayName: 焦土
+	Stynger.DisplayName: スティンガー
+	StyngerBolt.DisplayName: スティンガーボルト
+	SunBeam.DisplayName: 太陽光線
+	Sunbracers.DisplayName: サンブレイサー
 }
 
 Configs: {
-    ReworkConfig: {
-        DisplayName: リワーク設定
+	ReworkConfig: {
+		DisplayName: リワーク設定
 
 		plantera: {
 			Label: "[i/s1:2109] プランテラリワーク"
 			Tooltip:
 				'''
 				プランテラのリワークを有効にします。他のModと競合する場合はオフにしてください
-				Eternity Mode および Revengeance Mode と互換性があり、これらがオンの場合でもオフにする必要はありません
-				（注意：攻撃パターンは上書きではなく、組み合わせられます！）
+				Eternity ModeおよびRevengeance Modeと互換性があり、これらがオンの場合はオフにする必要はありません
+				（注：攻撃パターンは上書きではなく、組み合わせられます！）
 				'''
 		}
 
@@ -402,8 +239,8 @@ Configs: {
 			Tooltip:
 				'''
 				ゴーレムのリワークを有効にします。他のModと競合する場合はオフにしてください
-				Eternity Mode および Revengeance Mode と互換性があり、これらがオンの場合でもオフにする必要はありません
-				（注意：攻撃パターンは上書きではなく、組み合わせられます！）
+				Eternity ModeおよびRevengeance Modeと互換性があり、これらがオンの場合はオフにする必要はありません
+				（注：攻撃パターンは上書きではなく、組み合わせられます！）
 				'''
 		}
 
@@ -423,12 +260,12 @@ Configs: {
 		}
 
 		masterDropsAreNonExclusive: {
-			Label: マスターモード武器ドロップをエキスパートドロップへ
+			Label: マスターモード限定武器をエキスパートでもドロップ
 			Tooltip:
 				'''
-				マスターモード限定の武器がエキスパートモードでもドロップします
-				マスターモードをプレイしたくない場合や、他のModがマスタードロップを壊す場合に推奨
-				（例：Eternity Modeが masochist mode になる、 infernum がマスターモードで使用できない）
+				マスターモード専用の武器がエキスパートモードでもドロップします
+				マスターモードをプレイしたくない場合や、他のModでマスターモードのドロップに問題が生じる場合に推奨します
+				（例：Eternity Modeがmasochist modeになる、infernumがマスターモードで使用できない）
 				'''
 		}
 
@@ -438,7 +275,7 @@ Configs: {
 		}
 
 		bullet: {
-			Label: "[i/s1:1179][i/s1:1350] クロロファイトおよびナノ弾のリバランス"
+			Label: "[i/s1:1179][i/s1:1350] クロロファイト弾およびナノバレットのリバランス"
 			Tooltip:
 				'''
 				ナノバレットとクロロファイト弾の機能を入れ替え、強化します
@@ -449,7 +286,7 @@ Configs: {
 
 		golemEye: {
 			Label: "[i/s1:1248] ゴーレムの目リワーク"
-			Tooltip: ゴーレムの目を装備すると、5回目の攻撃が必ずクリティカルヒットになります
+			Tooltip: ゴーレムの目を装備すると、5回攻撃するごとに必ずクリティカルヒットになります
 		}
 
 		GL: {
@@ -464,7 +301,7 @@ Configs: {
 
 		nettleBurst: {
 			Label: "[i/s1:788] ネトルバーストリワーク"
-			Tooltip: ネトルバーストに代替射撃を追加し、敵に付着して咲く花の種を発射、咲いた敵を攻撃すると小さな爆発を起こします
+			Tooltip: ネトルバーストに、敵に付着して花を咲かせる種を発射する代替射撃を追加します。花が付いた敵を攻撃すると小さな爆発を起こします
 		}
 
 		possessedHatchet: {
@@ -478,8 +315,8 @@ Configs: {
 		}
 
 		leafSaber: {
-			Label: "[i/s1:1227] クロロファイトセイバーリワーク"
-			Tooltip: クロロファイトセイバーに新しい攻撃アニメーションと胞子生成方法の変更を追加します
+			Label: "[i/s1:1227] クロロファイトセーバーリワーク"
+			Tooltip: クロロファイトセーバーに新しい攻撃アニメーションと胞子生成方法の変更を追加します
 		}
 
 		leafPartisan: {
@@ -506,29 +343,29 @@ Configs: {
 			Label: "[i/s1:2223] パルスボウリワーク"
 			Tooltip:
 				'''
-				パルスボルトの挙動をターゲットに向かって跳ねるように変更し、武器にチャージメカニックを追加
-				シュルマイト装備との相性が向上し、攻撃中でもステルスを蓄積可能
+				パルスボルトの挙動をターゲットに向かって跳ねるように変更し、武器にチャージ機能を追加します
+				シュルーマイト装備との相性が向上し、攻撃中でもステルスを蓄積できます
 				ただし、弓自体は透明にならず、ユーザーはチャージの進行状況を確認できます
 				'''
 		}
 
 		LMG: {
 			Label: "[i/s1:2795] レーザーマシンガンリワーク"
-			Tooltip: レーザーマシンガンは速度上昇中に発射しなくなりますが、ユーザーにシールドを付与します
+			Tooltip: レーザーマシンガンは発射速度が上がりきるまで弾を発射しなくなりますが、ユーザーにシールドを付与します
 		}
 
 		chainsaw: {
 			Label: "[i/s1:3098] ブッチャーのチェーンソーリワーク"
 			Tooltip:
 				'''
-				ブッチャーのチェーンソーにウィンドアップメカニックを追加し、1秒あたりのヒット数が大幅に増加
+				ブッチャーのチェーンソーに回転数を上げる仕組みを追加し、1秒あたりのヒット数が大幅に増加します
 				この武器はターゲットにヒットしている間、ユーザーを一時的に空中に留めます
 				'''
 		}
 
 		shinyStone: {
 			Label: "[i/s1:3337] 輝く石リワーク"
-			Tooltip: 輝く石は失った体力に基づいて一時的な防御力を付与し、Thoriumが有効な場合、光輝ステータスを増加します
+			Tooltip: 輝く石は失ったライフに基づいて一時的な防御力を付与し、Thoriumが有効な場合、光輝ステータスを増加します
 		}
 
 		maceWhip: {
@@ -542,6 +379,3 @@ Configs: {
 		}
 	}
 }
-
-
-
